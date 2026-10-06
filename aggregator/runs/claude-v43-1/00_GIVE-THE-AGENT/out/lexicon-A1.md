@@ -936,3 +936,75 @@ PRAISE BENNING | canucks | dfp1oiu | h23.89
 This means war! One-pixel-every-5-minutes of WAR! | PUBATTLEGROUNDS | dfqjca3 | h50.68
 INPOLDERING | mindcrack | 639cud | h76.42
 turkish friendos | azerbaijan | dfs227w | h73.82
+The void does not negotiate. The void consumes. | theblackvoid | dfqcead | h48.17
+Not your personal army. | theblackvoid | dfrlb7v | h67.50
+NO ALLIANCES ONLY CONSUME | theblackvoid | 62sg03 | h20.58
+FUK KYL | eagles | 62vub0 | h29.98
+the hive took it over | rainbowgrid | dfrimct | h65.41
+neighbors in Idol Hell | starlightstage | dfrj5ev | h65.87
+MEGANE IS JUSTICE | starlightstage | dfop9e5 | h15.95
+Don't get too greedy. We are few and must defend the logo. | funhaus | dfpku3m | h31.80
+Punhaus | funhaus | dfpgws5 | h30.14
+punhaus | funhaus | dfpgws5 | h30.14 (supersedes the line above, which capitalised the room's word)
+Better not take their flag. Not just because it's rude | FaroeIslands | dfrq0c7 | h69.79
+Operation Mario | nintendo | dfrnlyx | h68.76
+There is currently an active megathread for this! | nintendo | dfrnlyx | h68.76 (supersedes the line above: 'Operation Mario' was the coder's label, not words seen in the item)
+i started this up awhile ago thinking that i'd be doing it on my own | uiowa | dfr9x0v | h60.02
+You're hired! (I had no authority to make that decision, but fuck it.) | mysterydungeon | dfsl2i5 | h80.07
+DEVS VULT! | CKCrusaders | 636bmv | h68.07
+it's a fun scavenger hunt for people who do not know exactly where they are | tinytardis | dfrwkhd | h72.03
+Every 5mins I will fight back these demons | berserk | dfqh9z2 | h49.95
+It's a goddamn revolution. | twitch | dfqh26v | h49.87
+Yalla | kuwait | dfq1hk6 | h41.14
+Can two fellow 80's icon lovers live and let live? | transformers | dfrs5dc | h70.58
+keep /r/place neutral | nyjets | dfqbmpe | h47.87
+We vallen geen buren aan, we polderen ons er gewoon omheen! | thenetherlands | dfs5i9g | h74.90
+Street Artists' Code | palestine | dfpxpiy | h38.04
+They don't touch us we don't touch them. | palestine | dfptt96 | h35.80
+Flag is about America, not about trump. This isn't a political project. | AmericanFlaginPlace | dfq75vv | h45.86
+Unlike our forefathers, we should pay respect to those whose lands we've taken. | AmericanFlaginPlace | 62xu4m | h36.62
+The Tree Was Not Saved - Sorry Tree | AmericanFlaginPlace | 62xs28 | h36.38
+This is intersub diplomacy, son. It's not a competition. | zootopia | dfpcf2b | h28.24
+The bot (with 7+ accs) rules the image now | zootopia | dfqy4e4 | h56.02
+there is only r/kubo | zootopia | dfogrr5 | h11.08
+Come Help Us Create a Colorado Colleges Area | CSUFoCo | 63447x | h58.81
+LSU took our spot. We need to reinstate CSU! | CSUFoCo | dfrxkh6 | h72.36
+Clear four lines at once. What else? | tetris | dfs4osk | h74.64
+there's a void patch near 194/412, lets make a tetris | tetris | 637fbz | h71.31
+not ace but devoting my pixels to fixing it o/ | asexual | dfpflg2 | h29.58
+we let little rick overlap our flag, don't be dicks | asexual | dfr60dy | h58.68
+Americans are going to bed and require oceanic help | oltp | 62qjzc | h12.31
+réduit | switzerland | dfow0fg | h21.36
+Last time Switzerland was in a war was 1812, cmon let's go! | switzerland | 62ufu7 | h26.28
+expansion by mutual consent with our neighbours | switzerland | dfrict5 | h65.17
+the more we spread out and cover other peoples' work, the more likely we are to be vandalized | starbound | dfqhjy1 | h50.05
+the Green Lattice doesn't want newcomers in that space | starbound | dfr406k | h58.01
+Hello Aprilfish! | starbound | 62tkos | h24.02
+We already made an agreement with them that we would leave them alone if they left us alone | pitt | dfrbot9 | h60.76
+Please don't crowd out our Zia. | pitt | dfrs0rv | h70.53
+42-39 is enough of a victory | pitt | dfqhrof | h50.12
+Our place on r/place is gone, but I captured its most perfect form | futanari | 63724u | h70.34
+Place thing I did over a couple hours | futanari | 62xptp | h36.14
+kU conspiring against us | mizzou | 632p0c | h54.37
+Just checked this morning. It's gone. | mizzou | dfrmjc7 | h68.22
+Takto sa nam zachova nasa vlajka. | Slovakia | dfrp0xm | h69.40
+ABORT MISSiON! ATTACK SHAWN INSTEAD! | Slovakia | dfrocrf | h69.11
+The Defiance | Slovakia | 6375zm | h70.64
+Without bots, we're useless. | raocow | dfrjys8 | h66.54
+We gave it a solid try! | raocow | dfsvai7 | h83.54
+Your flag is on **Dutch** ground leave now or you will be fired upon. | singapore | 634s33 | h61.21
+Calling all the NS bois | singapore | dfrv546 | h71.57
+flaggy flag | singapore | dfrkugz | h67.19
+SURROUND IT IN BLUE SO BLUE CORNER IGNORES US | TeamDignitas | dfogzv0 | h11.18
+Vandalism is bad, mkay? Trash talk, on the other hand... | TeamDignitas | dfofxvs | h10.72
+Yellow man | TeamDignitas | dfs0suv | h73.43
+We outlasted TSM's logo (which is gone) | TeamDignitas | dfsvm97 | h73.43
+Could our own team stop fighting against the TW#1 in white please? | taiwan | dfrq8rm | h69.88
+TAIWAN #1 | taiwan | dft5wtw | h90.44
+It ended up helping us and backfired on them superbly. | taiwan | dfsueiy | h83.21
+Greed could be our undoing | criticalrole | dfrdow7 | h61.79
+Critters, you're being called to action | criticalrole | dfqrrwx | h53.81
+having two links is causing some confusion around the **I** and were fighting ourselves | criticalrole | dfr1t1x | h57.28
+If Oda and Kishimoto sensei can be best friends, so can we. | OnePiece | dfq7bc5 | h45.94
+pirate-ninja alliance | OnePiece | dfqd735 | h48.47
+All nakama please assist! | OnePiece | 631mgr | h51.35

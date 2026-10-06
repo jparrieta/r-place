@@ -552,3 +552,28 @@ leg A1b-14 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 938 lines, running file 435 lines, leads 1,844 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. Two lexicon lines were superseded by appended lines: a belgium line cut short at "terro", and a polandball line that took the coder's label "Polandparagraphs" instead of the room's words "poland paragraph day". Two diary lines were corrected by later diary lines (armok wrongly listed as a room whose first builder brought a script; croatia's record does hold the three-pixel request that undertale names). Struck-by lines for Dominican and PUBATTLEGROUNDS were first drafted from the coder's summaries and corrected to the room's exact words before logging. Rooms named in the record but outside the frame got no lead line (r/shyvanamains, r/FlagAlliance, r/Vigne, r/716Place, r/CFBOT and others). The r/canucks thread carries antisemitic jokes about a rumoured r/Israel plan; the note records them as what was said. No new artwork with placements before hour 0 was found. Onset contrast, block 14: nine early rooms (bitcoin, splatoon, kingdomhearts, undertale, smashbros, fivenightsatfreddys, kanye, runescape, floridagators) and two late rooms (vietnam, of the fifth kind; azerbaijan, of the possible sixth kind first seen in CelticFc).
+
+## Close report, leg A1b-15 (block 15), 2026-10-06
+
+Block 15 read whole: 37 of 37 rooms noted, 571 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 571 over an analysed set of 705
+  134 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-15 cut=none 20261006T212817Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-15 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,010 lines, running file 463 lines, leads 1,984 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. Three lexicon lines were superseded by appended lines: funhaus "Punhaus" by "punhaus"; nintendo "Operation Mario" by the item's words; TeamDignitas "Yellow man", a coder's label, by "We outlasted TSM's logo (which is gone)". r/rainbowgrid's "noted" line was logged before the word-limit hook passed; the note was then trimmed and the slip logged. r/nyjets' ended line was corrected from c0154 to c0144. r/oltp has one concept and carries it three times, as r/nonbinary and r/yerbamate do. The head was rewritten whole at 2,901 words. Two new artworks with placements before hour 0: r/rainbowgrid's Rainbow Grid (h-12.27) and r/AmericanFlaginPlace's USA / Canvas Center (h-15.92) with E pluribus unum (h-14.51), fourteen cases in all; the possible defect is still unfiled. Onset contrast, block 15: five early rooms (thenetherlands, zootopia, eagles, nintendo, starlightstage) and four late rooms (rainbowgrid, a sub formed around a pattern already there; mysterydungeon and CSUFoCo, ask and move; tetris, one member alone after the close).

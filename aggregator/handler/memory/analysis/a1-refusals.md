@@ -7,3 +7,7 @@ Target length: under 250 words. Handler analysis, 2026-10-06; full note to the o
 - One Read was refused (`outside_reads_blocked`): a file in the CLI scratchpad's root, outside the allowed slug folder.
 - Counts per leg are in `diary.md`: 0 to 6 per leg, the analyst worked around each. No `guard.log` through A1b-13.
 - Risk J named: the refusal texts ("don't ask mode", "ask the user ... /add-dir") could make the analyst think it cannot reach J. No such line seen through A1b-13; QA1-001 shows `mem.py ask` works.
+
+## Guard (added 21:25Z)
+
+- First `guard.log` line at A1b-15, 21:21:17Z: `pretool_guard.py` read "ops rm" inside quoted JSON text as a file delete and refused the whole `echo ... >> out/leads-A1.jsonl`. The analyst reworded the lead and ran it again. A false positive; it also shows the guard hook fires in a headless turn.
