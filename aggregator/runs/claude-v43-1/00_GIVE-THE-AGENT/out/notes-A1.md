@@ -110,6 +110,8 @@ A room a hundred times larger carries about eleven times the concepts and under 
 
 concept_reach_threshold: 0 (items_in_window). Every room is read at concept level, not only through its second-order themes, at C2 to D3 (`cite.py` reaches concepts in every room), and stage E1 reads unplaced concepts in every room. The reason: the measure gives no cut, and the slopes show the second-order tier compressing large rooms most (0.231 against 0.530). A cut at 0 is the setting that cannot miss a room. This rests on QA1-001. If the answer names another measure, I recompute it and declare the threshold again by a logged departure.
 
+QA1-001 answered at leg A1b-02: the principal investigator confirms the reading and the threshold of 0. No substitute measure is to be invented. The concept reach measure gives no cut in this store: every concept carries a theme_id, so the share is 1.0 in all 705 rooms. Every room is read at concept level from C2 to D3, and E1 reads unplaced concepts too. The slopes and the six figures above stand as reported.
+
 ### The concepts and the themes
 
 The sum of per-room `codes` in `rooms.jsonl` is 115,388. `store/codes.jsonl` has 115,388 lines, and `themes.jsonl` `n_codes` sums to 115,388. The coder's own count: the coders' `package/<sub>/codes.jsonl` lines number 115,563, and less the 175 retractions that is 115,388, which agrees. `n_codes_coder` in `themes.jsonl` sums to 115,455, and less 175 that is 115,280, 108 short. The field excludes retractions already in 32 rooms (fully in 30, partly in kcroyals and pcmasterrace) and includes them in the rest. That is in `defects.jsonl`. The coder's count holds when it is taken from the coders' files.
@@ -199,3 +201,30 @@ leg A1b-01 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 The first validate run of this close failed with 7 errors: lead lines naming rooms outside the frame. Three were retargeted to frame rooms (nbaspurs, minecraft, colombia). Four were removed (exmormon, the_fack, unc, nerdfighters); those ties stay in the room notes. The diary records the change.
+
+## Close report, leg A1b-02 (block 02), 2026-10-06
+
+Block 02 read whole: 48 of 48 rooms noted, 101 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 101 over an analysed set of 705
+  604 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-02 cut=none 20261006T135814Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-02 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Every `other` in the 17 leads added at the end of block 02 was checked against `order-A1.txt` before the close. Every item id in those leads and in the 31 new lexicon lines was checked through `cite.py`.

@@ -191,3 +191,87 @@ brigading | tagpro | 62mk6f | h1.28
 placepush | tagpro | 62opl8 | h6.68
 west coast schools | uvic | 631oj2 | h55.03
 battle-of-the-bots | uvic | 632vm0 | h56.19
+Current Official Strategy | placecanada | 62wvci | h33.13
+Operation Quebec Cover | placecanada | 62w9ve | h31.26
+hold the fort | placecanada | 62z5ed | h43.38
+best girl | konosuba | 62ynup | h40.69
+Hotel Konosuba | konosuba | 636dne | h68.27
+HAIL HYDRA | shield | 62yqef | h41.09
+the logo that never was | shield | 6384gs | h73.16
+SKOL | minnesotavikings | 62y466 | h37.83
+skoldiers | minnesotavikings | 6334zt | h55.72
+joint custody | minnesotavikings | dfrttng | h71.13
+BASH THE FASH | completeanarchy | 62ndd2 | h3.24
+comrades | completeanarchy | 62o52y | h5.12
+left unity | completeanarchy | 62xb6i | h34.63
+Tims | hellointernet | 62rxq7 | h18.45
+Nail and Gear | hellointernet | 62ochl | h5.66
+Flaggy Flag | hellointernet | 62rze4 | h18.68
+rebel scum | hellointernet | 62xfzv | h35.11
+Lord Tachanka | Rainbow6 | 62pecu | h8.50
+Sent to the Team | Rainbow6 | dfoa1n5 | h8.38
+r/Rainbows | Rainbow6 | 62oqte | h6.78
+Willem | cirkeltrek | 62mzbr | h2.31
+muur der schaamte | cirkeltrek | 62s6zh | h19.63
+Nassouwe | cirkeltrek | 62s6fa | h19.57
+opwillem | cirkeltrek | 62o6ky | h5.24
+Yak | faeria | 62vie8 | h29.15
+Battle of Alberta | alberta | 633lla | h57.15
+potion | monsterhunter | 62r7na | h14.91
+ABANDON THE POTION | monsterhunter | 63268o | h52.93
+Rathalos | monsterhunter | 62vrw2 | h29.79
+Dat Boi | DatBoi | 62ph90 | h8.74
+Blue Note | stlouis | 62x8ug | h34.40
+friends with the witch | stlouis | 63780d | h70.79
+Thank Mr. Goose | uwaterloo | 62x8kc | h34.37
+Forsen boys | uwaterloo | 6339aq | h56.10
+OKST | OKState | 634hk1 | h60.10
+homelab takeover | homelab | 636e4w | h68.32
+Proof of Place | monero | dfqnfhm | h52.17
+Ferris | Redox | dfrb3r3 | h60.49
+safety box | vocaloid | dfpz1vp | h39.01
+taskbar icon | vocaloid | 63222n | h52.56
+Clive Palmer Day | australia | dfnli5l | h0.24
+Reddit Ashes | australia | dfog00e | h10.74
+7-1 | hentai | dfq0kcg | h40.26
+DMZ | hentai | dfpu5ts | h35.98
+DC unite | DCFU | dfrq1dq | h69.81
+STRIKE THE EARTH | dwarffortress | dfobxcl | h9.11
+Urist | dwarffortress | dfp0grp | h23.42
+Yung Venuz | nuclearthrone | 62smvq | h21.25
+YV got Irish | nuclearthrone | 632ik2 | h53.86
+Pixel Lucio | luciomains | 62mt0o | h1.87
+flagception | czech | dfoto5v | h19.86
+whitest white | czech | dfp8p8w | h26.70
+goon | WPI | dfpxq57 | h38.05
+squeezed | colorado | 62zz4g | h46.71
+super multiplayer Microsoft Paint | ubc | dfpx7a8 | h37.70
+script war | giantbomb | dfrd7my | h61.53
+les Croates | serbia | dfq3guu | h43.19
+THAT GAP | kpop | dfs3b9s | h74.20
+kill or be killed | norge | dfqtnlk | h54.45
+Gus | teslamotors | 62x1i1 | h33.70
+next to him | carletonu | dfrxwr7 | h72.48
+maintain what they have | earthbound | dfrza1m | h72.94
+symbol of justice | batman | dfpzvwy | h39.67
+floo flames | batman | dfrngfd | h68.69
+TROGDOOOOR | kindafunny | dfrjicn | h66.17
+2112 | mechanicalkeyboards | dfp9fhp | h26.99
+keebs | mechanicalkeyboards | dfs5bxh | h74.85
+S-Puck | mechanicalkeyboards | dfs3cpw | h74.21
+#FreeTyler1 | loltyler1 | 62nkll | h3.72
+osu f words | loltyler1 | 630ifm | h48.32
+12 BTW | loltyler1 | 6318vf | h50.34
+headmeat | loltyler1 | 634z1a | h62.02
+collect the salt | loltyler1 | 6384wi | h73.18
+12th man flag | seahawks | 62qmtn | h12.59
+little 12 | seahawks | 633925 | h56.08
+NFC West | seahawks | dfr8kj0 | h59.53
+Lonk | zelda | 62oxij | h7.26
+PlaceLink | zelda | dftb59z | h93.35
+little bob | bobross | dfrznud | h73.07
+Fluffhead | phish | 62tmfd | h24.14
+TWeezer | phish | 6342ba | h58.64
+stealie | phish | dfruz3p | h71.51
+Phantasy Tour | phish | dfru4y6 | h71.23
+phanners | phish | dft0vo4 | h86.36

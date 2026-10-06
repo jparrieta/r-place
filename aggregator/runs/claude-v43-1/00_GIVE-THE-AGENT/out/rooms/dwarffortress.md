@@ -1,0 +1,12 @@
+# r/dwarffortress  (read 2026-10-06)   coded share 0.081   off-platform pointers 3
+doing:      a call at h3 for good dwarves to work together, a dwarf head maintained and a grid post to centralize work (c0002, c0004, c0006); an Armok shrine and a deal with N64 to leave it alone (c0008, c0011, c0012); STRIKE THE EARTH, a mug, a plump helmet, SquareSpiral shortened by agreement (c0015, c0016, c0021, c0023); teaching newcomers to click (c0028, c0052); an Urist army, one per profession colour, a dead goblin, golden teeth kept as a joke (c0053, c0060, c0043); r/armok set up so viewers can find the sub (c0038, c0061); Discord as the main coordination, with Reddit kept findable and one member saying Discord is blocked for him (c0025, c0054, c0141); truces with the portal pattern, the diamond, bopp, the Catalan flag argued (c0062, c0067, c0081, c0094); invading Indonesia, then helping it rebuild south (c0115, c0133); a DwarfPlacer script for the intro dwarf (c0130).
+week:       h3 the call; h5 to h30 shrine, STRIKE THE EARTH, Urists, armok; h37 to h46 Catalonia; h52 to h60 Indonesia war, the Void, intro dwarf; h64 to h72 Indonesia helped; after h73 thanks.
+named:      r/placeportalpattern, SquareSpiral, N64, bopp as border partners (c0062, c0023, c0011, c0081); Indonesia as invaded, then helped (c0115, c0133); the Catalan flag as threat (c0089); r/rickandmorty and the Void as attackers (c0019, c0118).
+goal:       dwarves and DF symbols; set at h3; grown into an Urist army and an intro dwarf.
+unsettled:  whether canvas posts are spam (c0123, c0161, c0163); scripts (c0110, c0111).
+coder unsure: Discord coordination unseen; 112 threads out of scope.
+carrying:   c0023, c0054, c0133
+not this:   a peaceful build only; the canvas keeps a mark titled betrayal by this room.
+ended:      last coordinating turn h71.77 (c0154, pausing repairs of a planned recolouring; c0153 easing Indonesian tensions); Discord unseen; after h73 thanks.
+struck by:  "STRIKE THE EARTH"
+made:       six artworks at the edge, Dwarf Fortress 3159 px and others, including Dwarf Fortress Vs Indonesia and Betrayal by r/dwarffortress, placed from h1.08; writers placed 0.163. The canvas records the war the room recounted.

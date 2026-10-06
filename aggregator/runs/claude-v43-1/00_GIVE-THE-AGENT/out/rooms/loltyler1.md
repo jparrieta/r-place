@@ -1,0 +1,12 @@
+# r/loltyler1  (read 2026-10-06)   coded share 0.12   off-platform pointers 12
+doing:      a streamer's fans first making April Fools jokes about an unban and a stream marathon (c0002, c0007, c0016); from h24.9 calls to destroy a 1G logo, then to grief the OSU logo with black boxes because they needed a place for Tyler (c0012, c0022, c0026); a portrait started at coordinates beside the attack (c0028, c0029, c0033); OSU repairing again and again, the room calling it a loss to a weeb game (c0068, c0069); writing #FREETYLER1 instead, finished and maintained (c0099, c0109, c0124); scripts copied, updated with GreekGodx, kept running overnight (c0136, c0159, c0161); Tyler relayed as wanting his face built instead (c0151); Estonia and others restoring their flag over the work (c0162, c0163); proposals to move to free space and make peace (c0133, c0176, c0218).
+week:       h3.7 one call; h8 to h35 jokes; h24.9 the 1G logo; h35.8 to h52 the OSU raid; h53 to h58 #FREETYLER1; h59 to h72 scripts, Estonia, the face falls and is fixed; after h73 taunts and memory.
+named:      r/osugame as target and later ally (c0022, c0176); r/Eesti, r/europe and a rainbow road as attackers (c0162); r/CFB as attacker then peace partner (c0113, c0133); r/Earthonplace offering help (c0082); thebluecorner as helper (c0089).
+goal:       a Tyler mark; first a place taken from OSU, then #FREETYLER1 at h53, then Tyler's face; it changed under repair and attack.
+unsettled:  attacking against building (c0073, c0151, c0180).
+coder unsure: image-only posts cannot verify their titles; most of 471 threads unopened.
+carrying:   c0026, c0151, c0218
+not this:   a room that only griefed; it also built, repaired and offered peace.
+ended:      last coordinating turn h72.67 (c0180, giving up the logo to attack Estonia; repair c0184 at h71.45); after h73 taunts, a reconciliation with an Estonian visitor, and a move proposal (c0199).
+struck by:  "FreeTyler1 was real, when 12 btw work together"
+made:       one artwork, Free Tyler1, 3,205 px in the middle ring, placed from h1.09 with peaks near h60 to h72; writers placed 0.081. The canvas keeps a Free Tyler1 mark, though the room's last word mourned both spots.

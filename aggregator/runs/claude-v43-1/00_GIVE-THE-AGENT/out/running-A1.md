@@ -97,3 +97,49 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - the stated aim is advertising | tagpro
 - an existing design is resized after measuring the gap | drumcorps, httyd
 - members lend alternate accounts or many accounts for upkeep | drumcorps, tagpro, babymetal
+- official strategy posts carry Discord decisions back to the sub | placecanada, minnesotavikings, completeanarchy
+- a truce with the room's real-world rival holds for most of the build, then breaks near the end | minnesotavikings, liverpoolfc
+- a room adopts art another sub planned and follows that sub's plan | konosuba, shield, madokamagica
+- the room's own plan fails while art it did not plan stands | shield
+- a show's internal joke splits the fans into two building factions | hellointernet
+- members fight their own leaf: off-template placers tagged and private-messaged | placecanada, babymetal
+- the left coordinates across several subs through one hub sub | completeanarchy
+- the canvas link names a minor work, while the room's main efforts are linked to another sub | completeanarchy, anime
+- a room first speaks of art already on the canvas and takes up its upkeep | stlouis, DatBoi, konosuba, shield
+- a dedicated helper sub runs the restoration for a fandom | DatBoi (GuardiansOfDatBoi), placecanada
+- a room gives up part of its art under a pact to save another part | monsterhunter
+- after displacing a neighbour, the room helps it rebuild | monsterhunter, madokamagica, uva
+- members say they cannot control their own people | cirkeltrek, minnesotavikings
+- a stream of one-person annexation calls rather than a plan | cirkeltrek
+- a moderator consolidates canvas plans into one hourly sticky | monsterhunter, Rainbow6, placecanada
+- a room refuses to take a rival's spot or retaliate | cloud9, konosuba
+- a small group moves its art three or more times after losses | faeria, FloydVsVoid, necrodancer
+- the room only reports a mark made in another room | Redox, signal
+- a late, moderator-led takeover of another sub's work | homelab
+- a room becomes part of a larger structure (the taskbar) to survive | vocaloid, monsterhunter
+- AutoModerator removes the room's own canvas calls | australia, Rainbow6, drugs
+- a moderator retaliates while members ask him to stop | hentai
+- a neighbour's diplomats post inside the room | czech, cfb
+- a neighbour adopts the room's art into its own and protects it | nuclearthrone
+- a raid by another sub floods the room's planning thread | WPI
+- the organiser edits one post repeatedly as the plan changes | WPI, signal
+- credit for the work is given to the sub where coordination actually ran | luciomains, alberta, konosuba
+- a script is changed to honour treaties | monero, dwarffortress
+- members find a logo already on the canvas and adopt its repair | batman, earthbound, stlouis
+- many separate single-member starts, none taken up by the room | colorado, batman, zelda
+- a neighbour offers a spot beside it instead of covering the newcomer | carletonu
+- the room's own April Fools makeover fills more coded turns than the canvas | teslamotors, mechanicalkeyboards, giantbomb, seahawks, zelda, loltyler1
+- members refuse their own moderator's attack, or refuse to deface | kpop, ubc
+- expansion is argued for as a need to destroy others | norge
+- a small room joins the taskbar to survive | earthbound
+- a room attacks first, then builds its mark where it attacked | loltyler1
+- a streamer's wish relayed second-hand redirects the room from attack to building | loltyler1
+- one organiser does the design and the diplomacy alone | seahawks
+- a goal is chosen small because small is defensible | seahawks
+- defenders are told to let the work decay so it can move | seahawks
+- a neighbour moves the room's work for it, then is said to break the deal | phish
+- the room recruits from an off-site forum of the same fans | phish
+- coordination ran in a sub made for one picture, and the parent room only praised | zelda
+- a single post speaks as "we" for work done elsewhere; readers cannot find the group | bobross, nonbinary
+- a visitor from another community suggests an addition | bobross, mechanicalkeyboards
+- the room tries again on a successor canvas after h73 | phish, loltyler1
