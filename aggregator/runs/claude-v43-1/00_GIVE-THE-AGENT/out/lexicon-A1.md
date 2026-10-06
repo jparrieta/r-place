@@ -891,3 +891,48 @@ Union of the Hemisphere | argentina | dfpi66t | h30.69
 #StopTheAnnexation | counting | dfp04a6 | h23.28
 Place migrants represent | counting | dfqidgv | h50.34
 ghost counts | counting | dfoqkck | h17.09
+Scarlet army | rutgers | dfq0j0v | h40.23
+We're not trying to be jerks here. | rutgers | dfq99jj | h46.90
+friendos | shishamo | dfq356w | h42.86
+Well here I am fighting my own country's imperialism... | belgium | dfrj47p | h65.84
+We don't negotiate with terro | belgium | dfpfgjs | h29.52
+We don't negotiate with terrorists | belgium | dfpfgjs | h29.52 (supersedes the line above, truncated to 'terro')
+We did it hreddit! | croatia | 62rwff | h18.27
+We can't control every Redditor in a community. | croatia | dfqkcsm | h51.04
+Caped Baldy | onepunchman | dfrf7y6 | h62.74
+RIP Eightfold and RIP r/place | paranatural | 62y6ml | h38.15
+Fredditcord vs Freddit + you guys | fivenightsatfreddys | dfrstyu | h70.81
+Freddit | fivenightsatfreddys | 62my4v | h2.22
+may your heart be your guiding key | kingdomhearts | 6351it | h62.32
+the arch way | archlinux | dfok3v1 | h12.65
+Hulkster | TheHulk | dfpu30p | h35.94
+Hulk Town | TheHulk | dfqmrq8 | h51.92
+Polandparagraphs | polandball | 62tabi | h23.24
+poland paragraph day | polandball | dfpqd22 | h34.15 (supersedes the line above: 'Polandparagraphs' is the coder's label, not the room's words in item 62tabi)
+Get Pizza | runescape | dfo9qu1 | h8.27
+triple subreddit alliance | runescape | dfqm5v3 | h51.69
+WE SQUID IT REDDIT | splatoon | 62swfs | h22.12
+r/place is basically splatzone. | splatoon | 633rt5 | h57.69
+scootch | armok | 63403p | h58.43
+Matul Remrit endures | armok | dfsl4a1 | h80.09
+Bros of The Blizzard | starcraft | dfpgv6u | h30.13
+Daily Satania | satania | 630gdb | h48.15
+Sko Buffs | cuboulder | dfr5lqh | h58.54
+Defenders of the Dart! | nerf | dfrb8m0 | h60.55
+HODL FELLOW SPARTAN!!! | bitcoin | dfpl8fr | h31.97
+THE WAVE IS HERE | kanye | 62ndnf | h3.26
+r/place confirmed wavy | kanye | 62tv5h | h24.79
+GOON ARE FRIENDS, NOT FOOD | smashbros | dfrx383 | h72.20
+Amazing Crash Family | smashbros | dfojsja | h12.50
+Looks like we took an L there... | ubreddit | dfredxg | h62.20
+We are letting Ireland adopt her | undertale | dfpnlyv | h32.96
+We have to shrink. We're being eaten alive by that green monster thing. | floridagators | dfpkkq6 | h31.70
+Small but proud, we stand with the boricuas! | Dominican | 632oii | h54.32
+Pricefielders | lifeisstrange | 6362jz | h67.17
+Its not much, but its ours! | lifeisstrange | dfs5dbi | h74.86
+ruplace | rust | dfqchkv | h48.20
+grabbing unneeded land is both ugly and bad citizenship | rust | dfqoikp | h52.57
+PRAISE BENNING | canucks | dfp1oiu | h23.89
+This means war! One-pixel-every-5-minutes of WAR! | PUBATTLEGROUNDS | dfqjca3 | h50.68
+INPOLDERING | mindcrack | 639cud | h76.42
+turkish friendos | azerbaijan | dfs227w | h73.82

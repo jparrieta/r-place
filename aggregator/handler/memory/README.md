@@ -6,3 +6,9 @@ At the start of a run these files hold only their headings; the handler fills th
 - `DECISIONS.tsv`: every decision the principal investigator made or approved.
 - `open-items.md`: what the principal investigator owes the handler, and what the handler found and left for them.
 - `handovers/`: a dated note at the end of each long session.
+- `procedures/`: how the handler works (from 2026-10-06: `cowork-handler.md`).
+- `scripts/`: the handler's own scripts (`tick.sh`, one watch step over a running list).
+- `analysis/`: the handler's analyses (refusals, cost per leg).
+- `stage-estimates.md`: each stage, and its expected cost and time.
+
+J, 2026-10-06: every ruling, procedure, script, decision, document and analysis goes in this folder, and notes are written before any compaction.

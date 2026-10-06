@@ -1,0 +1,12 @@
+# r/floridagators  (read 2026-10-06)   coded share 0.165   off-platform pointers 5
+doing:      a university sports sub; at h12.1 a mark proposed, called hopeless (c0003, c0004); at h14.5 attempts to destroy Tennessee's logo (c0008); at h21.0 a location demanded, a block F begun by the r/Tagpro triangle (c0018, c0022); at h28.2 production centralised (c0041); at h31.2 a disorganised disaster, the F in five regions, then shrinking (c0043, c0044, c0045); at h35.7 r/unturned not going anywhere, help for a peaceful move offered (c0048, c0050); at h39.1 a first bot tried (c0051); at h44.6 a two-pixel shift under attack (c0060, c0061); at h47.2 a Discord, the Albert plan brought back (c0062, c0067); at h54.0 r/thewhitevoid offering not to destroy UF, a treaty, help against an 8pm Tennessee checker raid (c0077, c0090, c0079); at h55.1 r/Unturned offering to keep the logo clean, TheBlueCorner helped back (c0057, c0093); at h58.0 raids refused, protect our own logo (c0103, c0106); at h62.1 r/unturned helped against UCF while urged to compromise (c0109, c0110); at h71.7 a script refused (c0123); at h72.7 r/Unturned's request for help relayed (c0126).
+week:       h3 to h21 debate, Tennessee; h21 to h47 the F, shrinking, moves; h54 to h62 treaties; h68 to h73 upkeep.
+named:      Tennessee, FSU, UCF and Miami as rivals (c0008, c0098, c0107); r/thewhitevoid, r/Unturned, TheBlueCorner and the Nordic group as partners (c0090, c0057, c0093, c0075); r/smashbros thanked for overnight saving (c0129).
+goal:       a UF logo; begun at h21.7; shrunk at h31.7; held untainted.
+unsettled:  defend only or raid rivals (c0097, c0103, c0137).
+coder unsure: 53 threads out of scope.
+carrying:   c0045, c0090, c0103
+not this:   a rivalry room bent on raids; from h58 members chose upkeep and neighbour help.
+ended:      last coordinating turn h72.74 (c0126, r/Unturned's request relayed); after h73 thanks and flair.
+struck by:  "Just protect our own logo, be a good neighbor to other pixels, and never mind what anyone else has."
+made:       one artwork, University of Florida, 925 px at the edge, 5,945 placers, shared with ufl, placed from h1.26; writers placed 0.177, pre-event members 0.123. The canvas keeps the logo.

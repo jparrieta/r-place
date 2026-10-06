@@ -1,0 +1,12 @@
+# r/onepunchman  (read 2026-10-06)   coded share 0.033   off-platform pointers 13
+doing:      a manga and anime sub; at h23.2 r/place introduced, an 8-bit OK face proposed, answered with the void and the room's lack of teamwork (c0001, c0002, c0003, c0005); a moderator's April Fools rant and fake theories (c0013, c0030); at h35.2 contributions asked, too late said, one member starting a figure alone (c0043, c0044, c0040); at h45.6 calls to get Saitama on the canvas, a start beside a flag (c0047, c0050); at h48.8 repeat callers told to stop spamming (c0058); at h55.8 Saitama drawn smaller to spare neighbours (c0073); at h56.8 timers, Phoenix Wright kept by agreement, Dallas Stars helped in return for permission, a Discord (c0081, c0082, c0083, c0084); at h57.6 the pink vomit monster asking protection, refused priority as a canvas-only sub (c0085, c0086); at h58.4 Green Lattice messaged rather than overpowered (c0090); at h62.5 a three-pixel move accepted (c0099); at h63.9 done (c0111); at h66.6 Sheffield asked to be left, refused by one member (c0115, c0116); at h71.7 red pixels attacking (c0110).
+week:       h23 to h35 doubt; h45 to h56 calls; h56 to h64 Saitama; h66 to h72 upkeep.
+named:      r/aceattorney and the Dallas Stars as partners by agreement (c0108, c0083); the pink vomit monster, Sheffield and Green Lattice as neighbours (c0085, c0115, c0090); Godzilla as crusher (c0091).
+goal:       Saitama; begun at h47.8; finished at h63.9; held.
+unsettled:  whether the room could organise at all (c0005, c0044, c0068).
+coder unsure: 206 threads out of scope.
+carrying:   c0086, c0108, c0111
+not this:   a fandom eager to draw; for a day members doubted or mocked the calls.
+ended:      last coordinating turn h71.73 (c0110, red pixels attacking Saitama); after h73 screenshots and thanks.
+struck by:  "subreddits created exclusively to make (and unleash) a beast on the canvas have less priority than older subreddits."
+made:       one artwork, One-Punch Man, 1,214 px at the edge, 3,485 placers, placed from h1.12; writers placed 0.107, pre-event members 0.014. The canvas keeps Saitama. The linked region was placed from h1.12; the room's first call came at h23.2.

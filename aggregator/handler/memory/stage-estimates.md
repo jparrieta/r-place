@@ -15,7 +15,7 @@ Two leg classes follow from this:
 - **small** (a check, a build, a single pass): $6 to $15, 15 to 25 minutes;
 - **full** (a reading or working leg): $25 to $45, 30 to 50 minutes.
 
-**Your meter.** J read 25% of the weekly subscription at 18:08Z, when the run stood at about $250. If all of it was the run, 1% of a week buys at least about $10 of list cost, so one full leg uses at most about 3% of a week. Other use counted in that 25% would make each % buy more. The 5-hour window is a separate limit: about 8 full legs fit in one.
+**Your meter.** J read 25% weekly at 18:08Z and 30% at 20:09Z; the run cost about $97 between them, so 1% of a week buys about $19 of list cost ($16 to $24 with rounding), and a full leg uses about 1.5% of a week. The 5-hour window is a separate limit: about 8 full legs fit in one.
 
 **Fleet dispatches** (B2, B3, B4, C2, C5, D2, D3, E1) run on OpenRouter from your Terminal, and D2's labelers in Codex. They are not on the Claude subscription and are not estimated here.
 
@@ -48,7 +48,7 @@ Leg counts with NN are set by the data during the run; the ranges are guesses.
 
 - **After A1:** 67 to 114 legs, about $1,700 to $4,200 at list price, 40 to 75 hours of leg time.
 - **With the rest of A1:** about $2,100 to $4,800, 47 to 84 hours.
-- **On your meter:** at most about 210% to 480% of a weekly allowance by the 25% reading, that is up to two to five weeks of subscription. Plan pauses at week ends (`legs.py pause`; HANDLER.md, "Pausing").
+- **On your meter:** at about $19 per weekly %, the rest of the run after A1 is about 90% to 220% of a week, one to two and a half weeks of subscription. Plan pauses at week ends (`legs.py pause`; HANDLER.md, "Pausing").
 
 ## How this estimate improves
 

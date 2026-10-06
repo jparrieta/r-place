@@ -525,3 +525,30 @@ leg A1b-13 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 893 lines, running file 420 lines, leads 1,740 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. r/counting's 11.17 MB is almost all counting-chain forest; it has 92 coded items (coded share 0.007), and every concept was read. Rooms named in the record but outside the frame got no lead line (r/FlagAlliance, r/ukrainian_flag). The head was updated in place at this close rather than rewritten from scratch, since only the run state, the block 13 room, the ledgers and the next comparison changed; it stands at 2,822 words. No new artwork with placements before hour 0 was found. Onset contrast, block 13: r/counting is on the early side (first coded turn h0.09, a counting chain); no late room.
+
+## Close report, leg A1b-14 (block 14), 2026-10-06
+
+Block 14 read whole: 32 of 32 rooms noted, 534 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 534 over an analysed set of 705
+  171 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-14 cut=none 20261006T203714Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-14 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 938 lines, running file 435 lines, leads 1,844 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. Two lexicon lines were superseded by appended lines: a belgium line cut short at "terro", and a polandball line that took the coder's label "Polandparagraphs" instead of the room's words "poland paragraph day". Two diary lines were corrected by later diary lines (armok wrongly listed as a room whose first builder brought a script; croatia's record does hold the three-pixel request that undertale names). Struck-by lines for Dominican and PUBATTLEGROUNDS were first drafted from the coder's summaries and corrected to the room's exact words before logging. Rooms named in the record but outside the frame got no lead line (r/shyvanamains, r/FlagAlliance, r/Vigne, r/716Place, r/CFBOT and others). The r/canucks thread carries antisemitic jokes about a rumoured r/Israel plan; the note records them as what was said. No new artwork with placements before hour 0 was found. Onset contrast, block 14: nine early rooms (bitcoin, splatoon, kingdomhearts, undertale, smashbros, fivenightsatfreddys, kanye, runescape, floridagators) and two late rooms (vietnam, of the fifth kind; azerbaijan, of the possible sixth kind first seen in CelticFc).
