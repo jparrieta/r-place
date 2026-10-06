@@ -1,0 +1,12 @@
+# r/norway  (read 2026-10-06)   coded share 0.248   off-platform pointers 2
+doing:      the English-language Norway sub, which members call the tourist sub (c0080, c0064); at h4.5 a call to destroy the Swedes (c0001); at h8.6 two flags found, the bigger one fixed for proportions, credited to r/Norge (c0003, c0004, c0007); the flag kept defensible rather than larger (c0027); the ostehøvel integrated, not destroyed (c0010); from h20 a stream of visitors asking Norway to spare their work: migrants, South Africa, r/Madeon, day9tv, r/factorio, r/crusaderkings, Texas, Steven Universe, Stellaris, chess, Slovakia, Yogscast, Shawn, FFXIV (c0022, c0023, c0011, c0015, c0036, c0038, c0066, c0074, c0068, c0071, c0083, c0098, c0100, c0102); a pact with Crusader Kings and a hanging flag chosen over expansion (c0039, c0037); Day9 saying Norway broke a treaty (c0045); hearts proposed with Texas and Sweden (c0016, c0052); members sending visitors to r/Norge, r/nordvei and a diplomatic Discord channel again and again (c0049, c0061, c0081, c0093); kids said to have taken over the Discord for expansion (c0063); a Discord poll for peace with Slovakia (c0087); some telling Texas to move, FFXIV refused space (c0059, c0105).
+week:       h4 to h22 flags fixed; h20 to h44 requests, the Crusader Kings pact; h47 to h72 requests sent on to r/Norge and Discord; after h73 memories.
+named:      r/Norge and its Discord as where decisions happen (c0007, c0065, c0093); Crusader Kings under a pact (c0039); Texas, Steven Universe, Slovakia, Day9 as askers (c0066, c0074, c0083, c0045); Sweden (c0001, c0016).
+goal:       none settled here; the flags were r/Norge's work.
+unsettled:  whether this sub speaks for Norway on the canvas (c0050, c0064, c0082).
+coder unsure: 62 threads out of scope.
+carrying:   c0039, c0065, c0087
+not this:   a room that organised Norway's expansion; it mostly forwarded requests to r/Norge.
+ended:      last coordinating turn h72.20 (c0106, FFXIV accepting a refusal); after h73 memories.
+struck by:  "all the r/place action has taken *place* in r/norge"
+made:       two artworks at the edge, Kvikk Lunsj 417 px and Ostehøvel 201 px, placed from h1.5; writers placed 0.019, pre-event members 0.006. The fields do not link the flags the room discussed.

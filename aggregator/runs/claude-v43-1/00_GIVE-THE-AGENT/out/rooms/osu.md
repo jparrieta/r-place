@@ -1,0 +1,12 @@
+# r/osu  (read 2026-10-06)   coded share 0.128   off-platform pointers 4
+doing:      a university sub, often mistaken for the osu! game sub (t01); from h4.7 calls to take over Michigan's M, answered by a Block O beside it (c0001, c0141, c0009); a treaty with Michigan rejected because the border was theirs first (c0035); a Discord at h35.6 (c0039); new starts said to divide the sub (c0051); at h51 a Michigan member asking a truce to defend the B1G logo, members telling each other to maintain the O and stop attacking (c0058, c0059, c0063, c0143); a deal with the_donald and the blue corner announced and refused (c0071, c0072); Temple told to move, then the attack stopped because the Big Ten agreed to let Temple stay (c0066, c0144, c0145); peace gestures from Michigan and planning moved to r/TheB1G (c0084, c0085); a megathread to hold canvas talk (c0076, c0092); Script Ohio built after the border grew (c0089, c0096); help repaid to r/osugame (c0064); at h73 members told to stop messing with Michigan (c0146).
+week:       h4.7 to h33 rivalry; h33 to h50 restarts; h51 to h60 truce and Temple; h69 to h73 Script Ohio; after h73 pride.
+named:      Michigan as rival, then partner (c0001, c0058, c0112); Temple (c0066, c0145); r/TheB1G (c0085); r/osugame (c0037, c0064); the blue corner and the_donald (c0013, c0071).
+goal:       a Block O; set at h6.2; Script Ohio added by h73.
+unsettled:  attack Michigan or hold the Big Ten peace (c0087, c0121, c0146).
+coder unsure: 73 threads out of scope.
+carrying:   c0058, c0085, c0145
+not this:   a room that kept up its rivalry; by h51 members were stopping attacks on Michigan.
+ended:      last coordinating turn h72.99 (c0146, stop messing with Michigan); after h73 pride and the GO BLOE joke.
+struck by:  "No stop messing with them. The entire big 10 agreed to let them be there. We will get destroyed."
+made:       one artwork, The Ohio State University, 342 px at the edge, placed from h1.66, before the room's first coded turn; writers placed 0.133, pre-event members 0.041. The canvas keeps the O.

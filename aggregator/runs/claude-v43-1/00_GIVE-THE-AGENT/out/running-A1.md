@@ -207,3 +207,20 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - the first coded turn announces work already finished | Clannad, genderfluid, bees
 - canvas talk is said to clutter a sports or fan sub and a Discord is made to hold it | tampabaylightning, mexico
 - placements from before hour 0 appear on a room's artwork | monalisaclan (h-15.2), radiohead (h-11.5), aoe2 (h-0.7)
+- a sub made for the canvas acts as a permit office for others' art, with an application form and an approved list | greenlattice
+- a room backs off an attack, apologises, and the target then helps it build | neopets, bostonceltics (Lakers truce asked), utaustin (Aggies)
+- rivals in sport build together on the canvas | utaustin and aggies, osu and uofm, uiuc and purdue, hawks and the Blues
+- a room helps a rival defend its logo against a third party | hawks (Red Wings), osu (Michigan at the close)
+- the canvas fields link a heart or small piece, not the flag or logo the room fought for | colombia, norway, spacexmasterrace earlier
+- the room's writers placed none of the linked artwork | ducks, mariokart
+- one member sets the plan because nobody replies | mit, ducks, kcroyals
+- a room finds art already on the canvas and never learns who made it | natsume, Dorset, albania
+- an English-language national sub forwards canvas business to the native-language sub | norway (r/Norge)
+- members run several accounts each on a script | kcroyals, ss13, uiuc
+- a disguised script turns a rival's defence against it | utaustin (GiantBomb)
+- a forum outside Reddit arrives late and takes over a national flag | france (the 18-25)
+- a room splits its effort across several sister logos of one company | roosterteeth
+- a room shrinks or moves its logo to reduce neighbours' hostility | osugame, masseffect
+- a streamer's raid becomes an alliance by the close | osugame (Tyler1)
+- the canvas restarts on clone canvases after the close | greenlattice, nightinthewoods, TheGreatGreenBox, uiuc
+- placements before hour 0 on a room's artwork | none new in block 05
