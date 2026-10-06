@@ -24,7 +24,7 @@ The run below is generated from its records at every close (`CONTROL/harness/gen
 
 | stage | name | status |
 |---|---|---|
-| [A1](stages/A1.md) | Reading: room notes | 17 legs closed |
+| [A1](stages/A1.md) | Reading: room notes | 18 legs closed |
 | [B1](stages/B1.md) | Coding: third-order scheme | not started |
 | [B2](stages/B2.md) | Coding: pilot | not started |
 | [B3](stages/B3.md) | Coding: fleet | not started |

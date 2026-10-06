@@ -1115,3 +1115,93 @@ We don't fight here man, Jerry's fretboard is our language | gratefuldead | dfrd
 We are rapidly approaching the point where either you have a LOT of members, or you use scripts. | gratefuldead | dfr9t9x | h59.98
 Right now we're BEESNETWORK... | thetreesnetwork | dfphzt0 | h30.61
 turns out its another ent. quite the plot twist i didnt see coming. | thetreesnetwork | dfr604m | h58.68
+once our logo was complete, I started going over there to mess theirs up | detroitlions | dfs5njj | h74.95
+THOSE THUMBTACKS | detroitlions | dfqrl6x | h53.74
+Enquanto não se meterem connosco, deixa-os sossegados. | portugal | dfp5jbh | h25.42
+PORTUGAL CARALHO é essêncial | portugal | dfoo9l2 | h15.16
+Space is expensive these days. | portugal | dfqiclz | h50.33
+Better than nothing I figured. | Villanova | dfr0got | h56.84
+there is zero coordination at this stage. | russia | dfpkae3 | h31.58
+The descendants of Novgorod want healthy relations with our neighbours unless provoked. | russia | dfqsulk | h54.18
+We will remove all posts related to /r/place from /r/russia. | russia | 630z8h | h49.61
+we can spare one to keep some friends | FinalFantasy | dfrkyn8 | h67.27
+VIVI LA RESISTANCE | FinalFantasy | dfs3d93 | h74.22
+coordination always beats chaos | pathofexile | dfppp7q | h33.86
+Note: We are non-aggressive. Do not actively seek to destroy the work of others | pathofexile | dfp6e8v | h25.76
+There is no management. | adventuretime | dfr5i18 | h58.51
+We shouldn't need permission to draw what we want on a open canvas. | adventuretime | dfrtmfa | h71.06
+They are too strong to be beaten through force. Diplomacy is our only option now | adventuretime | dfqlfou | h51.43
+We don't really have enough active members to do this | araragi | dfpqynw | h34.44
+And people said it couldn't be done | araragi | dfsm1d2 | h80.37
+it turns out, "as much fire as possible" is not very much fire | HomestarRunner | dfpyn78 | h38.70
+It's not quite in the spirit of Trogdor, but I believe we can abide in togetherness | HomestarRunner | dfry4jo | h72.56
+i remain | sips | dfs7m6s | h75.62
+I destroyed it last night lol. Thought it was vandalism | sips | dfrwwna | h72.14
+Someone made a small tribute to bdsm on /r/place | bdsm | 62xc1c | h34.72
+Fucking inquisitions. | bdsm | dfqpqhi | h53.06
+The lattice is majority white. This makes it not purple. | purplecorner | dfqhfgw | h50.00
+We need ONE leader. | purplecorner | 62regg | h15.78
+Our fight is over, /r/PurpleCorner is now closed. | purplecorner | 639b2z | h76.28
+Acabemos las guerras civiles | spain | 62zcf2 | h44.30
+¡Muerte al cruasán! | spain | dfs0ewk | h73.31
+I do not want people to think Cave Story is a toxic group. | cavestory | 6313kz | h49.95
+I'd rather see it kept until /r/place ends than try expanding and encroaching other subs work. | cavestory | dfqjlei | h50.77
+The start bar has become the new void. | placestart | 6340ct | h58.45
+our task is to create, not destroy | placestart | dfq6d9e | h45.40
+It is the nature of war that the meek are eaten by the strong | placestart | dfrtnn5 | h71.07
+We talk to the subs who created the art we're overlapping | placestart | dfq5841 | h44.65
+Geometry Dash gobbled. | geometrydash | 62pnz4 | h9.34
+r/ainbowroad are pretty strict to their territory | geometrydash | 6309rs | h47.62
+None of the Central American flags stood a chance haha. Best thing we got going are flag hearts | guatemala | dfsiae9 | h79.10
+We worked so hard as a group to make these, and now it's just a robot war. | GabrielDropout | dfrtigt | h71.03
+Vigne was there first | GabrielDropout | dfsx429 | h84.29
+making something cool with creativity and teamwork > placing black dots using bots scripts and a lack of creativity | starryknights | dfqmmwm | h51.87
+I left the void to help you guys repair, starry night is too good | starryknights | dfqn82j | h52.09
+mission failed, we'll get em next time | ibo | dfsbyml | h77.01
+global mindedness | ibo | dfsu0ty | h83.07
+Feel like procrastinating?? | ibo | 637mqn | h71.87
+ram through other people | rwby | dfqeh0q | h48.95
+they gave up their land so we could thrive | rwby | 6329at | h53.13
+we don't want to be greedy and overextend | rwby | dfr15uy | h57.07
+Weiss's scar | rwby | dft32sh | h87.98
+a beacon of wholesomeness | wholesomememes | dfqe8kf | h48.86
+messing with borders starts border wars | wholesomememes | dfr8ecs | h59.47
+Brargentinland flag coalition | wholesomememes | dft4zmo | h89.66
+Kirby is pure! | kirby | dfo4sbl | h6.39
+This is our land. | kirby | dfrpyan | h69.77
+Nopegineer | tf2 | dfpa4kl | h27.29
+a tiny extremist group among us | tf2 | dfrhanp | h64.27
+No scripts. No bots. Just our bare hands. | tf2 | dfrp595 | h69.45
+Our imperium on /r/place | tf2 | 631hke | h51.00
+Valve unite | tf2 | dfq6vau | h45.69
+Convert The Luigi to Wario | wario | 630211 | h46.97
+establish our reddit dominance | twentyonepilots | dfro4ea | h69.00
+the clique | twentyonepilots | 62ywcc | h42.03
+supersedes the line 'the clique | twentyonepilots | 62ywcc': those words are the coder's label, not in the item; the item's words are: Lets build a kitchen sink there! | twentyonepilots | 62ywcc | h42.03
+Devolva o ouro primeiro | brasil | dfq4r9c | h44.29
+raids de 7-1 | brasil | 631232 | h49.83
+Projeto de paz com os hermanos | brasil | 62zqpw | h45.93
+Quem usa bot é babaca | brasil | dfrv42k | h71.56
+OPERATION: OVERLAP | purdue | 630ysu | h49.58
+B1G town | purdue | dfparp0 | h27.56
+Motion P | purdue | dft94vc | h92.46
+Uspjeli smo | montenegro | dfs7ale | h75.52
+ostalo nam je nekih 5 piksela | montenegro | dftbq4m | h93.58
+A principle of the Green Corner is democracy, always. | GreenCorner | dfoynue | h22.65
+attacking any art is strictly prohibited | GreenCorner | 62pzyr | h10.39
+All Hail Slime! | GreenCorner | 62nnkh | h3.92
+The bigger our space is, the harder it is to maintain. | unturned | dfqsbz8 | h54.00
+OPERATION DEFEND UNTURNIA | unturned | dfrbwnm | h60.87
+man power for life | unturned | dfry851 | h72.59
+PAINT IT BLACK | Thegreatblackhole | 62ogtp | h6.01
+In the end...every pixel dies | Thegreatblackhole | 62rrbd | h17.58
+The void must be pure | Thegreatblackhole | dfoq4xs | h16.70
+Defenders of the hole | cowchop | 63cza6 | h88.96
+Our "Founding Fathers" | cowchop | dfpv6iu | h36.51
+redbox sanctuary | edboxes | 62z48y | h43.20
+our battle for the box life | edboxes | 6395kn | h75.85
+the general counsel | edboxes | dfrwfxm | h71.99
+these ppl are free ppl | turkey | dfovogz | h21.17
+We are sick of being relocated. | turkey | dfoy4cs | h22.40
+So where are we migrating now? | turkey | 62yqhm | h41.11
+2 gun sonra barisi bulduk | turkey | 637fj1 | h71.33

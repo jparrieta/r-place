@@ -478,3 +478,30 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - placements before hour 0 on linked artworks | trees (h-12.51), afip (American Flag Banner h-14.34), PlaceNL (h-8.01), scotland (Royal Banner h-12.94)
 - early-side rooms of block 16 | pcmasterrace, streetfighter, oneplus, philippines, mylittlepony, paladins, stlouisblues, wallstreetbets, nlsscirclejerk, trees
 - late-side rooms of block 16 | latin (ask and move), OrderOfTheKoi (arrive to defend), DevonUK (one member, then friends), VelvetUnderground (arrive to defend), aeskwadraat (designs only, mark never found), Produce101 (one member and friends, a contested spot)
+- Rainbow Road or Green Lattice as a permission office for small works | portugal, geometrydash (r/ainbowroad strict about territory c0057), sips, kirby (Green Lattice diplomacy list c0007), cowchop (peace on condition of building upward c0021)
+- a work made by outsiders and celebrated by the room | araragi, HomestarRunner, bdsm, starryknights (painting done at the first turn)
+- restraint named as the room's rule | cavestory, wholesomememes (borders kept to avoid border wars c0166), tf2 (an extremist few disowned c0142), purdue (neighbourly as the survival rule c0200 c0206), unturned (bigger space harder to maintain c0093), rwby (no greed c0265)
+- members working against their own room's plan | tf2 (members undid the sub's redesign as vandalism c0311), brasil (Brazilians named as most of the flag's vandals c0210), twentyonepilots (several threads, no shared plan c0075)
+- a representative who cannot bind the crowd | turkey (free people c0055), cowchop (Funhaus emissary c0024), rwby (Discord chose to ram through c0256)
+- repaying neighbours who gave up land | rwby (BikiniBottomTwitter c0279), tf2 (EVE and RotMG restored c0055 c0188), cowchop (neighbours' logos maintained c0051)
+- a rival nation's member repairing the room's work | brasil (an Argentine c0470), turkey (a Greek helped; heart with Greece c0125)
+- one script chosen so members do not work against each other | purdue (c0272), tf2 (bare hands refused scripts c0363, a script also in use c0364), unturned (scripts or manpower c0122)
+- a colour faction holding elections or votes | GreenCorner (elections during attack c0105 c0106, a poll c0079), edboxes (pattern kept by vote c0050)
+- a void sub that argued over sparing art | Thegreatblackhole (c0061, c0071), then migrated to r/theblackvoid (c0041)
+- the canvas keeps a work the room called lost or failed | ibo (failed mission c0023), twentyonepilots (named Destroyed by the canvas, agreeing)
+- the canvas links a work the room never names | wario (Ashley), kirby (three Kirbys, the largest with 18,566 placers)
+- a moderator as obstacle to canvas talk | wholesomememes (canvas posts removed as reposts c0028 c0182), turkey and unturned (one sticky or megathread c0119 c0113)
+- placements before hour 0 on linked artworks | Thegreatblackhole (The First Void h-14.52)
+- early-side rooms of block 17 | tf2, brasil, wholesomememes, rwby, kirby, portugal
+- late-side rooms of block 17 | Villanova (one member, then friends), guatemala (ask and move, a heart), ibo (joined and defended a logo placed from the first hours)
+- a linked region that predates the room's first call | ibo, purdue, montenegro, unturned, cowchop, edboxes, starryknights, placestart
+- a sub made for the canvas run by two people | edboxes (two people and two accounts c0024)
+- a sub made for the canvas whose own builders and scripts overran its treaties | placestart (treaties said not to stop people deleting art c0122)
+- permission on an open canvas disputed | adventuretime
+- colour factions splitting | purplecorner (against PurplePixels), GreenCorner (Red and Purple as uneasy allies c0092)
+- a national room split among several flags or sites | spain, turkey (six sites), twentyonepilots (five sites)
+- moderators banning or funnelling canvas posts | russia (a ban), wholesomememes, unturned, turkey
+- laments that bots or scripts ended the fun | GabrielDropout (a robot war), brasil (c0444 c0460), Thegreatblackhole (bots killed the void c0056)
+- attacks on a rival after the room's own work was done | detroitlions (the Packers)
+- restraint for reputation | cavestory
+- a game developer or creator helping on the canvas | unturned (Nelson c0037)

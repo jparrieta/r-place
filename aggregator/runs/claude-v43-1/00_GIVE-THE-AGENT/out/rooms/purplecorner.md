@@ -1,0 +1,12 @@
+# r/purplecorner  (read 2026-10-06)   coded share 0.396   off-platform pointers 3
+doing:      a sub made for a colour faction in the top left; at h5.7 enlistment, purple as a corner of the people, a Discord, only blue tiles to be replaced, a stable corner before aggression (c0001, c0003, c0007, c0008, c0085); at h13.6 whether purple consumes all art or spares it argued (c0027, c0028); at h14 GreyBlob's peace for one purple tile, returned with one grey tile (c0089, c0091); at h15.8 one leader proposed (c0108); at h16.4 FlagAlliance aid against blue (c0040); at h24 coordination moved to Discord, then to the sister faction r/PurplePixels (c0051, c0055); at h29.5 TriHard spared in exchange for expansion help (c0061, c0062); at h30.7 TheFarLeftSide's non-aggression pact (c0065); at h39.6 the loss blamed on a power-hungry member or on being outnumbered (c0098, c0099); at h47.5 the war over, the outcome mostly white, the lattice called not purple, rival purples kept out of Discord channels (c0071, c0100, c0102, c0072); at h62.6 the corner dead, then united work against the Void (c0076, c0077).
+week:       h5 to h17 enlistment; h22 to h40 the split, loss; h47 to h76 schism, closure.
+named:      the blue corner as enemy (c0006); r/PurplePixels as sister then rival faction (c0018, c0103); GreyBlob, 2007scape, TheFarLeftSide and FlagAlliance as neighbours with pacts (c0030, c0039, c0065, c0040).
+goal:       a purple corner; held early; lost by h47.5; the sub closed at h76.3.
+unsettled:  conquer or spare art, and who speaks for purple (c0027, c0028, c0108, c0105).
+coder unsure: none; 0 threads out of scope.
+carrying:   c0028, c0102, c0108
+not this:   one purple faction; it split from r/PurplePixels over a lattice judged not purple.
+ended:      last coordinating turn h63.64 (c0077, united work against the void); after h73 the sub closed and a new purple corner tried elsewhere.
+struck by:  "The lattice is majority white. This makes it not purple."
+made:       two artworks at the edge, Former Purple Corner 3,784 px with 30,118 placers and The purple corner 9 px, placed from h0.95; writers placed 0.014, pre-event members 0.
