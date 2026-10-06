@@ -371,3 +371,25 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - one member or a few friends make the whole effort | superman, littlebusters, greenland, baylor
 - early-side rooms of block 10 | dankmemes, puzzleanddragons, baylor, startrek, feedthebeast, patriots, leafs, EraseThePlace, suomi
 - late-side rooms of block 10 | COSI, UPenn, sheffield, Cornwall, cgpgrey
+- a room keeps a treaty against its own wish to retake space | danganronpa (Gabriel Dropout; the banner came first), malaysia (refused a pixel war with an earlier, larger sub)
+- a room yields when it learns the other side was there first | titanfall (UB), danganronpa (an earlier banner), malaysia
+- blue used as protection from the blue corner | danganronpa (Monokuma surrounded in blue), farmcarrots (blue behind the carrots)
+- a room cracks or shrinks its own work to give a neighbour room | stevenuniverse (the diamond for Polandball), xenoblade_chronicles (space for the Seahawks), udub (shrunk to 20 by 20)
+- a peace plan unknown to the other side participants | stevenuniverse (Norwegians did not know the Discord peace plans)
+- the other side stops its own expansion to save a neighbour | xenoblade_chronicles (a Bulgarian member spread word in r/Bulgaria)
+- a scripted national flag repairs a rival flag too | india (scripts repair both Indian and Pakistani flags)
+- a sub where outsiders come to negotiate while the nation organises elsewhere | finland (pointed back to r/Suomi and r/FinlandFlag)
+- a sub made for the canvas that asked leave and refused to attack | farmcarrots, TransFlagPlace (ceded and rerouted)
+- colour factions: one holds and hosts, one splits and loses its corner, one goes silent into Green Lattice | TeamYellowPlace, PurplePixels, GreenEmpire
+- r/placestart hosts a small room as a taskbar icon | clubpenguin, hatsune; farmcarrots proposed it
+- Green Lattice grants space and asks upkeep in return | titanfall (help preserve its field), farmcarrots (Discord assigned a plot? no; Blue Corner), TransFlagPlace (diplomacy), leagueoflegends (permission asked)
+- a game company community manager helps a sub take back its spot | titanfall
+- moderators April Fools makeovers again fill early turns | danganronpa (underwear flairs), stevenuniverse (Lapis mirror bot), india (Aachaar), thesilphroad (Team Rocket), leagueoflegends (Riot founder), DestinyTheGame (theme swap with warframe), totallynotrobots (robot act), titanfall, malaysia
+- the canvas field links a work the room did not make or does not report | totallynotrobots (ReCaptcha, writers 0.003), UNLincoln (Huskers), sakartvelo (a Georgian heart), kurdistan (a heart found), GreenEmpire (former green corner), TransFlagPlace (hearts, not the ribbon), finland (a small flag)
+- a late room calls to fix a logo that turns out not to be theirs | UNLincoln (Northeastern)
+- a late room takes space by script over objections | udub
+- a late room talks about a site and finds its flag already made | sakartvelo
+- a very large room with scattered calls whose mark came from a Discord group | leagueoflegends, DestinyTheGame (#destiny-the-place)
+- early-side rooms of block 11 | leagueoflegends, thesilphroad, totallynotrobots, india, titanfall, GreenEmpire, danganronpa, DestinyTheGame, PurplePixels
+- late-side rooms of block 11 | udub, sakartvelo, UNLincoln
+- (supersedes the Green Lattice line above, which carried a stray aside on farmcarrots) Green Lattice grants space and asks upkeep in return | titanfall (help preserve its field), TransFlagPlace (diplomacy finished), leagueoflegends (permission asked), GreenEmpire (members moved there)

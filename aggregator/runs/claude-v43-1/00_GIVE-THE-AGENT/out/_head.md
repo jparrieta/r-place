@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-10, 2026-10-06.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-11, 2026-10-06.
 
 ## The method question, in one sentence
 
@@ -10,11 +10,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1, the reading. Leg A1a did the checks, the screen and the order. Legs A1b-01 to A1b-10 read blocks 01 to 10 whole (53, 48, 62, 44, 34, 37, 36, 30, 52 and 50 rooms). 445 of 705 rooms have a note in `out/rooms/`. 260 rooms remain, in blocks 11 to 19. The next leg is A1b-11. At this close `mem.py next` names r/danganronpa, the first room of block 11. Block 11 holds 21 rooms. Always take the next room from `mem.py next`, never from this file.
+Stage A1, the reading. Leg A1a did the checks, the screen and the order. Legs A1b-01 to A1b-11 read blocks 01 to 11 whole (53, 48, 62, 44, 34, 37, 36, 30, 52, 50 and 21 rooms). 466 of 705 rooms have a note in `out/rooms/`. 239 rooms remain, in blocks 12 to 19. The next leg is A1b-12. At this close `mem.py next` names r/newzealand, the first room of block 12. Block 12 holds 35 rooms. Always take the next room from `mem.py next`, never from this file.
 
 The order is in `out/order-A1.txt`, a seeded shuffle (seed 20261006) cut into blocks of about 3 MB by `mem.py`'s byte count. Block 13 is r/counting alone, at 11.17 MB.
 
-`validate.py A1` at this close: 0 errors, 0 warnings. 445 notes over 705.
+`validate.py A1` at this close: 0 errors, 0 warnings. 466 notes over 705.
 
 ## The census and the analysed set
 
@@ -26,7 +26,7 @@ The order is in `out/order-A1.txt`, a seeded shuffle (seed 20261006) cut into bl
 
 Six defects are in `defects.jsonl`; none blocks the reading. In short: r/tenma has no canvas line; r/archlinux has a coded turn at hour 100.9; `n_codes_coder` has two meanings; `items.jsonl` has an undocumented state `collapsed`; concept reach is 1.0 everywhere; r/yogscast's first coded turn is not about the canvas. Two departures are in `departures.jsonl`, both saved scripts in `out/_analysis/`.
 
-A possible seventh defect, not yet filed: linked artworks with region placements before hour 0. Twelve cases: r/FloydVsVoid h-14.47, r/ProfessorLayton h-13.49, r/SwissNeutralityZone h-14.52, r/monalisaclan h-15.23, r/radiohead h-11.54, r/aoe2 h-0.66, r/thebluecorner h-12.34, r/globaloffensive h-13.62, r/GrowTheTree h-0.24, r/nin h-11.52, r/npr h-11.19, and in block 10 r/starcitizen (Star Citizen Ship, h-0.24). The canvas window runs from -16, so this may be by design. No `mem.py` verb found so far reads `package/DATA-manifest-canvas.md`. Check the manifest through the verbs before filing it.
+A possible seventh defect, not yet filed: linked artworks with region placements before hour 0. Twelve cases: r/FloydVsVoid h-14.47, r/ProfessorLayton h-13.49, r/SwissNeutralityZone h-14.52, r/monalisaclan h-15.23, r/radiohead h-11.54, r/aoe2 h-0.66, r/thebluecorner h-12.34, r/globaloffensive h-13.62, r/GrowTheTree h-0.24, r/nin h-11.52, r/npr h-11.19, r/starcitizen h-0.24. r/leagueoflegends links The Void Prism from h-14.47, the same work as r/FloydVsVoid's. The canvas window runs from -16, so this may be by design. No `mem.py` verb found so far reads `package/DATA-manifest-canvas.md`. Check the manifest through the verbs before filing it.
 
 ## The principal investigator's answer QA1-001
 
@@ -36,7 +36,7 @@ The concept-reach threshold stays at 0 items. No substitute measure is to be inv
 
 - Log-log slopes on `items_in_window`: concepts 0.530, second-order themes 0.231.
 - concept_reach_threshold: 0 items, kept by QA1-001.
-- `n_off_platform`: median 4, max 88 (dankmemes, read in block 10: the canvas concepts name one Discord; the pointers are not canvas plans in what was read).
+- `n_off_platform`: median 4, max 88 (dankmemes: its canvas concepts name one Discord).
 - `px_window_share`: median 0.111, max 0.547; null for tenma.
 - Concentration is null in 3 rooms (nonbinary, oltp, wario).
 - 79 rooms have their last coded turn before hour 73.
@@ -45,39 +45,40 @@ The concept-reach threshold stays at 0 items. No substitute measure is to be inv
 
 `out/contrast.md`. Early: first coded turn after hour 0 and before hour 3, 131 rooms. Late: first coded turn after hour 48, 61 rooms. The confound is size (median items 5067 against 33). A held-size comparison (items 156 to 2770, 41 against 12) travels with it. Expectation: late rooms organize around finding space on a full canvas; early rooms around claiming and holding it.
 
-Block 10 early rooms, nine: r/dankmemes, r/puzzleanddragons, r/baylor, r/startrek, r/feedthebeast, r/patriots, r/leafs, r/EraseThePlace, r/suomi. As in block 09, the first coded turn is often April Fools talk: r/dankmemes, r/startrek, r/feedthebeast and r/baylor began canvas work hours or days later (r/baylor at h63.1). r/patriots, r/leafs, r/suomi and r/EraseThePlace called for canvas work within the first three hours, and all four then struck deals with neighbours.
+Block 11 early rooms, nine: r/leagueoflegends, r/thesilphroad, r/totallynotrobots, r/india, r/titanfall, r/GreenEmpire, r/danganronpa, r/DestinyTheGame, r/PurplePixels. As before, the first coded turn is often April Fools talk. r/totallynotrobots began canvas work only at h69.9 and failed; r/titanfall at h26.7. r/GreenEmpire and r/PurplePixels, both subs made for the canvas, claimed corners in the first hours; GreenEmpire went silent by h5.4.
 
-Block 10 late rooms, five: r/COSI, r/UPenn, r/sheffield, r/Cornwall (h66.18), r/cgpgrey (h72.04). Against r/corridor, r/sooners and r/ManningPlace: r/COSI, r/UPenn and r/sheffield asked permission and moved when asked, as r/corridor did. r/Cornwall took a spot, refused once to move ("NEVERRRRRRR"), then shuffled behind a neighbour. r/cgpgrey is a fourth kind: it arrived in the last hour to defend a logo whose placements began at h2.44, in a sub with restricted posting; a member said they could have organized sooner if they could start their own threads. In all five the linked work was placed from the first hours, long before the room's first call. No size test yet.
+Block 11 late rooms, three: r/udub (h54.74), r/sakartvelo (h68.72), r/UNLincoln (h72.08). With block 10 they now show five kinds. Ask and move (COSI, UPenn, sheffield, corridor). Take, refuse once, shuffle (Cornwall). Arrive to defend work others built (cgpgrey). Take by script over objections (udub). Talk about a site and find the mark already there, or call to fix a logo that is not theirs (sakartvelo, UNLincoln). In every late room so far the linked work was placed from the first hours. No size test yet.
 
-## The three sentences written before reading, against ten blocks
+## The three sentences written before reading, against eleven blocks
 
 The three sentences: one burst of calls in the first day or two, then defence and looking back, with coordinating turns ending near hour 73; fights with canvas neighbours and deals about borders, struck in the thread or sent to Discord; the goal set early by one call and changed only under pressure.
 
-1. The artwork was often there before the room spoke, and other subs often made it. Block 10: r/foxstevenson's logo was placed 63 hours before its first call, and r/liquicity offered to build it; r/PokemonSage found a Foliat shown on r/TheFarLeftSide; r/greenland's writers placed none of their flag; r/superman's symbol was kept by others while one member's figure was lost.
-2. Coordinating turns end mostly between hours 68 and 73. Block 10: r/patriots h72.42, r/bakchodi h72.97, r/EraseThePlace h72.90, r/hatsune h72.97, r/TeamYellowPlace h72.00, r/suomi h72.20. Earlier ends: r/littlebusters h46.99, r/greenland h45.35, r/superman h52.32, r/worldpowers h56.03, r/gameattack h59.79.
-3. Fights are with neighbours, and rivals often become partners. Block 10: r/starcitizen and r/elitedangerous built a joint logo and shared a script; r/hungary and r/denmark share a peace heart; r/puzzleanddragons was covered by r/masseffect and r/2007scape, and both helped rebuild.
-4. Deals often do not bind the crowd. Block 10: r/denmark's visitors promised r/twice to keep its text, and Danish participants took the spot; r/bakchodi's treaty line with r/belgium was later called an invasion; r/TsundereSharks said r/NewMexico broke a compromise.
-5. The goal is often set by one member. Block 10: r/superman, r/littlebusters, r/greenland, r/baylor.
-6. April Fools makeovers by moderators filled early turns: r/startrek (CBS takeover), r/chelseafc (QPR), r/starcitizen (Wing Commander), r/warframe (theme swap with r/DestinyTheGame), r/dankmemes (wholesome mode), r/twice (JYP), r/AceOfAngels8 (Sistar), r/rangers.
-7. Moderators: r/suomi's pulled canvas posts into a megathread and r/FinlandFlag; r/starcitizen's made one official thread and made help with Elite official; r/startrek's removed image posts for format and consolidated help requests; r/EraseThePlace's barred discriminatory posts.
-8. The canvas fields name a work the room reports lost, failed or half done: r/dankmemes (Gnome Child, "We failed"), r/hatsune (bulldozed), r/twice (pink spot lost), r/foxstevenson (half a logo). They link a work the room never discusses: r/anarcho_capitalism (Smiling Ancap Meme, writers placed 0), r/AceOfAngels8 (AOA, not the Seolhyun heart it reports).
+1. The artwork was often there before the room spoke, and other subs often made it. Block 11: r/totallynotrobots' linked ReCaptcha (writers 0.003); r/kurdistan found a heart others made; r/sakartvelo found Georgian flags already placed; r/GreenEmpire's linked green corner (writers placed one pixel).
+2. Coordinating turns end mostly between hours 68 and 73. Block 11: r/danganronpa h71.65, r/india h72.91, r/straya h72.88, r/totallynotrobots h72.97, r/xenoblade_chronicles h72.75. Earlier ends: r/GreenEmpire h5.36, r/kurdistan h61.08, r/PurplePixels h63.54.
+3. Fights are with neighbours, and rivals often become partners. Block 11: r/Bulgaria's own member stopped its expansion over the Monado (xenoblade_chronicles); r/pakistan sent a truce and r/india's scripts repaired both flags; r/parahumans and r/straya made a redback together.
+4. Deals often do not bind the crowd. Block 11: Norwegians did not know the Discord peace plans with r/stevenuniverse; r/finland members disowned their flag's expansion and blamed a botter. Against this, rooms kept treaties against their own wish: r/danganronpa refused to retake space because the banner came first.
+5. The goal is often set by one member: r/UNLincoln, r/sakartvelo, r/GreenEmpire.
+6. April Fools makeovers by moderators filled early turns in nine block 11 rooms: danganronpa, stevenuniverse, india, thesilphroad, leagueoflegends, DestinyTheGame (theme swap with warframe, both sides confirm), totallynotrobots, titanfall, malaysia.
+7. Moderators: r/malaysia's designated one official thread; r/finland's removed threads into one; r/clubpenguin's stickied a fresh location.
+8. The canvas fields link works the room did not make or does not report: block 11 adds seven rooms (totallynotrobots, UNLincoln, sakartvelo, kurdistan, GreenEmpire, TransFlagPlace's hearts not its ribbon, finland's small flag).
 
-New in block 10, seen three or more times and logged in the diary:
-- Green Lattice as the host whose leave rooms cite, and whose members disrupt work its own Discord allowed (stargate, Peru, warframe, gameattack, neu via Hong Kong's grant).
-- The room that covered a work helps rebuild it (animalcrossing with TheFarLeftSide, puzzleanddragons, liquicity).
-- A deal struck by ambassadors that the sub's own participants break (twice, bakchodi, TsundereSharks).
-- r/placestart governing others' space (liquicity's template, hatsune's taskbar deal, cgpgrey).
-- A room writing or running its own script because others use them (TsundereSharks, neu, coldplay, texas, liquicity), against members refusing scripts because the work should be built by hand (rangers, starcitizen's Hornet).
-- A sub moving canvas talk to a second sub, megathread or diplomacy thread (greece, suomi, startrek, hatsune, NewMexico).
-- The canvas field linking a work the room did not discuss or place (anarcho_capitalism, AceOfAngels8, greenland, PokemonSage).
-- A small room giving way when larger neighbours ask (NewMexico, oneshot, Cornwall, neu).
-Also in block 10: a national flag as permission office (hungary for Lebanon and Survivor); a room paying a neighbour five pixels (coldplay to Straya); rooms bargaining with the Void (mcgill, EraseThePlace, anarcho_capitalism); a sub made for the canvas hosting smaller works in return for upkeep (TeamYellowPlace for Snake, Batman and a mural).
+Seen three or more times and logged, blocks 10 and 11:
+- Green Lattice as host whose leave rooms cite and which asks upkeep (stargate, Peru, warframe, gameattack, neu, titanfall, TransFlagPlace, leagueoflegends), and whose members sometimes disrupt work its Discord allowed (warframe).
+- r/placestart governing others' space and hosting small rooms as taskbar icons (liquicity, hatsune, cgpgrey, clubpenguin, farmcarrots's proposal).
+- A room that covered a work helps rebuild it (animalcrossing, puzzleanddragons, liquicity).
+- Deals struck by ambassadors that the sub's own participants break or do not know of (twice, bakchodi, TsundereSharks, stevenuniverse).
+- A room yields or keeps a treaty because the other side was there first (titanfall, danganronpa, malaysia, neu).
+- A room cracks or shrinks its own work for a neighbour (stevenuniverse, xenoblade_chronicles, udub).
+- Scripts written because others use them (TsundereSharks, neu, coldplay, texas, india, malaysia), against scripts refused on principle (rangers, starcitizen, danganronpa's Kirigiri).
+- Colour factions with three fates: one held and hosted (TeamYellowPlace), one split and lost its corner (PurplePixels), one went silent into Green Lattice (GreenEmpire).
+- TheFarLeftSide protecting small rooms' flags (animalcrossing, rojava, PokemonSage, kurdistan).
+- Large rooms whose canvas calls were scattered and whose mark came from a Discord group (dankmemes, leagueoflegends, DestinyTheGame).
 
-Paired lead checks, both sides read, block 10: agree for cirkeltrek and greece, rit and COSI, xcom and rhythmheaven, korea and seolhyun, habs, ockytop and sabres with leafs, monsterhunter and liquicity, TheFarLeftSide and animalcrossing, spacexmasterrace and startrek, ireland and placehearts with feedthebeast, masseffect and puzzleanddragons, lebanon, denmark and survivor with hungary, rangers and bangladesh with bakchodi, elitedangerous and kerbalspaceprogram with starcitizen, norway, norge and maryland with texas, bostonbruins and NewMexico, kamenrider, python and NewMexico with TsundereSharks, batman and frc with TeamYellowPlace, texastech and KState with neu, anarchism and completeanarchy with anarcho_capitalism, falcons and patriots, seolhyun and AceOfAngels8. Agree in part: OKState and startrek; chicubs and coldplay; frankocean and hungary; miamidolphins and patriots; stargate, canada and linux with EraseThePlace; Dorset and Cornwall; babymetal and TeamYellowPlace; sooners and neu; southpark and TsundereSharks. Not found in the concepts read: epublica and ftlgame with startrek, ethereum and minecraft with feedthebeast, harrypotter with superman, korea with twice, mit and habs with mcgill, ethereum with suomi, ohio, giantbomb and MMA with texas, mexico with NewMexico, npr with Peru, japan with warframe, foxes with patriots, vocaloid and linux earlier.
+Paired lead checks, both sides read, block 11: agree for aceattorney and danganronpa; norway, norge and 4chan with stevenuniverse; homestuck, NieR, spongebob, rangers and bakchodi with india; germany and farmcarrots; the_pack, bisexual, auburn and asktransgender with TransFlagPlace; virginiatech and titanfall; foxes and patriots with totallynotrobots; parahumans, timbers, coldplay, GrowTheTree and australia with straya; warframe and rocketleague with DestinyTheGame; xcom and udub; dallasstars and wildhockey with finland; dbz and clubpenguin; bardmains and leagueoflegends; hungary and kurdistan. Agree in part: scp and thesilphroad; uwaterloo and titanfall; eesti and india; uiuc and finland; globaloffensive and leagueoflegends. Not found in the concepts read: ghibli, simonfraser with stevenuniverse; metroid, monero, rickandmorty with india; UPenn, fullcommunism with farmcarrots; witcher, haskell, rickandmorty, sadboys with TransFlagPlace; drugs, gorillaz, ripcity, chile, vegan with straya; halo, placehearts with DestinyTheGame; GrowTheTree, TheB1G, greenbaypackers with finland; FloydVsVoid, metroid with leagueoflegends; SwissNeutralityZone with PurplePixels. Block 10's paired checks are in `notes-A1.md` and the diary.
 
 ## Contrary rooms
 
-Block 01: morrowind and megaman said they were not organized; heyyea kept art it did not make; egypt's flag was a stranger's gift; duckgame mourned art the atlas lists as surviving; AprilKnights had an order with elections; flashtv's prank ran apart from canvas work; PinkVomitMonster called its lack of coordination its beauty; FloydVsVoid's founder regretted not compromising; anime mostly refused and argued credit; watchmen and TheAdventuresofTintin noticed art they did not visibly build; tagpro aimed at advertising; anime, qotsa, cfb and drugs disagree with the canvas fields. From the screen: UNLincoln, yerbamate, Redox, azores, archlinux.
+Block 01: morrowind, megaman, heyyea, egypt, duckgame, AprilKnights, flashtv, PinkVomitMonster, FloydVsVoid, anime, watchmen, TheAdventuresofTintin, tagpro, qotsa, cfb, drugs; from the screen UNLincoln, yerbamate, Redox, azores, archlinux.
 
 Block 02: homelab, hentai, kpop and ubc, norge, cirkeltrek, loltyler1, bobross and nonbinary, zelda.
 
@@ -95,49 +96,47 @@ Block 08: ReBoot, nVade, epublica, lego, foxes, math, popheads, ockytop.
 
 Block 09: sadboys, spacex, Fez, warthunder, nascar, israel, magictcg, tenma, ManningPlace.
 
-Block 10:
-- cgpgrey: a late room that arrived in the last hour to defend a logo others built, under restricted posting.
-- EraseThePlace: a sub made for the canvas to erase it to white, which argued what to spare and barred discriminatory posts.
-- dankmemes: a large room with 88 off-platform pointers whose canvas calls were scattered raids and whose one Discord build failed.
-- anarcho_capitalism: the canvas field links a meme it never discusses; its flag and snek were moved to small backups.
-- twice: a deal Denmark's visitors promised was broken by Danish participants.
-- TeamYellowPlace: a colour faction that hosted other works for upkeep.
-- mcgill: members hailed the Void to spare a chicken.
-- PokemonSage: two turns, a found Foliat, no coordinating turn.
+Block 10: cgpgrey, EraseThePlace, dankmemes, anarcho_capitalism, twice, TeamYellowPlace, mcgill, PokemonSage.
+
+Block 11:
+- UNLincoln: a last-hour call to fix a logo another member said was Northeastern's; read now in full, two turns.
+- totallynotrobots: canvas work began at h69.9 and failed; the canvas links a ReCaptcha it placed 0.003 of.
+- finland: the sub where outsiders came to negotiate; members pointed them to r/Suomi and disowned the flag's expansion.
+- udub: a late room that took space by script over objections and called it a win.
+- GreenEmpire: a sub made for the canvas that went silent within six hours.
+- danganronpa: members refused to retake space because a treaty and an earlier banner said no.
+- india: its scripts repaired both the Indian and the Pakistani flag.
 
 ## Open distinctions
 
-None is filed in `_questions/`. Distinctions forming, to watch in block 11:
-- joining or finding work begun elsewhere, against starting it; and finding it only after the close;
-- organizing in the thread, against organizing in Discord or a second sub and reporting back;
-- deals that bind a room, against deals its own participants, outside loyalties or a later, larger deal undo;
-- a treaty over the whole work, against one over a small part (a tail, a pixel column, a heart);
-- a sub made for the canvas that governs others (greenlattice, thebluecorner, placehearts, TheFarLeftSide, placestart, TeamYellowPlace), against one that keeps a single work (nVade, epublica, ManningPlace), against one made to erase (EraseThePlace);
-- a host's grant against its own members' disruption (warframe with Green Lattice);
-- a national flag run as a permission office (sweden, denmark, hungary), against one run as a front line;
-- one organiser with friends, against a room-wide effort;
-- scripts written in self-defence, against scripts refused on principle;
-- the moderator as organiser, obstacle, gatekeeper to a second sub, prankster, or enforcer;
-- a large room with a large mark, against a large room with a small, late or failed mark;
-- late rooms that ask at every site, take, refuse then shuffle, or arrive only to defend;
-- the canvas fields linking the room's work, a neighbour's, a covered work, a lost work, or a work the room never names.
+None is filed in `_questions/`. Distinctions forming, to watch in block 12:
+- joining or finding work begun elsewhere, against starting it; finding it only after the close;
+- organizing in the thread, against organizing in Discord or a second sub; the sub where outsiders negotiate, against the sub where the nation organises (finland, suomi);
+- deals that bind a room, against deals its own participants or the other side's participants do not know or keep;
+- a treaty kept against the room's own wish, against one broken by its own rogues;
+- a sub made for the canvas that governs others (greenlattice, thebluecorner, placehearts, TheFarLeftSide, placestart, TeamYellowPlace), one that keeps a single work, one that asks leave (farmcarrots, TransFlagPlace), one made to erase (EraseThePlace), and one that fades (GreenEmpire);
+- a national flag run as a permission office, as a watcher (hungary with kurdistan), or as a front line;
+- scripts written in self-defence, scripts refused on principle, scripts that repair a rival (india);
+- the moderator as organiser, obstacle, gatekeeper, prankster, or enforcer;
+- a large room with a large mark, against a large room whose mark came from a Discord group;
+- the five kinds of late room listed above;
+- the canvas fields linking the room's work, a neighbour's, a covered or lost work, or a work the room never names.
 
 ## The last rooms read
 
-Block 10, in reading order: greece, UPenn, COSI, baylor, rhythmheaven, seolhyun, stargate, sheffield, rangers, bretagne, leafs, liquicity, animalcrossing, startrek, feedthebeast, PokemonSage, superman, littlebusters, puzzleanddragons, cgpgrey, hatsune, uofmn, coldplay, foxstevenson, hungary, suomi, bakchodi, starcitizen, dankmemes, mcgill, worldpowers, southpark, patriots, twice, texas, greenland, EraseThePlace, chelseafc, NewMexico, Cornwall, anarcho_capitalism, TsundereSharks, gameattack, AceOfAngels8, oneshot, cmu, TeamYellowPlace, Peru, neu, warframe.
+Block 11, in reading order: danganronpa, stevenuniverse, india, thesilphroad, farmcarrots, TransFlagPlace, titanfall, xenoblade_chronicles, totallynotrobots, straya, UNLincoln, DestinyTheGame, udub, finland, clubpenguin, leagueoflegends, sakartvelo, GreenEmpire, malaysia, kurdistan, PurplePixels.
 
 ## Ledgers at this close
 
-- `lexicon-A1.md`: 816 lines. `running-A1.md`: 373 lines. `leads-A1.jsonl`: 1,613 lines. Every lead's `other` is in `order-A1.txt`, letter case aside; checked at this close with grep, sort and comm.
-- Leads written for rooms outside the frame are not written: worldpowers' rival r/wallops_irl and r/quityourbullshit are logged in the diary instead.
-- One note has only two concepts (PokemonSage); the hook requires three carrying ids, so the first id is repeated, and the diary says so.
-- r/chelseafc's canvas line names no artwork row with pixels and placers; the note gives the area and region placements.
-- Rule, kept: fetch every id with `cite.py` and check every lead's room with grep against the frame; append through a grep filter on the item id; never type an id from memory.
-- The hook rejects notes of 350 words or more by its own count, which runs a few words above `wc -w`; keep `wc -w` at 345 or below. First drafts still run 360 to 415; draft the `doing` line at about 150 words and never log noted in the same call as the write.
+- `lexicon-A1.md`: 840 lines. `running-A1.md`: 395 lines. `leads-A1.jsonl`: 1,653 lines. Every lead's `other` is in `order-A1.txt`, letter case aside; checked at this close with grep, sort and comm.
+- One lexicon line (xenoblade_chronicles) was written with a corrected spelling; a line with the exact words was appended. One running line carried a stray aside; a corrected line was appended. The diary says both.
+- Two notes have only two concepts (UNLincoln this leg; PokemonSage earlier); the hook requires three carrying ids, so the first id is repeated, and the diary says so.
+- Rule, kept: fetch every id with `cite.py` and check every lead's room with grep against the frame; append through a grep filter on the item id; never type an id from memory. Lexicon words are copied as written, typos included.
+- The hook rejects notes of 350 words or more by its own count, which runs a few words above `wc -w`; keep `wc -w` at 345 or below. First drafts still run 360 to 425; draft the `doing` line at about 150 words and never log noted in the same call as the write.
 
 ## The next comparison
 
-In block 11, for every room: did the artwork exist before the room's first call, and who built it? Do the canvas fields link the work the room describes, or name it covered, lost or unnamed? Was the deal struck in the thread, in Discord or in a second sub, and did the room's own participants keep it? Which side of the onset contrast is the room on, and is it a sub made for the canvas? Early-side rooms in block 11: r/leagueoflegends, r/thesilphroad, r/totallynotrobots, r/india, r/titanfall, r/GreenEmpire, r/danganronpa, r/DestinyTheGame, r/PurplePixels. Late-side rooms: r/udub, r/sakartvelo, r/UNLincoln; read them against r/cgpgrey, r/Cornwall and r/corridor. Read r/DestinyTheGame against r/warframe (the theme swap); r/straya against r/coldplay (five pixels); r/totallynotrobots against r/patriots; r/india against r/bakchodi; r/kurdistan against r/hungary; r/finland against r/suomi; r/clubpenguin against r/warframe; r/GreenEmpire and r/PurplePixels as colour subs against r/TeamYellowPlace; r/TransFlagPlace as a sub made for the canvas.
+In block 12, for every room: did the artwork exist before the room's first call, and who built it? Do the canvas fields link the work the room describes? Was the deal struck in the thread, in Discord or in a second sub, and did both sides' participants keep it? Which side of the onset contrast is the room on, and is it a sub made for the canvas? Early-side rooms in block 12: r/worldoftanks, r/clashroyale, r/eve, r/de, r/argentina, r/donaldglover, r/newzealand, r/romania. Late-side rooms: r/CelticFc, r/MiamiHurricanes; read them against the five kinds of late room. Read r/newzealand against r/starcitizen and r/straya; r/chibears against r/finland; r/cubers against r/xenoblade_chronicles; r/romania against r/hungary and r/malaysia; r/pakistan against r/india and r/bakchodi; r/SquareSpiral against r/suomi and r/finland; r/argentina against r/suomi; r/orderofthebluecorner against r/thebluecorner and r/PurplePixels; r/anarchocapitalism against r/anarcho_capitalism; r/de against r/placeDE and r/germany.
 
 ## Nothing changed in the scheme or the model
 

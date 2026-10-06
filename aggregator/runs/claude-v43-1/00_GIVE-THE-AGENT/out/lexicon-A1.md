@@ -814,3 +814,27 @@ Yellow Triangle | TeamYellowPlace | 62q8pr | h11.24
 I don't have a leader | Peru | dfpykc8 | h38.64
 PEACE HAS BEEN REACH | neu | 631l3p | h51.25
 defending their turf | warframe | dfrdveg | h61.90
+we never technically had it in the first place | danganronpa | dfrttvo | h71.13
+a show about loving and caring about others | stevenuniverse | dfqhkur | h50.06
+Just let Pakistan have their flag | india | 635f4x | h64.10
+Aachaar | india | dfooww5 | h15.66
+won't be as much of a target of trolls | thesilphroad | dfnvhd3 | h3.28
+humble farmers | farmcarrots | 62qyzm | h13.85
+And Still, We Persisted | TransFlagPlace | 62xjet | h35.47
+our own little society | titanfall | dfrsm6s | h70.73
+got me interested in your game | xenoblade_chronicles | dfrt36e | h70.89
+go me interested in your game (exact spelling; supersedes the line above) | xenoblade_chronicles | dfrt36e | h70.89
+WE FAILED. IT IS OVER | totallynotrobots | dfs06s1 | h73.24
+Un-Australian | straya | 62sf4j | h20.48
+partners by chance | straya | 62wtlp | h32.98
+its not ours, its Northeastern | UNLincoln | dfs95la | h76.13
+We shall always encroach | DestinyTheGame | dfnz8tp | h4.46
+They've given up trying to defend | udub | dfrfirv | h62.94
+keep each other clean | finland | 633kk0 | h57.05
+found the puffle hiding half our flag | clubpenguin | dfrkeu7 | h66.88
+Really showing how unorganized we are | leagueoflegends | 633vu3 | h58.04
+we can do it again | sakartvelo | dfro7ep | h69.04
+All Hail the Green Empire | GreenEmpire | 62msnb | h1.85
+Diplomatic Relationship done right | malaysia | 6364ar | h67.36
+some folks made a Kurdistan heart | kurdistan | dfrjy1m | h66.52
+The canvas shall be Purple | PurplePixels | 62n84p | h2.90

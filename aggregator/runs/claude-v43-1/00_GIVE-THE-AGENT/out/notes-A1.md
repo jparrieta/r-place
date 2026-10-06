@@ -444,3 +444,30 @@ leg A1b-10 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 816 lines, running file 373 lines, leads 1,613 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. Rooms named in the record but outside the frame got no lead line (r/wallops_irl and r/quityourbullshit for r/worldpowers); the diary says so. One room has only two concepts (r/PokemonSage); the note hook requires three carrying ids, so the first id is listed twice, and the diary says so. The context was compacted once in this leg; the head was re-read and reconciled with the diary before the next write, and the diary records it. One more artwork shows region placements before hour 0: r/starcitizen's Star Citizen Ship at h-0.24. That makes twelve cases; the case stays unfiled. r/chelseafc's canvas line gives no artwork row with pixels and placers; its note gives the area and the region placements. Onset contrast, block 10: nine early rooms (dankmemes, puzzleanddragons, baylor, startrek, feedthebeast, patriots, leafs, EraseThePlace, suomi) and five late rooms (COSI, UPenn, sheffield, Cornwall, cgpgrey).
+
+## Close report, leg A1b-11 (block 11), 2026-10-06
+
+Block 11 read whole: 21 of 21 rooms noted, 466 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 466 over an analysed set of 705
+  239 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-11 cut=none 20261006T192522Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-11 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 840 lines, running file 395 lines, leads 1,653 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. One lexicon line for r/xenoblade_chronicles was written with a corrected spelling ("got" for the room's "go"); a line with the exact words was appended. One running line on Green Lattice carried a stray aside; a corrected line was appended. The diary records both. One room has only two concepts (r/UNLincoln, listed among the screen's doubts at A1a); the note hook requires three carrying ids, so the first id is listed twice, and the diary says so. No new artwork with placements before hour 0 was found; r/leagueoflegends links The Void Prism from h-14.47, a work already counted under r/FloydVsVoid, so the count stays at twelve and the case stays unfiled. Onset contrast, block 11: nine early rooms (leagueoflegends, thesilphroad, totallynotrobots, india, titanfall, GreenEmpire, danganronpa, DestinyTheGame, PurplePixels) and three late rooms (udub, sakartvelo, UNLincoln).
