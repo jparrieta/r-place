@@ -224,3 +224,31 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - a streamer's raid becomes an alliance by the close | osugame (Tyler1)
 - the canvas restarts on clone canvases after the close | greenlattice, nightinthewoods, TheGreatGreenBox, uiuc
 - placements before hour 0 on a room's artwork | none new in block 05
+- block 06 begins: 37 rooms, wow to soylent | block 06
+- a sub made for the canvas sets rules for other rooms' art | thebluecorner (rules for artists, right to curate)
+- a sub made for the canvas around one small piece and what it stands for | TreePlace, GrowTheTree, loliconsunite, placehfarts
+- canvas work moved to a second sub made for it, to keep the main sub clear | parahumans (r/ParahumansPlace), gorillaz (r/gorillazplace), asktransgender (r/TransFlagPlace)
+- the English-language national sub is not where the national flag was run | germany (r/placeDE)
+- the room's logo credited to another sub | vim (r/ArchLinux)
+- a room adopts a sign another person made | furry_irl (Yiff Me Daddy)
+- a member finds the room's art already under way when they arrive | gravityfalls, globaloffensive (1G), naruto (green Konoha symbol)
+- the canvas fields link art the room's writers barely placed (writers' share under 0.03) | Pigifs, evedreddit, bih, spongebob, pokemon, vim, germany, placehfarts
+- the canvas fields link a different piece from the one the room argued over | germany (TV tower, not the flag), Pigifs (a mark far from the coordinates called), placehfarts
+- the atlas names a covered work that the room says it lost | gravityfalls ((Covered) Bill Cipher)
+- a neighbour asks permission before overlapping and gets it | bangtan (CheckersUnited), gravityfalls (SSMT), hunterxhunter (a triangle), chicubs, miamidolphins
+- a room routes its art under or around neighbours on request | asktransgender (knight, Mario, PinkVomitMonster), gorillaz (Noodle), naruto (Esperanto border)
+- a room refuses to retaliate and tells members not to vandalise others | chicubs, asktransgender, miamidolphins, globaloffensive (League crest)
+- a deal struck by a few is said not to bind the crowd | GrowTheTree (Straya's hivemind), hunterxhunter (a broken promise at the close), germany (Discord votes refused)
+- a truce reported broken | soylent (the Poles), thebluecorner (Germany)
+- sport rivals or neighbours trade mutual protection | chicubs and miamidolphins, globaloffensive with dota2 and tf2
+- K-pop groups defend one area together through a group Discord | bangtan
+- the void named as a faction others negotiate with or fight | bangtan, gravityfalls, gorillaz, GrowTheTree, parahumans, asktransgender
+- April Fools makeovers fill most coded turns | naruto, globaloffensive, hunterxhunter (Wagon Quest), pokemon (Team Skull), miamidolphins, furry_irl
+- a joke war between subs fought in comments, not on the canvas | Pigifs (babyelephantgifs), evedreddit (mock war with Gorillaz)
+- scripts and many accounts named openly | soylent (script, 20 accounts), globaloffensive (Chrome script removed after ban warnings), chicubs (800 accounts joke)
+- whether canvas posts belong in the sub argued | chicubs (game thread), globaloffensive, soylent, germany
+- a canvas ad brings readers to the room after the close | parahumans (about 270 subscribers), evedreddit (a lapsed player)
+- the room's art read as text that ended misspelt and kept as a joke | chicubs (Cues), soylent (p/soylent), furry_irl (furay_irl)
+- clone canvases after the close | naruto, gravityfalls, gorillaz, furry_irl, thebluecorner (pxls.space, PlaceTwo)
+- late onset with art placed long before the first call | DiamondClub (h55.5), bih (h42), loliconsunite (h22.9)
+- placements before hour 0 on a room's artwork | thebluecorner h-12.34, globaloffensive h-13.62, GrowTheTree h-0.24

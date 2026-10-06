@@ -1,0 +1,12 @@
+# r/berkeley  (read 2026-10-06)   coded share 0.081   off-platform pointers 2
+doing:      a university sub; at h33.0 a call to make a Cal logo in the bottom-right corner, a guideline asked, work begun at 967,979, a call to overtake the Arizona logo (c0003, c0004, c0005, c0014); the bear consumed in half an hour, the script Cal chosen instead, a spot and template broadcast (c0006, c0007, c0009); a neighbour asking a truce, then asking them to keep the area blue and clean, then requiring the logo to move (c0010, c0011, c0012); negotiation offered (c0020); at h49.9 an agreement with Sweden sought, and permission secured through r/sweden's diplomats on Discord for a new spot (c0021, c0022, c0029); a war with the blue corner conceded, the new spot made the moderator's plan (c0038, c0040, c0052); repairing the Dutch border to prevent revenge (c0055); the logo done at h55.1, defence and upkeep after (c0060, c0056); Arizona's request for help declined for lack of pixels (c0044, c0045); a strike on Sweden while it sleeps proposed and opposed, members saying smaller subs must make peace with larger ones (c0093, c0094, c0048); at h72.6 a defence script (c0070).
+week:       h28 to h50 attempts and moves; h50 to h55 Sweden's permission and the logo; h55 to h72 upkeep.
+named:      r/sweden as permission-giver (c0022, c0046); the blue corner (c0038); the Dutch flag (c0055); Arizona, Georgia Tech, the Mets as neighbours (c0014, c0026, c0057); Stanford as joke enemy (c0002).
+goal:       a Cal logo; moved three times; built at h55.1 on Swedish-sanctioned space; held.
+unsettled:  whether to add to the logo or stay within Sweden's terms (c0049, c0062, c0093).
+coder unsure: 130 threads out of scope.
+carrying:   c0022, c0048, c0052
+not this:   a room that held its first spot; it built where Sweden's diplomats allowed.
+ended:      last coordinating turn h72.57 (c0070, a defence script); after h73 pride.
+struck by:  "Here at /r/berkeley we provide only hand-made, all-natural Cal logos."
+made:       one artwork, Script Cal, 527 px at the edge, placed from h1.39; writers placed 0.157, pre-event members 0.046. The canvas keeps the logo.

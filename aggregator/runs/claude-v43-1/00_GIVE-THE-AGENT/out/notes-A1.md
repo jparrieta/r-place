@@ -309,3 +309,30 @@ leg A1b-05 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 542 lines, running file 226 lines, leads 774 lines. A mid-leg run of `validate.py A1` found three errors. Two lead lines named rooms outside the frame: roosterteeth to evangelion, and kcroyals to mariners. They were removed from `leads-A1.jsonl`, and their full content is kept in the diary. The r/FlipnoteStudio3D carrying line named two ids. That room has only two concepts, so the line now repeats c0001, and the diary says why. One lead line had a wrong item id: rit to COSI with 633u1i, which is the RIT tiger over the Bruins logo. A corrected line with dfqtlqx was appended. At this close a python check over the whole leads file finds every `other` in the frame. No new artworks with placements before hour 0 turned up in block 05; the count stays at six.
+
+## Close report, leg A1b-06 (block 06), 2026-10-06
+
+Block 06 read whole: 37 of 37 rooms noted, 278 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 278 over an analysed set of 705
+  427 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-06 cut=none 20261006T162122Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-06 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 619 lines, running file 254 lines, leads 955 lines. A grep, sort and comm check over the whole leads file finds every `other` in `order-A1.txt`. Five names differ from the frame only in letter case (Landry, LoveLive, MLS, Monero, RocketLeague, all from block 01), and the validator accepts them. Ten lexicon or lead lines were appended with a wrong item id: globaloffensive 2, miamidolphins 2, pokemon 2, bangtan, GrowTheTree, gravityfalls and asktransgender. In each case the id came from a different code, or a placeholder was typed before the id was fetched. A corrected line was appended for each, the wrong lines stay as superseded, and the diary names every one. The gorillaz lead to r/eve named the wrong room for the Dreddit sign; a gorillaz-to-evedreddit lead was appended. Three more artworks show region placements before hour 0: thebluecorner (h-12.34), globaloffensive (h-13.62) and GrowTheTree (h-0.24). That makes nine cases. The case stays unfiled until the canvas manifest is read through the verbs.

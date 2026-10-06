@@ -1,0 +1,12 @@
+# r/parahumans  (read 2026-10-06)   coded share 0.103   off-platform pointers 6
+doing:      the fan sub of the web serial Worm; at h8.4 "Read Worm" declared done and defended, a roadmap shared (c0002, c0004, c0005); recognised as safe art (c0008); at h17.9 an agreement with r/Australia, then the kangaroo overrunning the beetle, r/straya apologising and helping redraw it (c0010, c0034, c0015, c0071); the author's wish relayed: an ad welcome, no name, no pings (c0033, c0043, c0053); a single coordination thread, then at h30.4 a new sub, r/ParahumansPlace, to keep canvas talk off the main sub (c0016, c0064, c0087, c0154); help returned to Straya, a butterfly changed as solidarity (c0058, c0061); a peace treaty with r/mylittlepony and close ties with r/portugal (c0097, c0131); a galaga ship overrun and space given back (c0101, c0117); at h61 Australians accusing them of covering the Steve Irwin tribute, an apology and a promise not to expand (c0142, c0144); newcomers arriving through the ad (c0041, c0109); after the close, about 270 new subscribers and an argument over the influx (c0182, c0179).
+week:       h5.7 to h17 the sign; h17.9 to h31 Straya, the author's wish, a new sub; h31 to h61 neighbours and treaties; after h73 newcomers.
+named:      r/straya and r/australia as rival then mates (c0010, c0015, c0173); r/mylittlepony, r/portugal, PinkVomitMonster as allies (c0097, c0131, c0186); r/timbers and r/FrankOcean as neighbours helped (c0093, c0116); Rainbow Road granting art status (c0056).
+goal:       a Read Worm ad; done by h8.4; grown with bugs and characters; held.
+unsettled:  whether the room may expand, and whether the influx helped (c0158, c0196, c0179, c0181).
+coder unsure: 63 threads out of scope.
+carrying:   c0015, c0064, c0144
+not this:   a room that only advertised; it spent most turns repairing neighbours.
+ended:      last coordinating turn h66.58 (c0133, canvas talk kept in ParahumansPlace); after h73 thanks and newcomers.
+struck by:  "r/straya and r/parahumans - mates forever."
+made:       seven artworks in the middle ring, Parahumans 4,238 px placed from h0.14, before the room's first turn, and a Redback spider shared with straya; writers placed 0.163, pre-event members 0.065. The canvas keeps the ad.
