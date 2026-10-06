@@ -1,0 +1,12 @@
+# r/chelseafc  (read 2026-10-06)   coded share 0.053   off-platform pointers 7
+doing:      a football club sub; the moderators' April Fools turn into a QPR sub holds most early turns, members blaming it and the moderators for a loss (c0001, c0048, c0086, c0093); at h24.6 a call to paste the crest, templates given (c0094, c0095); at h28.3 a template, 820,320 chosen below r/onepiece (c0096, c0099); a member asking the organiser to stop (c0112); at h47.3 a new attempt, moved when another drawing grows, members told they must maintain and recruit (c0113, c0120, c0122); at h49.2 a private chat, deals with r/Scotland over Nessie's tail, with Starcraft and hydra over their logos, sacrifices called necessary to cohabit (c0143, c0146, c0147, c0148, c0149); at h50.9 coordination moved to the club Discord (c0132); at h52.1 an alliance with The Blue Corner (c0140); at h53.7 Agumon's coexistence taken to the chat (c0163); at h57.6 bots called necessary for the crest (c0168); at h62.5 defenders erasing the crest's intended red, apologies (c0172, c0187); at h67.3 a design brought back from the chat (c0192, c0193); after the close Starcraft and Scotland thanked (c0195, c0175).
+week:       h9 to h44 QPR makeover; h24 to h33 a first attempt; h47 to h58 crest, deals; h60 to h68 red pixels.
+named:      r/Scotland, Starcraft and hydra as deal partners (c0146, c0147, c0148); The Blue Corner as ally (c0140); r/onepiece as neighbour (c0099); Agumon as coexisting neighbour (c0162).
+goal:       a Chelsea crest; tried from h28.3; begun at h47.9; finished by h73.1; held.
+unsettled:  whether the crest can last without bots (c0168, c0223, c0225).
+coder unsure: 146 threads out of scope.
+carrying:   c0122, c0149, c0187
+not this:   a room that fought for space; it traded borders with four neighbours.
+ended:      last coordinating turn h67.36 (c0193, a design from the Discord); after h73 thanks and r/gunners mocked.
+struck by:  "The whole point of all this is to cohabite so it's necessary to make some sacrifices !"
+made:       one artwork, Chelsea FC, 2,169.5 px area at the edge; region placements 27,096; writers placed 0.152, pre-event members 0.058. The canvas keeps the crest.

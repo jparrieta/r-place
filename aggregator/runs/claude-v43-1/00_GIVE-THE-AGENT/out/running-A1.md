@@ -340,3 +340,34 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - the canvas field names the work but the room reports it lost or unfinished | warriors (lost at h72.5), pebble (unfinished), warthunder (half built), Fez (absent at the close), KState (griefed at the last minute)
 - late rooms (first coded after h48) | ManningPlace (a sub made for the canvas; held a large face, refused to move), corridor (asked at three sites, shrank), sooners (tried to take others' logos first), pgang (templates in the last half hour), UMiami (one attack call)
 - early rooms (first coded before h3) | touhou (raided first, treaties after), chile (asked the avocado makers), schoolidolfestival, thailand, asexuality, nascar, mls, warthunder, redhotchilipeppers
+- a national or fan sub moves canvas talk to a second sub, megathread or diplomacy thread | greece (r/GreecePlace), suomi (Kangas megathread, r/FinlandFlag), startrek (plans from r/FederationPlace), hatsune (placestart diplomacy thread), NewMexico (r/ziaplace)
+- late rooms ask permission and move when asked | UPenn, COSI, sheffield
+- a late room arrives in the last hour to defend a logo others built from the first hours | cgpgrey (first coded h72.04; work placed from h2.44)
+- a late room takes a spot, refuses once to move, then shuffles | Cornwall
+- Green Lattice as the host whose leave rooms cite | stargate, Peru, warframe, gameattack (protection offer), neu (via a grant to Hong Kong)
+- Green Lattice members disrupt work its own Discord permitted | warframe
+- a small flag kept inside a national flag protected area | bretagne (France, via placehearts)
+- a protector sub own script destroys the work it protects, then rebuilds it | animalcrossing (TheFarLeftSide)
+- TheFarLeftSide as host or protector of small works | animalcrossing, PokemonSage
+- the room that covered a work helps rebuild it or apologises | animalcrossing (TheFarLeftSide), puzzleanddragons (masseffect, 2007scape), liquicity (monsterhunter)
+- members refuse scripts because the work should be built by hand | rangers, starcitizen (the Hornet)
+- a room writes or runs its own script because others use them | TsundereSharks, neu, coldplay, texas, liquicity
+- members refuse to attack rivals or ask the room to stay neutral | patriots (Dolphins, Bills), leafs (Detroit, a national flag), uofmn (split on Big Ten alliance)
+- deals between rivals | leafs (Habs, Russians, Viking ship), rhythmheaven (xcom), starcitizen (Elite), hungary (a heart with Denmark), uofmn (Michigan)
+- a deal struck by a sub ambassadors that its own participants break | twice (Denmark), bakchodi (Belgian treaty line later called an invasion), TsundereSharks (New Mexico said to break a compromise)
+- r/placestart as a sub made for the canvas that governs others space | liquicity (its template), hatsune (taskbar deal), cgpgrey (a member putting placestart first)
+- a sub made for the canvas hosts smaller works in return for upkeep | TeamYellowPlace (Snake, Batman, a mural)
+- a sub made for the canvas to erase it, arguing what to spare and who belongs | EraseThePlace
+- a national flag as permission office | hungary (Lebanon, Survivor)
+- a room pays a neighbour in pixels | coldplay (five pixels to Straya)
+- the canvas field links a work the room does not discuss or did not place | anarcho_capitalism (Smiling Ancap Meme, writers 0), AceOfAngels8 (AOA, not the heart it reports), greenland (writers 0), PokemonSage (a Foliat it found)
+- the canvas field names a work the room reports lost, failed or half done | dankmemes (Gnome Child), hatsune (bulldozed), superman (figure lost, symbol kept), twice (pink spot lost), foxstevenson (half a logo)
+- placements of the linked work begin long before the room first call | foxstevenson (63 hours), cgpgrey, Cornwall, littlebusters
+- moderators April Fools makeovers fill early turns | startrek (CBS), chelseafc (QPR), starcitizen (Wing Commander), warframe (Destiny swap), dankmemes (wholesome mode), twice (JYP), AceOfAngels8 (Sistar), rangers
+- members say no one leads or commands | Peru (five builders, no leader), texas (r/Texas cannot command flag workers)
+- a small room gives way when larger neighbours ask | NewMexico, oneshot (Sweden), Cornwall, neu (Hong Kong)
+- a room bargains with the Void | mcgill (hails it to spare a chicken), EraseThePlace (Monochrome Alliance), anarcho_capitalism (the Void promises peace)
+- a linked work with placements before hour 0 | starcitizen (Star Citizen Ship, h-0.24)
+- one member or a few friends make the whole effort | superman, littlebusters, greenland, baylor
+- early-side rooms of block 10 | dankmemes, puzzleanddragons, baylor, startrek, feedthebeast, patriots, leafs, EraseThePlace, suomi
+- late-side rooms of block 10 | COSI, UPenn, sheffield, Cornwall, cgpgrey

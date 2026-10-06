@@ -417,3 +417,30 @@ leg A1b-09 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 755 lines, running file 342 lines, leads 1,496 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. One lead was removed in this leg: a lead from r/redhotchilipeppers named r/jhinmains, which is not in the frame; the diary keeps its content. Two lexicon lines cited a later or differently spelled item than first use (sonicthehedgehog "savemilesprower", sadboys "wooden horse"); corrected lines were appended. Two rooms have only two concepts (r/UMiami, r/tenma); the note hook requires three carrying ids, so the first id is listed twice in each, and the diary says so. One note (r/pebble) was logged noted in a parallel call before it was trimmed under 350 words; the diary records the order. One more artwork shows region placements before hour 0: r/npr's two works at h-11.19, in the centre ring. That makes eleven cases; the case stays unfiled. r/tenma, defect 1, was read: its one post places the character next to Satania, and the canvas fields hold nothing for it. Onset contrast, block 09: nine early rooms (schoolidolfestival, mls, thailand, redhotchilipeppers, warthunder, touhou, nascar, asexuality, chile) and five late rooms (sooners, UMiami, corridor, ManningPlace, pgang).
+
+## Close report, leg A1b-10 (block 10), 2026-10-06
+
+Block 10 read whole: 50 of 50 rooms noted, 445 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 445 over an analysed set of 705
+  260 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-10 cut=none 20261006T190402Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-10 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 816 lines, running file 373 lines, leads 1,613 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. Rooms named in the record but outside the frame got no lead line (r/wallops_irl and r/quityourbullshit for r/worldpowers); the diary says so. One room has only two concepts (r/PokemonSage); the note hook requires three carrying ids, so the first id is listed twice, and the diary says so. The context was compacted once in this leg; the head was re-read and reconciled with the diary before the next write, and the diary records it. One more artwork shows region placements before hour 0: r/starcitizen's Star Citizen Ship at h-0.24. That makes twelve cases; the case stays unfiled. r/chelseafc's canvas line gives no artwork row with pixels and placers; its note gives the area and the region placements. Onset contrast, block 10: nine early rooms (dankmemes, puzzleanddragons, baylor, startrek, feedthebeast, patriots, leafs, EraseThePlace, suomi) and five late rooms (COSI, UPenn, sheffield, Cornwall, cgpgrey).

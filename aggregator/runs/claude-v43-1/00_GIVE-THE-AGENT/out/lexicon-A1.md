@@ -753,3 +753,64 @@ almost not worth it anymore | warriors | dfrc3dq | h60.96
 This is not cool | sooners | dfr7f18 | h59.13
 make history | tenma | 62xbmf | h34.68
 rose city never gives up | timbers | dfri060 | h64.86
+greeks on reddit can be organized | greece | dfp8v85 | h26.76
+spare a few pixels for a university | UPenn | dfqzgu7 | h56.49
+the poor fish | COSI | dfqven3 | h55.06
+barely-legible 7x7 BU | baylor | dfrfpmg | h63.07
+Noseyan | rhythmheaven | dfs1gkj | h73.63
+not to anger our allies | seolhyun | 62yis6 | h39.91
+our little stargate | stargate | dfsfl1n | h78.18
+Operation Move the Rose | sheffield | dfrtgha | h71.01
+pixel by pixel | rangers | dfr0cu5 | h56.80
+on aura essayé | bretagne | dfs1e2k | h73.61
+TML -> FML -> FMML -> FAIL | leafs | dfpqhw4 | h34.22
+felt bad and apologized | liquicity | dfsn5qi | h80.75
+the kindest subreddit | animalcrossing | dfqzskb | h56.61
+dead, Jim | startrek | dfs0a8l | h73.27
+now owned by CBS | startrek | 62qc47 | h11.57
+beer buddies | feedthebeast | dfrling | h67.63
+Teamwork doesn't exist | feedthebeast | dfq0owo | h40.37
+friend of the motherland | PokemonSage | dfps1go | h34.94
+Byrne design or bust | superman | dfs7187 | h75.44
+Little Busters Cat Guide | littlebusters | 62z6yo | h43.59
+REBUILD TO THE RIGHT | puzzleanddragons | 62yh1q | h39.64
+Perfectly imperfect | cgpgrey | dfs00ax | h73.19
+the placestart gang | hatsune | 63643u | h67.34
+The Ideal Place | hatsune | 63buv8 | h83.88
+pseudo-war general | uofmn | dfpwv3z | h37.49
+Ski-U-Mah | uofmn | dfpa1vu | h27.26
+appeasement deal | coldplay | 6324lo | h52.75
+THANKS KANGAROOS | coldplay | dfqd1jw | h48.41
+half a logo | foxstevenson | dfrxmmi | h72.38
+we just want to connect our two flags | hungary | dfphz5c | h30.60
+Kangas megathread | suomi | dfq04bb | h39.87
+a policy of peace towards all flags | suomi | 62qm5j | h12.52
+Bhagwa Army | bakchodi | dfoqi59 | h17.04
+we troll | bakchodi | dfp8eyp | h26.58
+please no scripts | starcitizen | dfqp1hj | h52.78
+no swearsies | dankmemes | dfnzixr | h4.55
+Je Suis Red Chiken | mcgill | 62qgya | h12.02
+Work smart, not hard | worldpowers | dfrxwi1 | h72.48
+a pretty sick alliance | southpark | dfrg97h | h63.46
+the Watchers on the Pats pixel wall | patriots | dfpnqod | h33.02
+it takes a community to keep the art intact | twice | dfrpupp | h69.73
+Kolache alliance | texas | dfpa98g | h27.34
+Fall of the Alamo 2017 | texas | dfqv4f1 | h54.96
+a wild Greenland | greenland | 62qzzr | h13.98
+Monochrome Alliance | EraseThePlace | 62sk2e | h20.99
+We erase all flags equally | EraseThePlace | dforg3q | h17.91
+cohabite | chelseafc | dfqf1c2 | h49.15
+I shall do my part | NewMexico | dfr9nzc | h59.93
+the Flaming C | Cornwall | dfrmy1u | h68.43
+a natural expression of property rights | anarcho_capitalism | dfpufb7 | h36.11
+Commie Red to Capitalist Gold | anarcho_capitalism | 62o353 | h5.00
+Baka! Save me! | TsundereSharks | 635r9d | h65.81
+lattice it up | gameattack | dfr99ui | h59.79
+defend it at all costs, men | AceOfAngels8 | dfqh6wl | h49.92
+the power of diplomatic relationships | oneshot | dfswtl1 | h84.16
+the old-fashioned way | cmu | dfpu41t | h35.96
+allowed to exist in your realm | TeamYellowPlace | 62wh1p | h31.88
+Yellow Triangle | TeamYellowPlace | 62q8pr | h11.24
+I don't have a leader | Peru | dfpykc8 | h38.64
+PEACE HAS BEEN REACH | neu | 631l3p | h51.25
+defending their turf | warframe | dfrdveg | h61.90
