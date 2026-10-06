@@ -1,0 +1,38 @@
+{
+ "t": "2026-10-06T17:27:44+00:00",
+ "stage": "A1",
+ "leg": "A1b-08",
+ "answers": {
+  "goal": "Can case histories rebuilt one room at a time be combined into a shared account that explains things at several levels, from patterns across all rooms down to one room's history, and still points back to its evidence?",
+  "open": "None. No question file is filed in `_questions/`. The head lists distinctions that are forming but not filed, for example joining work begun elsewhere against starting it, and a second sub that is open against one that is private.",
+  "rooms": "edmontonoilers, popheads, epublica.",
+  "changed": "None, because no scheme, element or theme may be written at A1. This leg added only room notes and ledger lines.",
+  "next": "In block 09, read r/ManningPlace against r/falcons, r/israel against r/lebanon, r/asexuality against r/pansexual, and r/warriors against r/sabres. For each room, check whether its artwork existed before its first call and whether its deals bound the crowd."
+ },
+ "expected": {
+  "open": [],
+  "rooms": [
+   "epublica",
+   "popheads",
+   "edmontonoilers"
+  ],
+  "changed": [],
+  "next": ""
+ },
+ "status": {
+  "goal": "right",
+  "open": "n/a",
+  "rooms": "right",
+  "changed": "n/a",
+  "next": "n/a"
+ },
+ "scored": 2,
+ "unscored": [
+  "open",
+  "changed",
+  "next"
+ ],
+ "misses": [],
+ "score": 1.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

@@ -1,0 +1,12 @@
+# r/bisexual  (read 2026-10-06)   coded share 0.107   off-platform pointers 5
+doing:      a community sub; at h6.1 a proposal for a bi pride flag (c0001); at h10.0 a member working alone on one beside the trans highway, a second flag found, whether to join forces asked (c0004, c0006, c0010); a height of ten settled (c0026); at h31.3 the flag eaten by a wave design, r/placehearts asked for a heart (c0030, c0033); at h33.5 a flag recreated (c0038); talks with r/TransFlagPlace, members told not to cover the trans flag (c0066, c0069); at h49.7 a member saying the flag is made by individuals with no common group, the flag run as a ribbon behind other art without erasing it (c0063, c0048, c0064); r/indieheads apologising in advance for album covers, later a truce, NPR helping and being helped (c0077, c0133, c0095, c0114); r/aoe2 asking to talk about expansion, a square offered and a strict border kept (c0099, c0102, c0132); scattered work gathered into one thread, a sticky asked for (c0121, c0128, c0130).
+week:       h6 to h13 two flags; h20 to h33 a wave, a rebuild; h37 to h56 the ribbon; h59 to h73 aoe2, one thread.
+named:      r/TransFlagPlace and the trans flag as host neighbour (c0066, c0069); r/indieheads, r/npr, r/aoe2 under truces or borders (c0133, c0095, c0102); r/placehearts asked for a heart (c0033).
+goal:       a bi flag; started by individuals from h10.0; rebuilt twice; held as a ribbon behind other art.
+unsettled:  whether to add text, and what (c0104, c0106, c0108, c0142).
+coder unsure: 132 threads out of scope.
+carrying:   c0063, c0064, c0102
+not this:   a room with one plan from the start; individuals made flags that were gathered into one thread only at h64.7.
+ended:      last coordinating turn h73.19 (c0142, preserve or write text); after h73 stock-taking.
+struck by:  "it's all individuals of the bi community"
+made:       four artworks in the centre ring, two bisexual flags and two hearts, the largest 360 px, placed from h0.96; writers placed 0.107, pre-event members 0.022. The canvas keeps the flags.

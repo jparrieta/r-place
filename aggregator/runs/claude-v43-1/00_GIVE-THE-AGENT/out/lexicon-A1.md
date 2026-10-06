@@ -636,3 +636,43 @@ WeeaBOB | texans | dfp054o | h23.29
 stand our ground and not expand | texans | dfpvifw | h36.69
 PG the Kiwi | picturegame | dfq2nxy | h42.37
 likkle but we tallowah | Jamaica | dfqvaet | h55.02
+Placers without borders | metalgearsolid | dfq2hfp | h42.18
+Team Yellow | metalgearsolid | dfplxd7 | h32.26
+collab | ReBoot | dfrzyp8 | 73.17
+laffs | sabres | dfrrf1s | 70.32
+Ceafs | sabres | dftc559 | 93.73
+716 crew | sabres | dfre8ky | 62.11
+Lepin | lego | 62qobx | h12.74
+sacred task | lego | dfrnaq3 | h68.61
+brick fans | lego | 634y7z | h61.92
+Pixel the fox | foxes | 639m66 | h77.17
+rickroll | foxes | dfrkv66 | h67.20
+716 | buffalo | dfqhy6o | h50.19
+annex our Place | buffalo | 637c1f | h71.08
+Power T | ockytop | 62mork | h1.59
+fall back to the T | ockytop | dfploz2 | h32.16
+El Banditos | ockytop | dfq8thk | h46.69
+shabeb | lebanon | dfpz4bn | h39.06
+place army | lebanon | dfq9olq | h47.08
+Green Guys | nVade | 632le7 | h54.08
+Tobo | nVade | dfrg0x9 | h63.29
+no politics | nVade | dfrxd7j | h72.29
+Vineshroom | vinesauce | 62prks | h9.65
+Grand Dad | vinesauce | dfpld2d | h32.02
+Vineshroom | vinesauce | 62p03c | h7.40
+MALDITOS BELGAS | GranColombia | dfq6von | h45.70
+otra 1811 | GranColombia | 631ldg | h51.27
+stinger | gatech | dfookuc | h15.40
+fixTheBuzz | gatech | dfrdat1 | h61.58
+gayech | gatech | dfs0dut | h73.30
+Battle of Alberta | edmontonoilers | dfolk9h | h13.41
+defense pact | edmontonoilers | dfpkkpa | h31.70
+battle of Alberta | edmontonoilers | dfolktz | h13.41
+RAWM saxophone | popheads | 630tyu | h49.21
+This is a war | popheads | dfqfc86 | h49.26
+zona azul | epublica | 62wl1o | h32.23
+pacto de paz | epublica | 630v3d | h49.30
+collab | ReBoot | dfrzyp8 | h73.17
+laffs | sabres | dfrrf1s | h70.32
+Ceafs | sabres | dftc559 | h93.73
+716 crew | sabres | dfre8ky | h62.11

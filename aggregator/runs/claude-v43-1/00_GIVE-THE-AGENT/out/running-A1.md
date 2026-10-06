@@ -273,3 +273,39 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - April Fools makeovers fill most coded turns | halo, acecombat (HAWX), hunterxhunter earlier, formula1 (Kimi day), uoft (Waterloo swap), bostonbruins, porterrobinson
 - late onset rooms place small marks in leftover space | wsu (h50.9), crystalclear (h61.7)
 - placements before hour 0 on a room's artwork | nin h-11.52, beside radiohead h-11.54
+- a regional or national room sends canvas talk to a second sub made for it | ireland (r/PlaceIreland), sabres and buffalo (r/716Place), colombia (r/GranColombia), ockytop (private r/ProtectTheT)
+- a sub made during the event serves several communities at once | GranColombia (Colombia, Venezuela, Ecuador)
+- a sub made for the canvas, with no pre-event members, runs as one member's project | epublica (one member 57% of coded turns), nVade (moved home of r/greenguys)
+- a private planning sub shuts out members who want to help | ockytop (r/ProtectTheT)
+- the room asks every neighbour before it grows | epublica (SpaceX, Gorillaz, Hoodr, Star Trek), foxes (r/placeQR, Rainbow Road moderators), opticgaming (Green Lattice)
+- a rule not to bother larger communities, set at the start | epublica, sabres (all NHL teams help each other)
+- recognised-artwork status or leave from r/ainbowroad | gatech, foxes, nVade, rocketleague (one stripe through the letters)
+- a treaty about one small part of a work: a stinger, a stripe, a heart | gatech (Buzz stinger), rocketleague (rainbow stripe), lebanon (one heart to Austria)
+- the other side of a treaty tries to undo it, and others restore it | gatech (Mona Lisa members and the stinger), rocketleague (members removing the agreed stripe)
+- an invader apologises on behalf of its sub and helps repair | nVade (r/Scotland), foxes (r/homelab; r/totallynotrobots after the close), sabres (offer to the Red Wings in thanks for space)
+- earlier concessions read as having invited a takeover | nVade
+- a rival turned pact partner, then cursed after the close | edmontonoilers (Calgary)
+- a room leaves a rival logo alone so its own is not wrecked back | edmontonoilers, sabres (truce offered)
+- many turns go to defacing rival logos rather than building | sabres (Leafs to FAIL and Laffs), ockytop (checkerboard raids on Florida)
+- the room says it has too few people | sabres, vinesauce, popheads, lebanon (a small community), epublica (fewer than twenty), bangladesh (too late)
+- a sub hosted on a national flag runs through the flag's Discord | lego (r/denmark)
+- the work that held stands where another sub planned it | lego (r/denmark), ReBoot (r/TwoBestFriendsPlay)
+- a call goes unanswered for many hours, then another sub brings its effort | ReBoot (58 hours), foxes (first call h2.7, built from h65)
+- the room moved its work two or more times | foxes, vinesauce, scp, pansexual
+- a moderator enforces a treaty by messaging a placer | lebanon
+- moderators herd canvas talk into a megathread | lebanon, ireland, ockytop
+- a Discord made and no one joins, or several Discords at once | lebanon (no one joined), GranColombia (which is official)
+- petitions from other subs posted repeatedly in the thread | lebanon (r/Mexico, r/france)
+- scripts: some members lose heart, others adopt or edit them | buffalo (enthusiasm dropped), ockytop (editing the ukplace script), gatech (fixTheBuzz), edmontonoilers (IP block, then a script)
+- spare accounts asked for | gatech
+- a canvas call begins as an April Fools joke | popheads (the saxophone petition at h17.4)
+- April Fools makeovers fill most coded turns | lego (bootleg brand allowed for a day), popheads (fake releases), rocketleague (vegetable ranks), edmontonoilers (self-aware bot), metalcore
+- members ask that canvas posts be banned from the sub | lego, sabres (keep r/place off r/sabres)
+- the canvas field names the work covered or remains | edmontonoilers (covered), popheads (covered saxophone), ockytop (remains)
+- the void or a giant image covers the work in the last hour | edmontonoilers (the void h72.4), foxes (the totallynotrobots captcha h72.8)
+- a work survives only in the room's own restored image or header | ockytop (restored image adopted), foxes (Pixel the fox in the header)
+- the artwork had placements many hours before the room's first coded turn | ReBoot (h1.34 against h10.4), GranColombia (h1.42 against h43.9), buffalo (a Bills logo found)
+- members credit unknown makers | buffalo
+- a room disowns the acts of a few of its own members | vinesauce (r/France warning about its own members), indonesia, denmark, bulgaria earlier
+- three national communities build one flag and argue its stripes | GranColombia
+- late onset room on the canvas with a moved home | nVade (h52.86), a sub made for the canvas

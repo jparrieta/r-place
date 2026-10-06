@@ -363,3 +363,30 @@ leg A1b-07 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 638 lines, running file 275 lines, leads 1,133 lines. The first run of `validate.py A1` at this close found one error: a lead from r/acecombat named r/murica, which is not in the frame. The line was removed from `leads-A1.jsonl` and its full content is kept in the diary; the second run found 0 errors. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. Three lexicon lines carried wrong or invented item ids (denmark 2, texans 1); corrected lines were appended and the diary names each one. One more artwork shows region placements before hour 0: r/nin (h-11.52), beside r/radiohead (h-11.54). That makes ten cases. The case stays unfiled until the canvas manifest is read through the verbs.
+
+## Close report, leg A1b-08 (block 08), 2026-10-06
+
+Block 08 read whole: 30 of 30 rooms noted, 344 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 344 over an analysed set of 705
+  361 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-08 cut=none 20261006T172709Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-08 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 678 lines, running file 311 lines, leads 1,288 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. Two lead lines were removed in this leg. A lead from r/bisexual named r/lgbt, which is not in the frame. A lead from r/edmontonoilers to r/rangers carried a typed id, dfpl0ns; it was re-appended with the fetched id, dfpknk3. The diary keeps the content of both. Six lexicon lines were superseded by appended corrections. Two carried a later or wrong item: vinesauce "Vineshroom" (62prks to 62p03c) and edmontonoilers "battle of Alberta" (dfolk9h to dfolktz). Four lacked the h prefix on the hour: one ReBoot line and three sabres lines. No block 08 artwork shows region placements before hour 0. The count stays at ten cases, and the case stays unfiled. Onset contrast, block 08: five early rooms (overwatch, ockytop, ireland, foxes, rocketleague) and one late room (nVade).
