@@ -252,3 +252,24 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - clone canvases after the close | naruto, gravityfalls, gorillaz, furry_irl, thebluecorner (pxls.space, PlaceTwo)
 - late onset with art placed long before the first call | DiamondClub (h55.5), bih (h42), loliconsunite (h22.9)
 - placements before hour 0 on a room's artwork | thebluecorner h-12.34, globaloffensive h-13.62, GrowTheTree h-0.24
+- block 07 begins: 36 rooms, porterrobinson to Jamaica | block 07
+- a national sub's moderators send canvas talk to a second sub made for it | canada (r/placecanada), sweden (r/SwedenOnPlace), with norway and germany earlier
+- a national flag run as a permission office: rooms ask to build on it and are spared if they ask | sweden (Maryland spared because they asked nicely), placehearts (hearts for other rooms' flags)
+- plans voted in a Discord and brought back to the sub | sweden, denmark, bulgaria (Discord agreement for a sword)
+- members disown an expansion made by a few while others slept or by a Discord that could not be stopped | indonesia, denmark, bulgaria
+- a room becomes what it fought: its own expansion called a new void | formula1 (checkers)
+- a room's own scripts or bots fight each other | slovenia (over a linden leaf), texans (an outdated script)
+- a truce with the void itself | formula1 (a void member's offer accepted)
+- rooms trade help for space: two pixels for help, a spot given up for help rebuilding | ripcity and compsoc, acecombat and habs, simonfraser and Turkey
+- boundary alliances with every neighbour limit what a room can add | ChronoTrigger
+- a room's canvas work is against another room's art | falcons (the Super Bowl scoreboard), flyers and bostonbruins (rival logos)
+- the canvas fields link a rival's work or another sub's art | falcons (scoreboard shared with patriots), btc (a small Bitcoin mark far from the room's drawing), transgender (the flag organised elsewhere)
+- the room's writers placed almost none of the linked artwork | lexington (0.002), wsu (0), davidbowie (0.02), TheB1G (0.029), wine (0.015), transgender (0.01)
+- a moderator bans the room's own members for vandalising the room's work | uoft
+- a member refuses to attack because the rival is family or kin | bostonbruins (hockey is family), uoft (UVic spared), halo (refusing a joke on Destiny)
+- apologies after the close for breaking alliances at the end | denmark, hunterxhunter earlier
+- a small room picks a small mark because it is small | crystalclear, Jamaica, lexington
+- the damaged final state reframed as fitting | nin (damage fits the band), chicubs earlier (Cues)
+- April Fools makeovers fill most coded turns | halo, acecombat (HAWX), hunterxhunter earlier, formula1 (Kimi day), uoft (Waterloo swap), bostonbruins, porterrobinson
+- late onset rooms place small marks in leftover space | wsu (h50.9), crystalclear (h61.7)
+- placements before hour 0 on a room's artwork | nin h-11.52, beside radiohead h-11.54

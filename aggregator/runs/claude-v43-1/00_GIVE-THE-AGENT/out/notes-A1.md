@@ -336,3 +336,30 @@ leg A1b-06 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 619 lines, running file 254 lines, leads 955 lines. A grep, sort and comm check over the whole leads file finds every `other` in `order-A1.txt`. Five names differ from the frame only in letter case (Landry, LoveLive, MLS, Monero, RocketLeague, all from block 01), and the validator accepts them. Ten lexicon or lead lines were appended with a wrong item id: globaloffensive 2, miamidolphins 2, pokemon 2, bangtan, GrowTheTree, gravityfalls and asktransgender. In each case the id came from a different code, or a placeholder was typed before the id was fetched. A corrected line was appended for each, the wrong lines stay as superseded, and the diary names every one. The gorillaz lead to r/eve named the wrong room for the Dreddit sign; a gorillaz-to-evedreddit lead was appended. Three more artworks show region placements before hour 0: thebluecorner (h-12.34), globaloffensive (h-13.62) and GrowTheTree (h-0.24). That makes nine cases. The case stays unfiled until the canvas manifest is read through the verbs.
+
+## Close report, leg A1b-07 (block 07), 2026-10-06
+
+Block 07 read whole: 36 of 36 rooms noted, 314 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 314 over an analysed set of 705
+  391 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-07 cut=none 20261006T165355Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-07 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 638 lines, running file 275 lines, leads 1,133 lines. The first run of `validate.py A1` at this close found one error: a lead from r/acecombat named r/murica, which is not in the frame. The line was removed from `leads-A1.jsonl` and its full content is kept in the diary; the second run found 0 errors. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. Three lexicon lines carried wrong or invented item ids (denmark 2, texans 1); corrected lines were appended and the diary names each one. One more artwork shows region placements before hour 0: r/nin (h-11.52), beside r/radiohead (h-11.54). That makes ten cases. The case stays unfiled until the canvas manifest is read through the verbs.

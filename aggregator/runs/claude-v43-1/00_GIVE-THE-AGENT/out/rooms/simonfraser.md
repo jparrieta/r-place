@@ -1,0 +1,12 @@
+# r/simonfraser  (read 2026-10-06)   coded share 0.349   off-platform pointers 2
+doing:      the sub of Simon Fraser University; at h16.3 an April Fools swap in which the sub poses as UBC's, and a joke that SFU is taking away the wifi (c0001, c0003, c0013); at h27.7 a call to create an SFU logo (c0020); a VIU student telling them the logo is on the canvas (c0041); at h29.2 a claim on the land against Turkey, organising said to run through Discord and Facebook, members refusing to surrender (c0021, c0023, c0026); Turkey offering to leave SFU alone in exchange for cleanup help, a truce agreed and taken to r/Turkey, then SFU agreeing to defend Turkey's flag for peace and following its flag sheet (c0033, c0034, c0036, c0045, c0046); a request to shift the box refused, the other side moving (c0039, c0040); a UBC student joining the defence of Turkey's flag (c0052); calls to help UVic (c0029, c0063); a request to move for Steven Universe refused (c0059, c0060); at h64.3 the black void fought, the logo gone and rebuilt by one member over two hours, SFU, UBC and UVic declared allies (c0066, c0067, c0069, c0068).
+week:       h16 to h42 April Fools; h27.7 to h36 the logo, the truce; h46 to h58 neighbours; h64 to h71 the void.
+named:      Turkey as rival then protected partner (c0021, c0045); UBC and UVic as allies (c0052, c0068); r/stevenuniverse and r/japan as neighbours (c0060, c0025).
+goal:       an SFU logo; called at h27.7; held after a truce; rebuilt at h68.9.
+unsettled:  whether to give up space to neighbours who asked (c0037, c0039, c0059).
+coder unsure: 34 threads out of scope.
+carrying:   c0033, c0045, c0068
+not this:   a room that fought Turkey to the end; it turned the fight into a protection deal.
+ended:      last coordinating turn h70.66 (c0076, a chance to make the crest); after h73 thanks.
+struck by:  "I was alone and hopeless and you were the hero sfu needed."
+made:       one artwork, SFU, 253 px at the edge, 1,105 placers, placed from h2.03; writers placed 0.118, pre-event members 0.039. The canvas keeps the logo.

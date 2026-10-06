@@ -617,3 +617,22 @@ Bold and Brash | spongebob | 634hi4 | h60.10
 flag of peace | asktransgender | dfobk8w | h10.27
 flag of peace | asktransgender | dfoet11 | h10.27
 Soymen | soylent | dfqn3x3 | h52.05
+OPERATION: KAOMOJI | porterrobinson | 62pexa | h8.55
+PORTER RICO | porterrobinson | dfsgzrh | h78.65
+Central Planning Committee | fullcommunism | dfp240l | h24.06
+ABAC (All Birds are Comrades) | fullcommunism | 62vqq4 | h29.72
+Hearts Rules | placehearts | 62xbfo | h34.66
+Heartbros | placehearts | 62sc6u | h20.16
+hateheart | placehearts | 637rdh | h72.19
+BBN | lexington | 62uew2 | h26.21
+The triumvirate | simonfraser | dfs37po | h74.17
+Dannebrog | denmark | dfoufpv | h20.40
+megatråd | denmark | 62yv7y | h41.86
+Dannebrog | denmark | dfnwqa1 | h3.67
+megatråd | denmark | dfq29k0 | h41.95
+Tujega nočemo, svojega ne damo | slovenia | dfqk396 | h50.95
+WeeaBOB | texans | 62rl97 | h23.29
+WeeaBOB | texans | dfp054o | h23.29
+stand our ground and not expand | texans | dfpvifw | h36.69
+PG the Kiwi | picturegame | dfq2nxy | h42.37
+likkle but we tallowah | Jamaica | dfqvaet | h55.02
