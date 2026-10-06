@@ -680,3 +680,66 @@ Section 5 was done in this leg. `coordinating-rule-A1.md` states the coordinatin
 Before the close, `validate.py A1` refused two lead lines whose other room is outside the frame: FederationPlace to harvard and clg to teamsolomid. Both lines were moved verbatim to `out/leads-outside-frame-A1.jsonl` and removed from `leads-A1.jsonl`. The diary logs the move. After it, validation gave 0 errors and 0 warnings.
 
 Ledgers at the close: lexicon 1,285 lines (24 added in this leg), running file 535 lines, leads 2,478 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. One more linked artwork with placements before hour 0: r/ainbowroad's Rainbow Road (h-13.07), twenty-two rooms in all; the possible defect is still unfiled. Onset contrast, block 19: late rooms seventeen (h54.70, the fifth kind) and fxKorea (h49.19, the first and sixth kinds). The head was rewritten whole at 2,598 words.
+
+## Stage A1 at its end, leg A1c, 2026-10-07
+
+### The lexicon and the analysed set
+
+The analysed set is the census: 705 rooms, none dropped (`dropped.jsonl` is written empty). `counts.py` at the open of this leg gives 115,388 concepts and 7,844 second-order themes in scope. The lexicon holds 1,289 lines and 1,285 entries over 627 rooms. 78 rooms have no entry. Four entries from an early block wrote the hour without its "h". An earlier leg appended lines in the right form. This leg appended the same four lines again by mistake, and the diary corrects it. The lexicon is never rewritten, so all eight lines stand. The running file holds 535 lines.
+
+### What I read, from the logs
+
+`_mem_reads-A1.jsonl` holds 8,720 calls, 17 of them refused. By verb: log 2,320, room 1,936, codes 1,663, canvas 722, when 717, next 716, forest 205, case 179, brief 98. By room: `room`, `when`, `codes` and `canvas` reach all 705 rooms. The rendered forest reaches 155 rooms, `case` 174 and `brief` 98. `_cite_reads-A1.jsonl` holds 4,680 calls over 664 rooms. The diary names all 705 rooms in opened lines and in noted lines.
+
+Section 4 names the forest, the coder's account and the brief for every room. I read them for a minority of rooms, mostly in the first blocks and where the concepts left a question. For the rest I read the room page with its second-order themes, the hours line, every concept with its words, and the canvas. I did not log this as a departure when it began. It is logged now, late, in `departures.jsonl`. The heads from block 02 on called every room read whole. That overstates the route.
+
+### What this material is
+
+Under 400 words.
+
+The material is a coder's reading of 705 subreddits during the 97 hours of r/place in April 2017. The coder read 42,906 threads and coded 158,227 items into 115,388 first-order concepts and 7,844 second-order themes. A concept is a label for one turn: an act and its object, such as "accepting the 529 boundary to settle things" (predators/c0047). The participant's words sit beside each label. The coded share of a room's items has a median of 0.133. In most rooms, then, the coder judged most talk out of scope: game threads, transfer news, April Fools jokes.
+
+The rooms are communities that existed before the canvas: sports teams, games, countries, fandoms, universities. Some subs were made for the canvas, such as the colour factions, Rainbow Road and the flag projects. Most rooms come to the canvas late in their own record. The median first coded turn is at h9.51. In 572 of 705 rooms the first coded turn falls after hour 3. A room's coded talk is mostly calls, coordinates, designs, requests to neighbours, reports of damage, and looking back after hour 73. Under the coordinating-turn rule, 44,116 of 115,388 concepts coordinate. The median room's last coordinating turn is at h72.02.
+
+The record is public and partial. Rooms name Discords, IRC, streams and second subs as the place where work was planned (median 4 off-platform pointers a room, 88 in dankmemes). The coder could not see those places. Many deals in the record are reported by one side. A room's record often says less about the canvas than the canvas fields do. In 649 of the 678 notes that give a start hour, the linked artwork was being placed before hour 3. The writers in a room placed a median share of 0.111 of their room's linked artwork.
+
+The material holds the talk of people who wrote. It does not hold who placed pixels for which plan, or what was said off Reddit.
+
+### Three things I expected and did not find
+
+1. I expected the room to call and the work to follow. In most rooms the linked artwork was on the canvas before the room's first coded turn. 649 of 678 notes with a start hour show placement from before hour 3. The median first coded turn is at h9.51. Some of this may be other people's pixels in the same region, and 25 rooms show placements before hour 0 (a defect filed this leg, unsure).
+2. I expected coordinating turns to end near hour 73. Under the rule, 472 rooms end between hours 60 and 73. 78 rooms end before hour 60, and 146 end after hour 73, mostly with calls to rebuild on later canvases. Nine rooms have no coordinating turn.
+3. I expected deals struck in the thread or in Discord to hold. In many rooms one member made a deal that the crowd did not keep: catalunya, crusaderkings, apocalypserising, uofm, Summit1G, reddevils, rpi. Neighbours also often became partners after a fight.
+
+### The one room that fits nothing else
+
+r/Summit1G. 82 of its 140 coded turns are the chant of a rival streamer's chat that raided it. The room's own members moved their logo for a neighbour, then refused to move. They were moved by Canada, which took the spot and helped rebuild the logo elsewhere. Other rooms were raided, and other rooms followed a streamer. No other note records an outside group writing most of a room's coded record. That is a finding of my notes; no count over the store tests it.
+
+### The canvas lines against the doing lines
+
+In 649 of the 678 notes whose made line gives a start hour, the linked artwork was being placed before hour 3. The median room's first coded turn is at h9.51. The writers in a room placed a median share of 0.111 of its linked artwork, and 81 made lines name a work shared with or credited to another sub.
+
+### Close report, leg A1c
+
+`validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 705 over an analysed set of 705
+  departures.jsonl carries 5 line(s)
+  defects.jsonl carries 7 line(s)
+  organizing_end-A1.jsonl: 705 lines
+0 errors (0 distinct shapes), 0 warnings
+```
+
+Written in this leg: section 6 above; `handback-A1.md`; `out/interview/A1c.md`; one defect (placements before hour 0, unsure); one late departure (the reading route); the head rewritten for the end of the stage. `run_manifest.json` keeps its stage-A1 entry from leg A1a; the package hash, the tools version and the model are unchanged.
+
+`done.sh A1 --cut interview`:
+
+```
+done.sh A1 leg=A1c cut=interview 20261006T235304Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1c closed at cut interview. Stop now; the harness takes the snap and runs the probe.
+```
