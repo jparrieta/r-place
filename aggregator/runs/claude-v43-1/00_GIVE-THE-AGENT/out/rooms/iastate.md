@@ -1,0 +1,12 @@
+# r/iastate  (read 2026-10-06)   coded share 0.341   off-platform pointers 2
+doing:      members admiring the Chicago Bulls sub wearing an Iowa State April Fools theme (c0001, c0002); at h36.1 a member sending everyone to coordinates for the logo, the Half-Life logo's owner offering not to write over it in exchange for building behind, accepted (c0004, c0005, c0006); r/DotA2's red block covering most of the logo, a new bigger logo proposed, others arguing to stay small because they could not keep the last one clean (c0007, c0014, c0021, c0023); a member recounting that three friends started it before others joined (c0027); a script that draws the logo shared, its goal image changeable on request, shifted between DOTA and Mona Lisa, then made purely defensive (c0029, c0031, c0032, c0044); a Georgia Tech neighbour welcoming them back (c0012); contacting Dota 2 so it will not roll over the logo again (c0043); a grey border at h62.8 (c0061, c0052); after h70 neighbours greeting each other as Dota players and students (c0057, c0059).
+week:       h29 to h38 the Bulls theme and first logo; h37.5 the Half-Life deal; h49 to h54 Dota covers it, a new logo, a script; h57 to h63 defence, border; after h70 greetings.
+named:      r/DotA2 as the expanding neighbour (c0007, c0026, c0060); Half-Life as neighbour under a deal (c0005); Georgia Tech as friendly neighbour (c0012, c0057); the Bulls sub (c0001); Mona Lisa and SquareSpiral (c0032, c0015); Iowa's I (c0056).
+goal:       an ISU logo; set at h36.1; rebuilt after Dota covered it; kept small and defended by script.
+unsettled:  bigger or smaller (c0016, c0021, c0023, c0040).
+coder unsure: none named.
+carrying:   c0005, c0021, c0044
+not this:   a room that grew by force; it kept the logo small and defensive after losing it once.
+ended:      last coordinating turn h63.25 (c0062, directing border talk); after h70 greetings and a recount.
+struck by:  "As a DotA player who lives in Iowa, I approve."
+made:       one artwork, Iowa State University, 252 px in the middle ring, placed from h1.24; writers placed 0.235. The canvas keeps the logo.

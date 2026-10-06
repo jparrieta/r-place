@@ -1,0 +1,12 @@
+# r/kamenrider  (read 2026-10-06)   coded share 0.129   off-platform pointers 2
+doing:      one member at h21.6 calling everyone to draw Mighty, the game mascot, giving a location, then finding sports teams and r/haskell made it uninhabitable and asking people to scout a quieter spot (c0001, c0002, c0003, c0004); a few joining (c0005, c0006); back to work at h41.9 with a new location and sprite, colours corrected (c0008, c0010); yellow pixels covering the eyes (c0011); r/Tsunderesharks moving to avoid overlap (c0012); a big SC logo, negotiation proposed (c0013); at h59.9 a member admitting the goal failed, the Red Wings and Haskell taking Mighty over, a placement script and coordinates posted (c0022, c0023, c0024); the Mariners offering to share if Kamen Rider helps them, a pansexual flag asking Mighty's shoes not to cover it, promised (c0030, c0032, c0034); r/haskell messaging to stop or move, offering help to rebuild (c0036); rainbow road proposed as a refuge (c0038); r/kcroyals open to an alliance at h72.8, accepted (c0049, c0040); Game Over at the close (c0041).
+week:       h21.6 the call and a lost spot; h41.9 to h43 a new start; h49.7 to h56 neighbours; h59.9 to h68 takeovers, script, offers; h72 to h73 KC alliance; after h73 Game Over.
+named:      r/haskell and the Red Wings as takers (c0003, c0023, c0036); r/Tsunderesharks, the Mariners, the pansexual flag, r/kcroyals as neighbours under offers (c0012, c0030, c0032, c0049); the SC logo (c0013); rainbow road (c0038); r/Kanye (c0046).
+goal:       Mighty; set at h21.6; restarted at h41.9; partly kept.
+unsettled:  whom to ally with (c0039, c0030).
+coder unsure: 33 of 37 threads out of scope.
+carrying:   c0004, c0023, c0036
+not this:   a room that lost to one enemy; several neighbours took parts and several offered deals.
+ended:      last coordinating turn h72.98 (c0040, accepting KC's offer); after h73 Game Over and a fragment remembered.
+struck by:  "Welp, it's Game Over. At least you can see the eye"
+made:       one artwork, Mighty, 172 px in the middle ring, placed from h1.38; writers placed 0.261. The canvas keeps a partial Mighty.

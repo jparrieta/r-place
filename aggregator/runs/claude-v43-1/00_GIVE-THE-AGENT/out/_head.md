@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-03, 2026-10-06.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-04, 2026-10-06.
 
 ## The method question, in one sentence
 
@@ -10,11 +10,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1, the reading. Leg A1a did the checks, the screen and the order. Legs A1b-01, A1b-02 and A1b-03 read blocks 01 (53 rooms), 02 (48 rooms) and 03 (62 rooms) whole. 163 of 705 rooms have a note in `out/rooms/`. 542 rooms remain, in blocks 04 to 19. The next leg is A1b-04. At this close `mem.py next` names r/anime_irl, the first room of block 04. Always take the next room from `mem.py next`, never from this file.
+Stage A1, the reading. Leg A1a did the checks, the screen and the order. Legs A1b-01 to A1b-04 read blocks 01 (53 rooms), 02 (48), 03 (62) and 04 (44) whole. 207 of 705 rooms have a note in `out/rooms/`. 498 rooms remain, in blocks 05 to 19. The next leg is A1b-05. At this close `mem.py next` names r/osu, the first room of block 05. Always take the next room from `mem.py next`, never from this file.
 
 The order is in `out/order-A1.txt`, a seeded shuffle (seed 20261006) cut into blocks of about 3 MB by `mem.py`'s byte count. Block 13 is r/counting alone, at 11.17 MB.
 
-`validate.py A1` at this close: 0 errors, 0 warnings. 163 notes over 705.
+`validate.py A1` at this close: 0 errors, 0 warnings. 207 notes over 705.
 
 ## The census and the analysed set
 
@@ -26,7 +26,7 @@ The order is in `out/order-A1.txt`, a seeded shuffle (seed 20261006) cut into bl
 
 Six defects are in `defects.jsonl`; none blocks the reading. In short: r/tenma has no canvas line; r/archlinux has a coded turn at hour 100.9; `n_codes_coder` has two meanings; `items.jsonl` has an undocumented state `collapsed`; concept reach is 1.0 everywhere; r/yogscast's first coded turn is not about the canvas. Two departures are in `departures.jsonl`, both saved scripts in `out/_analysis/`.
 
-A possible seventh, not yet filed: some linked artworks show region placements before hour 0. r/FloydVsVoid's prism from h-14.47, r/ProfessorLayton's from h-13.49, and in block 03 r/SwissNeutralityZone's Void Prism and Swiss Cheese and Mountains from h-14.52. The canvas window runs from -16, so this may be by design. Check `package/DATA-manifest-canvas.md` through the verbs before filing it.
+A possible seventh, not yet filed: linked artworks with region placements before hour 0. Cases so far: r/FloydVsVoid h-14.47, r/ProfessorLayton h-13.49, r/SwissNeutralityZone h-14.52, and in block 04 r/monalisaclan h-15.23, r/radiohead h-11.54, r/aoe2 h-0.66. The canvas window runs from -16, so this may be by design. No `mem.py` verb found so far reads `package/DATA-manifest-canvas.md`. Check the manifest through the verbs before filing it. The diary records each case.
 
 ## The principal investigator's answer QA1-001
 
@@ -45,20 +45,25 @@ The concept-reach threshold stays at 0 items. No substitute measure is to be inv
 
 `out/contrast.md`. Early: first coded turn before hour 3, 131 rooms. Late: first coded turn after hour 48, 61 rooms. The confound is size (median items 5067 against 33). A held-size comparison (items 156 to 2770, 41 against 12) travels with it. Expectation: late rooms organize around finding space on a full canvas; early rooms around claiming and holding it.
 
-Block 03 was checked room by room from each room's first coded hour. Two early rooms: r/twitchplayspokemon (h0.6) held Helix through alliances and told land claims as lore; r/evex (h2.8) claimed a compact spot with r/ainbowroad's permission and later moved four pixels for r/eve. Four late rooms: r/aeon (h71) took a script from r/monero two hours before the close; r/mcgillrobotics (h54.9) placed beside the Canadian flag in one post; r/quq (h57.9) only announced and later located its mark; r/ukplace (h53.4) did not look for space but expanded by script over others. r/ukplace is a sub made for the canvas, with pre-event members at 0, so its late first coded turn may date the sub, not the effort. No size test yet.
+Block 03 checks are in the diary and the last head. Block 04 early rooms, ten: r/smite (h0.05), r/hearthstone (h0.17), r/spacexmasterrace (h0.55), r/ice_poseidon (h1.13), r/giivasunner (h1.16), r/frankocean (h1.63), r/catholicism (h1.78), r/radiohead (h1.92), r/haskell (h2.09), r/rickandmorty (h2.64). In the seven I read after the mid-leg compaction, the first coded turn is April Fools talk or a call to build. Most then claimed a spot and moved at least once (smite, hearthstone, giivasunner, ice_poseidon's second TriHard). Block 04 late rooms, four: r/vermont (h49.05), r/bees (h55.3), r/Clannad (h58.3), r/ElSalvador (h60.24). r/vermont asked where to fit without interfering; r/bees took over another sub's text in its first turn; r/Clannad opened by announcing its work finished. r/bees and r/Clannad found their art already placed (from h2.57 and h1.43). The late side keeps showing first coded turns that date the room's talk, not its pixels. No size test yet.
 
-## The three sentences written before reading, against three blocks
+## The three sentences written before reading, against four blocks
 
 The three sentences: one burst of calls in the first day or two, then defence and looking back, with coordinating turns ending near hour 73; fights with canvas neighbours and deals about borders, struck in the thread or sent to Discord; the goal set early by one call and changed only under pressure.
 
-1. The artwork was often there before the room spoke, and other subs often made it. Block 02 examples are in the diary. In block 03: r/Homura's members asked who built their work and were told the r/MadokaMagica Discord did; r/lovelive's Honoka came from a user on the SIF subreddit; r/sakuragakuin's banner was done before its first coded turn, beside r/babymetal's mural; r/spelunky, r/Madeon, r/yerbamate, r/Lugarix and r/quq only found or announced their art; r/glasgow pointed to r/scotland's work; r/aeon's plan came from r/monero. The canvas fields do not say who placed the early pixels.
-2. Coordinating turns end mostly between hours 62 and 73. Block 03 examples: r/texastech h73.21, r/frc h72.88, r/maryland h72.89, r/placeDE h72.98, r/xcom h72.78, r/survivor h72.32. Several rooms moved to pxls.space or another canvas after the close (r/frc, r/futurama, r/placeportalpattern, r/bardmains).
-3. Fights are with canvas neighbours. Block 03 adds fights inside rooms: r/AyyMD fought over red or green among its own members; r/frc's members blamed their own team 4611 for invading Poland first; r/futurama changed Bender's colour and material several times.
-4. Deals are struck in Discord more often than in threads, and their reach is disputed. In block 03 members asked who speaks for a group when a deal is cited: r/harrypotter and r/buffalobills, r/polska and AMD ("I can't speak for every member"), r/dallasstars and Green Lattice, r/survivor and Denmark. Rooms reported rogue members breaking deals their Discord had made (r/costa_rica and Green Lattice, r/sixers and r/Kanye, r/columbia and the blue corner). r/darksouls' members learned of a Discord decision after it was made and asked who decided.
-5. The goal is often set by one member, often late, and changed by neighbours. Block 03 has many rooms whose one organiser did most of the work with alts or friends (r/nyu, r/oman, r/sixers, r/freedomplanet, r/ravens), and rooms that moved again and again with apologies (r/dallasstars at least four times, r/lsu at least five, r/ftlgame, r/xcom).
-6. The room's own April Fools makeover filled more coded turns than the canvas in many rooms. Block 03: r/battlecats (joke flairs, about five to one), r/kerbalspaceprogram (meme day), r/survivor (Facebook parody), r/GuildWars2, r/zelda earlier, r/twitchplayspokemon (an election), r/sixers, r/glasgow.
-7. Moderators were organisers, obstacles or attackers. Block 03: r/linux's moderator removed script posts as off-topic; r/darksouls' and r/bardmains' moderators gathered posts into one megathread and removed others; r/kerbalspaceprogram's moderator removed a call for help as low effort.
-8. The atlas sometimes names a different, covered or destroyed work: r/survivor (covered), r/battlecats (used to be here), r/quq (destroyed), r/frc's logo the room mourned as broken, r/GuardiansOfDatBoi linked to the beam and not to Dat Boi.
+1. The artwork was often there before the room spoke, and other subs often made it. Block 04 adds many more. In 16 of 44 notes the `made` line says outright that placements began before the room's first coded turn. Most other block-04 artworks were also placed from h1 to h3, and only ten block-04 rooms spoke before h3. r/drawhelix kept and redrew Helix, which others had placed; r/Clannad, r/genderfluid and r/bees opened by announcing finished work; r/chess's knight was built by Norway; r/theitalyplace organised the Italian flag but the canvas fields link it only to Malta's flag; r/spacexmasterrace built a SpaceX logo and rockets but the fields link it only to a YES. The canvas fields do not say who placed the early pixels.
+2. Coordinating turns end mostly between hours 62 and 73. Block 04: r/hearthstone h72.90, r/radiohead h72.96, r/mexico h72.96, r/4chan h72.81, r/physical_removal h72.81, r/spacexmasterrace h72.76, r/aoe2 h72.62. Earlier ends: r/drawhelix h66.26, r/compsoc h66.81, r/thepointing h58.14, r/bees h63.29. After the close r/giivasunner and r/spacexmasterrace moved to replacement canvases.
+3. Fights are with canvas neighbours, and inside rooms. Block 04: r/smite's members accused each other and their own sub of damaging the logo; r/utahjazz turned CUBERS into GOBERT and the cubers said they were there first; r/ice_poseidon lost its top-left TriHard and blamed the Void, then r/2007scape.
+4. Deals are struck in the thread, in Discord, or both, and their reach is disputed. Block 04: r/giivasunner made its deal with r/mexico into a room rule against attacking without consultation; r/aoe2's Good Sunday Agreement with Ireland was tested when Ireland threatened to withdraw support over the American wall, and the organiser refused to choose; r/radiohead held its TagPro agreement against a nicer line; r/tampabaylightning's neighbour r/cavestory erased part of its own art so the logo was not covered; r/thepointing's member approached PlaceStart while disclaiming authority to speak for the room.
+5. The goal is often set by one member and changed by neighbours. Block 04: r/vermont's one edited post carried the room; r/bees was one member; r/rush scaled the Starman down to 2112 and the Canadian team took it into their flag; r/ssbpm cut its plan to just the M.
+6. The room's own April Fools makeover filled more coded turns than the canvas in many rooms. Block 04: r/smite (all-Loki flairs), r/hearthstone (PirateStone), r/ssbpm (Project Melee), r/rickandmorty (the surprise premiere), r/rush (the Purge), r/catholicism, r/ethereum, r/factorio, r/thesimpsons, r/kamenrider.
+7. Moderators were organisers, obstacles or attackers. Block 04: r/4chan's moderator sent members to the canvas and later posted a script tutorial; r/rickandmorty's moderator stickied coordinates once; r/rush's moderator ran the Purge and let it play out; r/smite's megathread was refused and then granted.
+8. The atlas sometimes names a different, covered or former work: r/compsoc (CompSoc covered), r/giivasunner (Former place of Fred Flinstone). r/mexico and r/ice_poseidon mourned work the canvas still keeps under that name.
+
+New in block 04, seen in three or more rooms and logged in the diary:
+- Raids proposed again and again and refused in the thread: r/mexico on Italy, r/4chan ("not your personal army", Rule 8), r/korea on Japan, r/Temple on Ohio State.
+- A room gives up expansion or moves when a neighbour asks: r/haskell, r/vermont, r/iastate, r/thepointing, r/rush.
+- Members ask where their own work is: r/hearthstone, r/borderlands, r/rickandmorty.
 
 ## Contrary rooms
 
@@ -66,39 +71,46 @@ Block 01: morrowind and megaman said they were not organized; heyyea kept art it
 
 Block 02: homelab, a moderator-led takeover; hentai, a moderator retaliating; kpop and ubc, members refusing an attack; norge, expansion argued as destroying others; cirkeltrek; loltyler1, attack first and then build; bobross and nonbinary, one post speaking for unseen work; zelda, a large room whose canvas work ran elsewhere.
 
-Block 03:
-- ukplace: a late-onset sub that expanded by script over others and defended it as fair use of Reddit's API.
-- SwissNeutralityZone: a room named for neutrality that attacked a Savoyard flag and argued whether helping America was neutral.
-- GuardiansOfDatBoi: a sub whose founder negotiated peace while its members kept bending a beam at OSU.
-- minecraft and GuildWars2: large rooms whose members asked at the close why their room was not on the canvas.
-- bardmains: offered a neighbour's laser a hole through its own mask.
-- placeDE: a sub that ran on an official Discord while members said Discord had nothing to decide, and argued against both expansion and nationalist symbols.
+Block 03: ukplace (late onset, expansion by script); SwissNeutralityZone (named for neutrality, attacked a Savoyard flag); GuardiansOfDatBoi (founder made peace while members bent a beam); minecraft and GuildWars2 (asked at the close why they were not on the canvas); bardmains (offered a neighbour's laser a hole); placeDE (official Discord, members saying Discord had nothing to decide).
+
+Block 04:
+- theitalyplace: organised the Italian flag; the canvas fields link it only to Malta's flag. A pact with TheFarLeftSide was said to be broken and then said never to have existed.
+- spacexmasterrace: built a SpaceX logo, rockets and a barge; the canvas fields link only a YES.
+- tampabaylightning: won space because a neighbour, r/cavestory, chose to erase part of its own art.
+- aoe2: an ally, Ireland, repaired the helmet more than the room did; the organiser refused to choose between Ireland and America.
+- 4chan: a room named for raiding whose members refused many raid calls in the thread.
+- ice_poseidon: answered a streamer's call to black out osu; members asked what osu had done.
+- korea: k-pop fan subs added to the national flag, and members argued who may label it and who counts as Korean.
+- drawhelix: kept and redrew a work others placed.
 
 ## Open distinctions
 
-None is filed in `_questions/`. Distinctions forming, to watch in block 04:
+None is filed in `_questions/`. Distinctions forming, to watch in block 05:
 - joining or finding work begun elsewhere, against starting it;
 - organizing in the thread, against organizing in Discord and reporting back;
 - deals that bind a room, against deals made by a few that others reject;
+- a deal turned into a room rule (giivasunner), against a deal held only by the organiser (aoe2);
 - a sub made for the canvas, against an existing community turning to it;
 - one organiser with alts or friends, against a room-wide effort;
 - attacking first and building later, against building first and defending;
 - the room's April Fools practice, against its canvas practice;
-- the moderator as organiser, as obstacle, and as attacker.
+- the moderator as organiser, as obstacle, and as attacker;
+- the canvas fields linking the room's work, against linking a neighbour's or nothing it describes.
 
 ## The last rooms read
 
-Block 03, in reading order: texastech, frc, spelunky, ghibli, pepe, polska, linux, yerbamate, skyrim, dallasstars, ravens, iceland, GuardiansOfDatBoi, CryptoFR, GuildWars2, oman, columbia, ftlgame, twitchplayspokemon, Bravenewbies, ohio, darksouls, lovelive, Madeon, minecraft, battlecats, freedomplanet, Honduras, xcom, harrypotter, glasgow, uruguay, survivor, ukplace, sixers, Lugarix, aceattorney, hongkong, costa_rica, SwissNeutralityZone, maryland, aeon, sakuragakuin, mcgillrobotics, futurama, england, nyu, kerbalspaceprogram, evex, n64, latvia, placeportalpattern, MonkeyIsland, Homura, quq, toolband, peterdraws, placeDE, bardmains, lsu, AyyMD, malta.
+Block 04, in reading order: anime_irl, iastate, chess, day9, wildhockey, monalisaclan, ElSalvador, partyparrot, catholicism, thesimpsons, SydneyFC, kamenrider, diablo, haskell, frankocean, ethereum, vermont, theitalyplace, factorio, placetardis, rush, rickandmorty, smite, hearthstone, drawhelix, ice_poseidon, compsoc, mexico, giivasunner, thepointing, 4chan, genderfluid, utahjazz, ssbpm, borderlands, physical_removal, Temple, radiohead, korea, tampabaylightning, spacexmasterrace, Clannad, aoe2, bees.
 
 ## Ledgers at this close
 
-- `lexicon-A1.md`: 370 lines. `running-A1.md`: 185 lines. `leads-A1.jsonl`: 419 lines; every `other` checked against `order-A1.txt`.
-- In this leg, item ids written before checking were found and corrected (polska, linux, skyrim, ftlgame, frc, peterdraws). The rule from here: run `lex.py` or `cite.py` first, append second. The diary records it.
-- Diary third-time notes logged so far: art placed before the room's call; organizing after h73 on successor canvases; treaties reported back from Discord; moderators herding canvas talk; April Fools outweighing canvas talk; the atlas naming a different work; rooms joining upkeep of art already there; rooms helping a displaced neighbour rebuild; canvas work coordinated in another sub; a room asking at the close why it is not on the canvas; a room learning another sub or Discord built its art.
+- `lexicon-A1.md`: 455 lines. `running-A1.md`: 209 lines. `leads-A1.jsonl`: 614 lines; every `other` checked against `order-A1.txt` before appending.
+- In this leg one lead line was written with a wrong item id (rickandmorty to AcePlace, dfr3tho). A corrected line with dfs2915 was appended and the diary records it. The rule stands: run `lex.py` or `cite.py` first, append second.
+- The hook rejects notes of 350 words or more. First drafts in this leg often ran 370 to 410 words; aim for 300 in the first draft.
+- Diary third-time notes logged so far: art placed before the room's call; organizing after h73 on successor canvases; treaties reported back from Discord; moderators herding canvas talk; April Fools outweighing canvas talk; the atlas naming a different work; rooms joining upkeep of art already there; rooms helping a displaced neighbour rebuild; canvas work coordinated in another sub; a room asking at the close why it is not on the canvas; a room learning another sub or Discord built its art; raids refused in the thread; rooms giving up expansion when asked; members asking where their own work is.
 
 ## The next comparison
 
-In block 04, for every room: did the artwork exist before the room's first call, and who built it? Was the deal struck in the thread or in Discord, and did members accept that it bound them? Which side of the onset contrast is the room on, and is it a sub made for the canvas? Many leads point into block 04 (r/anime_irl, r/osugame later in 05) and many earlier rooms named r/greenlattice and r/thebluecorner (blocks 05 and 06). The first paired check is when r/denmark and r/sweden are both read, in block 07; block 03 adds r/maryland and r/survivor as rooms that dealt with them.
+In block 05, for every room: did the artwork exist before the room's first call, and who built it? Do the canvas fields link the work the room describes? Was the deal struck in the thread or in Discord, and did members accept that it bound them? Which side of the onset contrast is the room on, and is it a sub made for the canvas? Block 05 holds many rooms that earlier rooms named: r/osu and r/osugame (ice_poseidon, loltyler1), r/greenlattice (spacexmasterrace, giivasunner, ssbpm, hearthstone), r/bostonceltics (Clannad), r/france (mexico), r/uiuc (Temple), r/indieheads (aoe2, radiohead), r/heroesofthestorm. Read each against the leads that name it. r/thebluecorner follows in block 06. The first paired check of a deal from both sides is r/denmark and r/sweden in block 07; r/maryland, r/survivor and r/tampabaylightning named that pact.
 
 ## Nothing changed in the scheme or the model
 

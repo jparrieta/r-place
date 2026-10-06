@@ -183,3 +183,27 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - members say a pact or agreement was made with leaders who cannot bind all their people | harrypotter, costa_rica, dallasstars
 - a room names a memorial or physical list for its contributors | SwissNeutralityZone
 - placements from before hour 0 appear on a shared artwork | SwissNeutralityZone (Void Prism and cheese from h-14.5)
+- a sub made for the canvas runs its work on Discord and reports back | monalisaclan, theitalyplace, placetardis
+- the canvas fields link a room only to a neighbour's work, not the work it organised | theitalyplace, spacexmasterrace
+- a room hands upkeep of its finished work to a Discord or to others | haskell, drawhelix, radiohead
+- each finished build becomes the next project | factorio
+- a room joins a neighbour's political front | partyparrot
+- one organiser carries the room in the last hours | ElSalvador, SydneyFC, diablo, vermont
+- a room gives up expansion or moves when a neighbour asks | haskell, vermont, iastate, thepointing, rush
+- hockey and basketball teams ally by league | wildhockey, utahjazz, tampabaylightning
+- a moderator's April Fools restyle fills more coded turns than the canvas | catholicism, ethereum, smite, hearthstone, ssbpm, rickandmorty
+- members ask again and again where their own work is | hearthstone, borderlands, rickandmorty
+- a room keeps a work it did not start and redraws it | drawhelix, anime_irl, thepointing
+- a deal with one neighbour becomes a room rule against attacking without consultation | giivasunner, mexico
+- raids are proposed many times and refused in the thread | mexico, 4chan, korea, Temple
+- a neighbour erases part of its own art so another room's logo is not covered | tampabaylightning (cavestory)
+- a room refuses to side between two allies at war | aoe2 (Ireland and America)
+- an ally repairs a room's work more than the room itself | aoe2 (Ireland)
+- k-pop or fan subs add to a national flag and members argue who may label it | korea
+- a room answers a streamer's call to attack another work | ice_poseidon (Tyler1, osu)
+- members accuse their own sub of damaging the work | smite, frc earlier
+- the room says the work was lost but the canvas keeps a work by that name | mexico, ice_poseidon
+- the atlas names the work as covered or former | compsoc, giivasunner
+- the first coded turn announces work already finished | Clannad, genderfluid, bees
+- canvas talk is said to clutter a sports or fan sub and a Discord is made to hold it | tampabaylightning, mexico
+- placements from before hour 0 appear on a room's artwork | monalisaclan (h-15.2), radiohead (h-11.5), aoe2 (h-0.7)
