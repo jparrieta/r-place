@@ -309,3 +309,34 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - a room disowns the acts of a few of its own members | vinesauce (r/France warning about its own members), indonesia, denmark, bulgaria earlier
 - three national communities build one flag and argue its stripes | GranColombia
 - late onset room on the canvas with a moved home | nVade (h52.86), a sub made for the canvas
+- the linked artwork was placed largely by others; the room found it or joined it | sadboys (wooden horse, writers 0.001), spacex (seven works, a visitor asking if the room knew who made them), FlaggyFlag (0.02), PORTUGALCARALHO (Squirtle begun by others), achievement_hunter (0.02), redvsblue (shared with halo), UMiami (0)
+- another sub started or ran the room's logo | cardinals (r/stlouisblues), ufl (r/floridagators), rojava (r/TheFarLeftSide), schoolidolfestival (r/LoveLive Discord)
+- a room with no canvas line | tenma (defect 1)
+- placements before hour 0 on a linked artwork | npr (h-11.19), the eleventh case
+- a national flag runs a permission office for small rooms | sweden for yumenikki (Pippi granted, Poniko denied, a Discord diplomacy channel)
+- asking a neighbour before growing, as a rule | chile (avocado makers), corridor (three sites), theexpanse (pacts with each neighbour), hyperlightdrifter (Green Lattice approval), schoolidolfestival (approvals and unwritten rules)
+- Green Lattice as approver or host to ask | hyperlightdrifter, sadboys, redhotchilipeppers (asked after building), dbz, warthunder (no answer), magictcg, 49ers
+- Rainbow Road as host to ask, with refusals | warthunder (refused because of the void), sooners, magictcg, ManningPlace (hood made rainbow), mordhau (rainbow made to go around)
+- r/placestart's taskbar as threat, then home | Moondye7 (alliance and template), mordhau (moved, then called nice), python (formal request), nascar (start menu)
+- a room refuses to retaliate against a rival flag | israel (Palestinian overlay; a Discord moderator banned attack talk), vegan (no more wars), nVade earlier
+- a destroy-then-rebuild deal | Fez with denmark (let them eat it and rebuild after), thailand (the frog traded for UofT help)
+- one member runs most of the room | sooners (44%), sadboys (52%), theexpanse (30%), epublica earlier
+- a large room with a small or late mark | magictcg (moderators removed canvas posts until h56.7), penguins (could not gather people at one place), warriors (members called the logo childish), spacex (0.007 coded)
+- moderators removing canvas talk | magictcg, italy (to r/theitalyplace at h45.3), elitedangerous (duplicates)
+- moderators organising the canvas work | 49ers (stickied plan, moves, neighbour rules), warriors (pinned the effort), southafrica (megathread)
+- a member saying no one is in charge, or asking for someone | asexuality, italy, mls (a thread with somebody clearly in charge)
+- the room calls for an official post with a place and a time | penguins
+- scripts and alt accounts as routine | python (a pip package), KState (four alts at work), gatech earlier, eesti (bot admins), vegan (ten accounts), mls (bot script), metroid
+- a script hits a neighbour and is turned off with an apology | python (the shark), KState (UCF)
+- members lose heart against bots and brigades | warriors (almost not worth it), KState (outnumbered), sonicthehedgehog
+- larger neighbours cite numbers or Discord size | KState (r/smashbros 900, r/unturned), sooners (osu! about a thousand), hyperlightdrifter (manpower to defend)
+- members' outside loyalties against the room's treaty | torontoraptors (NFL rivals refusing the Vikings treaty)
+- a member says the canvas wrecks rather than builds | cardinals
+- the void as common enemy that unites neighbours | elitedangerous (Gorillaz alliance), theexpanse, southafrica (EarthInPlace), sonicthehedgehog, ManningPlace (grey mask agreement)
+- Blue Corner allegiance shown by border colour or permission | vegan (blue border), elitedangerous (started inside it), redvsblue (told to ask it), metroid (kept to Samus out of respect)
+- an invader or neighbour apologises for its members | npr (r/aoe2), sonicthehedgehog and dbz (Blue Corner denying), Fez (a Danish apology), metroid (r/india), sooners (OU students)
+- April Fools makeovers fill most coded turns | nascar (Lightning McQueen), mls (World Cup), elitedangerous (No Man's Elite), python (Scala), magictcg (spoiler tags), cardinals (Fanbot), warthunder (modern tanks), schoolidolfestival (CRABLAND)
+- a room moves four or more times | metroid, sooners, foxes earlier
+- the canvas field names the work but the room reports it lost or unfinished | warriors (lost at h72.5), pebble (unfinished), warthunder (half built), Fez (absent at the close), KState (griefed at the last minute)
+- late rooms (first coded after h48) | ManningPlace (a sub made for the canvas; held a large face, refused to move), corridor (asked at three sites, shrank), sooners (tried to take others' logos first), pgang (templates in the last half hour), UMiami (one attack call)
+- early rooms (first coded before h3) | touhou (raided first, treaties after), chile (asked the avocado makers), schoolidolfestival, thailand, asexuality, nascar, mls, warthunder, redhotchilipeppers

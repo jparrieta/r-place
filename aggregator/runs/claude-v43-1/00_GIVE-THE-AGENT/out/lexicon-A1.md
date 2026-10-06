@@ -676,3 +676,80 @@ collab | ReBoot | dfrzyp8 | h73.17
 laffs | sabres | dfrrf1s | h70.32
 Ceafs | sabres | dftc559 | h93.73
 716 crew | sabres | dfre8ky | h62.11
+wing it | southafrica | dfp78tm | h26.11
+Diplomacy will have to be our weapon | southafrica | dfo4me2 | h6.33
+kachow | nascar | 62qhfc | h12.06
+NASDAQ | nascar | dfpkhaf | h31.66
+unwritten rules | schoolidolfestival | dfru1ao | h71.20
+the next osu situation | schoolidolfestival | dfrrdbf | h70.30
+savemilesprower | sonicthehedgehog | 635kxr | h64.94
+savemilesprower | sonicthehedgehog | dfrhrdy | h64.66
+Blaming the void | sonicthehedgehog | dfrsdmq | h70.65
+wooden horse | sadboys | dfsh96b | h78.74
+WOOODEEN HOORSEEE | sadboys | dfsh96b | h78.74
+paint by numbers | python | dfoeq33 | h10.24
+scython | python | 62sb4e | h20.04
+one guy with 20 accounts | KState | dfs1dj7 | h73.61
+First at war, then a truce and alliance | AMD | dfsq5ff | h81.75
+goodwill | AMD | dfqhdvy | h49.99
+4 star dragon ball | dbz | dfr7ea4 | h59.13
+impossible to compete against the bluecorner | dbz | dfsirfr | h79.26
+live and let live | 49ers | dfr4lar | h58.22
+SHUN THE NONBELIEVER | ufl | dfru2di | h71.21
+come in peace | ufl | 6348e1 | h59.20
+You monsters | FlaggyFlag | dfpowyd | h33.53
+flaggy flag stands | FlaggyFlag | 6384jb | h73.16
+diplomacy channel | yumenikki | dfqu415 | h54.60
+foes or friends | yumenikki | dfsfm96 | h78.19
+Cucs | cardinals | dfqid5o | h50.34
+Cobs | cardinals | dfqq9z9 | h53.27
+Helsy7-Bot | Moondye7 | dfps01k | h34.92
+ASEXUAL PRIDE | asexuality | dfo1lwc | h5.26
+nobody in charge | asexuality | dfqla52 | h51.38
+asterisk | redhotchilipeppers | dfoo23k | h15.01
+You never asked to be friends | redhotchilipeppers | dfq4vzf | h44.39
+the great R | THE_R | 62xlxp | h35.73
+Menorah | israel | dfooerv | h15.27
+no better than those | israel | dfq63i6 | h45.23
+we can always rebuild | rojava | dfpxqmj | h38.06
+threats as currency | eesti | dfrlv37 | h67.83
+Team Soviet | eesti | 62qw38 | h13.53
+first come, first serve | theexpanse | dfp33dn | h24.44
+we saw only stars | theexpanse | dfs3v4i | h74.37
+best buddy | italy | dfplp6j | h32.16
+no one is in charge | italy | dfq29rz | h41.95
+key to immortality | pebble | dfpiamr | h30.74
+green kiwi laser of doom | elitedangerous | dfqe104 | h48.78
+let them eat it and rebuild it after | Fez | dfrl47m | h67.37
+seized by warmongers | Fez | dfrsr9z | h70.78
+no bamboozles | pgang | 637whl | h72.58
+haciendo patria | chile | dfpwjhh | h37.29
+paltas | chile | dfpcf17 | h28.24
+somebody clearly in charge | mls | dfqyvbl | h56.29
+good neighbors | mls | dfr9331 | h59.72
+official post with clear instructions | penguins | dfrhlil | h64.52
+manpower to defend it | hyperlightdrifter | dfqs5k7 | h53.94
+ManningFace | ManningPlace | dfrcynd | h61.39
+try not to make enemies | ManningPlace | dfrgxlz | h63.98
+NEW SPOT, MOVE UP | torontoraptors | dfpgy1o | h30.16
+Mona Lazer | vegan | dfpdwkx | h28.87
+No more wars | vegan | dfrfz1n | h63.26
+PlaceX | spacex | 62ufgf | h26.25
+Mouros | PORTUGALCARALHO | dfo9pp4 | h8.26
+Desenrascanço à portuguesa | PORTUGALCARALHO | dfs616a | h75.06
+ask first | warthunder | dfr79x1 | h59.09
+expanding glory | thailand | dfq49d5 | h43.89
+Touhou hijack | touhou | 62nfb0 | h3.37
+Let's not mess with other peoples art | redvsblue | dfqwrpr | h55.55
+Prove me wrong | magictcg | dfp5fvg | h25.38
+make the rainbow around our frame | mordhau | dfpffww | h29.52
+Hold the fort | achievement_hunter | 633fqr | h56.65
+group control | metroid | dfqa2rm | h47.25
+permission from one person | corridor | dfqvt7a | h55.20
+a nice cup of tea | npr | dfr900y | h59.69
+stay humble | npr | dfr4959 | h58.10
+taking down the gators once again | UMiami | 631kri | h51.23
+almost not worth it anymore | warriors | dfrc3dq | h60.96
+This is not cool | sooners | dfr7f18 | h59.13
+make history | tenma | 62xbmf | h34.68
+rose city never gives up | timbers | dfri060 | h64.86

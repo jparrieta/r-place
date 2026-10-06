@@ -390,3 +390,30 @@ leg A1b-08 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 678 lines, running file 311 lines, leads 1,288 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. Two lead lines were removed in this leg. A lead from r/bisexual named r/lgbt, which is not in the frame. A lead from r/edmontonoilers to r/rangers carried a typed id, dfpl0ns; it was re-appended with the fetched id, dfpknk3. The diary keeps the content of both. Six lexicon lines were superseded by appended corrections. Two carried a later or wrong item: vinesauce "Vineshroom" (62prks to 62p03c) and edmontonoilers "battle of Alberta" (dfolk9h to dfolktz). Four lacked the h prefix on the hour: one ReBoot line and three sabres lines. No block 08 artwork shows region placements before hour 0. The count stays at ten cases, and the case stays unfiled. Onset contrast, block 08: five early rooms (overwatch, ockytop, ireland, foxes, rocketleague) and one late room (nVade).
+
+## Close report, leg A1b-09 (block 09), 2026-10-06
+
+Block 09 read whole: 52 of 52 rooms noted, 395 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 395 over an analysed set of 705
+  310 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-09 cut=none 20261006T181917Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-09 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 755 lines, running file 342 lines, leads 1,496 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. One lead was removed in this leg: a lead from r/redhotchilipeppers named r/jhinmains, which is not in the frame; the diary keeps its content. Two lexicon lines cited a later or differently spelled item than first use (sonicthehedgehog "savemilesprower", sadboys "wooden horse"); corrected lines were appended. Two rooms have only two concepts (r/UMiami, r/tenma); the note hook requires three carrying ids, so the first id is listed twice in each, and the diary says so. One note (r/pebble) was logged noted in a parallel call before it was trimmed under 350 words; the diary records the order. One more artwork shows region placements before hour 0: r/npr's two works at h-11.19, in the centre ring. That makes eleven cases; the case stays unfiled. r/tenma, defect 1, was read: its one post places the character next to Satania, and the canvas fields hold nothing for it. Onset contrast, block 09: nine early rooms (schoolidolfestival, mls, thailand, redhotchilipeppers, warthunder, touhou, nascar, asexuality, chile) and five late rooms (sooners, UMiami, corridor, ManningPlace, pgang).

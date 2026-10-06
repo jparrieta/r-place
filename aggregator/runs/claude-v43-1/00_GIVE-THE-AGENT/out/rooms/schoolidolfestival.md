@@ -1,0 +1,12 @@
+# r/schoolidolfestival  (read 2026-10-06)   coded share 0.023   off-platform pointers 9
+doing:      a mobile rhythm game sub; the moderators' April Fools CRABLAND banner and animal-card joke hold the first day's coded turns (c0001, c0016, c0003); at h37.6 one post calling for help with an 8-bit Honoka, made a joint effort with r/LoveLive, listing allied subs, a mutual defence agreement, and saying r/placehearts and r/ainbowroad are fine with being overrun (c0033, c0034, c0036, c0037, c0038, c0039); colour grids shared (c0040); at h39.5 the purple found to be r/StardustCrusaders, asked not to overwrite (c0047); three Honks, the wrong one built (c0050); at h50.7 the work done, then defended (c0107); at h53.2 a second image proposed and rejected for lack of space, permission required first (c0073, c0075, c0079); at h55.1 a logo stopped after stepping on work, a Discord compromise, r/LoveLive's Discord planning to rebuild the fnatic logo (c0053, c0054, c0055); at h70.3 told to get r/ainbowroad approval and not become the next osu, a member switching from Kotobomb to defence (c0093, c0095, c0098, c0101).
+week:       h0 to h27 April Fools; h37.6 to h50 Honoka; h53 to h63 a second image sought; h70 to h72 defence.
+named:      r/LoveLive as partner (c0038, c0097); r/placehearts and r/ainbowroad as consenting hosts (c0039, c0093); r/StardustCrusaders as neighbour (c0047); fnatic as a logo to rebuild (c0055); osu as a warning (c0095).
+goal:       an 8-bit Honoka; called at h37.6; done by h50.7; a second image refused; held.
+unsettled:  whether to add a second image without approval (c0093, c0096).
+coder unsure: 246 threads out of scope.
+carrying:   c0037, c0039, c0100
+not this:   a room that built alone; the Honoka was a joint effort planned with r/LoveLive's Discord.
+ended:      last coordinating turn h72.40 (c0060, defending Honoka and allies against the void); after h73 thanks and Place Two.
+struck by:  "This society has evolved into approvals, alliances, movements, and unwritten rules."
+made:       three artworks in the middle ring, Love Live 2,455 px shared with r/lovelive, Honoka Kousaka 1,130 px shared with r/LoveLive and r/Honkers, Love Gems 190 px, placed from h1.12; writers placed 0.14, pre-event members 0.08. The canvas keeps them.
