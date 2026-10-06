@@ -627,3 +627,28 @@ leg A1b-17 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,207 lines, running file 507 lines, leads 2,332 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. One lexicon line was superseded: 'the clique' (r/twentyonepilots) was the coder's label, and a new line gives the item's own words. Corrections logged in the diary: r/geometrydash's noted line came before the hook passed, and the note was then trimmed; r/placestart's paired-check line overstated agreement on rooms whose themes were not read; r/spain's ended turn was changed to c0066; r/HomestarRunner's struck-by line lost stray backslashes; r/edboxes' struck-by line was corrected to the item's exact words before logging. The context was compacted once, at r/ibo; the head and the diary were reconciled and logged before the next write. Rooms with one concept repeat an id on the carrying line (r/wario this leg). One more linked artwork with placements before hour 0: r/Thegreatblackhole's The First Void (h-14.52), the nineteenth room; the possible defect is still unfiled. Onset contrast, block 17: six early rooms (tf2, brasil, wholesomememes, rwby, kirby, portugal) and three late rooms (Villanova, one member with friends; guatemala, ask and move; ibo, arrive to defend a logo placed from h1.14). The head was rewritten whole at 2,913 words.
+
+## Close report, leg A1b-18 (block 18), 2026-10-07
+
+Block 18 read whole: 35 of 35 rooms noted, 687 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 687 over an analysed set of 705
+  18 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-18 cut=none 20261006T230908Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-18 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,261 lines, running file 522 lines, leads 2,429 lines. (The closing diary line names 2,332 and then 2,429; 2,332 was the count at the start of this leg, and 2,429 is the count at the close.) A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. One lexicon line was superseded: 'Celtics sand castle' (r/lakers) capitalised a word the item writes in lower case. Corrections logged in the diary: r/apocalypserising's noted line was logged in the same call that wrote the note, before the hook reported 353 words; the note was then trimmed and passed. r/androidgaming's coder-unsure line was corrected to the first call's deleted body. Two more linked artworks with placements before hour 0: r/2007scape's RuneScape disconnected message (h-15.07) and r/androidgaming's logo region (h-0.64), twenty-one rooms in all; the possible defect is still unfiled. r/yogscast's filed defect was confirmed: its first coded turn (h-18.58) offers streaming keys, and its first canvas call is at h5.03. Onset contrast, block 18: early rooms 2007scape, prequelmemes, europe, uofm, lakers and ElderScrolls; late rooms bigbang (the sixth kind, the mark never found), TheID (the fifth kind) and parabola (near the third kind). The head was rewritten whole at 2,777 words.

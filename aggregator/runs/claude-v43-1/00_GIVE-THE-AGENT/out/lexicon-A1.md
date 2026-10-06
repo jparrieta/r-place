@@ -1205,3 +1205,57 @@ these ppl are free ppl | turkey | dfovogz | h21.17
 We are sick of being relocated. | turkey | dfoy4cs | h22.40
 So where are we migrating now? | turkey | 62yqhm | h41.11
 2 gun sonra barisi bulduk | turkey | 637fj1 | h71.33
+open wildy | 2007scape | dfq2vrx | h42.60
+a bunch of jabronis went over it without thinking | 2007scape | dfpzvwx | h39.67
+allies and brothers in arms | 2007scape | 637lyu | h71.81
+strict defense-only diplomacy | prequelmemes | dfr2bcx | h57.46
+This isn't always a democracy | prequelmemes | dfqhjof | h50.05
+Now THIS is dot placing! | prequelmemes | 62p03w | h7.40
+the Texas shimmy | yogscast | dfqa275 | h47.24
+The Norse plague | yogscast | dfqt093 | h54.23
+Cloggo Doggo | Goodboye | 62zdco | h44.43
+They come and go, much like real bleps. | Goodboye | dfrvpps | h71.75
+Broncos Country | denverbroncos | dfrd09i | h61.42
+The whole excitement was in the fact you could lose it! | denverbroncos | dfsslzw | h82.58
+Celtics sand castle | lakers | dfpofmi | h33.32
+DMZ in the middle | lakers | 631ji4 | h51.13
+supersedes the line 'Celtics sand castle | lakers | dfpofmi': the item writes it in lower case; the exact words are: celtics sand castle | lakers | dfpofmi | h33.32
+It's too late. :( | bigbang | dft0xjd | h86.39
+the purple reich | destiny | 62rkck | h16.60
+He showed mercy. | destiny | dfptpcq | h35.74
+Zerg the fuck out of it | planetside | dfpnw41 | h33.08
+FULL 3-FACTION DROP ON GREEN LATTICE! | planetside | dfr3yyp | h58.00
+We Are Groot | marvel | dfql31f | h51.30
+stop trying to make /r/place happen | marvel | dfqze3c | h56.47
+PROTECT THE ROBOT AT ALL COSTS | androidgaming | dfq45ca | h43.80
+VI VON | forsen | dfsgite | h78.50
+there's no free space left | forsen | dfri9y8 | h65.10
+NO feu cas a tregues, acords, etc. | catalunya | 62zhkf | h44.95
+We DO NOT accept any drawings on our flag | catalunya | 636oq1 | h69.26
+WITH THE_FACK ANYTHING IS POSSABLE | Okami | dfrbkru | h60.71
+only fight for our spot | notredame | 630qz7 | h48.98
+Our spot on the rainbow Road | TheID | 634sy9 | h61.31
+CHIM! CHIM! CHIM! | ElderScrolls | dfr4372 | h58.04
+B1G if true | Northwestern | dfrz82e | h72.92
+the unofficial defender of the writing | parabola | dfr37cj | h57.74
+GO BLOE | uofm | dfs06ir | h73.24
+The winning side doesn't want to compromise. | uofm | dfpp5nk | h33.63
+staunch as hell in remaining on /r/place | borussiadortmund | dfs34v7 | h74.15
+it's not we, it's you | apocalypserising | dfrwrl6 | h72.09
+DEUS VULT! | crusaderkings | dfnvld0 | h3.31
+the artwork that was started by us | crusaderkings | dfq5g29 | h44.80
+Now we can all focus on one. | aromantic | dfpggjv | h29.95
+BLEP FOR LIFE | pusheen | dfrq9ff | h69.89
+Saves us doing the black part. | blackmirror | dfouib2 | h20.45
+Operation fix the 1G | Summit1G | 630vgc | h49.33
+they tried to burn us down, and we built bigger | AcePlace | 634vxb | h61.64
+Purple Heart people | AcePlace | dfs0pda | h73.40
+a greenlattice building permit | daftpunk | dfpx7kk | h37.71
+Baltics united | lithuania | dfpb5ga | h27.72
+I want our 6 pixels back or riot! | lithuania | dfqot7y | h52.69
+NO FLAG WILL PAVE OVER US | neutralmilkhotel | dfq0lm9 | h40.29
+just a couple little guys here and there | stardewvalley | 63370r | h55.90
+The Birb must stay! | parrots | dfqctlg | h48.33
+DIE LÖSUNG / LA RÉSOLUTION! | europe | 62ufb5 | h26.24
+PEOPLE OF EUROPE, UNITE! | europe | dfo9z7x | h8.36
+dang square people | RelientK | dfpwcf6 | h37.17
