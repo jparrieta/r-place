@@ -14,3 +14,4 @@
 | A1.A1b-09 | af06ccdc-d107-4767-9336-ac2eaaa1abc7 | leg-A1.A1b-09-af06ccdc-d107-4767-9336-ac2eaaa1abc7.jsonl | 3096 | 2026-10-06T18:20:13Z |
 | A1.A1b-10 | 0b013a78-9fcf-4bbe-b11c-78d251c544d9 | leg-A1.A1b-10-0b013a78-9fcf-4bbe-b11c-78d251c544d9.jsonl | 4820 | 2026-10-06T19:04:49Z |
 | A1.A1b-11 | afe2f5a2-c105-4986-a26a-56ab89b396f8 | leg-A1.A1b-11-afe2f5a2-c105-4986-a26a-56ab89b396f8.jsonl | 2499 | 2026-10-06T19:26:01Z |
+| A1.A1b-12 | ff562df2-f95d-402c-852b-cf257a1308c1 | leg-A1.A1b-12-ff562df2-f95d-402c-852b-cf257a1308c1.jsonl | 4112 | 2026-10-06T20:01:26Z |

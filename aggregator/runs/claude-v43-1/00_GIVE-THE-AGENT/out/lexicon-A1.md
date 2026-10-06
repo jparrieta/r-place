@@ -838,3 +838,53 @@ All Hail the Green Empire | GreenEmpire | 62msnb | h1.85
 Diplomatic Relationship done right | malaysia | 6364ar | h67.36
 some folks made a Kurdistan heart | kurdistan | dfrjy1m | h66.52
 The canvas shall be Purple | PurplePixels | 62n84p | h2.90
+lazers don't stop | newzealand | dfq1qen | h41.39
+Lazer Kiwi | newzealand | dfnsap1 | h2.31
+No need to have history repeat itself. EU it is | de | dfped2b | h29.06
+a small subreddit trying to leave our mark | hsv | dfq7ru5 | h46.18
+Our emblem shall remain pristine | MiamiHurricanes | dfs0aav | h73.27
+a real grass roots effort | dmt | dfoz5md | h22.87
+Better FSU than USF | ucf | dfs09qy | h73.27
+protect the motherland | NovaScotia | 63159y | h50.08
+benevolent landlords | chibears | dfqyd9h | h56.11
+We were here first | cubers | dfpyhrs | h38.59
+Proof that peace can be achieved, even on the internet | romania | dfqchdo | h48.20
+now your watch has ended | gameofthrones | dfs4fl1 | h74.56
+You remain only for lack of organisation | anarchocapitalism | dfqlg2t | h51.43
+Using a script defeats the purpose of r/place | pakistan | dfq3qeq | h43.43
+hours of politics | dragonquest | dfs4x44 | h74.72
+Lets not be those guys | anaheimducks | dftjmwt | h96.14
+Pixels not politics | armenia | dfq7khm | h46.07
+we are relocating, safe travels | donaldglover | dfq1zw0 | h41.67
+the Era of Expansion is over | SquareSpiral | 62ziyf | h45.10
+Thank You Mr. Goose | nbaspurs | dfpxw7l | h38.16
+permanent spot on the canvas | nbaspurs | 633aov | h56.22
+keep that small area clean from greefers | yugioh | dfr4el3 | h58.15
+SKrillies | yugioh | dfreino | h62.28
+t-sips | aggies | 631ffi | h50.83
+An Aggie does not lie, cheat or steal or tolerate those who do. Scripts are cheating | aggies | dfrq2d7 | h69.82
+Diplomacy wins! | telegram | dfqpjy7 | h52.99
+the Beam | orderofthebluecorner | dfomxp4 | h14.24
+BLUE VULT | orderofthebluecorner | dfnwf5i | h3.57
+Corner Blue'd | enterthegungeon | dfsnurt | h80.99
+What mattered is how long it existed | enterthegungeon | dfse588 | h77.71
+Escape the noise. Preserve the tranquility. Love The Cube. | teamcube | 62vdio | h28.80
+Vigilant ISB agents and loyalty officers | empiredidnothingwrong | dfrj3hh | h65.82
+No deal/truce with revolutionary scum | empiredidnothingwrong | dfqkq84 | h51.18
+submissions appear restricted | ontario | dfpz2gf | h39.02
+TOG | worldoftanks | 62o8dl | h5.36
+There was once a dream that was TOG | worldoftanks | dfpfjag | h29.56
+unofficial official thread | weezer | 62uszm | h27.25
+I cannot speak for the rest, but I say sure. | weezer | dfplp7i | h32.16
+BRD | shitredditsays | dfokn93 | h12.92
+BASH THE FASH | shitredditsays | dfo55w8 | h6.53
+they have spreadsheets and we have single png immage Sodra did | kilian | dfrgi3n | h63.65
+video game raccoon | kilian | dfqjs2v | h50.84
+world congress | eve | dfqx9vf | h55.72
+full Eve-mode | eve | dfqx4ji | h55.67
+Dota-TF2-EVE Confederacy | eve | dfosyk5 | h19.29
+something celtic | CelticFc | 636xwy | h70.02
+I guess it won't be fair for us to destroy your hard work. | clashroyale | dfr5z6t | h58.67
+ban-boozle | clashroyale | dfopjdz | h16.18
+Los finlandeses son amigos no comida. | argentina | dfp46jr | h24.88
+Union of the Hemisphere | argentina | dfpi66t | h30.69

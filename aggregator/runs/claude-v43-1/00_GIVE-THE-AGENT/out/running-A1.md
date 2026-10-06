@@ -393,3 +393,23 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - early-side rooms of block 11 | leagueoflegends, thesilphroad, totallynotrobots, india, titanfall, GreenEmpire, danganronpa, DestinyTheGame, PurplePixels
 - late-side rooms of block 11 | udub, sakartvelo, UNLincoln
 - (supersedes the Green Lattice line above, which carried a stray aside on farmcarrots) Green Lattice grants space and asks upkeep in return | titanfall (help preserve its field), TransFlagPlace (diplomacy finished), leagueoflegends (permission asked), GreenEmpire (members moved there)
+- a national sub moving canvas work to a second sub or to Discord groups | de (r/PlaceDE), NovaScotia (r/placecanada), newzealand (r/nzplace), argentina (Discord groups for flag defence and foreign policy, c0109 c0114)
+- members refusing to attack a rival's work | anaheimducks (the Flames logo), armenia (the Azeri heart), ucf (Unturned), clashroyale (the Tool logo left alone, c0378)
+- a room relocating or shifting when a neighbour asks | donaldglover (Rolling Stones), hsv (Ireland), gameofthrones, nbaspurs (anime_irl; four pixels for the Lakers), dragonquest (moved by agreement with RIT), telegram (a shared bot with ScottPilgrim)
+- rivals becoming partners | cubers and Bulgaria, romania and Hungary (a heart), chibears and Finland, aggies and UTAustin (joint scripts), eve with tf2 and dota2, empiredidnothingwrong and Italy (apology accepted), nbaspurs and the Lakers
+- scripts argued against hand work | pakistan, dragonquest (a member quits), aggies (the Aggie honor code, c0138), nbaspurs (c0208), empiredidnothingwrong (Italian scripts), argentina (a bot from eight throwaway accounts, c0206)
+- canvas fields linking work the room's writers barely placed | anarchocapitalism (0.003), dmt (0.022), NovaScotia (0.04), orderofthebluecorner (0.001), ontario (one pixel)
+- the linked region placed from the first hours, long before the room's first call | telegram (h1.51 against h28.8), teamcube (h1.66 against h28.8), ontario (h1.84 against h39.0), CelticFc (h2.93 against h51.1), shitredditsays (BRD found already there at h12.9)
+- a deal accepted by one member who says they do not speak for the rest | weezer (c0016), argentina (c0093, SquareSpiral's truce)
+- a deal the room's own members or its host's helpers did not know of | weezer (members crossed the shyvanamains treaty, c0056), yugioh (Green Lattice Discord helpers raided Skrillex, c0112)
+- Green Lattice as host or negotiator | yugioh (area granted if kept clean), kilian (peace terms), clashroyale (logo approved, then dropped), enterthegungeon (rebuild held for approval)
+- the Blue Corner as a host rooms ask or ally with | enterthegungeon (alliance, then engulfed by blue griefers), clashroyale (truce urged), argentina (alliance honoured), orderofthebluecorner (blue only)
+- a moderator as organiser of canvas work | clashroyale (Diamondwolf organised the Princess on Discord and removed a war post), eve (megathread, flaired diplomats), weezer (an unofficial official thread)
+- diplomacy as a standing office | eve (flaired diplomats, a world congress, c0323 c0328), argentina (a Discord group for foreign policy)
+- April Fools makeovers filling early turns | yugioh, worldoftanks, clashroyale, eve, ontario, enterthegungeon, empiredidnothingwrong, kilian, nbaspurs
+- a host's members destroying work of a room allied with the host, and the room separating the host from the vandals | enterthegungeon (c0049 c0066 c0068)
+- multiple accounts used openly | teamcube (six accounts), argentina (eight throwaways, 35 secondary accounts), empiredidnothingwrong (alts on the centre)
+- Quebec as a disputed partner | kilian (denounced after the close, then disputed), eve (a deal broke over dissent)
+- a sub made for the canvas declaring its own expansion over | SquareSpiral (h45.1); against teamcube, which multiplied its cube
+- early-side rooms of block 12 | worldoftanks, clashroyale, eve, de, argentina, donaldglover, newzealand, romania
+- late-side rooms of block 12 | CelticFc (one member alone), MiamiHurricanes (ask and move)
