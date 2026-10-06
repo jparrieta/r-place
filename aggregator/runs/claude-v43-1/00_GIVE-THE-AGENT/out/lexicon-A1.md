@@ -1259,3 +1259,27 @@ The Birb must stay! | parrots | dfqctlg | h48.33
 DIE LÖSUNG / LA RÉSOLUTION! | europe | 62ufb5 | h26.24
 PEOPLE OF EUROPE, UNITE! | europe | dfo9z7x | h8.36
 dang square people | RelientK | dfpwcf6 | h37.17
+We do not destroy artwork | ainbowroad | dfqa63o | h47.28
+WEAVE! WEAVE! WEAVE! | ainbowroad | dfon2ci | h14.32
+indefinite moratorium | ainbowroad | 630bsf | h47.79
+fuck scripts this shit was better without them | dota2 | dfqc7rv | h48.10
+Just let everyone have their piece of /r/place and be happy | dota2 | dfqc0lr | h48.02
+has anyone seen my beans | Braveryjerk | dfp6ouz | h25.88
+Vamanos Badgers! | WisconsinBadgers | dfrd7j4 | h61.53
+think of it like a Mandala | FederationPlace | dfqjd9b | h50.69
+little kpop corner | seventeen | dfs6iy5 | h75.25
+With 3 relocations already | rpi | dfr903k | h59.69
+interpolytechnic griefing | rpi | dfqvdgp | h55.05
+Trans Continental Railroad | traaaaaaannnnnnnnnns | dfpc57h | h28.13
+We have failed to save our God. | rotmg | 62sb6y | h20.05
+Save Craig! | rotmg | dfosq9m | h19.09
+Basically I've been doing it alone | dofus | dfpuiyn | h36.16
+mini-politics | snsd | dfrcqq1 | h61.28
+the simple fanaticism of us CLG fans | clg | dfpx55v | h37.67
+playing politics to get our space | reddevils | dfqunpn | h54.80
+A little DMG is permanently embedded in the canvas | gameboy | dfsjzmx | h79.70
+Happy to organize it anytime again. | fxKorea | dfs405z | h74.42
+All Hail Patrik Laing | winnipegjets | 638kri | h74.25
+Russo-Serbian Alliance Heart | Russiaclan | 633fh9 | h56.62
+Can't herd the Perd. | predators | dfso945 | h81.12
+Next time we go to war. | predators | dfrzy0j | h73.17

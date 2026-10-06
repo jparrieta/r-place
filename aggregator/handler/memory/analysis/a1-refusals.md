@@ -11,3 +11,4 @@ Target length: under 250 words. Handler analysis, 2026-10-06; full note to the o
 ## Guard (added 21:25Z)
 
 - First `guard.log` line at A1b-15, 21:21:17Z: `pretool_guard.py` read "ops rm" inside quoted JSON text as a file delete and refused the whole `echo ... >> out/leads-A1.jsonl`. The analyst reworded the lead and ran it again. A false positive; it also shows the guard hook fires in a headless turn.
+- Second `guard.log` line, A1b-19, 23:41:22Z: the compaction gate, as designed. The analyst's context compacted; it read `_head.md` and the stage file and logged "compacted; head reconciled" (23:41:25Z), and the gate lifted. A headless turn does compact with the after-compaction hook.

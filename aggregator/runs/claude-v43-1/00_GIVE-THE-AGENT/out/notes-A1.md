@@ -652,3 +652,31 @@ leg A1b-18 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,261 lines, running file 522 lines, leads 2,429 lines. (The closing diary line names 2,332 and then 2,429; 2,332 was the count at the start of this leg, and 2,429 is the count at the close.) A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. One lexicon line was superseded: 'Celtics sand castle' (r/lakers) capitalised a word the item writes in lower case. Corrections logged in the diary: r/apocalypserising's noted line was logged in the same call that wrote the note, before the hook reported 353 words; the note was then trimmed and passed. r/androidgaming's coder-unsure line was corrected to the first call's deleted body. Two more linked artworks with placements before hour 0: r/2007scape's RuneScape disconnected message (h-15.07) and r/androidgaming's logo region (h-0.64), twenty-one rooms in all; the possible defect is still unfiled. r/yogscast's filed defect was confirmed: its first coded turn (h-18.58) offers streaming keys, and its first canvas call is at h5.03. Onset contrast, block 18: early rooms 2007scape, prequelmemes, europe, uofm, lakers and ElderScrolls; late rooms bigbang (the sixth kind, the mark never found), TheID (the fifth kind) and parabola (near the third kind). The head was rewritten whole at 2,777 words.
+
+## Close report, leg A1b-19 (block 19), 2026-10-07
+
+Block 19 read whole: 18 of 18 rooms noted, 705 of 705 in all. `validate.py A1` at the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 705 over an analysed set of 705
+  departures.jsonl carries 4 line(s)
+  defects.jsonl carries 6 line(s)
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-19 cut=none 20261006T234533Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-19 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Section 5 was done in this leg. `coordinating-rule-A1.md` states the coordinating-turn rule with ten example ids on each side. `organizing_end-A1.jsonl` has 705 lines. Two saved scripts apply the rule: `out/_analysis/a1_codes_dump.py` and `out/_analysis/a1_ends.py`. Both are logged departures. Under the rule, 44,116 of 115,388 concepts coordinate (0.382). Nine rooms have no coordinating turn. 146 rooms have their last coordinating turn after hour 73. work_remained is kept in 347 rooms, lost in 218 and silent in 140. The notes' `ended` lines were reconciled in `out/_analysis/organizing_end-reconcile-A1.tsv`: the same concept in 268 rooms, a different concept within one hour in 156, and a larger difference in 281. The diary logs the disagreement. The rule reads labels by their first verb. A hand check of 40 work_remained outcomes found about six doubtful.
+
+Before the close, `validate.py A1` refused two lead lines whose other room is outside the frame: FederationPlace to harvard and clg to teamsolomid. Both lines were moved verbatim to `out/leads-outside-frame-A1.jsonl` and removed from `leads-A1.jsonl`. The diary logs the move. After it, validation gave 0 errors and 0 warnings.
+
+Ledgers at the close: lexicon 1,285 lines (24 added in this leg), running file 535 lines, leads 2,478 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. One more linked artwork with placements before hour 0: r/ainbowroad's Rainbow Road (h-13.07), twenty-two rooms in all; the possible defect is still unfiled. Onset contrast, block 19: late rooms seventeen (h54.70, the fifth kind) and fxKorea (h49.19, the first and sixth kinds). The head was rewritten whole at 2,598 words.
