@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-12, 2026-10-06.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-13, 2026-10-06.
 
 ## The method question, in one sentence
 
@@ -10,11 +10,13 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1, the reading. Leg A1a did the checks, the screen and the order. Legs A1b-01 to A1b-12 read blocks 01 to 12 whole (53, 48, 62, 44, 34, 37, 36, 30, 52, 50, 21 and 35 rooms). 501 of 705 rooms have a note in `out/rooms/`. 204 rooms remain, in blocks 13 to 19. The next leg is A1b-13. At this close `mem.py next` names r/counting, block 13, which is r/counting alone at 11.17 MB. Always take the next room from `mem.py next`, never from this file.
+Stage A1, the reading. Leg A1a did the checks, the screen and the order. Legs A1b-01 to A1b-13 read blocks 01 to 13 whole (53, 48, 62, 44, 34, 37, 36, 30, 52, 50, 21, 35 and 1 rooms). 502 of 705 rooms have a note in `out/rooms/`. 203 rooms remain, in blocks 14 to 19 (32, 37, 46, 35, 35 and 18 rooms). The next leg is A1b-14. At this close `mem.py next` names r/rutgers, the first room of block 14. Always take the next room from `mem.py next`, never from this file.
 
 The order is in `out/order-A1.txt`, a seeded shuffle (seed 20261006) cut into blocks of about 3 MB by `mem.py`'s byte count.
 
-`validate.py A1` at this close: 0 errors, 0 warnings. 501 notes over 705.
+`validate.py A1` at this close: 0 errors, 0 warnings. 502 notes over 705.
+
+Block 13 was r/counting alone. Its 11.17 MB is almost all counting-chain forest; it has 92 coded items (share 0.007) and about 140 concepts, most of them counting turns. Its canvas talk: banners made for it by Ukraine and by Green Lattice by h8.7 (c0012); an alliance at h18.8 letting r/FlagAlliance, r/ukrainian_flag and Green Lattice expand into the banner's territory (c0014), answered by a call to stop the annexation (c0016); a second banner at 920, 350 (c0018); at h73.2 the banners mourned and the r/livecounting banner saved (c0022); TheFarLeftSide named as attacker (c0023). The canvas links an /r/counting region of 179 px centred at 908, 353, placed to h72.91, near the second banner the room said it did not watch. Last coordinating turn h49.79 (c0108). It is an early-side room (first coded turn h0.09, a counting chain).
 
 ## The census and the analysed set
 
@@ -112,6 +114,9 @@ Block 12:
 - anarchocapitalism: the canvas links work its writers placed 0.003 of.
 - teamcube: a sub of eleven coded authors whose deals with r/spaceX and r/CFB were struck by single members.
 
+Block 13:
+- counting: a very large sub whose record is counting, not the canvas; others made its banners, it let allies expand into them, and it mourned banners the canvas still links near its second banner.
+
 ## Open distinctions
 
 None is filed in `_questions/`. Distinctions forming, to watch in block 13 and after:
@@ -129,11 +134,11 @@ None is filed in `_questions/`. Distinctions forming, to watch in block 13 and a
 
 ## The last rooms read
 
-Block 12, in reading order: newzealand, de, hsv, MiamiHurricanes, dmt, ucf, NovaScotia, chibears, cubers, romania, gameofthrones, anarchocapitalism, pakistan, dragonquest, anaheimducks, armenia, donaldglover, SquareSpiral, nbaspurs, yugioh, aggies, telegram, orderofthebluecorner, enterthegungeon, teamcube, empiredidnothingwrong, ontario, worldoftanks, weezer, shitredditsays, kilian, eve, CelticFc, clashroyale, argentina.
+Block 13: counting. Block 12, in reading order: newzealand, de, hsv, MiamiHurricanes, dmt, ucf, NovaScotia, chibears, cubers, romania, gameofthrones, anarchocapitalism, pakistan, dragonquest, anaheimducks, armenia, donaldglover, SquareSpiral, nbaspurs, yugioh, aggies, telegram, orderofthebluecorner, enterthegungeon, teamcube, empiredidnothingwrong, ontario, worldoftanks, weezer, shitredditsays, kilian, eve, CelticFc, clashroyale, argentina.
 
 ## Ledgers at this close
 
-- `lexicon-A1.md`: 890 lines. `running-A1.md`: 415 lines. `leads-A1.jsonl`: 1,736 lines. Every lead's `other` is in `order-A1.txt`, letter case aside; checked at this close with grep, sort and comm.
+- `lexicon-A1.md`: 893 lines. `running-A1.md`: 420 lines. `leads-A1.jsonl`: 1,740 lines. Every lead's `other` is in `order-A1.txt`, letter case aside; checked at this close with grep, sort and comm.
 - The NewMexico struck-by line was a truncated fragment and was fixed; the anarchocapitalism struck-by was a paraphrase and was fixed to the room's words. The chibears paired-check line said the Finnish remedy came from r/Suomi's side; a correction in the diary says the origin is unknown.
 - Notes with two concepts repeat the first id in carrying (UNLincoln, PokemonSage); the diary says so.
 - Rule, kept: fetch every id with `cite.py` and check every lead's room with grep against the frame; append through a grep filter on the item id; never type an id from memory. Lexicon words are copied as written, typos included.
@@ -143,7 +148,7 @@ Block 12, in reading order: newzealand, de, hsv, MiamiHurricanes, dmt, ucf, Nova
 
 ## The next comparison
 
-Block 13 is r/counting alone, 11.17 MB. Read it through themes and hour filters; its canvas talk may be a small share of a counting sub's material. For it, and for every later room: did the artwork exist before the room's first call, and who built it? Do the canvas fields link the work the room describes? Was the deal struck in the thread, in Discord or in a second sub, and did both sides' participants keep it? Which side of the onset contrast is the room on, and is it a sub made for the canvas? Read r/counting against the large rooms whose mark came from a Discord group (dankmemes, leagueoflegends, eve, clashroyale) and against rooms whose canvas talk was one call (ontario). When blocks 14 to 19 bring rooms named in block 12's leads (lakers, quebec, tf2, dota2, smashbros, calvinandhobbes, borussiadortmund, scotland, kanye, prequelmemes, edboxes, ainbowroad, purdue, rpi), read the lead lines first.
+Block 14 holds 32 rooms, beginning with r/rutgers. Paired check due when r/livecounting (block 16) comes: did LC members help make and keep the r/counting banners, and which banner survived? For every room: did the artwork exist before the room's first call, and who built it? Do the canvas fields link the work the room describes? Was the deal struck in the thread, in Discord or in a second sub, and did both sides' participants keep it? Which side of the onset contrast is the room on, and is it a sub made for the canvas? When blocks 14 to 19 bring rooms named in block 12's leads (lakers, quebec, tf2, dota2, smashbros, calvinandhobbes, borussiadortmund, scotland, kanye, prequelmemes, edboxes, ainbowroad, purdue, rpi), read the lead lines first.
 
 ## Nothing changed in the scheme or the model
 

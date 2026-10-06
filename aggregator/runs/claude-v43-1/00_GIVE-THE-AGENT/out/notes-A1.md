@@ -498,3 +498,30 @@ leg A1b-12 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 890 lines, running file 415 lines, leads 1,736 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. Two struck-by lines were fixed to the room's exact words (r/NewMexico, a truncated fragment from an earlier leg; r/anarchocapitalism, a paraphrase). One diary line on r/chibears claimed the Finnish remedy came from r/Suomi's side; a correction line says the origin is unknown. Rooms named in the record but outside the frame got no lead line (r/shyvanamains for r/weezer). The permission check refused shell commands holding the string "=w=", so the r/weezer leads say "Weezer logo". The context was compacted in this leg; each time the head and stage file were re-read and reconciled with the diary before the next write, and the diary records it. No new artwork with placements before hour 0 was found: r/orderofthebluecorner links The Blue Empire from h-12.34, a work already counted under r/thebluecorner, so the count stays at twelve and the case stays unfiled. Onset contrast, block 12: eight early rooms (worldoftanks, clashroyale, eve, de, argentina, donaldglover, newzealand, romania) and two late rooms (CelticFc, MiamiHurricanes). r/CelticFc fits none of the five kinds of late room; the diary logs it as a possible sixth kind, one member alone finding a spot.
+
+## Close report, leg A1b-13 (block 13), 2026-10-06
+
+Block 13 read whole: 1 of 1 room noted (r/counting), 502 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 502 over an analysed set of 705
+  203 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-13 cut=none 20261006T200418Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-13 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 893 lines, running file 420 lines, leads 1,740 lines. A grep, sort and comm check finds every lead's `other` in the frame, letter case aside. No lead line was removed in this leg. r/counting's 11.17 MB is almost all counting-chain forest; it has 92 coded items (coded share 0.007), and every concept was read. Rooms named in the record but outside the frame got no lead line (r/FlagAlliance, r/ukrainian_flag). The head was updated in place at this close rather than rewritten from scratch, since only the run state, the block 13 room, the ledgers and the next comparison changed; it stands at 2,822 words. No new artwork with placements before hour 0 was found. Onset contrast, block 13: r/counting is on the early side (first coded turn h0.09, a counting chain); no late room.

@@ -888,3 +888,6 @@ I guess it won't be fair for us to destroy your hard work. | clashroyale | dfr5z
 ban-boozle | clashroyale | dfopjdz | h16.18
 Los finlandeses son amigos no comida. | argentina | dfp46jr | h24.88
 Union of the Hemisphere | argentina | dfpi66t | h30.69
+#StopTheAnnexation | counting | dfp04a6 | h23.28
+Place migrants represent | counting | dfqidgv | h50.34
+ghost counts | counting | dfoqkck | h17.09

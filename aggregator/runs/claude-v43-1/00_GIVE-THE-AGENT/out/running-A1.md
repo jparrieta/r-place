@@ -413,3 +413,8 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - a sub made for the canvas declaring its own expansion over | SquareSpiral (h45.1); against teamcube, which multiplied its cube
 - early-side rooms of block 12 | worldoftanks, clashroyale, eve, de, argentina, donaldglover, newzealand, romania
 - late-side rooms of block 12 | CelticFc (one member alone), MiamiHurricanes (ask and move)
+- a room's banner made by other groups, then those groups let expand into it | counting (Ukraine and Green Lattice made banners, c0012; FlagAlliance let in, c0014)
+- a room saying its work was lost while the canvas links a region at the place it named | counting (banners mourned c0022; linked region near the second banner at 920, 350)
+- a sister sub's work saved while the room's own was lost | counting and livecounting (c0022, c0023)
+- place visitors joining the room's ordinary activity | counting (place migrants counting, c0088 c0090; first counts, c0029)
+- early-side rooms of block 13 | counting (first coded turn h0.09, a counting chain)
