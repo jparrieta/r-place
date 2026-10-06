@@ -1008,3 +1008,110 @@ having two links is causing some confusion around the **I** and were fighting ou
 If Oda and Kishimoto sensei can be best friends, so can we. | OnePiece | dfq7bc5 | h45.94
 pirate-ninja alliance | OnePiece | dfqd735 | h48.47
 All nakama please assist! | OnePiece | 631mgr | h51.35
+At this point we have bots fighting with each other. | mylittlepony | dfqtzpm | h54.56
+We'd never get anywhere if we had to fight between everyone's favorite pony. | mylittlepony | dfoismo | h12.02
+Yesterday, construction. Today, defend Dash. | mylittlepony | dfow1wd | h21.38
+We're really at the mercy of GreenLattice here | gamindustri | dfqkrqq | h51.19
+This shall be marked as the day Nep defeated an NFL football team. | gamindustri | dfqnx5p | h52.35
+There is plenty of fighting to get certain images on r/place, but no one has tried to make a flashing or moving image | Mario | 637jyc | h71.65
+pxls.space is the new r/place | Mario | dfsw2zo | h83.84
+r/latin, eamus! | latin | 630xdg | h49.48
+In media arma ruamus! | latin | dfqg6xa | h49.56
+Consider me conscripted! | latin | dfqszkp | h54.23
+It's essentially a mafia. We're negotiating protection | paladins | dfqph2s | h52.96
+we're just a faction that believes in a clean orderly pattern that coexists with the art we grow around | paladins | dfpdctq | h28.64
+Pikachu lives matter. | paladins | dfr5ctu | h58.46
+We need at least 100 people running it for this to work | sbu | 633j37 | h56.93
+It's still only one pixel per person per five minutes, so you still need a community effort | sbu | dfrkjjr | h66.98
+On se choisi un chef pi on le laisse décider | quebec | dfpkdke | h31.61
+Après concertation, on s'est tassé. | quebec | dfq6arj | h45.35
+RIP Tabarnak 2017-2017, je me souviens | quebec | 6302s1 | h47.03
+Naon. On respecte nos alliances. | quebec | dfreixy | h62.29
+The PW anchor means "Poland fighting". We're not fighting anyone, so why misuse the symbols? | poland | dfordmu | h17.84
+WE MUST PROTECT THE MOTHERFLAG | poland | dfp87zf | h26.50
+Szkoda, że sami Polacy przeszkadzają naszej fladze | poland | dfqq43w | h53.21
+How about you guys try creating something for once, instead of just destroying others' work? | msu | dfow5p7 | h21.43
+Stop. No more griefing other schools, /r/theB1G is working on an all-Big Ten plan | msu | dfrchcj | h61.15
+I convinced 3/5 to stop. | stlouisblues | dfpnriy | h33.03
+We found the best way to stay strong was to prevent pixels wasted fighting border wars with other subs and instead try to come to agreements. | stlouisblues | dfsjkv5 | h79.55
+DEFENDING THE NOTE STATUS: ACTIVE. | stlouisblues | dfps6p5 | h35.01
+Band together with r/shrooms, r/Salvia, r/trees and r/Currentlytripping | shrooms | dfoup1s | h20.57
+Sorry for fighting against you making it gray. | shrooms | dfpam59 | h27.49
+Maybe not that heart, since it was the first heart made on /r/place and people want to keep it blank. | ultrahardcore | dfr3xga | h57.99
+this is the only day of the year i can post seal.mp4 | ultrahardcore | 62pyjt | h10.26
+nope because we suck. | ultrahardcore | dfq34sl | h42.85
+it's very hard to create something complex now that the canvas is so full. | portal | dfq1wz1 | h41.58
+mission failed, I apologize | portal | dfs8z7y | h76.07
+Every dream starts small... a rare look at the hoodr prototype! | hoodr | 62u7hq | h25.68
+We're typing hoodr! Not Hodor! | hoodr | 631wul | h52.15
+High ents are probably not the easiest to coordinate. | trees | dfp9c5k | h26.95
+it was just different ents that kept making mistakes. | trees | dfs5j5r | h74.91
+We made a truce with /r/MonaLisaClan | trees | dfqqd2x | h53.31
+we chose a site where the only actual drawing was a day old | nlsscirclejerk | dfqjdz8 | h50.70
+RURURU WE DID IT | nlsscirclejerk | dfqn8wt | h52.10
+We must defend against this, as Emilia's knights. | OneTrueEmilia | dfrrxwm | h70.50
+The 15,532nd loop | OneTrueEmilia | 62vgja | h29.02
+We have a truce not an alliance. | philippines | dfr8s76 | h59.61
+Having our, or any other country's flag, behind anything else is non-negotiable. | philippines | dfprkni | h34.72
+RELOCATE WINS! | philippines | 62ydjc | h39.13
+#HELPFNAF2017 | philippines | 62yodm | h40.77
+WE ALL DID IT. AMERICA DID IT. | afip | dfqn54l | h52.06
+Also, running scripts feels like cheating. | afip | dfr93x3 | h59.73
+Back to Back Void War Champs | afip | 6377pu | h70.77
+by having people that have over 20 alts | livecounting | dfp6u4d | h25.94
+I stole it from /r/wallstreetbets | livecounting | dfr85it | h59.39
+It was an unusual alliance, but one worth it. | yuyuyu | dfs1lns | h73.68
+damnatio memoriae | yuyuyu | dfrcuwh | h61.34
+we are way too small of a community to make League of Legends sized logos though | paragon | dfqjzr2 | h50.91
+BUFF IGGY | paragon | 62ulc5 | h26.69
+In general try to be peaceful and underlap things that took effort | AvoArmy | 62u6yd | h25.63
+idk if we can direct the avomind *that* meticulously. | AvoArmy | dfpftxj | h29.68
+It would be distinctly Un-Avo to go over it. | AvoArmy | dfq3rxy | h43.47
+I'm so amused to see all my fandoms crossing over because of this | miraculousladybug | dfrh120 | h64.06
+Ladybug is now safe in /r/parahumans home turf! | miraculousladybug | dfrfsp5 | h63.13
+lasted longer than Cornish flag | DevonUK | 639tin | h77.60
+Devon Flag in r/place | DevonUK | 632lm2 | h54.10
+Being there in one corner is enough. We are not Germany. | catalonia | dfqfivd | h49.32
+Ostres perdoneu! Ho he fet automaticament. | catalonia | dfrui3f | h71.35
+It's not much, but it's ours :) | muse | 62yiio | h39.88
+it took a long fight with ourselves to fix the S. | muse | dfq2zp2 | h42.71
+Sorry to WJSN but we had to act fast before others took the spot | Produce101 | dfrxxqp | h72.49
+Let's not bring shipping into this. Divided we will not hold our ground. | starvstheforcesofevil | dfq0vco | h40.54
+So we don't want to take more than our fair share. | starvstheforcesofevil | dfqw1dx | h55.28
+I've communicated with each group about this. | re_zero | dfr95ho | h59.75
+Actually it wasn't a script! We were all actively on it with 2 or so accounts each haha. | re_zero | dfso9jw | h81.12
+Aye, we're being raided by Donald. | VelvetUnderground | dfr62ze | h58.70
+Mi iris en ilia Discord por negocii. Ili nur insultis min kaj mokis Esperanton. | esperanto | dfqf8si | h49.22
+We know what it's like to be swallowed. | esperanto | dfqq2dd | h53.20
+Estus bona ideo, sed ni ne volas iri sur alian arton | esperanto | dfrz53w | h72.89
+Our bots would fight eachother all day. | wallstreetbets | dfqip4d | h50.45
+weaponized autism | wallstreetbets | dfruhot | h71.35
+Probably, we're just careless enough to be open about it I guess. | wallstreetbets | dfq8jjp | h46.56
+Once it starts looking good, people will (most likely) let us be. We're not really offensive. | calvinandhobbes | dfpxy1y | h38.20
+It also helps that Calvin and hobbes is so wholesome and loved by many. | calvinandhobbes | dfqvr6x | h55.18
+All the original stuff was done by users, but the bots have full run of the place now. | pcmasterrace | dfrtf7s | h71.00
+No, it's not high enough yet. | pcmasterrace | dfrt1pc | h70.88
+To arms, brethren! | pcmasterrace | 62oh7s | h6.03
+Haha, place is gestopt, never mind... Leuk geprobeerd enzo... | aeskwadraat | dfs09qq | h73.27
+Maar a-es zonder kwadraat is just... | aeskwadraat | dfrxshi | h72.44
+We just have to fight back faster than they can fight us. | swordartonline | dfrfubm | h63.17
+Dont. You. Dare. | swordartonline | dfqrxrr | h53.86
+You have to contact the dudes you are drawing over if you want anything to stay. | streetfighter | dfr9mhg | h59.92
+OnePlus got mashed between a rainbow paw, the /r/furry logo and /r/yiff. | oneplus | dft5oza | h90.26
+The OnePlus logo survived... sort of | oneplus | 639vhv | h77.71
+will the koi swim forever in the pools of our memory? | OrderOfTheKoi | 636q6g | h69.39
+Your fearless leader killed the fish with lotuses | OrderOfTheKoi | dfrxr0g | h72.43
+The organized people in our are willing to let you stay but there are many dutch /r/place users that aren't in our discord | PlaceNL | dfrofwc | h69.15
+Good old Poldermodel at work. | PlaceNL | dfrl65q | h67.40
+We will review all art and divide the area between those we've wronged in the past. | PlaceNL | 635ujh | h66.22
+Pink is not about overwriting, we are about surrounding and sharing the warm embrace of pink with the canvas. | PinkUnion | dfr6du7 | h58.80
+filling in their background is hardly an alliance, it's servitude. | PinkUnion | dfrc0jd | h60.92
+DEATH TO BLUE, RED, AND GREEN! PINK WILL REIGN TRIUMPHANT! | PinkUnion | 62o7f5 | h5.29
+isn't the spirit of independence doing our own thing and doing it well? | scotland | dfq32ys | h42.80
+Post all your weird pixel shit to | scotland | 62z6ma | h43.55
+I find your proposal....agreeable. We shall consolidate our gains. | scotland | dfphpwa | h30.49
+Built this with the helpr of /r/Austria and /r/Hungary! | austriahungary | 633z74 | h58.34
+We don't fight here man, Jerry's fretboard is our language | gratefuldead | dfrdkcv | h61.72
+We are rapidly approaching the point where either you have a LOT of members, or you use scripts. | gratefuldead | dfr9t9x | h59.98
+Right now we're BEESNETWORK... | thetreesnetwork | dfphzt0 | h30.61
+turns out its another ent. quite the plot twist i didnt see coming. | thetreesnetwork | dfr604m | h58.68

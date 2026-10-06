@@ -77,6 +77,8 @@ t "the compaction hook and the tool guard run from CONTROL" 'grep -q "CONTROL/ha
 t "the compaction hook prints under 9,000 characters" '[ "$(bash CONTROL/harness/after_compact.sh | wc -c)" -lt 9000 ]'
 mv CONTROL/.compact-gate.json CONTROL/.compact-gate.test.json 2>/dev/null
 t "the tool guard blocks rm" '! (cd "$AG" && echo "{\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"rm out/x\"},\"cwd\":\"$AG\"}" | python3 "$R/CONTROL/harness/pretool_guard.py")'
+t "the tool guard skips quoted text: rm inside a quotation is not a delete (J, 2026-10-06)" '(cd "$AG" && echo "{\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"echo '"'"'{\\\"why\\\": \\\"the troops rm the flag\\\"}'"'"' >> out/leads-A1.jsonl\"},\"cwd\":\"$AG\"}" | python3 "$R/CONTROL/harness/pretool_guard.py")'
+t "the tool guard still reads a quoted command run by a shell (sh -c, eval)" '! (cd "$AG" && echo "{\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"bash -c \\\"rm out/x\\\"\"},\"cwd\":\"$AG\"}" | python3 "$R/CONTROL/harness/pretool_guard.py")'
 t "the tool guard lets a verb through" '(cd "$AG" && echo "{\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"python3 tools/mem.py help\"},\"cwd\":\"$AG\"}" | python3 "$R/CONTROL/harness/pretool_guard.py")'
 t "the tool guard keeps saturation.py decide for the PI" '! (cd "$AG" && echo "{\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"python3 tools/saturation.py decide --stage B1 stop --why x\"},\"cwd\":\"$AG\"}" | python3 "$R/CONTROL/harness/pretool_guard.py" 2>/dev/null)'
 t "the tool guard keeps out/_closes for the harness" '! (cd "$AG" && echo "{\"tool_name\":\"Write\",\"tool_input\":{\"file_path\":\"out/_closes/model-C5.sha256\"},\"cwd\":\"$AG\"}" | python3 "$R/CONTROL/harness/pretool_guard.py" 2>/dev/null)'

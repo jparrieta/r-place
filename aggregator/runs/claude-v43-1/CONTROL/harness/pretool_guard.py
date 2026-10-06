@@ -182,6 +182,25 @@ def rel(p):
         return p
 
 
+QUOTED = re.compile(r"'[^']*'|\"(?:\\.|[^\"\\])*\"")
+SHELL_RM = re.compile(r"(^|[;&|\s(])(rm|rmdir|unlink)(\s|$)")
+
+
+def deletes(cmd):
+    """A delete in a Bash command. The shell words rm, rmdir and unlink count only outside quoted text, so a
+    quotation that holds the letters is not a delete (J, 2026-10-06, after A1b-15's false block); text quoted
+    for a shell that runs it (sh -c, bash -c, zsh -c, eval) is still read, and Python's file deletes are read
+    everywhere."""
+    if re.search(r"shutil\.rmtree|os\.(remove|unlink|rmdir)\(", cmd):
+        return True
+    bare = QUOTED.sub(" '' ", cmd)
+    if SHELL_RM.search(bare):
+        return True
+    if re.search(r"\b(ba|z)?sh\s+-c\b|\beval\b", bare):
+        return any(SHELL_RM.search(q[1:-1]) for q in QUOTED.findall(cmd))
+    return False
+
+
 def main():
     global BASE
     try:
@@ -216,7 +235,7 @@ def main():
         concepts_first(p, call)
     if tool == "Bash":
         cmd = inp.get("command") or ""
-        if re.search(r"(^|[;&|\s(])(rm|rmdir|unlink)\s", cmd) or re.search(r"shutil\.rmtree|os\.(remove|unlink|rmdir)\(", cmd):
+        if deletes(cmd):
             block("never delete a file: supersede it with a new name (STANDING-INSTRUCTIONS §2).", call)
         RO_RX = r"(tools|stages|package|trees|shelves|\.claude)/"
         if re.search(r"(>>?|\btee(\s+-a)?)\s*(\S*/)?" + RO_RX, cmd) \
