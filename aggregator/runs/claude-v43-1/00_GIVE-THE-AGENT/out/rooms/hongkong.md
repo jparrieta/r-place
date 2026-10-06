@@ -1,0 +1,12 @@
+# r/hongkong  (read 2026-10-06)   coded share 0.158   off-platform pointers 1
+doing:      a call at h8.9 to get the flag on the canvas, unanswered (c0001); at h34.8 a member asking why Hong Kong has no spot, another starting the red background, a Discord made, cooperation with Green Lattice (c0002, c0005, c0006); doubts about manpower (c0009, c0013); several spots and designs proposed, a heart rejected as too small (c0018, c0010, c0014, c0015); a template made as small as possible, the canvas scouted, diplomacy suggested (c0021, c0022, c0023); permission won in Green Lattice's Discord at h44.5, the template shrunk to spare FREEUAE (c0028, c0030, c0034); a member then saying Green Lattice reclaimed it (c0039); the flag done at h49.8, thanks to Discord and non-Discord helpers, overseas members guarding while Hong Kong sleeps (c0048, c0049, c0045); an expansion aborted after a clash with PPCG, whose logo was moving under a deal with r/PathofExile (c0054, c0055, c0057, c0061); a quarrel over HK letters and 香港 on the flag (c0068, c0071, c0072); thanks to Onepiece and Green Lattice (c0065).
+week:       h8.9 one call; h34.8 to h45 designs, spots, permission; h47.9 reclaimed; h49.8 done; h51.8 to h53.7 expansion aborted; h64 to h72 letters argued; after h73 pride.
+named:      r/greenlattice as host granting permission (c0028, c0034, c0039); PPCG and r/PathofExile under a move deal (c0057, c0061); FREEUAE as a neighbour spared (c0030); r/OnePiece as helper (c0065); the blue corner as another obligation (c0067).
+goal:       the Hong Kong flag; set at h34.8; settled inside Green Lattice at h44.5.
+unsettled:  whether letters belong on the flag (c0069, c0072, c0074).
+coder unsure: none named; 94 threads out of scope.
+carrying:   c0023, c0034, c0055
+not this:   a room that took a spot; it asked for permission and shrank twice.
+ended:      last coordinating turn h71.78 (c0074, asking to remove HK letters); after h73 the flag reported perfect.
+struck by:  "Your friends overseas will do what we can. ;)"
+made:       one artwork, Flag of Hong Kong, 852 px at the edge, placed from h1.3; writers placed 0.076. The canvas keeps the flag.

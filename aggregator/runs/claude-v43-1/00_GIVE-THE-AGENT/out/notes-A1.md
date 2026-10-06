@@ -228,3 +228,30 @@ leg A1b-02 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Every `other` in the 17 leads added at the end of block 02 was checked against `order-A1.txt` before the close. Every item id in those leads and in the 31 new lexicon lines was checked through `cite.py`.
+
+## Close report, leg A1b-03 (block 03), 2026-10-06
+
+Block 03 read whole: 62 of 62 rooms noted, 163 of 705 in all. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 163 over an analysed set of 705
+  542 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-03 cut=none 20261006T143729Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-03 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Every `other` in the block 03 leads was checked against `order-A1.txt` when written. Several item ids were first written before being checked through `cite.py` or `lex.py` and were then corrected: four polska leads, the linux archlinux lead, the frc TeamYellowPlace lead, the peterdraws lead, one skyrim and two ftlgame lexicon lines. The diary records the correction and the rule that followed it.

@@ -1,0 +1,12 @@
+# r/xcom  (read 2026-10-06)   coded share 0.07   off-platform pointers 11
+doing:      at h26.4 one member asking who wants an XCOM logo, moving it beneath Green Lattice, calling for a commander to organise (c0001, c0002, c0003); another member, C_CT, pointing to KSP and FTL logos as proof, searching for a spot, giving up one rather than destroy the Gungeon revolver (c0011, c0013, c0015); the Blue Corner asking them to keep its space blue, then giving some permission (c0017, c0020); one main post at h46.9 to end hours of confusion (c0024, c0021); overwatch called (c0028); compromises with an astronaut's beam, a white humanoid under treaty, the r/kpop tag apologised for, r/rhythmheaven's Play-Yan allowed to stay (c0035, c0039, c0045, c0023); refusing another move for a neighbour that moved three times (c0047); a call to break the treaty (c0113); Missed text added (c0067); the University of Washington's W attacking with scripts, members proposing to use the scripts against them (c0082, c0090, c0091); a member asking place talk to move to r/xcomplace (c0088, c0094).
+week:       h26.4 to h46 spots and plans; h46.9 one plan; h49 to h62 compromises and treaties; h56 to h63 the Missed text; h64 to h72 the W fight; after h73 victory and thanks.
+named:      Green Lattice, the Blue Corner, r/Kpop, r/rhythmheaven, Gungeon, Hydra, r/Rainbow6 as neighbours (c0002, c0017, c0038, c0060, c0005, c0068, c0070); r/Udubs, the University of Washington, as scripted attacker (c0083, c0104); r/Python as a polite contrast (c0086).
+goal:       the XCOM logo; settled at h46.9; text added at h57.
+unsettled:  where to talk about the canvas (c0088, c0095, c0097).
+coder unsure: 144 threads out of scope.
+carrying:   c0021, c0035, c0047
+not this:   a room that took space; it gave up spots and let neighbours sit on its logo.
+ended:      last coordinating turn h72.78 (c0057, a reset report; c0092 at h70.74); after h73 victory, thanks between rooms.
+struck by:  "Play-Yan looked very comfortable"
+made:       one artwork, XCOM Logo, 1,584 px at the edge, placed from h1.51; writers placed 0.129. The canvas keeps the logo with Play-Yan on it.

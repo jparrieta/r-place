@@ -143,3 +143,43 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - a single post speaks as "we" for work done elsewhere; readers cannot find the group | bobross, nonbinary
 - a visitor from another community suggests an addition | bobross, mechanicalkeyboards
 - the room tries again on a successor canvas after h73 | phish, loltyler1
+- a neighbour asks a one-pixel move and offers joint defence; the script is edited to share the border | texastech
+- members refuse a call to hijack another school logo | texastech, dallasstars
+- the room splits over scripts as unfair play against scripts as survival | frc, dallasstars, linux
+- a room blames its own members for starting a fight with a neighbour | frc
+- a lone member builds and asks for help that never comes | oman, ravens
+- a builder says the parent room gave little support | ravens
+- many single-member starts at many coordinates, none adopted by the room | pepe, minecraft, ghibli, darksouls
+- members say a deal cannot bind everyone who shares the flag or symbol | polska, dallasstars
+- the decision was made in Discord and members learn it after | darksouls, skyrim, polska
+- a moderator removes canvas or script posts as off-topic | linux, darksouls
+- a room moves again and again, asking and apologising each time | dallasstars, ftlgame, seahawks
+- a neighbour room apologises for its extremists and offers help to rebuild | columbia, frc
+- a plan moves across Discord, Facebook and Imgur | columbia
+- a sub made for one figure tries to stop its members attacking a third room | GuardiansOfDatBoi
+- the idea and the work came from another sub; this room gave traction | lovelive
+- a room asks at the close why it is not on the canvas | GuildWars2, minecraft
+- the room finds its art already done when it proposes to make it | Madeon, spelunky, yerbamate
+- raids on other flags followed by peace with the raided | iceland
+- a room gives a neighbour a flag above its own | iceland
+- a room shares a taskbar window with neighbours to survive | darksouls
+- members undo each other until someone pings repairers to stop | ohio
+- a room offers help to a neighbour in return for being repaid later | ohio, iceland
+- a sub made for the canvas organizes a national flag, often with pre-event members at zero | ukplace, placeDE, SwissNeutralityZone, placeportalpattern
+- a late-onset room expands by script over others instead of looking for space | ukplace
+- a smaller nation builds inside or beside a larger ally and coordinates in its Discord | uruguay, maryland, malta, latvia
+- a neighbour room offers protection in return for help, and the deal is repaid overnight | maryland, uruguay, iceland
+- a room changes its design by vote or drift several times | futurama, AyyMD
+- the colour fight is inside the room, not with outsiders | AyyMD
+- a room offers a neighbour a hole through its own art | bardmains
+- a room says it cannot spare manpower for a neighbour request | iceland, placeDE, nyu
+- the room asks who speaks for a group when a deal is cited | harrypotter, survivor, polska
+- members on Discord say the void and rogue groups are not their official stance | survivor, costa_rica, sixers, columbia
+- a room refuses another move because the neighbour already moved three times | xcom
+- one organiser and their alts or bots built most of the mark | nyu, oman, sixers, freedomplanet
+- a room fights to keep its letters from becoming a joke word | lsu, columbia
+- a room moves to pxls.space or another canvas after the close | frc, futurama, phish, placeportalpattern
+- art placed with permission of a host room is later reclaimed by that host | hongkong, costa_rica
+- members say a pact or agreement was made with leaders who cannot bind all their people | harrypotter, costa_rica, dallasstars
+- a room names a memorial or physical list for its contributors | SwissNeutralityZone
+- placements from before hour 0 appear on a shared artwork | SwissNeutralityZone (Void Prism and cheese from h-14.5)

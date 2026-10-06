@@ -1,0 +1,12 @@
+# r/sixers  (read 2026-10-06)   coded share 0.083   off-platform pointers 16
+doing:      the room's own haircut and injury April Fools jokes from h6 (c0006, c0013, c0032); at h9.1 one member in Australia trying to write TRUST THE PROCESS, asking for red fill and white outlines, keeping it going with four alts, another writing TTP (c0015, c0016, c0020, c0031); Kanye's albums erasing a T, a Kanye moderator telling people to stop and repairing (c0027, c0049); the Kanye Discord saying a rogue group did it, the organiser calling for repair instead of retaliation and messaging placers until most stopped (c0053, c0054, c0056); r/Kanye offering to rebuild the phrase, members demanding one design across both subs, a member banned from the Kanye Discord (c0064, c0065, c0066, c0067); a Discord and a sticky made at h53 to pull scattered work together (c0074, c0076, c0098); the game thread recruited during commercials (c0079, c0080); r/ChronoTrigger asking to rest Lucca's arm on the logo, allowed; the Red Wings apologising (c0104, c0105, c0106); calls to destroy the Celtics (c0050, c0097).
+week:       h6 to h33 April Fools; h9 to h11.5 TTP written; h27 to h52 Kanye damage and deals; h52.9 to h56 Discord, sticky, new logo; h59 to h63 logo complete and defended; after h73 a period removed, pride.
+named:      r/Kanye as eater, then ally under a pact (c0049, c0064, c0136); r/ChronoTrigger, the Red Wings, r/eagles, r/tagpro as neighbours (c0104, c0106, c0108, c0058); the Celtics as target (c0050); r/nbaplace and r/phillyplace as new hubs (c0069, c0103).
+goal:       TRUST THE PROCESS at h9.1; then a Sixers logo chosen in Discord at h56.
+unsettled:  phrase or logo (c0061, c0063, c0066).
+coder unsure: 105 threads out of scope.
+carrying:   c0054, c0066, c0107
+not this:   a feud with Kanye; the room repaired, negotiated and ended in a pact.
+ended:      last coordinating turn h60.85 (c0109, proposing Hinkie; c0115 at h59.05); after h73 a period lost and pride.
+struck by:  "The weekend the Sixers made a pact with Kanye"
+made:       one artwork, Philadelphia 76ers, 1,140 px in the middle ring, placed from h1.11; writers placed 0.186. The canvas keeps the logo.

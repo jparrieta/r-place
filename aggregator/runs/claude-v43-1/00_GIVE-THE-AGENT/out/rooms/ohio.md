@@ -1,0 +1,12 @@
+# r/ohio  (read 2026-10-06)   coded share 0.359   off-platform pointers 8
+doing:      the room's wrong-Cleveland skyline joke (c0001, c0002); at h24.9 calls to remove the Michigan flag and to make an Ohio flag (c0008, c0009); the fight framed as the Toledo Strip, Michigan with four times the turf (c0013, c0016); a Discord for flag help (c0045); OHIO written over the flag, a block O, a relocation after Michigan destroyed it, a team-up proposed with city and OSU subs (c0021, c0025, c0026); a ranked goal list putting defence first (c0047, c0048); r/anime_irl reaffirming a one-pixel border and Ohio promising to expand elsewhere, then debating ceding rows (c0055, c0056, c0080, c0081, c0083); r/texas asking Ohio to repay its help, a shared Discord made (c0061, c0068, c0094, c0098); an alliance with Summit1G's chat claimed (c0040); members undoing each other's work on a duplicate blue Ohio, then pinging repairers to stop (c0075, c0089, c0092, c0093); attacks on Michigan dropped for maintenance (c0106, c0108); after h73 pride and a red dot claimed (c0109, c0117).
+week:       h20.8 the joke; h24.9 to h35 flag and relocation; h43 to h48 Michigan and moves; h50 to h59 goals, anime_irl, Texas; h56 to h73 cross-purpose repairs; after h73 pride.
+named:      Michigan and TTUN as rivals (c0016, c0025, c0033); r/anime_irl as neighbour under a border agreement (c0055); r/texas as ally owed help (c0061, c0094); the Warriors logo as space to take (c0051, c0053); Summit1G's chat as ally (c0040); r/bluejackets and r/OhioState as help sought (c0071, c0072).
+goal:       an Ohio flag, set at h24.9; then OHIO text, block O, script Ohio; the duplicate removed late.
+unsettled:  ceding space and expanding (c0069, c0081, c0083, c0086).
+coder unsure: none named.
+carrying:   c0047, c0081, c0093
+not this:   a room whose members pulled one way; they repaired what others erased until h72.
+ended:      last coordinating turn h72.97 (c0100, inviting expansion talk to Discord); after h73 pride.
+struck by:  "Let it be known that we dotted the I together"
+made:       one artwork, Ohio, USA, 892 px at the edge, placed from h1.25; writers placed 0.135. The canvas keeps the Ohio marks.

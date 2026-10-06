@@ -1,0 +1,12 @@
+# r/ftlgame  (read 2026-10-06)   coded share 0.102   off-platform pointers 1
+doing:      one member at h18.9 proposing an Engi or Lanius and asking everyone to follow the guidelines because resources are limited (c0001, c0002); a snake's tail destroying it, r/sneks contacted, the snake curving around (c0004, c0005, c0006); a takeover of r/ftb's logo suggested as what space mercenaries do (c0007, c0008); the Engi complete at h29.7 as "we did it" (c0009, c0010); single members starting Lanius sprites and FTL logos at many coordinates, moving when space was taken (c0013, c0014, c0022, c0025); r/hearthstone relocating, r/formula1 apologising for drawing over the Lanius and helping (c0015, c0019, c0044); a three-pixel gap counted with Italian builders (c0037, c0038, c0039); r/ethoslab's player head honoured (c0063); the void eating the logo, falling back to the Engi as last bastion, help offered by r/homestuck and Dwarf Fortress (c0074, c0080, c0081); after h68 a move to pxls.space (c0086).
+week:       h18.9 the plan; h27 to h30 the Engi built; h30 to h55 Lanius and logo starts, neighbours; h58 to h64 the void; h66 to h72 rebuild attempts; after h73 pride in the Engi.
+named:      r/sneks, r/hearthstone, r/formula1, the Italians, r/ethoslab as neighbours dealt with (c0005, c0015, c0019, c0037, c0063); r/ftb as target suggested (c0007); r/homestuck, Dwarf Fortress and r/FightTheVoid as help against the void (c0077, c0080, c0081).
+goal:       an Engi, set and built by h29.7; then Lanius, logo and Kestrel attempts, each moved or lost.
+unsettled:  taking space against asking (c0008, c0048, c0056).
+coder unsure: the opening edge came from one batch.
+carrying:   c0002, c0019, c0074
+not this:   a room that fought for space; nearly every neighbour turn is a request, apology or gap counted.
+ended:      last coordinating turn h72.05 (c0089, proposing a mini logo above Star Trek); after h73 a Formula 1 builder's apology and pride.
+struck by:  "It just needs teamwork."
+made:       two artworks at the edge, Engi 265 px and FTL Logo (covered) 341 px, placed from h1.29; writers placed 0.124. The canvas keeps the Engi; the logo is listed as covered.

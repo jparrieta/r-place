@@ -1,0 +1,12 @@
+# r/linux  (read 2026-10-06)   coded share 0.027   off-platform pointers 4
+doing:      a first-hours quarrel over a Leafs tile and a bot for r/erasetheplace (c0001, c0004); many April Fools pranks seen through (c0007, c0024, c0062); at h11.5 one member asking help to paint a small Tux, others merging proposals onto the smallest template (c0012, c0013, c0014); browser addons and repair scripts (c0016, c0020, c0022); coordination sent to r/linuxmasterrace and Discord (c0023, c0057, c0125); Tux done, then GNU added (c0036, c0068); agreements with r/PrequelMemes over letters and a treaty asked by CowChop (c0041, c0047); refusing space kept by the Lost subreddit (c0089); the plus changed to a slash so griefers could not make a swastika (c0044, c0101); a moderator removing script posts as off-topic (c0066); newcomers taught to place (c0095, c0096); watchers fixing damage in seconds, a Rust maintenance botnet offered (c0116, c0117); a debate on whether bots made it worthwhile (c0129, c0131, c0133).
+week:       h7 to h25 pranks; h11.5 to h28 Tux and tools; h24 to h50 neighbours and GNU; h45 to h54 bots argued; h56 to h70 defence; after h73 a red dot in Tux's eye.
+named:      r/linuxmasterrace as where coordination ran (c0023, c0125); r/PrequelMemes and CowChop as neighbours under agreement (c0041, c0047); the Lost subreddit as owner of space (c0089); r/Paladins apologising for a stray pixel (c0090); Sweden as invader (c0077); the Rust community (c0117).
+goal:       Tux, then GNU/Linux; set from h11.5; the slash changed under griefing.
+unsettled:  Tux's design (c0070, c0112, c0113); bots against people (c0129, c0132).
+coder unsure: 244 of 268 threads out of scope.
+carrying:   c0023, c0101, c0116
+not this:   a room the moderators welcomed for its canvas work; scripts were removed as off-topic.
+ended:      last coordinating turn h70.80 (c0117, offering the Rust botnet; c0116 at h69.84); after h73 the final form and a red dot lamented.
+struck by:  "Any man who who says I am King, is no true King."
+made:       one artwork, Tux (Linux Mascot), 3,264 px at the edge, placed from h1.17; writers placed 0.091, pre-event members 0.039. The canvas keeps Tux; a member doubted this room made it.
