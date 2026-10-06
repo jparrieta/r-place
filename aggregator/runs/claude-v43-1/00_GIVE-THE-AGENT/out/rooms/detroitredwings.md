@@ -1,0 +1,12 @@
+# r/detroitredwings  (read 2026-10-06)   coded share 0.054   off-platform pointers 13
+doing:      a Winged Wheel built square by square, then lost (c0001, c0009, c0032); a regroup in which one member writes a script, partly stolen from the UK's, and calls soldiers to run it (c0064, c0081, c0085); maintaining it, adjusting for the trans and pan flags (c0103, c0112); losing it to Kanye and others, then a fight over staying or moving (c0136, c0164, c0165); a move into an Original 6 hockey cluster with Habs and Leafs, over Buffalo's banner (c0173, c0189, c0207).
+week:       h17 the call, with the moderators' sticky and a border note to the UK; h22 to h33 first wheel built and lost; h30 to h43 regroup by script, done at h43; h43 to h56 maintenance, script errors, lone wolves, wheel gone; h58 to h72 Original 6 plan, relocation, Buffalo talks; after h73 shame and no remorse.
+named:      r/unitedkingdom as neighbour and script source (c0007, c0085, c0100); TransFlagPlace and the pan flag as neighbours accommodated (c0091, c0103); r/Kanye as destroyer (c0137); Habs, Leafs as hosts (c0131, c0173); Buffalo as overrun neighbour offering peace (c0207, c0212); r/Mariners as rival (c0082).
+goal:       a Winged Wheel, set at h17 by one poster; place and method changed three times; the object never did.
+unsettled:  scripts as cheating or self-preservation (c0075, c0108, c0159); stay or move (c0164, c0165, c0204).
+coder unsure: Discord and r/OriginalSix_Place agreements unseen; the canvas states are members' reports (dfr7zlt).
+carrying:   c0076, c0129, c0173
+not this:   a room that took space by talk alone; scripts did the holding, and members said so.
+ended:      last coordinating turn h72.06 (c0212, a Buffalo moderator asking to cohabit; the room's c0211 at h72.02 keeps upkeep by hand); r/OriginalSix_Place unseen; after h73 shame and no remorse (c0214, c0217).
+struck by:  "If you're not cheatin' you're not tryin"
+made:       two Detroit Red Wings artworks, 451 px at the edge; the room's writers placed 0.143. The canvas keeps a Wheel in the hockey cluster they moved to.

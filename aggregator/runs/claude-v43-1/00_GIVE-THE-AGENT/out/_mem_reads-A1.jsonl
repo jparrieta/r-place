@@ -151,3 +151,618 @@
 {"t": "2026-10-06T12:26:27", "stage": "A1", "verb": "log", "args": ["concept_reach_threshold declared as 0 items_in_window, so every room is read at concept level from C2 to D3: the share as defined is 1.0 in all 705 rooms (every concept carries a theme_id), and second-order themes grow at log-log slope 0.231 on items against 0.530 for concepts. Rests on QA1-001; revised if the answer names another measure."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
 {"t": "2026-10-06T12:26:27", "stage": "A1", "verb": "log", "args": ["blocks declared: a seeded shuffle (20261006) of the 705 rooms cut at 3 MB by mem.py's byte count, 19 blocks, r/counting (11.17 MB) a block of its own as block 13; out/order-A1.txt written, 705 lines; mem.py next names anarchism, block 01. Departure logged for the script."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
 {"t": "2026-10-06T12:28:40", "stage": "A1", "verb": "log", "args": ["A1a closes with the checks, the screen and the order written: census and analysed set 705, nothing dropped, six defects and two departures, the self-test clean. The contrast is early (h0 to 3, 131 rooms) against late (after h48, 61 rooms), carried with a held-size comparison because size differs a hundredfold; concept_reach_threshold is 0 pending QA1-001. Next is A1b-01, block 01, starting with the room mem.py next names (anarchism)."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:38:03", "stage": "A1", "verb": "diary", "args": [], "opts": {"last": 5}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:38:05", "stage": "A1", "verb": "asks", "args": ["QA1-001"], "opts": {}, "offset": 0, "limit": 80, "lines": 3, "total": 3, "refused": null}
+{"t": "2026-10-06T12:38:05", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:38:12", "stage": "A1", "verb": "log", "args": ["opened anarchism"], "opts": {"kind": "opened", "ids": "anarchism"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:38:13", "stage": "A1", "verb": "room", "args": ["anarchism"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:38:13", "stage": "A1", "verb": "room", "args": ["anarchism"], "opts": {"no_canvas": true}, "offset": 0, "limit": 300, "lines": 66, "total": 66, "refused": null}
+{"t": "2026-10-06T12:38:17", "stage": "A1", "verb": "forest", "args": ["anarchism"], "opts": {}, "offset": 11, "limit": 1000, "lines": 226, "total": 237, "refused": null}
+{"t": "2026-10-06T12:38:17", "stage": "A1", "verb": "when", "args": ["anarchism"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:38:20", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "anarchism"}, "offset": 0, "limit": 500, "lines": 125, "total": 125, "refused": null}
+{"t": "2026-10-06T12:38:23", "stage": "A1", "verb": "case", "args": ["anarchism"], "opts": {}, "offset": 0, "limit": 300, "lines": 73, "total": 73, "refused": null}
+{"t": "2026-10-06T12:38:27", "stage": "A1", "verb": "brief", "args": ["anarchism"], "opts": {}, "offset": 0, "limit": 30, "lines": 30, "total": 169, "refused": null}
+{"t": "2026-10-06T12:38:27", "stage": "A1", "verb": "canvas", "args": ["anarchism"], "opts": {}, "offset": 0, "limit": 60, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:38:28", "stage": "A1", "verb": "room", "args": ["anarchism"], "opts": {"json": true}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:39:15", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "anarchism"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:39:58", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:39:58", "stage": "A1", "verb": "log", "args": ["opened tokyo"], "opts": {"kind": "opened", "ids": "tokyo"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:39:58", "stage": "A1", "verb": "room", "args": ["tokyo"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:39:58", "stage": "A1", "verb": "room", "args": ["tokyo"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 20, "total": 20, "refused": null}
+{"t": "2026-10-06T12:39:59", "stage": "A1", "verb": "forest", "args": ["tokyo"], "opts": {}, "offset": 11, "limit": 20000, "lines": 17, "total": 28, "refused": null}
+{"t": "2026-10-06T12:39:59", "stage": "A1", "verb": "when", "args": ["tokyo"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:40:00", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "tokyo"}, "offset": 0, "limit": 20000, "lines": 15, "total": 15, "refused": null}
+{"t": "2026-10-06T12:40:02", "stage": "A1", "verb": "case", "args": ["tokyo"], "opts": {}, "offset": 0, "limit": 3000, "lines": 65, "total": 65, "refused": null}
+{"t": "2026-10-06T12:40:02", "stage": "A1", "verb": "brief", "args": ["tokyo"], "opts": {}, "offset": 0, "limit": 14, "lines": 14, "total": 121, "refused": null}
+{"t": "2026-10-06T12:40:02", "stage": "A1", "verb": "canvas", "args": ["tokyo"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:40:13", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "tokyo"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:40:16", "stage": "A1", "verb": "log", "args": ["opened buffalobills"], "opts": {"kind": "opened", "ids": "buffalobills"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:40:16", "stage": "A1", "verb": "room", "args": ["buffalobills"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:40:17", "stage": "A1", "verb": "room", "args": ["buffalobills"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 46, "total": 46, "refused": null}
+{"t": "2026-10-06T12:40:17", "stage": "A1", "verb": "forest", "args": ["buffalobills"], "opts": {}, "offset": 11, "limit": 20000, "lines": 237, "total": 248, "refused": null}
+{"t": "2026-10-06T12:40:18", "stage": "A1", "verb": "when", "args": ["buffalobills"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:40:18", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "buffalobills"}, "offset": 0, "limit": 20000, "lines": 136, "total": 136, "refused": null}
+{"t": "2026-10-06T12:40:30", "stage": "A1", "verb": "room", "args": ["buffalobills"], "opts": {"no_canvas": true}, "offset": 15, "limit": 100, "lines": 31, "total": 46, "refused": null}
+{"t": "2026-10-06T12:40:31", "stage": "A1", "verb": "when", "args": ["buffalobills"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:40:31", "stage": "A1", "verb": "forest", "args": ["buffalobills"], "opts": {}, "offset": 11, "limit": 400, "lines": 237, "total": 248, "refused": null}
+{"t": "2026-10-06T12:40:35", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "buffalobills"}, "offset": 0, "limit": 140, "lines": 136, "total": 136, "refused": null}
+{"t": "2026-10-06T12:40:38", "stage": "A1", "verb": "case", "args": ["buffalobills"], "opts": {}, "offset": 0, "limit": 400, "lines": 71, "total": 71, "refused": null}
+{"t": "2026-10-06T12:40:38", "stage": "A1", "verb": "brief", "args": ["buffalobills"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 157, "refused": null}
+{"t": "2026-10-06T12:40:38", "stage": "A1", "verb": "canvas", "args": ["buffalobills"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:40:44", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "buffalobills"}, "offset": 0, "limit": 200, "lines": 136, "total": 136, "refused": null}
+{"t": "2026-10-06T12:41:10", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "buffalobills"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:41:13", "stage": "A1", "verb": "log", "args": ["opened greyblob"], "opts": {"kind": "opened", "ids": "greyblob"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:41:13", "stage": "A1", "verb": "room", "args": ["greyblob"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:41:14", "stage": "A1", "verb": "room", "args": ["greyblob"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 102, "total": 102, "refused": null}
+{"t": "2026-10-06T12:41:15", "stage": "A1", "verb": "when", "args": ["greyblob"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:41:15", "stage": "A1", "verb": "forest", "args": ["greyblob"], "opts": {}, "offset": 11, "limit": 400, "lines": 338, "total": 349, "refused": null}
+{"t": "2026-10-06T12:41:26", "stage": "A1", "verb": "room", "args": ["greyblob"], "opts": {"no_canvas": true}, "offset": 6, "limit": 200, "lines": 96, "total": 102, "refused": null}
+{"t": "2026-10-06T12:41:26", "stage": "A1", "verb": "when", "args": ["greyblob"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:41:30", "stage": "A1", "verb": "forest", "args": ["greyblob"], "opts": {}, "offset": 11, "limit": 330, "lines": 330, "total": 349, "refused": null}
+{"t": "2026-10-06T12:41:33", "stage": "A1", "verb": "forest", "args": ["greyblob"], "opts": {}, "offset": 341, "limit": 20, "lines": 8, "total": 349, "refused": null}
+{"t": "2026-10-06T12:41:34", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "greyblob"}, "offset": 0, "limit": 120, "lines": 116, "total": 116, "refused": null}
+{"t": "2026-10-06T12:41:37", "stage": "A1", "verb": "case", "args": ["greyblob"], "opts": {}, "offset": 0, "limit": 120, "lines": 67, "total": 67, "refused": null}
+{"t": "2026-10-06T12:41:37", "stage": "A1", "verb": "brief", "args": ["greyblob"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-06T12:41:37", "stage": "A1", "verb": "canvas", "args": ["greyblob"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:41:57", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "greyblob"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:42:01", "stage": "A1", "verb": "log", "args": ["opened morrowind"], "opts": {"kind": "opened", "ids": "morrowind"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:42:01", "stage": "A1", "verb": "room", "args": ["morrowind"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:42:02", "stage": "A1", "verb": "room", "args": ["morrowind"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 26, "total": 26, "refused": null}
+{"t": "2026-10-06T12:42:02", "stage": "A1", "verb": "when", "args": ["morrowind"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:42:08", "stage": "A1", "verb": "forest", "args": ["morrowind"], "opts": {}, "offset": 11, "limit": 200, "lines": 109, "total": 120, "refused": null}
+{"t": "2026-10-06T12:42:12", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "morrowind"}, "offset": 0, "limit": 120, "lines": 109, "total": 109, "refused": null}
+{"t": "2026-10-06T12:42:16", "stage": "A1", "verb": "case", "args": ["morrowind"], "opts": {}, "offset": 0, "limit": 120, "lines": 71, "total": 71, "refused": null}
+{"t": "2026-10-06T12:42:16", "stage": "A1", "verb": "brief", "args": ["morrowind"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 119, "refused": null}
+{"t": "2026-10-06T12:42:16", "stage": "A1", "verb": "canvas", "args": ["morrowind"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:42:29", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "morrowind"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:42:32", "stage": "A1", "verb": "log", "args": ["opened megaman"], "opts": {"kind": "opened", "ids": "megaman"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:42:33", "stage": "A1", "verb": "room", "args": ["megaman"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:42:33", "stage": "A1", "verb": "room", "args": ["megaman"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 69, "total": 69, "refused": null}
+{"t": "2026-10-06T12:42:34", "stage": "A1", "verb": "when", "args": ["megaman"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:42:37", "stage": "A1", "verb": "forest", "args": ["megaman"], "opts": {}, "offset": 11, "limit": 300, "lines": 205, "total": 216, "refused": null}
+{"t": "2026-10-06T12:42:40", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "megaman"}, "offset": 0, "limit": 90, "lines": 75, "total": 75, "refused": null}
+{"t": "2026-10-06T12:42:42", "stage": "A1", "verb": "case", "args": ["megaman"], "opts": {}, "offset": 0, "limit": 120, "lines": 73, "total": 73, "refused": null}
+{"t": "2026-10-06T12:42:43", "stage": "A1", "verb": "brief", "args": ["megaman"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 109, "refused": null}
+{"t": "2026-10-06T12:42:43", "stage": "A1", "verb": "canvas", "args": ["megaman"], "opts": {}, "offset": 0, "limit": 200, "lines": 19, "total": 19, "refused": null}
+{"t": "2026-10-06T12:42:55", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "megaman"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:42:58", "stage": "A1", "verb": "log", "args": ["opened AprilKnights"], "opts": {"kind": "opened", "ids": "AprilKnights"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:42:59", "stage": "A1", "verb": "room", "args": ["AprilKnights"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:42:59", "stage": "A1", "verb": "room", "args": ["AprilKnights"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 63, "total": 63, "refused": null}
+{"t": "2026-10-06T12:43:00", "stage": "A1", "verb": "when", "args": ["AprilKnights"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:43:03", "stage": "A1", "verb": "forest", "args": ["AprilKnights"], "opts": {}, "offset": 11, "limit": 300, "lines": 205, "total": 216, "refused": null}
+{"t": "2026-10-06T12:43:07", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "AprilKnights"}, "offset": 0, "limit": 110, "lines": 102, "total": 102, "refused": null}
+{"t": "2026-10-06T12:43:09", "stage": "A1", "verb": "case", "args": ["AprilKnights"], "opts": {}, "offset": 0, "limit": 120, "lines": 61, "total": 61, "refused": null}
+{"t": "2026-10-06T12:43:09", "stage": "A1", "verb": "brief", "args": ["AprilKnights"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 109, "refused": null}
+{"t": "2026-10-06T12:43:09", "stage": "A1", "verb": "canvas", "args": ["AprilKnights"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:43:25", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "AprilKnights"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:43:30", "stage": "A1", "verb": "log", "args": ["opened witcher"], "opts": {"kind": "opened", "ids": "witcher"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:43:30", "stage": "A1", "verb": "room", "args": ["witcher"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:43:31", "stage": "A1", "verb": "room", "args": ["witcher"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 33, "total": 33, "refused": null}
+{"t": "2026-10-06T12:43:31", "stage": "A1", "verb": "when", "args": ["witcher"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:43:37", "stage": "A1", "verb": "forest", "args": ["witcher"], "opts": {}, "offset": 11, "limit": 300, "lines": 141, "total": 152, "refused": null}
+{"t": "2026-10-06T12:43:42", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "witcher"}, "offset": 0, "limit": 120, "lines": 111, "total": 111, "refused": null}
+{"t": "2026-10-06T12:43:45", "stage": "A1", "verb": "case", "args": ["witcher"], "opts": {}, "offset": 0, "limit": 120, "lines": 69, "total": 69, "refused": null}
+{"t": "2026-10-06T12:43:45", "stage": "A1", "verb": "brief", "args": ["witcher"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 145, "refused": null}
+{"t": "2026-10-06T12:43:45", "stage": "A1", "verb": "canvas", "args": ["witcher"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:43:58", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "witcher"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:44:02", "stage": "A1", "verb": "log", "args": ["opened heyyea"], "opts": {"kind": "opened", "ids": "heyyea"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:44:03", "stage": "A1", "verb": "room", "args": ["heyyea"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:44:03", "stage": "A1", "verb": "room", "args": ["heyyea"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 39, "total": 39, "refused": null}
+{"t": "2026-10-06T12:44:04", "stage": "A1", "verb": "when", "args": ["heyyea"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:44:07", "stage": "A1", "verb": "forest", "args": ["heyyea"], "opts": {}, "offset": 11, "limit": 200, "lines": 77, "total": 88, "refused": null}
+{"t": "2026-10-06T12:44:08", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "heyyea"}, "offset": 0, "limit": 60, "lines": 48, "total": 48, "refused": null}
+{"t": "2026-10-06T12:44:11", "stage": "A1", "verb": "case", "args": ["heyyea"], "opts": {}, "offset": 0, "limit": 120, "lines": 51, "total": 51, "refused": null}
+{"t": "2026-10-06T12:44:11", "stage": "A1", "verb": "brief", "args": ["heyyea"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-06T12:44:11", "stage": "A1", "verb": "canvas", "args": ["heyyea"], "opts": {}, "offset": 0, "limit": 200, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:44:24", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "heyyea"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:44:27", "stage": "A1", "verb": "log", "args": ["opened furry"], "opts": {"kind": "opened", "ids": "furry"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:44:28", "stage": "A1", "verb": "room", "args": ["furry"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:44:28", "stage": "A1", "verb": "room", "args": ["furry"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 123, "total": 123, "refused": null}
+{"t": "2026-10-06T12:44:29", "stage": "A1", "verb": "when", "args": ["furry"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:44:32", "stage": "A1", "verb": "forest", "args": ["furry"], "opts": {}, "offset": 11, "limit": 330, "lines": 330, "total": 636, "refused": null}
+{"t": "2026-10-06T12:44:35", "stage": "A1", "verb": "forest", "args": ["furry"], "opts": {}, "offset": 341, "limit": 300, "lines": 295, "total": 636, "refused": null}
+{"t": "2026-10-06T12:44:38", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "furry"}, "offset": 0, "limit": 160, "lines": 160, "total": 315, "refused": null}
+{"t": "2026-10-06T12:44:42", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "furry"}, "offset": 160, "limit": 160, "lines": 155, "total": 315, "refused": null}
+{"t": "2026-10-06T12:44:45", "stage": "A1", "verb": "case", "args": ["furry"], "opts": {}, "offset": 0, "limit": 120, "lines": 75, "total": 75, "refused": null}
+{"t": "2026-10-06T12:44:45", "stage": "A1", "verb": "brief", "args": ["furry"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 153, "refused": null}
+{"t": "2026-10-06T12:44:45", "stage": "A1", "verb": "canvas", "args": ["furry"], "opts": {}, "offset": 0, "limit": 200, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:45:02", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "furry"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:45:08", "stage": "A1", "verb": "log", "args": ["opened duckgame"], "opts": {"kind": "opened", "ids": "duckgame"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:45:09", "stage": "A1", "verb": "room", "args": ["duckgame"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:45:09", "stage": "A1", "verb": "room", "args": ["duckgame"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 33, "total": 33, "refused": null}
+{"t": "2026-10-06T12:45:10", "stage": "A1", "verb": "when", "args": ["duckgame"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:45:15", "stage": "A1", "verb": "forest", "args": ["duckgame"], "opts": {}, "offset": 11, "limit": 200, "lines": 98, "total": 109, "refused": null}
+{"t": "2026-10-06T12:45:16", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "duckgame"}, "offset": 0, "limit": 80, "lines": 69, "total": 69, "refused": null}
+{"t": "2026-10-06T12:45:19", "stage": "A1", "verb": "case", "args": ["duckgame"], "opts": {}, "offset": 0, "limit": 120, "lines": 61, "total": 61, "refused": null}
+{"t": "2026-10-06T12:45:19", "stage": "A1", "verb": "brief", "args": ["duckgame"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 101, "refused": null}
+{"t": "2026-10-06T12:45:20", "stage": "A1", "verb": "canvas", "args": ["duckgame"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:45:33", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "duckgame"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:45:37", "stage": "A1", "verb": "log", "args": ["opened egypt"], "opts": {"kind": "opened", "ids": "egypt"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:45:38", "stage": "A1", "verb": "room", "args": ["egypt"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:45:38", "stage": "A1", "verb": "room", "args": ["egypt"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 20, "total": 20, "refused": null}
+{"t": "2026-10-06T12:45:39", "stage": "A1", "verb": "when", "args": ["egypt"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:45:42", "stage": "A1", "verb": "forest", "args": ["egypt"], "opts": {}, "offset": 11, "limit": 100, "lines": 37, "total": 48, "refused": null}
+{"t": "2026-10-06T12:45:43", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "egypt"}, "offset": 0, "limit": 40, "lines": 28, "total": 28, "refused": null}
+{"t": "2026-10-06T12:45:43", "stage": "A1", "verb": "case", "args": ["egypt"], "opts": {}, "offset": 0, "limit": 120, "lines": 57, "total": 57, "refused": null}
+{"t": "2026-10-06T12:45:43", "stage": "A1", "verb": "brief", "args": ["egypt"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 91, "refused": null}
+{"t": "2026-10-06T12:45:43", "stage": "A1", "verb": "canvas", "args": ["egypt"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:45:56", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "egypt"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:45:58", "stage": "A1", "verb": "log", "args": ["opened riskofrain"], "opts": {"kind": "opened", "ids": "riskofrain"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:45:59", "stage": "A1", "verb": "room", "args": ["riskofrain"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:45:59", "stage": "A1", "verb": "room", "args": ["riskofrain"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 20, "total": 20, "refused": null}
+{"t": "2026-10-06T12:46:00", "stage": "A1", "verb": "when", "args": ["riskofrain"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:46:04", "stage": "A1", "verb": "forest", "args": ["riskofrain"], "opts": {}, "offset": 11, "limit": 100, "lines": 30, "total": 41, "refused": null}
+{"t": "2026-10-06T12:46:04", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "riskofrain"}, "offset": 0, "limit": 40, "lines": 24, "total": 24, "refused": null}
+{"t": "2026-10-06T12:46:04", "stage": "A1", "verb": "case", "args": ["riskofrain"], "opts": {}, "offset": 0, "limit": 120, "lines": 53, "total": 53, "refused": null}
+{"t": "2026-10-06T12:46:05", "stage": "A1", "verb": "brief", "args": ["riskofrain"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 117, "refused": null}
+{"t": "2026-10-06T12:46:05", "stage": "A1", "verb": "canvas", "args": ["riskofrain"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:46:16", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "riskofrain"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:46:18", "stage": "A1", "verb": "log", "args": ["opened flashtv"], "opts": {"kind": "opened", "ids": "flashtv"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:46:18", "stage": "A1", "verb": "room", "args": ["flashtv"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:46:19", "stage": "A1", "verb": "room", "args": ["flashtv"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 83, "total": 83, "refused": null}
+{"t": "2026-10-06T12:46:19", "stage": "A1", "verb": "when", "args": ["flashtv"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:46:23", "stage": "A1", "verb": "forest", "args": ["flashtv"], "opts": {}, "offset": 11, "limit": 330, "lines": 334, "total": 467, "refused": null}
+{"t": "2026-10-06T12:46:26", "stage": "A1", "verb": "forest", "args": ["flashtv"], "opts": {}, "offset": 11, "limit": 240, "lines": 251, "total": 467, "refused": null}
+{"t": "2026-10-06T12:46:28", "stage": "A1", "verb": "forest", "args": ["flashtv"], "opts": {}, "offset": 262, "limit": 210, "lines": 205, "total": 467, "refused": null}
+{"t": "2026-10-06T12:46:33", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "flashtv"}, "offset": 0, "limit": 120, "lines": 120, "total": 230, "refused": null}
+{"t": "2026-10-06T12:46:37", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "flashtv"}, "offset": 120, "limit": 120, "lines": 110, "total": 230, "refused": null}
+{"t": "2026-10-06T12:46:40", "stage": "A1", "verb": "case", "args": ["flashtv"], "opts": {}, "offset": 0, "limit": 120, "lines": 87, "total": 87, "refused": null}
+{"t": "2026-10-06T12:46:40", "stage": "A1", "verb": "brief", "args": ["flashtv"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 151, "refused": null}
+{"t": "2026-10-06T12:46:40", "stage": "A1", "verb": "canvas", "args": ["flashtv"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:46:54", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "flashtv"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:46:57", "stage": "A1", "verb": "log", "args": ["opened homestuck"], "opts": {"kind": "opened", "ids": "homestuck"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:46:58", "stage": "A1", "verb": "room", "args": ["homestuck"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:46:58", "stage": "A1", "verb": "room", "args": ["homestuck"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 290, "total": 290, "refused": null}
+{"t": "2026-10-06T12:46:59", "stage": "A1", "verb": "when", "args": ["homestuck"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:47:06", "stage": "A1", "verb": "room", "args": ["homestuck"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 290, "total": 290, "refused": null}
+{"t": "2026-10-06T12:47:07", "stage": "A1", "verb": "when", "args": ["homestuck"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:47:10", "stage": "A1", "verb": "forest", "args": ["homestuck"], "opts": {}, "offset": 11, "limit": 280, "lines": 282, "total": 1074, "refused": null}
+{"t": "2026-10-06T12:47:15", "stage": "A1", "verb": "forest", "args": ["homestuck"], "opts": {}, "offset": 293, "limit": 270, "lines": 271, "total": 1074, "refused": null}
+{"t": "2026-10-06T12:47:18", "stage": "A1", "verb": "forest", "args": ["homestuck"], "opts": {}, "offset": 564, "limit": 260, "lines": 263, "total": 1074, "refused": null}
+{"t": "2026-10-06T12:47:20", "stage": "A1", "verb": "forest", "args": ["homestuck"], "opts": {}, "offset": 827, "limit": 250, "lines": 247, "total": 1074, "refused": null}
+{"t": "2026-10-06T12:47:25", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "homestuck"}, "offset": 0, "limit": 155, "lines": 155, "total": 304, "refused": null}
+{"t": "2026-10-06T12:47:29", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "homestuck"}, "offset": 155, "limit": 155, "lines": 149, "total": 304, "refused": null}
+{"t": "2026-10-06T12:47:32", "stage": "A1", "verb": "case", "args": ["homestuck"], "opts": {}, "offset": 0, "limit": 120, "lines": 77, "total": 77, "refused": null}
+{"t": "2026-10-06T12:47:32", "stage": "A1", "verb": "brief", "args": ["homestuck"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 157, "refused": null}
+{"t": "2026-10-06T12:47:32", "stage": "A1", "verb": "canvas", "args": ["homestuck"], "opts": {}, "offset": 0, "limit": 200, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:47:48", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "homestuck"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:48:34", "stage": "A1", "verb": "log", "args": ["keep seeing, third time: rooms whose artwork the atlas dates from hour 1 though the room's first call comes a day or more later (tokyo, morrowind, witcher, heyyea, riskofrain); the room joins, keeps or reports work begun elsewhere. Also third time: organizing goes on after h73 on successor canvases (greyblob, megaman, homestuck)."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:49:13", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:49:17", "stage": "A1", "verb": "log", "args": ["opened ukraine"], "opts": {"kind": "opened", "ids": "ukraine"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:49:18", "stage": "A1", "verb": "room", "args": ["ukraine"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:49:18", "stage": "A1", "verb": "room", "args": ["ukraine"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 51, "total": 51, "refused": null}
+{"t": "2026-10-06T12:49:19", "stage": "A1", "verb": "when", "args": ["ukraine"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:49:19", "stage": "A1", "verb": "forest", "args": ["ukraine"], "opts": {}, "offset": 11, "limit": 250, "lines": 169, "total": 180, "refused": null}
+{"t": "2026-10-06T12:49:23", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "ukraine"}, "offset": 0, "limit": 60, "lines": 52, "total": 52, "refused": null}
+{"t": "2026-10-06T12:49:23", "stage": "A1", "verb": "case", "args": ["ukraine"], "opts": {}, "offset": 0, "limit": 120, "lines": 63, "total": 63, "refused": null}
+{"t": "2026-10-06T12:49:23", "stage": "A1", "verb": "brief", "args": ["ukraine"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 119, "refused": null}
+{"t": "2026-10-06T12:49:23", "stage": "A1", "verb": "canvas", "args": ["ukraine"], "opts": {}, "offset": 0, "limit": 200, "lines": 17, "total": 17, "refused": null}
+{"t": "2026-10-06T12:49:35", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "ukraine"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:49:37", "stage": "A1", "verb": "log", "args": ["opened ik_ihe"], "opts": {"kind": "opened", "ids": "ik_ihe"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:49:38", "stage": "A1", "verb": "room", "args": ["ik_ihe"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:49:38", "stage": "A1", "verb": "room", "args": ["ik_ihe"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 19, "total": 19, "refused": null}
+{"t": "2026-10-06T12:49:39", "stage": "A1", "verb": "when", "args": ["ik_ihe"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:49:42", "stage": "A1", "verb": "forest", "args": ["ik_ihe"], "opts": {}, "offset": 11, "limit": 60, "lines": 21, "total": 32, "refused": null}
+{"t": "2026-10-06T12:49:43", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "ik_ihe"}, "offset": 0, "limit": 20, "lines": 16, "total": 16, "refused": null}
+{"t": "2026-10-06T12:49:43", "stage": "A1", "verb": "case", "args": ["ik_ihe"], "opts": {}, "offset": 0, "limit": 120, "lines": 59, "total": 59, "refused": null}
+{"t": "2026-10-06T12:49:43", "stage": "A1", "verb": "brief", "args": ["ik_ihe"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 101, "refused": null}
+{"t": "2026-10-06T12:49:43", "stage": "A1", "verb": "canvas", "args": ["ik_ihe"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:49:54", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "ik_ihe"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:49:56", "stage": "A1", "verb": "log", "args": ["opened churchofhelix"], "opts": {"kind": "opened", "ids": "churchofhelix"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:49:57", "stage": "A1", "verb": "room", "args": ["churchofhelix"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:49:57", "stage": "A1", "verb": "room", "args": ["churchofhelix"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:49:58", "stage": "A1", "verb": "when", "args": ["churchofhelix"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:49:58", "stage": "A1", "verb": "forest", "args": ["churchofhelix"], "opts": {}, "offset": 11, "limit": 40, "lines": 4, "total": 15, "refused": null}
+{"t": "2026-10-06T12:49:58", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "churchofhelix"}, "offset": 0, "limit": 10, "lines": 3, "total": 3, "refused": null}
+{"t": "2026-10-06T12:49:59", "stage": "A1", "verb": "case", "args": ["churchofhelix"], "opts": {}, "offset": 0, "limit": 120, "lines": 39, "total": 39, "refused": null}
+{"t": "2026-10-06T12:49:59", "stage": "A1", "verb": "brief", "args": ["churchofhelix"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-06T12:49:59", "stage": "A1", "verb": "canvas", "args": ["churchofhelix"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:50:07", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "churchofhelix"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:50:07", "stage": "A1", "verb": "log", "args": ["opened unitedkingdom"], "opts": {"kind": "opened", "ids": "unitedkingdom"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:50:08", "stage": "A1", "verb": "room", "args": ["unitedkingdom"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:50:08", "stage": "A1", "verb": "room", "args": ["unitedkingdom"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 117, "total": 117, "refused": null}
+{"t": "2026-10-06T12:50:09", "stage": "A1", "verb": "when", "args": ["unitedkingdom"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:50:15", "stage": "A1", "verb": "forest", "args": ["unitedkingdom"], "opts": {}, "offset": 11, "limit": 260, "lines": 260, "total": 598, "refused": null}
+{"t": "2026-10-06T12:50:17", "stage": "A1", "verb": "forest", "args": ["unitedkingdom"], "opts": {}, "offset": 271, "limit": 330, "lines": 327, "total": 598, "refused": null}
+{"t": "2026-10-06T12:50:22", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "unitedkingdom"}, "offset": 0, "limit": 150, "lines": 150, "total": 292, "refused": null}
+{"t": "2026-10-06T12:50:25", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "unitedkingdom"}, "offset": 150, "limit": 150, "lines": 142, "total": 292, "refused": null}
+{"t": "2026-10-06T12:50:28", "stage": "A1", "verb": "case", "args": ["unitedkingdom"], "opts": {}, "offset": 0, "limit": 120, "lines": 77, "total": 77, "refused": null}
+{"t": "2026-10-06T12:50:28", "stage": "A1", "verb": "brief", "args": ["unitedkingdom"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 133, "refused": null}
+{"t": "2026-10-06T12:50:28", "stage": "A1", "verb": "canvas", "args": ["unitedkingdom"], "opts": {}, "offset": 0, "limit": 200, "lines": 15, "total": 15, "refused": null}
+{"t": "2026-10-06T12:50:43", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "unitedkingdom"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:50:48", "stage": "A1", "verb": "log", "args": ["opened detroitredwings"], "opts": {"kind": "opened", "ids": "detroitredwings"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:50:48", "stage": "A1", "verb": "room", "args": ["detroitredwings"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:50:49", "stage": "A1", "verb": "room", "args": ["detroitredwings"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 44, "total": 44, "refused": null}
+{"t": "2026-10-06T12:50:49", "stage": "A1", "verb": "when", "args": ["detroitredwings"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:50:53", "stage": "A1", "verb": "forest", "args": ["detroitredwings"], "opts": {}, "offset": 11, "limit": 300, "lines": 310, "total": 489, "refused": null}
+{"t": "2026-10-06T12:50:56", "stage": "A1", "verb": "forest", "args": ["detroitredwings"], "opts": {}, "offset": 321, "limit": 170, "lines": 168, "total": 489, "refused": null}
+{"t": "2026-10-06T12:51:00", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "detroitredwings"}, "offset": 0, "limit": 240, "lines": 230, "total": 230, "refused": null}
+{"t": "2026-10-06T12:51:03", "stage": "A1", "verb": "case", "args": ["detroitredwings"], "opts": {}, "offset": 0, "limit": 120, "lines": 77, "total": 77, "refused": null}
+{"t": "2026-10-06T12:51:03", "stage": "A1", "verb": "brief", "args": ["detroitredwings"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 169, "refused": null}
+{"t": "2026-10-06T12:51:03", "stage": "A1", "verb": "canvas", "args": ["detroitredwings"], "opts": {}, "offset": 0, "limit": 200, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:51:17", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "detroitredwings"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:51:23", "stage": "A1", "verb": "log", "args": ["opened terraria"], "opts": {"kind": "opened", "ids": "terraria"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:51:23", "stage": "A1", "verb": "room", "args": ["terraria"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:51:24", "stage": "A1", "verb": "room", "args": ["terraria"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 53, "total": 53, "refused": null}
+{"t": "2026-10-06T12:51:24", "stage": "A1", "verb": "when", "args": ["terraria"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:51:28", "stage": "A1", "verb": "forest", "args": ["terraria"], "opts": {}, "offset": 11, "limit": 280, "lines": 286, "total": 309, "refused": null}
+{"t": "2026-10-06T12:51:31", "stage": "A1", "verb": "forest", "args": ["terraria"], "opts": {}, "offset": 297, "limit": 15, "lines": 12, "total": 309, "refused": null}
+{"t": "2026-10-06T12:51:32", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "terraria"}, "offset": 0, "limit": 160, "lines": 156, "total": 156, "refused": null}
+{"t": "2026-10-06T12:51:35", "stage": "A1", "verb": "case", "args": ["terraria"], "opts": {}, "offset": 0, "limit": 120, "lines": 67, "total": 67, "refused": null}
+{"t": "2026-10-06T12:51:35", "stage": "A1", "verb": "brief", "args": ["terraria"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 181, "refused": null}
+{"t": "2026-10-06T12:51:35", "stage": "A1", "verb": "canvas", "args": ["terraria"], "opts": {}, "offset": 0, "limit": 200, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:51:48", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "terraria"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:51:51", "stage": "A1", "verb": "log", "args": ["opened calgaryflames"], "opts": {"kind": "opened", "ids": "calgaryflames"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:51:52", "stage": "A1", "verb": "room", "args": ["calgaryflames"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:51:52", "stage": "A1", "verb": "room", "args": ["calgaryflames"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 56, "total": 56, "refused": null}
+{"t": "2026-10-06T12:51:53", "stage": "A1", "verb": "when", "args": ["calgaryflames"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:51:57", "stage": "A1", "verb": "forest", "args": ["calgaryflames"], "opts": {}, "offset": 11, "limit": 300, "lines": 302, "total": 461, "refused": null}
+{"t": "2026-10-06T12:52:00", "stage": "A1", "verb": "forest", "args": ["calgaryflames"], "opts": {}, "offset": 313, "limit": 160, "lines": 148, "total": 461, "refused": null}
+{"t": "2026-10-06T12:52:04", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "calgaryflames"}, "offset": 0, "limit": 300, "lines": 296, "total": 296, "refused": null}
+{"t": "2026-10-06T12:52:08", "stage": "A1", "verb": "case", "args": ["calgaryflames"], "opts": {}, "offset": 0, "limit": 120, "lines": 77, "total": 77, "refused": null}
+{"t": "2026-10-06T12:52:08", "stage": "A1", "verb": "brief", "args": ["calgaryflames"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 157, "refused": null}
+{"t": "2026-10-06T12:52:08", "stage": "A1", "verb": "canvas", "args": ["calgaryflames"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:52:22", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "calgaryflames"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:52:26", "stage": "A1", "verb": "log", "args": ["opened austria"], "opts": {"kind": "opened", "ids": "austria"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:52:27", "stage": "A1", "verb": "room", "args": ["austria"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:52:28", "stage": "A1", "verb": "room", "args": ["austria"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 58, "total": 58, "refused": null}
+{"t": "2026-10-06T12:52:28", "stage": "A1", "verb": "when", "args": ["austria"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:52:31", "stage": "A1", "verb": "forest", "args": ["austria"], "opts": {}, "offset": 11, "limit": 280, "lines": 246, "total": 257, "refused": null}
+{"t": "2026-10-06T12:52:36", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "austria"}, "offset": 0, "limit": 140, "lines": 132, "total": 132, "refused": null}
+{"t": "2026-10-06T12:52:36", "stage": "A1", "verb": "case", "args": ["austria"], "opts": {}, "offset": 0, "limit": 120, "lines": 67, "total": 67, "refused": null}
+{"t": "2026-10-06T12:52:36", "stage": "A1", "verb": "brief", "args": ["austria"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 153, "refused": null}
+{"t": "2026-10-06T12:52:36", "stage": "A1", "verb": "canvas", "args": ["austria"], "opts": {}, "offset": 0, "limit": 200, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:52:49", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "austria"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:52:53", "stage": "A1", "verb": "log", "args": ["opened jerma985"], "opts": {"kind": "opened", "ids": "jerma985"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:52:54", "stage": "A1", "verb": "room", "args": ["jerma985"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:52:54", "stage": "A1", "verb": "room", "args": ["jerma985"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 39, "total": 39, "refused": null}
+{"t": "2026-10-06T12:52:55", "stage": "A1", "verb": "when", "args": ["jerma985"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:52:58", "stage": "A1", "verb": "forest", "args": ["jerma985"], "opts": {}, "offset": 11, "limit": 220, "lines": 160, "total": 171, "refused": null}
+{"t": "2026-10-06T12:52:59", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "jerma985"}, "offset": 0, "limit": 100, "lines": 92, "total": 92, "refused": null}
+{"t": "2026-10-06T12:53:02", "stage": "A1", "verb": "case", "args": ["jerma985"], "opts": {}, "offset": 0, "limit": 120, "lines": 61, "total": 61, "refused": null}
+{"t": "2026-10-06T12:53:02", "stage": "A1", "verb": "brief", "args": ["jerma985"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 141, "refused": null}
+{"t": "2026-10-06T12:53:02", "stage": "A1", "verb": "canvas", "args": ["jerma985"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:53:15", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "jerma985"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:53:19", "stage": "A1", "verb": "log", "args": ["opened littlewitchacademia"], "opts": {"kind": "opened", "ids": "littlewitchacademia"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:53:19", "stage": "A1", "verb": "room", "args": ["littlewitchacademia"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:53:20", "stage": "A1", "verb": "room", "args": ["littlewitchacademia"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 25, "total": 25, "refused": null}
+{"t": "2026-10-06T12:53:21", "stage": "A1", "verb": "when", "args": ["littlewitchacademia"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:53:24", "stage": "A1", "verb": "forest", "args": ["littlewitchacademia"], "opts": {}, "offset": 11, "limit": 150, "lines": 89, "total": 100, "refused": null}
+{"t": "2026-10-06T12:53:25", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "littlewitchacademia"}, "offset": 0, "limit": 70, "lines": 64, "total": 64, "refused": null}
+{"t": "2026-10-06T12:53:29", "stage": "A1", "verb": "case", "args": ["littlewitchacademia"], "opts": {}, "offset": 0, "limit": 120, "lines": 63, "total": 63, "refused": null}
+{"t": "2026-10-06T12:53:29", "stage": "A1", "verb": "brief", "args": ["littlewitchacademia"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 131, "refused": null}
+{"t": "2026-10-06T12:53:29", "stage": "A1", "verb": "canvas", "args": ["littlewitchacademia"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:53:40", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "littlewitchacademia"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:53:43", "stage": "A1", "verb": "log", "args": ["opened necrodancer"], "opts": {"kind": "opened", "ids": "necrodancer"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:53:44", "stage": "A1", "verb": "room", "args": ["necrodancer"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:53:44", "stage": "A1", "verb": "room", "args": ["necrodancer"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 33, "total": 33, "refused": null}
+{"t": "2026-10-06T12:53:45", "stage": "A1", "verb": "when", "args": ["necrodancer"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:53:49", "stage": "A1", "verb": "forest", "args": ["necrodancer"], "opts": {}, "offset": 11, "limit": 160, "lines": 144, "total": 155, "refused": null}
+{"t": "2026-10-06T12:53:49", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "necrodancer"}, "offset": 0, "limit": 100, "lines": 98, "total": 98, "refused": null}
+{"t": "2026-10-06T12:53:53", "stage": "A1", "verb": "case", "args": ["necrodancer"], "opts": {}, "offset": 0, "limit": 120, "lines": 57, "total": 57, "refused": null}
+{"t": "2026-10-06T12:53:53", "stage": "A1", "verb": "brief", "args": ["necrodancer"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 151, "refused": null}
+{"t": "2026-10-06T12:53:53", "stage": "A1", "verb": "canvas", "args": ["necrodancer"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:53:53", "stage": "A1", "verb": "canvas", "args": ["necrodancer"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:54:06", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "necrodancer"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:54:10", "stage": "A1", "verb": "log", "args": ["opened httyd"], "opts": {"kind": "opened", "ids": "httyd"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:54:10", "stage": "A1", "verb": "room", "args": ["httyd"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:54:11", "stage": "A1", "verb": "room", "args": ["httyd"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 27, "total": 27, "refused": null}
+{"t": "2026-10-06T12:54:11", "stage": "A1", "verb": "when", "args": ["httyd"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:54:18", "stage": "A1", "verb": "forest", "args": ["httyd"], "opts": {}, "offset": 11, "limit": 100, "lines": 62, "total": 73, "refused": null}
+{"t": "2026-10-06T12:54:19", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "httyd"}, "offset": 0, "limit": 60, "lines": 60, "total": 63, "refused": null}
+{"t": "2026-10-06T12:54:23", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "httyd"}, "offset": 60, "limit": 10, "lines": 3, "total": 63, "refused": null}
+{"t": "2026-10-06T12:54:23", "stage": "A1", "verb": "case", "args": ["httyd"], "opts": {}, "offset": 0, "limit": 120, "lines": 55, "total": 55, "refused": null}
+{"t": "2026-10-06T12:54:23", "stage": "A1", "verb": "brief", "args": ["httyd"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 119, "refused": null}
+{"t": "2026-10-06T12:54:24", "stage": "A1", "verb": "canvas", "args": ["httyd"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:54:24", "stage": "A1", "verb": "canvas", "args": ["httyd"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:54:35", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "httyd"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:54:37", "stage": "A1", "verb": "log", "args": ["opened liverpoolfc"], "opts": {"kind": "opened", "ids": "liverpoolfc"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:54:38", "stage": "A1", "verb": "room", "args": ["liverpoolfc"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:54:38", "stage": "A1", "verb": "room", "args": ["liverpoolfc"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 54, "total": 54, "refused": null}
+{"t": "2026-10-06T12:54:39", "stage": "A1", "verb": "when", "args": ["liverpoolfc"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:54:42", "stage": "A1", "verb": "forest", "args": ["liverpoolfc"], "opts": {}, "offset": 11, "limit": 260, "lines": 309, "total": 326, "refused": null}
+{"t": "2026-10-06T12:54:48", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "liverpoolfc"}, "offset": 0, "limit": 200, "lines": 196, "total": 196, "refused": null}
+{"t": "2026-10-06T12:54:48", "stage": "A1", "verb": "case", "args": ["liverpoolfc"], "opts": {}, "offset": 0, "limit": 120, "lines": 69, "total": 69, "refused": null}
+{"t": "2026-10-06T12:54:48", "stage": "A1", "verb": "brief", "args": ["liverpoolfc"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 159, "refused": null}
+{"t": "2026-10-06T12:54:48", "stage": "A1", "verb": "canvas", "args": ["liverpoolfc"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:54:48", "stage": "A1", "verb": "canvas", "args": ["liverpoolfc"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:55:01", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "liverpoolfc"}, "offset": 0, "limit": 300, "lines": 196, "total": 196, "refused": null}
+{"t": "2026-10-06T12:56:12", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:56:16", "stage": "A1", "verb": "diary", "args": [], "opts": {"last": 5}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:56:21", "stage": "A1", "verb": "log", "args": ["compacted; head reconciled"], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:56:21", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "liverpoolfc"}, "offset": 183, "limit": 14, "lines": 13, "total": 196, "refused": null}
+{"t": "2026-10-06T12:56:26", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "liverpoolfc"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:56:26", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:56:58", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "liverpoolfc"}, "offset": 0, "limit": 300, "lines": 196, "total": 196, "refused": null}
+{"t": "2026-10-06T12:57:07", "stage": "A1", "verb": "log", "args": ["opened monstercat"], "opts": {"kind": "opened", "ids": "monstercat"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:57:08", "stage": "A1", "verb": "room", "args": ["monstercat"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:57:08", "stage": "A1", "verb": "room", "args": ["monstercat"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 200, "total": 200, "refused": null}
+{"t": "2026-10-06T12:57:09", "stage": "A1", "verb": "when", "args": ["monstercat"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:57:13", "stage": "A1", "verb": "forest", "args": ["monstercat"], "opts": {}, "offset": 11, "limit": 400, "lines": 400, "total": 793, "refused": null}
+{"t": "2026-10-06T12:57:17", "stage": "A1", "verb": "forest", "args": ["monstercat"], "opts": {}, "offset": 11, "limit": 400, "lines": 400, "total": 793, "refused": null}
+{"t": "2026-10-06T12:57:21", "stage": "A1", "verb": "forest", "args": ["monstercat"], "opts": {}, "offset": 411, "limit": 400, "lines": 382, "total": 793, "refused": null}
+{"t": "2026-10-06T12:57:25", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "monstercat"}, "offset": 0, "limit": 260, "lines": 250, "total": 250, "refused": null}
+{"t": "2026-10-06T12:57:29", "stage": "A1", "verb": "case", "args": ["monstercat"], "opts": {}, "offset": 0, "limit": 120, "lines": 79, "total": 79, "refused": null}
+{"t": "2026-10-06T12:57:29", "stage": "A1", "verb": "brief", "args": ["monstercat"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 157, "refused": null}
+{"t": "2026-10-06T12:57:29", "stage": "A1", "verb": "canvas", "args": ["monstercat"], "opts": {}, "offset": 0, "limit": 200, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:57:45", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "monstercat"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:57:45", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:57:55", "stage": "A1", "verb": "log", "args": ["opened madokamagica"], "opts": {"kind": "opened", "ids": "madokamagica"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:57:56", "stage": "A1", "verb": "room", "args": ["madokamagica"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:57:56", "stage": "A1", "verb": "room", "args": ["madokamagica"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 62, "total": 62, "refused": null}
+{"t": "2026-10-06T12:57:57", "stage": "A1", "verb": "when", "args": ["madokamagica"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:58:00", "stage": "A1", "verb": "forest", "args": ["madokamagica"], "opts": {}, "offset": 11, "limit": 400, "lines": 268, "total": 279, "refused": null}
+{"t": "2026-10-06T12:58:04", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "madokamagica"}, "offset": 0, "limit": 120, "lines": 110, "total": 110, "refused": null}
+{"t": "2026-10-06T12:58:07", "stage": "A1", "verb": "case", "args": ["madokamagica"], "opts": {}, "offset": 0, "limit": 120, "lines": 61, "total": 61, "refused": null}
+{"t": "2026-10-06T12:58:07", "stage": "A1", "verb": "brief", "args": ["madokamagica"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 197, "refused": null}
+{"t": "2026-10-06T12:58:07", "stage": "A1", "verb": "canvas", "args": ["madokamagica"], "opts": {}, "offset": 0, "limit": 200, "lines": 21, "total": 21, "refused": null}
+{"t": "2026-10-06T12:58:22", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "madokamagica"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:58:22", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:58:27", "stage": "A1", "verb": "log", "args": ["opened bahrain"], "opts": {"kind": "opened", "ids": "bahrain"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:58:28", "stage": "A1", "verb": "room", "args": ["bahrain"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:58:28", "stage": "A1", "verb": "room", "args": ["bahrain"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 28, "total": 28, "refused": null}
+{"t": "2026-10-06T12:58:29", "stage": "A1", "verb": "when", "args": ["bahrain"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:58:33", "stage": "A1", "verb": "forest", "args": ["bahrain"], "opts": {}, "offset": 11, "limit": 200, "lines": 81, "total": 92, "refused": null}
+{"t": "2026-10-06T12:58:33", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "bahrain"}, "offset": 0, "limit": 60, "lines": 47, "total": 47, "refused": null}
+{"t": "2026-10-06T12:58:37", "stage": "A1", "verb": "case", "args": ["bahrain"], "opts": {}, "offset": 0, "limit": 60, "lines": 47, "total": 47, "refused": null}
+{"t": "2026-10-06T12:58:37", "stage": "A1", "verb": "canvas", "args": ["bahrain"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:58:49", "stage": "A1", "verb": "brief", "args": ["bahrain"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 127, "refused": null}
+{"t": "2026-10-06T12:58:49", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "bahrain"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:58:49", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:58:54", "stage": "A1", "verb": "log", "args": ["opened mamamoo"], "opts": {"kind": "opened", "ids": "mamamoo"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:58:55", "stage": "A1", "verb": "room", "args": ["mamamoo"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:58:55", "stage": "A1", "verb": "room", "args": ["mamamoo"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:58:56", "stage": "A1", "verb": "when", "args": ["mamamoo"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:58:56", "stage": "A1", "verb": "forest", "args": ["mamamoo"], "opts": {}, "offset": 11, "limit": 300, "lines": 11, "total": 22, "refused": null}
+{"t": "2026-10-06T12:59:00", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "mamamoo"}, "offset": 0, "limit": 20, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:59:00", "stage": "A1", "verb": "case", "args": ["mamamoo"], "opts": {}, "offset": 0, "limit": 120, "lines": 47, "total": 47, "refused": null}
+{"t": "2026-10-06T12:59:00", "stage": "A1", "verb": "brief", "args": ["mamamoo"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 95, "refused": null}
+{"t": "2026-10-06T12:59:01", "stage": "A1", "verb": "canvas", "args": ["mamamoo"], "opts": {}, "offset": 0, "limit": 200, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T12:59:13", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "mamamoo"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:59:13", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:59:17", "stage": "A1", "verb": "log", "args": ["opened strangerthings"], "opts": {"kind": "opened", "ids": "strangerthings"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:59:17", "stage": "A1", "verb": "room", "args": ["strangerthings"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:59:18", "stage": "A1", "verb": "room", "args": ["strangerthings"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 34, "total": 34, "refused": null}
+{"t": "2026-10-06T12:59:19", "stage": "A1", "verb": "when", "args": ["strangerthings"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:59:19", "stage": "A1", "verb": "forest", "args": ["strangerthings"], "opts": {}, "offset": 11, "limit": 300, "lines": 171, "total": 182, "refused": null}
+{"t": "2026-10-06T12:59:23", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "strangerthings"}, "offset": 0, "limit": 160, "lines": 148, "total": 148, "refused": null}
+{"t": "2026-10-06T12:59:27", "stage": "A1", "verb": "case", "args": ["strangerthings"], "opts": {}, "offset": 0, "limit": 50, "lines": 50, "total": 57, "refused": null}
+{"t": "2026-10-06T12:59:27", "stage": "A1", "verb": "brief", "args": ["strangerthings"], "opts": {}, "offset": 0, "limit": 10, "lines": 10, "total": 119, "refused": null}
+{"t": "2026-10-06T12:59:27", "stage": "A1", "verb": "canvas", "args": ["strangerthings"], "opts": {}, "offset": 0, "limit": 200, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T12:59:40", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "strangerthings"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:59:40", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:59:51", "stage": "A1", "verb": "log", "args": ["opened babymetal"], "opts": {"kind": "opened", "ids": "babymetal"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T12:59:51", "stage": "A1", "verb": "room", "args": ["babymetal"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T12:59:52", "stage": "A1", "verb": "room", "args": ["babymetal"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 56, "total": 56, "refused": null}
+{"t": "2026-10-06T12:59:52", "stage": "A1", "verb": "when", "args": ["babymetal"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T12:59:53", "stage": "A1", "verb": "forest", "args": ["babymetal"], "opts": {}, "offset": 11, "limit": 300, "lines": 313, "total": 446, "refused": null}
+{"t": "2026-10-06T12:59:56", "stage": "A1", "verb": "forest", "args": ["babymetal"], "opts": {}, "offset": 324, "limit": 200, "lines": 122, "total": 446, "refused": null}
+{"t": "2026-10-06T13:00:01", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "babymetal"}, "offset": 0, "limit": 240, "lines": 240, "total": 244, "refused": null}
+{"t": "2026-10-06T13:00:05", "stage": "A1", "verb": "case", "args": ["babymetal"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 69, "refused": null}
+{"t": "2026-10-06T13:00:06", "stage": "A1", "verb": "brief", "args": ["babymetal"], "opts": {}, "offset": 0, "limit": 6, "lines": 6, "total": 143, "refused": null}
+{"t": "2026-10-06T13:00:06", "stage": "A1", "verb": "canvas", "args": ["babymetal"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:00:20", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "babymetal"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:00:20", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:00:27", "stage": "A1", "verb": "log", "args": ["opened auburn"], "opts": {"kind": "opened", "ids": "auburn"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:00:28", "stage": "A1", "verb": "room", "args": ["auburn"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:00:28", "stage": "A1", "verb": "room", "args": ["auburn"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 19, "total": 19, "refused": null}
+{"t": "2026-10-06T13:00:29", "stage": "A1", "verb": "when", "args": ["auburn"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:00:29", "stage": "A1", "verb": "forest", "args": ["auburn"], "opts": {}, "offset": 11, "limit": 300, "lines": 55, "total": 66, "refused": null}
+{"t": "2026-10-06T13:00:34", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "auburn"}, "offset": 0, "limit": 60, "lines": 50, "total": 50, "refused": null}
+{"t": "2026-10-06T13:00:34", "stage": "A1", "verb": "case", "args": ["auburn"], "opts": {}, "offset": 0, "limit": 30, "lines": 30, "total": 55, "refused": null}
+{"t": "2026-10-06T13:00:34", "stage": "A1", "verb": "brief", "args": ["auburn"], "opts": {}, "offset": 0, "limit": 5, "lines": 5, "total": 129, "refused": null}
+{"t": "2026-10-06T13:00:35", "stage": "A1", "verb": "canvas", "args": ["auburn"], "opts": {}, "offset": 0, "limit": 80, "lines": 15, "total": 15, "refused": null}
+{"t": "2026-10-06T13:00:49", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "auburn"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:00:49", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:00:56", "stage": "A1", "verb": "log", "args": ["opened PinkVomitMonster"], "opts": {"kind": "opened", "ids": "PinkVomitMonster"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:00:56", "stage": "A1", "verb": "room", "args": ["PinkVomitMonster"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:00:57", "stage": "A1", "verb": "room", "args": ["PinkVomitMonster"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 89, "total": 89, "refused": null}
+{"t": "2026-10-06T13:00:58", "stage": "A1", "verb": "when", "args": ["PinkVomitMonster"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:00:58", "stage": "A1", "verb": "forest", "args": ["PinkVomitMonster"], "opts": {}, "offset": 11, "limit": 300, "lines": 266, "total": 277, "refused": null}
+{"t": "2026-10-06T13:01:03", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "PinkVomitMonster"}, "offset": 0, "limit": 90, "lines": 79, "total": 79, "refused": null}
+{"t": "2026-10-06T13:01:03", "stage": "A1", "verb": "case", "args": ["PinkVomitMonster"], "opts": {}, "offset": 0, "limit": 30, "lines": 30, "total": 61, "refused": null}
+{"t": "2026-10-06T13:01:03", "stage": "A1", "verb": "brief", "args": ["PinkVomitMonster"], "opts": {}, "offset": 0, "limit": 5, "lines": 5, "total": 10, "refused": null}
+{"t": "2026-10-06T13:01:04", "stage": "A1", "verb": "canvas", "args": ["PinkVomitMonster"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:01:26", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "PinkVomitMonster"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:01:26", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:01:39", "stage": "A1", "verb": "log", "args": ["third time: treaties struck in Discord or chat and reported back to the thread as done (madokamagica, babymetal, PinkVomitMonster, mamamoo); moderators herd canvas talk into one thread (liverpoolfc, madokamagica, babymetal)"], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:01:39", "stage": "A1", "verb": "log", "args": ["opened the_pack"], "opts": {"kind": "opened", "ids": "the_pack"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:01:40", "stage": "A1", "verb": "room", "args": ["the_pack"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:01:40", "stage": "A1", "verb": "room", "args": ["the_pack"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 38, "total": 38, "refused": null}
+{"t": "2026-10-06T13:01:41", "stage": "A1", "verb": "when", "args": ["the_pack"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:01:44", "stage": "A1", "verb": "forest", "args": ["the_pack"], "opts": {}, "offset": 11, "limit": 300, "lines": 187, "total": 198, "refused": null}
+{"t": "2026-10-06T13:01:49", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "the_pack"}, "offset": 0, "limit": 120, "lines": 119, "total": 119, "refused": null}
+{"t": "2026-10-06T13:01:49", "stage": "A1", "verb": "case", "args": ["the_pack"], "opts": {}, "offset": 0, "limit": 30, "lines": 30, "total": 69, "refused": null}
+{"t": "2026-10-06T13:01:49", "stage": "A1", "verb": "brief", "args": ["the_pack"], "opts": {}, "offset": 0, "limit": 5, "lines": 5, "total": 109, "refused": null}
+{"t": "2026-10-06T13:01:50", "stage": "A1", "verb": "canvas", "args": ["the_pack"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:02:07", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "the_pack"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:02:08", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:02:11", "stage": "A1", "verb": "log", "args": ["opened anime"], "opts": {"kind": "opened", "ids": "anime"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:02:11", "stage": "A1", "verb": "room", "args": ["anime"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:02:12", "stage": "A1", "verb": "room", "args": ["anime"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 90, "total": 90, "refused": null}
+{"t": "2026-10-06T13:02:13", "stage": "A1", "verb": "when", "args": ["anime"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:02:16", "stage": "A1", "verb": "forest", "args": ["anime"], "opts": {}, "offset": 11, "limit": 500, "lines": 368, "total": 379, "refused": null}
+{"t": "2026-10-06T13:02:22", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "anime"}, "offset": 0, "limit": 220, "lines": 215, "total": 215, "refused": null}
+{"t": "2026-10-06T13:02:22", "stage": "A1", "verb": "case", "args": ["anime"], "opts": {}, "offset": 0, "limit": 30, "lines": 30, "total": 59, "refused": null}
+{"t": "2026-10-06T13:02:22", "stage": "A1", "verb": "brief", "args": ["anime"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 183, "refused": null}
+{"t": "2026-10-06T13:02:22", "stage": "A1", "verb": "canvas", "args": ["anime"], "opts": {}, "offset": 0, "limit": 80, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T13:02:43", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "anime"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:02:43", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:02:49", "stage": "A1", "verb": "log", "args": ["opened FloydVsVoid"], "opts": {"kind": "opened", "ids": "FloydVsVoid"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:02:50", "stage": "A1", "verb": "room", "args": ["FloydVsVoid"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:02:50", "stage": "A1", "verb": "room", "args": ["FloydVsVoid"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 158, "total": 158, "refused": null}
+{"t": "2026-10-06T13:02:51", "stage": "A1", "verb": "when", "args": ["FloydVsVoid"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:02:51", "stage": "A1", "verb": "forest", "args": ["FloydVsVoid"], "opts": {}, "offset": 11, "limit": 300, "lines": 300, "total": 550, "refused": null}
+{"t": "2026-10-06T13:02:55", "stage": "A1", "verb": "forest", "args": ["FloydVsVoid"], "opts": {}, "offset": 311, "limit": 260, "lines": 239, "total": 550, "refused": null}
+{"t": "2026-10-06T13:03:01", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "FloydVsVoid"}, "offset": 0, "limit": 210, "lines": 206, "total": 206, "refused": null}
+{"t": "2026-10-06T13:03:01", "stage": "A1", "verb": "case", "args": ["FloydVsVoid"], "opts": {}, "offset": 0, "limit": 30, "lines": 30, "total": 77, "refused": null}
+{"t": "2026-10-06T13:03:01", "stage": "A1", "verb": "brief", "args": ["FloydVsVoid"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 10, "refused": null}
+{"t": "2026-10-06T13:03:01", "stage": "A1", "verb": "canvas", "args": ["FloydVsVoid"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:03:20", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "FloydVsVoid"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:03:20", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:03:30", "stage": "A1", "verb": "log", "args": ["opened wales"], "opts": {"kind": "opened", "ids": "wales"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:03:31", "stage": "A1", "verb": "room", "args": ["wales"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:03:32", "stage": "A1", "verb": "room", "args": ["wales"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 62, "total": 62, "refused": null}
+{"t": "2026-10-06T13:03:32", "stage": "A1", "verb": "when", "args": ["wales"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:03:33", "stage": "A1", "verb": "forest", "args": ["wales"], "opts": {}, "offset": 11, "limit": 300, "lines": 189, "total": 200, "refused": null}
+{"t": "2026-10-06T13:03:38", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "wales"}, "offset": 0, "limit": 80, "lines": 73, "total": 73, "refused": null}
+{"t": "2026-10-06T13:03:38", "stage": "A1", "verb": "case", "args": ["wales"], "opts": {}, "offset": 0, "limit": 30, "lines": 30, "total": 69, "refused": null}
+{"t": "2026-10-06T13:03:38", "stage": "A1", "verb": "brief", "args": ["wales"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 119, "refused": null}
+{"t": "2026-10-06T13:03:38", "stage": "A1", "verb": "canvas", "args": ["wales"], "opts": {}, "offset": 0, "limit": 80, "lines": 23, "total": 23, "refused": null}
+{"t": "2026-10-06T13:03:51", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "wales"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:03:51", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:03:55", "stage": "A1", "verb": "log", "args": ["opened cfb"], "opts": {"kind": "opened", "ids": "cfb"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:03:55", "stage": "A1", "verb": "room", "args": ["cfb"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:03:56", "stage": "A1", "verb": "room", "args": ["cfb"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 162, "total": 162, "refused": null}
+{"t": "2026-10-06T13:03:57", "stage": "A1", "verb": "when", "args": ["cfb"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:03:57", "stage": "A1", "verb": "forest", "args": ["cfb"], "opts": {}, "offset": 11, "limit": 300, "lines": 305, "total": 1185, "refused": null}
+{"t": "2026-10-06T13:04:03", "stage": "A1", "verb": "forest", "args": ["cfb"], "opts": {}, "offset": 316, "limit": 450, "lines": 474, "total": 1185, "refused": null}
+{"t": "2026-10-06T13:04:07", "stage": "A1", "verb": "forest", "args": ["cfb"], "opts": {}, "offset": 766, "limit": 430, "lines": 419, "total": 1185, "refused": null}
+{"t": "2026-10-06T13:04:16", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "cfb"}, "offset": 0, "limit": 600, "lines": 560, "total": 560, "refused": null}
+{"t": "2026-10-06T13:04:16", "stage": "A1", "verb": "case", "args": ["cfb"], "opts": {}, "offset": 0, "limit": 30, "lines": 30, "total": 65, "refused": null}
+{"t": "2026-10-06T13:04:16", "stage": "A1", "verb": "brief", "args": ["cfb"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 161, "refused": null}
+{"t": "2026-10-06T13:04:16", "stage": "A1", "verb": "canvas", "args": ["cfb"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:04:46", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "cfb"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:04:46", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:04:56", "stage": "A1", "verb": "log", "args": ["opened watchmen"], "opts": {"kind": "opened", "ids": "watchmen"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:04:57", "stage": "A1", "verb": "room", "args": ["watchmen"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:04:57", "stage": "A1", "verb": "room", "args": ["watchmen"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:04:58", "stage": "A1", "verb": "when", "args": ["watchmen"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:04:59", "stage": "A1", "verb": "forest", "args": ["watchmen"], "opts": {}, "offset": 11, "limit": 200, "lines": 4, "total": 15, "refused": null}
+{"t": "2026-10-06T13:04:59", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "watchmen"}, "offset": 0, "limit": 30, "lines": 3, "total": 3, "refused": null}
+{"t": "2026-10-06T13:05:03", "stage": "A1", "verb": "case", "args": ["watchmen"], "opts": {}, "offset": 0, "limit": 30, "lines": 30, "total": 39, "refused": null}
+{"t": "2026-10-06T13:05:03", "stage": "A1", "verb": "brief", "args": ["watchmen"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 67, "refused": null}
+{"t": "2026-10-06T13:05:03", "stage": "A1", "verb": "canvas", "args": ["watchmen"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:05:13", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "watchmen"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:05:13", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:05:16", "stage": "A1", "verb": "log", "args": ["opened ProfessorLayton"], "opts": {"kind": "opened", "ids": "ProfessorLayton"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:05:17", "stage": "A1", "verb": "room", "args": ["ProfessorLayton"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:05:18", "stage": "A1", "verb": "room", "args": ["ProfessorLayton"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 20, "total": 20, "refused": null}
+{"t": "2026-10-06T13:05:18", "stage": "A1", "verb": "when", "args": ["ProfessorLayton"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:05:18", "stage": "A1", "verb": "forest", "args": ["ProfessorLayton"], "opts": {}, "offset": 11, "limit": 200, "lines": 34, "total": 45, "refused": null}
+{"t": "2026-10-06T13:05:19", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "ProfessorLayton"}, "offset": 0, "limit": 60, "lines": 31, "total": 31, "refused": null}
+{"t": "2026-10-06T13:05:23", "stage": "A1", "verb": "case", "args": ["ProfessorLayton"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 53, "refused": null}
+{"t": "2026-10-06T13:05:23", "stage": "A1", "verb": "brief", "args": ["ProfessorLayton"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 75, "refused": null}
+{"t": "2026-10-06T13:05:24", "stage": "A1", "verb": "canvas", "args": ["ProfessorLayton"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:05:37", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "ProfessorLayton"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:05:37", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:05:41", "stage": "A1", "verb": "log", "args": ["opened TheAdventuresofTintin"], "opts": {"kind": "opened", "ids": "TheAdventuresofTintin"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:05:42", "stage": "A1", "verb": "room", "args": ["TheAdventuresofTintin"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:05:42", "stage": "A1", "verb": "room", "args": ["TheAdventuresofTintin"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 17, "total": 17, "refused": null}
+{"t": "2026-10-06T13:05:43", "stage": "A1", "verb": "when", "args": ["TheAdventuresofTintin"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:05:43", "stage": "A1", "verb": "forest", "args": ["TheAdventuresofTintin"], "opts": {}, "offset": 11, "limit": 200, "lines": 16, "total": 27, "refused": null}
+{"t": "2026-10-06T13:05:44", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "TheAdventuresofTintin"}, "offset": 0, "limit": 60, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T13:05:48", "stage": "A1", "verb": "case", "args": ["TheAdventuresofTintin"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 45, "refused": null}
+{"t": "2026-10-06T13:05:48", "stage": "A1", "verb": "brief", "args": ["TheAdventuresofTintin"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 103, "refused": null}
+{"t": "2026-10-06T13:05:48", "stage": "A1", "verb": "canvas", "args": ["TheAdventuresofTintin"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:05:58", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "TheAdventuresofTintin"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:05:58", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:06:02", "stage": "A1", "verb": "log", "args": ["opened buffalowizards"], "opts": {"kind": "opened", "ids": "buffalowizards"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:06:02", "stage": "A1", "verb": "room", "args": ["buffalowizards"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:06:03", "stage": "A1", "verb": "room", "args": ["buffalowizards"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 17, "total": 17, "refused": null}
+{"t": "2026-10-06T13:06:04", "stage": "A1", "verb": "when", "args": ["buffalowizards"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:06:04", "stage": "A1", "verb": "forest", "args": ["buffalowizards"], "opts": {}, "offset": 11, "limit": 300, "lines": 33, "total": 44, "refused": null}
+{"t": "2026-10-06T13:06:09", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "buffalowizards"}, "offset": 0, "limit": 40, "lines": 32, "total": 32, "refused": null}
+{"t": "2026-10-06T13:06:09", "stage": "A1", "verb": "case", "args": ["buffalowizards"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 55, "refused": null}
+{"t": "2026-10-06T13:06:09", "stage": "A1", "verb": "brief", "args": ["buffalowizards"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 143, "refused": null}
+{"t": "2026-10-06T13:06:10", "stage": "A1", "verb": "canvas", "args": ["buffalowizards"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:06:21", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "buffalowizards"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:06:21", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:06:25", "stage": "A1", "verb": "log", "args": ["opened lofihiphop"], "opts": {"kind": "opened", "ids": "lofihiphop"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:06:26", "stage": "A1", "verb": "room", "args": ["lofihiphop"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:06:26", "stage": "A1", "verb": "room", "args": ["lofihiphop"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 18, "total": 18, "refused": null}
+{"t": "2026-10-06T13:06:27", "stage": "A1", "verb": "when", "args": ["lofihiphop"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:06:27", "stage": "A1", "verb": "forest", "args": ["lofihiphop"], "opts": {}, "offset": 11, "limit": 300, "lines": 23, "total": 34, "refused": null}
+{"t": "2026-10-06T13:06:32", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "lofihiphop"}, "offset": 0, "limit": 20, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T13:06:32", "stage": "A1", "verb": "case", "args": ["lofihiphop"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 53, "refused": null}
+{"t": "2026-10-06T13:06:32", "stage": "A1", "verb": "brief", "args": ["lofihiphop"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 107, "refused": null}
+{"t": "2026-10-06T13:06:32", "stage": "A1", "verb": "canvas", "args": ["lofihiphop"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:06:42", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "lofihiphop"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:06:42", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:06:46", "stage": "A1", "verb": "log", "args": ["opened drugs"], "opts": {"kind": "opened", "ids": "drugs"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:06:47", "stage": "A1", "verb": "room", "args": ["drugs"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:06:47", "stage": "A1", "verb": "room", "args": ["drugs"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 83, "total": 83, "refused": null}
+{"t": "2026-10-06T13:06:48", "stage": "A1", "verb": "when", "args": ["drugs"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:06:48", "stage": "A1", "verb": "forest", "args": ["drugs"], "opts": {}, "offset": 11, "limit": 300, "lines": 304, "total": 345, "refused": null}
+{"t": "2026-10-06T13:06:54", "stage": "A1", "verb": "forest", "args": ["drugs"], "opts": {}, "offset": 315, "limit": 40, "lines": 30, "total": 345, "refused": null}
+{"t": "2026-10-06T13:06:54", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "drugs"}, "offset": 0, "limit": 200, "lines": 200, "total": 200, "refused": null}
+{"t": "2026-10-06T13:06:54", "stage": "A1", "verb": "case", "args": ["drugs"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 77, "refused": null}
+{"t": "2026-10-06T13:06:54", "stage": "A1", "verb": "brief", "args": ["drugs"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 129, "refused": null}
+{"t": "2026-10-06T13:06:55", "stage": "A1", "verb": "canvas", "args": ["drugs"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:07:14", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "drugs"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:07:14", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:07:22", "stage": "A1", "verb": "log", "args": ["opened uva"], "opts": {"kind": "opened", "ids": "uva"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:07:22", "stage": "A1", "verb": "room", "args": ["uva"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:07:23", "stage": "A1", "verb": "room", "args": ["uva"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 19, "total": 19, "refused": null}
+{"t": "2026-10-06T13:07:24", "stage": "A1", "verb": "when", "args": ["uva"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:07:24", "stage": "A1", "verb": "forest", "args": ["uva"], "opts": {}, "offset": 11, "limit": 200, "lines": 47, "total": 58, "refused": null}
+{"t": "2026-10-06T13:07:25", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "uva"}, "offset": 0, "limit": 40, "lines": 37, "total": 37, "refused": null}
+{"t": "2026-10-06T13:07:29", "stage": "A1", "verb": "case", "args": ["uva"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 57, "refused": null}
+{"t": "2026-10-06T13:07:29", "stage": "A1", "verb": "brief", "args": ["uva"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 149, "refused": null}
+{"t": "2026-10-06T13:07:29", "stage": "A1", "verb": "canvas", "args": ["uva"], "opts": {}, "offset": 0, "limit": 80, "lines": 13, "total": 13, "refused": null}
+{"t": "2026-10-06T13:07:45", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "uva"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:07:45", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:07:49", "stage": "A1", "verb": "log", "args": ["opened qotsa"], "opts": {"kind": "opened", "ids": "qotsa"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:07:50", "stage": "A1", "verb": "room", "args": ["qotsa"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:07:50", "stage": "A1", "verb": "room", "args": ["qotsa"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 25, "total": 25, "refused": null}
+{"t": "2026-10-06T13:07:51", "stage": "A1", "verb": "when", "args": ["qotsa"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:07:52", "stage": "A1", "verb": "forest", "args": ["qotsa"], "opts": {}, "offset": 11, "limit": 200, "lines": 63, "total": 74, "refused": null}
+{"t": "2026-10-06T13:07:52", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "qotsa"}, "offset": 0, "limit": 40, "lines": 40, "total": 52, "refused": null}
+{"t": "2026-10-06T13:07:56", "stage": "A1", "verb": "case", "args": ["qotsa"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 61, "refused": null}
+{"t": "2026-10-06T13:07:56", "stage": "A1", "verb": "brief", "args": ["qotsa"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 109, "refused": null}
+{"t": "2026-10-06T13:07:56", "stage": "A1", "verb": "canvas", "args": ["qotsa"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:08:09", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "qotsa"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:08:09", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:08:15", "stage": "A1", "verb": "log", "args": ["opened drumcorps"], "opts": {"kind": "opened", "ids": "drumcorps"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:08:16", "stage": "A1", "verb": "room", "args": ["drumcorps"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:08:16", "stage": "A1", "verb": "room", "args": ["drumcorps"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 37, "total": 37, "refused": null}
+{"t": "2026-10-06T13:08:17", "stage": "A1", "verb": "when", "args": ["drumcorps"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:08:17", "stage": "A1", "verb": "forest", "args": ["drumcorps"], "opts": {}, "offset": 11, "limit": 200, "lines": 169, "total": 180, "refused": null}
+{"t": "2026-10-06T13:08:18", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "drumcorps"}, "offset": 0, "limit": 40, "lines": 40, "total": 152, "refused": null}
+{"t": "2026-10-06T13:08:23", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "drumcorps"}, "offset": 0, "limit": 160, "lines": 152, "total": 152, "refused": null}
+{"t": "2026-10-06T13:08:23", "stage": "A1", "verb": "case", "args": ["drumcorps"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 57, "refused": null}
+{"t": "2026-10-06T13:08:23", "stage": "A1", "verb": "brief", "args": ["drumcorps"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 141, "refused": null}
+{"t": "2026-10-06T13:08:23", "stage": "A1", "verb": "canvas", "args": ["drumcorps"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:08:35", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "drumcorps"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:08:35", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:08:40", "stage": "A1", "verb": "log", "args": ["opened Dustforce"], "opts": {"kind": "opened", "ids": "Dustforce"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:08:40", "stage": "A1", "verb": "room", "args": ["Dustforce"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:08:41", "stage": "A1", "verb": "room", "args": ["Dustforce"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 20, "total": 20, "refused": null}
+{"t": "2026-10-06T13:08:41", "stage": "A1", "verb": "when", "args": ["Dustforce"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:08:42", "stage": "A1", "verb": "forest", "args": ["Dustforce"], "opts": {}, "offset": 11, "limit": 200, "lines": 46, "total": 57, "refused": null}
+{"t": "2026-10-06T13:08:42", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "Dustforce"}, "offset": 0, "limit": 40, "lines": 40, "total": 48, "refused": null}
+{"t": "2026-10-06T13:08:47", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "Dustforce"}, "offset": 40, "limit": 10, "lines": 8, "total": 48, "refused": null}
+{"t": "2026-10-06T13:08:47", "stage": "A1", "verb": "case", "args": ["Dustforce"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 51, "refused": null}
+{"t": "2026-10-06T13:08:47", "stage": "A1", "verb": "brief", "args": ["Dustforce"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 113, "refused": null}
+{"t": "2026-10-06T13:08:47", "stage": "A1", "verb": "canvas", "args": ["Dustforce"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:08:59", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "Dustforce"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:08:59", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:09:09", "stage": "A1", "verb": "log", "args": ["opened tagpro"], "opts": {"kind": "opened", "ids": "tagpro"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:09:10", "stage": "A1", "verb": "room", "args": ["tagpro"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:09:10", "stage": "A1", "verb": "room", "args": ["tagpro"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 159, "total": 159, "refused": null}
+{"t": "2026-10-06T13:09:11", "stage": "A1", "verb": "when", "args": ["tagpro"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:09:11", "stage": "A1", "verb": "forest", "args": ["tagpro"], "opts": {}, "offset": 11, "limit": 300, "lines": 303, "total": 656, "refused": null}
+{"t": "2026-10-06T13:09:15", "stage": "A1", "verb": "forest", "args": ["tagpro"], "opts": {}, "offset": 314, "limit": 350, "lines": 342, "total": 656, "refused": null}
+{"t": "2026-10-06T13:09:20", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "tagpro"}, "offset": 0, "limit": 190, "lines": 180, "total": 180, "refused": null}
+{"t": "2026-10-06T13:09:20", "stage": "A1", "verb": "case", "args": ["tagpro"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 73, "refused": null}
+{"t": "2026-10-06T13:09:20", "stage": "A1", "verb": "brief", "args": ["tagpro"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 193, "refused": null}
+{"t": "2026-10-06T13:09:20", "stage": "A1", "verb": "canvas", "args": ["tagpro"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:09:39", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "tagpro"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:09:39", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:09:43", "stage": "A1", "verb": "log", "args": ["opened uvic"], "opts": {"kind": "opened", "ids": "uvic"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:09:44", "stage": "A1", "verb": "room", "args": ["uvic"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-06T13:09:44", "stage": "A1", "verb": "room", "args": ["uvic"], "opts": {"no_canvas": true}, "offset": 0, "limit": 3000, "lines": 20, "total": 20, "refused": null}
+{"t": "2026-10-06T13:09:45", "stage": "A1", "verb": "when", "args": ["uvic"], "opts": {}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-06T13:09:45", "stage": "A1", "verb": "forest", "args": ["uvic"], "opts": {}, "offset": 11, "limit": 200, "lines": 68, "total": 79, "refused": null}
+{"t": "2026-10-06T13:09:46", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "uvic"}, "offset": 0, "limit": 40, "lines": 40, "total": 62, "refused": null}
+{"t": "2026-10-06T13:09:46", "stage": "A1", "verb": "case", "args": ["uvic"], "opts": {}, "offset": 0, "limit": 20, "lines": 20, "total": 55, "refused": null}
+{"t": "2026-10-06T13:09:46", "stage": "A1", "verb": "brief", "args": ["uvic"], "opts": {}, "offset": 0, "limit": 4, "lines": 4, "total": 129, "refused": null}
+{"t": "2026-10-06T13:09:46", "stage": "A1", "verb": "canvas", "args": ["uvic"], "opts": {}, "offset": 0, "limit": 80, "lines": 11, "total": 11, "refused": null}
+{"t": "2026-10-06T13:09:59", "stage": "A1", "verb": "codes", "args": [], "opts": {"sub": "uvic"}, "offset": 40, "limit": 20, "lines": 20, "total": 62, "refused": null}
+{"t": "2026-10-06T13:10:04", "stage": "A1", "verb": "log", "args": ["noted"], "opts": {"kind": "note", "ids": "uvic"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:10:04", "stage": "A1", "verb": "next", "args": [], "opts": {}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:11:11", "stage": "A1", "verb": "log", "args": ["third time: the room's own April Fools joke outweighs canvas talk in coded turns (monstercat, cfb, drumcorps, bahrain); the atlas links a work other than the one the room fought for (anime, qotsa, cfb)"], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:12:07", "stage": "A1", "verb": "log", "args": ["leads-A1: 4 lines removed because their other room is outside the frame (exmormon, the_fack, unc, nerdfighters); 3 retargeted to frame rooms (nbaspurs, minecraft, colombia). The ties are kept in the room notes."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-06T13:12:12", "stage": "A1", "verb": "asks", "args": ["QA1-001"], "opts": {}, "offset": 0, "limit": 80, "lines": 3, "total": 3, "refused": null}
+{"t": "2026-10-06T13:12:56", "stage": "A1", "verb": "log", "args": ["Block 01 closed: 53 of 53 rooms read whole and noted, lexicon, running file and leads appended, validate A1 clean. In most rooms the linked artwork predates the room's first call, deals are struck off the thread and reported back, and coordinating ends between h59 and h73. Next: block 02 from r/placecanada, checking build, adopt or notice for each room."], "opts": {"kind": "close"}, "offset": 0, "limit": 80, "lines": 0, "total": 1, "refused": "no such kind: close; one of opened, dropped, merged, split, kept, move, abductive, question, comparison, note, helper, minted, placed, unplaced, pause, ask"}
+{"t": "2026-10-06T13:13:06", "stage": "A1", "verb": "log", "args": ["Block 01 closed: 53 of 53 rooms read whole and noted; lexicon, running file and leads appended; validate A1 clean. In most rooms the linked artwork predates the room's first call, deals are struck off the thread and reported back, and coordinating ends between h59 and h73. Next: block 02 from r/placecanada, checking build, adopt or notice for each room."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}

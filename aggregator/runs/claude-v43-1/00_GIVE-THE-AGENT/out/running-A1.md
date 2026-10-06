@@ -1,0 +1,99 @@
+# Running file, stage A1
+
+What I keep seeing, unpruned and unordered, one entry per line with the room it came from. Appended at every block, never rewritten.
+
+- an old quarrel inside the site (the admins, "bash the fash") is carried onto the canvas as the first thing drawn | anarchism
+- the call names coordinates in the first post; the canvas address is the unit of instruction | anarchism
+- attackers are named from outside the canvas (/pol/, T_D) before any is seen placing | anarchism
+- repair is a reply: "let's re-draw it" answered by "I am doing just that" | anarchism
+- one person reports hours of solo maintenance and asks for help | anarchism
+- the same image changes hands and the room shrugs: "good while it lasted" | anarchism
+- members dispute the worth of the canvas while others work on it, in the same thread | anarchism
+- members dispute whether the room should own a flag at all | anarchism
+- the goal widens late from defending own work to attacking others' flags | anarchism
+- tactics talk asks for numbers before acting ("We need numbers") | anarchism
+- cross-posting to sister rooms to recruit | anarchism
+- bots written and shared by members in the last day | anarchism
+- a Discord opened for one patch of canvas | anarchism
+- a moderator restricts canvas posts near the end, to one MegaPost | anarchism
+- the end is narrated as a siege won and as alliance ("left unity") | anarchism
+- after h73 only memory and dispute, no plan | anarchism
+- an ally appears only late (the communists) in the room's telling | anarchism
+- the room's art was placed from hour 1, long before the room's own first call; the room joins or keeps work already there | tokyo, morrowind, witcher, heyyea, riskofrain, megaman
+- the room's writers placed a small share of their own art (under 0.05) | tokyo, AprilKnights, heyyea, morrowind, megaman
+- a visitor from another room posts the call that the room answers or ignores | tokyo, egypt, morrowind
+- a request for permission to build arrives after placement ended | tokyo, morrowind
+- an attacker is named, then corrected by a member (UBC to BCIT; Mexico to ally) | tokyo, duckgame
+- after "done", the goal becomes holding the work at its size; members say small is defensible | buffalobills, AprilKnights
+- a neighbour fixes the room's pixels and becomes an ally | buffalobills, duckgame, egypt
+- a raider apologises: they should have asked first | buffalobills, greyblob
+- organizing moves to a separate subreddit made for the canvas | buffalobills (716Place), homestuck (PlaceStuck), AprilKnights (PlaceTheButton)
+- quarrel inside the room over whether canvas posts belong in the sub | buffalobills, anarchism, megaman, homestuck, flashtv
+- a moderator gathers all canvas posts into one megathread and removes the rest | anarchism, furry, homestuck
+- a room born on the canvas: its sub created during the event | greyblob, heyyea
+- a truce list kept as a post | greyblob, AprilKnights
+- losing the spot, the room relocates, more than once | greyblob, flashtv, homestuck, egypt
+- organizing continues after h73 on successor canvases (pxls.space, Place2, paint.reednj.com) | greyblob, megaman, homestuck
+- the room argues about the words under its picture, letter by letter, against its own members | morrowind, witcher, furry
+- credit for the art is disputed or given to another room | morrowind (TrueSTL), heyyea, egypt
+- members say outright they are not organized | morrowind, megaman
+- a member asks for an organiser and none appears | megaman
+- the room denies controlling what is drawn in its name | megaman (the beam), furry (BONK)
+- an order with offices (Grandmaster, oaths) reconvenes for the event and holds elections after | AprilKnights
+- the room states a yearly purpose: to come back each April | AprilKnights
+- a project is refused for lack of hands | AprilKnights, witcher (medallion)
+- template, coordinates and overlay posted by a moderator; the template decides what is allowed | heyyea, furry
+- a userscript handed out to defend the art | heyyea, homestuck, anarchism
+- scripts argued over: ruin the point, or the only defence | heyyea, flashtv, egypt
+- a crude slogan dropped for an icon because the slogan made them a target | furry
+- an envoy appointed to a powerful neighbour; a treaty trades colours for safety | furry (Blue Corner)
+- the room's name is defaced and re-defaced (furby, Kunt, Fubry) | furry, witcher
+- conflict turned into a deal within the hour | duckgame
+- a deal makes the art change: the duck wears a sombrero | duckgame
+- after the freeze a member plans another build and is told the canvas is final | duckgame
+- the room mourns the art as dead though the atlas lists it as surviving | duckgame
+- the gift: a stranger draws the room's flag for it | egypt
+- a request for help answered with insults | egypt
+- a member refuses to place by hand because others use scripts | egypt
+- the Discord did the work; the subreddit only reports it | riskofrain, AprilKnights, heyyea
+- a moderators' April Fools prank runs alongside the canvas work and has nothing to do with it | flashtv, homestuck
+- a member works alone and says so | flashtv, anarchism
+- protection offered by a political-colour bloc because the art is red and yellow | flashtv (TheFarLeftSide)
+- the room refuses to encroach on kin art (DC brothers) | flashtv
+- reciprocity stated as the reason to help: they helped us, so it is fair | homestuck, duckgame, egypt
+- a late raid by a named room, then name-and-shame after the freeze | homestuck (homelab)
+- traffic and subscribers counted afterwards as what the canvas brought | furry, homestuck
+- newcomers arrive saying they saw the art on the canvas | furry
+- visualizations (timelapse, heatmap, 3d view) used to relive the fight | furry, homestuck, buffalobills
+- scripts and bots justified as self-defence against other rooms' bots | detroitredwings, calgaryflames, unitedkingdom
+- members say no one is in charge and the effort is a shambles | unitedkingdom
+- a moderator's attack call overruled by the room's organiser | calgaryflames
+- a room moves its art when a neighbour asks | jerma985, necrodancer
+- a Discord opened because too many threads made chaos | austria, liverpoolfc
+- the canvas Discord becomes the room's standing Discord after the event | austria
+- moderators ban new canvas threads and pin one megathread | liverpoolfc
+- a memorial symbol proposed and withdrawn after objection | liverpoolfc
+- small rooms fit the design to the space and borrow pixels from a host | littlewitchacademia, httyd
+- a rival named from outside the canvas (a football rival) becomes a truce partner on the canvas | liverpoolfc
+- the design shrinks step by step to fit the free space | httyd, littlewitchacademia
+- the room's own April Fools joke fills more coded turns than the canvas | monstercat, cfb, drumcorps, bahrain, strangerthings, babymetal
+- a treaty struck on Discord or in chat is reported back to the thread as done | madokamagica, babymetal, PinkVomitMonster, mamamoo, drugs
+- moderators herd canvas talk into one thread or remove short posts | liverpoolfc, madokamagica, babymetal, anime, drugs
+- a neighbour group apologises for overwriting art it took for random pixels | uva, monstercat
+- a request to move is refused first, then accepted within minutes | qotsa, auburn
+- members fight rivals from their own world (schools, clubs) on the canvas | cfb, uvic, uva, liverpoolfc
+- regional allies help each other's marks | uvic, wales, babymetal
+- a sub that exists only for an artwork already on the canvas | PinkVomitMonster, FloydVsVoid
+- the founder admits the refusal to compromise was wrong | FloydVsVoid
+- one member does most of the posting and calling | FloydVsVoid, lofihiphop, bahrain, TheAdventuresofTintin
+- a late call (after h50) for a mark, by imitation of other subs | qotsa, drumcorps, TheAdventuresofTintin, uva
+- scripts argued as unfair or as self-defence | cfb, uvic, tagpro, anime
+- outsiders find the room through its art and are welcomed | babymetal, tagpro, madokamagica, Dustforce, TheAdventuresofTintin
+- the room credits who placed pixels, down to one pixel each | drugs, babymetal, the_pack
+- the atlas names a different work from the one the room fought for | anime, qotsa, cfb, drugs
+- region placements start before h0 | FloydVsVoid, ProfessorLayton
+- the room counts subscribers gained as the canvas's payoff | tagpro, wales, babymetal
+- a room only noticed its art and did not visibly build it | watchmen, TheAdventuresofTintin
+- the stated aim is advertising | tagpro
+- an existing design is resized after measuring the gap | drumcorps, httyd
+- members lend alternate accounts or many accounts for upkeep | drumcorps, tagpro, babymetal

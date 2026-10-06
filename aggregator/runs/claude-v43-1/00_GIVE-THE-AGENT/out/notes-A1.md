@@ -173,3 +173,29 @@ links: 1 files checked, all ids resolve
 views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
 leg A1a closed.
 ```
+
+## Close report, leg A1b-01 (block 01), 2026-10-06
+
+Block 01 read whole: 53 of 53 rooms noted. `validate.py A1` before the close:
+
+```
+stage A1:
+  frame 705, dropped 0, analysed 705 : dropped.jsonl is written and empty, so the screen ran and dropped nothing
+  room notes 53 over an analysed set of 705
+  652 room(s) still to note; the stage closes when every room of the analysed set has one
+  departures.jsonl carries 2 line(s)
+  defects.jsonl carries 6 line(s)
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-01 cut=none 20261006T131256Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-01 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+The first validate run of this close failed with 7 errors: lead lines naming rooms outside the frame. Three were retargeted to frame rooms (nbaspurs, minecraft, colombia). Four were removed (exmormon, the_fack, unc, nerdfighters); those ties stay in the room notes. The diary records the change.

@@ -7,3 +7,115 @@
 {"t": "2026-10-06T12:26:27", "stage": "A1", "leg": "A1a", "kind": "note", "ids": [], "text": "concept_reach_threshold declared as 0 items_in_window, so every room is read at concept level from C2 to D3: the share as defined is 1.0 in all 705 rooms (every concept carries a theme_id), and second-order themes grow at log-log slope 0.231 on items against 0.530 for concepts. Rests on QA1-001; revised if the answer names another measure."}
 {"t": "2026-10-06T12:26:27", "stage": "A1", "leg": "A1a", "kind": "note", "ids": [], "text": "blocks declared: a seeded shuffle (20261006) of the 705 rooms cut at 3 MB by mem.py's byte count, 19 blocks, r/counting (11.17 MB) a block of its own as block 13; out/order-A1.txt written, 705 lines; mem.py next names anarchism, block 01. Departure logged for the script."}
 {"t": "2026-10-06T12:28:40", "stage": "A1", "leg": "A1a", "kind": "note", "ids": [], "text": "A1a closes with the checks, the screen and the order written: census and analysed set 705, nothing dropped, six defects and two departures, the self-test clean. The contrast is early (h0 to 3, 131 rooms) against late (after h48, 61 rooms), carried with a held-size comparison because size differs a hundredfold; concept_reach_threshold is 0 pending QA1-001. Next is A1b-01, block 01, starting with the room mem.py next names (anarchism)."}
+{"t": "2026-10-06T12:38:12", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["anarchism"], "text": "opened anarchism"}
+{"t": "2026-10-06T12:39:15", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["anarchism"], "text": "noted"}
+{"t": "2026-10-06T12:39:58", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["tokyo"], "text": "opened tokyo"}
+{"t": "2026-10-06T12:40:13", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["tokyo"], "text": "noted"}
+{"t": "2026-10-06T12:40:16", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["buffalobills"], "text": "opened buffalobills"}
+{"t": "2026-10-06T12:41:10", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["buffalobills"], "text": "noted"}
+{"t": "2026-10-06T12:41:13", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["greyblob"], "text": "opened greyblob"}
+{"t": "2026-10-06T12:41:57", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["greyblob"], "text": "noted"}
+{"t": "2026-10-06T12:42:01", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["morrowind"], "text": "opened morrowind"}
+{"t": "2026-10-06T12:42:29", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["morrowind"], "text": "noted"}
+{"t": "2026-10-06T12:42:32", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["megaman"], "text": "opened megaman"}
+{"t": "2026-10-06T12:42:55", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["megaman"], "text": "noted"}
+{"t": "2026-10-06T12:42:58", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["AprilKnights"], "text": "opened AprilKnights"}
+{"t": "2026-10-06T12:43:25", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["AprilKnights"], "text": "noted"}
+{"t": "2026-10-06T12:43:30", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["witcher"], "text": "opened witcher"}
+{"t": "2026-10-06T12:43:58", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["witcher"], "text": "noted"}
+{"t": "2026-10-06T12:44:02", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["heyyea"], "text": "opened heyyea"}
+{"t": "2026-10-06T12:44:24", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["heyyea"], "text": "noted"}
+{"t": "2026-10-06T12:44:27", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["furry"], "text": "opened furry"}
+{"t": "2026-10-06T12:45:02", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["furry"], "text": "noted"}
+{"t": "2026-10-06T12:45:08", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["duckgame"], "text": "opened duckgame"}
+{"t": "2026-10-06T12:45:33", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["duckgame"], "text": "noted"}
+{"t": "2026-10-06T12:45:37", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["egypt"], "text": "opened egypt"}
+{"t": "2026-10-06T12:45:56", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["egypt"], "text": "noted"}
+{"t": "2026-10-06T12:45:58", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["riskofrain"], "text": "opened riskofrain"}
+{"t": "2026-10-06T12:46:16", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["riskofrain"], "text": "noted"}
+{"t": "2026-10-06T12:46:18", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["flashtv"], "text": "opened flashtv"}
+{"t": "2026-10-06T12:46:54", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["flashtv"], "text": "noted"}
+{"t": "2026-10-06T12:46:57", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["homestuck"], "text": "opened homestuck"}
+{"t": "2026-10-06T12:47:48", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["homestuck"], "text": "noted"}
+{"t": "2026-10-06T12:48:34", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": [], "text": "keep seeing, third time: rooms whose artwork the atlas dates from hour 1 though the room's first call comes a day or more later (tokyo, morrowind, witcher, heyyea, riskofrain); the room joins, keeps or reports work begun elsewhere. Also third time: organizing goes on after h73 on successor canvases (greyblob, megaman, homestuck)."}
+{"t": "2026-10-06T12:49:17", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["ukraine"], "text": "opened ukraine"}
+{"t": "2026-10-06T12:49:35", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["ukraine"], "text": "noted"}
+{"t": "2026-10-06T12:49:37", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["ik_ihe"], "text": "opened ik_ihe"}
+{"t": "2026-10-06T12:49:54", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["ik_ihe"], "text": "noted"}
+{"t": "2026-10-06T12:49:56", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["churchofhelix"], "text": "opened churchofhelix"}
+{"t": "2026-10-06T12:50:07", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["churchofhelix"], "text": "noted"}
+{"t": "2026-10-06T12:50:07", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["unitedkingdom"], "text": "opened unitedkingdom"}
+{"t": "2026-10-06T12:50:43", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["unitedkingdom"], "text": "noted"}
+{"t": "2026-10-06T12:50:48", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["detroitredwings"], "text": "opened detroitredwings"}
+{"t": "2026-10-06T12:51:17", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["detroitredwings"], "text": "noted"}
+{"t": "2026-10-06T12:51:23", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["terraria"], "text": "opened terraria"}
+{"t": "2026-10-06T12:51:48", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["terraria"], "text": "noted"}
+{"t": "2026-10-06T12:51:51", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["calgaryflames"], "text": "opened calgaryflames"}
+{"t": "2026-10-06T12:52:22", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["calgaryflames"], "text": "noted"}
+{"t": "2026-10-06T12:52:26", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["austria"], "text": "opened austria"}
+{"t": "2026-10-06T12:52:49", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["austria"], "text": "noted"}
+{"t": "2026-10-06T12:52:53", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["jerma985"], "text": "opened jerma985"}
+{"t": "2026-10-06T12:53:15", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["jerma985"], "text": "noted"}
+{"t": "2026-10-06T12:53:19", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["littlewitchacademia"], "text": "opened littlewitchacademia"}
+{"t": "2026-10-06T12:53:40", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["littlewitchacademia"], "text": "noted"}
+{"t": "2026-10-06T12:53:43", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["necrodancer"], "text": "opened necrodancer"}
+{"t": "2026-10-06T12:54:06", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["necrodancer"], "text": "noted"}
+{"t": "2026-10-06T12:54:10", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["httyd"], "text": "opened httyd"}
+{"t": "2026-10-06T12:54:35", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["httyd"], "text": "noted"}
+{"t": "2026-10-06T12:54:37", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["liverpoolfc"], "text": "opened liverpoolfc"}
+{"t": "2026-10-06T12:56:21", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": [], "text": "compacted; head reconciled"}
+{"t": "2026-10-06T12:56:26", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["liverpoolfc"], "text": "noted"}
+{"t": "2026-10-06T12:57:07", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["monstercat"], "text": "opened monstercat"}
+{"t": "2026-10-06T12:57:45", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["monstercat"], "text": "noted"}
+{"t": "2026-10-06T12:57:55", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["madokamagica"], "text": "opened madokamagica"}
+{"t": "2026-10-06T12:58:22", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["madokamagica"], "text": "noted"}
+{"t": "2026-10-06T12:58:27", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["bahrain"], "text": "opened bahrain"}
+{"t": "2026-10-06T12:58:49", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["bahrain"], "text": "noted"}
+{"t": "2026-10-06T12:58:54", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["mamamoo"], "text": "opened mamamoo"}
+{"t": "2026-10-06T12:59:13", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["mamamoo"], "text": "noted"}
+{"t": "2026-10-06T12:59:17", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["strangerthings"], "text": "opened strangerthings"}
+{"t": "2026-10-06T12:59:40", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["strangerthings"], "text": "noted"}
+{"t": "2026-10-06T12:59:51", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["babymetal"], "text": "opened babymetal"}
+{"t": "2026-10-06T13:00:20", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["babymetal"], "text": "noted"}
+{"t": "2026-10-06T13:00:27", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["auburn"], "text": "opened auburn"}
+{"t": "2026-10-06T13:00:49", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["auburn"], "text": "noted"}
+{"t": "2026-10-06T13:00:56", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["PinkVomitMonster"], "text": "opened PinkVomitMonster"}
+{"t": "2026-10-06T13:01:26", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["PinkVomitMonster"], "text": "noted"}
+{"t": "2026-10-06T13:01:39", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": [], "text": "third time: treaties struck in Discord or chat and reported back to the thread as done (madokamagica, babymetal, PinkVomitMonster, mamamoo); moderators herd canvas talk into one thread (liverpoolfc, madokamagica, babymetal)"}
+{"t": "2026-10-06T13:01:39", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["the_pack"], "text": "opened the_pack"}
+{"t": "2026-10-06T13:02:07", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["the_pack"], "text": "noted"}
+{"t": "2026-10-06T13:02:11", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["anime"], "text": "opened anime"}
+{"t": "2026-10-06T13:02:43", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["anime"], "text": "noted"}
+{"t": "2026-10-06T13:02:49", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["FloydVsVoid"], "text": "opened FloydVsVoid"}
+{"t": "2026-10-06T13:03:20", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["FloydVsVoid"], "text": "noted"}
+{"t": "2026-10-06T13:03:30", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["wales"], "text": "opened wales"}
+{"t": "2026-10-06T13:03:51", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["wales"], "text": "noted"}
+{"t": "2026-10-06T13:03:55", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["cfb"], "text": "opened cfb"}
+{"t": "2026-10-06T13:04:46", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["cfb"], "text": "noted"}
+{"t": "2026-10-06T13:04:56", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["watchmen"], "text": "opened watchmen"}
+{"t": "2026-10-06T13:05:13", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["watchmen"], "text": "noted"}
+{"t": "2026-10-06T13:05:16", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["ProfessorLayton"], "text": "opened ProfessorLayton"}
+{"t": "2026-10-06T13:05:37", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["ProfessorLayton"], "text": "noted"}
+{"t": "2026-10-06T13:05:41", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["TheAdventuresofTintin"], "text": "opened TheAdventuresofTintin"}
+{"t": "2026-10-06T13:05:58", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["TheAdventuresofTintin"], "text": "noted"}
+{"t": "2026-10-06T13:06:02", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["buffalowizards"], "text": "opened buffalowizards"}
+{"t": "2026-10-06T13:06:21", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["buffalowizards"], "text": "noted"}
+{"t": "2026-10-06T13:06:25", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["lofihiphop"], "text": "opened lofihiphop"}
+{"t": "2026-10-06T13:06:42", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["lofihiphop"], "text": "noted"}
+{"t": "2026-10-06T13:06:46", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["drugs"], "text": "opened drugs"}
+{"t": "2026-10-06T13:07:14", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["drugs"], "text": "noted"}
+{"t": "2026-10-06T13:07:22", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["uva"], "text": "opened uva"}
+{"t": "2026-10-06T13:07:45", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["uva"], "text": "noted"}
+{"t": "2026-10-06T13:07:49", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["qotsa"], "text": "opened qotsa"}
+{"t": "2026-10-06T13:08:09", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["qotsa"], "text": "noted"}
+{"t": "2026-10-06T13:08:15", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["drumcorps"], "text": "opened drumcorps"}
+{"t": "2026-10-06T13:08:35", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["drumcorps"], "text": "noted"}
+{"t": "2026-10-06T13:08:40", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["Dustforce"], "text": "opened Dustforce"}
+{"t": "2026-10-06T13:08:59", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["Dustforce"], "text": "noted"}
+{"t": "2026-10-06T13:09:09", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["tagpro"], "text": "opened tagpro"}
+{"t": "2026-10-06T13:09:39", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["tagpro"], "text": "noted"}
+{"t": "2026-10-06T13:09:43", "stage": "A1", "leg": "A1b-01", "kind": "opened", "ids": ["uvic"], "text": "opened uvic"}
+{"t": "2026-10-06T13:10:04", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": ["uvic"], "text": "noted"}
+{"t": "2026-10-06T13:11:11", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": [], "text": "third time: the room's own April Fools joke outweighs canvas talk in coded turns (monstercat, cfb, drumcorps, bahrain); the atlas links a work other than the one the room fought for (anime, qotsa, cfb)"}
+{"t": "2026-10-06T13:12:07", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": [], "text": "leads-A1: 4 lines removed because their other room is outside the frame (exmormon, the_fack, unc, nerdfighters); 3 retargeted to frame rooms (nbaspurs, minecraft, colombia). The ties are kept in the room notes."}
+{"t": "2026-10-06T13:13:06", "stage": "A1", "leg": "A1b-01", "kind": "note", "ids": [], "text": "Block 01 closed: 53 of 53 rooms read whole and noted; lexicon, running file and leads appended; validate A1 clean. In most rooms the linked artwork predates the room's first call, deals are struck off the thread and reported back, and coordinating ends between h59 and h73. Next: block 02 from r/placecanada, checking build, adopt or notice for each room."}
