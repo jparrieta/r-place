@@ -1,0 +1,27 @@
+# lexicon — r/marvel
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Captain's shield (`62obvn`)
+- April Fools (`dfow0ko`)
+- sony villain-verse (`dfp6rpw`)
+- r/Marvel imprint (`62xhqa`)
+- Hydra logo (`dfpt60q`)
+- Marvel love (`62xstr`)
+- Baby Groot (`630pz5`)
+- Greenlattice (`630pz5`)
+- We Are Groot (`dfql31f`)
+- invasion (`dfqlojh`)
+- the void (`dfqubjs`)
+- rainbow road (`dfr65gz`)
+- Deadpools logo (`63430w`)
+- good ol cap (`635kpx`)
+- save the HULK (`637vvr`)
+- forced diversity (`dfshvvw`)
+- jumping-off point (`dfshvvw`)
+- planet-saving class (`dfsmdia`)
+- Immortal Weapon (`dfskcam`)
+- Bride of Nine Spiders (`dfskcam`)
+- Mirror-verse (`63e2nw`)
+- Fatal Four (`63e2nw`)
+- Fetal Four (`dftd3fw`)

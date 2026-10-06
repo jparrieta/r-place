@@ -1,0 +1,1 @@
+r/turkey — branch B, verdict `full`. The Reddit record is substantively saturated but incomplete for removed and off-platform activity. Later slices added heart-making, consolidation, and closing practices, so thematic saturation arrived only with the final slice. Nothing blocked completion.

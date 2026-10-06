@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>close_run.py</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/close-run-py.md">Markdown source</a></nav>
+<h1 id="close_runpy">close_run.py</h1>
+<p>The end-of-run gate: twelve checks that pass or fail.</p>
+<p><strong>What it holds</strong></p>
+<p><code>python3 close_run.py RUNDIR [--record CORPUS.jsonl] [--role lead|fleet] [--preflight]</code>. Checks C1 (six outputs exist), C2 (a transcript), C3 (code text matches the record), C4 (every code in one theme), C5 (large read exclusions carry a cited line), C6 (declared reading matches served reading), C7 (instrument files unchanged since dispatch), C8 (pointer and exclusion text match the record), C9 (codes and pointers sit on served items), C10 (nothing recorded after the last <code>close()</code>), C11 (every <code>coded</code> thread has a live code), C12 (branch-B notes repeat the gate). <code>--preflight</code> skips C2 and C10. It exits non-zero on any failure.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p>The instrument's author. Agents run <code>--preflight</code> before their final message; the scheduler runs the full check after the agent exits (check E2).</p>
+<p><strong>Why it exists</strong></p>
+<p>"A run is not finished when the coder stops talking." An earlier session reported transcripts saved when only the journal was; "the fix is not a reminder. It is a check that fails."</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/instrument/v32/close_run.py">close_run.py</a>.</p>
+<p>Checked against: close_run.py, CONTRACT-scheduler.md, CHANGELOG-v32.md</p>
+</body>
+</html>

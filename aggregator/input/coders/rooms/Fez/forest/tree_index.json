@@ -1,0 +1,2221 @@
+{
+ "Fez": {
+  "counts": {
+   "threads_given": 22,
+   "threads_with_codes": 22,
+   "items": 117,
+   "coded": 83,
+   "bridge": 4,
+   "removed": 0,
+   "dropped": 30,
+   "orphans": 0,
+   "na_stretches": 54,
+   "coverage_of_coded_items": 0.55,
+   "threads_total_in_window": 24
+  },
+  "index": {
+   "62qvq3": {
+    "0": {
+     "thread_id": "62qvq3",
+     "item_id": "62qvq3",
+     "parent_id": null,
+     "author": "Peetrius",
+     "created_utc": 1491024566,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1492478361
+     }
+    },
+    "1": {
+     "thread_id": "62qvq3",
+     "item_id": "dfomyib",
+     "parent_id": "62qvq3",
+     "author": "anyaskvo",
+     "created_utc": 1491027315,
+     "dt_parent_sec": 2749,
+     "dt_thread_sec": 2749,
+     "state": "coded",
+     "code_ids": [
+      "c0001",
+      "c0002"
+     ],
+     "labels": [
+      "asking people already here to help make Gomez",
+      "not knowing where to ask for help"
+     ],
+     "sequence": [
+      "c0001",
+      "na",
+      "c0002"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "edited": 1491032242,
+      "score": 2,
+      "retrieved_on": 1493700205
+     }
+    },
+    "1.1": {
+     "thread_id": "62qvq3",
+     "item_id": "dfook0e",
+     "parent_id": "dfomyib",
+     "author": "TheBescumbering",
+     "created_utc": 1491031368,
+     "dt_parent_sec": 4053,
+     "dt_thread_sec": 6802,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "answering that they'll help"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493700976
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62qvq3",
+     "item_id": "dfoovfp",
+     "parent_id": "dfook0e",
+     "author": "anyaskvo",
+     "created_utc": 1491032274,
+     "dt_parent_sec": 906,
+     "dt_thread_sec": 7708,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "thanking the person who offered help"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493701131
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62qvq3",
+     "item_id": "dfp8ngm",
+     "parent_id": "dfoovfp",
+     "author": "TheBescumbering",
+     "created_utc": 1491072044,
+     "dt_parent_sec": 39770,
+     "dt_thread_sec": 47478,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "staying where the fez is still there"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 0.77,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493710653
+     }
+    },
+    "2": {
+     "thread_id": "62qvq3",
+     "item_id": "dfon79h",
+     "parent_id": "62qvq3",
+     "author": "Run_shoot_kill5",
+     "created_utc": 1491027891,
+     "dt_parent_sec": 3325,
+     "dt_thread_sec": 3325,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "asking why Phil Fish is being mean"
+     ],
+     "sequence": [
+      "c0003",
+      "na"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493700323
+     }
+    }
+   },
+   "62r34g": {
+    "0": {
+     "thread_id": "62r34g",
+     "item_id": "62r34g",
+     "parent_id": null,
+     "author": "anyaskvo",
+     "created_utc": 1491027629,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0007",
+      "c0008"
+     ],
+     "labels": [
+      "feeling alone and asking for help and places to ask",
+      "slimming Gomez when Estonia gets too close"
+     ],
+     "sequence": [
+      "na",
+      "c0007",
+      "na",
+      "c0008"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "edited": 1491042664,
+      "score": 12,
+      "retrieved_on": 1492478525
+     }
+    },
+    "1": {
+     "thread_id": "62r34g",
+     "item_id": "dfot0mr",
+     "parent_id": "62r34g",
+     "author": "mirage27",
+     "created_utc": 1491045636,
+     "dt_parent_sec": 18007,
+     "dt_thread_sec": 18007,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "moving the build to the blue zone"
+     ],
+     "sequence": [
+      "na",
+      "c0009",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493703127
+     }
+    },
+    "1.1": {
+     "thread_id": "62r34g",
+     "item_id": "dfotijk",
+     "parent_id": "dfot0mr",
+     "author": "RoosterSheep",
+     "created_utc": 1491047077,
+     "dt_parent_sec": 1441,
+     "dt_thread_sec": 19448,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "joining in because Gomez deserves it"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493703366
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62r34g",
+     "item_id": "dfou2ph",
+     "parent_id": "dfotijk",
+     "author": "mirage27",
+     "created_utc": 1491048566,
+     "dt_parent_sec": 1489,
+     "dt_thread_sec": 20937,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "doubling the size"
+     ],
+     "sequence": [
+      "c0011",
+      "na"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "edited": 1491049058,
+      "score": 2,
+      "retrieved_on": 1493703637
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62r34g",
+     "item_id": "dfou6pi",
+     "parent_id": "dfou2ph",
+     "author": "RoosterSheep",
+     "created_utc": 1491048843,
+     "dt_parent_sec": 277,
+     "dt_thread_sec": 21214,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "getting back in the game after clarification"
+     ],
+     "sequence": [
+      "na",
+      "c0012"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493703690
+     }
+    },
+    "1.1.2": {
+     "thread_id": "62r34g",
+     "item_id": "dfovep3",
+     "parent_id": "dfotijk",
+     "author": "mirage27",
+     "created_utc": 1491051637,
+     "dt_parent_sec": 4560,
+     "dt_thread_sec": 24008,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "drawing the outline first to colonize the space"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493704280
+     }
+    },
+    "2": {
+     "thread_id": "62r34g",
+     "item_id": "dfp17cq",
+     "parent_id": "62r34g",
+     "author": "Virgil_Starkwell_",
+     "created_utc": 1491061341,
+     "dt_parent_sec": 33712,
+     "dt_thread_sec": 33712,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "warning that a menorah is using the same spot"
+     ],
+     "sequence": [
+      "c0014",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493707065
+     }
+    },
+    "2.1": {
+     "thread_id": "62r34g",
+     "item_id": "dfp3h9x",
+     "parent_id": "dfp17cq",
+     "author": "mirage27",
+     "created_utc": 1491064557,
+     "dt_parent_sec": 3216,
+     "dt_thread_sec": 36928,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "picking a new spot after the warning"
+     ],
+     "sequence": [
+      "c0015",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "edited": 1491065031,
+      "score": 1,
+      "retrieved_on": 1493708162
+     }
+    },
+    "3": {
+     "thread_id": "62r34g",
+     "item_id": "dfp407k",
+     "parent_id": "62r34g",
+     "author": "mirage27",
+     "created_utc": 1491065312,
+     "dt_parent_sec": 37683,
+     "dt_thread_sec": 37683,
+     "state": "coded",
+     "code_ids": [
+      "c0016",
+      "c0017"
+     ],
+     "labels": [
+      "creating a Discord to discuss more easily",
+      "keeping the important stuff in the subreddit"
+     ],
+     "sequence": [
+      "c0016",
+      "c0017",
+      "na"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493708416
+     }
+    }
+   },
+   "62wvw1": {
+    "0": {
+     "thread_id": "62wvw1",
+     "item_id": "62wvw1",
+     "parent_id": null,
+     "author": "_sam__",
+     "created_utc": 1491095444,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "asking for help with a Gomez they're starting"
+     ],
+     "sequence": [
+      "c0018",
+      "na"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 14,
+      "retrieved_on": 1494551413
+     }
+    },
+    "1": {
+     "thread_id": "62wvw1",
+     "item_id": "dfpq4tb",
+     "parent_id": "62wvw1",
+     "author": "Mtoaste",
+     "created_utc": 1491098581,
+     "dt_parent_sec": 3137,
+     "dt_thread_sec": 3137,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "joining the Gomez build"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493719116
+     }
+    },
+    "2": {
+     "thread_id": "62wvw1",
+     "item_id": "dfptgna",
+     "parent_id": "62wvw1",
+     "author": "Thecactigod",
+     "created_utc": 1491104221,
+     "dt_parent_sec": 8777,
+     "dt_thread_sec": 8777,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "making the mouth first as a reference point"
+     ],
+     "sequence": [
+      "na",
+      "c0020"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493720728
+     }
+    },
+    "3": {
+     "thread_id": "62wvw1",
+     "item_id": "dfptoad",
+     "parent_id": "62wvw1",
+     "author": "Cryptanark",
+     "created_utc": 1491104610,
+     "dt_parent_sec": 9166,
+     "dt_thread_sec": 9166,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "working on Gomez right now"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493720830
+     }
+    },
+    "4": {
+     "thread_id": "62wvw1",
+     "item_id": "dfpzbjt",
+     "parent_id": "62wvw1",
+     "author": "_sam__",
+     "created_utc": 1491117183,
+     "dt_parent_sec": 21739,
+     "dt_thread_sec": 21739,
+     "state": "coded",
+     "code_ids": [
+      "c0022",
+      "c0023"
+     ],
+     "labels": [
+      "celebrating the beautiful Gomez everyone made",
+      "correcting the Gomez shading"
+     ],
+     "sequence": [
+      "c0022",
+      "na",
+      "c0023",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "edited": 1491119656,
+      "score": 2,
+      "retrieved_on": 1493723551
+     }
+    },
+    "5": {
+     "thread_id": "62wvw1",
+     "item_id": "dfq0i1a",
+     "parent_id": "62wvw1",
+     "author": "ArchdukeOfWalesland",
+     "created_utc": 1491120719,
+     "dt_parent_sec": 25275,
+     "dt_thread_sec": 25275,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "trying a FEZ to the right of Gomez"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493724120
+     }
+    }
+   },
+   "62yrwu": {
+    "0": {
+     "thread_id": "62yrwu",
+     "item_id": "62yrwu",
+     "parent_id": null,
+     "author": "ArchdukeOfWalesland",
+     "created_utc": 1491124768,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "putting more art to the right of Gomez"
+     ],
+     "sequence": [
+      "c0025"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1494552358
+     }
+    },
+    "1": {
+     "thread_id": "62yrwu",
+     "item_id": "dfq2iv9",
+     "parent_id": "62yrwu",
+     "author": "ArchdukeOfWalesland",
+     "created_utc": 1491127984,
+     "dt_parent_sec": 3216,
+     "dt_thread_sec": 3216,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "giving Denmark a fight"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 0.45,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493725094
+     }
+    }
+   },
+   "62yxei": {
+    "0": {
+     "thread_id": "62yxei",
+     "item_id": "62yxei",
+     "parent_id": null,
+     "author": "mirage27",
+     "created_utc": 1491127879,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "proposing the serious Gomez"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494552433
+     }
+    }
+   },
+   "62z92a": {
+    "0": {
+     "thread_id": "62z92a",
+     "item_id": "62z92a",
+     "parent_id": null,
+     "author": "ArchdukeOfWalesland",
+     "created_utc": 1491133908,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "celebrating that they did it"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 43,
+      "retrieved_on": 1494552595
+     }
+    },
+    "1": {
+     "thread_id": "62z92a",
+     "item_id": "dfq4b04",
+     "parent_id": "62z92a",
+     "author": "lumocgameplay",
+     "created_utc": 1491134162,
+     "dt_parent_sec": 254,
+     "dt_thread_sec": 254,
+     "state": "coded",
+     "code_ids": [
+      "c0029",
+      "c0030"
+     ],
+     "labels": [
+      "a Dane defending their right",
+      "setting a limit on how much space to take"
+     ],
+     "sequence": [
+      "c0029",
+      "na",
+      "c0030"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493725952
+     }
+    },
+    "2": {
+     "thread_id": "62z92a",
+     "item_id": "dfq7605",
+     "parent_id": "62z92a",
+     "author": "AbigailLilac",
+     "created_utc": 1491141095,
+     "dt_parent_sec": 7187,
+     "dt_thread_sec": 7187,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "praising the work"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493727338
+     }
+    },
+    "3": {
+     "thread_id": "62z92a",
+     "item_id": "dfqf2hp",
+     "parent_id": "62z92a",
+     "author": "_sam__",
+     "created_utc": 1491152980,
+     "dt_parent_sec": 19072,
+     "dt_thread_sec": 19072,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "celebrating everyone's work"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493731145
+     }
+    },
+    "4": {
+     "thread_id": "62z92a",
+     "item_id": "dfqkg0p",
+     "parent_id": "62z92a",
+     "author": "Anivionics",
+     "created_utc": 1491159863,
+     "dt_parent_sec": 25955,
+     "dt_thread_sec": 25955,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "adding a purple luster around the Fez"
+     ],
+     "sequence": [
+      "c0033",
+      "na"
+     ],
+     "coverage": 0.43,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733750
+     }
+    },
+    "5": {
+     "thread_id": "62z92a",
+     "item_id": "dfqvzly",
+     "parent_id": "62z92a",
+     "author": "Mtoaste",
+     "created_utc": 1491174952,
+     "dt_parent_sec": 41044,
+     "dt_thread_sec": 41044,
+     "state": "coded",
+     "code_ids": [
+      "c0034",
+      "c0035"
+     ],
+     "labels": [
+      "claiming they defeated Denmark",
+      "wanting to add more Fez stuff"
+     ],
+     "sequence": [
+      "c0034",
+      "c0035"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493739582
+     }
+    },
+    "5.1": {
+     "thread_id": "62z92a",
+     "item_id": "dfriigc",
+     "parent_id": "dfqvzly",
+     "author": "Charrick",
+     "created_utc": 1491211133,
+     "dt_parent_sec": 36181,
+     "dt_thread_sec": 77225,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "saying coordinated Danes are keeping Fez's borders intact"
+     ],
+     "sequence": [
+      "c0036",
+      "na"
+     ],
+     "coverage": 0.35,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751065
+     }
+    },
+    "5.1.1": {
+     "thread_id": "62z92a",
+     "item_id": "dfrj5d6",
+     "parent_id": "dfriigc",
+     "author": "Varia1",
+     "created_utc": 1491213119,
+     "dt_parent_sec": 1986,
+     "dt_thread_sec": 79211,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "asking whether placement is a free for all"
+     ],
+     "sequence": [
+      "na",
+      "c0037"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751372
+     }
+    },
+    "5.1.1.1": {
+     "thread_id": "62z92a",
+     "item_id": "dfrmf4g",
+     "parent_id": "dfrj5d6",
+     "author": "Charrick",
+     "created_utc": 1491221353,
+     "dt_parent_sec": 8234,
+     "dt_thread_sec": 87445,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "making factions and alliances for fun"
+     ],
+     "sequence": [
+      "na",
+      "c0038",
+      "na"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493753281
+     }
+    }
+   },
+   "633fjq": {
+    "0": {
+     "thread_id": "633fjq",
+     "item_id": "633fjq",
+     "parent_id": null,
+     "author": "Mtoaste",
+     "created_utc": 1491179864,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "asking whether anyone wants to try another design"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1494554755
+     }
+    },
+    "1": {
+     "thread_id": "633fjq",
+     "item_id": "dfrakr1",
+     "parent_id": "633fjq",
+     "author": "ArchdukeOfWalesland",
+     "created_utc": 1491192942,
+     "dt_parent_sec": 13078,
+     "dt_thread_sec": 13078,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "suggesting talking to Denmark first"
+     ],
+     "sequence": [
+      "na",
+      "c0040"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493746673
+     }
+    },
+    "1.1": {
+     "thread_id": "633fjq",
+     "item_id": "dfrowhn",
+     "parent_id": "dfrakr1",
+     "author": "kanyesaysilooklikemj",
+     "created_utc": 1491225638,
+     "dt_parent_sec": 32696,
+     "dt_thread_sec": 45774,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "reporting that coordinating Danes favor restoration"
+     ],
+     "sequence": [
+      "c0043",
+      "na"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493754477
+     }
+    },
+    "2": {
+     "thread_id": "633fjq",
+     "item_id": "dfrao9n",
+     "parent_id": "633fjq",
+     "author": "Fezthebear",
+     "created_utc": 1491193083,
+     "dt_parent_sec": 13219,
+     "dt_thread_sec": 13219,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "building under the turtle in their path"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746720
+     }
+    },
+    "3": {
+     "thread_id": "633fjq",
+     "item_id": "dfrifus",
+     "parent_id": "633fjq",
+     "author": "Galkzo",
+     "created_utc": 1491210906,
+     "dt_parent_sec": 31042,
+     "dt_thread_sec": 31042,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "warning they will fight the expansion"
+     ],
+     "sequence": [
+      "c0042",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493751031
+     }
+    }
+   },
+   "634r1i": {
+    "0": {
+     "thread_id": "634r1i",
+     "item_id": "634r1i",
+     "parent_id": null,
+     "author": "Fezthebear",
+     "created_utc": 1491195941,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0044",
+      "c0045"
+     ],
+     "labels": [
+      "thanking everyone for coming together",
+      "calling on everyone to protect Gomez"
+     ],
+     "sequence": [
+      "na",
+      "c0044",
+      "na",
+      "c0045"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1494555409
+     }
+    },
+    "1": {
+     "thread_id": "634r1i",
+     "item_id": "dfsaubq",
+     "parent_id": "634r1i",
+     "author": "Uber_Hyper_Cube",
+     "created_utc": 1491251978,
+     "dt_parent_sec": 56037,
+     "dt_thread_sec": 56037,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "apologising before repeating the post"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493767178
+     }
+    }
+   },
+   "634tv7": {
+    "0": {
+     "thread_id": "634tv7",
+     "item_id": "634tv7",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491197043,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "redrawing sunglasses to animate the time lapse"
+     ],
+     "sequence": [
+      "na",
+      "c0047"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494555448
+     }
+    },
+    "1": {
+     "thread_id": "634tv7",
+     "item_id": "dfre33d",
+     "parent_id": "634tv7",
+     "author": "ArchdukeOfWalesland",
+     "created_utc": 1491199278,
+     "dt_parent_sec": 2235,
+     "dt_thread_sec": 2235,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "saying animation would need Discord coordination"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 0.79,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493748932
+     }
+    }
+   },
+   "634xtq": {
+    "0": {
+     "thread_id": "634xtq",
+     "item_id": "634xtq",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491198734,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "making the fez light up"
+     ],
+     "sequence": [
+      "c0049"
+     ],
+     "coverage": 0.68,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494555502
+     }
+    }
+   },
+   "634z7n": {
+    "0": {
+     "thread_id": "634z7n",
+     "item_id": "634z7n",
+     "parent_id": null,
+     "author": "Anivionics",
+     "created_utc": 1491199349,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "making the background light up"
+     ],
+     "sequence": [
+      "c0050"
+     ],
+     "coverage": 0.84,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1494555521
+     }
+    },
+    "1": {
+     "thread_id": "634z7n",
+     "item_id": "dfre6le",
+     "parent_id": "634z7n",
+     "author": "ArchdukeOfWalesland",
+     "created_utc": 1491199487,
+     "dt_parent_sec": 138,
+     "dt_thread_sec": 138,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "keeping the effect small to avoid fights"
+     ],
+     "sequence": [
+      "c0051"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493748978
+     }
+    },
+    "1.1": {
+     "thread_id": "634z7n",
+     "item_id": "dfreccq",
+     "parent_id": "dfre6le",
+     "author": "Anivionics",
+     "created_utc": 1491199839,
+     "dt_parent_sec": 352,
+     "dt_thread_sec": 490,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "claiming a small spot as Fez territory"
+     ],
+     "sequence": [
+      "na",
+      "c0052"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493749057
+     }
+    }
+   },
+   "635pgu": {
+    "0": {
+     "thread_id": "635pgu",
+     "item_id": "635pgu",
+     "parent_id": null,
+     "author": "mirage27",
+     "created_utc": 1491212010,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0053",
+      "c0054"
+     ],
+     "labels": [
+      "asking r/Danemark to help make Gomez smile again",
+      "saying trolls are turning Gomez into Hitler"
+     ],
+     "sequence": [
+      "na",
+      "c0053",
+      "na",
+      "c0054",
+      "na"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "edited": 1491212381,
+      "score": 4,
+      "retrieved_on": 1494555884
+     }
+    },
+    "1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrkew4",
+     "parent_id": "635pgu",
+     "author": "Nocturnal-Goat",
+     "created_utc": 1491216775,
+     "dt_parent_sec": 4765,
+     "dt_thread_sec": 4765,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "trying to spare the FEZ art"
+     ],
+     "sequence": [
+      "c0055",
+      "na"
+     ],
+     "coverage": 0.08,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493751983
+     }
+    },
+    "1.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrkhx4",
+     "parent_id": "dfrkew4",
+     "author": "mirage27",
+     "created_utc": 1491216995,
+     "dt_parent_sec": 220,
+     "dt_thread_sec": 4985,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "asking Denmark to spare Fez"
+     ],
+     "sequence": [
+      "c0056",
+      "na"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493752022
+     }
+    },
+    "1.1.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrkk78",
+     "parent_id": "dfrkhx4",
+     "author": "Nocturnal-Goat",
+     "created_utc": 1491217159,
+     "dt_parent_sec": 164,
+     "dt_thread_sec": 5149,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "answering that they are trying to spare Fez"
+     ],
+     "sequence": [
+      "c0057",
+      "na"
+     ],
+     "coverage": 0.11,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493752053
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrkqmz",
+     "parent_id": "dfrkk78",
+     "author": "mirage27",
+     "created_utc": 1491217613,
+     "dt_parent_sec": 454,
+     "dt_thread_sec": 5603,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "joining Denmark against griefers and postponing Fez"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493752139
+     }
+    },
+    "2": {
+     "thread_id": "635pgu",
+     "item_id": "dfrkrlw",
+     "parent_id": "635pgu",
+     "author": "ws_volt",
+     "created_utc": 1491217681,
+     "dt_parent_sec": 5671,
+     "dt_thread_sec": 5671,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493752153
+     }
+    },
+    "2.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrky8v",
+     "parent_id": "dfrkrlw",
+     "author": "CaSquall",
+     "created_utc": 1491218129,
+     "dt_parent_sec": 448,
+     "dt_thread_sec": 6119,
+     "state": "coded",
+     "code_ids": [
+      "c0092"
+     ],
+     "labels": [
+      "instructing flag builders to avoid pixel art"
+     ],
+     "sequence": [
+      "na",
+      "c0092",
+      "na"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493752428
+     }
+    },
+    "2.1.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrkyvg",
+     "parent_id": "dfrky8v",
+     "author": "ws_volt",
+     "created_utc": 1491218173,
+     "dt_parent_sec": 44,
+     "dt_thread_sec": 6163,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "saying Discord orders are failing on the canvas"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 0.71,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752557
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrl0sg",
+     "parent_id": "dfrkyvg",
+     "author": "Mig_Mikkel",
+     "created_utc": 1491218303,
+     "dt_parent_sec": 130,
+     "dt_thread_sec": 6293,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "saying Danes collectively decided to defend Fez"
+     ],
+     "sequence": [
+      "c0060"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752594
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrl47m",
+     "parent_id": "dfrl0sg",
+     "author": "mirage27",
+     "created_utc": 1491218526,
+     "dt_parent_sec": 223,
+     "dt_thread_sec": 6516,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "letting Gomez be eaten before rebuilding"
+     ],
+     "sequence": [
+      "c0063",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752640
+     }
+    },
+    "2.1.2": {
+     "thread_id": "635pgu",
+     "item_id": "dfrl0v2",
+     "parent_id": "dfrky8v",
+     "author": "mirage27",
+     "created_utc": 1491218308,
+     "dt_parent_sec": 179,
+     "dt_thread_sec": 6298,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "accepting the flag if Denmark helps rebuild"
+     ],
+     "sequence": [
+      "c0061"
+     ],
+     "coverage": 0.56,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493752595
+     }
+    },
+    "2.1.2.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrl41v",
+     "parent_id": "dfrl0v2",
+     "author": "CaSquall",
+     "created_utc": 1491218515,
+     "dt_parent_sec": 207,
+     "dt_thread_sec": 6505,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "promising help after the flag is finished"
+     ],
+     "sequence": [
+      "c0062"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752638
+     }
+    },
+    "2.1.2.1.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrl8hk",
+     "parent_id": "dfrl41v",
+     "author": "mirage27",
+     "created_utc": 1491218809,
+     "dt_parent_sec": 294,
+     "dt_thread_sec": 6799,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "asking to join Denmark's Discord"
+     ],
+     "sequence": [
+      "c0064",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752698
+     }
+    },
+    "2.1.2.1.1.1": {
+     "thread_id": "635pgu",
+     "item_id": "dfrlhaz",
+     "parent_id": "dfrl8hk",
+     "author": "CaSquall",
+     "created_utc": 1491219366,
+     "dt_parent_sec": 557,
+     "dt_thread_sec": 7356,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "giving the Discord invite"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752817
+     }
+    },
+    "3": {
+     "thread_id": "635pgu",
+     "item_id": "dfrl1t7",
+     "parent_id": "635pgu",
+     "author": "Skateboard_Raptor",
+     "created_utc": 1491218367,
+     "dt_parent_sec": 6357,
+     "dt_thread_sec": 6357,
+     "state": "coded",
+     "code_ids": [
+      "c0093"
+     ],
+     "labels": [
+      "promising to rebuild after the flag is in place"
+     ],
+     "sequence": [
+      "c0093"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752608
+     }
+    },
+    "4": {
+     "thread_id": "635pgu",
+     "item_id": "dfrl3fv",
+     "parent_id": "635pgu",
+     "author": "carlpriisholm",
+     "created_utc": 1491218477,
+     "dt_parent_sec": 6467,
+     "dt_thread_sec": 6467,
+     "state": "coded",
+     "code_ids": [
+      "c0094"
+     ],
+     "labels": [
+      "contrasting a majority trying to spare Fez with a few destroyers"
+     ],
+     "sequence": [
+      "na",
+      "c0094",
+      "na"
+     ],
+     "coverage": 0.45,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752629
+     }
+    }
+   },
+   "63648g": {
+    "0": {
+     "thread_id": "63648g",
+     "item_id": "63648g",
+     "parent_id": null,
+     "author": "Andazu",
+     "created_utc": 1491218468,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "announcing Denmark's alliance pledge"
+     ],
+     "sequence": [
+      "c0066"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494556093
+     }
+    }
+   },
+   "63655c": {
+    "0": {
+     "thread_id": "63655c",
+     "item_id": "63655c",
+     "parent_id": null,
+     "author": "Mig_Mikkel",
+     "created_utc": 1491218839,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "promising to help rebuild FEZ later"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 35,
+      "retrieved_on": 1494556105
+     }
+    },
+    "1": {
+     "thread_id": "63655c",
+     "item_id": "dfsemy9",
+     "parent_id": "63655c",
+     "author": "ArchdukeOfWalesland",
+     "created_utc": 1491256320,
+     "dt_parent_sec": 37481,
+     "dt_thread_sec": 37481,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "saying rebuilding is too late forever"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493769006
+     }
+    }
+   },
+   "63656x": {
+    "0": {
+     "thread_id": "63656x",
+     "item_id": "63656x",
+     "parent_id": null,
+     "author": "NolleDK",
+     "created_utc": 1491218858,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "proposing destruction first and rebuilding afterward"
+     ],
+     "sequence": [
+      "na",
+      "c0069"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1494556106
+     }
+    },
+    "1": {
+     "thread_id": "63656x",
+     "item_id": "dfrlbjh",
+     "parent_id": "63656x",
+     "author": "jpamills",
+     "created_utc": 1491219005,
+     "dt_parent_sec": 147,
+     "dt_thread_sec": 147,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "showing the planned expansion"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752740
+     }
+    }
+   },
+   "63659n": {
+    "0": {
+     "thread_id": "63659n",
+     "item_id": "63659n",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491218890,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "mourning being swallowed by Denmark"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 0.7,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494556107
+     }
+    },
+    "1": {
+     "thread_id": "63659n",
+     "item_id": "dfrlaua",
+     "parent_id": "63659n",
+     "author": "Mig_Mikkel",
+     "created_utc": 1491218962,
+     "dt_parent_sec": 72,
+     "dt_thread_sec": 72,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "denying Denmark is responsible"
+     ],
+     "sequence": [
+      "c0072",
+      "na"
+     ],
+     "coverage": 0.12,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752731
+     }
+    },
+    "1.1": {
+     "thread_id": "63659n",
+     "item_id": "dfrle7i",
+     "parent_id": "dfrlaua",
+     "author": "rumblebe3",
+     "created_utc": 1491219175,
+     "dt_parent_sec": 213,
+     "dt_thread_sec": 285,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "withdrawing the post after seeing the correction"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752776
+     }
+    }
+   },
+   "6365o0": {
+    "0": {
+     "thread_id": "6365o0",
+     "item_id": "6365o0",
+     "parent_id": null,
+     "author": "Andazu",
+     "created_utc": 1491219013,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "pledging alliance and saying they mean no harm"
+     ],
+     "sequence": [
+      "c0074"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494556112
+     }
+    },
+    "1": {
+     "thread_id": "6365o0",
+     "item_id": "dfrld2o",
+     "parent_id": "6365o0",
+     "author": "Andazu",
+     "created_utc": 1491219106,
+     "dt_parent_sec": 93,
+     "dt_thread_sec": 93,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "planning to restore Fez after expanding the flag"
+     ],
+     "sequence": [
+      "na",
+      "c0075",
+      "na"
+     ],
+     "coverage": 0.14,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752760
+     }
+    }
+   },
+   "6365s5": {
+    "0": {
+     "thread_id": "6365s5",
+     "item_id": "6365s5",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491219059,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "sharing plans for after the Denmark flag"
+     ],
+     "sequence": [
+      "c0076"
+     ],
+     "coverage": 0.74,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494556114
+     }
+    },
+    "1": {
+     "thread_id": "6365s5",
+     "item_id": "dfrq9wm",
+     "parent_id": "6365s5",
+     "author": "gamingvikingz",
+     "created_utc": 1491227623,
+     "dt_parent_sec": 8564,
+     "dt_thread_sec": 8564,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "offering to help restore Fez"
+     ],
+     "sequence": [
+      "na",
+      "c0077"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493755280
+     }
+    }
+   },
+   "6373e5": {
+    "0": {
+     "thread_id": "6373e5",
+     "item_id": "6373e5",
+     "parent_id": null,
+     "author": "vikkedesign",
+     "created_utc": 1491229578,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0078",
+      "c0079"
+     ],
+     "labels": [
+      "making a script to make up for removing Fez",
+      "recruiting people to run the rebuild script"
+     ],
+     "sequence": [
+      "na",
+      "c0078",
+      "c0079",
+      "na"
+     ],
+     "coverage": 0.21,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494556587
+     }
+    }
+   },
+   "6376ml": {
+    "0": {
+     "thread_id": "6376ml",
+     "item_id": "6376ml",
+     "parent_id": null,
+     "author": "mirage27",
+     "created_utc": 1491230473,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "building over the swan with Denmark's blessing"
+     ],
+     "sequence": [
+      "na",
+      "c0080",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494556632
+     }
+    },
+    "1": {
+     "thread_id": "6376ml",
+     "item_id": "dfrsr9z",
+     "parent_id": "6376ml",
+     "author": "CaSquall",
+     "created_utc": 1491230808,
+     "dt_parent_sec": 335,
+     "dt_thread_sec": 335,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "warning that warmongers seized Denmark"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493756726
+     }
+    },
+    "1.1": {
+     "thread_id": "6376ml",
+     "item_id": "dfrsya7",
+     "parent_id": "dfrsr9z",
+     "author": "mirage27",
+     "created_utc": 1491231040,
+     "dt_parent_sec": 232,
+     "dt_thread_sec": 567,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "trusting Denmark to help despite internal conflict"
+     ],
+     "sequence": [
+      "na",
+      "c0082"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "edited": 1491232719,
+      "score": 1,
+      "retrieved_on": 1493756888
+     }
+    },
+    "2": {
+     "thread_id": "6376ml",
+     "item_id": "dfrssm5",
+     "parent_id": "6376ml",
+     "author": "emilsj",
+     "created_utc": 1491230853,
+     "dt_parent_sec": 380,
+     "dt_thread_sec": 380,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493756778
+     }
+    },
+    "2.1": {
+     "thread_id": "6376ml",
+     "item_id": "dfrtiri",
+     "parent_id": "dfrssm5",
+     "author": "mirage27",
+     "created_utc": 1491231702,
+     "dt_parent_sec": 849,
+     "dt_thread_sec": 1229,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "asking Denmark to direct builders"
+     ],
+     "sequence": [
+      "c0083"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493757523
+     }
+    },
+    "2.1.1": {
+     "thread_id": "6376ml",
+     "item_id": "dfrtpnh",
+     "parent_id": "dfrtiri",
+     "author": "emilsj",
+     "created_utc": 1491231930,
+     "dt_parent_sec": 228,
+     "dt_thread_sec": 1457,
+     "state": "coded",
+     "code_ids": [
+      "c0084"
+     ],
+     "labels": [
+      "passing the template into Denmark's Discord"
+     ],
+     "sequence": [
+      "c0084"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493757691
+     }
+    }
+   },
+   "6384mc": {
+    "0": {
+     "thread_id": "6384mc",
+     "item_id": "6384mc",
+     "parent_id": null,
+     "author": "FishAndBiscuits",
+     "created_utc": 1491239402,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0085",
+      "c0086"
+     ],
+     "labels": [
+      "apologising for Fez's absence from the final canvas",
+      "asking to remain subreddit buddies"
+     ],
+     "sequence": [
+      "na",
+      "c0085",
+      "na",
+      "c0086",
+      "na"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 20,
+      "retrieved_on": 1494557106
+     }
+    },
+    "1": {
+     "thread_id": "6384mc",
+     "item_id": "dfsjxc3",
+     "parent_id": "6384mc",
+     "author": "5a616368617279",
+     "created_utc": 1491262820,
+     "dt_parent_sec": 23418,
+     "dt_thread_sec": 23418,
+     "state": "coded",
+     "code_ids": [
+      "c0087",
+      "c0088"
+     ],
+     "labels": [
+      "saying Denmark owes Fez one",
+      "agreeing they should still be cool"
+     ],
+     "sequence": [
+      "c0087",
+      "c0088"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493771558
+     }
+    },
+    "1.1": {
+     "thread_id": "6384mc",
+     "item_id": "dft6fc8",
+     "parent_id": "dfsjxc3",
+     "author": "FishAndBiscuits",
+     "created_utc": 1491303036,
+     "dt_parent_sec": 40216,
+     "dt_thread_sec": 63634,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493782654
+     }
+    },
+    "1.1.1": {
+     "thread_id": "6384mc",
+     "item_id": "dftbvoq",
+     "parent_id": "dft6fc8",
+     "author": "Rudey24",
+     "created_utc": 1491313080,
+     "dt_parent_sec": 10044,
+     "dt_thread_sec": 73678,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "asking Denmark for Fez II"
+     ],
+     "sequence": [
+      "c0089"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493785281
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "6384mc",
+     "item_id": "dfti3x6",
+     "parent_id": "dftbvoq",
+     "author": "FishAndBiscuits",
+     "created_utc": 1491320469,
+     "dt_parent_sec": 7389,
+     "dt_thread_sec": 81067,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "offering Danish beer instead of Fez II"
+     ],
+     "sequence": [
+      "na",
+      "c0090"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493789098
+     }
+    }
+   },
+   "638yqa": {
+    "0": {
+     "thread_id": "638yqa",
+     "item_id": "638yqa",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491247120,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0091"
+     ],
+     "labels": [
+      "sharing a song to mourn Gomez"
+     ],
+     "sequence": [
+      "c0091"
+     ],
+     "coverage": 0.75,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494557531
+     }
+    }
+   }
+  }
+ }
+}

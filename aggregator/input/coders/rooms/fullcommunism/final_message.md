@@ -1,0 +1,1 @@
+r/fullcommunism — verdict: **full**. Thematic saturation: later slices repeated established practices. Record saturation: limited by removals, images, off-platform activity, and continuing threads. Blockers: none.

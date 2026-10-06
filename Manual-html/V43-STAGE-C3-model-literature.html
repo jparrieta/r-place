@@ -1,0 +1,193 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage C3. The model against the literature.</h1>
+<p>**Model:** as <code>arm.json</code> sets for this stage (your platform file lists the model and effort). **Legs:** one per shelf pass (contradicting work; resembling work, with the</p>
+<p>concept; the four problems), closed at the pass&#x27;s end or earlier when you choose; every recut</p>
+<p>the literature forces is logged and snapped when it is made (§6). **Fleet:** none.</p>
+<p>**Steps:** <code>C3a</code> the contradicting shelf; <code>C3b</code> the resembling shelf; <code>C3c</code> the four problems (§1&#x27;s claim put to the structure), the handback and the interview. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after each logged recut, and after each shelf pass. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh C3 --pause</code> (STANDING §2).</p>
+<p>**Startup packet:** <code>_head.md</code>, this file, the last five diary entries, <code>validate.py --open C3</code>.</p>
+<p>First leg: the explanation shelf arrives, its read tier shipped with this stage and its</p>
+<p>on-request tier listed one line each (<code>mem.py shelf --list</code>, <code>mem.py shelf &lt;name&gt;</code>); <code>prior.md</code>,</p>
+<p>read before anything else; <code>concept.md</code>; <code>notes-A1.md</code>, opened only at §7.</p>
+<p>**Reads allowed:** every shelf that has arrived (nothing served once is taken away); <code>model/</code>,</p>
+<p><code>model.md</code>, <code>structure.md</code>, <code>dimensions.jsonl</code>, <code>fourth/fourth.jsonl</code>, <code>concept.md</code>,</p>
+<p><code>findings.jsonl</code>, <code>prior.md</code>; the store through <code>mem.py</code> (<code>where</code>, <code>codes --third</code>, <code>after</code>);</p>
+<p>rooms by query for a check, and rooms whole through the verbs for an abductive read (§1);</p>
+<p>quotes through <code>cite.py</code>. **Forbidden:** rewriting the story (that</p>
+<p>is C5); opening <code>field/</code>, which arrives at stage C4; renaming a third-order theme after a construct (contract §1); a change from a read of the</p>
+<p>corpus that is not flagged <code>abductive</code> with the paper that prompted it (§1); the canvas as an undeclared ground (rule 7).</p>
+<p>**Outputs:** <code>literature-C3.md</code>; <code>findings.jsonl</code> lines with literature ids; <code>mapping-C3.jsonl</code>;</p>
+<p>mechanisms rewritten in <code>model/arrows.jsonl</code>, each a <code>model/history.jsonl</code> line; wherever this</p>
+<p>stage changes something, <code>model-C3.md</code>, <code>structure-C3.md</code> and <code>concept-C3.md</code>, each a whole</p>
+<p>file superseding the stage C2 file (rule 18; a file holding only what changed is read</p>
+<p>downstream as the whole thing), and <code>manifest-C3.txt</code>, one line per stage C2 file saying</p>
+<p>whether it has a stage C3 successor, which stage C5 reads first; a recut is not a superseding</p>
+<p>file: the tier file is amended and the superseded line goes to <code>tier_history.jsonl</code>, as stage</p>
+<p>C2 says; when the third-order tier is recut, <code>scheme_v2.jsonl</code> and <code>assignments_final.jsonl</code> rewritten</p>
+<p>(<code>mem.py mint</code>, then <code>mem.py reassign</code>, as stage C2 says); <code>notes-C3.md</code>.</p>
+<h2>1. The sequence, and the log point</h2>
+<p>**Nothing is read against the explanation literature before this stage** (contract §4). Within</p>
+<p>it, **read <code>prior.md</code> first**, and restate in <code>notes-C3.md</code> what you expected; read after a</p>
+<p>conclusion has formed, it can no longer tell a finding from a prior. Then, before you open the</p>
+<p>shelf, re-read <code>METHOD.md</code>&#x27;s first section and every shelf already held (<code>mem.py shelf</code>): the</p>
+<p>v35 analyst had forgotten the method shelf by the time the next arrived, and an explanation</p>
+<p>read on a forgotten foundation is a relabelling waiting to happen.</p>
+<p>**Record where the read logs stand before you open the shelf**: the line counts of</p>
+<p><code>_cite_reads-C3.jsonl</code> and <code>_mem_reads-C3.jsonl</code>, in <code>notes-C3.md</code> and logged. Count them</p>
+<p>yourself; <code>cite.py</code>&#x27;s sequence counter resets when the tool is constructed. From there on, **a read of the rooms prompted by a paper is an abductive read, and it may add</p>
+<p>or change a theme or an arrow**, as Gioia, Corley and Hamilton cycle between the data and the</p>
+<p>literature. Log it before you read (<code>mem.py log --kind abductive</code>, the paper and what it made you</p>
+<p>look for). A change it makes carries <code>&quot;abductive&quot;: true</code> and <code>&quot;prompted_by&quot;: &quot;&lt;author year&gt;&quot;</code> on</p>
+<p>its <code>model/history.jsonl</code> or <code>tier_history.jsonl</code> line, and is listed in <code>literature-C3.md</code>, so</p>
+<p>a reader can tell what the rooms showed unprompted from what a paper made you find. A read to</p>
+<p>check a quote or a count is not abductive and carries no flag. The log records what was served</p>
+<p>and not why, so it cannot tell a check from an abductive read you did not log; say so in</p>
+<p><code>literature-C3.md</code>.</p>
+<p>**If a work changes what a claim rests on, write a switch record** (Günther, Joshi and</p>
+<p>Constantinides 2026, p. 872; contract §1, two kinds of claim), one paragraph in</p>
+<p><code>literature-C3.md</code> per switch: the work and the cue that triggered it; what moved (a claim that</p>
+<p>rested on the rooms&#x27; words now rests on a pattern across rooms, or the reverse; a name that was</p>
+<p>the participants&#x27; now the literature&#x27;s); which earlier work is redone or rechecked, with the leg</p>
+<p>that does it; what differs in the output; why the state after the switch serves the claim</p>
+<p>better; and the <code>findings.jsonl</code> line that supersedes the earlier one (rule 14). A reading that</p>
+<p>leaves every claim resting where it rested is not a switch and gets no record; this stage&#x27;s</p>
+<p>planned reading is the design, never a switch.</p>
+<p>**Say in <code>notes-C3.md</code>, first**, that the literature is read after the model and not through</p>
+<p>it; it is the design, not a departure, and no <code>departures.jsonl</code> line is written for it. Then</p>
+<p>say whether the substitution worked: whether knowing the contract&#x27;s §1 frame and not building</p>
+<p>with it was a distinction you could hold while writing the scheme and adjudicating its</p>
+<p>placements.</p>
+<h2>2. How to cite</h2>
+<p>Mark every claim about the literature one of two ways: **<code>verified</code>**, you opened it on the</p>
+<p>shelf in this session and can quote it; **<code>recalled</code>**, you are working from what you know, with</p>
+<p>author, year and the claim you are attributing, so a reader can check it. A work on the</p>
+<p>on-request tier is <code>recalled</code> until served. **Do not invent a reference, a title, a year or a</p>
+<p>quotation, and do not attach a real author to a claim you are not sure they made.** Where you</p>
+<p>are unsure, write *I believe this literature holds X but cannot verify it here* and carry on.</p>
+<h2>3. Leg 1: work that contradicts the model</h2>
+<p>Work that reports the opposite of what you found, or that explains your phenomenon with</p>
+<p>something you did not use. For each: the two claims, one sentence each; what in the record</p>
+<p>decides between them, with a room and a quote through <code>cite.py</code> or a transition; and which of</p>
+<p>three things is true: the accounts</p>
+<p>disagree about the world, they disagree about the setting, or they are about different things</p>
+<p>and one of you has the wrong name for it. Say which. Then whether the disagreement bounds your</p>
+<p>claim (a condition, rule 16, written into the finding) or the work&#x27;s (a scope this material</p>
+<p>falls outside). A contradiction you cannot decide from the record is reported as open, with</p>
+<p>what would decide it.</p>
+<h2>4. Leg 2: work that resembles the model</h2>
+<h3>4a. Distant fields, and the mechanisms</h3>
+<p>**This is the pass that supplies mechanisms.** Take your model&#x27;s arrows, particularly the ones</p>
+<p>whose <code>mechanism</code> you found hardest to write, and ask what other literature describes the same</p>
+<p>move, going deliberately outside organization studies. For each match: what the distant work</p>
+<p>holds the mechanism to be, and whether it fits here. For each resembling work: what it names that</p>
+<p>you named differently (the fourth-order theme or dimension, its declaration updated under §6);</p>
+<p>what it explains that yours does not, and the reverse.</p>
+<p>**Where it fits, rewrite that arrow&#x27;s <code>mechanism</code> in <code>model/arrows.jsonl</code> and in <code>model-C3.md</code>,</p>
+<p>keep the stage C2 sentence beside it as <code>mechanism_C2</code>, mark the arrow `mechanism_source:</p>
+<p>from-literature<code> with the work named, and write the </code>model/history.jsonl` line.** Stage C5</p>
+<p>takes each mechanism from the arrow that grounds it; one left only in <code>literature-C3.md</code> is</p>
+<p>invisible downstream. Re-read <code>mechanism_fails_if</code> against the new sentence; a mechanism no</p>
+<p>observation here could show failing makes the arrow theorised, listed apart.</p>
+<p>Where the distant work predicts something here you have not looked for, that is an abductive</p>
+<p>read (§1), logged before you read. Test it, record the result either way, and say whether it</p>
+<p>qualified, bounded, added or changed an arrow or a theme. If you decline the read, say why.</p>
+<h3>4b. The concept</h3>
+<p>Stage C2 named a concept and guessed at its nearest existing referent from recollection. Test</p>
+<p>the guess against the shelf, the difference stated so a reader could test it. Three outcomes:</p>
+<p>- **It survives.** The literature has no adequate referent. Say what the nearest three are and</p>
+<p>  how each falls short.</p>
+<p>- **It is a relabelling.** Adopt the existing name, rename the concept as borrowed, and say what</p>
+<p>  your material adds, usually a setting, a boundary, or a mechanism the original did not have;</p>
+<p>  the finding says so.</p>
+<p>- **It is a relabelling and adds nothing.** Then the study produced a description and the model</p>
+<p>  stands without a named concept at its centre. Write that; stage C5&#x27;s propositions do not</p>
+<p>  depend on a concept surviving.</p>
+<p>If this pass changes the concept, write <code>concept-C3.md</code> whole and leave <code>concept.md</code> standing.</p>
+<h2>5. Leg 3: the four problems, put to the structure</h2>
+<p>The contract&#x27;s §1 claim is that every group with a goal must solve four problems, task</p>
+<p>division, task allocation, reward provision and information provision, whether or not anyone</p>
+<p>says so. The definition assumes a goal; establish from evidence whether each group inherited,</p>
+<p>negotiated, contested or changed its goal (Felin and Zenger 2016 and 2017 put</p>
+<p>that gap, the chosen problem, at the centre of strategy). Put the claim to your structure and model as they stand; **do not revise them to accommodate</p>
+<p>it**, and be specific enough to be wrong.</p>
+<p>**The one written operation** (contract §1): for every fourth-order theme, which of the four</p>
+<p>problems it is a way of handling, or none, one line in <code>mapping-C3.jsonl</code> with a clause of why;</p>
+<p>the mapped set is the match, the unmapped set the remainder, and each mapped problem carries</p>
+<p>the sentence saying what this material&#x27;s version of it cannot do. A fourth-order theme that</p>
+<p>already carries one of the four&#x27;s names under its declaration answers this pass by</p>
+<p>construction; say so first, and what the pass asks of it is that sentence, and whether the</p>
+<p>frame&#x27;s version would have cut the theme where you did. Treat the remainder as a candidate extension. Test whether it is a different mechanism,</p>
+<p>a renamed instance, a change of level or an evidence gap. An empty remainder is allowed.</p>
+<pre><code>
+{&quot;fourth&quot;: &quot;T4-003&quot;, &quot;problem&quot;: &quot;division|allocation|reward|information|none&quot;,
+
+ &quot;why&quot;: &quot;...&quot;, &quot;cannot_do&quot;: &quot;...&quot;}
+
+</code></pre>
+<p>Two limits. Your evidence is talk and the claim is about arrangements: a group can allocate</p>
+<p>work perfectly and never write a word about it, and the contract&#x27;s §5 holds you to organizing</p>
+<p>*done in public*. And there is no denominator: you have the share of coded records that maps</p>
+<p>onto each problem, confounded as §5 describes, not the share of groups that solved it.</p>
+<p>Answer in seven parts, in <code>literature-C3.md</code>:</p>
+<p>1. **What you expected**, quoted from <code>prior.md</code> rather than remembered: which of those things</p>
+<p>   you found, whether any turned up only where the material was thin, and what <code>prior.md</code> holds</p>
+<p>   that your structure has no room for.</p>
+<p>2. **What in your structure speaks to the claim**, fourth-order theme by fourth-order theme from</p>
+<p>   the mapping, with counts and rule 5&#x27;s gate, and for each whether the material put it there or</p>
+<p>   you did.</p>
+<p>3. **What your structure carries that the claim has no place for**, the remainder, if any. Explain why it extends the framework. Be specific, and quote through <code>cite.py</code>.</p>
+<p>4. **Which of the four your structure reaches richly, which thinly, and which not at all**, and</p>
+<p>   for each thin or absent one whether the limit is in the material, in the coders&#x27; selection,</p>
+<p>   or in your own pruning. Where one comes back nearly empty, take a side: did these rooms not</p>
+<p>   solve that problem, or can your instrument not see it? Say which you think and why. Stage</p>
+<p>   E1&#x27;s account of what the study cannot say inherits this paragraph directly.</p>
+<p>5. **The goal.** Where in the structure and the model the making of a goal sits, its contest and</p>
+<p>   its change, and what its setting did to the four problems; a finding, never a premise, and</p>
+<p>   if the structure has no place for it, say so as a finding about the structure.</p>
+<p>6. **Whether your material supports the claim, contradicts it, or is silent**, with §5&#x27;s</p>
+<p>   warning on every count: a claim about what is *absent* here is a claim about small rooms</p>
+<p>   writing in public, and every absence claim is marked weak.</p>
+<p>7. **Whether the claim is answerable with this material at all.** *The structure does not speak</p>
+<p>   to this* is a complete answer.</p>
+<h2>6. Keep the construct declarations current</h2>
+<p>Where the shelf shows a construct is borrowed or adapted rather than coined, or mistaken for a</p>
+<p>construct you had not named, amend its <code>construct</code> block (stage C2 §2) and log the event, with</p>
+<p>the sentence saying what this material&#x27;s version cannot do wherever the name is borrowed; the</p>
+<p>third-order themes stay descriptive and do not change here (contract §1). Record what changed</p>
+<p>in <code>structure-C3.md</code>.</p>
+<p>**You may recut fourth-order themes and dimensions here, and the third-order tier too, under</p>
+<p>rule 11** (a third-order recut is written as stage C2 says: <code>scheme_v2.jsonl</code> and <code>mem.py reassign</code>), and stage C2&#x27;s rule on the dimension tier holds through every recut: no number is</p>
+<p>set, a fourth-order theme may gather under no dimension, the dimensions hold apart pairwise, and</p>
+<p>collapsing to one is examined with its candidates and runner-up, never an automatic failure or an</p>
+<p>answer; a recut that empties the tier is reported the same way. Every <code>findings.jsonl</code> line a</p>
+<p>recut touches is re-examined in the same act (rule 14). A literature that shows a fourth-order</p>
+<p>theme holding two things the field keeps apart means the cut was wrong. Amend the rule first,</p>
+<p>append the event to <code>tier_history.jsonl</code> with its move and one clause of reason, amend the tier</p>
+<p>file, re-place what the amendment touches yourself under the amended rule, redraw whatever</p>
+<p>depended on it, and log the move (<code>mem.py log --kind move</code>) and snap it (`python3 tools/snap.py</p>
+<p>C3 move-&lt;move&gt;-&lt;n&gt;`) as you make it.</p>
+<p>**What changes, and what does not.** A finding changed by a recut says in <code>findings.jsonl</code> what</p>
+<p>changed it (rule 13). Nothing in the model is withdrawn because a work says otherwise; it is</p>
+<p>bounded, or the disagreement is printed beside it.</p>
+<h2>7. Stage A1&#x27;s three sentences</h2>
+<p>Read them now, from <code>notes-A1.md</code>, for the first time since. Say in <code>notes-C3.md</code> which of this</p>
+<p>stage&#x27;s conclusions you would have reached anyway and which the material forced.</p>
+<h2>Moments to log</h2>
+<p>The log point; each work read and what it did to which claim, <code>verified</code> or <code>recalled</code>; the</p>
+<p>abductive read, with its paper and what it changed or did not, or its refusal; each switch</p>
+<p>record, or that none was needed; each mapping line; each declaration amended; each recut by</p>
+<p>move; the three sentences read.</p>
+<h2>Final message</h2>
+<p>The claim (what the literature changed about the model), the room that best supports the</p>
+<p>model&#x27;s side, the room that most threatens it, and the condition that separates them. Then:</p>
+<p>works contradicting and how each resolved; works resembling; the one distant field that supplied</p>
+<p>a mechanism; findings bounded and changed; declarations updated and names changed; whether the</p>
+<p>concept survived; how much of <code>prior.md</code> came true; fourth-order themes mapped to each problem</p>
+<p>and the size of the remainder; files with a stage C3 successor; citations <code>verified</code> and</p>
+<p><code>recalled</code>; the log point at which this stage began; the licences exercised and not</p>
+<p>(METHOD.md).</p>
+<h2>Close</h2>
+<p><code>done.sh C3</code> at the end of every pass, or earlier when you choose, every recut logged and</p>
+<p>snapped as it was made; paste the close-check report into</p>
+<p><code>notes-C3.md</code>; <code>handback-C3.md</code>; the head; the closing diary line.</p>
+<p>**Interview point.** <code>C3c</code> writes <code>out/interview/C3c.md</code> (under 800 words: what you did, what you found, what surprised you, what you doubt, and the three questions you would most like to be asked) and closes with <code>done.sh C3 --cut interview</code>: the model read against the literature: what it borrowed, what it contradicts, what no paper has. The principal investigator may talk with you here, in a fork of this leg, run in a copy of your folder as it stood at the close (not read-only; nothing done there reaches the run); the run goes on from the cut either way. <code>done.sh</code> files the brief under the leg, the stage, the step and the minute, and refuses the cut without the brief (and, at a stage&#x27;s end, without the handback).</p></html>

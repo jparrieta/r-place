@@ -1,0 +1,5695 @@
+{
+ "dwarffortress": {
+  "counts": {
+   "threads_given": 86,
+   "threads_with_codes": 86,
+   "items": 807,
+   "coded": 159,
+   "bridge": 83,
+   "removed": 0,
+   "dropped": 565,
+   "orphans": 0,
+   "na_stretches": 113,
+   "coverage_of_coded_items": 0.53,
+   "threads_total_in_window": 198
+  },
+  "index": {
+   "62n07n": {
+    "0": {
+     "thread_id": "62n07n",
+     "item_id": "62n07n",
+     "parent_id": null,
+     "author": "TheEqualsE",
+     "created_utc": 1490984514,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 11,
+      "author_flair_text": "The writing is reasonably serious.",
+      "retrieved_on": 1492475553
+     }
+    },
+    "1": {
+     "thread_id": "62n07n",
+     "item_id": "dfnsj58",
+     "parent_id": "62n07n",
+     "author": "TheEqualsE",
+     "created_utc": 1490984574,
+     "dt_parent_sec": 60,
+     "dt_thread_sec": 60,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "The writing is reasonably serious.",
+      "retrieved_on": 1491950428
+     }
+    },
+    "1.1": {
+     "thread_id": "62n07n",
+     "item_id": "dfp58on",
+     "parent_id": "dfnsj58",
+     "author": "TheEqualsE",
+     "created_utc": 1491067086,
+     "dt_parent_sec": 82512,
+     "dt_thread_sec": 82572,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "asking whether everyone is drawing dwarves on place"
+     ],
+     "sequence": [
+      "na",
+      "c0001"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "The writing is reasonably serious.",
+      "retrieved_on": 1493709010
+     }
+    }
+   },
+   "62n9hh": {
+    "0": {
+     "thread_id": "62n9hh",
+     "item_id": "62n9hh",
+     "parent_id": null,
+     "author": "AdvonKoulthar",
+     "created_utc": 1490986769,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0002",
+      "c0003"
+     ],
+     "labels": [
+      "calling good dwarves to work together",
+      "setting a starting coordinate for 'Slaves to Armok'"
+     ],
+     "sequence": [
+      "na",
+      "c0002",
+      "na",
+      "c0003"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "edited": 1490990219,
+      "score": 25,
+      "author_flair_text": "Mandates Elf-Bone Axes",
+      "retrieved_on": 1492475786
+     }
+    },
+    "1": {
+     "thread_id": "62n9hh",
+     "item_id": "dfo0ctj",
+     "parent_id": "62n9hh",
+     "author": "Theopeo1",
+     "created_utc": 1490993363,
+     "dt_parent_sec": 6594,
+     "dt_thread_sec": 6594,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "building a dwarf head and asking for help maintaining it"
+     ],
+     "sequence": [
+      "na",
+      "c0004",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "edited": 1490998403,
+      "score": 12,
+      "retrieved_on": 1491954216
+     }
+    },
+    "1.1": {
+     "thread_id": "62n9hh",
+     "item_id": "dfo2rou",
+     "parent_id": "dfo0ctj",
+     "author": "thriggle",
+     "created_utc": 1490996390,
+     "dt_parent_sec": 3027,
+     "dt_thread_sec": 9621,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1491955383
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62n9hh",
+     "item_id": "dfo30i9",
+     "parent_id": "dfo2rou",
+     "author": "Theopeo1",
+     "created_utc": 1490996705,
+     "dt_parent_sec": 315,
+     "dt_thread_sec": 9936,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "spending all efforts keeping the dwarf clean from green"
+     ],
+     "sequence": [
+      "na",
+      "c0005"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "edited": 1490996919,
+      "score": 2,
+      "retrieved_on": 1491955504
+     }
+    },
+    "1.2": {
+     "thread_id": "62n9hh",
+     "item_id": "dfo3hh3",
+     "parent_id": "dfo0ctj",
+     "author": "el_micha",
+     "created_utc": 1490997311,
+     "dt_parent_sec": 3948,
+     "dt_thread_sec": 10542,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "The Stars are Bold Tonight",
+      "retrieved_on": 1491955735
+     }
+    },
+    "1.2.1": {
+     "thread_id": "62n9hh",
+     "item_id": "dfo7nac",
+     "parent_id": "dfo3hh3",
+     "author": "Nucaranlaeg",
+     "created_utc": 1491002852,
+     "dt_parent_sec": 5541,
+     "dt_thread_sec": 16083,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1491957750
+     }
+    },
+    "1.2.1.1": {
+     "thread_id": "62n9hh",
+     "item_id": "dfo7s3v",
+     "parent_id": "dfo7nac",
+     "author": "Theopeo1",
+     "created_utc": 1491003028,
+     "dt_parent_sec": 176,
+     "dt_thread_sec": 16259,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "making a grid post to centralize the work"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 0.66,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1491957816
+     }
+    },
+    "1.3": {
+     "thread_id": "62n9hh",
+     "item_id": "dfo86r4",
+     "parent_id": "dfo0ctj",
+     "author": "TA8486486",
+     "created_utc": 1491003579,
+     "dt_parent_sec": 10216,
+     "dt_thread_sec": 16810,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1491958014
+     }
+    },
+    "1.3.1": {
+     "thread_id": "62n9hh",
+     "item_id": "dfo8c2j",
+     "parent_id": "dfo86r4",
+     "author": "Theopeo1",
+     "created_utc": 1491003779,
+     "dt_parent_sec": 200,
+     "dt_thread_sec": 17010,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "helping while asking others to keep the little man clean"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1491958086
+     }
+    }
+   },
+   "62o425": {
+    "0": {
+     "thread_id": "62o425",
+     "item_id": "62o425",
+     "parent_id": null,
+     "author": "DocSocrates",
+     "created_utc": 1490994194,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0008",
+      "c0009"
+     ],
+     "labels": [
+      "finishing the little guy for the glory of Armok",
+      "being kind to the neighbor and calling it a day"
+     ],
+     "sequence": [
+      "na",
+      "c0008",
+      "na",
+      "c0009",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "edited": 1491026737,
+      "score": 64,
+      "author_flair_text": "Legendary Wrestler",
+      "retrieved_on": 1492476361
+     }
+    },
+    "1": {
+     "thread_id": "62o425",
+     "item_id": "dfo356f",
+     "parent_id": "62o425",
+     "author": "crayolaclock",
+     "created_utc": 1490996874,
+     "dt_parent_sec": 2680,
+     "dt_thread_sec": 2680,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "gladly contributing pixels to put the little guy on the map"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "author_flair_text": "\u263bggggTgg",
+      "retrieved_on": 1491955568
+     }
+    },
+    "2": {
+     "thread_id": "62o425",
+     "item_id": "dfodkfb",
+     "parent_id": "62o425",
+     "author": "[deleted]",
+     "created_utc": 1491011160,
+     "dt_parent_sec": 16966,
+     "dt_thread_sec": 16966,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493695669
+     }
+    },
+    "2.1": {
+     "thread_id": "62o425",
+     "item_id": "dfodnjj",
+     "parent_id": "dfodkfb",
+     "author": "DocSocrates",
+     "created_utc": 1491011287,
+     "dt_parent_sec": 127,
+     "dt_thread_sec": 17093,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "Legendary Wrestler",
+      "retrieved_on": 1493695712
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62o425",
+     "item_id": "dfoehfg",
+     "parent_id": "dfodnjj",
+     "author": "StealthSuitMkII",
+     "created_utc": 1491012494,
+     "dt_parent_sec": 1207,
+     "dt_thread_sec": 18300,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "agreeing to trade N64 help for leaving the shrine alone"
+     ],
+     "sequence": [
+      "na",
+      "c0011"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493696112
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62o425",
+     "item_id": "dfoejeb",
+     "parent_id": "dfoehfg",
+     "author": "DocSocrates",
+     "created_utc": 1491012575,
+     "dt_parent_sec": 81,
+     "dt_thread_sec": 18381,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "welcoming the neighbors and draining the drowning pits"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Legendary Wrestler",
+      "retrieved_on": 1493696139
+     }
+    }
+   },
+   "62p4n5": {
+    "0": {
+     "thread_id": "62p4n5",
+     "item_id": "62p4n5",
+     "parent_id": null,
+     "author": "Theopeo1",
+     "created_utc": 1491003715,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0013",
+      "c0014"
+     ],
+     "labels": [
+      "carving out a corner to make the collaborative effort easier",
+      "leaving their mark on the map together"
+     ],
+     "sequence": [
+      "na",
+      "c0013",
+      "na",
+      "c0014",
+      "na"
+     ],
+     "coverage": 0.11,
+     "meta": {
+      "edited": 1491018907,
+      "score": 146,
+      "retrieved_on": 1492477050
+     }
+    },
+    "1": {
+     "thread_id": "62p4n5",
+     "item_id": "dfobxcl",
+     "parent_id": "62p4n5",
+     "author": "Skylord_a52",
+     "created_utc": 1491008801,
+     "dt_parent_sec": 5086,
+     "dt_thread_sec": 5086,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "asking for help writing STRIKE THE EARTH"
+     ],
+     "sequence": [
+      "c0015",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "edited": 1491020507,
+      "score": 21,
+      "author_flair_text": "Likes cap hoppers for their swinging antics",
+      "retrieved_on": 1493694874
+     }
+    },
+    "1.1": {
+     "thread_id": "62p4n5",
+     "item_id": "dfoewbv",
+     "parent_id": "dfobxcl",
+     "author": "cmetz90",
+     "created_utc": 1491013101,
+     "dt_parent_sec": 4300,
+     "dt_thread_sec": 9386,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "waiting ten minutes after adding one pixel to the T"
+     ],
+     "sequence": [
+      "c0017"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493696312
+     }
+    },
+    "2": {
+     "thread_id": "62p4n5",
+     "item_id": "dfodsa4",
+     "parent_id": "62p4n5",
+     "author": "pyoro64",
+     "created_utc": 1491011474,
+     "dt_parent_sec": 7759,
+     "dt_thread_sec": 7759,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "finishing the mug and refocusing on the plump helmet"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "It was inevitable",
+      "retrieved_on": 1493695774
+     }
+    },
+    "3": {
+     "thread_id": "62p4n5",
+     "item_id": "dfojx30",
+     "parent_id": "62p4n5",
+     "author": "Luezgral",
+     "created_utc": 1491021203,
+     "dt_parent_sec": 17488,
+     "dt_thread_sec": 17488,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "working from a Discord template on a bogeyman"
+     ],
+     "sequence": [
+      "c0018",
+      "na"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "edited": 1491021646,
+      "score": 8,
+      "retrieved_on": 1493698740
+     }
+    },
+    "4": {
+     "thread_id": "62p4n5",
+     "item_id": "dfolbgh",
+     "parent_id": "62p4n5",
+     "author": "pitaden",
+     "created_utc": 1491023772,
+     "dt_parent_sec": 20057,
+     "dt_thread_sec": 20057,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "asking what to do about r/rickandmorty going through their ASCII"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 0.7,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493699413
+     }
+    },
+    "4.1": {
+     "thread_id": "62p4n5",
+     "item_id": "dfolx2r",
+     "parent_id": "dfolbgh",
+     "author": "Professor_Protein",
+     "created_utc": 1491024985,
+     "dt_parent_sec": 1213,
+     "dt_thread_sec": 21270,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "calling SquareSpiral an imminent concern and demanding entrenchment"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "edited": 1491030139,
+      "score": 6,
+      "retrieved_on": 1493699703
+     }
+    },
+    "4.1.1": {
+     "thread_id": "62p4n5",
+     "item_id": "dfouvsw",
+     "parent_id": "dfolx2r",
+     "author": "joshblake",
+     "created_utc": 1491050495,
+     "dt_parent_sec": 25510,
+     "dt_thread_sec": 46780,
+     "state": "coded",
+     "code_ids": [
+      "c0021",
+      "c0022"
+     ],
+     "labels": [
+      "shortening SquareSpiral to let STRIKE THE EARTH continue",
+      "offering to work together against blue cancer and void tumors"
+     ],
+     "sequence": [
+      "na",
+      "c0021",
+      "na",
+      "c0022"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493704026
+     }
+    },
+    "5": {
+     "thread_id": "62p4n5",
+     "item_id": "dfomwye",
+     "parent_id": "62p4n5",
+     "author": "7yl4r",
+     "created_utc": 1491027214,
+     "dt_parent_sec": 23499,
+     "dt_thread_sec": 23499,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493700184
+     }
+    },
+    "5.1": {
+     "thread_id": "62p4n5",
+     "item_id": "dfovjcp",
+     "parent_id": "dfomwye",
+     "author": "Theopeo1",
+     "created_utc": 1491051900,
+     "dt_parent_sec": 24686,
+     "dt_thread_sec": 48185,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "accepting room under SquareSpiral's promise not to paint over the main area"
+     ],
+     "sequence": [
+      "na",
+      "c0023"
+     ],
+     "coverage": 0.32,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493704341
+     }
+    },
+    "6": {
+     "thread_id": "62p4n5",
+     "item_id": "dfoxwq7",
+     "parent_id": "62p4n5",
+     "author": "CrusaderKingsNut",
+     "created_utc": 1491056298,
+     "dt_parent_sec": 52583,
+     "dt_thread_sec": 52583,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "helping crusaderkings shields while wishing the dwarves well"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 0.73,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493705481
+     }
+    }
+   },
+   "62qje9": {
+    "0": {
+     "thread_id": "62qje9",
+     "item_id": "62qje9",
+     "parent_id": null,
+     "author": "joaoperfig",
+     "created_utc": 1491020120,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 55,
+      "retrieved_on": 1492478124
+     }
+    },
+    "1": {
+     "thread_id": "62qje9",
+     "item_id": "dfor8yp",
+     "parent_id": "62qje9",
+     "author": "dsiOneBAN2",
+     "created_utc": 1491039791,
+     "dt_parent_sec": 19671,
+     "dt_thread_sec": 19671,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493702276
+     }
+    },
+    "1.1": {
+     "thread_id": "62qje9",
+     "item_id": "dfp03rk",
+     "parent_id": "dfor8yp",
+     "author": "Angelin01",
+     "created_utc": 1491059791,
+     "dt_parent_sec": 20000,
+     "dt_thread_sec": 39671,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "coordinating the drawing mostly in the Discord"
+     ],
+     "sequence": [
+      "c0025"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493706538
+     }
+    }
+   },
+   "62ql9v": {
+    "0": {
+     "thread_id": "62ql9v",
+     "item_id": "62ql9v",
+     "parent_id": null,
+     "author": "joaoperfig",
+     "created_utc": 1491020746,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 55,
+      "retrieved_on": 1492478152
+     }
+    },
+    "1": {
+     "thread_id": "62ql9v",
+     "item_id": "dfpgjcj",
+     "parent_id": "62ql9v",
+     "author": "cviop",
+     "created_utc": 1491083944,
+     "dt_parent_sec": 63198,
+     "dt_thread_sec": 63198,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "spending clicks maintaining the second Urist"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493714466
+     }
+    }
+   },
+   "62qlhs": {
+    "0": {
+     "thread_id": "62qlhs",
+     "item_id": "62qlhs",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491020823,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 197,
+      "retrieved_on": 1492478155
+     }
+    },
+    "1": {
+     "thread_id": "62qlhs",
+     "item_id": "dforua7",
+     "parent_id": "62qlhs",
+     "author": "IVulcanRavenI",
+     "created_utc": 1491041776,
+     "dt_parent_sec": 20953,
+     "dt_thread_sec": 20953,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "wanting to help but asking how to draw"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493702560
+     }
+    },
+    "1.1": {
+     "thread_id": "62qlhs",
+     "item_id": "dfos3cv",
+     "parent_id": "dforua7",
+     "author": "Purpleclone",
+     "created_utc": 1491042619,
+     "dt_parent_sec": 843,
+     "dt_thread_sec": 21796,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "teaching a newcomer to choose a color and click where it goes"
+     ],
+     "sequence": [
+      "na",
+      "c0028"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493702681
+     }
+    },
+    "2": {
+     "thread_id": "62qlhs",
+     "item_id": "dfp1g3t",
+     "parent_id": "62qlhs",
+     "author": "Zhang5",
+     "created_utc": 1491061685,
+     "dt_parent_sec": 40862,
+     "dt_thread_sec": 40862,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "announcing that migrants have arrived"
+     ],
+     "sequence": [
+      "c0029",
+      "na"
+     ],
+     "coverage": 0.06,
+     "meta": {
+      "edited": 1491067807,
+      "score": 4,
+      "retrieved_on": 1493707182
+     }
+    }
+   },
+   "62sjb6": {
+    "0": {
+     "thread_id": "62sjb6",
+     "item_id": "62sjb6",
+     "parent_id": null,
+     "author": "voliol",
+     "created_utc": 1491051278,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 32,
+      "author_flair_text": "adequate paper engraver",
+      "retrieved_on": 1494549232
+     }
+    },
+    "1": {
+     "thread_id": "62sjb6",
+     "item_id": "dfowray",
+     "parent_id": "62sjb6",
+     "author": "pyoro64",
+     "created_utc": 1491054302,
+     "dt_parent_sec": 3024,
+     "dt_thread_sec": 3024,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "minding the N64 logo they agreed to leave alone"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "It was inevitable",
+      "retrieved_on": 1493704930
+     }
+    },
+    "2": {
+     "thread_id": "62sjb6",
+     "item_id": "dfp1x0z",
+     "parent_id": "62sjb6",
+     "author": "UristMcInternetuser",
+     "created_utc": 1491062344,
+     "dt_parent_sec": 11066,
+     "dt_thread_sec": 11066,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "decreeing that the second dwarf must be a carpenter"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "The carpenter.",
+      "retrieved_on": 1493707408
+     }
+    },
+    "2.1": {
+     "thread_id": "62sjb6",
+     "item_id": "dfp1zqq",
+     "parent_id": "dfp1x0z",
+     "author": "voliol",
+     "created_utc": 1491062447,
+     "dt_parent_sec": 103,
+     "dt_thread_sec": 11169,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "accepting the carpenter decree"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "adequate paper engraver",
+      "retrieved_on": 1493707444
+     }
+    },
+    "3": {
+     "thread_id": "62sjb6",
+     "item_id": "dfp6gt5",
+     "parent_id": "62sjb6",
+     "author": "akhier",
+     "created_utc": 1491068855,
+     "dt_parent_sec": 17577,
+     "dt_thread_sec": 17577,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "asking for help against defacing of the dwarf below"
+     ],
+     "sequence": [
+      "na",
+      "c0033"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493709600
+     }
+    }
+   },
+   "62tawa": {
+    "0": {
+     "thread_id": "62tawa",
+     "item_id": "62tawa",
+     "parent_id": null,
+     "author": "SamWhite",
+     "created_utc": 1491059822,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 231,
+      "retrieved_on": 1494549615
+     }
+    },
+    "1": {
+     "thread_id": "62tawa",
+     "item_id": "dfp0grp",
+     "parent_id": "62tawa",
+     "author": "Speciesunkn0wn",
+     "created_utc": 1491060298,
+     "dt_parent_sec": 476,
+     "dt_thread_sec": 476,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "pointing out the Urist army"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "score": 33,
+      "author_flair_text": "The Stars Are Bold",
+      "retrieved_on": 1493706711
+     }
+    },
+    "1.1": {
+     "thread_id": "62tawa",
+     "item_id": "dfp0lk2",
+     "parent_id": "dfp0grp",
+     "author": "SamWhite",
+     "created_utc": 1491060489,
+     "dt_parent_sec": 191,
+     "dt_thread_sec": 667,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "running out of real estate between other people's stuff"
+     ],
+     "sequence": [
+      "c0035",
+      "na"
+     ],
+     "coverage": 0.58,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493706775
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62tawa",
+     "item_id": "dfp1hm6",
+     "parent_id": "dfp0lk2",
+     "author": "cmetz90",
+     "created_utc": 1491061743,
+     "dt_parent_sec": 1254,
+     "dt_thread_sec": 1921,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493707202
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62tawa",
+     "item_id": "dfp4e3f",
+     "parent_id": "dfp1hm6",
+     "author": "SamWhite",
+     "created_utc": 1491065866,
+     "dt_parent_sec": 4123,
+     "dt_thread_sec": 6044,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493708601
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62tawa",
+     "item_id": "dfp4hze",
+     "parent_id": "dfp4e3f",
+     "author": "cmetz90",
+     "created_utc": 1491066021,
+     "dt_parent_sec": 155,
+     "dt_thread_sec": 6199,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493708652
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "62tawa",
+     "item_id": "dfp4nax",
+     "parent_id": "dfp4hze",
+     "author": "SamWhite",
+     "created_utc": 1491066233,
+     "dt_parent_sec": 212,
+     "dt_thread_sec": 6411,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "saying combining groups needs more coordination than they have"
+     ],
+     "sequence": [
+      "na",
+      "c0036"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493708723
+     }
+    },
+    "2": {
+     "thread_id": "62tawa",
+     "item_id": "dfp5yzm",
+     "parent_id": "62tawa",
+     "author": "MetricAmpersand",
+     "created_utc": 1491068138,
+     "dt_parent_sec": 8316,
+     "dt_thread_sec": 8316,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "considering adding the subreddit name"
+     ],
+     "sequence": [
+      "c0037"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493709362
+     }
+    },
+    "2.1": {
+     "thread_id": "62tawa",
+     "item_id": "dfp86ag",
+     "parent_id": "dfp5yzm",
+     "author": "7yl4r",
+     "created_utc": 1491071345,
+     "dt_parent_sec": 3207,
+     "dt_thread_sec": 11523,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "setting up r/armok to redirect people to DF"
+     ],
+     "sequence": [
+      "na",
+      "c0038",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493710424
+     }
+    }
+   },
+   "62thca": {
+    "0": {
+     "thread_id": "62thca",
+     "item_id": "62thca",
+     "parent_id": null,
+     "author": "darokrithia",
+     "created_utc": 1491061557,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "declaring war over yellow on the Urists"
+     ],
+     "sequence": [
+      "na",
+      "c0039"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1494549702
+     }
+    },
+    "1": {
+     "thread_id": "62thca",
+     "item_id": "dfp1j0g",
+     "parent_id": "62thca",
+     "author": "Angelin01",
+     "created_utc": 1491061799,
+     "dt_parent_sec": 242,
+     "dt_thread_sec": 242,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "correcting an attacker that the yellow marks are golden tooths"
+     ],
+     "sequence": [
+      "c0040",
+      "na"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493707220
+     }
+    },
+    "2": {
+     "thread_id": "62thca",
+     "item_id": "dfp22fk",
+     "parent_id": "62thca",
+     "author": "roadtrip-ne",
+     "created_utc": 1491062550,
+     "dt_parent_sec": 993,
+     "dt_thread_sec": 993,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "calling on the dwarves to resist"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493707479
+     }
+    },
+    "2.1": {
+     "thread_id": "62thca",
+     "item_id": "dfp26vj",
+     "parent_id": "dfp22fk",
+     "author": "Angelin01",
+     "created_utc": 1491062721,
+     "dt_parent_sec": 171,
+     "dt_thread_sec": 1164,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "warning that resistance is destroying the golden tooth"
+     ],
+     "sequence": [
+      "c0042"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493707539
+     }
+    }
+   },
+   "62tjjl": {
+    "0": {
+     "thread_id": "62tjjl",
+     "item_id": "62tjjl",
+     "parent_id": null,
+     "author": "Angelin01",
+     "created_utc": 1491062164,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 255,
+      "retrieved_on": 1494549735
+     }
+    },
+    "1": {
+     "thread_id": "62tjjl",
+     "item_id": "dfp1uve",
+     "parent_id": "62tjjl",
+     "author": "dasqoot",
+     "created_utc": 1491062259,
+     "dt_parent_sec": 95,
+     "dt_thread_sec": 95,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "offering Urist-building help in exchange for leaving the golden toofs"
+     ],
+     "sequence": [
+      "c0043"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 48,
+      "retrieved_on": 1493707379
+     }
+    },
+    "2": {
+     "thread_id": "62tjjl",
+     "item_id": "dfp3fmj",
+     "parent_id": "62tjjl",
+     "author": "EvilMcBadguy",
+     "created_utc": 1491064491,
+     "dt_parent_sec": 2327,
+     "dt_thread_sec": 2327,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "saying the golden-tooth change began as a joke"
+     ],
+     "sequence": [
+      "c0044"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 18,
+      "retrieved_on": 1493708140
+     }
+    },
+    "3": {
+     "thread_id": "62tjjl",
+     "item_id": "dfpqd1x",
+     "parent_id": "62tjjl",
+     "author": "MarshLPM",
+     "created_utc": 1491098954,
+     "dt_parent_sec": 36790,
+     "dt_thread_sec": 36790,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "fixing beloved DORFS rather than letting people destroy them"
+     ],
+     "sequence": [
+      "na",
+      "c0045",
+      "na"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "[PLUMP_HELMET_MAN]",
+      "retrieved_on": 1493719226
+     }
+    }
+   },
+   "62to33": {
+    "0": {
+     "thread_id": "62to33",
+     "item_id": "62to33",
+     "parent_id": null,
+     "author": "flitbung",
+     "created_utc": 1491063341,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 106,
+      "retrieved_on": 1494549800
+     }
+    },
+    "1": {
+     "thread_id": "62to33",
+     "item_id": "dfp5i6i",
+     "parent_id": "62to33",
+     "author": "bearjs",
+     "created_utc": 1491067466,
+     "dt_parent_sec": 4125,
+     "dt_thread_sec": 4125,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493709136
+     }
+    },
+    "1.1": {
+     "thread_id": "62to33",
+     "item_id": "dfp5s7l",
+     "parent_id": "dfp5i6i",
+     "author": "flitbung",
+     "created_utc": 1491067866,
+     "dt_parent_sec": 400,
+     "dt_thread_sec": 4525,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "trying the bearded Urist at 91,643"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493709270
+     }
+    },
+    "2": {
+     "thread_id": "62to33",
+     "item_id": "dfpa2dq",
+     "parent_id": "62to33",
+     "author": "Patq911",
+     "created_utc": 1491074147,
+     "dt_parent_sec": 10806,
+     "dt_thread_sec": 10806,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "helping while noticing too much beard"
+     ],
+     "sequence": [
+      "c0047"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Losing is !FUN!",
+      "retrieved_on": 1493711335
+     }
+    },
+    "2.1": {
+     "thread_id": "62to33",
+     "item_id": "dfpa5yd",
+     "parent_id": "dfpa2dq",
+     "author": "flitbung",
+     "created_utc": 1491074294,
+     "dt_parent_sec": 147,
+     "dt_thread_sec": 10953,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "correcting the face one tile and thanking the helper"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 0.75,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493711383
+     }
+    },
+    "3": {
+     "thread_id": "62to33",
+     "item_id": "dfpbro6",
+     "parent_id": "62to33",
+     "author": "SamWhite",
+     "created_utc": 1491076690,
+     "dt_parent_sec": 13349,
+     "dt_thread_sec": 13349,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "requesting help with a dead goblin after the Urist is done"
+     ],
+     "sequence": [
+      "na",
+      "c0049",
+      "na"
+     ],
+     "coverage": 0.21,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493712157
+     }
+    },
+    "3.1": {
+     "thread_id": "62to33",
+     "item_id": "dfpc0cu",
+     "parent_id": "dfpbro6",
+     "author": "flitbung",
+     "created_utc": 1491077058,
+     "dt_parent_sec": 368,
+     "dt_thread_sec": 13717,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "accepting the dead-goblin plan as a reassigned task"
+     ],
+     "sequence": [
+      "c0050"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493712273
+     }
+    },
+    "4": {
+     "thread_id": "62to33",
+     "item_id": "dfpfh1h",
+     "parent_id": "62to33",
+     "author": "MarshLPM",
+     "created_utc": 1491082305,
+     "dt_parent_sec": 18964,
+     "dt_thread_sec": 18964,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "asking how to contribute"
+     ],
+     "sequence": [
+      "c0051"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "[PLUMP_HELMET_MAN]",
+      "retrieved_on": 1493713953
+     }
+    },
+    "4.1": {
+     "thread_id": "62to33",
+     "item_id": "dfpftew",
+     "parent_id": "dfpfh1h",
+     "author": "flitbung",
+     "created_utc": 1491082834,
+     "dt_parent_sec": 529,
+     "dt_thread_sec": 19493,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "teaching the newcomer to place a color on the grid"
+     ],
+     "sequence": [
+      "na",
+      "c0052"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493714118
+     }
+    }
+   },
+   "62tz5v": {
+    "0": {
+     "thread_id": "62tz5v",
+     "item_id": "62tz5v",
+     "parent_id": null,
+     "author": "voliol",
+     "created_utc": 1491066266,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "planning one Urist of each profession color"
+     ],
+     "sequence": [
+      "na",
+      "c0053",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 33,
+      "author_flair_text": "adequate paper engraver",
+      "retrieved_on": 1494549952
+     }
+    },
+    "1": {
+     "thread_id": "62tz5v",
+     "item_id": "dfpke6i",
+     "parent_id": "62tz5v",
+     "author": "MGStan",
+     "created_utc": 1491089833,
+     "dt_parent_sec": 23567,
+     "dt_thread_sec": 23567,
+     "state": "coded",
+     "code_ids": [
+      "c0054",
+      "c0055"
+     ],
+     "labels": [
+      "organizing mostly on the discord",
+      "using Discord to decide to repair the damaged diamond"
+     ],
+     "sequence": [
+      "c0054",
+      "na",
+      "c0055",
+      "na"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "edited": 1491111027,
+      "score": 3,
+      "retrieved_on": 1493716337
+     }
+    },
+    "1.1": {
+     "thread_id": "62tz5v",
+     "item_id": "dfpoa1a",
+     "parent_id": "dfpke6i",
+     "author": "terriblestperson",
+     "created_utc": 1491095704,
+     "dt_parent_sec": 5871,
+     "dt_thread_sec": 29438,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493718219
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62tz5v",
+     "item_id": "dfpschg",
+     "parent_id": "dfpoa1a",
+     "author": "MGStan",
+     "created_utc": 1491102298,
+     "dt_parent_sec": 6594,
+     "dt_thread_sec": 36032,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493720190
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62tz5v",
+     "item_id": "dfpswu2",
+     "parent_id": "dfpschg",
+     "author": "terriblestperson",
+     "created_utc": 1491103257,
+     "dt_parent_sec": 959,
+     "dt_thread_sec": 36991,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493720464
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62tz5v",
+     "item_id": "dfpt40i",
+     "parent_id": "dfpswu2",
+     "author": "MGStan",
+     "created_utc": 1491103596,
+     "dt_parent_sec": 339,
+     "dt_thread_sec": 37330,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493720559
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "62tz5v",
+     "item_id": "dfpt8a0",
+     "parent_id": "dfpt40i",
+     "author": "terriblestperson",
+     "created_utc": 1491103799,
+     "dt_parent_sec": 203,
+     "dt_thread_sec": 37533,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493720616
+     }
+    },
+    "1.1.1.1.1.1.1": {
+     "thread_id": "62tz5v",
+     "item_id": "dfptad1",
+     "parent_id": "dfpt8a0",
+     "author": "MGStan",
+     "created_utc": 1491103900,
+     "dt_parent_sec": 101,
+     "dt_thread_sec": 37634,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493720644
+     }
+    },
+    "1.1.1.1.1.1.1.1": {
+     "thread_id": "62tz5v",
+     "item_id": "dfpurk9",
+     "parent_id": "dfptad1",
+     "author": "terriblestperson",
+     "created_utc": 1491106639,
+     "dt_parent_sec": 2739,
+     "dt_thread_sec": 40373,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493721355
+     }
+    },
+    "1.1.1.1.1.1.1.1.1": {
+     "thread_id": "62tz5v",
+     "item_id": "dfputa9",
+     "parent_id": "dfpurk9",
+     "author": "MGStan",
+     "created_utc": 1491106725,
+     "dt_parent_sec": 86,
+     "dt_thread_sec": 40459,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "lacking a centralized thread to rally the DF placers"
+     ],
+     "sequence": [
+      "na",
+      "c0057"
+     ],
+     "coverage": 0.45,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493721378
+     }
+    },
+    "2": {
+     "thread_id": "62tz5v",
+     "item_id": "dfpswge",
+     "parent_id": "62tz5v",
+     "author": "terriblestperson",
+     "created_utc": 1491103240,
+     "dt_parent_sec": 36974,
+     "dt_thread_sec": 36974,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "asking whether to join the placeportalpattern alliance"
+     ],
+     "sequence": [
+      "na",
+      "c0056",
+      "na"
+     ],
+     "coverage": 0.43,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493720459
+     }
+    }
+   },
+   "62udt7": {
+    "0": {
+     "thread_id": "62udt7",
+     "item_id": "62udt7",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491070063,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "recruiting people to add a dead goblin above the Urist army"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494550155
+     }
+    }
+   },
+   "62uemb": {
+    "0": {
+     "thread_id": "62uemb",
+     "item_id": "62uemb",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491070275,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "recruiting people to create a dead goblin above the Urist army"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "edited": 1491071021,
+      "score": 1,
+      "retrieved_on": 1494550166
+     }
+    }
+   },
+   "62ujis": {
+    "0": {
+     "thread_id": "62ujis",
+     "item_id": "62ujis",
+     "parent_id": null,
+     "author": "SamWhite",
+     "created_utc": 1491071581,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "proposing a vanquished foe to complete the army"
+     ],
+     "sequence": [
+      "na",
+      "c0060",
+      "na"
+     ],
+     "coverage": 0.08,
+     "meta": {
+      "edited": 1491081965,
+      "score": 87,
+      "retrieved_on": 1494550237
+     }
+    }
+   },
+   "62ujp3": {
+    "0": {
+     "thread_id": "62ujp3",
+     "item_id": "62ujp3",
+     "parent_id": null,
+     "author": "7yl4r",
+     "created_utc": 1491071634,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "setting up r/armok so canvas viewers can find DF"
+     ],
+     "sequence": [
+      "na",
+      "c0061",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "edited": 1491089465,
+      "score": 2,
+      "retrieved_on": 1494550239
+     }
+    }
+   },
+   "62v1vi": {
+    "0": {
+     "thread_id": "62v1vi",
+     "item_id": "62v1vi",
+     "parent_id": null,
+     "author": "Seth7777",
+     "created_utc": 1491076437,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1494550502
+     }
+    },
+    "1": {
+     "thread_id": "62v1vi",
+     "item_id": "dfpc5ly",
+     "parent_id": "62v1vi",
+     "author": "Seth7777",
+     "created_utc": 1491077282,
+     "dt_parent_sec": 845,
+     "dt_thread_sec": 845,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "agreeing to stop expansion past the pattern border"
+     ],
+     "sequence": [
+      "na",
+      "c0062",
+      "na"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493712345
+     }
+    }
+   },
+   "62vge6": {
+    "0": {
+     "thread_id": "62vge6",
+     "item_id": "62vge6",
+     "parent_id": null,
+     "author": "SirPurplePotato",
+     "created_utc": 1491080426,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 9,
+      "author_flair_text": "cant do shit",
+      "retrieved_on": 1494550703
+     }
+    },
+    "1": {
+     "thread_id": "62vge6",
+     "item_id": "dfpq3ml",
+     "parent_id": "62vge6",
+     "author": "The_Reinhardt_Main",
+     "created_utc": 1491098528,
+     "dt_parent_sec": 18102,
+     "dt_thread_sec": 18102,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "cancels job: unconsious",
+      "retrieved_on": 1493719099
+     }
+    },
+    "1.1": {
+     "thread_id": "62vge6",
+     "item_id": "dfpq5pq",
+     "parent_id": "dfpq3ml",
+     "author": "SirPurplePotato",
+     "created_utc": 1491098622,
+     "dt_parent_sec": 94,
+     "dt_thread_sec": 18196,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "starting the subreddit sign with an R"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "cant do shit",
+      "retrieved_on": 1493719128
+     }
+    }
+   },
+   "62vjn6": {
+    "0": {
+     "thread_id": "62vjn6",
+     "item_id": "62vjn6",
+     "parent_id": null,
+     "author": "flitbung",
+     "created_utc": 1491081292,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494550748
+     }
+    },
+    "1": {
+     "thread_id": "62vjn6",
+     "item_id": "dfpgtk8",
+     "parent_id": "62vjn6",
+     "author": "SamWhite",
+     "created_utc": 1491084383,
+     "dt_parent_sec": 3091,
+     "dt_thread_sec": 3091,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "fixing red encroachment at the exact same moment"
+     ],
+     "sequence": [
+      "c0064"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493714602
+     }
+    }
+   },
+   "62vk5z": {
+    "0": {
+     "thread_id": "62vk5z",
+     "item_id": "62vk5z",
+     "parent_id": null,
+     "author": "DoomtrainInc",
+     "created_utc": 1491081414,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "suggesting a dog after the goblin"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 0.88,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494550755
+     }
+    }
+   },
+   "62vry8": {
+    "0": {
+     "thread_id": "62vry8",
+     "item_id": "62vry8",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491083277,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "announcing that place time is down to five minutes"
+     ],
+     "sequence": [
+      "c0066"
+     ],
+     "coverage": 0.75,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494550863
+     }
+    }
+   },
+   "62vs58": {
+    "0": {
+     "thread_id": "62vs58",
+     "item_id": "62vs58",
+     "parent_id": null,
+     "author": "argues_with_quotes",
+     "created_utc": 1491083317,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 27,
+      "retrieved_on": 1494550865
+     }
+    },
+    "1": {
+     "thread_id": "62vs58",
+     "item_id": "dfpgr5d",
+     "parent_id": "62vs58",
+     "author": "MGStan",
+     "created_utc": 1491084282,
+     "dt_parent_sec": 965,
+     "dt_thread_sec": 965,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "offering a truce around the precious diamond"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493714570
+     }
+    }
+   },
+   "62vs8h": {
+    "0": {
+     "thread_id": "62vs8h",
+     "item_id": "62vs8h",
+     "parent_id": null,
+     "author": "MGStan",
+     "created_utc": 1491083338,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 25,
+      "retrieved_on": 1494550867
+     }
+    },
+    "1": {
+     "thread_id": "62vs8h",
+     "item_id": "dfpp5cl",
+     "parent_id": "62vs8h",
+     "author": "Lolor-arros",
+     "created_utc": 1491097069,
+     "dt_parent_sec": 13731,
+     "dt_thread_sec": 13731,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493718640
+     }
+    },
+    "1.1": {
+     "thread_id": "62vs8h",
+     "item_id": "dfpq05z",
+     "parent_id": "dfpp5cl",
+     "author": "MGStan",
+     "created_utc": 1491098374,
+     "dt_parent_sec": 1305,
+     "dt_thread_sec": 15036,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493719053
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62vs8h",
+     "item_id": "dfpq5zd",
+     "parent_id": "dfpq05z",
+     "author": "Lolor-arros",
+     "created_utc": 1491098635,
+     "dt_parent_sec": 261,
+     "dt_thread_sec": 15297,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493719132
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62vs8h",
+     "item_id": "dfpqlxr",
+     "parent_id": "dfpq5zd",
+     "author": "MGStan",
+     "created_utc": 1491099373,
+     "dt_parent_sec": 738,
+     "dt_thread_sec": 16035,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "defending one place post as community-related rather than spam"
+     ],
+     "sequence": [
+      "na",
+      "c0068"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493719348
+     }
+    }
+   },
+   "62w19z": {
+    "0": {
+     "thread_id": "62w19z",
+     "item_id": "62w19z",
+     "parent_id": null,
+     "author": "Panzerbeards",
+     "created_utc": 1491085933,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "engraving the diamond devouring a dwarf"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 175,
+      "author_flair_text": "Cancels work: browsing Reddit.",
+      "retrieved_on": 1494550992
+     }
+    }
+   },
+   "62w40x": {
+    "0": {
+     "thread_id": "62w40x",
+     "item_id": "62w40x",
+     "parent_id": null,
+     "author": "DocSocrates",
+     "created_utc": 1491086781,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "Legendary Wrestler",
+      "retrieved_on": 1494551029
+     }
+    },
+    "1": {
+     "thread_id": "62w40x",
+     "item_id": "dfpoe7v",
+     "parent_id": "62w40x",
+     "author": "cmetz90",
+     "created_utc": 1491095888,
+     "dt_parent_sec": 9107,
+     "dt_thread_sec": 9107,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "urging dwarves to relinquish the masterwork diamond"
+     ],
+     "sequence": [
+      "c0070",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493718275
+     }
+    }
+   },
+   "62w5uz": {
+    "0": {
+     "thread_id": "62w5uz",
+     "item_id": "62w5uz",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491087315,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "calling to add r/armok with the place dwarves"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "edited": 1491088476,
+      "score": 0,
+      "retrieved_on": 1494551054
+     }
+    }
+   },
+   "62wfkk": {
+    "0": {
+     "thread_id": "62wfkk",
+     "item_id": "62wfkk",
+     "parent_id": null,
+     "author": "akhier",
+     "created_utc": 1491090319,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "placing r/armok next to the bottom row"
+     ],
+     "sequence": [
+      "c0072"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494551188
+     }
+    }
+   },
+   "62wo3w": {
+    "0": {
+     "thread_id": "62wo3w",
+     "item_id": "62wo3w",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491092978,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "reporting the dwarves becoming one with the void"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494551306
+     }
+    }
+   },
+   "62wo9i": {
+    "0": {
+     "thread_id": "62wo9i",
+     "item_id": "62wo9i",
+     "parent_id": null,
+     "author": "darokrithia",
+     "created_utc": 1491093031,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494551308
+     }
+    },
+    "1": {
+     "thread_id": "62wo9i",
+     "item_id": "dfpwm8q",
+     "parent_id": "62wo9i",
+     "author": "Barskie",
+     "created_utc": 1491110405,
+     "dt_parent_sec": 17374,
+     "dt_thread_sec": 17374,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "calling dwarves creators rather than destroyers"
+     ],
+     "sequence": [
+      "na",
+      "c0074",
+      "na"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "edited": 1491111319,
+      "score": 1,
+      "retrieved_on": 1493722249
+     }
+    }
+   },
+   "62wv2b": {
+    "0": {
+     "thread_id": "62wv2b",
+     "item_id": "62wv2b",
+     "parent_id": null,
+     "author": "IsaacLightning",
+     "created_utc": 1491095173,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "proposing to move the bottom row up"
+     ],
+     "sequence": [
+      "c0075"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494551402
+     }
+    }
+   },
+   "62x9kn": {
+    "0": {
+     "thread_id": "62x9kn",
+     "item_id": "62x9kn",
+     "parent_id": null,
+     "author": "Blazing_Anvil",
+     "created_utc": 1491100106,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494551604
+     }
+    },
+    "1": {
+     "thread_id": "62x9kn",
+     "item_id": "dfprxli",
+     "parent_id": "62x9kn",
+     "author": "kaddar",
+     "created_utc": 1491101603,
+     "dt_parent_sec": 1497,
+     "dt_thread_sec": 1497,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491102142,
+      "score": 2,
+      "retrieved_on": 1493719989
+     }
+    },
+    "1.1": {
+     "thread_id": "62x9kn",
+     "item_id": "dfptfha",
+     "parent_id": "dfprxli",
+     "author": "7yl4r",
+     "created_utc": 1491104162,
+     "dt_parent_sec": 2559,
+     "dt_thread_sec": 4056,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "asking a neighbor to scooch the smiley over"
+     ],
+     "sequence": [
+      "c0076"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493720712
+     }
+    }
+   },
+   "62xdtt": {
+    "0": {
+     "thread_id": "62xdtt",
+     "item_id": "62xdtt",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491101634,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "asking help to make a glorious Marksdwarf"
+     ],
+     "sequence": [
+      "c0077"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494551663
+     }
+    }
+   },
+   "62xm32": {
+    "0": {
+     "thread_id": "62xm32",
+     "item_id": "62xm32",
+     "parent_id": null,
+     "author": "kataklysmos_",
+     "created_utc": 1491104692,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "proposing Strike the Earth on place"
+     ],
+     "sequence": [
+      "c0078",
+      "na"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494551776
+     }
+    }
+   },
+   "62xp8e": {
+    "0": {
+     "thread_id": "62xp8e",
+     "item_id": "62xp8e",
+     "parent_id": null,
+     "author": "kingers",
+     "created_utc": 1491105899,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 540,
+      "retrieved_on": 1494551820
+     }
+    },
+    "1": {
+     "thread_id": "62xp8e",
+     "item_id": "dfpumqj",
+     "parent_id": "62xp8e",
+     "author": "kingers",
+     "created_utc": 1491106396,
+     "dt_parent_sec": 497,
+     "dt_thread_sec": 497,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 32,
+      "retrieved_on": 1493721291
+     }
+    },
+    "1.1": {
+     "thread_id": "62xp8e",
+     "item_id": "dfpuqsh",
+     "parent_id": "dfpumqj",
+     "author": "MGStan",
+     "created_utc": 1491106598,
+     "dt_parent_sec": 202,
+     "dt_thread_sec": 699,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 23,
+      "retrieved_on": 1493721345
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62xp8e",
+     "item_id": "dfpxc83",
+     "parent_id": "dfpuqsh",
+     "author": "runedeadthA",
+     "created_utc": 1491112047,
+     "dt_parent_sec": 5449,
+     "dt_thread_sec": 6148,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 21,
+      "retrieved_on": 1493722596
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62xp8e",
+     "item_id": "dfpxd78",
+     "parent_id": "dfpxc83",
+     "author": "MGStan",
+     "created_utc": 1491112110,
+     "dt_parent_sec": 63,
+     "dt_thread_sec": 6211,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "deciding on Discord not to expand farther south"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493722609
+     }
+    }
+   },
+   "62y0af": {
+    "0": {
+     "thread_id": "62y0af",
+     "item_id": "62y0af",
+     "parent_id": null,
+     "author": "EdtheHammer",
+     "created_utc": 1491110451,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "making the dwarf beside the diamond a gem cutter"
+     ],
+     "sequence": [
+      "c0080"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494551972
+     }
+    }
+   },
+   "62y27p": {
+    "0": {
+     "thread_id": "62y27p",
+     "item_id": "62y27p",
+     "parent_id": null,
+     "author": "PostingLoudly",
+     "created_utc": 1491111290,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1494551999
+     }
+    },
+    "1": {
+     "thread_id": "62y27p",
+     "item_id": "dfpxgp3",
+     "parent_id": "62y27p",
+     "author": "Barskie",
+     "created_utc": 1491112340,
+     "dt_parent_sec": 1050,
+     "dt_thread_sec": 1050,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493722656
+     }
+    },
+    "1.1": {
+     "thread_id": "62y27p",
+     "item_id": "dfpxlxz",
+     "parent_id": "dfpxgp3",
+     "author": "terriblestperson",
+     "created_utc": 1491112692,
+     "dt_parent_sec": 352,
+     "dt_thread_sec": 1402,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "coordinating the diamond expansion in DF Discord"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493722726
+     }
+    }
+   },
+   "62y5ua": {
+    "0": {
+     "thread_id": "62y5ua",
+     "item_id": "62y5ua",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491112987,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "asking help with an upside-down Urist by armok"
+     ],
+     "sequence": [
+      "c0082"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552049
+     }
+    }
+   },
+   "62y67f": {
+    "0": {
+     "thread_id": "62y67f",
+     "item_id": "62y67f",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491113143,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "making an upside-down Urist by the armok sign"
+     ],
+     "sequence": [
+      "c0083"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552055
+     }
+    }
+   },
+   "62y7os": {
+    "0": {
+     "thread_id": "62y7os",
+     "item_id": "62y7os",
+     "parent_id": null,
+     "author": "spudcosmic",
+     "created_utc": 1491113862,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0084"
+     ],
+     "labels": [
+      "requesting ARMOK be changed to r/dwarffortress"
+     ],
+     "sequence": [
+      "c0084"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552076
+     }
+    }
+   },
+   "62y9n5": {
+    "0": {
+     "thread_id": "62y9n5",
+     "item_id": "62y9n5",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491114860,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0085"
+     ],
+     "labels": [
+      "temporarily allowing DF place-art posts"
+     ],
+     "sequence": [
+      "c0085"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 2,
+      "retrieved_on": 1494552103
+     }
+    }
+   },
+   "62y9uf": {
+    "0": {
+     "thread_id": "62y9uf",
+     "item_id": "62y9uf",
+     "parent_id": null,
+     "author": "PeridexisErrant",
+     "created_utc": 1491114966,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 69,
+      "retrieved_on": 1494552106
+     }
+    },
+    "1": {
+     "thread_id": "62y9uf",
+     "item_id": "dfq1so1",
+     "parent_id": "62y9uf",
+     "author": "clinodev",
+     "created_utc": 1491125248,
+     "dt_parent_sec": 10282,
+     "dt_thread_sec": 10282,
+     "state": "coded",
+     "code_ids": [
+      "c0086"
+     ],
+     "labels": [
+      "suggesting a pinned place-fortress megathread"
+     ],
+     "sequence": [
+      "c0086",
+      "na"
+     ],
+     "coverage": 0.32,
+     "meta": {
+      "score": 11,
+      "author_flair_text": "Craftlords Embark Profiles",
+      "retrieved_on": 1493724743
+     }
+    },
+    "2": {
+     "thread_id": "62y9uf",
+     "item_id": "dfqptkz",
+     "parent_id": "62y9uf",
+     "author": "AverageBearSA",
+     "created_utc": 1491167143,
+     "dt_parent_sec": 52177,
+     "dt_thread_sec": 52177,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493736454
+     }
+    },
+    "2.1": {
+     "thread_id": "62y9uf",
+     "item_id": "dfrwism",
+     "parent_id": "dfqptkz",
+     "author": "adanufgail",
+     "created_utc": 1491235241,
+     "dt_parent_sec": 68098,
+     "dt_thread_sec": 120275,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493759180
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62y9uf",
+     "item_id": "dfs7c2k",
+     "parent_id": "dfrwism",
+     "author": "adanufgail",
+     "created_utc": 1491247935,
+     "dt_parent_sec": 12694,
+     "dt_thread_sec": 132969,
+     "state": "coded",
+     "code_ids": [
+      "c0163"
+     ],
+     "labels": [
+      "unsubscribing because the subreddit now feels like spam"
+     ],
+     "sequence": [
+      "c0163"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493765483
+     }
+    }
+   },
+   "62y9wv": {
+    "0": {
+     "thread_id": "62y9wv",
+     "item_id": "62y9wv",
+     "parent_id": null,
+     "author": "SurrealRose",
+     "created_utc": 1491115003,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0087"
+     ],
+     "labels": [
+      "planning a cat above the diamond and inviting people to Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0087"
+     ],
+     "coverage": 0.57,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1494552107
+     }
+    }
+   },
+   "62ynq8": {
+    "0": {
+     "thread_id": "62ynq8",
+     "item_id": "62ynq8",
+     "parent_id": null,
+     "author": "a404notfound",
+     "created_utc": 1491122425,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0088"
+     ],
+     "labels": [
+      "leaving the request entirely in its title"
+     ],
+     "sequence": [
+      "na",
+      "c0088"
+     ],
+     "coverage": 0.05,
+     "meta": {
+      "score": 0,
+      "author_flair_text": "His head is gone",
+      "retrieved_on": 1494552300
+     }
+    }
+   },
+   "62ys9u": {
+    "0": {
+     "thread_id": "62ys9u",
+     "item_id": "62ys9u",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491124984,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "warning that the Catalan flag wants to absorb the Urist"
+     ],
+     "sequence": [
+      "c0089"
+     ],
+     "coverage": 0.92,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494552363
+     }
+    }
+   },
+   "62ys9y": {
+    "0": {
+     "thread_id": "62ys9y",
+     "item_id": "62ys9y",
+     "parent_id": null,
+     "author": "H8r",
+     "created_utc": 1491124986,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "calling for defense against the red and yellow flag"
+     ],
+     "sequence": [
+      "c0090"
+     ],
+     "coverage": 0.84,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1494552363
+     }
+    }
+   },
+   "62yw5o": {
+    "0": {
+     "thread_id": "62yw5o",
+     "item_id": "62yw5o",
+     "parent_id": null,
+     "author": "Amitoolegit",
+     "created_utc": 1491127230,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0091"
+     ],
+     "labels": [
+      "proposing contact with r/Portal"
+     ],
+     "sequence": [
+      "c0091"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552416
+     }
+    }
+   },
+   "62z3po": {
+    "0": {
+     "thread_id": "62z3po",
+     "item_id": "62z3po",
+     "parent_id": null,
+     "author": "Doge-Meister",
+     "created_utc": 1491131291,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0092"
+     ],
+     "labels": [
+      "calling everyone to strike the red and yellow flag together"
+     ],
+     "sequence": [
+      "c0092"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552521
+     }
+    }
+   },
+   "62z4wi": {
+    "0": {
+     "thread_id": "62z4wi",
+     "item_id": "62z4wi",
+     "parent_id": null,
+     "author": "Doge-Meister",
+     "created_utc": 1491131894,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0093"
+     ],
+     "labels": [
+      "calling a strike to protect the human and elf"
+     ],
+     "sequence": [
+      "c0093"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494552537
+     }
+    }
+   },
+   "62z537": {
+    "0": {
+     "thread_id": "62z537",
+     "item_id": "62z537",
+     "parent_id": null,
+     "author": "julesfru",
+     "created_utc": 1491131983,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494552540
+     }
+    },
+    "1": {
+     "thread_id": "62z537",
+     "item_id": "dfq3r5g",
+     "parent_id": "62z537",
+     "author": "Pesinario",
+     "created_utc": 1491132426,
+     "dt_parent_sec": 443,
+     "dt_thread_sec": 443,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493725686
+     }
+    },
+    "1.1": {
+     "thread_id": "62z537",
+     "item_id": "dfq3usx",
+     "parent_id": "dfq3r5g",
+     "author": "julesfru",
+     "created_utc": 1491132754,
+     "dt_parent_sec": 328,
+     "dt_thread_sec": 771,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493725734
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62z537",
+     "item_id": "dfq468q",
+     "parent_id": "dfq3usx",
+     "author": "Pesinario",
+     "created_utc": 1491133752,
+     "dt_parent_sec": 998,
+     "dt_thread_sec": 1769,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493725888
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62z537",
+     "item_id": "dfq47ce",
+     "parent_id": "dfq468q",
+     "author": "julesfru",
+     "created_utc": 1491133848,
+     "dt_parent_sec": 96,
+     "dt_thread_sec": 1865,
+     "state": "coded",
+     "code_ids": [
+      "c0094"
+     ],
+     "labels": [
+      "trying to get a move-and-rebuild agreement going"
+     ],
+     "sequence": [
+      "c0094"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493725903
+     }
+    }
+   },
+   "62zejp": {
+    "0": {
+     "thread_id": "62zejp",
+     "item_id": "62zejp",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491136463,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0095"
+     ],
+     "labels": [
+      "thanking the room for destroying a white bag"
+     ],
+     "sequence": [
+      "c0095"
+     ],
+     "coverage": 0.76,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552672
+     }
+    }
+   },
+   "62zspl": {
+    "0": {
+     "thread_id": "62zspl",
+     "item_id": "62zspl",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491141987,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494552868
+     }
+    },
+    "1": {
+     "thread_id": "62zspl",
+     "item_id": "dfq812z",
+     "parent_id": "62zspl",
+     "author": "PM_ME_FAT_FURRYGIRLS",
+     "created_utc": 1491142724,
+     "dt_parent_sec": 737,
+     "dt_thread_sec": 737,
+     "state": "coded",
+     "code_ids": [
+      "c0096"
+     ],
+     "labels": [
+      "rejecting a piece as too large to defend"
+     ],
+     "sequence": [
+      "c0096"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493727754
+     }
+    }
+   },
+   "62zzpv": {
+    "0": {
+     "thread_id": "62zzpv",
+     "item_id": "62zzpv",
+     "parent_id": null,
+     "author": "bankshot",
+     "created_utc": 1491144351,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0097"
+     ],
+     "labels": [
+      "asking whether two small canvas areas can be used"
+     ],
+     "sequence": [
+      "c0097"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494552966
+     }
+    }
+   },
+   "630201": {
+    "0": {
+     "thread_id": "630201",
+     "item_id": "630201",
+     "parent_id": null,
+     "author": "-Rune-",
+     "created_utc": 1491145066,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0098"
+     ],
+     "labels": [
+      "asking for help cleaning up the right side"
+     ],
+     "sequence": [
+      "c0098"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494552996
+     }
+    }
+   },
+   "630nzn": {
+    "0": {
+     "thread_id": "630nzn",
+     "item_id": "630nzn",
+     "parent_id": null,
+     "author": "wallbuster1",
+     "created_utc": 1491151526,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "author_flair_text": "Potash Maker #743",
+      "retrieved_on": 1494553303
+     }
+    },
+    "1": {
+     "thread_id": "630nzn",
+     "item_id": "dfqidwp",
+     "parent_id": "630nzn",
+     "author": "terriblestperson",
+     "created_utc": 1491157232,
+     "dt_parent_sec": 5706,
+     "dt_thread_sec": 5706,
+     "state": "coded",
+     "code_ids": [
+      "c0099"
+     ],
+     "labels": [
+      "inviting others into DF Discord coordination"
+     ],
+     "sequence": [
+      "c0099"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493732749
+     }
+    }
+   },
+   "630pbs": {
+    "0": {
+     "thread_id": "630pbs",
+     "item_id": "630pbs",
+     "parent_id": null,
+     "author": "SamWhite",
+     "created_utc": 1491151883,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0100"
+     ],
+     "labels": [
+      "sharing a timelapse where both DF projects appear"
+     ],
+     "sequence": [
+      "c0100"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494553322
+     }
+    }
+   },
+   "63182q": {
+    "0": {
+     "thread_id": "63182q",
+     "item_id": "63182q",
+     "parent_id": null,
+     "author": "DoubleBotch",
+     "created_utc": 1491157053,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0101"
+     ],
+     "labels": [
+      "correcting errant pixels without joining coordination"
+     ],
+     "sequence": [
+      "c0101",
+      "na"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 0,
+      "author_flair_text": "Liar Liar !!Pants!!",
+      "retrieved_on": 1494553587
+     }
+    }
+   },
+   "63256p": {
+    "0": {
+     "thread_id": "63256p",
+     "item_id": "63256p",
+     "parent_id": null,
+     "author": "BrownCanadian",
+     "created_utc": 1491166102,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0102"
+     ],
+     "labels": [
+      "requesting room to take over the flag"
+     ],
+     "sequence": [
+      "na",
+      "c0102",
+      "na"
+     ],
+     "coverage": 0.06,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1494554072
+     }
+    },
+    "1": {
+     "thread_id": "63256p",
+     "item_id": "dfqpw77",
+     "parent_id": "63256p",
+     "author": "terriblestperson",
+     "created_utc": 1491167257,
+     "dt_parent_sec": 1155,
+     "dt_thread_sec": 1155,
+     "state": "coded",
+     "code_ids": [
+      "c0103"
+     ],
+     "labels": [
+      "directing diplomacy into the DF discord"
+     ],
+     "sequence": [
+      "na",
+      "c0103",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493736497
+     }
+    },
+    "2": {
+     "thread_id": "63256p",
+     "item_id": "dfqq89v",
+     "parent_id": "63256p",
+     "author": "clinodev",
+     "created_utc": 1491167726,
+     "dt_parent_sec": 1624,
+     "dt_thread_sec": 1624,
+     "state": "coded",
+     "code_ids": [
+      "c0104"
+     ],
+     "labels": [
+      "asking a visitor to help the Factorio buddies"
+     ],
+     "sequence": [
+      "na",
+      "c0104",
+      "na"
+     ],
+     "coverage": 0.12,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Craftlords Embark Profiles",
+      "retrieved_on": 1493736710
+     }
+    }
+   },
+   "632emq": {
+    "0": {
+     "thread_id": "632emq",
+     "item_id": "632emq",
+     "parent_id": null,
+     "author": "HistorsEye",
+     "created_utc": 1491168809,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0105"
+     ],
+     "labels": [
+      "trying to fix the g to match vanilla"
+     ],
+     "sequence": [
+      "na",
+      "c0105",
+      "na"
+     ],
+     "coverage": 0.08,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1494554210
+     }
+    },
+    "1": {
+     "thread_id": "632emq",
+     "item_id": "dfqr8a6",
+     "parent_id": "632emq",
+     "author": "bearjs",
+     "created_utc": 1491169018,
+     "dt_parent_sec": 209,
+     "dt_thread_sec": 209,
+     "state": "coded",
+     "code_ids": [
+      "c0106"
+     ],
+     "labels": [
+      "apologizing for undoing the fix and offering help"
+     ],
+     "sequence": [
+      "c0106"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493737269
+     }
+    }
+   },
+   "632n5w": {
+    "0": {
+     "thread_id": "632n5w",
+     "item_id": "632n5w",
+     "parent_id": null,
+     "author": "SamWhite",
+     "created_utc": 1491171166,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0107"
+     ],
+     "labels": [
+      "calling for pixels against attacks on what they made"
+     ],
+     "sequence": [
+      "na",
+      "c0107",
+      "na"
+     ],
+     "coverage": 0.07,
+     "meta": {
+      "edited": 1491175356,
+      "score": 27,
+      "retrieved_on": 1494554338
+     }
+    },
+    "1": {
+     "thread_id": "632n5w",
+     "item_id": "dfqut82",
+     "parent_id": "632n5w",
+     "author": "custardad",
+     "created_utc": 1491173456,
+     "dt_parent_sec": 2290,
+     "dt_thread_sec": 2290,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493738997
+     }
+    },
+    "1.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfquvz0",
+     "parent_id": "dfqut82",
+     "author": "SamWhite",
+     "created_utc": 1491173551,
+     "dt_parent_sec": 95,
+     "dt_thread_sec": 2385,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493739033
+     }
+    },
+    "1.1.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfqv01f",
+     "parent_id": "dfquvz0",
+     "author": "custardad",
+     "created_utc": 1491173695,
+     "dt_parent_sec": 144,
+     "dt_thread_sec": 2529,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739088
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfqv4bv",
+     "parent_id": "dfqv01f",
+     "author": "SamWhite",
+     "created_utc": 1491173845,
+     "dt_parent_sec": 150,
+     "dt_thread_sec": 2679,
+     "state": "coded",
+     "code_ids": [
+      "c0108"
+     ],
+     "labels": [
+      "declaring peace over after checking Discord"
+     ],
+     "sequence": [
+      "c0108",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493739154
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfqvawj",
+     "parent_id": "dfqv4bv",
+     "author": "custardad",
+     "created_utc": 1491174077,
+     "dt_parent_sec": 232,
+     "dt_thread_sec": 2911,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739246
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfqveai",
+     "parent_id": "dfqvawj",
+     "author": "SamWhite",
+     "created_utc": 1491174195,
+     "dt_parent_sec": 118,
+     "dt_thread_sec": 3029,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493739294
+     }
+    },
+    "1.1.1.1.1.1.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfqz0m8",
+     "parent_id": "dfqveai",
+     "author": "jokowi_do2",
+     "created_utc": 1491178812,
+     "dt_parent_sec": 4617,
+     "dt_thread_sec": 7646,
+     "state": "coded",
+     "code_ids": [
+      "c0109"
+     ],
+     "labels": [
+      "offering to help rebuild after defending their flag"
+     ],
+     "sequence": [
+      "na",
+      "c0109",
+      "na"
+     ],
+     "coverage": 0.04,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493741049
+     }
+    },
+    "2": {
+     "thread_id": "632n5w",
+     "item_id": "dfqwurv",
+     "parent_id": "632n5w",
+     "author": "darokrithia",
+     "created_utc": 1491176071,
+     "dt_parent_sec": 4905,
+     "dt_thread_sec": 4905,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491191638,
+      "score": 1,
+      "retrieved_on": 1493740004
+     }
+    },
+    "2.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfr9ebe",
+     "parent_id": "dfqwurv",
+     "author": "AverageBearSA",
+     "created_utc": 1491191428,
+     "dt_parent_sec": 15357,
+     "dt_thread_sec": 20262,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493746109
+     }
+    },
+    "2.1.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfr9lts",
+     "parent_id": "dfr9ebe",
+     "author": "darokrithia",
+     "created_utc": 1491191686,
+     "dt_parent_sec": 258,
+     "dt_thread_sec": 20520,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746209
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfra4w6",
+     "parent_id": "dfr9lts",
+     "author": "AverageBearSA",
+     "created_utc": 1491192339,
+     "dt_parent_sec": 653,
+     "dt_thread_sec": 21173,
+     "state": "coded",
+     "code_ids": [
+      "c0110"
+     ],
+     "labels": [
+      "questioning the fun of scripts writing pixel art"
+     ],
+     "sequence": [
+      "c0110",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746463
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "632n5w",
+     "item_id": "dfra6nk",
+     "parent_id": "dfra4w6",
+     "author": "darokrithia",
+     "created_utc": 1491192404,
+     "dt_parent_sec": 65,
+     "dt_thread_sec": 21238,
+     "state": "coded",
+     "code_ids": [
+      "c0111"
+     ],
+     "labels": [
+      "defending scripts for keeping work while away"
+     ],
+     "sequence": [
+      "c0111",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746485
+     }
+    }
+   },
+   "632squ": {
+    "0": {
+     "thread_id": "632squ",
+     "item_id": "632squ",
+     "parent_id": null,
+     "author": "PostingLoudly",
+     "created_utc": 1491172842,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0112"
+     ],
+     "labels": [
+      "calling Indonesians elf scum"
+     ],
+     "sequence": [
+      "c0112"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1494554420
+     }
+    }
+   },
+   "6331hc": {
+    "0": {
+     "thread_id": "6331hc",
+     "item_id": "6331hc",
+     "parent_id": null,
+     "author": "StealthSuitMkII",
+     "created_utc": 1491175422,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0113"
+     ],
+     "labels": [
+      "asking the community to assist Vaporwave"
+     ],
+     "sequence": [
+      "c0113"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494554549
+     }
+    }
+   },
+   "63340p": {
+    "0": {
+     "thread_id": "63340p",
+     "item_id": "63340p",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491176245,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0114"
+     ],
+     "labels": [
+      "casting the r/place attack as Urists marching"
+     ],
+     "sequence": [
+      "c0114"
+     ],
+     "coverage": 0.63,
+     "meta": {
+      "score": 224,
+      "retrieved_on": 1494554593
+     }
+    },
+    "1": {
+     "thread_id": "63340p",
+     "item_id": "dfrb39y",
+     "parent_id": "63340p",
+     "author": "EurekaMarUu",
+     "created_utc": 1491193732,
+     "dt_parent_sec": 17487,
+     "dt_thread_sec": 17487,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1493746921
+     }
+    },
+    "1.1": {
+     "thread_id": "63340p",
+     "item_id": "dfrihs4",
+     "parent_id": "dfrb39y",
+     "author": "SamWhite",
+     "created_utc": 1491211075,
+     "dt_parent_sec": 17343,
+     "dt_thread_sec": 34830,
+     "state": "coded",
+     "code_ids": [
+      "c0115"
+     ],
+     "labels": [
+      "recounting ceding Canada and invading Indonesia"
+     ],
+     "sequence": [
+      "c0115",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493751055
+     }
+    },
+    "2": {
+     "thread_id": "63340p",
+     "item_id": "dfrmela",
+     "parent_id": "63340p",
+     "author": "frankwest16",
+     "created_utc": 1491221323,
+     "dt_parent_sec": 45078,
+     "dt_thread_sec": 45078,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "All was peaceful. Until one day it wasn't.",
+      "retrieved_on": 1493753275
+     }
+    },
+    "2.1": {
+     "thread_id": "63340p",
+     "item_id": "dfrqqt6",
+     "parent_id": "dfrmela",
+     "author": "SamWhite",
+     "created_utc": 1491228266,
+     "dt_parent_sec": 6943,
+     "dt_thread_sec": 52021,
+     "state": "coded",
+     "code_ids": [
+      "c0116"
+     ],
+     "labels": [
+      "explaining their coordination to represent DF"
+     ],
+     "sequence": [
+      "na",
+      "c0116"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493755591
+     }
+    },
+    "3": {
+     "thread_id": "63340p",
+     "item_id": "dfs6ft1",
+     "parent_id": "63340p",
+     "author": "Tekar",
+     "created_utc": 1491246766,
+     "dt_parent_sec": 70521,
+     "dt_thread_sec": 70521,
+     "state": "coded",
+     "code_ids": [
+      "c0117"
+     ],
+     "labels": [
+      "creating a dwarf in honour of Indonesias defeat"
+     ],
+     "sequence": [
+      "na",
+      "c0117"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "FOR PLACEMURDERED!",
+      "retrieved_on": 1493765049
+     }
+    }
+   },
+   "6335f2": {
+    "0": {
+     "thread_id": "6335f2",
+     "item_id": "6335f2",
+     "parent_id": null,
+     "author": "bearjs",
+     "created_utc": 1491176709,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0118"
+     ],
+     "labels": [
+      "warning that the Void is back under the artwork"
+     ],
+     "sequence": [
+      "na",
+      "c0118"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 23,
+      "retrieved_on": 1494554613
+     }
+    },
+    "1": {
+     "thread_id": "6335f2",
+     "item_id": "dfr730q",
+     "parent_id": "6335f2",
+     "author": "TeHokioi",
+     "created_utc": 1491188501,
+     "dt_parent_sec": 11792,
+     "dt_thread_sec": 11792,
+     "state": "coded",
+     "code_ids": [
+      "c0119"
+     ],
+     "labels": [
+      "assuring neighbors they are building defenses, not overwriting"
+     ],
+     "sequence": [
+      "na",
+      "c0119",
+      "na"
+     ],
+     "coverage": 0.12,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493744944
+     }
+    },
+    "2": {
+     "thread_id": "6335f2",
+     "item_id": "dfrdrbb",
+     "parent_id": "6335f2",
+     "author": "Maku_GJ",
+     "created_utc": 1491198593,
+     "dt_parent_sec": 21884,
+     "dt_thread_sec": 21884,
+     "state": "coded",
+     "code_ids": [
+      "c0161"
+     ],
+     "labels": [
+      "helping the void because r-place posting feels like spam"
+     ],
+     "sequence": [
+      "c0161"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493748774
+     }
+    }
+   },
+   "633a2d": {
+    "0": {
+     "thread_id": "633a2d",
+     "item_id": "633a2d",
+     "parent_id": null,
+     "author": "jettsnake",
+     "created_utc": 1491178200,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0120"
+     ],
+     "labels": [
+      "calling to defend the engraving wall from the void core"
+     ],
+     "sequence": [
+      "c0120"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 322,
+      "retrieved_on": 1494554679
+     }
+    },
+    "1": {
+     "thread_id": "633a2d",
+     "item_id": "dfqzh0h",
+     "parent_id": "633a2d",
+     "author": "Patq911",
+     "created_utc": 1491179380,
+     "dt_parent_sec": 1180,
+     "dt_thread_sec": 1180,
+     "state": "coded",
+     "code_ids": [
+      "c0121"
+     ],
+     "labels": [
+      "calling people into Discord to coordinate"
+     ],
+     "sequence": [
+      "c0121"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "Losing is !FUN!",
+      "retrieved_on": 1493741269
+     }
+    },
+    "2": {
+     "thread_id": "633a2d",
+     "item_id": "dfr78mm",
+     "parent_id": "633a2d",
+     "author": "DoubleBotch",
+     "created_utc": 1491188678,
+     "dt_parent_sec": 10478,
+     "dt_thread_sec": 10478,
+     "state": "coded",
+     "code_ids": [
+      "c0122"
+     ],
+     "labels": [
+      "praising the recovery after contributing a few pixels"
+     ],
+     "sequence": [
+      "c0122",
+      "na"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "score": 12,
+      "author_flair_text": "Liar Liar !!Pants!!",
+      "retrieved_on": 1493745018
+     }
+    },
+    "3": {
+     "thread_id": "633a2d",
+     "item_id": "dfrabl6",
+     "parent_id": "633a2d",
+     "author": "Lolor-arros",
+     "created_utc": 1491192588,
+     "dt_parent_sec": 14388,
+     "dt_thread_sec": 14388,
+     "state": "coded",
+     "code_ids": [
+      "c0123"
+     ],
+     "labels": [
+      "wanting r/place posts forbidden"
+     ],
+     "sequence": [
+      "c0123"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493746551
+     }
+    }
+   },
+   "633f85": {
+    "0": {
+     "thread_id": "633f85",
+     "item_id": "633f85",
+     "parent_id": null,
+     "author": "bankshot",
+     "created_utc": 1491179762,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0124"
+     ],
+     "labels": [
+      "asking someone to clean up a compressed design"
+     ],
+     "sequence": [
+      "na",
+      "c0124"
+     ],
+     "coverage": 0.11,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494554750
+     }
+    },
+    "1": {
+     "thread_id": "633f85",
+     "item_id": "dfqzu72",
+     "parent_id": "633f85",
+     "author": "bankshot",
+     "created_utc": 1491179848,
+     "dt_parent_sec": 86,
+     "dt_thread_sec": 86,
+     "state": "coded",
+     "code_ids": [
+      "c0125"
+     ],
+     "labels": [
+      "dropping a proposal in favor of the design already underway"
+     ],
+     "sequence": [
+      "na",
+      "c0125"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493741445
+     }
+    }
+   },
+   "633oh6": {
+    "0": {
+     "thread_id": "633oh6",
+     "item_id": "633oh6",
+     "parent_id": null,
+     "author": "darokrithia",
+     "created_utc": 1491182617,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0126"
+     ],
+     "labels": [
+      "asking Reddit to spread a relocation plan to Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0126"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494554878
+     }
+    }
+   },
+   "633pyd": {
+    "0": {
+     "thread_id": "633pyd",
+     "item_id": "633pyd",
+     "parent_id": null,
+     "author": "keluandrie",
+     "created_utc": 1491183085,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0127"
+     ],
+     "labels": [
+      "calling for pixels to save Urist McMural"
+     ],
+     "sequence": [
+      "na",
+      "c0127"
+     ],
+     "coverage": 0.04,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1494554900
+     }
+    }
+   },
+   "6344y1": {
+    "0": {
+     "thread_id": "6344y1",
+     "item_id": "6344y1",
+     "parent_id": null,
+     "author": "alisunderstorm",
+     "created_utc": 1491187979,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0128"
+     ],
+     "labels": [
+      "raising a pull-the-lever alarm"
+     ],
+     "sequence": [
+      "c0128"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 19,
+      "retrieved_on": 1494555105
+     }
+    },
+    "1": {
+     "thread_id": "6344y1",
+     "item_id": "dfr7qqm",
+     "parent_id": "6344y1",
+     "author": "PM_ME_FAT_FURRYGIRLS",
+     "created_utc": 1491189293,
+     "dt_parent_sec": 1314,
+     "dt_thread_sec": 1314,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493745262
+     }
+    },
+    "1.1": {
+     "thread_id": "6344y1",
+     "item_id": "dfr864l",
+     "parent_id": "dfr7qqm",
+     "author": "FucklesHD",
+     "created_utc": 1491189822,
+     "dt_parent_sec": 529,
+     "dt_thread_sec": 1843,
+     "state": "coded",
+     "code_ids": [
+      "c0129"
+     ],
+     "labels": [
+      "correcting a claim by saying they collaborate with Minecraft"
+     ],
+     "sequence": [
+      "c0129"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "cancels scratching neckbeard: popping pimple",
+      "retrieved_on": 1493745498
+     }
+    }
+   },
+   "6349s2": {
+    "0": {
+     "thread_id": "6349s2",
+     "item_id": "6349s2",
+     "parent_id": null,
+     "author": "terriblestperson",
+     "created_utc": 1491189629,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0130"
+     ],
+     "labels": [
+      "recruiting people to run the DwarfPlacer script"
+     ],
+     "sequence": [
+      "na",
+      "c0130",
+      "na"
+     ],
+     "coverage": 0.03,
+     "meta": {
+      "edited": 1491201330,
+      "score": 29,
+      "retrieved_on": 1494555170
+     }
+    },
+    "1": {
+     "thread_id": "6349s2",
+     "item_id": "dfr91nx",
+     "parent_id": "6349s2",
+     "author": "darokrithia",
+     "created_utc": 1491190949,
+     "dt_parent_sec": 1320,
+     "dt_thread_sec": 1320,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493745937
+     }
+    },
+    "1.1": {
+     "thread_id": "6349s2",
+     "item_id": "dfra0rc",
+     "parent_id": "dfr91nx",
+     "author": "terriblestperson",
+     "created_utc": 1491192189,
+     "dt_parent_sec": 1240,
+     "dt_thread_sec": 2560,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746407
+     }
+    },
+    "1.1.1": {
+     "thread_id": "6349s2",
+     "item_id": "dfra9mi",
+     "parent_id": "dfra0rc",
+     "author": "darokrithia",
+     "created_utc": 1491192513,
+     "dt_parent_sec": 324,
+     "dt_thread_sec": 2884,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746526
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "6349s2",
+     "item_id": "dfrd6as",
+     "parent_id": "dfra9mi",
+     "author": "terriblestperson",
+     "created_utc": 1491197426,
+     "dt_parent_sec": 4913,
+     "dt_thread_sec": 7797,
+     "state": "coded",
+     "code_ids": [
+      "c0131"
+     ],
+     "labels": [
+      "crediting the DF Discord with organizing the push"
+     ],
+     "sequence": [
+      "c0131"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493748494
+     }
+    },
+    "2": {
+     "thread_id": "6349s2",
+     "item_id": "dfr9xnn",
+     "parent_id": "6349s2",
+     "author": "bankshot",
+     "created_utc": 1491192080,
+     "dt_parent_sec": 2451,
+     "dt_thread_sec": 2451,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746366
+     }
+    },
+    "2.1": {
+     "thread_id": "6349s2",
+     "item_id": "dfra28i",
+     "parent_id": "dfr9xnn",
+     "author": "terriblestperson",
+     "created_utc": 1491192241,
+     "dt_parent_sec": 161,
+     "dt_thread_sec": 2612,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493746427
+     }
+    },
+    "2.1.1": {
+     "thread_id": "6349s2",
+     "item_id": "dfra9q2",
+     "parent_id": "dfra28i",
+     "author": "bankshot",
+     "created_utc": 1491192517,
+     "dt_parent_sec": 276,
+     "dt_thread_sec": 2888,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493746527
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "6349s2",
+     "item_id": "dfrazxt",
+     "parent_id": "dfra9q2",
+     "author": "PeridexisErrant",
+     "created_utc": 1491193585,
+     "dt_parent_sec": 1068,
+     "dt_thread_sec": 3956,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493746877
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "6349s2",
+     "item_id": "dfriuk9",
+     "parent_id": "dfrazxt",
+     "author": "Bureaucrat-72",
+     "created_utc": 1491212183,
+     "dt_parent_sec": 18598,
+     "dt_thread_sec": 22554,
+     "state": "coded",
+     "code_ids": [
+      "c0162"
+     ],
+     "labels": [
+      "welcoming the end of r-place spam"
+     ],
+     "sequence": [
+      "c0162"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751227
+     }
+    },
+    "3": {
+     "thread_id": "6349s2",
+     "item_id": "dfrfrl5",
+     "parent_id": "6349s2",
+     "author": "biglefttoe",
+     "created_utc": 1491203206,
+     "dt_parent_sec": 13577,
+     "dt_thread_sec": 13577,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493749739
+     }
+    },
+    "3.1": {
+     "thread_id": "6349s2",
+     "item_id": "dfrfxcv",
+     "parent_id": "dfrfrl5",
+     "author": "terriblestperson",
+     "created_utc": 1491203609,
+     "dt_parent_sec": 403,
+     "dt_thread_sec": 13980,
+     "state": "coded",
+     "code_ids": [
+      "c0132"
+     ],
+     "labels": [
+      "helping rebuild after starting the war"
+     ],
+     "sequence": [
+      "c0132",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493749819
+     }
+    }
+   },
+   "634zqb": {
+    "0": {
+     "thread_id": "634zqb",
+     "item_id": "634zqb",
+     "parent_id": null,
+     "author": "darokrithia",
+     "created_utc": 1491199574,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0133"
+     ],
+     "labels": [
+      "proposing help for Indonesia to rebuild south"
+     ],
+     "sequence": [
+      "na",
+      "c0133",
+      "na"
+     ],
+     "coverage": 0.11,
+     "meta": {
+      "score": 14,
+      "retrieved_on": 1494555529
+     }
+    }
+   },
+   "635j4l": {
+    "0": {
+     "thread_id": "635j4l",
+     "item_id": "635j4l",
+     "parent_id": null,
+     "author": "HueHuey",
+     "created_utc": 1491208845,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0134"
+     ],
+     "labels": [
+      "correcting the rightmost dwarves beards"
+     ],
+     "sequence": [
+      "na",
+      "c0134",
+      "na"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "edited": 1491209034,
+      "score": 9,
+      "author_flair_text": "Arm not ok",
+      "retrieved_on": 1494555796
+     }
+    }
+   },
+   "635nw7": {
+    "0": {
+     "thread_id": "635nw7",
+     "item_id": "635nw7",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491211194,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0135"
+     ],
+     "labels": [
+      "asking about mutant dorfs on r/place"
+     ],
+     "sequence": [
+      "c0135"
+     ],
+     "coverage": 0.35,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494555863
+     }
+    }
+   },
+   "635yxv": {
+    "0": {
+     "thread_id": "635yxv",
+     "item_id": "635yxv",
+     "parent_id": null,
+     "author": "yuppieee",
+     "created_utc": 1491216359,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0136"
+     ],
+     "labels": [
+      "calling for help filling the pink dwarf"
+     ],
+     "sequence": [
+      "na",
+      "c0136"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494556019
+     }
+    }
+   },
+   "63655h": {
+    "0": {
+     "thread_id": "63655h",
+     "item_id": "63655h",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491218841,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0137"
+     ],
+     "labels": [
+      "raising an under-attack alert"
+     ],
+     "sequence": [
+      "c0137"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494556105
+     }
+    }
+   },
+   "6368a0": {
+    "0": {
+     "thread_id": "6368a0",
+     "item_id": "6368a0",
+     "parent_id": null,
+     "author": "bankshot",
+     "created_utc": 1491219884,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0138"
+     ],
+     "labels": [
+      "proposing a defensive adjustment to the completed dwarf script"
+     ],
+     "sequence": [
+      "na",
+      "c0138"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494556148
+     }
+    }
+   },
+   "6369ip": {
+    "0": {
+     "thread_id": "6369ip",
+     "item_id": "6369ip",
+     "parent_id": null,
+     "author": "-Rune-",
+     "created_utc": 1491220296,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556166
+     }
+    },
+    "1": {
+     "thread_id": "6369ip",
+     "item_id": "dfrmmu5",
+     "parent_id": "6369ip",
+     "author": "jettsnake",
+     "created_utc": 1491221774,
+     "dt_parent_sec": 1478,
+     "dt_thread_sec": 1478,
+     "state": "coded",
+     "code_ids": [
+      "c0139"
+     ],
+     "labels": [
+      "ordering a mistaken defender into Discord"
+     ],
+     "sequence": [
+      "c0139"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": -5,
+      "retrieved_on": 1493753384
+     }
+    },
+    "1.1": {
+     "thread_id": "6369ip",
+     "item_id": "dfrpsaw",
+     "parent_id": "dfrmmu5",
+     "author": "ticktockbent",
+     "created_utc": 1491226942,
+     "dt_parent_sec": 5168,
+     "dt_thread_sec": 6646,
+     "state": "coded",
+     "code_ids": [
+      "c0140"
+     ],
+     "labels": [
+      "asking for inclusive Reddit-side coordination"
+     ],
+     "sequence": [
+      "na",
+      "c0140"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493755001
+     }
+    },
+    "1.1.1": {
+     "thread_id": "6369ip",
+     "item_id": "dfrsrey",
+     "parent_id": "dfrpsaw",
+     "author": "dudeplace",
+     "created_utc": 1491230812,
+     "dt_parent_sec": 3870,
+     "dt_thread_sec": 10516,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493756728
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "6369ip",
+     "item_id": "dfrsufj",
+     "parent_id": "dfrsrey",
+     "author": "ticktockbent",
+     "created_utc": 1491230914,
+     "dt_parent_sec": 102,
+     "dt_thread_sec": 10618,
+     "state": "coded",
+     "code_ids": [
+      "c0141"
+     ],
+     "labels": [
+      "saying Discord is blocked in some locations"
+     ],
+     "sequence": [
+      "c0141",
+      "na"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493756802
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "6369ip",
+     "item_id": "dfrvfo4",
+     "parent_id": "dfrsufj",
+     "author": "dudeplace",
+     "created_utc": 1491233983,
+     "dt_parent_sec": 3069,
+     "dt_thread_sec": 13687,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493758637
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "6369ip",
+     "item_id": "dfrvico",
+     "parent_id": "dfrvfo4",
+     "author": "ticktockbent",
+     "created_utc": 1491234067,
+     "dt_parent_sec": 84,
+     "dt_thread_sec": 13771,
+     "state": "coded",
+     "code_ids": [
+      "c0142"
+     ],
+     "labels": [
+      "falling back to repairing dwarf faces without the goal image"
+     ],
+     "sequence": [
+      "c0142"
+     ],
+     "coverage": 0.58,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493758673
+     }
+    }
+   },
+   "636a5i": {
+    "0": {
+     "thread_id": "636a5i",
+     "item_id": "636a5i",
+     "parent_id": null,
+     "author": "bankshot",
+     "created_utc": 1491220514,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0143"
+     ],
+     "labels": [
+      "considering script defense, lava, and help for Indonesia"
+     ],
+     "sequence": [
+      "na",
+      "c0143",
+      "na"
+     ],
+     "coverage": 0.07,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1494556174
+     }
+    }
+   },
+   "636eg0": {
+    "0": {
+     "thread_id": "636eg0",
+     "item_id": "636eg0",
+     "parent_id": null,
+     "author": "jettsnake",
+     "created_utc": 1491222049,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0144"
+     ],
+     "labels": [
+      "directing portal-dwarf editors to Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0144"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1494556234
+     }
+    },
+    "1": {
+     "thread_id": "636eg0",
+     "item_id": "dfrnfhp",
+     "parent_id": "636eg0",
+     "author": "Caterpiller101",
+     "created_utc": 1491223248,
+     "dt_parent_sec": 1199,
+     "dt_thread_sec": 1199,
+     "state": "coded",
+     "code_ids": [
+      "c0145"
+     ],
+     "labels": [
+      "apologizing for repairing a planned edit as an invasion"
+     ],
+     "sequence": [
+      "c0145"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493753768
+     }
+    },
+    "2": {
+     "thread_id": "636eg0",
+     "item_id": "dfrpknr",
+     "parent_id": "636eg0",
+     "author": "Theral056",
+     "created_utc": 1491226642,
+     "dt_parent_sec": 4593,
+     "dt_thread_sec": 4593,
+     "state": "coded",
+     "code_ids": [
+      "c0146"
+     ],
+     "labels": [
+      "asking for a visible goal outside Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0146",
+      "na"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1493754898
+     }
+    }
+   },
+   "636zdy": {
+    "0": {
+     "thread_id": "636zdy",
+     "item_id": "636zdy",
+     "parent_id": null,
+     "author": "StealthSuitMkII",
+     "created_utc": 1491228488,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 86,
+      "retrieved_on": 1494556529
+     }
+    },
+    "1": {
+     "thread_id": "636zdy",
+     "item_id": "dfrwtsp",
+     "parent_id": "636zdy",
+     "author": "akhier",
+     "created_utc": 1491235595,
+     "dt_parent_sec": 7107,
+     "dt_thread_sec": 7107,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493759333
+     }
+    },
+    "1.1": {
+     "thread_id": "636zdy",
+     "item_id": "dfrxf87",
+     "parent_id": "dfrwtsp",
+     "author": "StealthSuitMkII",
+     "created_utc": 1491236310,
+     "dt_parent_sec": 715,
+     "dt_thread_sec": 7822,
+     "state": "coded",
+     "code_ids": [
+      "c0147"
+     ],
+     "labels": [
+      "recounting a truce traded for attacking Apoc Rising"
+     ],
+     "sequence": [
+      "na",
+      "c0147",
+      "na"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493759669
+     }
+    }
+   },
+   "6376nx": {
+    "0": {
+     "thread_id": "6376nx",
+     "item_id": "6376nx",
+     "parent_id": null,
+     "author": "SurrealRose",
+     "created_utc": 1491230484,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0148"
+     ],
+     "labels": [
+      "welcoming r/place arrivals into the broader Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0148",
+      "na"
+     ],
+     "coverage": 0.02,
+     "meta": {
+      "edited": 1491234363,
+      "score": 10,
+      "retrieved_on": 1494556633
+     }
+    }
+   },
+   "637a55": {
+    "0": {
+     "thread_id": "637a55",
+     "item_id": "637a55",
+     "parent_id": null,
+     "author": "wallbuster1",
+     "created_utc": 1491231421,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0149"
+     ],
+     "labels": [
+      "proposing a Reddit discussion page for people without Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0149"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Potash Maker #743",
+      "retrieved_on": 1494556681
+     }
+    },
+    "1": {
+     "thread_id": "637a55",
+     "item_id": "dfrvh2h",
+     "parent_id": "637a55",
+     "author": "NoCreativeNames",
+     "created_utc": 1491234027,
+     "dt_parent_sec": 2606,
+     "dt_thread_sec": 2606,
+     "state": "coded",
+     "code_ids": [
+      "c0150"
+     ],
+     "labels": [
+      "bringing an ally-colored plan back from Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0150",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "edited": 1491235557,
+      "score": 3,
+      "author_flair_text": "This servant of Inevitability greets you.",
+      "retrieved_on": 1493758656
+     }
+    }
+   },
+   "637jrz": {
+    "0": {
+     "thread_id": "637jrz",
+     "item_id": "637jrz",
+     "parent_id": null,
+     "author": "8Warden12",
+     "created_utc": 1491233908,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 451,
+      "author_flair_text": "totally not an elf spy",
+      "retrieved_on": 1494556817
+     }
+    },
+    "1": {
+     "thread_id": "637jrz",
+     "item_id": "dfsaigs",
+     "parent_id": "637jrz",
+     "author": "JoaoMSerra",
+     "created_utc": 1491251607,
+     "dt_parent_sec": 17699,
+     "dt_thread_sec": 17699,
+     "state": "coded",
+     "code_ids": [
+      "c0151"
+     ],
+     "labels": [
+      "thanking everyone who contributed"
+     ],
+     "sequence": [
+      "na",
+      "c0151"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493767019
+     }
+    },
+    "2": {
+     "thread_id": "637jrz",
+     "item_id": "dfsghhi",
+     "parent_id": "637jrz",
+     "author": "Sarstan",
+     "created_utc": 1491258540,
+     "dt_parent_sec": 24632,
+     "dt_thread_sec": 24632,
+     "state": "coded",
+     "code_ids": [
+      "c0164"
+     ],
+     "labels": [
+      "asking to keep a flood of r/place posts out of the subreddit"
+     ],
+     "sequence": [
+      "c0164"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -18,
+      "retrieved_on": 1493769897
+     }
+    },
+    "2.1": {
+     "thread_id": "637jrz",
+     "item_id": "dfsgulx",
+     "parent_id": "dfsghhi",
+     "author": "cmetz90",
+     "created_utc": 1491258976,
+     "dt_parent_sec": 436,
+     "dt_thread_sec": 25068,
+     "state": "coded",
+     "code_ids": [
+      "c0152"
+     ],
+     "labels": [
+      "defending local r/place threads as necessary for finding each other"
+     ],
+     "sequence": [
+      "na",
+      "c0152",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493770072
+     }
+    }
+   },
+   "637l8b": {
+    "0": {
+     "thread_id": "637l8b",
+     "item_id": "637l8b",
+     "parent_id": null,
+     "author": "dudeplace",
+     "created_utc": 1491234298,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0153"
+     ],
+     "labels": [
+      "recoloring a dwarf to ease Indonesian tensions"
+     ],
+     "sequence": [
+      "na",
+      "c0153"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1494556837
+     }
+    },
+    "1": {
+     "thread_id": "637l8b",
+     "item_id": "dfrvsc2",
+     "parent_id": "637l8b",
+     "author": "ticktockbent",
+     "created_utc": 1491234383,
+     "dt_parent_sec": 85,
+     "dt_thread_sec": 85,
+     "state": "coded",
+     "code_ids": [
+      "c0154"
+     ],
+     "labels": [
+      "apologizing and stopping repairs of the planned recoloring"
+     ],
+     "sequence": [
+      "c0154",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493758807
+     }
+    },
+    "2": {
+     "thread_id": "637l8b",
+     "item_id": "dfrw7wn",
+     "parent_id": "637l8b",
+     "author": "dudeplace",
+     "created_utc": 1491234900,
+     "dt_parent_sec": 602,
+     "dt_thread_sec": 602,
+     "state": "coded",
+     "code_ids": [
+      "c0155"
+     ],
+     "labels": [
+      "announcing completion of the ally-pattern dwarf"
+     ],
+     "sequence": [
+      "na",
+      "c0155"
+     ],
+     "coverage": 0.07,
+     "meta": {
+      "edited": 1491237997,
+      "score": 2,
+      "retrieved_on": 1493759021
+     }
+    }
+   },
+   "63845g": {
+    "0": {
+     "thread_id": "63845g",
+     "item_id": "63845g",
+     "parent_id": null,
+     "author": "jettsnake",
+     "created_utc": 1491239296,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0156"
+     ],
+     "labels": [
+      "naming the finished work Placemurdered"
+     ],
+     "sequence": [
+      "c0156"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 126,
+      "retrieved_on": 1494557099
+     }
+    },
+    "1": {
+     "thread_id": "63845g",
+     "item_id": "dfs4m7v",
+     "parent_id": "63845g",
+     "author": "A_Beholder",
+     "created_utc": 1491244629,
+     "dt_parent_sec": 5333,
+     "dt_thread_sec": 5333,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "Likes smoothed walls for his OCD",
+      "retrieved_on": 1493764156
+     }
+    },
+    "1.1": {
+     "thread_id": "63845g",
+     "item_id": "dfs53js",
+     "parent_id": "dfs4m7v",
+     "author": "steelreal",
+     "created_utc": 1491245197,
+     "dt_parent_sec": 568,
+     "dt_thread_sec": 5901,
+     "state": "coded",
+     "code_ids": [
+      "c0158"
+     ],
+     "labels": [
+      "calling the Minecraft pick a concession that worked"
+     ],
+     "sequence": [
+      "c0158",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "edited": 1491246625,
+      "score": 8,
+      "retrieved_on": 1493764404
+     }
+    },
+    "2": {
+     "thread_id": "63845g",
+     "item_id": "dfsbja9",
+     "parent_id": "63845g",
+     "author": "terriblestperson",
+     "created_utc": 1491252768,
+     "dt_parent_sec": 13472,
+     "dt_thread_sec": 13472,
+     "state": "coded",
+     "code_ids": [
+      "c0157"
+     ],
+     "labels": [
+      "recounting two wars and two peace treaties at the end"
+     ],
+     "sequence": [
+      "c0157",
+      "na"
+     ],
+     "coverage": 0.02,
+     "meta": {
+      "edited": 1491253063,
+      "score": 7,
+      "retrieved_on": 1493767511
+     }
+    },
+    "2.1": {
+     "thread_id": "63845g",
+     "item_id": "dfsh2ni",
+     "parent_id": "dfsbja9",
+     "author": "cmetz90",
+     "created_utc": 1491259248,
+     "dt_parent_sec": 6480,
+     "dt_thread_sec": 19952,
+     "state": "coded",
+     "code_ids": [
+      "c0159"
+     ],
+     "labels": [
+      "defending the BOPP diamond on allies behalf"
+     ],
+     "sequence": [
+      "na",
+      "c0159"
+     ],
+     "coverage": 0.14,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493770178
+     }
+    }
+   },
+   "638c01": {
+    "0": {
+     "thread_id": "638c01",
+     "item_id": "638c01",
+     "parent_id": null,
+     "author": "HMS_Angry_Yeti",
+     "created_utc": 1491241121,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1494557207
+     }
+    },
+    "1": {
+     "thread_id": "638c01",
+     "item_id": "dfs6jth",
+     "parent_id": "638c01",
+     "author": "SamWhite",
+     "created_utc": 1491246923,
+     "dt_parent_sec": 5802,
+     "dt_thread_sec": 5802,
+     "state": "coded",
+     "code_ids": [
+      "c0160"
+     ],
+     "labels": [
+      "thanking BOPP as great neighbors"
+     ],
+     "sequence": [
+      "c0160",
+      "na"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493765103
+     }
+    }
+   }
+  }
+ }
+}

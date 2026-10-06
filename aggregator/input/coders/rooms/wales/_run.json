@@ -1,0 +1,290 @@
+{
+ "instrument": "v32",
+ "emit": "emit-v32",
+ "verdict": "full",
+ "verdict_note": "set by emit.close(verdict=...); a verdict that exists only as prose in case.md cannot be read back reliably",
+ "close_calls": 2,
+ "reopened_after_close": true,
+ "last_close_seq": 216,
+ "stages": [
+  {
+   "stage": "step1_brief",
+   "from": null,
+   "at_seq": 1,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step1_brief",
+   "at_seq": 198,
+   "codes_so_far": 72,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step4_themes",
+   "at_seq": 213,
+   "codes_so_far": 72,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step6_account",
+   "from": "step5_counter",
+   "at_seq": 214,
+   "codes_so_far": 72,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step7_write",
+   "from": "step6_account",
+   "at_seq": 215,
+   "codes_so_far": 72,
+   "corpus_reads_self_reported": null
+  }
+ ],
+ "reading": {
+  "threads_disposed": 86,
+  "threads_in_corpus": 86,
+  "threads_undisposed": 0,
+  "read_in_full": 79,
+  "triaged_and_dropped": 7,
+  "unread": 0,
+  "coded": 42,
+  "items_in_threads_read": 440,
+  "items_in_window": 530,
+  "items_in_corpus_note": "in-window items only; the corpus header's headline additionally counts [CONTEXT] items",
+  "share_of_threads_disposed": 1.0,
+  "share_of_threads_read_in_full": 0.919,
+  "share_of_text_read_in_full": 0.756
+ },
+ "calls_by_stage": {
+  "step1_brief": {
+   "stage": 1,
+   "coder_stage": 2,
+   "close": 1
+  },
+  "step2_read": {
+   "coder_stage": 2,
+   "thread": 86,
+   "threads_bulk": 7
+  },
+  "step3_codes": {
+   "coder_stage": 2,
+   "code": 72,
+   "pointer": 18
+  },
+  "step6_account": {
+   "coder_stage": 2,
+   "stage": 1
+  },
+  "step7_write": {
+   "coder_stage": 2,
+   "coder_close": 2,
+   "stage": 1,
+   "close": 1
+  },
+  "step4_themes": {
+   "stage": 1,
+   "theme": 11,
+   "theme_add": 3
+  },
+  "step5_counter": {
+   "stage": 1,
+   "find": 9
+  }
+ },
+ "n_codes": 72,
+ "n_codes_emitted": 72,
+ "n_retracted": 0,
+ "n_themes": 11,
+ "n_threads": 86,
+ "n_pointers": 18,
+ "n_subreddits_named": 11,
+ "n_off_platform": 3,
+ "isolated": false,
+ "coordination_left_the_venue": true,
+ "discovered_at": {
+  "step3": 72
+ },
+ "saturation_observed": {
+  "n_codes": 72,
+  "last_step3_code_at": 72,
+  "codes_minted_after_it": 0,
+  "share_of_minting_before_last_new_step3_code": 1.0
+ },
+ "integrity": {
+  "codes_with_no_theme": [],
+  "themes_with_no_code": [],
+  "ok": true
+ },
+ "gate": {
+  "instrument": "v32",
+  "sub": "wales",
+  "branch": "B",
+  "threshold": 500,
+  "budget_items": 500,
+  "floor_items": 25,
+  "items_in_window": 530,
+  "items_by_people": 522,
+  "chars_by_people": 73009,
+  "threads": 86,
+  "decided_utc": "2026-09-30T19:11:51Z",
+  "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+  "slices": [
+   {
+    "batch": "01",
+    "first_thread": "62m1hr",
+    "last_thread": "63a0gz",
+    "n_threads": 75,
+    "items_in_window": 498,
+    "chars_in_window": 70776,
+    "start_utc": 1490976817,
+    "last_opening_utc": 1491256987,
+    "last_item_utc": 1492233986,
+    "start_hour": 0.23,
+    "last_opening_hour": 78.05,
+    "threads": [
+     "62m1hr",
+     "62kyn6",
+     "62m729",
+     "62kcve",
+     "62mjju",
+     "628142",
+     "62mnr4",
+     "62n5u1",
+     "62n63o",
+     "62oqfh",
+     "62p2pp",
+     "62reke",
+     "62rn5l",
+     "62rxu8",
+     "62s4ff",
+     "62s4hv",
+     "62umnt",
+     "62vbof",
+     "62vgio",
+     "62vn2u",
+     "62vnls",
+     "60b4pf",
+     "62vonq",
+     "62ye6b",
+     "62yhpl",
+     "62yknk",
+     "62z2y3",
+     "62z333",
+     "62z3eo",
+     "62zali",
+     "62zdf2",
+     "62zee5",
+     "62zkbb",
+     "62zti5",
+     "62zwk9",
+     "6300d2",
+     "6305ll",
+     "630j40",
+     "630xjm",
+     "6318no",
+     "631fh7",
+     "631fhc",
+     "631igz",
+     "631jf4",
+     "631jrk",
+     "631x5f",
+     "632mi7",
+     "632mlu",
+     "632o5s",
+     "632rr4",
+     "632swg",
+     "632zp9",
+     "633029",
+     "6333rd",
+     "635qi5",
+     "635syx",
+     "635viz",
+     "6364g0",
+     "636ny7",
+     "636szp",
+     "636v8w",
+     "637pej",
+     "637ptu",
+     "637v1d",
+     "638316",
+     "63832g",
+     "6384jh",
+     "6384nv",
+     "6384p8",
+     "638641",
+     "6389nh",
+     "638an5",
+     "629iaf",
+     "639q6x",
+     "63a0gz"
+    ]
+   },
+   {
+    "batch": "02",
+    "first_thread": "63aaan",
+    "last_thread": "63f9vf",
+    "n_threads": 11,
+    "items_in_window": 32,
+    "chars_in_window": 3605,
+    "start_utc": 1491259802,
+    "last_opening_utc": 1491324141,
+    "last_item_utc": 1491533982,
+    "start_hour": 78.83,
+    "last_opening_hour": 96.71,
+    "threads": [
+     "63aaan",
+     "63calf",
+     "63d555",
+     "63d5c5",
+     "63d5ed",
+     "63dj2w",
+     "63djik",
+     "5xjm4g",
+     "63ev5a",
+     "63f9sl",
+     "63f9vf"
+    ]
+   }
+  ],
+  "coders": [
+   {
+    "batch": "01",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-30T19:12:00Z",
+    "run_dir": "fleet/batch_01",
+    "code_id_start": 1,
+    "pointer_id_start": 1,
+    "context_openings": 0,
+    "instrument_fingerprint": "e676ef2af9135e48",
+    "collected_utc": "2026-09-30T19:20:01Z",
+    "codes": 56
+   },
+   {
+    "batch": "02",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-30T19:20:25Z",
+    "run_dir": "fleet/batch_02",
+    "code_id_start": 57,
+    "pointer_id_start": 14,
+    "context_openings": 5,
+    "instrument_fingerprint": "e676ef2af9135e48",
+    "collected_utc": "2026-09-30T19:25:40Z",
+    "codes": 16
+   }
+  ],
+  "consolidated_utc": "2026-09-30T19:26:46Z",
+  "pool": {
+   "codes": 72,
+   "threads": 86,
+   "pointers": 18,
+   "batches": [
+    "01",
+    "02"
+   ]
+  }
+ },
+ "branch": "B"
+}

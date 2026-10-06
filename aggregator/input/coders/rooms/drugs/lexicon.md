@@ -1,0 +1,42 @@
+# lexicon — r/drugs
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- `boof it` — 62mnyf
+- `griefed` — dfozyzl
+- `upterrence` — dfou40q
+- `downterrence` — dfou40q
+- `Snowcapping` — dfoqjxb
+- `boomers` — dfon3bl
+- `kitty` — dfoni87
+- `Upmeth` — dfovsz2
+- `dowNBOMe` — dfovsz2
+- `crackbacks` — dfp36bn
+- `THICC` — dfq1sdy
+- `DMX` — dfq5aqw
+- `🅱️igarettes` — 62vnp7
+- `buttholeologist` — dfpkvjw
+- `h2o od` — dfppizy
+- `water-boofing` — dfppizy
+- `flappy hole` — dfpt5ep
+- `unexist myself` — dfpw830
+- `biccotene` — dfq08sm
+- `R/D` — 62xnp4
+- `RUGS` — 62xnp4
+- `Straya` — 62y8hj
+- `DRK guy` — 62zln7
+- `trippify` — dfqk6i5
+- `PlaceHearts` — dfr16gv
+- `MLG` — dfs4y1g
+- `Turkey heart` — 631uzl
+- `KET` — 632c82
+- `METH` — 632h4a
+- `DOB` — 632h0s
+- `SUPERIOR ROA` — 633ta8
+- `Tina` — dfroyxy
+- `future` — dfrp7ai
+- `HPPO` — dfstuuu
+- `worse case ontario` — dfsqnpb
+- `cold stoned` — dfsubzv
+- `druggos` — 63c2eo
+- `keybumps` — dft1pq3

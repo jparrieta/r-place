@@ -1,0 +1,70 @@
+{
+ "watchmen": {
+  "counts": {
+   "threads_given": 1,
+   "threads_with_codes": 1,
+   "items": 3,
+   "coded": 2,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 1,
+   "orphans": 0,
+   "na_stretches": 0,
+   "coverage_of_coded_items": 1.0,
+   "threads_total_in_window": 4
+  },
+  "index": {
+   "631loa": {
+    "0": {
+     "thread_id": "631loa",
+     "item_id": "631loa",
+     "parent_id": null,
+     "author": "TosieRose",
+     "created_utc": 1491160661,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "showing the Comedian's badge in r/place"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 48,
+      "author_flair_text": "Nite Owl",
+      "retrieved_on": 1494553786
+     }
+    },
+    "1": {
+     "thread_id": "631loa",
+     "item_id": "dfscfre",
+     "parent_id": "631loa",
+     "author": "HK4sixteen",
+     "created_utc": 1491253792,
+     "dt_parent_sec": 93131,
+     "dt_thread_sec": 93131,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "recognizing the badge after not being sure"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493767945
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1 @@
+r/chicago — branch B; verdict: full. Thematic saturation: later slices and counter-reading extended existing practices without adding themes. Evidentiary saturation: limited by removed text, unseen images, off-platform activity, and fleet boundaries. Blocked: nothing.

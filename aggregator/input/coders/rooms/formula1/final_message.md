@@ -1,0 +1,1 @@
+r/formula1 — verdict: **full**. Evidence saturation: later slices repeated retrospection and cleanup before returning to ordinary Formula 1 talk. Meaning saturation: Discord, deleted material, triage, and slice boundaries limit claims about consensus and off-platform decisions. Blocked: nothing.

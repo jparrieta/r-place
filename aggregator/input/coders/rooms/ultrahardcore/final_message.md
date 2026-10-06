@@ -1,0 +1,1 @@
+r/ultrahardcore — branch B — verdict: full. Practice saturation: batch 02 introduced new canvas practices. Record saturation: removals, linked images, off-platform gaps, and split reading limit completeness. Nothing blocked completion.

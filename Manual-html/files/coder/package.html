@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>The run's package</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/package.md">Markdown source</a></nav>
+<h1 id="the-runs-package">The run's package</h1>
+<p>What one room hands on: the six outputs named for the aggregator, and the files under <code>run/package/</code>.</p>
+<p><strong>What it holds</strong></p>
+<p>The six outputs this manual groups as the hand-over: <code>brief.md</code> (the pre-week description), <code>case.md</code> (the within-case account), <code>codes.jsonl</code>, <code>themes.jsonl</code>, <code>threads.jsonl</code> and <code>pointers.jsonl</code>. The coder contract's own "six outputs" are different: <code>case.md</code>, <code>notes.md</code> and the four JSONL files. The aggregator takes the first set: each room's folder in the run's package holds exactly those six files (<a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/armenia/">package/armenia/</a>). <code>notes.md</code> stays with the room's run and is not handed on.</p>
+<p><code>run/package/</code> holds <code>codes.jsonl</code>, <code>threads.jsonl</code>, <code>pointers.jsonl</code> (the fleet's pooled rows, each with its batch), <code>codes_by_thread.md</code>, <code>forest.jsonl</code> and <code>tree_index.json</code>. The lead's <code>out/</code> holds <code>case.md</code>, <code>notes.md</code> and the four files <code>emit.close()</code> writes, <code>themes.jsonl</code> among them.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p><code>fleet.py consolidate</code> pools; <code>tree_builder.py</code> writes the forest files; <code>emit.close()</code> writes the JSONL files; the lead writes <code>case.md</code> and <code>notes.md</code>.</p>
+<p><strong>Why it exists</strong></p>
+<p>Outputs go "to a reader that builds the account across three hundred communities and has not seen your corpus".</p>
+<p><strong>Where</strong></p>
+<p><code>run/package/</code> and <code>run/out/</code> inside each room's <code>run.tar.zst</code>.</p>
+<p>Checked against: CONTRACT.v32.md §8 and §9, CONTRACT-case-lead.v32.md §7, tools/fleet.py, yard/README.md, TOOLS-SPEC.md</p>
+</body>
+</html>

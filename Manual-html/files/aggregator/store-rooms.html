@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`package/store/rooms.jsonl`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/store-rooms.md">Markdown source</a></nav>
+<h1 id="packagestoreroomsjsonl"><code>package/store/rooms.jsonl</code></h1>
+<p>One line per room of the frame: the census.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p><code>sub</code>; <code>threads_total</code>, <code>items_in_window</code>; the coder's dispositions (<code>threads_disposed</code>, <code>threads_read_in_full</code>, <code>threads_triaged</code>, <code>threads_out_of_scope</code>, <code>threads_coded</code>); <code>threads_in_store</code>, <code>items_in_store</code>, <code>items_coded</code>; <code>codes</code>, <code>codes_retracted</code>, <code>themes</code>, <code>pointers</code>; <code>n_subreddits_named</code>, <code>n_off_platform</code>; <code>onset_first_code_hour</code>, <code>onset_median_code_hour</code>, <code>onset_last_code_hour</code>; <code>coded_authors</code>, <code>top1_share</code>, <code>herfindahl</code>; <code>n_named_neighbours</code>; <code>forest</code>; <code>brief</code>; <code>n_codes_mismatch_themes</code>; <code>thread_coded_share</code>, <code>item_coded_share</code>; after the join, the six canvas fields.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p><code>build_store.py</code> at stage 00; <code>--join-canvas</code> adds the canvas fields.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p><code>counts.py</code> takes the census from it and FRAME.md names it as the list. Contract §5: <code>onset_first_code_hour</code> "is populated for every room" and carries the one clean contrast; <code>n_off_platform</code> goes with every verdict at the return. Rule 7 keeps the canvas fields here "and nowhere else". <code>mem.py facts</code> serves it field by field.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/rooms.jsonl">package/store/rooms.jsonl</a>.</p>
+<p>Checked against: tools/build_store.py, tools/counts.py, tools/mem.py, CONTRACT-aggregator.md §5 and rule 7.</p>
+</body>
+</html>

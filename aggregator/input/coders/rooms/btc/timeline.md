@@ -1,0 +1,89 @@
+# timeline — r/btc
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 21:18 — the opening post `62o7mi` is marked edited.
+- d0 03-31 23:05 — comment `dfo6nrf` is marked edited.
+- d0 04-01 05:32 — comment `dfolsnu` is marked edited.
+- d0 04-01 05:42 — comment `dfom34h` is marked edited.
+- d0 04-01 05:47 — opening post `62qydp` is marked edited.
+- d0 04-01 06:07 — opening post `62r1do` is marked edited.
+- d0 04-01 06:43 — comment `dfonnmo` is marked edited.
+- d0 04-01 07:42 — comment `dfooz36` is marked edited.
+- d0 04-01 09:44 — comment `dfor9tg` is marked edited.
+- d0 04-01 09:59 — comment `dforj7g` is marked edited.
+- d0 04-01 11:58 — comment `dfott2s` is marked edited.
+- d0 04-01 13:53 — comment `dfox0zp` is marked edited.
+- d0 04-01 14:21 — comment `dfoy0pw` is marked edited.
+- d0 04-01 14:33 — comment `dfoygft` is marked edited.
+- d0 04-01 14:54 — comment `dfoz8rz` is marked edited.
+- d0 04-01 15:01 — comment `dfozhz7` is marked edited.
+- d0 04-01 15:23 — deleted comment `dfp0f6f` is marked edited.
+- d1 04-01 17:19 — deleted comments `dfp5alh` and `dfp5an7` are marked edited.
+- d1 04-01 18:24 — comment `dfp7z10` is marked edited.
+- d1 04-01 18:34 — comment `dfp8dxc` is marked edited.
+- d1 04-01 18:42 — comment `dfp8qo9` is marked edited.
+- d1 04-01 19:39 — opening post `62uycl` is marked edited.
+- d1 04-01 20:14 — comment `dfpceg4` is marked edited.
+- d1 04-01 20:23 — comment `dfpcrgg` is marked edited.
+- d1 04-01 21:03 — comment `dfpeccu` is marked edited.
+- d1 04-01 21:10 — comment `dfpenik` is marked edited.
+- d1 04-01 21:19 — comment `dfpez3q` is marked edited.
+- d1 04-01 21:33 — comment `dfpfjbx` is marked edited.
+- d1 04-01 21:56 — opening post `62vtwg` is marked edited.
+- d1 04-01 22:10 — comment `dfpgzj0` is marked edited.
+- d1 04-01 22:14 — comment `dfph5o2` is marked edited.
+- d1 04-01 22:42 — comment `dfpi7i2` is marked edited.
+- d1 04-01 22:58 — deleted comment `dfpiv0c` is marked edited.
+- d1 04-02 00:28 — opening post `62wnrs` is marked edited.
+- d1 04-02 01:15 — comment `dfpoakg` is marked edited.
+- d1 04-02 01:29 — comment `dfpouh2` is marked edited.
+- d1 04-02 06:11 — comment `dfpxxk5` is marked edited.
+- d1 04-02 07:04 — comment `dfpz57v` is marked edited.
+- d1 04-02 12:28 — deleted comment `dfq4zji` is marked edited.
+- d1 04-02 13:10 — comment `dfq60d4` is marked edited.
+- d1 04-02 13:51 — comment `dfq75r3` is marked edited.
+- d2 04-02 16:34 — comment `dfqdh0t` is marked edited.
+- d2 04-02 16:36 — opening post `630m7m` is marked edited.
+- d2 04-02 16:46 — opening post `630obo` is marked edited.
+- d2 04-02 17:10 — comment `dfqf35e` is marked edited.
+- d2 04-02 17:15 — comment `dfqfd11` is marked edited.
+- d2 04-02 17:17 — deleted opening post `630uzp` is marked edited.
+- d2 04-02 17:57 — comment `dfqhasb` is marked edited.
+- d2 04-02 19:33 — comment `dfqlswc` is marked edited.
+- d2 04-02 21:01 — comment `dfqpnui` is marked edited.
+- d2 04-02 21:43 — comment `dfqrjk8` is marked edited.
+- d2 04-02 21:48 — opening post `632hwv` is marked edited.
+- d2 04-03 05:05 — comment `dfrcdn2` is marked edited.
+- d2 04-03 07:31 — opening post `635aya` is marked edited.
+- d2 04-03 08:48 — comment `dfrhxzo` is marked edited.
+- d2 04-03 09:36 — comment `dfriuo9` is marked edited.
+- d2 04-03 14:14 — opening post `6370q7` is marked edited.
+- d2 04-03 14:44 — comment `dfrsmz8` is marked edited.
+- d2 04-03 15:20 — comment `dfrugwu` is marked edited.
+- d2 04-03 15:41 — comment `dfrvjei` is marked edited.
+- d3 04-03 17:47 — comment `dfs1zl2` is marked edited.
+- d3 04-03 18:30 — comment `dfs4a6n` is marked edited.
+- d3 04-03 20:27 — comment `dfsa66l` is marked edited.
+- d3 04-03 21:06 — comment `dfsc9ce` is marked edited.
+- d3 04-03 21:44 — deleted opening post `639w8t` is marked edited.
+- d3 04-03 22:16 — opening post `63a3g3` is marked edited.
+- d3 04-03 22:33 — comment `dfsgq0a` is marked edited.
+- d3 04-03 23:09 — opening post `63aecg` is marked edited.
+- d3 04-04 00:06 — comment `dfsl6y2` is marked edited.
+- d3 04-04 00:33 — automatic comment `dfsmljj` is marked edited.
+- d3 04-04 02:30 — comment `dfssen1` is marked edited.
+- d3 04-04 02:51 — comment `dfstfmp` is marked edited.
+- d3 04-04 03:19 — comment `dfsupxa` is marked edited.
+- d3 04-04 06:39 — comment `dft1bss` is marked edited.
+- d3 04-04 07:14 — comment `dft24yj` is marked edited.
+- d3 04-04 07:38 — opening post `63cqfx` is marked edited.
+- d3 04-04 09:06 — opening post `63d0cp` is marked edited.
+- d3 04-04 09:40 — comment `dft50c5` is marked edited.
+- d3 04-04 09:43 — comment `dft52al` is marked edited.
+- d3 04-04 10:00 — deleted opening post `63d6po` is marked edited.
+- d3 04-04 10:02 — comment `dft5fic` is marked edited.
+- d3 04-04 11:13 — comment `dft6yzh` is marked edited.
+- d3 04-04 13:07 — opening post `63dzju` is marked edited.
+- d3 04-04 15:01 — opening post `63emew` is marked edited.
+- d3 04-04 15:58 — opening post `63ezfw` is marked edited.

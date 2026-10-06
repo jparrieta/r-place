@@ -1,0 +1,1 @@
+r/batman — branch B, verdict: full. Evidence saturation: structurally limited by removals, linked images, and split-slice reading. Practice saturation: the final slice added neighbour-facing work, so saturation was incomplete. Blockers: none.

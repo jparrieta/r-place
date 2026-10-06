@@ -1,0 +1,1 @@
+r/afip — branch B; verdict: full. Record saturation is limited by deleted bodies and partly visible Discord activity. Thematic saturation cannot be tested across later slices because there were none; counter-reading extended existing themes without adding a new practice. Blockers: none.

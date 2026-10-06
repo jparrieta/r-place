@@ -1,0 +1,1 @@
+r/ontario — branch B; verdict `full`. Saturation: batch 02 introduced new practices, while the counter-reading repeated the flag-recruitment theme. Completeness remains limited for the flag’s outcome and whether the subreddit switched back. Nothing blocked completion.

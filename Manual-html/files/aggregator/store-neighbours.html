@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`package/store/neighbours.jsonl`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/store-neighbours.md">Markdown source</a></nav>
+<h1 id="packagestoreneighboursjsonl"><code>package/store/neighbours.jsonl</code></h1>
+<p>Every pair of rooms that touch on the canvas or name each other.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>One line per ordered pair, both directions written: <code>sub</code>, <code>other</code>, <code>shared_artworks</code> (ids the atlas links to both), <code>border_px</code> (pixels of one room's artworks touching the other's), <code>overlap_px</code> (pixels covered by an artwork of each), and <code>mention</code> (null, or <code>label</code>, <code>n</code>, <code>reciprocal</code>, <code>direction</code>: names, named-by or both). A room whose outline the atlas lacks can take its region from <code>INPUT/canvas/derived_regions.json</code> (the koi, 541 pixels). <code>mem.py neighbours</code> ranks the ties: named both ways, named one way (a claim), shared artwork, overlap, border; the last three are the canvas, the outcome, and stage A2 does not cluster on them.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p><code>build_neighbours.py</code>, handler side at build, when <code>INPUT/canvas/atlas_2017.json</code> exists. Without it <code>build.sh</code> warns that the file "holds no canvas neighbours; mem.py neighbours will say so".</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>It serves <code>mem.py neighbours</code>, which any stage may read. Its limits: the atlas outline is one annotator's, drawn after the event; a border is not a negotiation; rooms with no artwork in the atlas have no canvas neighbours, "which says nothing about where they built."</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/neighbours.jsonl">package/store/neighbours.jsonl</a>.</p>
+<p>Checked against: tools/build_neighbours.py, harness/build.sh, tools/mem.py, STANDING-INSTRUCTIONS.md §1.</p>
+</body>
+</html>

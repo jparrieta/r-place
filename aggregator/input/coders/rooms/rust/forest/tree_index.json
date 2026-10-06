@@ -1,0 +1,4677 @@
+{
+ "rust": {
+  "counts": {
+   "threads_given": 12,
+   "threads_with_codes": 12,
+   "items": 302,
+   "coded": 161,
+   "bridge": 31,
+   "removed": 0,
+   "dropped": 110,
+   "orphans": 0,
+   "na_stretches": 104,
+   "coverage_of_coded_items": 0.59,
+   "threads_total_in_window": 101
+  },
+  "index": {
+   "62qi63": {
+    "0": {
+     "thread_id": "62qi63",
+     "item_id": "62qi63",
+     "parent_id": null,
+     "author": "Gankro",
+     "created_utc": 1491019684,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "introducing the Higher and Lower Types April Fools RFC"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 94,
+      "author_flair_text": "rust",
+      "retrieved_on": 1492478108
+     }
+    },
+    "1": {
+     "thread_id": "62qi63",
+     "item_id": "dfoj77l",
+     "parent_id": "62qi63",
+     "author": "Quxxy",
+     "created_utc": 1491019963,
+     "dt_parent_sec": 279,
+     "dt_thread_sec": 279,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "imagining HTML-tag types for every possibility"
+     ],
+     "sequence": [
+      "na",
+      "c0002"
+     ],
+     "coverage": 0.04,
+     "meta": {
+      "score": 35,
+      "author_flair_text": "His Holy Macroness",
+      "retrieved_on": 1493698394
+     }
+    },
+    "1.1": {
+     "thread_id": "62qi63",
+     "item_id": "dfollmr",
+     "parent_id": "dfoj77l",
+     "author": "kibwen",
+     "created_utc": 1491024333,
+     "dt_parent_sec": 4370,
+     "dt_thread_sec": 4649,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "proposing blink and marquee types"
+     ],
+     "sequence": [
+      "na",
+      "c0003"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1493699550
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62qi63",
+     "item_id": "dfolme9",
+     "parent_id": "dfollmr",
+     "author": "Quxxy",
+     "created_utc": 1491024377,
+     "dt_parent_sec": 44,
+     "dt_thread_sec": 4693,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "answering that marquee means streaming types"
+     ],
+     "sequence": [
+      "c0004",
+      "na"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "score": 18,
+      "author_flair_text": "His Holy Macroness",
+      "retrieved_on": 1493699560
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62qi63",
+     "item_id": "dfosc9j",
+     "parent_id": "dfolme9",
+     "author": "stumpychubbins",
+     "created_utc": 1491043447,
+     "dt_parent_sec": 19070,
+     "dt_thread_sec": 23763,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "proposing marquee in place of Iterator"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493702801
+     }
+    },
+    "1.1.2": {
+     "thread_id": "62qi63",
+     "item_id": "dfordsv",
+     "parent_id": "dfollmr",
+     "author": "so_you_like_donuts",
+     "created_utc": 1491040243,
+     "dt_parent_sec": 15910,
+     "dt_thread_sec": 20559,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "repurposing marquee for lazy types"
+     ],
+     "sequence": [
+      "c0010",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493702341
+     }
+    },
+    "1.2": {
+     "thread_id": "62qi63",
+     "item_id": "dfomxhe",
+     "parent_id": "dfoj77l",
+     "author": "lifthrasiir",
+     "created_utc": 1491027249,
+     "dt_parent_sec": 7286,
+     "dt_thread_sec": 7565,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "correcting how unsafe HTML types should be styled"
+     ],
+     "sequence": [
+      "na",
+      "c0005"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 9,
+      "author_flair_text": "rust \u00b7 encoding \u00b7 chrono",
+      "retrieved_on": 1493700191
+     }
+    },
+    "1.2.1": {
+     "thread_id": "62qi63",
+     "item_id": "dfon0b1",
+     "parent_id": "dfomxhe",
+     "author": "Quxxy",
+     "created_utc": 1491027430,
+     "dt_parent_sec": 181,
+     "dt_thread_sec": 7746,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "rejecting class because Rust does not have OOP"
+     ],
+     "sequence": [
+      "na",
+      "c0006"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "His Holy Macroness",
+      "retrieved_on": 1493700231
+     }
+    },
+    "1.2.1.1": {
+     "thread_id": "62qi63",
+     "item_id": "dfon2c1",
+     "parent_id": "dfon0b1",
+     "author": "lifthrasiir",
+     "created_utc": 1491027565,
+     "dt_parent_sec": 135,
+     "dt_thread_sec": 7881,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "answering that class means type-class homage"
+     ],
+     "sequence": [
+      "na",
+      "c0007"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "rust \u00b7 encoding \u00b7 chrono",
+      "retrieved_on": 1493700257
+     }
+    },
+    "1.3": {
+     "thread_id": "62qi63",
+     "item_id": "dfoqg0e",
+     "parent_id": "dfoj77l",
+     "author": "mitsuhiko",
+     "created_utc": 1491037141,
+     "dt_parent_sec": 17178,
+     "dt_thread_sec": 17457,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "asking for script types"
+     ],
+     "sequence": [
+      "c0008",
+      "na"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "redis-rs",
+      "retrieved_on": 1493701888
+     }
+    },
+    "2": {
+     "thread_id": "62qi63",
+     "item_id": "dfoqyat",
+     "parent_id": "62qi63",
+     "author": "asmx85",
+     "created_utc": 1491038809,
+     "dt_parent_sec": 19125,
+     "dt_thread_sec": 19125,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "asking whether the RFC enables LaTeX typing"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493702133
+     }
+    }
+   },
+   "62rn2h": {
+    "0": {
+     "thread_id": "62rn2h",
+     "item_id": "62rn2h",
+     "parent_id": null,
+     "author": "killercup",
+     "created_utc": 1491037146,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "announcing Gary Newvan as a special guest"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 0.87,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1494548786
+     }
+    },
+    "1": {
+     "thread_id": "62rn2h",
+     "item_id": "dfp023z",
+     "parent_id": "62rn2h",
+     "author": "misterZalli",
+     "created_utc": 1491059723,
+     "dt_parent_sec": 22577,
+     "dt_thread_sec": 22577,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "responding with astonishment to the guest joke"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493706516
+     }
+    },
+    "2": {
+     "thread_id": "62rn2h",
+     "item_id": "dfpcvy5",
+     "parent_id": "62rn2h",
+     "author": "FluffySupreme",
+     "created_utc": 1491078387,
+     "dt_parent_sec": 41241,
+     "dt_thread_sec": 41241,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "praising the subtle guest joke after googling it"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493712698
+     }
+    }
+   },
+   "62rreg": {
+    "0": {
+     "thread_id": "62rreg",
+     "item_id": "62rreg",
+     "parent_id": null,
+     "author": "ihcn",
+     "created_utc": 1491039325,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "parodying the stop-rewriting PSA as spreading the Good Word"
+     ],
+     "sequence": [
+      "c0015",
+      "na"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "score": 76,
+      "retrieved_on": 1494548847
+     }
+    },
+    "1": {
+     "thread_id": "62rreg",
+     "item_id": "dforrsu",
+     "parent_id": "62rreg",
+     "author": "kibwen",
+     "created_utc": 1491041551,
+     "dt_parent_sec": 2226,
+     "dt_thread_sec": 2226,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 92,
+      "retrieved_on": 1493702527
+     }
+    },
+    "1.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfoshhu",
+     "parent_id": "dforrsu",
+     "author": "thristian99",
+     "created_utc": 1491043931,
+     "dt_parent_sec": 2380,
+     "dt_thread_sec": 4606,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "seeking out the post to appreciate the seasonal theme"
+     ],
+     "sequence": [
+      "c0017",
+      "na"
+     ],
+     "coverage": 0.56,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493702871
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfoswui",
+     "parent_id": "dfoshhu",
+     "author": "kibwen",
+     "created_utc": 1491045305,
+     "dt_parent_sec": 1374,
+     "dt_thread_sec": 5980,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "proclaiming mushroom trombone guy the guardian angel"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1493703077
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfpbxfa",
+     "parent_id": "dfoswui",
+     "author": "klobsEnd",
+     "created_utc": 1491076935,
+     "dt_parent_sec": 31630,
+     "dt_thread_sec": 37610,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493712234
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfpd81y",
+     "parent_id": "dfpbxfa",
+     "author": "kibwen",
+     "created_utc": 1491078896,
+     "dt_parent_sec": 1961,
+     "dt_thread_sec": 39571,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "turning a hostile copypasta into patient Rust correction"
+     ],
+     "sequence": [
+      "na",
+      "c0030",
+      "na"
+     ],
+     "coverage": 0.03,
+     "meta": {
+      "edited": 1491105593,
+      "score": 37,
+      "retrieved_on": 1493712860
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfpdwwj",
+     "parent_id": "dfpd81y",
+     "author": "klobsEnd",
+     "created_utc": 1491079935,
+     "dt_parent_sec": 1039,
+     "dt_thread_sec": 40610,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "answering the Rust copypasta with mock prostration"
+     ],
+     "sequence": [
+      "na",
+      "c0031",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493713195
+     }
+    },
+    "1.1.1.1.1.1.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfq0bee",
+     "parent_id": "dfpdwwj",
+     "author": "WhateverChomp",
+     "created_utc": 1491120135,
+     "dt_parent_sec": 40200,
+     "dt_thread_sec": 80810,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "explaining that the reply is an April Fools copypasta"
+     ],
+     "sequence": [
+      "c0033",
+      "na"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724031
+     }
+    },
+    "1.1.1.1.1.1.1.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfq5g3f",
+     "parent_id": "dfq0bee",
+     "author": "klobsEnd",
+     "created_utc": 1491137287,
+     "dt_parent_sec": 17152,
+     "dt_thread_sec": 97962,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "admitting being caught off guard by April Fools"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 0.64,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493726503
+     }
+    },
+    "1.2": {
+     "thread_id": "62rreg",
+     "item_id": "dfottjp",
+     "parent_id": "dforrsu",
+     "author": "klo8",
+     "created_utc": 1491047922,
+     "dt_parent_sec": 6371,
+     "dt_thread_sec": 8597,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "preaching Fearless Concurrency as the good word"
+     ],
+     "sequence": [
+      "c0020",
+      "na"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 29,
+      "retrieved_on": 1493703513
+     }
+    },
+    "1.3": {
+     "thread_id": "62rreg",
+     "item_id": "dfoxkpt",
+     "parent_id": "dforrsu",
+     "author": "carols10cents",
+     "created_utc": 1491055752,
+     "dt_parent_sec": 14201,
+     "dt_thread_sec": 16427,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "praising the seasonal CSS implementation"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 0.76,
+     "meta": {
+      "score": 11,
+      "author_flair_text": "rust-community \u00b7 rust-belt-rust",
+      "retrieved_on": 1493705321
+     }
+    },
+    "2": {
+     "thread_id": "62rreg",
+     "item_id": "dfosxso",
+     "parent_id": "62rreg",
+     "author": "koheant",
+     "created_utc": 1491045386,
+     "dt_parent_sec": 6061,
+     "dt_thread_sec": 6061,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "joking about recruiting Linus to rewrite Linux"
+     ],
+     "sequence": [
+      "c0019",
+      "na"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "score": 34,
+      "retrieved_on": 1493703090
+     }
+    },
+    "2.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfoug3d",
+     "parent_id": "dfosxso",
+     "author": "silmeth",
+     "created_utc": 1491049469,
+     "dt_parent_sec": 4083,
+     "dt_thread_sec": 10144,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "calling to convert RMS and GNU to Rust"
+     ],
+     "sequence": [
+      "c0021",
+      "na"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1493703817
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfow8fs",
+     "parent_id": "dfoug3d",
+     "author": "koheant",
+     "created_utc": 1491053306,
+     "dt_parent_sec": 3837,
+     "dt_thread_sec": 13981,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "proposing an outsider mandate Rust rewrites for FSF projects"
+     ],
+     "sequence": [
+      "c0022",
+      "na"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493704677
+     }
+    },
+    "2.2": {
+     "thread_id": "62rreg",
+     "item_id": "dfp8t41",
+     "parent_id": "dfosxso",
+     "author": "_TheDust_",
+     "created_utc": 1491072258,
+     "dt_parent_sec": 26872,
+     "dt_thread_sec": 32933,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493710729
+     }
+    },
+    "2.2.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfpp9dl",
+     "parent_id": "dfp8t41",
+     "author": "throwaway_lmkg",
+     "created_utc": 1491097251,
+     "dt_parent_sec": 24993,
+     "dt_thread_sec": 57926,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "escalating the joke to rewriting Linus himself"
+     ],
+     "sequence": [
+      "c0036",
+      "na"
+     ],
+     "coverage": 0.45,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493718695
+     }
+    },
+    "3": {
+     "thread_id": "62rreg",
+     "item_id": "dfowyob",
+     "parent_id": "62rreg",
+     "author": "shepmaster",
+     "created_utc": 1491054674,
+     "dt_parent_sec": 15349,
+     "dt_thread_sec": 15349,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "recounting an airport Rust evangelism joke meeting refusal"
+     ],
+     "sequence": [
+      "na",
+      "c0023",
+      "na"
+     ],
+     "coverage": 0.02,
+     "meta": {
+      "score": 18,
+      "author_flair_text": "sxd \u00b7 rust",
+      "retrieved_on": 1493705028
+     }
+    },
+    "3.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfppbi7",
+     "parent_id": "dfowyob",
+     "author": "throwaway_lmkg",
+     "created_utc": 1491097347,
+     "dt_parent_sec": 42673,
+     "dt_thread_sec": 58022,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "escalating the joke to rewriting hardware"
+     ],
+     "sequence": [
+      "c0037"
+     ],
+     "coverage": 0.57,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493718725
+     }
+    },
+    "4": {
+     "thread_id": "62rreg",
+     "item_id": "dfp6qqb",
+     "parent_id": "62rreg",
+     "author": "wtfdizzy",
+     "created_utc": 1491069263,
+     "dt_parent_sec": 29938,
+     "dt_thread_sec": 29938,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "asking moderators to keep the seasonal theme"
+     ],
+     "sequence": [
+      "c0026",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493709733
+     }
+    },
+    "4.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfpe08g",
+     "parent_id": "dfp6qqb",
+     "author": "kibwen",
+     "created_utc": 1491080075,
+     "dt_parent_sec": 10812,
+     "dt_thread_sec": 40750,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "promising the Strike Force will return each year"
+     ],
+     "sequence": [
+      "na",
+      "c0032",
+      "na"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493713239
+     }
+    },
+    "5": {
+     "thread_id": "62rreg",
+     "item_id": "dfp7pv0",
+     "parent_id": "62rreg",
+     "author": "addher",
+     "created_utc": 1491070675,
+     "dt_parent_sec": 31350,
+     "dt_thread_sec": 31350,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "proposing door-to-door preaching of the Good Word"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493710204
+     }
+    },
+    "5.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfp9at1",
+     "parent_id": "dfp7pv0",
+     "author": "jonysy",
+     "created_utc": 1491072978,
+     "dt_parent_sec": 2303,
+     "dt_thread_sec": 33653,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "acting out a door-to-door Good Word pitch"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 0.67,
+     "meta": {
+      "edited": 1491073299,
+      "score": 2,
+      "retrieved_on": 1493710968
+     }
+    },
+    "6": {
+     "thread_id": "62rreg",
+     "item_id": "dfpbptx",
+     "parent_id": "62rreg",
+     "author": "klobsEnd",
+     "created_utc": 1491076615,
+     "dt_parent_sec": 37290,
+     "dt_thread_sec": 37290,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "correcting Good Word to God Word"
+     ],
+     "sequence": [
+      "na",
+      "c0029",
+      "na"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493712131
+     }
+    },
+    "6.1": {
+     "thread_id": "62rreg",
+     "item_id": "dfpwnkk",
+     "parent_id": "dfpbptx",
+     "author": "my_ledge_ends",
+     "created_utc": 1491110488,
+     "dt_parent_sec": 33873,
+     "dt_thread_sec": 71163,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "declaring Rust itself to be god"
+     ],
+     "sequence": [
+      "c0038",
+      "na"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493722266
+     }
+    },
+    "7": {
+     "thread_id": "62rreg",
+     "item_id": "dfpm4rm",
+     "parent_id": "62rreg",
+     "author": "d4rch0n",
+     "created_utc": 1491092430,
+     "dt_parent_sec": 53105,
+     "dt_thread_sec": 53105,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "suggesting taking the rewrite joke to the GCC list"
+     ],
+     "sequence": [
+      "c0035"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493717180
+     }
+    }
+   },
+   "62rutq": {
+    "0": {
+     "thread_id": "62rutq",
+     "item_id": "62rutq",
+     "parent_id": null,
+     "author": "lfairy",
+     "created_utc": 1491041009,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "sharing a Rust's fatal flaw April Fools article"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 174,
+      "retrieved_on": 1494548894
+     }
+    },
+    "1": {
+     "thread_id": "62rutq",
+     "item_id": "dforzu7",
+     "parent_id": "62rutq",
+     "author": "tene",
+     "created_utc": 1491042287,
+     "dt_parent_sec": 1278,
+     "dt_thread_sec": 1278,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "seriously proposing clearer owned and borrowed names"
+     ],
+     "sequence": [
+      "na",
+      "c0040",
+      "na"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "score": 59,
+      "retrieved_on": 1493702634
+     }
+    },
+    "1.1": {
+     "thread_id": "62rutq",
+     "item_id": "dfos2k2",
+     "parent_id": "dforzu7",
+     "author": "killercup",
+     "created_utc": 1491042542,
+     "dt_parent_sec": 255,
+     "dt_thread_sec": 1533,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "turning proposed names into Texting and Byting jokes"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 34,
+      "retrieved_on": 1493702671
+     }
+    },
+    "1.2": {
+     "thread_id": "62rutq",
+     "item_id": "dfosr7f",
+     "parent_id": "dforzu7",
+     "author": "masklinn",
+     "created_utc": 1491044807,
+     "dt_parent_sec": 2520,
+     "dt_thread_sec": 3798,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "correcting the article with multiple borrow pairings"
+     ],
+     "sequence": [
+      "c0042",
+      "na"
+     ],
+     "coverage": 0.14,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493703002
+     }
+    },
+    "1.3": {
+     "thread_id": "62rutq",
+     "item_id": "dfoy6qe",
+     "parent_id": "dforzu7",
+     "author": "hatessw",
+     "created_utc": 1491056765,
+     "dt_parent_sec": 14478,
+     "dt_thread_sec": 15756,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "making memory-safety and rusty puns"
+     ],
+     "sequence": [
+      "na",
+      "c0047",
+      "na"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 24,
+      "retrieved_on": 1493705616
+     }
+    },
+    "2": {
+     "thread_id": "62rutq",
+     "item_id": "dfostr1",
+     "parent_id": "62rutq",
+     "author": "Wolfspaw",
+     "created_utc": 1491045038,
+     "dt_parent_sec": 4029,
+     "dt_thread_sec": 4029,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "being surprised and amused by the subreddit design"
+     ],
+     "sequence": [
+      "c0043",
+      "na"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493703036
+     }
+    },
+    "2.1": {
+     "thread_id": "62rutq",
+     "item_id": "dfot8ke",
+     "parent_id": "dfostr1",
+     "author": "Amuro_Ray",
+     "created_utc": 1491046303,
+     "dt_parent_sec": 1265,
+     "dt_thread_sec": 5294,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "preferring the April Fools design to the standard one"
+     ],
+     "sequence": [
+      "c0044"
+     ],
+     "coverage": 0.95,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493703233
+     }
+    },
+    "2.2": {
+     "thread_id": "62rutq",
+     "item_id": "dfpb1cz",
+     "parent_id": "dfostr1",
+     "author": "critiqjo",
+     "created_utc": 1491075608,
+     "dt_parent_sec": 30570,
+     "dt_thread_sec": 34599,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "celebrating the rotating CSS details"
+     ],
+     "sequence": [
+      "na",
+      "c0052"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "edited": 1491076040,
+      "score": 5,
+      "retrieved_on": 1493711803
+     }
+    },
+    "3": {
+     "thread_id": "62rutq",
+     "item_id": "dfotfii",
+     "parent_id": "62rutq",
+     "author": "Wolfspaw",
+     "created_utc": 1491046842,
+     "dt_parent_sec": 5833,
+     "dt_thread_sec": 5833,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "questioning whether the article is serious on April 1"
+     ],
+     "sequence": [
+      "na",
+      "c0045",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 67,
+      "retrieved_on": 1493703326
+     }
+    },
+    "3.1": {
+     "thread_id": "62rutq",
+     "item_id": "dfp1f2c",
+     "parent_id": "dfotfii",
+     "author": "steveklabnik1",
+     "created_utc": 1491061645,
+     "dt_parent_sec": 14803,
+     "dt_thread_sec": 20636,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "using the joke to state a real naming wish"
+     ],
+     "sequence": [
+      "c0050"
+     ],
+     "coverage": 0.56,
+     "meta": {
+      "score": 25,
+      "author_flair_text": "rust",
+      "retrieved_on": 1493707168
+     }
+    },
+    "4": {
+     "thread_id": "62rutq",
+     "item_id": "dfov34l",
+     "parent_id": "62rutq",
+     "author": "Aatch",
+     "created_utc": 1491050948,
+     "dt_parent_sec": 9939,
+     "dt_thread_sec": 9939,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "complaining that April Fools arrives on April 2 in New Zealand"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 0.63,
+     "meta": {
+      "score": 29,
+      "author_flair_text": "rust \u00b7 ramp",
+      "retrieved_on": 1493704124
+     }
+    },
+    "4.1": {
+     "thread_id": "62rutq",
+     "item_id": "dfp5peu",
+     "parent_id": "dfov34l",
+     "author": "grelphy",
+     "created_utc": 1491067754,
+     "dt_parent_sec": 16806,
+     "dt_thread_sec": 26745,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "explaining how international timing disrupts April Fools"
+     ],
+     "sequence": [
+      "na",
+      "c0051"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493709233
+     }
+    },
+    "4.2": {
+     "thread_id": "62rutq",
+     "item_id": "dfpow9x",
+     "parent_id": "dfov34l",
+     "author": "lfairy",
+     "created_utc": 1491096667,
+     "dt_parent_sec": 45719,
+     "dt_thread_sec": 55658,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "timing the joke for Americans and Europeans"
+     ],
+     "sequence": [
+      "c0054"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493718517
+     }
+    },
+    "5": {
+     "thread_id": "62rutq",
+     "item_id": "dfozj7h",
+     "parent_id": "62rutq",
+     "author": "simon_the_detective",
+     "created_utc": 1491058923,
+     "dt_parent_sec": 17914,
+     "dt_thread_sec": 17914,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "identifying fatal flaw versus deal breaker as the joke tip-off"
+     ],
+     "sequence": [
+      "na",
+      "c0048"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493706262
+     }
+    },
+    "6": {
+     "thread_id": "62rutq",
+     "item_id": "dfp0gm3",
+     "parent_id": "62rutq",
+     "author": "vitiral",
+     "created_utc": 1491060292,
+     "dt_parent_sec": 19283,
+     "dt_thread_sec": 19283,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "warning newcomers that the article is fake"
+     ],
+     "sequence": [
+      "c0049",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "artifact-app",
+      "retrieved_on": 1493706709
+     }
+    },
+    "7": {
+     "thread_id": "62rutq",
+     "item_id": "dfp1uys",
+     "parent_id": "62rutq",
+     "author": "mkawia",
+     "created_utc": 1491062263,
+     "dt_parent_sec": 21254,
+     "dt_thread_sec": 21254,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493707380
+     }
+    },
+    "7.1": {
+     "thread_id": "62rutq",
+     "item_id": "dfphh3u",
+     "parent_id": "dfp1uys",
+     "author": "iopq",
+     "created_utc": 1491085385,
+     "dt_parent_sec": 23122,
+     "dt_thread_sec": 44376,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "inventing a compile-to-Rust joke language"
+     ],
+     "sequence": [
+      "c0053",
+      "na"
+     ],
+     "coverage": 0.14,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "fizzbuzz",
+      "retrieved_on": 1493714919
+     }
+    }
+   },
+   "62sewn": {
+    "0": {
+     "thread_id": "62sewn",
+     "item_id": "62sewn",
+     "parent_id": null,
+     "author": "so_you_like_donuts",
+     "created_utc": 1491049655,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "retelling Darth Stroustrup from the custom CSS"
+     ],
+     "sequence": [
+      "c0055",
+      "na"
+     ],
+     "coverage": 0.06,
+     "meta": {
+      "score": 148,
+      "retrieved_on": 1494549171
+     }
+    },
+    "1": {
+     "thread_id": "62sewn",
+     "item_id": "dfoum9q",
+     "parent_id": "62sewn",
+     "author": "[deleted]",
+     "created_utc": 1491049874,
+     "dt_parent_sec": 219,
+     "dt_thread_sec": 219,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493703899
+     }
+    },
+    "1.1": {
+     "thread_id": "62sewn",
+     "item_id": "dfounrb",
+     "parent_id": "dfoum9q",
+     "author": "so_you_like_donuts",
+     "created_utc": 1491049973,
+     "dt_parent_sec": 99,
+     "dt_thread_sec": 318,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "invoking April 1 as an all-memes-allowed day"
+     ],
+     "sequence": [
+      "c0056"
+     ],
+     "coverage": 0.58,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1493703920
+     }
+    },
+    "2": {
+     "thread_id": "62sewn",
+     "item_id": "dfozw2x",
+     "parent_id": "62sewn",
+     "author": "euclio",
+     "created_utc": 1491059474,
+     "dt_parent_sec": 9819,
+     "dt_thread_sec": 9819,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "asking where the story appears in the CSS"
+     ],
+     "sequence": [
+      "c0057"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493706435
+     }
+    },
+    "2.1": {
+     "thread_id": "62sewn",
+     "item_id": "dfp0i6h",
+     "parent_id": "dfozw2x",
+     "author": "so_you_like_donuts",
+     "created_utc": 1491060355,
+     "dt_parent_sec": 881,
+     "dt_thread_sec": 10700,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "supplying the requested custom CSS"
+     ],
+     "sequence": [
+      "c0058",
+      "na"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1493706730
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62sewn",
+     "item_id": "dfp3au3",
+     "parent_id": "dfp0i6h",
+     "author": "shadowfactsdev",
+     "created_utc": 1491064296,
+     "dt_parent_sec": 3941,
+     "dt_thread_sec": 14641,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "marveling at three thousand lines of April Fools CSS"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493708075
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62sewn",
+     "item_id": "dfp45av",
+     "parent_id": "dfp3au3",
+     "author": "mgattozzi",
+     "created_utc": 1491065516,
+     "dt_parent_sec": 1220,
+     "dt_thread_sec": 15861,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "attributing the CSS work to kibwen"
+     ],
+     "sequence": [
+      "c0060"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493708484
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62sewn",
+     "item_id": "dfp468a",
+     "parent_id": "dfp45av",
+     "author": "shadowfactsdev",
+     "created_utc": 1491065554,
+     "dt_parent_sec": 38,
+     "dt_thread_sec": 15899,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "reaffirming the scale of the CSS work"
+     ],
+     "sequence": [
+      "c0061"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493708496
+     }
+    },
+    "2.1.1.1.1.1": {
+     "thread_id": "62sewn",
+     "item_id": "dfp5sx2",
+     "parent_id": "dfp468a",
+     "author": "mgattozzi",
+     "created_utc": 1491067893,
+     "dt_parent_sec": 2339,
+     "dt_thread_sec": 18238,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "saying the large effort makes the joke better"
+     ],
+     "sequence": [
+      "c0062"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493709279
+     }
+    },
+    "2.1.1.1.1.1.1": {
+     "thread_id": "62sewn",
+     "item_id": "dfp6wwy",
+     "parent_id": "dfp5sx2",
+     "author": "large_butt",
+     "created_utc": 1491069510,
+     "dt_parent_sec": 1617,
+     "dt_thread_sec": 19855,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "asking why the CSS has not been rewritten in Rust"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 25,
+      "retrieved_on": 1493709814
+     }
+    },
+    "2.1.1.1.1.1.1.1": {
+     "thread_id": "62sewn",
+     "item_id": "dfppsfy",
+     "parent_id": "dfp6wwy",
+     "author": "llogiq",
+     "created_utc": 1491098045,
+     "dt_parent_sec": 28535,
+     "dt_thread_sec": 48390,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "answering that the CSS is compiled RustCSS"
+     ],
+     "sequence": [
+      "c0064",
+      "na"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "clippy \u00b7 twir \u00b7 rust \u00b7 flamer \u00b7 overflower \u00b7 bytecount",
+      "retrieved_on": 1493718950
+     }
+    },
+    "3": {
+     "thread_id": "62sewn",
+     "item_id": "dfozw8s",
+     "parent_id": "62sewn",
+     "author": "SizzlingVortex",
+     "created_utc": 1491059480,
+     "dt_parent_sec": 9825,
+     "dt_thread_sec": 9825,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 39,
+      "retrieved_on": 1493706438
+     }
+    },
+    "3.1": {
+     "thread_id": "62sewn",
+     "item_id": "dfpb5cg",
+     "parent_id": "dfozw8s",
+     "author": "shadow31",
+     "created_utc": 1491075775,
+     "dt_parent_sec": 16295,
+     "dt_thread_sec": 26120,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "playing the Borrow Checker character"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 23,
+      "retrieved_on": 1493711855
+     }
+    },
+    "4": {
+     "thread_id": "62sewn",
+     "item_id": "dfq27yc",
+     "parent_id": "62sewn",
+     "author": "Terradominik",
+     "created_utc": 1491126830,
+     "dt_parent_sec": 77175,
+     "dt_thread_sec": 77175,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "calling fellow Rustaceans to join an r/place image effort"
+     ],
+     "sequence": [
+      "c0066",
+      "na"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493724947
+     }
+    }
+   },
+   "62sxbh": {
+    "0": {
+     "thread_id": "62sxbh",
+     "item_id": "62sxbh",
+     "parent_id": null,
+     "author": "shepmaster",
+     "created_utc": 1491055908,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "announcing playground feature updates"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 50,
+      "author_flair_text": "sxd \u00b7 rust",
+      "retrieved_on": 1494549427
+     }
+    },
+    "1": {
+     "thread_id": "62sxbh",
+     "item_id": "dfoxohj",
+     "parent_id": "62sxbh",
+     "author": "shepmaster",
+     "created_utc": 1491055923,
+     "dt_parent_sec": 15,
+     "dt_thread_sec": 15,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "listing the playground update"
+     ],
+     "sequence": [
+      "c0068",
+      "na"
+     ],
+     "coverage": 0.07,
+     "meta": {
+      "score": 10,
+      "author_flair_text": "sxd \u00b7 rust",
+      "retrieved_on": 1493705372
+     }
+    },
+    "1.1": {
+     "thread_id": "62sxbh",
+     "item_id": "dfpbb2z",
+     "parent_id": "dfoxohj",
+     "author": "gsingh93",
+     "created_utc": 1491076013,
+     "dt_parent_sec": 20090,
+     "dt_thread_sec": 20105,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "thanking the developers for rapid HTTPS support"
+     ],
+     "sequence": [
+      "c0072",
+      "na"
+     ],
+     "coverage": 0.56,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493711933
+     }
+    },
+    "2": {
+     "thread_id": "62sxbh",
+     "item_id": "dfp0q9b",
+     "parent_id": "62sxbh",
+     "author": "Cldfire",
+     "created_utc": 1491060678,
+     "dt_parent_sec": 4770,
+     "dt_thread_sec": 4770,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "plugging a dark theme updated for the playground"
+     ],
+     "sequence": [
+      "na",
+      "c0069",
+      "na"
+     ],
+     "coverage": 0.11,
+     "meta": {
+      "edited": 1491060884,
+      "score": 5,
+      "retrieved_on": 1493706838
+     }
+    },
+    "3": {
+     "thread_id": "62sxbh",
+     "item_id": "dfp3em3",
+     "parent_id": "62sxbh",
+     "author": "asmx85",
+     "created_utc": 1491064448,
+     "dt_parent_sec": 8540,
+     "dt_thread_sec": 8540,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "joking that the playground includes the southern hemisphere"
+     ],
+     "sequence": [
+      "na",
+      "c0070"
+     ],
+     "coverage": 0.32,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493708127
+     }
+    },
+    "3.1": {
+     "thread_id": "62sxbh",
+     "item_id": "dfp4h3c",
+     "parent_id": "dfp3em3",
+     "author": "shepmaster",
+     "created_utc": 1491065986,
+     "dt_parent_sec": 1538,
+     "dt_thread_sec": 10078,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "extending the global-audience joke to local time"
+     ],
+     "sequence": [
+      "c0071",
+      "na"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "sxd \u00b7 rust",
+      "retrieved_on": 1493708640
+     }
+    }
+   },
+   "62uq7f": {
+    "0": {
+     "thread_id": "62uq7f",
+     "item_id": "62uq7f",
+     "parent_id": null,
+     "author": "sn0wfire",
+     "created_utc": 1491073364,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "opening a meta thread on the April Fools theme"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 0.69,
+     "meta": {
+      "score": 29,
+      "retrieved_on": 1494550333
+     }
+    },
+    "1": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpcb5y",
+     "parent_id": "62uq7f",
+     "author": "burkadurka",
+     "created_utc": 1491077518,
+     "dt_parent_sec": 4154,
+     "dt_thread_sec": 4154,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "comparing the theme with an existing Reddit-wide dark style"
+     ],
+     "sequence": [
+      "na",
+      "c0074",
+      "na"
+     ],
+     "coverage": 0.06,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493712419
+     }
+    },
+    "2": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpe41p",
+     "parent_id": "62uq7f",
+     "author": "PSquid",
+     "created_utc": 1491080233,
+     "dt_parent_sec": 6869,
+     "dt_thread_sec": 6869,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "requesting a permanent option for most of the theme"
+     ],
+     "sequence": [
+      "na",
+      "c0075"
+     ],
+     "coverage": 0.54,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493713291
+     }
+    },
+    "3": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpec3v",
+     "parent_id": "62uq7f",
+     "author": "kibwen",
+     "created_utc": 1491080570,
+     "dt_parent_sec": 7206,
+     "dt_thread_sec": 7206,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "moderator refusing to keep the theme while considering its lessons"
+     ],
+     "sequence": [
+      "c0076",
+      "na"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1493713401
+     }
+    },
+    "4": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpfy3j",
+     "parent_id": "62uq7f",
+     "author": "staticassert",
+     "created_utc": 1491083033,
+     "dt_parent_sec": 9669,
+     "dt_thread_sec": 9669,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "redirecting dark-theme demand to Stylish"
+     ],
+     "sequence": [
+      "c0077"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493714181
+     }
+    },
+    "4.1": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpngbx",
+     "parent_id": "dfpfy3j",
+     "author": "Splamyn",
+     "created_utc": 1491094406,
+     "dt_parent_sec": 11373,
+     "dt_thread_sec": 21042,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "suggesting RedditEnhancementSuite instead"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493717820
+     }
+    },
+    "5": {
+     "thread_id": "62uq7f",
+     "item_id": "dfphiej",
+     "parent_id": "62uq7f",
+     "author": "cmsd2",
+     "created_utc": 1491085443,
+     "dt_parent_sec": 12079,
+     "dt_thread_sec": 12079,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "exporting the April Fools stylesheet for reuse"
+     ],
+     "sequence": [
+      "c0078",
+      "na"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493714937
+     }
+    },
+    "6": {
+     "thread_id": "62uq7f",
+     "item_id": "dfphqo2",
+     "parent_id": "62uq7f",
+     "author": "rustprogram",
+     "created_utc": 1491085804,
+     "dt_parent_sec": 12440,
+     "dt_thread_sec": 12440,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "greeting the dark theme with a song lyric"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493715049
+     }
+    },
+    "7": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpj747",
+     "parent_id": "62uq7f",
+     "author": "fgilcher",
+     "created_utc": 1491088026,
+     "dt_parent_sec": 14662,
+     "dt_thread_sec": 14662,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "opposing the dark theme as hard to read"
+     ],
+     "sequence": [
+      "c0080",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 11,
+      "author_flair_text": "rust-community \u00b7 rustfest",
+      "retrieved_on": 1493715757
+     }
+    },
+    "7.1": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpv3lf",
+     "parent_id": "dfpj747",
+     "author": "radix",
+     "created_utc": 1491107267,
+     "dt_parent_sec": 19241,
+     "dt_thread_sec": 33903,
+     "state": "coded",
+     "code_ids": [
+      "c0084"
+     ],
+     "labels": [
+      "telling dark-theme users to use custom CSS"
+     ],
+     "sequence": [
+      "c0084",
+      "na"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": -4,
+      "retrieved_on": 1493721517
+     }
+    },
+    "7.2": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpwz1g",
+     "parent_id": "dfpj747",
+     "author": "ssokolow",
+     "created_utc": 1491111208,
+     "dt_parent_sec": 23182,
+     "dt_thread_sec": 37844,
+     "state": "coded",
+     "code_ids": [
+      "c0085"
+     ],
+     "labels": [
+      "insisting that light mode remain available"
+     ],
+     "sequence": [
+      "na",
+      "c0085"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493722421
+     }
+    },
+    "7.2.1": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpy0zx",
+     "parent_id": "dfpwz1g",
+     "author": "jeremiahs_bullfrog",
+     "created_utc": 1491113711,
+     "dt_parent_sec": 2503,
+     "dt_thread_sec": 40347,
+     "state": "coded",
+     "code_ids": [
+      "c0086"
+     ],
+     "labels": [
+      "answering that light-on-dark is easier for them"
+     ],
+     "sequence": [
+      "c0086",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493722927
+     }
+    },
+    "7.2.1.1": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpyjw8",
+     "parent_id": "dfpy0zx",
+     "author": "ssokolow",
+     "created_utc": 1491115069,
+     "dt_parent_sec": 1358,
+     "dt_thread_sec": 41705,
+     "state": "coded",
+     "code_ids": [
+      "c0097"
+     ],
+     "labels": [
+      "using Redshift and Red Moon to alter display color"
+     ],
+     "sequence": [
+      "na",
+      "c0097",
+      "na"
+     ],
+     "coverage": 0.04,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493723179
+     }
+    },
+    "7.2.1.2": {
+     "thread_id": "62uq7f",
+     "item_id": "dfq0l95",
+     "parent_id": "dfpy0zx",
+     "author": "fgilcher",
+     "created_utc": 1491121006,
+     "dt_parent_sec": 7295,
+     "dt_thread_sec": 47642,
+     "state": "coded",
+     "code_ids": [
+      "c0087"
+     ],
+     "labels": [
+      "clarifying that theme readability is individual"
+     ],
+     "sequence": [
+      "na",
+      "c0087",
+      "na"
+     ],
+     "coverage": 0.04,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "rust-community \u00b7 rustfest",
+      "retrieved_on": 1493724164
+     }
+    },
+    "8": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpsigw",
+     "parent_id": "62uq7f",
+     "author": "iopq",
+     "created_utc": 1491102579,
+     "dt_parent_sec": 29215,
+     "dt_thread_sec": 29215,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "reporting use of NightMode across Reddit"
+     ],
+     "sequence": [
+      "c0082"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "fizzbuzz",
+      "retrieved_on": 1493720271
+     }
+    },
+    "9": {
+     "thread_id": "62uq7f",
+     "item_id": "dfpuqxn",
+     "parent_id": "62uq7f",
+     "author": "sli",
+     "created_utc": 1491106605,
+     "dt_parent_sec": 33241,
+     "dt_thread_sec": 33241,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "likening the April Fools theme to an Atom theme"
+     ],
+     "sequence": [
+      "c0083",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493721347
+     }
+    }
+   },
+   "62utb5": {
+    "0": {
+     "thread_id": "62utb5",
+     "item_id": "62utb5",
+     "parent_id": null,
+     "author": "rifazn",
+     "created_utc": 1491074179,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0088"
+     ],
+     "labels": [
+      "asking whether to put Rust in r/place"
+     ],
+     "sequence": [
+      "c0088"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1494550377
+     }
+    },
+    "1": {
+     "thread_id": "62utb5",
+     "item_id": "dfpf0j4",
+     "parent_id": "62utb5",
+     "author": "est31",
+     "created_utc": 1491081609,
+     "dt_parent_sec": 7430,
+     "dt_thread_sec": 7430,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "answering the r/place proposal with the rewrite joke"
+     ],
+     "sequence": [
+      "c0089"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 32,
+      "retrieved_on": 1493713731
+     }
+    },
+    "2": {
+     "thread_id": "62utb5",
+     "item_id": "dfq1thz",
+     "parent_id": "62utb5",
+     "author": "Limedye",
+     "created_utc": 1491125328,
+     "dt_parent_sec": 51149,
+     "dt_thread_sec": 51149,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "making Rustacean pixel art with the r/place palette"
+     ],
+     "sequence": [
+      "c0090",
+      "na"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "edited": 1491128580,
+      "score": 2,
+      "retrieved_on": 1493724754
+     }
+    },
+    "2.1": {
+     "thread_id": "62utb5",
+     "item_id": "dfq2lzr",
+     "parent_id": "dfq1thz",
+     "author": "Terradominik",
+     "created_utc": 1491128302,
+     "dt_parent_sec": 2974,
+     "dt_thread_sec": 54123,
+     "state": "coded",
+     "code_ids": [
+      "c0091"
+     ],
+     "labels": [
+      "abandoning a separate logo to join the Rustacean effort"
+     ],
+     "sequence": [
+      "na",
+      "c0091"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "edited": 1491128604,
+      "score": 1,
+      "retrieved_on": 1493725135
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62utb5",
+     "item_id": "dfq2uu8",
+     "parent_id": "dfq2lzr",
+     "author": "Limedye",
+     "created_utc": 1491129252,
+     "dt_parent_sec": 950,
+     "dt_thread_sec": 55073,
+     "state": "coded",
+     "code_ids": [
+      "c0092"
+     ],
+     "labels": [
+      "questioning whether enough people can maintain a large image"
+     ],
+     "sequence": [
+      "c0092",
+      "na"
+     ],
+     "coverage": 0.4,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493725253
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62utb5",
+     "item_id": "dfq2vgx",
+     "parent_id": "dfq2uu8",
+     "author": "Terradominik",
+     "created_utc": 1491129317,
+     "dt_parent_sec": 65,
+     "dt_thread_sec": 55138,
+     "state": "coded",
+     "code_ids": [
+      "c0093"
+     ],
+     "labels": [
+      "agreeing to focus the smaller image"
+     ],
+     "sequence": [
+      "c0093"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493725261
+     }
+    },
+    "2.2": {
+     "thread_id": "62utb5",
+     "item_id": "dfq2wnp",
+     "parent_id": "dfq1thz",
+     "author": "matematikaadit",
+     "created_utc": 1491129434,
+     "dt_parent_sec": 4106,
+     "dt_thread_sec": 55255,
+     "state": "coded",
+     "code_ids": [
+      "c0094"
+     ],
+     "labels": [
+      "suggesting placement beside r/haskell"
+     ],
+     "sequence": [
+      "c0094",
+      "na"
+     ],
+     "coverage": 0.14,
+     "meta": {
+      "edited": 1491133024,
+      "score": 1,
+      "retrieved_on": 1493725278
+     }
+    },
+    "2.2.1": {
+     "thread_id": "62utb5",
+     "item_id": "dfq2zqs",
+     "parent_id": "dfq2wnp",
+     "author": "Limedye",
+     "created_utc": 1491129746,
+     "dt_parent_sec": 312,
+     "dt_thread_sec": 55567,
+     "state": "coded",
+     "code_ids": [
+      "c0095"
+     ],
+     "labels": [
+      "warning that the proposed coordinate cuts through the rainbow"
+     ],
+     "sequence": [
+      "na",
+      "c0095",
+      "na"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493725319
+     }
+    },
+    "2.2.1.1": {
+     "thread_id": "62utb5",
+     "item_id": "dfq32nm",
+     "parent_id": "dfq2zqs",
+     "author": "matematikaadit",
+     "created_utc": 1491130037,
+     "dt_parent_sec": 291,
+     "dt_thread_sec": 55858,
+     "state": "coded",
+     "code_ids": [
+      "c0096"
+     ],
+     "labels": [
+      "holding to the coordinate until another is suggested"
+     ],
+     "sequence": [
+      "c0096"
+     ],
+     "coverage": 0.68,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493725357
+     }
+    }
+   },
+   "62ytzt": {
+    "0": {
+     "thread_id": "62ytzt",
+     "item_id": "62ytzt",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491126005,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491126254,
+      "score": 1,
+      "retrieved_on": 1494552386
+     }
+    },
+    "1": {
+     "thread_id": "62ytzt",
+     "item_id": "dfq26ng",
+     "parent_id": "62ytzt",
+     "author": "Limedye",
+     "created_utc": 1491126698,
+     "dt_parent_sec": 693,
+     "dt_thread_sec": 693,
+     "state": "coded",
+     "code_ids": [
+      "c0098"
+     ],
+     "labels": [
+      "moving the pixel art to a previewed post to attract more people"
+     ],
+     "sequence": [
+      "c0098"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724931
+     }
+    }
+   },
+   "62yv2i": {
+    "0": {
+     "thread_id": "62yv2i",
+     "item_id": "62yv2i",
+     "parent_id": null,
+     "author": "Limedye",
+     "created_utc": 1491126605,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0122"
+     ],
+     "labels": [
+      "making Rustacean pixel art for r/place"
+     ],
+     "sequence": [
+      "c0122"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 125,
+      "retrieved_on": 1494552401
+     }
+    },
+    "1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq265y",
+     "parent_id": "62yv2i",
+     "author": "Limedye",
+     "created_utc": 1491126646,
+     "dt_parent_sec": 41,
+     "dt_thread_sec": 41,
+     "state": "coded",
+     "code_ids": [
+      "c0123",
+      "c0124",
+      "c0125",
+      "c0126"
+     ],
+     "labels": [
+      "directing pixel placement through a guide",
+      "sharing a contributor-made placement grid",
+      "calling Rustaceans to start placing",
+      "recruiting Diggseys bot to draw and maintain the logo"
+     ],
+     "sequence": [
+      "c0123",
+      "c0124",
+      "na",
+      "c0125",
+      "na",
+      "c0126"
+     ],
+     "coverage": 0.44,
+     "meta": {
+      "edited": 1491151060,
+      "score": 18,
+      "retrieved_on": 1493724924
+     }
+    },
+    "1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq2iw4",
+     "parent_id": "dfq265y",
+     "author": "kibwen",
+     "created_utc": 1491127986,
+     "dt_parent_sec": 1340,
+     "dt_thread_sec": 1381,
+     "state": "coded",
+     "code_ids": [
+      "c0127"
+     ],
+     "labels": [
+      "helping until passing out"
+     ],
+     "sequence": [
+      "c0127"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493725094
+     }
+    },
+    "1.2": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq2no9",
+     "parent_id": "dfq265y",
+     "author": "_AlK",
+     "created_utc": 1491128481,
+     "dt_parent_sec": 1835,
+     "dt_thread_sec": 1876,
+     "state": "coded",
+     "code_ids": [
+      "c0128"
+     ],
+     "labels": [
+      "joining the Rustacean placement effort"
+     ],
+     "sequence": [
+      "c0128"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493725158
+     }
+    },
+    "1.3": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq37o3",
+     "parent_id": "dfq265y",
+     "author": "asmx85",
+     "created_utc": 1491130560,
+     "dt_parent_sec": 3914,
+     "dt_thread_sec": 3955,
+     "state": "coded",
+     "code_ids": [
+      "c0129"
+     ],
+     "labels": [
+      "spotting a yellow-blue problem on the left"
+     ],
+     "sequence": [
+      "c0129"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493725424
+     }
+    },
+    "1.3.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq39tb",
+     "parent_id": "dfq37o3",
+     "author": "Terradominik",
+     "created_utc": 1491130777,
+     "dt_parent_sec": 217,
+     "dt_thread_sec": 4172,
+     "state": "coded",
+     "code_ids": [
+      "c0130"
+     ],
+     "labels": [
+      "proposing a move that reuses orange tiles at the old Mona Lisa"
+     ],
+     "sequence": [
+      "c0130"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493725453
+     }
+    },
+    "1.3.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq3fmd",
+     "parent_id": "dfq39tb",
+     "author": "asmx85",
+     "created_utc": 1491131358,
+     "dt_parent_sec": 581,
+     "dt_thread_sec": 4753,
+     "state": "coded",
+     "code_ids": [
+      "c0131"
+     ],
+     "labels": [
+      "waiting to see while keeping time to place pixels"
+     ],
+     "sequence": [
+      "c0131"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493725532
+     }
+    },
+    "1.3.2": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq42t6",
+     "parent_id": "dfq37o3",
+     "author": "fuine",
+     "created_utc": 1491133460,
+     "dt_parent_sec": 2900,
+     "dt_thread_sec": 6855,
+     "state": "coded",
+     "code_ids": [
+      "c0132"
+     ],
+     "labels": [
+      "reporting a raid by r/wow"
+     ],
+     "sequence": [
+      "c0132"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493725841
+     }
+    },
+    "1.3.2.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq4hse",
+     "parent_id": "dfq42t6",
+     "author": "Limedye",
+     "created_utc": 1491134718,
+     "dt_parent_sec": 1258,
+     "dt_thread_sec": 8113,
+     "state": "coded",
+     "code_ids": [
+      "c0133"
+     ],
+     "labels": [
+      "answering the raid with a white outline and possible diplomats"
+     ],
+     "sequence": [
+      "c0133"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491135286,
+      "score": 1,
+      "retrieved_on": 1493726043
+     }
+    },
+    "2": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq4hy4",
+     "parent_id": "62yv2i",
+     "author": "kibwen",
+     "created_utc": 1491134730,
+     "dt_parent_sec": 8125,
+     "dt_thread_sec": 8125,
+     "state": "coded",
+     "code_ids": [
+      "c0134",
+      "c0135"
+     ],
+     "labels": [
+      "celebrating getting Ferris drawn",
+      "clearing and maintaining a buffer around Ferris"
+     ],
+     "sequence": [
+      "c0134",
+      "c0135"
+     ],
+     "coverage": 0.73,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493726045
+     }
+    },
+    "2.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq4wrq",
+     "parent_id": "dfq4hy4",
+     "author": "Terradominik",
+     "created_utc": 1491135880,
+     "dt_parent_sec": 1150,
+     "dt_thread_sec": 9275,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491138219,
+      "score": 2,
+      "retrieved_on": 1493726244
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq526p",
+     "parent_id": "dfq4wrq",
+     "author": "kibwen",
+     "created_utc": 1491136283,
+     "dt_parent_sec": 403,
+     "dt_thread_sec": 9678,
+     "state": "coded",
+     "code_ids": [
+      "c0136"
+     ],
+     "labels": [
+      "testing whether the group can outline Ferris before increasing the challenge"
+     ],
+     "sequence": [
+      "c0136"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493726316
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq53ht",
+     "parent_id": "dfq526p",
+     "author": "Terradominik",
+     "created_utc": 1491136382,
+     "dt_parent_sec": 99,
+     "dt_thread_sec": 9777,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493726333
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq5grd",
+     "parent_id": "dfq53ht",
+     "author": "asmx85",
+     "created_utc": 1491137333,
+     "dt_parent_sec": 951,
+     "dt_thread_sec": 10728,
+     "state": "coded",
+     "code_ids": [
+      "c0137"
+     ],
+     "labels": [
+      "concentrating maintenance and outlining on the claw against active r/wow users"
+     ],
+     "sequence": [
+      "c0137"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493726513
+     }
+    },
+    "3": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq5t40",
+     "parent_id": "62yv2i",
+     "author": "Terradominik",
+     "created_utc": 1491138160,
+     "dt_parent_sec": 11555,
+     "dt_thread_sec": 11555,
+     "state": "coded",
+     "code_ids": [
+      "c0138"
+     ],
+     "labels": [
+      "moving from the finished outline to recruiting for the Rust logo"
+     ],
+     "sequence": [
+      "c0138",
+      "na"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "edited": 1491139725,
+      "score": 12,
+      "retrieved_on": 1493726681
+     }
+    },
+    "3.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq5vh6",
+     "parent_id": "dfq5t40",
+     "author": "asmx85",
+     "created_utc": 1491138305,
+     "dt_parent_sec": 145,
+     "dt_thread_sec": 11700,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493726713
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq5w6m",
+     "parent_id": "dfq5vh6",
+     "author": "Terradominik",
+     "created_utc": 1491138350,
+     "dt_parent_sec": 45,
+     "dt_thread_sec": 11745,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493726723
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq867r",
+     "parent_id": "dfq5w6m",
+     "author": "asmx85",
+     "created_utc": 1491142981,
+     "dt_parent_sec": 4631,
+     "dt_thread_sec": 16376,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493727821
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfq8mul",
+     "parent_id": "dfq867r",
+     "author": "Terradominik",
+     "created_utc": 1491143775,
+     "dt_parent_sec": 794,
+     "dt_thread_sec": 17170,
+     "state": "coded",
+     "code_ids": [
+      "c0139"
+     ],
+     "labels": [
+      "encouraging collective work on the harder Rust logo"
+     ],
+     "sequence": [
+      "c0139"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493728045
+     }
+    },
+    "4": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqchkv",
+     "parent_id": "62yv2i",
+     "author": "Diggsey",
+     "created_utc": 1491149528,
+     "dt_parent_sec": 22923,
+     "dt_thread_sec": 22923,
+     "state": "coded",
+     "code_ids": [
+      "c0140",
+      "c0141",
+      "c0142"
+     ],
+     "labels": [
+      "writing a Rust bot to help preserve the art",
+      "giving commands that turn user accounts into ruplace helpers",
+      "automatically preserving Ferris and whatever the group decides to add"
+     ],
+     "sequence": [
+      "c0140",
+      "c0141",
+      "c0142",
+      "na"
+     ],
+     "coverage": 0.6,
+     "meta": {
+      "edited": 1491216984,
+      "score": 30,
+      "author_flair_text": "rustup",
+      "retrieved_on": 1493729902
+     }
+    },
+    "4.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqdksp",
+     "parent_id": "dfqchkv",
+     "author": "Limedye",
+     "created_utc": 1491151010,
+     "dt_parent_sec": 1482,
+     "dt_thread_sec": 24405,
+     "state": "coded",
+     "code_ids": [
+      "c0143"
+     ],
+     "labels": [
+      "checking and praising the ruplace source"
+     ],
+     "sequence": [
+      "c0143"
+     ],
+     "coverage": 0.76,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1493730428
+     }
+    },
+    "4.2": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqgmxx",
+     "parent_id": "dfqchkv",
+     "author": "Cldfire",
+     "created_utc": 1491155001,
+     "dt_parent_sec": 5473,
+     "dt_thread_sec": 28396,
+     "state": "coded",
+     "code_ids": [
+      "c0144"
+     ],
+     "labels": [
+      "running ruplace so the Rust logo will be drawn"
+     ],
+     "sequence": [
+      "c0144"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493731905
+     }
+    },
+    "4.3": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqgn73",
+     "parent_id": "dfqchkv",
+     "author": "kibwen",
+     "created_utc": 1491155010,
+     "dt_parent_sec": 5482,
+     "dt_thread_sec": 28405,
+     "state": "coded",
+     "code_ids": [
+      "c0145",
+      "c0146"
+     ],
+     "labels": [
+      "tightening the outline to move bot power from whitespace to the logo",
+      "dropping Redox and RIIR until the group proves it can maintain Ferris and the Rust logo"
+     ],
+     "sequence": [
+      "c0145",
+      "c0146",
+      "na"
+     ],
+     "coverage": 0.62,
+     "meta": {
+      "edited": 1491155326,
+      "score": 8,
+      "retrieved_on": 1493731908
+     }
+    },
+    "4.3.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqh8lu",
+     "parent_id": "dfqgn73",
+     "author": "Diggsey",
+     "created_utc": 1491155767,
+     "dt_parent_sec": 757,
+     "dt_thread_sec": 29162,
+     "state": "coded",
+     "code_ids": [
+      "c0147"
+     ],
+     "labels": [
+      "tracking the bot image increasing one percent every five minutes"
+     ],
+     "sequence": [
+      "c0147"
+     ],
+     "coverage": 0.66,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "rustup",
+      "retrieved_on": 1493732193
+     }
+    },
+    "4.3.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqhu4i",
+     "parent_id": "dfqh8lu",
+     "author": "kibwen",
+     "created_utc": 1491156532,
+     "dt_parent_sec": 765,
+     "dt_thread_sec": 29927,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493732484
+     }
+    },
+    "4.3.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqiwx2",
+     "parent_id": "dfqhu4i",
+     "author": "Diggsey",
+     "created_utc": 1491157900,
+     "dt_parent_sec": 1368,
+     "dt_thread_sec": 31295,
+     "state": "coded",
+     "code_ids": [
+      "c0149"
+     ],
+     "labels": [
+      "replacing the white box with a one-pixel border"
+     ],
+     "sequence": [
+      "c0149"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "rustup",
+      "retrieved_on": 1493733003
+     }
+    },
+    "4.3.1.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqjee3",
+     "parent_id": "dfqiwx2",
+     "author": "kibwen",
+     "created_utc": 1491158532,
+     "dt_parent_sec": 632,
+     "dt_thread_sec": 31927,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733248
+     }
+    },
+    "4.3.1.1.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqjpba",
+     "parent_id": "dfqjee3",
+     "author": "Diggsey",
+     "created_utc": 1491158918,
+     "dt_parent_sec": 386,
+     "dt_thread_sec": 32313,
+     "state": "coded",
+     "code_ids": [
+      "c0150"
+     ],
+     "labels": [
+      "asking bot runners to update after a transparent-pixel bug"
+     ],
+     "sequence": [
+      "c0150"
+     ],
+     "coverage": 0.87,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "rustup",
+      "retrieved_on": 1493733393
+     }
+    },
+    "4.3.1.1.1.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfql5ns",
+     "parent_id": "dfqjpba",
+     "author": "kibwen",
+     "created_utc": 1491160785,
+     "dt_parent_sec": 1867,
+     "dt_thread_sec": 34180,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734095
+     }
+    },
+    "4.3.1.1.1.1.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqlfqo",
+     "parent_id": "dfql5ns",
+     "author": "Diggsey",
+     "created_utc": 1491161145,
+     "dt_parent_sec": 360,
+     "dt_thread_sec": 34540,
+     "state": "coded",
+     "code_ids": [
+      "c0151"
+     ],
+     "labels": [
+      "building self-update so bot runners need not be contacted again"
+     ],
+     "sequence": [
+      "c0151"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "rustup",
+      "retrieved_on": 1493734232
+     }
+    },
+    "4.4": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqhjsv",
+     "parent_id": "dfqchkv",
+     "author": "mmstick",
+     "created_utc": 1491156172,
+     "dt_parent_sec": 6644,
+     "dt_thread_sec": 29567,
+     "state": "coded",
+     "code_ids": [
+      "c0148"
+     ],
+     "labels": [
+      "working around bot panics with a continuous loop"
+     ],
+     "sequence": [
+      "na",
+      "c0148"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493732345
+     }
+    },
+    "5": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqmiu8",
+     "parent_id": "62yv2i",
+     "author": "[deleted]",
+     "created_utc": 1491162590,
+     "dt_parent_sec": 35985,
+     "dt_thread_sec": 35985,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734753
+     }
+    },
+    "5.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqomj7",
+     "parent_id": "dfqmiu8",
+     "author": "kibwen",
+     "created_utc": 1491165426,
+     "dt_parent_sec": 2836,
+     "dt_thread_sec": 38821,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493735767
+     }
+    },
+    "5.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqovpx",
+     "parent_id": "dfqomj7",
+     "author": "[deleted]",
+     "created_utc": 1491165779,
+     "dt_parent_sec": 353,
+     "dt_thread_sec": 39174,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493735890
+     }
+    },
+    "5.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqpaqm",
+     "parent_id": "dfqovpx",
+     "author": "ticki_",
+     "created_utc": 1491166394,
+     "dt_parent_sec": 615,
+     "dt_thread_sec": 39789,
+     "state": "coded",
+     "code_ids": [
+      "c0160"
+     ],
+     "labels": [
+      "offering bot power to repair what the Rust script destroyed"
+     ],
+     "sequence": [
+      "c0160"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "redox \u00b7 termion \u00b7 ralloc",
+      "retrieved_on": 1493736094
+     }
+    },
+    "5.2": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqp4qe",
+     "parent_id": "dfqmiu8",
+     "author": "ticki_",
+     "created_utc": 1491166156,
+     "dt_parent_sec": 3566,
+     "dt_thread_sec": 39551,
+     "state": "coded",
+     "code_ids": [
+      "c0159"
+     ],
+     "labels": [
+      "apologizing for scripting text over art without checking"
+     ],
+     "sequence": [
+      "c0159",
+      "na"
+     ],
+     "coverage": 0.75,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "redox \u00b7 termion \u00b7 ralloc",
+      "retrieved_on": 1493736013
+     }
+    },
+    "6": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqmjvu",
+     "parent_id": "62yv2i",
+     "author": "EpicatSupercell",
+     "created_utc": 1491162629,
+     "dt_parent_sec": 36024,
+     "dt_thread_sec": 36024,
+     "state": "coded",
+     "code_ids": [
+      "c0152"
+     ],
+     "labels": [
+      "announcing that every target pixel is complete"
+     ],
+     "sequence": [
+      "c0152",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493734767
+     }
+    },
+    "6.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqno8m",
+     "parent_id": "dfqmjvu",
+     "author": "Terradominik",
+     "created_utc": 1491164134,
+     "dt_parent_sec": 1505,
+     "dt_thread_sec": 37529,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493735307
+     }
+    },
+    "6.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqo3sa",
+     "parent_id": "dfqno8m",
+     "author": "kibwen",
+     "created_utc": 1491164709,
+     "dt_parent_sec": 575,
+     "dt_thread_sec": 38104,
+     "state": "coded",
+     "code_ids": [
+      "c0155"
+     ],
+     "labels": [
+      "refusing an r/rust label as greedy advertising"
+     ],
+     "sequence": [
+      "c0155"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493735516
+     }
+    },
+    "7": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqn19e",
+     "parent_id": "62yv2i",
+     "author": "KeyKanon",
+     "created_utc": 1491163282,
+     "dt_parent_sec": 36677,
+     "dt_thread_sec": 36677,
+     "state": "coded",
+     "code_ids": [
+      "c0153"
+     ],
+     "labels": [
+      "demanding that the Rust R leave a neighbors B alone"
+     ],
+     "sequence": [
+      "c0153"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493734999
+     }
+    },
+    "7.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqo5hv",
+     "parent_id": "dfqn19e",
+     "author": "kibwen",
+     "created_utc": 1491164773,
+     "dt_parent_sec": 1491,
+     "dt_thread_sec": 38168,
+     "state": "coded",
+     "code_ids": [
+      "c0154"
+     ],
+     "labels": [
+      "agreeing to be conscientious and donating pixels to repair the B"
+     ],
+     "sequence": [
+      "c0154"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493735540
+     }
+    },
+    "8": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqoikp",
+     "parent_id": "62yv2i",
+     "author": "kibwen",
+     "created_utc": 1491165263,
+     "dt_parent_sec": 38658,
+     "dt_thread_sec": 38658,
+     "state": "coded",
+     "code_ids": [
+      "c0156",
+      "c0157",
+      "c0158"
+     ],
+     "labels": [
+      "requesting that the community stop using its script",
+      "calling unnecessary land-grabbing ugly and bad citizenship in a collaborative art project",
+      "narrowing the plan to Ferris and the Rust logo while relocating Redox and repairing squares"
+     ],
+     "sequence": [
+      "na",
+      "c0156",
+      "na",
+      "c0157",
+      "na",
+      "c0158",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "edited": 1491165793,
+      "score": 1,
+      "retrieved_on": 1493735714
+     }
+    },
+    "8.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqq92f",
+     "parent_id": "dfqoikp",
+     "author": "Diggsey",
+     "created_utc": 1491167755,
+     "dt_parent_sec": 2492,
+     "dt_thread_sec": 41150,
+     "state": "coded",
+     "code_ids": [
+      "c0161",
+      "c0162"
+     ],
+     "labels": [
+      "breaking old bot versions by updating the target JSON",
+      "delegating bot control to contributors and opening target changes to PRs"
+     ],
+     "sequence": [
+      "c0161",
+      "c0162"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "rustup",
+      "retrieved_on": 1493736726
+     }
+    },
+    "8.2": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqr1oa",
+     "parent_id": "dfqoikp",
+     "author": "Diggsey",
+     "created_utc": 1491168784,
+     "dt_parent_sec": 3521,
+     "dt_thread_sec": 42179,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "rustup",
+      "retrieved_on": 1493737177
+     }
+    },
+    "8.2.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqv2t4",
+     "parent_id": "dfqr1oa",
+     "author": "PJstrikesback",
+     "created_utc": 1491173790,
+     "dt_parent_sec": 5006,
+     "dt_thread_sec": 47185,
+     "state": "coded",
+     "code_ids": [
+      "c0120"
+     ],
+     "labels": [
+      "offering three accounts while asking that a neighboring piece survive"
+     ],
+     "sequence": [
+      "na",
+      "c0120"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493739125
+     }
+    },
+    "8.2.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqx8li",
+     "parent_id": "dfqv2t4",
+     "author": "EpicatSupercell",
+     "created_utc": 1491176539,
+     "dt_parent_sec": 2749,
+     "dt_thread_sec": 49934,
+     "state": "coded",
+     "code_ids": [
+      "c0163"
+     ],
+     "labels": [
+      "changing the target image to end an overlap"
+     ],
+     "sequence": [
+      "na",
+      "c0163"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "edited": 1491176771,
+      "score": 2,
+      "retrieved_on": 1493740190
+     }
+    },
+    "8.2.1.2": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr8zcr",
+     "parent_id": "dfqv2t4",
+     "author": "kibwen",
+     "created_utc": 1491190859,
+     "dt_parent_sec": 17069,
+     "dt_thread_sec": 64254,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493745905
+     }
+    },
+    "8.2.1.2.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr94h7",
+     "parent_id": "dfr8zcr",
+     "author": "PJstrikesback",
+     "created_utc": 1491191054,
+     "dt_parent_sec": 195,
+     "dt_thread_sec": 64449,
+     "state": "coded",
+     "code_ids": [
+      "c0166"
+     ],
+     "labels": [
+      "thanking Rust neighbors for unusual courtesy"
+     ],
+     "sequence": [
+      "na",
+      "c0166"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745978
+     }
+    },
+    "8.2.1.2.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr986p",
+     "parent_id": "dfr94h7",
+     "author": "kibwen",
+     "created_utc": 1491191196,
+     "dt_parent_sec": 142,
+     "dt_thread_sec": 64591,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746028
+     }
+    },
+    "8.2.1.2.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr99tx",
+     "parent_id": "dfr986p",
+     "author": "PJstrikesback",
+     "created_utc": 1491191258,
+     "dt_parent_sec": 62,
+     "dt_thread_sec": 64653,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491191637,
+      "score": 2,
+      "retrieved_on": 1493746049
+     }
+    },
+    "8.2.1.2.1.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfra7eo",
+     "parent_id": "dfr99tx",
+     "author": "kibwen",
+     "created_utc": 1491192430,
+     "dt_parent_sec": 1172,
+     "dt_thread_sec": 65825,
+     "state": "coded",
+     "code_ids": [
+      "c0169"
+     ],
+     "labels": [
+      "making kindness to neighbors the reason for helping"
+     ],
+     "sequence": [
+      "c0169"
+     ],
+     "coverage": 0.79,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746495
+     }
+    },
+    "8.2.1.2.1.2": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr9nfj",
+     "parent_id": "dfr94h7",
+     "author": "Cldfire",
+     "created_utc": 1491191743,
+     "dt_parent_sec": 689,
+     "dt_thread_sec": 65138,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746230
+     }
+    },
+    "8.2.1.2.1.2.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr9xpa",
+     "parent_id": "dfr9nfj",
+     "author": "PJstrikesback",
+     "created_utc": 1491192082,
+     "dt_parent_sec": 339,
+     "dt_thread_sec": 65477,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746366
+     }
+    },
+    "8.2.1.2.1.2.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfra2e1",
+     "parent_id": "dfr9xpa",
+     "author": "Cldfire",
+     "created_utc": 1491192247,
+     "dt_parent_sec": 165,
+     "dt_thread_sec": 65642,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746429
+     }
+    },
+    "8.2.1.2.1.2.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfra3qs",
+     "parent_id": "dfra2e1",
+     "author": "PJstrikesback",
+     "created_utc": 1491192297,
+     "dt_parent_sec": 50,
+     "dt_thread_sec": 65692,
+     "state": "coded",
+     "code_ids": [
+      "c0168"
+     ],
+     "labels": [
+      "calling the Rust group the friendliest neighbors"
+     ],
+     "sequence": [
+      "c0168"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746447
+     }
+    },
+    "8.2.2": {
+     "thread_id": "62yv2i",
+     "item_id": "dfqz1ie",
+     "parent_id": "dfqr1oa",
+     "author": "on50_12bfs",
+     "created_utc": 1491178843,
+     "dt_parent_sec": 10059,
+     "dt_thread_sec": 52238,
+     "state": "coded",
+     "code_ids": [
+      "c0121"
+     ],
+     "labels": [
+      "repeating r/drumcorps request for space in the main coordination thread"
+     ],
+     "sequence": [
+      "na",
+      "c0121"
+     ],
+     "coverage": 0.58,
+     "meta": {
+      "edited": 1491179102,
+      "score": 5,
+      "retrieved_on": 1493741060
+     }
+    },
+    "8.3": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr3azf",
+     "parent_id": "dfqoikp",
+     "author": "ZTYTHYZ",
+     "created_utc": 1491183978,
+     "dt_parent_sec": 18715,
+     "dt_thread_sec": 57373,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493743119
+     }
+    },
+    "8.3.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr8xpl",
+     "parent_id": "dfr3azf",
+     "author": "kibwen",
+     "created_utc": 1491190798,
+     "dt_parent_sec": 6820,
+     "dt_thread_sec": 64193,
+     "state": "coded",
+     "code_ids": [
+      "c0165"
+     ],
+     "labels": [
+      "finding the right people to cede part of the dinosaur"
+     ],
+     "sequence": [
+      "c0165"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745881
+     }
+    },
+    "8.4": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr417r",
+     "parent_id": "dfqoikp",
+     "author": "cedenday",
+     "created_utc": 1491184885,
+     "dt_parent_sec": 19622,
+     "dt_thread_sec": 58280,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493743472
+     }
+    },
+    "8.4.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr8at3",
+     "parent_id": "dfr417r",
+     "author": "kibwen",
+     "created_utc": 1491189981,
+     "dt_parent_sec": 5096,
+     "dt_thread_sec": 63376,
+     "state": "coded",
+     "code_ids": [
+      "c0179"
+     ],
+     "labels": [
+      "warning that a new off-site target would overwrite protected neighbors"
+     ],
+     "sequence": [
+      "c0179"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745562
+     }
+    },
+    "8.4.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr9lq4",
+     "parent_id": "dfr8at3",
+     "author": "Cldfire",
+     "created_utc": 1491191682,
+     "dt_parent_sec": 1701,
+     "dt_thread_sec": 65077,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746207
+     }
+    },
+    "8.4.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfra11z",
+     "parent_id": "dfr9lq4",
+     "author": "kibwen",
+     "created_utc": 1491192199,
+     "dt_parent_sec": 517,
+     "dt_thread_sec": 65594,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746411
+     }
+    },
+    "8.4.1.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfra5bc",
+     "parent_id": "dfra11z",
+     "author": "Cldfire",
+     "created_utc": 1491192354,
+     "dt_parent_sec": 155,
+     "dt_thread_sec": 65749,
+     "state": "coded",
+     "code_ids": [
+      "c0167"
+     ],
+     "labels": [
+      "using a supported PR to remove the dinosaur and free space"
+     ],
+     "sequence": [
+      "c0167",
+      "na"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "edited": 1491193565,
+      "score": 1,
+      "retrieved_on": 1493746468
+     }
+    },
+    "8.4.1.1.1.1.1": {
+     "thread_id": "62yv2i",
+     "item_id": "dfrakuu",
+     "parent_id": "dfra5bc",
+     "author": "kibwen",
+     "created_utc": 1491192946,
+     "dt_parent_sec": 592,
+     "dt_thread_sec": 66341,
+     "state": "coded",
+     "code_ids": [
+      "c0170"
+     ],
+     "labels": [
+      "protecting a neighbors fun of drawing manually from automated help"
+     ],
+     "sequence": [
+      "na",
+      "c0170"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746675
+     }
+    },
+    "9": {
+     "thread_id": "62yv2i",
+     "item_id": "dfr4g6i",
+     "parent_id": "62yv2i",
+     "author": "Leprechaun_exe",
+     "created_utc": 1491185411,
+     "dt_parent_sec": 58806,
+     "dt_thread_sec": 58806,
+     "state": "coded",
+     "code_ids": [
+      "c0164"
+     ],
+     "labels": [
+      "asking to negotiate with r/drumcorps instead of endlessly painting over each other"
+     ],
+     "sequence": [
+      "na",
+      "c0164",
+      "na"
+     ],
+     "coverage": 0.35,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493743678
+     }
+    }
+   },
+   "62ywxp": {
+    "0": {
+     "thread_id": "62ywxp",
+     "item_id": "62ywxp",
+     "parent_id": null,
+     "author": "kibwen",
+     "created_utc": 1491127614,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0099",
+      "c0100",
+      "c0101"
+     ],
+     "labels": [
+      "bringing the room down from its foolish exuberance",
+      "removing the holiday links to accommodate useful programming posts",
+      "keeping the holiday links for posterity"
+     ],
+     "sequence": [
+      "na",
+      "c0099",
+      "c0100",
+      "c0101",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 58,
+      "retrieved_on": 1494552427
+     }
+    },
+    "1": {
+     "thread_id": "62ywxp",
+     "item_id": "dfscpsz",
+     "parent_id": "62ywxp",
+     "author": "46Bit",
+     "created_utc": 1491254112,
+     "dt_parent_sec": 126498,
+     "dt_thread_sec": 126498,
+     "state": "coded",
+     "code_ids": [
+      "c0102"
+     ],
+     "labels": [
+      "asking for a copy of the awesome holiday banner"
+     ],
+     "sequence": [
+      "c0102"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493768079
+     }
+    },
+    "1.1": {
+     "thread_id": "62ywxp",
+     "item_id": "dfscudf",
+     "parent_id": "dfscpsz",
+     "author": "kibwen",
+     "created_utc": 1491254260,
+     "dt_parent_sec": 148,
+     "dt_thread_sec": 126646,
+     "state": "coded",
+     "code_ids": [
+      "c0103"
+     ],
+     "labels": [
+      "offering a later copy and a taste of the holiday banner"
+     ],
+     "sequence": [
+      "c0103"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493768141
+     }
+    },
+    "1.2": {
+     "thread_id": "62ywxp",
+     "item_id": "dfst2pr",
+     "parent_id": "dfscpsz",
+     "author": "bluejekyll",
+     "created_utc": 1491273849,
+     "dt_parent_sec": 19737,
+     "dt_thread_sec": 146235,
+     "state": "coded",
+     "code_ids": [
+      "c0104"
+     ],
+     "labels": [
+      "voting to make the holiday banner the regular one"
+     ],
+     "sequence": [
+      "c0104"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493776145
+     }
+    },
+    "1.2.1": {
+     "thread_id": "62ywxp",
+     "item_id": "dft5p2k",
+     "parent_id": "dfst2pr",
+     "author": "46Bit",
+     "created_utc": 1491300943,
+     "dt_parent_sec": 27094,
+     "dt_thread_sec": 173329,
+     "state": "coded",
+     "code_ids": [
+      "c0105"
+     ],
+     "labels": [
+      "worrying the banner could reinforce Rustaceans reputation for demanding rewrites"
+     ],
+     "sequence": [
+      "c0105"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493782302
+     }
+    },
+    "1.2.1.1": {
+     "thread_id": "62ywxp",
+     "item_id": "dftdzk6",
+     "parent_id": "dft5p2k",
+     "author": "bluejekyll",
+     "created_utc": 1491315785,
+     "dt_parent_sec": 14842,
+     "dt_thread_sec": 188171,
+     "state": "coded",
+     "code_ids": [
+      "c0106",
+      "c0107"
+     ],
+     "labels": [
+      "reclaiming the Rust Evangelism Strike Force monicker as love for the language",
+      "saying one correction is enough instead of suggesting RIIR or piling on"
+     ],
+     "sequence": [
+      "c0106",
+      "c0107",
+      "na"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493786298
+     }
+    }
+   },
+   "6322s4": {
+    "0": {
+     "thread_id": "6322s4",
+     "item_id": "6322s4",
+     "parent_id": null,
+     "author": "ticki_",
+     "created_utc": 1491165390,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0108",
+      "c0109"
+     ],
+     "labels": [
+      "crediting a bot-net with maintaining the glory while running out of ideas",
+      "soliciting ideas for Rust-related art without requiring pixel art"
+     ],
+     "sequence": [
+      "na",
+      "c0108",
+      "c0109"
+     ],
+     "coverage": 0.7,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "redox \u00b7 termion \u00b7 ralloc",
+      "retrieved_on": 1494554036
+     }
+    },
+    "1": {
+     "thread_id": "6322s4",
+     "item_id": "dfqqv7e",
+     "parent_id": "6322s4",
+     "author": "cmrx64",
+     "created_utc": 1491168559,
+     "dt_parent_sec": 3169,
+     "dt_thread_sec": 3169,
+     "state": "coded",
+     "code_ids": [
+      "c0110",
+      "c0111"
+     ],
+     "labels": [
+      "proposing the robigalia logo for the Rust spot",
+      "asking to join the botnet"
+     ],
+     "sequence": [
+      "c0110",
+      "c0111"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "rust",
+      "retrieved_on": 1493737090
+     }
+    },
+    "1.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfqspjo",
+     "parent_id": "dfqqv7e",
+     "author": "EpicatSupercell",
+     "created_utc": 1491170872,
+     "dt_parent_sec": 2313,
+     "dt_thread_sec": 5482,
+     "state": "coded",
+     "code_ids": [
+      "c0112",
+      "c0113"
+     ],
+     "labels": [
+      "giving the two commands for joining ruplace",
+      "moving most bot communication to the main Rustacean pixel-art thread"
+     ],
+     "sequence": [
+      "c0112",
+      "c0113"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "edited": 1491171081,
+      "score": 1,
+      "retrieved_on": 1493737980
+     }
+    },
+    "2": {
+     "thread_id": "6322s4",
+     "item_id": "dfqtviu",
+     "parent_id": "6322s4",
+     "author": "Biolunar",
+     "created_utc": 1491172290,
+     "dt_parent_sec": 6900,
+     "dt_thread_sec": 6900,
+     "state": "coded",
+     "code_ids": [
+      "c0114"
+     ],
+     "labels": [
+      "disliking bots for turning the game into who can set up the most"
+     ],
+     "sequence": [
+      "c0114"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493738547
+     }
+    },
+    "2.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfquejo",
+     "parent_id": "dfqtviu",
+     "author": "Diggsey",
+     "created_utc": 1491172949,
+     "dt_parent_sec": 659,
+     "dt_thread_sec": 7559,
+     "state": "coded",
+     "code_ids": [
+      "c0115"
+     ],
+     "labels": [
+      "defending bots as maximizing community efficiency"
+     ],
+     "sequence": [
+      "na",
+      "c0115"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "rustup",
+      "retrieved_on": 1493738801
+     }
+    },
+    "2.1.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfr0fxq",
+     "parent_id": "dfquejo",
+     "author": "cmrx64",
+     "created_utc": 1491180600,
+     "dt_parent_sec": 7651,
+     "dt_thread_sec": 15210,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "rust",
+      "retrieved_on": 1493741738
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfrhii2",
+     "parent_id": "dfr0fxq",
+     "author": "ticki_",
+     "created_utc": 1491208018,
+     "dt_parent_sec": 27418,
+     "dt_thread_sec": 42628,
+     "state": "coded",
+     "code_ids": [
+      "c0178"
+     ],
+     "labels": [
+      "identifying the bot placements as known Rustaceans rather than alts"
+     ],
+     "sequence": [
+      "c0178"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "redox \u00b7 termion \u00b7 ralloc",
+      "retrieved_on": 1493750581
+     }
+    },
+    "3": {
+     "thread_id": "6322s4",
+     "item_id": "dfqus39",
+     "parent_id": "6322s4",
+     "author": "PJstrikesback",
+     "created_utc": 1491173417,
+     "dt_parent_sec": 8027,
+     "dt_thread_sec": 8027,
+     "state": "coded",
+     "code_ids": [
+      "c0116"
+     ],
+     "labels": [
+      "asking the Rust botnet to let a small neighboring piece exist"
+     ],
+     "sequence": [
+      "na",
+      "c0116"
+     ],
+     "coverage": 0.35,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493738982
+     }
+    },
+    "3.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfqvee3",
+     "parent_id": "dfqus39",
+     "author": "kibwen",
+     "created_utc": 1491174198,
+     "dt_parent_sec": 781,
+     "dt_thread_sec": 8808,
+     "state": "coded",
+     "code_ids": [
+      "c0117"
+     ],
+     "labels": [
+      "paging the bot author to answer a neighbor"
+     ],
+     "sequence": [
+      "c0117"
+     ],
+     "coverage": 0.94,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739295
+     }
+    },
+    "3.1.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfqvncj",
+     "parent_id": "dfqvee3",
+     "author": "PJstrikesback",
+     "created_utc": 1491174518,
+     "dt_parent_sec": 320,
+     "dt_thread_sec": 9128,
+     "state": "coded",
+     "code_ids": [
+      "c0118"
+     ],
+     "labels": [
+      "offering an account to the Rust script in exchange for coexistence"
+     ],
+     "sequence": [
+      "c0118"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739416
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfqwemy",
+     "parent_id": "dfqvncj",
+     "author": "Diggsey",
+     "created_utc": 1491175497,
+     "dt_parent_sec": 979,
+     "dt_thread_sec": 10107,
+     "state": "coded",
+     "code_ids": [
+      "c0171"
+     ],
+     "labels": [
+      "offering to add a neighbors square to the bot one pixel over"
+     ],
+     "sequence": [
+      "na",
+      "c0171"
+     ],
+     "coverage": 0.47,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "rustup",
+      "retrieved_on": 1493739788
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfr0s3y",
+     "parent_id": "dfqwemy",
+     "author": "PJstrikesback",
+     "created_utc": 1491180983,
+     "dt_parent_sec": 5486,
+     "dt_thread_sec": 15593,
+     "state": "coded",
+     "code_ids": [
+      "c0172"
+     ],
+     "labels": [
+      "declining bot help while continuing to negotiate space"
+     ],
+     "sequence": [
+      "c0172",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493741902
+     }
+    },
+    "3.1.1.1.1.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfr1tv2",
+     "parent_id": "dfr0s3y",
+     "author": "EpicatSupercell",
+     "created_utc": 1491182249,
+     "dt_parent_sec": 1266,
+     "dt_thread_sec": 16859,
+     "state": "coded",
+     "code_ids": [
+      "c0176"
+     ],
+     "labels": [
+      "offering to surrender bot-unmaintained RIIR space"
+     ],
+     "sequence": [
+      "c0176",
+      "na"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493742408
+     }
+    },
+    "3.1.1.1.2": {
+     "thread_id": "6322s4",
+     "item_id": "dfr704k",
+     "parent_id": "dfqwemy",
+     "author": "PJstrikesback",
+     "created_utc": 1491188401,
+     "dt_parent_sec": 12904,
+     "dt_thread_sec": 23011,
+     "state": "coded",
+     "code_ids": [
+      "c0177"
+     ],
+     "labels": [
+      "asking for a one-pixel script change to protect a neighbors square"
+     ],
+     "sequence": [
+      "c0177",
+      "na"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "edited": 1491191956,
+      "score": 1,
+      "retrieved_on": 1493744905
+     }
+    },
+    "4": {
+     "thread_id": "6322s4",
+     "item_id": "dfqzl7q",
+     "parent_id": "6322s4",
+     "author": "on50_12bfs",
+     "created_utc": 1491179531,
+     "dt_parent_sec": 14141,
+     "dt_thread_sec": 14141,
+     "state": "coded",
+     "code_ids": [
+      "c0119"
+     ],
+     "labels": [
+      "asking for Rust space for a struggling r/drumcorps logo"
+     ],
+     "sequence": [
+      "na",
+      "c0119"
+     ],
+     "coverage": 0.58,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493741325
+     }
+    },
+    "4.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfr0cle",
+     "parent_id": "dfqzl7q",
+     "author": "cmrx64",
+     "created_utc": 1491180487,
+     "dt_parent_sec": 956,
+     "dt_thread_sec": 15097,
+     "state": "coded",
+     "code_ids": [
+      "c0173"
+     ],
+     "labels": [
+      "offering to help the DCI logo"
+     ],
+     "sequence": [
+      "na",
+      "c0173",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "rust",
+      "retrieved_on": 1493741692
+     }
+    },
+    "4.1.1": {
+     "thread_id": "6322s4",
+     "item_id": "dfr0e55",
+     "parent_id": "dfr0cle",
+     "author": "on50_12bfs",
+     "created_utc": 1491180541,
+     "dt_parent_sec": 54,
+     "dt_thread_sec": 15151,
+     "state": "coded",
+     "code_ids": [
+      "c0174"
+     ],
+     "labels": [
+      "identifying the dinosaur space and thanking the offered helper"
+     ],
+     "sequence": [
+      "c0174"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491180909,
+      "score": 1,
+      "retrieved_on": 1493741713
+     }
+    },
+    "4.1.2": {
+     "thread_id": "6322s4",
+     "item_id": "dfr0t35",
+     "parent_id": "dfr0cle",
+     "author": "on50_12bfs",
+     "created_utc": 1491181016,
+     "dt_parent_sec": 529,
+     "dt_thread_sec": 15626,
+     "state": "coded",
+     "code_ids": [
+      "c0175"
+     ],
+     "labels": [
+      "inviting Rust neighbors to the DCI Discord"
+     ],
+     "sequence": [
+      "c0175"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493741914
+     }
+    }
+   }
+  }
+ }
+}

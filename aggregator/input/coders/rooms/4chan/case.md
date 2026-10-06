@@ -1,0 +1,73 @@
+## Chronology
+
+The first three slice accounts place the opening 1.44 hours of the window in continuing ordinary discussion, not event conduct. The event first becomes explicit at 19:30 UTC on 31 March (H+3.50), when a moderator post, `/R/PLACE -- GO HERE NOW`, tells readers to “WORK TOGETHER AND MAKE SOMETHING BEAUTIFUL” and “DIE FOR YOUR MOD KINGS” (`62nhas`). That begins a logo-making episode, from the call in `62nhas` through a later report that one attempted drawing “didn't get far” (`dfph09e`). In between, participants ask for a model, set borders and pixel sizes, revise the wording, name things to attack, share a canvas view and a Discord, and report pressure from neighbours. The common practice is maintaining a shared mark; the proposed mark, target, location, and willingness to obey vary.
+
+A raid post—“Anon's plan to raid /r/place” (`62nt5c`)—opened 47 minutes 31 seconds after the first moderator call. It did not replace the building work. Raid and overwrite proposals continued beside it, culminating locally in a moderator-marked “Nuke Trans Road” post (`62scv8`), while comments refused to act as a “personal army” (`dfox7nc`) and invoked “Rule 8” (`dfozly2`). These are contrasting positions by different speakers, not evidence that the room changed its mind.
+
+From 1 April, a second and analytically separate April Fools practice occupied many coded threads: staging and evaluating imaginary 4chan-board mergers. A poll post asked users to vote to merge `/pol/` and `/mlp/` permanently (`62toa8`); subsequent posts performed composite boards and “civil wars,” requested image remixes, explained board names, and argued about what the mergers meant. The later description of the `/mlp/`–`/pol/` merger as “amicable” (`62y9mk`) is a participant's characterization, not a measured community consensus and not evidence about the canvas.
+
+Canvas coordination became more technical on 2 April. The moderator-authored tutorial said a Python script would “automatically place pixels” for a clover, supplied coordinates and a Discord, and reported moving the sign five pixels after talks with Steven Universe (`62wqjx`). The same thread contains manual placing, setup help, neighbour negotiation, warnings that the clover might die, and a link to an easier successor. A small artwork call (`62y9yh`) received a concrete response 3 minutes 34 seconds later: “I placed the bottom left green tile” and “Let's do this /r/4chan” (`dfpym5y`). Meanwhile, other posts proposed attacking pride work or writing “POO IN LOO” on the India flag (`631tkl`). These overlapping projects show multiple targets rather than one settled plan.
+
+On 3 April, a call to “finish the Kekistani flag” (`635ytl`) was answered 2 minutes 9 seconds later with the participant's claim that it was already finished (`dfrka8b`). Seventeen minutes 31 seconds after that call, the easier script thread opened (`6361b3`). It concentrated script installation, safety arguments, Discord redirection, attack reports, redesign proposals, and a single participant report—“I got it to work” (`dfrmeod`). A separate Black Void thread asked whether changing the Void's tactic would “revolutionize” it (`636fbt`); its replies debated whether the Void should remain black, a distinct practice from generic raid recruitment.
+
+Near the cutoff, two distinct posts with the identical warning “THE FAGGOTS ARE TRYING TO TAKE THE FLAG” appeared 50 seconds apart (`637yh4`; `637ynv`), followed 4 minutes 43 seconds later by “Flag of 4Chan/Kekistan is under attack” (`637zu3`). That is an observed sequence of alarms, not proof that one caused the next or that a defence followed. A late reply at 03:11 UTC on 4 April says “so long and thanks for all the keks” after the canvas ended (`dfsucxh`). The last two slice accounts then show ordinary, unrelated posting from H+80.91 through H+96.56. The record therefore ends with a return to ordinary traffic, while a reply in an older event thread supplies the clearest farewell.
+
+## Relations — what set off what
+
+The record supports a few local response relations because the later words answer the earlier ones. In the first logo thread, the moderator's “Make it happen” (`dfnwihz`) elicits “Got it boss” (`dfnwkmr`) 67 seconds later. This supports compliance by that speaker only. When one commenter objects to “/r/4chan” in the design (`dfoer5d`), the moderator answers “I dropped the ‘/r/’” (`dfoetcc`) 89 seconds later; here the speaker explicitly attributes a design change to the objection.
+
+Technical help is similarly direct. “Any help?” with the `cd` step (`dfq09qh`) receives the instruction to copy and paste the path from Windows Explorer (`dfq0ghu`) after 9 minutes 53 seconds. An invitation to “our 4place discord” (`dfrksm8`) receives the moderator's “Use this one, it's bigger” (`dfrkvs4`) after 3 minutes 37 seconds, showing a redirect between venues rather than merely adjacent links.
+
+The first tutorial explicitly names and links the “NEW THRED” (`6361b3`) in its updated opening (`62wqjx`); the successor opened 34 hours 20 minutes 27 seconds after the tutorial. This is a supported continuation across slices, not an inference from timing: the later thread is the easier replacement the earlier post names. [crosses 08|11]
+
+Other apparent developments remain sequences. The “already finished” flag reply (`dfrka8b`) follows the finish call (`635ytl`), but it is a participant's report rather than independent proof of completion. The three late flag alarms (`637yh4`, `637ynv`, `637zu3`) follow the script and flag work, but none names an earlier thread or says that the scripts, redesign, or a specific attacker caused the danger. Likewise, the corpus shows many raid calls and reports of resistance, but no passage ties them to a verified overwrite outcome.
+
+## Posts against comments
+
+The two layers repeatedly diverge.
+
+In batch 05, the post layer commands readers to “Nuke Trans Road” (`62scv8`); comments answer that the room is not the poster's “personal army” (`dfox7nc`) and invoke “Rule 8” (`dfozly2`). The contradiction is command versus refusal, not a collective reversal.
+
+In batch 07, the high-scoring post says “We did it, Reddit!” (`62w2nz`) and one comment says “I'm so proud of our community” (`dfpx7pi`), while another calls the result “pretty pathetic” against an expected huge 4chan raid (`dfq93xf`). The post and comment layers therefore contain both celebration and disappointment; neither establishes the canvas outcome on its own.
+
+In batch 08, the tutorial post claims the script worked on two computers and gives a confident setup path (`62wqjx`). Its comments include hands-on troubleshooting (`dfq09qh`; `dfq0ghu`), but also call the script too much effort and choose “the old-fashioned way.” This is uptake and resistance inside one thread, not simple endorsement.
+
+In batch 10, attack and slogan posts call for help, while comments variously provide coordinates and links, report too many defenders, mock the proposal, or refuse it. The “POO IN LOO” post (`631tkl`) therefore demonstrates recruitment; it does not demonstrate completion.
+
+In batch 11, the post layer offers r/place “the easy way” (`6361b3`). One comment reports “I got it to work” (`dfrmeod`) and another says “Keep up the good work lads” (`dfrtc5w`), but a high-scoring comment accuses moderators of spending hours scripting a “normie plebbit activity” (`dfrn9lu`) and the thread disputes whether downloadable code is safe. The comments establish limited use and persistent identity/safety conflict at the same time.
+
+## Counter-reading
+
+My one-sentence reading is: r/4chan's visible r/place conduct began with moderator-led logo work and developed into overlapping building, raid, defence, scripting, neighbour-negotiation and board-joke practices, with technically supported clover/flag work but contested participation and only partial evidence of outcomes.
+
+If that reading were wrong, the corpus would instead contain repeated reports of coordinated uptake, stable maintenance or successful defence of one shared project, together with explicit later acceptance of the moderator/script plan across threads.
+
+The strongest contrary item is the moderator tutorial's claim that the script had been tested on two computers and “worked both times” (`62wqjx`). It shows tested infrastructure for coordinated work, not just a proposal. The full-corpus searches then returned one direct participant confirmation—“Brilliant! I got it to work” (`dfrmeod`)—as well as pride in “our community” (`dfpx7pi`), a report of “holding down the fort” while negotiating (`dfpxz7v`), and the claim that the Kekistani flag was “already” finished (`dfrka8b`). Those items strengthen the finding that the shared clover/flag effort had real uptake and produced a visible mark.
+
+They do not establish broad or durable convergence. The same coded exchanges include warnings that the clover was short of people, manual alternatives, safety disputes, a moderator critic, redesign calls, damage reports, and the final flag alarms. Other search hits for “we did it” were either outside the window, unrelated, or ironic/common phrasing; each returned item was opened before assessment. The search was lexical over this corpus and cannot inspect images, Discord conversation, script execution by silent users, or the canvas itself, so failure to find repeated success reports is only a scoped absence. The revised reading is therefore more specific: there was demonstrable technical uptake and some shared achievement, but the record still does not support stable room-wide acceptance or a secured outcome.
+
+## Saturation
+
+Later slices both repeated and extended earlier practices. Batch 04 founded rallying people to build and defend marks; calling raids; contesting orders; automating pixels; moving coordination into Discord; sharing outside sources; negotiating borders; reporting attacks and losses; changing designs; and celebrating or mourning the work. Batch 05 first added celebrating Keksandra's birthday. Batch 06 first added promising to stop shitposting, staging and judging board mergers, campaigning for permanence, and requesting image remixes. Batch 07 first added concrete placement/practical answers and correcting Civil War dates. Batch 08 first added arguing about script safety and reading r/place as evidence of what groups value. Batch 09 first added explaining board names while policing belonging and turning a merger post into horse/Japanese banter. Batch 12 first added debating whether the Black Void should stay black. Batches 10 and 11 substantially deepened attack, placement, automation and trust practices without founding another practice; batch 14 repeated attack reporting; batches 13, 15 and 16 founded none.
+
+Thematic saturation was therefore fairly strong for the visible repertoire by the final quarter of the window: the late slices mostly repeated earlier building, attack, technical and reporting work. Evidentiary saturation was weaker: later slices still supplied important outcome claims and alarms, and no single reader held all 16 slices.
+
+The record is not whole in a stronger sense. Deleted and removed bodies conceal proposals and replies; image-dependent posts leave designs unreadable; off-platform Discords, Strawpoll, GitHub/Pastebin, Greasy Fork and linked subreddits expose invitations but not what participants did there; and some long threads were triaged as out of scope from their prescribed windows. The forest restores reply sequence across coded threads, but it does not create agreement data or let the lead observe the entire week as one reading.
+
+## Selection
+
+The lead read the briefing and the room's complete openings before the gate. The gate selected branch B because 6,883 in-window items exceeded the threshold of 500, producing 16 whole-thread slices in corpus order. One fleet coder read each slice; together they disposed all 422 threads and coded 74 threads. The lead did not reread the raw week. Consolidation pooled the slice codes, the forest displayed their reply structure, and the lead formed themes incrementally in slice order from the pooled codes and slice cases.
+
+Selection was intentionally expansive for event conduct and conservative for unrelated discussion: a thread about this community doing r/place was read whole by its coder; an unrelated thread was disposed from its served window, with the required exclusion citation when it had ten or more in-window items. The counter-reading was the lead's first raw-item access and opened every returned hit. This design covers the room but gives no inter-coder agreement measure, and arbitrary slice boundaries can divide inherited exchanges.
+
+## Other communities named
+
+Participants treated other groups as neighbours, targets, allies, sources, and organising venues. Steven Universe is a negotiated neighbour in the tutorial's report that the sign moved after talks (`62wqjx`) and in the comment about “holding down the fort” while negotiating (`dfpxz7v`). The India flag is the target of the “POO IN LOO” recruitment (`631tkl`); Asexual Pride is targeted by a removal call (`62zr8s`); `/r/sqsp` is named in a request to help it hold ground (`630auu`); and `/r/placede` is addressed in a proposal to lead it “back in history” (`63043i`). `/r/theblackvoid` is both the setting and object of tactical debate (`636fbt`).
+
+Discord is the clearest place to which coordination moved: one participant invites readers to a “4place discord” (`dfrksm8`), and the moderator redirects them to a bigger server (`dfrkvs4`). The record shows the move, not the conversation inside. These are one-sided relations as described by r/4chan participants; they do not establish what the named communities agreed to or did.
+
+## Absence
+
+The corpus does not establish a single, final r/4chan design, a stable membership behind it, or a verified causal chain from any call to a canvas outcome. “Already finished” (`dfrka8b`), “I got it to work” (`dfrmeod`), and “under attack” (`637zu3`) are participant reports with different scopes; none independently measures the final image or the number of contributors.
+
+The corpus also cannot show silent pixel placement, activity inside Discord or other linked venues, the content of unavailable images, or decisions hidden by deleted/removed text. A late return to ordinary posts does not prove that all participants stopped event activity, and contrasting speakers do not establish that the community changed its mind. These absences limit claims about scale, consensus, success, and causation; they do not erase the directly observed practices of recruiting, placing, scripting, refusing, negotiating, reporting, and joking.

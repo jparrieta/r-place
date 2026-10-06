@@ -1,0 +1,1 @@
+r/chile — branch B — verdict: full. Thematic saturation: core practices repeated, while final-slice retrospection added new practices. Record saturation: strong public evidence, limited by unseen Discord organization and a continuing edge thread. Blockers: none.

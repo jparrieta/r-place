@@ -1,0 +1,42 @@
+# timeline — r/archlinux
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 20:14 — `dfnyjtv` is edited.
+- d0 03-31 23:31 — `dfo7t4s` is edited.
+- d0 04-01 01:59 — `62pvjt` is edited.
+- d0 04-01 04:37 — `dfok1ul` is edited.
+- d0 04-01 04:49 — `dfokfx7` is edited.
+- d0 04-01 11:37 — `dfotco7` is edited.
+- d0 04-01 14:52 — `dfoz6d5` is edited.
+- d0 04-01 14:55 — `dfoz9nx` is edited.
+- d0 04-01 15:08 — `dfozsig` is edited.
+- d1 04-01 16:54 — `dfp49u1` is edited; its surviving body is `[removed]`.
+- d1 04-01 18:16 — `dfp7nle` is edited.
+- d1 04-01 20:35 — `62valj` is edited.
+- d1 04-01 21:20 — `dfpf0rq` is edited.
+- d1 04-01 21:37 — `62vpcg` is edited.
+- d1 04-02 01:45 — `62x20p` is edited.
+- d1 04-02 04:41 — `dfpvi52` is edited.
+- d1 04-02 07:52 — `62yijm` is edited.
+- d1 04-02 09:43 — `dfq21ux` is edited.
+- d1 04-02 10:00 — `dfq2bw8` is edited.
+- d1 04-02 10:00 — `dfq2bot` is edited.
+- d1 04-02 11:31 — `dfq3u9m` is edited.
+- d2 04-03 00:59 — `633jr1` is edited; its surviving body is `[deleted]`.
+- d2 04-03 02:10 — `633xdi` is edited.
+- d2 04-03 04:13 — `634ip9` is edited.
+- d2 04-03 06:43 — `dfrf7d5` is edited.
+- d2 04-03 07:12 — `6358jj` is edited.
+- d3 04-03 16:40 — `dfrygc0` is edited.
+- d3 04-03 19:36 — `dfs7k6c` is edited.
+- d3 04-03 21:21 — `dfsd25t` is edited.
+- d3 04-04 03:17 — `dfsungh` is edited.
+- d3 04-04 12:07 — `63dozi` is edited.
+- d3 04-04 12:28 — `dft95wx` is edited.
+- d3 04-04 12:34 — `dft9cx4` is edited.
+- d3 04-04 14:39 — `dftetq5` is edited.
+- d3 04-04 14:57 — `dftfrmw` is edited.
+- d3 04-04 15:02 — `dftfzul` is edited.
+- d3 04-04 15:29 — `63esxs` is edited.
+- d4 04-04 16:35 — `dftl5qa` is edited.

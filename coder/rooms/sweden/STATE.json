@@ -1,0 +1,127 @@
+{
+ "sub": "sweden",
+ "built": "2026-09-06T16:53:09Z",
+ "instrument": "v32",
+ "items_in_window": 8092,
+ "items_by_people": 7945,
+ "chars_by_people": 1002184,
+ "threads": 937,
+ "preweek_items": 10232,
+ "brief": "present",
+ "expected_branch": "B",
+ "expected_slices": 17,
+ "stage": "verified",
+ "log": [
+  {
+   "at": "2026-09-09T10:34:31Z",
+   "event": "brief built",
+   "model": "gpt-5.6-sol"
+  }
+ ],
+ "notes": [
+  {
+   "at": "2026-09-09T10:55:25.184713+00:00",
+   "note": "Brief queue rank 330; verified; full platform transcript"
+  },
+  {
+   "at": "2026-09-22T10:11:38Z",
+   "note": "Started native case lead using lead-calibration-v2; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-24T12:06:11.385322+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  },
+  {
+   "at": "2026-09-24T12:07:35.837420+00:00",
+   "note": "Restored compressed case-lead store for continuation."
+  },
+  {
+   "at": "2026-09-24T12:08:12Z",
+   "note": "Forking clean checkpoint collected-12 for coder repair: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-B', '/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_tools/codex_lead.py', '--store', '/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/sweden-gpt56-calibration-v1', 'turn', '--message', 'collect', '--batch', '13', '--summary', \"batch 13: 74 threads disposed (62 coded), 62 codes, 16 pointers\\n  read audit: 74 declared from _journal.jsonl, 0 overstated\\n  case.md: 826 words, 7 edge tags\\n  timeline.md: +4 lines\\n  lexicon.md: +4 lines\\n  batch directory holds extra files (not a failure): ['_scheduler_preflight.py']\\n  PREFLIGHT PASSED: batch 13; 74/74 threads disposed, 62 coded threads have LIVE codes; read audit and C5 citations pass; case/notes complete.\\nPASSED\", '--label', 'collected-13']' returned non-zero exit status 1."
+  },
+  {
+   "at": "2026-09-24T12:08:31.402636+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  },
+  {
+   "at": "2026-09-24T12:26:28.767204+00:00",
+   "note": "Restored compressed case-lead store for continuation."
+  },
+  {
+   "at": "2026-09-24T12:27:36.407006+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  },
+  {
+   "at": "2026-09-24T12:27:38Z",
+   "note": "No narrow safe checkpoint repair was identified; starting a new case lead from the contract."
+  },
+  {
+   "at": "2026-09-24T12:27:40Z",
+   "note": "Started native case lead using lead-calibration-v2; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-24T14:38:51Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/sweden-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-24T14:40:20.213714+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:55Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-09T10:55:25Z",
+ "brief_validation_digest": "788963a41146b6d65cc9780a47f7f87be8cb4ccb0a5745cbec0b6f1fb814607c",
+ "agents": [
+  {
+   "role": "brief writer",
+   "model": "gpt-5.6-sol",
+   "agent_id": "01a085bb-c94f-7020-a941-1495fe483859",
+   "started": "2026-09-09T10:34:31.893806+00:00",
+   "ended": "2026-09-09T10:55:25.184361+00:00",
+   "attempt": 1,
+   "transcript": "full platform transcript"
+  }
+ ],
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "coding_audit": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/sweden-gpt56-calibration-v1/audit/scheduler-1790072368000046000",
+ "repair_attempt": "auto-1790081965366126000",
+ "lead_archive_history": [
+  {
+   "path": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/sweden-gpt56-calibration-v1-superseded-1790252858671094000.tar.zst",
+   "sha256": "315df9607c2dd002948529d45a239d7c9bd64eabebb6c6fae5e6c5e370d8c837",
+   "bytes": 135698036,
+   "superseded_utc": "2026-09-24T12:27:38Z"
+  }
+ ],
+ "model": "gpt-5.6-sol",
+ "fingerprint": "5873e1e29cdab0cb",
+ "branch": "B",
+ "slices": 18,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 835,
+ "themes": 7,
+ "verified_utc": "2026-09-24T14:38:51Z",
+ "finished": "2026-09-24T14:38:47.619426+00:00",
+ "carried": "run",
+ "reported_total_tokens": 55809508,
+ "lead_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/sweden-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "991e76e7a40701ce8cb33b6fe3908f638d95b6a36fb26257727ddf364687d992",
+ "lead_archive_bytes": 180051828,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/sweden/run.tar.zst",
+ "run_archive_sha256": "6a6f2a25c9f10dac8483d5051c885c538f66d33f05aff694403dfc66f3491092",
+ "run_archive_bytes": 5970314,
+ "run_archived_utc": "2026-09-25T13:38:21.682685+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/sweden/materials.tar.zst",
+ "materials_archive_sha256": "08887e9767eab31cf692756692302852fda94c0747ecaac6df74417f907804b9",
+ "materials_archive_bytes": 6783277,
+ "materials_archived_utc": "2026-09-25T13:49:19.926072+00:00"
+}

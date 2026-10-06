@@ -1,0 +1,5171 @@
+{
+ "falcons": {
+  "counts": {
+   "threads_given": 21,
+   "threads_with_codes": 21,
+   "items": 310,
+   "coded": 184,
+   "bridge": 28,
+   "removed": 0,
+   "dropped": 98,
+   "orphans": 0,
+   "na_stretches": 63,
+   "coverage_of_coded_items": 0.82,
+   "threads_total_in_window": 83
+  },
+  "index": {
+   "62nqpy": {
+    "0": {
+     "thread_id": "62nqpy",
+     "item_id": "62nqpy",
+     "parent_id": null,
+     "author": "VLKBlackDove",
+     "created_utc": 1490990903,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001",
+      "c0002"
+     ],
+     "labels": [
+      "requiring everyone\u2019s assistance on r/place",
+      "gathering everyone who hates the Pats to delete their logo"
+     ],
+     "sequence": [
+      "c0001",
+      "c0002"
+     ],
+     "coverage": 0.84,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1492476075
+     }
+    },
+    "1": {
+     "thread_id": "62nqpy",
+     "item_id": "dfnygv2",
+     "parent_id": "62nqpy",
+     "author": "[deleted]",
+     "created_utc": 1490991151,
+     "dt_parent_sec": 248,
+     "dt_thread_sec": 248,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": -20,
+      "retrieved_on": 1491953304
+     }
+    },
+    "1.1": {
+     "thread_id": "62nqpy",
+     "item_id": "dfnz1bz",
+     "parent_id": "dfnygv2",
+     "author": "BillClintonSaxMaster",
+     "created_utc": 1490991814,
+     "dt_parent_sec": 663,
+     "dt_thread_sec": 911,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 11,
+      "author_flair_text": "Coolio Jones",
+      "retrieved_on": 1491953578
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62nqpy",
+     "item_id": "dfnzd0h",
+     "parent_id": "dfnz1bz",
+     "author": "TylerW_1122",
+     "created_utc": 1490992196,
+     "dt_parent_sec": 382,
+     "dt_thread_sec": 1293,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "saying the Falcons post was sent into their Slack"
+     ],
+     "sequence": [
+      "c0009",
+      "na"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": -16,
+      "retrieved_on": 1491953735
+     }
+    },
+    "2": {
+     "thread_id": "62nqpy",
+     "item_id": "dfnyy43",
+     "parent_id": "62nqpy",
+     "author": "Jobbe03",
+     "created_utc": 1490991709,
+     "dt_parent_sec": 806,
+     "dt_thread_sec": 806,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "asking who gives a fuck about the canvas call"
+     ],
+     "sequence": [
+      "c0003"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Resident Brooks Reed hater",
+      "retrieved_on": 1491953534
+     }
+    },
+    "2.1": {
+     "thread_id": "62nqpy",
+     "item_id": "dfnz6u9",
+     "parent_id": "dfnyy43",
+     "author": "VLKBlackDove",
+     "created_utc": 1490991996,
+     "dt_parent_sec": 287,
+     "dt_thread_sec": 1093,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "wanting the saved final picture not to show the Pats logo"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1491953652
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62nqpy",
+     "item_id": "dfnzb38",
+     "parent_id": "dfnz6u9",
+     "author": "Jobbe03",
+     "created_utc": 1490992133,
+     "dt_parent_sec": 137,
+     "dt_thread_sec": 1230,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "telling the caller to get over the Pats logo"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Resident Brooks Reed hater",
+      "retrieved_on": 1491953709
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62nqpy",
+     "item_id": "dfnzgqc",
+     "parent_id": "dfnzb38",
+     "author": "VLKBlackDove",
+     "created_utc": 1490992318,
+     "dt_parent_sec": 185,
+     "dt_thread_sec": 1415,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "asking why avoiding the Pats logo is wrong"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1491953785
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62nqpy",
+     "item_id": "dfnzl3h",
+     "parent_id": "dfnzgqc",
+     "author": "Jobbe03",
+     "created_utc": 1490992458,
+     "dt_parent_sec": 140,
+     "dt_thread_sec": 1555,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "calling it weird to make a post about the logo"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Resident Brooks Reed hater",
+      "retrieved_on": 1491953843
+     }
+    },
+    "2.1.1.1.1.1": {
+     "thread_id": "62nqpy",
+     "item_id": "dfnznls",
+     "parent_id": "dfnzl3h",
+     "author": "VLKBlackDove",
+     "created_utc": 1490992539,
+     "dt_parent_sec": 81,
+     "dt_thread_sec": 1636,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "disagreeing while respecting the opinion"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1491953877
+     }
+    },
+    "2.1.1.1.1.1.1": {
+     "thread_id": "62nqpy",
+     "item_id": "dfqnsqw",
+     "parent_id": "dfnznls",
+     "author": "captaincampbell42",
+     "created_utc": 1491164308,
+     "dt_parent_sec": 171769,
+     "dt_thread_sec": 173405,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "joining the call to get rid of the 28-3"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "-0!!! WOOOOOO!!!!",
+      "retrieved_on": 1493735368
+     }
+    }
+   },
+   "62pj2z": {
+    "0": {
+     "thread_id": "62pj2z",
+     "item_id": "62pj2z",
+     "parent_id": null,
+     "author": "Fyrelyte67",
+     "created_utc": 1491008063,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "mocking trade posts by asking about Ray Lewis"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 0.66,
+     "meta": {
+      "score": 21,
+      "retrieved_on": 1492477367
+     }
+    },
+    "1": {
+     "thread_id": "62pj2z",
+     "item_id": "dfodl1k",
+     "parent_id": "62pj2z",
+     "author": "blastoise36",
+     "created_utc": 1491011185,
+     "dt_parent_sec": 3122,
+     "dt_thread_sec": 3122,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "offering an eighth-round pick for Ray Lewis"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493695677
+     }
+    },
+    "1.1": {
+     "thread_id": "62pj2z",
+     "item_id": "dfodq8y",
+     "parent_id": "dfodl1k",
+     "author": "Fyrelyte67",
+     "created_utc": 1491011396,
+     "dt_parent_sec": 211,
+     "dt_thread_sec": 3333,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "saying an eighth-round pick is reaching"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "Fine Me Later",
+      "retrieved_on": 1493695748
+     }
+    },
+    "2": {
+     "thread_id": "62pj2z",
+     "item_id": "dfohijc",
+     "parent_id": "62pj2z",
+     "author": "HeritageCoach",
+     "created_utc": 1491017132,
+     "dt_parent_sec": 9069,
+     "dt_thread_sec": 9069,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "saying Ray Lewis would solve the QB and WR problem"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493697580
+     }
+    },
+    "2.1": {
+     "thread_id": "62pj2z",
+     "item_id": "dfommef",
+     "parent_id": "dfohijc",
+     "author": "FireworkFuse",
+     "created_utc": 1491026541,
+     "dt_parent_sec": 9409,
+     "dt_thread_sec": 18478,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "saying Poe already solved every problem"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Risen.",
+      "retrieved_on": 1493700043
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62pj2z",
+     "item_id": "dfpb2r1",
+     "parent_id": "dfommef",
+     "author": "HeritageCoach",
+     "created_utc": 1491075668,
+     "dt_parent_sec": 49127,
+     "dt_thread_sec": 67605,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "asking whether Poe can supply motivational speeches"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493711822
+     }
+    }
+   },
+   "62rrlk": {
+    "0": {
+     "thread_id": "62rrlk",
+     "item_id": "62rrlk",
+     "parent_id": null,
+     "author": "iwas99x",
+     "created_utc": 1491039413,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "marking April Fools by asking for the most foolish draft pick"
+     ],
+     "sequence": [
+      "c0017",
+      "na"
+     ],
+     "coverage": 0.57,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1494548850
+     }
+    },
+    "1": {
+     "thread_id": "62rrlk",
+     "item_id": "dfotb84",
+     "parent_id": "62rrlk",
+     "author": "Jobbe03",
+     "created_utc": 1491046521,
+     "dt_parent_sec": 7108,
+     "dt_thread_sec": 7108,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "naming Jamaal as the recent foolish pick"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 15,
+      "author_flair_text": "Resident Brooks Reed hater",
+      "retrieved_on": 1493703269
+     }
+    },
+    "2": {
+     "thread_id": "62rrlk",
+     "item_id": "dfowuzw",
+     "parent_id": "62rrlk",
+     "author": "Steffnov",
+     "created_utc": 1491054492,
+     "dt_parent_sec": 15079,
+     "dt_thread_sec": 15079,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "naming John Wayne as the most humorous pick"
+     ],
+     "sequence": [
+      "na",
+      "c0019"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "That Dutch Guy",
+      "retrieved_on": 1493704979
+     }
+    },
+    "3": {
+     "thread_id": "62rrlk",
+     "item_id": "dfozk3u",
+     "parent_id": "62rrlk",
+     "author": "mehjbmeh",
+     "created_utc": 1491058963,
+     "dt_parent_sec": 19550,
+     "dt_thread_sec": 19550,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "saying drafting Favre without mentoring him stands out"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493706273
+     }
+    },
+    "4": {
+     "thread_id": "62rrlk",
+     "item_id": "dfp3nuq",
+     "parent_id": "62rrlk",
+     "author": "RedditfalconFan822",
+     "created_utc": 1491064819,
+     "dt_parent_sec": 25406,
+     "dt_thread_sec": 25406,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "sarcastically naming Matt Ryan as the foolish pick"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493708249
+     }
+    }
+   },
+   "62siuf": {
+    "0": {
+     "thread_id": "62siuf",
+     "item_id": "62siuf",
+     "parent_id": null,
+     "author": "Freetrain24",
+     "created_utc": 1491051099,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "reminding the room with a fake Falcons Super Bowl win"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 17,
+      "author_flair_text": "VroomVroom",
+      "retrieved_on": 1494549225
+     }
+    },
+    "1": {
+     "thread_id": "62siuf",
+     "item_id": "dfovf3i",
+     "parent_id": "62siuf",
+     "author": "Freetrain24",
+     "created_utc": 1491051660,
+     "dt_parent_sec": 561,
+     "dt_thread_sec": 561,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "collecting versions of the Falcoholic April Fools joke"
+     ],
+     "sequence": [
+      "c0023",
+      "na"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "VroomVroom",
+      "retrieved_on": 1493704285
+     }
+    },
+    "1.1": {
+     "thread_id": "62siuf",
+     "item_id": "dfovi6z",
+     "parent_id": "dfovf3i",
+     "author": "Freetrain24",
+     "created_utc": 1491051836,
+     "dt_parent_sec": 176,
+     "dt_thread_sec": 737,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "VroomVroom",
+      "retrieved_on": 1493704326
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62siuf",
+     "item_id": "dfoz655",
+     "parent_id": "dfovi6z",
+     "author": "Freetrain24",
+     "created_utc": 1491058358,
+     "dt_parent_sec": 6522,
+     "dt_thread_sec": 7259,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "calling the fake press conference hilarious"
+     ],
+     "sequence": [
+      "na",
+      "c0025"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "VroomVroom",
+      "retrieved_on": 1493706087
+     }
+    },
+    "2": {
+     "thread_id": "62siuf",
+     "item_id": "dfoxjah",
+     "parent_id": "62siuf",
+     "author": "murph32xx",
+     "created_utc": 1491055688,
+     "dt_parent_sec": 4589,
+     "dt_thread_sec": 4589,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "rejecting the fake Super Bowl story"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 0.91,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1493705303
+     }
+    },
+    "3": {
+     "thread_id": "62siuf",
+     "item_id": "dfp1s6x",
+     "parent_id": "62siuf",
+     "author": "TheAlmightyLoaf",
+     "created_utc": 1491062155,
+     "dt_parent_sec": 11056,
+     "dt_thread_sec": 11056,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "calling the fake win alternative facts"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "author_flair_text": "MVP",
+      "retrieved_on": 1493707343
+     }
+    },
+    "3.1": {
+     "thread_id": "62siuf",
+     "item_id": "dfp1u8r",
+     "parent_id": "dfp1s6x",
+     "author": "Freetrain24",
+     "created_utc": 1491062234,
+     "dt_parent_sec": 79,
+     "dt_thread_sec": 11135,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "wishing a happy alternative facts day"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "VroomVroom",
+      "retrieved_on": 1493707371
+     }
+    },
+    "4": {
+     "thread_id": "62siuf",
+     "item_id": "dfpptfb",
+     "parent_id": "62siuf",
+     "author": "rloch",
+     "created_utc": 1491098085,
+     "dt_parent_sec": 46986,
+     "dt_thread_sec": 46986,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "laughing at the Matt Ryan reality-show joke"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493718963
+     }
+    }
+   },
+   "62smk9": {
+    "0": {
+     "thread_id": "62smk9",
+     "item_id": "62smk9",
+     "parent_id": null,
+     "author": "AutoModerator",
+     "created_utc": 1491052375,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 6,
+      "link_flair_text": "Daily",
+      "retrieved_on": 1494549276
+     }
+    },
+    "1": {
+     "thread_id": "62smk9",
+     "item_id": "dfovwaj",
+     "parent_id": "62smk9",
+     "author": "Freetrain24",
+     "created_utc": 1491052646,
+     "dt_parent_sec": 271,
+     "dt_thread_sec": 271,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "reporting Atlanta UTD atop the conference"
+     ],
+     "sequence": [
+      "na",
+      "c0029"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "VroomVroom",
+      "retrieved_on": 1493704516
+     }
+    },
+    "2": {
+     "thread_id": "62smk9",
+     "item_id": "dfovzdg",
+     "parent_id": "62smk9",
+     "author": "PaulfordWorrilow55",
+     "created_utc": 1491052824,
+     "dt_parent_sec": 449,
+     "dt_thread_sec": 449,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "reversing Saints rivalry talk for April Fools"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493704557
+     }
+    },
+    "2.1": {
+     "thread_id": "62smk9",
+     "item_id": "dfoynlg",
+     "parent_id": "dfovzdg",
+     "author": "Dodirty91",
+     "created_utc": 1491057540,
+     "dt_parent_sec": 4716,
+     "dt_thread_sec": 5165,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "answering the pro-Saints reversal with FTS and Rise Up"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Here comes Debo",
+      "retrieved_on": 1493705841
+     }
+    },
+    "3": {
+     "thread_id": "62smk9",
+     "item_id": "dfoy025",
+     "parent_id": "62smk9",
+     "author": "Yronno",
+     "created_utc": 1491056453,
+     "dt_parent_sec": 4078,
+     "dt_thread_sec": 4078,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "calling Matt Ryan the worst NFC South quarterback for April Fools"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Filthy Fowl",
+      "retrieved_on": 1493705528
+     }
+    },
+    "4": {
+     "thread_id": "62smk9",
+     "item_id": "dfoyb34",
+     "parent_id": "62smk9",
+     "author": "pfmac",
+     "created_utc": 1491056967,
+     "dt_parent_sec": 4592,
+     "dt_thread_sec": 4592,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "calling Biermann the GOAT for April Fools"
+     ],
+     "sequence": [
+      "c0033"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493705674
+     }
+    },
+    "5": {
+     "thread_id": "62smk9",
+     "item_id": "dfoz17f",
+     "parent_id": "62smk9",
+     "author": "Kb736",
+     "created_utc": 1491058144,
+     "dt_parent_sec": 5769,
+     "dt_thread_sec": 5769,
+     "state": "coded",
+     "code_ids": [
+      "c0034",
+      "c0035"
+     ],
+     "labels": [
+      "being glad the room is not doing a pro-Patriots or Saints joke",
+      "getting mad at fake Super Bowl winning articles"
+     ],
+     "sequence": [
+      "c0034",
+      "c0035"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493706021
+     }
+    },
+    "5.1": {
+     "thread_id": "62smk9",
+     "item_id": "dfp04tm",
+     "parent_id": "dfoz17f",
+     "author": "Freetrain24",
+     "created_utc": 1491059836,
+     "dt_parent_sec": 1692,
+     "dt_thread_sec": 7461,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "sending an angry reader to the hilarious last fake article"
+     ],
+     "sequence": [
+      "c0036",
+      "na"
+     ],
+     "coverage": 0.66,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "VroomVroom",
+      "retrieved_on": 1493706552
+     }
+    },
+    "6": {
+     "thread_id": "62smk9",
+     "item_id": "dfp1ags",
+     "parent_id": "62smk9",
+     "author": "NewRedditorHere",
+     "created_utc": 1491061467,
+     "dt_parent_sec": 9092,
+     "dt_thread_sec": 9092,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "calling for Mike Smith back for April Fools"
+     ],
+     "sequence": [
+      "c0037"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493707107
+     }
+    },
+    "7": {
+     "thread_id": "62smk9",
+     "item_id": "dfp7b4l",
+     "parent_id": "62smk9",
+     "author": "RhinoGT1",
+     "created_utc": 1491070085,
+     "dt_parent_sec": 17710,
+     "dt_thread_sec": 17710,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "announcing meeting Deion Jones"
+     ],
+     "sequence": [
+      "c0038"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493710003
+     }
+    },
+    "7.1": {
+     "thread_id": "62smk9",
+     "item_id": "dfp9pum",
+     "parent_id": "dfp7b4l",
+     "author": "Freetrain24",
+     "created_utc": 1491073630,
+     "dt_parent_sec": 3545,
+     "dt_thread_sec": 21255,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "VroomVroom",
+      "retrieved_on": 1493711169
+     }
+    },
+    "7.1.1": {
+     "thread_id": "62smk9",
+     "item_id": "dfpa8jd",
+     "parent_id": "dfp9pum",
+     "author": "RhinoGT1",
+     "created_utc": 1491074400,
+     "dt_parent_sec": 770,
+     "dt_thread_sec": 22025,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "reporting Deion Jones was nice and signed a flag"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493711417
+     }
+    },
+    "8": {
+     "thread_id": "62smk9",
+     "item_id": "dfpn2z2",
+     "parent_id": "62smk9",
+     "author": "KeanuNeal",
+     "created_utc": 1491093849,
+     "dt_parent_sec": 41474,
+     "dt_thread_sec": 41474,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "calling out a Flacco-or-Ryan thread"
+     ],
+     "sequence": [
+      "c0040",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493717639
+     }
+    },
+    "8.1": {
+     "thread_id": "62smk9",
+     "item_id": "dfpu3vs",
+     "parent_id": "dfpn2z2",
+     "author": "ATL_Energy",
+     "created_utc": 1491105437,
+     "dt_parent_sec": 11588,
+     "dt_thread_sec": 53062,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "explaining the Flacco thread as April Fools"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "\ud83c\udd71\ufe0foolio Jones",
+      "retrieved_on": 1493721040
+     }
+    }
+   },
+   "62vj87": {
+    "0": {
+     "thread_id": "62vj87",
+     "item_id": "62vj87",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491081171,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "asking how to fix the r/place problem before completion"
+     ],
+     "sequence": [
+      "c0042"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494550743
+     }
+    },
+    "1": {
+     "thread_id": "62vj87",
+     "item_id": "dfphbi7",
+     "parent_id": "62vj87",
+     "author": "bubuskas",
+     "created_utc": 1491085142,
+     "dt_parent_sec": 3971,
+     "dt_thread_sec": 3971,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "calling the canvas problem funny"
+     ],
+     "sequence": [
+      "c0043"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "\"RUN THE DAMN BALL\"",
+      "retrieved_on": 1493714844
+     }
+    },
+    "2": {
+     "thread_id": "62vj87",
+     "item_id": "dfq4rf5",
+     "parent_id": "62vj87",
+     "author": "spekkke",
+     "created_utc": 1491135465,
+     "dt_parent_sec": 54294,
+     "dt_thread_sec": 54294,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "saying it cannot be fixed because of how many Pats fans are on Reddit"
+     ],
+     "sequence": [
+      "c0044"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493726172
+     }
+    }
+   },
+   "62vj9v": {
+    "0": {
+     "thread_id": "62vj9v",
+     "item_id": "62vj9v",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491081188,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "warning that r/Patriots is trying to meme the room on r/place"
+     ],
+     "sequence": [
+      "c0045"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494550743
+     }
+    },
+    "1": {
+     "thread_id": "62vj9v",
+     "item_id": "dfpf3w1",
+     "parent_id": "62vj9v",
+     "author": "Jon_Snows_Dad",
+     "created_utc": 1491081745,
+     "dt_parent_sec": 557,
+     "dt_thread_sec": 557,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "not caring about the canvas meme"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 0.94,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493713775
+     }
+    },
+    "2": {
+     "thread_id": "62vj9v",
+     "item_id": "dfpfgf9",
+     "parent_id": "62vj9v",
+     "author": "Drew__Brees",
+     "created_utc": 1491082279,
+     "dt_parent_sec": 1091,
+     "dt_thread_sec": 1091,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "asking who gives a fuck about the canvas meme"
+     ],
+     "sequence": [
+      "c0047"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493713945
+     }
+    }
+   },
+   "62vzz7": {
+    "0": {
+     "thread_id": "62vzz7",
+     "item_id": "62vzz7",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491085539,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "calling to erase the r/place score"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 0.69,
+     "meta": {
+      "score": 24,
+      "retrieved_on": 1494550974
+     }
+    },
+    "1": {
+     "thread_id": "62vzz7",
+     "item_id": "dfrswce",
+     "parent_id": "62vzz7",
+     "author": "RIPMEDUDE",
+     "created_utc": 1491230977,
+     "dt_parent_sec": 145438,
+     "dt_thread_sec": 145438,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "asking how to erase the score"
+     ],
+     "sequence": [
+      "c0049"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Literally the best WR in the game",
+      "retrieved_on": 1493756858
+     }
+    },
+    "1.1": {
+     "thread_id": "62vzz7",
+     "item_id": "dfrtbig",
+     "parent_id": "dfrswce",
+     "author": "friardon",
+     "created_utc": 1491231467,
+     "dt_parent_sec": 490,
+     "dt_thread_sec": 145928,
+     "state": "coded",
+     "code_ids": [
+      "c0050",
+      "c0051"
+     ],
+     "labels": [
+      "explaining how to subscribe, find the area, and change a pixel",
+      "wanting 20\u201330 people to change pixels together"
+     ],
+     "sequence": [
+      "c0050",
+      "c0051"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493757292
+     }
+    }
+   },
+   "62w0ko": {
+    "0": {
+     "thread_id": "62w0ko",
+     "item_id": "62w0ko",
+     "parent_id": null,
+     "author": "ThunderFlash10",
+     "created_utc": 1491085724,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "crying out at the canvas provocation"
+     ],
+     "sequence": [
+      "c0052"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 82,
+      "retrieved_on": 1494550983
+     }
+    },
+    "1": {
+     "thread_id": "62w0ko",
+     "item_id": "dfphzk4",
+     "parent_id": "62w0ko",
+     "author": "NumbahFour",
+     "created_utc": 1491086193,
+     "dt_parent_sec": 469,
+     "dt_thread_sec": 469,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "saying it is too late and to let the scoreboard live"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 37,
+      "retrieved_on": 1493715171
+     }
+    },
+    "2": {
+     "thread_id": "62w0ko",
+     "item_id": "dfpj4ul",
+     "parent_id": "62w0ko",
+     "author": "ArchEast",
+     "created_utc": 1491087929,
+     "dt_parent_sec": 2205,
+     "dt_thread_sec": 2205,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "giving a direct link to counter the scoreboard"
+     ],
+     "sequence": [
+      "na",
+      "c0054"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493715727
+     }
+    },
+    "3": {
+     "thread_id": "62w0ko",
+     "item_id": "dfpkhn9",
+     "parent_id": "62w0ko",
+     "author": "1869er",
+     "created_utc": 1491089979,
+     "dt_parent_sec": 4255,
+     "dt_thread_sec": 4255,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "setting a five-minute timer to nuke the scoreboard"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 17,
+      "retrieved_on": 1493716382
+     }
+    },
+    "3.1": {
+     "thread_id": "62w0ko",
+     "item_id": "dfq9wj0",
+     "parent_id": "dfpkhn9",
+     "author": "tiercel",
+     "created_utc": 1491145817,
+     "dt_parent_sec": 55838,
+     "dt_thread_sec": 60093,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "joining the five-minute fight"
+     ],
+     "sequence": [
+      "c0060"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Rise Up! NC Chapter!",
+      "retrieved_on": 1493728655
+     }
+    },
+    "4": {
+     "thread_id": "62w0ko",
+     "item_id": "dfplz0c",
+     "parent_id": "62w0ko",
+     "author": "er104",
+     "created_utc": 1491092200,
+     "dt_parent_sec": 6476,
+     "dt_thread_sec": 6476,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "proposing changing the 3 into a 0"
+     ],
+     "sequence": [
+      "c0056"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493717102
+     }
+    },
+    "5": {
+     "thread_id": "62w0ko",
+     "item_id": "dfpo8ws",
+     "parent_id": "62w0ko",
+     "author": "AlconTheFalcon",
+     "created_utc": 1491095655,
+     "dt_parent_sec": 9931,
+     "dt_thread_sec": 9931,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "proposing adding Final Score beneath it"
+     ],
+     "sequence": [
+      "c0057"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493718204
+     }
+    },
+    "6": {
+     "thread_id": "62w0ko",
+     "item_id": "dfpqic9",
+     "parent_id": "62w0ko",
+     "author": "PiscEZ_",
+     "created_utc": 1491099204,
+     "dt_parent_sec": 13480,
+     "dt_thread_sec": 13480,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "calling the score immortalized forever"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493719300
+     }
+    },
+    "7": {
+     "thread_id": "62w0ko",
+     "item_id": "dfpytb4",
+     "parent_id": "62w0ko",
+     "author": "RAGCRS",
+     "created_utc": 1491115778,
+     "dt_parent_sec": 30054,
+     "dt_thread_sec": 30054,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "saying Falcons fans deserve the scoreboard"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493723305
+     }
+    },
+    "8": {
+     "thread_id": "62w0ko",
+     "item_id": "dfq9msa",
+     "parent_id": "62w0ko",
+     "author": "crazyfoxxy",
+     "created_utc": 1491145410,
+     "dt_parent_sec": 59686,
+     "dt_thread_sec": 59686,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1493728525
+     }
+    },
+    "8.1": {
+     "thread_id": "62w0ko",
+     "item_id": "dfqy7vm",
+     "parent_id": "dfq9msa",
+     "author": "Droopy1592",
+     "created_utc": 1491177800,
+     "dt_parent_sec": 32390,
+     "dt_thread_sec": 92076,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "explaining laughter as being used to losing that way"
+     ],
+     "sequence": [
+      "c0062",
+      "na"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493740664
+     }
+    },
+    "9": {
+     "thread_id": "62w0ko",
+     "item_id": "dfqgxuq",
+     "parent_id": "62w0ko",
+     "author": "soundman1024",
+     "created_utc": 1491155387,
+     "dt_parent_sec": 69663,
+     "dt_thread_sec": 69663,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "proposing a Giants score for revenge"
+     ],
+     "sequence": [
+      "c0061"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493732050
+     }
+    }
+   },
+   "62wt9d": {
+    "0": {
+     "thread_id": "62wt9d",
+     "item_id": "62wt9d",
+     "parent_id": null,
+     "author": "IJustFuckThingsUp",
+     "created_utc": 1491094604,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0063",
+      "c0064",
+      "c0065"
+     ],
+     "labels": [
+      "calling all Georgia-based subreddits",
+      "setting aside Georgia rivalries to destroy the reminder",
+      "proposing turning the reminder into a Georgia flag"
+     ],
+     "sequence": [
+      "c0063",
+      "na",
+      "c0064",
+      "c0065"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1494551376
+     }
+    }
+   },
+   "62wvlk": {
+    "0": {
+     "thread_id": "62wvlk",
+     "item_id": "62wvlk",
+     "parent_id": null,
+     "author": "njdeatheater",
+     "created_utc": 1491095349,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "Giants fans offering to turn NE 3 into NE 18-1"
+     ],
+     "sequence": [
+      "c0066"
+     ],
+     "coverage": 0.74,
+     "meta": {
+      "score": 124,
+      "retrieved_on": 1494551409
+     }
+    },
+    "1": {
+     "thread_id": "62wvlk",
+     "item_id": "dfpq8xv",
+     "parent_id": "62wvlk",
+     "author": "Atlanta-Avenger",
+     "created_utc": 1491098769,
+     "dt_parent_sec": 3420,
+     "dt_thread_sec": 3420,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "thanking Giants bros and joining against the Pats"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 28,
+      "author_flair_text": "RISE UP DIRTY BIRDS",
+      "retrieved_on": 1493719171
+     }
+    },
+    "2": {
+     "thread_id": "62wvlk",
+     "item_id": "dfq9bo0",
+     "parent_id": "62wvlk",
+     "author": "somenamehere1234",
+     "created_utc": 1491144921,
+     "dt_parent_sec": 49572,
+     "dt_thread_sec": 49572,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "saying 3-28 will last for all place time"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": -4,
+      "retrieved_on": 1493728376
+     }
+    },
+    "3": {
+     "thread_id": "62wvlk",
+     "item_id": "dfqflvf",
+     "parent_id": "62wvlk",
+     "author": "Limozeen581",
+     "created_utc": 1491153679,
+     "dt_parent_sec": 58330,
+     "dt_thread_sec": 58330,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "asking for help turning the three into an eight"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493731405
+     }
+    },
+    "4": {
+     "thread_id": "62wvlk",
+     "item_id": "dfqga4c",
+     "parent_id": "62wvlk",
+     "author": "rubbyrubbytumtum",
+     "created_utc": 1491154543,
+     "dt_parent_sec": 59194,
+     "dt_thread_sec": 59194,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "asking for a template"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "SLOW BURNER",
+      "retrieved_on": 1493731731
+     }
+    },
+    "5": {
+     "thread_id": "62wvlk",
+     "item_id": "dfqhcz6",
+     "parent_id": "62wvlk",
+     "author": "friardon",
+     "created_utc": 1491155925,
+     "dt_parent_sec": 60576,
+     "dt_thread_sec": 60576,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "joining the canvas effort"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493732251
+     }
+    },
+    "6": {
+     "thread_id": "62wvlk",
+     "item_id": "dfr8hkk",
+     "parent_id": "62wvlk",
+     "author": "Ed_Thatch",
+     "created_utc": 1491190201,
+     "dt_parent_sec": 94852,
+     "dt_thread_sec": 94852,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "checking whether the effort is still running"
+     ],
+     "sequence": [
+      "c0072"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493745655
+     }
+    }
+   },
+   "62x1o6": {
+    "0": {
+     "thread_id": "62x1o6",
+     "item_id": "62x1o6",
+     "parent_id": null,
+     "author": "axechamp75",
+     "created_utc": 1491097391,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "admitting briefly believing the trade joke"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 18,
+      "author_flair_text": "FTS",
+      "retrieved_on": 1494551493
+     }
+    },
+    "1": {
+     "thread_id": "62x1o6",
+     "item_id": "dfpqn1j",
+     "parent_id": "62x1o6",
+     "author": "Jobbe03",
+     "created_utc": 1491099425,
+     "dt_parent_sec": 2034,
+     "dt_thread_sec": 2034,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "reacting catastrophically to the fake trade"
+     ],
+     "sequence": [
+      "c0074"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 17,
+      "author_flair_text": "Resident Brooks Reed hater",
+      "retrieved_on": 1493719363
+     }
+    },
+    "1.1": {
+     "thread_id": "62x1o6",
+     "item_id": "dfpslhu",
+     "parent_id": "dfpqn1j",
+     "author": "Not_A_Fagget",
+     "created_utc": 1491102725,
+     "dt_parent_sec": 3300,
+     "dt_thread_sec": 5334,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "imagining Sherman and Tru as a lethal cornerback duo"
+     ],
+     "sequence": [
+      "na",
+      "c0075"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493720311
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62x1o6",
+     "item_id": "dfpu39j",
+     "parent_id": "dfpslhu",
+     "author": "NotHannibalBurress",
+     "created_utc": 1491105404,
+     "dt_parent_sec": 2679,
+     "dt_thread_sec": 8013,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "preferring the running backs to a cornerback upgrade"
+     ],
+     "sequence": [
+      "c0076",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1493721032
+     }
+    },
+    "1.1.2": {
+     "thread_id": "62x1o6",
+     "item_id": "dfq6uvw",
+     "parent_id": "dfpslhu",
+     "author": "Jobbe03",
+     "created_utc": 1491140471,
+     "dt_parent_sec": 37746,
+     "dt_thread_sec": 43080,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "calling Sherman cancer and the trade an overpayment"
+     ],
+     "sequence": [
+      "na",
+      "c0077"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Resident Brooks Reed hater",
+      "retrieved_on": 1493727189
+     }
+    },
+    "2": {
+     "thread_id": "62x1o6",
+     "item_id": "dfq99fj",
+     "parent_id": "62x1o6",
+     "author": "Heisman1481",
+     "created_utc": 1491144819,
+     "dt_parent_sec": 47428,
+     "dt_thread_sec": 47428,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "saying the Sherman trade could end their Falcons fandom"
+     ],
+     "sequence": [
+      "c0078",
+      "na"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493728346
+     }
+    },
+    "3": {
+     "thread_id": "62x1o6",
+     "item_id": "dfqeoky",
+     "parent_id": "62x1o6",
+     "author": "pupmaster",
+     "created_utc": 1491152480,
+     "dt_parent_sec": 55089,
+     "dt_thread_sec": 55089,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "offering a 19-0 reversal as a good April Fools joke"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "19-0",
+      "retrieved_on": 1493730960
+     }
+    },
+    "4": {
+     "thread_id": "62x1o6",
+     "item_id": "dfqkitx",
+     "parent_id": "62x1o6",
+     "author": "Rise_up_Dirty_Birds",
+     "created_utc": 1491159966,
+     "dt_parent_sec": 62575,
+     "dt_thread_sec": 62575,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "saying the late April Fools trade got them"
+     ],
+     "sequence": [
+      "c0080"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Freeman's Running Coach",
+      "retrieved_on": 1493733788
+     }
+    },
+    "5": {
+     "thread_id": "62x1o6",
+     "item_id": "dfqub46",
+     "parent_id": "62x1o6",
+     "author": "Classic1990",
+     "created_utc": 1491172826,
+     "dt_parent_sec": 75435,
+     "dt_thread_sec": 75435,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "splitting between loyalty to Freeman and the Sherman upgrade"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493738755
+     }
+    }
+   },
+   "62x702": {
+    "0": {
+     "thread_id": "62x702",
+     "item_id": "62x702",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491099182,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "proposing a deflated ball above the 3-28 scoreboard"
+     ],
+     "sequence": [
+      "c0082"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494551569
+     }
+    }
+   },
+   "62zjjb": {
+    "0": {
+     "thread_id": "62zjjb",
+     "item_id": "62zjjb",
+     "parent_id": null,
+     "author": "AutoModerator",
+     "created_utc": 1491138600,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 1,
+      "link_flair_text": "Daily",
+      "retrieved_on": 1494552742
+     }
+    },
+    "1": {
+     "thread_id": "62zjjb",
+     "item_id": "dfq6v8a",
+     "parent_id": "62zjjb",
+     "author": "Dodirty91",
+     "created_utc": 1491140492,
+     "dt_parent_sec": 1892,
+     "dt_thread_sec": 1892,
+     "state": "coded",
+     "code_ids": [
+      "c0084"
+     ],
+     "labels": [
+      "answering the daily discussion with Rise Up"
+     ],
+     "sequence": [
+      "c0084"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "Here comes Debo",
+      "retrieved_on": 1493727193
+     }
+    },
+    "2": {
+     "thread_id": "62zjjb",
+     "item_id": "dfq7ejl",
+     "parent_id": "62zjjb",
+     "author": "PaulfordWorrilow55",
+     "created_utc": 1491141555,
+     "dt_parent_sec": 2955,
+     "dt_thread_sec": 2955,
+     "state": "coded",
+     "code_ids": [
+      "c0085"
+     ],
+     "labels": [
+      "renewing Saints rivalry talk"
+     ],
+     "sequence": [
+      "c0085"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493727452
+     }
+    },
+    "3": {
+     "thread_id": "62zjjb",
+     "item_id": "dfq8dbe",
+     "parent_id": "62zjjb",
+     "author": "Steffnov",
+     "created_utc": 1491143326,
+     "dt_parent_sec": 4726,
+     "dt_thread_sec": 4726,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "recruiting bored people to turn 3-28 into 18-1"
+     ],
+     "sequence": [
+      "c0083"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "author_flair_text": "That Dutch Guy",
+      "retrieved_on": 1493727916
+     }
+    },
+    "4": {
+     "thread_id": "62zjjb",
+     "item_id": "dfqd3bk",
+     "parent_id": "62zjjb",
+     "author": "yoshidawg93",
+     "created_utc": 1491150345,
+     "dt_parent_sec": 11745,
+     "dt_thread_sec": 11745,
+     "state": "coded",
+     "code_ids": [
+      "c0086",
+      "c0087"
+     ],
+     "labels": [
+      "celebrating baseball returning",
+      "wishing baseball fans luck except perhaps Nats fans"
+     ],
+     "sequence": [
+      "na",
+      "c0086",
+      "na",
+      "c0087"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493730194
+     }
+    },
+    "5": {
+     "thread_id": "62zjjb",
+     "item_id": "dfqepbp",
+     "parent_id": "62zjjb",
+     "author": "pupmaster",
+     "created_utc": 1491152507,
+     "dt_parent_sec": 13907,
+     "dt_thread_sec": 13907,
+     "state": "coded",
+     "code_ids": [
+      "c0088"
+     ],
+     "labels": [
+      "predicting 19-0"
+     ],
+     "sequence": [
+      "c0088"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "19-0",
+      "retrieved_on": 1493730970
+     }
+    },
+    "6": {
+     "thread_id": "62zjjb",
+     "item_id": "dfr4e3q",
+     "parent_id": "62zjjb",
+     "author": "[deleted]",
+     "created_utc": 1491185338,
+     "dt_parent_sec": 46738,
+     "dt_thread_sec": 46738,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "pointing the daily discussion to a canvas location"
+     ],
+     "sequence": [
+      "c0089"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -2,
+      "retrieved_on": 1493743651
+     }
+    }
+   },
+   "631a33": {
+    "0": {
+     "thread_id": "631a33",
+     "item_id": "631a33",
+     "parent_id": null,
+     "author": "theRealMyth",
+     "created_utc": 1491157571,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "telling the room to fix the canvas every five minutes"
+     ],
+     "sequence": [
+      "c0090"
+     ],
+     "coverage": 0.61,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1494553618
+     }
+    },
+    "1": {
+     "thread_id": "631a33",
+     "item_id": "dfqjwqh",
+     "parent_id": "631a33",
+     "author": "theRealMyth",
+     "created_utc": 1491159178,
+     "dt_parent_sec": 1607,
+     "dt_thread_sec": 1607,
+     "state": "coded",
+     "code_ids": [
+      "c0091",
+      "c0092"
+     ],
+     "labels": [
+      "enlisting with r/NYGiants to erase ELOE bullshit",
+      "calling the room to strike a blow for the Hood"
+     ],
+     "sequence": [
+      "na",
+      "c0091",
+      "na",
+      "c0092"
+     ],
+     "coverage": 0.45,
+     "meta": {
+      "edited": 1491162476,
+      "score": 5,
+      "retrieved_on": 1493733492
+     }
+    },
+    "1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrbgjm",
+     "parent_id": "dfqjwqh",
+     "author": "spekkke",
+     "created_utc": 1491194344,
+     "dt_parent_sec": 35166,
+     "dt_thread_sec": 36773,
+     "state": "coded",
+     "code_ids": [
+      "c0114"
+     ],
+     "labels": [
+      "saying the room cannot compete with Pats fans using bots"
+     ],
+     "sequence": [
+      "na",
+      "c0114"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493747101
+     }
+    },
+    "1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrd62a",
+     "parent_id": "dfrbgjm",
+     "author": "theRealMyth",
+     "created_utc": 1491197413,
+     "dt_parent_sec": 3069,
+     "dt_thread_sec": 39842,
+     "state": "coded",
+     "code_ids": [
+      "c0115"
+     ],
+     "labels": [
+      "accusing Pats fans of cheating online"
+     ],
+     "sequence": [
+      "c0115",
+      "na"
+     ],
+     "coverage": 0.47,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493748491
+     }
+    },
+    "2": {
+     "thread_id": "631a33",
+     "item_id": "dfqmqh0",
+     "parent_id": "631a33",
+     "author": "FalconsFever",
+     "created_utc": 1491162874,
+     "dt_parent_sec": 5303,
+     "dt_thread_sec": 5303,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "Falcons",
+      "retrieved_on": 1493734854
+     }
+    },
+    "2.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqpcdr",
+     "parent_id": "dfqmqh0",
+     "author": "theRealMyth",
+     "created_utc": 1491166461,
+     "dt_parent_sec": 3587,
+     "dt_thread_sec": 8890,
+     "state": "coded",
+     "code_ids": [
+      "c0094"
+     ],
+     "labels": [
+      "explaining the joke and asking the subreddit to step up before the final canvas"
+     ],
+     "sequence": [
+      "c0094"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493736119
+     }
+    },
+    "2.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqwpqd",
+     "parent_id": "dfqpcdr",
+     "author": "nevermindmenow3",
+     "created_utc": 1491175897,
+     "dt_parent_sec": 9436,
+     "dt_thread_sec": 18326,
+     "state": "coded",
+     "code_ids": [
+      "c0103"
+     ],
+     "labels": [
+      "telling the organizer not to visit the canvas"
+     ],
+     "sequence": [
+      "c0103"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493739937
+     }
+    },
+    "3": {
+     "thread_id": "631a33",
+     "item_id": "dfqnzu5",
+     "parent_id": "631a33",
+     "author": "TylerW_511",
+     "created_utc": 1491164564,
+     "dt_parent_sec": 6993,
+     "dt_thread_sec": 6993,
+     "state": "coded",
+     "code_ids": [
+      "c0093"
+     ],
+     "labels": [
+      "suggesting making a Falcons logo instead of fighting guarded 28-3"
+     ],
+     "sequence": [
+      "na",
+      "c0093"
+     ],
+     "coverage": 0.73,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493735462
+     }
+    },
+    "3.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqpdpn",
+     "parent_id": "dfqnzu5",
+     "author": "theRealMyth",
+     "created_utc": 1491166514,
+     "dt_parent_sec": 1950,
+     "dt_thread_sec": 8943,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493736144
+     }
+    },
+    "3.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqq1rh",
+     "parent_id": "dfqpdpn",
+     "author": "TylerW_511",
+     "created_utc": 1491167477,
+     "dt_parent_sec": 963,
+     "dt_thread_sec": 9906,
+     "state": "coded",
+     "code_ids": [
+      "c0096"
+     ],
+     "labels": [
+      "telling Falcons fans to make their own image instead of wasting time"
+     ],
+     "sequence": [
+      "na",
+      "c0096"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493736589
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqqg3x",
+     "parent_id": "dfqq1rh",
+     "author": "theRealMyth",
+     "created_utc": 1491168018,
+     "dt_parent_sec": 541,
+     "dt_thread_sec": 10447,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493736848
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqqjsw",
+     "parent_id": "dfqqg3x",
+     "author": "TylerW_511",
+     "created_utc": 1491168157,
+     "dt_parent_sec": 139,
+     "dt_thread_sec": 10586,
+     "state": "coded",
+     "code_ids": [
+      "c0097"
+     ],
+     "labels": [
+      "tracing vandalized pixels back to the Falcons subreddit"
+     ],
+     "sequence": [
+      "c0097"
+     ],
+     "coverage": 0.81,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493736915
+     }
+    },
+    "3.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqqzmj",
+     "parent_id": "dfqqjsw",
+     "author": "theRealMyth",
+     "created_utc": 1491168709,
+     "dt_parent_sec": 552,
+     "dt_thread_sec": 11138,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493737149
+     }
+    },
+    "3.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqsd5x",
+     "parent_id": "dfqqzmj",
+     "author": "TylerW_511",
+     "created_utc": 1491170444,
+     "dt_parent_sec": 1735,
+     "dt_thread_sec": 12873,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493737814
+     }
+    },
+    "3.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqsney",
+     "parent_id": "dfqsd5x",
+     "author": "theRealMyth",
+     "created_utc": 1491170804,
+     "dt_parent_sec": 360,
+     "dt_thread_sec": 13233,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493737952
+     }
+    },
+    "3.1.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqsqol",
+     "parent_id": "dfqsney",
+     "author": "TylerW_511",
+     "created_utc": 1491170911,
+     "dt_parent_sec": 107,
+     "dt_thread_sec": 13340,
+     "state": "coded",
+     "code_ids": [
+      "c0098"
+     ],
+     "labels": [
+      "saying the scoreboard fight has failed for over 24 hours"
+     ],
+     "sequence": [
+      "na",
+      "c0098"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1493737996
+     }
+    },
+    "3.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqsuyt",
+     "parent_id": "dfqsqol",
+     "author": "theRealMyth",
+     "created_utc": 1491171065,
+     "dt_parent_sec": 154,
+     "dt_thread_sec": 13494,
+     "state": "coded",
+     "code_ids": [
+      "c0099"
+     ],
+     "labels": [
+      "refusing to let the meme sit"
+     ],
+     "sequence": [
+      "c0099",
+      "na"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493738053
+     }
+    },
+    "4": {
+     "thread_id": "631a33",
+     "item_id": "dfqo202",
+     "parent_id": "631a33",
+     "author": "RommelMcDonald_",
+     "created_utc": 1491164644,
+     "dt_parent_sec": 7073,
+     "dt_thread_sec": 7073,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493735493
+     }
+    },
+    "4.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqpdf5",
+     "parent_id": "dfqo202",
+     "author": "theRealMyth",
+     "created_utc": 1491166500,
+     "dt_parent_sec": 1856,
+     "dt_thread_sec": 8929,
+     "state": "coded",
+     "code_ids": [
+      "c0095"
+     ],
+     "labels": [
+      "asking Pats fans to make a logo instead of a meme"
+     ],
+     "sequence": [
+      "c0095"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493736136
+     }
+    },
+    "4.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqswx2",
+     "parent_id": "dfqpdf5",
+     "author": "TylerW_511",
+     "created_utc": 1491171129,
+     "dt_parent_sec": 4629,
+     "dt_thread_sec": 13558,
+     "state": "coded",
+     "code_ids": [
+      "c0100"
+     ],
+     "labels": [
+      "recounting collaboration on the scoreboard"
+     ],
+     "sequence": [
+      "na",
+      "c0100"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "edited": 1491171430,
+      "score": 3,
+      "retrieved_on": 1493738080
+     }
+    },
+    "4.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqt13z",
+     "parent_id": "dfqswx2",
+     "author": "theRealMyth",
+     "created_utc": 1491171275,
+     "dt_parent_sec": 146,
+     "dt_thread_sec": 13704,
+     "state": "coded",
+     "code_ids": [
+      "c0101"
+     ],
+     "labels": [
+      "linking canvas collaboration to Survivor taunts"
+     ],
+     "sequence": [
+      "c0101",
+      "na"
+     ],
+     "coverage": 0.71,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493738137
+     }
+    },
+    "4.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqt7j9",
+     "parent_id": "dfqt13z",
+     "author": "TylerW_511",
+     "created_utc": 1491171484,
+     "dt_parent_sec": 209,
+     "dt_thread_sec": 13913,
+     "state": "coded",
+     "code_ids": [
+      "c0102"
+     ],
+     "labels": [
+      "saying everyone enjoyed the 28-3 idea"
+     ],
+     "sequence": [
+      "c0102",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493738222
+     }
+    },
+    "4.1.1.1.2": {
+     "thread_id": "631a33",
+     "item_id": "dfr7pmw",
+     "parent_id": "dfqt13z",
+     "author": "zillionaire_rockstar",
+     "created_utc": 1491189251,
+     "dt_parent_sec": 17976,
+     "dt_thread_sec": 31680,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493745248
+     }
+    },
+    "4.1.1.1.2.1": {
+     "thread_id": "631a33",
+     "item_id": "dfr8mwb",
+     "parent_id": "dfr7pmw",
+     "author": "theRealMyth",
+     "created_utc": 1491190396,
+     "dt_parent_sec": 1145,
+     "dt_thread_sec": 32825,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": -1,
+      "retrieved_on": 1493745732
+     }
+    },
+    "4.1.1.1.2.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfr8pmk",
+     "parent_id": "dfr8mwb",
+     "author": "zillionaire_rockstar",
+     "created_utc": 1491190499,
+     "dt_parent_sec": 103,
+     "dt_thread_sec": 32928,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493745769
+     }
+    },
+    "4.1.1.1.2.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfr8xxq",
+     "parent_id": "dfr8pmk",
+     "author": "theRealMyth",
+     "created_utc": 1491190806,
+     "dt_parent_sec": 307,
+     "dt_thread_sec": 33235,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493745885
+     }
+    },
+    "4.1.1.1.2.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrdddg",
+     "parent_id": "dfr8xxq",
+     "author": "zillionaire_rockstar",
+     "created_utc": 1491197815,
+     "dt_parent_sec": 7009,
+     "dt_thread_sec": 40244,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493748587
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrjweq",
+     "parent_id": "dfrdddg",
+     "author": "theRealMyth",
+     "created_utc": 1491215358,
+     "dt_parent_sec": 17543,
+     "dt_thread_sec": 57787,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751736
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrx3jy",
+     "parent_id": "dfrjweq",
+     "author": "Sou7h",
+     "created_utc": 1491235914,
+     "dt_parent_sec": 20556,
+     "dt_thread_sec": 78343,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493759487
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrx64l",
+     "parent_id": "dfrx3jy",
+     "author": "theRealMyth",
+     "created_utc": 1491236003,
+     "dt_parent_sec": 89,
+     "dt_thread_sec": 78432,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493759521
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrxc92",
+     "parent_id": "dfrx64l",
+     "author": "Sou7h",
+     "created_utc": 1491236206,
+     "dt_parent_sec": 203,
+     "dt_thread_sec": 78635,
+     "state": "coded",
+     "code_ids": [
+      "c0119"
+     ],
+     "labels": [
+      "calling the organizer's posts whining about pixel art"
+     ],
+     "sequence": [
+      "c0119"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493759628
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrxmkw",
+     "parent_id": "dfrxc92",
+     "author": "theRealMyth",
+     "created_utc": 1491236579,
+     "dt_parent_sec": 373,
+     "dt_thread_sec": 79008,
+     "state": "coded",
+     "code_ids": [
+      "c0120"
+     ],
+     "labels": [
+      "calling r/place a great offseason distraction"
+     ],
+     "sequence": [
+      "c0120",
+      "na"
+     ],
+     "coverage": 0.47,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493759776
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrxru3",
+     "parent_id": "dfrxmkw",
+     "author": "Sou7h",
+     "created_utc": 1491236768,
+     "dt_parent_sec": 189,
+     "dt_thread_sec": 79197,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493759877
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrxw86",
+     "parent_id": "dfrxru3",
+     "author": "theRealMyth",
+     "created_utc": 1491236921,
+     "dt_parent_sec": 153,
+     "dt_thread_sec": 79350,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493759935
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfry04i",
+     "parent_id": "dfrxw86",
+     "author": "Sou7h",
+     "created_utc": 1491237056,
+     "dt_parent_sec": 135,
+     "dt_thread_sec": 79485,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493759994
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrygwj",
+     "parent_id": "dfry04i",
+     "author": "theRealMyth",
+     "created_utc": 1491237620,
+     "dt_parent_sec": 564,
+     "dt_thread_sec": 80049,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493760239
+     }
+    },
+    "4.1.1.1.2.1.1.1.1.1.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrylbg",
+     "parent_id": "dfrygwj",
+     "author": "Sou7h",
+     "created_utc": 1491237768,
+     "dt_parent_sec": 148,
+     "dt_thread_sec": 80197,
+     "state": "coded",
+     "code_ids": [
+      "c0121"
+     ],
+     "labels": [
+      "calling out offers to destroy other work in return for Void help"
+     ],
+     "sequence": [
+      "c0121",
+      "na"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493760305
+     }
+    },
+    "5": {
+     "thread_id": "631a33",
+     "item_id": "dfqx46p",
+     "parent_id": "631a33",
+     "author": "JBJesus",
+     "created_utc": 1491176401,
+     "dt_parent_sec": 18830,
+     "dt_thread_sec": 18830,
+     "state": "coded",
+     "code_ids": [
+      "c0104"
+     ],
+     "labels": [
+      "reporting no progress after five hours"
+     ],
+     "sequence": [
+      "c0104"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493740131
+     }
+    },
+    "5.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqxbaf",
+     "parent_id": "dfqx46p",
+     "author": "theRealMyth",
+     "created_utc": 1491176627,
+     "dt_parent_sec": 226,
+     "dt_thread_sec": 19056,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493740226
+     }
+    },
+    "5.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqxid5",
+     "parent_id": "dfqxbaf",
+     "author": "JBJesus",
+     "created_utc": 1491176869,
+     "dt_parent_sec": 242,
+     "dt_thread_sec": 19298,
+     "state": "coded",
+     "code_ids": [
+      "c0105",
+      "c0106"
+     ],
+     "labels": [
+      "calling out a request to r/placenyancat",
+      "calling the anti-scoreboard effort childish"
+     ],
+     "sequence": [
+      "c0105",
+      "na",
+      "c0106"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493740322
+     }
+    },
+    "5.1.1.1": {
+     "thread_id": "631a33",
+     "item_id": "dfqxmfd",
+     "parent_id": "dfqxid5",
+     "author": "theRealMyth",
+     "created_utc": 1491177008,
+     "dt_parent_sec": 139,
+     "dt_thread_sec": 19437,
+     "state": "coded",
+     "code_ids": [
+      "c0107"
+     ],
+     "labels": [
+      "separating personal outreach from the subreddit and saying most do not care"
+     ],
+     "sequence": [
+      "na",
+      "c0107",
+      "na"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493740375
+     }
+    },
+    "5.1.2": {
+     "thread_id": "631a33",
+     "item_id": "dfr6e6h",
+     "parent_id": "dfqxbaf",
+     "author": "spekkke",
+     "created_utc": 1491187674,
+     "dt_parent_sec": 11047,
+     "dt_thread_sec": 30103,
+     "state": "coded",
+     "code_ids": [
+      "c0110",
+      "c0111"
+     ],
+     "labels": [
+      "saying the small Falcons subreddit cannot combat the Pats subreddit",
+      "predicting even 1,000 clickers cannot change it overnight"
+     ],
+     "sequence": [
+      "na",
+      "c0110",
+      "na",
+      "c0111",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "edited": 1491187886,
+      "score": 3,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493744613
+     }
+    },
+    "5.1.2.1": {
+     "thread_id": "631a33",
+     "item_id": "dfr6k6l",
+     "parent_id": "dfr6e6h",
+     "author": "theRealMyth",
+     "created_utc": 1491187866,
+     "dt_parent_sec": 192,
+     "dt_thread_sec": 30295,
+     "state": "coded",
+     "code_ids": [
+      "c0112",
+      "c0113"
+     ],
+     "labels": [
+      "calling r/place and Pats trolls a nice distraction",
+      "crediting collaborators while saying the Pats change it back quickly"
+     ],
+     "sequence": [
+      "c0112",
+      "na",
+      "c0113",
+      "na"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "edited": 1491188096,
+      "score": 1,
+      "retrieved_on": 1493744692
+     }
+    },
+    "6": {
+     "thread_id": "631a33",
+     "item_id": "dfr5bx8",
+     "parent_id": "631a33",
+     "author": "tfb1990",
+     "created_utc": 1491186443,
+     "dt_parent_sec": 28872,
+     "dt_thread_sec": 28872,
+     "state": "coded",
+     "code_ids": [
+      "c0108",
+      "c0109"
+     ],
+     "labels": [
+      "wanting the r/place nonsense to end",
+      "telling the organizer to stop caring so much"
+     ],
+     "sequence": [
+      "c0108",
+      "na",
+      "c0109",
+      "na"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493744103
+     }
+    },
+    "7": {
+     "thread_id": "631a33",
+     "item_id": "dfrq4pz",
+     "parent_id": "631a33",
+     "author": "flintrock70",
+     "created_utc": 1491227427,
+     "dt_parent_sec": 69856,
+     "dt_thread_sec": 69856,
+     "state": "coded",
+     "code_ids": [
+      "c0116"
+     ],
+     "labels": [
+      "asking whether to erase NE or the number"
+     ],
+     "sequence": [
+      "c0116"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493755173
+     }
+    },
+    "7.1": {
+     "thread_id": "631a33",
+     "item_id": "dfrthmq",
+     "parent_id": "dfrq4pz",
+     "author": "theRealMyth",
+     "created_utc": 1491231666,
+     "dt_parent_sec": 4239,
+     "dt_thread_sec": 74095,
+     "state": "coded",
+     "code_ids": [
+      "c0117",
+      "c0118"
+     ],
+     "labels": [
+      "saying bots and alt accounts prevent direct erasure",
+      "recounting helpers being erased and moving on"
+     ],
+     "sequence": [
+      "na",
+      "c0117",
+      "c0118",
+      "na"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493757508
+     }
+    }
+   },
+   "634a47": {
+    "0": {
+     "thread_id": "634a47",
+     "item_id": "634a47",
+     "parent_id": null,
+     "author": "Dippa99",
+     "created_utc": 1491189753,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0122",
+      "c0123"
+     ],
+     "labels": [
+      "asking for Manningface volunteers while mistyping r/place",
+      "asking birdbros to help"
+     ],
+     "sequence": [
+      "c0122",
+      "na",
+      "c0123"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "edited": 1491190550,
+      "score": 9,
+      "retrieved_on": 1494555176
+     }
+    },
+    "1": {
+     "thread_id": "634a47",
+     "item_id": "dfr8gca",
+     "parent_id": "634a47",
+     "author": "Ed_Thatch",
+     "created_utc": 1491190157,
+     "dt_parent_sec": 404,
+     "dt_thread_sec": 404,
+     "state": "coded",
+     "code_ids": [
+      "c0124"
+     ],
+     "labels": [
+      "prioritising destroying the score or making a Falcons logo"
+     ],
+     "sequence": [
+      "c0124"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493745639
+     }
+    },
+    "1.1": {
+     "thread_id": "634a47",
+     "item_id": "dfr8o87",
+     "parent_id": "dfr8gca",
+     "author": "Dippa99",
+     "created_utc": 1491190444,
+     "dt_parent_sec": 287,
+     "dt_thread_sec": 691,
+     "state": "coded",
+     "code_ids": [
+      "c0125"
+     ],
+     "labels": [
+      "staying with Manningface while gathering support"
+     ],
+     "sequence": [
+      "na",
+      "c0125"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493745750
+     }
+    },
+    "1.1.1": {
+     "thread_id": "634a47",
+     "item_id": "dfr8vs1",
+     "parent_id": "dfr8o87",
+     "author": "repetitionofalie",
+     "created_utc": 1491190725,
+     "dt_parent_sec": 281,
+     "dt_thread_sec": 972,
+     "state": "coded",
+     "code_ids": [
+      "c0128"
+     ],
+     "labels": [
+      "handing over r/ManningPlace to organize"
+     ],
+     "sequence": [
+      "c0128"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493745855
+     }
+    },
+    "1.1.2": {
+     "thread_id": "634a47",
+     "item_id": "dfr9065",
+     "parent_id": "dfr8o87",
+     "author": "Ed_Thatch",
+     "created_utc": 1491190891,
+     "dt_parent_sec": 447,
+     "dt_thread_sec": 1138,
+     "state": "coded",
+     "code_ids": [
+      "c0129"
+     ],
+     "labels": [
+      "proposing Manningface over 3-28 as creation instead of destruction"
+     ],
+     "sequence": [
+      "na",
+      "c0129"
+     ],
+     "coverage": 0.74,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745917
+     }
+    },
+    "2": {
+     "thread_id": "634a47",
+     "item_id": "dfr8tbj",
+     "parent_id": "634a47",
+     "author": "theRealMyth",
+     "created_utc": 1491190636,
+     "dt_parent_sec": 883,
+     "dt_thread_sec": 883,
+     "state": "coded",
+     "code_ids": [
+      "c0126",
+      "c0127"
+     ],
+     "labels": [
+      "refusing another meme until there is support to erase 3-28",
+      "listing Giants, Nyan Cat, r/ainbowRoad, and HOTS helpers"
+     ],
+     "sequence": [
+      "c0126",
+      "c0127",
+      "na"
+     ],
+     "coverage": 0.79,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493745819
+     }
+    },
+    "3": {
+     "thread_id": "634a47",
+     "item_id": "dfra3hg",
+     "parent_id": "634a47",
+     "author": "theRealMyth",
+     "created_utc": 1491192288,
+     "dt_parent_sec": 2535,
+     "dt_thread_sec": 2535,
+     "state": "coded",
+     "code_ids": [
+      "c0130"
+     ],
+     "labels": [
+      "sharing the Pats' method as possible help"
+     ],
+     "sequence": [
+      "c0130",
+      "na"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746443
+     }
+    }
+   },
+   "634x6u": {
+    "0": {
+     "thread_id": "634x6u",
+     "item_id": "634x6u",
+     "parent_id": null,
+     "author": "Mattkg33",
+     "created_utc": 1491198454,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0131"
+     ],
+     "labels": [
+      "calling the brotherhood to take down the 3-28 scoreboard"
+     ],
+     "sequence": [
+      "c0131"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494555494
+     }
+    },
+    "1": {
+     "thread_id": "634x6u",
+     "item_id": "dfreif8",
+     "parent_id": "634x6u",
+     "author": "YesWeCannabis32",
+     "created_utc": 1491200210,
+     "dt_parent_sec": 1756,
+     "dt_thread_sec": 1756,
+     "state": "coded",
+     "code_ids": [
+      "c0132"
+     ],
+     "labels": [
+      "redirecting the fight into the void"
+     ],
+     "sequence": [
+      "c0132"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493749137
+     }
+    },
+    "1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrm22b",
+     "parent_id": "dfreif8",
+     "author": "theRealMyth",
+     "created_utc": 1491220609,
+     "dt_parent_sec": 20399,
+     "dt_thread_sec": 22155,
+     "state": "coded",
+     "code_ids": [
+      "c0139"
+     ],
+     "labels": [
+      "crediting the Void with helping and seeking a new avenue"
+     ],
+     "sequence": [
+      "c0139"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493753096
+     }
+    },
+    "1.2": {
+     "thread_id": "634x6u",
+     "item_id": "dfrnuoa",
+     "parent_id": "dfreif8",
+     "author": "flintrock70",
+     "created_utc": 1491223963,
+     "dt_parent_sec": 23753,
+     "dt_thread_sec": 25509,
+     "state": "coded",
+     "code_ids": [
+      "c0140"
+     ],
+     "labels": [
+      "directing an orange push across the target"
+     ],
+     "sequence": [
+      "c0140"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493753970
+     }
+    },
+    "2": {
+     "thread_id": "634x6u",
+     "item_id": "dfrijo2",
+     "parent_id": "634x6u",
+     "author": "pmatdacat",
+     "created_utc": 1491211236,
+     "dt_parent_sec": 12782,
+     "dt_thread_sec": 12782,
+     "state": "coded",
+     "code_ids": [
+      "c0133"
+     ],
+     "labels": [
+      "vowing never to give up while repeating the 28-3 taunt"
+     ],
+     "sequence": [
+      "c0133",
+      "na"
+     ],
+     "coverage": 0.63,
+     "meta": {
+      "edited": 1491228084,
+      "score": -8,
+      "retrieved_on": 1493751081
+     }
+    },
+    "2.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfriuq7",
+     "parent_id": "dfrijo2",
+     "author": "Mortenjen",
+     "created_utc": 1491212198,
+     "dt_parent_sec": 962,
+     "dt_thread_sec": 13744,
+     "state": "coded",
+     "code_ids": [
+      "c0135"
+     ],
+     "labels": [
+      "calling the 28-3 taunt stupid in their sub"
+     ],
+     "sequence": [
+      "c0135"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "author_flair_text": "The Norwegian Falcon",
+      "retrieved_on": 1493751229
+     }
+    },
+    "2.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfriuyo",
+     "parent_id": "dfriuq7",
+     "author": "pmatdacat",
+     "created_utc": 1491212218,
+     "dt_parent_sec": 20,
+     "dt_thread_sec": 13764,
+     "state": "coded",
+     "code_ids": [
+      "c0136"
+     ],
+     "labels": [
+      "agreeing with the rebuke sarcastically"
+     ],
+     "sequence": [
+      "c0136"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -6,
+      "retrieved_on": 1493751232
+     }
+    },
+    "2.2": {
+     "thread_id": "634x6u",
+     "item_id": "dfrj05l",
+     "parent_id": "dfrijo2",
+     "author": "Droopy1592",
+     "created_utc": 1491212661,
+     "dt_parent_sec": 1425,
+     "dt_thread_sec": 14207,
+     "state": "coded",
+     "code_ids": [
+      "c0138"
+     ],
+     "labels": [
+      "almost laughing at the taunt"
+     ],
+     "sequence": [
+      "c0138"
+     ],
+     "coverage": 0.93,
+     "meta": {
+      "score": -5,
+      "retrieved_on": 1493751302
+     }
+    },
+    "2.3": {
+     "thread_id": "634x6u",
+     "item_id": "dfrq5d2",
+     "parent_id": "dfrijo2",
+     "author": "Leakee",
+     "created_utc": 1491227451,
+     "dt_parent_sec": 16215,
+     "dt_thread_sec": 28997,
+     "state": "coded",
+     "code_ids": [
+      "c0141"
+     ],
+     "labels": [
+      "telling the scoreboard taunter to get a life"
+     ],
+     "sequence": [
+      "c0141"
+     ],
+     "coverage": 0.91,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493755181
+     }
+    },
+    "2.3.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrqjtj",
+     "parent_id": "dfrq5d2",
+     "author": "pmatdacat",
+     "created_utc": 1491227999,
+     "dt_parent_sec": 548,
+     "dt_thread_sec": 29545,
+     "state": "coded",
+     "code_ids": [
+      "c0142"
+     ],
+     "labels": [
+      "answering with a football-team insult"
+     ],
+     "sequence": [
+      "c0142"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493755459
+     }
+    },
+    "2.3.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrqnrh",
+     "parent_id": "dfrqjtj",
+     "author": "Leakee",
+     "created_utc": 1491228152,
+     "dt_parent_sec": 153,
+     "dt_thread_sec": 29698,
+     "state": "coded",
+     "code_ids": [
+      "c0143"
+     ],
+     "labels": [
+      "calling the insult sad"
+     ],
+     "sequence": [
+      "c0143"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493755532
+     }
+    },
+    "2.3.1.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrr3br",
+     "parent_id": "dfrqnrh",
+     "author": "pmatdacat",
+     "created_utc": 1491228718,
+     "dt_parent_sec": 566,
+     "dt_thread_sec": 30264,
+     "state": "coded",
+     "code_ids": [
+      "c0145"
+     ],
+     "labels": [
+      "recounting and mocking a deleted personal insult"
+     ],
+     "sequence": [
+      "na",
+      "c0145"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493755792
+     }
+    },
+    "2.3.1.1.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrrq75",
+     "parent_id": "dfrr3br",
+     "author": "Leakee",
+     "created_utc": 1491229543,
+     "dt_parent_sec": 825,
+     "dt_thread_sec": 31089,
+     "state": "coded",
+     "code_ids": [
+      "c0146"
+     ],
+     "labels": [
+      "insisting the personal insult is true"
+     ],
+     "sequence": [
+      "c0146"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493756209
+     }
+    },
+    "2.3.1.1.1.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrrtb0",
+     "parent_id": "dfrrq75",
+     "author": "pmatdacat",
+     "created_utc": 1491229650,
+     "dt_parent_sec": 107,
+     "dt_thread_sec": 31196,
+     "state": "coded",
+     "code_ids": [
+      "c0147"
+     ],
+     "labels": [
+      "turning the social-life insult back on the speaker"
+     ],
+     "sequence": [
+      "c0147"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493756264
+     }
+    },
+    "2.3.1.1.1.1.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrrwtf",
+     "parent_id": "dfrrtb0",
+     "author": "Leakee",
+     "created_utc": 1491229773,
+     "dt_parent_sec": 123,
+     "dt_thread_sec": 31319,
+     "state": "coded",
+     "code_ids": [
+      "c0148"
+     ],
+     "labels": [
+      "announcing an exit from the petty argument"
+     ],
+     "sequence": [
+      "c0148"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493756313
+     }
+    },
+    "2.3.1.1.1.1.1.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrsgpb",
+     "parent_id": "dfrrwtf",
+     "author": "pmatdacat",
+     "created_utc": 1491230457,
+     "dt_parent_sec": 684,
+     "dt_thread_sec": 32003,
+     "state": "coded",
+     "code_ids": [
+      "c0149"
+     ],
+     "labels": [
+      "mocking the claimed exit from the argument"
+     ],
+     "sequence": [
+      "c0149"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493756580
+     }
+    },
+    "2.4": {
+     "thread_id": "634x6u",
+     "item_id": "dfrvntq",
+     "parent_id": "dfrijo2",
+     "author": "spekkke",
+     "created_utc": 1491234242,
+     "dt_parent_sec": 23006,
+     "dt_thread_sec": 35788,
+     "state": "coded",
+     "code_ids": [
+      "c0152"
+     ],
+     "labels": [
+      "calling the visitor's trolling pathetic while offering a private talk"
+     ],
+     "sequence": [
+      "na",
+      "c0152"
+     ],
+     "coverage": 0.77,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493758747
+     }
+    },
+    "2.4.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrvppm",
+     "parent_id": "dfrvntq",
+     "author": "pmatdacat",
+     "created_utc": 1491234300,
+     "dt_parent_sec": 58,
+     "dt_thread_sec": 35846,
+     "state": "coded",
+     "code_ids": [
+      "c0153"
+     ],
+     "labels": [
+      "calling the visit harmless trolling"
+     ],
+     "sequence": [
+      "c0153"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493758772
+     }
+    },
+    "2.4.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrw1ge",
+     "parent_id": "dfrvppm",
+     "author": "spekkke",
+     "created_utc": 1491234682,
+     "dt_parent_sec": 382,
+     "dt_thread_sec": 36228,
+     "state": "coded",
+     "code_ids": [
+      "c0155"
+     ],
+     "labels": [
+      "telling the visitor to do fun shit talk well"
+     ],
+     "sequence": [
+      "na",
+      "c0155"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493758929
+     }
+    },
+    "2.5": {
+     "thread_id": "634x6u",
+     "item_id": "dfs0cgd",
+     "parent_id": "dfrijo2",
+     "author": "EastAtlantaBirds",
+     "created_utc": 1491239837,
+     "dt_parent_sec": 28601,
+     "dt_thread_sec": 41383,
+     "state": "coded",
+     "code_ids": [
+      "c0157"
+     ],
+     "labels": [
+      "accusing the scoreboard side of scripting"
+     ],
+     "sequence": [
+      "c0157"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493761425
+     }
+    },
+    "2.5.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfs0gcm",
+     "parent_id": "dfs0cgd",
+     "author": "pmatdacat",
+     "created_utc": 1491239952,
+     "dt_parent_sec": 115,
+     "dt_thread_sec": 41498,
+     "state": "coded",
+     "code_ids": [
+      "c0158"
+     ],
+     "labels": [
+      "claiming pure manpower and skill through a Super Bowl taunt"
+     ],
+     "sequence": [
+      "c0158"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493761489
+     }
+    },
+    "2.5.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfs24xw",
+     "parent_id": "dfs0gcm",
+     "author": "EastAtlantaBirds",
+     "created_utc": 1491241826,
+     "dt_parent_sec": 1874,
+     "dt_thread_sec": 43372,
+     "state": "coded",
+     "code_ids": [
+      "c0159"
+     ],
+     "labels": [
+      "mocking the manpower claim"
+     ],
+     "sequence": [
+      "c0159"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493762923
+     }
+    },
+    "3": {
+     "thread_id": "634x6u",
+     "item_id": "dfrisb3",
+     "parent_id": "634x6u",
+     "author": "Mortenjen",
+     "created_utc": 1491211988,
+     "dt_parent_sec": 13534,
+     "dt_thread_sec": 13534,
+     "state": "coded",
+     "code_ids": [
+      "c0134"
+     ],
+     "labels": [
+      "proposing rainbowroad to destroy the score"
+     ],
+     "sequence": [
+      "c0134"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "The Norwegian Falcon",
+      "retrieved_on": 1493751197
+     }
+    },
+    "3.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrivtt",
+     "parent_id": "dfrisb3",
+     "author": "pmatdacat",
+     "created_utc": 1491212293,
+     "dt_parent_sec": 305,
+     "dt_thread_sec": 13839,
+     "state": "coded",
+     "code_ids": [
+      "c0137"
+     ],
+     "labels": [
+      "saying rainbowroad protects art and would add a border"
+     ],
+     "sequence": [
+      "c0137"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -7,
+      "retrieved_on": 1493751244
+     }
+    },
+    "4": {
+     "thread_id": "634x6u",
+     "item_id": "dfrr12k",
+     "parent_id": "634x6u",
+     "author": "falingodingo",
+     "created_utc": 1491228638,
+     "dt_parent_sec": 30184,
+     "dt_thread_sec": 30184,
+     "state": "coded",
+     "code_ids": [
+      "c0144"
+     ],
+     "labels": [
+      "proposing starting with ATL and turning it red"
+     ],
+     "sequence": [
+      "c0144"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493755761
+     }
+    },
+    "5": {
+     "thread_id": "634x6u",
+     "item_id": "dfrt6pr",
+     "parent_id": "634x6u",
+     "author": "friardon",
+     "created_utc": 1491231316,
+     "dt_parent_sec": 32862,
+     "dt_thread_sec": 32862,
+     "state": "coded",
+     "code_ids": [
+      "c0150"
+     ],
+     "labels": [
+      "calling for twenty people to blitz the board together"
+     ],
+     "sequence": [
+      "c0150"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493757208
+     }
+    },
+    "5.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrvjir",
+     "parent_id": "dfrt6pr",
+     "author": "spekkke",
+     "created_utc": 1491234107,
+     "dt_parent_sec": 2791,
+     "dt_thread_sec": 35653,
+     "state": "coded",
+     "code_ids": [
+      "c0151"
+     ],
+     "labels": [
+      "saying the scoreboard is held by Pats fans and bots"
+     ],
+     "sequence": [
+      "c0151"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493758689
+     }
+    },
+    "5.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrvv3h",
+     "parent_id": "dfrvjir",
+     "author": "friardon",
+     "created_utc": 1491234470,
+     "dt_parent_sec": 363,
+     "dt_thread_sec": 36016,
+     "state": "coded",
+     "code_ids": [
+      "c0154"
+     ],
+     "labels": [
+      "saying bots take the fun out of the attack"
+     ],
+     "sequence": [
+      "c0154"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493758844
+     }
+    },
+    "5.1.1.1": {
+     "thread_id": "634x6u",
+     "item_id": "dfrw7rb",
+     "parent_id": "dfrvv3h",
+     "author": "spekkke",
+     "created_utc": 1491234895,
+     "dt_parent_sec": 425,
+     "dt_thread_sec": 36441,
+     "state": "coded",
+     "code_ids": [
+      "c0156"
+     ],
+     "labels": [
+      "moving to other fun work away from bot moderation"
+     ],
+     "sequence": [
+      "c0156"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493759019
+     }
+    },
+    "6": {
+     "thread_id": "634x6u",
+     "item_id": "dfs4t4z",
+     "parent_id": "634x6u",
+     "author": "DrDilatory",
+     "created_utc": 1491244853,
+     "dt_parent_sec": 46399,
+     "dt_thread_sec": 46399,
+     "state": "coded",
+     "code_ids": [
+      "c0160",
+      "c0161"
+     ],
+     "labels": [
+      "repeating the 3-28 taunt after placement ended",
+      "asking whether the Falcons got a logo while leaving other logos represented"
+     ],
+     "sequence": [
+      "c0160",
+      "c0161"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493764249
+     }
+    }
+   },
+   "636cku": {
+    "0": {
+     "thread_id": "636cku",
+     "item_id": "636cku",
+     "parent_id": null,
+     "author": "theRealMyth",
+     "created_utc": 1491221383,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0162",
+      "c0163",
+      "c0164"
+     ],
+     "labels": [
+      "pointing to the Void as having manpower to erase the Pats meme",
+      "accusing the Pats of using alts bots and scripts",
+      "recruiting bored workers to help the Void move the meme"
+     ],
+     "sequence": [
+      "c0162",
+      "c0163",
+      "c0164"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556208
+     }
+    },
+    "1": {
+     "thread_id": "636cku",
+     "item_id": "dfrnrru",
+     "parent_id": "636cku",
+     "author": "Jobbe03",
+     "created_utc": 1491223825,
+     "dt_parent_sec": 2442,
+     "dt_thread_sec": 2442,
+     "state": "coded",
+     "code_ids": [
+      "c0165"
+     ],
+     "labels": [
+      "saying the r/place organisers have too much time"
+     ],
+     "sequence": [
+      "c0165"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 11,
+      "author_flair_text": "Resident Brooks Reed hater",
+      "retrieved_on": 1493753931
+     }
+    },
+    "1.1": {
+     "thread_id": "636cku",
+     "item_id": "dfrq06d",
+     "parent_id": "dfrnrru",
+     "author": "nevermindmenow3",
+     "created_utc": 1491227252,
+     "dt_parent_sec": 3427,
+     "dt_thread_sec": 5869,
+     "state": "coded",
+     "code_ids": [
+      "c0167"
+     ],
+     "labels": [
+      "agreeing they have way too much time"
+     ],
+     "sequence": [
+      "c0167"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493755111
+     }
+    },
+    "1.2": {
+     "thread_id": "636cku",
+     "item_id": "dfrqzym",
+     "parent_id": "dfrnrru",
+     "author": "theRealMyth",
+     "created_utc": 1491228599,
+     "dt_parent_sec": 4774,
+     "dt_thread_sec": 7216,
+     "state": "coded",
+     "code_ids": [
+      "c0168"
+     ],
+     "labels": [
+      "explaining r/place time as a slow rainy workday"
+     ],
+     "sequence": [
+      "c0168"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493755742
+     }
+    },
+    "2": {
+     "thread_id": "636cku",
+     "item_id": "dfrpxvv",
+     "parent_id": "636cku",
+     "author": "nevermindmenow3",
+     "created_utc": 1491227162,
+     "dt_parent_sec": 5779,
+     "dt_thread_sec": 5779,
+     "state": "coded",
+     "code_ids": [
+      "c0166"
+     ],
+     "labels": [
+      "mocking the organisers with football and childish taunts"
+     ],
+     "sequence": [
+      "c0166"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -5,
+      "retrieved_on": 1493755081
+     }
+    },
+    "3": {
+     "thread_id": "636cku",
+     "item_id": "dfrym4q",
+     "parent_id": "636cku",
+     "author": "gorrnan",
+     "created_utc": 1491237800,
+     "dt_parent_sec": 16417,
+     "dt_thread_sec": 16417,
+     "state": "coded",
+     "code_ids": [
+      "c0169"
+     ],
+     "labels": [
+      "saying the Buccaneers are helping the Pats and cursing the Falcons"
+     ],
+     "sequence": [
+      "c0169"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -3,
+      "retrieved_on": 1493760329
+     }
+    },
+    "3.1": {
+     "thread_id": "636cku",
+     "item_id": "dfryqo7",
+     "parent_id": "dfrym4q",
+     "author": "theRealMyth",
+     "created_utc": 1491237944,
+     "dt_parent_sec": 144,
+     "dt_thread_sec": 16561,
+     "state": "coded",
+     "code_ids": [
+      "c0170"
+     ],
+     "labels": [
+      "returning the curse and demanding flair"
+     ],
+     "sequence": [
+      "c0170"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493760393
+     }
+    },
+    "4": {
+     "thread_id": "636cku",
+     "item_id": "dfsosgo",
+     "parent_id": "636cku",
+     "author": "matt_panthers",
+     "created_utc": 1491268680,
+     "dt_parent_sec": 47297,
+     "dt_thread_sec": 47297,
+     "state": "coded",
+     "code_ids": [
+      "c0171"
+     ],
+     "labels": [
+      "claiming Panthers enjoyed contributing"
+     ],
+     "sequence": [
+      "c0171"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -1,
+      "retrieved_on": 1493774009
+     }
+    }
+   },
+   "637anh": {
+    "0": {
+     "thread_id": "637anh",
+     "item_id": "637anh",
+     "parent_id": null,
+     "author": "copperbacala",
+     "created_utc": 1491231536,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0172"
+     ],
+     "labels": [
+      "calling Bird Brethren to replace a Nazi flag with a no-fly zone or American flag"
+     ],
+     "sequence": [
+      "na",
+      "c0172"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556687
+     }
+    },
+    "1": {
+     "thread_id": "637anh",
+     "item_id": "dfrtpgh",
+     "parent_id": "637anh",
+     "author": "theRealMyth",
+     "created_utc": 1491231922,
+     "dt_parent_sec": 386,
+     "dt_thread_sec": 386,
+     "state": "coded",
+     "code_ids": [
+      "c0173"
+     ],
+     "labels": [
+      "making help conditional on erasing the Pats meme"
+     ],
+     "sequence": [
+      "c0173"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493757688
+     }
+    },
+    "1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfrvfqg",
+     "parent_id": "dfrtpgh",
+     "author": "spekkke",
+     "created_utc": 1491233985,
+     "dt_parent_sec": 2063,
+     "dt_thread_sec": 2449,
+     "state": "coded",
+     "code_ids": [
+      "c0174"
+     ],
+     "labels": [
+      "calling manual work futile without bot scripts"
+     ],
+     "sequence": [
+      "c0174"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493758638
+     }
+    },
+    "1.1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfrvtwf",
+     "parent_id": "dfrvfqg",
+     "author": "Steffnov",
+     "created_utc": 1491234432,
+     "dt_parent_sec": 447,
+     "dt_thread_sec": 2896,
+     "state": "coded",
+     "code_ids": [
+      "c0175"
+     ],
+     "labels": [
+      "saying there is no harm in trying"
+     ],
+     "sequence": [
+      "c0175"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "That Dutch Guy",
+      "retrieved_on": 1493758827
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfrw5av",
+     "parent_id": "dfrvtwf",
+     "author": "spekkke",
+     "created_utc": 1491234811,
+     "dt_parent_sec": 379,
+     "dt_thread_sec": 3275,
+     "state": "coded",
+     "code_ids": [
+      "c0176"
+     ],
+     "labels": [
+      "recounting blocks instantly replaced and moving elsewhere for fun"
+     ],
+     "sequence": [
+      "na",
+      "c0176"
+     ],
+     "coverage": 0.88,
+     "meta": {
+      "edited": 1491238573,
+      "score": 2,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493758980
+     }
+    },
+    "1.1.2": {
+     "thread_id": "637anh",
+     "item_id": "dfrwmh5",
+     "parent_id": "dfrvfqg",
+     "author": "theRealMyth",
+     "created_utc": 1491235363,
+     "dt_parent_sec": 1378,
+     "dt_thread_sec": 3827,
+     "state": "coded",
+     "code_ids": [
+      "c0177"
+     ],
+     "labels": [
+      "telling the bot skeptic to get on board or get out of the way"
+     ],
+     "sequence": [
+      "c0177"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493759233
+     }
+    },
+    "1.1.2.1": {
+     "thread_id": "637anh",
+     "item_id": "dfrxb40",
+     "parent_id": "dfrwmh5",
+     "author": "spekkke",
+     "created_utc": 1491236168,
+     "dt_parent_sec": 805,
+     "dt_thread_sec": 4632,
+     "state": "coded",
+     "code_ids": [
+      "c0178",
+      "c0179"
+     ],
+     "labels": [
+      "contributing where r/place still makes sense and is fun",
+      "waiting for a captcha before returning to the scoreboard"
+     ],
+     "sequence": [
+      "na",
+      "c0178",
+      "na",
+      "c0179"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493759610
+     }
+    },
+    "1.1.2.1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfrxl90",
+     "parent_id": "dfrxb40",
+     "author": "theRealMyth",
+     "created_utc": 1491236535,
+     "dt_parent_sec": 367,
+     "dt_thread_sec": 4999,
+     "state": "coded",
+     "code_ids": [
+      "c0180"
+     ],
+     "labels": [
+      "calling warnings about bots defeatist"
+     ],
+     "sequence": [
+      "na",
+      "c0180"
+     ],
+     "coverage": 0.32,
+     "meta": {
+      "score": -1,
+      "retrieved_on": 1493759752
+     }
+    },
+    "1.1.2.1.1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfrxo05",
+     "parent_id": "dfrxl90",
+     "author": "spekkke",
+     "created_utc": 1491236640,
+     "dt_parent_sec": 105,
+     "dt_thread_sec": 5104,
+     "state": "coded",
+     "code_ids": [
+      "c0181"
+     ],
+     "labels": [
+      "refusing to pretend fighting bots is not wasted time"
+     ],
+     "sequence": [
+      "c0181",
+      "na"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493759806
+     }
+    },
+    "1.1.2.1.1.1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfrxr4d",
+     "parent_id": "dfrxo05",
+     "author": "theRealMyth",
+     "created_utc": 1491236748,
+     "dt_parent_sec": 108,
+     "dt_thread_sec": 5212,
+     "state": "coded",
+     "code_ids": [
+      "c0182"
+     ],
+     "labels": [
+      "calling bot warnings fake generosity and refusal to help"
+     ],
+     "sequence": [
+      "c0182"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -2,
+      "retrieved_on": 1493759862
+     }
+    },
+    "1.1.2.1.1.1.1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfry4ja",
+     "parent_id": "dfrxr4d",
+     "author": "spekkke",
+     "created_utc": 1491237210,
+     "dt_parent_sec": 462,
+     "dt_thread_sec": 5674,
+     "state": "coded",
+     "code_ids": [
+      "c0183",
+      "c0184"
+     ],
+     "labels": [
+      "defending six hours of five-minute placements before quitting",
+      "warning future contributors about botting before they decide"
+     ],
+     "sequence": [
+      "na",
+      "c0183",
+      "na",
+      "c0184",
+      "na"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "edited": 1491237754,
+      "score": 4,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493760062
+     }
+    },
+    "1.1.2.1.1.1.1.1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfryil7",
+     "parent_id": "dfry4ja",
+     "author": "theRealMyth",
+     "created_utc": 1491237683,
+     "dt_parent_sec": 473,
+     "dt_thread_sec": 6147,
+     "state": "coded",
+     "code_ids": [
+      "c0185"
+     ],
+     "labels": [
+      "telling the bot warner to move on"
+     ],
+     "sequence": [
+      "c0185"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -2,
+      "retrieved_on": 1493760266
+     }
+    },
+    "1.1.2.1.1.1.1.1.1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfrz50s",
+     "parent_id": "dfryil7",
+     "author": "spekkke",
+     "created_utc": 1491238415,
+     "dt_parent_sec": 732,
+     "dt_thread_sec": 6879,
+     "state": "coded",
+     "code_ids": [
+      "c0186"
+     ],
+     "labels": [
+      "stopping against bots until a captcha arrives"
+     ],
+     "sequence": [
+      "c0186",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493760640
+     }
+    },
+    "1.1.2.1.1.1.1.1.1.1.1": {
+     "thread_id": "637anh",
+     "item_id": "dfrzrsi",
+     "parent_id": "dfrz50s",
+     "author": "theRealMyth",
+     "created_utc": 1491239188,
+     "dt_parent_sec": 773,
+     "dt_thread_sec": 7652,
+     "state": "coded",
+     "code_ids": [
+      "c0187"
+     ],
+     "labels": [
+      "dismissing warnings as unable to help naive users"
+     ],
+     "sequence": [
+      "c0187"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493761117
+     }
+    },
+    "1.1.2.1.1.1.1.1.1.1.2": {
+     "thread_id": "637anh",
+     "item_id": "dfs5627",
+     "parent_id": "dfrz50s",
+     "author": "[deleted]",
+     "created_utc": 1491245278,
+     "dt_parent_sec": 6863,
+     "dt_thread_sec": 13742,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493764437
+     }
+    },
+    "1.1.2.1.1.1.1.1.1.1.2.1": {
+     "thread_id": "637anh",
+     "item_id": "dfs5bl1",
+     "parent_id": "dfs5627",
+     "author": "spekkke",
+     "created_utc": 1491245447,
+     "dt_parent_sec": 169,
+     "dt_thread_sec": 13911,
+     "state": "coded",
+     "code_ids": [
+      "c0188"
+     ],
+     "labels": [
+      "saying learned botting would be used for sneaker sales not blocks"
+     ],
+     "sequence": [
+      "c0188"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "author_flair_text": "FINE ME LATER",
+      "retrieved_on": 1493764511
+     }
+    }
+   },
+   "637i8u": {
+    "0": {
+     "thread_id": "637i8u",
+     "item_id": "637i8u",
+     "parent_id": null,
+     "author": "capnShocker",
+     "created_utc": 1491233519,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0189"
+     ],
+     "labels": [
+      "calling for recoloring the Packers G into a Georgia G"
+     ],
+     "sequence": [
+      "na",
+      "c0189"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556795
+     }
+    },
+    "1": {
+     "thread_id": "637i8u",
+     "item_id": "dfrwpqf",
+     "parent_id": "637i8u",
+     "author": "theRealMyth",
+     "created_utc": 1491235464,
+     "dt_parent_sec": 1945,
+     "dt_thread_sec": 1945,
+     "state": "coded",
+     "code_ids": [
+      "c0190"
+     ],
+     "labels": [
+      "refusing the Georgia G request until the Pats meme is erased"
+     ],
+     "sequence": [
+      "c0190"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493759276
+     }
+    },
+    "1.1": {
+     "thread_id": "637i8u",
+     "item_id": "dfs12ro",
+     "parent_id": "dfrwpqf",
+     "author": "capnShocker",
+     "created_utc": 1491240658,
+     "dt_parent_sec": 5194,
+     "dt_thread_sec": 7139,
+     "state": "coded",
+     "code_ids": [
+      "c0192"
+     ],
+     "labels": [
+      "saying the Pats target is relentless"
+     ],
+     "sequence": [
+      "c0192"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493762396
+     }
+    },
+    "1.1.1": {
+     "thread_id": "637i8u",
+     "item_id": "dfs1m10",
+     "parent_id": "dfs12ro",
+     "author": "theRealMyth",
+     "created_utc": 1491241254,
+     "dt_parent_sec": 596,
+     "dt_thread_sec": 7735,
+     "state": "coded",
+     "code_ids": [
+      "c0193"
+     ],
+     "labels": [
+      "encouraging the fight against a large allied botting subreddit"
+     ],
+     "sequence": [
+      "c0193",
+      "na"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493762667
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "637i8u",
+     "item_id": "dfs3bpy",
+     "parent_id": "dfs1m10",
+     "author": "capnShocker",
+     "created_utc": 1491243142,
+     "dt_parent_sec": 1888,
+     "dt_thread_sec": 9623,
+     "state": "coded",
+     "code_ids": [
+      "c0194"
+     ],
+     "labels": [
+      "lamenting that Tech script kiddies did not counteract the alliances"
+     ],
+     "sequence": [
+      "c0194"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493763531
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "637i8u",
+     "item_id": "dfs46j8",
+     "parent_id": "dfs3bpy",
+     "author": "theRealMyth",
+     "created_utc": 1491244119,
+     "dt_parent_sec": 977,
+     "dt_thread_sec": 10600,
+     "state": "coded",
+     "code_ids": [
+      "c0196"
+     ],
+     "labels": [
+      "calling Pats fans despicable"
+     ],
+     "sequence": [
+      "c0196"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493763948
+     }
+    },
+    "2": {
+     "thread_id": "637i8u",
+     "item_id": "dfrz8l1",
+     "parent_id": "637i8u",
+     "author": "Hugo_5t1gl1tz",
+     "created_utc": 1491238527,
+     "dt_parent_sec": 5008,
+     "dt_thread_sec": 5008,
+     "state": "coded",
+     "code_ids": [
+      "c0191"
+     ],
+     "labels": [
+      "rejecting the request through college rivalry"
+     ],
+     "sequence": [
+      "c0191"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "author_flair_text": "Deion Sanders",
+      "retrieved_on": 1493760713
+     }
+    },
+    "2.1": {
+     "thread_id": "637i8u",
+     "item_id": "dfs3xjb",
+     "parent_id": "dfrz8l1",
+     "author": "capnShocker",
+     "created_utc": 1491243832,
+     "dt_parent_sec": 5305,
+     "dt_thread_sec": 10313,
+     "state": "coded",
+     "code_ids": [
+      "c0195"
+     ],
+     "labels": [
+      "calling out cross-subreddit familiarity during the rivalry"
+     ],
+     "sequence": [
+      "c0195"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493763825
+     }
+    },
+    "2.1.1": {
+     "thread_id": "637i8u",
+     "item_id": "dfs48jr",
+     "parent_id": "dfs3xjb",
+     "author": "Hugo_5t1gl1tz",
+     "created_utc": 1491244187,
+     "dt_parent_sec": 355,
+     "dt_thread_sec": 10668,
+     "state": "coded",
+     "code_ids": [
+      "c0197"
+     ],
+     "labels": [
+      "bringing r/cfb college rivalry into the request"
+     ],
+     "sequence": [
+      "c0197"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Deion Sanders",
+      "retrieved_on": 1493763974
+     }
+    },
+    "2.2": {
+     "thread_id": "637i8u",
+     "item_id": "dfswpfx",
+     "parent_id": "dfrz8l1",
+     "author": "link3945",
+     "created_utc": 1491278788,
+     "dt_parent_sec": 40261,
+     "dt_thread_sec": 45269,
+     "state": "coded",
+     "code_ids": [
+      "c0198"
+     ],
+     "labels": [
+      "objecting to the rival nickname"
+     ],
+     "sequence": [
+      "c0198"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493777926
+     }
+    },
+    "2.3": {
+     "thread_id": "637i8u",
+     "item_id": "dft9qzj",
+     "parent_id": "dfrz8l1",
+     "author": "k10taylor",
+     "created_utc": 1491309900,
+     "dt_parent_sec": 71373,
+     "dt_thread_sec": 76381,
+     "state": "coded",
+     "code_ids": [
+      "c0199"
+     ],
+     "labels": [
+      "asking Tech and UGA homers to support both"
+     ],
+     "sequence": [
+      "c0199"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Vic Beastly",
+      "retrieved_on": 1493784256
+     }
+    }
+   },
+   "63afop": {
+    "0": {
+     "thread_id": "63afop",
+     "item_id": "63afop",
+     "parent_id": null,
+     "author": "toms47",
+     "created_utc": 1491261342,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0200"
+     ],
+     "labels": [
+      "declaring the 28-3 score will remain forever"
+     ],
+     "sequence": [
+      "c0200"
+     ],
+     "coverage": 0.81,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494558259
+     }
+    },
+    "1": {
+     "thread_id": "63afop",
+     "item_id": "dfsis80",
+     "parent_id": "63afop",
+     "author": "Jobbe03",
+     "created_utc": 1491261371,
+     "dt_parent_sec": 29,
+     "dt_thread_sec": 29,
+     "state": "coded",
+     "code_ids": [
+      "c0201"
+     ],
+     "labels": [
+      "answering the lasting-score claim with a virginity taunt"
+     ],
+     "sequence": [
+      "c0201"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 9,
+      "author_flair_text": "Resident Brooks Reed hater",
+      "retrieved_on": 1493771004
+     }
+    },
+    "2": {
+     "thread_id": "63afop",
+     "item_id": "dfsiu7m",
+     "parent_id": "63afop",
+     "author": "RedditfalconFan822",
+     "created_utc": 1491261438,
+     "dt_parent_sec": 96,
+     "dt_thread_sec": 96,
+     "state": "coded",
+     "code_ids": [
+      "c0202"
+     ],
+     "labels": [
+      "rejecting the lasting-score taunt"
+     ],
+     "sequence": [
+      "c0202"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493771031
+     }
+    },
+    "3": {
+     "thread_id": "63afop",
+     "item_id": "dfsjkwm",
+     "parent_id": "63afop",
+     "author": "tb0x",
+     "created_utc": 1491262380,
+     "dt_parent_sec": 1038,
+     "dt_thread_sec": 1038,
+     "state": "coded",
+     "code_ids": [
+      "c0203"
+     ],
+     "labels": [
+      "answering 28-3 with other scores and saying it will die down"
+     ],
+     "sequence": [
+      "c0203"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Chicken nugget",
+      "retrieved_on": 1493771390
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1 @@
+r/mechanicalkeyboards — verdict: full. Saturation: the last new code appeared in step 3 and the counter-reading added none; new practice appeared through batch 19, while batches 20–23 added none. Blockers: none.

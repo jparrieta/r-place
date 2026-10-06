@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`tools/cite.py`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-cite-py.md">Markdown source</a></nav>
+<h1 id="toolscitepy"><code>tools/cite.py</code></h1>
+<p>The only way a quote enters an output. Every call is logged.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>Verbs: <code>--room &lt;sub&gt; --code &lt;id&gt;</code> (one concept's words, verbatim); <code>--theme &lt;tNN&gt; --n K</code>; <code>--tier 3rd|4th|dim --id ...</code> (quotes under a tier, across rooms); <code>--resolve "&lt;words&gt;"</code> (which concept holds these words); <code>--grep &lt;re&gt;</code>; <code>--context K</code> (the quote with its parent and K items either side). Each quote carries its citation <code>[sub/code_id]</code> with item, thread, hour, author and second-order theme. With <code>--n K</code>, K are drawn at random under <code>--seed</code> (default 0), never the first K by id.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Shipped in the analyst's <code>tools/</code>; the analyst runs it at every stage. It writes one line per call to <code>out/_cite_reads-NN.jsonl</code>.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Rule 3: "Quote what you cite, from the bottom tier, through <code>cite.py</code>." A quote is the participant's words, never the coder's label, the theme's label or a note; <code>--resolve</code> answers <code>REJECT</code> when only a label or note holds the words. The B1 close-check and the E1 audit resolve every exemplar with it. Rule 1: the log is an output.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/cite.py">tools/cite.py</a>.</p>
+<p>Checked against: tools/cite.py, CONTRACT-aggregator.md rules 1 and 3, stages/STAGE-E1-formalizing-audit.md.</p>
+</body>
+</html>

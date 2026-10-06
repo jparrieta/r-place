@@ -1,0 +1,1 @@
+r/TransFlagPlace — branch B; verdict: full. Thematic saturation: later slices mostly deepened established practices, with post-close storytelling and successor boards adding the final distinctions. Evidence saturation: Reddit practices are well represented; Discord, deleted/image content, and external outcomes limit attribution and durability claims. Blockers: none.

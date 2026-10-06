@@ -1,0 +1,42 @@
+# The aggregator
+
+*Kind of page: explanation.*
+
+The aggregator builds one model across all coded communities. It holds every coder's sealed work, reads every room, builds the third-order themes, fourth-order themes and aggregate dimensions, draws a model with arrows, and returns the model to every room to learn what it must change to explain that room. The forms of organizing are read off those changes. The agent that does this is called the analyst. This page describes the aggregator instrument (v38) from the top down. [How it was built](3-how-it-was-built.md) tells why each level exists, and the [file index](files/aggregator/README.md) lists every page.
+
+One idea runs through all of it. The analyst has a huge but limited working memory. Knowledge is stored in writing, and only decisions are made in context.
+
+## What governs
+
+Three documents hold at every stage, each for a different kind of rule. [The contract](files/aggregator/contract-aggregator.md) is the brief: the two questions, the tiers, the rules, the stages, the frame. [The standing instructions](files/aggregator/standing-instructions.md) say what the analyst holds, which tools it has, and how its memory and a leg work. [METHOD.md](files/aggregator/method.md) says what Gioia, Corley and Hamilton, Grodal, Anteby and Holm, Eisenhardt and Langley require, and which shelf of literature arrives when. [AGENT.md](files/aggregator/agent-md.md) is the analyst's first page, and [CLAUDE.md](files/aggregator/claude-md.md) is loaded into every session.
+
+The work itself is cut into [stage files](files/aggregator/stages-folder.md), handed over one at a time: five sections (reading, coding, model, adaptation and forming, formalizing), eighteen stages from A1 to E2. Stages exist so the analyst cannot read a later stage while answering an earlier one. Each stage is a series of steps, listed in [steps.tsv](files/aggregator/tool-steps-tsv.md) and parsed by [steps.py](files/aggregator/tool-steps-py.md), and each step is one or more legs. A leg is one fresh launch that starts from the files and ends at [done.sh](files/aggregator/tool-done-sh.md). Legs exist because a long session costs far more and compacts unseen. Fleet stages add [FLEET.md](files/aggregator/fleet.md), the return adds [the adaptation schema](files/aggregator/schema-adaptations.md), and the analyst writes its expectations first from [the prior template](files/aggregator/prior-template.md). The source files start at [../aggregator/instrument/CONTRACT-aggregator.md](../aggregator/instrument/CONTRACT-aggregator.md).
+
+## What it holds at the start
+
+Everything is built by script before the analyst arrives, so its first leg starts with reading.
+
+- **The coders' package.** Per room, the six files the coder wrote: [brief](files/aggregator/room-brief-md.md), [case](files/aggregator/room-case-md.md), [codes](files/aggregator/room-codes-jsonl.md), [themes](files/aggregator/room-themes-jsonl.md), [threads](files/aggregator/room-threads-jsonl.md) and [pointers](files/aggregator/room-pointers-jsonl.md). [FRAME.md](files/aggregator/package-frame-md.md) says which rooms the run holds, dated and hashed.
+- **The joined store.** The same material in one place per kind, so a question across rooms is one query: [its dictionary](files/aggregator/store-readme.md), [codes](files/aggregator/store-codes.md), [themes](files/aggregator/store-themes.md), [rooms](files/aggregator/store-rooms.md), and the ledgers of [transitions](files/aggregator/store-transitions.md) and [relations](files/aggregator/store-relations.md). [build_store.py](files/aggregator/tool-build-store-py.md) makes it.
+- **The forests.** Each room's coded threads as reply trees, [one file per room](files/aggregator/trees-room-md.md), with the whole set in [forest.jsonl](files/aggregator/package-forest-jsonl.md) and [its index](files/aggregator/package-tree-index-json.md).
+- **The canvas and the neighbours.** What each room did on the canvas: [the outcome fields](files/aggregator/package-case-facts-outcome.md), [the pixels by hour](files/aggregator/package-pixels-csv.md), [every atlas artwork](files/aggregator/package-canvas-artworks.md). And who touched whom, on the canvas or in the coders' record: [neighbours.jsonl](files/aggregator/store-neighbours.md), built by [build_neighbours.py](files/aggregator/tool-build-neighbours-py.md).
+
+## The verbs
+
+The analyst never opens a large file whole. It asks through verbs, and every call is logged, so what it says it read can be checked against the log. [mem.py](files/aggregator/tool-mem-py.md) serves the store and the analyst's own files one page at a time and is the only writer to the diary. [cite.py](files/aggregator/tool-cite-py.md) is the only way a quote enters an output. [validate.py](files/aggregator/tool-validate-py.md) opens and closes every leg, with one check per stage in [tools/checks/](files/aggregator/tool-checks.md). [saturation.py](files/aggregator/tool-saturation-py.md) holds the stopping rule: the random order at A1, when B1 may stop reading, and the report the PI decides on. [snap.py](files/aggregator/tool-snap-py.md) records what existed when, and [probe.py](files/aggregator/tool-probe-py.md) scores the recall probe. For the fleets and the return, [packets.py](files/aggregator/tool-packets-py.md) builds what a reader is served, [handoff.py](files/aggregator/tool-handoff-py.md) and [ingest.py](files/aggregator/tool-ingest-py.md) send the model back to the rooms and take in the answers, and [rebuild.py](files/aggregator/tool-rebuild-py.md) and [distance.py](files/aggregator/tool-distance-py.md) work over what came back. [NEW-VERBS.md](files/aggregator/tool-new-verbs-md.md) lists what the v38 pass added.
+
+## Its memory in out/
+
+[out/](files/aggregator/out-folder.md) is the only place the analyst writes, and it is the analyst's memory on disk. [The head](files/aggregator/out-head-md.md) is the narrative of the argument, read first at every leg. [The diary](files/aggregator/out-diary.md) is the running log under it. [The read logs](files/aggregator/out-read-logs.md) show what was read, [the snaps](files/aggregator/out-snap.md) what existed when, and [the probe](files/aggregator/out-probe.md) what the analyst could still recall at each close. Scripts regenerate [views](files/aggregator/out-views.md) and [wiki pages](files/aggregator/out-wiki.md) from what the analyst wrote, and [room notes](files/aggregator/out-rooms-notes.md) keep its first reading of each room. This is the virtual memory: the analyst pages in what a decision needs and writes back what it decided. [How the aggregator remembers](memory/aggregator.md) tells how the pieces work together.
+
+## The harness around it
+
+The analyst does not start or stop itself. The handler runs it through a harness. [build.sh](files/aggregator/harness-build-sh.md) lays out a run once. [step.sh](files/aggregator/harness-step-sh.md) opens a leg and [launch.sh](files/aggregator/harness-launch-sh.md) starts the session under [its settings](files/aggregator/claude-settings-json.md). [close.sh](files/aggregator/harness-close-sh.md) closes the leg, runs the probe and publishes a checkpoint. [dispatch.sh](files/aggregator/harness-dispatch-sh.md) and [the handler's fleet.py](files/aggregator/tool-fleet-py.md) send fleet work to readers named in [arm.json](files/aggregator/harness-arm-json.md). [pause.sh](files/aggregator/harness-pause-sh.md) and [interview.sh](files/aggregator/harness-interview-sh.md) stop the analyst or talk with a fork of it. [The protocol guard](files/aggregator/harness-protocol-guard-py.md), [the pre-tool guard](files/aggregator/harness-pretool-guard-py.md) and [the compaction hook](files/aggregator/harness-after-compact-sh.md) hold the rules the analyst might forget. [The run's READ-ME-FIRST](files/aggregator/harness-read-me-first.md) is the person's first page, and [the handlers page](6-the-handlers.md) tells how the handler works.
+
+## If you read only five files
+
+1. [The contract](files/aggregator/contract-aggregator.md): what the run is for and what holds at every stage.
+2. [The standing instructions](files/aggregator/standing-instructions.md): what the analyst holds, its tools, its memory and the leg.
+3. [The stage files](files/aggregator/stages-folder.md): the run in order.
+4. [mem.py](files/aggregator/tool-mem-py.md): how the analyst reads.
+5. [The head](files/aggregator/out-head-md.md): where the argument lives between legs.

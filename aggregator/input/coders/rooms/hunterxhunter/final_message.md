@@ -1,0 +1,1 @@
+r/hunterxhunter — branch B; verdict: full. Saturation: the main Reddit sequence is substantially whole, though removals and unseen Discord activity limit it. Later slices added new building, bargaining, character-art, and shared-history practices rather than only repetition. Blocked: none.

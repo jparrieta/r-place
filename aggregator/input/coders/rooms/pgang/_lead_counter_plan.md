@@ -1,0 +1,3 @@
+Reading before search: In its very short surviving window, the room keeps a shared template and territory available through the end of placement, then immediately turns to a joking protest over termination and a proposal for what the subreddit might do next.
+
+Competing account before search: These are disconnected last-minute link drops and jokes rather than a brief sequence of maintaining a shared target and then deciding what the room becomes after shutdown. If the reading is wrong, the corpus should contain people abandoning or dismissing the template or territory, or treating the subreddit as unrelated to r/place before placement ended.

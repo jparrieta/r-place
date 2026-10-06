@@ -1,0 +1,41 @@
+# timeline — r/wildhockey
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 16:37 — `dfnmr9s` is marked edited; it adds a long set of Wild player nicknames to an earlier thread.
+- d0 04-01 07:53 — `62rf7b` is marked edited; its visible text includes an updated r/place working location.
+- d0 04-01 12:55 — moderator `dfov9zh` says the earlier wake-up post will be kept instead of the duplicate.
+- d0 04-01 15:04 — `dfozmec` is marked edited; its visible text says the attempted r/place work no longer appears.
+- d0 04-01 15:29 — `62tdlv` is marked edited; its visible text says more sources and easier formatting were added.
+- d0 04-01 15:40 — `62tg4m` is marked edited; it is the April 1 Wild Gameday Update.
+- d0 04-01 15:41 — moderator `dfp16gh` adds a model-train gauge chart to the April Fools thread.
+- d0 04-01 15:54 — `dfp2hbk` is marked edited; its visible text corrects r/place coordinates after being ten pixels off.
+- d1 04-01 16:16 — `dfp2ovh` is marked edited; its visible text supplies a screenshot and nose coordinates for the r/place logo.
+- d1 04-01 17:00 — moderator `dfp4igg` directs an arena check-in post to the Game Thread.
+- d1 04-01 17:31 — `62u5ie` is marked edited; it is the Wild at Predators Game Thread with highlight links.
+- d1 04-01 17:35 — `dfp5x1j` is marked edited; its visible text recounts being fooled by the detailed Parise post.
+- d1 04-01 18:21 — `dfqil2j` is marked edited; its visible text says the writer will keep placing pixels while leaving.
+- d1 04-01 20:50 — moderator `dfpdugl` directs an announcer post to the PGT to reduce clutter.
+- d1 04-01 20:55 — moderator `dfpe1k2` directs a postgame image post to the PGT.
+- d1 04-01 21:19 — moderator `dfpezb2` directs a win-streak image post to the PGT to consolidate discussion.
+- d2 04-02 06:38 — `dfpyk1h` is marked edited; its visible text withdraws a logo start made without refreshing.
+- d1 04-02 13:03 — `62zilo` is marked edited; it is the April 2 Wild Gameday Update.
+- d2 04-02 17:42 — `dfqgm7f` is marked edited; its visible text reports Game of Thrones taking over the attempted logo space.
+- d2 04-02 17:53 — `dfqh4i6` is marked edited; its visible text adds concern that the suggested green-pattern area will be reclaimed.
+- d2 04-02 21:20 — `632bys` is marked edited; its visible text carries changing r/place locations, a Discord invite, scripts, an NYU agreement, and hockey-logo alliances.
+- d2 04-02 21:29 — `632dw3` is marked edited; it is the Avalanche at Wild Game Thread.
+- d2 04-02 21:40 — `dfqrdj0` is marked edited; its visible text records permission-seeking at SwedenOnPlace and the Predators choosing another spot.
+- d2 04-02 23:40 — moderator `dfqx4pu` directs an announcer post to the Game Thread.
+- d2 04-02 23:46 — `dfqxgb4` is marked edited; its visible text corrects the coordinate link for the logo's uppermost green pixel.
+- d2 04-03 00:02 — moderator `dfqy5uy` directs a highlight post to the Game Thread or Postgame Thread.
+- d2 04-03 00:07 — `dfqyedl` is marked edited; its visible text supplies the r/place overlay script and link.
+- d2 04-03 00:20 — `dfqz1m8` is marked edited; its visible text adds the Bulgaria flag as a possible location.
+- d2 04-03 00:28 — `dfqzf9u` is marked edited; its visible text says the overlay initially failed and then worked.
+- d2 04-03 01:05 — `dfr1912` is marked edited; its visible text adds that Wild fans were altering the speaker's logo.
+- d2 04-03 04:26 — `dfrb0nv` is marked edited; its visible text says the script was reinstalled after placing a wrong colour.
+- d2 04-03 13:30 — `dfrpa2q` is marked edited; its visible text first celebrates four Central logos and asks for help for the Red Wings, then adds that the Predators and Stars were lost.
+- d3 04-03 16:14 — `637rzl` is marked edited; it asks the room to pool chants for Wild games.
+- d3 04-03 17:04 — `dfrzndy` is marked edited; its visible text says r/place ended, declares that the Wild group won, and links a final frame and time lapse.
+- d3 04-03 17:19 — moderator `dfs0gh7` thanks `joshj5hawk` for the r/place script and multi-account diligence.
+- d3 04-03 18:12 — moderator-sticky `dfs3bd3` says there are already several posts about the Wild logo surviving r/place and directs the poster to the front page.
+- d3 04-03 20:25 — `dfsa3fi` is marked edited; its visible text says illness gave the writer time to follow stories they would otherwise miss.

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`handoff/` (RETURN-D.md, TASK-template.md, HANDLER.md)</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/handoff-templates.md">Markdown source</a></nav>
+<h1 id="handoff-return-dmd-task-templatemd-handlermd"><code>handoff/</code> (RETURN-D.md, TASK-template.md, HANDLER.md)</h1>
+<p>The templates stage D1 turns into the labelers' folder.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p><code>RETURN-D.md</code>: what a labeler returns, <code>model-D.md</code> (the room's case rewritten in the model's vocabulary, every claim carrying an element id or <code>[new: ...]</code> and a concept citation) and <code>adaptations.jsonl</code>, and how both are checked. <code>TASK-template.md</code>: one room's task and its reading order (RETURN-D.md, MODEL.md, LADDER.md, then case.md, themes.jsonl, codes.jsonl, brief.md, forest.md, placements.jsonl). <code>HANDLER.md</code>: the adaptation handler's brief: one fresh OpenAI Codex session per room, rooms by size ascending, returns into <code>DROPS/D/&lt;sub&gt;/</code>, <code>ingest.py D --check &lt;sub&gt;</code> after each room, <code>DROPS/D/DONE</code> at the end.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Written with the instrument. <code>build.sh</code> copies them to <code>DROPS/D1/handoff/</code>; at D1 <code>handoff.py</code> reads them and writes <code>out/handoff-D/</code>.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>FLEET §3: "<code>RETURN-D.md</code> carries this text verbatim" (the verdict's criterion). HANDLER.md keeps the handler outside the run: "you never read or write anything in it except this folder and the drop folder."</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/instrument/handoff/">aggregator/instrument/handoff/</a>.</p>
+<p>Checked against: handoff/HANDLER.md, handoff/RETURN-D.md, handoff/TASK-template.md, harness/build.sh, tools/handoff.py, FLEET.md §3.</p>
+</body>
+</html>

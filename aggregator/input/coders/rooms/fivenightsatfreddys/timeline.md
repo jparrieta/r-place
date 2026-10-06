@@ -1,0 +1,68 @@
+# timeline — r/fivenightsatfreddys
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 18:13 — `62my4v` opened a thread asking the subreddit to join r/place and make a subreddit-wide contribution.
+- d0 03-31 18:17 — `dfns7zd` was edited from reporting that mobile desktop would not allow drawing to “Edit nevermind.”
+- d0 03-31 18:17 — `dfns80e` carried an AutoModerator blacklist warning in reply to the mobile-drawing comment.
+- d0 03-31 18:22 — moderator `invaderzz` said at `dfnsi37` that individual Breadbear edits broke rule 8 and suggested an album.
+- d0 03-31 20:38 — `dfnzsz7` was edited and explained r/place's five-minute pixel mechanic while proposing a shared FNAF drawing.
+- d0 03-31 20:32 — moderator `invaderzz` said at `62nws0` that AutoModerator was malfunctioning, was being fixed, and was not the planned April Fools joke.
+- d0 03-31 20:47 — moderator `invaderzz` reiterated at `dfo08lx` that the AutoModerator failure was not the planned joke.
+- d0 03-31 21:43 — edited post `62oda9` linked r/place coordinates and changed its displayed target to spelling FNAF.
+- d0 03-31 23:08 — moderator `invaderzz` said at `dfo6s5x` that the room was “totally getting a teaser tomorrow,” even if it was another joke.
+~~- d0 03-31 23:35 — community-operated `AutoModerator` replied at `dfo7zqx` with `STATUS = ANGRY. FEELINGS = HURT.`~~ [struck by lead: “community-operated” is an interpretation of the operator, not a fact stated by the item]
+- d0 04-01 01:13 — edited post `62pmmc` said its author had overlooked an existing crying-child build because of screen brightness and would move a planned HandUnit build elsewhere.
+- d0 04-01 05:00 — edited post `62qqw0` struck through a claim that its author was leaving Freddit and ended by revealing an April Fools disguise.
+- d0 04-01 13:46 — `62ssi4` asked Freddit to put something on r/place and solicited suggestions; `dfoy31i` replied that the room already had something there.
+- d0 04-01 13:53 — edited post `62strn` began a running recap of Scott-related April Fools posts, including the claim that invaderzz was Scott's alternate account.
+- d0 04-01 14:15 — edited post `62sxyx` reported that the mail icon had swapped; `dfoxyjd` later described the change as an error while testing a new message-button look.
+- d0 04-01 14:31 — `dfoydwl` said the flair wording “scott = invaderzz” had been shortened because it was too long.
+- d0 04-01 14:40 — edited post `62t36r` consolidated the latest ScottGames source-code lines into one post.
+- d0 04-01 15:15 — edited comment `dfp01uv` identified the Horrifica finale as an April Fools joke and said it hurt the author to write.
+- d0 04-01 15:52 — edited comment `dfp1nd1` changed from requesting its author's flair text to saying the author was scared to see the reply.
+- d0 04-01 15:54 — edited post `62tj51` presented a fan opening based on the day's FNAF movie synopsis.
+- d1 04-01 17:26 — comic author `Bonfim_BR` confirmed at `dfp5lzf` that “Children - Part 161” was the joke page.
+- d1 04-01 17:35 — edited r/place post `62u6ny` asked members to defend and expand a FNaF monument against vandalization and the group above it.
+- d1 04-01 17:46 — `dfp6fub` was edited to identify the music character in the ABC's Highschool image as Do Ray Mi.
+- d1 04-01 17:51 — `dfp5zci` was edited to clarify that its complaint about Edd00Chan was sarcastic.
+- d1 04-01 17:53 — `dfp6q1n` was edited from “can't want” to “can't wait” while responding to the ABC's Highschool announcement.
+- d1 04-01 18:08 — edited moderator post `62ue13` tied the Officer Dunn story and subreddit theme to an AutoModerator cleanup, while denying that the moderators had done an April Fools joke.
+- d1 04-01 18:19 — edited comment `dfp7rpl` changed from enjoying the space theme to reporting that HandUnit had become “Spodermn.”
+- d1 04-01 18:23 — moderator `invaderzz` said at `dfp7yq3` that the displaced HandUnit element was being worked on.
+- d1 04-01 18:35 — edited comment `dfp8ftv` added a mock death notice attributed to lack of Portal 2.
+- d1 04-01 18:44 — edited post `62um3h` concerned Spanish-community claims that Scott might sue the creator of FNAFHS; its body was later deleted.
+- d1 04-01 19:59 — edited post `62v37r` reported being caught by the subreddit’s false-notification display and added that the battery changed when mail was present.
+- d1 04-01 21:24 — moderator `invaderzz` said at `dfpf71f` that Fredbear did the bite of 87; at 21:27 `dfpfapw` answered “no” when asked whether the moderator could be trusted.
+- d1 04-02 02:09 — edited comment `dfpqd0h` said r/place had just been brought to its author’s attention and weighed making an AnimMorshu image against vandalism.
+- d1 04-02 03:40 — edited comment `dfptl8h` thanked another user for changing its flair text.
+- d1 04-02 00:40 — edited comment `dfpmxns` successively reported “FNAF” changing into Five Nights at Waluigi's, Purple Guy being altered, and the first F melting.
+- d1 04-02 02:36 — edited post `62xawp` opened an r/place thread whose body was later removed; surviving replies called for defense and rebuilding.
+- d1 04-02 02:53 — edited post `62xds2` directed rebuilding left of Fredbear and credited `ThatBlobEbola-chan` for the plan.
+- d1 04-02 04:41 — moderator `invaderzz` opened `62xur8` to organize an r/fivenightsatfreddys build on r/place; its body was later removed.
+- d1 04-02 05:33 — edited comment `dfpwyoy` reported placing a pixel at 377,999 and seeing it immediately removed.
+- d1 04-02 08:12 — edited post `62ykqo` reported an agreement with r/Philippines to help rebuild the characters and added a Discord invite.
+- d1 04-02 10:07 — edited post `62ywy7` replaced a failed Discord invite with `CWbYHhe` for the rebuild chat.
+- d1 04-02 13:14 — edited comment `dfq64e7` described the team and production plans for Five Nights at Nutty's 2.
+- d1 04-02 13:26 — edited post `62zlz8` solicited SFM poster requests; its body was later deleted.
+- d1 04-02 14:43 — edited comment `dfq8wnv` corrected its author's mistaken AMA time conversion.
+- d1 04-02 15:14 — edited post `6305db` added a linked model for the proposed Springtrap build.
+- d1 04-02 15:24 — edited post `63077o` proposed a large Freddy build, supplied a changed r/place location, and invited builders to Discord for coordination.
+- d2 04-02 16:44 — `630nsl` asked for immediate help at the community's r/place art; `dfqelll` described continuing attacks despite earlier treaty attempts.
+- d2 04-02 17:14 — removed-body post `630uez` asked what r/place was; `dfqfirq` explained the five-minute pixel and group-art mechanics.
+- d2 04-02 17:27 — removed-body post `630x3r` retained a title saying the community monument was under constant attack.
+- d2 04-02 21:31 — edited post `632eb4` called for defending the old FNaF section from the black void while a new section was being built.
+- d2 04-02 22:18 — edited post `632och` later announced that the Animdude r/place project had been cancelled and redirected help to the older pixel art.
+- d2 04-02 23:11 — edited post `632yyl` had a removed body and a surviving title about a “half-life 3 lover.”
+- d2 04-02 23:13 — edited post `632zbq` had a deleted body and a surviving title asking whether the Bite Victim had been kidnapped.
+- d2 04-03 06:27 — edited comment `dfres9h` listed the parts of FNaF associated with 83 while disputing a lore theory.
+- d2 04-03 08:23 — edited comment `dfrhfll` argued that 83 marked the original murders and criticised how obscure the clues were.
+- d2 04-03 10:33 — `dfrjzp8` said r/philippines was warning Freddit about a raid on its r/place art and helping defend it.
+- d2 04-03 10:48 — `dfrkaw2` said a private message identified the Philippines flag, apologised for painting through it, and offered to restore it.
+- d2 04-03 13:40 — edited post `636tjn` asked Freddit to choose between Fredbear and Stage01 Golden Freddy, later reported Stage01 winning, and said its author did not use Discord.
+- d2 04-03 14:13 — moderator `invaderzz` said at `dfrr5q1` that anyone putting black pixels on Fredbear's hat would receive a one-week ban.
+- d2 04-03 14:22 — edited moderator comment `dfrrl8c` criticised the Stage01 alteration and later declared “FREDBEAR WINS.”
+- d2 04-03 15:26 — edited post `637h25` changed a plan to turn Mike into William into a plan to make Mike into Eggs Benedict.
+- d3 04-03 16:22 — edited post `637toi` asked for help replacing Purple Guy with the Sister Location version of Michael and reported that earlier participants had given up.
+- d3 04-03 22:22 — edited comment `dfsg6s3` credited r/splatoon, r/adventuretime, and r/philippines with being on Freddit's side.
+- d3 04-03 20:53 — edited post `639iiw` recounted Freddit's r/place builds, losses, relocation, alliances, and survival on the final canvas.

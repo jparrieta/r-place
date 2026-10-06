@@ -1,0 +1,1 @@
+r/madokamagica — Branch B; verdict: full. Thematic saturation: later evidence mostly repeated settled practices but added visitor reception and post-event remembrance. Record saturation: incomplete because Discord planning, removed bodies, and post-window continuation remain unseen. Blocked: nothing.

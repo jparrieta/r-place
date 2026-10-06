@@ -1,0 +1,1 @@
+r/glasgow — branch B; verdict: **full**. Thematic saturation: later slice added no new practice, though counter-reading found sustained coordination in an earlier Steamie. Evidence saturation: limited by split reading, deleted material, and unseen Discord activity. Nothing blocked completion.

@@ -1,0 +1,98 @@
+# lexicon — r/ainbowroad
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Rainbow Road — 62n66p
+- Rainbow Corridor — 62nmxd
+- NAP — dfnxpd3
+- Code of the Rainbow — 62nrlr
+- Rainbow Guard — dfof4ap
+- recognized_art — dfoirxd
+- the Spectrum — dfo1to6
+- Rainbow Repairers — dfo5o0k
+- Boring Blues — dfogelf
+- rogue shard — 62oy3r
+- whitewashing — 62oy3r
+- Rainbow Rift — 62peks
+- Graybow — 62pewq
+- followers of the source — dfonhjf
+- the source — dfonhjf
+- false rainbow — dfobqr7
+- bottom brigade — dfod5d2
+- Color Guard — 62pqvs
+- Rainbow Coalition — 62pqvs
+- anti-shard — dfoe63m
+- hivemind — dfojyvw
+- Operation Mario Kart — 62qapz
+- United Place-tions — 62qek8
+- portal-esque — 62qjsm
+- the weave — dfommc5
+- Cotton Candy Swirl — dfommhb
+- False Mindless Rainbow-wielding Zombies — dfom8zv
+- rainbowage — dfon76c
+- rainbros — 62r6oa
+- rainbowkins — 62r8i7
+- pot of gold — dfoovz9
+- renegade shard — dfoowif
+- Purple Nation — dfosic6
+- Black Plague — dfotbr6
+- main highway — 62rrbh
+- Rainbow highway — 62rvtm
+- true bow — dfou7at
+- FloydTheVoid — dfp4pa2
+- Rainbow Blast — dfoz3nf
+- Swedenmark — dfp7z1j
+- Operation Shard-Stopper — 62t6em
+- transroad — dfp01xj
+- shardbow — dfp0ehw
+- RavinousRanbow — 62t7ma
+- rainbow hivemind — dfp5nxx
+- Rainbow Heart — 62ucvm
+- Rhinebow — dfp8pit
+- rainbowians — 62vjxy
+- Keeble — 62vlau
+- rainbowroaders — 62v2ci
+- rogue faction — dfpgwtj
+- guardian tree — 62wbpy
+- temp-negotiations — dfphrrc
+- CancerousVomitingPinkBehemoth — 62wehl
+- Rainbow Loyalists — 62wpth
+- Rainbow Void — 62xk90
+- Rainbow Grid — 62xo85
+- Rainborder — 62y15l
+- Pinocchiwario — 62yrfd
+- roaders — 630bsf
+- Core Rainbow — 630bsf
+- the Rainbow's oldest ally — dfqq0iq
+- maintenance voice chat — dfqqayp
+- rainbow gridders — dfqieij
+- rainbow falseflaggers — dfqhu6m
+- OSU core — dfqr98w
+- Yoshi Kart — 632th1
+- blank canvas — dfqx79a
+- imperial overstretch — 6338r4
+- dead pixels — dfqz5ne
+- Vivi — dfqzbpc
+- Rainbowdoken Vivi — 6347b8
+- Rainbow Lisa — 634ef1
+- nVaders — 634fuv
+- project dead inside — 634lsi
+- grayscale rainbow — dfrdxuc
+- tendrils — dfreipm
+- tendies — dfreipm
+- Crimson Crusader — 6355fa
+- rainbow splashdown — 635fyp
+- basketweave — 635gob
+- false flag operation — 635p5k
+- connective veins — 635x3y
+- Rainbow spaghetti — 6362o1
+- The Arm — dfrn9qz
+- coop flag — dfroy6g
+- rainbow roader — dfrplph
+- Rainbow Blaster — 636t60
+- radial rainbow medallion — 636znb
+- rainbower — dfs5bkp
+- purity of the rainbow — dfs4sgb
+- RR4L — dfsmezq
+- MS Paint: Online Multiplayer — dfsgf32
+- ride or die RR fanatic — dftmdzu

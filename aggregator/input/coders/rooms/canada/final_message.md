@@ -1,0 +1,1 @@
+r/canada — branch B — verdict `full`. First-order saturation: the last new code appeared in batch 36; counter-reading added none. Thematic saturation: all nine themes appeared by batch 13, with later slices extending them. Blockers: none.

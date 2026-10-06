@@ -1,0 +1,1 @@
+r/quebec — branch B; verdict: `full`. Saturation: new practices continued through batch 04; batch 05 returned to ordinary discussion without new event practice. Record saturation is limited by removals, images, Discord, triage, and split-slice reading. Blockers: none.

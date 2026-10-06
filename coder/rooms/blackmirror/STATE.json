@@ -1,0 +1,96 @@
+{
+ "sub": "blackmirror",
+ "built": "2026-09-06T16:50:57Z",
+ "instrument": "v32",
+ "items_in_window": 659,
+ "items_by_people": 657,
+ "chars_by_people": 108020,
+ "threads": 108,
+ "preweek_items": 1688,
+ "brief": "present",
+ "expected_branch": "B",
+ "expected_slices": 2,
+ "stage": "verified",
+ "log": [],
+ "notes": [
+  {
+   "at": "2026-09-07T18:43:11.626445+00:00",
+   "note": "Brief written in /Users/arrieta/Documents/ChatGPT/place Yard/atlas_yard/rooms/blackmirror/brief; full transcript retained; paths relocated and source-side validation rerun. Queue rank 39"
+  },
+  {
+   "at": "2026-09-07T21:50:38Z",
+   "note": "Started native case lead using lead-calibration-v1; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-08T13:14:11.276157+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  },
+  {
+   "at": "2026-09-08T14:34:06.940693+00:00",
+   "note": "Restored compressed case-lead store for continuation."
+  },
+  {
+   "at": "2026-09-08T14:34:06Z",
+   "note": "Forking clean checkpoint collected-01 for coder repair: FAILED (2):\n  - E2  close_run lead: FAIL C5  every read out_of_scope thread of >=10 IN-WINDOW items carries a cited exclusion line\n  - E2  close_run fleet 02: FAIL C5  every read out_of_scope thread of >=10 IN-WINDOW items carries a cited exclusion line\n"
+  },
+  {
+   "at": "2026-09-08T14:34:09Z",
+   "note": "Fresh case lead fork created; rerunning the failed coder slice from its clean dispatch boundary."
+  },
+  {
+   "at": "2026-09-08T15:04:02Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Documents/Codex/rplace/atlas_yard/_lead_sessions/blackmirror-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-08T15:04:41.041007+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:29Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "agents": [
+  {
+   "role": "brief writer",
+   "model": "gpt-5.6-sol",
+   "agent_id": "01a07c8f-20aa-70a0-8b7e-4da1ffcadc58",
+   "started": "2026-09-07T15:49:10.088110+00:00",
+   "ended": "2026-09-07T16:11:05.418586+00:00",
+   "attempt": 1,
+   "transcript": "full platform transcript"
+  }
+ ],
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-07T18:43:11Z",
+ "brief_validation_digest": "0f4cf9be79d4aa80f144aca1f373fd8631049eb978b8cfd1cb40b6dfe8e95118",
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "coding_audit": "/Users/arrieta/Documents/Codex/rplace/atlas_yard/_lead_sessions/blackmirror-gpt56-calibration-v1/audit/scheduler-1788817994020780000",
+ "model": "gpt-5.6-sol",
+ "fingerprint": "e895de451c0cfc1d",
+ "branch": "B",
+ "slices": 2,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 62,
+ "themes": 8,
+ "verified_utc": "2026-09-08T15:04:02Z",
+ "finished": "2026-09-08T15:04:01.533496+00:00",
+ "carried": "run",
+ "reported_total_tokens": 11282982,
+ "lead_archive": "/Users/arrieta/Documents/Codex/rplace/atlas_yard/_lead_sessions/blackmirror-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "920355f5a755f101c139be1cccaac147096aca8fbd70836ce07eec8ab2d9c651",
+ "lead_archive_bytes": 111759348,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/blackmirror/run.tar.zst",
+ "run_archive_sha256": "bf8fdeebd136fec342f3857d3aef6a8b3a82bd1a6a55b7f00c19bb92bd70af01",
+ "run_archive_bytes": 993615,
+ "run_archived_utc": "2026-09-25T13:43:12.082374+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/blackmirror/materials.tar.zst",
+ "materials_archive_sha256": "089b9a6ba24687bbc43649a8fe6a008a003ffc7ca545cbf2e633006175eb81d7",
+ "materials_archive_bytes": 1157879,
+ "materials_archived_utc": "2026-09-25T13:51:43.557832+00:00"
+}

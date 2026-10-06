@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage D2. The return: the labelers in Codex, and the verdict fleet.</h1>
+<p>**The dispatch and the check leg of the return.** Two things run outside your session, and you are launched only when both have left their files. The adaptation handler runs</p>
+<p>one resumed original case lead per room, retaining its Codex history and matching files;</p>
+<p>the handoff task is delivered in a separate return folder alongside its original workspace,</p>
+<p>without another room&#x27;s private history, holding the room&#x27;s coder documents,</p>
+<p><code>MODEL.md</code>, <code>LADDER.md</code> and <code>VOCABULARY.json</code>, and returning <code>model-D.md</code> and</p>
+<p><code>adaptations.jsonl</code> into <code>DROPS/D/&lt;sub&gt;/</code> with <code>run.json</code> (the labeler&#x27;s model and session id);</p>
+<p>the handler runs <code>ingest.py --check &lt;sub&gt;</code> after each room, has the failing rule repaired, keeps</p>
+<p>returning rooms before any limit, marks a room <code>unreturned</code> in <code>DROPS/D/UNRETURNED.tsv</code> only</p>
+<p>when it cannot return it, and writes <code>DROPS/D/DONE</code> with the counts. The verdict fleet runs on</p>
+<p>the reader route, the dispatch sending packets to the routine readers, from <code>verdict-D/</code>, two</p>
+<p>readers per room, returning into <code>_fleet_raw/D2v/</code> and validated against <code>RETURN-D2v.md</code>, with</p>
+<p>reissues for what fails the schema; when reissues are exhausted <code>fleet.py</code> stops and the</p>
+<p>packets are rebuilt (FLEET §1). Neither reads your files. When both have returned, the harness</p>
+<p>runs <code>ingest.py D</code> and relaunches you for the check leg with one line: the labelers and the</p>
+<p>readers left their files.</p>
+<p>**Check leg. Model:** as <code>arm.json</code> sets. **Steps:** <code>D2a</code>, the check, once both the labelers and the verdict fleet have returned. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after each section of the check leg. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh D2 --pause</code> (STANDING §2).</p>
+<p>**Startup packet:** <code>_head.md</code>, this file, <code>SCHEMA-adaptations.md</code>,</p>
+<p><code>FLEET.md</code>, the last five diary entries, <code>validate.py --open D2</code>.</p>
+<p>**Reads allowed:** <code>ingest.py</code>&#x27;s report; <code>adaptations.jsonl</code> by count and by the views, never as</p>
+<p>a list; <code>verdicts-D.jsonl</code>; <code>_fleet_raw/D2v/</code>; <code>DROPS/D/UNRETURNED.tsv</code> and <code>DONE</code>; sampled</p>
+<p><code>model-D.md</code> files by query; <code>prior.md</code> §8. **Forbidden:** adjudicating a line (that is D3);</p>
+<p>editing a return; re-running a labeler or a reader; editing the task template or the criterion</p>
+<p>mid-return; <code>EXPECTATIONS.jsonl</code> against the ledger (that is stage E1).</p>
+<p>**Outputs:** <code>adaptations.jsonl</code> (ingested, validated); <code>verdicts-D.jsonl</code>; <code>ingest-D.md</code>;</p>
+<p><code>_views/rooms-x-elements.tsv</code> (generated); <code>rooms/&lt;sub&gt;/model-D.md</code> and <code>verdict-D</code> copied</p>
+<p>from the drops; <code>notes-D2.md</code>; the D2 counts in <code>RUN.json</code>; a <code>run_manifest.json</code> entry for</p>
+<p>the labelers&#x27; model and the readers&#x27; model; <code>handback-D2.md</code>.</p>
+<h2>1. What ingest did</h2>
+<p><code>ingest.py D</code> validated every line against SCHEMA §4: the schema (a known op, its required</p>
+<p>fields, no extra fields); the model version against <code>handoff-D/VERSION</code>, with element ids in</p>
+<p><code>VOCABULARY.json</code> and not withdrawn; concept ids in the room&#x27;s <code>codes.jsonl</code> and not retracted,</p>
+<p>transition ids in the room&#x27;s forest; <code>how</code> one sentence under forty words; portability (no</p>
+<p>census subreddit name and no proper name from the room&#x27;s lines in your <code>lexicon-A1.md</code> in <code>condition</code>,</p>
+<p><code>statement</code> or <code>how</code>, except in <code>relation</code>), a failing line kept with <code>portable: false</code> and a</p>
+<p>particular by construction; the end marker matching the line count and <code>model-D.md</code> ending</p>
+<p>with its marker. It lifted every source node through <code>assignments_final.jsonl</code> at the model</p>
+<p>version (second-order theme, third-order theme, fourth-order theme, dimension, <code>null</code> where</p>
+<p>never placed), computed <code>kind</code> and <code>portable</code>, stamped <code>origin</code> and <code>labeler_run</code>, checked that</p>
+<p>every adaptation&#x27;s element appears in the room model, and compiled the ledger; it reported per</p>
+<p>room what failed and why, and the handler reissued what it could. A room with nothing to adapt</p>
+<p>returned one <code>none</code> line with evidence for the fit; silence is a missing return, not a verdict.</p>
+<p>You read <code>ingest-D.md</code>: rooms returned, lines accepted, lines flagged by rule, rooms</p>
+<p><code>unreturned</code> with the handler&#x27;s reason, the distribution of lines per room and of ops, the share</p>
+<p>of <code>portable: false</code>, the share of <code>none</code> rooms, the share of unplaced source themes (the lines</p>
+<p>D3 may mint from). <code>ingest.py</code> wrote the counts of accepted, reissued and unreturned rooms into</p>
+<p><code>RUN.json</code> (SCHEMA §4), copied the room models and verdicts beside the notes, and marked every room</p>
+<p>it rejected unreturned; check the counts against the report, since stage D4 reconciles every room</p>
+<p>against them.</p>
+<h2>2. The verdicts</h2>
+<p><code>verdicts-D.jsonl</code>: one line per room from the fleet, with each reader&#x27;s themes, sentence and</p>
+<p><code>cannot_tell_under</code>, at <code>R = 2</code>; where the two readers differ, the room is listed for D3 to</p>
+<p>rule with the criterion in front of it, and the disagreement rate is reported, by verdict pair.</p>
+<p>Report <code>cannot-tell</code> by threshold (<code>coded-share</code>, <code>off-platform</code>, <code>both</code>), and check each against</p>
+<p>the room&#x27;s concept count and off-platform pointers on the line: one the numbers do not support is</p>
+<p>listed for D3 beside the splits. The figure bounds whether the written criterion decides a</p>
+<p>room, never whether the model is right (FLEET §2); say so where it appears. The labeler&#x27;s grade</p>
+<p>from <code>model-D.md</code> sits beside the verdict in the same file and never replaces it; the</p>
+<p>cross-table of grade against verdict is reported here and again at E1.</p>
+<h2>3. What you check by sampling</h2>
+<p>Ten <code>model-D.md</code> files drawn by seed, stratified on verdict: does the room model cite element</p>
+<p>ids where the model applies, <code>[absent &lt;id&gt;]</code> where it did not apply and was not needed, and</p>
+<p><code>[new: ...]</code> where no element covers what the room did; does every adaptation&#x27;s element appear in</p>
+<p>it; does every claim carry a concept citation from the room&#x27;s own codes; does the prose read as</p>
+<p>the room&#x27;s organizing in the model&#x27;s words rather than as a summary of the model; does the</p>
+<p>grade&#x27;s sentence name what the ledger names. Every quote you carry into <code>notes-D2.md</code> goes</p>
+<p>through <code>cite.py</code>. What you find goes in <code>notes-D2.md</code> and, where it is a defect in the task</p>
+<p>template, the return specification or the criterion, in <code>handback-D2.md</code> for the operator: none</p>
+<p>of the three is edited mid-return, and a labeler is never re-run by you.</p>
+<h2>4. Verbal before numeric</h2>
+<p>No verdict and no line is revisited because of a count. A share that looks bad (many</p>
+<p><code>does-not-compose</code>, many particulars, a thin ledger) is a fact to report; D3 assesses fixed-global fit, local adequacy and shared composition separately against</p>
+<p><code>prior.md</code>. Repeated corrections and a sparse ledger alone establish neither failure nor success.</p>
+<h2>Moments to log</h2>
+<p>The ingest report read, with the rule that flagged most lines; the <code>RUN.json</code> counts written;</p>
+<p>the verdict disagreement rate and the <code>cannot-tell</code> lines the numbers do not support; each</p>
+<p>sampled room model and what it showed; each defect sent to <code>handback-D2.md</code>.</p>
+<h2>Final message</h2>
+<p>Counts: rooms returned, reissued, unreturned, lines accepted and flagged by rule, lines per</p>
+<p>room, ops by kind, <code>none</code> rooms, non-portable share, unplaced-source share, verdicts by value</p>
+<p>with the disagreement rate, <code>cannot-tell</code> by threshold, the labeler grade against the fleet</p>
+<p>verdict as a cross-table, the labelers&#x27; model and the readers&#x27; model from the manifest. A return</p>
+<p>value.</p>
+<h2>Close</h2>
+<p><code>done.sh D2 --cut adaptations-in</code>: the adaptations and verdicts have arrived and nothing is yet</p>
+<p>ruled on them, the moment D3&#x27;s rulings are measured from; <code>gen_views.py</code> builds the element</p>
+<p>views and the wiki pages; <code>handback-D2.md</code>;</p>
+<p>the head; the closing diary line.</p></html>

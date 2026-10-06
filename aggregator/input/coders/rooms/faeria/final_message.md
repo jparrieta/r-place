@@ -1,0 +1,1 @@
+r/faeria — branch B; verdict: full. Thematic saturation: later material mostly repeated established practices, adding only mechanics questions and retrospective detail. Record saturation: the Reddit-side episode reaches closure, while Discord talks, deleted text, images, and edit times remain unavailable. Blockers: none.

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>The yard, file by file</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/yard-structure.md">Markdown source</a></nav>
+<h1 id="the-yard-file-by-file">The yard, file by file</h1>
+<p>The coding yard is where the coder instrument runs over the census: one folder per community, and around them the files of the agent that runs the yard, the <strong>scheduler</strong> (in this study, a coordinator in Codex). This repository ships the yard as it stands before a run: the scheduler's protocol, its tools, and the case lead's instrument, with the fourteen coded rooms of the Armenia and Dutch example and twelve of their case leads' saved sessions. It does not ship what a running yard writes about itself: the queues, the logs, the progress reports. Everything below links to <a href="../../../coder/README.md"><code>coder/</code></a>.</p>
+<h2 id="read-first-if-you-are-the-yards-handler">Read first, if you are the yard's handler</h2>
+<ol>
+<li><a href="../../../coder/handler/CONTRACT-scheduler.md">CONTRACT-scheduler.md</a>: the scheduler's contract. What it launches, in what order, what it checks, what it may never do, and what is the PI's to decide (<a href="contract-scheduler.html">page</a>).</li>
+<li><a href="../../../coder/README.md">README.md</a>: the yard itself, and how to run a room from any agent runner.</li>
+<li><a href="../../../coder/handler/CODING-SCHEDULER.md">CODING-SCHEDULER.md</a>: the coding queue's rules: smallest first by the 97-hour item count, 500 to 50,000 items, how many rooms at once and why, which model and effort.</li>
+<li><a href="../../../coder/handler/BRIEF-COORDINATOR.md">BRIEF-COORDINATOR.md</a>: the brief queue's runbook, step by step, with <a href="../../../coder/handler/BRIEF-WRITER-PROMPT.md">the brief writer's prompt</a>.</li>
+<li><a href="../../../coder/handler/CASE-LEAD-PROMPT.md">CASE-LEAD-PROMPT.md</a>: the message added for each case lead (<a href="case-lead-prompt.html">page</a>).</li>
+<li><a href="../../../coder/handler/REPAIR-QUEUE-RESTART-RULES.md">REPAIR-QUEUE-RESTART-RULES.md</a>: how to restart the repair queue, beginning by rebuilding "reality from the filesystem, not from stale memory".</li>
+<li><a href="../../../coder/handler/CHECKPOINTS.md">CHECKPOINTS.md</a> and <a href="../../../coder/handler/VERIFIED-RUN-ARCHIVES.md">VERIFIED-RUN-ARCHIVES.md</a>: saving, resuming and forking a case lead (<a href="checkpoints.html">page</a>), and packing and restoring a verified room.</li>
+</ol>
+<h2 id="what-ships">What ships</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Part</th>
+<th>What it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>_instrument/v32/</code></td>
+<td>the case lead's instrument: the contracts for the coder, the case lead, the fleet coder and the brief writer, and the tools every room copies; <code>rationale/</code> says why v31 and v32 were made</td>
+</tr>
+<tr class="even">
+<td><code>_tools/</code></td>
+<td>the scheduler's scripts; <a href="index.html">the coder's files</a> has a page for each</td>
+</tr>
+<tr class="odd">
+<td><code>rooms/&lt;sub&gt;/</code></td>
+<td>fourteen rooms as the yard left them once verified: <code>ROOM.md</code>, <code>STATE.json</code>, <code>run.tar.zst</code>, <code>materials.tar.zst</code>, <code>validation/</code> (<a href="room-md.html">ROOM.md</a>, <a href="state-json.html">STATE.json</a>): armenia, PlaceNL, thenetherlands, cirkeltrek, Goodboye, greece, sweden, norge, norway, czech, blackmirror, indonesia, mindcrack, placehearts</td>
+</tr>
+<tr class="even">
+<td><code>_lead_sessions/</code></td>
+<td>the saved case lead of twelve of them (not Goodboye, not norway), one <code>.tar.zst</code> each, split into parts over 95 MB; restore and talk to one as <a href="../../memory/coder-lead.html">the case lead's memory page</a> describes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-to-fill-it">How to fill it</h2>
+<ol>
+<li>Get the raw record of a community: its raw24 file (see <a href="../../data-and-collection.html">data and collection</a>).</li>
+<li>Build its room, from your own copy of <code>coder/</code>: <code>python3 _tools/build_room.py --sub &lt;sub&gt; --raw &lt;raw24 folder&gt;/&lt;sub&gt;.jsonl --out rooms/&lt;sub&gt; --instrument _instrument/v32</code> (add <code>--brief</code> to bring an existing brief). It writes <code>rooms/&lt;sub&gt;/</code> with <code>ROOM.md</code>, the record cut to the window, the week before, and <code>STATE.json</code>.</li>
+<li>Run it: by hand, with the commands in the room's <code>ROOM.md</code>; or through the queues, as the scheduler's contract describes.</li>
+</ol>
+<h2 id="what-a-running-yard-adds">What a running yard adds</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Part</th>
+<th>Written by</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>rooms/&lt;sub&gt;/run/</code>, <code>brief/</code>, <code>snapshots/</code>, <code>forks/</code>, then <code>run.tar.zst</code>, <code>materials.tar.zst</code>, <code>validation/</code></td>
+<td>the agents, <code>room.py</code>, the archive tools</td>
+</tr>
+<tr class="even">
+<td><code>STATUS.tsv</code>, <code>PRIOR-RUNS.tsv</code></td>
+<td><code>status.py</code>, the scheduler</td>
+</tr>
+<tr class="odd">
+<td><code>_coding_queue/</code> (state, events, logs), <code>CODING-PROGRESS.md</code> and <code>.json</code></td>
+<td><code>coding_queue.py</code>, <code>update_coding_progress.py</code></td>
+</tr>
+<tr class="even">
+<td><code>BRIEF-QUEUE.json</code> and <code>.tsv</code>, <code>BRIEF-RUN-LOG.jsonl</code>, <code>BRIEF-PROGRESS.md</code></td>
+<td><code>brief_queue.py</code></td>
+</tr>
+<tr class="odd">
+<td><code>_repair_queue/</code></td>
+<td><code>repair_queue.py</code></td>
+</tr>
+<tr class="even">
+<td><code>_lead_sessions/</code></td>
+<td><code>codex_lead.py</code>, <code>lead_archive.py</code></td>
+</tr>
+<tr class="odd">
+<td>a handover, a change log, a log of what has been shown to work</td>
+<td>the handler</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-the-scheduler-remembers-and-saves-sessions">How the scheduler remembers, and saves sessions</h2>
+<p>The scheduler keeps nothing in its conversation it cannot rebuild. Its state is in the queue files, with every event logged beside them, and a restart begins by rebuilding the state from the files on disk (the repair rules). Each room's state is in its <code>STATE.json</code>, rewritten from the room's files; <code>STATUS.tsv</code> is rebuilt from all of them. Only the case lead keeps a saved conversation: <code>codex_lead.py</code> checkpoints it after every reply, and <code>lead_archive.py</code> packs it when the room is done (<a href="../../memory/coder-lead.html">how the case lead remembers</a>).</p>
+<h2 id="running-a-yard-elsewhere">Running a yard elsewhere</h2>
+<p>The yard runs from any machine with <code>python3</code>, <code>zstd</code> and Codex. Three scripts name folders on the author's machine and must be pointed at yours before use:</p>
+<ul>
+<li><code>_tools/coding_queue.py</code>, line 16, <code>LEGACY_TOOLS</code>: the earlier coder tools;</li>
+<li><code>_tools/sync_briefs_to_source.py</code>, lines 15 and 16, <code>STAGE</code> and <code>SOURCE</code>: where finished briefs are copied;</li>
+<li><code>_tools/update_coding_progress.py</code>, line 42, <code>outputs</code>: where the progress report is also written.</li>
+</ul>
+</body>
+</html>

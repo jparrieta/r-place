@@ -1,0 +1,15 @@
+# Lead running notes
+
+- Gate: branch B; threshold 500; items_in_window 1365; chars_by_people 196870.
+- The empty pre-week briefing and all 219 opening-post entries were read before the gate. The briefing provides no supported pre-event vernacular or practice.
+- Three slices were planned in corpus order. Batch 01 spans `62oga4` through `62wza5` (495 in-window items).
+- Carry forward the calibration requirements for practice-based incremental consolidation, evidence-qualified within-case claims, a pre-stated and consequential counter-reading, individually backticked citations, and the complete-record check.
+- Batch 01 collected: 81/81 threads coded, 81 codes, 15 pointers. Reviewed its 10 timeline and 11 lexicon additions; none was a reading requiring a strike. Step-5 carry-forward is recorded in `out/ledger.md`.
+- Before batch 02: retain the unresolved question of how the room's peace language related to decisions over borders and protected artwork, and treat hidden Discord/strawpoll coordination as a specific evidence limit rather than an explanation.
+- Batch 02 collected: 70/70 threads disposed, 69 coded and one out of scope; 69 codes and 24 pointers. Reviewed its 4 timeline and 11 lexicon additions; none required striking. Step-5 carry-forward is recorded in `out/ledger.md`.
+- Before batch 03: follow the unresolved placement after the smaller core, the reported Discord coordination, and whether later talk sustains, qualifies, or merely follows the slice's defense of the spiral as community artwork.
+- Batch 03 collected: 68/68 threads disposed, 67 coded and one out of scope; 67 codes and 16 pointers. Reviewed its 13 timeline facts plus section header and 23 lexicon additions; none required striking.
+- Fleet checkpoint complete. All three slices are collected; do not consolidate or begin steps 4 and 5 until the scheduler resumes the lead. Batch 03 leaves final-cleanup and successor-canvas activity unresolved. Carry the mixed-time edited body of `63cz6v` and the `/r/thefinalcleanup` versus `/r/thefinalclean` normalization anomaly into the final notes and saturation account.
+- Step 4: incrementally grouped slice 01, then extended/opened themes with slices 02 and 03. Fourteen practices cover all 217 live codes. The consequential regrouping split immediate rallying from shrinking/rebuilding, diplomacy from deciding which artwork deserves room, and direct pixel work from setting rules.
+- Before counter-search, one-sentence reading: SquareSpiral grew through recruitment and expansion, then repeatedly narrowed toward defending and rebuilding a bounded artwork through negotiated coexistence, while many placers and off-platform decisions remained outside centralized control.
+- Competing account and failure condition stated before search: crises may instead have converted the room's peace language into sustained conquest. If so, the record should contain post-crisis calls to “spiral away,” conquer, reject alliances, or overrun art that persist rather than being limited, answered, or withdrawn.

@@ -1,0 +1,79 @@
+{
+ "sub": "norge",
+ "built": "2026-09-06T16:51:41Z",
+ "instrument": "v32",
+ "items_in_window": 2919,
+ "items_by_people": 2870,
+ "chars_by_people": 456241,
+ "threads": 276,
+ "preweek_items": 4229,
+ "brief": "present",
+ "expected_branch": "B",
+ "expected_slices": 6,
+ "stage": "verified",
+ "log": [],
+ "notes": [
+  {
+   "at": "2026-09-08T15:30:41.254018+00:00",
+   "note": "Brief written in /Users/arrieta/Documents/ChatGPT/place Yard/atlas_yard/rooms/norge/brief; full transcript retained; paths relocated and source-side validation rerun. Queue rank 226"
+  },
+  {
+   "at": "2026-09-16T09:52:35Z",
+   "note": "Started native case lead using lead-calibration-v2; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-16T10:54:47Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/norge-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-16T10:55:54.399028+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:46Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "agents": [
+  {
+   "role": "brief writer",
+   "model": "gpt-5.6-sol",
+   "agent_id": "01a0818d-c297-7693-ae7d-8a44b2c275a1",
+   "started": "2026-09-08T15:05:46.804508+00:00",
+   "ended": "2026-09-08T15:30:39.262042+00:00",
+   "attempt": 1,
+   "transcript": "full platform transcript"
+  }
+ ],
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-08T15:30:41Z",
+ "brief_validation_digest": "d0fed737c3d55ab2f90c4f5bab70f4caea3afa892fbf539b7ff92ac5c5d1e79d",
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "model": "gpt-5.6-sol",
+ "fingerprint": "5873e1e29cdab0cb",
+ "branch": "B",
+ "slices": 7,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 302,
+ "themes": 14,
+ "verified_utc": "2026-09-16T10:54:47Z",
+ "finished": "2026-09-16T10:54:45.678442+00:00",
+ "carried": "run",
+ "reported_total_tokens": 24576873,
+ "lead_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/norge-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "83a6833b98a9900cd645a1a1d84a6976816d4dfab38fa07741930a2281bc7f5e",
+ "lead_archive_bytes": 101060432,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/norge/run.tar.zst",
+ "run_archive_sha256": "a38a6be2292fb974b12f45275ee493efce8bfbdda7e1ba6e123a8c2570fe09ed",
+ "run_archive_bytes": 2715464,
+ "run_archived_utc": "2026-09-25T13:40:39.274900+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/norge/materials.tar.zst",
+ "materials_archive_sha256": "399536ff4142c283d0373234ee0cba6b4e4f7cadc43d9a8ea4d80ae977a93873",
+ "materials_archive_bytes": 2692865,
+ "materials_archived_utc": "2026-09-25T13:50:27.897392+00:00"
+}

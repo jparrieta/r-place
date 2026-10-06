@@ -1,0 +1,1 @@
+r/radiohead — branch B; verdict: full. Practice saturation: later slices repeated established practices, with no new event practice after the credit theme appeared. Record saturation: Reddit evidence is strong, but deleted media, triaged concert threads, and unseen Discord deliberation limit completeness. Blockers: none.

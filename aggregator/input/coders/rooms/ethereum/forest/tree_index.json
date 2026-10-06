@@ -1,0 +1,4354 @@
+{
+ "ethereum": {
+  "counts": {
+   "threads_given": 45,
+   "threads_with_codes": 45,
+   "items": 470,
+   "coded": 149,
+   "bridge": 32,
+   "removed": 0,
+   "dropped": 289,
+   "orphans": 0,
+   "na_stretches": 53,
+   "coverage_of_coded_items": 0.79,
+   "threads_total_in_window": 346
+  },
+  "index": {
+   "62nit5": {
+    "0": {
+     "thread_id": "62nit5",
+     "item_id": "62nit5",
+     "parent_id": null,
+     "author": "nickjohnson",
+     "created_utc": 1490988958,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "announcing quantum computing support through a TERMINATE opcode"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 172,
+      "author_flair_text": "Ethereum - Nick Johnson",
+      "retrieved_on": 1492475935
+     }
+    },
+    "1": {
+     "thread_id": "62nit5",
+     "item_id": "dfnwvaa",
+     "parent_id": "62nit5",
+     "author": "[deleted]",
+     "created_utc": 1490989352,
+     "dt_parent_sec": 394,
+     "dt_thread_sec": 394,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1491952530
+     }
+    },
+    "1.1": {
+     "thread_id": "62nit5",
+     "item_id": "dfnwz8c",
+     "parent_id": "dfnwvaa",
+     "author": "PhiStr90",
+     "created_utc": 1490989476,
+     "dt_parent_sec": 124,
+     "dt_thread_sec": 518,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "making TERMINATE erase 1st April for some people"
+     ],
+     "sequence": [
+      "c0003"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1491952582
+     }
+    },
+    "2": {
+     "thread_id": "62nit5",
+     "item_id": "dfnwy1w",
+     "parent_id": "62nit5",
+     "author": "alsomahler",
+     "created_utc": 1490989440,
+     "dt_parent_sec": 482,
+     "dt_thread_sec": 482,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "calling the impossible TERMINATE feature groundbreaking"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 21,
+      "retrieved_on": 1491952567
+     }
+    },
+    "3": {
+     "thread_id": "62nit5",
+     "item_id": "dfnxpdt",
+     "parent_id": "62nit5",
+     "author": "gcolvin",
+     "created_utc": 1490990271,
+     "dt_parent_sec": 1313,
+     "dt_thread_sec": 1313,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "asking whether the TERMINATE hardware is ready"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1491952936
+     }
+    },
+    "3.1": {
+     "thread_id": "62nit5",
+     "item_id": "dfnxtge",
+     "parent_id": "dfnxpdt",
+     "author": "nickjohnson",
+     "created_utc": 1490990398,
+     "dt_parent_sec": 127,
+     "dt_thread_sec": 1440,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "promising the hardware for Metropolis while calling testing difficult"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 14,
+      "author_flair_text": "Ethereum - Nick Johnson",
+      "retrieved_on": 1491952990
+     }
+    },
+    "4": {
+     "thread_id": "62nit5",
+     "item_id": "dfo0ql4",
+     "parent_id": "62nit5",
+     "author": "FaceDeer",
+     "created_utc": 1490993849,
+     "dt_parent_sec": 4891,
+     "dt_thread_sec": 4891,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "inventing a TERMINATE exploit and solving it by threatening the universe"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 21,
+      "retrieved_on": 1491954402
+     }
+    },
+    "4.1": {
+     "thread_id": "62nit5",
+     "item_id": "dfoi6l7",
+     "parent_id": "dfo0ql4",
+     "author": "JPaulMora",
+     "created_utc": 1491018248,
+     "dt_parent_sec": 24399,
+     "dt_thread_sec": 29290,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "mock-panicking that TERMINATE broke ether"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493697902
+     }
+    },
+    "4.1.1": {
+     "thread_id": "62nit5",
+     "item_id": "dfokv8q",
+     "parent_id": "dfoi6l7",
+     "author": "FaceDeer",
+     "created_utc": 1491022913,
+     "dt_parent_sec": 4665,
+     "dt_thread_sec": 33955,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "covering a mock selloff with a price-triggered TERMINATE contract"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493699196
+     }
+    },
+    "5": {
+     "thread_id": "62nit5",
+     "item_id": "dfo39os",
+     "parent_id": "62nit5",
+     "author": "SavageBruh",
+     "created_utc": 1490997037,
+     "dt_parent_sec": 8079,
+     "dt_thread_sec": 8079,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "asking for the TERMINATE joke to be dumbed down"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1491955630
+     }
+    },
+    "5.1": {
+     "thread_id": "62nit5",
+     "item_id": "dfo41an",
+     "parent_id": "dfo39os",
+     "author": "ya_hi",
+     "created_utc": 1490998021,
+     "dt_parent_sec": 984,
+     "dt_thread_sec": 9063,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "explaining TERMINATE as ethereum being cutting edge"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1491956000
+     }
+    },
+    "5.2": {
+     "thread_id": "62nit5",
+     "item_id": "dfobkw1",
+     "parent_id": "dfo39os",
+     "author": "ThriceMeta",
+     "created_utc": 1491008318,
+     "dt_parent_sec": 11281,
+     "dt_thread_sec": 19360,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "telling a confused reader it is a joke"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493694706
+     }
+    },
+    "6": {
+     "thread_id": "62nit5",
+     "item_id": "dfocxzx",
+     "parent_id": "62nit5",
+     "author": "avsa",
+     "created_utc": 1491010261,
+     "dt_parent_sec": 21303,
+     "dt_thread_sec": 21303,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 14,
+      "author_flair_text": "Ethereum - Alex van de Sande",
+      "retrieved_on": 1493695368
+     }
+    },
+    "6.1": {
+     "thread_id": "62nit5",
+     "item_id": "dfodw8d",
+     "parent_id": "dfocxzx",
+     "author": "gcolvin",
+     "created_utc": 1491011633,
+     "dt_parent_sec": 1372,
+     "dt_thread_sec": 22675,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491017390,
+      "score": 5,
+      "retrieved_on": 1493695827
+     }
+    },
+    "6.1.1": {
+     "thread_id": "62nit5",
+     "item_id": "dfpmex8",
+     "parent_id": "dfodw8d",
+     "author": "FaceDeer",
+     "created_utc": 1491092842,
+     "dt_parent_sec": 81209,
+     "dt_thread_sec": 103884,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "boosting adoption to 100% by declaring non-users effectively dead"
+     ],
+     "sequence": [
+      "na",
+      "c0012"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493717317
+     }
+    }
+   },
+   "62onwq": {
+    "0": {
+     "thread_id": "62onwq",
+     "item_id": "62onwq",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1490999570,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "warning Vitalik that an official April Fools joke could cause panic and a crash"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 0.93,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1492476762
+     }
+    }
+   },
+   "62oywn": {
+    "0": {
+     "thread_id": "62oywn",
+     "item_id": "62oywn",
+     "parent_id": null,
+     "author": "jack",
+     "created_utc": 1491002425,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "calling for help drawing an Ethereum logo"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 21,
+      "retrieved_on": 1492476972
+     }
+    },
+    "1": {
+     "thread_id": "62oywn",
+     "item_id": "dfo7eda",
+     "parent_id": "62oywn",
+     "author": "jack",
+     "created_utc": 1491002514,
+     "dt_parent_sec": 89,
+     "dt_thread_sec": 89,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "supplying the Ethereum logo reference image"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1491957630
+     }
+    },
+    "2": {
+     "thread_id": "62oywn",
+     "item_id": "dfo9emq",
+     "parent_id": "62oywn",
+     "author": "WinEpic",
+     "created_utc": 1491005293,
+     "dt_parent_sec": 2868,
+     "dt_thread_sec": 2868,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "starting an Ethereum logo at coordinates 379;881"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493693648
+     }
+    },
+    "2.1": {
+     "thread_id": "62oywn",
+     "item_id": "dfosyk7",
+     "parent_id": "dfo9emq",
+     "author": "seweso",
+     "created_utc": 1491045453,
+     "dt_parent_sec": 40160,
+     "dt_thread_sec": 43028,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493703100
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62oywn",
+     "item_id": "dfp159k",
+     "parent_id": "dfosyk7",
+     "author": "WinEpic",
+     "created_utc": 1491061259,
+     "dt_parent_sec": 15806,
+     "dt_thread_sec": 58834,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "joining the Ethereum logo already progressing well"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493707037
+     }
+    },
+    "3": {
+     "thread_id": "62oywn",
+     "item_id": "dfoe9oi",
+     "parent_id": "62oywn",
+     "author": "Nooku",
+     "created_utc": 1491012177,
+     "dt_parent_sec": 9752,
+     "dt_thread_sec": 9752,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "updating the template and asking someone to improve it"
+     ],
+     "sequence": [
+      "c0017"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491012373,
+      "score": 3,
+      "retrieved_on": 1493696009
+     }
+    },
+    "4": {
+     "thread_id": "62oywn",
+     "item_id": "dfp245j",
+     "parent_id": "62oywn",
+     "author": "Pupupachu24",
+     "created_utc": 1491062617,
+     "dt_parent_sec": 60192,
+     "dt_thread_sec": 60192,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "proposing moving operations to the bitcoin logo and eating it up"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493707502
+     }
+    },
+    "5": {
+     "thread_id": "62oywn",
+     "item_id": "dfp57ja",
+     "parent_id": "62oywn",
+     "author": "FPSXpert",
+     "created_utc": 1491067039,
+     "dt_parent_sec": 64614,
+     "dt_thread_sec": 64614,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "declaring the project dead and seeking another spot"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493708993
+     }
+    }
+   },
+   "62p8nm": {
+    "0": {
+     "thread_id": "62p8nm",
+     "item_id": "62p8nm",
+     "parent_id": null,
+     "author": "Souptacular",
+     "created_utc": 1491004965,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "announcing Dogecoin integration in Doge-speak"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "edited": 1491005754,
+      "score": 158,
+      "author_flair_text": "Ethereum  Foundation - Hudson Jameson",
+      "retrieved_on": 1492477159
+     }
+    },
+    "1": {
+     "thread_id": "62p8nm",
+     "item_id": "dfo980v",
+     "parent_id": "62p8nm",
+     "author": "laughing__cow",
+     "created_utc": 1491005036,
+     "dt_parent_sec": 71,
+     "dt_thread_sec": 71,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "admitting the Dogecoin announcement got them for a second"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 17,
+      "retrieved_on": 1493693558
+     }
+    },
+    "2": {
+     "thread_id": "62p8nm",
+     "item_id": "dfo9etf",
+     "parent_id": "62p8nm",
+     "author": "5chdn",
+     "created_utc": 1491005299,
+     "dt_parent_sec": 334,
+     "dt_thread_sec": 334,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "naming the joke DOGERIUM"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "Flair \u2658",
+      "retrieved_on": 1493693650
+     }
+    },
+    "3": {
+     "thread_id": "62p8nm",
+     "item_id": "dfob3zj",
+     "parent_id": "62p8nm",
+     "author": "towjamb",
+     "created_utc": 1491007664,
+     "dt_parent_sec": 2699,
+     "dt_thread_sec": 2699,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "becoming a doge-erian for a day"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493694477
+     }
+    },
+    "4": {
+     "thread_id": "62p8nm",
+     "item_id": "dfod79v",
+     "parent_id": "62p8nm",
+     "author": "xyrrus",
+     "created_utc": 1491010634,
+     "dt_parent_sec": 5669,
+     "dt_thread_sec": 5669,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "asking when Ethereum switches to Woof of Stake"
+     ],
+     "sequence": [
+      "c0025"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 56,
+      "retrieved_on": 1493695494
+     }
+    },
+    "4.1": {
+     "thread_id": "62p8nm",
+     "item_id": "dfodssj",
+     "parent_id": "dfod79v",
+     "author": "baddogesgotoheaven",
+     "created_utc": 1491011495,
+     "dt_parent_sec": 861,
+     "dt_thread_sec": 6530,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "answering with Proof of Steak"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 32,
+      "retrieved_on": 1493695781
+     }
+    },
+    "5": {
+     "thread_id": "62p8nm",
+     "item_id": "dfofcdl",
+     "parent_id": "62p8nm",
+     "author": "shibe5",
+     "created_utc": 1491013738,
+     "dt_parent_sec": 8773,
+     "dt_thread_sec": 8773,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "offering a Dogecoin giveaway for posted addresses"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493696526
+     }
+    },
+    "5.1": {
+     "thread_id": "62p8nm",
+     "item_id": "dfohhxy",
+     "parent_id": "dfofcdl",
+     "author": "ethereumpure",
+     "created_utc": 1491017103,
+     "dt_parent_sec": 3365,
+     "dt_thread_sec": 12138,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "posting a Dogecoin address for the giveaway"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493697571
+     }
+    },
+    "6": {
+     "thread_id": "62p8nm",
+     "item_id": "dfoj437",
+     "parent_id": "62p8nm",
+     "author": "Samueth",
+     "created_utc": 1491019817,
+     "dt_parent_sec": 14852,
+     "dt_thread_sec": 14852,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "praising the community in Doge-speak"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493698352
+     }
+    },
+    "7": {
+     "thread_id": "62p8nm",
+     "item_id": "dfolprq",
+     "parent_id": "62p8nm",
+     "author": "_jt",
+     "created_utc": 1491024568,
+     "dt_parent_sec": 19603,
+     "dt_thread_sec": 19603,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "celebrating the Dogecoin subreddit layout"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493699605
+     }
+    },
+    "8": {
+     "thread_id": "62p8nm",
+     "item_id": "dfomtno",
+     "parent_id": "62p8nm",
+     "author": "Birds_canfly",
+     "created_utc": 1491027000,
+     "dt_parent_sec": 22035,
+     "dt_thread_sec": 22035,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "saying the Dogecoin joke is why they love ethereum"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493700140
+     }
+    }
+   },
+   "62pka6": {
+    "0": {
+     "thread_id": "62pka6",
+     "item_id": "62pka6",
+     "parent_id": null,
+     "author": "wallet_man",
+     "created_utc": 1491008431,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "adding a gag video to Dogereum"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1492477446
+     }
+    }
+   },
+   "62pp0b": {
+    "0": {
+     "thread_id": "62pp0b",
+     "item_id": "62pp0b",
+     "parent_id": null,
+     "author": "newhampshire22",
+     "created_utc": 1491009966,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "thanking Vitalik for the sidebar April Fools joke"
+     ],
+     "sequence": [
+      "c0033"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1492477510
+     }
+    }
+   },
+   "62q616": {
+    "0": {
+     "thread_id": "62q616",
+     "item_id": "62q616",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491015522,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "proclaiming Ethereum dead and Dogecoin ascendant"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1492477835
+     }
+    }
+   },
+   "62qcnn": {
+    "0": {
+     "thread_id": "62qcnn",
+     "item_id": "62qcnn",
+     "parent_id": null,
+     "author": "ItsPrayy",
+     "created_utc": 1491017841,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 206,
+      "retrieved_on": 1492477977
+     }
+    },
+    "1": {
+     "thread_id": "62qcnn",
+     "item_id": "dfoj3x3",
+     "parent_id": "62qcnn",
+     "author": "asdfghlkj",
+     "created_utc": 1491019810,
+     "dt_parent_sec": 1969,
+     "dt_thread_sec": 1969,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "joking about Proof Of Vitalik confirming every block"
+     ],
+     "sequence": [
+      "c0035"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 63,
+      "retrieved_on": 1493698350
+     }
+    },
+    "2": {
+     "thread_id": "62qcnn",
+     "item_id": "dfoqdaj",
+     "parent_id": "62qcnn",
+     "author": "DarkEmi",
+     "created_utc": 1491036892,
+     "dt_parent_sec": 19051,
+     "dt_thread_sec": 19051,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "calling the dev roundup a funny April 1st stab at bitcoin claims"
+     ],
+     "sequence": [
+      "c0036"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493701852
+     }
+    }
+   },
+   "62qczd": {
+    "0": {
+     "thread_id": "62qczd",
+     "item_id": "62qczd",
+     "parent_id": null,
+     "author": "devils_advocate",
+     "created_utc": 1491017948,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "asking how to turn the April Fools stuff off"
+     ],
+     "sequence": [
+      "c0037"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1492477981
+     }
+    }
+   },
+   "62qi9l": {
+    "0": {
+     "thread_id": "62qi9l",
+     "item_id": "62qi9l",
+     "parent_id": null,
+     "author": "EtherWorld_co",
+     "created_utc": 1491019714,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "posting a Hard Fork in Ethereum image joke"
+     ],
+     "sequence": [
+      "c0038"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1492478110
+     }
+    }
+   },
+   "62qkw3": {
+    "0": {
+     "thread_id": "62qkw3",
+     "item_id": "62qkw3",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491020620,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "asking to put the Ethereum logo on /place"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1492478146
+     }
+    }
+   },
+   "62qy2n": {
+    "0": {
+     "thread_id": "62qy2n",
+     "item_id": "62qy2n",
+     "parent_id": null,
+     "author": "meta474",
+     "created_utc": 1491025511,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "using the r/place thing to think about crowdsourcing a mind"
+     ],
+     "sequence": [
+      "na",
+      "c0040",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1492478455
+     }
+    }
+   },
+   "62rcrk": {
+    "0": {
+     "thread_id": "62rcrk",
+     "item_id": "62rcrk",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491032033,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "announcing an Initial Scam Offering"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 0.81,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494548645
+     }
+    }
+   },
+   "62rfej": {
+    "0": {
+     "thread_id": "62rfej",
+     "item_id": "62rfej",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491033277,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "welcoming Pied Piper to the Enterprise Ethereum Alliance"
+     ],
+     "sequence": [
+      "c0042"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494548681
+     }
+    }
+   },
+   "62rhj8": {
+    "0": {
+     "thread_id": "62rhj8",
+     "item_id": "62rhj8",
+     "parent_id": null,
+     "author": "k1nkyk0ng",
+     "created_utc": 1491034309,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "offering the next scam coin"
+     ],
+     "sequence": [
+      "na",
+      "c0043",
+      "na"
+     ],
+     "coverage": 0.03,
+     "meta": {
+      "edited": 1491067928,
+      "score": 46,
+      "retrieved_on": 1494548711
+     }
+    }
+   },
+   "62rtqu": {
+    "0": {
+     "thread_id": "62rtqu",
+     "item_id": "62rtqu",
+     "parent_id": null,
+     "author": "avsa",
+     "created_utc": 1491040499,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 30,
+      "author_flair_text": "Ethereum - Alex van de Sande",
+      "retrieved_on": 1494548879
+     }
+    },
+    "1": {
+     "thread_id": "62rtqu",
+     "item_id": "dfqpjf4",
+     "parent_id": "62rtqu",
+     "author": "cryptohazard",
+     "created_utc": 1491166745,
+     "dt_parent_sec": 126246,
+     "dt_thread_sec": 126246,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "saying Mist Stories cannot be understood"
+     ],
+     "sequence": [
+      "c0044"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493736265
+     }
+    },
+    "1.1": {
+     "thread_id": "62rtqu",
+     "item_id": "dfqrs1j",
+     "parent_id": "dfqpjf4",
+     "author": "dalen3",
+     "created_utc": 1491169707,
+     "dt_parent_sec": 2962,
+     "dt_thread_sec": 129208,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "explaining Mist Stories as an April fools joke on Facebook stories"
+     ],
+     "sequence": [
+      "c0045"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493737532
+     }
+    }
+   },
+   "62s00f": {
+    "0": {
+     "thread_id": "62s00f",
+     "item_id": "62s00f",
+     "parent_id": null,
+     "author": "MihaiAlisie",
+     "created_utc": 1491043548,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 43,
+      "retrieved_on": 1494548966
+     }
+    },
+    "1": {
+     "thread_id": "62s00f",
+     "item_id": "dfozhbm",
+     "parent_id": "62s00f",
+     "author": "MihaiAlisie",
+     "created_utc": 1491058843,
+     "dt_parent_sec": 15295,
+     "dt_thread_sec": 15295,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "promising more ads to people who hold more tokens"
+     ],
+     "sequence": [
+      "na",
+      "c0046",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493706236
+     }
+    }
+   },
+   "62s23a": {
+    "0": {
+     "thread_id": "62s23a",
+     "item_id": "62s23a",
+     "parent_id": null,
+     "author": "silver84",
+     "created_utc": 1491044527,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 22,
+      "retrieved_on": 1494548994
+     }
+    },
+    "1": {
+     "thread_id": "62s23a",
+     "item_id": "dfow83r",
+     "parent_id": "62s23a",
+     "author": "heliumcraft",
+     "created_utc": 1491053288,
+     "dt_parent_sec": 8761,
+     "dt_thread_sec": 8761,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "iuri matias - Embark Framework",
+      "retrieved_on": 1493704673
+     }
+    },
+    "1.1": {
+     "thread_id": "62s23a",
+     "item_id": "dfp9cy0",
+     "parent_id": "dfow83r",
+     "author": "Rf3csWxLwQyH1OwZhi",
+     "created_utc": 1491073070,
+     "dt_parent_sec": 19782,
+     "dt_thread_sec": 28543,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "asking whether the Spanish area of Syria is an April fools joke"
+     ],
+     "sequence": [
+      "c0047"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493710997
+     }
+    }
+   },
+   "62s902": {
+    "0": {
+     "thread_id": "62s902",
+     "item_id": "62s902",
+     "parent_id": null,
+     "author": "homeder1",
+     "created_utc": 1491047274,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "claiming a Decred token pays seven percent each month"
+     ],
+     "sequence": [
+      "na",
+      "c0048",
+      "na"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "edited": 1491050254,
+      "score": 0,
+      "retrieved_on": 1494549090
+     }
+    },
+    "1": {
+     "thread_id": "62s902",
+     "item_id": "dfovs43",
+     "parent_id": "62s902",
+     "author": "missionbalance",
+     "created_utc": 1491052413,
+     "dt_parent_sec": 5139,
+     "dt_thread_sec": 5139,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "asking whether the claim is a scam or bad joke"
+     ],
+     "sequence": [
+      "c0049"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493704459
+     }
+    }
+   },
+   "62semy": {
+    "0": {
+     "thread_id": "62semy",
+     "item_id": "62semy",
+     "parent_id": null,
+     "author": "heliumcraft",
+     "created_utc": 1491049549,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "announcing EtherQuake on the Ethereum blockchain"
+     ],
+     "sequence": [
+      "c0050"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 33,
+      "author_flair_text": "iuri matias - Embark Framework",
+      "retrieved_on": 1494549167
+     }
+    }
+   },
+   "62sj6r": {
+    "0": {
+     "thread_id": "62sj6r",
+     "item_id": "62sj6r",
+     "parent_id": null,
+     "author": "3eyedravens",
+     "created_utc": 1491051228,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "asking why the subreddit has a Dodgecoin theme"
+     ],
+     "sequence": [
+      "c0051",
+      "na"
+     ],
+     "coverage": 0.32,
+     "meta": {
+      "score": 28,
+      "retrieved_on": 1494549231
+     }
+    },
+    "1": {
+     "thread_id": "62sj6r",
+     "item_id": "dfovb9j",
+     "parent_id": "62sj6r",
+     "author": "TonyMcCarp",
+     "created_utc": 1491051432,
+     "dt_parent_sec": 204,
+     "dt_thread_sec": 204,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "answering that it is April fools day"
+     ],
+     "sequence": [
+      "c0052"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 24,
+      "retrieved_on": 1493704232
+     }
+    },
+    "1.1": {
+     "thread_id": "62sj6r",
+     "item_id": "dfovjzz",
+     "parent_id": "dfovb9j",
+     "author": "3eyedravens",
+     "created_utc": 1491051937,
+     "dt_parent_sec": 505,
+     "dt_thread_sec": 709,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "saying the subreddit joke got them"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 14,
+      "retrieved_on": 1493704350
+     }
+    }
+   },
+   "62smr9": {
+    "0": {
+     "thread_id": "62smr9",
+     "item_id": "62smr9",
+     "parent_id": null,
+     "author": "Louttie",
+     "created_utc": 1491052444,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "asking how long until proof of steak because they are hangry"
+     ],
+     "sequence": [
+      "c0054"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 173,
+      "retrieved_on": 1494549280
+     }
+    },
+    "1": {
+     "thread_id": "62smr9",
+     "item_id": "dfoxn3b",
+     "parent_id": "62smr9",
+     "author": "viners",
+     "created_utc": 1491055860,
+     "dt_parent_sec": 3416,
+     "dt_thread_sec": 3416,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "waiting until Vitalik is done butterin the potatoes"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 243,
+      "retrieved_on": 1493705353
+     }
+    },
+    "1.1": {
+     "thread_id": "62smr9",
+     "item_id": "dfp66vn",
+     "parent_id": "dfoxn3b",
+     "author": "laughing__cow",
+     "created_utc": 1491068457,
+     "dt_parent_sec": 12597,
+     "dt_thread_sec": 16013,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1493709467
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62smr9",
+     "item_id": "dfpgfzb",
+     "parent_id": "dfp66vn",
+     "author": "AkiAi",
+     "created_utc": 1491083797,
+     "dt_parent_sec": 15340,
+     "dt_thread_sec": 31353,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "turning ZK proofs into ZK Snacks"
+     ],
+     "sequence": [
+      "c0056"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1493714420
+     }
+    }
+   },
+   "62t65f": {
+    "0": {
+     "thread_id": "62t65f",
+     "item_id": "62t65f",
+     "parent_id": null,
+     "author": "prestonjbyrne",
+     "created_utc": 1491058491,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1494549548
+     }
+    },
+    "1": {
+     "thread_id": "62t65f",
+     "item_id": "dfp1dcv",
+     "parent_id": "62t65f",
+     "author": "CrystalETH_",
+     "created_utc": 1491061579,
+     "dt_parent_sec": 3088,
+     "dt_thread_sec": 3088,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493707145
+     }
+    },
+    "1.1": {
+     "thread_id": "62t65f",
+     "item_id": "dfp2jso",
+     "parent_id": "dfp1dcv",
+     "author": "prestonjbyrne",
+     "created_utc": 1491063219,
+     "dt_parent_sec": 1640,
+     "dt_thread_sec": 4728,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "promising a Marmotcoin ICO next month"
+     ],
+     "sequence": [
+      "c0057"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493707710
+     }
+    }
+   },
+   "62thkh": {
+    "0": {
+     "thread_id": "62thkh",
+     "item_id": "62thkh",
+     "parent_id": null,
+     "author": "mrholmes1991",
+     "created_utc": 1491061620,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "announcing Dogethereum as two altcoins amalgamated"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494549705
+     }
+    }
+   },
+   "62tjpc": {
+    "0": {
+     "thread_id": "62tjpc",
+     "item_id": "62tjpc",
+     "parent_id": null,
+     "author": "KeijiN",
+     "created_utc": 1491062202,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "presenting a Nakamoto encounter as appropriate for April 1st"
+     ],
+     "sequence": [
+      "na",
+      "c0059"
+     ],
+     "coverage": 0.05,
+     "meta": {
+      "edited": 1491285462,
+      "score": 36,
+      "retrieved_on": 1494549737
+     }
+    }
+   },
+   "62tkcb": {
+    "0": {
+     "thread_id": "62tkcb",
+     "item_id": "62tkcb",
+     "parent_id": null,
+     "author": "carl_status",
+     "created_utc": 1491062374,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 46,
+      "retrieved_on": 1494549745
+     }
+    },
+    "1": {
+     "thread_id": "62tkcb",
+     "item_id": "dfp1z9f",
+     "parent_id": "62tkcb",
+     "author": "Smokyish",
+     "created_utc": 1491062430,
+     "dt_parent_sec": 56,
+     "dt_thread_sec": 56,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "insisting everything is fine while resistance is futile"
+     ],
+     "sequence": [
+      "c0060"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493707437
+     }
+    }
+   },
+   "62ttgy": {
+    "0": {
+     "thread_id": "62ttgy",
+     "item_id": "62ttgy",
+     "parent_id": null,
+     "author": "Wishmaster90",
+     "created_utc": 1491064787,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491065233,
+      "score": 18,
+      "retrieved_on": 1494549875
+     }
+    },
+    "1": {
+     "thread_id": "62ttgy",
+     "item_id": "dfplegl",
+     "parent_id": "62ttgy",
+     "author": "sandball",
+     "created_utc": 1491091337,
+     "dt_parent_sec": 26550,
+     "dt_thread_sec": 26550,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "being unable to tell serious card talk from an Apr 1 piece"
+     ],
+     "sequence": [
+      "c0061"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493716824
+     }
+    }
+   },
+   "62u4lh": {
+    "0": {
+     "thread_id": "62u4lh",
+     "item_id": "62u4lh",
+     "parent_id": null,
+     "author": "I_AM_LoLNewbie",
+     "created_utc": 1491067654,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1494550027
+     }
+    },
+    "1": {
+     "thread_id": "62u4lh",
+     "item_id": "dfp9wwa",
+     "parent_id": "62u4lh",
+     "author": "CrystalETH_",
+     "created_utc": 1491073919,
+     "dt_parent_sec": 6265,
+     "dt_thread_sec": 6265,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493711262
+     }
+    },
+    "1.1": {
+     "thread_id": "62u4lh",
+     "item_id": "dfpafad",
+     "parent_id": "dfp9wwa",
+     "author": "I_AM_LoLNewbie",
+     "created_utc": 1491074690,
+     "dt_parent_sec": 771,
+     "dt_thread_sec": 7036,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "explaining the wallet units as April Fools fun"
+     ],
+     "sequence": [
+      "c0062"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493711509
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62u4lh",
+     "item_id": "dfpef9e",
+     "parent_id": "dfpafad",
+     "author": "CrystalETH_",
+     "created_utc": 1491080702,
+     "dt_parent_sec": 6012,
+     "dt_thread_sec": 13048,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "realising the wallet-units joke got them"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493713444
+     }
+    }
+   },
+   "62ua6p": {
+    "0": {
+     "thread_id": "62ua6p",
+     "item_id": "62ua6p",
+     "parent_id": null,
+     "author": "seweso",
+     "created_utc": 1491069139,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "asking to pay Ether for painting or keeping a pixel painted"
+     ],
+     "sequence": [
+      "na",
+      "c0064"
+     ],
+     "coverage": 0.63,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1494550105
+     }
+    }
+   },
+   "62uex8": {
+    "0": {
+     "thread_id": "62uex8",
+     "item_id": "62uex8",
+     "parent_id": null,
+     "author": "frenchhoudini",
+     "created_utc": 1491070356,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "launching a fully centralized EtherDelta"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 31,
+      "retrieved_on": 1494550170
+     }
+    }
+   },
+   "62uigx": {
+    "0": {
+     "thread_id": "62uigx",
+     "item_id": "62uigx",
+     "parent_id": null,
+     "author": "Drillbert",
+     "created_utc": 1491071292,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "asking if SpaceX will put Dogereum on da mune"
+     ],
+     "sequence": [
+      "c0066",
+      "na"
+     ],
+     "coverage": 0.63,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494550221
+     }
+    }
+   },
+   "62un1j": {
+    "0": {
+     "thread_id": "62un1j",
+     "item_id": "62un1j",
+     "parent_id": null,
+     "author": "revanistT3",
+     "created_utc": 1491072527,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1494550289
+     }
+    },
+    "1": {
+     "thread_id": "62un1j",
+     "item_id": "dfpaoyg",
+     "parent_id": "62un1j",
+     "author": "iamradnetro",
+     "created_utc": 1491075091,
+     "dt_parent_sec": 2564,
+     "dt_thread_sec": 2564,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493711637
+     }
+    },
+    "1.1": {
+     "thread_id": "62un1j",
+     "item_id": "dfpaxw1",
+     "parent_id": "dfpaoyg",
+     "author": "revanistT3",
+     "created_utc": 1491075462,
+     "dt_parent_sec": 371,
+     "dt_thread_sec": 2935,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "wishing the Dogethereum bridge question had been posted tomorrow"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493711756
+     }
+    }
+   },
+   "62uypg": {
+    "0": {
+     "thread_id": "62uypg",
+     "item_id": "62uypg",
+     "parent_id": null,
+     "author": "mbloom1915",
+     "created_utc": 1491075635,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "calling to overtake Bitcoin with the Ether symbol"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1494550451
+     }
+    },
+    "1": {
+     "thread_id": "62uypg",
+     "item_id": "dfpbna7",
+     "parent_id": "62uypg",
+     "author": "UnknownEssence",
+     "created_utc": 1491076508,
+     "dt_parent_sec": 873,
+     "dt_thread_sec": 873,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "arguing to fight with bitcoin and draw somewhere else"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493712097
+     }
+    },
+    "1.1": {
+     "thread_id": "62uypg",
+     "item_id": "dfpbvhp",
+     "parent_id": "dfpbna7",
+     "author": "mbloom1915",
+     "created_utc": 1491076854,
+     "dt_parent_sec": 346,
+     "dt_thread_sec": 1219,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493712207
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62uypg",
+     "item_id": "dfpd9ou",
+     "parent_id": "dfpbvhp",
+     "author": "UnknownEssence",
+     "created_utc": 1491078965,
+     "dt_parent_sec": 2111,
+     "dt_thread_sec": 3330,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "making a new post with specific Ethereum-logo instructions"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493712882
+     }
+    }
+   },
+   "62vagt": {
+    "0": {
+     "thread_id": "62vagt",
+     "item_id": "62vagt",
+     "parent_id": null,
+     "author": "UnknownEssence",
+     "created_utc": 1491078871,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0071",
+      "c0072"
+     ],
+     "labels": [
+      "asking for upvotes so more people help represent Ethereum",
+      "saying the easiest route is avoiding a fight for a spot"
+     ],
+     "sequence": [
+      "na",
+      "c0071",
+      "na",
+      "c0072",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "edited": 1491162032,
+      "score": 107,
+      "retrieved_on": 1494550622
+     }
+    },
+    "1": {
+     "thread_id": "62vagt",
+     "item_id": "dfphc2g",
+     "parent_id": "62vagt",
+     "author": "hadees",
+     "created_utc": 1491085167,
+     "dt_parent_sec": 6296,
+     "dt_thread_sec": 6296,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "making an actual grid for reference"
+     ],
+     "sequence": [
+      "c0073",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "edited": 1491093556,
+      "score": 13,
+      "retrieved_on": 1493714851
+     }
+    },
+    "2": {
+     "thread_id": "62vagt",
+     "item_id": "dfpop7f",
+     "parent_id": "62vagt",
+     "author": "SuppositoryOfNolig",
+     "created_utc": 1491096366,
+     "dt_parent_sec": 17495,
+     "dt_thread_sec": 17495,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "moving beneath GREEN LATTICE, dividing the work, then enlarging and defending"
+     ],
+     "sequence": [
+      "na",
+      "c0074"
+     ],
+     "coverage": 0.76,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493718423
+     }
+    },
+    "3": {
+     "thread_id": "62vagt",
+     "item_id": "dfppayl",
+     "parent_id": "62vagt",
+     "author": "iiiiillilili",
+     "created_utc": 1491097323,
+     "dt_parent_sec": 18452,
+     "dt_thread_sec": 18452,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "getting a deal with the Bob Ross people"
+     ],
+     "sequence": [
+      "na",
+      "c0075"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "edited": 1491114517,
+      "score": 7,
+      "retrieved_on": 1493718717
+     }
+    },
+    "3.1": {
+     "thread_id": "62vagt",
+     "item_id": "dfpsvmr",
+     "parent_id": "dfppayl",
+     "author": "BonusLevelAchieved",
+     "created_utc": 1491103201,
+     "dt_parent_sec": 5878,
+     "dt_thread_sec": 24330,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "dedicating four accounts to the drawing"
+     ],
+     "sequence": [
+      "c0076"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493720448
+     }
+    },
+    "3.2": {
+     "thread_id": "62vagt",
+     "item_id": "dfpszym",
+     "parent_id": "dfppayl",
+     "author": "TheMangineer",
+     "created_utc": 1491103414,
+     "dt_parent_sec": 6091,
+     "dt_thread_sec": 24543,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "asking Ethereum placers not to infringe on the sword"
+     ],
+     "sequence": [
+      "c0077"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493720506
+     }
+    },
+    "3.2.1": {
+     "thread_id": "62vagt",
+     "item_id": "dfpt29h",
+     "parent_id": "dfpszym",
+     "author": "iiiiillilili",
+     "created_utc": 1491103515,
+     "dt_parent_sec": 101,
+     "dt_thread_sec": 24644,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "answering the sword request with the same boundary claim"
+     ],
+     "sequence": [
+      "c0078"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493720536
+     }
+    },
+    "3.2.1.1": {
+     "thread_id": "62vagt",
+     "item_id": "dfptdc2",
+     "parent_id": "dfpt29h",
+     "author": "TheMangineer",
+     "created_utc": 1491104051,
+     "dt_parent_sec": 536,
+     "dt_thread_sec": 25180,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493720684
+     }
+    },
+    "3.2.1.1.1": {
+     "thread_id": "62vagt",
+     "item_id": "dfptkaj",
+     "parent_id": "dfptdc2",
+     "author": "BonusLevelAchieved",
+     "created_utc": 1491104412,
+     "dt_parent_sec": 361,
+     "dt_thread_sec": 25541,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493720776
+     }
+    },
+    "3.2.1.1.1.1": {
+     "thread_id": "62vagt",
+     "item_id": "dfptnd5",
+     "parent_id": "dfptkaj",
+     "author": "TheMangineer",
+     "created_utc": 1491104562,
+     "dt_parent_sec": 150,
+     "dt_thread_sec": 25691,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "offering a win-win exchange with the r/minecraft sword builders"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493720818
+     }
+    },
+    "3.2.1.1.1.2": {
+     "thread_id": "62vagt",
+     "item_id": "dfpub6v",
+     "parent_id": "dfptkaj",
+     "author": "TheMangineer",
+     "created_utc": 1491105812,
+     "dt_parent_sec": 1400,
+     "dt_thread_sec": 26941,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "ending the deal because the design conflicts with Bob Ross and the sword"
+     ],
+     "sequence": [
+      "c0080"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493721137
+     }
+    },
+    "4": {
+     "thread_id": "62vagt",
+     "item_id": "dfpucq1",
+     "parent_id": "62vagt",
+     "author": "GratinB",
+     "created_utc": 1491105887,
+     "dt_parent_sec": 27016,
+     "dt_thread_sec": 27016,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493721157
+     }
+    },
+    "4.1": {
+     "thread_id": "62vagt",
+     "item_id": "dfqpk0z",
+     "parent_id": "dfpucq1",
+     "author": "Viomi",
+     "created_utc": 1491166769,
+     "dt_parent_sec": 60882,
+     "dt_thread_sec": 87898,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493736278
+     }
+    },
+    "4.1.1": {
+     "thread_id": "62vagt",
+     "item_id": "dfqpo1p",
+     "parent_id": "dfqpk0z",
+     "author": "GratinB",
+     "created_utc": 1491166926,
+     "dt_parent_sec": 157,
+     "dt_thread_sec": 88055,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "denying an attack on Arch Linux and blaming a refresh bug"
+     ],
+     "sequence": [
+      "c0083"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493736358
+     }
+    },
+    "4.1.1.1": {
+     "thread_id": "62vagt",
+     "item_id": "dfqpsq0",
+     "parent_id": "dfqpo1p",
+     "author": "Viomi",
+     "created_utc": 1491167105,
+     "dt_parent_sec": 179,
+     "dt_thread_sec": 88234,
+     "state": "coded",
+     "code_ids": [
+      "c0084"
+     ],
+     "labels": [
+      "accepting the refresh-bug explanation"
+     ],
+     "sequence": [
+      "c0084"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493736439
+     }
+    },
+    "5": {
+     "thread_id": "62vagt",
+     "item_id": "dfq4wie",
+     "parent_id": "62vagt",
+     "author": "saddit42",
+     "created_utc": 1491135860,
+     "dt_parent_sec": 56989,
+     "dt_thread_sec": 56989,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "calling the pixel work exhausting"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493726241
+     }
+    },
+    "6": {
+     "thread_id": "62vagt",
+     "item_id": "dfqc9pa",
+     "parent_id": "62vagt",
+     "author": "chasote",
+     "created_utc": 1491149228,
+     "dt_parent_sec": 70357,
+     "dt_thread_sec": 70357,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "asking whether Ethereum will attack Bob Ross or coexist"
+     ],
+     "sequence": [
+      "c0082"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493729797
+     }
+    }
+   },
+   "62vfg9": {
+    "0": {
+     "thread_id": "62vfg9",
+     "item_id": "62vfg9",
+     "parent_id": null,
+     "author": "Zepplock",
+     "created_utc": 1491080180,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1494550690
+     }
+    },
+    "1": {
+     "thread_id": "62vfg9",
+     "item_id": "dfps4l3",
+     "parent_id": "62vfg9",
+     "author": "aribolab",
+     "created_utc": 1491101932,
+     "dt_parent_sec": 21752,
+     "dt_thread_sec": 21752,
+     "state": "coded",
+     "code_ids": [
+      "c0085"
+     ],
+     "labels": [
+      "proposing a Proof of Tofu chain"
+     ],
+     "sequence": [
+      "c0085"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493720085
+     }
+    }
+   },
+   "62vlku": {
+    "0": {
+     "thread_id": "62vlku",
+     "item_id": "62vlku",
+     "parent_id": null,
+     "author": "shayanbahal",
+     "created_utc": 1491081769,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1494550775
+     }
+    },
+    "1": {
+     "thread_id": "62vlku",
+     "item_id": "dfqr38q",
+     "parent_id": "62vlku",
+     "author": "shayanbahal",
+     "created_utc": 1491168840,
+     "dt_parent_sec": 87071,
+     "dt_thread_sec": 87071,
+     "state": "coded",
+     "code_ids": [
+      "c0086"
+     ],
+     "labels": [
+      "revealing the paper was an April fools joke made by a generator"
+     ],
+     "sequence": [
+      "c0086"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493737199
+     }
+    }
+   },
+   "62wsnh": {
+    "0": {
+     "thread_id": "62wsnh",
+     "item_id": "62wsnh",
+     "parent_id": null,
+     "author": "AprilMorone",
+     "created_utc": 1491094392,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494551369
+     }
+    },
+    "1": {
+     "thread_id": "62wsnh",
+     "item_id": "dfpwu8n",
+     "parent_id": "62wsnh",
+     "author": "a8ksh4",
+     "created_utc": 1491110907,
+     "dt_parent_sec": 16515,
+     "dt_thread_sec": 16515,
+     "state": "coded",
+     "code_ids": [
+      "c0087"
+     ],
+     "labels": [
+      "posting an off-topic computer-repair question for Apr 1"
+     ],
+     "sequence": [
+      "na",
+      "c0087"
+     ],
+     "coverage": 0.09,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493722357
+     }
+    }
+   },
+   "62wypl": {
+    "0": {
+     "thread_id": "62wypl",
+     "item_id": "62wypl",
+     "parent_id": null,
+     "author": "BitWhisky",
+     "created_utc": 1491096424,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0088"
+     ],
+     "labels": [
+      "posting Dogesled Time"
+     ],
+     "sequence": [
+      "c0088"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494551452
+     }
+    }
+   },
+   "62x33b": {
+    "0": {
+     "thread_id": "62x33b",
+     "item_id": "62x33b",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491097862,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "calling a second round for the Ethereum logo"
+     ],
+     "sequence": [
+      "c0089"
+     ],
+     "coverage": 0.77,
+     "meta": {
+      "edited": 1491103289,
+      "score": 1,
+      "retrieved_on": 1494551513
+     }
+    }
+   },
+   "6303yx": {
+    "0": {
+     "thread_id": "6303yx",
+     "item_id": "6303yx",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491145626,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "urging a large Ethereum logo by overwriting Bob's frame for history"
+     ],
+     "sequence": [
+      "c0090",
+      "na"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494553024
+     }
+    }
+   },
+   "630f6o": {
+    "0": {
+     "thread_id": "630f6o",
+     "item_id": "630f6o",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491149014,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0091"
+     ],
+     "labels": [
+      "calling for help as a last chance to shine"
+     ],
+     "sequence": [
+      "c0091"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "edited": 1491159834,
+      "score": 21,
+      "retrieved_on": 1494553179
+     }
+    },
+    "1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqd2kk",
+     "parent_id": "630f6o",
+     "author": "chasote",
+     "created_utc": 1491150316,
+     "dt_parent_sec": 1302,
+     "dt_thread_sec": 1302,
+     "state": "coded",
+     "code_ids": [
+      "c0092"
+     ],
+     "labels": [
+      "arguing to coexist rather than waste effort on defense"
+     ],
+     "sequence": [
+      "na",
+      "c0092"
+     ],
+     "coverage": 0.35,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493730183
+     }
+    },
+    "1.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqd7e7",
+     "parent_id": "dfqd2kk",
+     "author": "TransgenderBinary",
+     "created_utc": 1491150497,
+     "dt_parent_sec": 181,
+     "dt_thread_sec": 1483,
+     "state": "coded",
+     "code_ids": [
+      "c0093"
+     ],
+     "labels": [
+      "insisting there is no Ethereum logo without a war"
+     ],
+     "sequence": [
+      "na",
+      "c0093"
+     ],
+     "coverage": 0.43,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493730248
+     }
+    },
+    "1.1.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqfv9v",
+     "parent_id": "dfqd7e7",
+     "author": "RedCranberries",
+     "created_utc": 1491154011,
+     "dt_parent_sec": 3514,
+     "dt_thread_sec": 4997,
+     "state": "coded",
+     "code_ids": [
+      "c0104"
+     ],
+     "labels": [
+      "rejecting an unnecessary rival structure after completing a logo"
+     ],
+     "sequence": [
+      "c0104",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "edited": 1491154537,
+      "score": 5,
+      "retrieved_on": 1493731532
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqgjph",
+     "parent_id": "dfqfv9v",
+     "author": "TransgenderBinary",
+     "created_utc": 1491154882,
+     "dt_parent_sec": 871,
+     "dt_thread_sec": 5868,
+     "state": "coded",
+     "code_ids": [
+      "c0105"
+     ],
+     "labels": [
+      "rejecting a logo without the subreddit name or proper maintenance"
+     ],
+     "sequence": [
+      "c0105"
+     ],
+     "coverage": 0.94,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493731862
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqgtgd",
+     "parent_id": "dfqgjph",
+     "author": "RedCranberries",
+     "created_utc": 1491155234,
+     "dt_parent_sec": 352,
+     "dt_thread_sec": 6220,
+     "state": "coded",
+     "code_ids": [
+      "c0106"
+     ],
+     "labels": [
+      "calling for working together instead of fighting neighbors and each other"
+     ],
+     "sequence": [
+      "c0106",
+      "na"
+     ],
+     "coverage": 0.66,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493731991
+     }
+    },
+    "2": {
+     "thread_id": "630f6o",
+     "item_id": "dfqdfnh",
+     "parent_id": "630f6o",
+     "author": "bearparrot",
+     "created_utc": 1491150815,
+     "dt_parent_sec": 1801,
+     "dt_thread_sec": 1801,
+     "state": "coded",
+     "code_ids": [
+      "c0094"
+     ],
+     "labels": [
+      "warning the avoarmy is coming and asking for help"
+     ],
+     "sequence": [
+      "c0094",
+      "na"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493730358
+     }
+    },
+    "2.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqdjqs",
+     "parent_id": "dfqdfnh",
+     "author": "chasote",
+     "created_utc": 1491150970,
+     "dt_parent_sec": 155,
+     "dt_thread_sec": 1956,
+     "state": "coded",
+     "code_ids": [
+      "c0095"
+     ],
+     "labels": [
+      "warning that avoarmy and placehearts will defend Bob Ross"
+     ],
+     "sequence": [
+      "c0095",
+      "na"
+     ],
+     "coverage": 0.57,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493730414
+     }
+    },
+    "2.1.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqen3p",
+     "parent_id": "dfqdjqs",
+     "author": "bearparrot",
+     "created_utc": 1491152425,
+     "dt_parent_sec": 1455,
+     "dt_thread_sec": 3411,
+     "state": "coded",
+     "code_ids": [
+      "c0099"
+     ],
+     "labels": [
+      "recounting moving away so Bob could live in peace"
+     ],
+     "sequence": [
+      "na",
+      "c0099"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493730940
+     }
+    },
+    "3": {
+     "thread_id": "630f6o",
+     "item_id": "dfqdkgv",
+     "parent_id": "630f6o",
+     "author": "UnknownEssence",
+     "created_utc": 1491150998,
+     "dt_parent_sec": 1984,
+     "dt_thread_sec": 1984,
+     "state": "coded",
+     "code_ids": [
+      "c0096"
+     ],
+     "labels": [
+      "proposing new coordinates to avoid fighting Bob Ross"
+     ],
+     "sequence": [
+      "na",
+      "c0096"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493730424
+     }
+    },
+    "3.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqdrgm",
+     "parent_id": "dfqdkgv",
+     "author": "TransgenderBinary",
+     "created_utc": 1491151263,
+     "dt_parent_sec": 265,
+     "dt_thread_sec": 2249,
+     "state": "coded",
+     "code_ids": [
+      "c0097"
+     ],
+     "labels": [
+      "saying there is no peaceful spot left"
+     ],
+     "sequence": [
+      "na",
+      "c0097"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493730517
+     }
+    },
+    "3.1.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqdv6o",
+     "parent_id": "dfqdrgm",
+     "author": "UnknownEssence",
+     "created_utc": 1491151402,
+     "dt_parent_sec": 139,
+     "dt_thread_sec": 2388,
+     "state": "coded",
+     "code_ids": [
+      "c0098"
+     ],
+     "labels": [
+      "urging builders to take what they need to complete the logo"
+     ],
+     "sequence": [
+      "na",
+      "c0098"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493730566
+     }
+    },
+    "4": {
+     "thread_id": "630f6o",
+     "item_id": "dfqf35l",
+     "parent_id": "630f6o",
+     "author": "RedCranberries",
+     "created_utc": 1491153004,
+     "dt_parent_sec": 3990,
+     "dt_thread_sec": 3990,
+     "state": "coded",
+     "code_ids": [
+      "c0100"
+     ],
+     "labels": [
+      "faulting people for altering the design instead of rebuilding what avocados destroy"
+     ],
+     "sequence": [
+      "na",
+      "c0100",
+      "na"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493731155
+     }
+    },
+    "5": {
+     "thread_id": "630f6o",
+     "item_id": "dfqf3jz",
+     "parent_id": "630f6o",
+     "author": "WinEpic",
+     "created_utc": 1491153018,
+     "dt_parent_sec": 4004,
+     "dt_thread_sec": 4004,
+     "state": "coded",
+     "code_ids": [
+      "c0101"
+     ],
+     "labels": [
+      "reporting slow placing and good progress"
+     ],
+     "sequence": [
+      "c0101"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493731160
+     }
+    },
+    "6": {
+     "thread_id": "630f6o",
+     "item_id": "dfqfchw",
+     "parent_id": "630f6o",
+     "author": "ThomasdH",
+     "created_utc": 1491153337,
+     "dt_parent_sec": 4323,
+     "dt_thread_sec": 4323,
+     "state": "coded",
+     "code_ids": [
+      "c0102"
+     ],
+     "labels": [
+      "directing attention to the nearly completed r/ethtrader logo"
+     ],
+     "sequence": [
+      "c0102",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "edited": 1491153881,
+      "score": 1,
+      "retrieved_on": 1493731280
+     }
+    },
+    "6.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqff4l",
+     "parent_id": "dfqfchw",
+     "author": "IamTopPercentage",
+     "created_utc": 1491153433,
+     "dt_parent_sec": 96,
+     "dt_thread_sec": 4419,
+     "state": "coded",
+     "code_ids": [
+      "c0103"
+     ],
+     "labels": [
+      "dismissing another build because one is completed"
+     ],
+     "sequence": [
+      "c0103"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493731315
+     }
+    },
+    "7": {
+     "thread_id": "630f6o",
+     "item_id": "dfqhcqf",
+     "parent_id": "630f6o",
+     "author": "Aidoboy",
+     "created_utc": 1491155916,
+     "dt_parent_sec": 6902,
+     "dt_thread_sec": 6902,
+     "state": "coded",
+     "code_ids": [
+      "c0107"
+     ],
+     "labels": [
+      "asking Ethereum builders to leave r/feedthebeast's corner alone"
+     ],
+     "sequence": [
+      "c0107"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493732248
+     }
+    },
+    "8": {
+     "thread_id": "630f6o",
+     "item_id": "dfqhy9f",
+     "parent_id": "630f6o",
+     "author": "Cliksum",
+     "created_utc": 1491156678,
+     "dt_parent_sec": 7664,
+     "dt_thread_sec": 7664,
+     "state": "coded",
+     "code_ids": [
+      "c0108"
+     ],
+     "labels": [
+      "starting a new logo in an uncontested area"
+     ],
+     "sequence": [
+      "na",
+      "c0108",
+      "na"
+     ],
+     "coverage": 0.12,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493732539
+     }
+    },
+    "8.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqi5j8",
+     "parent_id": "dfqhy9f",
+     "author": "TransgenderBinary",
+     "created_utc": 1491156938,
+     "dt_parent_sec": 260,
+     "dt_thread_sec": 7924,
+     "state": "coded",
+     "code_ids": [
+      "c0109"
+     ],
+     "labels": [
+      "jumping ship to the new coordinates"
+     ],
+     "sequence": [
+      "c0109"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493732637
+     }
+    },
+    "8.1.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqkanf",
+     "parent_id": "dfqi5j8",
+     "author": "IamTopPercentage",
+     "created_utc": 1491159675,
+     "dt_parent_sec": 2737,
+     "dt_thread_sec": 10661,
+     "state": "coded",
+     "code_ids": [
+      "c0114"
+     ],
+     "labels": [
+      "recruiting recoloring and a border after gaining protection"
+     ],
+     "sequence": [
+      "c0114",
+      "na"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493733678
+     }
+    },
+    "8.1.1.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqkcuu",
+     "parent_id": "dfqkanf",
+     "author": "TransgenderBinary",
+     "created_utc": 1491159750,
+     "dt_parent_sec": 75,
+     "dt_thread_sec": 10736,
+     "state": "coded",
+     "code_ids": [
+      "c0115"
+     ],
+     "labels": [
+      "joking that the Ethereum team split into two forks"
+     ],
+     "sequence": [
+      "c0115"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733708
+     }
+    },
+    "8.2": {
+     "thread_id": "630f6o",
+     "item_id": "dfqioc3",
+     "parent_id": "dfqhy9f",
+     "author": "mbloom1915",
+     "created_utc": 1491157592,
+     "dt_parent_sec": 914,
+     "dt_thread_sec": 8578,
+     "state": "coded",
+     "code_ids": [
+      "c0110"
+     ],
+     "labels": [
+      "joining the new build"
+     ],
+     "sequence": [
+      "c0110"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493732889
+     }
+    },
+    "8.3": {
+     "thread_id": "630f6o",
+     "item_id": "dfql1bo",
+     "parent_id": "dfqhy9f",
+     "author": "TransgenderBinary",
+     "created_utc": 1491160630,
+     "dt_parent_sec": 3952,
+     "dt_thread_sec": 11616,
+     "state": "coded",
+     "code_ids": [
+      "c0116"
+     ],
+     "labels": [
+      "identifying a competitor for the spot"
+     ],
+     "sequence": [
+      "c0116",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734038
+     }
+    },
+    "8.3.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfql6or",
+     "parent_id": "dfql1bo",
+     "author": "Cliksum",
+     "created_utc": 1491160823,
+     "dt_parent_sec": 193,
+     "dt_thread_sec": 11809,
+     "state": "coded",
+     "code_ids": [
+      "c0117"
+     ],
+     "labels": [
+      "tracing red pixels to the competitor"
+     ],
+     "sequence": [
+      "c0117"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734109
+     }
+    },
+    "9": {
+     "thread_id": "630f6o",
+     "item_id": "dfqipnc",
+     "parent_id": "630f6o",
+     "author": "mbloom1915",
+     "created_utc": 1491157640,
+     "dt_parent_sec": 8626,
+     "dt_thread_sec": 8626,
+     "state": "coded",
+     "code_ids": [
+      "c0111"
+     ],
+     "labels": [
+      "recruiting a bigger and better rebuild at new coordinates"
+     ],
+     "sequence": [
+      "c0111",
+      "na"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493732906
+     }
+    },
+    "10": {
+     "thread_id": "630f6o",
+     "item_id": "dfqjn2b",
+     "parent_id": "630f6o",
+     "author": "TransgenderBinary",
+     "created_utc": 1491158839,
+     "dt_parent_sec": 9825,
+     "dt_thread_sec": 9825,
+     "state": "coded",
+     "code_ids": [
+      "c0112"
+     ],
+     "labels": [
+      "debating a white rather than blue background"
+     ],
+     "sequence": [
+      "c0112"
+     ],
+     "coverage": 0.64,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733363
+     }
+    },
+    "11": {
+     "thread_id": "630f6o",
+     "item_id": "dfqk23r",
+     "parent_id": "630f6o",
+     "author": "zentagonist",
+     "created_utc": 1491159370,
+     "dt_parent_sec": 10356,
+     "dt_thread_sec": 10356,
+     "state": "coded",
+     "code_ids": [
+      "c0113"
+     ],
+     "labels": [
+      "borrowing r/monero's idea for automated logo maintenance"
+     ],
+     "sequence": [
+      "c0113",
+      "na"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733563
+     }
+    },
+    "11.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqm92y",
+     "parent_id": "dfqk23r",
+     "author": "mbloom1915",
+     "created_utc": 1491162199,
+     "dt_parent_sec": 2829,
+     "dt_thread_sec": 13185,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734622
+     }
+    },
+    "11.1.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqr730",
+     "parent_id": "dfqm92y",
+     "author": "zentagonist",
+     "created_utc": 1491168978,
+     "dt_parent_sec": 6779,
+     "dt_thread_sec": 19964,
+     "state": "coded",
+     "code_ids": [
+      "c0120"
+     ],
+     "labels": [
+      "sharing a script to automate maintenance of the existing logo"
+     ],
+     "sequence": [
+      "na",
+      "c0120"
+     ],
+     "coverage": 0.43,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493737251
+     }
+    },
+    "12": {
+     "thread_id": "630f6o",
+     "item_id": "dfqla4k",
+     "parent_id": "630f6o",
+     "author": "UnknownEssence",
+     "created_utc": 1491160949,
+     "dt_parent_sec": 11935,
+     "dt_thread_sec": 11935,
+     "state": "coded",
+     "code_ids": [
+      "c0118"
+     ],
+     "labels": [
+      "announcing a new goal image"
+     ],
+     "sequence": [
+      "c0118",
+      "na"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493734157
+     }
+    },
+    "12.1": {
+     "thread_id": "630f6o",
+     "item_id": "dfqmab4",
+     "parent_id": "dfqla4k",
+     "author": "mbloom1915",
+     "created_utc": 1491162250,
+     "dt_parent_sec": 1301,
+     "dt_thread_sec": 13236,
+     "state": "coded",
+     "code_ids": [
+      "c0119"
+     ],
+     "labels": [
+      "questioning whether to fight the avocados"
+     ],
+     "sequence": [
+      "c0119"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734639
+     }
+    }
+   },
+   "633ys4": {
+    "0": {
+     "thread_id": "633ys4",
+     "item_id": "633ys4",
+     "parent_id": null,
+     "author": "edunuke",
+     "created_utc": 1491185898,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0121"
+     ],
+     "labels": [
+      "calling Ethereum's humble position beside Bob Ross wholesome"
+     ],
+     "sequence": [
+      "c0121"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 133,
+      "retrieved_on": 1494555020
+     }
+    },
+    "1": {
+     "thread_id": "633ys4",
+     "item_id": "dfr73nw",
+     "parent_id": "633ys4",
+     "author": "aItalianStallion",
+     "created_utc": 1491188523,
+     "dt_parent_sec": 2625,
+     "dt_thread_sec": 2625,
+     "state": "coded",
+     "code_ids": [
+      "c0122"
+     ],
+     "labels": [
+      "holding the Ethereum position down"
+     ],
+     "sequence": [
+      "c0122"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493744952
+     }
+    },
+    "1.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfrc49w",
+     "parent_id": "dfr73nw",
+     "author": "Nooku",
+     "created_utc": 1491195484,
+     "dt_parent_sec": 6961,
+     "dt_thread_sec": 9586,
+     "state": "coded",
+     "code_ids": [
+      "c0131",
+      "c0132"
+     ],
+     "labels": [
+      "defending surrounding art once Ethereum is complete",
+      "treating neighboring art as protection from bigger art"
+     ],
+     "sequence": [
+      "c0131",
+      "c0132",
+      "na"
+     ],
+     "coverage": 0.44,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1493747420
+     }
+    },
+    "1.1.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfrng91",
+     "parent_id": "dfrc49w",
+     "author": "5chdn",
+     "created_utc": 1491223284,
+     "dt_parent_sec": 27800,
+     "dt_thread_sec": 37386,
+     "state": "coded",
+     "code_ids": [
+      "c0137"
+     ],
+     "labels": [
+      "reporting avoarmy acknowledgment of tinytardis and Ethereum spaces"
+     ],
+     "sequence": [
+      "na",
+      "c0137",
+      "na"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Flair \u2658",
+      "retrieved_on": 1493753779
+     }
+    },
+    "2": {
+     "thread_id": "633ys4",
+     "item_id": "dfr7n6x",
+     "parent_id": "633ys4",
+     "author": "ASG3",
+     "created_utc": 1491189162,
+     "dt_parent_sec": 3264,
+     "dt_thread_sec": 3264,
+     "state": "coded",
+     "code_ids": [
+      "c0123"
+     ],
+     "labels": [
+      "asking for the location link"
+     ],
+     "sequence": [
+      "c0123"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493745215
+     }
+    },
+    "3": {
+     "thread_id": "633ys4",
+     "item_id": "dfr7tji",
+     "parent_id": "633ys4",
+     "author": "yayreddityay",
+     "created_utc": 1491189393,
+     "dt_parent_sec": 3495,
+     "dt_thread_sec": 3495,
+     "state": "coded",
+     "code_ids": [
+      "c0124"
+     ],
+     "labels": [
+      "accusing nullc of trying to trash their space"
+     ],
+     "sequence": [
+      "c0124",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "edited": 1491189818,
+      "score": 27,
+      "retrieved_on": 1493745300
+     }
+    },
+    "3.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfr837c",
+     "parent_id": "dfr7tji",
+     "author": "ASG3",
+     "created_utc": 1491189723,
+     "dt_parent_sec": 330,
+     "dt_thread_sec": 3825,
+     "state": "coded",
+     "code_ids": [
+      "c0127"
+     ],
+     "labels": [
+      "asking whether an agreement was made"
+     ],
+     "sequence": [
+      "c0127"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745458
+     }
+    },
+    "3.1.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfr86r9",
+     "parent_id": "dfr837c",
+     "author": "yayreddityay",
+     "created_utc": 1491189844,
+     "dt_parent_sec": 121,
+     "dt_thread_sec": 3946,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745508
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfr8brd",
+     "parent_id": "dfr86r9",
+     "author": "ASG3",
+     "created_utc": 1491190009,
+     "dt_parent_sec": 165,
+     "dt_thread_sec": 4111,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745574
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfr8gug",
+     "parent_id": "dfr8brd",
+     "author": "edunuke",
+     "created_utc": 1491190174,
+     "dt_parent_sec": 165,
+     "dt_thread_sec": 4276,
+     "state": "coded",
+     "code_ids": [
+      "c0128"
+     ],
+     "labels": [
+      "explaining the Bob Ross agreement and claim on avocado army space"
+     ],
+     "sequence": [
+      "c0128",
+      "na"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493745645
+     }
+    },
+    "3.2": {
+     "thread_id": "633ys4",
+     "item_id": "dfrn9kx",
+     "parent_id": "dfr7tji",
+     "author": "cryptoboy4001",
+     "created_utc": 1491222953,
+     "dt_parent_sec": 33560,
+     "dt_thread_sec": 37055,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493753689
+     }
+    },
+    "3.2.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfryfll",
+     "parent_id": "dfrn9kx",
+     "author": "nulIc",
+     "created_utc": 1491237578,
+     "dt_parent_sec": 14625,
+     "dt_thread_sec": 51680,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": -9,
+      "retrieved_on": 1493760222
+     }
+    },
+    "3.2.1.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfs3w6l",
+     "parent_id": "dfryfll",
+     "author": "cryptoaccount2",
+     "created_utc": 1491243780,
+     "dt_parent_sec": 6202,
+     "dt_thread_sec": 57882,
+     "state": "coded",
+     "code_ids": [
+      "c0139"
+     ],
+     "labels": [
+      "challenging a suspected vandal after the canvas closed"
+     ],
+     "sequence": [
+      "na",
+      "c0139",
+      "na"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "edited": 1491249973,
+      "score": 7,
+      "retrieved_on": 1493763808
+     }
+    },
+    "4": {
+     "thread_id": "633ys4",
+     "item_id": "dfr7ycn",
+     "parent_id": "633ys4",
+     "author": "edunuke",
+     "created_utc": 1491189554,
+     "dt_parent_sec": 3656,
+     "dt_thread_sec": 3656,
+     "state": "coded",
+     "code_ids": [
+      "c0125"
+     ],
+     "labels": [
+      "giving the position that needs to be held down"
+     ],
+     "sequence": [
+      "c0125",
+      "na"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493745386
+     }
+    },
+    "4.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfr82px",
+     "parent_id": "dfr7ycn",
+     "author": "ASG3",
+     "created_utc": 1491189706,
+     "dt_parent_sec": 152,
+     "dt_thread_sec": 3808,
+     "state": "coded",
+     "code_ids": [
+      "c0126"
+     ],
+     "labels": [
+      "answering the call to hold the position"
+     ],
+     "sequence": [
+      "c0126"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745449
+     }
+    },
+    "5": {
+     "thread_id": "633ys4",
+     "item_id": "dfrb008",
+     "parent_id": "633ys4",
+     "author": "pakik",
+     "created_utc": 1491193588,
+     "dt_parent_sec": 7690,
+     "dt_thread_sec": 7690,
+     "state": "coded",
+     "code_ids": [
+      "c0129"
+     ],
+     "labels": [
+      "switching from defending the American flag to Ethereum"
+     ],
+     "sequence": [
+      "c0129"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493746878
+     }
+    },
+    "6": {
+     "thread_id": "633ys4",
+     "item_id": "dfrb4f4",
+     "parent_id": "633ys4",
+     "author": "pakik",
+     "created_utc": 1491193783,
+     "dt_parent_sec": 7885,
+     "dt_thread_sec": 7885,
+     "state": "coded",
+     "code_ids": [
+      "c0130"
+     ],
+     "labels": [
+      "joking about a one-pixel change from eum to cum"
+     ],
+     "sequence": [
+      "c0130"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493746937
+     }
+    },
+    "7": {
+     "thread_id": "633ys4",
+     "item_id": "dfrdptk",
+     "parent_id": "633ys4",
+     "author": "housemobile",
+     "created_utc": 1491198504,
+     "dt_parent_sec": 12606,
+     "dt_thread_sec": 12606,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493748754
+     }
+    },
+    "7.1": {
+     "thread_id": "633ys4",
+     "item_id": "dfre6fs",
+     "parent_id": "dfrdptk",
+     "author": "scarpoochi",
+     "created_utc": 1491199478,
+     "dt_parent_sec": 974,
+     "dt_thread_sec": 13580,
+     "state": "coded",
+     "code_ids": [
+      "c0133"
+     ],
+     "labels": [
+      "explaining r/place as subreddits working together on artwork"
+     ],
+     "sequence": [
+      "c0133"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493748976
+     }
+    },
+    "7.2": {
+     "thread_id": "633ys4",
+     "item_id": "dfregzn",
+     "parent_id": "dfrdptk",
+     "author": "edunuke",
+     "created_utc": 1491200120,
+     "dt_parent_sec": 1616,
+     "dt_thread_sec": 14222,
+     "state": "coded",
+     "code_ids": [
+      "c0134"
+     ],
+     "labels": [
+      "telling newcomers to check and fix pixels out of place"
+     ],
+     "sequence": [
+      "na",
+      "c0134"
+     ],
+     "coverage": 0.11,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493749119
+     }
+    },
+    "8": {
+     "thread_id": "633ys4",
+     "item_id": "dfrk5x3",
+     "parent_id": "633ys4",
+     "author": "1DrK44np3gMKuvcGeFVv",
+     "created_utc": 1491216101,
+     "dt_parent_sec": 30203,
+     "dt_thread_sec": 30203,
+     "state": "coded",
+     "code_ids": [
+      "c0135",
+      "c0136"
+     ],
+     "labels": [
+      "reporting a rejected proposal to display Vitalik above Ethereum",
+      "asking whether an aggressive takeover could win"
+     ],
+     "sequence": [
+      "c0135",
+      "c0136"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493751863
+     }
+    },
+    "9": {
+     "thread_id": "633ys4",
+     "item_id": "dfrpykg",
+     "parent_id": "633ys4",
+     "author": "commonmanth",
+     "created_utc": 1491227188,
+     "dt_parent_sec": 41290,
+     "dt_thread_sec": 41290,
+     "state": "coded",
+     "code_ids": [
+      "c0138"
+     ],
+     "labels": [
+      "trying to build a moon to the right"
+     ],
+     "sequence": [
+      "c0138",
+      "na"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493755090
+     }
+    },
+    "10": {
+     "thread_id": "633ys4",
+     "item_id": "dfs92rl",
+     "parent_id": "633ys4",
+     "author": "lovedumpme",
+     "created_utc": 1491249968,
+     "dt_parent_sec": 64070,
+     "dt_thread_sec": 64070,
+     "state": "coded",
+     "code_ids": [
+      "c0140"
+     ],
+     "labels": [
+      "reporting the finished drawing now reads Ethercum"
+     ],
+     "sequence": [
+      "c0140"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493766322
+     }
+    },
+    "11": {
+     "thread_id": "633ys4",
+     "item_id": "dfsm5k6",
+     "parent_id": "633ys4",
+     "author": "xyrrus",
+     "created_utc": 1491265486,
+     "dt_parent_sec": 79588,
+     "dt_thread_sec": 79588,
+     "state": "coded",
+     "code_ids": [
+      "c0141"
+     ],
+     "labels": [
+      "reporting what the finished drawing currently reads"
+     ],
+     "sequence": [
+      "c0141"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493772652
+     }
+    }
+   },
+   "636qfu": {
+    "0": {
+     "thread_id": "636qfu",
+     "item_id": "636qfu",
+     "parent_id": null,
+     "author": "armageddon2",
+     "created_utc": 1491225896,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0142"
+     ],
+     "labels": [
+      "telling sellers not to be dumb fish over Vitalik's April Fool writing"
+     ],
+     "sequence": [
+      "c0142"
+     ],
+     "coverage": 0.84,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556406
+     }
+    },
+    "1": {
+     "thread_id": "636qfu",
+     "item_id": "dfrq8lr",
+     "parent_id": "636qfu",
+     "author": "Theft_Via_Taxation",
+     "created_utc": 1491227577,
+     "dt_parent_sec": 1681,
+     "dt_thread_sec": 1681,
+     "state": "coded",
+     "code_ids": [
+      "c0143"
+     ],
+     "labels": [
+      "redirecting the price response to R/ethtrader"
+     ],
+     "sequence": [
+      "c0143"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493755261
+     }
+    }
+   },
+   "637oy9": {
+    "0": {
+     "thread_id": "637oy9",
+     "item_id": "637oy9",
+     "parent_id": null,
+     "author": "w1nw1n",
+     "created_utc": 1491235259,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0144"
+     ],
+     "labels": [
+      "calling the mods dumbasses for making the subreddit Doge flavor"
+     ],
+     "sequence": [
+      "na",
+      "c0144"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556888
+     }
+    },
+    "1": {
+     "thread_id": "637oy9",
+     "item_id": "dfrx29u",
+     "parent_id": "637oy9",
+     "author": "maxxflyer",
+     "created_utc": 1491235870,
+     "dt_parent_sec": 611,
+     "dt_thread_sec": 611,
+     "state": "coded",
+     "code_ids": [
+      "c0145"
+     ],
+     "labels": [
+      "calling departure over a forum choice an overreaction while proposing Nicholas Cage Coin"
+     ],
+     "sequence": [
+      "c0145"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493759463
+     }
+    },
+    "2": {
+     "thread_id": "637oy9",
+     "item_id": "dfrxd5d",
+     "parent_id": "637oy9",
+     "author": "feetsofstrength",
+     "created_utc": 1491236239,
+     "dt_parent_sec": 980,
+     "dt_thread_sec": 980,
+     "state": "coded",
+     "code_ids": [
+      "c0146"
+     ],
+     "labels": [
+      "defending the joke while routing price talk to r/ethtrader"
+     ],
+     "sequence": [
+      "c0146"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493759640
+     }
+    },
+    "3": {
+     "thread_id": "637oy9",
+     "item_id": "dfs09db",
+     "parent_id": "637oy9",
+     "author": "fantasticmrspock",
+     "created_utc": 1491239746,
+     "dt_parent_sec": 4487,
+     "dt_thread_sec": 4487,
+     "state": "coded",
+     "code_ids": [
+      "c0147"
+     ],
+     "labels": [
+      "showing the threatened leaver the door"
+     ],
+     "sequence": [
+      "c0147"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493761376
+     }
+    },
+    "4": {
+     "thread_id": "637oy9",
+     "item_id": "dfs0l55",
+     "parent_id": "637oy9",
+     "author": "emrong",
+     "created_utc": 1491240095,
+     "dt_parent_sec": 4836,
+     "dt_thread_sec": 4836,
+     "state": "coded",
+     "code_ids": [
+      "c0148"
+     ],
+     "labels": [
+      "defending Dogecoin silliness as lighthearted fun"
+     ],
+     "sequence": [
+      "c0148"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493761571
+     }
+    },
+    "5": {
+     "thread_id": "637oy9",
+     "item_id": "dfs2irp",
+     "parent_id": "637oy9",
+     "author": "DeviateFish_",
+     "created_utc": 1491242243,
+     "dt_parent_sec": 6984,
+     "dt_thread_sec": 6984,
+     "state": "coded",
+     "code_ids": [
+      "c0149"
+     ],
+     "labels": [
+      "calling the claimed April Fool price effect hopelessly naive"
+     ],
+     "sequence": [
+      "c0149"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493763112
+     }
+    },
+    "6": {
+     "thread_id": "637oy9",
+     "item_id": "dfs3awb",
+     "parent_id": "637oy9",
+     "author": "fullmatches",
+     "created_utc": 1491243117,
+     "dt_parent_sec": 7858,
+     "dt_thread_sec": 7858,
+     "state": "coded",
+     "code_ids": [
+      "c0150"
+     ],
+     "labels": [
+      "joking that an Ethereum theme would have doubled its price"
+     ],
+     "sequence": [
+      "c0150"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493763521
+     }
+    },
+    "7": {
+     "thread_id": "637oy9",
+     "item_id": "dfs99iv",
+     "parent_id": "637oy9",
+     "author": "Mikeinthehouse",
+     "created_utc": 1491250181,
+     "dt_parent_sec": 14922,
+     "dt_thread_sec": 14922,
+     "state": "coded",
+     "code_ids": [
+      "c0151",
+      "c0152",
+      "c0153"
+     ],
+     "labels": [
+      "pointing to Vitalik's Dogecoin fandom",
+      "saying Dogecoin introduced many of them to crypto",
+      "rejecting the claim that Dogecoin affection is childish"
+     ],
+     "sequence": [
+      "c0151",
+      "c0152",
+      "c0153"
+     ],
+     "coverage": 0.87,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493766416
+     }
+    }
+   },
+   "63fch8": {
+    "0": {
+     "thread_id": "63fch8",
+     "item_id": "63fch8",
+     "parent_id": null,
+     "author": "DannyDesert",
+     "created_utc": 1491324785,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0154"
+     ],
+     "labels": [
+      "looking for an Ethereum-powered Ether Board by comparing it with r/place"
+     ],
+     "sequence": [
+      "c0154"
+     ],
+     "coverage": 0.74,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1494560746
+     }
+    }
+   }
+  }
+ }
+}

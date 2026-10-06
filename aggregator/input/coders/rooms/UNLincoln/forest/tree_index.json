@@ -1,0 +1,70 @@
+{
+ "UNLincoln": {
+  "counts": {
+   "threads_given": 1,
+   "threads_with_codes": 1,
+   "items": 2,
+   "coded": 2,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 0,
+   "orphans": 0,
+   "na_stretches": 1,
+   "coverage_of_coded_items": 0.84,
+   "threads_total_in_window": 4
+  },
+  "index": {
+   "637pti": {
+    "0": {
+     "thread_id": "637pti",
+     "item_id": "637pti",
+     "parent_id": null,
+     "author": "GregoriusM",
+     "created_utc": 1491235470,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "calling the blackened logo ours and saying it would be easy to fix"
+     ],
+     "sequence": [
+      "na",
+      "c0001"
+     ],
+     "coverage": 0.69,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494556900
+     }
+    },
+    "1": {
+     "thread_id": "637pti",
+     "item_id": "dfs95la",
+     "parent_id": "637pti",
+     "author": "coolmuffin121",
+     "created_utc": 1491250054,
+     "dt_parent_sec": 14584,
+     "dt_thread_sec": 14584,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "correcting that the logo is Northeastern\u2019s, not ours"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493766360
+     }
+    }
+   }
+  }
+ }
+}

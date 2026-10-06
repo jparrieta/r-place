@@ -1,0 +1,1 @@
+r/mls — verdict: **full**. Saturation: new practices appeared through batch 24; batches 26–27 added none. Saturation limits: deletions, off-platform coordination, linked media, and triage leave partial evidence. Blockers: none.

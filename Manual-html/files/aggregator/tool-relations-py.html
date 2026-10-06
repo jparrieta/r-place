@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`tools/relations.py`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-relations-py.md">Markdown source</a></nav>
+<h1 id="toolsrelationspy"><code>tools/relations.py</code></h1>
+<p>Stage 00's builder of the mention graph.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>It reads the store's <code>pointers.jsonl</code> and <code>rooms.jsonl</code> and writes <code>relations.jsonl</code>, one line per (room, other) pair a room's coder recorded, and <code>_README-relations.md</code>. <code>other</code> is the pointer's normalised form without <code>r/</code>, matched to the frame case-insensitively. Off-platform pointers go in lines with <code>other</code> null. <code>--adjacency FILE</code> fills <code>adjacent</code> from a file built outside the analyst's reach.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Handler side at build: <code>build.sh</code> runs it after <code>build_store.py</code> and <code>transitions.py</code>. It is also shipped in the analyst's <code>tools/</code>.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Contract §5: other rooms "are data, never units". Its limit: a pointer "is not the whole of a room's dealings with another: a room that coordinated off the record, or whose coder read other threads, has relations this file does not hold."</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/relations.py">tools/relations.py</a>.</p>
+<p>Checked against: tools/relations.py, harness/build.sh, CONTRACT-aggregator.md §5.</p>
+</body>
+</html>

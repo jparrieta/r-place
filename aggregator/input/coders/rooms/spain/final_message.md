@@ -1,0 +1,1 @@
+r/spain — branch B; verdict: full. Thematic saturation: later slice added distinct aftermath practices. Record saturation: incomplete due removals, image-only posts, off-platform Discord, and post-window continuation. Blocked: nothing.

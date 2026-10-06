@@ -1,0 +1,26 @@
+# lexicon — r/thailand
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- “little Thai Flag” (62sqzi)
+- “Old Glory” (dfozmuf)
+- “red white and blue alliance” (dfq2bkh)
+- “frog” (dfq43z2)
+- “independence flag” (dfrm7pq)
+- “invasion” (dfraur1)
+- “encroachment” (dfrbrv3)
+- “pizza men” (dfrc795)
+- “the void” (dfrd1mo)
+- “police over eager troops and border skirmishes” (dfrcuu8)
+- “na ja” (dfrm7pq)
+- “prime real estate” (dfqafgw)
+- “pixel war” (dfqpo5s)
+- “zootopia” (dfqn90l)
+- “U of T” (dfr28p4)
+- “SKULE” (dfr28p4)
+- “frogman” (dfr4lpu)
+- “brown food truck” (6342ez)
+- “Rogue general” (dfrdu2z)
+- “hotdog truck” (6353n4)
+- “autoplace script” (dfrcegd)
+- “colored pixel territory” (dfriaxb)

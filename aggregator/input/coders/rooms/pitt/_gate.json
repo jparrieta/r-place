@@ -1,0 +1,16 @@
+{
+ "instrument": "v32",
+ "sub": "pitt",
+ "branch": "A",
+ "threshold": 500,
+ "budget_items": 500,
+ "floor_items": 25,
+ "items_in_window": 315,
+ "items_by_people": 311,
+ "chars_by_people": 50340,
+ "threads": 35,
+ "decided_utc": "2026-09-30T14:21:39Z",
+ "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+ "slices": [],
+ "coders": []
+}

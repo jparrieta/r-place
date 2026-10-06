@@ -1,0 +1,1 @@
+r/polyamory — branch B; verdict `full`. Saturation: later slices extended the organizing attempt once, added confusion, then brought no new event practice. Saturation: selected threads are whole, but unseen Discord activity, deleted text, and divided slice reading limit absence claims. Nothing blocked completion.

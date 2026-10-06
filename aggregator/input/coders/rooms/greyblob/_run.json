@@ -1,0 +1,297 @@
+{
+ "instrument": "v32",
+ "emit": "emit-v32",
+ "verdict": "full",
+ "verdict_note": "set by emit.close(verdict=...); a verdict that exists only as prose in case.md cannot be read back reliably",
+ "close_calls": 2,
+ "reopened_after_close": true,
+ "last_close_seq": 261,
+ "stages": [
+  {
+   "stage": "step1_brief",
+   "from": null,
+   "at_seq": 1,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step1_brief",
+   "at_seq": 242,
+   "codes_so_far": 114,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step4_themes",
+   "at_seq": 255,
+   "codes_so_far": 114,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step5_counter",
+   "at_seq": 256,
+   "codes_so_far": 114,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step6_account",
+   "from": "step5_counter",
+   "at_seq": 259,
+   "codes_so_far": 115,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step7_write",
+   "from": "step6_account",
+   "at_seq": 260,
+   "codes_so_far": 115,
+   "corpus_reads_self_reported": null
+  }
+ ],
+ "reading": {
+  "threads_disposed": 83,
+  "threads_in_corpus": 83,
+  "threads_undisposed": 0,
+  "read_in_full": 83,
+  "triaged_and_dropped": 0,
+  "unread": 0,
+  "coded": 83,
+  "items_in_threads_read": 529,
+  "items_in_window": 529,
+  "items_in_corpus_note": "in-window items only; the corpus header's headline additionally counts [CONTEXT] items",
+  "share_of_threads_disposed": 1.0,
+  "share_of_threads_read_in_full": 1.0,
+  "share_of_text_read_in_full": 1.0
+ },
+ "calls_by_stage": {
+  "step1_brief": {
+   "stage": 1,
+   "coder_stage": 2,
+   "close": 1
+  },
+  "step2_read": {
+   "coder_stage": 3,
+   "thread": 83,
+   "threads_bulk": 6
+  },
+  "step3_codes": {
+   "coder_stage": 2,
+   "code": 114,
+   "pointer": 23
+  },
+  "step6_account": {
+   "coder_stage": 2,
+   "stage": 1
+  },
+  "step7_write": {
+   "coder_stage": 2,
+   "coder_close": 2,
+   "stage": 1,
+   "close": 1
+  },
+  "step4_themes": {
+   "stage": 1,
+   "theme": 10,
+   "theme_add": 2
+  },
+  "step5_counter": {
+   "stage": 2,
+   "code": 1,
+   "theme_add": 1,
+   "find": 8
+  }
+ },
+ "n_codes": 115,
+ "n_codes_emitted": 115,
+ "n_retracted": 0,
+ "n_themes": 10,
+ "n_threads": 83,
+ "n_pointers": 23,
+ "n_subreddits_named": 10,
+ "n_off_platform": 7,
+ "isolated": false,
+ "coordination_left_the_venue": true,
+ "discovered_at": {
+  "step3": 114,
+  "step5": 1
+ },
+ "saturation_observed": {
+  "n_codes": 115,
+  "last_step3_code_at": 114,
+  "codes_minted_after_it": 1,
+  "share_of_minting_before_last_new_step3_code": 0.991
+ },
+ "integrity": {
+  "codes_with_no_theme": [],
+  "themes_with_no_code": [],
+  "ok": true
+ },
+ "gate": {
+  "instrument": "v32",
+  "sub": "greyblob",
+  "branch": "B",
+  "threshold": 500,
+  "budget_items": 500,
+  "floor_items": 25,
+  "items_in_window": 529,
+  "items_by_people": 525,
+  "chars_by_people": 59513,
+  "threads": 83,
+  "decided_utc": "2026-09-30T19:07:58Z",
+  "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+  "slices": [
+   {
+    "batch": "01",
+    "first_thread": "62qxss",
+    "last_thread": "63843f",
+    "n_threads": 76,
+    "items_in_window": 491,
+    "chars_in_window": 53238,
+    "start_utc": 1491025398,
+    "last_opening_utc": 1491239283,
+    "last_item_utc": 1491306756,
+    "start_hour": 13.72,
+    "last_opening_hour": 73.13,
+    "threads": [
+     "62qxss",
+     "62rdy4",
+     "62rmvz",
+     "62rp89",
+     "62sgdq",
+     "62t0xd",
+     "62ufyw",
+     "62v009",
+     "62v9e9",
+     "62vdp6",
+     "62vhcr",
+     "62vltr",
+     "62vx35",
+     "62w1tu",
+     "62w3jz",
+     "62w60d",
+     "62w8gb",
+     "62wkem",
+     "62wmu6",
+     "62woe2",
+     "62wsl2",
+     "62wx23",
+     "62wyz4",
+     "62x78n",
+     "62x7hh",
+     "62xars",
+     "62xlcx",
+     "62xqvf",
+     "62xqz0",
+     "62xuas",
+     "62xupo",
+     "62xxpi",
+     "62y0m4",
+     "62y43n",
+     "62y4jc",
+     "62y8z6",
+     "62ycuu",
+     "62yetz",
+     "62yi3i",
+     "62yinq",
+     "62yq1k",
+     "62yzzc",
+     "62z2ae",
+     "62z2mj",
+     "62zgsf",
+     "62zgxh",
+     "62zir4",
+     "62zn7c",
+     "62zo0n",
+     "62zrl1",
+     "62zzix",
+     "630jj2",
+     "630ltz",
+     "630n57",
+     "630onj",
+     "630wv5",
+     "630xdk",
+     "630ybo",
+     "630ynu",
+     "6312on",
+     "631k1a",
+     "6322ki",
+     "632hzd",
+     "632t8z",
+     "632uql",
+     "632y0h",
+     "633k3n",
+     "633m6l",
+     "633p5v",
+     "633wng",
+     "63449i",
+     "635sn3",
+     "635su9",
+     "636bq4",
+     "637l8x",
+     "63843f"
+    ]
+   },
+   {
+    "batch": "02",
+    "first_thread": "6389h4",
+    "last_thread": "63ce5g",
+    "n_threads": 7,
+    "items_in_window": 38,
+    "chars_in_window": 5914,
+    "start_utc": 1491240531,
+    "last_opening_utc": 1491285669,
+    "last_item_utc": 1491316645,
+    "start_hour": 73.48,
+    "last_opening_hour": 86.02,
+    "threads": [
+     "6389h4",
+     "6389yz",
+     "6391bj",
+     "639pkf",
+     "639z4u",
+     "63bhj5",
+     "63ce5g"
+    ]
+   }
+  ],
+  "coders": [
+   {
+    "batch": "01",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-30T19:08:02Z",
+    "run_dir": "fleet/batch_01",
+    "code_id_start": 1,
+    "pointer_id_start": 1,
+    "context_openings": 0,
+    "instrument_fingerprint": "e676ef2af9135e48",
+    "collected_utc": "2026-09-30T19:13:23Z",
+    "codes": 76
+   },
+   {
+    "batch": "02",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-30T19:13:48Z",
+    "run_dir": "fleet/batch_02",
+    "code_id_start": 77,
+    "pointer_id_start": 14,
+    "context_openings": 2,
+    "instrument_fingerprint": "e676ef2af9135e48",
+    "collected_utc": "2026-09-30T19:17:50Z",
+    "codes": 38
+   }
+  ],
+  "consolidated_utc": "2026-09-30T19:18:45Z",
+  "pool": {
+   "codes": 114,
+   "threads": 83,
+   "pointers": 23,
+   "batches": [
+    "01",
+    "02"
+   ]
+  }
+ },
+ "branch": "B"
+}

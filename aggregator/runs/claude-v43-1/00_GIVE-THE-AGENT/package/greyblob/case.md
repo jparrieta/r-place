@@ -1,0 +1,67 @@
+## Chronology
+
+The room was created around the canvas rather than bringing a documented pre-existing weekly practice into it. In the first visible episode, from `62qxss` at d0 04-01 05:43 to `62ufyw` at d1 04-01 18:17, people recruited builders, sought visible space, and furnished the effort with a name, text, a heart, Pusheen, and jokes. The opening invitation says, “If you wish to get involved, start placing pixels!” (`62qxss`). By the episode's end, expansion was already being revised: “Instead of trying to build one large brick outwards, we should focus on seizing the nearest white space” (`62ufyw`). This is a development from recruitment to practical routing, not evidence that every recruit followed the new route.
+
+The second episode, from `62v009` at d1 04-01 19:46 to `62xars` at d1 04-02 02:35, combined border defense with diplomacy and recruiting. Anticipating Dutch expansion, one participant wrote that it could leave “no blob left” and therefore “We need to keep peace with Armenia to the south and sure up our grey to the east” (`62v009`). Treaties, embedded pictures, Pusheen, subreddit text, and a truce list made the grey area both a defended place and a place other groups could negotiate around. The moderator instruction “DO NOT INVADE THE FLAG” (`62xars`) shows an official boundary rule. It does not show that every placer obeyed it.
+
+From the Homestuck alert through the Greybow period, the room repeatedly rerouted expansion around other pictures and flags. Nightalia reported, “We've reached an agreement with the lovely people of r/homestuck and they will continue their build and we'll simply greyscale around it” (`dfpv7ql`). This episode is supported by batch 01's slice reading; no lead reader independently held its whole comment layer.
+
+The third episode moves from invasion and loss into relocation. At d1 04-02 10:56, “The orange is coming in faster than I can fix” (`62z2ae`). Calls to repair and hold ground coexisted with a Dutch raid in the room and with Dutch visitors who warned, apologized, helped, or described competing plans. These are contrasting positions by different speakers, not evidence that “the Dutch” collectively changed their mind. By d2 04-02 16:38, a member gave an explicit reason for relocation: “I think it might be best if we just start a new base, otherwise they will keep attacking us whenever we place a pixel” (`dfqdnhw`). The subsequent Grey Blob 2.0 plan worked around an already maintained road: “Do NOT disrupt the border of the road... Instead, let's simply build grey around it, and make a grey city of sorts =)” (`6312on`). The late counter-reading adds an important limit: “Plan failed” (`dfrizwg`). Thus the record supports repeated planning and rebuilding attempts, not uninterrupted success.
+
+The final in-event episode runs from `635su9` at d2 04-03 10:01 to `63843f` at d3 04-03 17:08. After trouble with Grey Blob 2.0, a member proposed another move because “the space the void created could be perfect for us” (`635su9`). Instructions then limited replacement to the Void's black and avoided nearby colours. The episode ends with a reported accomplishment rather than only a proposal: “Made a small grey cat with some fellow r/greyblob users, finished just before place ended!” (`63843f`).
+
+The post-event episode begins at `6389h4` at d3 04-03 17:28 and remains open at `dftepaz` at d3 04-04 14:37. Twenty minutes and 48 seconds after the small-cat post, Nightalia wrote that the room had “built and fought well” and hoped people would stay because “we can find some new place for the blob to rule” (`6389h4`). Members saved screenshots, thanked one another, took pride in a last pixel, and called a tiny cat face “our lasting mark” (`dft0me4`). They also compared successor canvases. A request for help building Pusheen (`dfteo69`) received “I'll help when I get home!” 37 seconds later (`dftepaz`). The promise is visible; its fulfillment falls beyond this record. This stretch comes from batch 02, while the last-cat endpoint comes from batch 01.
+
+## Relations — what set off what
+
+The clearest supported relation is the anticipated Dutch advance setting off simultaneous defense and diplomacy. The same passage states the threat and its proposed responses: possible loss of the blob, keeping peace with Armenia, and shoring up the east (`62v009`). This is a participant's own explanation of what should follow, not proof that those actions prevented attack.
+
+The Dutch takeover set off relocation proposals. A member explicitly connects the two with “otherwise”: starting a new base was preferable because “they will keep attacking us whenever we place a pixel” (`dfqdnhw`). The later “Plan failed” (`dfrizwg`) shows that one relocation design did not hold; it does not negate the observed sequence of further location searches.
+
+Existing ownership of the grey road shaped the Grey Blob 2.0 design. The plan names another faction's upkeep and expected reversion as the reasons not to disrupt its border, then proposes building around it (`6312on`). This is supported practical reasoning inside one passage.
+
+After placement ended, an explicit invitation to “band together again on another site similar to r/place” (`dfs8saf`) received a direct reply imagining next April Fools 23 minutes 46 seconds later, followed 5 hours 19 minutes later by “I'd love to work with you all again” (`dfsq1fm`). The reply words support an invitation-and-answer relation. They do not establish that anyone moved to a successor site.
+
+The paint.reednj.com proposal says it would require defense but allow easy recovery (`639pkf`); 17 minutes 22 seconds later Nightalia answers, “Not as fun without the timer but we'd be able to build more” (`dfse27a`). This supports deliberation over the proposal, not adoption.
+
+The small-cat completion (`63843f`) is followed 20 minutes 48 seconds later by the closure post (`6389h4`) [crosses 01|02]. Neither passage says the cat caused the closure or the form of remembrance, so this is an observed sequence only. Likewise, later successor-site posts follow closure, but the record does not support claiming closure caused any particular platform choice.
+
+## Posts against comments
+
+In batch 01, posts present recruitment, alerts, official strategies, truces, routes, and relocation plans. Comments more often report repairs, obtain a neighbour's consent, or say that a plan is already changing. The sharpest contradiction is between a post-level Blob 2.0 design and the comment “Plan failed” (`dfrizwg`). That contradiction supports a difference between announced plan and reported outcome; it does not show that the community abandoned rebuilding altogether.
+
+The Dutch relation also differs by layer and speaker. Diplomatic posts offer peace or attribute attacks to “randoms,” while a comment says, “Even within our faction there are people who don't want to do all this diplomacy and just take over everything” (`dfrjz1r`). This is a participant's explanation of division within that faction, not a supported causal account of every overwrite and not a community-wide change of mind.
+
+In batch 02, posts announce closure, memorial images, and candidate successor canvases. Comments preserve screenshots, answer invitations, and qualify feasibility through timers, traffic, mobile access, and delayed help. The posts therefore sound more actionable than the comment layer warrants: the comments show interest and reservations, but no observed completed move. Bot previews are platform setting; only people's responses to them count as conduct.
+
+## Counter-reading
+
+My reading is that people repeatedly made a vulnerable grey patch into a group by recruiting for it, naming and decorating it, negotiating around neighbours, defending it, rebuilding after losses, saving its marks, and tentatively trying to continue together elsewhere.
+
+The competing account was that this continuity was mainly moderator proposals and memorial talk, while members actually abandoned shared Blob work or declined successor projects. If my reading were wrong, the record should contain explicit repudiation, choices for unrelated individual pictures over the shared Blob, reports that nobody followed plans, or rejection of future collaboration.
+
+I searched the complete record for the case's own language of abandoning, giving up, failed or inactive plans, refusal to help or preference for individual work, and for the contrary future-oriented phrases “another site,” “next April Fools,” “work with ... again,” and “rise again.” I read every returned item through the corpus tool. The strongest contrary item is `dfrizwg`: “Plan failed.” It required a late code because it directly limits the claim that a posted Blob 2.0 design became practice. It changes the account from successful continuity to repeated attempts punctuated by local failures. The broader reading survives because later passages propose a Void-space rebuild (`635su9`), report finishing a small cat (`63843f`), invite another shared site (`dfs8saf`), and answer that invitation with willingness to work together (`dfsq1fm`).
+
+No returned item shows a GreyBlob participant repudiating shared work or rejecting future collaboration. That null result is limited to this 529-item window and these vocabulary-based searches; deleted text, images, and off-platform talk prevent it from establishing universal agreement. A contrary hit about people who reject diplomacy (`dfrjz1r`) concerns divisions reported inside the Dutch faction and therefore qualifies the neighbour relation rather than overturning the GreyBlob account.
+
+## Saturation
+
+Practice saturation is uneven but intelligible. Nine of the ten themes first appear in batch 01: bringing more people behind the Grey Blob; making it recognizable; choosing where grey should spread; making truces and working around neighbours; raising alarms and repairing attacks; the single-code INPOLDEREN raid; looking for a new home and rebuilding; saying goodbye/taking stock/saving marks; and taking the Blob to another canvas. Batch 02 extends the final-marks and other-canvas practices and introduces one genuinely new practice, valuing a small human effort over scripting. Later material therefore repeats much of the settled repertoire while adding a post-event judgment about how the work was made.
+
+Evidence saturation is lower. All 83 threads were read in full by one fleet coder per slice, but no reader held the whole week. Batch 01 reports heavy deletion inside treaty, invasion, and design exchanges; batch 02 includes a deleted last-pixel body and reply. Images show objects the text only describes. Discord, YouTube, image hosts, and successor canvases reveal only what participants bring back. The last visible successor-site exchange ends with promised help, so whether rebuilding actually occurred is outside the record.
+
+## Selection
+
+The lead read the empty pre-week brief and all 83 opening blocks before the gate. The gate selected branch B because 529 in-window items exceeded the threshold of 500. Two fleet coders then read whole-thread slices in corpus order: batch 01 covered 76 threads through `63843f`, and batch 02 covered seven threads from `6389h4` through `63ce5g`. Every thread was retained as coded because each concerned this community's r/place conduct, its final canvas, or an explicit attempt to continue the group on a similar canvas. The lead did not read raw threads during fleet coding; item reads occurred only after step 4 for the counter-reading and evidence checks.
+
+## Other communities named
+
+The room treats r/Armenia as a southern neighbour and ally, r/Homestuck as a neighbour whose art redirects greyscale expansion, and r/thenetherlands/r/cirkeltrek as sources of diplomacy, warning, attack, apology, and later help. These contrasting roles belong to different speakers and moments. r/HelloInternet and the New Heart Movement propose symbols inside the blob; r/PurplePixels, r/Slovakia, Czech road builders, r/PlaceNL, and others appear as neighbours, requesters, or possible helpers. r/Nascar is only a locator for a final-canvas Pusheen, not evidence of collaboration.
+
+Coordination also points outside Reddit. Discord reports return diplomatic news, YouTube is used for recruitment, and image hosts carry plans and screenshots. Pixel Mural, paint.reednj.com, pxls.space, and plastuer.com/place are considered as canvases. Only pxls.space receives coordinates plus an explicit help exchange; the record does not show the resulting pixels.
+
+## Absence
+
+Deleted and removed bodies are concentrated enough to obscure wording inside some treaty, invasion, and design exchanges. They were not reconstructed. Surviving titles and replies can show that an exchange occurred or had a reported consequence, but they cannot supply the missing speaker's claim. The last-pixel thread preserves only its title and a reply, so it supports a memorial act but not a description of the missing image.
+
+The pre-week brief is empty because its supplied archive contains no items; this does not establish that the community had no earlier history. The room appears event-born within the supplied record, which is a narrower claim. Automated mention and preview accounts were treated as platform behavior. Reply adjacency was used only for sequence unless the reply's words answered the earlier turn. Off-platform decisions, image contents beyond participants' descriptions, and conduct after d4 04-04 17:00 remain unseen.

@@ -1,0 +1,1 @@
+r/suomi — branch B — verdict: full. Saturation: new practices appeared through batch 11; batch 12 returned to ordinary discussion. Evidence is strong on Reddit but limited by removals, unseen images/off-platform venues, and split readers. Blockers: none.

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>yard/_tools/codex_lead.py</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/codex-lead-py.md">Markdown source</a></nav>
+<h1 id="yard_toolscodex_leadpy">yard/_tools/codex_lead.py</h1>
+<p>Runs and checkpoints the case lead only, through the Codex app-server's own session history.</p>
+<p><strong>What it holds</strong></p>
+<p><code>--store DIR</code> plus a command. <code>init --room R --model M [--effort] [--auth-source] [--host-sandbox]</code> copies the room into <code>workspace/room</code>, builds its run there, and writes <code>STORE.json</code> and the first checkpoint. <code>turn --message lead|collect|finish [--batch] [--summary] | --prompt-file F --label L</code> starts or resumes the lead, waits for a completed reply, shuts the runtime down, exports the transcript to <code>run/out/_transcript.jsonl</code>, saves <code>final_message.md</code>, and commits a checkpoint. <code>fork --checkpoint C --name N</code> makes a native fork without a model turn. Also <code>restore</code>, <code>verify</code>, <code>status</code>, <code>recover</code>, <code>recover-run</code>.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p>The yard's author. <code>start_yard_lead.py</code> calls <code>init</code> and the first <code>turn</code>.</p>
+<p><strong>Why it exists</strong></p>
+<p>"Every successful turn shuts down the runtime, exports its complete native rollout, and commits one checkpoint." "Brief writers and fleet coders are external; only their filesystem outputs travel." It fails closed if the Codex binary, Python or platform changed.</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/handler/tools/codex_lead.py">_tools/codex_lead.py</a>. It imports <code>checkpoints</code> and calls <code>verify_room.py</code>; both are in <a href="../../../coder/handler/tools/"><code>_tools/</code></a>.</p>
+<p>Checked against: _tools/codex_lead.py, CHECKPOINTS.md</p>
+</body>
+</html>

@@ -1,0 +1,1925 @@
+{
+ "simonfraser": {
+  "counts": {
+   "threads_given": 13,
+   "threads_with_codes": 13,
+   "items": 88,
+   "coded": 75,
+   "bridge": 1,
+   "removed": 0,
+   "dropped": 12,
+   "orphans": 0,
+   "na_stretches": 25,
+   "coverage_of_coded_items": 0.79,
+   "threads_total_in_window": 46
+  },
+  "index": {
+   "62ri8u": {
+    "0": {
+     "thread_id": "62ri8u",
+     "item_id": "62ri8u",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491034666,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "announcing that the SFU website changes today"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494548721
+     }
+    }
+   },
+   "62rimq": {
+    "0": {
+     "thread_id": "62rimq",
+     "item_id": "62rimq",
+     "parent_id": null,
+     "author": "redditlsv",
+     "created_utc": 1491034854,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "asking whether the UBC banner means they were infiltrated"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1494548726
+     }
+    },
+    "1": {
+     "thread_id": "62rimq",
+     "item_id": "dfopz82",
+     "parent_id": "62rimq",
+     "author": "waylaidwanderer",
+     "created_utc": 1491035616,
+     "dt_parent_sec": 762,
+     "dt_thread_sec": 762,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "insisting this has always been the UBC subreddit"
+     ],
+     "sequence": [
+      "c0003",
+      "na"
+     ],
+     "coverage": 0.4,
+     "meta": {
+      "edited": 1491037725,
+      "score": 20,
+      "author_flair_text": "Computing Science (Software Systems)",
+      "retrieved_on": 1493701662
+     }
+    },
+    "1.1": {
+     "thread_id": "62rimq",
+     "item_id": "dfoq4t4",
+     "parent_id": "dfopz82",
+     "author": "perciva",
+     "created_utc": 1491036111,
+     "dt_parent_sec": 495,
+     "dt_thread_sec": 1257,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "pretending to be confused by all the SFU questions"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 11,
+      "author_flair_text": "Math alumnus, member of Senate",
+      "retrieved_on": 1493701738
+     }
+    },
+    "2": {
+     "thread_id": "62rimq",
+     "item_id": "dfoq4b7",
+     "parent_id": "62rimq",
+     "author": "pokemon1188",
+     "created_utc": 1491036066,
+     "dt_parent_sec": 1212,
+     "dt_thread_sec": 1212,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "denying there was any infiltration"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493701731
+     }
+    },
+    "3": {
+     "thread_id": "62rimq",
+     "item_id": "dfoz502",
+     "parent_id": "62rimq",
+     "author": "NowURgone",
+     "created_utc": 1491058308,
+     "dt_parent_sec": 23454,
+     "dt_thread_sec": 23454,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "calling the banner perciva's sick joke"
+     ],
+     "sequence": [
+      "c0006",
+      "na"
+     ],
+     "coverage": 0.35,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493706073
+     }
+    },
+    "3.1": {
+     "thread_id": "62rimq",
+     "item_id": "dfp73i0",
+     "parent_id": "dfoz502",
+     "author": "perciva",
+     "created_utc": 1491069775,
+     "dt_parent_sec": 11467,
+     "dt_thread_sec": 34921,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "denying responsibility for the joke"
+     ],
+     "sequence": [
+      "c0007",
+      "na"
+     ],
+     "coverage": 0.03,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "Math alumnus, member of Senate",
+      "retrieved_on": 1493709902
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62rimq",
+     "item_id": "dfplrxs",
+     "parent_id": "dfp73i0",
+     "author": "NowURgone",
+     "created_utc": 1491091904,
+     "dt_parent_sec": 22129,
+     "dt_thread_sec": 57050,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "keeping the sexy Swede joke going"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493717006
+     }
+    },
+    "4": {
+     "thread_id": "62rimq",
+     "item_id": "dfpx3j1",
+     "parent_id": "62rimq",
+     "author": "ubcquery",
+     "created_utc": 1491111493,
+     "dt_parent_sec": 76639,
+     "dt_thread_sec": 76639,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "sending an SFU reader back to r/simonfraser"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493722480
+     }
+    }
+   },
+   "62rjp3": {
+    "0": {
+     "thread_id": "62rjp3",
+     "item_id": "62rjp3",
+     "parent_id": null,
+     "author": "waylaidwanderer",
+     "created_utc": 1491035422,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "announcing the university website update"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 21,
+      "author_flair_text": "Computing Science (Software Systems)",
+      "retrieved_on": 1494548741
+     }
+    },
+    "1": {
+     "thread_id": "62rjp3",
+     "item_id": "dfpw7z4",
+     "parent_id": "62rjp3",
+     "author": "muntoo",
+     "created_utc": 1491109537,
+     "dt_parent_sec": 74115,
+     "dt_thread_sec": 74115,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "joking that the update makes SFU a real university"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "3rd year - Engineering Physics + Math minor",
+      "retrieved_on": 1493722056
+     }
+    },
+    "2": {
+     "thread_id": "62rjp3",
+     "item_id": "dfq2ub3",
+     "parent_id": "62rjp3",
+     "author": "waylaidwanderer",
+     "created_utc": 1491129194,
+     "dt_parent_sec": 93772,
+     "dt_thread_sec": 93772,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "revealing the website change as April Fools"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Computing Science (Software Systems)",
+      "retrieved_on": 1493725246
+     }
+    }
+   },
+   "62u6dz": {
+    "0": {
+     "thread_id": "62u6dz",
+     "item_id": "62u6dz",
+     "parent_id": null,
+     "author": "sitka",
+     "created_utc": 1491068126,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "warning that SFU is taking away the wifi"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 25,
+      "retrieved_on": 1494550053
+     }
+    },
+    "1": {
+     "thread_id": "62u6dz",
+     "item_id": "dfp9mfj",
+     "parent_id": "62u6dz",
+     "author": "TheTrevLife",
+     "created_utc": 1491073478,
+     "dt_parent_sec": 5352,
+     "dt_thread_sec": 5352,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "calling SFU's April Fools joke stupid but believable"
+     ],
+     "sequence": [
+      "c0014",
+      "na"
+     ],
+     "coverage": 0.81,
+     "meta": {
+      "score": 17,
+      "author_flair_text": "COGS BA, LING MA (in progress)",
+      "retrieved_on": 1493711123
+     }
+    },
+    "1.1": {
+     "thread_id": "62u6dz",
+     "item_id": "dfql75e",
+     "parent_id": "dfp9mfj",
+     "author": "0xB055",
+     "created_utc": 1491160838,
+     "dt_parent_sec": 87360,
+     "dt_thread_sec": 92712,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "admitting they believed the wifi joke"
+     ],
+     "sequence": [
+      "c0015",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493734115
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62u6dz",
+     "item_id": "dfr3g71",
+     "parent_id": "dfql75e",
+     "author": "TheTrevLife",
+     "created_utc": 1491184157,
+     "dt_parent_sec": 23319,
+     "dt_thread_sec": 116031,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "rejecting disabled wifi because classes use the internet"
+     ],
+     "sequence": [
+      "na",
+      "c0016"
+     ],
+     "coverage": 0.07,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "COGS BA, LING MA (in progress)",
+      "retrieved_on": 1493743188
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62u6dz",
+     "item_id": "dfr8di8",
+     "parent_id": "dfr3g71",
+     "author": "0xB055",
+     "created_utc": 1491190063,
+     "dt_parent_sec": 5906,
+     "dt_thread_sec": 121937,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "saying withheld notes give students reason to attend"
+     ],
+     "sequence": [
+      "c0017",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745598
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62u6dz",
+     "item_id": "dfr9382",
+     "parent_id": "dfr8di8",
+     "author": "TheTrevLife",
+     "created_utc": 1491191008,
+     "dt_parent_sec": 945,
+     "dt_thread_sec": 122882,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "preferring optional tutorials without exclusive material"
+     ],
+     "sequence": [
+      "na",
+      "c0018",
+      "na"
+     ],
+     "coverage": 0.05,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "COGS BA, LING MA (in progress)",
+      "retrieved_on": 1493745961
+     }
+    },
+    "1.1.1.2": {
+     "thread_id": "62u6dz",
+     "item_id": "dfs2cy6",
+     "parent_id": "dfr3g71",
+     "author": "cimbalom",
+     "created_utc": 1491242069,
+     "dt_parent_sec": 57912,
+     "dt_thread_sec": 173943,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "rejecting exceptions as a way to handle classroom technology needs"
+     ],
+     "sequence": [
+      "na",
+      "c0019",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "part time - history ",
+      "retrieved_on": 1493763032
+     }
+    }
+   },
+   "62uyn2": {
+    "0": {
+     "thread_id": "62uyn2",
+     "item_id": "62uyn2",
+     "parent_id": null,
+     "author": "Brenfan",
+     "created_utc": 1491075617,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "calling for help creating an SFU logo"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 31,
+      "retrieved_on": 1494550450
+     }
+    },
+    "1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpekwb",
+     "parent_id": "62uyn2",
+     "author": "[deleted]",
+     "created_utc": 1491080941,
+     "dt_parent_sec": 5324,
+     "dt_thread_sec": 5324,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": -3,
+      "retrieved_on": 1493713521
+     }
+    },
+    "1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpenwl",
+     "parent_id": "dfpekwb",
+     "author": "Stupersting11",
+     "created_utc": 1491081070,
+     "dt_parent_sec": 129,
+     "dt_thread_sec": 5453,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "claiming the land and telling Turkey to use its other flag"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493713561
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfperaw",
+     "parent_id": "dfpenwl",
+     "author": "Zoogdier",
+     "created_utc": 1491081220,
+     "dt_parent_sec": 150,
+     "dt_thread_sec": 5603,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "warning against war and offering help above the red area"
+     ],
+     "sequence": [
+      "c0022",
+      "na"
+     ],
+     "coverage": 0.32,
+     "meta": {
+      "edited": 1491081405,
+      "score": 1,
+      "retrieved_on": 1493713607
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpf52j",
+     "parent_id": "dfperaw",
+     "author": "HALK_Bot",
+     "created_utc": 1491081795,
+     "dt_parent_sec": 575,
+     "dt_thread_sec": 6178,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "saying they organized through Discord and Facebook since last night"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493713790
+     }
+    },
+    "1.1.1.2": {
+     "thread_id": "62uyn2",
+     "item_id": "dfph4sj",
+     "parent_id": "dfperaw",
+     "author": "dankinduction",
+     "created_utc": 1491084859,
+     "dt_parent_sec": 3639,
+     "dt_thread_sec": 9242,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "asking Turkey to help rebuild the logo first"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Computing Science",
+      "retrieved_on": 1493714754
+     }
+    },
+    "1.1.1.2.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfph945",
+     "parent_id": "dfph4sj",
+     "author": "Zoogdier",
+     "created_utc": 1491085041,
+     "dt_parent_sec": 182,
+     "dt_thread_sec": 9424,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "promising help and offering to bring allied r/japan onboard"
+     ],
+     "sequence": [
+      "c0025",
+      "na"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "edited": 1491085927,
+      "score": 3,
+      "retrieved_on": 1493714812
+     }
+    },
+    "1.1.1.2.2": {
+     "thread_id": "62uyn2",
+     "item_id": "dfphbj7",
+     "parent_id": "dfph4sj",
+     "author": "Stupersting11",
+     "created_utc": 1491085143,
+     "dt_parent_sec": 284,
+     "dt_thread_sec": 9526,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "refusing to surrender the space"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493714844
+     }
+    },
+    "2": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpiosj",
+     "parent_id": "62uyn2",
+     "author": "jamboreeee",
+     "created_utc": 1491087267,
+     "dt_parent_sec": 11650,
+     "dt_thread_sec": 11650,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "joking about erasing Turkey's flag"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493715509
+     }
+    },
+    "3": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpk30o",
+     "parent_id": "62uyn2",
+     "author": "redditlsv",
+     "created_utc": 1491089376,
+     "dt_parent_sec": 13759,
+     "dt_thread_sec": 13759,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "reporting the logo complete for now"
+     ],
+     "sequence": [
+      "c0028",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493716185
+     }
+    },
+    "3.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpkf6o",
+     "parent_id": "dfpk30o",
+     "author": "Stupersting11",
+     "created_utc": 1491089877,
+     "dt_parent_sec": 501,
+     "dt_thread_sec": 14260,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "saying Turkey is at war with SFU"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493716351
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpnsz1",
+     "parent_id": "dfpkf6o",
+     "author": "Destinyspire",
+     "created_utc": 1491094963,
+     "dt_parent_sec": 5086,
+     "dt_thread_sec": 19346,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "explaining that fighting ended with a protection deal"
+     ],
+     "sequence": [
+      "na",
+      "c0038"
+     ],
+     "coverage": 0.71,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1493717990
+     }
+    },
+    "4": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpke28",
+     "parent_id": "62uyn2",
+     "author": "Destinyspire",
+     "created_utc": 1491089828,
+     "dt_parent_sec": 14211,
+     "dt_thread_sec": 14211,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "calling for help making UVic above SFU"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1493716335
+     }
+    },
+    "4.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpkhz3",
+     "parent_id": "dfpke28",
+     "author": "Stupersting11",
+     "created_utc": 1491089993,
+     "dt_parent_sec": 165,
+     "dt_thread_sec": 14376,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "saying Turkey is fighting back too hard to help UVic"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493716388
+     }
+    },
+    "4.1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpkjli",
+     "parent_id": "dfpkhz3",
+     "author": "Destinyspire",
+     "created_utc": 1491090058,
+     "dt_parent_sec": 65,
+     "dt_thread_sec": 14441,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "laughing at an SFU versus Turkey war"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1493716409
+     }
+    },
+    "4.1.1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpko1s",
+     "parent_id": "dfpkjli",
+     "author": "Alpha023",
+     "created_utc": 1491090242,
+     "dt_parent_sec": 184,
+     "dt_thread_sec": 14625,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "offering to leave SFU alone in exchange for cleanup help"
+     ],
+     "sequence": [
+      "c0033"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493716468
+     }
+    },
+    "4.1.1.1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpkrzd",
+     "parent_id": "dfpko1s",
+     "author": "Destinyspire",
+     "created_utc": 1491090408,
+     "dt_parent_sec": 166,
+     "dt_thread_sec": 14791,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "agreeing to the cleanup truce"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1493716522
+     }
+    },
+    "4.1.1.1.1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpktpi",
+     "parent_id": "dfpkrzd",
+     "author": "Alpha023",
+     "created_utc": 1491090478,
+     "dt_parent_sec": 70,
+     "dt_thread_sec": 14861,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "promising to tell the others about the truce"
+     ],
+     "sequence": [
+      "c0035"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493716546
+     }
+    },
+    "4.1.1.1.1.1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpkufy",
+     "parent_id": "dfpktpi",
+     "author": "Destinyspire",
+     "created_utc": 1491090506,
+     "dt_parent_sec": 28,
+     "dt_thread_sec": 14889,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "taking the truce to r/Turkey"
+     ],
+     "sequence": [
+      "c0036"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1493716555
+     }
+    },
+    "5": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpmqa6",
+     "parent_id": "62uyn2",
+     "author": "mikexcao",
+     "created_utc": 1491093318,
+     "dt_parent_sec": 17701,
+     "dt_thread_sec": 17701,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "asking SFU to shift its box down ten pixels"
+     ],
+     "sequence": [
+      "na",
+      "c0037"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "edited": 1491093730,
+      "score": -2,
+      "retrieved_on": 1493717470
+     }
+    },
+    "5.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpon7k",
+     "parent_id": "dfpmqa6",
+     "author": "Liam3997",
+     "created_utc": 1491096283,
+     "dt_parent_sec": 2965,
+     "dt_thread_sec": 20666,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "refusing to give up hard-fought space"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493718396
+     }
+    },
+    "5.1.1": {
+     "thread_id": "62uyn2",
+     "item_id": "dfpsvo1",
+     "parent_id": "dfpon7k",
+     "author": "mikexcao",
+     "created_utc": 1491103203,
+     "dt_parent_sec": 6920,
+     "dt_thread_sec": 27586,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "moving after SFU refuses"
+     ],
+     "sequence": [
+      "c0040"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493720449
+     }
+    }
+   },
+   "62v5y0": {
+    "0": {
+     "thread_id": "62v5y0",
+     "item_id": "62v5y0",
+     "parent_id": null,
+     "author": "VulpeTheFox",
+     "created_utc": 1491077532,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "letting SFU know its logo is on r/place"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 24,
+      "retrieved_on": 1494550560
+     }
+    },
+    "1": {
+     "thread_id": "62v5y0",
+     "item_id": "dfphvy4",
+     "parent_id": "62v5y0",
+     "author": "Stupersting11",
+     "created_utc": 1491086034,
+     "dt_parent_sec": 8502,
+     "dt_thread_sec": 8502,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "asking the VIU visitor to help fight for the logo"
+     ],
+     "sequence": [
+      "c0042",
+      "na"
+     ],
+     "coverage": 0.56,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715122
+     }
+    },
+    "1.1": {
+     "thread_id": "62v5y0",
+     "item_id": "dfpjc7r",
+     "parent_id": "dfphvy4",
+     "author": "VulpeTheFox",
+     "created_utc": 1491088235,
+     "dt_parent_sec": 2201,
+     "dt_thread_sec": 10703,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "agreeing to help when Canada and the Canucks allow"
+     ],
+     "sequence": [
+      "c0043"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715825
+     }
+    },
+    "2": {
+     "thread_id": "62v5y0",
+     "item_id": "dfppwq6",
+     "parent_id": "62v5y0",
+     "author": "Hurtaz",
+     "created_utc": 1491098226,
+     "dt_parent_sec": 20694,
+     "dt_thread_sec": 20694,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "loving the cute SFU logo"
+     ],
+     "sequence": [
+      "c0044"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493719008
+     }
+    }
+   },
+   "62wij7": {
+    "0": {
+     "thread_id": "62wij7",
+     "item_id": "62wij7",
+     "parent_id": null,
+     "author": "Destinyspire",
+     "created_utc": 1491091238,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "announcing the agreement to defend Turkey's flag for peace"
+     ],
+     "sequence": [
+      "c0045",
+      "na"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": 27,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1494551228
+     }
+    },
+    "1": {
+     "thread_id": "62wij7",
+     "item_id": "dfpme8m",
+     "parent_id": "62wij7",
+     "author": "Zoogdier",
+     "created_utc": 1491092814,
+     "dt_parent_sec": 1576,
+     "dt_thread_sec": 1576,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "asking defenders to follow the flag sheet"
+     ],
+     "sequence": [
+      "na",
+      "c0046",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493717306
+     }
+    },
+    "1.1": {
+     "thread_id": "62wij7",
+     "item_id": "dfpmpp8",
+     "parent_id": "dfpme8m",
+     "author": "Destinyspire",
+     "created_utc": 1491093294,
+     "dt_parent_sec": 480,
+     "dt_thread_sec": 2056,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "thanking Turkey for the star shape"
+     ],
+     "sequence": [
+      "c0047"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1493717462
+     }
+    },
+    "2": {
+     "thread_id": "62wij7",
+     "item_id": "dfpq2fl",
+     "parent_id": "62wij7",
+     "author": "Hurtaz",
+     "created_utc": 1491098475,
+     "dt_parent_sec": 7237,
+     "dt_thread_sec": 7237,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "reporting that the flag is holding up"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493719084
+     }
+    },
+    "2.1": {
+     "thread_id": "62wij7",
+     "item_id": "dfpqmf7",
+     "parent_id": "dfpq2fl",
+     "author": "Destinyspire",
+     "created_utc": 1491099395,
+     "dt_parent_sec": 920,
+     "dt_thread_sec": 8157,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "calling for continued defense to uphold the deal"
+     ],
+     "sequence": [
+      "c0049"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1493719355
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62wij7",
+     "item_id": "dfpqpj1",
+     "parent_id": "dfpqmf7",
+     "author": "Hurtaz",
+     "created_utc": 1491099540,
+     "dt_parent_sec": 145,
+     "dt_thread_sec": 8302,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "laughing that SFU has become SPU"
+     ],
+     "sequence": [
+      "c0050"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493719396
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62wij7",
+     "item_id": "dfpr6o9",
+     "parent_id": "dfpqpj1",
+     "author": "Destinyspire",
+     "created_utc": 1491100333,
+     "dt_parent_sec": 793,
+     "dt_thread_sec": 9095,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "watching the logo like hawks and fixing it"
+     ],
+     "sequence": [
+      "na",
+      "c0051"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1493719626
+     }
+    },
+    "3": {
+     "thread_id": "62wij7",
+     "item_id": "dfpulp9",
+     "parent_id": "62wij7",
+     "author": "neilrp",
+     "created_utc": 1491106341,
+     "dt_parent_sec": 15103,
+     "dt_thread_sec": 15103,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "joining the defense of Turkey's flag from UBC"
+     ],
+     "sequence": [
+      "c0052"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "UBC Arts",
+      "retrieved_on": 1493721277
+     }
+    }
+   },
+   "62xskl": {
+    "0": {
+     "thread_id": "62xskl",
+     "item_id": "62xskl",
+     "parent_id": null,
+     "author": "Hurtaz",
+     "created_utc": 1491107186,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "congratulating SFU, UVic, and UBC"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1494551866
+     }
+    }
+   },
+   "62zyv2": {
+    "0": {
+     "thread_id": "62zyv2",
+     "item_id": "62zyv2",
+     "parent_id": null,
+     "author": "braingle987",
+     "created_utc": 1491144074,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "proposing an SFU crest beside UBC and UVic"
+     ],
+     "sequence": [
+      "c0054"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1494552954
+     }
+    },
+    "1": {
+     "thread_id": "62zyv2",
+     "item_id": "dfq8wv7",
+     "parent_id": "62zyv2",
+     "author": "braingle987",
+     "created_utc": 1491144248,
+     "dt_parent_sec": 174,
+     "dt_thread_sec": 174,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "offering a crest design"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493728178
+     }
+    },
+    "2": {
+     "thread_id": "62zyv2",
+     "item_id": "dfqg8xg",
+     "parent_id": "62zyv2",
+     "author": "Chionophile",
+     "created_utc": 1491154499,
+     "dt_parent_sec": 10425,
+     "dt_thread_sec": 10425,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "suggesting a backup place to redraw the university logos"
+     ],
+     "sequence": [
+      "na",
+      "c0056"
+     ],
+     "coverage": 0.64,
+     "meta": {
+      "edited": 1491154740,
+      "score": 5,
+      "retrieved_on": 1493731714
+     }
+    },
+    "3": {
+     "thread_id": "62zyv2",
+     "item_id": "dfql5zt",
+     "parent_id": "62zyv2",
+     "author": "redditlsv",
+     "created_utc": 1491160797,
+     "dt_parent_sec": 16723,
+     "dt_thread_sec": 16723,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "saying UBC's crest space should have gone to BCIT"
+     ],
+     "sequence": [
+      "c0057"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493734099
+     }
+    },
+    "4": {
+     "thread_id": "62zyv2",
+     "item_id": "dfqlwta",
+     "parent_id": "62zyv2",
+     "author": "PunPryde",
+     "created_utc": 1491161751,
+     "dt_parent_sec": 17677,
+     "dt_thread_sec": 17677,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "asking for detailed crest instructions"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "BBA Honours '13",
+      "retrieved_on": 1493734459
+     }
+    },
+    "5": {
+     "thread_id": "62zyv2",
+     "item_id": "dfqodtu",
+     "parent_id": "62zyv2",
+     "author": "schadenfreude57",
+     "created_utc": 1491165080,
+     "dt_parent_sec": 21006,
+     "dt_thread_sec": 21006,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "asking SFU to move for Steven Universe expansion"
+     ],
+     "sequence": [
+      "na",
+      "c0059"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493735651
+     }
+    },
+    "5.1": {
+     "thread_id": "62zyv2",
+     "item_id": "dfqoitz",
+     "parent_id": "dfqodtu",
+     "author": "earthcontrol",
+     "created_utc": 1491165273,
+     "dt_parent_sec": 193,
+     "dt_thread_sec": 21199,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "saying r/stevenuniverse already occupies the spot"
+     ],
+     "sequence": [
+      "c0060"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493735717
+     }
+    },
+    "6": {
+     "thread_id": "62zyv2",
+     "item_id": "dfqu5iw",
+     "parent_id": "62zyv2",
+     "author": "tg4414",
+     "created_utc": 1491172630,
+     "dt_parent_sec": 28556,
+     "dt_thread_sec": 28556,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "telling logo makers to study for finals instead"
+     ],
+     "sequence": [
+      "c0061"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491187350,
+      "score": 6,
+      "author_flair_text": "Poli-Sci major/IS minor ",
+      "retrieved_on": 1493738681
+     }
+    },
+    "6.1": {
+     "thread_id": "62zyv2",
+     "item_id": "dfr2y6y",
+     "parent_id": "dfqu5iw",
+     "author": "muntoo",
+     "created_utc": 1491183581,
+     "dt_parent_sec": 10951,
+     "dt_thread_sec": 39507,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "treating a pixel every five minutes as a study break"
+     ],
+     "sequence": [
+      "c0062"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "3rd year - Engineering Physics + Math minor",
+      "retrieved_on": 1493742948
+     }
+    }
+   },
+   "631xdv": {
+    "0": {
+     "thread_id": "631xdv",
+     "item_id": "631xdv",
+     "parent_id": null,
+     "author": "GlaucomysSabrinus",
+     "created_utc": 1491163867,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "asking SFU to help spruce up UVic's logo"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1494553959
+     }
+    },
+    "1": {
+     "thread_id": "631xdv",
+     "item_id": "dfqoo3r",
+     "parent_id": "631xdv",
+     "author": "redditlsv",
+     "created_utc": 1491165482,
+     "dt_parent_sec": 1615,
+     "dt_thread_sec": 1615,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "having attempted help repixelated as vandalism"
+     ],
+     "sequence": [
+      "c0064"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493735788
+     }
+    },
+    "1.1": {
+     "thread_id": "631xdv",
+     "item_id": "dfqquwl",
+     "parent_id": "dfqoo3r",
+     "author": "GlaucomysSabrinus",
+     "created_utc": 1491168548,
+     "dt_parent_sec": 3066,
+     "dt_thread_sec": 4681,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "saying the UVic change has been hard to start"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493737086
+     }
+    }
+   },
+   "635g7h": {
+    "0": {
+     "thread_id": "635g7h",
+     "item_id": "635g7h",
+     "parent_id": null,
+     "author": "Destinyspire",
+     "created_utc": 1491207298,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "calling everyone to fight the black void"
+     ],
+     "sequence": [
+      "na",
+      "c0066"
+     ],
+     "coverage": 0.14,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "CMNS 3rd Year",
+      "retrieved_on": 1494555756
+     }
+    },
+    "1": {
+     "thread_id": "635g7h",
+     "item_id": "dfrno87",
+     "parent_id": "635g7h",
+     "author": "Detrain100",
+     "created_utc": 1491223660,
+     "dt_parent_sec": 16362,
+     "dt_thread_sec": 16362,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "warning that the gone logo looks like free space"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493753884
+     }
+    }
+   },
+   "636k8b": {
+    "0": {
+     "thread_id": "636k8b",
+     "item_id": "636k8b",
+     "parent_id": null,
+     "author": "CrayolaWashables",
+     "created_utc": 1491223959,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0068",
+      "c0069"
+     ],
+     "labels": [
+      "declaring SFU, UBC, and UVic allies",
+      "spending two hours protecting and rebuilding the logo"
+     ],
+     "sequence": [
+      "c0068",
+      "c0069"
+     ],
+     "coverage": 0.67,
+     "meta": {
+      "score": 44,
+      "retrieved_on": 1494556319
+     }
+    },
+    "1": {
+     "thread_id": "636k8b",
+     "item_id": "dfrrriw",
+     "parent_id": "636k8b",
+     "author": "goalieca",
+     "created_utc": 1491229589,
+     "dt_parent_sec": 5630,
+     "dt_thread_sec": 5630,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "pitying BCIT"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 11,
+      "author_flair_text": "ensc alumni",
+      "retrieved_on": 1493756229
+     }
+    },
+    "2": {
+     "thread_id": "636k8b",
+     "item_id": "dfrv1yl",
+     "parent_id": "636k8b",
+     "author": "Tokyla",
+     "created_utc": 1491233546,
+     "dt_parent_sec": 9587,
+     "dt_thread_sec": 9587,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "praising two hours spent rebuilding"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493758454
+     }
+    },
+    "3": {
+     "thread_id": "636k8b",
+     "item_id": "dfs37po",
+     "parent_id": "636k8b",
+     "author": "RealLongtimeLurker69",
+     "created_utc": 1491243020,
+     "dt_parent_sec": 19061,
+     "dt_thread_sec": 19061,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "calling the three universities a triumvirate"
+     ],
+     "sequence": [
+      "c0072"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493763475
+     }
+    },
+    "4": {
+     "thread_id": "636k8b",
+     "item_id": "dfs8mfi",
+     "parent_id": "636k8b",
+     "author": "angry_burmese",
+     "created_utc": 1491249430,
+     "dt_parent_sec": 25471,
+     "dt_thread_sec": 25471,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "jokingly renaming UBC as OBC"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 20,
+      "author_flair_text": "Environmental Science",
+      "retrieved_on": 1493766104
+     }
+    },
+    "5": {
+     "thread_id": "636k8b",
+     "item_id": "dfshju8",
+     "parent_id": "636k8b",
+     "author": "chairisborednow024",
+     "created_utc": 1491259829,
+     "dt_parent_sec": 35870,
+     "dt_thread_sec": 35870,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "calling the overnight rebuilder SFU's hero"
+     ],
+     "sequence": [
+      "na",
+      "c0074"
+     ],
+     "coverage": 0.35,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493770410
+     }
+    },
+    "6": {
+     "thread_id": "636k8b",
+     "item_id": "dfsu0n2",
+     "parent_id": "636k8b",
+     "author": "ChimpVision",
+     "created_utc": 1491275050,
+     "dt_parent_sec": 51091,
+     "dt_thread_sec": 51091,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "mourning Sprott Shaw"
+     ],
+     "sequence": [
+      "c0075"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493776605
+     }
+    }
+   },
+   "6376ba": {
+    "0": {
+     "thread_id": "6376ba",
+     "item_id": "6376ba",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491230387,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "spotting a good opportunity to make the crest"
+     ],
+     "sequence": [
+      "c0076"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "edited": 1491231320,
+      "score": 2,
+      "retrieved_on": 1494556628
+     }
+    }
+   }
+  }
+ }
+}

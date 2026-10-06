@@ -1,0 +1,1 @@
+r/theexpanse — branch B — verdict: full. Selection saturation: complete for the supplied record. Analytic saturation: core practices stabilized, but new future-planning practice appeared in the final slice and Discord remains partly unseen. Blocked: nothing.

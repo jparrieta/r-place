@@ -1,0 +1,25 @@
+# lexicon — r/minnesotavikings
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Purple People Eaters (62pcne)
+- Zombies vs Humans (dfos039)
+- 2 skols 1 cup (dfpeejo)
+- Gophers (62w7r4)
+- Badgers (62w7r4)
+- SKOL (62x7nu)
+- BANner (dfprttg)
+- the_pack (dfprxw6)
+- the_rats (dfprxw6)
+- Norseman (62y466)
+- Skoldiers (dfq9oa7)
+- HOLD THE LINE (dfqpito)
+- the 300 (dfqpito)
+- the void (dfqpmq1)
+- VT (dfqz4vw)
+- purple/gold lattice (dfr47sr)
+- purple #4 (dfrg18j)
+- green menace (dfrtkmp)
+- norse-bros (dfrtn7a)
+- joint custodying the #4 (dfrttng)
+- Bradwater (63f5j4)

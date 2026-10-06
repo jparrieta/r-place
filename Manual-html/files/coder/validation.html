@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>validation/</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/validation.md">Markdown source</a></nav>
+<h1 id="validation">validation/</h1>
+<p>The receipts that say how a room's lead was prompted and what the checks found.</p>
+<p><strong>What it holds</strong></p>
+<p>As found on disk: <code>CASE-LEAD-PROMPT.md</code> (the prompting document), <code>prompting.json</code> (version, model, effort, the document's and message's sha256, the source brief's sha256), <code>lead-opening.txt</code> (the whole opening message the lead received), <code>RUN-RECEIPT.json</code>, <code>run-check.txt</code> and <code>checkpoint-check.txt</code>.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p><code>start_yard_lead.py</code> writes <code>prompting.json</code> and <code>lead-opening.txt</code> into the store's <code>state/</code> before the first turn. CASE-LEAD-PROMPT.md says "a copy of the prompting receipt accompanies the room's validation documents" under <code>rooms/&lt;community&gt;/validation/</code>. The script that copies them there and writes <code>RUN-RECEIPT.json</code>, <code>run-check.txt</code> and <code>checkpoint-check.txt</code> is not among these sources; <code>coding_queue.py</code> reads <code>RUN-RECEIPT.json</code> (including <code>reported_total_tokens</code>) to decide a room is finished.</p>
+<p><strong>Why it exists</strong></p>
+<p>So a calibrated run "is distinguishable from the earlier uncalibrated demonstration", and so the mechanical checks travel with the reading. "Mechanical success does not certify the qualitative reading."</p>
+<p><strong>Where</strong></p>
+<p><code>validation/</code> in each sample room, for example <a href="../../../coder/rooms/armenia/">armenia</a>.</p>
+<p>Checked against: CASE-LEAD-PROMPT.md, _tools/start_yard_lead.py, _tools/coding_queue.py</p>
+</body>
+</html>

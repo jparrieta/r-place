@@ -1,0 +1,3029 @@
+{
+ "python": {
+  "counts": {
+   "threads_given": 20,
+   "threads_with_codes": 20,
+   "items": 269,
+   "coded": 110,
+   "bridge": 12,
+   "removed": 0,
+   "dropped": 147,
+   "orphans": 0,
+   "na_stretches": 48,
+   "coverage_of_coded_items": 0.73,
+   "threads_total_in_window": 190
+  },
+  "index": {
+   "62ph3u": {
+    "0": {
+     "thread_id": "62ph3u",
+     "item_id": "62ph3u",
+     "parent_id": null,
+     "author": "PurdueME06",
+     "created_utc": 1491007439,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001",
+      "c0002"
+     ],
+     "labels": [
+      "sharing a very quick and dirty r/place module",
+      "adding programs that clean the blue corner and erase random pixels"
+     ],
+     "sequence": [
+      "c0001",
+      "na",
+      "c0002",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "edited": 1491083678,
+      "score": 33,
+      "retrieved_on": 1492477340
+     }
+    },
+    "1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfod4vv",
+     "parent_id": "62ph3u",
+     "author": "PurdueME06",
+     "created_utc": 1491010541,
+     "dt_parent_sec": 3102,
+     "dt_thread_sec": 3102,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "calling the random-pixel script a magic eraser"
+     ],
+     "sequence": [
+      "c0003",
+      "na"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493695462
+     }
+    },
+    "2": {
+     "thread_id": "62ph3u",
+     "item_id": "dfoejbw",
+     "parent_id": "62ph3u",
+     "author": "yoyopwnage",
+     "created_utc": 1491012573,
+     "dt_parent_sec": 5134,
+     "dt_thread_sec": 5134,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "pointing out missing imports"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493696138
+     }
+    },
+    "2.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfoeq33",
+     "parent_id": "dfoejbw",
+     "author": "PurdueME06",
+     "created_utc": 1491012847,
+     "dt_parent_sec": 274,
+     "dt_thread_sec": 5408,
+     "state": "coded",
+     "code_ids": [
+      "c0005",
+      "c0006"
+     ],
+     "labels": [
+      "moving the imports into the module body after the reminder",
+      "imagining hundreds of clients painting from shared JSON"
+     ],
+     "sequence": [
+      "c0005",
+      "c0006"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493696228
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfof7fr",
+     "parent_id": "dfoeq33",
+     "author": "yoyopwnage",
+     "created_utc": 1491013541,
+     "dt_parent_sec": 694,
+     "dt_thread_sec": 6102,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "asking how to total coloured pixels"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 0.77,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493696460
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfofv7k",
+     "parent_id": "dfof7fr",
+     "author": "PurdueME06",
+     "created_utc": 1491014481,
+     "dt_parent_sec": 940,
+     "dt_thread_sec": 7042,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "suggesting counting pixels from a snapshot image"
+     ],
+     "sequence": [
+      "na",
+      "c0008"
+     ],
+     "coverage": 0.68,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493696779
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfogh2s",
+     "parent_id": "dfofv7k",
+     "author": "yoyopwnage",
+     "created_utc": 1491015415,
+     "dt_parent_sec": 934,
+     "dt_thread_sec": 7976,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "wanting a leaderboard of claimed spaces"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493697072
+     }
+    },
+    "3": {
+     "thread_id": "62ph3u",
+     "item_id": "dfol8pd",
+     "parent_id": "62ph3u",
+     "author": "PurdueME06",
+     "created_utc": 1491023625,
+     "dt_parent_sec": 16186,
+     "dt_thread_sec": 16186,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "taking down the blue corner with a script"
+     ],
+     "sequence": [
+      "c0010",
+      "na"
+     ],
+     "coverage": 0.09,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493699375
+     }
+    },
+    "4": {
+     "thread_id": "62ph3u",
+     "item_id": "dfosoct",
+     "parent_id": "62ph3u",
+     "author": "tea-drinker",
+     "created_utc": 1491044547,
+     "dt_parent_sec": 37108,
+     "dt_thread_sec": 37108,
+     "state": "coded",
+     "code_ids": [
+      "c0011",
+      "c0012"
+     ],
+     "labels": [
+      "proposing a picture-matching tool collaborators can share",
+      "working on the shared-picture tool and asking for range downloads"
+     ],
+     "sequence": [
+      "c0011",
+      "c0012"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "edited": 1491046082,
+      "score": 1,
+      "retrieved_on": 1493702963
+     }
+    },
+    "4.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfoxh89",
+     "parent_id": "dfosoct",
+     "author": "PurdueME06",
+     "created_utc": 1491055590,
+     "dt_parent_sec": 11043,
+     "dt_thread_sec": 48151,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "designing clients that subscribe to an image expressed as JSON"
+     ],
+     "sequence": [
+      "na",
+      "c0013",
+      "na"
+     ],
+     "coverage": 0.04,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493705275
+     }
+    },
+    "4.1.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfoxt80",
+     "parent_id": "dfoxh89",
+     "author": "tea-drinker",
+     "created_utc": 1491056139,
+     "dt_parent_sec": 549,
+     "dt_thread_sec": 48700,
+     "state": "coded",
+     "code_ids": [
+      "c0014",
+      "c0015"
+     ],
+     "labels": [
+      "letting canvas damage guide a repair bot",
+      "using vandals' changes to guide the bot toward finishing a picture"
+     ],
+     "sequence": [
+      "na",
+      "c0014",
+      "c0015"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493705434
+     }
+    },
+    "4.1.2": {
+     "thread_id": "62ph3u",
+     "item_id": "dfoycls",
+     "parent_id": "dfoxh89",
+     "author": "zahlman",
+     "created_utc": 1491057040,
+     "dt_parent_sec": 1450,
+     "dt_thread_sec": 49601,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "suggesting that the program interpret the image directly"
+     ],
+     "sequence": [
+      "na",
+      "c0016",
+      "na"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "the heretic",
+      "retrieved_on": 1493705695
+     }
+    },
+    "4.1.3": {
+     "thread_id": "62ph3u",
+     "item_id": "dfpe7ln",
+     "parent_id": "dfoxh89",
+     "author": "tea-drinker",
+     "created_utc": 1491080380,
+     "dt_parent_sec": 24790,
+     "dt_thread_sec": 72941,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "asking permission to copy the code to GitHub"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493713339
+     }
+    },
+    "4.1.3.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfpg8qj",
+     "parent_id": "dfpe7ln",
+     "author": "PurdueME06",
+     "created_utc": 1491083485,
+     "dt_parent_sec": 3105,
+     "dt_thread_sec": 76046,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "giving permission to copy the code and requesting a bugfix"
+     ],
+     "sequence": [
+      "c0021",
+      "na"
+     ],
+     "coverage": 0.32,
+     "meta": {
+      "edited": 1491083968,
+      "score": 1,
+      "retrieved_on": 1493714324
+     }
+    },
+    "4.1.3.1.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfpguo2",
+     "parent_id": "dfpg8qj",
+     "author": "tea-drinker",
+     "created_utc": 1491084431,
+     "dt_parent_sec": 946,
+     "dt_thread_sec": 76992,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "thanking the author for permission to copy"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493714619
+     }
+    },
+    "4.2": {
+     "thread_id": "62ph3u",
+     "item_id": "dfoysho",
+     "parent_id": "dfosoct",
+     "author": "anders987",
+     "created_utc": 1491057757,
+     "dt_parent_sec": 13210,
+     "dt_thread_sec": 50318,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "sharing a working picture-based painter"
+     ],
+     "sequence": [
+      "na",
+      "c0017"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493705905
+     }
+    },
+    "4.2.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfpvjkl",
+     "parent_id": "dfoysho",
+     "author": "PurdueME06",
+     "created_utc": 1491108144,
+     "dt_parent_sec": 50387,
+     "dt_thread_sec": 100705,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "joking about needing a botnet and Russian Reddit accounts"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493721730
+     }
+    },
+    "5": {
+     "thread_id": "62ph3u",
+     "item_id": "dfoyvv0",
+     "parent_id": "62ph3u",
+     "author": "anders987",
+     "created_utc": 1491057908,
+     "dt_parent_sec": 50469,
+     "dt_thread_sec": 50469,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "reporting that draw does not pass the colour"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493705950
+     }
+    },
+    "5.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfpgj4n",
+     "parent_id": "dfoyvv0",
+     "author": "PurdueME06",
+     "created_utc": 1491083935,
+     "dt_parent_sec": 26027,
+     "dt_thread_sec": 76496,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "accepting the colour bug report"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493714462
+     }
+    },
+    "6": {
+     "thread_id": "62ph3u",
+     "item_id": "dfq7u5x",
+     "parent_id": "62ph3u",
+     "author": "LittleJono",
+     "created_utc": 1491142377,
+     "dt_parent_sec": 134938,
+     "dt_thread_sec": 134938,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "asking how the drawing endpoints were found"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493727661
+     }
+    },
+    "6.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfq9j29",
+     "parent_id": "dfq7u5x",
+     "author": "PurdueME06",
+     "created_utc": 1491145250,
+     "dt_parent_sec": 2873,
+     "dt_thread_sec": 137811,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "explaining that clicking and inspecting traffic revealed the endpoints"
+     ],
+     "sequence": [
+      "c0025",
+      "na"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493728476
+     }
+    },
+    "7": {
+     "thread_id": "62ph3u",
+     "item_id": "dfqp2cd",
+     "parent_id": "62ph3u",
+     "author": "poorthesisman",
+     "created_utc": 1491166058,
+     "dt_parent_sec": 158619,
+     "dt_thread_sec": 158619,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "reporting that the module only draws white"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493735979
+     }
+    },
+    "7.1": {
+     "thread_id": "62ph3u",
+     "item_id": "dfqpewj",
+     "parent_id": "dfqp2cd",
+     "author": "PurdueME06",
+     "created_utc": 1491166568,
+     "dt_parent_sec": 510,
+     "dt_thread_sec": 159129,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "confirming the colour-passing bug"
+     ],
+     "sequence": [
+      "c0027",
+      "na"
+     ],
+     "coverage": 0.44,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493736159
+     }
+    },
+    "8": {
+     "thread_id": "62ph3u",
+     "item_id": "dfrwuse",
+     "parent_id": "62ph3u",
+     "author": "nomis6432",
+     "created_utc": 1491235627,
+     "dt_parent_sec": 228188,
+     "dt_thread_sec": 228188,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "adapting the module to maintain a QR code and thanking its author"
+     ],
+     "sequence": [
+      "na",
+      "c0028"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493759346
+     }
+    }
+   },
+   "62piwt": {
+    "0": {
+     "thread_id": "62piwt",
+     "item_id": "62piwt",
+     "parent_id": null,
+     "author": "aphoenix",
+     "created_utc": 1491008003,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "posting an official Scala job board as the subreddit joke"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 28,
+      "author_flair_text": "reticulated",
+      "retrieved_on": 1492477364
+     }
+    },
+    "1": {
+     "thread_id": "62piwt",
+     "item_id": "dfobx6h",
+     "parent_id": "62piwt",
+     "author": "mingp",
+     "created_utc": 1491008794,
+     "dt_parent_sec": 791,
+     "dt_thread_sec": 791,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "recognising an elaborate April Fool's setup"
+     ],
+     "sequence": [
+      "na",
+      "c0030"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1493694870
+     }
+    },
+    "1.1": {
+     "thread_id": "62piwt",
+     "item_id": "dfobypa",
+     "parent_id": "dfobx6h",
+     "author": "aphoenix",
+     "created_utc": 1491008855,
+     "dt_parent_sec": 61,
+     "dt_thread_sec": 852,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "crediting joshlemer for the April Fool's work"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "reticulated",
+      "retrieved_on": 1493694891
+     }
+    },
+    "1.2": {
+     "thread_id": "62piwt",
+     "item_id": "dfpfvki",
+     "parent_id": "dfobx6h",
+     "author": "RandoBurnerDude",
+     "created_utc": 1491082926,
+     "dt_parent_sec": 74132,
+     "dt_thread_sec": 74923,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "asking for real Scala learning recommendations"
+     ],
+     "sequence": [
+      "c0038"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493714147
+     }
+    },
+    "1.2.1": {
+     "thread_id": "62piwt",
+     "item_id": "dfpswz3",
+     "parent_id": "dfpfvki",
+     "author": "joshlemer",
+     "created_utc": 1491103265,
+     "dt_parent_sec": 20339,
+     "dt_thread_sec": 95262,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "recommending a real Scala course inside the joke thread"
+     ],
+     "sequence": [
+      "c0039",
+      "na"
+     ],
+     "coverage": 0.12,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493720466
+     }
+    },
+    "1.2.2": {
+     "thread_id": "62piwt",
+     "item_id": "dfpv04h",
+     "parent_id": "dfpfvki",
+     "author": "mingp",
+     "created_utc": 1491107084,
+     "dt_parent_sec": 24158,
+     "dt_thread_sec": 99081,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "recommending Scala School inside the joke thread"
+     ],
+     "sequence": [
+      "na",
+      "c0040",
+      "na"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493721471
+     }
+    },
+    "2": {
+     "thread_id": "62piwt",
+     "item_id": "dfoz4aa",
+     "parent_id": "62piwt",
+     "author": "kurashu89",
+     "created_utc": 1491058277,
+     "dt_parent_sec": 50274,
+     "dt_thread_sec": 50274,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "advertising an impossible twenty-years-of-Scala job"
+     ],
+     "sequence": [
+      "c0032",
+      "na"
+     ],
+     "coverage": 0.62,
+     "meta": {
+      "score": 32,
+      "author_flair_text": "github.com/justanr | Py3 Evangelist",
+      "retrieved_on": 1493706062
+     }
+    },
+    "2.1": {
+     "thread_id": "62piwt",
+     "item_id": "dfpq789",
+     "parent_id": "dfoz4aa",
+     "author": "short_vix",
+     "created_utc": 1491098693,
+     "dt_parent_sec": 40416,
+     "dt_thread_sec": 90690,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "offering a team of capuchin monkeys for the fake job"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 0.74,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493719148
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62piwt",
+     "item_id": "dfps5py",
+     "parent_id": "dfpq789",
+     "author": "kurashu89",
+     "created_utc": 1491101985,
+     "dt_parent_sec": 3292,
+     "dt_thread_sec": 93982,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "adding bike pegs to compensate the monkey team"
+     ],
+     "sequence": [
+      "c0035"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "github.com/justanr | Py3 Evangelist",
+      "retrieved_on": 1493720100
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62piwt",
+     "item_id": "dfpsm71",
+     "parent_id": "dfps5py",
+     "author": "short_vix",
+     "created_utc": 1491102758,
+     "dt_parent_sec": 773,
+     "dt_thread_sec": 94755,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "asking whether the offered bike can fly"
+     ],
+     "sequence": [
+      "c0036"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493720320
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62piwt",
+     "item_id": "dfpsnxu",
+     "parent_id": "dfpsm71",
+     "author": "kurashu89",
+     "created_utc": 1491102841,
+     "dt_parent_sec": 83,
+     "dt_thread_sec": 94838,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "saying the bike might fly with a basket, alien, or ramp"
+     ],
+     "sequence": [
+      "c0037"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "edited": 1491161185,
+      "score": 3,
+      "author_flair_text": "github.com/justanr | Py3 Evangelist",
+      "retrieved_on": 1493720345
+     }
+    },
+    "3": {
+     "thread_id": "62piwt",
+     "item_id": "dfp8ogk",
+     "parent_id": "62piwt",
+     "author": "IronManMark20",
+     "created_utc": 1491072081,
+     "dt_parent_sec": 64078,
+     "dt_thread_sec": 64078,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "applying with contradictory years of Scala experience"
+     ],
+     "sequence": [
+      "c0033",
+      "na"
+     ],
+     "coverage": 0.47,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "AttributeError: 'user' object has no attribute 'flair'",
+      "retrieved_on": 1493710667
+     }
+    },
+    "3.1": {
+     "thread_id": "62piwt",
+     "item_id": "dfps709",
+     "parent_id": "dfp8ogk",
+     "author": "kurashu89",
+     "created_utc": 1491102042,
+     "dt_parent_sec": 29961,
+     "dt_thread_sec": 94039,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "github.com/justanr | Py3 Evangelist",
+      "retrieved_on": 1493720116
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62piwt",
+     "item_id": "dfpupc3",
+     "parent_id": "dfps709",
+     "author": "IronManMark20",
+     "created_utc": 1491106528,
+     "dt_parent_sec": 4486,
+     "dt_thread_sec": 98525,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "revealing that the dead GitHub link was part of the April joke"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "AttributeError: 'user' object has no attribute 'flair'",
+      "retrieved_on": 1493721326
+     }
+    }
+   },
+   "62pl8y": {
+    "0": {
+     "thread_id": "62pl8y",
+     "item_id": "62pl8y",
+     "parent_id": null,
+     "author": "kirbyfan64sos",
+     "created_utc": 1491008753,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "announcing a politically-correct linter as an April joke"
+     ],
+     "sequence": [
+      "c0042"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "author_flair_text": "IndentationError",
+      "retrieved_on": 1492477460
+     }
+    }
+   },
+   "62pni4": {
+    "0": {
+     "thread_id": "62pni4",
+     "item_id": "62pni4",
+     "parent_id": null,
+     "author": "fried_green_baloney",
+     "created_utc": 1491009458,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0043",
+      "c0044"
+     ],
+     "labels": [
+      "asking why the board has the Scala logo",
+      "listing the Scala job board and sidebar changes"
+     ],
+     "sequence": [
+      "c0043",
+      "na",
+      "c0044"
+     ],
+     "coverage": 0.68,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1492477490
+     }
+    },
+    "1": {
+     "thread_id": "62pni4",
+     "item_id": "dfocjcz",
+     "parent_id": "62pni4",
+     "author": "Rhomboid",
+     "created_utc": 1491009674,
+     "dt_parent_sec": 216,
+     "dt_thread_sec": 216,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "complaining about the internet on April Fools day"
+     ],
+     "sequence": [
+      "c0045"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493695170
+     }
+    },
+    "1.1": {
+     "thread_id": "62pni4",
+     "item_id": "dfocp2k",
+     "parent_id": "dfocjcz",
+     "author": "fried_green_baloney",
+     "created_utc": 1491009904,
+     "dt_parent_sec": 230,
+     "dt_thread_sec": 446,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "getting the joke with a dry laugh"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 0.95,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493695248
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62pni4",
+     "item_id": "dfoo85z",
+     "parent_id": "dfocp2k",
+     "author": "breamoreboy",
+     "created_utc": 1491030479,
+     "dt_parent_sec": 20575,
+     "dt_thread_sec": 21021,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "nearly attacking Reddit before the joke clicked"
+     ],
+     "sequence": [
+      "na",
+      "c0048"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493700818
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62pni4",
+     "item_id": "dfooda8",
+     "parent_id": "dfoo85z",
+     "author": "fried_green_baloney",
+     "created_utc": 1491030856,
+     "dt_parent_sec": 377,
+     "dt_thread_sec": 21398,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "calling the makeover joke too subtle"
+     ],
+     "sequence": [
+      "c0049"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493700886
+     }
+    },
+    "2": {
+     "thread_id": "62pni4",
+     "item_id": "dfog55h",
+     "parent_id": "62pni4",
+     "author": "aphoenix",
+     "created_utc": 1491014899,
+     "dt_parent_sec": 5441,
+     "dt_thread_sec": 5441,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "taking responsibility for the makeover and advising against internetting"
+     ],
+     "sequence": [
+      "c0047"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "score": 1,
+      "author_flair_text": "reticulated",
+      "retrieved_on": 1493696912
+     }
+    },
+    "3": {
+     "thread_id": "62pni4",
+     "item_id": "dfqpgma",
+     "parent_id": "62pni4",
+     "author": "troyunrau",
+     "created_utc": 1491166632,
+     "dt_parent_sec": 157174,
+     "dt_thread_sec": 157174,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "explaining the old joke that Python is Scala in disguise"
+     ],
+     "sequence": [
+      "c0050",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "...",
+      "retrieved_on": 1493736195
+     }
+    },
+    "3.1": {
+     "thread_id": "62pni4",
+     "item_id": "dfqr5yj",
+     "parent_id": "dfqpgma",
+     "author": "fried_green_baloney",
+     "created_utc": 1491168937,
+     "dt_parent_sec": 2305,
+     "dt_thread_sec": 159479,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "putting Scala on a to-look-at list after the joke"
+     ],
+     "sequence": [
+      "c0051"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493737235
+     }
+    }
+   },
+   "62rkmz": {
+    "0": {
+     "thread_id": "62rkmz",
+     "item_id": "62rkmz",
+     "parent_id": null,
+     "author": "louisswarren",
+     "created_utc": 1491035898,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "presenting `is set` as handy flag notation"
+     ],
+     "sequence": [
+      "c0052",
+      "na"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 21,
+      "retrieved_on": 1494548754
+     }
+    },
+    "1": {
+     "thread_id": "62rkmz",
+     "item_id": "dfoq3jx",
+     "parent_id": "62rkmz",
+     "author": "milesrout",
+     "created_utc": 1491035999,
+     "dt_parent_sec": 101,
+     "dt_thread_sec": 101,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "taking `is set` as wonderfully readable"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493701721
+     }
+    },
+    "1.1": {
+     "thread_id": "62rkmz",
+     "item_id": "dfosg2f",
+     "parent_id": "dfoq3jx",
+     "author": "kankyo",
+     "created_utc": 1491043796,
+     "dt_parent_sec": 7797,
+     "dt_thread_sec": 7898,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493702852
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62rkmz",
+     "item_id": "dfpvmb3",
+     "parent_id": "dfosg2f",
+     "author": "milesrout",
+     "created_utc": 1491108294,
+     "dt_parent_sec": 64498,
+     "dt_thread_sec": 72396,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "reminding someone it is April Fools"
+     ],
+     "sequence": [
+      "c0060"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493721767
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62rkmz",
+     "item_id": "dfpxw61",
+     "parent_id": "dfpvmb3",
+     "author": "kankyo",
+     "created_utc": 1491113383,
+     "dt_parent_sec": 5089,
+     "dt_thread_sec": 77485,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "insisting the joke code still works"
+     ],
+     "sequence": [
+      "c0061"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493722861
+     }
+    },
+    "1.2": {
+     "thread_id": "62rkmz",
+     "item_id": "dfowrlk",
+     "parent_id": "dfoq3jx",
+     "author": "zahlman",
+     "created_utc": 1491054318,
+     "dt_parent_sec": 18319,
+     "dt_thread_sec": 18420,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "ruining the joke by explaining Python objects"
+     ],
+     "sequence": [
+      "c0057",
+      "na"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "the heretic",
+      "retrieved_on": 1493704934
+     }
+    },
+    "1.3": {
+     "thread_id": "62rkmz",
+     "item_id": "dfpkd39",
+     "parent_id": "dfoq3jx",
+     "author": "nuephelkystikon",
+     "created_utc": 1491089787,
+     "dt_parent_sec": 53788,
+     "dt_thread_sec": 53889,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "pretending the identity check is a CPython bug"
+     ],
+     "sequence": [
+      "na",
+      "c0059"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493716322
+     }
+    },
+    "2": {
+     "thread_id": "62rkmz",
+     "item_id": "dfoqtye",
+     "parent_id": "62rkmz",
+     "author": "HughMacdonald",
+     "created_utc": 1491038410,
+     "dt_parent_sec": 2512,
+     "dt_thread_sec": 2512,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "suspecting an April Fools joke"
+     ],
+     "sequence": [
+      "c0054",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 18,
+      "retrieved_on": 1493702075
+     }
+    },
+    "2.1": {
+     "thread_id": "62rkmz",
+     "item_id": "dfosext",
+     "parent_id": "dfoqtye",
+     "author": "louisswarren",
+     "created_utc": 1491043691,
+     "dt_parent_sec": 5281,
+     "dt_thread_sec": 7793,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "confirming it is a joke"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1493702837
+     }
+    },
+    "3": {
+     "thread_id": "62rkmz",
+     "item_id": "dfou6b7",
+     "parent_id": "62rkmz",
+     "author": "DrRx",
+     "created_utc": 1491048816,
+     "dt_parent_sec": 12918,
+     "dt_thread_sec": 12918,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "extending the joke to `not set`"
+     ],
+     "sequence": [
+      "c0056",
+      "na"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493703684
+     }
+    },
+    "4": {
+     "thread_id": "62rkmz",
+     "item_id": "dfpcia9",
+     "parent_id": "62rkmz",
+     "author": "move_machine",
+     "created_utc": 1491077815,
+     "dt_parent_sec": 41917,
+     "dt_thread_sec": 41917,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "complaining that April 1st is terrible"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493712515
+     }
+    }
+   },
+   "62rnxk": {
+    "0": {
+     "thread_id": "62rnxk",
+     "item_id": "62rnxk",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491037557,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "asking why the Python sub turned into Scala"
+     ],
+     "sequence": [
+      "c0062"
+     ],
+     "coverage": 0.81,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494548800
+     }
+    },
+    "1": {
+     "thread_id": "62rnxk",
+     "item_id": "dfor6uz",
+     "parent_id": "62rnxk",
+     "author": "nbates80",
+     "created_utc": 1491039599,
+     "dt_parent_sec": 2042,
+     "dt_thread_sec": 2042,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "calling it April's fool without getting the joke"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493702247
+     }
+    },
+    "2": {
+     "thread_id": "62rnxk",
+     "item_id": "dfosa78",
+     "parent_id": "62rnxk",
+     "author": "Cherlokoms",
+     "created_utc": 1491043255,
+     "dt_parent_sec": 5698,
+     "dt_thread_sec": 5698,
+     "state": "coded",
+     "code_ids": [
+      "c0064",
+      "c0065"
+     ],
+     "labels": [
+      "explaining that the Scala subreddit is Python themed too",
+      "explaining April fools as momentary confusion resolved by a laugh"
+     ],
+     "sequence": [
+      "c0064",
+      "c0065"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493702773
+     }
+    }
+   },
+   "62ryr2": {
+    "0": {
+     "thread_id": "62ryr2",
+     "item_id": "62ryr2",
+     "parent_id": null,
+     "author": "Evan950",
+     "created_utc": 1491042946,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0066",
+      "c0067"
+     ],
+     "labels": [
+      "asking for help drawing the Python logo in r/place",
+      "giving a reference image and locating the logo at the canvas top left"
+     ],
+     "sequence": [
+      "c0066",
+      "c0067"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "edited": 1491044484,
+      "score": 3,
+      "retrieved_on": 1494548948
+     }
+    }
+   },
+   "62s7f3": {
+    "0": {
+     "thread_id": "62s7f3",
+     "item_id": "62s7f3",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491046846,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "asking for Scala help in the Python subreddit"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494549068
+     }
+    },
+    "1": {
+     "thread_id": "62s7f3",
+     "item_id": "dfoxhmx",
+     "parent_id": "62s7f3",
+     "author": "rberenguel",
+     "created_utc": 1491055609,
+     "dt_parent_sec": 8763,
+     "dt_thread_sec": 8763,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "answering the Scala request with Python hello world"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 0.68,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493705280
+     }
+    },
+    "2": {
+     "thread_id": "62s7f3",
+     "item_id": "dfpfodm",
+     "parent_id": "62s7f3",
+     "author": "mohhinder",
+     "created_utc": 1491082620,
+     "dt_parent_sec": 35774,
+     "dt_thread_sec": 35774,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "printing the words `hello world in scala` literally"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 0.74,
+     "meta": {
+      "edited": 1491428260,
+      "score": 1,
+      "retrieved_on": 1493714051
+     }
+    }
+   },
+   "62sb4e": {
+    "0": {
+     "thread_id": "62sb4e",
+     "item_id": "62sb4e",
+     "parent_id": null,
+     "author": "knowsuchagency",
+     "created_utc": 1491048150,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "calling the joke `r/scython`"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 30,
+      "retrieved_on": 1494549119
+     }
+    },
+    "1": {
+     "thread_id": "62sb4e",
+     "item_id": "dfovgmz",
+     "parent_id": "62sb4e",
+     "author": "cleric04",
+     "created_utc": 1491051748,
+     "dt_parent_sec": 3598,
+     "dt_thread_sec": 3598,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "remembering what day it was after seeing r/scython"
+     ],
+     "sequence": [
+      "c0072"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493704305
+     }
+    },
+    "1.1": {
+     "thread_id": "62sb4e",
+     "item_id": "dfp7hyj",
+     "parent_id": "dfovgmz",
+     "author": "Works_of_memercy",
+     "created_utc": 1491070362,
+     "dt_parent_sec": 18614,
+     "dt_thread_sec": 22212,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "answering the date reminder with `Saturday?`"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493710098
+     }
+    }
+   },
+   "62vgzg": {
+    "0": {
+     "thread_id": "62vgzg",
+     "item_id": "62vgzg",
+     "parent_id": null,
+     "author": "tjvclutch",
+     "created_utc": 1491080568,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0074",
+      "c0075",
+      "c0076",
+      "c0077"
+     ],
+     "labels": [
+      "sharing a script that tracks new r/place pixels",
+      "jokingly calling Python Scala while tracking canvas updates",
+      "restoring the pixel feed and writing new pixels to a file",
+      "keeping pixel positions, colors, and placement order for later use"
+     ],
+     "sequence": [
+      "c0074",
+      "c0075",
+      "na",
+      "c0076",
+      "c0077",
+      "na"
+     ],
+     "coverage": 0.54,
+     "meta": {
+      "score": 42,
+      "retrieved_on": 1494550712
+     }
+    },
+    "1": {
+     "thread_id": "62vgzg",
+     "item_id": "dfq1n12",
+     "parent_id": "62vgzg",
+     "author": "[deleted]",
+     "created_utc": 1491124674,
+     "dt_parent_sec": 44106,
+     "dt_thread_sec": 44106,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": -1,
+      "retrieved_on": 1493724666
+     }
+    },
+    "1.1": {
+     "thread_id": "62vgzg",
+     "item_id": "dfq41y7",
+     "parent_id": "dfq1n12",
+     "author": "karlthemailman",
+     "created_utc": 1491133382,
+     "dt_parent_sec": 8708,
+     "dt_thread_sec": 52814,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "defending the tracker as scratching a personal itch"
+     ],
+     "sequence": [
+      "na",
+      "c0078"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493725830
+     }
+    },
+    "2": {
+     "thread_id": "62vgzg",
+     "item_id": "dfqdljt",
+     "parent_id": "62vgzg",
+     "author": "pvkooten",
+     "created_utc": 1491151038,
+     "dt_parent_sec": 70470,
+     "dt_thread_sec": 70470,
+     "state": "coded",
+     "code_ids": [
+      "c0079",
+      "c0080"
+     ],
+     "labels": [
+      "proposing an organized legal bot net for drawing",
+      "sending clients coordinates for them to draw"
+     ],
+     "sequence": [
+      "c0079",
+      "na",
+      "c0080",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "edited": 1491151341,
+      "score": 1,
+      "retrieved_on": 1493730438
+     }
+    }
+   },
+   "62vtf1": {
+    "0": {
+     "thread_id": "62vtf1",
+     "item_id": "62vtf1",
+     "parent_id": null,
+     "author": "desmoulinmichel",
+     "created_utc": 1491083672,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "correcting `Scala` to `Python` in a cheat-sheet title"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 65,
+      "retrieved_on": 1494550883
+     }
+    },
+    "1": {
+     "thread_id": "62vtf1",
+     "item_id": "dfpzx63",
+     "parent_id": "62vtf1",
+     "author": "emillynge",
+     "created_utc": 1491118924,
+     "dt_parent_sec": 35252,
+     "dt_thread_sec": 35252,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "warning against raising RuntimeError"
+     ],
+     "sequence": [
+      "c0082",
+      "na"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1493723841
+     }
+    },
+    "1.1": {
+     "thread_id": "62vtf1",
+     "item_id": "dfq0le8",
+     "parent_id": "dfpzx63",
+     "author": "desmoulinmichel",
+     "created_utc": 1491121019,
+     "dt_parent_sec": 2095,
+     "dt_thread_sec": 37347,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "defending RuntimeError for missing basic configuration"
+     ],
+     "sequence": [
+      "na",
+      "c0083",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493724165
+     }
+    },
+    "2": {
+     "thread_id": "62vtf1",
+     "item_id": "dfqb6dy",
+     "parent_id": "62vtf1",
+     "author": "wweber",
+     "created_utc": 1491147712,
+     "dt_parent_sec": 64040,
+     "dt_thread_sec": 64040,
+     "state": "coded",
+     "code_ids": [
+      "c0084"
+     ],
+     "labels": [
+      "asking why `try except else` is needed"
+     ],
+     "sequence": [
+      "c0084",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493729269
+     }
+    },
+    "2.1": {
+     "thread_id": "62vtf1",
+     "item_id": "dfqcq8c",
+     "parent_id": "dfqb6dy",
+     "author": "desmoulinmichel",
+     "created_utc": 1491149849,
+     "dt_parent_sec": 2137,
+     "dt_thread_sec": 66177,
+     "state": "coded",
+     "code_ids": [
+      "c0085"
+     ],
+     "labels": [
+      "limiting try blocks to make exceptions granular"
+     ],
+     "sequence": [
+      "c0085",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493730019
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62vtf1",
+     "item_id": "dfqf9sf",
+     "parent_id": "dfqcq8c",
+     "author": "kalifornia_love",
+     "created_utc": 1491153243,
+     "dt_parent_sec": 3394,
+     "dt_thread_sec": 69571,
+     "state": "coded",
+     "code_ids": [
+      "c0086"
+     ],
+     "labels": [
+      "using `else` to make the happy path readable"
+     ],
+     "sequence": [
+      "c0086",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493731244
+     }
+    },
+    "2.2": {
+     "thread_id": "62vtf1",
+     "item_id": "dfqpjnu",
+     "parent_id": "dfqb6dy",
+     "author": "graingert",
+     "created_utc": 1491166754,
+     "dt_parent_sec": 19042,
+     "dt_thread_sec": 83082,
+     "state": "coded",
+     "code_ids": [
+      "c0087"
+     ],
+     "labels": [
+      "wanting to see a divide-by-zero raised by print"
+     ],
+     "sequence": [
+      "c0087"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493736271
+     }
+    }
+   },
+   "62w4xg": {
+    "0": {
+     "thread_id": "62w4xg",
+     "item_id": "62w4xg",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491087050,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0088"
+     ],
+     "labels": [
+      "posting a Scala beginner course during the Python-to-Scala joke"
+     ],
+     "sequence": [
+      "c0088"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494551041
+     }
+    }
+   },
+   "62x5aw": {
+    "0": {
+     "thread_id": "62x5aw",
+     "item_id": "62x5aw",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491098591,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "asking why Scala is in the Python Reddit"
+     ],
+     "sequence": [
+      "c0089"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494551545
+     }
+    }
+   },
+   "62x9as": {
+    "0": {
+     "thread_id": "62x9as",
+     "item_id": "62x9as",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491099995,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "calling the Python subreddit hijacked by Scala"
+     ],
+     "sequence": [
+      "c0090"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494551600
+     }
+    }
+   },
+   "62zyqz": {
+    "0": {
+     "thread_id": "62zyqz",
+     "item_id": "62zyqz",
+     "parent_id": null,
+     "author": "tontan1998",
+     "created_utc": 1491144022,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0091"
+     ],
+     "labels": [
+      "reporting the Scala-to-Python switch as a possible Reddit bug"
+     ],
+     "sequence": [
+      "c0091"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552952
+     }
+    },
+    "1": {
+     "thread_id": "62zyqz",
+     "item_id": "dfsqa8r",
+     "parent_id": "62zyqz",
+     "author": "aphoenix",
+     "created_utc": 1491270469,
+     "dt_parent_sec": 126447,
+     "dt_thread_sec": 126447,
+     "state": "coded",
+     "code_ids": [
+      "c0092",
+      "c0093"
+     ],
+     "labels": [
+      "identifying the switch as an April Fools Day prank",
+      "redirecting a shadowbanned poster to the admins"
+     ],
+     "sequence": [
+      "c0092",
+      "c0093"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "score": 1,
+      "author_flair_text": "reticulated",
+      "retrieved_on": 1493774760
+     }
+    }
+   },
+   "63132t": {
+    "0": {
+     "thread_id": "63132t",
+     "item_id": "63132t",
+     "parent_id": null,
+     "author": "ikilled_my_own_fight",
+     "created_utc": 1491155668,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0094"
+     ],
+     "labels": [
+      "asking whether r/python can get a Python logo onto r/place"
+     ],
+     "sequence": [
+      "c0094"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 20,
+      "retrieved_on": 1494553515
+     }
+    },
+    "1": {
+     "thread_id": "63132t",
+     "item_id": "dfqnpy6",
+     "parent_id": "63132t",
+     "author": "KronosKoderS",
+     "created_utc": 1491164207,
+     "dt_parent_sec": 8539,
+     "dt_thread_sec": 8539,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493735330
+     }
+    },
+    "1.1": {
+     "thread_id": "63132t",
+     "item_id": "dfqnsun",
+     "parent_id": "dfqnpy6",
+     "author": "KronosKoderS",
+     "created_utc": 1491164314,
+     "dt_parent_sec": 107,
+     "dt_thread_sec": 8646,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493735370
+     }
+    },
+    "1.1.1": {
+     "thread_id": "63132t",
+     "item_id": "dfrj7rb",
+     "parent_id": "dfqnsun",
+     "author": "jantari",
+     "created_utc": 1491213325,
+     "dt_parent_sec": 49011,
+     "dt_thread_sec": 57657,
+     "state": "coded",
+     "code_ids": [
+      "c0104"
+     ],
+     "labels": [
+      "directing the group to file a formal taskbar request"
+     ],
+     "sequence": [
+      "c0104"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751404
+     }
+    },
+    "2": {
+     "thread_id": "63132t",
+     "item_id": "dfqru8x",
+     "parent_id": "63132t",
+     "author": "Jerfov2",
+     "created_utc": 1491169783,
+     "dt_parent_sec": 14115,
+     "dt_thread_sec": 14115,
+     "state": "coded",
+     "code_ids": [
+      "c0095"
+     ],
+     "labels": [
+      "proposing a 28x28 logo and its top-left coordinates"
+     ],
+     "sequence": [
+      "na",
+      "c0095",
+      "na"
+     ],
+     "coverage": 0.4,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493737562
+     }
+    },
+    "2.1": {
+     "thread_id": "63132t",
+     "item_id": "dfqsjai",
+     "parent_id": "dfqru8x",
+     "author": "[deleted]",
+     "created_utc": 1491170661,
+     "dt_parent_sec": 878,
+     "dt_thread_sec": 14993,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491170994,
+      "score": 1,
+      "retrieved_on": 1493737897
+     }
+    },
+    "2.1.1": {
+     "thread_id": "63132t",
+     "item_id": "dfqt7s3",
+     "parent_id": "dfqsjai",
+     "author": "rubickcz",
+     "created_utc": 1491171492,
+     "dt_parent_sec": 831,
+     "dt_thread_sec": 15824,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493738225
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "63132t",
+     "item_id": "dfr57qb",
+     "parent_id": "dfqt7s3",
+     "author": "Shogunfish",
+     "created_utc": 1491186309,
+     "dt_parent_sec": 14817,
+     "dt_thread_sec": 30641,
+     "state": "coded",
+     "code_ids": [
+      "c0099"
+     ],
+     "labels": [
+      "asking Discord organizers to drop the grey background so both drawings can coexist"
+     ],
+     "sequence": [
+      "c0099"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493744047
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "63132t",
+     "item_id": "dfr819p",
+     "parent_id": "dfr57qb",
+     "author": "ZeeBeeblebrox",
+     "created_utc": 1491189658,
+     "dt_parent_sec": 3349,
+     "dt_thread_sec": 33990,
+     "state": "coded",
+     "code_ids": [
+      "c0100"
+     ],
+     "labels": [
+      "skipping grays and telling the other drawers to do the same"
+     ],
+     "sequence": [
+      "c0100"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745431
+     }
+    },
+    "2.2": {
+     "thread_id": "63132t",
+     "item_id": "dfqxyfh",
+     "parent_id": "dfqru8x",
+     "author": "turtle_with_dentures",
+     "created_utc": 1491177449,
+     "dt_parent_sec": 7666,
+     "dt_thread_sec": 21781,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493740538
+     }
+    },
+    "2.2.1": {
+     "thread_id": "63132t",
+     "item_id": "dfr5hju",
+     "parent_id": "dfqxyfh",
+     "author": "Shogunfish",
+     "created_utc": 1491186620,
+     "dt_parent_sec": 9171,
+     "dt_thread_sec": 30952,
+     "state": "coded",
+     "code_ids": [
+      "c0097"
+     ],
+     "labels": [
+      "asking the Python group not to replace a day of hand-drawn shark work"
+     ],
+     "sequence": [
+      "c0097",
+      "na"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493744178
+     }
+    },
+    "2.2.1.1": {
+     "thread_id": "63132t",
+     "item_id": "dfrcsrq",
+     "parent_id": "dfr5hju",
+     "author": "KronosKoderS",
+     "created_utc": 1491196709,
+     "dt_parent_sec": 10089,
+     "dt_thread_sec": 41041,
+     "state": "coded",
+     "code_ids": [
+      "c0098"
+     ],
+     "labels": [
+      "disabling a script and apologizing for the overwrite"
+     ],
+     "sequence": [
+      "c0098"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493748306
+     }
+    },
+    "2.2.2": {
+     "thread_id": "63132t",
+     "item_id": "dfr6aop",
+     "parent_id": "dfqxyfh",
+     "author": "curly123",
+     "created_utc": 1491187565,
+     "dt_parent_sec": 10116,
+     "dt_thread_sec": 31897,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493744565
+     }
+    },
+    "2.2.2.1": {
+     "thread_id": "63132t",
+     "item_id": "dfrd2eq",
+     "parent_id": "dfr6aop",
+     "author": "scribbleswithsharpie",
+     "created_utc": 1491197217,
+     "dt_parent_sec": 9652,
+     "dt_thread_sec": 41549,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493748440
+     }
+    },
+    "2.2.2.1.1": {
+     "thread_id": "63132t",
+     "item_id": "dfrjwkv",
+     "parent_id": "dfrd2eq",
+     "author": "ZeeBeeblebrox",
+     "created_utc": 1491215372,
+     "dt_parent_sec": 18155,
+     "dt_thread_sec": 59704,
+     "state": "coded",
+     "code_ids": [
+      "c0101"
+     ],
+     "labels": [
+      "calling the overlap a full-on fight and asking to coordinate designs"
+     ],
+     "sequence": [
+      "c0101"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751738
+     }
+    },
+    "3": {
+     "thread_id": "63132t",
+     "item_id": "dfqts58",
+     "parent_id": "63132t",
+     "author": "rubickcz",
+     "created_utc": 1491172177,
+     "dt_parent_sec": 16509,
+     "dt_thread_sec": 16509,
+     "state": "coded",
+     "code_ids": [
+      "c0096"
+     ],
+     "labels": [
+      "calling active drawers into Discord"
+     ],
+     "sequence": [
+      "c0096"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "edited": 1491226843,
+      "score": 2,
+      "retrieved_on": 1493738502
+     }
+    },
+    "3.1": {
+     "thread_id": "63132t",
+     "item_id": "dfr0rjo",
+     "parent_id": "dfqts58",
+     "author": "pvkooten",
+     "created_utc": 1491180963,
+     "dt_parent_sec": 8786,
+     "dt_thread_sec": 25295,
+     "state": "coded",
+     "code_ids": [
+      "c0121"
+     ],
+     "labels": [
+      "coordinating drawing through pip's placer"
+     ],
+     "sequence": [
+      "c0121",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493741894
+     }
+    },
+    "4": {
+     "thread_id": "63132t",
+     "item_id": "dfrkr9p",
+     "parent_id": "63132t",
+     "author": "Jerfov2",
+     "created_utc": 1491217658,
+     "dt_parent_sec": 61990,
+     "dt_thread_sec": 61990,
+     "state": "coded",
+     "code_ids": [
+      "c0102"
+     ],
+     "labels": [
+      "reporting that the logo is going strong at its original position"
+     ],
+     "sequence": [
+      "c0102",
+      "na"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493752149
+     }
+    },
+    "4.1": {
+     "thread_id": "63132t",
+     "item_id": "dfrv7de",
+     "parent_id": "dfrkr9p",
+     "author": "tjt5754",
+     "created_utc": 1491233716,
+     "dt_parent_sec": 16058,
+     "dt_thread_sec": 78048,
+     "state": "coded",
+     "code_ids": [
+      "c0103"
+     ],
+     "labels": [
+      "reporting that they are losing the logo"
+     ],
+     "sequence": [
+      "c0103"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493758526
+     }
+    }
+   },
+   "635cl6": {
+    "0": {
+     "thread_id": "635cl6",
+     "item_id": "635cl6",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491205519,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0105"
+     ],
+     "labels": [
+      "attempting to coordinate r/python through a pip package"
+     ],
+     "sequence": [
+      "c0105"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "edited": 1491214014,
+      "score": 0,
+      "retrieved_on": 1494555704
+     }
+    },
+    "1": {
+     "thread_id": "635cl6",
+     "item_id": "dfrimno",
+     "parent_id": "635cl6",
+     "author": "Shogunfish",
+     "created_utc": 1491211495,
+     "dt_parent_sec": 5976,
+     "dt_thread_sec": 5976,
+     "state": "coded",
+     "code_ids": [
+      "c0122"
+     ],
+     "labels": [
+      "challenging a call for more organization because its scripts are destroying an existing image"
+     ],
+     "sequence": [
+      "c0122"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751122
+     }
+    },
+    "1.1": {
+     "thread_id": "635cl6",
+     "item_id": "dfriqaf",
+     "parent_id": "dfrimno",
+     "author": "rubickcz",
+     "created_utc": 1491211807,
+     "dt_parent_sec": 312,
+     "dt_thread_sec": 6288,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751170
+     }
+    },
+    "1.1.1": {
+     "thread_id": "635cl6",
+     "item_id": "dfriw2i",
+     "parent_id": "dfriqaf",
+     "author": "Shogunfish",
+     "created_utc": 1491212313,
+     "dt_parent_sec": 506,
+     "dt_thread_sec": 6794,
+     "state": "coded",
+     "code_ids": [
+      "c0106"
+     ],
+     "labels": [
+      "warning that one forgotten script could undo a peace deal"
+     ],
+     "sequence": [
+      "na",
+      "c0106"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751248
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "635cl6",
+     "item_id": "dfrjfzv",
+     "parent_id": "dfriw2i",
+     "author": "pvkooten",
+     "created_utc": 1491214005,
+     "dt_parent_sec": 1692,
+     "dt_thread_sec": 8486,
+     "state": "coded",
+     "code_ids": [
+      "c0108"
+     ],
+     "labels": [
+      "coordinating the package with the earlier attempt"
+     ],
+     "sequence": [
+      "c0108"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751516
+     }
+    },
+    "2": {
+     "thread_id": "635cl6",
+     "item_id": "dfriua4",
+     "parent_id": "635cl6",
+     "author": "ikilled_my_own_fight",
+     "created_utc": 1491212156,
+     "dt_parent_sec": 6637,
+     "dt_thread_sec": 6637,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751224
+     }
+    },
+    "2.1": {
+     "thread_id": "635cl6",
+     "item_id": "dfrj2t1",
+     "parent_id": "dfriua4",
+     "author": "pvkooten",
+     "created_utc": 1491212893,
+     "dt_parent_sec": 737,
+     "dt_thread_sec": 7374,
+     "state": "coded",
+     "code_ids": [
+      "c0107"
+     ],
+     "labels": [
+      "updating the package coordinates"
+     ],
+     "sequence": [
+      "c0107"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "edited": 1491214029,
+      "score": 1,
+      "retrieved_on": 1493751337
+     }
+    },
+    "2.1.1": {
+     "thread_id": "635cl6",
+     "item_id": "dfrsqxk",
+     "parent_id": "dfrj2t1",
+     "author": "tjt5754",
+     "created_utc": 1491230797,
+     "dt_parent_sec": 17904,
+     "dt_thread_sec": 25278,
+     "state": "coded",
+     "code_ids": [
+      "c0109"
+     ],
+     "labels": [
+      "asking for monitoring of active placer contributors"
+     ],
+     "sequence": [
+      "c0109"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493756718
+     }
+    }
+   },
+   "636mw0": {
+    "0": {
+     "thread_id": "636mw0",
+     "item_id": "636mw0",
+     "parent_id": null,
+     "author": "mm615657",
+     "created_utc": 1491224784,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0110"
+     ],
+     "labels": [
+      "asking for help"
+     ],
+     "sequence": [
+      "c0110"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556355
+     }
+    }
+   },
+   "637qu6": {
+    "0": {
+     "thread_id": "637qu6",
+     "item_id": "637qu6",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491235727,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0111"
+     ],
+     "labels": [
+      "calling for help drawing the Python logo at a named canvas location"
+     ],
+     "sequence": [
+      "c0111"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556913
+     }
+    },
+    "1": {
+     "thread_id": "637qu6",
+     "item_id": "dfryn7s",
+     "parent_id": "637qu6",
+     "author": "caposeidon",
+     "created_utc": 1491237830,
+     "dt_parent_sec": 2103,
+     "dt_thread_sec": 2103,
+     "state": "coded",
+     "code_ids": [
+      "c0112"
+     ],
+     "labels": [
+      "redirecting help toward defending the existing logo"
+     ],
+     "sequence": [
+      "c0112",
+      "na"
+     ],
+     "coverage": 0.56,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493760344
+     }
+    }
+   },
+   "63dkmq": {
+    "0": {
+     "thread_id": "63dkmq",
+     "item_id": "63dkmq",
+     "parent_id": null,
+     "author": "rubickcz",
+     "created_utc": 1491306055,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0113"
+     ],
+     "labels": [
+      "celebrating the late-started Python footprint on r/place"
+     ],
+     "sequence": [
+      "c0113"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3156,
+      "retrieved_on": 1494559812
+     }
+    },
+    "1": {
+     "thread_id": "63dkmq",
+     "item_id": "dft86iu",
+     "parent_id": "63dkmq",
+     "author": "DaveX64",
+     "created_utc": 1491307085,
+     "dt_parent_sec": 1030,
+     "dt_thread_sec": 1030,
+     "state": "coded",
+     "code_ids": [
+      "c0114"
+     ],
+     "labels": [
+      "approving the finished footprint"
+     ],
+     "sequence": [
+      "c0114"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1493783498
+     }
+    },
+    "2": {
+     "thread_id": "63dkmq",
+     "item_id": "dft9d3d",
+     "parent_id": "63dkmq",
+     "author": "jerry_fuentes",
+     "created_utc": 1491309261,
+     "dt_parent_sec": 3206,
+     "dt_thread_sec": 3206,
+     "state": "coded",
+     "code_ids": [
+      "c0115"
+     ],
+     "labels": [
+      "turning a slow clap into a Python filename joke"
+     ],
+     "sequence": [
+      "c0115"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 226,
+      "retrieved_on": 1493784070
+     }
+    },
+    "3": {
+     "thread_id": "63dkmq",
+     "item_id": "dftduov",
+     "parent_id": "63dkmq",
+     "author": "sidarape",
+     "created_utc": 1491315619,
+     "dt_parent_sec": 9564,
+     "dt_thread_sec": 9564,
+     "state": "coded",
+     "code_ids": [
+      "c0116"
+     ],
+     "labels": [
+      "noting that placers used a Python script"
+     ],
+     "sequence": [
+      "c0116"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 47,
+      "retrieved_on": 1493786231
+     }
+    },
+    "3.1": {
+     "thread_id": "63dkmq",
+     "item_id": "dftj95q",
+     "parent_id": "dftduov",
+     "author": "SwineFluPandemic",
+     "created_utc": 1491321688,
+     "dt_parent_sec": 6069,
+     "dt_thread_sec": 15633,
+     "state": "coded",
+     "code_ids": [
+      "c0119"
+     ],
+     "labels": [
+      "wishing their group had used the Python script instead of an annoying JavaScript version"
+     ],
+     "sequence": [
+      "c0119"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1493789647
+     }
+    },
+    "4": {
+     "thread_id": "63dkmq",
+     "item_id": "dftfl5n",
+     "parent_id": "63dkmq",
+     "author": "rochacbruno",
+     "created_utc": 1491317669,
+     "dt_parent_sec": 11614,
+     "dt_thread_sec": 11614,
+     "state": "coded",
+     "code_ids": [
+      "c0117"
+     ],
+     "labels": [
+      "pointing out the exact time the footprint was added"
+     ],
+     "sequence": [
+      "c0117",
+      "na"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493787074
+     }
+    },
+    "5": {
+     "thread_id": "63dkmq",
+     "item_id": "dftgmjs",
+     "parent_id": "63dkmq",
+     "author": "robodude987",
+     "created_utc": 1491318832,
+     "dt_parent_sec": 12777,
+     "dt_thread_sec": 12777,
+     "state": "coded",
+     "code_ids": [
+      "c0118"
+     ],
+     "labels": [
+      "accusing the Python effort of destroying the tsundere shark"
+     ],
+     "sequence": [
+      "c0118"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 20,
+      "retrieved_on": 1493787646
+     }
+    },
+    "6": {
+     "thread_id": "63dkmq",
+     "item_id": "dftlmka",
+     "parent_id": "63dkmq",
+     "author": "KronktheKronk",
+     "created_utc": 1491324217,
+     "dt_parent_sec": 18162,
+     "dt_thread_sec": 18162,
+     "state": "coded",
+     "code_ids": [
+      "c0120"
+     ],
+     "labels": [
+      "joking that the footprint should have included an exec command"
+     ],
+     "sequence": [
+      "c0120"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493790789
+     }
+    }
+   }
+  }
+ }
+}

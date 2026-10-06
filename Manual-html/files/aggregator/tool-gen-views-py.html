@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`tools/gen_views.py`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-gen-views-py.md">Markdown source</a></nav>
+<h1 id="toolsgen_viewspy"><code>tools/gen_views.py</code></h1>
+<p>Regenerates <code>out/_views/</code> and <code>out/_wiki/</code> from the canonical files.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>It writes, when the sources exist: <code>_views/data-structure.tsv</code> and <code>.md</code> (quote to dimension, one row per first-order concept; above 2 MB the <code>.md</code> holds only a pointer to <code>mem.py view</code>); <code>rooms-x-third.tsv</code>; <code>rooms-x-elements.tsv</code>; <code>relations.tsv</code>; <code>transitions.tsv</code>; <code>moves.tsv</code>; <code>_wiki/rooms/&lt;sub&gt;.md</code> and <code>_wiki/model/&lt;id&gt;.md</code>. After D3 it calls <code>distance.py</code>. Every file carries the sha256 of its sources in its header.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Shipped in the analyst's <code>tools/</code>; <code>done.sh</code> runs it at every close.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Rule 15: "A display owes its file. Views and wiki pages are generated from files by <code>gen_views.py</code> and never edited; where a display and the file it displays disagree, the file is right."</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/gen_views.py">tools/gen_views.py</a>.</p>
+<p>Checked against: tools/gen_views.py, tools/done.sh, CONTRACT-aggregator.md rule 15.</p>
+</body>
+</html>

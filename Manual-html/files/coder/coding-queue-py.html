@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>yard/_tools/coding_queue.py</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/coding-queue-py.md">Markdown source</a></nav>
+<h1 id="yard_toolscoding_queuepy">yard/_tools/coding_queue.py</h1>
+<p>The launcher: it starts rooms smallest first, up to a set number at once.</p>
+<p><strong>What it holds</strong></p>
+<p><code>python3 _tools/coding_queue.py [--parallel N] [--inspect] [--clear-pause] [--requeue-failed]</code>. A room is ready when it has 500 to 50,000 in-window items, no failure, no <code>run/</code>, no store or archive, no earlier coder run (except <code>liverpoolfc</code>), and a brief that passes. It launches <code>start_yard_lead.py &lt;sub&gt; --complete</code> for each, or a repair script for a failed room, keeps <code>_coding_queue/STATE.json</code>, <code>EVENTS.jsonl</code> and a log per launch, pauses on a <code>DRAIN</code> file, a usage limit, an unexplained exit or low disk, and stops retrying a room after two failures. A room counts as finished when its <code>STATE.json</code> says <code>verified</code> and <code>validation/RUN-RECEIPT.json</code> exists.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p>The yard's author. Run by the scheduler; the model is fixed at <code>gpt-5.6-sol</code>, <code>medium</code>.</p>
+<p><strong>Why it exists</strong></p>
+<p>Its docstring: "Owns scheduling, never research decisions."</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/handler/tools/coding_queue.py">_tools/coding_queue.py</a>. The repair and progress scripts it calls are not among these sources.</p>
+<p>Checked against: _tools/coding_queue.py, _tools/start_yard_lead.py</p>
+</body>
+</html>

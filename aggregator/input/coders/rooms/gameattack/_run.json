@@ -1,0 +1,147 @@
+{
+ "instrument": "v32",
+ "emit": "emit-v32",
+ "verdict": "full",
+ "verdict_note": "set by emit.close(verdict=...); a verdict that exists only as prose in case.md cannot be read back reliably",
+ "close_calls": 2,
+ "reopened_after_close": true,
+ "last_close_seq": 105,
+ "stages": [
+  {
+   "stage": "step1_brief",
+   "from": null,
+   "at_seq": 1,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step2_read",
+   "from": "step1_brief",
+   "at_seq": 2,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step3_codes",
+   "from": "step2_read",
+   "at_seq": 21,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step3_codes",
+   "at_seq": 87,
+   "codes_so_far": 56,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step4_themes",
+   "at_seq": 102,
+   "codes_so_far": 56,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step6_account",
+   "from": "step5_counter",
+   "at_seq": 103,
+   "codes_so_far": 56,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step7_write",
+   "from": "step6_account",
+   "at_seq": 104,
+   "codes_so_far": 56,
+   "corpus_reads_self_reported": null
+  }
+ ],
+ "reading": {
+  "threads_disposed": 17,
+  "threads_in_corpus": 17,
+  "threads_undisposed": 0,
+  "read_in_full": 15,
+  "triaged_and_dropped": 2,
+  "unread": 0,
+  "coded": 6,
+  "items_in_threads_read": 72,
+  "items_in_window": 105,
+  "items_in_corpus_note": "in-window items only; the corpus header's headline additionally counts [CONTEXT] items",
+  "share_of_threads_disposed": 1.0,
+  "share_of_threads_read_in_full": 0.882,
+  "share_of_text_read_in_full": 0.751
+ },
+ "calls_by_stage": {
+  "step1_brief": {
+   "stage": 1
+  },
+  "step2_read": {
+   "stage": 1,
+   "thread": 17,
+   "threads_bulk": 1
+  },
+  "step3_codes": {
+   "stage": 1,
+   "code": 56,
+   "pointer": 8,
+   "close": 1
+  },
+  "step4_themes": {
+   "stage": 1,
+   "theme": 14
+  },
+  "step5_counter": {
+   "stage": 1,
+   "find": 8
+  },
+  "step6_account": {
+   "stage": 1
+  },
+  "step7_write": {
+   "stage": 1,
+   "close": 1
+  }
+ },
+ "n_codes": 56,
+ "n_codes_emitted": 56,
+ "n_retracted": 0,
+ "n_themes": 14,
+ "n_threads": 17,
+ "n_pointers": 8,
+ "n_subreddits_named": 5,
+ "n_off_platform": 1,
+ "isolated": false,
+ "coordination_left_the_venue": false,
+ "discovered_at": {
+  "step3": 56
+ },
+ "saturation_observed": {
+  "n_codes": 56,
+  "last_step3_code_at": 56,
+  "codes_minted_after_it": 0,
+  "share_of_minting_before_last_new_step3_code": 1.0
+ },
+ "integrity": {
+  "codes_with_no_theme": [],
+  "themes_with_no_code": [],
+  "ok": true
+ },
+ "gate": {
+  "instrument": "v32",
+  "sub": "gameattack",
+  "branch": "A",
+  "threshold": 500,
+  "budget_items": 500,
+  "floor_items": 25,
+  "items_in_window": 105,
+  "items_by_people": 100,
+  "chars_by_people": 13913,
+  "threads": 17,
+  "decided_utc": "2026-09-30T12:14:25Z",
+  "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+  "slices": [],
+  "coders": []
+ },
+ "branch": "A"
+}

@@ -1,0 +1,3 @@
+Reading before search: r/Okami moved from several attempts to place Okami logos into maintaining an Ammy made with THE_PACK, setting limits on expansion and assigning credit, and then thanking and welcoming people after the canvas closed.
+
+Competing account: the room mainly pursued expansion and ownership for itself, while talk of maintenance, limits, and THE_PACK's contribution was marginal. If that account were stronger, the record would contain members urging others to overtake neighboring work, rejecting THE_PACK's claim or repeatedly claiming Ammy as Okami's work alone, with those positions carrying through rather than being checked by other participants.

@@ -1,0 +1,1 @@
+r/placestart — branch B; verdict: full. Structural saturation: complete Reddit-side assignment, limited by removals and off-platform activity. Practice saturation: established early, with restarting elsewhere emerging after closure. Blocked: nothing.

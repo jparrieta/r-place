@@ -1,0 +1,102 @@
+# lexicon — r/thebluecorner
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- blue brothers and sisters — 62nfcq
+- homeland defender guard — dfo7tnm
+- glorious blue nation — dfo5r46
+- Blue Paradise — dfob9aw
+- blue grid — 62p2jg
+- cleaners — 62pcvc
+- false purple — dfotmbr
+- Motherland — 62qhy8
+- Frameworkers — 62qhy8
+- PlaceHearts — 62qiqy
+- blue on blue civil war — dfol3hk
+- Blue Bomber — 62r37v
+- Blue Sun — 62rcbw
+- The Beam — 62r8m7
+- green lettuce — 62ragq
+- homefront — 62rdn5
+- DURP THE PURP — dfotgcz
+- Purple Legion — 62rf93
+- Purple Posers — 62rnp7
+- Purple Posters — 62rnp7
+- Rainbow Road Race — 62rnp7
+- Knights of the Cobalt Flame — 62rleo
+- OPSkyIsBlue — dfotvpw
+- purple sneeze — dfoqpd3
+- alt lower-right — dfos19a
+- cis-blue — dfos6ai
+- Blue Hivemind — 62s0rc
+- Purple Brigade — 62s0rc
+- True Blue — 62s622
+- Project Homeland Security — 62sbqw
+- renegade purples — 62sbqw
+- purple bridge — 62slkw
+- Blue Wave — 62srzd
+- Special Task Forces — 62szdu
+- ONE BLUE GOD — 62t9xu
+- blueshifted — 62u92o
+- Blue Government — dfp562y
+- HIGH ENERGY — 62uftj
+- BLUE WORLD ORDER — dfp7zds
+- United Colors — 62ubbk
+- CLEAN THE OCEAN — 62ugu9
+- Blues Vult — dfpae0h
+- West Bank Settlement — dfpe1bw
+- dirty blue — dfpe1ep
+- Bluempire — 62vbe5
+- Bluhammad — 62vn0x
+- Pixel Art Protection Act — 62way1
+- background to everything — dfpnvre
+- Sector 1 — dfpqgo8
+- Blue or Death — dfpn4rv
+- blue canvas — dfpp2jw
+- Blue Brethren — 62xqkv
+- Alpha Squad — 62xmha
+- sacred corner — 62xpqd
+- holy corner pixel — 62xxrl
+- MAKECORNERBLUEAGAIN — 62y2kq
+- negative space — dfpxzpl
+- glorious blue canvas — 62ye6r
+- holy site — dfpzh4r
+- janitors — dfqne99
+- Blue Backdrop — dfqb6fe
+- corner of the corner — dfq6ffa
+- separatist movement — dfqav5h
+- Corner Beautification Project — 630ds9
+- Bluetification project — dfqgest
+- blue taskbar — 630mwf
+- pure blue core — 6317cp
+- Blue citizens — dfqnk7m
+- blue corner purist — dfqo4az
+- blue.jpg proposal — dfr68fk
+- Blue Cult — 63372x
+- TBC Knights — 63394g
+- Old Place — 63394g
+- western front — dfr4wqp
+- blueleievers — dfr8gnp
+- absolute blue corner — dfr8v8y
+- blue of our ocean — dfrbn6j
+- ancestral homeland — dfrc85a
+- bluifying — dfreta0
+- Knights of the Blue Union — dfrrpc7
+- Caeruleus Vult — dfrxo3s
+- bluetorious — dfrhuer
+- Bullet Kin — 635w95
+- Blue Cultists — 635wf9
+- the new order — dfrvoli
+- Scorched Canvas Policy — 636kzk
+- corner of corners — dfs0i17
+- Knights of 999,999 — dfs1c7m
+- R/TAEBCUECORNFP — 6385pc
+- Second Blue World Order — 638gko
+- Ad Blutorium — dfs4pre
+- Corner of the Corner — dfs7lll
+- Blue Front — 639uut
+- Blue Order — dfsrww9
+- Blue zealot — dfsuimo
+- martyr Tails — dfsuimo
+- martyr Bullet — dfsuimo
+- good blues — dft3gkb

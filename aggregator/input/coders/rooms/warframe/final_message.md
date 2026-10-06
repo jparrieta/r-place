@@ -1,0 +1,1 @@
+r/warframe — branch B — verdict: full. Thematic saturation: new post-closure practices appeared through batch 20; batch 21 added none. Evidentiary saturation: core canvas practice is clear, but deletions and unseen off-platform activity limit completeness. Blockers: none.

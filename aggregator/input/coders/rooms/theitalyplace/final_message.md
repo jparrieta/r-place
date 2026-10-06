@@ -1,0 +1,1 @@
+r/theitalyplace — branch B; verdict: full. Evidence saturation: strong on Reddit, limited by removals and unseen off-platform coordination. Practice saturation: later slices introduced new closure practices, so saturation came only at the end. Blockers: none.

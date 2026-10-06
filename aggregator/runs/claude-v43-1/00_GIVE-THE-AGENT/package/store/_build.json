@@ -1,0 +1,42 @@
+{
+ "input": "../../../input/coders",
+ "rooms_tsv": "../../../input/coders/ROOMS.tsv",
+ "communities": 705,
+ "codes": 115388,
+ "codes_retracted_dropped": 175,
+ "themes": 7844,
+ "threads": 42906,
+ "items": 158227,
+ "items_coded": 109769,
+ "items_bridge": 26830,
+ "items_removed": 617,
+ "items_dropped": 0,
+ "pointers": 20110,
+ "codes_unjoined": 38,
+ "codes_unjoined_by_sub": {
+  "counting": 38
+ },
+ "themes_n_codes_mismatch": {},
+ "briefs": 705,
+ "open_utc": 1490976000,
+ "freeze_utc": 1491238800,
+ "end_utc": 1491325200,
+ "frame": {
+  "date": "2026-10-04",
+  "rooms": 705,
+  "sha256": "51513b1e06415456d514918fe855d80d5e1aa99eb36bed7d9af7f2a7fd3cbe8d"
+ },
+ "canvas": {
+  "joined_from": "package/case_facts_outcome.jsonl",
+  "rooms_joined": 705,
+  "rooms_without_outcome_line": 0,
+  "fields": [
+   "canvas_entries",
+   "canvas_area_px",
+   "canvas_centre",
+   "canvas_ring",
+   "canvas_artwork",
+   "canvas_source"
+  ]
+ }
+}

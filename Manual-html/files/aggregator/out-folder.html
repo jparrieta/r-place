@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`out/`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/out-folder.md">Markdown source</a></nav>
+<h1 id="out"><code>out/</code></h1>
+<p>The analyst's working folder: the only place it writes, and its memory on disk.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>Empty at the start except for the subfolders <code>build.sh</code> makes: <code>_analysis</code>, <code>_questions</code>, <code>_views</code>, <code>_wiki</code>, <code>rooms</code>, <code>diary</code>, <code>model</code>, <code>fourth</code>, <code>_closes</code>. STANDING §2 draws the tree with a writer per line (A analyst, S script at close, H harness, F fleet): <code>_head.md</code>, <code>diary/</code>, <code>_questions/</code>, <code>_views/</code>, <code>_wiki/</code>, <code>model/</code>, <code>prior.md</code>, <code>scheme/</code>, the contract's records (<code>saturation.jsonl</code>, <code>theme_discovery.jsonl</code>, <code>multiplacement_log.jsonl</code>, <code>dropped.jsonl</code>, <code>RUN.json</code>), <code>_fleet_raw/</code>, <code>handoff-D/</code>, <code>forms/</code>, the append-only ledgers, <code>adaptations.jsonl</code>, <code>adjudications.jsonl</code>, <code>rooms/&lt;sub&gt;/</code>, <code>_snap/</code>, <code>_probe/</code> and <code>_transcripts/</code>. The read logs, <code>_closes/</code>, <code>interview/</code> and each stage's notes and handback also land here.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>The analyst, through its tools and <code>mem.py log</code>; scripts at close; the harness's <code>close.sh</code>; fleets and labelers through the drop.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Contract, "Think on disk": "Your working memory is the file tree in STANDING-INSTRUCTIONS §2." Rule 18: "Your working files are part of the record. Everything in <code>out/</code> travels with a fork. Never delete a file you wrote; supersede it with a new name." <code>pretool_guard.py</code> blocks deletes.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/">out/</a>.</p>
+<p>Checked against: STANDING-INSTRUCTIONS.md §2, CONTRACT-aggregator.md rule 18, harness/build.sh, harness/pretool_guard.py.</p>
+</body>
+</html>

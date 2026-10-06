@@ -1,0 +1,1 @@
+r/southpark — branch B; verdict: full. Evidence saturation: usable but limited by distributed reading, deletions, and image-only posts. Practice saturation: not reached before the final slice, which introduced alliance-seeking and smaller remaking. Blockers: none.

@@ -1,0 +1,1 @@
+r/stardustcrusaders — verdict: **full**. Thematic saturation: later slices mostly repeated recruitment and routing, adding closure and appreciation. Record saturation: Reddit-visible conduct is well covered; Discord activity, linked images, removals, and r/placetwo remain incomplete. Blockers: none.

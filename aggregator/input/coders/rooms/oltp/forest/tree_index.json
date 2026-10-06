@@ -1,0 +1,45 @@
+{
+ "oltp": {
+  "counts": {
+   "threads_given": 1,
+   "threads_with_codes": 1,
+   "items": 2,
+   "coded": 1,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 1,
+   "orphans": 0,
+   "na_stretches": 0,
+   "coverage_of_coded_items": 0.89,
+   "threads_total_in_window": 18
+  },
+  "index": {
+   "62qjzc": {
+    "0": {
+     "thread_id": "62qjzc",
+     "item_id": "62qjzc",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491020326,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "asking oceanic help to maintain the tagpro sign while Americans sleep"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1492478133
+     }
+    }
+   }
+  }
+ }
+}

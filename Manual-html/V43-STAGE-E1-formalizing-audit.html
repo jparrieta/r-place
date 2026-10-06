@@ -1,0 +1,242 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage E1. The audit.</h1>
+<p>**Model:** as <code>arm.json</code> sets for this stage (your platform file lists the model and effort). **Legs:** scripts first, then one leg per audit section, then the</p>
+<p>reconstruction sample&#x27;s three legs (build, dispatch outside your session, check), then the</p>
+<p>experience. **Fleet:** the reconstruction readers on the routine reader model, sent by the dispatch</p>
+<p>on the reader route; you never run one.</p>
+<p>**Steps:** <code>E1a</code> scripts; <code>E1b-01</code>, <code>E1b-02</code> ... one per audit section; <code>E1c</code> the reconstruction build (it ends at <code>--cut packets-out</code>), the dispatch, <code>E1d</code> its check; <code>E1e</code> the experience and the handback. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after each audit section. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh E1 --pause</code> (STANDING §2).</p>
+<p>**Startup packet:** <code>_head.md</code>, this file, the last five diary entries, <code>validate.py --open E1</code>.</p>
+<p><code>_transcripts/</code> and <code>_probe/</code> open here for the first time, and stay open at E2; <code>_snap/</code>, which holds hashes only, has been open throughout.</p>
+<p>**Reads allowed:** everything in <code>out/</code> (with D6&#x27;s <code>retelling-D6.md</code>, <code>fractal-D6.jsonl</code> and <code>proposals-D6.jsonl</code>, each unvalidated proposal read against what C5 to D5 wrote), the read logs, every <code>_head*.md</code> in order, the diary</p>
+<p>whole by script, <code>_fleet_raw/</code>, <code>DROPS/D/</code>, <code>sealed/EXPECTATIONS.jsonl</code>; the package and</p>
+<p>the store through the verbs; <code>fork_comparison-C2.json</code> and <code>fork_comparison-D.json</code>, which</p>
+<p>arrive wherever the run was forked and are absent where it was not. **Forbidden:** changing any</p>
+<p>earlier file (rule 18; a correction is a new file and a <code>defects.jsonl</code> line); recutting</p>
+<p>anything; writing any figure from memory.</p>
+<p>**Outputs:** <code>audit-E1.md</code>; <code>audit-E1/</code> with the scripts and their outputs; <code>claims-E1.md</code>;</p>
+<p><code>reconstruction-sample-E1.jsonl</code> (the thirty rooms, written in the build leg, which <code>packets.py E1</code></p>
+<p>reads) and <code>RETURN-E1.md</code> (the readers&#x27; return specification); <code>reconstruction-E1.jsonl</code>; <code>expectations-E1.md</code>; <code>probes-E1.md</code>; <code>experience-E1.md</code>;</p>
+<p><code>notes-E1.md</code>; <code>handback-E1.md</code>; the last <code>run_manifest.json</code> line.</p>
+<p>Two jobs: the account of the run only the logs can give, and the account only you can give. The</p>
+<p>first is written first, so that the second is written against it. A third follows at stage E2:</p>
+<p>your audit of how you were handled, and the instrument you would build instead. Nothing in <code>audit-E1.md</code></p>
+<p>comes from anyone&#x27;s account of itself, your own included. What you compute wins over what any</p>
+<p>earlier file says; where they differ, say which is wrong.</p>
+<h2>1. Scripts over the record, declared in this file, not chosen by what fits</h2>
+<p>Every script goes in <code>audit-E1/</code> with its output, so that a stranger can rerun it.</p>
+<p>- **Logs against claims.** Every quote in every output resolves through <code>cite.py --resolve</code>; one</p>
+<p>  that resolves to a <code>note</code> field, a label or nothing is a defect, named with its file. Every id</p>
+<p>  in the head, the questions and the views resolves through <code>links.py</code>. Five quotes, drawn by</p>
+<p>  seed, spot-checked by hand against the store.</p>
+<p>- **The quotes against the raw record.** <code>quote-check-E1.json</code> arrives in your folder with this stage, computed</p>
+<p>  by the handler outside your session over a seeded sample of rooms: every coder&#x27;s quote looked</p>
+<p>  for in the item the coder read, and every quoted string of a case account looked for in the</p>
+<p>  room&#x27;s whole corpus. Report both shares in <code>audit-E1.md</code> as the file gives them (a share or a</p>
+<p>  percentage; the check looks for them), read the missing case-account strings it lists, and</p>
+<p>  say what they are (a quote from outside the room&#x27;s corpus, a paraphrase in quote marks, an</p>
+<p>  invention). The store and <code>cite.py</code> serve the coded record; this file is the one place the run</p>
+<p>  touches the raw one, and the methods paragraph says so.</p>
+<p>- **The store&#x27;s figures recomputed.** <code>README-store.md</code>&#x27;s build figures (rooms, concepts,</p>
+<p>  retracted dropped, themes, unjoined concepts, forest totals) recomputed beside stage A1&#x27;s</p>
+<p>  recomputation; three columns, and a difference is a defect.</p>
+<p>- **The clocks.** Agreement between the coder&#x27;s hour and the item&#x27;s own time on concepts quoting</p>
+<p>  one item id, with its denominator; a second check against <code>relations.jsonl</code> (no v38 tool yet;</p>
+<p>  done by hand and logged). Then how many arrows rest on a room whose datings do not run in</p>
+<p>  written order, since stage C2 admits a loop only where one room&#x27;s datings run the whole way</p>
+<p>  round.</p>
+<p>- **Orderings proved by snaps.** For each, the snap&#x27;s hash equals the file&#x27;s as it stands, or the</p>
+<p>  file moved after the snap, and you say which: the scheme frozen before B3&#x27;s first batch;</p>
+<p>  <code>prior.md</code> §1 to §6 sealed before B1&#x27;s first <code>theme_discovery.jsonl</code> line, and §7 and §8</p>
+<p>  sealed at D1 before <code>DROPS/D/</code> was ingested; the model hashed at C5&#x27;s</p>
+<p>  close before D1; every D4 move snapped before <code>projections-D4.jsonl</code> and the chunk-share tree;</p>
+<p>  every move snap at C2 to D3 and every D6 proposal against its evidence and unvalidated status. Every other claim about the order you worked</p>
+<p>  in is *self-reported*, in that word.</p>
+<p>- **The counts rule** (rule 19). Every count in every handback and final message recomputed from</p>
+<p>  its governing file; the census stated twice, with each drop&#x27;s reason from <code>dropped.jsonl</code>;</p>
+<p>  stage D4 §4&#x27;s four counts summing to <code>n_analysed</code>.</p>
+<p>- **Coverage.** Rooms read whole, by stage and in total, counting <code>room</code> and <code>forest</code> records</p>
+<p>  in the read logs directly, one record per read. Three qualifications: a stage that reads</p>
+<p>  nothing has no log, and the gap is not missing evidence; fleet readers and labelers leave no</p>
+<p>  read log, so their reading is in <code>batches-NN.jsonl</code>, <code>agent_report-NN.md</code> and <code>DROPS/D/</code>;</p>
+<p>  the hostile reader at C2 and the readers at C5 are reported apart under their own ids. A log</p>
+<p>  attributes which log was open, not which stage the reading served.</p>
+<p>- **Rule 7&#x27;s uses of the canvas, stage by stage**, from the logs: <code>mem.py room</code> with canvas at</p>
+<p>  A1 for the <code>made</code> line, <code>--no-canvas</code> to every reader, projected on at D4 after the snapped</p>
+<p>  cuts, read at D5 in <code>survival-D5.md</code> after the record. Any use the record does not</p>
+<p>  declare (a cut, a placement, a name, a proposition&#x27;s evidence resting on the canvas with no</p>
+<p>  <code>canvas</code> ground) is a defect and is named. Then the places the canvas may have shaped without a</p>
+<p>  declaration, for a reader to look: any element arguable only against what the rooms kept,</p>
+<p>  any branch whose name says what its rooms made, any cut whose snap follows the projection.</p>
+<p>- **The moves.** <code>tier_history.jsonl</code> and <code>model/history.jsonl</code> by stage and by move (Grodal,</p>
+<p>  Anteby and Holm&#x27;s eight); recuts by tier and stage; whether any recut after C5 is an amendment</p>
+<p>  under rule 11 with its D3 cause; the move snaps in <code>_snap/</code> and the diary&#x27;s <code>move</code> lines against</p>
+<p>  the moves, since at C2 to D4, and for D6&#x27;s proposals, a claim with no provenance is a defect.</p>
+<p>- **Claims against their evidence** (contract §1, two kinds of claim). For every proposition</p>
+<p>  in <code>propositions.jsonl</code> and every branch in <code>branches-D5.jsonl</code>: the kind declared</p>
+<p>  (<code>carried_by</code>), the evidence named for it, its <code>rival</code>, and whether the validation it</p>
+<p>  received is of its kind: a <code>words</code> claim with its exemplars resolved and its return verdicts;</p>
+<p>  a <code>pattern</code> claim with its counts, denominators (rules 5 and 6) and the bracket of <code>prior.md</code></p>
+<p>  §4 it sits in; a claim validated with the other kind&#x27;s evidence is a defect, named. Then</p>
+<p>  <code>prior.md</code> §3&#x27;s declaration of what each level&#x27;s verdict would rest on, against what it rests</p>
+<p>  on, and every switch record in <code>literature-C3.md</code> against the findings it superseded. Write</p>
+<p>  the table in <code>claims-E1.md</code>; the methods paragraph (§8) cites it.</p>
+<p>- **The manifest, whole.** <code>run_manifest.json</code> names the model, seed and decoding behind every</p>
+<p>  figure; a figure whose entry is missing has no provenance, and is listed.</p>
+<p>- **The figures restated** where a reader will find them, each with FLEET.md §2&#x27;s definition and</p>
+<p>  what it licenses: fidelity, agreement with alpha and Jaccard, gold fidelity and stability at B2</p>
+<p>  and B3; transmission at B3 and B4; transmission after revision at B4; the position curve; the</p>
+<p>  verdict fleet&#x27;s disagreement rate. Readers in fresh contexts are instances of one model, not</p>
+<p>  two minds. Call none of them reliability, and none intra-rater.</p>
+<p>- **The diary against the transcript**, for legs drawn by seed, one per stage at least: an</p>
+<p>  entry the transcript does not bear out is a defect.</p>
+<p>- **<code>probes-E1.md</code>**: <code>probe.py NN --leg L --score</code> over every <code>_probe/</code> answer file; recall</p>
+<p>  failures per stage and per question, with a miss the head or the diary answers counted as a</p>
+<p>  note and apart from the defects, and the questions nothing on record could check (<code>n/a</code>) counted</p>
+<p>  apart, never as recall.</p>
+<p>- **The unplaced**, read and not only counted: second-order themes with no placement; concepts</p>
+<p>  unreachable from any theme in rooms above <code>concept_reach_threshold</code>; third-order themes no</p>
+<p>  fourth-order theme took; fourth-order themes no dimension gathered. What kind of thing each</p>
+<p>  was, and whether any should have been a member.</p>
+<h2>2. The ledgers, the stories, what a reader was given</h2>
+<p>**The ledgers, complete and not summarised.** <code>findings.jsonl</code>: lines by status with the stage</p>
+<p>at which each status changed, the <code>warrant</code> distribution, the count with no statable</p>
+<p><code>refuted_by</code>. Every other ledger: line counts, complete, no line edited after writing. Do not</p>
+<p>plot the discovery curve; state new kinds per hundred themes read at the census.</p>
+<p>**The stories.** From <code>saturation.jsonl</code> and every <code>story_rooms-pN.jsonl</code>: passes run, the pass</p>
+<p>the model rests on, rooms read against a story in all and distinct, the three counts per pass;</p>
+<p>then, from <code>verdicts-D.jsonl</code>, how the rooms the last story could not tell fared, and how many</p>
+<p>rooms no story was read against did not compose, which measures what the reading behind the</p>
+<p>stories bought. Beside it: loops that passed the one-room test, and <code>account_passes.jsonl</code>,</p>
+<p>since a single pass means the account&#x27;s loop did not run.</p>
+<p>**What a reader was given**, five things, absent a defect: the data-structure view&#x27;s leftmost</p>
+<p>column holds material, and one row walks from what somebody typed to a dimension without another</p>
+<p>file; <code>structure.md</code> explains every fourth-order theme with its question, what falls outside,</p>
+<p>and quotes carrying room, author, hour and concept id, with why the set expresses it (no quota;</p>
+<p>the defect is five quotes making one point); the residue explained, not listed, beside stage</p>
+<p>C3&#x27;s remainder; <code>account.md</code> at one to two pages, the range or the mode, every room it could not</p>
+<p>reach checked against <code>branches.jsonl</code>, since one stage D4 found a branch for is a finding about</p>
+<p>the account; every quote dated and attributed.</p>
+<p>**The departures**, each with what following the provision would have cost; one acted on</p>
+<p>before it was written is a defect. **The defects**, the material&#x27;s apart from the instrument&#x27;s.</p>
+<p>**The forks**: the spread across forks of the fourth-order partition at C2 and of the verdicts</p>
+<p>at D2, from the two comparison files alone; or none. **Rule 9**: every finding about the corpus</p>
+<p>a stage file or the operator handed over rather than asked you to make, whether your result</p>
+<p>would have existed without it, reported as replicated, never as discovered; if none, say so.</p>
+<h2>3. Composition at each level, expectations and contrasts</h2>
+<p>Recompute fixed-global verdicts (<code>does-not-compose</code> included), particulars and corrections</p>
+<p>met twice from the ledgers. The latter are shared-branch candidates, not failure thresholds.</p>
+<p>Report local validation and unresolved evidence separately, then cluster explanations and</p>
+<p>distinct global changes against <code>prior.md</code> §3. State whether composition succeeded, failed or</p>
+<p>remains uncertain, with the mechanism and cases that warrant that judgment. Kozlowski and</p>
+<p>Klein&#x27;s composed/compiled distinction describes emergence, not success or failure; a sparse ledger is a finding (one form with variation),</p>
+<p>reported as one and never as success by default. Then <code>prior.md</code> §2&#x27;s expectations, the</p>
+<p>operator&#x27;s and yours, each held or not, against <code>account.md</code> and <code>waterfall-D5.md</code>; stage A1&#x27;s</p>
+<p>three sentences against the structure.</p>
+<p><code>expectations-E1.md</code>: <code>EXPECTATIONS.jsonl</code> against the ledger and the verdicts, per room and per</p>
+<p>element: instantiated or absent where expected, and the two failures; the score by branch and</p>
+<p>by verdict is the replication score, in-sample throughout; uncited concept ids are computed by script and are not held out. Stage D5&#x27;s survival figures per branch</p>
+<p>beside it, from the record, never from the canvas.</p>
+<p>The field&#x27;s entries (<code>out/sealed/FIELD.jsonl</code>), in <code>expectations-E1.md</code> under a heading</p>
+<p><code>The field&#x27;s entries</code>: for each, the rooms that took it up (instantiate or restrict), contradicted</p>
+<p>it or left it absent, beside the same shares for the model&#x27;s other elements, so that a reader</p>
+<p>can see whether the tentative mark itself drew answers; and stage D3&#x27;s ruling on it.</p>
+<p>The onset contrast (<code>contrast.md</code>): what stage C2 found on the arrows&#x27; <code>early_late</code>, rule 6</p>
+<p>before any gap is read, and whether stage A1&#x27;s expectation held. A boundary condition in the</p>
+<p>model&#x27;s terms, never a covariate.</p>
+<h2>4. The reconstruction sample</h2>
+<p>**Build leg.** Thirty rooms by seed, stratified by branch and by verdict, named in <code>notes-E1.md</code></p>
+<p>and written one per line to <code>reconstruction-sample-E1.jsonl</code> (`{&quot;sub&quot;: &quot;...&quot;, &quot;branch&quot;: &quot;...&quot;,</p>
+<p>&quot;verdict&quot;: &quot;...&quot;}<code>) before any is opened. For each, </code>rebuild.py &lt;sub&gt;` gives the skeleton: the global model at the</p>
+<p>frozen version plus its supported accepted, modified and particular lines, with pending lines, evidence states and version uncertainty explicit. A packet holds the skeleton, the</p>
+<p>coder&#x27;s <code>case.md</code> and the room&#x27;s second-order themes; never <code>model-D.md</code>, the canvas or your</p>
+<p>notes. <code>RETURN-E1.md</code> asks the reader to score, claim by claim of <code>case.md</code>, whether the skeleton</p>
+<p>accounts for it, with the element id or <code>none</code>; <code>packets.py E1</code> under the 50 KB ceiling.</p>
+<p>**Dispatch leg**, outside your session. **Check leg**: you are relaunched and told the readers</p>
+<p>left their files in <code>_fleet_raw/E1/</code>; you validate the returns, write <code>reconstruction-E1.jsonl</code>,</p>
+<p>and report fidelity by branch and by verdict. This is the composition test at the leaf (SCHEMA</p>
+<p>§8). Poor reconstruction can reflect unsupported claims, missing evidence, omitted particulars or an inadequate shared account. Separate these causes; do not label every low score as global model failure.</p>
+<h2>5. Versioned judgments, side by side</h2>
+<p>Report the original fixed-global verdict from <code>verdicts-D.jsonl</code>, the current adapted-local status from the effective return manifest, and shared-branch adequacy from <code>branches-D5.jsonl</code> separately. Put reconstruction fidelity and unresolved claim counts beside them. State each model version. Examine disagreement in a seeded sample using the case evidence; concept counts and off-platform mentions are diagnostics, not explanations by themselves.</p>
+<h2>6. Which stage was load-bearing</h2>
+<p>Stage by stage, whether the final claims rest on that stage&#x27;s output, and the stage whose output</p>
+<p>nothing downstream read; a file nothing read is a defect in this instrument. If every stage is</p>
+<p>load-bearing, say so and how you checked. Three files are here for this test: the fixed <code>tools/chunk_compare.py</code> with its source receipt and outputs, which must let a stranger recompute the comparison or it is a result with no</p>
+<p>method behind it; the data-structure view at C2&#x27;s last snap beside <code>data_structure-C5.md</code>, with</p>
+<p>what moved or that nothing did; <code>account_passes.jsonl</code>. Apply the same test to the model&#x27;s</p>
+<p>tiers: whether the dimensions do any work in the branches, the arrows and the accounts. A tier</p>
+<p>that does none looks sound alone and shows as useless only when the stages are read together.</p>
+<h2>7. What the study cannot say, in one place</h2>
+<p>The absence claims marked weak under contract §5; the looked-for-and-not-found from every stage,</p>
+<p>stated as results in the findings&#x27; register; the ungrounded relationships from <code>model.md</code>; the</p>
+<p>coder disagreements from <code>coder_conflicts.jsonl</code>, with both quotes and which reading each</p>
+<p>affected claim rests on; the third-order themes the model does not use and the arrows no</p>
+<p>proposition carried; what the form pass at C1 found that no tier could hold; stage C3&#x27;s</p>
+<p>remainder; whether any room&#x27;s problems were settled, which only the room models speak to; and</p>
+<p>what a group leaves behind, the contract&#x27;s §1 question with no measure: the canvas is what the</p>
+<p>drawing left behind, and the instrument does not know whether the room went on.</p>
+<p>**The standing departures of this design**, beside the run&#x27;s own: five tiers rather than three;</p>
+<p>the fourth-order tier cut at C1 before the loop, against Gioia, Corley and Hamilton&#x27;s</p>
+<p>instruction to think at both levels at once (how many third-order themes B1 made, C1 kept, and</p>
+<p>C2 to D3 merged or split); literature after the model; a scheme frozen at B2; the frame a</p>
+<p>dated, hashed copy with 705 coded rooms and a target census of 706; omissions and their</p>
+<p>selection reasons recomputed from the supplied records, never all the rooms that organized; the frame is text and most of the work left none, with stage A1&#x27;s off-record</p>
+<p>distribution and the share of each room&#x27;s artwork placed by people who wrote in it; the canvas</p>
+<p>held from the start, so the model explains the outcome it was built in view of and was never</p>
+<p>scored against it; one analyst above the assignment tier, with what saw its work (the hostile</p>
+<p>reader, the three readers, the labelers, the forks) and the room notes as the one input nothing</p>
+<p>checks; no human check at any tier; no theoretical sampling, with what stood in, by count;</p>
+<p>saturation as passes and as kinds against themes read; replication as the return, the unadapted</p>
+<p>group a branch of its own.</p>
+<p>**The critique shelf.** It arrives with this stage (<code>mem.py shelf</code>; METHOD.md names it). Read the</p>
+<p>four read-tier files before this section and §8, not before: the findings are fixed by now and</p>
+<p>must stay so. For each objection the shelf raises (invented quotes, the reasoning handed to the</p>
+<p>machine, an opaque process, the craft and reflexivity a model does not have, more output instead</p>
+<p>of better), say whether this run answers it, by which file or check, or that it does not. Cite the</p>
+<p>shelf by file and page. The call for papers is the venue&#x27;s brief: say in §8 which of its asks the</p>
+<p>run meets and which it does not; it never changes a finding.</p>
+<p>**The one thing to say plainly at the end.** Whether this study produced a concept, a model, a</p>
+<p>typology or a description, and which it set out to produce; all four are real outcomes. Then the</p>
+<p>strongest argument that the whole partition is what contract §5&#x27;s confound predicts, size as</p>
+<p>form, and what in <code>chunk-share-D4.md</code>&#x27;s volume check and stage D4&#x27;s line-count division answers</p>
+<p>it. Say what a stratified sample of the population&#x27;s uncoded rooms would have to show to</p>
+<p>overturn the study, in numbers. Name the parts you could not answer.</p>
+<h2>8. The methods paragraph</h2>
+<p>The last section of <code>audit-E1.md</code>, written for the paper from METHOD.md&#x27;s instruction and what</p>
+<p>the audit found, with the four departures stated: the tier split between coders and analyst; no</p>
+<p>overlap between the coders&#x27; collection and your analysis; the census in place of sampling; the</p>
+<p>in-sample return, with the tier named. It says which agent built which tier, what the canvas is</p>
+<p>and is not, that you held every room&#x27;s outcome while building, and that everything is archived</p>
+<p>with no promise that a rerun reproduces it. Every number in it is one the audit computed.</p>
+<h2>9. The experience</h2>
+<p><code>experience-E1.md</code>: your account, first person, written once in one pass after the audit, cited</p>
+<p>to files and diary entries, with *I do not remember* where that is the truth and no</p>
+<p>reconstruction in its place. Eleven sections, in order: the run as lived, what compaction cost</p>
+<p>and what the heads carried, each stage&#x27;s tokens from <code>RUN.json</code>; stage by stage, what each did</p>
+<p>and what you would tell the next author; where the instrument asked what could not be done as</p>
+<p>written, and where you cannot tell whether it or you was wrong; where you cut a corner, on the</p>
+<p>record, and the corner you did not cut; the hands, what reading behind them showed, what you</p>
+<p>would repeat; the stories, which rooms changed the telling, and whether the floor of three</p>
+<p>passes kept you going or stopped you; the model, where you are unsure, the rooms it cannot</p>
+<p>compose by kind, what the hostile reader and the three readers changed; the branches and the</p>
+<p>chunk-share tree, which you would publish; <code>prior.md</code> and the <code>made</code> lines against the account;</p>
+<p>five changes, ranked, and the one thing not to change; the operator&#x27;s rulings, listed; anything</p>
+<p>else. The next version is written from this file and the handbacks.</p>
+<h2>Moments to log</h2>
+<p>Each script run with its result; each ordering verified or broken; each count that disagreed</p>
+<p>with its handback; the sample drawn; the check leg&#x27;s returns validated; the composition diagnostics; the</p>
+<p>composition verdict; the load-bearing result; the experience begun and ended.</p>
+<h2>Final message</h2>
+<p>The claim (whether the model composed, in the pre-registered terms), the room that best supports</p>
+<p>it, the room that most threatens it, the condition; then every section&#x27;s counts: coverage by</p>
+<p>stage, orderings held or broken, probe failures, the composition diagnostics, the replication score, the</p>
+<p>contrast&#x27;s result, reconstruction fidelity by branch and by verdict, the cross-table&#x27;s</p>
+<p>disagreements, departures and defects by kind, forks and their spread or none, the stage nothing</p>
+<p>used, which of the four things the study produced, the association you trust least, the five</p>
+<p>changes in one line each; the licences exercised and never exercised.</p>
+<h2>Close</h2>
+<p><code>done.sh E1</code> at every leg; <code>handback-E1.md</code>, not short, since anything not written down goes</p>
+<p>there or nowhere; the last manifest line naming <code>experience-E1.md</code>, its hash and the model that</p>
+<p>wrote it; the head rewritten for stage E2; the closing diary line.</p>
+<h2>Explicit composition result</h2>
+<p>Write <code>composition_status: supported | unsupported | unresolved</code> on its own line in <code>audit-E1.md</code>, with the stated level, scope and evidence. All three are valid outcomes. Preserve the original fixed-global verdict distribution separately from current adapted-local status and shared-branch adequacy. Use the effective ledger for reconstruction, including supported particulars; unknown observations and pending lines remain explicit. Inspect D6 proposals as unvalidated, against the unchanged D3 model.</p></html>

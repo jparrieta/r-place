@@ -1,0 +1,1 @@
+r/GuildWars2 — branch B — verdict: full. Canvas practices saturated after protection/negotiation, with only belated requests and a recognition trace later. Record saturation is limited by removals, unseen Discord/final canvas, and sliced reading. Blockers: none.

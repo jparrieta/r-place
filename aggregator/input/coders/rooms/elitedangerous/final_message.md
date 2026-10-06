@@ -1,0 +1,1 @@
+r/elitedangerous — verdict: full. Thematic saturation: late evidence qualified existing themes without opening a new practice. Evidence saturation: public coordination is well supported, while automation, deleted visuals, and off-platform activity limit representativeness. Blocked: nothing.

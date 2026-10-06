@@ -1,0 +1,319 @@
+{
+ "instrument": "v30",
+ "emit": "emit-v30",
+ "verdict": "full",
+ "verdict_note": "set by emit.close(verdict=...); a verdict that exists only as prose in case.md cannot be read back reliably",
+ "close_calls": 2,
+ "reopened_after_close": true,
+ "last_close_seq": 221,
+ "stages": [
+  {
+   "stage": "step1_brief",
+   "from": null,
+   "at_seq": 1,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step1_brief",
+   "at_seq": 207,
+   "codes_so_far": 62,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step4_themes",
+   "at_seq": 217,
+   "codes_so_far": 62,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step5_counter",
+   "at_seq": 218,
+   "codes_so_far": 62,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step6_account",
+   "from": "step4_themes",
+   "at_seq": 219,
+   "codes_so_far": 62,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step7_write",
+   "from": "step6_account",
+   "at_seq": 219,
+   "codes_so_far": 62,
+   "corpus_reads_self_reported": null
+  }
+ ],
+ "reading": {
+  "threads_disposed": 108,
+  "threads_in_corpus": 108,
+  "threads_undisposed": 0,
+  "read_in_full": 92,
+  "triaged_and_dropped": 16,
+  "unread": 0,
+  "coded": 5,
+  "items_in_threads_read": 376,
+  "items_in_window": 659,
+  "items_in_corpus_note": "in-window items only; the corpus header's headline additionally counts [CONTEXT] items",
+  "share_of_threads_disposed": 1.0,
+  "share_of_threads_read_in_full": 0.852,
+  "share_of_text_read_in_full": 0.597
+ },
+ "calls_by_stage": {
+  "step1_brief": {
+   "stage": 1,
+   "coder_stage": 2,
+   "close": 1
+  },
+  "step2_read": {
+   "coder_stage": 2,
+   "thread": 108,
+   "threads_bulk": 18
+  },
+  "step3_codes": {
+   "coder_stage": 2,
+   "code": 62,
+   "pointer": 4
+  },
+  "step6_account": {
+   "coder_stage": 2,
+   "stage": 1
+  },
+  "step7_write": {
+   "coder_stage": 2,
+   "coder_close": 2,
+   "stage": 1,
+   "close": 1
+  },
+  "step4_themes": {
+   "stage": 2,
+   "theme": 8,
+   "theme_add": 1
+  },
+  "step5_counter": {
+   "stage": 1,
+   "find": 6
+  }
+ },
+ "n_codes": 62,
+ "n_codes_emitted": 62,
+ "n_retracted": 0,
+ "n_themes": 8,
+ "n_threads": 108,
+ "n_pointers": 4,
+ "n_subreddits_named": 3,
+ "n_off_platform": 1,
+ "isolated": false,
+ "coordination_left_the_venue": true,
+ "discovered_at": {
+  "step3": 62
+ },
+ "saturation_observed": {
+  "n_codes": 62,
+  "last_step3_code_at": 62,
+  "codes_minted_after_it": 0,
+  "share_of_minting_before_last_new_step3_code": 1.0
+ },
+ "integrity": {
+  "codes_with_no_theme": [],
+  "themes_with_no_code": [],
+  "ok": true
+ },
+ "gate": {
+  "instrument": "v30",
+  "sub": "blackmirror",
+  "branch": "B",
+  "threshold": 500,
+  "budget_items": 500,
+  "floor_items": 25,
+  "items_in_window": 659,
+  "items_by_people": 657,
+  "chars_by_people": 111070,
+  "threads": 108,
+  "decided_utc": "2026-09-07T21:52:26Z",
+  "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+  "slices": [
+   {
+    "batch": "01",
+    "first_thread": "58kpau",
+    "last_thread": "61tdpp",
+    "n_threads": 74,
+    "items_in_window": 499,
+    "chars_in_window": 88087,
+    "start_utc": 1490976290,
+    "last_opening_utc": 1491190870,
+    "last_item_utc": 1492446184,
+    "start_hour": 0.08,
+    "last_opening_hour": 59.69,
+    "threads": [
+     "58kpau",
+     "62kzys",
+     "62g7j7",
+     "61kxan",
+     "62fju7",
+     "60y68v",
+     "62gx8f",
+     "62mrff",
+     "62l878",
+     "62mt9k",
+     "5z6gm7",
+     "58kpbd",
+     "625uhl",
+     "6234ra",
+     "58kpa5",
+     "62fgsk",
+     "5uli5x",
+     "62o1lt",
+     "62dqsl",
+     "627jma",
+     "62o66j",
+     "58kp9d",
+     "62okih",
+     "62oqiy",
+     "62ozx9",
+     "58kp8d",
+     "6251w8",
+     "62pky2",
+     "62pwbf",
+     "622e1l",
+     "598lhs",
+     "62qnlk",
+     "62qzcv",
+     "5a67fg",
+     "58t5yg",
+     "61tf9u",
+     "62s5if",
+     "61s7ld",
+     "58kpum",
+     "62tjdb",
+     "5ogz39",
+     "58kpby",
+     "62v2ol",
+     "5f1oag",
+     "5stq0t",
+     "593cql",
+     "61lmrg",
+     "6156ng",
+     "62vqtf",
+     "62vqxx",
+     "62do4j",
+     "62wmpa",
+     "5w2wuz",
+     "62xyfg",
+     "62xywp",
+     "62y3x5",
+     "62yb3v",
+     "621e33",
+     "62zb4w",
+     "62zxr8",
+     "630jsw",
+     "630jvx",
+     "5nvw6g",
+     "620pyg",
+     "61tmko",
+     "631hje",
+     "631ycf",
+     "5z77j9",
+     "632xld",
+     "633a62",
+     "58quob",
+     "618i1s",
+     "56gqzx",
+     "61tdpp"
+    ]
+   },
+   {
+    "batch": "02",
+    "first_thread": "62fptz",
+    "last_thread": "63eq92",
+    "n_threads": 34,
+    "items_in_window": 160,
+    "chars_in_window": 21233,
+    "start_utc": 1491191915,
+    "last_opening_utc": 1491319081,
+    "last_item_utc": 1492406978,
+    "start_hour": 59.98,
+    "last_opening_hour": 95.3,
+    "threads": [
+     "62fptz",
+     "620zsr",
+     "634o4j",
+     "635a4r",
+     "635k74",
+     "635wcb",
+     "635whc",
+     "635wkh",
+     "636izk",
+     "636q0d",
+     "637rwr",
+     "638pb2",
+     "638qrd",
+     "639b5a",
+     "62d8h8",
+     "639rcq",
+     "63ahf5",
+     "63avhz",
+     "63bhlx",
+     "5i3gzk",
+     "6276x8",
+     "628sqh",
+     "61ml7t",
+     "61j4p9",
+     "60uqer",
+     "60nlwn",
+     "61ycll",
+     "63c7vz",
+     "63c8al",
+     "5cxk1n",
+     "63ckfz",
+     "63d6x0",
+     "63e219",
+     "63eq92"
+    ]
+   }
+  ],
+  "coders": [
+   {
+    "batch": "01",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-07T21:53:06Z",
+    "run_dir": "fleet/batch_01",
+    "code_id_start": 1,
+    "pointer_id_start": 1,
+    "context_openings": 0,
+    "instrument_fingerprint": "e895de451c0cfc1d",
+    "collected_utc": "2026-09-07T22:08:39Z",
+    "codes": 55
+   },
+   {
+    "batch": "02",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-07T22:09:22Z",
+    "run_dir": "fleet/batch_02",
+    "code_id_start": 56,
+    "pointer_id_start": 4,
+    "context_openings": 23,
+    "instrument_fingerprint": "e895de451c0cfc1d",
+    "collected_utc": "2026-09-08T14:47:17Z",
+    "codes": 7
+   }
+  ],
+  "consolidated_utc": "2026-09-08T14:49:45Z",
+  "pool": {
+   "codes": 62,
+   "threads": 108,
+   "pointers": 4,
+   "batches": [
+    "01",
+    "02"
+   ]
+  }
+ },
+ "branch": "B"
+}

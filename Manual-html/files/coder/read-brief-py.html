@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>read_brief.py</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/read-brief-py.md">Markdown source</a></nav>
+<h1 id="read_briefpy">read_brief.py</h1>
+<p>The brief writer's reading tool, revision <code>v32-brief-r1</code>.</p>
+<p><strong>What it holds</strong></p>
+<p>Verbs <code>header</code>, <code>titles [n] [--day d] [--offset N]</code>, <code>sample [n]</code>, <code>thread ID [--offset] [--limit]</code>, <code>item ID [--offset] [--limit]</code>, <code>state</code> and <code>evidence</code>. Bodies come from the adjacent <code>brief_corpus.jsonl</code>. Every response is bounded (at most 18,000 characters) and every served span is logged in character offsets. <code>sample</code> draws item excerpts from the least-read active days first. <code>evidence</code> writes <code>out/evidence.json</code>, the coverage receipt. There is a reference budget and a hard ceiling at three times it.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p>The instrument's author. <code>newbrief.py</code> copies it into <code>brief/</code>; the brief writer calls it.</p>
+<p><strong>Why it exists</strong></p>
+<p>"The writer must never open either corpus directly." The brief writer asks "what is ordinary here", so its verbs sample for breadth across the week, where the coder's <code>read.py</code> serves triage windows. The receipt lets a reader "calibrate a description" whose coverage it can see.</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/instrument/v32/read_brief.py">read_brief.py</a>.</p>
+<p>Checked against: read_brief.py, CONTRACT-brief-writer.v32.md, TOOLS-SPEC.md</p>
+</body>
+</html>

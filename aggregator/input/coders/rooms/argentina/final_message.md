@@ -1,0 +1,1 @@
+r/argentina — **full**. Saturation: later slices mostly repeated established practices, with late additions around backlash and post-closure continuation. Record saturation: incomplete across slice boundaries, removed bodies, clipped displays, and off-platform coordination. Blocked: nothing.

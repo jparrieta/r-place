@@ -1,0 +1,1330 @@
+{
+ "wine": {
+  "counts": {
+   "threads_given": 6,
+   "threads_with_codes": 6,
+   "items": 83,
+   "coded": 50,
+   "bridge": 2,
+   "removed": 0,
+   "dropped": 31,
+   "orphans": 0,
+   "na_stretches": 20,
+   "coverage_of_coded_items": 0.79,
+   "threads_total_in_window": 98
+  },
+  "index": {
+   "62sksk": {
+    "0": {
+     "thread_id": "62sksk",
+     "item_id": "62sksk",
+     "parent_id": null,
+     "author": "Dire_Platypus",
+     "created_utc": 1491051781,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 234,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1494549252
+     }
+    },
+    "1": {
+     "thread_id": "62sksk",
+     "item_id": "dfovhh2",
+     "parent_id": "62sksk",
+     "author": "Dire_Platypus",
+     "created_utc": 1491051795,
+     "dt_parent_sec": 14,
+     "dt_thread_sec": 14,
+     "state": "coded",
+     "code_ids": [
+      "c0001",
+      "c0002"
+     ],
+     "labels": [
+      "pretending to have decanted a birthday bottle of Dom for six hours",
+      "thanking everyone for playing and revealing Korbel in the decanter"
+     ],
+     "sequence": [
+      "c0001",
+      "na",
+      "c0002"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "edited": 1491093792,
+      "score": 99,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1493704317
+     }
+    },
+    "1.1": {
+     "thread_id": "62sksk",
+     "item_id": "dfow4a2",
+     "parent_id": "dfovhh2",
+     "author": "Makin_hole",
+     "created_utc": 1491053085,
+     "dt_parent_sec": 1290,
+     "dt_thread_sec": 1304,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "playing along by saying the bottle needed more shaking"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 22,
+      "retrieved_on": 1493704622
+     }
+    },
+    "1.2": {
+     "thread_id": "62sksk",
+     "item_id": "dfow4oh",
+     "parent_id": "dfovhh2",
+     "author": "Atlanta_pho-toes",
+     "created_utc": 1491053105,
+     "dt_parent_sec": 1310,
+     "dt_thread_sec": 1324,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "playing along that longer decanting brings the bubbles back"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1493704628
+     }
+    },
+    "1.3": {
+     "thread_id": "62sksk",
+     "item_id": "dfox1i4",
+     "parent_id": "dfovhh2",
+     "author": "smashedguitar",
+     "created_utc": 1491054817,
+     "dt_parent_sec": 3022,
+     "dt_thread_sec": 3036,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "extending the joke with a spoon and soda stream"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 33,
+      "retrieved_on": 1493705066
+     }
+    },
+    "1.4": {
+     "thread_id": "62sksk",
+     "item_id": "dfoxk3d",
+     "parent_id": "dfovhh2",
+     "author": "Derpcepticon",
+     "created_utc": 1491055724,
+     "dt_parent_sec": 3929,
+     "dt_thread_sec": 3943,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "earnestly correcting the six-hour decant"
+     ],
+     "sequence": [
+      "c0009",
+      "na"
+     ],
+     "coverage": 0.32,
+     "meta": {
+      "score": 61,
+      "author_flair_text": "Wine Pro",
+      "retrieved_on": 1493705313
+     }
+    },
+    "1.4.1": {
+     "thread_id": "62sksk",
+     "item_id": "dfozwm0",
+     "parent_id": "dfoxk3d",
+     "author": "Rosenstadt",
+     "created_utc": 1491059495,
+     "dt_parent_sec": 3771,
+     "dt_thread_sec": 7714,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "telling an earnest adviser to check the calendar"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 0.95,
+     "meta": {
+      "score": 78,
+      "retrieved_on": 1493706442
+     }
+    },
+    "1.4.1.1": {
+     "thread_id": "62sksk",
+     "item_id": "dfp0q1p",
+     "parent_id": "dfozwm0",
+     "author": "Derpcepticon",
+     "created_utc": 1491060668,
+     "dt_parent_sec": 1173,
+     "dt_thread_sec": 8887,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "realizing they fell for it"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 64,
+      "author_flair_text": "Wine Pro",
+      "retrieved_on": 1493706835
+     }
+    },
+    "2": {
+     "thread_id": "62sksk",
+     "item_id": "dfovqkn",
+     "parent_id": "62sksk",
+     "author": "Alexarp",
+     "created_utc": 1491052324,
+     "dt_parent_sec": 543,
+     "dt_thread_sec": 543,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "nearly writing thirty lines before checking the calendar"
+     ],
+     "sequence": [
+      "c0003",
+      "na"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": 32,
+      "retrieved_on": 1493704439
+     }
+    },
+    "3": {
+     "thread_id": "62sksk",
+     "item_id": "dfowpjw",
+     "parent_id": "62sksk",
+     "author": "40crew",
+     "created_utc": 1491054213,
+     "dt_parent_sec": 2432,
+     "dt_thread_sec": 2432,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "calling it a good one"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493704907
+     }
+    },
+    "4": {
+     "thread_id": "62sksk",
+     "item_id": "dfowte7",
+     "parent_id": "62sksk",
+     "author": "ErnestWorthing",
+     "created_utc": 1491054411,
+     "dt_parent_sec": 2630,
+     "dt_thread_sec": 2630,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "admitting the joke got them good"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 18,
+      "retrieved_on": 1493704958
+     }
+    },
+    "5": {
+     "thread_id": "62sksk",
+     "item_id": "dfoyt1d",
+     "parent_id": "62sksk",
+     "author": "alaskanfarmer",
+     "created_utc": 1491057781,
+     "dt_parent_sec": 6000,
+     "dt_thread_sec": 6000,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "showing the post to a husband in anger before praising it"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 27,
+      "retrieved_on": 1493705914
+     }
+    },
+    "6": {
+     "thread_id": "62sksk",
+     "item_id": "dfp6n73",
+     "parent_id": "62sksk",
+     "author": "SoichiroL",
+     "created_utc": 1491069116,
+     "dt_parent_sec": 17335,
+     "dt_thread_sec": 17335,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "setting the joke aside to criticize the real 2006 Dom"
+     ],
+     "sequence": [
+      "c0013",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493709685
+     }
+    },
+    "6.1": {
+     "thread_id": "62sksk",
+     "item_id": "dfpn49m",
+     "parent_id": "dfp6n73",
+     "author": "Dire_Platypus",
+     "created_utc": 1491093902,
+     "dt_parent_sec": 24786,
+     "dt_thread_sec": 42121,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "clarifying the decanter held no actual Dom while recounting disappointment with the real bottle"
+     ],
+     "sequence": [
+      "c0016",
+      "na"
+     ],
+     "coverage": 0.56,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1493717657
+     }
+    },
+    "7": {
+     "thread_id": "62sksk",
+     "item_id": "dfpi5yw",
+     "parent_id": "62sksk",
+     "author": "mcindathouse",
+     "created_utc": 1491086467,
+     "dt_parent_sec": 34686,
+     "dt_thread_sec": 34686,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "nearly flying off the handle before recognizing the joke"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493715257
+     }
+    },
+    "8": {
+     "thread_id": "62sksk",
+     "item_id": "dfpi7pn",
+     "parent_id": "62sksk",
+     "author": "arnaudh",
+     "created_utc": 1491086542,
+     "dt_parent_sec": 34761,
+     "dt_thread_sec": 34761,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "pointing to the Sour Grapes film behind a Champagne joke"
+     ],
+     "sequence": [
+      "na",
+      "c0015"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "edited": 1491106965,
+      "score": 1,
+      "author_flair_text": "Wine Pro",
+      "retrieved_on": 1493715279
+     }
+    },
+    "9": {
+     "thread_id": "62sksk",
+     "item_id": "dfpkg0g",
+     "parent_id": "62sksk",
+     "author": "SoichiroL",
+     "created_utc": 1491089911,
+     "dt_parent_sec": 38130,
+     "dt_thread_sec": 38130,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493716361
+     }
+    },
+    "9.1": {
+     "thread_id": "62sksk",
+     "item_id": "dfpnis3",
+     "parent_id": "dfpkg0g",
+     "author": "Dire_Platypus",
+     "created_utc": 1491094513,
+     "dt_parent_sec": 4602,
+     "dt_thread_sec": 42732,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "naming the post as an April Fools joke before recommending Champagne"
+     ],
+     "sequence": [
+      "c0017",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1493717853
+     }
+    },
+    "10": {
+     "thread_id": "62sksk",
+     "item_id": "dfpqa4s",
+     "parent_id": "62sksk",
+     "author": "Ugggggggggggggggggh",
+     "created_utc": 1491098825,
+     "dt_parent_sec": 47044,
+     "dt_thread_sec": 47044,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "reporting horror and applauding the trick"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493719188
+     }
+    },
+    "11": {
+     "thread_id": "62sksk",
+     "item_id": "dfpvkvj",
+     "parent_id": "62sksk",
+     "author": "Tony707",
+     "created_utc": 1491108216,
+     "dt_parent_sec": 56435,
+     "dt_thread_sec": 56435,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "getting instantly angry at the fake wine mistake"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493721748
+     }
+    }
+   },
+   "62tsle": {
+    "0": {
+     "thread_id": "62tsle",
+     "item_id": "62tsle",
+     "parent_id": null,
+     "author": "pbrooks19",
+     "created_utc": 1491064556,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0020",
+      "c0021",
+      "c0022"
+     ],
+     "labels": [
+      "making the annual April challenge think within the box",
+      "requiring the challenge wine to come from a box",
+      "scheduling the challenge's tasting notes post"
+     ],
+     "sequence": [
+      "na",
+      "c0020",
+      "na",
+      "c0021",
+      "na",
+      "c0022",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "edited": 1491064832,
+      "score": 12,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1494549862
+     }
+    },
+    "1": {
+     "thread_id": "62tsle",
+     "item_id": "dfpgfkk",
+     "parent_id": "62tsle",
+     "author": "Bokin0",
+     "created_utc": 1491083780,
+     "dt_parent_sec": 19224,
+     "dt_thread_sec": 19224,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "being tempted to join the boxed-wine challenge"
+     ],
+     "sequence": [
+      "c0023",
+      "na"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493714415
+     }
+    },
+    "1.1": {
+     "thread_id": "62tsle",
+     "item_id": "dfpgjob",
+     "parent_id": "dfpgfkk",
+     "author": "pbrooks19",
+     "created_utc": 1491083958,
+     "dt_parent_sec": 178,
+     "dt_thread_sec": 19402,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "encouraging a tempted challenger to try it"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1493714470
+     }
+    },
+    "2": {
+     "thread_id": "62tsle",
+     "item_id": "dfpuxa3",
+     "parent_id": "62tsle",
+     "author": "BroseppeVerdi",
+     "created_utc": 1491106935,
+     "dt_parent_sec": 42379,
+     "dt_thread_sec": 42379,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "promising notes on boxed Picpoul"
+     ],
+     "sequence": [
+      "c0025"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Wine Pro",
+      "retrieved_on": 1493721433
+     }
+    },
+    "3": {
+     "thread_id": "62tsle",
+     "item_id": "dfpw8xh",
+     "parent_id": "62tsle",
+     "author": "toodarntall",
+     "created_utc": 1491109595,
+     "dt_parent_sec": 45039,
+     "dt_thread_sec": 45039,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "asking whether tetra packs and cans count"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Wine Pro",
+      "retrieved_on": 1493722069
+     }
+    },
+    "3.1": {
+     "thread_id": "62tsle",
+     "item_id": "dfqsj4l",
+     "parent_id": "dfpw8xh",
+     "author": "pbrooks19",
+     "created_utc": 1491170656,
+     "dt_parent_sec": 61061,
+     "dt_thread_sec": 106100,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "accepting tetra packs and cans as perfectly boxy"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1493737895
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62tsle",
+     "item_id": "dfs6bvy",
+     "parent_id": "dfqsj4l",
+     "author": "BroseppeVerdi",
+     "created_utc": 1491246604,
+     "dt_parent_sec": 75948,
+     "dt_thread_sec": 182048,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "asking again whether canned wine counts"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Wine Pro",
+      "retrieved_on": 1493764995
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "62tsle",
+     "item_id": "dfsenpy",
+     "parent_id": "dfs6bvy",
+     "author": "pbrooks19",
+     "created_utc": 1491256345,
+     "dt_parent_sec": 9741,
+     "dt_thread_sec": 191789,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "throwing the canned-wine rule to the crowd"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 0.77,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1493769016
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "62tsle",
+     "item_id": "dfti0kw",
+     "parent_id": "dfsenpy",
+     "author": "CondorKhan",
+     "created_utc": 1491320366,
+     "dt_parent_sec": 64021,
+     "dt_thread_sec": 255810,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "allowing canned wine"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493789048
+     }
+    }
+   },
+   "62u74i": {
+    "0": {
+     "thread_id": "62u74i",
+     "item_id": "62u74i",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491068331,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "apparently joking that simple syrup improves old wine"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494550063
+     }
+    }
+   },
+   "62uycp": {
+    "0": {
+     "thread_id": "62uycp",
+     "item_id": "62uycp",
+     "parent_id": null,
+     "author": "visionofacheezburger",
+     "created_utc": 1491075541,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "following the Dom joke with a 1993 Dom bottle"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494550446
+     }
+    },
+    "1": {
+     "thread_id": "62uycp",
+     "item_id": "dfpb5ns",
+     "parent_id": "62uycp",
+     "author": "andtheodor",
+     "created_utc": 1491075789,
+     "dt_parent_sec": 248,
+     "dt_thread_sec": 248,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "answering the Dom bottle with the tasting-notes rule"
+     ],
+     "sequence": [
+      "c0033",
+      "na"
+     ],
+     "coverage": 0.6,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "Wine Pro",
+      "retrieved_on": 1493711861
+     }
+    },
+    "2": {
+     "thread_id": "62uycp",
+     "item_id": "dfpculr",
+     "parent_id": "62uycp",
+     "author": "Rikkiwiththatnumber",
+     "created_utc": 1491078331,
+     "dt_parent_sec": 2790,
+     "dt_thread_sec": 2790,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "asking who said the room likes Dom"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1493712680
+     }
+    }
+   },
+   "6301vh": {
+    "0": {
+     "thread_id": "6301vh",
+     "item_id": "6301vh",
+     "parent_id": null,
+     "author": "mcfeeben",
+     "created_utc": 1491145025,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "showing r/wine looking good on r/place"
+     ],
+     "sequence": [
+      "c0035"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 241,
+      "retrieved_on": 1494552995
+     }
+    },
+    "1": {
+     "thread_id": "6301vh",
+     "item_id": "dfqdcx0",
+     "parent_id": "6301vh",
+     "author": "ADirtyHookahHose",
+     "created_utc": 1491150707,
+     "dt_parent_sec": 5682,
+     "dt_thread_sec": 5682,
+     "state": "coded",
+     "code_ids": [
+      "c0036",
+      "c0037",
+      "c0038",
+      "c0039"
+     ],
+     "labels": [
+      "going rogue and asking in Discord for the spot",
+      "reporting Italy messing with France's wine bottle",
+      "asking participants to help France and PlaceHearts in return",
+      "inviting a shift to fit the /r while tiring of fighting Ireland"
+     ],
+     "sequence": [
+      "c0036",
+      "na",
+      "c0037",
+      "c0038",
+      "c0039"
+     ],
+     "coverage": 0.84,
+     "meta": {
+      "edited": 1491202517,
+      "score": 19,
+      "retrieved_on": 1493730321
+     }
+    },
+    "1.1": {
+     "thread_id": "6301vh",
+     "item_id": "dfqwis0",
+     "parent_id": "dfqdcx0",
+     "author": "eeeeeep",
+     "created_utc": 1491175647,
+     "dt_parent_sec": 24940,
+     "dt_thread_sec": 30622,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "shifting the drawing to fit an r using the PlaceHearts sign"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739842
+     }
+    },
+    "1.2": {
+     "thread_id": "6301vh",
+     "item_id": "dfs1eb8",
+     "parent_id": "dfqdcx0",
+     "author": "GodlyXHell",
+     "created_utc": 1491241016,
+     "dt_parent_sec": 90309,
+     "dt_thread_sec": 95991,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "saying Portugal had the last laugh after placement ended"
+     ],
+     "sequence": [
+      "c0051"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493762559
+     }
+    },
+    "2": {
+     "thread_id": "6301vh",
+     "item_id": "dfqdqxl",
+     "parent_id": "6301vh",
+     "author": "Ragman205",
+     "created_utc": 1491151243,
+     "dt_parent_sec": 6218,
+     "dt_thread_sec": 6218,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "calling to keep the drawing looking beautiful"
+     ],
+     "sequence": [
+      "c0040"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493730510
+     }
+    },
+    "3": {
+     "thread_id": "6301vh",
+     "item_id": "dfra4b0",
+     "parent_id": "6301vh",
+     "author": "masterobiwan",
+     "created_utc": 1491192318,
+     "dt_parent_sec": 47293,
+     "dt_thread_sec": 47293,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "joining the subreddit after seeing its canvas mark"
+     ],
+     "sequence": [
+      "c0042"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746454
+     }
+    },
+    "4": {
+     "thread_id": "6301vh",
+     "item_id": "dfrcbwd",
+     "parent_id": "6301vh",
+     "author": "aexime",
+     "created_utc": 1491195842,
+     "dt_parent_sec": 50817,
+     "dt_thread_sec": 50817,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "praising the transparent wine glass"
+     ],
+     "sequence": [
+      "c0043",
+      "na"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493747526
+     }
+    },
+    "5": {
+     "thread_id": "6301vh",
+     "item_id": "dfrgwwg",
+     "parent_id": "6301vh",
+     "author": "HKEY_LOVE_MACHINE",
+     "created_utc": 1491206282,
+     "dt_parent_sec": 61257,
+     "dt_thread_sec": 61257,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "reporting scripted Spanish pressure on nine bottle pixels"
+     ],
+     "sequence": [
+      "c0044"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493750292
+     }
+    },
+    "6": {
+     "thread_id": "6301vh",
+     "item_id": "dfrhdws",
+     "parent_id": "6301vh",
+     "author": "amorpisseur",
+     "created_utc": 1491207642,
+     "dt_parent_sec": 62617,
+     "dt_thread_sec": 62617,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "relaying r/france's approval while criticizing the label"
+     ],
+     "sequence": [
+      "c0045",
+      "na"
+     ],
+     "coverage": 0.4,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493750521
+     }
+    },
+    "7": {
+     "thread_id": "6301vh",
+     "item_id": "dfru3j3",
+     "parent_id": "6301vh",
+     "author": "chipsgoumerde",
+     "created_utc": 1491232385,
+     "dt_parent_sec": 87360,
+     "dt_thread_sec": 87360,
+     "state": "coded",
+     "code_ids": [
+      "c0046",
+      "c0047"
+     ],
+     "labels": [
+      "relaying the French Discord's call for red wine in the glass",
+      "asking r/wine to confirm a started color modification"
+     ],
+     "sequence": [
+      "c0046",
+      "na",
+      "c0047",
+      "na"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493757990
+     }
+    },
+    "8": {
+     "thread_id": "6301vh",
+     "item_id": "dfrz11f",
+     "parent_id": "6301vh",
+     "author": "Mel86",
+     "created_utc": 1491238286,
+     "dt_parent_sec": 93261,
+     "dt_thread_sec": 93261,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "asking who is caring for the drawing while cleaning it"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1493760555
+     }
+    },
+    "8.1": {
+     "thread_id": "6301vh",
+     "item_id": "dfrzdt2",
+     "parent_id": "dfrz11f",
+     "author": "-Golvan-",
+     "created_utc": 1491238697,
+     "dt_parent_sec": 411,
+     "dt_thread_sec": 93672,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "challenging r/wine's claim because the French made it"
+     ],
+     "sequence": [
+      "c0049"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493760822
+     }
+    },
+    "8.1.1": {
+     "thread_id": "6301vh",
+     "item_id": "dfrzkhw",
+     "parent_id": "dfrzdt2",
+     "author": "Mel86",
+     "created_utc": 1491238912,
+     "dt_parent_sec": 215,
+     "dt_thread_sec": 93887,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "denying a claim of ownership"
+     ],
+     "sequence": [
+      "c0050"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Wino",
+      "retrieved_on": 1493761004
+     }
+    }
+   },
+   "633hgw": {
+    "0": {
+     "thread_id": "633hgw",
+     "item_id": "633hgw",
+     "parent_id": null,
+     "author": "eeeeeep",
+     "created_utc": 1491180448,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "calling Place users to help keep Wine's yellow name tag"
+     ],
+     "sequence": [
+      "c0052"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1494554782
+     }
+    },
+    "1": {
+     "thread_id": "633hgw",
+     "item_id": "dfr6ksd",
+     "parent_id": "633hgw",
+     "author": "nilly2323",
+     "created_utc": 1491187887,
+     "dt_parent_sec": 7439,
+     "dt_thread_sec": 7439,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "asking how to shape the N while offering to do the border"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493744700
+     }
+    },
+    "1.1": {
+     "thread_id": "633hgw",
+     "item_id": "dfr6n3s",
+     "parent_id": "dfr6ksd",
+     "author": "eeeeeep",
+     "created_utc": 1491187964,
+     "dt_parent_sec": 77,
+     "dt_thread_sec": 7516,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "proposing a horseshoe-shaped N"
+     ],
+     "sequence": [
+      "c0054"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493744731
+     }
+    },
+    "1.1.1": {
+     "thread_id": "633hgw",
+     "item_id": "dfr6vcc",
+     "parent_id": "dfr6n3s",
+     "author": "nilly2323",
+     "created_utc": 1491188240,
+     "dt_parent_sec": 276,
+     "dt_thread_sec": 7792,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "choosing to stick to the border"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493744841
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "633hgw",
+     "item_id": "dfr73o5",
+     "parent_id": "dfr6vcc",
+     "author": "eeeeeep",
+     "created_utc": 1491188524,
+     "dt_parent_sec": 284,
+     "dt_thread_sec": 8076,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "limiting the border to the space neighboring groups allowed"
+     ],
+     "sequence": [
+      "c0056"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493744952
+     }
+    },
+    "2": {
+     "thread_id": "633hgw",
+     "item_id": "dfrtrc9",
+     "parent_id": "633hgw",
+     "author": "chipsgoumerde",
+     "created_utc": 1491231987,
+     "dt_parent_sec": 51539,
+     "dt_thread_sec": 51539,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "asking Wine to confirm the French-proposed color modification"
+     ],
+     "sequence": [
+      "na",
+      "c0057",
+      "na"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493757719
+     }
+    }
+   }
+  }
+ }
+}

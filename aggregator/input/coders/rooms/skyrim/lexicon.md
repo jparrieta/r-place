@@ -1,0 +1,25 @@
+# lexicon — r/skyrim
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- #place (dfoh0xx)
+- Side quest (dfpjywt)
+- randies (dfpovmm)
+- updovas (62ux83)
+- greenlattice (62xj2b)
+- color wars (dfpvjx2)
+- Skyrim logo (631376)
+- wings (dfqvyww)
+- Tesla (dfqiafi)
+- P A U L (dfqkpaq)
+- TALOS (dfqwsbd)
+- objective marker (632kio)
+- Lattice Randos (dfrcjmt)
+- rogue lattices (dfreb39)
+- gayrim (dfrwj5l)
+- green lettuce (dfrxqel)
+- white writings (dfrxfgv)
+- greenlanticians (dfs5vkt)
+- last tile (dfs9tkf)
+- YRIM (dfs5sjn)
+- rim job (dfsc4c2)

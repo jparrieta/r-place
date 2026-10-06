@@ -1,0 +1,18 @@
+{
+  "codex": {
+    "description": "Native Codex readers, existing model and effort schedule.",
+    "stages": [],
+    "reader": {}
+  },
+  "openrouter": {
+    "description": "OpenRouter packet readers. Handler, aggregator, C reviewers, D labelers and case coders stay native Codex. Preset chooses the model/provider, pinned at first dispatch.",
+    "stages": ["B2", "B3", "B4", "D2", "E1"],
+    "reader": {
+      "route": "openrouter",
+      "model": "@preset/cheap",
+      "effort": "medium",
+      "max_tokens": 16000,
+      "timeout": 900
+    }
+  }
+}

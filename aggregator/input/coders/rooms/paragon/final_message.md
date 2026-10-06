@@ -1,0 +1,1 @@
+r/paragon — verdict: **full**. Saturation: the post-event reckoning was the last new practice; later slices added none. The record is adequate but incomplete around deleted text, linked images, Discord, and slice boundaries. Blockers: none.

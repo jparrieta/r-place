@@ -1,0 +1,1 @@
+r/detroitlions — branch B, verdict `full`. Thematic saturation was not reached before the post-close record ended; core practices nevertheless recurred across slices. Evidence supports visible coordination but remains incomplete around Discord, deleted material, and linked artifacts. Nothing blocked completion.

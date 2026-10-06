@@ -1,0 +1,55 @@
+## Chronology
+
+The window opens with an unrelated political link, “Le Pen à Quiberon,” at `62m6km`; r/place first appears at `d1 04-01 16:08` in `62tmj7`. The first episode runs from `62tmj7` to `dfq0nyu` over 16h 12m 2s. It begins by proposing a Breton flag under the Irish flag because “il y a déjà du noir et du blanc,” asks “Quelqu'un de partant ?,” and gets the answer that r/place is “le seul endroit au monde sans drapeau breton” at `dfp5yh8`. After another drawing's makers remove the poster's fleurs de lys, `dfp8q7y` moves the proposed flag left. By `d1 04-02 08:20`, `dfq0nyu` reports, “Il a été complètement bouffé.”
+
+The restart-and-reunion episode runs from `dfq5l6b` to `dfqg785`. At `d1 04-02 12:53`, `dfq5l6b` asks whether there is “toujours une envie” and summons two users; 4h 23m 3s later, `dfqfepn` says “c'est reparti” in the bottom-right corner. In between, `62zrdw` opens at `d1 04-02 13:59` with “r/Bretagne sur r/place!” Its comments locate a Gwen Ha Du, discuss protecting it on the France background, propose a better version, and repeatedly invite people to Discord. When a complete-flag attempt is advertised at `dfqfh72`, `dfqfv77` objects that two projects are wasteful because “nous ne sommes pas vraiment très nombreux.” In the next two turns, `dfqg0eb` agrees there is “pas la peine d'en avoir deux” and `dfqg785` distinguishes the heart from the full Gwen Ha Du before sending the participant to Discord. That reunion exchange lasts 15m 31s from `dfqfh72` to `dfqg785`.
+
+The build-choice episode runs from `630u6d` to `dfqorm3` over 3h 26m 35s. The post at `d2 04-02 17:13` says the first flag was quickly eaten and announces a second attempt at `(x = 853, y = 835)`, with the aim of putting a Breton flag “dans l'image finale.” Replies identify another start to the left of the French flag. At `dfqh2r8`, the poster chooses the more advanced one “Comme ça sur les deux il y en aura bien au moins un qui tiendra”; `dfqhe3g` relays the thread to Discord for help, and `dfqhjj6` proposes continuing the advanced one before starting the other. At `dfqmifq`, however, the site far from France is judged “voué à l'extinction à cause des scripts,” followed by the cross-venue identity confirmation “Oui c'est moi” at `dfqorm3`.
+
+The closing episode runs from `6335wv` to `dfs1e2k` over 17h 49m 6s. The post at `d2 04-02 23:47` presents a “Plan de Gwenn Ha Du complet soutenu par l'Espagne.” At `d3 04-03 17:36`, 36m 49s after pixel placement ended, `dfs1e2k` closes with “on aura essayé”: the result is “pas bien grand,” “un peu vandalisé,” but “on le reconnait quand même un peu.” This is an outcome assessment after the event, not evidence that the earlier protection or support claims secured the flag.
+
+## Relations — what set off what
+
+Several relations are supported by participants' own words rather than by reply position alone. At `dfp8q7y`, the poster says the people already drawing there “ont l'air décidé à le garder,” adds that “ils ont viré les fleurs de lys que j'avais mis,” and therefore says “je suggère de bouger le drapeau un peu à gauche.” This supports the specific relation that resistance at the first site set off a move; it does not establish who removed the pixels or why.
+
+At `630u6d`, “Le premier drapeau s'étant fait bouffer rapidement” is immediately followed by “il y a une deuxième tentative en cours.” This is the participant's explicit explanation for the second attempt. The earlier loss at `dfq0nyu` precedes the renewed-interest question at `dfq5l6b` by 4h 33m 3s, but that interval alone does not prove that the comment caused the relaunch; the causal support comes from the later post's own wording.
+
+The duplicate-project exchange carries both a descriptive contrast and participants' explanations. `dfqfv77` says it is a shame to have two projects “surtout vu que nous ne sommes pas vraiment très nombreux” and asks the other organiser to join. `dfqg0eb` agrees, but explains the duplication as “je n'étais pas au courant” and says they thought the post concerned the heart on the French flag. This supports their stated reason for the misunderstanding and the proposed reunion. It does not show that the whole community adopted one settled plan.
+
+At `dfqh2r8`, the choice to continue one design is explicitly tied to it being “plus avancé” and to the hope that “au moins un” will hold. `dfqhe3g` then says “Je vais link ce fil dans le discord” so people there can join, which supports the move of a recruitment request across venues. Later, `dfqmifq` asks whether the commenter is the person on Discord and `dfqorm3` answers “Oui c'est moi”; this establishes that at least one person participated across both venues. It does not show what Discord discussion caused on the canvas.
+
+## Posts against comments
+
+The posts present increasingly definite projects: adding a Breton flag at `62tmj7`, showing “r/Bretagne sur r/place!” at `62zrdw`, making a second attempt for “l'image finale” at `630u6d`, and presenting a complete plan “soutenu par l'Espagne” at `6335wv`. The comment layer supplies most of the uncertainty and revision. It says a first flag was “complètement bouffé” at `dfq0nyu`, doubts that another will last at `dfq7vrj`, reveals two projects competing for few people at `dfqfv77`, predicts extinction by scripts at `dfqmifq`, and finally qualifies the visible outcome as small, vandalised, but somewhat recognisable at `dfs1e2k`.
+
+The clearest contradiction is: the post `630u6d` aims to put the Breton flag in the final image; the comment `dfqmifq` says the version far from France is doomed, and `dfs1e2k` reports only a small damaged remnant after closing. This is a contrast between ambition and assessment, not proof that the community changed its mind. The Spain-support claim lives only in the post title `6335wv`; no surviving comment explains or verifies that support. Conversely, the shortage of people and the need to combine projects live in comments `dfqfv77` and `dfqg0eb`, not in an opening post.
+
+## Counter-reading
+
+My reading is that a small group kept adapting, reconnecting and moving its Breton-flag work between Reddit and Discord despite repeated loss, while achieving only a qualified visible remnant.
+
+If this reading were wrong, the corpus should instead contain participants refusing to reunite the two projects, abandoning work after a flag was eaten, or saying that the Discord connection did not reconnect participants. Before searching, that was the competing account tested.
+
+The strongest contrary item is `dfqmifq`: “celui loin du français ... est voué à l'extinction à cause des scripts.” It gives a participant's direct expectation of failure for one site. `dfq7vrj` also says “à mon avis ça ne va pas durer,” and the closing `dfs1e2k` says only that they tried and that a small vandalised flag remained recognisable. These items rule out an account of successful defence.
+
+The search for the case's contrary vocabulary returned `dfq0nyu`, `dfq7vrj`, `dfqfv77`, `dfqg0eb`, `dfqmifq`, and `dfs1e2k`; each was read as an item. A second search for abandoning, stopping, refusing, leaving, nobody acting, or not joining returned only `dfqfv77`, whose actual words ask “Tu veux pas nous rejoindre” rather than refuse reunion. No searched item shows an explicit refusal to combine projects or an explicit abandonment after the first loss. Within this complete but small 38-item window, the alternative therefore changes the reading from effective defence to persistent but fragile coordination; it does not overturn the evidence for relaunching, reunion, and cross-venue contact. The null result is limited to this window and cannot establish what was said in Discord or in the two deleted comments.
+
+## Saturation
+
+Practice saturation is plausible within the visible Reddit record: after the outward offer at `dfqqnyj`, the remaining exchanges extend already established practices of choosing between sites, recruiting through Discord, and assessing loss; the final `dfs1e2k` deepens the outcome theme rather than introducing a new organising practice. This is a statement about these five threads, not about Breton participation elsewhere.
+
+Evidence saturation is not complete. Every thread in the supplied window was read in full, but repeated invitations at `dfq8hgk`, `dfq8iax`, `dfqfmcy`, and `dfqg785` show that part of the organising moved to Discord. Reddit receives invitations, locations, recruitment requests and identity confirmations, but not the ensuing Discord discussion. Two deleted comments at `dfqpcvi` and `dfqst5g` also remove both sides around the surviving offer at `dfqqnyj`. The record is otherwise internally continuous, and the only unrelated thread is the one-item political link `62m6km`.
+
+## Selection
+
+I read `openings.md` before triage, so I knew the week contained one political link followed by four canvas-titled threads; the openings were orientation, not evidence. I then used the prescribed chronological windows. All five threads were short enough to be served whole except `62zrdw`, whose event-touching window led to an explicit full-thread read. `62m6km` was disposed out of scope because “Le Pen à Quiberon” is a political-news title with no r/place conduct in its one-item thread. Threads `62tmj7`, `62zrdw`, `630u6d`, and `6335wv` were retained because their posts and replies propose, build, coordinate, or assess Breton designs on r/place. No selected thread was coded from its opening summary.
+
+## Other communities named
+
+The subreddit `r/place` is named at `dfp5yh8` as the place whose lack of a Breton flag should be corrected; it is the event venue, not an ally whose conduct this record can verify. The proposed initial site at `62tmj7` is under “nos amis irlandais,” while `dfq82td` says the design is on a list of flags authorised on the France background and claims PlaceHearts forbids touching that zone. The title `6335wv` claims the full plan is “soutenu par l'Espagne.” These are participants' descriptions of Ireland, France, PlaceHearts and Spain; the record supplies no statements from those parties, so it cannot establish reciprocal alliance or protection.
+
+Discord is the one off-platform venue named. At `dfq8hgk` it is offered “au cas ou on s'organise,” at `dfqhe3g` a thread is relayed there for reinforcements, and `dfqorm3` confirms a participant's identity across venues. These passages show partial movement of organising, while leaving the actual Discord deliberation unseen.
+
+## Absence
+
+There are two deleted bodies, `dfqpcvi` and `dfqst5g`, in the same branch. Their surviving middle reply, `dfqqnyj`, invites someone to Discord and offers possible later help because “we are in a war of our own,” but neither the request nor its answer can be reconstructed. No moderator-distinguished or automated-account conduct appears in the record. The absence of an explicit refusal to reunite projects is meaningful only within the small supplied record; it does not license a claim about unseen Discord discussion or deleted speech.

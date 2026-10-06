@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`AGENT.md`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/agent-md.md">Markdown source</a></nav>
+<h1 id="agentmd"><code>AGENT.md</code></h1>
+<p>The analyst's first page: who it is, what the folder holds, and what one session may do.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>Three parts. <strong>What is here</strong> lists the root documents (the contract, METHOD.md, STANDING-INSTRUCTIONS.md, then FLEET.md and SCHEMA-adaptations.md when their stages come), <code>stages/</code>, <code>package/</code> and <code>trees/</code> (read-only, with the canvas in <code>package/</code> from the start), <code>tools/</code>, and <code>out/</code>, whose <code>_probe/</code> and <code>_transcripts/</code> are the harness's. <strong>State</strong> says the stages completed are the files in <code>stages/</code> with their outputs in <code>out/</code>, and that every leg starts from the startup packet: the head, the stage file, the last five diary entries and <code>validate.py --open NN</code>. <strong>This session</strong> says: one leg, then <code>done.sh</code>; do not begin the next leg or stage, and do not summarise it.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Written with the instrument. <code>build.sh</code> copies it into <code>00_GIVE-THE-AGENT/</code> before stage A1. The first message <code>step.sh</code> writes for every leg begins "Read AGENT.md."</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>It fixes the one-leg-per-session shape that STANDING-INSTRUCTIONS §2 describes and closes the world: "There is nothing outside this directory." It tells the analyst to read the contract once, whole, at A1 and by section afterwards (<code>mem.py contract --section &lt;n&gt;</code>), and says the analyst has not seen any later stage "and must not guess it".</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/AGENT.md">AGENT.md</a> in the analyst's folder; source <a href="../../../aggregator/instrument/AGENT.md">aggregator/instrument/AGENT.md</a>.</p>
+<p>Checked against: AGENT.md, harness/build.sh, harness/step.sh.</p>
+</body>
+</html>

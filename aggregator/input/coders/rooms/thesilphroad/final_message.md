@@ -1,0 +1,1 @@
+r/thesilphroad — branch B — verdict: full. Saturation: new coding continued through the final slice, with additional relevant material found during counter-reading; the record remains incomplete because of removals, unseen off-platform activity, and the unresolved Mewtwo ending. Blockers: none.

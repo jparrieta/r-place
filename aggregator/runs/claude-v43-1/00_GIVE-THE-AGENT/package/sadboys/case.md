@@ -1,0 +1,61 @@
+## Chronology
+
+When the canvas opened, the openings record still showed the room’s ordinary fan talk about music, clothes, and artists. The event first became visible in the coded record at d0 04-01 12:31, when `62sfi8` opened a `/r/place` thread. Members asked “explain please” in `dfousw8`, received an explanation of “one huge canvas” in `dfoux2r`, and moved from a rainworld logo toward “a square with a sad smiley” and a request for helpers in `dfrjdi0`. This first episode—learning the event and proposing a mark—runs from `62sfi8` to `dfrjdi0`.
+
+By d2 04-02 23:16, proposals became tests of what this small room could actually make. The post `63301p` asked who was “down to make this”; replies called the image “Way to much” in `dfqy0jg`, reduced it to “Sad B☹️ys” in `dfqy4pg` and then “just the Sad smiley” in `dfrha3y`, while `dfr76ga` said the community was not “big or supportive enough.” A parallel post, `633bew`, asked for a simple “sbe” on the Swedish flag. In `635z0k`, the plan became a 12-by-12 smiley beside the trans flag: one person volunteered in `dfrkjhn`, Vloxxity reported talking to r/TransFlagPlace on Discord in `dfrko4n`, and fewer than ten respondents were counted in `dfrl2bu`. A final “no” in `dfs2hk3` arrived at d3 04-03 17:56, after official pixel placement had ended. This episode of shrinking the mark and looking for borrowed space runs from `63301p` to `dfs2hk3`.
+
+After closure, two developments overlap across the slice boundary. At d3 04-03 22:21, `63a4e5` presented “our /r/place”; replies shouted “WOOODEEN HOORSEEE” in `dfsh96b`, said “im so proud of it” in `dfslh0g`, and continued naming and joking about “wooden horse” through `dftblez`. This is the celebratory end of an effort begun in batch 01, but the corpus does not identify which earlier proposed design produced the pictured result. [crosses 01|02]
+
+At d3 04-03 23:19—6 hours 19 minutes after placement ended—`dfsiy12` called pxls.space a “second chance.” `dfsj2ly` supplied a coordinate and Discord, `dfsjc40` offered plastuer.com/place, and `dfsjhhf` compared the alternatives by timer and captcha. On d3 04-04, the work became visible on plastuer: `dft2g8p` described making a sad smiley alone, `63cu5z` asked who wanted to help, and `dftab2k` reported “its finished! :).” The same thread records defending rather than expanding, arguing over an overlap, proposing Discord ambassadors, and recruiting for another wooden horse; `dftcbjd` ends the in-window episode with “ill help u with wooden horse bud” at d3 04-04 13:47. The follow-on episode runs from `dfsiy12` to `dftcbjd`. The record then returns to ordinary fan posts while the follow-on thread itself continues beyond the window.
+
+## Relations — what set off what
+
+The request “explain please” in `dfousw8` directly elicited the “one huge canvas” explanation in `dfoux2r` 4 minutes 25 seconds later. This is an evidenced answer, not an inference from adjacency alone.
+
+The preference “the never logo would be nice” in `dfrkups` was answered 4 minutes 26 seconds later by `dfrkyqa`, which asked for a grid and said it might be “too big for a hand full of ppl.” `dfro02r` later conceded that the never logo “probably wouldn't work” and accepted the sad face. The passages support revising a proposal in response to its scale.
+
+In `dfrkubb`, Vloxxity said they were “currently discussing with /r/TransFlagPlace/ to get a 12*12 space” and linked `635z0k`. That explicit statement connects the earlier design-reduction thread to the later coordination thread. The declared “full alliance” in `dfrm4fi` is the participant’s description; it does not establish moderator authority or what r/TransFlagPlace agreed elsewhere.
+
+The official canvas ending precedes `dfsiy12` by 6 hours 19 minutes, and the later turn calls the new canvas a “second chance.” That language supports a response to the ended opportunity. It does not establish that failure on r/place alone caused the move, so the relation is reported as an observed sequence with the participant’s framing.
+
+The post “theres our /r/place” in `63a4e5` drew “im so proud of it” in `dfslh0g` and “Wonderful” in `dft837l`. Those words identify what the replies celebrate. They support celebration of the claimed result, but not a causal claim that the earlier negotiations produced that exact image. [crosses 01|02]
+
+On the follow-on canvas, `dft4fsx` said “We could have been more” on the real r/place. Its direct reply `dft4spn`, 19 minutes 36 seconds later, said “i tried but ppl here wouldnt communitcate :(.” This is Vloxxity’s own explanation for limited participation, not an independently established cause.
+
+The protection request in `dft54jc` elicited the overlap rule and reciprocal promise in `dft574e` 3 minutes 41 seconds later. The apology and proposal for Discord ambassadors in `dft5met` was challenged 2 minutes 25 seconds later by `dft5o29` as giving space to “bourgeois bullshit”; `dft5x6v` then called it an invasion. The corpus shows the disagreement and move toward Discord, but not whether the border dispute was resolved.
+
+Finally, calling wooden horse “one of the biggest memes” in `dftbmzs` brought Vloxxity’s offer in `dftbxwn` 6 minutes 49 seconds later to do it again if helpers appeared; `dftcbjd` volunteered 8 minutes 24 seconds after that. This supports immediate recruitment and response, not completion of the proposed new horse.
+
+## Posts against comments
+
+In batch 01, posts invited action—make an image, put “sbe” on a flag, make a Sad-Smiley—while comments carried the practical work: reducing designs, counting people, estimating time, finding neighbouring groups, and supplying Discords and coordinates. The posts present achievable invitations; the comment layer repeatedly says the design is too large or the community too small, including “not big or supportive enough” in `dfr76ga`. That is a descriptive contrast between layers, not evidence that the community changed its mind collectively.
+
+In batch 02, the posts display a result or ask for help with current status. Comments provide the pride, wooden-horse naming, defense instructions, overlap terms, completion report, and renewed recruitment. The post `63cu5z` anticipates available help, while comments include “ppl here wouldnt communitcate” in `dft4spn`, “They have like 1 person” in `dft5o29`, and eventually one explicit volunteer in `dftcbjd`. The contrast is limited to visible participation in these threads; it does not measure how many people placed pixels silently or coordinated off-platform.
+
+## Counter-reading
+
+My one-sentence reading is: a small group made a community mark workable by repeatedly shrinking it, seeking borrowed space, and moving to follow-on canvases, while still producing a result that members celebrated and extended as the wooden-horse joke.
+
+Before searching, I set out this competing account: the case is primarily successful collective making, not thin participation and repeated adaptation. If my reading were wrong, the corpus should contain members reporting broad or sustained help, completion without continuing recruitment trouble, or collective success that outweighs the repeated “hand full,” “alone,” and “1 person” language.
+
+The strongest contrary item is `dftab2k`: “its finished! :).” It establishes that the second follow-on smiley was completed, so the account cannot describe all post-r/place work as unfinished or merely proposed. The first search, for completion, pride, and broad-help language, also returned `dfslh0g` (“im so proud of it”) and `dft837l` (“Wonderful”); its “lots of people” hit, `dfqtst3`, concerned an unrelated music post. A second search for “I’ll help” and collective terms returned one on-topic volunteer, `dftcbjd`, while its nine other collective-language hits concerned unrelated music, mental-health, clothing, or story threads. Within those search terms and this 97-thread record, no passage reported broad, sustained r/place participation. That null is narrow: silent pixel placement, removed bodies, later replies, and Discord activity remain outside what it can establish. The completion and celebration evidence strengthens the success side of the reading; the repeated scarcity, borrowing, and renewed recruitment still survive.
+
+## Saturation
+
+Later material did not merely repeat settled practices. Batch 01 founded: “opening and learning what r/place is,” “proposing what and where to draw,” “scaling plans down to what a handful can make,” “asking neighbouring groups for room and backing,” “answering calls to help,” and “carrying the attempt onto replacement canvases.” Batch 02 extended the last two with a volunteer and visible plastuer work, and founded: “celebrating and joking about the wooden horse,” “making and defending follow-on smileys,” “arguing and negotiating over overlap,” and “calling out thin participation and asking again.” Thematic saturation was therefore not reached by the end of batch 01; batch 02 introduced new practice even though it also repeated the need for helpers.
+
+The record is incomplete in a different sense. No one reader held the whole week: the chronology and relations were assembled from two slice cases, pooled codes, and the forest, and the cross-slice claim about the finished result is correspondingly weaker. Each slice had one coder, so there is no agreement measure, and the arbitrary boundary split an ongoing episode. Three proposal/opening bodies were removed; deleted replies cannot be reconstructed; two coordination Discords and the proposed ambassador discussion are only glimpsed; and the follow-on thread continues beyond the window. No suspected truncation appeared inside the assigned slices, but these limits prevent a complete account of who placed pixels or how off-platform decisions were made.
+
+## Selection
+
+This was branch B because the gate recorded 593 in-window items against a threshold of 500. I read the briefing and the complete openings file before the gate, so I knew the shape of the week before any thread-level coding; I coded nothing from the openings. Two fleet coders then read their whole-thread slices in corpus order and disposed all 97 threads. Six threads were retained because they explained, proposed, negotiated, celebrated, or continued the community’s conduct around r/place; ordinary music, merchandise, artist, fan-art, and interpersonal threads were excluded. Every read out-of-scope thread with ten or more in-window items carries an exact exclusion citation.
+
+## Other communities named
+
+The event venue r/place is named in `62sfi8` and claimed as “our /r/place” in `63a4e5`. r/GreenLattice is approached for approval of a small logo in `dfqx9ge`. r/TransFlagPlace is approached for a 12-by-12 space in `dfrko4n` and described as an ally in `dfrm4fi`; the latter remains participant wording rather than independently verified agreement. r/sadboys is proposed as text beside the follow-on smiley in `dft2g8p`. On plastuer, neighbours are called “comrads” rather than identified as a subreddit; `dft574e` reports an overlap agreement and reciprocal respect.
+
+Coordination partly moved off Reddit. `dfrjdi0` gives an unofficial Discord while requesting helpers; `dfsj2ly` gives another Discord with the pxls.space coordinate; and `dft5met` proposes ambassadors on a neighbouring group’s Discord. pxls.space is called a “second chance” in `dfsiy12`, while plastuer.com/place is introduced as another alternative in `dfsjc40` and later returns status, defense, and completion reports. The corpus cannot show the decisions or participation inside those external venues.
+
+## Absence
+
+The bodies of `62sfi8`, `63301p`, and `633bew` are removed or deleted, so their surviving titles and replies establish invitations but not the missing arguments or images. One deleted reply remains in each batch-02 selected thread; surviving replies still show celebration, construction, negotiation, and recruitment, but not the missing turns. Automated SmallSubBot text was treated as platform setting rather than community conduct. The absence of a broad-turnout report in the tested search is not evidence that nobody else placed pixels: silent action, off-platform talk, and removed text remain unobserved.

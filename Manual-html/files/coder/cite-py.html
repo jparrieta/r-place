@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>cite.py</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/cite-py.md">Markdown source</a></nav>
+<h1 id="citepy">cite.py</h1>
+<p>The citing tool: it turns a quote the agent believes is there into the exact words of the record and their offsets, or refuses.</p>
+<p><strong>What it holds</strong></p>
+<p>The <code>Corpus</code> class with <code>cite(item_id, quote)</code> and <code>find(regex, limit)</code>, the <code>FindResult</code> list with its <code>truncated</code> flag, and <code>CiteError</code>. <code>cite</code> searches the item's body (a post is title plus text) and returns <code>{item_id, start, end, text}</code>, cut from the body. It refuses a quote that is absent or occurs twice, and offers the nearest real text. Offsets are Unicode code points. Every <code>find</code> call is logged to <code>&lt;record&gt;.queries.jsonl</code>.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p>The instrument's author. <code>newrun.py</code>, <code>newbrief.py</code> and <code>fleet.py dispatch</code> copy it into every run, brief and batch. Agents call it; its output goes straight into <code>emit</code>.</p>
+<p><strong>Why it exists</strong></p>
+<p>An agent "cannot count characters", and a quote typed from memory makes "an honest citation indistinguishable from a fabricated one". So "what the agent typed is discarded; what comes back is the record's". Quotes must be participants' own words because codes are "informant-centric" (CONTRACT §1), every code "rests on text <code>cite</code> can find" (Rule 2), and a cited pointer is "a reference somebody can go back to and check" (§6). The harness still re-checks every line: "the check should catch fabrication, not clumsiness."</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/instrument/v32/cite.py">cite.py</a>.</p>
+<p>Checked against: cite.py, CONTRACT.v32.md, TOOLS-SPEC.md, newrun.py</p>
+</body>
+</html>

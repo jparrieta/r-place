@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Two reader arms</h1>
+<p>Target length: under 600 words.</p>
+<p>Choose an arm when preparing a study. Separate studies can run both arms at once. Each study has its own files, actors, returns and locks. Each defaults to three simultaneous readers, so two studies can use six readers in total.</p>
+<pre><code>
+cd &quot;$HOME/Jail&quot;
+
+python3 r-place/aggregator/handler/codex/run.py arms
+
+python3 r-place/aggregator/handler/codex/run.py build study-codex --fleet-arm codex
+
+python3 r-place/aggregator/handler/codex/run.py build study-router --fleet-arm openrouter
+
+</code></pre>
+<p>The live panel has the same selector beside **Prepare study**. These commands prepare studies; they do not start research. Use the usual stage and leg controls afterward. A running controller owns dispatch.</p>
+<p>| Arm | Packet readers | Continuation |</p>
+<p>|---|---|---|</p>
+<p>| <code>codex</code> | GPT-6 Sol medium | Native Codex history and checkpoint fork |</p>
+<p>| <code>openrouter</code> | Model/provider selected by <code>@preset/cheap</code> | Saved API messages and matching files replayed to the pinned model/provider |</p>
+<p>The OpenRouter arm replaces readers at B2, B3, B4, D2/D3 verdicts and E1, matching the former gateway stages. Handler, aggregator, C2/C5 reviewers, D labelers and subreddit case coders keep their existing Codex settings. Both arms use three independent readers in B2, two in B3/B4, and the existing counts elsewhere. Replication and concurrency are separate settings.</p>
+<h2>Configuration and routing</h2>
+<p><code>aggregator/handler/claude/fleet-arms.json</code> defines the two choices. Set the OpenRouter preset or explicit model there before building a study. Build copies and hashes the resolved settings. Changing an existing study&#x27;s arm is refused. A separate study is required for a different arm.</p>
+<p>OpenRouter uses its API directly. No Claude CLI or Codex provider override is needed. At first dispatch, one small routing probe resolves the preset to a model and provider. Both are pinned for that study. The preset selects routing only: subsequent requests use the frozen local settings, including medium reasoning effort and a 16,000-token ceiling. They do not inherit later preset changes. Parameters unsupported by the provider cause a visible failure.</p>
+<p>Credentials come from <code>OPENROUTER_API_KEY</code>, legacy <code>OPENROUTER_KEY</code>, or macOS Keychain service <code>openrouter</code> with your login name as account. Set an environment key before starting the controller. Keys are never placed in commands, archives or run files. OpenRouter calls use its separate account balance, not the ChatGPT subscription.</p>
+<h2>Checks and recovery</h2>
+<p>Both arms use the same packets, schemas, counts, end markers and bounded reissues. Multipart packets retain one reader conversation. Each part records routing evidence, usage and an archive. The aggregator resolves substantive disagreement; schema checks do not prove coding quality.</p>
+<p>Service errors block the dispatch without consuming a coding reissue. <code>recover DISPATCH_ID</code> retains valid returns and resumes the saved phase plan. <code>recover-plan STUDY</code> resumes remaining phases. <code>stop-run STUDY</code> prevents pending readers from starting until explicit recovery. Unknown request outcomes may already have incurred charges. There is no automatic cross-provider fallback.</p>
+<p>Click **Resume as interview**, or use <code>resume CHECKPOINT --actor NAME</code> and <code>chat NAME</code>. API archives contain transcripts, supplied reasoning blocks, packet files, controller source, hashes and lineage. They do not contain hidden provider state or a process image. Stop cancels local transport; it cannot guarantee cancellation or refund upstream. OpenRouter chat accepts a new message after the current turn settles. Save an interview to archive it again.</p>
+<p>Offline tests cover both arms. Before OpenRouter research, run <code>python3 r-place/aggregator/handler/codex/run.py acceptance --fleet-arm openrouter --live</code>. This makes one routing probe and three small paid turns, tests two interview restores, and retains the receipts. Native acceptance uses <code>--fleet-arm codex</code> and passed on 2026-10-02. OpenRouter live acceptance remains untested.</p>
+<p>Sources: <a href="https://openrouter.ai/docs/guides/features/presets">OpenRouter presets</a>, <a href="https://openrouter.ai/docs/api/reference/overview">API</a>, <a href="https://openrouter.ai/docs/guides/best-practices/reasoning-tokens">reasoning continuity</a>, <a href="https://learn.chatgpt.com/docs/app-server">Codex app-server</a>.</p></html>

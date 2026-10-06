@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`out/_mem_reads-NN.jsonl` and out/_cite_reads-NN.jsonl</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/out-read-logs.md">Markdown source</a></nav>
+<h1 id="out_mem_reads-nnjsonl-and-out_cite_reads-nnjsonl"><code>out/_mem_reads-NN.jsonl</code> and out/_cite_reads-NN.jsonl</h1>
+<p>The read logs: one line for every call to <code>mem.py</code> and <code>cite.py</code>.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p><code>_mem_reads-NN.jsonl</code>: <code>t</code>, <code>stage</code>, <code>verb</code>, <code>args</code>, <code>opts</code> (every option that differs from its default), <code>offset</code>, <code>limit</code>, <code>lines</code> served, <code>total</code>, and <code>refused</code>. <code>_cite_reads-NN.jsonl</code>: <code>t</code>, <code>stage</code>, <code>opts</code>, <code>verdict</code>, and <code>cited</code> (the <code>sub/code_id</code> of each quote returned). NN is <code>--stage</code>, else the <code>.stage</code> file the harness writes, else <code>$STAGE</code>.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>The tools themselves, on every call; the analyst never writes them by hand. A helper's reads through the verbs are logged under the analyst's stage.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Rule 1: "The log is an output ... Where your account of your reading and the log disagree, the log is right." The probe scores "the last three rooms you opened" from the <code>room</code> reads. E1 counts rooms read whole from the <code>room</code> and <code>forest</code> records, and A1 reports what it read "from the logs and not from memory".</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/">out/</a> (the files appear at the first call of each stage).</p>
+<p>Checked against: tools/mem.py, tools/cite.py, tools/probe.py, CONTRACT-aggregator.md rule 1, stages/STAGE-A1-reading-room-notes.md, stages/STAGE-E1-formalizing-audit.md.</p>
+</body>
+</html>

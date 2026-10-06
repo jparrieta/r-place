@@ -1,0 +1,79 @@
+{
+ "sub": "PlaceNL",
+ "built": "2026-09-06T16:50:58Z",
+ "instrument": "v32",
+ "items_in_window": 701,
+ "items_by_people": 694,
+ "chars_by_people": 62925,
+ "threads": 101,
+ "preweek_items": 0,
+ "brief": "harness-written; supplied pre-week archive contains no items",
+ "expected_branch": "B",
+ "expected_slices": 2,
+ "stage": "verified",
+ "log": [],
+ "notes": [
+  {
+   "at": "2026-09-07T18:43:13.077952+00:00",
+   "note": "Brief written in /Users/arrieta/Documents/ChatGPT/place Yard/atlas_yard/rooms/PlaceNL/brief; full transcript retained; paths relocated and source-side validation rerun. Queue rank 48"
+  },
+  {
+   "at": "2026-09-07T22:20:48Z",
+   "note": "Started native case lead using lead-calibration-v1; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-07T23:12:21Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Documents/Codex/rplace/atlas_yard/_lead_sessions/PlaceNL-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-08T13:15:23.483655+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:23Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "agents": [
+  {
+   "role": "brief harness",
+   "model": "harness",
+   "agent_id": null,
+   "started": "2026-09-07T16:33:42.881000+00:00",
+   "ended": "2026-09-07T16:33:43.087556+00:00",
+   "attempt": 1,
+   "transcript": "harness; no agent ran"
+  }
+ ],
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-07T18:43:13Z",
+ "brief_validation_digest": "6dbe3cceaca46005bccb23c09b4da31bb6595949eac97de25dc6e3d36c94e20a",
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "model": "gpt-5.6-sol",
+ "fingerprint": "e895de451c0cfc1d",
+ "branch": "B",
+ "slices": 2,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 246,
+ "themes": 21,
+ "verified_utc": "2026-09-07T23:12:21Z",
+ "finished": "2026-09-07T23:12:20.236240+00:00",
+ "carried": "run",
+ "reported_total_tokens": 8217652,
+ "lead_archive": "/Users/arrieta/Documents/Codex/rplace/atlas_yard/_lead_sessions/PlaceNL-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "2f62614c1dd708d7e92aef03bcde5312c49f49948da837f4a3a2cf18df643c5d",
+ "lead_archive_bytes": 69890295,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/PlaceNL/run.tar.zst",
+ "run_archive_sha256": "9c7d5a509dc132de4ee831e1cdc3ec4b10273c3756ce95f357c0cbd2209f9586",
+ "run_archive_bytes": 688659,
+ "run_archived_utc": "2026-09-25T13:43:48.100446+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/PlaceNL/materials.tar.zst",
+ "materials_archive_sha256": "b3080b987e09a1b992ef223c8bfdc6dce67060ae9831f82760c60dd4c0b57377",
+ "materials_archive_bytes": 223030,
+ "materials_archived_utc": "2026-09-25T13:52:48.854784+00:00"
+}

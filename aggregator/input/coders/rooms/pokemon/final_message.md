@@ -1,0 +1,1 @@
+r/pokemon — **full**. Thematic saturation: new practices appeared through batch 13; batches 14–15 added no new practice. Record saturation: Reddit conduct is well supported, but removed images and unseen Discord coordination limit outcomes. Nothing blocked completion.

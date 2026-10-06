@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`tools/done.sh`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-done-sh.md">Markdown source</a></nav>
+<h1 id="toolsdonesh"><code>tools/done.sh</code></h1>
+<p>The leg's one exit.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p><code>done.sh NN [--cut &lt;name&gt; | --cut interview | --pause]</code>. In order: for a pause, it requires a <code>pause</code> diary line for this leg; for an interview cut, it requires the step to have an interview point, the brief <code>out/interview/&lt;leg&gt;.md</code>, and at a stage's end <code>handback-NN.md</code>; the close-check (<code>validate.py NN</code>, skipped on a pause), with its report in <code>out/_closes/</code>; <code>links.py</code>; the head's ceiling (refused above 3,200 words); <code>gen_views.py</code>; the leg's line in <code>RUN.json</code>; the brief filed under leg, stage, step and minute; a <code>.closed</code> marker. Any failure leaves the leg open.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Shipped in the analyst's <code>tools/</code>; the analyst runs it at the end of each leg.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>STANDING §2: "The exit is <code>done.sh NN</code>", and "A leg that fails the close-check is not closed." The snap and the probe run after it in <code>close.sh</code>, outside the session.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/done.sh">tools/done.sh</a>.</p>
+<p>Checked against: tools/done.sh, STANDING-INSTRUCTIONS.md §2, CLAUDE.md, harness/close.sh.</p>
+</body>
+</html>

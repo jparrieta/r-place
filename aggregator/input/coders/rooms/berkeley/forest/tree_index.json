@@ -1,0 +1,3080 @@
+{
+ "berkeley": {
+  "counts": {
+   "threads_given": 22,
+   "threads_with_codes": 22,
+   "items": 293,
+   "coded": 96,
+   "bridge": 32,
+   "removed": 0,
+   "dropped": 165,
+   "orphans": 0,
+   "na_stretches": 56,
+   "coverage_of_coded_items": 0.64,
+   "threads_total_in_window": 152
+  },
+  "index": {
+   "62v631": {
+    "0": {
+     "thread_id": "62v631",
+     "item_id": "62v631",
+     "parent_id": null,
+     "author": "timepants",
+     "created_utc": 1491077566,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "asking whether we are under attack"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494550561
+     }
+    },
+    "1": {
+     "thread_id": "62v631",
+     "item_id": "dfpcqhd",
+     "parent_id": "62v631",
+     "author": "krackers",
+     "created_utc": 1491078158,
+     "dt_parent_sec": 592,
+     "dt_thread_sec": 592,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "blaming the attack on \"stanford\" shills"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493712624
+     }
+    }
+   },
+   "62wu2x": {
+    "0": {
+     "thread_id": "62wu2x",
+     "item_id": "62wu2x",
+     "parent_id": null,
+     "author": "hankpete",
+     "created_utc": 1491094871,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "starting a Cal logo at the bottom right corner"
+     ],
+     "sequence": [
+      "c0003",
+      "na"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "edited": 1491095122,
+      "score": 81,
+      "author_flair_text": "applied math '19",
+      "retrieved_on": 1494551388
+     }
+    },
+    "1": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpq1vn",
+     "parent_id": "62wu2x",
+     "author": "1halfazn",
+     "created_utc": 1491098450,
+     "dt_parent_sec": 3579,
+     "dt_thread_sec": 3579,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "asking for a guideline before building"
+     ],
+     "sequence": [
+      "c0004",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 12,
+      "author_flair_text": "cal wushu af",
+      "retrieved_on": 1493719077
+     }
+    },
+    "1.1": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpqvsd",
+     "parent_id": "dfpq1vn",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491099841,
+     "dt_parent_sec": 1391,
+     "dt_thread_sec": 4970,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "answering with a work-in-progress and coordinates"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493719479
+     }
+    },
+    "2": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpv2yv",
+     "parent_id": "62wu2x",
+     "author": "ThisIs_BEARTERRITORY",
+     "created_utc": 1491107233,
+     "dt_parent_sec": 12362,
+     "dt_thread_sec": 12362,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "switching from an unrecognizable bear to the Cal script"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 26,
+      "author_flair_text": "<-- TELL THE WHOLE DAMN WORLD",
+      "retrieved_on": 1493721509
+     }
+    },
+    "2.1": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpwgpw",
+     "parent_id": "dfpv2yv",
+     "author": "Shenandooah",
+     "created_utc": 1491110063,
+     "dt_parent_sec": 2830,
+     "dt_thread_sec": 15192,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 27,
+      "retrieved_on": 1493722175
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpwo5o",
+     "parent_id": "dfpwgpw",
+     "author": "ThisIs_BEARTERRITORY",
+     "created_utc": 1491110524,
+     "dt_parent_sec": 461,
+     "dt_thread_sec": 15653,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "<-- TELL THE WHOLE DAMN WORLD",
+      "retrieved_on": 1493722275
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpwpqb",
+     "parent_id": "dfpwo5o",
+     "author": "Shenandooah",
+     "created_utc": 1491110621,
+     "dt_parent_sec": 97,
+     "dt_thread_sec": 15750,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493722296
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpwtg1",
+     "parent_id": "dfpwpqb",
+     "author": "ThisIs_BEARTERRITORY",
+     "created_utc": 1491110857,
+     "dt_parent_sec": 236,
+     "dt_thread_sec": 15986,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "<-- TELL THE WHOLE DAMN WORLD",
+      "retrieved_on": 1493722346
+     }
+    },
+    "2.1.1.1.1.1": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpwztk",
+     "parent_id": "dfpwtg1",
+     "author": "leagueofdoges",
+     "created_utc": 1491111259,
+     "dt_parent_sec": 402,
+     "dt_thread_sec": 16388,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491112705,
+      "score": 8,
+      "retrieved_on": 1493722431
+     }
+    },
+    "2.1.1.1.1.1.1": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpx8vy",
+     "parent_id": "dfpwztk",
+     "author": "ThisIs_BEARTERRITORY",
+     "created_utc": 1491111838,
+     "dt_parent_sec": 579,
+     "dt_thread_sec": 16967,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "broadcasting a spot and updated template for the Cal logo"
+     ],
+     "sequence": [
+      "na",
+      "c0009",
+      "na"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "edited": 1491116366,
+      "score": 8,
+      "author_flair_text": "<-- TELL THE WHOLE DAMN WORLD",
+      "retrieved_on": 1493722552
+     }
+    },
+    "3": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpvlnp",
+     "parent_id": "62wu2x",
+     "author": "On_My_Life",
+     "created_utc": 1491108259,
+     "dt_parent_sec": 13388,
+     "dt_thread_sec": 13388,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "reporting the bear completely consumed"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493721758
+     }
+    },
+    "4": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpw25g",
+     "parent_id": "62wu2x",
+     "author": "Jemzen",
+     "created_utc": 1491109190,
+     "dt_parent_sec": 14319,
+     "dt_thread_sec": 14319,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "refusing to give up on the golden bear"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "the cream of the meme",
+      "retrieved_on": 1493721979
+     }
+    },
+    "5": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpxgod",
+     "parent_id": "62wu2x",
+     "author": "wEbKiNz_FaN_xOxO",
+     "created_utc": 1491112339,
+     "dt_parent_sec": 17468,
+     "dt_thread_sec": 17468,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "asking for a truce and mutual protection beside the bear"
+     ],
+     "sequence": [
+      "na",
+      "c0010",
+      "na"
+     ],
+     "coverage": 0.05,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493722656
+     }
+    },
+    "6": {
+     "thread_id": "62wu2x",
+     "item_id": "dfpzotj",
+     "parent_id": "62wu2x",
+     "author": "Zewlzor",
+     "created_utc": 1491118232,
+     "dt_parent_sec": 23361,
+     "dt_thread_sec": 23361,
+     "state": "coded",
+     "code_ids": [
+      "c0011",
+      "c0012"
+     ],
+     "labels": [
+      "asking Berkeley to keep the area blue and clean",
+      "reversing course and requiring the logo to move"
+     ],
+     "sequence": [
+      "c0011",
+      "na",
+      "c0012",
+      "na"
+     ],
+     "coverage": 0.35,
+     "meta": {
+      "edited": 1491124434,
+      "score": 0,
+      "retrieved_on": 1493723727
+     }
+    },
+    "7": {
+     "thread_id": "62wu2x",
+     "item_id": "dfqnjzr",
+     "parent_id": "62wu2x",
+     "author": "Fettinem",
+     "created_utc": 1491163970,
+     "dt_parent_sec": 69099,
+     "dt_thread_sec": 69099,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "wanting to help while not knowing what to do"
+     ],
+     "sequence": [
+      "c0013",
+      "na"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "edited": 1491165921,
+      "score": 3,
+      "retrieved_on": 1493735250
+     }
+    }
+   },
+   "62x9r7": {
+    "0": {
+     "thread_id": "62x9r7",
+     "item_id": "62x9r7",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491100180,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "calling to overtake the U of A logo with Cal"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1494551606
+     }
+    }
+   },
+   "62y3ks": {
+    "0": {
+     "thread_id": "62y3ks",
+     "item_id": "62y3ks",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491111927,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "sharing Berkeleyside's local April Fools article"
+     ],
+     "sequence": [
+      "c0015",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552018
+     }
+    }
+   },
+   "62y3mq": {
+    "0": {
+     "thread_id": "62y3mq",
+     "item_id": "62y3mq",
+     "parent_id": null,
+     "author": "Samses94",
+     "created_utc": 1491111952,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "sharing Berkeleyside's 2017 April Fools article"
+     ],
+     "sequence": [
+      "c0016",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494552018
+     }
+    },
+    "1": {
+     "thread_id": "62y3mq",
+     "item_id": "dfpxbmu",
+     "parent_id": "62y3mq",
+     "author": "Samses94",
+     "created_utc": 1491112010,
+     "dt_parent_sec": 58,
+     "dt_thread_sec": 58,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "assembling previous Berkeleyside April Fools articles"
+     ],
+     "sequence": [
+      "c0017",
+      "na"
+     ],
+     "coverage": 0.09,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493722588
+     }
+    }
+   },
+   "62y4mt": {
+    "0": {
+     "thread_id": "62y4mt",
+     "item_id": "62y4mt",
+     "parent_id": null,
+     "author": "ThisIs_BEARTERRITORY",
+     "created_utc": 1491112418,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 42,
+      "author_flair_text": "<-- TELL THE WHOLE DAMN WORLD",
+      "retrieved_on": 1494552033
+     }
+    },
+    "1": {
+     "thread_id": "62y4mt",
+     "item_id": "dfpxlie",
+     "parent_id": "62y4mt",
+     "author": "leagueofdoges",
+     "created_utc": 1491112664,
+     "dt_parent_sec": 246,
+     "dt_thread_sec": 246,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493722720
+     }
+    },
+    "1.1": {
+     "thread_id": "62y4mt",
+     "item_id": "dfpxm4v",
+     "parent_id": "dfpxlie",
+     "author": "ThisIs_BEARTERRITORY",
+     "created_utc": 1491112706,
+     "dt_parent_sec": 42,
+     "dt_thread_sec": 288,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "<-- TELL THE WHOLE DAMN WORLD",
+      "retrieved_on": 1493722728
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62y4mt",
+     "item_id": "dfpxt71",
+     "parent_id": "dfpxm4v",
+     "author": "leagueofdoges",
+     "created_utc": 1491113183,
+     "dt_parent_sec": 477,
+     "dt_thread_sec": 765,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "finding the template six pixels too tall"
+     ],
+     "sequence": [
+      "na",
+      "c0018",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493722822
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62y4mt",
+     "item_id": "dfpxvex",
+     "parent_id": "dfpxt71",
+     "author": "ThisIs_BEARTERRITORY",
+     "created_utc": 1491113332,
+     "dt_parent_sec": 149,
+     "dt_thread_sec": 914,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "<-- TELL THE WHOLE DAMN WORLD",
+      "retrieved_on": 1493722852
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62y4mt",
+     "item_id": "dfpxxg7",
+     "parent_id": "dfpxvex",
+     "author": "leagueofdoges",
+     "created_utc": 1491113470,
+     "dt_parent_sec": 138,
+     "dt_thread_sec": 1052,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493722879
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "62y4mt",
+     "item_id": "dfpxz4o",
+     "parent_id": "dfpxxg7",
+     "author": "ThisIs_BEARTERRITORY",
+     "created_utc": 1491113582,
+     "dt_parent_sec": 112,
+     "dt_thread_sec": 1164,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "<-- TELL THE WHOLE DAMN WORLD",
+      "retrieved_on": 1493722903
+     }
+    },
+    "1.1.1.1.1.1.1": {
+     "thread_id": "62y4mt",
+     "item_id": "dfpy41g",
+     "parent_id": "dfpxz4o",
+     "author": "translatefrenchforme",
+     "created_utc": 1491113926,
+     "dt_parent_sec": 344,
+     "dt_thread_sec": 1508,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "keeping the progressed C while revising the template"
+     ],
+     "sequence": [
+      "na",
+      "c0019",
+      "na"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "edited": 1491116070,
+      "score": 3,
+      "retrieved_on": 1493722968
+     }
+    },
+    "2": {
+     "thread_id": "62y4mt",
+     "item_id": "dfq1f7a",
+     "parent_id": "62y4mt",
+     "author": "helpIcanthinkofaname",
+     "created_utc": 1491123873,
+     "dt_parent_sec": 11455,
+     "dt_thread_sec": 11455,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "offering to negotiate a new spot"
+     ],
+     "sequence": [
+      "na",
+      "c0020"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724563
+     }
+    },
+    "3": {
+     "thread_id": "62y4mt",
+     "item_id": "dfqgzxc",
+     "parent_id": "62y4mt",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491155460,
+     "dt_parent_sec": 43042,
+     "dt_thread_sec": 43042,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "seeking an agreement with Sweden for another restart"
+     ],
+     "sequence": [
+      "c0021",
+      "na"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "edited": 1491156133,
+      "score": 2,
+      "retrieved_on": 1493732077
+     }
+    },
+    "3.1": {
+     "thread_id": "62y4mt",
+     "item_id": "dfqjk3y",
+     "parent_id": "dfqgzxc",
+     "author": "Jemzen",
+     "created_utc": 1491158733,
+     "dt_parent_sec": 3273,
+     "dt_thread_sec": 46315,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "the cream of the meme",
+      "retrieved_on": 1493733323
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62y4mt",
+     "item_id": "dfql5vq",
+     "parent_id": "dfqjk3y",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491160793,
+     "dt_parent_sec": 2060,
+     "dt_thread_sec": 48375,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "relaying permission secured through Sweden diplomacy on Discord"
+     ],
+     "sequence": [
+      "c0022",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493734098
+     }
+    }
+   },
+   "62yq00": {
+    "0": {
+     "thread_id": "62yq00",
+     "item_id": "62yq00",
+     "parent_id": null,
+     "author": "helpIcanthinkofaname",
+     "created_utc": 1491123743,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "directing a notice to Cal-logo workers"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494552331
+     }
+    }
+   },
+   "62yvy7": {
+    "0": {
+     "thread_id": "62yvy7",
+     "item_id": "62yvy7",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491127107,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "proposing Berkelium beside the Cal logo"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552413
+     }
+    }
+   },
+   "63146k": {
+    "0": {
+     "thread_id": "63146k",
+     "item_id": "63146k",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491156006,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "calling Berkeley to get involved in r/place"
+     ],
+     "sequence": [
+      "c0025"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494553530
+     }
+    }
+   },
+   "6317l8": {
+    "0": {
+     "thread_id": "6317l8",
+     "item_id": "6317l8",
+     "parent_id": null,
+     "author": "MalangaPalinga",
+     "created_utc": 1491156923,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "proposing replacing Georgia Tech's mark with Berkeley's"
+     ],
+     "sequence": [
+      "na",
+      "c0026"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494553579
+     }
+    },
+    "1": {
+     "thread_id": "6317l8",
+     "item_id": "dfqjrjn",
+     "parent_id": "6317l8",
+     "author": "compstomper",
+     "created_utc": 1491158995,
+     "dt_parent_sec": 2072,
+     "dt_thread_sec": 2072,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "redirecting the raid proposal to the existing script Cal effort"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "ME '11",
+      "retrieved_on": 1493733423
+     }
+    },
+    "2": {
+     "thread_id": "6317l8",
+     "item_id": "dfql7jy",
+     "parent_id": "6317l8",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491160853,
+     "dt_parent_sec": 3930,
+     "dt_thread_sec": 3930,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "relaying the Discord-sanctioned third plan"
+     ],
+     "sequence": [
+      "c0028",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493734120
+     }
+    }
+   },
+   "631mmb": {
+    "0": {
+     "thread_id": "631mmb",
+     "item_id": "631mmb",
+     "parent_id": null,
+     "author": "MonsieurPineapple",
+     "created_utc": 1491160923,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "announcing a Sweden-sanctioned Cal logo"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494553799
+     }
+    },
+    "1": {
+     "thread_id": "631mmb",
+     "item_id": "dfqlaqf",
+     "parent_id": "631mmb",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491160970,
+     "dt_parent_sec": 47,
+     "dt_thread_sec": 47,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491161683,
+      "score": 2,
+      "retrieved_on": 1493734165
+     }
+    },
+    "1.1": {
+     "thread_id": "631mmb",
+     "item_id": "dfr2tqc",
+     "parent_id": "dfqlaqf",
+     "author": "Abstract_17",
+     "created_utc": 1491183435,
+     "dt_parent_sec": 22465,
+     "dt_thread_sec": 22512,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493742887
+     }
+    },
+    "1.1.1": {
+     "thread_id": "631mmb",
+     "item_id": "dfr2xp1",
+     "parent_id": "dfr2tqc",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491183566,
+     "dt_parent_sec": 131,
+     "dt_thread_sec": 22643,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "calling for help defending against the Mets"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493742941
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "631mmb",
+     "item_id": "dfr3h16",
+     "parent_id": "dfr2xp1",
+     "author": "Abstract_17",
+     "created_utc": 1491184186,
+     "dt_parent_sec": 620,
+     "dt_thread_sec": 23263,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "reporting that the Mets are leaving the logo alone"
+     ],
+     "sequence": [
+      "c0031",
+      "na"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493743200
+     }
+    }
+   },
+   "631n76": {
+    "0": {
+     "thread_id": "631n76",
+     "item_id": "631n76",
+     "parent_id": null,
+     "author": "lulzcakes",
+     "created_utc": 1491161077,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "telling subscribers to update every five minutes"
+     ],
+     "sequence": [
+      "na",
+      "c0032",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 47,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1494553808
+     }
+    },
+    "1": {
+     "thread_id": "631n76",
+     "item_id": "dfqmf6t",
+     "parent_id": "631n76",
+     "author": "lulzcakes",
+     "created_utc": 1491162452,
+     "dt_parent_sec": 1375,
+     "dt_thread_sec": 1375,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "joking that nonparticipants will be banned"
+     ],
+     "sequence": [
+      "c0033",
+      "na"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "score": 1,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1493734704
+     }
+    },
+    "2": {
+     "thread_id": "631n76",
+     "item_id": "dfqmi3q",
+     "parent_id": "631n76",
+     "author": "bobbistef",
+     "created_utc": 1491162562,
+     "dt_parent_sec": 1485,
+     "dt_thread_sec": 1485,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "answering the rally with midterms to study for"
+     ],
+     "sequence": [
+      "c0034",
+      "na"
+     ],
+     "coverage": 0.32,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "MSE/NucE but not good at STEM",
+      "retrieved_on": 1493734743
+     }
+    },
+    "2.1": {
+     "thread_id": "631n76",
+     "item_id": "dfqml4t",
+     "parent_id": "dfqmi3q",
+     "author": "lulzcakes",
+     "created_utc": 1491162676,
+     "dt_parent_sec": 114,
+     "dt_thread_sec": 1599,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "answering the midterm excuse by pointing out they are on Reddit"
+     ],
+     "sequence": [
+      "c0035"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 20,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1493734783
+     }
+    },
+    "3": {
+     "thread_id": "631n76",
+     "item_id": "dfqoa1c",
+     "parent_id": "631n76",
+     "author": "aperture_lab_subject",
+     "created_utc": 1491164941,
+     "dt_parent_sec": 3864,
+     "dt_thread_sec": 3864,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "NucE '17",
+      "retrieved_on": 1493735600
+     }
+    },
+    "3.1": {
+     "thread_id": "631n76",
+     "item_id": "dfqoesh",
+     "parent_id": "dfqoa1c",
+     "author": "Fettinem",
+     "created_utc": 1491165115,
+     "dt_parent_sec": 174,
+     "dt_thread_sec": 4038,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493735663
+     }
+    },
+    "3.1.1": {
+     "thread_id": "631n76",
+     "item_id": "dfqohs6",
+     "parent_id": "dfqoesh",
+     "author": "aperture_lab_subject",
+     "created_utc": 1491165233,
+     "dt_parent_sec": 118,
+     "dt_thread_sec": 4156,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "NucE '17",
+      "retrieved_on": 1493735704
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "631n76",
+     "item_id": "dfqojep",
+     "parent_id": "dfqohs6",
+     "author": "Fettinem",
+     "created_utc": 1491165302,
+     "dt_parent_sec": 69,
+     "dt_thread_sec": 4225,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491165766,
+      "score": 2,
+      "retrieved_on": 1493735725
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "631n76",
+     "item_id": "dfqpswt",
+     "parent_id": "dfqojep",
+     "author": "lulzcakes",
+     "created_utc": 1491167112,
+     "dt_parent_sec": 1810,
+     "dt_thread_sec": 6035,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "abandoning the corner fight and promising a new sticky"
+     ],
+     "sequence": [
+      "c0036"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1493736443
+     }
+    },
+    "4": {
+     "thread_id": "631n76",
+     "item_id": "dfqspi5",
+     "parent_id": "631n76",
+     "author": "inventor1488",
+     "created_utc": 1491170871,
+     "dt_parent_sec": 9794,
+     "dt_thread_sec": 9794,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "declaring the Cal coordinates bear territory"
+     ],
+     "sequence": [
+      "na",
+      "c0037"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "Things That Use Math '16",
+      "retrieved_on": 1493737979
+     }
+    }
+   },
+   "631wrt": {
+    "0": {
+     "thread_id": "631wrt",
+     "item_id": "631wrt",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491163717,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "conceding the blue-corner war and restarting in Sweden"
+     ],
+     "sequence": [
+      "c0038",
+      "na"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494553951
+     }
+    },
+    "1": {
+     "thread_id": "631wrt",
+     "item_id": "dfqne39",
+     "parent_id": "631wrt",
+     "author": "qaphqaesque",
+     "created_utc": 1491163756,
+     "dt_parent_sec": 39,
+     "dt_thread_sec": 39,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "starting the top of the C in yellow"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493735170
+     }
+    }
+   },
+   "631yye": {
+    "0": {
+     "thread_id": "631yye",
+     "item_id": "631yye",
+     "parent_id": null,
+     "author": "qaphqaesque",
+     "created_utc": 1491164319,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "conceding the war with the blue corner"
+     ],
+     "sequence": [
+      "c0040",
+      "na"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 81,
+      "retrieved_on": 1494553981
+     }
+    },
+    "1": {
+     "thread_id": "631yye",
+     "item_id": "dfqp9ic",
+     "parent_id": "631yye",
+     "author": "Fettinem",
+     "created_utc": 1491166345,
+     "dt_parent_sec": 2026,
+     "dt_thread_sec": 2026,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "letting the five-minute timer destroy concentration"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 0.69,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493736076
+     }
+    },
+    "2": {
+     "thread_id": "631yye",
+     "item_id": "dfqv38x",
+     "parent_id": "631yye",
+     "author": "krackers",
+     "created_utc": 1491173806,
+     "dt_parent_sec": 9487,
+     "dt_thread_sec": 9487,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 18,
+      "retrieved_on": 1493739132
+     }
+    },
+    "2.1": {
+     "thread_id": "631yye",
+     "item_id": "dfqvcok",
+     "parent_id": "dfqv38x",
+     "author": "qaphqaesque",
+     "created_utc": 1491174139,
+     "dt_parent_sec": 333,
+     "dt_thread_sec": 9820,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "defending a hand-made all-natural Cal logo"
+     ],
+     "sequence": [
+      "c0042"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491182928,
+      "score": 33,
+      "retrieved_on": 1493739271
+     }
+    },
+    "3": {
+     "thread_id": "631yye",
+     "item_id": "dfqvp97",
+     "parent_id": "631yye",
+     "author": "qaphqaesque",
+     "created_utc": 1491174581,
+     "dt_parent_sec": 10262,
+     "dt_thread_sec": 10262,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493739442
+     }
+    },
+    "3.1": {
+     "thread_id": "631yye",
+     "item_id": "dfqvqr6",
+     "parent_id": "dfqvp97",
+     "author": "Fettinem",
+     "created_utc": 1491174634,
+     "dt_parent_sec": 53,
+     "dt_thread_sec": 10315,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "celebrating that they did it surprisingly quickly"
+     ],
+     "sequence": [
+      "c0043"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493739461
+     }
+    },
+    "4": {
+     "thread_id": "631yye",
+     "item_id": "dfqzm8c",
+     "parent_id": "631yye",
+     "author": "theSeanO",
+     "created_utc": 1491179567,
+     "dt_parent_sec": 15248,
+     "dt_thread_sec": 15248,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "asking Berkeley to help make U of Arizona's block A"
+     ],
+     "sequence": [
+      "na",
+      "c0044",
+      "na"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493741339
+     }
+    },
+    "4.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr1wr8",
+     "parent_id": "dfqzm8c",
+     "author": "schmearcampain",
+     "created_utc": 1491182348,
+     "dt_parent_sec": 2781,
+     "dt_thread_sec": 18029,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "declining help because pixels cannot be spared"
+     ],
+     "sequence": [
+      "c0045"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493742447
+     }
+    },
+    "5": {
+     "thread_id": "631yye",
+     "item_id": "dfr1tls",
+     "parent_id": "631yye",
+     "author": "schmearcampain",
+     "created_utc": 1491182240,
+     "dt_parent_sec": 17921,
+     "dt_thread_sec": 17921,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491184020,
+      "score": 2,
+      "retrieved_on": 1493742405
+     }
+    },
+    "5.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr1ymi",
+     "parent_id": "dfr1tls",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491182415,
+     "dt_parent_sec": 175,
+     "dt_thread_sec": 18096,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "telling an Oski builder to clear it with Sweden"
+     ],
+     "sequence": [
+      "c0046",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493742472
+     }
+    },
+    "5.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr261f",
+     "parent_id": "dfr1ymi",
+     "author": "Jemzen",
+     "created_utc": 1491182676,
+     "dt_parent_sec": 261,
+     "dt_thread_sec": 18357,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "the cream of the meme",
+      "retrieved_on": 1493742571
+     }
+    },
+    "5.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr2p6c",
+     "parent_id": "dfr261f",
+     "author": "schmearcampain",
+     "created_utc": 1491183285,
+     "dt_parent_sec": 609,
+     "dt_thread_sec": 18966,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493742827
+     }
+    },
+    "5.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr2rir",
+     "parent_id": "dfr2p6c",
+     "author": "Jemzen",
+     "created_utc": 1491183361,
+     "dt_parent_sec": 76,
+     "dt_thread_sec": 19042,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "arguing for remaining civil with the larger neighbor"
+     ],
+     "sequence": [
+      "na",
+      "c0047"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "the cream of the meme",
+      "retrieved_on": 1493742858
+     }
+    },
+    "5.1.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr3igv",
+     "parent_id": "dfr2rir",
+     "author": "schmearcampain",
+     "created_utc": 1491184236,
+     "dt_parent_sec": 875,
+     "dt_thread_sec": 19917,
+     "state": "coded",
+     "code_ids": [
+      "c0093"
+     ],
+     "labels": [
+      "urging a strike while Sweden sleeps and dismissing permission"
+     ],
+     "sequence": [
+      "c0093"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493743219
+     }
+    },
+    "5.1.1.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr3qd0",
+     "parent_id": "dfr3igv",
+     "author": "Jemzen",
+     "created_utc": 1491184512,
+     "dt_parent_sec": 276,
+     "dt_thread_sec": 20193,
+     "state": "coded",
+     "code_ids": [
+      "c0094"
+     ],
+     "labels": [
+      "opposing the strike to avoid Sweden's ire"
+     ],
+     "sequence": [
+      "c0094"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "the cream of the meme",
+      "retrieved_on": 1493743325
+     }
+    },
+    "5.1.1.1.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr4ejq",
+     "parent_id": "dfr3qd0",
+     "author": "schmearcampain",
+     "created_utc": 1491185355,
+     "dt_parent_sec": 843,
+     "dt_thread_sec": 21036,
+     "state": "coded",
+     "code_ids": [
+      "c0095"
+     ],
+     "labels": [
+      "asking whether the Cal logo had permission"
+     ],
+     "sequence": [
+      "c0095"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493743656
+     }
+    },
+    "5.1.1.1.1.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr64sn",
+     "parent_id": "dfr4ejq",
+     "author": "Jemzen",
+     "created_utc": 1491187394,
+     "dt_parent_sec": 2039,
+     "dt_thread_sec": 23075,
+     "state": "coded",
+     "code_ids": [
+      "c0096"
+     ],
+     "labels": [
+      "saying unpermitted builds were deleted"
+     ],
+     "sequence": [
+      "c0096"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "the cream of the meme",
+      "retrieved_on": 1493744487
+     }
+    },
+    "5.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfr6ny2",
+     "parent_id": "dfr64sn",
+     "author": "qaphqaesque",
+     "created_utc": 1491187991,
+     "dt_parent_sec": 597,
+     "dt_thread_sec": 23672,
+     "state": "coded",
+     "code_ids": [
+      "c0097",
+      "c0048"
+     ],
+     "labels": [
+      "saying smaller subreddits make peace and help the host in return",
+      "explaining why smaller subreddits make peace with larger ones"
+     ],
+     "sequence": [
+      "na",
+      "c0097",
+      "c0048"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493744743
+     }
+    },
+    "5.1.1.1.1.1.1.1.1.2": {
+     "thread_id": "631yye",
+     "item_id": "dfr6vxs",
+     "parent_id": "dfr64sn",
+     "author": "schmearcampain",
+     "created_utc": 1491188259,
+     "dt_parent_sec": 865,
+     "dt_thread_sec": 23940,
+     "state": "coded",
+     "code_ids": [
+      "c0098"
+     ],
+     "labels": [
+      "refusing entreaties for Oski and accepting that it may be deleted"
+     ],
+     "sequence": [
+      "c0098",
+      "na"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493744850
+     }
+    },
+    "5.1.1.1.1.1.1.1.1.2.1": {
+     "thread_id": "631yye",
+     "item_id": "dfravvr",
+     "parent_id": "dfr6vxs",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491193406,
+     "dt_parent_sec": 5147,
+     "dt_thread_sec": 29087,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493746822
+     }
+    },
+    "5.1.1.1.1.1.1.1.1.2.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfrcmys",
+     "parent_id": "dfravvr",
+     "author": "schmearcampain",
+     "created_utc": 1491196419,
+     "dt_parent_sec": 3013,
+     "dt_thread_sec": 32100,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491198563,
+      "score": 3,
+      "retrieved_on": 1493748229
+     }
+    },
+    "5.1.1.1.1.1.1.1.1.2.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfrcqfv",
+     "parent_id": "dfrcmys",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491196587,
+     "dt_parent_sec": 168,
+     "dt_thread_sec": 32268,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493748276
+     }
+    },
+    "5.1.1.1.1.1.1.1.1.2.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfrczyu",
+     "parent_id": "dfrcqfv",
+     "author": "imsmartiswear",
+     "created_utc": 1491197087,
+     "dt_parent_sec": 500,
+     "dt_thread_sec": 32768,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493748407
+     }
+    },
+    "5.1.1.1.1.1.1.1.1.2.1.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfrd1u5",
+     "parent_id": "dfrczyu",
+     "author": "imsmartiswear",
+     "created_utc": 1491197186,
+     "dt_parent_sec": 99,
+     "dt_thread_sec": 32867,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493748432
+     }
+    },
+    "5.1.1.1.1.1.1.1.1.2.1.1.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfrdv5m",
+     "parent_id": "dfrd1u5",
+     "author": "schmearcampain",
+     "created_utc": 1491198812,
+     "dt_parent_sec": 1626,
+     "dt_thread_sec": 34493,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "objecting that the band would co-opt the shared Cal logo"
+     ],
+     "sequence": [
+      "c0049",
+      "na"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493748825
+     }
+    },
+    "5.1.1.1.1.1.1.1.1.2.1.1.1.1.1.1.1": {
+     "thread_id": "631yye",
+     "item_id": "dfre2sx",
+     "parent_id": "dfrdv5m",
+     "author": "imsmartiswear",
+     "created_utc": 1491199260,
+     "dt_parent_sec": 448,
+     "dt_thread_sec": 34941,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "withdrawing the band addition and offering maintenance"
+     ],
+     "sequence": [
+      "na",
+      "c0050"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "edited": 1491200022,
+      "score": 3,
+      "retrieved_on": 1493748928
+     }
+    }
+   },
+   "6327w3": {
+    "0": {
+     "thread_id": "6327w3",
+     "item_id": "6327w3",
+     "parent_id": null,
+     "author": "qaphqaesque",
+     "created_utc": 1491166864,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "restating the approved location in a new post"
+     ],
+     "sequence": [
+      "na",
+      "c0051",
+      "na"
+     ],
+     "coverage": 0.06,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1494554111
+     }
+    },
+    "1": {
+     "thread_id": "6327w3",
+     "item_id": "dfqqjqa",
+     "parent_id": "6327w3",
+     "author": "lulzcakes",
+     "created_utc": 1491168154,
+     "dt_parent_sec": 1290,
+     "dt_thread_sec": 1290,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "making the sanctioned location the moderator's new plan"
+     ],
+     "sequence": [
+      "c0052",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "score": 1,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1493736914
+     }
+    },
+    "2": {
+     "thread_id": "6327w3",
+     "item_id": "dfqqk4q",
+     "parent_id": "6327w3",
+     "author": "Fettinem",
+     "created_utc": 1491168169,
+     "dt_parent_sec": 1305,
+     "dt_thread_sec": 1305,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "calling for help while the logo is overcome"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493736920
+     }
+    }
+   },
+   "632dln": {
+    "0": {
+     "thread_id": "632dln",
+     "item_id": "632dln",
+     "parent_id": null,
+     "author": "lulzcakes",
+     "created_utc": 1491168505,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "installing a new logo spot after giving up too easily"
+     ],
+     "sequence": [
+      "c0054",
+      "na"
+     ],
+     "coverage": 0.62,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 21,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1494554196
+     }
+    },
+    "1": {
+     "thread_id": "632dln",
+     "item_id": "dfquew5",
+     "parent_id": "632dln",
+     "author": "lulzcakes",
+     "created_utc": 1491172962,
+     "dt_parent_sec": 4457,
+     "dt_thread_sec": 4457,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "asking workers to repair the Dutch border to prevent revenge"
+     ],
+     "sequence": [
+      "c0055",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "score": 1,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1493738806
+     }
+    },
+    "2": {
+     "thread_id": "632dln",
+     "item_id": "dfqvatd",
+     "parent_id": "632dln",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491174074,
+     "dt_parent_sec": 5569,
+     "dt_thread_sec": 5569,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "shifting from construction to defense and maintenance"
+     ],
+     "sequence": [
+      "c0056",
+      "na"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "edited": 1491193137,
+      "score": 4,
+      "retrieved_on": 1493739245
+     }
+    },
+    "3": {
+     "thread_id": "632dln",
+     "item_id": "dfr2bbh",
+     "parent_id": "632dln",
+     "author": "spambot_3000",
+     "created_utc": 1491182854,
+     "dt_parent_sec": 14349,
+     "dt_thread_sec": 14349,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "promising the Mets will shift to avoid collision"
+     ],
+     "sequence": [
+      "na",
+      "c0057",
+      "na"
+     ],
+     "coverage": 0.09,
+     "meta": {
+      "edited": 1491184201,
+      "score": 5,
+      "retrieved_on": 1493742641
+     }
+    },
+    "3.1": {
+     "thread_id": "632dln",
+     "item_id": "dfr3kbn",
+     "parent_id": "dfr2bbh",
+     "author": "qaphqaesque",
+     "created_utc": 1491184302,
+     "dt_parent_sec": 1448,
+     "dt_thread_sec": 15797,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "thanking the Mets for avoiding the logo"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493743244
+     }
+    },
+    "4": {
+     "thread_id": "632dln",
+     "item_id": "dfrh4ky",
+     "parent_id": "632dln",
+     "author": "AnitaWaffle",
+     "created_utc": 1491206902,
+     "dt_parent_sec": 38397,
+     "dt_thread_sec": 38397,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493750395
+     }
+    },
+    "4.1": {
+     "thread_id": "632dln",
+     "item_id": "dfrhcf6",
+     "parent_id": "dfrh4ky",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491207523,
+     "dt_parent_sec": 621,
+     "dt_thread_sec": 39018,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "maintaining an organic logo without a final template"
+     ],
+     "sequence": [
+      "na",
+      "c0059",
+      "na"
+     ],
+     "coverage": 0.14,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493750500
+     }
+    }
+   },
+   "632yb7": {
+    "0": {
+     "thread_id": "632yb7",
+     "item_id": "632yb7",
+     "parent_id": null,
+     "author": "Fettinem",
+     "created_utc": 1491174468,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "celebrating that collaboration finished the logo"
+     ],
+     "sequence": [
+      "na",
+      "c0060",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1494554500
+     }
+    }
+   },
+   "634ol3": {
+    "0": {
+     "thread_id": "634ol3",
+     "item_id": "634ol3",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491194986,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "claiming the politics with Sweden were settled"
+     ],
+     "sequence": [
+      "na",
+      "c0061"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494555375
+     }
+    },
+    "1": {
+     "thread_id": "634ol3",
+     "item_id": "dfrbwz4",
+     "parent_id": "634ol3",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491195139,
+     "dt_parent_sec": 153,
+     "dt_thread_sec": 153,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493747321
+     }
+    },
+    "1.1": {
+     "thread_id": "634ol3",
+     "item_id": "dfrby0h",
+     "parent_id": "dfrbwz4",
+     "author": "imsmartiswear",
+     "created_utc": 1491195191,
+     "dt_parent_sec": 52,
+     "dt_thread_sec": 205,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493747336
+     }
+    },
+    "1.1.1": {
+     "thread_id": "634ol3",
+     "item_id": "dfrc1an",
+     "parent_id": "dfrby0h",
+     "author": "MonsieurPineapple",
+     "created_utc": 1491195349,
+     "dt_parent_sec": 158,
+     "dt_thread_sec": 363,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "warning that the proposed addition could still incite war"
+     ],
+     "sequence": [
+      "na",
+      "c0062"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493747379
+     }
+    }
+   },
+   "635c6o": {
+    "0": {
+     "thread_id": "635c6o",
+     "item_id": "635c6o",
+     "parent_id": null,
+     "author": "MonsieurPineapple",
+     "created_utc": 1491205314,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "showing the completed Cal logo"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 119,
+      "retrieved_on": 1494555698
+     }
+    },
+    "1": {
+     "thread_id": "635c6o",
+     "item_id": "dfs0o03",
+     "parent_id": "635c6o",
+     "author": "Jemzen",
+     "created_utc": 1491240182,
+     "dt_parent_sec": 34868,
+     "dt_thread_sec": 34868,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "thanking the coordinator and everyone who spent pixels"
+     ],
+     "sequence": [
+      "c0064",
+      "na"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "score": 14,
+      "author_flair_text": "the cream of the meme",
+      "retrieved_on": 1493761611
+     }
+    },
+    "2": {
+     "thread_id": "635c6o",
+     "item_id": "dfsilek",
+     "parent_id": "635c6o",
+     "author": "cheapalternatives",
+     "created_utc": 1491261133,
+     "dt_parent_sec": 55819,
+     "dt_thread_sec": 55819,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "professing pride despite contributing little"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493770914
+     }
+    },
+    "3": {
+     "thread_id": "635c6o",
+     "item_id": "dfsjyiu",
+     "parent_id": "635c6o",
+     "author": "dihydrogen__monoxide",
+     "created_utc": 1491262864,
+     "dt_parent_sec": 57550,
+     "dt_thread_sec": 57550,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "remembering the pleasure of painting together"
+     ],
+     "sequence": [
+      "c0066"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493771573
+     }
+    }
+   },
+   "637n7t": {
+    "0": {
+     "thread_id": "637n7t",
+     "item_id": "637n7t",
+     "parent_id": null,
+     "author": "lulzcakes",
+     "created_utc": 1491234841,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "calling people to repair the attacked logo"
+     ],
+     "sequence": [
+      "c0067",
+      "na"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 11,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1494556863
+     }
+    },
+    "1": {
+     "thread_id": "637n7t",
+     "item_id": "dfs0l3f",
+     "parent_id": "637n7t",
+     "author": "p_by_induction",
+     "created_utc": 1491240094,
+     "dt_parent_sec": 5253,
+     "dt_thread_sec": 5253,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "CS '17",
+      "retrieved_on": 1493761570
+     }
+    },
+    "1.1": {
+     "thread_id": "637n7t",
+     "item_id": "dfsl274",
+     "parent_id": "dfs0l3f",
+     "author": "nickpeaches",
+     "created_utc": 1491264255,
+     "dt_parent_sec": 24161,
+     "dt_thread_sec": 29414,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "mourning place after it ended"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "everyone plz chill out I graduate in 2 weeks",
+      "retrieved_on": 1493772111
+     }
+    },
+    "2": {
+     "thread_id": "637n7t",
+     "item_id": "dfs0y3m",
+     "parent_id": "637n7t",
+     "author": "Jemzen",
+     "created_utc": 1491240516,
+     "dt_parent_sec": 5675,
+     "dt_thread_sec": 5675,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "claiming Berkeley's place forever in history"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "author_flair_text": "the cream of the meme",
+      "retrieved_on": 1493762334
+     }
+    }
+   },
+   "637wfr": {
+    "0": {
+     "thread_id": "637wfr",
+     "item_id": "637wfr",
+     "parent_id": null,
+     "author": "bobbyy98",
+     "created_utc": 1491237264,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "calling everybody to run a defense script"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 0.81,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494556991
+     }
+    }
+   },
+   "63bdza": {
+    "0": {
+     "thread_id": "63bdza",
+     "item_id": "63bdza",
+     "parent_id": null,
+     "author": "1halfazn",
+     "created_utc": 1491272092,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "celebrating making it into the final version of place"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 98,
+      "author_flair_text": "cal wushu af",
+      "retrieved_on": 1494558731
+     }
+    },
+    "1": {
+     "thread_id": "63bdza",
+     "item_id": "dfsxfex",
+     "parent_id": "63bdza",
+     "author": "ScholarOfEECS",
+     "created_utc": 1491279969,
+     "dt_parent_sec": 7877,
+     "dt_thread_sec": 7877,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "feeling as accomplished by place as by getting accepted to Cal"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 28,
+      "author_flair_text": "Referee Studies",
+      "retrieved_on": 1493778280
+     }
+    },
+    "1.1": {
+     "thread_id": "63bdza",
+     "item_id": "dfsxjtp",
+     "parent_id": "dfsxfex",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491280178,
+     "dt_parent_sec": 209,
+     "dt_thread_sec": 8086,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "calling getting into Cal one of the best things that happened"
+     ],
+     "sequence": [
+      "c0074"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 13,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493778342
+     }
+    },
+    "1.2": {
+     "thread_id": "63bdza",
+     "item_id": "dft44ws",
+     "parent_id": "dfsxfex",
+     "author": "bobbyy98",
+     "created_utc": 1491296004,
+     "dt_parent_sec": 16035,
+     "dt_thread_sec": 23912,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "claiming \u2018we are doing our part\u2019"
+     ],
+     "sequence": [
+      "c0078"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493781549
+     }
+    },
+    "2": {
+     "thread_id": "63bdza",
+     "item_id": "dfsxjb7",
+     "parent_id": "63bdza",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491280153,
+     "dt_parent_sec": 8061,
+     "dt_thread_sec": 8061,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "cheering \u2018go Cal\u2019 at the final place result"
+     ],
+     "sequence": [
+      "c0072"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493778336
+     }
+    },
+    "2.1": {
+     "thread_id": "63bdza",
+     "item_id": "dft3gt4",
+     "parent_id": "dfsxjb7",
+     "author": "etcpie",
+     "created_utc": 1491293920,
+     "dt_parent_sec": 13767,
+     "dt_thread_sec": 21828,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "welcoming a frequent newcomer to the subreddit and Cal"
+     ],
+     "sequence": [
+      "c0077"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "BS in communist chicano studies",
+      "retrieved_on": 1493781226
+     }
+    },
+    "2.1.1": {
+     "thread_id": "63bdza",
+     "item_id": "dft45st",
+     "parent_id": "dft3gt4",
+     "author": "JiForce",
+     "created_utc": 1491296084,
+     "dt_parent_sec": 2164,
+     "dt_thread_sec": 23992,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "calling the welcome wholesome"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 0.92,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493781562
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "63bdza",
+     "item_id": "dft4e6s",
+     "parent_id": "dft45st",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491296825,
+     "dt_parent_sec": 741,
+     "dt_thread_sec": 24733,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "claiming Cal has the best memers and memes"
+     ],
+     "sequence": [
+      "c0082"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493781673
+     }
+    },
+    "2.1.2": {
+     "thread_id": "63bdza",
+     "item_id": "dft4c0h",
+     "parent_id": "dft3gt4",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491296633,
+     "dt_parent_sec": 2713,
+     "dt_thread_sec": 24541,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "thanking a greeter and saying the Berkeley subreddit makes a new Golden Bear happy"
+     ],
+     "sequence": [
+      "c0080",
+      "na"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493781644
+     }
+    },
+    "2.1.2.1": {
+     "thread_id": "63bdza",
+     "item_id": "dftbwit",
+     "parent_id": "dft4c0h",
+     "author": "lulzcakes",
+     "created_utc": 1491313110,
+     "dt_parent_sec": 16477,
+     "dt_thread_sec": 41018,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "reassuring a newcomer about loans, work study, and a low-income full ride"
+     ],
+     "sequence": [
+      "c0083",
+      "na"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "edited": 1491313724,
+      "score": 4,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1493785292
+     }
+    },
+    "2.1.2.1.1": {
+     "thread_id": "63bdza",
+     "item_id": "dftc120",
+     "parent_id": "dftbwit",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491313281,
+     "dt_parent_sec": 171,
+     "dt_thread_sec": 41189,
+     "state": "coded",
+     "code_ids": [
+      "c0084"
+     ],
+     "labels": [
+      "explaining that international status rules out the aid and thanking the adviser"
+     ],
+     "sequence": [
+      "c0084"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491315899,
+      "score": 3,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493785353
+     }
+    },
+    "2.1.2.1.1.1": {
+     "thread_id": "63bdza",
+     "item_id": "dftc9zx",
+     "parent_id": "dftc120",
+     "author": "lulzcakes",
+     "created_utc": 1491313608,
+     "dt_parent_sec": 327,
+     "dt_thread_sec": 41516,
+     "state": "coded",
+     "code_ids": [
+      "c0085"
+     ],
+     "labels": [
+      "joking about marriage to become a California resident"
+     ],
+     "sequence": [
+      "c0085"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "Dictator '15",
+      "retrieved_on": 1493785474
+     }
+    },
+    "2.1.2.1.1.1.1": {
+     "thread_id": "63bdza",
+     "item_id": "dftcdys",
+     "parent_id": "dftc9zx",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491313754,
+     "dt_parent_sec": 146,
+     "dt_thread_sec": 41662,
+     "state": "coded",
+     "code_ids": [
+      "c0086"
+     ],
+     "labels": [
+      "answering the marriage joke with a fishy classmate story"
+     ],
+     "sequence": [
+      "c0086"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493785527
+     }
+    },
+    "2.1.2.2": {
+     "thread_id": "63bdza",
+     "item_id": "dftk717",
+     "parent_id": "dft4c0h",
+     "author": "Prince_Silk",
+     "created_utc": 1491322711,
+     "dt_parent_sec": 26078,
+     "dt_thread_sec": 50619,
+     "state": "coded",
+     "code_ids": [
+      "c0087"
+     ],
+     "labels": [
+      "asking a newcomer to compare Berkeley with an east-coast scholarship"
+     ],
+     "sequence": [
+      "c0087"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493790099
+     }
+    },
+    "2.1.2.2.1": {
+     "thread_id": "63bdza",
+     "item_id": "dftkrfd",
+     "parent_id": "dftk717",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491323310,
+     "dt_parent_sec": 599,
+     "dt_thread_sec": 51218,
+     "state": "coded",
+     "code_ids": [
+      "c0088"
+     ],
+     "labels": [
+      "comparing Berkeley\u2019s cost with a Boston University scholarship"
+     ],
+     "sequence": [
+      "c0088"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493790373
+     }
+    },
+    "2.1.2.2.1.1": {
+     "thread_id": "63bdza",
+     "item_id": "dftll47",
+     "parent_id": "dftkrfd",
+     "author": "personalist",
+     "created_utc": 1491324175,
+     "dt_parent_sec": 865,
+     "dt_thread_sec": 52083,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "recommending Boston given the costs"
+     ],
+     "sequence": [
+      "c0089"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "psychology/chemistry '17",
+      "retrieved_on": 1493790769
+     }
+    },
+    "2.1.2.2.1.1.1": {
+     "thread_id": "63bdza",
+     "item_id": "dftmebb",
+     "parent_id": "dftll47",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491325032,
+     "dt_parent_sec": 857,
+     "dt_thread_sec": 52940,
+     "state": "coded",
+     "code_ids": [
+      "c0091"
+     ],
+     "labels": [
+      "deciding BU may be better for medical school and thanking the adviser"
+     ],
+     "sequence": [
+      "c0091"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493791162
+     }
+    },
+    "2.1.2.2.1.2": {
+     "thread_id": "63bdza",
+     "item_id": "dftm2bq",
+     "parent_id": "dftkrfd",
+     "author": "Prince_Silk",
+     "created_utc": 1491324680,
+     "dt_parent_sec": 1370,
+     "dt_thread_sec": 52588,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "recommending the BU full ride despite wanting the newcomer at Cal"
+     ],
+     "sequence": [
+      "c0090",
+      "na"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493790999
+     }
+    },
+    "2.1.2.2.1.2.1": {
+     "thread_id": "63bdza",
+     "item_id": "dftmijy",
+     "parent_id": "dftm2bq",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491325155,
+     "dt_parent_sec": 475,
+     "dt_thread_sec": 53063,
+     "state": "coded",
+     "code_ids": [
+      "c0092"
+     ],
+     "labels": [
+      "thanking advisers and planning to ask separately about choosing BU now and Cal later"
+     ],
+     "sequence": [
+      "c0092"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493791219
+     }
+    },
+    "3": {
+     "thread_id": "63bdza",
+     "item_id": "dfsyy1g",
+     "parent_id": "63bdza",
+     "author": "ThisIs_BEARTERRITORY",
+     "created_utc": 1491282729,
+     "dt_parent_sec": 10637,
+     "dt_thread_sec": 10637,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "cheering \u2018Go Bears\u2019"
+     ],
+     "sequence": [
+      "c0075"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 13,
+      "author_flair_text": "<-- TELL THE WHOLE DAMN WORLD",
+      "retrieved_on": 1493779030
+     }
+    },
+    "3.1": {
+     "thread_id": "63bdza",
+     "item_id": "dft4dia",
+     "parent_id": "dfsyy1g",
+     "author": "nietzschesoptimism",
+     "created_utc": 1491296769,
+     "dt_parent_sec": 14040,
+     "dt_thread_sec": 24677,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "shouting that Bears rule"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Bioengineering '21 (dat gurrrl)",
+      "retrieved_on": 1493781665
+     }
+    },
+    "4": {
+     "thread_id": "63bdza",
+     "item_id": "dft0g3n",
+     "parent_id": "63bdza",
+     "author": "Chryhard",
+     "created_utc": 1491285874,
+     "dt_parent_sec": 13782,
+     "dt_thread_sec": 13782,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "joking that the final place result left no worlds to conquer"
+     ],
+     "sequence": [
+      "c0076"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493779761
+     }
+    }
+   }
+  }
+ }
+}

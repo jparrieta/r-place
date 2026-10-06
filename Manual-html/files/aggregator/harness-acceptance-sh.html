@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`harness/acceptance.sh`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/harness-acceptance-sh.md">Markdown source</a></nav>
+<h1 id="harnessacceptancesh"><code>harness/acceptance.sh</code></h1>
+<p>The native-CLI acceptance test, run once before stage A1.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>Five groups of assertions in throwaway conversations: 1 the analyst's config folder is logged in and the models serve; 2 no connector, web or cross-session tool reaches the analyst, and Agent is there; 3 it can read its folder, run python, the numeric stack and the tools, and write to <code>out/</code>, and cannot read <code>CONTROL/</code>, <code>out/_probe/</code> before E1, <code>INPUT/</code> or folders beside the run, cannot change <code>tools/</code>, and cannot <code>rm</code>; 4 fork flags carry history and leave the parent untouched; 5 every effort level in <code>arm.json</code> is accepted, and the compaction hook's output is short enough.</p>
+<h2 id="what-it-leaves">What it leaves</h2>
+<p>Nothing in the run. Everything it made goes beside the repository, to <code>Jail/_to_delete/r-place/aggregator/runs/&lt;run&gt;/acceptance-&lt;time&gt;/</code>, with a README giving the result: the planted probes, its throwaway sessions with their transcripts, its scratch folder, the compaction gate it makes, and a guard log its sessions wrote if there was none before (J, 6 October 2026: nothing set aside stays in the repository). <code>acceptance_v41.sh</code> does the same in <code>acceptance-v41-&lt;time&gt;/</code>.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>The handler, once per run, in a Terminal.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Its header: "Assertions read CONTENT, never the mere existence of a file." READ-ME-FIRST: the test "must end with ALL CLEAR".</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/acceptance.sh">harness/acceptance.sh</a>.</p>
+<p>Checked against: harness/acceptance.sh, harness/READ-ME-FIRST.md.</p>
+</body>
+</html>

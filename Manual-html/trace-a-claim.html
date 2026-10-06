@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Trace one claim down to the Reddit text</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="manual.css" />
+</head>
+<body>
+<nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/trace-a-claim.md">Markdown source</a></nav>
+<h1 id="trace-one-claim-down-to-the-reddit-text">Trace one claim down to the Reddit text</h1>
+<p><em>Kind of page: tutorial: about ten minutes, with a terminal and <code>zstd</code> (<code>brew install zstd</code> on macOS, <code>apt install zstd</code> on Linux). Run the commands from the repository root.</em></p>
+<p>A qualitative reader asks of any claim: which words, said by whom, and read how? This page follows one claim of the r/armenia case from the coder's account down to the Reddit comment it rests on. Every coded claim in the study can be traced the same way, and the aggregator's store carries the same code, so a claim of the model can be followed down through it too.</p>
+<h2 id="1-the-claim-in-the-case-account">1. The claim, in the case account</h2>
+<p><code>case.md</code> is the case lead's account of the room's week; it sits at <code>out/case.md</code> inside the room's run, which step 2 opens. For r/armenia it says, in its chronology:</p>
+<blockquote>
+<p><code>dfp16pe</code> announces an alliance with r/greece in which "They will help us and we will help them."</p>
+</blockquote>
+<p>The backticked id is a Reddit item: a post (six characters) or a comment (seven). An account may only cite items its coders read; the gate checks this before the room is verified.</p>
+<h2 id="2-open-the-rooms-run">2. Open the room's run</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="fu">mkdir</span> -p /tmp/armenia <span class="kw">&amp;&amp;</span> <span class="ex">zstd</span> -dc coder/rooms/armenia/run.tar.zst <span class="kw">|</span> <span class="fu">tar</span> -x -C /tmp/armenia</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="bu">cd</span> /tmp/armenia/run</span></code></pre></div>
+<p>On Linux, GNU tar prints lines about an unknown keyword <code>LIBARCHIVE.xattr.com.apple.provenance</code>: the archives were made on a Mac, and the lines are harmless. <code>out/</code> holds what the coders wrote; <code>coder_corpus.jsonl</code> is the record they read, one Reddit item per line.</p>
+<h2 id="3-the-code-behind-the-claim">3. The code behind the claim</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="fu">grep</span> <span class="st">&#39;&quot;item_id&quot;: &quot;dfp16pe&quot;&#39;</span> out/codes.jsonl</span></code></pre></div>
+<p>returns code <code>c0006</code>: first-order label "getting an alliance with r/greece", theme <code>t03</code>, thread <code>62qqvs</code>, characters 0 to 25 of the item, and the quoted passage <code>I got us in an [alliance]</code>.</p>
+<h2 id="4-the-theme-the-code-belongs-to">4. The theme the code belongs to</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="fu">grep</span> <span class="st">&#39;&quot;theme_id&quot;: &quot;t03&quot;&#39;</span> out/themes.jsonl</span></code></pre></div>
+<p><code>t03</code>, "asking neighbours for pixel help and returning it", groups 23 codes. This is the coder's second-order theme, bound to this one case; the themes across cases are the aggregator's work (<a href="10-for-reviewers.html">for reviewers</a>).</p>
+<h2 id="5-the-words-in-the-record">5. The words in the record</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="fu">grep</span> <span class="st">&#39;&quot;id&quot;: &quot;dfp16pe&quot;&#39;</span> coder_corpus.jsonl</span></code></pre></div>
+<p>returns the comment as the archive holds it: a reply in thread <code>62qqvs</code> (<code>parent_id</code> <code>t3_62qqvs</code>), written 2017-04-01 15:41 UTC, whose body begins <code>I got us in an [alliance](...) with /r/greece. They will help us and we will help them fight against invaders.</code> (the link, to an r/greece thread, shortened here) Characters 0 to 25 of the body are exactly the code's quote. The gate's check C3 made this comparison for every code in the room.</p>
+<h2 id="6-that-the-coder-read-it">6. That the coder read it</h2>
+<p><code>out/_read.jsonl</code> logs every call to the reading tool, in order. Its entries 10 and 11 serve the post <code>62qqvs</code> and then the comment <code>dfp16pe</code>; the gate's C9 checks that every code sits on an item the tool served.</p>
+<h2 id="7-on-reddit">7. On Reddit</h2>
+<p><code>permalink</code> in the record is <code>/r/armenia/comments/t3_62qqvs/dfp16pe</code>, in the archive's form; on Reddit the same comment is at <code>https://www.reddit.com/r/armenia/comments/62qqvs/_/dfp16pe/</code>. It may have been deleted since; the archive keeps it as it was taken in 2017.</p>
+<h2 id="from-the-aggregators-side">From the aggregator's side</h2>
+<p>The aggregator's store holds the same code: <code>aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/codes.jsonl</code>, <code>sub</code> armenia, <code>code_id</code> c0006, with its text. A third-order theme the analyst builds lists the second-order themes it groups, and each of those its codes, so any claim of the model leads to codes like this one and down the steps above.</p>
+</body>
+</html>

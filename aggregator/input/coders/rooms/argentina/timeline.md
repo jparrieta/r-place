@@ -1,0 +1,98 @@
+# timeline — r/argentina
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 17:25 — `dfnpe51` is marked edited.
+- d0 03-31 17:32 — `62mo4s` is marked edited.
+- d0 03-31 17:33 — `dfnptk7` is moderator-distinguished and states the `[SERIO]` rule.
+- d0 03-31 19:41 — `62nk6l` is marked edited.
+- d0 04-01 00:43 — `dfoawqj` is moderator-distinguished and states the `[SERIO]` rule.
+- d0 04-01 01:44 — `62psob` is marked edited.
+- d0 04-01 02:43 — `dfofxql` is marked edited.
+- d0 04-01 03:00 — `dfogm4r` is marked edited.
+- d0 04-01 03:34 — `dfohueo` is marked edited.
+- d0 04-01 05:25 — `62qv2f` is marked edited.
+- d0 04-01 14:06 — `62swan` is marked edited.
+- d0 04-01 14:28 — `62t0py` is marked edited.
+- d0 04-01 15:30 — `dfp0oos` is marked edited.
+- d0 04-01 15:32 — `62tee8` is marked edited.
+- d0 04-01 15:52 — `dfp1m1l` is marked edited.
+- d1 04-01 16:10 — `dfp2e25` is marked edited.
+- d1 04-01 18:38 — `dfp8k3b` is marked edited.
+- d1 04-01 18:46 — `dfp8w3u` is marked edited.
+- d1 04-01 18:54 — `dfp981u` is marked edited.
+- d1 04-01 20:35 — `dfpd8ae` is marked edited.
+- d1 04-01 21:47 — `62vrpo` is marked edited.
+- d1 04-01 22:23 — `dfphhxt` is marked edited.
+- d1 04-01 22:25 — `62vzuv` is marked edited.
+- d1 04-01 22:49 — `dfpihik` is marked edited.
+- d1 04-01 22:55 — `62w5vw` is marked edited.
+- d1 04-01 23:24 — `dfpjvri` is marked edited.
+- d1 04-01 23:38 — `62we8f` is marked edited.
+- d1 04-02 00:25 — `62wnbf` is marked edited.
+- d1 04-02 00:33 — `62woxa` is marked edited.
+- d1 04-02 01:33 — `62wzzt` is marked edited.
+- d1 04-02 01:40 — `62x14u` is marked edited.
+- d1 04-02 02:26 — `dfpqyh8` is marked edited.
+- d1 04-02 03:43 — `dfpto9i` is marked edited.
+- d2 04-02 20:39 — `dfqoqqe` is marked edited; its body is deleted.
+- d3 04-03 20:39 — `dfsaunr` is moderator-distinguished and carries an automatic Malvinas/Falklands search notice.
+
+- d1 04-02 06:04 — `dfpxrxt` is marked edited.
+- d1 04-02 07:20 — `62yeya` is marked edited.
+- d1 04-02 07:46 — `dfq005r` is marked edited.
+- d1 04-02 11:09 — `62z3wi` is marked edited; its body is deleted.
+- d1 04-02 11:17 — `dfq3l2z` is marked edited.
+- d1 04-02 13:36 — `62znnb` is marked edited; its body is removed.
+- d1 04-02 14:57 — `dfq9evr` is marked edited.
+- d2 04-02 18:45 — `dfqjkgn` is marked edited.
+- d2 04-02 23:04 — `dfqvh8w` is marked edited.
+- d2 04-02 18:02 — `dfqhjd2` is marked edited.
+- d2 04-02 18:11 — `dfqhyb6` is marked edited.
+- d2 04-02 19:13 — `dfqkuk3` is marked edited.
+- d2 04-02 19:33 — `dfqlsom` is marked edited.
+- d2 04-02 20:13 — `dfqnlfj` is marked edited.
+- d2 04-02 20:20 — `631zba` is marked edited; its body is removed.
+- d2 04-02 20:35 — `dfqojwq` is marked edited.
+- d2 04-02 21:54 — `dfqs2i5` is marked edited.
+- d2 04-02 22:04 — `632l5t` is marked edited; its body is removed.
+- d2 04-02 22:57 — `dfqv3ur` is marked edited.
+- d2 04-03 02:52 — `dfr6n1g` is marked edited.
+- d2 04-02 23:45 — `6335k9` is marked edited.
+- d2 04-03 01:34 — `dfr2pke` is marked edited.
+- d2 04-03 03:14 — `6348si` is marked edited.
+- d2 04-03 03:16 — `dfr7u33` is marked edited.
+- d2 04-03 04:54 — `dfrbzbw` is marked edited; its body is deleted.
+- d2 04-03 12:34 — `dfrn80y` is marked edited.
+- d2 04-03 12:59 — `636lhk` is marked edited; its body is removed.
+- d2 04-03 13:08 — `dfrofww` is marked edited.
+- d2 04-03 13:31 — `dfrpcnd` is marked edited.
+- d2 04-03 13:46 — `dfrpyoa` is marked edited.
+- d3 04-03 16:44 — `dfrypac` is marked edited.
+- d3 04-03 22:42 — `dfsh5pi` is marked edited.
+- d3 04-04 01:17 — `dfsosam` is marked edited.
+- d3 04-03 16:13 — `637rtd` is marked edited.
+- d3 04-03 16:31 — `637vpv` is marked edited.
+- d3 04-03 17:04 — `dfrzozr` is marked edited.
+- d3 04-03 17:20 — `dfs0i3s` is marked edited.
+- d3 04-03 17:52 — `dfs28oa` is marked edited.
+- d3 04-03 18:02 — `dfs2rv9` is marked edited.
+- d3 04-03 20:07 — `dfs96c6` is marked edited.
+- d3 04-03 17:30 — `dfs113c` is marked edited.
+- d3 04-03 18:56 — `638ubt` is marked edited; its body is removed.
+- d3 04-03 19:56 — `dfs8lfh` is marked edited.
+- d3 04-03 19:58 — `639761` is marked edited.
+- d3 04-03 20:23 — `dfs9yt5` is marked edited.
+- d3 04-03 23:17 — `dfsiuiz` is marked edited.
+- d3 04-04 02:16 — `dfsrqa9` is marked edited.
+- d3 04-04 11:19 — `dft74h1` is marked edited.
+- d3 04-03 21:05 — `dfsc6ll` is marked edited.
+- d3 04-04 00:03 — `63ap09` is marked edited; its body is removed.
+- d3 04-04 00:04 — `63ap4c` is marked edited.
+- d3 04-04 00:20 — `dfslygo` is marked edited.
+- d3 04-04 02:57 — `63blp2` is marked edited.
+- d3 04-04 05:07 — `dfsysye` is marked edited.
+- d3 04-04 13:02 — `63dykv` is marked edited.
+- d4 04-04 16:07 — `dftjkt2` is marked edited.
+- d4 04-04 16:41 — `dftli1m` is marked edited; its body is removed.
+- d4 04-04 16:50 — `63fbqp` is marked edited.

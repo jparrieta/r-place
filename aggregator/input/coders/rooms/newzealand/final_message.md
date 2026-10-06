@@ -1,0 +1,1 @@
+r/newzealand — branch B — verdict: full. Saturation: late slices extended existing practices without founding new themes. Saturation: removals, images, slice boundaries, and off-platform coordination limit completeness. Blockers: none.

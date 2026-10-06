@@ -1,0 +1,95 @@
+# timeline — r/ireland
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+~~- d0 03-31 21:48 — dfo362v was edited; it gives directions for expanding the flag and a direct r/place link.~~
+- d0 03-31 21:48 — dfo362v was edited.
+- d0 03-31 23:56 — dfo8wtd was edited.
+- d0 04-01 04:39 — 62qnh2 was edited.
+- d0 04-01 08:59 — dfoqgkr was edited.
+- d0 04-01 10:34 — dfos65j was edited.
+- d0 04-01 11:26 — dfot53d was edited.
+- d0 04-01 11:33 — dfot9j3 was edited.
+- d0 04-01 11:58 — dfottb8 was edited.
+- d0 04-01 12:34 — 62sfy2 was edited.
+- d0 04-01 12:49 — dfov3th was edited.
+- d0 04-01 13:52 — dfox08i was edited.
+- d0 04-01 14:23 — dfoy2x9 was edited.
+- d1 04-01 17:37 — dfp61uj was edited.
+- d1 04-01 21:48 — dfpg592 was edited.
+- d1 04-01 23:12 — dfpjfgy was edited.
+- d1 04-02 08:44 — 62yo4c was edited.
+- d1 04-02 09:48 — dfq24k8 was edited.
+- d1 04-02 09:48 — dfq24pb was edited.
+- d1 04-02 13:20 — dfq6a2y was edited.
+- d2 04-02 18:18 — dfqi9rc was edited.
+- d2 04-02 18:40 — dfqjb89 was edited.
+- d2 04-02 18:45 — 631ef2 was edited.
+- d2 04-02 18:52 — dfqjwpl was edited.
+- d2 04-02 19:01 — dfqkaj8 was edited.
+- d2 04-02 19:10 — dfqkprt was edited.
+- d2 04-02 19:54 — dfqmq2j was edited.
+- d2 04-02 20:16 — dfqnp6s was edited.
+- d2 04-02 20:17 — dfqnrdo was edited.
+- d2 04-02 20:21 — dfqnxke was edited.
+- d2 04-02 21:52 — dfqrznc was edited.
+- d2 04-02 22:18 — dfqt7v6 was edited.
+- d2 04-02 22:35 — dfqu2ag was edited.
+- d2 04-02 22:39 — dfqua5n was edited.
+- d2 04-02 23:16 — dfqw02j was edited.
+- d2 04-03 01:09 — dfr1fml was edited.
+- d2 04-03 12:17 — dfrmo9u was edited.
+- d2 04-03 12:35 — dfrn9ob was edited.
+- d2 04-03 13:11 — dfrojgy was edited.
+- d2 04-03 13:26 — dfrp4n0 was edited.
+- d2 04-03 13:29 — dfrp8g8 was edited.
+- d2 04-03 13:40 — dfrppxt was edited.
+- d2 04-03 14:13 — 6370oz was edited.
+- d2 04-03 14:27 — dfrrtf0 was edited.
+- d2 04-03 14:51 — dfrszis was edited.
+- d2 04-03 15:24 — dfrun0t was edited.
+- d2 04-03 15:52 — dfrw2sl was edited.
+- d3 04-03 16:22 — dfrxku0 was edited.
+- d3 04-03 16:32 — 637vx6 was edited.
+- d3 04-03 16:45 — dfrypwq was edited.
+- d3 04-03 16:55 — dfrz8rd was moderator-distinguished.
+- d3 04-03 16:59 — dfrzgeh was edited.
+- d3 04-03 17:00 — dfrzia8 was stickied and moderator-distinguished.
+- d3 04-03 17:02 — dfrzl9a was stickied and moderator-distinguished.
+- d3 04-03 17:08 — dfrzvg4 was edited.
+- d3 04-03 17:19 — dfs0gq2 was edited.
+- d3 04-03 17:21 — dfs0l4i was edited.
+- d3 04-03 17:25 — dfs0sq4 was edited.
+- d3 04-03 17:46 — dfs1wqe was edited.
+- d3 04-03 18:50 — 638sqx was edited.
+- d3 04-03 19:05 — dfs63n5 was moderator-distinguished and edited.
+- d3 04-03 19:10 — dfs6c62 was edited.
+- d3 04-03 19:26 — dfs71w9 was edited.
+- d3 04-03 19:47 — 63950c was edited.
+- d3 04-03 19:49 — dfs88ge was edited.
+- d3 04-03 19:58 — dfs8pew was edited.
+- d3 04-03 20:17 — dfs9ox5 was edited.
+- d3 04-03 20:31 — dfsaevq was edited.
+- d3 04-03 20:34 — dfsakf8 was edited.
+- d3 04-03 20:34 — 639et2 was edited.
+- d3 04-03 20:55 — dfsbo12 was stickied, moderator-distinguished, and edited.
+- d3 04-03 21:02 — dfsc16u was edited.
+- d3 04-03 21:20 — dfsczs6 was edited.
+- d3 04-03 21:42 — 639vhh was edited.
+- d3 04-03 22:11 — 63a2d4 was edited.
+- d3 04-03 22:16 — 63a3ah was edited.
+- d3 04-03 23:05 — dfsi990 was edited.
+- d3 04-03 23:42 — dfsk0ub was edited.
+- d3 04-04 00:00 — dfskvae was edited.
+- d3 04-04 00:04 — dfsl3df was edited.
+- d3 04-04 00:24 — dfsm4h3 was edited.
+- d3 04-04 00:38 — dfsmujg was edited.
+- d3 04-04 01:05 — dfso5lw was edited.
+- d3 04-04 01:16 — dfsop4t was edited.
+- d3 04-04 08:49 — dft42df was edited.
+- d3 04-04 11:47 — dft7uom was edited.
+- d3 04-04 12:52 — dfta0np was edited.
+- d3 04-04 12:52 — dfta11j was edited.
+- d3 04-04 12:55 — 63dx6g was edited.
+- d3 04-04 14:35 — dfteltk was edited.
+- d3 04-04 14:53 — dftfidh was edited.

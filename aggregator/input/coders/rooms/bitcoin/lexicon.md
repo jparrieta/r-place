@@ -1,0 +1,65 @@
+# lexicon — r/bitcoin
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- long con — dfnl2ue
+- blue brigade — dfo0j6r
+- pixel corruption — dfo30kk
+- HODL THE LIEN — dfo966j
+- pixel billionaires — dfojb5q
+- Rick Rollin and trollin — dfogiow
+- spoonnet — dfolwxh
+- Bitcoin Unlimited Money — dfor3ur
+- Bitcoin wizard — 62rms3
+- Bitcoin expert — 62rps1
+- expert elite — dforg7n
+- Moon% — dfozgpo
+- sexpert — dfotoiw
+- shiny new bitcoin expert tag — 62s5n0
+- Bitcoin MOAR — 62s7bt
+- Deregulation By Obfuscation — 62s7bt
+- Emergent Blockchain — 62s7bt
+- Emergent Block Rewards — dfp68z4
+- Steady Hodling the orange — dfpibsg
+- pixel power — dfqv5kr
+- bitcom — dfrzqo5
+- zombie bot — dfsa9vl
+- SegWit banner — dfp1zlh
+- Orge noise — dfp1zlh
+- Curly — dfp4ckz
+- CryptoFR — dfp4we8
+- rainbowroad — dfpz7gl
+- pot of gold — dfp899v
+- inner orange — dfp9zsi
+- Make Bitcoin Fabulous Again — dfpap0d
+- Hodlongterm — 62vnee
+- Slayer of Fiat — 62vnee
+- French invasion — 62w1yp
+- HODL FELLOW SPARTAN — dfpl8fr
+- OneCoin — dfpycua
+- logo hardforked — dfqgab9
+- bitcoin flag — dfq22yt
+- French Mega Man — dfq2flx
+- taskbar — 62yxju
+- place clone — 62z3aa
+- autoplace script — dfq3qei
+- battle plan — 630byj
+- hodl strong — 630hat
+- TOTAL ORANGE — dfqehp5
+- infighting — dfqciho
+- whale train — dfqikjn
+- bitcoining — 631uzu
+- CONbase — 631vc6
+- r/BitcoinPlace — dfqs4fs
+- autonomous war — dfqvzx9
+- forking the logo — dfri0nx
+- stage 4 — dfr7ccf
+- Germoney — dfriauq
+- titcoin — dfriox6
+- our territory — dfrx7kb
+- r/place unlimited — dfsa687
+- titcoio — dfs82gk
+- titcum — dfs82gk
+- Bitcoirr — dfseqah
+- bitcoiπ — dfsm3hf
+- Economic Majority Bitches — 63ctev

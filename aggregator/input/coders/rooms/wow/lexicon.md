@@ -1,0 +1,83 @@
+# lexicon — r/wow
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- 3 chested — dfnl787
+- subbier — dfnn2su
+- Garroshcare — dfo1gss
+- slow-off — dfoa8iv
+- RNG Knights — dfoshee
+- beacon farming — dfnr7qk
+- cone nipple race — dfnqgtb
+- fixerino — 62nf48
+- face-roll — 62nimp
+- Citizens of Dalaran — 62ol0u
+- Dalaran meme — dfo4slz
+- DBM — dfo5rn4
+- /dbm rhonin — dfomqfl
+- Black Piglet — 62otxr
+- B'Motes — 62ovy9
+- World of Reddit — dfohgpf
+- mod shitpost — dfoj04w
+- tentacle pope — dfoj4b2
+- Chicken Furry — dfoj7uw
+- Five Buttons of Justice — dfokqky
+- B O O M K I N — dfol0hc
+- Ben Affliction — dfow2wr
+- fun quests — dfonri2
+- Vaping Panda — dfow33z
+- BlizzCon Textual Attendance — 62rk9m
+- FAKE Stats — dfoqooh
+- feel salt police — dfotuhm
+- Town Hall — dfozjlt
+- Did somebody say — dfoyc0e
+- Odyn's Hero — 62s0lf
+- Through the Fel and Flames — dfoslja
+- OVERCHARTED — dfovpq6
+- UNDERCHARTED — dfovqxo
+- r/place raid — 62t4zs
+- too much aggro — 62t4zs
+- Dadgar — dfp1xl1
+- Mythic+ score — 62tsag
+- GearScore joke — dfp3hnd
+- Spooky Undead Axe Midget — 62vg3e
+- pixal cooldowns — dfqfwsa
+- Rustacrean — dfqmnc2
+- bot power — dfqgte4
+- relinquished tokens — dfpygue
+- Inky Black Potion — 62ycoy
+- big canvas — dfq67rw
+- tagged to shitistan and back — dfqwlvz
+- leggy — 6317u0
+- over enthousiastic puppy — dfri5q9
+- faction tagging — 632q4n
+- 5 man per mob tagging — dfr31xr
+- An Impossible Foe — 635b1x
+- Thwarting the Twins — 635epc
+- The Highlord's Return — 635eme
+- Gul'daddy — 6363t1
+- flamereaper — 6367k9
+- Dark Souls mural — dfrp93u
+- Praise the Sun — dfrpdyr
+- MENTAL MELTDOWN MONDAY — 636va0
+- homeland — dfrr4ry
+- blue corner — dfruya8
+- reddit place harder — 6375um
+- make our mark — 637btp
+- letting the mob decide — dfrw1yv
+- AP Tome — 639fc9
+- fun detected — dfsdcng
+- fun policing — dfsbszd
+- mut rogues — 63a6lj
+- at night — 63a9ez
+- Evergreen — 63axyt
+- Thornstalk Barbs — 63axyt
+- Closing the Eye — 63citd
+- BLP — dft20rm
+- WoW logo — dft35p4
+- Magetowerbuff — 63cwz2
+- Multibotter — 63d2jp
+- Explosive affix — 63ezdp
+- Fel Explosives — 63f5r1
+- Knowledgeable buff — 63f9ev
+- brawl — 63f71k

@@ -1,0 +1,1724 @@
+{
+ "stargate": {
+  "counts": {
+   "threads_given": 9,
+   "threads_with_codes": 9,
+   "items": 145,
+   "coded": 52,
+   "bridge": 21,
+   "removed": 0,
+   "dropped": 72,
+   "orphans": 0,
+   "na_stretches": 19,
+   "coverage_of_coded_items": 0.85,
+   "threads_total_in_window": 53
+  },
+  "index": {
+   "62pqpl": {
+    "0": {
+     "thread_id": "62pqpl",
+     "item_id": "62pqpl",
+     "parent_id": null,
+     "author": "tauriwoman",
+     "created_utc": 1491010491,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "posting a fake Richard Dean Anderson death announcement"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "link_flair_text": "Confirmed",
+      "retrieved_on": 1492477533
+     }
+    }
+   },
+   "62prbb": {
+    "0": {
+     "thread_id": "62prbb",
+     "item_id": "62prbb",
+     "parent_id": null,
+     "author": "tauriwoman",
+     "created_utc": 1491010677,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "posting the fake death announcement again"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1492477581
+     }
+    },
+    "1": {
+     "thread_id": "62prbb",
+     "item_id": "dfodqme",
+     "parent_id": "62prbb",
+     "author": "samsg1",
+     "created_utc": 1491011411,
+     "dt_parent_sec": 734,
+     "dt_thread_sec": 734,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": -6,
+      "author_flair_text": "You know, you blow up one sun..",
+      "retrieved_on": 1493695753
+     }
+    },
+    "1.1": {
+     "thread_id": "62prbb",
+     "item_id": "dfoifag",
+     "parent_id": "dfodqme",
+     "author": "KatMonster",
+     "created_utc": 1491018648,
+     "dt_parent_sec": 7237,
+     "dt_thread_sec": 7971,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "asking for the unfunny April Fools post to be removed"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493698020
+     }
+    },
+    "2": {
+     "thread_id": "62prbb",
+     "item_id": "dfoe9c7",
+     "parent_id": "62prbb",
+     "author": "DeadlySphinx",
+     "created_utc": 1491012162,
+     "dt_parent_sec": 1485,
+     "dt_thread_sec": 1485,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "reading to the bottom and calling it a pretty shit April Fools joke"
+     ],
+     "sequence": [
+      "c0003"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "edited": 1491013372,
+      "score": 19,
+      "retrieved_on": 1493696004
+     }
+    },
+    "3": {
+     "thread_id": "62prbb",
+     "item_id": "dfogs6g",
+     "parent_id": "62prbb",
+     "author": "bowserusc",
+     "created_utc": 1491015908,
+     "dt_parent_sec": 5231,
+     "dt_thread_sec": 5231,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "saying the mods went too far by stickying and confirming the death"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493697225
+     }
+    },
+    "4": {
+     "thread_id": "62prbb",
+     "item_id": "dfr1t1q",
+     "parent_id": "62prbb",
+     "author": "SenorMasterChef",
+     "created_utc": 1491182220,
+     "dt_parent_sec": 171543,
+     "dt_thread_sec": 171543,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "listing three reasons the fake death failed as a joke"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 0.91,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493742396
+     }
+    }
+   },
+   "62r139": {
+    "0": {
+     "thread_id": "62r139",
+     "item_id": "62r139",
+     "parent_id": null,
+     "author": "samsg1",
+     "created_utc": 1491026745,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0007",
+      "c0008"
+     ],
+     "labels": [
+      "apologizing for the terrible joke and unstickying and unflairing it",
+      "offering text user flairs and a kitten as a peace offering"
+     ],
+     "sequence": [
+      "na",
+      "c0007",
+      "c0008",
+      "na"
+     ],
+     "coverage": 0.87,
+     "meta": {
+      "stickied": true,
+      "edited": 1491092591,
+      "score": 48,
+      "author_flair_text": "You know, you blow up one sun..",
+      "retrieved_on": 1492478497
+     }
+    },
+    "1": {
+     "thread_id": "62r139",
+     "item_id": "dfp0mpr",
+     "parent_id": "62r139",
+     "author": "Xzocka",
+     "created_utc": 1491060534,
+     "dt_parent_sec": 33789,
+     "dt_thread_sec": 33789,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493706790
+     }
+    },
+    "1.1": {
+     "thread_id": "62r139",
+     "item_id": "dfp11u9",
+     "parent_id": "dfp0mpr",
+     "author": "samsg1",
+     "created_utc": 1491061126,
+     "dt_parent_sec": 592,
+     "dt_thread_sec": 34381,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "abandoning the requested Wormhole X-Treme change because it would not surprise anyone"
+     ],
+     "sequence": [
+      "c0009",
+      "na"
+     ],
+     "coverage": 0.84,
+     "meta": {
+      "edited": 1491061330,
+      "score": 5,
+      "author_flair_text": "You know, you blow up one sun..",
+      "retrieved_on": 1493706992
+     }
+    },
+    "2": {
+     "thread_id": "62r139",
+     "item_id": "dfp3nt1",
+     "parent_id": "62r139",
+     "author": "RigasTelRuun",
+     "created_utc": 1491064817,
+     "dt_parent_sec": 38072,
+     "dt_thread_sec": 38072,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "asking how anyone thought the fake death would be funny"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 42,
+      "retrieved_on": 1493708249
+     }
+    },
+    "2.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpbxyz",
+     "parent_id": "dfp3nt1",
+     "author": "TJ1800",
+     "created_utc": 1491076958,
+     "dt_parent_sec": 12141,
+     "dt_thread_sec": 50213,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "defending April Fools browsing as requiring double-checking"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "Indeed",
+      "retrieved_on": 1493712242
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpcj55",
+     "parent_id": "dfpbxyz",
+     "author": "RigasTelRuun",
+     "created_utc": 1491077850,
+     "dt_parent_sec": 892,
+     "dt_thread_sec": 51105,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "saying a positive Stargate sub should not run the joke"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493712526
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpd1bb",
+     "parent_id": "dfpcj55",
+     "author": "TJ1800",
+     "created_utc": 1491078613,
+     "dt_parent_sec": 763,
+     "dt_thread_sec": 51868,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Indeed",
+      "retrieved_on": 1493712770
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpdfa8",
+     "parent_id": "dfpd1bb",
+     "author": "RigasTelRuun",
+     "created_utc": 1491079203,
+     "dt_parent_sec": 590,
+     "dt_thread_sec": 52458,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "proposing wormholes or SGU season 3 as better joke targets"
+     ],
+     "sequence": [
+      "c0013",
+      "na"
+     ],
+     "coverage": 0.57,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493712957
+     }
+    },
+    "3": {
+     "thread_id": "62r139",
+     "item_id": "dfp8x69",
+     "parent_id": "62r139",
+     "author": "yellowtag",
+     "created_utc": 1491072418,
+     "dt_parent_sec": 45673,
+     "dt_thread_sec": 45673,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493710784
+     }
+    },
+    "3.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpa5pr",
+     "parent_id": "dfp8x69",
+     "author": "Tokeli",
+     "created_utc": 1491074284,
+     "dt_parent_sec": 1866,
+     "dt_thread_sec": 47539,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493711380
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpbl27",
+     "parent_id": "dfpa5pr",
+     "author": "TJ1800",
+     "created_utc": 1491076419,
+     "dt_parent_sec": 2135,
+     "dt_thread_sec": 49674,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491078669,
+      "score": 2,
+      "author_flair_text": "Indeed",
+      "retrieved_on": 1493712068
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpdtnv",
+     "parent_id": "dfpbl27",
+     "author": "duschdecke",
+     "created_utc": 1491079801,
+     "dt_parent_sec": 3382,
+     "dt_thread_sec": 53056,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493713151
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpel3s",
+     "parent_id": "dfpdtnv",
+     "author": "TJ1800",
+     "created_utc": 1491080951,
+     "dt_parent_sec": 1150,
+     "dt_thread_sec": 54206,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Indeed",
+      "retrieved_on": 1493713524
+     }
+    },
+    "3.1.1.1.1.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpg0pa",
+     "parent_id": "dfpel3s",
+     "author": "yellowtag",
+     "created_utc": 1491083145,
+     "dt_parent_sec": 2194,
+     "dt_thread_sec": 56400,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "rewriting the death as an obviously silly C4 accident"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493714215
+     }
+    },
+    "3.1.1.1.1.1.1": {
+     "thread_id": "62r139",
+     "item_id": "dfpgvqm",
+     "parent_id": "dfpg0pa",
+     "author": "TonksMoriarty",
+     "created_utc": 1491084475,
+     "dt_parent_sec": 1330,
+     "dt_thread_sec": 57730,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "agreeing the silly C4 version would have been good"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493714633
+     }
+    }
+   },
+   "62tw6j": {
+    "0": {
+     "thread_id": "62tw6j",
+     "item_id": "62tw6j",
+     "parent_id": null,
+     "author": "gefroy",
+     "created_utc": 1491065504,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "asking the sub to draft and draw something Stargate together"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 51,
+      "retrieved_on": 1494549912
+     }
+    },
+    "1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfp4acn",
+     "parent_id": "62tw6j",
+     "author": "DemIce",
+     "created_utc": 1491065716,
+     "dt_parent_sec": 212,
+     "dt_thread_sec": 212,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "drafting a 32x32 Stargate with the r/place palette"
+     ],
+     "sequence": [
+      "c0017"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491084526,
+      "score": 19,
+      "retrieved_on": 1493708550
+     }
+    },
+    "1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfp68oq",
+     "parent_id": "dfp4acn",
+     "author": "gefroy",
+     "created_utc": 1491068529,
+     "dt_parent_sec": 2813,
+     "dt_thread_sec": 3025,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "asking to add st\u00e5rg\u00e5te as a secondary objective"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493709491
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfp6l2h",
+     "parent_id": "dfp68oq",
+     "author": "DemIce",
+     "created_utc": 1491069032,
+     "dt_parent_sec": 503,
+     "dt_thread_sec": 3528,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "looking for a quiet place while almost every spot is taken"
+     ],
+     "sequence": [
+      "na",
+      "c0019"
+     ],
+     "coverage": 0.47,
+     "meta": {
+      "edited": 1491084537,
+      "score": 5,
+      "retrieved_on": 1493709656
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpecgl",
+     "parent_id": "dfp6l2h",
+     "author": "rooood",
+     "created_utc": 1491080585,
+     "dt_parent_sec": 11553,
+     "dt_thread_sec": 15081,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493713406
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpgtet",
+     "parent_id": "dfpecgl",
+     "author": "gefroy",
+     "created_utc": 1491084376,
+     "dt_parent_sec": 3791,
+     "dt_thread_sec": 18872,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "agreeing to join but asking for coordinates"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493714600
+     }
+    },
+    "2": {
+     "thread_id": "62tw6j",
+     "item_id": "dfp8tff",
+     "parent_id": "62tw6j",
+     "author": "Addsyde",
+     "created_utc": 1491072270,
+     "dt_parent_sec": 6766,
+     "dt_thread_sec": 6766,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "adding yellow to a small circle and calling to pool resources"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493710733
+     }
+    },
+    "2.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpgr71",
+     "parent_id": "dfp8tff",
+     "author": "DemIce",
+     "created_utc": 1491084284,
+     "dt_parent_sec": 12014,
+     "dt_thread_sec": 18780,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "redirecting everyone to join the Green Lattice land effort"
+     ],
+     "sequence": [
+      "c0021",
+      "na"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "edited": 1491089522,
+      "score": 2,
+      "retrieved_on": 1493714571
+     }
+    },
+    "3": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpd3n0",
+     "parent_id": "62tw6j",
+     "author": "StarkillerX42",
+     "created_utc": 1491078709,
+     "dt_parent_sec": 13205,
+     "dt_thread_sec": 13205,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493712801
+     }
+    },
+    "3.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpihw9",
+     "parent_id": "dfpd3n0",
+     "author": "notanimposter",
+     "created_utc": 1491086983,
+     "dt_parent_sec": 8274,
+     "dt_thread_sec": 21479,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493715416
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpixhc",
+     "parent_id": "dfpihw9",
+     "author": "DemIce",
+     "created_utc": 1491087622,
+     "dt_parent_sec": 639,
+     "dt_thread_sec": 22118,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "expecting destruction inside Green Lattice's asserted domain"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715626
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpj3cf",
+     "parent_id": "dfpixhc",
+     "author": "notanimposter",
+     "created_utc": 1491087865,
+     "dt_parent_sec": 243,
+     "dt_thread_sec": 22361,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715706
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpjb2p",
+     "parent_id": "dfpj3cf",
+     "author": "DemIce",
+     "created_utc": 1491088188,
+     "dt_parent_sec": 323,
+     "dt_thread_sec": 22684,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "suggesting asking Green Lattice for reserved space and help"
+     ],
+     "sequence": [
+      "na",
+      "c0024"
+     ],
+     "coverage": 0.44,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715810
+     }
+    },
+    "3.1.1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpjd7w",
+     "parent_id": "dfpjb2p",
+     "author": "notanimposter",
+     "created_utc": 1491088276,
+     "dt_parent_sec": 88,
+     "dt_thread_sec": 22772,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493715838
+     }
+    },
+    "3.1.1.1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpjnfa",
+     "parent_id": "dfpjd7w",
+     "author": "DemIce",
+     "created_utc": 1491088713,
+     "dt_parent_sec": 437,
+     "dt_thread_sec": 23209,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715975
+     }
+    },
+    "3.1.1.1.1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpjpk3",
+     "parent_id": "dfpjnfa",
+     "author": "notanimposter",
+     "created_utc": 1491088807,
+     "dt_parent_sec": 94,
+     "dt_thread_sec": 23303,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493716004
+     }
+    },
+    "3.1.1.1.1.1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpjuko",
+     "parent_id": "dfpjpk3",
+     "author": "DemIce",
+     "created_utc": 1491089024,
+     "dt_parent_sec": 217,
+     "dt_thread_sec": 23520,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493716070
+     }
+    },
+    "3.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpk2r4",
+     "parent_id": "dfpjuko",
+     "author": "notanimposter",
+     "created_utc": 1491089364,
+     "dt_parent_sec": 340,
+     "dt_thread_sec": 23860,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493716181
+     }
+    },
+    "3.1.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfprbnf",
+     "parent_id": "dfpk2r4",
+     "author": "DemIce",
+     "created_utc": 1491100557,
+     "dt_parent_sec": 11193,
+     "dt_thread_sec": 35053,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "watching the lattice overtake Link and expecting to be next"
+     ],
+     "sequence": [
+      "na",
+      "c0025"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "edited": 1491102885,
+      "score": 1,
+      "retrieved_on": 1493719693
+     }
+    },
+    "3.1.1.1.1.1.1.1.1.1.1.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpuazw",
+     "parent_id": "dfprbnf",
+     "author": "notanimposter",
+     "created_utc": 1491105803,
+     "dt_parent_sec": 5246,
+     "dt_thread_sec": 40299,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "waiting for the lattice and preparing a resized design after erasure"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "edited": 1491106067,
+      "score": 2,
+      "retrieved_on": 1493721134
+     }
+    },
+    "4": {
+     "thread_id": "62tw6j",
+     "item_id": "dfprqgl",
+     "parent_id": "62tw6j",
+     "author": "EksCelle",
+     "created_utc": 1491101263,
+     "dt_parent_sec": 35759,
+     "dt_thread_sec": 35759,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "saving the event horizon for last to animate activation"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493719893
+     }
+    },
+    "5": {
+     "thread_id": "62tw6j",
+     "item_id": "dfptknh",
+     "parent_id": "62tw6j",
+     "author": "annonimusone",
+     "created_utc": 1491104431,
+     "dt_parent_sec": 38927,
+     "dt_thread_sec": 38927,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "asking whether to use JavaScript to draw"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493720781
+     }
+    },
+    "5.1": {
+     "thread_id": "62tw6j",
+     "item_id": "dfpwcds",
+     "parent_id": "dfptknh",
+     "author": "DemIce",
+     "created_utc": 1491109801,
+     "dt_parent_sec": 5370,
+     "dt_thread_sec": 44297,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "weighing a GitHub script against falling back to the chevron"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493722117
+     }
+    },
+    "6": {
+     "thread_id": "62tw6j",
+     "item_id": "dfredxi",
+     "parent_id": "62tw6j",
+     "author": "MasterGeekMX",
+     "created_utc": 1491199931,
+     "dt_parent_sec": 134427,
+     "dt_thread_sec": 134427,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "falling back to a little chevron with stargate written below"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493749078
+     }
+    }
+   },
+   "62yuud": {
+    "0": {
+     "thread_id": "62yuud",
+     "item_id": "62yuud",
+     "parent_id": null,
+     "author": "zirkon0999",
+     "created_utc": 1491126475,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "calling everyone together to make a Stargate or SG-1 patch"
+     ],
+     "sequence": [
+      "na",
+      "c0031"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494552398
+     }
+    },
+    "1": {
+     "thread_id": "62yuud",
+     "item_id": "dfq7txf",
+     "parent_id": "62yuud",
+     "author": "DemIce",
+     "created_utc": 1491142364,
+     "dt_parent_sec": 15889,
+     "dt_thread_sec": 15889,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "recounting that their first attempt was obliterated and stalled"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493727658
+     }
+    },
+    "2": {
+     "thread_id": "62yuud",
+     "item_id": "dfq9jms",
+     "parent_id": "62yuud",
+     "author": "Fairgrim",
+     "created_utc": 1491145274,
+     "dt_parent_sec": 18799,
+     "dt_thread_sec": 18799,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "watching Green Lattice fill in a ring with four or five chevrons"
+     ],
+     "sequence": [
+      "c0033"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493728484
+     }
+    },
+    "2.1": {
+     "thread_id": "62yuud",
+     "item_id": "dfqczq8",
+     "parent_id": "dfq9jms",
+     "author": "DemIce",
+     "created_utc": 1491150207,
+     "dt_parent_sec": 4933,
+     "dt_thread_sec": 23732,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "building much smaller because they lack numbers and calm space"
+     ],
+     "sequence": [
+      "na",
+      "c0034"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493730146
+     }
+    }
+   },
+   "630pfx": {
+    "0": {
+     "thread_id": "630pfx",
+     "item_id": "630pfx",
+     "parent_id": null,
+     "author": "3dDeters",
+     "created_utc": 1491151920,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0035",
+      "c0036"
+     ],
+     "labels": [
+      "scaling down to just the Earth point of origin",
+      "cycling through locations and failing to get a taskbar icon"
+     ],
+     "sequence": [
+      "c0035",
+      "na",
+      "c0036",
+      "na"
+     ],
+     "coverage": 0.43,
+     "meta": {
+      "edited": 1491165073,
+      "score": 41,
+      "retrieved_on": 1494553323
+     }
+    },
+    "1": {
+     "thread_id": "630pfx",
+     "item_id": "dfqgw8w",
+     "parent_id": "630pfx",
+     "author": "DemIce",
+     "created_utc": 1491155330,
+     "dt_parent_sec": 3410,
+     "dt_thread_sec": 3410,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "saying the earlier design is too big to maintain"
+     ],
+     "sequence": [
+      "na",
+      "c0037"
+     ],
+     "coverage": 0.7,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493732029
+     }
+    },
+    "1.1": {
+     "thread_id": "630pfx",
+     "item_id": "dfqhnxb",
+     "parent_id": "dfqgw8w",
+     "author": "3dDeters",
+     "created_utc": 1491156317,
+     "dt_parent_sec": 987,
+     "dt_thread_sec": 4397,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "trying the small triangle with one or two dozen people anyway"
+     ],
+     "sequence": [
+      "c0038"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493732400
+     }
+    },
+    "2": {
+     "thread_id": "630pfx",
+     "item_id": "dfqltci",
+     "parent_id": "630pfx",
+     "author": "SmoothOperator89",
+     "created_utc": 1491161626,
+     "dt_parent_sec": 9706,
+     "dt_thread_sec": 9706,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "placing two pixels and calling for backup"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734412
+     }
+    },
+    "3": {
+     "thread_id": "630pfx",
+     "item_id": "dfqlyej",
+     "parent_id": "630pfx",
+     "author": "Sonicdemon86",
+     "created_utc": 1491161805,
+     "dt_parent_sec": 9885,
+     "dt_thread_sec": 9885,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "calling for more people to finish the symbol"
+     ],
+     "sequence": [
+      "c0040"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734480
+     }
+    },
+    "4": {
+     "thread_id": "630pfx",
+     "item_id": "dfqmt5c",
+     "parent_id": "630pfx",
+     "author": "npc_barney",
+     "created_utc": 1491162979,
+     "dt_parent_sec": 11059,
+     "dt_thread_sec": 11059,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "asking Rainbow Road for help or room"
+     ],
+     "sequence": [
+      "c0041",
+      "na"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "--------- This ship - coming here - was my destiny.",
+      "retrieved_on": 1493734891
+     }
+    },
+    "5": {
+     "thread_id": "630pfx",
+     "item_id": "dfqmxii",
+     "parent_id": "630pfx",
+     "author": "TheJamboozlez",
+     "created_utc": 1491163144,
+     "dt_parent_sec": 11224,
+     "dt_thread_sec": 11224,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "recruiting the thread into EraseThePlace and its Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0042"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": -1,
+      "retrieved_on": 1493734950
+     }
+    },
+    "5.1": {
+     "thread_id": "630pfx",
+     "item_id": "dfqn3yi",
+     "parent_id": "dfqmxii",
+     "author": "Sonicdemon86",
+     "created_utc": 1491163384,
+     "dt_parent_sec": 240,
+     "dt_thread_sec": 11464,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "telling EraseThePlace to go erase the flags"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -1,
+      "retrieved_on": 1493735036
+     }
+    },
+    "6": {
+     "thread_id": "630pfx",
+     "item_id": "dfqn1ep",
+     "parent_id": "630pfx",
+     "author": "paulyskas",
+     "created_utc": 1491163288,
+     "dt_parent_sec": 11368,
+     "dt_thread_sec": 11368,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "warning that EraseThePlace will defend its triangle"
+     ],
+     "sequence": [
+      "c0043"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -2,
+      "retrieved_on": 1493735002
+     }
+    },
+    "7": {
+     "thread_id": "630pfx",
+     "item_id": "dfqn8ji",
+     "parent_id": "630pfx",
+     "author": "npc_barney",
+     "created_utc": 1491163552,
+     "dt_parent_sec": 11632,
+     "dt_thread_sec": 11632,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "abandoning a spot camped by EraseThePlace"
+     ],
+     "sequence": [
+      "c0044"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "--------- This ship - coming here - was my destiny.",
+      "retrieved_on": 1493735096
+     }
+    },
+    "8": {
+     "thread_id": "630pfx",
+     "item_id": "dfqnkio",
+     "parent_id": "630pfx",
+     "author": "3dDeters",
+     "created_utc": 1491163988,
+     "dt_parent_sec": 12068,
+     "dt_thread_sec": 12068,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "asking placeStart for a start-bar icon"
+     ],
+     "sequence": [
+      "c0045"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493735258
+     }
+    },
+    "9": {
+     "thread_id": "630pfx",
+     "item_id": "dfqrus4",
+     "parent_id": "630pfx",
+     "author": "Tinceq",
+     "created_utc": 1491169801,
+     "dt_parent_sec": 17881,
+     "dt_thread_sec": 17881,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "attempting the symbol on the Finnish flag"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493737569
+     }
+    },
+    "10": {
+     "thread_id": "630pfx",
+     "item_id": "dfqx7qg",
+     "parent_id": "630pfx",
+     "author": "DemIce",
+     "created_utc": 1491176512,
+     "dt_parent_sec": 24592,
+     "dt_thread_sec": 24592,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "finding a tiny officially sanctioned space in Green Lattice"
+     ],
+     "sequence": [
+      "c0047"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493740178
+     }
+    }
+   },
+   "633its": {
+    "0": {
+     "thread_id": "633its",
+     "item_id": "633its",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491180860,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "reporting work on a ministargate"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 0.75,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494554801
+     }
+    }
+   },
+   "6356ei": {
+    "0": {
+     "thread_id": "6356ei",
+     "item_id": "6356ei",
+     "parent_id": null,
+     "author": "DemIce",
+     "created_utc": 1491202605,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0049",
+      "c0050",
+      "c0051",
+      "c0052",
+      "c0053",
+      "c0054"
+     ],
+     "labels": [
+      "recounting a halted Green Lattice build and an EraseThePlace defeat",
+      "completing a very small Stargate with help from Samurai",
+      "limiting defenders to the yellow-dotted area inside a black border",
+      "asking defenders to preserve Green Lattice and neighboring designs",
+      "inviting defenders to animate the event horizon and chevrons",
+      "keeping larger designs open while favoring a low-maintenance safe version"
+     ],
+     "sequence": [
+      "c0049",
+      "c0050",
+      "na",
+      "c0051",
+      "c0052",
+      "na",
+      "c0053",
+      "na",
+      "c0054"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 26,
+      "retrieved_on": 1494555619
+     }
+    },
+    "1": {
+     "thread_id": "6356ei",
+     "item_id": "dfrj0wj",
+     "parent_id": "6356ei",
+     "author": "colbywolf",
+     "created_utc": 1491212729,
+     "dt_parent_sec": 10124,
+     "dt_thread_sec": 10124,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493751312
+     }
+    },
+    "1.1": {
+     "thread_id": "6356ei",
+     "item_id": "dfruwsa",
+     "parent_id": "dfrj0wj",
+     "author": "DemIce",
+     "created_utc": 1491233376,
+     "dt_parent_sec": 20647,
+     "dt_thread_sec": 30771,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493758384
+     }
+    },
+    "1.1.1": {
+     "thread_id": "6356ei",
+     "item_id": "dfsfl1n",
+     "parent_id": "dfruwsa",
+     "author": "colbywolf",
+     "created_utc": 1491257437,
+     "dt_parent_sec": 24061,
+     "dt_thread_sec": 54832,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "accepting the larger dream's end because the little Stargate survived"
+     ],
+     "sequence": [
+      "na",
+      "c0056"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493769461
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "6356ei",
+     "item_id": "dfshmu6",
+     "parent_id": "dfsfl1n",
+     "author": "DemIce",
+     "created_utc": 1491259932,
+     "dt_parent_sec": 2495,
+     "dt_thread_sec": 57327,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493770450
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "6356ei",
+     "item_id": "dft4cio",
+     "parent_id": "dfshmu6",
+     "author": "colbywolf",
+     "created_utc": 1491296680,
+     "dt_parent_sec": 36748,
+     "dt_thread_sec": 94075,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493781651
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "6356ei",
+     "item_id": "dftk3hx",
+     "parent_id": "dft4cio",
+     "author": "DemIce",
+     "created_utc": 1491322606,
+     "dt_parent_sec": 25926,
+     "dt_thread_sec": 120001,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "waiting to see which successor canvas people use before joining"
+     ],
+     "sequence": [
+      "c0057"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493790052
+     }
+    },
+    "2": {
+     "thread_id": "6356ei",
+     "item_id": "dfs272y",
+     "parent_id": "6356ei",
+     "author": "DemIce",
+     "created_utc": 1491241890,
+     "dt_parent_sec": 39285,
+     "dt_thread_sec": 39285,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "celebrating that the Stargate remained when r/place ended"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493762953
+     }
+    }
+   },
+   "63e9p9": {
+    "0": {
+     "thread_id": "63e9p9",
+     "item_id": "63e9p9",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491314466,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "claiming we managed to get something on r/place"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494560155
+     }
+    }
+   }
+  }
+ }
+}

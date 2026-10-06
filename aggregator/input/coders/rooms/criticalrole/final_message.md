@@ -1,0 +1,1 @@
+r/criticalrole — branch B; verdict: full. Thematic saturation: the final slice added no new r/place practice. Record saturation: incomplete across Discord, removed material, and divided slice readings. Blocked: nothing.

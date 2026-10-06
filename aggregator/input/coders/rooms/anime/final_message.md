@@ -1,0 +1,1 @@
+r/anime — verdict: full. Code saturation: counter-reading still uncovered substantive Emilia coordination. Theme saturation: later evidence deepened existing practices without creating new themes. Blockers: none.

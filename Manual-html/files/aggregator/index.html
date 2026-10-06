@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>The aggregator's files</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/README.md">Markdown source</a></nav>
+<h1 id="the-aggregators-files">The aggregator's files</h1>
+<p>One page per file the aggregator's run holds or uses: what the file holds, who writes it and when, why the design has it, and a link to the real file. Per-room files are described once, with r/armenia as the example. The levels below follow <a href="../../5-the-aggregator.html">the aggregator page</a>, from what governs the analyst down to the harness that runs it; <a href="../../3-how-it-was-built.html">how it was built</a> tells why each level came to exist.</p>
+<h2 id="1-what-governs">1. What governs</h2>
+<p>The analyst is given a few documents that hold at every stage, and one stage file at a time. Several documents instead of one, because each kind of rule changes at a different pace: the brief rarely, the stage files often.</p>
+<h3 id="the-documents-that-hold-at-every-stage">The documents that hold at every stage</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="contract-aggregator.html"><code>CONTRACT-aggregator.md</code></a></td>
+<td>The brief: what is true at every stage of the run.</td>
+</tr>
+<tr class="even">
+<td><a href="standing-instructions.html"><code>STANDING-INSTRUCTIONS.md</code></a></td>
+<td>What the analyst holds, the tools, its memory, and the shape of a leg.</td>
+</tr>
+<tr class="odd">
+<td><a href="method.html"><code>METHOD.md</code></a></td>
+<td>What the method says, and which shelf of literature arrives when.</td>
+</tr>
+<tr class="even">
+<td><a href="agent-md.html"><code>AGENT.md</code></a></td>
+<td>The analyst's first page: who it is, what the folder holds, and what one session may do.</td>
+</tr>
+<tr class="odd">
+<td><a href="claude-md.html"><code>CLAUDE.md</code></a></td>
+<td>The rules Claude Code loads into every analyst session, binding on every turn.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stages-steps-and-legs">Stages, steps and legs</h3>
+<p>The run is cut into stages so the analyst cannot read a later stage while answering an earlier one, and into legs so no session runs long enough to compact unseen.</p>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="stages-folder.html"><code>stages/</code></a></td>
+<td>The stage files, handed to the analyst one stage at a time.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-steps-tsv.html"><code>tools/steps.tsv</code></a></td>
+<td>Every stage and step of the run, one per line.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-steps-py.html"><code>tools/steps.py</code></a></td>
+<td>Parses stage and leg ids against <code>steps.tsv</code>.</td>
+</tr>
+<tr class="even">
+<td><a href="shelves-folder.html"><code>shelves/</code></a></td>
+<td>The literature, arriving with the stages that read it.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="documents-for-particular-stages">Documents for particular stages</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="prior-template.html"><code>PRIOR-template.md</code></a></td>
+<td>The template for <code>out/prior.md</code>, the analyst's expectations written before it can see results.</td>
+</tr>
+<tr class="even">
+<td><a href="fleet.html"><code>FLEET.md</code></a></td>
+<td>The fan-out to readers, the figures, and the return.</td>
+</tr>
+<tr class="odd">
+<td><a href="schema-adaptations.html"><code>SCHEMA-adaptations.md</code></a></td>
+<td>The types of the return: elements, operations, the ledger line, adjudication.</td>
+</tr>
+<tr class="even">
+<td><a href="handoff-templates.html"><code>handoff/</code> (RETURN-D.md, TASK-template.md, HANDLER.md)</a></td>
+<td>The templates stage D1 turns into the labelers' folder.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-what-it-holds-at-the-start">2. What it holds at the start</h2>
+<p>Everything here is built by script before stage A1, so the analyst starts by reading and never assembles its own material.</p>
+<h3 id="the-coders-package">The coders' package</h3>
+<p>The coders' sealed work, one folder per room, kept as the coders wrote it.</p>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="room-brief-md.html"><code>package/&lt;room&gt;/brief.md</code></a></td>
+<td>The coder's account of the room's pre-event week.</td>
+</tr>
+<tr class="even">
+<td><a href="room-case-md.html"><code>package/&lt;room&gt;/case.md</code></a></td>
+<td>The coder's within-case account of the room's week.</td>
+</tr>
+<tr class="odd">
+<td><a href="room-codes-jsonl.html"><code>package/&lt;room&gt;/codes.jsonl</code></a></td>
+<td>The coder's first-order concepts for one room, as written.</td>
+</tr>
+<tr class="even">
+<td><a href="room-themes-jsonl.html"><code>package/&lt;room&gt;/themes.jsonl</code></a></td>
+<td>The coder's second-order themes for one room.</td>
+</tr>
+<tr class="odd">
+<td><a href="room-threads-jsonl.html"><code>package/&lt;room&gt;/threads.jsonl</code></a></td>
+<td>The coder's disposition of every thread it looked at.</td>
+</tr>
+<tr class="even">
+<td><a href="room-pointers-jsonl.html"><code>package/&lt;room&gt;/pointers.jsonl</code></a></td>
+<td>Every mention of another place that the coder recorded in the room.</td>
+</tr>
+<tr class="odd">
+<td><a href="package-frame-md.html"><code>package/FRAME.md</code></a></td>
+<td>The frame: which rooms the run holds, dated and hashed.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-joined-store">The joined store</h3>
+<p>The same material joined across rooms in <code>package/store/</code>, so a question across seven hundred rooms is one query and not seven hundred reads.</p>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="store-readme.html"><code>package/store/README-store.md</code></a></td>
+<td>The store's dictionary: what each file is, and what none of them is.</td>
+</tr>
+<tr class="even">
+<td><a href="store-readme-neighbours.html"><code>package/store/_README-neighbours.md</code></a></td>
+<td>The neighbours file's own dictionary entry, with its counts.</td>
+</tr>
+<tr class="odd">
+<td><a href="store-readme-relations.html"><code>package/store/_README-relations.md</code></a></td>
+<td>The mention graph's dictionary entry, with its counts.</td>
+</tr>
+<tr class="even">
+<td><a href="store-readme-transitions.html"><code>package/store/_README-transitions.md</code></a></td>
+<td>The transitions ledger's dictionary entry, with its counts.</td>
+</tr>
+<tr class="odd">
+<td><a href="store-build-json.html"><code>package/store/_build.json</code></a></td>
+<td>The build record: what went into the store and what came out.</td>
+</tr>
+<tr class="even">
+<td><a href="store-retracted.html"><code>package/store/_retracted.jsonl</code></a></td>
+<td>Every concept its coder withdrew, listed and kept out of the store.</td>
+</tr>
+<tr class="odd">
+<td><a href="store-unjoined.html"><code>package/store/_unjoined.jsonl</code></a></td>
+<td>Concepts whose item the forest does not hold.</td>
+</tr>
+<tr class="even">
+<td><a href="store-codes.html"><code>package/store/codes.jsonl</code></a></td>
+<td>Every first-order concept of every room, joined.</td>
+</tr>
+<tr class="odd">
+<td><a href="store-themes.html"><code>package/store/themes.jsonl</code></a></td>
+<td>Every second-order theme of every room, with its concepts.</td>
+</tr>
+<tr class="even">
+<td><a href="store-items.html"><code>package/store/items.jsonl</code></a></td>
+<td>Every item of every coded thread, without its text.</td>
+</tr>
+<tr class="odd">
+<td><a href="store-threads.html"><code>package/store/threads.jsonl</code></a></td>
+<td>Every coded thread, its shape and the coder's disposition in one line.</td>
+</tr>
+<tr class="even">
+<td><a href="store-rooms.html"><code>package/store/rooms.jsonl</code></a></td>
+<td>One line per room of the frame: the census.</td>
+</tr>
+<tr class="odd">
+<td><a href="store-pointers.html"><code>package/store/pointers.jsonl</code></a></td>
+<td>Every pointer every coder wrote, in one file.</td>
+</tr>
+<tr class="even">
+<td><a href="store-relations.html"><code>package/store/relations.jsonl</code></a></td>
+<td>The mention graph: every room another room's coder recorded.</td>
+</tr>
+<tr class="odd">
+<td><a href="store-transitions.html"><code>package/store/transitions.jsonl</code></a></td>
+<td>The transitions ledger: every coded turn that answers a coded turn.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-build-store-py.html"><code>tools/build_store.py</code> (build script)</a></td>
+<td>Stage 00: the joined store from the coders' documents.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-relations-py.html"><code>tools/relations.py</code></a></td>
+<td>Stage 00's builder of the mention graph.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-transitions-py.html"><code>tools/transitions.py</code></a></td>
+<td>Stage 00's builder of the transitions ledger.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-forests">The forests</h3>
+<p>Each room's coded threads as reply trees, so a claim about who answered whom can be shown on the page.</p>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="trees-room-md.html"><code>trees/&lt;room&gt;.md</code></a></td>
+<td>The rendered forest of one room: its coded threads as reply trees.</td>
+</tr>
+<tr class="even">
+<td><a href="package-forest-jsonl.html"><code>package/forest.jsonl</code></a></td>
+<td>Every coded thread of every room as a reply tree, in one file.</td>
+</tr>
+<tr class="odd">
+<td><a href="package-tree-index-json.html"><code>package/tree_index.json</code></a></td>
+<td>Coordinate to item for every room, with the forest's header counts.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-canvas-and-the-neighbours">The canvas and the neighbours</h3>
+<p>What each room did on the canvas and whom it touched, kept beside the text and never mixed into it.</p>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="package-case-facts-outcome.html"><code>package/case_facts_outcome.jsonl</code></a></td>
+<td>The canvas outcome per room: the six canvas fields.</td>
+</tr>
+<tr class="even">
+<td><a href="package-pixels-csv.html"><code>package/pixels.csv</code></a></td>
+<td>Placements in each room's region, hour by hour.</td>
+</tr>
+<tr class="odd">
+<td><a href="package-data-manifest-canvas.html"><code>package/DATA-manifest-canvas.md</code></a></td>
+<td>The manifest of the canvas files, with the caveat the tools print.</td>
+</tr>
+<tr class="even">
+<td><a href="package-canvas-artworks.html"><code>package/canvas/artworks.jsonl</code></a></td>
+<td>Every atlas artwork, with its pixels, placers and placements by hour.</td>
+</tr>
+<tr class="odd">
+<td><a href="store-neighbours.html"><code>package/store/neighbours.jsonl</code></a></td>
+<td>Every pair of rooms that touch on the canvas or name each other.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-build-neighbours-py.html"><code>tools/build_neighbours.py</code> (build script)</a></td>
+<td>Stage 00: who neighbours whom, on the canvas and in the coders' record.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-the-verbs">3. The verbs</h2>
+<p>The analyst reads and writes through tools, and every call is logged, so what it says it read can be checked.</p>
+<h3 id="reading-quoting-and-recording">Reading, quoting and recording</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="tool-mem-py.html"><code>tools/mem.py</code></a></td>
+<td>The store and the analyst's own files, one page at a time, and the only writer to the diary.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-cite-py.html"><code>tools/cite.py</code></a></td>
+<td>The only way a quote enters an output. Every call is logged.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-counts-py.html"><code>tools/counts.py</code></a></td>
+<td>The denominators, from the canonical files.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-gen-views-py.html"><code>tools/gen_views.py</code></a></td>
+<td>Regenerates <code>out/_views/</code> and <code>out/_wiki/</code> from the canonical files.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-saturation-py.html"><code>tools/saturation.py</code></a></td>
+<td>The stopping rule: A1's random order, when B1 may stop reading, and the report the PI decides on.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-snap-py.html"><code>tools/snap.py</code></a></td>
+<td>The record of what existed when: a hash of every file in <code>out/</code> under a name.</td>
+</tr>
+<tr class="odd">
+<td><a href="how-to-run.html"><code>HOW-TO-RUN.md</code></a></td>
+<td>The command reference for the analyst's tools.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-new-verbs-md.html"><code>tools/NEW-VERBS.md</code></a></td>
+<td>The verbs and options added or changed in the v38 tools pass.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-tools-version.html"><code>tools/TOOLS_VERSION</code></a></td>
+<td>One line naming the version of the tools.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="opening-and-closing-a-leg">Opening and closing a leg</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="tool-validate-py.html"><code>tools/validate.py</code></a></td>
+<td>The close-check of every leg and the open-check of every launch.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-vlib-py.html"><code>tools/vlib.py</code></a></td>
+<td>The shared library of the close-checks.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-checks.html"><code>tools/checks/</code></a></td>
+<td>One close-check per stage, and the self-test that proves each one fires.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-links-py.html"><code>tools/links.py</code></a></td>
+<td>Checks that every id named in the head and the questions exists.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-probe-py.html"><code>tools/probe.py</code></a></td>
+<td>The recall probe: five questions at every close, and their score.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-done-sh.html"><code>tools/done.sh</code></a></td>
+<td>The leg's one exit.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-fleets-and-the-return">The fleets and the return</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="tool-packets-py.html"><code>tools/packets.py</code></a></td>
+<td>What a fleet reader is served, assembled by script.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-handoff-py.html"><code>tools/handoff.py</code></a></td>
+<td>Stage D1's builder of the labelers' folder and the verdict packets.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-ingest-py.html"><code>tools/ingest.py</code></a></td>
+<td>Validates the labelers' returns, compiles the ledger, the verdicts, the room copies and the D2 counts, and re-lifts the ledger after D3.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-dreturn-py.html"><code>tools/dreturn.py</code></a></td>
+<td>The one rule set for stage D's returns, shared by ingest, the D2 check and the verdict schema.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-rebuild-py.html"><code>tools/rebuild.py</code></a></td>
+<td>A room's model rebuilt from the global model plus its accepted adaptations.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-distance-py.html"><code>tools/distance.py</code></a></td>
+<td>The stage D4 distance between rooms, from the adaptation ledger; the per-room delta, the dendrogram and the NEXUS file for SplitsTree.</td>
+</tr>
+<tr class="odd">
+<td><a href="tool-projections-py.html"><code>tools/projections.py</code></a></td>
+<td>Stage D4's projections: the verdicts and the canvas per branch and per cluster, against a permutation null.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-its-memory-in-out">4. Its memory in out/</h2>
+<p>The analyst holds nothing between legs except what is on disk. Knowledge is stored in writing; the analyst pages in what a decision needs. <a href="../../memory/aggregator.html">How the aggregator remembers</a> tells how these files work together.</p>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="out-folder.html"><code>out/</code></a></td>
+<td>The analyst's working folder: the only place it writes, and its memory on disk.</td>
+</tr>
+<tr class="even">
+<td><a href="out-head-md.html"><code>out/_head.md</code></a></td>
+<td>The head: the narrative of the argument, read first at every leg.</td>
+</tr>
+<tr class="odd">
+<td><a href="out-diary.html"><code>out/diary/</code></a></td>
+<td>The running log of the run, written as the analyst works.</td>
+</tr>
+<tr class="even">
+<td><a href="out-rooms-notes.html"><code>out/rooms/</code> (room notes)</a></td>
+<td>One note per room: the analyst's prior, dated.</td>
+</tr>
+<tr class="odd">
+<td><a href="out-read-logs.html"><code>out/_mem_reads-NN.jsonl</code> and out/_cite_reads-NN.jsonl</a></td>
+<td>The read logs: one line for every call to <code>mem.py</code> and <code>cite.py</code>.</td>
+</tr>
+<tr class="even">
+<td><a href="out-views.html"><code>out/_views/</code></a></td>
+<td>Generated tables over the analyst's files, rebuilt at every close.</td>
+</tr>
+<tr class="odd">
+<td><a href="out-wiki.html"><code>out/_wiki/</code></a></td>
+<td>Generated pages, one per room and one per model element.</td>
+</tr>
+<tr class="even">
+<td><a href="out-snap.html"><code>out/_snap/</code></a></td>
+<td>Hashes of <code>out/</code> under a name: what existed when.</td>
+</tr>
+<tr class="odd">
+<td><a href="out-probe.html"><code>out/_probe/</code></a></td>
+<td>The recall probe's questions, answers and scores, one set per leg.</td>
+</tr>
+<tr class="even">
+<td><a href="out-transcripts.html"><code>out/_transcripts/</code></a></td>
+<td>A copy of every leg's session transcript, filed at its close.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-the-harness-around-it">5. The harness around it</h2>
+<p>The analyst does not start, stop or check itself. The handler runs it through these scripts, which also hold the rules an agent might forget.</p>
+<h3 id="laying-out-and-running-a-leg">Laying out and running a leg</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="harness-read-me-first.html"><code>READ-ME-FIRST.md</code> (the run's)</a></td>
+<td>The person running the study's first page: three parties and the lines to type.</td>
+</tr>
+<tr class="even">
+<td><a href="harness-build-sh.html"><code>harness/build.sh</code></a></td>
+<td>Lays out a run from the instrument and the coders' documents, once.</td>
+</tr>
+<tr class="odd">
+<td><a href="harness-acceptance-sh.html"><code>harness/acceptance.sh</code></a></td>
+<td>The native-CLI acceptance test, run once before stage A1.</td>
+</tr>
+<tr class="even">
+<td><a href="harness-step-sh.html"><code>harness/step.sh</code></a></td>
+<td>Opens one leg: delivers the stage, writes the first message, launches the analyst continuing the last close's conversation.</td>
+</tr>
+<tr class="odd">
+<td><a href="harness-launch-sh.html"><code>harness/launch.sh</code></a></td>
+<td>Starts the analyst's Claude session for a prepared leg.</td>
+</tr>
+<tr class="even">
+<td><a href="claude-settings-json.html"><code>.claude/settings.json</code></a></td>
+<td>The permissions, hooks and sandbox each analyst leg runs under.</td>
+</tr>
+<tr class="odd">
+<td><a href="harness-close-sh.html"><code>harness/close.sh</code></a></td>
+<td>Closes a leg after the analyst has run <code>done.sh</code> and quit.</td>
+</tr>
+<tr class="even">
+<td><a href="harness-pause-sh.html"><code>harness/pause.sh</code></a></td>
+<td>Asks the analyst to stop at its next safe stop.</td>
+</tr>
+<tr class="odd">
+<td><a href="harness-interview-sh.html"><code>harness/interview.sh</code></a></td>
+<td>Talks with the analyst at an interview point, in a read-only fork.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sending-work-to-fleets">Sending work to fleets</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="harness-dispatch-sh.html"><code>harness/dispatch.sh</code></a></td>
+<td>Sends a fleet stage's packets to readers, outside the analyst's session.</td>
+</tr>
+<tr class="even">
+<td><a href="tool-fleet-py.html"><code>tools/fleet.py</code> (the handler's)</a></td>
+<td>The dispatch leg of a fleet stage, run outside the analyst's session.</td>
+</tr>
+<tr class="odd">
+<td><a href="harness-arm-json.html"><code>arm.json</code></a></td>
+<td>Which model serves each stage, and which readers each fleet uses.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="guards-and-hooks">Guards and hooks</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="harness-protocol-guard-py.html"><code>harness/protocol_guard.py</code></a></td>
+<td>The handler-side guards: settings, launch, probe, close and checkpoint.</td>
+</tr>
+<tr class="even">
+<td><a href="harness-pretool-guard-py.html"><code>harness/pretool_guard.py</code></a></td>
+<td>The analyst's PreToolUse hook: three standing rules enforced before a tool runs.</td>
+</tr>
+<tr class="odd">
+<td><a href="harness-after-compact-sh.html"><code>harness/after_compact.sh</code></a></td>
+<td>The hook that runs after a compaction of the analyst's context.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="publishing">Publishing</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="harness-publish-sh.html"><code>harness/publish.sh</code></a></td>
+<td>Regenerates the Manual and commits the run to git.</td>
+</tr>
+<tr class="even">
+<td><a href="harness-gen-manual-py.html"><code>harness/gen_manual.py</code></a></td>
+<td>Writes the run's Manual, a set of Markdown pages GitHub renders.</td>
+</tr>
+<tr class="odd">
+<td><a href="harness-stage-cards-py.html"><code>harness/stage_cards.py</code></a></td>
+<td>Writes <code>STAGE CARDS/</code>, one card per stage for the person running it.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="also-in-the-harness-and-its-records">Also in the harness and its records</h3>
+<table>
+<thead>
+<tr class="header">
+<th>file</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../../../aggregator/handler/claude/lib.sh"><code>harness/lib.sh</code></a></td>
+<td>Shared functions, sourced by <code>step.sh</code>, <code>close.sh</code>, <code>dispatch.sh</code> and <code>build.sh</code>, never run: where the run is, the leg id's parts, the session of a label.</td>
+</tr>
+<tr class="even">
+<td><code>CONTROL/sessions.json</code></td>
+<td>The session id of every leg, recorded when the leg is prepared; <code>build.sh</code> refuses a run that names one.</td>
+</tr>
+<tr class="odd">
+<td><code>CONTROL/snapshots/&lt;label&gt;/checkpoint.json</code>, <code>cost.json</code></td>
+<td>A checkpoint's ancestry and validation, and the leg's token counts, summed over every turn.</td>
+</tr>
+<tr class="even">
+<td><code>CONTROL/interviews.tsv</code></td>
+<td>One line per interview fork: when, the leg, the session forked, the fork's id.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

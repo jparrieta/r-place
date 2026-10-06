@@ -1,0 +1,1 @@
+r/stardewvalley — branch B; verdict: full. Record saturation is limited by deleted bodies, unseen linked material, off-platform talk, and split-slice reading. Thematic saturation held: later slices mostly repeated established practices, with one new thread-containment practice. Blockers: none.

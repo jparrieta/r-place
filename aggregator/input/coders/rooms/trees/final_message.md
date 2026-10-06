@@ -1,0 +1,1 @@
+r/trees — verdict: **full**. Practice saturation: later slices mostly repeated repair, negotiation, celebration, and remembrance. Record saturation: Discord, missing images, and deleted text limit decisions and outcomes. No blockers.

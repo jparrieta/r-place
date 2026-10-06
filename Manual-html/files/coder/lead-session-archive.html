@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>The lead session archive</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/lead-session-archive.md">Markdown source</a></nav>
+<h1 id="the-lead-session-archive">The lead session archive</h1>
+<p>A case lead's whole checkpoint store, compressed: its saved conversation, the managed room, and every checkpoint.</p>
+<p><strong>What it holds</strong></p>
+<p><code>&lt;sub&gt;-gpt56-calibration-v1/</code> with, as found on disk: <code>ARCHIVE.json</code> (marker: version, subreddit, store name, date, format, restore tool), <code>HEAD.json</code> (the last committed checkpoint), <code>STORE.json</code> (paths, model, effort, Codex binary, runtime fingerprint, lifecycle text), <code>native/</code> (the lead's Codex home: sessions, configuration, databases), <code>workspace/</code> (the managed copy of the room), <code>.lock</code>. <code>lead_archive.py</code> also requires <code>state/lead.json</code>, and CHECKPOINTS.md names <code>objects</code>, <code>checkpoints</code>, <code>refs</code> and <code>audit</code>.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p><code>codex_lead.py</code> builds the store at every completed lead turn; <code>lead_archive.py archive</code> packs it after work ends. Archives over 95 MB are split into <code>.part00</code>, <code>.part01</code> and so on; join them with <code>cat</code> first. The armenia archive is 76,643,642 bytes.</p>
+<p><strong>Why it exists</strong></p>
+<p>"Only the case lead receives native conversation checkpoints", kept "for continuation and forks". See <a href="../../memory/coder-lead.html">how the case lead remembers</a> for what resuming needs.</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/lead-sessions/">coder/lead-sessions/</a>: twelve, for the example rooms of the Armenia and Dutch conflict (all but Goodboye and norway). The rest of the census's saved sessions are not in this repository.</p>
+<p>Checked against: _tools/lead_archive.py, _tools/codex_lead.py, CHECKPOINTS.md, rooms/armenia/STATE.json</p>
+</body>
+</html>

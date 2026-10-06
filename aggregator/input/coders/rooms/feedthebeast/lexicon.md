@@ -1,0 +1,27 @@
+# lexicon — r/feedthebeast
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- MMD (62pbkx)
+- Behind the Behind the Mod (62q6xl)
+- TATW (62rrzx)
+- Better Than Llamas (62rx2f)
+- clay = balance (dfp4w51)
+- humble clay balancers (dfpj9vh)
+- Irish / ftb alliance (dfqv59m)
+- high effort shitposts (dfpamb0)
+- ironicbalanceshitposts (dfpdovp)
+- Skybalance (62x39o)
+- streamlining (62x5s0)
+- PlaceIreland (62z1re)
+- VOID (62z1re)
+- orange dot prevention duty (dfq6dbs)
+- light blue background (dfq7d6b)
+- beer buddies (dfrling)
+- DE dragon's heart (dfrbwjm)
+- r/placehearts (dfrbwjm)
+- super clayme (dfre1o1)
+- balance logo (dfsfx0z)
+- r/ireland's bros (dfsl6hj)
+- mana pistons (dftlpcm)
+- Roots 2 (dftksrf)

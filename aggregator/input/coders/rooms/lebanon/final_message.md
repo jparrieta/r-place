@@ -1,0 +1,1 @@
+r/lebanon — branch B; verdict: full. Thematic saturation: the later slice repeated and deepened established practices without opening a new one. Evidence saturation: deletions, linked images, partial Discord activity, and divided fleet reading limit final-state and coordination claims. Blocked: nothing.

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>emit.py</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/emit-py.md">Markdown source</a></nav>
+<h1 id="emitpy">emit.py</h1>
+<p>The recording tool: every code, theme, disposition and pointer is a call, appended to a journal.</p>
+<p><strong>What it holds</strong></p>
+<p>The <code>Emit</code> class: <code>stage</code>, <code>code</code>, <code>pointer</code>, <code>thread</code>, <code>threads_bulk</code>, <code>theme</code>, <code>theme_add</code>, <code>retract</code>, <code>reading</code> and <code>close</code>. Each call appends one line to <code>out/_journal.jsonl</code>. <code>close()</code> writes <code>codes.jsonl</code>, <code>themes.jsonl</code>, <code>threads.jsonl</code>, <code>pointers.jsonl</code> and <code>_run.json</code> from the journal. It checks each quote against the record, refuses a code on an item <code>read.py</code> never served or on a context opening, and in v32 refuses a large read exclusion without a cited line.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p>The instrument's author. Coders and the lead call it while working; only the case lead calls <code>close()</code>.</p>
+<p><strong>Why it exists</strong></p>
+<p>"If a step's output is a file, the agent is never the thing that formats it." The stage stamp makes <code>discovered_at</code> "a measurement instead of a claim". Append-only means "nothing is revised", and "if the journal and the final outputs ever disagree, the journal is right."</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/instrument/v32/emit.py">emit.py</a>.</p>
+<p>Checked against: emit.py, CONTRACT.v32.md §9, CHANGELOG-v32.md</p>
+</body>
+</html>

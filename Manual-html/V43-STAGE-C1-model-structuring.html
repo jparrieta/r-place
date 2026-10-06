@@ -1,0 +1,192 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage C1. Model: structuring. Scheme v2, and the fourth-order themes.</h1>
+<p>**Model:** as <code>arm.json</code> sets for this stage (your platform file lists the model and effort). **Legs:** one per pass of revision, closed at the pass&#x27;s end or earlier when you</p>
+<p>choose. Every move (a split or merge of a theme, a fourth-order theme cut) is logged with `mem.py</p>
+<p>log --kind move<code>, the Grodal, Anteby and Holm move named, and snapped with </code>python3</p>
+<p>tools/snap.py C1 move-&lt;move&gt;-&lt;n&gt;` when it is made. **Fleet:** none; every</p>
+<p>re-placement here is yours, and no reader runs.</p>
+<p>**Steps:** <code>C1a-01</code>, <code>C1a-02</code> ... one per pass; the last pass ends with the handback and the interview. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after each logged move, and after each pass. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh C1 --pause</code> (STANDING §2).</p>
+<p>**Startup packet:** <code>_head.md</code>, this file, the last five diary entries, the frozen</p>
+<p><code>scheme_final.jsonl</code> paged (<code>scheme/scheme_current.jsonl</code> is stage B1&#x27;s working grouping and</p>
+<p>stops at the freeze), <code>validate.py --open C1</code>.</p>
+<p>**Reads allowed:** <code>scheme_edits.jsonl</code> first, then <code>transmission-B4.md</code>, <code>disagreements.jsonl</code>,</p>
+<p><code>multiplacement_log.jsonl</code> with the pair table in <code>multiplacement_register-B3.md</code>,</p>
+<p><code>coder_conflicts.jsonl</code>, <code>assign_final.jsonl</code>, <code>reassign.jsonl</code>,</p>
+<p><code>transmission-after-revision-B4.md</code>, <code>notes-B3.md</code>, <code>confusions.md</code>, the frozen <code>scheme_final.*</code>; <code>counts.py</code></p>
+<p>for the analysed set; the views <code>_views/rooms-x-third.tsv</code>; items through the verbs (`mem.py</p>
+<p>theme<code>, </code>where<code>, </code>codes --third<code>, </code>codes --grep<code>; quotes through </code>cite.py`). **Forbidden:**</p>
+<p>dimensions (stage C2); the canvas as an undeclared ground (rule 7); re-emitting stage B4&#x27;s figure; any reader.</p>
+<p>**Outputs:** <code>scheme_v2.md</code>, <code>scheme_v2.jsonl</code>; <code>assignments_final.jsonl</code> with</p>
+<p><code>assignments_final.count.txt</code>; <code>assign_revisions_only.jsonl</code>; <code>fourth/fourth.jsonl</code> with</p>
+<p><code>fourth.md</code>; <code>form_pass-C1.md</code>; <code>tier_history.jsonl</code> appended for every change to the</p>
+<p>third-order and fourth-order tiers; <code>notes-C1.md</code>; <code>handback-C1.md</code>.</p>
+<h2>1. Read the record before you touch a theme</h2>
+<p><code>scheme_edits.jsonl</code> whole, then the pair table, then transmission&#x27;s second row (fails to</p>
+<p>transmit) and fourth row (teaches something unintended). These are the sources of every</p>
+<p>revision; a revision with no source line is not allowed.</p>
+<p>**The pair table first** (rule 0): every recurring <code>(primary, additional)</code> pair in stage B3&#x27;s</p>
+<p>table, computed from <code>multiplacement_log.jsonl</code>, is a boundary the scheme has not drawn, and a</p>
+<p>theme that appears as <code>additional</code> far more often than as <code>primary</code> is a modifier to consider</p>
+<p>folding.</p>
+<p>**Then four sources say where the scheme is weak**, and a theme appearing in three of them is</p>
+<p>not one to defend: <code>disagreements.jsonl</code>; <code>reassign.jsonl</code> (a fresh reader disagreed with the</p>
+<p>adjudicated line); <code>coder_conflicts.jsonl</code>; and transmission&#x27;s fourth row, where the readers</p>
+<p>agreed with each other and not with you, the rarest and the most serious. Read <code>scheme_edits.jsonl</code></p>
+<p>beside them: a boundary that moved at B2 and split the readers again is one the wording cannot</p>
+<p>draw, a candidate for the rare tier or a merge rather than for a third sentence.</p>
+<h2>2. Transmission&#x27;s rows, and which one is yours to revise away</h2>
+<p><code>transmission-B4.md</code> decomposes the splits against your own answers on the gold and pilot</p>
+<p>items. *Split, and you were confident*: the scheme failed to transmit; **revise**. *Split, and</p>
+<p>you were also unsure*: the tier does not decide this item; **leave it**, and an amendment that</p>
+<p>lowers that count with no wording defect you can quote is fitting. *Agreed with each other,</p>
+<p>diverged from you*: read every one. Either you were wrong, in which case record it and **do not</p>
+<p>amend the scheme toward your own answer**, or the scheme taught something you did not intend and</p>
+<p>the wording is yours to fix. Say in <code>notes-C1.md</code> which way each went.</p>
+<p>**<code>transmission-after-revision-B4.md</code> is stage B4&#x27;s file. Read it; do not rewrite or re-emit</p>
+<p>it.** Its figures are per family; the per-theme figure you rank themes by is stage B3&#x27;s</p>
+<p>agreement, by family and by theme in its disagreement inventory (<code>notes-B3.md</code>), computed over</p>
+<p>every item, and a theme the readers split on everywhere is weak whatever the blind sample says of</p>
+<p>its family. If the revision changes the scheme enough that stage B4&#x27;s figure no longer describes</p>
+<p>it, say so in <code>notes-C1.md</code> and say which figure the write-up should use. Wherever you cite</p>
+<p>stage B4&#x27;s figures, say what each licenses in FLEET.md §2&#x27;s words: they bound whether the</p>
+<p>written descriptions decide, not whether they are right. Never call any of them reliability.</p>
+<h2>3. The revision rate</h2>
+<p>**Re-decide two hundred placements yourself**, drawn by seed from <code>assign_final.jsonl</code>, now that</p>
+<p>the whole corpus has been through the scheme and you have read every disagreement, and report how</p>
+<p>many you would move and where. That number is **the revision rate**: your agreement with the</p>
+<p>settled line at the end of the assignment arc, a figure about the tier as it stands. It is not</p>
+<p>saturation, since a census has no next case to add; it is not transmission after revision, which</p>
+<p>is stage B4&#x27;s; and it is not FLEET.md&#x27;s stability, which is a reader arm&#x27;s agreement with itself.</p>
+<p>For something closer to saturation, record when each *kind* of unplaceable material first</p>
+<p>appeared and say whether new kinds stopped appearing.</p>
+<h2>4. Recut the third-order tier, under rule 11</h2>
+<p>Treat every disagreement as a defect in a *description*, not a dispute about a case: readers who</p>
+<p>sent the same kind of material to different places found an underspecified boundary.</p>
+<p>The rule changes first and the items follow from it. Declare the stopping criterion before</p>
+<p>the first recut: what would make you prefer a later cut to this one. Rule 7 stays shut, so no</p>
+<p>recut can be fitted to an outcome.</p>
+<p>**You may change the scheme itself**: add a theme, split one, merge two, retire one, or move one</p>
+<p>to the **rare tier** (<code>&quot;tier&quot;: &quot;rare&quot;</code> on its line; the event <code>moved_to_rare</code>), the home stage</p>
+<p>B1&#x27;s floor defines for a kind the corpus plainly carries below that floor. Use stage B1&#x27;s floor,</p>
+<p>two rooms unlike each other; do not invent one here. Merging is arithmetic (rule 10); splitting</p>
+<p>is a re-read of every second-order theme the split theme held, by you, from the items. Declare</p>
+<p>each change with its reason, append the event to <code>tier_history.jsonl</code> with its move, and</p>
+<p>re-place every second-order theme it touches by applying the amended rule, **yourself, never a</p>
+<p>reader**. Log every moved item: which second-order theme, out of which third-order theme, into</p>
+<p>which, and the clause of the amended gate that decides it. **A theme that arrives here declares</p>
+<p>its gate here**, in the form stage B1 uses, before any count appears anywhere (rule 5).</p>
+<p><code>assignments_final.jsonl</code> is every second-order theme with its placement under scheme v2, and it</p>
+<p>is what stage C2 reads; nothing after C1 reads <code>assign_final.jsonl</code>.</p>
+<h2>5. Joints and lumps: the pair test</h2>
+<p>For **every pair of third-order themes carried together by ten or more second-order themes**,</p>
+<p>report the pair&#x27;s **arguable rate**, the share of the second-order themes carrying both that were</p>
+<p>returned <code>arguable</code>, **with its confidence distribution**, against the corpus-wide arguable rate.</p>
+<p>A **joint** is an act the material genuinely presents twice over, which any scheme cuts in two.</p>
+<p>A **lump** is your scheme cutting where the material has no seam. In a rate the two look</p>
+<p>identical. Confidence is a review cue, not a warrant for either. Reopen the act and its coded context: does the same act demonstrably perform both functions, or does the category bundle distinct acts? Cite the evidence and a plausible contrary reading. For every pair materially above the corpus arguable rate, report joint, lump or unresolved and the reason; then split, merge or retain it under rule 10&#x27;s arithmetic. High confidence can be a shared error, and uncertainty can concern a real joint.</p>
+<h2>6. The empties, and the arguables</h2>
+<p>Read every <code>third_order: []</code> line and every <code>confidence: &quot;arguable&quot;</code> line.</p>
+<p>**The empties:** group them into kinds and say, for each kind, whether the scheme is too narrow</p>
+<p>or the material too varied. If more than one in five of the corpus is empty, that is a finding</p>
+<p>about the scheme and goes at the top of <code>notes-C1.md</code>.</p>
+<p>**The arguables:** check them against **stage B1&#x27;s written prediction** in <code>confusions.md</code> of</p>
+<p>which pairs would be confused, and say whether the prediction held.</p>
+<h2>7. The form pass</h2>
+<p>Forms (turn position, register, length, timing, who answers whom) are scattered under the</p>
+<p>coders&#x27; topic groupings (contract §5), so **go over the first-order concepts directly, on</p>
+<p>participants&#x27; quoted words, not through second-order themes**. Count before you read:</p>
+<p><code>mem.py codes --grep &lt;re&gt;</code> runs over the whole store with no limit on the count, and its first</p>
+<p>line gives the concepts matched and the rooms they fall in, under one log record; `cite.py</p>
+<p>--grep<code> grounds what you then quote. Say in </code>form_pass-C1.md` which patterns you counted, and run</p>
+<p>the pass **three times over**, saying what you swept for each time:</p>
+<p>1. **Form**: turn shape, position in a sequence, length, timing. What is the cheapest act in</p>
+<p>   this corpus, and how would you know?</p>
+<p>2. **Register**: any vocabulary that cuts across subjects. A register that appears widely and is</p>
+<p>   owned by no theme is a tier, not a residue.</p>
+<p>3. **What is not said**: terms used without gloss, roles invoked without introduction, questions</p>
+<p>   nobody answered. What a room does not bother to explain is what it takes for granted.</p>
+<p>**Write <code>form_pass-C1.md</code>**: what you searched, at what limits, what you found, and how many</p>
+<p>communities and how many lines each finding covers. **Then name what the pass could not reach**:</p>
+<p>a search over quoted words finds vocabulary, while a register or a stance is a property of a</p>
+<p>whole utterance and invisible to string matching, and no route through second-order themes</p>
+<p>reaches an act whose themes name what it was *about* rather than what it *was*. Write both in</p>
+<p><code>notes-C1.md</code>, which stage E1 and the write-up&#x27;s *what the study cannot say* inherit.</p>
+<p>**What you find is a tier of its own, with ids <code>FP-01</code> on, living in <code>form_pass-C1.md</code> prose</p>
+<p>and nowhere else**: no schema, no line in any JSONL. (The prefix <code>FP-</code> keeps them apart from the findings in <code>findings.jsonl</code>,</p>
+<p><code>F-001</code>, from stage D4&#x27;s branches, <code>F01</code>, and from stage C5&#x27;s propositions, <code>N01</code>.) Write each with its id, its one-line statement, and the communities and lines it</p>
+<p>covers, in a block a later stage can quote whole. **Stage C2 reads them from that file, by id**,</p>
+<p>and they enter the structure and the model on the same terms as any third-order theme, marked</p>
+<p>as ones whose unit is the turn rather than the topic.</p>
+<p>**A form-pass finding does not enter the arithmetic**, and <code>form_pass-C1.md</code> says so: no line in</p>
+<p><code>assignments_final.jsonl</code>, no three counts, no share in the chunk-share tree at stage D4, no</p>
+<p>branch contrast at stage D5. It travels on exemplars under rule 5&#x27;s carve-out, and the write-up</p>
+<p>says in your own sentence that it was never counted and never clustered. **Do not invent a gate</p>
+<p>to make one look promotable**; rule 5 forbids it.</p>
+<h2>8. Cut the fourth-order themes</h2>
+<p>This is where the model begins. To bundle third-order themes into a fourth-order theme you must</p>
+<p>already theorize: what story lies behind the bundle, and how holding these kinds together helps</p>
+<p>explain what the rooms did. Write that story for every bundle, however provisional; it is the</p>
+<p>structure the loop (C2) starts from, and the loop is free to change any of it. A bundle you</p>
+<p>cannot tell a story for is not yet a fourth-order theme.</p>
+<p>Named groups of third-order themes, constructs from the moment they are cut (contract §2). They</p>
+<p>partition the third-order tier: a third-order theme sits in one fourth-order theme, and a</p>
+<p>second-order theme reaches two only through its own placements (rule 0). Each is declared</p>
+<p>borrowed (with <code>&quot;recalled&quot;: true</code> until stage C3 checks it against a text), adapted or coined,</p>
+<p>with a source named for a borrowed or adapted one (a coined one is this corpus&#x27;s), with what</p>
+<p>would disconfirm it in another setting, with the grounded phrase kept as a gloss, and with prose that says what holds its members</p>
+<p>together without listing them. A fourth-order theme with no prose is a heading. No number is</p>
+<p>set. A third-order theme no fourth-order theme picks up is reported as a list, never gathered</p>
+<p>into a catch-all. Each cut is a <code>tier_history</code> line (<code>tier: &quot;fourth&quot;</code>, move <code>merging</code> or</p>
+<p><code>relating</code>), a <code>move</code> line in the diary and a snap, made when you cut it.</p>
+<pre><code>
+{&quot;id&quot;: &quot;T4-003&quot;, &quot;name&quot;: &quot;...&quot;, &quot;gloss&quot;: &quot;...&quot;, &quot;declared&quot;: &quot;borrowed|adapted|coined&quot;,
+
+ &quot;source&quot;: &quot;...&quot;, &quot;disconfirm&quot;: &quot;...&quot;, &quot;members&quot;: [&quot;T3-007&quot;, &quot;T3-011&quot;], &quot;prose&quot;: &quot;...&quot;}
+
+</code></pre>
+<h2>9. <code>scheme_v2</code> and <code>assignments_final.jsonl</code></h2>
+<p>**<code>scheme_v2.jsonl</code> mirrors <code>scheme_final.jsonl</code> field for field.** After this stage the frozen</p>
+<p>instrument is <code>scheme_v2</code>: it is the scheme every later stage keys its theme ids to, and what</p>
+<p>the validator resolves them against. **<code>scheme_v2.md</code> is the whole scheme, not a diff**: every</p>
+<p>theme, including the untouched ones, with every field, plus the complete gate block including</p>
+<p>gates declared here, and each change declared with what changed, why, and which placements it</p>
+<p>moves.</p>
+<p>**<code>assignments_final.jsonl</code> is every placement line, not only the ones you changed.** An overlay</p>
+<p>under the name every later stage lists as *the* assignment input is indistinguishable from a</p>
+<p>complete file, and a stage that reads it literally works on whatever fraction of the corpus it</p>
+<p>covers and never finds out. Unchanged lines carried through verbatim, changed lines superseding,</p>
+<p>same schema as stage B3, one line per <code>(sub, theme_id)</code>. Nothing is deleted. Keep the</p>
+<p>overlay as <code>assign_revisions_only.jsonl</code>; stage E1 reports it. Once <code>assignments_final.jsonl</code> is</p>
+<p>written, re-place a second-order theme with `mem.py reassign &lt;sub&gt;:&lt;tNN&gt; --theme T3-NNN --reason</p>
+<p>&quot;...&quot;`, which rewrites its line and keeps the overlay in step.</p>
+<p>**The line count goes in <code>assignments_final.count.txt</code>, not at the top of the JSONL**, which</p>
+<p>stage C2 and the scripts parse line by line. It must equal the number of distinct `(sub,</p>
+<p>theme_id)<code> keys in </code>assign_final.jsonl`, one line per second-order theme in the analysed set,</p>
+<p>**not** the number of lines the readers returned, which is that number times <code>R</code>. Take the</p>
+<p>expected value from <code>counts.py</code>&#x27;s <code>assignment_items_expected</code>.</p>
+<h2>10. <code>_views/</code> after the recut</h2>
+<p><code>gen_views.py</code> regenerates the case-ordered matrix (rooms by third-order themes) and the</p>
+<p>data-structure file at every close; read them before the next leg to see what the recut did to</p>
+<p>the rooms, and log what you saw.</p>
+<h2>Moments to log</h2>
+<p>Each source line read; the stopping criterion, before the first recut; each gate amended with</p>
+<p>the items it moved; each theme added, split, merged, retired or moved to rare; the revision</p>
+<p>rate; each pair called joint or lump; the empties by kind; each sweep of the form pass; each</p>
+<p>fourth-order theme cut; the views read after each close.</p>
+<h2>Final message</h2>
+<p>The claim (what the revision changed about what these rooms did), the room that best supports</p>
+<p>it, the room that most threatens it, the condition that separates them; then: the recurring</p>
+<p>pairs and what each became; the revision rate; stage B4&#x27;s transmission after revision as you</p>
+<p>read it, with its definition, not recomputed; which pairs came out above the corpus arguable</p>
+<p>rate, and which of those were joints and which lumps; how many empties, of how many kinds;</p>
+<p>whether stage B1&#x27;s prediction held; recuts by kind, items moved, themes retired or moved to</p>
+<p>rare; the line count of <code>assignments_final.jsonl</code> against what <code>counts.py</code> expects; what the</p>
+<p>three sweeps found; the form-pass ids you minted, with the statement that stage C2 takes them</p>
+<p>from <code>form_pass-C1.md</code>, the only place they exist; fourth-order themes cut and the third-order</p>
+<p>themes left unpicked; the licences exercised.</p>
+<h2>Close</h2>
+<p><code>done.sh C1</code> at the end of every pass, or earlier when you choose, each move logged and snapped</p>
+<p>as it was made; paste the close-check&#x27;s report into <code>notes-C1.md</code>; <code>handback-C1.md</code>; the</p>
+<p>head; the closing diary line.</p>
+<p>**Interview point.** The last <code>C1a</code> leg writes <code>out/interview/&lt;its leg id&gt;.md</code> (for example <code>C1a-04.md</code>) (under 800 words: what you did, what you found, what surprised you, what you doubt, and the three questions you would most like to be asked) and closes with <code>done.sh C1 --cut interview</code>: scheme v2 and the fourth-order themes cut: the first abstraction above the rooms, and what you gave up to reach it. The principal investigator may talk with you here, in a fork of this leg, run in a copy of your folder as it stood at the close (not read-only; nothing done there reaches the run); the run goes on from the cut either way. <code>done.sh</code> files the brief under the leg, the stage, the step and the minute, and refuses the cut without the brief (and, at a stage&#x27;s end, without the handback).</p></html>

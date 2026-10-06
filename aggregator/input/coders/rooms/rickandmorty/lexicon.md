@@ -1,0 +1,115 @@
+# lexicon — r/rickandmorty
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- get schwifty — 62n4ar
+- Tiny Rick — 62oiqu
+- blue corner — dfog9uu
+- Peace among worlds — dfoj4dm
+- the void — dfper5i
+- regular rick — 62ueo4
+- giant head — 62ueo4
+- dancing rick — dfpes0x
+- Rick Roll — dfpaa1q
+- Pixel Rick — 62vufq
+- DEFENDERS OF THE RICK — 62wbar
+- Crawling Chaos — 62wbar
+- Tiny Rick colussus — dfpvlsd
+- black plague — dfpkpr4
+- bamboozled — dfplsqg
+- Mulan McNugget sauce — dfpmdox
+- Pickle Rick — dfpmcne
+- nine more seasons — dfpmdfh
+- Rickety Ricked — dfq58ru
+- Phoenix person — dfpncm4
+- Squanched — 62wkzv
+- Lawyer Morty — dfpmx3u
+- real news on fake days — dfpn72g
+- pog collection — dfpnovc
+- Seal Team Ricks — dfpnv1j
+- double bluff bamboozle — dfps0io
+- Punk Rick — 62wrb5
+- GHOULISHLY OVERKILL RICK — dfpoiba
+- #FREERICK — dfpoiug
+- rickdiculous — dfpolhn
+- #fullybamboozled — dfpolkm
+- Hammer Morty — dfpou2g
+- upricks — 62x3b2
+- #BringSzechuanSauceBack — 62x4ak
+- Marty — dfptwi7
+- Mharti — dfqsy08
+- Rickedy Rich — dfpy0ws
+- saucephobe — 62xcd1
+- chezch-huwaan sauce — 62xds1
+- glip-glops — dfpsjra
+- Samurai Rick — dfqk3dq
+- #Nineseasonsandschezwansauce — 62xi1t
+- #rickspiracy — 62xirr
+- TINY RAINBOW RIIIICK — 62zj02
+- Make McDonalds Shwifty Again — 62xkrn
+- seskatchewan — 62xlxt
+- Series 9000 — 62xmtc
+- Morty-Rick — 62xo4a
+- Rick Morty — dfpuc8p
+- Hammerhead Morty — 62xpis
+- Rick TV — 62xtwk
+- mindscraper — dfq73iy
+- C-137 Summer — 62xxd2
+- Rick-wanking — dfqpe4u
+- Rickle — dfpyd3k
+- The Rickshank Redemption — dfpya06
+- Rickson Break — dfpybq2
+- Blemflark — 62ygal
+- #Bringbackthesauce — 62yg4r
+- Rickheads — 62yiip
+- Rickshank Redemption — 62yjtp
+- Cybird Person — 62yo04
+- McNugga Lubba Dub Dub — 630lvx
+- Shitception — dfqdjp0
+- blue pants Rick — 630nxy
+- kaxaxian crystals — 63163b
+- second make — 631efb
+- OSU WILL RISE AGAIN — dfqwcyw
+- Asexual Pride — 631fv9
+- TransFlag — 632otf
+- Peace Among Words — 632otf
+- Mable and Dipper Mortys — 632qz7
+- TammyPotter — 632s2c
+- Default Rick — dfrxjw6
+- Fillion Bug — 632upo
+- Lawyer-Notlawyer Morty — 633030
+- Morticia — dfqys1r
+- Poopie Butthole — 6335vi
+- trans laser — dfqzouf
+- Void 2.0 — dfr1bir
+- tinky rick — dfr1q5x
+- gazorpazorps — 633rox
+- Rickness — 633xkf
+- bird culture — dfraw9o
+- white brick — dfrd4qv
+- Tammy Dip — dfrf6ez
+- Ballfondler — 635iv1
+- drook — 635kvc
+- prool — 635kvc
+- druke — 635kvc
+- Wubalubadubdub — 6362k7
+- Northern Division — dfs2915
+- Tiny Upvote — dfs2915
+- Void Attack — dfs2915
+- Wubba Lubba Nug Nug — 638dlr
+- Mick — dfs4zd3
+- D-99 Rick — 638inw
+- Action Morty — 638jvk
+- Phoenixperson — 638lhn
+- Micheal down our Vincents — 638nmn
+- Schlong Bros Adult Arcade — 638owj
+- Veeners — 638owj
+- Morty Cronenberg — 639toj
+- Mortyface — 63a32x
+- Morky — 63ab4l
+- six chewable income — dftblzv
+- Rickiest Morty — 63d5dx
+- Mortiest Rick — 63d5dx
+- McMorty's — 63d3fc
+- Saucepost — 63dilf
+- Rickface — 63dt15

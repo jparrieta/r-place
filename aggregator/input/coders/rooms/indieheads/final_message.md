@@ -1,0 +1,1 @@
+r/indieheads — branch B; verdict: full. Case saturation: adequate but incomplete due to deletions, truncation, and off-platform deliberation. Thematic saturation: new practices appeared late, while the final slices returned to ordinary music activity. Blockers: none.

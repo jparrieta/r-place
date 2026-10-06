@@ -1,0 +1,51 @@
+# lexicon — r/placestart
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Start button — 62x9y1
+- lighter gray — dfpxv6b
+- vandalism — dfpxv6b
+- taskbar — 62y48i
+- active internet explorer window — dfq0n9w
+- official template — 62ycqo
+- RIP Tom — dfq0ph3
+- open windows — 62yo4i
+- taskbar art — dfq1lc1
+- Starry Night — dfq1pls
+- PlaceStart Discord — 62yz5t
+- dark greyers vs light greyers — dfq23ms
+- blue corner — 62z3vn
+- starry.bmp — dfq3pgl
+- relocating art — dfq56u6
+- treaties — 62zdo4
+- computer viruses — 62zfyi
+- icon tray — dfq9gop
+- statusbar — dfqdktn
+- Gogh — dfqat88
+- diplomacy megathread — 6306mx
+- diplomacy discord — 6306mx
+- gray train — dfqlzls
+- Broken Image icon — 630qc5
+- placesFart — 630sf5
+- Fart Button — 630tzu
+- Microsoft Paint window — dfqgq36
+- Team Blue — dfqiio0
+- BSOD.jpg — dfqupzl
+- antivirus warning — 631m52
+- notification tray — 631rtz
+- vocal minority — dfqotv3
+- Happy Happyists — dfqozg5
+- learn2diplomacy — dfqqpq8
+- maintenance bot — dfqwbgb
+- Blue, blue — dfqzc8l
+- Gogh.bmp — dfqzvw0
+- dirty pool — dfr60z7
+- StartPlace — dfr0mho
+- Manifest Destiny — 633r3v
+- bot farm — 633xsu
+- full speed ahead — dfr9y01
+- March to the clock — dfrhv8i
+- end game — 635kvo
+- dreaded blue — dfrl8po
+- Cyclops Penguin — 6389uc
+- Place 2.0 — 63dofl

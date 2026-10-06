@@ -1,0 +1,79 @@
+{
+ "sub": "armenia",
+ "built": "2026-09-06T16:51:13Z",
+ "instrument": "v32",
+ "items_in_window": 1333,
+ "items_by_people": 1332,
+ "chars_by_people": 245313,
+ "threads": 130,
+ "preweek_items": 743,
+ "brief": "present",
+ "expected_branch": "B",
+ "expected_slices": 3,
+ "stage": "verified",
+ "log": [],
+ "notes": [
+  {
+   "at": "2026-09-08T00:10:23.701584+00:00",
+   "note": "Brief written in /Users/arrieta/Documents/ChatGPT/place Yard/atlas_yard/rooms/armenia/brief; full transcript retained; paths relocated and source-side validation rerun. Queue rank 137"
+  },
+  {
+   "at": "2026-09-09T15:32:46Z",
+   "note": "Started native case lead using lead-calibration-v2; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-09T16:37:08Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/armenia-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-09T16:38:05.559576+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:27Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "agents": [
+  {
+   "role": "brief writer",
+   "model": "gpt-5.6-sol",
+   "agent_id": "01a07e45-3923-70a3-988e-ce16fc584ac2",
+   "started": "2026-09-07T23:47:41.108743+00:00",
+   "ended": "2026-09-08T00:10:00.912608+00:00",
+   "attempt": 1,
+   "transcript": "full platform transcript"
+  }
+ ],
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-08T00:10:23Z",
+ "brief_validation_digest": "d4d76317143f5b02fac244e192a6bcfad07a45e19e374d2c21542a6eb0d376ba",
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "model": "gpt-5.6-sol",
+ "fingerprint": "e895de451c0cfc1d",
+ "branch": "B",
+ "slices": 3,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 167,
+ "themes": 13,
+ "verified_utc": "2026-09-09T16:37:08Z",
+ "finished": "2026-09-09T16:37:07.407003+00:00",
+ "carried": "run",
+ "reported_total_tokens": 12536060,
+ "lead_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/armenia-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "66d94a302f635584da7232776611c432910eed16dcd9877b37f27cfa7b60bb44",
+ "lead_archive_bytes": 76643642,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/armenia/run.tar.zst",
+ "run_archive_sha256": "b84b5b35113efb039dfa46acb7ab3b141a64822f5da5d43590c87e8e9b1105bb",
+ "run_archive_bytes": 1083960,
+ "run_archived_utc": "2026-09-25T13:42:44.120025+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/armenia/materials.tar.zst",
+ "materials_archive_sha256": "c6d3621d7c72c3fe7279813ee98f147eeb9bb085b66397f5c97d01516b9169ef",
+ "materials_archive_bytes": 940395,
+ "materials_archived_utc": "2026-09-25T13:52:03.670446+00:00"
+}

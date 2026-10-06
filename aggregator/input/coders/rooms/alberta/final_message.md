@@ -1,0 +1,1 @@
+r/alberta — branch B; verdict: full. Evidence saturation is limited by unseen linked strategy/images, removals, and post-window continuation. Practice saturation was not demonstrated because the final slice introduced new canvas practices. Blockers: none.

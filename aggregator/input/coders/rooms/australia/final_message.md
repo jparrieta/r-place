@@ -1,0 +1,1 @@
+r/australia — **full**. Coverage saturation: complete but distributed across slices. Evidence saturation: limited by removals, unavailable images, triage windows, and unseen Discord activity. Blockers: none.

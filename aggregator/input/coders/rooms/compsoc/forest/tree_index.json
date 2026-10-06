@@ -1,0 +1,155 @@
+{
+ "compsoc": {
+  "counts": {
+   "threads_given": 2,
+   "threads_with_codes": 2,
+   "items": 7,
+   "coded": 5,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 2,
+   "orphans": 0,
+   "na_stretches": 0,
+   "coverage_of_coded_items": 0.99,
+   "threads_total_in_window": 2
+  },
+  "index": {
+   "62twdp": {
+    "0": {
+     "thread_id": "62twdp",
+     "item_id": "62twdp",
+     "parent_id": null,
+     "author": "anangusp",
+     "created_utc": 1491065556,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "placing CompSoc in r/place at (815,538)"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494549914
+     }
+    },
+    "1": {
+     "thread_id": "62twdp",
+     "item_id": "dfp6ksb",
+     "parent_id": "62twdp",
+     "author": "qaisjp",
+     "created_utc": 1491069021,
+     "dt_parent_sec": 3465,
+     "dt_thread_sec": 3465,
+     "state": "coded",
+     "code_ids": [
+      "c0002",
+      "c0003"
+     ],
+     "labels": [
+      "updating where it is to (817,538)",
+      "sharing an updated image"
+     ],
+     "sequence": [
+      "c0002",
+      "c0003"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493709652
+     }
+    },
+    "1.1": {
+     "thread_id": "62twdp",
+     "item_id": "dfpk2hf",
+     "parent_id": "dfp6ksb",
+     "author": "bewk",
+     "created_utc": 1491089354,
+     "dt_parent_sec": 20333,
+     "dt_thread_sec": 23798,
+     "state": "coded",
+     "code_ids": [
+      "c0004",
+      "c0005",
+      "c0006"
+     ],
+     "labels": [
+      "offering to help build and maintain the image as a friendly neighbor",
+      "asking the neighbors to help maintain theirs too",
+      "explaining that rival teams and alt-right users vandalized their logo"
+     ],
+     "sequence": [
+      "c0004",
+      "c0005",
+      "c0006"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493716177
+     }
+    }
+   },
+   "62yual": {
+    "0": {
+     "thread_id": "62yual",
+     "item_id": "62yual",
+     "parent_id": null,
+     "author": "anangusp",
+     "created_utc": 1491126168,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "posting an r/place image"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494552391
+     }
+    },
+    "1": {
+     "thread_id": "62yual",
+     "item_id": "dfrkb7r",
+     "parent_id": "62yual",
+     "author": "surfad",
+     "created_utc": 1491216506,
+     "dt_parent_sec": 90338,
+     "dt_thread_sec": 90338,
+     "state": "coded",
+     "code_ids": [
+      "c0008",
+      "c0009"
+     ],
+     "labels": [
+      "recounting that the void wiped them out",
+      "voting to reestablish in the top left"
+     ],
+     "sequence": [
+      "c0008",
+      "c0009"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751933
+     }
+    }
+   }
+  }
+ }
+}

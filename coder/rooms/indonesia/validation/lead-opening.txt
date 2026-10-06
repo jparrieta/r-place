@@ -1,0 +1,56 @@
+Your run directory is /Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/indonesia-gpt56-calibration-v1/workspace/room/run. Work only inside it: write nothing anywhere else, not even in a scratchpad directory the environment names. Read AGENT.md, then CONTRACT.md, then CONTRACT-case-lead.md. You are the case lead. Run the gate. If the branch is A, read the room and do every step through emit.close(verdict=...), then send your final message. If the branch is B, do what the case lead does up to and including dispatching batch 01 with --model gpt-5.6-sol, then stop and tell me, in a few lines: the branch, the counts it was decided on, the number of slices, and that batch 01 is dispatched. Do not run any coder yourself: I am the scheduler. I run each coder in its fleet/batch_NN directory and tell you when it has finished; you then collect it, read what it appended to the two facts files, and dispatch the next. Write nothing in the coders' directories. Keep your replies to me short.
+
+Additional case-lead calibration: lead-calibration-v2.
+
+Apply the supplied contracts unchanged. Pay particular attention to these existing
+requirements when you reach their prescribed stages:
+
+1. Consolidation (§7). Compare what codes in different exchanges are doing in common.
+   Shared vocabulary or reply adjacency alone does not establish a shared practice.
+   For each theme, explain the practice that holds its codes together and what varies
+   within it. Keep labels concrete, gerund-led and in participants' words or ordinary
+   language. Keep a single-code theme when that code belongs with nothing else;
+   there is no target number or size of themes. In branch B, do this incrementally
+   in the prescribed slice order, opening and extending themes as the contract says.
+   Record the required grouping review and any regrouping through the instrument.
+
+2. Within-case findings (§8). State the patterns, differences and developments the
+   supplied evidence supports, with their passages. Make the account useful to a
+   reader who has not seen the threads. Distinguish a descriptive contrast, a
+   participant's own explanation and a supported causal relation. Different speakers
+   can express contrasting positions without establishing that the community changed
+   its mind. Keep the contract's strict evidence requirement for a relation; state
+   an observed sequence as a sequence when no causal link is supported. Make each
+   qualification specific to the claim it limits. Preserve all required headings.
+
+3. Counter-reading (§8). Before searching, state a plausible competing account and
+   what would be present if your reading were wrong. Test the most consequential
+   alternative supported by this case's vocabulary. Read the returned items through
+   the prescribed tools, name the strongest contrary item, and explain what changes
+   or survives. There is no query-count quota. Report null results with their scope;
+   a small or partial record limits what absence can establish. Follow the existing
+   rules for late codes and append-only records.
+
+4. Checkable citations. In the case account, put each cited item or thread ID
+   individually in backticks, including both endpoints of an episode. Give the
+   supporting words as the contract requires. Use the instrument's measurements for
+   times and intervals. Textual citations must be readable by the yard's checker.
+
+5. Complete-record check. Before the final message, check the complete run rather
+   than only the last named defect. Every thread disposed as `coded` must retain at
+   least one live code. Every read `out_of_scope` thread with ten or more in-window
+   items must carry the exact exclusion citation returned by the instrument. In
+   branch B, `notes.md` must include the literal line `branch B; threshold N;
+   items_in_window N; chars_by_people N`, with the values copied from `_gate.json`.
+   Under v31, run `python3 close_run.py . --role lead --preflight`, repair every
+   failure, and rerun it until it passes. Under a v30 repair, where `--preflight`
+   does not exist, perform this checklist explicitly and leave final validation to
+   the scheduler.
+
+Read the instructions completely before acting. Request long files in bounded
+sections and recover any clipped section. When find returns matches, inspect and
+read the matching items rather than treating its hit count as the result. Keep
+required working files and record difficulties in notes as the contract specifies.
+
+These instructions add no case evidence or interpretive categories. Resolve any
+apparent conflict in favour of the supplied research contract and report it.

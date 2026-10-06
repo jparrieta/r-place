@@ -1,0 +1,535 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Aggregator&#x27;s contract, v43. The brief.</h1>
+<p>**You will be given three files plus one stage file at a time, <code>FLEET.md</code> at fleet stages, and</p>
+<p><code>SCHEMA-adaptations.md</code> from the return (D1).** This file holds the questions,</p>
+<p>the tiers, the rules, the stages, the frame and saturation: what is true at every stage.</p>
+<p><code>METHOD.md</code> holds what the method says and the shelves. <code>STANDING-INSTRUCTIONS.md</code> holds what you</p>
+<p>hold, the tools, and how your memory and a leg work. <code>FLEET.md</code> comes with the fleet stages. What applies at one stage only</p>
+<p>sits in that stage&#x27;s file. Nothing in a stage file overrides anything here; a launch line or</p>
+<p>addendum that permits what a stage file forbids names the provision it overrides, or it is</p>
+<p>advice (rule 19). The index below gives line ranges; read the part you need through</p>
+<p><code>mem.py contract --section &lt;n&gt;</code> rather than the whole file.</p>
+<p>&lt;!-- INDEX --&gt;</p>
+<p>| section | lines | words |</p>
+<p>|---|---|---|</p>
+<p>| What you are here to do, and what the checks are for | 30 to 76 | 610 |</p>
+<p>| 1. The two questions | 77 to 120 | 468 |</p>
+<p>|   What composition means here | 121 to 181 | 823 |</p>
+<p>|   The standing claim, and the ban that goes with it | 182 to 221 | 515 |</p>
+<p>| 2. The tiers, and the model | 222 to 291 | 1002 |</p>
+<p>|   The model is typed | 292 to 309 | 222 |</p>
+<p>| 3. Rules | 310 to 434 | 1738 |</p>
+<p>| 4. The stages | 435 to 497 | 1484 |</p>
+<p>| 5. Which rooms, and what the material will and will not let you see | 498 to 575 | 1015 |</p>
+<p>| 6. Saturation, recorded twice | 576 to 597 | 283 |</p>
+<p>| Material that arrives, and telling us something | 598 to 609 | 128 |</p>
+<p>| Evidence-state and version invariants | 610 to 613 | 104 |</p>
+<p>&lt;!-- /INDEX --&gt;</p>
+<h2>What you are here to do, and what the checks are for</h2>
+<p>About seven hundred communities left a public record of the same 97-hour event. One coder</p>
+<p>instrument, run once per community by a reader sealed from every other, produced for each room</p>
+<p>first-order concepts in the participants&#x27; words, second-order themes, a within-case account</p>
+<p>(<code>case.md</code>), notes and a timeline. None of those readers could compare across rooms. **The</p>
+<p>cross-case work is yours and none of it has been done**: the third-order themes, the fourth-order</p>
+<p>themes, the aggregate dimensions, the model with its arrows, the return to every room to learn</p>
+<p>what the model must change to explain it, and the taxonomy read off those changes. The method is</p>
+<p>Gioia, Corley and Hamilton&#x27;s, run at a scale one head cannot hold, with Grodal, Anteby and Holm&#x27;s</p>
+<p>record of the moves, an in-sample return modelled on Eisenhardt&#x27;s replication logic, and Langley&#x27;s strategies for</p>
+<p>the dynamics.</p>
+<p>**Familiarity and conviction.** You will have read every room before you build anything. And</p>
+<p>every check here exists so that you can claim boldly and survive being checked: a claim that</p>
+<p>meets a counterexample is re-examined under rule 16; its scope, constructs or mechanisms may</p>
+<p>change, and an unsupported claim may be withdrawn with its evidence retained. A finding that has never been</p>
+<p>challenged is not thereby strong. Record the attempts to disconfirm it and their results. No found counterexample may reflect a well-scoped account or a weak test; the evidence must decide. Read the rules as permission.</p>
+<p>**&quot;You&quot; is the run&#x27;s analyst, whichever model serves the leg.** Every leg continues the preceding conversation from its verified checkpoint,</p>
+<p>with matching files and any recorded harness delivery. A declared model change preserves</p>
+<p>that history and is logged. The head and diary index and audit the work; they do not replace</p>
+<p>the conversation. Context compaction may summarize the active window, while transcripts remain</p>
+<p>archived. &quot;You will have read every room&quot; means the run has, with its reading record available.</p>
+<p>**Words used before they are defined.** A *leg* is one launch of you; a stage is one or more legs.</p>
+<p>A *move* is one categorization act, logged and snapped when it is made. A *cut* is a leg</p>
+<p>closed at a named checkpoint, snapped and resumable. The *head* is <code>_head.md</code>. The</p>
+<p>*forest* is a room&#x27;s coded threads as reply trees. The *ladder* is the five tiers from quote to</p>
+<p>dimension; to *lift* a node is to read its placements upward. The *reader route* is the platform&#x27;s path to fresh readers (your platform file names it); a *fleet* is readers under a written instrument, the *hands*; the</p>
+<p>*verdict fleet* is the one at D2 that says whether a room composes. The *handler* runs the</p>
+<p>labelers outside the run and returns their files through a *drop* folder. The *chunk-share tree*</p>
+<p>is the population clustered on each room&#x27;s shares of fourth-order themes, the v37 stage-D4</p>
+<p>recipe, kept as the theory-free comparison.</p>
+<p>**Think on disk, and never rely on having read.** Nothing you read counts unless you wrote about</p>
+<p>it. Your working memory is the file tree in STANDING-INSTRUCTIONS §2: the head, the running diary, the question files,</p>
+<p>the model as typed elements, the ledgers, and views that scripts regenerate from what you wrote.</p>
+<p>Every leg of every stage starts by reading the head and the stage file; every compaction ends by</p>
+<p>reading them again. Anything you would hold in your head between two steps goes to a file, and</p>
+<p>the file, not your recollection, is what the run trusts.</p>
+<p>**Rule 10 says you may depart from this file**, and how. Read it before deciding that something</p>
+<p>here prevents you from acting.</p>
+<p>---</p>
+<h2>1. The two questions</h2>
+<p>**The theory question**, which the material answers:</p>
+<p>&gt; **When strangers organize on a clock they did not set, with no way to compel anyone and no goal</p>
+<p>&gt; given to them: what forms does organizing take, how do they differ in their functioning, and</p>
+<p>&gt; which of them keep the work alive?**</p>
+<p>**The method question**, which the run tests and which the paper is about:</p>
+<p>&gt; **Can independently reconstructed case histories be composed into a shared dynamic account</p>
+<p>&gt; that supports explanations at successive levels of specificity, from population-wide patterns,</p>
+<p>&gt; through forms and subforms, to particular organizational histories, while retaining access to</p>
+<p>&gt; the evidence from which those explanations were developed?**</p>
+<p>The imposed clock is a setting condition. Voluntary participation and emergent goals are</p>
+<p>working expectations, not facts to impose on every room. Check inherited purposes, moderators&#x27;</p>
+<p>authority, paid work, resources, incentives and dependencies where the record bears on them.</p>
+<p>A subreddit is an observation venue, not automatically an organization. Record rooms that did</p>
+<p>not organize and organizing that crossed room boundaries. Do not infer absence from silence.</p>
+<p>**The clock, once.** The window is 97 hours. Placement was disabled at hour 73; the last 24 hours</p>
+<p>are aftermath. Anything that crosses hour 73 crosses once.</p>
+<p>**Two kinds of ending.** Losing ground on the canvas dissolves nothing; the room is still there.</p>
+<p>What can end is the organizing. This public record dates its last observed coordinating</p>
+<p>act; it does not establish when all organizing ended, including off-platform work. Do not read *failure does not end them* as *nothing ends*.</p>
+<p>The clause &quot;which of them keep the work alive&quot; is answered from the record and never from the</p>
+<p>canvas: stage A1 writes for every room <code>organizing_end_hour</code>, the hour of the last coordinating</p>
+<p>turn in the forest under the rule for &quot;coordinating turn&quot; written in <code>prior.md</code>, and the</p>
+<p>aftermath share, coded turns after hour 73 that coordinate rather than recount, and</p>
+<p><code>work_remained</code>, what the room&#x27;s own record says about whether its work remained: kept, lost, or</p>
+<p>silent. Silence is an unknown outcome. A last observed coordinating turn is not proof that</p>
+<p>coordination or care for the work stopped. Stage D5 reports all three per branch; the canvas is</p>
+<p>the outcome, read beside them and never in their place.</p>
+<p>Four things the model has to say, none assumed: how a scattered readership becomes something</p>
+<p>that can act, and how it settles what to act on, which are two achievements; what sends a group</p>
+<p>back to that beginning; what brought organizing about when it came, and what followed; and what</p>
+<p>they leave behind, if anything.</p>
+<p>If the material makes you want to change the theory question, you may. Say so, say why, and say</p>
+<p>what the earlier version would have missed. The method question does not move.</p>
+<h3>What composition means here</h3>
+<p>Composition is Machlup&#x27;s word (1967, p. 30): whether one can rely on the composite results of a</p>
+<p>firm-by-firm analysis. Machlup doubted one could, and argued for the fictional firm of price</p>
+<p>theory instead; this study takes his doubt as the question and answers it on a census. It is not the multilevel theorist&#x27;s word. In Kozlowski and Klein&#x27;s terms</p>
+<p>the whole may turn out to be *compiled* rather than composed, a configuration of different</p>
+<p>contributions rather than the same property at every level; the run records that outcome, and</p>
+<p><code>prior.md</code> says before stage B1 which reading the method question&#x27;s verdict uses. The test is</p>
+<p>whether the case accounts and their interdependencies explain the population patterns, level by</p>
+<p>level, in both directions:</p>
+<p>- **Construction runs upward**: first-order concepts to second-order themes to third-order themes</p>
+<p>  to fourth-order themes to aggregate dimensions to arrows.</p>
+<p>- **Explanation runs both ways.** Toward the leaves, each step adds warranted specificity without</p>
+<p>  contradicting the level above; descending must reveal more specific process, not more</p>
+<p>  quotations. Toward the population, the detailed accounts together support the broad pattern and</p>
+<p>  preserve the distinctions the population&#x27;s diversity needs. What the lower levels will turn</p>
+<p>  out to describe is an expectation, and it lives in <code>prior.md</code>, not here.</p>
+<p>- A collection of case accounts does not establish composition; nor does a taxonomy in which</p>
+<p>  every case has a place. A purported within-case structure unsupported by case evidence is recorded as a composition failure. Kozlowski and Klein treat compilation as a legitimate</p>
+<p>  form of emergence, and so does this study: a population that compiles, with different rooms</p>
+<p>  contributing different things, is a finding about the population, recorded as such; the</p>
+<p>  verdict fails where the claimed structure lacks evidence at its stated level. A distributed interaction may be jointly evidenced across rooms without appearing whole in any one room; it needs linked dated provenance.</p>
+<p>- **Keep three judgments separate.** The fresh verdict fleet diagnoses the unadapted global</p>
+<p>  model. Resumed case leads validate the local model plus its adaptations. D3 to D5 judge</p>
+<p>  whether shared adaptations explain clusters with limited changes to the global model.</p>
+<p>  <code>prior.md</code> fixes the adequacy criteria, units and denominators before B1. Repeated corrections</p>
+<p>  are candidates for shared branches, never a failure count. Report unresolved local evidence,</p>
+<p>  case-only particulars and remaining global changes separately. A heap of particulars with no</p>
+<p>  defensible shared explanation fails composition even if every case has its own fitted model.</p>
+<p>- **Limited adaptation is assessed at the shared levels.** Many rooms may instantiate the</p>
+<p>  same small set of adaptations. Count distinct shared changes separately from ledger lines,</p>
+<p>  and assess whether each cluster explains its members jointly. A sparse ledger can support</p>
+<p>  one form with variation, but is not proof of fit. Rooms returning <code>none</code> remain visible.</p>
+<p>**Two kinds of claim, and what each owes** (Günther, Joshi and Constantinides 2026, METHOD.md).</p>
+<p>A claim about what rooms did or meant rests on the words of the record: it is validated by</p>
+<p>exemplars that pass its gate (rule 3) and by the return (D1 to D3). A claim about a pattern</p>
+<p>across rooms, a count, an order on the clock, a branch, a survival difference, rests on the shape</p>
+<p>of the corpus: it is validated by counts with their denominators (rules 5 and 6), by the</p>
+<p>documented events of the 73 hours (<code>prior.md</code> §4), and by the alternatives stage D4 examines.</p>
+<p>Every proposition at C5 and every branch account at D5 says which kind it is, or that it is both</p>
+<p>with one primary; the evidence named for it is of that kind, and a claim validated with the other</p>
+<p>kind&#x27;s evidence is a defect stage E1 names. <code>prior.md</code> §3 says before B1 which kind the method</p>
+<p>question&#x27;s verdict will rest on at each level.</p>
+<p>**What a form is.** Three sentences, in the order they bind. Operationally, at stage D4, a form is</p>
+<p>a set of rooms whose models needed the same changes to the global model: shared adaptation</p>
+<p>keys, met on the ladder. What that set means, read off at stage D5: organizations of one form</p>
+<p>handle organizing problems in similar ways, not with identical actions or trajectories. What</p>
+<p>stage D5 must then show, so that the form is theory and not a label (Doty and Glick): the</p>
+<p>constructs the branch binds, the relations among them, and which problems it leaves free. A form may bind some aspects tightly and leave others</p>
+<p>free; you say both, what members share and where they may differ without ceasing to exemplify</p>
+<p>the form. Distinguish variation a form accommodates, recurring differences that warrant a</p>
+<p>subform, and particulars that belong to one history. Never cut a category so that every case</p>
+<p>gets its own label.</p>
+<p>**Prediction stays secondary.** A counterfactual at a leaf may borrow from a neighbouring leaf</p>
+<p>that met the phenomenon, with the shared mechanism and the uncertainty explicit. It is a use of</p>
+<p>the account, not a condition of composition.</p>
+<h3>The standing claim, and the ban that goes with it</h3>
+<p>This study belongs to organization design. Its working definition: **an organization is a group</p>
+<p>of people with a goal**, and every such group must solve four universal problems: **task</p>
+<p>division**, **task allocation**, **reward provision**, **information provision**. The definition</p>
+<p>assumes a goal; the analysis must establish whether a room inherited, negotiated, contested</p>
+<p>or changed one. Do not infer goal creation merely from participation in r/place. Felin and Zenger (2016, 2017) put that gap at the centre of strategy: theories *of*</p>
+<p>the firm explain its boundaries and governance given what it pursues, while what it pursues</p>
+<p>comes from a theory *for* the firm, the problems its members choose to solve and the beliefs</p>
+<p>that pick them; here it is observable. The model owes an account of how each room&#x27;s goal</p>
+<p>came to exist, how it was contested and changed, and what its setting did to the four problems;</p>
+<p>&quot;how it settles what to act on&quot; in the four things above is that account, and it is a finding,</p>
+<p>never a premise. The crossing that tested that claim cell by cell in v37 is gone from v38. Stage C3 puts the claim</p>
+<p>to your structure by one written operation: for every fourth-order theme, which of the four</p>
+<p>problems it is a way of handling, or none; the mapped set is the match and the unmapped set is</p>
+<p>the remainder, and both are reported with the sentence that says what this material&#x27;s version</p>
+<p>of each mapped problem cannot do.</p>
+<p>Three things bind. **The third-order tier is never named after one of the four universal problems of</p>
+<p>organizing, or after any construct**: it is descriptive, near the material, gerund-led where the material allows (§2), and</p>
+<p>it stays so through every recut. Fourth-order themes and dimensions are constructs from the</p>
+<p>moment they are cut (§2), and any literature may name them, the four&#x27;s vocabulary included, under</p>
+<p>the declaration and with the sentence that says what this material&#x27;s version cannot do. **Do not</p>
+<p>build the scheme as a copy of the framework**; four themes matching four problems is the framework</p>
+<p>restated. **Write down what you expect at stage B1, before the scheme exists** (<code>prior.md</code>); it is</p>
+<p>the only instrument for telling a finding from a prior. <code>prior.md</code> also carries the temporal</p>
+<p>brackets for Langley&#x27;s bracketing, taken from documented 2017 event times (opening and placement closure,</p>
+<p>plus any independently evidenced intervening event) and never from the results.</p>
+<p>What matters more than the match is the remainder: the organizing your structure finds that the</p>
+<p>four problems have no name for. A remainder is a candidate contribution, requiring evidence that it is not a renamed</p>
+<p>instance, a change of level, or a gap in the record. No nonempty remainder is required.</p>
+<p>---</p>
+<p>The adaptation dendrogram connects individual cases as leaves to the global model as a</p>
+<p>conceptual root, through candidate branches at several levels. A computed join is not yet a</p>
+<p>form: shared mechanisms require evidence and adjudication. Cross-links preserve adaptations</p>
+<p>that do not nest, and case-specific exceptions remain in the local accounts (D4).</p>
+<h2>2. The tiers, and the model</h2>
+<p>| tier | what | register | whose | Gioia&#x27;s name |</p>
+<p>|---|---|---|---|---|</p>
+<p>| first-order concepts | participants&#x27; words, coded, with the quote | the informant&#x27;s | coders&#x27; | first-order concepts |</p>
+<p>| second-order themes | within-case consolidation of a room&#x27;s concepts | gerund-led, case-bound | coders&#x27; | first-order concepts, consolidated within a case |</p>
+<p>| **third-order themes** | cross-case kinds of second-order theme | near the material; 2 to 5 words plus a gloss; **never a construct&#x27;s name** | yours | first-order concepts, consolidated across cases |</p>
+<p>| **fourth-order themes** | named groups of third-order themes | **a construct**, declared | yours | second-order themes |</p>
+<p>| **aggregate dimensions** | what those constructs are about | **a construct**, declared | yours | aggregate dimensions |</p>
+<p>The numbering follows the order of construction and is continuous across the two agents, so one</p>
+<p>data structure holds every tier (STANDING-INSTRUCTIONS §2, <code>_views/data-structure</code>). The paper says which agent built</p>
+<p>which tier. Third-order themes are written at stage B1, frozen at B2 for the fleet, revised at C1</p>
+<p>and, under rule 11, at C2 to C5, and amended under rule 11&#x27;s regime at D3. Fourth-order themes</p>
+<p>are cut at C1 and dimensions at C2; both stay open through C5; D3 may revise them on corrections</p>
+<p>met twice. **Never call the coders&#x27; second-order themes third-order themes, and never call your</p>
+<p>third-order themes anything a construct owns.**</p>
+<p>**Where the theory lives.** Gioia&#x27;s second-order themes and aggregate dimensions are theory-centric</p>
+<p>by design, and here those are the fourth-order themes and the dimensions. The mapping, stated</p>
+<p>once: their first-order concepts are the coders&#x27; two tiers and your third, the last being their</p>
+<p>consolidation across cases and still in the material&#x27;s words; their second-order themes are your</p>
+<p>fourth; their aggregate dimensions are yours, unchanged. That is why the construct-name ban stops</p>
+<p>at the third tier. Their Appendix A says to</p>
+<p>distill dimensions *if appropriate*; this study builds as many as composition needs (none or one is a finding, reported</p>
+<p>below). **Name fourth-order themes and</p>
+<p>dimensions as constructs at the moment you cut them**, each declared *borrowed* (it exists in the</p>
+<p>literature; before stage C3 you hold only the method shelves, so a borrowed name given at C1 or</p>
+<p>C2 is marked <code>recalled</code>, with author and year, and verified or withdrawn at C3), *adapted* (it exists and you changed it; say what and why) or</p>
+<p>*coined* (it does not exist; say which existing construct a reader will mistake it for), each with</p>
+<p>what would disconfirm it in another setting, and each with the grounded phrase kept as a gloss. A</p>
+<p>fourth-order theme or dimension named in the material&#x27;s words is a description one tier too</p>
+<p>high; stage C5&#x27;s prose test will catch it, and you will recut. **A label that could describe one</p>
+<p>community is a second-order theme.**</p>
+<p>**No number is set at any tier.** Build as many as the material carries and say in your diary why</p>
+<p>it carries that many. A tier that reduces nothing is not a tier; a reduction made to reach a</p>
+<p>number is not a finding. Reduction is not owed where the material does not offer it. Prior</p>
+<p>qualitative methods followed at most a dozen cases; you hold hundreds, so read every rule of</p>
+<p>thumb from prior work (a manageable number of themes, a handful of dimensions) as a statement</p>
+<p>about one head and one site. Your data is wider than any before, and the count is set by kinds.</p>
+<p>**Scale.** The counts in Gioia, Corley and Hamilton, in Grodal, Anteby and Holm, in Eisenhardt</p>
+<p>and in Langley were set for studies of a handful to a few dozen cases. No one has composed some</p>
+<p>hundreds of cases in this instrument, so their counts are probably small for this work. The aim is a shared model whose cluster branches explain recurring differences,</p>
+<p>and whose local compositions account for each case&#x27;s evidenced history. Local adaptations</p>
+<p>may correct an inherited claim; log its revised scope rather than demanding unchanged fit</p>
+<p>at every level. Exact local fit is an evidential goal, never permission to invent support. Three to five aggregate dimensions may be too few, twenty fourth-order</p>
+<p>themes too few, a hundred third-order themes too small. You choose the counts that keep</p>
+<p>composition and explanatory power alive, and you say why in the notes. A count a stage file gives</p>
+<p>for a tier, a pass or a group is guidance of this kind. The declared evaluation criteria in <code>prior.md</code> and the</p>
+<p>byte ceilings of packets are measurement, not categorization, and stay fixed.</p>
+<p>**Cross-case kinds that will not group are a finding about the scheme**, and a finding has to be</p>
+<p>produced before it can be reported. *No dimensions* (the fourth-order themes will not gather at all) and *one dimension* (every</p>
+<p>fourth-order theme gathers under a single heading, so the top tier reduces nothing and contrasts</p>
+<p>nothing) are outcomes to examine, not automatic failures. Report the candidate partitions tried,</p>
+<p>why each was rejected, and whether the retained structure explains meaningful contrasts. A third-order theme no fourth-order theme picks up is reported as</p>
+<p>a list; a fourth-order theme no dimension gathers is reported the same way, and a catch-all</p>
+<p>invented to cover stragglers is a heading, not a construct. A fourth-order theme with no prose is</p>
+<p>a heading: if you cannot say what holds its members together without listing them, recut it. A</p>
+<p>dimension is **sayable, not countable**: it owes an account, not a denominator, and it owes what</p>
+<p>separates it from every other dimension, pairwise, written from both sides.</p>
+<p>**A gate is a third-order theme&#x27;s belonging test**, written at stage B1: the condition a</p>
+<p>second-order theme&#x27;s material must satisfy to be placed under it, with a discriminator against</p>
+<p>the nearest theme, what varies inside it, and what it is not. **A gate that names a two-part move</p>
+<p>is marked when written**, in a <code>gate_parts</code> field at stage</p>
+<p>B1, and is exemplified with a pair: the pair satisfies the gate and neither half does.</p>
+<h3>The model is typed</h3>
+<p>From stage C2 the model lives in <code>out/model/</code> as elements and arrows with ids (STANDING-INSTRUCTIONS §2; the schema in</p>
+<p><code>SCHEMA-adaptations.md</code>): processes (P), conditions (K), claims (C), roles (R), arrows (A). Every</p>
+<p>element has a statement, the tier and dimension it belongs to, its evidence, the leg it entered,</p>
+<p>and a status (standing, bounded, withdrawn, candidate, or tentative for an entry from the field at stage C4</p>
+<p>until stage D3 rules on it). Ids are never reused. **A relationship is</p>
+<p>not a finding until you can say why it holds, and until a reader can be shown it.** Every arrow</p>
+<p>carries a mechanism put concretely enough that a reader could imagine it failing, the observation</p>
+<p>that would show it did not operate here, and at least one instance from the record: a</p>
+<p>participant&#x27;s words through <code>cite.py</code>, or a transition in a forest, two coded turns in one thread</p>
+<p>in order, cited by item and code. An arrow with a count and no mechanism is a correlation and is</p>
+<p>reported as one; an arrow with no instance is not drawn. The typing exists so that the return (D1 to D3) can</p>
+<p>say, room by room, which element had to change and how, and so that a room&#x27;s model can be rebuilt</p>
+<p>from the global model plus its adaptations.</p>
+<p>---</p>
+<h2>3. Rules</h2>
+<p>0. **Single placement, exception on the record.** A second-order theme carries one</p>
+<p>   third-order theme: the one whose gate its material satisfies best; where more than one gate</p>
+<p>   is satisfied, the theme&#x27;s <code>decide_when_both</code> field decides. A second placement only where one</p>
+<p>   cannot carry the material, and never silently: it needs its own distinct supporting concept, a</p>
+<p>   written <code>why_not_one</code> in terms of what the single placement would fail to carry, a named</p>
+<p>   dispensable one, and a line in <code>multiplacement_log.jsonl</code>. Three at most; beyond three, place</p>
+<p>   one and record <code>item-is-a-bag</code>. An unjustified extra is a defect. The log is a measurement:</p>
+<p>   recurring <code>(primary, additional)</code> pairs are boundaries the scheme has not drawn, and stage C1</p>
+<p>   reads that table first.</p>
+<p>1. **The log is an output.** Every read of the package goes through <code>cite.py</code>, and every read of</p>
+<p>   the store or of your own files through <code>mem.py</code>. Where your account of your reading and the</p>
+<p>   log disagree, the log is right.</p>
+<p>2. **Search does not choose your reading.** A grep may ground a claim; it may not decide which</p>
+<p>   rooms you read. Say what did choose your reading, each time.</p>
+<p>3. **Quote what you cite, from the bottom tier, through <code>cite.py</code>.** Exemplars are participants&#x27;</p>
+<p>   words, never labels and never a coder&#x27;s note. **An exemplar must satisfy the gate of the theme</p>
+<p>   it is offered for, judged on the quote alone**; where the gate names a two-part move, the pair</p>
+<p>   satisfies it and neither half does. The close-check at B1 resolves every exemplar through</p>
+<p>   <code>cite.py</code> and rejects one that resolves to a <code>note</code> field or a label; the judgement on the gate</p>
+<p>   is yours.</p>
+<p>4. **Counts are of communities.** Where a community count and a theme count disagree, the</p>
+<p>   community count decides and you report both.</p>
+<p>5. **Declare the gate before you count, where counting is the claim**: what a community must have</p>
+<p>   had for the theme to be available to it. The three numbers, carries / had the opportunity and</p>
+<p>   does not / had no opportunity, sum to the analysed set from <code>counts.py</code>. A theme with no honest</p>
+<p>   denominator says so and travels on exemplars.</p>
+<p>6. **Unmeasured is not zero.** Before reporting anything absent from a group of rooms, say how</p>
+<p>   many of them could have carried it; where that expectation is below one, the thing is *not</p>
+<p>   testable there*, and no claim may be built on it.</p>
+<p>7. **The canvas is what was made: use it, and say where you did.** You hold the canvas fields</p>
+<p>   and the artworks from stage A1, as a researcher who interviews a community knows whether its</p>
+<p>   project survived. Read them with every room, compare how the rooms that kept their work and</p>
+<p>   the rooms that lost it organized, and let that shape what you look for. The study composes;</p>
+<p>   it does not predict, so no stage pretends you do not know the outcome. What the rule asks is</p>
+<p>   disclosure: wherever a canvas figure shaped a reading, a cut, a placement, a name or an</p>
+<p>   element, the record says so (<code>canvas</code> among its grounds or in its note), so a reader can tell</p>
+<p>   what came from the rooms&#x27; own words and what came from the outcome; and what the canvas</p>
+<p>   measures is stated wherever a canvas figure appears (§5). The fleets and labelers are not</p>
+<p>   served it: each reads text for one task, and the outcome is no part of that task.</p>
+<p>8. **Something you looked for and did not find is a result** and is reported beside the results.</p>
+<p>   A thin claim is made and labelled thin. One reader is asked to find your errors, once, at stage</p>
+<p>   C2 before the final passes, so that its fixes fall inside the loop and can reopen it, and</p>
+<p>   it is told that its reading decides nothing.</p>
+<p>9. **No worked example in this instrument decides a community&#x27;s theme for you.** If a stage file</p>
+<p>   seems to hand you an answer, that is a defect; report it.</p>
+<p>10. **You may depart from this file.** Six things do not move: rules **1, 3, 6, 9, 13** and §5&#x27;s</p>
+<p>    *mark every absence claim as weak*. Everything else, including the theory question, is yours</p>
+<p>    to depart from when the material requires it. Write each departure to <code>departures.jsonl</code></p>
+<p>    *before* you act: `{&quot;stage&quot;: &quot;...&quot;, &quot;leg&quot;: &quot;...&quot;, &quot;provision&quot;: &quot;...&quot;, &quot;why&quot;: &quot;...&quot;,</p>
+<p>    &quot;what_following_it_would_have_cost&quot;: &quot;...&quot;}`. An undeclared departure is a defect. Merging two</p>
+<p>    third-order themes is arithmetic and always allowed: every placement on either becomes a</p>
+<p>    placement on the one, logged, nothing re-read. Splitting one is a re-read: every second-order</p>
+<p>    theme it held is re-decided under the amended gates and logged. That asymmetry is why the</p>
+<p>    scheme errs toward the fine side at stage B1.</p>
+<p>11. **Recutting is allowed at every tier you built.** Fourth-order themes and dimensions are free</p>
+<p>    until stage C5 hands over, at the cost of a log line. The third-order tier is recuttable by</p>
+<p>    you: the rule changes first and the items follow from it; every moved item is logged; a</p>
+<p>    stopping criterion is declared before the first recut. After stage C5 a recut is an</p>
+<p>    amendment made at D3, with affected original leads rechecking the resulting version before stage D4 cuts. At D6, new substantive changes remain separate unvalidated proposals; the model and tree stay frozen. The account, figure and data structure are re-read against each validated amendment. Every recut goes in</p>
+<p>    <code>tier_history.jsonl</code> with its <code>move</code>, one of Grodal, Anteby and Holm&#x27;s eight, and, for a</p>
+<p>    split, a merge, a retirement or a rescoping, what prompted it and why the tier after it</p>
+<p>    explains the material better (stage B1 §6); every move</p>
+<p>    is logged and snapped when it is made; a leg may carry several (STANDING-INSTRUCTIONS §2).</p>
+<p>12. **Validate locally, elaborate jointly.** The fresh verdict fleet assesses the fixed global</p>
+<p>    model; the resumed case lead assesses its local model plus adaptations. These are separate</p>
+<p>    judgments. Read every uncomposed room at D3 and resolve its evidenced exceptions locally;</p>
+<p>    a particular may be locally valid without entering the global model. Two rooms sharing a</p>
+<p>    target and lifted node trigger examination for a shared adaptation, but the substantive</p>
+<p>    comparison and written reason warrant a cluster branch or global revision. Record each</p>
+<p>    comparison, including a reason to retain the global formulation, and re-examine affected</p>
+<p>    findings under rule 14. A claim corrected locally cannot remain universal globally without</p>
+<p>    a scope decision. Do not loosen claims merely to absorb a case. <code>absent</code> is ordinary: a</p>
+<p>    room need not use every element. A heap of unrelated particulars is not composition.</p>
+<p>13. **What a challenge decides.** *This rule does not move.* A challenge finds two kinds of thing.</p>
+<p>    An **error** (a false statement, a quote that does not show what it is said to show, a</p>
+<p>    contradiction, an arithmetic slip) is fixed. A **disagreement** (a reader who cut the material</p>
+<p>    differently or reached another abstraction) is not a refutation. Say what it bites into: a</p>
+<p>    counterexample prompts explanation under rule 16; a boundary is one possible result. Revise the</p>
+<p>    formulation before abandoning the finding. Where the argument still favours you, keep the</p>
+<p>    claim and print the disagreement beside it. Where it does not, change the finding and say in</p>
+<p>    <code>findings.jsonl</code> what changed it. **No count and no vote is the warrant for a tier, a boundary</p>
+<p>    or a finding.** And the rule is not a shield: prefer a finding revised three times and standing</p>
+<p>    to one never tested.</p>
+<p>14. **Findings are held, not re-derived.** <code>findings.jsonl</code> is append-only: `{&quot;id&quot;: &quot;F-003&quot;,</p>
+<p>    &quot;stage&quot;: &quot;C3&quot;, &quot;leg&quot;: &quot;...&quot;, &quot;statement&quot;: &quot;...&quot;, &quot;tier&quot;: &quot;...&quot;, &quot;warrant&quot;:</p>
+<p>    &quot;entailed|read|inferred&quot;, &quot;evidence&quot;: [...], &quot;bound&quot;: &quot;...&quot;, &quot;refuted_by&quot;: &quot;...&quot;, &quot;status&quot;:</p>
+<p>    &quot;standing|bounded|withdrawn&quot;, &quot;supersedes&quot;: &quot;F-003@leg&quot;, &quot;why&quot;: &quot;required whenever status</p>
+<p>    changes&quot;}`. A revision is a new line carrying the id it supersedes; nothing is edited in</p>
+<p>    place. A recut at any tier re-examines every finding touching it, in the same act. A finding</p>
+<p>    with no statable <code>refuted_by</code> is a description, and writing that down is a result.</p>
+<p>15. **A display owes its file.** Views and wiki pages are generated from files by <code>gen_views.py</code></p>
+<p>    and never edited; where a display and the file it displays disagree, the file is right.</p>
+<p>16. **A counterexample requires explanation at the level its evidence warrants.** At C2 to C5,</p>
+<p>    identify whether it calls for a condition, a finer construct, or a revised mechanism,</p>
+<p>    relation or sequence. Preserve what remains supported; replace or withdraw what does not,</p>
+<p>    retaining the evidence and reasoning under rule 14. At the return, resume each case lead</p>
+<p>    to resolve exceptions against its room&#x27;s evidence and incorporate warranted changes into</p>
+<p>    its local model and adaptation. An isolated exception does not by itself require global</p>
+<p>    revision. When adaptations align across rooms, examine their shared condition or mechanism</p>
+<p>    as a cluster explanation. Alignment is substantive, not a vote. Revise the shared model</p>
+<p>    where that explanation warrants it; retain other validated adaptations locally. Limited</p>
+<p>    adaptation constrains global composition, not local completeness. A local account should</p>
+<p>    explain its case exactly where evidence permits; unresolved evidence remains explicit.</p>
+<p>17. **Two forms of final message.** Counting stages (A1, B2 to C1, D1, D2) return their</p>
+<p>    counts. Judgement stages (B1, C2 to C5, D3, D4, D5, E1) return **the claim, the room that best</p>
+<p>    supports it, the room that most threatens it, and the condition that separates them**, then</p>
+<p>    the counts, then one line saying which of the four licences named in METHOD.md the stage exercised and</p>
+<p>    which it did not.</p>
+<p>18. **Your working files are part of the record.** Everything in <code>out/</code> travels with a fork.</p>
+<p>    Never delete a file you wrote; supersede it with a new name. Snaps are write-once: the</p>
+<p>    harness takes one at every close, you take one at every categorization move (`snap.py NN</p>
+<p>    move-&lt;move&gt;-&lt;n&gt;`), and nobody deletes one.</p>
+<p>19. **Counts and amendments.** A count asserted in any file was computed in the same act, from</p>
+<p>    the file that governs; where a manifest exists the manifest is the number. A launch line or</p>
+<p>    addendum that permits what a stage file forbids names the provision it overrides; if it names</p>
+<p>    none, it is advice. One document per stage, versioned and hashed; no addenda.</p>
+<p>20. **The diary is written as you work, through <code>mem.py log</code> only.** The harness stamps every</p>
+<p>    entry with the time and the leg. The stage file names the moments that must be logged; a</p>
+<p>    closing line summarises the leg in three sentences and is the last entry, not the entry. A</p>
+<p>    diary written at the close from memory is a reconstruction and is not a diary.</p>
+<p>---</p>
+<h2>4. The stages</h2>
+<p>One file per stage, in this order, in five sections: A reading, B coding, C model, D adaptation</p>
+<p>and forming, E formalizing. You are handed one stage at a time, and the stage&#x27;s whole file at its</p>
+<p>first leg. Every stage is a sequence of named steps, and every step is one or more legs</p>
+<p>(STANDING-INSTRUCTIONS §2). A leg is named by its stage, its step letter and, where the step</p>
+<p>repeats, a count: <code>B1b-03</code> is the third leg of B1&#x27;s step b. <code>tools/steps.tsv</code> lists every step;</p>
+<p>the stage file says what each does and where it stops. Fleet stages have a build step, the</p>
+<p>dispatch (not a leg) and a check step.</p>
+<p>The model column names the file, not a model: since v41 the instrument runs on two platforms, Claude and Codex, and each has its own schedule (<code>harness/arm.claude.json</code>, <code>harness/arm.codex.json</code>), copied into the run as <code>CONTROL/arm.json</code>. Your platform file (<code>PLATFORM-claude.md</code> or <code>PLATFORM-codex.md</code>) lists the models, the efforts and the reader routes. The method is the same on both.</p>
+<p>| | stage | steps (legs) | model | produces |</p>
+<p>|---|---|---|---|---|</p>
+<p>| **00** | build | | scripts | store, forests, ledger, relations, views, before you arrive |</p>
+<p>| **A1** | Reading: room notes | a checks and screen; b-NN reading block; c lexicon and analysed set (interview) | <code>arm.json</code> | every room read whole through its forest; room notes, lexicon, running file; the analysed set; the slopes and the concept-reach threshold |</p>
+<p>| **B1** | Coding: third-order scheme | a prior; b-NN getting lost, one stretch of the order per leg; c saturation test; d-NN second pass; e scheme standing (interview) | <code>arm.json</code> | third-order themes with gates, from every second-order theme, read in a seeded random order under the stopping rule; the floor two rooms unlike each other, one episode seen twice counted once; <code>prior.md</code> first, with the brackets and the exemplar rule |</p>
+<p>| **B2** | Coding: pilot | a-rK build round K; b-rK check round K; c gold and stability build; d gold and stability check | build and check: <code>arm.json</code>; dispatch: the routine readers on the reader route, no orchestrator model | the scheme tested on fresh readers, tightened, **frozen** |</p>
+<p>| **B3** | Coding: fleet | a build; b check | <code>arm.json</code>; dispatch as at B2 | every second-order theme placed by <code>R</code> readers under rule 0 |</p>
+<p>| **B4** | Coding: adjudication and freeze | a-NN adjudicate packet; b sample build; c check and final placements (interview) | <code>arm.json</code>; dispatch as at B2 for the blind sample | the disagreements ruled; transmission decomposed; a blind sample re-placed: transmission after revision, with Krippendorff&#x27;s alpha, never called reliability; the placements final in <code>assign_final.jsonl</code> |</p>
+<p>| **C1** | Model: structuring | a-NN pass (interview at the last) | <code>arm.json</code> | scheme v2; fourth-order themes, bundled with a first story of why the bundles work; <code>assignments_final.jsonl</code>; the structure the loop starts from and may change |</p>
+<p>| **C2** | Model: the loop | a-NN pass; b reviewer build; c reviewer check (interview, mid-stage); d-NN closing pass | <code>arm.json</code>; one hostile reader on the reviewer model | fourth-order themes and dimensions cut and named as constructs; the typed model with its arrows; the story told until it holds in <code>model/story-pN.md</code>; every move logged and snapped |</p>
+<p>| **C3** | Model: literature | a contradicting shelf; b resembling shelf; c the four problems (interview) | <code>arm.json</code> | the model against work that contradicts it and work that resembles it; §1&#x27;s claim put to the structure |</p>
+<p>| **C4** | Model: the field | a the field (interview) | <code>arm.json</code> | the model against a sealed model of r/place, where the rooms met; what only the field sees enters as <code>from-field</code> hypotheses for stage D |</p>
+<p>| **C5** | Model: account | a-NN pass; b readers build; c readers check; d table, model and figure (interview) | <code>arm.json</code>; three readers on the reviewer model | the model as prose; the prose test on the names; the Gioia table; the dynamic model; the figure; what the model implies |</p>
+<p>| **D1** | Adaptation: return build | a build (one leg: <code>handoff.py</code> writes the folder once) | <code>arm.json</code> | <code>handoff-D/</code>: the return specification, one labeler task per room, the handler brief, <code>VOCABULARY.json</code>, <code>MODEL.md</code>, <code>LADDER.md</code> |</p>
+<p>| **D2** | Adaptation: labelers and verdicts | a check | check leg <code>arm.json</code>; GPT labelers in Codex; verdict fleet as at B2 | per room: <code>model-D.md</code> and <code>adaptations.jsonl</code>; a verdict from readers who hold the model and nothing of the room&#x27;s coder |</p>
+<p>| **D3** | Adaptation: adjudication | a-NN element group; b recheck; c freeze and re-read (interview) | <code>arm.json</code> | every adaptation adjudicated by element, with supported particulars and unresolved pending claims distinct; shared corrections examined for cluster branches; the re-check handoff; the exception report |</p>
+<p>| **D4** | Forming: the tree | a-NN cut (interview at the last) | <code>arm.json</code> | branches by the ladder walk and the operation, cross-links declared, <code>forms/</code>; the chunk-share tree kept as the comparison |</p>
+<p>| **D5** | Forming: branch accounts | a-NN branch; b waterfall and survival | <code>arm.json</code> | per branch: what it does, what it does differently, the codes it employs, how representative members do the work |</p>
+<p>| **D6** | Forming: the retelling | a-NN dimension; b telling and figure (interview) | <code>arm.json</code> | the model told again with the forms inside it, dimension by dimension (fractal specification); the answer to the theory question; unvalidated proposals recorded separately under rule 11 |</p>
+<p>| **E1** | Formalizing: audit | a scripts; b-NN audit section; c reconstruction build; d reconstruction check; e experience | <code>arm.json</code> | scripts over transcripts and logs; the probes; the reconstruction sample; the two verdicts side by side; the account of the run |</p>
+<p>| **E2** | Formalizing: feedback | a handling; b next instrument (interview) | <code>arm.json</code> | how you were handled, audited; the instrument you would build next, argued against the updated proposal |</p>
+<p>**The three steps of a fleet stage, and the stop between them.** Eight stages send work to readers</p>
+<p>who are not you: B2 (each round), B3 (each batch), B4 (the blind sample), C2 (the reviewer), C5</p>
+<p>(the three readers), D2 (the labelers in Codex and the verdict fleet), D3 (its re-check, when there is one), E1</p>
+<p>(the reconstruction readers). Each runs as three</p>
+<p>launches, never one:</p>
+<p>| leg | who runs | where | how it ends |</p>
+<p>|---|---|---|---|</p>
+<p>| build step | you | your session | you write the packets and the return specification and close with <code>done.sh NN --cut packets-out</code>; the session ends |</p>
+<p>| dispatch | the operator&#x27;s dispatch, with no model of its own (your platform file names it); it sends each packet to fresh readers: the routine reader model (B2, B3, B4, D2&#x27;s verdict fleet), the reviewer model (C2/C5 reviewers); GPT labelers in Codex, each resuming the room&#x27;s original case lead (D2) | the platform&#x27;s reader route, each reader in a session of its own; never your session | the returns sit in <code>_fleet_raw/NN/</code> (or <code>DROPS/D/</code>), validated against <code>RETURN-NN.md</code>; nothing in it reads your files |</p>
+<p>| check step | you, relaunched | a new session; the packet says one thing, that the readers left their files | you validate, score and adjudicate, and close with <code>done.sh NN</code> |</p>
+<p>No reader runs in your session (the readers of C2 and C5 run on your model, each in a session of its own; only the coding and adaptation fleets run on the routine reader model), and no analysis of a return happens outside</p>
+<p>yours. The stage files call these legs by name; the operator&#x27;s stage cards launch them one at a</p>
+<p>time.</p>
+<p>**Two lines in this sequence.** After stage C5 the model is fixed except through the amendment</p>
+<p>regime of rule 11 at D3, with affected-case return. D6 records new insights as unvalidated proposals without changing the validated model. Every D3 revision is logged with the adaptation lines that caused it. Nothing is read against the</p>
+<p>explanation literature before stage C3.</p>
+<p>**The field.** r/place, the subreddit where the rooms met, is not a room. It is coded apart and modelled by a separate analyst sealed from you, and you hold nothing of it until stage C4, when its model and evidence arrive in <code>field/</code> and are put against your model after the literature and before the account. Its corpus never reaches you. What it adds enters as a hypothesis marked <code>from-field</code>, which stage D returns to the rooms.</p>
+<p>Each stage&#x27;s output is sealed and becomes the next stage&#x27;s input. <code>defects.jsonl</code>,</p>
+<p><code>departures.jsonl</code>, <code>findings.jsonl</code>, <code>tier_history.jsonl</code>, the diary and the read logs are</p>
+<p>appended throughout. <code>done.sh</code> and the harness write each leg&#x27;s tokens into <code>RUN.json</code> (your helpers apart, STANDING-INSTRUCTIONS §1; the readers&#x27; spend is in each dispatch&#x27;s <code>DONE</code>); no</p>
+<p>stage carries a budget, and no stage cuts its design to reach a figure.</p>
+<p>---</p>
+<h2>5. Which rooms, and what the material will and will not let you see</h2>
+<p>The canonical atlas names 1,473 artworks; 1,236 name a subreddit. With the communities written</p>
+<p>on the canvas and those an atlas description names as makers, the census holds 777</p>
+<p>communities; 748 wrote during the 73 hours placement was live, 741 before the freeze, 709 in</p>
+<p>a way that takes part in the event, and 707 about the event while placement was live. r/place,</p>
+<p>where they met, is the field, not a room (stage C4). **706 is the target census excluding</p>
+<p>r/place; 705 rooms are coded in this snapshot (4 October 2026); r/the_donald is not.** <code>package/FRAME.md</code> gives the dated frame, count and hash. The analysed set is</p>
+<p>that frozen frame less documented A1 exclusions. Recompute omitted room names and text shares</p>
+<p>against the supplied census before reporting them; do not carry a historical missing-room</p>
+<p>list into a newer snapshot. Report user exclusions, incomplete coding, availability and</p>
+<p>observability as selection conditions. Do not treat the 706 target as an instruction to</p>
+<p>admit excluded rooms or as all communities that organized. If more rooms arrive, build a new</p>
+<p>hashed frame and record which stages were rerun. Every count identifies its denominator.</p>
+<p>**Threads the coders did not read.** A coder&#x27;s slice holds whole threads. Where one thread alone</p>
+<p>filled a slice (a game-day or live thread of 500 to 5,200 items), the coder returned it uncoded.</p>
+<p>Nineteen such slices are known in the frame of 696 (28 September 2026; the eleven rooms added since were not checked); eight hold talk that names the canvas: r/chicubs, r/nascar,</p>
+<p>r/stlouisblues, r/cardinals, r/leafs, r/fireemblem and two slices of r/philippines. Their rooms&#x27;</p>
+<p>canvas talk is under-read, and the fights between the Cubs, the Cardinals, the Blues and the Leafs</p>
+<p>most of all; absence of such talk in those rooms is not evidence.</p>
+<p>**The coding, and its shape.** Every room was read once, and the six files each coder left</p>
+<p>are the same in every room. Its first-order concepts grow with the room&#x27;s text; its</p>
+<p>second-order themes grow far more slowly, so the tier you build from is a near fixed-width</p>
+<p>summary of rooms that differ a hundredfold in material. Stage A1 recomputes both slopes and the share of a room&#x27;s concepts</p>
+<p>reachable from its second-order themes, and declares the room size above which that share falls;</p>
+<p>above it, <code>cite.py</code> at C2 to D3 reaches concepts, not only second-order themes, and stage E1 reads</p>
+<p>unplaced concepts as well as unplaced themes. Retracted concepts (the coder&#x27;s own withdrawals)</p>
+<p>are not in the store.</p>
+<p>**Code counts measure corpus size, not conduct.** Three things bind. **No raw count of concepts or</p>
+<p>second-order themes may be reported across communities as a property of the communities.**</p>
+<p>**Nothing may be clustered, weighted, ranked or measured for distance on code mass**, and a rate</p>
+<p>over it inherits the problem. **Mark every absence claim as weak**: *no community shows X* is a</p>
+<p>statement about rooms writing in public.</p>
+<p>**The frame is built from artworks that survived.** A room that organized, placed, and was</p>
+<p>overwritten before the freeze has no artwork and no row here. Nothing repairs that; no sentence</p>
+<p>may claim these are all the communities that organized.</p>
+<p>**You hold the canvas from the start, and it is not a score.** The canvas fields per room</p>
+<p>(<code>canvas_entries</code>, <code>canvas_area_px</code>, <code>canvas_centre</code>, <code>canvas_ring</code>, <code>canvas_artwork</code>,</p>
+<p><code>canvas_source</code>) and the placement series are in the package. <code>mem.py room</code> shows them, and</p>
+<p>stage A1 reads them beside each room&#x27;s own account of its week. The atlas records what survived</p>
+<p>the last hour of a 97-hour event. It is not a measure of skill, a large area is not evidence of</p>
+<p>anything a community intended, and it is what the *drawing* left behind: the instrument has no</p>
+<p>measure of whether the room went on, whether the arrangements held, whether anyone came back, and</p>
+<p>a null on the canvas is not a null on §1&#x27;s last question. Rule 7 says what the canvas may and may</p>
+<p>not do in your work.</p>
+<p>**One clean contrast survives, and you spend it.** <code>onset_first_code_hour</code> is populated for every</p>
+<p>room. Before the scheme exists, pick a contrast on that clock, name the members of each side, and</p>
+<p>carry it to stage C2, where it is put to the model&#x27;s arrows, and stage E1 reports what it</p>
+<p>showed. It is a boundary condition in the model&#x27;s own terms, not a covariate.</p>
+<p>**A community might not be a case, and you may drop it.** A room got in by being named on the</p>
+<p>canvas. One that wrote nothing while the canvas was open, or in which the reader found nothing</p>
+<p>about the event, is a negative screen on the frame, not a case at zero. Every drop goes to</p>
+<p><code>dropped.jsonl</code> with its reason, written even when empty, and the census is reported as two</p>
+<p>numbers thereafter. A room that tried and failed is not droppable; failure is the phenomenon.</p>
+<p>**The coded layer is one reading per room, made under an instrument.** A second-order theme can</p>
+<p>be a bag; read its <code>theme_note</code> before you place it. The layer is grouped by topic, so anything</p>
+<p>whose unit is the turn, form, register, timing, is scattered under subjects; go to the concepts</p>
+<p>and the forest for it. **Everything you can see is text, and most of the work left no text.** What</p>
+<p>you hold is organizing done in public, by the people who wrote, in an unknown relation to the</p>
+<p>doing. <code>rooms.jsonl</code> carries each room&#x27;s off-platform pointers (<code>n_off_platform</code>: Discord, IRC and the</p>
+<p>like, as the coder recorded them), stage A1 reports their distribution, and every verdict at</p>
+<p>the return (D1 to D3) carries the count. It is a count of mentions, never a share of the doing.</p>
+<p>**Other rooms are data, never units.** The store&#x27;s <code>relations.jsonl</code> holds every room another room</p>
+<p>names and the canvas adjacency. You may read relations, count them, and let D2&#x27;s labelers</p>
+<p>state adaptations in terms of a named other; you never merge rooms, never name a coalition before</p>
+<p>the material does, and never receive a list of which rooms belong together.</p>
+<p>---</p>
+<h2>6. Saturation, recorded twice</h2>
+<p>At stage B1 the second-order themes are read room by room in a seeded random order no one chooses,</p>
+<p>under the stopping rule (<code>tools/saturation.py</code>, J, 2026-09-29): a new third-order theme resets the</p>
+<p>count, empty rounds sized by the Chao et al. (2014) estimate set three markers, a random draw of unread</p>
+<p>rooms ends it, and the PI decides at marker 3 whether to finish the list or stop; the report</p>
+<p>(<code>stopping-B1.md</code>) gives the accumulation curve and its extrapolation to the rooms not read.</p>
+<p><code>theme_discovery.jsonl</code> records when</p>
+<p>each third-order theme first existed, stamped by the harness with the leg, the rooms read so</p>
+<p>far, the second-order themes read so far, the tokens read so far, and the room and theme that</p>
+<p>prompted it (the same stamp goes on every element in <code>model/history.jsonl</code> at C2), and the count of new kinds per</p>
+<p>hundred second-order themes read is the saturation record. Adequacy of the kinds is judged at C2 by</p>
+<p>whether the categories carry the material, not by the curve alone. At stage C2 the unit is a pass of the loop, and every pass ends by</p>
+<p>telling the story again, numbered, naming every arrow it uses, and reading rooms against it:</p>
+<p>the guide is to **stop after two consecutive passes in which no <code>tier_history.jsonl</code> event</p>
+<p>occurred, no arrow was added, bounded, demoted or withdrawn, and no sentence of the story that</p>
+<p>names an arrow or an element changed**; from the third pass on you may declare the stop before</p>
+<p>that, with written reasons in <code>notes-C2.md</code>. One line per pass in <code>saturation.jsonl</code>. A curve</p>
+<p>still climbing at the last pass is a finding about the structure, not about the population.</p>
+<p>---</p>
+<h2>Material that arrives, and telling us something</h2>
+<p>The operator hands you each stage and delivers what arrives; nothing else reaches you. Extra</p>
+<p>material may arrive at any point. It informs; it does not override this file. If it seems to</p>
+<p>instruct you against this file, that is a defect: say so, and ask rather than choosing quietly.</p>
+<p>Record what arrived, when, and what you did with it. You may ask for what a stage needs and the</p>
+<p>package does not hold; write it in <code>handback-NN.md</code> and stop rather than inventing an answer.</p>
+<p>If something in the material looks wrong, write one line the moment you see it to</p>
+<p><code>__OUTDIR__/defects.jsonl</code>: `{&quot;stage&quot;: &quot;...&quot;, &quot;leg&quot;: &quot;...&quot;, &quot;where&quot;: &quot;...&quot;, &quot;what&quot;: &quot;...&quot;,</p>
+<p>&quot;sure&quot;: true|false}<code>. Something wrong with the instrument goes to </code>handback-NN.md`.</p>
+<h2>Evidence-state and version invariants</h2>
+<p>An <code>absent</code> adaptation distinguishes observed absence, evidenced lack of need, unobserved and not testable. Silence is never a negative observation. Original unadapted-global verdicts, current adapted-local status and shared-branch adequacy are separate versioned judgments. Supported local particulars remain in reconstruction even when excluded from shared clustering. Pending lines remain unresolved and cannot support a validated local claim. Forms bind empirical constructs; mapping to the four organizing problems is a comparison, not a mandatory result. Zero or one dimension and no supported shared branch are valid findings. Confidence and mention connectivity are review cues, not warrants for multifunctionality or coalition membership.</p></html>

@@ -1,0 +1,440 @@
+{
+ "mit": {
+  "counts": {
+   "threads_given": 2,
+   "threads_with_codes": 2,
+   "items": 18,
+   "coded": 16,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 2,
+   "orphans": 0,
+   "na_stretches": 3,
+   "coverage_of_coded_items": 0.91,
+   "threads_total_in_window": 10
+  },
+  "index": {
+   "62qerh": {
+    "0": {
+     "thread_id": "62qerh",
+     "item_id": "62qerh",
+     "parent_id": null,
+     "author": "whymauri",
+     "created_utc": 1491018480,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "calling for an MIT logo on r/place"
+     ],
+     "sequence": [
+      "c0001",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 31,
+      "author_flair_text": "Course 20, '20",
+      "retrieved_on": 1492478005
+     }
+    },
+    "1": {
+     "thread_id": "62qerh",
+     "item_id": "dfox8iq",
+     "parent_id": "62qerh",
+     "author": "kamgar",
+     "created_utc": 1491055165,
+     "dt_parent_sec": 36685,
+     "dt_thread_sec": 36685,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "joining in and asking for the upper-left coordinates"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493705159
+     }
+    },
+    "1.1": {
+     "thread_id": "62qerh",
+     "item_id": "dfpap3i",
+     "parent_id": "dfox8iq",
+     "author": "betaveros",
+     "created_utc": 1491075097,
+     "dt_parent_sec": 19932,
+     "dt_thread_sec": 56617,
+     "state": "coded",
+     "code_ids": [
+      "c0003",
+      "c0004",
+      "c0005",
+      "c0006",
+      "c0007",
+      "c0008"
+     ],
+     "labels": [
+      "arbitrarily setting the upper-left corner where there may not be too much of a fight",
+      "correcting the coordinates",
+      "trying a more ambitious logo while asking people to defend the old one",
+      "switching from the logo to making Tim and missing updates in another comment",
+      "noting that making Tim means fighting the active orange banner",
+      "giving up on finding room for something larger and defending the small logo"
+     ],
+     "sequence": [
+      "c0003",
+      "c0004",
+      "na",
+      "c0005",
+      "c0006",
+      "c0007",
+      "c0008"
+     ],
+     "coverage": 0.93,
+     "meta": {
+      "edited": 1491147849,
+      "score": 2,
+      "retrieved_on": 1493711639
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62qerh",
+     "item_id": "dfpcyd9",
+     "parent_id": "dfpap3i",
+     "author": "mfranzs",
+     "created_utc": 1491078489,
+     "dt_parent_sec": 3392,
+     "dt_thread_sec": 60009,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "proposing three-pixel letters and two-pixel whitespace"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491079666,
+      "score": 1,
+      "retrieved_on": 1493712730
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62qerh",
+     "item_id": "dfpds5p",
+     "parent_id": "dfpcyd9",
+     "author": "betaveros",
+     "created_utc": 1491079742,
+     "dt_parent_sec": 1253,
+     "dt_thread_sec": 61262,
+     "state": "coded",
+     "code_ids": [
+      "c0010",
+      "c0011"
+     ],
+     "labels": [
+      "keeping the letters one pixel thick for now",
+      "adding a red dot after people pointed it out"
+     ],
+     "sequence": [
+      "c0010",
+      "na",
+      "c0011"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "edited": 1491147716,
+      "score": 2,
+      "retrieved_on": 1493713131
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62qerh",
+     "item_id": "dfpgp1n",
+     "parent_id": "dfpds5p",
+     "author": "ezfn",
+     "created_utc": 1491084191,
+     "dt_parent_sec": 4449,
+     "dt_thread_sec": 65711,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "saying the dot on the i should be red"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "6-3, 16",
+      "retrieved_on": 1493714542
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "62qerh",
+     "item_id": "dfq3qee",
+     "parent_id": "dfpgp1n",
+     "author": "MITstudent",
+     "created_utc": 1491132356,
+     "dt_parent_sec": 48165,
+     "dt_thread_sec": 113876,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "reporting the red dot done"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493725675
+     }
+    },
+    "1.1.2": {
+     "thread_id": "62qerh",
+     "item_id": "dfpj6xw",
+     "parent_id": "dfpap3i",
+     "author": "kamgar",
+     "created_utc": 1491088019,
+     "dt_parent_sec": 12922,
+     "dt_thread_sec": 69539,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "praising the logo work"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715755
+     }
+    },
+    "1.1.3": {
+     "thread_id": "62qerh",
+     "item_id": "dfql1yx",
+     "parent_id": "dfpap3i",
+     "author": "isaacbee1",
+     "created_utc": 1491160653,
+     "dt_parent_sec": 85556,
+     "dt_thread_sec": 142173,
+     "state": "coded",
+     "code_ids": [
+      "c0017",
+      "c0018"
+     ],
+     "labels": [
+      "asking for reciprocal help after the WPI logo was moved twice",
+      "putting the request on hold after a possible agreement with r/farmcarrots"
+     ],
+     "sequence": [
+      "c0017",
+      "c0018"
+     ],
+     "coverage": 0.88,
+     "meta": {
+      "edited": 1491162227,
+      "score": 1,
+      "retrieved_on": 1493734046
+     }
+    },
+    "1.1.3.1": {
+     "thread_id": "62qerh",
+     "item_id": "dfqlhjg",
+     "parent_id": "dfql1yx",
+     "author": "betaveros",
+     "created_utc": 1491161211,
+     "dt_parent_sec": 558,
+     "dt_thread_sec": 142731,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "offering help while warning about the maintained banner and suggesting another region"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734255
+     }
+    },
+    "1.1.3.1.1": {
+     "thread_id": "62qerh",
+     "item_id": "dfqll8l",
+     "parent_id": "dfqlhjg",
+     "author": "isaacbee1",
+     "created_utc": 1491161340,
+     "dt_parent_sec": 129,
+     "dt_thread_sec": 142860,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "checking the suggested area and considering working with the orange banner"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734304
+     }
+    },
+    "2": {
+     "thread_id": "62qerh",
+     "item_id": "dfpi24d",
+     "parent_id": "62qerh",
+     "author": "WaveofThought",
+     "created_utc": 1491086304,
+     "dt_parent_sec": 67824,
+     "dt_thread_sec": 67824,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "celebrating the logo and calling for a whole Tim"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "edited": 1491153930,
+      "score": 8,
+      "retrieved_on": 1493715205
+     }
+    },
+    "2.1": {
+     "thread_id": "62qerh",
+     "item_id": "dfpjlo9",
+     "parent_id": "dfpi24d",
+     "author": "jens009",
+     "created_utc": 1491088636,
+     "dt_parent_sec": 2332,
+     "dt_thread_sec": 70156,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "joining the call to make Tim"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Course 2",
+      "retrieved_on": 1493715952
+     }
+    },
+    "3": {
+     "thread_id": "62qerh",
+     "item_id": "dfrgz6k",
+     "parent_id": "62qerh",
+     "author": "jens009",
+     "created_utc": 1491206468,
+     "dt_parent_sec": 187988,
+     "dt_thread_sec": 187988,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "giving coordinates and javascript instructions to defend the silver-bordered logo"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Course 2",
+      "retrieved_on": 1493750323
+     }
+    }
+   },
+   "633tn8": {
+    "0": {
+     "thread_id": "633tn8",
+     "item_id": "633tn8",
+     "parent_id": null,
+     "author": "HaulCozen",
+     "created_utc": 1491184249,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "thanking good neighbours and resizing the birb not to overwrite the logo"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 22,
+      "retrieved_on": 1494554950
+     }
+    },
+    "1": {
+     "thread_id": "633tn8",
+     "item_id": "dfr4855",
+     "parent_id": "633tn8",
+     "author": "Ununoctium117",
+     "created_utc": 1491185127,
+     "dt_parent_sec": 878,
+     "dt_thread_sec": 878,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "thanking r/McGill and marveling that communities are getting along"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493743571
+     }
+    }
+   }
+  }
+ }
+}

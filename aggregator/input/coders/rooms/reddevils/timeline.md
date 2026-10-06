@@ -1,0 +1,43 @@
+# timeline — r/reddevils
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 16:18 — dfnlprj is marked edited.
+- d0 03-31 22:05 — 62ohyd is marked edited.
+- d0 03-31 22:15 — dfo4ff1 is marked edited.
+- d0 03-31 23:00 — 62otsk is marked edited.
+- d0 04-01 05:53 — dfomeg0 is marked edited.
+- d0 04-01 10:26 — 62rxnh is marked edited.
+- d0 04-01 12:17 — dfou9pt speaks as a moderator.
+- d0 04-01 12:34 — 62sg18 is marked edited.
+- d0 04-01 13:34 — 62sq8a is marked edited.
+- d0 04-01 15:53 — 62tiyp is marked edited.
+- d1 04-02 05:41 — 62y32v is marked edited.
+- d1 04-02 10:12 — dfq2iqr speaks as a moderator through AutoModerator.
+- d1 04-02 11:22 — dfq3o6d is stickied, speaks as a moderator, and is marked edited.
+- d1 04-02 12:30 — dfq51sg is marked edited.
+- d1 04-02 13:11 — 62zjqh is marked edited.
+- d1 04-02 14:13 — dfq7uy9 is marked edited.
+- d1 04-02 14:43 — 62zz7w is marked edited.
+- d1 04-02 14:47 — dfq919x is marked edited.
+- d1 04-02 15:52 — dfqbnf8 speaks as a moderator and says the thread is being stickied.
+- d2 04-02 17:28 — dfqfxoz is marked edited.
+- d2 04-02 18:47 — dfqjn2w is marked edited.
+- d2 04-02 20:00 — dfqn0jg is marked edited.
+- d2 04-03 01:32 — 633q4h is marked edited.
+- d2 04-03 05:41 — dfrdi4g is marked edited.
+- d2 04-03 09:01 — dfri6j7 speaks as a moderator and is marked edited.
+- d2 04-03 10:24 — dfrjt7h is marked edited.
+- d2 04-03 11:17 — dfrl0dd says repeated “defend the crest” posts are removed as they arrive.
+- d3 04-03 17:19 — dfs0gkk is marked edited.
+- d3 04-03 18:33 — 638p12 is marked edited.
+- d3 04-03 19:00 — dfs5v5t is marked edited.
+- d3 04-03 19:05 — dfs63w9 is marked edited.
+- d3 04-03 20:29 — dfsablo is marked edited.
+- d3 04-03 20:48 — 639hl1 is marked edited.
+- d3 04-03 22:47 — dfsheht is marked edited.
+- d3 04-03 23:08 — dfsieuu is marked edited.
+- d3 04-04 09:19 — dft4ml3 is marked edited.
+- d3 04-04 10:29 — dft5zhp is marked edited.
+- d3 04-04 13:32 — dftbng2 is marked edited.
+- d3 04-04 13:57 — dftcrfn is marked edited.

@@ -1,0 +1,290 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage B1. Coding: the third-order scheme.</h1>
+<p>**Model:** as <code>arm.json</code> sets for this stage (your platform file lists the model and effort). **Legs:** one per step, and one per stretch of the order in the</p>
+<p>steps that walk it. **Fleet:** none. **Be thorough here, beyond what seems enough.** A fleet</p>
+<p>places after you, but it places only onto what this stage makes; a kind missed here is missed</p>
+<p>for the rest of the run.</p>
+<p>**Steps:** <code>B1a</code> prior; <code>B1b-01</code>, <code>B1b-02</code> ... getting lost, one stretch of the order per leg; <code>B1c</code> the saturation test; <code>B1d-01</code> ... the second pass; <code>B1e</code> the scheme standing, the handback and the interview. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after each room&#x27;s themes are placed in the working scheme and logged, and after</p>
+<p>each stretch. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh B1 --pause</code> (STANDING §2).</p>
+<p>**Startup packet, every leg:** <code>_head.md</code>, this file, the last five diary entries,</p>
+<p>the output of <code>mem.py scheme --brief</code> (the working grouping of</p>
+<p><code>scheme/scheme_current.jsonl</code> on one screen; page the file itself only for a theme you are</p>
+<p>about to change), <code>validate.py --open B1</code>. First leg only: <code>prior.md</code></p>
+<p>written before any second-order theme is opened (§1), then <code>METHOD.md</code>&#x27;s Grodal, Anteby and</p>
+<p>Holm paragraph.</p>
+<p>**Reads allowed:** second-order themes room by room through <code>mem.py theme &lt;sub&gt;/&lt;id&gt;</code> and</p>
+<p><code>codes --sub</code>; <code>pairs --level second</code>; a room&#x27;s forest and material on demand, when a theme</p>
+<p>cannot be placed without it (<code>mem.py forest</code>, <code>mem.py room</code>, <code>mem.py case</code>), each read logged</p>
+<p>with <code>mem.py log --kind opened --ids &lt;sub&gt;</code> and why; your notes through <code>mem.py note</code>;</p>
+<p><code>contrast.md</code>; <code>running-A1.md</code>; <code>lexicon-A1.md</code>; <code>dropped.jsonl</code>; <code>leads-A1.jsonl</code>;</p>
+<p><code>coordinating-rule-A1.md</code>; <code>organizing_end-A1.jsonl</code>; <code>handback-A1.md</code>; <code>mem.py neighbours</code>; quotes through</p>
+<p><code>cite.py</code> only. **Forbidden:** cutting fourth-order themes or dimensions (that is</p>
+<p>C1 and C2); citing a note as a source.</p>
+<p>**Outputs:** <code>prior.md</code>, written first; <code>scheme/scheme_current.jsonl</code> (working); <code>scheme.md</code>;</p>
+<p><code>scheme.jsonl</code>; <code>families.jsonl</code>; <code>confusions.md</code>; <code>theme_discovery.jsonl</code>; <code>saturation-B1.md</code></p>
+<p>(steps c and d); <code>stopping-B1.md</code> (the stopping rule&#x27;s report); <code>kinds-B1.jsonl</code> (the rule&#x27;s record, written by</p>
+<p><code>mem.py</code>); <code>stopping-B1-decision.jsonl</code> (the PI&#x27;s, written by <code>saturation.py decide</code>, never by</p>
+<p>you); <code>ideas-B1.jsonl</code>; <code>episodes-B1.jsonl</code>; <code>unplaced-B1.jsonl</code>; <code>tier_history.jsonl</code></p>
+<p>opened, appended to by every stage that recuts; <code>findings.jsonl</code> opened with</p>
+<p>the scheme&#x27;s claim in rule 14&#x27;s form; <code>notes-B1.md</code>.</p>
+<p><code>scheme.md</code> is not frozen here. Stage B2 tightens it against fresh readers and freezes it.</p>
+<h2>1. <code>prior.md</code> first</h2>
+<p>From <code>PRIOR-template.md</code>, every section filled and dated before the first second-order theme is</p>
+<p>opened: what you expect the scheme to hold, from the reading, and the two or three kinds the</p>
+<p>material will refuse; the expectations about the model; the</p>
+<p>composition criteria; the brackets from the canvas events; the coordinating-turn rule copied from</p>
+<p><code>coordinating-rule-A1.md</code>; the onset contrast; the exemplar rule (§3). Sections 7 and 8 (the distance weights, the</p>
+<p>concept floor and the off-platform threshold) stay empty here: they are written at D1, before</p>
+<p>any adaptation is seen. The harness seals what you write; a change after that is a departure</p>
+<p>(rule 10), and a change to the coordinating-turn rule is reported with the figures under both</p>
+<p>rules. Stage C3 reads it against the structure. Do not edit it after the first theme is opened.</p>
+<h2>2. The steps</h2>
+<p>You hold the run&#x27;s notes, not its memory: stage A1 was read by another model, and what reached</p>
+<p>you is the notes, the running file, the leads, the head and the diary. What you read here is every second-order</p>
+<p>theme of the analysed set, about 8,500 of them in the frame, each with its <code>theme_note</code> and the concepts</p>
+<p>beneath it, and they do not fit one context. So the stage walks in steps, and every step ends a</p>
+<p>leg.</p>
+<p>**B1a, the prior.** <code>prior.md</code> (§1), then the order. **The order is random, and not yours:**</p>
+<p><code>mem.py next --stage B1</code> draws it from a seed no one chooses (the sha256 of the store&#x27;s</p>
+<p><code>rooms.jsonl</code>, tag B1, frozen in <code>out/seed.txt</code> at the first draw). A random order is what makes the stopping</p>
+<p>rule&#x27;s estimates mean something, and it keeps related rooms from being read one after another,</p>
+<p>so that one room&#x27;s account does not prime the next. Say in <code>notes-B1.md</code> what you expect of it.</p>
+<p>**B1b-01, B1b-02 ... getting lost.** One stretch of the order per leg: about 3 MB of the rooms&#x27; second-order</p>
+<p>themes and their concepts (<code>mem.py room &lt;sub&gt; --size</code>: codes plus second-order themes, not the forest), several rooms, as in stage A1 (v42, J 2026-10-03), the stretch (first and last <code>order</code>) declared in the diary</p>
+<p>when the leg opens. **The next room is always <code>mem.py next --stage B1</code>**, at the start of every</p>
+<p>leg and after every compaction: it follows the order and the stopping rule below. A room is done when every one of its second-order themes is placed in</p>
+<p><code>scheme_current.jsonl</code>, or listed in <code>unplaced-B1.jsonl</code> (<code>{&quot;sub&quot;, &quot;second_order&quot;, &quot;why&quot;}</code>) when it</p>
+<p>cannot be placed at all; a theme that stands alone is placed on the rare tier, not left out. The</p>
+<p>close-check refuses a room read out of the rule&#x27;s turn, and at the last leg a walk that has</p>
+<p>neither reached the order&#x27;s end nor stopped by the PI&#x27;s decision. For each room: its second-order themes and their concepts, grouped as you go</p>
+<p>into third-order themes; for any room whose themes you cannot place with confidence, and any</p>
+<p>room your A1 note marks as unsettled or unsure, the forest and the case as well (<code>mem.py forest</code>, <code>mem.py case</code>),</p>
+<p>logged with why. Read the room on its own first. Then read it against the rooms it is tied to</p>
+<p>that you have already read (<code>mem.py neighbours</code>, <code>mem.py compare</code>, and any line of</p>
+<p><code>leads-A1.jsonl</code> that names it).</p>
+<p>**One episode seen twice.** Where two rooms tell one episode, it is one episode, not two</p>
+<p>instances. The test is the record, not the likeness of the accounts: the two rooms&#x27; concepts</p>
+<p>cite the same thread, or they tell the same artwork in the same hours. Record it in</p>
+<p><code>episodes-B1.jsonl</code>, one line per episode:</p>
+<pre><code>
+{&quot;episode&quot;: &quot;E001&quot;, &quot;rooms&quot;: [&quot;hatsune&quot;, &quot;vocaloid&quot;], &quot;same&quot;: &quot;thread|artwork&quot;,
+
+ &quot;evidence&quot;: &quot;the thread id, or the artwork and the hours&quot;, &quot;themes&quot;: [&quot;T3-014&quot;],
+
+ &quot;why&quot;: &quot;both rooms tell the deal with r/placestart over one drawing, hours 30 to 34&quot;}
+
+</code></pre>
+<p>The episode is corroborated: two rooms that could not compare notes tell it, and that makes the</p>
+<p>account of it stronger. For the floor (below) it still counts as one room. Where the two rooms&#x27;</p>
+<p>accounts disagree, say where in <code>why</code>, and place each room&#x27;s second-order theme on what its own</p>
+<p>words show. Two episodes alike in shape but on different threads or artworks are two instances.</p>
+<p>**When to stop (the PI&#x27;s rule, 2026-09-29).** An earlier run stopped after 127 rooms with both</p>
+<p>curves still climbing, and the tier it froze collapsed; this one stops only by a rule, and goes past</p>
+<p>where the literature would stop. <code>python3 tools/saturation.py status --stage B1</code> replays it from the</p>
+<p>files at any time, and <code>mem.py next --stage B1</code> follows it; you never count by hand.</p>
+<p>What it counts is <code>kinds-B1.jsonl</code>, which <code>mem.py mint</code> and <code>place</code> append with the room you are</p>
+<p>reading, which says when a theme is new, and the room whose second-order theme was placed, where</p>
+<p>the estimates count it (a theme placed into an earlier room counts in that room); a merge or a split, logged with <code>mem.py log --kind merged|split --ids &lt;T3 ids&gt;</code>, is a new</p>
+<p>theme there too (J, 2026-09-29). The file is never rewritten, so a later regrouping leaves the</p>
+<p>rule&#x27;s past as you read it; a theme placed without <code>mint</code> or <code>place</code> is a defect.</p>
+<p>- Material is counted in words, in average rooms (the analysed set&#x27;s mean). No estimate is made</p>
+<p>  before 50 average rooms, and 25 rooms, are read. While a new third-order theme has come in the</p>
+<p>  last 10 average rooms (and the last 10 rooms), you read on down the list.</p>
+<p>- After 10 without one, a round begins: the estimate from what you have read (Chao et al. 2014;</p>
+<p>  the formulas are in the tool) predicts how far the next new theme is, and you read that far,</p>
+<p>  never more than you have already read, and never more than 25 average rooms. A new theme inside a</p>
+<p>  round resets everything, and so does a new theme in the draw (J, 2026-09-29).</p>
+<p>- Three empty rounds in a row are **marker 1**, where the literature would stop. Three more are</p>
+<p>  **marker 2**. Then **the draw**: rooms taken at random from those not yet read, as many words</p>
+<p>  as the three rounds between the markers; <code>mem.py next</code> names them. The draw read is **marker 3**.</p>
+<p>- A round predicted longer than 10 average rooms is logged when it begins (`mem.py log --kind note</p>
+<p>  &quot;round &lt;n&gt;: &lt;rooms&gt;&quot;`).</p>
+<p>- At marker 3, write the report, <code>python3 tools/saturation.py report --stage B1</code> (it writes</p>
+<p>  <code>stopping-B1.md</code>: rooms read, share of the words, rooms left, words left in average rooms, the</p>
+<p>  three markers, every round, when each theme first came, and what the draw rules out), log it,</p>
+<p>  and close with <code>done.sh B1 --pause</code>. The PI decides: finish the list, or stop. The decision is</p>
+<p>  logged with <code>python3 tools/saturation.py decide --stage B1 finish|stop --why &quot;&lt;the PI&#x27;s words&gt;&quot;</code>;</p>
+<p>  <code>mem.py next</code> then follows it.</p>
+<p>- **The check-in.** If 60% of the words are read before marker 3, write the same report, log it and</p>
+<p>  close with <code>done.sh B1 --pause</code>: the PI decides to continue under the rule, finish the list or stop</p>
+<p>  (<code>saturation.py decide --stage B1 continue|finish|stop --why &quot;...&quot;</code>).</p>
+<p>- If the list ends before marker 3, every room has been read, and the report says so.</p>
+<p>Log a prospective theme when you first think of it, before it is minted: `mem.py idea &quot;&lt;label&gt;&quot;</p>
+<p>--trigger &lt;sub&gt;:&lt;tNN&gt;`; the idea log is stamped as the mints are, and the report sets the two</p>
+<p>curves side by side. The mints drive the rule.</p>
+<p>**B1c, the saturation test.** When the walk has stopped (the list&#x27;s end, or the PI&#x27;s decision</p>
+<p>after marker 3), draw a seeded sample of the rooms read (the seed and the rule in <code>notes-B1.md</code>),</p>
+<p>and read them again at the concept level, fresh, holding</p>
+<p>only <code>scheme --brief</code> and the gates. Count what does not fit: a concept or theme that needs a</p>
+<p>new kind, a split, or a gate that fails. Report it in <code>saturation-B1.md</code> with new kinds per</p>
+<p>hundred second-order themes read in the first pass (from <code>theme_discovery.jsonl</code>, by room) beside it.</p>
+<p>**B1d-01, B1d-02 ... the second pass, at twice the depth.** Read again, concepts and forests,</p>
+<p>the rooms the test found not fitting, the rooms with the most hesitations in your log, and the</p>
+<p>contrary rooms of <code>contrast.md</code>; in the order (<code>python3 tools/saturation.py order --stage B1</code> prints it),</p>
+<p>one stretch per leg. **Stop only when both hold:**</p>
+<p>every room chosen for this pass has been read, and two stretches in a row of this pass, each of at least twenty rooms, have added no new third-order theme. Record each</p>
+<p>stretch&#x27;s new kinds in <code>saturation-B1.md</code> as you go. A count still climbing at the end is a finding about the material,</p>
+<p>written down, not a reason to have stopped, and not a reason to stop.</p>
+<p>**B1e, the scheme standing.** <code>scheme.md</code>, <code>scheme.jsonl</code>, <code>families.jsonl</code>, <code>confusions.md</code></p>
+<p>(§3 to §5), the hand-over (§7), the handback, and the interview.</p>
+<p><code>theme_discovery.jsonl</code> (§6) is the saturation record of the first pass; <code>saturation-B1.md</code></p>
+<p>holds the test and the second pass.</p>
+<p>**<code>scheme/scheme_current.jsonl</code> is the grouping on disk**, one line per theme as it stands,</p>
+<p>`{&quot;theme&quot;: &quot;T3-007&quot;, &quot;label&quot;: &quot;...&quot;, &quot;members&quot;: [{&quot;sub&quot;: &quot;...&quot;, &quot;second_order&quot;: &quot;...&quot;, &quot;codes&quot;:</p>
+<p>[&quot;c0013&quot;]}]}`, rewritten at every room boundary. Three verbs write it for you, atomically, and</p>
+<p>log what they did: <code>mem.py mint</code> adds a new theme with its trigger as first member, `mem.py</p>
+<p>place &lt;sub&gt;:&lt;tNN&gt; --theme T3-NNN<code> puts a second-order theme in, </code>mem.py unplace &lt;sub&gt;:&lt;tNN&gt;</p>
+<p>[--theme T3-NNN]` takes it out. Edit it only through these verbs: the stopping rule counts what</p>
+<p>they record in <code>kinds-B1.jsonl</code>, and a placement made by hand is a defect. With</p>
+<p><code>theme_discovery.jsonl</code> it is what you read, through <code>scheme --brief</code>, at every leg start and after any compaction, before the next room, so that the</p>
+<p>grouping in your head and on disk are one; a theme the file does not hold does not exist. It is a working file (rule 18): it ships to nobody, and the fleet at B3 places from</p>
+<p>the gates, not from your grouping.</p>
+<p>**This is Gioia&#x27;s first-order analysis consolidated across cases, and it has that freedom.**</p>
+<p>Their account is the instruction: adhere faithfully to the material&#x27;s terms; make little</p>
+<p>attempt to distill, so that the number explodes on the front end; get lost before you get</p>
+<p>found; then seek similarities and differences among the many categories until the germane kinds</p>
+<p>stand, labelled in the material&#x27;s words. The hands at stage B3 remove one head&#x27;s limit, so the count is set by the</p>
+<p>material&#x27;s kinds and by what is germane to the two questions, and by nothing else.</p>
+<p>Build **third-order themes**: cross-case, near the material, in your words and not the coders&#x27;.</p>
+<p>You decide how many; say why that number and not half or double it. **No ceiling**: earlier</p>
+<p>versions capped the tier near forty, and a compression here cannot be recovered from below,</p>
+<p>because everything after it is placed under the frozen scheme. Two things set the count, and neither is a number:</p>
+<p>- **Kinds, not sizes.** Two second-order themes from different rooms are one third-order theme</p>
+<p>  when they are the same doing; two whose <code>theme_note</code>s a stranger would tell apart are not one</p>
+<p>  unless you can say what makes them one. A theme that holds many because many rooms did the</p>
+<p>  same thing stays one and carries its variation; a theme is never</p>
+<p>  split by degree.</p>
+<p>- **The asymmetry.** Merging later is arithmetic, the placements on either become placements</p>
+<p>  on one and nothing is re-read; splitting later is a re-read of every second-order theme the</p>
+<p>  theme held (rule 10). When in doubt, keep two. The order of magnitude that follows is hundreds, not</p>
+<p>  tens; say what yours came to and why, and report the size distribution (second-order themes</p>
+<p>  per theme). A theme holding more than one second-order theme in ten is read again for the</p>
+<p>  kinds inside it, and is either split or has its internal variation written out.</p>
+<p>**Do not cut fourth-order themes or dimensions.** That is C1 and C2: Gioia, Corley and</p>
+<p>Hamilton&#x27;s reduction to twenty-five or thirty came from theorizing while consolidating, which is</p>
+<p>how the story compresses the kinds; this instrument departs from that on purpose, and stage E1</p>
+<p>reports it. The tier saturates in kinds while</p>
+<p>second-order themes keep coming.</p>
+<p>Three things to state before any theme exists: <code>prior.md</code>; **the floor**; and **the gate block**,</p>
+<p>one paragraph per theme stating what a community must have had for the theme to be available to</p>
+<p>it (rule 5). **The floor is two rooms unlike each other** (in size, in side of the contrast, or in form as</p>
+<p>your notes have it): a kind seen in two such rooms enters the main scheme. Each main theme in</p>
+<p><code>scheme.jsonl</code> names them: `&quot;floor&quot;: {&quot;rooms&quot;: [&quot;&lt;sub&gt;&quot;, &quot;&lt;sub&gt;&quot;], &quot;unlike&quot;: &quot;size&quot; | &quot;side&quot; |</p>
+<p>&quot;form&quot;, &quot;why&quot;: &quot;one clause&quot;}`; unlike in size means one room holds at least twice the other&#x27;s</p>
+<p>items in the window, and the check reads that from the store. Two rooms that</p>
+<p>tell one episode (<code>episodes-B1.jsonl</code>) count as one room here. Do not raise the floor; the v35</p>
+<p>analyst&#x27;s floor of five rooms capped its tier near fifty. A kind seen in one room only goes to the</p>
+<p>rare tier,</p>
+<p>which ships in <code>scheme.jsonl</code> with every field a theme has and <code>&quot;tier&quot;: &quot;rare&quot;</code>, so that the</p>
+<p>fleet can place onto it and its count is measured rather than guessed; a rare theme is never</p>
+<p>folded into a neighbour to keep the count down.</p>
+<p>**Every grouping move is logged with its name** (`mem.py log --kind merged|split|dropped</p>
+<p>--ids ...<code>) and, when it touches an existing theme, a </code>tier_history.jsonl<code> line with its </code>move`. The gates at §3 are the asking-questions move; write the question you</p>
+<p>asked into the gate.</p>
+<p>The notes are your prior, not a source. Nothing in the scheme cites one, and <code>notes-B1.md</code> says</p>
+<p>what the second-order themes showed that the notes did not predict.</p>
+<h2>3. <code>scheme.md</code>, per third-order theme</h2>
+<p>The scheme goes to strangers holding fifty second-order themes and one family&#x27;s tests, and</p>
+<p>nothing else; refer to nothing they have not been given. Every field is a test, not a</p>
+<p>description, and every token is paid once per reader.</p>
+<p>- **An id, <code>T3-001</code> on.** Every later stage keys on it.</p>
+<p>- **A name, 2 to 5 words, near the material**, gerund-led where the material allows, never a construct&#x27;s name, never one of the four problems:</p>
+<p>  this tier stays descriptive through every recut (the contract&#x27;s §1).</p>
+<p>- **A gloss**, one sentence carrying what the name does not.</p>
+<p>- **The gate**, the field the fleet runs on, as conditions: <code>must_show</code>, <code>must_not_show</code>,</p>
+<p>  <code>decide_when_both</code> (rule 0&#x27;s tiebreak; the awkward cases show both), written so that a reader</p>
+<p>  who still needs a second placement can state its <code>why_not_one</code> in terms of what the single</p>
+<p>  placement fails to carry. A stranger holding this and nothing else places the same theme you</p>
+<p>  would.</p>
+<p>- **Discriminators**: for each near neighbour, the question that separates them, answerable</p>
+<p>  from the second-order theme in front of the reader, written from both sides.</p>
+<p>- **What varies inside it, and between what extremes.**</p>
+<p>- **What it is not**: one boundary case that looks like it and is not.</p>
+<p>- **A family.** At hundreds of themes no reader holds every gate at once, so the scheme carries</p>
+<p>  an index: every theme belongs to one family, a group a reader would confuse, named for what</p>
+<p>  its members are about in the material&#x27;s words. A family is an index and nothing else: not a</p>
+<p>  tier, not a construct, never named after one of the four problems or any construct, and</p>
+<p>  nothing downstream counts, clusters or reasons on it. The index page lists every family with</p>
+<p>  its themes&#x27; names and glosses; <code>scheme.md</code> is organised by family.</p>
+<p>- **<code>gate_parts</code>** where the gate names a two-part move, with a pair that satisfies it while</p>
+<p>  neither half does (contract §2).</p>
+<p>- **Three exemplars**, participants&#x27; words through <code>cite.py --room &lt;sub&gt; --code &lt;id&gt;</code>, each</p>
+<p>  satisfying the gate on the quote alone (rule 3). Where several quotes pass the gate, choose by</p>
+<p>  the rule you wrote in <code>prior.md</code> (<code>exemplar rule:</code>) before the first theme was opened; the</p>
+<p>  default is the line that meets the gate most directly. Name the passing quotes you did not</p>
+<p>  choose in the exemplar&#x27;s <code>rivals</code> (their code ids), so a reader can check the choice. The close-check resolves every exemplar</p>
+<p>  through <code>cite.py --resolve</code> and rejects one that resolves to a coder&#x27;s note or a label. Whether a reader sees exemplars is a declared condition of</p>
+<p>  stage B3; by default they do not ship.</p>
+<p>No counts; the counts are computed from <code>assignments_final.jsonl</code> once stage C1 has written it.</p>
+<h2>4. <code>scheme.jsonl</code> and <code>families.jsonl</code></h2>
+<p>One line per theme, the file that ships to the fleet and that every validator resolves ids</p>
+<p>against; the prose file stays authoritative for a human. <code>families.jsonl</code> beside it, one</p>
+<p>line per family: <code>{&quot;family&quot;: &quot;G03&quot;, &quot;name&quot;: &quot;...&quot;, &quot;themes&quot;: [&quot;T3-007&quot;, &quot;T3-011&quot;]}</code>. The harness</p>
+<p>assembles the fleet&#x27;s index page and per-family files from these two (<code>packets.py</code>, FLEET.md).</p>
+<pre><code>
+{&quot;id&quot;: &quot;T3-007&quot;, &quot;name&quot;: &quot;...&quot;, &quot;gloss&quot;: &quot;...&quot;, &quot;family&quot;: &quot;G03&quot;, &quot;tier&quot;: &quot;main|rare&quot;,
+
+ &quot;must_show&quot;: &quot;...&quot;, &quot;must_not_show&quot;: &quot;...&quot;, &quot;decide_when_both&quot;: &quot;...&quot;,
+
+ &quot;discriminators&quot;: [{&quot;vs&quot;: &quot;T3-011&quot;, &quot;question&quot;: &quot;...&quot;}],
+
+ &quot;varies&quot;: &quot;...&quot;, &quot;is_not&quot;: &quot;...&quot;, &quot;gate_parts&quot;: null,
+
+ &quot;exemplars&quot;: [{&quot;sub&quot;: &quot;...&quot;, &quot;quote&quot;: &quot;...&quot;, &quot;code_id&quot;: &quot;...&quot;, &quot;rivals&quot;: [&quot;c0412&quot;]}]}
+
+</code></pre>
+<h2>5. <code>confusions.md</code></h2>
+<p>The pairs you expect to be confused, ranked, with what the confusion will look like; for each,</p>
+<p>the second-order theme you would put in front of a fresh reader to expose it; your estimate of</p>
+<p>the disagreement rate on the hardest pair. Stage B2 scores it.</p>
+<h2>6. Two records</h2>
+<p>Record; do not compute.</p>
+<p>**<code>theme_discovery.jsonl</code>**: one line the first time a third-order theme exists, written as it</p>
+<p>happens by <code>mem.py mint --label &quot;...&quot; --trigger &lt;sub&gt;:&lt;theme_id&gt;</code>, stamped by the harness,</p>
+<p>never edited: `{&quot;theme&quot;: &quot;T3-007&quot;, &quot;label&quot;: &quot;...&quot;, &quot;t&quot;: &quot;&lt;ISO&gt;&quot;, &quot;leg&quot;: &quot;...&quot;,</p>
+<p>&quot;sub&quot;: &quot;...&quot;, &quot;trigger&quot;: &quot;&lt;sub&gt;:&lt;theme_id&gt;&quot;, &quot;rooms_read&quot;: 37, &quot;themes_read&quot;: 521, &quot;codes_read&quot;:</p>
+<p>3902, &quot;tokens_read&quot;: ...}`. New kinds per hundred second-order themes read is computed from</p>
+<p>these lines and nothing else.</p>
+<p>**<code>tier_history.jsonl</code>**: one line per event over every tier you own, from here to D5 and for</p>
+<p>every amendment after C5 (rule 11): `{&quot;t&quot;: &quot;&lt;ISO&gt;&quot;, &quot;stage&quot;: &quot;B1&quot;, &quot;leg&quot;: &quot;...&quot;, &quot;tier&quot;:</p>
+<p>&quot;third&quot;, &quot;id&quot;: &quot;T3-003&quot;, &quot;move&quot;: &quot;splitting&quot;, &quot;event&quot;: &quot;split&quot;, &quot;was&quot;: {&quot;label&quot;: &quot;...&quot;,</p>
+<p>&quot;members&quot;: [...]}, &quot;now&quot;: [{&quot;id&quot;: &quot;T3-003&quot;, &quot;members&quot;: [...]}, {&quot;id&quot;: &quot;T3-041&quot;, &quot;members&quot;:</p>
+<p>[...]}], &quot;prompted_by&quot;: &quot;what made you look: a room, a theme, a check, a reader, a paper&quot;,</p>
+<p>&quot;why&quot;: &quot;one clause: what the tier after the move carries that it did not before&quot;}<code>. </code>event<code> is one of </code>created<code>, </code>relabelled<code>, </code>split<code>, </code>merged<code>, </code>retired<code>, </code>members_changed`,</p>
+<p><code>rescoped</code>, <code>moved_to_rare</code>; <code>move</code> is one of Grodal, Anteby and Holm&#x27;s eight. A <code>split</code>, a</p>
+<p><code>merged</code>, a <code>retired</code>, a <code>rescoped</code> and a <code>moved_to_rare</code> line carries <code>prompted_by</code> (the check</p>
+<p>refuses one without it): a consequential move is recorded as what prompted it, the move, what</p>
+<p>changed (<code>was</code> and <code>now</code>) and why the new state explains the material better (Günther, Joshi and</p>
+<p>Constantinides 2026, METHOD.md); where you weighed another move and set it aside, name it in</p>
+<p><code>why</code>. An id is never</p>
+<p>reused.</p>
+<h2>7. Before you hand over</h2>
+<p>For each theme, the strongest argument that it is two or half of another. The stranger test:</p>
+<p>read only the gates and discriminators of three themes and place five second-order themes you</p>
+<p>have not looked at recently; report where you hesitated. Keep the ten biggest bags (second-order</p>
+<p>themes ranked by the concepts under them) in <code>notes-B1.md</code>; stage B3 flags them so readers place</p>
+<p>them from the concepts. Say which running-file entries you dropped and why. Write</p>
+<p>the token size of <code>scheme.md</code> and of the index page into <code>notes-B1.md</code>, with what you cut to get</p>
+<p>there.</p>
+<h2>Moments to log</h2>
+<p>A room opened; a theme minted (through <code>mint</code>, which logs); every merge, split, drop and</p>
+<p>relabel; a question opened (<code>_questions/&lt;slug&gt;.md</code>); a room boundary, with the rewrite of</p>
+<p><code>scheme_current.jsonl</code>; an episode seen twice; a stretch&#x27;s end, with its new kinds; the</p>
+<p>saturation test&#x27;s count; the second pass&#x27;s stop, with the two stretches that added nothing.</p>
+<h2>Final message</h2>
+<p>The claim the scheme makes about what these rooms did, the room that best supports it, the room</p>
+<p>that most threatens it, and the condition that separates them. Then: themes and rare</p>
+<p>themes; that <code>prior.md</code> came first; the order and that every room was walked; new kinds per</p>
+<p>hundred, first hundred against last; the saturation test&#x27;s count; the stretches of the second</p>
+<p>pass and the two that added nothing; the episodes seen twice; the two rooms that admitted the last theme; themes rejected</p>
+<p>and why, from <code>notes-B1.md</code>; the ranked confusions; families and the largest; the size</p>
+<p>distribution, the largest theme and what you did with it; the token sizes from <code>notes-B1.md</code>; the one second-order theme the scheme handles badly; which of</p>
+<p>the four licences in <code>METHOD.md</code> you exercised and which not (rule 17).</p>
+<h2>Close</h2>
+<p><code>done.sh B1</code> at the end of every leg; a merge or split of a theme already holding more than twenty</p>
+<p>members is logged with <code>mem.py log --kind move</code> and snapped with `python3 tools/snap.py B1</p>
+<p>move-&lt;move&gt;-&lt;n&gt;<code> when it is made; and </code>B1e` closes at the interview point below, so the third-order tier as it stood before any</p>
+<p>reader tested it can be reopened and asked why. The close-check resolves every exemplar and every id; paste its report into</p>
+<p><code>notes-B1.md</code>. At the last: <code>handback-B1.md</code>; the head updated; the closing diary line.</p>
+<p>**Interview point.** <code>B1e</code> writes <code>out/interview/B1e.md</code> (under 800 words: what you did, what you found, what surprised you, what you doubt, and the three questions you would most like to be asked) and closes with <code>done.sh B1 --cut interview</code>: the third-order tier standing, before any reader tests it: the kinds you made, the ones you nearly made, what you are unsure of. The principal investigator may talk with you here, in a fork of this leg, run in a copy of your folder as it stood at the close (not read-only; nothing done there reaches the run); the run goes on from the cut either way. <code>done.sh</code> files the brief under the leg, the stage, the step and the minute, and refuses the cut without the brief (and, at a stage&#x27;s end, without the handback).</p></html>

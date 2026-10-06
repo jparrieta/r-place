@@ -1,0 +1,289 @@
+{
+ "instrument": "v30",
+ "emit": "emit-v30",
+ "verdict": "full",
+ "verdict_note": "set by emit.close(verdict=...); a verdict that exists only as prose in case.md cannot be read back reliably",
+ "close_calls": 2,
+ "reopened_after_close": true,
+ "last_close_seq": 376,
+ "stages": [
+  {
+   "stage": "step1_brief",
+   "from": null,
+   "at_seq": 1,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step1_brief",
+   "at_seq": 349,
+   "codes_so_far": 222,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step4_themes",
+   "at_seq": 350,
+   "codes_so_far": 222,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step4_themes",
+   "at_seq": 373,
+   "codes_so_far": 222,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step6_account",
+   "from": "step5_counter",
+   "at_seq": 374,
+   "codes_so_far": 222,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step7_write",
+   "from": "step6_account",
+   "at_seq": 375,
+   "codes_so_far": 222,
+   "corpus_reads_self_reported": null
+  }
+ ],
+ "reading": {
+  "threads_disposed": 78,
+  "threads_in_corpus": 78,
+  "threads_undisposed": 0,
+  "read_in_full": 40,
+  "triaged_and_dropped": 38,
+  "unread": 0,
+  "coded": 18,
+  "items_in_threads_read": 354,
+  "items_in_window": 760,
+  "items_in_corpus_note": "in-window items only; the corpus header's headline additionally counts [CONTEXT] items",
+  "share_of_threads_disposed": 1.0,
+  "share_of_threads_read_in_full": 0.513,
+  "share_of_text_read_in_full": 0.35
+ },
+ "calls_by_stage": {
+  "step1_brief": {
+   "stage": 1,
+   "coder_stage": 2,
+   "close": 1
+  },
+  "step2_read": {
+   "coder_stage": 2,
+   "thread": 78,
+   "threads_bulk": 13
+  },
+  "step3_codes": {
+   "coder_stage": 4,
+   "code": 222,
+   "pointer": 18
+  },
+  "step6_account": {
+   "coder_stage": 2,
+   "stage": 1
+  },
+  "step7_write": {
+   "coder_stage": 3,
+   "coder_close": 2,
+   "stage": 1,
+   "close": 1
+  },
+  "step4_themes": {
+   "stage": 2,
+   "theme": 14,
+   "theme_add": 8
+  },
+  "step5_counter": {
+   "stage": 1,
+   "find": 3
+  }
+ },
+ "n_codes": 222,
+ "n_codes_emitted": 222,
+ "n_retracted": 0,
+ "n_themes": 14,
+ "n_threads": 78,
+ "n_pointers": 18,
+ "n_subreddits_named": 9,
+ "n_off_platform": 3,
+ "isolated": false,
+ "coordination_left_the_venue": true,
+ "discovered_at": {
+  "step3": 222
+ },
+ "saturation_observed": {
+  "n_codes": 222,
+  "last_step3_code_at": 222,
+  "codes_minted_after_it": 0,
+  "share_of_minting_before_last_new_step3_code": 1.0
+ },
+ "integrity": {
+  "codes_with_no_theme": [],
+  "themes_with_no_code": [],
+  "ok": true
+ },
+ "gate": {
+  "instrument": "v30",
+  "sub": "lebanon",
+  "branch": "B",
+  "threshold": 500,
+  "budget_items": 500,
+  "floor_items": 25,
+  "items_in_window": 760,
+  "items_by_people": 758,
+  "chars_by_people": 123729,
+  "threads": 78,
+  "decided_utc": "2026-09-07T23:20:07Z",
+  "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+  "slices": [
+   {
+    "batch": "01",
+    "first_thread": "62e0s8",
+    "last_thread": "62z3ta",
+    "n_threads": 43,
+    "items_in_window": 476,
+    "chars_in_window": 76899,
+    "start_utc": 1490976747,
+    "last_opening_utc": 1491131341,
+    "last_item_utc": 1492394308,
+    "start_hour": 0.21,
+    "last_opening_hour": 43.15,
+    "threads": [
+     "62e0s8",
+     "62kqje",
+     "62mclc",
+     "62iqtt",
+     "62m15f",
+     "6262in",
+     "62mmkf",
+     "62iaht",
+     "62n0o7",
+     "62lc6j",
+     "62l63t",
+     "62lwdy",
+     "62eyx9",
+     "626f8j",
+     "62k4ao",
+     "62nn2x",
+     "62npy1",
+     "62ie3k",
+     "62o3n4",
+     "62o7t5",
+     "629cz6",
+     "62pbpt",
+     "62q5qu",
+     "62r6zh",
+     "62s3gj",
+     "62s5td",
+     "62s71j",
+     "62sgw6",
+     "62suzu",
+     "62tauc",
+     "62tla0",
+     "62tpq7",
+     "62ufee",
+     "62v91n",
+     "62vh8v",
+     "62vp2e",
+     "62wpfr",
+     "62xg0x",
+     "62yg6r",
+     "62yrde",
+     "62ysga",
+     "62yvha",
+     "62z3ta"
+    ]
+   },
+   {
+    "batch": "02",
+    "first_thread": "62zdjv",
+    "last_thread": "63ehw8",
+    "n_threads": 35,
+    "items_in_window": 284,
+    "chars_in_window": 44251,
+    "start_utc": 1491136036,
+    "last_opening_utc": 1491316840,
+    "last_item_utc": 1491847064,
+    "start_hour": 44.45,
+    "last_opening_hour": 94.68,
+    "threads": [
+     "62zdjv",
+     "62zfee",
+     "62zgjg",
+     "62zwqv",
+     "6307pf",
+     "630cge",
+     "630m52",
+     "6316hg",
+     "6316xm",
+     "631l5t",
+     "631x3l",
+     "5wxa0m",
+     "632kti",
+     "635t2w",
+     "6363p9",
+     "636kaz",
+     "637dfv",
+     "637eru",
+     "637qfh",
+     "637vet",
+     "638bz9",
+     "638csr",
+     "63a0dz",
+     "63a4zx",
+     "62iung",
+     "63bqgt",
+     "63cntg",
+     "63cxnq",
+     "5z20fy",
+     "63dbn4",
+     "63dlu0",
+     "63dmje",
+     "63dn5z",
+     "63ecr3",
+     "63ehw8"
+    ]
+   }
+  ],
+  "coders": [
+   {
+    "batch": "01",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-07T23:20:34Z",
+    "run_dir": "fleet/batch_01",
+    "code_id_start": 1,
+    "pointer_id_start": 1,
+    "context_openings": 0,
+    "instrument_fingerprint": "e895de451c0cfc1d",
+    "collected_utc": "2026-09-07T23:40:38Z",
+    "codes": 88
+   },
+   {
+    "batch": "02",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-07T23:41:47Z",
+    "run_dir": "fleet/batch_02",
+    "code_id_start": 89,
+    "pointer_id_start": 6,
+    "context_openings": 13,
+    "instrument_fingerprint": "e895de451c0cfc1d",
+    "collected_utc": "2026-09-08T00:02:50Z",
+    "codes": 134
+   }
+  ],
+  "consolidated_utc": "2026-09-08T04:39:22Z",
+  "pool": {
+   "codes": 222,
+   "threads": 78,
+   "pointers": 18,
+   "batches": [
+    "01",
+    "02"
+   ]
+  }
+ },
+ "branch": "B"
+}

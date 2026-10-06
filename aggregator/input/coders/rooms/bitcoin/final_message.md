@@ -1,0 +1,1 @@
+r/bitcoin — verdict: **full**. Saturation: the record is substantial but limited by removals, partial threads, and unseen off-platform coordination. Later slices mainly deepened established practices rather than adding new core event practices. Nothing blocked completion.

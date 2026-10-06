@@ -1,0 +1,99 @@
+{
+ "bees": {
+  "counts": {
+   "threads_given": 1,
+   "threads_with_codes": 1,
+   "items": 4,
+   "coded": 3,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 1,
+   "orphans": 0,
+   "na_stretches": 0,
+   "coverage_of_coded_items": 0.95,
+   "threads_total_in_window": 7
+  },
+  "index": {
+   "632zt4": {
+    "0": {
+     "thread_id": "632zt4",
+     "item_id": "632zt4",
+     "parent_id": null,
+     "author": "BarkingTurnip",
+     "created_utc": 1491174923,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001",
+      "c0002"
+     ],
+     "labels": [
+      "changing r/trees into r/bees and their pineapple into a bee hive",
+      "asking for help and other bee ideas"
+     ],
+     "sequence": [
+      "c0001",
+      "c0002"
+     ],
+     "coverage": 0.87,
+     "meta": {
+      "score": 14,
+      "retrieved_on": 1494554525
+     }
+    },
+    "1": {
+     "thread_id": "632zt4",
+     "item_id": "dfr0enq",
+     "parent_id": "632zt4",
+     "author": "BillWarlow",
+     "created_utc": 1491180558,
+     "dt_parent_sec": 5635,
+     "dt_thread_sec": 5635,
+     "state": "coded",
+     "code_ids": [
+      "c0003",
+      "c0004"
+     ],
+     "labels": [
+      "offering a picture for what to make",
+      "showing where it is being worked on"
+     ],
+     "sequence": [
+      "c0003",
+      "c0004"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493741721
+     }
+    },
+    "2": {
+     "thread_id": "632zt4",
+     "item_id": "dfrg0i6",
+     "parent_id": "632zt4",
+     "author": "BasementBenjamin",
+     "created_utc": 1491203833,
+     "dt_parent_sec": 28910,
+     "dt_thread_sec": 28910,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "saying they can make it even bigger"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493749860
+     }
+    }
+   }
+  }
+ }
+}

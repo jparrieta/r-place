@@ -1,0 +1,1 @@
+r/smashbros — branch B; verdict: full. Code saturation: nearly complete; counter-reading added a late crediting code. Record saturation: limited by off-platform coordination and unavailable passages. Blockers: none.

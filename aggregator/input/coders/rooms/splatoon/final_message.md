@@ -1,0 +1,1 @@
+r/splatoon — branch B, verdict: full. Thematically, batch 02 added two practices while batch 03 added none. Evidentially, deleted material and partial off-platform diplomacy limit completeness. No blockers.

@@ -1,0 +1,3 @@
+Working reading before counter-search: r/ohio's visible practice centred on making and keeping a shared Ohio display, with rival attacks proposed but repeatedly weighed against defense, repair, limited numbers, and coordination.
+
+Competing account: the room was chiefly organising a raid on rivals, especially Michigan, rather than collaboratively building Ohio. If that competing account were right, the corpus should contain sustained attack instructions, reports of successful destruction, and celebration of damage to rival marks, rather than repeated turns back to defending and repairing Ohio's own work.

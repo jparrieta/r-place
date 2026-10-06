@@ -1,0 +1,26 @@
+# lexicon — r/flashtv
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Flash Emblem (62oxqj)
+- disKord (dfoq7gq)
+- yoke (dfoi5ke)
+- YOU CAN'T LOCK UP THE SUB (dfomluc)
+- grantfoolery (dfoq295)
+- speed weed (dfoqz2w)
+- the first refrigerator (dfpi0it)
+- the lattice (dfppnt1)
+- joke limbo (dfppzs5)
+- Shitpost Central City (dfpkxee)
+- 5D Chess (dfq49cl)
+- protectorate status (dfq3dw1)
+- hard-earned pixels (dfq1zfh)
+- S1 roots (dfqckby)
+- Restoration efforts (dfqrn1q)
+- white conspirators (632x80)
+- Vandal Savageism (dfqvfyl)
+- the void (dfrdrxz)
+- white faction (dfr6xal)
+- unvandalsavageized (dfs4vkr)
+- place2 (dfsy4fg)
+- YOU CANNOT LOCK UP THE VOID (dfsy9vk)

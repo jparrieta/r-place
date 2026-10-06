@@ -1,0 +1,21 @@
+# Lead running notes
+
+- Fresh run: `read state` reported cursor 0.
+- Step 1 completed before the gate: read `brief.md` and all of `openings.md`.
+- Openings orientation: ordinary DMT discussion spans the window; explicit r/place posts cluster from early April 1 through April 2. This is orientation only, not coded evidence.
+- Gate selected branch B. The lead has not read raw threads or searched the corpus.
+- Batch 01 collected: 93 threads disposed, 7 coded, 25 codes, and 9 pointers.
+- Struck batch 01's timeline line because the clause after the edit fact interpreted the comment; added an edit-only replacement and recorded the required future `notes.md` disclosure in the ledger. Kept all three lexicon lines as unglossed participant terms.
+- Carry forward: check whether batch 02 settles or rejects the redesign/extensions; preserve only text-supported links, not reply adjacency.
+- Batch 02 collected: 33 threads disposed, none coded, with no codes or pointers.
+- Facts review: retained four edit-only timeline lines and four unglossed lexicon terms; no batch 02 strikes. The batch 01 interpretive timeline clause remains struck and replaced by an edit-only fact.
+- Interpretive limit for later steps: the event-specific sequence ends in batch 01 and ordinary DMT discussion continues through batch 02, but this is sequence rather than evidence that the event ending caused the change. Batch 02 neither settles nor rejects the redesign and supplies no supported cross-slice event relation.
+- Fleet limitations to carry into final notes: no reader held the whole week; one coder per slice gives no agreement measure; the arbitrary boundary and context openings divide the record; removals and prescribed triage limit what the late slice's absence can establish.
+- Scheduler checkpoint: stop after final collection and fact review; do not consolidate or begin themes or the within-case account until resumed.
+- Resumed after the scheduler checkpoint. Consolidation pooled 25 codes, 126 dispositions, and 9 pointers. The first `emit.close()` completed, the forest was built, and `audit_fleet.py` PASSED.
+- Before step 4: group by shared practice across exchanges, not vocabulary or adjacency; read codes and slice cases in slice order; retain single-code themes when nothing else shares the practice; record the grouping review explicitly.
+- Step 4 opened four themes, all founded in batch 01; batch 02 introduced no codes and therefore no new practice. Initial grouping was reviewed across both slices and recorded through each theme's `regrouped_from` field.
+- Before counter-search, case reading: r/dmt used a short early/middle-window burst to rally people around an LSD/DMT emblem, keep and negotiate its space, propose additions/redesigns, move some coordination to Discord, and joke with “LSDMTHC”; the later slice contains ordinary DMT talk and no visible event outcome account.
+- Competing account fixed before search: the apparent local coordination was mostly outsiders' work and unanswered calls, with later participants rejecting or abandoning additions rather than sustaining them. If the reading is wrong, the record should contain explicit nonparticipation, ownership by outsiders, rejection, failure, or abandonment.
+- Counter-reading complete: the strongest contrary item was `62zhps`; it limits redesign completion but does not overturn the directly evidenced coordination. All search returns were read; no late code was needed. Grouping was reviewed again and held.
+- Case and notes completed with required headings and literal gate line. Manual complete-record review confirmed all coded threads retain live codes and the forest audit verified all required large-exclusion citations.

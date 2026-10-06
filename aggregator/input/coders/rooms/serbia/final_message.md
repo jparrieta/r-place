@@ -1,0 +1,1 @@
+r/serbia — branch B — verdict: full. Practice saturation: new practices appeared through batch 06; batch 07 added none. Record saturation: Reddit-side practice is strong, but Discord, linked images, removals, and slice boundaries leave gaps. Nothing blocked completion.

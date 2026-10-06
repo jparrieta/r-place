@@ -1,0 +1,1 @@
+r/rickandmorty — branch B — verdict `full`. Record saturation: broadly complete, though removals and external venues limit some exchanges. Practice saturation: later slices mostly repeated established practices, with only occasional new themes. Blockers: none.

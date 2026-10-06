@@ -1,0 +1,1928 @@
+{
+ "Dominican": {
+  "counts": {
+   "threads_given": 8,
+   "threads_with_codes": 8,
+   "items": 83,
+   "coded": 78,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 5,
+   "orphans": 0,
+   "na_stretches": 5,
+   "coverage_of_coded_items": 0.94,
+   "threads_total_in_window": 15
+  },
+  "index": {
+   "62u8tw": {
+    "0": {
+     "thread_id": "62u8tw",
+     "item_id": "62u8tw",
+     "parent_id": null,
+     "author": "patchzero",
+     "created_utc": 1491068790,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "calling to maintain our flag at pixel 360,25"
+     ],
+     "sequence": [
+      "c0001",
+      "na"
+     ],
+     "coverage": 0.63,
+     "meta": {
+      "score": 18,
+      "retrieved_on": 1494550087
+     }
+    },
+    "1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfp9bgh",
+     "parent_id": "62u8tw",
+     "author": "Guillermo2312",
+     "created_utc": 1491073007,
+     "dt_parent_sec": 4217,
+     "dt_thread_sec": 4217,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "backing making the white cross twice as wide and continuing to enlarge it"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493710976
+     }
+    },
+    "1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpbqt0",
+     "parent_id": "dfp9bgh",
+     "author": "patchzero",
+     "created_utc": 1491076654,
+     "dt_parent_sec": 3647,
+     "dt_thread_sec": 7864,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "approving the enlargement"
+     ],
+     "sequence": [
+      "c0003"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493712145
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpcec5",
+     "parent_id": "dfpbqt0",
+     "author": "r_stephan",
+     "created_utc": 1491077650,
+     "dt_parent_sec": 996,
+     "dt_thread_sec": 8860,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "telling them to make it three wide and think big"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493712462
+     }
+    },
+    "2": {
+     "thread_id": "62u8tw",
+     "item_id": "dfprufd",
+     "parent_id": "62u8tw",
+     "author": "mr_perfekt_dick",
+     "created_utc": 1491101451,
+     "dt_parent_sec": 32661,
+     "dt_thread_sec": 32661,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "drawing instructions for REP. DOM. and a black border"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "edited": 1491103265,
+      "score": 2,
+      "retrieved_on": 1493719947
+     }
+    },
+    "2.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpsy1n",
+     "parent_id": "dfprufd",
+     "author": "EstPC13",
+     "created_utc": 1491103321,
+     "dt_parent_sec": 1870,
+     "dt_thread_sec": 34531,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "agreeing to follow the REP. DOM. plan"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493720481
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpt73y",
+     "parent_id": "dfpsy1n",
+     "author": "mr_perfekt_dick",
+     "created_utc": 1491103741,
+     "dt_parent_sec": 420,
+     "dt_thread_sec": 34951,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "reporting the R done and starting the E"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493720601
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpu0lk",
+     "parent_id": "dfpt73y",
+     "author": "EstPC13",
+     "created_utc": 1491105261,
+     "dt_parent_sec": 1520,
+     "dt_thread_sec": 36471,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "adding to the E and starting the black border"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493720996
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpu5zv",
+     "parent_id": "dfpu0lk",
+     "author": "mr_perfekt_dick",
+     "created_utc": 1491105546,
+     "dt_parent_sec": 285,
+     "dt_thread_sec": 36756,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "celebrating making progress"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493721068
+     }
+    },
+    "2.1.1.1.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpvjhl",
+     "parent_id": "dfpu5zv",
+     "author": "EstPC13",
+     "created_utc": 1491108139,
+     "dt_parent_sec": 2593,
+     "dt_thread_sec": 39349,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "pointing out their flag in the heart section"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493721729
+     }
+    },
+    "2.1.1.1.1.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpvmey",
+     "parent_id": "dfpvjhl",
+     "author": "patchzero",
+     "created_utc": 1491108300,
+     "dt_parent_sec": 161,
+     "dt_thread_sec": 39510,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "celebrating the heart flag"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493721768
+     }
+    },
+    "2.1.1.1.1.1.2": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpvmoz",
+     "parent_id": "dfpvjhl",
+     "author": "mr_perfekt_dick",
+     "created_utc": 1491108316,
+     "dt_parent_sec": 177,
+     "dt_thread_sec": 39526,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "claiming the heart flag made with siblings"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493721772
+     }
+    },
+    "2.1.1.1.1.1.2.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqrw3k",
+     "parent_id": "dfpvmoz",
+     "author": "alternate_3",
+     "created_utc": 1491169846,
+     "dt_parent_sec": 61530,
+     "dt_thread_sec": 101056,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "warning that the heart flag is being damaged"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493737586
+     }
+    },
+    "2.1.1.1.1.1.2.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqxleu",
+     "parent_id": "dfqrw3k",
+     "author": "DowntubeShifts",
+     "created_utc": 1491176974,
+     "dt_parent_sec": 7128,
+     "dt_thread_sec": 108184,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "keeping the small heart flag intact by hand"
+     ],
+     "sequence": [
+      "c0043"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493740362
+     }
+    },
+    "3": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpwafl",
+     "parent_id": "62u8tw",
+     "author": "Guillermo2312",
+     "created_utc": 1491109683,
+     "dt_parent_sec": 40893,
+     "dt_thread_sec": 40893,
+     "state": "coded",
+     "code_ids": [
+      "c0013",
+      "c0014"
+     ],
+     "labels": [
+      "announcing the plan to mi gente",
+      "changing the plan to avoid erasing the gameboy"
+     ],
+     "sequence": [
+      "c0013",
+      "na",
+      "c0014"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "edited": 1491152257,
+      "score": 4,
+      "retrieved_on": 1493722092
+     }
+    },
+    "3.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfpzx80",
+     "parent_id": "dfpwafl",
+     "author": "patchzero",
+     "created_utc": 1491118928,
+     "dt_parent_sec": 9245,
+     "dt_thread_sec": 50138,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "praising the KLK in the plan"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493723842
+     }
+    },
+    "4": {
+     "thread_id": "62u8tw",
+     "item_id": "dfq56a2",
+     "parent_id": "62u8tw",
+     "author": "DowntubeShifts",
+     "created_utc": 1491136591,
+     "dt_parent_sec": 67801,
+     "dt_thread_sec": 67801,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "trying to maintain the pixels taken from us"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493726370
+     }
+    },
+    "5": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqfox2",
+     "parent_id": "62u8tw",
+     "author": "JD_the_Pyr0",
+     "created_utc": 1491153785,
+     "dt_parent_sec": 84995,
+     "dt_thread_sec": 84995,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "warning that the flag is being destroyed and trying to help"
+     ],
+     "sequence": [
+      "c0017"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493731446
+     }
+    },
+    "5.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqjbyh",
+     "parent_id": "dfqfox2",
+     "author": "NeedsNewPants",
+     "created_utc": 1491158443,
+     "dt_parent_sec": 4658,
+     "dt_thread_sec": 89653,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "using three accounts to repair the flag"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493733213
+     }
+    },
+    "5.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqjd6g",
+     "parent_id": "dfqjbyh",
+     "author": "JD_the_Pyr0",
+     "created_utc": 1491158488,
+     "dt_parent_sec": 45,
+     "dt_thread_sec": 89698,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "repairing one pixel every five minutes"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493733231
+     }
+    },
+    "5.1.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqkb26",
+     "parent_id": "dfqjd6g",
+     "author": "NeedsNewPants",
+     "created_utc": 1491159689,
+     "dt_parent_sec": 1201,
+     "dt_thread_sec": 90899,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "identifying bots by their lack of recent history or an organising sub"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493733683
+     }
+    },
+    "5.1.1.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqkkaq",
+     "parent_id": "dfqkb26",
+     "author": "JD_the_Pyr0",
+     "created_utc": 1491160020,
+     "dt_parent_sec": 331,
+     "dt_thread_sec": 91230,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "saying someone probably programmed the attacks on all nearby flags"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733807
+     }
+    },
+    "5.1.2": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqmzo6",
+     "parent_id": "dfqjbyh",
+     "author": "XSC",
+     "created_utc": 1491163223,
+     "dt_parent_sec": 4780,
+     "dt_thread_sec": 94433,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "directing repairs first to the upper-left blue corner"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734979
+     }
+    },
+    "5.1.2.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqn8rf",
+     "parent_id": "dfqmzo6",
+     "author": "Garci1337",
+     "created_utc": 1491163560,
+     "dt_parent_sec": 337,
+     "dt_thread_sec": 94770,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "linking a screenshot with a doubtful hmmm"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493735099
+     }
+    },
+    "5.1.2.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqngyp",
+     "parent_id": "dfqn8rf",
+     "author": "XSC",
+     "created_utc": 1491163858,
+     "dt_parent_sec": 298,
+     "dt_thread_sec": 95068,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "apologising for damaging the flag while trying to refresh"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493735210
+     }
+    },
+    "5.2": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqlsah",
+     "parent_id": "dfqfox2",
+     "author": "jojolololo",
+     "created_utc": 1491161588,
+     "dt_parent_sec": 7803,
+     "dt_thread_sec": 92798,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "asking for more people repairing"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493734398
+     }
+    },
+    "5.3": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqn8b4",
+     "parent_id": "dfqfox2",
+     "author": "NeedsNewPants",
+     "created_utc": 1491163544,
+     "dt_parent_sec": 9759,
+     "dt_thread_sec": 94754,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "sending people to check the script"
+     ],
+     "sequence": [
+      "na",
+      "c0027"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493735093
+     }
+    },
+    "6": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqkiz8",
+     "parent_id": "62u8tw",
+     "author": "DrManGu",
+     "created_utc": 1491159972,
+     "dt_parent_sec": 91182,
+     "dt_thread_sec": 91182,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "helping repair the flag"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733790
+     }
+    },
+    "7": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqmn3c",
+     "parent_id": "62u8tw",
+     "author": "808heartbreaks",
+     "created_utc": 1491162750,
+     "dt_parent_sec": 93960,
+     "dt_thread_sec": 93960,
+     "state": "coded",
+     "code_ids": [
+      "c0024",
+      "c0025"
+     ],
+     "labels": [
+      "offering a script for the Dominican flag",
+      "giving step-by-step instructions to run the flag script"
+     ],
+     "sequence": [
+      "c0024",
+      "c0025"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493734809
+     }
+    },
+    "7.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqvkvu",
+     "parent_id": "dfqmn3c",
+     "author": "francineismyname",
+     "created_utc": 1491174429,
+     "dt_parent_sec": 11679,
+     "dt_thread_sec": 105639,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "asking for help for PR brothers against NL"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493739383
+     }
+    },
+    "7.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqvr7a",
+     "parent_id": "dfqvkvu",
+     "author": "808heartbreaks",
+     "created_utc": 1491174650,
+     "dt_parent_sec": 221,
+     "dt_thread_sec": 105860,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "promising a script to help Puerto Rico"
+     ],
+     "sequence": [
+      "c0035"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493739467
+     }
+    },
+    "7.2": {
+     "thread_id": "62u8tw",
+     "item_id": "dfr77hy",
+     "parent_id": "dfqmn3c",
+     "author": "mr_perfekt_dick",
+     "created_utc": 1491188644,
+     "dt_parent_sec": 25894,
+     "dt_thread_sec": 119854,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "asking whether the script works on Mac"
+     ],
+     "sequence": [
+      "c0045"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745004
+     }
+    },
+    "8": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqp5sz",
+     "parent_id": "62u8tw",
+     "author": "MyWifeHatesFrogs",
+     "created_utc": 1491166197,
+     "dt_parent_sec": 97407,
+     "dt_thread_sec": 97407,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "saying the flag is almost back and asking for bots"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493736027
+     }
+    },
+    "8.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqqr8e",
+     "parent_id": "dfqp5sz",
+     "author": "Mean_secret_santa",
+     "created_utc": 1491168422,
+     "dt_parent_sec": 2225,
+     "dt_thread_sec": 99632,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "pointing people to the posted bot"
+     ],
+     "sequence": [
+      "c0030",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493737037
+     }
+    },
+    "9": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqt8z6",
+     "parent_id": "62u8tw",
+     "author": "Mintaka7",
+     "created_utc": 1491171532,
+     "dt_parent_sec": 102742,
+     "dt_thread_sec": 102742,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "calling the two flags small but proud"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493738241
+     }
+    },
+    "10": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqu2qu",
+     "parent_id": "62u8tw",
+     "author": "Ctrlaltdel7000",
+     "created_utc": 1491172535,
+     "dt_parent_sec": 103745,
+     "dt_thread_sec": 103745,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "calling to unite against Germans pouring beer over the flag"
+     ],
+     "sequence": [
+      "c0033"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493738644
+     }
+    },
+    "11": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqwegi",
+     "parent_id": "62u8tw",
+     "author": "Dr_Yahol",
+     "created_utc": 1491175490,
+     "dt_parent_sec": 106700,
+     "dt_thread_sec": 106700,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "calling to help boricua friends with the script"
+     ],
+     "sequence": [
+      "c0036",
+      "na"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493739785
+     }
+    },
+    "12": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqwp7x",
+     "parent_id": "62u8tw",
+     "author": "Mintaka7",
+     "created_utc": 1491175879,
+     "dt_parent_sec": 107089,
+     "dt_thread_sec": 107089,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "calling to support the boricuas"
+     ],
+     "sequence": [
+      "c0037"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493739930
+     }
+    },
+    "12.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqx06q",
+     "parent_id": "dfqwp7x",
+     "author": "DowntubeShifts",
+     "created_utc": 1491176258,
+     "dt_parent_sec": 379,
+     "dt_thread_sec": 107468,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "correcting an earlier suspicion and using one script for both flags"
+     ],
+     "sequence": [
+      "c0038"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493740076
+     }
+    },
+    "12.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqx0xv",
+     "parent_id": "dfqx06q",
+     "author": "Mintaka7",
+     "created_utc": 1491176285,
+     "dt_parent_sec": 27,
+     "dt_thread_sec": 107495,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "helping while arguing to leave the shield off the flag"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493740086
+     }
+    },
+    "12.1.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqxc0e",
+     "parent_id": "dfqx0xv",
+     "author": "DowntubeShifts",
+     "created_utc": 1491176650,
+     "dt_parent_sec": 365,
+     "dt_thread_sec": 107860,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "defending the escudito as an 8-bit approximation"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493740235
+     }
+    },
+    "12.1.1.1.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqxiz0",
+     "parent_id": "dfqxc0e",
+     "author": "Mintaka7",
+     "created_utc": 1491176890,
+     "dt_parent_sec": 240,
+     "dt_thread_sec": 108100,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "accepting the point about the escudito"
+     ],
+     "sequence": [
+      "c0042"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493740330
+     }
+    },
+    "13": {
+     "thread_id": "62u8tw",
+     "item_id": "dfqx5hd",
+     "parent_id": "62u8tw",
+     "author": "DrManGu",
+     "created_utc": 1491176445,
+     "dt_parent_sec": 107655,
+     "dt_thread_sec": 107655,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "proposing a Presidente bottle or mamajuana"
+     ],
+     "sequence": [
+      "c0040"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493740148
+     }
+    },
+    "13.1": {
+     "thread_id": "62u8tw",
+     "item_id": "dfr7z2i",
+     "parent_id": "dfqx5hd",
+     "author": "alternate_3",
+     "created_utc": 1491189578,
+     "dt_parent_sec": 13133,
+     "dt_thread_sec": 120788,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "proposing plantains for the flag"
+     ],
+     "sequence": [
+      "c0047"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493745395
+     }
+    },
+    "14": {
+     "thread_id": "62u8tw",
+     "item_id": "dfr16bz",
+     "parent_id": "62u8tw",
+     "author": "DowntubeShifts",
+     "created_utc": 1491181468,
+     "dt_parent_sec": 112678,
+     "dt_thread_sec": 112678,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "admitting a misplaced black pixel while correcting blue"
+     ],
+     "sequence": [
+      "c0044"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493742091
+     }
+    },
+    "15": {
+     "thread_id": "62u8tw",
+     "item_id": "dfr7pmv",
+     "parent_id": "62u8tw",
+     "author": "mr_perfekt_dick",
+     "created_utc": 1491189251,
+     "dt_parent_sec": 120461,
+     "dt_thread_sec": 120461,
+     "state": "coded",
+     "code_ids": [
+      "c0046",
+      "c0082"
+     ],
+     "labels": [
+      "proposing PRD between the flags to show unity",
+      "sharing a template for the PRD unity design"
+     ],
+     "sequence": [
+      "c0046",
+      "c0082"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "edited": 1491189488,
+      "score": 2,
+      "retrieved_on": 1493745248
+     }
+    },
+    "16": {
+     "thread_id": "62u8tw",
+     "item_id": "dfrbpiv",
+     "parent_id": "62u8tw",
+     "author": "Ctrlaltdel7000",
+     "created_utc": 1491194775,
+     "dt_parent_sec": 125985,
+     "dt_thread_sec": 125985,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "proposing adding a Cuban flag below ours"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493747221
+     }
+    }
+   },
+   "63013z": {
+    "0": {
+     "thread_id": "63013z",
+     "item_id": "63013z",
+     "parent_id": null,
+     "author": "Guywithredd",
+     "created_utc": 1491144782,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "asking r/Dominican to help Puerto Rico make its own flag"
+     ],
+     "sequence": [
+      "c0049"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1494552985
+     }
+    }
+   },
+   "632oii": {
+    "0": {
+     "thread_id": "632oii",
+     "item_id": "632oii",
+     "parent_id": null,
+     "author": "Mintaka7",
+     "created_utc": 1491171556,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "standing with the boricuas, small but proud"
+     ],
+     "sequence": [
+      "c0050"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 33,
+      "retrieved_on": 1494554357
+     }
+    },
+    "1": {
+     "thread_id": "632oii",
+     "item_id": "dfqvuzp",
+     "parent_id": "632oii",
+     "author": "GuyGhoul",
+     "created_utc": 1491174787,
+     "dt_parent_sec": 3231,
+     "dt_thread_sec": 3231,
+     "state": "coded",
+     "code_ids": [
+      "c0051",
+      "c0052"
+     ],
+     "labels": [
+      "asking for one Puerto Rican pixel to be fixed",
+      "appreciating the joined flags as someone from both countries"
+     ],
+     "sequence": [
+      "c0051",
+      "c0052"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493739517
+     }
+    },
+    "2": {
+     "thread_id": "632oii",
+     "item_id": "dfqvvcu",
+     "parent_id": "632oii",
+     "author": "meriti",
+     "created_utc": 1491174800,
+     "dt_parent_sec": 3244,
+     "dt_thread_sec": 3244,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "asking for help while Holland attacks"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493739523
+     }
+    },
+    "2.1": {
+     "thread_id": "632oii",
+     "item_id": "dfqw9mw",
+     "parent_id": "dfqvvcu",
+     "author": "Mintaka7",
+     "created_utc": 1491175314,
+     "dt_parent_sec": 514,
+     "dt_thread_sec": 3758,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "saying help is on the way"
+     ],
+     "sequence": [
+      "c0054"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493739719
+     }
+    },
+    "2.1.1": {
+     "thread_id": "632oii",
+     "item_id": "dfqwb2t",
+     "parent_id": "dfqw9mw",
+     "author": "meriti",
+     "created_utc": 1491175367,
+     "dt_parent_sec": 53,
+     "dt_thread_sec": 3811,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "thanking the arriving helper"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739738
+     }
+    },
+    "3": {
+     "thread_id": "632oii",
+     "item_id": "dfqwgsn",
+     "parent_id": "632oii",
+     "author": "DowntubeShifts",
+     "created_utc": 1491175575,
+     "dt_parent_sec": 4019,
+     "dt_thread_sec": 4019,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "running the script for Puerto Rico while keeping ours active"
+     ],
+     "sequence": [
+      "c0056"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739816
+     }
+    },
+    "4": {
+     "thread_id": "632oii",
+     "item_id": "dfqx38a",
+     "parent_id": "632oii",
+     "author": "Mintaka7",
+     "created_utc": 1491176365,
+     "dt_parent_sec": 4809,
+     "dt_thread_sec": 4809,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "calling to run scripts against imperialistas europeos"
+     ],
+     "sequence": [
+      "c0057"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493740118
+     }
+    },
+    "5": {
+     "thread_id": "632oii",
+     "item_id": "dfr027d",
+     "parent_id": "632oii",
+     "author": "zombierapingmachine",
+     "created_utc": 1491180132,
+     "dt_parent_sec": 8576,
+     "dt_thread_sec": 8576,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "calling to grow our flag"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493741552
+     }
+    },
+    "5.1": {
+     "thread_id": "632oii",
+     "item_id": "dfr02o9",
+     "parent_id": "dfr027d",
+     "author": "Mintaka7",
+     "created_utc": 1491180148,
+     "dt_parent_sec": 16,
+     "dt_thread_sec": 8592,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "supporting growth while worrying the boricuas are nearly conquered"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493741558
+     }
+    },
+    "6": {
+     "thread_id": "632oii",
+     "item_id": "dfr2two",
+     "parent_id": "632oii",
+     "author": "GuyGhoul",
+     "created_utc": 1491183442,
+     "dt_parent_sec": 11886,
+     "dt_thread_sec": 11886,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "fixing a white point on each flag"
+     ],
+     "sequence": [
+      "c0060"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493742890
+     }
+    },
+    "7": {
+     "thread_id": "632oii",
+     "item_id": "dfrk3zl",
+     "parent_id": "632oii",
+     "author": "Falvi",
+     "created_utc": 1491215954,
+     "dt_parent_sec": 44398,
+     "dt_thread_sec": 44398,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "invoking Wilhelmus during the flag fight"
+     ],
+     "sequence": [
+      "c0061"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493751837
+     }
+    },
+    "8": {
+     "thread_id": "632oii",
+     "item_id": "dfrp0zr",
+     "parent_id": "632oii",
+     "author": "ShamelessDistraction",
+     "created_utc": 1491225832,
+     "dt_parent_sec": 54276,
+     "dt_thread_sec": 54276,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "saying the flag is no longer visible and cursing imperialists"
+     ],
+     "sequence": [
+      "c0062"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493754537
+     }
+    },
+    "9": {
+     "thread_id": "632oii",
+     "item_id": "dfrw1js",
+     "parent_id": "632oii",
+     "author": "zombierapingmachine",
+     "created_utc": 1491234685,
+     "dt_parent_sec": 63129,
+     "dt_thread_sec": 63129,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "reporting Holland erased the flag using scripts"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "edited": 1491236494,
+      "score": 2,
+      "retrieved_on": 1493758930
+     }
+    }
+   },
+   "635fbh": {
+    "0": {
+     "thread_id": "635fbh",
+     "item_id": "635fbh",
+     "parent_id": null,
+     "author": "fprosk",
+     "created_utc": 1491206865,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "warning from Puerto Rico that the Dutch are attacking Dominican territory"
+     ],
+     "sequence": [
+      "c0064"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1494555744
+     }
+    },
+    "1": {
+     "thread_id": "635fbh",
+     "item_id": "dfrhlmj",
+     "parent_id": "635fbh",
+     "author": "Albert3232",
+     "created_utc": 1491208279,
+     "dt_parent_sec": 1414,
+     "dt_thread_sec": 1414,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "expecting to rebuild when the Netherlands goes to sleep"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493750623
+     }
+    },
+    "2": {
+     "thread_id": "635fbh",
+     "item_id": "dfrlm3b",
+     "parent_id": "635fbh",
+     "author": "alternate_3",
+     "created_utc": 1491219664,
+     "dt_parent_sec": 12799,
+     "dt_thread_sec": 12799,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "proposing a DR and PR unity square"
+     ],
+     "sequence": [
+      "c0066"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493752883
+     }
+    },
+    "3": {
+     "thread_id": "635fbh",
+     "item_id": "dfrn5x0",
+     "parent_id": "635fbh",
+     "author": "Ctrlaltdel7000",
+     "created_utc": 1491222767,
+     "dt_parent_sec": 15902,
+     "dt_thread_sec": 15902,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "proposing the Antilles on top of the Dutch crest"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493753641
+     }
+    }
+   },
+   "636a61": {
+    "0": {
+     "thread_id": "636a61",
+     "item_id": "636a61",
+     "parent_id": null,
+     "author": "r_stephan",
+     "created_utc": 1491220519,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "asking people to back a diplomatic proposal and rebuild at new coordinates"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1494556175
+     }
+    },
+    "1": {
+     "thread_id": "636a61",
+     "item_id": "dfrmq1w",
+     "parent_id": "636a61",
+     "author": "808heartbreaks",
+     "created_utc": 1491221949,
+     "dt_parent_sec": 1430,
+     "dt_thread_sec": 1430,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "asking whether to edit an earlier request while the script runs at home"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493753428
+     }
+    },
+    "1.1": {
+     "thread_id": "636a61",
+     "item_id": "dfrnerl",
+     "parent_id": "dfrmq1w",
+     "author": "r_stephan",
+     "created_utc": 1491223213,
+     "dt_parent_sec": 1264,
+     "dt_thread_sec": 2694,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "agreeing to edit because the old spot is gone"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493753758
+     }
+    },
+    "1.1.1": {
+     "thread_id": "636a61",
+     "item_id": "dfrnzy2",
+     "parent_id": "dfrnerl",
+     "author": "808heartbreaks",
+     "created_utc": 1491224205,
+     "dt_parent_sec": 992,
+     "dt_thread_sec": 3686,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "refusing to fold while an unattended script keeps drawing at the old location"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493754040
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "636a61",
+     "item_id": "dfrpn0o",
+     "parent_id": "dfrnzy2",
+     "author": "LeTomato52",
+     "created_utc": 1491226735,
+     "dt_parent_sec": 2530,
+     "dt_thread_sec": 6216,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "warning from the Texas flag that Europeans take flags when people sleep"
+     ],
+     "sequence": [
+      "c0072"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493754930
+     }
+    }
+   },
+   "636jb0": {
+    "0": {
+     "thread_id": "636jb0",
+     "item_id": "636jb0",
+     "parent_id": null,
+     "author": "Ctrlaltdel7000",
+     "created_utc": 1491223670,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "starting a Dominican flag at 246,98 on a destroyed green flag"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494556305
+     }
+    },
+    "1": {
+     "thread_id": "636jb0",
+     "item_id": "dfrnsi3",
+     "parent_id": "636jb0",
+     "author": "josetavares",
+     "created_utc": 1491223859,
+     "dt_parent_sec": 189,
+     "dt_thread_sec": 189,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "countering with the old coordinates 362,26"
+     ],
+     "sequence": [
+      "c0074"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493753941
+     }
+    },
+    "1.1": {
+     "thread_id": "636jb0",
+     "item_id": "dfrntmf",
+     "parent_id": "dfrnsi3",
+     "author": "josetavares",
+     "created_utc": 1491223914,
+     "dt_parent_sec": 55,
+     "dt_thread_sec": 244,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "calling to make it bigger and say goodbye to gameboy"
+     ],
+     "sequence": [
+      "c0075"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493753956
+     }
+    },
+    "2": {
+     "thread_id": "636jb0",
+     "item_id": "dfrphgy",
+     "parent_id": "636jb0",
+     "author": "DanDaDestroyer",
+     "created_utc": 1491226512,
+     "dt_parent_sec": 2842,
+     "dt_thread_sec": 2842,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "agreeing while asking where to coordinate the new flag"
+     ],
+     "sequence": [
+      "c0076"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493754851
+     }
+    },
+    "3": {
+     "thread_id": "636jb0",
+     "item_id": "dfrsxnn",
+     "parent_id": "636jb0",
+     "author": "Mintaka7",
+     "created_utc": 1491231019,
+     "dt_parent_sec": 7349,
+     "dt_thread_sec": 7349,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "asking whether to use a script or coordinate manually"
+     ],
+     "sequence": [
+      "c0077"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493756875
+     }
+    },
+    "3.1": {
+     "thread_id": "636jb0",
+     "item_id": "dfrwrfi",
+     "parent_id": "dfrsxnn",
+     "author": "Ctrlaltdel7000",
+     "created_utc": 1491235519,
+     "dt_parent_sec": 4500,
+     "dt_thread_sec": 11849,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "preferring to coordinate manually"
+     ],
+     "sequence": [
+      "c0078"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493759300
+     }
+    }
+   },
+   "6383dc": {
+    "0": {
+     "thread_id": "6383dc",
+     "item_id": "6383dc",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491239103,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "making a small flag after placement ended"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 0.76,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494557089
+     }
+    }
+   },
+   "639pdq": {
+    "0": {
+     "thread_id": "639pdq",
+     "item_id": "639pdq",
+     "parent_id": null,
+     "author": "MyWifeHatesFrogs",
+     "created_utc": 1491254582,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "celebrating barely making it and asking for more Dominicans on Reddit"
+     ],
+     "sequence": [
+      "c0080"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494557897
+     }
+    }
+   }
+  }
+ }
+}

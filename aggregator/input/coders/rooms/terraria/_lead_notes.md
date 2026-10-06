@@ -1,0 +1,24 @@
+# Lead notes
+
+- Starting fresh: `read.py state` reported cursor 0.
+- Read `brief.md` and all of `openings.md` before the gate, as required.
+- Orientation: ordinary help, build-sharing, troubleshooting, and the weekly contest surround a concentrated run of r/place posts. Canvas conduct begins with Night's Edge/logo proposals, expands to Guide, Meowmere, tree and bunny work, includes coordination around other subreddits and scripts, and continues through the finish announcement; ordinary Terraria posts continue throughout and after it.
+- Gate: branch B; threshold 500; items_in_window 1747; chars_by_people 230093. Four slices. Dispatch batch 01 next; do not read raw threads or search while the fleet runs.
+- Collected batch 01. Facts review: struck the `dfp42gq` timeline line because “likely cooperation” is interpretive; retained five edit-fact lines and both lexicon lines. State this strike in final `notes.md`. Carry forward the unresolved repair/cooperation question and the canvas-versus-Discord distinction.
+- Before next fleet step: dispatch batch 02 only after this review.
+- Collected batch 02. Facts review: no new strikes; eleven entries are marked-edit facts with descriptions of the edited text, and six lexicon entries are unglossed. The collector warned that the coder rewrote `timeline.md`; inspection confirmed the prior lines and batch-01 strike were preserved. Record this and the batch-01 strike in final `notes.md`.
+- Carry forward: inherited Night’s Edge priority, proposed border cooperation, automatic maintenance, rebuilding, and snapshotting; do not infer script uptake or cooperation without explicit evidence.
+- Before next fleet step: dispatch batch 03 only after this review.
+- Collected batch 03. Facts review: no strikes; fourteen entries are marked-edit or moderator-notice facts, and eight lexicon entries are unglossed.
+- Carry forward: event-ending stop instruction, disagreement over scripts, actively revised scripts around neighbours, “laguide,” and the unresolved pxls.space rebuild. Do not turn temporal or reply adjacency into causation without supporting words.
+- Before next fleet step: dispatch batch 04 only after this review.
+- Collected batch 04, the final slice. Facts review: no strikes; five entries are marked-edit facts and three lexicon entries are unglossed.
+- Carry forward: the post-event Guide reconstruction explicitly introduced as “History behind this,” mourning versus recounting, and only two individual claims about the unnamed r/place clone. Do not infer a community continuation from those claims.
+- Fleet checkpoint: all four slices collected. Stop before consolidate, pooling, themes, or steps 4 and 5 until the scheduler continues the run.
+- Resumed after the scheduler checkpoint with all four slices collected. Next prescribed action: consolidate, then first `emit.close()`; do not recollect batch 04.
+- Consolidated four batches into 150 codes, 270 dispositions, and 27 pointers. First lead `emit.close()` completed with no verdict, as prescribed. Next: build the forest from `package/codes.jsonl`, then run the fleet audit gate.
+- Forest built: 34 coded threads, 150 codes on nodes, no orphans. Fleet audit gate PASSED. Entering step 4: read `package/codes_by_thread.md` one slice at a time beside each slice case; open themes as practices appear and extend them across later slices.
+- Step 4 complete: ten themes, all 150 codes assigned exactly once. Eight themes first appear in batch 01; batch 02 repeats and extends five; batch 03 extends four and opens the closure and off-site rebuilding themes; batch 04 only extends those two post-event themes. Next: read the forest and exact index measurements for step 5.
+- Step 5 reading before search: sustained canvas practice centres on repeatedly building and repairing Night’s Edge and the Guide through negotiated boundaries and actively updated scripts; closure brings argument, retelling, and small off-site continuations.
+- Competing account before search: cooperation and adaptive maintenance were incidental, while isolated new-object calls or unattended scripts were the real centre. If so, the record should contain completed Meowmere/tree/bunny/default-player projects displacing the Guide and Night’s Edge, explicit rejection of neighbour negotiation, or approval of unchanged unattended scripts.
+- Strongest contrary item already in the coded account: `dft0e71`, whose speaker admits scripting while saying they are not okay with it; it most directly challenges any simple account of script-assisted work as consensual.

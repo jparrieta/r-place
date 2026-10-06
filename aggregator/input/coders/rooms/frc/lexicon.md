@@ -1,0 +1,25 @@
+# lexicon — r/frc
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- leave our mark (62q7jj)
+- FIRST logo (62q7jj)
+- blue corner (dfp3exl)
+- treaty (dfp3exl)
+- FRC discord (62u9ly)
+- #reddit-place (dfpwruk)
+- our own little corner (62xwb7)
+- alts (dfq1zv1)
+- NEW Bot Script (dfrol06)
+- pushed out invaders (dfr4wa7)
+- Redundant Draw (6315z1)
+- Scheduled Draw (6315z1)
+- property respecting alliance (dfqwdg8)
+- ALL HANDS ON DECK (dfryhi0)
+- shuffle down (635vg8)
+- place-bot (636804)
+- bamboozled (dfsq2nr)
+- Polish insurgency (dfsvan1)
+- Poland Flag discord (dft2j29)
+- hivemind (dfsx340)
+- Pxls.space (63bhmf)

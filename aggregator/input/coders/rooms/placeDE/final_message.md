@@ -1,0 +1,1 @@
+r/placeDE — branch B; verdict: full. Substantive saturation arrived late, with new practices in later slices. Evidentiary saturation covers the Reddit window, not off-platform activity. Blockers: none.

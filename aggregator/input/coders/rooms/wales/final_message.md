@@ -1,0 +1,1 @@
+r/wales — branch B — verdict: full. Record saturation: strong event coverage, limited by unseen off-platform talk and later outcomes. Thematic saturation: the later slice mostly repeated settled practices but added debate over welcoming newcomers. No blockers.

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>A fleet batch (fleet/batch_NN/)</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/fleet-batch.md">Markdown source</a></nav>
+<h1 id="a-fleet-batch-fleetbatch_nn">A fleet batch (fleet/batch_NN/)</h1>
+<p>One fleet coder's directory: its slice, its tools, and what it wrote.</p>
+<p><strong>What it holds</strong></p>
+<p>Inputs: <code>AGENT.md</code>, <code>CONTRACT.md</code>, <code>CONTRACT-fleet-coder.md</code>, <code>brief.md</code>, <code>timeline.md</code> and <code>lexicon.md</code> (as the lead's <code>out/</code> held them at dispatch), <code>corpus.txt</code> and <code>coder_corpus.jsonl</code> (the slice and its context openings), <code>read.py</code>, <code>cite.py</code>, <code>emit.py</code>, <code>close_run.py</code>, <code>_manifest.json</code>. In <code>out/</code>: <code>case.md</code> and <code>notes.md</code> (the coder's), <code>codes.jsonl</code>, <code>themes.jsonl</code>, <code>threads.jsonl</code>, <code>pointers.jsonl</code> (written at <code>consolidate</code>), <code>_run.json</code>, <code>_read.jsonl</code>, <code>_read_index.json</code>, <code>final_message.md</code> and <code>_transcript.jsonl</code> (placed by the scheduler). The journal is <code>out/_journal.jsonl</code>.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p><code>fleet.py dispatch</code> builds it; one coder works in it; the scheduler places the transcript and final message and runs <code>check --batch NN</code>; <code>collect</code> and <code>consolidate</code> read from it. A failed batch moves whole to <code>fleet/_failed/</code>.</p>
+<p><strong>Why it exists</strong></p>
+<p>Branch B splits a room above 500 items into slices read "one at a time: the fleet is serial because each coder inherits the facts files of the one before" (scheduler's contract). The coder sees no other coder's codes, case or notes.</p>
+<p><strong>Where</strong></p>
+<p><code>run/fleet/batch_NN/</code> inside each room's <code>run.tar.zst</code>.</p>
+<p>Checked against: tools/fleet.py, newrun.py, CONTRACT-fleet-coder.v32.md, CONTRACT-scheduler.md</p>
+</body>
+</html>

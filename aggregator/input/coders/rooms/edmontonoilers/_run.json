@@ -1,0 +1,426 @@
+{
+ "instrument": "v32",
+ "emit": "emit-v32",
+ "verdict": "full",
+ "verdict_note": "set by emit.close(verdict=...); a verdict that exists only as prose in case.md cannot be read back reliably",
+ "close_calls": 2,
+ "reopened_after_close": true,
+ "last_close_seq": 362,
+ "stages": [
+  {
+   "stage": "step1_brief",
+   "from": null,
+   "at_seq": 1,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step1_brief",
+   "at_seq": 309,
+   "codes_so_far": 125,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step4_themes",
+   "at_seq": 336,
+   "codes_so_far": 125,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step5_counter",
+   "at_seq": 337,
+   "codes_so_far": 125,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step6_account",
+   "from": "step5_counter",
+   "at_seq": 360,
+   "codes_so_far": 142,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step7_write",
+   "from": "step6_account",
+   "at_seq": 361,
+   "codes_so_far": 142,
+   "corpus_reads_self_reported": null
+  }
+ ],
+ "reading": {
+  "threads_disposed": 99,
+  "threads_in_corpus": 99,
+  "threads_undisposed": 0,
+  "read_in_full": 77,
+  "triaged_and_dropped": 22,
+  "unread": 0,
+  "coded": 36,
+  "items_in_threads_read": 1231,
+  "items_in_window": 2350,
+  "items_in_corpus_note": "in-window items only; the corpus header's headline additionally counts [CONTEXT] items",
+  "share_of_threads_disposed": 1.0,
+  "share_of_threads_read_in_full": 0.778,
+  "share_of_text_read_in_full": 0.448
+ },
+ "calls_by_stage": {
+  "step1_brief": {
+   "stage": 1,
+   "coder_stage": 6,
+   "close": 1
+  },
+  "step2_read": {
+   "coder_stage": 8,
+   "thread": 99,
+   "threads_bulk": 11
+  },
+  "step3_codes": {
+   "coder_stage": 7,
+   "code": 125,
+   "pointer": 32
+  },
+  "step6_account": {
+   "coder_stage": 6,
+   "stage": 1
+  },
+  "step7_write": {
+   "coder_stage": 6,
+   "coder_close": 6,
+   "stage": 1,
+   "close": 1
+  },
+  "step4_themes": {
+   "stage": 1,
+   "theme": 12,
+   "theme_add": 14
+  },
+  "step5_counter": {
+   "stage": 2,
+   "code": 17,
+   "theme_add": 3,
+   "theme": 2,
+   "find": 8
+  }
+ },
+ "n_codes": 142,
+ "n_codes_emitted": 142,
+ "n_retracted": 0,
+ "n_themes": 14,
+ "n_threads": 99,
+ "n_pointers": 32,
+ "n_subreddits_named": 13,
+ "n_off_platform": 8,
+ "isolated": false,
+ "coordination_left_the_venue": true,
+ "discovered_at": {
+  "step3": 125,
+  "step5": 17
+ },
+ "saturation_observed": {
+  "n_codes": 142,
+  "last_step3_code_at": 125,
+  "codes_minted_after_it": 17,
+  "share_of_minting_before_last_new_step3_code": 0.88
+ },
+ "integrity": {
+  "codes_with_no_theme": [],
+  "themes_with_no_code": [],
+  "ok": true
+ },
+ "gate": {
+  "instrument": "v32",
+  "sub": "edmontonoilers",
+  "branch": "B",
+  "threshold": 500,
+  "budget_items": 500,
+  "floor_items": 25,
+  "items_in_window": 2350,
+  "items_by_people": 2171,
+  "chars_by_people": 282034,
+  "threads": 99,
+  "decided_utc": "2026-09-15T16:07:05Z",
+  "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+  "slices": [
+   {
+    "batch": "01",
+    "first_thread": "62lolf",
+    "last_thread": "62r9cs",
+    "n_threads": 23,
+    "items_in_window": 456,
+    "chars_in_window": 86383,
+    "start_utc": 1490976119,
+    "last_opening_utc": 1491030415,
+    "last_item_utc": 1491201075,
+    "start_hour": 0.03,
+    "last_opening_hour": 15.12,
+    "threads": [
+     "62lolf",
+     "62lofn",
+     "62m3vl",
+     "62ixex",
+     "62ep75",
+     "62a5o0",
+     "62mgsb",
+     "62ddrm",
+     "62nc69",
+     "6280xa",
+     "62bipe",
+     "62cdwe",
+     "62o0ln",
+     "62oaty",
+     "62ohzm",
+     "62oo90",
+     "624k1e",
+     "62p874",
+     "62q4jk",
+     "62q99s",
+     "62qu7g",
+     "62qxc1",
+     "62r9cs"
+    ]
+   },
+   {
+    "batch": "02",
+    "first_thread": "62rb8j",
+    "last_thread": "62us6i",
+    "n_threads": 21,
+    "items_in_window": 334,
+    "chars_in_window": 65289,
+    "start_utc": 1491031263,
+    "last_opening_utc": 1491073904,
+    "last_item_utc": 1491125145,
+    "start_hour": 15.35,
+    "last_opening_hour": 27.2,
+    "threads": [
+     "62rb8j",
+     "62reeb",
+     "628y8k",
+     "62rnyg",
+     "62rwja",
+     "62s6dg",
+     "62shyp",
+     "62sn7n",
+     "62swk5",
+     "62t8vl",
+     "62tegp",
+     "62tlvd",
+     "62trx4",
+     "62tzlj",
+     "62u5rk",
+     "62ucag",
+     "62ucjl",
+     "62ud68",
+     "62ulpn",
+     "62uri9",
+     "62us6i"
+    ]
+   },
+   {
+    "batch": "03",
+    "first_thread": "62utwy",
+    "last_thread": "62v7hb",
+    "n_threads": 2,
+    "items_in_window": 493,
+    "chars_in_window": 43058,
+    "start_utc": 1491074336,
+    "last_opening_utc": 1491077966,
+    "last_item_utc": 1491263754,
+    "start_hour": 27.32,
+    "last_opening_hour": 28.32,
+    "threads": [
+     "62utwy",
+     "62v7hb"
+    ]
+   },
+   {
+    "batch": "04",
+    "first_thread": "62v9eh",
+    "last_thread": "6307i1",
+    "n_threads": 21,
+    "items_in_window": 494,
+    "chars_in_window": 43373,
+    "start_utc": 1491078553,
+    "last_opening_utc": 1491146728,
+    "last_item_utc": 1491447546,
+    "start_hour": 28.49,
+    "last_opening_hour": 47.42,
+    "threads": [
+     "62v9eh",
+     "62vgdk",
+     "629268",
+     "62w2em",
+     "62w81m",
+     "62wzjp",
+     "62xn8v",
+     "62xpk9",
+     "62xvut",
+     "62xwfs",
+     "62xwi4",
+     "62xzlk",
+     "62y0p7",
+     "62y12i",
+     "62y2vw",
+     "62y6wb",
+     "62ydea",
+     "62yg3z",
+     "62z9cu",
+     "62zzmr",
+     "6307i1"
+    ]
+   },
+   {
+    "batch": "05",
+    "first_thread": "630824",
+    "last_thread": "639te5",
+    "n_threads": 28,
+    "items_in_window": 424,
+    "chars_in_window": 81141,
+    "start_utc": 1491146902,
+    "last_opening_utc": 1491255345,
+    "last_item_utc": 1491751176,
+    "start_hour": 47.47,
+    "last_opening_hour": 77.6,
+    "threads": [
+     "630824",
+     "630nmm",
+     "631drh",
+     "631kt9",
+     "631n0n",
+     "631pef",
+     "6322g2",
+     "634bhq",
+     "634l8j",
+     "634xsr",
+     "634xw2",
+     "63510w",
+     "635ii7",
+     "63785v",
+     "637l7i",
+     "637o4s",
+     "637qcz",
+     "63808l",
+     "638c40",
+     "638chn",
+     "638gea",
+     "638k2h",
+     "638uii",
+     "6396rp",
+     "639an6",
+     "639lwc",
+     "639rb0",
+     "639te5"
+    ]
+   },
+   {
+    "batch": "06",
+    "first_thread": "63ams5",
+    "last_thread": "63ewsf",
+    "n_threads": 4,
+    "items_in_window": 149,
+    "chars_in_window": 35354,
+    "start_utc": 1491263523,
+    "last_opening_utc": 1491320785,
+    "last_item_utc": 1491475739,
+    "start_hour": 79.87,
+    "last_opening_hour": 95.77,
+    "threads": [
+     "63ams5",
+     "63c3dh",
+     "63cc5p",
+     "63ewsf"
+    ]
+   }
+  ],
+  "coders": [
+   {
+    "batch": "01",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-15T16:07:24Z",
+    "run_dir": "fleet/batch_01",
+    "code_id_start": 1,
+    "pointer_id_start": 1,
+    "context_openings": 0,
+    "instrument_fingerprint": "5873e1e29cdab0cb",
+    "collected_utc": "2026-09-15T16:14:54Z",
+    "codes": 38
+   },
+   {
+    "batch": "02",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-15T16:15:23Z",
+    "run_dir": "fleet/batch_02",
+    "code_id_start": 39,
+    "pointer_id_start": 9,
+    "context_openings": 7,
+    "instrument_fingerprint": "5873e1e29cdab0cb",
+    "collected_utc": "2026-09-15T16:20:35Z",
+    "codes": 26
+   },
+   {
+    "batch": "03",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-15T16:21:28Z",
+    "run_dir": "fleet/batch_03",
+    "code_id_start": 65,
+    "pointer_id_start": 13,
+    "context_openings": 10,
+    "instrument_fingerprint": "5873e1e29cdab0cb",
+    "collected_utc": "2026-09-15T16:26:55Z",
+    "codes": 29
+   },
+   {
+    "batch": "04",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-15T16:27:30Z",
+    "run_dir": "fleet/batch_04",
+    "code_id_start": 94,
+    "pointer_id_start": 25,
+    "context_openings": 9,
+    "instrument_fingerprint": "5873e1e29cdab0cb",
+    "collected_utc": "2026-09-15T16:34:37Z",
+    "codes": 17
+   },
+   {
+    "batch": "05",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-15T16:35:03Z",
+    "run_dir": "fleet/batch_05",
+    "code_id_start": 111,
+    "pointer_id_start": 29,
+    "context_openings": 9,
+    "instrument_fingerprint": "5873e1e29cdab0cb",
+    "collected_utc": "2026-09-15T16:41:47Z",
+    "codes": 8
+   },
+   {
+    "batch": "06",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-15T16:42:13Z",
+    "run_dir": "fleet/batch_06",
+    "code_id_start": 119,
+    "pointer_id_start": 31,
+    "context_openings": 11,
+    "instrument_fingerprint": "5873e1e29cdab0cb",
+    "collected_utc": "2026-09-15T16:47:20Z",
+    "codes": 7
+   }
+  ],
+  "consolidated_utc": "2026-09-15T16:48:03Z",
+  "pool": {
+   "codes": 125,
+   "threads": 99,
+   "pointers": 32,
+   "batches": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+   ]
+  }
+ },
+ "branch": "B"
+}

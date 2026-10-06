@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`harness/pretool_guard.py`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/harness-pretool-guard-py.md">Markdown source</a></nav>
+<h1 id="harnesspretool_guardpy"><code>harness/pretool_guard.py</code></h1>
+<p>The analyst's PreToolUse and PostToolUse hook: standing rules enforced as a tool runs.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>It reads the tool call as JSON and blocks it (exit 2, the reason sent back to the analyst) when: a Write, Edit, MultiEdit or NotebookEdit targets <code>tools/</code>, <code>stages/</code>, <code>package/</code>, <code>trees/</code>, <code>shelves/</code> or <code>.claude/</code>, or <code>out/diary/</code>; a Bash command runs <code>rm</code>, <code>rmdir</code>, <code>unlink</code>, <code>shutil.rmtree</code> or <code>os.remove</code>; a Bash command redirects, tees, moves, copies or edits into those folders or into <code>out/diary/</code>. Two more since 2026-09-28: after a compaction every call is refused until <code>out/_head.md</code> and the stage file are read and <code>mem.py diary</code> run (the gate lifts at the next <code>mem.py log</code>, or opens after five refusals, logged); and at A1 a room note is refused until that room's concepts were read. With <code>--post</code>, after a room note is written, it runs the note's form check and returns what is wrong at once. Every block goes to <code>out/_closes/guard.log</code>.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Claude Code, as the hook <code>settings.json</code> names, on every Bash, Write, Edit, MultiEdit, NotebookEdit, Read, Grep and Glob call, and after every Write, Edit and MultiEdit. It lives in <code>CONTROL/harness/</code>, out of the analyst's reach.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>The rules are "never delete a file", the instrument's folders are read only, and "the diary is written only through mem.py". It calls itself "a tripwire, never a wall"; the sandbox is the wall.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/pretool_guard.py">harness/pretool_guard.py</a>.</p>
+<p>Checked against: harness/pretool_guard.py, harness/settings.template.json, CONTRACT-aggregator.md rules 18 and 20.</p>
+</body>
+</html>

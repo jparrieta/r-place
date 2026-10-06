@@ -1,0 +1,42 @@
+# lexicon — r/unitedkingdom
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- griefers — `dfnx4vv`
+- demilitarised line — `dfotj6w`
+- peace treaty — `dfotkti`
+- clusterfuck — `dfpaqnf`
+- damage control — `dfpmvry`
+- le war memes — `dfo77qd`
+- Salmiakki mines — `dfpkco0`
+- Mammi — `dfpkco0`
+- Milliverse — `dfoofj4`
+- lesspair — `dfor8ql`
+- Tesco Value Thatcher — `dfp4i3q`
+- BANTZ — `dfopd70`
+- Lirpa Loof — `dforvrx`
+- grauniad — `dfoub3c`
+- updoot — `dfowvat`
+- doot doot — `dfp83dx`
+- spaghetti tree — `62saj3`
+- Ze Germans — `62sg7v`
+- Frenchies — `62sg7v`
+- Jerries — `dfozvjr`
+- Frogs — `dfozvjr`
+- rainbowroad — `dfp0r2i`
+- fleg — `62tf5m`
+- Operation GREAT Britain — `62utyv`
+- Union Jack petri-dish culture — `dfpcss1`
+- MUH SOVRENTY — `62v23e`
+- mega battle — `dfpe2pn`
+- queen motif — `62z2hp`
+- St Davids flag — `dfq9d81`
+- teazone — `631dkp`
+- BoJo Doo-Da Band — `6359ze`
+- Bremoaners — `dfsbbsz`
+- Vote Invade — `dfrmru0`
+- British Empire 2.0 — `dfrnar1`
+- weapons of mass creation — `dfrr6je`
+- Python botnet — `dfrwxct`
+- placeheart — `637au3`
+- Jaw-Jaw — `638693`

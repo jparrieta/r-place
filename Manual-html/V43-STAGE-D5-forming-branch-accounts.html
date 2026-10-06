@@ -1,0 +1,144 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage D5. The branch accounts, at every level.</h1>
+<p>**Model:** as <code>arm.json</code> sets for this stage (your platform file lists the model and effort). **Legs:** one per branch, then one for the waterfall and survival. **Fleet:**</p>
+<p>none.</p>
+<p>**Steps:** <code>D5a-01</code>, <code>D5a-02</code> ... one per branch; <code>D5b</code> the waterfall and survival. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after each branch&#x27;s account. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh D5 --pause</code> (STANDING §2).</p>
+<p>**Startup packet:** <code>_head.md</code>, this file, the last five diary entries, <code>validate.py --open D5</code>;</p>
+<p>the branch&#x27;s <code>forms/&lt;id&gt;.md</code>; the hierarchy shelf. First leg only: <code>branches.jsonl</code>,</p>
+<p><code>crosslinks.jsonl</code>, <code>tree-D4.md</code>, <code>chunk-share-D4.md</code>.</p>
+<p>**Reads allowed:** the branch&#x27;s members by query (<code>rooms/&lt;sub&gt;/model-D.md</code>, <code>case.md</code>, concepts</p>
+<p>through <code>cite.py</code>, <code>mem.py note</code>, <code>adaptations --element</code>, <code>contrast</code>); <code>verdicts-D.jsonl</code> and</p>
+<p><code>exception-report-D.md</code>; <code>account.md</code>; <code>model/arrows.jsonl</code>;</p>
+<p><code>propositions.jsonl</code>; <code>rebuild.py &lt;sub&gt;</code>; <code>_views/</code>; the <code>organizing_end_hour</code> and aftermath</p>
+<p>share per room. **Forbidden:** rooms outside the branch except as the contrast the account</p>
+<p>names; the canvas as an undeclared ground (rule 7), projected on afterwards; recutting a branch or changing</p>
+<p>the model; the chunk-share tree as a ground.</p>
+<p>**Outputs:** <code>forms/&lt;id&gt;-account.md</code> per branch; <code>branches-D5.jsonl</code>; <code>waterfall-D5.md</code>;</p>
+<p><code>survival-D5.md</code>; lines in <code>findings.jsonl</code> and <code>defects.jsonl</code>; <code>notes-D5.md</code>.</p>
+<p>The branches are the forms organizing took under your own return; read their members as</p>
+<p>rooms, in any order, through any file. Two things are fixed: a claim</p>
+<p>about absence carries §1&#x27;s arithmetic, and the branches were cut from adaptations your own model</p>
+<p>provoked and cannot vouch for it. If stage D4 drew no tree, or the population is one form with</p>
+<p>variation, write this stage anyway, about what the branches do track, and say in every account</p>
+<p>that they are groupings. The unadapted group gets an account of its own; a branch mostly</p>
+<p><code>cannot-tell</code> is said to be so before it is described.</p>
+<h2>1. Before you call anything absent</h2>
+<p>Rule 6. Declare here, before any comparison, the minimum count of within-case datings an arrow</p>
+<p>stands on, from your own <code>subs</code> counts. For every arrow you compare across branches, compute the</p>
+<p>expectation: its corpus-wide <code>subs</code> count over the analysed set from <code>counts.py</code>, times the</p>
+<p>branch&#x27;s <code>n</code>; smallest and largest branch first. Below one the arrow is <code>not-testable-here</code>,</p>
+<p>and no boundary condition and no <code>propositions_fail</code> may be written from it. Arrow presence</p>
+<p>inside a branch is arithmetic about your own model, cut on the adaptations it provoked:</p>
+<p>*present here, absent there* describes a form and never bounds a proposition, unless you can</p>
+<p>say what distinguishes the difference from a restatement of the cut.</p>
+<h2>2. Per branch, the account</h2>
+<p><code>forms/&lt;id&gt;-account.md</code>, in this order:</p>
+<p>1. **How these rooms organized, as a narrative**: a few hundred words a stranger to the model</p>
+<p>   could follow, with participants&#x27; words through <code>cite.py</code>, written before the comparisons.</p>
+<p>2. **What the branch does**: the elements it shares with the global model unchanged, as the</p>
+<p>   model&#x27;s prose says them.</p>
+<p>3. **What it does differently**: the shared keys read as prose, each with the rooms and the</p>
+<p>   <code>how</code> sentences that carry it, and what a room of this branch does that the global model</p>
+<p>   would not predict. Say what the branch&#x27;s claim rests on (contract §1): the shared keys are a</p>
+<p>   pattern across rooms and are validated as one, by the ledger&#x27;s counts and D4&#x27;s alternatives;</p>
+<p>   what the rooms did with them is a claim on their words and is validated by <code>cite.py</code>. One</p>
+<p>   kind of evidence does not stand in for the other. Then stage D4&#x27;s name read against the members: the strongest argument</p>
+<p>   that it names the keys rather than what the rooms did, and what a reader who suspected so</p>
+<p>   would look for; a name you cannot defend from the members is a renaming proposal in</p>
+<p>   <code>notes-D5.md</code>.</p>
+<p>4. **The concepts it employs**: representative first-order concepts from the members, through</p>
+<p>   <code>cite.py</code>, at least one per shared key.</p>
+<p>5. **Composition here.** Keep three versioned judgments separate. <code>verdicts-D.jsonl</code> diagnoses the original unadapted global model and remains historical. <code>adaptation-returns.jsonl</code>, the current model hash and D3&#x27;s unaffected-case reasons establish each adapted-local status. Name all unresolved or insufficient-evidence local accounts and their limits. Then state whether the shared branch explanation is supported, unsupported or unresolved and why. An original global failure is not a current local or shared failure.</p>
+<p>6. **How the model runs here**: which elements do the work, which sit idle (<code>absent</code>), which</p>
+<p>   fit badly, what these rooms do that it has no place for (<code>propose</code> and particular lines).</p>
+<p>   Where the room models and your reading disagree, say which you believe.</p>
+<p>7. **The one relationship that runs differently here**: one arrow, both sides quoted.</p>
+<p>8. **Fourth-order themes over- and under-represented** against the population base rate (no</p>
+<p>   v38 view yet; by script, logged), in the rooms&#x27; own words; never a property of</p>
+<p>   the rooms (contract §5).</p>
+<p>9. **Arrows present, absent or <code>not-testable-here</code>** with the expectation on each; propositions</p>
+<p>   that hold, fail against a real expectation, or are not testable.</p>
+<p>10. **How representative members do the work**: two or three rooms, by a rule you state, each</p>
+<p>    told in a paragraph in the branch&#x27;s terms with citations, one the member that fits worst,</p>
+<p>    one read at length with why you chose it and what is unrepresentative about it.</p>
+<p>11. **The nearest branch and what separates them**, with the room that could have gone either</p>
+<p>    way; every cross-link touching this branch, named.</p>
+<p>12. **The form test** (contract §1, Doty and Glick): the constructs the branch binds, the</p>
+<p>    relations among them. Map them to the four organizing problems where justified, allowing an empty mapping and a supported theoretical remainder. Then, for</p>
+<p>    what varies among members, whether the form accommodates it, a subform is warranted (a</p>
+<p>    candidate for stage D4, written to <code>notes-D5.md</code>, never cut here), or it is a particular of</p>
+<p>    one history. A branch for which you cannot write this is reported as a grouping, not a</p>
+<p>    form.</p>
+<p>13. **What would make you doubt this is a form at all.**</p>
+<p><code>branches-D5.jsonl</code>, one line per branch:</p>
+<pre><code>
+{&quot;branch&quot;: &quot;F03&quot;, &quot;name&quot;: &quot;...&quot;, &quot;n&quot;: 23,
+
+ &quot;verdicts&quot;: {&quot;composes&quot;: 14, &quot;composes-with-residue&quot;: 5, &quot;does-not-compose&quot;: 2, &quot;cannot-tell&quot;: 2},
+
+ &quot;global_model_version&quot;: &quot;&lt;original handoff VERSION&gt;&quot;, &quot;local_model_version&quot;: &quot;&lt;current hash&gt;&quot;,
+
+ &quot;local_statuses&quot;: {&quot;room&quot;: &quot;validated|unresolved|insufficient-evidence&quot;}, &quot;unresolved_members&quot;: [...],
+
+ &quot;shared_status&quot;: &quot;supported|unsupported|unresolved&quot;, &quot;shared_warrant&quot;: &quot;evidence and scope&quot;,
+
+ &quot;construct_bindings&quot;: [&quot;P07&quot;, &quot;T4-005&quot;], &quot;binding_account&quot;: &quot;relations and conditions&quot;,
+
+ &quot;binds&quot;: [...], &quot;leaves_free&quot;: [...], &quot;over&quot;: [&quot;T4-005&quot;], &quot;under&quot;: [...],
+
+ &quot;arrows_present&quot;: [{&quot;arrow&quot;: &quot;A03&quot;, &quot;expected&quot;: 2.1}], &quot;arrows_absent&quot;: [...], &quot;arrows_not_testable&quot;: [...],
+
+ &quot;propositions_hold&quot;: [&quot;N12&quot;], &quot;propositions_fail&quot;: [...], &quot;propositions_not_testable&quot;: [...],
+
+ &quot;survival&quot;: {&quot;median_organizing_end_hour&quot;: 0, &quot;aftermath_share&quot;: 0.0,
+
+              &quot;work_remained&quot;: {&quot;kept&quot;: 0, &quot;lost&quot;: 0, &quot;silent&quot;: 0}},
+
+ &quot;canvas&quot;: {&quot;median_area_px&quot;: 0, &quot;rooms_with_artwork&quot;: 0, &quot;read&quot;: &quot;one clause&quot;},
+
+ &quot;unmodelled&quot;: &quot;...&quot;, &quot;form_or_grouping&quot;: &quot;form&quot;, &quot;confidence&quot;: &quot;...&quot;}
+
+</code></pre>
+<h2>3. The waterfall</h2>
+<p><code>waterfall-D5.md</code>: one reader&#x27;s walk from the account, through one branch, through one</p>
+<p>subform, to one room&#x27;s model, to its adaptations, to the quotes; and the walk back up. Say at</p>
+<p>each step what was added and whether it contradicted the level above (contract §1, the check in</p>
+<p>both directions), and read the walk against <code>prior.md</code>&#x27;s expectation of what the lower levels</p>
+<p>describe. Choose the branch and the room by a rule stated before the walk.</p>
+<h2>4. Survival, per branch</h2>
+<p><code>survival-D5.md</code>: <code>organizing_end_hour</code>, the aftermath share and <code>work_remained</code> (how many</p>
+<p>members&#x27; records say the work was kept, lost, or say nothing: silence counts, contract §1) per</p>
+<p>branch, from the record and never from the canvas, with the branch&#x27;s ending described in its own terms: what stopped</p>
+<p>the coordinating, and what the rooms did after. The canvas fields are projected on afterwards</p>
+<p>and read against this, with the direction of the bias named (rule 7): what the rooms of this</p>
+<p>form left on the canvas, against the narrative in §2 and the account&#x27;s paragraph on what the</p>
+<p>model implies a room keeps. Where the §2 narrative dates a change in what the members did,</p>
+<p>say which bracket of <code>prior.md</code> §4 it falls in and whether the members&#x27; placements by hour</p>
+<p>(<code>canvas</code>) move at that hour: a timing the canvas corroborates is said to be, a mechanism never</p>
+<p>is, and a timing it contradicts is named as a question for the account. The contract&#x27;s §5 sentence on what the canvas measures stands</p>
+<p>beside it; nothing here is a score.</p>
+<h2>5. What you must refuse to do</h2>
+<p>Do not characterise rooms stage D4 declared cousins as siblings. Do not treat a network stage D4 could not draw as a tree of forms. Do not let branch size become</p>
+<p>importance. Do not recut anything or change the model here: a fourth-order theme that lumps two</p>
+<p>things a branch separates, a renaming, a subform, goes to <code>notes-D5.md</code> for stage D6, which may</p>
+<p>act on it as an amendment, and to <code>defects.jsonl</code> for stage E1; a claim</p>
+<p>a branch bounds is a <code>findings.jsonl</code> line under rule 14. A closed branch&#x27;s account is not</p>
+<p>edited; a description later found wrong is superseded by a new file with what showed it (rule</p>
+<p>18).</p>
+<h2>Moments to log</h2>
+<p>Each branch opened; the expectations computed; the representative members chosen with the</p>
+<p>rule; the form test&#x27;s result; the survival figures; the waterfall&#x27;s steps; what the members</p>
+<p>showed that the room notes did not predict.</p>
+<h2>Final message</h2>
+<p>The claim (what the forms are and how they differ in their functioning), the branch that best</p>
+<p>supports it, the branch that most threatens it, the condition; then: branches accounted;</p>
+<p>branches that failed the form test; names that survived the members&#x27; reading; the branch whose reading disagreed most with the room models; where the uncomposed</p>
+<p>rooms sit; arrow absences real and <code>not-testable-here</code>, by count; propositions that failed</p>
+<p>against a real expectation, and the <code>findings.jsonl</code> lines they bounded; the waterfall&#x27;s</p>
+<p>contradictions if any; survival by branch; the most consequential difference between two forms;</p>
+<p>the licences exercised.</p>
+<h2>Close</h2>
+<p><code>done.sh D5</code> at every branch; <code>handback-D5.md</code>; the head; the closing diary line.</p>
+<h2>Negative shared result</h2>
+<p>If D4 finds no supported shared branch, keep <code>branches-D5.jsonl</code> empty and explain the result in <code>notes-D5.md</code>. The waterfall goes from the global model directly to a selected local account and its evidence. Report remaining local evidence and unresolved cases. Do not invent a branch. <code>binds</code> and <code>leaves_free</code> contain only optional four-problem mappings; <code>construct_bindings</code> must resolve to empirical construct ids, and a form requires their <code>binding_account</code>.</p></html>

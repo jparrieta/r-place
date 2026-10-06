@@ -1,0 +1,1 @@
+r/zootopia — branch B, verdict `full`. Record saturation: core Reddit practices are well supported; off-platform, removed, and post-window activity remain partial. Thematic saturation: operational practices settled before closure, while later slices added retrospective practices. No blockers.

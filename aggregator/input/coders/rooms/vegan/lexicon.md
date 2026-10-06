@@ -1,0 +1,62 @@
+# lexicon — r/vegan
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- `defeat the red (meat)` — `62nefk`
+- `contributing to the avocados` — `dfoe2gk`
+- `sprouting v` — `62qznm`
+- `giant red block of starwars text` — `62qznm`
+- `purple cs go logo` — `62qznm`
+- `green foundation` — `dfoxrb0`
+- `line of fire from the Mona Lisa` — `dfp05kd`
+- `evil Mona Lisa` — `dfpae0k`
+- `AvoArmy` — `dfp9l12`
+- `avokado` — `dfpaizf`
+- `Fake Mona Lisa` — `dfpic7s`
+- `nicer neighborhood` — `dfpip0l`
+- `Beyond Vegetables` — `62tfpm`
+- `Cow-Cobs` — `62tfpm`
+- `avocado farm` — `dfpcx6x`
+- `Mona Lazer` — `dfpdwkx`
+- `omniscum` — `dfpz4t5`
+- `griefing` — `dfpogao`
+- `heavy fire` — `dfpztqd`
+- `vegan love` — `dfpi1v7`
+- `avocado brothers` — `dfprrqu`
+- `friendly fire` — `dfptapw`
+- `avocado friendos` — `dfpujoa`
+- `the Void` — `dfppi00`
+- `Blue Corner` — `dfpwraz`
+- `green counter laser` — `62we0o`
+- `r/MEAT strikes back` — `dfpq3v1`
+- `GO VEGAN` — `62z8am`
+- `3-pixel G` — `dfq559v`
+- `vegan powers` — `62zlj3`
+- `the paw` — `dfq8lrd`
+- `#place` — `dfq6lhg`
+- `banner` — `62zvhn`
+- `sky rat` — `dfqa6jb`
+- `CJKSH` — `dfql52u`
+- `GO VEGAN TODAY` — `dfql52u`
+- `r/vegan♡ tag` — `dfr50bi`
+- `homeland` — `632q82`
+- `HQ` — `dfr3wb7`
+- `avocado heart` — `dfrep36`
+- `CLANGA` — `dfr3wb7`
+- `cube bots` — `dfr3wb7`
+- `green guts` — `dfr3wb7`
+- `cemented` — `dfs0003`
+- `VEGAY` — `dfrxioz`
+- `Bunnings snags` — `634z6t`
+- `vegan snags` — `dfrenhj`
+- `GO R/VEGAN` — `dfrz7l0`
+- `candy colored squares` — `dfrwet8`
+- `graffito` — `637ime`
+- `r/CFB` — `dfs0s29`
+- `hard griefing` — `dfs1q0i`
+- `SpaceX` — `dfsbrmp`
+- `reconquered GO VEGAN` — `dfsj25u`
+- `UB ally` — `dfsj25u`
+- `KU-24TX-21` — `dfsq2tc`
+- `vegan 101` — `639z8q`
+- `Baby soys` — `639zwl`

@@ -1,0 +1,1 @@
+r/borderlands — branch B; verdict: full. Thematic saturation was not demonstrated because the final slice added new practices. Record coverage is complete, but deletions, unseen images, and a continuing thread limit evidential saturation. Blocked: none.

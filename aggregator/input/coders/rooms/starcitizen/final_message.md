@@ -1,0 +1,1 @@
+r/starcitizen — branch B; verdict: full. Thematic saturation: new practices continued through batch 18; batches 19–20 added no new practice. Evidentiary saturation: visible Reddit conduct is well supported, while deletions, external venues/artifacts, triaged depths, and split-slice reading limit completeness. Blocked: nothing.

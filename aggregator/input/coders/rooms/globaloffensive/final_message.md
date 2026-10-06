@@ -1,0 +1,1 @@
+r/globaloffensive — full. New practices continued through post-closure canvas-to-skin reuse; the latest slices only repeated thin retrospective callbacks. Removed bodies, unseen images, off-platform coordination, and slice boundaries limit completeness and causal claims. Blockers: none.

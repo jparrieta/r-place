@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`package/forest.jsonl`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/package-forest-jsonl.md">Markdown source</a></nav>
+<h1 id="packageforestjsonl"><code>package/forest.jsonl</code></h1>
+<p>Every coded thread of every room as a reply tree, in one file.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>One line per thread: <code>thread_id</code>, <code>community</code>, <code>title</code>, <code>hours_since_open</code>, <code>n_items</code>, <code>n_coded</code>, <code>n_dropped</code>, <code>retrieved_on</code>, and <code>tree</code>, a nested node with <code>coord</code> (Dewey; "0" is the submission), <code>item_id</code>, <code>parent_id</code>, <code>author</code>, <code>state</code> (coded, bridge, removed, dropped), <code>collapsed_n</code>, <code>dt_parent_sec</code>, <code>dt_thread_sec</code>, <code>code_ids</code>, <code>labels</code>, <code>sequence</code>, <code>coverage</code>, <code>meta</code> and <code>children</code>. The build adds <code>sub</code>.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p><code>build_store.py</code> at stage 00 writes each room's <code>forest/forest.jsonl</code> from the coders' input into this one file, and derives the store's <code>items.jsonl</code> and <code>threads.jsonl</code> from it. <code>transitions.py</code> reads it to build the transitions ledger.</p>
+<h2 id="the-depth-cut">The depth cut</h2>
+<p>Reply chains deeper than 490 are cut in this file, and only here. Each level of a tree is two levels of JSON, and the Python the repository pins (3.11) stops reading near 1,000, so a tree deeper than about 496 cannot be read. Only r/counting has such chains: members reply to each other one number at a time, and five of its threads reach 492 to 1,004 levels. <code>import_rooms.py</code> (<code>CUT_DEPTH</code>) cuts them when it renders the room, on J's instruction of 26 September 2026 to cut at 500; 490 keeps a margin under the limit.</p>
+<ul>
+<li>The node at depth 490 keeps its place and gains <code>cut_below</code>: <code>n_items</code> and <code>n_coded</code>, the replies removed under it. The thread gains <code>cut_at_depth</code>, <code>n_cut</code> and <code>n_coded_cut</code>.</li>
+<li>r/counting loses 1,564 of 6,242 items here, 38 of them coded. The 38 codes stay in <code>codes.jsonl</code> with their text, item and thread; the store lists them in <code>_unjoined.jsonl</code>, and the room's <code>tree_index.json</code> still gives each one's coordinate.</li>
+<li>The whole forest is kept beside the cut one, as the room's <code>forest/forest.uncut.jsonl</code> in the coders' input (<code>run/INPUT/coders/rooms/counting/</code>). No tool reads it; it is there for a reader on Python 3.12 or later, which opens the full depth.</li>
+<li>The room's <code>tree_index.json</code> and <code>trees/counting.md</code> are not cut: both are flat, one entry or one line per item, and hold every reply. The header counts (<code>n_items</code>, <code>n_coded</code>) are the uncut ones.</li>
+</ul>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>METHOD: in Van de Ven and Poole's grammar "the forest is that grammar, and a coded turn is an incident." STANDING §1: "The forest is the coded record's shape", and "A reply is a reply": the tree shows order, not cause.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/forest.jsonl">package/forest.jsonl</a>.</p>
+<p>Checked against: import_rooms.py, tools/build_store.py, tools/transitions.py, METHOD.md, STANDING-INSTRUCTIONS.md §1, package/forest.jsonl.</p>
+</body>
+</html>

@@ -1,0 +1,1 @@
+r/falcons — branch B, verdict `full`. Saturation: all assigned threads were disposed and audited; removed bodies and off-platform activity limit outcomes. Later material mostly repeated settled practices but added conditional help, college-rivalry diversion, and post-event meaning-making. Blocked: nothing.

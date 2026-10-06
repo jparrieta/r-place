@@ -1,0 +1,1 @@
+r/clashroyale — verdict `full`. Saturation: new practices ceased after batch 36; later slices extended established patterns before routine talk returned. The record remains partial because Discord coordination, removed text, and linked images are unavailable. No blockers.

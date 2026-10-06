@@ -1,0 +1,1 @@
+r/apocalypserising — branch B; verdict: full. Thematic saturation: later material repeated established practices. Record saturation: limited by removals, unseen Discord coordination, post-window replies, and no whole-week reader. Blockers: none.

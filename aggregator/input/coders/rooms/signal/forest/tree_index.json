@@ -1,0 +1,122 @@
+{
+ "signal": {
+  "counts": {
+   "threads_given": 1,
+   "threads_with_codes": 1,
+   "items": 4,
+   "coded": 3,
+   "bridge": 1,
+   "removed": 0,
+   "dropped": 0,
+   "orphans": 0,
+   "na_stretches": 0,
+   "coverage_of_coded_items": 0.97,
+   "threads_total_in_window": 7
+  },
+  "index": {
+   "6356hp": {
+    "0": {
+     "thread_id": "6356hp",
+     "item_id": "6356hp",
+     "parent_id": null,
+     "author": "redditor_1234",
+     "created_utc": 1491202648,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001",
+      "c0002",
+      "c0003",
+      "c0004"
+     ],
+     "labels": [
+      "asking who is interested in getting r/signal onto r/place",
+      "drawing a design under Bender's speech bubble and linking its location",
+      "announcing that they did it",
+      "thanking everyone who collaborated and showing the final version after r/place ended"
+     ],
+     "sequence": [
+      "c0001",
+      "c0002",
+      "c0003",
+      "c0004"
+     ],
+     "coverage": 0.94,
+     "meta": {
+      "edited": 1491242353,
+      "score": 6,
+      "link_flair_text": "meta",
+      "retrieved_on": 1494555620
+     }
+    },
+    "1": {
+     "thread_id": "6356hp",
+     "item_id": "dfrfjvd",
+     "parent_id": "6356hp",
+     "author": "mentionhelper",
+     "created_utc": 1491202663,
+     "dt_parent_sec": 15,
+     "dt_thread_sec": 15,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493749636
+     }
+    },
+    "1.1": {
+     "thread_id": "6356hp",
+     "item_id": "dfrfnpg",
+     "parent_id": "dfrfjvd",
+     "author": "ckhawks",
+     "created_utc": 1491202933,
+     "dt_parent_sec": 270,
+     "dt_thread_sec": 285,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "telling the mention bot to go away"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493749687
+     }
+    },
+    "2": {
+     "thread_id": "6356hp",
+     "item_id": "dfrho76",
+     "parent_id": "6356hp",
+     "author": "Tajnymag",
+     "created_utc": 1491208496,
+     "dt_parent_sec": 5848,
+     "dt_thread_sec": 5848,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "saying the design is not readable and proposing the icon instead"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493750657
+     }
+    }
+   }
+  }
+ }
+}

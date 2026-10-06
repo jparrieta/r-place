@@ -1,0 +1,1 @@
+r/purdue — branch B, verdict: full. Practice saturation: later material mostly repeated established practices, adding only thin post-event continuation. Evidence saturation: complete within selected Reddit threads, but removals, external venues, and sliced reading limit cross-boundary claims. Blockers: none.

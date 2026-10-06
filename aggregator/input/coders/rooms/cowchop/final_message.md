@@ -1,0 +1,1 @@
+r/cowchop — branch B, verdict: full. Within-slice evidence supports the full event sequence, though removals and off-platform traces limit completeness. Later material added new post-event practices and closed the central episode. Nothing blocked.

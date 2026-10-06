@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>render_openings_v32.py</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/render-openings.md">Markdown source</a></nav>
+<h1 id="render_openings_v32py">render_openings_v32.py</h1>
+<p>Writes the openings file, the room's table of contents for the case lead.</p>
+<p><strong>What it holds</strong></p>
+<p><code>python3 render_openings_v32.py coder_corpus.jsonl &lt;sub&gt; [--out-dir DIR]</code>. One block per thread in time order: a metadata line, a line of counts (comments in the window and in all, branches, depth, authors, the sum of scores), the title, and the opening post cut at 500 words. Above a size threshold it also writes <code>openings_titles.md</code> and <code>openings_digest.md</code> (counts per hour, stickied and moderator posts, the ten highest-scored titles per hour).</p>
+<p><strong>Who writes it, and when</strong></p>
+<p>The instrument's author. <code>newrun.py</code> calls it for the case lead only; fleet batches get no openings file.</p>
+<p><strong>Why it exists</strong></p>
+<p>"So that a lead who never reads the raw threads still knows what was posted when and how big each thread grew." It is "orientation, not material": the lead codes nothing from it (CONTRACT-case-lead §1a).</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/instrument/v32/render_openings_v32.py">render_openings_v32.py</a>. Output: <code>record/openings.md</code> in the materials archive and <code>run/openings.md</code> in the run archive.</p>
+<p>Checked against: render_openings_v32.py, newrun.py, CONTRACT-case-lead.v32.md</p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>How the aggregator remembers</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../manual.css" />
+</head>
+<body>
+<nav><a href="../index.html">The Manual</a> &middot; <a href="../../Manual/memory/aggregator.md">Markdown source</a></nav>
+<h1 id="how-the-aggregator-remembers">How the aggregator remembers</h1>
+<p><em>Kind of page: reference.</em></p>
+<p>The analyst holds nothing between legs except what is on disk: "the file, not your recollection, is what the run trusts" (the contract). Each part links to its file's page.</p>
+<h2 id="a-fresh-session-per-leg">A fresh session per leg</h2>
+<p>Every leg is a new Claude session. <a href="../files/aggregator/harness-step-sh.html">step.sh</a> writes the leg's first message and <a href="../files/aggregator/harness-launch-sh.html">launch.sh</a> starts <code>claude</code> with a new session id and auto memory switched off, "no memory carried between legs". What carries the work is the startup packet that <a href="../files/aggregator/agent-md.html">AGENT.md</a> and <a href="../files/aggregator/claude-md.html">CLAUDE.md</a> name: the head, the stage file, the last five diary entries, and <code>validate.py --open NN</code>. Nothing else is read by default.</p>
+<h2 id="the-head">The head</h2>
+<p><a href="../files/aggregator/out-head-md.html">_head.md</a> is the narrative of the argument, at most 3,000 words, read first at every leg and rewritten at every close and before every cut. <a href="../files/aggregator/tool-done-sh.html">done.sh</a> keeps a leg open when the head runs over 3,200 words, and <a href="../files/aggregator/tool-links-py.html">links.py</a> fails the next launch when an id in it does not resolve.</p>
+<h2 id="the-diary">The diary</h2>
+<p><a href="../files/aggregator/out-diary.html">The diary</a> is the record under the head. It is written only through <code>mem.py log</code>, stamped with the time and the leg, in parts of 1,500 words. Each line has a kind: opened, dropped, merged, split, kept, move, abductive, question, comparison, note, helper, minted, placed, unplaced, pause, or one a stage file names. Rule 20: a diary written at the close from memory "is not a diary." A leg reads its tail or greps it by id; E1 computes over it.</p>
+<h2 id="read-logs-and-the-verbs">Read logs and the verbs</h2>
+<p>Every call to <a href="../files/aggregator/tool-mem-py.html">mem.py</a> and <a href="../files/aggregator/tool-cite-py.html">cite.py</a> leaves a line in <a href="../files/aggregator/out-read-logs.html">the read logs</a>. Rule 1: where the analyst's account of its reading and the log disagree, the log is right. The verbs serve reading one page at a time, generated <a href="../files/aggregator/out-views.html">views</a> and <a href="../files/aggregator/out-wiki.html">wiki pages</a> included. The <a href="../files/aggregator/out-rooms-notes.html">room notes</a> written at A1 are the run's prior, queried one at a time and never read as a list.</p>
+<h2 id="the-recall-probe-at-close">The recall probe at close</h2>
+<p>After <code>done.sh</code>, <a href="../files/aggregator/harness-close-sh.html">close.sh</a> asks five questions in a fork of the leg's session, with tools disallowed: the method question, the open distinctions, the last three rooms opened, what changed and why, the next comparison. <a href="../files/aggregator/tool-probe-py.html">probe.py</a> scores the answers against the questions, the read log and the history files,; <a href="../files/aggregator/out-probe.html">_probe/</a> keeps them. A miss the head or the diary answers is a note; a miss neither answers is a defect.</p>
+<h2 id="snaps-and-checkpoints">Snaps and checkpoints</h2>
+<p><a href="../files/aggregator/tool-snap-py.html">snap.py</a> hashes every file in <code>out/</code> under a name, once. <code>close.sh</code> takes one at every close; each categorization move gets one too, so a reviewer can see the state before and after it (<a href="../files/aggregator/out-snap.html">_snap/</a>). <code>close.sh</code> then publishes a checkpoint of the folder and the transcript, committed once.</p>
+<h2 id="compaction">Compaction</h2>
+<p>A long leg will compact unseen. CLAUDE.md tells the compactor what to keep. The hook <a href="../files/aggregator/harness-after-compact-sh.html">after_compact.sh</a> then has the analyst re-read the head and the stage file, read the diary's tail, reconcile the two, and log that it did.</p>
+<h2 id="pauses">Pauses</h2>
+<p><a href="../files/aggregator/harness-pause-sh.html">pause.sh</a> writes <code>.pause</code>. At the next safe stop the analyst logs its working hypothesis and the next room or item as a <code>pause</code> line and closes with <code>done.sh NN --pause</code>, which refuses without that line. The next leg (<code>-p2</code>) picks up from the head and the diary.</p>
+<h2 id="interview-forks-and-transcripts">Interview forks and transcripts</h2>
+<p>At eleven interview points a leg ends with a brief, and <a href="../files/aggregator/harness-interview-sh.html">interview.sh</a> opens a read-only fork of that session. Nothing said there enters the run unless a reply file comes back, which the next leg reads before its first write. <code>interview.sh</code> copies the fork's transcript beside the run, and <code>close.sh</code> copies each leg's transcript into <a href="../files/aggregator/out-transcripts.html">_transcripts/</a>. Session files in the run's config folder are kept for 36,500 days (<a href="../files/aggregator/claude-settings-json.html">.claude/settings.json</a>).</p>
+<h2 id="what-the-analyst-cannot-see-before-e1">What the analyst cannot see before E1</h2>
+<p><code>_probe/</code> and <code>_transcripts/</code> are closed to the analyst until stage E1, by the permission rules and the sandbox and not only by the stage file. <code>_snap/</code> holds hashes only and stays open throughout. Until its stage is handed over, the analyst also has no later stage file and no later shelf (<a href="../files/aggregator/stages-folder.html">stages/</a>, <a href="../files/aggregator/shelves-folder.html">shelves/</a>).</p>
+<p>Checked against: CONTRACT-aggregator.md, STANDING-INSTRUCTIONS.md §2, CLAUDE.md, AGENT.md, tools/mem.py, tools/done.sh, tools/probe.py, tools/snap.py, harness/*.sh, harness/protocol_guard.py, harness/settings.template.json, stages/STAGE-E1-formalizing-audit.md.</p>
+</body>
+</html>

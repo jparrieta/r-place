@@ -1,0 +1,360 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage C2. The model: the loop.</h1>
+<p>**Model:** as <code>arm.json</code> sets for this stage (your platform file lists the model and effort). **Legs:** one per pass, closed at the pass&#x27;s end or earlier when you</p>
+<p>choose. Every move inside a pass (a dimension cut, a fourth-order recut, an arrow added, bounded</p>
+<p>or withdrawn, a hypothesis kept or dropped) is logged when it is made (<code>mem.py log --kind move</code>,</p>
+<p>the Grodal, Anteby and Holm move named) and snapped (`python3 tools/snap.py C2</p>
+<p>move-&lt;move&gt;-&lt;n&gt;`). **Fleet:** one hostile reader, once, before the final passes (§6): build</p>
+<p>(the pass you expect to keep, with the packet), dispatch (outside your session, one reader on</p>
+<p>the platform&#x27;s reviewer model, sent by the dispatch), check (you are relaunched).</p>
+<p>You never run the reader and never call a model.</p>
+<p>**Steps:** <code>C2a-01</code> ... one per pass; <code>C2b</code> the reviewer&#x27;s build (the pass you expect to keep, with the packet; it ends at <code>--cut packets-out</code>), the dispatch, <code>C2c</code> the reviewer&#x27;s check and the mid-stage interview; <code>C2d-01</code>, <code>C2d-02</code> the closing passes. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after each logged move, after each whole room read for the story, and after each pass. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh C2 --pause</code> (STANDING §2).</p>
+<p>**Startup packet, every leg:** <code>_head.md</code>, this file, the last five diary entries,</p>
+<p><code>validate.py --open C2</code>; the previous pass&#x27;s <code>model/story-pN.md</code> and <code>saturation.jsonl</code> tail.</p>
+<p>First leg only: <code>METHOD.md</code> whole, the tier A shelf (<code>mem.py shelf</code>), <code>prior.md</code>, <code>contrast.md</code>.</p>
+<p>In the check leg the harness adds one line: the reader left its file in <code>_fleet_raw/C2/</code>.</p>
+<p>**Reads allowed:** <code>scheme_v2.*</code>, <code>fourth/fourth.jsonl</code>, <code>assignments_final.jsonl</code> (never</p>
+<p><code>assign_final.jsonl</code>), <code>multiplacement_log.jsonl</code>, <code>coder_conflicts.jsonl</code>, <code>form_pass-C1.md</code></p>
+<p>(the form-pass findings, <code>FP-01</code> on, which exist there and nowhere else); rooms and themes by</p>
+<p>query (<code>mem.py rooms --with</code>, <code>contrast</code>, <code>where</code>, <code>pairs</code>, <code>after</code>, <code>forest</code>, <code>room</code>, <code>when</code>,</p>
+<p><code>codes --third</code>, <code>codes --fourth</code>); your notes by <code>note</code>; <code>finding</code>, <code>findings --touching</code>,</p>
+<p><code>question</code>; the views; quotes through <code>cite.py</code>; <code>counts.py</code>; <code>_fleet_raw/C2/</code> in the check</p>
+<p>leg. **Forbidden:** the explanation literature (stage C3); rooms in order; the canvas as an</p>
+<p>undeclared ground (rule 7); your notes, findings or prior to the reader.</p>
+<p>**Outputs:** <code>model/elements.jsonl</code>, <code>model/arrows.jsonl</code>, <code>model/loops.jsonl</code> (empty if no grounded loop), <code>model/history.jsonl</code>;</p>
+<p><code>fourth/fourth.jsonl</code> recut in place; <code>dimensions.jsonl</code>; <code>structure.md</code>; <code>concept.md</code>;</p>
+<p><code>model.md</code>; <code>within_case.md</code>; <code>model/story-pN.md</code> and <code>story_rooms-pN.jsonl</code> per pass;</p>
+<p><code>saturation.jsonl</code>; <code>findings.jsonl</code>, opened here if not before; <code>tier_history.jsonl</code> lines for</p>
+<p>every recut and every item it moved; when the third-order tier is recut, <code>scheme_v2.jsonl</code> and</p>
+<p><code>assignments_final.jsonl</code> rewritten (below); <code>_questions/&lt;slug&gt;.md</code>; <code>RETURN-C2.md</code> and one packet;</p>
+<p><code>review-C2.md</code> answered in <code>notes-C2.md</code>; a <code>run_manifest.json</code> entry for the reader;</p>
+<p><code>notes-C2.md</code>; <code>handback-C2.md</code>.</p>
+<p>Structure, concept and model are one loop: **Part A** the data structure (dimensions, and the</p>
+<p>fourth-order tier recut where it must be), **Part B** the concept, **Part C** the model, and at</p>
+<p>the end of every pass **the story**, told again and read against rooms. Read all four before</p>
+<p>starting any. The order inside a pass is yours.</p>
+<h2>1. Before pass 1</h2>
+<p>**Read the shelf.** <code>METHOD.md</code> says what each work on the read tier is for here and how they</p>
+<p>rank; its hierarchy governs. Re-read Gioia, Corley and Hamilton whole (<code>mem.py shelf</code>). The</p>
+<p>on-request tier (<code>mem.py shelf --list</code>) may name and recognise, and nothing else; the</p>
+<p>explanation literature stays shut until stage C3. Re-read <code>prior.md</code> and the contract&#x27;s §1</p>
+<p>beside it.</p>
+<p>**Read the ledger**: <code>mem.py pairs --level third</code> and <code>--level second</code>: which third-order themes</p>
+<p>answer which, in how many rooms, with the limit printed. The ledger shows members belong</p>
+<p>together in the record; it is never, on its own, an arrow.</p>
+<p>**Write the criterion**, one paragraph in <code>notes-C2.md</code>: what would make you prefer a later pass</p>
+<p>to this one. The loop&#x27;s failure is ratcheting; a criterion written after the passes exist is not a</p>
+<p>criterion. Number every pass; keep every version (<code>structure.md</code>, <code>structure-p2.md</code>,</p>
+<p><code>model-p2.md</code>, <code>model/story-p2.md</code>; rule 18); say at the end which pass the model rests on. **The</p>
+<p>stopping rule** (contract §6) is a guide: stop after two consecutive passes in which no</p>
+<p><code>tier_history</code> event occurred, no arrow was added, bounded, demoted or withdrawn in</p>
+<p><code>arrows.jsonl</code>, and no sentence of the story that names an arrow or an element changed. From the</p>
+<p>third pass on you may declare the stop before that, with written reasons in <code>notes-C2.md</code>: what</p>
+<p>the last passes changed, why another would not change more, and the rooms that argue against</p>
+<p>stopping. One line per pass in <code>saturation.jsonl</code>. The rule watches the arrows and the story&#x27;s sentences as well as the</p>
+<p>tiers because a rule that watches the tiers alone cannot see an arrow, which is how v35 stopped</p>
+<p>too early. Read §5&#x27;s three counts as a trend across passes; a pass in which <code>told-with-residue</code></p>
+<p>rose is a stopping failure, and the residues are the next pass&#x27;s material. A curve still climbing</p>
+<p>at the last pass is a finding about the structure. From pass 4 on, keep the pass that best</p>
+<p>satisfies the criterion, not the last, and report what you discarded. The floor is there because</p>
+<p>the first telling that holds is the one you most want to stop at.</p>
+<p>**The tiers stay open up to the line** (rule 11), the third-order tier too, the rule amended</p>
+<p>first and the touched second-order themes re-placed by you. A recut third-order theme is written into</p>
+<p><code>scheme_v2.jsonl</code> in place (its line edited; a new theme added with the next free id, minted with</p>
+<p><code>mem.py mint</code>, and its gate), and each re-placed second-order theme goes through `mem.py reassign</p>
+<p>&lt;sub&gt;:&lt;tNN&gt; --theme T3-NNN --reason &quot;...&quot;`, which rewrites that theme&#x27;s line of</p>
+<p><code>assignments_final.jsonl</code> and records the move on it; stage D1 lifts the rooms from these two files. Every recut is a <code>tier_history</code> line</p>
+<p>with its move, logged and snapped when it is made, every item it moved is logged, and every <code>findings.jsonl</code> line it</p>
+<p>touches is re-examined in the same act (rule 14).</p>
+<p>**The fork.** Where the operator forks the loop, the fork is taken as C1 closes, so every fork</p>
+<p>holds the same <code>assignments_final.jsonl</code> and <code>form_pass-C1.md</code> and diverges from this stage&#x27;s</p>
+<p>first pass; each fork runs C2 to D3; the carried fork is chosen by the rule declared in <code>RUN.json</code></p>
+<p>before any fork ran (<code>HOW-TO-RUN.md</code>). You are not told you are a fork and you do not choose the</p>
+<p>carried one.</p>
+<p>**Open distinctions.** Where two readings of a partition, an arrow or a bound stay open across a</p>
+<p>pass, open <code>_questions/&lt;slug&gt;.md</code> (one per file, 600 words; <code>mem.py question &lt;slug&gt;</code>) and close</p>
+<p>it with a verdict line, never by deleting it. The recall probe asks for the open slugs.</p>
+<h2>2. Part A: the data structure</h2>
+<p>No relationships in this part.</p>
+<p>**The fourth-order tier**, cut at C1, is recut here where the material demands (rule 11), each</p>
+<p>recut declared as a construct again if its name changes. A fourth-order theme is a named group</p>
+<p>of third-order themes. **No number is set for you.** The count is whatever the material</p>
+<p>carries: enough that each answers a question no member answers alone, few enough that each is a</p>
+<p>step up in abstraction and not a rename of its members; say in <code>notes-C2.md</code> and the diary what</p>
+<p>the count is and why the material carries that many. The contract&#x27;s §1 and §2 govern the label:</p>
+<p>any literature may name a fourth-order theme, the four universal problems&#x27; vocabulary included,</p>
+<p>under the declaration, and a borrowed or adapted name carries one sentence saying what this</p>
+<p>material&#x27;s version cannot do that the source&#x27;s can (*task allocation without anyone who can</p>
+<p>allocate*); the third-order tier beneath keeps its descriptive names. Every third-order theme</p>
+<p>no fourth-order theme picked up is listed at the foot of <code>fourth.md</code> with one clause. The <code>T4-</code></p>
+<p>line keeps stage C1&#x27;s fields and gains here <code>changed</code>, <code>mistaken_for</code>, <code>in_model</code> and <code>pass</code>;</p>
+<p><code>fourth/fourth.jsonl</code> and <code>dimensions.jsonl</code> are edited in place with no second version, since</p>
+<p>every change is a <code>tier_history.jsonl</code> line carrying the old line as <code>was</code>. The form-pass</p>
+<p>findings enter the structure by their <code>FP-</code> ids on the same terms as a third-order theme,</p>
+<p>marked as ones whose unit is the turn rather than the topic, never counted.</p>
+<p>**Dimensions.** Build one where it gathers at least two fourth-order themes answering a common question, adds an explanatory distinction none answers alone, and can be placed against literature. Each has a construct block and explicit evidence. A theme no dimension gathers carries <code>&quot;dimension&quot;: []</code> with a reason. Zero or one dimension is a valid finding; do not add dimensions to satisfy a preferred shape. Where several are warranted, distinguish each pair by its members and explanatory question. Record considered alternatives without requiring a runner-up or new dimension.</p>
+<pre><code>
+{&quot;id&quot;: &quot;D01&quot;, &quot;label&quot;: &quot;...&quot;, &quot;members&quot;: [&quot;T4-003&quot;, &quot;T4-011&quot;],
+
+ &quot;construct&quot;: {&quot;status&quot;: &quot;borrowed|adapted|coined&quot;, &quot;source&quot;: &quot;...&quot;, &quot;changed&quot;: &quot;...&quot;,
+
+               &quot;mistaken_for&quot;: &quot;...&quot;, &quot;disconfirm_elsewhere&quot;: &quot;...&quot;, &quot;gloss&quot;: &quot;...&quot;},
+
+ &quot;question&quot;: &quot;what this dimension answers that no member answers alone&quot;,
+
+ &quot;confidence&quot;: &quot;clear|arguable&quot;, &quot;pass&quot;: 2}
+
+</code></pre>
+<p>**<code>structure.md</code>**: per third-order theme, what it is and is not, the repaired borderline</p>
+<p>description (from stage C1&#x27;s disagreements), nearest neighbours and the separating test, what</p>
+<p>varies and between what extremes, its gate quoted from <code>scheme_v2.md</code>, the three counts summing</p>
+<p>to the analysed set from <code>counts.py</code> or the sentence that it travels on exemplars (rule 5),</p>
+<p>three exemplars through <code>cite.py</code>, and, where one of <code>coder_conflicts.jsonl</code>&#x27;s pairs was placed</p>
+<p>here, both coders&#x27; words under *read another way* with which reading your count rests on; per</p>
+<p>fourth-order theme and dimension, the id, the label and declaration with a one-sentence gloss,</p>
+<p>what holds its members together in your words and not as a list, the question it answers, what</p>
+<p>falls outside with one near case, the member you were least sure of with both sides, for a</p>
+<p>dimension its membership predicate and gate, for a fourth-order theme its material:</p>
+<pre><code>
+{&quot;fourth&quot;: &quot;T4-003&quot;, &quot;third&quot;: &quot;T3-007&quot;, &quot;second_order&quot;: &quot;&lt;the coder&#x27;s label&gt;&quot;,
+
+ &quot;code_id&quot;: &quot;c0113&quot;, &quot;sub&quot;: &quot;&lt;community&gt;&quot;, &quot;author&quot;: &quot;&lt;handle as the record carries it&gt;&quot;,
+
+ &quot;created_utc&quot;: 1491012345, &quot;hour_since_open&quot;: 10.1,
+
+ &quot;quote&quot;: &quot;the participant&#x27;s own words, unedited&quot;,
+
+ &quot;position&quot;: &quot;core|side|between&quot;, &quot;nearest_neighbour&quot;: &quot;T4-007 or null&quot;,
+
+ &quot;why_this_one&quot;: &quot;one clause: what it shows that the others do not&quot;}
+
+</code></pre>
+<p>Three to five quotes from two to four second-order themes per fourth-order theme, through</p>
+<p><code>cite.py --tier 4th --id &lt;T4-id&gt; --n K</code>, chosen for breadth and depth, the spread stated: where</p>
+<p>the good material sits at two edges with nothing between, take two from each and say the middle</p>
+<p>was empty; if every quote comes from one room, say so. The same rule governs the third-order</p>
+<p>exemplars. **What no fourth-order theme picked up**, one section: how many, of how</p>
+<p>many, and the code mass they carry; what they were in general; two or three quotes; whether any</p>
+<p>should have been one, and why not. Stage E1 reads it. The data-structure view is generated</p>
+<p>(<code>_views/data-structure</code>); you do not write it.</p>
+<p>**Two more things Part A owes.** The pairs: rule 0&#x27;s log grouped by <code>(primary, additional)</code>,</p>
+<p>the supporting concepts, one quote doing both things, whether the pair crosses a dimension</p>
+<p>boundary, rooms beside themes (how many rooms produced a second-order theme spanning it, beside</p>
+<p>how many themes did; the community count decides, rule 4). This is Part C&#x27;s raw material. The</p>
+<p>onset contrast: your themes and dimensions crossed against the two sides <code>contrast.md</code></p>
+<p>declared, with the denominator from <code>counts.py</code>; say whether stage A1&#x27;s expectation held.</p>
+<p>Compute every count from <code>assignments_final.jsonl</code>; never by hand. State in <code>notes-C2.md</code> that</p>
+<p>every third-order theme in the assignments is defined and sits in a fourth-order theme&#x27;s</p>
+<p>members or in the unpicked list, every fourth-order theme sits in a dimension&#x27;s members or</p>
+<p>carries <code>&quot;dimension&quot;: []</code>, every dimension used is defined, and the three counts sum.</p>
+<p>**Part A&#x27;s return**, per pass: third-order themes per fourth-order theme and fourth-order themes</p>
+<p>per dimension, with the pairwise separation for the two dimensions you are least sure of; the</p>
+<p>construct status of each; the alternative grouping you rejected and why; how many coder</p>
+<p>conflicts reached <code>structure.md</code>; whether the contrast showed anything; the fourth-order theme</p>
+<p>you are least sure of.</p>
+<h2>3. Part B: the concept</h2>
+<p>Name the one concept, two at the outside, that the literature has no adequate word for: not the</p>
+<p>largest theme, the one unaccounted for. Per candidate in <code>concept.md</code>: what it is, in a sentence</p>
+<p>a stranger could use; the nearest existing concept from recollection, said to be so, and</p>
+<p>precisely how this differs; how many communities carry it and how</p>
+<p>you counted, with the gate declared before the count (rule 5); three quotes through <code>cite.py</code>;</p>
+<p>what having it lets you explain that you could not before. Choose, say why not the others, and</p>
+<p>keep the rejected candidates in the file. A concept that is a relabelling of something the</p>
+<p>literature handles is not a finding, and saying so is an answer: *this study produced a</p>
+<p>description* is complete, with what would have had to be different. A candidate that is the</p>
+<p>model&#x27;s whole storyline is Part C&#x27;s material, not a concept. *Not yet* is an answer on any pass</p>
+<p>but the last.</p>
+<p>**Part B&#x27;s return**: the concept in one sentence; the nearest existing concept and the</p>
+<p>difference; how many communities; the candidate you came closest to choosing instead; the</p>
+<p>literature a reader would say already covers it, and how this differs from it.</p>
+<h2>4. Part C: the model, typed</h2>
+<p>The model is elements and arrows with ids (SCHEMA-adaptations.md §1): processes <code>P</code>, conditions</p>
+<p><code>K</code>, claims <code>C</code>, roles <code>R</code>, arrows <code>A</code>. Every element has a statement, the tier and dimension it</p>
+<p>belongs to (a third-order theme, a fourth-order theme, a dimension, or a form-pass finding by</p>
+<p>its <code>FP-</code> id), its range, its evidence (finding ids; concept ids), the leg it entered, and a</p>
+<p>status; ids are minted here, kept through stage C5, and keyed on by stage C5&#x27;s readers and</p>
+<p>D2&#x27;s labelers and verdict fleet; ids are never reused; every change is a</p>
+<p><code>model/history.jsonl</code> line with its move, one of Grodal, Anteby and Holm&#x27;s eight, and the</p>
+<p>harness&#x27;s stamp (the leg, the rooms, second-order themes and tokens read so far, the room and</p>
+<p>theme that prompted it). A thing is in the model if the model would say something different</p>
+<p>about the concept or one of §1&#x27;s four things without it. Name what you dropped and which of the</p>
+<p>five it failed. **How many elements stand at the top is yours to choose**: as many as keep composition and</p>
+<p>explanatory power alive (contract §2), with why in <code>notes-C2.md</code>, and as many beneath as the</p>
+<p>material carries; if more than a third are named for what they are about rather than</p>
+<p>for what they do, you have a lattice.</p>
+<p>**Three rooms first.** Before any arrow, <code>within_case.md</code>: one ordinary room, one whose form the</p>
+<p>scheme could not have predicted, one that stopped early; three to five hundred words each from</p>
+<p>the room&#x27;s concepts, forest and timeline (<code>mem.py forest</code>, <code>after</code>, <code>when</code>), using no theme above</p>
+<p>the second tier. Name them in <code>notes-C2.md</code> first, with why. When the model exists, read it</p>
+<p>against all three; a room the model cannot narrate is a finding.</p>
+<p>**How an arrow gets in.** You form it, then you substantiate it, from the pair list and the</p>
+<p>pairs crossing a dimension boundary. Evidence in <code>grounding</code>: coder-dated order (a dated passage</p>
+<p>in the coder&#x27;s <code>case.md</code> (its Chronology section); no v38 verb serves the coder&#x27;s chronology as</p>
+<p>structured entries, so it is read by hand and logged), coder-stated connection, the concepts</p>
+<p>read across rooms, the ledger (<code>after</code>, <code>pairs</code>) as elapsed order and never as cause, whatever</p>
+<p>else you devise if you can say what you looked at and what would have disconfirmed it. An arrow</p>
+<p>may stand on your reading alone, <code>&quot;grounding&quot;: &quot;reading-alone&quot;</code>. **Every arrow rests on an</p>
+<p>instance a reader can be shown**, since yours come from what participants wrote and the order</p>
+<p>they wrote it in: a participant&#x27;s words through <code>cite.py</code> in <code>support</code>, or a transition in</p>
+<p><code>support_transition</code> (two coded turns in one thread, in order, cited by item and concept, with</p>
+<p>the interval, from <code>mem.py after</code> or the forest itself). An arrow with neither is `&quot;in_model&quot;:</p>
+<p>false` whatever its count; stage C5&#x27;s figure draws no arrow that has</p>
+<p>none. **Every arrow is sampled against**: before you set <code>strength</code>, go by query to rooms not in</p>
+<p>its <code>subs</code> where it should hold and could fail (theoretical sampling inside the corpus), and</p>
+<p>record them.</p>
+<pre><code>
+{&quot;id&quot;: &quot;A03&quot;, &quot;from&quot;: &quot;P02&quot;, &quot;to&quot;: &quot;P07&quot;, &quot;kind&quot;: &quot;order|transition|co-occurrence&quot;,
+
+ &quot;grounding&quot;: &quot;coder-dated|coder-stated|codes-read|ledger|reading-alone|&lt;yours&gt;&quot;,
+
+ &quot;grounding_note&quot;: &quot;what you looked at and what you would have accepted as disconfirming&quot;,
+
+ &quot;sampled_against&quot;: [{&quot;sub&quot;: &quot;...&quot;, &quot;why_chosen&quot;: &quot;...&quot;,
+
+ &quot;found&quot;: &quot;holds|fails|not testable&quot;}], &quot;strength&quot;: &quot;strong|fair|thin&quot;, &quot;subs&quot;: [&quot;...&quot;],
+
+ &quot;mechanism&quot;: &quot;what the one does to the other, in one sentence&quot;,
+
+ &quot;mechanism_fails_if&quot;: &quot;the observation that would show it did not operate here&quot;,
+
+ &quot;mechanism_failure_present&quot;: &quot;true|false|not-addressed&quot;,
+
+ &quot;negative_check&quot;: &quot;tested-absent|counterexample|not-addressed&quot;,
+
+ &quot;base_rate_beaten&quot;: &quot;true|false|null&quot;,
+
+ &quot;early_late&quot;: {&quot;early&quot;: 7, &quot;late&quot;: 2}, &quot;bound&quot;: &quot;the condition a counterexample added, or null&quot;,
+
+ &quot;in_model&quot;: true, &quot;support&quot;: [{&quot;sub&quot;: &quot;...&quot;, &quot;code&quot;: &quot;...&quot;, &quot;quote&quot;: &quot;...&quot;}],
+
+ &quot;support_transition&quot;: [{&quot;sub&quot;: &quot;...&quot;, &quot;thread&quot;: &quot;...&quot;, &quot;items&quot;: [&quot;...&quot;, &quot;...&quot;],
+
+ &quot;codes&quot;: [&quot;...&quot;, &quot;...&quot;], &quot;interval_min&quot;: 14}], &quot;gloss&quot;: &quot;...&quot;,
+
+ &quot;since&quot;: &quot;C2-pass-2&quot;, &quot;status&quot;: &quot;standing&quot;}
+
+</code></pre>
+<p><code>mechanism</code> says what the one thing does to the other, concretely enough to imagine it failing;</p>
+<p><code>mechanism_fails_if</code> is written before <code>strength</code>, and an arrow without it is not an arrow. An</p>
+<p>arrow with a count and no mechanism is a correlation, <code>&quot;in_model&quot;: false</code>, listed in <code>model.md</code></p>
+<p>under *ungrounded relationships*, expected non-empty; stage C5 marks every proposition that</p>
+<p>rests wholly on theorised arrows, so list every one here. <code>negative_check</code> is never silent.</p>
+<p>Where both elements&#x27; themes carry *what varies inside it* and a coder wrote the covariation</p>
+<p>down, you may draw an arrow between degrees and say so; otherwise say in <code>model.md</code> that the</p>
+<p>model relates presences and not amounts. **A counterexample requires a reasoned response** (rule 16). Record <code>counterexample_response</code></p>
+<p>with the case evidence, alternatives considered and the chosen local adaptation, refinement,</p>
+<p>scope condition, uncertainty or withdrawal. A supported scope condition belongs in <code>bound</code>.</p>
+<p>An isolated exception need not change the shared model; an unsupported universal claim cannot</p>
+<p>remain universal. Open or update the finding and retain the original arrow in its history. Two counting traps: a fixed minimum count may filter nothing, because carry counts at</p>
+<p>this size clear small overlaps by chance; a co-occurrence count tested against the product of</p>
+<p>two carry rates tests presence, not connection, so build the null on the population the arrow</p>
+<p>is drawn from, define a connection statement in writing before you count, and let a relation</p>
+<p>that holds nearly everywhere stand as constitutive rather than be deleted by its base rate.</p>
+<p>**The onset contrast is carried to the arrows.** Test each strong arrow on both sides and</p>
+<p>record <code>early_late</code>, rule 6 before reading a gap. An arrow holding on one side is a boundary</p>
+<p>condition in the model&#x27;s own terms; on both, a stronger arrow.</p>
+<p>**Stating the model.** Every element carries its dimension, so project the arrows onto the</p>
+<p>dimensions in <code>model.md</code>&#x27;s apparatus, from <code>arrows.jsonl</code> and <code>elements.jsonl</code>: an arrow stated</p>
+<p>at the dimension&#x27;s level carries <code>mechanism</code> and <code>mechanism_fails_if</code> written at that level and</p>
+<p>the strongest instance from beneath it in <code>support</code> or <code>support_transition</code>; where the</p>
+<p>mechanisms beneath will not abstract into one account, report the pair as mass, not as an</p>
+<p>arrow. Report per dimension the in-mass, out-mass and internal mass, with and without the</p>
+<p>doubles (the second-order themes rule 0 placed on two themes); a dimension with no in-arrows is</p>
+<p>a condition, one with no out-arrows is residue, asymmetry is drift. **If you built no</p>
+<p>dimensions**, state the model over the elements the concept and §1&#x27;s four things require, tied</p>
+<p>to their fourth-order or third-order themes, and name the rest as unused. Neither route is</p>
+<p>preferred.</p>
+<p>**<code>model.md</code>**: one to two pages of prose, then the apparatus. Two tests before you call it</p>
+<p>finished: read it against a room you know is odd and make it say what happened there as one way</p>
+<p>of running the same structure; check that every element has a range. Then the elements with</p>
+<p>ids, the arrows with their fields, theorised arrows listed apart and the model shown once with</p>
+<p>them and once without, the dynamics (loops, what returns a room to a state it had left, what is</p>
+<p>irreversible across hour 73). For a within-room loop, one room&#x27;s dated evidence must run the whole cycle. An inter-room loop may use joint evidence from several rooms, with the claimed level explicit. In both cases use the forest&#x27;s hours since open on cited items, not incomparable coder day labels. Record every claimed loop in <code>model/loops.jsonl</code>; an empty file means no grounded loop. Each row has <code>id: LNN</code>, <code>level: within-room|inter-room</code>, an ordered closed <code>arrows</code> list and one <code>events</code> object per arrow with <code>arrow</code>, <code>sub</code>, <code>code</code>, exact <code>item</code>, numeric <code>hour</code> and <code>clock: forest-hours-since-open</code>. Dates run forward. Include <code>mechanism</code>, a plausible <code>alternative</code> and <code>why_not_alternative</code>. Similar codes or a graph cycle alone never establish process feedback. Everything looked for and not grounded goes under</p>
+<p>*looked-for-and-not-found*, in the results (rule 8). State which tier the arrows run between,</p>
+<p>which third-order themes the model does not use, by name and count, and where the model should</p>
+<p>break in its own terms (corpus size and topic are limits on the sample, not boundary</p>
+<p>conditions). For your three strongest arrows, write the argument that each is an artefact of</p>
+<p>which coders wrote about connections at all, and what in the record separates the two.</p>
+<h2>5. The story, at the end of every pass, read against rooms</h2>
+<p>A model that has only ever been read against the rooms its arrows were drawn from has not been</p>
+<p>read; D2&#x27;s verdict fleet is the test, and you prepare for it here, pass by pass.</p>
+<p><code>model/story-pN.md</code>: one to two pages that say what these rooms did, in the model&#x27;s terms, as a</p>
+<p>stranger could follow it, from a scattered readership to whatever they left behind, with the loops</p>
+<p>and the irreversibles across hour 73 in their places, naming every arrow it uses by id in brackets</p>
+<p>after the sentence that uses it (*and the call went out [A03]*), so that *no change to the story*</p>
+<p>is checked against <code>arrows.jsonl</code> and not against the feel of the prose; the stop rule diffs</p>
+<p>consecutive stories. Then read whole rooms against it, as many as the story needs (fifteen is a</p>
+<p>guide), named in <code>story_rooms-pN.jsonl</code></p>
+<p>before any is opened, by a rule written there: the three within-case rooms, every time; every room</p>
+<p><code>told-with-residue</code> or <code>not-told</code> last pass; rooms whose form the story does not name; rooms from</p>
+<p>the contrast side the story has visited least; every <code>sampled_against</code> room marked <code>fails</code>; one</p>
+<p>room from each quartile of <code>items_in_window</code>, every time, so the confound that decided v35 is in</p>
+<p>every draw; and rooms drawn by seed from the rest. Draw by query (<code>mem.py rooms</code>), never by</p>
+<p>opening notes, so what a room made does not pick it. A room read against an earlier story counts</p>
+<p>again only if the story has changed materially since, the three within-case</p>
+<p>rooms excepted. Read each whole, <code>mem.py room</code> and its forest, and answer one question per room,</p>
+<p>on its line: can the story be told of this room in the room&#x27;s own terms, and if not what would</p>
+<p>have to be added, changed or bounded. <code>told</code>, <code>told-with-residue</code>, <code>not-told</code>, with the residue or</p>
+<p>the reason in one clause. The rooms that could not be told and the residues are the next pass&#x27;s</p>
+<p>material: what they need is a recut, an arrow, a bound or a new element, or it is the finding that</p>
+<p>the model does not reach that kind of room, which rule 12 makes a boundary at the return (D1 to D3) and not a</p>
+<p>weakness. Do not loosen an element until a room fits; say what the room would need and whether the</p>
+<p>model should have it. One line per pass in <code>saturation.jsonl</code> with the story&#x27;s number, the rooms,</p>
+<p>and the three counts, read as a trend; a rise in <code>told-with-residue</code> is a stopping failure. A</p>
+<p>story is not improved by reading fewer rooms against it. The story is not the account: stage C5</p>
+<p>writes the account from the model that survives, the stories are the loop&#x27;s record of how the</p>
+<p>telling changed, and the last one is the account&#x27;s first draft.</p>
+<h2>6. One reviewer, once, before the final passes</h2>
+<p>The adversaries of earlier versions are gone as a system; one instance stays (rule 8), because</p>
+<p>a hostile reader found v35&#x27;s false premise when nobody else did, and its rival partition showed</p>
+<p>how under-determined the top tier was. When the pass you expect to keep is written and before</p>
+<p>the last passes that would close the loop: one fresh reader, one context.</p>
+<p>**Build leg.** Append this stage&#x27;s entry to <code>run_manifest.json</code> (the reader&#x27;s model, seed,</p>
+<p>decoding). Write <code>RETURN-C2.md</code>, the one return specification (FLEET.md): the return line, the</p>
+<p>end marker, and the line telling the reader to confirm it reached it. Build one packet</p>
+<p>(<code>packets.py files --stage C2 --name C2-reviewer &lt;files&gt;</code>, which asserts the ceiling and adds the end line), under the 50 KB ceiling,</p>
+<p>with <code>structure.md</code>, <code>fourth/fourth.jsonl</code>, <code>dimensions.jsonl</code>, <code>model.md</code>, <code>model/</code>, the last</p>
+<p>story, the criterion paragraph, and the verbs (<code>mem.py</code>, <code>cite.py</code>) with <code>room</code> served</p>
+<p><code>--no-canvas</code>; nothing else of yours: no room note, no findings, no prior. Its instruction,</p>
+<p>verbatim, copied into <code>review-C2.md</code> above its return: *Find errors: a quote that does not show</p>
+<p>what it is said to show, a contradiction, a count that cannot be right, a loop no room runs the</p>
+<p>whole way round, an arrow whose instance does not show the order claimed. Separately, propose</p>
+<p>one partition of the third-order themes into fourth-order themes that meets the criterion you</p>
+<p>were given and differs from the analyst&#x27;s, with what holds each together. A disagreement is</p>
+<p>never a verdict: your reading decides nothing.* The return line carries the sha256 of</p>
+<p><code>model.md</code> served, each error with its kind (quote, contradiction, count, loop, order), where</p>
+<p>and what, and the partition as labelled member lists with what holds each. **Stop here.** Close with <code>done.sh C2 --cut packets-out</code>. Your session ends; nothing more of this stage runs on your model until the check leg. The dispatch runs without you, on the platform&#x27;s reviewer route, each reader in a session of its own. The next launch of stage C2 is the check leg, and its packet tells you one thing: the readers left their files in <code>_fleet_raw/C2/</code>.</p>
+<p>**Dispatch leg.** Not yours. The dispatch sends the packet to a fresh reader on the platform&#x27;s reviewer model, collects the</p>
+<p>return into <code>_fleet_raw/C2/</code>, validates it against <code>RETURN-C2.md</code>, reissues if it fails the</p>
+<p>schema, and closes. Nothing in it reads your files.</p>
+<p>**Check leg.** You are relaunched. Copy the validated return into <code>review-C2.md</code>. Answer every</p>
+<p>item in <code>notes-C2.md</code> under rule 13: an error is fixed and logged; the rival partition is read</p>
+<p>for what it shows about how determined your tier is, and answered with a sentence saying why</p>
+<p>yours and not it, or with a recut under rule 11. The reader is not a judge; it runs once. A fix</p>
+<p>reopens the loop: the stopping rule counts from after it.</p>
+<p>**Interview point, mid-stage.** The check leg that reads the reviewer&#x27;s file writes <code>out/interview/C2c.md</code> (under 800 words: what the reader found, what you accept, what you refuse and why, what the final passes will change) and closes with <code>done.sh C2 --cut interview</code>. The final passes run in the legs after it.</p>
+<h2>Moments to log</h2>
+<p>Every move by name; the criterion, before pass 1; the three within-case rooms, with why; each</p>
+<p>dimension cut with its pairwise separation, and each fourth-order recut with the items it</p>
+<p>moved; the concept chosen and the candidates rejected; every arrow added, bounded, demoted or</p>
+<p>withdrawn; every <code>sampled_against</code> room and what it found; the story rooms drawn, with the rule;</p>
+<p>every room read against a story with its verdict; each pass&#x27;s saturation line; the reviewer&#x27;s</p>
+<p>packet, its items and your answers; the pass chosen and what was discarded; what the structure</p>
+<p>showed that your notes did not predict.</p>
+<h2>Final message</h2>
+<p>The claim, the room that best supports it, the room that most threatens it, the condition that</p>
+<p>separates them. Then: the pass the model rests on, with Part A&#x27;s and Part B&#x27;s returns for that</p>
+<p>pass; passes run; rooms read against a story in all and those the last story could not tell, by</p>
+<p>name; elements by kind, and how many third-order themes the model does not use; arrows by kind,</p>
+<p>theorised apart and the model without them, with mechanism and failure clause and how many were</p>
+<p>demoted, bounded and from which rooms, beating their base rate with the connection statement in</p>
+<p>one line, carrying a real negative check, resting on a quote against a transition; loops</p>
+<p>surviving the one-room test; the three counts per pass as a table, and whether</p>
+<p><code>told-with-residue</code> ever rose; what the reviewer found, by kind, and what its partition showed;</p>
+<p>what the structure showed that the notes did not predict; the relationship you most expected and</p>
+<p>could not ground; the licences exercised (METHOD.md) and those not. A return value.</p>
+<h2>Close</h2>
+<p><code>done.sh C2</code> at the end of every pass, or earlier when you choose, every move logged and snapped</p>
+<p>as it was made; paste the close-check&#x27;s report into</p>
+<p><code>notes-C2.md</code>; <code>handback-C2.md</code>; the head; the closing diary line.</p></html>

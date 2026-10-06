@@ -1,0 +1,1 @@
+r/dbz — verdict: full. Record saturation: strong central threads, limited by removals and off-platform coordination. Conceptual saturation: later slices repeated established practices and returned to ordinary discussion. Blockers: none.

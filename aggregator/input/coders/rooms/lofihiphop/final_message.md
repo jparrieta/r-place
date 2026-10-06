@@ -1,0 +1,1 @@
+r/lofihiphop — branch B; verdict: full. The visible Reddit practices are saturated; later material added no new practice. Record saturation is limited by deletions, unseen images, and off-platform coordination. No blockers.

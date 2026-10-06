@@ -1,0 +1,1 @@
+r/dmt — branch B; verdict: full. Practice saturation: all themes appeared in batch 01, and batch 02 added no new r/place practice. Record saturation: visible Reddit conduct is coherent, but Discord/PM coordination, deleted material, linked images, and final outcomes remain unseen. Blocked: nothing.

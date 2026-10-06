@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>materials.tar.zst</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/materials-archive.md">Markdown source</a></nav>
+<h1 id="materialstarzst">materials.tar.zst</h1>
+<p>A verified room's inputs, packed into one archive: the record, the brief stage and the room's instrument.</p>
+<p><strong>What it holds</strong></p>
+<p>Three folders, as found on disk:</p>
+<ul>
+<li><code>record/</code>: the cut the coders read, the pre-week, the counts and the openings file. See <a href="record-files.html">the record files</a>.</li>
+<li><code>brief/</code>: the brief writer's directory, with its corpus, tools, contract, manifest and outputs. See <a href="brief-outputs.html">the brief and its outputs</a>.</li>
+<li><code>instrument/</code>: the room's own copy of the coder instrument, from which <code>room.py run</code> built <code>run/</code>.</li>
+</ul>
+<p><strong>Who writes it, and when</strong></p>
+<p>After the room is verified. The armenia <code>STATE.json</code> records <code>materials_archive</code>, its sha256, its size (940,395 bytes) and <code>materials_archived_utc</code> 2026-09-25. Which script packs it is not stated in the sources.</p>
+<p><strong>Why it exists</strong></p>
+<p>Not stated in the sources in so many words. <code>room.py</code> shows the effect: when a room is verified, has a <code>materials_archive</code> file, and no longer has <code>record/</code>, <code>brief/</code> or <code>instrument/</code> folders, <code>status</code> keeps the saved stage "until its materials are restored".</p>
+<p><strong>Where</strong></p>
+<p><code>materials.tar.zst</code> in each sample room, for example <a href="../../../coder/rooms/armenia/">armenia</a>. To read it: <code>zstd -dc materials.tar.zst | tar -xf -</code>.</p>
+<p>Checked against: rooms/armenia/STATE.json, _tools/room.py</p>
+</body>
+</html>

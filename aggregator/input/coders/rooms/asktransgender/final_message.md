@@ -1,0 +1,1 @@
+r/asktransgender — verdict: full. Saturation: later slices mostly extended established practices, with one late political side exchange. Saturation: slice boundaries, deletions, triage, and unseen off-platform organizing limit completeness. Blockers: none.

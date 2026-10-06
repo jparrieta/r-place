@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>tools/fleet.py</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/fleet-py.md">Markdown source</a></nav>
+<h1 id="toolsfleetpy">tools/fleet.py</h1>
+<p>The case lead's harness for branch B: plan, dispatch, collect, consolidate.</p>
+<p><strong>What it holds</strong></p>
+<p><code>plan [--threshold 500] [--budget 500] [--floor 25]</code> decides the branch and cuts slices of whole threads, writing <code>out/_gate.json</code>, <code>out/timeline.md</code> and <code>out/lexicon.md</code>. <code>dispatch --batch NN --model ID</code> builds <code>fleet/batch_NN/</code> with the slice, context openings and continuing IDs. <code>collect --batch NN</code> brings the facts files back and appends a ledger entry to <code>out/ledger.md</code>. <code>redispatch</code> sets a failed batch aside under <code>fleet/_failed/</code>. <code>consolidate</code> closes each batch, fills <code>staging/</code>, pools <code>package/codes.jsonl</code>, <code>threads.jsonl</code> and <code>pointers.jsonl</code>, writes <code>package/codes_by_thread.md</code> and the lead's journal. <code>status</code> reports.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p>The instrument's author. The case lead runs it at the points its contract names.</p>
+<p><strong>Why it exists</strong></p>
+<p>"Nothing here reads a coder's case or notes, and nothing here interprets anything." The ledger is "the lead's memory of the fleet, kept by the harness".</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/instrument/v32/tools/fleet.py">tools/fleet.py</a>.</p>
+<p>Checked against: tools/fleet.py, CONTRACT-case-lead.v32.md</p>
+</body>
+</html>

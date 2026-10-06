@@ -1,0 +1,1 @@
+See `../_WHAT-GOES-HERE.md`. Holds STAGE-NN-*.md and SHIPS.tsv. The v37 stage files are the base and live in `rPlace/Layer A/60_aggregator/v37/stages/`; they are copied here only when step 3 has said which stay.

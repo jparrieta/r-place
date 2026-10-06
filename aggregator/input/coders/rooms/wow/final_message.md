@@ -1,0 +1,1 @@
+r/wow — verdict: **full**. Reading saturation: later slices mostly extended established practices, with retrospective visibility work the last new practice. Evidence saturation: sufficient for the case, but limited by distributed slice reading, deletions, triage, and unavailable linked/off-platform material. Blocked: nothing.

@@ -1,0 +1,118 @@
+{
+ "Redox": {
+  "counts": {
+   "threads_given": 1,
+   "threads_with_codes": 1,
+   "items": 4,
+   "coded": 4,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 0,
+   "orphans": 0,
+   "na_stretches": 0,
+   "coverage_of_coded_items": 1.0,
+   "threads_total_in_window": 2
+  },
+  "index": {
+   "634gyq": {
+    "0": {
+     "thread_id": "634gyq",
+     "item_id": "634gyq",
+     "parent_id": null,
+     "author": "Cldfire",
+     "created_utc": 1491192162,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "showing Redox OS has a spot alongside Rust-related art"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 21,
+      "retrieved_on": 1494555270
+     }
+    },
+    "1": {
+     "thread_id": "634gyq",
+     "item_id": "dfraild",
+     "parent_id": "634gyq",
+     "author": "polymetric_",
+     "created_utc": 1491192856,
+     "dt_parent_sec": 694,
+     "dt_thread_sec": 694,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "asking what the crab and bunny art are"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493746645
+     }
+    },
+    "1.1": {
+     "thread_id": "634gyq",
+     "item_id": "dfrb3r3",
+     "parent_id": "dfraild",
+     "author": "Cldfire",
+     "created_utc": 1491193754,
+     "dt_parent_sec": 898,
+     "dt_thread_sec": 1592,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "explaining the Rust and Mozilla art beside the spot"
+     ],
+     "sequence": [
+      "c0003"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491194064,
+      "score": 5,
+      "retrieved_on": 1493746927
+     }
+    },
+    "2": {
+     "thread_id": "634gyq",
+     "item_id": "dfrb4u4",
+     "parent_id": "634gyq",
+     "author": "Cldfire",
+     "created_utc": 1491193802,
+     "dt_parent_sec": 1640,
+     "dt_thread_sec": 1640,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "sending interested readers to the full discussion in r/rust"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493746943
+     }
+    }
+   }
+  }
+ }
+}

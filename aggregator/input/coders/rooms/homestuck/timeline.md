@@ -1,0 +1,49 @@
+# timeline — r/homestuck
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 23:09 — ZoomBoingDing edited a comment updating the abandoned first logo and the progressing second logo (`dfo6v9n`).
+- d0 04-01 04:25 — TheLertTheWorldNeeds edited a comment to retract commandeering a green rectangle after it became 420 (`dfojmrc`).
+- d0 04-01 13:33 — WhaleKit edited a suggestion to crusade at 413, 612 after the Dave pixel art (`dfowe49`).
+- d1 04-01 17:40 — Gingerale947 edited a progress report as the Dave head neared completion and the Heroes of the Storm logo threatened it (`dfp66w0`).
+- d1 04-01 18:57 — ArghMyToast edited a negotiation reply to add a reference image for the neighboring Dale sprite (`dfp9c0u`).
+- d1 04-01 19:45 — 0t0k0n0k0 edited a Terezi-building update after pixels kept being erased (`dfpb9mu`).
+- d1 04-01 20:01 — 0t0k0n0k0 edited the r/place coordination post to add coordinates (`62v3m8`).
+- d1 04-01 20:25 — clubby789 edited the proposal for an aspect-colored house (`62v8of`).
+- d1 04-01 21:43 — schntizelwitzel edited a reply to link the r/india thread (`dfpfxxl`).
+- d1 04-01 22:44 — Eguy321 edited the India-assisted house post to prioritize killing the void (`62w3mq`).
+- d1 04-01 22:46 — bengdahl341 edited the protective-script post to target the void rather than India (`62w43d`).
+- d1 04-01 23:08 — bengdahl341 edited the script-choice post to announce the void-killer was in development (`62w8kz`).
+- d1 04-01 23:32 — dolbp edited a comment with the new 5x5-corner house location (`dfpk6r9`).
+- d1 04-01 23:35 — dolbp edited two replies with the new house location (`dfpkbdv`, `dfpkc69`).
+- d1 04-01 23:36 — dolbp edited two more replies with the new house location (`dfpkd77`, `dfpkdt0`).
+- d1 04-02 02:29 — eldritchClockword edited a glitched house update with a different location (`dfpr3az`).
+- d1 04-02 02:41 — CelestalKitteh edited the proposal to relocate a Homestuck logo (`62xbsr`).
+- d1 04-02 03:07 — NamelessNebula edited the call to rebuild the SBURB logo (`62xg5z`).
+- d1 04-02 03:17 — Eguy321 edited the India-alliance and SBURB-house progress post (`62xhs3`).
+- d1 04-02 03:33 — Kayjeth edited the aspect-symbol planning post (`62xkal`).
+- d1 04-02 03:50 — bengdahl341 edited the house build/sustain script post (`62xmwa`).
+- d1 04-02 04:43 — RushSecond edited a proposed compromise after deciding the rebuild looked hopeless (`dfpvl6x`).
+- d1 04-02 05:02 — Darkcoolyo edited a reply to say the Joey effort began after Dave was covered (`dfpw4mp`).
+- d1 04-02 07:15 — Kayjeth edited the aspect progress tracker (`62yees`).
+- d1 04-02 07:33 — Linkslittlefriend spoke as a moderator to mark an r/undertale and r/place post off-topic (`dfpzr2a`).
+- d1 04-02 07:34 — ArghMyToast edited a reply identifying the Kirby Air Ride stream group and its Twitch venue (`dfpz4al`).
+- d1 04-02 10:28 — 4_4R0M4X edited the question about what to build after the aspects (`62yz7l`).
+- d1 04-02 12:56 — unrenewable_resource edited the r/place appreciation post to propose a black outline (`62zhim`).
+- d1 04-02 14:09 — Vetras92 edited a suggestion for the next r/place goal (`dfq7q9i`).
+- d1 04-02 15:40 — Redneck_Descartes edited a reply recounting how r/homestuck became involved in India's fight (`dfqb3vc`).
+- d2 04-02 17:20 — Eguy321 edited the r/India defense post to attribute green dots to Pakistan and an AFK script (`630vmd`).
+- d2 04-02 18:01 — m-kael edited the running list of r/place tasks (`6314jd`).
+- d2 04-02 19:28 — GordionKnot edited a comment to announce an r/undertale repost with switched images (`dfqlk3c`).
+- d2 04-03 01:17 — a deleted user edited a now-deleted suggestion in the final-addition thread (`dfr4n2c`).
+- d2 04-03 06:36 — didntgetintomit edited the Twitch-logo expansion question (`6353qj`).
+- d2 04-03 09:31 — seanos1998 edited the r/ss13 defense call with an updated goal and an emoji boundary (`635p7q`).
+- d2 04-03 11:27 — wowhatheck edited a stream-reference comment to add a YouTube link (`dfrl8xx`).
+- d2 04-03 11:44 — Makinporing edited the r/place general thread to mark “GAME OVER,” link the final score, and retain the live Discord and alliance lists (`6368ae`).
+- d3 04-03 16:03 — 241bran241 edited an attack alert to ask what scripts were and request assistance from the allies listed in the general thread (`637pot`).
+- d3 04-03 16:12 — DestroyerTerraria edited the proposed UofT relocation post after discovering the apparent board wipe was a bad-cache problem (`637rpd`).
+- d3 04-03 16:22 — DestroyerTerraria edited a false canvas-nuke alert to retract it after identifying the bad cache (`637tsa`).
+- d3 04-03 17:48 — sashawp edited a removed-body post whose surviving title says Place ended with glitches in the community design (`638ei9`).
+- d3 04-03 22:03 — Linkslittlefriend spoke as a moderator to direct r/place-copy suggestions to the stickied master thread (`dfsf916`).
+- d3 04-03 22:24 — Issle edited a comment weighing whether Joey was recognizable outside Homestuck (`dfsg9bv`).
+- d3 04-03 22:28 — Issle edited a comment naming Vinesauce streamers who might play Hiveswap (`dfsgh90`).

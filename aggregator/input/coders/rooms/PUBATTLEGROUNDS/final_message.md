@@ -1,0 +1,1 @@
+r/PUBATTLEGROUNDS — `full`. Practice saturation: later slices repeated established logo-building, bargaining, defence, and loss practices. Record saturation: complete for visible text, but deletions, inaccessible images, triage, and split reading limit reconstruction. Blockers: none.

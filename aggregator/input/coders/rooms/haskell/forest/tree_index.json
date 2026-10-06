@@ -1,0 +1,2129 @@
+{
+ "haskell": {
+  "counts": {
+   "threads_given": 12,
+   "threads_with_codes": 12,
+   "items": 109,
+   "coded": 81,
+   "bridge": 5,
+   "removed": 0,
+   "dropped": 23,
+   "orphans": 0,
+   "na_stretches": 20,
+   "coverage_of_coded_items": 0.85,
+   "threads_total_in_window": 62
+  },
+  "index": {
+   "62mw5t": {
+    "0": {
+     "thread_id": "62mw5t",
+     "item_id": "62mw5t",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1490983516,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "calling to draw a Haskell logo"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 0.69,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1492475497
+     }
+    }
+   },
+   "62sc90": {
+    "0": {
+     "thread_id": "62sc90",
+     "item_id": "62sc90",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491048603,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "asking for help drawing the Haskell logo on r/place"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 0.79,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494549135
+     }
+    },
+    "1": {
+     "thread_id": "62sc90",
+     "item_id": "dfpavyl",
+     "parent_id": "62sc90",
+     "author": "Minzkraut",
+     "created_utc": 1491075381,
+     "dt_parent_sec": 26778,
+     "dt_thread_sec": 26778,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "questioning whether the spot is too close to the void"
+     ],
+     "sequence": [
+      "c0003"
+     ],
+     "coverage": 0.95,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493711731
+     }
+    },
+    "1.1": {
+     "thread_id": "62sc90",
+     "item_id": "dfpayu5",
+     "parent_id": "dfpavyl",
+     "author": "biglambda",
+     "created_utc": 1491075501,
+     "dt_parent_sec": 120,
+     "dt_thread_sec": 26898,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "answering the new threat by trying another spot and a smaller template"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493711769
+     }
+    }
+   },
+   "62v362": {
+    "0": {
+     "thread_id": "62v362",
+     "item_id": "62v362",
+     "parent_id": null,
+     "author": "biglambda",
+     "created_utc": 1491076772,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0005",
+      "c0006",
+      "c0007"
+     ],
+     "labels": [
+      "launching a second attempt with the H center and a new template",
+      "saying every pixel counts until the logo is established and easier to defend",
+      "declaring the logo complete while cleaning its text and hoping to spread Haskell"
+     ],
+     "sequence": [
+      "c0005",
+      "c0006",
+      "c0007"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "edited": 1491115856,
+      "score": 54,
+      "retrieved_on": 1494550520
+     }
+    },
+    "1": {
+     "thread_id": "62v362",
+     "item_id": "dfpd5m7",
+     "parent_id": "62v362",
+     "author": "int_index",
+     "created_utc": 1491078790,
+     "dt_parent_sec": 2018,
+     "dt_thread_sec": 2018,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "joining in because the template looks good"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493712828
+     }
+    },
+    "2": {
+     "thread_id": "62v362",
+     "item_id": "dfpjcsf",
+     "parent_id": "62v362",
+     "author": "Minzkraut",
+     "created_utc": 1491088259,
+     "dt_parent_sec": 11487,
+     "dt_thread_sec": 11487,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "spotting that parts of Haskell sit at different heights"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715833
+     }
+    },
+    "2.1": {
+     "thread_id": "62v362",
+     "item_id": "dfpjf02",
+     "parent_id": "dfpjcsf",
+     "author": "biglambda",
+     "created_utc": 1491088352,
+     "dt_parent_sec": 93,
+     "dt_thread_sec": 11580,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "calling the work a constant battle with entropy and pointing back to the repair template"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493715862
+     }
+    },
+    "3": {
+     "thread_id": "62v362",
+     "item_id": "dfpna39",
+     "parent_id": "62v362",
+     "author": "addher",
+     "created_utc": 1491094145,
+     "dt_parent_sec": 17373,
+     "dt_thread_sec": 17373,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "asking for a script"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493717736
+     }
+    },
+    "3.1": {
+     "thread_id": "62v362",
+     "item_id": "dfppv1m",
+     "parent_id": "dfpna39",
+     "author": "int_index",
+     "created_utc": 1491098154,
+     "dt_parent_sec": 4009,
+     "dt_thread_sec": 21382,
+     "state": "coded",
+     "code_ids": [
+      "c0012",
+      "c0013"
+     ],
+     "labels": [
+      "answering with a PlaceBot script and a config made using JuicyPixels",
+      "revising the config to avoid overwriting others' art and to use the new font and colors"
+     ],
+     "sequence": [
+      "c0012",
+      "c0013"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "edited": 1491173747,
+      "score": 7,
+      "retrieved_on": 1493718984
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62v362",
+     "item_id": "dfqp2yq",
+     "parent_id": "dfppv1m",
+     "author": "thismarkstheend",
+     "created_utc": 1491166083,
+     "dt_parent_sec": 67929,
+     "dt_thread_sec": 89311,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493735989
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "62v362",
+     "item_id": "dfqs80x",
+     "parent_id": "dfqp2yq",
+     "author": "int_index",
+     "created_utc": 1491170265,
+     "dt_parent_sec": 4182,
+     "dt_thread_sec": 93493,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "sharing how GIMP and GHCi generated the bot configuration"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493737745
+     }
+    },
+    "3.1.2": {
+     "thread_id": "62v362",
+     "item_id": "dfroguh",
+     "parent_id": "dfppv1m",
+     "author": "dllthomas",
+     "created_utc": 1491224967,
+     "dt_parent_sec": 126813,
+     "dt_thread_sec": 148195,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "running the script only for the higher-priority text"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493754265
+     }
+    },
+    "4": {
+     "thread_id": "62v362",
+     "item_id": "dfpz55r",
+     "parent_id": "62v362",
+     "author": "SSchlesinger",
+     "created_utc": 1491116684,
+     "dt_parent_sec": 39912,
+     "dt_thread_sec": 39912,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "rallying a fight for receding territory"
+     ],
+     "sequence": [
+      "c0014",
+      "na"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493723463
+     }
+    },
+    "4.1": {
+     "thread_id": "62v362",
+     "item_id": "dfq0d3j",
+     "parent_id": "dfpz55r",
+     "author": "biglambda",
+     "created_utc": 1491120283,
+     "dt_parent_sec": 3599,
+     "dt_thread_sec": 43511,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "urging the fight on"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724054
+     }
+    },
+    "4.1.1": {
+     "thread_id": "62v362",
+     "item_id": "dfq1953",
+     "parent_id": "dfq0d3j",
+     "author": "SSchlesinger",
+     "created_utc": 1491123276,
+     "dt_parent_sec": 2993,
+     "dt_thread_sec": 46504,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "reporting fighting for a while and getting pixels back"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724481
+     }
+    },
+    "4.1.1.1": {
+     "thread_id": "62v362",
+     "item_id": "dfq1amh",
+     "parent_id": "dfq1953",
+     "author": "biglambda",
+     "created_utc": 1491123425,
+     "dt_parent_sec": 149,
+     "dt_thread_sec": 46653,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "recasting fighting as waiting patiently"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493724501
+     }
+    },
+    "5": {
+     "thread_id": "62v362",
+     "item_id": "dfq11ui",
+     "parent_id": "62v362",
+     "author": "dramforever",
+     "created_utc": 1491122561,
+     "dt_parent_sec": 45789,
+     "dt_thread_sec": 45789,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "worrying that low resolution makes the name read as r/haskcll"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493724385
+     }
+    },
+    "6": {
+     "thread_id": "62v362",
+     "item_id": "dfq13g8",
+     "parent_id": "62v362",
+     "author": "ocramz",
+     "created_utc": 1491122720,
+     "dt_parent_sec": 45948,
+     "dt_thread_sec": 45948,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "asking what the activity is"
+     ],
+     "sequence": [
+      "c0017"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724405
+     }
+    },
+    "6.1": {
+     "thread_id": "62v362",
+     "item_id": "dfq14ts",
+     "parent_id": "dfq13g8",
+     "author": "biglambda",
+     "created_utc": 1491122853,
+     "dt_parent_sec": 133,
+     "dt_thread_sec": 46081,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "explaining r/place as Reddit's April Fools thing"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724424
+     }
+    },
+    "7": {
+     "thread_id": "62v362",
+     "item_id": "dfq5s0b",
+     "parent_id": "62v362",
+     "author": "mniip",
+     "created_utc": 1491138087,
+     "dt_parent_sec": 61315,
+     "dt_thread_sec": 61315,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "petitioning to expand the logo and use a readable font"
+     ],
+     "sequence": [
+      "c0021",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "edited": 1491171827,
+      "score": 7,
+      "retrieved_on": 1493726665
+     }
+    },
+    "7.1": {
+     "thread_id": "62v362",
+     "item_id": "dfqlicl",
+     "parent_id": "dfq5s0b",
+     "author": "Magnap",
+     "created_utc": 1491161239,
+     "dt_parent_sec": 23152,
+     "dt_thread_sec": 84467,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "limiting expansion at the trans banner while preparing the border for a readable font"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493734266
+     }
+    },
+    "7.1.1": {
+     "thread_id": "62v362",
+     "item_id": "dfqpv43",
+     "parent_id": "dfqlicl",
+     "author": "Pyrollamasteak",
+     "created_utc": 1491167201,
+     "dt_parent_sec": 5962,
+     "dt_thread_sec": 90429,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "thanking Haskellers for considering the trans flag and warning that Detroit will interfere with the logo"
+     ],
+     "sequence": [
+      "c0025"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493736479
+     }
+    },
+    "7.2": {
+     "thread_id": "62v362",
+     "item_id": "dfqyf7r",
+     "parent_id": "dfq5s0b",
+     "author": "biglambda",
+     "created_utc": 1491178072,
+     "dt_parent_sec": 39985,
+     "dt_thread_sec": 101300,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "praising the revised design"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493740762
+     }
+    },
+    "8": {
+     "thread_id": "62v362",
+     "item_id": "dfq6a4n",
+     "parent_id": "62v362",
+     "author": "PanzerSwag",
+     "created_utc": 1491139232,
+     "dt_parent_sec": 62460,
+     "dt_thread_sec": 62460,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "petitioning to change the logo to more fitting purple"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493726912
+     }
+    },
+    "8.1": {
+     "thread_id": "62v362",
+     "item_id": "dfq6hqh",
+     "parent_id": "dfq6a4n",
+     "author": "biglambda",
+     "created_utc": 1491139692,
+     "dt_parent_sec": 460,
+     "dt_thread_sec": 62920,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "passing open-source maintainership of the pixels to the community"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491140052,
+      "score": 1,
+      "retrieved_on": 1493727014
+     }
+    },
+    "9": {
+     "thread_id": "62v362",
+     "item_id": "dfqrl9m",
+     "parent_id": "62v362",
+     "author": "100percentROI",
+     "created_utc": 1491169474,
+     "dt_parent_sec": 92702,
+     "dt_thread_sec": 92702,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "arriving in the subreddit because the canvas logo worked"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493737442
+     }
+    },
+    "9.1": {
+     "thread_id": "62v362",
+     "item_id": "dfqs75k",
+     "parent_id": "dfqrl9m",
+     "author": "biglambda",
+     "created_utc": 1491170237,
+     "dt_parent_sec": 763,
+     "dt_thread_sec": 93465,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "welcoming the arrival by telling them to start learning Haskell"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 14,
+      "retrieved_on": 1493737733
+     }
+    },
+    "9.2": {
+     "thread_id": "62v362",
+     "item_id": "dfrof0c",
+     "parent_id": "dfqrl9m",
+     "author": "dllthomas",
+     "created_utc": 1491224882,
+     "dt_parent_sec": 55408,
+     "dt_thread_sec": 148110,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "explaining Haskell to someone brought in by the logo"
+     ],
+     "sequence": [
+      "c0033",
+      "na"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493754241
+     }
+    },
+    "10": {
+     "thread_id": "62v362",
+     "item_id": "dfrfbbh",
+     "parent_id": "62v362",
+     "author": "ZweiSpeedruns",
+     "created_utc": 1491202083,
+     "dt_parent_sec": 125311,
+     "dt_thread_sec": 125311,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493749522
+     }
+    },
+    "10.1": {
+     "thread_id": "62v362",
+     "item_id": "dfrfcip",
+     "parent_id": "dfrfbbh",
+     "author": "biglambda",
+     "created_utc": 1491202164,
+     "dt_parent_sec": 81,
+     "dt_thread_sec": 125392,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "calling the white logo block offensive to the rest of r/place and asking for something more artistic"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493749537
+     }
+    },
+    "11": {
+     "thread_id": "62v362",
+     "item_id": "dfrl8er",
+     "parent_id": "62v362",
+     "author": "g33kidd",
+     "created_utc": 1491218803,
+     "dt_parent_sec": 142031,
+     "dt_thread_sec": 142031,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "warning that Python is trying to take over the Haskell logo"
+     ],
+     "sequence": [
+      "c0031",
+      "na"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493752697
+     }
+    },
+    "11.1": {
+     "thread_id": "62v362",
+     "item_id": "dfrlejl",
+     "parent_id": "dfrl8er",
+     "author": "biglambda",
+     "created_utc": 1491219195,
+     "dt_parent_sec": 392,
+     "dt_thread_sec": 142423,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "answering the takeover warning with a Python joke"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493752780
+     }
+    },
+    "11.1.1": {
+     "thread_id": "62v362",
+     "item_id": "dfrp5zw",
+     "parent_id": "dfrlejl",
+     "author": "attheicearcade",
+     "created_utc": 1491226040,
+     "dt_parent_sec": 6845,
+     "dt_thread_sec": 149268,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "defending while code compiles and finding old scripts undo a shifted logo"
+     ],
+     "sequence": [
+      "c0035",
+      "na"
+     ],
+     "coverage": 0.6,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493754696
+     }
+    },
+    "11.1.1.1": {
+     "thread_id": "62v362",
+     "item_id": "dfrthci",
+     "parent_id": "dfrp5zw",
+     "author": "Permutator",
+     "created_utc": 1491231657,
+     "dt_parent_sec": 5617,
+     "dt_thread_sec": 154885,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "admitting an old screenshot and bot were shifting the logo back, then agreeing to update"
+     ],
+     "sequence": [
+      "c0036",
+      "na"
+     ],
+     "coverage": 0.67,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493757502
+     }
+    },
+    "12": {
+     "thread_id": "62v362",
+     "item_id": "dfrzsp8",
+     "parent_id": "62v362",
+     "author": "Xandaros",
+     "created_utc": 1491239231,
+     "dt_parent_sec": 162459,
+     "dt_thread_sec": 162459,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "noticing r/place ended just after making another bot template"
+     ],
+     "sequence": [
+      "c0037",
+      "na"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493761130
+     }
+    },
+    "13": {
+     "thread_id": "62v362",
+     "item_id": "dfs2tog",
+     "parent_id": "62v362",
+     "author": "stepcut251",
+     "created_utc": 1491242592,
+     "dt_parent_sec": 165820,
+     "dt_thread_sec": 165820,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "turning the final damaged logo into a Haskell-versus-Python story"
+     ],
+     "sequence": [
+      "c0038"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493763259
+     }
+    }
+   },
+   "62vgqm": {
+    "0": {
+     "thread_id": "62vgqm",
+     "item_id": "62vgqm",
+     "parent_id": null,
+     "author": "edwardkmett",
+     "created_utc": 1491080502,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "announcing Haskell World News"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494550708
+     }
+    },
+    "1": {
+     "thread_id": "62vgqm",
+     "item_id": "dfpeatv",
+     "parent_id": "62vgqm",
+     "author": "edwardkmett",
+     "created_utc": 1491080516,
+     "dt_parent_sec": 14,
+     "dt_thread_sec": 14,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "advertising the Haskell World News item as seen on Haskell Cafe"
+     ],
+     "sequence": [
+      "c0040",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493713382
+     }
+    }
+   },
+   "62y6dj": {
+    "0": {
+     "thread_id": "62y6dj",
+     "item_id": "62y6dj",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491113222,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "celebrating that they made it"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552057
+     }
+    }
+   },
+   "62ykox": {
+    "0": {
+     "thread_id": "62ykox",
+     "item_id": "62ykox",
+     "parent_id": null,
+     "author": "biglambda",
+     "created_utc": 1491120701,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "claiming success and a unique programming-language place on r/place"
+     ],
+     "sequence": [
+      "c0042"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552258
+     }
+    },
+    "1": {
+     "thread_id": "62ykox",
+     "item_id": "dfq0iv2",
+     "parent_id": "62ykox",
+     "author": "biglambda",
+     "created_utc": 1491120795,
+     "dt_parent_sec": 94,
+     "dt_thread_sec": 94,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "thanking everyone and expecting the logo to bring new Haskell programmers"
+     ],
+     "sequence": [
+      "c0043",
+      "na"
+     ],
+     "coverage": 0.67,
+     "meta": {
+      "edited": 1491120992,
+      "score": 1,
+      "retrieved_on": 1493724132
+     }
+    }
+   },
+   "62zolk": {
+    "0": {
+     "thread_id": "62zolk",
+     "item_id": "62zolk",
+     "parent_id": null,
+     "author": "PanzerSwag",
+     "created_utc": 1491140577,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0044",
+      "c0045"
+     ],
+     "labels": [
+      "taking ownership of the logo and planning a more fitting purple color scheme",
+      "specifying dark purple for the greater-than mark"
+     ],
+     "sequence": [
+      "na",
+      "c0044",
+      "na",
+      "c0045",
+      "na"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494552812
+     }
+    },
+    "1": {
+     "thread_id": "62zolk",
+     "item_id": "dfq7slm",
+     "parent_id": "62zolk",
+     "author": "kungito123",
+     "created_utc": 1491142292,
+     "dt_parent_sec": 1715,
+     "dt_thread_sec": 1715,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "preferring expansion to recoloring as less wasted effort"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493727640
+     }
+    },
+    "1.1": {
+     "thread_id": "62zolk",
+     "item_id": "dfq7uc5",
+     "parent_id": "dfq7slm",
+     "author": "PanzerSwag",
+     "created_utc": 1491142387,
+     "dt_parent_sec": 95,
+     "dt_thread_sec": 1810,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "agreeing they can expand as well"
+     ],
+     "sequence": [
+      "c0047"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493727663
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62zolk",
+     "item_id": "dfq80oz",
+     "parent_id": "dfq7uc5",
+     "author": "kungito123",
+     "created_utc": 1491142704,
+     "dt_parent_sec": 317,
+     "dt_thread_sec": 2127,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "proposing a peaceful new location to avoid clashes with outdated scripts"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493727748
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62zolk",
+     "item_id": "dfq83pn",
+     "parent_id": "dfq80oz",
+     "author": "PanzerSwag",
+     "created_utc": 1491142854,
+     "dt_parent_sec": 150,
+     "dt_thread_sec": 2277,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "answering with a plan for new logos on the least contested edge tiles"
+     ],
+     "sequence": [
+      "c0049"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493727789
+     }
+    },
+    "1.2": {
+     "thread_id": "62zolk",
+     "item_id": "dfqg3sw",
+     "parent_id": "dfq7slm",
+     "author": "drb226",
+     "created_utc": 1491154315,
+     "dt_parent_sec": 12023,
+     "dt_thread_sec": 13738,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "calling r/place pure wasted effort and choosing how to waste it"
+     ],
+     "sequence": [
+      "c0050"
+     ],
+     "coverage": 0.75,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493731646
+     }
+    },
+    "2": {
+     "thread_id": "62zolk",
+     "item_id": "dfqigpp",
+     "parent_id": "62zolk",
+     "author": "mniip",
+     "created_utc": 1491157324,
+     "dt_parent_sec": 16747,
+     "dt_thread_sec": 16747,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491157647,
+      "score": 3,
+      "retrieved_on": 1493732787
+     }
+    },
+    "2.1": {
+     "thread_id": "62zolk",
+     "item_id": "dfqo3fk",
+     "parent_id": "dfqigpp",
+     "author": "Magnap",
+     "created_utc": 1491164696,
+     "dt_parent_sec": 7372,
+     "dt_thread_sec": 24119,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "praising readability and asking for dimensions"
+     ],
+     "sequence": [
+      "c0051"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491165265,
+      "score": 1,
+      "retrieved_on": 1493735512
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62zolk",
+     "item_id": "dfqprs8",
+     "parent_id": "dfqo3fk",
+     "author": "mniip",
+     "created_utc": 1491167068,
+     "dt_parent_sec": 2372,
+     "dt_thread_sec": 26491,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "answering with the design dimensions"
+     ],
+     "sequence": [
+      "c0052"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491167904,
+      "score": 1,
+      "retrieved_on": 1493736421
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62zolk",
+     "item_id": "dfqqd99",
+     "parent_id": "dfqprs8",
+     "author": "Magnap",
+     "created_utc": 1491167912,
+     "dt_parent_sec": 844,
+     "dt_thread_sec": 27335,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "working out how much horizontal space the revised design needs"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 0.84,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493736801
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62zolk",
+     "item_id": "dfqqh6j",
+     "parent_id": "dfqqd99",
+     "author": "mniip",
+     "created_utc": 1491168060,
+     "dt_parent_sec": 148,
+     "dt_thread_sec": 27483,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "anticipating conflict with still-running old scripts"
+     ],
+     "sequence": [
+      "c0054",
+      "na"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "edited": 1491168408,
+      "score": 5,
+      "retrieved_on": 1493736870
+     }
+    },
+    "3": {
+     "thread_id": "62zolk",
+     "item_id": "dfqxsqz",
+     "parent_id": "62zolk",
+     "author": "taktoa",
+     "created_utc": 1491177242,
+     "dt_parent_sec": 36665,
+     "dt_thread_sec": 36665,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "celebrating completion of the redesign"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493740462
+     }
+    },
+    "4": {
+     "thread_id": "62zolk",
+     "item_id": "dfrfpev",
+     "parent_id": "62zolk",
+     "author": "Magnap",
+     "created_utc": 1491203053,
+     "dt_parent_sec": 62476,
+     "dt_thread_sec": 62476,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "reporting conflict with an unidentified pink head"
+     ],
+     "sequence": [
+      "c0056"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493749711
+     }
+    }
+   },
+   "632ufm": {
+    "0": {
+     "thread_id": "632ufm",
+     "item_id": "632ufm",
+     "parent_id": null,
+     "author": "mniip",
+     "created_utc": 1491173320,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0057",
+      "c0058"
+     ],
+     "labels": [
+      "opening a committee thread for proposals about the r/place logo",
+      "responding to requests by seeking another place of action while moving discussion to IRC"
+     ],
+     "sequence": [
+      "c0057",
+      "na",
+      "c0058"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "edited": 1491217635,
+      "score": 0,
+      "retrieved_on": 1494554445
+     }
+    },
+    "1": {
+     "thread_id": "632ufm",
+     "item_id": "dfqwbq0",
+     "parent_id": "632ufm",
+     "author": "AlephOmega1",
+     "created_utc": 1491175391,
+     "dt_parent_sec": 2071,
+     "dt_thread_sec": 2071,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "asking to keep the existing space and let others go in peace"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 20,
+      "retrieved_on": 1493739746
+     }
+    },
+    "2": {
+     "thread_id": "632ufm",
+     "item_id": "dfr32ga",
+     "parent_id": "632ufm",
+     "author": "Pokeyoshi19",
+     "created_utc": 1491183714,
+     "dt_parent_sec": 10394,
+     "dt_thread_sec": 10394,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "asking the Haskell group to support a neighbouring logo"
+     ],
+     "sequence": [
+      "na",
+      "c0060",
+      "na"
+     ],
+     "coverage": 0.21,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493743005
+     }
+    },
+    "2.1": {
+     "thread_id": "632ufm",
+     "item_id": "dfrkz15",
+     "parent_id": "dfr32ga",
+     "author": "mniip",
+     "created_utc": 1491218185,
+     "dt_parent_sec": 34471,
+     "dt_thread_sec": 44865,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "abandoning the expansion after the neighbour speaks out"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752565
+     }
+    },
+    "3": {
+     "thread_id": "632ufm",
+     "item_id": "dfr588e",
+     "parent_id": "632ufm",
+     "author": "BluebellP",
+     "created_utc": 1491186326,
+     "dt_parent_sec": 13006,
+     "dt_thread_sec": 13006,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "asking Haskellers not to expand over the protected pansexual flag"
+     ],
+     "sequence": [
+      "na",
+      "c0061"
+     ],
+     "coverage": 0.64,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493744053
+     }
+    },
+    "3.1": {
+     "thread_id": "632ufm",
+     "item_id": "dfr5f1n",
+     "parent_id": "dfr588e",
+     "author": "Pokeyoshi19",
+     "created_utc": 1491186543,
+     "dt_parent_sec": 217,
+     "dt_thread_sec": 13223,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "accepting the response and looking elsewhere"
+     ],
+     "sequence": [
+      "c0062"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493744144
+     }
+    },
+    "3.2": {
+     "thread_id": "632ufm",
+     "item_id": "dfrkz4u",
+     "parent_id": "dfr588e",
+     "author": "mniip",
+     "created_utc": 1491218192,
+     "dt_parent_sec": 31866,
+     "dt_thread_sec": 44872,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "abandoning the expansion after the flag defender speaks out"
+     ],
+     "sequence": [
+      "c0066"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752571
+     }
+    },
+    "4": {
+     "thread_id": "632ufm",
+     "item_id": "dfr8hpt",
+     "parent_id": "632ufm",
+     "author": "TreesBannedMe",
+     "created_utc": 1491190206,
+     "dt_parent_sec": 16886,
+     "dt_thread_sec": 16886,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "threatening to grief the Haskell place"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -9,
+      "retrieved_on": 1493745657
+     }
+    },
+    "4.1": {
+     "thread_id": "632ufm",
+     "item_id": "dfrlis2",
+     "parent_id": "dfr8hpt",
+     "author": "Permutator",
+     "created_utc": 1491219461,
+     "dt_parent_sec": 29255,
+     "dt_thread_sec": 46141,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "mocking the anti-Haskell griefer"
+     ],
+     "sequence": [
+      "c0064"
+     ],
+     "coverage": 0.9,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493752836
+     }
+    },
+    "4.1.1": {
+     "thread_id": "632ufm",
+     "item_id": "dfrm889",
+     "parent_id": "dfrlis2",
+     "author": "TreesBannedMe",
+     "created_utc": 1491220958,
+     "dt_parent_sec": 1497,
+     "dt_thread_sec": 47638,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493753187
+     }
+    },
+    "4.1.1.1": {
+     "thread_id": "632ufm",
+     "item_id": "dfrnhiu",
+     "parent_id": "dfrm889",
+     "author": "Permutator",
+     "created_utc": 1491223344,
+     "dt_parent_sec": 2386,
+     "dt_thread_sec": 50024,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493753795
+     }
+    },
+    "4.1.1.1.1": {
+     "thread_id": "632ufm",
+     "item_id": "dft2kmk",
+     "parent_id": "dfrnhiu",
+     "author": "TreesBannedMe",
+     "created_utc": 1491291262,
+     "dt_parent_sec": 67918,
+     "dt_thread_sec": 117942,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "claiming after the event to have succeeded in griefing the final version"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493780795
+     }
+    },
+    "5": {
+     "thread_id": "632ufm",
+     "item_id": "dfrhy8d",
+     "parent_id": "632ufm",
+     "author": "metafunctor",
+     "created_utc": 1491209352,
+     "dt_parent_sec": 36032,
+     "dt_thread_sec": 36032,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "asking the 'haskoolers' not to expand"
+     ],
+     "sequence": [
+      "na",
+      "c0067"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493750791
+     }
+    }
+   },
+   "63557i": {
+    "0": {
+     "thread_id": "63557i",
+     "item_id": "63557i",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491202022,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "suggesting a different rendering of r-haskell on r/place"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 0.84,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494555604
+     }
+    }
+   },
+   "636tim": {
+    "0": {
+     "thread_id": "636tim",
+     "item_id": "636tim",
+     "parent_id": null,
+     "author": "Juansxn",
+     "created_utc": 1491226814,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "asking whether Haskellers own a nearby purple creature because Detroit is hitting both groups"
+     ],
+     "sequence": [
+      "c0070",
+      "na"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556448
+     }
+    },
+    "1": {
+     "thread_id": "636tim",
+     "item_id": "dfrqvrt",
+     "parent_id": "636tim",
+     "author": "dnkndnts",
+     "created_utc": 1491228447,
+     "dt_parent_sec": 1633,
+     "dt_thread_sec": 1633,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "mistakenly claiming ownership of the purple creature, then retracting it"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491235333,
+      "score": 0,
+      "retrieved_on": 1493755677
+     }
+    },
+    "1.1": {
+     "thread_id": "636tim",
+     "item_id": "dfrtmnz",
+     "parent_id": "dfrqvrt",
+     "author": "Juansxn",
+     "created_utc": 1491231831,
+     "dt_parent_sec": 3384,
+     "dt_thread_sec": 5017,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "checking whether the creature belongs to Haskell"
+     ],
+     "sequence": [
+      "c0072"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493757596
+     }
+    },
+    "1.1.1": {
+     "thread_id": "636tim",
+     "item_id": "dfru8sg",
+     "parent_id": "dfrtmnz",
+     "author": "AapOpSokken",
+     "created_utc": 1491232555,
+     "dt_parent_sec": 724,
+     "dt_thread_sec": 5741,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "redirecting the visitor to the group that owns the purple creature"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493758060
+     }
+    },
+    "2": {
+     "thread_id": "636tim",
+     "item_id": "dfs0kn5",
+     "parent_id": "636tim",
+     "author": "unibrow4o9",
+     "created_utc": 1491240080,
+     "dt_parent_sec": 13266,
+     "dt_thread_sec": 13266,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "answering after r/place ends by saying their group was there first"
+     ],
+     "sequence": [
+      "c0074"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": -3,
+      "retrieved_on": 1493761564
+     }
+    },
+    "2.1": {
+     "thread_id": "636tim",
+     "item_id": "dfs1osc",
+     "parent_id": "dfs0kn5",
+     "author": "Juansxn",
+     "created_utc": 1491241339,
+     "dt_parent_sec": 1259,
+     "dt_thread_sec": 14525,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "answering the priority claim by calling the other participant a botter"
+     ],
+     "sequence": [
+      "c0075"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": -1,
+      "retrieved_on": 1493762704
+     }
+    },
+    "2.1.1": {
+     "thread_id": "636tim",
+     "item_id": "dfs1tu6",
+     "parent_id": "dfs1osc",
+     "author": "unibrow4o9",
+     "created_utc": 1491241492,
+     "dt_parent_sec": 153,
+     "dt_thread_sec": 14678,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "closing the score-settling by saying they got a spot while calling the other group greedy"
+     ],
+     "sequence": [
+      "c0076"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493762775
+     }
+    }
+   },
+   "638aqu": {
+    "0": {
+     "thread_id": "638aqu",
+     "item_id": "638aqu",
+     "parent_id": null,
+     "author": "gbaz1",
+     "created_utc": 1491240822,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "announcing Haskell World News as an April Fools post"
+     ],
+     "sequence": [
+      "c0077"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 22,
+      "retrieved_on": 1494557190
+     }
+    },
+    "1": {
+     "thread_id": "638aqu",
+     "item_id": "dfs19gm",
+     "parent_id": "638aqu",
+     "author": "gbaz1",
+     "created_utc": 1491240867,
+     "dt_parent_sec": 45,
+     "dt_thread_sec": 45,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "highlighting when the joke was made after the spam filter ruined some fun"
+     ],
+     "sequence": [
+      "c0078"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493762493
+     }
+    },
+    "1.1": {
+     "thread_id": "638aqu",
+     "item_id": "dfsespb",
+     "parent_id": "dfs19gm",
+     "author": "ephrion",
+     "created_utc": 1491256505,
+     "dt_parent_sec": 15638,
+     "dt_thread_sec": 15683,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "joking that Reddit belongs to the AntiFunctional conspiracy"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493769082
+     }
+    },
+    "2": {
+     "thread_id": "638aqu",
+     "item_id": "dfs1j3q",
+     "parent_id": "638aqu",
+     "author": "andrewthad",
+     "created_utc": 1491241163,
+     "dt_parent_sec": 341,
+     "dt_thread_sec": 341,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "being happy the late joke appeared and saying it made them chuckle"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493762628
+     }
+    },
+    "2.1": {
+     "thread_id": "638aqu",
+     "item_id": "dfsq081",
+     "parent_id": "dfs1j3q",
+     "author": "edwardkmett",
+     "created_utc": 1491270131,
+     "dt_parent_sec": 28968,
+     "dt_thread_sec": 29309,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "recounting how the on-time joke cross-post got stuck in the spam filter"
+     ],
+     "sequence": [
+      "c0082",
+      "na"
+     ],
+     "coverage": 0.48,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493774614
+     }
+    },
+    "3": {
+     "thread_id": "638aqu",
+     "item_id": "dfs43sb",
+     "parent_id": "638aqu",
+     "author": "beerdude26",
+     "created_utc": 1491244030,
+     "dt_parent_sec": 3208,
+     "dt_thread_sec": 3208,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "laughing at the Edward Kmett pseudonym headline"
+     ],
+     "sequence": [
+      "c0080"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 19,
+      "retrieved_on": 1493763911
+     }
+    },
+    "4": {
+     "thread_id": "638aqu",
+     "item_id": "dfst29y",
+     "parent_id": "638aqu",
+     "author": "deech",
+     "created_utc": 1491273834,
+     "dt_parent_sec": 33012,
+     "dt_thread_sec": 33012,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "spotting the MTL more-than-meets-the-eye joke"
+     ],
+     "sequence": [
+      "c0083"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493776139
+     }
+    }
+   },
+   "63bmy7": {
+    "0": {
+     "thread_id": "63bmy7",
+     "item_id": "63bmy7",
+     "parent_id": null,
+     "author": "haskell_caveman",
+     "created_utc": 1491275085,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0084",
+      "c0085"
+     ],
+     "labels": [
+      "asking where the r/place spot is",
+      "calling a linked sneak peek into the sub a bummer"
+     ],
+     "sequence": [
+      "c0084",
+      "c0085"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494558854
+     }
+    },
+    "1": {
+     "thread_id": "63bmy7",
+     "item_id": "dfsuoqz",
+     "parent_id": "63bmy7",
+     "author": "nettapper",
+     "created_utc": 1491275916,
+     "dt_parent_sec": 831,
+     "dt_thread_sec": 831,
+     "state": "coded",
+     "code_ids": [
+      "c0086"
+     ],
+     "labels": [
+      "locating r/haskell diagonally below the Mona Lisa"
+     ],
+     "sequence": [
+      "c0086"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493776935
+     }
+    },
+    "2": {
+     "thread_id": "63bmy7",
+     "item_id": "dfswjyi",
+     "parent_id": "63bmy7",
+     "author": "drwebb",
+     "created_utc": 1491278545,
+     "dt_parent_sec": 3460,
+     "dt_thread_sec": 3460,
+     "state": "coded",
+     "code_ids": [
+      "c0087",
+      "c0088"
+     ],
+     "labels": [
+      "saying once you see it it is always there",
+      "invoking avoid success at at all costs"
+     ],
+     "sequence": [
+      "c0087",
+      "c0088"
+     ],
+     "coverage": 0.94,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493777851
+     }
+    }
+   }
+  }
+ }
+}

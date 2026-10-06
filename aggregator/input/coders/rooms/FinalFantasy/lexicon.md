@@ -1,0 +1,27 @@
+# lexicon — r/FinalFantasy
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Black Mage (62ql4f)
+- BLM (dfoz932)
+- Rainbow Blast (dfoz932)
+- execute the bird (dfpd69v)
+- MOG (62vxay)
+- Moogle (62waxz)
+- void (dfprn4j)
+- Cloud sprite (62xm0u)
+- Kefka sprite (62z5pr)
+- French Black Mage (dfqto8p)
+- Vivi (dfqv7lm)
+- Hell House (633rct)
+- BM (dfrk0rn)
+- Marle (dfrkuz5)
+- whitemage (dfrs6rk)
+- noir mage (dfs3f7w)
+- Vivi la France (dfs8x8f)
+- Oui Oui (dfs8yy1)
+- Black Mage Evilwizardington (dfs946v)
+- Fighter McWarrior (dfs946v)
+- Bibi (dfsektk)
+- rainbow hadouken (dfsn20l)
+- French Colors (dfsvtd9)

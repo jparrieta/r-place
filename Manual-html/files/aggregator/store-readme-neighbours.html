@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`package/store/_README-neighbours.md`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/store-readme-neighbours.md">Markdown source</a></nav>
+<h1 id="packagestore_readme-neighboursmd"><code>package/store/_README-neighbours.md</code></h1>
+<p>The neighbours file's own dictionary entry, with its counts.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>A section on <code>neighbours.jsonl</code>: ordered room pairs that touch, each written both ways; how many share an artwork, border on the atlas outline, overlap, are named in the coders' record, or are both on the canvas and named; rooms with at least one neighbour; artworks with an outline and a room of the frame; atlas entries not joined by name. Then the limit: "a border is where two outlines meet, not a negotiation. A mention is a pointer a coder recorded."</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p><code>build_neighbours.py</code>, handler side, when <code>build.sh</code> finds <code>INPUT/canvas/atlas_2017.json</code>; <code>build_store.py --readme-only</code> then folds it into <code>README-store.md</code>.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p><code>build_neighbours.py</code> states the limits in its docstring: the atlas outline is one annotator's, drawn after the event, and pixels are counted on the outline, not recounted from the placement log.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/_README-neighbours.md">package/store/_README-neighbours.md</a>.</p>
+<p>Checked against: tools/build_neighbours.py, tools/build_store.py, harness/build.sh.</p>
+</body>
+</html>

@@ -1,0 +1,1 @@
+r/rwby — `full`. Later slices added post-event appraisal; the final two added no new practice. The record is sufficient but incomplete around removals, missing media, and off-platform coordination. Nothing blocked completion.

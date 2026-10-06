@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Glossary</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="manual.css" />
+</head>
+<body>
+<nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/glossary.md">Markdown source</a></nav>
+<h1 id="glossary">Glossary</h1>
+<p><em>Kind of page: reference.</em></p>
+<p>Terms a newcomer meets here, in alphabetical order, defined as the sources define them.</p>
+<p><strong>Aggregate dimension.</strong> The top tier: what the fourth-order themes are about, named as a construct and declared borrowed, adapted or coined. The analyst builds as many as composition needs; none or one is reported as a failure state.</p>
+<p><strong>Analysed set.</strong> The frame less the rooms stage A1 drops. "N of M communities" says what M holds.</p>
+<p><strong>Arm.</strong> The models that serve a stage, declared in <code>CONTROL/arm.json</code>: the analyst's model and effort, and the readers' route and model. In v37 the "cheap arm" was the low-cost reader fleet.</p>
+<p><strong>Branch A, branch B.</strong> How a coder room is read. Branch A: the case lead reads the whole room itself (500 items or fewer in the window). Branch B: the lead cuts the room into slices and a serial fleet of coders reads them, one after another.</p>
+<p><strong>Bridge.</strong> In a forest, an uncoded turn kept because a coded reply hangs below it, so the distance between two coded turns stays visible (<code>tree_builder.py</code>).</p>
+<p><strong>Brief.</strong> Two senses. On the coder side, <code>brief.md</code> is a room's account of the seven days before the canvas opened, written by a brief writer. On the aggregator side, a brief is what the analyst writes at an interview point, under 800 words.</p>
+<p><strong>Case.</strong> One community read as one case. Its within-case account, written by the case lead, is <code>case.md</code>.</p>
+<p><strong>Case lead.</strong> The coder agent in charge of one room: it decides the branch, reads the room itself (branch A) or runs a fleet over it (branch B), and writes the case. The only coder agent with a saved conversation.</p>
+<p><strong>Checkpoint.</strong> A saved state that can be restored. Coder side: <code>codex_lead.py</code> commits one after each completed lead reply. Aggregator side: <code>close.sh</code> publishes one per leg under <code>CONTROL/snapshots/</code>, with <code>COMMITTED</code> written last.</p>
+<p><strong>Code / first-order concept.</strong> The first tier: a participant's words, coded, with the quote.</p>
+<p><strong>Compaction.</strong> When a long session's context is summarised to make room. The analyst cannot see it happen; the hook <code>after_compact.sh</code> has it re-read its head and stage file and reconcile them with the diary.</p>
+<p><strong>Contract.</strong> The written instrument an agent works under: <code>CONTRACT-aggregator.md</code> for the analyst, <code>CONTRACT.v32.md</code> and its role contracts for the coders, <code>CONTRACT-scheduler.md</code> for the yard's handler.</p>
+<p><strong>Cut.</strong> Two senses. On the aggregator side, a leg closed at a named checkpoint, snapped and resumable (<code>done.sh &lt;stage&gt; --cut &lt;name&gt;</code>, as in <code>done.sh B1 --cut interview</code>). <code>packets-out</code> closes the build leg of a fleet stage; <code>interview</code> closes an interview point. On the coder side, the window a room's record is cut to: the 97-hour cut.</p>
+<p><strong>Dispatch.</strong> Sending work to readers. Coder side: <code>fleet.py dispatch</code> builds the batch folder for one slice, and the yard's <code>codex_coder.py</code> runs the fleet coder in it. Aggregator side: <code>dispatch.sh</code> runs <code>fleet.py</code> over the analyst's packets, outside the analyst's session.</p>
+<p><strong>Drop.</strong> Three senses. A room stage A1 drops from the frame, with its reason (<code>dropped.jsonl</code>). An item a forest does not show, being neither coded nor above a code. And <code>DROPS/</code>, the handler's folder of files delivered to the analyst at each stage's first leg.</p>
+<p><strong>During window.</strong> The 73 hours the canvas was open, 2017-03-31 16:00 to 2017-04-03 17:00 UTC. The coders' window is 97 hours: the during window plus one day.</p>
+<p><strong>Fleet.</strong> Readers under a written instrument. The coder fleet reads a large room in slices, one coder per slice. The aggregator's reader fleets place themes, test the scheme or give verdicts, through the OpenRouter gateway.</p>
+<p><strong>Forest.</strong> A room's coded threads as reply trees, coded turns hung on them, gaps kept (<code>trees/&lt;sub&gt;.md</code>). A reply shows order, never cause.</p>
+<p><strong>Fork.</strong> A new, independent session started from a saved one. Coder side: <code>codex_lead.py fork</code>. Aggregator side: every leg forks the last close's session; an interview (<code>interview.sh</code> or <code>legs.py interview</code>) forks a closed leg in a copy of its folder; <code>step.sh --from-cut</code> opens a leg from a cut; <code>legs.py branch</code> makes a whole new run from one close.</p>
+<p><strong>Fourth-order theme.</strong> A named group of third-order themes, named as a construct and declared.</p>
+<p><strong>Frame.</strong> A dated, hashed copy of every room whose coding had finished when the copy was taken (<code>package/FRAME.md</code>). It held 696 rooms on 28 September 2026, 700 on 2 October and 705 on 4 October 2026 (<a href="numbers.html">the numbers</a>). The frame is not the population: the census and the contract count the population as 706 rooms, and rooms coded after the copy are not in the frame.</p>
+<p><strong>Handler.</strong> The Claude session that runs the aggregator's harness, drives the legs through the leg handler and answers the analyst in files; on the coder side, the scheduler that runs the yard. See <a href="6-the-handlers.html">the handlers</a>.</p>
+<p><strong>Head.</strong> <code>_head.md</code>, the narrative of the argument, at most 3,000 words, read first at every leg and rewritten at every close.</p>
+<p><strong>Interview point.</strong> One of twelve steps, <code>A1c</code> to <code>E2b</code>, that end with a brief and a cut, so the principal investigator can talk to the analyst in an interview: a fork of the leg in a copy of its folder, from which nothing reaches the run.</p>
+<p><strong>J.</strong> Jose Arrieta, the principal investigator: the person who owns the study, answers the handlers' questions and makes the author's judgements.</p>
+<p><strong>Kind.</strong> What stage B1 calls a third-order theme while it is being found: a kind of second-order theme that recurs across rooms.</p>
+<p><strong>Labeler.</strong> At stage D2, one fresh GPT session in Codex per room, which reads the model and the room and proposes the adaptations the model would need to explain that room.</p>
+<p><strong>Leg.</strong> One launch of the analyst. Since v40 a leg continues the last close's conversation, forked from its checkpoint, in the same folder; only the run's first leg is fresh. A stage is one or more legs.</p>
+<p><strong>Leg handler.</strong> <code>legs.py</code>, in <code>aggregator/handler/claude-adapter/</code>: one process on the Mac that opens, runs and closes the analyst's legs headless through the harness, and the one chat window where the principal investigator talks to every leg. See <a href="6-the-handlers.html">the handlers</a>.</p>
+<p><strong>Lexicon.</strong> On the coder side, <code>out/lexicon.md</code>: the room's own words, each with the item of its first use. Stage A1 of the aggregator also writes one.</p>
+<p><strong>Orchestrator.</strong> Either of the two coordinating agents, Claude and OpenAI, that keep the instrument, the harness and the Codex runtime. <code>orchestrator/</code> holds their roles, rules, checks and scripts; their working record is kept outside the repository. Neither runs the study. See <a href="6-the-handlers.html#the-orchestrators">the handlers</a>.</p>
+<p><strong>Package.</strong> The coders' work, sealed: one folder per room with the same six files (<code>brief.md</code>, <code>case.md</code>, <code>codes.jsonl</code>, <code>themes.jsonl</code>, <code>threads.jsonl</code>, <code>pointers.jsonl</code>), plus the canvas data.</p>
+<p><strong>Pause.</strong> A clean stop: <code>pause.sh</code> writes <code>.pause</code>, and at its next safe stop the analyst logs where to pick up and closes with <code>done.sh &lt;stage&gt; --pause</code>.</p>
+<p><strong>Pointer.</strong> A coder's record of another venue a passage names (a subreddit, a Discord, a poll), made with <code>emit.pointer</code> and kept in <code>pointers.jsonl</code>.</p>
+<p><strong>Probe.</strong> The recall probe: five questions asked at every close in a fork of the leg, scored against the head, the diary and the read log.</p>
+<p><strong>Return.</strong> Stages D1 to D3: the model is returned to every room, each room's labeler proposes adaptations, readers give verdicts, and the analyst rules on each. The forms of organizing are read off what the rooms required.</p>
+<p><strong>Room.</strong> One community's folder: in the yard, <code>rooms/&lt;sub&gt;/</code> with its record, brief and run; in the aggregator, a subreddit in the package.</p>
+<p><strong>Second-order theme.</strong> The coders' within-case grouping of a room's concepts, gerund-led and bound to its case. The yard's files call its label field <code>second_order</code>. In Gioia's terms these are first-order concepts, consolidated within a case; see <a href="10-for-reviewers.html">for reviewers</a>.</p>
+<p><strong>Shelf.</strong> The literature, arriving with the stages that read it (<code>shelves/&lt;stage&gt;/</code>). A shelf that has arrived stays.</p>
+<p><strong>Slice.</strong> In branch B, a run of whole threads in time order, read by one fleet coder.</p>
+<p><strong>Snap.</strong> A hash of every file in <code>out/</code> under a name, written once by <code>snap.py</code>, so a reviewer can see what existed when.</p>
+<p><strong>Stage and step (A1 to E2).</strong> The aggregator's work in five sections: A reading, B coding, C model, D adaptation and forming, E formalizing. Each stage is a sequence of lettered steps; <code>tools/steps.tsv</code> lists them. A leg is named by its step, as in <code>B1b-03</code>. The v37 run used stages 01 to 18.</p>
+<p><strong>Store.</strong> The package joined by script before stage A1 (<code>package/store/</code>): codes, themes, items, threads, rooms, transitions, relations and neighbours.</p>
+<p><strong>Third-order theme.</strong> A cross-case kind of second-order theme, the analyst's first tier: two to five words plus a gloss, near the material, never a construct's name.</p>
+<p><strong>Thread.</strong> A Reddit post and its replies.</p>
+<p><strong>Transition.</strong> A coded turn that answers a coded turn, with the interval between them; the store keeps them in <code>transitions.jsonl</code>.</p>
+<p><strong>Verb.</strong> A subcommand of <code>mem.py</code>, the analyst's way to read the store and its own files one page at a time, every call logged. Loosely, the analyst's other tools too: <code>cite.py</code> to quote, <code>validate.py</code> to check.</p>
+<p><strong>Verdict.</strong> At stage D2, a reader's judgement of whether a room's proposed adaptation holds, given the model and nothing of the room's coder.</p>
+<p><strong>Yard.</strong> The run yard: one folder per community with everything a case lead and its fleet need, and the handler's tools in <code>_tools/</code>.</p>
+</body>
+</html>

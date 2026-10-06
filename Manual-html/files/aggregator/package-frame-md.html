@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`package/FRAME.md`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/package-frame-md.md">Markdown source</a></nav>
+<h1 id="packageframemd"><code>package/FRAME.md</code></h1>
+<p>The frame: which rooms the run holds, dated and hashed.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>A short paragraph with three facts: the copy date, the room count, and a sha256 "over each room's six files and forest, rooms in sorted order". Then one line: the rooms are those whose coding had finished by the copy date, of a population of 708, and the list is <code>store/rooms.jsonl</code>.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p><code>build_store.py</code> at stage 00. The date is the day of the build unless <code>--frame-date</code> gives one.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Contract §5: "The frame you hold is a dated, hashed copy of every room whose coding had finished when the copy was taken", and "No room was chosen on anything but having been coded by the copy date." A1's first check reconciles the count against <code>rooms.jsonl</code>, the room folders and the distinct rooms in the codes and themes; A1's <code>run_manifest.json</code> takes the package hash from here.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/FRAME.md">package/FRAME.md</a>.</p>
+<p>Checked against: tools/build_store.py, CONTRACT-aggregator.md §5, stages/STAGE-A1-reading-room-notes.md.</p>
+</body>
+</html>

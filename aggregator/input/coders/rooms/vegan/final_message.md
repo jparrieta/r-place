@@ -1,0 +1,1 @@
+r/vegan — branch B; verdict: full. Selection saturation: complete under the fleet instrument. Practice saturation: later slices extended settled practices, while deletions and off-platform coordination limit evidence. Blockers: none.

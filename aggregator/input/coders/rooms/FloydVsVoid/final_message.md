@@ -1,0 +1,1 @@
+r/FloydVsVoid — Branch B; verdict: full. Thematic saturation: partial, with narrow new practices appearing late. Evidentiary saturation: complete for Reddit threads but incomplete for removed, external, and off-platform activity. Blocked: nothing.

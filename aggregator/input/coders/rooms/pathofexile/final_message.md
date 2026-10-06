@@ -1,0 +1,1 @@
+r/pathofexile — branch B — verdict: **full**. Saturation: later slices deepened established practices rather than adding new ones. Record limits: Discord deliberation, deleted material, external visuals, and split readers leave some process unseen. Blocked: nothing.

@@ -1,0 +1,155 @@
+#!/usr/bin/env python3
+"""
+newbrief.py — scaffold a brief-writer run.  Instrument v30.
+
+    python3 newbrief.py BRIEFDIR SUB RAW24.jsonl MODEL
+
+Cuts the seven days before the canvas opened out of a raw24 file, renders them WITHOUT triage
+windows, copies in the tools, substitutes the contract, and writes a manifest.
+
+Two things this fixes, both found by reading what the pipeline was actually doing rather than
+what it was supposed to:
+
+**Brief corpora were rendered with the coder's triage windows in them.** The window answers
+"does this thread touch the event", which is meaningless in the seven days before the event
+existed, and the brief writer's contract never mentioned triage — so the writer was handed an
+instruction it had no way to adjudicate, telling it to stop reading threads in a week that
+could not possibly touch the canvas. Rendered with `windows=False` now.
+
+**The brief writer had no reading tool**, so it opened the corpus with a general file tool,
+read as much as it liked, and left no record. It was the only agent in the pipeline whose
+behaviour was entirely unobserved. It now gets `read_brief.py`, which serves the corpus,
+samples for breadth across the week, and logs every service.
+"""
+
+import collections
+import hashlib
+import json
+import os
+import shutil
+import sys
+
+INSTRUMENT = "v30"
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+OPEN = 1490976000                 # 2017-03-31 16:00 UTC, the canvas opens
+PRE = OPEN - 7 * 86400            # 2017-03-24 16:00 UTC
+LABEL = ["2017-03-24 16:00", "2017-03-31 16:00"]
+
+EMPTY_BRIEF = """# Brief: r/%s, 2017-03-24 16:00 → 2017-03-31 16:00 UTC
+
+**This brief is empty, and that is a finding rather than a gap.**
+
+It was not written by a reader. The harness wrote it, because there was nothing for a reader
+to describe: **r/%s produced no posts and no comments at all in the seven days before the
+canvas opened.** The collection for this community covers those days and returns zero items.
+
+So there is no ordinary week here — no vernacular, no recurring formats, no regulars, no
+running jokes, no visible moderation. Whatever this community did during the event, it did
+without a settled way of talking that you could learn in advance.
+
+Two consequences for your reading, and they pull in opposite directions:
+
+- **Rule 6 has no external anchor here.** You cannot check a word against how these people
+  normally talk, because there is no record of them normally talking. Judge register from
+  your corpus alone, and where you cannot tell whether a word is theirs or yours, say so in
+  `notes.md` and name the word.
+- **A silent week is itself context.** A community that said nothing for seven days and then
+  said something during the event is not the same object as one that talks every day. Do not
+  treat the silence as missing data; the collection is complete and the silence is real.
+"""
+
+
+def sha(p):
+    return hashlib.sha256(open(p, "rb").read()).hexdigest()
+
+
+def thread_of(r):
+    if r.get("kind") == "post":
+        return r["id"]
+    li = r.get("link_id") or ""
+    return li[3:] if li.startswith("t3_") else (li or "?")
+
+
+def build(briefdir, sub, raw, model):
+    if not model or not str(model).strip():
+        raise SystemExit("newbrief.py needs the model the brief writer will run on. "
+                         "It is a condition of the brief and v30 will not scaffold "
+                         "one without it.")
+    os.makedirs(briefdir, exist_ok=True)
+    out = os.path.join(briefdir, "out")
+    os.makedirs(out, exist_ok=True)
+
+    items = []
+    with open(raw, encoding="utf-8") as fh:
+        for line in fh:
+            try:
+                d = json.loads(line)
+            except ValueError:
+                continue
+            if "id" in d and PRE <= d.get("created_utc", 0) < OPEN:
+                d.pop("_context", None)
+                items.append(d)
+
+    if not items:
+        open(os.path.join(out, "brief.md"), "w", encoding="utf-8").write(
+            EMPTY_BRIEF % (sub, sub))
+        json.dump({"instrument": INSTRUMENT, "sub": sub, "model": str(model).strip(),
+                   "preweek_items": 0,
+                   "brief": "harness-written; no pre-week exists"},
+                  open(os.path.join(briefdir, "_manifest.json"), "w"), indent=1)
+        return {"sub": sub, "items": 0, "threads": 0, "brief": "harness"}
+
+    items.sort(key=lambda r: r["created_utc"])
+    rec = os.path.join(briefdir, "brief_corpus.jsonl")
+    th = collections.Counter(thread_of(r) for r in items)
+    with open(rec, "w", encoding="utf-8") as fh:
+        fh.write(json.dumps({"_n_threads": len(th), "_n_items": len(items),
+                             "_window_utc": LABEL, "_segment": "pre"},
+                            ensure_ascii=False) + "\n")
+        for r in items:
+            fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+    sys.path.insert(0, HERE)
+    import render_corpus_v30 as RC
+    txt, stats = RC.render(rec, PRE, OPEN, sub, LABEL, OPEN, windows=False)
+    lines = txt.split("\n")
+    lines[1] = ("# window 2017-03-24 16:00 -> 2017-03-31 16:00  "
+                "(the seven ordinary days before the event; d0 is 03-24, not the canvas)")
+    corpus = os.path.join(briefdir, "brief_corpus.txt")
+    open(corpus, "w", encoding="utf-8").write("\n".join(lines))
+
+    for t in ("read_brief.py", "cite.py"):
+        shutil.copy2(os.path.join(HERE, t), os.path.join(briefdir, t))
+
+    subs = {"__SUB__": sub, "__CORPUS__": corpus, "__OUTDIR__": out,
+            "__READBRIEF__": os.path.join(briefdir, "read_brief.py"),
+            "__CITE__": os.path.join(briefdir, "cite.py"),
+            "__INSTRUMENT__": INSTRUMENT}
+    src = os.path.join(HERE, "CONTRACT-brief-writer.v30.md")
+    s = open(src, encoding="utf-8").read()
+    for k, v in subs.items():
+        s = s.replace(k, v)
+    left = [k for k in subs if k in s]
+    if left:
+        raise SystemExit("unsubstituted placeholders: %s" % left)
+    open(os.path.join(briefdir, "CONTRACT.md"), "w", encoding="utf-8").write(s)
+
+    man = {"instrument": INSTRUMENT, "sub": sub,
+           # **Which model wrote the brief.** Required from v28.
+           "model": str(model).strip(),
+           "window_utc": LABEL, "preweek_items": stats["items"],
+           "preweek_threads": stats["threads"], "preweek_chars": stats["chars"],
+           "reference_tokens": 25000, "hard_ceiling_tokens": 75000,
+           "sha256": {n: sha(os.path.join(briefdir, n))
+                      for n in ("read_brief.py", "cite.py", "CONTRACT.md",
+                                "brief_corpus.txt", "brief_corpus.jsonl")}}
+    json.dump(man, open(os.path.join(briefdir, "_manifest.json"), "w"), indent=1)
+    return {"sub": sub, "items": stats["items"], "threads": stats["threads"],
+            "chars": stats["chars"], "brief": "writer"}
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 5:
+        raise SystemExit(__doc__)
+    print(json.dumps(build(*sys.argv[1:5]), indent=1))

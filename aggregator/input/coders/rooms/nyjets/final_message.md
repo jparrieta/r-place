@@ -1,0 +1,1 @@
+r/nyjets — branch B — verdict: full. On-platform practice closes clearly; the later slice adds only the flair proposal while extending earlier practices. Discord, removed bodies, and external images remain partial. No blockers.

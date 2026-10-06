@@ -1,0 +1,3 @@
+Reading before counter-search: r/strangerthings members made and maintained a shared logo through template work, repeated repair, and negotiated borders, then credited and joked about the imperfect result.
+
+Competing account fixed before search: the apparent cooperation was mostly surface agreement while participants actually resisted the project, prioritized competing images, or damaged neighbors. If the reading is wrong, the record should contain explicit refusals to help, complaints that place displaced the room's ordinary life, or admissions of vandalism substantial enough to outweigh the repair and accommodation exchanges.

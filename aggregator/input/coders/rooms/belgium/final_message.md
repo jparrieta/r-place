@@ -1,0 +1,1 @@
+r/belgium — branch B; verdict: full. Practice saturation: later slices largely extended established practices, with post-closure accounting emerging late. Evidence saturation: removals, clipped large-thread displays, slice boundaries, and unseen Discord activity limit completeness. Blockers: none.

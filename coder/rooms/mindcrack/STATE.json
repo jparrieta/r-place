@@ -1,0 +1,141 @@
+{
+ "sub": "mindcrack",
+ "built": "2026-09-06T16:51:09Z",
+ "instrument": "v32",
+ "items_in_window": 1133,
+ "items_by_people": 1124,
+ "chars_by_people": 190891,
+ "threads": 144,
+ "preweek_items": 899,
+ "brief": "present",
+ "expected_branch": "B",
+ "expected_slices": 3,
+ "stage": "verified",
+ "log": [],
+ "notes": [
+  {
+   "at": "2026-09-07T22:39:32.778418+00:00",
+   "note": "Brief written in /Users/arrieta/Documents/ChatGPT/place Yard/atlas_yard/rooms/mindcrack/brief; full transcript retained; paths relocated and source-side validation rerun. Queue rank 115"
+  },
+  {
+   "at": "2026-09-08T07:32:25Z",
+   "note": "Started native case lead using lead-calibration-v1; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-08T13:15:54.333098+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  },
+  {
+   "at": "2026-09-08T15:50:18.190738+00:00",
+   "note": "Restored compressed case-lead store for continuation."
+  },
+  {
+   "at": "2026-09-08T15:50:18Z",
+   "note": "Forking clean checkpoint collected-01 for coder repair: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '-B', '/Users/arrieta/Documents/Codex/rplace/atlas_yard/_tools/codex_coder.py', '--room', '/Users/arrieta/Documents/Codex/rplace/atlas_yard/_lead_sessions/mindcrack-gpt56-calibration-v1/workspace/room', '--batch', '02', '--model', 'gpt-5.6-sol', '--effort', 'medium']' returned non-zero exit status 1."
+  },
+  {
+   "at": "2026-09-08T15:50:20Z",
+   "note": "Fresh case lead fork created; rerunning the failed coder slice from its clean dispatch boundary."
+  },
+  {
+   "at": "2026-09-08T15:50:29.125665+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  },
+  {
+   "at": "2026-09-09T12:25:40.783169+00:00",
+   "note": "Restored compressed case-lead store for continuation."
+  },
+  {
+   "at": "2026-09-09T12:25:40Z",
+   "note": "The prior attempt stopped in scheduler message construction; resuming its intact ended store."
+  },
+  {
+   "at": "2026-09-09T15:30:11.521191+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  },
+  {
+   "at": "2026-09-15T08:50:41.436627+00:00",
+   "note": "Restored compressed case-lead store for continuation."
+  },
+  {
+   "at": "2026-09-15T08:51:08.425842+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  },
+  {
+   "at": "2026-09-15T08:51:08Z",
+   "note": "No narrow safe checkpoint repair was identified; starting a new case lead from the contract."
+  },
+  {
+   "at": "2026-09-15T10:22:36Z",
+   "note": "No narrow safe checkpoint repair was identified; starting a new case lead from the contract."
+  },
+  {
+   "at": "2026-09-15T10:22:38Z",
+   "note": "Started native case lead using lead-calibration-v2; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-15T10:55:21Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/mindcrack-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-15T10:56:11.171947+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:44Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "agents": [
+  {
+   "role": "brief writer",
+   "model": "gpt-5.6-sol",
+   "agent_id": "01a07df3-c18c-7681-a4ec-dd4e77810dbb",
+   "started": "2026-09-07T22:18:42.092707+00:00",
+   "ended": "2026-09-07T22:39:23.357571+00:00",
+   "attempt": 1,
+   "transcript": "full platform transcript"
+  }
+ ],
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-07T22:39:32Z",
+ "brief_validation_digest": "45f20b7f25f688297e106515477573fbc4791009c78a453722fe8b42201ee6eb",
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "coding_audit": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/mindcrack-gpt56-calibration-v1/audit/scheduler-1788956740852213000",
+ "repair_attempt": "auto-1789462101437367000",
+ "lead_archive_history": [
+  {
+   "path": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/mindcrack-gpt56-calibration-v1-superseded-1789462268672256000.tar.zst",
+   "sha256": "9462924969e478fd3adde9764802f5bfe3c865f42d019c394370ea8e4cbdd94d",
+   "bytes": 92080025,
+   "superseded_utc": "2026-09-15T08:51:08Z"
+  }
+ ],
+ "model": "gpt-5.6-sol",
+ "fingerprint": "5873e1e29cdab0cb",
+ "branch": "B",
+ "slices": 3,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 143,
+ "themes": 12,
+ "verified_utc": "2026-09-15T10:55:21Z",
+ "finished": "2026-09-15T10:55:20.424708+00:00",
+ "carried": "run",
+ "reported_total_tokens": 10327089,
+ "lead_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/mindcrack-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "ef0c21270221b79a1e6503a83fb06fa8c49d60bd726a5177c91be8030723160b",
+ "lead_archive_bytes": 77279571,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/mindcrack/run.tar.zst",
+ "run_archive_sha256": "31ba1d9316ffc700ece0285f2a4f256cac03823b9a7a2fe3b9d849dcc571700d",
+ "run_archive_bytes": 1027700,
+ "run_archived_utc": "2026-09-25T13:42:37.374774+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/mindcrack/materials.tar.zst",
+ "materials_archive_sha256": "dc5c2a0583a00747a02ff500a976733a6bb01512c530bb0cc76c478a8e1d5c8a",
+ "materials_archive_bytes": 1041733,
+ "materials_archived_utc": "2026-09-25T13:51:40.088064+00:00"
+}

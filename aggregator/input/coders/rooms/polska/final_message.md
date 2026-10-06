@@ -1,0 +1,1 @@
+r/polska — branch B; verdict: full. Saturation: later slices added new practices, while the final slice only extended post-event continuation. Saturation: public practice is richly visible, but Discord activity, removed text, and linked artifacts limit coordination claims. Blocked: nothing.

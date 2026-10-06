@@ -1,0 +1,48 @@
+# timeline — r/furry
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 21:15 — AutoModerator posted the community's safe-tag guidance as a moderator in an r/place thread (`dfo1mmf`).
+- d0 04-01 01:42 — regular-wolf edited a canvas progress comment to add a newer image described as “much better” (`dfodfug`).
+- d0 04-01 06:27 — Caliro edited a comment claiming participation in making letters taller and adding or fixing grief (`dfon9bc`).
+- d0 04-01 06:34 — AussieCracker edited a drawing-ideas post to postpone it until after the sixth (`62r50a`).
+- d0 04-01 10:19 — Ravagelover edited a strategy post from proposing an alliance toward saying the group was doing well and should expand downward (`62rwxf`).
+- d0 04-01 12:46 — Chewy_Lemon edited the community's April Fools data-collection announcement (`62shyr`).
+- d1 04-01 16:18 — demauscian edited a comment redirecting effort from the yiff banner to the snoo (`dfp2rrj`).
+- d1 04-01 17:15 — Pausbrak edited a helper link to provide a better snoo template (`dfp54hd`).
+- d1 04-01 18:57 — -Caeruleus edited the r/place Snoo megathread through seven updates, from completion and labeling through a pink outline and an attack alarm (`62up0w`).
+- d1 04-01 19:09 — ElectricBlitz twice edited a reply to add BlueCorner posts and rules about preserving art (`dfp9tbs`).
+- d1 04-01 19:42 — Perogrin edited a border proposal after a server disconnect appeared to allow continued pixel placement (`dfpb56f`).
+- d1 04-01 22:19 — RGBrazberry edited a Snoo-defense call with reloading advice, a fallback from the border, and a reference-image reminder (`62vypp`).
+- d1 04-01 23:18 — _grouse_ edited a call to grief the 100K mark to say that it looked like they had compromised (`dfpjnba`).
+- d1 04-02 02:41 — Chewy_Lemon edited the official r/place megathread with the Blue Corner request, Snoo priority, neighbor guidance, and a closing salute (`62xbqw`).
+- d1 04-02 03:45 — RGBrazberry edited placement reminders to add the Snoo Defense Forces Discord and a rainbow-paw project (`dfptqu5`).
+- d1 04-02 05:40 — corndog161 edited the megathread project list with Discord priorities and, later, an announcement that the group had survived (`dfpx5ea`).
+- d1 04-02 12:14 — agarioskinmaker edited a repair call with successive altered versions of the r/furry label (`dfq4oox`).
+- d1 04-02 12:15 — lupusfur edited a reinforcement request to add the current state and canvas location (`dfq4pir`).
+- d1 04-02 12:56 — AnggaSP edited a repair report as the label was repeatedly changed again (`dfq5niz`).
+- d2 04-02 18:26 — MangoRei edited the removed opening of a Night in the Woods canvas-logo proposal (`631a3t`).
+- d2 04-02 19:00 — HonorInDefeat's world-building thread included an edited response from Fylak (`dfqm7u3`).
+- d2 04-02 21:06 — icypyro edited the removed opening of a request for help with the community's canvas spot (`632953`).
+- d2 04-02 22:54 — jester-146 edited an invitation to review Dutch Comic Con pictures (`dfquz91`).
+- d2 04-03 00:29 — marshykip spoke as a moderator, removed a separate r/place post, and directed it to the megathread (`dfqzh3s`).
+- d2 04-03 02:49 — cando0 edited a message from r/smite about the shared border (`dfr6gum`).
+- d2 04-03 03:12 — cando0 edited a promise to help the community's banners (`dfr7n10`).
+- d2 04-03 04:45 — GD_Fauxtrot edited a first-participation account to ask about the exact shape of the letter F (`dfrbolw`).
+- d2 04-03 09:35 — Eagle0600 edited a warning that r/smite or an impersonator was expanding into the border (`dfriu6b`).
+- d2 04-03 10:39 — Das_Fische edited an objection asking the community to stop vandalising BONK (`dfrk3w0`).
+- d2 04-03 10:58 — Sorunome edited a request for help placing a fox for r/foxes (`6360lv`).
+- d2 04-03 12:00 — Sorunome edited a request for help placing a fox for r/foxes (`dfrm6d6`).
+- d3 04-03 16:05 — Beefish123 edited an explanation of BONK and named r/BONKART (`dfrwsa5`).
+- d3 04-03 16:43 — marshykip spoke as a moderator, removed the r/foxes canvas thread, and directed r/place posts to the megathread (`dfrymqz`).
+- d3 04-03 18:37 — Das_Fische edited a post-event message describing their group as the snoo's neighbours (`dfs4n7n`).
+- d3 04-03 20:50 — lXlxlXlxlXl edited a post-event assessment thanking allies and enemies (`dfsbexn`).
+- d3 04-03 21:04 — ionicneon edited an aside about the completed canvas and an engineering project (`dfsc6hb`).
+- d3 04-03 22:46 — 273degreesKelvin edited a post-event comment sharing a pixel-activity map and celebrating the smiling snoo (`dfshd8i`).
+- d3 04-04 00:48 — DrakoVongola1 edited a joke that the damaged “furp” label hid the work's furry connection (`dfsnb6m`).
+- d3 04-04 01:58 — marshykip spoke as a moderator and removed an unsafe, unsourced art post as better suited to r/yiff (`dfsqtpw`).
+- d3 04-04 01:58 — marshykip spoke as a moderator and removed a second unsafe, unsourced art post as better suited to r/yiff (`dfsqtyf`).
+- d3 04-04 02:01 — marshykip spoke as a moderator and warned a poster that another tagging or artist-credit offense would result in a ban (`dfsqyev`).
+- d3 04-04 04:20 — nikolinni edited a stream comment to say the stream was complete and available (`dfsx80q`).
+- d3 04-04 06:03 — TheVloginator edited a comment showing the claimed traffic boost from the r/place art (`dft0fg3`).
+- d3 04-04 09:44 — agarioskinmaker edited a joking welcome that renamed the subreddit r/funay (`dft53m7`).

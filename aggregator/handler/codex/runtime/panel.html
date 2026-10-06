@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#173f37"><title>r/place conversations</title>
+<style>
+:root{font:16px/1.5 system-ui,sans-serif;--ink:#19312c;--canvas:#f5f6f2;--surface:#fff;--muted:#53655f;--border:#bccac3;--line:#dbe3dc;--hover:#e5eee8;--accent:#173f37;--on-accent:#fff;--focus:#478477;--badge:#e9efe9;--notice:#edf3ee;--danger:#962c2c;--error-ink:#8b2929;--error-bg:#fff0ef;--empty:#65746f;--tab:#e2eee6;--tab-border:#b2c8b9;--message:#f0f3ed;--user:#e2eee9;--by:#52655c;--tool:#f8f9f6;color:var(--ink);background:var(--canvas);color-scheme:light}
+:root[data-theme=dark]{--ink:#e5eee8;--canvas:#111914;--surface:#1b2620;--muted:#b2c4b9;--border:#53675b;--line:#35483c;--hover:#2c4033;--accent:#9bddbc;--on-accent:#11271a;--focus:#9bddbc;--badge:#283d2f;--notice:#213a2b;--danger:#ffb5af;--error-ink:#ffd3cc;--error-bg:#472925;--empty:#b2c4b9;--tab:#304b3a;--tab-border:#6a987b;--message:#24362a;--user:#2c4736;--by:#bad1c3;--tool:#17221b;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0}main{max-width:980px;margin:auto;padding:24px 20px calc(24px + env(safe-area-inset-bottom))}
+h1{font-size:1.6rem;letter-spacing:-.04em;margin:0}h2{font-size:1.15rem;margin:0 0 8px}p{margin:8px 0}small,.muted{color:var(--muted)}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}.eyebrow{font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;font-weight:650}
+button,input,textarea,select{font:inherit;border:1px solid var(--border);border-radius:9px;background:var(--surface);color:inherit;padding:10px 12px;min-height:44px;max-width:100%}button{cursor:pointer;font-weight:600}button:hover:not(:disabled){background:var(--hover)}button:disabled{cursor:default;opacity:.5}button.primary{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}button.danger{color:var(--danger)}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+label{display:block;font-size:.85rem;font-weight:600;margin-bottom:5px}select,input{width:100%;min-width:0}section,details.box{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;margin:14px 0}.selectors{display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:12px}.row{display:flex;flex-wrap:wrap;align-items:center;gap:8px}.row>*{min-width:0}.stack{display:grid;gap:12px}.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.badge{padding:5px 10px;background:var(--badge);border-radius:20px;font-size:.8rem}.hint{font-size:.88rem;overflow-wrap:anywhere}.notice{padding:10px 12px;border-radius:8px;background:var(--notice)}.error{color:var(--error-ink);background:var(--error-bg);padding:10px 12px;border-radius:8px}.empty{color:var(--empty);padding:18px 0}summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:600}summary::after{content:"▾";margin-left:auto;padding-left:12px}details[open]>summary::after{content:"▴"}details[open]>summary{margin-bottom:10px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-top:16px;padding-bottom:8px}.tabs button{flex:1;font-size:.9rem;border-color:transparent}.tabs button[aria-selected=true]{background:var(--tab);border-color:var(--tab-border)}.stream{height:clamp(220px,42dvh,550px);overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:12px 2px}.message{padding:12px 14px;background:var(--message);border-radius:12px;margin:0 0 12px;overflow-wrap:anywhere}.message.user{background:var(--user);margin-left:24px}.message .by{font-size:.75rem;font-weight:700;letter-spacing:.04em;color:var(--by);margin-bottom:4px}.text{white-space:pre-wrap;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 ui-monospace,monospace;margin:8px 0;max-height:240px;overflow:auto}.job{border-bottom:1px solid var(--line);padding:12px 0;overflow-wrap:anywhere}.composer{border-top:1px solid var(--line);padding-top:12px}.composer textarea{width:100%;min-height:100px;resize:vertical}.composer .row{justify-content:space-between;margin-top:8px}.composer select{width:auto}.actions{padding:12px 0}.actions button{font-size:.85rem}.technical{font-size:.8rem;overflow-wrap:anywhere}dl{margin:10px 0}dt{font-weight:650}dd{margin:0 0 10px}.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}[hidden]{display:none!important}
+@media(max-width:700px){main{padding:16px 12px calc(16px + env(safe-area-inset-bottom))}section,details.box{padding:14px}.selectors{grid-template-columns:1fr}.fields{grid-template-columns:1fr}h1{font-size:1.4rem}.stream{height:40dvh;min-height:210px}.message.user{margin-left:12px}.actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.actions button{width:100%;overflow-wrap:anywhere}.actions #start{grid-column:1/-1}.top{align-items:flex-start}.composer .row{align-items:stretch}.composer select{flex:1}.composer #send{min-width:90px}}
+.header-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}.header-controls select{width:auto;min-width:94px;font-size:.85rem}.top>div:first-child{min-width:0}
+.message.tool{padding:2px 10px;margin-bottom:6px;background:var(--tool);border:1px solid var(--line);border-radius:8px}.message.tool details{min-width:0}.message.tool summary{gap:10px;min-width:0;list-style:none}.message.tool summary::-webkit-details-marker{display:none}.tool-heading{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.82rem;font-weight:500}.message.tool summary::after{content:"";flex:0 0 8px;width:8px;height:8px;padding:0;margin:0 3px 0 0;border:solid currentColor;border-width:0 2px 2px 0;transform:rotate(45deg)}.message.tool details[open]>summary::after{transform:rotate(225deg)}.tool-command{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 ui-monospace,monospace;max-height:240px;overflow:auto;padding-bottom:8px;border-bottom:1px solid var(--line)}
+@media(max-width:700px){.header-controls{flex-direction:column;align-items:flex-end;flex-shrink:0;gap:6px}.header-controls select{min-width:94px}}
+</style>
+<script>
+function applyAppearance(choice){
+ if(!['system','light','dark'].includes(choice))choice='system';
+ document.documentElement.dataset.appearance=choice;
+ document.documentElement.dataset.theme=choice==='system'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):choice;
+}
+try{applyAppearance(localStorage.getItem('rplace-appearance'))}catch{applyAppearance('system')}
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{if(document.documentElement.dataset.appearance==='system')applyAppearance('system')});
+</script>
+</head>
+<body><main>
+<header class="top"><div><div class="eyebrow">r/place · Codex</div><h1>Your conversations</h1></div><div class="header-controls"><span id="connection" class="badge" role="status">Connecting</span><label for="appearance" class="visually-hidden">Appearance</label><select id="appearance" aria-label="Appearance"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></div></header>
+<section aria-label="Choose a conversation">
+<div class="selectors"><div><label for="study-picker">1. Study</label><select id="study-picker"><option value="">Shared conversations</option></select></div><div><label for="type-picker">2. Conversation type</label><select id="type-picker"></select></div><div><label for="conversation-picker">3. Conversation</label><select id="conversation-picker"><option value="">Choose a conversation</option></select></div></div>
+<p id="selection-help" class="hint">Selecting a conversation reads its log. It does not start work or create another agent.</p>
+<div class="row"><button id="refresh">Refresh</button><span id="tree-path" class="hint" aria-live="polite"></span></div>
+</section>
+<p id="connection-help" class="notice" role="status" hidden></p>
+<section id="study-state" aria-label="Study status" hidden><h2 id="study-title"></h2><p id="study-summary" class="hint"></p><p id="study-next" class="hint"></p></section>
+<p id="error" class="error" role="alert" hidden></p><p id="notice" class="notice" role="status" hidden></p>
+<section aria-labelledby="chat-title">
+<div class="row" style="justify-content:space-between"><h2 id="chat-title">Choose a conversation</h2><span id="actor-status" class="badge" hidden></span></div>
+<p id="actor-attention" class="error" role="status" hidden></p>
+<p id="actor-description" class="hint">Talk to each research leg and interview. Your handler stays in a separate Codex chat.</p>
+<div id="checkpoint-actions" hidden><p id="checkpoint-description" class="hint"></p><div class="row"><button id="restore" class="primary">Resume as interview</button><button id="resume-handler" hidden>Continue saved handler</button></div></div>
+<details id="branch-create-box" hidden><summary>Fork as a new analysis</summary><p class="hint">Choose the last shared checkpoint, before the first leg you want to change. This creates an idle draft, not an interview. No prompt is sent.</p><div class="fields"><div><label for="branch-source">Parent study</label><select id="branch-source"></select></div><div><label for="branch-name">New analysis name</label><input id="branch-name" placeholder="e.g. model-alternative-1"></div><div><label for="branch-leg">First new leg</label><input id="branch-leg" placeholder="e.g. C1a-01"></div></div><button id="branch-create">Create idle analysis branch</button><p id="branch-capability" class="hint"></p></details>
+<div id="actor-actions" class="row actions" hidden><button id="start" class="primary" hidden>Start prepared leg</button><button id="pause">Pause at safe boundary</button><button id="stop" class="danger">Stop and save</button><button id="save">Save idle agent</button><button id="close" hidden>Validate and close leg</button><button id="saved-interview" hidden>Interview saved state</button></div>
+<div id="question-alerts" class="notice" aria-live="polite" hidden></div>
+<details id="answered-asks" class="notice" hidden><summary>Recorded answers</summary><div id="answer-history"></div></details>
+<div id="questions" class="notice" hidden><h2>Question for you</h2><p id="question-help" class="hint"></p><div id="question-fields" class="stack"></div><button id="answer" class="primary">Send answers</button></div>
+<nav class="tabs" role="tablist" aria-label="Information streams"><button id="tab-chat" role="tab" aria-controls="chat-view" aria-selected="true">Conversation</button><button id="tab-activity" role="tab" aria-controls="activity-view" aria-selected="false">Activity</button><button id="tab-jobs" role="tab" aria-controls="jobs-view" aria-selected="false">Jobs</button></nav>
+<div id="chat-view" role="tabpanel" aria-labelledby="tab-chat"><div id="conversation" class="stream" aria-label="Recorded conversation"><p class="empty">Your messages and the selected agent's replies appear here.</p></div><div class="composer"><label for="message">Message</label><textarea id="message" placeholder="Choose a conversation first" disabled></textarea><div class="row"><select id="message-kind" aria-label="Message type"><option value="message">Chat message</option><option value="card" disabled>Research card</option></select><button id="send" class="primary" disabled>Send</button></div><p id="send-help" class="hint">A message to a working agent steers its current turn.</p></div></div>
+<div id="activity-view" role="tabpanel" aria-labelledby="tab-activity" hidden><p class="hint">Tool calls, command output and turn status for the selected agent. This is separate from the conversation.</p><div id="activity" class="stream"><p class="empty">Choose an agent to inspect its activity.</p></div></div>
+<div id="jobs-view" role="tabpanel" aria-labelledby="tab-jobs" hidden><p class="hint">Background jobs across this Codex controller: builds, saves, restores and validation. Actor progress appears in Conversation and Activity.</p><div id="jobs" class="stream"></div></div>
+<details><summary>Session details</summary><p id="session-details" class="technical">No session selected.</p><p class="hint">This view shows events logged for this session. The saved agent also retains its native conversation and files, including inherited context. A saved interview is a separate branch.</p></details>
+</section>
+<section id="next-leg-box" aria-labelledby="next-leg-title" hidden><h2 id="next-leg-title">Next leg</h2><p id="next-leg-help" class="hint"></p><label for="next-leg-choice">Continue with</label><select id="next-leg-choice"></select><p class="hint">Run restores the saved conversation and files, prepares this leg, then starts it. Selecting a name does not start work.</p><button id="next-run" class="primary">Run next leg</button></section>
+<details class="box" id="branch-setup" hidden><summary>Analysis branch setup and Git lineage</summary><p id="branch-summary" class="hint"></p><p class="hint">Upload all changed cards now. Future cards stay private to their stage until it opens. Enter a path relative to the restored workspace, such as package/store/data.jsonl, or a stage card's original path under stages/.</p><div class="fields"><div><label for="branch-delivery">Deliver file</label><select id="branch-delivery"><option value="">At branch start</option></select></div><div><label for="branch-path">Destination path</label><input id="branch-path" placeholder="stages/STAGE-C2-the-loop.md"></div><div><label for="branch-file">File from this device</label><input id="branch-file" type="file"></div></div><button id="branch-upload">Upload file without starting</button><button id="branch-cancel-upload">Set aside unfinished upload at this path</button><pre id="branch-changes"></pre><p class="hint">Publish and prepare seals these inputs, pushes a separate analysis branch from the common checkpoint, and restores the first leg without a model turn. Then use Start prepared leg or send your own first message. Trusted validators stay inherited.</p><div class="row"><button id="branch-prepare" class="primary">Publish and prepare branch</button><button id="branch-republish">Retry Git publication</button></div><p id="branch-pending" class="hint"></p></details>
+<details class="box" id="leg-block"><summary>Run a block of legs</summary><p class="hint">Approve one finite range within a repeated step. Each leg is checked and saved before the next starts. No stage, step or interview boundary is crossed. Take the last leg from the declared plan.</p><div class="fields"><div><label for="block-first">First leg</label><input id="block-first" placeholder="A1b-01"></div><div><label for="block-last">Last leg</label><input id="block-last" placeholder="Last declared A1b leg"></div></div><p id="block-preview" class="notice" role="status">Enter a finite range to see its scope.</p><div class="row"><button id="block-start" class="primary">Approve and run block</button><button id="block-stop">Stop after current leg</button><button id="block-resume">Resume approved block</button></div><p id="block-state" class="hint"></p><p class="hint">Closing this page does not stop the block. The Mac and controller must stay running. A direct message to the analyst stops further automatic legs until you resume the block.</p></details>
+<details class="box" id="new-session"><summary>Open or run a leg</summary><p class="hint">Choose a prior leg to read it, or a leg marked (new) to prepare it. Selecting does not start work.</p>
+<label for="leg-choice">Leg</label><select id="leg-choice"></select><p id="leg-choice-help" class="hint"></p><button id="open-leg" hidden>Open recorded conversation</button>
+<div id="manual-leg" hidden><div class="fields"><div><label for="stage-picker">Stage</label><select id="stage-picker"></select></div><div><label for="step-picker">Step</label><select id="step-picker"></select></div><div id="number-field" hidden><label for="leg-number">Block or round</label><input id="leg-number" type="number" min="1" value="1" inputmode="numeric"></div><div><label for="exact-leg">Exact leg, if needed</label><input id="exact-leg" placeholder="Optional, e.g. A1b-02-p2" autocomplete="off"></div></div>
+</div><p id="prepare-help" class="hint">Prepare <strong id="leg-preview"></strong> in the selected study. The controller checks order and prerequisites. Preparing does not start a model turn.</p><button id="step">Prepare leg</button>
+<p class="hint">Use a separate Codex chat as your handler. This panel holds research legs, fleets and interviews.</p>
+</details>
+<details class="box"><summary>Study controls</summary><p class="hint">Applies to the study selected above. Stopping a study also stops its fleet. Continuing removes the stop gate; it does not start a turn.</p><div class="row"><button id="stop-run" class="danger">Stop study and save</button><button id="continue-run">Clear study stop, stay idle</button><button id="recover-plan">Recover and run phase plan</button></div><p class="hint">Validating and closing a leg can dispatch its required readers. Recover and run phase plan can restart its workers. Stop after current leg lets the approved leg finish; Stop study interrupts the study and its fleet.</p>
+<details><summary>Build a new study</summary><div class="stack"><div><label for="new-run">New study name</label><input id="new-run" placeholder="Study name"></div><div><label for="source">Pristine prepared input folder</label><input id="source" placeholder="Prepared input, not a live Claude workspace"></div><div><label for="fleet-arm">Reader route</label><select id="fleet-arm"><option value="codex">Codex</option><option value="openrouter">OpenRouter</option></select></div><button id="build">Build study</button></div></details>
+</details>
+<details class="box"><summary>What can I see and talk to?</summary><dl><dt>Handler</dt><dd>Your separate Codex chat for requests, cards and coordination. It reads study state and keeps short decisions on disk. Historical website handlers remain readable.</dd><dt>Stage / leg</dt><dd>The research aggregator for that leg. Talk to the current leg while it works. Closed legs are read-only; open their saved state as an interview.</dd><dt>Fleet readers and checks</dt><dd>Separate workers controlled by the fleet. You can inspect their activity. Use a saved interview to question a reader without editing a live dispatch.</dd><dt>Saved agent</dt><dd>A stored snapshot of conversation and files, not an agent working in the background. One agent can have several snapshots. Choose Saved snapshots for past states, or Tests and checks for test agents. “Resume as interview” creates an independent branch. “Continue saved handler” restores its operational role and is checked by the controller.</dd><dt>Research files</dt><dd>Files stay with each agent and its checkpoint. Ask the agent about them here. This panel does not yet browse files.</dd></dl><p class="hint">The Mac runs the work. Phone access requires the private gateway and Tailscale connection. This panel lists Codex actors, not separate Claude CLI chats.</p></details>
+<script id="stage-catalog" type="application/json">[{"stage":"A1","stage_name":"Reading: room notes","step":"a","step_name":"checks and screen","repeat":"no"},{"stage":"A1","stage_name":"Reading: room notes","step":"b","step_name":"reading block","repeat":"yes"},{"stage":"A1","stage_name":"Reading: room notes","step":"c","step_name":"lexicon and analysed set","repeat":"no"},{"stage":"B1","stage_name":"Coding: third-order scheme","step":"a","step_name":"prior","repeat":"no"},{"stage":"B1","stage_name":"Coding: third-order scheme","step":"b","step_name":"getting lost","repeat":"yes"},{"stage":"B1","stage_name":"Coding: third-order scheme","step":"c","step_name":"saturation test","repeat":"no"},{"stage":"B1","stage_name":"Coding: third-order scheme","step":"d","step_name":"second pass","repeat":"yes"},{"stage":"B1","stage_name":"Coding: third-order scheme","step":"e","step_name":"scheme standing","repeat":"no"},{"stage":"B2","stage_name":"Coding: pilot","step":"a","step_name":"build round","repeat":"round"},{"stage":"B2","stage_name":"Coding: pilot","step":"b","step_name":"check round","repeat":"round"},{"stage":"B2","stage_name":"Coding: pilot","step":"c","step_name":"gold and stability build","repeat":"no"},{"stage":"B2","stage_name":"Coding: pilot","step":"d","step_name":"gold and stability check","repeat":"no"},{"stage":"B3","stage_name":"Coding: fleet","step":"a","step_name":"build","repeat":"no"},{"stage":"B3","stage_name":"Coding: fleet","step":"b","step_name":"check","repeat":"no"},{"stage":"B4","stage_name":"Coding: adjudication and freeze","step":"a","step_name":"adjudicate packet","repeat":"yes"},{"stage":"B4","stage_name":"Coding: adjudication and freeze","step":"b","step_name":"sample build","repeat":"no"},{"stage":"B4","stage_name":"Coding: adjudication and freeze","step":"c","step_name":"check and final placements","repeat":"no"},{"stage":"C1","stage_name":"Model: structuring","step":"a","step_name":"pass","repeat":"yes"},{"stage":"C2","stage_name":"Model: the loop","step":"a","step_name":"pass","repeat":"yes"},{"stage":"C2","stage_name":"Model: the loop","step":"b","step_name":"reviewer build","repeat":"no"},{"stage":"C2","stage_name":"Model: the loop","step":"c","step_name":"reviewer check","repeat":"no"},{"stage":"C2","stage_name":"Model: the loop","step":"d","step_name":"closing pass","repeat":"yes"},{"stage":"C3","stage_name":"Model: literature","step":"a","step_name":"contradicting shelf","repeat":"no"},{"stage":"C3","stage_name":"Model: literature","step":"b","step_name":"resembling shelf","repeat":"no"},{"stage":"C3","stage_name":"Model: literature","step":"c","step_name":"the four problems","repeat":"no"},{"stage":"C4","stage_name":"Model: the field","step":"a","step_name":"the field","repeat":"no"},{"stage":"C5","stage_name":"Model: account","step":"a","step_name":"pass","repeat":"yes"},{"stage":"C5","stage_name":"Model: account","step":"b","step_name":"readers build","repeat":"no"},{"stage":"C5","stage_name":"Model: account","step":"c","step_name":"readers check","repeat":"yes"},{"stage":"C5","stage_name":"Model: account","step":"d","step_name":"table, model and figure","repeat":"no"},{"stage":"D1","stage_name":"Adaptation: return build","step":"a","step_name":"build","repeat":"no"},{"stage":"D2","stage_name":"Adaptation: labelers and verdicts","step":"a","step_name":"check","repeat":"no"},{"stage":"D3","stage_name":"Adaptation: adjudication","step":"a","step_name":"element group","repeat":"yes"},{"stage":"D3","stage_name":"Adaptation: adjudication","step":"b","step_name":"recheck","repeat":"no"},{"stage":"D3","stage_name":"Adaptation: adjudication","step":"c","step_name":"freeze and re-read","repeat":"no"},{"stage":"D4","stage_name":"Forming: the tree","step":"a","step_name":"cut","repeat":"yes"},{"stage":"D5","stage_name":"Forming: branch accounts","step":"a","step_name":"branch","repeat":"yes"},{"stage":"D5","stage_name":"Forming: branch accounts","step":"b","step_name":"waterfall and survival","repeat":"no"},{"stage":"D6","stage_name":"Forming: the retelling","step":"a","step_name":"dimension","repeat":"yes"},{"stage":"D6","stage_name":"Forming: the retelling","step":"b","step_name":"telling and figure","repeat":"no"},{"stage":"E1","stage_name":"Formalizing: audit","step":"a","step_name":"scripts","repeat":"no"},{"stage":"E1","stage_name":"Formalizing: audit","step":"b","step_name":"audit section","repeat":"yes"},{"stage":"E1","stage_name":"Formalizing: audit","step":"c","step_name":"reconstruction build","repeat":"no"},{"stage":"E1","stage_name":"Formalizing: audit","step":"d","step_name":"reconstruction check","repeat":"no"},{"stage":"E1","stage_name":"Formalizing: audit","step":"e","step_name":"experience","repeat":"no"},{"stage":"E2","stage_name":"Formalizing: feedback","step":"a","step_name":"handling","repeat":"no"},{"stage":"E2","stage_name":"Formalizing: feedback","step":"b","step_name":"next instrument","repeat":"no"}]</script>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+$('appearance').value=document.documentElement.dataset.appearance;
+$('appearance').onchange=()=>{const choice=$('appearance').value;applyAppearance(choice);try{localStorage.setItem('rplace-appearance',choice)}catch{}};
+const hash=new URLSearchParams(location.hash.slice(1));
+let token=hash.get('token')||sessionStorage.getItem('rplace-token')||'';
+if(token)sessionStorage.setItem('rplace-token',token);
+history.replaceState(null,'',location.pathname);
+const catalog=JSON.parse($('stage-catalog').textContent);
+let data={actors:[],checkpoints:[],runs:[],jobs:{},errors:[]}, selected='', study=sessionStorage.getItem('rplace-study')||'', offset=0, epoch=0, eventsBusy=false, refreshTask=null, initialized=false, connected=false, turn='initial';
+let conversationType=sessionStorage.getItem('rplace-type')||'stage';
+let messages=new Map(),activity=new Map(), drafts=new Map(JSON.parse(sessionStorage.getItem('rplace-drafts')||'[]')),pending=new Set(), serial=0,questionKey='';
+let questionDrafts=new Map(JSON.parse(sessionStorage.getItem('rplace-question-drafts')||'[]'));
+const actors=()=>Object.fromEntries(data.actors.map(a=>[a.id,a]));
+const selectedActor=()=>selected.startsWith('actor:')?actors()[selected.slice(6)]:null;
+const selectedCheckpoint=()=>selected.startsWith('checkpoint:')?data.checkpoints.find(c=>c.checkpoint===selected.slice(11)):null;
+const runFor=a=>a?.role==='interview'?undefined:data.runs.find(r=>r.id===(a?.run||a?.study_run));
+const short=id=>(id||'').slice(-8);
+const title=a=>a.role==='handler'?'Controller handler · '+short(a.id):a.role==='interview'?'Interview · '+(a.leg||a.origin_role||'saved agent')+' · '+short(a.id):[a.run||a.study_run,a.leg||a.stage||a.role].filter(Boolean).join(' / ')+' · '+(a.role==='aggregator'?'Aggregator':a.role)+' · '+short(a.id);
+const current=a=>a.role==='interview'||!a.run||runFor(a)?.active_actor===a.id;
+const writable=a=>a&&!a.evicted&&!a.handler_retired&&!['reader','labeler','probe'].includes(a.role)&&current(a);
+const unstarted=a=>a?.role==='aggregator'&&!a.active_turn_id&&(a.leg_started===false||(!a.leg_started&&!a.last_turn_id));
+const phasePending=r=>r?.dispatch_plan&&r.dispatch_plan.status!=='completed';
+const workingJobs=()=>Object.values(data.jobs).filter(j=>j.status==='working');
+function scopeBusy(a=selectedActor(),r=data.runs.find(r=>r.id===study),c=selectedCheckpoint()){
+ return pending.size>0||workingJobs().some(j=>j.request&&(j.request.actor===a?.id&&a||j.request.run===r?.id&&r||j.request.checkpoint===c?.checkpoint&&c));
+}
+function saveDrafts(){try{sessionStorage.setItem('rplace-drafts',JSON.stringify([...drafts]))}catch{error('Draft storage is full. Copy your draft before closing this tab.')}}
+const parseLeg=leg=>/^([A-E][1-6])([a-e])(?:-(\d{2}|r\d+))?(?:-p(\d+))?$/.exec(leg||'');
+const firstLeg=row=>row.stage+row.step+(row.repeat==='yes'?'-01':row.repeat==='round'?'-r1':'');
+function nextLegs(r){
+ if(!r||r.active_actor||r.branch?.status==='draft')return [];
+ const stages=[...new Set(catalog.map(x=>x.stage))],stage=stages.find(x=>!(r.finished_stages||[]).includes(x));
+ if(!stage)return [];
+ const rows=catalog.filter(x=>x.stage===stage),legs=Object.entries(r.legs||{}).filter(([id])=>parseLeg(id)?.[1]===stage);
+ if(!legs.length)return [firstLeg(rows[0])];
+ const [id,last]=legs.at(-1),m=parseLeg(id);if(!m||!['verified','paused'].includes(last.status))return [];
+ if(last.status==='paused')return [id.replace(/-p\d+$/,'')+'-p'+(Number(m[4]||1)+1)];
+ const row=rows.find(x=>x.step===m[2]);if(!row)return [];
+ const next=rows[rows.indexOf(row)+1],out=[];
+ if(row.repeat==='yes'&&Number(m[3])<99)out.push(stage+m[2]+'-'+String(Number(m[3])+1).padStart(2,'0'));
+ if(stage==='B2'&&m[2]==='b')out.push('B2a-r'+(Number(m[3]?.slice(1))+1));
+ if(next)out.push(next.repeat==='round'?stage+next.step+'-'+m[3]:firstLeg(next));
+ return out.filter(x=>!r.legs?.[x]);
+}
+function renderLegChoices(r){
+ const picker=$('leg-choice'),same=picker.dataset.study===(r?.id||''),prior=same?picker.value:'',upcoming=nextLegs(r);
+ const entries=Object.entries(r?.legs||{}).map(([id,v])=>[id,id+' · '+(v.status||'recorded')]);
+ const opts=[...entries,...upcoming.map(id=>{const m=parseLeg(id),row=catalog.find(x=>x.stage===m?.[1]&&x.step===m?.[2]);return [id,id+' (new) · '+(row?.step_name||'continuation')]}),...(r?[['__manual__','Other leg (advanced)']]:[])];
+ const preferred=opts.some(([id])=>id===prior)?prior:actors()[r?.active_actor]?.leg||upcoming[0]||entries.at(-1)?.[0]||'';
+ options(picker,opts.length?opts:[['','Choose a study first']],preferred);picker.dataset.study=r?.id||'';
+ const old=r?.legs?.[picker.value],manual=picker.value==='__manual__',multi=upcoming.length>1;
+ $('manual-leg').hidden=!manual;$('open-leg').hidden=!old;$('step').hidden=!!old;$('prepare-help').hidden=!!old||!r;
+ const actor=old?.actor||data.actors.find(a=>a.run===r?.id&&a.leg===picker.value)?.id;
+ $('open-leg').disabled=!connected||!old||!(actor||old.checkpoint);
+ $('leg-choice-help').textContent=old?'Open this recorded leg to read its conversation. Use Interview saved state to question a completed leg without changing the study.':!r?'Choose a study above.':manual?'Advanced choices still pass the controller checks.':multi?'This step can repeat or advance. Choose the next step only when its research stopping rule is met.':upcoming.length?'The next leg follows the saved study order. Preparation checks its prerequisites and leaves it idle.':'No next leg can be prepared until the current leg is resolved.';
+ $('step').disabled||=!r||!picker.value||!!old||r.branch?.status==='draft';
+ legPreview();
+ if(!same){$('block-first').value='';$('block-last').value='';blockPreview()}
+ const candidate=upcoming.find(x=>/^[A-E][1-6][a-e]-\d{2}$/.test(x))||actors()[r?.active_actor]?.leg;
+ if(/^([A-E][1-6])([a-e])-\d{2}$/.test(candidate||'')&&(!same||!$('block-first').value)){$('block-first').value=candidate;$('block-last').value=candidate;blockPreview()}
+}
+function renderStudy(){
+ const r=data.runs.find(r=>r.id===study),a=actors()[r?.active_actor],b=r?.block;
+ $('study-state').hidden=!r;if(!r){$('step').disabled=true;renderLegChoices(null);return;}
+ $('study-title').textContent=r.id;
+ $('study-summary').textContent=(a?'Current leg: '+(a.leg||a.id)+'. ':'No current leg. ')+(r.stop?'Study stopped. '+(r.stop.reason||'')+' ':'')+(b?.id?'Block: '+b.status+', '+b.cursor+' / '+b.legs.length+' verified. '+b.reason:'No automatic block approved.');
+ $('study-next').textContent=r.stop?'The stop gate remains set. Clear study stop leaves agents idle. Review Activity before sending a new message.':r.publication?.status==='blocked'?'Git publication failed. Retry publication before preparing another leg.':r.dispatch_active?'Fleet workers are running. Wait for their checks before preparing another leg.':r.dispatch_blocked||phasePending(r)?'The fleet or phase plan needs attention. Review Jobs before using recovery, which can start workers.':b?.status==='blocked'||b?.status==='paused'?'Review the block reason below. Resume is an explicit decision, not an automatic retry.':b?.status==='running'?'The approved range continues even when this page is closed. Stop after current leg prevents later starts.':a?unstarted(a)?'Prepared and idle. Select this leg to start it, or send a custom first message.':'Use the current conversation and Activity to review progress. Close must pass validation before another leg opens.':'Prepare the next leg when its prerequisites are met.';
+ $('step').disabled=!connected||scopeBusy(null,r,null)||!!r.stop||!!r.active_actor||!!r.dispatch_active||!!r.dispatch_blocked||!!phasePending(r)||r.publication?.status==='blocked'||b?.status==='running';
+ $('stop-run').disabled=!connected||pending.has('stop-run');
+ $('continue-run').disabled=!connected||scopeBusy(null,r,null)||!r.stop||!!r.dispatch_active||!!r.dispatch_blocked||!!phasePending(r);
+ $('recover-plan').disabled=!connected||scopeBusy(null,r,null)||!phasePending(r)||!!r.dispatch_active;
+ renderLegChoices(r);
+}
+const checkpointFor=a=>a?.checkpoint||data.checkpoints.filter(c=>c.actor===a?.id).sort((a,b)=>(b.utc||'').localeCompare(a.utc||''))[0]?.checkpoint;
+function element(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e}
+function error(e){$('error').textContent=e.message||String(e);$('error').hidden=false}
+function notice(text){$('notice').textContent=text;$('notice').hidden=!text}
+async function api(action,args={}){
+ if(!['http:','https:'].includes(location.protocol)||!token){connected=false;throw Error('This preview or link is not connected to the Mac. On the Mac, use its local launcher. On a phone, open the private HTTPS access link in your browser with Tailscale connected. Phone access must be set up first.')}
+ const abort=new AbortController(),timer=setTimeout(()=>abort.abort(),30000);
+ try{const r=await fetch('/api',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+token},body:JSON.stringify({action,...args}),signal:abort.signal});
+ if(r.status===401||r.status===403){connected=false;throw Error('Access expired or was rejected. Reopen the current private access link. Do not paste its token into chat.')}
+ let j;try{j=await r.json()}catch{connected=false;throw Error('No valid reply from the Mac controller. A downloaded page or attachment preview cannot connect by itself. On a phone, use the private HTTPS access link with Tailscale connected. If a command was sent, check Jobs after reconnecting before repeating it.')}
+ if(!j||typeof j!=='object'||Array.isArray(j)||r.ok&&!Object.hasOwn(j,'result')){connected=false;throw Error('This page did not receive a controller reply. Reopen the current private access link. Check Jobs after reconnecting before repeating a command.')}
+ if(!r.ok)throw Error(j.error||'Controller request failed');return j.result;
+ }catch(e){if(e.name==='AbortError'||e instanceof TypeError){connected=false;throw Error('Connection lost or request timed out. Its outcome may be unknown. Refresh and inspect Jobs and Activity before trying again. No request was repeated.')}throw e}finally{clearTimeout(timer)}
+}
+function options(select,items,value){select.replaceChildren(...items.map(([v,label])=>{const e=element('option',label);e.value=v;return e}));select.value=value;if(select.selectedIndex<0)select.selectedIndex=0}
+const conversationTypes=[['stage','Stages / legs'],['fleet','Fleet readers'],['interview','Interviews'],['saved','Saved snapshots'],['handler','Website handlers (shared)'],['test','Tests and checks']];
+const isTestRun=id=>/^v41-(?:moved-)?platform-/.test(id||'');
+function studyOf(a,seen=new Set()){
+ if(!a)return '';const key=a.id||a.checkpoint;if(seen.has(key))return '';seen.add(key);
+ if(a.role==='handler'||isTestRun(a.run||a.study_run))return '';
+ if(a.run||a.study_run)return a.run||a.study_run;
+ if(a.actor&&actors()[a.actor])return studyOf(actors()[a.actor],seen);
+ const parent=a.parent_checkpoint||a.parent;
+ if(parent)return studyOf(data.checkpoints.find(c=>c.checkpoint===parent),seen);
+ return data.runs.find(r=>Object.values(r.legs||{}).some(l=>l.checkpoint&&l.checkpoint===a.checkpoint))?.id||'';
+}
+function conversationEntries(){
+ const rows=[];
+ for(const a of data.actors){
+  const type=['acceptance','probe'].includes(a.role)||['acceptance','probe'].includes(a.origin_role)||isTestRun(a.run||a.study_run)?'test':a.role==='aggregator'?'stage':['reader','labeler'].includes(a.role)?'fleet':a.role==='interview'?'interview':a.role==='handler'?'handler':'test';
+  const owner=studyOf(a),leg=data.runs.find(r=>r.id===owner)?.legs?.[a.leg],m=parseLeg(a.leg),step=catalog.find(x=>x.stage===m?.[1]&&x.step===m?.[2]);
+  const status=a.handler_retired?'continued elsewhere':a.evicted?'archived':type==='stage'?leg?.status||a.status||'recorded':a.status||'available';
+  const label=type==='stage'?[a.leg||a.stage,step?.step_name,status].filter(Boolean).join(' · '):title(a)+' · '+status;
+  rows.push({value:'actor:'+a.id,type,study:owner,global:type==='handler',label,group:type==='stage'?m?.[1]||'Stages / legs':type==='test'?'Test agents':'',utc:a.created_utc||''});
+ }
+ for(const c of data.checkpoints){const a=actors()[c.actor],test=rows.find(x=>x.value==='actor:'+c.actor)?.type==='test'||['acceptance','probe'].includes(c.role);rows.push({value:'checkpoint:'+c.checkpoint,type:test?'test':'saved',study:studyOf(c),global:false,label:[a?.leg||c.role||'Agent',c.boundary,(c.utc||'').replace('T',' ').slice(0,16),short(c.checkpoint)].filter(Boolean).join(' · '),group:test?'Saved test snapshots':'',utc:c.utc||''})}
+ return rows.sort((a,b)=>a.type==='stage'&&b.type==='stage'?a.label.localeCompare(b.label,undefined,{numeric:true}):b.utc.localeCompare(a.utc));
+}
+function renderSelectors(){
+ const runs=data.runs.filter(r=>!isTestRun(r.id)).sort((a,b)=>(b.created_utc||'').localeCompare(a.created_utc||'')),entries=conversationEntries();
+ if(!initialized){
+  const remembered=entries.find(x=>x.value===sessionStorage.getItem('rplace-conversation'));
+  if(remembered){if(!remembered.global)study=remembered.study;conversationType=remembered.type}
+  else if(!runs.some(r=>r.id===study)&&!sessionStorage.getItem('rplace-type'))study=runs.find(r=>!r.stop)?.id||runs[0]?.id||'';
+  initialized=true;
+ }
+ options($('study-picker'),[['','Shared conversations'],...runs.map(r=>[r.id,r.id])],study);study=$('study-picker').value;sessionStorage.setItem('rplace-study',study);
+ const scoped=entries.filter(x=>x.global||x.study===study);
+ options($('type-picker'),conversationTypes.map(([key,label])=>[key,label+' ('+scoped.filter(x=>x.type===key).length+')']),conversationType);conversationType=$('type-picker').value;sessionStorage.setItem('rplace-type',conversationType);
+ const shown=scoped.filter(x=>x.type===conversationType),picker=$('conversation-picker');picker.replaceChildren(new Option(shown.length?'Choose a conversation':'No conversations in this category',''));picker.disabled=!shown.length;
+ const groups=new Map();for(const entry of shown){let target=picker;if(entry.group){if(!groups.has(entry.group)){const g=element('optgroup');g.label=entry.group;groups.set(entry.group,g);picker.append(g)}target=groups.get(entry.group)}target.append(new Option(entry.label,entry.value))}
+ if(selected&&!shown.some(x=>x.value===selected)){choose('');return}picker.value=selected;
+ const typeLabel=conversationTypes.find(([key])=>key===conversationType)?.[1];$('tree-path').textContent=(study||'Shared conversations')+' › '+typeLabel;
+ $('selection-help').textContent=shown.length?'Selecting reads the conversation. It does not start work.':conversationType==='fleet'?'This study has no fleet readers yet. They appear here when dispatched.':'No '+typeLabel.toLowerCase()+' in this study. Choose another category or study.';
+ for(const id of ['step','stop-run','continue-run','recover-plan'])$(id).disabled=true;renderStudy();
+}
+function renderNextLeg(){
+ const r=data.runs.find(x=>x.id===study),a=selectedActor(),last=Object.entries(r?.legs||{}).at(-1),choices=nextLegs(r);
+ const visible=conversationType==='stage'&&a?.role==='aggregator'&&a.run===r?.id&&last?.[0]===a.leg&&(!last[1].actor||last[1].actor===a.id)&&['verified','paused'].includes(last?.[1]?.status)&&choices.length>0;
+ $('next-leg-box').hidden=!visible;
+ const picker=$('next-leg-choice'),same=picker.dataset.study===r?.id;
+ options(picker,choices.map(leg=>[leg,leg+' (new)']),same?picker.value:choices[0]);picker.dataset.study=r?.id||'';
+ $('next-leg-help').textContent=r?`${r.id}: ${last?.[0]||'previous leg'} is saved. `+(choices.length>1?'Choose another pass or the next step only when the research stopping rule is met.':'Continue with the next leg below.'):'';
+ const b=r?.block;
+ $('next-run').disabled=!visible||!connected||scopeBusy(a,r,null)||!!r?.stop||!!r?.dispatch_active||!!r?.dispatch_blocked||!!phasePending(r)||r?.publication?.status==='blocked'||['running','paused','blocked'].includes(b?.status)||!data.features?.includes('control-guards-v1');
+ $('next-run').textContent=pending.has('next-run')?'Starting…':'Run '+(picker.value||'next leg');
+}
+function renderControls(){
+ const a=selectedActor(),c=selectedCheckpoint(),write=writable(a),available=connected&&!scopeBusy();const run=runFor(a);const saved=checkpointFor(a);
+ $('actor-actions').hidden=!a;$('checkpoint-actions').hidden=!c;$('actor-status').hidden=!a;
+ $('chat-title').textContent=a?title(a):c?'Saved '+(c.role||'agent'):'Choose a conversation';
+ $('actor-status').textContent=a?.error?'Needs attention':a?.questions?.length?'Question for you':run?.stop?'Study stopped':unstarted(a)?'Ready to start':a?.status||'';
+ const issue=a?.error?typeof a.error==='string'?a.error:a.error.message||JSON.stringify(a.error):a?.role==='aggregator'&&a.leg_started&&!a.last_turn_id&&!a.active_turn_id?'First start was attempted but no turn is confirmed. Inspect Activity and Jobs before sending a deliberate continuation.':'';$('actor-attention').textContent=issue?'Last turn problem: '+issue+' Review Activity before continuing.':'';$('actor-attention').hidden=!issue;
+ $('actor-description').textContent=c?'Saved conversation and files. Restore an interview to talk to this state.':a?(a.role==='handler'?'Controller handler for all studies. The Study selector does not limit its authority. Name the study explicitly in requests.':a.role==='interview'?'Independent interview. The source study remains unchanged.':write?'Current research leg. Messages can steer it while it works.':'Recorded session. Open a saved interview to ask questions.'):'Talk to each research leg and interview. Your handler stays in a separate Codex chat.';
+ $('session-details').textContent=a?[a.id,a.run||a.study_run||'',a.model||'',a.effort||'',a.parent_checkpoint?'Restored from '+a.parent_checkpoint:''].filter(Boolean).join(' · '):c?c.checkpoint+' · '+c.boundary+' · '+(c.utc||''):'No session selected.';
+ $('checkpoint-description').textContent=c?'Restoring creates a separate agent from this checkpoint. It does not reopen the original research leg.':'';
+ $('resume-handler').hidden=c?.role!=='handler'||data.features?.includes('external-handler-v1');
+ $('message').disabled=!write||!connected||pending.has('send');$('send').disabled=!write||!available||!!run?.stop;$('send').textContent=pending.has('send')?'Sending…':'Send';
+ $('message').placeholder=write?'Message this agent':'Select a current handler, research leg or interview';
+ $('message-kind').options[1].disabled=!(write&&a?.role==='aggregator'&&a.run);if($('message-kind').selectedOptions[0].disabled)$('message-kind').value='message';
+ $('send-help').textContent=run?.stop?'Study is stopped. Clear study stop in Study controls before sending.':write?'Sending to an idle agent starts a turn; sending while it works steers that turn. A message or card stops later automatic legs. Drafts stay in this browser tab until sent.':'Reading this log does not start a turn. Saved legs and fleet workers need an interview for questions.';
+ for(const id of ['pause','stop','save','close'])$(id).disabled=!write||!available;
+ $('pause').disabled=!write||!available||!a?.active_turn_id||!data.features?.includes('control-guards-v1');$('stop').disabled=!write||!connected||pending.has('stop')||a?.role==='interview'&&!data.features?.includes('control-guards-v1');
+ $('save').disabled=!write||!available||!!a?.active_turn_id||!a?.last_turn_id;
+ $('close').hidden=!(a?.role==='aggregator'&&a.run&&current(a));$('close').disabled=!write||!available||!!a?.active_turn_id||!a?.last_turn_id||unstarted(a)||a?.boundary!=='completed';
+ $('start').hidden=!(write&&a?.role==='aggregator'&&unstarted(a)&&run?.legs?.[a.leg]?.status==='prepared');$('start').disabled=!available||!!run?.stop||run?.block?.status==='running'||!data.features?.includes('control-guards-v1');
+ $('stop').textContent=run?'Stop study and save':'Stop and save';
+ $('saved-interview').hidden=!saved;$('saved-interview').dataset.checkpoint=saved||'';
+ for(const id of ['restore','resume-handler'])$(id).disabled=!available;
+ renderBranchControls();renderStudy();renderQuestions();renderNextLeg();
+ for(const id of ['build'])$(id).disabled=!connected||pending.size>0;
+ $('build').disabled||=workingJobs().some(j=>j.request?.action==='build');
+ if(!connected)for(const button of document.querySelectorAll('button')){if(!['refresh','saved-interview'].includes(button.id)&&!button.id.startsWith('tab-'))button.disabled=true}
+ $('connection').textContent=connected?'Connected':'Disconnected';$('connection-help').hidden=connected&&!!data.features?.includes('control-guards-v1');$('connection-help').textContent=!connected?'Controls are locked until status reconnects. The Mac may still be working. Refresh before repeating any action.':'This controller needs a safe restart to enable audited Start and Pause controls. Existing sessions are unchanged.';
+}
+function renderQuestions(){
+ const a=selectedActor(),q=a?.questions?.[0],alerts=$('question-alerts');alerts.replaceChildren();
+ for(const other of data.actors.filter(x=>x.questions?.length&&x.id!==a?.id)){
+  const button=element('button','Question from '+title(other));button.onclick=()=>choose('actor:'+other.id);alerts.append(button);
+ }alerts.hidden=!alerts.children.length;
+ const history=$('answer-history');history.replaceChildren();for(const row of a?.study_asks||[]){if(row.answered){history.append(element('p',row.id+' · '+(row.leg||'')+' · '+row.question),element('p','Your answer: '+row.answer))}}$('answered-asks').hidden=!history.children.length;
+ $('questions').hidden=!q;
+ if(!q){questionKey='';return}
+ const key=a.id+':'+q.requestKey;
+ if(questionKey!==key){
+  questionKey=key;const fields=$('question-fields');fields.replaceChildren();
+  for(const item of q.questions){
+   const group=element('div'),label=element('label',item.question),input=element('textarea');
+   input.id='question-'+item.id;label.htmlFor=input.id;input.dataset.questionId=item.id;input.style.width='100%';input.style.minHeight='80px';
+   input.value=questionDrafts.get(key+':'+item.id)||'';
+   input.oninput=()=>{questionDrafts.set(key+':'+item.id,input.value);sessionStorage.setItem('rplace-question-drafts',JSON.stringify([...questionDrafts]))};
+   group.append(label);
+   for(const option of item.options||[]){const button=element('button',option.label);button.onclick=()=>{input.value=option.label;input.oninput()};group.append(button);if(option.description)group.append(element('p',option.description,'hint'))}
+   group.append(input);fields.append(group);
+  }
+ }
+ const persistent=q.source==='file';
+ $('question-help').textContent=persistent?'From '+(q.origin_leg||'this study')+'. Meanwhile: '+(q.assumption||'No assumption recorded')+'. Your answer is saved without starting a turn.':q.isBlocking===false?'The agent asked for your input. Reply here to the same live request.':'The agent is waiting for your answer. Nothing is selected or sent automatically.';
+ if(!persistent&&a.questions_live===false)$('question-help').textContent='This question belongs to an unattached native session. Its history is preserved. Recover the session before answering.';
+ $('answer').disabled=!connected||pending.has('answer')||scopeBusy()||(persistent?!q.answerable||!data.features?.includes('persistent-asks-v1'):!writable(a)||!!runFor(a)?.stop||!a.active_turn_id||q.turnId!==a.active_turn_id||a.questions_live===false||!data.features?.includes('live-questions-v1'));
+ for(const button of $('question-fields').querySelectorAll('button'))button.disabled=!connected;
+ if(!persistent){$('send').disabled=true;$('message').disabled=true;$('pause').disabled=true;
+ $('send-help').textContent='Answer the question above, or use Stop and save to interrupt. Your answer stays in this conversation.';}
+
+}
+function renderJobs(){const list=$('jobs');list.replaceChildren();for(const [id,j]of Object.entries(data.jobs).sort(([,a],[,b])=>(b.started_utc||'').localeCompare(a.started_utc||''))){
+ const card=element('article',undefined,'job');card.append(element('strong',(j.request?.action||'Background job')+' · '+(j.status||'unknown')+' · '+short(id)));if(j.request)card.append(element('p',[j.request.run,j.request.actor,j.request.checkpoint].filter(Boolean).join(' · '),'hint'));if(j.error)card.append(element('p',j.error,'error'));for(const failed of j.result?.actors||[]){if(failed.error)card.append(element('p',failed.actor+': '+failed.error+' Store preserved; checkpoint needs review.','error'))}
+ const r=j.result||{};const summary=[r.id||r.actor||r.run,r.checkpoint,r.stop_requested?'Stop requested':null,r.new_turn_started===false?'No turn started':null].filter(Boolean).join(' · ');if(summary)card.append(element('p',summary,'hint'));list.append(card)}
+ for(const e of data.errors||[])list.append(element('p',(e.actor?e.actor+': ':'')+(e.error||e.message||'Controller reported an error'),'error'));
+ if(!list.children.length)list.append(element('p','No background jobs recorded.','empty'));
+}
+async function refresh(fresh=false){
+ if(refreshTask){await refreshTask;if(fresh)return refresh();return}
+ refreshTask=(async()=>{try{data=await api('status');connected=true;data.runs??=[];data.actors??=[];data.checkpoints??=[];data.jobs??={};renderSelectors();renderControls();renderJobs();$('connection').textContent='Connected';const remembered=sessionStorage.getItem('rplace-conversation');if(!selected&&remembered&&Array.from($('conversation-picker').options).some(o=>o.value===remembered))choose(remembered)}catch(e){connected=false;renderControls();renderSelectors();error(e)}})();
+ try{await refreshTask}finally{refreshTask=null}
+}
+function choose(value){if(selected.startsWith('actor:')){drafts.set(selected,$('message').value);saveDrafts()}selected=value;const entry=conversationEntries().find(x=>x.value===value);if(entry){if(!entry.global)study=entry.study;conversationType=entry.type}epoch++;offset=0;serial=0;turn='initial';messages=new Map();activity=new Map();renderSelectors();$('conversation-picker').value=value;$('message').value=drafts.get(value)||'';sessionStorage.setItem('rplace-conversation',value);$('error').hidden=true;notice('');renderControls();renderStreams();pollEvents()}
+function renderStreams(){const pane=$('conversation'),nearEnd=pane.scrollHeight-pane.clientHeight-pane.scrollTop<100,openTools=new Set([...pane.querySelectorAll('details[open]')].map(e=>e.dataset.key));pane.replaceChildren();for(const [key,m] of messages){const e=element('article',undefined,'message '+(m.role==='user'?'user':m.role==='tool'?'tool':''));if(m.role==='tool'){const detail=element('details');detail.dataset.key=key;detail.open=openTools.has(key);const summary=element('summary');summary.append(element('span',m.title,'tool-heading'));detail.append(summary,element('div',m.title,'tool-command'),element('pre',m.text));e.append(detail)}else{e.append(element('div',m.role==='user'?'You':'Agent','by'),element('div',m.text,'text'))}pane.append(e)}if(!messages.size)pane.append(element('p',selectedCheckpoint()?'Restore this checkpoint to open its independent interview.':'No messages logged for this session yet.','empty'));if(nearEnd)pane.scrollTop=pane.scrollHeight;
+ const log=$('activity'),openNotices=new Set([...log.querySelectorAll('details[open]')].map(e=>e.dataset.key));log.replaceChildren();for(const [key,m] of activity){const e=element('article',undefined,'job');if(m.collapsed){const detail=element('details');detail.dataset.key=key;detail.open=openNotices.has(key);detail.append(element('summary',m.title),element('pre',m.text));e.append(detail)}else{e.append(element('strong',m.title));if(m.text)e.append(element('pre',m.text))}log.append(e)}if(!activity.size)log.append(element('p','No tool activity logged for this session yet.','empty'));
+}
+function displayUserInput(text){
+ // Match the runtime's exact prefix and this actor's restore lineage only.
+ // Native history remains intact; quoted or unfamiliar notices stay visible.
+ const a=selectedActor(),prefix='[Restore notice: the saved workspace '+a?.original_workspace+' is now ',suffix='. Use the restored files; the parent is immutable.]\n';
+ if(!a?.original_workspace||!text.startsWith(prefix))return {text};
+ const end=text.indexOf(suffix,prefix.length),destination=text.slice(prefix.length,end);
+ if(end<0||/[\r\n]/.test(destination)||!destination.endsWith('/actors/'+a.id+'/workspace'))return {text};
+ const cut=end+suffix.length;
+ return {text:text.slice(cut),notice:text.slice(0,cut-1)};
+}
+function consume(m){const p=m.params||{},item=p.item||{},method=m.method||'';serial++;
+ if(method==='turn/started'){turn=p.turn?.id||p.turnId||'turn-'+serial;return}
+ const id=p.itemId||item.id;
+ if(method==='item/agentMessage/delta'){const key='agent:'+(id||turn);const v=messages.get(key)||{role:'assistant',text:''};v.text+=p.delta||'';messages.set(key,v)}
+ else if(['item/started','item/completed'].includes(method)&&item.type==='agentMessage'&&item.text){messages.set('agent:'+(id||turn),{role:'assistant',text:item.text})}
+ else if(['item/started','item/completed'].includes(method)&&item.type==='userMessage'){const key=id||serial,input=displayUserInput((item.content||[]).map(x=>x.text||'').join('\n'));messages.set('user:'+key,{role:'user',text:input.text});if(input.notice)activity.set('restore:'+key,{title:'Workspace restored (system)',text:input.notice,collapsed:true})}
+ else if(['item/started','item/completed'].includes(method)&&['commandExecution','mcpToolCall','dynamicToolCall','fileChange','webSearch'].includes(item.type)){const key='tool:'+(id||serial);const v=activity.get(key)||{text:''};v.title=(item.command||item.tool||item.type)+' · '+(item.status||(method==='item/completed'?'completed':'working'));v.text=item.aggregatedOutput||item.output||v.text;if(item.arguments)v.text='Arguments: '+JSON.stringify(item.arguments)+'\n'+v.text;if(item.changes)v.text=JSON.stringify(item.changes)+'\n'+v.text;if(typeof v.text!=='string')v.text=JSON.stringify(v.text);activity.set(key,v);messages.set(key,{...v,role:'tool'})}
+ else if(method==='item/commandExecution/outputDelta'){const key='tool:'+(id||turn),v=activity.get(key)||{title:'Command output',text:''};v.text=v.text+(p.delta||'');activity.set(key,v);messages.set(key,{...v,role:'tool'})}
+ else if(method==='turn/completed'){activity.set('turn:'+(p.turn?.id||turn),{title:'Turn '+(p.turn?.status||'ended'),text:p.turn?.error?.message||''});turn=p.turn?.id||turn}
+ else if(method==='item/tool/requestUserInput'){messages.set('question:'+p.requestKey,{role:'assistant',text:(p.questions||[]).map(q=>q.question).join('\n')})}
+ else if(method==='rplace/questionAnswered'){messages.set('reply:'+p.requestKey,{role:'user',text:(p.questions||[]).map(q=>q.question+'\n'+p.answers[q.id]).join('\n\n')})}
+ else if(method==='error')activity.set('error:'+serial,{title:'Agent error',text:p.error?.message||p.message||'See controller status'});
+}
+async function pollEvents(){if(eventsBusy||!selectedActor())return;const id=selectedActor().id,generation=epoch,from=offset;eventsBusy=true;try{const r=await api('events',{actor:id,offset:from});if(generation!==epoch||selectedActor()?.id!==id)return;for(const e of r.events||[])consume(e.native||{});offset=r.offset;if(r.events?.length)renderStreams()}catch(e){if(generation===epoch)error(e)}finally{eventsBusy=false}}
+async function act(id,fn){if(!connected||pending.has(id)||pending.size&&!['stop','stop-run','block-stop'].includes(id))return;pending.add(id);$('error').hidden=true;renderControls();$(id).disabled=true;try{await fn()}catch(e){error(e)}finally{pending.delete(id);$(id).disabled=false;renderControls();renderSelectors()}}
+function needActor(){const a=selectedActor();if(!a)throw Error('Choose an agent first');return a}
+function needStudy(){if(!study)throw Error('Choose a study first');return study}
+async function submitted(r,label){notice(r?.job?label+' queued. Follow it in Jobs.':label+' accepted.');if(r?.job)await waitJob(r,label);await refresh(true)}
+async function restore(checkpoint,action='restore'){const expected=selected,r=await waitJob(await api(action,{checkpoint}),'Restoring saved agent');await refresh(true);if(selected===expected)choose('actor:'+r.id);notice('Saved agent restored. Send a message when ready.')}
+function legValue(){if($('leg-choice').value!=='__manual__')return $('leg-choice').value;const exact=$('exact-leg').value.trim();if(exact){if(!/^[A-E][1-6][a-e](?:-(?:\d{2}|r[1-9]\d*))?(?:-p(?:[2-9]|[1-9]\d+))?$/.test(exact))throw Error('Use a leg ID such as A1b-02, B2a-r1 or A1b-02-p2');return exact;}const row=catalog.find(r=>r.stage===$('stage-picker').value&&r.step===$('step-picker').value);if(row.repeat==='no')return row.stage+row.step;const n=Number($('leg-number').value);if(!Number.isInteger(n)||n<1||(row.repeat==='yes'&&n>99))throw Error('Use a positive round, or a numbered leg from 01 to 99');return row.stage+row.step+(row.repeat==='yes'?'-'+String(n).padStart(2,'0'):'-r'+n)}
+function legPreview(){const row=catalog.find(r=>r.stage===$('stage-picker').value&&r.step===$('step-picker').value);$('number-field').hidden=row.repeat==='no';try{$('leg-preview').textContent=legValue()}catch{$('leg-preview').textContent='Choose a valid block or round'}}
+function stepOptions(){const rows=catalog.filter(r=>r.stage===$('stage-picker').value);options($('step-picker'),rows.map(r=>[r.step,r.step+' · '+r.step_name]),rows[0].step);$('exact-leg').value='';legPreview()}
+options($('stage-picker'),Array.from(new Map(catalog.map(r=>[r.stage,r.stage+' · '+r.stage_name]))),'A1');stepOptions();
+$('leg-choice').onchange=()=>{renderStudy();blockPreview()};
+$('open-leg').onclick=()=>{const r=data.runs.find(r=>r.id===study),id=$('leg-choice').value,old=r?.legs?.[id],actor=old?.actor||data.actors.find(a=>a.run===r?.id&&a.leg===id)?.id;if(actor)choose('actor:'+actor);else if(old?.checkpoint)choose('checkpoint:'+old.checkpoint)};
+$('stage-picker').onchange=stepOptions;$('step-picker').onchange=legPreview;$('leg-number').oninput=legPreview;$('exact-leg').oninput=legPreview;
+$('study-picker').onchange=()=>{study=$('study-picker').value;sessionStorage.setItem('rplace-study',study);choose('');renderSelectors();blockPreview()};$('conversation-picker').onchange=()=>choose($('conversation-picker').value);$('type-picker').onchange=()=>{conversationType=$('type-picker').value;choose('');renderSelectors()};$('refresh').onclick=()=>refresh(true);
+for(const name of ['chat','activity','jobs'])$('tab-'+name).onclick=()=>{for(const tab of ['chat','activity','jobs']){$('tab-'+tab).setAttribute('aria-selected',String(tab===name));$(tab+'-view').hidden=tab!==name}};
+$('answer').onclick=()=>act('answer',async()=>{const a=needActor(),q=a.questions?.[0];if(!q)throw Error('Question no longer pending');const key=a.id+':'+q.requestKey,answers=Object.fromEntries([...$('question-fields').querySelectorAll('textarea')].map(e=>[e.dataset.questionId,e.value]));if(Object.values(answers).some(v=>!v.trim()))throw Error('Answer every question before sending.');if(q.source==='file')await api('answer-ask',{actor:a.id,run:q.run,request:q.requestKey,text:answers[q.questions[0].id]});else await api('answer',{actor:a.id,request:q.requestKey,answers});for(const item of q.questions)questionDrafts.delete(key+':'+item.id);sessionStorage.setItem('rplace-question-drafts',JSON.stringify([...questionDrafts]));await refresh(true);pollEvents();notice(q.source==='file'?'Answer recorded. No agent turn started. Review any stopped automatic block before resuming.':'Answers sent to the same live turn.')});
+$('send').onclick=()=>act('send',async()=>{const a=needActor(),target=selected,text=$('message').value;if(!text.trim())throw Error('Write a message first');const r=await api($('message-kind').value,{actor:a.id,text});if(selected===target&&$('message').value===text)$('message').value='';drafts.set(target,'');saveDrafts();await submitted(r,'Message');pollEvents()});
+for(const op of ['pause','stop','save','start','close'])$(op).onclick=()=>act(op,async()=>{const a=needActor(),run=runFor(a),action=op==='stop'&&run?'stop-run':op;await submitted(await api(action,{...(action==='stop-run'?{run:run.id}:{actor:a.id}),...(op==='close'?{run:a.run}:{})}),op==='close'?'Validation':op==='start'?'Leg start':op==='stop'?'Stop and save':op==='pause'?'Pause':'Save')});
+$('next-leg-choice').onchange=renderNextLeg;
+$('next-run').onclick=()=>act('next-run',async()=>{
+ const run=needStudy(),leg=$('next-leg-choice').value,r=data.runs.find(x=>x.id===run);
+ if(!nextLegs(r).includes(leg)||!data.features?.includes('control-guards-v1'))throw Error('Refresh and select an available next leg first.');
+ const prepared=await api('prepare',{run,leg});await refresh(true);
+ const updated=data.runs.find(x=>x.id===run),actor=actors()[prepared.actor];
+ if(!actor||actor.run!==run||actor.leg!==leg||updated?.active_actor!==actor.id||updated?.legs?.[leg]?.status!=='prepared'||updated.stop)throw Error('Preparation needs review. Inspect this study before starting a turn.');
+ choose('actor:'+actor.id);await submitted(await api('start',{actor:actor.id}),'Leg start');
+});
+$('step').onclick=()=>act('step',async()=>{if(data.runs.find(r=>r.id===study)?.branch?.status==='draft')throw Error('Use Publish and prepare branch after uploading your changes');const r=await api('prepare',{run:needStudy(),leg:legValue()});await refresh(true);choose('actor:'+r.actor);notice('Leg prepared. Review the selection, then press Start prepared leg when ready.')});
+async function waitJob(r,label='Background job'){if(!r.job)return r;notice(label+' is running. See Jobs. Keep this page open to follow its result; closing the page does not cancel it.');await refresh(true);while(true){await new Promise(resolve=>setTimeout(resolve,1000));const j=await api('job',{job:r.job});if(j.status==='completed'){const failures=(j.result?.actors||[]).filter(a=>a.error);if(failures.length)throw Error('Stop recorded, but '+failures.length+' checkpoint(s) need review. Stores are preserved. See Jobs.');return j.result;}if(['failed','interrupted'].includes(j.status))throw Error(j.error||'Job interrupted')}}
+function renderBlockControls(){
+ const r=data.runs.find(r=>r.id===study),b=r?.block,supported=connected&&data.features?.includes('leg-blocks-v1'),busy=scopeBusy();
+ $('block-start').disabled=!supported||!r||['running','paused','blocked'].includes(b?.status)||busy||!!r?.stop||!!r?.dispatch_active||!!r?.dispatch_blocked||!!phasePending(r);
+ $('block-stop').disabled=!supported||!b?.id||['completed','stopped'].includes(b.status)||pending.has('block-stop');
+ $('block-resume').disabled=!supported||!['paused','blocked','stopped'].includes(b?.status)||busy||!!r?.stop;
+ $('block-state').textContent=!supported?'Restart the controller at a safe boundary to enable approved leg blocks.':!r?'Choose a study.':!b?.id?'No block approved.':b.legs[0]+' through '+b.legs.at(-1)+': '+b.status+'. '+b.cursor+' / '+b.legs.length+' verified. '+b.reason;
+}
+function blockRange(){
+ const first=$('block-first').value.trim(),last=$('block-last').value.trim(),a=/^([A-E][1-6])([a-e])-(\d{2})$/.exec(first),b=/^([A-E][1-6])([a-e])-(\d{2})$/.exec(last);
+ if(!a||!b||a[1]!==b[1]||a[2]!==b[2]||+a[3]<1||+b[3]<+a[3]||!catalog.some(r=>r.stage===a[1]&&r.step===a[2]&&r.repeat==='yes'))throw Error('Choose an ordered range in one repeated step, such as A1b-01 through A1b-03. No stage, step or pause boundary may be crossed.');
+ return {first,last,count:+b[3]-a[3]+1};
+}
+function blockPreview(){try{const b=blockRange();$('block-preview').textContent=(study||'Choose a study')+': '+b.count+' leg(s), '+b.first+' through '+b.last+'. Approval starts work and permits only this range.'}catch(e){$('block-preview').textContent=e.message}}
+$('block-first').oninput=blockPreview;$('block-last').oninput=blockPreview;
+$('block-start').onclick=()=>act('block-start',async()=>{const {first,last}=blockRange();await api('run-block',{run:needStudy(),first,last});await refresh(true);notice('Block approved. The controller runs this range and stops at its boundary.')});
+$('block-stop').onclick=()=>act('block-stop',async()=>{await api('stop-block',{run:needStudy()});await refresh(true);notice('Stop recorded. The current leg may finish; no later leg will start.')});
+$('block-resume').onclick=()=>act('block-resume',async()=>{await api('resume-block',{run:needStudy()});await refresh(true);notice('Approved block resumed. Its original last leg is unchanged.')});
+function renderBranchControls(){
+ renderBlockControls();
+ const c=selectedCheckpoint(),r=data.runs.find(r=>r.id===study),b=r?.branch,supported=connected&&data.features?.includes('analysis-branches-v1');
+ const parents=c?data.runs.filter(r=>Object.values(r.legs||{}).some(l=>l.checkpoint===c.checkpoint&&l.status==='verified')):[];
+ $('branch-create-box').hidden=!(c?.role==='aggregator'&&c.boundary==='completed'&&parents.length);
+ const old=$('branch-source').value;options($('branch-source'),parents.map(r=>[r.id,r.id]),parents.some(r=>r.id===old)?old:parents.some(r=>r.id===study)?study:parents[0]?.id||'');
+ $('branch-create').disabled=!supported||scopeBusy();$('branch-capability').textContent=supported?'':'This controller predates analysis branches. Restart it at a safe boundary to enable them.';
+ $('branch-setup').hidden=!b;
+ if(!b)return;
+ const draft=b.status==='draft';$('branch-summary').textContent=r.id+' forks '+b.source_run+' after '+b.after_leg+'. First new leg: '+b.target_leg+'. Setup: '+b.status+'. '+(r.publication?'Git: '+r.publication.status+' ('+r.publication.ref+')':'Git has not been published yet.');
+ $('branch-changes').textContent=Object.entries(b.changes||{}).map(([name,v])=>name+' · '+v.bytes+' bytes · '+v.sha256.slice(0,12)).join('\n')||'No file changes uploaded.';
+ for(const id of ['branch-delivery','branch-path','branch-file','branch-upload','branch-cancel-upload'])$(id).disabled=!draft||!supported||scopeBusy();
+ $('branch-prepare').disabled=!supported||!!r.active_actor||!!r.legs?.[b.target_leg]||scopeBusy();
+ $('branch-republish').disabled=draft||!supported||!!r.active_actor||scopeBusy();
+ if(!supported)$('branch-pending').textContent='Controller update required before using analysis branches. Existing sessions are unchanged.';
+}
+options($('branch-delivery'),[['','At branch start'],...Array.from(new Set(catalog.map(r=>r.stage))).map(st=>[st,'When '+st+' opens'])],'');
+$('branch-create').onclick=()=>act('branch-create',async()=>{const name=$('branch-name').value.trim(),leg=$('branch-leg').value.trim(),c=selectedCheckpoint();if(!name||!leg||!c)throw Error('Choose a checkpoint, branch name and first leg');const r=await waitJob(await api('branch',{source_run:$('branch-source').value,checkpoint:c.checkpoint,run:name,leg}));study=r.run;sessionStorage.setItem('rplace-study',study);await refresh(true);choose('');$('branch-setup').open=true;notice('Idle branch created. Upload revised data and cards before preparation.')});
+$('branch-upload').onclick=()=>act('branch-upload',async()=>{const run=needStudy(),file=$('branch-file').files[0],path=$('branch-path').value.trim(),stage=$('branch-delivery').value||null;if(!file||!path)throw Error('Choose a file and destination path');const bytes=await file.arrayBuffer(),digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');let offset=0;do{const chunk=new Uint8Array(bytes,offset,Math.min(512*1024,bytes.byteLength-offset));let binary='';for(let i=0;i<chunk.length;i+=8192)binary+=String.fromCharCode(...chunk.subarray(i,i+8192));const r=await api('branch-upload',{run,path,stage,digest,offset,total:file.size,content:btoa(binary)});offset=r.received;$('branch-pending').textContent=offset+' / '+file.size+' bytes uploaded';if(r.complete)break;}while(offset<file.size);await refresh(true);notice('File recorded. No agent turn started.')});
+$('branch-file').onchange=()=>{const file=$('branch-file').files[0];if(file?.name.startsWith('STAGE-')){const stage=file.name.split('-')[1];if(Array.from($('branch-delivery').options).some(o=>o.value===stage)){$('branch-delivery').value=stage;$('branch-path').value='stages/'+file.name}}};
+$('branch-cancel-upload').onclick=()=>act('branch-cancel-upload',async()=>{const path=$('branch-path').value.trim();if(!path)throw Error('Enter the destination path of the pending upload');await api('branch-cancel-upload',{run:needStudy(),path,stage:$('branch-delivery').value||null});notice('Unfinished upload set aside. You can upload this file again.');await refresh(true)});
+$('branch-prepare').onclick=()=>act('branch-prepare',async()=>{const r=await waitJob(await api('prepare-branch',{run:needStudy()}));await refresh(true);choose('actor:'+r.actor);notice('Analysis branch pushed and leg prepared. Send your first message or press Start prepared leg.')});
+$('branch-republish').onclick=()=>act('branch-republish',async()=>{await waitJob(await api('publish-branch',{run:needStudy()}));await refresh(true);notice('Git publication confirmed. Analysis was not repeated.')});
+$('restore').onclick=()=>act('restore',()=>restore(selectedCheckpoint().checkpoint));$('resume-handler').onclick=()=>act('resume-handler',()=>restore(selectedCheckpoint().checkpoint,'resume-handler'));
+$('saved-interview').onclick=()=>choose('checkpoint:'+$('saved-interview').dataset.checkpoint);
+for(const op of ['stop-run','continue-run','recover-plan'])$(op).onclick=()=>act(op,async()=>submitted(await api(op,{run:needStudy()}),op==='continue-run'?'Study continued; no turn started':'Study request'));
+$('build').onclick=()=>act('build',async()=>{const run=$('new-run').value.trim(),source=$('source').value.trim();if(!run||!source)throw Error('Provide a new study name and its pristine prepared input folder');await submitted(await api('build',{run,source,fleet_arm:$('fleet-arm').value}),'Study build')});
+$('message').oninput=()=>{if(selected.startsWith('actor:')){drafts.set(selected,$('message').value);saveDrafts()}};
+for(const name of ['chat','activity','jobs'])$('tab-'+name).onkeydown=e=>{const tabs=['chat','activity','jobs'],i=tabs.indexOf(name);if(['ArrowRight','ArrowLeft','Home','End'].includes(e.key)){e.preventDefault();const next=e.key==='Home'?0:e.key==='End'?2:(i+(e.key==='ArrowRight'?1:2))%3;$('tab-'+tabs[next]).click();$('tab-'+tabs[next]).focus()}};
+refresh();setInterval(pollEvents,1000);setInterval(refresh,5000);
+</script></main></body></html>

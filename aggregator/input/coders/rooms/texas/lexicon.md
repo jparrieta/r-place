@@ -1,0 +1,26 @@
+# lexicon — r/texas
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- “go all San Jacinto on their asses” (`dfoh1vv`)
+- “Remember the Alamo!” (`dfp0z0m`)
+- “Kolache alliance” (`dfpa98g`)
+- “Come and take it!!!” (`dfq9hu1`)
+- “signature boot” (`62vyau`)
+- “false lone star” (`dfpp054`)
+- “Operation... Lone Star?” (`dfq01hg`)
+- “TEXAS to TARDS” (`dfq4rw6`)
+- “Leave the cross. Take the cannoli.” (`dfqj0ey`)
+- “the cross war” (`dfqhibb`)
+- “Remember Place” (`dfqrtu3`)
+- “Norges” (`dfqyn8j`)
+- “OPERATION: Keep it Weird” (`63336b`)
+- “San Jacinto 2.0” (`6338ib`)
+- “United Pixels” (`633fpb`)
+- “#peacewithtexas” (`dfr5t9g`)
+- “weapons of mass destruction” (`dfrcwwc`)
+- “Operation: Fuck Norway” (`6359do`)
+- “The Eyes of Texas are upon you” (`dfrldh9`)
+- “Texan saltmines” (`dfs293e`)
+- “pixel art MMO RTS” (`dft4dkr`)
+- “The Texan-Norwegian War” (`63e4l9`)

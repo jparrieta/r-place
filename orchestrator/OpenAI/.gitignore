@@ -1,0 +1,13 @@
+# Only working memory and reviewed reusable checks belong in this folder.
+*
+!.gitignore
+!README.md
+!_head.md
+!DECISIONS.md
+!diary.md
+!accepted-source.sha256
+!checks/
+checks/*
+!checks/check_state.py
+!checks/offline.py
+!checks/platform_reading.py

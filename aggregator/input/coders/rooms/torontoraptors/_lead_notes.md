@@ -1,0 +1,37 @@
+# Lead notes
+
+- Step 1 completed: read the briefing and all of `openings.md` before running the gate.
+- Gate selected branch B on 3,650 in-window items against threshold 500; `chars_by_people` is recorded in `out/_gate.json`; nine slices were planned.
+- The openings place canvas-related threads among the community's ordinary basketball discussion; this is orientation only, not coded evidence.
+- Batch 01 collected: 32 threads, all out of scope; 0 codes and 0 pointers. Timeline added no lines. Lexicon added `KLOE` (`dfnpo0w`), `Secrit karma rulez` (`dfnz3e7`), `Deebo` (`62nis5`), and `Masaiah` (`dfnt0ep`); none were struck because they are verbatim terms with first-use ids, not readings.
+- Carry to step 5: the first slice contains no visible r/place practice; test the `dfnsrnk` April Fools remark as a possible contrary lead about whether an ordinary announcement or joke was community-operated conduct.
+- Next action: dispatch batch 02 only.
+- Batch 02 collected: its sole large game thread `62orey` was out of scope, with 0 codes and 0 pointers. Timeline and lexicon added no lines, so none were struck.
+- Carry to step 5: `62orey` was triaged rather than read whole; a counter-search hit beyond its window would qualify the slice's absence finding.
+- Next action: dispatch batch 03 only.
+- Batch 03 collected: 4 coded threads, 23 codes, and 2 pointers. Six substantive timeline lines plus a batch heading and six lexicon terms were added; none were struck because the timeline lines report edit facts and identify their items descriptively, while the lexicon entries are verbatim terms with first-use ids.
+- Carry to step 5: contrast praise for the Lowry fake-injury joke with calls to limit the DeMar fake-injury joke; test the unresolved promise to reuse the JV copypasta; examine whether later canvas work recruits these local April Fools practices. TotesMessenger is machine-generated setting.
+- Next action: dispatch batch 04 only.
+- Batch 04 collected: 10 coded threads, 46 codes, and 11 pointers. Four substantive timeline lines plus a batch heading and five lexicon terms were added; none were struck because they are edit facts/plain item descriptions or verbatim terms with first-use ids.
+- Carry to step 5: the canvas project begins with representation between the Canadian flag and Leafs logo, coordinates and a pixel model, relocation after Warriors opposition, and partial movement to Discord. Follow `dfptudu` ("We've given up") to `dfq2bhu` ("Working on it now") and later survival or abandonment; do not infer the reported “Ohio” transformation beyond visible text.
+- Next action: dispatch batch 05 only.
+- Batch 05 collected: 3 coded threads, 34 codes, and 13 pointers. Two substantive timeline lines plus a batch heading and five lexicon terms were added; none were struck because they are metadata/plain descriptions, with the Packers claim explicitly framed as an attribution, or verbatim terms with first-use ids.
+- Carry to step 5: renewed outline-first building under a sticky moderator comment, progress, defence and claimed completion; coexistence/truce talk; SquareSpiral request followed by an unresolved treaty proposal; proposed anti-Celtics inscription; and the difference between shared plans and overwriting attributed to outsiders or uninformed participants. Discord decisions remain unseen.
+- Next action: dispatch batch 06 only.
+- Batch 06 collected: all 7 owned threads were out of scope, with 0 codes and 0 pointers. Timeline and lexicon added no lines, so none were struck.
+- Carry to step 5: this is an intervening ordinary-basketball stretch after the earlier logo work, not evidence of abandonment or an end to the canvas episode without a supporting passage.
+- Next action: dispatch batch 07 only.
+- Batch 07 collected: 3 coded threads, 25 codes, and 1 pointer. Timeline added no lines; four verbatim lexicon terms with first-use ids were added. None were struck.
+- Carry to step 5: participants call the Minnesota Vikings relation a “new treaty,” connect it to adjacent logos, and honor it with a shared heart; builders correct a wrong side/mistaken block and change the design to white with a red-and-yellow checker. Completion remains unseen. SmallSubBot is machine-generated setting.
+- Next action: dispatch batch 08 only.
+- Batch 08 collected: 3 coded threads, 32 codes, and 7 pointers. Timeline added no lines; four verbatim lexicon terms with first-use ids were added. None were struck.
+- Carry to step 5: the r/vermont treaty explicitly checks a proposed WTN expansion over VT 802 (`dfrz6f5`–`dfsb9fj`); Minnesota Vikings participants and Raptors commenters exchange reciprocal credit (`dfs40jy`–`dfs6f8n`). Post-placement threads continue inspection, explanation, alliance credit, and a participant-retold Celtics/Lakers/Vikings-Raptors sequence. morejpeg_auto is machine-generated setting.
+- Next action: dispatch batch 09 only.
+- Batch 09 collected: all 14 owned threads were out of scope, with 0 codes and 0 pointers. Timeline and lexicon added no lines, so none were struck.
+- Carry to step 5: the final slice is ordinary basketball discussion and closes with no event practice unresolved; describe this as the end of the supplied sequence, not as an effect caused by the canvas work.
+- Fleet checkpoint: all nine slices have been collected and every facts-file delta reviewed. Stop here before consolidate, pooling, themes, or steps 4–5 until the scheduler checkpoints the turn.
+- Resumed after scheduler checkpoint. Consolidation pooled 160 codes, 227 dispositions, and 34 pointers. The first `emit.close()` completed; the forest was built; the fleet audit gate passed in full.
+- Step 4 begins now. Read `package/codes_by_thread.md` one slice at a time with that slice's case; open themes as practices appear and extend them when later slices repeat them. Revisit the grouping after the case account and record whether regrouping was needed.
+- Step 4 completed incrementally in slice order: 18 themes cover all 160 codes. The grouping separates practices by what participants are doing, not merely shared words or reply adjacency; later slices extended earlier themes for rallying, planning, coexistence, mutual help, and celebration.
+- Pre-search case reading: fragile logo attempts became a coordinated build organized around negotiated coexistence and reciprocal defense, followed by post-event celebration and explanation; attacks appear mainly as proposals or retrospective rivalry stories.
+- Competing account stated before search: “pixel turf wars” and takeover were the shared practice, with treaties secondary. If the reading is wrong, the record should contain participants explicitly rejecting treaties, directing attacks on neighbors or allies, or celebrating deliberate overwriting as the collective plan.

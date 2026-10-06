@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`package/tree_index.json`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/package-tree-index-json.md">Markdown source</a></nav>
+<h1 id="packagetree_indexjson"><code>package/tree_index.json</code></h1>
+<p>Coordinate to item for every room, with the forest's header counts.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>One key per room. Under it, <code>counts</code> (<code>threads_given</code>, <code>threads_with_codes</code>, <code>items</code>, <code>coded</code>, <code>bridge</code>, <code>removed</code>, <code>dropped</code>, <code>orphans</code>, <code>na_stretches</code>, <code>coverage_of_coded_items</code>, <code>threads_total_in_window</code>) and <code>index</code>: thread id, then coordinate, then the item (<code>item_id</code>, <code>parent_id</code>, <code>author</code>, <code>created_utc</code>, <code>dt_parent_sec</code>, <code>dt_thread_sec</code>, <code>state</code>, <code>code_ids</code>, <code>labels</code>, <code>sequence</code>, <code>coverage</code>, <code>meta</code>).</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p><code>build_store.py</code> at stage 00, merging each room's <code>forest/tree_index.json</code> from the coders' input.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p><code>build_store.py</code> describes it as "coordinate -&gt; item, per room, with the header counts". It supplies the <code>created_utc</code> that forest nodes lack, and its counts become the <code>forest</code> field and <code>threads_total</code> in <code>rooms.jsonl</code>. A1 recomputes the forest header totals over <code>trees/</code> and compares them with the store's figures.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/tree_index.json">package/tree_index.json</a>.</p>
+<p>Checked against: tools/build_store.py, stages/STAGE-A1-reading-room-notes.md, package/tree_index.json.</p>
+</body>
+</html>

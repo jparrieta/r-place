@@ -1,0 +1,16 @@
+{
+ "instrument": "v32",
+ "sub": "day9",
+ "branch": "A",
+ "threshold": 500,
+ "budget_items": 500,
+ "floor_items": 25,
+ "items_in_window": 361,
+ "items_by_people": 355,
+ "chars_by_people": 41340,
+ "threads": 29,
+ "decided_utc": "2026-09-30T14:40:14Z",
+ "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+ "slices": [],
+ "coders": []
+}

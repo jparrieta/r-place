@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`tools/vlib.py`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-vlib-py.md">Markdown source</a></nav>
+<h1 id="toolsvlibpy"><code>tools/vlib.py</code></h1>
+<p>The shared library of the close-checks.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>Helpers that <code>validate.py</code> and every <code>tools/checks/stage_*.py</code> import: error and warning collectors (E, W), and readers such as <code>jsonl</code>, <code>text</code> and <code>need</code>. Errors and warnings are folded by shape at the end, so a per-line check over thousands of lines prints one line per shape with a count and the first instance.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Shipped in the analyst's <code>tools/</code>; <code>build.sh</code> also puts a trusted copy in <code>CONTROL/harness/validation_tools/</code>.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Its docstring: "what every close-check shares." The folding keeps a close report readable when one defect repeats over a whole ledger. Beyond this, its purpose is not stated in the sources.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/vlib.py">tools/vlib.py</a>.</p>
+<p>Checked against: tools/vlib.py, tools/checks/stage_A1.py, harness/build.sh.</p>
+</body>
+</html>

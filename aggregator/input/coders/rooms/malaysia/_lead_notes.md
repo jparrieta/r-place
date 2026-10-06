@@ -1,0 +1,42 @@
+# Lead notes
+
+- Starting fresh: `read state` reported cursor 0.
+- Step 1 completed before the gate: read `brief.md` and all of `openings.md`.
+- Gate fixed by the instrument: branch B; threshold 500; items_in_window 2123; chars_by_people 327991.
+- Five slices were planned in corpus order. Batch 01 covers `62lhf6` through `62rx3j` (498 in-window items).
+- Openings orientation: ordinary subreddit traffic surrounds a concentrated r/place sequence beginning with flag-drawing calls and later maintenance, attack/defence, neighbouring-art negotiation, and coordination threads. Openings are orientation only and will not be treated as evidence.
+- Next action: dispatch batch 01 for the scheduler to run; do not read raw threads or use `find` while the fleet runs.
+- Batch 01 collected: 28 codes, 51 dispositions, timeline +0, lexicon +2.
+- Facts review at collect: kept both lexicon additions (`Jalur Gemilang` at `dfoo4mm`; `Pixel War` at `dfor9z7`). Neither is a reading, so no line was struck. Record this no-strike review in final `notes.md`.
+- Step-5 carry: follow the unresolved early target alternatives into later slices without treating temporal or reply adjacency as causal evidence.
+- Next action: dispatch batch 02 with `gpt-5.6-sol`.
+- Batch 02 collected: 59 codes, 32 dispositions, timeline +3 substantive fact lines (plus one section heading), lexicon +6.
+- Facts review at collect: no lines struck. Timeline additions are bounded descriptions of edited items; lexicon additions are unglossed participant terms. Record this no-strike review in final `notes.md`.
+- Step-5 carry: preserve the 4-hour-14-minute cross-slice relation as sequence only; use explicit passages for damage-to-maintenance and destruction-to-defence links; examine later slices for any textual link to autorepair.
+- Next action: dispatch batch 03 with `gpt-5.6-sol`.
+- Batch 03 collected: 48 codes, 34 dispositions, timeline +13 substantive lines (plus one section heading), lexicon +5.
+- Facts review at collect: no lines struck. Timeline additions stay tied to edits or moderator actions, and lexicon additions are participant phrases without glosses. Record this no-strike review in final `notes.md`.
+- Step-5 carry: lost-heart-to-replacement and post-proliferation-to-planned-sticky exchanges have explicit textual links; attack, restraint, help, rebuilding, and negotiation are contrasting concurrent positions, not evidence of a collective change of mind.
+- Next action: dispatch batch 04 with `gpt-5.6-sol`.
+- Batch 04 collected: 73 codes, 30 dispositions, timeline +7 substantive lines (plus one section heading), lexicon +6.
+- Facts review at collect: no lines struck. Timeline additions are bounded to edited or moderator-marked items; lexicon additions are unglossed participant phrases. Record this no-strike review in final `notes.md`.
+- Step-5 carry: official-thread implementation follows batch 03's planned sticky but needs textual linkage before being called caused by it; preserve explicit Singapore help, pause, and thanks exchanges; distinguish event completion from later sharing and speculation.
+- Next action: dispatch batch 05 with `gpt-5.6-sol`.
+- Batch 05 collected: 0 codes, 28 dispositions, timeline +9 substantive lines (plus one section heading), lexicon +0.
+- Facts review at collect: no lines struck. All nine additions are bounded edited-item facts, though they concern ordinary post-event topics; no lexicon additions were made. Record this no-strike review in final `notes.md`.
+- Step-5 carry: the window closes on ordinary community discussion and no new r/place practice. State this as an observed return, not as an event-caused change.
+- Fleet collection checkpoint complete: all five slices collected. Stop here before consolidate, pooling, themes, or steps 4–5, as directed by the scheduler.
+- Resumed after the scheduler's saved checkpoint. Re-read the complete lead notes and ledger before consolidation.
+- Consolidation is next. After it, follow the prescribed order: first `emit.close()`, forest, fleet audit, incremental themes, counter-reading/account, final `emit.close(verdict=...)`, and preflight.
+- Consolidated successfully: 208 pooled codes, 175 dispositions, 46 pointers. First lead `emit.close()` completed with no verdict; themes are intentionally not yet assigned.
+- Forest built for all 24 coded threads. Next action is the mandatory fleet audit; stop if it reports FAILED.
+- Fleet audit PASSED: pooled/staged records, citations, dispositions, and forest placement all verified.
+- Step 4 completed incrementally in slice order beside the five slice cases. Thirteen concrete themes assign all 208 codes exactly once; single-thread MH17 arguing remains its own theme because it does not belong with another practice.
+- Before step 5: read the forest in bounded sections, then state and search the strongest plausible competing account. Preserve explicit textual links, mark mere sequences as sequences, and use instrument times only.
+- Step-5 reading before search: r/malaysia moved from tentative competing targets into collective flag and placeheart building, manual and scripted defence, neighbour negotiation, moderator consolidation, and immediate commemoration.
+- Competing account before search: this cooperative story may be retrospective tidying of a small, contested effort that participants wanted to abandon or rejected as representing Malaysia.
+- If the reading is wrong, the record should contain explicit calls to give up or release the work, rejection of the Malaysian mark, or sustained opposition to official coordination—not merely jokes, temporary damage, or disagreement about neighbouring art.
+- Counter-reading complete: all returned items were read. Strongest contrary item `dfqaxe0`; `dfrs76u` opposes consolidation; `dfsqbih` became late code `c0209` and was added to theme `t06`. The exact direct-abandonment/rejection query returned zero hits, with its narrow scope retained.
+- Post-counter grouping review complete: no split or merge. The neighbour-conflict and neighbour-help themes remain separate because contesting overwrite is a different practice from arranging reciprocal help and shared space.
+- Full pre-close review completed after rereading `out/_gate.json`: required case headings are present in order, citations and episode endpoints are individually backticked, times come from instrument reads or coder measurements, and `out/notes.md` contains the literal branch-B gate line.
+- Verdict to record: full.

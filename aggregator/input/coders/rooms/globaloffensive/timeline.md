@@ -1,0 +1,354 @@
+# timeline — r/globaloffensive
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 16:05 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfnl1hu`).
+- d0 03-31 16:12 — u/AutoModerator posted the community's anti-promotion rule after another video submission (`dfnlenf`).
+- d0 03-31 16:57 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfnnve5`).
+- d0 03-31 17:06 — u/AutoModerator posted the community's rule against shortened or non-participation Reddit links (`dfnodex`).
+- d0 03-31 17:13 — u/AutoModerator asked for a title to be resubmitted without a tag or flair (`dfnorqs`).
+- d0 03-31 17:16 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfnoxy8`).
+- d0 03-31 17:25 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfnpfl0`).
+- d0 03-31 17:38 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfnq3h7`).
+- d0 03-31 18:03 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfnri91`).
+- d0 03-31 18:04 — u/mjbos edited the r/place proposal that directed contributors near (40,700) (`62mvzz`).
+- d0 03-31 18:06 — u/AutoModerator removed an all-caps/all-symbols submission and asked for resubmission (`dfnrmzw`).
+- d0 03-31 18:31 — u/Rock48 edited a comment giving a case-opening spreadsheet, screenshot, and case simulator (`dfnt130`).
+- d0 03-31 20:30 — u/DantebeaR edited a post comparing GuardiaN and kennyS (`62nw97`).
+- d0 03-31 20:34 — u/AutoModerator temporarily removed a trade submission and directed it to r/GlobalOffensiveTrade (`dfnzm92`).
+- d0 03-31 20:37 — u/[deleted] edited the fake 4/1/17 “MAJOR update” post whose body was later removed (`62nxyr`).
+- d0 03-31 20:37 — u/AutoModerator removed a video submission under the community-participation rule (`dfnzran`).
+- d0 03-31 20:38 — u/_Oomph_ edited a comment explaining that AUGs and scouts are usable weapons (`dfnzt90`).
+- d0 03-31 20:53 — u/AutoModerator temporarily removed a submission for addressing Valve directly in its title (`dfo0kw3`).
+- d0 03-31 21:22 — u/AutoModerator removed a video submission under the community-participation rule (`dfo1ybl`).
+- d0 03-31 21:23 — u/AutoModerator removed another video submission under the community-participation rule (`dfo1zdg`).
+- d0 03-31 22:03 — u/AutoModerator removed an r/place signature proposal for using a shortened Reddit link or a participation-enabled subreddit link (`dfo3w06`).
+- d0 03-31 22:14 — u/[deleted] edited a comment in the unlocked-lobbies thread; its body is deleted (`dfo4d8o`).
+- d0 03-31 23:26 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfo7mde`).
+- d0 03-31 23:27 — u/AutoModerator removed a submission for lacking content or a link (`dfo7my7`).
+- d0 03-31 23:27 — u/AutoModerator asked for a title to be resubmitted without a tag or flair (`dfo7n4h`).
+- d0 03-31 23:34 — u/DaedraNocturnal edited the post asking about “stupid teammates”; its body was later removed (`62p35e`).
+- d0 03-31 23:43 — u/AutoModerator asked for a video title to be resubmitted without a tag or flair (`dfo8c7y`).
+- d0 03-31 23:45 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfo8fp5`).
+- d0 04-01 00:04 — u/MJuniorDC9 edited the post updating the plot of CS:GO after Operation Wildfire (`62p8xm`).
+- d0 04-01 00:04 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfo99fb`).
+- d0 04-01 00:06 — u/AutoModerator posted the community's anti-promotion rule after a video submission (`dfo9bdh`).
+- d0 04-01 00:14 — u/ImVoi edited a comment weighing an April Fools troll against a real knife leak (`dfo9oa4`).
+- d0 04-01 00:14 — u/AutoModerator asked for a title to be resubmitted without a tag or flair (`dfo9ox1`).
+- d0 04-01 00:20 — u/AutoModerator posted the community's anti-promotion rule after a removed submission (`dfo9x93`).
+- d0 04-01 00:30 — u/AutoModerator posted the community's anti-promotion rule after a removed help submission (`dfoad0e`).
+- d0 04-01 00:34 — u/AutoModerator removed the tomahawk repost for lacking content or a link (`dfoaj1u`).
+- d0 04-01 00:36 — u/AutoModerator removed the question about Valve's yearly joke for lacking content or a link (`dfoambk`).
+- d0 04-01 00:38 — u/AutoModerator temporarily removed a VAC-ban question under the community's cheater-post rule (`dfoaoya`).
+- d0 04-01 00:48 — u/doombunny0 edited a comment in the Renegades April Fools thread to admit being fooled (`dfob4oj`).
+- d0 04-01 00:57 — u/AutoModerator removed a “Volvo” title and supplied the community's joke redirects (`dfobik3`).
+- d0 04-01 01:08 — u/AutoModerator removed a video submission under the community-participation rule (`dfoc05g`).
+- d0 04-01 01:14 — u/AutoModerator asked for a title to be resubmitted without a written flair or tag (`dfoc9sr`).
+- d0 04-01 01:20 — u/AutoModerator removed another video submission under the community-participation rule (`dfochqg`).
+- d0 04-01 01:25 — u/AutoModerator removed a video submission under the community-participation rule (`dfocpik`).
+- d0 04-01 01:33 — u/AutoModerator asked for a title to be resubmitted without a written flair or tag (`dfod24t`).
+- d0 04-01 01:38 — u/AutoModerator removed a knife-leak submission for lacking content or a link (`dfod8y2`).
+- d0 04-01 01:47 — u/AutoModerator removed a video submission under the community-participation rule (`dfodmie`).
+- d0 04-01 01:48 — u/AutoModerator removed a knife-leak submission for lacking content or a link (`dfodojg`).
+- d0 04-01 01:53 — u/EverEternal later edited the newcomer post to report improved aim and changed sensitivity (`62puhp`).
+- d0 04-01 01:57 — u/AutoModerator removed a “HOW TO BE A CS:GO PRO” video submission under the community-participation rule (`dfoe19q`).
+- d0 04-01 01:57 — u/AutoModerator removed a pistol-ace video submission under the community-participation rule (`dfoe1vw`).
+- d0 04-01 02:00 — u/Sexy_Vampire edited a regional insult in the Renegades April Fools thread (`dfoe6p8`).
+- d0 04-01 02:02 — u/AutoModerator removed an Overwatch-versus-CS:GO submission for lacking content or a link (`dfoe9o7`).
+- d0 04-01 02:03 — u/AutoModerator removed a question about an Overwatch April Fools prank for lacking content or a link (`dfoe9si`).
+- d0 04-01 02:04 — u/AutoModerator removed a weapon-choice submission for lacking content or a link (`dfoebfs`).
+- d0 04-01 02:04 — u/AutoModerator removed “good meme mods” for lacking content or a link (`dfoeckt`).
+- d0 04-01 02:04 — moderator u/Maksyre credited moderator u/zebradolphin5 with copying r/overwatch's style and credited themself with the idea (`dfoecas`).
+- d0 04-01 02:07 — moderator u/chaseoes played along with the Overwatch styling by asking what a confused poster meant (`dfoefwc`).
+- d0 04-01 02:08 — u/omgezjonesy edited the Overwatch-versus-CS:GO post to explain its “APRIL FOOLS” acrostic (`62pxby`).
+- d0 04-01 02:12 — u/AutoModerator removed “OverWatch :)” for lacking content or a link (`dfoen4d`).
+- d0 04-01 02:14 — u/hunterforreal edited a comment to say they had realised the Overwatch posts were April Fools (`dfoepxn`).
+- d0 04-01 02:15 — u/AutoModerator removed “APRIL FOOLS, CSGO!” for lacking content or a link (`dfoero9`).
+- d0 04-01 02:17 — u/_TronaldDump edited the post recasting a CS:GO skin-timing complaint as an Overwatch hammer-skin complaint (`62pyx2`).
+- d0 04-01 02:19 — u/BazookaBill123 edited the post asking why r/GlobalOffensive displayed as r/Overwatch; its body was later removed (`62pz89`).
+- d0 04-01 02:40 — u/LetsAllBeFriendsHere edited a reply to add that they had mistaken the restyled page for the Overwatch subreddit (`dfoftqy`).
+- d0 04-01 04:11 — u/AutoModerator removed “Non Prime Overwatch Is Broken! Blizzard Fix This Game” for lacking content or a link (`dfoj74i`).
+- d0 04-01 04:13 — u/AutoModerator removed “i dunno about you guys but i main hanzo” for lacking content or a link (`dfoj8l9`).
+- d0 04-01 04:25 — u/AutoModerator removed “Why did overwatch steal our reddit?” for lacking content or a link (`dfojmq2`).
+- d0 04-01 04:41 — u/AutoModerator removed the all-caps post proposing to send “Big Papa Biceps” to r/all (`dfok79o`).
+- d0 04-01 05:19 — u/AutoModerator removed the Ninjas in Pyjamas/Genji flair complaint for lacking content or a link (`dfolfbm`).
+- d0 04-01 05:22 — u/AutoModerator removed “WHAT THE HELL HAPPENED HERE” for an all-caps title (`dfoliip`).
+- d0 04-01 05:25 — u/AutoModerator removed the question about the subreddit becoming an Overwatch subreddit for lacking content or a link (`dfoll7o`).
+- d0 04-01 05:34 — u/AutoModerator removed the Mercy-pistol joke for lacking content or a link (`dfoluor`).
+- d0 04-01 05:47 — u/AutoModerator removed the proposed Overwatch day for lacking content or a link (`dfom8h2`).
+- d0 04-01 06:00 — u/TheBossBagel edited the post praising the subreddit’s April Fools joke (`62r0b0`).
+- d0 04-01 06:11 — u/AutoModerator removed the flair question and explicit April Fools post for lacking content or a link (`dfomume`, `dfomur6`).
+- d0 04-01 06:35 — u/Fluffylele edited the extended Overwatch-logo joke post (`62r55t`).
+- d0 04-01 06:45 — u/AutoModerator removed the all-caps demand for the CS:GO subreddit back (`dfonp07`).
+- d0 04-01 06:53 — u/AutoModerator removed an r/place map call because of its Reddit link form (`dfonwgv`).
+- d0 04-01 08:50 — moderator u/zebradolphin5 said they planned to retain a comment-collapse detail from r/Overwatch's borrowed theme (`dfoqarj`).
+- d0 04-01 09:08 — u/-wqd-wqdqwd_wdqdwqdk edited a reply asking what caused the smoke bug (`dfoqm6h`).
+- d0 04-01 09:52 — u/danisheax edited detailed fragmovie feedback with further examples (`dforeoi`).
+- d0 04-01 10:25 — u/AutoModerator removed a “CS:GO on r/place” submission because its link pointed to another subreddit without the required no-participation form (`dfos0mm`).
+- d0 04-01 10:31 — moderator u/GG-Angel removed the FPS-drop thread under Rule 3 (`dfos453`).
+- d0 04-01 10:44 — u/AutoModerator removed a call to build the subreddit in r/place because its link pointed to another subreddit without the required no-participation form (`dfosccm`).
+- d0 04-01 13:42 — u/AutoModerator temporarily removed a smurfing complaint under the community's repetitive-post rule (`dfowonm`).
+- d0 04-01 13:45 — u/AutoModerator removed “Blizzard.” for lacking content or a link (`dfows19`).
+- d0 04-01 13:52 — u/AutoModerator removed a smurfing claim for lacking content or a link (`dfox0hy`).
+- d0 04-01 14:23 — u/AutoModerator removed a video under the community-participation rule (`dfoy3kn`).
+- d0 04-01 14:25 — u/AutoModerator removed another video under the community-participation rule (`dfoy5ub`).
+- d0 04-01 14:35 — u/AutoModerator removed a Bot World Championship clip for an all-caps title (`dfoyjgi`).
+- d0 04-01 14:39 — u/AutoModerator removed two video submissions under the community-participation rule (`dfoyo9r`, `dfoyonp`).
+- d0 04-01 14:41 — u/AutoModerator removed a video submission under the community-participation rule (`dfoyqqk`).
+- d0 04-01 14:46 — u/AutoModerator removed a Bot World Championship clip under the community-participation rule (`dfoyy3g`).
+- d0 04-01 14:49 — u/AutoModerator removed two video submissions under the community-participation rule (`dfoz1w7`, `dfoz2a2`).
+- d0 04-01 15:02 — u/AutoModerator removed a FACEIT cheating video under the community-participation rule (`dfozj8u`).
+- d0 04-01 15:08 — u/AutoModerator removed a gameplay video under the community-participation rule (`dfozs9y`).
+- d0 04-01 15:11 — u/AutoModerator temporarily removed a skin-store submission under the trading rule (`dfozwuy`).
+- d0 04-01 15:18 — u/AutoModerator removed a skin-giveaway stream under the community-participation rule (`dfp06xd`).
+- d0 04-01 15:30 — u/AutoModerator removed an all-caps r/place submission and asked for resubmission (`dfp0ppg`).
+- d0 04-01 15:39 — u/AutoModerator removed an all-caps ESEA submission and asked for resubmission (`dfp12ih`).
+- d0 04-01 15:45 — u/AutoModerator removed a video submission under the community-participation rule (`dfp1bv3`).
+- d0 04-01 15:53 — u/AutoModerator removed a body-less operation submission and a video submission (`dfp1nju`, `dfp1o0b`).
+- d0 04-01 15:55 — u/AutoModerator removed a body-less “april” submission (`dfp1rdj`).
+- d0 04-01 15:59 — u/AutoModerator removed a knife video under the community-participation rule (`dfp1yc9`).
+- d1 04-01 16:01 — u/AutoModerator removed an AK video under the community-participation rule (`dfp21ku`).
+- d1 04-01 16:16 — u/AutoModerator removed an all-caps retirement submission and asked for resubmission (`dfp2odz`).
+- d1 04-01 16:44 — u/AutoModerator temporarily removed a trading submission and directed it to r/GlobalOffensiveTrade (`dfp3tfw`).
+- d1 04-01 16:44 — u/AutoModerator temporarily removed a smurfing stream submission under the repetitive-post rule (`dfp3ugq`).
+- d1 04-01 16:45 — u/AutoModerator removed a gameplay video under the community-participation rule (`dfp3vrh`).
+- d1 04-01 16:46 — u/AutoModerator removed another video under the community-participation rule (`dfp3xfe`).
+- d1 04-01 16:54 — u/AutoModerator removed a body-less gameplay submission for lacking content or a link (`dfp48ny`).
+- d1 04-01 16:58 — u/AutoModerator removed a gameplay video under the community-participation rule (`dfp4f2b`).
+- d1 04-01 17:08 — u/AutoModerator removed another gameplay video under the community-participation rule (`dfp4uue`).
+- d1 04-01 17:09 — u/AutoModerator removed the body-less “Is it high noon?” post for lacking content or a link (`dfp4v4y`).
+- d1 04-01 17:22 — u/AutoModerator removed a body-less grenade-command post under the community-participation rule (`dfp5fi4`).
+- d1 04-01 17:28 — u/AutoModerator removed a professional-gameplay clip under the community-participation rule (`dfp5nhr`).
+- d1 04-01 17:37 — u/AutoModerator removed an all-caps gameplay submission and asked for resubmission (`dfp627n`).
+- d1 04-01 17:42 — u/AutoModerator removed the body-less post praising the moderators’ April Fools joke for lacking content or a link (`dfp68u9`).
+- d1 04-01 18:01 — u/AutoModerator removed an r/place strength call because its link used a shortener or participation-enabled subreddit link (`dfp70xi`).
+- d1 04-01 18:02 — u/Big_Dirty_Piss_Boner edited the r/place organisation post calling the room to show its strength (`62ucja`).
+- d1 04-01 18:04 — u/AutoModerator removed a body-less HLTV outage question for lacking content or a link (`dfp754j`).
+- d1 04-01 18:06 — u/Dinoswarleaf edited the r/place full-screen link and question about build direction (`dfp78h5`).
+- d1 04-01 18:08 — u/AutoModerator removed a gameplay video under the community-participation rule (`dfp7c7h`).
+- d1 04-01 18:11 — u/AutoModerator removed another gameplay video under the community-participation rule (`dfp7gus`).
+- d1 04-01 18:18 — u/AutoModerator removed a video question under the community-participation rule (`dfp7qz6`).
+- d1 04-01 18:20 — u/AutoModerator removed an r/place help call because its link used a shortener or participation-enabled subreddit link (`dfp7t1n`).
+- d1 04-01 18:20 — u/AutoModerator posted the community’s required self-post format after a professional match-result submission (`dfp7u0m`).
+- d1 04-01 19:13 — u/[deleted] edited a comment in the CS:GO r/place logo thread; its body was later removed (`dfp9z7o`).
+- d1 04-01 20:01 — u/[deleted] edited a comment in the CS:GO r/place logo thread; its body was later deleted (`dfpbw7v`).
+- d1 04-01 20:44 — u/AutoModerator removed a video submission under the community-participation rule (`dfpdm5d`).
+- d1 04-01 20:47 — moderator u/zebradolphin5 asked which night mode exposed a stylesheet problem (`dfpdpqu`).
+- d1 04-01 20:47 — u/AutoModerator removed a cheating-stream submission under the community-participation rule (`dfpdqbn`).
+- d1 04-01 20:51 — u/[deleted] edited a comment in the CS:GO r/place logo thread; its body was later removed (`dfpdvrd`).
+- d1 04-01 20:58 — u/AutoModerator removed a fake Gaben announcement for lacking content or a link (`dfpe6dj`).
+- d1 04-01 21:08 — u/AutoModerator removed an AWP-clutch crosspost for using a shortened or participation-enabled Reddit link (`dfpek1n`).
+- d1 04-01 21:11 — u/tburdz edited a reply about falling frame rates and possible Panorama UI improvements (`dfpeodc`).
+- d1 04-01 21:22 — u/AutoModerator removed a clutch video under the community-participation rule (`dfpf4gp`).
+- d1 04-01 21:23 — u/[deleted] edited an ESEA anti-cheat reply whose body was later deleted (`dfpf4xh`).
+- d1 04-01 21:24 — moderator u/zebradolphin5 invited CSS bug reports after the April Fools fun (`dfpf7il`).
+- d1 04-01 21:27 — u/AutoModerator removed another clutch video under the community-participation rule (`dfpfay2`).
+- d1 04-01 21:33 — u/AutoModerator removed a CS:GO highlights video under the community-participation rule (`dfpfjab`).
+- d1 04-01 21:35 — u/AutoModerator removed an r/place Oilers-help call because of its Reddit link form (`dfpflos`).
+- d1 04-01 21:39 — u/AutoModerator removed an all-caps r/place call and asked for resubmission (`dfpfr72`).
+- d1 04-01 21:40 — u/AutoModerator removed a body-less developer counterfactual for lacking content or a link (`dfpftls`).
+- d1 04-01 21:45 — u/AutoModerator removed an iBUYPOWER parody video under the community-participation rule (`dfpg0q7`).
+- d1 04-01 21:50 — u/AutoModerator temporarily removed a matchmaking-kick complaint under the repetitive-post rule (`dfpg6r7`).
+- d1 04-01 22:10 — u/me_so_pro edited a request for the r/place script maker to help relocate the Oilers logo (`dfpgzeu`).
+- d1 04-01 22:34 — u/swshitter69 edited detailed advice about ranks, communication, utility, aim, and economy (`dfphx66`).
+- d1 04-01 22:36 — moderator u/gooeyblob warned r/place script users that they could be rate-limited and banned (`dfphys5`).
+- d1 04-01 22:41 — moderator u/gooeyblob asked the script maker to stop sharing code that was hammering Reddit's servers (`dfpi5y3`).
+- d1 04-01 22:45 — u/Big_Stick01 edited a reply that insulted an Oilers participant while offering to help rebuild their logo (`dfpicmb`).
+- d1 04-01 22:45 — u/jezzy_ said they had removed all script references from their posts (`dfpicmm`).
+- d1 04-01 22:51 — moderator u/gooeyblob said API projects were welcome if they used sensible limits (`dfpikb6`).
+- d1 04-01 23:44 — u/AutoModerator removed a video submission under the community-participation rule (`dfpkokb`).
+- d1 04-01 23:46 — u/AutoModerator removed another video submission under the community-participation rule (`dfpkrwe`).
+- d1 04-01 23:48 — u/AutoModerator removed an all-caps submission and asked for resubmission (`dfpkugx`).
+- d1 04-02 00:03 — u/AutoModerator removed a video submission under the community-participation rule (`dfplgck`).
+- d1 04-02 00:09 — u/AutoModerator removed a cheating-stream submission under the community-participation rule (`dfploxy`).
+- d1 04-02 00:10 — u/jezzy_ edited the code offered to help rebuild the Oilers logo; the code itself was later redacted (`dfplqnb`).
+- d1 04-02 00:19 — u/AutoModerator removed a repeated video submission under the community-participation rule (`dfpm357`).
+- d1 04-02 00:25 — u/AutoModerator removed a body-less rank post for lacking content or a link (`dfpmbno`).
+- d1 04-02 00:28 — u/AutoModerator removed a video submission under the community-participation rule (`dfpmgmn`).
+- d1 04-02 00:31 — u/AutoModerator removed a video submission under the community-participation rule (`dfpmkum`).
+- d1 04-02 00:33 — u/AutoModerator temporarily removed a submission under the trading rule (`dfpmoe9`).
+- d1 04-02 00:36 — u/AutoModerator temporarily removed another submission under the trading rule (`dfpmrqw`).
+- d1 04-02 00:42 — u/AutoModerator removed an all-caps submission and a video submission (`dfpn0b1`, `dfpn0mf`).
+- d1 04-02 02:21 — u/[deleted] edited a reply in the CS:GO logo thread; its body was later deleted (`dfpqsxo`).
+- d1 04-02 02:23 — u/[deleted] edited another reply in the same exchange; its body was later deleted (`dfpqv7o`).
+- d1 04-02 02:52 — u/AutoModerator removed an all-caps r/place help call because its link used a shortener or participation-enabled subreddit link (`dfprw2r`).
+- d1 04-02 09:14 — u/bze edited the r/place logo template and request not to ruin other works (`dfq1kvd`).
+- d1 04-02 14:12 — u/Weaksidewing edited an extended criticism of the “We did it Reddit” joke (`dfq7tio`).
+- d2 04-02 04:27 — u/Sadokist edited a reply about the Nürburgring laps and future car content (`dfpv3kr`).
+- d1 04-01 22:58 — u/onVoid edited the hand-built post-match thread that noted r/Overwatch's theme hid its team logos (`62w6kw`).
+- d2 04-02 17:44 — moderator u/gooeyblob asked two blocked script users to send their IP addresses by private message (`dfqgpmd`, `dfqgpt0`).
+- d1 04-02 04:24 — u/[deleted] called for help defending the community's logo on r/place; u/AutoModerator immediately removed the submission for its Reddit link form (`62xs84`, `dfpuzdp`).
+- d1 04-02 06:21 — u/MVPerham said “enough” with the Overwatch-themed material in the previous Overwatch Sunday sticky (`dfpy65p`).
+- d1 04-02 09:01 — u/AutoModerator temporarily removed a monitor question and directed it to hardware-focused communities (`dfq1d2d`).
+- d1 04-02 09:02 — u/AutoModerator temporarily removed a second monitor question and directed it to hardware-focused communities (`dfq1dw7`).
+- d1 04-02 09:12–10:13 — u/AutoModerator removed eight video-link submissions under the community-participation rule (`dfq1jnz`, `dfq1kqe`, `dfq21yd`, `dfq25s8`, `dfq2640`, `dfq26i4`, `dfq2b0q`, `dfq2jaf`).
+- d1 04-02 09:32 — moderator u/zebradolphin5 removed a skin-pattern request under Rule 5 (`dfq1vf0`).
+- d1 04-02 13:45 — u/TheIslander829 edited the newcomer-help post to thank respondents and report changing mouse, display, and aiming settings (`62zp2d`).
+- d1 04-02 13:52 — u/Primrosethegreat edited a knife-leak analysis to say the model matched one found on Turbosquid (`dfq76ke`).
+- d1 04-02 14:50 — u/Jannukaz edited a request not to destroy other r/place creations (`dfq95i5`).
+- d1 04-02 15:24 — u/FNScence edited the AWP proposal that supplied an Asiimov image and exact r/place location (`dfqag31`).
+- d1 04-02 15:20 — u/Flum3n called on the community to keep its r/place icon clean (`6306it`).
+- d1 04-02 15:39–16:07 — commenters claimed parts of and described helping complete “CSGO'ED” (`dfqbg8y`, `dfqc9qj`).
+- d1 04-02 15:44 — u/Sachman13 proposed a CS:GO r/place Discord for coordinating vandalism repairs (`630b6e`).
+- d2 04-02 16:07–16:12 — u/CSdesire celebrated the 1G logo, and u/charlescarmichael4 said it predated the CSGO logo (`630g13`, `dfqchzi`).
+- d2 04-02 16:08 — u/AutoModerator temporarily removed a request for Turkish servers because its title addressed Valve directly (`dfqcbaf`).
+- d2 04-02 16:10 — u/AutoModerator removed a montage submission under the community-participation rule (`dfqcf80`).
+- d2 04-02 16:18 — u/AutoModerator removed a case-opening promotion under the community-participation rule (`dfqcrn4`).
+- d2 04-02 16:26 — u/AutoModerator removed a video submission under the community-participation rule (`dfqd54w`).
+- d2 04-02 16:34 — u/Darkster20 edited the post appealing an ESEA cheating ban (`630ltw`).
+- d2 04-02 16:38 — u/[deleted] edited the Silver Two match-review post; its body was later deleted (`630mjw`).
+- d2 04-02 16:45 — u/AutoModerator removed an all-caps rank-HUD submission and asked for resubmission (`dfqdy3d`).
+- d2 04-02 16:56–17:01 — u/AutoModerator removed three video-link submissions under the community-participation rule (`dfqeguw`, `dfqeian`, `dfqeo87`).
+- d2 04-02 17:11 — u/AutoModerator removed a video-link submission under the community-participation rule (`dfqf4zz`).
+- d2 04-02 17:18–17:20 — u/AutoModerator removed three video-link submissions under the community-participation rule (`dfqfhfo`, `dfqfkq1`, `dfqflbh`).
+- d2 04-02 17:23 — u/AnonOmis1000 edited a reply after learning that the Negev's movement speed had recently been reduced (`dfqfpxi`).
+- d2 04-02 17:26 — u/AutoModerator temporarily removed a smurfing complaint under the repetitive-post rule (`dfqftye`).
+- d2 04-02 17:27 — u/AutoModerator removed a video-link submission under the community-participation rule (`dfqfwyz`).
+- d2 04-02 17:31 — u/AutoModerator removed one all-caps submission and two video-link submissions (`dfqg2wj`, `dfqg315`, `dfqg3jh`).
+- d2 04-02 17:35 — u/AutoModerator temporarily removed a trading post and removed a video-link submission (`dfqgads`, `dfqgagq`).
+- d2 04-02 17:47–17:48 — u/AutoModerator removed two video-link submissions under the community-participation rule (`dfqgtkm`, `dfqgutn`).
+- d2 04-02 18:06 — u/AutoModerator removed a television-casting link under the community-participation rule (`dfqhqhf`).
+- d2 04-02 18:09 — u/AutoModerator removed a professional-match clip under the community-participation rule (`dfqhv8z`).
+- d2 04-02 18:14 — u/[deleted] edited the post praising Skadoodle; its body was later deleted (`6317dy`).
+- d2 04-02 18:24 — u/eXist73 edited a LAN clip post whose body was later removed; u/AutoModerator applied the community-participation rule (`6319pn`, `dfqikg4`).
+- d2 04-02 18:39 — u/AutoModerator removed a tournament-caster clip under the community-participation rule (`dfqj99c`).
+- d2 04-02 18:42 — moderator u/Juamocoustic removed a skin-price thread under Rule 5 (`dfqjf5v`).
+- d2 04-02 18:49–18:50 — u/AutoModerator removed two video-link submissions under the community-participation rule (`dfqjqqz`, `dfqjsu7`).
+- d2 04-02 18:51 — u/AutoModerator filtered a Twitch clip whose link ended in `/edit` (`dfqjuus`).
+- d2 04-02 18:53 — u/AutoModerator removed an all-symbol submission and asked for resubmission (`dfqjx3n`).
+- d2 04-02 18:59 — u/Ziggy-Trade posted a call to save CS:GO on r/place (`631hl0`).
+- d2 04-02 19:00 — u/900_year_old_vampire located the CS:GO spot beside the dota logo at 322,322 (`dfqk9zo`).
+- d2 04-02 19:01 — u/[deleted] posted a timelapse titled as the CSGO imperium on r/place so far (`631hyn`).
+- d2 04-02 19:31 — u/YuviManBro called for help against the void and vandals before later expansion with knives (`631oll`).
+- d2 04-02 19:31 — u/[deleted] posted a backup call whose body was later removed, while its title said the r/place logo was being desecrated (`631omy`).
+- d2 04-02 19:33 — u/barley_cs called for a crisp clean pixel lock to restore the blue and orange logo (`631p84`).
+- d2 04-02 20:13 — u/Murphy1745 said the purported new Negev model was intended for April Fools but was not finished the previous day (`dfqnkhj`).
+- d2 04-02 20:30 — u/xmann277 called for help defending the r/place logo near (250, 300) and keeping it crisp and clean (`6321j8`).
+- d2 04-02 20:57 — a deleted author called for help finishing an Asiimov on r/place; u/AutoModerator removed the submission because of its Reddit link form (`632748`, `dfqpnf6`).
+- d2 04-02 21:03 — u/wmarch7 called for help with an endangered presence; replies promised reinforcements, exchanged a repair guideline, celebrated a retake, and proposed adding CT and T symbols (`6328lg`, `dfqqnno`, `dfqvedi`, `dfqwf89`, `dfr879v`, `dfrisyp`).
+- d2 04-02 21:04 — a deleted author called for help getting an Asiimov on r/place; u/AutoModerator removed the submission because of its Reddit link form (`6328nc`, `dfqptkv`).
+- d2 04-02 21:06 — a deleted author announced an r/go restoration project in r/place, and a reply said the AWP also needed to be built (`63293y`, `dfqqwh6`).
+- d2 04-02 21:07 — u/thefaded69 called for an AWP Asiimov above the CSGO logo and later asked the Golden State Warriors participants to let the gun be built near other game art (`6329a8`, `dfqy998`).
+- d2 04-02 21:53 — u/AutoModerator removed an r/tf2 r/place-logo heads-up because of its Reddit link form (`dfqs0cw`).
+- d2 04-02 21:54 — u/AutoModerator removed an r/place AWP-building help call because of its Reddit link form (`dfqs31k`).
+- d2 04-02 22:04 — u/SuperLuigi9624 gave r/globaloffensive a heads-up that r/tf2 was trying to make its r/place logo more important (`632lbe`).
+- d2 04-02 22:25 — u/maggiforever called for occupying a rectangle with earlier knife and AWP bitmaps; u/AutoModerator removed the submission for its Reddit link form (`632po9`, `dfqtkqj`).
+- d2 04-02 22:27 — a deleted author repeated the rectangle call with coordinates, and u/maggiforever supplied a direct r/place link (`632q2v`, `dfqtp13`).
+- d2 04-02 22:46 — u/huddy987 compared a Valve-office magnet wall with the image on r/place; replies replayed pixel-vandalism jokes and explained the five-minute placement rule (`632tyx`, `dfqwinu`, `dfrdohn`).
+- d2 04-02 23:05 — u/Ace_of_Losers redirected backup from the mostly dead AWP Asiimov toward defending the CSGO logo from retaliation and the growing void (`632xvj`).
+- d2 04-03 00:18–01:02 — commenters recounted the failed AWP push, blamed earlier damage to the Oilers logo, and warned that r/osugame had a compromise with r/placestart (`dfqyxkz`, `dfr0z97`, `dfr133d`).
+- d2 04-03 09:45–16:53 — participants requested a repair script, disputed botting versus scripting, and shared a Pastebin script while defense remained active (`dfrj139`, `dfro8h9`, `dfrof62`, `dfrz5dh`).
+- d3 04-04 11:13 — a deleted author posted an image link titled “The CSGO logo with a dong” (`63dgkc`).
+- d3 04-04 05:11 — u/connorgrice posted the body-removed title “Forever Place” (`63c74g`).
+- d3 04-03 17:22 — u/karl-police posted how the community logo looked after r/place ended (`6387z9`).
+- d3 04-03 17:22 — u/Peterscraps posted the logo “left immortalised looking Very shocked” (`63884x`).
+- d3 04-03 20:27 — u/dfever claimed to have changed the frozen logo from “CS:6O” to “CS:GO” (`dfsa6ro`).
+- d2 04-02 23:15 — a removed post's surviving title carried an r/warriors call for an r/place truce (`632zt2`).
+- d2 04-02 23:27 — a removed post's surviving title announced a WarOwl logo being built on r/place (`633273`).
+- d2 04-02 23:55 — u/AutoModerator removed the call to expand the r/place logo south for lacking content or a link (`dfqxutz`).
+- d2 04-02 23:55 — u/AutoModerator filtered a Twitch clip whose URL ended in `/edit` (`dfqxvre`).
+- d2 04-02 23:57 — u/AutoModerator applied the community-participation rule to a video post (`dfqxyvm`).
+- d2 04-03 00:00 — u/AutoModerator directed a possible match post to the match-thread guidelines (`dfqy2it`).
+- d2 04-03 00:12 — u/AutoModerator applied the community-participation rule to a video post (`dfqymdp`).
+- d2 04-03 00:15 — u/AutoModerator temporarily removed a server-outage post as repetitive (`dfqyso0`).
+- d2 04-03 00:17 — u/AutoModerator applied the community-participation rule to a video post (`dfqywnd`).
+- d2 04-03 00:30 — u/AutoModerator applied the community-participation rule to a video post (`dfqzhle`).
+- d2 04-03 00:34 — u/AutoModerator applied the community-participation rule to a video post (`dfqzq3d`).
+- d2 04-03 00:45 — u/AutoModerator applied the community-participation rule to a video post (`dfr07kg`).
+- d2 04-03 00:46 — u/AutoModerator applied the community-participation rule to a video post (`dfr091o`).
+- d2 04-03 00:49 — u/AutoModerator removed a title using “Volvo” and supplied the community's joke redirects (`dfr0ec2`).
+- d2 04-03 00:54 — u/AutoModerator applied the community-participation rule to a video post (`dfr0ovq`).
+- d2 04-03 01:00 — u/AutoModerator applied the community-participation rule to a video post (`dfr0zjb`).
+- d2 04-03 01:01 — u/AutoModerator applied the community-participation rule to a video post (`dfr101k`).
+- d3 04-03 23:47 — u/gagep932 edited the post presenting an r/place-canvas AWP mock-up and saying it had not been submitted (`63am0u`).
+- d3 04-03 23:53 — u/AutoModerator removed a gameplay-feedback video under the community-participation rule (`dfskk4q`).
+- d3 04-03 19:44 — u/AutoModerator removed an Overwatch-system video post under the community-participation rule (`dfs806v`).
+- d3 04-03 19:56 — u/AutoModerator removed a body-less player-comparison post for lacking content or a link (`dfs8l75`).
+- d3 04-03 20:04 — u/AutoModerator removed an unapproved AMA request (`dfs903y`).
+- d3 04-03 20:05 — u/AutoModerator removed a mouse question whose title included a written tag (`dfs929f`).
+- d3 04-03 20:15–20:34 — u/AutoModerator applied the community-participation rule to five video or stream-link submissions (`dfs9kks`, `dfs9l1s`, `dfs9nhs`, `dfs9xwn`, `dfsajs0`).
+- d2 04-03 01:02–01:08 — u/AutoModerator removed or filtered repeated Stewie highlight submissions for all-caps titles, `/edit` links, or insufficient community participation (`dfr12iy`, `dfr12ka`, `dfr139c`, `dfr1eey`).
+- d2 04-03 01:11 — u/OvenKnight called for helping osu! with its logo; the post body was removed and u/AutoModerator rejected its Reddit link form (`633m1j`, `dfr1il1`).
+- d2 04-03 01:20 — u/legocraftmation proposed putting a knife at a location shown only in a linked image (`633nv0`).
+- d2 04-03 01:30 — a deleted author called for removing an obscene alteration from the CS:GO logo in r/place; the body was removed (`633pt6`).
+- d2 04-03 01:57 — a deleted author proposed moving the CS:GO letters two pixels; the body was deleted and the location remained in a linked image (`633uw9`).
+- d2 04-03 02:04 — u/CaptainSexyLlama called on r/place participants to take down the bronies; the post body was removed (`633wbi`).
+- d2 04-03 02:06 — a deleted author called to expand south into Mexico; u/AutoModerator immediately removed the all-caps post (`633wjf`, `dfr49i6`).
+- d2 04-03 02:16 — a deleted author repeated the call to expand south into Mexico; the post body was deleted (`633yeu`).
+- d2 04-03 02:43–03:09 — u/AutoModerator removed four clip submissions under the community-participation rule (`dfr64p2`, `dfr73oo`, `dfr7flr`, `dfr7htq`).
+- d2 04-03 02:46 — u/syn3rNZ edited the post comparing their 2006 and current PC setups (`6343wy`).
+- d2 04-03 03:13 — u/AutoModerator removed a cross-subreddit “sourcebro's” help call because of its Reddit link form (`dfr7or5`).
+- d2 04-03 03:31 — u/AutoModerator temporarily removed a case-opening video under the low-value-post rule (`dfr8k5k`).
+- d2 04-03 03:36 — u/AutoModerator directed a match-result submission to the match-thread format (`dfr8ste`).
+- d2 04-03 03:42–04:29 — u/AutoModerator removed four clip submissions under the community-participation rule (`dfr91ra`, `dframen`, `dfrb4ft`) and temporarily removed a knife clip as possible trading content (`dfr9pep`).
+- d2 04-03 04:11 — u/Theempoleon edited the music-volume workaround post to add its source link (`634ifa`).
+- d2 04-03 04:46 — u/AutoModerator removed an all-caps Mirage-smoke submission and asked for resubmission (`dfrbq6m`).
+- d2 04-03 05:23 — u/AutoModerator removed a video submission under the community-participation rule (`dfrcy0q`).
+- d2 04-03 05:28 — u/AutoModerator asked for a skin-site question to be resubmitted without a written tag or flair (`dfrd48s`).
+- d2 04-03 05:31 — u/AutoModerator temporarily removed an event-ticket sale under the trading rule (`dfrd79p`).
+- d2 04-03 05:33 — u/AutoModerator removed a body-less operation submission for lacking content or a link (`dfrd9oo`).
+- d2 04-03 05:43 — u/AutoModerator removed an all-symbol title and asked for resubmission (`dfrdknn`).
+- d2 04-03 05:49 — u/AutoModerator removed a stream clip under the community-participation rule (`dfrdrac`).
+- d2 04-03 06:53–07:38 — a deleted author's “pls stop” r/place post drew an objection to invading the TF2 logo and a reply asking fellow Half-Life mods to stop fighting (`6355zc`, `dfrfhyt`, `dfrghwn`).
+- d3 04-04 01:08 — u/_darzy edited a reply to report that suggested audio-cache commands did nothing (`dfsobzk`).
+- d2 04-03 07:44 — u/AutoModerator removed a frag-video request for lacking content or a link (`dfrgmsz`).
+- d2 04-03 07:49 — u/AutoModerator removed a video submission under the community-participation rule (`dfrgqqy`).
+- d2 04-03 08:30 — u/AutoModerator removed a video submission under the community-participation rule (`dfrhl1l`).
+- d2 04-03 08:33 — u/AutoModerator removed a livestream submission under the community-participation rule (`dfrhmzv`).
+- d2 04-03 08:45 — u/AutoModerator removed a repeated video submission under the community-participation rule (`dfrhvdp`).
+- d2 04-03 08:50 — u/AutoModerator removed an all-caps roster-rumour submission (`dfrhz7i`).
+- d2 04-03 08:57 — u/AutoModerator removed another repeated video submission under the community-participation rule (`dfri3ui`).
+- d2 04-03 09:18 — a deleted author edited the post asking for help with distracting Kappas; its body was later deleted (`635np3`).
+- d2 04-03 09:43 — u/AutoModerator removed a bomb-plant video submission under the community-participation rule (`dfrizan`).
+- d2 04-03 10:09 — u/finnishfagut edited a roster-joke explanation (`dfrji92`).
+- d2 04-03 10:10 — u/AutoModerator removed a cheating-video submission under the community-participation rule (`dfrjih1`).
+- d2 04-03 11:21 — u/AutoModerator removed an all-caps warning that the void was about to hit south of CSGO and asked for resubmission (`dfrl3lc`).
+- d2 04-03 12:48 — u/AutoModerator removed the all-caps “NEED HELP ON R/PLACE” post and asked for resubmission (`dfrnotn`).
+- d2 04-03 12:57–15:34 — u/NOUS_one called for defense of the community logo on r/place; replies offered an alternate account, proposed reciprocal help for Mexico, and objected that scripts harmed the fun (`636l6g`, `dfro3c1`, `dfrp4x1`, `dfrv5mv`).
+- d2 04-03 14:08 — a deleted author called for help after saying r/overwatch was trying to put an obscenity on the community's r/place logo; the post body was removed (`636zkh`).
+- d2 04-03 15:20 — u/AutoModerator removed a video submission under the community-participation rule (`dfrugsb`).
+- d3 04-03 16:02 — u/CSG1aze proposed making an ESL symbol on the still-open r/place canvas, and replies worked out that the “art wall” was the April Fools group-pixel canvas (`637p86`, `dfrx8r8`, `dfrxzqk`).
+- d3 04-03 16:04 — u/TBOHB warned that the void was approaching and called for defense; replies planned to rebuild after it left and described takeovers as gathering enough people to target something (`637pqh`, `dfrwwpd`, `dfryeh7`).
+- d3 04-03 17:11 — u/insinr8r said admins had closed r/place (`dfs00aw`).
+- d3 04-03 17:12 — u/Reimaku recounted adding rogue pixels to the Dota logo before closure, and u/insinr8r cheered the act (`dfs02a8`, `dfs04a8`).
+- d3 04-03 19:43 — moderator u/vallz said the moderators had no control over Reddit's advertising space (`dfs7wvn`).
+- d3 04-03 20:23 — u/MikeTheAverageReddit edited a list of other CS:GO-related logos visible in the final r/place picture (`dfs9zey`).
+- d3 04-03 23:05 — u/TheBestUserNameeEver edited links to final-canvas images at several resolutions (`dfsia95`).
+- d3 04-04 03:09 — u/Paxton-176 edited a reply arguing that r/place ending prevented art-help requests from continuing indefinitely (`dfsu8pg`).
+- d3 04-03 21:28 — u/AutoModerator removed a gameplay-video submission under the community-participation rule (`dfsdfbd`).
+- d3 04-03 21:32 — u/AutoModerator temporarily removed a smurfing complaint under the repetitive-post rule (`dfsdluo`).
+- d3 04-03 22:00 — u/AutoModerator temporarily removed a scam report and directed the author to reporting and scam-prevention resources (`dfsf2s6`).
+- d3 04-03 22:08 — u/AutoModerator removed an all-caps trade-up submission and requested resubmission (`dfsfhza`).
+- d3 04-03 22:16 — u/AutoModerator temporarily removed a possible trading submission (`dfsfuus`).
+- d3 04-03 22:33 — u/GrandpaJR edited the matchmaking-kick question to ask whether anyone had tested the system (`63a6ur`).
+- d3 04-03 22:37 — u/AutoModerator temporarily removed a cooldown complaint under the community's commonplace-post rule (`dfsgx9b`).
+- d3 04-03 22:44–22:45 — u/AutoModerator removed three video submissions under the community-participation rule (`dfsh9py`, `dfshb09`) or for lacking content (`dfshaf4`).
+- d3 04-03 23:05–23:06 — u/AutoModerator temporarily removed two item-trophy videos under the low-value-post rule (`dfsiank`, `dfsicgn`).
+- d3 04-03 23:07 — u/xtoyszy edited a reply insulting the author of a sarcastic update post (`dfsie3q`).
+- d3 04-03 23:11 — u/AutoModerator removed a frag-movie submission under the community-participation rule (`dfsikup`).
+- d3 04-03 23:23 — u/AutoModerator removed another video submission under the community-participation rule (`dfsj4b6`).
+- d3 04-03 23:38 — u/AutoModerator removed another video submission under the community-participation rule (`dfsjug5`).
+- d3 04-04 05:55 — u/mrlizbn edited a comment asking for a full-resolution timelapse and comparing it to owning a piece of the Berlin Wall (`dft07li`).
+- d3 04-04 13:05 — u/Tyler___123 edited a reply defending coldzera's decision to attempt a jumping shot (`dftaiba`).
+- d3 04-04 00:12 — u/AutoModerator removed a scam-warning post for lacking content or a link (`dfslhjd`).
+- d3 04-04 00:22 — u/AutoModerator removed a stream clip under the community-participation rule (`dfsm1gz`).
+- d3 04-04 00:31 — u/zebradolphin5 edited the third subreddit-banner competition announcement (`63aupt`).
+- d3 04-04 00:32 — u/zebradolphin5 edited the accompanying banner-submission thread (`63auq9`).
+- d3 04-04 00:45 — u/-bhc- edited a reply explaining that a fragmovie was reposted for its creator (`dfsn8k1`).
+- d3 04-04 01:01 — u/angelOFnoise edited a reply in an argument about VAC on Linux (`dfsnyzs`).
+- d3 04-04 01:16 — u/AutoModerator removed a gameplay clip under the community-participation rule (`dfsop7z`).
+- d3 04-04 01:21 — u/AutoModerator removed another gameplay clip under the community-participation rule (`dfsoyu7`).
+- d3 04-04 01:26 — u/-bhc- edited a reply about a Linux cheat being advertised as undetectable (`dfsp7ol`).
+- d3 04-04 01:35 — u/AutoModerator removed a smoke-bug clip under the community-participation rule (`dfspn9q`).
+- d3 04-04 01:38 — u/AutoModerator removed a streamer clip under the community-participation rule (`dfspst6`).
+- d3 04-04 01:58 — u/AutoModerator removed a repeated gameplay clip under the community-participation rule (`dfsqtro`).
+- d3 04-04 02:01 — u/AutoModerator removed another smoke-bug clip under the community-participation rule (`dfsqze6`).
+- d3 04-04 02:03 — moderator u/chaseoes removed a streamer-joke video under Rule 1 (`dfsr23w`).
+- d3 04-04 12:08 — u/AutoModerator temporarily removed a knife price-check post under the trading rule (`dft8i5n`).
+- d3 04-04 12:46–12:47 — u/AutoModerator removed two video submissions under the community-participation rule (`dft9thx`, `dft9uek`).
+- d3 04-04 13:09 — u/AutoModerator removed a post because its title used “Volvo” (`dftaomf`).
+- d3 04-04 13:13 — u/AutoModerator temporarily removed a direct-address post to Valve and two video submissions (`dftau23`, `dftau3y`, `dftauhp`).
+- d3 04-04 13:17 — u/GlobalOffensiveBot removed three smoke-bug clips as duplicates (`dftazmo`, `dftb00e`, `dftb074`).
+- d3 04-04 14:25 — moderator u/daniel_j- removed a game-update thread under Rule 9 (`dfte4gy`).
+- d3 04-04 14:58 — u/GlobalOffensiveBot removed a duplicate Bondik clutch clip (`dftftdu`).
+- d3 04-04 15:31 — a deleted author posted an image-link submission titled “Crisp Clean Lock Bois” (`63etao`).

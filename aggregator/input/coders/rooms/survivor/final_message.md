@@ -1,0 +1,1 @@
+r/survivor — full. Thematic saturation: later slices added neighbour conflict and post-event interpretation, so saturation was not early. Evidence saturation: recurring Reddit-side practices are well supported; visual outcomes, external coordination, and responsibility remain incomplete. Blockers: none.

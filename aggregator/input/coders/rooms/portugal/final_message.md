@@ -1,0 +1,1 @@
+r/portugal — branch B; verdict: full. Practice saturation appeared only at the window edge. Record saturation remains incomplete because of deletions, images, and off-platform coordination. Blockers: none.

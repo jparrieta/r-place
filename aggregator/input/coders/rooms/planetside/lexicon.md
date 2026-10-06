@@ -1,0 +1,48 @@
+# lexicon — r/planetside
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Hardlight Barrier — 62macd
+- Catlike 5 — 62mtcb
+- MLG Shitter — dfnubcf
+- Cahnspryosee theeory — 62or72
+- BouncyHouseSide 2 — dfod382
+- WrelloKittyIslandAdventureSide — 62p648
+- Hossinside — 62p648
+- Valk Magic — 62p648
+- SingerSongWriterSide — 62ptf6
+- Wrel Bandanas — 62q3qc
+- Enclave Revolution — 62ra55
+- Papa Vanu — dfore31
+- Threemans — dfp7u2z
+- Spittybae — 62spog
+- Catgirl — 62spog
+- Fwabbajabanoonga — 62sy28
+- crablike — dfp2lw0
+- IMMERSION LOTTERY ACTUAL — 62u8ug
+- wrelcome — 62uqjh
+- Forward Station — 62uxqn
+- plug — 62wmrl
+- salt shaker — dfpzp1o
+- Blue Corner — dfq0ak4
+- Skillstix — dfq7k2l
+- Nationsmash — 6302bw
+- matrixed — 630wl3
+- 4th-factioning — dfretfu
+- Infantryside 2 — 6312t5
+- 3-FACTION DROP — dfr3yyp
+- SteamSide — 632agx
+- tactical superiority — dfqudc4
+- GigaLUL — dfqxvil
+- Terrain Republic — 635oo2
+- C4 bullshiteroni — dfrwxtp
+- Planetside's Edge 2 — 636t1n
+- Arcadeside 2 — dfs9qps
+- Logistics Terminal — 63agds
+- Dead Hang — dfsohlq
+- bippy — 63cniy
+- HWID banned — 63d1p5
+- Failstorm — 63dg95
+- tank-on-feet — dfti64a
+- Sundy Balls — 63etpb
+- Sundy Trains — 63etpb

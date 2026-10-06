@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`harness/step.sh`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/harness-step-sh.md">Markdown source</a></nav>
+<h1 id="harnessstepsh"><code>harness/step.sh</code></h1>
+<p>Opens one leg: delivers the stage, writes the first message, and launches the analyst continuing the last close's conversation (a fork of its session; fresh only for the run's first leg or with <code>--fresh</code>).</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p><code>step.sh LEG [--prepare] [--fresh] [--from-cut LABEL] [--force-order] [--reopen] [--api-ok]</code>. <code>--fresh</code> opens a fresh session and <code>--reopen</code> a leg the analyst already closed, each logged as a departure. It checks the leg id and the arm; refuses an API key or a gateway route in the shell; renders the settings; at a stage's first leg copies <code>DROPS/NN/</code> into the analyst's folder, refusing if the previous stage is unfinished unless forced; holds a check leg until the dispatch has left <code>DONE</code>; clears <code>.pause</code>; writes <code>.stage</code> and <code>.leg</code>; writes the first message (the reading order, and lines for a failed last close, an interview reply, the readers' files); records the session; calls <code>launch.sh</code>. With <code>--prepare</code> it stops before the launch: the leg handler (<code>legs.py</code>) then runs the turn headless. At stage E2a it copies every interview listed in <code>CONTROL/interviews.tsv</code> into the analyst's <code>handling/interviews/</code>.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>The handler, once per leg.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Since v40 (2026-10-02) every ordinary leg forks the last committed close's session, as the OpenAI copy does; <code>--fresh</code> opens a fresh session and is logged in RUN.json as a departure. With <code>--from-cut</code> the leg opens as a fork of a named cut's checkpoint, and only from the last close: once a later leg has closed, the live folder is no longer the cut's, and that state is talked to through <code>interview.sh</code>, in a copy of its own. <code>step.sh</code> also writes <code>.stagefile</code>, the one stage file <code>DROPS/ORDER.tsv</code> names, which <code>validate.py</code> and the compaction hook read.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/step.sh">harness/step.sh</a>.</p>
+<p>Checked against: harness/step.sh, harness/lib.sh, harness/protocol_guard.py, harness/READ-ME-FIRST.md.</p>
+</body>
+</html>

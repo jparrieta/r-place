@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`trees/&lt;room&gt;.md`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/trees-room-md.md">Markdown source</a></nav>
+<h1 id="treesroommd"><code>trees/&lt;room&gt;.md</code></h1>
+<p>The rendered forest of one room: its coded threads as reply trees.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>A header with counts (threads given and with a code, threads in the window, items coded, bridge, removed and dropped, orphans, uncoded stretches, the mean share of text under a code) and a key to the notation. Then one block per coded thread: id, title, hour opened, counts. Each item sits on a line with its Dewey coordinate, author and flair, time since its parent, score at retrieval, and its chunks in text order (a code id, or <code>na</code> for a passage passed over), then the labels. Runs of uncoded items are collapsed with a count.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>The coders' forest renderer, one per room; <code>build_store.py</code> copies it to <code>trees/</code> at stage 00.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>STANDING §1: "each coded thread as its reply tree, coded turns hung on it, gaps kept, dropped items counted in the header." A1 reads every room whole through it (<code>mem.py forest</code>). The header warns that scores and sticky flags are "snapshots weeks after the event, not facts about the week."</p>
+<h2 id="where">Where</h2>
+<p>Example: <a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/trees/armenia.md">trees/armenia.md</a>.</p>
+<p>Checked against: STANDING-INSTRUCTIONS.md §1, tools/build_store.py, tools/transitions.py, stages/STAGE-A1-reading-room-notes.md, trees/armenia.md.</p>
+</body>
+</html>

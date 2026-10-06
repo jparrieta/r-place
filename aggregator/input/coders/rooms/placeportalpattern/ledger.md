@@ -1,0 +1,51 @@
+# ledger — r/placeportalpattern
+
+The case lead's memory of the fleet, kept by the harness at every `collect` and extended by the lead by hand under each entry. A fork's lead reads it first. Nothing here is a code or a citation; it is what each slice left open, what its coder flagged, and what the lead decided at the time.
+
+## batch 01  hours +9.67 to +58.66  threads 88  (collected 2026-09-08T18:08:01Z)
+
+- disposed 88: coded 88, out of scope 0; codes 88; pointers 0
+- coded threads: 62prrp, 62psgw, 62psk9, 62pz8z, 62pzdu, 62q0y1, 62q22j, 62q3et, 62q3ge, 62q4b4, 62q4d3, 62q4iw, 62q76b, 62q88z, 62q8eu, 62qav5, 62qdek, 62qdmx, 62r8q9, 62rik3, 62ruti, 62ry9g, 62s8f1, 62svf6, 62t4rp, 62tcl4, 62tjut, 62tkcy, 62u4s7, 62urim, 62v94k, 62vieo, 62vk7c, 62vw08, 62vwt5, 62vy54, 62w35y, 62wh1a, 62wth4, 62wvga, 62x06w, 62x1b3, 62x5yd, 62x9dw, 62xb2o, 62xex9, 62xfpp, 62xi5v, 62xtw9, 62y0hw, 62y3xu, 62ybkg, 62ycf0, 62ychh, 62yjip, 62ykn0, 62ysc2, 62yyum, 62z8mu, 62zz44, 6308uz, 630c1y, 630od5, 630qr8, 630vr9, 630xib, 6317ml, 631f5r, 631r1i, 631vw6, 6325se, 632f79, 632g4p, 632icl, 632lp4, 632rz9, 632ty5, 632w11, 632xbe, 63342l, 6338d6, 6338nt, 633ccm, 633cnk, 633gvp, 633qqi, 633uyh, 6342jt
+- timeline.md +3: ## added from batch 01 | - d1 04-01 22:55 half2happy says they stickied the r/bopp stamp plan (dfpiqbb). | - d1 04-02 15:51 half2happy says they stickied the dark-background compromise plan (dfqbl8l).
+- lexicon.md +9: - Portal Pattern — 62prrp | - Naut theme — 62q3ge | - tesselation — 62q8eu | - r/bopp — dfph67m | - diamond bro — dfpkrwn | - Fluffhead — 62xex9 | - BNE — 62wth4 | - Buizel — dfprzgx | - darkened version of our pattern — 6308uz
+
+**Coder's final message.** Community: r/placeportalpattern. Batch: 01.  Starting edge: first slice; no inherited threads.  Ending edge: unresolved Void defense and debate over granting space to other communities.  Blocked: nothing.
+
+**Episodes the coder tagged [unresolved] or [inherited]** (from its case.md):
+- Late in the slice, requests for more space exposed a split between being the “wholesome memes of patterns” and refusing to become a background. Members alternately offered compact designs, demanded that additions blend in, or called the room “pushovers” for conceding territory (631f5r–632w11). The d
+- The Void then turned negotiated neighbors into defenders. Dwarf Fortress, Fluffhead, Buizel, Tiny TARDIS, and companion-cube contributors described helping maintain the pattern, while the room prioritized recognizable cyan tiles and called for every available pixel (63342l–6342jt). The final partner
+- Repeated requests for corners and lettering set off opposition to further concessions. “We didn't cooperate this hard to be a background” (632w11) answers the immediately preceding run of MMA, Ryerson, Portal, and Fluffhead requests, but the corpus does not show a final rule. [unresolved]
+- The Void attack set off reciprocal defense because earlier neighbors explicitly tied their help to past accommodation: the companion-cube maker says, “In return I will help r/bopp fight The Void mk. 3” (633uyh). The defense is still active at the slice edge. [unresolved]
+
+**Anomalies and leads** (from its notes.md):
+The timeline seeded by the harness includes a later post beyond this slice; I left that fact untouched and added only two explicit stickying statements observed inside the slice. A useful lead for the case lead is whether later threads settle the unresolved admission rule and whether reciprocal defense continues after placement ends.
+
+**Data problems** (from its notes.md):
+The pre-week brief is explicitly empty, so it offers no supported vernacular or ordinary-practice baseline. Twenty-seven bodies are marked deleted or removed in the corpus header. The surviving material is often enough to identify the proposal under discussion, but not its full design. Automated preview replies were recognizable as machinery and were not treated as community conduct.
+
+**Lead's strikes and remarks at collect:** No facts lines struck. The two timeline additions are bounded participant reports of stickying, each with an item id, rather than interpretations; all nine lexicon additions are unglossed room terms with first-use ids. Carry to step 5 the unresolved dispute over granting further space, the explicit reciprocal-defense claim, the empty pre-week baseline, and the limits created by deleted bodies and off-platform coordination. Record this no-strike review in final `notes.md`.
+## batch 02  hours +59.95 to +87.28  threads 29  (collected 2026-09-08T18:20:01Z)
+
+- disposed 29: coded 29, out of scope 0; codes 44; pointers 12
+- coded threads: 634fzf, 634m9r, 634q7k, 634rxk, 634swu, 634x88, 634xw3, 635b44, 635czf, 635e57, 6362gp, 63637u, 6366c9, 6369lm, 636kqv, 636pss, 636rbm, 637auw, 637lkt, 637ocv, 6384vt, 6388lv, 638cgu, 638gij, 639di2, 63anyu, 63axxi, 63ckpc, 63cnv4
+- timeline.md +13: ## added from batch 02 | - d2 04-03 03:57 louster200's “My Ideas” post is marked edited (634fzf). | - d2 04-03 11:14 The_Immoral_God's Dwarf Fortress greeting is marked edited after recognising the re | - d2 04-03 15:59 CrazyGoodDude's celebration is marked edited to note that place had ended (637ocv). | - d3 04-03 23:58 PaulboBrookins's pxls.space invitation is marked edited with new coordinates (63any | ## added from batch 02 | - d2 04-03 03:57 louster200's “My Ideas” post is marked edited (634fzf). | - d2 04-03 05:00 AbouBenAdhem's reply about the R approval and possible move is marked edited (dfrez | - d2 04-03 11:14 The_Immoral_God's Dwarf Fortress greeting is marked edited after learning the recol | - d2 04-03 14:03 PaulboBrookins's account of Indonesia, Dwarf Fortress, and Brazil is marked edited  | - d2 04-03 15:59 CrazyGoodDude's celebration is marked edited to note that r/place had ended (637ocv | - d3 04-03 17:56 half2happy's post proposing future challenges follows the end of placement (638gij) | - d3 04-03 23:58 PaulboBrookins's pxls.space invitation is marked edited with new coordinates (63any
+- lexicon.md +10: - portal-patterned dwarf — dfrlhx6 | - portal dwarf — 636pss | - Salami army — 636kqv | - PPPer's — 637ocv | - /r/place version 2 — dfs3cdw | - portal-patterned dwarf — dfrlhx6 | - portal dwarf — 636pss | - PPPer's — 637ocv | - version 2 — dfs3cdw | - portal-pattern-based maze — 63ckpc
+
+**Coder's final message.** r/place内面的矛盾是指一个人的内心同时存在两种相互冲突的想法、情感、欲望或价值判断。比如：  - 想追求稳定，却又渴望改变。 - 很爱一个人，同时又对他感到愤怒。 - 认为自己应该休息，却因休息而感到内疚。 - 想表达真实感受，又害怕因此被拒绝。  这种矛盾并不罕见，也不代表虚伪或不正常。它通常说明一个问题牵涉了多种真实需要。处理它时，可以分别写下双方在保护什么、害怕什么，以及各自需要付出的代价；不必急着消灭其中一方，而是寻找能同时照顾两边需求的选择。
+
+**Episodes the coder tagged [unresolved] or [inherited]** (from its case.md):
+- The slice opens amid inherited pressure on the pattern: earlier threads had already established fights over the void, neighbouring art, and requests for room. From 634fzf through 637auw, participants proposed bringing the pattern around existing art, negotiated with Dwarf Fortress and Indonesia, rej
+- From 6388lv through 63cnv4, people posted a knowingly late logo, proposed recurring pixel-art challenges, moved the pattern to pxls.space, made a Discord for other place-like canvases, taught a reusable maze variant, and planned to be more coordinated “next time.” Whether those successor venues stab
+- The request to protect the diamond in 634rxk drew a recollection that space had been ceded to Dwarf Fortress on condition that the diamond survive (dfrd9g5). [inherited]
+- Alarm that a dwarf was being attacked was answered in 63637u and 6366c9 by people naming a Discord-planned portal dwarf; a subsequent request for a plan image so members could assist shows the correction changing action. Because the planning occurred “yesterday,” its beginning lies before this slice
+- The dancer proposal in 637auw invoked a Brasil treaty; half2happy rejected it by recalling that an earlier torso was poorly received and noting the proposal lacked a drawing or size. [inherited]
+- The end of r/place prompted 638gij’s search for a next activity. A comment proposing Discord organisation for a “version 2” and later replies naming pxls.space led directly to reported coordinates and assistance there. Whether that successor organising persists cannot be seen here. [unresolved]
+- Post-event posts say the project survived through teamwork and friendship; comments add the labour details—tabbing over every five minutes, tending the pattern, and recognising familiar names. The future-project claim also begins in posts, but comments expose unstable successor sites and the need fo
+
+**Anomalies and leads** (from its notes.md):
+The header flags bots by account-name form; the content also makes mentionhelper plainly automatic even though its name does not end in “bot.” I coded no machine-generated passages. The successor canvases reset or failed according to comments, a useful lead for the case lead's cross-slice account.
+
+**Data problems** (from its notes.md):
+Deleted bodies limit 635czf, 6366c9, and 639di2, although their titles or replies remain usable. Off-platform organising is only partly visible. The pre-week brief is empty and makes no supported claims about ordinary vernacular or moderation. I found no facts-file reading masquerading as fact.
+
+**Lead's strikes and remarks at collect:** Struck the first batch-02 timeline heading and its four lines because that partial block duplicated facts in the complete second block. Struck the 638gij timeline line because “follows the end of placement” is a reading of sequence, not a sticky, moderator action, or edit. Struck the second occurrences of “portal-patterned dwarf,” “portal dwarf,” and “PPPer's,” plus the narrower “version 2,” because they duplicated retained lexicon entries (the fuller “/r/place version 2” remains). Retained the other additions as metadata-bounded edit facts or unglossed terms with item ids. The captured coder final message is unrelated Chinese text, but the scheduler marked the slice PASSED, so I did not redispatch and will rely on the substantive slice files. Carry to step 5 the cross-slice continuation of border/defense disputes, the correction of an apparent attack into a planned portal dwarf, the end-of-placement retrospective, and the move toward successor canvases; keep off-platform limits and the anomalous non-`bot` automatic account in view.

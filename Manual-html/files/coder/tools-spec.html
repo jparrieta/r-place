@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>The tools, one way across the tiers (TOOLS-SPEC.md)</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/tools-spec.md">Markdown source</a></nav>
+<h1 id="the-tools-one-way-across-the-tiers-tools-specmd">The tools, one way across the tiers (TOOLS-SPEC.md)</h1>
+<p>What the reading, citing and searching tools do the same way for the brief writer, the coder and the aggregator.</p>
+<p><strong>What it holds</strong></p>
+<p>The shared shell grammar, <code>python3 &lt;tool&gt;.py &lt;CORPUS&gt; &lt;verb&gt; [arg] [--flag ...]</code>, and the rule that a refusal prints one line and exits 2. The verbs <code>read.py</code> and <code>read_brief.py</code> share (<code>header</code>, <code>thread</code>, <code>item</code>, <code>state</code>) and the ones they do not (<code>windows</code> and <code>audit</code> for the coder; <code>titles</code> and <code>sample</code> for the brief writer). The read log <code>out/_read.jsonl</code>. <code>cite</code> and <code>find</code>, and the query log <code>&lt;record&gt;.queries.jsonl</code>. <code>emit</code>, coder only. What stays different and why. The aggregator's tools as they stood, with what is to be aligned at v37.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p>The instrument's author, as part of v32. Its author is not named.</p>
+<p><strong>Why it exists</strong></p>
+<p>"So that an agent that has used one is not surprised by another." A refusal "is the tool saying the call was wrong, never the tool breaking; a traceback is a defect."</p>
+<p><strong>Where</strong></p>
+<p><a href="../../../coder/instrument/v32/TOOLS-SPEC.md">TOOLS-SPEC.md</a>. Not copied into rooms by <code>newrun.py</code>.</p>
+<p>Checked against: TOOLS-SPEC.md, newrun.py</p>
+</body>
+</html>

@@ -1,0 +1,208 @@
+# timeline — r/thesilphroad
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+~~- d0 03-31 17:19 — dfnp29s is a moderator-distinguished reply directing readers to report duplicate or recently repeated event-speculation topics.~~
+- d0 03-31 17:19 — dfnp29s is moderator-distinguished.
+- d0 03-31 17:21 — 62mlg8 is marked edited.
+~~- d0 03-31 17:26 — dfnpgrf is marked edited; it says clickbait reaches Reddit and proposes a made-up shiny Magikarp claim.~~
+- d0 03-31 17:26 — dfnpgrf is marked edited.
+- d0 03-31 17:37 — 62mpd7 is marked edited.
+- d0 03-31 17:50 — dfnqqs0 is marked edited.
+- d0 03-31 18:11 — dfnrwen is marked edited.
+- d0 03-31 19:23 — 62nflb is marked edited.
+- d0 03-31 19:30 — dfnw7e7 is marked edited.
+- d0 03-31 19:30 — dfnw8no is marked edited.
+- d0 03-31 19:58 — dfnxqmp is marked edited.
+- d0 03-31 20:03 — dfnxzg3 is marked edited.
+- d0 03-31 20:28 — dfnzalk is marked edited.
+- d0 03-31 21:00 — 62o3ap is marked edited.
+- d0 03-31 21:14 — dfo1jmc is marked edited.
+- d0 03-31 21:29 — 62oaby is marked edited.
+- d0 03-31 21:30 — dfo2cmf is marked edited.
+- d0 03-31 21:39 — dfo2rdr is marked edited.
+- d0 03-31 21:54 — dfo3g6m is moderator-distinguished.
+- d0 03-31 22:12 — dfo49tg is moderator-distinguished.
+- d0 03-31 22:51 — dfo62ml is moderator-distinguished and stickied.
+- d0 03-31 23:02 — dfo6iwq is marked edited.
+- d0 03-31 23:13 — dfo718r is moderator-distinguished.
+- d0 03-31 23:32 — 62p2n6 is marked edited.
+- d0 03-31 23:34 — dfo7yei is marked edited.
+- d0 03-31 23:34 — 62p2zx is marked edited.
+- d0 04-01 00:41 — dfoauv6 is marked edited.
+- d0 04-01 01:28 — dfoctn1 is marked edited.
+- d0 04-01 02:08 — dfoehgo is marked edited.
+- d0 04-01 04:14 — dfoj933 is marked edited.
+- d0 04-01 08:03 — 62rgjp is marked edited.
+- d0 04-01 08:36 — dfoq0z8 is moderator-distinguished.
+- d0 04-01 09:40 — dfor6ze is marked edited.
+- d0 04-01 09:40 — dfor74b is marked edited.
+- d0 04-01 10:42 — dfosb5q is moderator-distinguished.
+- d0 04-01 10:44 — 62rzsu is marked edited.
+- d0 04-01 12:02 — dfotwug is marked edited.
+- d0 04-01 12:20 — dfoucl1 is moderator-distinguished.
+- d0 04-01 12:52 — 62siwv is marked edited.
+- d0 04-01 13:59 — 62suvs is marked edited.
+- d0 04-01 14:11 — dfoxo3p is marked edited.
+- d0 04-01 14:15 — dfoxsy1 is marked edited.
+- d0 04-01 15:18 — 62tb9g is marked edited.
+- d0 04-01 15:23 — dfp0e2s is marked edited.
+- d0 04-01 15:33 — 62tejl is marked edited.
+- d1 04-01 16:18 — 62tork is marked edited.
+- d1 04-01 16:42 — dfp3qxn is marked edited.
+- d1 04-01 16:51 — dfp459j is marked edited.
+- d1 04-01 16:52 — dfp45ft is marked edited.
+- d1 04-01 16:55 — dfp4axa is marked edited.
+- d1 04-01 16:57 — dfp4e0w is marked edited.
+- d1 04-01 16:58 — 62txnr is marked edited.
+- d1 04-01 16:59 — dfp4g9j is moderator-distinguished and stickied.
+- d1 04-01 17:00 — dfp4ih8 is marked edited.
+- d1 04-01 17:01 — dfp4k8x is marked edited.
+- d1 04-01 17:02 — dfp4ly6 is moderator-distinguished.
+- d1 04-01 17:06 — dfp4r34 is marked edited.
+- d1 04-01 17:07 — 62tzv7 is marked edited.
+- d1 04-01 17:11 — dfp4yj9 is marked edited.
+- d1 04-01 17:14 — dfp5329 is moderator-distinguished.
+- d1 04-01 17:18 — dfp59g0 is moderator-distinguished and stickied.
+- d1 04-01 17:20 — dfp5cnv is marked edited.
+- d1 04-01 17:21 — dfp5d9w is moderator-distinguished.
+- d1 04-01 17:27 — dfp5mif is marked edited.
+- d1 04-01 17:29 — 62u52y is marked edited.
+- d1 04-01 17:34 — dfp5xdd is marked edited.
+- d1 04-01 17:42 — dfp68r3 is marked edited.
+- d1 04-01 17:49 — dfp6ix6 is marked edited.
+- d1 04-01 17:54 — dfp6qv9 is marked edited.
+- d1 04-01 17:55 — dfp6s08 is marked edited.
+- d1 04-01 17:58 — dfp6xlj is marked edited.
+- d1 04-01 18:02 — dfp730b is marked edited.
+- d1 04-01 18:23 — 62uh3d is marked edited.
+- d1 04-01 18:26 — 62ui12 is marked edited.
+- d1 04-01 18:30 — dfp889h is marked edited.
+- d1 04-01 18:35 — dfp8gcd is marked edited.
+- d1 04-01 18:36 — 62uk8f is marked edited.
+- d1 04-01 18:39 — dfp8l7t is moderator-distinguished.
+- d1 04-01 18:41 — 62u7rf is marked edited.
+- d1 04-01 18:54 — 62uam9 is marked edited.
+- d1 04-01 19:24 — dfpafn9 is marked edited.
+- d1 04-01 19:33 — dfparc7 is marked edited.
+- d1 04-01 19:50 — 62v13v is marked edited.
+- d1 04-01 20:30 — dfpd1wa is marked edited.
+- d1 04-01 20:31 — dfpd33i is marked edited.
+- d1 04-01 20:32 — dfpd4bu is marked edited.
+- d1 04-01 20:32 — dfpd4su is marked edited.
+- d1 04-01 20:49 — dfpdtkl is marked edited.
+- d1 04-01 20:56 — 62vfkp is marked edited.
+- d1 04-01 21:32 — 62vnzv is marked edited.
+- d1 04-01 21:40 — dfpftbt is marked edited.
+- d1 04-01 21:55 — 62vtn1 is marked edited.
+- d1 04-01 22:00 — 62vupy is marked edited.
+- d1 04-01 22:03 — 62vvg8 is marked edited.
+- d1 04-01 22:53 — dfpin1y is marked edited.
+- d1 04-01 23:16 — dfpjkfm is marked edited.
+- d1 04-01 23:27 — dfpjzqj is marked edited.
+- d1 04-01 23:35 — dfpkb2h is marked edited.
+- d1 04-01 23:45 — 62wfp4 is marked edited.
+- d1 04-02 00:26 — dfpmduw is marked edited.
+- d1 04-02 00:32 — 62woot is marked edited.
+- d1 04-02 00:42 — dfpn12t is marked edited.
+- d1 04-02 00:44 — dfpn3wa is marked edited.
+- d1 04-02 00:49 — dfpnalw is marked edited.
+- d1 04-02 01:05 — dfpnw26 is marked edited.
+- d1 04-02 01:06 — dfpny0g is marked edited.
+- d1 04-02 01:17 — 62wx1s is marked edited.
+- d1 04-02 01:35 — dfpp2r2 is marked edited.
+- d1 04-02 01:38 — dfpp5wo is marked edited.
+- d1 04-02 01:47 — dfppics is marked edited.
+- d1 04-02 01:47 — 62x2j0 is marked edited.
+- d1 04-02 01:51 — dfpppb2 is marked edited.
+- d1 04-02 01:58 — dfppyfe is marked edited.
+- d1 04-02 02:04 — 62x5gv is marked edited.
+- d1 04-02 02:05 — dfpq7uy is marked edited.
+- d1 04-02 02:21 — dfpqsng is marked edited.
+- d1 04-02 02:23 — dfpqv8k is moderator-distinguished and stickied.
+- d1 04-02 02:24 — dfpqwf1 is marked edited.
+- d1 04-02 02:25 — dfpqxfn is marked edited.
+- d1 04-02 02:43 — dfprl0w is marked edited.
+- d1 04-02 02:48 — 62xcxs is marked edited.
+- d1 04-02 03:09 — dfpsine is marked edited.
+- d1 04-02 03:09 — dfpsiuq is marked edited.
+- d1 04-02 03:17 — 62xhof is marked edited.
+- d1 04-02 03:43 — dfptocv is marked edited.
+- d1 04-02 03:46 — 62xma1 is marked edited.
+- d1 04-02 04:07 — dfpufp4 is marked edited.
+- d1 04-02 05:58 — dfpxmhq is marked edited.
+- d1 04-02 06:16 — dfpy2e2 is marked edited.
+- d1 04-02 06:23 — dfpy7rg is marked edited.
+- d1 04-02 07:15 — 62yegb is marked edited.
+- d1 04-02 09:32 — 62yt6p is marked edited.
+- d1 04-02 11:27 — dfq3rob is marked edited.
+- d1 04-02 11:46 — dfq4413 is marked edited.
+- d1 04-02 12:01 — dfq4ewr is marked edited.
+- d1 04-02 12:11 — dfq4mug is marked edited.
+- d1 04-02 13:11 — dfq61pd is marked edited.
+- d1 04-02 13:44 — dfq6y03 is marked edited.
+- d1 04-02 15:22 — dfqadog is marked edited.
+- d1 04-02 15:27 — dfqaltc is marked edited.
+- d1 04-02 15:44 — dfqba0o is marked edited.
+- d2 04-02 16:15 — dfqcmm7 is marked edited.
+- d2 04-02 17:00 — dfqemps is marked edited.
+- d2 04-02 17:12 — dfqf7x0 is marked edited.
+- d2 04-02 17:31 — 630y1i is marked edited.
+- d2 04-02 17:41 — dfqgj5f is marked edited.
+- d2 04-02 18:36 — dfqj4w8 is moderator-distinguished.
+- d2 04-02 18:55 — dfqk0as is moderator-distinguished.
+- d2 04-02 19:40 — dfqm528 is marked edited.
+- d2 04-02 19:51 — 631szl is marked edited.
+- d2 04-03 00:02 — dfqy6u9 is marked edited.
+- d2 04-03 00:53 — dfr0nhb is moderator-distinguished.
+- d2 04-03 01:41 — dfr31km is marked edited.
+- d2 04-03 03:42 — dfr91su is marked edited.
+- d3 04-03 04:22 — dfrav8t is marked edited.
+- d2 04-03 04:26 — dfrb0i7 is marked edited.
+- d2 04-03 06:58 — dfrfkjx is marked edited.
+- d2 04-03 10:52 — 635zvt is marked edited.
+- d2 04-03 12:14 — 636de5 is marked edited.
+- d2 04-03 12:55 — dfrnyjd is marked edited.
+- d2 04-03 13:16 — dfroq43 is marked edited.
+- d2 04-03 13:47 — 636v0q is marked edited.
+- d2 04-03 15:01 — dfrtinf is moderator-distinguished.
+- d2 04-03 15:13 — 637e6i is marked edited.
+- d2 04-03 15:18 — 637fb7 is marked edited.
+- d2 04-03 15:33 — 637iit is marked edited.
+- d2 04-03 15:37 — dfrvb2n is marked edited.
+- d3 04-03 18:04 — dfs2wf4 is moderator-distinguished and stickied.
+- d3 04-03 18:19 — dfs3pzm is marked edited.
+- d3 04-03 21:06 — 639lag is marked edited.
+- d3 04-03 21:46 — 639wk4 is marked edited.
+- d3 04-03 21:48 — dfsegkd is marked edited.
+- d3 04-03 21:48 — dfseh35 is marked edited.
+- d3 04-03 22:34 — 63a77a is marked edited.
+- d3 04-03 22:56 — dfshtn6 is marked edited.
+- d3 04-03 22:56 — 63ablu is marked edited.
+- d3 04-03 22:59 — dfshz27 is marked edited.
+- d3 04-04 00:42 — dfsn00q is marked edited.
+- d3 04-04 02:36 — 63bhwq is marked edited.
+- d3 04-04 03:09 — dfsu8tl is marked edited.
+- d3 04-04 03:25 — dfsuz9d is moderator-distinguished.
+- d3 04-04 04:33 — dfsxo27 is marked edited.
+- d3 04-04 05:15 — dfsz24v is marked edited.
+- d3 04-04 05:51 — dft02zo is marked edited.
+- d3 04-04 06:15 — 63cg3c is marked edited.
+- d3 04-04 08:42 — 63cxl8 is marked edited.
+- d3 04-04 09:23 — dft4oyk is marked edited.
+- d3 04-04 10:23 — dft5ugh is marked edited.
+- d3 04-04 10:30 — dft601a is moderator-distinguished.
+- d3 04-04 10:39 — 63dbs6 is marked edited.
+- d3 04-04 10:48 — 63dd2y is marked edited.
+- d3 04-04 11:11 — 63dgbq is marked edited.
+- d3 04-04 11:25 — dft79dj is marked edited.
+- d3 04-04 11:49 — dft7xjd is marked edited.
+- d3 04-04 12:31 — dft99zu is marked edited.
+- d3 04-04 12:33 — dft9bhy is marked edited.
+- d3 04-04 12:45 — dft9rnd is marked edited.
+- d3 04-04 13:30 — 63e3pj is marked edited.
+- d3 04-04 13:34 — dftbpyw is marked edited.
+- d3 04-04 13:36 — 63e4zi is marked edited.
+- d3 04-04 14:54 — dftfl4t is marked edited.
+- d4 04-04 16:00 — dftj6k9 is marked edited.
+- d4 04-04 16:30 — dftkwdh is marked edited.

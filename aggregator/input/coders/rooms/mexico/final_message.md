@@ -1,0 +1,1 @@
+r/mexico — branch B; verdict: full. Saturated for the visible Reddit arc from planning through remembrance; not saturated for off-platform decisions or removed and image-only material. Blockers: none.

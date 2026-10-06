@@ -1,0 +1,1 @@
+r/weezer — branch B; verdict: full. Thematic saturation: later material repeated core practices while adding distinct post-event welcoming and recommending. Evidentiary saturation: the visible case is coherent, but split reading, unavailable Discord discussion, and missing image/deleted content limit consensus and causal claims. Blockers: none.

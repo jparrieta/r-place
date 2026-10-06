@@ -1,0 +1,85 @@
+{
+ "mcgillrobotics": {
+  "counts": {
+   "threads_given": 2,
+   "threads_with_codes": 2,
+   "items": 2,
+   "coded": 2,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 0,
+   "orphans": 0,
+   "na_stretches": 1,
+   "coverage_of_coded_items": 0.91,
+   "threads_total_in_window": 2
+  },
+  "index": {
+   "632v02": {
+    "0": {
+     "thread_id": "632v02",
+     "item_id": "632v02",
+     "parent_id": null,
+     "author": "ynhnwn",
+     "created_utc": 1491173498,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001",
+      "c0002",
+      "c0003",
+      "c0004",
+      "c0005"
+     ],
+     "labels": [
+      "placing the logo at (123, 265) near the Canadian flag",
+      "asking for any help with the logo",
+      "announcing that r/place has come to an end",
+      "thanking everyone that participated",
+      "celebrating WE DID IT REDDIT"
+     ],
+     "sequence": [
+      "na",
+      "c0001",
+      "c0002",
+      "c0003",
+      "c0004",
+      "c0005"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "edited": 1491239594,
+      "score": 5,
+      "retrieved_on": 1494554453
+     }
+    }
+   },
+   "638658": {
+    "0": {
+     "thread_id": "638658",
+     "item_id": "638658",
+     "parent_id": null,
+     "author": "ynhnwn",
+     "created_utc": 1491239731,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "celebrating We did it"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494557127
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1 @@
+r/osugame — **full**. Practice saturation: later slices mostly repeated established building, coordination, negotiation, conflict, moderation, and remembrance practices. Record saturation: incomplete because no reader held the whole week and off-platform organizing, removals, images, and boundary-crossing threads remain partly visible. Nothing blocked completion.

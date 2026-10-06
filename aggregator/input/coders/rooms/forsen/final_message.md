@@ -1,0 +1,1 @@
+r/forsen — branch B; verdict: full. Record saturation: complete, limited by deletions, linked media, and off-platform venues. Thematic saturation: mostly early; later slices added contested warrior-play and successor projects. Blockers: none.

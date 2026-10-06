@@ -1,0 +1,96 @@
+{
+ "sub": "czech",
+ "built": "2026-09-06T16:50:57Z",
+ "instrument": "v32",
+ "items_in_window": 672,
+ "items_by_people": 663,
+ "chars_by_people": 61000,
+ "threads": 85,
+ "preweek_items": 170,
+ "brief": "present",
+ "expected_branch": "B",
+ "expected_slices": 2,
+ "stage": "verified",
+ "log": [],
+ "notes": [
+  {
+   "at": "2026-09-07T18:43:11.988741+00:00",
+   "note": "Brief written in /Users/arrieta/Documents/ChatGPT/place Yard/atlas_yard/rooms/czech/brief; full transcript retained; paths relocated and source-side validation rerun. Queue rank 41"
+  },
+  {
+   "at": "2026-09-07T22:00:26Z",
+   "note": "Started native case lead using lead-calibration-v1; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-08T13:15:16.748593+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  },
+  {
+   "at": "2026-09-08T14:34:19.348067+00:00",
+   "note": "Restored compressed case-lead store for continuation."
+  },
+  {
+   "at": "2026-09-08T14:34:19Z",
+   "note": "Forking clean checkpoint after-fleet for lead repair: FAILED (1):\n  - E5  notes.md does not repeat the gate (branch B, threshold, the counts)\n"
+  },
+  {
+   "at": "2026-09-08T14:34:24Z",
+   "note": "Fresh case lead fork is correcting the preserved run-check defect."
+  },
+  {
+   "at": "2026-09-08T14:54:34Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Documents/Codex/rplace/atlas_yard/_lead_sessions/czech-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-08T14:55:15.295080+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:32Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "agents": [
+  {
+   "role": "brief writer",
+   "model": "gpt-5.6-sol",
+   "agent_id": "01a07ca3-5d7a-7161-b437-d9b587e026e8",
+   "started": "2026-09-07T16:11:16.477940+00:00",
+   "ended": "2026-09-07T16:33:30.064118+00:00",
+   "attempt": 1,
+   "transcript": "full platform transcript"
+  }
+ ],
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-07T18:43:12Z",
+ "brief_validation_digest": "c89f323ecb470c91d384c154b7dcfa8ac6d3b725e41b7707c5f6e774539ec95b",
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "coding_audit": "/Users/arrieta/Documents/Codex/rplace/atlas_yard/_lead_sessions/czech-gpt56-calibration-v1/audit/scheduler-1788818556881482000",
+ "model": "gpt-5.6-sol",
+ "fingerprint": "e895de451c0cfc1d",
+ "branch": "B",
+ "slices": 2,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 295,
+ "themes": 15,
+ "verified_utc": "2026-09-08T14:54:34Z",
+ "finished": "2026-09-08T14:54:33.633455+00:00",
+ "carried": "run",
+ "reported_total_tokens": 8281026,
+ "lead_archive": "/Users/arrieta/Documents/Codex/rplace/atlas_yard/_lead_sessions/czech-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "3e488a0fbf87317bccad863bff861125b14ecdb7b96e4a6c6d451db2c6d8b38e",
+ "lead_archive_bytes": 104100855,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/czech/run.tar.zst",
+ "run_archive_sha256": "c29ea8bd9e30c91732e1abefaddee8fd6114fbb7fe93ad5ec9b882e229122077",
+ "run_archive_bytes": 685025,
+ "run_archived_utc": "2026-09-25T13:43:45.332464+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/czech/materials.tar.zst",
+ "materials_archive_sha256": "9ee38ee67bbd9f90c2e98d09e0b3993373fd40282a0f012c0831ba380fcb397b",
+ "materials_archive_bytes": 486454,
+ "materials_archived_utc": "2026-09-25T13:52:38.051484+00:00"
+}

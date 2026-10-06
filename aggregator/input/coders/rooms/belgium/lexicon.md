@@ -1,0 +1,28 @@
+# lexicon — r/belgium
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- brown pole (62nd7r)
+- God mode (dfo3ks1)
+- Monotonous Monday (62oslm)
+- bufferstate (62s2of)
+- The Charge of the Lintbebouwing Brigade (dfpctl2)
+- Belgian refugee centre (dfpdxkq)
+- SaveTheArt (dfpfhdc)
+- operation annexation (dfq04d1)
+- Belombia (dfq2w0e)
+- Belgian-German merger (dfq3wom)
+- beer tap (dfq3t0s)
+- joined beer (dfq5p3v)
+- flag combo (dfrf1t6)
+- place clutter (dfrka8f)
+- cultural war (dfrmq2h)
+- OPERATION ATOMIUM (dfrk95g)
+- Fireworks over the Atomium (dfs3q9n)
+- Designated Shitting Street (dfs5cml)
+- hearth (63639i)
+- orange scourge (dfs16on)
+- saffron shitstain (dfs3hie)
+- proxy warfare (dft1b2s)
+- designated street (63bndh)
+- orange bow flag (dfsxxjx)

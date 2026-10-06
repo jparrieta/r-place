@@ -1,0 +1,3 @@
+# PI decisions for this instrument revision
+
+2026-10-01. D2 resumes original case leads with native histories and matching files. Each stage and leg retains a full native checkpoint; notes index the history rather than replacing it. Validate supported exceptions in each local model and adaptation. Substantively aligned adaptations warrant clusters; repeated corrections are not failures. Global composition requires limited shared adaptation; local models should explain each evidenced case exactly, with uncertainty named. Current coverage is 696, eventual target 708; compute the built frame rather than assuming target coverage. Source proposal is delivered at E2 so its framing does not dictate findings.

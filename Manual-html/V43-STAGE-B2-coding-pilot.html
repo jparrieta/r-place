@@ -1,0 +1,158 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage B2. Assignment: the pilot.</h1>
+<p>**Model:** build and check legs as <code>arm.json</code> sets (your platform file lists them); dispatch outside your session, the dispatch sending packets to</p>
+<p>the routine readers on the platform&#x27;s reader route (FLEET.md). **Legs:** per round, build, dispatch,</p>
+<p>check; the check leg of round k decides whether round k+1 opens. **This stage freezes the scheme.**</p>
+<p>You hand it, with a small set of deliberately hard second-order themes, to fresh readers, and</p>
+<p>treat every divergence as a defect in the description rather than in the reader.</p>
+<p>**Steps:** <code>B2a-r1</code> build round 1 (it ends at <code>--cut packets-out</code>), the dispatch, <code>B2b-r1</code> check round 1; then <code>B2a-r2</code>, <code>B2b-r2</code> ... while a round is needed; after the freeze, <code>B2c</code> builds the gold round and</p>
+<p>the two stability rounds (it ends at <code>--cut packets-out</code>), three dispatches, and <code>B2d</code> checks them. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after the packets are written (the build leg), and after each section of the check leg. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh B2 --pause</code> (STANDING §2).</p>
+<p>**Startup packet:** <code>_head.md</code>, this file, <code>FLEET.md</code>, the last five diary entries,</p>
+<p><code>validate.py --open B2</code>. In a check leg the harness adds one line: the readers left their files</p>
+<p>in <code>_fleet_raw/B2/round-k/</code>.</p>
+<p>**Reads allowed:** <code>scheme.md</code>, <code>scheme.jsonl</code>, <code>families.jsonl</code>, <code>confusions.md</code>, <code>notes-B1.md</code>;</p>
+<p>the corpus through <code>cite.py</code>; second-order themes through <code>mem.py theme</code>, concepts through</p>
+<p><code>codes --sub</code>; <code>_fleet_raw/B2/</code> in check legs. **Forbidden:** your room notes, the running file</p>
+<p>and <code>findings.jsonl</code> to any reader; <code>gold_items.jsonl</code> to any reader; exemplars to any reader in</p>
+<p>this stage.</p>
+<p>**Outputs:** <code>author_items.jsonl</code>; <code>gold_items.jsonl</code>; <code>RETURN-B2.md</code>; <code>pilot_rounds.jsonl</code>;</p>
+<p><code>scheme_edits.jsonl</code>; <code>exemplar_candidates.jsonl</code>; <code>stability-B2.md</code>; <code>pilot_report.md</code>; the</p>
+<p>frozen <code>scheme_final.md</code> and <code>scheme_final.jsonl</code>; <code>notes-B2.md</code>; a <code>run_manifest.json</code> entry.</p>
+<h2>1. Build leg, round 1: the hard set, the gold set, the declarations</h2>
+<p>**Place every item yourself first**, into <code>author_items.jsonl</code>, each with <code>confidence</code></p>
+<p>(<code>clear|arguable</code>), which stage B4&#x27;s transmission rows split on, before any packet exists.</p>
+<p>Whether a reader holding only the scheme lands where you would have landed has an answer only if</p>
+<p>your answers were written down first; a scheme edited with your own placements in front of you</p>
+<p>is edited to justify them. Three sources, mixed and shuffled so a reader cannot tell them apart,</p>
+<p>sizes declared in <code>notes-B2.md</code> before round 1: the second-order themes you nominated in</p>
+<p><code>confusions.md</code> to expose each ranked pair, at least half sibling pairs inside one family, since</p>
+<p>that is where a scheme of hundreds divides readers (the pilot scores that prediction); the ten</p>
+<p>biggest bags from <code>notes-B1.md</code>; a random sample, seeded and recorded. Forty to sixty items.</p>
+<p>**The gold set**: a second hard set by the same rule and seed discipline, placed by you, shown to</p>
+<p>no pilot reader, written to <code>gold_items.jsonl</code> with placements, confidence and reasons, and kept</p>
+<p>outside the readers&#x27; directory (FLEET.md). It is scored once, after the last round (§5). Stage B3</p>
+<p>seeds it unannounced into the live batches at the rate you declare.</p>
+<p>**Declared before round 1, in <code>notes-B2.md</code>:** the stopping threshold (pairwise agreement on the</p>
+<p>hard set at which rounds stop); the agreement definition stages B3 and B4 reuse unchanged</p>
+<p>(whether <code>[&quot;T3-004&quot;]</code> against <code>[&quot;T3-004&quot;,&quot;T3-011&quot;]</code> is agreement, disagreement or partial:</p>
+<p>agreement on sets by Jaccard where rule 0 allowed more than one placement, alpha computed on it;</p>
+<p>and whether chance correction is over themes, over sets, or over presence and absence per</p>
+<p>theme); the gold policy (count, seeding rate, and that they are seeded; never the items); the</p>
+<p>batch cap stage B3 runs under, set from §4 below after round 1.</p>
+<p>**<code>RETURN-B2.md</code>**, the one return specification (FLEET.md): the return line below, rule 0 in the</p>
+<p>contract&#x27;s words and not restated (a reader that places a second theme owes rule 0 its line in</p>
+<p><code>multiplacement_log.jsonl</code>, here as at stage B3), the end marker, and the line telling the reader</p>
+<p>to confirm it reached the marker. <code>packets.py B2</code> builds one packet per reader under the 50 KB</p>
+<p>ceiling: <code>scheme.jsonl</code> as it currently stands, served as stage B3 serves it, the index page</p>
+<p>whole and the families opened as the reader needs them; the hard set&#x27;s items with label,</p>
+<p><code>theme_note</code> and concepts; and no exemplars: stage B3 may ship them; this stage measures the</p>
+<p>description alone.</p>
+<pre><code>
+{&quot;sub&quot;: &quot;...&quot;, &quot;theme_id&quot;: &quot;...&quot;, &quot;batch&quot;: &quot;...&quot;, &quot;agent&quot;: &quot;...&quot;, &quot;replicate&quot;: 1, &quot;position&quot;: 23,
+
+ &quot;third_order&quot;: [&quot;T3-007&quot;], &quot;multi&quot;: false,
+
+ &quot;why&quot;: {&quot;T3-007&quot;: &quot;what about THIS theme put it here rather than its nearest neighbour&quot;},
+
+ &quot;confidence&quot;: &quot;clear|arguable&quot;, &quot;read&quot;: &quot;whole|theme-block&quot;, &quot;exemplar_read&quot;: null,
+
+ &quot;families_opened&quot;: [&quot;G03&quot;, &quot;G09&quot;], &quot;t_start&quot;: &quot;...&quot;, &quot;t&quot;: &quot;...&quot;, &quot;support&quot;: [&quot;c0013&quot;]}
+
+</code></pre>
+<p>Append the round&#x27;s manifest entry: readers&#x27; model, seed, decoding, count. Every later fidelity is</p>
+<p>compared against this stage&#x27;s figure. **Stop here.** Close with <code>done.sh B2 --cut packets-out</code>. Your session ends; nothing more of this stage runs on your model until the check leg. The dispatch runs without you, on the platform&#x27;s reader route. The next launch of stage B2 is the check leg, and its packet tells you one thing: the readers left their files in <code>_fleet_raw/B2/round-k/</code>.</p>
+<h2>2. Dispatch leg</h2>
+<p>Not yours. The dispatch sends each packet to three fresh readers, collects the returns into</p>
+<p><code>_fleet_raw/B2/round-k/</code>, validates them against <code>RETURN-B2.md</code>, reissues what fails the</p>
+<p>schema, and closes. Nothing in it reads your files. A partial return is not a return: its</p>
+<p>unwritten items are gaps, not verdicts, and are reissued; when reissues are exhausted the stage</p>
+<p>stops and you rebuild the packets (FLEET.md). No reader gets a stronger model for a hard item:</p>
+<p>readers are interchangeable or fidelity means nothing. In the check leg copy <code>fleet.py</code>&#x27;s</p>
+<p>counts into <code>notes-B2.md</code>: readers, reissues, durations. Counts, not readings.</p>
+<h2>3. Check leg: the three numbers and the edit</h2>
+<p>You are relaunched. Validate, then score, in this order: **fidelity** against</p>
+<p><code>author_items.jsonl</code>, the primary figure; **pairwise agreement** among the three readers,</p>
+<p>secondary, since three readers can agree with each other and all diverge from you; **your own</p>
+<p>consistency**, by re-placing ten of the hard set blind (after the last round only): if you</p>
+<p>disagree with yourself more than the readers disagree with you, the fleet is not the problem.</p>
+<p>Every item where any two disagree is a finding and the material for the edit. One line per round</p>
+<p>in <code>pilot_rounds.jsonl</code>:</p>
+<pre><code>
+{&quot;round&quot;: 1, &quot;n_items&quot;: 52, &quot;agents&quot;: 3, &quot;exemplars&quot;: false, &quot;fidelity_vs_author&quot;: 0.0,
+
+ &quot;agreement_pairwise&quot;: 0.0, &quot;alpha&quot;: 0.0, &quot;items_with_disagreement&quot;: [&quot;...&quot;], &quot;seed&quot;: 0}
+
+</code></pre>
+<p>**The edit, every one logged** in <code>scheme_edits.jsonl</code> with stage B4&#x27;s taxonomy, so the pilot and</p>
+<p>the run share one set of names: <code>scheme-ambiguous</code> (the belonging test or the discriminator does</p>
+<p>not decide; fix the sentence); <code>item-is-a-bag</code> (the coder&#x27;s theme holds two practices, so no</p>
+<p>single placement is right; not a scheme defect; flag the item and move on); <code>reader-error</code> (the</p>
+<p>file does decide and the reader missed it; suspect this last: two independent readers making the</p>
+<p>same miss is a scheme defect that looks like a reader error); <code>author-error</code> (you were wrong and</p>
+<p>the readers were right; a pilot that never returns it measures obedience); <code>genuine-joint</code> (the</p>
+<p>material satisfies two gates and one placement cannot carry it, rule 0&#x27;s exception on the record;</p>
+<p>check that the readers actually differed rather than one recording the exception).</p>
+<pre><code>
+{&quot;round&quot;: 1, &quot;theme&quot;: &quot;T3-007&quot;, &quot;field&quot;: &quot;must_not_show&quot;, &quot;caused_by&quot;: [&quot;sub/theme_id&quot;, &quot;...&quot;],
+
+ &quot;was&quot;: &quot;...&quot;, &quot;now&quot;: &quot;...&quot;,
+
+ &quot;why&quot;: &quot;two of three readers placed a coordination-of-labour item here because the test said nothing about who was named&quot;}
+
+</code></pre>
+<p>An edit with no <code>caused_by</code> is not allowed; stage C1 opens <code>scheme_edits.jsonl</code> before it</p>
+<p>revises anything. Every edit is a <code>tier_history</code> line with its move (<code>relabelled</code> or <code>rescoped</code>,</p>
+<p>move <code>asking questions</code> or <code>splitting</code>). **Never tighten by narrowing until a theme becomes</p>
+<p>rare**: it looks like success here and makes that theme&#x27;s prevalence wrong everywhere after.</p>
+<p>Watch every theme&#x27;s base rate across rounds and report it.</p>
+<p>Then decide: another round opens if no stopping condition holds (§5), and its build leg</p>
+<p>rebuilds the packets from the edited scheme.</p>
+<h2>4. Two things this stage owes the fleet</h2>
+<p>**How long a convention takes to form.** Compare each reader&#x27;s first ten items against its last</p>
+<p>ten on the arguable rate and on agreement with the other two; report where the curve flattens.</p>
+<p>If either still improves inside a round, formation is still happening and stage B3&#x27;s cap is too</p>
+<p>small; the fix is a warm-up block that does not count, not a bigger batch. **Which items make</p>
+<p>good exemplars.** Export the items that divided readers to <code>exemplar_candidates.jsonl</code>; stage</p>
+<p>B3&#x27;s exemplar arm draws from them, not from clear cases.</p>
+<h2>5. Stopping, the freeze, stability, the gold score</h2>
+<p>Rounds stop when one holds: a round produces no scheme edit; pairwise agreement on the hard set</p>
+<p>clears the declared threshold; four rounds. After four, a scheme that still divides three readers</p>
+<p>is telling you about the tier, not the wording: report it and carry it into B3.</p>
+<p>Freeze the scheme as <code>scheme_final.md</code> and <code>scheme_final.jsonl</code>, the rare tier inside it under</p>
+<p><code>&quot;tier&quot;: &quot;rare&quot;</code>, <code>families.jsonl</code> beside it. Then, in <code>B2c</code>, the dispatches on the frozen scheme:</p>
+<p>one round of fresh readers on the gold set (<code>packets.py B2 --round gold --items gold_items.jsonl</code>);</p>
+<p>and the **stability check** (FLEET.md), the gold set served to the same reader arm under two</p>
+<p>rewordings of the brief that change no test (<code>out/brief-stab-1.md</code> and <code>out/brief-stab-2.md</code>,</p>
+<p>written by you; <code>packets.py B2 --round stab-1 --items gold_items.jsonl --brief brief-stab-1.md</code>,</p>
+<p>and the same for 2), whose disagreement with itself is written to <code>stability-B2.md</code> and is the floor</p>
+<p>every later figure is read against. Report gold fidelity beside the last pilot round&#x27;s fidelity</p>
+<p>(close means clearer, much worse means fitted); pairwise agreement and alpha on the gold set</p>
+<p>beside the final round&#x27;s; per-family agreement, and per theme only where a theme has three or</p>
+<p>more items in the set, since at hundreds of themes over sixty items a per-theme figure is one</p>
+<p>item wide; your <code>confusions.md</code> predictions scored: which pairs confused readers, in what order,</p>
+<p>and how the observed rate compared with your estimate.</p>
+<p>Gold fidelity is a trend against this stage&#x27;s frozen figure, not a level: the set was drawn hard,</p>
+<p>and the figure is agreement with your own placements. Wherever a figure from this stage appears,</p>
+<p>say what it licenses in FLEET.md&#x27;s words, and which claim you are making: *what you would have</p>
+<p>produced at a scale one analyst cannot reach* is supported; *what any competent reader would have</p>
+<p>produced* is not.</p>
+<h2>6. <code>pilot_report.md</code></h2>
+<p>The rounds, with agreement climbing or not; every edit grouped by theme with the disagreement</p>
+<p>that caused it; the gold number beside the last pilot number and what the gap means; the</p>
+<p><code>author-error</code> verdicts, listed; the themes that never stabilised, named, with what stage B4</p>
+<p>should expect from them; the prediction scorecard; the stability figure; what it cost: readers,</p>
+<p>items, tokens.</p>
+<h2>Moments to log</h2>
+<p>Each declaration; each round opened and closed with its three numbers; each edit; the freeze;</p>
+<p>the stability result.</p>
+<h2>Final message</h2>
+<p>Rounds run; fidelity at round 1 and at the end; the gold figure with agreement and alpha</p>
+<p>beside it; the stability figure; <code>author-error</code> count; your blind re-placement score; edits by</p>
+<p>field; which predicted confusions were real; themes that did not stabilise; any theme whose</p>
+<p>base rate fell while tightened; the one sentence in the scheme you are least confident a</p>
+<p>stranger reads as you meant. A return value.</p>
+<h2>Close</h2>
+<p><code>done.sh B2</code> at every leg (its close-check is <code>validate.py B2</code>; paste the report into</p>
+<p><code>notes-B2.md</code>); <code>--cut packets-out</code> at every build leg; where a check leg&#x27;s edit recuts a theme, the move</p>
+<p>logged with <code>mem.py log --kind move</code> and snapped with <code>python3 tools/snap.py B2 move-&lt;move&gt;-&lt;n&gt;</code>; <code>handback-B2.md</code>; the head; the closing diary line.</p></html>

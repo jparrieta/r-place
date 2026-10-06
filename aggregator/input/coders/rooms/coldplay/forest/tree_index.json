@@ -1,0 +1,2482 @@
+{
+ "coldplay": {
+  "counts": {
+   "threads_given": 20,
+   "threads_with_codes": 20,
+   "items": 193,
+   "coded": 72,
+   "bridge": 28,
+   "removed": 0,
+   "dropped": 93,
+   "orphans": 0,
+   "na_stretches": 42,
+   "coverage_of_coded_items": 0.64,
+   "threads_total_in_window": 73
+  },
+  "index": {
+   "62ts1s": {
+    "0": {
+     "thread_id": "62ts1s",
+     "item_id": "62ts1s",
+     "parent_id": null,
+     "author": "TurboSquid719",
+     "created_utc": 1491064411,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001",
+      "c0002",
+      "c0003"
+     ],
+     "labels": [
+      "starting X&Y from its top-left pixel",
+      "calling for help when working alone",
+      "moving the X&Y build to a new location"
+     ],
+     "sequence": [
+      "na",
+      "c0001",
+      "c0002",
+      "c0003"
+     ],
+     "coverage": 0.62,
+     "meta": {
+      "edited": 1491088836,
+      "score": 31,
+      "link_flair_text": "Misc.",
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1494549854
+     }
+    },
+    "1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfp54r5",
+     "parent_id": "62ts1s",
+     "author": "gamedemon24",
+     "created_utc": 1491066925,
+     "dt_parent_sec": 2514,
+     "dt_thread_sec": 2514,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "promising to help with X&Y"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Magic",
+      "retrieved_on": 1493708956
+     }
+    },
+    "1.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfp55r7",
+     "parent_id": "dfp54r5",
+     "author": "TurboSquid719",
+     "created_utc": 1491066966,
+     "dt_parent_sec": 41,
+     "dt_thread_sec": 2555,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "thanking a promised helper"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493708969
+     }
+    },
+    "2": {
+     "thread_id": "62ts1s",
+     "item_id": "dfp5hu6",
+     "parent_id": "62ts1s",
+     "author": "TurboSquid719",
+     "created_utc": 1491067452,
+     "dt_parent_sec": 3041,
+     "dt_thread_sec": 3041,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "building the 16x16 blue square first"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 0.7,
+     "meta": {
+      "edited": 1491068692,
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493709132
+     }
+    },
+    "2.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfp69qc",
+     "parent_id": "dfp5hu6",
+     "author": "LMettrop",
+     "created_utc": 1491068571,
+     "dt_parent_sec": 1119,
+     "dt_thread_sec": 4160,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "warning not to paint over the green blocks"
+     ],
+     "sequence": [
+      "c0007",
+      "na"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "edited": 1491069283,
+      "score": 1,
+      "author_flair_text": "Prospekt's March EP",
+      "retrieved_on": 1493709505
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfp6ap2",
+     "parent_id": "dfp69qc",
+     "author": "TurboSquid719",
+     "created_utc": 1491068609,
+     "dt_parent_sec": 38,
+     "dt_thread_sec": 4198,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "clarifying which green blocks to leave"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493709518
+     }
+    },
+    "3": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpazzp",
+     "parent_id": "62ts1s",
+     "author": "LMettrop",
+     "created_utc": 1491075549,
+     "dt_parent_sec": 11138,
+     "dt_thread_sec": 11138,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "catching a one-column sizing error"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Prospekt's March EP",
+      "retrieved_on": 1493711784
+     }
+    },
+    "3.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpb1ge",
+     "parent_id": "dfpazzp",
+     "author": "TurboSquid719",
+     "created_utc": 1491075611,
+     "dt_parent_sec": 62,
+     "dt_thread_sec": 11200,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493711804
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpb4ge",
+     "parent_id": "dfpb1ge",
+     "author": "LMettrop",
+     "created_utc": 1491075741,
+     "dt_parent_sec": 130,
+     "dt_thread_sec": 11330,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Prospekt's March EP",
+      "retrieved_on": 1493711844
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpb4r1",
+     "parent_id": "dfpb4ge",
+     "author": "TurboSquid719",
+     "created_utc": 1491075753,
+     "dt_parent_sec": 12,
+     "dt_thread_sec": 11342,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493711848
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpb5gu",
+     "parent_id": "dfpb4r1",
+     "author": "LMettrop",
+     "created_utc": 1491075781,
+     "dt_parent_sec": 28,
+     "dt_thread_sec": 11370,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Prospekt's March EP",
+      "retrieved_on": 1493711858
+     }
+    },
+    "3.1.1.1.1.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpb7vg",
+     "parent_id": "dfpb5gu",
+     "author": "TurboSquid719",
+     "created_utc": 1491075881,
+     "dt_parent_sec": 100,
+     "dt_thread_sec": 11470,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "accepting that the design is too wide"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493711890
+     }
+    },
+    "4": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpbnok",
+     "parent_id": "62ts1s",
+     "author": "Qorinthian",
+     "created_utc": 1491076524,
+     "dt_parent_sec": 12113,
+     "dt_thread_sec": 12113,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "edited": 1491090476,
+      "score": 1,
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1493712103
+     }
+    },
+    "4.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpbyas",
+     "parent_id": "dfpbnok",
+     "author": "TurboSquid719",
+     "created_utc": 1491076972,
+     "dt_parent_sec": 448,
+     "dt_thread_sec": 12561,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493712246
+     }
+    },
+    "4.1.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpct4w",
+     "parent_id": "dfpbyas",
+     "author": "Qorinthian",
+     "created_utc": 1491078268,
+     "dt_parent_sec": 1296,
+     "dt_thread_sec": 13857,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1493712661
+     }
+    },
+    "4.1.1.1": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpd1bi",
+     "parent_id": "dfpct4w",
+     "author": "luxilion",
+     "created_utc": 1491078613,
+     "dt_parent_sec": 345,
+     "dt_thread_sec": 14202,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "making a temporary Discord for the project"
+     ],
+     "sequence": [
+      "c0011",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "edited": 1491078820,
+      "score": 1,
+      "author_flair_text": "White Shadows",
+      "retrieved_on": 1493712770
+     }
+    },
+    "4.2": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpf5du",
+     "parent_id": "dfpbnok",
+     "author": "TurboSquid719",
+     "created_utc": 1491081808,
+     "dt_parent_sec": 5284,
+     "dt_thread_sec": 17397,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "moving 26 pixels after a bear takes the spot"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 0.76,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493713794
+     }
+    },
+    "5": {
+     "thread_id": "62ts1s",
+     "item_id": "dfpcgz2",
+     "parent_id": "62ts1s",
+     "author": "LMettrop",
+     "created_utc": 1491077759,
+     "dt_parent_sec": 13348,
+     "dt_thread_sec": 13348,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "messaging tile painters to move their drawing"
+     ],
+     "sequence": [
+      "na",
+      "c0012"
+     ],
+     "coverage": 0.47,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Prospekt's March EP",
+      "retrieved_on": 1493712497
+     }
+    }
+   },
+   "62upn1": {
+    "0": {
+     "thread_id": "62upn1",
+     "item_id": "62upn1",
+     "parent_id": null,
+     "author": "TheSleepyHead",
+     "created_utc": 1491073216,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "link_flair_text": "af",
+      "author_flair_text": "Don't Panic",
+      "retrieved_on": 1494550324
+     }
+    },
+    "1": {
+     "thread_id": "62upn1",
+     "item_id": "dfpbljl",
+     "parent_id": "62upn1",
+     "author": "sorry1516",
+     "created_utc": 1491076439,
+     "dt_parent_sec": 3223,
+     "dt_thread_sec": 3223,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Parachutes",
+      "retrieved_on": 1493712074
+     }
+    },
+    "1.1": {
+     "thread_id": "62upn1",
+     "item_id": "dfpd3z5",
+     "parent_id": "dfpbljl",
+     "author": "Qorinthian",
+     "created_utc": 1491078723,
+     "dt_parent_sec": 2284,
+     "dt_thread_sec": 5507,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "leaving April Fools stuff up for a day"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 1,
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1493712805
+     }
+    }
+   },
+   "62vpfc": {
+    "0": {
+     "thread_id": "62vpfc",
+     "item_id": "62vpfc",
+     "parent_id": null,
+     "author": "TurboSquid719",
+     "created_utc": 1491082678,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0015",
+      "c0016",
+      "c0017"
+     ],
+     "labels": [
+      "recounting being forced to move the X&Y cover",
+      "finishing X&Y and starting Parachutes beside it",
+      "revising Parachutes to the available colors"
+     ],
+     "sequence": [
+      "na",
+      "c0015",
+      "na",
+      "c0016",
+      "na",
+      "c0017",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "edited": 1491153050,
+      "score": 25,
+      "link_flair_text": "Misc.",
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1494550829
+     }
+    },
+    "1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpftpg",
+     "parent_id": "62vpfc",
+     "author": "TurboSquid719",
+     "created_utc": 1491082847,
+     "dt_parent_sec": 169,
+     "dt_thread_sec": 169,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "asking moderators to sticky the move"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493714122
+     }
+    },
+    "2": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpg00q",
+     "parent_id": "62vpfc",
+     "author": "PmMePicsOfYourDog",
+     "created_utc": 1491083116,
+     "dt_parent_sec": 438,
+     "dt_thread_sec": 438,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "apologising for r/kanye's overlap"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493714207
+     }
+    },
+    "3": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpkjji",
+     "parent_id": "62vpfc",
+     "author": "msimo4",
+     "created_utc": 1491090056,
+     "dt_parent_sec": 7378,
+     "dt_thread_sec": 7378,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Ink",
+      "retrieved_on": 1493716408
+     }
+    },
+    "3.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpkmfw",
+     "parent_id": "dfpkjji",
+     "author": "[deleted]",
+     "created_utc": 1491090175,
+     "dt_parent_sec": 119,
+     "dt_thread_sec": 7497,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493716448
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfplb3z",
+     "parent_id": "dfpkmfw",
+     "author": "msimo4",
+     "created_utc": 1491091195,
+     "dt_parent_sec": 1020,
+     "dt_thread_sec": 8517,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Ink",
+      "retrieved_on": 1493716779
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpm84y",
+     "parent_id": "dfplb3z",
+     "author": "[deleted]",
+     "created_utc": 1491092566,
+     "dt_parent_sec": 1371,
+     "dt_thread_sec": 9888,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493717225
+     }
+    },
+    "3.1.1.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpmtnq",
+     "parent_id": "dfpm84y",
+     "author": "msimo4",
+     "created_utc": 1491093464,
+     "dt_parent_sec": 898,
+     "dt_thread_sec": 10786,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Ink",
+      "retrieved_on": 1493717515
+     }
+    },
+    "3.1.1.1.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpnd1u",
+     "parent_id": "dfpmtnq",
+     "author": "TurboSquid719",
+     "created_utc": 1491094270,
+     "dt_parent_sec": 806,
+     "dt_thread_sec": 11592,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493717777
+     }
+    },
+    "3.1.1.1.1.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpnpue",
+     "parent_id": "dfpnd1u",
+     "author": "msimo4",
+     "created_utc": 1491094827,
+     "dt_parent_sec": 557,
+     "dt_thread_sec": 12149,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Ink",
+      "retrieved_on": 1493717947
+     }
+    },
+    "3.1.1.1.1.1.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfppxbu",
+     "parent_id": "dfpnpue",
+     "author": "TurboSquid719",
+     "created_utc": 1491098252,
+     "dt_parent_sec": 3425,
+     "dt_thread_sec": 15574,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "moving a helper onto Discord"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493719016
+     }
+    },
+    "4": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpkry8",
+     "parent_id": "62vpfc",
+     "author": "Qorinthian",
+     "created_utc": 1491090407,
+     "dt_parent_sec": 7729,
+     "dt_thread_sec": 7729,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "edited": 1491166770,
+      "score": 1,
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1493716522
+     }
+    },
+    "4.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpnegi",
+     "parent_id": "dfpkry8",
+     "author": "TurboSquid719",
+     "created_utc": 1491094329,
+     "dt_parent_sec": 3922,
+     "dt_thread_sec": 11651,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "declaring a final empty location and calling all hands"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493717795
+     }
+    },
+    "4.2": {
+     "thread_id": "62vpfc",
+     "item_id": "dfq8e9c",
+     "parent_id": "dfpkry8",
+     "author": "TurboSquid719",
+     "created_utc": 1491143368,
+     "dt_parent_sec": 52961,
+     "dt_thread_sec": 60690,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "starting Parachutes next to X&Y"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493727930
+     }
+    },
+    "5": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpqfpn",
+     "parent_id": "62vpfc",
+     "author": "definethegreatline",
+     "created_utc": 1491099080,
+     "dt_parent_sec": 16402,
+     "dt_thread_sec": 16402,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "telling r/place they are not moving"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Ghost Stories (Deluxe Edition)",
+      "retrieved_on": 1493719265
+     }
+    },
+    "5.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpqgdv",
+     "parent_id": "dfpqfpn",
+     "author": "TurboSquid719",
+     "created_utc": 1491099112,
+     "dt_parent_sec": 32,
+     "dt_thread_sec": 16434,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493719274
+     }
+    },
+    "5.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpr3vn",
+     "parent_id": "dfpqgdv",
+     "author": "definethegreatline",
+     "created_utc": 1491100205,
+     "dt_parent_sec": 1093,
+     "dt_thread_sec": 17527,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Ghost Stories (Deluxe Edition)",
+      "retrieved_on": 1493719589
+     }
+    },
+    "5.1.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpv95c",
+     "parent_id": "dfpr3vn",
+     "author": "TurboSquid719",
+     "created_utc": 1491107571,
+     "dt_parent_sec": 7366,
+     "dt_thread_sec": 24893,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "compromising with northern neighbours on the location"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493721591
+     }
+    },
+    "6": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpvvlh",
+     "parent_id": "62vpfc",
+     "author": "Putnum",
+     "created_utc": 1491108816,
+     "dt_parent_sec": 26138,
+     "dt_thread_sec": 26138,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "trying to erase a letter and resenting an attacking complaint"
+     ],
+     "sequence": [
+      "c0080"
+     ],
+     "coverage": 0.68,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493721892
+     }
+    },
+    "6.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfpw3z1",
+     "parent_id": "dfpvvlh",
+     "author": "TurboSquid719",
+     "created_utc": 1491109297,
+     "dt_parent_sec": 481,
+     "dt_thread_sec": 26619,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "settling boundaries with neighbours"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493722003
+     }
+    },
+    "7": {
+     "thread_id": "62vpfc",
+     "item_id": "dfq8sk2",
+     "parent_id": "62vpfc",
+     "author": "The_Orange_Bird",
+     "created_utc": 1491144048,
+     "dt_parent_sec": 61370,
+     "dt_thread_sec": 61370,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Life In Technicolor II",
+      "retrieved_on": 1493728120
+     }
+    },
+    "7.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfq8ura",
+     "parent_id": "dfq8sk2",
+     "author": "TurboSquid719",
+     "created_utc": 1491144154,
+     "dt_parent_sec": 106,
+     "dt_thread_sec": 61476,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493728149
+     }
+    },
+    "7.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfq92qt",
+     "parent_id": "dfq8ura",
+     "author": "The_Orange_Bird",
+     "created_utc": 1491144516,
+     "dt_parent_sec": 362,
+     "dt_thread_sec": 61838,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Life In Technicolor II",
+      "retrieved_on": 1493728256
+     }
+    },
+    "7.1.1.1": {
+     "thread_id": "62vpfc",
+     "item_id": "dfq93jo",
+     "parent_id": "dfq92qt",
+     "author": "TurboSquid719",
+     "created_utc": 1491144554,
+     "dt_parent_sec": 38,
+     "dt_thread_sec": 61876,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "proposing a straw poll over the green letters"
+     ],
+     "sequence": [
+      "na",
+      "c0025"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493728267
+     }
+    },
+    "8": {
+     "thread_id": "62vpfc",
+     "item_id": "dfqjwtu",
+     "parent_id": "62vpfc",
+     "author": "TheSavage_",
+     "created_utc": 1491159181,
+     "dt_parent_sec": 76503,
+     "dt_thread_sec": 76503,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "fighting to maintain the little CP"
+     ],
+     "sequence": [
+      "c0026",
+      "na"
+     ],
+     "coverage": 0.57,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733494
+     }
+    },
+    "9": {
+     "thread_id": "62vpfc",
+     "item_id": "dfqk7cf",
+     "parent_id": "62vpfc",
+     "author": "definethegreatline",
+     "created_utc": 1491159558,
+     "dt_parent_sec": 76880,
+     "dt_thread_sec": 76880,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "bringing the Discord proposal for oxfam.org back to Reddit"
+     ],
+     "sequence": [
+      "c0027",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Ghost Stories (Deluxe Edition)",
+      "retrieved_on": 1493733634
+     }
+    }
+   },
+   "62wg3v": {
+    "0": {
+     "thread_id": "62wg3v",
+     "item_id": "62wg3v",
+     "parent_id": null,
+     "author": "xXLaudronXx",
+     "created_utc": 1491090470,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "claiming the space because they were building there first"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494551196
+     }
+    }
+   },
+   "62yaz4": {
+    "0": {
+     "thread_id": "62yaz4",
+     "item_id": "62yaz4",
+     "parent_id": null,
+     "author": "Qorinthian",
+     "created_utc": 1491115555,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "celebrating making bare minimum"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 108,
+      "link_flair_text": "Misc.",
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1494552124
+     }
+    },
+    "1": {
+     "thread_id": "62yaz4",
+     "item_id": "dfpz3rj",
+     "parent_id": "62yaz4",
+     "author": "Qorinthian",
+     "created_utc": 1491116573,
+     "dt_parent_sec": 1018,
+     "dt_thread_sec": 1018,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "switching from building to maintenance"
+     ],
+     "sequence": [
+      "na",
+      "c0030",
+      "na"
+     ],
+     "coverage": 0.02,
+     "meta": {
+      "edited": 1491166761,
+      "score": 4,
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1493723445
+     }
+    },
+    "2": {
+     "thread_id": "62yaz4",
+     "item_id": "dfpzut4",
+     "parent_id": "62yaz4",
+     "author": "msimo4",
+     "created_utc": 1491118729,
+     "dt_parent_sec": 3174,
+     "dt_thread_sec": 3174,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "treating completion as room to add more"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Ink",
+      "retrieved_on": 1493723810
+     }
+    }
+   },
+   "62yobu": {
+    "0": {
+     "thread_id": "62yobu",
+     "item_id": "62yobu",
+     "parent_id": null,
+     "author": "Qorinthian",
+     "created_utc": 1491122752,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "celebrating visible progress"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "link_flair_text": "Misc.",
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1494552309
+     }
+    },
+    "1": {
+     "thread_id": "62yobu",
+     "item_id": "dfq1lhq",
+     "parent_id": "62yobu",
+     "author": "higilo",
+     "created_utc": 1491124515,
+     "dt_parent_sec": 1763,
+     "dt_thread_sec": 1763,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493724646
+     }
+    },
+    "1.1": {
+     "thread_id": "62yobu",
+     "item_id": "dfq2h7v",
+     "parent_id": "dfq1lhq",
+     "author": "msimo4",
+     "created_utc": 1491127814,
+     "dt_parent_sec": 3299,
+     "dt_thread_sec": 5062,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "explaining that Straya made the art move"
+     ],
+     "sequence": [
+      "c0033",
+      "na"
+     ],
+     "coverage": 0.47,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Ink",
+      "retrieved_on": 1493725071
+     }
+    }
+   },
+   "62yt1j": {
+    "0": {
+     "thread_id": "62yt1j",
+     "item_id": "62yt1j",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491125444,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "asking r/straya not to ruin X&Y"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "score": 10,
+      "link_flair_text": "Misc.",
+      "retrieved_on": 1494552374
+     }
+    },
+    "1": {
+     "thread_id": "62yt1j",
+     "item_id": "dfq24jk",
+     "parent_id": "62yt1j",
+     "author": "motopig58",
+     "created_utc": 1491126478,
+     "dt_parent_sec": 1034,
+     "dt_thread_sec": 1034,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "offering r/straya's help moving the art"
+     ],
+     "sequence": [
+      "c0035",
+      "na"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493724902
+     }
+    },
+    "1.1": {
+     "thread_id": "62yt1j",
+     "item_id": "dfq24u8",
+     "parent_id": "dfq24jk",
+     "author": "abnormaldoggo",
+     "created_utc": 1491126509,
+     "dt_parent_sec": 31,
+     "dt_thread_sec": 1065,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "thanking the offered Straya help"
+     ],
+     "sequence": [
+      "c0036"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "author_flair_text": "God Put A Smile Upon Your Face",
+      "retrieved_on": 1493724906
+     }
+    }
+   },
+   "62yur6": {
+    "0": {
+     "thread_id": "62yur6",
+     "item_id": "62yur6",
+     "parent_id": null,
+     "author": "Lochyd123",
+     "created_utc": 1491126425,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "announcing that r/straya will help move the art"
+     ],
+     "sequence": [
+      "c0037"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "score": 9,
+      "link_flair_text": "thank you!",
+      "retrieved_on": 1494552397
+     }
+    },
+    "1": {
+     "thread_id": "62yur6",
+     "item_id": "dfqd1jw",
+     "parent_id": "62yur6",
+     "author": "Qorinthian",
+     "created_utc": 1491150275,
+     "dt_parent_sec": 23850,
+     "dt_thread_sec": 23850,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "thanking r/straya as kangaroos"
+     ],
+     "sequence": [
+      "c0038"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 3,
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1493730170
+     }
+    }
+   },
+   "62z0yh": {
+    "0": {
+     "thread_id": "62z0yh",
+     "item_id": "62z0yh",
+     "parent_id": null,
+     "author": "msimo4",
+     "created_utc": 1491129844,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0039",
+      "c0040",
+      "c0041"
+     ],
+     "labels": [
+      "calling for more help at r/place",
+      "recounting Straya asking them to move for its carton",
+      "recruiting people through Discord to claim the Coldplay area"
+     ],
+     "sequence": [
+      "c0039",
+      "na",
+      "c0040",
+      "na",
+      "c0041"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "edited": 1491130064,
+      "score": 3,
+      "link_flair_text": "please help!",
+      "author_flair_text": "Ink",
+      "retrieved_on": 1494552481
+     }
+    }
+   },
+   "62zgn7": {
+    "0": {
+     "thread_id": "62zgn7",
+     "item_id": "62zgn7",
+     "parent_id": null,
+     "author": "nz-is-beautiful",
+     "created_utc": 1491137402,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 23,
+      "link_flair_text": "Misc.",
+      "retrieved_on": 1494552702
+     }
+    },
+    "1": {
+     "thread_id": "62zgn7",
+     "item_id": "dfq5irr",
+     "parent_id": "62zgn7",
+     "author": "nz-is-beautiful",
+     "created_utc": 1491137471,
+     "dt_parent_sec": 69,
+     "dt_thread_sec": 69,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "starting a border for Parachutes beside X&Y"
+     ],
+     "sequence": [
+      "c0042",
+      "na"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493726540
+     }
+    },
+    "1.1": {
+     "thread_id": "62zgn7",
+     "item_id": "dfq6j8i",
+     "parent_id": "dfq5irr",
+     "author": "FieldKnight",
+     "created_utc": 1491139786,
+     "dt_parent_sec": 2315,
+     "dt_thread_sec": 2384,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "adding the black foundation"
+     ],
+     "sequence": [
+      "c0044",
+      "na"
+     ],
+     "coverage": 0.45,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Viva la Vida or Death and All His Friends",
+      "retrieved_on": 1493727034
+     }
+    },
+    "2": {
+     "thread_id": "62zgn7",
+     "item_id": "dfq5k3k",
+     "parent_id": "62zgn7",
+     "author": "msimo4",
+     "created_utc": 1491137561,
+     "dt_parent_sec": 159,
+     "dt_thread_sec": 159,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "confirming the Parachutes plan came from Discord"
+     ],
+     "sequence": [
+      "c0043",
+      "na"
+     ],
+     "coverage": 0.4,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Ink",
+      "retrieved_on": 1493726558
+     }
+    }
+   },
+   "62zp5q": {
+    "0": {
+     "thread_id": "62zp5q",
+     "item_id": "62zp5q",
+     "parent_id": null,
+     "author": "LMettrop",
+     "created_utc": 1491140781,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "showing the final X&Y picture"
+     ],
+     "sequence": [
+      "c0045"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 41,
+      "link_flair_text": "Misc.",
+      "author_flair_text": "Prospekt's March EP",
+      "retrieved_on": 1494552819
+     }
+    }
+   },
+   "62zp9i": {
+    "0": {
+     "thread_id": "62zp9i",
+     "item_id": "62zp9i",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491140811,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "showing the final X&Y result"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552820
+     }
+    }
+   },
+   "631c6z": {
+    "0": {
+     "thread_id": "631c6z",
+     "item_id": "631c6z",
+     "parent_id": null,
+     "author": "Qorinthian",
+     "created_utc": 1491158124,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "celebrating two albums on r/place"
+     ],
+     "sequence": [
+      "c0047"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 89,
+      "link_flair_text": "Misc.",
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1494553647
+     }
+    },
+    "1": {
+     "thread_id": "631c6z",
+     "item_id": "dfqj4aq",
+     "parent_id": "631c6z",
+     "author": "Qorinthian",
+     "created_utc": 1491158167,
+     "dt_parent_sec": 43,
+     "dt_thread_sec": 43,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "letting the finished ARoBttH die"
+     ],
+     "sequence": [
+      "na",
+      "c0048",
+      "na"
+     ],
+     "coverage": 0.05,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "edited": 1491174793,
+      "score": 1,
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1493733110
+     }
+    },
+    "2": {
+     "thread_id": "631c6z",
+     "item_id": "dfqjfjt",
+     "parent_id": "631c6z",
+     "author": "olster118",
+     "created_utc": 1491158575,
+     "dt_parent_sec": 451,
+     "dt_thread_sec": 451,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "working out how to pixelate AROBTTH"
+     ],
+     "sequence": [
+      "c0049",
+      "na"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "edited": 1491163576,
+      "score": 4,
+      "author_flair_text": "A Rush of Blood to the Head",
+      "retrieved_on": 1493733263
+     }
+    },
+    "2.1": {
+     "thread_id": "631c6z",
+     "item_id": "dfqo082",
+     "parent_id": "dfqjfjt",
+     "author": "SteakFlavoredLettuce",
+     "created_utc": 1491164578,
+     "dt_parent_sec": 6003,
+     "dt_thread_sec": 6454,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Ghost Stories",
+      "retrieved_on": 1493735467
+     }
+    },
+    "2.1.1": {
+     "thread_id": "631c6z",
+     "item_id": "dfqpbhk",
+     "parent_id": "dfqo082",
+     "author": "olster118",
+     "created_utc": 1491166424,
+     "dt_parent_sec": 1846,
+     "dt_thread_sec": 8300,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "inviting a designer into the Discord plan"
+     ],
+     "sequence": [
+      "c0050"
+     ],
+     "coverage": 0.66,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "A Rush of Blood to the Head",
+      "retrieved_on": 1493736104
+     }
+    },
+    "3": {
+     "thread_id": "631c6z",
+     "item_id": "dfqqua8",
+     "parent_id": "631c6z",
+     "author": "mr0il",
+     "created_utc": 1491168528,
+     "dt_parent_sec": 10404,
+     "dt_thread_sec": 10404,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "accusing the AROBTTH builders of destroying their art"
+     ],
+     "sequence": [
+      "c0079",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493737078
+     }
+    },
+    "4": {
+     "thread_id": "631c6z",
+     "item_id": "dfqqzve",
+     "parent_id": "631c6z",
+     "author": "iwhitt567",
+     "created_utc": 1491168719,
+     "dt_parent_sec": 10595,
+     "dt_thread_sec": 10595,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "accusing the AROBTTH builders of tearing down others' art"
+     ],
+     "sequence": [
+      "c0051"
+     ],
+     "coverage": 0.69,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493737153
+     }
+    },
+    "5": {
+     "thread_id": "631c6z",
+     "item_id": "dfqt19t",
+     "parent_id": "631c6z",
+     "author": "msimo4",
+     "created_utc": 1491171281,
+     "dt_parent_sec": 13157,
+     "dt_thread_sec": 13157,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "urging builders not to make enemies"
+     ],
+     "sequence": [
+      "na",
+      "c0052"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Ink",
+      "retrieved_on": 1493738139
+     }
+    },
+    "5.1": {
+     "thread_id": "631c6z",
+     "item_id": "dfqt4n9",
+     "parent_id": "dfqt19t",
+     "author": "iwhitt567",
+     "created_utc": 1491171386,
+     "dt_parent_sec": 105,
+     "dt_thread_sec": 13262,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "asking Coldplay builders to drop or move AROBTTH"
+     ],
+     "sequence": [
+      "c0053",
+      "na"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493738184
+     }
+    }
+   },
+   "631qcz": {
+    "0": {
+     "thread_id": "631qcz",
+     "item_id": "631qcz",
+     "parent_id": null,
+     "author": "walterbengt",
+     "created_utc": 1491161942,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "polling the next album cover"
+     ],
+     "sequence": [
+      "c0054"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "link_flair_text": "Misc.",
+      "author_flair_text": "Hypnotised",
+      "retrieved_on": 1494553856
+     }
+    }
+   },
+   "6324lo": {
+    "0": {
+     "thread_id": "6324lo",
+     "item_id": "6324lo",
+     "parent_id": null,
+     "author": "Qorinthian",
+     "created_utc": 1491165906,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0055",
+      "c0056",
+      "c0057",
+      "c0058"
+     ],
+     "labels": [
+      "claiming a presence on r/place",
+      "thanking people after 48 hours of creating and maintaining album art",
+      "setting a rule not to encroach on Green Barf",
+      "signing an appeasement deal giving r/straya five pixels"
+     ],
+     "sequence": [
+      "c0055",
+      "na",
+      "c0056",
+      "na",
+      "c0057",
+      "na",
+      "c0058"
+     ],
+     "coverage": 0.14,
+     "meta": {
+      "edited": 1491346317,
+      "score": 42,
+      "link_flair_text": "it's over!",
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1494554064
+     }
+    },
+    "1": {
+     "thread_id": "6324lo",
+     "item_id": "dfrjb9a",
+     "parent_id": "6324lo",
+     "author": "BenneyBoy444",
+     "created_utc": 1491213616,
+     "dt_parent_sec": 47710,
+     "dt_thread_sec": 47710,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "adapting a defensive maintenance script"
+     ],
+     "sequence": [
+      "c0059",
+      "na"
+     ],
+     "coverage": 0.13,
+     "meta": {
+      "edited": 1491227842,
+      "score": 3,
+      "retrieved_on": 1493751451
+     }
+    },
+    "2": {
+     "thread_id": "6324lo",
+     "item_id": "dfs0on9",
+     "parent_id": "6324lo",
+     "author": "definethegreatline",
+     "created_utc": 1491240201,
+     "dt_parent_sec": 74295,
+     "dt_thread_sec": 74295,
+     "state": "coded",
+     "code_ids": [
+      "c0060",
+      "c0061"
+     ],
+     "labels": [
+      "marking the event as over",
+      "saying the group is immortalized forever"
+     ],
+     "sequence": [
+      "c0060",
+      "na",
+      "c0061"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "edited": 1491252741,
+      "score": 3,
+      "author_flair_text": "Ghost Stories (Deluxe Edition)",
+      "retrieved_on": 1493761621
+     }
+    },
+    "3": {
+     "thread_id": "6324lo",
+     "item_id": "dfs10v9",
+     "parent_id": "6324lo",
+     "author": "olster118",
+     "created_utc": 1491240598,
+     "dt_parent_sec": 74692,
+     "dt_thread_sec": 74692,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "promising to be ready for more next time"
+     ],
+     "sequence": [
+      "na",
+      "c0062",
+      "na"
+     ],
+     "coverage": 0.09,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "A Rush of Blood to the Head",
+      "retrieved_on": 1493762372
+     }
+    },
+    "4": {
+     "thread_id": "6324lo",
+     "item_id": "dfst2xi",
+     "parent_id": "6324lo",
+     "author": "luxilion",
+     "created_utc": 1491273856,
+     "dt_parent_sec": 107950,
+     "dt_thread_sec": 107950,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "thanking everyone after taking part"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "White Shadows",
+      "retrieved_on": 1493776147
+     }
+    }
+   },
+   "632a3j": {
+    "0": {
+     "thread_id": "632a3j",
+     "item_id": "632a3j",
+     "parent_id": null,
+     "author": "ThunderBird2678",
+     "created_utc": 1491167491,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "TOPS creators thanking r/coldplay"
+     ],
+     "sequence": [
+      "c0064"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 11,
+      "link_flair_text": "of course",
+      "retrieved_on": 1494554142
+     }
+    },
+    "1": {
+     "thread_id": "632a3j",
+     "item_id": "dfqq3f8",
+     "parent_id": "632a3j",
+     "author": "ThunderBird2678",
+     "created_utc": 1491167544,
+     "dt_parent_sec": 53,
+     "dt_thread_sec": 53,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493736619
+     }
+    },
+    "1.1": {
+     "thread_id": "632a3j",
+     "item_id": "dfqq6nn",
+     "parent_id": "dfqq3f8",
+     "author": "SteakFlavoredLettuce",
+     "created_utc": 1491167665,
+     "dt_parent_sec": 121,
+     "dt_thread_sec": 174,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "helping TOPS after a mistake"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "Ghost Stories",
+      "retrieved_on": 1493736681
+     }
+    },
+    "1.2": {
+     "thread_id": "632a3j",
+     "item_id": "dfsbase",
+     "parent_id": "dfqq3f8",
+     "author": "definethegreatline",
+     "created_utc": 1491252496,
+     "dt_parent_sec": 84952,
+     "dt_thread_sec": 85005,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "trying to save the TOPS sign"
+     ],
+     "sequence": [
+      "na",
+      "c0066",
+      "na"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Ghost Stories (Deluxe Edition)",
+      "retrieved_on": 1493767398
+     }
+    },
+    "1.2.1": {
+     "thread_id": "632a3j",
+     "item_id": "dfsbwkf",
+     "parent_id": "dfsbase",
+     "author": "ThunderBird2678",
+     "created_utc": 1491253179,
+     "dt_parent_sec": 683,
+     "dt_thread_sec": 85688,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "crediting help that kept TOPS proper to the end"
+     ],
+     "sequence": [
+      "na",
+      "c0067"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493767688
+     }
+    }
+   },
+   "632un9": {
+    "0": {
+     "thread_id": "632un9",
+     "item_id": "632un9",
+     "parent_id": null,
+     "author": "TurboSquid719",
+     "created_utc": 1491173383,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "celebrating that r/coldplay did it"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 160,
+      "link_flair_text": "weee!",
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1494554449
+     }
+    },
+    "1": {
+     "thread_id": "632un9",
+     "item_id": "dfrff1o",
+     "parent_id": "632un9",
+     "author": "ZeToast",
+     "created_utc": 1491202334,
+     "dt_parent_sec": 28951,
+     "dt_thread_sec": 28951,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "asking how the art was coordinated"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 10,
+      "author_flair_text": "Viva la Vida",
+      "retrieved_on": 1493749572
+     }
+    },
+    "1.1": {
+     "thread_id": "632un9",
+     "item_id": "dfrfqeb",
+     "parent_id": "dfrff1o",
+     "author": "olster118",
+     "created_utc": 1491203122,
+     "dt_parent_sec": 788,
+     "dt_thread_sec": 29739,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "explaining active Discord coordination"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 0.71,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "A Rush of Blood to the Head",
+      "retrieved_on": 1493749723
+     }
+    },
+    "2": {
+     "thread_id": "632un9",
+     "item_id": "dfrjtb6",
+     "parent_id": "632un9",
+     "author": "PaloAndroid",
+     "created_utc": 1491215106,
+     "dt_parent_sec": 41723,
+     "dt_thread_sec": 41723,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493751695
+     }
+    },
+    "2.1": {
+     "thread_id": "632un9",
+     "item_id": "dfrmwe9",
+     "parent_id": "dfrjtb6",
+     "author": "TurboSquid719",
+     "created_utc": 1491222278,
+     "dt_parent_sec": 7172,
+     "dt_thread_sec": 48895,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "planning Ghost Stories when space opens"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "X&Y",
+      "retrieved_on": 1493753513
+     }
+    },
+    "3": {
+     "thread_id": "632un9",
+     "item_id": "dfrtv9t",
+     "parent_id": "632un9",
+     "author": "ErsatzCats",
+     "created_utc": 1491232117,
+     "dt_parent_sec": 58734,
+     "dt_thread_sec": 58734,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "proposing hijacking France's picture for Viva"
+     ],
+     "sequence": [
+      "c0082"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493757826
+     }
+    },
+    "4": {
+     "thread_id": "632un9",
+     "item_id": "dfs2lv3",
+     "parent_id": "632un9",
+     "author": "danjospri",
+     "created_utc": 1491242341,
+     "dt_parent_sec": 68958,
+     "dt_thread_sec": 68958,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "celebrating finding the albums successfully made"
+     ],
+     "sequence": [
+      "c0072",
+      "na"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "A Rush of Blood to the Head",
+      "retrieved_on": 1493763154
+     }
+    }
+   },
+   "632uyn": {
+    "0": {
+     "thread_id": "632uyn",
+     "item_id": "632uyn",
+     "parent_id": null,
+     "author": "LMettrop",
+     "created_utc": 1491173487,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "celebrating three artworks done"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "link_flair_text": "3x bonus",
+      "author_flair_text": "Prospekt's March EP",
+      "retrieved_on": 1494554453
+     }
+    },
+    "1": {
+     "thread_id": "632uyn",
+     "item_id": "dfquz9p",
+     "parent_id": "632uyn",
+     "author": "grayghostpotato",
+     "created_utc": 1491173668,
+     "dt_parent_sec": 181,
+     "dt_thread_sec": 181,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "planning more art when space opens"
+     ],
+     "sequence": [
+      "c0074"
+     ],
+     "coverage": 0.74,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "Midnight",
+      "retrieved_on": 1493739078
+     }
+    }
+   },
+   "6397d3": {
+    "0": {
+     "thread_id": "6397d3",
+     "item_id": "6397d3",
+     "parent_id": null,
+     "author": "ghtuy",
+     "created_utc": 1491249572,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "resuming Survivor after the flood of r/place posts"
+     ],
+     "sequence": [
+      "c0075",
+      "na"
+     ],
+     "coverage": 0.08,
+     "meta": {
+      "score": 18,
+      "link_flair_text": "survivor rd. 3",
+      "author_flair_text": "Prospekt's March EP",
+      "retrieved_on": 1494557650
+     }
+    }
+   },
+   "63a53a": {
+    "0": {
+     "thread_id": "63a53a",
+     "item_id": "63a53a",
+     "parent_id": null,
+     "author": "olster118",
+     "created_utc": 1491258294,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "turning r/place success into pixel art for every album"
+     ],
+     "sequence": [
+      "na",
+      "c0076",
+      "na"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "edited": 1491304897,
+      "score": 25,
+      "link_flair_text": "Misc.",
+      "author_flair_text": "A Rush of Blood to the Head",
+      "retrieved_on": 1494558113
+     }
+    },
+    "1": {
+     "thread_id": "63a53a",
+     "item_id": "dfsjrz2",
+     "parent_id": "63a53a",
+     "author": "Qorinthian",
+     "created_utc": 1491262632,
+     "dt_parent_sec": 4338,
+     "dt_thread_sec": 4338,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "Strawberry Swing",
+      "retrieved_on": 1493771486
+     }
+    },
+    "1.1": {
+     "thread_id": "63a53a",
+     "item_id": "dfskfmf",
+     "parent_id": "dfsjrz2",
+     "author": "olster118",
+     "created_utc": 1491263458,
+     "dt_parent_sec": 826,
+     "dt_thread_sec": 5164,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "struggling to fit Viva into 16x16"
+     ],
+     "sequence": [
+      "c0077",
+      "na"
+     ],
+     "coverage": 0.21,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "A Rush of Blood to the Head",
+      "retrieved_on": 1493771806
+     }
+    },
+    "1.2": {
+     "thread_id": "63a53a",
+     "item_id": "dft76kg",
+     "parent_id": "dfsjrz2",
+     "author": "olster118",
+     "created_utc": 1491304936,
+     "dt_parent_sec": 42304,
+     "dt_thread_sec": 46642,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "adding Viva to the post-place pixel set"
+     ],
+     "sequence": [
+      "c0078",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "A Rush of Blood to the Head",
+      "retrieved_on": 1493783019
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1 @@
+r/pakistan — branch B — verdict: full. Practice stabilized after batch 06; later slices mainly repeated or retrospectively disputed it. Saturation remains limited by removed text and off-platform coordination. Nothing blocked completion.

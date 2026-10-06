@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`tools/snap.py`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-snap-py.md">Markdown source</a></nav>
+<h1 id="toolssnappy"><code>tools/snap.py</code></h1>
+<p>The record of what existed when: a hash of every file in <code>out/</code> under a name.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p><code>snap.py NN &lt;label&gt;</code> writes <code>out/_snap/NN-&lt;label&gt;.sha256</code>: a header line, then one line per file under <code>out/</code> (except <code>_snap/</code>) with its sha256, size in bytes, the time of the snap and its path. A second snap with the same stage and label is refused. <code>snap.py --verify &lt;file&gt;</code> prints, per file, unchanged, changed or gone, and exits 1 if anything changed.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Shipped in the analyst's <code>tools/</code>. The analyst takes a snap for each move (<code>move-&lt;move&gt;-&lt;n&gt;</code>) and when an order matters; <code>close.sh</code> takes one at every close with its trusted copy.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>"A snap is written once under its name ... because a snap that can be rewritten proves nothing." STANDING §2: move snaps let a reviewer "find the state before and after". Its docstring still names some orderings by older stage numbers.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/snap.py">tools/snap.py</a>.</p>
+<p>Checked against: tools/snap.py, harness/close.sh, STANDING-INSTRUCTIONS.md §2, CLAUDE.md.</p>
+</body>
+</html>

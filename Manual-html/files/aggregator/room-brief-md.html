@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`package/&lt;room&gt;/brief.md`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/room-brief-md.md">Markdown source</a></nav>
+<h1 id="packageroombriefmd"><code>package/&lt;room&gt;/brief.md</code></h1>
+<p>The coder's account of the room's pre-event week.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>Prose sections. In the armenia example: Evidence base, Vernacular, Who talks, Recurring formats, Register, Jokes with a history, Moderation and its visible traces, The week's shape, What I could not tell, Data problems. Quoted words carry their item ids in backticks.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>The coder, one sealed reader per room, before the run. <code>build_store.py</code> copies it whole into <code>package/&lt;sub&gt;/</code> at stage 00; <code>rooms.jsonl</code> records <code>brief</code> true or false and <code>_build.json</code> counts the briefs present.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p><code>mem.py brief &lt;sub&gt;</code> serves it as "the room's pre-event week". A1 reads it with <code>case.md</code> after the forest and the concepts, and checks that every room folder holds the same six files. At D1 each labeler's task folder includes it, described in the task as "what was known of the room before the event".</p>
+<h2 id="where">Where</h2>
+<p>Example: <a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/armenia/brief.md">package/armenia/brief.md</a>.</p>
+<p>Checked against: tools/build_store.py, tools/mem.py, stages/STAGE-A1-reading-room-notes.md, handoff/TASK-template.md, package/armenia/brief.md.</p>
+</body>
+</html>

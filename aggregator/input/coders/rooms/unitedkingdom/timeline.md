@@ -1,0 +1,108 @@
+# timeline — r/unitedkingdom
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 16:54 — `dfnnpiq` is marked edited.
+- d0 03-31 16:55 — `dfnnqmc` is marked edited.
+- d0 03-31 16:59 — `dfnnyeq` is marked edited; its body is deleted.
+- d0 03-31 17:51 — `dfnqto9` is marked edited.
+- d0 03-31 18:02 — `62mvga` is marked edited; its body is removed.
+- d0 03-31 18:18 — `dfnsbf3` is marked edited.
+- d0 03-31 18:19 — `dfnscg9` is marked edited.
+- d0 03-31 18:54 — `dfnuaen` is marked edited.
+- d0 03-31 19:06 — `dfnuyeb` is marked edited.
+- d0 03-31 19:59 — `dfnxsm9` is marked edited; its body is deleted.
+- d0 03-31 20:06 — `dfny57x` is marked edited.
+- d0 04-01 00:01 — `dfo9504` is marked edited.
+- d0 04-01 01:37 — `dfod7ja` is marked edited.
+- d0 04-01 01:48 — `dfodocs` is marked edited; its body is deleted.
+- d0 04-01 02:11 — `dfoemvj` is marked edited; its body is deleted.
+- d0 04-01 05:31 — `dfols2c` is marked edited.
+- d0 04-01 07:03 — `dfoo49k` is marked edited; its body is deleted.
+- d0 04-01 08:01 — `dfopcxe` is marked edited; its body is deleted.
+- d0 04-01 08:21 — `dfopqhl` is marked edited.
+- d0 04-01 08:55 — `dfoqdsp` is marked edited.
+- d0 04-01 09:48 — `dforc6k` is marked edited; its body is deleted.
+- d0 04-01 10:47 — `dfosedp` is marked edited.
+- d0 04-01 11:57 — `dfotsov` is marked edited.
+- d0 04-01 12:17 — `dfou9e1` is marked edited; its body is deleted.
+- d0 04-01 15:35 — `dfp0w7x` is marked edited.
+- d1 04-01 17:49 — `dfp6jqe` is marked edited.
+- d1 04-01 18:02 — `dfp73af` is marked edited.
+- d1 04-01 18:06 — `dfp78nl` is marked edited.
+~~- d0 03-31 18:16 — `62myx3`, the post proposing a Union flag on r/place, is marked edited.~~
+- d0 03-31 18:16 — `62myx3` is marked edited.
+~~- d0 03-31 19:31 — `dfnwadj` is stickied, moderator-distinguished, and marked edited; it relays a proposed truce with r/DetroitRedWings and later adds a script and Discord invite.~~
+- d0 03-31 19:31 — `dfnwadj` is stickied, moderator-distinguished, and marked edited.
+~~- d0 03-31 20:47 — `dfo08um` points a repeated Union Jack appeal to an existing sticky.~~
+- d0 04-01 10:12 — `dfors3b` is marked edited; its body is deleted.
+- d0 04-01 10:40 — `dfos9s7` is marked edited; its body is deleted.
+- d0 04-01 11:06 — `dfosr5e` is marked edited.
+- d0 04-01 13:01 — `dfovf89` is marked edited; its body is deleted.
+- d0 04-01 13:11 — `dfovpxs` is marked edited; its body is deleted.
+- d0 04-01 13:18 — `dfovx5r` is marked edited; its body is deleted.
+- d0 04-01 13:28 — `dfow8m6` is marked edited; its body is deleted.
+- d0 04-01 13:39 — `dfowkwv` is marked edited.
+- d0 04-01 13:55 — `dfox3lt` is marked edited.
+- d0 04-01 14:20 — `dfoxz8a` is marked edited.
+- d1 04-01 16:06 — `dfp29a4` is marked edited.
+- d1 04-01 17:58 — `dfp6woo` is marked edited; its body is deleted.
+- d1 04-01 18:02 — `dfp7363` is marked edited; its body is deleted.
+- d1 04-01 20:39 — `dfpdep5` is marked edited.
+- d1 04-01 21:04 — `dfpeedq` is marked edited.
+- d1 04-01 21:30 — `dfpffc1` is marked edited.
+- d1 04-01 21:37 — `dfpfos9` is marked edited.
+- d2 04-03 01:13 — `dfr1ndn` is marked edited; its body is deleted.
+- d0 04-01 14:19 — `62syql` is marked edited; its body is deleted.
+- d0 04-01 15:15 — `62tamn` is marked edited; its body is removed.
+- d0 04-01 15:31 — `dfp0r2i` is marked edited.
+- d1 04-01 18:25 — `dfp80mw` is marked edited; its body is deleted.
+- d1 04-01 19:17 — `dfpa46d` is marked edited; its body is deleted.
+- d1 04-01 19:35 — `62uxj6` is marked edited; its body is removed.
+- d1 04-01 19:41 — `dfpb3hi` is marked edited; its body is deleted.
+- d1 04-01 19:44 — `dfpb6zh` is marked edited.
+- d1 04-01 20:31 — `dfpd3ca` is marked edited; its body is deleted.
+- d1 04-01 20:45 — `dfpdmfk` is marked edited.
+- d1 04-01 20:47 — `dfpdpoy` is marked edited.
+- d1 04-01 21:27 — `dfpfbrg` is marked edited.
+- d1 04-01 21:28 — `dfpfce0` is marked edited.
+- d1 04-01 21:35 — `dfpfmt2` is marked edited; its body is deleted.
+- d1 04-01 21:28 — `dfpfcho` is marked edited.
+- d1 04-01 21:47 — `dfpg3nd` is marked edited; its body is deleted.
+- d1 04-01 22:45 — `dfphc4s` is marked edited; its body is deleted.
+- d1 04-01 22:49 — `dfpih6v` is marked edited; its body is deleted.
+- d1 04-02 04:56 — `dfpvyuf` is marked edited.
+- d1 04-02 11:26 — `dfq3qr2` is marked edited.
+- d1 04-02 11:36 — `dfq3xsj` is marked edited; its body is deleted.
+- d1 04-02 12:08 — `62zb5a` is marked edited; its body is removed.
+- d1 04-02 12:21 — `dfq4une` is marked edited; its body is deleted.
+- d1 04-02 12:50 — `dfq5ig0` is marked edited; its body is deleted.
+- d1 04-02 13:01 — `dfq5rv4` is marked edited; its body is deleted.
+- d2 04-02 17:27 — `dfqfw4x` is marked edited; its body is deleted.
+- d2 04-02 22:59 — `dfqv86v` is marked edited; its body is removed.
+- d2 04-02 23:20 — `dfqw84t` is marked edited; its body is deleted.
+- d2 04-02 23:37 — `dfqwzeu` is marked edited.
+- d2 04-02 23:51 — `dfqxpgc` is marked edited; its body is deleted.
+- d2 04-03 01:15 — `dfr1qhv` is marked edited.
+- d2 04-03 02:25 — `dfr57yc` is marked edited; its body is deleted.
+- d2 04-03 07:24 — `6359ze` is marked edited.
+- d2 04-03 11:11 — `6362q8` is marked edited.
+- d2 04-03 11:29 — `dfrlbg0` is marked edited.
+- d2 04-03 11:32 — `dfrldps` is marked edited.
+- d2 04-03 11:35 — `dfrlgel` is marked edited; its body is deleted.
+- d2 04-03 12:45 — `dfrnlix` is marked edited.
+- d2 04-03 12:47 — `dfrnnuk` is marked edited.
+- d2 04-03 13:23 — `dfrp04p` is marked edited.
+- d2 04-03 13:27 — `dfrp61d` is marked edited; its body is deleted.
+- d2 04-03 13:34 — `dfrpfqs` is marked edited.
+- d2 04-03 15:31 — `dfrv0cy` is marked edited.
+- d2 04-03 15:32 — `dfrv1a5` is marked edited.
+- d2 04-03 15:45 — `dfrvr7a` is marked edited.
+- d3 04-03 17:07 — `dfrzsqv` is marked edited.
+- d3 04-03 17:16 — `dfs0bjz` is marked edited; its body is deleted.
+- d2 04-03 15:04 — `637c4p` is marked edited; its body is removed.
+- d3 04-03 16:34 — `637wfv` is marked edited.
+- d3 04-03 17:25 — `6388rv` is marked edited.
+- d3 04-03 23:18 — `63ag6t` is marked edited.
+- d3 04-04 12:30 — `dft97yb` is marked edited; its body is deleted.
+- d3 04-04 12:38 — `dft9i1u` is marked edited; its body is deleted.

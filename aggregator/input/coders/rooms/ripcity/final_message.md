@@ -1,0 +1,1 @@
+r/ripcity — branch B; verdict: full. Thematic saturation: final slice added no new practice. Record saturation: incomplete due split readings, missing bodies/images, and unseen off-platform coordination. Blocked: nothing.

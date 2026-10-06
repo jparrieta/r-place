@@ -1,0 +1,147 @@
+{
+ "instrument": "v32",
+ "emit": "emit-v32",
+ "verdict": "full",
+ "verdict_note": "set by emit.close(verdict=...); a verdict that exists only as prose in case.md cannot be read back reliably",
+ "close_calls": 2,
+ "reopened_after_close": true,
+ "last_close_seq": 18,
+ "stages": [
+  {
+   "stage": "step1_brief",
+   "from": null,
+   "at_seq": 1,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step2_read",
+   "from": "step1_brief",
+   "at_seq": 2,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step3_codes",
+   "from": "step2_read",
+   "at_seq": 6,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step3_codes",
+   "at_seq": 13,
+   "codes_so_far": 2,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step4_themes",
+   "at_seq": 15,
+   "codes_so_far": 2,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step6_account",
+   "from": "step5_counter",
+   "at_seq": 16,
+   "codes_so_far": 2,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step7_write",
+   "from": "step6_account",
+   "at_seq": 17,
+   "codes_so_far": 2,
+   "corpus_reads_self_reported": null
+  }
+ ],
+ "reading": {
+  "threads_disposed": 2,
+  "threads_in_corpus": 2,
+  "threads_undisposed": 0,
+  "read_in_full": 2,
+  "triaged_and_dropped": 0,
+  "unread": 0,
+  "coded": 2,
+  "items_in_threads_read": 3,
+  "items_in_window": 3,
+  "items_in_corpus_note": "in-window items only; the corpus header's headline additionally counts [CONTEXT] items",
+  "share_of_threads_disposed": 1.0,
+  "share_of_threads_read_in_full": 1.0,
+  "share_of_text_read_in_full": 1.0
+ },
+ "calls_by_stage": {
+  "step1_brief": {
+   "stage": 1
+  },
+  "step2_read": {
+   "stage": 1,
+   "thread": 2,
+   "threads_bulk": 1
+  },
+  "step3_codes": {
+   "stage": 1,
+   "code": 2,
+   "pointer": 3,
+   "close": 1
+  },
+  "step4_themes": {
+   "stage": 1,
+   "theme": 1
+  },
+  "step5_counter": {
+   "stage": 1,
+   "find": 3
+  },
+  "step6_account": {
+   "stage": 1
+  },
+  "step7_write": {
+   "stage": 1,
+   "close": 1
+  }
+ },
+ "n_codes": 2,
+ "n_codes_emitted": 2,
+ "n_retracted": 0,
+ "n_themes": 1,
+ "n_threads": 2,
+ "n_pointers": 3,
+ "n_subreddits_named": 2,
+ "n_off_platform": 0,
+ "isolated": false,
+ "coordination_left_the_venue": false,
+ "discovered_at": {
+  "step3": 2
+ },
+ "saturation_observed": {
+  "n_codes": 2,
+  "last_step3_code_at": 2,
+  "codes_minted_after_it": 0,
+  "share_of_minting_before_last_new_step3_code": 1.0
+ },
+ "integrity": {
+  "codes_with_no_theme": [],
+  "themes_with_no_code": [],
+  "ok": true
+ },
+ "gate": {
+  "instrument": "v32",
+  "sub": "austriahungary",
+  "branch": "A",
+  "threshold": 500,
+  "budget_items": 500,
+  "floor_items": 25,
+  "items_in_window": 3,
+  "items_by_people": 2,
+  "chars_by_people": 304,
+  "threads": 2,
+  "decided_utc": "2026-09-30T09:50:04Z",
+  "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+  "slices": [],
+  "coders": []
+ },
+ "branch": "A"
+}

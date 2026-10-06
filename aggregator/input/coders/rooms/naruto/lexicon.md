@@ -1,0 +1,25 @@
+# lexicon — r/naruto
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Konoha emblem (62o0ne)
+- actual headband (dfoogcl)
+- outmemeing (dfooag3)
+- Leg Day (62qcll)
+- PHOTOSHOP BATTLE (62qtwe)
+- PS Battles (dfq2rv2)
+- orange box (dfp1rhu)
+- Sarada's leg for hokage (62th5m)
+- GREEN LATTICE (dfpb2mv)
+- project infinite-konoha-leaf-symbol (dfpxk6v)
+- Pirate-Ninja alliance (dfq7dhy)
+- Kishi Forgot(TM) (dfpq5sx)
+- one pink pixel war (dfqmy34)
+- Narutoe (dfrpx4x)
+- real nakama (dfruc71)
+- shitposts (dfqprei)
+- Pirate-Ninja-Youtuber-Drifter Alliance (63354w)
+- subreddit gangs (dfru2cx)
+- Hakuto (dfrztm0)
+- the two ultimate orange subs (639w2f)
+- real-time warfare (dftigj0)

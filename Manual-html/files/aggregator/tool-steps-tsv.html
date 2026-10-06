@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`tools/steps.tsv`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-steps-tsv.md">Markdown source</a></nav>
+<h1 id="toolsstepstsv"><code>tools/steps.tsv</code></h1>
+<p>Every stage and step of the run, one per line.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>Columns: <code>stage</code>, <code>stage_name</code>, <code>step</code>, <code>step_name</code>, <code>kind</code> (work, build, check, recheck), <code>repeat</code> (no, yes, round, optional), <code>interview</code> (<code>-</code>, <code>end</code>, <code>mid</code>). 45 steps from A1a (checks and screen) to E2b (next instrument). Twelve carry an interview point: A1c, B1e, B4c, C1a, C2c (mid), C3c, C4a, C5d, D3c, D4a, D6b, E2b.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Written with the instrument. Shipped in the analyst's <code>tools/</code>; copied into <code>CONTROL/harness/</code> by <code>build.sh</code>; read by <code>steps.py</code>, <code>stage_cards.py</code> and <code>gen_manual.py</code>.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Contract §4: "<code>tools/steps.tsv</code> lists every step; the stage file says what each does and where it stops." <code>done.sh</code> refuses <code>--cut interview</code> at a step whose row has no interview point, and <code>step.sh</code> refuses a check step until the dispatch has left <code>DONE</code>.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/steps.tsv">tools/steps.tsv</a>.</p>
+<p>Checked against: tools/steps.tsv, tools/steps.py, tools/done.sh, harness/step.sh, CONTRACT-aggregator.md §4.</p>
+</body>
+</html>

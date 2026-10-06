@@ -1,0 +1,50 @@
+# timeline — r/frankocean
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 17:09 — `dfnoi1i`, whose body is deleted, was edited.
+- d0 03-31 18:00 — `dfnrbw8`, whose body is deleted, was edited.
+- d0 03-31 18:58 — moderator Eneyek replied about the subreddit banner in `dfnuhfb`.
+- d0 04-01 00:36 — `dfoan1z` was edited.
+- d0 04-01 13:03 — `62sksz`, proposing Frank-related pixel art on r/place, was edited.
+- d0 04-01 13:12 — `dfovr4h` was edited.
+- d1 04-01 22:13 — `dfph498`, giving the Channel Orange build sequence and direct link, was edited.
+- d1 04-02 01:48 — `dfppk8k`, reducing the Channel Orange plan to a 27-by-27 minimum, was edited.
+- d1 04-02 03:17 — `dfpssyr`, redirecting the Blond build east because of the Denmark alliance, was edited.
+- d1 04-02 05:28 — `dfpwuko`, offering to split time between two builds, was edited.
+- d1 04-02 05:48 — `dfpxdjv`, listing needed white tiles, was edited.
+- d1 04-02 06:42 — `dfpynt2`, reacting to a pixel as possible sabotage and then retracting that reaction, was edited.
+- d1 04-02 06:51 — `dfpyuqv`, asking for an explanation of r/place and then saying they understood, was edited.
+- d1 04-02 07:22 — `dfpziun`, saying a call for help had been posted in HHH, was edited.
+- d1 04-02 10:42 — `dfq2zl6`, urging builders to keep going and spread the word, was edited.
+- d1 04-02 11:34 — `dfq3w7c`, weighing expansion against Hungary and Survivor, was edited.
+- d1 04-02 12:07 — `dfq4j3f`, calling the collaborating subreddits brothers, was edited.
+- d1 04-02 13:31 — `dfq6kx2`, selecting a proposed continuation design, was edited.
+- d2 04-02 16:33 — `dfqhygn`, discussing how to sell a hoodie design, was edited.
+- d2 04-02 19:36 — `631pv8`, recounting a post-office story about mailed shirts, was edited.
+- d2 04-02 21:51 — `632ii2`, sharing a fan-made track and updating its audio links, was edited.
+- d2 04-03 00:13 — `dfqyokm`, reacting to a Forrest Gump-inspired painting, was edited.
+- d2 04-03 03:59 — `634gch`, asking for help identifying a song, was edited.
+- d2 04-03 08:54 — `dfri24q`, whose body is deleted, was edited.
+- d2 04-03 12:21 — `dfrmshv`, linking a reaction image in a dispute about a Survivor torch, was edited.
+- d2 04-03 15:19 — `dfruey9`, reporting a current plan involving LEGO, BLOND, Hungary, and Survivor, was edited.
+- d2 04-03 15:53 — `dfrw5pf`, relaying changing terms from the r/Denmark Discord, was edited.
+- d2 04-03 15:56 — `dfrwaro`, proposing changes to the Channel Orange design and then noting that place had ended, was edited.
+- d3 04-03 17:32 — `dfs159y`, completing a three-comment “HVOR / ER / BLOND?” sequence, was edited.
+- d3 04-03 18:04 — `dfs2vr0`, describing repairs to Blond and Survivor, was edited.
+- d3 04-03 20:01 — `dfs8u2l`, whose body is deleted, was edited.
+- d3 04-03 20:03 — `dfs8xwz`, whose body is deleted, was edited.
+- d3 04-03 20:04 — `dfs901k`, whose body is deleted, was edited.
+- d3 04-03 20:06 — `dfs93g6`, whose body is deleted, was edited.
+- d3 04-03 22:13 — `dfsfq4r`, reporting renewed interference with the PlaceTwo Blond build, was edited.
+- d3 04-03 23:01 — `dfsi3g2`, saying the FrankOcean side was “just memeing,” was edited.
+- d3 04-04 01:17 — `dfsorfa`, pointing to pre-takeover timelapses and screenshots, was edited.
+- d3 04-04 03:05 — `dfsu385`, whose body is deleted, was edited.
+- d3 04-04 06:33 — `dft166e`, connecting the Denmark post to r/place and the Blonde art, was edited.
+- d3 04-04 10:23 — `dft5uy4`, reflecting on the finished canvas and linking a void video, was edited.
+- d3 04-04 11:02 — `dft6ouu`, whose body is deleted, was edited.
+- d3 04-04 13:00 — `dftabpg`, disputing a claim about who confuses Danes and Dutch people, was edited.
+- d3 04-04 13:49 — `dftceps`, whose body is deleted, was edited.
+- d3 04-04 13:56 — `dftcqo1`, praising an Endless review, was edited.
+- d3 04-04 15:01 — `dftfyg7`, explaining the sample used in “Close to You,” was edited.
+- d3 04-04 15:05 — `dftg6kr`, whose body is deleted, was edited.

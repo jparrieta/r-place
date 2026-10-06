@@ -1,0 +1,145 @@
+# timeline — r/vegan
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 16:21 — `dfnlv6h` is marked edited.
+- d0 03-31 16:49 — `dfnnfmc` is marked edited.
+- d0 03-31 20:23 — `dfnz23m` is marked edited.
+- d0 03-31 20:50 — `dfo0esh` is marked edited.
+- d0 03-31 21:48 — `dfo35u8` is marked edited.
+- d0 03-31 21:58 — `dfo3nos` is marked edited.
+- d0 03-31 23:28 — `62p1m5` is marked edited.
+- d0 03-31 23:47 — `dfo8im0` is marked edited.
+- d0 04-01 01:26 — `dfocqxw` is marked edited.
+- d0 04-01 02:04 — `dfoecoa` is marked edited.
+- d0 04-01 02:05 — `62pwro` is marked edited.
+- d0 04-01 05:16 — `62qtoz` is marked edited.
+- d0 04-01 05:27 — `dfolnk1` is marked edited.
+- d0 04-01 05:33 — `dfoluhq` is marked edited.
+- d0 04-01 05:59 — `dfomk6j` is marked edited.
+- d0 04-01 06:03 — `dfomn8u` is marked edited.
+- d0 04-01 06:41 — `dfonljp` is marked edited.
+- d0 04-01 06:46 — `dfonqio` is marked edited.
+- d0 04-01 07:38 — `62rdfb` is marked edited.
+- d0 04-01 09:02 — `dfoqi0h` is marked edited.
+- d0 04-01 11:26 — `62s5ax` is marked edited.
+- d0 04-01 13:16 — `dfovvo3` is marked edited.
+- d0 04-01 13:31 — `dfowbcq` is marked edited.
+- d0 04-01 13:46 — `dfowsr9` is marked edited.
+- d0 04-01 13:49 — `dfoww2r` is marked edited.
+- d0 04-01 14:07 — `dfoxisn` is marked edited.
+- d0 04-01 14:11 — `dfoxo56` is marked edited.
+- d0 04-01 14:19 — `dfoxyuq` is marked edited.
+- d0 04-01 15:30 — `62tdy2` is marked edited.
+- d0 04-01 15:38 — `62tfpm` is marked edited.
+- d1 04-01 16:04 — `dfp25ml` is marked edited.
+- d1 04-01 16:23 — `dfp2z1a` is marked edited.
+- d1 04-01 17:09 — `dfp4veh` is marked edited.
+- d1 04-01 17:18 — `dfp59ns` is marked edited.
+- d1 04-01 17:51 — `dfp6m6v` is marked edited.
+- d1 04-01 18:10 — `62uegf` is marked edited.
+- d1 04-01 18:16 — `dfp7nea` is marked edited.
+- d1 04-01 18:16 — `dfp7obe` is marked edited.
+- d1 04-01 18:22 — `dfp7w1f` is marked edited.
+- d1 04-01 18:48 — `dfp8zpg` is marked edited.
+- d1 04-01 19:37 — `dfpaxu4` is moderator-distinguished AutoModerator output.
+- d1 04-01 20:02 — `dfpbxnr` is moderator-distinguished AutoModerator output.
+- d1 04-01 20:57 — `dfpe476` is marked edited.
+- d1 04-01 21:10 — `dfpenfw` is marked edited.
+- d1 04-01 21:32 — `dfpfimj` is marked edited.
+- d1 04-01 21:55 — `62vtoi` is marked edited.
+- d1 04-01 22:03 — `dfpgowf` is moderator-distinguished AutoModerator output.
+- d1 04-01 22:27 — `dfphmgm` is marked edited.
+- d1 04-01 22:39 — `dfpi40q` is moderator-distinguished AutoModerator output.
+- d1 04-01 22:44 — `dfpiad6` is marked edited.
+- d1 04-01 22:51 — `dfpijwm` is marked edited.
+- d1 04-01 23:05 — `dfpj4q8` is marked edited.
+- d1 04-01 23:05 — `dfpj53j` is marked edited.
+- d1 04-01 23:19 — `dfpjp2d` is moderator-distinguished AutoModerator output.
+- d1 04-01 23:21 — `dfpjs2m` is marked edited.
+- d1 04-01 23:22 — `dfpjtc7` is marked edited.
+- d1 04-01 23:41 — `dfpkku5` is marked edited.
+- d1 04-01 23:42 — `dfpkl99` is moderator-distinguished AutoModerator output.
+- d1 04-01 23:47 — `dfpkt7f` is marked edited.
+- d1 04-02 00:45 — `dfpn58t` is marked edited.
+- d1 04-02 00:51 — `dfpndih` is marked edited.
+- d1 04-02 01:26 — `dfpopsx` is marked edited.
+- d1 04-02 02:21 — `dfpqt2i` is marked edited.
+- d1 04-02 03:31 — `dfptapw` is marked edited.
+- d1 04-02 05:09 — `dfpwbr5` is marked edited.
+- d1 04-02 05:16 — `dfpwikm` is marked edited.
+- d1 04-02 06:56 — `dfpyydx` is marked edited.
+- d1 04-02 07:29 — `dfpzo9e` is moderator-distinguished AutoModerator output.
+- d1 04-02 07:41 — `dfpzx1y` is marked edited.
+- d1 04-02 08:58 — `dfq1bju` is marked edited.
+- d1 04-02 09:14 — `dfq1kyl` is marked edited.
+- d1 04-02 09:37 — `dfq1y8i` is marked edited.
+- d1 04-02 09:49 — `dfq25nm` is marked edited.
+- d1 04-02 11:19 — `dfq3lv2` is marked edited.
+- d1 04-02 11:40 — `62z7k2` is marked edited.
+- d1 04-02 11:45 — `62z8am` is marked edited.
+- d1 04-02 12:25 — `dfq4x3a` is marked edited.
+- d1 04-02 12:40 — `dfq59we` is marked edited.
+- d1 04-02 13:19 — `dfq69lr` is marked edited.
+- d1 04-02 13:44 — `dfq6y3g` is moderator-distinguished AutoModerator output.
+- d1 04-02 14:14 — `dfq7w22` is marked edited.
+- d2 04-02 16:17 — `dfqcpnx` is marked edited.
+- d2 04-02 16:48 — `dfqe3lj` is marked edited.
+- d2 04-02 17:01 — `dfqep3a` is moderator-distinguished AutoModerator output.
+- d2 04-02 17:06 — `dfqex4j` is moderator-distinguished AutoModerator output.
+- d2 04-02 17:23 — `dfqfow5` is marked edited.
+- d2 04-02 17:36 — `630z8w` is marked edited.
+- d2 04-02 17:40 — `dfqgi1c` is moderator-distinguished AutoModerator output.
+- d2 04-02 18:33 — `dfqizrj` is marked edited.
+- d2 04-02 18:50 — `dfqjrrh` is moderator-distinguished AutoModerator output.
+- d2 04-02 19:19 — `dfql51b` is moderator-distinguished AutoModerator output.
+- d2 04-02 19:55 — `dfqmsfv` is marked edited.
+- d2 04-02 19:55 — `dfqmsg9` is moderator-distinguished AutoModerator output.
+- d2 04-02 20:05 — `dfqn8gw` is marked edited.
+- d2 04-02 20:14 — `dfqnm1z` is marked edited.
+- d2 04-02 20:37 — `dfqon4h` is moderator-distinguished AutoModerator output.
+- d2 04-02 20:41 — `dfqoswl` is moderator-distinguished AutoModerator output.
+- d2 04-02 23:12 — `dfqvtkx` is marked edited.
+- d2 04-03 01:35 — `dfr2pnp` is marked edited.
+- d2 04-03 01:58 — `dfr3wb7` is marked edited.
+- d2 04-03 02:25 — `dfr57i7` is marked edited.
+- d2 04-03 05:06 — `634r8d` is marked edited.
+- d2 04-03 05:22 — `dfrcwxg` is marked edited.
+- d2 04-03 05:41 — `dfrdisa` is marked edited.
+- d2 04-03 05:51 — `dfrdtdo` is moderator-distinguished AutoModerator output.
+- d2 04-03 06:02 — `634z6t` is marked edited.
+- d2 04-03 07:12 — `6358ib` is marked edited.
+- d2 04-03 07:34 — `dfrgedn` is marked edited.
+- d2 04-03 08:38 — `dfrhqq6` is moderator-distinguished AutoModerator output.
+- d2 04-03 09:18 — `635no6` is marked edited.
+- d2 04-03 11:45 — `dfrlq6v` is marked edited.
+- d2 04-03 11:51 — `dfrlwn6` is marked edited.
+- d2 04-03 11:55 — `dfrm0lq` is marked edited.
+- d2 04-03 12:49 — `dfrnqni` is marked edited.
+- d2 04-03 12:49 — `dfrnqlu` is marked edited.
+- d2 04-03 13:02 — `dfro7ra` is marked edited.
+- d2 04-03 14:25 — `dfrrp6h` is marked edited.
+- d3 04-03 16:27 — `dfrxuxq` is moderator-distinguished AutoModerator output.
+- d3 04-03 16:36 — `dfry9h7` is marked edited.
+- d3 04-03 16:36 — `dfry9r3` is marked edited.
+- d3 04-03 16:46 — `dfryrjl` is moderator-distinguished AutoModerator output.
+- d3 04-03 17:55 — `dfs2evr` is marked edited.
+- d3 04-03 17:56 — `dfs2gun` is marked edited.
+- d3 04-03 18:44 — `dfs4yxs` is marked edited.
+- d3 04-03 19:03 — `dfs60rj` is marked edited.
+- d3 04-03 19:46 — `dfs83yd` is marked edited.
+- d3 04-03 20:56 — `dfsbre2` is moderator-distinguished AutoModerator output.
+- d3 04-03 21:02 — `dfsc1h7` is marked edited.
+- d3 04-03 21:08 — `639lpi` is marked edited.
+- d3 04-03 21:33 — `dfsdnal` is moderator-distinguished AutoModerator output.
+- d3 04-03 21:57 — `639z8q` is marked edited.
+- d3 04-03 22:14 — `dfsfsdu` is marked edited.
+- d3 04-03 23:21 — `dfsj25u` is marked edited.
+- d3 04-04 00:41 — `dfsmyy2` is marked edited.
+- d3 04-04 00:44 — `dfsn3qe` is marked edited.
+- d3 04-04 02:20 — `63bf1f` is marked edited.
+- d3 04-04 13:32 — `63e44x` is marked edited.
+- d3 04-04 13:37 — `dftbvo1` is marked edited.
+- d3 04-04 13:46 — `dftc8x0` is marked edited.
+- d3 04-04 14:29 — `dftea71` is marked edited.
+- d4 04-04 16:43 — `63fa93` is marked edited.

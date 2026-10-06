@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>The coder's files</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/README.md">Markdown source</a></nav>
+<h1 id="the-coders-files">The coder's files</h1>
+<p>One page per kind of file in the coder instrument (v32) and the run yard. Each page says what the file holds, who writes it and when, why it exists, and where it is. The levels below follow <a href="../../4-the-coder.html">the coder page</a>, from the contracts that govern every agent down to the yard that runs every room; <a href="../../3-how-it-was-built.html">how it was built</a> tells why each level came to exist.</p>
+<h2 id="1-what-governs-the-contracts-and-notes">1. What governs: the contracts and notes</h2>
+<p>One contract holds the method. The others exist because the roles differ: a large room needs a case lead and fleet coders, the week before the canvas needs a brief writer, and the yard needs a scheduler. Each role file says only what differs from the main contract.</p>
+<ul>
+<li><a href="contract.html">The coder contract</a>: method, rules, five steps, outputs; every role reads it first.</li>
+<li><a href="contract-case-lead.html">The case lead's contract</a>: openings, gate, fleet, forest, steps 4 and 5.</li>
+<li><a href="contract-fleet-coder.html">The fleet coder's contract</a>: one slice, steps 1 to 3, tagged edges.</li>
+<li><a href="contract-brief-writer.html">The brief writer's contract</a>: the seven days before the canvas.</li>
+<li><a href="contract-scheduler.html">The scheduler's contract</a>: launching, checking and recording between agents.</li>
+<li><a href="agent-md.html">AGENT.md</a>: the operating notes each agent reads first.</li>
+<li><a href="case-lead-prompt.html">The case-lead prompt</a>: the calibration block added to the lead's opening message.</li>
+<li><a href="changelog.html">The changelog</a>: what moved in v29 to v32, and why.</li>
+</ul>
+<h2 id="2-one-room">2. One room</h2>
+<p>Everything needed to code a community sits in its own folder, so a room can be run, rebuilt or forked on its own.</p>
+<ul>
+<li><a href="room-md.html">ROOM.md</a>: the room's numbers and commands.</li>
+<li><a href="state-json.html">STATE.json</a>: the room's memory.</li>
+<li><a href="record-files.html">The record files</a>: the cut, the pre-week, counts, openings.</li>
+<li><a href="brief-outputs.html">The brief and its outputs</a>: the brief writer's directory.</li>
+<li><a href="corpus-files.html">The corpus files</a>: what a coder reads and cites.</li>
+<li><a href="package.html">The package</a>: the six outputs and <code>run/package/</code>.</li>
+<li><a href="validation.html">validation/</a>: prompting and check receipts.</li>
+<li><a href="materials-archive.html">materials.tar.zst</a>: record, brief and instrument, packed.</li>
+<li><a href="run-archive.html">run.tar.zst</a>: the case lead's whole run directory.</li>
+</ul>
+<h2 id="3-the-tools">3. The tools</h2>
+<p>Handing an agent the material and asking for codes did not work: it spent its turns writing parsers and serialisers, and its account of its own reading could not be checked. Each tool takes one job away from the agent and leaves a record.</p>
+<h3 id="reading-citing-emitting-closing">Reading, citing, emitting, closing</h3>
+<ul>
+<li><a href="read-py.html">read.py</a>: the coder's logged reader.</li>
+<li><a href="read-brief-py.html">read_brief.py</a>: the brief writer's logged reader.</li>
+<li><a href="cite-py.html">cite.py</a>: quotes resolved to the record's exact words.</li>
+<li><a href="emit-py.html">emit.py</a>: the append-only recorder.</li>
+<li><a href="close-run-py.html">close_run.py</a>: the end-of-run gate, C1 to C12.</li>
+<li><a href="tools-spec.html">TOOLS-SPEC.md</a>: what the tools share across tiers.</li>
+</ul>
+<h3 id="building-a-directory-and-its-corpus">Building a directory and its corpus</h3>
+<ul>
+<li><a href="newrun-py.html">newrun.py</a>: builds a run directory and fleet batches.</li>
+<li><a href="newbrief-py.html">newbrief.py</a>: builds a brief writer's directory.</li>
+<li><a href="cut-window.html">cut_window_v32.py</a>: the 97-hour cut.</li>
+<li><a href="render-corpus.html">render_corpus_v32.py</a>: the renderer.</li>
+</ul>
+<h2 id="4-the-serial-fleet-and-the-case-lead">4. The serial fleet and the case lead</h2>
+<p>A room of more than 500 items does not fit one reader. It is cut into slices, read by one coder after another, and handed to a case lead who writes the account.</p>
+<ul>
+<li><a href="render-openings.html">render_openings_v32.py</a>: the openings file.</li>
+<li><a href="fleet-py.html">tools/fleet.py</a>: plan, dispatch, collect, consolidate.</li>
+<li><a href="fleet-batch.html">A fleet batch</a>: one coder's slice and outputs.</li>
+<li><a href="tree-builder-py.html">tools/tree_builder.py</a>: the forest.</li>
+<li><a href="audit-fleet-py.html">tools/audit_fleet.py</a>: the gate before step 4.</li>
+<li><a href="../../memory/coder-lead.html">How the case lead remembers</a>: state, checkpoints, resuming and forking.</li>
+</ul>
+<h2 id="5-the-yard-and-its-scheduler">5. The yard and its scheduler</h2>
+<p><strong><a href="yard-structure.html">The yard, file by file</a></strong>: every part of the yard the scheduler built, what it is, who writes it, what a new yard handler reads first, and what to change to run a yard elsewhere.</p>
+<p>The yard runs every room, smallest first, under a scheduler. The case lead is the one agent saved whole, so a room can be resumed or forked later.</p>
+<ul>
+<li><a href="room-py.html">room.py</a>: one room, driven from outside.</li>
+<li><a href="coding-queue-py.html">coding_queue.py</a>: the smallest-first launcher.</li>
+<li><a href="start-yard-lead-py.html">start_yard_lead.py</a>: the first calibrated lead turn.</li>
+<li><a href="codex-lead-py.html">codex_lead.py</a>: run and checkpoint the case lead.</li>
+<li><a href="checkpoints.html">CHECKPOINTS.md</a>: saving, resuming and forking the case lead.</li>
+<li><a href="lead-archive-py.html">lead_archive.py</a>: pack and restore a lead store.</li>
+<li><a href="lead-session-archive.html">The lead session archive</a>: the compressed checkpoint store.</li>
+</ul>
+<h2 id="other-yard-tools-without-a-page-of-their-own">Other yard tools, without a page of their own</h2>
+<p>Each line is the script's own first line.</p>
+<ul>
+<li><a href="../../../coder/handler/tools/codex_coder.py"><code>codex_coder.py</code></a>: runs one fleet coder in a temporary, validation-bounded Codex session.</li>
+<li><a href="../../../coder/handler/tools/coder_preflight.py"><code>coder_preflight.py</code></a>: read-only checks for one fleet coder's batch before consolidation; copied into each batch as <code>_scheduler_preflight.py</code>.</li>
+<li><a href="../../../coder/handler/tools/build_room.py"><code>build_room.py</code></a>: makes one room of the yard from a raw24 collection. The entry point for coding another community.</li>
+<li><a href="../../../coder/handler/tools/verify_room.py"><code>verify_room.py</code></a>: the scheduler's mechanical checks on one room.</li>
+<li><a href="../../../coder/handler/tools/status.py"><code>status.py</code></a>: rebuilds <code>STATUS.tsv</code> from every room's <code>STATE.json</code>.</li>
+<li><a href="../../../coder/handler/tools/checkpoints.py"><code>checkpoints.py</code></a>: immutable, content-addressed checkpoints for a managed room.</li>
+<li><a href="../../../coder/handler/tools/continue_yard_room.py"><code>continue_yard_room.py</code></a>: runs the serial fleet cycle, verifies and publishes one reading.</li>
+<li><a href="../../../coder/handler/tools/compare_forks.py"><code>compare_forks.py</code></a>: sets a room's run and its forks side by side.</li>
+<li><a href="../../../coder/handler/tools/archive_verified_run.py"><code>archive_verified_run.py</code></a> and <a href="../../../coder/handler/tools/archive_verified_materials.py"><code>archive_verified_materials.py</code></a>: archive or restore a verified room's run, and its record, brief and instrument.</li>
+<li><a href="../../../coder/handler/tools/repair_queue.py"><code>repair_queue.py</code></a> and <a href="../../../coder/handler/tools/brief_queue.py"><code>brief_queue.py</code></a>: the queues for repairing blocked rooms and for writing briefs.</li>
+</ul>
+</body>
+</html>

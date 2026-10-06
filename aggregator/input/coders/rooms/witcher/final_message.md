@@ -1,0 +1,1 @@
+r/witcher — branch B, verdict: **full**. Record saturation: adequate, limited by missing images and removed text. Practice saturation: later slices mostly repeated settled practices; post-close reflection was the final new practice. Blockers: none.

@@ -1,0 +1,1 @@
+r/ftlgame — branch B — verdict `full`. Public Reddit practice is well covered through shutdown; off-platform coordination and outcomes remain incomplete. Later material repeated settled practices but added defence, mourning, and the pxls.space move, so thematic saturation arrived only in the final slice. Nothing blocked completion.

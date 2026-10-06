@@ -1,0 +1,1 @@
+r/southafrica — branch B — verdict: full. Saturation: later slices mostly repeated established practices, then shifted to post-event recollection. Saturation limit: deleted material, slice boundaries, and partial Discord visibility leave gaps. Blockers: none.

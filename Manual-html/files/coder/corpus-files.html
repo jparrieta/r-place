@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>The corpus files</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/corpus-files.md">Markdown source</a></nav>
+<h1 id="the-corpus-files">The corpus files</h1>
+<p>What a coder reads and cites, and the counts it is told.</p>
+<p><strong>What it holds</strong></p>
+<ul>
+<li><code>coder_corpus.jsonl</code>: the record, one item per line. <code>cite</code> and <code>emit</code> resolve against it. The agent "never opens it".</li>
+<li><code>corpus.txt</code>: the rendered corpus with its header of counts and the triage windows, served by <code>read.py</code>.</li>
+<li><code>coder_corpus.queries.jsonl</code>: every <code>find</code> call, with pattern, matches, limit and whether the scan was cut short.</li>
+<li><code>corpus_manifest.json</code>: the counts the gate is decided on, <code>items_in_window</code> and <code>chars_by_people</code>.</li>
+<li><code>openings.md</code>: in the lead's run only.</li>
+</ul>
+<p>In a fleet batch, <code>coder_corpus.jsonl</code> and <code>corpus.txt</code> hold the slice plus the openings of earlier threads still running, marked as context.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p><code>newrun.py</code> for the lead, <code>newrun.build_fleet()</code> through <code>fleet.py dispatch</code> for each batch, <code>cite.py</code> for the query log.</p>
+<p><strong>Why it exists</strong></p>
+<p>The JSONL is authoritative and the text is its rendering, so bodies are "byte-identical in both files" and "the citation contract is untouched". The query log means "your query log is produced for you and you never write one" (Rule 4).</p>
+<p><strong>Where</strong></p>
+<p>At the top of <code>run/</code> and each <code>run/fleet/batch_NN/</code> in a room's <code>run.tar.zst</code>.</p>
+<p>Checked against: newrun.py, render_corpus_v32.py, cite.py, CONTRACT.v32.md, TOOLS-SPEC.md</p>
+</body>
+</html>

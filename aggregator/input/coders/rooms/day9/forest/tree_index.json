@@ -1,0 +1,1208 @@
+{
+ "day9": {
+  "counts": {
+   "threads_given": 22,
+   "threads_with_codes": 22,
+   "items": 345,
+   "coded": 37,
+   "bridge": 13,
+   "removed": 0,
+   "dropped": 295,
+   "orphans": 0,
+   "na_stretches": 13,
+   "coverage_of_coded_items": 0.78,
+   "threads_total_in_window": 29
+  },
+  "index": {
+   "62r4gd": {
+    "0": {
+     "thread_id": "62r4gd",
+     "item_id": "62r4gd",
+     "parent_id": null,
+     "author": "PoutyPlant",
+     "created_utc": 1491028227,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "inviting people to add to the Day[9] logo"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 47,
+      "retrieved_on": 1494548528
+     }
+    },
+    "1": {
+     "thread_id": "62r4gd",
+     "item_id": "dfonkdc",
+     "parent_id": "62r4gd",
+     "author": "TheCowLevel",
+     "created_utc": 1491028788,
+     "dt_parent_sec": 561,
+     "dt_thread_sec": 561,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "starting the logo for the glory of Day[9]"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493700500
+     }
+    },
+    "2": {
+     "thread_id": "62r4gd",
+     "item_id": "dfpjal7",
+     "parent_id": "62r4gd",
+     "author": "vndrwtr",
+     "created_utc": 1491088169,
+     "dt_parent_sec": 59942,
+     "dt_thread_sec": 59942,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "banding together to fix the logo"
+     ],
+     "sequence": [
+      "c0003"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493715803
+     }
+    }
+   },
+   "62wiml": {
+    "0": {
+     "thread_id": "62wiml",
+     "item_id": "62wiml",
+     "parent_id": null,
+     "author": "TheJazzProphet",
+     "created_utc": 1491091271,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 72,
+      "retrieved_on": 1494551230
+     }
+    },
+    "1": {
+     "thread_id": "62wiml",
+     "item_id": "dfpp7kc",
+     "parent_id": "62wiml",
+     "author": "Clayh7",
+     "created_utc": 1491097167,
+     "dt_parent_sec": 5896,
+     "dt_thread_sec": 5896,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "promising to maintain it"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493718670
+     }
+    },
+    "2": {
+     "thread_id": "62wiml",
+     "item_id": "dfppkbw",
+     "parent_id": "62wiml",
+     "author": "Deltronium",
+     "created_utc": 1491097703,
+     "dt_parent_sec": 6432,
+     "dt_thread_sec": 6432,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493718841
+     }
+    },
+    "2.1": {
+     "thread_id": "62wiml",
+     "item_id": "dfppqoo",
+     "parent_id": "dfppkbw",
+     "author": "TheJazzProphet",
+     "created_utc": 1491097967,
+     "dt_parent_sec": 264,
+     "dt_thread_sec": 6696,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "asking Norway to make an agreement around 35x35 pixels"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493718927
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62wiml",
+     "item_id": "dfppu8s",
+     "parent_id": "dfppqoo",
+     "author": "Deltronium",
+     "created_utc": 1491098119,
+     "dt_parent_sec": 152,
+     "dt_thread_sec": 6848,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "agreeing to a hanging flag and wishing good luck"
+     ],
+     "sequence": [
+      "c0006"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493718974
+     }
+    },
+    "3": {
+     "thread_id": "62wiml",
+     "item_id": "dfpv9yh",
+     "parent_id": "62wiml",
+     "author": "TheJazzProphet",
+     "created_utc": 1491107612,
+     "dt_parent_sec": 16341,
+     "dt_thread_sec": 16341,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "setting a new goal to reduce the border to one pixel"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1493721602
+     }
+    }
+   },
+   "62y5av": {
+    "0": {
+     "thread_id": "62y5av",
+     "item_id": "62y5av",
+     "parent_id": null,
+     "author": "laffiere",
+     "created_utc": 1491112766,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "moving the first letter as friendly cooperation"
+     ],
+     "sequence": [
+      "na",
+      "c0008"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1494552042
+     }
+    },
+    "1": {
+     "thread_id": "62y5av",
+     "item_id": "dfq58ax",
+     "parent_id": "62y5av",
+     "author": "antigov",
+     "created_utc": 1491136741,
+     "dt_parent_sec": 23975,
+     "dt_thread_sec": 23975,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "saying the peace is over after all that work"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493726399
+     }
+    }
+   },
+   "62yts5": {
+    "0": {
+     "thread_id": "62yts5",
+     "item_id": "62yts5",
+     "parent_id": null,
+     "author": "Thecrew_of_flyngears",
+     "created_utc": 1491125871,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "arriving as a ck2 diplomat to discuss a peace treaty"
+     ],
+     "sequence": [
+      "na",
+      "c0010"
+     ],
+     "coverage": 0.6,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1494552383
+     }
+    },
+    "1": {
+     "thread_id": "62yts5",
+     "item_id": "dfq25sh",
+     "parent_id": "62yts5",
+     "author": "[deleted]",
+     "created_utc": 1491126608,
+     "dt_parent_sec": 737,
+     "dt_thread_sec": 737,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491132104,
+      "score": 7,
+      "retrieved_on": 1493724918
+     }
+    },
+    "1.1": {
+     "thread_id": "62yts5",
+     "item_id": "dfq286d",
+     "parent_id": "dfq25sh",
+     "author": "Thecrew_of_flyngears",
+     "created_utc": 1491126856,
+     "dt_parent_sec": 248,
+     "dt_thread_sec": 985,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493724950
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62yts5",
+     "item_id": "dfq2fu5",
+     "parent_id": "dfq286d",
+     "author": "[deleted]",
+     "created_utc": 1491127670,
+     "dt_parent_sec": 814,
+     "dt_thread_sec": 1799,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493725054
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62yts5",
+     "item_id": "dfq2k68",
+     "parent_id": "dfq2fu5",
+     "author": "Thecrew_of_flyngears",
+     "created_utc": 1491128116,
+     "dt_parent_sec": 446,
+     "dt_thread_sec": 2245,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "offering one black line to end the border conflict"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493725111
+     }
+    }
+   },
+   "62z1h0": {
+    "0": {
+     "thread_id": "62z1h0",
+     "item_id": "62z1h0",
+     "parent_id": null,
+     "author": "exe-zelot",
+     "created_utc": 1491130153,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "changing line spacing to make everyone happy"
+     ],
+     "sequence": [
+      "na",
+      "c0012"
+     ],
+     "coverage": 0.62,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494552489
+     }
+    }
+   },
+   "62zau1": {
+    "0": {
+     "thread_id": "62zau1",
+     "item_id": "62zau1",
+     "parent_id": null,
+     "author": "philip1201",
+     "created_utc": 1491134740,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "proposing changes to end the three-territory conflict"
+     ],
+     "sequence": [
+      "na",
+      "c0013",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494552620
+     }
+    }
+   },
+   "62zhkb": {
+    "0": {
+     "thread_id": "62zhkb",
+     "item_id": "62zhkb",
+     "parent_id": null,
+     "author": "exe-zelot",
+     "created_utc": 1491137805,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552715
+     }
+    },
+    "1": {
+     "thread_id": "62zhkb",
+     "item_id": "dfq6284",
+     "parent_id": "62zhkb",
+     "author": "Atonite",
+     "created_utc": 1491138735,
+     "dt_parent_sec": 930,
+     "dt_thread_sec": 930,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "focusing on the core logo and dropping the motto"
+     ],
+     "sequence": [
+      "na",
+      "c0014"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493726806
+     }
+    }
+   },
+   "62zll3": {
+    "0": {
+     "thread_id": "62zll3",
+     "item_id": "62zll3",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491139418,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "reporting that the Day 9 section stays while plans are finalized"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552770
+     }
+    }
+   },
+   "6305ko": {
+    "0": {
+     "thread_id": "6305ko",
+     "item_id": "6305ko",
+     "parent_id": null,
+     "author": "Adranes",
+     "created_utc": 1491146127,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1494553046
+     }
+    },
+    "1": {
+     "thread_id": "6305ko",
+     "item_id": "dfqafmp",
+     "parent_id": "6305ko",
+     "author": "[deleted]",
+     "created_utc": 1491146625,
+     "dt_parent_sec": 498,
+     "dt_thread_sec": 498,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491147868,
+      "score": 3,
+      "retrieved_on": 1493728911
+     }
+    },
+    "1.1": {
+     "thread_id": "6305ko",
+     "item_id": "dfqawqz",
+     "parent_id": "dfqafmp",
+     "author": "Mir0s",
+     "created_utc": 1491147327,
+     "dt_parent_sec": 702,
+     "dt_thread_sec": 1200,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493729140
+     }
+    },
+    "1.1.1": {
+     "thread_id": "6305ko",
+     "item_id": "dfqb0rk",
+     "parent_id": "dfqawqz",
+     "author": "[deleted]",
+     "created_utc": 1491147493,
+     "dt_parent_sec": 166,
+     "dt_thread_sec": 1366,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493729194
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "6305ko",
+     "item_id": "dfqc1em",
+     "parent_id": "dfqb0rk",
+     "author": "Kurayamino",
+     "created_utc": 1491148906,
+     "dt_parent_sec": 1413,
+     "dt_thread_sec": 2779,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "accusing Norway of breaking the agreement and destroying their stuff"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493729686
+     }
+    }
+   },
+   "630byf": {
+    "0": {
+     "thread_id": "630byf",
+     "item_id": "630byf",
+     "parent_id": null,
+     "author": "_Viceadmiral",
+     "created_utc": 1491148102,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "warning the logo may be gone without intervention"
+     ],
+     "sequence": [
+      "na",
+      "c0017"
+     ],
+     "coverage": 0.63,
+     "meta": {
+      "score": 22,
+      "retrieved_on": 1494553135
+     }
+    },
+    "1": {
+     "thread_id": "630byf",
+     "item_id": "dfqcjdb",
+     "parent_id": "630byf",
+     "author": "cantmakeupcoolname",
+     "created_utc": 1491149594,
+     "dt_parent_sec": 1492,
+     "dt_thread_sec": 1492,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493729925
+     }
+    },
+    "1.1": {
+     "thread_id": "630byf",
+     "item_id": "dfqct1k",
+     "parent_id": "dfqcjdb",
+     "author": "Mir0s",
+     "created_utc": 1491149953,
+     "dt_parent_sec": 359,
+     "dt_thread_sec": 1851,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "waking to destruction and interpreting it as hostile"
+     ],
+     "sequence": [
+      "na",
+      "c0018"
+     ],
+     "coverage": 0.58,
+     "meta": {
+      "score": 14,
+      "retrieved_on": 1493730057
+     }
+    }
+   },
+   "630p93": {
+    "0": {
+     "thread_id": "630p93",
+     "item_id": "630p93",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491151863,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "announcing a change in plans from r/norge"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494553321
+     }
+    }
+   },
+   "630vrd": {
+    "0": {
+     "thread_id": "630vrd",
+     "item_id": "630vrd",
+     "parent_id": null,
+     "author": "Steammaster1234",
+     "created_utc": 1491153658,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "rallying people with a script as the border is lost"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "edited": 1491167624,
+      "score": 12,
+      "retrieved_on": 1494553413
+     }
+    },
+    "1": {
+     "thread_id": "630vrd",
+     "item_id": "dfqfzal",
+     "parent_id": "630vrd",
+     "author": "Steammaster1234",
+     "created_utc": 1491154153,
+     "dt_parent_sec": 495,
+     "dt_thread_sec": 495,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "considering abandoning TV so Day [9] survives"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493731586
+     }
+    }
+   },
+   "630xt9": {
+    "0": {
+     "thread_id": "630xt9",
+     "item_id": "630xt9",
+     "parent_id": null,
+     "author": "_Viceadmiral",
+     "created_utc": 1491154227,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1494553441
+     }
+    },
+    "1": {
+     "thread_id": "630xt9",
+     "item_id": "dfqgbho",
+     "parent_id": "630xt9",
+     "author": "MaxGhost",
+     "created_utc": 1491154593,
+     "dt_parent_sec": 366,
+     "dt_thread_sec": 366,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "asking for a script to automate rebuilding"
+     ],
+     "sequence": [
+      "c0022",
+      "na"
+     ],
+     "coverage": 0.06,
+     "meta": {
+      "edited": 1491157021,
+      "score": 3,
+      "retrieved_on": 1493731750
+     }
+    },
+    "2": {
+     "thread_id": "630xt9",
+     "item_id": "dfqggos",
+     "parent_id": "630xt9",
+     "author": "FromPointXtoY",
+     "created_utc": 1491154777,
+     "dt_parent_sec": 550,
+     "dt_thread_sec": 550,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "accepting a move after calling the old spot a losing battle"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493731822
+     }
+    }
+   },
+   "630zv3": {
+    "0": {
+     "thread_id": "630zv3",
+     "item_id": "630zv3",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491154790,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "saying it has been an honour after the loss"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 0.69,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494553470
+     }
+    }
+   },
+   "6316ge": {
+    "0": {
+     "thread_id": "6316ge",
+     "item_id": "6316ge",
+     "parent_id": null,
+     "author": "padman531",
+     "created_utc": 1491156600,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "saying they tried to stem Norway's tide"
+     ],
+     "sequence": [
+      "c0025"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494553563
+     }
+    }
+   },
+   "631b7v": {
+    "0": {
+     "thread_id": "631b7v",
+     "item_id": "631b7v",
+     "parent_id": null,
+     "author": "shrike843",
+     "created_utc": 1491157883,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "asking for a new place to rebuild"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494553634
+     }
+    }
+   },
+   "631e4p": {
+    "0": {
+     "thread_id": "631e4p",
+     "item_id": "631e4p",
+     "parent_id": null,
+     "author": "Bacobeaner",
+     "created_utc": 1491158646,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "making the relocation below Crusader Kings official"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 0.77,
+     "meta": {
+      "edited": 1491160822,
+      "score": 13,
+      "retrieved_on": 1494553675
+     }
+    },
+    "1": {
+     "thread_id": "631e4p",
+     "item_id": "dfqjx2d",
+     "parent_id": "631e4p",
+     "author": "MaxGhost",
+     "created_utc": 1491159190,
+     "dt_parent_sec": 544,
+     "dt_thread_sec": 544,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "moving ten opinions to Discord to pool resources"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493733497
+     }
+    },
+    "2": {
+     "thread_id": "631e4p",
+     "item_id": "dfqkf2f",
+     "parent_id": "631e4p",
+     "author": "DragnHntr",
+     "created_utc": 1491159829,
+     "dt_parent_sec": 1183,
+     "dt_thread_sec": 1183,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "saying relocation gets nothing done without an actual plan"
+     ],
+     "sequence": [
+      "c0038",
+      "na"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "edited": 1491161063,
+      "score": 1,
+      "retrieved_on": 1493733736
+     }
+    }
+   },
+   "631m1k": {
+    "0": {
+     "thread_id": "631m1k",
+     "item_id": "631m1k",
+     "parent_id": null,
+     "author": "MaxGhost",
+     "created_utc": 1491160760,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0029",
+      "c0030"
+     ],
+     "labels": [
+      "telling everyone to follow the new plan",
+      "calling people into the Discord"
+     ],
+     "sequence": [
+      "c0029",
+      "na",
+      "c0030",
+      "na"
+     ],
+     "coverage": 0.09,
+     "meta": {
+      "edited": 1491197811,
+      "score": 10,
+      "retrieved_on": 1494553791
+     }
+    }
+   },
+   "6328w5": {
+    "0": {
+     "thread_id": "6328w5",
+     "item_id": "6328w5",
+     "parent_id": null,
+     "author": "Patq911",
+     "created_utc": 1491167121,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "announcing the new location is finished"
+     ],
+     "sequence": [
+      "c0031"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 80,
+      "retrieved_on": 1494554125
+     }
+    },
+    "1": {
+     "thread_id": "6328w5",
+     "item_id": "dfqqac6",
+     "parent_id": "6328w5",
+     "author": "galebrithien",
+     "created_utc": 1491167803,
+     "dt_parent_sec": 682,
+     "dt_thread_sec": 682,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "warning not to expand into Turkey because of an agreement"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 19,
+      "retrieved_on": 1493736747
+     }
+    }
+   },
+   "632wcm": {
+    "0": {
+     "thread_id": "632wcm",
+     "item_id": "632wcm",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491173922,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "becoming a diplomat for the Day Knights"
+     ],
+     "sequence": [
+      "c0033"
+     ],
+     "coverage": 0.81,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494554473
+     }
+    }
+   },
+   "63870i": {
+    "0": {
+     "thread_id": "63870i",
+     "item_id": "63870i",
+     "parent_id": null,
+     "author": "Mr_Floyd_Pinkerton",
+     "created_utc": 1491239918,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "apologizing for turning the logo through numbers before shutdown"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "score": 34,
+      "retrieved_on": 1494557139
+     }
+    },
+    "1": {
+     "thread_id": "63870i",
+     "item_id": "dfsga30",
+     "parent_id": "63870i",
+     "author": "Franktech",
+     "created_utc": 1491258290,
+     "dt_parent_sec": 18372,
+     "dt_thread_sec": 18372,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "describing everyone laughing at a mistake"
+     ],
+     "sequence": [
+      "c0035"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493769797
+     }
+    }
+   },
+   "63871b": {
+    "0": {
+     "thread_id": "63871b",
+     "item_id": "63871b",
+     "parent_id": null,
+     "author": "Atonite",
+     "created_utc": 1491239922,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 140,
+      "retrieved_on": 1494557139
+     }
+    },
+    "1": {
+     "thread_id": "63871b",
+     "item_id": "dfs2w6b",
+     "parent_id": "63871b",
+     "author": "Mir0s",
+     "created_utc": 1491242667,
+     "dt_parent_sec": 2745,
+     "dt_thread_sec": 2745,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "recounting building, surviving, and diplomacy into a niche"
+     ],
+     "sequence": [
+      "na",
+      "c0036"
+     ],
+     "coverage": 0.87,
+     "meta": {
+      "score": 40,
+      "retrieved_on": 1493763292
+     }
+    },
+    "1.1": {
+     "thread_id": "63871b",
+     "item_id": "dfs900i",
+     "parent_id": "dfs2w6b",
+     "author": "Vinven",
+     "created_utc": 1491249866,
+     "dt_parent_sec": 7199,
+     "dt_thread_sec": 9944,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "remembering the fun of being their world council diplomat"
+     ],
+     "sequence": [
+      "c0037"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493766285
+     }
+    }
+   }
+  }
+ }
+}

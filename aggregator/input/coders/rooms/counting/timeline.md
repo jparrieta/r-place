@@ -1,0 +1,47 @@
+# timeline — r/counting
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 04-01 00:43 — rideride edited a comment asking about an r/counting ad and reporting two banners (`dfoaxom`).
+- d0 04-01 05:57 — rideride edited a comment celebrating the added subreddit name and preserving a Saturday image (`dfomi97`).
+- d0 04-01 09:06 — moderator TheNitromeFan thanked counters for waiting out site lag (`dfoql2d`).
+- d0 04-01 09:08 — Smartstocks edited the opening post for the 1747k counting thread (`62ro6z`).
+- d0 04-01 09:12 — a now-deleted account edited a now-deleted reply in the 1747k thread (`dfoqp17`).
+- d0 04-01 10:45 — moderator TheNitromeFan edited a distinguished reply announcing alliances and clarifying use of the bottom green border (`dfosd1t`).
+- d1 04-01 20:23 — CyanLights edited the opening post introducing Counting in Digital Roots (`62v86l`).
+- d1 04-01 21:22 — anothershittyalt edited a reply identifying skipped numbers and a continuation from the wrong chain (`dfpf41u`).
+- d1 04-02 01:10 — MathCookie17 edited the opening post introducing Increasingly Harder Increasing Sequences (`62wvx2`).
+- d1 04-02 04:54 — Tranquilsunrise edited a count that skipped from 1,747,543 to 1,747,545 (`dfpvw55`).
+- d1 04-02 10:32 — somebody12345678 edited the count 1,747,624 (`dfq2twm`).
+- d1 04-02 12:54 — secretjardin edited a plus/minus-chain count (`dfq5lzn`).
+- d2 04-02 18:33 — secretjardin edited the opening of the 1,748k counting thread, crediting the prior assist and run (`631bu8`).
+- d2 04-02 18:51 — username111112222233 edited an account that separated invisible “ghost counts” from their own wrong-chain mistake (`dfqjuj9`).
+- d2 04-03 00:20 — secretjardin edited the opening post defining the no-repeating-digits count (`633cb2`).
+- d2 04-03 00:42 — MathCookie17 edited a reply accepting an exponential transformation in the Number Transformer thread (`dfr01wo`).
+- d2 04-03 02:57 — cojoco edited the count 95 in the no-repeating-digits thread (`dfr6vvl`).
+- d2 04-03 03:44 — somebody12345678 edited “Add 31” in an inherited add/subtract counting chain (`dfr94kl`).
+- d2 04-03 03:57 — cojoco edited the count 102 and a good-night message in the no-repeating-digits thread (`dfr9r13`).
+- d2 04-03 05:39 — piyushsharma301 edited the count 9.980 in an inherited decimal countdown (`dfrdg5s`).
+- d2 04-03 08:48 — cojoco edited the count 104 and thanked a correction in the no-repeating-digits thread (`dfrhxqr`).
+- d2 04-03 10:55 — amazingpikachu_38 edited the Collatz Conjecture 231 opening post (`63607e`).
+- d2 04-03 10:55 — piyushsharma301 edited the Collatz steps table and thread-reference reply (`dfrkh0n`).
+- d2 04-03 13:10 — secretjardin edited a reply saying they had grabbed a laptop and were ready to run the increasing-sequences count (`dfroi2i`).
+- d2 04-03 15:19 — Urbul edited the count 8 (149) in the increasing-sequences thread (`dfruerc`).
+- d3 04-03 19:49 — piyushsharma301 edited a post-event account of attacks, unsuccessful r/counting defense, and livecounting maintenance (`dfs885k`).
+- d3 04-03 21:13 — SaraKmado edited the punctuation count 752 (`dfscm5q`).
+- d3 04-04 00:26 — George_Rockwell edited a reply sharing a Decimal-to-NiceMeme script (`dfsm9c4`).
+- d3 04-04 03:24 — TheNitromeFan edited a Tug of War count with a warning that mobile users should consult the latest-comments page or directory (`dfsuydf`).
+- d3 04-04 04:42 — Urbul edited a wrong count and said they added the no-repeating-digits thread to the directory under “Other Other” (`dfsxz0f`).
+- d3 04-04 06:13 — IPV4clone edited the opening post of the 1,750k counting thread (`63cfrn`).
+- d3 04-04 10:12 — piyushsharma301 edited the count 1540 in an inherited count-up-by-ten thread (`dft5mta`).
+- d3 04-04 10:37 — piyushsharma301 edited the count 266 in an alternating-number side thread (`dft64xd`).
+- d3 04-04 10:45 — piyushsharma301 edited the count 267 in the same side thread (`dft6b54`).
+- d3 04-04 10:46 — CrappyJT edited a count and “Check” in the same side thread (`dft6cdh`).
+- d3 04-04 13:48 — piyushsharma301 edited the count 428 in the digital-roots thread (`dftcd82`).
+- d3 04-04 14:48 — iltrof edited the punctuation count 782 (`dftf9pj`).
+- d3 04-04 15:02 — iltrof edited the count 9079 in the username-length thread (`dftfznt`).
+- d4 04-04 16:15 — Urbul edited a Tug of War count while stating TheNitromeFan's standing in Tug of War gets (`dftk01g`).
+- d4 04-04 16:19 — iltrof edited the Tug of War count “403 forbidden” (`dftk9j7`).
+- d4 04-04 16:22 — TehVulpez edited a struck-through Tug of War count with “I'm a little teapot” (`dftkech`).
+- d4 04-04 16:31 — TehVulpez edited a Tug of War count acknowledging the request to delete late counts (`dftkxom`).
+- d4 04-04 16:35 — NeonTaterTots edited the count 359 to mark all other replies as the wrong chain (`dftl5io`).

@@ -1,0 +1,1 @@
+r/minnesotavikings — Branch B — verdict: `full`. Census saturation: complete, with removal and off-platform limits. Thematic saturation: the final slice mostly extended established practices, adding finish and megathread practices. Blockers: none.

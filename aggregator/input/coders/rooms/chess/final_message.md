@@ -1,0 +1,1 @@
+r/chess — branch B; verdict: full. Practice saturated across slices; later slices both repeated established organizing and added post-closure interpretation. Evidence remains incomplete for Discord coordination and deleted material. No blockers.

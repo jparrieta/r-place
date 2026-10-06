@@ -1,0 +1,79 @@
+{
+ "sub": "greece",
+ "built": "2026-09-06T16:51:29Z",
+ "instrument": "v32",
+ "items_in_window": 2202,
+ "items_by_people": 2189,
+ "chars_by_people": 343795,
+ "threads": 270,
+ "preweek_items": 4301,
+ "brief": "present",
+ "expected_branch": "B",
+ "expected_slices": 5,
+ "stage": "verified",
+ "log": [],
+ "notes": [
+  {
+   "at": "2026-09-08T13:33:08.414078+00:00",
+   "note": "Brief written in /Users/arrieta/Documents/ChatGPT/place Yard/atlas_yard/rooms/greece/brief; full transcript retained; paths relocated and source-side validation rerun. Queue rank 197"
+  },
+  {
+   "at": "2026-09-15T15:24:47Z",
+   "note": "Started native case lead using lead-calibration-v2; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-15T16:20:52Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/greece-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-15T16:21:42.250889+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:38Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "agents": [
+  {
+   "role": "brief writer",
+   "model": "gpt-5.6-sol",
+   "agent_id": "01a08123-5976-7fd2-b227-be445fd8807d",
+   "started": "2026-09-08T13:09:33.053460+00:00",
+   "ended": "2026-09-08T13:33:05.764559+00:00",
+   "attempt": 1,
+   "transcript": "full platform transcript"
+  }
+ ],
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-08T13:33:08Z",
+ "brief_validation_digest": "110dedf927571ed1b4a2b27b84e91b17f3b45d1499884b09382e5a50ec6ac26f",
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "model": "gpt-5.6-sol",
+ "fingerprint": "5873e1e29cdab0cb",
+ "branch": "B",
+ "slices": 5,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 194,
+ "themes": 13,
+ "verified_utc": "2026-09-15T16:20:52Z",
+ "finished": "2026-09-15T16:20:51.106450+00:00",
+ "carried": "run",
+ "reported_total_tokens": 21222660,
+ "lead_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/greece-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "47a93de23528bef5d5166ce2a78251a90ff81a3ca87ee221525bbb2131c4fbd8",
+ "lead_archive_bytes": 92939538,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/greece/run.tar.zst",
+ "run_archive_sha256": "bc7cb20c757336a37fb2bac2eea16653ab2f04f938521a23804b1b6121e4633d",
+ "run_archive_bytes": 2464460,
+ "run_archived_utc": "2026-09-25T13:41:04.952477+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/greece/materials.tar.zst",
+ "materials_archive_sha256": "abe70ba92eff06d37174025706188ef45736f88bcc9434ee2b3f4695e39e8772",
+ "materials_archive_bytes": 3189348,
+ "materials_archived_utc": "2026-09-25T13:50:15.037157+00:00"
+}

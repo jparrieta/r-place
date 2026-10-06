@@ -1,0 +1,26 @@
+# lexicon — r/metalcore
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Tom (62otry)
+- brave soldier builders (62otry)
+- core-soldiers (dfo6imb)
+- green corner (dfo6jos)
+- Blegh (dfoqal4)
+- janitor (dfovjpv)
+- Blackcore (dfp1ogv)
+- #AATruther (dfoxctg)
+- Metalcore CC (dfp7m97)
+- kittencore (dfpt58m)
+- Timmy Fell Down A Well (62w6ir)
+- xXxUnder//TowxXx (62w6ir)
+- mormoncore (dfpjrxt)
+- LDScore (dfpjrxt)
+- rip_tom.blegh (62ytl2)
+- memecore (62zp0i)
+- TOM SEARLE MEMORIAL DEFENSE SQUAD (dfqlrbd)
+- night shift (dfres3n)
+- read mode (dfs69bz)
+- Press X to Blegh (dfs5zkt)
+- start guys (dfsdiux)
+- dirtycore (639wbl)

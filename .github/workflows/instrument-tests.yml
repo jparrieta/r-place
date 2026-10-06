@@ -1,0 +1,17 @@
+name: instrument tests
+on: [push, pull_request]
+jobs:
+  tools:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scipy pandas
+      - name: every close-check fires on its planted defect
+        run: python3 aggregator/instrument/tools/validate.py --self-test --summary
+      - name: the analyst's verbs
+        run: python3 aggregator/instrument/tools/tests/test_verbs.py

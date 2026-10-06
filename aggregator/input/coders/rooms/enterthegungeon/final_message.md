@@ -1,0 +1,1 @@
+r/enterthegungeon — branch B; verdict: full. Practice saturation: the later slice repeated core practices while adding post-event commemoration and carryover. Record saturation: textual evidence is strong, but images, deleted text, and Discord remain partial. Blockers: none.

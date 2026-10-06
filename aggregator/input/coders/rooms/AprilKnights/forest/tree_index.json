@@ -1,0 +1,2714 @@
+{
+ "AprilKnights": {
+  "counts": {
+   "threads_given": 42,
+   "threads_with_codes": 42,
+   "items": 255,
+   "coded": 89,
+   "bridge": 15,
+   "removed": 0,
+   "dropped": 151,
+   "orphans": 0,
+   "na_stretches": 57,
+   "coverage_of_coded_items": 0.68,
+   "threads_total_in_window": 43
+  },
+  "index": {
+   "62mjnb": {
+    "0": {
+     "thread_id": "62mjnb",
+     "item_id": "62mjnb",
+     "parent_id": null,
+     "author": "Ghostise",
+     "created_utc": 1490980470,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001",
+      "c0002"
+     ],
+     "labels": [
+      "getting a better look at the new square-posting place",
+      "sending the first discussion to Discord"
+     ],
+     "sequence": [
+      "c0001",
+      "c0002"
+     ],
+     "coverage": 0.82,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 13,
+      "link_flair_text": "News",
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1492475203
+     }
+    }
+   },
+   "62mn20": {
+    "0": {
+     "thread_id": "62mn20",
+     "item_id": "62mn20",
+     "parent_id": null,
+     "author": "Ghostise",
+     "created_utc": 1490981294,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0003",
+      "c0004"
+     ],
+     "labels": [
+      "dubbing the plan 'Spread the Red'",
+      "moving to assist the Red Corner against Blue"
+     ],
+     "sequence": [
+      "c0003",
+      "na",
+      "c0004"
+     ],
+     "coverage": 0.54,
+     "meta": {
+      "distinguished": "moderator",
+      "edited": 1490991065,
+      "score": 34,
+      "link_flair_text": "Strategy",
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1492475315
+     }
+    },
+    "1": {
+     "thread_id": "62mn20",
+     "item_id": "dfntbp9",
+     "parent_id": "62mn20",
+     "author": "et809",
+     "created_utc": 1490985431,
+     "dt_parent_sec": 4137,
+     "dt_thread_sec": 4137,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "asking affiliated subs for more people"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1491950815
+     }
+    },
+    "1.1": {
+     "thread_id": "62mn20",
+     "item_id": "dfntf4m",
+     "parent_id": "dfntbp9",
+     "author": "Ghostise",
+     "created_utc": 1490985535,
+     "dt_parent_sec": 104,
+     "dt_thread_sec": 4241,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "saying the call to arms already went out"
+     ],
+     "sequence": [
+      "c0006",
+      "na"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 11,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1491950860
+     }
+    },
+    "2": {
+     "thread_id": "62mn20",
+     "item_id": "dfnttvq",
+     "parent_id": "62mn20",
+     "author": "Zilveari",
+     "created_utc": 1490985980,
+     "dt_parent_sec": 4686,
+     "dt_thread_sec": 4686,
+     "state": "coded",
+     "code_ids": [
+      "c0100"
+     ],
+     "labels": [
+      "demanding that Redguard destroy the Blue blob"
+     ],
+     "sequence": [
+      "c0100"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1491951057
+     }
+    },
+    "3": {
+     "thread_id": "62mn20",
+     "item_id": "dfnwnt8",
+     "parent_id": "62mn20",
+     "author": "et809",
+     "created_utc": 1490989123,
+     "dt_parent_sec": 7829,
+     "dt_thread_sec": 7829,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1491952426
+     }
+    },
+    "3.1": {
+     "thread_id": "62mn20",
+     "item_id": "dfnwu4y",
+     "parent_id": "dfnwnt8",
+     "author": "Ghostise",
+     "created_utc": 1490989316,
+     "dt_parent_sec": 193,
+     "dt_thread_sec": 8022,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "refusing to let the initial square become a flag"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1491952512
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62mn20",
+     "item_id": "dfo22lt",
+     "parent_id": "dfnwu4y",
+     "author": "Rhazior",
+     "created_utc": 1490995503,
+     "dt_parent_sec": 6187,
+     "dt_thread_sec": 14209,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1491955045
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "62mn20",
+     "item_id": "dfo24gz",
+     "parent_id": "dfo22lt",
+     "author": "Ghostise",
+     "created_utc": 1490995568,
+     "dt_parent_sec": 65,
+     "dt_thread_sec": 14274,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "leaving the flag and moving on"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1491955070
+     }
+    }
+   },
+   "62n322": {
+    "0": {
+     "thread_id": "62n322",
+     "item_id": "62n322",
+     "parent_id": null,
+     "author": "Skultis",
+     "created_utc": 1490985209,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "calling listening Knights together to coordinate a drawing"
+     ],
+     "sequence": [
+      "c0009"
+     ],
+     "coverage": 0.88,
+     "meta": {
+      "score": 18,
+      "link_flair_text": "Meta",
+      "retrieved_on": 1492475643
+     }
+    },
+    "1": {
+     "thread_id": "62n322",
+     "item_id": "dfob23x",
+     "parent_id": "62n322",
+     "author": "Rytho",
+     "created_utc": 1491007593,
+     "dt_parent_sec": 22384,
+     "dt_thread_sec": 22384,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "checking in from work on the red corner"
+     ],
+     "sequence": [
+      "c0010"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1493694452
+     }
+    }
+   },
+   "62nupy": {
+    "0": {
+     "thread_id": "62nupy",
+     "item_id": "62nupy",
+     "parent_id": null,
+     "author": "skootz",
+     "created_utc": 1490991849,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "offering a red-corner Discord for coordination"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "link_flair_text": "Strategy",
+      "retrieved_on": 1492476175
+     }
+    },
+    "1": {
+     "thread_id": "62nupy",
+     "item_id": "dfo4ily",
+     "parent_id": "62nupy",
+     "author": "Kooltiga",
+     "created_utc": 1490998667,
+     "dt_parent_sec": 6818,
+     "dt_thread_sec": 6818,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "finding the coordination invite expired"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1491956236
+     }
+    }
+   },
+   "62nusy": {
+    "0": {
+     "thread_id": "62nusy",
+     "item_id": "62nusy",
+     "parent_id": null,
+     "author": "pastrypalace",
+     "created_utc": 1490991868,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "compiling a multireddit of place-related subs"
+     ],
+     "sequence": [
+      "c0013",
+      "na"
+     ],
+     "coverage": 0.11,
+     "meta": {
+      "edited": 1490995895,
+      "score": 7,
+      "link_flair_text": "OC",
+      "retrieved_on": 1492476177
+     }
+    },
+    "1": {
+     "thread_id": "62nusy",
+     "item_id": "dfnzg4q",
+     "parent_id": "62nusy",
+     "author": "Ghostise",
+     "created_utc": 1490992298,
+     "dt_parent_sec": 430,
+     "dt_thread_sec": 430,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1491953777
+     }
+    },
+    "1.1": {
+     "thread_id": "62nusy",
+     "item_id": "dfo06ew",
+     "parent_id": "dfnzg4q",
+     "author": "pastrypalace",
+     "created_utc": 1490993152,
+     "dt_parent_sec": 854,
+     "dt_thread_sec": 1284,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1491954129
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62nusy",
+     "item_id": "dfo07vl",
+     "parent_id": "dfo06ew",
+     "author": "Ghostise",
+     "created_utc": 1490993202,
+     "dt_parent_sec": 50,
+     "dt_thread_sec": 1334,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1491954149
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62nusy",
+     "item_id": "dfo0fbo",
+     "parent_id": "dfo07vl",
+     "author": "pastrypalace",
+     "created_utc": 1490993444,
+     "dt_parent_sec": 242,
+     "dt_thread_sec": 1576,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "correcting the multireddit link"
+     ],
+     "sequence": [
+      "c0014",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1491954251
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62nusy",
+     "item_id": "dfo0gf8",
+     "parent_id": "dfo0fbo",
+     "author": "Ghostise",
+     "created_utc": 1490993478,
+     "dt_parent_sec": 34,
+     "dt_thread_sec": 1610,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "confirming the corrected link works"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1491954266
+     }
+    }
+   },
+   "62oqds": {
+    "0": {
+     "thread_id": "62oqds",
+     "item_id": "62oqds",
+     "parent_id": null,
+     "author": "Dr_Bosch",
+     "created_utc": 1491000285,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "recruiting to the 'REDVOLUTION'"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 16,
+      "link_flair_text": "OC",
+      "retrieved_on": 1492476796
+     }
+    }
+   },
+   "62ore4": {
+    "0": {
+     "thread_id": "62ore4",
+     "item_id": "62ore4",
+     "parent_id": null,
+     "author": "TheLordMolagBal",
+     "created_utc": 1491000561,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "demanding a temporary truce against Blue"
+     ],
+     "sequence": [
+      "c0017"
+     ],
+     "coverage": 0.61,
+     "meta": {
+      "score": 15,
+      "link_flair_text": "Strategy",
+      "retrieved_on": 1492476810
+     }
+    },
+    "1": {
+     "thread_id": "62ore4",
+     "item_id": "dfo6wiy",
+     "parent_id": "62ore4",
+     "author": "LostTheGameOfThrones",
+     "created_utc": 1491001842,
+     "dt_parent_sec": 1281,
+     "dt_thread_sec": 1281,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "supporting a truce without claiming to speak for the Knights"
+     ],
+     "sequence": [
+      "c0018",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1491957390
+     }
+    },
+    "2": {
+     "thread_id": "62ore4",
+     "item_id": "dfo8v6d",
+     "parent_id": "62ore4",
+     "author": "Nate337",
+     "created_utc": 1491004510,
+     "dt_parent_sec": 3949,
+     "dt_thread_sec": 3949,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "promising as Purple to cover only Blue"
+     ],
+     "sequence": [
+      "c0019",
+      "na"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1491958344
+     }
+    }
+   },
+   "62q85f": {
+    "0": {
+     "thread_id": "62q85f",
+     "item_id": "62q85f",
+     "parent_id": null,
+     "author": "FancySloth",
+     "created_utc": 1491016261,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "requesting an alliance as emperor of Purple pixels"
+     ],
+     "sequence": [
+      "c0020",
+      "na"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "score": 10,
+      "link_flair_text": "News",
+      "retrieved_on": 1492477864
+     }
+    },
+    "1": {
+     "thread_id": "62q85f",
+     "item_id": "dfolwkr",
+     "parent_id": "62q85f",
+     "author": "Rytho",
+     "created_utc": 1491024957,
+     "dt_parent_sec": 8696,
+     "dt_thread_sec": 8696,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "accepting that there is little to give while Blue beats them up"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1493699697
+     }
+    }
+   },
+   "62qiyr": {
+    "0": {
+     "thread_id": "62qiyr",
+     "item_id": "62qiyr",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491019976,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "asking people to abide by the Peace Treaty"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 1,
+      "retrieved_on": 1492478119
+     }
+    }
+   },
+   "62qj2b": {
+    "0": {
+     "thread_id": "62qj2b",
+     "item_id": "62qj2b",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491020007,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "reposting the Peace Treaty rules"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 1,
+      "retrieved_on": 1492478120
+     }
+    }
+   },
+   "62qj6d": {
+    "0": {
+     "thread_id": "62qj6d",
+     "item_id": "62qj6d",
+     "parent_id": null,
+     "author": "mcmeaningoflife42",
+     "created_utc": 1491020043,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "posting the Peace Treaty as a moderator"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 12,
+      "link_flair_text": "News",
+      "author_flair_text": "Bringer of Flair",
+      "retrieved_on": 1492478121
+     }
+    }
+   },
+   "62qjf9": {
+    "0": {
+     "thread_id": "62qjf9",
+     "item_id": "62qjf9",
+     "parent_id": null,
+     "author": "MissLauralot",
+     "created_utc": 1491020129,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0025",
+      "c0026"
+     ],
+     "labels": [
+      "showing the state of their corner",
+      "considering things in the area to preserve"
+     ],
+     "sequence": [
+      "c0025",
+      "na",
+      "c0026"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 3,
+      "link_flair_text": "Strategy",
+      "author_flair_text": "Advisor to the Knights",
+      "retrieved_on": 1492478126
+     }
+    }
+   },
+   "62qn8v": {
+    "0": {
+     "thread_id": "62qn8v",
+     "item_id": "62qn8v",
+     "parent_id": null,
+     "author": "meganeuramonyi",
+     "created_utc": 1491021470,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0027",
+      "c0028"
+     ],
+     "labels": [
+      "filling Darth Plagueis text with Red",
+      "calling people to arms at coordinates"
+     ],
+     "sequence": [
+      "na",
+      "c0027",
+      "c0028",
+      "na"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 15,
+      "link_flair_text": "Strategy",
+      "retrieved_on": 1492478179
+     }
+    }
+   },
+   "62r9wm": {
+    "0": {
+     "thread_id": "62r9wm",
+     "item_id": "62r9wm",
+     "parent_id": null,
+     "author": "bockclockula",
+     "created_utc": 1491030655,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "claiming a way to stop the blue menace"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 0.79,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494548605
+     }
+    },
+    "1": {
+     "thread_id": "62r9wm",
+     "item_id": "dfor9rz",
+     "parent_id": "62r9wm",
+     "author": "skybluegill",
+     "created_utc": 1491039868,
+     "dt_parent_sec": 9213,
+     "dt_thread_sec": 9213,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "replying that they just want to farm carrots"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493702287
+     }
+    }
+   },
+   "62rg3c": {
+    "0": {
+     "thread_id": "62rg3c",
+     "item_id": "62rg3c",
+     "parent_id": null,
+     "author": "Skultis",
+     "created_utc": 1491033625,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "directing Blue citizens toward Purple in the lower-right corner"
+     ],
+     "sequence": [
+      "na",
+      "c0031",
+      "na"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 2,
+      "link_flair_text": "Strategy",
+      "retrieved_on": 1494548691
+     }
+    }
+   },
+   "62srsi": {
+    "0": {
+     "thread_id": "62srsi",
+     "item_id": "62srsi",
+     "parent_id": null,
+     "author": "HatesModerators",
+     "created_utc": 1491054150,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0032",
+      "c0033"
+     ],
+     "labels": [
+      "proposing not to attack until the blobs touch",
+      "proposing that both sides leave creative art alone"
+     ],
+     "sequence": [
+      "na",
+      "c0032",
+      "c0033",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 3,
+      "link_flair_text": "NO PEACE",
+      "retrieved_on": 1494549349
+     }
+    },
+    "1": {
+     "thread_id": "62srsi",
+     "item_id": "dfp0t6h",
+     "parent_id": "62srsi",
+     "author": "HatesModerators",
+     "created_utc": 1491060796,
+     "dt_parent_sec": 6646,
+     "dt_thread_sec": 6646,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "reporting the pact was rejected in the Void Discord"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493706877
+     }
+    }
+   },
+   "62tr8r": {
+    "0": {
+     "thread_id": "62tr8r",
+     "item_id": "62tr8r",
+     "parent_id": null,
+     "author": "mcmeaningoflife42",
+     "created_utc": 1491064187,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0035",
+      "c0036"
+     ],
+     "labels": [
+      "asking for tiles to fill the subreddit box for posterity",
+      "prioritising defense and spreading the red"
+     ],
+     "sequence": [
+      "na",
+      "c0035",
+      "c0036",
+      "na"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 4,
+      "link_flair_text": "Strategy",
+      "author_flair_text": "Bringer of Flair",
+      "retrieved_on": 1494549843
+     }
+    },
+    "1": {
+     "thread_id": "62tr8r",
+     "item_id": "dfp6uyy",
+     "parent_id": "62tr8r",
+     "author": "Rytho",
+     "created_utc": 1491069430,
+     "dt_parent_sec": 5243,
+     "dt_thread_sec": 5243,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1493709789
+     }
+    },
+    "1.1": {
+     "thread_id": "62tr8r",
+     "item_id": "dfp7mpy",
+     "parent_id": "dfp6uyy",
+     "author": "Ghostise",
+     "created_utc": 1491070549,
+     "dt_parent_sec": 1119,
+     "dt_thread_sec": 6362,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "sending coordination to Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0037"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1493710161
+     }
+    }
+   },
+   "62ujmr": {
+    "0": {
+     "thread_id": "62ujmr",
+     "item_id": "62ujmr",
+     "parent_id": null,
+     "author": "smarvin6689",
+     "created_utc": 1491071612,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "urging the red effort above third place"
+     ],
+     "sequence": [
+      "c0038"
+     ],
+     "coverage": 0.66,
+     "meta": {
+      "score": 19,
+      "link_flair_text": "Picture",
+      "retrieved_on": 1494550239
+     }
+    },
+    "1": {
+     "thread_id": "62ujmr",
+     "item_id": "dfpbt0n",
+     "parent_id": "62ujmr",
+     "author": "Danster21",
+     "created_utc": 1491076750,
+     "dt_parent_sec": 5138,
+     "dt_thread_sec": 5138,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "thanking the Knights from Red Corner"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 0.76,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493712175
+     }
+    },
+    "2": {
+     "thread_id": "62ujmr",
+     "item_id": "dfpecx5",
+     "parent_id": "62ujmr",
+     "author": "jefeperro",
+     "created_utc": 1491080607,
+     "dt_parent_sec": 8995,
+     "dt_thread_sec": 8995,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493713413
+     }
+    },
+    "2.1": {
+     "thread_id": "62ujmr",
+     "item_id": "dfpeeob",
+     "parent_id": "dfpecx5",
+     "author": "smarvin6689",
+     "created_utc": 1491080678,
+     "dt_parent_sec": 71,
+     "dt_thread_sec": 9066,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "explaining place and immediately recruiting help"
+     ],
+     "sequence": [
+      "c0040"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493713436
+     }
+    }
+   },
+   "62uoqz": {
+    "0": {
+     "thread_id": "62uoqz",
+     "item_id": "62uoqz",
+     "parent_id": null,
+     "author": "Ghostise",
+     "created_utc": 1491072995,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "renewing oaths and bringing in new warriors"
+     ],
+     "sequence": [
+      "c0041",
+      "na"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 11,
+      "link_flair_text": "New Pledge",
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1494550313
+     }
+    },
+    "1": {
+     "thread_id": "62uoqz",
+     "item_id": "dfpaa2g",
+     "parent_id": "62uoqz",
+     "author": "smarvin6689",
+     "created_utc": 1491074466,
+     "dt_parent_sec": 1471,
+     "dt_thread_sec": 1471,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "swearing to uphold and defend the Knighthood"
+     ],
+     "sequence": [
+      "na",
+      "c0042"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "edited": 1491277677,
+      "score": 1,
+      "retrieved_on": 1493711438
+     }
+    },
+    "2": {
+     "thread_id": "62uoqz",
+     "item_id": "dfsc31o",
+     "parent_id": "62uoqz",
+     "author": "Nate337",
+     "created_utc": 1491253385,
+     "dt_parent_sec": 180390,
+     "dt_thread_sec": 180390,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "asking to join for future events and help"
+     ],
+     "sequence": [
+      "na",
+      "c0043",
+      "na"
+     ],
+     "coverage": 0.4,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493767774
+     }
+    },
+    "2.1": {
+     "thread_id": "62uoqz",
+     "item_id": "dfsdu9l",
+     "parent_id": "dfsc31o",
+     "author": "Rytho",
+     "created_utc": 1491255409,
+     "dt_parent_sec": 2024,
+     "dt_thread_sec": 182414,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "welcoming a proud purple into the order"
+     ],
+     "sequence": [
+      "c0044"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1493768621
+     }
+    }
+   },
+   "62v1xf": {
+    "0": {
+     "thread_id": "62v1xf",
+     "item_id": "62v1xf",
+     "parent_id": null,
+     "author": "LeeRyeTheElementGuy",
+     "created_utc": 1491076451,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "inviting the Knights into a United Red Front"
+     ],
+     "sequence": [
+      "na",
+      "c0045"
+     ],
+     "coverage": 0.12,
+     "meta": {
+      "score": 10,
+      "link_flair_text": "Strategy",
+      "retrieved_on": 1494550503
+     }
+    },
+    "1": {
+     "thread_id": "62v1xf",
+     "item_id": "dfpei02",
+     "parent_id": "62v1xf",
+     "author": "Ghostise",
+     "created_utc": 1491080818,
+     "dt_parent_sec": 4367,
+     "dt_thread_sec": 4367,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "answering with existing cross-colour alliances"
+     ],
+     "sequence": [
+      "c0046",
+      "na"
+     ],
+     "coverage": 0.44,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "score": 1,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1493713480
+     }
+    },
+    "1.1": {
+     "thread_id": "62v1xf",
+     "item_id": "dfpfshc",
+     "parent_id": "dfpei02",
+     "author": "LeeRyeTheElementGuy",
+     "created_utc": 1491082794,
+     "dt_parent_sec": 1976,
+     "dt_thread_sec": 6343,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493714105
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62v1xf",
+     "item_id": "dfpgvz6",
+     "parent_id": "dfpfshc",
+     "author": "Ghostise",
+     "created_utc": 1491084485,
+     "dt_parent_sec": 1691,
+     "dt_thread_sec": 8034,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "refusing the attack because the mission is peace for all colours"
+     ],
+     "sequence": [
+      "c0047",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1493714636
+     }
+    },
+    "2": {
+     "thread_id": "62v1xf",
+     "item_id": "dfpghy2",
+     "parent_id": "62v1xf",
+     "author": "AATYKON",
+     "created_utc": 1491083884,
+     "dt_parent_sec": 7433,
+     "dt_thread_sec": 7433,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493714447
+     }
+    },
+    "2.1": {
+     "thread_id": "62v1xf",
+     "item_id": "dfpgygm",
+     "parent_id": "dfpghy2",
+     "author": "LeeRyeTheElementGuy",
+     "created_utc": 1491084591,
+     "dt_parent_sec": 707,
+     "dt_thread_sec": 8140,
+     "state": "coded",
+     "code_ids": [
+      "c0099"
+     ],
+     "labels": [
+      "asking them to reconsider so the alliance can defeat enemies and expand"
+     ],
+     "sequence": [
+      "na",
+      "c0099"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493714669
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62v1xf",
+     "item_id": "dfph1ru",
+     "parent_id": "dfpgygm",
+     "author": "AATYKON",
+     "created_utc": 1491084733,
+     "dt_parent_sec": 142,
+     "dt_thread_sec": 8282,
+     "state": "coded",
+     "code_ids": [
+      "c0101"
+     ],
+     "labels": [
+      "speaking for Red Corner against directly attacking Blue"
+     ],
+     "sequence": [
+      "na",
+      "c0101"
+     ],
+     "coverage": 0.62,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493714714
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62v1xf",
+     "item_id": "dfphh07",
+     "parent_id": "dfph1ru",
+     "author": "LeeRyeTheElementGuy",
+     "created_utc": 1491085380,
+     "dt_parent_sec": 647,
+     "dt_thread_sec": 8929,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493714917
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62v1xf",
+     "item_id": "dfphoat",
+     "parent_id": "dfphh07",
+     "author": "AATYKON",
+     "created_utc": 1491085702,
+     "dt_parent_sec": 322,
+     "dt_thread_sec": 9251,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "planning a leaders-only Discord to decide the Future of Red"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715017
+     }
+    }
+   },
+   "62vl41": {
+    "0": {
+     "thread_id": "62vl41",
+     "item_id": "62vl41",
+     "parent_id": null,
+     "author": "The_Potato_God99",
+     "created_utc": 1491081631,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0049",
+      "c0050"
+     ],
+     "labels": [
+      "bringing the 2015 Button onto the canvas",
+      "starting the Button with a black box"
+     ],
+     "sequence": [
+      "c0049",
+      "na",
+      "c0050"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "edited": 1491103132,
+      "score": 9,
+      "link_flair_text": "Strategy",
+      "retrieved_on": 1494550768
+     }
+    }
+   },
+   "62vms6": {
+    "0": {
+     "thread_id": "62vms6",
+     "item_id": "62vms6",
+     "parent_id": null,
+     "author": "Ghostise",
+     "created_utc": 1491082087,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "putting forward another canvas goal"
+     ],
+     "sequence": [
+      "c0051"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 3,
+      "link_flair_text": "Strategy",
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1494550792
+     }
+    },
+    "1": {
+     "thread_id": "62vms6",
+     "item_id": "dfpfiho",
+     "parent_id": "62vms6",
+     "author": "The_Potato_God99",
+     "created_utc": 1491082369,
+     "dt_parent_sec": 282,
+     "dt_thread_sec": 282,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "sending helpers to PlaceTheButton"
+     ],
+     "sequence": [
+      "c0052"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493713971
+     }
+    }
+   },
+   "62w9yc": {
+    "0": {
+     "thread_id": "62w9yc",
+     "item_id": "62w9yc",
+     "parent_id": null,
+     "author": "smarvin6689",
+     "created_utc": 1491088557,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "announcing the mission accomplished"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 20,
+      "link_flair_text": "News",
+      "retrieved_on": 1494551110
+     }
+    },
+    "1": {
+     "thread_id": "62w9yc",
+     "item_id": "dfqle8d",
+     "parent_id": "62w9yc",
+     "author": "novice_at_life",
+     "created_utc": 1491161093,
+     "dt_parent_sec": 72536,
+     "dt_thread_sec": 72536,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "mourning the lost sign while keeping the Button"
+     ],
+     "sequence": [
+      "c0054"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493734211
+     }
+    },
+    "1.1": {
+     "thread_id": "62w9yc",
+     "item_id": "dfqlf75",
+     "parent_id": "dfqle8d",
+     "author": "smarvin6689",
+     "created_utc": 1491161126,
+     "dt_parent_sec": 33,
+     "dt_thread_sec": 72569,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "answering the loss with plans to rebuild"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493734224
+     }
+    }
+   },
+   "62wexg": {
+    "0": {
+     "thread_id": "62wexg",
+     "item_id": "62wexg",
+     "parent_id": null,
+     "author": "KillerMagikarp",
+     "created_utc": 1491090126,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "balancing defending with expanding"
+     ],
+     "sequence": [
+      "na",
+      "c0056"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 2,
+      "link_flair_text": "Strategy",
+      "retrieved_on": 1494551179
+     }
+    }
+   },
+   "62wu81": {
+    "0": {
+     "thread_id": "62wu81",
+     "item_id": "62wu81",
+     "parent_id": null,
+     "author": "Torpedobeat",
+     "created_utc": 1491094924,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "offering to move the tank down to avoid the logo"
+     ],
+     "sequence": [
+      "na",
+      "c0057",
+      "na"
+     ],
+     "coverage": 0.12,
+     "meta": {
+      "score": 6,
+      "link_flair_text": "Question",
+      "retrieved_on": 1494551390
+     }
+    },
+    "1": {
+     "thread_id": "62wu81",
+     "item_id": "dfpzk7i",
+     "parent_id": "62wu81",
+     "author": "mcmeaningoflife42",
+     "created_utc": 1491117859,
+     "dt_parent_sec": 22935,
+     "dt_thread_sec": 22935,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "apologising for possibly nuking the tank and offering help"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 2,
+      "author_flair_text": "Bringer of Flair",
+      "retrieved_on": 1493723666
+     }
+    },
+    "1.1": {
+     "thread_id": "62wu81",
+     "item_id": "dfq81gy",
+     "parent_id": "dfpzk7i",
+     "author": "Torpedobeat",
+     "created_utc": 1491142743,
+     "dt_parent_sec": 24884,
+     "dt_thread_sec": 47819,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493727759
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62wu81",
+     "item_id": "dfqasz1",
+     "parent_id": "dfq81gy",
+     "author": "mcmeaningoflife42",
+     "created_utc": 1491147174,
+     "dt_parent_sec": 4431,
+     "dt_thread_sec": 52250,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "offering Knight help at a new spot"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 0.77,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Bringer of Flair",
+      "retrieved_on": 1493729090
+     }
+    }
+   },
+   "62xgzx": {
+    "0": {
+     "thread_id": "62xgzx",
+     "item_id": "62xgzx",
+     "parent_id": null,
+     "author": "Ghostise",
+     "created_utc": 1491102797,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "building the Button under the sign"
+     ],
+     "sequence": [
+      "na",
+      "c0060",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 14,
+      "link_flair_text": "Strategy",
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1494551706
+     }
+    },
+    "1": {
+     "thread_id": "62xgzx",
+     "item_id": "dfpsng5",
+     "parent_id": "62xgzx",
+     "author": "Ghostise",
+     "created_utc": 1491102819,
+     "dt_parent_sec": 22,
+     "dt_thread_sec": 22,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "directing Button-building coordination to Discord"
+     ],
+     "sequence": [
+      "c0061"
+     ],
+     "coverage": 0.62,
+     "meta": {
+      "distinguished": "moderator",
+      "stickied": true,
+      "score": 1,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1493720338
+     }
+    },
+    "2": {
+     "thread_id": "62xgzx",
+     "item_id": "dfrk4q9",
+     "parent_id": "62xgzx",
+     "author": "MissLauralot",
+     "created_utc": 1491216009,
+     "dt_parent_sec": 113212,
+     "dt_thread_sec": 113212,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "appealing to Swedish users to respect their cooperation"
+     ],
+     "sequence": [
+      "c0062"
+     ],
+     "coverage": 0.64,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "Advisor to the Knights",
+      "retrieved_on": 1493751847
+     }
+    }
+   },
+   "62zul0": {
+    "0": {
+     "thread_id": "62zul0",
+     "item_id": "62zul0",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491142634,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "asking as a Parahumans ambassador for a Galaga alliance"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552894
+     }
+    },
+    "1": {
+     "thread_id": "62zul0",
+     "item_id": "dfq880m",
+     "parent_id": "62zul0",
+     "author": "MissLauralot",
+     "created_utc": 1491143072,
+     "dt_parent_sec": 438,
+     "dt_thread_sec": 438,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "welcoming another friend if they do not overlap"
+     ],
+     "sequence": [
+      "na",
+      "c0064",
+      "na"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Advisor to the Knights",
+      "retrieved_on": 1493727847
+     }
+    }
+   },
+   "630czt": {
+    "0": {
+     "thread_id": "630czt",
+     "item_id": "630czt",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491148402,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "calling the sub to defend against Sweden"
+     ],
+     "sequence": [
+      "c0065"
+     ],
+     "coverage": 0.76,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494553149
+     }
+    }
+   },
+   "630d2p": {
+    "0": {
+     "thread_id": "630d2p",
+     "item_id": "630d2p",
+     "parent_id": null,
+     "author": "mcmeaningoflife42",
+     "created_utc": 1491148425,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "calling the sub to defend against Sweden"
+     ],
+     "sequence": [
+      "c0066"
+     ],
+     "coverage": 0.76,
+     "meta": {
+      "distinguished": "moderator",
+      "edited": 1491153579,
+      "score": 7,
+      "link_flair_text": "SEE NEWER POST",
+      "author_flair_text": "Bringer of Flair",
+      "retrieved_on": 1494553150
+     }
+    },
+    "1": {
+     "thread_id": "630d2p",
+     "item_id": "dfqei74",
+     "parent_id": "630d2p",
+     "author": "Hanktank711",
+     "created_utc": 1491152243,
+     "dt_parent_sec": 3818,
+     "dt_thread_sec": 3818,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "transferring from the lost sign to defending the Button"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493730875
+     }
+    },
+    "2": {
+     "thread_id": "630d2p",
+     "item_id": "dfqemvz",
+     "parent_id": "630d2p",
+     "author": "Wailer_",
+     "created_utc": 1491152416,
+     "dt_parent_sec": 3991,
+     "dt_thread_sec": 3991,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493730937
+     }
+    },
+    "2.1": {
+     "thread_id": "630d2p",
+     "item_id": "dfqeoxp",
+     "parent_id": "dfqemvz",
+     "author": "mcmeaningoflife42",
+     "created_utc": 1491152493,
+     "dt_parent_sec": 77,
+     "dt_thread_sec": 4068,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "thanking a Swedish defender and accepting being built over"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Bringer of Flair",
+      "retrieved_on": 1493730965
+     }
+    }
+   },
+   "631atj": {
+    "0": {
+     "thread_id": "631atj",
+     "item_id": "631atj",
+     "parent_id": null,
+     "author": "pengoloth",
+     "created_utc": 1491157771,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "proposing a three-high subreddit sign above the Button"
+     ],
+     "sequence": [
+      "c0069",
+      "na"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 3,
+      "link_flair_text": "Strategy",
+      "retrieved_on": 1494553628
+     }
+    }
+   },
+   "631tkr": {
+    "0": {
+     "thread_id": "631tkr",
+     "item_id": "631tkr",
+     "parent_id": null,
+     "author": "mcmeaningoflife42",
+     "created_utc": 1491162844,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "announcing peace with Sweddit and a moved sign"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 9,
+      "link_flair_text": "News",
+      "author_flair_text": "Bringer of Flair",
+      "retrieved_on": 1494553903
+     }
+    },
+    "1": {
+     "thread_id": "631tkr",
+     "item_id": "dfqnoej",
+     "parent_id": "631tkr",
+     "author": "guuylol",
+     "created_utc": 1491164139,
+     "dt_parent_sec": 1295,
+     "dt_thread_sec": 1295,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493735309
+     }
+    },
+    "1.1": {
+     "thread_id": "631tkr",
+     "item_id": "dfqnqs8",
+     "parent_id": "dfqnoej",
+     "author": "mcmeaningoflife42",
+     "created_utc": 1491164231,
+     "dt_parent_sec": 92,
+     "dt_thread_sec": 1387,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "asking Jerma to redirect after being forced to move repeatedly"
+     ],
+     "sequence": [
+      "c0071",
+      "na"
+     ],
+     "coverage": 0.63,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Bringer of Flair",
+      "retrieved_on": 1493735341
+     }
+    },
+    "1.1.1": {
+     "thread_id": "631tkr",
+     "item_id": "dfqo1gz",
+     "parent_id": "dfqnqs8",
+     "author": "CaucyBiops",
+     "created_utc": 1491164624,
+     "dt_parent_sec": 393,
+     "dt_thread_sec": 1780,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "warning that replacing Jerma means fighting Overwatch bots"
+     ],
+     "sequence": [
+      "na",
+      "c0072"
+     ],
+     "coverage": 0.43,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493735485
+     }
+    },
+    "2": {
+     "thread_id": "631tkr",
+     "item_id": "dfr66gn",
+     "parent_id": "631tkr",
+     "author": "Rytho",
+     "created_utc": 1491187439,
+     "dt_parent_sec": 24595,
+     "dt_thread_sec": 24595,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "reporting Jerma moved and the letters are being built"
+     ],
+     "sequence": [
+      "c0073",
+      "na"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1493744510
+     }
+    }
+   },
+   "63426h": {
+    "0": {
+     "thread_id": "63426h",
+     "item_id": "63426h",
+     "parent_id": null,
+     "author": "Rytho",
+     "created_utc": 1491187036,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "looking back after doing several April first projects"
+     ],
+     "sequence": [
+      "c0074"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "link_flair_text": "OC",
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1494555067
+     }
+    }
+   },
+   "6357d5": {
+    "0": {
+     "thread_id": "6357d5",
+     "item_id": "6357d5",
+     "parent_id": null,
+     "author": "MissLauralot",
+     "created_utc": 1491203044,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "saving a screenshot of the logo and Button in mint condition"
+     ],
+     "sequence": [
+      "c0075"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "link_flair_text": "Picture",
+      "author_flair_text": "Advisor to the Knights",
+      "retrieved_on": 1494555633
+     }
+    }
+   },
+   "6359p6": {
+    "0": {
+     "thread_id": "6359p6",
+     "item_id": "6359p6",
+     "parent_id": null,
+     "author": "Rytho",
+     "created_utc": 1491204114,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0076",
+      "c0077"
+     ],
+     "labels": [
+      "cutting the purple face apart with blue flecks",
+      "celebrating the Swedes wrecking the purple face"
+     ],
+     "sequence": [
+      "c0076",
+      "na",
+      "c0077",
+      "na"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 6,
+      "link_flair_text": "News",
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1494555665
+     }
+    }
+   },
+   "635c2r": {
+    "0": {
+     "thread_id": "635c2r",
+     "item_id": "635c2r",
+     "parent_id": null,
+     "author": "Rytho",
+     "created_utc": 1491205258,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "proposing a project on Forsen's unused face"
+     ],
+     "sequence": [
+      "c0078"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "score": 9,
+      "link_flair_text": "Strategy",
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1494555697
+     }
+    },
+    "1": {
+     "thread_id": "635c2r",
+     "item_id": "dfrj8e0",
+     "parent_id": "635c2r",
+     "author": "LostTheGameOfThrones",
+     "created_utc": 1491213377,
+     "dt_parent_sec": 8119,
+     "dt_thread_sec": 8119,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "rejecting another project because the Button already strains their numbers"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493751412
+     }
+    },
+    "1.1": {
+     "thread_id": "635c2r",
+     "item_id": "dfrjag9",
+     "parent_id": "dfrj8e0",
+     "author": "Rytho",
+     "created_utc": 1491213547,
+     "dt_parent_sec": 170,
+     "dt_thread_sec": 8289,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "conceding the project exceeds their capacity"
+     ],
+     "sequence": [
+      "c0080"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1493751440
+     }
+    }
+   },
+   "638coh": {
+    "0": {
+     "thread_id": "638coh",
+     "item_id": "638coh",
+     "parent_id": null,
+     "author": "novice_at_life",
+     "created_utc": 1491241293,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "celebrating both works surviving the end"
+     ],
+     "sequence": [
+      "na",
+      "c0081"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 16,
+      "link_flair_text": "Victory!",
+      "retrieved_on": 1494557218
+     }
+    },
+    "1": {
+     "thread_id": "638coh",
+     "item_id": "dfsazs8",
+     "parent_id": "638coh",
+     "author": "Rytho",
+     "created_utc": 1491252148,
+     "dt_parent_sec": 10855,
+     "dt_thread_sec": 10855,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1493767250
+     }
+    },
+    "1.1": {
+     "thread_id": "638coh",
+     "item_id": "dfsb7bs",
+     "parent_id": "dfsazs8",
+     "author": "novice_at_life",
+     "created_utc": 1491252385,
+     "dt_parent_sec": 237,
+     "dt_thread_sec": 11092,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "judging two small mistakes a damn fine job"
+     ],
+     "sequence": [
+      "c0082"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493767352
+     }
+    }
+   },
+   "639m5h": {
+    "0": {
+     "thread_id": "639m5h",
+     "item_id": "639m5h",
+     "parent_id": null,
+     "author": "Ghostise",
+     "created_utc": 1491253812,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0083",
+      "c0084",
+      "c0085"
+     ],
+     "labels": [
+      "praising everyone for holding the line",
+      "recounting 72 hours of pixels and allied coordination",
+      "thanking Sweden for holding off attacks"
+     ],
+     "sequence": [
+      "c0083",
+      "na",
+      "c0084",
+      "na",
+      "c0085",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "stickied": true,
+      "score": 15,
+      "link_flair_text": "Victory!",
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1494557853
+     }
+    },
+    "1": {
+     "thread_id": "639m5h",
+     "item_id": "dfscrgq",
+     "parent_id": "639m5h",
+     "author": "Rytho",
+     "created_utc": 1491254165,
+     "dt_parent_sec": 353,
+     "dt_thread_sec": 353,
+     "state": "coded",
+     "code_ids": [
+      "c0086"
+     ],
+     "labels": [
+      "counting renewed membership as a good showing"
+     ],
+     "sequence": [
+      "c0086"
+     ],
+     "coverage": 0.84,
+     "meta": {
+      "edited": 1491254650,
+      "score": 7,
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1493768101
+     }
+    }
+   },
+   "639ymb": {
+    "0": {
+     "thread_id": "639ymb",
+     "item_id": "639ymb",
+     "parent_id": null,
+     "author": "Ghostise",
+     "created_utc": 1491256502,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0087"
+     ],
+     "labels": [
+      "starting the election once the event is over"
+     ],
+     "sequence": [
+      "na",
+      "c0087",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "distinguished": "moderator",
+      "edited": 1491257806,
+      "score": 10,
+      "link_flair_text": "Election 2017",
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1494558024
+     }
+    },
+    "1": {
+     "thread_id": "639ymb",
+     "item_id": "dfsfeid",
+     "parent_id": "639ymb",
+     "author": "Ghostise",
+     "created_utc": 1491257219,
+     "dt_parent_sec": 717,
+     "dt_thread_sec": 717,
+     "state": "coded",
+     "code_ids": [
+      "c0088"
+     ],
+     "labels": [
+      "running on veteran service across three April events"
+     ],
+     "sequence": [
+      "na",
+      "c0088",
+      "na"
+     ],
+     "coverage": 0.45,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1493769374
+     }
+    },
+    "2": {
+     "thread_id": "639ymb",
+     "item_id": "dfsj83n",
+     "parent_id": "639ymb",
+     "author": "Rytho",
+     "created_utc": 1491261924,
+     "dt_parent_sec": 5422,
+     "dt_thread_sec": 5422,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "campaigning to update people left out of Discord"
+     ],
+     "sequence": [
+      "na",
+      "c0089"
+     ],
+     "coverage": 0.1,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "First Ranger",
+      "retrieved_on": 1493771217
+     }
+    }
+   },
+   "63a4o3": {
+    "0": {
+     "thread_id": "63a4o3",
+     "item_id": "63a4o3",
+     "parent_id": null,
+     "author": "Ghostise",
+     "created_utc": 1491258162,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "opening voter registration after the event"
+     ],
+     "sequence": [
+      "na",
+      "c0090",
+      "na"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 8,
+      "link_flair_text": "Election 2017",
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1494558108
+     }
+    },
+    "1": {
+     "thread_id": "63a4o3",
+     "item_id": "dfsgbjc",
+     "parent_id": "63a4o3",
+     "author": "SpinelessCrow_",
+     "created_utc": 1491258338,
+     "dt_parent_sec": 176,
+     "dt_thread_sec": 176,
+     "state": "coded",
+     "code_ids": [
+      "c0091"
+     ],
+     "labels": [
+      "registering to vote while joking about being human"
+     ],
+     "sequence": [
+      "c0091"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493769818
+     }
+    },
+    "2": {
+     "thread_id": "63a4o3",
+     "item_id": "dfsq3k0",
+     "parent_id": "63a4o3",
+     "author": "asde",
+     "created_utc": 1491270242,
+     "dt_parent_sec": 12080,
+     "dt_thread_sec": 12080,
+     "state": "coded",
+     "code_ids": [
+      "c0092"
+     ],
+     "labels": [
+      "withdrawing voter registration"
+     ],
+     "sequence": [
+      "c0092"
+     ],
+     "coverage": 0.71,
+     "meta": {
+      "edited": 1491364974,
+      "score": 1,
+      "retrieved_on": 1493774661
+     }
+    }
+   },
+   "63a4qy": {
+    "0": {
+     "thread_id": "63a4qy",
+     "item_id": "63a4qy",
+     "parent_id": null,
+     "author": "Ghostise",
+     "created_utc": 1491258190,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0093",
+      "c0094"
+     ],
+     "labels": [
+      "moving elections after April Fools to avoid confusion during the event",
+      "making next-event preparation a Grandmaster duty"
+     ],
+     "sequence": [
+      "na",
+      "c0093",
+      "na",
+      "c0094",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "distinguished": "moderator",
+      "edited": 1491449644,
+      "score": 18,
+      "link_flair_text": "Election 2017",
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1494558109
+     }
+    }
+   },
+   "63blhy": {
+    "0": {
+     "thread_id": "63blhy",
+     "item_id": "63blhy",
+     "parent_id": null,
+     "author": "GreyKnight373",
+     "created_utc": 1491274595,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 7,
+      "link_flair_text": "Question",
+      "retrieved_on": 1494558834
+     }
+    },
+    "1": {
+     "thread_id": "63blhy",
+     "item_id": "dfsz4ht",
+     "parent_id": "63blhy",
+     "author": "Ghostise",
+     "created_utc": 1491283082,
+     "dt_parent_sec": 8487,
+     "dt_thread_sec": 8487,
+     "state": "coded",
+     "code_ids": [
+      "c0095",
+      "c0096"
+     ],
+     "labels": [
+      "describing the Knights as returning yearly to push the experiment",
+      "describing the yearly meetup as shitposting together"
+     ],
+     "sequence": [
+      "na",
+      "c0095",
+      "c0096",
+      "na"
+     ],
+     "coverage": 0.56,
+     "meta": {
+      "score": 6,
+      "author_flair_text": "Grandmaster",
+      "retrieved_on": 1493779118
+     }
+    },
+    "2": {
+     "thread_id": "63blhy",
+     "item_id": "dft8k8l",
+     "parent_id": "63blhy",
+     "author": "MissLauralot",
+     "created_utc": 1491307822,
+     "dt_parent_sec": 33227,
+     "dt_thread_sec": 33227,
+     "state": "coded",
+     "code_ids": [
+      "c0097"
+     ],
+     "labels": [
+      "tracing the Knights to the Button and awaiting the next event"
+     ],
+     "sequence": [
+      "c0097",
+      "na"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "edited": 1491379628,
+      "score": 7,
+      "author_flair_text": "Advisor to the Knights",
+      "retrieved_on": 1493783681
+     }
+    }
+   },
+   "63bsil": {
+    "0": {
+     "thread_id": "63bsil",
+     "item_id": "63bsil",
+     "parent_id": null,
+     "author": "MissLauralot",
+     "created_utc": 1491277099,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0098"
+     ],
+     "labels": [
+      "making a subreddit to fix what is wrong with the finished canvas"
+     ],
+     "sequence": [
+      "c0098"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "link_flair_text": "Meta",
+      "author_flair_text": "Advisor to the Knights",
+      "retrieved_on": 1494558930
+     }
+    }
+   }
+  }
+ }
+}

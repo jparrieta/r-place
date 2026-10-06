@@ -1,0 +1,33 @@
+# timeline — r/anarchism
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+## seeded by the harness from the record's metadata (sticky and moderator marks are as of retrieval)
+
+- H-7.90 03-31 08:05 [moderator] post by AutoModerator: Friday Free Talk (62jxtg)
+- H+4.22 03-31 20:13 [edited] comment giving coordinates for BASH THE FASH and a black and red flag (dfnyjj5)
+- H+7.73 03-31 23:44 [edited] post asking for an anarchist reading group and contrasting it with canvas activity (62p59c)
+- H+9.40 04-01 01:24 [edited] comment later reading “redacted” in the r/place flag thread (dfocoky)
+- H+14.37 04-01 06:22 [edited] reply later reading “redacted” in the r/place flag thread (dfon5hw)
+- d0 04-01 15:20 [edited] comment in the targeted-ancom-flag thread later added “nothing bad about eating ass” (dfp0a56)
+- d1 04-01 16:43 [edited] comment recounted repeated failed swastikas and a briefly green ancom flag (dfp3rzw)
+- d1 04-02 11:04 [edited] comment located a circle A above the Red far left, reported its top mostly done, and asked for help (dfq3ckv)
+- d2 04-02 20:20 [edited] comment argued that a flag cannot be co-opted if one does not have a flag (dfqnvpu)
+- d2 04-02 23:02 [edited] comment asked what r/place was and later said people cared too much about a forum game (dfqvd3w)
+- d2 04-03 08:30 [edited] post said its author wrote a bot to vandalize the American flag on r/place; its body was later removed (635hzw)
+- d2 04-03 13:33 [moderator] comment removed an rPlace post and redirected discussion to the MegaPost or r/TheFarLeftSide (dfrpf5p)
+- d2 04-03 13:34 [moderator] comments removed rPlace posts and redirected discussion to the MegaPost or r/TheFarLeftSide (dfrpgg3; dfrpfvv)
+- d2 04-03 13:35 [moderator] comments removed rPlace posts and redirected discussion to the MegaPost or r/TheFarLeftSide (dfrpieu; dfrphw5)
+- d2 04-03 13:36 [moderator] comment removed an rPlace post and redirected discussion to the MegaPost or r/TheFarLeftSide (dfrpj7r)
+- d2 04-03 13:40 [moderator] comment removed an rPlace post and redirected discussion to the MegaPost or r/TheFarLeftSide (dfrppdk)
+- d2 04-03 13:41 [moderator] comment removed an rPlace post and redirected discussion to the MegaPost or r/TheFarLeftSide (dfrprfc)
+- d2 04-03 13:43 [moderator] comment removed The Void post and redirected discussion to the MegaPost or r/TheFarLeftSide (dfrpuhn)
+- d2 04-03 13:44 [moderator] comments removed rPlace posts and redirected discussion to the MegaPost or r/TheFarLeftSide (dfrpvgy; dfrpw0f)
+- d2 04-03 13:45 [moderator] comment removed the ancom flag bot post and redirected discussion to the MegaPost or r/TheFarLeftSide (dfrpwhx)
+- d2 04-03 15:33 [edited] comment added a placebot template and instructions, then later recorded that r/place had ended (dfrv3qm)
+- d3 04-03 19:44 [edited] post revised its three-step argument about anarcho-capitalism and apologized for multiple related posts (6394ab)
+- d3 04-03 20:19 [edited] post crossposted an argument about anarcho-communism; its body was later removed (639bj9)
+- d3 04-04 06:43 [edited] comment recommended a book on Korean anarchism and later added that more material might be translated (dft1f4k)
+- d3 04-04 08:38 [edited] comment advised buying used goods and avoiding planned obsolescence (dft3ucn)
+- d3 04-04 13:54 [edited] comment recommended spray paint or marker instead of smashing anti-abortion signs (dftcm0s)
+- d3 04-04 13:32 [edited] post argued that the top active moderator had defied community votes and should step down (63e486)

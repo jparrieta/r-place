@@ -1,0 +1,1 @@
+r/anarchism — branch B; verdict: full. Practice saturation: later slices added no new r/place practices. Record saturation: removals, image-only posts, and off-platform activity limit completeness. Blockers: none.

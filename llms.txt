@@ -1,0 +1,33 @@
+# r/place
+
+> A census study of how 706 Reddit communities organised on r/place in 2017, run with language-model agents. A coder codes each community as a case (Gioia and Eisenhardt); an aggregator builds one model across them. This repository holds both instruments, their handlers, the scripts that rebuild the data, and the aggregator's run, instrument v43.
+
+Agents: read FOR-AGENTS.md before acting. Check with `bash verify.sh`. Figures that move are in Manual/numbers.md.
+
+## Start
+
+- [README.md](README.md): what is here, data availability, requirements, the steps in order, and where each input of the run comes from
+- [FOR-AGENTS.md](FOR-AGENTS.md): rules, checks, and where the truth is
+- [Manual/README.md](Manual/README.md): the Manual's front page and the run's progress
+- [Manual/1-introduction.md](Manual/1-introduction.md): what the study asks
+
+## The method
+
+- [Manual/10-for-reviewers.md](Manual/10-for-reviewers.md): the tiers against Gioia's, which model did each step, how to check one room
+- [Manual/trace-a-claim.md](Manual/trace-a-claim.md): one claim followed from the case account down to the Reddit item
+- [Manual/census.md](Manual/census.md): from 1,473 artworks to 706 communities, and the judgements on the way
+- [Manual/4-the-coder.md](Manual/4-the-coder.md), [Manual/5-the-aggregator.md](Manual/5-the-aggregator.md): each instrument
+
+## Running
+
+- [aggregator/handler/HANDLER.md](aggregator/handler/HANDLER.md): the aggregator's handler protocol
+- [coder/handler/CONTRACT-scheduler.md](coder/handler/CONTRACT-scheduler.md): the yard's scheduler contract
+- [data/README.md](data/README.md): getting every data store
+- [Manual/9-resuming.md](Manual/9-resuming.md): talking with a closed leg, and continuing a run
+
+## Optional
+
+- [Manual/files/README.md](Manual/files/README.md): every kind of file, one page each
+- [Manual/glossary.md](Manual/glossary.md): the terms
+- [Manual/numbers.md](Manual/numbers.md): the counts, generated from the files
+- [aggregator/instrument/CONTRACT-aggregator.md](aggregator/instrument/CONTRACT-aggregator.md): the analyst's contract in full

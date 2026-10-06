@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`tools/fleet.py` (the handler's)</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-fleet-py.md">Markdown source</a></nav>
+<h1 id="toolsfleetpy-the-handlers"><code>tools/fleet.py</code> (the handler's)</h1>
+<p>The dispatch leg of a fleet stage, run outside the analyst's session.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>For every packet it sends the shared pages, the packet and the return specification to R fresh readers on the route in <code>arm.json</code>, validates each reply (end marker, one JSON object per line, required keys, item count from <code>MANIFEST.json</code>), reissues a failed one to a fresh reader id, and writes under <code>--raw</code>: <code>arm.json</code> (the model that served), per reader <code>.jsonl</code>, <code>.raw.txt</code>, <code>.meta.json</code> and <code>.failed.txt</code>, <code>log.jsonl</code>, <code>EXHAUSTED.tsv</code>, and <code>DONE</code> with counts, spend and tokens. Two routes: <code>gateway</code> (OpenRouter, a preset alias, the key from the Keychain or <code>$OPENROUTER_KEY</code>) and <code>cli</code> (the Claude Code CLI on the subscription). An Anthropic model is refused unless <code>--allow-anthropic</code> is passed, which <code>arm.json</code> sets for C2 and C5.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>The handler, through <code>dispatch.sh</code>. <code>build.sh</code> leaves it out of the analyst's <code>tools/</code> and puts it in <code>CONTROL/harness/validation_tools/</code>.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>FLEET §1: "the dispatch is not yours". It "analyses nothing", so no model reads a return before the analyst's check leg does.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/validation_tools/fleet.py">CONTROL/harness/validation_tools/fleet.py</a>; source <a href="../../../aggregator/instrument/tools/fleet.py">aggregator/instrument/tools/fleet.py</a>.</p>
+<p>Checked against: tools/fleet.py, harness/dispatch.sh, harness/build.sh, FLEET.md §1.</p>
+</body>
+</html>

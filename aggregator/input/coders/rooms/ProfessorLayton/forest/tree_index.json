@@ -1,0 +1,665 @@
+{
+ "ProfessorLayton": {
+  "counts": {
+   "threads_given": 4,
+   "threads_with_codes": 4,
+   "items": 28,
+   "coded": 26,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 2,
+   "orphans": 0,
+   "na_stretches": 0,
+   "coverage_of_coded_items": 0.98,
+   "threads_total_in_window": 7
+  },
+  "index": {
+   "62y6m6": {
+    "0": {
+     "thread_id": "62y6m6",
+     "item_id": "62y6m6",
+     "parent_id": null,
+     "author": "Alutic",
+     "created_utc": 1491113335,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "calling people to coordinates to help out"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 19,
+      "retrieved_on": 1494552060
+     }
+    },
+    "1": {
+     "thread_id": "62y6m6",
+     "item_id": "dfpy4eq",
+     "parent_id": "62y6m6",
+     "author": "Fire4564",
+     "created_utc": 1491113952,
+     "dt_parent_sec": 617,
+     "dt_thread_sec": 617,
+     "state": "coded",
+     "code_ids": [
+      "c0002",
+      "c0003"
+     ],
+     "labels": [
+      "asking what to put at the coordinate",
+      "spotting mini Layton and directing a brown square onto his hat"
+     ],
+     "sequence": [
+      "c0002",
+      "c0003"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493722973
+     }
+    },
+    "1.1": {
+     "thread_id": "62y6m6",
+     "item_id": "dfpye0g",
+     "parent_id": "dfpy4eq",
+     "author": "Alutic",
+     "created_utc": 1491114636,
+     "dt_parent_sec": 684,
+     "dt_thread_sec": 1301,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "thanking a helper and promising a picture"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493723101
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62y6m6",
+     "item_id": "dfq097l",
+     "parent_id": "dfpye0g",
+     "author": "Fire4564",
+     "created_utc": 1491119941,
+     "dt_parent_sec": 5305,
+     "dt_thread_sec": 6606,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "praising how Layton is coming out"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724001
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62y6m6",
+     "item_id": "dfq0c4v",
+     "parent_id": "dfq097l",
+     "author": "Alutic",
+     "created_utc": 1491120201,
+     "dt_parent_sec": 260,
+     "dt_thread_sec": 6866,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "thanking help and saying murica made it time to call backup"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724040
+     }
+    },
+    "2": {
+     "thread_id": "62y6m6",
+     "item_id": "dfpygz5",
+     "parent_id": "62y6m6",
+     "author": "Alutic",
+     "created_utc": 1491114854,
+     "dt_parent_sec": 1519,
+     "dt_thread_sec": 1519,
+     "state": "coded",
+     "code_ids": [
+      "c0005",
+      "c0006"
+     ],
+     "labels": [
+      "sharing the image they are going for",
+      "warning not to stir up the Americans"
+     ],
+     "sequence": [
+      "c0005",
+      "c0006"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493723140
+     }
+    },
+    "3": {
+     "thread_id": "62y6m6",
+     "item_id": "dfq3eak",
+     "parent_id": "62y6m6",
+     "author": "Fire4564",
+     "created_utc": 1491131234,
+     "dt_parent_sec": 17899,
+     "dt_thread_sec": 17899,
+     "state": "coded",
+     "code_ids": [
+      "c0009",
+      "c0010"
+     ],
+     "labels": [
+      "celebrating that they did it with a picture",
+      "asking whether to do Luke next"
+     ],
+     "sequence": [
+      "c0009",
+      "c0010"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493725514
+     }
+    },
+    "3.1": {
+     "thread_id": "62y6m6",
+     "item_id": "dfq3gam",
+     "parent_id": "dfq3eak",
+     "author": "Alutic",
+     "created_utc": 1491131417,
+     "dt_parent_sec": 183,
+     "dt_thread_sec": 18082,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "agreeing to do Luke in unused space and starting pixels"
+     ],
+     "sequence": [
+      "c0011"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493725541
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62y6m6",
+     "item_id": "dfq3k9o",
+     "parent_id": "dfq3gam",
+     "author": "Fire4564",
+     "created_utc": 1491131796,
+     "dt_parent_sec": 379,
+     "dt_thread_sec": 18461,
+     "state": "coded",
+     "code_ids": [
+      "c0012",
+      "c0013"
+     ],
+     "labels": [
+      "promising to contribute when Luke becomes visible",
+      "announcing that Luke is visible"
+     ],
+     "sequence": [
+      "c0012",
+      "c0013"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "edited": 1491132668,
+      "score": 2,
+      "retrieved_on": 1493725594
+     }
+    },
+    "4": {
+     "thread_id": "62y6m6",
+     "item_id": "dfqcrfc",
+     "parent_id": "62y6m6",
+     "author": "Shadow3ragon",
+     "created_utc": 1491149893,
+     "dt_parent_sec": 36558,
+     "dt_thread_sec": 36558,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "liking the work and joking that it looks like Trumps wall"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493730035
+     }
+    },
+    "5": {
+     "thread_id": "62y6m6",
+     "item_id": "dfqd5p4",
+     "parent_id": "62y6m6",
+     "author": "Fire4564",
+     "created_utc": 1491150433,
+     "dt_parent_sec": 37098,
+     "dt_thread_sec": 37098,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "signing off while recruiting help to complete Luke"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491150844,
+      "score": 3,
+      "retrieved_on": 1493730226
+     }
+    },
+    "6": {
+     "thread_id": "62y6m6",
+     "item_id": "dfqihap",
+     "parent_id": "62y6m6",
+     "author": "quinteus",
+     "created_utc": 1491157344,
+     "dt_parent_sec": 44009,
+     "dt_thread_sec": 44009,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "seeking more people to expand Luke downwards"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493732795
+     }
+    },
+    "7": {
+     "thread_id": "62y6m6",
+     "item_id": "dfqmxy1",
+     "parent_id": "62y6m6",
+     "author": "quinteus",
+     "created_utc": 1491163160,
+     "dt_parent_sec": 49825,
+     "dt_thread_sec": 49825,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "proposing a puzzling question mark between the duo"
+     ],
+     "sequence": [
+      "c0017"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493734955
+     }
+    },
+    "8": {
+     "thread_id": "62y6m6",
+     "item_id": "dfqtrox",
+     "parent_id": "62y6m6",
+     "author": "the_time_weaver",
+     "created_utc": 1491172162,
+     "dt_parent_sec": 58827,
+     "dt_thread_sec": 58827,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "calling for immediate help as people color over it"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493738495
+     }
+    },
+    "8.1": {
+     "thread_id": "62y6m6",
+     "item_id": "dfqw2ze",
+     "parent_id": "dfqtrox",
+     "author": "stephaba",
+     "created_utc": 1491175074,
+     "dt_parent_sec": 2912,
+     "dt_thread_sec": 61739,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "answering that they are working on Luke"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493739628
+     }
+    }
+   },
+   "633e3o": {
+    "0": {
+     "thread_id": "633e3o",
+     "item_id": "633e3o",
+     "parent_id": null,
+     "author": "Ahjeofel",
+     "created_utc": 1491179400,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "celebrating that they did it"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 57,
+      "retrieved_on": 1494554735
+     }
+    },
+    "1": {
+     "thread_id": "633e3o",
+     "item_id": "dfraknk",
+     "parent_id": "633e3o",
+     "author": "Fire4564",
+     "created_utc": 1491192938,
+     "dt_parent_sec": 13538,
+     "dt_thread_sec": 13538,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "waking happy and congratulating the team"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493746672
+     }
+    },
+    "2": {
+     "thread_id": "633e3o",
+     "item_id": "dfrbd7y",
+     "parent_id": "633e3o",
+     "author": "Ahjeofel",
+     "created_utc": 1491194184,
+     "dt_parent_sec": 14784,
+     "dt_thread_sec": 14784,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "saying they now need to maintain it"
+     ],
+     "sequence": [
+      "c0022"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1493747055
+     }
+    },
+    "3": {
+     "thread_id": "633e3o",
+     "item_id": "dfrx5nz",
+     "parent_id": "633e3o",
+     "author": "tuthuu",
+     "created_utc": 1491235986,
+     "dt_parent_sec": 56586,
+     "dt_thread_sec": 56586,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "asking what the finished picture is"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493759515
+     }
+    },
+    "3.1": {
+     "thread_id": "633e3o",
+     "item_id": "dfsfc97",
+     "parent_id": "dfrx5nz",
+     "author": "Ahjeofel",
+     "created_utc": 1491257145,
+     "dt_parent_sec": 21159,
+     "dt_thread_sec": 77745,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "identifying it as r/place stuff"
+     ],
+     "sequence": [
+      "c0025"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493769345
+     }
+    },
+    "4": {
+     "thread_id": "633e3o",
+     "item_id": "dfs850c",
+     "parent_id": "633e3o",
+     "author": "the_time_weaver",
+     "created_utc": 1491248854,
+     "dt_parent_sec": 69454,
+     "dt_thread_sec": 69454,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "recounting helping to paint it and enjoying the result"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493765870
+     }
+    }
+   },
+   "6364a0": {
+    "0": {
+     "thread_id": "6364a0",
+     "item_id": "6364a0",
+     "parent_id": null,
+     "author": "Alutic",
+     "created_utc": 1491218479,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "joking that a Gentlemen doesn't stare"
+     ],
+     "sequence": [
+      "c0026"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1494556093
+     }
+    },
+    "1": {
+     "thread_id": "6364a0",
+     "item_id": "dfsi2vr",
+     "parent_id": "6364a0",
+     "author": "Ahjeofel",
+     "created_utc": 1491260480,
+     "dt_parent_sec": 42001,
+     "dt_thread_sec": 42001,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "asking what people were trying to build down there"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493770663
+     }
+    },
+    "1.1": {
+     "thread_id": "6364a0",
+     "item_id": "dfslj6r",
+     "parent_id": "dfsi2vr",
+     "author": "Alutic",
+     "created_utc": 1491264783,
+     "dt_parent_sec": 4303,
+     "dt_thread_sec": 46304,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "recounting the flag being torn down and guessing how the face appeared"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493772344
+     }
+    }
+   },
+   "636yyv": {
+    "0": {
+     "thread_id": "636yyv",
+     "item_id": "636yyv",
+     "parent_id": null,
+     "author": "Pierre56",
+     "created_utc": 1491228367,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "proposing picarat and question-mark designs between Luke and Layton"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 19,
+      "retrieved_on": 1494556524
+     }
+    },
+    "1": {
+     "thread_id": "636yyv",
+     "item_id": "dfsabne",
+     "parent_id": "636yyv",
+     "author": "pk478",
+     "created_utc": 1491251392,
+     "dt_parent_sec": 23025,
+     "dt_thread_sec": 23025,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "endorsing the proposed design"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493766927
+     }
+    }
+   }
+  }
+ }
+}

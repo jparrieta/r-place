@@ -1,0 +1,79 @@
+{
+ "sub": "thenetherlands",
+ "built": "2026-09-06T16:52:31Z",
+ "instrument": "v32",
+ "items_in_window": 5865,
+ "items_by_people": 5850,
+ "chars_by_people": 928592,
+ "threads": 511,
+ "preweek_items": 13285,
+ "brief": "present",
+ "expected_branch": "B",
+ "expected_slices": 12,
+ "stage": "verified",
+ "log": [],
+ "notes": [
+  {
+   "at": "2026-09-08T20:15:48.306941+00:00",
+   "note": "Brief written in /Users/arrieta/Documents/ChatGPT/place Yard/atlas_yard/rooms/thenetherlands/brief; full transcript retained; paths relocated and source-side validation rerun. Queue rank 302"
+  },
+  {
+   "at": "2026-09-21T16:44:37Z",
+   "note": "Started native case lead using lead-calibration-v2; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-21T19:54:43Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/thenetherlands-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-21T19:55:47.102579+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:57Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "agents": [
+  {
+   "role": "brief writer",
+   "model": "gpt-5.6-sol",
+   "agent_id": "01a08296-86eb-7272-8d29-586890f97717",
+   "started": "2026-09-08T19:54:58.435683+00:00",
+   "ended": "2026-09-08T20:15:45.059667+00:00",
+   "attempt": 1,
+   "transcript": "full platform transcript"
+  }
+ ],
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-08T20:15:48Z",
+ "brief_validation_digest": "a1b9996bc8f8f8ff9158ee69bdd84c9805f2d1392f26302431b3ad9cde00950c",
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "model": "gpt-5.6-sol",
+ "fingerprint": "5873e1e29cdab0cb",
+ "branch": "B",
+ "slices": 14,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 414,
+ "themes": 12,
+ "verified_utc": "2026-09-21T19:54:43Z",
+ "finished": "2026-09-21T19:54:40.230553+00:00",
+ "carried": "run",
+ "reported_total_tokens": 32205595,
+ "lead_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/thenetherlands-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "8df7bbad3588ecbb788a612eb534c5e5f5ea2b0186bddccd6312df9b3b014803",
+ "lead_archive_bytes": 144579884,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/thenetherlands/run.tar.zst",
+ "run_archive_sha256": "704c3970fc6ae56db744428b954f9aa1e29004611573b6b1b001e7b6d543ae27",
+ "run_archive_bytes": 5317040,
+ "run_archived_utc": "2026-09-25T13:39:02.326883+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/thenetherlands/materials.tar.zst",
+ "materials_archive_sha256": "622d95545bb4b21b767fbd71f0a5811bcec98c1741aabb2da94b0bd82408b1d2",
+ "materials_archive_bytes": 6707953,
+ "materials_archived_utc": "2026-09-25T13:49:25.465458+00:00"
+}

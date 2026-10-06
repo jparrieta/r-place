@@ -1,0 +1,1 @@
+r/winnipegjets — branch B, verdict `full`. Practice saturation was strong; later material mostly repeated established practices. Record saturation was limited by split reading, deletions, and unseen Discord deliberation. No blockers.

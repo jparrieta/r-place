@@ -1,0 +1,53 @@
+# ledger — r/phish
+
+The case lead's memory of the fleet, kept by the harness at every `collect` and extended by the lead by hand under each entry. A fork's lead reads it first. Nothing here is a code or a citation; it is what each slice left open, what its coder flagged, and what the lead decided at the time.
+
+## batch 01  hours +0.29 to +37.86  threads 57  (collected 2026-09-08T20:18:32Z)
+
+- disposed 57: coded 6, out of scope 51; codes 52; pointers 6
+- coded threads: 62onkz, 62pyhf, 62r995, 62tmfd, 62w6c6, 62y4e9
+- timeline.md +8: - d0 04-01 04:42 — `dfok7xt` is edited; its text includes added pixel dimensions for the Fluffhead t | - d1 04-01 22:57 — `62w6c6` is an edited post whose body is deleted and whose surviving title is “Op | - d1 04-02 07:21 — `dfpzi6z` is edited; its text includes coordinates and a pattern coordinated with | - d2 04-02 16:15 — `dfqcn9h` is edited; it points readers to a script and further maintenance discus | - d2 04-02 16:54 — `dfqed9c` is edited; it describes overwriting remnants at the prior Fluffhead pos | - d2 04-02 20:09 — `dfqnegl` is edited; it again points readers to the maintenance script and discus | - d2 04-02 20:51 — `dfqp89f` is edited; its text says the script was deployed. | - d2 04-02 21:17 — `dfqqboy` is edited; it explains the script’s “undefined” console output and cool
+- lexicon.md +7: Fluffhead — `62onkz` | stealie — `dfo7lke` | factions — `62tmfd` | Operation Fluffhead — `62w6c6` | r/bopp — `dfpzi6z` | fishman donut pattern — `dfqpavy` | the void — `dfr2rwy`
+
+**Coder's final message.** r/phish, batch 01. Left edge: first slice, no inherited activity. Right edge: logo building and Fluffhead defense remain unresolved. No blockers.
+
+**Episodes the coder tagged [unresolved] or [inherited]** (from its case.md):
+- At d1 04-01 16:08, `62tmfd` explicitly calls itself “round 2.” The organizer replaces improvisation with a 64-by-64 logo, an overlay, coordinates, a browser plugin, and a numbered plan. Members divide work, cover quieter Asian hours, recruit on Phantasy Tour, post screenshots, and encourage continue
+- From d1 04-02 05:51 through the slice’s last thread, `62y4e9`, participants celebrate that Fluffhead stayed up, coordinate a pattern with r/bopp and r/brasil, respond to overwriting by rebuilding in a shifted location, and refer newcomers to a maintenance script. They troubleshoot browser-console us
+
+**Anomalies and leads** (from its notes.md):
+The room moves between manual pixels, overlay templates, account switching, and JavaScript. Neighbor relations are reciprocal rather than merely named: a Koi creator requests space, Brazilian-pattern work provides mutual defense, and r/bopp both receives help and corrects the Phish script. The later slice should establish whether the larger Phish logo was completed, whether Fluffhead survived until placement stopped, and how the request to fight the void developed.
+
+**Data problems** (from its notes.md):
+Several bodies are deleted, including the opening of Operation Fluffhead. Image and link contents were not fetched or inferred. The slice boundary is the larger limitation: the logo effort and automated defense are active in the final retained thread, so this slice cannot state their final outcome. Off-platform organizing on Phantasy Tour is visible only through the recruitment link that returns to Reddit; a phish.net recruitment post is proposed but not confirmed here.
+
+**Lead's strikes and remarks at collect:** No timeline or lexicon lines struck: all eight timeline additions identify edited items and state what their surviving text contains, and all seven lexicon additions are unglossed terms with item ids. Carry to step 5 the unresolved continuation from manual pixels to overlays and scripts; the rebuilding and defense still active at `62y4e9`; the reported reciprocal work with r/bopp and r/brasil; the proposed but unconfirmed phish.net recruitment; and the limited view of Phantasy Tour. Treat any relation across the 01|02 boundary as cross-slice and require textual support, not sequence alone. All canvas-naming openings in this slice that the coder kept are among its six coded threads; none requires an out-of-scope follow-up from the openings check.
+## batch 02  hours +38.78 to +96.26  threads 31  (collected 2026-09-08T20:29:12Z)
+
+- disposed 31: coded 7, out of scope 24; codes 45; pointers 8
+- coded threads: 62zq0t, 63062s, 63107e, 6342ba, 6367ks, 636h4f, 63akzk
+- timeline.md +8: - d1 04-02 15:11 — `dfq9xy3` is edited; it links Brazil's proposed project and says most space would | - d1 04-02 15:18 — `63062s` is edited; its text adds an instruction to follow the Camp Buttpussy pla | - d1 04-02 15:35 — `dfqawzy` is edited with progress reports on rebuilding letters in Fluffhead's ne | - d2 04-02 16:02 — `dfqc2s7` is edited; it says Brazil finished helping with the move and would stop | - d2 04-03 12:17 — `dfrmnpj` is edited; it says the author is protecting Fluffhead all day at work. | - d3 04-03 17:16 — `dfs0adh` is edited; it thanks participants and describes the final Fluffhead as  | - d3 04-03 19:40 — `dfs7sdl` is edited; it disputes blaming all of Brazil and reports Discord instru | - d3 04-04 00:01 — `dfskxp5` is edited; it reports a one-pixel problem and a timeout while building 
+- lexicon.md +5: Fluffheader — `dfq9txm` | Camp Buttpussy — `63062s` | TWeezer — `6342ba` | Nono — `636h4f` | PlaceTwo — `63akzk`
+
+**Coder's final message.** r/phish, batch 02. Left edge inherited; right edge unresolved by the continuing PlaceTwo thread. No blockers.
+
+**Episodes the coder tagged [unresolved] or [inherited]** (from its case.md):
+- This slice begins while Fluffhead is already an established r/place project. A visitor from Brazil proposes moving the word left, members ask what is happening, and participants move it while negotiating with r/bopp and r/placeportalpattern; by `dfqc2s7`, Brazil's helper says the move is finished an
+- Alongside that move, `63062s` presses the pre-existing Camp Buttpussy sticker and festival-group joke into service: its author asks for the phrase near Fluffhead, people recognize it from Vibes and Magnaball, and one person turns that recognition into an offer to help. The slice never shows whether 
+- Defense becomes the central activity from `63107e` through `6367ks`. Members request more people, discuss letter and background colors, announce a maintenance script, warn about the void, teach newcomers how to place pixels, recruit Phantasy Tour, and debate defense versus retaliation. At d3 04-03 1
+- Smaller proposals do not become visible collective projects here. `6342ba` proposes changing Weezer to TWeezer and starting a donut pattern, while `636h4f` asks whether a Nono appeared. Their outcomes are not shown inside the slice; evidence of completed edits would settle them. [unresolved]
+- After r/place ends, `63akzk` asks the room to rebuild a classic Phish logo on PlaceTwo. The author reports an outline, a one-pixel error, and eventually completion with a donut-pattern background, while another member says they are moving on and another argues for more preparation. The thread contin
+- The PlaceTwo effort names the earlier r/place design at `dfsk2az`, so the successor drawing is directly presented as a continuation after the original canvas rather than merely following it in time. Its post-window continuation prevents a settled endpoint here. [unresolved]
+- The Camp Buttpussy post asks for placement, while its comments mostly establish the joke's festival history and social recognition; completion is absent from both layers. [unresolved]
+- The PlaceTwo post asks for help, and comments alone show the one-pixel problem, disagreement over preparation, refusal to continue, and an in-window claim of completion. Because the same thread extends beyond the window, that completion is provisional for this slice. [unresolved]
+- That reading would be unseated by in-slice passages showing that members broadly abandoned Fluffhead before the close, rejected defense as illegitimate, or treated PlaceTwo as wholly unrelated to what they had just done on r/place. The required counter-reading search belongs to the case lead and was
+- Off-platform coordination is only partly visible. Phantasy Tour is said to have been recruited, and `dfs7sdl` reports instructions from a Discord head, but neither venue's deliberation is in the corpus. PlaceTwo activity itself is also visible only through reports returned to r/phish. [unresolved]
+- r/bopp and r/placeportalpattern appear as places for consultation over borders and patterns. r/brasil is described both as an attacker and as a source of helpers and peacekeeping. r/gratefuldead appears in a proposed retaliatory edit that the slice does not show being carried out. Phantasy Tour and 
+
+**Anomalies and leads** (from its notes.md):
+The same Brazil relationship is narrated as relocation help, attack, defense assistance, and post-event grievance. That mixed account is a lead for the case lead's across-slice relation analysis. A one-question Nono thread receives answers only after the window, and the PlaceTwo thread likewise continues after the window.
+
+**Data problems** (from its notes.md):
+Deleted bodies and replies are especially visible in `6342ba` and `6367ks`. Their surviving titles and replies support codes, but the missing text cannot be reconstructed. Discord and Phantasy Tour are reported from inside r/phish, while their internal exchanges remain unseen. No transport output was truncated.
+
+**Lead's strikes and remarks at collect:** No timeline or lexicon lines struck. Each of the eight timeline additions is tied to an edited item and describes surviving text; each of the five lexicon additions is an unglossed term with an item id. Batch 02 rewrote its supplied timeline instead of appending, but collection preserved all eight batch-01 lines and integrated the eight new lines in time order, so no fact was lost. Carry to step 5: the inherited Fluffhead move and defense across 01|02; Brazil being described variously as helper, attacker, defender, and grievance target; direct wording at `dfsk2az` that presents PlaceTwo as continuation; provisional completion claims at `dfs0adh` and in the PlaceTwo thread; unresolved outcomes for Camp Buttpussy, TWeezer, and Nono; and the unseen deliberation behind reported Discord and Phantasy Tour coordination. Relations must be grounded in passages, and the inherited continuation marked `[crosses 01|02]`. All batch-02 openings that name r/place or PlaceTwo are among its seven coded threads; none needs an out-of-scope follow-up from the openings check.

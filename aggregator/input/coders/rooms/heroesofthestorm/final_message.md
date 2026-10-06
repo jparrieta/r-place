@@ -1,0 +1,1 @@
+r/heroesofthestorm — branch B; verdict: full. Practice saturation: later slices mainly repeated maintenance before adding closure, audit, and keepsake-making. Record saturation: removed images, deleted text, and off-platform coordination limit completeness. Blocked: nothing.

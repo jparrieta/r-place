@@ -1,0 +1,1 @@
+r/marvel — branch B; verdict: full. Practice saturation: later slices repeated or ceased established practices. Evidence saturation: most canvas outcomes and Discord coordination remain unseen. Blockers: none.

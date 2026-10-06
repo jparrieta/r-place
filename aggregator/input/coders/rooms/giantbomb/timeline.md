@@ -1,0 +1,30 @@
+# timeline — r/giantbomb
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+## seeded by the harness from the record's metadata (sticky and moderator marks are as of retrieval)
+
+- H-0.81 03-31 15:11 [moderator] post by AutoModerator: Free Talk Friday - March 31, 2017 (62lr49)
+- d0 03-31 19:39 [edited] post by BuffaloJosh: Can we coordinate spelling "Police State" in /r/place? (62njl7)
+- d0 03-31 19:45 [edited] comment by EggplantCider giving coordinates, letter shapes and a coin update (dfnx1la)
+- d0 03-31 23:51 [edited] post by Souyen: Lets make a Giant Bomb logo on /r/place! (62p6hg)
+- d0 04-01 00:20 [edited] comment by Forcen proposing and then reporting completion of the favicon (dfo9xi6)
+- d0 04-01 00:44 [edited] comment by Forcen calling for favicon help at coordinates (dfoazo0)
+- d0 04-01 04:50 [edited] comment by martijos94 supplying a full template (dfokhhj)
+- d1 04-01 19:59 [edited] comment by Frogioli proposing a coin and updating the mockup (dfpbu5x)
+- H+29.11 04-01 21:06 [moderator] post by RhinestoneTaco: Announcing a new change. (62vhwp)
+- d1 04-01 21:11 [moderator] comment by IdRatherBeLurking listing content to post after the announced change (dfpenq2)
+- d1 04-01 21:13 [moderator] comment by RhinestoneTaco considering policy for other CBS properties (dfperer)
+- d1 04-01 21:18 [moderator] comment by V0xus offering Funko Pop reviews (dfpexlf)
+- d1 04-01 21:28 [moderator] comment by Skelotic proposing an NCIS recap podcast (dfpfcqx)
+- d1 04-01 23:28 [edited] comment by stordoff reporting a broken spoiler-tag tutorial (dfpk1xj)
+- d1 04-02 13:36 [edited] comment by theotherpurple withdrawing an alarm after messaging a neighbour (dfq6q6r)
+- d2 04-02 19:19 [edited] post by TheFatalWound proposing a new r/place plan (631m43)
+- d2 04-02 20:41 [edited] comment by EggplantCider reporting a Discord plan (dfqosv4)
+- d2 04-02 21:17 [edited] comment by Lana-chan bringing an updated Discord plan back to Reddit (dfqqcaa)
+- d2 04-02 21:25 [edited] comment by Lana-chan giving PlaceBot instructions and an updated plan (dfqqp5n)
+- d2 04-02 21:58 [edited] comment by Lana-chan adding random placement and persistence instructions (dfqs9na)
+- d2 04-03 00:46 [edited] comment by bobschnowski directing people to follow the template (dfr09vt)
+- d2 04-03 14:16 [sticky, moderator, edited] comment by IdRatherBeLurking giving the moved logo's coordinates, calling for a black border and reporting completion (dfrra1k)
+- d2 04-03 14:48 [moderator] comment by IdRatherBeLurking saying the direct area link would be stickied (dfrsuwg)
+- H+71.20 04-03 15:12 [moderator] post by AutoModerator: /r/GiantBomb Loves Mondays - April 03, 2017 (637dqf)

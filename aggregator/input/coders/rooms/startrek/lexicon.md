@@ -1,0 +1,28 @@
+# lexicon — r/startrek
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Place (62need)
+- All Access flair (62qc47)
+- corporate overlords (dfojx88)
+- SCOTT BAKULA® (62qcjf)
+- trekkies (62u31s)
+- griefed (dfq2c5c)
+- commbadge/signet (dfq3636)
+- r/FederationPlace (dfptudb)
+- star folks (dfpv3t5)
+- Jeep (dfq5clv)
+- Kiwi (dfq5clv)
+- numbers game (dfqoqug)
+- UFP logo (dfqoqug)
+- pink circle (dfqoqug)
+- giant red blemish (dfqoqug)
+- Blue people (dfqq6yu)
+- black team (dfr52vj)
+- DS9/VOY Comm badge (dfra30a)
+- r/federationspace (dfrlahi)
+- TNG-style logo (6378b4)
+- She's dead Jim (6378b4)
+- Final Enterprise (dfrt2sn)
+- Michael Burnham (6383yz)
+- Number One (638uir)

@@ -1,0 +1,5 @@
+# Lead running notes
+
+- Gate: branch A, 113 in-window items against threshold 500.
+- Step 4 grouping review: I regrouped the initial working set by the practice each passage performs, separating building, defense, space-setting, venue choice, Denmark deals, blame correction, and post-loss amends. The single April Fools reaction stayed alone.
+- Before counter-search: provisional reading — r/Fez recruited a small collaborative Gomez build, then negotiated a destroy-then-rebuild accommodation when Danish flag expansion threatened it, and after Gomez was absent from the final canvas participants mourned and accepted overtures of repair and friendship. Competing account — r/Fez itself primarily pursued territorial conflict and rejected accommodation. If that competing account were right, the record would contain repeated Fez-side calls to attack or destroy Danish work, refusals of alliance or rebuilding help, and sustained approval of conflict rather than the isolated language of fighting and “colonize.”

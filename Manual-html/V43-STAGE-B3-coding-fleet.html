@@ -1,0 +1,346 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage B3. Assignment: the fleet.</h1>
+<p>**Model:** build and check legs as <code>arm.json</code> sets (your platform file lists them); dispatch outside your session, the dispatch sending packets to</p>
+<p>the routine readers on the platform&#x27;s reader route (FLEET.md). **Legs:** build, dispatch, check; the</p>
+<p>dispatch may be split into groups of batches of declared size, each with its own check. You</p>
+<p>design the allocation, write the packets and the brief, and report what the fleet did as a</p>
+<p>population; you place nothing, run no reader and call no model. The placements are stage B4&#x27;s.</p>
+<p>**Steps:** <code>B3a</code> build (it ends at <code>--cut packets-out</code>), the dispatch, <code>B3b</code> check; a check that spans more than one leg continues as <code>B3b-p2</code>, <code>B3b-p3</code> ..., as any leg after a pause does. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after the packets are written (the build leg), and after each report of the check leg. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh B3 --pause</code> (STANDING §2).</p>
+<p>**Startup packet:** <code>_head.md</code>, this file, <code>FLEET.md</code>, the last five diary entries,</p>
+<p><code>validate.py --open B3</code>. In a check leg the harness adds one line: the readers left their files</p>
+<p>in <code>_fleet_raw/B3/</code>.</p>
+<p>**Reads allowed:** the frozen <code>scheme_final.jsonl</code> with <code>families.jsonl</code>;</p>
+<p><code>exemplar_candidates.jsonl</code>; <code>pilot_report.md</code>; <code>stability-B2.md</code>; <code>notes-B2.md</code> (seeding rate,</p>
+<p>batch cap, agreement definition); <code>notes-B1.md</code> (bag ranking); <code>gold_items.jsonl</code> in the build</p>
+<p>leg, to seed; <code>counts.py</code>; the corpus through <code>cite.py</code>; the store through <code>mem.py</code> (<code>theme</code>,</p>
+<p><code>codes --sub</code>); <code>_fleet_raw/B3/</code> in check legs. **Forbidden:** the canvas to any reader (rule</p>
+<p>7); your notes, the running file and <code>findings.jsonl</code> to any reader; <code>gold_items.jsonl</code> anywhere</p>
+<p>a reader can reach; any reader&#x27;s output to another reader.</p>
+<p>**Outputs:** <code>RETURN-B3.md</code>; <code>batches-B3.jsonl</code> and the packets (<code>packets.py B3</code>);</p>
+<p><code>assign_raw.jsonl</code>; <code>assign_pass2.jsonl</code>; <code>multiplacement_log.jsonl</code>;</p>
+<p><code>multiplacement_register-B3.md</code>; <code>fidelity-B3.md</code>; <code>position-B3.md</code>; <code>agent_report-B3.md</code>;</p>
+<p><code>notes-B3.md</code>; an appended entry in <code>run_manifest.json</code>.</p>
+<h2>1. Build leg</h2>
+<p>**The unit is the second-order theme, every one of the analysed set, at <code>R = 2</code>.**</p>
+<h3>1.1 What each reader gets, and what it must not get</h3>
+<p>**Gets:** rule 0, stated first, in the contract&#x27;s wording and not restated in other words;</p>
+<p><code>scheme_final.jsonl</code> with <code>decide_when_both</code> served, as an index page (every family, every</p>
+<p>third-order theme&#x27;s id, name and gloss) read whole, and one file per family opened as the reader</p>
+<p>needs it, so that a scheme of hundreds costs each reader the index and the families its items</p>
+<p>reach, not the whole; its batch of second-order themes, each with the coder&#x27;s label, the</p>
+<p><code>theme_note</code>, and every first-order concept beneath it with the participants&#x27; words; **the</p>
+<p>sibling block** for each room in the batch; and the exemplars only if the arm is served (§1.3).</p>
+<p>**The sibling block** introduces each room once, at the top of the batch, by the **labels** of</p>
+<p>all its second-order themes, so a reader can see what a theme is not: labels only, not their</p>
+<p><code>theme_note</code>s, not the chronology, not the coder&#x27;s account. In the batch header, never on the</p>
+<p>item.</p>
+<p>**Must not get:** any other reader&#x27;s output; the corpus beyond its own items; the canvas in any</p>
+<p>form (<code>rooms.jsonl</code>&#x27;s canvas fields, <code>canvas/artworks.jsonl</code>); your notes, the running file or</p>
+<p><code>findings.jsonl</code>; or any indication of how many items it holds relative to the whole.</p>
+<p>**Every reader runs in a fresh context.** <code>packets.py B3</code> (<code>scheme</code> and <code>batch</code> verbs) builds the</p>
+<p>index page, the family pages and each batch file from <code>batches-B3.jsonl</code> and the store, every</p>
+<p>file under FLEET.md&#x27;s 50 KB ceiling, which it asserts (a batch above it is split into parts for</p>
+<p>one reader, §1.2), each batch ending with the end marker and the confirmation line.</p>
+<h3>1.2 The allocation: whole rooms, crossed with readers</h3>
+<p>**Every room of the analysed set is in the fleet, with every one of its second-order themes. Each</p>
+<p>reader gets whole rooms, no room is ever split, and each room&#x27;s replicates land on different</p>
+<p>readers.** Randomise which rooms a reader holds, never which items. The allocator packs whole</p>
+<p>rooms greedily to the item cap and computes the fleet from its own packing, never from</p>
+<p><code>ceil(items / cap)</code>; <code>readers = batches × R</code>.</p>
+<p>**A room larger than the cap is a batch by itself, and a batch over the 50 KB ceiling is served</p>
+<p>in parts to one reader** (J, 2026-09-25). At the 2026-09-25 snapshot, some rooms rendered above</p>
+<p>50 KB on their own; <code>packets.py B3</code> reports the count for this frame. <code>packets.py B3</code> splits such a batch into parts</p>
+<p>(<code>B017-p1</code>, <code>B017-p2</code>, ...), each under the ceiling, each carrying the room&#x27;s full sibling block,</p>
+<p>positions running on across parts; <code>fleet.py</code> serves the parts to the same reader as turns of one</p>
+<p>conversation, so one reader reads the whole room, and validates each part&#x27;s reply against its</p>
+<p>own item count. The prediction line comes in part 1 only and the second pass after the last part.</p>
+<p>The returns are keyed by batch as for any other (<code>_fleet_raw/B3/B017/&lt;reader&gt;.jsonl</code>). Report the</p>
+<p>split batches apart in the position curve (§3): a reader on its second or third part is deeper</p>
+<p>into its context than a reader of a whole batch.</p>
+<p>**Before the packets are built, assert from the batches** that the union of rooms across them is</p>
+<p>the analysed set and the union of items is <code>counts.py</code>&#x27;s <code>assignment_items_expected</code>. A coverage</p>
+<p>claim computed from the draw rather than from the batches cannot fail.</p>
+<p>**Two gates run before any packet is written.**</p>
+<p>1. **No room may meet the same reader twice.** Reject and redraw on collision.</p>
+<p>2. **The room-reader graph must be one connected component.** Build the bipartite graph of rooms</p>
+<p>   against batches, walk it, and refuse to build if it is in pieces; redraw on failure.</p>
+<p>Declare in <code>notes-B3.md</code>, before any packet exists:</p>
+<p>- **the seed**, from which the allocation is reproducible;</p>
+<p>- **the item cap per batch**, from <code>notes-B2.md</code> (v37&#x27;s default was fifty, about 35k tokens of</p>
+<p>  context before the scheme), set so that every batch file stays under 50 KB, with its reason,</p>
+<p>  costed with the index page and the families a batch&#x27;s rooms are likely to open; and the whole</p>
+<p>  fleet&#x27;s cost from that, for the token record (no stage carries a budget, contract §4);</p>
+<p>- **the warm-up block**, if stage B2 found a convention still forming inside a round: ten</p>
+<p>  declared items with the answers given, then the cap&#x27;s items that count; otherwise in reserve;</p>
+<p>- **the replication factor** <code>R</code>, which is 2: two readers make a disagreement visible, and stage</p>
+<p>  B4 rules on it; a third reader costs half the fleet again to turn a disagreement into a vote,</p>
+<p>  and rule 13 says a vote is not a warrant. Say so, and say what a higher <code>R</code> would have bought;</p>
+<p>- **the gold seeding rate**, restated from <code>notes-B2.md</code>, and the gold policy of §1.6;</p>
+<p>- **the batch count and reader count** the allocator computed;</p>
+<p>- **the exemplar arm**, declared once, served to every reader or to none;</p>
+<p>- **the order of batches**, seeded and recorded, and the groups the dispatch is split into;</p>
+<p>- **the reissue policy** <code>fleet.py</code> runs (§2);</p>
+<p>- **the bag flags**: the top ten from <code>notes-B1.md</code>, marked in the batch, instruction unchanged:</p>
+<p>  *place from the concepts, not from the coder&#x27;s grouping*.</p>
+<p>**Append this stage&#x27;s entry to <code>run_manifest.json</code> at the close of the build leg**, on stage</p>
+<p>A1&#x27;s schema: the readers&#x27; model (the cheap arm, as FLEET.md declares it), the seed, the decoding</p>
+<p>settings, and <code>n_agents</code> at <code>R</code>.</p>
+<p><code>batches-B3.jsonl</code>, one line per batch; gold tags, duplicate tags and reissues go on it too:</p>
+<pre><code>
+{&quot;batch&quot;: &quot;B017&quot;, &quot;agent&quot;: &quot;a017&quot;, &quot;n_items&quot;: 48, &quot;replicate&quot;: 2,
+
+ &quot;rooms&quot;: [&quot;...&quot;, &quot;...&quot;], &quot;exemplar_items&quot;: [&quot;sub/theme_id&quot;, &quot;...&quot;],
+
+ &quot;gold_items&quot;: [&quot;sub/theme_id&quot;], &quot;duplicate_items&quot;: [&quot;sub/theme_id&quot;],
+
+ &quot;warmup_items&quot;: [], &quot;reissue&quot;: 0, &quot;original_agent&quot;: null,
+
+ &quot;seed&quot;: 20260827, &quot;items&quot;: [&quot;sub/theme_id&quot;, &quot;...&quot;]}
+
+</code></pre>
+<h3>1.3 The exemplar arm</h3>
+<p>**Declared once, and served to every reader or to none**, from <code>exemplar_candidates.jsonl</code></p>
+<p>through <code>packets.py B3 --exemplars</code> onto the family pages. A reader told it may consult a sheet</p>
+<p>may never open it, so the return line carries <code>exemplar_read: true|false</code> per item when the arm</p>
+<p>is served, <code>null</code> when not, and every figure of this stage is reported conditional on it; without</p>
+<p>the field, report no exemplar result at all. Stage B2 measured the description alone, so a</p>
+<p>comparison with its figures is across arms, and FLEET.md requires the serving arm declared on</p>
+<p>both sides. Stage B4&#x27;s blind sample serves exemplars only if you did.</p>
+<h3>1.4 The shuffle, the duplicate, and the warm-up in reserve</h3>
+<p>**Items are interleaved across rooms in random order inside every batch.** Grouped by room,</p>
+<p>position tracks room and the position curve (§3.3) is confounded with what it exists to be free</p>
+<p>of.</p>
+<p>**Put one duplicate item in each batch**: the same item twice, in different positions, presented</p>
+<p>as two items. Report disagreement as within-reader instability beside the between-reader disagreement rate.</p>
+<p>It can reflect stochastic variation, ambiguous gates, position, context or recall; it does not</p>
+<p>identify any one cause. Preserve positions and intervening material for inspection.</p>
+<p>**If a single reader is far out of line, the fix is not a bigger batch** but the warm-up block</p>
+<p>that does not count. Hold it in reserve until the measurement says it is needed. A drift across</p>
+<p>the whole fleet is a cap set too high, and the fix for that is a smaller batch.</p>
+<h3>1.5 <code>RETURN-B3.md</code>: what a reader returns</h3>
+<p>One return specification, frozen with this file; the packet builder emits it verbatim, the brief</p>
+<p>cites it, and <code>fleet.py</code>&#x27;s schema check is generated from it (FLEET.md). In this order:</p>
+<p>rule 0 in the contract&#x27;s words (a second placement owes its <code>why_not_one</code> and a</p>
+<p><code>multiplacement_log.jsonl</code> line; three at most; beyond three place one and record</p>
+<p><code>item-is-a-bag</code>); the prediction line; the return line; the multiplacement record; the second</p>
+<p>pass; the end marker and the confirmation line.</p>
+<p>**Before the first placement**, each reader writes which pair of third-order themes it expects to</p>
+<p>find hardest to tell apart, one line, first in its return:</p>
+<pre><code>
+{&quot;agent&quot;: &quot;a017&quot;, &quot;predicted_confusion&quot;: [&quot;T3-007&quot;, &quot;T3-011&quot;], &quot;why&quot;: &quot;one sentence&quot;}
+
+</code></pre>
+<p>The check leg compiles these into <code>agent_report-B3.md</code> and onto the batch record, and scores</p>
+<p>them against what actually divided the readers, as the pilot scores <code>confusions.md</code>.</p>
+<p>**The line a reader returns**, the stage B2 line with <code>replicate</code> 1 or 2, <code>exemplar_read</code> and</p>
+<p><code>bag</code>:</p>
+<pre><code>
+{&quot;sub&quot;: &quot;...&quot;, &quot;theme_id&quot;: &quot;...&quot;, &quot;batch&quot;: &quot;B017&quot;, &quot;agent&quot;: &quot;a017&quot;, &quot;replicate&quot;: 2,
+
+ &quot;position&quot;: 23,
+
+ &quot;third_order&quot;: [&quot;T3-007&quot;], &quot;multi&quot;: false,
+
+ &quot;why&quot;: {&quot;T3-007&quot;: &quot;what about THIS theme put it here rather than its nearest neighbour&quot;},
+
+ &quot;confidence&quot;: &quot;clear|arguable&quot;,
+
+ &quot;read&quot;: &quot;whole|theme-block&quot;,
+
+ &quot;exemplar_read&quot;: null,
+
+ &quot;families_opened&quot;: [&quot;G03&quot;, &quot;G09&quot;],
+
+ &quot;bag&quot;: false,
+
+ &quot;t_start&quot;: &quot;...&quot;, &quot;t&quot;: &quot;...&quot;,
+
+ &quot;support&quot;: [&quot;c0013&quot;]}
+
+</code></pre>
+<p><code>third_order</code> carries one id in the ordinary case, and the first id is always the primary.</p>
+<p><code>batch</code> and <code>position</code> are the packet heading and the cell number the return is keyed on.</p>
+<p><code>families_opened</code> names the families the reader read the full tests of before placing this item;</p>
+<p>a placement into a family the reader never opened is a placement from the gloss alone, and stage</p>
+<p>B4 reads those first. <code>multi: true</code> requires a matching record in <code>multiplacement_log.jsonl</code>.</p>
+<p>Both timestamps: per-reader elapsed time is what a cost estimate is built from. **`read:</p>
+<p>&quot;label-only&quot;` is not a permitted value**; the check refuses it, and you screen the returned</p>
+<p>lines for it in the check leg as well, because a reader that read only the label placed the</p>
+<p>coder&#x27;s grouping, not the material.</p>
+<p>**The multiplacement record.** Every placement beyond the first is written by the reader, on the</p>
+<p>same line it places, one record per extra theme; the check leg assembles them into</p>
+<p><code>multiplacement_log.jsonl</code>:</p>
+<pre><code>
+{&quot;sub&quot;: &quot;...&quot;, &quot;theme_id&quot;: &quot;...&quot;, &quot;key&quot;: &quot;sub/theme_id&quot;, &quot;batch&quot;: &quot;B017&quot;, &quot;agent&quot;: &quot;a017&quot;,
+
+ &quot;replicate&quot;: 2, &quot;position&quot;: 23,
+
+ &quot;primary&quot;: &quot;T3-007&quot;, &quot;additional&quot;: &quot;T3-011&quot;,
+
+ &quot;why_not_one&quot;: &quot;what this material carries that T3-007&#x27;s gate does not reach&quot;,
+
+ &quot;why_this_one&quot;: &quot;what in the material satisfies T3-011&#x27;s gate, and its distinct supporting concept&quot;,
+
+ &quot;support_primary&quot;: [&quot;c0013&quot;], &quot;support_additional&quot;: [&quot;c0027&quot;],
+
+ &quot;dispensable&quot;: &quot;which of the two you would drop if forced to one, and what would be lost&quot;}
+
+</code></pre>
+<p>Four rules on it, in the brief:</p>
+<p>- **Distinct support.** The additional theme needs its own supporting concept id; the same</p>
+<p>  concept twice is the same reading twice, and is refused.</p>
+<p>- **<code>why_not_one</code> is about the material, not the scheme.** *Both gates are satisfied* is not a</p>
+<p>  justification, since <code>decide_when_both</code> settles that case; it must name what the single</p>
+<p>  placement would fail to carry.</p>
+<p>- **<code>dispensable</code> is compulsory and may not be <code>null</code>.**</p>
+<p>- **No line carries more than three themes.** A third requires its own record and its own</p>
+<p>  <code>why_not_one</code> against **both** the others. Beyond three, place one and record the item as</p>
+<p>  <code>item-is-a-bag</code> for stage B4, <code>&quot;bag&quot;: true</code> on the line.</p>
+<p>**Two passes, and the second never overwrites the first.** Every reader makes a second pass over</p>
+<p>its own batch after finishing it, and both are kept. The revision rate between them is</p>
+<p>within-batch formation measured a second way. Pass 2 goes to <code>assign_pass2.jsonl</code> and never back</p>
+<p>into <code>assign_raw.jsonl</code>; every pass-2 line names the pass-1 line it revises. A revision is a</p>
+<p>record, not a correction. **Stage B4 adjudicates pass 1**: pass 2&#x27;s answer depends on what else</p>
+<p>was in the batch, so a different seed would give a different corpus.</p>
+<h3>1.6 The gold items, seeded and unannounced</h3>
+<p>**Seed <code>gold_items.jsonl</code> into the live batches at the rate declared in <code>notes-B2.md</code>**,</p>
+<p>shuffled so no reader can tell a gold item from a corpus item and no two readers holding the same</p>
+<p>gold item hold it in the same position.</p>
+<p>- **Tagged in <code>batches-B3.jsonl</code>, never in the payload.** Gold items are corpus items too, so the</p>
+<p>  seeded copy is told apart from the live reading by <code>(item, agent, replicate)</code>, never by key:</p>
+<p>  the scorer, not the reader, can tell them. Report the seeded and the corpus readings of those</p>
+<p>  items separately, and say in <code>notes-B3.md</code>, before seeding, that this is the policy.</p>
+<p>- **Excluded from every denominator downstream.** Stage B4 drops them before it writes</p>
+<p>  <code>assign_final.jsonl</code>.</p>
+<p>- **The answer key stays outside the readers&#x27; directory** (FLEET.md): neither <code>_fleet_raw/B3/</code></p>
+<p>  nor the packets directory ever holds <code>gold_items.jsonl</code> or anything derived from it.</p>
+<p>**Stop here.** Close with <code>done.sh B3 --cut packets-out</code>. Your session ends; nothing more of this stage runs on your model until the check leg. The dispatch runs without you, on the platform&#x27;s reader route. The next launch of stage B3 is the check leg, and its packet tells you one thing: the readers left their files in <code>_fleet_raw/B3/</code>.</p>
+<h2>2. Dispatch leg</h2>
+<p>Not yours. The dispatch sends each batch packet to a fresh reader on</p>
+<p>the routine reader model, never the same reader for both replicates, collects the returns into</p>
+<p><code>_fleet_raw/B3/&lt;batch&gt;/&lt;reader&gt;.jsonl</code>, validates each against <code>RETURN-B3.md</code>&#x27;s schema, and reissues under the</p>
+<p>policy you declared: a batch that comes back missing, truncated, malformed, or short of its item</p>
+<p>count (the returned line count is checked against it before acceptance) is not a disagreement</p>
+<p>and is not absorbed; the whole batch goes to a fresh reader id holding none of its rooms, up to</p>
+<p>twice, recorded as <code>reissue: 1</code> or <code>2</code> with the original reader id. A partial return is never a</p>
+<p>return: four of twelve items written is four placements and eight gaps, different data. When</p>
+<p>reissues are exhausted on a batch, the dispatch stops and reports, and the build leg rebuilds</p>
+<p>those packets (FLEET.md). Nothing in the dispatch reads your files; its log leaves, per reader,</p>
+<p>reissues, elapsed time, and anything outside the return format.</p>
+<h2>3. Check leg</h2>
+<p>You are relaunched. Assemble <code>assign_raw.jsonl</code>, <code>assign_pass2.jsonl</code> and</p>
+<p><code>multiplacement_log.jsonl</code> from the returns, keyed on packet heading and cell number, with the</p>
+<p>typed theme id as a label (FLEET.md); copy <code>fleet.py</code>&#x27;s counts and durations into</p>
+<p><code>notes-B3.md</code>, counts and durations, not readings. Then, in this order.</p>
+<h3>3.1 Accept and screen</h3>
+<p>- **Re-run the connectivity check** against what the fleet returned, after every reissue.</p>
+<p>- **If a batch could not be filled after two reissues and its rebuilt packets came back short</p>
+<p>  again**, name its rooms in <code>notes-B3.md</code>, mark them <code>coverage_short</code> in <code>batches-B3.jsonl</code>, and</p>
+<p>  exclude them from the variance decomposition. Do not fill the gap with a duplicate of a reader</p>
+<p>  that already read those rooms.</p>
+<p>- **Screen by hand** for <code>read: &quot;label-only&quot;</code>, and for a <code>multi</code> placement whose log record is</p>
+<p>  missing or whose <code>why_not_one</code> is empty: each is a defect in <code>defects.jsonl</code>, and the line is</p>
+<p>  reduced to its primary before stage B4 opens.</p>
+<p>- A reader that reports the scheme did not decide is reporting a material defect; its words go</p>
+<p>  in <code>defects.jsonl</code> verbatim.</p>
+<h3>3.2 Gold fidelity, live</h3>
+<p>Into <code>fidelity-B3.md</code>, per batch and per reader, never only in aggregate: how many of each</p>
+<p>reader&#x27;s gold items matched your placement, and which themes it missed on. Stage B4 reads that</p>
+<p>file and does not recompute it. Read the movement against stage B2&#x27;s frozen figure on the same</p>
+<p>items, not the level: the set was drawn hard, and the figure is agreement with your own</p>
+<p>placements. **A fall beyond the stability floor of <code>stability-B2.md</code> stops the dispatch and</p>
+<p>reopens the build leg.** Payload assembly, model, batch size or sibling block changed; say what</p>
+<p>in <code>notes-B3.md</code> before the packets are rebuilt. Where the dispatch is split into groups, this</p>
+<p>check runs after each group and decides whether the next is sent.</p>
+<h3>3.3 The position curve</h3>
+<p>Into <code>position-B3.md</code>, the drift check, pooled across the whole fleet. Regress agreement, the</p>
+<p>multi-assignment rate and the arguable rate on position within batch, with batch fixed effects.</p>
+<p>Report a curve by decile of position with a fitted slope and an interval as the test, and the</p>
+<p>multi-assignment rate as a distribution over readers beside it. A position effect is a diagnostic of changing responses, not an identified cause. Inspect</p>
+<p>context saturation, warm-up, attention, prior answers and convention formation before choosing a remedy.</p>
+<p>Use intervals respecting batch and reader dependence. Declare a tolerable change across a batch</p>
+<p>before fitting; report its interval and design-based power or simulation sensitivity. A nonsignificant</p>
+<p>slope alone does not establish stability. Log detected trends in <code>defects.jsonl</code> as unresolved</p>
+<p>diagnostics, with the evidence needed to distinguish explanations. Beside the curve: the pass-1 to</p>
+<p>pass-2 revision rate, and formation per reader, first ten items against last ten, on arguable</p>
+<p>rate and on agreement with the readers holding the same rooms; the diagnostic, where the pooled</p>
+<p>curve is the test.</p>
+<h3>3.4 The multiplacement register</h3>
+<p><code>multiplacement_register-B3.md</code> is rule 0&#x27;s log read as a measurement:</p>
+<p>- **The multiplacement rate**, overall and per reader, on a funnel against batch size.</p>
+<p>- **The pair table.** Every <code>(primary, additional)</code> pair with its count, ordered; the top twenty</p>
+<p>  listed for stage C1. A pair that recurs across many readers and rooms is a boundary the scheme</p>
+<p>  has not drawn; stage C1 reads this table first.</p>
+<p>- **Whether the recurring pairs are the pairs the readers predicted** (§1.5).</p>
+<p>- **The justifications, read.** At least thirty <code>why_not_one</code> texts across readers, each classed</p>
+<p>  *material genuinely spans two themes*, *scheme lacks a theme for this*, *reader hedging*, or</p>
+<p>  *restatement of both gates being satisfied*, which is a defect. Report the counts.</p>
+<p>- **Per-theme exception load.** A theme that appears as <code>additional</code> far more often than as</p>
+<p>  <code>primary</code> is a candidate for review. Inspect designation rules and supporting concepts before</p>
+<p>  deciding whether it is a modifier, an overlapping construct or a missing boundary.</p>
+<p>- **The empties**: the rate, and the characterisation rule 0 requires of each.</p>
+<h3>3.5 The fleet as a population</h3>
+<p>- **Per-reader dispersion, with the room component separated.** Room and reader are crossed, so</p>
+<p>  fit the simplest model that estimates both variance components and report both. Put the</p>
+<p>  per-reader figures (multi-assignment rate, empty rate, mean themes per line) on a funnel against</p>
+<p>  batch size; a reader outside it is reading the scheme differently, and stage B4 needs its items</p>
+<p>  named. Do not rank readers.</p>
+<p>- **Agreement.** Pairwise across replicates, corpus-wide, per family and per theme, exact-set and</p>
+<p>  Jaccard, with Krippendorff&#x27;s alpha on the overlap (FLEET.md), under the definition declared in</p>
+<p>  <code>notes-B2.md</code> and not redefined: whether <code>[&quot;T3-004&quot;]</code> against <code>[&quot;T3-004&quot;,&quot;T3-011&quot;]</code> is</p>
+<p>  agreement, disagreement or partial. Report per-theme presence/absence agreement whatever else</p>
+<p>  you report, and the duplicate rate beside it.</p>
+<p>- **The exemplar figures**, conditional on <code>exemplar_read</code>, the serving arm declared on both</p>
+<p>  sides of any comparison with stage B2.</p>
+<p>- **<code>families_opened</code> as a distribution**: families opened per placement, its median, and the</p>
+<p>  share of placements into a family the reader never opened. A low median prompts review of prior access, retrieval logs and gloss-only decisions.</p>
+<p>  It does not alone establish a defective index. Stage B4 reads placements with no recorded</p>
+<p>  relevant family access first and records demonstrated defects with their evidence.</p>
+<p>- **The disagreement inventory**: how many items the two readers placed alike, how many they</p>
+<p>  split, and of the splits how many differ on the primary and how many only on an additional</p>
+<p>  theme, by family and by theme, with the <code>multi</code> and <code>item-is-a-bag</code> counts. Stage B4&#x27;s</p>
+<p>  workload.</p>
+<p>- **Coverage**, computed from the batches: every second-order theme of the analysed set has two</p>
+<p>  returns, or is named in the unreturned list with why.</p>
+<p>- **The multiplacement register**, as its own file, referenced here.</p>
+<p>Wherever a figure from this stage appears, say what it licenses, in FLEET.md&#x27;s words: readers</p>
+<p>share an architecture with you or with each other, so a figure bounds whether the written</p>
+<p>instrument decides, never whether it is right.</p>
+<h3>3.6 The close-check</h3>
+<p>This stage&#x27;s record is what every later stage rests on, and the v35 analyst found its missing</p>
+<p><code>read</code> field at the end of the run, on every row. <code>validate.py B3</code>, run by <code>done.sh B3</code>, checks</p>
+<p>each of these and refuses by name what it cannot. Read the report rather than trusting it, and</p>
+<p>screen the last two by hand as well, since a check reads a field and not a reading:</p>
+<p>- Every <code>third_order</code> id exists in <code>scheme_final.jsonl</code>.</p>
+<p>- Every <code>support</code> id resolves in <code>package/store/codes.jsonl</code>.</p>
+<p>- Every multi-assigned line names at least one distinct concept per theme and has its records in</p>
+<p>  <code>multiplacement_log.jsonl</code>.</p>
+<p>- Line count equals items × <code>R</code>, where items is <code>assignment_items_expected</code>, with any reader</p>
+<p>  failure named rather than absorbed.</p>
+<p>- No reader appears in two replicates of the same item.</p>
+<p>- The room-reader graph is one connected component, re-checked against what the fleet returned.</p>
+<p>- <code>assign_pass2.jsonl</code> exists and has not been merged into <code>assign_raw.jsonl</code>.</p>
+<p>- Every line carries <code>position</code>, and positions within a batch are a permutation of 1..n.</p>
+<p>- Every line carries <code>read</code>, <code>families_opened</code> and both timestamps.</p>
+<p>- No line carries <code>read: &quot;label-only&quot;</code>.</p>
+<h2>Moments to log</h2>
+<p>Each declaration; the coverage assertion and each gate passed or redrawn; each batch built,</p>
+<p>dispatched and checked with its gold fidelity; each reissue and each <code>coverage_short</code>; each</p>
+<p>defect written; any stop.</p>
+<h2>Final message</h2>
+<p>Seed, cap and <code>R</code>, and the batch and reader counts the allocator computed; confirmation from</p>
+<p>the batches that every room and second-order theme of the analysed set is in the fleet; readers</p>
+<p>run and failed; redraws the connectivity gate forced, and whether the graph was connected at</p>
+<p>the end; total lines and replicates; gold seeded and returned, and gold fidelity by batch</p>
+<p>against stage B2&#x27;s figure and the stability floor; corpus-wide, per-family and per-theme</p>
+<p>agreement, exact-set and Jaccard, with alpha and its definition; the exemplar figures if the</p>
+<p>arm was served; the position curve by decile with its slope, interval and computed power; the</p>
+<p>pass-1 to pass-2 revision rate; the multiplacement rate and its spread across readers; the</p>
+<p>three most frequent <code>(primary, additional)</code> pairs and what each says about the scheme; how many</p>
+<p>placements you reduced to their primary; how many readers fell outside the funnel and what they</p>
+<p>had in common; how many readers&#x27; predicted confusions matched yours; the disagreement inventory</p>
+<p>stage B4 inherits, with the family that disagreed most; the unreturned items; and the single</p>
+<p>theme the fleet handled worst. A return value.</p>
+<h2>Close</h2>
+<p><code>done.sh B3</code> at every leg; <code>handback-B3.md</code>; the head; the closing diary line.</p></html>

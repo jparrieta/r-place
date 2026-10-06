@@ -1,0 +1,1 @@
+r/completeanarchy — branch B; verdict: full. Practice saturation: later slices introduced new practices through batch 03; post-search grouping held. Evidence saturation: Reddit coverage is complete, but images, removals, off-platform activity, and split reading limit claims. Blocked: nothing.

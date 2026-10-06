@@ -1,0 +1,79 @@
+# Layout since the restructure of 2026-10-02: aggregator/{instrument,handler,input,runs/<run>}, coder/, orchestrator/.
+# Every run's own Claude login and live session store, wherever a run sits: never committed
+**/CONTROL/.cc/
+# per run: a stray _to_delete/ (J, 2026-10-06: nothing set aside stays in the repository; it goes to Jail/_to_delete/
+# under its path, and the acceptance tests keep their files there too); interviews' own folders (each a restored checkpoint; rendered settings
+# hold full paths); checkpoints (a full copy of the analyst's folder per leg: git already holds every leg's
+# files through publish.sh's commit at each close, and a tarball over 100 MB stops every push)
+aggregator/runs/*/_to_delete/
+aggregator/runs/*/interview-workspaces/
+# per run: the Claude leg handler's records (legs.py; 2026-10-05): the sessions' streams, requests and replies. Your
+# words to legs go to CONTROL/messages-to-legs.jsonl, which is committed. An interview's own folder never is.
+aggregator/runs/*/CONTROL/legs/
+# interview transcripts (J, 2026-10-06): each is committed only if J decides so, interview by interview, with
+# git add -f. interview.sh copies its transcript to interviews/; at E2a step.sh copies every interview listed in
+# CONTROL/interviews.tsv into the analyst's handling/interviews/. CONTROL/interviews.tsv, the list, is committed.
+aggregator/runs/*/interviews/
+aggregator/runs/*/00_GIVE-THE-AGENT/handling/interviews/
+aggregator/runs/*/CONTROL/snapshots/
+# analysis branches (legs.py branch; 2026-10-05): a branch's run folder, <parent>--<name>, never reaches main;
+# branches.py commits it to its own Git branch, analysis/<run>, under its parent's folder
+aggregator/runs/*--*/
+# the analyst's settings are rendered per machine at each step; they hold this machine's full paths
+aggregator/runs/*/00_GIVE-THE-AGENT/.claude/settings.json
+# the raw record for E1's quote check (build_raw_record.py): every frame room's coder corpus, kept on disk;
+# MANIFEST.tsv and README.md are committed
+aggregator/input/raw/*/
+# the harness test's stand-in for the claude command, a link with this machine's path
+aggregator/handler/claude/tests/bin/
+# the handler's scratch (legacy rooms, lineage) and its machine-specific paths (copy paths.example.json)
+aggregator/handler/_work/
+aggregator/handler/paths.json
+# the Codex runtime's state lives beside the repository (.rplace-runtime-v43/), never in it; this keeps out a stray copy
+.rplace-runtime/
+# the OpenAI controller's launcher holds the live panel token (its serve() writes it at each start): never committed
+Manual-html/OPENAI-LIVE.html
+_codex_migration/
+# the agents' installed tools in the Orchestrator (a Python, its virtual environment, caches): not records
+orchestrator/*/*/python/
+orchestrator/*/*/venv/
+orchestrator/*/*/uv-cache/
+orchestrator/*/*/tooling/
+orchestrator/*/*/tmp/
+_to_delete/
+__pycache__/
+*.pyc
+.DS_Store
+*.tmp
+*.part
+
+# data/: the downloaded and built stores stay out of git; the scripts, READMEs, LINKs and the atlas are in
+data/pixels/*.xz
+data/pixels/*.png
+data/pixels/*.csv
+data/pixels/*.part
+data/pixels/reddit-place-username-hashes/
+data/users/*/
+!data/users/
+data/users/worklist.csv.gz
+data/users/_users.csv
+data/venues-placers/*.jsonl
+data/venues-placers/*.manifest.json
+data/venues-placers/_shards/
+data/raw24/*.jsonl
+data/raw24/*.manifest.json
+data/raw24/_collected/
+data/raw24/venues.txt
+data/pixels-per-artwork/_work/
+data/pixels-per-artwork/inputs/
+data/pixels-per-artwork/data/
+data/pixels-hourly/_*.jsonl*
+data/pixels-hourly/pixels.csv
+data/atlas/*.json
+
+!data/atlas/derived_regions.json
+
+# set aside before the first push (2026-10-02): earlier file versions live in archive/instrument-history.tar.gz; test residue
+aggregator/instrument/_versions/
+aggregator/handler/out/
+aggregator/runs/*/CONTROL/.compact-gate.*.acceptance.json

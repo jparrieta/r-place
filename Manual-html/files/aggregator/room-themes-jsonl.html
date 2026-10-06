@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`package/&lt;room&gt;/themes.jsonl`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/room-themes-jsonl.md">Markdown source</a></nav>
+<h1 id="packageroomthemesjsonl"><code>package/&lt;room&gt;/themes.jsonl</code></h1>
+<p>The coder's second-order themes for one room.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>One line per theme: <code>theme_id</code> (t01 and on), <code>second_order</code> (the gerund-led label), <code>theme_note</code> (what the passages share and what varies), <code>regrouped_from</code>, <code>n_codes</code> (the coder's count).</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>The coder. <code>build_store.py</code> copies it and joins it into the store's <code>themes.jsonl</code>, where <code>n_codes</code> is recounted after retraction and the coder's figure kept as <code>n_codes_coder</code>. The build stops if two themes share an id or a code names a theme this file lacks.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Contract §2: second-order themes are the "within-case consolidation of a room's concepts", the coders' tier, and "Never call the coders' second-order themes third-order themes." They are what the analyst places at B1 and the fleet places at B3. Contract §5: a theme "can be a bag; read its <code>theme_note</code> before you place it."</p>
+<h2 id="where">Where</h2>
+<p>Example: <a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/armenia/themes.jsonl">package/armenia/themes.jsonl</a>.</p>
+<p>Checked against: tools/build_store.py, CONTRACT-aggregator.md §2 and §5, package/armenia/themes.jsonl.</p>
+</body>
+</html>

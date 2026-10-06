@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`package/store/_unjoined.jsonl`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/store-unjoined.md">Markdown source</a></nav>
+<h1 id="packagestore_unjoinedjsonl"><code>package/store/_unjoined.jsonl</code></h1>
+<p>Concepts whose item the forest does not hold.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>One line per such concept: <code>sub</code>, <code>code_id</code>, <code>item_id</code>, <code>thread_id</code>, and <code>why</code> ("the forest holds no such item").</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p><code>build_store.py</code> at stage 00. The concept stays in the store's <code>codes.jsonl</code> with <code>state</code> <code>unjoined</code> and a null <code>coord</code>.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>The build keeps a concept whose item is missing instead of dropping it; when the forest lacks a coded thread, "its codes are kept and listed as unjoined". A1 recomputes the count "against <code>codes.jsonl</code> and <code>items.jsonl</code>" and says whether it agrees with <code>README-store.md</code>.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/_unjoined.jsonl">package/store/_unjoined.jsonl</a>.</p>
+<p>Checked against: tools/build_store.py, stages/STAGE-A1-reading-room-notes.md.</p>
+</body>
+</html>

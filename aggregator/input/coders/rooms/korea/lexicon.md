@@ -1,0 +1,28 @@
+# lexicon — r/korea
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- r/place (62t8nt)
+- yin yang circle (dfp7als)
+- blue corner (dfp7kgz)
+- reddit party (dfp78dm)
+- taeguk (dfplakb)
+- trigrams (dfplakb)
+- Operation Taegukgi (dfpqkhx)
+- gukgi (62wy3g)
+- Korean heart (dfpth4j)
+- grief (62y0c0)
+- Surskit (dfpxw8e)
+- MRU flag (dfq9qgs)
+- NYJETS (62z249)
+- Seolhyun heart (dfqxenj)
+- Tae Guk-Gi (dfr3tci)
+- r/Twice (dfr3v9s)
+- firepower support (dfqcypq)
+- redditards (dfrcdet)
+- Koreaboo (dfrcmb4)
+- sasaengs (dfrh5g5)
+- united kpop lot (dfrjqds)
+- 대만민국 (dfrkbuc)
+- 대단민국 (dfrkbuc)
+- Koreanest Korean (dfso2kb)

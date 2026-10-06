@@ -1,0 +1,1 @@
+r/ssbpm — Branch B, verdict: full. Record saturation is limited by removals, Discord coordination, and post-window replies. Practice saturation remained open into the final slice as defence and retrospective practices emerged. Blocked: nothing.

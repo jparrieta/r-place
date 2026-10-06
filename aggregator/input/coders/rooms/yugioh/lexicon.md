@@ -1,0 +1,26 @@
+# lexicon — r/yugioh
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- r/place charmander (dfo10xt)
+- Assimilation Mode (62qrlx)
+- HOLY CREED OF AUTOMOD (dfoll6a)
+- hivemind collective (dfpfjee)
+- Kuriboh deck (62t1kf)
+- April fools jokes (dfp4slp)
+- machine king rolling in the banner (62udrx)
+- baseball card subreddit (dfp9zl6)
+- April Furage (62uxk6)
+- LEGACY OF LINK (62uxk6)
+- Wagon Quest (62vsnu)
+- Advanced shitposting (dfpvukp)
+- shitposting squared (dfq0n1t)
+- pixel art Stratos (dfq22al)
+- pixel yami (dfq2d5c)
+- Blue corner (dfq4587)
+- pixel Kuriboh (dfqtz28)
+- greefers (dfr4el3)
+- protected-ish area (dfr5vpv)
+- SKrillies 4 Lyfe!!! (dfreino)
+- WWII (6354pd)
+- winged kuriboh (dfs5jj8)

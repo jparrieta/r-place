@@ -1,0 +1,109 @@
+{
+  "permissions": {
+    "defaultMode": "dontAsk",
+    "allow": [
+      "Edit(/__AG__/out/**)",
+      "Write(/__AG__/out/**)",
+      "Agent"
+    ],
+    "blockReadsOutsideWorkingDirectories": true,
+    "additionalDirectories": [],
+    "deny": [
+      "Read(/__RUN__/CONTROL/**)",
+      "Read(/__RUN__/DROPS/**)",
+      "Read(~/.claude/**)",
+      "WebFetch",
+      "WebSearch",
+      "mcp__*",
+      "ListMcpResourcesTool",
+      "ReadMcpResourceTool",
+      "ReadMcpResourceDirTool",
+      "SendMessage",
+      "ListAgents",
+      "RemoteTrigger",
+      "PushNotification",
+      "CronCreate",
+      "CronDelete",
+      "CronList",
+      "Workflow",
+      "DesignSync",
+      "ScheduleWakeup",
+      "EnterWorktree",
+      "ExitWorktree",
+      "Monitor",
+      "Skill",
+      "Write(/__AG__/tools/**)",
+      "Edit(/__AG__/tools/**)",
+      "Write(/__AG__/stages/**)",
+      "Edit(/__AG__/stages/**)",
+      "Write(/__AG__/package/**)",
+      "Edit(/__AG__/package/**)",
+      "Write(/__AG__/trees/**)",
+      "Edit(/__AG__/trees/**)",
+      "Write(/__AG__/shelves/**)",
+      "Edit(/__AG__/shelves/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"__RUN__/CONTROL/harness/after_compact.sh\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Write|Edit|MultiEdit|NotebookEdit|Read|Grep|Glob",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"__RUN__/CONTROL/harness/pretool_guard.py\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"__RUN__/CONTROL/harness/pretool_guard.py\" --post"
+          }
+        ]
+      }
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "failIfUnavailable": true,
+    "allowUnsandboxedCommands": false,
+    "filesystem": {
+      "denyRead": [
+        "__RUN__/CONTROL",
+        "__RUN__/DROPS",
+        "__RUN__/STAGE CARDS",
+        "__RUN__/READ-ME-FIRST.md"
+      ],
+      "allowRead": [
+        "__AG__"
+      ],
+      "denyWrite": [
+        "__AG__/tools",
+        "__AG__/stages",
+        "__AG__/package",
+        "__AG__/trees",
+        "__AG__/shelves"
+      ]
+    },
+    "network": {
+      "allowedDomains": []
+    }
+  },
+  "cleanupPeriodDays": 36500
+}

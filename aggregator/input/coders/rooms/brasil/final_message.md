@@ -1,0 +1,1 @@
+r/brasil — full. Saturation: live-canvas practices recur through closure, followed by new preservation and reconstruction work before event conduct disappears in the final slices. Record saturation: off-platform decisions, unavailable media, deletions, and fleet boundaries limit some relations. Blocked: nothing.

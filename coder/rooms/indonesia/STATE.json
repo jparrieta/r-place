@@ -1,0 +1,79 @@
+{
+ "sub": "indonesia",
+ "built": "2026-09-06T16:51:42Z",
+ "instrument": "v32",
+ "items_in_window": 2946,
+ "items_by_people": 2919,
+ "chars_by_people": 454884,
+ "threads": 192,
+ "preweek_items": 5601,
+ "brief": "present",
+ "expected_branch": "B",
+ "expected_slices": 6,
+ "stage": "verified",
+ "log": [],
+ "notes": [
+  {
+   "at": "2026-09-08T15:57:15.819735+00:00",
+   "note": "Brief written in /Users/arrieta/Documents/ChatGPT/place Yard/atlas_yard/rooms/indonesia/brief; full transcript retained; paths relocated and source-side validation rerun. Queue rank 229"
+  },
+  {
+   "at": "2026-09-16T09:56:27Z",
+   "note": "Started native case lead using lead-calibration-v2; completed runs will be mirrored here. Source brief retained."
+  },
+  {
+   "at": "2026-09-16T10:52:40Z",
+   "note": "Verified coding and exact run mirror; native lead checkpoint remains at /Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/indonesia-gpt56-calibration-v1"
+  },
+  {
+   "at": "2026-09-16T10:53:37.341384+00:00",
+   "note": "Compressed complete forkable case-lead store after work ended."
+  }
+ ],
+ "snapshots": [],
+ "forks": [],
+ "updated": "2026-09-25T14:11:40Z",
+ "brief_verified": true,
+ "brief_validation": "passed",
+ "agents": [
+  {
+   "role": "brief writer",
+   "model": "gpt-5.6-sol",
+   "agent_id": "01a081a4-9d1e-7841-a08f-50982e178d36",
+   "started": "2026-09-08T15:30:44.471827+00:00",
+   "ended": "2026-09-08T15:56:14.472688+00:00",
+   "attempt": 1,
+   "transcript": "full platform transcript"
+  }
+ ],
+ "brief_model": "gpt-5.6-sol",
+ "brief_revision": "v30-brief-r1",
+ "brief_checked_at": "2026-09-08T15:57:15Z",
+ "brief_validation_digest": "f36c5e1afe16203ddff187c33cd6764b80feae1f24501e2258b89963756322f0",
+ "lead_model": "gpt-5.6-sol",
+ "lead_prompt_version": "lead-calibration-v1",
+ "coding_status": "verified",
+ "model": "gpt-5.6-sol",
+ "fingerprint": "5873e1e29cdab0cb",
+ "branch": "B",
+ "slices": 7,
+ "threshold": 500,
+ "verdict": "full",
+ "codes": 226,
+ "themes": 17,
+ "verified_utc": "2026-09-16T10:52:40Z",
+ "finished": "2026-09-16T10:52:38.437105+00:00",
+ "carried": "run",
+ "reported_total_tokens": 21290138,
+ "lead_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/_lead_sessions/indonesia-gpt56-calibration-v1.tar.zst",
+ "lead_archive_sha256": "8877860028c2789bac10da48f86ee496e3f3c400bba6074c5237fa2f05bd50cf",
+ "lead_archive_bytes": 100807846,
+ "run_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/indonesia/run.tar.zst",
+ "run_archive_sha256": "1ff6734eaa0640be77003480e473df0562f53a38e4ffa62e093986a7c94e1534",
+ "run_archive_bytes": 2720910,
+ "run_archived_utc": "2026-09-25T13:40:44.526904+00:00",
+ "materials_archive": "/Users/arrieta/Obsidian/Research/Claude/rPlace/Layer A/50_coding_runs/yard_v30/rooms/indonesia/materials.tar.zst",
+ "materials_archive_sha256": "73a7cb4bb06b214f1afe4769ca12200d1e37f32b565869dfeac5046d493ec7d5",
+ "materials_archive_bytes": 2890420,
+ "materials_archived_utc": "2026-09-25T13:50:21.865757+00:00"
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`tools/dreturn.py`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-dreturn-py.md">Markdown source</a></nav>
+<h1 id="toolsdreturnpy"><code>tools/dreturn.py</code></h1>
+<p>The one rule set for stage D's returns.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>Each op's required fields in a labeler's line and in the ledger, the kind each op carries, the room model's rules (end marker, grade line, concept citations of the room, ids of the vocabulary, every adapted element named), the path a source theme lifts through the placements, and the verdict reader's line with its schema. <code>ingest.py</code> applies it to every return before a room enters the ledger; the D2 close-check applies the same functions to what ingest compiled; <code>handoff.py</code> writes <code>RETURN-D2v.schema.json</code> from it, which <code>fleet.py</code> validates every verdict line against.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Written 2026-09-29 after the audit found that ingest and the D2 check applied different rules (audit 2026-09-29, H11 and H13). A rule changes here, once.</p>
+<h2 id="links">Links</h2>
+<p><a href="tool-ingest-py.html">ingest.py</a>, <a href="tool-checks.html">the D2 check</a>, <a href="tool-handoff-py.html">handoff.py</a>.</p>
+</body>
+</html>

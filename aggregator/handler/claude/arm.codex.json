@@ -1,0 +1,307 @@
+{
+  "_note": "OpenAI migration. Exact model ids, no fallback. Pilot schedule, not measured optimum. Leg keys are step letters. Reader sessions are independent.",
+  "A1": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "medium"
+      },
+      "b": {
+        "effort": "medium"
+      },
+      "c": {
+        "effort": "high"
+      }
+    }
+  },
+  "B1": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "high"
+      },
+      "b": {
+        "effort": "high"
+      },
+      "c": {
+        "effort": "xhigh"
+      },
+      "d": {
+        "effort": "high"
+      },
+      "e": {
+        "effort": "xhigh"
+      }
+    }
+  },
+  "B2": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "readers": {
+      "route": "codex",
+      "model": "gpt-6-sol",
+      "effort": "medium",
+      "n": 3,
+      "shared": "index.md,G*.md"
+    },
+    "legs": {
+      "a": {
+        "effort": "medium"
+      },
+      "b": {
+        "effort": "high"
+      },
+      "c": {
+        "effort": "medium"
+      },
+      "d": {
+        "effort": "high"
+      }
+    }
+  },
+  "B3": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "readers": {
+      "route": "codex",
+      "model": "gpt-6-sol",
+      "effort": "medium",
+      "n": 2,
+      "shared": "index.md,G*.md"
+    },
+    "legs": {
+      "a": {
+        "effort": "medium"
+      },
+      "b": {
+        "effort": "high"
+      }
+    }
+  },
+  "B4": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "readers": {
+      "route": "codex",
+      "model": "gpt-6-sol",
+      "effort": "medium",
+      "n": 2,
+      "shared": "index.md,G*.md"
+    },
+    "legs": {
+      "a": {
+        "effort": "high"
+      },
+      "b": {
+        "effort": "medium"
+      },
+      "c": {
+        "effort": "high"
+      }
+    }
+  },
+  "C1": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "xhigh"
+      }
+    }
+  },
+  "C2": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "readers": {
+      "route": "codex",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "n": 1,
+      "shared": ""
+    },
+    "legs": {
+      "a": {
+        "effort": "xhigh"
+      },
+      "b": {
+        "effort": "high"
+      },
+      "c": {
+        "effort": "high"
+      },
+      "d": {
+        "effort": "xhigh"
+      }
+    }
+  },
+  "C3": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "high"
+      },
+      "b": {
+        "effort": "high"
+      },
+      "c": {
+        "effort": "xhigh"
+      }
+    }
+  },
+  "C4": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "high"
+      }
+    }
+  },
+  "C5": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "readers": {
+      "route": "codex",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "n": 1,
+      "shared": ""
+    },
+    "legs": {
+      "a": {
+        "effort": "high"
+      },
+      "b": {
+        "effort": "medium"
+      },
+      "c": {
+        "effort": "high"
+      },
+      "d": {
+        "effort": "high"
+      }
+    }
+  },
+  "D1": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "medium"
+      }
+    }
+  },
+  "D2": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "readers": {
+      "route": "codex",
+      "model": "gpt-6-sol",
+      "effort": "medium",
+      "n": 2,
+      "shared": ""
+    },
+    "labelers": {
+      "source": "registered-native-case-lead",
+      "model_policy": "preserve-recorded-model-and-effort",
+      "fresh_session_per_room": false,
+      "recheck": "resume-latest-validated-return-checkpoint"
+    },
+    "legs": {
+      "a": {
+        "effort": "high"
+      }
+    }
+  },
+  "D3": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "high"
+      },
+      "b": {
+        "effort": "medium"
+      },
+      "c": {
+        "effort": "high"
+      }
+    }
+  },
+  "D4": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "xhigh"
+      }
+    }
+  },
+  "D5": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "high"
+      },
+      "b": {
+        "effort": "high"
+      }
+    }
+  },
+  "E1": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "readers": {
+      "route": "codex",
+      "model": "gpt-6-sol",
+      "effort": "medium",
+      "n": 1,
+      "shared": ""
+    },
+    "legs": {
+      "a": {
+        "effort": "high"
+      },
+      "b": {
+        "effort": "high"
+      },
+      "c": {
+        "effort": "medium"
+      },
+      "d": {
+        "effort": "high"
+      },
+      "e": {
+        "effort": "high"
+      }
+    }
+  },
+  "E2": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "high"
+      },
+      "b": {
+        "effort": "xhigh"
+      }
+    }
+  },
+  "D6": {
+    "analyst": "gpt-6-astra",
+    "effort": "high",
+    "legs": {
+      "a": {
+        "effort": "high"
+      },
+      "b": {
+        "effort": "high"
+      }
+    }
+  }
+}

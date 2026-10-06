@@ -1,0 +1,1 @@
+r/python — branch B — verdict: full. Thematic saturation was not reached; the final slice added new practices. Evidence saturation is limited by removed material and off-platform coordination. No blockers.

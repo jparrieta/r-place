@@ -1,0 +1,3280 @@
+{
+ "cowchop": {
+  "counts": {
+   "threads_given": 32,
+   "threads_with_codes": 32,
+   "items": 383,
+   "coded": 100,
+   "bridge": 37,
+   "removed": 0,
+   "dropped": 246,
+   "orphans": 0,
+   "na_stretches": 42,
+   "coverage_of_coded_items": 0.75,
+   "threads_total_in_window": 98
+  },
+  "index": {
+   "62ta9k": {
+    "0": {
+     "thread_id": "62ta9k",
+     "item_id": "62ta9k",
+     "parent_id": null,
+     "author": "Changoo96",
+     "created_utc": 1491059652,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "proposing that Cow Chop appear in r/place"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "No Place Like Home",
+      "retrieved_on": 1494549606
+     }
+    },
+    "1": {
+     "thread_id": "62ta9k",
+     "item_id": "dfp08bm",
+     "parent_id": "62ta9k",
+     "author": "Alienghost27",
+     "created_utc": 1491059966,
+     "dt_parent_sec": 314,
+     "dt_thread_sec": 314,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "looking for a spot for the cow chop symbol"
+     ],
+     "sequence": [
+      "c0002"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Baymax Trevor",
+      "retrieved_on": 1493706598
+     }
+    },
+    "2": {
+     "thread_id": "62ta9k",
+     "item_id": "dfp6mlk",
+     "parent_id": "62ta9k",
+     "author": "Loser_Like_Me",
+     "created_utc": 1491069092,
+     "dt_parent_sec": 9440,
+     "dt_thread_sec": 9440,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "asking everyone to join the cause"
+     ],
+     "sequence": [
+      "na",
+      "c0003"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493709677
+     }
+    },
+    "2.1": {
+     "thread_id": "62ta9k",
+     "item_id": "dfp75eo",
+     "parent_id": "dfp6mlk",
+     "author": "Changoo96",
+     "created_utc": 1491069854,
+     "dt_parent_sec": 762,
+     "dt_thread_sec": 10202,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "asking for coordinates"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 0.92,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "No Place Like Home",
+      "retrieved_on": 1493709927
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62ta9k",
+     "item_id": "dfp8jqt",
+     "parent_id": "dfp75eo",
+     "author": "Loser_Like_Me",
+     "created_utc": 1491071895,
+     "dt_parent_sec": 2041,
+     "dt_thread_sec": 12243,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "giving the r/place coordinates"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493710603
+     }
+    }
+   },
+   "62tbdw": {
+    "0": {
+     "thread_id": "62tbdw",
+     "item_id": "62tbdw",
+     "parent_id": null,
+     "author": "Alienghost27",
+     "created_utc": 1491059958,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 575,
+      "link_flair_text": "/r/place",
+      "author_flair_text": "Baymax Trevor",
+      "retrieved_on": 1494549621
+     }
+    },
+    "1": {
+     "thread_id": "62tbdw",
+     "item_id": "dfp6k58",
+     "parent_id": "62tbdw",
+     "author": "superbunchboy",
+     "created_utc": 1491068994,
+     "dt_parent_sec": 9036,
+     "dt_thread_sec": 9036,
+     "state": "coded",
+     "code_ids": [
+      "c0006",
+      "c0007"
+     ],
+     "labels": [
+      "announcing where the logo is being built",
+      "building upwards to avoid the art below"
+     ],
+     "sequence": [
+      "c0006",
+      "na",
+      "c0007",
+      "na"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "score": 38,
+      "retrieved_on": 1493709644
+     }
+    },
+    "1.1": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpkh6p",
+     "parent_id": "dfp6k58",
+     "author": "Drevoed",
+     "created_utc": 1491089961,
+     "dt_parent_sec": 20967,
+     "dt_thread_sec": 30003,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "objecting that the logo is eating up the heart"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493716376
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpkm3x",
+     "parent_id": "dfpkh6p",
+     "author": "xxSync",
+     "created_utc": 1491090161,
+     "dt_parent_sec": 200,
+     "dt_thread_sec": 30203,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "apologizing while saying they do not know what they can do"
+     ],
+     "sequence": [
+      "na",
+      "c0016"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "\"Ahhha JAMES! JAMES!!\"",
+      "retrieved_on": 1493716443
+     }
+    },
+    "2": {
+     "thread_id": "62tbdw",
+     "item_id": "dfp6r7h",
+     "parent_id": "62tbdw",
+     "author": "Loser_Like_Me",
+     "created_utc": 1491069281,
+     "dt_parent_sec": 9323,
+     "dt_thread_sec": 9323,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 68,
+      "retrieved_on": 1493709739
+     }
+    },
+    "2.1": {
+     "thread_id": "62tbdw",
+     "item_id": "dfp8s9f",
+     "parent_id": "dfp6r7h",
+     "author": "superbunchboy",
+     "created_utc": 1491072225,
+     "dt_parent_sec": 2944,
+     "dt_thread_sec": 12267,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493710718
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62tbdw",
+     "item_id": "dfp8xil",
+     "parent_id": "dfp8s9f",
+     "author": "Philipwangchang",
+     "created_utc": 1491072433,
+     "dt_parent_sec": 208,
+     "dt_thread_sec": 12475,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493710790
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpgsco",
+     "parent_id": "dfp8xil",
+     "author": "bdh008",
+     "created_utc": 1491084332,
+     "dt_parent_sec": 11899,
+     "dt_thread_sec": 24374,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "calling ruining stuff toward a common goal just like Cow Chop"
+     ],
+     "sequence": [
+      "c0014"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 55,
+      "author_flair_text": "\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+      "retrieved_on": 1493714586
+     }
+    },
+    "2.2": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpbck2",
+     "parent_id": "dfp6r7h",
+     "author": "Kingoftechno",
+     "created_utc": 1491076074,
+     "dt_parent_sec": 6793,
+     "dt_thread_sec": 16116,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "posting at green lattice to ask for peace"
+     ],
+     "sequence": [
+      "c0009",
+      "na"
+     ],
+     "coverage": 0.12,
+     "meta": {
+      "edited": 1491087957,
+      "score": 16,
+      "retrieved_on": 1493711952
+     }
+    },
+    "3": {
+     "thread_id": "62tbdw",
+     "item_id": "dfp9i57",
+     "parent_id": "62tbdw",
+     "author": "RyanW1019",
+     "created_utc": 1491073289,
+     "dt_parent_sec": 13331,
+     "dt_thread_sec": 13331,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "reaching out to greenlattice so they do not undo each other's work"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493711066
+     }
+    },
+    "4": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpcghx",
+     "parent_id": "62tbdw",
+     "author": "iGotCookiiez",
+     "created_utc": 1491077739,
+     "dt_parent_sec": 17781,
+     "dt_thread_sec": 17781,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "giving up on switching direction because others keep building down"
+     ],
+     "sequence": [
+      "c0010",
+      "na"
+     ],
+     "coverage": 0.75,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "GO PAX",
+      "retrieved_on": 1493712491
+     }
+    },
+    "5": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpdt2h",
+     "parent_id": "62tbdw",
+     "author": "stryking",
+     "created_utc": 1491079778,
+     "dt_parent_sec": 19820,
+     "dt_thread_sec": 19820,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "requesting peace over an inevitable overlap"
+     ],
+     "sequence": [
+      "c0011",
+      "na"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "score": 30,
+      "retrieved_on": 1493713143
+     }
+    },
+    "5.1": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpdz4z",
+     "parent_id": "dfpdt2h",
+     "author": "iGotCookiiez",
+     "created_utc": 1491080029,
+     "dt_parent_sec": 251,
+     "dt_thread_sec": 20071,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "agreeing that the edge can overlap"
+     ],
+     "sequence": [
+      "c0012",
+      "na"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 18,
+      "author_flair_text": "GO PAX",
+      "retrieved_on": 1493713225
+     }
+    },
+    "5.1.1": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpe70k",
+     "parent_id": "dfpdz4z",
+     "author": "stryking",
+     "created_utc": 1491080356,
+     "dt_parent_sec": 327,
+     "dt_thread_sec": 20398,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "offering to restore the Cow Chop logo in return"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1493713331
+     }
+    },
+    "6": {
+     "thread_id": "62tbdw",
+     "item_id": "dfplqli",
+     "parent_id": "62tbdw",
+     "author": "Changoo96",
+     "created_utc": 1491091849,
+     "dt_parent_sec": 31891,
+     "dt_thread_sec": 31891,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "asking for a discord to coordinate"
+     ],
+     "sequence": [
+      "c0017"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "No Place Like Home",
+      "retrieved_on": 1493716989
+     }
+    },
+    "7": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpmx0z",
+     "parent_id": "62tbdw",
+     "author": "zspartancats",
+     "created_utc": 1491093605,
+     "dt_parent_sec": 33647,
+     "dt_thread_sec": 33647,
+     "state": "coded",
+     "code_ids": [
+      "c0103",
+      "c0018"
+     ],
+     "labels": [
+      "refusing peace or treaties until the cow and knife are on the board",
+      "making the canvas logo a one-year anniversary celebration"
+     ],
+     "sequence": [
+      "c0103",
+      "c0018"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493717560
+     }
+    },
+    "8": {
+     "thread_id": "62tbdw",
+     "item_id": "dfpov1x",
+     "parent_id": "62tbdw",
+     "author": "JesseTrue3",
+     "created_utc": 1491096616,
+     "dt_parent_sec": 36658,
+     "dt_thread_sec": 36658,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "telling builders to repair erased parts"
+     ],
+     "sequence": [
+      "c0019"
+     ],
+     "coverage": 0.71,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Who's your daddy?",
+      "retrieved_on": 1493718502
+     }
+    },
+    "9": {
+     "thread_id": "62tbdw",
+     "item_id": "dfq9ejk",
+     "parent_id": "62tbdw",
+     "author": "Pancakeplanet12",
+     "created_utc": 1491145051,
+     "dt_parent_sec": 85093,
+     "dt_thread_sec": 85093,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "celebrating getting the logo done"
+     ],
+     "sequence": [
+      "c0020"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493728415
+     }
+    }
+   },
+   "62uzlx": {
+    "0": {
+     "thread_id": "62uzlx",
+     "item_id": "62uzlx",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491075885,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "announcing peace conditioned on building upwards and cleaning the lattice"
+     ],
+     "sequence": [
+      "c0021",
+      "na"
+     ],
+     "coverage": 0.54,
+     "meta": {
+      "score": 4,
+      "link_flair_text": "Fan Art",
+      "retrieved_on": 1494550465
+     }
+    }
+   },
+   "62wdkl": {
+    "0": {
+     "thread_id": "62wdkl",
+     "item_id": "62wdkl",
+     "parent_id": null,
+     "author": "Slendermau5_",
+     "created_utc": 1491089715,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "calling for help with the CowChop logo"
+     ],
+     "sequence": [
+      "c0022",
+      "na"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 89,
+      "author_flair_text": "fat",
+      "retrieved_on": 1494551160
+     }
+    },
+    "1": {
+     "thread_id": "62wdkl",
+     "item_id": "dfpkytn",
+     "parent_id": "62wdkl",
+     "author": "Cairandus",
+     "created_utc": 1491090681,
+     "dt_parent_sec": 966,
+     "dt_thread_sec": 966,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "half-joking about declaring war on funhaus"
+     ],
+     "sequence": [
+      "c0023"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1493716614
+     }
+    },
+    "1.1": {
+     "thread_id": "62wdkl",
+     "item_id": "dfpl4mv",
+     "parent_id": "dfpkytn",
+     "author": "stonecoldsam",
+     "created_utc": 1491090922,
+     "dt_parent_sec": 241,
+     "dt_thread_sec": 1207,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "apologizing as a Funhaus emissary for uncontrolled pixels"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493716692
+     }
+    },
+    "1.2": {
+     "thread_id": "62wdkl",
+     "item_id": "dfplocg",
+     "parent_id": "dfpkytn",
+     "author": "iGotCookiiez",
+     "created_utc": 1491091757,
+     "dt_parent_sec": 1076,
+     "dt_thread_sec": 2042,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "GO PAX",
+      "retrieved_on": 1493716959
+     }
+    },
+    "1.2.1": {
+     "thread_id": "62wdkl",
+     "item_id": "dfplw6g",
+     "parent_id": "dfplocg",
+     "author": "Cairandus",
+     "created_utc": 1491092085,
+     "dt_parent_sec": 328,
+     "dt_thread_sec": 2370,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493717063
+     }
+    },
+    "1.2.1.1": {
+     "thread_id": "62wdkl",
+     "item_id": "dfpoii3",
+     "parent_id": "dfplw6g",
+     "author": "EksCelle",
+     "created_utc": 1491096075,
+     "dt_parent_sec": 3990,
+     "dt_thread_sec": 6360,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "fixing the bottom of the bull before the cleaver"
+     ],
+     "sequence": [
+      "c0026",
+      "na"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493718333
+     }
+    },
+    "2": {
+     "thread_id": "62wdkl",
+     "item_id": "dfplkbe",
+     "parent_id": "62wdkl",
+     "author": "BigisDickus",
+     "created_utc": 1491091587,
+     "dt_parent_sec": 1872,
+     "dt_thread_sec": 1872,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491091913,
+      "score": 27,
+      "retrieved_on": 1493716905
+     }
+    },
+    "2.1": {
+     "thread_id": "62wdkl",
+     "item_id": "dfplsme",
+     "parent_id": "dfplkbe",
+     "author": "iGotCookiiez",
+     "created_utc": 1491091933,
+     "dt_parent_sec": 346,
+     "dt_thread_sec": 2218,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "reporting an overlap agreement while staying willing to negotiate"
+     ],
+     "sequence": [
+      "na",
+      "c0025"
+     ],
+     "coverage": 0.75,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "GO PAX",
+      "retrieved_on": 1493717015
+     }
+    }
+   },
+   "62wlw4": {
+    "0": {
+     "thread_id": "62wlw4",
+     "item_id": "62wlw4",
+     "parent_id": null,
+     "author": "dankdoobies",
+     "created_utc": 1491092285,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "calling Funhaus pixels an invasion of the CowChop logo"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 0.69,
+     "meta": {
+      "score": 14,
+      "retrieved_on": 1494551274
+     }
+    },
+    "1": {
+     "thread_id": "62wlw4",
+     "item_id": "dfpmne5",
+     "parent_id": "62wlw4",
+     "author": "TryHardFapHarder",
+     "created_utc": 1491093195,
+     "dt_parent_sec": 910,
+     "dt_thread_sec": 910,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "repairing the logo instead of attacking Funhaus space"
+     ],
+     "sequence": [
+      "c0028",
+      "na"
+     ],
+     "coverage": 0.33,
+     "meta": {
+      "score": 13,
+      "author_flair_text": "Ein",
+      "retrieved_on": 1493717431
+     }
+    }
+   },
+   "62wuv6": {
+    "0": {
+     "thread_id": "62wuv6",
+     "item_id": "62wuv6",
+     "parent_id": null,
+     "author": "Kingoftechno",
+     "created_utc": 1491095113,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 297,
+      "link_flair_text": "/r/place",
+      "retrieved_on": 1494551399
+     }
+    },
+    "1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfpny54",
+     "parent_id": "62wuv6",
+     "author": "Kingoftechno",
+     "created_utc": 1491095189,
+     "dt_parent_sec": 76,
+     "dt_thread_sec": 76,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "reminding builders to build under the surrounding art"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 0.81,
+     "meta": {
+      "score": 73,
+      "retrieved_on": 1493718059
+     }
+    },
+    "1.1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfppi22",
+     "parent_id": "dfpny54",
+     "author": "NOTtheNerevarine",
+     "created_utc": 1491097614,
+     "dt_parent_sec": 2425,
+     "dt_thread_sec": 2501,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 41,
+      "retrieved_on": 1493718812
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfpqcs0",
+     "parent_id": "dfppi22",
+     "author": "BigisDickus",
+     "created_utc": 1491098942,
+     "dt_parent_sec": 1328,
+     "dt_thread_sec": 3829,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493719223
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfptxl6",
+     "parent_id": "dfpqcs0",
+     "author": "ChevN7",
+     "created_utc": 1491105098,
+     "dt_parent_sec": 6156,
+     "dt_thread_sec": 9985,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1493720956
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfpxawo",
+     "parent_id": "dfptxl6",
+     "author": "HermitPrime",
+     "created_utc": 1491111962,
+     "dt_parent_sec": 6864,
+     "dt_thread_sec": 16849,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 13,
+      "retrieved_on": 1493722579
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfpxn6a",
+     "parent_id": "dfpxawo",
+     "author": "ChevN7",
+     "created_utc": 1491112778,
+     "dt_parent_sec": 816,
+     "dt_thread_sec": 17665,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "checking what Cowchop friends were doing while maintaining Funhaus"
+     ],
+     "sequence": [
+      "na",
+      "c0031"
+     ],
+     "coverage": 0.61,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493722742
+     }
+    },
+    "2": {
+     "thread_id": "62wuv6",
+     "item_id": "dfpuezz",
+     "parent_id": "62wuv6",
+     "author": "iGotCookiiez",
+     "created_utc": 1491105996,
+     "dt_parent_sec": 10883,
+     "dt_thread_sec": 10883,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": -1,
+      "author_flair_text": "GO PAX",
+      "retrieved_on": 1493721188
+     }
+    },
+    "2.1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfpus3d",
+     "parent_id": "dfpuezz",
+     "author": "Annalanna",
+     "created_utc": 1491106665,
+     "dt_parent_sec": 669,
+     "dt_thread_sec": 11552,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1493721363
+     }
+    },
+    "2.1.1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfpuyiw",
+     "parent_id": "dfpus3d",
+     "author": "iGotCookiiez",
+     "created_utc": 1491107002,
+     "dt_parent_sec": 337,
+     "dt_thread_sec": 11889,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "GO PAX",
+      "retrieved_on": 1493721450
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfpv3j8",
+     "parent_id": "dfpuyiw",
+     "author": "Garestinian",
+     "created_utc": 1491107265,
+     "dt_parent_sec": 263,
+     "dt_thread_sec": 12152,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493721516
+     }
+    },
+    "2.1.1.1.1": {
+     "thread_id": "62wuv6",
+     "item_id": "dfpv6iu",
+     "parent_id": "dfpv3j8",
+     "author": "iGotCookiiez",
+     "created_utc": 1491107428,
+     "dt_parent_sec": 163,
+     "dt_thread_sec": 12315,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "blaming the Founding Fathers for a shitty location and direction"
+     ],
+     "sequence": [
+      "c0030",
+      "na"
+     ],
+     "coverage": 0.42,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "GO PAX",
+      "retrieved_on": 1493721556
+     }
+    },
+    "3": {
+     "thread_id": "62wuv6",
+     "item_id": "dfrztpz",
+     "parent_id": "62wuv6",
+     "author": "Mukaido",
+     "created_utc": 1491239267,
+     "dt_parent_sec": 144154,
+     "dt_thread_sec": 144154,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "replacing the cleaver holes repeatedly"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 0.92,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493761150
+     }
+    }
+   },
+   "62x64m": {
+    "0": {
+     "thread_id": "62x64m",
+     "item_id": "62x64m",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491098864,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 72,
+      "link_flair_text": "/r/place",
+      "retrieved_on": 1494551556
+     }
+    },
+    "1": {
+     "thread_id": "62x64m",
+     "item_id": "dfpqzyh",
+     "parent_id": "62x64m",
+     "author": "ShaanCC",
+     "created_utc": 1491100031,
+     "dt_parent_sec": 1167,
+     "dt_thread_sec": 1167,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "discovering after a refresh that hours of work targeted a completed spot"
+     ],
+     "sequence": [
+      "na",
+      "c0033"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493719536
+     }
+    }
+   },
+   "62xj7p": {
+    "0": {
+     "thread_id": "62xj7p",
+     "item_id": "62xj7p",
+     "parent_id": null,
+     "author": "ShaanCC",
+     "created_utc": 1491103611,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "announcing the inside of the logo is complete"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 574,
+      "link_flair_text": "/r/place",
+      "retrieved_on": 1494551737
+     }
+    },
+    "1": {
+     "thread_id": "62xj7p",
+     "item_id": "dfq2z0t",
+     "parent_id": "62xj7p",
+     "author": "lovelybac0n",
+     "created_utc": 1491129673,
+     "dt_parent_sec": 26062,
+     "dt_thread_sec": 26062,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493725309
+     }
+    },
+    "1.1": {
+     "thread_id": "62xj7p",
+     "item_id": "dfqm6xt",
+     "parent_id": "dfq2z0t",
+     "author": "Backhafy",
+     "created_utc": 1491162113,
+     "dt_parent_sec": 32440,
+     "dt_thread_sec": 58502,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "helping to defend tux after finishing the Cow Chop logo"
+     ],
+     "sequence": [
+      "na",
+      "c0036"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "score": 4,
+      "author_flair_text": "BattleBlock",
+      "retrieved_on": 1493734594
+     }
+    },
+    "2": {
+     "thread_id": "62xj7p",
+     "item_id": "dfqdmot",
+     "parent_id": "62xj7p",
+     "author": "ltpirate",
+     "created_utc": 1491151081,
+     "dt_parent_sec": 47470,
+     "dt_thread_sec": 47470,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "proposing shared templates to protect each other's logos"
+     ],
+     "sequence": [
+      "c0035"
+     ],
+     "coverage": 0.91,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493730453
+     }
+    }
+   },
+   "62xlut": {
+    "0": {
+     "thread_id": "62xlut",
+     "item_id": "62xlut",
+     "parent_id": null,
+     "author": "makeeggs",
+     "created_utc": 1491104607,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "announcing the r/place work is complete"
+     ],
+     "sequence": [
+      "c0037"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "link_flair_text": "Repost",
+      "retrieved_on": 1494551773
+     }
+    }
+   },
+   "62xpkn": {
+    "0": {
+     "thread_id": "62xpkn",
+     "item_id": "62xpkn",
+     "parent_id": null,
+     "author": "Kingoftechno",
+     "created_utc": 1491106015,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 367,
+      "link_flair_text": "/r/place",
+      "retrieved_on": 1494551824
+     }
+    },
+    "1": {
+     "thread_id": "62xpkn",
+     "item_id": "dfputdy",
+     "parent_id": "62xpkn",
+     "author": "Sticbas",
+     "created_utc": 1491106731,
+     "dt_parent_sec": 716,
+     "dt_thread_sec": 716,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "running maintenance against troll pixels"
+     ],
+     "sequence": [
+      "na",
+      "c0038"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "edited": 1491107229,
+      "score": 10,
+      "author_flair_text": "I can suck your stuff",
+      "retrieved_on": 1493721379
+     }
+    },
+    "2": {
+     "thread_id": "62xpkn",
+     "item_id": "dfpux72",
+     "parent_id": "62xpkn",
+     "author": "thomas_succs",
+     "created_utc": 1491106930,
+     "dt_parent_sec": 915,
+     "dt_thread_sec": 915,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "reciprocating cooperative neighbors by cleaning attacks"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 58,
+      "retrieved_on": 1493721432
+     }
+    },
+    "3": {
+     "thread_id": "62xpkn",
+     "item_id": "dfpv5vg",
+     "parent_id": "62xpkn",
+     "author": "dddanger",
+     "created_utc": 1491107392,
+     "dt_parent_sec": 1377,
+     "dt_thread_sec": 1377,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "trying to stop the Void from fusing Cowchop and the Bronies"
+     ],
+     "sequence": [
+      "c0040"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493721547
+     }
+    },
+    "4": {
+     "thread_id": "62xpkn",
+     "item_id": "dfqg764",
+     "parent_id": "62xpkn",
+     "author": "Clbsfn",
+     "created_utc": 1491154436,
+     "dt_parent_sec": 48421,
+     "dt_thread_sec": 48421,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "writing Cow Chop beside the mascot's neck"
+     ],
+     "sequence": [
+      "c0041",
+      "na"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493731691
+     }
+    }
+   },
+   "62xtqw": {
+    "0": {
+     "thread_id": "62xtqw",
+     "item_id": "62xtqw",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491107671,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "link_flair_text": "Rule 2",
+      "retrieved_on": 1494551882
+     }
+    },
+    "1": {
+     "thread_id": "62xtqw",
+     "item_id": "dfpvhiy",
+     "parent_id": "62xtqw",
+     "author": "touchedbyamallangel",
+     "created_utc": 1491108033,
+     "dt_parent_sec": 362,
+     "dt_thread_sec": 362,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "correcting an attack warning by identifying the Void"
+     ],
+     "sequence": [
+      "c0042",
+      "na"
+     ],
+     "coverage": 0.56,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493721703
+     }
+    }
+   },
+   "62xuvo": {
+    "0": {
+     "thread_id": "62xuvo",
+     "item_id": "62xuvo",
+     "parent_id": null,
+     "author": "I-Gamer",
+     "created_utc": 1491108145,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 311,
+      "link_flair_text": "/r/place",
+      "retrieved_on": 1494551898
+     }
+    },
+    "1": {
+     "thread_id": "62xuvo",
+     "item_id": "dfpvnjy",
+     "parent_id": "62xuvo",
+     "author": "I-Gamer",
+     "created_utc": 1491108363,
+     "dt_parent_sec": 218,
+     "dt_thread_sec": 218,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "recounting trouble with the cleaver and border coming together"
+     ],
+     "sequence": [
+      "c0043"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "edited": 1491110280,
+      "score": 8,
+      "retrieved_on": 1493721783
+     }
+    },
+    "2": {
+     "thread_id": "62xuvo",
+     "item_id": "dfpwbtv",
+     "parent_id": "62xuvo",
+     "author": "Meeerc",
+     "created_utc": 1491109767,
+     "dt_parent_sec": 1622,
+     "dt_thread_sec": 1622,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 32,
+      "author_flair_text": "you literally scared the piss outta my dog",
+      "retrieved_on": 1493722110
+     }
+    },
+    "2.1": {
+     "thread_id": "62xuvo",
+     "item_id": "dfpwfqw",
+     "parent_id": "dfpwbtv",
+     "author": "I-Gamer",
+     "created_utc": 1491110007,
+     "dt_parent_sec": 240,
+     "dt_thread_sec": 1862,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "blaming mistakes on building from memory instead of the reference"
+     ],
+     "sequence": [
+      "na",
+      "c0044",
+      "na"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1493722162
+     }
+    }
+   },
+   "62y07b": {
+    "0": {
+     "thread_id": "62y07b",
+     "item_id": "62y07b",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491110414,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 6,
+      "link_flair_text": "Repost",
+      "retrieved_on": 1494551971
+     }
+    },
+    "1": {
+     "thread_id": "62y07b",
+     "item_id": "dfpww1l",
+     "parent_id": "62y07b",
+     "author": "WillsVidz",
+     "created_utc": 1491111017,
+     "dt_parent_sec": 603,
+     "dt_thread_sec": 603,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "taking pride in what the community made"
+     ],
+     "sequence": [
+      "na",
+      "c0045"
+     ],
+     "coverage": 0.47,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "\"I'M THE JOKER BABY\"",
+      "retrieved_on": 1493722381
+     }
+    }
+   },
+   "62ycmu": {
+    "0": {
+     "thread_id": "62ycmu",
+     "item_id": "62ycmu",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491116450,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "asking to write Cow Chop near the r/place logo"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494552146
+     }
+    }
+   },
+   "62yol2": {
+    "0": {
+     "thread_id": "62yol2",
+     "item_id": "62yol2",
+     "parent_id": null,
+     "author": "InfiniteFireTV",
+     "created_utc": 1491122890,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "crediting Cow Chop fans for making the r/place logo"
+     ],
+     "sequence": [
+      "na",
+      "c0047",
+      "na"
+     ],
+     "coverage": 0.02,
+     "meta": {
+      "edited": 1491140840,
+      "score": 10,
+      "link_flair_text": "Weekly Update",
+      "retrieved_on": 1494552312
+     }
+    }
+   },
+   "63076p": {
+    "0": {
+     "thread_id": "63076p",
+     "item_id": "63076p",
+     "parent_id": null,
+     "author": "Hmmark1984",
+     "created_utc": 1491146634,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 32,
+      "link_flair_text": "/r/place",
+      "author_flair_text": "55 Gallons of Lube",
+      "retrieved_on": 1494553069
+     }
+    },
+    "1": {
+     "thread_id": "63076p",
+     "item_id": "dfqi9i0",
+     "parent_id": "63076p",
+     "author": "tuwangclan",
+     "created_utc": 1491157080,
+     "dt_parent_sec": 10446,
+     "dt_thread_sec": 10446,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493732691
+     }
+    },
+    "1.1": {
+     "thread_id": "63076p",
+     "item_id": "dfqiqra",
+     "parent_id": "dfqi9i0",
+     "author": "Hmmark1984",
+     "created_utc": 1491157679,
+     "dt_parent_sec": 599,
+     "dt_thread_sec": 11045,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": -4,
+      "author_flair_text": "55 Gallons of Lube",
+      "retrieved_on": 1493732922
+     }
+    },
+    "1.1.1": {
+     "thread_id": "63076p",
+     "item_id": "dfqosvm",
+     "parent_id": "dfqiqra",
+     "author": "Sticbas",
+     "created_utc": 1491165664,
+     "dt_parent_sec": 7985,
+     "dt_thread_sec": 19030,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "sticking to the agreed image to avoid fighting trolls and themselves"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "I can suck your stuff",
+      "retrieved_on": 1493735852
+     }
+    }
+   },
+   "6308sv": {
+    "0": {
+     "thread_id": "6308sv",
+     "item_id": "6308sv",
+     "parent_id": null,
+     "author": "weed0monkey",
+     "created_utc": 1491147131,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "calling all hands to make the RT logo"
+     ],
+     "sequence": [
+      "c0049"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1494553091
+     }
+    }
+   },
+   "630lbu": {
+    "0": {
+     "thread_id": "630lbu",
+     "item_id": "630lbu",
+     "parent_id": null,
+     "author": "pophlo",
+     "created_utc": 1491150771,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "link_flair_text": "There's already a CC logo on /r/place, no need to overdo it.",
+      "retrieved_on": 1494553266
+     }
+    },
+    "1": {
+     "thread_id": "630lbu",
+     "item_id": "dfqdivi",
+     "parent_id": "630lbu",
+     "author": "epeonv1",
+     "created_utc": 1491150936,
+     "dt_parent_sec": 165,
+     "dt_thread_sec": 165,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "refusing to build inside the naruto logo"
+     ],
+     "sequence": [
+      "na",
+      "c0050"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 3,
+      "author_flair_text": "<-- Best Girl",
+      "retrieved_on": 1493730402
+     }
+    },
+    "1.1": {
+     "thread_id": "630lbu",
+     "item_id": "dfqeyap",
+     "parent_id": "dfqdivi",
+     "author": "pophlo",
+     "created_utc": 1491152830,
+     "dt_parent_sec": 1894,
+     "dt_thread_sec": 2059,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493731090
+     }
+    },
+    "1.1.1": {
+     "thread_id": "630lbu",
+     "item_id": "dfqf7b1",
+     "parent_id": "dfqeyap",
+     "author": "epeonv1",
+     "created_utc": 1491153153,
+     "dt_parent_sec": 323,
+     "dt_thread_sec": 2382,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "<-- Best Girl",
+      "retrieved_on": 1493731211
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "630lbu",
+     "item_id": "dfqfhtr",
+     "parent_id": "dfqf7b1",
+     "author": "pophlo",
+     "created_utc": 1491153528,
+     "dt_parent_sec": 375,
+     "dt_thread_sec": 2757,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493731351
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "630lbu",
+     "item_id": "dfqfyer",
+     "parent_id": "dfqfhtr",
+     "author": "epeonv1",
+     "created_utc": 1491154121,
+     "dt_parent_sec": 593,
+     "dt_thread_sec": 3350,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "maintaining Cow Chop, Funhaus, Naruto, and One Piece logos"
+     ],
+     "sequence": [
+      "c0051",
+      "na"
+     ],
+     "coverage": 0.58,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "<-- Best Girl",
+      "retrieved_on": 1493731575
+     }
+    }
+   },
+   "6312ug": {
+    "0": {
+     "thread_id": "6312ug",
+     "item_id": "6312ug",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491155603,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494553512
+     }
+    },
+    "1": {
+     "thread_id": "6312ug",
+     "item_id": "dfqh7w4",
+     "parent_id": "6312ug",
+     "author": "Clbsfn",
+     "created_utc": 1491155742,
+     "dt_parent_sec": 139,
+     "dt_thread_sec": 139,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "inviting help and giving a letter guideline"
+     ],
+     "sequence": [
+      "c0052",
+      "na"
+     ],
+     "coverage": 0.58,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493732183
+     }
+    }
+   },
+   "6316fc": {
+    "0": {
+     "thread_id": "6316fc",
+     "item_id": "6316fc",
+     "parent_id": null,
+     "author": "Pancakeplanet12",
+     "created_utc": 1491156593,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "pointing out Funhaus on r/place"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 0.62,
+     "meta": {
+      "score": 0,
+      "link_flair_text": "Rule 2",
+      "retrieved_on": 1494553562
+     }
+    }
+   },
+   "633i4e": {
+    "0": {
+     "thread_id": "633i4e",
+     "item_id": "633i4e",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491180652,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "bringing an r/place request from r/halo"
+     ],
+     "sequence": [
+      "c0054"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494554792
+     }
+    }
+   },
+   "633pix": {
+    "0": {
+     "thread_id": "633pix",
+     "item_id": "633pix",
+     "parent_id": null,
+     "author": "ObliviousZilla",
+     "created_utc": 1491182953,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "link_flair_text": "/r/place",
+      "retrieved_on": 1494554893
+     }
+    },
+    "1": {
+     "thread_id": "633pix",
+     "item_id": "dfr3vhw",
+     "parent_id": "633pix",
+     "author": "CaptainHolligans",
+     "created_utc": 1491184694,
+     "dt_parent_sec": 1741,
+     "dt_thread_sec": 1741,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "trying to fix the always-griefed border and blade"
+     ],
+     "sequence": [
+      "c0055"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493743395
+     }
+    },
+    "1.1": {
+     "thread_id": "633pix",
+     "item_id": "dfr48b9",
+     "parent_id": "dfr3vhw",
+     "author": "Sticbas",
+     "created_utc": 1491185132,
+     "dt_parent_sec": 438,
+     "dt_thread_sec": 2179,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "not knowing whether black-pixel removers are griefing or helping"
+     ],
+     "sequence": [
+      "c0056"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "I can suck your stuff",
+      "retrieved_on": 1493743573
+     }
+    },
+    "2": {
+     "thread_id": "633pix",
+     "item_id": "dfrjfyc",
+     "parent_id": "633pix",
+     "author": "Calluummmmm",
+     "created_utc": 1491214002,
+     "dt_parent_sec": 31049,
+     "dt_thread_sec": 31049,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "calling people back after tracing vandalism to r/mylittlepony"
+     ],
+     "sequence": [
+      "c0057"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Squiggly Cup",
+      "retrieved_on": 1493751515
+     }
+    }
+   },
+   "634837": {
+    "0": {
+     "thread_id": "634837",
+     "item_id": "634837",
+     "parent_id": null,
+     "author": "RebelArsonist",
+     "created_utc": 1491189021,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 7,
+      "link_flair_text": "Rule 4",
+      "author_flair_text": "Where's Ein?",
+      "retrieved_on": 1494555148
+     }
+    },
+    "1": {
+     "thread_id": "634837",
+     "item_id": "dfr9ci1",
+     "parent_id": "634837",
+     "author": "BigDaddyXanax",
+     "created_utc": 1491191364,
+     "dt_parent_sec": 2343,
+     "dt_thread_sec": 2343,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "cleaning up while saying it cannot be done alone"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746085
+     }
+    }
+   },
+   "634vxz": {
+    "0": {
+     "thread_id": "634vxz",
+     "item_id": "634vxz",
+     "parent_id": null,
+     "author": "heynowyouranal",
+     "created_utc": 1491197919,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "calling everyone to fix a pony put over the logo"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 0.87,
+     "meta": {
+      "score": 0,
+      "link_flair_text": "The pony has been there from the start. No need to get defensive",
+      "retrieved_on": 1494555477
+     }
+    }
+   },
+   "636q92": {
+    "0": {
+     "thread_id": "636q92",
+     "item_id": "636q92",
+     "parent_id": null,
+     "author": "NIPPLE_POOP",
+     "created_utc": 1491225825,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "spending another day stopping the cow head from being chopped off"
+     ],
+     "sequence": [
+      "c0060"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 343,
+      "link_flair_text": "/r/place",
+      "retrieved_on": 1494556403
+     }
+    },
+    "1": {
+     "thread_id": "636q92",
+     "item_id": "dfrr69x",
+     "parent_id": "636q92",
+     "author": "Deluxe_Affinity",
+     "created_utc": 1491228826,
+     "dt_parent_sec": 3001,
+     "dt_thread_sec": 3001,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "joking about retaliating by writing Cow Chop over Sakamoto"
+     ],
+     "sequence": [
+      "na",
+      "c0061"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "score": 42,
+      "author_flair_text": "\"My nipples got pretty hard doing that.\"",
+      "retrieved_on": 1493755854
+     }
+    },
+    "1.1": {
+     "thread_id": "636q92",
+     "item_id": "dfrrtbc",
+     "parent_id": "dfrr69x",
+     "author": "NIPPLE_POOP",
+     "created_utc": 1491229650,
+     "dt_parent_sec": 824,
+     "dt_thread_sec": 3825,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "cleaning up immediately behind people cutting across the art"
+     ],
+     "sequence": [
+      "na",
+      "c0062"
+     ],
+     "coverage": 0.36,
+     "meta": {
+      "score": 17,
+      "retrieved_on": 1493756264
+     }
+    },
+    "2": {
+     "thread_id": "636q92",
+     "item_id": "dfrs4ua",
+     "parent_id": "636q92",
+     "author": "Corrie-luv_",
+     "created_utc": 1491230052,
+     "dt_parent_sec": 4227,
+     "dt_thread_sec": 4227,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 136,
+      "author_flair_text": "NovaHD Enthusiast",
+      "retrieved_on": 1493756421
+     }
+    },
+    "2.1": {
+     "thread_id": "636q92",
+     "item_id": "dfrut9a",
+     "parent_id": "dfrs4ua",
+     "author": "NIPPLE_POOP",
+     "created_utc": 1491233262,
+     "dt_parent_sec": 3210,
+     "dt_thread_sec": 7437,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "spending clicks fixing the north end while their own vandals attack neighbours"
+     ],
+     "sequence": [
+      "c0063",
+      "na"
+     ],
+     "coverage": 0.65,
+     "meta": {
+      "score": 32,
+      "retrieved_on": 1493758334
+     }
+    },
+    "3": {
+     "thread_id": "636q92",
+     "item_id": "dfrx3r1",
+     "parent_id": "636q92",
+     "author": "cbear013",
+     "created_utc": 1491235920,
+     "dt_parent_sec": 10095,
+     "dt_thread_sec": 10095,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "saying they stopped writing names to help complete the Cowchop logo"
+     ],
+     "sequence": [
+      "c0064",
+      "na"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "score": 23,
+      "retrieved_on": 1493759490
+     }
+    },
+    "3.1": {
+     "thread_id": "636q92",
+     "item_id": "dfrxq6t",
+     "parent_id": "dfrx3r1",
+     "author": "NIPPLE_POOP",
+     "created_utc": 1491236709,
+     "dt_parent_sec": 789,
+     "dt_thread_sec": 10884,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "calling the tiling decentralized while playfully blaming Funhaus"
+     ],
+     "sequence": [
+      "na",
+      "c0065"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1493759844
+     }
+    },
+    "4": {
+     "thread_id": "636q92",
+     "item_id": "dfs7q2h",
+     "parent_id": "636q92",
+     "author": "PopeMitchIII",
+     "created_utc": 1491248372,
+     "dt_parent_sec": 22547,
+     "dt_thread_sec": 22547,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493765669
+     }
+    },
+    "4.1": {
+     "thread_id": "636q92",
+     "item_id": "dfsboja",
+     "parent_id": "dfs7q2h",
+     "author": "Devon302",
+     "created_utc": 1491252933,
+     "dt_parent_sec": 4561,
+     "dt_thread_sec": 27108,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "explaining the pixel rules and saying Cowchop and Funhaus eventually chilled out"
+     ],
+     "sequence": [
+      "c0066",
+      "na"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "score": 15,
+      "author_flair_text": "Ew",
+      "retrieved_on": 1493767581
+     }
+    },
+    "4.1.1": {
+     "thread_id": "636q92",
+     "item_id": "dfsd3e5",
+     "parent_id": "dfsboja",
+     "author": "PopeMitchIII",
+     "created_utc": 1491254550,
+     "dt_parent_sec": 1617,
+     "dt_thread_sec": 28725,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "thanking someone for the detailed r/place explanation"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493768261
+     }
+    }
+   },
+   "636r2d": {
+    "0": {
+     "thread_id": "636r2d",
+     "item_id": "636r2d",
+     "parent_id": null,
+     "author": "nicobullidano",
+     "created_utc": 1491226076,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "marking CowChop's tribute on r/place"
+     ],
+     "sequence": [
+      "c0068"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 0,
+      "link_flair_text": "Repost",
+      "retrieved_on": 1494556415
+     }
+    },
+    "1": {
+     "thread_id": "636r2d",
+     "item_id": "dfrqos7",
+     "parent_id": "636r2d",
+     "author": "Anzyx",
+     "created_utc": 1491228190,
+     "dt_parent_sec": 2114,
+     "dt_thread_sec": 2114,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "calling the tribute old news"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "wut",
+      "retrieved_on": 1493755547
+     }
+    }
+   },
+   "637ysw": {
+    "0": {
+     "thread_id": "637ysw",
+     "item_id": "637ysw",
+     "parent_id": null,
+     "author": "TheVloginator",
+     "created_utc": 1491237866,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "showing the Cow Chop art's edits as stacked changes"
+     ],
+     "sequence": [
+      "c0070"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 80,
+      "link_flair_text": "/r/place",
+      "author_flair_text": "\"Who texted you?\"",
+      "retrieved_on": 1494557022
+     }
+    },
+    "1": {
+     "thread_id": "637ysw",
+     "item_id": "dfsc0mp",
+     "parent_id": "637ysw",
+     "author": "Slyph179",
+     "created_utc": 1491253308,
+     "dt_parent_sec": 15442,
+     "dt_thread_sec": 15442,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "complaining about people filling in the hole"
+     ],
+     "sequence": [
+      "c0071"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 47,
+      "retrieved_on": 1493767742
+     }
+    },
+    "1.1": {
+     "thread_id": "637ysw",
+     "item_id": "dftaof0",
+     "parent_id": "dfsc0mp",
+     "author": "ZombieWolf2508",
+     "created_utc": 1491311371,
+     "dt_parent_sec": 58063,
+     "dt_thread_sec": 73505,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "explaining that anti-griefers mistook the hole for griefing"
+     ],
+     "sequence": [
+      "c0073"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 18,
+      "author_flair_text": "Sample Scouts 4 lyf",
+      "retrieved_on": 1493784703
+     }
+    },
+    "2": {
+     "thread_id": "637ysw",
+     "item_id": "dfsxh81",
+     "parent_id": "637ysw",
+     "author": "ThatBlueSkittle",
+     "created_utc": 1491280055,
+     "dt_parent_sec": 42189,
+     "dt_thread_sec": 42189,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "claiming blocks and explaining kindly filled holes"
+     ],
+     "sequence": [
+      "c0072"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "The Office Era",
+      "retrieved_on": 1493778307
+     }
+    }
+   },
+   "6383ga": {
+    "0": {
+     "thread_id": "6383ga",
+     "item_id": "6383ga",
+     "parent_id": null,
+     "author": "Calluummmmm",
+     "created_utc": 1491239129,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "sharing a best screenshot once r/place ended"
+     ],
+     "sequence": [
+      "c0074"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 21,
+      "author_flair_text": "Squiggly Cup",
+      "retrieved_on": 1494557089
+     }
+    },
+    "1": {
+     "thread_id": "6383ga",
+     "item_id": "dfs24r3",
+     "parent_id": "6383ga",
+     "author": "le-click",
+     "created_utc": 1491241820,
+     "dt_parent_sec": 2691,
+     "dt_thread_sec": 2691,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "regretting that a screenshot lacks the knife holes"
+     ],
+     "sequence": [
+      "c0075",
+      "na"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 9,
+      "author_flair_text": "Fake James",
+      "retrieved_on": 1493762921
+     }
+    },
+    "2": {
+     "thread_id": "6383ga",
+     "item_id": "dfsbpxl",
+     "parent_id": "6383ga",
+     "author": "Jenkins_Palabro_ESQ",
+     "created_utc": 1491252974,
+     "dt_parent_sec": 13845,
+     "dt_thread_sec": 13845,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "calling the final-image sidebar perfect"
+     ],
+     "sequence": [
+      "c0076"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493767600
+     }
+    }
+   },
+   "6383re": {
+    "0": {
+     "thread_id": "6383re",
+     "item_id": "6383re",
+     "parent_id": null,
+     "author": "Scytheist",
+     "created_utc": 1491239191,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "celebrating the final logo with its holes intact"
+     ],
+     "sequence": [
+      "c0077"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 714,
+      "link_flair_text": "/r/place",
+      "author_flair_text": "spookycraft",
+      "retrieved_on": 1494557094
+     }
+    },
+    "1": {
+     "thread_id": "6383re",
+     "item_id": "dfs0vek",
+     "parent_id": "6383re",
+     "author": "SpacemanSput",
+     "created_utc": 1491240423,
+     "dt_parent_sec": 1232,
+     "dt_thread_sec": 1232,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "celebrating the holes after people mistook them for mistakes"
+     ],
+     "sequence": [
+      "c0078"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 181,
+      "author_flair_text": "Mishka",
+      "retrieved_on": 1493762295
+     }
+    },
+    "1.1": {
+     "thread_id": "6383re",
+     "item_id": "dfsg6r4",
+     "parent_id": "dfs0vek",
+     "author": "BluePineapple72",
+     "created_utc": 1491258175,
+     "dt_parent_sec": 17752,
+     "dt_thread_sec": 18984,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "apologizing for mistaking the holes for vandalism"
+     ],
+     "sequence": [
+      "c0083"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 45,
+      "retrieved_on": 1493769753
+     }
+    },
+    "2": {
+     "thread_id": "6383re",
+     "item_id": "dfs2y3s",
+     "parent_id": "6383re",
+     "author": "zyzzx223",
+     "created_utc": 1491242726,
+     "dt_parent_sec": 3535,
+     "dt_thread_sec": 3535,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "recounting spending all their time fixing the logo"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 26,
+      "retrieved_on": 1493763326
+     }
+    },
+    "3": {
+     "thread_id": "6383re",
+     "item_id": "dfs4s5a",
+     "parent_id": "6383re",
+     "author": "Sticbas",
+     "created_utc": 1491244819,
+     "dt_parent_sec": 5628,
+     "dt_thread_sec": 5628,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "spotting three misplaced pixels from memory"
+     ],
+     "sequence": [
+      "c0080"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 16,
+      "author_flair_text": "I can suck your stuff",
+      "retrieved_on": 1493764235
+     }
+    },
+    "3.1": {
+     "thread_id": "6383re",
+     "item_id": "dfsjv2z",
+     "parent_id": "dfs4s5a",
+     "author": "Meeerc",
+     "created_utc": 1491262741,
+     "dt_parent_sec": 17922,
+     "dt_thread_sec": 23550,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "you literally scared the piss outta my dog",
+      "retrieved_on": 1493771527
+     }
+    },
+    "3.1.1": {
+     "thread_id": "6383re",
+     "item_id": "dfsv4da",
+     "parent_id": "dfsjv2z",
+     "author": "grumbledum",
+     "created_utc": 1491276493,
+     "dt_parent_sec": 13752,
+     "dt_thread_sec": 37302,
+     "state": "coded",
+     "code_ids": [
+      "c0084"
+     ],
+     "labels": [
+      "asking whether they made the logo without bots"
+     ],
+     "sequence": [
+      "na",
+      "c0084"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "Bit Bitch",
+      "retrieved_on": 1493777144
+     }
+    },
+    "3.1.1.1": {
+     "thread_id": "6383re",
+     "item_id": "dft61uv",
+     "parent_id": "dfsv4da",
+     "author": "damon790",
+     "created_utc": 1491301988,
+     "dt_parent_sec": 25495,
+     "dt_thread_sec": 62797,
+     "state": "coded",
+     "code_ids": [
+      "c0085"
+     ],
+     "labels": [
+      "wanting to believe their logo was legit while suspecting Funhaus bots"
+     ],
+     "sequence": [
+      "c0085"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493782474
+     }
+    },
+    "4": {
+     "thread_id": "6383re",
+     "item_id": "dfs59yg",
+     "parent_id": "6383re",
+     "author": "xEl_R3Yx",
+     "created_utc": 1491245397,
+     "dt_parent_sec": 6206,
+     "dt_thread_sec": 6206,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "trying to place three holes until others and leaving work stopped them"
+     ],
+     "sequence": [
+      "c0081"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1493764490
+     }
+    },
+    "5": {
+     "thread_id": "6383re",
+     "item_id": "dfsfcja",
+     "parent_id": "6383re",
+     "author": "koolmanminer",
+     "created_utc": 1491257153,
+     "dt_parent_sec": 17962,
+     "dt_thread_sec": 17962,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "realizing the cow's bottom is a knife"
+     ],
+     "sequence": [
+      "c0082"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 62,
+      "retrieved_on": 1493769348
+     }
+    },
+    "6": {
+     "thread_id": "6383re",
+     "item_id": "dftbyav",
+     "parent_id": "6383re",
+     "author": "ZombieWolf2508",
+     "created_utc": 1491313176,
+     "dt_parent_sec": 73985,
+     "dt_thread_sec": 73985,
+     "state": "coded",
+     "code_ids": [
+      "c0086"
+     ],
+     "labels": [
+      "wishing they had warned r/place that the black pixels were not grief"
+     ],
+     "sequence": [
+      "na",
+      "c0086"
+     ],
+     "coverage": 0.49,
+     "meta": {
+      "score": 9,
+      "author_flair_text": "Sample Scouts 4 lyf",
+      "retrieved_on": 1493785316
+     }
+    },
+    "6.1": {
+     "thread_id": "6383re",
+     "item_id": "dftdg3o",
+     "parent_id": "dftbyav",
+     "author": "damon790",
+     "created_utc": 1491315113,
+     "dt_parent_sec": 1937,
+     "dt_thread_sec": 75922,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493786037
+     }
+    },
+    "6.1.1": {
+     "thread_id": "6383re",
+     "item_id": "dftdm73",
+     "parent_id": "dftdg3o",
+     "author": "ZombieWolf2508",
+     "created_utc": 1491315328,
+     "dt_parent_sec": 215,
+     "dt_thread_sec": 76137,
+     "state": "coded",
+     "code_ids": [
+      "c0087"
+     ],
+     "labels": [
+      "preferring an unedited copy made by US"
+     ],
+     "sequence": [
+      "na",
+      "c0087"
+     ],
+     "coverage": 0.21,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Sample Scouts 4 lyf",
+      "retrieved_on": 1493786118
+     }
+    }
+   },
+   "6386if": {
+    "0": {
+     "thread_id": "6386if",
+     "item_id": "6386if",
+     "parent_id": null,
+     "author": "TheReelStig",
+     "created_utc": 1491239820,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0088"
+     ],
+     "labels": [
+      "sharing Linux's image meant to stop damage to Cowchop's blade"
+     ],
+     "sequence": [
+      "c0088"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 389,
+      "link_flair_text": "/r/place",
+      "retrieved_on": 1494557132
+     }
+    },
+    "1": {
+     "thread_id": "6386if",
+     "item_id": "dfs3zgc",
+     "parent_id": "6386if",
+     "author": "the_s_d",
+     "created_utc": 1491243889,
+     "dt_parent_sec": 4069,
+     "dt_thread_sec": 4069,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "helping protect the cow during the rush at the end"
+     ],
+     "sequence": [
+      "na",
+      "c0089"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 145,
+      "retrieved_on": 1493763851
+     }
+    },
+    "1.1": {
+     "thread_id": "6386if",
+     "item_id": "dfsbst9",
+     "parent_id": "dfs3zgc",
+     "author": "Jenkins_Palabro_ESQ",
+     "created_utc": 1491253062,
+     "dt_parent_sec": 9173,
+     "dt_thread_sec": 13242,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "being wary of incurring Linux Guy's wrath"
+     ],
+     "sequence": [
+      "na",
+      "c0090"
+     ],
+     "coverage": 0.43,
+     "meta": {
+      "score": 55,
+      "retrieved_on": 1493767638
+     }
+    },
+    "1.2": {
+     "thread_id": "6386if",
+     "item_id": "dfscvov",
+     "parent_id": "dfs3zgc",
+     "author": "hakkai999",
+     "created_utc": 1491254304,
+     "dt_parent_sec": 10415,
+     "dt_thread_sec": 14484,
+     "state": "coded",
+     "code_ids": [
+      "c0092"
+     ],
+     "labels": [
+      "thanking r/Linux for the love from Cowchop fans"
+     ],
+     "sequence": [
+      "c0092"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 46,
+      "author_flair_text": "Cowch",
+      "retrieved_on": 1493768159
+     }
+    },
+    "2": {
+     "thread_id": "6386if",
+     "item_id": "dfsc3eu",
+     "parent_id": "6386if",
+     "author": "TheDemocide",
+     "created_utc": 1491253398,
+     "dt_parent_sec": 13578,
+     "dt_thread_sec": 13578,
+     "state": "coded",
+     "code_ids": [
+      "c0091"
+     ],
+     "labels": [
+      "accusing Linux of greedily extending its border"
+     ],
+     "sequence": [
+      "c0091"
+     ],
+     "coverage": 0.68,
+     "meta": {
+      "score": 5,
+      "author_flair_text": "Ohhh baby",
+      "retrieved_on": 1493767779
+     }
+    },
+    "2.1": {
+     "thread_id": "6386if",
+     "item_id": "dfsojt2",
+     "parent_id": "dfsc3eu",
+     "author": "irkaylub",
+     "created_utc": 1491268395,
+     "dt_parent_sec": 14997,
+     "dt_thread_sec": 28575,
+     "state": "coded",
+     "code_ids": [
+      "c0093"
+     ],
+     "labels": [
+      "blaming Funhaus for taking twice the space before the Cow Chop logo started"
+     ],
+     "sequence": [
+      "c0093"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 14,
+      "author_flair_text": "2% Cherokee",
+      "retrieved_on": 1493773889
+     }
+    },
+    "2.1.1": {
+     "thread_id": "6386if",
+     "item_id": "dft1r00",
+     "parent_id": "dfsojt2",
+     "author": "the_s_d",
+     "created_utc": 1491289059,
+     "dt_parent_sec": 20664,
+     "dt_thread_sec": 49239,
+     "state": "coded",
+     "code_ids": [
+      "c0094",
+      "c0095"
+     ],
+     "labels": [
+      "explaining that a Linux member published a Tux-defending bot",
+      "explaining that Linux's own bots fought over a border pixel"
+     ],
+     "sequence": [
+      "na",
+      "c0094",
+      "na",
+      "c0095"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "edited": 1491463637,
+      "score": 5,
+      "retrieved_on": 1493780396
+     }
+    }
+   },
+   "63awfo": {
+    "0": {
+     "thread_id": "63awfo",
+     "item_id": "63awfo",
+     "parent_id": null,
+     "author": "PM_ME_UR_TITSANDTOES",
+     "created_utc": 1491266471,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0096"
+     ],
+     "labels": [
+      "using r/place to newly notice the knife in the logo"
+     ],
+     "sequence": [
+      "c0096"
+     ],
+     "coverage": 0.64,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494558489
+     }
+    },
+    "1": {
+     "thread_id": "63awfo",
+     "item_id": "dfsnobk",
+     "parent_id": "63awfo",
+     "author": "zomangel",
+     "created_utc": 1491267345,
+     "dt_parent_sec": 874,
+     "dt_thread_sec": 874,
+     "state": "coded",
+     "code_ids": [
+      "c0097"
+     ],
+     "labels": [
+      "joking that the knife's top is a cow, then correcting it to bull"
+     ],
+     "sequence": [
+      "c0097"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 18,
+      "retrieved_on": 1493773446
+     }
+    },
+    "1.1": {
+     "thread_id": "63awfo",
+     "item_id": "dfsu1ja",
+     "parent_id": "dfsnobk",
+     "author": "HungryHundar",
+     "created_utc": 1491275083,
+     "dt_parent_sec": 7738,
+     "dt_thread_sec": 8612,
+     "state": "coded",
+     "code_ids": [
+      "c0099"
+     ],
+     "labels": [
+      "invoking a year of fandom to correct the bull joke"
+     ],
+     "sequence": [
+      "c0099"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 31,
+      "retrieved_on": 1493776618
+     }
+    },
+    "2": {
+     "thread_id": "63awfo",
+     "item_id": "dfspklt",
+     "parent_id": "63awfo",
+     "author": "Frivolous32",
+     "created_utc": 1491269612,
+     "dt_parent_sec": 3141,
+     "dt_thread_sec": 3141,
+     "state": "coded",
+     "code_ids": [
+      "c0098"
+     ],
+     "labels": [
+      "shouting a second PSA about the logo's colors and origin"
+     ],
+     "sequence": [
+      "c0098"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 7,
+      "author_flair_text": "Bad Dragon",
+      "retrieved_on": 1493774397
+     }
+    },
+    "3": {
+     "thread_id": "63awfo",
+     "item_id": "dftaw10",
+     "parent_id": "63awfo",
+     "author": "ZombieWolf2508",
+     "created_utc": 1491311687,
+     "dt_parent_sec": 45216,
+     "dt_thread_sec": 45216,
+     "state": "coded",
+     "code_ids": [
+      "c0100"
+     ],
+     "labels": [
+      "saying the knife should have been obvious"
+     ],
+     "sequence": [
+      "c0100"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 15,
+      "author_flair_text": "Sample Scouts 4 lyf",
+      "retrieved_on": 1493784804
+     }
+    }
+   },
+   "63cza6": {
+    "0": {
+     "thread_id": "63cza6",
+     "item_id": "63cza6",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491296258,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0101"
+     ],
+     "labels": [
+      "memorializing the hole's defenders"
+     ],
+     "sequence": [
+      "c0101"
+     ],
+     "coverage": 0.66,
+     "meta": {
+      "score": 6,
+      "link_flair_text": "Repost",
+      "retrieved_on": 1494559517
+     }
+    },
+    "1": {
+     "thread_id": "63cza6",
+     "item_id": "dft49nd",
+     "parent_id": "63cza6",
+     "author": "bumhaus_de_bruce",
+     "created_utc": 1491296423,
+     "dt_parent_sec": 165,
+     "dt_thread_sec": 165,
+     "state": "coded",
+     "code_ids": [
+      "c0102"
+     ],
+     "labels": [
+      "asking where the defenders image came from"
+     ],
+     "sequence": [
+      "c0102"
+     ],
+     "coverage": 0.97,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493781613
+     }
+    }
+   }
+  }
+ }
+}

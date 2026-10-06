@@ -1,0 +1,1 @@
+r/bindingofisaac — branch B — verdict: full. Practice saturation: later slices eventually repeated settled practices without adding a new theme. Record saturation: broad but incomplete because of deletions, inaccessible visuals, off-platform activity, and divided reading. Blockers: none.

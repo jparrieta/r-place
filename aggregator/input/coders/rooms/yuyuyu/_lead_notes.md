@@ -1,0 +1,3 @@
+# Lead working notes
+
+Before counter-search: My provisional reading is that the room separately played an April Fools substitution through its familiar Daily, then used Discord and a Swiss alliance to get C-Shadow onto the canvas and immediately treated that outcome as a win. The most consequential competing account in this case's own vocabulary is that “stood triumphant” is mainly the organizer's post-hoc claim: participation was thin, the result was inadequate, or people thought the effort failed. If my reading is wrong, the record should contain explicit failure or loss language, a denial that C-Shadow was there, objections to answering the Swissbros, claims that nobody helped, or “next time” language treating this attempt as not really Yuusha content.

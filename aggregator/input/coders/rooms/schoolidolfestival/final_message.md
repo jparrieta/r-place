@@ -1,0 +1,1 @@
+r/schoolidolfestival — branch B; verdict: full. Practice saturation was late, with a thin new repeat question at the end. Record saturation is limited by sliced reading, deletions, truncated delivery, and off-platform coordination. Nothing blocked completion.

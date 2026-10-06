@@ -1,0 +1,87 @@
+# timeline — r/PUBATTLEGROUNDS
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 21:23 — Moderator-distinguished edited reply says the content-creator post will be removed because it is filled with toxicity (`dfo1zr6`).
+- d0 04-01 02:39 — An edited post about region locking has a removed body (`62q2s4`).
+- d0 04-01 02:49 — The author edits a reply disputing that the removed region-lock post was discriminatory, bigoted, or racist (`dfog7ay`).
+- d0 04-01 03:56 — An edited post records the conclusion that game points do not reset weekly (`62qg6l`).
+- d0 04-01 04:42 — An edited main-menu bug post says restarting Steam or running it as administrator appeared to fix the issue (`62qny8`).
+- d0 04-01 05:00 — An edited reply in a lost-connection thread is deleted (`dfoktue`).
+- d0 04-01 13:52 — A moderator-distinguished reply locks a netcode thread and says server and client performance are already the top priority, with daily server patches planned (`dfowzpb`).
+- d1 04-01 16:39 — An edited reply argues that late small-circle placement creates uncontrollable power swings (`dfp3nan`).
+- d1 04-01 17:08 — An edited reply asks people to stop posting a streamer's content (`dfp4tv8`).
+- d1 04-01 17:19 — An edited reply in the inherited performance-tuning thread reads “deleted” (`dfp5aqa`).
+- d1 04-01 19:09 — An edited reply in the flinching thread is deleted (`dfp9sid`).
+- d1 04-01 19:23 — An edited wired-connection PSA has a deleted body (`62uutv`).
+- d1 04-01 19:43 — An edited post explains Wi-Fi versus wired connections for PUBG (`62uz9c`).
+- d1 04-01 21:01 — An edited reply compares the linked player's hit registration and performance with the author's own setup (`dfpeagl`).
+- d1 04-01 22:40 — An edited reply in a patch-lag thread reads “deleted” (`dfpi4bw`).
+- d1 04-01 22:43 — An edited post invites people to share their biggest in-game failures (`62w3j3`).
+- d1 04-01 23:44 — A second edited reply in the patch-lag thread reads “deleted” (`dfpko8v`).
+- d1 04-02 00:39 — An edited reply rejects an April Fools explanation, identifies PA as a hack, and says the incident was either hack advertising or a hack (`dfpmvkj`).
+- d1 04-02 00:42 — An edited lag-switching accusation has a removed body (`62wqnk`).
+- d1 04-02 01:04 — An edited post reports repeated “Host closed connection” failures on EU servers (`62wupf`).
+- d1 04-02 01:18 — An edited post says leaving rubberbanding games appeared to lower the author’s rank and K/D (`62wxaa`).
+- d1 04-02 02:33 — A former moderator says their account was hacked, someone used it to have fun with the subreddit, and the other moderators fixed the subreddit (`dfpr81d`).
+- d1 04-02 02:38 — An edited reply reports making a 786-metre shot in duos before dying to the target’s partner (`dfprfha`).
+- d1 04-02 15:27 — An edited reply in the inherited performance-tuning thread reads “deleted” (`dfqaku2`).
+- d2 04-02 17:19 — An edited removed post asks whether PUBG might be sold through Humble Bundle (`630vfk`).
+- d2 04-02 17:20 — An edited post compares default and custom field of view (`630vin`).
+- d2 04-02 17:26 — An edited deleted reply follows a question about when the game might reach Humble Bundle (`dfqftx2`).
+- d2 04-02 17:44 — An edited deleted reply follows discussion distinguishing Humble Bundle from the Humble Store (`dfqgo5g`).
+- d2 04-02 17:45 — An edited post asks whether shadows have become mandatory, but its body is deleted (`63111v`).
+- d2 04-02 17:48 — An edited reply distinguishes the full-price Humble Store from a Humble Bundle sale (`dfqgv50`).
+- d2 04-02 17:51 — Two edited replies in the Humble Bundle discussion are deleted (`dfqh0z8`, `dfqh1d5`).
+- d2 04-02 18:02 — An edited reply supplies an engine configuration line for changing field of view (`dfqhjsi`).
+- d2 04-02 18:12 — An edited post asking people not to panic about bugs and server problems has a deleted body (`6316wm`).
+- d2 04-02 19:07 — An edited reply first asks for bullet drop, then says the game already has it (`dfqkkbm`).
+- d2 04-02 19:14 — An edited reply shares a Steam-like target image for the r/place PUBG logo and says the author dislikes its G (`dfqkwoy`).
+- d2 04-02 20:42 — An edited reply explains that a frag grenade from another player, rather than the shown smoke grenade, caused the death (`dfqovq5`).
+- d2 04-02 22:22 — An edited reply corrects “AKM” to “AWM” while discussing a scoped weapon (`dfqtfru`).
+- d2 04-03 00:49 — An edited reply says two players repeatedly saw targets survive unexpectedly large numbers of bullets (`dfr0exm`).
+- d2 04-03 02:47 — An edited reply says the author has never successfully flipped a car back over (`dfr6dqo`).
+- d2 04-03 02:59 — An edited reply thanks a moderator for the reporting direction and says the author contacted an accused teamer on Twitch (`dfr6z8o`).
+- d2 04-03 03:36 — An edited post titled “Minor and major updates that would be very helpful!” has a deleted body (`634cjg`).
+- d2 04-03 04:19 — An edited reply recommends sending a hacking video to the developers and asks whether posting it breaches rule 3 (`dfraq46`).
+- d2 04-03 04:28 — An edited appreciation post thanks PlayerUnknown and later reassures readers that optimization is coming (`634lcb`).
+- d2 04-03 05:05 — An edited first-duo-win post adds a field-of-view explanation (`634r0y`).
+- d2 04-03 08:30 — An edited reply says downvotes do not make a streamer clip entertaining to its author (`dfrhl64`).
+- d2 04-03 08:54 — An edited reply from the Slime's creator says an unannounced bot moved it into the PUBG logo and that they contacted its operators (`dfri1vy`).
+- d2 04-03 12:29 — An edited new-player post lists problems with spectator controls and sound, voice volume, running, movement, and crashes (`636g2n`).
+- d2 04-03 13:03 — An edited reply lists a group's informal names for locations on the PUBG map (`dfro8g4`).
+- d2 04-03 13:33 — An edited guide gives do-and-don't advice about cars, positioning, and circle play (`636s7y`).
+- d2 04-03 13:43 — An edited reply dramatizes the continuing effort to fix the community's r/place logo and asks for help (`dfrpuf0`).
+- d2 04-03 14:04 — An edited reply insists that spectator mode showed arrow-key controls and disputes the tone of another user's help (`dfrqqh2`).
+- d2 04-03 14:22 — An edited post reports enemies appearing without rendering and nearby players making no sound (`6372jf`).
+- d3 04-03 20:55 — An edited post asks readers for their farthest in-game kill and supplies the author’s own example (`639iwh`).
+- d3 04-03 22:03 — An edited post about people ahead of the author while running toward the circle has a deleted body (`63a0no`).
+- d3 04-03 22:32 — An edited post asks what graphics settings to use for the author’s hardware (`63a6tg`).
+- d3 04-03 22:46 — An edited reply clarifies that ENB presets are colour and graphics modifications for Nvidia cards rather than game modifications (`dfshchd`).
+- d3 04-03 22:53 — An edited post suggesting that hipfire crosshairs never be visible has a removed body (`63aaxn`).
+- d3 04-03 23:09 — An edited reply offers to upload the author’s German rage and adds the resulting clip (`dfsiggx`).
+- d3 04-03 23:27 — An edited post complains that EU server stability is unbearable and adds a video of a normal day playing with a friend (`63ahw1`).
+- d3 04-03 23:55 — An edited reply links the complete version of a streamer outplay (`dfskn86`).
+- d3 04-03 23:58 — An edited reply supplies the backstory to the streamer outplay, recounting a hostage plan, seat switch, escape, and later kills (`dfsksew`).
+- d4 04-04 02:53 — An edited reply corrects which Top Gun character received the quoted line (`dfstig7`).
+- d3 04-04 03:03 — An edited reply proposes an average-place statistic and percentages for top-ten and top-twenty finishes (`dfstz5k`).
+- d3 04-04 03:29 — An edited post recounts a car jump that let the author's squad escape gunfire and later win the round (`63br7b`).
+- d3 04-04 09:41 — An edited post complains about toxic and racist voice chat in duo and team play (`63d4hd`).
+- d3 04-04 10:38 — An edited post shares a program for muting and unmuting PUBG with a keyboard combination (`63dbp6`).
+- d3 04-04 11:43 — An edited post asks why Shadowplay does not display the FPS counter (`63dkzq`).
+- d3 04-04 12:01 — An edited reply argues that recorded cheating exists and explains how one cheater could produce many questionable encounters (`dft8ang`).
+- d3 04-04 12:54 — An edited reply jokes through a sequence of disappearing in-game sound effects (`dfta33u`).
+- d3 04-04 13:04 — An edited post questions whether Oceanic servers are actually local and later asks moderators to lock the thread after receiving a reply from the PR manager (`63dyvc`).
+- d3 04-04 13:08 — An edited reply in a frame-rate troubleshooting thread reads “deleted” (`dftamb1`).
+- d3 04-04 13:18 — An edited reply argues that suppressors need a downside and says the developers are working on them (`dftb1jx`).
+- d3 04-04 13:52 — An edited reply says hoped-for optimization would improve PlayerUnknown's credibility and corrects a patch date (`dftcjme`).
+- d3 04-04 14:00 — Two edited replies in a discussion about the in-game blue wall are deleted (`dftcqn6`, `dftcyg5`).
+- d3 04-04 14:12 — An edited reply ranks sniper rifles and compares other weapon classes (`dftdge2`).
+- d3 04-04 14:20 — An edited post asking about hold-to-aim has a removed body (`63edn1`).
+- d3 04-04 14:36 — An edited post says installing the game on an SSD solved rendering problems and supplies configuration advice (`63eh1d`).
+- d3 04-04 14:48 — An edited reply in the Oceanic-server thread is deleted (`dftfac1`).
+- d4 04-04 15:17 — An edited reply proposes clustering loot into fewer rooms and placing item types consistently (`dftgt02`).
+- d3 04-04 15:20 — An edited reply explains that a headset helped locate gunfire (`dftkkl8`).
+- d3 04-04 15:20 — An edited reply says the final circle closed after neither remaining player exposed themself (`dftgyvs`).
+- d4 04-04 16:07 — An edited post asks for a country filter on the leaderboard (`63f1lm`).
+- d4 04-04 16:47 — An edited reply describes unsuccessful frame-rate fixes and a possible fullscreen improvement (`dftlvai`).

@@ -1,0 +1,69 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage D6. The retelling: the model with its forms inside it.</h1>
+<p>**Model:** as <code>arm.json</code> sets for this stage (your platform file lists the model and effort). **Legs:** one per aggregate dimension (or per group of</p>
+<p>fourth-order themes, if you judge that a better unit), then one for the whole telling and the</p>
+<p>figure; each leg closes at its end or earlier when you choose. **Fleet:** none.</p>
+<p>**Steps:** <code>D6a-01</code>, <code>D6a-02</code> ... one per aggregate dimension (or group of fourth-order themes); <code>D6b</code> the telling and the figure, the handback and the interview. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after each dimension&#x27;s section is written and logged; after the figure; after</p>
+<p>each amendment is logged and snapped. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is</p>
+<p>there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh D6 --pause</code>.</p>
+<p>**Startup packet:** <code>_head.md</code>, this file, the last five diary entries, <code>validate.py --open D6</code>.</p>
+<p>First leg only: <code>account.md</code> (stage C5), <code>branches.jsonl</code>, <code>crosslinks.jsonl</code>, <code>tree-D4.md</code>,</p>
+<p>every <code>forms/&lt;id&gt;-account.md</code> from stage D5, and <code>notes-D5.md</code> (the lumps, renamings and</p>
+<p>subforms stage D5 left for you to act on or decline, each answered in <code>notes-D6.md</code>).</p>
+<p>**Reads allowed:** everything you have written; the model (<code>model/elements.jsonl</code>,</p>
+<p><code>model/arrows.jsonl</code>, <code>MODEL-D1.md</code>); the ledger and the verdicts; the rooms and their concepts</p>
+<p>through the verbs (<code>mem.py room</code>, <code>forest</code>, <code>case</code>, <code>compare</code>, <code>cite.py</code>); the canvas, declared</p>
+<p>where it shapes a sentence (rule 7). Nothing is forbidden to you here.</p>
+<p>**Outputs:** <code>retelling-D6.md</code>; <code>fractal-D6.jsonl</code>; <code>figure-D6.md</code> (the figure as text: a</p>
+<p>mermaid or dot source you can render, with a legend); empty <code>amendments-D6.jsonl</code>; <code>proposals-D6.jsonl</code> (empty if none);</p>
+<p><code>notes-D6.md</code>; <code>handback-D6.md</code>; the interview brief, <code>out/interview/D6b.md</code>.</p>
+<h2>Why this stage exists</h2>
+<p>Stage C5 told the global model. Stages D1 to D4 returned it to every room and cut the forms</p>
+<p>organizing took from what the rooms did to it. Stage D5 wrote one account per branch. None of</p>
+<p>them tells the model again with the forms inside it, and that telling is the answer to the</p>
+<p>theory question: what forms organizing takes, how they differ in their functioning, and which of</p>
+<p>them keep the work alive. Write it now, from the top down, so that a reader can walk from an</p>
+<p>aggregate dimension to a form to a room and back, and at every step see the level below</p>
+<p>specify the one above without contradicting it (fractal specification, contract §2).</p>
+<h2>1. Dimension by dimension</h2>
+<p>For each aggregate dimension, in the order you choose: what it is in the global model, in one</p>
+<p>paragraph; then, for each fourth-order theme under it, what each branch does to it. A branch</p>
+<p>**specifies** the element (adds detail that holds in its rooms), **restricts** it (it holds only</p>
+<p>under a condition the branch names), **replaces** it (the branch does the work another way), or</p>
+<p>**leaves it untouched**. Write one line per element and branch in <code>fractal-D6.jsonl</code>:</p>
+<pre><code>
+{&quot;element&quot;: &quot;P07&quot;, &quot;branch&quot;: &quot;F03&quot;, &quot;relation&quot;: &quot;specifies|restricts|replaces|untouched&quot;,
+
+ &quot;how&quot;: &quot;one sentence&quot;, &quot;evidence&quot;: {&quot;codes&quot;: [&quot;denmark:c0117&quot;], &quot;rooms&quot;: [&quot;denmark&quot;, &quot;sweden&quot;]},
+
+ &quot;canvas&quot;: false}
+
+</code></pre>
+<p>Name two or three rooms per branch that show it best, and one that shows it least well. Where a</p>
+<p>branch&#x27;s rooms disagree at this element, describe the evidence and alternatives. It may be local variation, unresolved evidence, or a candidate subform or crosslink. Any new structural claim goes in <code>proposals-D6.jsonl</code> as unvalidated.</p>
+<h2>2. The telling</h2>
+<p><code>retelling-D6.md</code> tells the whole model again, with the forms inside it, in the model&#x27;s terms.</p>
+<p>It says which forms kept the work alive to the freeze and after it, from the record</p>
+<p>(<code>organizing_end_hour</code>, the aftermath share and <code>work_remained</code> read beside each form, silence</p>
+<p>counted; the canvas only as the outcome, the use declared), which did not, and what in the</p>
+<p>model separates them. It says what the unadapted group is, and what the rooms the model could</p>
+<p>not compose have in common, if anything. It names every branch by its id at least once.</p>
+<h2>3. The figure</h2>
+<p><code>figure-D6.md</code>: the stage C5 figure with the forms drawn inside it, at the level where they</p>
+<p>differ. As many elements and forms as the telling needs; no fixed count.</p>
+<h2>4. New substantive proposals</h2>
+<p>The D3 model and D4 tree remain unchanged here. A new explanatory insight is a proposal, not an applied amendment. Write <code>proposals-D6.jsonl</code> with <code>id</code>, <code>what</code>, <code>change</code>, <code>why</code>, <code>evidence</code>, <code>affected_rooms</code>, <code>base_model_version</code> and <code>status: unvalidated</code>. Keep these proposals separate from the validated retelling and figure. <code>amendments-D6.jsonl</code> remains empty. A proposal can enter a later model only through a supported affected-case return to the original leads and a new validation cycle; the current run never inherits D3 validation for it. E1 reports the proposals and their unvalidated status.</p>
+<h2>Moments to log</h2>
+<p>Each dimension finished; each unvalidated proposal; the figure drawn; the telling finished.</p>
+<h2>Final message</h2>
+<p>Three sentences: the answer to the theory question as this run found it; the form you are most</p>
+<p>and least sure of; what the retelling changed in the model, or that it changed nothing.</p>
+<h2>Close</h2>
+<p><code>done.sh D6</code> at the end of each leg; paste the close-check report into <code>notes-D6.md</code>;</p>
+<p><code>handback-D6.md</code>; the head; the closing diary line.</p>
+<p>**Interview point.** <code>D6b</code> writes <code>out/interview/D6b.md</code> (under</p>
+<p>800 words: what you did, what you found, what surprised you, what you doubt, and the three</p>
+<p>questions you would most like to be asked) and closes with <code>done.sh D6 --cut interview</code>: the model re-told with its forms inside it, the answer to the theory</p>
+<p>question. The principal investigator may talk with you here, in a fork of this leg, run in a copy of your folder as it stood at the close (not read-only; nothing done there reaches the run);</p>
+<p>the run goes on from the cut either way.</p></html>

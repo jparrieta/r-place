@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`harness/stage_cards.py`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/harness-stage-cards-py.md">Markdown source</a></nav>
+<h1 id="harnessstage_cardspy"><code>harness/stage_cards.py</code></h1>
+<p>Writes <code>STAGE CARDS/</code>, one card per stage for the person running it.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>Each card: what the stage is for (one line per stage in the script), the lines to type in order for every leg and dispatch, where an interview point falls and how to talk at it, pausing, and the rule to say nothing to the analyst inside a leg. Generated from <code>steps.tsv</code>, the script's notes, <code>arm.json</code> and <code>DROPS/ORDER.tsv</code>.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p><code>build.sh</code>, once, at build.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Its docstring: "never edited by hand". Contract §4: "the operator's stage cards launch them one at a time."</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/stage_cards.py">harness/stage_cards.py</a>.</p>
+<p>Checked against: harness/stage_cards.py, harness/build.sh, CONTRACT-aggregator.md §4.</p>
+</body>
+</html>

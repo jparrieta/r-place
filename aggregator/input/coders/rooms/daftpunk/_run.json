@@ -1,0 +1,293 @@
+{
+ "instrument": "v32",
+ "emit": "emit-v32",
+ "verdict": "full",
+ "verdict_note": "set by emit.close(verdict=...); a verdict that exists only as prose in case.md cannot be read back reliably",
+ "close_calls": 2,
+ "reopened_after_close": true,
+ "last_close_seq": 185,
+ "stages": [
+  {
+   "stage": "step1_brief",
+   "from": null,
+   "at_seq": 1,
+   "codes_so_far": 0,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step1_brief",
+   "at_seq": 172,
+   "codes_so_far": 61,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step4_themes",
+   "from": "step4_themes",
+   "at_seq": 173,
+   "codes_so_far": 61,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step5_counter",
+   "from": "step4_themes",
+   "at_seq": 182,
+   "codes_so_far": 61,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step6_account",
+   "from": "step5_counter",
+   "at_seq": 183,
+   "codes_so_far": 61,
+   "corpus_reads_self_reported": null
+  },
+  {
+   "stage": "step7_write",
+   "from": "step6_account",
+   "at_seq": 184,
+   "codes_so_far": 61,
+   "corpus_reads_self_reported": null
+  }
+ ],
+ "reading": {
+  "threads_disposed": 82,
+  "threads_in_corpus": 82,
+  "threads_undisposed": 0,
+  "read_in_full": 69,
+  "triaged_and_dropped": 13,
+  "unread": 0,
+  "coded": 33,
+  "items_in_threads_read": 395,
+  "items_in_window": 551,
+  "items_in_corpus_note": "in-window items only; the corpus header's headline additionally counts [CONTEXT] items",
+  "share_of_threads_disposed": 1.0,
+  "share_of_threads_read_in_full": 0.841,
+  "share_of_text_read_in_full": 0.733
+ },
+ "calls_by_stage": {
+  "step1_brief": {
+   "stage": 1,
+   "coder_stage": 2,
+   "close": 1
+  },
+  "step2_read": {
+   "coder_stage": 3,
+   "thread": 82,
+   "threads_bulk": 6
+  },
+  "step3_codes": {
+   "coder_stage": 3,
+   "code": 61,
+   "pointer": 6
+  },
+  "step6_account": {
+   "coder_stage": 2,
+   "stage": 1
+  },
+  "step7_write": {
+   "coder_stage": 2,
+   "coder_close": 2,
+   "stage": 1,
+   "close": 1
+  },
+  "step4_themes": {
+   "stage": 2,
+   "theme": 7,
+   "theme_add": 1
+  },
+  "step5_counter": {
+   "stage": 1,
+   "find": 4
+  }
+ },
+ "n_codes": 61,
+ "n_codes_emitted": 61,
+ "n_retracted": 0,
+ "n_themes": 7,
+ "n_threads": 82,
+ "n_pointers": 6,
+ "n_subreddits_named": 4,
+ "n_off_platform": 2,
+ "isolated": false,
+ "coordination_left_the_venue": true,
+ "discovered_at": {
+  "step3": 61
+ },
+ "saturation_observed": {
+  "n_codes": 61,
+  "last_step3_code_at": 61,
+  "codes_minted_after_it": 0,
+  "share_of_minting_before_last_new_step3_code": 1.0
+ },
+ "integrity": {
+  "codes_with_no_theme": [],
+  "themes_with_no_code": [],
+  "ok": true
+ },
+ "gate": {
+  "instrument": "v32",
+  "sub": "daftpunk",
+  "branch": "B",
+  "threshold": 500,
+  "budget_items": 500,
+  "floor_items": 25,
+  "items_in_window": 551,
+  "items_by_people": 542,
+  "chars_by_people": 40517,
+  "threads": 82,
+  "decided_utc": "2026-09-30T19:09:17Z",
+  "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+  "slices": [
+   {
+    "batch": "01",
+    "first_thread": "62j1uz",
+    "last_thread": "6343rj",
+    "n_threads": 69,
+    "items_in_window": 482,
+    "chars_in_window": 38670,
+    "start_utc": 1490980883,
+    "last_opening_utc": 1491187568,
+    "last_item_utc": 1492142564,
+    "start_hour": 1.36,
+    "last_opening_hour": 58.77,
+    "threads": [
+     "62j1uz",
+     "62duwm",
+     "62mzy1",
+     "62kg1h",
+     "62n6t0",
+     "62nb9q",
+     "61qbff",
+     "62czdj",
+     "62oawv",
+     "62od0m",
+     "62omda",
+     "62omzi",
+     "61ix8w",
+     "62oyqe",
+     "61se87",
+     "61vury",
+     "62pdsc",
+     "62e3ie",
+     "62plhv",
+     "62c1ee",
+     "62f8qr",
+     "62qov9",
+     "62qrsy",
+     "62rda5",
+     "62rqil",
+     "5paiqj",
+     "62s3yy",
+     "62s4nh",
+     "62sw8z",
+     "62t3kx",
+     "62tdj5",
+     "62tm9v",
+     "620l2u",
+     "62u9xg",
+     "5zc56d",
+     "62vo5g",
+     "62e0vp",
+     "62wbpr",
+     "62wgiw",
+     "62wocn",
+     "62x2j3",
+     "62x3ke",
+     "62xc3g",
+     "62xyn6",
+     "62y1c0",
+     "62y2x8",
+     "621sxm",
+     "62yd3s",
+     "62yjhi",
+     "62yopg",
+     "62yqit",
+     "62ysrq",
+     "62z4kq",
+     "62z5aj",
+     "62z7y6",
+     "62zabd",
+     "62ds5u",
+     "62zger",
+     "63022j",
+     "6306vp",
+     "631vx7",
+     "63217e",
+     "632x6v",
+     "632zno",
+     "63330f",
+     "6338xk",
+     "633bco",
+     "633hyp",
+     "6343rj"
+    ]
+   },
+   {
+    "batch": "02",
+    "first_thread": "637inr",
+    "last_thread": "63duh9",
+    "n_threads": 13,
+    "items_in_window": 69,
+    "chars_in_window": 2710,
+    "start_utc": 1491233625,
+    "last_opening_utc": 1491309559,
+    "last_item_utc": 1491740342,
+    "start_hour": 71.56,
+    "last_opening_hour": 92.66,
+    "threads": [
+     "637inr",
+     "637khx",
+     "637lwq",
+     "637zrq",
+     "638nyg",
+     "639qob",
+     "639s8t",
+     "63aeeh",
+     "61kh7x",
+     "63agby",
+     "60nj5k",
+     "63ddvp",
+     "63duh9"
+    ]
+   }
+  ],
+  "coders": [
+   {
+    "batch": "01",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-30T19:09:25Z",
+    "run_dir": "fleet/batch_01",
+    "code_id_start": 1,
+    "pointer_id_start": 1,
+    "context_openings": 0,
+    "instrument_fingerprint": "e676ef2af9135e48",
+    "collected_utc": "2026-09-30T19:16:19Z",
+    "codes": 60
+   },
+   {
+    "batch": "02",
+    "model": "gpt-5.6-sol",
+    "dispatched_utc": "2026-09-30T19:16:49Z",
+    "run_dir": "fleet/batch_02",
+    "code_id_start": 61,
+    "pointer_id_start": 6,
+    "context_openings": 8,
+    "instrument_fingerprint": "e676ef2af9135e48",
+    "collected_utc": "2026-09-30T19:19:20Z",
+    "codes": 1
+   }
+  ],
+  "consolidated_utc": "2026-09-30T19:20:20Z",
+  "pool": {
+   "codes": 61,
+   "threads": 82,
+   "pointers": 6,
+   "batches": [
+    "01",
+    "02"
+   ]
+  }
+ },
+ "branch": "B"
+}

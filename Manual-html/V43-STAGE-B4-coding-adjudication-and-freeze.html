@@ -1,0 +1,226 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>Stage B4. Assignment: adjudication, and transmission after revision.</h1>
+<p>**Model:** build and check legs as <code>arm.json</code> sets (your platform file lists them); the blind sample&#x27;s dispatch outside your session</p>
+<p>(FLEET.md). **Legs:** adjudication (one or more, bounded by packets of contested items), then</p>
+<p>build, dispatch and check for the blind sample.</p>
+<p>**Steps:** <code>B4a-01</code>, <code>B4a-02</code> ... one per adjudication packet; <code>B4b</code> the blind sample&#x27;s build (it ends at <code>--cut packets-out</code>), the dispatch, <code>B4c</code> its check, the placements final (<code>assign_final.jsonl</code>), the handback and the interview. Each leg is named by its step (STANDING §2).</p>
+<p>**Safe stops:** after each adjudication packet is ruled and logged, and after each section of the transmission check. At a safe stop, check for <code>.pause</code> (<code>ls .pause</code>); if it is there, log where to pick up, your working hypothesis and the next room or item</p>
+<p>(<code>mem.py log &quot;&lt;hypothesis&gt;; next: &lt;item&gt;&quot; --kind pause</code>), and close with <code>done.sh B4 --pause</code> (STANDING §2).</p>
+<p>**Startup packet:** <code>_head.md</code>, this file, <code>FLEET.md</code>, the last five diary entries,</p>
+<p><code>validate.py --open B4</code>; in the check leg, the harness&#x27;s one line: the readers left their files</p>
+<p>in <code>_fleet_raw/B4/</code>.</p>
+<p>**Reads allowed:** <code>assign_raw.jsonl</code>, <code>multiplacement_log.jsonl</code> (every <code>why_not_one</code>),</p>
+<p><code>fidelity-B3.md</code>, <code>position-B3.md</code>, <code>notes-B3.md</code> (the disagreement inventory, the gloss-only</p>
+<p>placements), stage B3&#x27;s gold keys (the tags in <code>batches-B3.jsonl</code>), <code>author_items.jsonl</code>, <code>gold_items.jsonl</code>, <code>scheme_final.*</code></p>
+<p>with <code>families.jsonl</code>, <code>confusions.md</code> and <code>pilot_report.md</code> (stage B2&#x27;s predictions),</p>
+<p><code>stability-B2.md</code>, <code>notes-B2.md</code> (the agreement definition); the contested items through</p>
+<p><code>mem.py theme</code> and <code>codes --sub</code>, quotes through <code>cite.py</code>; <code>_fleet_raw/B4/</code> in the check leg.</p>
+<p>**Forbidden:** the canvas as an undeclared ground (rule 7); your notes as a ground for a ruling; a reader&#x27;s identity</p>
+<p>while you rule; any edit to the scheme; to a blind reader, everything §10 withholds.</p>
+<p>**Outputs:** <code>disagreements.jsonl</code>; <code>assign_final.jsonl</code>; <code>transmission-B4.md</code>;</p>
+<p><code>coder_conflicts.jsonl</code>; <code>adjudication_report.md</code>; <code>RETURN-B4.md</code>; <code>reassign.jsonl</code>;</p>
+<p><code>transmission-after-revision-B4.md</code>; <code>notes-B4.md</code>; a manifest entry.</p>
+<h2>1. What comes here</h2>
+<p>**Only the contested items, and the placements made from a gloss.** Contested: every item where</p>
+<p>the two readers differ, plus every <code>multi</code> item. Where the readers agree, the assignment stands,</p>
+<p>with one exception: a placement into a family neither reader opened (<code>families_opened</code> without</p>
+<p>the chosen family) is read by you whether or not the readers agreed, since two readers can agree</p>
+<p>from a gloss; where you move one, it is logged as a ruling like any other. An item two readers</p>
+<p>holding the same written scheme placed differently is a boundary the scheme did not decide, with</p>
+<p>the alternatives attached.</p>
+<h2>2. The gold placements come out first</h2>
+<p>**Drop the seeded gold placements before you adjudicate anything**, using stage B3&#x27;s keys. A</p>
+<p>seeded placement is measurement, not corpus evidence; left in, it enters <code>assign_final.jsonl</code> and</p>
+<p>every denominator below, and breaks rule 4 quietly.</p>
+<p>**What is dropped is the gold placement, not the second-order theme.** A theme carrying gold</p>
+<p>placements is still a theme of the analysed set and still owes <code>assign_final.jsonl</code> its line,</p>
+<p>taken from the live replicates. Drop by <code>(item, agent, replicate)</code> on the gold-keyed rows, never</p>
+<p>by key. After the drop the line count still reconciles to <code>counts.py</code>&#x27;s</p>
+<p><code>assignment_items_expected</code> over the analysed set; if it does not, you dropped themes.</p>
+<p>Fidelity on the gold placements is stage B3&#x27;s figure, in <code>fidelity-B3.md</code>. Read it, do not</p>
+<p>recompute it, and say in <code>notes-B4.md</code> how many placements the drop removed.</p>
+<h2>3. Transmission, decomposed</h2>
+<p>**Compute it before anything here touches the file.** Drop the gold placements from the rates as</p>
+<p>§2 drops them from <code>assign_final.jsonl</code>, but keep them for the decomposition, which is what your</p>
+<p>own answers are for. Your answer exists for every gold item and every item stage B2 piloted, in</p>
+<p><code>gold_items.jsonl</code> and <code>author_items.jsonl</code>; FLEET.md&#x27;s four rows are computed there:</p>
+<p>| the readers | you | what it is |</p>
+<p>|---|---|---|</p>
+<p>| agree with each other and with you | | the scheme decides |</p>
+<p>| **split** | **were confident** | **fails to transmit**: a wording defect; the sentence stage C1 must repair |</p>
+<p>| **split** | **were also unsure** | **the instrument does not decide this item**: a finding, kept |</p>
+<p>| agree with each other, **diverge from you** | | **teaches something unintended**: read every one |</p>
+<p>The third row is never revised away. **The fourth row&#x27;s items never reach the adjudication**,</p>
+<p>because both readers agreed: they are in <code>assign_raw.jsonl</code> and nowhere else, and <code>author-error</code></p>
+<p>below catches only the items that split. Split the fourth row both ways, you were wrong or the</p>
+<p>scheme taught something you did not intend, and say in <code>notes-B4.md</code> which way each went. Outside</p>
+<p>the gold and pilot sets your own answer does not exist, so the split rate there cannot be</p>
+<p>decomposed: say so, and do not extrapolate from the gold set, which was drawn to be hard.</p>
+<p><code>transmission-B4.md</code> gives the rows with their items, by family. Name it in <code>handback-B4.md</code>;</p>
+<p>stage C1 reads it among its sources.</p>
+<h2>4. The conflicts pass</h2>
+<p>**<code>coder_conflicts.jsonl</code> is produced here, once, and nowhere else**: two coders describing the</p>
+<p>same practice in incompatible terms, seen only by reading across communities; the second-order</p>
+<p>themes whose <code>theme_note</code> and concepts pull apart under the scheme. The pass runs over</p>
+<p><code>theme_note</code> alone, with no concepts beneath it. Run it before you rule: a conflict between coders</p>
+<p>explains some of the disagreements between readers, and you want to know which first. Stages C1</p>
+<p>and C2 read this file.</p>
+<h2>5. Declared before the first item, in <code>notes-B4.md</code></h2>
+<p>The ruling policy. At <code>R = 2</code> every split is one reading against another and there is no</p>
+<p>majority to lean on:</p>
+<p>- how many items you expect to rule on, from stage B3&#x27;s inventory, and how many packets that is</p>
+<p>  at five hundred per leg (v42; one hundred before): a large inventory means more legs, never a rule applied in bulk. A</p>
+<p>  scheme of hundreds splits more than a scheme of forty, mostly between siblings in one family,</p>
+<p>  where the discriminator is the sentence to quote; gloss-only placements are ruled first; and</p>
+<p>  where many splits fall on one sibling pair, the boundary is ruled once, in one paragraph quoting</p>
+<p>  the discriminator, applied to every item on the pair and logged as one ruling with its item</p>
+<p>  list, because a boundary ruled item by item is ruled inconsistently;</p>
+<p>- what a reader&#x27;s <code>confidence</code> and <code>why</code> count for, and whether a <code>clear</code> reading against an</p>
+<p>  <code>arguable</code> one is a prior or nothing;</p>
+<p>- whether an adjudicated placement may name a third-order theme **neither reader chose**: it may,</p>
+<p>  logged loudly, because it means both readers missed something the file did say;</p>
+<p>- what you do when the honest answer is that the scheme does not decide. That must be available</p>
+<p>  as an outcome, recorded as <code>unresolved</code> and carried, not resolved by preference.</p>
+<h2>6. Blindness, and its limits</h2>
+<p>**You see the item, the scheme, and the two placements, not who made them.** Agent id, batch,</p>
+<p>replicate, position and timestamps are stripped from the packet before you look (no v38 tool yet</p>
+<p>for the stripping; done by hand and logged); the funnel is a property of the fleet, not evidence</p>
+<p>about this item. **Both readings are shown**, with their <code>why</code> and <code>confidence</code>: two readings,</p>
+<p>neither a prior over the other. You wrote the scheme, and no procedure removes your pull toward</p>
+<p>your own reading; record <code>named_neither</code> every time your placement is one no reader chose.</p>
+<h2>7. Adjudication, by packet</h2>
+<p>One packet of at most five hundred contested items per leg (v42), by family, gloss-only placements</p>
+<p>first. For each item you rule: the taxonomy from stage B2, the placement that stands, and one</p>
+<p>clause of why from the item&#x27;s material through <code>mem.py theme</code> and <code>codes</code>, the deciding sentence</p>
+<p>quoted through <code>cite.py</code>. A ruling never cites a room note. The classification matters more than</p>
+<p>the placement:</p>
+<p>- **<code>scheme-ambiguous</code>**: the belonging test or the discriminator does not decide. Name the field</p>
+<p>  and quote the sentence. These aggregate into stage C1&#x27;s revision list.</p>
+<p>- **<code>item-is-a-bag</code>**: the coder&#x27;s second-order theme holds two practices, so no single placement</p>
+<p>  is right. Not a scheme defect.</p>
+<p>- **<code>reader-error</code>**: the file does decide and a reader missed it. **Suspect this last**, and</p>
+<p>  never assign it when two independent readers made the same miss: that is a scheme defect that</p>
+<p>  looks like reader error.</p>
+<p>- **<code>author-error</code>**: you were wrong and the readers were right. It exists wherever your own</p>
+<p>  answer is on record, the gold items and anything you placed at stage B2; **an adjudication</p>
+<p>  that never returns one is measuring obedience.** Carry the count to <code>adjudication_report.md</code>.</p>
+<p>- **<code>genuine-joint</code>**: the material satisfies two gates and one placement cannot carry it, rule</p>
+<p>  0&#x27;s exception on the record. A split here is readers applying rule 0 differently; the count</p>
+<p>  measures how well the rule travelled, a fact about the instructions, not the readers.</p>
+<p>Where the two readers agree and you would not have, you may overrule with the same line and the</p>
+<p>taxonomy value <code>author-disagrees</code>, counted separately; you do not re-read the agreed items in</p>
+<p>search of these.</p>
+<pre><code>
+{&quot;sub&quot;: &quot;...&quot;, &quot;theme_id&quot;: &quot;...&quot;, &quot;readers&quot;: [[&quot;T3-007&quot;], [&quot;T3-011&quot;]], &quot;ruling&quot;: [&quot;T3-007&quot;],
+
+ &quot;unresolved&quot;: false, &quot;taxonomy&quot;: &quot;scheme-ambiguous&quot;, &quot;field&quot;: &quot;must_not_show&quot;,
+
+ &quot;theme&quot;: &quot;T3-007&quot;, &quot;quote&quot;: &quot;the sentence that failed to decide&quot;,
+
+ &quot;boundary_ruling&quot;: &quot;T3-007|T3-011 or null&quot;,
+
+ &quot;named_neither&quot;: false, &quot;confidence&quot;: &quot;clear|arguable&quot;, &quot;why&quot;: &quot;...&quot;, &quot;leg&quot;: &quot;...&quot;}
+
+</code></pre>
+<p><code>ruling</code> is empty and <code>unresolved</code> true where the scheme does not decide; a boundary ruled once</p>
+<p>carries the pair in <code>boundary_ruling</code> on every item it decided, and the ruling itself is one</p>
+<p>paragraph in <code>adjudication_report.md</code> with its item list. <code>assign_final.jsonl</code> is every item of</p>
+<p>the analysed set with its standing placement.</p>
+<h2>8. Three things not to do</h2>
+<p>**Do not let a <code>clear</code> reading decide silently.** A reader&#x27;s confidence may weigh on the</p>
+<p>placement; the disagreement still gets its row, its taxonomy, and its quoted sentence.</p>
+<p>**Do not revise the scheme here.** Stage C1 does that with the whole inventory in front of it;</p>
+<p>fixing a sentence mid-adjudication adjudicates the items before and after it against different</p>
+<p>files. Log the defect and leave the file alone.</p>
+<p>**Do not let the <code>unresolved</code> count reach zero by effort.** An adjudication that resolves</p>
+<p>everything has resolved some things by preference.</p>
+<h2>9. <code>adjudication_report.md</code></h2>
+<p>- **Items adjudicated**, against stage B3&#x27;s disagreement inventory.</p>
+<p>- **The taxonomy split**, the most important result: mostly <code>item-is-a-bag</code> is a good scheme</p>
+<p>  meeting messy material; mostly <code>scheme-ambiguous</code> is a scheme that did not survive being handed</p>
+<p>  over.</p>
+<p>- **Third-order themes by ambiguity**, ranked. Stage C1 opens with this list.</p>
+<p>- **Fields by ambiguity**: <code>must_show</code>, <code>must_not_show</code>, <code>decide_when_both</code> or the</p>
+<p>  discriminators. Four numbers.</p>
+<p>- **The <code>named_neither</code> rate**, and your reading of it.</p>
+<p>- **The <code>unresolved</code> count**, named, with the <code>author-error</code> and <code>author-disagrees</code> counts.</p>
+<p>- **The boundary rulings**, one paragraph each with its item list.</p>
+<p>- **Agreement before and after**, with the note that the figure after is not a reliability figure;</p>
+<p>  it is agreement following an adjudication you performed.</p>
+<p>- **Whether stage B2&#x27;s predictions held**, now that every theme in the analysed set has answered.</p>
+<h2>10. The blind sample: build leg</h2>
+<p>**This measures transmission after revision** (FLEET.md), never called reliability: whether</p>
+<p>the line you settled can be reached again by readers who were not here. Fleet agreement is</p>
+<p>already computed, corpus-wide, at stage B3, before anyone decided; this adds fresh readers against</p>
+<p>the record every later stage rests on. It is small by design: the fleet already read everything</p>
+<p>twice.</p>
+<p>Declared before you draw, in <code>notes-B4.md</code>:</p>
+<p>- **The sample**: one hundred items, fifty drawn uniformly at random from the analysed set and</p>
+<p>  fifty from the adjudicated items, by a recorded seed. The two strata are reported separately</p>
+<p>  and never pooled: the first says whether the scheme decides the ordinary item, the second</p>
+<p>  whether your rulings can be reached by a stranger.</p>
+<p>- **Two fresh readers per item**, with no memory of the run, one dispatch. Each reading is</p>
+<p>  compared with the settled line on its own: two hundred comparisons, a rate over readings; the</p>
+<p>  readers&#x27; agreement with each other is reported beside it.</p>
+<p>- **The agreement definition**, stage B2&#x27;s and B3&#x27;s from <code>notes-B2.md</code>, unchanged, or the</p>
+<p>  figures cannot be set beside each other: sets by Jaccard where rule 0 allowed more than one</p>
+<p>  placement, alpha computed on it; whether <code>[&quot;T3-004&quot;]</code> against <code>[&quot;T3-004&quot;,&quot;T3-011&quot;]</code> is</p>
+<p>  agreement, disagreement or partial; whether chance correction is over themes, over sets, or</p>
+<p>  over presence/absence per theme.</p>
+<p>- **Exemplars**: none unless stage B3 served them, and then the same arm, declared on both sides</p>
+<p>  of the comparison (FLEET.md). This measures whether the written scheme decides.</p>
+<p>**<code>RETURN-B4.md</code>** as at B3: the return line, rule 0 in the contract&#x27;s words, the end marker and</p>
+<p>the confirm line. <code>packets.py B4</code> builds the packets under the 50 KB ceiling: the scheme as frozen</p>
+<p>(the index page, the family pages as the reader opens them), the sampled second-order themes with</p>
+<p>their <code>theme_note</code> and concepts, and no ruling in sight. **Nothing else.** Not</p>
+<p><code>assign_final.jsonl</code>, not <code>disagreements.jsonl</code>, not <code>gold_items.jsonl</code>, not a hint that these</p>
+<p>items were decided before, and never your room notes, the head or <code>findings.jsonl</code>. If a reader</p>
+<p>needs your notes to decide, the scheme did not decide, and that is the finding. Append the</p>
+<p>manifest entry on stage A1&#x27;s schema (readers&#x27; model, seed, decoding, reader count) before the</p>
+<p>first packet leaves. **Stop here.** Close with <code>done.sh B4 --cut packets-out</code>. Your session ends; nothing more of this stage runs on your model until the check leg. The dispatch runs without you, on the platform&#x27;s reader route. The next launch of stage B4 is the check leg, and its packet tells you one thing: the readers left their files in <code>_fleet_raw/B4/</code>.</p>
+<h2>11. Dispatch leg</h2>
+<p>Not yours. The dispatch sends each packet to two fresh readers on</p>
+<p>the routine reader model, never the same reader for both readings of an item, collects the returns into</p>
+<p><code>_fleet_raw/B4/</code>, validates them against <code>RETURN-B4.md</code>, reissues what fails the schema, and</p>
+<p>closes. Nothing in it reads your files.</p>
+<h2>12. Check leg: the comparison and the figures</h2>
+<p>You are relaunched. Assemble the returns keyed on packet heading and cell number. **The</p>
+<p>comparison, per reading, the fresh placement against the settled one**, into <code>reassign.jsonl</code>:</p>
+<p>- **agrees**: the scheme decides, and the same way twice;</p>
+<p>- **disagrees, and the item was a disagreement here**: expected. Compare the two rates; a</p>
+<p>  boundary that split the fleet and then split a fresh reader shows consistency, not a new</p>
+<p>  problem;</p>
+<p>- **disagrees, and the item was unanimous in the fleet**: either the fleet shared an assumption</p>
+<p>  the scheme does not license, or the adjudication moved something it should not have. Name these</p>
+<p>  individually, and give each a paragraph;</p>
+<p>- **disagrees, and the settled placement was <code>unresolved</code>**: no information. Exclude these from</p>
+<p>  the denominator rather than counting them as a failure, and say how many.</p>
+<p>**<code>transmission-after-revision-B4.md</code>**: the headline figures side by side, fleet agreement from</p>
+<p>stage B3 and fresh-against-settled agreement per stratum, with alpha on the hundred and the</p>
+<p>stability floor from <code>stability-B2.md</code> beside them, the definition stated once above them; per</p>
+<p>family, not per theme: a hundred items over hundreds of themes leave most themes with no item in</p>
+<p>the sample. The per-theme figure stage C1 needs is stage B3&#x27;s agreement, over every item and</p>
+<p>every theme; point to it, do not recompute it. Then the unanimous-but-disagreed items, listed;</p>
+<p>and the gap between the uniform stratum&#x27;s figure and stage B2&#x27;s gold figure: the pilot measured</p>
+<p>the scheme on deliberately hard items, and where the gold number is not the lower of the two, the</p>
+<p>hard set was not hard. Wherever a figure from this section appears, say what it licenses, in</p>
+<p>FLEET.md&#x27;s words: readers share an architecture with you, so the figure bounds whether the</p>
+<p>written instrument decides, never whether it is right.</p>
+<h2>Moments to log</h2>
+<p>The gold drop with its count; the transmission rows; the conflicts pass; each declaration of §5;</p>
+<p>each packet ruled with its taxonomy counts; each boundary ruled once, with its item list; each</p>
+<p>overrule; the blind sample&#x27;s draw with its seed, its build, its dispatch and its result; every</p>
+<p>unanimous item a fresh reader placed elsewhere.</p>
+<h2>Final message</h2>
+<p>The claim (which family the scheme decides worst and why), the item that best supports it, the</p>
+<p>item that most threatens it, and the condition that separates them; then the counts: contested</p>
+<p>items inherited and adjudicated; rulings by taxonomy; <code>author-error</code> and <code>author-disagrees</code>; the</p>
+<p>three third-order themes with the most <code>scheme-ambiguous</code> rows; the field that failed most; the</p>
+<p><code>named_neither</code> and <code>unresolved</code> counts; boundaries ruled once, and the items they decided;</p>
+<p>whether the pilot&#x27;s predictions held on the full corpus; the four transmission rows; transmission</p>
+<p>after revision per stratum with its definition, alpha against the stability floor, the three</p>
+<p>worst families, and the unanimous items a fresh reader placed elsewhere; the single boundary you</p>
+<p>most expect stage C1 to have to move; the licences exercised.</p>
+<h2>Close</h2>
+<p><code>done.sh B4</code> at every leg; paste <code>validate.py B4</code>&#x27;s report into <code>notes-B4.md</code>; <code>handback-B4.md</code>;</p>
+<p>the head; the closing diary line.</p>
+<p>**Interview point.** <code>B4c</code> writes <code>out/interview/B4c.md</code> (under 800 words: what you did, what you found, what surprised you, what you doubt, and the three questions you would most like to be asked) and closes with <code>done.sh B4 --cut interview</code>: the placements final after the fleet placed every theme and the adjudication ruled: where the readers and you disagreed, what the pilot and the fleet taught you. The principal investigator may talk with you here, in a fork of this leg, run in a copy of your folder as it stood at the close (not read-only; nothing done there reaches the run); the run goes on from the cut either way. <code>done.sh</code> files the brief under the leg, the stage, the step and the minute, and refuses the cut without the brief (and, at a stage&#x27;s end, without the handback).</p></html>

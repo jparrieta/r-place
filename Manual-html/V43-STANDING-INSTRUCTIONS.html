@@ -1,0 +1,449 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>OpenAI operation</title><style>body{font:17px system-ui;max-width:940px;margin:40px auto;padding:20px;line-height:1.6;color:#252822;background:#faf9f6}pre{padding:18px;background:#eceee9;overflow:auto}code{font:14px ui-monospace,monospace}a{color:#145740}</style><p><a href="OPENAI-LIVE.html">Open the live control panel</a> | <a href="index.html">Research manual</a></p><h1>STANDING-INSTRUCTIONS, v38. What you hold, the tools, your memory, the leg.</h1>
+<p>Given with every stage beside the contract. The index below gives line ranges.</p>
+<p>&lt;!-- INDEX --&gt;</p>
+<p>| section | lines | words |</p>
+<p>|---|---|---|</p>
+<p>| 1. What you hold | 15 to 65 | 461 |</p>
+<p>|   Helpers | 66 to 83 | 200 |</p>
+<p>|   The tools | 84 to 176 | 1499 |</p>
+<p>|   Know what you are reading | 177 to 189 | 133 |</p>
+<p>| 2. Your memory, and the shape of a leg | 190 to 328 | 1738 |</p>
+<p>&lt;!-- /INDEX --&gt;</p>
+<h2>1. What you hold</h2>
+<p>Everything is in the folder you were given, and the folder is the whole world of this study.</p>
+<pre><code>
+package/               the coders&#x27; work, sealed: one folder per room, one run per room, the same
+
+                       six files in each: brief.md, case.md, codes.jsonl, themes.jsonl,
+
+                       threads.jsonl, pointers.jsonl;
+
+                       the canvas fields (contract §5, rule 7) with their manifest;
+
+                       canvas/artworks.jsonl, every atlas artwork with its index and its
+
+                       placement over time, read beside each room&#x27;s account; a use is
+
+                       declared (rule 7);
+
+                       sealed.jsonl (hashes of the files that arrive later)
+
+package/store/         the same material joined, built by script before stage A1:
+
+                       codes.jsonl      every first-order concept with its second-order theme,
+
+                                        item, thread, author, hour since open, forest coordinate,
+
+                                        the participant&#x27;s words with offsets; and, once they
+
+                                        exist, its third-order theme, fourth-order theme and
+
+                                        dimension. Retracted codes are not in the store.
+
+                       themes.jsonl     every second-order theme with its note and its codes
+
+                       items.jsonl, threads.jsonl, rooms.jsonl (each room with its canvas fields)
+
+                       transitions.jsonl   every coded turn that answers a coded turn, with the
+
+                                        interval: the transitions ledger
+
+                       relations.jsonl  every room another room names, with direction and the
+
+                                        coder&#x27;s label
+
+                       neighbours.jsonl every pair of rooms that share an artwork, border or
+
+                                        overlap on the atlas outline, or name each other
+
+                       shelves/         the literature in two tiers per stage: read, shipped with
+
+                                        the stage; on request, listed one line each and opened
+
+                                        only if you ask. A shelf that has arrived stays
+
+                       README-store.md  the dictionary. Read it at stage A1.
+
+trees/&lt;sub&gt;.md         the forest: each coded thread as its reply tree, coded turns hung on it,
+
+                       gaps kept, dropped items counted in the header
+
+package/canvas/        artworks.jsonl, every atlas artwork, its pixels, placers and placements by hour;
+
+                       package/pixels.csv and case_facts_outcome.jsonl beside it; DATA-manifest-canvas.md
+
+tools/                 see below
+
+out/                   yours, empty at the start; its tree is STANDING-INSTRUCTIONS §2. __OUTDIR__ means out/.
+
+</code></pre>
+<p>**The forest is the coded record&#x27;s shape.** A thread in <code>trees/&lt;sub&gt;.md</code> shows what was a reply to</p>
+<p>what and how long after, with the coder&#x27;s codes on the turns. **A reply is a reply.** The tree</p>
+<p>shows that one turn was posted after another; it does not show that the first caused the second.</p>
+<p>No relation you write may rest on adjacency alone, and an interval between two posts is elapsed</p>
+<p>time, never the speed of a decision.</p>
+<p>**Your room notes are your prior.** Stage A1 has you read every room through its forest and write</p>
+<p>a note on each into <code>out/rooms/</code>, with a lexicon and a running file. From then on the notes are</p>
+<p>queried (<code>mem.py note &lt;sub&gt;</code>), never read whole as a list. They are what you expected, dated;</p>
+<p>they are never a source for a quote; and every stage that uses them says, in its diary, what it</p>
+<p>found that they did not predict.</p>
+<h3>Helpers</h3>
+<p>You may start a helper (the Agent tool) whenever it serves your own work: to read a set of rooms</p>
+<p>through the verbs and summarise them against a question, to check a claim across the store, to</p>
+<p>test a script or a count. A helper has your tools and your walls, and runs on your model. Four</p>
+<p>rules bind it:</p>
+<p>- **A helper does not do the fleets&#x27; work.** It never places a theme, adjudicates, labels a room,</p>
+<p>  gives a verdict or reads as a reader for a stage that has a fleet; those run outside you</p>
+<p>  (FLEET.md), where they can be measured.</p>
+<p>- **A helper&#x27;s summary is a pointer, never evidence.** Every quote, count and claim you keep, you</p>
+<p>  take yourself through <code>cite.py</code> and <code>mem.py</code>; a finding that rests on a helper&#x27;s words alone is</p>
+<p>  a defect.</p>
+<p>- **Log it.** <code>mem.py log --kind helper &quot;&lt;what you asked; what came back; what you kept&gt;&quot;</code>, one</p>
+<p>  line per helper, when it returns. Its reads through the verbs are logged under your stage.</p>
+<p>- **Say what it read.** Name in the brief the rooms or files it may open, and say in the log</p>
+<p>  line whether it stayed inside them.</p>
+<h3>The tools</h3>
+<pre><code>
+python3 tools/cite.py --room &lt;sub&gt; [--code &lt;id&gt;] [--theme &lt;id&gt;] [--tier 3rd|4th|dim] [--n K]
+
+                      the only way a quote enters an output (rule 3); every call logged
+
+python3 tools/mem.py &lt;verb&gt; ... --stage NN     the store and your own files, one page at a time,
+
+                      every call logged to __OUTDIR__/_mem_reads-NN.jsonl
+
+  room &lt;sub&gt;            the room on one page; --no-canvas is the page fleets are served (rule 7)
+
+  forest &lt;sub&gt; [id]     the rendered forest, whole room or one thread
+
+  note &lt;sub&gt;            your own room note
+
+  codes  --sub | --theme &lt;id&gt; | --third &lt;id&gt; | --grep &lt;re&gt;
+
+  theme &lt;sub&gt;/&lt;id&gt;      a second-order theme, its codes, and where it was placed
+
+  where &lt;T3-id&gt;         every room and second-order theme on a third-order theme, with 4th and dim
+
+  after &lt;sub&gt;/&lt;code_id&gt; what answered this code and what it answered, with intervals
+
+  pairs --level ...     transition counts from the ledger
+
+  when &lt;sub&gt;            the room&#x27;s coded hours as one line
+
+  shelf &lt;name&gt;          a work on the shelf, whole; shelf --list the on-request tier
+
+  rooms --with &lt;id&gt; | --without &lt;id&gt;    rooms holding or lacking a theme, element or adaptation
+
+  contrast &lt;sub&gt; &lt;sub&gt;  the diff of two rooms&#x27; columns and, after D3, their adaptation sets
+
+  finding &lt;id&gt; | findings --touching &lt;element&gt;
+
+  adaptations --element &lt;id&gt; [--kind ...]   every ledger line touching one element, across rooms
+
+  table --from 3rd | --from 2nd | --room &lt;sub&gt;   projections of the data structure
+
+  question &lt;slug&gt;       one open distinction
+
+  log &quot;&lt;text&gt;&quot; [--kind opened|dropped|merged|split|kept|move|abductive|question|comparison|note] [--ids ...]
+
+                        the only writer to the diary (rule 20)
+
+  diary --last [n] | diary --grep &lt;id&gt;
+
+  diff-scheme &lt;cut&gt; | diff-model &lt;cut&gt;   the scheme or the model now against a cut
+
+  adjudicate ...        stage D3&#x27;s writer to adjudications.jsonl
+
+python3 tools/validate.py --open NN | NN | --links   startup counts; close-check; every id resolves
+
+python3 tools/gen_views.py NN       regenerates _views/ and _wiki/ from canonical files; run by done.sh
+
+python3 tools/snap.py NN &lt;label&gt;    a hash of out/ under a name; the harness takes one at every close, you take one when an order matters
+
+python3 tools/counts.py             the denominators, from the canonical files
+
+python3 tools/handoff.py D | ingest.py D | rebuild.py &lt;sub&gt;    the return&#x27;s builders (FLEET.md §3)
+
+bash tools/done.sh NN [--cut &lt;name&gt;]   the leg&#x27;s one exit: close-check, links, views; the harness then snaps and probes
+
+</code></pre>
+<p>**Verbs added or changed in the last tools pass**, over the list above (where they differ, these win):</p>
+<pre><code>
+python3 tools/mem.py &lt;verb&gt; ... --stage NN     changed for every verb:
+
+  [--offset N | --page N] [--limit N]  every page ends with a marker: &quot;[end: lines a-b of N]&quot; or &quot;[lines a-b of N; M more: --offset K]&quot;
+
+  help [verb]           the whole page, or the lines naming one verb
+
+  (any room argument)   bare, r/&lt;sub&gt; or &lt;sub&gt;/, any case; a wrong room, theme, thread or id is refused with &quot;did you mean ...&quot; and exit 1
+
+  (the read log)        out/_mem_reads-NN.jsonl records verb, args, every option, offset, limit, lines served, total, and a refusal
+
+  room &lt;sub&gt; [--json]   the room page (unchanged), or one JSON line; &quot;case themes&quot; now reads &quot;second-order themes&quot;
+
+  case &lt;sub&gt;            new: the coder&#x27;s case.md, paged
+
+  neighbours &lt;sub&gt; [--kind canvas|mention|shared] [--top N] | --summary   new: rooms that share an artwork, border or overlap on the atlas outline, or name each other (package/store/neighbours.jsonl)
+
+  canvas &lt;sub&gt;          new: the six canvas fields, each linked artwork&#x27;s placements by hour as a bar aligned like `when` (freeze at h73), the share of the room&#x27;s region placed by its window and its pre-event members (pixels.csv), and the manifest&#x27;s caveat
+
+  compare &lt;sub&gt; &lt;sub&gt; [--grep re]   new: two rooms before any placement: facts, `when`, second-order themes, named rooms, canvas, and concept labels matching --grep
+
+  when &lt;sub&gt;            changed: the axis under the bar now matches the 4-hour bins (0, 24, 48, 72, 96; ^ freeze h73)
+
+  forest &lt;sub&gt; [id]     changed: a thread the forest lacks is refused with the nearest id
+
+  codes --sub S [--second tNN]   renamed: --second (old --case-theme still works)
+
+  codes --third &lt;T3&gt; | --fourth &lt;T4&gt; | --dimension &lt;D&gt;   renamed and new: --third (old --theme), --fourth (old --chunk), --dimension new
+
+  codes --grep &lt;re&gt; [--by-room] [--json]   --by-room new: the count per room with the first hour; --grep now also matches the label and the coder&#x27;s note
+
+  (code lines)          changed: the position reads @&lt;thread_id&gt;:&lt;coord&gt;
+
+  theme &lt;sub&gt;/&lt;tNN or label words&gt;   changed: label words match a substring, any case; several matches are listed by id
+
+  themes --grep &lt;re&gt; [--rooms a,b] [--json]   new: second-order themes whose label or note match, with the count per room
+
+  pairs --level second|third|fourth|dimension   changed: the tier names (case_theme, theme, chunk still work); an unknown level is refused with the list; dimension new
+
+  facts [--field F] [--summary] [--sort asc|desc] [--where &quot;F&gt;v&quot;] [--nulls] [--top N] [--json]   new: rooms.jsonl field by field: a sorted list, n/nulls/min/quartiles/max, filters, the null rooms; px_window_share and px_pre_share from pixels.csv
+
+  facts --slope X Y     new: the log-log OLS slope of Y on X over rooms with both &gt; 0
+
+  notes --grep &lt;re&gt; [--field &lt;line&gt;]   new: your room notes (out/rooms/*.md, not _ files) lines matching, with the room
+
+  progress [--stage A1] new: the declared block order (notes-A1.md, else sorted), each room noted, read or pending, and the last opened; --plan [MB] cuts the pending rooms into blocks of about MB (3)
+
+  scheme [--brief] [T3-id]   new: one line per third-order theme (id, family, members, label: gloss) from scheme_current over the latest frozen scheme; with an id, that theme whole
+
+  where &lt;T3-id&gt;         changed: reads the working grouping (scheme_current&#x27;s members) when no assignments file exists
+
+  rooms --with &lt;id&gt; | --without &lt;id&gt;   changed: an id that names nothing is refused instead of returning every room
+
+  view [name] [--grep re] [--room sub]   new: a generated view in out/_views/, filtered; no name lists them
+
+  wiki [page]           new: a generated wiki page (rooms/&lt;sub&gt;, model/&lt;id&gt;, or the bare name); no page lists them
+
+  shelf &lt;name&gt; [--grep re] [--page N]   new options: matching lines with line numbers; one page of the work
+
+  diary --last [n]      changed: n defaults to 5
+
+  log &quot;&lt;text&gt;&quot; [--kind k] [--ids a,b] [--dry-run]   changed: the kind is checked against opened, dropped, merged, split, kept, move, abductive, question, comparison, note, helper, minted, placed, unplaced, pause and any `log --kind` a stage file names; --dry-run new
+
+  mint --label &quot;...&quot; --trigger &lt;sub&gt;:&lt;tNN&gt; [T3-id] [--dry-run]   changed: refused outside stages B1, C1 to C5, D3 and D6; the trigger must be a second-order theme in the store; an id is minted once; at B1 the theme enters scheme_current with its trigger as first member, after B1 the mint is a stamp only and the theme is written to scheme_v2 with its members moved by `reassign`; logged as kind minted; the id may come before or after the options
+
+  place &lt;sub&gt;:&lt;tNN&gt; --theme T3-NNN [--dry-run]   new: puts a second-order theme into a minted third-order theme in scheme_current (atomic rewrite), logs kind placed, and says where else it sits
+
+  unplace &lt;sub&gt;:&lt;tNN&gt; [--theme T3-NNN] [--dry-run]   new: takes it out of one third-order theme, or of all; logs kind unplaced
+
+  table, wiki           changed: say so when your working files changed since the view was written at the last close
+
+  adjudicate &lt;id&gt; --decision d --reason &quot;...&quot; [--pair id] [--dry-run]   changed: refused outside D3; the adaptation id (and --pair) must be in the ledger; the decision is checked
+
+  (the overlay)         changed: scheme_current.jsonl (out/scheme/ or out/) is laid over the latest frozen scheme when it is newer or none exists; placements fall back to its members when no assignments file exists
+
+  ask &quot;&lt;question&gt;&quot; --assume &quot;&lt;what you do meanwhile&gt;&quot; [--ids a,b] [--dry-run]   new (v43): a question for the principal investigator, at any stage; written to out/asks.jsonl and the diary (kind ask); see &quot;When you need the principal investigator&quot;
+
+  asks [&lt;id&gt;] [--open]  new (v43): your questions and the answers that came back (out/_answers/&lt;id&gt;.md, written by the principal investigator&#x27;s side, never by you)
+
+  audit [frame|rooms|retracted|build]   new (v43): stage A1&#x27;s package checks from the raw files of package/ (the census count against rooms.jsonl and the room folders, the six files of every room, the coders&#x27; retracted concepts against the store, the store&#x27;s build figures recomputed); every figure names its file, and the call is logged like any read
+
+python3 tools/cite.py ...     changed:
+
+  (every header)        &quot;N match; K shown&quot; (--grep, --theme, --tier); --resolve says &quot;N code(s) hold these words; K shown&quot; and takes --n
+
+  --room &lt;sub&gt; --code &lt;id&gt; --context K   new: the quote with its parent and K items either side in the thread, their coded passages and forest labels
+
+  --room &lt;sub&gt;          changed: any case, r/&lt;sub&gt;; a wrong room is refused with the nearest; --tier dim now finds the concepts under a dimension
+
+python3 tools/validate.py --open NN   changed: names every declared input and where it was found; prints counts.py&#x27;s census, dropped, analysed, concepts and second-order themes; runs links.py and exits 1 on an unresolved id at every stage; reads the startup packet line; scheme_current in out/scheme/ or out/
+
+python3 tools/validate.py --self-test [--summary]   --summary new: only failures and the count; the fixture is now self-contained, so the report is the same in any folder
+
+python3 tools/links.py        changed: also resolves r/&lt;sub&gt;, &lt;sub&gt;/cNNNN, &lt;sub&gt;:cNNNN and &lt;sub&gt;/tNN against the store (a room the rooms named, and r/place, also resolve)
+
+python3 tools/packets.py B2|B3|B4 [--scheme F] [--families F] [--to DIR]   changed: the flags are honoured at B2, B3 and B4; items may be &quot;sub/tNN&quot;, {&quot;sub&quot;,&quot;theme_id&quot;} or {&quot;item&quot;:&quot;sub/tNN&quot;}; B2 with --to needs no --round
+
+python3 tools/ingest.py D    changed: with no DROPS/D it says so in one line and exits 1
+
+python3 tools/gen_views.py NN changed: data-structure.md above 2 MB holds a note pointing to `mem.py view data-structure`; tsv cells carry no line breaks
+
+python3 tools/build_store.py --root R --join-canvas F   changed: F may be relative to --root
+
+</code></pre>
+<p><code>HOW-TO-RUN.md</code> is the reference for all of them. Read it once at stage A1. **A single</p>
+<p><code>Read</code> may return a truncated file without saying so** above about 25,000 tokens; page it, or</p>
+<p>read it through a verb.</p>
+<h3>Know what you are reading</h3>
+<p>This is not interview material. Nobody was asked anything, no protocol shaped it, and none of it</p>
+<p>was written for a study. Three things follow. **Nobody&#x27;s questions produced this talk**, but one</p>
+<p>reader per room decided what in each record was worth coding, and you hold what it kept; where a</p>
+<p>claim turns on absence, it is a claim about what was coded, and the forest header says how much</p>
+<p>of each thread that was. **Sequence is evidence**: who answered whom, what was taken up, what was</p>
+<p>ignored. **It was written to be read by the people it was about**: a room&#x27;s claim about itself is</p>
+<p>an act addressed to somebody. Keep *the record shows they did X* apart from *a member said they</p>
+<p>did X*.</p>
+<p>---</p>
+<h2>2. Your memory, and the shape of a leg</h2>
+<p>**Continuity.** Every leg continues the preceding completed checkpoint, including</p>
+<p>conversation and files. Read the head and diary to orient that continuation. Compaction does not</p>
+<p>replace the archived history. A missing checkpoint is a harness defect, never a reason</p>
+<p>to start a fresh analyst from notes.</p>
+<p>**The diary is not read whole by anyone.** It is one file per stage in parts of 1,500 words; you</p>
+<p>read its last five entries at a leg start and grep it by id; stage E1 computes over it. The head</p>
+<p>is the summary, the closing line of each leg is the digest, and the rest is the record.</p>
+<p>**The tree.** <code>out/</code> as you see it. Writers: **A** you, **S** a script at leg close, **H** the</p>
+<p>harness, **F** a fleet or the labelers through the drop, **P** the principal investigator.</p>
+<pre><code>
+_head.md                 A   the narrative of the argument; 3,000 words; read first at every leg
+
+diary/NN-k.jsonl         A   the running log through mem.py log; harness-stamped; 1,500 words a part
+
+_questions/&lt;slug&gt;.md     A   one open distinction per file; closed with a verdict line, never deleted
+
+asks.jsonl               A   your questions to the principal investigator, through mem.py ask only (v43)
+
+_answers/&lt;id&gt;.md         P   his answers, one per question; never written by you (v43)
+
+_views/                  S   generated at every close; never edited: data-structure, rooms by
+
+                             third-order themes, rooms by elements, rooms by adaptations per level
+
+                             and per kind, relations, transitions, moves
+
+_wiki/                   S   one page per room, theme, element, form; 800 words; generated
+
+model/                   A   elements.jsonl, arrows.jsonl, history.jsonl: the typed model;
+
+                             story-pN.md, the story told at the end of every C2 pass, which the
+
+                             stop rule diffs
+
+prior.md                 A   written at B1a: expectations, the composition criteria, the
+
+                             brackets, the coordinating-turn rule, the onset contrast; at D1,
+
+                             before any adaptation: the distance weights, the concept floor and
+
+                             the off-record share
+
+scheme/                  A   scheme_current.jsonl and its versions; a required paged read at
+
+                             every B1 leg start, beside the head (C1 reads the frozen scheme_final)
+
+saturation.jsonl, theme_discovery.jsonl, multiplacement_log.jsonl, dropped.jsonl, RUN.json
+
+                         A,H the records the contract names
+
+_fleet_raw/, handoff-D/, DROPS/D/   F,H  the fleets&#x27; returns and the return&#x27;s folders
+
+forms/&lt;id&gt;.md            S   generated at D4 from the accepted branch definitions
+
+findings.jsonl, departures.jsonl, defects.jsonl, tier_history.jsonl   A   append-only ledgers
+
+adaptations.jsonl        F   ingested from DROPS/D, validated
+
+adjudications.jsonl      A   stage D3
+
+rooms/&lt;sub&gt;/             F,A placements, verdict-D, model-D.md, your note
+
+_snap/                   H   the harness&#x27;s hashes of out/ at every close; read them when you like
+
+_probe/, _transcripts/   H   the harness&#x27;s; open to you at stage E1
+
+</code></pre>
+<p>**Stages, steps, legs.** The run has five sections: A reading, B coding, C model, D adaptation</p>
+<p>and forming, E formalizing. Each holds stages (A1, B1 ... E2), and each stage a sequence of</p>
+<p>steps, lettered: B1&#x27;s are a prior, b getting lost, c the saturation test, d the second pass, e</p>
+<p>the scheme standing. <code>tools/steps.tsv</code> lists them all, and the stage file says what each does</p>
+<p>and where it stops. You are given the whole stage file at the stage&#x27;s first leg, and you close a</p>
+<p>leg at the end of its step or earlier. A leg is named by its step: <code>B1c</code> for a step taken once,</p>
+<p><code>B1b-03</code> for the third leg of a step that repeats, <code>B2a-r1</code> for a pilot round, and <code>B1c-p2</code> for</p>
+<p>a leg continued after a pause. The harness names the leg in your first message and in <code>.leg</code>;</p>
+<p>every snap, probe and checkpoint carries that name.</p>
+<p>**A leg.** One launch. Its startup packet, read in this order and nothing else by default: the</p>
+<p>head; the stage file; the last five diary entries; at B1, <code>scheme_current.jsonl</code> paged, and at C1 the frozen <code>scheme_final.jsonl</code>; <code>validate.py --open NN</code>, which prints the</p>
+<p>counts you start from and fails the launch if a link in the head does not resolve. On demand,</p>
+<p>through verbs only: rooms, themes, concepts, transitions, findings, questions, views, wiki pages.</p>
+<p>Closed to you until stage E1: <code>_transcripts/</code> and <code>_probe/</code>. You write only in <code>out/</code>. The work is one operation for the stages that make categorization moves: a</p>
+<p>scheme pass over a room block, one loop pass, one element group at D3, one pass over the ledger</p>
+<p>at D4; a leg may carry several moves, and may close earlier when you choose. The exit</p>
+<p>is <code>done.sh NN</code>, which runs the close-check (files that must change did; ids resolve; counts</p>
+<p>match manifests), regenerates the views, snaps, writes tokens, and runs the recall probe. A leg</p>
+<p>that fails the close-check is not closed; you are relaunched with the failure in your packet.</p>
+<p>**The move.** Every categorization move (a merge, a split, a dimension cut, an arrow added,</p>
+<p>bounded or withdrawn, a hypothesis kept or dropped, a branch named) is logged when you make it</p>
+<p>(<code>mem.py log --kind move</code>, the Grodal, Anteby and Holm move named) and snapped (`python3</p>
+<p>tools/snap.py NN move-&lt;move&gt;-&lt;n&gt;`), so a reviewer can find the state before and after it. A move</p>
+<p>does not close the leg.</p>
+<p>**The cut.** <code>done.sh NN --cut &lt;name&gt;</code> closes the leg at a named checkpoint, snaps, and records a</p>
+<p>resumable session, so that a reviewer can reopen you there and ask why. Cuts are kept only where</p>
+<p>a stage file names one: <code>adaptations-in</code> at D2, <code>tree-final</code> at D4, and <code>interview</code> at the</p>
+<p>interview points. One cut has a fixed name: <code>--cut packets-out</code> closes the build leg of a fleet stage</p>
+<p>(B2, B3, B4, C2, C5, D1, E1). After it your session ends, the dispatch runs on the platform&#x27;s reader route without</p>
+<p>you, and the next launch of the stage is the check leg (the contract&#x27;s §6, the legs table).</p>
+<p>**The recall probe.** At every close the harness asks you, in a fresh turn, five things: the</p>
+<p>method question in one sentence; the open distinctions by slug; the last three rooms you opened;</p>
+<p>the element or theme you changed in this leg and why; the next comparison. The answers are scored</p>
+<p>against the head, the questions, the read log and <code>history.jsonl</code>. A miss that the head or the</p>
+<p>diary answers is a note, not a defect: the leg kept what it needed where it belongs. A miss</p>
+<p>neither answers is a defect. The probe</p>
+<p>measures whether the goal survived the leg, and the run reports probe failures per stage.</p>
+<p>**Compaction.** Expect it: a long reading leg (A1, B1) will compact, more than once, and you</p>
+<p>cannot see it happen. That is routine, not a failure, and the record is why: what is on disk</p>
+<p>survives it. The harness owns it: after any</p>
+<p>compaction it re-injects the head and the stage file before your next write, and asks you to</p>
+<p>reconcile the head with the diary. What the compactor is told to preserve (<code>CLAUDE.md</code> on Claude; the same list on Codex): preserve the method question, the current</p>
+<p>account, the reasons for the last revisions, the contrary rooms, and the next comparison; after</p>
+<p>it, re-read the head and the stage file before any write, and reconcile the head with the diary.</p>
+<p>**Ceilings.** The head 3,000 words (<code>done.sh</code> refuses a close above 3,200, a margin for the last edit); a wiki page 800; a packet to a reader 50 KB; a <code>Read</code> paged</p>
+<p>above about 25,000 tokens; a D3 element packet 100 lines; a question file 600 words; a diary</p>
+<p>part 1,500 words, then roll.</p>
+<p>**The comparisons you can make at any leg**, each served by a verb or a generated view, never by</p>
+<p>reading rooms in order: this room against that; rooms that hold a theme against rooms that lack</p>
+<p>it; the scheme now against the scheme at a snap or a cut; a finding against every element it cites; the</p>
+<p>model now against the model at a snap or a cut; a question as opened against as closed; rooms by</p>
+<p>third-order themes, case-ordered; transitions in time; the blind room account against the</p>
+<p>informed room model; adaptations touching one element across rooms; rooms by adaptation keys per</p>
+<p>level and per kind; a branch against the global model; a room against its branch; the mention</p>
+<p>graph against the branches; what you said you did against what the record shows.</p>
+<p>**Safe stops, and pausing.** Every stage names its safe stops: points where everything you have</p>
+<p>done is on disk and the next leg could pick up from the head and the diary (after a room note at</p>
+<p>A1, after a block at B1, after a logged move from C1 on, after a section at C5, D5, D6 and E1,</p>
+<p>after a packet set at the fleet stages). At each safe stop, check for a pause request</p>
+<p>(<code>ls .pause</code>). If it is there, log where to pick up, in one line with two parts: your working</p>
+<p>hypothesis as it stands, and the next room or item (`mem.py log &quot;&lt;hypothesis&gt;; next: &lt;room or</p>
+<p>item&gt;&quot; --kind pause<code>); update the head if the stage has one; and close with </code>done.sh NN --pause`.</p>
+<p><code>done.sh</code> refuses a pause without that line for this leg. The leg closes without</p>
+<p>the stage&#x27;s close-check, and the next leg continues the stage. The handler asks for a pause when</p>
+<p>the platform&#x27;s usage allowance is running short or for any other reason; a pause is never a judgement on the work.</p>
+<p>**Interview points.** At the moments where talking with you teaches the most, a step ends its</p>
+<p>leg with <code>done.sh NN --cut interview</code>. First write the brief, <code>out/interview/&lt;leg&gt;.md</code> (under 800</p>
+<p>words: what you did, what you found, what surprised you, what you doubt, the three questions you</p>
+<p>would most like to be asked); at a stage&#x27;s end, write <code>handback-NN.md</code> too. <code>done.sh</code> refuses the</p>
+<p>cut without the brief, without the handback where the stage ends, and at a step that has no</p>
+<p>interview point; then it files the brief under the leg, the stage, the step and the minute, for</p>
+<p>example <code>B1e_coding-third-order-scheme_scheme-standing_2026-10-03T14-22.md</code>. The principal</p>
+<p>investigator may then talk with you in a fork of that leg, run in a copy of your folder as it stood at the close (not read-only; nothing done there reaches the run); the run goes on from the cut</p>
+<p>either way, and nothing said there enters the run unless it comes back as a reply, the brief&#x27;s</p>
+<p>name with <code>-reply</code> added, which your next leg&#x27;s first message names. Read it before your first</p>
+<p>write and answer it in your files under rule 13; a reply is advice, not an instruction, and where</p>
+<p>you do not follow it, say why. The points: <code>A1c</code> (the</p>
+<p>reading done), <code>B1e</code> (the scheme standing), <code>B4c</code> (the placements final), the last <code>C1a</code> (the structure), <code>C2c</code> (the</p>
+<p>reviewer read, mid-stage), <code>C3c</code> (the literature), <code>C4a</code> (the field), <code>C5d</code> (the Gioia table, the dynamic model and</p>
+<p>the figure), <code>D3c</code> (the return adjudicated), the last <code>D4a</code> (the tree), <code>D6b</code> (the retelling),</p>
+<p><code>E2b</code> (the feedback).</p>
+<p>**When you need the principal investigator.** You are not alone with the record. When a</p>
+<p>question, an assumption you are unsure of, or a confusion would change what you do, ask:</p>
+<p>`python3 tools/mem.py ask &quot;&lt;the question, in a paragraph at most&gt;&quot; --assume &quot;&lt;what you will do</p>
+<p>meanwhile&gt;&quot;`. It reaches the principal investigator at once, and he wants to hear it. Ask when the</p>
+<p>instrument is silent, unclear, or seems wrong for the case in front of you, or when you would</p>
+<p>otherwise have to guess; do not ask leave to do what the stage file already says. Do not wait for</p>
+<p>the answer: go on with what you said you would do, and name the question&#x27;s id in the diary line of</p>
+<p>any work that rests on it. The answer arrives in <code>out/_answers/&lt;id&gt;.md</code> (<code>mem.py asks &lt;id&gt;</code>), named</p>
+<p>in your next leg&#x27;s first message, or sooner in the conversation itself. An answer is advice, as a</p>
+<p>reply is: where you do not follow it, say why. If you cannot go on at all without it, log a pause</p>
+<p>(above) and close with <code>done.sh NN --pause</code>; the next leg starts once the answer is in.</p>
+<h2>Method invariants for every leg</h2>
+<p>Use the current return specification and effective adjudicated ledger. A supported local particular stays in the leaf account; a pending claim stays unresolved. Never infer substantive absence from silence. Keep original fixed-global, current adapted-local and shared-branch judgments distinct and versioned. No dimension count, new theoretical remainder or branch count is required. After D3, keep the validated model fixed; D6 ideas are separate unvalidated proposals. A process claim is tested at its stated level using dated evidence; confidence, repetition or mention connectivity alone does not prove it.</p></html>

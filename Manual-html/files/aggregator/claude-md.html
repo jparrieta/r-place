@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>`CLAUDE.md`</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/claude-md.md">Markdown source</a></nav>
+<h1 id="claudemd"><code>CLAUDE.md</code></h1>
+<p>The rules Claude Code loads into every analyst session, binding on every turn.</p>
+<h2 id="what-it-holds">What it holds</h2>
+<p>The reading order at a leg's start: AGENT.md, then <code>out/_head.md</code>, the stage file, <code>mem.py diary --last 5</code> and <code>validate.py --open NN</code>, and nothing else by default. Then the rules for every turn: write as you work with <code>mem.py log</code>, never to <code>out/diary/</code> by any other route; read through the verbs, since a raw file above about 25,000 tokens is paged; <code>out/_probe/</code> and <code>out/_transcripts/</code> are the harness's until E1; never delete a file; log and snap every categorization move; close with <code>done.sh NN</code>, with <code>--cut</code> only where a stage file names one; the head is at most 3,000 words. Last, what the compactor must preserve, in order: the method question in one sentence, the current account, the reasons for the last revisions, the contrary rooms, the next comparison.</p>
+<h2 id="who-writes-it-and-when">Who writes it, and when</h2>
+<p>Written with the instrument; <code>build.sh</code> copies it to the analyst's root, where Claude Code reads it at the start of each session.</p>
+<h2 id="why-it-exists">Why it exists</h2>
+<p>Contract, "Think on disk, and never rely on having read", and rule 20: the diary is written as you work, through <code>mem.py log</code> only. STANDING-INSTRUCTIONS §2 says the harness owns compaction and names this file as the list the compactor keeps.</p>
+<h2 id="where">Where</h2>
+<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/CLAUDE.md">CLAUDE.md</a>; source <a href="../../../aggregator/instrument/CLAUDE.md">aggregator/instrument/CLAUDE.md</a>.</p>
+<p>Checked against: CLAUDE.md, STANDING-INSTRUCTIONS.md §2, CONTRACT-aggregator.md rule 20, harness/build.sh.</p>
+</body>
+</html>

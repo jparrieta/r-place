@@ -1,0 +1,1 @@
+r/destiny — branch B; verdict: full. Evidential saturation is limited by sliced reading, removals, linked images, and unseen Discord/chat. Practice saturation was not reached before the final slice. Blockers: none.

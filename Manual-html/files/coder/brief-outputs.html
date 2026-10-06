@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>The brief and its outputs (brief/)</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../manual.css" />
+</head>
+<body>
+<nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/brief-outputs.md">Markdown source</a></nav>
+<h1 id="the-brief-and-its-outputs-brief">The brief and its outputs (brief/)</h1>
+<p>The brief writer's directory: what it read, how it read, and the brief it wrote.</p>
+<p><strong>What it holds</strong></p>
+<p>Inputs from <code>newbrief.py</code>: <code>brief_corpus.jsonl</code> (the pre-week record), <code>brief_corpus.txt</code> (rendered, no triage windows), <code>CONTRACT.md</code>, <code>read_brief.py</code>, <code>cite.py</code>, <code>_manifest.json</code> (hashes of what was dispatched). Logs: <code>brief_corpus.queries.jsonl</code> (every <code>find</code>). In <code>out/</code>: <code>brief.md</code> (the brief), <code>_read.jsonl</code> (every service), <code>evidence.json</code> (the coverage receipt), <code>_transcript.jsonl</code> and <code>final_message.md</code> (the session), <code>_validation.json</code> (the check receipt), <code>validation.txt</code>.</p>
+<p><strong>Who writes it, and when</strong></p>
+<p><code>room.py brief</code> builds the directory; the brief writer writes <code>brief.md</code> and calls <code>evidence()</code>; the scheduler places the transcript and runs <code>room.py check --brief</code>, which writes <code>_validation.json</code> with a digest over the checked files. Who writes <code>validation.txt</code> is not stated in the sources.</p>
+<p><strong>Why it exists</strong></p>
+<p>The brief is the coder's step 1: a description of the ordinary week "for orientation", "never evidence". The receipt makes the brief's coverage visible. <code>room.py run</code> refuses to build until the receipt is current and passing.</p>
+<p><strong>Where</strong></p>
+<p><code>brief/</code> inside each room's materials archive; the brief is also copied to <code>run/brief.md</code>.</p>
+<p>Checked against: newbrief.py, read_brief.py, _tools/room.py, CONTRACT-brief-writer.v32.md, CONTRACT.v32.md §4</p>
+</body>
+</html>

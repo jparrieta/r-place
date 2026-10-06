@@ -1,0 +1,1 @@
+r/sadboys — branch B; verdict: full. Thematic saturation was not reached before the final slice, which introduced new practices. Record saturation remains limited by removed text, slice boundaries, later replies, and unseen Discord activity. Blocked: nothing.

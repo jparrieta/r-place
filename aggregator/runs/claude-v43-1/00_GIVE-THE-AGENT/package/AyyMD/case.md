@@ -1,0 +1,71 @@
+## Chronology
+
+When the canvas opened, AyyMD was still using its ordinary petition and brand-rivalry idiom; its first visible event conduct recruited those forms rather than replacing them. At d0 03-31 19:52, `62nmwq` called on readers to type and “clean” AMD. The request became a petition to build an AMD logo in `62o2yb`, then a coordinated design at `(80,156)` in `62oddo`: `dfo2ypk` said to use “the 4 pixel vertical black line” as the A, while later turns chose a colour, cleared space, and supplied a final design. By d0 04-01 06:14, `62r2d5` celebrated a “Glorious AyyMD logo.” The episode from `62nmwq` to `62r2d5` lasted 10 hours 22 minutes.
+
+The room's own April Fools conduct ran alongside the canvas and was not the same practice. From d0 04-01 14:05, `62sw2u` used the approved-list format to make AMD “UNAPPROVED”; `dfpgpu0` later told a confused reader “you just got bamboozled.” A moderator in `62tdha` announced “ALL HAIL NVIDIA” and a move to “Nvidiayy,” while `dfp2e5f` asked for the missing Novideo CSS. These were reversals of the room's ordinary loyalties, not directions for pixels.
+
+From d1 04-01 16:43, the canvas work expanded beyond the first mark. `62tu9l` asked for help making an apparently untimed Ryzen drawing real; after it vanished, `dfp44rs` described the glitch as client-side. The same exchange considered multiple accounts and a TOR-based app, but does not show that the proposed accounts were used. Other threads tried AYY, Ryzen, Radeon and ATI designs, strengthened borders, repaired letters, and repeatedly called for backup. This stretch is drawn from both slice accounts; no single coder read it as one continuous week.
+
+Neighbour relations became explicit during that expansion. In `62vf6n`, a proposal to cooperate with Poland first met the claim in `dfpeevx` that cooperation was impossible after a declaration of war. Thirty-seven minutes later, the direct reply `dfpfw5x` reported: “Polish people spoke up and we have a truce … We will help you.” At d1 04-01 22:11, `62vwy0` announced a treaty with r/polska, asked AyyMD to keep its own logo alive, and told readers to repair the Polish flag. The visitor in `dfphboe` said maintaining the AMD logo was a priority; `dfphemn` answered “Thank you!” two minutes later.
+
+At the same time, defence against outsiders blurred into a long internal colour dispute. `62va4l` accused “Novidiots” of destroying other people's creations, but `dfpf73h` called the old-school-green change “AMD infighting.” In `62x14d`, another post said “NVIDIOTS ARE DESTROYING OUR BEAUTIFUL ART”; ten minutes later `dfppnic` described “a movement in our own ranks” toward OG green, and `dfpt902` later said, “I voted red but I guess consensus was green.” Slice 02 carried the same dispute forward: `62z5at` reported that more people had voted green, `dfqs2ty` said “the logo stays GREEN,” and `dfqve3d` agreed to help keep it green. That was acceptance by some participants, not a community-wide conversion: `637hjb` announced another red attempt at d2 04-03 15:29. The sequence from `62va4l` to `637hjb` lasted 42 hours 56 minutes and crosses the slice boundary.
+
+Placement closed at 2017-04-03 17:00 UTC. Eleven minutes later, `6384x5` petitioned to put r/place back up “TO FIX THE AMD LOGO.” The same thread moved from live placement to preservation: `dfs6ckt` called people to pxls.space at the old coordinates 1 hour 59 minutes after the post; `dfsfc99` began “a clean version of the place” after 4 hours 55 minutes; and `dft3y3j` later proposed asking r/thefinalclean to clean the surviving image. At d3 04-03 22:11, `63a27z` retrospectively approved Poland and claimed a personal truce; `dft43at` credited another truce with getting “the Ryzen plan going.” By the end of the window, the room had returned to ordinary approved-list play: `63etye` petitioned to add a Ford Ranger to the approved cars.
+
+## Relations — what set off what
+
+The record directly supports several local relations. `dfo2ypk` made an existing black line a design input by saying to use it “as the start of the A”; this is a stated construction choice, not an inference from timing.
+
+The vanished Ryzen in `dfp3t4c`—“now its gone”—received a direct explanation in `dfp44rs`: the glitch “seems to be client sided” with no server communication. That is a participant's technical explanation, not independently verified causation.
+
+The Polish sequence records a participant-described reversal. `dfpeevx` said a declaration of war prevented cooperation; the direct reply `dfpfw5x`, 37 minutes 45 seconds later, explicitly said Polish participants spoke up, a truce existed, and help would follow. The later cross-post `62zdru` recalled the bargain by saying the border was being reduced “like agreed,” 14 hours 18 minutes after the treaty post `62vwy0`. This supports continuity of the agreement, although it cannot establish what happened inside r/polska. [crosses 01|02]
+
+The colour poll produced a visible, limited answer. `dfqs2ty` closed the poll and insisted on green; the direct reply `dfqve3d`, 68 minutes later, said “Okay. I'll help keep it green.” This supports one person's compliance with the poll, not unanimous settlement. Later red calls therefore show continuing contrasting positions, not that the community first agreed and then collectively changed its mind.
+
+The shutdown is explicitly recalled in the restoration thread. `6384x5` asked to put r/place back up so the logo could be fixed; 1 hour 59 minutes later, the same author in `dfs6ckt` called the move to pxls.space an “EMERGENCY ANNOUNCEMENT” and reused the old coordinates. `dfsfc99` and `dft3y3j` then described clean-copy and cleanup work. Their order is observed, and their words link the later work to the finished canvas; the record does not show who chose the replacement site.
+
+Many other apparent links are only sequences. A post naming an attacker followed by a repair request does not prove the named group caused the damage, and reply adjacency in the forest does not by itself establish influence. In particular, the repeated Novideo claims are contradicted by participants naming votes and “our own ranks,” so the case supports disputed attribution rather than outsider causation.
+
+## Posts against comments
+
+[batch 01] Posts often simplify damage into an outside attack. `62x14d` says “NVIDIOTS ARE DESTROYING OUR BEAUTIFUL ART,” while its comment layer says “a movement in our own ranks” in `dfppnic` and later accepts that “consensus was green” in `dfpt902`. The descriptive contrast is: posts name an enemy; comments sometimes relocate the same visible change inside AyyMD's own colour argument.
+
+[batch 02] Posts continue to demand red—`6312y0` says “TURN IT RED,” and `632hvv` calls to “Make AMD Red Again.” Comments in `632ew8` instead close the poll in `dfqs2ty` and accept green in `dfqve3d`. These are competing positions voiced by different speakers, not evidence that AyyMD as a whole changed its mind.
+
+[batch 02] Poland receives similarly contrasting treatment. A post in `633evd` petitions to make Poland unapproved; its comment `dfrq3rd` says “We should fight back,” but the direct reply `dfrzhco` says that would not be good because things seem calm. Later `63a27z` approves Poland and credits a truce. This is a sequence of opposition, restraint, and retrospective credit, not proof of a single collective reversal.
+
+Across both batches, posts carry petitions, alarms, coordinates and public claims, while comments carry much of the practical correction: use the black line, alter a border, explain a glitch, honour the treaty, accept a poll, or repair by hand. That layer difference is descriptive. Where a commenter supplies an explanation—such as the client-side account in `dfp44rs`—it remains that participant's explanation unless another passage establishes the mechanism.
+
+## Counter-reading
+
+My one-sentence reading is that AyyMD recruited its familiar petitions, brand rivalry and joking register to build and preserve AMD-family logos, while neighbour bargains sustained the work and an internal colour disagreement was repeatedly mistaken for outside sabotage.
+
+Before searching, I specified the competing account this way: the colour changes followed a stable poll-backed agreement, and named outsiders rather than AyyMD's own disagreement drove the apparent damage. If my reading were wrong, the corpus should contain consistent acceptance of the vote and direct attributions to named outsiders without participants correcting those claims as infighting, voting, or old-logo advocacy.
+
+I searched the full record for its own terms around “infighting,” “our own ranks,” voting, poll closure, Novideo/Nvidiot claims, invasion and colour change, and read every returned item. The strongest contrary item is `dfqs2ty`: “there was a poll, the logo stays GREEN, and the poll stays CLOSED.” Its direct reply `dfqve3d` adds, “I'll help keep it green.” These passages require a qualification: the poll did settle the question for some participants and produced observable compliance.
+
+The strongest item preserving the original reading is `dfppnic`, which says the green move came from “our own ranks”; `dfpf73h` independently calls it “AMD infighting,” and `63333g` rebuts those who say green resulted from Nvidiots. Later, `dfqgx8k` still insists on red, `dfr2k8w` accepts green but disputes its shade, and `637hjb` announces another red attempt. The competing account therefore changes the reading from an entirely unresolved fight to a poll-backed but incomplete settlement. It does not support stable agreement across the room, and the search found accusations against outsiders but no consistent record tying the colour changes to them. Six relevant uncoded passages found in this test were added at step 5; context and ordinary hardware-joke hits were read but did not alter the case.
+
+## Saturation
+
+All 148 threads were disposed across two complete slices, but branch B deliberately gives up a single reader of the whole week. Each slice had one coder, so there is no agreement measure; the boundary is arbitrary, and relations crossing it are weaker than relations one reader followed directly. The forest makes sequence visible but does not turn adjacency into causation.
+
+Later material mostly repeated or extended practices already present in batch 01. Each theme's first batch was: “building and extending AMD-family logos” — batch 01; “keeping, repairing and preserving the logos” — batch 01; “choosing the logo's colours and trying to settle the fight” — batch 01; “naming attackers and rallying a fight back” — batch 01; “making, testing and honouring deals with neighbours” — batch 01; “trying glitches, extra accounts, bots and scripts” — batch 01; “using petitions and heretic calls to judge people and places” — batch 01; “pulling the subreddit's own April Fools switch” — batch 01; “celebrating and mourning what the canvas showed” — batch 01; “correcting sabotage claims and cooling fights” — batch 01; and the single-code “joking that Novideo will pay for their wall” — batch 01. Batch 02's clearest development was not a wholly new practice but a change inside keeping and repairing: after shutdown, live defence became clean-copy, replacement-canvas and cleanup work.
+
+The record is incomplete where images carry the design, deleted or removed bodies hide proposals, and coordination leaves Reddit. The strawpoll returns a result but not voters' reasons; the Discord, pxls.space and plastuer.com expose movement but not internal decisions or activity. Those are scoped limits, not evidence that nothing happened there. The surviving calls, replies, treaty language and post-close accounts are sufficient for the practices above, but not for a complete visual history or verified account of who changed pixels.
+
+## Selection
+
+The lead read `openings.md` before the gate and used it only to locate the room's week; it was not coded evidence. In branch B, the two fleet coders then triaged every assigned thread in corpus order and opened every thread whose window touched r/place or the room's own April Fools conduct. Threads naming pixels, coordinates, AMD/Ryzen/Radeon/ATI marks, colours, borders, attackers, neighbours, tools, preservation, or retrospective credit were coded. The room's own April Fools threads were also coded with notes separating them from the canvas. Ordinary hardware jokes, shopping, giveaways and approved-list petitions without event conduct were excluded.
+
+## Other communities named
+
+r/AMD and the unnamed “amd stock” group were asked for help; r/bluecorner and r/Skyshaper were attacked in the room's rivalry language. r/Poland was sometimes named as an attacker, while r/polska became the negotiated partner whose flag AyyMD was asked to repair. The “Vainglory guys” were approached about moving ATI. r/PCMR/r/pcmasterrace was both proposed as a target and named as an invader. These are AyyMD's descriptions; the corpus does not supply the other communities' accounts.
+
+Some work moved or partly moved away from Reddit. The strawpoll carried a colour decision and returned a result, but not its deliberation. An alliance Discord was explicitly invited, while its internal decisions are unseen. After shutdown, pxls.space received an emergency move at the old coordinates, plastuer.com was mentioned as another canvas, and r/thefinalclean was asked for cleanup help. Image designs on Imgur returned as participant descriptions, not as independently read visual evidence.
+
+## Absence
+
+Deleted and removed bodies conceal several opening proposals, including event threads whose surviving titles remain citable. Replies can show that a missing turn elicited a defence, treaty warning or correction, but they do not recover the missing words. Image-only submissions similarly leave participants' descriptions of progress, colour or damage without letting this account verify the picture itself.
+
+Off-platform absence is specific: poll voters and reasons, Discord discussion, replacement-canvas activity, and other communities' negotiations cannot be seen. The search also returned ordinary or pre-window Novideo jokes whose vocabulary resembled the case but whose conduct did not concern the canvas; those results limit keyword inference and were not treated as event evidence.

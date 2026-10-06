@@ -1,0 +1,56 @@
+# lexicon — r/australia
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Annual Clive Palmer Day — dfnli5l
+- AUS flag — 62nmfz
+- blue corner — dfo2d5h
+- Clives — 62nx9z
+- dog on grog — 62l27h
+- Soggy as a Doggy — dfocvt9
+- Clive mind hive — dfoe0db
+- laser kiwi — dfod619
+- Reddit Ashes — dfog00e
+- Commonwealth Star — dfonq2c
+- Gamma Crucis — dfotfwb
+- Delta Crucis — dfotfwb
+- STRAYA — dforvys
+- Federation Flag — dfooehn
+- roo — dfoptya
+- Read Worm — dfor8vg
+- roach — dfork8s
+- styleguide — dforape
+- ANZAC Sign — dfott36
+- Straya cunts — dfot4sq
+- CONTS — dfotccf
+- Quirlies — 62s23y
+- rainbow mob — dfq0skc
+- kangaroo-redditalien — 62s5fh
+- Cockroach — 62sbhh
+- Flag Alliance — dfpjmlm
+- Bunnings logo — dfq16uh
+- Emu Export can — dfq2rd8
+- advanced warfare — dfpkjbg
+- Aussie Kangaroo — 62xcl5
+- Steve Irwin build — dfpzwd9
+- MACCAS — dfq5hwj
+- choomah — dfpykb4
+- the void — 62y9ls
+- Yeah The Boys — dfq37b4
+- black fella flag — dfq3e6h
+- ANZAC PRIDE — dfq63xd
+- Bunnings snags — dfqykno
+- white anted — dfqykno
+- red back — dfrjual
+- Noice Garrry — dfrkbbc
+- Shantae — dfq7us5
+- Federation Star — dfqk6au
+- strayan flag — 6336fr
+- green lattice — 633ejy
+- Sassy — 633jpf
+- Snek — dfrcqu4
+- purple corner — dfrcqu4
+- fruity lexia — 635gxm
+- Ned Kelly's helmet — dfrtsmy
+- Vegemite jar — dfrtsmy
+- green dots — dft2dad

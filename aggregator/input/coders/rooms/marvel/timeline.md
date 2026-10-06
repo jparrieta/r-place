@@ -1,0 +1,42 @@
+# timeline — r/marvel
+
+Facts only: stickies, moderator posts, edits, with times and item ids. One line each, in time order. Started by the case lead from the brief; extended by each coder.
+
+- d0 03-31 18:06 — moderator u/sethbenw asked the poster to pause after four video-game clip posts in 24 hours and let the existing posts play out (`dfnrmko`).
+- d0 04-01 13:09 — u/Abscess2's long criticism of another Spider-Man film was marked edited (`dfovnm5`).
+- d0 04-01 13:21 — u/The7thflare's question identifying a casting story as possible April Fools material was marked edited (`dfow0ko`).
+- d0 04-01 13:44 — u/magicwhistle's objection to a diversity-sales joke was marked edited (`dfowqd3`).
+- d0 04-01 14:10 — u/TheJollyTrout's comment calling the casting story an obvious April Fools item was marked edited (`dfoxlvo`).
+- d0 04-01 15:04 — r/marvel's AutoModerator redirected a Venom recommendation request to the recommended-reading page (`dfozmjt`).
+- d0 04-01 15:30 — r/marvel's AutoModerator redirected another Venom recommendation request to the recommended-reading page (`dfp0pa2`).
+- d1 04-01 16:08 — u/goofydos's explanation of why they liked a Spider-Man image was marked edited (`dfp2c84`).
+- d1 04-01 17:55 — u/CptnAustralia's response treating the casting story as an obvious April Fools joke was marked edited (`dfp6rpw`).
+- d1 04-02 00:50 — u/lancethundershaft's Inhumans reading list was marked edited (`dfpncee`).
+- d1 04-02 02:36 — u/Withyhydra's post about Marvel's treatment of diversity was marked edited (`62xax4`).
+- d1 04-02 03:25 — u/CptnAustralia's reply about successor characters and representation was marked edited (`dfpt21q`).
+- d1 04-02 04:55 — u/iamdusk02's comparison of three Venom statues was marked edited (`dfpvx76`).
+- d1 04-02 07:12 — u/tony1grendel's post praising new Marvel characters was marked edited (`62ye2r`).
+- d1 04-02 08:52 — u/Nejfelt's reply questioning the creativity of derivative characters was marked edited (`dfq17uv`).
+- d1 04-02 13:48 — u/WhiteyManta's reply about discrimination stories and established characters was marked edited (`dfq7355`).
+- d2 04-02 18:41 — r/marvel's AutoModerator removed a teaser-trailer post from an account less than one day old and directed the poster to the subreddit rules (`dfqjdyo`).
+- d2 04-02 18:54 — u/Man_of_Sin's explanation of a film-trailer joke was marked edited (`dfqjzp0`).
+- d2 04-03 01:00 — r/marvel's AutoModerator redirected an X-Men recommendation request to the recommended-reading page (`dfr0z2s`).
+- d2 04-03 02:31 — u/KingofMadCows's comment about the film *Logan* was marked edited (`dfr5js8`).
+- d2 04-03 09:38 — u/TheWizard01's question about the origin of an Ant-Man image was marked edited (`dfriw7b`).
+- d2 04-03 10:22 — u/WhiteyManta's reply about race changes in superhero casting was marked edited (`dfrjrhc`).
+- d2 04-03 12:46 — u/cyclops-was-right's recommendation of Matt Fraction's X-Men run was marked edited (`dfrnmdp`).
+- d2 04-03 13:48 — u/CaptainDawn's reply about introducing legacy characters and writers was marked edited (`dfrq0wp`).
+- d2 04-03 14:07 — u/Bweryang's reply about replacing established characters was marked edited (`dfrqwgl`).
+- d2 04-03 15:29 — u/dance_ninja's Iron Fist recommendation was marked edited (`dfruwfl`).
+- d2 04-03 15:55 — u/Djlynch2009's note identifying one Avengers cover was marked edited (`dfrw8ij`).
+- d3 04-03 16:44 — u/ChrisDrake's post asking about an old Marvel style guide was marked edited (`637yx1`).
+- d3 04-03 16:51 — u/Djlynch2009's follow-up identifying the Avengers run and artist was marked edited (`dfrz0fq`).
+- d3 04-03 17:17 — u/CantBeFriggingSirius's comment about legacy characters, race, and gender was marked edited (`dfs0d99`).
+- d3 04-03 18:42 — u/TheRear1961's Wanda and Pietro reading recommendations were marked edited (`dfs4vjj`).
+- d3 04-03 23:10 — u/groot4president2k16's Captain Marvel recommendation was marked edited (`dfsij3y`).
+- d3 04-04 01:12 — u/KingofMadCows's criticism of the Bride of Nine Spiders adaptation was marked edited (`dfsoivx`).
+- d3 04-04 11:00 — u/starchyvsthemusic's request for help reducing a Marvel comics pull list was marked edited (`63demh`).
+- d3 04-04 13:24 — u/AlPAJay717's proposal for a Marvel "Mirror-verse" was marked edited (`63e2nw`).
+- d3 04-04 13:26 — u/Riluske's post asking about enthusiasm for *Secret Empire* was marked edited (`63e332`).
+- d3 04-04 14:35 — u/kaimason1's Marvel Unlimited release discussion was marked edited (`63egvd`).
+- d3 04-04 14:56 — u/[deleted]'s question about current canon was marked edited (`63el6k`).

@@ -1,0 +1,1 @@
+r/factorio — branch B; verdict: full. Practice saturation: active-event practices repeated late, while closure introduced retrospective and replacement-canvas practices. Evidence saturation: removals, off-platform coordination, and unseen images/pixels leave genuine gaps. Blockers: none.

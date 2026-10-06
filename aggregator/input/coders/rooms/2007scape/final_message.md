@@ -1,0 +1,1 @@
+r/2007scape — verdict: **full**. First-order coding did not saturate before the final slice; counter-reading added a late code. Thematically, later slices introduced accounting, preservation, and successor-canvas practices rather than only repetition. Nothing blocked completion.

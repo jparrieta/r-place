@@ -1,0 +1,1 @@
+r/unturned — branch B; verdict: full. Analytic saturation: later material repeated core repair and negotiation practices while adding crowding, automation disputes, and post-event closure. Record saturation: complete census, limited by removals, unseen images, Discord, and split-slice reading. Nothing blocked.

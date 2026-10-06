@@ -1,0 +1,123 @@
+{
+ "instrument": "v30",
+ "sub": "anaheimducks",
+ "branch": "B",
+ "threshold": 500,
+ "budget_items": 500,
+ "floor_items": 25,
+ "items_in_window": 716,
+ "items_by_people": 707,
+ "chars_by_people": 85073,
+ "threads": 41,
+ "decided_utc": "2026-09-07T22:37:11Z",
+ "rule": "branch B when items_in_window > threshold; slices are whole threads in corpus order, at most budget_items in-window items each, a larger thread a slice by itself, a slice under floor_items folded into its neighbour",
+ "slices": [
+  {
+   "batch": "01",
+   "first_thread": "62mked",
+   "last_thread": "634hvj",
+   "n_threads": 32,
+   "items_in_window": 474,
+   "chars_in_window": 55549,
+   "start_utc": 1490980652,
+   "last_opening_utc": 1491192494,
+   "last_item_utc": 1491373755,
+   "start_hour": 1.29,
+   "last_opening_hour": 60.14,
+   "threads": [
+    "62mked",
+    "62mki1",
+    "62hns7",
+    "62mq2t",
+    "62c811",
+    "62o65v",
+    "62p331",
+    "62rej9",
+    "62sm9d",
+    "62sxtc",
+    "62g71t",
+    "62u545",
+    "62ue35",
+    "62uize",
+    "62uqag",
+    "62w2rg",
+    "62xt5p",
+    "62xvpx",
+    "62y9jk",
+    "62yf78",
+    "62zpiz",
+    "62zyj3",
+    "630xqe",
+    "6317xf",
+    "6333pz",
+    "6333te",
+    "633qq6",
+    "63442m",
+    "634632",
+    "634hqz",
+    "634htg",
+    "634hvj"
+   ]
+  },
+  {
+   "batch": "02",
+   "first_thread": "634tn9",
+   "last_thread": "63ey2s",
+   "n_threads": 9,
+   "items_in_window": 242,
+   "chars_in_window": 29338,
+   "start_utc": 1491196957,
+   "last_opening_utc": 1491321130,
+   "last_item_utc": 1491368560,
+   "start_hour": 61.38,
+   "last_opening_hour": 95.87,
+   "threads": [
+    "634tn9",
+    "6384wg",
+    "63863e",
+    "638ek7",
+    "638w6n",
+    "63ai06",
+    "63c1xh",
+    "63ebek",
+    "63ey2s"
+   ]
+  }
+ ],
+ "coders": [
+  {
+   "batch": "01",
+   "model": "gpt-5.6-sol",
+   "dispatched_utc": "2026-09-07T22:37:42Z",
+   "run_dir": "fleet/batch_01",
+   "code_id_start": 1,
+   "pointer_id_start": 1,
+   "context_openings": 0,
+   "instrument_fingerprint": "e895de451c0cfc1d",
+   "collected_utc": "2026-09-07T22:52:00Z",
+   "codes": 68
+  },
+  {
+   "batch": "02",
+   "model": "gpt-5.6-sol",
+   "dispatched_utc": "2026-09-07T22:53:04Z",
+   "run_dir": "fleet/batch_02",
+   "code_id_start": 69,
+   "pointer_id_start": 9,
+   "context_openings": 8,
+   "instrument_fingerprint": "e895de451c0cfc1d",
+   "collected_utc": "2026-09-07T23:02:19Z",
+   "codes": 26
+  }
+ ],
+ "consolidated_utc": "2026-09-07T23:03:34Z",
+ "pool": {
+  "codes": 94,
+  "threads": 41,
+  "pointers": 11,
+  "batches": [
+   "01",
+   "02"
+  ]
+ }
+}

@@ -1,0 +1,1 @@
+r/pebble — branch B; verdict: full. Practice saturation: the later slice added no new event practice. Record saturation: deleted bodies and unseen linked images limit completeness. Nothing blocked completion.

@@ -1,0 +1,3041 @@
+{
+ "ChronoTrigger": {
+  "counts": {
+   "threads_given": 45,
+   "threads_with_codes": 45,
+   "items": 336,
+   "coded": 93,
+   "bridge": 34,
+   "removed": 0,
+   "dropped": 209,
+   "orphans": 0,
+   "na_stretches": 74,
+   "coverage_of_coded_items": 0.53,
+   "threads_total_in_window": 52
+  },
+  "index": {
+   "62nw3a": {
+    "0": {
+     "thread_id": "62nw3a",
+     "item_id": "62nw3a",
+     "parent_id": null,
+     "author": "newgirlie",
+     "created_utc": 1490992204,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "announcing where Crono is on r/place"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 63,
+      "retrieved_on": 1492476195
+     }
+    },
+    "1": {
+     "thread_id": "62nw3a",
+     "item_id": "dfo5qwu",
+     "parent_id": "62nw3a",
+     "author": "ReeseEseer",
+     "created_utc": 1491000283,
+     "dt_parent_sec": 8079,
+     "dt_thread_sec": 8079,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1491956834
+     }
+    },
+    "1.1": {
+     "thread_id": "62nw3a",
+     "item_id": "dfo78xo",
+     "parent_id": "dfo5qwu",
+     "author": "newgirlie",
+     "created_utc": 1491002306,
+     "dt_parent_sec": 2023,
+     "dt_thread_sec": 10102,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "starting Frog at 168, 481"
+     ],
+     "sequence": [
+      "na",
+      "c0002",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "edited": 1491005421,
+      "score": 5,
+      "retrieved_on": 1491957558
+     }
+    },
+    "2": {
+     "thread_id": "62nw3a",
+     "item_id": "dfoca4a",
+     "parent_id": "62nw3a",
+     "author": "jontheboss",
+     "created_utc": 1491009299,
+     "dt_parent_sec": 17095,
+     "dt_thread_sec": 17095,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "moving Chrono communication to the main thread"
+     ],
+     "sequence": [
+      "c0003",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "edited": 1491071119,
+      "score": 3,
+      "retrieved_on": 1493695046
+     }
+    },
+    "3": {
+     "thread_id": "62nw3a",
+     "item_id": "dfoumdw",
+     "parent_id": "62nw3a",
+     "author": "ERIKER1",
+     "created_utc": 1491049881,
+     "dt_parent_sec": 57677,
+     "dt_thread_sec": 57677,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "starting a color coordination comment thread"
+     ],
+     "sequence": [
+      "c0004",
+      "na"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493703901
+     }
+    }
+   },
+   "62qyyl": {
+    "0": {
+     "thread_id": "62qyyl",
+     "item_id": "62qyyl",
+     "parent_id": null,
+     "author": "Gwuc",
+     "created_utc": 1491025861,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 144,
+      "retrieved_on": 1492478468
+     }
+    },
+    "1": {
+     "thread_id": "62qyyl",
+     "item_id": "dfop6yi",
+     "parent_id": "62qyyl",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491033218,
+     "dt_parent_sec": 7357,
+     "dt_thread_sec": 7357,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "being proud and guarding the art from vandals"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 9,
+      "retrieved_on": 1493701284
+     }
+    },
+    "2": {
+     "thread_id": "62qyyl",
+     "item_id": "dfop7bz",
+     "parent_id": "62qyyl",
+     "author": "AbeTheMighty",
+     "created_utc": 1491033248,
+     "dt_parent_sec": 7387,
+     "dt_thread_sec": 7387,
+     "state": "coded",
+     "code_ids": [
+      "c0006"
+     ],
+     "labels": [
+      "calling for help against the encroaching road"
+     ],
+     "sequence": [
+      "c0006",
+      "na"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 15,
+      "retrieved_on": 1493701289
+     }
+    },
+    "2.1": {
+     "thread_id": "62qyyl",
+     "item_id": "dfop9op",
+     "parent_id": "dfop7bz",
+     "author": "Destinyspire",
+     "created_utc": 1491033444,
+     "dt_parent_sec": 196,
+     "dt_thread_sec": 7583,
+     "state": "coded",
+     "code_ids": [
+      "c0007"
+     ],
+     "labels": [
+      "warning that trolls are using the flag's colours"
+     ],
+     "sequence": [
+      "c0007"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1493701320
+     }
+    },
+    "2.2": {
+     "thread_id": "62qyyl",
+     "item_id": "dfopblr",
+     "parent_id": "dfop7bz",
+     "author": "lousypencilclip",
+     "created_utc": 1491033605,
+     "dt_parent_sec": 357,
+     "dt_thread_sec": 7744,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491033710,
+      "score": 22,
+      "retrieved_on": 1493701345
+     }
+    },
+    "2.2.1": {
+     "thread_id": "62qyyl",
+     "item_id": "dfopd82",
+     "parent_id": "dfopblr",
+     "author": "AbeTheMighty",
+     "created_utc": 1491033739,
+     "dt_parent_sec": 134,
+     "dt_thread_sec": 7878,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "answering the warning with solidarity"
+     ],
+     "sequence": [
+      "na",
+      "c0008"
+     ],
+     "coverage": 0.44,
+     "meta": {
+      "score": 14,
+      "retrieved_on": 1493701368
+     }
+    },
+    "3": {
+     "thread_id": "62qyyl",
+     "item_id": "dfot5wf",
+     "parent_id": "62qyyl",
+     "author": "ERIKER1",
+     "created_utc": 1491046084,
+     "dt_parent_sec": 20223,
+     "dt_thread_sec": 20223,
+     "state": "coded",
+     "code_ids": [
+      "c0009"
+     ],
+     "labels": [
+      "coordinating colours"
+     ],
+     "sequence": [
+      "na",
+      "c0009",
+      "na"
+     ],
+     "coverage": 0.02,
+     "meta": {
+      "edited": 1491049464,
+      "score": 2,
+      "retrieved_on": 1493703198
+     }
+    },
+    "4": {
+     "thread_id": "62qyyl",
+     "item_id": "dfoxopn",
+     "parent_id": "62qyyl",
+     "author": "AbeTheMighty",
+     "created_utc": 1491055934,
+     "dt_parent_sec": 30073,
+     "dt_thread_sec": 30073,
+     "state": "coded",
+     "code_ids": [
+      "c0010"
+     ],
+     "labels": [
+      "saying they are holding the trolls at bay"
+     ],
+     "sequence": [
+      "c0010",
+      "na"
+     ],
+     "coverage": 0.46,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493705375
+     }
+    }
+   },
+   "62rfho": {
+    "0": {
+     "thread_id": "62rfho",
+     "item_id": "62rfho",
+     "parent_id": null,
+     "author": "Destinyspire",
+     "created_utc": 1491033327,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0011"
+     ],
+     "labels": [
+      "warning that 4chan trolls are attacking both artworks"
+     ],
+     "sequence": [
+      "na",
+      "c0011",
+      "na"
+     ],
+     "coverage": 0.52,
+     "meta": {
+      "score": 36,
+      "retrieved_on": 1494548682
+     }
+    },
+    "1": {
+     "thread_id": "62rfho",
+     "item_id": "dfoplcm",
+     "parent_id": "62rfho",
+     "author": "Crimson_Raven",
+     "created_utc": 1491034433,
+     "dt_parent_sec": 1106,
+     "dt_thread_sec": 1106,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "joining the defense and urging everyone on"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "retrieved_on": 1493701475
+     }
+    }
+   },
+   "62roez": {
+    "0": {
+     "thread_id": "62roez",
+     "item_id": "62roez",
+     "parent_id": null,
+     "author": "One-PUNCHCAT",
+     "created_utc": 1491037809,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "focusing the defense on preserving Crono's head"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494548806
+     }
+    },
+    "1": {
+     "thread_id": "62roez",
+     "item_id": "dforr93",
+     "parent_id": "62roez",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491041498,
+     "dt_parent_sec": 3689,
+     "dt_thread_sec": 3689,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493702520
+     }
+    },
+    "1.1": {
+     "thread_id": "62roez",
+     "item_id": "dfos9nj",
+     "parent_id": "dforr93",
+     "author": "One-PUNCHCAT",
+     "created_utc": 1491043206,
+     "dt_parent_sec": 1708,
+     "dt_thread_sec": 5397,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "suggesting the old screenshot as the guide"
+     ],
+     "sequence": [
+      "c0014",
+      "na"
+     ],
+     "coverage": 0.11,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493702766
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62roez",
+     "item_id": "dfosfyk",
+     "parent_id": "dfos9nj",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491043785,
+     "dt_parent_sec": 579,
+     "dt_thread_sec": 5976,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "keeping people on the exact same image"
+     ],
+     "sequence": [
+      "na",
+      "c0015"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493702850
+     }
+    }
+   },
+   "62u8pa": {
+    "0": {
+     "thread_id": "62u8pa",
+     "item_id": "62u8pa",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491068755,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "joining in to turn back Marle's nudity"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 0.92,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1494550085
+     }
+    },
+    "1": {
+     "thread_id": "62u8pa",
+     "item_id": "dfp8ghv",
+     "parent_id": "62u8pa",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491071760,
+     "dt_parent_sec": 3005,
+     "dt_thread_sec": 3005,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493710560
+     }
+    },
+    "1.1": {
+     "thread_id": "62u8pa",
+     "item_id": "dfp8zfg",
+     "parent_id": "dfp8ghv",
+     "author": "thiosk",
+     "created_utc": 1491072511,
+     "dt_parent_sec": 751,
+     "dt_thread_sec": 3756,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "thanking defenders when Marle looks repaired"
+     ],
+     "sequence": [
+      "c0017",
+      "na"
+     ],
+     "coverage": 0.16,
+     "meta": {
+      "edited": 1491074012,
+      "score": 1,
+      "retrieved_on": 1493710815
+     }
+    }
+   },
+   "62uob8": {
+    "0": {
+     "thread_id": "62uob8",
+     "item_id": "62uob8",
+     "parent_id": null,
+     "author": "cloud1720",
+     "created_utc": 1491072880,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "proposing Magus to the left of Frog"
+     ],
+     "sequence": [
+      "c0018",
+      "na"
+     ],
+     "coverage": 0.43,
+     "meta": {
+      "score": 26,
+      "retrieved_on": 1494550306
+     }
+    },
+    "1": {
+     "thread_id": "62uob8",
+     "item_id": "dfp9aql",
+     "parent_id": "62uob8",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491072976,
+     "dt_parent_sec": 96,
+     "dt_thread_sec": 96,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "putting fixing Marle before adding Magus"
+     ],
+     "sequence": [
+      "c0019",
+      "na"
+     ],
+     "coverage": 0.26,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493710967
+     }
+    },
+    "2": {
+     "thread_id": "62uob8",
+     "item_id": "dfprx5s",
+     "parent_id": "62uob8",
+     "author": "Kal-3L",
+     "created_utc": 1491101581,
+     "dt_parent_sec": 28701,
+     "dt_thread_sec": 28701,
+     "state": "coded",
+     "code_ids": [
+      "c0020"
+     ],
+     "labels": [
+      "actively working on Magus"
+     ],
+     "sequence": [
+      "c0020",
+      "na"
+     ],
+     "coverage": 0.23,
+     "meta": {
+      "edited": 1491120753,
+      "score": 6,
+      "retrieved_on": 1493719984
+     }
+    }
+   },
+   "62w2u5": {
+    "0": {
+     "thread_id": "62w2u5",
+     "item_id": "62w2u5",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491086411,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0021"
+     ],
+     "labels": [
+      "asking for help placing Crono's cat"
+     ],
+     "sequence": [
+      "c0021"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494551013
+     }
+    },
+    "1": {
+     "thread_id": "62w2u5",
+     "item_id": "dfpmwma",
+     "parent_id": "62w2u5",
+     "author": "danhm",
+     "created_utc": 1491093588,
+     "dt_parent_sec": 7177,
+     "dt_thread_sec": 7177,
+     "state": "coded",
+     "code_ids": [
+      "c0022"
+     ],
+     "labels": [
+      "making the cat with available grays"
+     ],
+     "sequence": [
+      "c0022",
+      "na"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "edited": 1491094222,
+      "score": 1,
+      "retrieved_on": 1493717555
+     }
+    }
+   },
+   "62wd0b": {
+    "0": {
+     "thread_id": "62wd0b",
+     "item_id": "62wd0b",
+     "parent_id": null,
+     "author": "Triadicarp",
+     "created_utc": 1491089509,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0023"
+     ],
+     "labels": [
+      "negotiating a route for Waldo's walking stick"
+     ],
+     "sequence": [
+      "na",
+      "c0023"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494551153
+     }
+    }
+   },
+   "62wfrx": {
+    "0": {
+     "thread_id": "62wfrx",
+     "item_id": "62wfrx",
+     "parent_id": null,
+     "author": "Gisarme",
+     "created_utc": 1491090377,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "calling for Lucca to complete the original gang"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 35,
+      "retrieved_on": 1494551191
+     }
+    },
+    "1": {
+     "thread_id": "62wfrx",
+     "item_id": "dfq4dhx",
+     "parent_id": "62wfrx",
+     "author": "CakeisaDie",
+     "created_utc": 1491134370,
+     "dt_parent_sec": 43993,
+     "dt_thread_sec": 43993,
+     "state": "coded",
+     "code_ids": [
+      "c0092"
+     ],
+     "labels": [
+      "proposing war with neighboring art to make room for Lucca"
+     ],
+     "sequence": [
+      "c0092"
+     ],
+     "coverage": 0.78,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1493725985
+     }
+    },
+    "1.1": {
+     "thread_id": "62wfrx",
+     "item_id": "dfqi8i3",
+     "parent_id": "dfq4dhx",
+     "author": "Ostrololo",
+     "created_utc": 1491157045,
+     "dt_parent_sec": 22675,
+     "dt_thread_sec": 66668,
+     "state": "coded",
+     "code_ids": [
+      "c0093"
+     ],
+     "labels": [
+      "proposing war with Lucario to make room for Lucca"
+     ],
+     "sequence": [
+      "na",
+      "c0093"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493732677
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62wfrx",
+     "item_id": "dfqiml4",
+     "parent_id": "dfqi8i3",
+     "author": "iX_eRay",
+     "created_utc": 1491157531,
+     "dt_parent_sec": 486,
+     "dt_thread_sec": 67154,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493732865
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "62wfrx",
+     "item_id": "dfqiolb",
+     "parent_id": "dfqiml4",
+     "author": "CakeisaDie",
+     "created_utc": 1491157600,
+     "dt_parent_sec": 69,
+     "dt_thread_sec": 67223,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493732892
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "62wfrx",
+     "item_id": "dfqja57",
+     "parent_id": "dfqiolb",
+     "author": "iX_eRay",
+     "created_utc": 1491158378,
+     "dt_parent_sec": 778,
+     "dt_thread_sec": 68001,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733188
+     }
+    },
+    "1.1.1.1.1.1": {
+     "thread_id": "62wfrx",
+     "item_id": "dfqjfsr",
+     "parent_id": "dfqja57",
+     "author": "CakeisaDie",
+     "created_utc": 1491158584,
+     "dt_parent_sec": 206,
+     "dt_thread_sec": 68207,
+     "state": "coded",
+     "code_ids": [
+      "c0025"
+     ],
+     "labels": [
+      "sending interested builders to Discord to discuss Lucca"
+     ],
+     "sequence": [
+      "na",
+      "c0025"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493733266
+     }
+    },
+    "2": {
+     "thread_id": "62wfrx",
+     "item_id": "dfqruja",
+     "parent_id": "62wfrx",
+     "author": "ski2read",
+     "created_utc": 1491169793,
+     "dt_parent_sec": 79416,
+     "dt_thread_sec": 79416,
+     "state": "coded",
+     "code_ids": [
+      "c0026"
+     ],
+     "labels": [
+      "working on a sitting Lucca"
+     ],
+     "sequence": [
+      "c0026",
+      "na"
+     ],
+     "coverage": 0.11,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493737566
+     }
+    }
+   },
+   "62wj3m": {
+    "0": {
+     "thread_id": "62wj3m",
+     "item_id": "62wj3m",
+     "parent_id": null,
+     "author": "AmadeusCrumb",
+     "created_utc": 1491091436,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "recruiting help for Crono's little cat"
+     ],
+     "sequence": [
+      "c0027",
+      "na"
+     ],
+     "coverage": 0.71,
+     "meta": {
+      "score": 11,
+      "retrieved_on": 1494551237
+     }
+    }
+   },
+   "62wm78": {
+    "0": {
+     "thread_id": "62wm78",
+     "item_id": "62wm78",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491092390,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "asking digital artists to help place the cat"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 0.57,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494551279
+     }
+    }
+   },
+   "62ymr6": {
+    "0": {
+     "thread_id": "62ymr6",
+     "item_id": "62ymr6",
+     "parent_id": null,
+     "author": "Choppergamer",
+     "created_utc": 1491121869,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "promising to help after finishing Zoro"
+     ],
+     "sequence": [
+      "na",
+      "c0029"
+     ],
+     "coverage": 0.51,
+     "meta": {
+      "score": 17,
+      "retrieved_on": 1494552286
+     }
+    },
+    "1": {
+     "thread_id": "62ymr6",
+     "item_id": "dfq1azj",
+     "parent_id": "62ymr6",
+     "author": "EmpressRoomba",
+     "created_utc": 1491123461,
+     "dt_parent_sec": 1592,
+     "dt_thread_sec": 1592,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "finding the subreddit and joining the fight"
+     ],
+     "sequence": [
+      "na",
+      "c0030"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493724506
+     }
+    }
+   },
+   "62yooj": {
+    "0": {
+     "thread_id": "62yooj",
+     "item_id": "62yooj",
+     "parent_id": null,
+     "author": "bennitori",
+     "created_utc": 1491122951,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0031"
+     ],
+     "labels": [
+      "asking for help after being outnumbered defending Marle"
+     ],
+     "sequence": [
+      "na",
+      "c0031",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 30,
+      "retrieved_on": 1494552313
+     }
+    },
+    "1": {
+     "thread_id": "62yooj",
+     "item_id": "dfq17xu",
+     "parent_id": "62yooj",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491123155,
+     "dt_parent_sec": 204,
+     "dt_thread_sec": 204,
+     "state": "coded",
+     "code_ids": [
+      "c0032"
+     ],
+     "labels": [
+      "directing defenders to work from the bottom upward"
+     ],
+     "sequence": [
+      "c0032"
+     ],
+     "coverage": 0.63,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493724466
+     }
+    },
+    "2": {
+     "thread_id": "62yooj",
+     "item_id": "dfq9kc4",
+     "parent_id": "62yooj",
+     "author": "imtheben",
+     "created_utc": 1491145303,
+     "dt_parent_sec": 22352,
+     "dt_thread_sec": 22352,
+     "state": "coded",
+     "code_ids": [
+      "c0033"
+     ],
+     "labels": [
+      "starting to help on seeing the Chrono characters"
+     ],
+     "sequence": [
+      "c0033",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493728493
+     }
+    },
+    "3": {
+     "thread_id": "62yooj",
+     "item_id": "dfrk2du",
+     "parent_id": "62yooj",
+     "author": "Greger34",
+     "created_utc": 1491215831,
+     "dt_parent_sec": 92880,
+     "dt_thread_sec": 92880,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493751815
+     }
+    },
+    "3.1": {
+     "thread_id": "62yooj",
+     "item_id": "dfrmo13",
+     "parent_id": "dfrk2du",
+     "author": "Z-4195",
+     "created_utc": 1491221840,
+     "dt_parent_sec": 6009,
+     "dt_thread_sec": 98889,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493753400
+     }
+    },
+    "3.1.1": {
+     "thread_id": "62yooj",
+     "item_id": "dfrmu76",
+     "parent_id": "dfrmo13",
+     "author": "Greger34",
+     "created_utc": 1491222167,
+     "dt_parent_sec": 327,
+     "dt_thread_sec": 99216,
+     "state": "coded",
+     "code_ids": [
+      "c0034"
+     ],
+     "labels": [
+      "saying the defacement stopped being funny"
+     ],
+     "sequence": [
+      "c0034"
+     ],
+     "coverage": 0.95,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493753484
+     }
+    }
+   },
+   "62yrhc": {
+    "0": {
+     "thread_id": "62yrhc",
+     "item_id": "62yrhc",
+     "parent_id": null,
+     "author": "Choppergamer",
+     "created_utc": 1491124522,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0035"
+     ],
+     "labels": [
+      "pleading for people to defend Marle"
+     ],
+     "sequence": [
+      "na",
+      "c0035",
+      "na"
+     ],
+     "coverage": 0.08,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494552352
+     }
+    },
+    "1": {
+     "thread_id": "62yrhc",
+     "item_id": "dfq20cm",
+     "parent_id": "62yrhc",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491126045,
+     "dt_parent_sec": 1523,
+     "dt_thread_sec": 1523,
+     "state": "coded",
+     "code_ids": [
+      "c0036"
+     ],
+     "labels": [
+      "reporting Marle nearly fixed"
+     ],
+     "sequence": [
+      "c0036",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493724847
+     }
+    }
+   },
+   "62z80m": {
+    "0": {
+     "thread_id": "62z80m",
+     "item_id": "62z80m",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491133428,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494552582
+     }
+    },
+    "1": {
+     "thread_id": "62z80m",
+     "item_id": "dfq5kr3",
+     "parent_id": "62z80m",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491137606,
+     "dt_parent_sec": 4178,
+     "dt_thread_sec": 4178,
+     "state": "coded",
+     "code_ids": [
+      "c0037"
+     ],
+     "labels": [
+      "putting fixing Marle before adding Lucca"
+     ],
+     "sequence": [
+      "c0037",
+      "na"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493726566
+     }
+    }
+   },
+   "62zirr": {
+    "0": {
+     "thread_id": "62zirr",
+     "item_id": "62zirr",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491138280,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494552731
+     }
+    },
+    "1": {
+     "thread_id": "62zirr",
+     "item_id": "dfq6cdc",
+     "parent_id": "62zirr",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491139369,
+     "dt_parent_sec": 1089,
+     "dt_thread_sec": 1089,
+     "state": "coded",
+     "code_ids": [
+      "c0038"
+     ],
+     "labels": [
+      "asking people to use existing threads"
+     ],
+     "sequence": [
+      "c0038"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493726942
+     }
+    }
+   },
+   "62zj9z": {
+    "0": {
+     "thread_id": "62zj9z",
+     "item_id": "62zj9z",
+     "parent_id": null,
+     "author": "sebnow",
+     "created_utc": 1491138501,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0039"
+     ],
+     "labels": [
+      "proposing an enemy behind Crono and Marle"
+     ],
+     "sequence": [
+      "c0039"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494552738
+     }
+    },
+    "1": {
+     "thread_id": "62zj9z",
+     "item_id": "dfq6ciq",
+     "parent_id": "62zj9z",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491139379,
+     "dt_parent_sec": 878,
+     "dt_thread_sec": 878,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493726944
+     }
+    },
+    "1.1": {
+     "thread_id": "62zj9z",
+     "item_id": "dfq7f09",
+     "parent_id": "dfq6ciq",
+     "author": "noctilurn",
+     "created_utc": 1491141580,
+     "dt_parent_sec": 2201,
+     "dt_thread_sec": 3079,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493727458
+     }
+    },
+    "1.1.1": {
+     "thread_id": "62zj9z",
+     "item_id": "dfq7gke",
+     "parent_id": "dfq7f09",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491141667,
+     "dt_parent_sec": 87,
+     "dt_thread_sec": 3166,
+     "state": "coded",
+     "code_ids": [
+      "c0040"
+     ],
+     "labels": [
+      "accepting cat changes if they distract trolls"
+     ],
+     "sequence": [
+      "c0040",
+      "na"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493727479
+     }
+    }
+   },
+   "630vfp": {
+    "0": {
+     "thread_id": "630vfp",
+     "item_id": "630vfp",
+     "parent_id": null,
+     "author": "AmadeusCrumb",
+     "created_utc": 1491153583,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0041"
+     ],
+     "labels": [
+      "thanking everyone who built the kitties"
+     ],
+     "sequence": [
+      "c0041"
+     ],
+     "coverage": 0.91,
+     "meta": {
+      "score": 17,
+      "retrieved_on": 1494553408
+     }
+    },
+    "1": {
+     "thread_id": "630vfp",
+     "item_id": "dfqgst9",
+     "parent_id": "630vfp",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491155211,
+     "dt_parent_sec": 1628,
+     "dt_thread_sec": 1628,
+     "state": "coded",
+     "code_ids": [
+      "c0042"
+     ],
+     "labels": [
+      "asking what to build after repairs"
+     ],
+     "sequence": [
+      "c0042"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493731983
+     }
+    },
+    "2": {
+     "thread_id": "630vfp",
+     "item_id": "dfqlwqk",
+     "parent_id": "630vfp",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491161748,
+     "dt_parent_sec": 8165,
+     "dt_thread_sec": 8165,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491164275,
+      "score": 1,
+      "retrieved_on": 1493734458
+     }
+    },
+    "2.1": {
+     "thread_id": "630vfp",
+     "item_id": "dfqng0k",
+     "parent_id": "dfqlwqk",
+     "author": "iX_eRay",
+     "created_utc": 1491163824,
+     "dt_parent_sec": 2076,
+     "dt_thread_sec": 10241,
+     "state": "coded",
+     "code_ids": [
+      "c0043"
+     ],
+     "labels": [
+      "bringing a sitting sprite back from Discord"
+     ],
+     "sequence": [
+      "c0043"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493735196
+     }
+    }
+   },
+   "631llp": {
+    "0": {
+     "thread_id": "631llp",
+     "item_id": "631llp",
+     "parent_id": null,
+     "author": "BlackSpade741",
+     "created_utc": 1491160640,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0044"
+     ],
+     "labels": [
+      "asking for a no-defacement agreement with Muse"
+     ],
+     "sequence": [
+      "c0044",
+      "na"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "score": 25,
+      "retrieved_on": 1494553785
+     }
+    },
+    "1": {
+     "thread_id": "631llp",
+     "item_id": "dfqrol5",
+     "parent_id": "631llp",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491169588,
+     "dt_parent_sec": 8948,
+     "dt_thread_sec": 8948,
+     "state": "coded",
+     "code_ids": [
+      "c0045"
+     ],
+     "labels": [
+      "accepting the arrangement with Muse"
+     ],
+     "sequence": [
+      "c0045"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493737486
+     }
+    }
+   },
+   "6323je": {
+    "0": {
+     "thread_id": "6323je",
+     "item_id": "6323je",
+     "parent_id": null,
+     "author": "tyrerk",
+     "created_utc": 1491165597,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0046"
+     ],
+     "labels": [
+      "asking whether to replace Lucario"
+     ],
+     "sequence": [
+      "c0046"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494554048
+     }
+    },
+    "1": {
+     "thread_id": "6323je",
+     "item_id": "dfqqarz",
+     "parent_id": "6323je",
+     "author": "[deleted]",
+     "created_utc": 1491167820,
+     "dt_parent_sec": 2223,
+     "dt_thread_sec": 2223,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493736752
+     }
+    },
+    "1.1": {
+     "thread_id": "6323je",
+     "item_id": "dfr2q55",
+     "parent_id": "dfqqarz",
+     "author": "ski2read",
+     "created_utc": 1491183315,
+     "dt_parent_sec": 15495,
+     "dt_thread_sec": 17718,
+     "state": "coded",
+     "code_ids": [
+      "c0047"
+     ],
+     "labels": [
+      "answering with the Robo already underway"
+     ],
+     "sequence": [
+      "c0047",
+      "na"
+     ],
+     "coverage": 0.22,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493742839
+     }
+    }
+   },
+   "632kja": {
+    "0": {
+     "thread_id": "632kja",
+     "item_id": "632kja",
+     "parent_id": null,
+     "author": "TravisB5643",
+     "created_utc": 1491170477,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0048"
+     ],
+     "labels": [
+      "showing the sitting Lucca plan"
+     ],
+     "sequence": [
+      "c0048"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 25,
+      "retrieved_on": 1494554296
+     }
+    },
+    "1": {
+     "thread_id": "632kja",
+     "item_id": "dfqv1av",
+     "parent_id": "632kja",
+     "author": "TryHarderino",
+     "created_utc": 1491173738,
+     "dt_parent_sec": 3261,
+     "dt_thread_sec": 3261,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739105
+     }
+    },
+    "1.1": {
+     "thread_id": "632kja",
+     "item_id": "dfqvorz",
+     "parent_id": "dfqv1av",
+     "author": "ski2read",
+     "created_utc": 1491174566,
+     "dt_parent_sec": 828,
+     "dt_thread_sec": 4089,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739436
+     }
+    },
+    "1.1.1": {
+     "thread_id": "632kja",
+     "item_id": "dfqw8f4",
+     "parent_id": "dfqvorz",
+     "author": "TryHarderino",
+     "created_utc": 1491175268,
+     "dt_parent_sec": 702,
+     "dt_thread_sec": 4791,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739700
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "632kja",
+     "item_id": "dfqwlc7",
+     "parent_id": "dfqw8f4",
+     "author": "ski2read",
+     "created_utc": 1491175742,
+     "dt_parent_sec": 474,
+     "dt_thread_sec": 5265,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493739877
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "632kja",
+     "item_id": "dfqx5pf",
+     "parent_id": "dfqwlc7",
+     "author": "TryHarderino",
+     "created_utc": 1491176451,
+     "dt_parent_sec": 709,
+     "dt_thread_sec": 5974,
+     "state": "coded",
+     "code_ids": [
+      "c0091"
+     ],
+     "labels": [
+      "wasting all my pixels on nothing after seeing a stale canvas"
+     ],
+     "sequence": [
+      "c0091"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493740151
+     }
+    },
+    "2": {
+     "thread_id": "632kja",
+     "item_id": "dfqxzsf",
+     "parent_id": "632kja",
+     "author": "ski2read",
+     "created_utc": 1491177499,
+     "dt_parent_sec": 7022,
+     "dt_thread_sec": 7022,
+     "state": "coded",
+     "code_ids": [
+      "c0049"
+     ],
+     "labels": [
+      "working within an agreement with the 76ers"
+     ],
+     "sequence": [
+      "c0049",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493740557
+     }
+    },
+    "2.1": {
+     "thread_id": "632kja",
+     "item_id": "dfqyte1",
+     "parent_id": "dfqxzsf",
+     "author": "douglesman",
+     "created_utc": 1491178568,
+     "dt_parent_sec": 1069,
+     "dt_thread_sec": 8091,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "edited": 1491179283,
+      "score": 5,
+      "retrieved_on": 1493740952
+     }
+    },
+    "2.1.1": {
+     "thread_id": "632kja",
+     "item_id": "dfqzv7c",
+     "parent_id": "dfqyte1",
+     "author": "ski2read",
+     "created_utc": 1491179885,
+     "dt_parent_sec": 1317,
+     "dt_thread_sec": 9408,
+     "state": "coded",
+     "code_ids": [
+      "c0050"
+     ],
+     "labels": [
+      "reporting that the 76ers approved the overlap"
+     ],
+     "sequence": [
+      "na",
+      "c0050",
+      "na"
+     ],
+     "coverage": 0.04,
+     "meta": {
+      "edited": 1491183133,
+      "score": 3,
+      "retrieved_on": 1493741459
+     }
+    }
+   },
+   "632taf": {
+    "0": {
+     "thread_id": "632taf",
+     "item_id": "632taf",
+     "parent_id": null,
+     "author": "ski2read",
+     "created_utc": 1491172997,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0051"
+     ],
+     "labels": [
+      "collecting reference images for r/place"
+     ],
+     "sequence": [
+      "c0051",
+      "na"
+     ],
+     "coverage": 0.01,
+     "meta": {
+      "edited": 1491234347,
+      "score": 23,
+      "retrieved_on": 1494554428
+     }
+    },
+    "1": {
+     "thread_id": "632taf",
+     "item_id": "dfr3991",
+     "parent_id": "632taf",
+     "author": "ravenouscraving",
+     "created_utc": 1491183923,
+     "dt_parent_sec": 10926,
+     "dt_thread_sec": 10926,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493743095
+     }
+    },
+    "1.1": {
+     "thread_id": "632taf",
+     "item_id": "dfr5m6l",
+     "parent_id": "dfr3991",
+     "author": "tyrerk",
+     "created_utc": 1491186776,
+     "dt_parent_sec": 2853,
+     "dt_thread_sec": 13779,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493744239
+     }
+    },
+    "1.1.1": {
+     "thread_id": "632taf",
+     "item_id": "dfr6gac",
+     "parent_id": "dfr5m6l",
+     "author": "ski2read",
+     "created_utc": 1491187740,
+     "dt_parent_sec": 964,
+     "dt_thread_sec": 14743,
+     "state": "coded",
+     "code_ids": [
+      "c0052"
+     ],
+     "labels": [
+      "building Robo while maintaining the existing art"
+     ],
+     "sequence": [
+      "na",
+      "c0052"
+     ],
+     "coverage": 0.37,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493744641
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "632taf",
+     "item_id": "dfrarw6",
+     "parent_id": "dfr6gac",
+     "author": "finding-my-fuel",
+     "created_utc": 1491193234,
+     "dt_parent_sec": 5494,
+     "dt_thread_sec": 20237,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493746769
+     }
+    },
+    "1.1.1.1.1": {
+     "thread_id": "632taf",
+     "item_id": "dfrb998",
+     "parent_id": "dfrarw6",
+     "author": "CakeisaDie",
+     "created_utc": 1491194002,
+     "dt_parent_sec": 768,
+     "dt_thread_sec": 21005,
+     "state": "coded",
+     "code_ids": [
+      "c0053"
+     ],
+     "labels": [
+      "moving Ayla to share five cells with the cat"
+     ],
+     "sequence": [
+      "c0053"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493747001
+     }
+    }
+   },
+   "633ibx": {
+    "0": {
+     "thread_id": "633ibx",
+     "item_id": "633ibx",
+     "parent_id": null,
+     "author": "KittyMagic",
+     "created_utc": 1491180717,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0054"
+     ],
+     "labels": [
+      "adding Robo next to Lucca"
+     ],
+     "sequence": [
+      "c0054"
+     ],
+     "coverage": 0.64,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494554795
+     }
+    }
+   },
+   "633mzp": {
+    "0": {
+     "thread_id": "633mzp",
+     "item_id": "633mzp",
+     "parent_id": null,
+     "author": "swagglecrumb",
+     "created_utc": 1491182164,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0055"
+     ],
+     "labels": [
+      "proposing a Lucario-Chrono Trigger alliance"
+     ],
+     "sequence": [
+      "c0055",
+      "na"
+     ],
+     "coverage": 0.21,
+     "meta": {
+      "score": 10,
+      "retrieved_on": 1494554858
+     }
+    },
+    "1": {
+     "thread_id": "633mzp",
+     "item_id": "dfr3qpk",
+     "parent_id": "633mzp",
+     "author": "ski2read",
+     "created_utc": 1491184523,
+     "dt_parent_sec": 2359,
+     "dt_thread_sec": 2359,
+     "state": "coded",
+     "code_ids": [
+      "c0056"
+     ],
+     "labels": [
+      "adopting Lucario as an odd stepson"
+     ],
+     "sequence": [
+      "c0056"
+     ],
+     "coverage": 0.8,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493743331
+     }
+    }
+   },
+   "633qjg": {
+    "0": {
+     "thread_id": "633qjg",
+     "item_id": "633qjg",
+     "parent_id": null,
+     "author": "Hoss_Meat",
+     "created_utc": 1491183283,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0057"
+     ],
+     "labels": [
+      "asking Chrono Trigger to help defend EarthBound art"
+     ],
+     "sequence": [
+      "na",
+      "c0057",
+      "na"
+     ],
+     "coverage": 0.15,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1494554907
+     }
+    },
+    "1": {
+     "thread_id": "633qjg",
+     "item_id": "dfrfktq",
+     "parent_id": "633qjg",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491202729,
+     "dt_parent_sec": 19446,
+     "dt_thread_sec": 19446,
+     "state": "coded",
+     "code_ids": [
+      "c0058"
+     ],
+     "labels": [
+      "promising help while also under attack"
+     ],
+     "sequence": [
+      "c0058"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493749648
+     }
+    },
+    "2": {
+     "thread_id": "633qjg",
+     "item_id": "dfrkkxq",
+     "parent_id": "633qjg",
+     "author": "shameless_inc",
+     "created_utc": 1491217212,
+     "dt_parent_sec": 33929,
+     "dt_thread_sec": 33929,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752064
+     }
+    },
+    "2.1": {
+     "thread_id": "633qjg",
+     "item_id": "dfrkutr",
+     "parent_id": "dfrkkxq",
+     "author": "Hoss_Meat",
+     "created_utc": 1491217905,
+     "dt_parent_sec": 693,
+     "dt_thread_sec": 34622,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752196
+     }
+    },
+    "2.1.1": {
+     "thread_id": "633qjg",
+     "item_id": "dfrkwk6",
+     "parent_id": "dfrkutr",
+     "author": "shameless_inc",
+     "created_utc": 1491218020,
+     "dt_parent_sec": 115,
+     "dt_thread_sec": 34737,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752220
+     }
+    },
+    "2.1.1.1": {
+     "thread_id": "633qjg",
+     "item_id": "dfrlacr",
+     "parent_id": "dfrkwk6",
+     "author": "Hoss_Meat",
+     "created_utc": 1491218932,
+     "dt_parent_sec": 912,
+     "dt_thread_sec": 35649,
+     "state": "coded",
+     "code_ids": [
+      "c0059"
+     ],
+     "labels": [
+      "offering help with Marle when able"
+     ],
+     "sequence": [
+      "c0059"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752724
+     }
+    }
+   },
+   "6343q5": {
+    "0": {
+     "thread_id": "6343q5",
+     "item_id": "6343q5",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491187555,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1494555088
+     }
+    },
+    "1": {
+     "thread_id": "6343q5",
+     "item_id": "dfr8ktw",
+     "parent_id": "6343q5",
+     "author": "ski2read",
+     "created_utc": 1491190320,
+     "dt_parent_sec": 2765,
+     "dt_thread_sec": 2765,
+     "state": "coded",
+     "code_ids": [
+      "c0060"
+     ],
+     "labels": [
+      "keeping Robo above the racing stripe"
+     ],
+     "sequence": [
+      "na",
+      "c0060"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 5,
+      "retrieved_on": 1493745701
+     }
+    }
+   },
+   "6346g3": {
+    "0": {
+     "thread_id": "6346g3",
+     "item_id": "6346g3",
+     "parent_id": null,
+     "author": "ltsJojo",
+     "created_utc": 1491188471,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0061"
+     ],
+     "labels": [
+      "offering a no-encroachment defense alliance"
+     ],
+     "sequence": [
+      "na",
+      "c0061",
+      "na"
+     ],
+     "coverage": 0.28,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1494555125
+     }
+    },
+    "1": {
+     "thread_id": "6346g3",
+     "item_id": "dfr8jbr",
+     "parent_id": "6346g3",
+     "author": "ski2read",
+     "created_utc": 1491190266,
+     "dt_parent_sec": 1795,
+     "dt_thread_sec": 1795,
+     "state": "coded",
+     "code_ids": [
+      "c0062"
+     ],
+     "labels": [
+      "thanking Kanye for looking out across the border"
+     ],
+     "sequence": [
+      "na",
+      "c0062"
+     ],
+     "coverage": 0.39,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493745681
+     }
+    }
+   },
+   "634bwm": {
+    "0": {
+     "thread_id": "634bwm",
+     "item_id": "634bwm",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491190350,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0063"
+     ],
+     "labels": [
+      "asking them to leave the Wu Tang W alone"
+     ],
+     "sequence": [
+      "c0063"
+     ],
+     "coverage": 0.79,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494555200
+     }
+    }
+   },
+   "634uqq": {
+    "0": {
+     "thread_id": "634uqq",
+     "item_id": "634uqq",
+     "parent_id": null,
+     "author": "ChaseObserves",
+     "created_utc": 1491197414,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0064"
+     ],
+     "labels": [
+      "cleaning the blue background to make it pixel perfect"
+     ],
+     "sequence": [
+      "na",
+      "c0064",
+      "na"
+     ],
+     "coverage": 0.21,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494555460
+     }
+    }
+   },
+   "634yt1": {
+    "0": {
+     "thread_id": "634yt1",
+     "item_id": "634yt1",
+     "parent_id": null,
+     "author": "_kdh_",
+     "created_utc": 1491199187,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0065"
+     ],
+     "labels": [
+      "recreating Chrono art on a place clone after missing the event"
+     ],
+     "sequence": [
+      "na",
+      "c0065",
+      "na"
+     ],
+     "coverage": 0.27,
+     "meta": {
+      "edited": 1491199918,
+      "score": 5,
+      "retrieved_on": 1494555516
+     }
+    }
+   },
+   "635488": {
+    "0": {
+     "thread_id": "635488",
+     "item_id": "635488",
+     "parent_id": null,
+     "author": "NinjaPirateKing",
+     "created_utc": 1491201599,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0066"
+     ],
+     "labels": [
+      "asking for a frozen time-portal frame"
+     ],
+     "sequence": [
+      "na",
+      "c0066"
+     ],
+     "coverage": 0.29,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1494555590
+     }
+    }
+   },
+   "635hff": {
+    "0": {
+     "thread_id": "635hff",
+     "item_id": "635hff",
+     "parent_id": null,
+     "author": "Our-Year",
+     "created_utc": 1491207905,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0067"
+     ],
+     "labels": [
+      "calling to put Marle's top back on"
+     ],
+     "sequence": [
+      "c0067"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 27,
+      "retrieved_on": 1494555773
+     }
+    },
+    "1": {
+     "thread_id": "635hff",
+     "item_id": "dfrlcnx",
+     "parent_id": "635hff",
+     "author": "One-PUNCHCAT",
+     "created_utc": 1491219079,
+     "dt_parent_sec": 11174,
+     "dt_thread_sec": 11174,
+     "state": "coded",
+     "code_ids": [
+      "c0068"
+     ],
+     "labels": [
+      "proposing a smaller Marle sprite trolls cannot alter"
+     ],
+     "sequence": [
+      "c0068",
+      "na"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493752755
+     }
+    },
+    "1.1": {
+     "thread_id": "635hff",
+     "item_id": "dfrlgy0",
+     "parent_id": "dfrlcnx",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491219343,
+     "dt_parent_sec": 264,
+     "dt_thread_sec": 11438,
+     "state": "coded",
+     "code_ids": [
+      "c0069"
+     ],
+     "labels": [
+      "rejecting a smaller Marle because trolls would move on"
+     ],
+     "sequence": [
+      "c0069"
+     ],
+     "coverage": 0.59,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493752812
+     }
+    }
+   },
+   "6360i9": {
+    "0": {
+     "thread_id": "6360i9",
+     "item_id": "6360i9",
+     "parent_id": null,
+     "author": "shameless_inc",
+     "created_utc": 1491217059,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0070"
+     ],
+     "labels": [
+      "proposing a mutual-help pact"
+     ],
+     "sequence": [
+      "na",
+      "c0070",
+      "na"
+     ],
+     "coverage": 0.3,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494556040
+     }
+    },
+    "1": {
+     "thread_id": "6360i9",
+     "item_id": "dfro04q",
+     "parent_id": "6360i9",
+     "author": "shameless_inc",
+     "created_utc": 1491224214,
+     "dt_parent_sec": 7155,
+     "dt_thread_sec": 7155,
+     "state": "coded",
+     "code_ids": [
+      "c0071"
+     ],
+     "labels": [
+      "finding help at EarthBound and Final Fantasy"
+     ],
+     "sequence": [
+      "c0071",
+      "na"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493754042
+     }
+    },
+    "1.1": {
+     "thread_id": "6360i9",
+     "item_id": "dfrtqha",
+     "parent_id": "dfro04q",
+     "author": "tropicnights",
+     "created_utc": 1491231958,
+     "dt_parent_sec": 7744,
+     "dt_thread_sec": 14899,
+     "state": "coded",
+     "code_ids": [
+      "c0072"
+     ],
+     "labels": [
+      "joining Operation Keep Marle's Nipples Covered"
+     ],
+     "sequence": [
+      "na",
+      "c0072"
+     ],
+     "coverage": 0.53,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493757704
+     }
+    }
+   },
+   "636140": {
+    "0": {
+     "thread_id": "636140",
+     "item_id": "636140",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491217282,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494556048
+     }
+    },
+    "1": {
+     "thread_id": "636140",
+     "item_id": "dfrkmsp",
+     "parent_id": "636140",
+     "author": "BabyElephantCoffee",
+     "created_utc": 1491217343,
+     "dt_parent_sec": 61,
+     "dt_thread_sec": 61,
+     "state": "coded",
+     "code_ids": [
+      "c0073"
+     ],
+     "labels": [
+      "checking whether moving the koi steps on anyone"
+     ],
+     "sequence": [
+      "na",
+      "c0073"
+     ],
+     "coverage": 0.34,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493752089
+     }
+    }
+   },
+   "6362z8": {
+    "0": {
+     "thread_id": "6362z8",
+     "item_id": "6362z8",
+     "parent_id": null,
+     "author": "BabyElephantCoffee",
+     "created_utc": 1491217964,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 0,
+      "retrieved_on": 1494556075
+     }
+    },
+    "1": {
+     "thread_id": "6362z8",
+     "item_id": "dfrkw1y",
+     "parent_id": "6362z8",
+     "author": "BabyElephantCoffee",
+     "created_utc": 1491217986,
+     "dt_parent_sec": 22,
+     "dt_thread_sec": 22,
+     "state": "coded",
+     "code_ids": [
+      "c0074"
+     ],
+     "labels": [
+      "cross-posting the koi plan for a boundary check"
+     ],
+     "sequence": [
+      "na",
+      "c0074",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "edited": 1491219722,
+      "score": 1,
+      "retrieved_on": 1493752214
+     }
+    }
+   },
+   "636bab": {
+    "0": {
+     "thread_id": "636bab",
+     "item_id": "636bab",
+     "parent_id": null,
+     "author": "skellyton22",
+     "created_utc": 1491220924,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0075"
+     ],
+     "labels": [
+      "ending the nude Marle fight by helping dress her"
+     ],
+     "sequence": [
+      "na",
+      "c0075",
+      "na"
+     ],
+     "coverage": 0.24,
+     "meta": {
+      "edited": 1491223617,
+      "score": 5,
+      "retrieved_on": 1494556191
+     }
+    }
+   },
+   "636pnd": {
+    "0": {
+     "thread_id": "636pnd",
+     "item_id": "636pnd",
+     "parent_id": null,
+     "author": "zannic32",
+     "created_utc": 1491225613,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0076"
+     ],
+     "labels": [
+      "joining the subreddit while helping build"
+     ],
+     "sequence": [
+      "na",
+      "c0076",
+      "na"
+     ],
+     "coverage": 0.12,
+     "meta": {
+      "score": 16,
+      "retrieved_on": 1494556395
+     }
+    }
+   },
+   "636xh4": {
+    "0": {
+     "thread_id": "636xh4",
+     "item_id": "636xh4",
+     "parent_id": null,
+     "author": "scuttlebuttisland",
+     "created_utc": 1491227974,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494556503
+     }
+    },
+    "1": {
+     "thread_id": "636xh4",
+     "item_id": "dftctk2",
+     "parent_id": "636xh4",
+     "author": "steamybuns",
+     "created_utc": 1491314315,
+     "dt_parent_sec": 86341,
+     "dt_thread_sec": 86341,
+     "state": "coded",
+     "code_ids": [
+      "c0077"
+     ],
+     "labels": [
+      "remembering the Marle-Magus joke after the event"
+     ],
+     "sequence": [
+      "c0077"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493785736
+     }
+    }
+   },
+   "6379ul": {
+    "0": {
+     "thread_id": "6379ul",
+     "item_id": "6379ul",
+     "parent_id": null,
+     "author": "TKEE",
+     "created_utc": 1491231355,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0078"
+     ],
+     "labels": [
+      "calling for help defending Waldo from the Void"
+     ],
+     "sequence": [
+      "na",
+      "c0078",
+      "na"
+     ],
+     "coverage": 0.17,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1494556676
+     }
+    }
+   },
+   "63842i": {
+    "0": {
+     "thread_id": "63842i",
+     "item_id": "63842i",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491239279,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0079"
+     ],
+     "labels": [
+      "thanking everyone when placement ends"
+     ],
+     "sequence": [
+      "c0079"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494557098
+     }
+    }
+   },
+   "6384hz": {
+    "0": {
+     "thread_id": "6384hz",
+     "item_id": "6384hz",
+     "parent_id": null,
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491239381,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0080"
+     ],
+     "labels": [
+      "celebrating completion and thanking contributors"
+     ],
+     "sequence": [
+      "c0080"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 179,
+      "retrieved_on": 1494557104
+     }
+    },
+    "1": {
+     "thread_id": "6384hz",
+     "item_id": "dfs0dvq",
+     "parent_id": "6384hz",
+     "author": "iX_eRay",
+     "created_utc": 1491239879,
+     "dt_parent_sec": 498,
+     "dt_thread_sec": 498,
+     "state": "coded",
+     "code_ids": [
+      "c0081"
+     ],
+     "labels": [
+      "calling the shared work a pleasant experience"
+     ],
+     "sequence": [
+      "c0081",
+      "na"
+     ],
+     "coverage": 0.4,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493761450
+     }
+    },
+    "2": {
+     "thread_id": "6384hz",
+     "item_id": "dfs6xv4",
+     "parent_id": "6384hz",
+     "author": "LegacyCrono",
+     "created_utc": 1491247459,
+     "dt_parent_sec": 8078,
+     "dt_thread_sec": 8078,
+     "state": "coded",
+     "code_ids": [
+      "c0082"
+     ],
+     "labels": [
+      "recounting the risk of adding too much to defend"
+     ],
+     "sequence": [
+      "na",
+      "c0082"
+     ],
+     "coverage": 0.38,
+     "meta": {
+      "score": 6,
+      "retrieved_on": 1493765292
+     }
+    },
+    "3": {
+     "thread_id": "6384hz",
+     "item_id": "dfslva8",
+     "parent_id": "6384hz",
+     "author": "ravenouscraving",
+     "created_utc": 1491265138,
+     "dt_parent_sec": 25757,
+     "dt_thread_sec": 25757,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493772512
+     }
+    },
+    "3.1": {
+     "thread_id": "6384hz",
+     "item_id": "dfsnw9b",
+     "parent_id": "dfslva8",
+     "author": "finding-my-fuel",
+     "created_utc": 1491267611,
+     "dt_parent_sec": 2473,
+     "dt_thread_sec": 28230,
+     "state": "coded",
+     "code_ids": [
+      "c0083"
+     ],
+     "labels": [
+      "explaining scale choices through boundary alliances"
+     ],
+     "sequence": [
+      "na",
+      "c0083",
+      "na"
+     ],
+     "coverage": 0.41,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1493773557
+     }
+    },
+    "4": {
+     "thread_id": "6384hz",
+     "item_id": "dfsqi4l",
+     "parent_id": "6384hz",
+     "author": "TryHarderino",
+     "created_utc": 1491270731,
+     "dt_parent_sec": 31350,
+     "dt_thread_sec": 31350,
+     "state": "coded",
+     "code_ids": [
+      "c0084"
+     ],
+     "labels": [
+      "crediting the finished art to dedication"
+     ],
+     "sequence": [
+      "na",
+      "c0084",
+      "na"
+     ],
+     "coverage": 0.19,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493774869
+     }
+    }
+   },
+   "6384yc": {
+    "0": {
+     "thread_id": "6384yc",
+     "item_id": "6384yc",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491239468,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 7,
+      "retrieved_on": 1494557110
+     }
+    },
+    "1": {
+     "thread_id": "6384yc",
+     "item_id": "dfs07jn",
+     "parent_id": "6384yc",
+     "author": "SlamMasterJ",
+     "created_utc": 1491239693,
+     "dt_parent_sec": 225,
+     "dt_thread_sec": 225,
+     "state": "coded",
+     "code_ids": [
+      "c0085"
+     ],
+     "labels": [
+      "mourning the end of time together on Discord"
+     ],
+     "sequence": [
+      "c0085"
+     ],
+     "coverage": 0.73,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493761352
+     }
+    }
+   },
+   "6386u9": {
+    "0": {
+     "thread_id": "6386u9",
+     "item_id": "6386u9",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491239886,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0086"
+     ],
+     "labels": [
+      "proposing a post-finish Flea collaboration"
+     ],
+     "sequence": [
+      "na",
+      "c0086"
+     ],
+     "coverage": 0.31,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1494557137
+     }
+    }
+   },
+   "638zgp": {
+    "0": {
+     "thread_id": "638zgp",
+     "item_id": "638zgp",
+     "parent_id": null,
+     "author": "jontheboss",
+     "created_utc": 1491247339,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0087"
+     ],
+     "labels": [
+      "sharing a recording of the first Chrono pixels"
+     ],
+     "sequence": [
+      "c0087",
+      "na"
+     ],
+     "coverage": 0.55,
+     "meta": {
+      "score": 12,
+      "retrieved_on": 1494557541
+     }
+    },
+    "1": {
+     "thread_id": "638zgp",
+     "item_id": "dfs9abo",
+     "parent_id": "638zgp",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491250206,
+     "dt_parent_sec": 2867,
+     "dt_thread_sec": 2867,
+     "state": "coded",
+     "code_ids": [
+      "c0088"
+     ],
+     "labels": [
+      "calling for a timelapse of the whole area"
+     ],
+     "sequence": [
+      "c0088"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493766426
+     }
+    }
+   },
+   "63cfv9": {
+    "0": {
+     "thread_id": "63cfv9",
+     "item_id": "63cfv9",
+     "parent_id": null,
+     "author": "cdated",
+     "created_utc": 1491286441,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": 25,
+      "retrieved_on": 1494559249
+     }
+    },
+    "1": {
+     "thread_id": "63cfv9",
+     "item_id": "dft1xfj",
+     "parent_id": "63cfv9",
+     "author": "CakeWithoutEggs",
+     "created_utc": 1491289540,
+     "dt_parent_sec": 3099,
+     "dt_thread_sec": 3099,
+     "state": "coded",
+     "code_ids": [
+      "c0089"
+     ],
+     "labels": [
+      "wishing there had been more time for Lucca"
+     ],
+     "sequence": [
+      "c0089"
+     ],
+     "coverage": 0.89,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493780482
+     }
+    },
+    "1.1": {
+     "thread_id": "63cfv9",
+     "item_id": "dft2ecq",
+     "parent_id": "dft1xfj",
+     "author": "cdated",
+     "created_utc": 1491290787,
+     "dt_parent_sec": 1247,
+     "dt_thread_sec": 4346,
+     "state": "coded",
+     "code_ids": [
+      "c0090"
+     ],
+     "labels": [
+      "explaining why Lucca could not be moved up"
+     ],
+     "sequence": [
+      "c0090"
+     ],
+     "coverage": 0.91,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493780711
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1 @@
+r/denverbroncos — branch B; verdict: full. Record saturation: the visible event arc is complete, with gaps from deleted bodies, images, and off-platform planning. Thematic saturation: batch 02 added the main practices; batch 03 added none, while counter-reading added non-destruction and uneven participation. Blocked: nothing.

@@ -1,0 +1,1 @@
+r/kanye — branch B — verdict: full. Practice saturation: later slices repeated core practices but added distinct aftermath practices. Evidence saturation: Discord, external transactions, removals, and window edges limit unseen outcomes. Blockers: none.

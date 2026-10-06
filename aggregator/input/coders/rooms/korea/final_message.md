@@ -1,0 +1,1 @@
+r/korea — branch B — verdict: full. Practice saturation: later slices repeated established practices without adding new ones. Record saturation: visible Reddit conduct is well covered, while deletions, external venues, and distributed slice reading limit completeness. Blockers: none.

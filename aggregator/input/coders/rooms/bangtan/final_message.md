@@ -1,0 +1,1 @@
+r/bangtan — branch B; verdict: full. Evidence saturation: public practices are visible, with Discord and deletions limiting detail. Theme saturation: later slices repeated settled practices and added none at the end. Blockers: none.

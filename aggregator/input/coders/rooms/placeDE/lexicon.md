@@ -1,0 +1,44 @@
+# lexicon — r/placeDE
+
+One term per line, with the item id of its first use. No gloss. Started by the case lead from the brief; extended by each coder.
+
+- Nachtwache — 62v5hx
+- Putzen — 62v4nn
+- Operation Reflexion — 62yt7u
+- Projekt Beam — 62z10w
+- randoms — dfq31w1
+- VerBierklicht — dfq6y3m
+- Hopfnung — dfq6y3m
+- Färbezombies — dfqb2pg
+- Putzkolonne — 63027a
+- Kehrwoche — dfqc8h3
+- Belgien Merge — 630pc5
+- Projekt Skyline — 630pzp
+- Belmany — dfqf64d
+- Germangium — dfqfbeh
+- Make schwanz not war — dfqhlgp
+- The Void — 631gfb
+- Perfection > Expansion — dfqkbs8
+- Generalsstab — 631hht
+- Deutschlandkarotte — 6324i9
+- EuRuF — 634dsw
+- Friedenstaube — 634su6
+- Place-Herrschaft — 635li5
+- Kekistan — dfrmtvk
+- Salami Army — 636ao2
+- Operation Lebensraum-West — 636gib
+- Grenzerweiterung West — 636gpe
+- Lebensraumen — 636r1i
+- Shadow Council — dfrpo3v
+- Minipolen — dfrs47j
+- Speisekarte — 637ayr
+- DIVIDET Kingdom — 637nxw
+- Griefpunkte — dfs00ia
+- ?>1 — dfrzzp1
+- Frankreichfeldzug — dfs167w
+- MeistWertvollsterSpieler — dfs1gt1
+- Mit-Verteidiger — dfs1gt1
+- Pixelkriege — dfs4rkx
+- Pixelschubsen — dfs0mfh
+- Mettmänner — 638ffv
+- Place 2.0 — 63a8nn

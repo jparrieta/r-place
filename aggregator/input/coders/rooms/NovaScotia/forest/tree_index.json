@@ -1,0 +1,98 @@
+{
+ "NovaScotia": {
+  "counts": {
+   "threads_given": 2,
+   "threads_with_codes": 2,
+   "items": 4,
+   "coded": 3,
+   "bridge": 0,
+   "removed": 0,
+   "dropped": 1,
+   "orphans": 0,
+   "na_stretches": 0,
+   "coverage_of_coded_items": 1.0,
+   "threads_total_in_window": 21
+  },
+  "index": {
+   "62x7mg": {
+    "0": {
+     "thread_id": "62x7mg",
+     "item_id": "62x7mg",
+     "parent_id": null,
+     "author": "s10wpolka",
+     "created_utc": 1491099386,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "asking people to help get our flag onto r/place"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 49,
+      "retrieved_on": 1494551578
+     }
+    },
+    "1": {
+     "thread_id": "62x7mg",
+     "item_id": "dfpwvm6",
+     "parent_id": "62x7mg",
+     "author": "s10wpolka",
+     "created_utc": 1491110991,
+     "dt_parent_sec": 11605,
+     "dt_thread_sec": 11605,
+     "state": "coded",
+     "code_ids": [
+      "c0002",
+      "c0003"
+     ],
+     "labels": [
+      "explaining that more people placing pixels will make it turn out better",
+      "sending flag discussion to r/placecanada"
+     ],
+     "sequence": [
+      "c0002",
+      "c0003"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493722375
+     }
+    }
+   },
+   "63159y": {
+    "0": {
+     "thread_id": "63159y",
+     "item_id": "63159y",
+     "parent_id": null,
+     "author": "StrangeForces",
+     "created_utc": 1491156288,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "calling people to join and protect the motherland"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 4,
+      "retrieved_on": 1494553545
+     }
+    }
+   }
+  }
+ }
+}

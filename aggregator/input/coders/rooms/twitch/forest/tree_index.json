@@ -1,0 +1,678 @@
+{
+ "twitch": {
+  "counts": {
+   "threads_given": 9,
+   "threads_with_codes": 9,
+   "items": 27,
+   "coded": 24,
+   "bridge": 1,
+   "removed": 0,
+   "dropped": 2,
+   "orphans": 0,
+   "na_stretches": 6,
+   "coverage_of_coded_items": 0.8,
+   "threads_total_in_window": 512
+  },
+  "index": {
+   "62opgh": {
+    "0": {
+     "thread_id": "62opgh",
+     "item_id": "62opgh",
+     "parent_id": null,
+     "author": "Sontimeister",
+     "created_utc": 1491000023,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0001"
+     ],
+     "labels": [
+      "asking for help building the Twitch logo at 506, 779"
+     ],
+     "sequence": [
+      "c0001"
+     ],
+     "coverage": 0.86,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1492476783
+     }
+    },
+    "1": {
+     "thread_id": "62opgh",
+     "item_id": "dfo5jxw",
+     "parent_id": "62opgh",
+     "author": "AutoModerator",
+     "created_utc": 1491000024,
+     "dt_parent_sec": 1,
+     "dt_thread_sec": 1,
+     "state": "coded",
+     "code_ids": [
+      "c0002"
+     ],
+     "labels": [
+      "removing a body-less Twitch-logo request under rule #5"
+     ],
+     "sequence": [
+      "c0002",
+      "na"
+     ],
+     "coverage": 0.25,
+     "meta": {
+      "distinguished": "moderator",
+      "score": 1,
+      "retrieved_on": 1491956740
+     }
+    }
+   },
+   "62oro8": {
+    "0": {
+     "thread_id": "62oro8",
+     "item_id": "62oro8",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491000648,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0003"
+     ],
+     "labels": [
+      "asking for help building the Twitch logo at Place"
+     ],
+     "sequence": [
+      "c0003"
+     ],
+     "coverage": 0.79,
+     "meta": {
+      "score": 2,
+      "link_flair_text": "Question",
+      "retrieved_on": 1492476813
+     }
+    }
+   },
+   "62pdvu": {
+    "0": {
+     "thread_id": "62pdvu",
+     "item_id": "62pdvu",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491006444,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0004"
+     ],
+     "labels": [
+      "saying r/place needs a Twitch icon"
+     ],
+     "sequence": [
+      "c0004"
+     ],
+     "coverage": 0.72,
+     "meta": {
+      "score": 1,
+      "link_flair_text": "Community Event",
+      "retrieved_on": 1492477296
+     }
+    }
+   },
+   "62v6rr": {
+    "0": {
+     "thread_id": "62v6rr",
+     "item_id": "62v6rr",
+     "parent_id": null,
+     "author": "Ldsthrowawayy",
+     "created_utc": 1491077756,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0005"
+     ],
+     "labels": [
+      "asking for help making the TriHard emote on r/place"
+     ],
+     "sequence": [
+      "c0005"
+     ],
+     "coverage": 0.79,
+     "meta": {
+      "score": 32,
+      "link_flair_text": "Question",
+      "retrieved_on": 1494550570
+     }
+    },
+    "1": {
+     "thread_id": "62v6rr",
+     "item_id": "dfpciqt",
+     "parent_id": "62v6rr",
+     "author": "[deleted]",
+     "created_utc": 1491077833,
+     "dt_parent_sec": 77,
+     "dt_thread_sec": 77,
+     "state": "bridge",
+     "code_ids": [],
+     "labels": [],
+     "sequence": [],
+     "coverage": null,
+     "meta": {
+      "score": -10,
+      "retrieved_on": 1493712521
+     }
+    },
+    "1.1": {
+     "thread_id": "62v6rr",
+     "item_id": "dfpjxnl",
+     "parent_id": "dfpciqt",
+     "author": "ilovecheese2",
+     "created_utc": 1491089153,
+     "dt_parent_sec": 11320,
+     "dt_thread_sec": 11397,
+     "state": "coded",
+     "code_ids": [
+      "c0008"
+     ],
+     "labels": [
+      "accusing a commenter of copypasting to become a mod"
+     ],
+     "sequence": [
+      "c0008"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "author_flair_text": "www.twitch.tv/ilovecheese2",
+      "retrieved_on": 1493716112
+     }
+    },
+    "2": {
+     "thread_id": "62v6rr",
+     "item_id": "dfpglsy",
+     "parent_id": "62v6rr",
+     "author": "Thatonesillyfucker",
+     "created_utc": 1491084050,
+     "dt_parent_sec": 6294,
+     "dt_thread_sec": 6294,
+     "state": "coded",
+     "code_ids": [
+      "c0006",
+      "c0007"
+     ],
+     "labels": [
+      "trying to turn the Twitch logo white",
+      "giving up because too many people cancel the logo edits"
+     ],
+     "sequence": [
+      "c0006",
+      "na",
+      "c0007"
+     ],
+     "coverage": 0.2,
+     "meta": {
+      "edited": 1491094728,
+      "score": 7,
+      "retrieved_on": 1493714498
+     }
+    },
+    "3": {
+     "thread_id": "62v6rr",
+     "item_id": "dfpn3of",
+     "parent_id": "62v6rr",
+     "author": "Ecstaticlemon",
+     "created_utc": 1491093877,
+     "dt_parent_sec": 16121,
+     "dt_thread_sec": 16121,
+     "state": "coded",
+     "code_ids": [
+      "c0009",
+      "c0010",
+      "c0011"
+     ],
+     "labels": [
+      "locating a tree inside the monument to memes",
+      "speaking for r/treeplace and valuing the small tree",
+      "asking people not to destroy the tree and let it regrow"
+     ],
+     "sequence": [
+      "na",
+      "c0009",
+      "na",
+      "c0010",
+      "c0011"
+     ],
+     "coverage": 0.61,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493717649
+     }
+    }
+   },
+   "62vbs3": {
+    "0": {
+     "thread_id": "62vbs3",
+     "item_id": "62vbs3",
+     "parent_id": null,
+     "author": "SebbaNPAJ",
+     "created_utc": 1491079241,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0012"
+     ],
+     "labels": [
+      "calling people to recover the pepe being taken over"
+     ],
+     "sequence": [
+      "c0012"
+     ],
+     "coverage": 0.85,
+     "meta": {
+      "score": 0,
+      "link_flair_text": "Community Event",
+      "retrieved_on": 1494550640
+     }
+    }
+   },
+   "62vzkp": {
+    "0": {
+     "thread_id": "62vzkp",
+     "item_id": "62vzkp",
+     "parent_id": null,
+     "author": "fyrn",
+     "created_utc": 1491085419,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0013"
+     ],
+     "labels": [
+      "asking for help making Glitch white on purple"
+     ],
+     "sequence": [
+      "c0013"
+     ],
+     "coverage": 0.77,
+     "meta": {
+      "score": 1,
+      "link_flair_text": "Question",
+      "author_flair_text": "Esports Engineer",
+      "retrieved_on": 1494550969
+     }
+    },
+    "1": {
+     "thread_id": "62vzkp",
+     "item_id": "dfphoea",
+     "parent_id": "62vzkp",
+     "author": "Hustlie",
+     "created_utc": 1491085706,
+     "dt_parent_sec": 287,
+     "dt_thread_sec": 287,
+     "state": "coded",
+     "code_ids": [
+      "c0014"
+     ],
+     "labels": [
+      "warning that taking people away from the sub needs moderator approval"
+     ],
+     "sequence": [
+      "c0014",
+      "na"
+     ],
+     "coverage": 0.18,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493715018
+     }
+    }
+   },
+   "62x07z": {
+    "0": {
+     "thread_id": "62x07z",
+     "item_id": "62x07z",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491096903,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0015"
+     ],
+     "labels": [
+      "asking how to remove BetterTTV's annoying April Fools prank"
+     ],
+     "sequence": [
+      "c0015"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "score": 0,
+      "link_flair_text": "Question",
+      "retrieved_on": 1494551474
+     }
+    },
+    "1": {
+     "thread_id": "62x07z",
+     "item_id": "dfppd90",
+     "parent_id": "62x07z",
+     "author": "StevetheHaloGod_",
+     "created_utc": 1491097419,
+     "dt_parent_sec": 516,
+     "dt_thread_sec": 516,
+     "state": "coded",
+     "code_ids": [
+      "c0016"
+     ],
+     "labels": [
+      "telling them to wait until April 2nd"
+     ],
+     "sequence": [
+      "c0016"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 8,
+      "author_flair_text": "twitch.tv/StevetheHaloGod",
+      "retrieved_on": 1493718747
+     }
+    },
+    "2": {
+     "thread_id": "62x07z",
+     "item_id": "dfppsph",
+     "parent_id": "62x07z",
+     "author": "justinghawk",
+     "created_utc": 1491098055,
+     "dt_parent_sec": 1152,
+     "dt_thread_sec": 1152,
+     "state": "coded",
+     "code_ids": [
+      "c0017"
+     ],
+     "labels": [
+      "echoing the wish to remove the prank"
+     ],
+     "sequence": [
+      "c0017"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493718954
+     }
+    },
+    "3": {
+     "thread_id": "62x07z",
+     "item_id": "dfps0hy",
+     "parent_id": "62x07z",
+     "author": "tonebacas",
+     "created_utc": 1491101741,
+     "dt_parent_sec": 4838,
+     "dt_thread_sec": 4838,
+     "state": "coded",
+     "code_ids": [
+      "c0018"
+     ],
+     "labels": [
+      "telling them to take a joke and wait for April 2nd"
+     ],
+     "sequence": [
+      "c0018"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493720028
+     }
+    }
+   },
+   "62yiwd": {
+    "0": {
+     "thread_id": "62yiwd",
+     "item_id": "62yiwd",
+     "parent_id": null,
+     "author": "Darkrush85",
+     "created_utc": 1491119746,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0019"
+     ],
+     "labels": [
+      "proposing Kappa at 404,580 over the pride road and the void"
+     ],
+     "sequence": [
+      "na",
+      "c0019"
+     ],
+     "coverage": 0.5,
+     "meta": {
+      "score": 4,
+      "link_flair_text": "Question",
+      "retrieved_on": 1494552233
+     }
+    },
+    "1": {
+     "thread_id": "62yiwd",
+     "item_id": "dfq0o8o",
+     "parent_id": "62yiwd",
+     "author": "boraxx",
+     "created_utc": 1491121276,
+     "dt_parent_sec": 1530,
+     "dt_thread_sec": 1530,
+     "state": "coded",
+     "code_ids": [
+      "c0020",
+      "c0021",
+      "c0022",
+      "c0023"
+     ],
+     "labels": [
+      "trying in vain since yesterday to get Kappa above CS:GO",
+      "cutting losses after Kappa was squeezed out",
+      "sharing the Kappa project template",
+      "steering away from the active void toward quiet black"
+     ],
+     "sequence": [
+      "c0020",
+      "c0021",
+      "c0022",
+      "c0023"
+     ],
+     "coverage": 0.98,
+     "meta": {
+      "score": 1,
+      "retrieved_on": 1493724203
+     }
+    },
+    "2": {
+     "thread_id": "62yiwd",
+     "item_id": "dfq1gh7",
+     "parent_id": "62yiwd",
+     "author": "boraxx",
+     "created_utc": 1491124001,
+     "dt_parent_sec": 4255,
+     "dt_thread_sec": 4255,
+     "state": "coded",
+     "code_ids": [
+      "c0024"
+     ],
+     "labels": [
+      "locating a Kappa at 426,980"
+     ],
+     "sequence": [
+      "c0024"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493724579
+     }
+    },
+    "2.1": {
+     "thread_id": "62yiwd",
+     "item_id": "dfq7pyh",
+     "parent_id": "dfq1gh7",
+     "author": "fyrn",
+     "created_utc": 1491142154,
+     "dt_parent_sec": 18153,
+     "dt_thread_sec": 22408,
+     "state": "coded",
+     "code_ids": [
+      "c0025",
+      "c0026"
+     ],
+     "labels": [
+      "offering a template to fix Kappa up a little",
+      "wanting Kappa closer to Glitch but not wanting to kill other artwork"
+     ],
+     "sequence": [
+      "c0025",
+      "c0026"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Esports Engineer",
+      "retrieved_on": 1493727606
+     }
+    }
+   },
+   "630ugj": {
+    "0": {
+     "thread_id": "630ugj",
+     "item_id": "630ugj",
+     "parent_id": null,
+     "author": "[deleted]",
+     "created_utc": 1491153295,
+     "dt_parent_sec": 0.0,
+     "dt_thread_sec": 0.0,
+     "state": "coded",
+     "code_ids": [
+      "c0027"
+     ],
+     "labels": [
+      "noting there is literally only one Twitch stream of r/place"
+     ],
+     "sequence": [
+      "c0027"
+     ],
+     "coverage": 0.83,
+     "meta": {
+      "edited": 1491153837,
+      "score": 2,
+      "link_flair_text": "No Flair",
+      "retrieved_on": 1494553394
+     }
+    },
+    "1": {
+     "thread_id": "630ugj",
+     "item_id": "dfqh1hu",
+     "parent_id": "630ugj",
+     "author": "Elk1999",
+     "created_utc": 1491155517,
+     "dt_parent_sec": 2222,
+     "dt_thread_sec": 2222,
+     "state": "coded",
+     "code_ids": [
+      "c0028"
+     ],
+     "labels": [
+      "asking what r/place is"
+     ],
+     "sequence": [
+      "c0028"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Twitch.tv/elk1999",
+      "retrieved_on": 1493732099
+     }
+    },
+    "1.1": {
+     "thread_id": "630ugj",
+     "item_id": "dfqh26v",
+     "parent_id": "dfqh1hu",
+     "author": "Slayelectric",
+     "created_utc": 1491155543,
+     "dt_parent_sec": 26,
+     "dt_thread_sec": 2248,
+     "state": "coded",
+     "code_ids": [
+      "c0029"
+     ],
+     "labels": [
+      "calling r/place a goddamn revolution"
+     ],
+     "sequence": [
+      "c0029"
+     ],
+     "coverage": 0.96,
+     "meta": {
+      "score": 3,
+      "retrieved_on": 1493732108
+     }
+    },
+    "1.1.1": {
+     "thread_id": "630ugj",
+     "item_id": "dfqoo7h",
+     "parent_id": "dfqh26v",
+     "author": "Elk1999",
+     "created_utc": 1491165487,
+     "dt_parent_sec": 9944,
+     "dt_thread_sec": 12192,
+     "state": "coded",
+     "code_ids": [
+      "c0030"
+     ],
+     "labels": [
+      "saying they are confused about r/place"
+     ],
+     "sequence": [
+      "c0030"
+     ],
+     "coverage": 1.0,
+     "meta": {
+      "score": 1,
+      "author_flair_text": "Twitch.tv/elk1999",
+      "retrieved_on": 1493735789
+     }
+    },
+    "1.1.1.1": {
+     "thread_id": "630ugj",
+     "item_id": "dfqouz0",
+     "parent_id": "dfqoo7h",
+     "author": "Slayelectric",
+     "created_utc": 1491165749,
+     "dt_parent_sec": 262,
+     "dt_thread_sec": 12454,
+     "state": "coded",
+     "code_ids": [
+      "c0031",
+      "c0032"
+     ],
+     "labels": [
+      "explaining r/place as thousands coming together for a random internet purpose",
+      "pointing to an article that explains r/place"
+     ],
+     "sequence": [
+      "c0031",
+      "c0032"
+     ],
+     "coverage": 0.99,
+     "meta": {
+      "score": 2,
+      "retrieved_on": 1493735880
+     }
+    }
+   }
+  }
+ }
+}
