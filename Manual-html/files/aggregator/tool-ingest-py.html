@@ -6,27 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`tools/ingest.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-ingest-py.md">Markdown source</a></nav>
 <h1 id="toolsingestpy"><code>tools/ingest.py</code></h1>
-<p>Validates the labelers' returns and compiles the adaptation ledger.</p>
+<p>Validates the labelers' returns and compiles the adaptation
+ledger.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>The rules are <code>dreturn.py</code>'s, the same the D2 close-check applies (audit 2026-09-29). Six rules on every line: the schema; the model version matches <code>handoff-D/VERSION</code> and element ids exist and are not withdrawn; concept ids exist and are not retracted; <code>how</code> is one sentence under forty words; portability (no subreddit name or proper name outside the relation field, else <code>portable=false</code>, a particular); the end marker matches. Then each source node is lifted to third-order, fourth-order and dimension. The room model's own rules follow (a grade line, citations of the room's concepts, every adapted element named), and a none line must be the whole return. Output: <code>out/adaptations.jsonl</code> (or <code>adaptations-recheck.jsonl</code>, ids <code>R-&lt;sub&gt;-NNN</code>), <code>out/ingest-D.md</code>, <code>out/verdicts-D.jsonl</code> from the verdict fleet's returns, the room copies in <code>out/rooms/&lt;sub&gt;/</code>, the D2 counts in <code>RUN.json</code>, and every rejected room in <code>DROPS/D/UNRETURNED.tsv</code>. The harness runs it when the D2 check leg opens (and <code>--recheck</code> when D3b opens). <code>--relift</code> re-lifts the ledger to the model as it stands, at D3c.</p>
+<p>The rules are <code>dreturn.py</code>'s, the same the D2 close-check
+applies (audit 2026-09-29). Six rules on every line: the schema; the
+model version matches <code>handoff-D/VERSION</code> and element ids
+exist and are not withdrawn; concept ids exist and are not retracted;
+<code>how</code> is one sentence under forty words; portability (no
+subreddit name or proper name outside the relation field, else
+<code>portable=false</code>, a particular); the end marker matches. Then
+each source node is lifted to third-order, fourth-order and dimension.
+The room model's own rules follow (a grade line, citations of the room's
+concepts, every adapted element named), and a none line must be the
+whole return. Output: <code>out/adaptations.jsonl</code> (or
+<code>adaptations-recheck.jsonl</code>, ids
+<code>R-&lt;sub&gt;-NNN</code>), <code>out/ingest-D.md</code>,
+<code>out/verdicts-D.jsonl</code> from the verdict fleet's returns, the
+room copies in <code>out/rooms/&lt;sub&gt;/</code>, the D2 counts in
+<code>RUN.json</code>, and every rejected room in
+<code>DROPS/D/UNRETURNED.tsv</code>. The harness runs it when the D2
+check leg opens (and <code>--recheck</code> when D3b opens).
+<code>--relift</code> re-lifts the ledger to the model as it stands, at
+D3c.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Shipped in the analyst's <code>tools/</code>. The handler runs <code>--check &lt;sub&gt;</code> after each room; the analyst runs <code>ingest.py D</code> in D2's check leg.</p>
+<p>Shipped in the analyst's <code>tools/</code>. The handler runs
+<code>--check &lt;sub&gt;</code> after each room; the analyst runs
+<code>ingest.py D</code> in D2's check leg.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Rule 12: an adaptation "counts only if it names a node id that ingest resolves, is stated as a condition another room could meet". FLEET §3 lists the same checks.</p>
+<p>Rule 12: an adaptation "counts only if it names a node id that ingest
+resolves, is stated as a condition another room could meet". FLEET §3
+lists the same checks.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/ingest.py">tools/ingest.py</a>.</p>
-<p>Checked against: tools/ingest.py, CONTRACT-aggregator.md rule 12, FLEET.md §3, handoff/HANDLER.md.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/ingest.py">tools/ingest.py</a>.</p>
+<p>Checked against: tools/ingest.py, CONTRACT-aggregator.md rule 12,
+FLEET.md §3, handoff/HANDLER.md.</p>
 </body>
 </html>

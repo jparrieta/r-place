@@ -6,27 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>run.tar.zst</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/run-archive.md">Markdown source</a></nav>
 <h1 id="runtarzst">run.tar.zst</h1>
-<p>The case lead's whole run directory, as it stood when the room was verified.</p>
+<p>The case lead's whole run directory, as it stood when the room was
+verified.</p>
 <p><strong>What it holds</strong></p>
-<p><code>run/</code>, as found on disk: the lead's instrument copy (<code>AGENT.md</code>, <code>CONTRACT.md</code>, <code>CONTRACT-case-lead.md</code>, <code>cite.py</code>, <code>read.py</code>, <code>emit.py</code>, <code>close_run.py</code>, <code>tools/</code>); the inputs (<code>corpus.txt</code>, <code>coder_corpus.jsonl</code>, <code>coder_corpus.queries.jsonl</code>, <code>corpus_manifest.json</code>, <code>openings.md</code>, <code>brief.md</code>, <code>_manifest.json</code>); <code>out/</code> (the lead's outputs, journal, gate, ledger, notes, transcript); <code>staging/</code> (each batch's codes, dispositions, pointers and read log); <code>package/</code> (the pool and the forest files); <code>trees/</code> (the rendered forest); and <code>fleet/batch_NN/</code> for each coder.</p>
+<p><code>run/</code>, as found on disk: the lead's instrument copy
+(<code>AGENT.md</code>, <code>CONTRACT.md</code>,
+<code>CONTRACT-case-lead.md</code>, <code>cite.py</code>,
+<code>read.py</code>, <code>emit.py</code>, <code>close_run.py</code>,
+<code>tools/</code>); the inputs (<code>corpus.txt</code>,
+<code>coder_corpus.jsonl</code>,
+<code>coder_corpus.queries.jsonl</code>,
+<code>corpus_manifest.json</code>, <code>openings.md</code>,
+<code>brief.md</code>, <code>_manifest.json</code>); <code>out/</code>
+(the lead's outputs, journal, gate, ledger, notes, transcript);
+<code>staging/</code> (each batch's codes, dispositions, pointers and
+read log); <code>package/</code> (the pool and the forest files);
+<code>trees/</code> (the rendered forest); and
+<code>fleet/batch_NN/</code> for each coder.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p><code>newrun.py</code> builds <code>run/</code>; the lead, <code>fleet.py</code>, <code>tree_builder.py</code> and <code>emit</code> fill it. The armenia <code>STATE.json</code> records <code>run_archive</code>, its sha256, 1,083,960 bytes, archived 2026-09-25. Which script packs it is not stated in the sources.</p>
+<p><code>newrun.py</code> builds <code>run/</code>; the lead,
+<code>fleet.py</code>, <code>tree_builder.py</code> and
+<code>emit</code> fill it. The armenia <code>STATE.json</code> records
+<code>run_archive</code>, its sha256, 1,083,960 bytes, archived
+2026-09-25. Which script packs it is not stated in the sources.</p>
 <p><strong>Why it exists</strong></p>
-<p>CASE-LEAD-PROMPT.md: the canonical reading is published under <code>rooms/&lt;community&gt;/run/</code>, and "the byte-identical run copy retains its original instrument paths and hash baselines; it is a review copy, not a relocated native conversation."</p>
+<p>CASE-LEAD-PROMPT.md: the canonical reading is published under
+<code>rooms/&lt;community&gt;/run/</code>, and "the byte-identical run
+copy retains its original instrument paths and hash baselines; it is a
+review copy, not a relocated native conversation."</p>
 <p><strong>Where</strong></p>
-<p><code>run.tar.zst</code> in each sample room, for example <a href="../../../coder/rooms/armenia/">armenia</a>. Parts: <a href="corpus-files.html">corpus files</a>, <a href="package.html">package</a>, <a href="fleet-batch.html">fleet batch</a>.</p>
-<p>Checked against: newrun.py, CONTRACT-case-lead.v32.md §7, CASE-LEAD-PROMPT.md, rooms/armenia/STATE.json</p>
+<p><code>run.tar.zst</code> in each sample room, for example <a
+href="../../../coder/rooms/armenia/">armenia</a>. Parts: <a
+href="corpus-files.html">corpus files</a>, <a
+href="package.html">package</a>, <a href="fleet-batch.html">fleet
+batch</a>.</p>
+<p>Checked against: newrun.py, CONTRACT-case-lead.v32.md §7,
+CASE-LEAD-PROMPT.md, rooms/armenia/STATE.json</p>
 </body>
 </html>

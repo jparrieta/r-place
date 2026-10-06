@@ -4,17 +4,33 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>For reviewers: the method, the models, and checking one room</title>
+  <title>For reviewers: the method, the models, and checking one
+room</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
     div.sourceCode { margin: 1em 0; }
     pre.sourceCode { margin: 0; }
@@ -49,7 +65,7 @@
     code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
     code span.at { color: #7d9029; } /* Attribute */
     code span.bn { color: #40a070; } /* BaseN */
-    code span.bu { } /* BuiltIn */
+    code span.bu { color: #008000; } /* BuiltIn */
     code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #4070a0; } /* Char */
     code span.cn { color: #880000; } /* Constant */
@@ -62,7 +78,7 @@
     code span.ex { } /* Extension */
     code span.fl { color: #40a070; } /* Float */
     code span.fu { color: #06287e; } /* Function */
-    code span.im { } /* Import */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
     code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
     code span.kw { color: #007020; font-weight: bold; } /* Keyword */
     code span.op { color: #666666; } /* Operator */
@@ -79,14 +95,23 @@
 </head>
 <body>
 <nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/10-for-reviewers.md">Markdown source</a></nav>
-<h1 id="for-reviewers-the-method-the-models-and-checking-one-room">For reviewers: the method, the models, and checking one room</h1>
-<p><em>Kind of page: tutorial and explanation: check one room yourself, and how the method maps onto Gioia and Eisenhardt.</em></p>
-<p>For a reader who knows Gioia and Eisenhardt and wants to judge whether this is their method, who did each step, and how to check the agents' work without taking the Manual's word. Everything here is drawn from the instruments; the sources are linked.</p>
+<h1 id="for-reviewers-the-method-the-models-and-checking-one-room">For
+reviewers: the method, the models, and checking one room</h1>
+<p><em>Kind of page: tutorial and explanation: check one room yourself,
+and how the method maps onto Gioia and Eisenhardt.</em></p>
+<p>For a reader who knows Gioia and Eisenhardt and wants to judge
+whether this is their method, who did each step, and how to check the
+agents' work without taking the Manual's word. Everything here is drawn
+from the instruments; the sources are linked.</p>
 <h2 id="the-tiers-against-gioias">The tiers against Gioia's</h2>
-<p>The project's names for its tiers are not Gioia's. The coder's themes are Gioia's first-order concepts, consolidated within one case, although the files call them <code>second_order</code>. From <a href="../aggregator/instrument/CONTRACT-aggregator.md">the aggregator's contract</a>, section 2:</p>
+<p>The project's names for its tiers are not Gioia's. The coder's themes
+are Gioia's first-order concepts, consolidated within one case, although
+the files call them <code>second_order</code>. From <a
+href="../aggregator/instrument/CONTRACT-aggregator.md">the aggregator's
+contract</a>, section 2:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>This project</th>
 <th>What it is</th>
 <th>Who makes it</th>
@@ -94,31 +119,32 @@
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>code (first-order concept)</td>
 <td>the participants' words, coded, with the quote</td>
 <td>coder</td>
 <td>first-order concept</td>
 </tr>
-<tr class="even">
+<tr>
 <td>second-order theme</td>
 <td>a room's codes consolidated within that case</td>
 <td>coder</td>
 <td>first-order concepts, consolidated within a case</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>third-order theme</td>
-<td>a kind of second-order theme found across cases; near the material, never a construct</td>
+<td>a kind of second-order theme found across cases; near the material,
+never a construct</td>
 <td>analyst</td>
 <td>first-order concepts, consolidated across cases</td>
 </tr>
-<tr class="even">
+<tr>
 <td>fourth-order theme</td>
 <td>a named group of third-order themes; a construct</td>
 <td>analyst</td>
 <td>second-order theme</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>aggregate dimension</td>
 <td>what those constructs are about</td>
 <td>analyst</td>
@@ -126,11 +152,18 @@
 </tr>
 </tbody>
 </table>
-<p>The coder contract says the same from its side: "In Gioia's terms your themes are his <em>first-order concepts</em>", and Gioia's second-order themes "are made later, by a reader who sees every community" (<a href="../coder/instrument/v32/CONTRACT.v32.md">CONTRACT.v32.md</a>, section on themes). So a coder never abstracts beyond its case; all abstraction across cases is the aggregator's.</p>
-<h2 id="who-did-each-step-on-which-model">Who did each step, on which model</h2>
+<p>The coder contract says the same from its side: "In Gioia's terms
+your themes are his <em>first-order concepts</em>", and Gioia's
+second-order themes "are made later, by a reader who sees every
+community" (<a
+href="../coder/instrument/v32/CONTRACT.v32.md">CONTRACT.v32.md</a>,
+section on themes). So a coder never abstracts beyond its case; all
+abstraction across cases is the aggregator's.</p>
+<h2 id="who-did-each-step-on-which-model">Who did each step, on which
+model</h2>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Step</th>
 <th>Agent</th>
 <th>Model</th>
@@ -138,43 +171,46 @@
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>brief (the room's ordinary week)</td>
 <td>brief writer, one per room</td>
 <td>GPT-5.6 Sol, effort medium, through Codex</td>
 <td>the yard's records</td>
 </tr>
-<tr class="even">
+<tr>
 <td>codes, themes, account</td>
 <td>coder, or a serial fleet of coders and a case lead</td>
 <td>GPT-5.6 Sol, effort medium, through Codex</td>
-<td>each room's <code>STATE.json</code>; <code>run/INPUT/coders/CODERS.tsv</code></td>
+<td>each room's <code>STATE.json</code>;
+<code>run/INPUT/coders/CODERS.tsv</code></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>scheduling the yard</td>
 <td>coordinator</td>
 <td>GPT-5.6 Terra</td>
 <td>the possibilities log</td>
 </tr>
-<tr class="even">
+<tr>
 <td>stages A1 to E2</td>
 <td>the analyst, one per leg</td>
 <td>Claude Opus 5.5, effort by stage</td>
-<td><a href="../aggregator/runs/claude-v43-1/CONTROL/arm.json">CONTROL/arm.json</a></td>
+<td><a
+href="../aggregator/runs/claude-v43-1/CONTROL/arm.json">CONTROL/arm.json</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>placing themes at B2 to B4; verdicts at D2</td>
 <td>reader fleets</td>
 <td><code>@preset/cheap</code> on OpenRouter</td>
-<td><code>arm.json</code>; <a href="files/aggregator/fleet.html">FLEET.md</a></td>
+<td><code>arm.json</code>; <a
+href="files/aggregator/fleet.html">FLEET.md</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td>the hostile reader at C2; three readers at C5</td>
 <td>readers</td>
 <td>Claude Opus 5.5</td>
 <td>the contract's stage table</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>the return: each room's adaptations at D2</td>
 <td>labelers, each resuming the room's original case lead</td>
 <td>GPT, in Codex</td>
@@ -182,45 +218,118 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Where the coding stands (26 September 2026).</strong> Every room is coded by the one model above. The rooms coded before the yard existed, by Claude on instruments v16 to v27, are being recoded in the yard; until they are, 299 of the current frame's 659 rooms carry those earlier codings, and <code>CODERS.tsv</code> says which. The frame is taken again when coding closes, from yard codings only.</p>
-<p><code>@preset/cheap</code> is a preset in the author's OpenRouter account: it names no fixed model, so the readers cannot be reproduced exactly, and their packets of Reddit text go to OpenRouter's providers. The fleets are a prosthesis for scale, not a panel of judges: the analyst builds the scheme and rules on every disagreement (B4, D3), and B4 reports Krippendorff's alpha on a blind re-placement.</p>
-<h2 id="the-departures-as-the-method-states-them">The departures, as the method states them</h2>
-<p><a href="../aggregator/instrument/METHOD.md">METHOD.md</a> names four departures from Gioia and Eisenhardt and says what stands in for each:</p>
+<p><strong>Where the coding stands (26 September 2026).</strong> Every
+room is coded by the one model above. The rooms coded before the yard
+existed, by Claude on instruments v16 to v27, are being recoded in the
+yard; until they are, 299 of the current frame's 659 rooms carry those
+earlier codings, and <code>CODERS.tsv</code> says which. The frame is
+taken again when coding closes, from yard codings only.</p>
+<p><code>@preset/cheap</code> is a preset in the author's OpenRouter
+account: it names no fixed model, so the readers cannot be reproduced
+exactly, and their packets of Reddit text go to OpenRouter's providers.
+The fleets are a prosthesis for scale, not a panel of judges: the
+analyst builds the scheme and rules on every disagreement (B4, D3), and
+B4 reports Krippendorff's alpha on a blind re-placement.</p>
+<h2 id="the-departures-as-the-method-states-them">The departures, as the
+method states them</h2>
+<p><a href="../aggregator/instrument/METHOD.md">METHOD.md</a> names four
+departures from Gioia and Eisenhardt and says what stands in for
+each:</p>
 <ul>
-<li><strong>The tier split.</strong> Coders make the first two tiers; one analyst makes the rest. The coders never see another case.</li>
-<li><strong>No overlap between collection and analysis.</strong> The analyst did not collect the data and cannot go back to informants.</li>
-<li><strong>A census in place of theoretical sampling.</strong> The rooms arrived as a census. Sampling happens inside the corpus: every arrow in the model at C2 must be sampled, and the return (D1 to D3) names the rooms the model cannot compose.</li>
-<li><strong>An in-sample return, not a hold-out test.</strong> The return is modelled on Eisenhardt's replication logic. It is in-sample at the tier the model was built from and out-of-sample below it, where the concepts and quotes the model never used can contradict it.</li>
+<li><strong>The tier split.</strong> Coders make the first two tiers;
+one analyst makes the rest. The coders never see another case.</li>
+<li><strong>No overlap between collection and analysis.</strong> The
+analyst did not collect the data and cannot go back to informants.</li>
+<li><strong>A census in place of theoretical sampling.</strong> The
+rooms arrived as a census. Sampling happens inside the corpus: every
+arrow in the model at C2 must be sampled, and the return (D1 to D3)
+names the rooms the model cannot compose.</li>
+<li><strong>An in-sample return, not a hold-out test.</strong> The
+return is modelled on Eisenhardt's replication logic. It is in-sample at
+the tier the model was built from and out-of-sample below it, where the
+concepts and quotes the model never used can contradict it.</li>
 </ul>
-<p>METHOD also says what to write in a methods section, and what is not promised: every prompt, input, output, transcript and model identifier is archived, so any claim can be traced; the study does not promise that a rerun reproduces it. The informant relationship is absent: the first tier is archived text, and the method says to claim informant voice nowhere.</p>
+<p>METHOD also says what to write in a methods section, and what is not
+promised: every prompt, input, output, transcript and model identifier
+is archived, so any claim can be traced; the study does not promise that
+a rerun reproduces it. The informant relationship is absent: the first
+tier is archived text, and the method says to claim informant voice
+nowhere.</p>
 <h2 id="how-stable-is-one-reading">How stable is one reading?</h2>
 <p>The evidence is thin, and small:</p>
 <ul>
-<li><strong>Seven independent coders on r/dorset</strong> (18 items, an early contract, v5, August 2026). Every run cited all 18 items. Codes ranged from 30 to 43; themes from 6 to 16, with six of the seven between 6 and 9.</li>
-<li><strong>Two readings of r/dorset</strong> under different instruments and models (v20 on Claude Opus, v30 on GPT-6, September 2026). They agreed at the code layer, as the same reading at two grains, and parted at the theme layer, where one consolidated across exchanges and the other followed them one by one.</li>
-<li><strong>r/liverpoolfc</strong>, read several times under several versions, fixed the 97-hour window: no reading found anything codeable beyond it.</li>
+<li><strong>Seven independent coders on r/dorset</strong> (18 items, an
+early contract, v5, August 2026). Every run cited all 18 items. Codes
+ranged from 30 to 43; themes from 6 to 16, with six of the seven between
+6 and 9.</li>
+<li><strong>Two readings of r/dorset</strong> under different
+instruments and models (v20 on Claude Opus, v30 on GPT-6, September
+2026). They agreed at the code layer, as the same reading at two grains,
+and parted at the theme layer, where one consolidated across exchanges
+and the other followed them one by one.</li>
+<li><strong>r/liverpoolfc</strong>, read several times under several
+versions, fixed the 97-hour window: no reading found anything codeable
+beyond it.</li>
 </ul>
-<p>These figures come from the project's working notes, which are not in this repository. No study of reliability across the census has been run. Treat a room's reading as one careful reading, checkable against its record, not as a measured consensus.</p>
+<p>These figures come from the project's working notes, which are not in
+this repository. No study of reliability across the census has been run.
+Treat a room's reading as one careful reading, checkable against its
+record, not as a measured consensus.</p>
 <h2 id="checking-one-room-yourself">Checking one room yourself</h2>
-<p>Every verified room carries its whole run. Taking Armenia, from the repository root:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="fu">mkdir</span> -p /tmp/armenia <span class="kw">&amp;&amp;</span> <span class="ex">zstd</span> -dc coder/rooms/armenia/run.tar.zst <span class="kw">|</span> <span class="fu">tar</span> -x -C /tmp/armenia</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="bu">cd</span> /tmp/armenia/run</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="ex">python3</span> close_run.py . --record coder_corpus.jsonl --role lead</span></code></pre></div>
-<p><code>close_run.py</code> is the gate the room passed, in the version the room ran (Armenia ran v30, whose gate has ten checks; v32's has twelve). Its output on Armenia:</p>
+<p>Every verified room carries its whole run. Taking Armenia, from the
+repository root:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> /tmp/armenia <span class="kw">&amp;&amp;</span> <span class="ex">zstd</span> <span class="at">-dc</span> coder/rooms/armenia/run.tar.zst <span class="kw">|</span> <span class="fu">tar</span> <span class="at">-x</span> <span class="at">-C</span> /tmp/armenia</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /tmp/armenia/run</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> close_run.py . <span class="at">--record</span> coder_corpus.jsonl <span class="at">--role</span> lead</span></code></pre></div>
+<p><code>close_run.py</code> is the gate the room passed, in the version
+the room ran (Armenia ran v30, whose gate has ten checks; v32's has
+twelve). Its output on Armenia:</p>
 <pre><code>  PASS C3  every code&#39;s text is byte-identical to the record (168 codes)
   PASS C6  no thread claims more reading than read.py served
   PASS C9  every live code and pointer sits on an item read.py served (123 threads whole, 127 single items)
-10 of 10 checks passed.
-</code></pre>
-<p>What each check means is on <a href="files/coder/close-run-py.html">close_run.py's page</a>. Three things you can then check by hand:</p>
+10 of 10 checks passed.</code></pre>
+<p>What each check means is on <a
+href="files/coder/close-run-py.html">close_run.py's page</a>. Three
+things you can then check by hand:</p>
 <ul>
-<li><strong>A quote is in the record.</strong> Take any line of <code>out/codes.jsonl</code>, copy its <code>text</code>, and search <code>coder_corpus.jsonl</code> for it. C3 did this for every code.</li>
-<li><strong>What the coder read.</strong> <code>out/_read.jsonl</code> logs every service of the reading tool, in order. Compare it with the threads <code>case.md</code> discusses.</li>
-<li><strong>Its own words.</strong> <code>out/_transcript.jsonl</code> is the coder's conversation; the account in <code>case.md</code> should follow from it.</li>
+<li><strong>A quote is in the record.</strong> Take any line of
+<code>out/codes.jsonl</code>, copy its <code>text</code>, and search
+<code>coder_corpus.jsonl</code> for it. C3 did this for every code.</li>
+<li><strong>What the coder read.</strong> <code>out/_read.jsonl</code>
+logs every service of the reading tool, in order. Compare it with the
+threads <code>case.md</code> discusses.</li>
+<li><strong>Its own words.</strong> <code>out/_transcript.jsonl</code>
+is the coder's conversation; the account in <code>case.md</code> should
+follow from it.</li>
 </ul>
-<p><code>zstd</code> is a common package (<code>brew install zstd</code>, <code>apt install zstd</code>). A handler-side script, <a href="../aggregator/handler/check_quotes.py">check_quotes.py</a>, runs the quote check over a seeded sample of rooms before stage E1. It needs the full coding yard, which is outside this repository; set where yours is in <code>aggregator/handler/paths.json</code>, a copy of <code>paths.example.json</code> (<a href="files/handler/index.html">the handler's folder</a>). Its result for the run is <code>run/DROPS/E1/quote-check-E1.json</code>.</p>
-<p><strong>What the quote check found.</strong> On 80 rooms sampled with seed 13, every code's quote was found in its item (share 1.0). Of the long quotes in the case accounts (strings of 25 characters or more in double quotes), 73 per cent were found in the room's corpus. A quote not found is not proved invented: an account may quote a brief, a thread title in other words, or join two passages; but the analyst meets the check at stage E1, and a claim that rests on a case account's quotation should be traced to a code, which is always exact (<a href="trace-a-claim.html">trace one claim</a>).</p>
-<h2 id="what-the-run-has-not-yet-shown">What the run has not yet shown</h2>
-<p>The analyst of this run has not started (the runs claude-v41-1 and claude-v42-1 stopped in stage A1 when the instrument changed; their legs are in the archive, not in this record). Until stage C5 closes there is no model, and until the return (D1 to D3) there is no test of it. The <a href="index.html">front page</a> shows how far the run has got. What exists now is the method, the coders' readings of each room, and the trail that lets you check them.</p>
+<p><code>zstd</code> is a common package
+(<code>brew install zstd</code>, <code>apt install zstd</code>). A
+handler-side script, <a
+href="../aggregator/handler/check_quotes.py">check_quotes.py</a>, runs
+the quote check over a seeded sample of rooms before stage E1. It needs
+the full coding yard, which is outside this repository; set where yours
+is in <code>aggregator/handler/paths.json</code>, a copy of
+<code>paths.example.json</code> (<a href="files/handler/index.html">the
+handler's folder</a>). Its result for the run is
+<code>run/DROPS/E1/quote-check-E1.json</code>.</p>
+<p><strong>What the quote check found.</strong> On 80 rooms sampled with
+seed 13, every code's quote was found in its item (share 1.0). Of the
+long quotes in the case accounts (strings of 25 characters or more in
+double quotes), 73 per cent were found in the room's corpus. A quote not
+found is not proved invented: an account may quote a brief, a thread
+title in other words, or join two passages; but the analyst meets the
+check at stage E1, and a claim that rests on a case account's quotation
+should be traced to a code, which is always exact (<a
+href="trace-a-claim.html">trace one claim</a>).</p>
+<h2 id="what-the-run-has-not-yet-shown">What the run has not yet
+shown</h2>
+<p>The analyst of this run has not started (the runs claude-v41-1 and
+claude-v42-1 stopped in stage A1 when the instrument changed; their legs
+are in the archive, not in this record). Until stage C5 closes there is
+no model, and until the return (D1 to D3) there is no test of it. The <a
+href="index.html">front page</a> shows how far the run has got. What
+exists now is the method, the coders' readings of each room, and the
+trail that lets you check them.</p>
 </body>
 </html>

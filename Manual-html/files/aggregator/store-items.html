@@ -6,27 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/store/items.jsonl`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/store-items.md">Markdown source</a></nav>
-<h1 id="packagestoreitemsjsonl"><code>package/store/items.jsonl</code></h1>
+<h1
+id="packagestoreitemsjsonl"><code>package/store/items.jsonl</code></h1>
 <p>Every item of every coded thread, without its text.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p><code>sub</code>, <code>thread_id</code>, <code>item_id</code>, <code>coord</code>, <code>parent_id</code>, <code>author</code>, <code>created_utc</code>, <code>hour</code>, <code>state</code> (coded, bridge, removed, dropped), <code>codes</code>, <code>dt_parent_sec</code>, <code>dt_thread_sec</code>, <code>collapsed_n</code>, <code>coverage</code>, <code>depth</code>, <code>meta</code> (<code>score</code>, <code>distinguished</code>, <code>stickied</code>, <code>edited</code>, <code>link_flair_text</code>, <code>author_flair_text</code>, <code>retrieved_on</code>).</p>
+<p><code>sub</code>, <code>thread_id</code>, <code>item_id</code>,
+<code>coord</code>, <code>parent_id</code>, <code>author</code>,
+<code>created_utc</code>, <code>hour</code>, <code>state</code> (coded,
+bridge, removed, dropped), <code>codes</code>,
+<code>dt_parent_sec</code>, <code>dt_thread_sec</code>,
+<code>collapsed_n</code>, <code>coverage</code>, <code>depth</code>,
+<code>meta</code> (<code>score</code>, <code>distinguished</code>,
+<code>stickied</code>, <code>edited</code>,
+<code>link_flair_text</code>, <code>author_flair_text</code>,
+<code>retrieved_on</code>).</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
 <p><code>build_store.py</code> at stage 00, from the forest.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>The dictionary says: "no body: the record's text stays with the record"; the only words the store carries are the coded passages. It also warns that the score and <code>stickied</code> "are snapshots taken at retrieval, weeks after the event: lower bounds with no timing. <code>distinguished</code> is reliable."</p>
+<p>The dictionary says: "no body: the record's text stays with the
+record"; the only words the store carries are the coded passages. It
+also warns that the score and <code>stickied</code> "are snapshots taken
+at retrieval, weeks after the event: lower bounds with no timing.
+<code>distinguished</code> is reliable."</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/items.jsonl">package/store/items.jsonl</a>.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/items.jsonl">package/store/items.jsonl</a>.</p>
 <p>Checked against: tools/build_store.py.</p>
 </body>
 </html>

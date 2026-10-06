@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>tools/audit_fleet.py</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,27 @@
 <h1 id="toolsaudit_fleetpy">tools/audit_fleet.py</h1>
 <p>The gate before the case lead's step 4.</p>
 <p><strong>What it holds</strong></p>
-<p><code>python3 tools/audit_fleet.py --run . --sub &lt;sub&gt; [--record coder_corpus.jsonl]</code>. Seven checks: staged codes appear once and unchanged in the pool; every code, pointer and exclusion text matches the record at its offsets; no thread is disposed twice and every batch disposed exactly its slice; every <code>coded</code> thread has a forest entry; every code sits on a forest node; the rendered forest has one block per entry; <code>out/_gate.json</code> is complete. In branch A only checks 2, 4, 5 and 6 run.</p>
+<p><code>python3 tools/audit_fleet.py --run . --sub &lt;sub&gt; [--record coder_corpus.jsonl]</code>.
+Seven checks: staged codes appear once and unchanged in the pool; every
+code, pointer and exclusion text matches the record at its offsets; no
+thread is disposed twice and every batch disposed exactly its slice;
+every <code>coded</code> thread has a forest entry; every code sits on a
+forest node; the rendered forest has one block per entry;
+<code>out/_gate.json</code> is complete. In branch A only checks 2, 4, 5
+and 6 run.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The instrument's author. The case lead runs it after <code>consolidate</code> and the forest. The scheduler's E1 check requires it to pass.</p>
+<p>The instrument's author. The case lead runs it after
+<code>consolidate</code> and the forest. The scheduler's E1 check
+requires it to pass.</p>
 <p><strong>Why it exists</strong></p>
-<p>It "checks the things a case lead cannot see by reading". "A check that could not run is reported as FAILED, never as passed: a gate that cannot find its inputs has not opened." On failure the lead stops and reports.</p>
+<p>It "checks the things a case lead cannot see by reading". "A check
+that could not run is reported as FAILED, never as passed: a gate that
+cannot find its inputs has not opened." On failure the lead stops and
+reports.</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/instrument/v32/tools/audit_fleet.py">tools/audit_fleet.py</a>.</p>
-<p>Checked against: tools/audit_fleet.py, CONTRACT-case-lead.v32.md §5, CONTRACT-scheduler.md</p>
+<p><a
+href="../../../coder/instrument/v32/tools/audit_fleet.py">tools/audit_fleet.py</a>.</p>
+<p>Checked against: tools/audit_fleet.py, CONTRACT-case-lead.v32.md §5,
+CONTRACT-scheduler.md</p>
 </body>
 </html>

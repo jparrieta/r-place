@@ -6,15 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Talking with a leg, and continuing a run</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
     div.sourceCode { margin: 1em 0; }
     pre.sourceCode { margin: 0; }
@@ -49,7 +64,7 @@
     code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
     code span.at { color: #7d9029; } /* Attribute */
     code span.bn { color: #40a070; } /* BaseN */
-    code span.bu { } /* BuiltIn */
+    code span.bu { color: #008000; } /* BuiltIn */
     code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #4070a0; } /* Char */
     code span.cn { color: #880000; } /* Constant */
@@ -62,7 +77,7 @@
     code span.ex { } /* Extension */
     code span.fl { color: #40a070; } /* Float */
     code span.fu { color: #06287e; } /* Function */
-    code span.im { } /* Import */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
     code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
     code span.kw { color: #007020; font-weight: bold; } /* Keyword */
     code span.op { color: #666666; } /* Operator */
@@ -79,148 +94,318 @@
 </head>
 <body>
 <nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/9-resuming.md">Markdown source</a></nav>
-<h1 id="talking-with-a-leg-and-continuing-a-run">Talking with a leg, and continuing a run</h1>
-<p><em>Kind of page: how-to: the commands, each explained piece by piece.</em></p>
-<p>Every stage page ends each closed leg with a command. This page says what that command does, piece by piece, what it opens on your machine, what it can and cannot touch, and how to check all of it before you run it. The second half says how the run's owner continues a run, and what a clone can and cannot resume. No leg of the run has closed yet, so the stage pages carry no commands until one does.</p>
+<h1 id="talking-with-a-leg-and-continuing-a-run">Talking with a leg, and
+continuing a run</h1>
+<p><em>Kind of page: how-to: the commands, each explained piece by
+piece.</em></p>
+<p>Every stage page ends each closed leg with a command. This page says
+what that command does, piece by piece, what it opens on your machine,
+what it can and cannot touch, and how to check all of it before you run
+it. The second half says how the run's owner continues a run, and what a
+clone can and cannot resume. No leg of the run has closed yet, so the
+stage pages carry no commands until one does.</p>
 <h2 id="the-command-piece-by-piece">The command, piece by piece</h2>
 <p>A stage page prints, for a leg such as <code>B1b-03</code>:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="bu">cd</span> <span class="st">&quot;</span><span class="va">$(</span><span class="fu">git</span> rev-parse --show-toplevel<span class="va">)</span><span class="st">/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT&quot;</span> <span class="kw">&amp;&amp;</span> <span class="ex">claude</span> --resume <span class="st">&quot;</span><span class="va">$PWD</span><span class="st">/out/_transcripts/leg-B1.B1b-03-&lt;id&gt;.jsonl&quot;</span> --fork-session --permission-mode plan --model claude-opus-5-5 --effort xhigh --strict-mcp-config --disallowedTools Bash Write Edit MultiEdit NotebookEdit</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="st">&quot;</span><span class="va">$(</span><span class="fu">git</span> rev-parse <span class="at">--show-toplevel</span><span class="va">)</span><span class="st">/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT&quot;</span> <span class="kw">&amp;&amp;</span> <span class="ex">claude</span> <span class="at">--resume</span> <span class="st">&quot;</span><span class="va">$PWD</span><span class="st">/out/_transcripts/leg-B1.B1b-03-&lt;id&gt;.jsonl&quot;</span> <span class="at">--fork-session</span> <span class="at">--permission-mode</span> plan <span class="at">--model</span> claude-opus-5-5 <span class="at">--effort</span> xhigh <span class="at">--strict-mcp-config</span> <span class="at">--disallowedTools</span> Bash Write Edit MultiEdit NotebookEdit</span></code></pre></div>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Piece</th>
 <th>What it does</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><code>git rev-parse --show-toplevel</code></td>
-<td>prints the root of your clone, so the command works wherever you cloned. Downloaded as a zip, with no git: replace <code>$(git rev-parse --show-toplevel)</code> with the folder you unzipped to.</td>
+<td>prints the root of your clone, so the command works wherever you
+cloned. Downloaded as a zip, with no git: replace
+<code>$(git rev-parse --show-toplevel)</code> with the folder you
+unzipped to.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>cd .../00_GIVE-THE-AGENT</code></td>
-<td>moves into the analyst's folder, the one it worked in, so the files it names by relative path (<code>out/_head.md</code>, <code>package/armenia/codes.jsonl</code>) resolve.</td>
+<td>moves into the analyst's folder, the one it worked in, so the files
+it names by relative path (<code>out/_head.md</code>,
+<code>package/armenia/codes.jsonl</code>) resolve.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>claude</code></td>
 <td>starts Claude Code, installed and logged in on your account.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>--resume "&lt;file&gt;.jsonl"</code></td>
-<td>loads that transcript: the leg's whole conversation, every message, tool call and tool result, as the run recorded it. Claude Code accepts a transcript path here as well as a session id (<a href="https://code.claude.com/docs/en/sessions">sessions</a>).</td>
+<td>loads that transcript: the leg's whole conversation, every message,
+tool call and tool result, as the run recorded it. Claude Code accepts a
+transcript path here as well as a session id (<a
+href="https://code.claude.com/docs/en/sessions">sessions</a>).</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>--fork-session</code></td>
-<td>starts a new session from a copy of that conversation. The file in the repository is read, never written; your questions go into the new session only.</td>
+<td>starts a new session from a copy of that conversation. The file in
+the repository is read, never written; your questions go into the new
+session only.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>--permission-mode plan</code></td>
-<td>plan mode: the analyst may read and propose, not edit. The flag overrides the <code>dontAsk</code> mode the analyst's folder sets for the run (v43; <code>auto</code> before) (<a href="https://code.claude.com/docs/en/permission-modes">permission modes</a>).</td>
+<td>plan mode: the analyst may read and propose, not edit. The flag
+overrides the <code>dontAsk</code> mode the analyst's folder sets for
+the run (v43; <code>auto</code> before) (<a
+href="https://code.claude.com/docs/en/permission-modes">permission
+modes</a>).</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>--model</code>, <code>--effort</code></td>
-<td>the model and effort the leg ran at, read from <code>CONTROL/arm.json</code> with the leg's own override applied, as the launch read them. Your account must have access to the model; if not, pass another and say so when you cite what it tells you.</td>
+<td>the model and effort the leg ran at, read from
+<code>CONTROL/arm.json</code> with the leg's own override applied, as
+the launch read them. Your account must have access to the model; if
+not, pass another and say so when you cite what it tells you.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>--strict-mcp-config</code></td>
-<td>loads no MCP servers, not even yours, as in the run's own launches.</td>
+<td>loads no MCP servers, not even yours, as in the run's own
+launches.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>--disallowedTools Bash Write Edit MultiEdit NotebookEdit</code></td>
-<td>removes the tools that run commands or write. What is left is reading: <code>Read</code>, <code>Grep</code>, <code>Glob</code>. This is what makes the fork read-only on any machine; plan mode alone can be left from inside the session.</td>
+<td>removes the tools that run commands or write. What is left is
+reading: <code>Read</code>, <code>Grep</code>, <code>Glob</code>. This
+is what makes the fork read-only on any machine; plan mode alone can be
+left from inside the session.</td>
 </tr>
 </tbody>
 </table>
 <h2 id="the-transcript-file">The transcript file</h2>
-<p><code>out/_transcripts/leg-&lt;LABEL&gt;-&lt;session id&gt;.jsonl</code> is a plain text file, one JSON object per line: each user message, each assistant reply, each tool call and its result, with timestamps. <a href="files/aggregator/harness-close-sh.html">close.sh</a> copies it there at every close, from the run's session store (<code>CONTROL/.cc/projects/run/</code>; the folder is kept out of git, and each checkpoint's <code>agent.tar.gz</code> holds that <code>projects/run/</code> and nothing else of it), after checking its session id is the one the leg was launched with. You can read it without Claude, in any text editor, or as a list:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="ex">python3</span> -c <span class="st">&quot;import json,sys; [print(r.get(&#39;type&#39;), str(r.get(&#39;message&#39;,{}).get(&#39;content&#39;,&#39;&#39;))[:200]) for r in map(json.loads, open(sys.argv[1]))]&quot;</span> out/_transcripts/leg-<span class="op">&lt;</span>LABEL<span class="op">&gt;</span>-<span class="op">&lt;</span>id<span class="op">&gt;</span>.jsonl</span></code></pre></div>
-<p>What the fork remembers is exactly this file. It holds the Reddit text the analyst read, with real usernames; treat it as you treat the data (see <a href="data-and-collection.html#terms-of-use">the terms</a>).</p>
-<h2 id="what-else-loads-when-claude-code-starts-in-that-folder">What else loads when Claude Code starts in that folder</h2>
+<p><code>out/_transcripts/leg-&lt;LABEL&gt;-&lt;session id&gt;.jsonl</code>
+is a plain text file, one JSON object per line: each user message, each
+assistant reply, each tool call and its result, with timestamps. <a
+href="files/aggregator/harness-close-sh.html">close.sh</a> copies it
+there at every close, from the run's session store
+(<code>CONTROL/.cc/projects/run/</code>; the folder is kept out of git,
+and each checkpoint's <code>agent.tar.gz</code> holds that
+<code>projects/run/</code> and nothing else of it), after checking its
+session id is the one the leg was launched with. You can read it without
+Claude, in any text editor, or as a list:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-c</span> <span class="st">&quot;import json,sys; [print(r.get(&#39;type&#39;), str(r.get(&#39;message&#39;,{}).get(&#39;content&#39;,&#39;&#39;))[:200]) for r in map(json.loads, open(sys.argv[1]))]&quot;</span> out/_transcripts/leg-<span class="op">&lt;</span>LABEL<span class="op">&gt;</span>-<span class="op">&lt;</span>id<span class="op">&gt;</span>.jsonl</span></code></pre></div>
+<p>What the fork remembers is exactly this file. It holds the Reddit
+text the analyst read, with real usernames; treat it as you treat the
+data (see <a href="data-and-collection.html#terms-of-use">the
+terms</a>).</p>
+<h2 id="what-else-loads-when-claude-code-starts-in-that-folder">What
+else loads when Claude Code starts in that folder</h2>
 <ul>
-<li><strong><code>CLAUDE.md</code></strong>, the analyst's standing rules (<a href="files/aggregator/claude-md.html">page</a>). The fork reads them as the analyst did. They tell it to use the verbs (<code>mem.py</code>, <code>cite.py</code>); in the fork it cannot run them, and will say so. Ask it to open the files instead.</li>
-<li><strong><code>.claude/settings.json</code></strong>, the analyst's fence (<a href="files/aggregator/claude-settings-json.html">page</a>). <a href="files/aggregator/harness-protocol-guard-py.html">protocol_guard.py</a> writes it at every launch from <code>CONTROL/settings.template.json</code>. Hooks and sandbox settings in it apply as soon as Claude Code starts (<a href="https://code.claude.com/docs/en/settings">settings</a>). On your machine:
+<li><strong><code>CLAUDE.md</code></strong>, the analyst's standing
+rules (<a href="files/aggregator/claude-md.html">page</a>). The fork
+reads them as the analyst did. They tell it to use the verbs
+(<code>mem.py</code>, <code>cite.py</code>); in the fork it cannot run
+them, and will say so. Ask it to open the files instead.</li>
+<li><strong><code>.claude/settings.json</code></strong>, the analyst's
+fence (<a href="files/aggregator/claude-settings-json.html">page</a>).
+<a
+href="files/aggregator/harness-protocol-guard-py.html">protocol_guard.py</a>
+writes it at every launch from
+<code>CONTROL/settings.template.json</code>. Hooks and sandbox settings
+in it apply as soon as Claude Code starts (<a
+href="https://code.claude.com/docs/en/settings">settings</a>). On your
+machine:
 <ul>
-<li>Deny rules naming the author's folders match nothing. Those that name no path still apply: no web fetch or search, no MCP, no Skill, and no reading of your own <code>~/.claude/</code>.</li>
-<li>The <code>PreToolUse</code> hook runs <code>python3 /Users/.../pretool_guard.py</code>, a file you do not have; it fires only on the tools the command has already removed, so it has nothing to do. The <code>SessionStart</code> hook fires only after a compaction and fails harmlessly.</li>
-<li>The sandbox, set as required, governs commands; the fork runs none.</li>
-<li>The file names the author's folders: it tells you how the author's disk is laid out, and nothing else.</li>
+<li>Deny rules naming the author's folders match nothing. Those that
+name no path still apply: no web fetch or search, no MCP, no Skill, and
+no reading of your own <code>~/.claude/</code>.</li>
+<li>The <code>PreToolUse</code> hook runs
+<code>python3 /Users/.../pretool_guard.py</code>, a file you do not
+have; it fires only on the tools the command has already removed, so it
+has nothing to do. The <code>SessionStart</code> hook fires only after a
+compaction and fails harmlessly.</li>
+<li>The sandbox, set as required, governs commands; the fork runs
+none.</li>
+<li>The file names the author's folders: it tells you how the author's
+disk is laid out, and nothing else.</li>
 </ul></li>
-<li><strong>The files the fork reads</strong> are those in your clone, which hold the run's latest state. A fork of an early leg may open files written after that leg closed. Its memory is of the leg; its reads are of today. Paths the transcript records are the author's (<code>/Users/...</code>); the fork should use relative ones, and you may need to tell it to.</li>
-<li><strong>Your own settings</strong> (<code>~/.claude/settings.json</code>, your <code>CLAUDE.md</code>) load too, below the project's. The run's launches also turn off auto memory; for a fork as bare as the run was, put <code>CLAUDE_CODE_DISABLE_AUTO_MEMORY=1</code> before <code>claude</code>.</li>
-<li><strong>The trust prompt.</strong> The first time Claude Code starts in a folder it asks whether you trust it. Read the two files above first; they are everything the folder adds.</li>
+<li><strong>The files the fork reads</strong> are those in your clone,
+which hold the run's latest state. A fork of an early leg may open files
+written after that leg closed. Its memory is of the leg; its reads are
+of today. Paths the transcript records are the author's
+(<code>/Users/...</code>); the fork should use relative ones, and you
+may need to tell it to.</li>
+<li><strong>Your own settings</strong>
+(<code>~/.claude/settings.json</code>, your <code>CLAUDE.md</code>) load
+too, below the project's. The run's launches also turn off auto memory;
+for a fork as bare as the run was, put
+<code>CLAUDE_CODE_DISABLE_AUTO_MEMORY=1</code> before
+<code>claude</code>.</li>
+<li><strong>The trust prompt.</strong> The first time Claude Code starts
+in a folder it asks whether you trust it. Read the two files above
+first; they are everything the folder adds.</li>
 </ul>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Your machine</th>
 <th>What happens</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>macOS, Linux, WSL2</td>
 <td>as described</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Windows, PowerShell or cmd</td>
-<td>the <code>cd "$(...)"</code> line is bash; run it from WSL2 or Git Bash, or <code>cd</code> by hand and run the <code>claude ...</code> part</td>
+<td>the <code>cd "$(...)"</code> line is bash; run it from WSL2 or Git
+Bash, or <code>cd</code> by hand and run the <code>claude ...</code>
+part</td>
 </tr>
 </tbody>
 </table>
-<h2 id="what-it-costs-and-what-it-changes">What it costs and what it changes</h2>
+<h2 id="what-it-costs-and-what-it-changes">What it costs and what it
+changes</h2>
 <ul>
-<li><strong>Cost.</strong> Your first message sends the transcript as context. The stage page's <code>tokens in</code> is summed over every turn of the leg, so it is far larger than what the fork reloads; the fork's cost is closer to the length of the transcript file (a rough guide: 4 characters to a token). It runs on your account and your usage.</li>
-<li><strong>Your machine.</strong> Claude Code writes its usual records: the fork's transcript under <code>~/.claude/projects/&lt;your path, encoded&gt;/</code>, the trust decision, your prompt history. It writes nothing in the clone.</li>
-<li><strong>The repository.</strong> Unchanged. <code>git status</code> after the talk shows nothing new; if it does, <code>git checkout -- .</code> restores it.</li>
+<li><strong>Cost.</strong> Your first message sends the transcript as
+context. The stage page's <code>tokens in</code> is summed over every
+turn of the leg, so it is far larger than what the fork reloads; the
+fork's cost is closer to the length of the transcript file (a rough
+guide: 4 characters to a token). It runs on your account and your
+usage.</li>
+<li><strong>Your machine.</strong> Claude Code writes its usual records:
+the fork's transcript under
+<code>~/.claude/projects/&lt;your path, encoded&gt;/</code>, the trust
+decision, your prompt history. It writes nothing in the clone.</li>
+<li><strong>The repository.</strong> Unchanged. <code>git status</code>
+after the talk shows nothing new; if it does,
+<code>git checkout -- .</code> restores it.</li>
 </ul>
 <h2 id="checking-before-you-run-it">Checking before you run it</h2>
-<ol>
-<li>Open the transcript and read the last few lines: that is where the fork starts.</li>
-<li>Open <code>00_GIVE-THE-AGENT/.claude/settings.json</code> and <code>CLAUDE.md</code>.</li>
-<li>Run <code>claude --help</code> and check the flags above exist in your version.</li>
-<li>Run the command. Ask first what the analyst was doing when the leg closed; the answer should match the last lines you read.</li>
+<ol type="1">
+<li>Open the transcript and read the last few lines: that is where the
+fork starts.</li>
+<li>Open <code>00_GIVE-THE-AGENT/.claude/settings.json</code> and
+<code>CLAUDE.md</code>.</li>
+<li>Run <code>claude --help</code> and check the flags above exist in
+your version.</li>
+<li>Run the command. Ask first what the analyst was doing when the leg
+closed; the answer should match the last lines you read.</li>
 </ol>
-<p>Good first questions, at any leg: what did you read in this leg, and what did you decide; which room surprised you, and why; what would you do differently. At an interview point, the analyst's brief (linked on the stage page) ends with the three questions it would most like to be asked.</p>
-<h2 id="interviews-which-are-the-run-owners">Interviews, which are the run owner's</h2>
-<p><a href="files/aggregator/harness-interview-sh.html">interview.sh</a> makes a fork for the run's owner, on the run's own login (<code>CLAUDE_CONFIG_DIR=CONTROL/.cc</code>), at an interview point. It is not read-only: it runs in a copy of the analyst's folder restored from the leg's checkpoint (<code>interview-workspaces/&lt;LABEL&gt;__&lt;fork&gt;/</code>), with the leg's sessions in a project of its own, so the analyst sees its files as they stood at the close, you may add material, and nothing reaches the live run. It records the fork in <code>CONTROL/interviews.tsv</code>, copies its transcript to <code>RUN/interviews/&lt;LABEL&gt;__&lt;fork&gt;.jsonl</code>, and runs <code>publish.sh</code>. A transcript is committed only if the owner decides so, interview by interview; one that is committed gets its own talk command on the stage page. The owner's reply to the analyst is a file, <code>out/interview/&lt;brief&gt;-reply.md</code>, which the next leg's startup message names. From the leg handler's chat, <code>?&lt;leg&gt; text</code> (or <code>legs.py interview</code>) opens the same kind of fork; its transcript stays in the run's Claude folder (<code>CONTROL/.cc/projects/iv-&lt;fork&gt;/</code>), on disk and not committed. Both kinds reach the analyst at stage E2a: <code>step.sh</code> copies every interview listed in <code>CONTROL/interviews.tsv</code> into its <code>handling/interviews/</code>.</p>
-<h2 id="continuing-the-run-how-a-leg-starts-and-ends">Continuing the run: how a leg starts and ends</h2>
+<p>Good first questions, at any leg: what did you read in this leg, and
+what did you decide; which room surprised you, and why; what would you
+do differently. At an interview point, the analyst's brief (linked on
+the stage page) ends with the three questions it would most like to be
+asked.</p>
+<h2 id="interviews-which-are-the-run-owners">Interviews, which are the
+run owner's</h2>
+<p><a href="files/aggregator/harness-interview-sh.html">interview.sh</a>
+makes a fork for the run's owner, on the run's own login
+(<code>CLAUDE_CONFIG_DIR=CONTROL/.cc</code>), at an interview point. It
+is not read-only: it runs in a copy of the analyst's folder restored
+from the leg's checkpoint
+(<code>interview-workspaces/&lt;LABEL&gt;__&lt;fork&gt;/</code>), with
+the leg's sessions in a project of its own, so the analyst sees its
+files as they stood at the close, you may add material, and nothing
+reaches the live run. It records the fork in
+<code>CONTROL/interviews.tsv</code>, copies its transcript to
+<code>RUN/interviews/&lt;LABEL&gt;__&lt;fork&gt;.jsonl</code>, and runs
+<code>publish.sh</code>. A transcript is committed only if the owner
+decides so, interview by interview; one that is committed gets its own
+talk command on the stage page. The owner's reply to the analyst is a
+file, <code>out/interview/&lt;brief&gt;-reply.md</code>, which the next
+leg's startup message names. From the leg handler's chat,
+<code>?&lt;leg&gt; text</code> (or <code>legs.py interview</code>) opens
+the same kind of fork; its transcript stays in the run's Claude folder
+(<code>CONTROL/.cc/projects/iv-&lt;fork&gt;/</code>), on disk and not
+committed. Both kinds reach the analyst at stage E2a:
+<code>step.sh</code> copies every interview listed in
+<code>CONTROL/interviews.tsv</code> into its
+<code>handling/interviews/</code>.</p>
+<h2 id="continuing-the-run-how-a-leg-starts-and-ends">Continuing the
+run: how a leg starts and ends</h2>
 <p>The run owner's loop. Each step is one script with its own page.</p>
-<ol>
-<li><strong><code>step.sh &lt;leg&gt;</code></strong> (<a href="files/aggregator/harness-step-sh.html">page</a>):
+<ol type="1">
+<li><strong><code>step.sh &lt;leg&gt;</code></strong> (<a
+href="files/aggregator/harness-step-sh.html">page</a>):
 <ul>
 <li>checks the leg id against <code>tools/steps.tsv</code>;</li>
-<li>refuses if an API key or gateway is set in the shell (the analyst runs on the subscription);</li>
-<li>delivers the stage's files from <code>DROPS/</code> on its first leg;</li>
-<li>writes the startup message to <code>CONTROL/next_prompt.txt</code>;</li>
-<li>records a new session id in <code>CONTROL/pending_launch.json</code>.</li>
+<li>refuses if an API key or gateway is set in the shell (the analyst
+runs on the subscription);</li>
+<li>delivers the stage's files from <code>DROPS/</code> on its first
+leg;</li>
+<li>writes the startup message to
+<code>CONTROL/next_prompt.txt</code>;</li>
+<li>records a new session id in
+<code>CONTROL/pending_launch.json</code>.</li>
 </ul></li>
-<li><strong><code>launch.sh</code></strong> (<a href="files/aggregator/harness-launch-sh.html">page</a>) hands over to <code>protocol_guard.py launch</code>, under a lock so two launches cannot overlap. It:
+<li><strong><code>launch.sh</code></strong> (<a
+href="files/aggregator/harness-launch-sh.html">page</a>) hands over to
+<code>protocol_guard.py launch</code>, under a lock so two launches
+cannot overlap. It:
 <ul>
-<li>rewrites <code>.claude/settings.json</code> for this run's paths;</li>
-<li>starts <code>claude</code> in <code>00_GIVE-THE-AGENT/</code> with the run's own login, the session id, the leg's model and effort, no MCP servers, no auto memory, and the startup message;</li>
+<li>rewrites <code>.claude/settings.json</code> for this run's
+paths;</li>
+<li>starts <code>claude</code> in <code>00_GIVE-THE-AGENT/</code> with
+the run's own login, the session id, the leg's model and effort, no MCP
+servers, no auto memory, and the startup message;</li>
 <li>records the exit in <code>CONTROL/last_launch_exit.json</code>.</li>
 </ul></li>
-<li><strong>The analyst works</strong>, and ends the leg with <code>tools/done.sh</code> (<a href="files/aggregator/tool-done-sh.html">page</a>), which checks its own outputs and writes <code>out/_closes/&lt;stage&gt;-&lt;leg&gt;.closed</code>.</li>
-<li><strong><code>close.sh &lt;leg&gt;</code></strong> (<a href="files/aggregator/harness-close-sh.html">page</a>):
+<li><strong>The analyst works</strong>, and ends the leg with
+<code>tools/done.sh</code> (<a
+href="files/aggregator/tool-done-sh.html">page</a>), which checks its
+own outputs and writes
+<code>out/_closes/&lt;stage&gt;-&lt;leg&gt;.closed</code>.</li>
+<li><strong><code>close.sh &lt;leg&gt;</code></strong> (<a
+href="files/aggregator/harness-close-sh.html">page</a>):
 <ul>
-<li>runs the handler's check, takes the snap and runs the recall probe;</li>
+<li>runs the handler's check, takes the snap and runs the recall
+probe;</li>
 <li>copies the transcript into <code>out/_transcripts/</code>;</li>
-<li>builds the checkpoint in <code>CONTROL/snapshots/&lt;LABEL&gt;/</code>, marked <code>COMMITTED</code> last;</li>
+<li>builds the checkpoint in
+<code>CONTROL/snapshots/&lt;LABEL&gt;/</code>, marked
+<code>COMMITTED</code> last;</li>
 <li>prints the next step;</li>
-<li>calls <a href="files/aggregator/harness-publish-sh.html">publish.sh</a>, which regenerates this Manual, commits, tags interview points and finished stages, and pushes.</li>
+<li>calls <a
+href="files/aggregator/harness-publish-sh.html">publish.sh</a>, which
+regenerates this Manual, commits, tags interview points and finished
+stages, and pushes.</li>
 </ul></li>
 </ol>
-<p>The <a href="../aggregator/handler/claude-adapter/LEGS.md">leg handler</a> (<code>legs.py</code>) runs the same loop without a terminal per leg: <code>step.sh &lt;leg&gt; --prepare</code> in place of the interactive launch, one headless Claude turn per message (<code>claude -p</code>, stream-json, the leg's session forked or resumed as <code>step.sh</code> prepared it), then <code>close.sh</code>. Words the owner sends during a turn reach the analyst beside its next tool result, with a receipt, and are recorded with their delivery in <code>CONTROL/messages-to-legs.jsonl</code>.</p>
-<p>A paused leg continues as <code>&lt;leg&gt;-p2</code>; <code>close.sh</code> prints the id. Every leg already continues the last close's conversation. <code>step.sh &lt;leg&gt; --from-cut &lt;LABEL&gt;</code> names that cut explicitly, and only the last close is accepted; an older state is talked to through an interview, in a copy of its own.</p>
-<h2 id="what-a-clone-can-resume-and-what-it-cannot">What a clone can resume, and what it cannot</h2>
+<p>The <a href="../aggregator/handler/claude-adapter/LEGS.md">leg
+handler</a> (<code>legs.py</code>) runs the same loop without a terminal
+per leg: <code>step.sh &lt;leg&gt; --prepare</code> in place of the
+interactive launch, one headless Claude turn per message
+(<code>claude -p</code>, stream-json, the leg's session forked or
+resumed as <code>step.sh</code> prepared it), then
+<code>close.sh</code>. Words the owner sends during a turn reach the
+analyst beside its next tool result, with a receipt, and are recorded
+with their delivery in <code>CONTROL/messages-to-legs.jsonl</code>.</p>
+<p>A paused leg continues as <code>&lt;leg&gt;-p2</code>;
+<code>close.sh</code> prints the id. Every leg already continues the
+last close's conversation.
+<code>step.sh &lt;leg&gt; --from-cut &lt;LABEL&gt;</code> names that cut
+explicitly, and only the last close is accepted; an older state is
+talked to through an interview, in a copy of its own.</p>
+<h2 id="what-a-clone-can-resume-and-what-it-cannot">What a clone can
+resume, and what it cannot</h2>
 <ul>
-<li><strong>Talk with any closed leg or interview:</strong> yes, with the command above.</li>
-<li><strong>Start a run of your own from the instrument:</strong> yes; see <a href="index.html#start-a-run-of-your-own">the Manual's front page</a>. Build it outside the clone.</li>
-<li><strong>Continue this run from a cut, on your machine:</strong> not ready.
+<li><strong>Talk with any closed leg or interview:</strong> yes, with
+the command above.</li>
+<li><strong>Start a run of your own from the instrument:</strong> yes;
+see <a href="index.html#start-a-run-of-your-own">the Manual's front
+page</a>. Build it outside the clone.</li>
+<li><strong>Continue this run from a cut, on your machine:</strong> not
+ready.
 <ul>
-<li><code>step.sh --from-cut</code> looks for the parent session in the run's live store (<code>CONTROL/.cc/projects/run/&lt;id&gt;.jsonl</code>), which git does not carry. You would put the transcript there first, from <code>out/_transcripts/</code> or the cut's <code>agent.tar.gz</code>, log in the run's Claude, and run <code>acceptance.sh</code>.</li>
-<li>The analyst's files in the clone are the run's latest state, not the cut's. Restoring a checkpoint's folder was a v37 script, <code>restore_stage.sh</code>, <a href="../aggregator/instrument/tools/TOOLS-STATUS.md">not ported to v38</a>.</li>
-<li>Nobody has tried this path. Treat it as a design, not a procedure.</li>
+<li><code>step.sh --from-cut</code> looks for the parent session in the
+run's live store
+(<code>CONTROL/.cc/projects/run/&lt;id&gt;.jsonl</code>), which git does
+not carry. You would put the transcript there first, from
+<code>out/_transcripts/</code> or the cut's <code>agent.tar.gz</code>,
+log in the run's Claude, and run <code>acceptance.sh</code>.</li>
+<li>The analyst's files in the clone are the run's latest state, not the
+cut's. Restoring a checkpoint's folder was a v37 script,
+<code>restore_stage.sh</code>, <a
+href="../aggregator/instrument/tools/TOOLS-STATUS.md">not ported to
+v38</a>.</li>
+<li>Nobody has tried this path. Treat it as a design, not a
+procedure.</li>
 </ul></li>
 </ul>
 </body>

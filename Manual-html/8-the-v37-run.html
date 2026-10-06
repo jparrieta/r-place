@@ -6,52 +6,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The v37 run</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="manual.css" />
 </head>
 <body>
 <nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/8-the-v37-run.md">Markdown source</a></nav>
 <h1 id="the-v37-run">The v37 run</h1>
-<p><em>Kind of page: explanation: the previous run, for comparison.</em></p>
-<p>The aggregator's previous run: <code>gioia-j-sonnet-v37-20260908</code>. It ran contract v37, the version before this repository's v38, and the v38 design work began by reading its handler log.</p>
-<p>Not shipped. This repository carries one full run, v38's; earlier runs are described, not included. The v37 instrument's texts are in the <a href="../archive/instrument-history.tar.gz">history bundle</a>, under <code>aggregator/v37/</code>.</p>
+<p><em>Kind of page: explanation: the previous run, for
+comparison.</em></p>
+<p>The aggregator's previous run:
+<code>gioia-j-sonnet-v37-20260908</code>. It ran contract v37, the
+version before this repository's v38, and the v38 design work began by
+reading its handler log.</p>
+<p>Not shipped. This repository carries one full run, v38's; earlier
+runs are described, not included. The v37 instrument's texts are in the
+<a href="../archive/instrument-history.tar.gz">history bundle</a>, under
+<code>aggregator/v37/</code>.</p>
 <h2 id="what-it-was">What it was</h2>
-<p>One analyst, a Claude Code session on J's Mac, worked inside <code>00_GIVE-THE-AGENT/</code> and saw nothing else. A handler, a Cowork session with the whole run folder mounted, closed stages, took checkpoints and answered the analyst in files. J opened and closed the analyst's session in Terminal and made the author's judgements. The handover of 2026-09-08 records that "every role is on <code>claude-sonnet-5</code>", instrument v37 with fingerprint <code>2e1e4686828a3c1e…</code>, eighteen stages in the older numbering (01 to 18), declared fork points at the close of 01, 06 and 09, and per-stage token ceilings at 04, 10 and 14.</p>
-<p>Three defects stopped the run from starting and were fixed before stage 01: the fence denied the analyst its own folder, the analyst inherited the account's claude.ai connectors, and its config folder had no login. No fork was taken at 01.</p>
+<p>One analyst, a Claude Code session on J's Mac, worked inside
+<code>00_GIVE-THE-AGENT/</code> and saw nothing else. A handler, a
+Cowork session with the whole run folder mounted, closed stages, took
+checkpoints and answered the analyst in files. J opened and closed the
+analyst's session in Terminal and made the author's judgements. The
+handover of 2026-09-08 records that "every role is on
+<code>claude-sonnet-5</code>", instrument v37 with fingerprint
+<code>2e1e4686828a3c1e…</code>, eighteen stages in the older numbering
+(01 to 18), declared fork points at the close of 01, 06 and 09, and
+per-stage token ceilings at 04, 10 and 14.</p>
+<p>Three defects stopped the run from starting and were fixed before
+stage 01: the fence denied the analyst its own folder, the analyst
+inherited the account's claude.ai connectors, and its config folder had
+no login. No fork was taken at 01.</p>
 <h2 id="what-it-reached-and-learned">What it reached and learned</h2>
-<p>The handovers stop at stage 02. The resume notes and the handler's close-out, which sits in the run under <code>CONTROL/handler-log/</code> and in the Claude project, carry it further: the run closed on 2026-09-21 after all eighteen stages, with eighteen committed checkpoints from <code>start</code> to <code>step-18</code>. Stages 07, 08 and 09 ran in one session and built the model; five model files are byte-identical from the stage 09 snap to the stage 18 snap.</p>
+<p>The handovers stop at stage 02. The resume notes and the handler's
+close-out, which sits in the run under <code>CONTROL/handler-log/</code>
+and in the Claude project, carry it further: the run closed on
+2026-09-21 after all eighteen stages, with eighteen committed
+checkpoints from <code>start</code> to <code>step-18</code>. Stages 07,
+08 and 09 ran in one session and built the model; five model files are
+byte-identical from the stage 09 snap to the stage 18 snap.</p>
 <p>What the close-out carried forward to v38:</p>
 <ul>
-<li>The stage file and the close-check were frozen apart; six validator amendments followed.</li>
-<li>Packets must be sized against the reading tool: packets of 142 to 329 KB failed 21 times at stage 14; rebuilt at about 50 KB, all fourteen returned first time.</li>
-<li>Build, dispatch, check: "a launch that dispatches does nothing else; a launch that thinks dispatches nothing".</li>
-<li>The cheap reader fleet did 87 per cent of the tokens for 12 per cent of the cost on three metered stages.</li>
+<li>The stage file and the close-check were frozen apart; six validator
+amendments followed.</li>
+<li>Packets must be sized against the reading tool: packets of 142 to
+329 KB failed 21 times at stage 14; rebuilt at about 50 KB, all fourteen
+returned first time.</li>
+<li>Build, dispatch, check: "a launch that dispatches does nothing else;
+a launch that thinks dispatches nothing".</li>
+<li>The cheap reader fleet did 87 per cent of the tokens for 12 per cent
+of the cost on three metered stages.</li>
 </ul>
-<p>It also left open questions: which null model is declared first at stage 17, 290 of 2,703 case themes with no placement, and two ordering claims whose snaps were deleted and retaken.</p>
-<h2 id="how-to-resume-or-fork-one-of-its-steps">How to resume or fork one of its steps</h2>
+<p>It also left open questions: which null model is declared first at
+stage 17, 290 of 2,703 case themes with no placement, and two ordering
+claims whose snaps were deleted and retaken.</p>
+<h2 id="how-to-resume-or-fork-one-of-its-steps">How to resume or fork
+one of its steps</h2>
 <p>From <code>RESUME/README.md</code> in the run folder:</p>
-<ol>
-<li>Run <code>RESUME/open-stage.sh</code> for step-09, the close where "the model is freshest", or <code>open-stage.sh step-10</code> for another close. It restores the checkpoint into a new dated folder under <code>~/Jail/interviews/</code>, verifies it file by file, prints the session id and opens the Claude Code CLI. <code>NO_OPEN=1</code> restores without opening.</li>
-<li>Paste <code>PREAMBLE.md</code> as the first message. Without it the analyst tries to run the next stage.</li>
+<ol type="1">
+<li>Run <code>RESUME/open-stage.sh</code> for step-09, the close where
+"the model is freshest", or <code>open-stage.sh step-10</code> for
+another close. It restores the checkpoint into a new dated folder under
+<code>~/Jail/interviews/</code>, verifies it file by file, prints the
+session id and opens the Claude Code CLI. <code>NO_OPEN=1</code>
+restores without opening.</li>
+<li>Paste <code>PREAMBLE.md</code> as the first message. Without it the
+analyst tries to run the next stage.</li>
 </ol>
 <p>What the README says to know first:</p>
 <ul>
-<li>It runs on the subscription only, not through OpenRouter; a session cannot change route once served.</li>
-<li>It works only in the Claude Code CLI; the desktop app, the web and the editor extension keep their own session stores.</li>
-<li>Each restore is a fresh copy, about 165 MB for step-09, and took 43 seconds in the test of 2026-09-22.</li>
-<li>On macOS the restore needs <code>umask 077</code>, which <code>open-stage.sh</code> sets; <code>restore_stage.sh</code> creates two folders before extracting and their modes otherwise fail the check. <code>RESUME/diagnose.sh</code> names the tree that differs.</li>
-<li>Every checkpoint carries <code>session.boundary_verified: false</code>; the restore checks the boundary itself and refuses on a mismatch.</li>
-<li>The restored folder holds the stage files for 10 to 18. The sandbox denies them to the analyst, not to a person at the terminal.</li>
+<li>It runs on the subscription only, not through OpenRouter; a session
+cannot change route once served.</li>
+<li>It works only in the Claude Code CLI; the desktop app, the web and
+the editor extension keep their own session stores.</li>
+<li>Each restore is a fresh copy, about 165 MB for step-09, and took 43
+seconds in the test of 2026-09-22.</li>
+<li>On macOS the restore needs <code>umask 077</code>, which
+<code>open-stage.sh</code> sets; <code>restore_stage.sh</code> creates
+two folders before extracting and their modes otherwise fail the check.
+<code>RESUME/diagnose.sh</code> names the tree that differs.</li>
+<li>Every checkpoint carries
+<code>session.boundary_verified: false</code>; the restore checks the
+boundary itself and refuses on a mismatch.</li>
+<li>The restored folder holds the stage files for 10 to 18. The sandbox
+denies them to the analyst, not to a person at the terminal.</li>
 </ul>
-<p><code>RESUME/NOTE-TO-THE-VISITOR.md</code> is the message to send someone who will talk to the resumed analyst. It warns that a shared session is write access, and that the copy holds the coded Reddit material with real usernames.</p>
-<p>A fork, as distinct from a resume, went through v37's <code>fork.sh</code> and <code>restore_stage.sh</code>, which <a href="../aggregator/instrument/tools/TOOLS-STATUS.md">TOOLS-STATUS.md</a> lists as not ported to v38.</p>
+<p><code>RESUME/NOTE-TO-THE-VISITOR.md</code> is the message to send
+someone who will talk to the resumed analyst. It warns that a shared
+session is write access, and that the copy holds the coded Reddit
+material with real usernames.</p>
+<p>A fork, as distinct from a resume, went through v37's
+<code>fork.sh</code> and <code>restore_stage.sh</code>, which <a
+href="../aggregator/instrument/tools/TOOLS-STATUS.md">TOOLS-STATUS.md</a>
+lists as not ported to v38.</p>
 <h2 id="where-it-lives">Where it lives</h2>
-<p>The run folder is 5.2 GB in 9,333 files. Its checkpoint tarballs, one per step, are each over 95 MB. It is not in this repository: the repository carries one run, v38's. The v37 instrument's own texts are in the <a href="../archive/instrument-history.tar.gz">history bundle</a>, under <code>aggregator/v37/</code>.</p>
+<p>The run folder is 5.2 GB in 9,333 files. Its checkpoint tarballs, one
+per step, are each over 95 MB. It is not in this repository: the
+repository carries one run, v38's. The v37 instrument's own texts are in
+the <a href="../archive/instrument-history.tar.gz">history bundle</a>,
+under <code>aggregator/v37/</code>.</p>
 </body>
 </html>

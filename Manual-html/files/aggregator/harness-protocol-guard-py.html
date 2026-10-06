@@ -6,27 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`harness/protocol_guard.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/harness-protocol-guard-py.md">Markdown source</a></nav>
-<h1 id="harnessprotocol_guardpy"><code>harness/protocol_guard.py</code></h1>
-<p>The handler-side guards: settings, launch, probe, close and checkpoint.</p>
+<h1
+id="harnessprotocol_guardpy"><code>harness/protocol_guard.py</code></h1>
+<p>The handler-side guards: settings, launch, probe, close and
+checkpoint.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Operations: <code>settings</code> (renders <code>.claude/settings.json</code> per stage, adding denies for folders beside the run, <code>INPUT/</code>, any <code>.git</code>, some home folders, and before E1 <code>out/_probe</code> and <code>out/_transcripts</code>; sets transcript retention to 36,500 days); <code>prepare</code>, <code>confirm</code>, <code>launch</code> (a fresh session id per leg, or a fork from a cut); <code>preclose</code> (the trusted validator, run isolated); <code>probe</code> (a headless forked turn, tools disallowed); <code>capture</code> (the analyst's folder whole, and of the run's Claude folder only <code>projects/run/</code>, the run's own sessions), <code>cost</code> (a leg's turns, tokens and the models that served, from its transcript; at a forked leg's first close it skips the parent's messages, which the fork copied with their ids, so the model audit reads the leg's own replies; v43.2, 6 October 2026), <code>verify-checkpoint</code>, <code>verify-tree</code>, <code>advance</code>, <code>arm</code>, and <code>locked</code> (one lock per run).</p>
+<p>Operations: <code>settings</code> (renders
+<code>.claude/settings.json</code> per stage, adding denies for folders
+beside the run, <code>INPUT/</code>, any <code>.git</code>, some home
+folders, and before E1 <code>out/_probe</code> and
+<code>out/_transcripts</code>; sets transcript retention to 36,500
+days); <code>prepare</code>, <code>confirm</code>, <code>launch</code>
+(a fresh session id per leg, or a fork from a cut);
+<code>preclose</code> (the trusted validator, run isolated);
+<code>probe</code> (a headless forked turn, tools disallowed);
+<code>capture</code> (the analyst's folder whole, and of the run's
+Claude folder only <code>projects/run/</code>, the run's own sessions),
+<code>cost</code> (a leg's turns, tokens and the models that served,
+from its transcript; at a forked leg's first close it skips the parent's
+messages, which the fork copied with their ids, so the model audit reads
+the leg's own replies; v43.2, 6 October 2026),
+<code>verify-checkpoint</code>, <code>verify-tree</code>,
+<code>advance</code>, <code>arm</code>, and <code>locked</code> (one
+lock per run).</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p><code>step.sh</code>, <code>launch.sh</code>, <code>close.sh</code> and <code>acceptance.sh</code> call it; never the analyst.</p>
+<p><code>step.sh</code>, <code>launch.sh</code>, <code>close.sh</code>
+and <code>acceptance.sh</code> call it; never the analyst.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>An ordinary leg forks the last close's session (<code>step.sh</code>); only the run's first leg, or one opened with <code>--fresh</code>, is fresh. The E1 wall is held "by the permission rules and by the sandbox, not only by the stage file". It never runs analyst-writable code with the handler's access.</p>
+<p>An ordinary leg forks the last close's session
+(<code>step.sh</code>); only the run's first leg, or one opened with
+<code>--fresh</code>, is fresh. The E1 wall is held "by the permission
+rules and by the sandbox, not only by the stage file". It never runs
+analyst-writable code with the handler's access.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/protocol_guard.py">harness/protocol_guard.py</a>.</p>
-<p>Checked against: harness/protocol_guard.py, harness/step.sh, harness/close.sh.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/protocol_guard.py">harness/protocol_guard.py</a>.</p>
+<p>Checked against: harness/protocol_guard.py, harness/step.sh,
+harness/close.sh.</p>
 </body>
 </html>

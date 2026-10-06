@@ -1,0 +1,33 @@
+{
+ "t": "2026-10-06T12:29:30+00:00",
+ "stage": "A1",
+ "leg": "A1a",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "denmark"
+  ],
+  "changed": [],
+  "next": "the tools pass, then the package checks"
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "n/a",
+  "next": "missing"
+ },
+ "scored": 3,
+ "unscored": [
+  "open",
+  "changed"
+ ],
+ "misses": [
+  "goal",
+  "rooms",
+  "next"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

@@ -6,27 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`tools/handoff.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-handoff-py.md">Markdown source</a></nav>
 <h1 id="toolshandoffpy"><code>tools/handoff.py</code></h1>
-<p>Stage D1's builder of the labelers' folder and the verdict packets.</p>
+<p>Stage D1's builder of the labelers' folder and the verdict
+packets.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>From the frozen model, the scheme, the assignments, <code>prior.md</code> §8, the store, the coder documents, the forests and the <code>handoff/</code> templates, it writes <code>out/handoff-D/</code> (<code>VERSION</code>, <code>VOCABULARY.json</code>, <code>MODEL.md</code>, <code>LADDER.md</code>, <code>RETURN-D.md</code>, <code>HANDLER.md</code>, <code>tasks/&lt;sub&gt;/</code> and <code>tasks/index.tsv</code>), <code>out/verdict-D/&lt;sub&gt;.md</code> with <code>RETURN-D2v.md</code> and <code>RETURN-D2v.schema.json</code>, and <code>handoff-D.sha256</code>. The expectations and the field's entries are sealed apart and never served: <code>out/sealed/EXPECTATIONS.jsonl</code> and <code>out/sealed/FIELD.jsonl</code>, the latter written once, at D1. <code>--recheck</code> builds <code>handoff-D/recheck/</code> for D3.</p>
+<p>From the frozen model, the scheme, the assignments,
+<code>prior.md</code> §8, the store, the coder documents, the forests
+and the <code>handoff/</code> templates, it writes
+<code>out/handoff-D/</code> (<code>VERSION</code>,
+<code>VOCABULARY.json</code>, <code>MODEL.md</code>,
+<code>LADDER.md</code>, <code>RETURN-D.md</code>,
+<code>HANDLER.md</code>, <code>tasks/&lt;sub&gt;/</code> and
+<code>tasks/index.tsv</code>), <code>out/verdict-D/&lt;sub&gt;.md</code>
+with <code>RETURN-D2v.md</code> and <code>RETURN-D2v.schema.json</code>,
+and <code>handoff-D.sha256</code>. The expectations and the field's
+entries are sealed apart and never served:
+<code>out/sealed/EXPECTATIONS.jsonl</code> and
+<code>out/sealed/FIELD.jsonl</code>, the latter written once, at D1.
+<code>--recheck</code> builds <code>handoff-D/recheck/</code> for
+D3.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Shipped in the analyst's <code>tools/</code>; the analyst runs it at D1 after writing <code>MODEL-D1.md</code> and <code>EXPECTATIONS-D1.jsonl</code>.</p>
+<p>Shipped in the analyst's <code>tools/</code>; the analyst runs it at
+D1 after writing <code>MODEL-D1.md</code> and
+<code>EXPECTATIONS-D1.jsonl</code>.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>It "writes no judgement": the model's prose and the expectations are the analyst's. METHOD: the return is Eisenhardt's only if something is predicted before it is seen, hence the expectations. A room whose task cannot be built is listed in <code>UNBUILT.tsv</code>, "not invented".</p>
+<p>It "writes no judgement": the model's prose and the expectations are
+the analyst's. METHOD: the return is Eisenhardt's only if something is
+predicted before it is seen, hence the expectations. A room whose task
+cannot be built is listed in <code>UNBUILT.tsv</code>, "not
+invented".</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/handoff.py">tools/handoff.py</a>.</p>
-<p>Checked against: tools/handoff.py, METHOD.md, FLEET.md §3, handoff/HANDLER.md.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/handoff.py">tools/handoff.py</a>.</p>
+<p>Checked against: tools/handoff.py, METHOD.md, FLEET.md §3,
+handoff/HANDLER.md.</p>
 </body>
 </html>

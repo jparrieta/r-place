@@ -6,27 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`harness/after_compact.sh`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/harness-after-compact-sh.md">Markdown source</a></nav>
-<h1 id="harnessafter_compactsh"><code>harness/after_compact.sh</code></h1>
+<h1
+id="harnessafter_compactsh"><code>harness/after_compact.sh</code></h1>
 <p>The hook that runs after a compaction of the analyst's context.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>It prints a short instruction naming the stage and leg (from <code>.stage</code> and <code>.leg</code>): read <code>out/_head.md</code> in full; read the stage file in full; run <code>mem.py diary --last 5</code>; reconcile the head with the diary and log it (<code>mem.py log "compacted; head reconciled" --kind note</code>); then continue where the diary says the leg stopped. At stage A1 it also prints the next room from <code>mem.py next</code>. It writes <code>CONTROL/.compact-gate.json</code>, and <a href="harness-pretool-guard-py.html">pretool_guard.py</a> refuses every other call until the head, the stage file and the diary are read; <code>step.sh</code> sets a gate left by an earlier leg aside.</p>
+<p>It prints a short instruction naming the stage and leg (from
+<code>.stage</code> and <code>.leg</code>): read
+<code>out/_head.md</code> in full; read the stage file in full; run
+<code>mem.py diary --last 5</code>; reconcile the head with the diary
+and log it
+(<code>mem.py log "compacted; head reconciled" --kind note</code>); then
+continue where the diary says the leg stopped. At stage A1 it also
+prints the next room from <code>mem.py next</code>. It writes
+<code>CONTROL/.compact-gate.json</code>, and <a
+href="harness-pretool-guard-py.html">pretool_guard.py</a> refuses every
+other call until the head, the stage file and the diary are read;
+<code>step.sh</code> sets a gate left by an earlier leg aside.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Claude Code's SessionStart hook with matcher <code>compact</code>, as <code>settings.json</code> names it. It lives in <code>CONTROL/harness/</code>, where the analyst cannot edit it.</p>
+<p>Claude Code's SessionStart hook with matcher <code>compact</code>, as
+<code>settings.json</code> names it. It lives in
+<code>CONTROL/harness/</code>, where the analyst cannot edit it.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>STANDING §2: a long reading leg "will compact, more than once, and you cannot see it happen"; "what is on disk survives it." Its header: hook output over about 10,000 characters is cut to a preview, so it names the files to read and never pastes them. <code>acceptance.sh</code> checks it prints under 9,000 characters.</p>
+<p>STANDING §2: a long reading leg "will compact, more than once, and
+you cannot see it happen"; "what is on disk survives it." Its header:
+hook output over about 10,000 characters is cut to a preview, so it
+names the files to read and never pastes them.
+<code>acceptance.sh</code> checks it prints under 9,000 characters.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/after_compact.sh">harness/after_compact.sh</a>.</p>
-<p>Checked against: harness/after_compact.sh, harness/settings.template.json, harness/acceptance.sh, STANDING-INSTRUCTIONS.md §2.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/after_compact.sh">harness/after_compact.sh</a>.</p>
+<p>Checked against: harness/after_compact.sh,
+harness/settings.template.json, harness/acceptance.sh,
+STANDING-INSTRUCTIONS.md §2.</p>
 </body>
 </html>

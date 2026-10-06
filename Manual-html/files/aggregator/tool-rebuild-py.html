@@ -6,27 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`tools/rebuild.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-rebuild-py.md">Markdown source</a></nav>
 <h1 id="toolsrebuildpy"><code>tools/rebuild.py</code></h1>
-<p>A room's model rebuilt from the global model plus its accepted adaptations.</p>
+<p>A room's model rebuilt from the global model plus its accepted
+adaptations.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>It prints the skeleton: every element of the global model at the frozen version, in dimension order, with the room's accepted or modified lines applied (instantiated with source theme and how, absent, conditioned, extended by a step, linked, restricted, contradicted), and the proposed elements the room contributed. <code>--json</code> gives the same as data.</p>
+<p>It prints the skeleton: every element of the global model at the
+frozen version, in dimension order, with the room's accepted or modified
+lines applied (instantiated with source theme and how, absent,
+conditioned, extended by a step, linked, restricted, contradicted), and
+the proposed elements the room contributed. <code>--json</code> gives
+the same as data.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Shipped in the analyst's <code>tools/</code>. <code>packets.py E1</code> calls it for each sampled room.</p>
+<p>Shipped in the analyst's <code>tools/</code>.
+<code>packets.py E1</code> calls it for each sampled room.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>METHOD: E1 "rebuilds sampled rooms from the global model plus their adaptations"; the contract's §2 says the typing exists so "a room's model can be rebuilt from the global model plus its adaptations." It never reads <code>model-D.md</code>, so the E1 reader compares the rebuild with the coder's blind <code>case.md</code>.</p>
+<p>METHOD: E1 "rebuilds sampled rooms from the global model plus their
+adaptations"; the contract's §2 says the typing exists so "a room's
+model can be rebuilt from the global model plus its adaptations." It
+never reads <code>model-D.md</code>, so the E1 reader compares the
+rebuild with the coder's blind <code>case.md</code>.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/rebuild.py">tools/rebuild.py</a>.</p>
-<p>Checked against: tools/rebuild.py, tools/packets.py, METHOD.md, CONTRACT-aggregator.md §2.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/rebuild.py">tools/rebuild.py</a>.</p>
+<p>Checked against: tools/rebuild.py, tools/packets.py, METHOD.md,
+CONTRACT-aggregator.md §2.</p>
 </body>
 </html>

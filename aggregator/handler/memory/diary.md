@@ -1,3 +1,10 @@
 # Diary
 
 One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with what result`.
+- 2026-10-06 12:10 read HANDLER.md, LEGS.md and the 17 messages to the handler in Orchestrator/messages/ (latest 09-10Z set-aside rule); run fingerprint in CONTROL/RUN.json is 74db41ef9490edae, as that message names; HEAD.md reports J's acceptance 22/22 and 23/23 on it; git log shows f6588ae3 and 264ab035 with origin set. verify.sh result not seen by the handler.
+- 2026-10-06 12:13 the handler's git status in the Cowork shell left an empty .git/index.lock; moved to Jail/_to_delete/r-place/.git/index.20261006T121237Z.lock, line in WHY.tsv (a first mv overwrote the old .git's empty lock there; recreated). Rule for the handler: no git from the Cowork shell.
+- 2026-10-06 12:14 seeded open-items.md from Orchestrator/HEAD.md, "Open".
+- 2026-10-06 12:15 legs.py run claude-v43-1 A1a started (job 2f151fff3772) on J's word, serve pid 78985. Cowork note: run the client from the Jail mount, else it misses the heartbeat beside the repository.
+- 2026-10-06 12:22 A1a: 2 Bash refusals (mode, dontAsk) at 12:15:49Z and 12:15:59Z; question QA1-001 at 12:22Z relayed to J; open-items updated.
+- 2026-10-06 12:23 chat scan of A1a (3814 lines): 5 Bash refusals (mode), 1 Read refusal (outside_reads_blocked, scratchpad root); rc=1 lines are later-stage verbs refusing at A1, as the stage says; no analyst line saying it cannot reach J; no guard.log. open-items updated.
+- 2026-10-06 12:29 on J's ask, wrote Orchestrator/messages/2026-10-06T12-29Z_from-handler_to-claude_a1a-refusals.md (6 Bash refusals all hold ==/<=/>=/===; 1 Read at the scratchpad root) and a legs.py note in J's chat; open-items line rewritten.

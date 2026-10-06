@@ -6,27 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>yard/_tools/lead_archive.py</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/lead-archive-py.md">Markdown source</a></nav>
 <h1 id="yard_toolslead_archivepy">yard/_tools/lead_archive.py</h1>
-<p>Compresses a finished case-lead store into one archive, and restores it.</p>
+<p>Compresses a finished case-lead store into one archive, and restores
+it.</p>
 <p><strong>What it holds</strong></p>
-<p><code>python3 _tools/lead_archive.py archive &lt;sub&gt;</code>, <code>restore &lt;sub&gt;</code> and <code>archive-all</code>. Stores live at <code>_lead_sessions/&lt;sub&gt;-gpt56-calibration-v1</code>. <code>archive</code> refuses while <code>RUNNING.json</code> exists, writes an <code>ARCHIVE.json</code> marker, packs the store with <code>bsdtar</code> and <code>zstd -6</code>, test-extracts it and compares every file, writes the archive's sha256 and size into the room's <code>STATE.json</code>, then deletes the live store. <code>restore</code> checks the archive's sha256 against <code>STATE.json</code>, extracts it, rewrites the paths in <code>STORE.json</code> and <code>state/runtime.json</code> to the new location, records <code>lead_store</code> in <code>STATE.json</code>, and deletes the archive. Both require <code>STORE.json</code>, <code>HEAD.json</code> and <code>state/lead.json</code> inside the archive.</p>
+<p><code>python3 _tools/lead_archive.py archive &lt;sub&gt;</code>,
+<code>restore &lt;sub&gt;</code> and <code>archive-all</code>. Stores
+live at <code>_lead_sessions/&lt;sub&gt;-gpt56-calibration-v1</code>.
+<code>archive</code> refuses while <code>RUNNING.json</code> exists,
+writes an <code>ARCHIVE.json</code> marker, packs the store with
+<code>bsdtar</code> and <code>zstd -6</code>, test-extracts it and
+compares every file, writes the archive's sha256 and size into the
+room's <code>STATE.json</code>, then deletes the live store.
+<code>restore</code> checks the archive's sha256 against
+<code>STATE.json</code>, extracts it, rewrites the paths in
+<code>STORE.json</code> and <code>state/runtime.json</code> to the new
+location, records <code>lead_store</code> in <code>STATE.json</code>,
+and deletes the archive. Both require <code>STORE.json</code>,
+<code>HEAD.json</code> and <code>state/lead.json</code> inside the
+archive.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The yard's author. The sources do not say who runs it; the armenia <code>STATE.json</code> notes a compression on 2026-09-09 "after work ended".</p>
+<p>The yard's author. The sources do not say who runs it; the armenia
+<code>STATE.json</code> notes a compression on 2026-09-09 "after work
+ended".</p>
 <p><strong>Why it exists</strong></p>
-<p>Its docstring: "Archive and restore complete case-lead stores one at a time." The archive keeps the store forkable ("Archive is missing fork state" is its refusal).</p>
+<p>Its docstring: "Archive and restore complete case-lead stores one at
+a time." The archive keeps the store forkable ("Archive is missing fork
+state" is its refusal).</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/handler/tools/lead_archive.py">_tools/lead_archive.py</a>. It imports <code>checkpoints</code>, which is not among these sources.</p>
+<p><a
+href="../../../coder/handler/tools/lead_archive.py">_tools/lead_archive.py</a>.
+It imports <code>checkpoints</code>, which is not among these
+sources.</p>
 <p>Checked against: _tools/lead_archive.py, rooms/armenia/STATE.json</p>
 </body>
 </html>

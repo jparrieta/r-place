@@ -6,27 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/&lt;room&gt;/pointers.jsonl`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/room-pointers-jsonl.md">Markdown source</a></nav>
-<h1 id="packageroompointersjsonl"><code>package/&lt;room&gt;/pointers.jsonl</code></h1>
-<p>Every mention of another place that the coder recorded in the room.</p>
+<h1
+id="packageroompointersjsonl"><code>package/&lt;room&gt;/pointers.jsonl</code></h1>
+<p>Every mention of another place that the coder recorded in the
+room.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p><code>pointer_id</code>, <code>batch</code>, <code>raw</code> (as written), <code>normalised</code> (for example r/place), <code>kind</code> (subreddit or off_platform), <code>relation</code> (values seen: mentioned-only, negotiated, asked-help-from, attacked, gave-help-to, attacked-by, allied, destroyed-carelessly), <code>moved</code> (no, partial, yes), <code>what_still_returns</code>, <code>what_you_cannot_see</code>, <code>thread_id</code>, <code>item_id</code>, <code>start</code>, <code>end</code>, <code>text</code>, <code>code_ids</code>, <code>minted_in_stage</code>, <code>note</code>, <code>corpus_position</code>.</p>
+<p><code>pointer_id</code>, <code>batch</code>, <code>raw</code> (as
+written), <code>normalised</code> (for example r/place),
+<code>kind</code> (subreddit or off_platform), <code>relation</code>
+(values seen: mentioned-only, negotiated, asked-help-from, attacked,
+gave-help-to, attacked-by, allied, destroyed-carelessly),
+<code>moved</code> (no, partial, yes), <code>what_still_returns</code>,
+<code>what_you_cannot_see</code>, <code>thread_id</code>,
+<code>item_id</code>, <code>start</code>, <code>end</code>,
+<code>text</code>, <code>code_ids</code>, <code>minted_in_stage</code>,
+<code>note</code>, <code>corpus_position</code>.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The coder. <code>build_store.py</code> copies it, adds <code>sub</code>, writes the store's <code>pointers.jsonl</code>, and counts <code>n_subreddits_named</code> and <code>n_off_platform</code> in <code>rooms.jsonl</code>. <code>relations.py</code> builds the mention graph from it.</p>
+<p>The coder. <code>build_store.py</code> copies it, adds
+<code>sub</code>, writes the store's <code>pointers.jsonl</code>, and
+counts <code>n_subreddits_named</code> and <code>n_off_platform</code>
+in <code>rooms.jsonl</code>. <code>relations.py</code> builds the
+mention graph from it.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Contract §5: "Other rooms are data, never units", and <code>n_off_platform</code> "is a count of mentions, never a share of the doing"; every verdict at the return carries it. <code>relations.py</code>: "A pointer is a mention the coder read and recorded."</p>
+<p>Contract §5: "Other rooms are data, never units", and
+<code>n_off_platform</code> "is a count of mentions, never a share of
+the doing"; every verdict at the return carries it.
+<code>relations.py</code>: "A pointer is a mention the coder read and
+recorded."</p>
 <h2 id="where">Where</h2>
-<p>Example: <a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/armenia/pointers.jsonl">package/armenia/pointers.jsonl</a>.</p>
-<p>Checked against: tools/build_store.py, tools/relations.py, CONTRACT-aggregator.md §5, package/armenia/pointers.jsonl.</p>
+<p>Example: <a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/armenia/pointers.jsonl">package/armenia/pointers.jsonl</a>.</p>
+<p>Checked against: tools/build_store.py, tools/relations.py,
+CONTRACT-aggregator.md §5, package/armenia/pointers.jsonl.</p>
 </body>
 </html>

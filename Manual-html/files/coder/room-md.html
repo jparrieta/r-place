@@ -6,27 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>ROOM.md</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/room-md.md">Markdown source</a></nav>
 <h1 id="roommd">ROOM.md</h1>
-<p>A room's front page: its numbers and the commands to run it, in order.</p>
+<p>A room's front page: its numbers and the commands to run it, in
+order.</p>
 <p><strong>What it holds</strong></p>
-<p>A table: items in the 97-hour window, threads with an in-window item, characters of people's text, items in the seven days before, the brief's state, and the expected branch and slice count at threshold 500. A list of what the room holds. The <code>room.py</code> commands in order, from <code>status</code> through <code>brief</code>, <code>run</code>, <code>message lead</code>, the coder loop, <code>snapshot after-fleet</code>, <code>finish</code> or <code>fork</code>, to <code>check</code>.</p>
+<p>A table: items in the 97-hour window, threads with an in-window item,
+characters of people's text, items in the seven days before, the brief's
+state, and the expected branch and slice count at threshold 500. A list
+of what the room holds. The <code>room.py</code> commands in order, from
+<code>status</code> through <code>brief</code>, <code>run</code>,
+<code>message lead</code>, the coder loop,
+<code>snapshot after-fleet</code>, <code>finish</code> or
+<code>fork</code>, to <code>check</code>.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>When the room is built. The yard README names <code>build_room.py</code> as "how a room was made from raw24"; that script is not among these sources. It is not rewritten as the room moves on: the armenia copy still says "brief: to write" and "instrument/ (v30, whole)" though its <code>STATE.json</code> records a brief and v32.</p>
+<p>When the room is built. The yard README names
+<code>build_room.py</code> as "how a room was made from raw24"; that
+script is not among these sources. It is not rewritten as the room moves
+on: the armenia copy still says "brief: to write" and "instrument/ (v30,
+whole)" though its <code>STATE.json</code> records a brief and v32.</p>
 <p><strong>Why it exists</strong></p>
-<p>So a person or agent standing in the room knows what to run. It points to <code>CONTRACT-scheduler.md</code> for what to look for between the commands.</p>
+<p>So a person or agent standing in the room knows what to run. It
+points to <code>CONTRACT-scheduler.md</code> for what to look for
+between the commands.</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/rooms/armenia/ROOM.md">rooms/armenia/ROOM.md</a>; each sample room has one.</p>
-<p>Checked against: rooms/armenia/ROOM.md, rooms/armenia/STATE.json, yard/README.md</p>
+<p><a
+href="../../../coder/rooms/armenia/ROOM.md">rooms/armenia/ROOM.md</a>;
+each sample room has one.</p>
+<p>Checked against: rooms/armenia/ROOM.md, rooms/armenia/STATE.json,
+yard/README.md</p>
 </body>
 </html>

@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The handlers</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="manual.css" />
 </head>
@@ -19,111 +31,350 @@
 <nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/6-the-handlers.md">Markdown source</a></nav>
 <h1 id="the-handlers">The handlers</h1>
 <p><em>Kind of page: explanation.</em></p>
-<p>Two instruments, two handlers. The yard's handler runs the coder side: it launches the agents that code each room, checks what they leave, repairs what fails and keeps the queue moving. The aggregator's handler builds a run, closes each leg, sends the readers their packets and answers the analyst in files. Neither handler reads for the study. Both keep their memory on disk, and part of it lives outside this repository.</p>
-<h2 id="the-yards-handler-coder-side">The yard's handler (coder side)</h2>
+<p>Two instruments, two handlers. The yard's handler runs the coder
+side: it launches the agents that code each room, checks what they
+leave, repairs what fails and keeps the queue moving. The aggregator's
+handler builds a run, closes each leg, sends the readers their packets
+and answers the analyst in files. Neither handler reads for the study.
+Both keep their memory on disk, and part of it lives outside this
+repository.</p>
+<h2 id="the-yards-handler-coder-side">The yard's handler (coder
+side)</h2>
 <h3 id="what-it-does">What it does</h3>
-<p>The <a href="../coder/handler/CONTRACT-scheduler.md">scheduler's contract</a> (<a href="files/coder/contract-scheduler.html">page</a>) states the job: "you take a room from <code>rooms/</code>, launch the agents its <code>ROOM.md</code> names in the order the instrument fixes, check each agent's work with the checks below the moment it ends, keep <code>STATUS.tsv</code> true, set aside what failed, take the snapshot the forks are made from, and tell J what only J can decide." It is "not a reader". It never judges a coding, never rewrites an agent's line, and passes nothing between agents except the files the instrument says travel.</p>
-<p>The contract asks for no particular model or program. In this study the coordinator ran in Codex, latterly on GPT-5.6 Terra, while brief writers, case leads and fleet coders ran on GPT-5.6 Sol.</p>
+<p>The <a href="../coder/handler/CONTRACT-scheduler.md">scheduler's
+contract</a> (<a href="files/coder/contract-scheduler.html">page</a>)
+states the job: "you take a room from <code>rooms/</code>, launch the
+agents its <code>ROOM.md</code> names in the order the instrument fixes,
+check each agent's work with the checks below the moment it ends, keep
+<code>STATUS.tsv</code> true, set aside what failed, take the snapshot
+the forks are made from, and tell J what only J can decide." It is "not
+a reader". It never judges a coding, never rewrites an agent's line, and
+passes nothing between agents except the files the instrument says
+travel.</p>
+<p>The contract asks for no particular model or program. In this study
+the coordinator ran in Codex, latterly on GPT-5.6 Terra, while brief
+writers, case leads and fleet coders ran on GPT-5.6 Sol.</p>
 <p>Its work, as the yard's documents lay it out:</p>
 <ul>
-<li><strong>Launching.</strong> <a href="../coder/handler/tools/room.py">room.py</a> (<a href="files/coder/room-py.html">page</a>) prints the opening message for each agent. <a href="../coder/handler/tools/start_yard_lead.py">start_yard_lead.py</a> (<a href="files/coder/start-yard-lead-py.html">page</a>) prepares a room and runs its first lead turn. <a href="../coder/handler/tools/coding_queue.py">coding_queue.py</a> (<a href="files/coder/coding-queue-py.html">page</a>) picks the smallest ready room and keeps up to six running; when one ends, it checks that room, archives it and fills the slot (<a href="../coder/handler/CODING-SCHEDULER.md">CODING-SCHEDULER.md</a>). Briefs have their own queue and runbook (<a href="../coder/handler/BRIEF-COORDINATOR.md">BRIEF-COORDINATOR.md</a>).</li>
-<li><strong>Feedback.</strong> A failed batch check goes back to the same coder for up to two correction turns; a failed room check goes back to the same case lead, also twice at most.</li>
-<li><strong>Repairs.</strong> After two failed runs in a row a room stops, with <code>repair-stopped-after-two-failures</code> recorded. The <a href="../coder/handler/REPAIR-QUEUE-RESTART-RULES.md">repair rules</a> say how to restart the queue, and that a restart begins by rebuilding "reality from the filesystem, not from stale memory". A model service at capacity is recorded as a service interruption and does not count against the room.</li>
-<li><strong>Changing the instrument.</strong> When a defect repeats, the handler writes down why the instrument must move, and the instrument's <a href="files/coder/changelog.html">changelog</a> records the change. A dispatched run keeps the instrument it started with.</li>
+<li><strong>Launching.</strong> <a
+href="../coder/handler/tools/room.py">room.py</a> (<a
+href="files/coder/room-py.html">page</a>) prints the opening message for
+each agent. <a
+href="../coder/handler/tools/start_yard_lead.py">start_yard_lead.py</a>
+(<a href="files/coder/start-yard-lead-py.html">page</a>) prepares a room
+and runs its first lead turn. <a
+href="../coder/handler/tools/coding_queue.py">coding_queue.py</a> (<a
+href="files/coder/coding-queue-py.html">page</a>) picks the smallest
+ready room and keeps up to six running; when one ends, it checks that
+room, archives it and fills the slot (<a
+href="../coder/handler/CODING-SCHEDULER.md">CODING-SCHEDULER.md</a>).
+Briefs have their own queue and runbook (<a
+href="../coder/handler/BRIEF-COORDINATOR.md">BRIEF-COORDINATOR.md</a>).</li>
+<li><strong>Feedback.</strong> A failed batch check goes back to the
+same coder for up to two correction turns; a failed room check goes back
+to the same case lead, also twice at most.</li>
+<li><strong>Repairs.</strong> After two failed runs in a row a room
+stops, with <code>repair-stopped-after-two-failures</code> recorded. The
+<a href="../coder/handler/REPAIR-QUEUE-RESTART-RULES.md">repair
+rules</a> say how to restart the queue, and that a restart begins by
+rebuilding "reality from the filesystem, not from stale memory". A model
+service at capacity is recorded as a service interruption and does not
+count against the room.</li>
+<li><strong>Changing the instrument.</strong> When a defect repeats, the
+handler writes down why the instrument must move, and the instrument's
+<a href="files/coder/changelog.html">changelog</a> records the change. A
+dispatched run keeps the instrument it started with.</li>
 </ul>
 <h3 id="how-it-remembers">How it remembers</h3>
-<p>The yard's handler has no single head file. The yard ships empty, so none of what follows is in this repository: each file is written by the handler or its tools once a yard runs.</p>
+<p>The yard's handler has no single head file. The yard ships empty, so
+none of what follows is in this repository: each file is written by the
+handler or its tools once a yard runs.</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>file</th>
 <th>what it holds</th>
 <th>written by</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><code>rooms/&lt;sub&gt;/STATE.json</code></td>
-<td>each room's memory (<a href="files/coder/state-json.html">page</a>)</td>
+<td>each room's memory (<a
+href="files/coder/state-json.html">page</a>)</td>
 <td><code>room.py status</code>, the scheduler</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>STATUS.tsv</code></td>
 <td>one line per room, rebuilt, never edited</td>
 <td><code>status.py</code></td>
 </tr>
-<tr class="odd">
-<td><code>_coding_queue/STATE.json</code>, <code>EVENTS.jsonl</code>, <code>REPORT-STATE.json</code>; <code>CODING-PROGRESS.md</code></td>
-<td>the queue's state, its event history, what has been reported; the progress report</td>
-<td><code>coding_queue.py</code>, <code>update_coding_progress.py</code></td>
+<tr>
+<td><code>_coding_queue/STATE.json</code>, <code>EVENTS.jsonl</code>,
+<code>REPORT-STATE.json</code>; <code>CODING-PROGRESS.md</code></td>
+<td>the queue's state, its event history, what has been reported; the
+progress report</td>
+<td><code>coding_queue.py</code>,
+<code>update_coding_progress.py</code></td>
 </tr>
-<tr class="even">
-<td><code>BRIEF-QUEUE.json</code>, <code>BRIEF-RUN-LOG.jsonl</code>, <code>BRIEF-PROGRESS.md</code></td>
+<tr>
+<td><code>BRIEF-QUEUE.json</code>, <code>BRIEF-RUN-LOG.jsonl</code>,
+<code>BRIEF-PROGRESS.md</code></td>
 <td>the brief queue, its completion history, its report</td>
 <td><code>brief_queue.py</code></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>_repair_queue/</code></td>
-<td>the repair queue's state and events, and its state before each intervention</td>
+<td>the repair queue's state and events, and its state before each
+intervention</td>
 <td><code>repair_queue.py</code></td>
 </tr>
-<tr class="even">
+<tr>
 <td>a handover, a change log, a log of what has been shown to work</td>
 <td>the handler's own notes between sessions</td>
 <td>the handler</td>
 </tr>
 </tbody>
 </table>
-<p>The repair rules add one plain instruction: record model, effort, start, end, tokens and archive hash "so future reports do not depend on chat memory". <a href="files/coder/yard-structure.html">The yard, file by file</a> shows what ships and what a running yard adds.</p>
-<h3 id="how-it-snaps-and-saves-sessions">How it snaps and saves sessions</h3>
-<p>Only the case lead keeps a saved conversation. <a href="../coder/handler/tools/codex_lead.py">codex_lead.py</a> (<a href="files/coder/codex-lead-py.html">page</a>) runs the lead in Codex and, after each completed reply, commits a checkpoint through <a href="../coder/handler/tools/checkpoints.py">checkpoints.py</a>: the managed room, the lead's native Codex home, and the runner's state, content-addressed under <code>_lead_sessions/&lt;sub&gt;-gpt56-calibration-v1/</code>. The last collect of branch B is saved as <code>after-fleet</code>, the fork point. <a href="../coder/handler/CHECKPOINTS.md">CHECKPOINTS.md</a> (<a href="files/coder/checkpoints.html">page</a>) covers resume, fork, restore and recovery.</p>
+<p>The repair rules add one plain instruction: record model, effort,
+start, end, tokens and archive hash "so future reports do not depend on
+chat memory". <a href="files/coder/yard-structure.html">The yard, file
+by file</a> shows what ships and what a running yard adds.</p>
+<h3 id="how-it-snaps-and-saves-sessions">How it snaps and saves
+sessions</h3>
+<p>Only the case lead keeps a saved conversation. <a
+href="../coder/handler/tools/codex_lead.py">codex_lead.py</a> (<a
+href="files/coder/codex-lead-py.html">page</a>) runs the lead in Codex
+and, after each completed reply, commits a checkpoint through <a
+href="../coder/handler/tools/checkpoints.py">checkpoints.py</a>: the
+managed room, the lead's native Codex home, and the runner's state,
+content-addressed under
+<code>_lead_sessions/&lt;sub&gt;-gpt56-calibration-v1/</code>. The last
+collect of branch B is saved as <code>after-fleet</code>, the fork
+point. <a href="../coder/handler/CHECKPOINTS.md">CHECKPOINTS.md</a> (<a
+href="files/coder/checkpoints.html">page</a>) covers resume, fork,
+restore and recovery.</p>
 <p>When a room ends, three tools pack it:</p>
 <ul>
-<li><a href="../coder/handler/tools/lead_archive.py">lead_archive.py</a> (<a href="files/coder/lead-archive-py.html">page</a>) packs the lead's store into one <code>.tar.zst</code> (<a href="files/coder/lead-session-archive.html">page</a>) and writes its hash and size into <code>STATE.json</code>.</li>
-<li><a href="../coder/handler/tools/archive_verified_run.py">archive_verified_run.py</a> packs <code>run/</code> into <code>run.tar.zst</code> (<a href="files/coder/run-archive.html">page</a>).</li>
-<li><a href="../coder/handler/tools/archive_verified_materials.py">archive_verified_materials.py</a> packs <code>record/</code>, <code>brief/</code> and <code>instrument/</code> into <code>materials.tar.zst</code> (<a href="files/coder/materials-archive.html">page</a>).</li>
+<li><a href="../coder/handler/tools/lead_archive.py">lead_archive.py</a>
+(<a href="files/coder/lead-archive-py.html">page</a>) packs the lead's
+store into one <code>.tar.zst</code> (<a
+href="files/coder/lead-session-archive.html">page</a>) and writes its
+hash and size into <code>STATE.json</code>.</li>
+<li><a
+href="../coder/handler/tools/archive_verified_run.py">archive_verified_run.py</a>
+packs <code>run/</code> into <code>run.tar.zst</code> (<a
+href="files/coder/run-archive.html">page</a>).</li>
+<li><a
+href="../coder/handler/tools/archive_verified_materials.py">archive_verified_materials.py</a>
+packs <code>record/</code>, <code>brief/</code> and
+<code>instrument/</code> into <code>materials.tar.zst</code> (<a
+href="files/coder/materials-archive.html">page</a>).</li>
 </ul>
-<p>Each archive is test-extracted against the source hashes before the source is removed. <a href="../coder/handler/VERIFIED-RUN-ARCHIVES.md">VERIFIED-RUN-ARCHIVES.md</a> gives the restore commands. How the lead remembers inside a room (ledger, notes, journals) is on <a href="memory/coder-lead.html">its memory page</a>.</p>
-<p>Fleet coders and brief writers keep no session. Their outputs and transcripts travel; the temporary coder session is deleted once its batch passes.</p>
+<p>Each archive is test-extracted against the source hashes before the
+source is removed. <a
+href="../coder/handler/VERIFIED-RUN-ARCHIVES.md">VERIFIED-RUN-ARCHIVES.md</a>
+gives the restore commands. How the lead remembers inside a room
+(ledger, notes, journals) is on <a href="memory/coder-lead.html">its
+memory page</a>.</p>
+<p>Fleet coders and brief writers keep no session. Their outputs and
+transcripts travel; the temporary coder session is deleted once its
+batch passes.</p>
 <h2 id="the-aggregators-handler">The aggregator's handler</h2>
 <h3 id="what-it-does-1">What it does</h3>
-<p>The <a href="../aggregator/handler/claude/READ-ME-FIRST.md">harness's read-me</a> (<a href="files/aggregator/harness-read-me-first.html">page</a>) names three parties: the analyst, "a Claude session that lives in <code>00_GIVE-THE-AGENT/</code> and sees nothing else"; the handler, a Claude session of its own (Claude Code on J's Mac, or Cowork), which builds the run, checks each close and answers in files; and J, who owns the study and decides.</p>
-<p>The harness, in <code>aggregator/handler/claude/</code>, with a copy in each run's <code>CONTROL/harness/</code>:</p>
+<p>The <a href="../aggregator/handler/claude/READ-ME-FIRST.md">harness's
+read-me</a> (<a
+href="files/aggregator/harness-read-me-first.html">page</a>) names three
+parties: the analyst, "a Claude session that lives in
+<code>00_GIVE-THE-AGENT/</code> and sees nothing else"; the handler, a
+Claude session of its own (Claude Code on J's Mac, or Cowork), which
+builds the run, checks each close and answers in files; and J, who owns
+the study and decides.</p>
+<p>The harness, in <code>aggregator/handler/claude/</code>, with a copy
+in each run's <code>CONTROL/harness/</code>:</p>
 <ul>
-<li><a href="../aggregator/handler/claude/build.sh">build.sh</a> lays out a run and writes its fingerprint into <code>CONTROL/RUN.json</code> (<a href="files/aggregator/harness-build-sh.html">page</a>); <a href="../aggregator/handler/claude/acceptance.sh">acceptance.sh</a> tests it before A1 (<a href="files/aggregator/harness-acceptance-sh.html">page</a>).</li>
-<li><a href="../aggregator/handler/claude/step.sh">step.sh</a> opens a leg, continuing the last close's conversation (<a href="files/aggregator/harness-step-sh.html">page</a>); <a href="../aggregator/handler/claude/close.sh">close.sh</a> closes it: the recall probe, the trusted close-check, the model audit against <code>CONTROL/arm.json</code> (a forked leg counts only its own messages), and the checkpoint (<a href="files/aggregator/harness-close-sh.html">page</a>).</li>
-<li><a href="../aggregator/handler/claude/dispatch.sh">dispatch.sh</a> sends the analyst's packets to the readers (<a href="files/aggregator/harness-dispatch-sh.html">page</a>); <a href="../aggregator/handler/claude/pause.sh">pause.sh</a> asks the analyst to stop at its next safe stop (<a href="files/aggregator/harness-pause-sh.html">page</a>); <a href="../aggregator/handler/claude/interview.sh">interview.sh</a> opens an interview (<a href="files/aggregator/harness-interview-sh.html">page</a>).</li>
-<li><a href="../aggregator/handler/claude/stage_cards.py">stage_cards.py</a> writes one card per stage for J (<a href="files/aggregator/harness-stage-cards-py.html">page</a>).</li>
+<li><a href="../aggregator/handler/claude/build.sh">build.sh</a> lays
+out a run and writes its fingerprint into <code>CONTROL/RUN.json</code>
+(<a href="files/aggregator/harness-build-sh.html">page</a>); <a
+href="../aggregator/handler/claude/acceptance.sh">acceptance.sh</a>
+tests it before A1 (<a
+href="files/aggregator/harness-acceptance-sh.html">page</a>).</li>
+<li><a href="../aggregator/handler/claude/step.sh">step.sh</a> opens a
+leg, continuing the last close's conversation (<a
+href="files/aggregator/harness-step-sh.html">page</a>); <a
+href="../aggregator/handler/claude/close.sh">close.sh</a> closes it: the
+recall probe, the trusted close-check, the model audit against
+<code>CONTROL/arm.json</code> (a forked leg counts only its own
+messages), and the checkpoint (<a
+href="files/aggregator/harness-close-sh.html">page</a>).</li>
+<li><a href="../aggregator/handler/claude/dispatch.sh">dispatch.sh</a>
+sends the analyst's packets to the readers (<a
+href="files/aggregator/harness-dispatch-sh.html">page</a>); <a
+href="../aggregator/handler/claude/pause.sh">pause.sh</a> asks the
+analyst to stop at its next safe stop (<a
+href="files/aggregator/harness-pause-sh.html">page</a>); <a
+href="../aggregator/handler/claude/interview.sh">interview.sh</a> opens
+an interview (<a
+href="files/aggregator/harness-interview-sh.html">page</a>).</li>
+<li><a
+href="../aggregator/handler/claude/stage_cards.py">stage_cards.py</a>
+writes one card per stage for J (<a
+href="files/aggregator/harness-stage-cards-py.html">page</a>).</li>
 </ul>
-<p>The leg handler, in <code>aggregator/handler/claude-adapter/</code> (<a href="../aggregator/handler/claude-adapter/LEGS.md">LEGS.md</a>), runs those same scripts without a terminal per leg (J, 5 October 2026: "a handler i can access via claude code/cowork that opens and close the sessions plus the ability to talk to EACH AGGREGATOR STAGE.LEG"):</p>
+<p>The leg handler, in <code>aggregator/handler/claude-adapter/</code>
+(<a href="../aggregator/handler/claude-adapter/LEGS.md">LEGS.md</a>),
+runs those same scripts without a terminal per leg (J, 5 October 2026:
+"a handler i can access via claude code/cowork that opens and close the
+sessions plus the ability to talk to EACH AGGREGATOR STAGE.LEG"):</p>
 <ul>
-<li><code>legs.py serve</code>, one process on the Mac, owns the analyst's sessions. Every other command is a client, the same from Terminal, Claude Code (also through Remote Control from the phone) and Cowork.</li>
-<li><code>open</code>, <code>close</code> and <code>run</code> take a leg or a list of legs. Each turn is one headless Claude process (<a href="../aggregator/handler/claude-adapter/actor.py">actor.py</a>); <code>step.sh</code> prepares the leg and <code>close.sh</code> closes it, as by hand. A list stops at a refusal, a failed turn, a pause, a dispatch, an interview point, a stage's end or a forced close, and says why.</li>
-<li><code>chat RUN</code> is one window where J talks to every agent of the run and sees each one's words and tool calls live. A line reaches a running analyst beside its next tool result, with a receipt, or starts a new turn. <code>answer</code> delivers J's answer to a question the analyst asked; <code>interview</code> opens a closed leg.</li>
-<li><code>branch</code> and its companions make an analysis branch: a new run from one verified close, with a new stage card or data, committed to its own Git branch and never to main.</li>
-<li><a href="../aggregator/handler/claude-adapter/probe.py">probe.py</a> and <a href="../aggregator/handler/claude-adapter/probe_lifecycle.py">probe_lifecycle.py</a> check the live CLI and the actor in a synthetic run, never a research run.</li>
+<li><code>legs.py serve</code>, one process on the Mac, owns the
+analyst's sessions. Every other command is a client, the same from
+Terminal, Claude Code (also through Remote Control from the phone) and
+Cowork.</li>
+<li><code>open</code>, <code>close</code> and <code>run</code> take a
+leg or a list of legs. Each turn is one headless Claude process (<a
+href="../aggregator/handler/claude-adapter/actor.py">actor.py</a>);
+<code>step.sh</code> prepares the leg and <code>close.sh</code> closes
+it, as by hand. A list stops at a refusal, a failed turn, a pause, a
+dispatch, an interview point, a stage's end or a forced close, and says
+why.</li>
+<li><code>chat RUN</code> is one window where J talks to every agent of
+the run and sees each one's words and tool calls live. A line reaches a
+running analyst beside its next tool result, with a receipt, or starts a
+new turn. <code>answer</code> delivers J's answer to a question the
+analyst asked; <code>interview</code> opens a closed leg.</li>
+<li><code>branch</code> and its companions make an analysis branch: a
+new run from one verified close, with a new stage card or data,
+committed to its own Git branch and never to main.</li>
+<li><a href="../aggregator/handler/claude-adapter/probe.py">probe.py</a>
+and <a
+href="../aggregator/handler/claude-adapter/probe_lifecycle.py">probe_lifecycle.py</a>
+check the live CLI and the actor in a synthetic run, never a research
+run.</li>
 </ul>
-<p>Who speaks to the analyst: only J, in his own words, through the leg handler, and each message and its delivery are recorded in <code>CONTROL/messages-to-legs.jsonl</code>, committed at every close. The handler never does. A question from the analyst (<code>mem.py ask</code>) is written down and answered in a file. At stage D2 a second handler, the adaptation handler, runs the labelers in Codex; the contract calls that role the handler too.</p>
-<p>The v37 handover described the same seat in more detail: seven kinds of message to J (READY, CLOSED, READING, QUESTION, RULING, PROBLEM, FORK), one kind per message. See <a href="8-the-v37-run.html">the v37 run</a>.</p>
+<p>Who speaks to the analyst: only J, in his own words, through the leg
+handler, and each message and its delivery are recorded in
+<code>CONTROL/messages-to-legs.jsonl</code>, committed at every close.
+The handler never does. A question from the analyst
+(<code>mem.py ask</code>) is written down and answered in a file. At
+stage D2 a second handler, the adaptation handler, runs the labelers in
+Codex; the contract calls that role the handler too.</p>
+<p>The v37 handover described the same seat in more detail: seven kinds
+of message to J (READY, CLOSED, READING, QUESTION, RULING, PROBLEM,
+FORK), one kind per message. See <a href="8-the-v37-run.html">the v37
+run</a>.</p>
 <h3 id="how-it-remembers-1">How it remembers</h3>
-<p>The handler keeps its memory in <a href="../aggregator/handler/memory/README.md"><code>aggregator/handler/memory/</code></a>: a diary with one dated line per action, a decisions table (date, decision, by whom, source), the principal investigator's open items, and handovers between sessions. <a href="../aggregator/handler/HANDLER.md">HANDLER.md</a> says what goes in each and what to read first. Beside them: <a href="../aggregator/handler/DESIGN-NOTE-v38.md">the design note</a>, the instrument's <a href="../aggregator/instrument/CHANGELOG-v37-to-v38.md">change log from v37</a>, and git, which keeps every version of every file. Inside a run, the harness keeps <code>CONTROL/sessions.json</code>, <code>CONTROL/handover-events.log</code>, <code>CONTROL/interviews.tsv</code> and <code>CONTROL/snapshots/INDEX.tsv</code>; the leg handler keeps its streams, requests and results in <code>CONTROL/legs/</code> (on disk, not committed) and J's words to legs in <code>CONTROL/messages-to-legs.jsonl</code> (committed).</p>
-<p>The analyst's own memory (its head, diary and read logs in <code>out/</code>) is a different thing, on <a href="memory/aggregator.html">its own page</a>.</p>
-<h3 id="how-it-snaps-and-saves-sessions-1">How it snaps and saves sessions</h3>
-<p>Each close publishes a checkpoint under <code>CONTROL/snapshots/&lt;label&gt;/</code>: the analyst's folder, the run's own sessions (<code>agent.tar.gz</code>: <code>projects/run/</code> of the run's Claude folder and nothing else), the transcript verified by id, the cost and the ancestry, built in a temporary folder under a lock and written <code>COMMITTED</code> last. <code>close.sh</code> also copies the leg's transcript into <code>out/_transcripts/</code> (<a href="files/aggregator/out-transcripts.html">page</a>).</p>
-<p><a href="../aggregator/instrument/tools/snap.py">snap.py</a> (<a href="files/aggregator/tool-snap-py.html">page</a>) writes a hash of every file in <code>out/</code> under a name, once, into <code>out/_snap/</code> (<a href="files/aggregator/out-snap.html">page</a>). The harness takes one at every close; the analyst takes one at each move and wherever an order matters.</p>
-<p>An interview is a fork of a closed leg in a copy of the analyst's folder restored from its checkpoint (<code>interview-workspaces/</code>, not committed); nothing said there reaches the run. <a href="../aggregator/handler/claude/interview.sh">interview.sh</a> opens one in a terminal, logs it in <code>CONTROL/interviews.tsv</code> and copies its transcript to <code>RUN/interviews/</code>; <code>legs.py interview</code> opens one from the chat, logs it the same way and leaves its transcript in the run's Claude folder (<code>CONTROL/.cc/projects/iv-&lt;fork&gt;/</code>). At stage E2a, <code>step.sh</code> copies every listed interview into the analyst's <code>handling/interviews/</code>. A transcript reaches git only if J decides so, interview by interview. <a href="../aggregator/handler/claude/publish.sh">publish.sh</a> (<a href="files/aggregator/harness-publish-sh.html">page</a>) runs after each close and interview: it regenerates the Manual's run pages, commits everything to git, tags interview points and finished stages, and pushes when a remote exists. The run's Claude folder, <code>CONTROL/.cc</code>, is kept out by <code>.gitignore</code>: it holds the login's account record, the account's synced skills and plugins, and caches. A checkpoint keeps only the run's own sessions from it (<code>projects/run/</code>), so no account data reaches git. On macOS the login token is held by the Keychain, not in that folder.</p>
+<p>The handler keeps its memory in <a
+href="../aggregator/handler/memory/README.md"><code>aggregator/handler/memory/</code></a>:
+a diary with one dated line per action, a decisions table (date,
+decision, by whom, source), the principal investigator's open items, and
+handovers between sessions. <a
+href="../aggregator/handler/HANDLER.md">HANDLER.md</a> says what goes in
+each and what to read first. Beside them: <a
+href="../aggregator/handler/DESIGN-NOTE-v38.md">the design note</a>, the
+instrument's <a
+href="../aggregator/instrument/CHANGELOG-v37-to-v38.md">change log from
+v37</a>, and git, which keeps every version of every file. Inside a run,
+the harness keeps <code>CONTROL/sessions.json</code>,
+<code>CONTROL/handover-events.log</code>,
+<code>CONTROL/interviews.tsv</code> and
+<code>CONTROL/snapshots/INDEX.tsv</code>; the leg handler keeps its
+streams, requests and results in <code>CONTROL/legs/</code> (on disk,
+not committed) and J's words to legs in
+<code>CONTROL/messages-to-legs.jsonl</code> (committed).</p>
+<p>The analyst's own memory (its head, diary and read logs in
+<code>out/</code>) is a different thing, on <a
+href="memory/aggregator.html">its own page</a>.</p>
+<h3 id="how-it-snaps-and-saves-sessions-1">How it snaps and saves
+sessions</h3>
+<p>Each close publishes a checkpoint under
+<code>CONTROL/snapshots/&lt;label&gt;/</code>: the analyst's folder, the
+run's own sessions (<code>agent.tar.gz</code>:
+<code>projects/run/</code> of the run's Claude folder and nothing else),
+the transcript verified by id, the cost and the ancestry, built in a
+temporary folder under a lock and written <code>COMMITTED</code> last.
+<code>close.sh</code> also copies the leg's transcript into
+<code>out/_transcripts/</code> (<a
+href="files/aggregator/out-transcripts.html">page</a>).</p>
+<p><a href="../aggregator/instrument/tools/snap.py">snap.py</a> (<a
+href="files/aggregator/tool-snap-py.html">page</a>) writes a hash of
+every file in <code>out/</code> under a name, once, into
+<code>out/_snap/</code> (<a
+href="files/aggregator/out-snap.html">page</a>). The harness takes one
+at every close; the analyst takes one at each move and wherever an order
+matters.</p>
+<p>An interview is a fork of a closed leg in a copy of the analyst's
+folder restored from its checkpoint (<code>interview-workspaces/</code>,
+not committed); nothing said there reaches the run. <a
+href="../aggregator/handler/claude/interview.sh">interview.sh</a> opens
+one in a terminal, logs it in <code>CONTROL/interviews.tsv</code> and
+copies its transcript to <code>RUN/interviews/</code>;
+<code>legs.py interview</code> opens one from the chat, logs it the same
+way and leaves its transcript in the run's Claude folder
+(<code>CONTROL/.cc/projects/iv-&lt;fork&gt;/</code>). At stage E2a,
+<code>step.sh</code> copies every listed interview into the analyst's
+<code>handling/interviews/</code>. A transcript reaches git only if J
+decides so, interview by interview. <a
+href="../aggregator/handler/claude/publish.sh">publish.sh</a> (<a
+href="files/aggregator/harness-publish-sh.html">page</a>) runs after
+each close and interview: it regenerates the Manual's run pages, commits
+everything to git, tags interview points and finished stages, and pushes
+when a remote exists. The run's Claude folder, <code>CONTROL/.cc</code>,
+is kept out by <code>.gitignore</code>: it holds the login's account
+record, the account's synced skills and plugins, and caches. A
+checkpoint keeps only the run's own sessions from it
+(<code>projects/run/</code>), so no account data reaches git. On macOS
+the login token is held by the Keychain, not in that folder.</p>
 <h2 id="the-orchestrators">The orchestrators</h2>
-<p>Two coordinating agents keep what the handlers run: Claude (the instrument, the Claude harness, the leg handler, the repository's layout and git) and OpenAI (the Codex runtime, its controller and phone panel). Neither runs the study, and the orchestrator is not part of the instrument. <a href="../orchestrator/README.md"><code>orchestrator/</code></a> describes what they do and holds what they use: <code>PROTOCOLS.md</code> (the checks both run) and each one's role, rules, processes and scripts. It changes only with a new version of the instrument. What they write as they work (where things stand, decisions, diaries, messages to each other and to the handler) is kept outside the repository, beside it; a problem found in a run reaches the repository as the next version of the instrument. <a href="../OWNERSHIP.tsv">OWNERSHIP.tsv</a> says which files are shared, Claude's or Codex's. A change to the instrument or the harness needs J's approval, is recorded in the instrument's change log and <code>VERSIONS.tsv</code>, and reaches the handler as a message.</p>
-<h2 id="the-protocol-and-the-handlers-own-scripts">The protocol, and the handler's own scripts</h2>
-<p>Whoever handles a run next starts from <a href="../aggregator/handler/HANDLER.md">HANDLER.md</a>, at the top of the handler's folder. It sets out:</p>
+<p>Two coordinating agents keep what the handlers run: Claude (the
+instrument, the Claude harness, the leg handler, the repository's layout
+and git) and OpenAI (the Codex runtime, its controller and phone panel).
+Neither runs the study, and the orchestrator is not part of the
+instrument. <a
+href="../orchestrator/README.md"><code>orchestrator/</code></a>
+describes what they do and holds what they use:
+<code>PROTOCOLS.md</code> (the checks both run) and each one's role,
+rules, processes and scripts. It changes only with a new version of the
+instrument. What they write as they work (where things stand, decisions,
+diaries, messages to each other and to the handler) is kept outside the
+repository, beside it; a problem found in a run reaches the repository
+as the next version of the instrument. <a
+href="../OWNERSHIP.tsv">OWNERSHIP.tsv</a> says which files are shared,
+Claude's or Codex's. A change to the instrument or the harness needs J's
+approval, is recorded in the instrument's change log and
+<code>VERSIONS.tsv</code>, and reaches the handler as a message.</p>
+<h2 id="the-protocol-and-the-handlers-own-scripts">The protocol, and the
+handler's own scripts</h2>
+<p>Whoever handles a run next starts from <a
+href="../aggregator/handler/HANDLER.md">HANDLER.md</a>, at the top of
+the handler's folder. It sets out:</p>
 <ul>
-<li>who decides what, and the rules that do not bend (nothing deleted, never writing in the yard, the handler never speaking to the analyst inside a leg);</li>
-<li>how the handler remembers across sessions: the diary, the decisions table, the version log, the PI's open items, handovers;</li>
-<li>its duties before the run (import the rooms, build the canvas, the shelves, build and accept, check the leg handler) and during it (each leg, by hand or through <code>legs.py</code>; after each close; at fleet stages; interviews; before E1 and E2);</li>
-<li>how the instrument is changed and recorded, and how the repository is kept.</li>
+<li>who decides what, and the rules that do not bend (nothing deleted,
+never writing in the yard, the handler never speaking to the analyst
+inside a leg);</li>
+<li>how the handler remembers across sessions: the diary, the decisions
+table, the version log, the PI's open items, handovers;</li>
+<li>its duties before the run (import the rooms, build the canvas, the
+shelves, build and accept, check the leg handler) and during it (each
+leg, by hand or through <code>legs.py</code>; after each close; at fleet
+stages; interviews; before E1 and E2);</li>
+<li>how the instrument is changed and recorded, and how the repository
+is kept.</li>
 </ul>
-<p>The scripts those duties name are beside it, in <a href="files/handler/index.html">the handler's folder</a>, with every outside path set once in <code>aggregator/handler/paths.json</code>.</p>
-<h2 id="what-is-not-in-this-repository">What is not in this repository</h2>
-<p>Much of the handlers' memory lives in the Claude project "r/place" on claude.ai: its documents (handovers, states of play, design notes, close-outs such as <code>claude/handover-2026-09-22.md</code> and <code>claude/handler-log-v37-close-out.md</code>) and the project's memory. None of these are mirrored here. Nor are the logs either handler's agents wrote while coding the census and building v38: both handler folders ship as they stand before a run. The coded rooms themselves reach the aggregator as its input, in <code>aggregator/input/</code>; see <a href="requirements-and-data.html">requirements and data</a>.</p>
+<p>The scripts those duties name are beside it, in <a
+href="files/handler/index.html">the handler's folder</a>, with every
+outside path set once in <code>aggregator/handler/paths.json</code>.</p>
+<h2 id="what-is-not-in-this-repository">What is not in this
+repository</h2>
+<p>Much of the handlers' memory lives in the Claude project "r/place" on
+claude.ai: its documents (handovers, states of play, design notes,
+close-outs such as <code>claude/handover-2026-09-22.md</code> and
+<code>claude/handler-log-v37-close-out.md</code>) and the project's
+memory. None of these are mirrored here. Nor are the logs either
+handler's agents wrote while coding the census and building v38: both
+handler folders ship as they stand before a run. The coded rooms
+themselves reach the aggregator as its input, in
+<code>aggregator/input/</code>; see <a
+href="requirements-and-data.html">requirements and data</a>.</p>
 </body>
 </html>

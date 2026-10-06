@@ -6,27 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>render_corpus_v32.py</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/render-corpus.md">Markdown source</a></nav>
 <h1 id="render_corpus_v32py">render_corpus_v32.py</h1>
-<p>The renderer: it turns a room's JSONL record into the text corpus a coder reads, with every number precomputed.</p>
+<p>The renderer: it turns a room's JSONL record into the text corpus a
+coder reads, with every number precomputed.</p>
 <p><strong>What it holds</strong></p>
-<p>Functions that write <code>corpus.txt</code>: a header of <code>#</code> lines (counts, the day histogram, every author, the thread index with text share, deleted counts, accounts that look automatic), then every thread in time order, each long thread with its triage window. Timestamps become forms like <code>d3 12:28</code>. <code>windows=False</code> leaves out the triage windows, for the brief corpus. It rebuilds correct permalinks on demand.</p>
+<p>Functions that write <code>corpus.txt</code>: a header of
+<code>#</code> lines (counts, the day histogram, every author, the
+thread index with text share, deleted counts, accounts that look
+automatic), then every thread in time order, each long thread with its
+triage window. Timestamps become forms like <code>d3 12:28</code>.
+<code>windows=False</code> leaves out the triage windows, for the brief
+corpus. It rebuilds correct permalinks on demand.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The instrument's author. <code>newrun.py</code>, <code>build_fleet()</code> and <code>newbrief.py</code> call it when they build a directory.</p>
+<p>The instrument's author. <code>newrun.py</code>,
+<code>build_fleet()</code> and <code>newbrief.py</code> call it when
+they build a directory.</p>
 <p><strong>Why it exists</strong></p>
-<p>Pilot coders spent "~38% of their turns writing python", parsing and counting. The rule behind it: "If a step's output is a number, the agent is never the thing that computes it." The JSONL stays authoritative, so <code>cite</code> still resolves against it.</p>
+<p>Pilot coders spent "~38% of their turns writing python", parsing and
+counting. The rule behind it: "If a step's output is a number, the agent
+is never the thing that computes it." The JSONL stays authoritative, so
+<code>cite</code> still resolves against it.</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/instrument/v32/render_corpus_v32.py">render_corpus_v32.py</a>. Its docstring still carries "VERSION 26".</p>
+<p><a
+href="../../../coder/instrument/v32/render_corpus_v32.py">render_corpus_v32.py</a>.
+Its docstring still carries "VERSION 26".</p>
 <p>Checked against: render_corpus_v32.py, newrun.py, newbrief.py</p>
 </body>
 </html>

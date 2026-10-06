@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`out/rooms/` (room notes)</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,35 @@
 <h1 id="outrooms-room-notes"><code>out/rooms/</code> (room notes)</h1>
 <p>One note per room: the analyst's prior, dated.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>A1 fixes the form, under 350 words: a header (<code># r/&lt;sub&gt;</code>, read date, coded share, off-platform pointers), then <code>doing</code>, <code>week</code>, <code>named</code>, <code>goal</code>, <code>unsettled</code>, <code>coder unsure</code> (what the coder said she could not place, with thread ids), <code>carrying</code> (three concept ids), <code>not this</code>, <code>ended</code>, <code>struck by</code> (the one free line, never cited), and <code>made</code>, written last from the canvas. A later stage appends one dated <code>later:</code> line. STANDING §2 also places D2's <code>model-D.md</code>, <code>verdict-D</code> and placements in <code>rooms/&lt;sub&gt;/</code>.</p>
+<p>A1 fixes the form, under 350 words: a header
+(<code># r/&lt;sub&gt;</code>, read date, coded share, off-platform
+pointers), then <code>doing</code>, <code>week</code>,
+<code>named</code>, <code>goal</code>, <code>unsettled</code>,
+<code>coder unsure</code> (what the coder said she could not place, with
+thread ids), <code>carrying</code> (three concept ids),
+<code>not this</code>, <code>ended</code>, <code>struck by</code> (the
+one free line, never cited), and <code>made</code>, written last from
+the canvas. A later stage appends one dated <code>later:</code> line.
+STANDING §2 also places D2's <code>model-D.md</code>,
+<code>verdict-D</code> and placements in
+<code>rooms/&lt;sub&gt;/</code>.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The analyst at A1, one note per room of the analysed set, in the order of <code>out/order-A1.txt</code> (<code>mem.py next</code> names the next room), written "before you open the next room" and logged. The harness refuses a note whose room's concepts were not read (<code>mem.py codes --sub</code>), and checks the note's form the moment it is written.</p>
+<p>The analyst at A1, one note per room of the analysed set, in the
+order of <code>out/order-A1.txt</code> (<code>mem.py next</code> names
+the next room), written "before you open the next room" and logged. The
+harness refuses a note whose room's concepts were not read
+(<code>mem.py codes --sub</code>), and checks the note's form the moment
+it is written.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>STANDING §1: "Your room notes are your prior"; they are "queried (<code>mem.py note &lt;sub&gt;</code>), never read whole as a list", "never a source for a quote", and each later stage says what it found that they did not predict. A1: "a room you read and did not write about is a room you have not read."</p>
+<p>STANDING §1: "Your room notes are your prior"; they are "queried
+(<code>mem.py note &lt;sub&gt;</code>), never read whole as a list",
+"never a source for a quote", and each later stage says what it found
+that they did not predict. A1: "a room you read and did not write about
+is a room you have not read."</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/rooms/">out/rooms/</a>.</p>
-<p>Checked against: stages/STAGE-A1-reading-room-notes.md, STANDING-INSTRUCTIONS.md §1 and §2, tools/mem.py.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/rooms/">out/rooms/</a>.</p>
+<p>Checked against: stages/STAGE-A1-reading-room-notes.md,
+STANDING-INSTRUCTIONS.md §1 and §2, tools/mem.py.</p>
 </body>
 </html>

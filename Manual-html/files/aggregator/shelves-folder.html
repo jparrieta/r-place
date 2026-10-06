@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`shelves/`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,15 +32,49 @@
 <h1 id="shelves"><code>shelves/</code></h1>
 <p>The literature, arriving with the stages that read it.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>One Markdown file per work at <code>shelves/&lt;stage&gt;/&lt;tier&gt;/&lt;name&gt;.md</code>: the title, the source file, and the text extracted by pdftotext (OCR for a scan), with page breaks kept as <code>--- page N ---</code>. The rows come from <code>SHELVES.tsv</code> (stage, tier, name, source, title). A tier is <code>read</code> (shipped with the stage) or <code>on-request</code> (listed one line each, opened only if asked). A row whose source is <code>-</code> is a stub: the work is named and not held. Rows exist for stages A1, B1, C2, C3, D1, D4 and E1.</p>
+<p>One Markdown file per work at
+<code>shelves/&lt;stage&gt;/&lt;tier&gt;/&lt;name&gt;.md</code>: the
+title, the source file, and the text extracted by pdftotext (OCR for a
+scan), with page breaks kept as <code>--- page N ---</code>. The rows
+come from <code>SHELVES.tsv</code> (stage, tier, name, source, title). A
+tier is <code>read</code> (shipped with the stage) or
+<code>on-request</code> (listed one line each, opened only if asked). A
+row whose source is <code>-</code> is a stub: the work is named and not
+held. Rows exist for stages A1, B1, C2, C3, D1, D4 and E1.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p><code>build_shelves.py</code>, handler side, from a folder of PDFs. <code>build.sh</code> copies <code>shelves/&lt;stage&gt;/</code> into <code>DROPS/&lt;stage&gt;/shelves/</code>, and <code>step.sh</code> delivers it at the stage's first leg. The analyst reads it through <code>mem.py shelf</code>.</p>
+<p><code>build_shelves.py</code>, handler side, from a folder of PDFs.
+<code>build.sh</code> copies <code>shelves/&lt;stage&gt;/</code> into
+<code>DROPS/&lt;stage&gt;/shelves/</code>, and <code>step.sh</code>
+delivers it at the stage's first leg. The analyst reads it through
+<code>mem.py shelf</code>.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>METHOD: the method shelf arrives at A1, B1 and C2, the explanation shelf at C3, the adaptation shelf at D1, the hierarchy shelf at D4 and the critique shelf at E1. Contract §4: "Nothing is read against the explanation literature before stage C3." STANDING §1: "A shelf that has arrived stays."</p>
+<p>METHOD: the method shelf arrives at A1, B1 and C2, the explanation
+shelf at C3, the adaptation shelf at D1, the hierarchy shelf at D4 and
+the critique shelf at E1. Contract §4: "Nothing is read against the
+explanation literature before stage C3." STANDING §1: "A shelf that has
+arrived stays."</p>
 <h2 id="the-metadata-pages">The metadata pages</h2>
-<p>For people, not for the analyst: <a href="../../../aggregator/instrument/shelves/_meta/README.md">shelves/_meta/</a> has one page per work with authors, title, journal, year, volume, issue, pages, DOI and the abstract. <code>make_meta.py --fetch</code> looks each work up on Crossref (a DOI printed in the PDF wins over a title search) and stores the result in <code>BIB.json</code>; <code>make_meta.py</code> then writes the pages, cutting the abstract from the PDF or, failing that, taking Crossref's. A field Crossref does not give stays empty. Five works have no Crossref record and were entered by hand without pages (Machlup 1967, Vaughan 1992, Kozlowski and Klein 2000, Mintzberg 1979, the call for papers); their pages say so. <code>bib_checked: true</code> means the title, authors and journal were compared with the shelf line by hand; volume and pages are Crossref's. These pages are not copied into the run.</p>
+<p>For people, not for the analyst: <a
+href="../../../aggregator/instrument/shelves/_meta/README.md">shelves/_meta/</a>
+has one page per work with authors, title, journal, year, volume, issue,
+pages, DOI and the abstract. <code>make_meta.py --fetch</code> looks
+each work up on Crossref (a DOI printed in the PDF wins over a title
+search) and stores the result in <code>BIB.json</code>;
+<code>make_meta.py</code> then writes the pages, cutting the abstract
+from the PDF or, failing that, taking Crossref's. A field Crossref does
+not give stays empty. Five works have no Crossref record and were
+entered by hand without pages (Machlup 1967, Vaughan 1992, Kozlowski and
+Klein 2000, Mintzberg 1979, the call for papers); their pages say so.
+<code>bib_checked: true</code> means the title, authors and journal were
+compared with the shelf line by hand; volume and pages are Crossref's.
+These pages are not copied into the run.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/shelves/">shelves/</a>; the list <a href="../../../aggregator/instrument/shelves/SHELVES.tsv">aggregator/instrument/shelves/SHELVES.tsv</a>.</p>
-<p>Checked against: shelves/SHELVES.tsv, tools/build_shelves.py, harness/build.sh, METHOD.md, CONTRACT-aggregator.md §4, STANDING-INSTRUCTIONS.md §1.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/shelves/">shelves/</a>;
+the list <a
+href="../../../aggregator/instrument/shelves/SHELVES.tsv">aggregator/instrument/shelves/SHELVES.tsv</a>.</p>
+<p>Checked against: shelves/SHELVES.tsv, tools/build_shelves.py,
+harness/build.sh, METHOD.md, CONTRACT-aggregator.md §4,
+STANDING-INSTRUCTIONS.md §1.</p>
 </body>
 </html>

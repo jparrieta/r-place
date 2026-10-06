@@ -6,49 +6,135 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>How the case lead and its fleet remember</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../manual.css" />
 </head>
 <body>
 <nav><a href="../index.html">The Manual</a> &middot; <a href="../../Manual/memory/coder-lead.md">Markdown source</a></nav>
-<h1 id="how-the-case-lead-and-its-fleet-remember">How the case lead and its fleet remember</h1>
+<h1 id="how-the-case-lead-and-its-fleet-remember">How the case lead and
+its fleet remember</h1>
 <p><em>Kind of page: reference.</em></p>
-<p>A room is coded by agents that do not keep anything in their heads between calls. What they know is on disk. This page says where.</p>
+<p>A room is coded by agents that do not keep anything in their heads
+between calls. What they know is on disk. This page says where.</p>
 <h2 id="the-room-statejson">The room: STATE.json</h2>
-<p><a href="../../coder/rooms/armenia/STATE.json"><code>STATE.json</code></a> is "the room's memory". <code>room.py status</code> rewrites it from the files (stage, branch, slices, verdict, codes). The scheduler adds what files cannot say: agents, notes, failures, <code>carried</code>. <code>start_yard_lead.py</code> records the lead's model, prompt version and store. <code>lead_archive.py</code> records the archive's path, sha256 and size, or, after a restore, <code>lead_store</code>. The paths in it are absolute paths on the machine that ran the room.</p>
+<p><a
+href="../../coder/rooms/armenia/STATE.json"><code>STATE.json</code></a>
+is "the room's memory". <code>room.py status</code> rewrites it from the
+files (stage, branch, slices, verdict, codes). The scheduler adds what
+files cannot say: agents, notes, failures, <code>carried</code>.
+<code>start_yard_lead.py</code> records the lead's model, prompt version
+and store. <code>lead_archive.py</code> records the archive's path,
+sha256 and size, or, after a restore, <code>lead_store</code>. The paths
+in it are absolute paths on the machine that ran the room.</p>
 <h2 id="the-coders-journals-and-logs">The coders: journals and logs</h2>
-<p>Every agent works across many short processes. <code>emit</code> replays <code>out/_journal.jsonl</code> and <code>read.py</code> replays <code>out/_read.jsonl</code> on each call, so "the run state is on disk, not in your memory". An interrupted coder runs <code>read.py CORPUS state</code>; a non-zero cursor means it is resuming, and it carries on without re-reading.</p>
-<p>A fleet coder sees its slice, the openings of earlier threads still running (marked as context), <code>brief.md</code>, and <code>timeline.md</code> and <code>lexicon.md</code> as the lead held them at dispatch. It is "not given any other coder's codes, case or notes". It has no saved native session: "Fleet coders retain their outputs and transcripts, without a resumable native session."</p>
-<h2 id="the-lead-ledger-notes-conversation">The lead: ledger, notes, conversation</h2>
-<p>The lead's memory of the fleet is <code>out/ledger.md</code>, one entry per collected batch, kept by <code>fleet.py collect</code>, with the lead's strikes written under each. It keeps running notes in <code>out/_lead_notes.md</code>. The contract says why: "Your conversation will be compacted on a long run and a fork's lead has none; the ledger is what survives."</p>
-<p>The lead also has a saved conversation. <code>codex_lead.py</code> runs it through the Codex app-server and, after each completed reply, commits a checkpoint of the whole store.</p>
+<p>Every agent works across many short processes. <code>emit</code>
+replays <code>out/_journal.jsonl</code> and <code>read.py</code> replays
+<code>out/_read.jsonl</code> on each call, so "the run state is on disk,
+not in your memory". An interrupted coder runs
+<code>read.py CORPUS state</code>; a non-zero cursor means it is
+resuming, and it carries on without re-reading.</p>
+<p>A fleet coder sees its slice, the openings of earlier threads still
+running (marked as context), <code>brief.md</code>, and
+<code>timeline.md</code> and <code>lexicon.md</code> as the lead held
+them at dispatch. It is "not given any other coder's codes, case or
+notes". It has no saved native session: "Fleet coders retain their
+outputs and transcripts, without a resumable native session."</p>
+<h2 id="the-lead-ledger-notes-conversation">The lead: ledger, notes,
+conversation</h2>
+<p>The lead's memory of the fleet is <code>out/ledger.md</code>, one
+entry per collected batch, kept by <code>fleet.py collect</code>, with
+the lead's strikes written under each. It keeps running notes in
+<code>out/_lead_notes.md</code>. The contract says why: "Your
+conversation will be compacted on a long run and a fork's lead has none;
+the ledger is what survives."</p>
+<p>The lead also has a saved conversation. <code>codex_lead.py</code>
+runs it through the Codex app-server and, after each completed reply,
+commits a checkpoint of the whole store.</p>
 <h2 id="the-lead-session-store">The lead session store</h2>
-<p>A store at <code>_lead_sessions/&lt;sub&gt;-gpt56-calibration-v1/</code> holds:</p>
+<p>A store at
+<code>_lead_sessions/&lt;sub&gt;-gpt56-calibration-v1/</code> holds:</p>
 <ul>
-<li><code>STORE.json</code>: paths, model, effort, the Codex binary, the runtime fingerprint, the lifecycle text.</li>
+<li><code>STORE.json</code>: paths, model, effort, the Codex binary, the
+runtime fingerprint, the lifecycle text.</li>
 <li><code>HEAD.json</code>: the last committed checkpoint.</li>
-<li><code>native/lead/</code>: the lead's own Codex home (sessions, configuration, databases). The login file is copied in for a run and removed after.</li>
-<li><code>workspace/room/</code>: the managed copy of the room; all coders and checks for this reading use it.</li>
-<li><code>state/</code>: <code>runtime.json</code>, <code>lead.json</code> (thread ID, turn ID, final reply, history hash), <code>prompting.json</code>, <code>lead-opening.txt</code>.</li>
-<li><code>objects/</code>, <code>checkpoints/</code>, <code>refs/</code>, <code>audit/</code> (named in CHECKPOINTS.md), and <code>RUNNING.json</code> while a turn runs.</li>
+<li><code>native/lead/</code>: the lead's own Codex home (sessions,
+configuration, databases). The login file is copied in for a run and
+removed after.</li>
+<li><code>workspace/room/</code>: the managed copy of the room; all
+coders and checks for this reading use it.</li>
+<li><code>state/</code>: <code>runtime.json</code>,
+<code>lead.json</code> (thread ID, turn ID, final reply, history hash),
+<code>prompting.json</code>, <code>lead-opening.txt</code>.</li>
+<li><code>objects/</code>, <code>checkpoints/</code>,
+<code>refs/</code>, <code>audit/</code> (named in CHECKPOINTS.md), and
+<code>RUNNING.json</code> while a turn runs.</li>
 </ul>
 <h2 id="resuming-and-forking">Resuming and forking</h2>
-<p><code>turn</code> resumes the saved thread at its stable directory, checks the history hash, sends the message and checkpoints again. <code>fork --checkpoint C --name N</code> restores C and makes an independent native thread without a model turn. <code>restore</code> puts files and native state back "at the same absolute paths". In branch B the last <code>collect</code> stops before consolidation and is saved as <code>after-fleet</code>, the fork point. <code>room.py snapshot</code> and <code>fork</code> are older, filesystem-only, fresh-lead forks: they restore no conversation.</p>
-<h2 id="resume-a-lead-from-this-repository">Resume a lead from this repository</h2>
-<p>The code supports restoring an archive (<code>lead_archive.py restore</code>) and resuming a restored store (<code>codex_lead.py turn</code>). From the yard folder:</p>
-<ol>
-<li>Join a split archive: <code>cat _lead_sessions/&lt;sub&gt;-gpt56-calibration-v1.tar.zst.part* &gt; _lead_sessions/&lt;sub&gt;-gpt56-calibration-v1.tar.zst</code>, parts in order. Check <code>sha256sum</code> against <code>lead_archive_sha256</code> in <code>rooms/&lt;sub&gt;/STATE.json</code>.</li>
-<li>Either <code>python3 -B _tools/lead_archive.py restore &lt;sub&gt;</code>, which checks the sha256, extracts with <code>zstd -qdc</code> and <code>bsdtar -xf</code>, rewrites <code>STORE.json</code> paths, updates <code>STATE.json</code> and deletes the archive; or extract by hand: <code>zstd -dc _lead_sessions/&lt;sub&gt;-gpt56-calibration-v1.tar.zst | tar -xf - -C _lead_sessions</code>.</li>
-<li><code>python3 -B _tools/codex_lead.py --store _lead_sessions/&lt;sub&gt;-gpt56-calibration-v1 status</code>, then <code>verify --checkpoint HEAD</code>.</li>
+<p><code>turn</code> resumes the saved thread at its stable directory,
+checks the history hash, sends the message and checkpoints again.
+<code>fork --checkpoint C --name N</code> restores C and makes an
+independent native thread without a model turn. <code>restore</code>
+puts files and native state back "at the same absolute paths". In branch
+B the last <code>collect</code> stops before consolidation and is saved
+as <code>after-fleet</code>, the fork point.
+<code>room.py snapshot</code> and <code>fork</code> are older,
+filesystem-only, fresh-lead forks: they restore no conversation.</p>
+<h2 id="resume-a-lead-from-this-repository">Resume a lead from this
+repository</h2>
+<p>The code supports restoring an archive
+(<code>lead_archive.py restore</code>) and resuming a restored store
+(<code>codex_lead.py turn</code>). From the yard folder:</p>
+<ol type="1">
+<li>Join a split archive:
+<code>cat _lead_sessions/&lt;sub&gt;-gpt56-calibration-v1.tar.zst.part* &gt; _lead_sessions/&lt;sub&gt;-gpt56-calibration-v1.tar.zst</code>,
+parts in order. Check <code>sha256sum</code> against
+<code>lead_archive_sha256</code> in
+<code>rooms/&lt;sub&gt;/STATE.json</code>.</li>
+<li>Either
+<code>python3 -B _tools/lead_archive.py restore &lt;sub&gt;</code>,
+which checks the sha256, extracts with <code>zstd -qdc</code> and
+<code>bsdtar -xf</code>, rewrites <code>STORE.json</code> paths, updates
+<code>STATE.json</code> and deletes the archive; or extract by hand:
+<code>zstd -dc _lead_sessions/&lt;sub&gt;-gpt56-calibration-v1.tar.zst | tar -xf - -C _lead_sessions</code>.</li>
+<li><code>python3 -B _tools/codex_lead.py --store _lead_sessions/&lt;sub&gt;-gpt56-calibration-v1 status</code>,
+then <code>verify --checkpoint HEAD</code>.</li>
 <li><code>python3 -B _tools/codex_lead.py --store _lead_sessions/&lt;sub&gt;-gpt56-calibration-v1 turn --prompt-file follow-up.txt --label &lt;new-label&gt;</code>.</li>
 </ol>
-<p>What blocks this in practice, from the code: both tools import <code>checkpoints.py</code>, and <code>turn --message collect</code> calls <code>verify_room.py</code>; both are in <code>_tools/</code>. But <code>codex_lead.py</code> refuses if the Codex binary's sha256, Python version, Python path or platform differ from <code>STORE.json</code> ("no silent upgrade allowed"). It needs a Codex login at <code>~/.codex/auth.json</code> or <code>--auth-source</code>. CHECKPOINTS.md says to keep "the original store path" because native history is not rewritten; the code rewrites only the descriptor paths. So a lead cannot be resumed from this repository alone on another machine: the files let you read the saved state (the conversation in <code>native/</code>, the checkpoints, the audit trail), and continuing it needs the same Codex build, a Codex login, and the original store path.</p>
-<p>Checked against: _tools/lead_archive.py, _tools/codex_lead.py, _tools/room.py, _tools/start_yard_lead.py, CHECKPOINTS.md, CASE-LEAD-PROMPT.md, CONTRACT-case-lead.v32.md, CONTRACT-fleet-coder.v32.md, AGENT.v32.md, rooms/armenia/STATE.json</p>
+<p>What blocks this in practice, from the code: both tools import
+<code>checkpoints.py</code>, and <code>turn --message collect</code>
+calls <code>verify_room.py</code>; both are in <code>_tools/</code>. But
+<code>codex_lead.py</code> refuses if the Codex binary's sha256, Python
+version, Python path or platform differ from <code>STORE.json</code>
+("no silent upgrade allowed"). It needs a Codex login at
+<code>~/.codex/auth.json</code> or <code>--auth-source</code>.
+CHECKPOINTS.md says to keep "the original store path" because native
+history is not rewritten; the code rewrites only the descriptor paths.
+So a lead cannot be resumed from this repository alone on another
+machine: the files let you read the saved state (the conversation in
+<code>native/</code>, the checkpoints, the audit trail), and continuing
+it needs the same Codex build, a Codex login, and the original store
+path.</p>
+<p>Checked against: _tools/lead_archive.py, _tools/codex_lead.py,
+_tools/room.py, _tools/start_yard_lead.py, CHECKPOINTS.md,
+CASE-LEAD-PROMPT.md, CONTRACT-case-lead.v32.md,
+CONTRACT-fleet-coder.v32.md, AGENT.v32.md, rooms/armenia/STATE.json</p>
 </body>
 </html>

@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/pixels.csv`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,27 @@
 <h1 id="packagepixelscsv"><code>package/pixels.csv</code></h1>
 <p>Placements in each room's region, hour by hour.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Rows per room and hour. The columns the tools read are <code>sub</code>, <code>px_in_region_any</code>, <code>px_by_pre_members</code> and <code>px_by_window_members</code>; <code>mem.py canvas</code> reports the hours as -16 to 72. Other columns: not stated in the sources.</p>
+<p>Rows per room and hour. The columns the tools read are
+<code>sub</code>, <code>px_in_region_any</code>,
+<code>px_by_pre_members</code> and <code>px_by_window_members</code>;
+<code>mem.py canvas</code> reports the hours as -16 to 72. Other
+columns: not stated in the sources.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The handler supplies it in <code>RUN/INPUT/canvas/</code>; <code>build.sh</code> copies it into <code>package/</code>.</p>
+<p>The handler supplies it in <code>RUN/INPUT/canvas/</code>;
+<code>build.sh</code> copies it into <code>package/</code>.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p><code>mem.py</code> derives two shares per room from it: <code>px_window_share</code> (placed by members who wrote in the window, over all placed in the region) and <code>px_pre_share</code> (by pre-event members), shown by <code>mem.py canvas</code> and <code>mem.py facts</code>. A1 reports "the share of each room's own artwork placed by the people who wrote in it", and the contract's §5 says what that share measures. The manifest's caveat is printed beside it.</p>
+<p><code>mem.py</code> derives two shares per room from it:
+<code>px_window_share</code> (placed by members who wrote in the window,
+over all placed in the region) and <code>px_pre_share</code> (by
+pre-event members), shown by <code>mem.py canvas</code> and
+<code>mem.py facts</code>. A1 reports "the share of each room's own
+artwork placed by the people who wrote in it", and the contract's §5
+says what that share measures. The manifest's caveat is printed beside
+it.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/pixels.csv">package/pixels.csv</a>.</p>
-<p>Checked against: tools/mem.py, harness/build.sh, stages/STAGE-A1-reading-room-notes.md, tools/checks/stage_A1.py.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/pixels.csv">package/pixels.csv</a>.</p>
+<p>Checked against: tools/mem.py, harness/build.sh,
+stages/STAGE-A1-reading-room-notes.md, tools/checks/stage_A1.py.</p>
 </body>
 </html>

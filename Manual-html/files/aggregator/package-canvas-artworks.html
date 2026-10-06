@@ -6,27 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/canvas/artworks.jsonl`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/package-canvas-artworks.md">Markdown source</a></nav>
-<h1 id="packagecanvasartworksjsonl"><code>package/canvas/artworks.jsonl</code></h1>
-<p>Every atlas artwork, with its pixels, placers and placements by hour.</p>
+<h1
+id="packagecanvasartworksjsonl"><code>package/canvas/artworks.jsonl</code></h1>
+<p>Every atlas artwork, with its pixels, placers and placements by
+hour.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>One line per artwork. The fields <code>mem.py</code> reads: <code>artwork_id</code>, <code>name</code>, <code>pixels_covered</code>, <code>placements</code>, <code>placements_smallest_polygon</code>, <code>distinct_placers</code>, <code>first_hour</code>, <code>last_hour</code>, <code>subreddits</code>, <code>subreddits_in_frame</code>, <code>placements_by_hour_0_96</code>. Other fields: not stated in the sources.</p>
+<p>One line per artwork. The fields <code>mem.py</code> reads:
+<code>artwork_id</code>, <code>name</code>, <code>pixels_covered</code>,
+<code>placements</code>, <code>placements_smallest_polygon</code>,
+<code>distinct_placers</code>, <code>first_hour</code>,
+<code>last_hour</code>, <code>subreddits</code>,
+<code>subreddits_in_frame</code>, <code>placements_by_hour_0_96</code>.
+Other fields: not stated in the sources.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The handler supplies it in <code>RUN/INPUT/canvas/</code>; <code>build.sh</code> copies it to <code>package/canvas/</code>. <code>build_neighbours.py</code> reads it to link artworks to rooms.</p>
+<p>The handler supplies it in <code>RUN/INPUT/canvas/</code>;
+<code>build.sh</code> copies it to <code>package/canvas/</code>.
+<code>build_neighbours.py</code> reads it to link artworks to rooms.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>STANDING §1: "every atlas artwork with its index and its placement over time, read beside each room's account; a use is declared (rule 7)." A1 reads each room's placement here for the <code>made</code> line of its note, written last. <code>mem.py canvas</code> draws each linked artwork's placements as a bar aligned like <code>when</code>, with the freeze at hour 73.</p>
+<p>STANDING §1: "every atlas artwork with its index and its placement
+over time, read beside each room's account; a use is declared (rule 7)."
+A1 reads each room's placement here for the <code>made</code> line of
+its note, written last. <code>mem.py canvas</code> draws each linked
+artwork's placements as a bar aligned like <code>when</code>, with the
+freeze at hour 73.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/canvas/artworks.jsonl">package/canvas/artworks.jsonl</a>.</p>
-<p>Checked against: STANDING-INSTRUCTIONS.md §1, tools/mem.py, tools/build_neighbours.py, harness/build.sh, stages/STAGE-A1-reading-room-notes.md.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/canvas/artworks.jsonl">package/canvas/artworks.jsonl</a>.</p>
+<p>Checked against: STANDING-INSTRUCTIONS.md §1, tools/mem.py,
+tools/build_neighbours.py, harness/build.sh,
+stages/STAGE-A1-reading-room-notes.md.</p>
 </body>
 </html>

@@ -6,27 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>STATE.json</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/state-json.md">Markdown source</a></nav>
 <h1 id="statejson">STATE.json</h1>
-<p>A room's memory: what the files say, plus what only the scheduler knows.</p>
+<p>A room's memory: what the files say, plus what only the scheduler
+knows.</p>
 <p><strong>What it holds</strong></p>
-<p>Counts from the build (<code>items_in_window</code>, <code>threads</code>, <code>preweek_items</code>, expected branch), the stage, the brief's model and validation receipt, the instrument and fingerprint, the branch, slices, verdict, codes and themes, <code>agents</code> (role, model, start and end), dated <code>notes</code>, <code>log</code>, <code>snapshots</code>, <code>forks</code>, <code>carried</code>, and for the native lead: <code>lead_model</code>, <code>lead_prompt_version</code>, <code>coding_status</code>, <code>lead_store</code> or <code>lead_archive</code> with its sha256 and size, and the <code>run_archive</code> and <code>materials_archive</code> paths, hashes and sizes. Paths are absolute paths on the machine that ran the room.</p>
+<p>Counts from the build (<code>items_in_window</code>,
+<code>threads</code>, <code>preweek_items</code>, expected branch), the
+stage, the brief's model and validation receipt, the instrument and
+fingerprint, the branch, slices, verdict, codes and themes,
+<code>agents</code> (role, model, start and end), dated
+<code>notes</code>, <code>log</code>, <code>snapshots</code>,
+<code>forks</code>, <code>carried</code>, and for the native lead:
+<code>lead_model</code>, <code>lead_prompt_version</code>,
+<code>coding_status</code>, <code>lead_store</code> or
+<code>lead_archive</code> with its sha256 and size, and the
+<code>run_archive</code> and <code>materials_archive</code> paths,
+hashes and sizes. Paths are absolute paths on the machine that ran the
+room.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p><code>room.py</code> rewrites it from the files on every <code>status</code> and after each command; the scheduler adds fields and notes (§6 of its contract); <code>start_yard_lead.py</code> records the lead start; <code>lead_archive.py</code> records the archive or the restored store. Which script writes the <code>run_archive</code> and <code>materials_archive</code> fields is not stated in the sources.</p>
+<p><code>room.py</code> rewrites it from the files on every
+<code>status</code> and after each command; the scheduler adds fields
+and notes (§6 of its contract); <code>start_yard_lead.py</code> records
+the lead start; <code>lead_archive.py</code> records the archive or the
+restored store. Which script writes the <code>run_archive</code> and
+<code>materials_archive</code> fields is not stated in the sources.</p>
 <p><strong>Why it exists</strong></p>
-<p>"STATE.json is the room's memory." <code>lead_archive.py restore</code> refuses unless the archive's sha256 matches <code>lead_archive_sha256</code> here.</p>
+<p>"STATE.json is the room's memory."
+<code>lead_archive.py restore</code> refuses unless the archive's sha256
+matches <code>lead_archive_sha256</code> here.</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/rooms/armenia/STATE.json">rooms/armenia/STATE.json</a>.</p>
-<p>Checked against: rooms/armenia/STATE.json, _tools/room.py, _tools/lead_archive.py, _tools/start_yard_lead.py, CONTRACT-scheduler.md</p>
+<p><a
+href="../../../coder/rooms/armenia/STATE.json">rooms/armenia/STATE.json</a>.</p>
+<p>Checked against: rooms/armenia/STATE.json, _tools/room.py,
+_tools/lead_archive.py, _tools/start_yard_lead.py,
+CONTRACT-scheduler.md</p>
 </body>
 </html>

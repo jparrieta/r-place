@@ -1,0 +1,44 @@
+package/store/codes.jsonl  72835125 bytes  sha256 b296ff7e058b429b97064afb4660a61b19ece3a354584d7809af319c2dec0d00
+package/store/themes.jsonl  6949131 bytes  sha256 708852292a2557d723fde929a7fab21f0ffccd19f5f1a359ccd6062b9a5d51fb
+package/store/rooms.jsonl  925155 bytes  sha256 cd472a6087a223d43a8b2e862323c537703ef391f796e3693a156022df0dba38
+package/store/_retracted.jsonl  143905 bytes  sha256 8f1869bb8596f3f3a115ffa0a194e4d554b37cf798260ca06816ca8c9e1ed0fa
+retracted line keys ['author', 'batch', 'code_id', 'corpus_position', 'created_utc', 'discovered_at', 'end', 'exchange_id', 'first_order', 'item_id', 'item_kind', 'minted_after_n_codes', 'minted_in_stage', 'note', 'passage_id', 'retracted', 'retracted_reason', 'start', 'sub', 'text', 'theme_id', 'thread_id']
+theme keys ['code_ids', 'first_hour', 'items', 'last_hour', 'n_codes', 'n_codes_coder', 'regrouped_from', 'second_order', 'sub', 'theme_id', 'theme_note', 'threads']
+concepts 115388; listed in a theme's code_ids 115388; listed but not in store 0; in store but listed by no theme 0
+concepts with no theme_id 0
+concepts whose theme_id names no theme of the room 0
+rooms where sum n_codes_coder less retracted differs from store concepts: 32
+  sub, n_codes_coder sum, store concepts, retracted lines, rooms.codes_retracted
+   ('crusaderkings', 222, 222, 14, 14) gap -14
+   ('dankmemes', 670, 670, 14, 14) gap -14
+   ('overwatch', 1198, 1198, 11, 11) gap -11
+   ('cfb', 559, 559, 9, 9) gap -9
+   ('globaloffensive', 1142, 1142, 7, 7) gap -7
+   ('warframe', 294, 294, 6, 6) gap -6
+   ('italy', 335, 335, 4, 4) gap -4
+   ('singapore', 190, 190, 4, 4) gap -4
+   ('GuildWars2', 215, 215, 3, 3) gap -3
+   ('starcitizen', 412, 412, 3, 3) gap -3
+   ('titanfall', 272, 272, 3, 3) gap -3
+   ('Rainbow6', 627, 627, 2, 2) gap -2
+   ('de', 754, 754, 2, 2) gap -2
+   ('heroesofthestorm', 415, 415, 2, 2) gap -2
+   ('linux', 133, 133, 2, 2) gap -2
+   ('mls', 412, 412, 2, 2) gap -2
+   ('nintendo', 158, 158, 2, 2) gap -2
+   ('rust', 177, 177, 2, 2) gap -2
+   ('thesilphroad', 776, 776, 2, 2) gap -2
+   ('wallstreetbets', 214, 214, 2, 2) gap -2
+   ('anime', 214, 214, 1, 1) gap -1
+   ('gameofthrones', 152, 152, 1, 1) gap -1
+   ('hearthstone', 342, 342, 1, 1) gap -1
+   ('japan', 140, 140, 1, 1) gap -1
+   ('kcroyals', 124, 123, 2, 2) gap -1
+   ('osu', 145, 145, 1, 1) gap -1
+   ('pcmasterrace', 1107, 1106, 2, 2) gap -1
+   ('rocketleague', 858, 858, 1, 1) gap -1
+   ('rwby', 320, 320, 1, 1) gap -1
+   ('ssbpm', 145, 145, 1, 1) gap -1
+   ('toolband', 241, 241, 1, 1) gap -1
+   ('worldoftanks', 181, 181, 1, 1) gap -1
+themes with n_codes_coder below n_codes: 0; first []

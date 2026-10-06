@@ -6,27 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`PRIOR-template.md`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/prior-template.md">Markdown source</a></nav>
 <h1 id="prior-templatemd"><code>PRIOR-template.md</code></h1>
-<p>The template for <code>out/prior.md</code>, the analyst's expectations written before it can see results.</p>
+<p>The template for <code>out/prior.md</code>, the analyst's
+expectations written before it can see results.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Eight sections. 1 what the analyst expects the scheme to hold, with the <code>exemplar rule:</code> line (how B1 chooses among quotes that all pass a gate); 2 expectations about the model, including the operator's, recorded so E1 can say whether it held; 3 the three failure shares (<code>does-not-compose</code> above 15 per cent, particulars above 50 per cent, corrections met twice above ten); 4 the temporal brackets, from the canvas's own events; 5 the rule for a coordinating turn; 6 the onset contrast; 7 the D4 distance weights and grades (w = 4, 2, 1, 0.5; g = 1, 0.5, 0, -1); 8 the concept floor and the off-platform threshold for <code>cannot-tell</code>.</p>
+<p>Eight sections. 1 what the analyst expects the scheme to hold, with
+the <code>exemplar rule:</code> line (how B1 chooses among quotes that
+all pass a gate); 2 expectations about the model, including the
+operator's, recorded so E1 can say whether it held; 3 the three failure
+shares (<code>does-not-compose</code> above 15 per cent, particulars
+above 50 per cent, corrections met twice above ten); 4 the temporal
+brackets, from the canvas's own events; 5 the rule for a coordinating
+turn; 6 the onset contrast; 7 the D4 distance weights and grades (w = 4,
+2, 1, 0.5; g = 1, 0.5, 0, -1); 8 the concept floor and the off-platform
+threshold for <code>cannot-tell</code>.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The analyst writes <code>prior.md</code> from it: sections 1 to 6 at the start of B1, before the scheme exists; 7 and 8 at D1, before any adaptation. The template says each part is sealed by the harness when written and amended only by a logged departure.</p>
+<p>The analyst writes <code>prior.md</code> from it: sections 1 to 6 at
+the start of B1, before the scheme exists; 7 and 8 at D1, before any
+adaptation. The template says each part is sealed by the harness when
+written and amended only by a logged departure.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Contract §1: "The verdict is pre-registered", and writing expectations down at B1 is "the only instrument for telling a finding from a prior." <code>distance.py</code> reads §7 and <code>handoff.py</code> reads §8.</p>
+<p>Contract §1: "The verdict is pre-registered", and writing
+expectations down at B1 is "the only instrument for telling a finding
+from a prior." <code>distance.py</code> reads §7 and
+<code>handoff.py</code> reads §8.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/PRIOR-template.md">PRIOR-template.md</a>; source <a href="../../../aggregator/instrument/PRIOR-template.md">aggregator/instrument/PRIOR-template.md</a>.</p>
-<p>Checked against: PRIOR-template.md, CONTRACT-aggregator.md §1, tools/distance.py, tools/handoff.py.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/PRIOR-template.md">PRIOR-template.md</a>;
+source <a
+href="../../../aggregator/instrument/PRIOR-template.md">aggregator/instrument/PRIOR-template.md</a>.</p>
+<p>Checked against: PRIOR-template.md, CONTRACT-aggregator.md §1,
+tools/distance.py, tools/handoff.py.</p>
 </body>
 </html>

@@ -6,25 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>read.py</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/read-py.md">Markdown source</a></nav>
 <h1 id="readpy">read.py</h1>
-<p>The coder's reading tool: it serves the rendered corpus in order and logs every service.</p>
+<p>The coder's reading tool: it serves the rendered corpus in order and
+logs every service.</p>
 <p><strong>What it holds</strong></p>
-<p>Verbs <code>header</code>, <code>windows [n]</code>, <code>thread ID</code>, <code>item ID</code>, <code>state</code> and <code>audit</code>. <code>windows</code> serves the next threads as triage windows (or whole when short), in batches of about 20,000 characters. A cursor advances on serving. Every service goes to <code>out/_read.jsonl</code>, and the index to <code>out/_read_index.json</code>. <code>audit</code> compares what was served with what <code>emit.thread(read=...)</code> declared. In v32 it refuses a branch-B lead's raw read until <code>step5_counter</code> is recorded.</p>
+<p>Verbs <code>header</code>, <code>windows [n]</code>,
+<code>thread ID</code>, <code>item ID</code>, <code>state</code> and
+<code>audit</code>. <code>windows</code> serves the next threads as
+triage windows (or whole when short), in batches of about 20,000
+characters. A cursor advances on serving. Every service goes to
+<code>out/_read.jsonl</code>, and the index to
+<code>out/_read_index.json</code>. <code>audit</code> compares what was
+served with what <code>emit.thread(read=...)</code> declared. In v32 it
+refuses a branch-B lead's raw read until <code>step5_counter</code> is
+recorded.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The instrument's author. Copied into every run and batch. The coder calls it from the first step; the lead calls it in step 5.</p>
+<p>The instrument's author. Copied into every run and batch. The coder
+calls it from the first step; the lead calls it in step 5.</p>
 <p><strong>Why it exists</strong></p>
-<p>Its docstring gives three properties: everything it returns is "a verbatim slice of corpus.txt"; <code>read</code> "becomes derived instead of declared", so what the coder was shown "is a fact about the run rather than a claim in it"; and "it resumes", because state lives in the log.</p>
+<p>Its docstring gives three properties: everything it returns is "a
+verbatim slice of corpus.txt"; <code>read</code> "becomes derived
+instead of declared", so what the coder was shown "is a fact about the
+run rather than a claim in it"; and "it resumes", because state lives in
+the log.</p>
 <p><strong>Where</strong></p>
 <p><a href="../../../coder/instrument/v32/read.py">read.py</a>.</p>
 <p>Checked against: read.py, AGENT.v32.md, TOOLS-SPEC.md</p>

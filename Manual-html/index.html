@@ -6,15 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>r/place: the Manual</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
     div.sourceCode { margin: 1em 0; }
     pre.sourceCode { margin: 0; }
@@ -49,7 +64,7 @@
     code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
     code span.at { color: #7d9029; } /* Attribute */
     code span.bn { color: #40a070; } /* BaseN */
-    code span.bu { } /* BuiltIn */
+    code span.bu { color: #008000; } /* BuiltIn */
     code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #4070a0; } /* Char */
     code span.cn { color: #880000; } /* Constant */
@@ -62,7 +77,7 @@
     code span.ex { } /* Extension */
     code span.fl { color: #40a070; } /* Float */
     code span.fu { color: #06287e; } /* Function */
-    code span.im { } /* Import */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
     code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
     code span.kw { color: #007020; font-weight: bold; } /* Keyword */
     code span.op { color: #666666; } /* Operator */
@@ -80,118 +95,150 @@
 <body>
 <nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/README.md">Markdown source</a></nav>
 <h1 id="rplace-the-manual">r/place: the Manual</h1>
-<p>This repository holds a study of how communities organized on Reddit's r/place in 2017: the data, the instrument that coded each community (the coder), the instrument that builds a model across all of them (the aggregator), and the run of the aggregator, instrument v43, whose record grows here stage by stage. The stage table below says how far it has got; until a stage is finished, this repository offers a method and its evidence trail, not findings. Read in this order:</p>
-<ol>
-<li><a href="1-introduction.html">Introduction</a>: what the project aims to do, and how this Manual is laid out. Reviewing the method? Start with 10.</li>
-<li><a href="2-rplace.html">r/place and the data</a>: the event, what we hold, what the data let us see, and a worked example (Armenia and the Dutch), down to one thread and its codes.</li>
-<li><a href="3-how-it-was-built.html">How it was built</a>: why each kind of file came to exist.</li>
-<li><a href="4-the-coder.html">The coder</a> and 5. <a href="5-the-aggregator.html">the aggregator</a>: each instrument top down.</li>
-<li><a href="6-the-handlers.html">The handlers</a>: who runs the agents, their files, their memory, how sessions are saved.</li>
-<li><a href="7-tool-usage.html">Tool usage</a>: which tools the agents use, and which almost never.</li>
-<li><a href="8-the-v37-run.html">The v37 run</a>: the previous aggregator run.</li>
-<li><a href="9-resuming.html">Talking with a leg, and continuing a run</a>: what the talk command does, piece by piece, and what it can touch on your machine.</li>
-<li><a href="10-for-reviewers.html">For reviewers</a>: the tiers against Gioia's, which model did each step, the departures the method names, and how to check one room yourself.</li>
+<p>This repository holds a study of how communities organized on
+Reddit's r/place in 2017: the data, the instrument that coded each
+community (the coder), the instrument that builds a model across all of
+them (the aggregator), and the run of the aggregator, instrument v43,
+whose record grows here stage by stage. The stage table below says how
+far it has got; until a stage is finished, this repository offers a
+method and its evidence trail, not findings. Read in this order:</p>
+<ol type="1">
+<li><a href="1-introduction.html">Introduction</a>: what the project
+aims to do, and how this Manual is laid out. Reviewing the method? Start
+with 10.</li>
+<li><a href="2-rplace.html">r/place and the data</a>: the event, what we
+hold, what the data let us see, and a worked example (Armenia and the
+Dutch), down to one thread and its codes.</li>
+<li><a href="3-how-it-was-built.html">How it was built</a>: why each
+kind of file came to exist.</li>
+<li><a href="4-the-coder.html">The coder</a> and 5. <a
+href="5-the-aggregator.html">the aggregator</a>: each instrument top
+down.</li>
+<li><a href="6-the-handlers.html">The handlers</a>: who runs the agents,
+their files, their memory, how sessions are saved.</li>
+<li><a href="7-tool-usage.html">Tool usage</a>: which tools the agents
+use, and which almost never.</li>
+<li><a href="8-the-v37-run.html">The v37 run</a>: the previous
+aggregator run.</li>
+<li><a href="9-resuming.html">Talking with a leg, and continuing a
+run</a>: what the talk command does, piece by piece, and what it can
+touch on your machine.</li>
+<li><a href="10-for-reviewers.html">For reviewers</a>: the tiers against
+Gioia's, which model did each step, the departures the method names, and
+how to check one room yourself.</li>
 </ol>
-<p>Reference: <a href="files/index.html">every kind of file</a>, <a href="memory/aggregator.html">how the aggregator remembers</a>, <a href="memory/coder-lead.html">how the coder lead remembers</a>, the <a href="glossary.html">glossary</a>, <a href="requirements-and-data.html">requirements and data</a> and <a href="data-and-collection.html">data and collection</a>.</p>
-<p>The population and the evidence: <a href="census.html">the census</a>, from 1,473 artworks to the communities the study counts; <a href="trace-a-claim.html">trace one claim</a>, from a case account down to the Reddit comment; and <a href="numbers.html">the numbers</a>, every count that moves, regenerated from the files at every close.</p>
-<p>Each page's first line names its kind: a tutorial to learn by doing, a how-to for a task, reference to look up, or explanation of why.</p>
-<p>The run below is generated from its records at every close (<code>CONTROL/harness/gen_manual.py</code>); do not edit this page by hand.</p>
+<p>Reference: <a href="files/index.html">every kind of file</a>, <a
+href="memory/aggregator.html">how the aggregator remembers</a>, <a
+href="memory/coder-lead.html">how the coder lead remembers</a>, the <a
+href="glossary.html">glossary</a>, <a
+href="requirements-and-data.html">requirements and data</a> and <a
+href="data-and-collection.html">data and collection</a>.</p>
+<p>The population and the evidence: <a href="census.html">the
+census</a>, from 1,473 artworks to the communities the study counts; <a
+href="trace-a-claim.html">trace one claim</a>, from a case account down
+to the Reddit comment; and <a href="numbers.html">the numbers</a>, every
+count that moves, regenerated from the files at every close.</p>
+<p>Each page's first line names its kind: a tutorial to learn by doing,
+a how-to for a task, reference to look up, or explanation of why.</p>
+<p>The run below is generated from its records at every close
+(<code>CONTROL/harness/gen_manual.py</code>); do not edit this page by
+hand.</p>
 <h2 id="the-run">The run</h2>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>stage</th>
 <th>name</th>
 <th>status</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="stages/A1.html">A1</a></td>
 <td>Reading: room notes</td>
-<td>not started</td>
+<td>1 leg closed</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="stages/B1.html">B1</a></td>
 <td>Coding: third-order scheme</td>
 <td>not started</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="stages/B2.html">B2</a></td>
 <td>Coding: pilot</td>
 <td>not started</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="stages/B3.html">B3</a></td>
 <td>Coding: fleet</td>
 <td>not started</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="stages/B4.html">B4</a></td>
 <td>Coding: adjudication and freeze</td>
 <td>not started</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="stages/C1.html">C1</a></td>
 <td>Model: structuring</td>
 <td>not started</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="stages/C2.html">C2</a></td>
 <td>Model: the loop</td>
 <td>not started</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="stages/C3.html">C3</a></td>
 <td>Model: literature</td>
 <td>not started</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="stages/C4.html">C4</a></td>
 <td>Model: the field</td>
 <td>not started</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="stages/C5.html">C5</a></td>
 <td>Model: account</td>
 <td>not started</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="stages/D1.html">D1</a></td>
 <td>Adaptation: return build</td>
 <td>not started</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="stages/D2.html">D2</a></td>
 <td>Adaptation: labelers and verdicts</td>
 <td>not started</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="stages/D3.html">D3</a></td>
 <td>Adaptation: adjudication</td>
 <td>not started</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="stages/D4.html">D4</a></td>
 <td>Forming: the tree</td>
 <td>not started</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="stages/D5.html">D5</a></td>
 <td>Forming: branch accounts</td>
 <td>not started</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="stages/D6.html">D6</a></td>
 <td>Forming: the retelling</td>
 <td>not started</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="stages/E1.html">E1</a></td>
 <td>Formalizing: audit</td>
 <td>not started</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="stages/E2.html">E2</a></td>
 <td>Formalizing: feedback</td>
 <td>not started</td>
@@ -199,34 +246,96 @@
 </tbody>
 </table>
 <h2 id="the-repository">The repository</h2>
-<p>Two layers are the instrument: <a href="../aggregator/handler/HANDLER.md"><code>aggregator/</code></a> holds everything to run the aggregator (the analyst's instrument in <code>instrument/</code>, the handler in <code>handler/</code> with the Claude harness in <code>claude/</code> and the Codex runtime in <code>codex/</code>, the shared input in <code>input/</code>, and one folder per run in <code>runs/</code>), and <a href="../coder/README.md"><code>coder/</code></a> everything to code communities (the case lead's instrument in <code>instrument/v32/</code>, the scheduler's contract, runbooks and tools in <code>handler/</code>, the census, and the example rooms). <a href="../data/README.md"><code>data/</code></a> holds how to get every piece of data, one folder per store, and <a href="../archive"><code>archive/</code></a> earlier versions of the instruments.</p>
+<p>Two layers are the instrument: <a
+href="../aggregator/handler/HANDLER.md"><code>aggregator/</code></a>
+holds everything to run the aggregator (the analyst's instrument in
+<code>instrument/</code>, the handler in <code>handler/</code> with the
+Claude harness in <code>claude/</code> and the Codex runtime in
+<code>codex/</code>, the shared input in <code>input/</code>, and one
+folder per run in <code>runs/</code>), and <a
+href="../coder/README.md"><code>coder/</code></a> everything to code
+communities (the case lead's instrument in <code>instrument/v32/</code>,
+the scheduler's contract, runbooks and tools in <code>handler/</code>,
+the census, and the example rooms). <a
+href="../data/README.md"><code>data/</code></a> holds how to get every
+piece of data, one folder per store, and <a
+href="../archive"><code>archive/</code></a> earlier versions of the
+instruments.</p>
 <h2 id="what-every-file-is-and-why">What every file is, and why</h2>
 <ul>
-<li><a href="files/index.html">Every kind of file</a>: the aggregator's and the coder's, each with what it holds, who writes it and when, why it exists, and a link to a real one.</li>
-<li>How each side remembers: <a href="memory/aggregator.html">the aggregator</a>, <a href="memory/coder-lead.html">the coder lead</a>.</li>
-<li><a href="files/handler/index.html">The handler's protocol and scripts</a>: what whoever runs the study must do around the analyst, and the tools to do it.</li>
-<li>The coding yard, ready to fill, with the case lead's instrument v32 and the fourteen coded rooms of the Armenia and Dutch example (twelve with their case lead's saved session), is in <a href="../coder/README.md"><code>coder</code></a>.</li>
+<li><a href="files/index.html">Every kind of file</a>: the aggregator's
+and the coder's, each with what it holds, who writes it and when, why it
+exists, and a link to a real one.</li>
+<li>How each side remembers: <a href="memory/aggregator.html">the
+aggregator</a>, <a href="memory/coder-lead.html">the coder
+lead</a>.</li>
+<li><a href="files/handler/index.html">The handler's protocol and
+scripts</a>: what whoever runs the study must do around the analyst, and
+the tools to do it.</li>
+<li>The coding yard, ready to fill, with the case lead's instrument v32
+and the fourteen coded rooms of the Armenia and Dutch example (twelve
+with their case lead's saved session), is in <a
+href="../coder/README.md"><code>coder</code></a>.</li>
 </ul>
-<h2 id="talk-with-the-analyst-at-any-leg">Talk with the analyst at any leg</h2>
-<p>Each closed leg on a stage page carries a command. Copy it into a terminal (macOS, Linux or WSL) inside a clone of this repository. It opens the leg's own conversation as a read-only fork: the analyst remembers everything it did up to that close and can open files to answer you; it cannot run commands or write. The fork is a new session on your own account and your own usage; nothing in the repository changes. No command appears until a leg has closed.</p>
-<p>You need Claude Code installed and logged in (<code>claude</code> once). The fork does not need the run's harness or python. Downloaded as a zip rather than cloned: replace <code>$(git rev-parse --show-toplevel)</code> with the folder you unzipped to. <a href="9-resuming.html">Talking with a leg</a> explains every part of the command, the files it opens, what it cannot do on your machine, and how to check it before you run it.</p>
+<h2 id="talk-with-the-analyst-at-any-leg">Talk with the analyst at any
+leg</h2>
+<p>Each closed leg on a stage page carries a command. Copy it into a
+terminal (macOS, Linux or WSL) inside a clone of this repository. It
+opens the leg's own conversation as a read-only fork: the analyst
+remembers everything it did up to that close and can open files to
+answer you; it cannot run commands or write. The fork is a new session
+on your own account and your own usage; nothing in the repository
+changes. No command appears until a leg has closed.</p>
+<p>You need Claude Code installed and logged in (<code>claude</code>
+once). The fork does not need the run's harness or python. Downloaded as
+a zip rather than cloned: replace
+<code>$(git rev-parse --show-toplevel)</code> with the folder you
+unzipped to. <a href="9-resuming.html">Talking with a leg</a> explains
+every part of the command, the files it opens, what it cannot do on your
+machine, and how to check it before you run it.</p>
 <h2 id="start-a-run-of-your-own">Start a run of your own</h2>
-<p>The analyst's instrument is in <a href="../aggregator/instrument/CONTRACT-aggregator.md"><code>aggregator/instrument</code></a>, the harness that runs it in <a href="../aggregator/handler/claude/READ-ME-FIRST.md"><code>aggregator/handler/claude</code></a>, and the handler's protocol in <a href="../aggregator/handler/HANDLER.md">HANDLER.md</a>.</p>
-<p>Build it outside your clone. Built inside, its first close would regenerate this Manual over the published one and commit and push to your clone's remote (<code>publish.sh</code> commits whatever repository the run sits in).</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="va">REPO=</span><span class="st">&quot;</span><span class="va">$(</span><span class="fu">git</span> rev-parse --show-toplevel<span class="va">)</span><span class="st">&quot;</span>; <span class="fu">mkdir</span> -p ~/runs/MYRUN</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="fu">cp</span> -R <span class="st">&quot;</span><span class="va">$REPO</span><span class="st">/aggregator/input&quot;</span> ~/runs/input         # the coders<span class="st">&#39; files and the canvas, joined at build</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="st">bash &quot;$REPO/aggregator/handler/claude/build.sh&quot; ~/runs/MYRUN --input-root ~/runs/input --input ~/runs/input/coders</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="st">cd ~/runs/MYRUN &amp;&amp; CLAUDE_CONFIG_DIR=&quot;$PWD/CONTROL/.cc&quot; claude   # log the run&#39;</span>s own Claude in once, then /exit</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a><span class="fu">bash</span> CONTROL/harness/acceptance.sh          # must end ALL CLEAR</span></code></pre></div>
-<p>Then follow <code>STAGE CARDS/</code>, one card per stage, in order. What you need first (Python, packages, keys, what the readers cost and where their packets go) is on <a href="requirements-and-data.html">requirements and data</a>; what each script does when it runs is on <a href="9-resuming.html">talking with a leg, and continuing a run</a>.</p>
+<p>The analyst's instrument is in <a
+href="../aggregator/instrument/CONTRACT-aggregator.md"><code>aggregator/instrument</code></a>,
+the harness that runs it in <a
+href="../aggregator/handler/claude/READ-ME-FIRST.md"><code>aggregator/handler/claude</code></a>,
+and the handler's protocol in <a
+href="../aggregator/handler/HANDLER.md">HANDLER.md</a>.</p>
+<p>Build it outside your clone. Built inside, its first close would
+regenerate this Manual over the published one and commit and push to
+your clone's remote (<code>publish.sh</code> commits whatever repository
+the run sits in).</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">REPO</span><span class="op">=</span><span class="st">&quot;</span><span class="va">$(</span><span class="fu">git</span> rev-parse <span class="at">--show-toplevel</span><span class="va">)</span><span class="st">&quot;</span><span class="kw">;</span> <span class="fu">mkdir</span> <span class="at">-p</span> ~/runs/MYRUN</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> <span class="at">-R</span> <span class="st">&quot;</span><span class="va">$REPO</span><span class="st">/aggregator/input&quot;</span> ~/runs/input         <span class="co"># the coders&#39; files and the canvas, joined at build</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> <span class="st">&quot;</span><span class="va">$REPO</span><span class="st">/aggregator/handler/claude/build.sh&quot;</span> ~/runs/MYRUN <span class="at">--input-root</span> ~/runs/input <span class="at">--input</span> ~/runs/input/coders</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/runs/MYRUN <span class="kw">&amp;&amp;</span> <span class="va">CLAUDE_CONFIG_DIR</span><span class="op">=</span><span class="st">&quot;</span><span class="va">$PWD</span><span class="st">/CONTROL/.cc&quot;</span> <span class="ex">claude</span>   <span class="co"># log the run&#39;s own Claude in once, then /exit</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> CONTROL/harness/acceptance.sh          <span class="co"># must end ALL CLEAR</span></span></code></pre></div>
+<p>Then follow <code>STAGE CARDS/</code>, one card per stage, in order.
+What you need first (Python, packages, keys, what the readers cost and
+where their packets go) is on <a
+href="requirements-and-data.html">requirements and data</a>; what each
+script does when it runs is on <a href="9-resuming.html">talking with a
+leg, and continuing a run</a>.</p>
 <h2 id="what-is-where">What is where</h2>
 <ul>
-<li><a href="../aggregator/runs/claude-v43-1/READ-ME-FIRST.md"><code>aggregator/runs/claude-v43-1/READ-ME-FIRST.md</code></a>: the handler's guide to the run</li>
-<li><a href="../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT"><code>aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT</code></a>: the analyst's folder, with everything it wrote in <code>out/</code></li>
-<li><a href="../aggregator/runs/claude-v43-1/CONTROL"><code>aggregator/runs/claude-v43-1/CONTROL</code></a>: the harness, the checkpoints and the records</li>
-<li><a href="../aggregator/handler/HANDLER.md"><code>aggregator/handler</code></a>: the handler's protocol, its scripts, the harness and the Codex runtime</li>
-<li><a href="../coder/README.md"><code>coder</code></a>: the coder layer: the case lead's instrument, the scheduler's handler, the census and the rooms</li>
-<li><a href="../archive"><code>archive</code></a>: every earlier version of the instruments, in one archive</li>
+<li><a
+href="../aggregator/runs/claude-v43-1/READ-ME-FIRST.md"><code>aggregator/runs/claude-v43-1/READ-ME-FIRST.md</code></a>:
+the handler's guide to the run</li>
+<li><a
+href="../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT"><code>aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT</code></a>:
+the analyst's folder, with everything it wrote in <code>out/</code></li>
+<li><a
+href="../aggregator/runs/claude-v43-1/CONTROL"><code>aggregator/runs/claude-v43-1/CONTROL</code></a>:
+the harness, the checkpoints and the records</li>
+<li><a
+href="../aggregator/handler/HANDLER.md"><code>aggregator/handler</code></a>:
+the handler's protocol, its scripts, the harness and the Codex
+runtime</li>
+<li><a href="../coder/README.md"><code>coder</code></a>: the coder
+layer: the case lead's instrument, the scheduler's handler, the census
+and the rooms</li>
+<li><a href="../archive"><code>archive</code></a>: every earlier version
+of the instruments, in one archive</li>
 </ul>
 </body>
 </html>

@@ -6,27 +6,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`harness/interview.sh`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/harness-interview-sh.md">Markdown source</a></nav>
 <h1 id="harnessinterviewsh"><code>harness/interview.sh</code></h1>
-<p>Talks with the analyst at an interview point, in a folder of its own restored from that leg's checkpoint.</p>
+<p>Talks with the analyst at an interview point, in a folder of its own
+restored from that leg's checkpoint.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p><code>interview.sh [LEG | NN.LEG | --list]</code>. It finds the closed interview point (default the last), checks its checkpoint is committed, records the fork in <code>CONTROL/interviews.tsv</code>, and has <code>protocol_guard.py interview</code> restore the leg's checkpoint: the analyst's folder, exactly as it stood at the close, into <code>interview-workspaces/&lt;label&gt;__&lt;fork&gt;/</code>, and the leg's sessions into a Claude project of the interview's own (<code>projects/iv-&lt;fork&gt;</code>). The copy's settings shut the live folder and every other interview's copy, and carry no hooks. It names the brief and the reply file, and opens <code>claude --resume &lt;session&gt; --fork-session</code> in the copy, with the line "This is an interview, not a leg." The analyst may read and, when asked, write; you may add files to the copy. Nothing reaches the live run, and no interview reuses another's folder (J, 29 September 2026). Afterwards it copies the fork's transcript to <code>interviews/&lt;label&gt;__&lt;fork&gt;.jsonl</code> beside the run and calls <code>publish.sh</code>; <code>.gitignore</code> keeps the transcript out of git unless the principal investigator commits it.</p>
+<p><code>interview.sh [LEG | NN.LEG | --list]</code>. It finds the
+closed interview point (default the last), checks its checkpoint is
+committed, records the fork in <code>CONTROL/interviews.tsv</code>, and
+has <code>protocol_guard.py interview</code> restore the leg's
+checkpoint: the analyst's folder, exactly as it stood at the close, into
+<code>interview-workspaces/&lt;label&gt;__&lt;fork&gt;/</code>, and the
+leg's sessions into a Claude project of the interview's own
+(<code>projects/iv-&lt;fork&gt;</code>). The copy's settings shut the
+live folder and every other interview's copy, and carry no hooks. It
+names the brief and the reply file, and opens
+<code>claude --resume &lt;session&gt; --fork-session</code> in the copy,
+with the line "This is an interview, not a leg." The analyst may read
+and, when asked, write; you may add files to the copy. Nothing reaches
+the live run, and no interview reuses another's folder (J, 29 September
+2026). Afterwards it copies the fork's transcript to
+<code>interviews/&lt;label&gt;__&lt;fork&gt;.jsonl</code> beside the run
+and calls <code>publish.sh</code>; <code>.gitignore</code> keeps the
+transcript out of git unless the principal investigator commits it.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The principal investigator, after <code>close.sh</code> of a leg that ended with <code>--cut interview</code>. From the leg handler's chat, <code>legs.py interview</code> opens the same kind of fork (a copy of the saved folder, the leg's sessions in a project of its own, a row in <code>CONTROL/interviews.tsv</code>), and leaves its transcript in the run's Claude folder (<code>CONTROL/.cc/projects/iv-&lt;fork&gt;/</code>, not committed); both kinds reach the analyst at stage E2a.</p>
+<p>The principal investigator, after <code>close.sh</code> of a leg that
+ended with <code>--cut interview</code>. From the leg handler's chat,
+<code>legs.py interview</code> opens the same kind of fork (a copy of
+the saved folder, the leg's sessions in a project of its own, a row in
+<code>CONTROL/interviews.tsv</code>), and leaves its transcript in the
+run's Claude folder (<code>CONTROL/.cc/projects/iv-&lt;fork&gt;/</code>,
+not committed); both kinds reach the analyst at stage E2a.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>STANDING §2: "nothing said there enters the run unless it comes back as a reply", the brief's name with <code>-reply</code> added, which the next leg reads before its first write and answers under rule 13.</p>
+<p>STANDING §2: "nothing said there enters the run unless it comes back
+as a reply", the brief's name with <code>-reply</code> added, which the
+next leg reads before its first write and answers under rule 13.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/interview.sh">harness/interview.sh</a>.</p>
-<p>Checked against: harness/interview.sh, STANDING-INSTRUCTIONS.md §2, harness/step.sh.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/interview.sh">harness/interview.sh</a>.</p>
+<p>Checked against: harness/interview.sh, STANDING-INSTRUCTIONS.md §2,
+harness/step.sh.</p>
 </body>
 </html>

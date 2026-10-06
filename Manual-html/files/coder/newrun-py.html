@@ -6,27 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>newrun.py</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/newrun-py.md">Markdown source</a></nav>
 <h1 id="newrunpy">newrun.py</h1>
-<p>Builds a case lead's run directory, and through <code>build_fleet()</code>, each fleet batch.</p>
+<p>Builds a case lead's run directory, and through
+<code>build_fleet()</code>, each fleet batch.</p>
 <p><strong>What it holds</strong></p>
-<p><code>python3 newrun.py RUNDIR SUB CORPUS_JSONL BRIEF_MD MODEL</code>. It copies the instrument in, fills the placeholders in <code>CONTRACT.md</code>, <code>AGENT.md</code> and <code>CONTRACT-case-lead.md</code>, renders <code>corpus.txt</code>, writes <code>openings.md</code>, creates <code>out/</code> with an empty <code>_transcript.jsonl</code>, and writes <code>corpus_manifest.json</code> (the counts the gate uses) and <code>_manifest.json</code> (a sha256 of every instrument file, the model, and a fingerprint). <code>INSTRUMENT_FILES</code> lists the files the fingerprint covers.</p>
+<p><code>python3 newrun.py RUNDIR SUB CORPUS_JSONL BRIEF_MD MODEL</code>.
+It copies the instrument in, fills the placeholders in
+<code>CONTRACT.md</code>, <code>AGENT.md</code> and
+<code>CONTRACT-case-lead.md</code>, renders <code>corpus.txt</code>,
+writes <code>openings.md</code>, creates <code>out/</code> with an empty
+<code>_transcript.jsonl</code>, and writes
+<code>corpus_manifest.json</code> (the counts the gate uses) and
+<code>_manifest.json</code> (a sha256 of every instrument file, the
+model, and a fingerprint). <code>INSTRUMENT_FILES</code> lists the files
+the fingerprint covers.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The instrument's author. <code>room.py run</code> calls it once per room; <code>codex_lead.py init</code> calls <code>room.py run</code> inside the managed copy.</p>
+<p>The instrument's author. <code>room.py run</code> calls it once per
+room; <code>codex_lead.py init</code> calls <code>room.py run</code>
+inside the managed copy.</p>
 <p><strong>Why it exists</strong></p>
-<p>So <code>close_run.py</code> "can tell afterwards whether anything moved underneath the run". The empty transcript is "deliberate": C2 fails until the dispatcher fills it. "The model is a condition of the reading", so a missing model is an error.</p>
+<p>So <code>close_run.py</code> "can tell afterwards whether anything
+moved underneath the run". The empty transcript is "deliberate": C2
+fails until the dispatcher fills it. "The model is a condition of the
+reading", so a missing model is an error.</p>
 <p><strong>Where</strong></p>
 <p><a href="../../../coder/instrument/v32/newrun.py">newrun.py</a>.</p>
-<p>Checked against: newrun.py, yard/_tools/room.py, yard/_tools/codex_lead.py</p>
+<p>Checked against: newrun.py, yard/_tools/room.py,
+yard/_tools/codex_lead.py</p>
 </body>
 </html>

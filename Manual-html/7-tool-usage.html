@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Tool usage</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="manual.css" />
 </head>
@@ -19,75 +31,81 @@
 <nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/7-tool-usage.md">Markdown source</a></nav>
 <h1 id="tool-usage">Tool usage</h1>
 <p><em>Kind of page: reference: counts, and where they stop.</em></p>
-<p>Which tools the agents called, and which they barely touched. The counts come from one file of tallies made from transcripts; this page reads them and says where they stop.</p>
+<p>Which tools the agents called, and which they barely touched. The
+counts come from one file of tallies made from transcripts; this page
+reads them and says where they stop.</p>
 <h2 id="coder-side">Coder side</h2>
-<p>Source: 12 sample rooms, their case lead and fleet transcripts, 82 files. The file counts commands issued, by script and subcommand. It does not say which 12 rooms, which instrument version each ran, or how a command line was split into counts. In all, 61 script names and 5,935 commands.</p>
+<p>Source: 12 sample rooms, their case lead and fleet transcripts, 82
+files. The file counts commands issued, by script and subcommand. It
+does not say which 12 rooms, which instrument version each ran, or how a
+command line was split into counts. In all, 61 script names and 5,935
+commands.</p>
 <p>The instrument's own tools, 5,348 of the 5,935:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>command</th>
 <th style="text-align: right;">count</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><code>read.py corpus</code></td>
 <td style="text-align: right;">2,782</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>cite.py coder</code></td>
 <td style="text-align: right;">854</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>close_run.py</code></td>
 <td style="text-align: right;">319</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>fleet.py dispatch</code></td>
 <td style="text-align: right;">299</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>fleet.py collect</code></td>
 <td style="text-align: right;">224</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>read.py</code> (no subcommand)</td>
 <td style="text-align: right;">208</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>tree_builder.py</code></td>
 <td style="text-align: right;">137</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>audit_fleet.py</code></td>
 <td style="text-align: right;">127</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>fleet.py consolidate</code></td>
 <td style="text-align: right;">122</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>fleet.py plan</code></td>
 <td style="text-align: right;">112</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>fleet.py redispatch</code></td>
 <td style="text-align: right;">80</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>cite.py</code> (no subcommand)</td>
 <td style="text-align: right;">48</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>read.py coder</code></td>
 <td style="text-align: right;">30</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>emit.py close</code></td>
 <td style="text-align: right;">3</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>emit.py</code> (no subcommand)</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -96,102 +114,189 @@
 <p>Scripts the agents wrote themselves, 587 commands over 46 names:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>group</th>
 <th>names and counts</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>case lead helpers, <code>_lead_</code> prefix (13 names, 133)</td>
-<td><code>_lead_times.py</code> 57, <code>_lead_emit_themes.py</code> 15, <code>_lead_themes.py</code> 15, <code>_lead_counter_codes.py</code> 9, <code>_lead_citations.py</code> 9, <code>_lead_theme_step.py</code> 7, and seven more at 3 each</td>
+<td><code>_lead_times.py</code> 57, <code>_lead_emit_themes.py</code>
+15, <code>_lead_themes.py</code> 15, <code>_lead_counter_codes.py</code>
+9, <code>_lead_citations.py</code> 9, <code>_lead_theme_step.py</code>
+7, and seven more at 3 each</td>
 </tr>
-<tr class="even">
+<tr>
 <td>recording and coding helpers (32 names, 320)</td>
-<td><code>record_codes.py</code> 54, <code>code_batch.py</code> 42, <code>record_slice.py</code> 34, <code>code_slice.py</code> 26, <code>pointer_batch.py</code> 22, <code>record_pointers.py</code> 20, <code>pointers.py</code> 14, <code>emit_codes.py</code> 14, <code>record_dispositions.py</code> 12, <code>_work_emit.py</code> 10, <code>cite_batch.py</code> 8, and 21 more at 6 or fewer</td>
+<td><code>record_codes.py</code> 54, <code>code_batch.py</code> 42,
+<code>record_slice.py</code> 34, <code>code_slice.py</code> 26,
+<code>pointer_batch.py</code> 22, <code>record_pointers.py</code> 20,
+<code>pointers.py</code> 14, <code>emit_codes.py</code> 14,
+<code>record_dispositions.py</code> 12, <code>_work_emit.py</code> 10,
+<code>cite_batch.py</code> 8, and 21 more at 6 or fewer</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>_scheduler_preflight.py</code></td>
 <td>134</td>
 </tr>
 </tbody>
 </table>
 <h3 id="reading-the-coder-counts">Reading the coder counts</h3>
-<p>Reading dominates. <code>read.py corpus</code> alone is 47 per cent of all commands, and <code>cite.py coder</code> another 14 per cent. The fleet cycle (plan, dispatch, collect, consolidate, redispatch) shows up in every step, with 80 redispatches against 299 dispatches.</p>
-<p>The agents wrote many helper scripts of their own. The case lead's <code>_lead_</code> scripts are sanctioned: the <a href="files/coder/contract-case-lead.html">case lead's contract</a> says a helper script goes in the run directory "under a name beginning <code>_lead_</code>" and is not deleted. The other 32 are not named anywhere in the instrument. Their names (<code>record_codes.py</code>, <code>code_batch.py</code>, <code>record_pointers.py</code>, <code>record_dispositions.py</code>, <code>emit_codes.py</code>) point at the recording step: coders wrapped the recording of codes, pointers and thread dispositions in their own batch scripts. That suggests the official tools did not fit how the coders wanted to record, one call at a time. The counts cannot say why.</p>
-<p><code>emit.py</code>, the recording tool, appears only six times by name. One reading: <code>emit</code> is a Python API (<code>from emit import Emit</code>), and the contract has the coder call it from Python, so a command line would name the coder's own script, not <code>emit.py</code>. On that reading, many of the helper scripts above are how <code>emit</code> was called. The tally does not record imports, so this is not settled.</p>
-<p><code>_scheduler_preflight.py</code> is not an agent's helper. The yard's <a href="../coder/handler/tools/codex_coder.py">codex_coder.py</a> copies its own <a href="../coder/handler/tools/coder_preflight.py">coder_preflight.py</a> into each fleet batch under that name, and its prompt tells the fleet coder to run it before its final reply and to finish only when it prints PREFLIGHT PASSED. Its 134 runs are fleet coders checking their own work.</p>
+<p>Reading dominates. <code>read.py corpus</code> alone is 47 per cent
+of all commands, and <code>cite.py coder</code> another 14 per cent. The
+fleet cycle (plan, dispatch, collect, consolidate, redispatch) shows up
+in every step, with 80 redispatches against 299 dispatches.</p>
+<p>The agents wrote many helper scripts of their own. The case lead's
+<code>_lead_</code> scripts are sanctioned: the <a
+href="files/coder/contract-case-lead.html">case lead's contract</a> says
+a helper script goes in the run directory "under a name beginning
+<code>_lead_</code>" and is not deleted. The other 32 are not named
+anywhere in the instrument. Their names (<code>record_codes.py</code>,
+<code>code_batch.py</code>, <code>record_pointers.py</code>,
+<code>record_dispositions.py</code>, <code>emit_codes.py</code>) point
+at the recording step: coders wrapped the recording of codes, pointers
+and thread dispositions in their own batch scripts. That suggests the
+official tools did not fit how the coders wanted to record, one call at
+a time. The counts cannot say why.</p>
+<p><code>emit.py</code>, the recording tool, appears only six times by
+name. One reading: <code>emit</code> is a Python API
+(<code>from emit import Emit</code>), and the contract has the coder
+call it from Python, so a command line would name the coder's own
+script, not <code>emit.py</code>. On that reading, many of the helper
+scripts above are how <code>emit</code> was called. The tally does not
+record imports, so this is not settled.</p>
+<p><code>_scheduler_preflight.py</code> is not an agent's helper. The
+yard's <a
+href="../coder/handler/tools/codex_coder.py">codex_coder.py</a> copies
+its own <a
+href="../coder/handler/tools/coder_preflight.py">coder_preflight.py</a>
+into each fleet batch under that name, and its prompt tells the fleet
+coder to run it before its final reply and to finish only when it prints
+PREFLIGHT PASSED. Its 134 runs are fleet coders checking their own
+work.</p>
 <h2 id="aggregator-side">Aggregator side</h2>
-<p>Source: the v37 run by a Sonnet analyst, the <code>mem.py</code> read logs of stages 01 to 17. These are v37's stage numbers, the older numbering, not v38's A1 to E2.</p>
+<p>Source: the v37 run by a Sonnet analyst, the <code>mem.py</code> read
+logs of stages 01 to 17. These are v37's stage numbers, the older
+numbering, not v38's A1 to E2.</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>verb</th>
 <th style="text-align: right;">calls</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><code>theme</code></td>
 <td style="text-align: right;">11,886</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>codes</code></td>
 <td style="text-align: right;">2,210</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>room</code></td>
 <td style="text-align: right;">1,661</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>forest</code></td>
 <td style="text-align: right;">304</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>when</code></td>
 <td style="text-align: right;">302</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>note</code></td>
 <td style="text-align: right;">65</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>after</code></td>
 <td style="text-align: right;">16</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>where</code></td>
 <td style="text-align: right;">11</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>pairs</code></td>
 <td style="text-align: right;">10</td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>shelf</code></td>
 <td style="text-align: right;">2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>brief</code></td>
 <td style="text-align: right;">1</td>
 </tr>
 </tbody>
 </table>
-<h3 id="reading-the-aggregator-counts">Reading the aggregator counts</h3>
-<p>Eleven verbs were used, 16,468 calls in all. The v37 <code>mem.py</code> kept in <code>_v37-source/tools/</code> offers eleven verbs, these same eleven, so every verb offered was used at least once. Use was lopsided: <code>theme</code> alone took 72 per cent of calls, and <code>theme</code>, <code>codes</code> and <code>room</code> together 96 per cent. The verbs that read across rooms (<code>where</code>, <code>pairs</code>, <code>after</code>) had 37 calls between them. <code>shelf</code>, the way into the literature, was called twice.</p>
-<p>The logs cover <code>mem.py</code> only. Calls to <code>cite_case.py</code>, direct file reads and helper subagents are not in these counts.</p>
+<h3 id="reading-the-aggregator-counts">Reading the aggregator
+counts</h3>
+<p>Eleven verbs were used, 16,468 calls in all. The v37
+<code>mem.py</code> kept in <code>_v37-source/tools/</code> offers
+eleven verbs, these same eleven, so every verb offered was used at least
+once. Use was lopsided: <code>theme</code> alone took 72 per cent of
+calls, and <code>theme</code>, <code>codes</code> and <code>room</code>
+together 96 per cent. The verbs that read across rooms
+(<code>where</code>, <code>pairs</code>, <code>after</code>) had 37
+calls between them. <code>shelf</code>, the way into the literature, was
+called twice.</p>
+<p>The logs cover <code>mem.py</code> only. Calls to
+<code>cite_case.py</code>, direct file reads and helper subagents are
+not in these counts.</p>
 <h2 id="what-no-count-covers">What no count covers</h2>
-<p><strong>Coder instrument v32.</strong> <code>newrun.py</code>, <code>newbrief.py</code>, <code>read_brief.py</code>, <code>cut_window_v32.py</code>, <code>render_corpus_v32.py</code> and <code>render_openings_v32.py</code> build a run or a brief when the yard's tools set up a room; none appears in the counts. No brief writer's transcript is in the sample, so <code>read_brief.py</code>'s use is unmeasured. The yard's tools (<code>room.py</code>, <code>codex_lead.py</code>, <code>coding_queue.py</code>, <code>start_yard_lead.py</code>, the archive tools) are the handler's and appear in no count.</p>
-<p><strong>Aggregator since v38.</strong> No run of the v38 design has passed stage A1 (claude-v41-1 and claude-v42-1 stopped there when the instrument changed). The verbs new since v38 have not run past A1: <code>case</code>, <code>canvas</code>, <code>neighbours</code>, <code>compare</code>, <code>themes</code>, <code>facts</code>, <code>notes</code>, <code>progress</code>, <code>scheme</code>, <code>log</code>, <code>diary</code>, <code>mint</code>, <code>place</code>, <code>unplace</code>, <code>adjudicate</code>, <code>adaptations</code>, <code>rooms</code>, <code>contrast</code>, <code>finding</code>, <code>findings</code>, <code>question</code>, <code>contract</code>, <code>table</code>, <code>view</code>, <code>wiki</code>, <code>diff-scheme</code>, <code>diff-model</code> (<a href="files/aggregator/tool-mem-py.html">mem.py</a>, <a href="files/aggregator/tool-new-verbs-md.html">new verbs</a>). Nor have the v38 tools beside it: <code>cite.py</code>, <code>validate.py</code>, <code>gen_views.py</code>, <code>links.py</code>, <code>probe.py</code>, <code>distance.py</code>, <code>handoff.py</code>, <code>ingest.py</code>, <code>rebuild.py</code>, <code>relations.py</code>, <code>packets.py</code>, <code>done.sh</code>. <a href="../aggregator/instrument/tools/TOOLS-STATUS.md">TOOLS-STATUS.md</a> says which are tested on a fixture and which on the real store.</p>
-<h2 id="what-a-proper-analysis-would-need">What a proper analysis would need</h2>
+<p><strong>Coder instrument v32.</strong> <code>newrun.py</code>,
+<code>newbrief.py</code>, <code>read_brief.py</code>,
+<code>cut_window_v32.py</code>, <code>render_corpus_v32.py</code> and
+<code>render_openings_v32.py</code> build a run or a brief when the
+yard's tools set up a room; none appears in the counts. No brief
+writer's transcript is in the sample, so <code>read_brief.py</code>'s
+use is unmeasured. The yard's tools (<code>room.py</code>,
+<code>codex_lead.py</code>, <code>coding_queue.py</code>,
+<code>start_yard_lead.py</code>, the archive tools) are the handler's
+and appear in no count.</p>
+<p><strong>Aggregator since v38.</strong> No run of the v38 design has
+passed stage A1 (claude-v41-1 and claude-v42-1 stopped there when the
+instrument changed). The verbs new since v38 have not run past A1:
+<code>case</code>, <code>canvas</code>, <code>neighbours</code>,
+<code>compare</code>, <code>themes</code>, <code>facts</code>,
+<code>notes</code>, <code>progress</code>, <code>scheme</code>,
+<code>log</code>, <code>diary</code>, <code>mint</code>,
+<code>place</code>, <code>unplace</code>, <code>adjudicate</code>,
+<code>adaptations</code>, <code>rooms</code>, <code>contrast</code>,
+<code>finding</code>, <code>findings</code>, <code>question</code>,
+<code>contract</code>, <code>table</code>, <code>view</code>,
+<code>wiki</code>, <code>diff-scheme</code>, <code>diff-model</code> (<a
+href="files/aggregator/tool-mem-py.html">mem.py</a>, <a
+href="files/aggregator/tool-new-verbs-md.html">new verbs</a>). Nor have
+the v38 tools beside it: <code>cite.py</code>, <code>validate.py</code>,
+<code>gen_views.py</code>, <code>links.py</code>, <code>probe.py</code>,
+<code>distance.py</code>, <code>handoff.py</code>,
+<code>ingest.py</code>, <code>rebuild.py</code>,
+<code>relations.py</code>, <code>packets.py</code>,
+<code>done.sh</code>. <a
+href="../aggregator/instrument/tools/TOOLS-STATUS.md">TOOLS-STATUS.md</a>
+says which are tested on a fixture and which on the real store.</p>
+<h2 id="what-a-proper-analysis-would-need">What a proper analysis would
+need</h2>
 <ul>
-<li>The list of the 12 rooms, and a sample drawn by a stated rule, with brief writers in it.</li>
-<li>The counting rule written down: what counts as a command, how pipes and chained commands split.</li>
-<li>Imports as well as command names, so <code>emit</code> calls made through helper scripts are counted.</li>
-<li>The source of each helper script, read, to say what each did that the official tools did not.</li>
-<li>Counts per role (lead, coder), per room size and per branch, not pooled.</li>
-<li>For v37, the <code>cite_case.py</code> log and the helper subagents beside <code>mem.py</code>, and counts per stage.</li>
-<li>For v38, the same tallies once a run exists, read against the stage files that ask for each verb.</li>
+<li>The list of the 12 rooms, and a sample drawn by a stated rule, with
+brief writers in it.</li>
+<li>The counting rule written down: what counts as a command, how pipes
+and chained commands split.</li>
+<li>Imports as well as command names, so <code>emit</code> calls made
+through helper scripts are counted.</li>
+<li>The source of each helper script, read, to say what each did that
+the official tools did not.</li>
+<li>Counts per role (lead, coder), per room size and per branch, not
+pooled.</li>
+<li>For v37, the <code>cite_case.py</code> log and the helper subagents
+beside <code>mem.py</code>, and counts per stage.</li>
+<li>For v38, the same tallies once a run exists, read against the stage
+files that ask for each verb.</li>
 </ul>
 </body>
 </html>

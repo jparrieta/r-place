@@ -6,27 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>tools/tree_builder.py</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/tree-builder-py.md">Markdown source</a></nav>
 <h1 id="toolstree_builderpy">tools/tree_builder.py</h1>
-<p>Builds the forest: each coded thread's reply tree with its codes hung on it.</p>
+<p>Builds the forest: each coded thread's reply tree with its codes hung
+on it.</p>
 <p><strong>What it holds</strong></p>
-<p><code>python3 tools/tree_builder.py --sub SUB --record coder_corpus.jsonl --codes-file &lt;codes&gt; --out-dir .</code>. It writes <code>trees/&lt;sub&gt;.md</code> (the forest a reader reads), <code>package/forest.jsonl</code> (one line per coded thread) and <code>package/tree_index.json</code> (coordinate to item ID and metadata). Coordinates are Dewey: <code>0</code> is the post, <code>1</code>, <code>2</code> its replies, <code>1.1</code> below. Node states: coded, bridge, removed, pruned, collapsed. Each coded line shows its chunks in text order, such as <code>[c0012 na c0015]</code>. Dropped items are counted.</p>
+<p><code>python3 tools/tree_builder.py --sub SUB --record coder_corpus.jsonl --codes-file &lt;codes&gt; --out-dir .</code>.
+It writes <code>trees/&lt;sub&gt;.md</code> (the forest a reader reads),
+<code>package/forest.jsonl</code> (one line per coded thread) and
+<code>package/tree_index.json</code> (coordinate to item ID and
+metadata). Coordinates are Dewey: <code>0</code> is the post,
+<code>1</code>, <code>2</code> its replies, <code>1.1</code> below. Node
+states: coded, bridge, removed, pruned, collapsed. Each coded line shows
+its chunks in text order, such as <code>[c0012 na c0015]</code>. Dropped
+items are counted.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The instrument's author. The case lead runs it after <code>emit.close()</code> and before the audit, in both branches.</p>
+<p>The instrument's author. The case lead runs it after
+<code>emit.close()</code> and before the audit, in both branches.</p>
 <p><strong>Why it exists</strong></p>
-<p>"No agent draws a tree." Dropped items are counted because a forest that hides them "would let a reader mistake what was not coded for what was not said". Its limit: "a reply is a reply"; the tree shows sequence, not cause.</p>
+<p>"No agent draws a tree." Dropped items are counted because a forest
+that hides them "would let a reader mistake what was not coded for what
+was not said". Its limit: "a reply is a reply"; the tree shows sequence,
+not cause.</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/instrument/v32/tools/tree_builder.py">tools/tree_builder.py</a>.</p>
-<p>Checked against: tools/tree_builder.py, CONTRACT-case-lead.v32.md §4, CHANGELOG-v32.md</p>
+<p><a
+href="../../../coder/instrument/v32/tools/tree_builder.py">tools/tree_builder.py</a>.</p>
+<p>Checked against: tools/tree_builder.py, CONTRACT-case-lead.v32.md §4,
+CHANGELOG-v32.md</p>
 </body>
 </html>

@@ -6,27 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The operating notes (AGENT.md)</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/agent-md.md">Markdown source</a></nav>
 <h1 id="the-operating-notes-agentmd">The operating notes (AGENT.md)</h1>
-<p>The first file every coder and case lead reads: where it is, whether it is resuming, and what to call.</p>
+<p>The first file every coder and case lead reads: where it is, whether
+it is resuming, and what to call.</p>
 <p><strong>What it holds</strong></p>
-<p>A STATE block (instrument, contract hash, role, batch, slice, community, corpus counts, record, brief, openings, outputs, window). The first command to run, <code>read.py CORPUS state</code>, whose cursor says whether the run is starting or resuming. The rule that scratch files stay inside the run directory, not in a scratchpad the environment names. The rule not to read the tools' source. The three tools and how to set them up. What the harness observes (served reading against declared reading). What to do if interrupted. The outputs and the preflight check.</p>
+<p>A STATE block (instrument, contract hash, role, batch, slice,
+community, corpus counts, record, brief, openings, outputs, window). The
+first command to run, <code>read.py CORPUS state</code>, whose cursor
+says whether the run is starting or resuming. The rule that scratch
+files stay inside the run directory, not in a scratchpad the environment
+names. The rule not to read the tools' source. The three tools and how
+to set them up. What the harness observes (served reading against
+declared reading). What to do if interrupted. The outputs and the
+preflight check.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The instrument's author wrote the template. <code>newrun.py</code> fills it for the case lead and <code>newrun.build_fleet()</code> fills it for each fleet batch.</p>
+<p>The instrument's author wrote the template. <code>newrun.py</code>
+fills it for the case lead and <code>newrun.build_fleet()</code> fills
+it for each fleet batch.</p>
 <p><strong>Why it exists</strong></p>
-<p>It "says whether you are resuming". The scratch rule exists because a shared scratch path "can be read or overwritten by something that is not you", and a coder who writes there "has left its slice where another coder can read it". If it and the contracts disagree, the contracts win.</p>
+<p>It "says whether you are resuming". The scratch rule exists because a
+shared scratch path "can be read or overwritten by something that is not
+you", and a coder who writes there "has left its slice where another
+coder can read it". If it and the contracts disagree, the contracts
+win.</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/instrument/v32/AGENT.v32.md">AGENT.v32.md</a>; filled copies at <code>run/AGENT.md</code> and <code>run/fleet/batch_NN/AGENT.md</code> in each run archive.</p>
+<p><a
+href="../../../coder/instrument/v32/AGENT.v32.md">AGENT.v32.md</a>;
+filled copies at <code>run/AGENT.md</code> and
+<code>run/fleet/batch_NN/AGENT.md</code> in each run archive.</p>
 <p>Checked against: AGENT.v32.md, newrun.py</p>
 </body>
 </html>

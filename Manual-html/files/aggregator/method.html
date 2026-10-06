@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`METHOD.md`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,30 @@
 <h1 id="methodmd"><code>METHOD.md</code></h1>
 <p>What the method says, and which shelf of literature arrives when.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>An index, then <strong>What the method says, held at every stage</strong>: Gioia, Corley and Hamilton (2013) as the spine; Grodal, Anteby and Holm (2021) and the eight moves; Eisenhardt (1989) for the cases; Van de Ven and Poole (1990), Langley (1999) and Suddaby (2006); and the adaptation, hierarchy, explanation and critique shelves, each with its read and on-request works. Then <strong>The shape of the run</strong>: A1 to D3 as Gioia with the return, D4 and D5 as the taxonomy, E1 as the audit; the four licences a judgement stage names; the fleets as "a prosthesis, not a panel"; three things Gioia has that this design lacks; what to write in a methods section.</p>
+<p>An index, then <strong>What the method says, held at every
+stage</strong>: Gioia, Corley and Hamilton (2013) as the spine; Grodal,
+Anteby and Holm (2021) and the eight moves; Eisenhardt (1989) for the
+cases; Van de Ven and Poole (1990), Langley (1999) and Suddaby (2006);
+and the adaptation, hierarchy, explanation and critique shelves, each
+with its read and on-request works. Then <strong>The shape of the
+run</strong>: A1 to D3 as Gioia with the return, D4 and D5 as the
+taxonomy, E1 as the audit; the four licences a judgement stage names;
+the fleets as "a prosthesis, not a panel"; three things Gioia has that
+this design lacks; what to write in a methods section.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Written with the instrument; <code>build.sh</code> copies it to the root. Read whole at A1 and again at C2.</p>
+<p>Written with the instrument; <code>build.sh</code> copies it to the
+root. Read whole at A1 and again at C2.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>The contract names the method in its opening lines, and METHOD says "Nothing here overrides the contract." Rule 17 requires every judgement stage to say which of METHOD's four licences it used and which it did not.</p>
+<p>The contract names the method in its opening lines, and METHOD says
+"Nothing here overrides the contract." Rule 17 requires every judgement
+stage to say which of METHOD's four licences it used and which it did
+not.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/METHOD.md">METHOD.md</a>; source <a href="../../../aggregator/instrument/METHOD.md">aggregator/instrument/METHOD.md</a>.</p>
-<p>Checked against: METHOD.md, CONTRACT-aggregator.md rule 17, harness/build.sh.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/METHOD.md">METHOD.md</a>;
+source <a
+href="../../../aggregator/instrument/METHOD.md">aggregator/instrument/METHOD.md</a>.</p>
+<p>Checked against: METHOD.md, CONTRACT-aggregator.md rule 17,
+harness/build.sh.</p>
 </body>
 </html>

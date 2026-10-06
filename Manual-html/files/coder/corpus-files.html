@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The corpus files</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -21,19 +33,35 @@
 <p>What a coder reads and cites, and the counts it is told.</p>
 <p><strong>What it holds</strong></p>
 <ul>
-<li><code>coder_corpus.jsonl</code>: the record, one item per line. <code>cite</code> and <code>emit</code> resolve against it. The agent "never opens it".</li>
-<li><code>corpus.txt</code>: the rendered corpus with its header of counts and the triage windows, served by <code>read.py</code>.</li>
-<li><code>coder_corpus.queries.jsonl</code>: every <code>find</code> call, with pattern, matches, limit and whether the scan was cut short.</li>
-<li><code>corpus_manifest.json</code>: the counts the gate is decided on, <code>items_in_window</code> and <code>chars_by_people</code>.</li>
+<li><code>coder_corpus.jsonl</code>: the record, one item per line.
+<code>cite</code> and <code>emit</code> resolve against it. The agent
+"never opens it".</li>
+<li><code>corpus.txt</code>: the rendered corpus with its header of
+counts and the triage windows, served by <code>read.py</code>.</li>
+<li><code>coder_corpus.queries.jsonl</code>: every <code>find</code>
+call, with pattern, matches, limit and whether the scan was cut
+short.</li>
+<li><code>corpus_manifest.json</code>: the counts the gate is decided
+on, <code>items_in_window</code> and <code>chars_by_people</code>.</li>
 <li><code>openings.md</code>: in the lead's run only.</li>
 </ul>
-<p>In a fleet batch, <code>coder_corpus.jsonl</code> and <code>corpus.txt</code> hold the slice plus the openings of earlier threads still running, marked as context.</p>
+<p>In a fleet batch, <code>coder_corpus.jsonl</code> and
+<code>corpus.txt</code> hold the slice plus the openings of earlier
+threads still running, marked as context.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p><code>newrun.py</code> for the lead, <code>newrun.build_fleet()</code> through <code>fleet.py dispatch</code> for each batch, <code>cite.py</code> for the query log.</p>
+<p><code>newrun.py</code> for the lead,
+<code>newrun.build_fleet()</code> through <code>fleet.py dispatch</code>
+for each batch, <code>cite.py</code> for the query log.</p>
 <p><strong>Why it exists</strong></p>
-<p>The JSONL is authoritative and the text is its rendering, so bodies are "byte-identical in both files" and "the citation contract is untouched". The query log means "your query log is produced for you and you never write one" (Rule 4).</p>
+<p>The JSONL is authoritative and the text is its rendering, so bodies
+are "byte-identical in both files" and "the citation contract is
+untouched". The query log means "your query log is produced for you and
+you never write one" (Rule 4).</p>
 <p><strong>Where</strong></p>
-<p>At the top of <code>run/</code> and each <code>run/fleet/batch_NN/</code> in a room's <code>run.tar.zst</code>.</p>
-<p>Checked against: newrun.py, render_corpus_v32.py, cite.py, CONTRACT.v32.md, TOOLS-SPEC.md</p>
+<p>At the top of <code>run/</code> and each
+<code>run/fleet/batch_NN/</code> in a room's
+<code>run.tar.zst</code>.</p>
+<p>Checked against: newrun.py, render_corpus_v32.py, cite.py,
+CONTRACT.v32.md, TOOLS-SPEC.md</p>
 </body>
 </html>

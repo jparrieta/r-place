@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The coder</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="manual.css" />
 </head>
@@ -19,32 +31,142 @@
 <nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/4-the-coder.md">Markdown source</a></nav>
 <h1 id="the-coder">The coder</h1>
 <p><em>Kind of page: explanation.</em></p>
-<p>The coder reads one community's week of talk about r/place and codes it. It writes codes in the participants' words, themes that group them by what these people were doing (Gioia's first-order concepts, though the files call them <code>second_order</code>; see <a href="10-for-reviewers.html">for reviewers</a>), and a within-case account, and it sees no other community while it works. This page describes the coder instrument (v32) from the top down: what governs it, what one room holds, the tools, the fleet and the case lead, and the yard that runs every room. <a href="3-how-it-was-built.html">How it was built</a> tells why each level exists; the <a href="files/coder/index.html">file index</a> lists every page.</p>
+<p>The coder reads one community's week of talk about r/place and codes
+it. It writes codes in the participants' words, themes that group them
+by what these people were doing (Gioia's first-order concepts, though
+the files call them <code>second_order</code>; see <a
+href="10-for-reviewers.html">for reviewers</a>), and a within-case
+account, and it sees no other community while it works. This page
+describes the coder instrument (v32) from the top down: what governs it,
+what one room holds, the tools, the fleet and the case lead, and the
+yard that runs every room. <a href="3-how-it-was-built.html">How it was
+built</a> tells why each level exists; the <a
+href="files/coder/index.html">file index</a> lists every page.</p>
 <h2 id="what-governs-the-contracts">What governs: the contracts</h2>
-<p>One contract holds the method, and every role reads it first: <a href="files/coder/contract.html">the coder contract</a>, with the Gioia two-level coding, the setting, the rules, the five steps and the outputs. The other contracts exist because the roles differ. A room too big for one reader needs <a href="files/coder/contract-case-lead.html">a case lead</a> to own the account and <a href="files/coder/contract-fleet-coder.html">fleet coders</a> to read its slices; the week before the canvas needs <a href="files/coder/contract-brief-writer.html">a brief writer</a>; and the whole yard needs <a href="files/coder/contract-scheduler.html">a scheduler</a> to run the agents. Each role file says only what differs from the main contract and wins on that. <a href="files/coder/agent-md.html">AGENT.md</a> is the short page of operating notes that sits beside them, <a href="files/coder/case-lead-prompt.html">the case-lead prompt</a> adds a calibration block to the lead's first message, and <a href="files/coder/changelog.html">the changelog</a> records what moved between versions and why.</p>
-<p>The source files are in <a href="../coder/instrument/v32/README.md">the v32 instrument folder</a>.</p>
+<p>One contract holds the method, and every role reads it first: <a
+href="files/coder/contract.html">the coder contract</a>, with the Gioia
+two-level coding, the setting, the rules, the five steps and the
+outputs. The other contracts exist because the roles differ. A room too
+big for one reader needs <a href="files/coder/contract-case-lead.html">a
+case lead</a> to own the account and <a
+href="files/coder/contract-fleet-coder.html">fleet coders</a> to read
+its slices; the week before the canvas needs <a
+href="files/coder/contract-brief-writer.html">a brief writer</a>; and
+the whole yard needs <a href="files/coder/contract-scheduler.html">a
+scheduler</a> to run the agents. Each role file says only what differs
+from the main contract and wins on that. <a
+href="files/coder/agent-md.html">AGENT.md</a> is the short page of
+operating notes that sits beside them, <a
+href="files/coder/case-lead-prompt.html">the case-lead prompt</a> adds a
+calibration block to the lead's first message, and <a
+href="files/coder/changelog.html">the changelog</a> records what moved
+between versions and why.</p>
+<p>The source files are in <a
+href="../coder/instrument/v32/README.md">the v32 instrument
+folder</a>.</p>
 <h2 id="one-room">One room</h2>
-<p>Everything needed to code a community sits in its own folder, so a room runs on any machine with Python and can be rebuilt or forked on its own. <a href="files/coder/room-md.html">ROOM.md</a> is its front page: the numbers and the commands in order. <a href="files/coder/state-json.html">STATE.json</a> is its memory, rewritten from the files and extended by the scheduler. <a href="files/coder/record-files.html">The record files</a> are the 97-hour cut (the 73 hours the canvas was open, plus the day after) and the seven days before, counted before any agent arrives. <a href="files/coder/brief-outputs.html">The brief's folder</a> holds the brief writer's work, and the run folder holds the coder's. What a coder reads and cites is described under <a href="files/coder/corpus-files.html">the corpus files</a>; what it hands on is <a href="files/coder/package.html">the package</a>: the codes, themes, thread dispositions and pointers, the case and the notes. Once a room is verified, its inputs are packed into <a href="files/coder/materials-archive.html">materials.tar.zst</a>, its whole run into <a href="files/coder/run-archive.html">run.tar.zst</a>, and the receipts of how it was prompted and checked into <a href="files/coder/validation.html">validation/</a>.</p>
+<p>Everything needed to code a community sits in its own folder, so a
+room runs on any machine with Python and can be rebuilt or forked on its
+own. <a href="files/coder/room-md.html">ROOM.md</a> is its front page:
+the numbers and the commands in order. <a
+href="files/coder/state-json.html">STATE.json</a> is its memory,
+rewritten from the files and extended by the scheduler. <a
+href="files/coder/record-files.html">The record files</a> are the
+97-hour cut (the 73 hours the canvas was open, plus the day after) and
+the seven days before, counted before any agent arrives. <a
+href="files/coder/brief-outputs.html">The brief's folder</a> holds the
+brief writer's work, and the run folder holds the coder's. What a coder
+reads and cites is described under <a
+href="files/coder/corpus-files.html">the corpus files</a>; what it hands
+on is <a href="files/coder/package.html">the package</a>: the codes,
+themes, thread dispositions and pointers, the case and the notes. Once a
+room is verified, its inputs are packed into <a
+href="files/coder/materials-archive.html">materials.tar.zst</a>, its
+whole run into <a href="files/coder/run-archive.html">run.tar.zst</a>,
+and the receipts of how it was prompted and checked into <a
+href="files/coder/validation.html">validation/</a>.</p>
 <h2 id="the-tools">The tools</h2>
-<p>Tools exist because handing an agent the material and asking for codes did not work: it spent its turns writing parsers and serialisers, and its account of its own reading could not be checked. Each tool takes one job away from the agent and leaves a record.</p>
+<p>Tools exist because handing an agent the material and asking for
+codes did not work: it spent its turns writing parsers and serialisers,
+and its account of its own reading could not be checked. Each tool takes
+one job away from the agent and leaves a record.</p>
 <ul>
-<li><strong>Reading.</strong> <a href="files/coder/read-py.html">read.py</a> serves the rendered corpus in order and logs every service. The brief writer has its own reader, <a href="files/coder/read-brief-py.html">read_brief.py</a>.</li>
-<li><strong>Citing.</strong> <a href="files/coder/cite-py.html">cite.py</a> resolves a quote to the record's exact words and offsets, or refuses.</li>
-<li><strong>Emitting.</strong> <a href="files/coder/emit-py.html">emit.py</a> records every code, theme, disposition and pointer as an appended call, and refuses some defects at the moment of writing.</li>
-<li><strong>Closing.</strong> <a href="files/coder/close-run-py.html">close_run.py</a> is the end gate, twelve checks that pass or fail. The agent runs it as a preflight before its final message, and the scheduler runs it again after.</li>
+<li><strong>Reading.</strong> <a
+href="files/coder/read-py.html">read.py</a> serves the rendered corpus
+in order and logs every service. The brief writer has its own reader, <a
+href="files/coder/read-brief-py.html">read_brief.py</a>.</li>
+<li><strong>Citing.</strong> <a
+href="files/coder/cite-py.html">cite.py</a> resolves a quote to the
+record's exact words and offsets, or refuses.</li>
+<li><strong>Emitting.</strong> <a
+href="files/coder/emit-py.html">emit.py</a> records every code, theme,
+disposition and pointer as an appended call, and refuses some defects at
+the moment of writing.</li>
+<li><strong>Closing.</strong> <a
+href="files/coder/close-run-py.html">close_run.py</a> is the end gate,
+twelve checks that pass or fail. The agent runs it as a preflight before
+its final message, and the scheduler runs it again after.</li>
 </ul>
-<p>Around them sit the builders: <a href="files/coder/newrun-py.html">newrun.py</a> and <a href="files/coder/newbrief-py.html">newbrief.py</a> lay out a directory, <a href="files/coder/render-corpus.html">render_corpus_v32.py</a> and <a href="files/coder/cut-window.html">cut_window_v32.py</a> turn the raw record into what a coder reads. <a href="files/coder/tools-spec.html">TOOLS-SPEC.md</a> says what these tools share with the brief writer's and the aggregator's.</p>
-<h2 id="the-serial-fleet-and-the-case-lead">The serial fleet and the case lead</h2>
-<p>A room of more than 500 items does not fit one reader. The case lead reads <a href="files/coder/render-openings.html">the openings file</a> to see the week's shape, decides the branch once, and in branch B cuts the room into slices of whole threads. <a href="files/coder/fleet-py.html">tools/fleet.py</a> builds one batch folder per slice, in order, and the yard's <a href="../coder/handler/tools/codex_coder.py">codex_coder.py</a> runs one coder in each; each coder works in <a href="files/coder/fleet-batch.html">a fleet batch</a> and passes a timeline and a lexicon to the next. When the last batch is collected, the lead builds the forest with <a href="files/coder/tree-builder-py.html">tools/tree_builder.py</a>, passes the gate in <a href="files/coder/audit-fleet-py.html">tools/audit_fleet.py</a>, groups every first-order code into the room's second-order themes, and writes the account. How the lead and its coders remember across calls is told in <a href="memory/coder-lead.html">the coder lead's memory page</a>.</p>
+<p>Around them sit the builders: <a
+href="files/coder/newrun-py.html">newrun.py</a> and <a
+href="files/coder/newbrief-py.html">newbrief.py</a> lay out a directory,
+<a href="files/coder/render-corpus.html">render_corpus_v32.py</a> and <a
+href="files/coder/cut-window.html">cut_window_v32.py</a> turn the raw
+record into what a coder reads. <a
+href="files/coder/tools-spec.html">TOOLS-SPEC.md</a> says what these
+tools share with the brief writer's and the aggregator's.</p>
+<h2 id="the-serial-fleet-and-the-case-lead">The serial fleet and the
+case lead</h2>
+<p>A room of more than 500 items does not fit one reader. The case lead
+reads <a href="files/coder/render-openings.html">the openings file</a>
+to see the week's shape, decides the branch once, and in branch B cuts
+the room into slices of whole threads. <a
+href="files/coder/fleet-py.html">tools/fleet.py</a> builds one batch
+folder per slice, in order, and the yard's <a
+href="../coder/handler/tools/codex_coder.py">codex_coder.py</a> runs one
+coder in each; each coder works in <a
+href="files/coder/fleet-batch.html">a fleet batch</a> and passes a
+timeline and a lexicon to the next. When the last batch is collected,
+the lead builds the forest with <a
+href="files/coder/tree-builder-py.html">tools/tree_builder.py</a>,
+passes the gate in <a
+href="files/coder/audit-fleet-py.html">tools/audit_fleet.py</a>, groups
+every first-order code into the room's second-order themes, and writes
+the account. How the lead and its coders remember across calls is told
+in <a href="memory/coder-lead.html">the coder lead's memory
+page</a>.</p>
 <h2 id="the-yard-and-its-scheduler">The yard and its scheduler</h2>
-<p>The yard is one folder per census room plus a scheduler that runs them, smallest first. The scheduler follows <a href="files/coder/contract-scheduler.html">its contract</a>: launch an agent, check what it wrote, record the result, and ask J, the principal investigator, only what is his. <a href="files/coder/room-py.html">room.py</a> drives one room from outside without calling a model, and <a href="files/coder/coding-queue-py.html">coding_queue.py</a> launches rooms in order, a set number at once. The case lead is the one agent saved whole: <a href="files/coder/start-yard-lead-py.html">start_yard_lead.py</a> runs its first turn, <a href="files/coder/codex-lead-py.html">codex_lead.py</a> checkpoints it after every reply as <a href="files/coder/checkpoints.html">CHECKPOINTS.md</a> describes, and <a href="files/coder/lead-archive-py.html">lead_archive.py</a> packs the finished store into <a href="files/coder/lead-session-archive.html">the lead session archive</a>. The yard's own README is at <a href="../coder/README.md">../coder/README.md</a>.</p>
+<p>The yard is one folder per census room plus a scheduler that runs
+them, smallest first. The scheduler follows <a
+href="files/coder/contract-scheduler.html">its contract</a>: launch an
+agent, check what it wrote, record the result, and ask J, the principal
+investigator, only what is his. <a
+href="files/coder/room-py.html">room.py</a> drives one room from outside
+without calling a model, and <a
+href="files/coder/coding-queue-py.html">coding_queue.py</a> launches
+rooms in order, a set number at once. The case lead is the one agent
+saved whole: <a
+href="files/coder/start-yard-lead-py.html">start_yard_lead.py</a> runs
+its first turn, <a
+href="files/coder/codex-lead-py.html">codex_lead.py</a> checkpoints it
+after every reply as <a
+href="files/coder/checkpoints.html">CHECKPOINTS.md</a> describes, and <a
+href="files/coder/lead-archive-py.html">lead_archive.py</a> packs the
+finished store into <a href="files/coder/lead-session-archive.html">the
+lead session archive</a>. The yard's own README is at <a
+href="../coder/README.md">../coder/README.md</a>.</p>
 <h2 id="if-you-read-only-five-files">If you read only five files</h2>
-<ol>
-<li><a href="files/coder/contract.html">The coder contract</a>: the method and the five steps.</li>
-<li><a href="files/coder/contract-case-lead.html">The case lead's contract</a>: what changes when a room is too big for one reader.</li>
-<li><a href="files/coder/emit-py.html">emit.py</a>: how a reading becomes a record.</li>
-<li><a href="files/coder/close-run-py.html">close_run.py</a>: what counts as a finished room.</li>
-<li><a href="files/coder/contract-scheduler.html">The scheduler's contract</a>: how the yard runs.</li>
+<ol type="1">
+<li><a href="files/coder/contract.html">The coder contract</a>: the
+method and the five steps.</li>
+<li><a href="files/coder/contract-case-lead.html">The case lead's
+contract</a>: what changes when a room is too big for one reader.</li>
+<li><a href="files/coder/emit-py.html">emit.py</a>: how a reading
+becomes a record.</li>
+<li><a href="files/coder/close-run-py.html">close_run.py</a>: what
+counts as a finished room.</li>
+<li><a href="files/coder/contract-scheduler.html">The scheduler's
+contract</a>: how the yard runs.</li>
 </ol>
 </body>
 </html>

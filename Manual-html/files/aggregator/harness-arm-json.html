@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`arm.json`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,30 @@
 <h1 id="armjson"><code>arm.json</code></h1>
 <p>Which model serves each stage, and which readers each fleet uses.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>One entry per stage A1 to E2: <code>analyst</code> (claude-opus-5-5 throughout) and <code>effort</code> (medium for A1, B2, B3, D1, D2, E1; xhigh for the rest). Fleet stages add <code>readers</code>: B2 gateway <code>@preset/cheap</code> n 3; B3, B4 and D2 gateway <code>@preset/cheap</code> n 2; E1 gateway <code>@preset/cheap</code> n 1; C2 and C5 cli route, claude-opus-5-5, n 1, <code>allow_anthropic</code> true. D2 also names the labelers: GPT in OpenAI Codex, one fresh session per room. A leg may override its stage.</p>
+<p>One entry per stage A1 to E2: <code>analyst</code> (claude-opus-5-5
+throughout) and <code>effort</code> (medium for A1, B2, B3, D1, D2, E1;
+xhigh for the rest). Fleet stages add <code>readers</code>: B2 gateway
+<code>@preset/cheap</code> n 3; B3, B4 and D2 gateway
+<code>@preset/cheap</code> n 2; E1 gateway <code>@preset/cheap</code> n
+1; C2 and C5 cli route, claude-opus-5-5, n 1,
+<code>allow_anthropic</code> true. D2 also names the labelers: GPT in
+OpenAI Codex, one fresh session per room. A leg may override its
+stage.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Written with the instrument; <code>build.sh</code> copies it to <code>CONTROL/arm.json</code>.</p>
+<p>Written with the instrument; <code>build.sh</code> copies it to
+<code>CONTROL/arm.json</code>.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Its note: read by <code>step.sh</code> (model and effort), <code>close.sh</code> (the model audit) and <code>dispatch.sh</code> (the readers). HOW-TO-RUN: "You never change route inside a session." FLEET §1 sets R = 2 readers per item at B3 and B4, and three at the pilot, B2. At C2 and C5 <code>n</code> is per packet: C5 builds three packets, one reader each, so three readers.</p>
+<p>Its note: read by <code>step.sh</code> (model and effort),
+<code>close.sh</code> (the model audit) and <code>dispatch.sh</code>
+(the readers). HOW-TO-RUN: "You never change route inside a session."
+FLEET §1 sets R = 2 readers per item at B3 and B4, and three at the
+pilot, B2. At C2 and C5 <code>n</code> is per packet: C5 builds three
+packets, one reader each, so three readers.</p>
 <h2 id="where">Where</h2>
-<p>Source <a href="../../../aggregator/handler/claude/arm.claude.json">aggregator/handler/claude/arm.json</a>; in a run, <code>CONTROL/arm.json</code>.</p>
-<p>Checked against: harness/arm.json, harness/build.sh, harness/close.sh, harness/dispatch.sh, HOW-TO-RUN.md, FLEET.md §1.</p>
+<p>Source <a
+href="../../../aggregator/handler/claude/arm.claude.json">aggregator/handler/claude/arm.json</a>;
+in a run, <code>CONTROL/arm.json</code>.</p>
+<p>Checked against: harness/arm.json, harness/build.sh,
+harness/close.sh, harness/dispatch.sh, HOW-TO-RUN.md, FLEET.md §1.</p>
 </body>
 </html>

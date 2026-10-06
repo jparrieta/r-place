@@ -6,27 +6,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/store/_retracted.jsonl`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/store-retracted.md">Markdown source</a></nav>
-<h1 id="packagestore_retractedjsonl"><code>package/store/_retracted.jsonl</code></h1>
-<p>Every concept its coder withdrew, listed and kept out of the store.</p>
+<h1
+id="packagestore_retractedjsonl"><code>package/store/_retracted.jsonl</code></h1>
+<p>Every concept its coder withdrew, listed and kept out of the
+store.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>One line per retracted concept: the line as the coder wrote it, with <code>sub</code> added.</p>
+<p>One line per retracted concept: the line as the coder wrote it, with
+<code>sub</code> added.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p><code>build_store.py</code> at stage 00, which drops these lines from the store's <code>codes.jsonl</code>.</p>
+<p><code>build_store.py</code> at stage 00, which drops these lines from
+the store's <code>codes.jsonl</code>.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Contract §5: "Retracted concepts (the coder's own withdrawals) are not in the store." The list keeps them visible: A1 confirms the dropped count "against <code>_retracted.jsonl</code> and against the coder's <code>codes.jsonl</code> in each room folder". At D2, <code>ingest.py</code> refuses a labeler's line that cites a retracted concept.</p>
+<p>Contract §5: "Retracted concepts (the coder's own withdrawals) are
+not in the store." The list keeps them visible: A1 confirms the dropped
+count "against <code>_retracted.jsonl</code> and against the coder's
+<code>codes.jsonl</code> in each room folder". At D2,
+<code>ingest.py</code> refuses a labeler's line that cites a retracted
+concept.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/_retracted.jsonl">package/store/_retracted.jsonl</a>.</p>
-<p>Checked against: tools/build_store.py, CONTRACT-aggregator.md §5, stages/STAGE-A1-reading-room-notes.md, tools/ingest.py.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/_retracted.jsonl">package/store/_retracted.jsonl</a>.</p>
+<p>Checked against: tools/build_store.py, CONTRACT-aggregator.md §5,
+stages/STAGE-A1-reading-room-notes.md, tools/ingest.py.</p>
 </body>
 </html>

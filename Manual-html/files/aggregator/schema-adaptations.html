@@ -6,27 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`SCHEMA-adaptations.md`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/schema-adaptations.md">Markdown source</a></nav>
 <h1 id="schema-adaptationsmd"><code>SCHEMA-adaptations.md</code></h1>
-<p>The types of the return: elements, operations, the ledger line, adjudication.</p>
+<p>The types of the return: elements, operations, the ledger line,
+adjudication.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Ten sections: elements of the global model (five kinds: process P, condition K, claim C, role R, arrow A); operations; the ledger line; validation at ingest; the room model; adjudication; what is built from the ledger; reconstruction; the handoff folder (stage D1); decisions taken and their consequences. It calls itself "deliberately small: five element kinds, seven operations, one ledger line, one adjudication line".</p>
+<p>Ten sections: elements of the global model (five kinds: process P,
+condition K, claim C, role R, arrow A); operations; the ledger line;
+validation at ingest; the room model; adjudication; what is built from
+the ledger; reconstruction; the handoff folder (stage D1); decisions
+taken and their consequences. It calls itself "deliberately small: five
+element kinds, seven operations, one ledger line, one adjudication
+line".</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Written with the instrument. <code>build.sh</code> places it in <code>DROPS/D1/</code>, so it reaches the analyst's root at D1's first leg. It is not in the folder before then.</p>
+<p>Written with the instrument. <code>build.sh</code> places it in
+<code>DROPS/D1/</code>, so it reaches the analyst's root at D1's first
+leg. It is not in the folder before then.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Its opening: everything downstream of the return "works only if an adaptation is a typed operation on a named element of the global model, with evidence, and not a paragraph." Contract §2, "The model is typed", points to it; <code>ingest.py</code>, <code>distance.py</code> and <code>rebuild.py</code> cite its sections.</p>
+<p>Its opening: everything downstream of the return "works only if an
+adaptation is a typed operation on a named element of the global model,
+with evidence, and not a paragraph." Contract §2, "The model is typed",
+points to it; <code>ingest.py</code>, <code>distance.py</code> and
+<code>rebuild.py</code> cite its sections.</p>
 <h2 id="where">Where</h2>
-<p>Source <a href="../../../aggregator/instrument/SCHEMA-adaptations.md">aggregator/instrument/SCHEMA-adaptations.md</a>; after D1, <a href="../../../aggregator/instrument/SCHEMA-adaptations.md">in the analyst's folder</a>.</p>
-<p>Checked against: SCHEMA-adaptations.md, harness/build.sh, CONTRACT-aggregator.md §2, tools/ingest.py, tools/distance.py, tools/rebuild.py.</p>
+<p>Source <a
+href="../../../aggregator/instrument/SCHEMA-adaptations.md">aggregator/instrument/SCHEMA-adaptations.md</a>;
+after D1, <a
+href="../../../aggregator/instrument/SCHEMA-adaptations.md">in the
+analyst's folder</a>.</p>
+<p>Checked against: SCHEMA-adaptations.md, harness/build.sh,
+CONTRACT-aggregator.md §2, tools/ingest.py, tools/distance.py,
+tools/rebuild.py.</p>
 </body>
 </html>

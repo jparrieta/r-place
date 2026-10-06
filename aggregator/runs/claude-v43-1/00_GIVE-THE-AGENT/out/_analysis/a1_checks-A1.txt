@@ -1,0 +1,62 @@
+## inputs
+package/store/rooms.jsonl  925155 bytes  sha256 cd472a6087a223d43a8b2e862323c537703ef391f796e3693a156022df0dba38
+package/store/codes.jsonl  72835125 bytes  sha256 b296ff7e058b429b97064afb4660a61b19ece3a354584d7809af319c2dec0d00
+package/store/themes.jsonl  6949131 bytes  sha256 708852292a2557d723fde929a7fab21f0ffccd19f5f1a359ccd6062b9a5d51fb
+package/store/items.jsonl  58066095 bytes  sha256 653285d79da467dbdb549c80919c18607bd702969994194aabe4c873f51cfaea
+package/store/threads.jsonl  25568541 bytes  sha256 a1c5c8a748f3dfbc43787c22e3738d705ac5696e94f29b2667d0d7b4fee9bb4e
+package/store/_unjoined.jsonl  4750 bytes  sha256 5612b86d4ef3c88804becc5849d00e3fdaad111251f5b6a3231d107d096280a4
+package/store/_retracted.jsonl  143905 bytes  sha256 8f1869bb8596f3f3a115ffa0a194e4d554b37cf798260ca06816ca8c9e1ed0fa
+package/store/_build.json  921 bytes  sha256 f8af3492a2ab23f3edf7753824bf5949884e5a1235bc27e1cabc8e8cd7b0c8d2
+package/canvas/artworks.jsonl  1033677 bytes  sha256 83aeb6dcb7e5fcd1e10326e92e2ef5dbdb12f709599d66086ab0d5d0af9fa0f2
+trees/ (705 files)  31546589 bytes  sha256 over names+bytes c786fa939491970ad8c08c645358449382cf521fa3386783ebdeacf64b839b82
+
+## concepts and themes
+sum of rooms.jsonl codes 115388; store codes.jsonl lines 115388; themes n_codes_coder sum 115455; retracted 175; coder less retracted 115280
+themes n_codes (after retraction) sum 115388
+second-order themes 7844; rooms with none 0; with one 15; with two 14
+rooms whose rooms.jsonl themes differs from themes.jsonl lines: 0 []
+rooms whose rooms.jsonl codes differs from codes.jsonl lines: 0 []
+
+## unjoined
+_unjoined.jsonl 38; codes whose item items.jsonl lacks 38; codes with state unjoined 38; recomputed set equals _unjoined: True
+
+## forest headers over trees/
+forest header totals: {'items': 531851, 'coded': 109807, 'bridge': 28350, 'removed': 617, 'dropped': 393077, 'threads_given': 42906, 'threads_with_codes': 42906}; files without a parsable header []
+rooms.jsonl forest.* sums: {'threads_given': 42906, 'threads_with_codes': 42906, 'items': 531851, 'coded': 109807, 'bridge': 28350, 'removed': 617, 'dropped': 393077, 'orphans': 192, 'na_stretches': 36121, 'threads_total_in_window': 189800}
+store items.jsonl 158227 by state {'bridge': 26830, 'coded': 109769, 'collapsed': 21011, 'removed': 617}; threads.jsonl 42906
+_build.json: {'communities': 705, 'codes': 115388, 'codes_retracted_dropped': 175, 'themes': 7844, 'threads': 42906, 'items': 158227, 'items_coded': 109769, 'items_bridge': 26830, 'items_removed': 617, 'items_dropped': 0, 'pointers': 20110, 'codes_unjoined': 38, 'briefs': 705, 'open_utc': 1490976000, 'freeze_utc': 1491238800, 'end_utc': 1491325200}
+
+## clocks
+onset_first_code_hour: nulls 0 []
+onset_last_code_hour: nulls 0 []
+items_in_window: nulls 0 []
+rooms with no thread last_hour: 0 []
+last thread hour minus last code hour over 705 rooms: min 0.00 q1 0.00 median 0.00 q3 0.00 max 9.87
+rooms with the last code after the last thread hour (negative gap): []
+rooms whose last thread hour passes 97: 2; whose last code passes 97: [('archlinux', 100.9)]
+rooms with last code before hour 73: 79; with last thread hour before 73: 79
+
+## the instrument's shape (705 rooms)
+themes against items_in_window: raw r 0.352  log r 0.745  rank rho 0.733
+themes against concepts: raw r 0.464  log r 0.863  rank rho 0.822
+
+## concept reach
+concept reach share over 705 rooms: min 1.000 median 1.000 max 1.000; rooms below 1.0: 0
+smallest quartile by items_in_window: 176 rooms, items 1..151; median reach 1.0000
+reach by decile of items_in_window: decile, items range, median reach, share of rooms below the small-quartile median
+   1  1..38  1.0000  0.00
+   2  39..109  1.0000  0.00
+   3  110..232  1.0000  0.00
+   4  232..412  1.0000  0.00
+   5  413..699  1.0000  0.00
+   6  699..1129  1.0000  0.00
+   7  1133..1937  1.0000  0.00
+   8  1955..3660  1.0000  0.00
+   9  3661..7287  1.0000  0.00
+  10  7305..75751  1.0000  0.00
+first decile from which every larger decile's median reach is below 1.0000: None
+running form: smallest items_in_window from which the median reach of all rooms at or above it is below 1.0000: None
+
+## canvas
+artworks.jsonl lines 1473; keys of the first line ['artwork_id', 'centre', 'credited_beyond_links', 'distinct_placers', 'first_hour', 'last_hour', 'name', 'pixels_covered', 'placements', 'placements_by_hour_0_96', 'placements_smallest_polygon', 'subreddits', 'subreddits_in_frame']
+rooms with canvas_entries 0 or null: ['tenma']

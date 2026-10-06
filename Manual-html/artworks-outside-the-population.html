@@ -6,58 +6,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The 312 artworks outside the population</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="manual.css" />
 </head>
 <body>
 <nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/artworks-outside-the-population.md">Markdown source</a></nav>
-<h1 id="the-312-artworks-outside-the-population">The 312 artworks outside the population</h1>
-<p><em>Updated 4 October 2026: r/lehigh and r/upvote left the population (no writing about the event while the canvas was open; <a href="census.html">the census</a>), and their two artworks with them, "Lehigh University" (#1725, 170 px) and "Reddit upvote arrow" (#1250, 30 px), each credited to that room alone. 311 artworks are outside now; the rows and every other count on this page are as of 26 September.</em></p>
-<p><em>Updated 27 September 2026: the three r/TFLS artworks now count for r/TheFarLeftSide (below), so 309 remain outside. Nine communities credited in descriptions, r/FinalFantasy among them, joined the census; they carry no artworks of their own, so the counts on this page are otherwise as of 26 September.</em></p>
-<p><em>Kind of page: explanation: what the atlas holds that the study does not code.</em></p>
-<p>On 26 September 2026, 1,161 of the 1,473 artworks in the 2017 atlas credited at least one community of the population. This page is about the other 312: what they are, how big they are, who made them, and whether a community was missed among them. Every number comes from the pinned atlas, the placement record per artwork (<code>data/pixels-per-artwork/</code>) and <code>MASTER-census.csv</code>, as of 26 September 2026. One row per artwork is in <a href="../coder/census/artworks_outside_population.csv">artworks_outside_population.csv</a>.</p>
+<h1 id="the-312-artworks-outside-the-population">The 312 artworks
+outside the population</h1>
+<p><em>Updated 4 October 2026: r/lehigh and r/upvote left the population
+(no writing about the event while the canvas was open; <a
+href="census.html">the census</a>), and their two artworks with them,
+"Lehigh University" (#1725, 170 px) and "Reddit upvote arrow" (#1250, 30
+px), each credited to that room alone. 311 artworks are outside now; the
+rows and every other count on this page are as of 26 September.</em></p>
+<p><em>Updated 27 September 2026: the three r/TFLS artworks now count
+for r/TheFarLeftSide (below), so 309 remain outside. Nine communities
+credited in descriptions, r/FinalFantasy among them, joined the census;
+they carry no artworks of their own, so the counts on this page are
+otherwise as of 26 September.</em></p>
+<p><em>Kind of page: explanation: what the atlas holds that the study
+does not code.</em></p>
+<p>On 26 September 2026, 1,161 of the 1,473 artworks in the 2017 atlas
+credited at least one community of the population. This page is about
+the other 312: what they are, how big they are, who made them, and
+whether a community was missed among them. Every number comes from the
+pinned atlas, the placement record per artwork
+(<code>data/pixels-per-artwork/</code>) and
+<code>MASTER-census.csv</code>, as of 26 September 2026. One row per
+artwork is in <a
+href="../coder/census/artworks_outside_population.csv">artworks_outside_population.csv</a>.</p>
 <h2 id="three-ways-out">Three ways out</h2>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th></th>
 <th style="text-align: right;">Artworks</th>
 <th>Why they are outside</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>name no subreddit</td>
 <td style="text-align: right;">237</td>
 <td>the atlas entry links no subreddit</td>
 </tr>
-<tr class="even">
+<tr>
 <td>link to no community</td>
 <td style="text-align: right;">9</td>
-<td>user pages, r/all, a private sub, a Discord group, names with no archive (<a href="census.html">the census</a>)</td>
+<td>user pages, r/all, a private sub, a Discord group, names with no
+archive (<a href="census.html">the census</a>)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>their community left the census</td>
 <td style="text-align: right;">66</td>
-<td>screened out as taking no part (32 artworks), silent in the 73 hours (27), active only after the freeze (7)</td>
+<td>screened out as taking no part (32 artworks), silent in the 73 hours
+(27), active only after the freeze (7)</td>
 </tr>
 </tbody>
 </table>
-<p>Only 237 have no subreddit. The other 75 have one, but it is not a community the study codes.</p>
-<h2 id="they-are-small-and-mostly-not-theirs-alone">They are small, and mostly not theirs alone</h2>
-<p>Together their outlines cover 97,262 pixels of the canvas; 40,888 of those, 4.1 per cent of the canvas, lie inside no credited artwork. The rest is shared: an artwork outside the population often sits inside, or overlaps, one that is credited.</p>
-<p>Their median outline is 171 pixels, against 352 for the credited artworks. Counting the accounts whose pixels survive at the end, the median is 65 authors, against 153. Only three have five or fewer such authors: "CUL" (4), "Smiley Face" (5) and "Climber's Head" (2). No artwork of the 312 was painted by one account; even those whose description names one maker have a median of 25 surviving authors, because neighbours, helpers and vandals all left pixels.</p>
+<p>Only 237 have no subreddit. The other 75 have one, but it is not a
+community the study codes.</p>
+<h2 id="they-are-small-and-mostly-not-theirs-alone">They are small, and
+mostly not theirs alone</h2>
+<p>Together their outlines cover 97,262 pixels of the canvas; 40,888 of
+those, 4.1 per cent of the canvas, lie inside no credited artwork. The
+rest is shared: an artwork outside the population often sits inside, or
+overlaps, one that is credited.</p>
+<p>Their median outline is 171 pixels, against 352 for the credited
+artworks. Counting the accounts whose pixels survive at the end, the
+median is 65 authors, against 153. Only three have five or fewer such
+authors: "CUL" (4), "Smiley Face" (5) and "Climber's Head" (2). No
+artwork of the 312 was painted by one account; even those whose
+description names one maker have a median of 25 surviving authors,
+because neighbours, helpers and vandals all left pixels.</p>
 <h2 id="the-237-with-no-subreddit">The 237 with no subreddit</h2>
-<p>Each was sorted by one test and then, where that failed, by what its description says about its maker. The test is reproducible; the reading is a judgement, and the CSV's <code>kind</code> column lets it be checked. The pixel sums count a pixel once per artwork, so they overlap.</p>
+<p>Each was sorted by one test and then, where that failed, by what its
+description says about its maker. The test is reproducible; the reading
+is a judgement, and the CSV's <code>kind</code> column lets it be
+checked. The pixel sums count a pixel once per artwork, so they
+overlap.</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Kind</th>
 <th style="text-align: right;">Artworks</th>
 <th style="text-align: right;">Outline area px</th>
@@ -67,7 +115,7 @@
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>inside a credited artwork (90 per cent or more of the outline)</td>
 <td style="text-align: right;">97</td>
 <td style="text-align: right;">29,460</td>
@@ -75,7 +123,7 @@
 <td style="text-align: right;">170</td>
 <td style="text-align: right;">93</td>
 </tr>
-<tr class="even">
+<tr>
 <td>a subreddit named in the text only</td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">1,330</td>
@@ -83,7 +131,7 @@
 <td style="text-align: right;">65</td>
 <td style="text-align: right;">45</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>an off-Reddit group</td>
 <td style="text-align: right;">28</td>
 <td style="text-align: right;">8,670</td>
@@ -91,7 +139,7 @@
 <td style="text-align: right;">185</td>
 <td style="text-align: right;">47</td>
 </tr>
-<tr class="even">
+<tr>
 <td>one person or a few friends</td>
 <td style="text-align: right;">31</td>
 <td style="text-align: right;">5,874</td>
@@ -99,7 +147,7 @@
 <td style="text-align: right;">91</td>
 <td style="text-align: right;">25</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>no maker stated</td>
 <td style="text-align: right;">76</td>
 <td style="text-align: right;">30,157</td>
@@ -109,17 +157,90 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Inside a credited artwork (97).</strong> These are details of another community's work, entered as their own atlas rows: 16 hearts in r/placehearts's rows, 14 pieces along r/ainbowroad (Wario, Ghost Bird, Yoshi), six Canadian provincial flags inside r/canada's flag, five TagPro power-ups inside r/tagpro's piece, and pieces of the French, Dutch and German flags. Their communities are coded; the artwork adds nothing to the population.</p>
-<p><strong>A subreddit named in the text (5, and 10 more among the nested).</strong> The description names who made it where the link does not: the Vietnam heart in r/placehearts, the BOPP dwarf of r/placeportalpattern, r/palestine's Jordanian heart, r/YumeNikki and r/Sweden's Pippi and Madotsuki, r/TheExpanse and r/KerbalSpaceProgram's pixel poop, the Coldplay redditors' Make Trade Fair. These communities are census rows, with two exceptions. r/czechoslovakia (Pat &amp; Mat, with r/thenetherlands) posted nothing from 24 March to 10 April 2017. <strong>r/FinalFantasy</strong> is credited, with France, for the French FF Mage ("a collaboration between Final Fantasy and France's subreddits"), and it took part: 1,534 items in the 73 hours, 41 of them about the canvas, among them "Working on a little Black Mage on r/place!" (hour 12.4). It is not a census row, because the atlas links it nowhere and its name is not written on the canvas.</p>
-<p><strong>An off-Reddit group (28).</strong> Communities that organised somewhere other than Reddit, so the study has no text for them: forums and sites (Stack Exchange's Code Golf and Arqade, pr0gramm, FurAffinity, Origami64, ZeldaPower, Mapcore, SmileBASIC Source), streams and channels (a Twitch emote, sPWN, the Carbon Animation zergling, Mindcrack's PauseUnpause, BangerTV), Discord servers (The Salt Factory, Haven, Advorange's server, Ghost Division), gaming groups (OpTic Gaming, Clan Icahn's sign, the EVE alliance Pandemic Horde), and schools or student societies (RIT's Computer Science House, AIE, Teknologföreningen, the TOPS school programme). The doll that says "Skin", made by Reddit's admins, and a tribute from the private r/centuryclub complete the group.</p>
-<p><strong>One person or a few friends (31).</strong> Signatures and small tributes: /u/SRTViper's signature, "Jen", a couple's heart, four childhood friends' "Foursies", a memorial to a friend, the Dutch hiking group "Journey der Bazen". They are the canvas's private messages.</p>
-<p><strong>No maker stated (76).</strong> Symbols with no one named: portraits (Einstein, Carl XVI Gustaf, Hugo Chávez, the Queen), logos (Internet Explorer, Imgur, IKEA on the Swedish flag), game sprites (Pac-Man, Super Mario pipes, Totoro), flags and pride flags, memes (Pepe, Super S, the Unregistered HyperCam 2 watermark), and remains (the void's remnants, stray blue pixels of the Blue Corner, the red-and-black checkers). Some sit beside a credited community (the King of Sweden on r/sweden's flag, the Viking longship beside the Nordic flags); the atlas does not say who drew them, and this page does not guess.</p>
+<p><strong>Inside a credited artwork (97).</strong> These are details of
+another community's work, entered as their own atlas rows: 16 hearts in
+r/placehearts's rows, 14 pieces along r/ainbowroad (Wario, Ghost Bird,
+Yoshi), six Canadian provincial flags inside r/canada's flag, five
+TagPro power-ups inside r/tagpro's piece, and pieces of the French,
+Dutch and German flags. Their communities are coded; the artwork adds
+nothing to the population.</p>
+<p><strong>A subreddit named in the text (5, and 10 more among the
+nested).</strong> The description names who made it where the link does
+not: the Vietnam heart in r/placehearts, the BOPP dwarf of
+r/placeportalpattern, r/palestine's Jordanian heart, r/YumeNikki and
+r/Sweden's Pippi and Madotsuki, r/TheExpanse and r/KerbalSpaceProgram's
+pixel poop, the Coldplay redditors' Make Trade Fair. These communities
+are census rows, with two exceptions. r/czechoslovakia (Pat &amp; Mat,
+with r/thenetherlands) posted nothing from 24 March to 10 April 2017.
+<strong>r/FinalFantasy</strong> is credited, with France, for the French
+FF Mage ("a collaboration between Final Fantasy and France's
+subreddits"), and it took part: 1,534 items in the 73 hours, 41 of them
+about the canvas, among them "Working on a little Black Mage on
+r/place!" (hour 12.4). It is not a census row, because the atlas links
+it nowhere and its name is not written on the canvas.</p>
+<p><strong>An off-Reddit group (28).</strong> Communities that organised
+somewhere other than Reddit, so the study has no text for them: forums
+and sites (Stack Exchange's Code Golf and Arqade, pr0gramm, FurAffinity,
+Origami64, ZeldaPower, Mapcore, SmileBASIC Source), streams and channels
+(a Twitch emote, sPWN, the Carbon Animation zergling, Mindcrack's
+PauseUnpause, BangerTV), Discord servers (The Salt Factory, Haven,
+Advorange's server, Ghost Division), gaming groups (OpTic Gaming, Clan
+Icahn's sign, the EVE alliance Pandemic Horde), and schools or student
+societies (RIT's Computer Science House, AIE, Teknologföreningen, the
+TOPS school programme). The doll that says "Skin", made by Reddit's
+admins, and a tribute from the private r/centuryclub complete the
+group.</p>
+<p><strong>One person or a few friends (31).</strong> Signatures and
+small tributes: /u/SRTViper's signature, "Jen", a couple's heart, four
+childhood friends' "Foursies", a memorial to a friend, the Dutch hiking
+group "Journey der Bazen". They are the canvas's private messages.</p>
+<p><strong>No maker stated (76).</strong> Symbols with no one named:
+portraits (Einstein, Carl XVI Gustaf, Hugo Chávez, the Queen), logos
+(Internet Explorer, Imgur, IKEA on the Swedish flag), game sprites
+(Pac-Man, Super Mario pipes, Totoro), flags and pride flags, memes
+(Pepe, Super S, the Unregistered HyperCam 2 watermark), and remains (the
+void's remnants, stray blue pixels of the Blue Corner, the red-and-black
+checkers). Some sit beside a credited community (the King of Sweden on
+r/sweden's flag, the Viking longship beside the Nordic flags); the atlas
+does not say who drew them, and this page does not guess.</p>
 <h2 id="the-75-with-a-link">The 75 with a link</h2>
-<p><strong>Link to no community (9).</strong> Checked in the archive on 26 September 2026: none hides a community (<a href="census.html#checked-again-26-september-2026">the census</a>).</p>
-<p><strong>Their community left the census (66).</strong> 32 artworks belong to 30 communities a coder or a check read as taking no part (r/TheBeatles's Yellow Submarine, r/rollingstones, r/elonmusk, r/mozilla), 27 to communities silent in the 73 hours (r/numberphile, r/madoka, r/bahamas, several collected only when the links were checked), and 7 to communities active only after the freeze. A silent subreddit behind a finished artwork means the organising happened elsewhere, as with the off-Reddit groups above.</p>
+<p><strong>Link to no community (9).</strong> Checked in the archive on
+26 September 2026: none hides a community (<a
+href="census.html#checked-again-26-september-2026">the census</a>).</p>
+<p><strong>Their community left the census (66).</strong> 32 artworks
+belong to 30 communities a coder or a check read as taking no part
+(r/TheBeatles's Yellow Submarine, r/rollingstones, r/elonmusk,
+r/mozilla), 27 to communities silent in the 73 hours (r/numberphile,
+r/madoka, r/bahamas, several collected only when the links were
+checked), and 7 to communities active only after the freeze. A silent
+subreddit behind a finished artwork means the organising happened
+elsewhere, as with the off-Reddit groups above.</p>
 <h2 id="one-link-to-correct">One link to correct</h2>
-<p>The largest of the 312 is "The Far Left Side" (7,184 pixels, 327,297 placements in its outline), with "ACAB/Antifa" and "FreeMaru". All three link r/TFLS, which a coder read as <code>none</code>. r/TFLS holds one item in the window: "Click here to go to /r/TheFarLeftSide." It is a redirect. r/TheFarLeftSide is already a census row, in the population, and its 3,151 items in the 73 hours include 81 naming r/place, among them the "United Red Front Alliance" megathread. The three artworks belong to it. Resolving the link as the atlas's other wrong links were resolved would move them into the 1,161 and leave r/TFLS with no artwork of its own; as with r/Chelsea, a link that names the wrong subreddit then drops out of the census. It changes no community in the population. No other screened-out community is a redirect: each of the other 31 was checked for the same pattern.</p>
-<h2 id="what-this-means-for-the-study">What this means for the study</h2>
-<p>The 312 are real work on the canvas, and 4.1 per cent of the canvas is theirs alone, but only one Reddit community the census missed turns up among them, r/FinalFantasy, credited in a description rather than a link. Admitting it would add a third route into the census (atlas link, canvas name, atlas description) and is the principal investigator's call. Most of the rest are details of coded communities' work, or the work of groups whose talk is not on Reddit. The census is a census of Reddit communities that claimed artworks; the off-Reddit groups, individuals and unsigned symbols are outside it by design, and the second caution on <a href="census.html">the census page</a> applies to them.</p>
+<p>The largest of the 312 is "The Far Left Side" (7,184 pixels, 327,297
+placements in its outline), with "ACAB/Antifa" and "FreeMaru". All three
+link r/TFLS, which a coder read as <code>none</code>. r/TFLS holds one
+item in the window: "Click here to go to /r/TheFarLeftSide." It is a
+redirect. r/TheFarLeftSide is already a census row, in the population,
+and its 3,151 items in the 73 hours include 81 naming r/place, among
+them the "United Red Front Alliance" megathread. The three artworks
+belong to it. Resolving the link as the atlas's other wrong links were
+resolved would move them into the 1,161 and leave r/TFLS with no artwork
+of its own; as with r/Chelsea, a link that names the wrong subreddit
+then drops out of the census. It changes no community in the population.
+No other screened-out community is a redirect: each of the other 31 was
+checked for the same pattern.</p>
+<h2 id="what-this-means-for-the-study">What this means for the
+study</h2>
+<p>The 312 are real work on the canvas, and 4.1 per cent of the canvas
+is theirs alone, but only one Reddit community the census missed turns
+up among them, r/FinalFantasy, credited in a description rather than a
+link. Admitting it would add a third route into the census (atlas link,
+canvas name, atlas description) and is the principal investigator's
+call. Most of the rest are details of coded communities' work, or the
+work of groups whose talk is not on Reddit. The census is a census of
+Reddit communities that claimed artworks; the off-Reddit groups,
+individuals and unsigned symbols are outside it by design, and the
+second caution on <a href="census.html">the census page</a> applies to
+them.</p>
 </body>
 </html>

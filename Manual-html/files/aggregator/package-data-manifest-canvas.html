@@ -6,27 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/DATA-manifest-canvas.md`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/package-data-manifest-canvas.md">Markdown source</a></nav>
-<h1 id="packagedata-manifest-canvasmd"><code>package/DATA-manifest-canvas.md</code></h1>
-<p>The manifest of the canvas files, with the caveat the tools print.</p>
+<h1
+id="packagedata-manifest-canvasmd"><code>package/DATA-manifest-canvas.md</code></h1>
+<p>The manifest of the canvas files, with the caveat the tools
+print.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>A description of the canvas inputs. The one passage the tools read is its bold line "A per-community rate is fine; a canvas-wide total is not." <code>mem.py</code> adds that regions overlap and a contested pixel counts for every room that claims it. The rest of its content: not stated in the sources.</p>
+<p>A description of the canvas inputs. The one passage the tools read is
+its bold line "A per-community rate is fine; a canvas-wide total is
+not." <code>mem.py</code> adds that regions overlap and a contested
+pixel counts for every room that claims it. The rest of its content: not
+stated in the sources.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The handler supplies it in <code>RUN/INPUT/canvas/</code>; <code>build.sh</code> copies it into <code>package/</code>.</p>
+<p>The handler supplies it in <code>RUN/INPUT/canvas/</code>;
+<code>build.sh</code> copies it into <code>package/</code>.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Rule 7 asks that "what the canvas measures is stated wherever a canvas figure appears". <code>mem.py canvas</code> prints the caveat under every room's canvas block, then "rule 7: you may use this; declare where it shaped a reading."</p>
+<p>Rule 7 asks that "what the canvas measures is stated wherever a
+canvas figure appears". <code>mem.py canvas</code> prints the caveat
+under every room's canvas block, then "rule 7: you may use this; declare
+where it shaped a reading."</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/DATA-manifest-canvas.md">package/DATA-manifest-canvas.md</a>.</p>
-<p>Checked against: tools/mem.py, harness/build.sh, STANDING-INSTRUCTIONS.md §1, CONTRACT-aggregator.md rule 7.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/DATA-manifest-canvas.md">package/DATA-manifest-canvas.md</a>.</p>
+<p>Checked against: tools/mem.py, harness/build.sh,
+STANDING-INSTRUCTIONS.md §1, CONTRACT-aggregator.md rule 7.</p>
 </body>
 </html>

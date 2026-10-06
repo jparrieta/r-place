@@ -6,27 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The scheduler's contract (CONTRACT-scheduler.md)</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/contract-scheduler.md">Markdown source</a></nav>
-<h1 id="the-schedulers-contract-contract-schedulermd">The scheduler's contract (CONTRACT-scheduler.md)</h1>
-<p>What the scheduler does between the agents: launch, check, keep the record, and ask J.</p>
+<h1 id="the-schedulers-contract-contract-schedulermd">The scheduler's
+contract (CONTRACT-scheduler.md)</h1>
+<p>What the scheduler does between the agents: launch, check, keep the
+record, and ask J.</p>
 <p><strong>What it holds</strong></p>
-<p>What the scheduler may read and write (§1). The cycle for one room: brief, build, the lead's first launch, the branch-B loop of coder, check and collect, the fork point, the close (§2). The checks F1 to F6 after a brief, B1 to B7 after a coder, E1 to E6 after the close (§3). What agents do wrong (§4), what to do when a check fails (§5), the record the scheduler keeps in <code>STATE.json</code> and the transcripts (§6), snapshots and forks, including native case-lead continuation (§7), order and the four giant rooms (§8), and what is J's to decide (§9).</p>
+<p>What the scheduler may read and write (§1). The cycle for one room:
+brief, build, the lead's first launch, the branch-B loop of coder, check
+and collect, the fork point, the close (§2). The checks F1 to F6 after a
+brief, B1 to B7 after a coder, E1 to E6 after the close (§3). What
+agents do wrong (§4), what to do when a check fails (§5), the record the
+scheduler keeps in <code>STATE.json</code> and the transcripts (§6),
+snapshots and forks, including native case-lead continuation (§7), order
+and the four giant rooms (§8), and what is J's to decide (§9).</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The study's owner. It says it is "the job that was done by hand on v29, written down". The scheduler may be a person or an agent.</p>
+<p>The study's owner. It says it is "the job that was done by hand on
+v29, written down". The scheduler may be a person or an agent.</p>
 <p><strong>Why it exists</strong></p>
-<p>So that "any agent, on any provider, can do it the same way". The scheduler "is not a reader": it never judges a reading and never lets one agent's output reach another except through the files the instrument names. "A failure is never fixed by editing an agent's output."</p>
+<p>So that "any agent, on any provider, can do it the same way". The
+scheduler "is not a reader": it never judges a reading and never lets
+one agent's output reach another except through the files the instrument
+names. "A failure is never fixed by editing an agent's output."</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/handler/CONTRACT-scheduler.md">CONTRACT-scheduler.md</a>. Its header still reads "run yard v31".</p>
+<p><a
+href="../../../coder/handler/CONTRACT-scheduler.md">CONTRACT-scheduler.md</a>.
+Its header still reads "run yard v31".</p>
 <p>Checked against: CONTRACT-scheduler.md, yard/README.md</p>
 </body>
 </html>

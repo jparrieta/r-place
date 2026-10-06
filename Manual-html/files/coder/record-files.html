@@ -6,32 +6,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The record files (record/)</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/record-files.md">Markdown source</a></nav>
 <h1 id="the-record-files-record">The record files (record/)</h1>
-<p>The room's source material, cut and counted before any agent arrives.</p>
+<p>The room's source material, cut and counted before any agent
+arrives.</p>
 <p><strong>What it holds</strong></p>
 <ul>
-<li><code>coder_corpus.jsonl.gz</code>: the 97-hour cut, one item per line, threads whole, items outside the window marked as context. <code>room.py run</code> unpacks it and <code>newrun.py</code> builds <code>run/</code> from it.</li>
-<li><code>preweek.jsonl.gz</code>: the seven days before the canvas opened, what the brief writer reads.</li>
-<li><code>cut_stats.json</code>: the counts computed at build. The scheduler checks the gate against it.</li>
-<li><code>openings.md</code>: every thread's metadata, counts, title and opening text, for the case lead; <code>room.py run</code> copies it into <code>run/</code> (large rooms also get titles-only and digest files).</li>
+<li><code>coder_corpus.jsonl.gz</code>: the 97-hour cut, one item per
+line, threads whole, items outside the window marked as context.
+<code>room.py run</code> unpacks it and <code>newrun.py</code> builds
+<code>run/</code> from it.</li>
+<li><code>preweek.jsonl.gz</code>: the seven days before the canvas
+opened, what the brief writer reads.</li>
+<li><code>cut_stats.json</code>: the counts computed at build. The
+scheduler checks the gate against it.</li>
+<li><code>openings.md</code>: every thread's metadata, counts, title and
+opening text, for the case lead; <code>room.py run</code> copies it into
+<code>run/</code> (large rooms also get titles-only and digest
+files).</li>
 </ul>
 <p><strong>Who writes it, and when</strong></p>
-<p>When the room is built. The yard README names <code>build_room.py</code> and <code>add_openings.py</code>, which are not among these sources; the openings format is <code>render_openings_v32.py</code>'s and the window is <code>cut_window_v32.py</code>'s.</p>
+<p>When the room is built. The yard README names
+<code>build_room.py</code> and <code>add_openings.py</code>, which are
+not among these sources; the openings format is
+<code>render_openings_v32.py</code>'s and the window is
+<code>cut_window_v32.py</code>'s.</p>
 <p><strong>Why it exists</strong></p>
-<p>"If a step's output is a number, the agent is never the thing that computes it." The record stays authoritative for <code>cite</code>. The scheduler reads it "only to settle a mechanical question, never to form a view of the room".</p>
+<p>"If a step's output is a number, the agent is never the thing that
+computes it." The record stays authoritative for <code>cite</code>. The
+scheduler reads it "only to settle a mechanical question, never to form
+a view of the room".</p>
 <p><strong>Where</strong></p>
-<p><code>record/</code> inside each room's <code>materials.tar.zst</code>, for example <a href="../../../coder/rooms/armenia/">armenia</a>.</p>
-<p>Checked against: yard/README.md, CONTRACT-scheduler.md, cut_window_v32.py, render_openings_v32.py</p>
+<p><code>record/</code> inside each room's
+<code>materials.tar.zst</code>, for example <a
+href="../../../coder/rooms/armenia/">armenia</a>.</p>
+<p>Checked against: yard/README.md, CONTRACT-scheduler.md,
+cut_window_v32.py, render_openings_v32.py</p>
 </body>
 </html>

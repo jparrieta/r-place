@@ -6,27 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/case_facts_outcome.jsonl`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/package-case-facts-outcome.md">Markdown source</a></nav>
-<h1 id="packagecase_facts_outcomejsonl"><code>package/case_facts_outcome.jsonl</code></h1>
+<h1
+id="packagecase_facts_outcomejsonl"><code>package/case_facts_outcome.jsonl</code></h1>
 <p>The canvas outcome per room: the six canvas fields.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>One line per room, keyed by <code>sub</code>, carrying <code>canvas_entries</code>, <code>canvas_area_px</code>, <code>canvas_centre</code>, <code>canvas_ring</code>, <code>canvas_artwork</code> and <code>canvas_source</code>. Any other field: not stated in the sources.</p>
+<p>One line per room, keyed by <code>sub</code>, carrying
+<code>canvas_entries</code>, <code>canvas_area_px</code>,
+<code>canvas_centre</code>, <code>canvas_ring</code>,
+<code>canvas_artwork</code> and <code>canvas_source</code>. Any other
+field: not stated in the sources.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The handler supplies it in <code>RUN/INPUT/canvas/</code>. <code>build.sh</code> copies it into <code>package/</code> and runs <code>build_store.py --join-canvas</code>, which writes the six fields into <code>store/rooms.jsonl</code> and nowhere else; a room with no line gets six nulls. <code>build.sh</code> refuses a partial canvas: "the canvas joins whole or not at all".</p>
+<p>The handler supplies it in <code>RUN/INPUT/canvas/</code>.
+<code>build.sh</code> copies it into <code>package/</code> and runs
+<code>build_store.py --join-canvas</code>, which writes the six fields
+into <code>store/rooms.jsonl</code> and nowhere else; a room with no
+line gets six nulls. <code>build.sh</code> refuses a partial canvas:
+"the canvas joins whole or not at all".</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Rule 7: "The canvas is what was made: use it, and say where you did." Contract §5: the atlas "is not a score"; it records what survived the last hour. <code>build_store.py</code> refuses to build if a coder's input carries a canvas field.</p>
+<p>Rule 7: "The canvas is what was made: use it, and say where you did."
+Contract §5: the atlas "is not a score"; it records what survived the
+last hour. <code>build_store.py</code> refuses to build if a coder's
+input carries a canvas field.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/case_facts_outcome.jsonl">package/case_facts_outcome.jsonl</a>.</p>
-<p>Checked against: harness/build.sh, tools/build_store.py, CONTRACT-aggregator.md rule 7 and §5, tools/checks/stage_A1.py.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/case_facts_outcome.jsonl">package/case_facts_outcome.jsonl</a>.</p>
+<p>Checked against: harness/build.sh, tools/build_store.py,
+CONTRACT-aggregator.md rule 7 and §5, tools/checks/stage_A1.py.</p>
 </body>
 </html>

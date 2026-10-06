@@ -6,25 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The handler's folder</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/handler/README.md">Markdown source</a></nav>
 <h1 id="the-handlers-folder">The handler's folder</h1>
-<p><code>aggregator/handler/</code> holds what the handler of a run needs beyond the harness: its protocol, and the scripts it runs before and around the analyst's work. The harness (<code>step.sh</code>, <code>close.sh</code>, <code>dispatch.sh</code> and the rest) runs each leg, typed by the PI or driven by the leg handler below; the scripts here the handler runs itself.</p>
-<p><strong>Start with <a href="../../../aggregator/handler/HANDLER.md">HANDLER.md</a></strong>: who decides what, the rules that do not bend, how the handler remembers across sessions, its duties before and during the run, and how the instrument is changed. The coder side's handler has its own contract, <a href="../coder/contract-scheduler.html">CONTRACT-scheduler.md</a>.</p>
+<p><code>aggregator/handler/</code> holds what the handler of a run
+needs beyond the harness: its protocol, and the scripts it runs before
+and around the analyst's work. The harness (<code>step.sh</code>,
+<code>close.sh</code>, <code>dispatch.sh</code> and the rest) runs each
+leg, typed by the PI or driven by the leg handler below; the scripts
+here the handler runs itself.</p>
+<p><strong>Start with <a
+href="../../../aggregator/handler/HANDLER.md">HANDLER.md</a></strong>:
+who decides what, the rules that do not bend, how the handler remembers
+across sessions, its duties before and during the run, and how the
+instrument is changed. The coder side's handler has its own contract, <a
+href="../coder/contract-scheduler.html">CONTRACT-scheduler.md</a>.</p>
 <h2 id="the-scripts">The scripts</h2>
-<p>Every script finds the repository's own folders from where it sits. Sources outside the repository come from <a href="../../../aggregator/handler/paths.py">paths.py</a>: set them once in <code>aggregator/handler/paths.json</code> (copy <code>paths.example.json</code>), or as <code>RPLACE_&lt;KEY&gt;</code> in the environment. <code>python3 aggregator/handler/paths.py</code> lists every key, its value and whether it exists.</p>
+<p>Every script finds the repository's own folders from where it sits.
+Sources outside the repository come from <a
+href="../../../aggregator/handler/paths.py">paths.py</a>: set them once
+in <code>aggregator/handler/paths.json</code> (copy
+<code>paths.example.json</code>), or as <code>RPLACE_&lt;KEY&gt;</code>
+in the environment. <code>python3 aggregator/handler/paths.py</code>
+lists every key, its value and whether it exists.</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Script</th>
 <th>When</th>
 <th>What it reads</th>
@@ -32,90 +60,147 @@
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="../../../aggregator/handler/paths.py">paths.py</a></td>
 <td>first</td>
 <td><code>paths.json</code>, the environment</td>
 <td>nothing; prints where each source is</td>
 </tr>
-<tr class="even">
-<td><a href="../../../aggregator/handler/extract_legacy.py">extract_legacy.py</a></td>
+<tr>
+<td><a
+href="../../../aggregator/handler/extract_legacy.py">extract_legacy.py</a></td>
 <td>before the build, once</td>
-<td>the batch archives of rooms coded before the yard (<code>layer_a</code>)</td>
-<td>each room's coder output, as written, into <code>aggregator/handler/_work/legacy/</code></td>
+<td>the batch archives of rooms coded before the yard
+(<code>layer_a</code>)</td>
+<td>each room's coder output, as written, into
+<code>aggregator/handler/_work/legacy/</code></td>
 </tr>
-<tr class="odd">
-<td><a href="../../../aggregator/handler/import_rooms.py">import_rooms.py</a></td>
+<tr>
+<td><a
+href="../../../aggregator/handler/import_rooms.py">import_rooms.py</a></td>
 <td>before the build; again when rooms finish</td>
-<td>the yard's verified rooms (<code>yard_rooms</code>), <code>aggregator/handler/_work/legacy/</code>, the coder-version table (<code>layer_a</code>)</td>
-<td><code>aggregator/input/coders/rooms/&lt;sub&gt;/</code> in the one layout every room has; <code>forests</code> re-renders every forest with one tree builder</td>
+<td>the yard's verified rooms (<code>yard_rooms</code>),
+<code>aggregator/handler/_work/legacy/</code>, the coder-version table
+(<code>layer_a</code>)</td>
+<td><code>aggregator/input/coders/rooms/&lt;sub&gt;/</code> in the one
+layout every room has; <code>forests</code> re-renders every forest with
+one tree builder</td>
 </tr>
-<tr class="even">
-<td><a href="../../../aggregator/handler/build_outcome.py">build_outcome.py</a></td>
+<tr>
+<td><a
+href="../../../aggregator/handler/build_outcome.py">build_outcome.py</a></td>
 <td>before the build</td>
 <td>the placeAtlas 2017 file, <code>ROOMS.tsv</code></td>
-<td><code>case_facts_outcome.jsonl</code>: six canvas fields per room (entries, area, centre, ring, artwork, source)</td>
+<td><code>case_facts_outcome.jsonl</code>: six canvas fields per room
+(entries, area, centre, ring, artwork, source)</td>
 </tr>
-<tr class="odd">
-<td><a href="../../../aggregator/handler/build_canvas.py">build_canvas.py</a></td>
+<tr>
+<td><a
+href="../../../aggregator/handler/build_canvas.py">build_canvas.py</a></td>
 <td>before the build</td>
-<td>the pixel record per artwork (<code>c5_data</code>), the hourly series (<code>hourly_pixels</code>, from <code>data/pixels-hourly/</code>)</td>
-<td><code>aggregator/input/canvas/</code>: <code>artworks.jsonl</code> and <code>pixels.csv</code></td>
+<td>the pixel record per artwork (<code>c5_data</code>), the hourly
+series (<code>hourly_pixels</code>, from
+<code>data/pixels-hourly/</code>)</td>
+<td><code>aggregator/input/canvas/</code>: <code>artworks.jsonl</code>
+and <code>pixels.csv</code></td>
 </tr>
-<tr class="even">
-<td><a href="../../../aggregator/handler/check_quotes.py">check_quotes.py</a></td>
+<tr>
+<td><a
+href="../../../aggregator/handler/check_quotes.py">check_quotes.py</a></td>
 <td>before stage E1</td>
-<td>a seeded sample of rooms and the record each coder read (<code>yard_rooms</code>, <code>aggregator/handler/_work/legacy/</code>)</td>
+<td>a seeded sample of rooms and the record each coder read
+(<code>yard_rooms</code>,
+<code>aggregator/handler/_work/legacy/</code>)</td>
 <td><code>RUN/DROPS/E1/quote-check-E1.json</code>, which E1 reads</td>
 </tr>
-<tr class="odd">
-<td><a href="../../../aggregator/handler/gather_collection.py">gather_collection.py</a></td>
+<tr>
+<td><a
+href="../../../aggregator/handler/gather_collection.py">gather_collection.py</a></td>
 <td>when the collection code changes</td>
 <td>the layers' code folders, given on the command line</td>
-<td>a folder you name with <code>INVENTORY.tsv</code> and <code>CANDIDATES.md</code></td>
+<td>a folder you name with <code>INVENTORY.tsv</code> and
+<code>CANDIDATES.md</code></td>
 </tr>
-<tr class="even">
-<td><a href="../../../aggregator/handler/bundle_history.py">bundle_history.py</a></td>
+<tr>
+<td><a
+href="../../../aggregator/handler/bundle_history.py">bundle_history.py</a></td>
 <td>once, then frozen</td>
 <td>earlier instrument folders, given on the command line</td>
 <td><code>archive/instrument-history.tar.gz</code> and its manifest</td>
 </tr>
 </tbody>
 </table>
-<h2 id="the-leg-handler-and-the-claude-adapter">The leg handler and the Claude adapter</h2>
-<p><code>aggregator/handler/claude-adapter/</code> runs the analyst's legs headless through the harness and lets the PI talk to any leg (<a href="../../../aggregator/handler/claude-adapter/LEGS.md">LEGS.md</a>, <a href="../../../aggregator/handler/claude-adapter/README.md">README.md</a>). It sits beside the harness, outside the run's fingerprint.</p>
+<h2 id="the-leg-handler-and-the-claude-adapter">The leg handler and the
+Claude adapter</h2>
+<p><code>aggregator/handler/claude-adapter/</code> runs the analyst's
+legs headless through the harness and lets the PI talk to any leg (<a
+href="../../../aggregator/handler/claude-adapter/LEGS.md">LEGS.md</a>,
+<a
+href="../../../aggregator/handler/claude-adapter/README.md">README.md</a>).
+It sits beside the harness, outside the run's fingerprint.</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>File</th>
 <th>What it does</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><a href="../../../aggregator/handler/claude-adapter/legs.py">legs.py</a></td>
-<td><code>serve</code> on the Mac owns the sessions; <code>open</code>, <code>close</code>, <code>run</code>, <code>status</code>, <code>wait</code>, <code>chat</code>, <code>say</code>, <code>answer</code>, <code>interview</code>, <code>pause</code>, <code>stop</code>, and the branch commands</td>
+<tr>
+<td><a
+href="../../../aggregator/handler/claude-adapter/legs.py">legs.py</a></td>
+<td><code>serve</code> on the Mac owns the sessions; <code>open</code>,
+<code>close</code>, <code>run</code>, <code>status</code>,
+<code>wait</code>, <code>chat</code>, <code>say</code>,
+<code>answer</code>, <code>interview</code>, <code>pause</code>,
+<code>stop</code>, and the branch commands</td>
 </tr>
-<tr class="even">
-<td><a href="../../../aggregator/handler/claude-adapter/actor.py">actor.py</a></td>
-<td>one leg or interview as an actor: prepare, one headless turn, messages mid-turn, save, the close through <code>close.sh</code></td>
+<tr>
+<td><a
+href="../../../aggregator/handler/claude-adapter/actor.py">actor.py</a></td>
+<td>one leg or interview as an actor: prepare, one headless turn,
+messages mid-turn, save, the close through <code>close.sh</code></td>
 </tr>
-<tr class="odd">
-<td><a href="../../../aggregator/handler/claude-adapter/stream.py">stream.py</a>, <a href="../../../aggregator/handler/claude-adapter/inbox_hook.py">inbox_hook.py</a></td>
-<td>the CLI's stream turned into events; the hook that hands the PI's words to the analyst beside its next tool result</td>
+<tr>
+<td><a
+href="../../../aggregator/handler/claude-adapter/stream.py">stream.py</a>,
+<a
+href="../../../aggregator/handler/claude-adapter/inbox_hook.py">inbox_hook.py</a></td>
+<td>the CLI's stream turned into events; the hook that hands the PI's
+words to the analyst beside its next tool result</td>
 </tr>
-<tr class="even">
-<td><a href="../../../aggregator/handler/claude-adapter/branches.py">branches.py</a></td>
-<td>analysis branches: a new run from one verified close, on its own Git branch</td>
+<tr>
+<td><a
+href="../../../aggregator/handler/claude-adapter/branches.py">branches.py</a></td>
+<td>analysis branches: a new run from one verified close, on its own Git
+branch</td>
 </tr>
-<tr class="odd">
-<td><a href="../../../aggregator/handler/claude-adapter/probe.py">probe.py</a>, <a href="../../../aggregator/handler/claude-adapter/probe_lifecycle.py">probe_lifecycle.py</a></td>
+<tr>
+<td><a
+href="../../../aggregator/handler/claude-adapter/probe.py">probe.py</a>,
+<a
+href="../../../aggregator/handler/claude-adapter/probe_lifecycle.py">probe_lifecycle.py</a></td>
 <td>live checks of the CLI and of the actor, in a synthetic run</td>
 </tr>
 </tbody>
 </table>
-<p>Two more live with what they serve: <a href="../../../aggregator/instrument/shelves/make_meta.py">shelves/make_meta.py</a> writes a metadata page for every shelved work, from Crossref and the PDFs; <a href="../../../aggregator/instrument/tools/version_log.py">tools/version_log.py</a> keeps every earlier version of an instrument file before a change lands.</p>
-<h2 id="why-a-handler-has-its-own-files">Why a handler has its own files</h2>
-<p>The analyst is fenced: it sees one folder, cannot reach the web or the handler's files, and forgets everything between legs except what it wrote. Everything around it, from assembling the rooms to checking quotes before the audit, is the handler's, and a run is only as reproducible as that work. Until 26 September 2026 the handler's scripts sat among its working files, with paths fixed to one machine, and its duties were spread across notes. They are here now, so another team's handler, on another account, starts from the same protocol and the same scripts.</p>
+<p>Two more live with what they serve: <a
+href="../../../aggregator/instrument/shelves/make_meta.py">shelves/make_meta.py</a>
+writes a metadata page for every shelved work, from Crossref and the
+PDFs; <a
+href="../../../aggregator/instrument/tools/version_log.py">tools/version_log.py</a>
+keeps every earlier version of an instrument file before a change
+lands.</p>
+<h2 id="why-a-handler-has-its-own-files">Why a handler has its own
+files</h2>
+<p>The analyst is fenced: it sees one folder, cannot reach the web or
+the handler's files, and forgets everything between legs except what it
+wrote. Everything around it, from assembling the rooms to checking
+quotes before the audit, is the handler's, and a run is only as
+reproducible as that work. Until 26 September 2026 the handler's scripts
+sat among its working files, with paths fixed to one machine, and its
+duties were spread across notes. They are here now, so another team's
+handler, on another account, starts from the same protocol and the same
+scripts.</p>
 </body>
 </html>

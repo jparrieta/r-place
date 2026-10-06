@@ -6,24 +6,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`tools/projections.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-projections-py.md">Markdown source</a></nav>
 <h1 id="toolsprojectionspy"><code>tools/projections.py</code></h1>
-<p>Stage D4 §6, projected on afterwards: the verdicts and the canvas per branch and per cluster.</p>
+<p>Stage D4 §6, projected on afterwards: the verdicts and the canvas per
+branch and per cluster.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>One line per branch (<code>branches.jsonl</code>) and per cluster (<code>chunk-share-D4.jsonl</code>) into <code>out/projections-D4.jsonl</code>: the D2 verdicts counted, the share of rooms that do not compose with its percentile against a permutation null (random groups of the same size from the analysed set), and the canvas fields summarised (median area, rooms with an artwork, the percentile of the median area) with the contract's sentence on what the canvas measures. A room's verdict is the analyst's D3 ruling where there is one, else the readers' verdict where they agree, else split.</p>
+<p>One line per branch (<code>branches.jsonl</code>) and per cluster
+(<code>chunk-share-D4.jsonl</code>) into
+<code>out/projections-D4.jsonl</code>: the D2 verdicts counted, the
+share of rooms that do not compose with its percentile against a
+permutation null (random groups of the same size from the analysed set),
+and the canvas fields summarised (median area, rooms with an artwork,
+the percentile of the median area) with the contract's sentence on what
+the canvas measures. A room's verdict is the analyst's D3 ruling where
+there is one, else the readers' verdict where they agree, else
+split.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The analyst runs it at D4 after the cuts are snapped and the comparison is built. Nothing it writes is read back into a cut (rule 7).</p>
+<p>The analyst runs it at D4 after the cuts are snapped and the
+comparison is built. Nothing it writes is read back into a cut (rule
+7).</p>
 <h2 id="links">Links</h2>
-<p><a href="tool-distance-py.html">distance.py</a>, <a href="../../stages/D4.html">stage D4</a>.</p>
+<p><a href="tool-distance-py.html">distance.py</a>, <a
+href="../../stages/D4.html">stage D4</a>.</p>
 </body>
 </html>

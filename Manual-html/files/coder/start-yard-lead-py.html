@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>yard/_tools/start_yard_lead.py</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,32 @@
 <h1 id="yard_toolsstart_yard_leadpy">yard/_tools/start_yard_lead.py</h1>
 <p>Prepares one room and runs its first calibrated case-lead turn.</p>
 <p><strong>What it holds</strong></p>
-<p><code>python3 _tools/start_yard_lead.py &lt;sub&gt; [--complete]</code>. It refuses a room that already has <code>run/</code>, a store or an archive; a room outside 500 to 50,000 in-window items; a room coded before (except <code>liverpoolfc</code>); and a brief without a current passing receipt. Then it runs <code>codex_lead.py init</code> with <code>gpt-5.6-sol</code> at <code>medium</code>, builds the opening message from <code>room.py message lead</code> plus the block in <code>CASE-LEAD-PROMPT.md</code>, saves it as <code>state/lead-opening.txt</code> and a receipt as <code>state/prompting.json</code>, notes the start in <code>STATE.json</code>, and runs the first <code>turn</code> with label <code>lead-first</code>. With <code>--complete</code> it hands on to <code>continue_yard_room.py</code>.</p>
+<p><code>python3 _tools/start_yard_lead.py &lt;sub&gt; [--complete]</code>.
+It refuses a room that already has <code>run/</code>, a store or an
+archive; a room outside 500 to 50,000 in-window items; a room coded
+before (except <code>liverpoolfc</code>); and a brief without a current
+passing receipt. Then it runs <code>codex_lead.py init</code> with
+<code>gpt-5.6-sol</code> at <code>medium</code>, builds the opening
+message from <code>room.py message lead</code> plus the block in
+<code>CASE-LEAD-PROMPT.md</code>, saves it as
+<code>state/lead-opening.txt</code> and a receipt as
+<code>state/prompting.json</code>, notes the start in
+<code>STATE.json</code>, and runs the first <code>turn</code> with label
+<code>lead-first</code>. With <code>--complete</code> it hands on to
+<code>continue_yard_room.py</code>.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The yard's author. <code>coding_queue.py</code> launches it for each ready room.</p>
+<p>The yard's author. <code>coding_queue.py</code> launches it for each
+ready room.</p>
 <p><strong>Why it exists</strong></p>
-<p>Its docstring: "Prepare one authorised room and run its first calibrated native lead turn." The receipt records the prompt version, model, effort and hashes so the calibration is "an explicit condition of new runs" (CASE-LEAD-PROMPT.md).</p>
+<p>Its docstring: "Prepare one authorised room and run its first
+calibrated native lead turn." The receipt records the prompt version,
+model, effort and hashes so the calibration is "an explicit condition of
+new runs" (CASE-LEAD-PROMPT.md).</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/handler/tools/start_yard_lead.py">_tools/start_yard_lead.py</a>. <code>continue_yard_room.py</code> is not among these sources.</p>
-<p>Checked against: _tools/start_yard_lead.py, CASE-LEAD-PROMPT.md, _tools/coding_queue.py</p>
+<p><a
+href="../../../coder/handler/tools/start_yard_lead.py">_tools/start_yard_lead.py</a>.
+<code>continue_yard_room.py</code> is not among these sources.</p>
+<p>Checked against: _tools/start_yard_lead.py, CASE-LEAD-PROMPT.md,
+_tools/coding_queue.py</p>
 </body>
 </html>

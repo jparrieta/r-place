@@ -6,27 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/store/codes.jsonl`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/store-codes.md">Markdown source</a></nav>
-<h1 id="packagestorecodesjsonl"><code>package/store/codes.jsonl</code></h1>
+<h1
+id="packagestorecodesjsonl"><code>package/store/codes.jsonl</code></h1>
 <p>Every first-order concept of every room, joined.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p><code>sub</code>, <code>code_id</code>, <code>theme_id</code>, <code>second_order</code>, <code>first_order</code>, <code>text</code> (the participant's words), <code>start</code>, <code>end</code>, <code>item_id</code>, <code>thread_id</code>, <code>item_kind</code>, <code>author</code>, <code>created_utc</code>, <code>hour</code>, <code>coord</code>, <code>state</code> (coded or unjoined), <code>batch</code>, <code>discovered_at</code>, <code>minted_in_stage</code>, <code>exchange_id</code>, <code>note</code>, <code>passage_id</code>. Retracted concepts are absent here; the coder's own <code>codes.jsonl</code> in the room's run keeps each one, marked <code>retracted: true</code>, with its reason in emit's journal. No third-order or higher field is stored; <code>mem.py</code> overlays those from <code>out/</code> at query time.</p>
+<p><code>sub</code>, <code>code_id</code>, <code>theme_id</code>,
+<code>second_order</code>, <code>first_order</code>, <code>text</code>
+(the participant's words), <code>start</code>, <code>end</code>,
+<code>item_id</code>, <code>thread_id</code>, <code>item_kind</code>,
+<code>author</code>, <code>created_utc</code>, <code>hour</code>,
+<code>coord</code>, <code>state</code> (coded or unjoined),
+<code>batch</code>, <code>discovered_at</code>,
+<code>minted_in_stage</code>, <code>exchange_id</code>,
+<code>note</code>, <code>passage_id</code>. Retracted concepts are
+absent here; the coder's own <code>codes.jsonl</code> in the room's run
+keeps each one, marked <code>retracted: true</code>, with its reason in
+emit's journal. No third-order or higher field is stored;
+<code>mem.py</code> overlays those from <code>out/</code> at query
+time.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p><code>build_store.py</code> at stage 00, from every room's <code>codes.jsonl</code> joined to the forest.</p>
+<p><code>build_store.py</code> at stage 00, from every room's
+<code>codes.jsonl</code> joined to the forest.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p><code>cite.py</code> quotes only from <code>text</code>, <code>start</code> and <code>end</code> (rule 3). STANDING §1 describes each concept "with its second-order theme, item, thread, author, hour since open, forest coordinate, the participant's words with offsets". Contract §5: no raw count of concepts "may be reported across communities as a property of the communities."</p>
+<p><code>cite.py</code> quotes only from <code>text</code>,
+<code>start</code> and <code>end</code> (rule 3). STANDING §1 describes
+each concept "with its second-order theme, item, thread, author, hour
+since open, forest coordinate, the participant's words with offsets".
+Contract §5: no raw count of concepts "may be reported across
+communities as a property of the communities."</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/codes.jsonl">package/store/codes.jsonl</a>.</p>
-<p>Checked against: tools/build_store.py, tools/cite.py, tools/mem.py, STANDING-INSTRUCTIONS.md §1, CONTRACT-aggregator.md §5.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/codes.jsonl">package/store/codes.jsonl</a>.</p>
+<p>Checked against: tools/build_store.py, tools/cite.py, tools/mem.py,
+STANDING-INSTRUCTIONS.md §1, CONTRACT-aggregator.md §5.</p>
 </body>
 </html>

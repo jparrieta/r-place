@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`out/_head.md`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,30 @@
 <h1 id="out_headmd"><code>out/_head.md</code></h1>
 <p>The head: the narrative of the argument, read first at every leg.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Prose the analyst writes, at most 3,000 words. What it must say is left to the analyst; CLAUDE.md names what survives a compaction, in order: the method question, the current account, the reasons for the last revisions, the contrary rooms, the next comparison. Its ids (themes, elements, findings, rooms, concepts) must resolve.</p>
+<p>Prose the analyst writes, at most 3,000 words. What it must say is
+left to the analyst; CLAUDE.md names what survives a compaction, in
+order: the method question, the current account, the reasons for the
+last revisions, the contrary rooms, the next comparison. Its ids
+(themes, elements, findings, rooms, concepts) must resolve.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The analyst. A1 writes it first at the close of its first leg; HOW-TO-RUN says it is "rewritten at every close and before every cut", and at a pause the analyst updates it if the stage has one. <code>done.sh</code> keeps the leg open when it exceeds 3,200 words; <code>validate.py --open</code> fails the launch when a link in it does not resolve.</p>
+<p>The analyst. A1 writes it first at the close of its first leg;
+HOW-TO-RUN says it is "rewritten at every close and before every cut",
+and at a pause the analyst updates it if the stage has one.
+<code>done.sh</code> keeps the leg open when it exceeds 3,200 words;
+<code>validate.py --open</code> fails the launch when a link in it does
+not resolve.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>STANDING §2: the head is "the summary" and the first read of every leg's startup packet, and the ceiling is 3,000 words. After a compaction the harness has the analyst re-read it and reconcile it with the diary. E1 reads "every <code>_head*.md</code> in order".</p>
+<p>STANDING §2: the head is "the summary" and the first read of every
+leg's startup packet, and the ceiling is 3,000 words. After a compaction
+the harness has the analyst re-read it and reconcile it with the diary.
+E1 reads "every <code>_head*.md</code> in order".</p>
 <h2 id="where">Where</h2>
-<p><code>out/_head.md</code>, first written at stage A1, in <a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/">the analyst's out/ folder</a>.</p>
-<p>Checked against: STANDING-INSTRUCTIONS.md §2, CLAUDE.md, HOW-TO-RUN.md, tools/done.sh, tools/validate.py, harness/after_compact.sh, stages/STAGE-A1-reading-room-notes.md, stages/STAGE-E1-formalizing-audit.md.</p>
+<p><code>out/_head.md</code>, first written at stage A1, in <a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/">the
+analyst's out/ folder</a>.</p>
+<p>Checked against: STANDING-INSTRUCTIONS.md §2, CLAUDE.md,
+HOW-TO-RUN.md, tools/done.sh, tools/validate.py,
+harness/after_compact.sh, stages/STAGE-A1-reading-room-notes.md,
+stages/STAGE-E1-formalizing-audit.md.</p>
 </body>
 </html>

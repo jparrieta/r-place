@@ -6,28 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`tools/saturation.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-saturation-py.md">Markdown source</a></nav>
 <h1 id="toolssaturationpy"><code>tools/saturation.py</code></h1>
-<p>The stopping rule: when a stage may stop reading, and the proof that going on would have found nothing.</p>
+<p>The stopping rule: when a stage may stop reading, and the proof that
+going on would have found nothing.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Verbs: <code>order --stage B1</code> (B1's seeded order printed, each room read or unread, for the second pass); <code>status --stage B1</code> (the rule replayed from the files: rooms read, share of the words, kinds seen, coverage, unseen kinds estimated, the open round, the markers, the next room); <code>report --stage B1</code> (<code>out/stopping-B1.md</code>); <code>decide --stage B1 finish|stop --why "..."</code> (the PI's decision after the report).</p>
-<p>The rule, as the PI set it on 29 September 2026: material is counted in words, in units of the average room. No estimate is made before 50 average rooms, and 25 rooms, are read. No round is longer than 25 average rooms. If 60% of the words are read before marker 3, B1 reports and pauses (the check-in), and the PI decides to continue, finish or stop. While a new kind has come in the last 10 average rooms, and the last 10 rooms, reading goes on. After 10 without one, a round begins: the estimate (Chao et al. 2014, incidence data) predicts how far the next new kind is, and the round reads that far, never more than has been read. A new kind inside a round, or inside the draw, resets everything. At B1 a kind is a third-order theme as met: <code>mem.py mint</code> and <code>place</code> append it to <code>out/kinds-B1.jsonl</code> with the room being read, which says when a kind is new, and the room whose theme was placed, where the estimates count it (Chao's incidence assumption; J, 29 September 2026), a logged merge or split is a new kind, and the file is never rewritten, so a later regrouping leaves the rule's past as it was read. Three empty rounds are marker 1, where the literature would stop; three more are marker 2; then a draw of rooms taken at random from those unread, as many words as the three rounds between the markers, whose reading is marker 3. The report states what the draw rules out (Callaghan and Müller-Hansen 2020). The stage then pauses and the PI decides. The rule is B1's alone: A1 reads every room and counts no kinds (J, 29 September 2026).</p>
+<p>Verbs: <code>order --stage B1</code> (B1's seeded order printed, each
+room read or unread, for the second pass);
+<code>status --stage B1</code> (the rule replayed from the files: rooms
+read, share of the words, kinds seen, coverage, unseen kinds estimated,
+the open round, the markers, the next room);
+<code>report --stage B1</code> (<code>out/stopping-B1.md</code>);
+<code>decide --stage B1 finish|stop --why "..."</code> (the PI's
+decision after the report).</p>
+<p>The rule, as the PI set it on 29 September 2026: material is counted
+in words, in units of the average room. No estimate is made before 50
+average rooms, and 25 rooms, are read. No round is longer than 25
+average rooms. If 60% of the words are read before marker 3, B1 reports
+and pauses (the check-in), and the PI decides to continue, finish or
+stop. While a new kind has come in the last 10 average rooms, and the
+last 10 rooms, reading goes on. After 10 without one, a round begins:
+the estimate (Chao et al. 2014, incidence data) predicts how far the
+next new kind is, and the round reads that far, never more than has been
+read. A new kind inside a round, or inside the draw, resets everything.
+At B1 a kind is a third-order theme as met: <code>mem.py mint</code> and
+<code>place</code> append it to <code>out/kinds-B1.jsonl</code> with the
+room being read, which says when a kind is new, and the room whose theme
+was placed, where the estimates count it (Chao's incidence assumption;
+J, 29 September 2026), a logged merge or split is a new kind, and the
+file is never rewritten, so a later regrouping leaves the rule's past as
+it was read. Three empty rounds are marker 1, where the literature would
+stop; three more are marker 2; then a draw of rooms taken at random from
+those unread, as many words as the three rounds between the markers,
+whose reading is marker 3. The report states what the draw rules out
+(Callaghan and Müller-Hansen 2020). The stage then pauses and the PI
+decides. The rule is B1's alone: A1 reads every room and counts no kinds
+(J, 29 September 2026).</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Shipped in the analyst's <code>tools/</code>. The analyst runs <code>status</code> at will, and <code>report</code> at B1's marker 3; <code>mem.py next --stage B1</code> follows the rule, and <code>mem.py mint</code> and <code>mem.py idea</code> stamp words read with it. The seed is the sha256 of the store's <code>rooms.jsonl</code>, frozen in <code>out/seed.txt</code> at B1's first draw, so no one chooses the order. Stage A1 declares its own order and counts no kinds (J, 29 September 2026).</p>
+<p>Shipped in the analyst's <code>tools/</code>. The analyst runs
+<code>status</code> at will, and <code>report</code> at B1's marker 3;
+<code>mem.py next --stage B1</code> follows the rule, and
+<code>mem.py mint</code> and <code>mem.py idea</code> stamp words read
+with it. The seed is the sha256 of the store's <code>rooms.jsonl</code>,
+frozen in <code>out/seed.txt</code> at B1's first draw, so no one
+chooses the order. Stage A1 declares its own order and counts no kinds
+(J, 29 September 2026).</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>An earlier run stopped after 127 rooms with its curves still climbing, and the tier it froze collapsed; runs of "nothing new in N" miss badly (Callaghan and Müller-Hansen: 39% of runs after 50 in a row). The rule stops only by an estimate, goes past where the literature would stop, and ends with a random draw that states what could have been missed.</p>
+<p>An earlier run stopped after 127 rooms with its curves still
+climbing, and the tier it froze collapsed; runs of "nothing new in N"
+miss badly (Callaghan and Müller-Hansen: 39% of runs after 50 in a row).
+The rule stops only by an estimate, goes past where the literature would
+stop, and ends with a random draw that states what could have been
+missed.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/saturation.py">tools/saturation.py</a>. The research behind it: <code>aggregator/handler/memory/research/stopping-rules-2026-09-29.md</code>.</p>
-<p>Checked against: tools/saturation.py, stages/STAGE-A1-reading-room-notes.md, stages/STAGE-B1-coding-third-order-scheme.md.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/saturation.py">tools/saturation.py</a>.
+The research behind it:
+<code>aggregator/handler/memory/research/stopping-rules-2026-09-29.md</code>.</p>
+<p>Checked against: tools/saturation.py,
+stages/STAGE-A1-reading-room-notes.md,
+stages/STAGE-B1-coding-third-order-scheme.md.</p>
 </body>
 </html>

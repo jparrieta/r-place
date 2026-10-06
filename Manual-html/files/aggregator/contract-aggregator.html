@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`CONTRACT-aggregator.md`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,31 @@
 <h1 id="contract-aggregatormd"><code>CONTRACT-aggregator.md</code></h1>
 <p>The brief: what is true at every stage of the run.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>An index with line ranges, then: what the analyst is here to do and what the checks are for; §1 the two questions (the theory question, which the material answers, and the method question, which the run tests), what composition means, and the standing claim with its ban; §2 the five tiers and the typed model; §3 rules 0 to 20; §4 the stages, with the table of steps and models and the three legs of a fleet stage; §5 which rooms (a population of 708, the frame of 696, the canvas, the onset contrast, drops); §6 saturation, recorded twice; and what to do with material that arrives, with the <code>defects.jsonl</code> line format.</p>
+<p>An index with line ranges, then: what the analyst is here to do and
+what the checks are for; §1 the two questions (the theory question,
+which the material answers, and the method question, which the run
+tests), what composition means, and the standing claim with its ban; §2
+the five tiers and the typed model; §3 rules 0 to 20; §4 the stages,
+with the table of steps and models and the three legs of a fleet stage;
+§5 which rooms (a population of 708, the frame of 696, the canvas, the
+onset contrast, drops); §6 saturation, recorded twice; and what to do
+with material that arrives, with the <code>defects.jsonl</code> line
+format.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Written with the instrument (v38). <code>build.sh</code> copies it to the analyst's root. The analyst reads it whole once at A1 and by section afterwards through <code>mem.py contract --section &lt;n&gt;</code>.</p>
+<p>Written with the instrument (v38). <code>build.sh</code> copies it to
+the analyst's root. The analyst reads it whole once at A1 and by section
+afterwards through <code>mem.py contract --section &lt;n&gt;</code>.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>It says of itself: "Nothing in a stage file overrides anything here." Rule 10 lets the analyst depart from it, written to <code>departures.jsonl</code> before acting, except rules 1, 3, 6, 9 and 13 and §5's "mark every absence claim as weak", which do not move.</p>
+<p>It says of itself: "Nothing in a stage file overrides anything here."
+Rule 10 lets the analyst depart from it, written to
+<code>departures.jsonl</code> before acting, except rules 1, 3, 6, 9 and
+13 and §5's "mark every absence claim as weak", which do not move.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/CONTRACT-aggregator.md">CONTRACT-aggregator.md</a>; source <a href="../../../aggregator/instrument/CONTRACT-aggregator.md">aggregator/instrument/CONTRACT-aggregator.md</a>.</p>
-<p>Checked against: CONTRACT-aggregator.md, AGENT.md, tools/mem.py, harness/build.sh.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/CONTRACT-aggregator.md">CONTRACT-aggregator.md</a>;
+source <a
+href="../../../aggregator/instrument/CONTRACT-aggregator.md">aggregator/instrument/CONTRACT-aggregator.md</a>.</p>
+<p>Checked against: CONTRACT-aggregator.md, AGENT.md, tools/mem.py,
+harness/build.sh.</p>
 </body>
 </html>

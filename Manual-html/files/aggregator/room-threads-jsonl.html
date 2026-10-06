@@ -6,27 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/&lt;room&gt;/threads.jsonl`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/room-threads-jsonl.md">Markdown source</a></nav>
-<h1 id="packageroomthreadsjsonl"><code>package/&lt;room&gt;/threads.jsonl</code></h1>
+<h1
+id="packageroomthreadsjsonl"><code>package/&lt;room&gt;/threads.jsonl</code></h1>
 <p>The coder's disposition of every thread it looked at.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>One line per thread disposed: <code>thread_id</code>, <code>read</code> (full or triaged), <code>verdict</code> (coded or out_of_scope in the lines seen), <code>reason</code>, <code>excluded_quote</code>, <code>recorded</code> (singly or bulk), <code>batch</code>.</p>
+<p>One line per thread disposed: <code>thread_id</code>,
+<code>read</code> (full or triaged), <code>verdict</code> (coded or
+out_of_scope in the lines seen), <code>reason</code>,
+<code>excluded_quote</code>, <code>recorded</code> (singly or bulk),
+<code>batch</code>.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The coder. <code>build_store.py</code> copies it, reads <code>read</code>, <code>verdict</code>, <code>reason</code> and <code>batch</code> into the store's <code>threads.jsonl</code>, and counts <code>threads_disposed</code>, <code>threads_read_in_full</code>, <code>threads_triaged</code> and <code>threads_out_of_scope</code> per room in <code>rooms.jsonl</code>.</p>
+<p>The coder. <code>build_store.py</code> copies it, reads
+<code>read</code>, <code>verdict</code>, <code>reason</code> and
+<code>batch</code> into the store's <code>threads.jsonl</code>, and
+counts <code>threads_disposed</code>, <code>threads_read_in_full</code>,
+<code>threads_triaged</code> and <code>threads_out_of_scope</code> per
+room in <code>rooms.jsonl</code>.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>It records what the one reader chose to code. STANDING §1: "one reader per room decided what in each record was worth coding, and you hold what it kept." A1's screen reads it for any room the coder's own documents give reason to doubt.</p>
+<p>It records what the one reader chose to code. STANDING §1: "one
+reader per room decided what in each record was worth coding, and you
+hold what it kept." A1's screen reads it for any room the coder's own
+documents give reason to doubt.</p>
 <h2 id="where">Where</h2>
-<p>Example: <a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/armenia/threads.jsonl">package/armenia/threads.jsonl</a>.</p>
-<p>Checked against: tools/build_store.py, STANDING-INSTRUCTIONS.md §1, stages/STAGE-A1-reading-room-notes.md, package/armenia/threads.jsonl.</p>
+<p>Example: <a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/armenia/threads.jsonl">package/armenia/threads.jsonl</a>.</p>
+<p>Checked against: tools/build_store.py, STANDING-INSTRUCTIONS.md §1,
+stages/STAGE-A1-reading-room-notes.md,
+package/armenia/threads.jsonl.</p>
 </body>
 </html>

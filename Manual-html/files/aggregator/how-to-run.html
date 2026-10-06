@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`HOW-TO-RUN.md`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,33 @@
 <h1 id="how-to-runmd"><code>HOW-TO-RUN.md</code></h1>
 <p>The command reference for the analyst's tools.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Example command lines in groups: quotes and the store (<code>cite.py</code> and the <code>mem.py</code> verbs, those absent in v37 marked new); the fleet's pages (<code>packets.py</code>); the return (<code>handoff.py</code>, <code>ingest.py</code>, <code>rebuild.py</code>); open, close, cut and views (<code>validate.py</code>, <code>gen_views.py</code>, <code>done.sh</code>, <code>snap.py</code>, <code>counts.py</code>). Then "The harness, as it concerns you": <code>arm.json</code>, legs, the head at most 3,000 words and "rewritten at every close and before every cut", compaction, three limits of the runner, forks. Last, stage 00's builders. It says every <code>mem.py</code> call is logged and pages are 80 lines.</p>
+<p>Example command lines in groups: quotes and the store
+(<code>cite.py</code> and the <code>mem.py</code> verbs, those absent in
+v37 marked new); the fleet's pages (<code>packets.py</code>); the return
+(<code>handoff.py</code>, <code>ingest.py</code>,
+<code>rebuild.py</code>); open, close, cut and views
+(<code>validate.py</code>, <code>gen_views.py</code>,
+<code>done.sh</code>, <code>snap.py</code>, <code>counts.py</code>).
+Then "The harness, as it concerns you": <code>arm.json</code>, legs, the
+head at most 3,000 words and "rewritten at every close and before every
+cut", compaction, three limits of the runner, forks. Last, stage 00's
+builders. It says every <code>mem.py</code> call is logged and pages are
+80 lines.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Written with the instrument; <code>build.sh</code> copies it to the analyst's root. It is in A1's first-leg packet. STANDING §1 and A1 name it <code>tools/HOW-TO-RUN.md</code>; <code>build.sh</code> places it at the root and leaves any copy in <code>tools/</code> out.</p>
+<p>Written with the instrument; <code>build.sh</code> copies it to the
+analyst's root. It is in A1's first-leg packet. STANDING §1 and A1 name
+it <code>tools/HOW-TO-RUN.md</code>; <code>build.sh</code> places it at
+the root and leaves any copy in <code>tools/</code> out.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>STANDING §1 calls it "the reference for all of them" and says to read it once at A1. Where it and STANDING's list of verbs added in the last tools pass differ, that list wins.</p>
+<p>STANDING §1 calls it "the reference for all of them" and says to read
+it once at A1. Where it and STANDING's list of verbs added in the last
+tools pass differ, that list wins.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/HOW-TO-RUN.md">HOW-TO-RUN.md</a>; source <a href="../../../aggregator/instrument/HOW-TO-RUN.md">aggregator/instrument/HOW-TO-RUN.md</a>.</p>
-<p>Checked against: HOW-TO-RUN.md, STANDING-INSTRUCTIONS.md §1, stages/STAGE-A1-reading-room-notes.md, harness/build.sh.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/HOW-TO-RUN.md">HOW-TO-RUN.md</a>;
+source <a
+href="../../../aggregator/instrument/HOW-TO-RUN.md">aggregator/instrument/HOW-TO-RUN.md</a>.</p>
+<p>Checked against: HOW-TO-RUN.md, STANDING-INSTRUCTIONS.md §1,
+stages/STAGE-A1-reading-room-notes.md, harness/build.sh.</p>
 </body>
 </html>

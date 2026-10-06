@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`tools/validate.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,30 @@
 <h1 id="toolsvalidatepy"><code>tools/validate.py</code></h1>
 <p>The close-check of every leg and the open-check of every launch.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Four modes: <code>validate.py NN</code> (the close-check, run by <code>done.sh</code>); <code>--open NN</code> (at the open: every input the stage file's header declares is found, the startup counts from <code>counts.py</code> are printed, and <code>links.py</code> runs over the head and the questions); <code>--links</code>; <code>--self-test [--summary]</code> (every check fires on its own planted defect). It exits 1 on any ERROR; warnings never fail a leg. One handler per stage lives in <code>tools/checks/stage_NN.py</code>.</p>
+<p>Four modes: <code>validate.py NN</code> (the close-check, run by
+<code>done.sh</code>); <code>--open NN</code> (at the open: every input
+the stage file's header declares is found, the startup counts from
+<code>counts.py</code> are printed, and <code>links.py</code> runs over
+the head and the questions); <code>--links</code>;
+<code>--self-test [--summary]</code> (every check fires on its own
+planted defect). It exits 1 on any ERROR; warnings never fail a leg. One
+handler per stage lives in <code>tools/checks/stage_NN.py</code>.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Shipped in the analyst's <code>tools/</code>. The harness keeps a trusted copy in <code>CONTROL/harness/validation_tools/</code>, which <code>close.sh</code> runs so that analyst-writable code is never run with the handler's access.</p>
+<p>Shipped in the analyst's <code>tools/</code>. The harness keeps a
+trusted copy in <code>CONTROL/harness/validation_tools/</code>, which
+<code>close.sh</code> runs so that analyst-writable code is never run
+with the handler's access.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Its docstring: it "checks a run, not the instrument", and "a clean report is not evidence about the analysis." A check keyed on the analysed set refuses when <code>rooms.jsonl</code> or <code>dropped.jsonl</code> is absent, since "an empty frame passes every membership test". A1 runs the self-test once and pastes it into <code>notes-A1.md</code>.</p>
+<p>Its docstring: it "checks a run, not the instrument", and "a clean
+report is not evidence about the analysis." A check keyed on the
+analysed set refuses when <code>rooms.jsonl</code> or
+<code>dropped.jsonl</code> is absent, since "an empty frame passes every
+membership test". A1 runs the self-test once and pastes it into
+<code>notes-A1.md</code>.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/validate.py">tools/validate.py</a>.</p>
-<p>Checked against: tools/validate.py, harness/build.sh, harness/protocol_guard.py, stages/STAGE-A1-reading-room-notes.md.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/validate.py">tools/validate.py</a>.</p>
+<p>Checked against: tools/validate.py, harness/build.sh,
+harness/protocol_guard.py, stages/STAGE-A1-reading-room-notes.md.</p>
 </body>
 </html>

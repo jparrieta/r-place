@@ -6,27 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`package/store/README-store.md`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/store-readme.md">Markdown source</a></nav>
-<h1 id="packagestorereadme-storemd"><code>package/store/README-store.md</code></h1>
-<p>The store's dictionary: what each file is, and what none of them is.</p>
+<h1
+id="packagestorereadme-storemd"><code>package/store/README-store.md</code></h1>
+<p>The store's dictionary: what each file is, and what none of them
+is.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>The clock (hour 0 is 1490976000 UTC, 2017-03-31 16:00; placement stopped at hour 73; the window ends at 97; negative hours are the pre-event week); the limit on every row with a parent, "a reply is a reply: posted after, not caused by"; a table of files with what one line is and its keys, counts filled from <code>_build.json</code>; what the record holds (the threads the codes point at, every item of each, but no text); and what is not here: no canvas field outside <code>rooms.jsonl</code>, no third-order theme or higher, no item body, no interpretation. The three <code>_README-*.md</code> files are appended.</p>
+<p>The clock (hour 0 is 1490976000 UTC, 2017-03-31 16:00; placement
+stopped at hour 73; the window ends at 97; negative hours are the
+pre-event week); the limit on every row with a parent, "a reply is a
+reply: posted after, not caused by"; a table of files with what one line
+is and its keys, counts filled from <code>_build.json</code>; what the
+record holds (the threads the codes point at, every item of each, but no
+text); and what is not here: no canvas field outside
+<code>rooms.jsonl</code>, no third-order theme or higher, no item body,
+no interpretation. The three <code>_README-*.md</code> files are
+appended.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p><code>build_store.py</code> (its <code>write_readme</code>) at stage 00, again after the canvas join, and with <code>--readme-only</code> once the transitions, relations and neighbours files exist.</p>
+<p><code>build_store.py</code> (its <code>write_readme</code>) at stage
+00, again after the canvas join, and with <code>--readme-only</code>
+once the transitions, relations and neighbours files exist.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>STANDING §1: "the dictionary. Read it at stage A1." It is in A1's first-leg packet, and A1 recomputes the build figures it prints.</p>
+<p>STANDING §1: "the dictionary. Read it at stage A1." It is in A1's
+first-leg packet, and A1 recomputes the build figures it prints.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/README-store.md">package/store/README-store.md</a>.</p>
-<p>Checked against: tools/build_store.py, harness/build.sh, STANDING-INSTRUCTIONS.md §1, stages/STAGE-A1-reading-room-notes.md.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/package/store/README-store.md">package/store/README-store.md</a>.</p>
+<p>Checked against: tools/build_store.py, harness/build.sh,
+STANDING-INSTRUCTIONS.md §1, stages/STAGE-A1-reading-room-notes.md.</p>
 </body>
 </html>

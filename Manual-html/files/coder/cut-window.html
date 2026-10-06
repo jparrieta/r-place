@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>cut_window_v32.py</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,28 @@
 <h1 id="cut_window_v32py">cut_window_v32.py</h1>
 <p>Cuts a community's record to the 97-hour window.</p>
 <p><strong>What it holds</strong></p>
-<p><code>python3 cut_window_v32.py IN.jsonl OUT.jsonl</code>. The window runs from 2017-03-31 16:00 UTC (the canvas opens) through 2017-04-03 17:00 (placement disabled) to 2017-04-04 17:00. A thread with any item in the window is kept whole, and items outside it are marked <code>_context</code>. A thread with no item in the window is dropped.</p>
+<p><code>python3 cut_window_v32.py IN.jsonl OUT.jsonl</code>. The window
+runs from 2017-03-31 16:00 UTC (the canvas opens) through 2017-04-03
+17:00 (placement disabled) to 2017-04-04 17:00. A thread with any item
+in the window is kept whole, and items outside it are marked
+<code>_context</code>. A thread with no item in the window is
+dropped.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The instrument's author. The sources do not say which script ran it for the yard's rooms; the yard README says rooms were made from raw24 files by <code>build_room.py</code>, which is not among these sources.</p>
+<p>The instrument's author. The sources do not say which script ran it
+for the yard's rooms; the yard README says rooms were made from raw24
+files by <code>build_room.py</code>, which is not among these
+sources.</p>
 <p><strong>Why it exists</strong></p>
-<p>The docstring says the window was tested: "748 of 748 codes fall inside END, the last one at +39h", and a coder who read seventy threads beyond it coded none. Threads stay whole "so that every parent resolves and cite() can reach anything quotable". There is no pre-period, because the ordinary week is "the brief's job".</p>
+<p>The docstring says the window was tested: "748 of 748 codes fall
+inside END, the last one at +39h", and a coder who read seventy threads
+beyond it coded none. Threads stay whole "so that every parent resolves
+and cite() can reach anything quotable". There is no pre-period, because
+the ordinary week is "the brief's job".</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/instrument/v32/cut_window_v32.py">cut_window_v32.py</a>. Its output is <code>record/coder_corpus.jsonl.gz</code> in each room.</p>
+<p><a
+href="../../../coder/instrument/v32/cut_window_v32.py">cut_window_v32.py</a>.
+Its output is <code>record/coder_corpus.jsonl.gz</code> in each
+room.</p>
 <p>Checked against: cut_window_v32.py, yard/README.md</p>
 </body>
 </html>

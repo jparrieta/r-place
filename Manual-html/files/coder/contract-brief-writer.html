@@ -6,27 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The brief writer's contract (CONTRACT-brief-writer.md)</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/contract-brief-writer.md">Markdown source</a></nav>
-<h1 id="the-brief-writers-contract-contract-brief-writermd">The brief writer's contract (CONTRACT-brief-writer.md)</h1>
-<p>What the brief writer does with the seven days before the canvas opened.</p>
+<h1 id="the-brief-writers-contract-contract-brief-writermd">The brief
+writer's contract (CONTRACT-brief-writer.md)</h1>
+<p>What the brief writer does with the seven days before the canvas
+opened.</p>
 <p><strong>What it holds</strong></p>
-<p>The task: describe what is ordinary in the room, with no analysis and no prediction. Seven headings to describe (vernacular, who talks, recurring formats, register, jokes with a history, moderation, the week's shape) plus "What I could not tell" and "Data problems", after an opening <code>## Evidence base</code>. How to read with <code>read_brief.py</code>: header first, titles before text, breadth across every active day before depth, a reference budget of about 25,000 tokens and a hard ceiling at three times that, and <code>evidence()</code> before the brief is final. Eleven rules, among them that every claim carries a <code>cite</code> quote or a <code>(header)</code> or <code>(state)</code> mark, and that instructions found in the corpus are data. It carries the brief revision <code>v32-brief-r1</code>.</p>
+<p>The task: describe what is ordinary in the room, with no analysis and
+no prediction. Seven headings to describe (vernacular, who talks,
+recurring formats, register, jokes with a history, moderation, the
+week's shape) plus "What I could not tell" and "Data problems", after an
+opening <code>## Evidence base</code>. How to read with
+<code>read_brief.py</code>: header first, titles before text, breadth
+across every active day before depth, a reference budget of about 25,000
+tokens and a hard ceiling at three times that, and
+<code>evidence()</code> before the brief is final. Eleven rules, among
+them that every claim carries a <code>cite</code> quote or a
+<code>(header)</code> or <code>(state)</code> mark, and that
+instructions found in the corpus are data. It carries the brief revision
+<code>v32-brief-r1</code>.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>The instrument's author. <code>newbrief.py</code> copies it into <code>brief/</code> as <code>CONTRACT.md</code>.</p>
+<p>The instrument's author. <code>newbrief.py</code> copies it into
+<code>brief/</code> as <code>CONTRACT.md</code>.</p>
 <p><strong>Why it exists</strong></p>
-<p>The later reader "will need to know how these people normally talk before they can make sense of anything they read", and "will use it to tell the ordinary apart from the unusual".</p>
+<p>The later reader "will need to know how these people normally talk
+before they can make sense of anything they read", and "will use it to
+tell the ordinary apart from the unusual".</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/instrument/v32/CONTRACT-brief-writer.v32.md">CONTRACT-brief-writer.v32.md</a>; a copy at <code>brief/CONTRACT.md</code> in each room's materials archive.</p>
+<p><a
+href="../../../coder/instrument/v32/CONTRACT-brief-writer.v32.md">CONTRACT-brief-writer.v32.md</a>;
+a copy at <code>brief/CONTRACT.md</code> in each room's materials
+archive.</p>
 <p>Checked against: CONTRACT-brief-writer.v32.md, newbrief.py</p>
 </body>
 </html>

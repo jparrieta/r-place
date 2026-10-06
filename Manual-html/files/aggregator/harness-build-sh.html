@@ -6,27 +6,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`harness/build.sh`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/harness-build-sh.md">Markdown source</a></nav>
 <h1 id="harnessbuildsh"><code>harness/build.sh</code></h1>
-<p>Lays out a run from the instrument and the coders' documents, once.</p>
+<p>Lays out a run from the instrument and the coders' documents,
+once.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>It writes <code>00_GIVE-THE-AGENT/</code> (the eight root documents, <code>tools/</code> less the handler's and the build scripts, <code>package/</code> and <code>trees/</code> with the store built by <code>build_store.py</code>, <code>transitions.py</code> and <code>relations.py</code>, the canvas joined when <code>INPUT/canvas/</code> is whole, neighbours when the atlas is there, and empty <code>stages/</code>, <code>shelves/</code>, <code>out/</code>); <code>DROPS/ORDER.tsv</code> and <code>DROPS/NN/</code> (each stage file and shelf, SCHEMA and the handoff templates at D1, the design note at E2); <code>CONTROL/harness/</code> with <code>validation_tools/</code>; <code>arm.json</code>, <code>RUN.json</code> (with the instrument's fingerprint), <code>sessions.json</code>; <code>STAGE CARDS/</code>; the Manual; <code>READ-ME-FIRST.md</code>.</p>
+<p>It writes <code>00_GIVE-THE-AGENT/</code> (the eight root documents,
+<code>tools/</code> less the handler's and the build scripts,
+<code>package/</code> and <code>trees/</code> with the store built by
+<code>build_store.py</code>, <code>transitions.py</code> and
+<code>relations.py</code>, the canvas joined when
+<code>INPUT/canvas/</code> is whole, neighbours when the atlas is there,
+and empty <code>stages/</code>, <code>shelves/</code>,
+<code>out/</code>); <code>DROPS/ORDER.tsv</code> and
+<code>DROPS/NN/</code> (each stage file and shelf, SCHEMA and the
+handoff templates at D1, the design note at E2);
+<code>CONTROL/harness/</code> with <code>validation_tools/</code>;
+<code>arm.json</code>, <code>RUN.json</code> (with the instrument's
+fingerprint), <code>sessions.json</code>; <code>STAGE CARDS/</code>; the
+Manual; <code>READ-ME-FIRST.md</code>.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The handler, once, before stage A1: <code>build.sh &lt;run folder&gt; --input &lt;run folder&gt;/INPUT/coders</code>. On a fresh run <code>--input</code> is required, since the store is built from it; the canvas is joined only if <code>&lt;run folder&gt;/INPUT/canvas/</code> is already in place, so copy <code>INPUT/</code> in first. It refuses a folder inside an Obsidian vault and a run that has begun. Build outside a git clone: the run's first close commits and pushes whatever repository it sits in (<a href="../../index.html#start-a-run-of-your-own">the front page</a>).</p>
+<p>The handler, once, before stage A1:
+<code>build.sh &lt;run folder&gt; --input &lt;run folder&gt;/INPUT/coders</code>.
+On a fresh run <code>--input</code> is required, since the store is
+built from it; the canvas is joined only if
+<code>&lt;run folder&gt;/INPUT/canvas/</code> is already in place, so
+copy <code>INPUT/</code> in first. It refuses a folder inside an
+Obsidian vault and a run that has begun. Build outside a git clone: the
+run's first close commits and pushes whatever repository it sits in (<a
+href="../../index.html#start-a-run-of-your-own">the front page</a>).</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>It refuses a run that has begun ("A run is built once") and a run inside the vault. The trusted copies in <code>validation_tools/</code> are what <code>close.sh</code> and <code>dispatch.sh</code> run.</p>
+<p>It refuses a run that has begun ("A run is built once") and a run
+inside the vault. The trusted copies in <code>validation_tools/</code>
+are what <code>close.sh</code> and <code>dispatch.sh</code> run.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/handler/claude/build.sh">harness/build.sh</a>; source <a href="../../../aggregator/handler/claude/build.sh">aggregator/handler/claude/build.sh</a>.</p>
+<p><a
+href="../../../aggregator/handler/claude/build.sh">harness/build.sh</a>;
+source <a
+href="../../../aggregator/handler/claude/build.sh">aggregator/handler/claude/build.sh</a>.</p>
 <p>Checked against: harness/build.sh.</p>
 </body>
 </html>

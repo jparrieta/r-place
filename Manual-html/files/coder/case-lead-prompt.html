@@ -6,27 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>The case-lead prompt (CASE-LEAD-PROMPT.md)</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/case-lead-prompt.md">Markdown source</a></nav>
-<h1 id="the-case-lead-prompt-case-lead-promptmd">The case-lead prompt (CASE-LEAD-PROMPT.md)</h1>
-<p>An extra message added to the case lead's opening message, version <code>lead-calibration-v2</code>.</p>
+<h1 id="the-case-lead-prompt-case-lead-promptmd">The case-lead prompt
+(CASE-LEAD-PROMPT.md)</h1>
+<p>An extra message added to the case lead's opening message, version
+<code>lead-calibration-v2</code>.</p>
 <p><strong>What it holds</strong></p>
-<p>Scheduler notes and, between two markers, the exact block sent to the lead. The block asks the lead to apply five existing requirements more fully: consolidation (§7), within-case findings (§8), the counter-reading (§8), checkable citations with each ID in backticks, and a complete-record check that ends with <code>close_run.py . --role lead --preflight</code>. It names the model for the wave, <code>gpt-5.6-sol</code> at <code>medium</code> effort, and says fleet coders get only their normal message.</p>
+<p>Scheduler notes and, between two markers, the exact block sent to the
+lead. The block asks the lead to apply five existing requirements more
+fully: consolidation (§7), within-case findings (§8), the
+counter-reading (§8), checkable citations with each ID in backticks, and
+a complete-record check that ends with
+<code>close_run.py . --role lead --preflight</code>. It names the model
+for the wave, <code>gpt-5.6-sol</code> at <code>medium</code> effort,
+and says fleet coders get only their normal message.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>Written 2026-09-08 after review of the Dorset demonstration. <code>start_yard_lead.py</code> cuts the block out between <code>&lt;!-- BEGIN LEAD PROMPT --&gt;</code> and <code>&lt;!-- END LEAD PROMPT --&gt;</code>, adds it to the output of <code>room.py message lead</code>, and saves the result and its hashes in the store's <code>state/</code>.</p>
+<p>Written 2026-09-08 after review of the Dorset demonstration.
+<code>start_yard_lead.py</code> cuts the block out between
+<code>&lt;!-- BEGIN LEAD PROMPT --&gt;</code> and
+<code>&lt;!-- END LEAD PROMPT --&gt;</code>, adds it to the output of
+<code>room.py message lead</code>, and saves the result and its hashes
+in the store's <code>state/</code>.</p>
 <p><strong>Why it exists</strong></p>
-<p>"The research contract is unchanged." The block "introduces no target number of themes, searches or codes", adds "no case evidence or interpretive categories", and any conflict is resolved "in favour of the supplied research contract".</p>
+<p>"The research contract is unchanged." The block "introduces no target
+number of themes, searches or codes", adds "no case evidence or
+interpretive categories", and any conflict is resolved "in favour of the
+supplied research contract".</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/handler/CASE-LEAD-PROMPT.md">CASE-LEAD-PROMPT.md</a>; a copy sits in each room's <code>validation/</code>.</p>
+<p><a
+href="../../../coder/handler/CASE-LEAD-PROMPT.md">CASE-LEAD-PROMPT.md</a>;
+a copy sits in each room's <code>validation/</code>.</p>
 <p>Checked against: CASE-LEAD-PROMPT.md, _tools/start_yard_lead.py</p>
 </body>
 </html>

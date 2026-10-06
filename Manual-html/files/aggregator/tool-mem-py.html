@@ -6,27 +6,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`tools/mem.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/tool-mem-py.md">Markdown source</a></nav>
 <h1 id="toolsmempy"><code>tools/mem.py</code></h1>
-<p>The store and the analyst's own files, one page at a time, and the only writer to the diary.</p>
+<p>The store and the analyst's own files, one page at a time, and the
+only writer to the diary.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Reading verbs in groups: one room (<code>room</code>, <code>case</code>, <code>brief</code>, <code>forest</code>, <code>when</code>, <code>canvas</code>, <code>compare</code>, <code>note</code>); concepts and themes (<code>codes</code>, <code>theme</code>, <code>themes</code>, <code>after</code>, <code>pairs</code>); room facts (<code>facts</code>); the analyst's files (<code>notes</code>, <code>progress</code>, <code>neighbours</code>, <code>scheme</code>, <code>where</code>, <code>rooms</code>, <code>contrast</code>, <code>adaptations</code>, <code>finding</code>, <code>question</code>, <code>table</code>, <code>view</code>, <code>wiki</code>, <code>shelf</code>, <code>contract</code>, <code>diff-scheme</code>, <code>diff-model</code>, <code>diary</code>). Writers: <code>log</code>, at any stage (a logged merge or split at B1 is a new kind for the stopping rule); <code>mint</code>, refused outside B1, C1 and D3 (after B1 it stamps the discovery only, and the theme is written into <code>scheme_v2.jsonl</code>); <code>place</code> and <code>unplace</code>, B1 only; <code>reassign</code>, which re-places a second-order theme in <code>assignments_final.jsonl</code> after a recut, C1 to D6; <code>idea</code>, B1, C1 and D3; <code>adjudicate</code>, refused outside D3. At B1, <code>mint</code>, <code>place</code> and a logged merge or split append to <code>out/kinds-B1.jsonl</code>, the stopping rule's record. Pages are 80 lines, each ending with a marker; a wrong room or id is refused with the nearest name.</p>
+<p>Reading verbs in groups: one room (<code>room</code>,
+<code>case</code>, <code>brief</code>, <code>forest</code>,
+<code>when</code>, <code>canvas</code>, <code>compare</code>,
+<code>note</code>); concepts and themes (<code>codes</code>,
+<code>theme</code>, <code>themes</code>, <code>after</code>,
+<code>pairs</code>); room facts (<code>facts</code>); the analyst's
+files (<code>notes</code>, <code>progress</code>,
+<code>neighbours</code>, <code>scheme</code>, <code>where</code>,
+<code>rooms</code>, <code>contrast</code>, <code>adaptations</code>,
+<code>finding</code>, <code>question</code>, <code>table</code>,
+<code>view</code>, <code>wiki</code>, <code>shelf</code>,
+<code>contract</code>, <code>diff-scheme</code>,
+<code>diff-model</code>, <code>diary</code>). Writers: <code>log</code>,
+at any stage (a logged merge or split at B1 is a new kind for the
+stopping rule); <code>mint</code>, refused outside B1, C1 and D3 (after
+B1 it stamps the discovery only, and the theme is written into
+<code>scheme_v2.jsonl</code>); <code>place</code> and
+<code>unplace</code>, B1 only; <code>reassign</code>, which re-places a
+second-order theme in <code>assignments_final.jsonl</code> after a
+recut, C1 to D6; <code>idea</code>, B1, C1 and D3;
+<code>adjudicate</code>, refused outside D3. At B1, <code>mint</code>,
+<code>place</code> and a logged merge or split append to
+<code>out/kinds-B1.jsonl</code>, the stopping rule's record. Pages are
+80 lines, each ending with a marker; a wrong room or id is refused with
+the nearest name.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Shipped in the analyst's <code>tools/</code>. Every call appends a line to <code>out/_mem_reads-NN.jsonl</code>. It overlays the analyst's placements, fourth-order themes and dimensions from <code>out/</code> at query time; nothing in <code>package/</code> is rewritten.</p>
+<p>Shipped in the analyst's <code>tools/</code>. Every call appends a
+line to <code>out/_mem_reads-NN.jsonl</code>. It overlays the analyst's
+placements, fourth-order themes and dimensions from <code>out/</code> at
+query time; nothing in <code>package/</code> is rewritten.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Rule 1: every read of the store or the analyst's own files goes through it, and "Where your account of your reading and the log disagree, the log is right." Rule 20: the diary is written "through <code>mem.py log</code> only". CLAUDE.md: read files through the verbs.</p>
+<p>Rule 1: every read of the store or the analyst's own files goes
+through it, and "Where your account of your reading and the log
+disagree, the log is right." Rule 20: the diary is written "through
+<code>mem.py log</code> only". CLAUDE.md: read files through the
+verbs.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/mem.py">tools/mem.py</a>.</p>
-<p>Checked against: tools/mem.py, tools/NEW-VERBS.md, STANDING-INSTRUCTIONS.md §1, CONTRACT-aggregator.md rules 1 and 20, CLAUDE.md.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/mem.py">tools/mem.py</a>.</p>
+<p>Checked against: tools/mem.py, tools/NEW-VERBS.md,
+STANDING-INSTRUCTIONS.md §1, CONTRACT-aggregator.md rules 1 and 20,
+CLAUDE.md.</p>
 </body>
 </html>

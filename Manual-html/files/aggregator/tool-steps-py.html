@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`tools/steps.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,29 @@
 <h1 id="toolsstepspy"><code>tools/steps.py</code></h1>
 <p>Parses stage and leg ids against <code>steps.tsv</code>.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p>Commands: <code>check &lt;leg&gt;</code> (one line: stage, kind, interview, round, label; or exit 1); <code>stages</code>; <code>steps &lt;stage&gt;</code>; <code>label &lt;leg&gt;</code> (for example <code>B1b-03_coding-third-order-scheme_getting-lost</code>); <code>name &lt;stage&gt;</code>; <code>first &lt;stage&gt; &lt;kind&gt;</code>. A leg id is the stage, the step letter, and a count where the step repeats: <code>B1a</code>, <code>B1b-03</code>, <code>B2a-r1</code>, <code>D1a-02</code>, and <code>-p2</code> for a leg continued after a pause.</p>
+<p>Commands: <code>check &lt;leg&gt;</code> (one line: stage, kind,
+interview, round, label; or exit 1); <code>stages</code>;
+<code>steps &lt;stage&gt;</code>; <code>label &lt;leg&gt;</code> (for
+example <code>B1b-03_coding-third-order-scheme_getting-lost</code>);
+<code>name &lt;stage&gt;</code>;
+<code>first &lt;stage&gt; &lt;kind&gt;</code>. A leg id is the stage,
+the step letter, and a count where the step repeats: <code>B1a</code>,
+<code>B1b-03</code>, <code>B2a-r1</code>, <code>D1a-02</code>, and
+<code>-p2</code> for a leg continued after a pause.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Shipped in the analyst's <code>tools/</code>. <code>build.sh</code> copies it with <code>steps.tsv</code> into <code>CONTROL/harness/</code>, where <code>lib.sh</code> uses it; <code>done.sh</code> uses it to check an interview cut.</p>
+<p>Shipped in the analyst's <code>tools/</code>. <code>build.sh</code>
+copies it with <code>steps.tsv</code> into
+<code>CONTROL/harness/</code>, where <code>lib.sh</code> uses it;
+<code>done.sh</code> uses it to check an interview cut.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>STANDING §2: "The harness names the leg in your first message and in <code>.leg</code>; every snap, probe and checkpoint carries that name." READ-ME-FIRST: a leg id that does not name a step of its stage is refused.</p>
+<p>STANDING §2: "The harness names the leg in your first message and in
+<code>.leg</code>; every snap, probe and checkpoint carries that name."
+READ-ME-FIRST: a leg id that does not name a step of its stage is
+refused.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/steps.py">tools/steps.py</a>.</p>
-<p>Checked against: tools/steps.py, harness/lib.sh, tools/done.sh, STANDING-INSTRUCTIONS.md §2, harness/READ-ME-FIRST.md.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/steps.py">tools/steps.py</a>.</p>
+<p>Checked against: tools/steps.py, harness/lib.sh, tools/done.sh,
+STANDING-INSTRUCTIONS.md §2, harness/READ-ME-FIRST.md.</p>
 </body>
 </html>

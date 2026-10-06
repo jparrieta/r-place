@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`harness/publish.sh`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,27 @@
 <h1 id="harnesspublishsh"><code>harness/publish.sh</code></h1>
 <p>Regenerates the Manual and commits the run to git.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p><code>publish.sh LABEL [KIND]</code>, KIND one of close, interview, pause, finished (<code>close.sh</code> passes <code>interview-point</code> at an interview cut). It runs <code>gen_manual.py</code>, then, if the run sits in a git repository, <code>git add -A</code>, commits "<kind> <label>", tags an interview point with its leg and a finished stage with <code>stage-&lt;ST&gt;</code>, and pushes when a remote is set.</p>
+<p><code>publish.sh LABEL [KIND]</code>, KIND one of close, interview,
+pause, finished (<code>close.sh</code> passes
+<code>interview-point</code> at an interview cut). It runs
+<code>gen_manual.py</code>, then, if the run sits in a git repository,
+<code>git add -A</code>, commits "<kind> <label>", tags an interview
+point with its leg and a finished stage with
+<code>stage-&lt;ST&gt;</code>, and pushes when a remote is set.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p><code>close.sh</code> and <code>interview.sh</code> call it; never typed by hand.</p>
+<p><code>close.sh</code> and <code>interview.sh</code> call it; never
+typed by hand.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>Its header: a failed push "is reported and never fails the close". The repository's <code>.gitignore</code> decides what is committed. It keeps the run's Claude folder, <code>CONTROL/.cc</code>, out; each checkpoint's <code>agent.tar.gz</code> holds only the run's own sessions from it (<code>projects/run/</code>), so no account data is committed (<a href="../../6-the-handlers.html">the handlers</a>).</p>
+<p>Its header: a failed push "is reported and never fails the close".
+The repository's <code>.gitignore</code> decides what is committed. It
+keeps the run's Claude folder, <code>CONTROL/.cc</code>, out; each
+checkpoint's <code>agent.tar.gz</code> holds only the run's own sessions
+from it (<code>projects/run/</code>), so no account data is committed
+(<a href="../../6-the-handlers.html">the handlers</a>).</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/publish.sh">harness/publish.sh</a>.</p>
-<p>Checked against: harness/publish.sh, harness/close.sh, harness/interview.sh.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/publish.sh">harness/publish.sh</a>.</p>
+<p>Checked against: harness/publish.sh, harness/close.sh,
+harness/interview.sh.</p>
 </body>
 </html>

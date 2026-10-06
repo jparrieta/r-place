@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Data and collection</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="manual.css" />
 </head>
@@ -19,11 +31,15 @@
 <nav><a href="index.html">The Manual</a> &middot; <a href="../Manual/data-and-collection.md">Markdown source</a></nav>
 <h1 id="data-and-collection">Data and collection</h1>
 <p><em>Kind of page: how-to: getting each data store.</em></p>
-<p>Where the data is, how to get all of it, which scripts built each store, and on what terms it is shared. The instructions and scripts are in <a href="../data/README.md"><code>data/</code></a>, one folder per store; the folder holds no data: each script downloads or builds its store in place.</p>
+<p>Where the data is, how to get all of it, which scripts built each
+store, and on what terms it is shared. The instructions and scripts are
+in <a href="../data/README.md"><code>data/</code></a>, one folder per
+store; the folder holds no data: each script downloads or builds its
+store in place.</p>
 <h2 id="the-stores">The stores</h2>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Store</th>
 <th>Folder</th>
 <th>Size in the study</th>
@@ -31,69 +47,117 @@
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>the pixel record</td>
 <td><a href="../data/pixels/README.md">data/pixels</a></td>
 <td>16,559,897 placements</td>
 <td>canvas facts at aggregation; never given to a coder</td>
 </tr>
-<tr class="even">
+<tr>
 <td>the atlas</td>
 <td><a href="../data/atlas/README.md">data/atlas</a></td>
 <td>1,473 artworks</td>
-<td>pointers and neighbours only; its descriptions never enter coding</td>
+<td>pointers and neighbours only; its descriptions never enter
+coding</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>the placer accounts</td>
 <td><a href="../data/users/README.md">data/users</a></td>
 <td>1,101,801 accounts, about 14 GB</td>
 <td>building the venues from placer writing; placer counts</td>
 </tr>
-<tr class="even">
+<tr>
 <td>venues, placers only</td>
-<td><a href="../data/venues-placers/README.md">data/venues-placers</a></td>
+<td><a
+href="../data/venues-placers/README.md">data/venues-placers</a></td>
 <td>50,936 venues, 13.6 GB</td>
 <td>screening: which venues carried r/place action</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>venues in full (raw24)</td>
 <td><a href="../data/raw24/README.md">data/raw24</a></td>
 <td>24,093 venues, about 51 GB</td>
 <td>coding: every room is cut from its raw24 file</td>
 </tr>
-<tr class="even">
+<tr>
 <td>pixels per artwork</td>
-<td><a href="../data/pixels-per-artwork/README.md">data/pixels-per-artwork</a></td>
+<td><a
+href="../data/pixels-per-artwork/README.md">data/pixels-per-artwork</a></td>
 <td>23,058,857 rows, 1.1 GB with the panel</td>
-<td>who built where, and when; the aggregator's <code>artworks.jsonl</code></td>
+<td>who built where, and when; the aggregator's
+<code>artworks.jsonl</code></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>hourly pixels per community</td>
-<td><a href="../data/pixels-hourly/README.md">data/pixels-hourly</a></td>
+<td><a
+href="../data/pixels-hourly/README.md">data/pixels-hourly</a></td>
 <td>67,907 rows</td>
-<td>the aggregator's <code>pixels.csv</code> and stage D4's activity table</td>
+<td>the aggregator's <code>pixels.csv</code> and stage D4's activity
+table</td>
 </tr>
 </tbody>
 </table>
-<p><strong>raw24 or venues from placers?</strong> They answer different questions. raw24 holds the whole community, so it is what a coder reads and what a replication of the coding needs. The placer-only store holds what the canvas's participants wrote, wherever they wrote it, so its denominator is right for any placer-side count, and it reaches venues no community sweep touched.</p>
+<p><strong>raw24 or venues from placers?</strong> They answer different
+questions. raw24 holds the whole community, so it is what a coder reads
+and what a replication of the coding needs. The placer-only store holds
+what the canvas's participants wrote, wherever they wrote it, so its
+denominator is right for any placer-side count, and it reaches venues no
+community sweep touched.</p>
 <h2 id="getting-it">Getting it</h2>
-<p><a href="../data/README.md">data/README.md</a> gives the order, seven steps from the public sources to every store, with the command for each. Each store's folder says how the study's own copy was made where it differs, and <code>LINK.md</code> says where that copy is: the atlas venues' raw24 is on the <a href="https://drive.google.com/drive/folders/1itd-IZsAhBq9lMzCnrQERlO2vfxdT9g6">Drive</a>; the other stores are to be added. Every step was run end to end on a small sample on 2026-09-26, with the results in each README; the full collections, which take days, and the tile dump's download were not.</p>
+<p><a href="../data/README.md">data/README.md</a> gives the order, seven
+steps from the public sources to every store, with the command for each.
+Each store's folder says how the study's own copy was made where it
+differs, and <code>LINK.md</code> says where that copy is: the atlas
+venues' raw24 is on the <a
+href="https://drive.google.com/drive/folders/1itd-IZsAhBq9lMzCnrQERlO2vfxdT9g6">Drive</a>;
+the other stores are to be added. Every step was run end to end on a
+small sample on 2026-09-26, with the results in each README; the full
+collections, which take days, and the tile dump's download were not.</p>
 <h2 id="how-it-was-collected">How it was collected</h2>
-<p>Every text record came through one archive, arctic-shift (<code>arctic-shift.photon-reddit.com/api</code>), which serves Reddit's record as it was ingested at the time, not Reddit's current record with years of deletions applied. Venues were walked uncapped over the 24-day span; placer accounts were walked by author. The event window is fixed in one module, <a href="../data/_lib/rplace_window.py">rplace_window.py</a>: the canvas opened 2017-03-31 16:00 UTC and froze 2017-04-03 17:00 UTC; the coders' window adds one day after.</p>
+<p>Every text record came through one archive, arctic-shift
+(<code>arctic-shift.photon-reddit.com/api</code>), which serves Reddit's
+record as it was ingested at the time, not Reddit's current record with
+years of deletions applied. Venues were walked uncapped over the 24-day
+span; placer accounts were walked by author. The event window is fixed
+in one module, <a
+href="../data/_lib/rplace_window.py">rplace_window.py</a>: the canvas
+opened 2017-03-31 16:00 UTC and froze 2017-04-03 17:00 UTC; the coders'
+window adds one day after.</p>
 <h2 id="earlier-instrument-versions">Earlier instrument versions</h2>
-<p><a href="../archive/instrument-history.tar.gz">archive/instrument-history.tar.gz</a>: one file, 11.3 MB, 622 files: Layer A's <code>10_instrument</code> (the coder contract's earlier versions) and <code>60_aggregator</code> (the aggregator's), instruments only. <a href="../archive/HISTORY-MANIFEST.tsv">HISTORY-MANIFEST.tsv</a> lists every file and why any was skipped. Built once on 2026-09-25 by <a href="../aggregator/handler/bundle_history.py">bundle_history.py</a> and frozen. Earlier aggregator runs are not shipped.</p>
+<p><a
+href="../archive/instrument-history.tar.gz">archive/instrument-history.tar.gz</a>:
+one file, 11.3 MB, 622 files: Layer A's <code>10_instrument</code> (the
+coder contract's earlier versions) and <code>60_aggregator</code> (the
+aggregator's), instruments only. <a
+href="../archive/HISTORY-MANIFEST.tsv">HISTORY-MANIFEST.tsv</a> lists
+every file and why any was skipped. Built once on 2026-09-25 by <a
+href="../aggregator/handler/bundle_history.py">bundle_history.py</a> and
+frozen. Earlier aggregator runs are not shipped.</p>
 <h2 id="terms-of-use">Terms of use</h2>
-<p>Everything here is open, and using it requires citing the study (see <a href="../CITATION.cff">CITATION.cff</a>).</p>
+<p>Everything here is open, and using it requires citing the study (see
+<a href="../CITATION.cff">CITATION.cff</a>).</p>
 <ul>
-<li><strong>Code</strong> (every <code>.py</code> and <code>.sh</code>): the <a href="../LICENSE">MIT licence</a>. It asks that the copyright notice travel with the code.</li>
-<li><strong>Documents and the instrument's text</strong> (contracts, stage files, the Manual, codes, themes and cases the agents wrote): <a href="../LICENSE-docs.md">CC BY 4.0</a>. Use and adapt them freely; attribution, meaning a citation, is a condition of the licence.</li>
-<li><strong>Third-party material is not ours to license.</strong> Reddit posts and comments belong to their authors and fall under Reddit's terms; the pixel record is Reddit's public release; the atlas is placeAtlas's. The licences above cover the study's own work on them, not the material itself.</li>
+<li><strong>Code</strong> (every <code>.py</code> and <code>.sh</code>):
+the <a href="../LICENSE">MIT licence</a>. It asks that the copyright
+notice travel with the code.</li>
+<li><strong>Documents and the instrument's text</strong> (contracts,
+stage files, the Manual, codes, themes and cases the agents wrote): <a
+href="../LICENSE-docs.md">CC BY 4.0</a>. Use and adapt them freely;
+attribution, meaning a citation, is a condition of the licence.</li>
+<li><strong>Third-party material is not ours to license.</strong> Reddit
+posts and comments belong to their authors and fall under Reddit's
+terms; the pixel record is Reddit's public release; the atlas is
+placeAtlas's. The licences above cover the study's own work on them, not
+the material itself.</li>
 </ul>
 <p>Please, as a matter of research ethics rather than licence:</p>
 <ul>
-<li>no attempt to re-identify a placer from the pixel record beyond the study's own join;</li>
-<li>no username in a published table, figure or quote without the scrubbing the paper describes;</li>
-<li>honour deletions: a post deleted since collection should not be republished.</li>
+<li>no attempt to re-identify a placer from the pixel record beyond the
+study's own join;</li>
+<li>no username in a published table, figure or quote without the
+scrubbing the paper describes;</li>
+<li>honour deletions: a post deleted since collection should not be
+republished.</li>
 </ul>
 <p>This page is not legal advice.</p>
 </body>

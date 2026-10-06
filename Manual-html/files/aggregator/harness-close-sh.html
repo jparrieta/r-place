@@ -6,27 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`harness/close.sh`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/aggregator/harness-close-sh.md">Markdown source</a></nav>
 <h1 id="harnessclosesh"><code>harness/close.sh</code></h1>
-<p>Closes a leg after the analyst has run <code>done.sh</code> and quit.</p>
+<p>Closes a leg after the analyst has run <code>done.sh</code> and
+quit.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p><code>close.sh LEG [--files-only] [--force]</code>. In order: confirms the launch; runs the trusted close-check; takes the snap; runs the recall probe in a fork and scores it; copies the transcript to <code>out/_transcripts/</code>; builds the checkpoint in a temporary folder (the analyst's folder, the run's own sessions from its Claude folder and nothing else of it, the transcript, <code>cost.json</code>, <code>checkpoint.json</code> with ancestry and validation, a manifest), audits the model that served against <code>arm.json</code> (counted by <code>protocol_guard.py cost</code>, a forked leg's own messages only), verifies, and publishes atomically with <code>COMMITTED</code> last. Then it prints the next step: the dispatch after <code>packets-out</code>, the interview command, or the resume leg after a pause, and marks a stage finished when <code>handback-NN.md</code> exists and validation is clean. Last it calls <code>publish.sh</code>.</p>
+<p><code>close.sh LEG [--files-only] [--force]</code>. In order:
+confirms the launch; runs the trusted close-check; takes the snap; runs
+the recall probe in a fork and scores it; copies the transcript to
+<code>out/_transcripts/</code>; builds the checkpoint in a temporary
+folder (the analyst's folder, the run's own sessions from its Claude
+folder and nothing else of it, the transcript, <code>cost.json</code>,
+<code>checkpoint.json</code> with ancestry and validation, a manifest),
+audits the model that served against <code>arm.json</code> (counted by
+<code>protocol_guard.py cost</code>, a forked leg's own messages only),
+verifies, and publishes atomically with <code>COMMITTED</code> last.
+Then it prints the next step: the dispatch after
+<code>packets-out</code>, the interview command, or the resume leg after
+a pause, and marks a stage finished when <code>handback-NN.md</code>
+exists and validation is clean. Last it calls
+<code>publish.sh</code>.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>The handler, once per leg, by hand or through the leg handler (<code>legs.py close</code>).</p>
+<p>The handler, once per leg, by hand or through the leg handler
+(<code>legs.py close</code>).</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>"A leg is checkpointed once." A pause closes without the stage's close-check.</p>
+<p>"A leg is checkpointed once." A pause closes without the stage's
+close-check.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/close.sh">harness/close.sh</a>.</p>
-<p>Checked against: harness/close.sh, harness/protocol_guard.py, harness/READ-ME-FIRST.md.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/CONTROL/harness/close.sh">harness/close.sh</a>.</p>
+<p>Checked against: harness/close.sh, harness/protocol_guard.py,
+harness/READ-ME-FIRST.md.</p>
 </body>
 </html>

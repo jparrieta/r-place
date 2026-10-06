@@ -6,12 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>`tools/probe.py`</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
@@ -20,13 +32,33 @@
 <h1 id="toolsprobepy"><code>tools/probe.py</code></h1>
 <p>The recall probe: five questions at every close, and their score.</p>
 <h2 id="what-it-holds">What it holds</h2>
-<p><code>--ask</code> writes <code>_probe/NN-L.questions.md</code> with five questions: the method question in one sentence; the open distinctions by slug; the last three rooms opened; the element or theme changed and why; the next comparison. <code>--score</code> reads <code>NN-L.answers.md</code> and marks each question right, wrong, missing or not applicable: the goal against three of four key words; the slugs against the open question files; the rooms against the last <code>room</code> reads; the change against an id from this leg's history lines (the id, not the reason); the next comparison against the last <code>next:</code> the leg wrote in the diary. A question with nothing on record to check is not applicable and never counts as recall; the score is the right answers over the questions that could be checked, or none (review of 29 September 2026). It writes <code>NN-L.json</code>, and each miss to <code>_probe/notes.jsonl</code>. The probe forks the closing session with its tools refused: it measures what the leg recalls unaided, not how well the next leg rebuilds the argument from the files.</p>
+<p><code>--ask</code> writes <code>_probe/NN-L.questions.md</code> with
+five questions: the method question in one sentence; the open
+distinctions by slug; the last three rooms opened; the element or theme
+changed and why; the next comparison. <code>--score</code> reads
+<code>NN-L.answers.md</code> and marks each question right, wrong,
+missing or not applicable: the goal against three of four key words; the
+slugs against the open question files; the rooms against the last
+<code>room</code> reads; the change against an id from this leg's
+history lines (the id, not the reason); the next comparison against the
+last <code>next:</code> the leg wrote in the diary. A question with
+nothing on record to check is not applicable and never counts as recall;
+the score is the right answers over the questions that could be checked,
+or none (review of 29 September 2026). It writes <code>NN-L.json</code>,
+and each miss to <code>_probe/notes.jsonl</code>. The probe forks the
+closing session with its tools refused: it measures what the leg recalls
+unaided, not how well the next leg rebuilds the argument from the
+files.</p>
 <h2 id="who-writes-it-and-when">Who writes it, and when</h2>
-<p>Shipped in the analyst's <code>tools/</code>; <code>close.sh</code> runs the trusted copy after the leg closes.</p>
+<p>Shipped in the analyst's <code>tools/</code>; <code>close.sh</code>
+runs the trusted copy after the leg closes.</p>
 <h2 id="why-it-exists">Why it exists</h2>
-<p>STANDING §2: the probe "measures whether the goal survived the leg". A miss the head or the diary answers is a note, not a defect.</p>
+<p>STANDING §2: the probe "measures whether the goal survived the leg".
+A miss the head or the diary answers is a note, not a defect.</p>
 <h2 id="where">Where</h2>
-<p><a href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/probe.py">tools/probe.py</a>.</p>
-<p>Checked against: tools/probe.py, harness/close.sh, harness/protocol_guard.py, STANDING-INSTRUCTIONS.md §2.</p>
+<p><a
+href="../../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/tools/probe.py">tools/probe.py</a>.</p>
+<p>Checked against: tools/probe.py, harness/close.sh,
+harness/protocol_guard.py, STANDING-INSTRUCTIONS.md §2.</p>
 </body>
 </html>

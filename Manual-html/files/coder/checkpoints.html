@@ -6,27 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Case-lead checkpoints (CHECKPOINTS.md)</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../../manual.css" />
 </head>
 <body>
 <nav><a href="../../index.html">The Manual</a> &middot; <a href="../../../Manual/files/coder/checkpoints.md">Markdown source</a></nav>
-<h1 id="case-lead-checkpoints-checkpointsmd">Case-lead checkpoints (CHECKPOINTS.md)</h1>
-<p>How the case lead's conversation and the whole room are saved after every completed lead reply, and how to resume or fork from a save.</p>
+<h1 id="case-lead-checkpoints-checkpointsmd">Case-lead checkpoints
+(CHECKPOINTS.md)</h1>
+<p>How the case lead's conversation and the whole room are saved after
+every completed lead reply, and how to resume or fork from a save.</p>
 <p><strong>What it holds</strong></p>
-<p>How to start a room with <code>codex_lead.py init</code> and <code>turn</code>. What one turn saves: the native lead ID, turn ID, final reply and rollout; every file under <code>workspace/</code>; the isolated native Codex home; runner state and settings. Branch B with a persistent lead, and the <code>after-fleet</code> label on the last collect. Resume, fork and restore. Recovery (<code>RUNNING.json</code>, <code>recover-run</code>, <code>recover</code>) and portability. The older filesystem-only <code>room.py snapshot</code> and <code>fork</code>. Tests.</p>
+<p>How to start a room with <code>codex_lead.py init</code> and
+<code>turn</code>. What one turn saves: the native lead ID, turn ID,
+final reply and rollout; every file under <code>workspace/</code>; the
+isolated native Codex home; runner state and settings. Branch B with a
+persistent lead, and the <code>after-fleet</code> label on the last
+collect. Resume, fork and restore. Recovery (<code>RUNNING.json</code>,
+<code>recover-run</code>, <code>recover</code>) and portability. The
+older filesystem-only <code>room.py snapshot</code> and
+<code>fork</code>. Tests.</p>
 <p><strong>Who writes it, and when</strong></p>
-<p>Not stated in the sources. The scheduler's contract dates native continuation to 2026-09-07.</p>
+<p>Not stated in the sources. The scheduler's contract dates native
+continuation to 2026-09-07.</p>
 <p><strong>Why it exists</strong></p>
-<p>"Only the case lead has a persisted native agent session." A checkpoint "is evidence of a restorable conversation boundary, not certification that the reading passed its checks." Restore works only at "the same absolute paths", and a changed runtime fails closed.</p>
+<p>"Only the case lead has a persisted native agent session." A
+checkpoint "is evidence of a restorable conversation boundary, not
+certification that the reading passed its checks." Restore works only at
+"the same absolute paths", and a changed runtime fails closed.</p>
 <p><strong>Where</strong></p>
-<p><a href="../../../coder/handler/CHECKPOINTS.md">CHECKPOINTS.md</a>. It names <a href="../../../coder/handler/tools/checkpoints.py"><code>_tools/checkpoints.py</code></a> and <a href="../../../coder/handler/tools/test_checkpoints.py"><code>_tools/test_checkpoints.py</code></a>, both in the repository.</p>
-<p>Checked against: CHECKPOINTS.md, CONTRACT-scheduler.md, _tools/codex_lead.py</p>
+<p><a href="../../../coder/handler/CHECKPOINTS.md">CHECKPOINTS.md</a>.
+It names <a
+href="../../../coder/handler/tools/checkpoints.py"><code>_tools/checkpoints.py</code></a>
+and <a
+href="../../../coder/handler/tools/test_checkpoints.py"><code>_tools/test_checkpoints.py</code></a>,
+both in the repository.</p>
+<p>Checked against: CHECKPOINTS.md, CONTRACT-scheduler.md,
+_tools/codex_lead.py</p>
 </body>
 </html>
