@@ -4,9 +4,10 @@ week:       h4 to h33 calls; h39 to h56 invaded; h57 to h62 borders, a UT allian
 named:      r/UTAustin as invader then ally (c0034, c0131); LSU, Texas Tech and giantbomb as attackers (c0025, c0078, c0095); r/RPI, Huskers and Purdue as neighbours (c0064, c0103, c0118).
 goal:       an A&M logo; done at h39.2; held through invasions; done again at h62.4.
 unsettled:  TAMU lettering or a block T; scripts or hand work (c0026, c0124, c0138).
-coder unsure: 75 threads out of scope.
+coder unsure: removed bodies of the coordinate call, an alarm and two bot posts (62w35k, 631m35, 634unu, 634xx1); scripts, images, messages and TexAgs seen only as returned; no reader held the week.
 carrying:   c0095, c0131, c0138
 not this:   a rivalry fought to the end; A&M and UT ran joint scripts and planned a heart between them.
 ended:      last coordinating turn h72.58 (c0151, helping giantbomb after it rebuilt); after h73 the honour code and thanks.
 struck by:  "An Aggie does not lie, cheat or steal or tolerate those who do. Scripts are cheating"
 made:       one artwork, Texas A&M University, 368 px at the edge, 2,004 placers, placed from h1.08; writers placed 0.28, pre-event members 0.096. The canvas keeps the logo.
+later:      2026-10-07, catch-up: not this qualified; a moderator said UT was meant to stop brigading and had not (dfqzo1r), and a Huskers truce drew a curt refusal (dfr2aug). The brief shows the UT rivalry already in the week's talk, t.u. named as what A&M must not become (dfd5x95).

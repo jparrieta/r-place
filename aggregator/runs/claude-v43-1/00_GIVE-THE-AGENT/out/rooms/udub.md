@@ -4,9 +4,10 @@ week:       h54 to h56 a spot claimed, shrunk; h60 to h64 scripts, a win; h64 to
 named:      r/shishamo, r/Xcom and r/rainbow6 as neighbours who objected (c0011, c0032, c0044); Serbia as earlier destroyer (c0005).
 goal:       a UW mark; set at h54.7; held by script from h62.9.
 unsettled:  whether bots were fair (c0038, c0047, c0050).
-coder unsure: 64 threads out of scope.
+coder unsure: the first call's body deleted (632tkw); many deleted comments around the code sharing (632zwn); how much of the logo the scripts made not shown (dft2qv4).
 carrying:   c0011, c0021, c0036
 not this:   a late room that asked for space; it took a spot by script over neighbours' objections.
 ended:      last coordinating turn h71.89 (c0042, a giant Dubs proposed); after h73 Chanka taunts and a bot admitted.
 struck by:  "It looks like we've won. They've given up trying to defend"
 made:       one artwork, University of Washington, 305 px at the edge, 1,903 placers, placed from h1.85; writers placed 0.045, pre-event members 0.019. The canvas keeps the W.
+later:      2026-10-07, catch-up: the regret came after the fact; one member said the logo could have been smaller but it was already done (dfri4k5), and after the close a local said only that someone was peddling a bot (dft2qv4). The brief shows campus advice and changes nothing.

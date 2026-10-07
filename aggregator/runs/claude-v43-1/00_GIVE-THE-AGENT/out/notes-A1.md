@@ -1093,3 +1093,15 @@ The diary moved into parts A1-44 and A1-45 during this leg.
 `validate.py A1` before the close: 0 errors, 162 warnings (notes over the 350-word guide, 22 of them from this block).
 
 Ledgers at the close: lexicon 1,289 lines, running file 726 lines (8 block-42 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 575 of 702 catch-up rooms are done. The next leg reads catch-up block 43, from foxstevenson (`order-A1.txt` line 1284).
+
+## Close report, leg A1b-43 (catch-up block 43), 2026-10-07
+
+Block 43 is read: 25 of 25 rooms, foxstevenson to kilian. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. All 25 old `coder unsure:` lines were replaced with case.md's limits and thread ids: 23 gave the brief's coverage, and two said none (orderofthebluecorner, teamcube). Two briefs were the harness's empty brief (orderofthebluecorner, teamcube).
+
+Case.md showed an earlier line wrong in three rooms. NovaScotia's goal line says the flag was protected, but that is only the second call's wish. anarchocapitalism's goal line says the flag was taken, but the conversion was only requested. telegram's goal and not-this lines say a shared bot kept both images, but no turn shows the bot running. The later lines say so and the earlier lines stand. In hungary, ucf, donaldglover and aggies the later line qualifies the not-this line with members' own attack talk or a broken truce.
+
+A compaction fell after the anarchocapitalism edits and before its log line. That log line was written first, from the summary, without re-serving case.md and brief.md as the head asks; its ids match the note on disk. The head and stage file were then re-read and the diary reconciled before the next room. In teamcube, one doing-line claim (six accounts) was checked against the item with `cite.py`. The diary moved into part A1-46 during this leg.
+
+`validate.py A1` before the close: 0 errors, 184 warnings (notes over the 350-word guide, 22 of them from this block).
+
+Ledgers at the close: lexicon 1,289 lines, running file 734 lines (8 block-43 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 600 of 702 catch-up rooms are done. The next leg reads catch-up block 44, from counting (`order-A1.txt` line 1309).

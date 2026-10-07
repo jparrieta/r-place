@@ -1,14 +1,16 @@
-From the handler, at J's direction (7 October 2026: "go ahead", 10:10 Berlin, on putting back what the cap cut; "let's do b", 11:05, every cut note).
+From the handler, at J's direction (7 October 2026: "go ahead", 10:10 Berlin, on putting back what the cap cut; "let's do b", 11:05, every cut note; 11:18, "make a folder with the changed version ... they can choose if they want it").
 
 The restore: legs A1b-49 to A1b-53, one batch of rooms each, listed in out/_handling/pretrim-A1/BATCHES.tsv.
 
-What it is. Before 09:01 Berlin today the note hook refused any note over 350 words, so you cut 562 notes to fit: 409 in blocks 1 to 19 and 153 in the catch-up. The handler recovered what you wrote before each cut from the record: the checkpoint before the leg, replayed through that leg's own edits, and each replay checked against the leg's own checkpoint (562 of 562 match). Nothing in these files was written from memory.
+What it is. Before 09:01 Berlin today the note hook refused any note over 350 words, so you cut 562 notes to fit: 409 in blocks 1 to 19 and 153 in the catch-up. The handler recovered what you wrote before each cut from the record: the checkpoint before the leg, replayed through that leg's own edits, each replay checked against the leg's own checkpoint. Nothing in these files was written from memory, and your notes have not been touched.
 
-The files. out/_handling/pretrim-A1/review/<sub>.md, one per room: for each leg that cut its note, the change, with "-" the note after the cut and "+" what you had written before it. The full versions are in pretrim-A1/<sub>__<leg>.md if you need them.
+The files, in out/_handling/pretrim-A1/:
+- restored/<sub>.md, for most rooms: a prototype. It is your note as it stands now, with your pre-cut lines put back wherever the line the cut left is still in the note word for word; nothing else changed. restored/PROTOTYPES.tsv says per room how many cuts it put back and how many it left to you (where the line changed after the cut, mostly in the catch-up). `diff rooms/<sub>.md _handling/pretrim-A1/restored/<sub>.md` shows exactly what it would change.
+- review/<sub>.md, for every room: each cut, with "-" the note after the cut and "+" what you had written before it. Read it for the cuts the prototype left to you, or for rooms with no prototype.
 
 In each leg:
-- Take the rooms of your leg's batch in BATCHES.tsv. For each, read its review file and the note as it stands, and decide what to put back. The note is yours (J's ruling of 09:01: the length is a guide, the note is for your own later reading). Put back what you would miss; leave out what the cut rightly dropped or what a later line already says.
-- Put back only your own earlier words, from the review file. Do not reread the sources for this, and add no new wording beyond what joins a restored clause to its line. If a restore would need a new reading, ask J (mem.py ask) and go on.
-- Record every room, also when nothing goes back: mem.py log "<sub> restore: put back ...; left out ..." --kind note --ids <sub>.
+- Take the rooms of your leg's batch in BATCHES.tsv. For each, choose: take the prototype whole (copy it over your note), take part of it, put back by hand what it left, or leave the note as it is. The note is yours (J's ruling of 09:01: the length is a guide, the note is for your own later reading). Leave out what the cut rightly dropped or what a later line already says.
+- Put back only your own earlier words, from these files. Do not reread the sources for this, and add no new wording beyond what joins a restored clause to its line. If a restore would need a new reading, ask J (mem.py ask) and go on.
+- Record every room, also when nothing goes back: mem.py log "<sub> restore: prototype taken | part: ... | left: ..." --kind note --ids <sub>.
 - The pass/fail rules of the note stand (the fixed lines, the concept ids). The handler checks each changed line against the cut versions and the note before the leg.
 - Close as usual when the batch is done.

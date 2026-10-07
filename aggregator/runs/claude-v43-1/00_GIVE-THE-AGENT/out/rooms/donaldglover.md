@@ -4,9 +4,10 @@ week:       h10 to h30 a sign; h25 to h46 BTI moved; h49 to h55 Discord, Kauai; 
 named:      r/kanye as host and helper (c0093); r/bardmains, the Rolling Stones and a symbol's builders as neighbours asking room (c0008, c0074, c0143); the void as attacker (c0117).
 goal:       a cover; BTI failed four times; the STN MTN and Kauai cover done at h55.0; held.
 unsettled:  where a BTI cover could go (c0101, c0122).
-coder unsure: 80 threads out of scope.
+coder unsure: the Discord talk that chose Kauai unseen (6310ub); deleted bodies of updates, location posts and the poster preorder; images not inspected; the poster dispute's end open (dftc1gy).
 carrying:   c0076, c0080, c0093
 not this:   a room that pushed through neighbours; it relocated each time a neighbour asked.
 ended:      last coordinating turn h72.65 (c0119, Kauai fixed); after h73 posters.
 struck by:  "we are relocating, safe travels"
 made:       two artworks at the edge, STN MTN/KAUAI 421 px with 1,539 placers and BTI Beginning 218 px, placed from h1.1; writers placed 0.115, pre-event members 0.05. The canvas keeps the cover and a BTI start.
+later:      2026-10-07, catch-up: not this qualified; a neighbour named two Glover builders as the main destroyers of its symbol (dfpzq05), and a Red Wings fan blamed the room (dfrnnvl). The brief shows a BTI song contest run the week before (61afuh, 61n6c3), the album the room first tried.

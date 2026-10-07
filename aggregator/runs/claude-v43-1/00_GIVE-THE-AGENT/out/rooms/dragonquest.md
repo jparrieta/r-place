@@ -4,9 +4,10 @@ week:       h30 to h48 slimes made and lost; h51 to h63 the Liquid Metal Slime, 
 named:      WeAreWaldo, r/tagpro and RIT as allies and negotiators (c0033, c0037, c0038); Rainbow Road and Green Lattice as neighbours (c0034, c0059); the Void as eater (c0071).
 goal:       slimes; the Liquid Metal Slime made at h56.5 and moved by agreement; it survived.
 unsettled:  hand work or scripts (c0016, c0073, c0080).
-coder unsure: 59 threads out of scope.
+coder unsure: four post bodies deleted (633x75, 634cqj, 634cxu, 637kb8); the Discord and Den talk unseen (dfrb10c, dfpn5og); who ran each script not shown (dfs69qc); images unseen.
 carrying:   c0039, c0050, c0076
 not this:   a room that held its first slime; most were lost, and the survivor was kept through negotiated moves.
 ended:      last coordinating turn h72.17 (c0064, calling out users damaging the slime); after h73 hours of politics recounted.
 struck by:  "I had to go through hours of politics"
 made:       one artwork, Liquid Metal Slime, 183 px at the edge, 1,019 placers, placed from h2.45; writers placed 0.124, pre-event members 0.01. The canvas keeps the Liquid Metal Slime.
+later:      2026-10-07, catch-up: the agreed move ran in the wrong order, the logo up before the new slime (dfrg1v9); a bot moved and guarded the slime, and its operator was blamed for dropping protection when the Void came (dfs69qc). The brief shows game help and release talk and changes nothing.

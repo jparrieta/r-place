@@ -4,9 +4,10 @@ week:       h29 to h43 calls against red; h48 to h51 blame traded; h56 to h59 fl
 named:      r/thefarleftside as threatened attacker (c0004); communists as rivals (c0002, c0005); Kekistan as cause (c0010).
 goal:       an ancap flag; taken from an ansoc flag at h56.8; defence asked at h58.7.
 unsettled:  whether the room could organise (c0006).
-coder unsure: 6 threads out of scope.
+coder unsure: the attack and defence posts' bodies removed (62z5ig, 6342td); two linked images unseen (62vfo4, 637ivu); the Kekistan Discord unseen (dfrvwo1); no progress or result reported.
 carrying:   c0004, c0006, c0007
 not this:   a room that built its flag; its writers placed 0.003 of the linked flag, and its calls were few.
 ended:      last coordinating turn h71.81 (c0012, a call to fight for Kekistan); nothing observed after.
 struck by:  "You remain only for lack of organisation on the part of your rivals!"
 made:       one artwork, Anarchocapitalist flag, 112 px at the edge, 2,886 placers, placed from h1.81; writers placed 0.003, pre-event members 0. The canvas keeps an ancap flag the room's writers barely placed.
+later:      2026-10-07, catch-up: the goal line's taken overstates it; the ansoc-to-ancap call was a request, and no reply reports it done (633h5f). The brief shows property debates and helicopter jokes and changes nothing.

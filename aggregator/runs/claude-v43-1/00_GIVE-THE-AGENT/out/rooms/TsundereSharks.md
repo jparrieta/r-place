@@ -4,9 +4,10 @@ week:       h27 to h46 sprite, team; h46 to h56 the shark; h56 to h73 StarCraft,
 named:      r/kamenrider as neighbour moved for (c0012); r/python as scripted threat, then helper (c0057, c0089); r/newmexico as compromise partner and breaker (c0076, c0080); StarCraft as neighbour (c0053).
 goal:       a tsundere shark; done at h55.7; damaged overnight; its face kept.
 unsettled:  whether to fight with scripts (c0060, c0073, c0085).
-coder unsure: 2 threads out of scope.
+coder unsure: r/Python's Discord unreachable and the Zia talk moved to IRC, both unseen (dfr5lg2, dfr9lil); the outline post only a title (632z10); how many subscribers took part not shown.
 carrying:   c0064, c0085, c0088
 not this:   a room that refused scripts; it wrote its own after others used them.
 ended:      last coordinating turn h72.49 (c0093, updating script runners from one template); after h73 the shy face recounted.
 struck by:  "Baka! Save me!"
 made:       one artwork, Tsundere shark, 193 px at the edge, 957 placers, placed from h1.78; writers placed 0.168, pre-event members 0. The canvas keeps the shark, its face visible.
+later:      2026-10-07, catch-up: the most active member said they were not the leader (dfr9ic5), and a recruiter hoped half a percent of subscribers would run the script (dfrratr), so the work rested on few hands. The brief holds seven stray comments and changes nothing.

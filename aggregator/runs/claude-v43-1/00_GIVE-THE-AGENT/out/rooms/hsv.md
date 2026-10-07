@@ -4,9 +4,10 @@ week:       h26 to h41 the logo; h44 to h46 the void; h48 to h53 a second spot, 
 named:      the Habs as neighbours spared (c0020, c0021); a Bremen fan and the void as destroyers (c0023, c0038); Ireland as owner asking them to move (c0056).
 goal:       an HSV logo; done at h40.8; lost at h46.2; a heart-sized second mark by h52.5.
 unsettled:  where a small sub could hold a spot (c0052, c0067, c0076).
-coder unsure: 13 threads out of scope.
+coder unsure: the Dino call's body removed (6324jx); deleted comments inside the build disputes (dfq5pi1, dfqm547); the Imgur templates and snapshots unseen.
 carrying:   c0012, c0042, c0063
 not this:   a room that held a logo; it lost the first to the void and conceded the second spot to Ireland.
 ended:      last coordinating turn h70.28 (c0087, a bigger one proposed on Sweden's blue); after h73 thanks.
 struck by:  "We just a small subreddit trying to leave our mark!"
 made:       one artwork, Hamburger Sport-verein, 102 px in the middle ring, 337 placers, placed from h2.7; writers placed 0.04, pre-event members 0.038. The canvas keeps a small HSV mark.
+later:      2026-10-07, catch-up: while conceding, an HSV member told Ireland it could not take up that much space (dfqjctg); the organiser's recap said the first area worked and the second was just a heart (dfsbrkp). The brief shows one member writing 10 of 18 items the week before (61xdb9), the same reliance on one voice.

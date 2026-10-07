@@ -4,9 +4,10 @@ week:       h21 to h30 a flag sought; h43 to h52 Discord, YPG, TFLS; h61 to h66 
 named:      r/hungary as target and watcher (c0003, c0009, c0012); r/TheFarLeftSide as backer (c0020, c0040); a Turkish flag as target (c0014); Italians as attackers (c0027).
 goal:       a Kurdish flag; sought from h21.9; a small YPG flag held by h52.1.
 unsettled:  whether to take Hungary's flag (c0004, c0013, c0028).
-coder unsure: 73 threads out of scope.
+coder unsure: the first call's and the TFLS visitor's bodies removed (62su4u, 631ygb); the Discord's decisions unseen (6307qm); whether the Turkmen-flag thread was an April Fools prank not settled (62twyu).
 carrying:   c0013, c0020, c0038
 not this:   a room that held its own flag; its YPG flag stood under TFLS protection, and its heart was made by others.
 ended:      last coordinating turn h61.08 (c0036, vowing to protect the YPG flag); nothing coded after h66.5.
 struck by:  "Looks like some folks made a Kurdistan heart"
 made:       one artwork, Kurdistan Heart, 74 px in the middle ring, 190 placers, placed from h2.42; writers placed 0.01, pre-event members 0. The canvas keeps a heart the room found, not a flag it reports.
+later:      2026-10-07, catch-up: sabotage of Turkish imagery was a real strand beside building; one member said if they were too few to make a flag they could at least sabotage theirs (dfpi620). The brief shows politics and identity talk and changes nothing.

@@ -4,9 +4,10 @@ week:       h14.0 a proposal; h45.4 a scheme.
 named:      Denmark as site (c0002); a Polish flag as example (c0001).
 goal:       a Greenland flag; proposed h14.0; a scheme at h45.4; no report of placement.
 unsettled:  where the flag goes (c0002, c0003).
-coder unsure: 5 threads out of scope.
+coder unsure: the scheme post's body, its image and its only reply deleted (62zl6v, dfq6t9d); one reply to the first call deleted (dfq2spg); whether anyone placed pixels not shown.
 carrying:   c0001, c0002, c0003
 not this:   a room that built the flag on the canvas; its writers placed none of it.
 ended:      last coordinating turn h45.35 (c0003, a scheme and start coordinate); nothing observed after.
 struck by:  "Can we make a wild Greenland appear :D"
 made:       one artwork, Flag of Greenland, 105 px in the middle ring, 415 placers, placed from h2.24; writers placed 0, pre-event members 0. The canvas keeps a Greenland flag the room's writers did not place.
+later:      2026-10-07, catch-up: a bot notice shows the first call was linked from r/denmark (dfp3sdh), so it travelled beyond the sub; who acted on it is not shown. The brief shows travel advice and changes nothing.

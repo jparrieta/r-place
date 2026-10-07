@@ -4,9 +4,10 @@ week:       h27 to h50 tries, doubt; h51 to h57 the college corner, the logo; h5
 named:      UF and FloridaGators as partners in mutual defence (c0038, c0044, c0104); Unturned as neighbour not to be attacked (c0061); NEU and FSU as neighbours (c0064, c0089); Tetris and SDSU as rivals (c0024).
 goal:       a UCF logo in the college corner; done at h57.2; a Pegasus tried and refused; held.
 unsettled:  respect neighbours or think bigger (c0074, c0085, c0102).
-coder unsure: 74 threads out of scope.
+coder unsure: the first call, a Pegasus call and the final post only titles (62ur6u, 634k11, 638uqt); deleted comments inside the Pegasus and border talk (632rci); the linked designs unseen.
 carrying:   c0021, c0061, c0091
 not this:   a room that took space from rivals; it moved for UF's border and granted FSU a place beside it.
 ended:      last coordinating turn h72.59 (c0089, FSU asking permission, granted at h73.27); after h73 the final image praised.
 struck by:  "Better FSU than USF, I say. Go for it."
 made:       one artwork, University of Central Florida, 288 px at the edge, 1,392 placers, placed from h1.33; writers placed 0.155, pre-event members 0.038. The canvas keeps the logo.
+later:      2026-10-07, catch-up: not this qualified; members called to fight back for more than three letters and to take Unturned's spot (dfrx7iu, dfrtumf), and after the close some said to think bigger (dft0s0n). The brief shows Charge on as a Knights sign-off (61fztn), later proposed for the canvas.

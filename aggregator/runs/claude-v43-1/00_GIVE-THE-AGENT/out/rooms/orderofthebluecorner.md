@@ -4,9 +4,10 @@ week:       h3 to h7 chants, war, the Discord; h14 to h25 the Beam, requests; h4
 named:      red, green and the Purples as heretic rivals (c0011, c0014, c0039); the rainbow road as a truce partner (c0017, c0044); r/monsterhunter, r/pokemon, r/shovelknight and others as askers (c0045, c0055, c0057).
 goal:       blue corners and the Beam; set by h14.4; held as blue only from h47.4.
 unsettled:  attack rivals or only expand (c0022, c0023).
-coder unsure: none; 0 threads out of scope.
+coder unsure: ten bodies deleted, among them the Discord invite and one unknowable proposal (62oq9d, 6355wn); the stream and images unseen; the closing claim of retention has no reply (638m63).
 carrying:   c0021, c0047, c0056
 not this:   a host for other rooms' art; it refused every request that was not blue, and allowed the rainbow only to avoid war.
 ended:      last coordinating turn h71.21 (c0064, a Glaceon refused); after h73 the corner kept.
 struck by:  "Too bad, bottom right corner is for blue only, do you not see the border?"
 made:       one artwork, The Blue Empire, 6,995 px at the edge, 107,059 placers, shared with r/thebluecorner, placed from h-12.34; writers placed 0.001, pre-event members 0. The canvas keeps the blue corner; this room's writers placed almost none of it.
+later:      2026-10-07, catch-up: a plea to help r/homestuck and r/india against the void was answered by hailing the void (dfptxdc); placements before hour 0 are Reddit's tests. The brief is the harness's empty brief.

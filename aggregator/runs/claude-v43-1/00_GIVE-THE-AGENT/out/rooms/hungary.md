@@ -4,9 +4,10 @@ week:       h19 to h35 the flag, Discord, Romania; h44 to h61 peace, plans; h69 
 named:      Denmark as threat and heart partner (c0025, c0064); Romania as beam builder and design partner (c0054, c0041); r/survivor and Lebanon as neighbours given room (c0058, c0027); r/kurdistan as claimant (c0036).
 goal:       a Hungarian flag; made by h35.0; held; a heart with Denmark at the end.
 unsettled:  whether the Danes can be trusted (c0057, c0060).
-coder unsure: 54 threads out of scope.
+coder unsure: two readers, no one held the week; the Discord's decisions unseen (dfphrp7); several event bodies removed (62zedy, 6350bj); which sticky held at the time not shown (62ybpi); the pxls.space work unseen (dfseomx).
 carrying:   c0013, c0027, c0064
 not this:   a flag room that fought its neighbours; it gave Lebanon and Survivor room and shared a heart with Denmark.
 ended:      last coordinating turn h72.95 (c0033, asking help to leave only the Hungarian flag in the heart); after h73 blame of the Danish Discord.
 struck by:  "It's not an attack, we just want to connect our two flags."
 made:       three artworks in the middle ring, Flags of Hungary 2,603 px with 6,871 placers, Hungary Heart 114 px, Peace-heart (Denmark-Hungary) 60 px shared with denmark, placed from h1.14; writers placed 0.137, pre-event members 0.043. The canvas keeps the flag and both hearts.
+later:      2026-10-07, catch-up: not this qualified; one post called to turn the Slovak flag Russian (6350bj), and a Danish offer to destroy Survivor for Hungary was refused (dfrvn7b, dfrw3kg). After the close the flag was rebuilt on pxls.space (dfseomx). The brief shows politics and advice and changes nothing.

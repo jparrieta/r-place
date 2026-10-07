@@ -4,9 +4,10 @@ week:       h16 to h38 April Fools; h60 to h72 a logo proposed, moved three time
 named:      r/samuraijack as claimant given way (c0019); r/liquicity as partner offering a joint build (c0026); Protostar and Monstercat as Liquicity's partners (c0026).
 goal:       a Fox Stevenson logo; begun h65.6; moved three times; half done at the close.
 unsettled:  where the logo could fit (c0013, c0021, c0022).
-coder unsure: 9 threads out of scope.
+coder unsure: three post bodies deleted, among them the main proposal (62s37j, 62y991, 634lfx); the linked design images unseen; Liquicity's Discord talk unseen (dfrxonb).
 carrying:   c0019, c0022, c0026
 not this:   a room that drew the logo the canvas links; its writers placed 0.029, and placements began 63 hours before its first call.
 ended:      last coordinating turn h72.40 (c0028, sending helpers to Liquicity's Discord); after h73 a joke.
 struck by:  "At least we've got half a logo. Better than nothing!"
 made:       one artwork, Fox Stevenson logo, 181 px at the edge, 361 placers, placed from h2.4; writers placed 0.029, pre-event members 0.023. The canvas keeps a logo; the room reports half of one.
+later:      2026-10-07, catch-up: the half-logo report came from the Liquicity visitor, not a Fox member (dfrxmmi); the "just enough space" proposal ended in "not enough space" (634lfx, dfrrqs0). The brief shows a leaked track and its fan jokes and changes nothing.

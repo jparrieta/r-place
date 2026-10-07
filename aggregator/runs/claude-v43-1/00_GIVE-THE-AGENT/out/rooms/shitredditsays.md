@@ -4,9 +4,10 @@ week:       h4 to h25 BRD, overwrites; h45 to h54 griefing; h64 the trans flag; 
 named:      Donald posters, 4chan and bots as vandals (c0012, c0023); the trans flag and the Blue Corner as work to protect or praise (c0040, c0030); Sweden as an ally by accident (c0036).
 goal:       BRD, and covering fascist and offensive images; BRD intact at h12.9; no single goal settled.
 unsettled:  build their own or erase others' (c0019, c0045).
-coder unsure: 91 threads out of scope.
+coder unsure: three event posts' bodies or images missing (62nvus, 62rf75, 62xxpn); a deleted parent hides the rebuilt figure (62zbno); the rivals' Discord seen only through the raider (dfqr48t); the meme dispute runs past the window (63a7ha).
 carrying:   c0010, c0025, c0045
 not this:   a room that only built; much of its canvas talk asked for help erasing others' work.
 ended:      last coordinating turn h64.17 (c0049, repairing the trans flag); after h73 an argument over an ableist meme.
 struck by:  "The only way to get anything done is to coordinate a group of people."
 made:       one artwork, Brd, 409 px in the middle ring, 3,049 placers, placed from h1.49; writers placed 0.03, pre-event members 0.024. The canvas keeps a BRD; the room's first report of it, at h12.9, found it already there.
+later:      2026-10-07, catch-up: the queen's group is not shown as BRD's vandals (dfqr48t); one member called r/place no fun for its bots (dfq5oqp). The brief shows BRD in the AutoModerator sign-off (61oxo3) and a Bash the Fash moderation dispute that week (dfj7rj2, 62eh58), both carried onto the canvas.

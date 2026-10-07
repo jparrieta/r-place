@@ -4,9 +4,10 @@ week:       h5 to h30 sprite, spots lost; h32 to h39 Niko, alliances; h49 to h71
 named:      the Switch logo as ally (c0024); Sweden as expanding neighbour accepted (c0036); Rainbow Road and Overwatch as neighbours not to annoy (c0066); Blue Corner as hoped protector (c0014); r/Undertale as model (c0001).
 goal:       a Niko; complete at h38.9; held.
 unsettled:  what to add beside Niko (c0042, c0062, c0066).
-coder unsure: 57 threads out of scope.
+coder unsure: the Discord negotiations seen only as returned (dfqgjs1, dfrm1to); one image post supports only its title (631k10); a deleted comment in the completion thread (dfrb94o).
 carrying:   c0024, c0036, c0066
 not this:   a room that fought for its spot; it gave way to Sweden and stopped its own additions.
 ended:      last coordinating turn h70.72 (c0070, asking help for a clover); after h73 newcomers and credit to diplomacy.
 struck by:  "The art teams that were competing for space up there used the power of diplomatic relationships to work things out!"
 made:       one artwork, Niko and Puzzle, 685 px at the edge, 2,986 placers, placed from h1.41; writers placed 0.152, pre-event members 0.065. The canvas keeps Niko.
+later:      2026-10-07, catch-up: one member credited survival to luck and few griefers (dfssic5), another to diplomacy (dfswtl1); newcomers said the lightbulb character led them to the sub (dfs2li3). The brief shows members joking the sub was turning into r/Undertale (dfhlpqy); the canvas join began by following Undertale.

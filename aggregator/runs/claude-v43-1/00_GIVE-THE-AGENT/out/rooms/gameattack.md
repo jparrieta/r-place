@@ -4,9 +4,10 @@ week:       h3 to h24 April Fools; h25 to h38 a spot, a template; h42 to h52 bui
 named:      Funhaus, AH and Cowchop as neighbours and possible helpers (c0011, c0014, c0020); Green Lattice as protector (c0043); wall street bets as threat (c0043).
 goal:       a Game Attack logo; begun h37.1; done by h47.3; held.
 unsettled:  whether to ask bigger brands for help (c0013, c0020).
-coder unsure: 11 threads out of scope.
+coder unsure: a deleted reply hides the answer to asking Funhaus or AH for help (dfq3wun); the result post's body deleted (6387kr); the linked templates unseen; whether the attack came not shown (dfr99ui).
 carrying:   c0010, c0029, c0043
 not this:   a room that defended its logo alone; Green Lattice offered to protect and rebuild it.
 ended:      last coordinating turn h59.79 (c0043, Green Lattice's warning and offer); after h73 a last blue pixel mourned.
 struck by:  "I've been working on this for like 12 hours thinking I was just about the only one doing it."
 made:       one artwork, Game Attack, 437 px at the edge, 857 placers, placed from h1.51; writers placed 0.219, pre-event members 0.091. The canvas keeps the logo.
+later:      2026-10-07, catch-up: one member proposed stopping during slow progress (dfpxwu3); after the close another said they talked a neighbour out of covering the logo by asking nicely (dfshsoj). The brief shows a fan-run fantasy league and crew accounts in the comments (61j1fh, dfhj02b); a crew account thanked the builders.

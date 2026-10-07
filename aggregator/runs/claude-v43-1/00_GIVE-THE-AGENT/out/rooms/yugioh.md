@@ -4,9 +4,10 @@ week:       h5 to h50 April Fools; h40 to h44 proposals; h54 to h64 the Kuriboh,
 named:      Green Lattice as host and protector (c0093, c0100, c0132); Skrillex fans as rival and partner (c0104, c0109); r/duellinks as a place to recruit (c0123).
 goal:       a Yu-Gi-Oh image; chosen as Kuriboh at h54.3; finished at h70.9; held.
 unsettled:  which image would be recognisable (c0079, c0084, c0086).
-coder unsure: 417 threads out of scope.
+coder unsure: the GreenLattice Discord, Instagram and private messages seen only as returned (dfrdcw7, dfrb5en, dfrg2ci); images unseen; one April Fools thread wrongly set out of scope (62sbjj).
 carrying:   c0100, c0112, c0119
 not this:   a room that broke its deal; the host's Discord helpers broke it without knowing of it.
 ended:      last coordinating turn h70.93 (c0119, the Kuriboh finished, protection next); after h73 thanks and one repair.
 struck by:  "I have no reliable way to spread word of our agreement to them."
 made:       one artwork, Kuriboh, 432 px at the edge, 1,475 placers, placed from h1.28; writers placed 0.112, pre-event members 0.087. The canvas keeps the Kuriboh.
+later:      2026-10-07, catch-up: the hivemind call borrowed the moderators' April Fools machine takeover (62qrlx, dfpfjee); one commenter accused the room of killing a logo (dfrdyp8). The brief shows rulings, deck help and service threads and changes nothing.

@@ -4,9 +4,10 @@ week:       h4 to h16 the sign, a black background; h27 to h30 truces; h45 to h4
 named:      r/greenlattice, r/edBoxes and r/madokamagica as neighbours with terms (c0048, c0058, c0036); r/redpandas as asker (c0039); Quebec as partner then accused (c0065, c0085).
 goal:       a Kilian sign; made at h4.2; kept with a black background and r/; held, slightly damaged.
 unsettled:  whether Quebec helped or consumed the logo (c0085, c0087, c0090).
-coder unsure: 9 threads out of scope.
+coder unsure: ten post bodies removed, among them the darkness alarm, the truce and the call to arms (62rcdn, 62upvg, 637ief); the Discord's choices unseen (dfpf0tp); the redpandas help never shown sent (dfpghe4).
 carrying:   c0048, c0060, c0085
 not this:   a room whose dispute with Quebec was settled; after the close members argued whether Quebec was enemy or ally.
 ended:      last coordinating turn h72.75 (c0081, a call to get the border back); after h73 the Quebec dispute.
 struck by:  "they have spreadsheets and we have single png immage Sodra did"
 made:       one artwork, Kilian Experience, 385 px in the middle ring, 910 placers, placed from h1.21; writers placed 0.241, pre-event members 0.124. The canvas keeps the sign.
+later:      2026-10-07, catch-up: the added r/ drew newcomers to the sub, who said the canvas showed it existed (dfq9fvw, dfphyra). The brief shows the Kilian Discord already holding its memes (61qkso), and Sodra, maker of the png, already a target of mock bans (dfl7bx2).

@@ -4,9 +4,10 @@ week:       h11 to h29 starts, other flags; h36 to h59 Paladins, Green Lattice; 
 named:      r/Paladins as rival, then agreement partner (c0031, c0078); Green Lattice as granter of space (c0018, c0046); r/Quebec as proposed ally (c0050); Manjaro as agreement partner (c0084).
 goal:       a Peruvian flag; tried from h13.0; the small approved flag done at h60.6; held.
 unsettled:  take other flags or build its own (c0007, c0009, c0051).
-coder unsure: 22 threads out of scope.
+coder unsure: the Discord's talk unseen (63355x); the first call, the heart call and the agreement reminder only titles (62q6bl, 634otn, 6380ru); the Paladins pact's terms only one side's word (dfrtluv).
 carrying:   c0038, c0046, c0078
 not this:   a room with a leader; members said five people built it and no one led.
 ended:      last coordinating turn h72.87 (c0078, reminding builders to respect the Green Lattice area and the Paladins agreement); after h73 thanks.
 struck by:  "Because I don't have a "leader""
 made:       one artwork, Flag of Peru, 702 px at the edge, 1,599 placers, placed from h1.46; writers placed 0.193, pre-event members 0.031. The canvas keeps the flag.
+later:      2026-10-07, catch-up: some builders expanded despite agreed limits; one said most people did not care about rules (dfr090j), another called to retake the whole flag (dfqzoc6), and a third called the expanders rogues (dfr6syz). The brief shows travel and food advice and changes nothing.

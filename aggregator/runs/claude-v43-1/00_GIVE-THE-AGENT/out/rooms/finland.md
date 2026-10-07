@@ -4,9 +4,10 @@ week:       h8 to h29 peace offers and boundaries; h50 to h58 expansion disowned
 named:      r/SquareSpiral, Argentina and Brasil as proposers of peace (c0010, c0004, c0009); r/formula1 as defender (c0013); the Bears, r/wildhockey and r/DallasStars as askers of space (c0029, c0041, c0047); r/Suomi and r/FinlandFlag as where Finns organise (c0017, c0080).
 goal:       a Finnish flag kept, run from r/Suomi; held; expansion disowned.
 unsettled:  who was expanding the flag (c0032, c0039, c0078).
-coder unsure: 36 threads out of scope.
+coder unsure: many request posts survive only as titles (62posu, 6346vq); the linked Discord unseen (dfq6s3d); who drove the eastward expansion not shown (dfqn39t); eleven reply parents missing.
 carrying:   c0010, c0039, c0054
 not this:   the sub that organised the Finnish flag; outsiders came here to negotiate, and members pointed them to r/Suomi.
 ended:      last coordinating turn h70.51 (c0080, sending canvas talk to r/FinlandFlag); after h73 recounting.
 struck by:  "r/Finland-r/ChiBears working to keep each other clean is a beautiful thing"
 made:       one artwork, Finnish flag, 63 px in the middle ring, 670 placers, placed from h2.91; writers placed 0.019, pre-event members 0.003. The canvas field links a small flag, not the large flag r/suomi organised.
+later:      2026-10-07, catch-up: expansion had open advocates here (62wtel, dfrgpe7), and the Bears later accused Finland of destroying helpers' work (dfrgec4). The brief shows the room answering outsiders and sending them to r/Suomi or the sticky (dflrn03, dfj2ug7), the routing the canvas talk repeated.

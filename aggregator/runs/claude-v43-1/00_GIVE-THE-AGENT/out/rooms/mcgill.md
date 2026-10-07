@@ -4,9 +4,10 @@ week:       h4 to h8 martlet, Discord; h12 to h28 Red Chiken, the Void; h56 to h
 named:      the Void as severer and bargainer (c0046, c0053); Red Wings fans as takers (c0060); an Acadia helper as ally (c0062).
 goal:       a martlet; begun h8.0; Red Chiken beside it; held.
 unsettled:  which work the room made (c0028, c0029).
-coder unsure: 71 threads out of scope.
+coder unsure: the Discord's strategy talk unseen (dfqynca); the two Void threads' opening bodies removed (62unut, 62uwzc); who placed which pixels not shown; three parent links unresolved.
 carrying:   c0053, c0057, c0065
 not this:   a room that fought the Void; members bargained with it over a chicken and hailed it.
 ended:      last coordinating turn h69.12 (c0065, adding the work to a defence list); after h73 tufts and recounting.
 struck by:  "Those are not feet, those are *tufts*"
 made:       one artwork, McGill Martlet, 515 px at the edge, 1,121 placers, placed from h1.32; writers placed 0.093, pre-event members 0.07. The canvas keeps the martlet.
+later:      2026-10-07, catch-up: the account changes nothing; no single position on the Void's terms was settled (dfp9k1n, dfpbnsg). The brief shows a moderator's new CSS, a standing Discord and the caps-lock Friday thread (61iy3p, dff5v21, 62javp), each later used for the chicken and the martlet.

@@ -4,9 +4,10 @@ week:       h4 to h41 a penguin started three times, lost; h46 to h60 placestart
 named:      the Mona Lisa, r/DBZ and bots as destroyers (c0003, c0077, c0054); r/placestart as host (c0091); the Catalan flag's makers as wronged neighbours (c0101); Rainbow Road and the Blue Corner as neighbours (c0067, c0058).
 goal:       a penguin; lost three times by h41.6; a tray icon through placestart made at h70.7.
 unsettled:  fight for the spot or move (c0061, c0063, c0066).
-coder unsure: 190 threads out of scope.
+coder unsure: two readers, no one held the week; calls only titles (62yhin, 62ylta); the janitors' Discord and r/placestart's decision seen only as reported (dfrvt51, 635ywb); the other canvases' final state unseen.
 carrying:   c0091, c0101, c0112
 not this:   a room that held its first penguin; it ended as an icon in another sub's taskbar.
 ended:      last coordinating turn h72.10 (c0111, maintenance Discord rooms); after h73 a new canvas.
 struck by:  "we just woke up and found the puffle hiding half our flag."
 made:       one artwork, Club Penguin, 484 px at the edge, 3,602 placers, placed from h1.27; writers placed 0.023, pre-event members 0.015. The canvas keeps a Club Penguin work the room placed little of.
+later:      2026-10-07, catch-up: the taskbar penguin was said to live on, disfigured (dfs65kt); after the close a penguin and puffle went to r/PlaceTwo (63a8hy, dftdorx). The brief shows the game's closing week, its final meetups and tipping the iceberg (61k5ud, dfledyf); the first penguin was drawn in memory of the game.

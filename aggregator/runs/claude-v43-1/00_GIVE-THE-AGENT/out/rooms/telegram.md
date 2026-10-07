@@ -4,9 +4,10 @@ week:       h24 to h31 a call, a plan; h41 to h48 praise; h49 to h53 r/ScottPilg
 named:      r/ScottPilgrim as neighbour and treaty partner (c0021, c0023); a Telegram group as the meeting place (c0004, c0009).
 goal:       a small Telegram logo; done by h41.9; kept with a bot after h51.3.
 unsettled:  whether to add the name beside the icon (c0016).
-coder unsure: 32 threads out of scope.
+coder unsure: the Telegram group and r/ScottPilgrim's Discord unseen (62vdqb, 63137m); Imgur mockups unseen; who ran the proposed bot, and whether it ran, not shown (dfql2d7); the icon after the close unknown.
 carrying:   c0005, c0023, c0011
 not this:   a room that fought its neighbour; it settled the overlap with r/ScottPilgrim by a shared bot within two hours.
 ended:      last coordinating turn h52.72 (c0011, a call to repair the eaten logo); after h73 the end noticed.
 struck by:  "Diplomacy wins!"
 made:       one artwork, Telegram logo, 389 px at the edge, 804 placers, placed from h1.51; writers placed 0.167, pre-event members 0.101. The canvas centre is at x 87, y 360, on the left side; the room planned the right side. The room's first call came at h28.8, but the linked region was placed from h1.51.
+later:      2026-10-07, catch-up: the goal and not-this lines overstate the bot; the compromise named one, but no turn shows it running (dfql2d7). Reddit also served as the status board for the Telegram group (dfpizgw). The brief shows members converting friends from WhatsApp (dfn1fv2), the same promotion of the app.
