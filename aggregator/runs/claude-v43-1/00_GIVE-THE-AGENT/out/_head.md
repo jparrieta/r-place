@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-53, 2026-10-07, the fifth and last leg of the restore pass.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-54, 2026-10-07, the short leg that brought `handback-A1.md` up to date (section "After A1c").
 
 ## The method question, in one sentence
 

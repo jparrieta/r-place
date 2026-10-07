@@ -1288,3 +1288,9 @@ Gendered pronouns: the_pack's prototype had "him" for a member; it now reads "th
 The restore pass is complete. Over five legs it covered 447 rooms (91, 89, 88, 92, 87); 197 took the prototype whole.
 
 `validate.py A1` before the close: 0 errors, 551 warnings (notes over the 350-word guide; 53 more than before this leg). The diary moved into part A1-57 during this leg. Ledgers unchanged. No question is open.
+
+## Close report, leg A1b-54 (the short leg), 2026-10-07
+
+J asked for one task: bring `handback-A1.md` up to date. A dated section, "After A1c (7 October 2026)", now follows the A1c text, which stands unchanged. It records J's seven rulings, the note length made a guide, the catch-up pass (A1b-20 to A1b-48), the restore (A1b-49 to A1b-53), and the answer to QA1-002. It also lists the A1c sentences that no longer hold and what stage B1 should know. The facts come from the head, the diary, `notes-A1.md` and the files named. No room was read.
+
+`validate.py A1` before the close: 0 errors, 551 warnings, unchanged. Ledgers unchanged. No question is open.

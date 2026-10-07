@@ -1,0 +1,40 @@
+{
+ "t": "2026-10-07T12:40:31+00:00",
+ "stage": "A1",
+ "leg": "A1b-54",
+ "answers": {
+  "goal": "Can case histories reconstructed separately be combined into one shared account that explains organizing at several levels (the whole population, then forms and subforms, then single rooms) and still lets a reader get back to the evidence behind each explanation?",
+  "open": "No distinctions are filed as question files; `_questions/` is empty. The head lists distinctions still forming, by topic rather than by slug: who started the work, where organizing happened, deals, subs made for the canvas, scripts, the moderator's role, and when organizing ended.",
+  "rooms": "I opened no rooms in this leg; the leg only updated `handback-A1.md` from the head, the diary and `notes-A1.md`. The last three rooms I opened, in A1b-53, were xenoblade_chronicles, yugioh and zelda.",
+  "changed": "I changed no element or theme, because stage A1 has no scheme. The only change was a new dated section in `handback-A1.md`, which J asked for so the handback covers the rulings, the catch-up pass, the restore and the QA1-002 answer.",
+  "next": "Compare the `later:` lines across rooms against the patterns listed in the head, when a leg message asks for it."
+ },
+ "expected": {
+  "open": [],
+  "rooms": [
+   "predators",
+   "Russiaclan",
+   "winnipegjets"
+  ],
+  "changed": [],
+  "next": ""
+ },
+ "status": {
+  "goal": "right",
+  "open": "n/a",
+  "rooms": "wrong",
+  "changed": "n/a",
+  "next": "n/a"
+ },
+ "scored": 2,
+ "unscored": [
+  "open",
+  "changed",
+  "next"
+ ],
+ "misses": [
+  "rooms"
+ ],
+ "score": 0.5,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
