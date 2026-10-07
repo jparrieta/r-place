@@ -1,0 +1,37 @@
+{
+ "t": "2026-10-07T16:48:19+00:00",
+ "stage": "B1",
+ "leg": "B1b-04",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "homelab",
+   "kamenrider",
+   "nyu"
+  ],
+  "changed": [
+   "T3-002"
+  ],
+  "next": "geometrydash. Ties to check on the way: texas (71) with norge; teslamotors (76) with spacex; Summit1G (77), the room that fits nothing else; fireemblem (81) with germany; sabres (84) with seahawks; pakistan (89) with ftlgame and NieR; chile (93) with norge."
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "missing"
+ },
+ "scored": 4,
+ "unscored": [
+  "open"
+ ],
+ "misses": [
+  "goal",
+  "rooms",
+  "changed",
+  "next"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

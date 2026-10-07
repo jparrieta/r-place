@@ -125,3 +125,38 @@ Ties told by one room only, so not episodes: pitt tells New Mexico, but NewMexic
 **Leads carried forward**, for when the other room is read. kanye and frankocean with donaldglover. TagPro, NIN, Tool and muse with radiohead. placehearts, nbaspurs and bostonceltics with lakers. starcraft, thebluecorner and scotland's Nessie with chelseafc. truestl and drumcorps with morrowind. ubc and sfu with uvic. serbia, canada and placecanada with albania. france, denmark and placeDE with germany. dwarffortress and SquareSpiral with placeportalpattern. brasil, argentina and sweden with southafrica. rotmg and Slovakia with slovenia. funhaus with gameattack. 2007scape, purplecorner, loltyler1 and osu with ice_poseidon. dota2 with opticgaming. madokamagica with anime_irl. The earlier leads stand.
 
 **The stopping rule.** `saturation.py status --stage B1`: 69 of 705 rooms read, 10.0% of the words (about 70 average rooms), kinds 132 by the rule's count, coverage 0.9563, unseen 66.86, no rounds, no markers. The estimate of unseen kinds rose across the stretch (42 at its start, 67 at its end), so the walk is still finding kinds faster than the rule expects to stop.
+
+## Leg B1b-04, the fourth stretch, 2026-10-07
+
+**The stretch.** Order 70 (geometrydash) to 93 (chile), 24 rooms, about 0.99 MB, each the room `mem.py next --stage B1` named. 292 second-order themes were read and all were placed; none went to `unplaced-B1.jsonl`. Four third-order themes were minted, T3-132 to T3-135, each logged as an idea first.
+
+**New kinds by room, and the run without them.** babymetal 1 (T3-132 watching a rival's Discord from inside), PUBATTLEGROUNDS 1 (T3-133 repairing the sub after a hacked moderator), Summit1G 1 (T3-134 flooding a rival's thread with chants), fireemblem 1 (T3-135 retelling canvas clashes as the fandom's story). The other 20 rooms brought none. The last twelve rooms of the stretch, order 82 (FinalFantasy) to 93 (chile), brought none in a row, the longest empty run so far. The rule has not started a round. Twelve rooms passed, but they hold fewer words than 10 average rooms: several are small (SydneyFC, watchmen, compsoc, auburn).
+
+**The rooms that might have broken the scheme did not.** Summit1G, chosen at A1c as the one room that fits nothing else, placed into existing kinds except for the chant flood (T3-134). pakistan, a national room with 27 themes, placed into existing kinds: the 1965 and 1971 wars in T3-081, Operation Cow in T3-006, the India-Pakistan heart in T3-079 and r/India's coder credited in T3-043. The national kinds now reach far: T3-065 building the national flag in 12 rooms, T3-081 national history in 7, T3-080 political symbols in 6.
+
+**Grouping move, in `tier_history.jsonl`.** NewMexico t01 moved from T3-002 to T3-065 (relating or contrasting), prompted by texas t01. T3-065 holds the flag of the room's land as the room's mark, whether nation, region or state. Its gate at B1e must say so: bretagne, New Mexico's zia and the Texas flag all sit there.
+
+**Rule 0.** 14 lines this leg, in `out/_analysis/b1_multiplace_b1b04.tsv`, each checked against the scheme and the store. 14 of this leg's 292 placed themes carry two placements, none three, the lowest share of any leg (5%). In the whole scheme, 132 of 1,114 placed second-order themes have more than one placement (12%), 20 of them three; `multiplacement_log.jsonl` has 153 lines.
+
+**Episodes: nine more, E005 to E013**, each with its disagreement written in `episodes-B1.jsonl`. The random order now brings neighbours of read rooms often:
+- E005, texas and norge: the Norwegian flag growing over the Texas flag, and the Texan-Norwegian War.
+- E006, teslamotors and spacex: the Tesla logo built beside SpaceX's.
+- E007, phish and placeportalpattern: Fluffhead's truce with the pattern.
+- E008, fireemblem and germany: the German flag's advance on Lyn.
+- E009, sabres and seahawks: the gold 15 turned into a green 12.
+- E010, sabres and bostonbruins: a Sabres member cutting through the B.
+- E011, ManningPlace and babymetal: Manning's mask turned grey.
+- E012, skyrim and teslamotors: the dragon's wing over the TESLA sign.
+- E013, chile and texas: the two lone-star flags as each other's target.
+
+In six of the nine (E005, E006, E007, E008, E011, E012), members of one room wrote in the other room's threads. Ties told by one room only: norge's "we took Chile", the Radiohead drawing credited to indieheads' Discord (hours 19 and 81), and warriors never naming the Sabres. The rooms where the two accounts disagreed most were the war pairs: each side says the other started it or broke the deal (E005, E012).
+
+**What the scheme holds now.** 135 themes over 1,114 placed second-order themes (1,266 placements). Size distribution: 31 themes hold one, 21 two, 9 three, 8 four, 7 five, 7 six, 4 seven, 3 eight, 5 nine, 1 ten, 5 eleven, 4 twelve, 3 thirteen, 2 fourteen, 1 fifteen, 3 sixteen, 3 seventeen, 2 eighteen; and one each of 22, 24, 25, 31, 34, 35, 39, 41, 51, 59 and 82, three of 37 and two of 38. 34 themes are seen in one room only. The largest is T3-010 making deals with neighbouring rooms: 82 placements from 70 rooms, 7.4%, under one in ten. Then T3-009 celebrating (59), T3-001 members' April Fools (51), T3-017 the sub's usual talk (41).
+
+**Gate notes added this leg.** T3-115 now holds three refusals of another room's request: a rival fandom (radiohead), r/unturned's help request (geometrydash) and a Costa Rican flag as not Tesla-related (teslamotors). Its name is narrower than its members, so the B1e gate should be written for any refused request, apart from T3-123's refusal to give up ground. T3-127 hoping the creators notice now holds Summit's reaction too. NieR's Yoko Taro thanks and the streamer rooms are to check at the second pass. T3-132 has earlier traces in norge (a spy asked for), texas (a Norway spy accused) and albania (spying on r/serbia), all placed elsewhere and to re-read at the second pass. T3-135 has the same doing in polandball t05 and samuraijack t11's narration, also for the second pass.
+
+**What the second-order themes showed that the notes did not predict.** Wars between rooms were told twice, from both sides, and each side blamed the other: Texas and Norway, Skyrim and Tesla. Rooms with no organisation of their own still produced most of the scheme's kinds; the new kinds of this stretch came from conflict in and around a room's venues (spies in a rival's Discord, a hacked moderator account, a rival chat flooding a thread). An enemy helped make a flag: r/pakistan's records credit r/India's Discord and an Indian coder with the Pakistani flag.
+
+**Leads carried forward**, for when the other room is read. india, bakchodi, rangers and belgium with pakistan. formula1 with ftlgame. 49ers and ripcity with seahawks. furry and smite with cloud9. mexico, unitedkingdom and jerma985 with giivasunner. sakuragakuin, ssbpm and TeamYellowPlace with babymetal. AmericanFlaginPlace, zootopia and bisexual with indieheads. GabrielDropout, danganronpa and onepunchman with aceattorney. placecanada, canada and forsen with Summit1G. osugame with geometrydash. czech, yogscast and CK2 with texas. The earlier leads stand.
+
+**The stopping rule.** `saturation.py status --stage B1`: 93 of 705 rooms read, 13.4% of the words (about 94 average rooms), kinds 136 by the rule's count, coverage 0.9722, unseen 35.64, no rounds, no markers. The estimate of unseen kinds fell across the stretch (67 at its start, 36 at its end). If the next rooms bring no new kind, the first round begins once 10 average rooms pass without one.
