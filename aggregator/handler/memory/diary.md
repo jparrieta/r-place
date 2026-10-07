@@ -49,3 +49,4 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-07 02:05 A1b-21 closed 02:04:34Z: complete, validator 0 (checked 02:03:19Z, before the new check was installed), checkpoint 0a035ea79373ef0d, git committed "finished A1.A1b-21", tagged, pushed; 11.1 min, +$13.71 (cumulative $558.84). The list halts after each catch-up close ('Stage A1 finished ... before the listed legs ran out'); restarted A1b-22..A1b-48. Each close needs a restart.
 - 2026-10-07 02:30 2026-10-07T02:20:14Z  closed A1.A1b-22: checkpoint e39e2f7e40c9d27b, cut close, advances True, git pushed; restarted at A1b-23.
 - 2026-10-07 02:53 2026-10-07T02:46:09Z  closed A1.A1b-23: checkpoint cb793339c922c144, cut close, advances True, git pushed; restarted at A1b-24.
+- 2026-10-07 03:18 2026-10-07T03:13:26Z  closed A1.A1b-24: checkpoint 795ca7fdfa6dfce2, cut close, advances True, git pushed; restarted at A1b-25.

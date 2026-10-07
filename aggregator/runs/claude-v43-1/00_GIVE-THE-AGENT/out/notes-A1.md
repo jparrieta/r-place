@@ -835,3 +835,20 @@ leg A1b-24 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 576 lines (9 block-24 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,945 words. 125 of 702 catch-up rooms are done. The next leg reads catch-up block 25, from metalcore.
+
+## Close report, leg A1b-25 (catch-up block 25), 2026-10-07
+
+Block 25 is read: 25 of 25 rooms, metalcore to bakchodi. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each `coder unsure:` line now says what case.md says, with thread ids where the account gives them. Each note has a dated `later:` line. No brief in this block was the harness's empty brief. The note hook refused 7 notes (metalcore, rocketleague, lego, southafrica, AMD, magictcg, bakchodi); 4 more were trimmed because `wc -w` showed 347 to 350 without a refusal (thailand, touhou, rangers, feedthebeast). Every trim is logged. In lego, lebanon, israel, vegan, touhou and magictcg the later line qualifies the not-this line.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-25 cut=none 20261007T033000Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-25 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 585 lines (9 block-25 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,937 words. 150 of 702 catch-up rooms are done. The next leg reads catch-up block 26, from dankmemes.
