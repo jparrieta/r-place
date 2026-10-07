@@ -1,0 +1,71 @@
+{
+ "t": "2026-10-07T14:36:17+00:00",
+ "stage": "B1",
+ "leg": "B1b-01",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "bostonbruins",
+   "warframe",
+   "pgang"
+  ],
+  "changed": [
+   "T3-001",
+   "T3-002",
+   "T3-004",
+   "T3-005",
+   "T3-006",
+   "T3-008",
+   "T3-009",
+   "T3-010",
+   "T3-011",
+   "T3-012",
+   "T3-013",
+   "T3-014",
+   "T3-016",
+   "T3-017",
+   "T3-020",
+   "T3-021",
+   "T3-022",
+   "T3-023",
+   "T3-024",
+   "T3-026",
+   "T3-027",
+   "T3-028",
+   "T3-031",
+   "T3-035",
+   "T3-038",
+   "T3-039",
+   "T3-040",
+   "T3-043",
+   "T3-046",
+   "T3-050",
+   "T3-058",
+   "T3-069",
+   "T3-070",
+   "T3-083",
+   "T3-088"
+  ],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "n/a"
+ },
+ "scored": 3,
+ "unscored": [
+  "open",
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "rooms",
+  "changed"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

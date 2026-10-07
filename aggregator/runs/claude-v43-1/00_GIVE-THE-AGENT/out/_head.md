@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of B1a, 2026-10-07, the first leg of stage B1.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of B1b-01, 2026-10-07, the first stretch of stage B1.
 
 ## The method question, in one sentence
 
@@ -12,7 +12,9 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 Stage A1 is closed (legs A1a to A1b-55 and A1c). All 705 rooms have a note. Stage B1, the third-order scheme, is open.
 
-**B1a is closed.** `prior.md` was written first, before any second-order theme was opened: sections 1 to 6 filled and dated 2026-10-07, sections 7 and 8 empty until the return stage. The harness seals it; a change now is a departure (rule 10). The order is drawn: seed cd472a6087a223d4 in `out/seed.txt`; `python3 tools/saturation.py order --stage B1` prints it; the first room is sixers. `notes-B1.md` says what I expect of the order. `tier_history.jsonl` is opened empty. No theme is minted yet; `scheme/scheme_current.jsonl` does not exist until the first mint.
+**B1a is closed.** `prior.md` was written first, before any second-order theme was opened: sections 1 to 6 filled and dated 2026-10-07, sections 7 and 8 empty until the return stage. The harness seals it; a change now is a departure (rule 10). The order is drawn: seed cd472a6087a223d4 in `out/seed.txt`; `python3 tools/saturation.py order --stage B1` prints it; the first room is sixers. `notes-B1.md` says what I expect of the order. `tier_history.jsonl` is opened.
+
+**B1b-01 is closed.** Stretch order 1 (sixers) to 17 (bitcoin): 197 second-order themes placed, none unplaced, 90 third-order themes minted (T3-001 to T3-090), each logged as an idea first. The report is in `notes-B1.md`. Two process errors are on the record there and in the diary: twelve mints were counted at the next room because I placed a room's last theme before minting; and 88 themes were multiply placed without the rule 0 record, now cut to 53 with 66 lines in `multiplacement_log.jsonl` and one item-is-a-bag (sixers t06). The next room is criticalrole (order 18).
 
 **J's words for B1 (7 October 2026):** "national elements are very important here"; "we need to get as much variance on organizing behavior early on so that later we have enough to create the model". National, political and conflict content is study material: a theme about flags, borders, alliances or fights between national rooms is minted, placed and named as plainly as any other. **The handler's rule:** a choice to leave out or soften content for any reason other than the study's goes to J first with `mem.py ask`, and the content stays meanwhile.
 
@@ -24,6 +26,9 @@ Stage A1 is closed (legs A1a to A1b-55 and A1c). All 705 rooms have a note. Stag
 - **The next room is always `mem.py next --stage B1`**, at every leg start and after every compaction. It follows the order and the stopping rule. Never a room from memory.
 - **Startup packet each leg:** this head, the stage file, the last five diary entries, `mem.py scheme --brief`, `validate.py --open B1`.
 - **Per room.** Read its second-order themes and concepts (`mem.py theme <sub>/<tNN>`, `codes --sub`). Read the room on its own first, then against rooms already read that it is tied to (`mem.py neighbours`, `mem.py compare`, any `leads-A1.jsonl` line naming it). For a room whose themes I cannot place with confidence, or whose A1 note marks it unsettled or unsure, read the forest and case too (`mem.py forest`, `mem.py case`), logged with `mem.py log --kind opened --ids <sub>` and why. A room is done when every second-order theme is placed in `scheme_current.jsonl` or listed in `unplaced-B1.jsonl` (`{"sub","second_order","why"}`). A theme that stands alone goes on the rare tier, not out.
+- **Order of work in a room:** read every theme; log ideas and mint the room's new kinds first, while the room still has unplaced themes; then place the rest. A mint after the room's last placement is counted at the next room.
+- **Rule 0, single placement.** One third-order theme per second-order theme, the one whose gate it meets best. A second or third only where a concept of its own supports it and the primary cannot carry it; write the line when it is made (sub, theme_id, primary, additional, codes, why_not_one, dispensable) in a table and run `python3 out/_analysis/b1_multiplace_write.py <tsv> --leg <leg> [--write]`, which checks it against the scheme and the store and appends `multiplacement_log.jsonl` and `tier_history.jsonl`. Beyond three: place once and record item-is-a-bag. `validate.py` warns once per multiple placement whatever the log says.
+- **Reading a room:** `python3 out/_analysis/b1_room.py <sub> [tNN ...]` prints every theme's note and every concept label through `mem.py` (a large room goes to `$TMPDIR` and is read in parts under 30 KB).
 - **Verbs, never by hand.** `mem.py idea "<label>" --trigger <sub>:<tNN>` when a theme is first thought of; `mem.py mint --label "..." --trigger <sub>:<tNN>`; `mem.py place <sub>:<tNN> --theme T3-NNN`; `mem.py unplace`. Merges and splits: `mem.py log --kind merged|split --ids <T3 ids>` plus a `tier_history.jsonl` line with `move` and `prompted_by`. A merge or split of a theme with more than twenty members: `log --kind move` and `python3 tools/snap.py B1 move-<move>-<n>`.
 - **Grouping.** Gioia's first-order consolidation: stay near the material, let the number explode, get lost before getting found. Kinds, not sizes: one third-order theme is one doing; never split by degree. When in doubt keep two (splitting later is a re-read). No ceiling; hundreds expected (prior §1: 250 to 450). A theme holding more than one in ten second-order themes is read again for kinds inside it. Names 2 to 5 words, gerund-led, near the material, never a construct's name and never one of the four problems.
 - **The floor:** a kind seen in two rooms unlike each other (size: at least twice the items; side of the contrast; or form) enters the main scheme; one room only, the rare tier. Two rooms telling one episode (same thread, or same artwork in the same hours) count as one: `episodes-B1.jsonl`.
@@ -34,7 +39,7 @@ Stage A1 is closed (legs A1a to A1b-55 and A1c). All 705 rooms have a note. Stag
 ## Stage A1, what B1 inherits
 
 - J's rulings of 7 October: hour 0 is the canvas opening (Reddit's tests from about hour -16); the onset is the first coded turn at hour 0 or later; the organizing end is reported with and without calls after hour 73 (`organizing_end-to73-A1.jsonl`); the coordinating rule's measured error is in `coordinating-rule-A1.md`; `leads-outside-frame-A1.jsonl` is a ledger B1 may read; the note length of about 350 words is a guide. QA1-002: organizing is counted before the freeze at hour 73.
-- The catch-up pass (A1b-20 to A1b-48) read case.md and brief.md whole for 702 rooms, replaced every `coder unsure:` line from case.md and added dated `later:` lines. The forest is unread for 550 rooms.
+- The catch-up pass (A1b-20 to A1b-48) read case.md and brief.md whole for 702 rooms; the forest is unread for 550.
 - The restore (A1b-49 to A1b-53, and A1b-55) put back my pre-cut words in 447 rooms after the 350-word cap had cut 562 notes. 556 notes are over 350 words. Each leg's choices are in `notes-A1.md`.
 - `handback-A1.md` has a section "After A1c (7 October 2026)" with what B1 should know.
 
@@ -117,15 +122,15 @@ None is filed in `_questions/`. Distinctions forming:
 ## Ledgers at this close
 
 - A1: `lexicon-A1.md` 1,289 lines; `running-A1.md` 773; `leads-A1.jsonl` 2,478; `departures.jsonl` 9; `defects.jsonl` 8.
-- B1: `prior.md`; `notes-B1.md`; `tier_history.jsonl` (empty). `validate.py B1` at this close: 0 errors, 0 warnings.
+- B1: `prior.md`; `notes-B1.md`; `scheme/scheme_current.jsonl` (90 themes); `theme_discovery.jsonl` and `ideas-B1.jsonl` (90 lines each); `kinds-B1.jsonl`; `multiplacement_log.jsonl` (67 lines); `tier_history.jsonl` (35 lines). `validate.py B1` at this close: 0 errors, 53 warnings (the remaining multiple placements, each on the record).
 - Rules kept: fetch every id with `cite.py`; never type an id from memory; never log a placement or note in the same call that writes it before the tool answers; count a ledger's lines after appending; there is no `--kind close`, log the closing line as a note.
 - The permission check refuses "=w=", for and while loops, shell functions, heredocs, awk, a variable set from `$(...)`, and some `python3 -c` scripts that write files. Use the Write and Edit tools for file content; an Edit whose old text spans non-adjacent lines fails. The shell shows at most 30 KB per call; the overflow goes under CONTROL, which is read-denied.
 - The diary rolls into new parts (A1 is in part A1-58). After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
 
 ## The next comparison
 
-Leg B1b-01 opens the walk at the room `mem.py next --stage B1` names (sixers). Declare the stretch (about 1 MB) in the diary. Read each room's second-order themes and concepts, log ideas before mints, mint and place through the verbs, record episodes and unplaced themes, and keep two when in doubt.
+Leg B1b-02 opens at the room `mem.py next --stage B1` names (criticalrole, order 18). Declare the stretch (about 1 MB, sized with `mem.py room <sub> --size`, codes plus themes) in the diary. Read each room against the scheme (`mem.py scheme --brief`), mint new kinds before the last placement, keep single placement unless a concept of its own supports a second, record episodes and unplaced themes, and check each room's neighbours and leads against rooms already read. T3-010 (deals) is the theme to watch for kinds inside it.
 
-## Nothing changed in the scheme or the model
+## The scheme as it stands
 
-No third-order theme exists yet.
+90 third-order themes, the working grouping in `scheme/scheme_current.jsonl` (`mem.py scheme --brief`). The largest: T3-001 staging April Fools fake news (15), T3-010 making deals with neighbouring rooms (14), T3-017 carrying on the sub's usual talk (13). 36 themes are seen in one room only so far. National kinds minted under J's words: T3-065 building the national flag, T3-078 helping kin nations with their flags, T3-079 joining neighbouring flags with a heart, T3-080 arguing over a political symbol, T3-081 casting canvas fights as historic national wars, T3-085 weighing the room against the nations.
