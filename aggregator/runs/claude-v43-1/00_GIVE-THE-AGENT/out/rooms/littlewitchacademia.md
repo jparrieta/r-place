@@ -4,9 +4,10 @@ week:       nothing before h48.9; h49 to h59 the question, a template, a sticky;
 named:      r/masseffect as host that conceded pixels but whose bots reset the hair (c0025, c0041, c0047); r/dustforce granting a black row (c0033); WIT as a peaceful neighbour (c0049); r/Vocaloid as one to help in return (c0028).
 goal:       a little Sucy, then three witches; set at h49 and fitted to the space by the template; it held.
 unsettled:  the hair that the neighbour's bots kept resetting (c0041, c0044).
-coder unsure: Discord carried cheering and a channel, unseen (dfre4nd).
+coder unsure: Discord carried cheering, a channel and cross-group contact, unseen (dfre4nd, dfsmdzd); images unseen; a memorial post's body deleted (638v4c).
 carrying:   c0005, c0025, c0040
 not this:   a big room's effort; a handful of people, a moderator's sticky, and borrowed pixels.
 ended:      last coordinating turn h76.46 (c0056, stopping someone messing with the hat at the end, recalled after); the room's last plan is c0046 at h74.01; after h73 memorial and thanks.
 struck by:  "We will build strength through this. Then go more ambitious."
 made:       one Little Witch Academia artwork, 126 px at the edge; the room's writers placed 0.131. The canvas keeps the small witches, as the room said, above the N7 logo.
+later:      2026-10-07, catch-up: one member said bots left real people unable to do anything on the canvas (dfrgfa0); another owned a mistaken yellow in the hair and proposed fixing it (dfrgsxo); the build and upkeep were recalled as four hours of work (dfrgkvj). The brief changes nothing.

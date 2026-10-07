@@ -4,9 +4,10 @@ week:       nothing before h36.7; h36.7 to h39 the call; h52 to h55 deleted post
 named:      Rooster Teeth and Achievement Hunter logos as related neighbours (c0001, c0004); competing recolourers as people to talk to (c0014).
 goal:       a Kinda Funny logo; set at h36.7; expanded at h61.6.
 unsettled:  colours and design (c0016, c0022, c0023).
-coder unsure: two deleted posts (6323o6, 632xuq).
+coder unsure: two deleted posts (6323o6, 632xuq) and two deleted comments in the first call (62xv5j); the proposed designs behind an Imgur link unread (635oy2).
 carrying:   c0003, c0009, c0014
 not this:   a big fandom effort; a few members, one credited with the masterpiece.
 ended:      last coordinating turn h70.24 (c0022, a design preference; the colour talk c0016 at h61.85); after h73 the mark called permanent.
 struck by:  "TROGDOOOOR"
 made:       one Kinda Funny logo, 160 px in the middle ring, placed from h1.22; writers placed 0.167. The canvas keeps the small logo.
+later:      2026-10-07, catch-up: the black border was kept because members said the neighbours above would attack and they could not defend (dfrdb1o); no passage says which proposed design was built (dftli7l). The brief shows the room's week was otherwise taken up by Colin's departure (62io8v).

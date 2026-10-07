@@ -10,3 +10,4 @@ not this:   a room that built on the canvas through its threads; its work was do
 ended:      last coordinating turn h72.03 (c0020, thanks for the squeeze-in; the last call in the room is c0017 at h57.93); after h73 a shrug and a doubt.
 struck by:  "We'd prefer not to take over creations that have already been made."
 made:       one Risk of Rain Commando, 60 px at the edge, placed from h1.7; the room's writers placed 0.122. The canvas keeps the Commando the last member could not find.
+later:      2026-10-07, catch-up: the warning that the Commando was about to be overtaken drew no call to defend or repair it (dfr1r39); the account changes nothing else, and the brief changes nothing.

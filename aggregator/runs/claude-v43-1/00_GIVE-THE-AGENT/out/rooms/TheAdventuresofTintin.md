@@ -4,9 +4,10 @@ week:       nothing before h68; h68 to h71 the call, two replies, a link, the sp
 named:      r/place as where the proposal was posted (c0010); Belgium as the place where Tintin turned up (c0012).
 goal:       Tintin and Snowy; asked for at h68; no build is shown in the room.
 unsettled:  where to put him (c0003, c0011).
-coder unsure: none named; the record does not say who made the tiny Tintin.
+coder unsure: the linked proposal on r/place and its replies are not in this record (dfrsxo4); the image links were not inspected; who made the tiny Tintin is not said.
 carrying:   c0001, c0011, c0012
 not this:   a room that made the Tintin on the canvas; the record shows a late call that found its spot taken, and a Tintin made by others.
 ended:      last coordinating turn h71.14 (c0011, looking for a new place); after h73 a sighting and a welcome.
 struck by:  "He's in Belgium, with Milou."
 made:       one Tintin & Milou artwork, 435 px at the edge, placed from h1.27; writers placed 0, pre-event members 0. The canvas keeps a Tintin this room did not place.
+later:      2026-10-07, catch-up: the account's search found no report of placing, coordinates or credit in the room; the newcomer was welcomed by the member who had made the call (dfsfty8). The brief changes nothing.

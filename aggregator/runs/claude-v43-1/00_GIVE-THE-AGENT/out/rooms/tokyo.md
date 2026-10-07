@@ -10,3 +10,4 @@ not this:   a room that organized its artwork; the record shows three calls and 
 ended:      last coordinating turn h73.53 (c0009, a request for permission, made after placement stopped); thin record, two removed replies; after h73 only the plane argument.
 struck by:  "there wasnt any space left on the canvas so we were trying to get someone to agree to let us build the plane"
 made:       one "Tokyo" artwork, 432 px at the edge, placed from h1.4 to the freeze; the room's writers placed 0.009 of its region. The canvas shows a held piece the room barely wrote about; the work was done by others.
+later:      2026-10-07, catch-up: the account's search found no handoff between the three threads and no other placement report (dfrlmli is the only one); the plane's maker gave the shared Japanese faction and the full canvas as reasons to ask (dft0qpe). The account and brief change nothing else.

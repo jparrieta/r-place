@@ -10,3 +10,4 @@ not this:   a room that made its art in the open; the space was negotiated elsew
 ended:      last coordinating turn h68.02 (c0009, explaining negotiation); Discord unseen; after h73 one question at h96.8.
 struck by:  "negotiate? with who?"
 made:       one Mamamoo artwork, 91 px in the middle ring, placed from h2.2 with bursts near h36 and h60 to h68; writers placed 0.048. The atlas lists it twice under two names with the same pixels. The canvas keeps the corner the thread defended.
+later:      2026-10-07, catch-up: the account confirms the note; its search found no other thread about placing, and no reply answered the closing question (dftlws7). The brief changes nothing.

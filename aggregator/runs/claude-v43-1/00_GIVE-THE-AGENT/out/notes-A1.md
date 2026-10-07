@@ -903,3 +903,20 @@ leg A1b-28 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 613 lines (9 block-28 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,964 words. 225 of 702 catch-up rooms are done. The next leg reads catch-up block 29, from rotmg.
+
+## Close report, leg A1b-29 (catch-up block 29), 2026-10-07
+
+Block 29 is read: 25 of 25 rooms, rotmg to frc. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. In nine rooms (tokyo, megaman, egypt, riskofrain, ukraine, austria, bahrain, mamamoo, strangerthings) the existing `coder unsure:` line already gave case.md's limits with thread ids and was kept; in the other sixteen it was replaced, including lines that had cited a concept id (shield, cloud9, batman) or the brief's coverage (nuclearthrone, seahawks, phish) rather than case.md. Each note has a dated `later:` line. No brief in this block was the harness's empty brief. The note hook refused 11 notes (reddevils, megaman, egypt, ukraine, austria, strangerthings, shield, cloud9, alberta, monero, frc); 2 more were trimmed because `wc -w` showed 347 or 349 without a refusal (rotmg, batman). Every trim is logged. One logging error: the egypt line said the note passed with no refusal, logged in the same call that the hook refused it at 356 words; a correction line followed as soon as the refusal was seen. In phish the later line qualifies the not-this line.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-29 cut=none 20261007T044719Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-29 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 622 lines (9 block-29 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,989 words. 250 of 702 catch-up rooms are done. The next leg reads catch-up block 30, from pepe.

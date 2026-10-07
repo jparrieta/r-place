@@ -4,9 +4,10 @@ week:       h4.2 the head; h4.7 to h15 the other project lost, joining; h8.5 to 
 named:      the rainbow as the destroyer of the first project (c0008); Telegram as a truce partner (c0038, c0041); Italy and Iran as neighbours (c0033, c0043); r/CaveStory as a neighbour helped (c0054).
 goal:       a Scott Pilgrim head, set at h4.2 by one member; kept; a body and Ramona proposed.
 unsettled:  what to add next given time (c0034).
-coder unsure: none named.
+coder unsure: the Discord talk and its decisions unseen (62per0, dfpo3r1); who carried out the Telegram agreement unknown.
 carrying:   c0003, c0030, c0041
 not this:   a big fandom's push; one member (top1 0.40) led a handful.
 ended:      last coordinating turn h58.43 (c0043, thanking defenders); after h73 thanks.
 struck by:  "I'm making a Scott Pilgrim head over at r/place"
 made:       one Scott Pilgrim artwork, 802 px at the edge, placed from h1.34; writers placed 0.16. The canvas keeps the head.
+later:      2026-10-07, catch-up: the organiser said they could not control most people working on the sprite (dfqh2ta); helpers erased the hair shine as if it were damage (dfot1c7); a script held the head while work moved down (62per0); a viewer found the sub through the picture (dfqt6z1). The brief changes nothing.

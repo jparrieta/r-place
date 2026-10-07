@@ -10,3 +10,4 @@ not this:   a campaign across the week; the record shows one invitation and one 
 ended:      last coordinating turn h70.76 (c0045, telling people to prevent a takeover); after h73 nothing about the canvas.
 struck by:  "Its such a small thing but im so happy that we made it!"
 made:       one Bahrain flag, 74 px in the middle ring, placed from h1.76 with a burst near h66; writers placed 0.205. The canvas keeps the flag the late thread defended.
+later:      2026-10-07, catch-up: the account's search found no planning, allies or Discord behind the flag (62qb2t, 635tpu). The brief shows the spam complaints and the amnesty came in Hrar Sunday, the sub's weekly free-talk thread (61hu57, dfq2s57).
