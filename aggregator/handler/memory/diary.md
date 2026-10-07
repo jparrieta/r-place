@@ -88,3 +88,4 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-07 10:37 2026-10-07T10:36:35Z  closed A1.A1b-46: checkpoint 5844a5349e4a3db3, cut close, advances True, git pushed; restarted at A1b-47.
 - 2026-10-07 10:50 2026-10-07T10:49:49Z  closed A1.A1b-47: checkpoint f870459581b292d6, cut close, advances True, git pushed; restarted at A1b-48.
 - 2026-10-07 11:03 Catch-up done: A1b-20..48, 702 rooms in 29 blocks, audit 0 problems; tokens in 5,524, cache write 8.81 M, cache read 1.317 B, output 1.74 M. Prototypes rebuilt (startrek's pre-cut text carried a Read line-number artifact; such groups now left to the analyst): 212 complete, 133 partial, 102 none; 547 groups put back, 245 left; all prototypes pass the note check. Restore message sent to A1b-48's close (goes into A1b-49's first message); run A1b-49..A1b-53 started.
+- 2026-10-07 11:28 restore leg A1b-49 closed, audit 0; restarted at A1b-50.

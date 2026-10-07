@@ -6,7 +6,7 @@ goal:       Police State, then the bomb logo; set at h3.65 and h13; the bomb los
 unsettled:  scripts and bots (c0162, c0172, c0173); whether UT attackers count as Texas (c0180, c0181).
 coder unsure: the Discord deliberations, seen only as returned decisions (dfr3eci); how the rebuild's labour split among members, bots, Discord and helpers (dfrs0v4, dfsthnx); removed bodies near the loss (634paq, 6351p8, 6337ke).
 carrying:   c0001, c0098, c0176
-not this:   a fair fight; members said scripts and alt armies took over.
+not this:   a room beaten by fair play; members said scripts and alt armies took over.
 ended:      last coordinating turn h72.94 (c0236, preferring to finish their own area; c0234 offering help to Huskers); after h73 mourning the bomb.
 struck by:  "it's a script war now"
 made:       two Giant Bomb entries at the edge, 352 px and 142 px, placed from h1.44; writers placed 0.053. The canvas keeps a Giant Bomb mark, though the room mourned the bomb's loss at h61.

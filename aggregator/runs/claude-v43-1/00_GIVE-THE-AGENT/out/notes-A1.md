@@ -1184,3 +1184,29 @@ Pre-cut lines left out on purpose:
 A read-only helper, `out/_analysis/restore_show.py`, prints each room's diff to its prototype and the review file, and flags gendered pronouns. In the 91 notes, the gendered pronouns left are inside a struck-by quotation (asktransgender) or refer to a drawn figure or the musician (daftpunk, davidbowie).
 
 `validate.py A1` before the close: 0 errors, 328 warnings (notes over the 350-word guide; 53 more than before this leg). The diary moved into part A1-52 during this leg. Ledgers unchanged: lexicon 1,289 lines, running file 773 lines, leads 2,478 lines, defects 8 lines, departures 9 lines. The next leg takes the A1b-50 batch in `BATCHES.tsv`.
+
+## Close report, leg A1b-50 (restore batch 2 of 5), 2026-10-07
+
+This leg took the second batch in `BATCHES.tsv`: 89 rooms, denmark to india. Every room has a `restore:` line in the diary.
+- 40 rooms took the prototype whole.
+- 48 rooms took part of it, or had pre-cut lines put back. Most of these are doing lines the catch-up had cut again.
+- One room, india, stands as it was.
+
+A second helper, `out/_analysis/restore_put.py`, copies one field's pre-cut "+" line from a named leg's review section into the note, and nothing else. It refuses to write when the current line holds words the pre-cut line lacks, and prints those words. I then read the current line and forced the copy only where the difference was wording. In five rooms I forced the copy before reading that list: GabrielDropout, gameofthrones, gamindustri, geometrydash, germany. Those five lines are the pre-cut doing lines whole; the catch-up cut held no words I checked.
+
+Pre-cut lines left out on purpose:
+- factorio: the ended line named a thread id and an hour after the close. The cut line (h71.49, c0197) stands.
+- giantbomb: the current week line has a later word the pre-cut line lacks, so it stands.
+- globaloffensive: the pre-cut doing line quotes members in several places, so it stays out.
+- falcons: the pre-cut doing line came back with the cut's word "dismissed" in place of a near-quotation of a member.
+- formula1: a stray "(c0068 aside)" in the pre-cut doing was dropped.
+- india: the cut changed the struck-by wording. Choosing between the two wordings needs a new reading, so the note stands.
+
+One pre-cut line went back because it is the correct one. greece's pre-cut ended line (h72.53, c0132) matches `organizing_end-A1.jsonl`; the cut line (h68.16) did not.
+
+Gendered pronouns for members:
+- Restores that would have brought one back used "they", "their" or "that fan" instead: FloydVsVoid, habs, Honduras.
+- Two notes already had one before this leg, and small logged edits changed it to "they" or "their": hsv, and FloydVsVoid's not-this line.
+- The pronouns left in this batch refer to game or cartoon figures: dragonquest, Fez, hatsune, heroesofthestorm.
+
+`validate.py A1` before the close: 0 errors, 390 warnings (notes over the 350-word guide; 62 more than before this leg). The diary moved into part A1-53 during this leg. Ledgers unchanged. QA1-002 is still open. The next leg takes the A1b-51 batch.
