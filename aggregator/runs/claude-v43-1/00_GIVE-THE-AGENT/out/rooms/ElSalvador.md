@@ -4,9 +4,10 @@ week:       nothing before h60.24; h60.2 to h61.5 the flag and the heart deal; h
 named:      r/placehearts as maker of the hearts (c0009); the yellow-heart builder as neighbour under a deal (c0004); Costa Rica and Nicaragua as neighbouring flags (c0012, c0014).
 goal:       a Salvadoran flag inside a heart; set at h60.2 by one member.
 unsettled:  whose heart it was (c0004, c0006).
-coder unsure: none named.
+coder unsure: whether the surviving flag is Salvadoran or Nicaraguan not settled (dfs4ykx, dfs7fc5); the invade-Nicaragua link falls after the window (dg3uc3a); a small record, so the absence of further coordination is local.
 carrying:   c0005, c0006, c0007
 not this:   a room effort; one organiser recruited a few helpers in the last thirteen hours.
 ended:      last coordinating turn h72.61 (c0012, trying to claim part of the Costa Rican flag); after h73 a look back.
 struck by:  "Omg I didn't think I'd actually recruit people."
 made:       one artwork, Flag of El Salvador, 96 px in the middle ring, placed from h2.42; writers placed 0.068, pre-event members 0. The canvas keeps a small flag, shared with Nicaragua by the organiser's account.
+later:      2026-10-07, catch-up: the sharing was a reply to a member unsure whether the survivor was Nicaragua's (dfs4ykx, dfs7fc5), not a plan; another member said others were trying to take the place (dfrxpoc). The brief shows a small relocation-advice room the week before and changes nothing.

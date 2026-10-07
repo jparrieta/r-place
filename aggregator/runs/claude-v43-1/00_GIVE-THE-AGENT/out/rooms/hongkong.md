@@ -4,9 +4,10 @@ week:       h8.9 one call; h34.8 to h45 designs, spots, permission; h47.9 reclai
 named:      r/greenlattice as host granting permission (c0028, c0034, c0039); PPCG and r/PathofExile under a move deal (c0057, c0061); FREEUAE as a neighbour spared (c0030); r/OnePiece as helper (c0065); the blue corner as another obligation (c0067).
 goal:       the Hong Kong flag; set at h34.8; settled inside Green Lattice at h44.5.
 unsettled:  whether letters belong on the flag (c0069, c0072, c0074).
-coder unsure: none named; 94 threads out of scope.
+coder unsure: Discord talk and decisions unseen; in-scope post bodies removed, titles only (62pj3a, 635emt, 6376s5); who placed most pixels, and whether outside help decided it, not shown (dfrhic8).
 carrying:   c0023, c0034, c0055
 not this:   a room that took a spot; it asked for permission and shrank twice.
 ended:      last coordinating turn h71.78 (c0074, asking to remove HK letters); after h73 the flag reported perfect.
 struck by:  "Your friends overseas will do what we can. ;)"
 made:       one artwork, Flag of Hong Kong, 852 px at the edge, placed from h1.3; writers placed 0.076. The canvas keeps the flag.
+later:      2026-10-07, catch-up: case.md names the spared neighbour FREEUAB, not FREEUAE as the doing and named lines say (dfq5byo); the Green Lattice protection was a member's expectation, not shown (dfq5uzb). The brief shows the week before taken up by the chief executive election (61jy5e) and changes nothing.

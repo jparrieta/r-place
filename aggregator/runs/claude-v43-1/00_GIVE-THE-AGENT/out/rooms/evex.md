@@ -4,9 +4,10 @@ week:       h2.8 to h16 plan and permissions; h26 to h35.4 built; h38 to h50 EVE
 named:      r/ainbowroad as host granting permission (c0004, c0044); the blue as neighbour (c0010); r/eve as vandal, then negotiator (c0038, c0040, c0069); r/DotA2 as scripted expander (c0052, c0054).
 goal:       /r/EVEX text; set at h2.8; kept compact; moved four pixels at h57.7.
 unsettled:  whether to move for EVE (c0068, c0078, c0080).
-coder unsure: none named.
+coder unsure: the Discord negotiation's terms unseen, even to members (dfrb75h); the Pastebin script's making unseen; deleted posts and replies (62xicy, 62um6x, 62ybhf); one missing reply parent.
 carrying:   c0015, c0060, c0080
 not this:   a room bullied out; its members first called the move strong-arming and then thanked the negotiators.
 ended:      last coordinating turn h61.00 (c0091, editing the letters); after h73 a new logo joked about.
 struck by:  "We're really tasting the rainbow."
 made:       one artwork, r/EVEX, 216 px in the middle ring, placed from h1.13; writers placed 0.343, pre-event members 0.18. The canvas keeps the text.
+later:      2026-10-07, catch-up: two members, not one; the strong-arming claim (dfr31zw) stands, and it was the anti-negotiation poster who later thanked (633p04, dfr9ky9). The brief shows a rule-voting experiment some wanted shut down for inactivity the week before (dfhew9i); the sign brought a member back (dfprpya).

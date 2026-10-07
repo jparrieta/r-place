@@ -4,9 +4,10 @@ week:       h29 to h38 the Bulls theme and first logo; h37.5 the Half-Life deal;
 named:      r/DotA2 as the expanding neighbour (c0007, c0026, c0060); Half-Life as neighbour under a deal (c0005); Georgia Tech as friendly neighbour (c0012, c0057); the Bulls sub (c0001); Mona Lisa and SquareSpiral (c0032, c0015); Iowa's I (c0056).
 goal:       an ISU logo; set at h36.1; rebuilt after Dota covered it; kept small and defended by script.
 unsettled:  bigger or smaller (c0016, c0021, c0023, c0040).
-coder unsure: none named.
+coder unsure: how many ran the scripts not shown, and one member said the script got no adoption (dfr4gwn); GitHub and target images seen only as links; Dota 2's answer to contact absent (dfr3985); two deleted comments (dfqlujf, dfs26hi).
 carrying:   c0005, c0021, c0044
 not this:   a room that grew by force; it kept the logo small and defensive after losing it once.
 ended:      last coordinating turn h63.25 (c0062, directing border talk); after h70 greetings and a recount.
 struck by:  "As a DotA player who lives in Iowa, I approve."
 made:       one artwork, Iowa State University, 252 px in the middle ring, placed from h1.24; writers placed 0.235. The canvas keeps the logo.
+later:      2026-10-07, catch-up: a small core did the work, the script admitted to have no uptake (dfr4gwn); after the close a member recounted moving because Dota 2 overtook them (dftbzaq). The brief shows a campus-advice room with a moderator restoring spam-filtered posts the week before (dfk2ve6) and changes nothing.

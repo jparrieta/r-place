@@ -4,9 +4,10 @@ week:       h15.8 to h25 objective, plans, Mona Lisa; h25 to h45 Discord, attack
 named:      r/MonaLisaClan as neighbour accepting neutrality, then ally (c0034, c0044, c0080); r/de and France (c0012); r/ainbowroad and r/theblackvoid (c0021, c0028); r/yuyuyu, r/Witcher, r/cardistry, r/purplepixels as allies (c0072, c0073, c0059, c0094).
 goal:       a Swiss flag; set at h15.8; then cheese, mountains, a heart.
 unsettled:  what neutrality permits (c0112, c0113, c0114).
-coder unsure: none named; every thread read.
+coder unsure: plan bodies removed, the bot catalogue a title only (62tyfy, 6334or); Discord talk and votes seen only as returned (62ypge); the memorial and the dinner fall past the window (639g1s, 63etk1); two coders.
 carrying:   c0025, c0057, c0114
 not this:   a room whose name described its conduct; it attacked a Savoyard flag and argued about helping.
 ended:      last coordinating turn h72.21 (c0114, on helping Mona Lisa); after h73 the memorial list and thanks.
 struck by:  "How neutral"
 made:       four artworks in the centre, largest Swiss Cheese and Mountains 2,308 px and The Void Prism shared with FloydVsVoid; placed from h-14.52; writers placed 0.052, pre-event members 0. The canvas keeps the flag, cheese and mountains.
+later:      2026-10-07, catch-up: a late call to claim a bigger flag was answered with stay put and defend (6301r0, dfq9h2n), and a member who could not join Discord said they were out of the loop (dfrui6o). Placements before h0 are Reddit's tests. The brief is the harness's empty brief.

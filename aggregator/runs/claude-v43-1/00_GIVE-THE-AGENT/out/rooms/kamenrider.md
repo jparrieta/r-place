@@ -4,9 +4,10 @@ week:       h21.6 the call and a lost spot; h41.9 to h43 a new start; h49.7 to h
 named:      r/haskell and the Red Wings as takers (c0003, c0023, c0036); r/Tsunderesharks, the Mariners, the pansexual flag, r/kcroyals as neighbours under offers (c0012, c0030, c0032, c0049); the SC logo (c0013); rainbow road (c0038); r/Kanye (c0046).
 goal:       Mighty; set at h21.6; restarted at h41.9; partly kept.
 unsettled:  whom to ally with (c0039, c0030).
-coder unsure: 33 of 37 threads out of scope.
+coder unsure: r/Kanye's request removed, title only (637o3r); a deleted comment in the first thread (dfq24e3); Discord-hosted images show sprites, not where talk happened (dfq29iw); the script's part in the overlap is a member's account (dfrijjb).
 carrying:   c0004, c0023, c0036
 not this:   a room that lost to one enemy; several neighbours took parts and several offered deals.
 ended:      last coordinating turn h72.98 (c0040, accepting KC's offer); after h73 Game Over and a fragment remembered.
 struck by:  "Welp, it's Game Over. At least you can see the eye"
 made:       one artwork, Mighty, 172 px in the middle ring, placed from h1.38; writers placed 0.261. The canvas keeps a partial Mighty.
+later:      2026-10-07, catch-up: dominance and bully talk ran beside the deals (dfq39k0, dfrh51b); the last-stand post was moderator-marked (634flo). The brief shows game over used for a character's death in the show the week before (dfgllnm), the phrase the room closed with.

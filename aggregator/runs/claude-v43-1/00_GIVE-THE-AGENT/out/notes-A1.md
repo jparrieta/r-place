@@ -1031,3 +1031,13 @@ Case.md showed facts in earlier lines that were wrong or too strong in bobross (
 `validate.py A1` before the close: 0 errors, 58 warnings (notes over the 350-word guide, 18 of them from this block).
 
 Ledgers at the close: lexicon 1,289 lines, running file 686 lines (8 block-37 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 450 of 702 catch-up rooms are done. The next leg reads catch-up block 38, from Lugarix (`order-A1.txt` line 1159).
+
+## Close report, leg A1b-38 (catch-up block 38), 2026-10-07
+
+Block 38 is read: 25 of 25 rooms, Lugarix to vermont. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. In 23 notes the old `coder unsure:` line said none, gave the brief's coverage, or gave no case.md limit; it was replaced with case.md's limits and thread ids. In two (mcgillrobotics, vermont) it already drew on case.md and was extended. Three briefs were the harness's empty brief (Lugarix, SwissNeutralityZone, mcgillrobotics).
+
+Case.md showed earlier lines wrong in four notes, and each later line says so while the earlier lines stand: aceattorney (case.md does not call Courtroom Number 4 a Discord), hongkong (the spared neighbour is FREEUAB, not FREEUAE), evex (the strong-arming claim and the later thanks came from two members, not one), diablo (the late thread was moderator-backed). In aceattorney, sakuragakuin, quq, lsu and vermont the later line qualifies the not-this line. Gendered pronouns for members were removed in latvia, SydneyFC and diablo.
+
+`validate.py A1` before the close: 0 errors, 76 warnings (notes over the 350-word guide, 18 of them from this block).
+
+Ledgers at the close: lexicon 1,289 lines, running file 693 lines (7 block-38 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 475 of 702 catch-up rooms are done. The next leg reads catch-up block 39, from rush (`order-A1.txt` line 1184).

@@ -4,9 +4,10 @@ week:       h26.4 the commission; h34 to h41 Wisconsin, Big Ten, moves; h41 to h
 named:      Wisconsin as neighbour and defender (c0008, c0014, c0017); Big Ten teams, Minnesota, A&M, UL as rivals (c0019, c0020, c0058, c0081); r/CFB, r/hawks, r/team_liquid, r/nyu, the green lattice as neighbours (c0050, c0054, c0067, c0076, c0082); r/reddevils (c0051).
 goal:       an LSU logo; set at h26.4; moved at least five times; kept small for lack of people.
 unsettled:  where to build (c0026, c0069, c0073).
-coder unsure: none named.
+coder unsure: deleted replies inside the organising threads (dfqad1f, dfqzrtd, dfssh53); templates and images only named; other communities seen only through their visitors here; the schoolwide Discord never shown used (dfrajo3).
 carrying:   c0012, c0056, c0072
 not this:   a room that pushed others; it moved and coexisted, and one member complained of being bullied out.
 ended:      last coordinating turn h71.14 (c0087, keeping the logo up); after h73 credit and complaint.
 struck by:  "For a sub that can barely attract 15 users"
 made:       one artwork, LSU, 85 px at the edge, placed from h1.23; writers placed 0.075. The canvas keeps a small LSU mark.
+later:      2026-10-07, catch-up: not this qualified; members also urged covering Minnesota and taking A&M's purple logo (dfpxz0i, dfqw3wd), though no attack campaign followed. The brief shows a small campus-advice room with Geaux Tigers as its sign-off the week before (61jmm3) and changes nothing.

@@ -4,9 +4,10 @@ week:       h6 to h51 April Fools; h15.9 to h33 Phoenix tries; h34.9 to h40 the 
 named:      r/danganronpa as helper (c0051, c0072); the Islanders, the kiwi makers, Nyan Cat, r/PictureGame, Saitama as neighbours (c0022, c0081, c0071, c0102, c0107); r/ainbowroad as host asked (c0096).
 goal:       first Phoenix; settled on the wordmark at h34.9; then Apollo at h55.
 unsettled:  whether to take space or move (c0022, c0024, c0079).
-coder unsure: 83 threads out of scope.
+coder unsure: Discord decisions unseen, only invites and reports returned (631f6y, dfqr8wy); Courtroom Number 4's platform not named (62xe5e); bodiless posts (632gq5, 632r4n, 637k9d); edit times lost; two coders.
 carrying:   c0042, c0081, c0118
 not this:   a room that held a picture by itself; its wordmark came from one Discord group.
 ended:      last coordinating turn h72.77 (c0109, reporting an attack; c0121 at h72.02); after h73 Apollo mourned.
 struck by:  "Phoenix gets the spotlight, Apollo gets shafted."
 made:       one artwork, Ace Attorney, 378 px at the edge, placed from h1.31; writers placed 0.3, pre-event members 0.199. The canvas keeps the wordmark.
+later:      2026-10-07, catch-up: case.md does not call Courtroom Number 4 a Discord, so the doing and not-this lines go too far; Apollo replaced Phoenix to avoid retaliation (dfqvdvr), and destroy-the-lady and fuk the kiki talk ran beside the apologies (dfpzvuw, dfqux2i). The brief shows Courtroom No.4 running Ace Attorney card games the week before (61hy7x).

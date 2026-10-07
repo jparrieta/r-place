@@ -4,9 +4,10 @@ week:       h7.7 to h22.5 the message and defence; h40 the border settled by the
 named:      r/MadokaMagica and its Discord as the builders (c0003, c0009, c0015); r/Turkey as falsely claimed attacker, denying (c0017, c0021).
 goal:       a Homura message and figure; made by the r/MadokaMagica Discord; a border kept white.
 unsettled:  nothing in the record; the Discord settled the border.
-coder unsure: none named.
+coder unsure: the displayed images are links, unseen (62p52x, 62qnde); the war post's body and two replies removed (636he5, dfrnr62); the Discord decisions seen only as returned (dfq0ghs); who built the work is the members' account (dfq2r8i).
 carrying:   c0009, c0012, c0021
 not this:   a room that built its art; members asked who did, and the answer was another sub's Discord.
 ended:      last coordinating turn h40.26 (c0015, inviting people to the server); after h68 the Turkey denial, then admiration.
 struck by:  "The incubators over at /r/MadokaMagica"
 made:       one artwork, Homura, 604 px at the edge, placed from h1.48; writers placed 0.036. The canvas keeps the work the room credited to r/MadokaMagica.
+later:      2026-10-07, catch-up: a search found no member reporting an attack by r/Turkey, only the removed-body title and denials. The brief shows one member's numbered Daily Homu posts as the room's whole week before (61ecz2), a one-poster room the canvas briefly widened.

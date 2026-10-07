@@ -4,9 +4,10 @@ week:       nothing before h49.05; the post's edits from h49 to the close; h50.8
 named:      the Toronto and Raptors logos as neighbours (c0008, c0022); an MLS logo (c0026); a white border's builders (c0029); UVM as an addition (c0031).
 goal:       VT with a state icon; set at h49; expanded with 802 and UVM.
 unsettled:  where UVM could go without interfering (c0032, c0034).
-coder unsure: 33 of 34 threads out of scope; one edited post carries many hours.
+coder unsure: one edited post carries many hours, its edits untimed (630rwh); the Discord decisions unseen (dfqpr59); deleted turns near the planning and the Raptors complaint; the Vikings' bots only a member's warning (dfrqswa).
 carrying:   c0008, c0030, c0032
 not this:   a room that spread freely; its organiser asked members not to interfere with neighbours.
 ended:      last coordinating turn h70.99 (c0039, a semi-constant vandalism shield); after h73 a joke.
 struck by:  "I'll be defending it every five minutes lmao"
 made:       one artwork, Vermont, 192 px in the middle ring, placed from h1.41; writers placed 0.188. The canvas keeps VT.
+later:      2026-10-07, catch-up: not this qualified; neighbours said the expansion interfered with the Raptors logo and ruined a white border (dfqs0ki, dfrdrai), answered with shared losses. The brief shows Brave Little State as a claimed self-image the week before (6265u5), the brave state the first call asked members to represent.

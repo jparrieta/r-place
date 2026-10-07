@@ -4,9 +4,10 @@ week:       h7.3 to h29 first logos lost; h33 to h36 Bob Ross deal; h47 to h54 t
 named:      Bob Ross and its defenders as neighbours under a deal (c0075, c0095); Bitcoin (c0069); r/minecraft's sword (c0079); r/ethtrader (c0102); r/feedthebeast (c0107); r/monero (c0113); r/suomi (c0135).
 goal:       an Ethereum logo; set at h7.3; restarted several times; small beside Bob Ross.
 unsettled:  coexist with Bob Ross or take its frame (c0090, c0092, c0093).
-coder unsure: 301 threads out of scope.
+coder unsure: post bodies and comments deleted, titles only (6303yx, 630f6o); grids, scripts and the live canvas unseen; the Bob Ross side of the deal absent (dfr8gug); five coders, no single reader.
 carrying:   c0075, c0092, c0132
 not this:   one Ethereum effort; two logos competed until one held.
 ended:      last coordinating turn h69.77 (c0138, trying to build a moon); after h72 the joke argued.
 struck by:  "the art around us is protecting us too from bigger art"
 made:       one artwork, Ethereum, 1,062 px in the middle ring, placed from h1.24; writers placed 0.249. The canvas keeps the logo.
+later:      2026-10-07, catch-up: takeover talk recurred among several members (dfp245j, dfqd7e7, dfrk5x3) but no takeover was joined; after the close a member asked about Ether Board, an older canvas run on Ethereum (63fch8). The brief shows moderators routing price talk to r/ethtrader (dffgsis), where one logo was built.

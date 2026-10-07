@@ -4,9 +4,10 @@ week:       h30.4 to h31.6 the call; h47 to h52.7 template and scale; h58.5 to h
 named:      Gatech, Purdue, Stony Brook and Columbia as other schools on the canvas (c0026, c0028, c0029, c0030).
 goal:       an NYU torch; set at h30.4; shown done at h58.5; a purple square added.
 unsettled:  whether there were enough people (c0008, c0024).
-coder unsure: 54 of 58 threads out of scope.
+coder unsure: the Discord talk unseen (dfrblnv); deleted comments, one right before the taking-over joke, so its object is lost (dfpkegr, dfpkfce); the templates and images unseen; the Columbia accounts are r/nyu's reports.
 carrying:   c0008, c0018, c0025
 not this:   a room effort; one member's accounts and a few friends did most of it, by that member's account.
 ended:      last coordinating turn h61.08 (c0021, endorsing the Discord); after h73 praise and comparisons.
 struck by:  "We did something?"
 made:       one artwork, NYU Torch, 713 px at the edge, placed from h1.24; writers placed 0.053. The canvas keeps the torch.
+later:      2026-10-07, catch-up: the Discord opened only near the end, after a member asked where they were talking (dfrbs3o, dfrc52g); one late reply said the torch kept disappearing (dft9zau). The brief shows an admissions-and-housing room the week before and changes nothing.

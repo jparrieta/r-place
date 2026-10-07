@@ -4,9 +4,10 @@ week:       h3.7 to h37 the flag; h47 to h52 the Nicaragua fight; h51 to h61 hea
 named:      Green Lattice as protector, then attacker apologising (c0008, c0062, c0076); Nicaragua as neighbour and rival (c0013, c0021); r/Ticos as sister sub (c0012); r/reddevils (c0069); RuneScape (c0039); an island's flag as host suggested (c0081).
 goal:       the flag; set at h3.7; then hearts, a coffee bean, the motto.
 unsettled:  who crossed which border (c0020, c0026, c0036).
-coder unsure: none named.
+coder unsure: deleted replies at the Nicaragua border and heart exchanges (dfqj9fm, dfqkfhb, dfr5e2e); two posts coded from titles only (6322ww, 632flh); GreenLattice's Discord seen only by report (dfrqh7i).
 carrying:   c0011, c0034, c0064
 not this:   a fight between two nations; the members on both sides doubted it was worth fighting.
 ended:      last coordinating turn h72.42 (c0082, a script to redraw the flag); after h73 the flag erased at the end.
 struck by:  "hivemind too op"
 made:       two artworks at the edge, Costa Rican Flag 672 px and a heart 119 px, placed from h1.66; writers placed 0.135. The canvas lists the flag; the room's last word said it was erased.
+later:      2026-10-07, catch-up: a member blamed the late flag's loss on the room's own push into others' space (dfrrflf), and a neighbour tied r/reddevils' raid to overtaking r/CFB's logo (dfrj6uz). The brief shows Pura vida as the room's everyday sign-off the week before (dfidvj4), the motto it wrote.

@@ -4,9 +4,10 @@ week:       h24.4 to h32 Brexit, a flag, Falklands; h44 to h53 takeovers, retali
 named:      Argentina as rival (c0014, c0028); Scotland, Finland, Ireland as flags to take or sit beside (c0002, c0021, c0022); r/xcom and the Pitt logo as neighbours fought (c0011, c0009); the EU logo (c0020).
 goal:       an English flag; proposed at h28.4; built by one member's script at h51.7.
 unsettled:  whether to take other flags (c0022, c0023, c0027).
-coder unsure: none named.
+coder unsure: post bodies removed, titles only (62vsio, 62zn1j, 630mgj, 62zhbe); deleted comments inside the flag and retaliation threads; the pastebins and images unseen (dfqm7mv, dfrneje).
 carrying:   c0008, c0011, c0027
 not this:   a room that built by asking; most canvas turns propose taking others' flags.
 ended:      last coordinating turn h68.71 (c0035, voting to take the Scottish flag by script); a joke at h70.35.
 struck by:  "World War III will apparently be fought with pixels."
 made:       one artwork, Flag of England, 240 px at the edge, placed from h1.8; writers placed 0.019, pre-event members 0. The canvas keeps a small English flag.
+later:      2026-10-07, catch-up: the script drew helpers, one member pointing others back to it (dfqmqhq), so the flag was a small shared effort among scattered targets; a search found no defence or agreed single flag. The brief shows a small advice room with one Brexit joke the week before (dfllyjf) and changes nothing.

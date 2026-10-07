@@ -4,9 +4,10 @@ week:       h28.2 to h44.9 Guybrush and recruits; h44.9 to h55 the monkey; h50 t
 named:      Helix and Bender as neighbours under which they built (c0022, c0010); a black bomb as rival (c0011).
 goal:       Guybrush, set at h28.2 by one member; LeChuck and a three-headed monkey added and lost.
 unsettled:  how to hold LeChuck against erasers (c0019).
-coder unsure: none named.
+coder unsure: two threads whose opening posts lie outside the record (5wurp9, 607vtu); the help post's target only metadata (62zhck); how closely builders followed the linked images not shown (62v6ga, dfpk0dd).
 carrying:   c0004, c0013, c0021
 not this:   a large effort; three people did most of it by their own count.
 ended:      last coordinating turn h65.12 (c0005, answering a help call; the giving up c0021 at h61.31); after h73 a find and a lament.
 struck by:  "NICE GUTS hahaha"
 made:       one artwork, Guybrush Threepwood, 259 px at the edge, placed from h1.93; writers placed 0.256. The canvas keeps Guybrush.
+later:      2026-10-07, catch-up: the account changes nothing; a search for refusals or lone work found none. The brief shows a member asking for an image of Guybrush as a kid the week before (61nctl), the little Guybrush the canvas kept.
