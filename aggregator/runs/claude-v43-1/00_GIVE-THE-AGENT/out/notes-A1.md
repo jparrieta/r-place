@@ -1151,3 +1151,15 @@ Wording fixed before logging: a leftover "h?" placeholder in the notredame later
 `validate.py A1` before the close: 0 errors, 273 warnings (notes over the 350-word guide, 22 of them from this block). The diary moved into part A1-50 during this leg.
 
 Ledgers at the close: lexicon 1,289 lines, running file 767 lines (9 block-47 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 700 of 702 catch-up rooms are done. The next leg reads catch-up block 48, from Russiaclan (`order-A1.txt` line 1409).
+
+## Close report, leg A1b-48 (catch-up block 48, the last), 2026-10-07
+
+Block 48 is read: 2 of 2 rooms, Russiaclan and predators. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. Both old `coder unsure:` lines gave the brief's coverage and were replaced with case.md's limits and thread ids. Russiaclan's brief is the harness's empty brief.
+
+Case.md showed an earlier line overstated in both rooms: Russiaclan (McGill's changes were traced to mixed outside accounts, not Detroit fans alone) and predators (the move letting others in is one member's explanation). In Russiaclan the later line also qualifies the not-this line: members urged taking neighbours' space, and a neighbour complained of a takeover.
+
+The catch-up pass is complete. A check of the diary against the `#NN` lines in `order-A1.txt` finds a logged catch-up amendment for all 702 declared rooms and none missing. A first version of that check reported 45 rooms missing; its pattern matched the word "note" inside some log texts. The anchored pattern found all 702.
+
+`validate.py A1` before the close: 0 errors, 275 warnings (notes over the 350-word guide, 2 of them from this block). The diary moved into part A1-51 during this leg.
+
+Ledgers at the close: lexicon 1,289 lines, running file 773 lines (6 block-48 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 702 of 702 catch-up rooms are done.

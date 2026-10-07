@@ -4,9 +4,10 @@ week:       h42 to h55 the flag and deals; h56 to h72 the heart, McGill, Canada.
 named:      Serbia as brothers and heart partner (c0003, c0043); the Toronto Maple Leafs and McGill as allies by agreement (c0018, c0035); Detroit Red Wings fans as the attackers of McGill (c0066); Norway and Canada as heart partners (c0093, c0106).
 goal:       a Russian flag; the fourth flag held beside Serbia; a Serbia-Russia heart not finished by its account.
 unsettled:  whether to expand or consolidate (c0040, c0091, c0098).
-coder unsure: 2 threads out of scope.
+coder unsure: fourteen post bodies deleted, titles only, removals concentrated in the alliance thread (631xez); image proposals unread (637h5h, 637mss); talks on 2ch unseen (dfqlwlb).
 carrying:   c0035, c0061, c0090
 not this:   a hostile flag; it settled each border by alliance and removed political replies.
 ended:      last coordinating turn h72.78 (c0108, defending the Leafs' work); after h73 thanks, the unfinished heart mourned.
 struck by:  "We were succesful by negociating with all our neighbours , helping them."
 made:       two artworks at the edge, Flag of Russia 1,072 px with 3,501 placers and Coat of friendship between Serbia and Russia 125 px (shared with serbia), placed from h1.45 and h2.22; writers placed 0.081, pre-event members 0. The canvas keeps a Serbia-Russia work the room called unfinished.
+later:      2026-10-07, catch-up: not this qualified; one member urged taking a disorganised neighbour's space (dfruau5), another taking space back (dfrr02q), and a neighbour later complained of a takeover of GSW (dfs5xdz). McGill's changes were traced to mixed outside accounts, not Detroit alone (dfrh57s). The brief is the harness's empty brief.

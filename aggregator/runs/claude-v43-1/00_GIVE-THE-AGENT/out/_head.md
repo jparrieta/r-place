@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-47, 2026-10-07, the twenty-eighth leg of the catch-up pass.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-48, 2026-10-07, the twenty-ninth and last leg of the catch-up pass.
 
 ## The method question, in one sentence
 
@@ -23,7 +23,7 @@ J's rulings of 7 October 2026 (after the A1c handback) opened a catch-up pass, l
 
 The catch-up pass is declared in `out/order-A1.txt` as comment lines `#<block><TAB><sub>` after the A1 order. 702 rooms, blocks 20 to 48, 25 rooms each (block 48 has 2). `mem.py next` does not serve this pass; take the next block from the `#NN` lines (`grep "^#40" out/order-A1.txt`) and the diary (`mem.py diary --grep "amended" --limit 2000`; 500 no longer covers a block).
 
-Blocks 20 to 47 are done: 700 of 702 rooms. The next leg reads block 48, the last, starting with the first `#48` line in `order-A1.txt` (Russiaclan, line 1409).
+Blocks 20 to 48 are done: 702 of 702 rooms. The pass is complete; a check of the diary against the `#NN` lines finds an amendment logged for every declared room.
 The reading route for the pass: `bash out/_analysis/catchup_read.sh <sub> case` (logs the room opened, prints case.md whole), then `... brief`, then `... check` (prints lines served against the total from `_mem_reads-A1.jsonl`). In the same turn, Read the note with the Read tool (the Edit tool needs it). Amend it, count with `wc -w`, and log `<sub> amended (catch-up): ...` with `--ids <sub>`. Logging, `ls .pause` and the next case.md share one call; brief.md and the check a second. The shell shows at most 30 KB per call, and the overflow goes under CONTROL, which is read-denied.
 
 Note length (J, 7 October 2026): about 350 words is a guide, not a limit. Length and wording are my judgement; the pass/fail rules stand (the fixed lines, concept ids, case and brief read before the note). Do not cut earlier lines to fit new ones; cut only what I would not miss later, and log it. Keep the new lines short: coder unsure about 25 words, later about 45. The hook now reports a note over the guide as advice and lets it stand; `validate.py` counts these as warnings (18 to 24 a block, blocks 36 to 47). If unsure about writing, ask J (`mem.py ask`). When cutting the last doing clause, keep a full stop; removing it removes the line break before `week:`, and the hook refuses the note. A coder unsure line that says none, cites a concept id, or gives the brief's coverage ("N threads out of scope") is not case.md's word: replace it with case.md's limits and thread ids. Remove any gendered pronoun for a member when a line is cut.
@@ -34,7 +34,7 @@ A grep pattern with parentheses matches nothing; grep on a plain word. A shell v
 
 The harness's brief is empty for event-made subs (the close reports name them); it is still served and checked, and the later line says so.
 
-`validate.py A1` before this close: 0 errors, 273 warnings (notes over the 350-word guide). A coder unsure line already drawn from case.md in an earlier read is kept and extended, not replaced (block 47: androidgaming, TheID). When case.md shows an earlier line is wrong, correct it through the later line or a small logged edit (blocks 45 to 47: six, seven and seven rooms, named in the close reports). Recount the head with `wc -w` after the last edit and before `done.sh`.
+`validate.py A1` before this close: 0 errors, 275 warnings (notes over the 350-word guide). A coder unsure line already drawn from case.md in an earlier read is kept and extended, not replaced (block 47: androidgaming, TheID). When case.md shows an earlier line is wrong, correct it through the later line or a small logged edit (blocks 46 to 48: seven, seven and two rooms, named in the close reports). Recount the head with `wc -w` after the last edit and before `done.sh`.
 
 ## Section 5, done in A1b-19
 
@@ -76,18 +76,18 @@ The three sentences: one burst of calls in the first day or two, then defence an
 
 What the reading found against them (`notes-A1.md` §6): the artwork was often on the canvas before the room spoke; coordinating turns do not all end near hour 73; rivals often became partners; deals often did not bind the crowd.
 
-Seen three or more times and logged, blocks 10 to 47 (each block's rooms are in `running-A1.md`):
+Seen three or more times and logged, blocks 10 to 48 (each block's rooms are in `running-A1.md`):
 - The brief shows words or habits the canvas work reused (eight to sixteen rooms a block, blocks 35 to 47); a shared project ran the week before (five in block 35).
 - Members saying the canvas did not belong in the sub, or dismissing it (block 39 tampabaylightning, chicago, colombia, bostonceltics; block 40 math; block 41 buffalo, eesti, 49ers; block 42 startrek, corridor; block 46 HomestarRunner, detroitlions, unturned).
-- Scripts, bots or extra accounts inside the room's own work (block 40 placesnek, bangtan, metalgearsolid; block 41 foxes, KState, python, eesti; block 43 dragonquest, teamcube; block 45 sbu, afip, livecounting, catalonia; block 46 sips, unturned, Goodboye, cowchop; block 47 catalunya, rpi, FederationPlace).
+- Scripts, bots or extra accounts inside the room's own work (block 40 placesnek, bangtan, metalgearsolid; block 41 foxes, KState, python, eesti; block 43 dragonquest, teamcube; block 45 sbu, afip, livecounting, catalonia; block 46 sips, unturned, Goodboye, cowchop; block 47 catalunya, rpi, FederationPlace; block 48 predators).
 - Members outside the Discord missed the plan or refused the venue (block 36 dwarffortress, vocaloid; block 38 SwissNeutralityZone, nyu); a venue or command could not bind every placer (block 37 polska, sixers; block 40 ChronoTrigger, metalgearsolid).
 - The result disputed or doubted after the close (block 38 diablo, ElSalvador, Lugarix; block 39 kcroyals, rit, redpandas, truestl).
 - Green Lattice and Rainbow Road as host, permit office and border authority (blocks 19, 26 to 28; block 34 latin, planetside, esperanto).
 - A representative, Discord or deal that cannot bind the crowd; restraint or deals not accepted by every member (blocks 19 to 31, 33, 34).
 - A room relocates or trims its work when a neighbour asks (blocks 19, 28).
-- Restraint named as the room's rule (blocks 10 to 24), qualified by the room's own conquest talk (blocks 25 to 28); attack talk beside restraint (blocks 32 to 47); restraint only after a neighbour objected (block 44 mindcrack, paranatural).
+- Restraint named as the room's rule (blocks 10 to 24), qualified by the room's own conquest talk (blocks 25 to 28); attack talk beside restraint (blocks 32 to 48); restraint only after a neighbour objected (block 44 mindcrack, paranatural).
 - A neighbour protects the room's work, or a room that wrecked one helps it after (blocks 19, 24 to 30, 33).
-- Decisions made in Discord, IRC, Telegram or a second sub, seen only as returned (blocks 19, 24, 28, 30 to 47).
+- Decisions made in Discord, IRC, Telegram or a second sub, seen only as returned (blocks 19, 24, 28, 30 to 48).
 - One or two members carrying the work; credit as one member's claim; a remake or last mark by one member (blocks 19, 27 to 29, 31 to 33).
 - Members joining work already under way, or a room credited with work another group started (blocks 31, 32; block 34 araragi); outsiders defending or credited with the work (block 47 ElderScrolls, parabola, parrots).
 - A canvas mark, call or label grown from something already running that week (blocks 20, 22 to 34).
@@ -106,7 +106,7 @@ Blocks 01 to 18 by name only: morrowind, megaman, heyyea, egypt, duckgame, April
 
 Block 19: ainbowroad, dota2, Braveryjerk, dofus, Russiaclan, rotmg.
 
-Catch-up notes whose not-this line the account qualified: utaustin, miamidolphins, placehearts, chicubs, lego, lebanon, israel, vegan, touhou, magictcg, straya, farmcarrots, TransFlagPlace, titanfall, rust, funhaus, AmericanFlaginPlace, trees, starvstheforcesofevil, brasil, prequelmemes, phish (blocks 23 to 29); bardmains, osu (block 30); vim, TreePlace, bih, japan (block 31); PORTUGALCARALHO, npr (block 32); GreenEmpire, armenia, satania, nyjets (block 33); hoodr, muse, esperanto, araragi, twentyonepilots, GreenCorner, Thegreatblackhole, yogscast (block 34); forsen, AcePlace, lithuania, terraria, PinkVomitMonster (block 35); DatBoi, WPI, ubc (block 36); texastech, linux, dallasstars, oman, sixers (block 37); aceattorney, sakuragakuin, quq, lsu, vermont (block 38); norway (block 39); FlipnoteStudio3D, placesnek, TheB1G, bulgaria (block 40); nVade, cardinals (block 41); COSI, bretagne (block 42); hungary, ucf, donaldglover, aggies (block 43); lifeisstrange, mindcrack, CKCrusaders (block 44); pitt, taiwan, msu, portal, catalonia (block 45); PinkUnion, gratefuldead, cavestory, destiny (block 46); daftpunk, WisconsinBadgers, seventeen (block 47). The later lines say how.
+Catch-up notes whose not-this line the account qualified: utaustin, miamidolphins, placehearts, chicubs, lego, lebanon, israel, vegan, touhou, magictcg, straya, farmcarrots, TransFlagPlace, titanfall, rust, funhaus, AmericanFlaginPlace, trees, starvstheforcesofevil, brasil, prequelmemes, phish (blocks 23 to 29); bardmains, osu (block 30); vim, TreePlace, bih, japan (block 31); PORTUGALCARALHO, npr (block 32); GreenEmpire, armenia, satania, nyjets (block 33); hoodr, muse, esperanto, araragi, twentyonepilots, GreenCorner, Thegreatblackhole, yogscast (block 34); forsen, AcePlace, lithuania, terraria, PinkVomitMonster (block 35); DatBoi, WPI, ubc (block 36); texastech, linux, dallasstars, oman, sixers (block 37); aceattorney, sakuragakuin, quq, lsu, vermont (block 38); norway (block 39); FlipnoteStudio3D, placesnek, TheB1G, bulgaria (block 40); nVade, cardinals (block 41); COSI, bretagne (block 42); hungary, ucf, donaldglover, aggies (block 43); lifeisstrange, mindcrack, CKCrusaders (block 44); pitt, taiwan, msu, portal, catalonia (block 45); PinkUnion, gratefuldead, cavestory, destiny (block 46); daftpunk, WisconsinBadgers, seventeen (block 47); Russiaclan (block 48). The later lines say how.
 
 The one room that fits nothing else, chosen at A1c: r/Summit1G.
 
@@ -121,30 +121,28 @@ None is filed in `_questions/`. Distinctions forming, to carry into B1:
 - The moderator as organiser, obstacle, funnel, enforcer or permit office; a moderator who is also the main defender (oneplus).
 - The end of organizing: before hour 73, at the close, or in calls to rebuild after it; the work kept elsewhere after the close.
 
-## What the catch-up pass found so far (blocks 20 to 47)
+## What the catch-up pass found (blocks 20 to 48)
 
-Every block's findings are in `running-A1.md` under "catch-up block NN" (block 47: entries 759 to 767) and in the list of patterns seen three times above.
+Every block's findings are in `running-A1.md` under "catch-up block NN" (block 48: entries 768 to 773) and in the list of patterns seen three times above.
 
 ## The last rooms read
 
-Catch-up block 47, in order: marvel, androidgaming, catalunya, notredame, TheID, ElderScrolls, parabola, borussiadortmund, apocalypserising, aromantic, pusheen, blackmirror, daftpunk, neutralmilkhotel, parrots, RelientK, Braveryjerk, WisconsinBadgers, FederationPlace, seventeen, rpi, snsd, clg, gameboy, fxKorea.
+Catch-up block 48, in order: Russiaclan, predators. Block 47 before it: marvel to fxKorea (25 rooms, named in its close report).
 
 ## Ledgers at this close
 
-- `lexicon-A1.md`: 1,289 lines. `running-A1.md`: 767 lines (this leg 9 entries). `leads-A1.jsonl`: 2,478 lines. `departures.jsonl`: 9 lines. `defects.jsonl`: 8 lines.
+- `lexicon-A1.md`: 1,289 lines. `running-A1.md`: 773 lines (this leg 6 entries). `leads-A1.jsonl`: 2,478 lines. `departures.jsonl`: 9 lines. `defects.jsonl`: 8 lines.
 - Rule, kept:
   - Fetch every id with `cite.py`. Check every lead's room with grep against the frame before appending. Append through a grep filter on the item id. Never type an id from memory; check an id carried through a compaction against the notes or the diary before using it.
   - Never log "noted" or "passed" in the same call that writes the note; wait for the hook's answer.
   - Count a ledger's lines after appending, before logging the count; count the diary's trim lines before writing the closing line.
   - There is no `--kind close`; log the closing line as a note.
 - The permission check refuses "=w=", for and while loops, shell functions, heredocs, awk and a variable set from `$(...)`. The command guard reads a bare "rm" inside quoted text as a delete. Use the Write and Edit tools for file content; an Edit whose old text spans non-adjacent lines fails, so edit lines one at a time.
-- The diary rolls into a new part as it grows; during A1b-47 it moved into part A1-50. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
+- The diary rolls into a new part as it grows; during A1b-48 it moved into part A1-51. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
 
 ## The next comparison
 
-Catch-up block 48 (2 rooms, the last), from the `#48` lines in `order-A1.txt`. For each room ask: does the coder's account change who started the work, where it was decided, what became of it, or whether the room's members kept their deals? Does the brief show a joke, ritual or shared project the canvas work grew from? Record only what changes the note.
-
-When the pass ends (block 48), compare the `later:` lines across rooms, by the patterns listed above.
+The catch-up pass is complete. The next comparison is the `later:` lines across rooms, by the patterns listed above, when a leg message asks for it.
 
 ## Nothing changed in the scheme or the model
 

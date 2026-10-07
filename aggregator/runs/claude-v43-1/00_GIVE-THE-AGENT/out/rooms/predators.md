@@ -4,9 +4,10 @@ week:       h3 to h24 slogans; h47 to h61 the logo and neighbours; h66 to h73 th
 named:      r/RWBY as neighbour that agreed to help move the logo (c0037, c0045); r/RPI as neighbour under a boundary (c0047); Hawks and Wild fans as rivals turned helpers (c0032, c0034); the Void as first displacer (c0018).
 goal:       a Predators logo; from h47.5; moved up at h60; ended damaged by its account.
 unsettled:  whether being peaceful was right (c0060, c0068, c0069).
-coder unsure: 42 threads out of scope.
+coder unsure: deleted bodies (630k5v, 638c03); images of the final logo unread (638ecw); Discord, Strawpoll, Pastebin and private messages seen only as returned (dfqb3a8); three slices, no reader held the week.
 carrying:   c0047, c0051, c0063
 not this:   a room beaten by enemies; its own move up opened the spot to others.
 ended:      last coordinating turn h72.54 (c0057, the script stopped); after h73 the logo found damaged, war promised next time.
 struck by:  "When we started moving up others dove to the spot thinking we abandoned it."
 made:       one artwork at the edge, Nashville Predators 800 px at 891, 541, 8,101 placers, placed from h1.21; writers placed 0.071, pre-event members 0.031.
+later:      2026-10-07, catch-up: the not-this line rests on one member's explanation that the move let others in (dfs93et). A post recruited hockey subs for a Hawks-logo takedown, refused by others (633eah, dfr4o20), attack talk beside restraint. The brief shows Perds as the room's self-mocking name (dfmuzyl), which the after-close joke reused.
