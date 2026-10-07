@@ -1,0 +1,39 @@
+{
+ "t": "2026-10-07T15:46:45+00:00",
+ "stage": "B1",
+ "leg": "B1b-02",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "criticalrole",
+   "NewMexico",
+   "norge"
+  ],
+  "changed": [
+   "T3-023",
+   "T3-033",
+   "T3-048"
+  ],
+  "next": "criticalrole."
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "missing"
+ },
+ "scored": 4,
+ "unscored": [
+  "open"
+ ],
+ "misses": [
+  "goal",
+  "rooms",
+  "changed",
+  "next"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
