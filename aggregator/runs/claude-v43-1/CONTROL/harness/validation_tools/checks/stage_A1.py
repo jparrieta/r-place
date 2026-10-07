@@ -282,6 +282,72 @@ def _check_leads(outdir, frame, last):
                 err("%s: %s %r is not a room of the frame" % (w, k, r[k]), shape="leads:notinframe", where=w)
 
 
+def _covered(spans, total):
+    """True when the served line spans [offset, offset+lines) cover 0..total."""
+    if not total:
+        return True
+    end = 0
+    for a, b in sorted(spans):
+        if a > end:
+            return False
+        end = max(end, b)
+    return end >= total
+
+
+def _check_catchup_reads(outdir, root):
+    """The catch-up pass (blocks 20 on, J 2026-10-07): every room whose note this leg amends has its case.md and
+    brief.md served whole by mem.py, and served before the note line. The read log is written by mem.py, not by
+    the analyst, so a cut route shows here whatever the diary says (J, 2026-10-07, after A1's handback)."""
+    p = os.path.join(root or ".", ".leg")
+    leg = open(p, encoding="utf-8").read().strip() if os.path.exists(p) else ""
+    m = re.match(r"^A1b-(\d+)", leg)
+    if not m or int(m.group(1)) < 20:
+        return
+    base = "A1b-%02d" % int(m.group(1))
+    block = set()
+    for line in (text(outdir, "order-A1.txt") or "").splitlines():
+        b = re.match(r"^#(\d+)\t(\S+)", line)
+        if b and int(b.group(1)) == int(m.group(1)):
+            block.add(vlib.canon(b.group(2)).lower())
+    diary = [d for d in vlib.diary_lines(outdir, "A1")]
+    pass_start = min((_stamp(d.get("t")) for d in diary if re.match(r"^A1b-([2-9]\d|\d{3})", str(d.get("leg") or ""))),
+                     default="")
+    notes_t = {}
+    for d in diary:
+        if not str(d.get("leg") or "").startswith(base):
+            continue
+        ids = [vlib.canon(i).lower() for i in (d.get("ids") or [])]
+        if d.get("kind") == "note" and len(ids) == 1:
+            notes_t[ids[0]] = max(notes_t.get(ids[0], ""), _stamp(d.get("t")))
+    spans, whole_at = {}, {}
+    for r in jsonl(os.path.join(outdir, "_mem_reads-A1.jsonl")) or []:
+        if r.get("verb") not in ("case", "brief") or r.get("refused") or not r.get("args"):
+            continue
+        t = _stamp(r.get("t"))
+        if pass_start and t < pass_start:
+            continue
+        k = (r["verb"], vlib.canon(r["args"][0]).lower())
+        off = int(r.get("offset") or 0)
+        spans.setdefault(k, []).append((off, off + int(r.get("lines") or 0)))
+        if k not in whole_at and _covered(spans[k], int(r.get("total") or 0)):
+            whole_at[k] = t
+    for sub in sorted(notes_t):
+        for verb, f in (("case", "case.md"), ("brief", "brief.md")):
+            w = whole_at.get((verb, sub))
+            if w is None:
+                served = sum(b - a for a, b in spans.get((verb, sub), []))
+                err("rooms/%s.md: amended in %s, but %s was not served whole in the catch-up pass (%s); read it whole "
+                    "with mem.py %s %s before the note (J, 2026-10-07)"
+                    % (sub, base, f, "never served" if not spans.get((verb, sub)) else "%d lines served, not covering the file" % served,
+                       verb, sub), shape="catchup:not-whole", where=sub)
+            elif w > notes_t[sub]:
+                err("rooms/%s.md: its note line at %s comes before %s was served whole at %s; the file is read whole "
+                    "before the note is amended" % (sub, notes_t[sub], f, w), shape="catchup:late", where=sub)
+    for sub in sorted(block - set(notes_t)):
+        warn("block %s: r/%s has no note line in this leg; it is still to be read in the catch-up pass" % (m.group(1), sub),
+             shape="catchup:pending", where=sub)
+
+
 def check(root, outdir, ctx):
     need(outdir, "notes-A1.md", "contrast.md", "dropped.jsonl", "departures.jsonl", "defects.jsonl",
          "run_manifest.json")
@@ -359,6 +425,7 @@ def check(root, outdir, ctx):
                 shape="order:gap", where=gaps[0])
     # the concepts read before the note (section 4): a logged codes or cite call for the room
     _check_codes_read(outdir, noted)
+    _check_catchup_reads(outdir, root)
     # leads (section 4): parse; required at the last block
     _check_leads(outdir, frame, last)
 

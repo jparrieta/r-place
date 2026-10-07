@@ -49,6 +49,14 @@ Target length: under 1,200 words, kept current. J, 2026-10-06 23:37 Berlin: "mak
 - **Change.** B1d's stop in the stage card: "thirty rooms in a row of this pass have added no new third-order theme", in place of two stretches of at least twenty rooms each; the closing summary line to match; `checks/stage_B1.py`'s message to match (its test, "added no new", unchanged). Card in the instrument and `DROPS/B1/`; the check in the instrument, the run's `tools/checks/` and `CONTROL/harness/validation_tools/checks/` (copied from the instrument; not compared before the copy). `STAGES-full.md` regenerated; `VERSIONS.tsv` rows.
 - **Not changed.** `saturation.py` (B1b's rule).
 
+### 7. A close check on whole reads, for the A1 catch-up (installed 2026-10-07 02:04:24Z)
+
+- **Ruling.** J, 04:01 Berlin: "Do the harness change" (the analyst's proposal in the A1c interview: compare lines served with the file's total at the close).
+- **Change.** `checks/stage_A1.py`: `_check_catchup_reads`, called from `check()`. When the open leg (`.leg`) is A1b-20 or later, every room with a note line in that leg must have `mem.py case` and `mem.py brief` reads in the catch-up pass whose served spans cover the file (`_covered`), and covered before the note line; otherwise an error (`catchup:not-whole`, `catchup:late`). Block rooms (`#NN<TAB>sub` lines in `order-A1.txt`) with no note line in the leg get a warning (`catchup:pending`). Legs before A1b-20 and the self-test (no `.leg`) are untouched. Installed in the instrument, the run's `tools/checks/` and `CONTROL/harness/validation_tools/checks/` (same bytes); `VERSIONS.tsv` row.
+- **Tested.** Against the run's records: A1b-20 and A1b-21 pass (0 errors); with babymetal's `case` reads cut to 10 lines in a copy, it reports one error. Not run: the validator self-test (no scipy in the VM); no planted defect added for it, since the self-test runs without a `.leg`.
+- **What it cannot see.** Output piped through `head` or `cut` after `mem.py` served it whole (the A1 interview's second cause). The read log records what was served, not what was read.
+- **For later stages.** The same comparison for B1 (each room's themes and concepts served whole) is not built.
+
 ### Not changed: the note hook's word count (triage 10)
 
 - J said "fix yourself". On all 705 notes the hook's count (`len(t.split())`) equals `wc -w` (C locale, Linux); no note holds a non-ASCII space. The gap the analyst saw is not reproduced, so nothing was changed.

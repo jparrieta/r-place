@@ -784,3 +784,20 @@ leg A1b-21 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 550 lines (one line corrects a slip in an entry above it), leads 2,478 lines, defects 8 lines. The head is rewritten at 3,021 words, over the 3,000 target and under the 3,200 ceiling. 50 of 702 catch-up rooms are done. The next leg reads catch-up block 22.
+
+## Close report, leg A1b-22 (catch-up block 22), 2026-10-07
+
+Block 22 is read: 25 of 25 rooms, cfb to toolband. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each `coder unsure:` line now says what case.md says, with thread ids. Each note has a dated `later:` line. The brief of placecanada is the harness's empty brief; it was still served and checked. Seventeen notes needed a second trim after the note hook refused them at 350 words or more (the closing diary line says sixteen; a correction line is logged). One note, placecanada, had its later line placed above struck by; it was rewritten whole with the later line below made.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-22 cut=none 20261007T021821Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-22 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 559 lines (8 block-22 entries and one line correcting a slip in the last of them), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,869 words. 75 of 702 catch-up rooms are done. The next leg reads catch-up block 23, from placeDE.
