@@ -1,0 +1,38 @@
+{
+ "t": "2026-10-07T16:21:18+00:00",
+ "stage": "B1",
+ "leg": "B1b-03",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "luciomains",
+   "texas",
+   "geometrydash"
+  ],
+  "changed": [
+   "T3-008",
+   "T3-052"
+  ],
+  "next": "NewMexico. The 50-average-room condition falls inside this stretch; rounds follow the rule if 10 average rooms and 10 rooms pass without a new kind."
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "missing"
+ },
+ "scored": 4,
+ "unscored": [
+  "open"
+ ],
+ "misses": [
+  "goal",
+  "rooms",
+  "changed",
+  "next"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
