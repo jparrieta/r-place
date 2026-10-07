@@ -4,9 +4,10 @@ week:       h5.9 to h13 recognition; h15 to h36 templates; h43 Discord; h46 to h
 named:      r/ainbowroad as neighbour, recogniser and pressure (c0002, c0017, c0045); r/homestuck (c0029); 4chan (c0049); the Void (c0056).
 goal:       keep Lord Helix; settled by h6.2 with the rainbow; redesigned at h25 and again at h53.
 unsettled:  whether to redraw Helix bigger and truer (c0041, c0043, c0045).
-coder unsure: none named; all 34 threads read.
+coder unsure: the Discord's decisions unseen, only reported back (62z4z8, dfqlplf); three post bodies and a comment deleted (62q67y, 6300ob, 6334aj, dfpjktl); whether contact with r/ainbowroad on the halo happened not shown (dfpbql0).
 carrying:   c0002, c0023, c0050
 not this:   a room that made Helix; it kept and redrew a work others had placed.
 ended:      last coordinating turn h66.26 (c0056, helping allies to the south); after h73 praise and pride.
 struck by:  "Can we finally all agree on the number of exclamation points? Five it is."
 made:       one artwork, Helix Fossil, 1,317 px in the middle ring, shared with churchofhelix and twitchplayspokemon, placed from h1.02; 21,667 placers; writers placed 0.035, pre-event members 0. The canvas keeps Helix.
+later:      2026-10-07, catch-up: the redesign was contested on cost; members said the old one was fine and two people could not redo it alone (dfq9c3a, dfqa092) before the Discord chose it. The brief is the harness's empty brief; the sub had no posts the week before.

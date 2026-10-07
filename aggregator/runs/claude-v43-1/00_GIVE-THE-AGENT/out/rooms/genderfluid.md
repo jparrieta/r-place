@@ -4,9 +4,10 @@ week:       nothing before h26.6; h26.6 to h27.4 the April Fools joke; h63.8 the
 named:      r/lebanon as the taker (c0010).
 goal:       a genderfluid heart; found and announced at h63.8; held.
 unsettled:  nothing argued; the room agreed on defence.
-coder unsure: 12 threads out of scope.
+coder unsure: the joke post's body removed (62uk8p); the linked image unseen, so the 46 pixels are members' words (dfrr8m4); who fixed the last pixels and whether the deleted comment mattered not shown (dfrrlty); r/lebanon's side absent.
 carrying:   c0007, c0011, c0015
 not this:   a room that organised the heart; it announced the heart at h63.8, long after placement began.
 ended:      last coordinating turn h70.25 (c0012, defence under way); h73.56 relief.
 struck by:  "Phew! /r/place is over, and we're there to stay!"
 made:       one artwork, Genderfluid flag heart, 70 px in the middle ring, placed from h2.84, before the room's first coded turn; writers placed 0.019, pre-event members 0. The canvas keeps the heart.
+later:      2026-10-07, catch-up: the account changes nothing; searches found no second event thread, alliance or loss report. The brief shows a small advice-and-support room the week before and changes nothing.

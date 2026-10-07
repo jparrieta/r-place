@@ -4,9 +4,10 @@ week:       h21 to h28 April Fools; h26 to h38 Gregg with r/furry; h49 to h60 th
 named:      r/furry as collaborator and host (c0014, c0025, c0042); Green Lattice as guide to a spot (c0053, c0058); Skyrim (c0058); r/zootopia (c0063).
 goal:       a Gregg sprite, then a NITW logo; neither settled; the logo built from h49.8.
 unsettled:  what and where to build (c0012, c0034, c0079).
-coder unsure: 116 threads out of scope.
+coder unsure: Discord, Google Forms, OneDrive and PlaceTwo seen only as returned (dfqrfz4, dfqolbo, dfsjt96); two late design bodies deleted (63673s, 636iuz); no final state on either canvas; two coders.
 carrying:   c0042, c0058, c0062
 not this:   a room that kept its logo; members mourned it and moved to PlaceTwo.
 ended:      last coordinating turn h71.60 (c0084, coordinates for another attempt); after h79 PlaceTwo.
 struck by:  "rip"
 made:       one artwork, (Former) Night in the Woods Logo, 529 px at the edge, placed from h1.4; writers placed 0.065, pre-event members 0.006. The atlas names the logo as former, as the room's mourning says.
+later:      2026-10-07, catch-up: the move away from the crowded spot follows a proposal that is never named as its cause (dfqsmsb, dfqv81i); the PlaceTwo build continues past the window. The brief shows fan art and covers as the room's usual posts the week before and changes nothing.

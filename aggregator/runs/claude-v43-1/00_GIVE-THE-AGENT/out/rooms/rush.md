@@ -4,9 +4,10 @@ week:       h19 to h27 the Purge; h22.5 to h36 2112, keyboards, relocations; h53
 named:      r/MechanicalKeyboards as the attacker (c0032, c0034); TheBlueCorner as granting and too strong (c0037, c0080); r/canada and r/placecanada as hosts (c0040, c0042); r/Predators (c0086); Pink Floyd's team (c0096).
 goal:       a 2112, scaled down from the Starman at h23; finished at h60.4 inside the Canadian flag.
 unsettled:  where a small room fits (c0025, c0039, c0080).
-coder unsure: 31 threads out of scope.
+coder unsure: Purge post bodies removed, coded from titles and replies (62s5g9, 62solr); design images unseen, so size and look are members' reports; the other teams' decisions one-sided (dfsngil); four reply parents absent.
 carrying:   c0037, c0041, c0094
 not this:   a room that built its own 2112; the Canadian team took it into their flag.
 ended:      last coordinating turn h72.82 (c0092, recruiting help for the Starman in the Canadian flag); after h80 credit and recounting.
 struck by:  "We tried"
 made:       one artwork, 2112, 115 to 121 px in the middle ring, placed from h2.41, before the room's first coded turn; writers placed 0.059, pre-event members 0.004. The canvas keeps 2112.
+later:      2026-10-07, catch-up: the no-racism line was a moderator's (dfoxxne), not members', and the Purge's organiser said they regretted it (dfoxb45); one member floated overpowering the keyboard builders (dfp97rr). The brief shows a 2112 Survivor poll the week before (61d0xj) and moderators promoting a Rush Discord (dffqhy1).

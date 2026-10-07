@@ -4,9 +4,10 @@ week:       nothing before h29.0; h29 the symbol; h31 to h56 size and game lines
 named:      r/Berserk as a bigger example (c0004); the Dutch as swallowers (c0017); Dreddit, LEGO and Gorillaz as landmarks (c0024, c0031).
 goal:       a small vault symbol; made at h29.0; held; larger pictures tried and not held.
 unsettled:  whether to make something bigger (c0007, c0013).
-coder unsure: 122 threads out of scope.
+coder unsure: phase 2, Overtake Japan and the reference search have deleted bodies (62wz5u, 631wf8, 6395i1); the Imgur and Tumblr designs unseen; whether the found symbol is the first one not shown (63crtl); two coders.
 carrying:   c0003, c0007, c0017
 not this:   a room that knew where its mark was; members searched for it after the close.
 ended:      last coordinating turn h69.19 (c0018, rebuilding a Claptrap outline); after h75 searching and pride.
 struck by:  "LAVA'S RISING!"
 made:       two artworks at the edge, Borderlands Logo and Borderlands symbol, 70 px each, placed from h2.85, before the room's first coded turn; writers placed 0.101, pre-event members 0.04. The canvas keeps the symbol.
+later:      2026-10-07, catch-up: a call to overtake Japan drew no answer (631wf8), and the Claptrap and Psycho stayed one member's work each (dfrojpa, dfqir2p). The brief shows a favourite-quote thread the week before (61he1f), the game lines members traded in the canvas thread.

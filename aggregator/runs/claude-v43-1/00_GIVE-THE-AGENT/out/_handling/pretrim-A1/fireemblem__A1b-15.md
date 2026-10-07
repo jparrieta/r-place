@@ -1,0 +1,35 @@
+# r/fireemblem: the note before the 350-word cut
+
+Leg A1b-15. Replayed from the checkpoint before the leg (A1.A1b-14) through the leg's own edits; the replay ends on the note the leg's checkpoint holds (verified).
+Before the cut 358 words; now 340. The note before the cut, then the change from now to it.
+
+## Before the cut
+
+```
+# r/fireemblem  (read 2026-10-06)   coded share 0.051   off-platform pointers 26
+doing:      a game series sub; April Fools as a swap with r/tales fill many turns (c0057, c0095); at h9.4 helpers sent to draw Kamui, open space offered, the blue corner's promise relied on (c0008, c0027, c0028); at h10.1 Lyn moved and queued, done at h18.6 (c0029, c0016, c0034); at h13.8 Eliwood begun (c0021); at h24.8 a label under Lyndis asked, then refused because it would run through Pokémon art (c0137, c0139); at h25.0 coordination tried in a subreddit and a Discord, said not to work (c0037, c0039, c0144); at h27.6 Lord Hector to match the trio (c0150, c0152); at h29.5 the Void attacking Kamui, r/FightTheVoid offering help (c0145, c0192); at h33.1 more space refused as harder to defend (c0197); at h42.7 the Megaman laser pushed back against Germany (c0234, c0248); at h46.4 an IrnBru can above accepted if it stays off (c0258, c0259); at h53.0 a flower kept, an apology for whitewash (c0277, c0279); at h55.3 the Pokémon left alone, the Blue Corner asking a blend, a strawpoll background chosen (c0303, c0306, c0344); at h67.8 r/israel's expansion request, Scotland given a strip (c0381, c0369); at h71.4 an agreed rainbow kept being erased (c0397, c0398).
+week:       h9 to h28 Kamui, Lyn, Eliwood, Hector; h29 to h47 Void, Germany, restraint; h53 to h72 neighbours, a background vote.
+named:      Germany and the Void as pressures (c0162, c0184); Pokémon, the Blue Corner, Scotland and r/israel as neighbours with terms (c0303, c0306, c0369, c0381); r/FightTheVoid as helper (c0192).
+goal:       Fire Emblem lords; three done by h33; a frame and background added; held.
+unsettled:  label, background and sprite accuracy (c0139, c0308, c0393).
+coder unsure: 294 threads out of scope.
+carrying:   c0139, c0197, c0303
+not this:   a room that took space; it refused a label and more ground to keep neighbours whole.
+ended:      last coordinating turn h72.30 (c0399, building the agreed rainbow); after h73 the mural preserved and claimed.
+struck by:  "we don't want to pick fights we can't win."
+made:       one artwork, r/FireEmblem, 4,720 px at the edge, 13,624 placers, placed from h1.1; writers placed 0.223, pre-event members 0.105. The canvas keeps the mural.
+```
+
+## From now to before the cut
+
+```diff
+--- rooms/fireemblem.md (now)
++++ rooms/fireemblem.md (before the cut, A1b-15)
+@@ -1,5 +1,5 @@
+ # r/fireemblem  (read 2026-10-06)   coded share 0.051   off-platform pointers 26
+-doing:      a game series sub; April Fools as a swap with r/tales fill many turns (c0057, c0095); at h9.4 helpers sent to draw Kamui, open space offered, the blue corner's promise relied on (c0008, c0027, c0028); at h10.1 Lyn moved and queued, done at h18.6 (c0029, c0016, c0034); at h24.8 a label under Lyndis asked, then refused because it would run through Pokémon art (c0137, c0139); at h25.0 coordination tried in a subreddit and a Discord, said not to work (c0037, c0039, c0144); at h27.6 Lord Hector to match the trio (c0150, c0152); at h29.5 the Void attacking Kamui, r/FightTheVoid offering help (c0145, c0192); at h33.1 more space refused as harder to defend (c0197); at h42.7 the Megaman laser pushed back against Germany (c0234, c0248); at h53.0 a flower kept, an apology for whitewash (c0277, c0279); at h55.3 the Pokémon left alone, the Blue Corner asking a blend, a strawpoll background chosen (c0303, c0306, c0344); at h67.8 r/israel's expansion request, Scotland given a strip (c0381, c0369); at h71.4 an agreed rainbow kept being erased (c0397, c0398).
++doing:      a game series sub; April Fools as a swap with r/tales fill many turns (c0057, c0095); at h9.4 helpers sent to draw Kamui, open space offered, the blue corner's promise relied on (c0008, c0027, c0028); at h10.1 Lyn moved and queued, done at h18.6 (c0029, c0016, c0034); at h13.8 Eliwood begun (c0021); at h24.8 a label under Lyndis asked, then refused because it would run through Pokémon art (c0137, c0139); at h25.0 coordination tried in a subreddit and a Discord, said not to work (c0037, c0039, c0144); at h27.6 Lord Hector to match the trio (c0150, c0152); at h29.5 the Void attacking Kamui, r/FightTheVoid offering help (c0145, c0192); at h33.1 more space refused as harder to defend (c0197); at h42.7 the Megaman laser pushed back against Germany (c0234, c0248); at h46.4 an IrnBru can above accepted if it stays off (c0258, c0259); at h53.0 a flower kept, an apology for whitewash (c0277, c0279); at h55.3 the Pokémon left alone, the Blue Corner asking a blend, a strawpoll background chosen (c0303, c0306, c0344); at h67.8 r/israel's expansion request, Scotland given a strip (c0381, c0369); at h71.4 an agreed rainbow kept being erased (c0397, c0398).
+ week:       h9 to h28 Kamui, Lyn, Eliwood, Hector; h29 to h47 Void, Germany, restraint; h53 to h72 neighbours, a background vote.
+ named:      Germany and the Void as pressures (c0162, c0184); Pokémon, the Blue Corner, Scotland and r/israel as neighbours with terms (c0303, c0306, c0369, c0381); r/FightTheVoid as helper (c0192).
+ goal:       Fire Emblem lords; three done by h33; a frame and background added; held.
+```

@@ -1,0 +1,36 @@
+# r/madokamagica: the note before the 350-word cut
+
+Leg A1b-01. Replayed from the checkpoint before the leg (A1.A1a) through the leg's own edits; the replay ends on the note the leg's checkpoint holds (verified).
+Before the cut 353 words; now 346. The note before the cut, then the change from now to it.
+
+## Before the cut
+
+```
+# r/madokamagica  (read 2026-10-06)   coded share 0.133   off-platform pointers 9
+doing:      joining a canvas joke line already being built, with the sub's Discord inviting builders from h4 (c0001, c0002); a plan with priorities, defend, border, do not attack (c0010); official updates to ears, the r, the sign (c0013, c0017, c0019); Discord hearing appeals and authorizing changes, the thread getting the result (c0021, c0030, c0060); adding Homura, Madoka, a heart, Kyouko (c0036, c0041, c0053); an armistice with the Chatot bird and an alliance with anime_irl (c0068, c0061); displacing r/Landry and offering to help it move (c0097, c0071); a moderator megathread against spam (c0057, c0072).
+week:       h4 to h7 a Discord invite and the A; h24 April Fools; h26 to h34 grief seed, final design, updates; h35 to h44 Homura moved, Madoka, spam objections; h48 megathread; h49 to h62 armistice, Kyouko, neighbours asking space; h68 to h73 a rumoured Turkish war denied, allies asking help; after h73 timelapses, thanks to Chatot, visitors' praise, Chatot as mascot at h96.7.
+named:      r/twitchplayspokemon's Chatot as armistice partner, later companion (c0068, c0087); r/anime_irl as ally (c0061); r/Landry as displaced (c0097); r/bostonceltics, BluePatch, r/SCP, r/lugarix asking space (c0100, c0099, c0091, c0081); r/homestuck as ally asking help (c0103).
+goal:       Homura, then a MadoHomu scene and the other girls; the final design declared at h30.2, then grown.
+unsettled:  whether canvas posts are spam in the sub (c0105, c0106); what they destroyed (c0108).
+coder unsure: the Discord planning and relocation talk unseen; deleted bodies of neighbour requests (6344la, 634509).
+carrying:   c0021, c0068, c0097
+not this:   a room that started the art; the joke line came from the canvas and the room took it up.
+ended:      last coordinating turn h72.79 (c0103, a homestuck emissary asking help; the room's own last defence c0054 at h69.62); Discord unseen; after h73 thanks, praise, timelapses.
+struck by:  "We have an armistice with birb."
+made:       six artworks in the middle ring, Madoka Magica 8644 px, Homura Did Nothing Wrong, Mami, Soul Gems, Kyubey, Grief Seed, all placed from h0.95; writers placed 0.134, pre-event members 0.03. The canvas held the art from hour one, before the room's first canvas talk.
+```
+
+## From now to before the cut
+
+```diff
+--- rooms/madokamagica.md (now)
++++ rooms/madokamagica.md (before the cut, A1b-01)
+@@ -1,6 +1,6 @@
+ # r/madokamagica  (read 2026-10-06)   coded share 0.133   off-platform pointers 9
+ doing:      joining a canvas joke line already being built, with the sub's Discord inviting builders from h4 (c0001, c0002); a plan with priorities, defend, border, do not attack (c0010); official updates to ears, the r, the sign (c0013, c0017, c0019); Discord hearing appeals and authorizing changes, the thread getting the result (c0021, c0030, c0060); adding Homura, Madoka, a heart, Kyouko (c0036, c0041, c0053); an armistice with the Chatot bird and an alliance with anime_irl (c0068, c0061); displacing r/Landry and offering to help it move (c0097, c0071); a moderator megathread against spam (c0057, c0072).
+-week:       h4 to h7 a Discord invite and the A; h24 April Fools; h26 to h34 grief seed, final design, updates; h35 to h44 Homura moved, Madoka, spam objections; h48 megathread; h49 to h62 armistice, Kyouko, neighbours asking space; h68 to h73 a rumoured war denied, allies asking help; after h73 timelapses, thanks to Chatot, praise.
++week:       h4 to h7 a Discord invite and the A; h24 April Fools; h26 to h34 grief seed, final design, updates; h35 to h44 Homura moved, Madoka, spam objections; h48 megathread; h49 to h62 armistice, Kyouko, neighbours asking space; h68 to h73 a rumoured Turkish war denied, allies asking help; after h73 timelapses, thanks to Chatot, visitors' praise, Chatot as mascot at h96.7.
+ named:      r/twitchplayspokemon's Chatot as armistice partner, later companion (c0068, c0087); r/anime_irl as ally (c0061); r/Landry as displaced (c0097); r/bostonceltics, BluePatch, r/SCP, r/lugarix asking space (c0100, c0099, c0091, c0081); r/homestuck as ally asking help (c0103).
+ goal:       Homura, then a MadoHomu scene and the other girls; the final design declared at h30.2, then grown.
+ unsettled:  whether canvas posts are spam in the sub (c0105, c0106); what they destroyed (c0108).
+```

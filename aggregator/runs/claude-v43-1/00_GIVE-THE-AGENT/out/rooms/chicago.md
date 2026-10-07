@@ -4,9 +4,10 @@ week:       h9 to h35 pranks and first tries; h47.4 the flag; h49 to h59 helpers
 named:      r/uiuc as helper (c0054); ChiBears, Mystery Dungeon, Buffalo, the Hawks, r/kanye as neighbours and askers (c0057, c0104, c0090, c0070, c0092); the Red Wings as attacker (c0095); the Polish flag beside it (c0081).
 goal:       a Chicago flag; set at h47.4 by one post; held; text added below.
 unsettled:  whether canvas posts belong in the sub (c0077, c0078, c0086).
-coder unsure: 294 threads out of scope.
+coder unsure: one edited post carries many untimed updates (6307cp); flag calls and the overrun warning survive as titles (62xbmp, 63822o); the final-image claim rests on unseen images (63acjz); seven coders, no single reader.
 carrying:   c0050, c0063, c0078
 not this:   a room united behind its flag; members asked to ban the posts.
 ended:      last coordinating turn h72.97 (c0065, help asked against a border attack); after h73 shrugs and thanks.
 struck by:  "Attention red leader: You are now stickied."
 made:       one artwork, Chicago, 842 px at the edge, placed from h1.19; writers placed 0.061, pre-event members 0.027. The canvas keeps the flag.
+later:      2026-10-07, catch-up: Chicago reclaimed Mystery Dungeon's pixels before conceding (dfqy1tt, dfqy1u7), and the late overrun warning drew only who cares (dfrzoxx). The brief shows moderators already routing posts to a weekly thread (dfkgsu1) and the Rainforest Cafe crawl as a running bit (6220ch).

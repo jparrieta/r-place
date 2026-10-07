@@ -4,9 +4,10 @@ week:       h1 to h36 rit_irl; h36 to h55 banner plans; h57 to h68 rainbow road;
 named:      CSH as co-builder (c0068, c0078); Muse, Waldo, COSI, rainbow road, the Bruins as neighbours (c0066, c0096, c0049, c0069, c0054); WPI as rival (c0059); r/Kanye (c0079).
 goal:       an RIT banner and tiger; placed by h62.7 after moves; held.
 unsettled:  whose pixels the bot protected (c0098, c0099).
-coder unsure: 49 threads out of scope.
+coder unsure: many joke and image posts keep titles only; GitHub target work and Discord unseen; why bot protection left the Slime disputed, not settled (dfsnukv, dfsr5jq); whether promised repairs happened not shown; two coders.
 carrying:   c0069, c0081, c0082
 not this:   a room that built alone; CSH, a campus group, ran the bots.
 ended:      last coordinating turn h73.21 (c0082, help returned to neighbours); after h73 a prospective student.
 struck by:  "To be fair, we asked a lot of them so it felt lie the right thing to do to help"
 made:       two artworks named RIT in the middle ring, 472 px and 135 px, placed from h1.35; writers placed 0.106, pre-event members 0.032. The canvas keeps the logo.
+later:      2026-10-07, catch-up: the Slime's maker said RIT pulled protection to cover itself (dfsr5jq), and the Mission Accomplished post's restored relations did not hold for them (635i48). The brief shows the 1rit countdown hoax already running the week before (dfmflcg), the joke revealed on 1 April.

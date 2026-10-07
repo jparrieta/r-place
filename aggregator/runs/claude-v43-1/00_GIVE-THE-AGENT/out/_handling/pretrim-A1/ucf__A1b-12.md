@@ -1,0 +1,35 @@
+# r/ucf: the note before the 350-word cut
+
+Leg A1b-12. Replayed from the checkpoint before the leg (A1.A1b-11) through the leg's own edits; the replay ends on the note the leg's checkpoint holds (verified).
+Before the cut 372 words; now 343. The note before the cut, then the change from now to it.
+
+## Before the cut
+
+```
+# r/ucf  (read 2026-10-06)   coded share 0.234   off-platform pointers 14
+doing:      a university sub; at h27.1 help asked for a UCF logo (c0002); at h45.4 members asking how UCF is not on the canvas, letters taking shape over Pacman without a blueprint (c0003, c0004, c0006); at h48.4 doubt that UCF fans would show up (c0009); at h50.1 an earlier small UCF recounted as taken over (c0013); at h51.5 a small design for the college corner, placed above UF, moved one row to respect UF's white border (c0016, c0018, c0021); at h52.7 fights with Tetris and SDSU (c0024); at h56.2 the area won, UF promised help once UCF is solid, FloridaGators asking and offering help (c0037, c0038, c0043, c0044); at h57.2 the logo complete (c0048); at h59.3 an alumnus maintaining both UCF and UF, a neighbour's defence joined, borders promised respect (c0053, c0054, c0056); at h61.4 a GameCube to be spared, members told not to attack Unturned, a compromise urged (c0060, c0061, c0062); at h64.6 NEU asking UCF to stop gold squares entering its area, an overnight script suspected (c0064, c0068); at h71.0 an alliance offered to a griefed neighbour (c0072); at h72.6 FSU asking permission to place beside UCF, granted over USF (c0089, c0091).
+week:       h27 to h50 tries, doubt; h51 to h57 the college corner, the logo; h59 to h73 neighbours, Pegasus, Unturned.
+named:      UF and FloridaGators as partners in mutual defence (c0038, c0044, c0104); Unturned as neighbour not to be attacked (c0061); NEU and FSU as neighbours (c0064, c0089); Tetris and SDSU as rivals (c0024).
+goal:       a UCF logo in the college corner; done at h57.2; a Pegasus tried and refused; held.
+unsettled:  respect neighbours or think bigger (c0074, c0085, c0102).
+coder unsure: 74 threads out of scope.
+carrying:   c0021, c0061, c0091
+not this:   a room that took space from rivals; it moved for UF's border and granted FSU a place beside it.
+ended:      last coordinating turn h72.59 (c0089, FSU asking permission, granted at h73.27); after h73 the final image praised.
+struck by:  "Better FSU than USF, I say. Go for it."
+made:       one artwork, University of Central Florida, 288 px at the edge, 1,392 placers, placed from h1.33; writers placed 0.155, pre-event members 0.038. The canvas keeps the logo.
+```
+
+## From now to before the cut
+
+```diff
+--- rooms/ucf.md (now)
++++ rooms/ucf.md (before the cut, A1b-12)
+@@ -1,5 +1,5 @@
+ # r/ucf  (read 2026-10-06)   coded share 0.234   off-platform pointers 14
+-doing:      a university sub; at h27.1 help asked for a UCF logo (c0002); at h45.4 letters taking shape over Pacman without a blueprint (c0004, c0006); at h48.4 doubt that UCF fans would show up (c0009); at h51.5 a small design for the college corner, placed above UF, moved one row to respect UF's white border (c0016, c0018, c0021); at h56.2 the area won, UF promised help once UCF is solid, FloridaGators asking and offering help (c0037, c0038, c0043, c0044); at h57.2 the logo complete (c0048); at h59.3 an alumnus maintaining both UCF and UF, a neighbour's defence joined, borders promised respect (c0053, c0054, c0056); at h61.4 a GameCube to be spared, members told not to attack Unturned, a compromise urged (c0060, c0061, c0062); at h64.6 NEU asking UCF to stop gold squares entering its area, an overnight script suspected (c0064, c0068); at h71.0 an alliance offered to a griefed neighbour (c0072); at h72.6 FSU asking permission to place beside UCF, granted over USF (c0089, c0091).
++doing:      a university sub; at h27.1 help asked for a UCF logo (c0002); at h45.4 members asking how UCF is not on the canvas, letters taking shape over Pacman without a blueprint (c0003, c0004, c0006); at h48.4 doubt that UCF fans would show up (c0009); at h50.1 an earlier small UCF recounted as taken over (c0013); at h51.5 a small design for the college corner, placed above UF, moved one row to respect UF's white border (c0016, c0018, c0021); at h52.7 fights with Tetris and SDSU (c0024); at h56.2 the area won, UF promised help once UCF is solid, FloridaGators asking and offering help (c0037, c0038, c0043, c0044); at h57.2 the logo complete (c0048); at h59.3 an alumnus maintaining both UCF and UF, a neighbour's defence joined, borders promised respect (c0053, c0054, c0056); at h61.4 a GameCube to be spared, members told not to attack Unturned, a compromise urged (c0060, c0061, c0062); at h64.6 NEU asking UCF to stop gold squares entering its area, an overnight script suspected (c0064, c0068); at h71.0 an alliance offered to a griefed neighbour (c0072); at h72.6 FSU asking permission to place beside UCF, granted over USF (c0089, c0091).
+ week:       h27 to h50 tries, doubt; h51 to h57 the college corner, the logo; h59 to h73 neighbours, Pegasus, Unturned.
+ named:      UF and FloridaGators as partners in mutual defence (c0038, c0044, c0104); Unturned as neighbour not to be attacked (c0061); NEU and FSU as neighbours (c0064, c0089); Tetris and SDSU as rivals (c0024).
+ goal:       a UCF logo in the college corner; done at h57.2; a Pegasus tried and refused; held.
+```

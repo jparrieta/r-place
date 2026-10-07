@@ -1,0 +1,37 @@
+# r/habs: the note before the 350-word cut
+
+Leg A1b-06. Replayed from the checkpoint before the leg (A1.A1b-05) through the leg's own edits; the replay ends on the note the leg's checkpoint holds (verified).
+Before the cut 405 words; now 338. The note before the cut, then the change from now to it.
+
+## Before the cut
+
+```
+# r/habs  (read 2026-10-06)   coded share 0.072   off-platform pointers 5
+doing:      a hockey team sub; at h2.4 the moderators turning the sub into a joke where everyone is one fan, and a chorus of thanks to him through the first day (t01, c0001); at h4.1 a call to coordinate a Habs logo, the C not found (c0047, c0049); calls to mess with the Leafs logo, answered by Leafs fans telling them to make their own (c0062, c0064, c0243, c0244); at h25.2 coordinates for a logo, the Flames already done, accounts rotated (c0072, c0073, c0078); plans to go under the Pink Vomit Monster, which asked the same (c0080, c0084); Bruins and Senators fans blamed, rivals urged to work together as hockey against the rest (c0081, c0087, c0098, c0102); the dream declared dead at h29.2, moves to new coordinates twice, a no-registration chat (c0094, c0096, c0115, c0120, c0137); Habs told not to grief even the Leafs (c0119); the Void swallowing the logo at h45.5, another move west (c0107, c0125); an embassy from the Italy communities helping in return for a favour (c0127, c0133, c0134); the logo working at h50.5, a border thanked, help offered to r/acecombat after displacing it (c0140, c0143, c0146); a Habs-Leafs truce upheld (c0149, c0190); r/McGill asking them to pick another spot, members refusing to ruin MIT and McGill's work (c0180, c0177); an Original Six joint logo proposed (c0183, c0193); Bruins disavowing attacks (c0168).
+week:       h2 to h24 the April Fools joke; h4 to h33 first logo and losses; h39 to h51 moves, the Void, Italy; h51 to h65 the logo held, truces; after h73 shitposts policed.
+named:      the Leafs, Bruins, Senators as rivals then partners (c0062, c0168, c0149); the Pink Vomit Monster, r/acecombat, r/McGill, Serbia as neighbours (c0084, c0146, c0180, c0176); Italy's communities as helpers (c0134); Buffalo (c0205).
+goal:       a Habs logo; lost and moved at least three times; held from h50.5; Price and a 4 added.
+unsettled:  whether to fight rivals or join them (c0097, c0098, c0179).
+coder unsure: 197 threads out of scope.
+carrying:   c0102, c0134, c0149
+not this:   a room that held its first spot; the logo moved three times.
+ended:      last coordinating turn h64.87 (c0205, warning about Buffalo); after h73 recounting.
+struck by:  "You summed up my life."
+made:       three artworks at the edge, Montréal Canadiens 591 px, Carey Price 295 px, Jean Béliveau's #4, placed from h1.35; writers placed 0.184, pre-event members 0.12. The canvas keeps the logo.
+```
+
+## From now to before the cut
+
+```diff
+--- rooms/habs.md (now)
++++ rooms/habs.md (before the cut, A1b-06)
+@@ -1,6 +1,6 @@
+ # r/habs  (read 2026-10-06)   coded share 0.072   off-platform pointers 5
+-doing:      a hockey team sub; at h2.4 the moderators turning the sub into a joke where everyone is one fan, and a chorus of thanks to him through the first day (t01, c0001); at h4.1 a call to coordinate a Habs logo, the C not found (c0047, c0049); calls to mess with the Leafs logo, answered by Leafs fans telling them to make their own (c0062, c0064, c0243, c0244); at h25.2 coordinates for a logo (c0073); going under the Pink Vomit Monster (c0080, c0084); rivals urged to work together as hockey against the rest (c0098, c0102); the dream declared dead at h29.2, moves twice, a no-registration chat (c0094, c0115, c0137); Habs told not to grief even the Leafs (c0119); the Void swallowing the logo at h45.5 (c0107); an embassy from the Italy communities helping (c0127, c0134); the logo working at h50.5, help offered to r/acecombat after displacing it (c0140, c0146); a Habs-Leafs truce upheld (c0149, c0190); members refusing to ruin MIT and McGill's work (c0177, c0180); Bruins disavowing attacks (c0168).
+-week:       h2 to h24 the April Fools joke; h4 to h51 losses and moves; h51 to h65 the logo held, truces.
++doing:      a hockey team sub; at h2.4 the moderators turning the sub into a joke where everyone is one fan, and a chorus of thanks to him through the first day (t01, c0001); at h4.1 a call to coordinate a Habs logo, the C not found (c0047, c0049); calls to mess with the Leafs logo, answered by Leafs fans telling them to make their own (c0062, c0064, c0243, c0244); at h25.2 coordinates for a logo, the Flames already done, accounts rotated (c0072, c0073, c0078); plans to go under the Pink Vomit Monster, which asked the same (c0080, c0084); Bruins and Senators fans blamed, rivals urged to work together as hockey against the rest (c0081, c0087, c0098, c0102); the dream declared dead at h29.2, moves to new coordinates twice, a no-registration chat (c0094, c0096, c0115, c0120, c0137); Habs told not to grief even the Leafs (c0119); the Void swallowing the logo at h45.5, another move west (c0107, c0125); an embassy from the Italy communities helping in return for a favour (c0127, c0133, c0134); the logo working at h50.5, a border thanked, help offered to r/acecombat after displacing it (c0140, c0143, c0146); a Habs-Leafs truce upheld (c0149, c0190); r/McGill asking them to pick another spot, members refusing to ruin MIT and McGill's work (c0180, c0177); an Original Six joint logo proposed (c0183, c0193); Bruins disavowing attacks (c0168).
++week:       h2 to h24 the April Fools joke; h4 to h33 first logo and losses; h39 to h51 moves, the Void, Italy; h51 to h65 the logo held, truces; after h73 shitposts policed.
+ named:      the Leafs, Bruins, Senators as rivals then partners (c0062, c0168, c0149); the Pink Vomit Monster, r/acecombat, r/McGill, Serbia as neighbours (c0084, c0146, c0180, c0176); Italy's communities as helpers (c0134); Buffalo (c0205).
+ goal:       a Habs logo; lost and moved at least three times; held from h50.5; Price and a 4 added.
+ unsettled:  whether to fight rivals or join them (c0097, c0098, c0179).
+```

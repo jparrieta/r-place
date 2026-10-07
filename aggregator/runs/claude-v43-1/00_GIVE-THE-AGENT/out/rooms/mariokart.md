@@ -4,9 +4,10 @@ week:       nothing before h13.4; h13.4 to h24 the April Fools takeover; h31.4 t
 named:      r/ainbowroad as the builder asking for help (c0013); the Void's griefers (c0014); r/diepio (c0011).
 goal:       none of the room's own; the canvas work was r/ainbowroad's Pixel Mario Kart.
 unsettled:  nothing argued about the canvas; no reply to the call is coded.
-coder unsure: 21 threads out of scope.
+coder unsure: the r/ainbowroad call has no replies, so uptake unknown (62wb98); the void attack is the visitor's report; only 57 of 66 reply parents present in the record.
 carrying:   c0002, c0013, c0015
 not this:   a room that organised canvas work; its only canvas call came from another sub.
 ended:      last coordinating turn h31.38 (c0016, sending helpers to the canvas); nothing coded after h33.7.
 struck by:  "Joke's on you -- I loved DKR."
 made:       one artwork, Bowser, 247 px in the middle ring, placed from h1.53; writers placed 0.0, pre-event members 0.0. The canvas fields link a Bowser none of the room's writers placed.
+later:      2026-10-07, catch-up: the account changes nothing; a search for placing, defending or templates found only the one call. The brief shows Track Thursday as the room's weekly thread the week before (62ck1p) and changes nothing.

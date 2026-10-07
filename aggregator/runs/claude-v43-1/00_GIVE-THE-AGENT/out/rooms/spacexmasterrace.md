@@ -4,9 +4,10 @@ week:       h0.6 a yes chain; h9 to h31 the logo; h32 to h50 scripts, Tesla, r/e
 named:      r/epublica, green lattice, r/TeslaMotors, Star Trek, r/FederationPlace as neighbours under terms (c0058, c0021, c0053, c0100, c0063); r/Sweden (c0048, c0088); r/NZPlace (c0074).
 goal:       the SpaceX logo; letters by h19; then rockets and YESes.
 unsettled:  defend or abandon the YES (c0110, c0111).
-coder unsure: 51 threads out of scope.
+coder unsure: IRC, Discord and the World Congress seen only as returned (dfp0dsj, dfqefho, dfqvj7j); three calls known by titles only (62q788, 62yoyn, 63545n); whether to abandon the YES never settled (dfrr5ih); four coders.
 carrying:   c0007, c0055, c0061
 not this:   a room linked in the canvas fields to the SpaceX logo it built; the fields link only a YES.
 ended:      last coordinating turn h72.76 (c0112, a call to attack the blue corner); after h73 a script call, then a new canvas.
 struck by:  "Second YES done"
 made:       one artwork linked, Yes, 91 px at the edge, placed from h2.52; writers placed 0.203, pre-event members 0.203. The canvas fields do not link the logo, rockets or barge the room describes.
+later:      2026-10-07, catch-up: after the close one member rebuilt the logo on a replacement canvas (63a66t, dfsqmia); Star Trek's grief complaint was answered as unwanted (632ool, dfqu1sp). The brief shows yes as the room's stock answer, traced to an Elon AMA (dfk8i5f), the word it wrote three times.

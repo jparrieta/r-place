@@ -1,0 +1,35 @@
+# r/pitt: the note before the 350-word cut
+
+Leg A1b-15. Replayed from the checkpoint before the leg (A1.A1b-14) through the leg's own edits; the replay ends on the note the leg's checkpoint holds (verified).
+Before the cut 385 words; now 338. The note before the cut, then the change from now to it.
+
+## Before the cut
+
+```
+# r/pitt  (read 2026-10-06)   coded share 0.451   off-platform pointers 1
+doing:      a university sub; at h28.5 a Pitt script logo said to be needed, a spot to pick, yellow script in the Blue Corner proposed (c0001, c0003, c0004); at h32.2 a member's little Pitt logo already in the Blue Corner offered for a bigger one (c0006, c0007); at h32.9 42-39 put beside Penn State's logo, Penn State people finding it, PSU thanking them for the white background, then the logo chosen over the score (c0015, c0022, c0028, c0030); at h34.3 CMU writing above, expansion adapted (c0034, c0035); at h49.1 a megathread, the outline, a template, Ohio State's attack, a moderator removing a Penn State attack post (c0057, c0069, c0055, c0065); at h51.5 CMU's bot left alone, Xerath asking protection (c0076, c0077); at h54.2 done, holding ground (c0080, c0081); at h57.7 expansion upward, WVU invading, r/penguins admitting damage and offering repair (c0136, c0140, c0141, c0142); at h60.8 an agreement with PSU to leave each other alone invoked (c0089, c0091); at h61.4 the Giants claiming space, a Penguins space yielded (c0096, c0101); at h68.1 r/python scripts next door (c0105); at h70.5 New Mexico asking not to crowd its Zia, promises of no sun rays, one yellow line agreed, a Discord told (c0110, c0111, c0115, c0116); at h72.9 a WVU script warned of (c0121).
+week:       h28 to h34 the spot, 42-39; h49 to h54 the script; h57 to h72 expansion, neighbours, deals.
+named:      Penn State as rival held to a mutual let-alone (c0091); CMU, r/penguins, Xerath and New Mexico as neighbours (c0034, c0141, c0077, c0110); Ohio State, WVU and r/python as attackers (c0055, c0140, c0105).
+goal:       a Pitt script logo; done by h54.2; grown, held.
+unsettled:  attack Penn State or not (c0052, c0128, c0089).
+coder unsure: 24 threads out of scope.
+carrying:   c0030, c0091, c0116
+not this:   a room fighting its rival; members kept to 42-39 and an agreement to leave Penn State alone.
+ended:      last coordinating turn h72.94 (c0121, a WVU script warned of); after h73 the line of CMU, Pitt and New Mexico admired.
+struck by:  "in the PSU subreddit they are thanking us for expanding a white background"
+made:       two artworks at the edge, University of Pittsburgh 735 px with 4,199 placers and 42-39 457 px, placed from h1.23; writers placed 0.111, pre-event members 0.026.
+```
+
+## From now to before the cut
+
+```diff
+--- rooms/pitt.md (now)
++++ rooms/pitt.md (before the cut, A1b-15)
+@@ -1,5 +1,5 @@
+ # r/pitt  (read 2026-10-06)   coded share 0.451   off-platform pointers 1
+-doing:      a university sub; at h28.5 a Pitt script logo said to be needed, a spot to pick, yellow script in the Blue Corner proposed (c0001, c0003, c0004); at h32.2 a member's little Pitt logo already in the Blue Corner offered for a bigger one (c0006, c0007); at h32.9 42-39 put beside Penn State's logo, Penn State people finding it, PSU thanking them for the white background, then the logo chosen over the score (c0015, c0022, c0028, c0030); at h34.3 CMU writing above, expansion adapted (c0034, c0035); at h49.1 a megathread, a template, a moderator removing a Penn State attack post (c0057, c0069, c0065); at h51.5 CMU's bot left alone (c0076); at h54.2 done (c0081); at h57.7 WVU invading, r/penguins admitting damage and offering repair (c0140, c0141); at h60.8 an agreement with PSU to leave each other alone invoked (c0091); at h70.5 New Mexico asking not to crowd its Zia, one yellow line agreed (c0110, c0116); at h72.9 a WVU script warned of (c0121).
++doing:      a university sub; at h28.5 a Pitt script logo said to be needed, a spot to pick, yellow script in the Blue Corner proposed (c0001, c0003, c0004); at h32.2 a member's little Pitt logo already in the Blue Corner offered for a bigger one (c0006, c0007); at h32.9 42-39 put beside Penn State's logo, Penn State people finding it, PSU thanking them for the white background, then the logo chosen over the score (c0015, c0022, c0028, c0030); at h34.3 CMU writing above, expansion adapted (c0034, c0035); at h49.1 a megathread, the outline, a template, Ohio State's attack, a moderator removing a Penn State attack post (c0057, c0069, c0055, c0065); at h51.5 CMU's bot left alone, Xerath asking protection (c0076, c0077); at h54.2 done, holding ground (c0080, c0081); at h57.7 expansion upward, WVU invading, r/penguins admitting damage and offering repair (c0136, c0140, c0141, c0142); at h60.8 an agreement with PSU to leave each other alone invoked (c0089, c0091); at h61.4 the Giants claiming space, a Penguins space yielded (c0096, c0101); at h68.1 r/python scripts next door (c0105); at h70.5 New Mexico asking not to crowd its Zia, promises of no sun rays, one yellow line agreed, a Discord told (c0110, c0111, c0115, c0116); at h72.9 a WVU script warned of (c0121).
+ week:       h28 to h34 the spot, 42-39; h49 to h54 the script; h57 to h72 expansion, neighbours, deals.
+ named:      Penn State as rival held to a mutual let-alone (c0091); CMU, r/penguins, Xerath and New Mexico as neighbours (c0034, c0141, c0077, c0110); Ohio State, WVU and r/python as attackers (c0055, c0140, c0105).
+ goal:       a Pitt script logo; done by h54.2; grown, held.
+```

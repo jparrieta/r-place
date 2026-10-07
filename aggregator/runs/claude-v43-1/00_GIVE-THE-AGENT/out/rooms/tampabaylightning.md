@@ -4,9 +4,10 @@ week:       h11 to h24 spot and Cave Story; h28 to h37 building; h44 to h52 logo
 named:      r/cavestory as defended neighbour (c0017, c0098); carrot builders (c0068); r/PlaceStart (c0106); r/kanye, Red Wings, Blues (c0142, c0089, c0148); Habs (c0067).
 goal:       a Lightning logo; complete at h50.8; Tampa Bay text argued after.
 unsettled:  whether canvas talk belongs in the sub (c0121, c0127, c0129).
-coder unsure: 93 threads out of scope.
+coder unsure: the first logo and clutter posts survive as titles only (62q8fu, 633uwc); deleted turns hide who damaged the mark (62v4y2); Discord decisions unseen (633ono); the moderator dispute unresolved (dft8975); three coders.
 carrying:   c0020, c0098, c0118
 not this:   a room that won space by force; Cave Story chose to erase part of its own art.
 ended:      last coordinating turn h71.08 (c0149, attackers made to move); after h73 pride and complaints.
 struck by:  "YOU AND ME BUDDY- WE GOT THIS"
 made:       one artwork, Tampa Bay Lightning, 827 px at the edge, placed from h1.5, before the room's first coded turn; writers placed 0.275, pre-event members 0.17. The canvas keeps the logo.
+later:      2026-10-07, catch-up: one member could not get the chat to work and would not keep going without a shared target (dfr883y); a critic thanked Christ it was over (dfsa92y). The brief shows a daily Scoreboard Watch for the playoff race the week before (62ks3g), the race critics said the pixel posts crowded out.

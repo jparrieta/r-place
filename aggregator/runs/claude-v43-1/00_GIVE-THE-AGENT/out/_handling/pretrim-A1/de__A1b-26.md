@@ -1,0 +1,38 @@
+# r/de: the note before the 350-word cut
+
+Leg A1b-26. Replayed from the checkpoint before the leg (A1.A1b-25) through the leg's own edits; the replay ends on the note the leg's checkpoint holds (verified).
+Before the cut 351 words; now 343. The note before the cut, then the change from now to it.
+
+## Before the cut
+
+```
+# r/de  (read 2026-10-06)   coded share 0.049   off-platform pointers 33
+doing:      a German-language national sub; at h1.1 a call to paint an EU flag, coordinated through r/europe, pixel work split into advance, filling and defence (c0001, c0005, c0006); at h2.9 swastikas overpainted, members asking to be German and European at once (c0014, c0009); at h20.5 Discord servers (c0205); at h26.2 coordination redirected to r/PlaceDE (c0287); at h28.9 an alliance with France, EU chosen over repeating history (c0419, c0420); moderators keeping canvas posts in a megathread (c0424, c0506); at h38.0 Spain offered the right side if it maintains the EU flag (c0467); at h44.7 a Belgian merger read as takeover by some, the counterattack dropped (c0307, c0518); at h72.8 bots and scripts said to defend the projects (c0617).
+week:       h1 to h7 flags; h20 to h29 Discord, PlaceDE, France; h35 to h46 requests, Belgium; h72 scripts.
+named:      r/europe and r/PlaceDE as coordinators (c0005, c0287); France and Belgium as partners (c0420, c0525); Spain and Morocco as askers (c0453, c0320).
+goal:       a German flag joined to Europe; held, enlarged and merged with Belgium's.
+unsettled:  merger or takeover (c0307, c0520), and how far to expand (c0315).
+coder unsure: Discord, r/placeDE, spreadsheets and scripts seen only through returned plans (dfp7cn2, dfq4tys); removed image bodies; deleted turns in the post-event reckoning.
+carrying:   c0287, c0420, c0506
+not this:   the sub that organised Germany's flag; organisation moved to r/PlaceDE and Discord, and moderators kept canvas talk in one thread.
+ended:      last coordinating turn h68.46 (c0315, proposing westward expansion); after h73 scripts blamed and recounting.
+struck by:  "No need to have history repeat itself. EU it is"
+made:       five artworks at the edge, two Flags of Germany 10,505 px and 6,655 px shared with placeDE, Bundesadler, a Belgian-German union, German hearts, placed from h0.99; writers placed 0.129, pre-event members 0.08. The canvas keeps the flags.
+later:      2026-10-07, catch-up: calls to take France continued beside the alliance (dfp8rdv), and one member said nothing was agreed as Germans entered neighbours' flags (dfq7cp4); after the close another called the attacks egoistic, answered that r/all drove the surge (dfs2c6g, dfs4mnj). The brief changes nothing.
+```
+
+## From now to before the cut
+
+```diff
+--- rooms/de.md (now)
++++ rooms/de.md (before the cut, A1b-26)
+@@ -4,7 +4,7 @@
+ named:      r/europe and r/PlaceDE as coordinators (c0005, c0287); France and Belgium as partners (c0420, c0525); Spain and Morocco as askers (c0453, c0320).
+ goal:       a German flag joined to Europe; held, enlarged and merged with Belgium's.
+ unsettled:  merger or takeover (c0307, c0520), and how far to expand (c0315).
+-coder unsure: Discord, r/placeDE and scripts seen only through returned plans (dfp7cn2, dfq4tys); removed bodies.
++coder unsure: Discord, r/placeDE, spreadsheets and scripts seen only through returned plans (dfp7cn2, dfq4tys); removed image bodies; deleted turns in the post-event reckoning.
+ carrying:   c0287, c0420, c0506
+ not this:   the sub that organised Germany's flag; organisation moved to r/PlaceDE and Discord, and moderators kept canvas talk in one thread.
+ ended:      last coordinating turn h68.46 (c0315, proposing westward expansion); after h73 scripts blamed and recounting.
+```

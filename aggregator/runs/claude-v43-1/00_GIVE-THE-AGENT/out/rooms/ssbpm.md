@@ -4,9 +4,10 @@ week:       h10 to h33 April Fools and a first proposal; h42.5 to h53 the M star
 named:      r/ainbowroad as host under an agreement (c0119, c0112); ManningPlace as pressure (c0113, c0130); r/BABYMETAL as ally (c0139); green lattice (c0069); PCMR as a distraction for defacers (c0136).
 goal:       a PM logo, cut down to just the M; settled at h47; held.
 unsettled:  letter colour and whether to move again (c0111, c0112, c0131).
-coder unsure: 88 threads out of scope.
+coder unsure: the Discord decisions unseen (dfqg4gl, dfqpffd); one WDT served with a clipped middle; layouts, progress images and the time lapse unseen; the after-account runs past the window (6395tc); two coders.
 carrying:   c0093, c0110, c0130
 not this:   a room that started on day one; it began building at h42.5.
 ended:      last coordinating turn h72.10 (c0116, asking whether the big M should cover the little one); after h73 thanks, a time lapse, regrets.
 struck by:  "M is for mopyright infringement"
 made:       one artwork, Project M, 725 px at the edge, placed from h1.54; writers placed 0.06, pre-event members 0.041. The canvas keeps the M.
+later:      2026-10-07, catch-up: one member boasted of purging the agreed coloured tiles and was told it could get them erased (dfsab0i, dfsb179); an organiser opposed the first move made while they slept (dfs8pz5). The brief shows the Weekly Discussion Thread launched that week (61rig3), where the first canvas call was posted.

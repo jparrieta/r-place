@@ -1,0 +1,35 @@
+# r/taiwan: the note before the 350-word cut
+
+Leg A1b-15. Replayed from the checkpoint before the leg (A1.A1b-14) through the leg's own edits; the replay ends on the note the leg's checkpoint holds (verified).
+Before the cut 364 words; now 329. The note before the cut, then the change from now to it.
+
+## Before the cut
+
+```
+# r/taiwan  (read 2026-10-06)   coded share 0.126   off-platform pointers 9
+doing:      a national sub whose logo said Thaiwan for April Fools (c0001, c0002); at h47.4 a call to build a Taiwan flag, PTT to be mobilized, limited by Reddit's account-age rule (c0005, c0006, c0007); at h49.4 a mini flag built, Poland's red field proposed, r/trees not to be killed (c0009, c0010, c0013); at h50.9 a heart near the French hearts, hearts turning into Chile or Texas (c0012, c0017); at h52 the flag up, maintenance across time zones (c0030, c0032); at h57.4 a border, Taipei 101 proposed in OSU's old space, OSU saying it is defending it (c0019, c0038, c0041); at h58.5 positions, attackers and a resolved dispute listed (c0022, c0023); at h60.9 PTT Gossiping called, r/Morocco overriding by script (c0025, c0026); at h61.8 a GIMP plan, a placebot image, scripts answered with scripts (c0049, c0055, c0029); at h67.6 r/CCJ2 planning to attack, Telegram offered (c0058, c0059); at h69.9 the room's own scripts fighting TW#1, a Discord asked (c0062, c0064); at h71 the West wall traded to r/danganronpa, r/morocco's raid cancelled by one of its own (c0065, c0066).
+week:       h15 to h37 April Fools; h47 to h60 the flag, hearts, borders; h60 to h72 scripts, raids, deals.
+named:      PTT as the Taiwanese board to mobilize (c0006, c0025); r/Morocco and r/CCJ2 as attackers (c0026, c0058); r/danganronpa, OSU and r/trees as neighbours (c0065, c0041, c0013); Japan and CCJ2 regulars credited after (c0074).
+goal:       a Taiwan flag; up by h52; held, with TW#1 on it by h69.3.
+unsettled:  what to write on the flag, and whose scripts to follow (c0014, c0034, c0062).
+coder unsure: 68 threads out of scope.
+carrying:   c0062, c0065, c0066
+not this:   a room whose attackers stayed attackers; one canceled its own raid and sabotage calls turned into help.
+ended:      last coordinating turn h71.54 (c0067, an account pledged to defend 24/7); after h73 alliances praised, a flag on a second board.
+struck by:  "Could our own team stop fighting against the TW#1 in white please? Thanks"
+made:       two artworks at the edge, Flag of the ROC 319 px with 1,119 placers and Taiwan R.O.C. 98 px, placed from h1.75; writers placed 0.185, pre-event members 0.018.
+```
+
+## From now to before the cut
+
+```diff
+--- rooms/taiwan.md (now)
++++ rooms/taiwan.md (before the cut, A1b-15)
+@@ -1,5 +1,5 @@
+ # r/taiwan  (read 2026-10-06)   coded share 0.126   off-platform pointers 9
+-doing:      a national sub whose logo said Thaiwan for April Fools (c0001, c0002); at h47.4 a call to build a Taiwan flag, PTT to be mobilized, limited by Reddit's account-age rule (c0005, c0006, c0007); at h49.4 a mini flag built, Poland's red field proposed, r/trees not to be killed (c0009, c0010, c0013); at h52 the flag up (c0030); at h57.4 Taipei 101 proposed in OSU's old space, OSU saying it is defending it (c0038, c0041); at h60.9 PTT Gossiping called, r/Morocco overriding by script (c0025, c0026); at h61.8 a GIMP plan, a placebot image, scripts answered with scripts (c0049, c0055, c0029); at h67.6 r/CCJ2 planning to attack, Telegram offered (c0058, c0059); at h69.9 the room's own scripts fighting TW#1, a Discord asked (c0062, c0064); at h71 the West wall traded to r/danganronpa, r/morocco's raid cancelled by one of its own (c0065, c0066).
++doing:      a national sub whose logo said Thaiwan for April Fools (c0001, c0002); at h47.4 a call to build a Taiwan flag, PTT to be mobilized, limited by Reddit's account-age rule (c0005, c0006, c0007); at h49.4 a mini flag built, Poland's red field proposed, r/trees not to be killed (c0009, c0010, c0013); at h50.9 a heart near the French hearts, hearts turning into Chile or Texas (c0012, c0017); at h52 the flag up, maintenance across time zones (c0030, c0032); at h57.4 a border, Taipei 101 proposed in OSU's old space, OSU saying it is defending it (c0019, c0038, c0041); at h58.5 positions, attackers and a resolved dispute listed (c0022, c0023); at h60.9 PTT Gossiping called, r/Morocco overriding by script (c0025, c0026); at h61.8 a GIMP plan, a placebot image, scripts answered with scripts (c0049, c0055, c0029); at h67.6 r/CCJ2 planning to attack, Telegram offered (c0058, c0059); at h69.9 the room's own scripts fighting TW#1, a Discord asked (c0062, c0064); at h71 the West wall traded to r/danganronpa, r/morocco's raid cancelled by one of its own (c0065, c0066).
+ week:       h15 to h37 April Fools; h47 to h60 the flag, hearts, borders; h60 to h72 scripts, raids, deals.
+ named:      PTT as the Taiwanese board to mobilize (c0006, c0025); r/Morocco and r/CCJ2 as attackers (c0026, c0058); r/danganronpa, OSU and r/trees as neighbours (c0065, c0041, c0013); Japan and CCJ2 regulars credited after (c0074).
+ goal:       a Taiwan flag; up by h52; held, with TW#1 on it by h69.3.
+```

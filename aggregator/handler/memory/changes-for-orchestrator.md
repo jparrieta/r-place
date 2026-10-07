@@ -83,3 +83,10 @@ HANDLER.md amended: after each close the handler checks substance, not only the 
 - **The addition.** Your plan read B1d's rooms from `kinds-B1.jsonl`, but that file has a line only when a kind is met; a room read with nothing new leaves no trace there. Hence `pass2-B1.jsonl` and `mem.py reread`.
 - **Tests.** `tools/tests/test_pass2.py`, 8 cases, in `run.sh`; two planted defects in the B1 self-test. Validator self-test 139 of 139 and the instrument's fixture run passed in the container; `test_pass2.py` passed on the device. The harness test is owed on the Mac.
 - **Installed.** Instrument; the run's `00_GIVE-THE-AGENT/tools/`, `CONTROL/harness/validation_tools/`, `DROPS/B1/stages/` (B1 not yet handed over). `VERSIONS.tsv`, 7 rows. B1 has not begun, so no departure.
+
+## 11. The notes cut to fit 350 words (J, 7 October 2026, 10:10 Berlin: "go ahead")
+
+- **Found.** The note hook refused any note over 350 words, so the analyst cut 562 notes to fit: 409 in the first pass (16,097 words) and 153 in the catch-up (4,169 words), 115 rooms in both.
+- **Recovered.** `handler/memory/scripts/pretrim_extract.py` replays each note from the checkpoint before its leg through the leg's own Write, Edit and MultiEdit calls (a resumed session carries earlier legs, so entries are cut to the leg's window) and keeps the fullest state the hook refused; every replay ends on the note the leg's checkpoint holds (562 of 562). Files: the analyst's `out/_handling/pretrim-A1/<sub>__<leg>.md`, `INDEX.tsv`.
+- **Check.** `checks/stage_A1.py`: the catch-up read rule applies only to a leg with a declared block, so the restore leg, which reads no sources, is not refused for it.
+- **Next.** One restore leg after A1b-48; the analyst decides room by room. Scope with J.

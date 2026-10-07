@@ -4,9 +4,10 @@ week:       h4 to h22 flags fixed; h20 to h44 requests, the Crusader Kings pact;
 named:      r/Norge and its Discord as where decisions happen (c0007, c0065, c0093); Crusader Kings under a pact (c0039); Texas, Steven Universe, Slovakia, Day9 as askers (c0066, c0074, c0083, c0045); Sweden (c0001, c0016).
 goal:       none settled here; the flags were r/Norge's work.
 unsettled:  whether this sub speaks for Norway on the canvas (c0050, c0064, c0082).
-coder unsure: 62 threads out of scope.
+coder unsure: many visitor posts keep titles only (62yvzd, 636ank, 636ch1); r/norge and the Discord poll seen only as reported (dfrogwe); the kids-took-the-Discord claim one member's (dfrdpn5).
 carrying:   c0039, c0065, c0087
 not this:   a room that organised Norway's expansion; it mostly forwarded requests to r/Norge.
 ended:      last coordinating turn h72.20 (c0106, FFXIV accepting a refusal); after h73 memories.
 struck by:  "all the r/place action has taken *place* in r/norge"
 made:       two artworks at the edge, Kvikk Lunsj 417 px and Ostehøvel 201 px, placed from h1.5; writers placed 0.019, pre-event members 0.006. The fields do not link the flags the room discussed.
+later:      2026-10-07, catch-up: not this qualified; members here also coordinated repair and claimed space, refusing r/Madeon and Texas (dfom3hp, dfpbsa2, dfrgd2p). The brief shows outsiders bringing job and travel questions to this room the week before (61jlo2), as visitors later brought canvas requests.

@@ -4,9 +4,10 @@ week:       h20 to h48 the prank and a call; h56.6 to h63 the crown and scripts;
 named:      the pansexual flag's builders and the Mariners as neighbours (c0039, c0047); Kamen Rider (c0074); the Red Wings (c0046); the blue corner (c0115).
 goal:       a KC crown; set at h56.6; mostly placed by the close.
 unsettled:  whether the result was a win (c0077, c0078, c0098).
-coder unsure: 40 threads out of scope.
+coder unsure: counter-search found canvas talk below the triage windows of three threads (62kayp, 635ttj, 638ynp); deleted turns around the first spot and script; the make-our-mark post a title only (634psn); four coders.
 carrying:   c0027, c0057, c0074
 not this:   a room that held back from scripts; members ran up to six accounts each.
 ended:      last coordinating turn h72.96 (c0082, calling help to the logo); after h73 the result argued.
 struck by:  "NOTHING IS TOO DIFFICULT FOR /r/KCROYALS"
 made:       one artwork, Kansas City Royals, 394 px in the middle ring, placed from h1.44; writers placed 0.12, pre-event members 0.009. The canvas keeps the crown.
+later:      2026-10-07, catch-up: after the close one member called it trash and another failed, while the organiser credited quite the group effort (dfs5kfa, dfrzwjz, dftk1c8). The brief shows dong as the room's word for a home run the week before (dfm4o4m), the collective dongs the main call asked for.

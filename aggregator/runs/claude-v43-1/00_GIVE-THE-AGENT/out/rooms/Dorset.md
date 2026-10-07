@@ -4,9 +4,10 @@ week:       nothing before h60.1; h60.1 the heart; h65.8 to h66.7 the flag, Devo
 named:      r/DevonUK as helper (c0003, c0004); r/Cornwall, whose flag was taken over (c0005, c0006); the Calgary Flames as neighbour (c0008).
 goal:       a Dorset flag and heart; found under way at h65.8; held with Devon.
 unsettled:  nothing argued beyond colour (c0009).
-coder unsure: none; the one thread read.
+coder unsure: the heart's image unseen, so only the claim stands (634hhb); who fixed the colour and who caused the losses not shown (dfrk5xb, dfs0syl); r/DevonUK and r/Cornwall heard only through this thread.
 carrying:   c0004, c0005, c0008
 not this:   a room that built its flag; members found it already under way and said a Cornish flag had been taken for it.
 ended:      last coordinating turn h68.57 (c0015, an alliance with neighbouring counties); h73.4 stocktaking.
 struck by:  "I stole us a heart on r/place"
 made:       one artwork, Devon and Dorset, 236 px at the edge, shared with DevonUK, placed from h1.82, long before the room's first coded turn; writers placed 0.023, pre-event members 0. The canvas keeps the shared flag.
+later:      2026-10-07, catch-up: the stocktaking also said New Cornwall was decimated (dfs0syl), and no Cornish reclaim appears; the alliance was one member's belief (dfrn7od). The brief shows five items on two days the week before and changes nothing.

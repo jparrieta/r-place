@@ -309,6 +309,8 @@ def _check_catchup_reads(outdir, root):
         b = re.match(r"^#(\d+)\t(\S+)", line)
         if b and int(b.group(1)) == int(m.group(1)):
             block.add(vlib.canon(b.group(2)).lower())
+    if not block:      # a leg past 20 with no declared block (the restore of cut notes, 2026-10-07) reads no sources
+        return
     diary = [d for d in vlib.diary_lines(outdir, "A1")]
     pass_start = min((_stamp(d.get("t")) for d in diary if re.match(r"^A1b-([2-9]\d|\d{3})", str(d.get("leg") or ""))),
                      default="")

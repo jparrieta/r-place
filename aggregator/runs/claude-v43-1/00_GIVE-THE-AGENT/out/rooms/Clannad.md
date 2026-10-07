@@ -4,9 +4,10 @@ week:       nothing before h58.3; h58.3 finished and protection asked; h60 to h6
 named:      the Celtics as border pressure (c0009); anime_irl and its Discord as neighbour in contact (c0012, c0013); r/steinsgate, denied as a pact partner (c0016, c0018).
 goal:       the Dango with CLANNAD and TUTURU; finished before the room's first coded turn; held.
 unsettled:  whether to expand (c0008, c0011).
-coder unsure: 10 threads out of scope.
+coder unsure: the two days of making before the thread are a member's claim (dfr9ca1); the anime_irl Discord talk unseen (dfrpf3e); two deleted bodies, one beside the pact answer (dfr522o, dfsogwx); one event thread only.
 carrying:   c0003, c0010, c0013
 not this:   a room that organised its build in the thread; the thread opens with the work already done.
 ended:      last coordinating turn h69.56 (c0014, helping anime_irl defend the border); after h80 pride.
 struck by:  "np boss we have killed their borders"
 made:       one artwork, Clannad Dango & Tuturu!, 611 px at the edge, placed from h1.43, long before the room's first coded turn; writers placed 0.096, pre-event members 0.022. The canvas keeps the Dango.
+later:      2026-10-07, catch-up: the account changes nothing; searches found no call to take others' space, no rejection of the anime_irl contact and no loss report. The brief shows a small rewatch-and-feels room with no ritual the week before and changes nothing.

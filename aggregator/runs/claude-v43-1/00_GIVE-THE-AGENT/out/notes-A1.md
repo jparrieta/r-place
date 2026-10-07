@@ -1041,3 +1041,17 @@ Case.md showed earlier lines wrong in four notes, and each later line says so wh
 `validate.py A1` before the close: 0 errors, 76 warnings (notes over the 350-word guide, 18 of them from this block).
 
 Ledgers at the close: lexicon 1,289 lines, running file 693 lines (7 block-38 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 475 of 702 catch-up rooms are done. The next leg reads catch-up block 39, from rush (`order-A1.txt` line 1184).
+
+## Close report, leg A1b-39 (catch-up block 39), 2026-10-07
+
+Block 39 is read: 25 of 25 rooms, rush to redpandas. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. In all 25 notes the old `coder unsure:` line said none, gave the brief's coverage, or held no case.md limit; it was replaced with case.md's limits and thread ids. Two briefs were the harness's empty brief (drawhelix, thepointing).
+
+Case.md showed earlier lines wrong in two notes, and each later line says so while the earlier lines stand: rush (the no-racism line was a moderator's, not members') and NieR (the Emil post is not tied to the 2B call, and no pact with r/India is shown). In norway the later line qualifies the not-this line.
+
+The head left at the A1b-38 close was 3,007 words, over the 3,000-word limit, because I did not recount after the last trim; this was logged at the start of this leg and the head is brought under the limit at this close. One running-file entry written this leg carried a wrong id for rit and was corrected in place the moment after writing; that is logged in the diary.
+
+`mem.py diary --grep "amended" --limit 500` now returns too few lines to count a whole block, because the diary has grown; `--limit 2000` returns all 25.
+
+`validate.py A1` before the close: 0 errors, 98 warnings (notes over the 350-word guide, 22 of them from this block).
+
+Ledgers at the close: lexicon 1,289 lines, running file 700 lines (7 block-39 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 500 of 702 catch-up rooms are done. The next leg reads catch-up block 40, from natsume (`order-A1.txt` line 1209).

@@ -4,9 +4,10 @@ week:       h3.8 to h6 a call and doubt; h42 to h56 a spot sought, moves, Canada
 named:      Canada as helper (c0028); Crusader Kings and GuildWars2 (c0022, c0037); Norway's voters (c0053); r/serbia (c0059); Poland (c0043).
 goal:       the Albanian flag with an eagle; never settled; half an eagle by h73.
 unsettled:  where to build, and whether enough people will come (c0003, c0033).
-coder unsure: 44 threads out of scope.
+coder unsure: six initiating posts keep titles only (62nl5h, 62z27b, 637bba); IRC and Discord talk unseen; the Norway vote and helpers are the moderator's report (dfs0f1n); the Serbian plan only one poster's account (63bl12); two coders.
 carrying:   c0003, c0028, c0053
 not this:   a room that built Albania's flag; the canvas flags were placed from h1.79 while the room still lacked manpower.
 ended:      last coordinating turn h72.54 (c0045, building by hand); after h73 pride.
 struck by:  "EVERYBODY EXPAND THE FLAG UP"
 made:       three artworks at the edge, two Albanian flags of about 500 px and a heart, placed from h1.79; writers placed 0.02, pre-event members 0.011. The canvas keeps Albanian flags.
+later:      2026-10-07, catch-up: the moderator blamed the close for the half eagle (dfs0f1n); a last post pointed to pxls.space with no uptake shown (dftkmqq). The brief shows AutoModerator's free-talk and culture threads and a live match chat the week before (61rico, dfcur0j) and changes nothing.

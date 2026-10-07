@@ -4,9 +4,10 @@ week:       h9 to h36 April Fools; h39 to h41 Emil; h45 to h58 defence and allie
 named:      r/nioh as April Fools partner (c0005); r/India and r/monero as allies (c0068, c0059, c0101); r/loltyler1 as attacker (c0100, c0116); r/Eesti as neighbour (c0098).
 goal:       a small Emil head; done at h41.3; redesigned and done again at h63.5; held.
 unsettled:  whether to switch designs while under attack (c0077, c0080).
-coder unsure: 590 threads out of scope.
+coder unsure: the r/India post's body removed, no pact shown (62zixs); a contested-help thread mostly removed (6364n3); Discord, designs and the overlay seen only as returned; ten coders, no agreement measure.
 carrying:   c0052, c0078, c0099
 not this:   a room that fought; a member said the canvas negotiated more than it fought.
 ended:      last coordinating turn h72.01 (c0099, r/Eesti offering a border); after h73 pride.
 struck by:  "And the whole reddit negotiated/cooperated more than fought."
 made:       one artwork, NieR, 648 px in the middle ring, placed from h1.2, before the room's first call; writers placed 0.138, pre-event members 0.087. The canvas keeps Emil.
+later:      2026-10-07, catch-up: the doing and named lines go too far; the Emil post is not tied to the 2B call (dfpz6kp, 62yg3e), and no pact with r/India is shown (62zixs). The brief shows a moderator running the sub's CSS and themes the week before (dfens4t), the work behind the theme swap.

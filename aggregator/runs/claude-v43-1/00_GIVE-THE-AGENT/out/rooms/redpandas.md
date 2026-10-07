@@ -4,9 +4,10 @@ week:       nothing before h21.8; h21.8 to h32 the panda; h32 to h40 doubts and 
 named:      r/kilian as co-builder (c0023, c0026); ProtectTheArt (c0022); r/austria (c0044); r/foxes (c0049); Green Lattice as a bigger work (c0041).
 goal:       a red panda head and frame; done by h31.3; held.
 unsettled:  whether to redesign the body (c0036, c0038, c0052).
-coder unsure: 13 threads out of scope.
+coder unsure: the style-overhaul post's body deleted (62xnid); a deleted comment in the main thread (dfqxjsr); ProtectTheArt's and Austria's Discords seen only as invitations (dfpepf5, dfq9p05); whether they helped Austria not shown.
 carrying:   c0016, c0026, c0040
 not this:   a room that tried to be grand; members settled for the head as good enough.
 ended:      last coordinating turn h47.09 (c0046, Austria's Discord invite); after h73 the panda intact.
 struck by:  "The more the merrier"
 made:       one artwork, a red panda, 374 px at the edge, placed from h1.93; writers placed 0.295, pre-event members 0. The canvas keeps the panda.
+later:      2026-10-07, catch-up: after the close a member mourned a different panda pushed over (dft5mfi), and members argued whether a posted picture was theirs or a youtuber's (dft4wb3, dft6df8). The brief shows a zoo-photo room the week before and changes nothing.

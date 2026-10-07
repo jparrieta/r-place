@@ -1,0 +1,35 @@
+# r/prequelmemes: the note before the 350-word cut
+
+Leg A1b-18. Replayed from the checkpoint before the leg (A1.A1b-17) through the leg's own edits; the replay ends on the note the leg's checkpoint holds (verified).
+Before the cut 363 words; now 341. The note before the cut, then the change from now to it.
+
+## Before the cut
+
+```
+# r/prequelmemes  (read 2026-10-07)   coded share 0.06   off-platform pointers 49
+doing:      a film meme sub of 467 coded authors writing the Tragedy of Darth Plagueis as text; at h1.9 an invitation, an H already started, coordinates near 455 and 500, 160 (c0001, c0002, c0023); at h5 letters standardized at five by three (c0067, c0068); at h9.7 r/redcorner offering a red background, welcomed (c0117, c0118); at h14 good art to be left alone (c0137); at h16 a rainbow-and-red compromise with r/ainbowroad, held to the first limit, then the text redone so as not to encroach (c0146, c0179, c0030); at h19.2 a central point for negotiations (c0183); at h25.4 peace with the archlinux logo (c0166); at h33 to h48 taunting r/sequelmemes refused, it was spared as a helper (c0275, c0295); at h50 attacks on other groups a no-go by standing decision (c0426); at h55 new projects refused as too thin (c0499, c0472); at h57.5 strict defence-only diplomacy (c0435); at h61.7 a script refused to keep it script-free (c0438, c0439); at h69.7 a memorial request for their area refused (c0586, c0588).
+week:       h2 to h16 the text written; h16 to h26 rewrites and borders; h26 to h73 upkeep, Senate, defence.
+named:      r/redcorner, r/ainbowroad and r/archlinux as border partners (c0117, c0146, c0166); r/sequelmemes as rival spared (c0295); the Void and r/The_Donald as attackers (c0585, c0385); KSP and TheExpanse as neighbours helped (c0433, c0354).
+goal:       the Tragedy of Darth Plagueis in full; set at h1.9; rewritten neater by h34.6; held, with the Senate.
+unsettled:  whether to expand or add projects, and bots (c0499, c0547, c0617, c0619).
+coder unsure: 1,508 threads out of scope.
+carrying:   c0179, c0426, c0435
+not this:   a meme army that expanded at will; it rewrote its text to keep off neighbours and made attacks a no-go.
+ended:      last coordinating turn h72.90 (c0614, allies sought for joint defence); after h73 neighbours' thanks, successor canvases.
+struck by:  "like it happened randomly on a spot after hundreds of strangers just randomly decided to work together"
+made:       two artworks in the middle ring, Darth Plagueis The Wise 21,710 px at 529, 214 with 89,518 placers, placed from h1.06, and The Senate 264 px; writers placed 0.105, pre-event members 0.046.
+```
+
+## From now to before the cut
+
+```diff
+--- rooms/prequelmemes.md (now)
++++ rooms/prequelmemes.md (before the cut, A1b-18)
+@@ -1,5 +1,5 @@
+ # r/prequelmemes  (read 2026-10-07)   coded share 0.06   off-platform pointers 49
+-doing:      a film meme sub of 467 coded authors writing the Tragedy of Darth Plagueis as text; at h1.9 an invitation, an H already started, coordinates near 455 and 500, 160 (c0001, c0002, c0023); at h5 letters standardized at five by three (c0067, c0068); at h9.7 r/redcorner offering a red background, welcomed (c0117, c0118); at h16 a rainbow-and-red compromise with r/ainbowroad, then the text redone so as not to encroach (c0146, c0179, c0030); at h25.4 peace with the archlinux logo (c0166); at h33 to h48 taunting r/sequelmemes refused, it was spared as a helper (c0275, c0295); at h50 attacks on other groups a no-go by standing decision (c0426); at h55 new projects refused as too thin (c0499, c0472); at h57.5 strict defence-only diplomacy (c0435); at h61.7 a script refused to keep it script-free (c0438, c0439); at h69.7 a memorial request for their area refused (c0586, c0588).
++doing:      a film meme sub of 467 coded authors writing the Tragedy of Darth Plagueis as text; at h1.9 an invitation, an H already started, coordinates near 455 and 500, 160 (c0001, c0002, c0023); at h5 letters standardized at five by three (c0067, c0068); at h9.7 r/redcorner offering a red background, welcomed (c0117, c0118); at h14 good art to be left alone (c0137); at h16 a rainbow-and-red compromise with r/ainbowroad, held to the first limit, then the text redone so as not to encroach (c0146, c0179, c0030); at h19.2 a central point for negotiations (c0183); at h25.4 peace with the archlinux logo (c0166); at h33 to h48 taunting r/sequelmemes refused, it was spared as a helper (c0275, c0295); at h50 attacks on other groups a no-go by standing decision (c0426); at h55 new projects refused as too thin (c0499, c0472); at h57.5 strict defence-only diplomacy (c0435); at h61.7 a script refused to keep it script-free (c0438, c0439); at h69.7 a memorial request for their area refused (c0586, c0588).
+ week:       h2 to h16 the text written; h16 to h26 rewrites and borders; h26 to h73 upkeep, Senate, defence.
+ named:      r/redcorner, r/ainbowroad and r/archlinux as border partners (c0117, c0146, c0166); r/sequelmemes as rival spared (c0295); the Void and r/The_Donald as attackers (c0585, c0385); KSP and TheExpanse as neighbours helped (c0433, c0354).
+ goal:       the Tragedy of Darth Plagueis in full; set at h1.9; rewritten neater by h34.6; held, with the Senate.
+```

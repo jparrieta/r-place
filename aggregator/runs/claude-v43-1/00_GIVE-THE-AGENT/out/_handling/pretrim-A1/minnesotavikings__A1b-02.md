@@ -1,0 +1,36 @@
+# r/minnesotavikings: the note before the 350-word cut
+
+Leg A1b-02. Replayed from the checkpoint before the leg (A1.A1b-01) through the leg's own edits; the replay ends on the note the leg's checkpoint holds (verified).
+Before the cut 354 words; now 346. The note before the cut, then the change from now to it.
+
+## Before the cut
+
+```
+# r/minnesotavikings  (read 2026-10-06)   coded share 0.233   off-platform pointers 16
+doing:      April Fools fake news and a non-football roster game, separate from the canvas (c0001, c0050); an early mark by one member, lost, then asked to be redone (c0032, c0035, c0037); at h36.5 asking whether to represent the sub, starting a purple S, switching to SKOL because a logo would take forever (c0087, c0096, c0097); a Norseman below SKOL with a template and a Discord choosing skin colour (c0143, c0151, c0158); a truce with the Packers, argued as mutual noninterference, and a contested purple number 4 (c0167, c0172, c0181, c0189); a placement script maintained by one member, debugged in the thread (c0178, c0183, c0186); peace with the Raptors and a shared heart (c0154, c0204, c0226).
+week:       h5.9 to h37 April Fools; h9 an early mark; h36.5 to h39 SKOL begun; h51 the Norseman; h52.9 to h56 truce talk, script; h56.6 Raptors; h60 to h62 repairs, bot update, heart; h70.6 to h73 all hands, joint custody of the 4, the truce breaking; after h73 the spot claimed for history, a Raptors fan converted.
+named:      r/GreenBayPackers as the rival under truce, attacker and co-owner of the 4 (c0167, c0258, c0278); r/torontoraptors as neighbour and ally (c0201, c0205); the Browns, the Celtics, r/drugs, the Dodgers as neighbours (c0108, c0111, c0179, c0267); the lattice and the void as vandals (c0166, c0255).
+goal:       SKOL, then a Norseman; set at h37.8 by one member's plan; then a purple 4 to mock the rival.
+unsettled:  the truce and the 4 (c0174, c0225, c0264); scripting (c0192, c0271).
+coder unsure: Discord decisions unseen; 125 threads left unopened.
+carrying:   c0097, c0181, c0258
+not this:   a room fighting its rival all week; it held a truce with the Packers for most of the build.
+ended:      last coordinating turn h73.04 (c0273, coordinating a shared final script with the Packers, cut off by the end); after h73 pride and memorial for the 4.
+struck by:  "joint custody of the #4"
+made:       one Minnesota Vikings artwork, 1659 px in the middle ring, placed from h1.1; writers placed 0.187, pre-event members 0.096. The canvas keeps SKOL and the Norseman.
+```
+
+## From now to before the cut
+
+```diff
+--- rooms/minnesotavikings.md (now)
++++ rooms/minnesotavikings.md (before the cut, A1b-02)
+@@ -1,6 +1,6 @@
+ # r/minnesotavikings  (read 2026-10-06)   coded share 0.233   off-platform pointers 16
+ doing:      April Fools fake news and a non-football roster game, separate from the canvas (c0001, c0050); an early mark by one member, lost, then asked to be redone (c0032, c0035, c0037); at h36.5 asking whether to represent the sub, starting a purple S, switching to SKOL because a logo would take forever (c0087, c0096, c0097); a Norseman below SKOL with a template and a Discord choosing skin colour (c0143, c0151, c0158); a truce with the Packers, argued as mutual noninterference, and a contested purple number 4 (c0167, c0172, c0181, c0189); a placement script maintained by one member, debugged in the thread (c0178, c0183, c0186); peace with the Raptors and a shared heart (c0154, c0204, c0226).
+-week:       h5.9 to h37 April Fools; h9 an early mark; h36.5 to h39 SKOL begun; h51 the Norseman; h52.9 to h56 truce talk, script; h56.6 Raptors; h60 to h62 repairs, bot update, heart; h70.6 to h73 all hands, joint custody of the 4, the truce breaking; after h73 pride.
++week:       h5.9 to h37 April Fools; h9 an early mark; h36.5 to h39 SKOL begun; h51 the Norseman; h52.9 to h56 truce talk, script; h56.6 Raptors; h60 to h62 repairs, bot update, heart; h70.6 to h73 all hands, joint custody of the 4, the truce breaking; after h73 the spot claimed for history, a Raptors fan converted.
+ named:      r/GreenBayPackers as the rival under truce, attacker and co-owner of the 4 (c0167, c0258, c0278); r/torontoraptors as neighbour and ally (c0201, c0205); the Browns, the Celtics, r/drugs, the Dodgers as neighbours (c0108, c0111, c0179, c0267); the lattice and the void as vandals (c0166, c0255).
+ goal:       SKOL, then a Norseman; set at h37.8 by one member's plan; then a purple 4 to mock the rival.
+ unsettled:  the truce and the 4 (c0174, c0225, c0264); scripting (c0192, c0271).
+```

@@ -4,9 +4,10 @@ week:       h17 to h31 the flag and a shared plan; h33 to h47 Belgium; h47 to h5
 named:      r/vzla and Ecuador as partners (c0010, c0057); Belgium as rival then helper (c0013, c0034); Argentina, Germany, Spain (c0026, c0035, c0043); r/GranColombia (c0025); Mexico (c0068).
 goal:       Colombia's flag joined with Venezuela's and Ecuador's; agreed at h52.9; held.
 unsettled:  whether the canvas belongs in the sub (c0036, c0037, c0081).
-coder unsure: 41 threads out of scope.
+coder unsure: event posts with removed bodies, titles only; r/GranColombia and Discord decisions unseen (62y4yp, 62zzut); German help asked but not shown given (dfq4o9h); no binding vote or single leader shown.
 carrying:   c0003, c0034, c0057
 not this:   a room linked in the canvas fields to the flag it fought for; the fields link only a heart.
 ended:      last coordinating turn h73.02 (c0076, help asked for Belgium); after h73 a timelapse.
 struck by:  "CorazóÑ"
 made:       one artwork linked, Colombian Heart, 70 px in the middle ring, placed from h3.46; writers placed 0.094, pre-event members 0.019. The fields do not link the flag the room describes.
+later:      2026-10-07, catch-up: the Belgian ambassador's treaty attempt failed by their own report (dfq2p8t, dfq69kw); after the close #BelgiumNeverForget was the memory kept (dftk0i5). The brief shows a bilingual travel-and-news room with no ritual the week before and changes nothing.

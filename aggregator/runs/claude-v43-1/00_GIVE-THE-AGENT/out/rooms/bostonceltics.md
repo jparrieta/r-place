@@ -4,9 +4,10 @@ week:       h14 to h24 April Fools; h24 to h35 first logo; h47 to h57 truce talk
 named:      the Lakers, Sixers, Raptors as attackers (c0039, c0103); the blue corner, Green Lattice, r/MadokaMagica and anime_irl, r/keo as neighbours (c0035, c0088, c0108, c0114); Clannad, fused with the logo (c0141).
 goal:       a Celtics logo; restarted at h54.7; complete at h63.2.
 unsettled:  retaliate against the Lakers or not (c0076, c0077, c0097).
-coder unsure: 166 threads out of scope.
+coder unsure: Discord strategy seen only as returned (632t7v, 634al3); short event posts keep titles only (62x8zv, 632rmw); takeovers blamed on others are the room's claims (dfpshzk); nine coders, no agreement measure.
 carrying:   c0041, c0108, c0123
 not this:   a room that had moderators' help throughout; the moderators later refused a sticky.
 ended:      last coordinating turn h71.54 (c0127, rounding the border); after h73 jokes about the blemished logo.
 struck by:  "Winners create, tankers destroy"
 made:       one artwork, Boston Celtics, 675 px at the edge, placed from h1.65; writers placed 0.057, pre-event members 0.048. The canvas keeps the logo, blemished.
+later:      2026-10-07, catch-up: a call to destroy the Lakers logo was refused in reply (dfqwxi2, dfqxct5); members called the canvas a fad to stop (dfs3urg). The brief shows shhh as the room's jinx joke about the seed the week before (dfhd0k6), the shhhh members put into the logo.

@@ -4,9 +4,10 @@ week:       h34 to h41 the T and moves; h47 to h57 Michigan, script, Ohio State;
 named:      Wisconsin as host and ally (c0013, c0034); Ohio State under a treaty (c0051, c0057); Michigan (c0043); Rutgers (c0039); Indiana (c0108); Illinois (c0094).
 goal:       a Temple T; done at h40.9 on the third try; held.
 unsettled:  shift the T or defend it; attack Ohio State or keep peace (c0052, c0053, c0060).
-coder unsure: 28 threads out of scope.
+coder unsure: deleted turns inside the Wisconsin exchange and the template post (634wid); Discord deliberation unseen (dfrrv19); who placed which pixels, and whether the banner changed, not shown (dfsrqpm); image posts known by titles only.
 carrying:   c0033, c0034, c0057
 not this:   a room organised in Discord; the Discord came at h70.5, near the close.
 ended:      last coordinating turn h72.43 (c0084, updating the script for the current spot); after h73 a wrong pixel mourned.
 struck by:  "We'll watch the W if you watch the T."
 made:       one artwork, Temple University, 289 px at the edge, placed from h2.33, before the room's first coded turn; writers placed 0.19, pre-event members 0.024. The canvas keeps the T.
+later:      2026-10-07, catch-up: a member reported expanding turf with 50+ pixels and another proposed red-boxing Ohio State, given script advice (dfquq4o, dfqnkjp, dfqnq2n); after the close the T was proposed as the sub's banner (dfsbkl5). The brief shows a quiet campus-advice room the week before and changes nothing.

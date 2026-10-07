@@ -4,9 +4,10 @@ week:       h11.8 the call; h27.5 to h30.6 the logo; h43 the red dot; h51 to h58
 named:      WPI as asker (c0017); r/farmcarrots (c0018); r/McGill as neighbour (c0023); the orange banner as obstacle (c0007, c0019).
 goal:       a small MIT logo; set at h27.5 by one member; Tim never built.
 unsettled:  whether to try something larger (c0005, c0008, c0013).
-coder unsure: 8 threads out of scope.
+coder unsure: one deleted comment under the coordinate talk (dfparx5); the linked designs and defence script unseen, so canvas state not shown (dfrgz6k); two event threads only.
 carrying:   c0003, c0008, c0022
 not this:   a room where many decided; one member set the corner because nobody replied.
 ended:      last coordinating turn h64.02 (c0021, a defence script); nothing coded after.
 struck by:  "hey guise thanks for being good neighbours sorry we looked like we were going to attack for a minute we have resized our birb to fit without overwriting your logo"
 made:       one artwork, MIT, 135 px at the edge, placed from h2.0; writers placed 0.091, pre-event members 0.006. The canvas keeps the logo.
+later:      2026-10-07, catch-up: the account changes nothing; searches for attack words found only fear of fighting the orange banner and an offer to work with it (dfpap3i, dfqll8l). The brief shows a small housing-advice room with MIT in-jokes the week before and changes nothing.
