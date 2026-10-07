@@ -4,9 +4,10 @@ week:       h5 to h22 choosing; h22 to h40 Trogdor built; h49 to h73 Achievement
 named:      r/ainbowroad, the Elite logo and other neighbours as helpers (c0021, c0097); Donald Glover fans, Germans and Austrians as attackers (c0069, c0120, c0126); Achievement Hunter as a neighbour not to burn (c0099, c0129).
 goal:       Trogdor the Burninator; done by h32.3; held to the close with two rogue pixels.
 unsettled:  whether Trogdor should burn his neighbours (c0117, c0122, c0149).
-coder unsure: 14 threads out of scope.
+coder unsure: deleted and removed bodies (62xoj8, 636w88, 631cj4); a neighbour-help request with no replies (635pmj); images and the time-lapse not treated as evidence (dftm5k1); the attackers' side absent.
 carrying:   c0083, c0130, c0142
 not this:   a room's own work; members credited many outside the sub with creating and protecting Trogdor.
 ended:      last coordinating turn h72.56 (c0130, togetherness over burnination); after h73 medals awarded.
 struck by:  "it turns out, "as much fire as possible" is not very much fire"
 made:       one artwork in the middle ring, Trogdor the Burninator 1,085 px at 675, 339, 1,979 placers, placed from h1.01; writers placed 0.149, pre-event members 0.008.
+later:      2026-10-07, catch-up: a small set built it amid indifference; one member asked others to stop (dfr1j3y), and the thanks post called the place posts spam (dfs1fby). The brief shows show quotations used as bare jokes (dfegu7g), the register the builders coordinated in.

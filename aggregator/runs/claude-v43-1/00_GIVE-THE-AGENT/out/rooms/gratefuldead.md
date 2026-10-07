@@ -4,9 +4,10 @@ week:       h4 to h33 attempts and loss; h56 to h62 Halo, a new spot; h71 to h73
 named:      r/halo as the neighbour not fought (c0053, c0063); r/Phish and r/indieheads as other music subs on the canvas (c0082, c0083).
 goal:       a Stealie; tried from h3.9; a small one at 708, 617 from h61.6; made, as found after the close.
 unsettled:  where, and whether enough people would come (c0009, c0047).
-coder unsure: 123 threads out of scope.
+coder unsure: two slices, no reader held the week; the early proposals never linked to the late build (62nml8, 63395k); the final raiders unknown (dfstlx3); deleted comments; place 2 activity only reported.
 carrying:   c0010, c0047, c0059
 not this:   a room that fought for space; members refused to fight Halo.
 ended:      last coordinating turn h72.45 (c0071, Dead to be written); after h73 the small Stealie found.
 struck by:  "We don't fight here man, Jerry's fretboard is our language"
 made:       two linked entries for one Stealie at 707, 618, 95 px, about 200 placers, placed from h2.2; writers placed 0.276, pre-event members 0.13.
+later:      2026-10-07, catch-up: not this qualified; the takeover of Master Chief was the room's own proposal, and one member urged picking a winnable fight before the apology (dfrcgps, dfresda). The brief shows the Steal Your Face skull discussed (dfe46rx) and a member-made album that week (6296by).

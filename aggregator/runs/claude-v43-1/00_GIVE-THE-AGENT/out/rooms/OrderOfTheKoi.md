@@ -4,9 +4,10 @@ week:       h53.6 to h58.3 the alliance, a rebuild; h69 to h73 destruction, blam
 named:      r/RoninAtTheEdgeOfTime as ally (c0001); r/theitalyplace and the Italians as the ones who destroyed the Koi (c0010, c0015).
 goal:       the Koi; defended from h53.6; destroyed by h69.4; a rebuild called at h72 but not reported.
 unsettled:  regroup elsewhere or let the Koi be remembered (c0011, c0013).
-coder unsure: none; 0 threads out of scope.
+coder unsure: the Discord post's body deleted (637s6b); a deleted reply under the rebuild call (dfrxtfn); design images unseen (632f62); the alliance's negotiation and any rebuild outcome not shown.
 carrying:   c0002, c0011, c0012
 not this:   a room that kept its work; the Italians' lotuses covered it.
 ended:      last coordinating turn h72.06 (c0020, uniting to rebuild); at h73 a rude reply.
 struck by:  "Are we regrouping elsewhere, or will the koi swim forever in the pools of our memory?"
 made:       no linked artwork; a Koi region at 123, 448 derived from the pixel record, 541 px; writers placed 0.108, pre-event members 0. The first coded turn is h53.57. A late room (contrast, late side): it arrived to defend and restore a work already built, nearest the third kind.
+later:      2026-10-07, catch-up: blame was split; one member blamed the lotuses on a leader addressed as yours (dfrxr0g), which may mean the room's own leader rather than r/theitalyplace, as the doing line reads it. The brief is the harness's empty brief.

@@ -4,9 +4,10 @@ week:       h5 to h23 the triangle, factions, coalitions; h28 to h37 OSU, the ci
 named:      r/osugame as ally then rival (c0038, c0070); r/PurplePixels, rainbow road and green as friends or allies (c0043, c0020, c0009); the blue corner as enemy (c0019).
 goal:       pink on the canvas, the Sovereign Triangle; lost and reclaimed; held.
 unsettled:  whether osugame was ally or user of pink (c0063, c0069, c0070).
-coder unsure: none; 0 threads out of scope.
+coder unsure: two post bodies deleted, titles kept (62ob4g, 62onvq); image posts only titles (62op3m, 62zgzb); whether OSU overwrote pink or defended itself left to the speakers (dfr3ppp, dfr4ehi).
 carrying:   c0028, c0056, c0070
 not this:   a conquering colour; members said pink surrounds and shares rather than overwrites.
 ended:      last coordinating turn h60.92 (c0070, background-filling called servitude); after h73 osugame remembered as heroes.
 struck by:  "Our triangle is our history... Our heritage... But the Sovereign Circle is our future."
 made:       one artwork at the edge, The Sovereign Triangle 3,488 px at 505, 980, 60,303 placers, placed from h1.12; writers placed 0.003, pre-event members 0. Twenty coded authors claim a region placed by sixty thousand.
+later:      2026-10-07, catch-up: not this qualified; members celebrated the fall of OSU's letters and gave coordinates to rebuild (632r0p), and one welcomed a mixed pink and purple sea (62raie). The brief is the harness's empty brief.

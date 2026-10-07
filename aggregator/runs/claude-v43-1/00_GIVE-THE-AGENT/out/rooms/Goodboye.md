@@ -4,9 +4,10 @@ week:       h39 to h44 the dog and the Dutch; h44 to h63 clogs, votes, raids; h7
 named:      the Dutch and r/thenetherlands as border party then ally (c0006, c0084); CirkelTrek and the Netherlands asked for help (c0026); r/Ireland and Undertale as allies (c0051); Swedish and Dutch bots as threats (c0068, c0081).
 goal:       the dog and a Cloggo Doggo; settled from h43.8; held, pixel perfect at the end by its account.
 unsettled:  the sign's text and how far to expand (c0028, c0041, c0060).
-coder unsure: 16 threads out of scope.
+coder unsure: ten post bodies deleted, among them polls and pleas (62zowx, 63a7bs); Discord, the main base, unseen (62yh1s); who ran the scripts and how many pixels they set not shown (dfrxjva).
 carrying:   c0020, c0060, c0064
 not this:   a sub that existed before the dog; members confirm it was made for the canvas dog (c0040).
 ended:      last coordinating turn h72.39 (c0075, stop scripts with wrong coordinates); after h73 thanks and a vote on the sub's future.
 struck by:  "GOOD GOOD BOYES DO NOT WEAR PANTS"
 made:       one artwork at the edge, Goodboye 1,996 px at 847, 30, 9,905 placers, placed from h1.39; writers placed 0.072, pre-event members 0. The linked region predates the room's first turn (h39.6).
+later:      2026-10-07, catch-up: the butthole agreement was one member's, said to be their own opinion (dfrfm9o); scripts with a hardcoded tongue overrode design wishes (dfrxjva). After the close, members polled whether to become a dog sub (63a5dx). The brief is the harness's empty brief.

@@ -4,9 +4,10 @@ week:       h17 to h31 the flag; h37 to h50 loss, the ban; h54 to h71 peace.
 named:      Czechs, Slovaks and the Netherlands as rivals (c0007, c0014, c0085); Armenia, Serbia and India as allies helped and helping (c0044, c0072, c0078); the Kalmar Union and r/leafs as neighbours (c0100, c0041).
 goal:       a Russian flag; lost at h37.6; a small one perfect by h65.5.
 unsettled:  expand or keep borders (c0028, c0030).
-coder unsure: 232 threads out of scope.
+coder unsure: three slices, no reader held the week; many event-post bodies removed; the script, images and 2ch talk unseen (dfqau8h); r/russiaclan after the move unseen (630z8h); the last two calls drew no human reply (636gnn, 637g8n).
 carrying:   c0051, c0097, c0101
 not this:   a room organized to hold a flag; members said there was zero coordination, and moderators removed r/place posts at h49.6.
 ended:      last coordinating turn h71.39 (c0109, make the flag great again); nothing after.
 struck by:  "there is zero coordination at this stage."
 made:       one artwork in the middle ring, Flag of Russia 118 px at 509, 727, 400 placers, placed from h2.89; writers placed 0.059, pre-event members 0.
+later:      2026-10-07, catch-up: the doing and not-this lines' moderators removing posts goes past the record; the poster carries no moderator mark, and the post claims the moderators' thanks (630z8h). One member praised the room's teamwork (62zi0c). The brief shows the weekly off-topic thread and the NP-link bot (62lpy3, dfdjjx9).

@@ -4,9 +4,10 @@ week:       h10 to h42 figures built and lost; h45 to h58 relocation, alliances;
 named:      r/osugame and r/Philippines as hosts and allies (c0053, c0119); r/darksouls, FNaF and Touhou as neighbours (c0118, c0069, c0102); the start bar as a hazard (c0047).
 goal:       Finn, Jake and BMO; rebuilt on allies' space by h55; BMO, Finn and Jake kept.
 unsettled:  whether permission is needed on an open canvas (c0101, c0104, c0122).
-coder unsure: 88 threads out of scope.
+coder unsure: two slices, no reader held the week; deleted bodies in planning and defence posts; the Discord truce's deliberation unseen (dfq1wwx); templates and images unseen (dfpki50); pxls.space work only reported (dfsz3ay).
 carrying:   c0065, c0085, c0101
 not this:   a room with a manager; members said there was no management.
 ended:      last coordinating turn h72.97 (c0109, a white outline proposed); after h73 the figures kept forever.
 struck by:  "We shouldn't need permission to draw what we want on a open canvas."
 made:       one artwork at the edge, Adventure Time 534 px at 438, 967, 5,856 placers, placed from h1.66; writers placed 0.06, pre-event members 0.004.
+later:      2026-10-07, catch-up: OSU was ally to some speakers and destroyer to others, with no settled view (dfr2672, 637vki); after the close one member carried Lemongrab and LSP to pxls.space (dfsz3ay). The brief shows fan-art posts and a miniseries announcement and changes nothing.

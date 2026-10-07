@@ -4,9 +4,10 @@ week:       h42 to h55 calls and a first site; h68 to h70 a second site over ASO
 named:      ASOV as the sign the flag was built across, whose member asked a deal (c0007, c0009).
 goal:       a Montenegrin flag; first site at h53.5; second at h68.3; held, narrowly.
 unsettled:  whether the flag and the ASOV sign could share space (c0009, c0010).
-coder unsure: 4 threads out of scope.
+coder unsure: the first call's body deleted (62ywmt); a deleted comment after the success claim (dft8c9n); the Discord's talk unseen (636e5e, 63eu4u); the Imgur plan not evidence.
 carrying:   c0003, c0007, c0010
 not this:   a room that bargained for its spot; it answered the neighbour's request for a deal with its own plan.
 ended:      last coordinating turn h69.50 (c0010, the flag going ten pixels down); after h73 success and an expired Discord invite.
 struck by:  "Jedva, ostalo nam je nekih 5 piksela, ali odlicno. Bravo nam ga!"
 made:       one artwork at the edge, Flag of Montenegro 468 px at 235, 873, 539 placers, placed from h1.93; writers placed 0.057, pre-event members 0. The linked flag sits near the second site (252, 894) and predates the room's first call (h42.1).
+later:      2026-10-07, catch-up: the account changes nothing; after the close a member who spent the day in the Discord asked for a new invite (63eu4u). The brief shows ten items of news headlines that week and changes nothing.

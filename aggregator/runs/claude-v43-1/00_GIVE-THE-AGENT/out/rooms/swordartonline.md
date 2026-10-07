@@ -4,9 +4,10 @@ week:       h11 to h30 April Fools, Elucidator; h36 to h55 the place, expansion 
 named:      r/Philippines and r/osuplace from r/osugame as allies giving permission (c0053); the osu lands as the neighbour not to invade (c0031, c0032).
 goal:       Elucidator, Dark Repulser and the sub's name; immortalized by h40.2; held.
 unsettled:  expand or not (c0030, c0029, c0032).
-coder unsure: 88 threads out of scope.
+coder unsure: two slices, no reader held the week; a call's body deleted (62v2i5); the official Discord's decisions unseen (635f3u, dfpc9d4); whether the drawing survived not settled; a deleted reply in the warning thread (635djz).
 carrying:   c0012, c0032, c0053
 not this:   a room that took its spot; it sat on allies' land by their permission.
 ended:      last coordinating turn h71.82 (c0029, make it bigger); after h73 character arguments.
 struck by:  "We always are. We just have to fight back faster than they can fight us."
 made:       two artworks at the edge, Elucidator & Dark Repulser 434 px with 4,793 placers and Sword Art Online 253 px, placed from h2.36; writers placed 0.062, pre-event members 0.027.
+later:      2026-10-07, catch-up: the immortalized claim was provisional, an attack reported hours later (62yko1, dfq5ext); the alliance rule came from the organiser's own diplomacy (635f3u). The brief shows the numbered Weekly Sinon and Weekly Asuna series (62gray, 61b7tv), the format the real poster returned through.

@@ -4,9 +4,10 @@ week:       h24 to h45 April Fools, ideas; h45 to h57 the sign; h58 to h73 loss,
 named:      Green Lattice as a crowded permission office (c0034, c0048); Kingdom Hearts, r/tf2 and Runescape as neighbours (c0041, c0055, c0077); r/2007scape as a protector (c0097).
 goal:       a Sips sign; made at h56.8; lost at h62.3; turned around by the close.
 unsettled:  where, and whether to wait for permission (c0035, c0042, c0045).
-coder unsure: 39 threads out of scope.
+coder unsure: proposal and sign posts' bodies deleted (62xf72, 62zgrf, 63369i); Green Lattice's Discord, the Pastebin script and images unseen (dfrfk11, dfrxn1w); the final mark's design not checkable.
 carrying:   c0034, c0048, c0097
 not this:   a room that held its sign alone; an r/2007scape member said they kept the sub name on.
 ended:      last coordinating turn h72.39 (c0059, an adapted script shared); after h73 the impact celebrated, "i remain".
 struck by:  "I destroyed it last night lol. Thought it was vandalism"
 made:       one artwork at the edge, Sips 166 px at 989, 136, 914 placers, placed from h1.75; writers placed 0.051, pre-event members 0.007.
+later:      2026-10-07, catch-up: the Spacemen plan never started, its organiser waiting on permission (dfrio0n); one newcomer found the sub through the mark (dfs87p7). The brief shows i remain added to every comment by the sub's style (dfguhmx), the phrase repeated after the close.

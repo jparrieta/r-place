@@ -1127,3 +1127,15 @@ Case.md showed an earlier line wrong or overstated in six rooms: oltp (the title
 `validate.py A1` before the close: 0 errors, 230 warnings (notes over the 350-word guide, 22 of them from this block). The diary moved into part A1-48 during this leg.
 
 Ledgers at the close: lexicon 1,289 lines, running file 750 lines (8 block-45 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 650 of 702 catch-up rooms are done. The next leg reads catch-up block 46, from swordartonline (`order-A1.txt` line 1359).
+
+## Close report, leg A1b-46 (catch-up block 46), 2026-10-07
+
+Block 46 is read: 25 of 25 rooms, swordartonline to destiny. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. 24 old `coder unsure:` lines were replaced with case.md's limits and thread ids: 19 gave the brief's coverage, four said none (OrderOfTheKoi, PinkUnion, austriahungary, edboxes), and in ibo the line kept its case.md search finding and gained thread ids. One line already drawn from case.md was kept and extended (wario). Five briefs were the harness's empty brief (OrderOfTheKoi, PinkUnion, austriahungary, edboxes, Goodboye).
+
+Case.md showed an earlier line wrong or overstated in seven rooms: OrderOfTheKoi (the lotus leader may be the room's own), austriahungary (h43.1 is a call, not joining), thetreesnetwork (BEESNETWORK was the sub's own April Fools rename), Villanova (the route through the Pepe was only proposed), russia (the redirect's poster carries no moderator mark), FinalFantasy (the megathread opened at h56.8, not h68.3) and cowchop (the pony blame is one commenter's). The later lines say so and the earlier lines stand. In PinkUnion, gratefuldead, cavestory and destiny the later line qualifies the not-this line.
+
+Two small logged edits to earlier lines in destiny replaced gendered pronouns for the streamer with "the streamer". In FinalFantasy a gendered pronoun drafted into the new later line was changed before logging.
+
+`validate.py A1` before the close: 0 errors, 251 warnings (notes over the 350-word guide, 21 of them from this block). The diary moved into part A1-49 during this leg.
+
+Ledgers at the close: lexicon 1,289 lines, running file 758 lines (8 block-46 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 675 of 702 catch-up rooms are done. The next leg reads catch-up block 47, from marvel (`order-A1.txt` line 1384).

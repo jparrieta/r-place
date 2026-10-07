@@ -4,9 +4,10 @@ week:       h58 to h60 the call; h64 to h67 school jokes; h71 attack; h73 to h95
 named:      the Discord as the place to organise (c0004, c0011); r/ibojerk as where a warning post belongs (c0016).
 goal:       an IB logo; asked at h58.6; under attack at h71; judged a failure, then joked into art.
 unsettled:  whether the mark was a failure (c0023, c0025).
-coder unsure: a search for success or completion near canvas terms found no items; 171 threads out of scope.
+coder unsure: a search for success near canvas terms found no items; the make-a-mark post's body and comments deleted (634duy); Discord and private messages unseen (dfr94bo); the final image not citable (6385cs).
 carrying:   c0018, c0019, c0025
 not this:   a room that built its logo from the start; its first turn was h58.6, and the linked logo was placed from h1.14.
 ended:      last coordinating turn h72.07 (c0011, a Discord seeker sent to the sidebar); after h73 the mark mourned and mocked.
 struck by:  "The light blue symbolizes our tears and sweat"
 made:       one artwork at the edge, IB Logo 401 px at 781, 700, 994 placers, placed from h1.14 to h72.97; writers placed 0.117, pre-event members 0.023. A late room (contrast, late side): joined and defended a logo placed from the first hours, which the canvas keeps while the room called it a failed mission.
+later:      2026-10-07, catch-up: the account changes nothing; one member still boasted the world would know their name (dfs9pu6). The brief shows CAS, IA and exam-doom jokes (62j33n, dffqvbp), the school register the canvas talk and its parody reused.

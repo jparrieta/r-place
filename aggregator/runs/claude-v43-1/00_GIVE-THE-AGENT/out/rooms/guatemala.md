@@ -4,9 +4,10 @@ week:       h49 to h58 a flag plan, a start; h58 hearts; h79 to h83 one heart le
 named:      Costa Rica as neighbour (c0002); the Lakers, Kuwait and Romania as holders of hearts they contested (c0014, c0019, c0018).
 goal:       a Guatemalan flag; started at h56.5; not held; a heart kept.
 unsettled:  the flag's size and place (c0011, c0012).
-coder unsure: 6 threads out of scope.
+coder unsure: the takeover post's body deleted, title and reply kept (63435g); why the Lakers took the heart or the flags failed not shown (dfr57o4, dfsiae9); the other groups' side absent.
 carrying:   c0003, c0015, c0019
 not this:   a room that built the linked heart from the start; its first turn was h49.4.
 ended:      last coordinating turn h58.93 (c0019, told to migrate from Kuwait's heart); after h73 one heart found.
 struck by:  "None of the Central American flags stood a chance haha."
 made:       one artwork in the middle ring, Guatemala Heart 70 px at 593, 761, 228 placers, placed from h2.12; writers placed 0.002, pre-event members 0. A late room (contrast, late side): ask and move, ending with a heart others had placed from the first hours.
+later:      2026-10-07, catch-up: the account changes nothing; the proportions changed because 5:8 would not work at that scale (dfr4s4b), and one member's takeover call was answered by a Kuwait builder (63435g, dfr6t37). The brief shows travel advice and changes nothing.

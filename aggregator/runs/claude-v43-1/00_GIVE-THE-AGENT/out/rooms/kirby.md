@@ -4,9 +4,10 @@ week:       h3 to h13 cleaning and the lattice; h13 to h28 April Fools; h30 to h
 named:      Green Lattice as diplomacy list and pattern to respect (c0007, c0039); a Luigi as overwriter (c0055); OSU and r/osuplace as landholders asked for an alliance (c0059, c0060).
 goal:       a Kirby sprite kept clean; settled from h2.9; more Kirbys tried; the first held.
 unsettled:  where more Kirbys could go (c0025, c0058).
-coder unsure: 44 threads out of scope.
+coder unsure: deleted bodies under surviving titles (62s87v, 638jg4); the r/osuplace reply not visible (dfrqw8y); PlaceTwo seen only through a request (63bku4); images unseen.
 carrying:   c0004, c0007, c0059
 not this:   a room that drew many Kirbys; its record shows one held and a second half lost to a Luigi.
 ended:      last coordinating turn h70.17 (c0061, waiting for OSU's reply); after h73 victory claimed, the work moved to PlaceTwo.
 struck by:  "We have fought for this logo for three days. This is our land."
 made:       three artworks at the edge named Kirby, 324, 259 and 184 px, with 2,249, 18,566 and 336 placers, placed from h1.45, h1.61 and h2.3; writers placed 0.016, pre-event members 0.003. The largest Kirby drew 18,566 placers; the room's 33 coded authors describe one or two.
+later:      2026-10-07, catch-up: one starter quit, overwhelmed (dfra9qj), and one commenter called a vandalism a test of support (dfqf1o8); after the close the r/place Kirby replaced the sub's snoo (63eh8j). The brief shows a cursed Kirby image joke that week (61m0a4) and changes nothing else.

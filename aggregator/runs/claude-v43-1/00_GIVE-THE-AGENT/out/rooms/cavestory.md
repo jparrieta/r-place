@@ -4,9 +4,10 @@ week:       h7 to h36 Quote, Curly, treaties; h43 to h52 Balrog, Tampa, Bitcoin;
 named:      r/bitcoin, Tampa Bay Lightning, Rainbow Road and the Carrot Farm as neighbours (c0007, c0032, c0015, c0033); r/placestart as permission office (c0068); Germany as defender (c0030).
 goal:       Cave Story characters; Quote and Curly by h29.8; Misery added; held.
 unsettled:  Balrog, and how far to expand (c0049, c0053, c0055).
-coder unsure: 8 threads out of scope.
+coder unsure: six post bodies deleted, among them a defence call, a poll and a truce (630ezv, 6335se, 637lnp); the Discord's planning unseen (dfqvl0e); other communities' full positions absent.
 carrying:   c0050, c0055, c0068
 not this:   a room that fought for space; it dropped Balrog rather than look toxic.
 ended:      last coordinating turn h71.78 (c0076, a Tampa truce proposed); after h73 Tampa and Bitcoin thanked.
 struck by:  "I do not want people to think Cave Story is a toxic group."
 made:       one artwork at the edge, Cave Story 1,207 px at 312, 880, 3,076 placers, placed from h1.13; writers placed 0.198, pre-event members 0.006.
+later:      2026-10-07, catch-up: not this qualified; members refused to stop drawing Balrog and backed continuing over Tampa (dfqi16o, dfqize0), so dropping it was argued, not agreed. The brief shows a sparse week of fanwork and boss tips and changes nothing.

@@ -4,9 +4,10 @@ week:       h23 to h36 built and peace made; h36 to h72 upkeep, neighbours helpe
 named:      Green Lattice and Halo as peace partners (c0021, c0011); Funhaus as uncontrolled neighbour (c0024); Linux, Naruto and One Piece as neighbours helped (c0036, c0051); r/mylittlepony as vandal (c0057).
 goal:       the Cow Chop logo for the channel's anniversary; begun h25.8; complete h35.7; held.
 unsettled:  whether the holes were damage or design (c0056, c0071, c0086).
-coder unsure: 66 threads out of scope.
+coder unsure: two slices, no reader held the week; event posts' bodies deleted (633i4e); a Discord only requested (dfplqli); Telegram warnings and Linux's bot setup seen only as reported (dft1r00).
 carrying:   c0021, c0051, c0073
 not this:   a room fighting griefers alone; its holes were filled by others' anti-griefers, and it repaired neighbours' logos too.
 ended:      last coordinating turn h72.20 (c0064, names dropped to finish the logo); after h73 the holes recounted, bots asked about.
 struck by:  "A lot of it was anti-griefers who thought the hole was caused by griefing."
 made:       one artwork at the edge, CowChop logo 2,722 px at 828, 397, 7,602 placers, placed from h1.14; writers placed 0.147, pre-event members 0.051. The linked region predates the room's first call (h23.2).
+later:      2026-10-07, catch-up: the doing line's pony traced to r/mylittlepony is one commenter's attribution (dfrjfyc); one member refused peace until the cow and knife were done (dfpmx0z). The brief shows the Sunday Weekly Update (61md7p), the format that credited the canvas work.

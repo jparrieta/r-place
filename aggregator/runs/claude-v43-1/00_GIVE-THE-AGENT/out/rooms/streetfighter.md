@@ -4,9 +4,10 @@ week:       h0 to h22 April Fools; h54 to h68 Ryu attempts; h62 to h71 Brazil's 
 named:      r/ainbowroad as the territory's holder (c0026, c0030); Brazil as maker of Blanka (c0029, c0031); Mega Man as a work to replace (c0020).
 goal:       a Ryu; tried from h54.2; never stood; Blanka by Brazil thanked instead.
 unsettled:  where a Ryu could stay (c0024, c0028).
-coder unsure: 397 threads out of scope.
+coder unsure: nine slices, no reader held the week; the Chun-Li post's body deleted, no reply (632row); a late Ryu reply removed; no contact or approval from r/ainbowroad shown (dfrf79q); Brazil's reply absent.
 carrying:   c0025, c0026, c0031
 not this:   a room that placed its own work; its linked artwork is Brazil's Blanka.
 ended:      last coordinating turn h68.36 (c0030, the spot in rainbow road's centre); at h71.33 Brazil thanked.
 struck by:  "You have to contact the dudes you are drawing over if you want anything to stay."
 made:       one artwork at the edge, Blanka 369 px at 105, 740, 1,779 placers, shared with r/brasil, placed from h1.45; writers placed 0.009, pre-event members 0.007. The canvas links the Blanka the room found and thanked Brazil for, not the Ryu it tried.
+later:      2026-10-07, catch-up: the account changes nothing; the advice to seek r/ainbowroad's approval stayed advice (dfrf79q, dfriz21), and no completion or credit claim appears. The brief shows a Gief's Gym Ryu guide that week (623d4i), the character the room tried to draw.

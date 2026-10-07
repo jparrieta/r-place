@@ -4,9 +4,10 @@ week:       h56.7 to h58.9 the logo; h69 to h71 the border and the Pepe.
 named:      OSU as the neighbour whose old spot they took (c0001); the Temple logo as another target (c0006); a Pepe as saboteur (c0019).
 goal:       a small Villanova logo; begun at h56.7; complete at h58.9; defended.
 unsettled:  nothing recorded.
-coder unsure: 4 threads out of scope.
+coder unsure: the reference and progress images not textual evidence (633fzf); the defence post drew no replies (63788b); nothing after placement ended; whether separate work went on elsewhere not shown.
 carrying:   c0001, c0008, c0019
 not this:   a room with many builders; one member began it and asked for help, top author 0.526.
 ended:      last coordinating turn h70.88 (c0018, the border through the Pepe); nothing after.
 struck by:  "Yeah it's not much space, but no one is trying to fix it. Better than nothing I figured."
 made:       one artwork at the edge, Villanova University Logo 280 px at 550, 964, 1,204 placers, placed from h1.77; writers placed 0.055, pre-event members 0. A late room (contrast, late side), the sixth kind: one member, then a few helpers, in space left after the OSU war.
+later:      2026-10-07, catch-up: the doing line's border extended through the Pepe overstates it; going through an undefended Pepe was proposed, not reported done (dfrt2fj). The brief shows a sub of twelve items that week and changes nothing.

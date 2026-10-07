@@ -4,9 +4,10 @@ week:       h10 to h30 April Fools, the mage, rainbowroad; h34 to h60 attacks, F
 named:      r/ainbowroad and r/france as allies (c0022, c0059); r/chronotrigger as friend helped (c0094); outside trolls as attackers (c0066).
 goal:       a Black Mage; built and lost repeatedly; kept as a French-coloured mage by h68.
 unsettled:  original colours or the French compromise (c0078, c0093, c0100).
-coder unsure: 193 threads out of scope.
+coder unsure: five slices, no reader held the week; recruiting posts' bodies removed (62ql4f, 632muw, 633es3, 633rct); images unseen; the French forum and allies' venues seen only as reported (dfr22vi, dfsvtd9).
 carrying:   c0012, c0066, c0095
 not this:   a war with France; r/france's members helped restore the mage.
 ended:      last coordinating turn h72.74 (c0126, colours restored against encroachment); after h73 Vivi or Black Mage argued.
 struck by:  "we can spare one to keep some friends"
 made:       one artwork in the middle ring, French FF Mage 440 px at 421, 671, 2,108 placers, placed from h1.52; writers placed 0.13, pre-event members 0.017. The canvas names the work for the French compromise.
+later:      2026-10-07, catch-up: the moderator's coordination megathread opened at h56.8 (633hue), earlier than the doing line's h68.3, and that moderator first urged keeping the original colours (dfr6i77). The brief shows a patch mega-thread that week (61pedz), the moderators' habit of one thread.

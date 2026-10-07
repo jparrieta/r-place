@@ -4,9 +4,10 @@ week:       h27 to h35 the boxes begun; h36 to h53 truces and pattern; h60 to h7
 named:      r/kilian, RelientK and Snorlax as truce partners (c0026, c0033, c0040); r/ainbowroad as the silent larger neighbour (c0010); the Bolivian flag as attacker (c0068).
 goal:       a field of red boxes; begun h27; pattern fixed by vote at h47.7; one full box kept.
 unsettled:  whether to change the pattern and whether to move (c0047, c0049, c0071, c0073).
-coder unsure: none; 0 threads out of scope.
+coder unsure: four bodies deleted or removed (62xsyw, 62y048, 62zuu7); the moderators' Discord, the Sheev coalition and the negotiations Discord seen only as returned (62vgom, dfqo6to, dfrs93b).
 carrying:   c0019, c0026, c0073
 not this:   a large group; two people with two accounts held it through the first night.
 ended:      last coordinating turn h71.99 (c0077, a move with the general counsel's help); after h73 the last full red box kept.
 struck by:  "We have held our territory from the beginning"
 made:       one artwork in the middle ring, Red Boxes 110 px at 447, 289, 325 placers, placed from h1.84; writers placed 0.219, pre-event members 0. The linked region predates the room's first turn (h27).
+later:      2026-10-07, catch-up: the relocation request came from an r/eve alliance through a negotiations Discord (dfrs93b), and the refusing member later called moving the best bet (dfrvc2k). After the close a video of the box battle was shared (6395kn). The brief is the harness's empty brief.
