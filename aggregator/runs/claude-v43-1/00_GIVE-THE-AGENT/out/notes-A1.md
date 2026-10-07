@@ -801,3 +801,20 @@ leg A1b-22 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 559 lines (8 block-22 entries and one line correcting a slip in the last of them), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,869 words. 75 of 702 catch-up rooms are done. The next leg reads catch-up block 23, from placeDE.
+
+## Close report, leg A1b-23 (catch-up block 23), 2026-10-07
+
+Block 23 is read: 25 of 25 rooms, placeDE to naruto. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each `coder unsure:` line now says what case.md says, with thread ids where the account gives them. Each note has a dated `later:` line. Five briefs are the harness's empty brief (placeDE, monalisaclan, theitalyplace, greenlattice, thebluecorner); all were served and checked. Sixteen notes needed a second trim after the note hook refused them at 350 words or more; the closing diary line and the diary's trim lines agree on sixteen. In 4chan the ended line now names the farewell after hour 73 in place of blame. In utaustin the later line says the not-this line rests on one member's claim, which a reply denied.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-23 cut=none 20261007T024429Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-23 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 567 lines (8 block-23 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,968 words. 100 of 702 catch-up rooms are done. The next leg reads catch-up block 24, from parahumans.
