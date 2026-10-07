@@ -1,0 +1,40 @@
+{
+ "t": "2026-10-07T04:04:34+00:00",
+ "stage": "A1",
+ "leg": "A1b-27",
+ "answers": {
+  "goal": "Can case histories, each reconstructed on its own, be put together into one shared account of change over time that explains at several levels (patterns across all rooms, then forms and subforms, then single rooms' histories) while keeping access to the evidence behind each explanation?",
+  "open": "None. The `_questions/` folder holds no filed distinctions. The head lists distinctions still forming, such as who started the work, where organizing happened, and deals that bound members or did not, but none has a slug.",
+  "rooms": "gamindustri, paladins, quebec.",
+  "changed": "I changed no element or theme, because stage A1 forbids writing a scheme. I amended the 25 room notes in catch-up block 27, replacing each \"coder unsure\" line and adding a \"later:\" line, as J's ruling 1 requires.",
+  "next": "Read catch-up block 28, starting with ultrahardcore. For each room, check whether the coder's account changes who started the work, where it was decided, what became of it, or whether members kept their deals, and whether the brief shows a joke or ritual the canvas work grew from."
+ },
+ "expected": {
+  "open": [],
+  "rooms": [
+   "predators",
+   "Russiaclan",
+   "winnipegjets"
+  ],
+  "changed": [],
+  "next": ""
+ },
+ "status": {
+  "goal": "right",
+  "open": "n/a",
+  "rooms": "wrong",
+  "changed": "n/a",
+  "next": "n/a"
+ },
+ "scored": 2,
+ "unscored": [
+  "open",
+  "changed",
+  "next"
+ ],
+ "misses": [
+  "rooms"
+ ],
+ "score": 0.5,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

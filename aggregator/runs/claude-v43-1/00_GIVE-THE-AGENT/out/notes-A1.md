@@ -869,3 +869,20 @@ leg A1b-26 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 594 lines (9 block-26 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,963 words. 175 of 702 catch-up rooms are done. The next leg reads catch-up block 27, from SquareSpiral.
+
+## Close report, leg A1b-27 (catch-up block 27), 2026-10-07
+
+Block 27 is read: 25 of 25 rooms, SquareSpiral to quebec. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each `coder unsure:` line now says what case.md says, with thread ids where the account gives them. Each note has a dated `later:` line. Two briefs are the harness's empty brief (SquareSpiral, AmericanFlaginPlace); both were served and checked. The note hook refused 9 notes (fivenightsatfreddys, eagles, funhaus, thenetherlands, AmericanFlaginPlace, mylittlepony, gamindustri, paladins, quebec); 3 more were trimmed because `wc -w` showed 347 or more without a refusal (empiredidnothingwrong, singapore, OnePiece). Every trim is logged. In rust, funhaus and AmericanFlaginPlace the later line qualifies the not-this line. The AmericanFlaginPlace later line says its placements before hour 0 are Reddit's tests. The context was compacted once in this leg, after the smashbros note was written; the head was reconciled with the diary and logged before the next write.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-27 cut=none 20261007T040350Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-27 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 604 lines (10 block-27 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,986 words. 200 of 702 catch-up rooms are done. The next leg reads catch-up block 28, from ultrahardcore.
