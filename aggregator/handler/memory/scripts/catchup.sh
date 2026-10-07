@@ -11,6 +11,9 @@ if echo "$ST" | grep -q "list: completed\|list: stopped"; then
         L=$(grep "closed A1.A1b-" $R/CONTROL/legs/events.log | tail -1 | cut -c1-120)
         grep -q "paused before A1b-$N" aggregator/handler/memory/diary.md || echo "- $(date -u +%Y-%m-%d\ %H:%M) $L; paused before A1b-$N (J)." >> aggregator/handler/memory/diary.md
         exit 0; fi
+      PB=$((N-1)); AU=$(python3 aggregator/handler/memory/scripts/audit_catchup.py $R/00_GIVE-THE-AGENT/out $PB-$PB 2>&1)
+      echo "AUDIT: $AU" | head -3
+      if ! echo "$AU" | grep -q "^problems 0$"; then echo "STOPPED (handler audit failed on A1b-$PB): not restarting"; exit 0; fi
       echo "RESTART from A1b-$N"; timeout 100 python3 $P run $RUN A1b-$N..A1b-48 | head -2
       L=$(grep "closed A1.A1b-" $R/CONTROL/legs/events.log | tail -1 | cut -c1-120)
       echo "- $(date -u +%Y-%m-%d\ %H:%M) $L; restarted at A1b-$N." >> aggregator/handler/memory/diary.md

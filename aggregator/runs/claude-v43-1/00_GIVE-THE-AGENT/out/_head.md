@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-33, 2026-10-07, the fourteenth leg of the catch-up pass.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-34, 2026-10-07, the fifteenth leg of the catch-up pass.
 
 ## The method question, in one sentence
 
@@ -21,18 +21,18 @@ J's rulings of 7 October 2026 (after the A1c handback) opened a catch-up pass, l
 6. `leads-outside-frame-A1.jsonl` is a ledger B1 may read.
 7. `mem.py diary --last` now reads the newest part.
 
-The catch-up pass is declared in `out/order-A1.txt` as comment lines `#<block><TAB><sub>` after the A1 order (the checker refuses a room named twice; comment lines are skipped). 702 rooms, blocks 20 to 48, 25 rooms each (block 48 has 2), listed with tiers and byte sizes in `out/_analysis/catchup-A1.tsv`. Tiers: 40 rooms whose concepts were partly served, then 187 with more than 170 concepts, then 158 whose ended line differs from the rule by more than an hour, then 317 others. `mem.py next` does not serve this pass; take the next block from the `#NN` lines (`grep "^#34" out/order-A1.txt`) and the diary (`mem.py diary --grep "amended" --limit 500`).
+The catch-up pass is declared in `out/order-A1.txt` as comment lines `#<block><TAB><sub>` after the A1 order (the checker refuses a room named twice; comment lines are skipped). 702 rooms, blocks 20 to 48, 25 rooms each (block 48 has 2), listed with tiers and byte sizes in `out/_analysis/catchup-A1.tsv`. Tiers: 40 rooms whose concepts were partly served, then 187 with more than 170 concepts, then 158 whose ended line differs from the rule by more than an hour, then 317 others. `mem.py next` does not serve this pass; take the next block from the `#NN` lines (`grep "^#35" out/order-A1.txt`) and the diary (`mem.py diary --grep "amended" --limit 500`).
 
-Blocks 20 to 33 are done: 350 of 702 rooms. The next leg reads block 34, starting with the first `#34` line in `order-A1.txt` (raocow, line 1059).
+Blocks 20 to 34 are done: 375 of 702 rooms. The next leg reads block 35, starting with the first `#35` line in `order-A1.txt` (forsen, line 1084).
 The reading route for the pass: `bash out/_analysis/catchup_read.sh <sub> case` (logs the room opened, prints case.md whole), then `... brief`, then `... check` (prints lines served against the total from `_mem_reads-A1.jsonl`). In the same turn, Read the note with the Read tool (the Edit tool needs it). Amend it, count with `wc -w`, and log `<sub> amended (catch-up): ...` with `--ids <sub>`. One bash call can log the last room, check `ls .pause`, and print the next case.md; print brief.md and the check in a second call. The shell shows at most 30 KB per call, and the overflow goes under CONTROL, which is read-denied (block 33 nerf).
 
-Note length: the hook refuses a note at 350 words or more by its own count, which can run a few words above `wc -w`. Concept ids, hours and coordinates each count as words. Cut the doing line first, before adding the new lines, to about 60 words with one id per clause; coder unsure about 25, later about 50; drop the placer count from made. A doing line left near 70 words still fails when the later line runs long. A note with a long struck-by line needs a shorter later line. Aim for `wc -w` of 340 or less; at 347 or more, trim even without a refusal and log it. Block 33: five hook refusals (dmt, ontario, polandball, rainbowgrid, mizzou). A coder unsure line that says none, cites a concept id, or gives the brief's coverage ("N threads out of scope") is not case.md's word: replace it with case.md's limits and thread ids. Remove any gendered pronoun for a member when a line is cut.
+Note length: the hook counts a few words above `wc -w`. Since block 34 it often reports an over-long note as advice and lets it stand; trim it anyway, and log the trim. Concept ids, hours and coordinates each count as words. Cut the doing line first, before adding the new lines, to about 55 words with one id per clause; coder unsure about 25, later about 45; drop the placer count from made. A note with long named, made or struck-by lines needs a shorter doing line. Aim for `wc -w` of 340 or less; at 347 or more, trim even without a report. Block 34: one refusal (raocow), five advice reports, two trims by `wc -w`. When cutting a clause at the end of the doing line, keep the full stop and the line break, or the hook refuses the note for a missing `week:` line (block 34 yogscast). A coder unsure line that says none, cites a concept id, or gives the brief's coverage ("N threads out of scope") is not case.md's word: replace it with case.md's limits and thread ids. Remove any gendered pronoun for a member when a line is cut.
 
-After a compaction, do not trust edits made from the summary. Serve the room's case.md and brief.md again and check every id before logging (block 33 polandball: two phrases corrected).
+After a compaction, do not trust edits made from the summary. Serve the room's case.md and brief.md again and check every id before logging (block 33 polandball).
 
 `mem.py diary --grep` pages its output; pass `--limit 500` before counting lines. A grep pattern with parentheses matches nothing; grep on a plain word. macOS grep has no `-P`. A shell variable set from `$(...)` was refused by the permission check; run `wc -w` alone and type the count.
 
-The harness's brief is empty for event-made subs (among them theblackvoid, placeDE, greenlattice, thebluecorner, placehearts, PlaceNL, placestart, ainbowroad; block 30 placeportalpattern, placetardis, compsoc, TheGreatGreenBox; block 31 TreePlace, GrowTheTree, placehfarts; block 32 GranColombia, epublica, FlaggyFlag, ManningPlace, littlebusters, TeamYellowPlace; block 33 GreenEmpire, armok, rainbowgrid); it is still served and checked, and the later line says so.
+The harness's brief is empty for event-made subs (among them theblackvoid, placeDE, greenlattice, thebluecorner, placehearts, PlaceNL, placestart, ainbowroad; blocks 30 to 33 eighteen more; block 34 hoodr, aeskwadraat, purplecorner, starryknights, GreenCorner, Thegreatblackhole); it is still served and checked, and the later line says so.
 
 `validate.py A1` before this close: 0 errors, 0 warnings.
 
@@ -53,7 +53,7 @@ The harness's brief is empty for event-made subs (among them theblackvoid, place
 
 Seven defects are in `defects.jsonl`, plus an eighth line answering the seventh. None blocks the reading. The first six: r/tenma has no canvas line; r/archlinux has a coded turn at hour 100.9; `n_codes_coder` has two meanings; `items.jsonl` has an undocumented state `collapsed`; concept reach is 1.0 everywhere; r/yogscast's first coded turn is not about the canvas.
 
-The seventh, answered by J (ruling 2): 25 rooms' linked artworks show placements before hour 0, earliest h-15.92 (AmericanFlaginPlace); they are Reddit's tests while the canvas was closed. Notes that say "placed from h-..." keep their words; catch-up later lines say tests (block 31 GrowTheTree; block 32 npr; block 33 rainbowgrid).
+The seventh, answered by J (ruling 2): 25 rooms' linked artworks show placements before hour 0, earliest h-15.92 (AmericanFlaginPlace); they are Reddit's tests while the canvas was closed. Notes that say "placed from h-..." keep their words; catch-up later lines say tests (GrowTheTree, npr, rainbowgrid, Thegreatblackhole).
 
 ## The principal investigator's answer QA1-001
 
@@ -78,24 +78,24 @@ The three sentences: one burst of calls in the first day or two, then defence an
 
 What the reading found against them (`notes-A1.md` §6): the artwork was often on the canvas before the room spoke; coordinating turns do not all end near hour 73; rivals often became partners; deals often did not bind the crowd.
 
-Seen three or more times and logged, blocks 10 to 33 (each block's rooms are in `running-A1.md`):
-- Green Lattice and Rainbow Road as host, permit office and border authority (blocks 19, 26 to 28).
-- A representative, Discord or deal that cannot bind the crowd; restraint or deals not accepted by every member (blocks 19 to 31, 33).
+Seen three or more times and logged, blocks 10 to 34 (each block's rooms are in `running-A1.md`):
+- Green Lattice and Rainbow Road as host, permit office and border authority (blocks 19, 26 to 28; block 34 latin, planetside, esperanto).
+- A representative, Discord or deal that cannot bind the crowd; restraint or deals not accepted by every member (blocks 19 to 31, 33, 34).
 - A room relocates or trims its work when a neighbour asks (blocks 19, 28).
-- Restraint named as the room's rule (blocks 10 to 24), qualified by the room's own conquest talk (blocks 25 to 28); attack talk or "change is the point" beside restraint (block 32; block 33 armenia, nyjets, satania, armok, mizzou).
-- A neighbour protects the room's work, or a room that wrecked one helps it after (blocks 19, 24 to 30; block 33 uiowa, Slovakia, nyjets).
-- Decisions made in Discord, IRC or a second sub, seen only as returned (blocks 19, 24, 28, 30 to 33).
-- One or two members carrying the work; credit as one member's claim; a remake or last mark by one member (blocks 19, 27 to 29, 31, 32; block 33 CelticFc, tetris, CSUFoCo, enterthegungeon).
-- Members joining work already under way, or a room credited with work another group started (block 31; block 32).
-- A canvas mark, call or label grown from something already running that week (blocks 20, 22 to 33).
-- Misread edits, and the room's own defenders, scripts or bots undoing its work (blocks 22 to 31; block 33 armok, uiowa).
+- Restraint named as the room's rule (blocks 10 to 24), qualified by the room's own conquest talk (blocks 25 to 28); attack talk beside restraint (blocks 32 to 34).
+- A neighbour protects the room's work, or a room that wrecked one helps it after (blocks 19, 24 to 30, 33).
+- Decisions made in Discord, IRC, Telegram or a second sub, seen only as returned (blocks 19, 24, 28, 30 to 34).
+- One or two members carrying the work; credit as one member's claim; a remake or last mark by one member (blocks 19, 27 to 29, 31 to 33).
+- Members joining work already under way, or a room credited with work another group started (blocks 31, 32; block 34 araragi).
+- A canvas mark, call or label grown from something already running that week (blocks 20, 22 to 34).
+- Misread edits, and the room's own defenders, scripts or bots undoing its work (blocks 22 to 31, 33).
 - A neighbour's bots or scripts deciding what stays (block 32); bots or scripts named as makers (blocks 21, 24, 25, 29).
-- Members' own accounts of the same act disagreeing; blame never settled (blocks 23, 24, 29, 32; block 33 enterthegungeon, anaheimducks, xenoblade_chronicles, rainbowgrid).
-- The work called pointless, spam or tiring; the result recounted as partial (blocks 24 to 28, 30, 31; block 33 Slovakia).
-- Moderators gathering, routing or turning the canvas work (blocks 25 to 28, 30, 31).
-- The room's own April Fools switch or fake rules running beside the canvas (block 33 ontario, polandball, enterthegungeon, nyjets, nerf, Slovakia).
+- Members' own accounts of the same act disagreeing; blame never settled (blocks 23, 24, 29, 32, 33).
+- The work called pointless, spam or tiring, too small or thinly staffed; the result recounted as partial (blocks 24 to 28, 30, 31, 33, 34).
+- Moderators gathering, routing or turning the canvas work (blocks 25 to 28, 30, 31, 34).
+- The room's own April Fools switch or fake rules running beside the canvas (blocks 33, 34).
 - The event recruiting into the sub, or to the product (blocks 25 to 33).
-- The work carried elsewhere after the close (blocks 25 to 30, 32, 33).
+- The work carried elsewhere after the close (blocks 25 to 30, 32 to 34).
 
 ## Contrary rooms
 
@@ -103,7 +103,7 @@ Blocks 01 to 18 by name only (details in `notes-A1.md` and earlier heads): morro
 
 Block 19: ainbowroad (a permit office for other subs), dota2 (its own scripts fought each other), Braveryjerk (one call, no placement), dofus (one member alone), Russiaclan (every border by alliance), rotmg (sprites made, lost, remade).
 
-Catch-up notes whose not-this line the account qualified: utaustin (block 23); miamidolphins, placehearts, chicubs (block 24); lego, lebanon, israel, vegan, touhou, magictcg (block 25); straya, farmcarrots, TransFlagPlace, titanfall (block 26); rust, funhaus, AmericanFlaginPlace (block 27); trees, starvstheforcesofevil, brasil, prequelmemes (block 28); phish (block 29); bardmains, osu (block 30); vim, TreePlace, bih, japan (block 31); PORTUGALCARALHO, npr (block 32); GreenEmpire, armenia, satania, nyjets (block 33). The later lines say how.
+Catch-up notes whose not-this line the account qualified: utaustin (block 23); miamidolphins, placehearts, chicubs (block 24); lego, lebanon, israel, vegan, touhou, magictcg (block 25); straya, farmcarrots, TransFlagPlace, titanfall (block 26); rust, funhaus, AmericanFlaginPlace (block 27); trees, starvstheforcesofevil, brasil, prequelmemes (block 28); phish (block 29); bardmains, osu (block 30); vim, TreePlace, bih, japan (block 31); PORTUGALCARALHO, npr (block 32); GreenEmpire, armenia, satania, nyjets (block 33); hoodr, muse, esperanto, araragi, twentyonepilots, GreenCorner, Thegreatblackhole, yogscast (block 34). The later lines say how.
 
 The one room that fits nothing else, chosen at A1c: r/Summit1G. 82 of its 140 coded turns are a raiding rival chat's chant.
 
@@ -111,27 +111,27 @@ The one room that fits nothing else, chosen at A1c: r/Summit1G. 82 of its 140 co
 
 None is filed in `_questions/`. Distinctions forming, to carry into B1:
 - Who started the work: joining or finding work begun elsewhere, against starting it; a linked region placed from the first hours, against the room's late first call; a work credited to another sub or its Discord; a work the room mourned as lost that the canvas keeps.
-- Where organizing happened: in the thread, against in Discord, IRC, a second sub, a private sub (ockytop), a forum, or a stream; a member insisting a Reddit action stay on Reddit (germany); plans brought back for members outside the venue.
-- Deals: binding, against not kept; truce against alliance; living on an ally's land by permission; hosting others' works in exchange for upkeep (TeamYellowPlace); a protection deal born from a turf war; leaders' deals against members' fights; a room kept by the stronger side's terms (Slovakia).
+- Where organizing happened: in the thread, against in Discord, IRC, Telegram, a second sub, a private sub (ockytop), a forum, or a stream; venues interleaved rather than replaced (esperanto); plans brought back for members outside the venue.
+- Deals: binding, against not kept; truce against alliance; living on an ally's land by permission; hosting others' works in exchange for upkeep (TeamYellowPlace); leaders' deals against members' fights; a room kept by the stronger side's terms (Slovakia).
 - A sub made for the canvas that governs others, keeps a single work, asks leave, polices purity, migrates, or claims a colour; or forms late around a pattern others repeated (rainbowgrid).
 - A national flag as permission office, front line, alliance office, or joint work with a rival.
-- Scripts: self-defence, refused, repairing a rival, joint, fighting the room's own plan, a neighbour's bot erasing an unregistered addition (yumenikki); a member's script left running while they slept (uiowa).
-- The moderator as organiser, obstacle, funnel, enforcer, permit office, or venue manager disclaiming the pixels.
+- Scripts: self-defence, refused, repairing a rival, joint, fighting the room's own plan, a neighbour's bot erasing an unregistered addition (yumenikki); hand defence against scripts (GabrielDropout).
+- The moderator as organiser, obstacle, funnel, enforcer, permit office, or venue manager disclaiming the pixels; a moderator who is also the room's main defender (oneplus).
 - A leader outside the room: a streamer, a chat, a single organiser, a national Discord, an outside forum.
 - Restraint named as the room's rule, against expansion; purity against art on blue.
 - The end of organizing: before hour 73, at the close, or in calls to rebuild after it; the work kept elsewhere after the close.
 
-## What the catch-up pass found so far (blocks 20 to 33)
+## What the catch-up pass found so far (blocks 20 to 34)
 
-Every block's findings are in `running-A1.md` under "catch-up block NN" (block 33: entries 651 to 658) and in the list of patterns seen three times above.
+Every block's findings are in `running-A1.md` under "catch-up block NN" (block 34: entries 659 to 665) and in the list of patterns seen three times above.
 
 ## The last rooms read
 
-Catch-up block 33, in order: neu, xenoblade_chronicles, UNLincoln, sakartvelo, GreenEmpire, MiamiHurricanes, dmt, gameofthrones, anaheimducks, armenia, enterthegungeon, ontario, CelticFc, polandball, armok, satania, nerf, rainbowgrid, uiowa, nyjets, CSUFoCo, tetris, asexual, mizzou, Slovakia.
+Catch-up block 34, in order: raocow, criticalrole, Mario, latin, shrooms, hoodr, paragon, muse, esperanto, aeskwadraat, oneplus, araragi, bdsm, purplecorner, spain, geometrydash, GabrielDropout, starryknights, twentyonepilots, GreenCorner, Thegreatblackhole, yogscast, denverbroncos, bigbang, planetside.
 
 ## Ledgers at this close
 
-- `lexicon-A1.md`: 1,289 lines. `running-A1.md`: 658 lines (this leg 8 entries). `leads-A1.jsonl`: 2,478 lines. `departures.jsonl`: 9 lines. `defects.jsonl`: 8 lines.
+- `lexicon-A1.md`: 1,289 lines. `running-A1.md`: 665 lines (this leg 7 entries). `leads-A1.jsonl`: 2,478 lines. `departures.jsonl`: 9 lines. `defects.jsonl`: 8 lines.
 - `out/leads-outside-frame-A1.jsonl`: two lead lines, a ledger B1 may read (ruling 6).
 - Rule, kept:
   - Fetch every id with `cite.py`. Check every lead's room with grep against the frame before appending. Append through a grep filter on the item id. Never type an id from memory; check an id carried through a compaction against the notes or the diary before using it.
@@ -140,11 +140,11 @@ Catch-up block 33, in order: neu, xenoblade_chronicles, UNLincoln, sakartvelo, G
   - Count a ledger's lines after appending, before logging the count; count the diary's trim lines before writing the closing line.
   - There is no `--kind close`; log the closing line as a note.
 - The permission check refuses "=w=", for and while loops, shell functions, heredocs, awk and a variable set from `$(...)`. The command guard reads a bare "rm" inside quoted text as a delete. Use the Write and Edit tools for file content; an Edit whose old text spans non-adjacent lines fails, so edit lines one at a time.
-- The diary rolls into a new part as it grows; during A1b-33 it moved from part A1-31 to A1-32. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
+- The diary rolls into a new part as it grows; during A1b-34 it moved from part A1-32 to A1-34. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
 
 ## The next comparison
 
-Catch-up block 34 (25 rooms), from the `#34` lines in `order-A1.txt`. For each room ask: does the coder's account change who started the work, where it was decided, what became of it, or whether the room's members kept their deals? Does the brief show a joke, ritual or shared project the canvas work grew from? Record only what changes the note.
+Catch-up block 35 (25 rooms), from the `#35` lines in `order-A1.txt`. For each room ask: does the coder's account change who started the work, where it was decided, what became of it, or whether the room's members kept their deals? Does the brief show a joke, ritual or shared project the canvas work grew from? Record only what changes the note.
 
 When the pass ends (block 48), compare the `later:` lines across rooms, by the patterns listed above.
 

@@ -825,3 +825,7 @@ utc	path	sha256	words	note
 20261007T015856Z	STAGES-full.md	9bf78ab67fb3f3da39edc359c0a2b3636c7d3006e1cce1b2d3705b7afd6297d9	47045	B1d stops after thirty rooms in a row with no new third-order theme (J, 2026-10-07; two stretches of twenty rooms before)
 20261007T015856Z	tools/checks/stage_B1.py	657c366738db559359b8666d4d234c02f49ad643af343ebe7c6b486d96ed0c51	5434	B1d stops after thirty rooms in a row with no new third-order theme (J, 2026-10-07; two stretches of twenty rooms before)
 20261007T020424Z	tools/checks/stage_A1.py	53e6c0e51ddecd635b30f6442e70bdd158501376d03eac2b44de6aaaf861a40b	4689	A1 catch-up close check: each amended room's case.md and brief.md served whole before the note (J, 2026-10-07)
+20261007T070348Z	stages/STAGE-A1-reading-room-notes.md	9a8ba05c6754cf316fd0fad43bedf08701a067a872c4cfad5809d3ff01653a76	2970	A1 note length a guide, not a limit; the analyst's judgement (J, 2026-10-07)
+20261007T070348Z	STAGES-full.md	fb8ce23b95215507b0d334ab47a1994bd6283de8ab05b6f6ee0ceddfad9388a7	47099	A1 note length a guide, not a limit; the analyst's judgement (J, 2026-10-07)
+20261007T070348Z	../handler/claude/pretool_guard.py	3649d6298a5914fec62b8a956d1b83a19aaba054f348a3d18fe1d032f3265cef	1340	x
+20261007T070356Z	../handler/claude/pretool_guard.py	3649d6298a5914fec62b8a956d1b83a19aaba054f348a3d18fe1d032f3265cef	1340	correction to the row above (its note 'x' was a slip): pretool_guard.py --post now refuses a room note only on errors; warnings (length, quoting) come back as advice (J, 2026-10-07: writing rules are guides)

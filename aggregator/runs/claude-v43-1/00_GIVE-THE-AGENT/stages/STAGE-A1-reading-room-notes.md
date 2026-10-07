@@ -138,7 +138,7 @@ boundary from `_head.md` and `mem.py note`: the notes, the lexicon, the running 
 `_` files are the carrier, and nothing that is not in them survives. No fleet reads for you
 here.
 
-**`rooms/<sub>.md`, one fixed form, under 350 words, dated:**
+**`rooms/<sub>.md`, one fixed form, dated; about 350 words is a guide, not a limit:** the note is yours, for your own later reading, so write what you need; the fixed lines and their checks stand, the length and the wording are your judgement, and you may ask J. Short notes link and read sideways better than long ones (J, 7 October 2026).
 
 ```
 # r/<sub>  (read <ISO>)   coded share <n>   off-platform pointers <n>

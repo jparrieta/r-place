@@ -169,7 +169,15 @@ def post(call):
         return 0
     if not probs:
         return 0
-    print("rooms/%s.md, fix it now:\n%s" % (m.group(1), "\n".join("- " + x[1] for x in probs)), file=sys.stderr)
+    # J, 7 October 2026: the form's writing rules (length, quoting) are guides the analyst judges;
+    # only errors (pass/fail) refuse. Warnings come back as advice and the note stands.
+    errs = [x for x in probs if x[0] == "err"]
+    if not errs:
+        import json
+        print(json.dumps({"hookSpecificOutput": {"hookEventName": "PostToolUse", "additionalContext":
+              "rooms/%s.md stands; advice only, your judgement:\n%s" % (m.group(1), "\n".join("- " + x[1] for x in probs))}}))
+        return 0
+    print("rooms/%s.md, fix it now:\n%s" % (m.group(1), "\n".join("- " + x[1] for x in errs)), file=sys.stderr)
     return 2
 
 

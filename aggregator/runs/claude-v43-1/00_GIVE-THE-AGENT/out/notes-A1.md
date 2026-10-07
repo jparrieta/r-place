@@ -985,3 +985,15 @@ Two departures were logged. First, the polandball edits were made just after a c
 `validate.py A1` before the close: 0 errors, 0 warnings.
 
 Ledgers at the close: lexicon 1,289 lines, running file 658 lines (8 block-33 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 350 of 702 catch-up rooms are done. The next leg reads catch-up block 34, from raocow.
+
+## Close report, leg A1b-34 (catch-up block 34), 2026-10-07
+
+Block 34 is read: 25 of 25 rooms, raocow to planetside. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each file was printed in its own call, so no output passed the shell's 30 KB display. The `coder unsure:` line was replaced in all 25 notes. Each old line either gave the brief's coverage ("N threads out of scope") or said none. The new lines give case.md's limits with thread ids. Each note has a dated `later:` line. Six briefs were the harness's empty brief (hoodr, aeskwadraat, purplecorner, starryknights, GreenCorner, Thegreatblackhole).
+
+Eight notes were trimmed. The hook refused raocow at 369 words. For five notes the hook reported the count as advice and let the note stand: starryknights 362, twentyonepilots 355, GreenCorner 358, yogscast 364, denverbroncos 354. All were trimmed below the limit anyway. Two notes were trimmed because `wc -w` showed 347 or more with no hook report: Mario 350 and planetside 348. While trimming yogscast, one cut removed the line break before `week:`, and the hook refused the note for a missing fixed line. The break was restored in the next edit. Every trim is logged.
+
+In hoodr, muse, esperanto, araragi, twentyonepilots, GreenCorner, Thegreatblackhole and yogscast the later line qualifies the not-this line. The Thegreatblackhole later line says its placements before hour 0 are Reddit's tests.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+Ledgers at the close: lexicon 1,289 lines, running file 665 lines (7 block-34 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 375 of 702 catch-up rooms are done. The next leg reads catch-up block 35.

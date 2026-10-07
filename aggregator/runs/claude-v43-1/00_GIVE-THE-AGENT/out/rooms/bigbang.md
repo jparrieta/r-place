@@ -4,9 +4,10 @@ week:       h62.9 a request; h70.8 a second try; h86.4 too late.
 named:      r/kpop as the area the text should sit beside (c0001).
 goal:       Big Bang in yellow text; asked at h62.85; never reported placed.
 unsettled:  where any space was left (c0002).
-coder unsure: none; 0 threads out of scope.
+coder unsure: one thread of three items, too small to show whether anything was placed elsewhere (dft0xjd); r/kpop named only as a location, with no contact shown (6355of); whether the end of placement caused the failure not said.
 carrying:   c0001, c0002, c0003
 not this:   a room with no mark; the canvas links a BIGBANG text the room never reports finding.
 ended:      last coordinating turn h70.79 (c0002, trying with no space); after h73 one line saying too late.
 struck by:  "I don't think there's any space for us now... :("
 made:       one artwork in the middle ring, BIGBANG 30 px at 561, 802, 141 placers, placed from h4.11; writers placed 0, pre-event members 0. A late room (contrast, late side): one member, then a second (the sixth kind); the linked text was placed from h4.11 by others, and the room says it was too late (cf. aeskwadraat, the mark never found).
+later:      2026-10-07, catch-up: the coder's account adds nothing beyond the three turns; the request drew one helper and two judgements that it could not be done (dfrssf3, dft0xjd). The brief shows a week of one playlist thread (61jrey) and changes nothing.

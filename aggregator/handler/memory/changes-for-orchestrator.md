@@ -66,3 +66,13 @@ Target length: under 1,200 words, kept current. J, 2026-10-06 23:37 Berlin: "mak
 - **Bash refusals in dontAsk mode** (`analysis/a1-refusals.md`; message `2026-10-06T12-29Z_from-handler_to-claude_a1a-refusals.md`): the run gives Bash no allow rule; calls with `==`, `<=`, `>=`, `===`, many loops and `awk` pipelines are refused. Options there.
 - **A1a's six defects** (message `2026-10-06T13-17Z_from-handler_to-claude_a1a-defects.md`): store README (`collapsed`), onset fields not clipped to the window, `n_codes_coder`, concept reach.
 - **The analyst's scratchpad root** is outside its allowed folder (one Read refused in A1a).
+
+## 8. The handler's role (J, 7 October 2026, 08:56 Berlin)
+
+HANDLER.md amended: after each close the handler checks substance, not only the validator (step 0), and the handler is in charge of changes to the instrument and the scripts, as amendments, with the most authority among the agents. The orchestrator is asked for advice (for example, B1's stopping rule) and the handler implements. Not yet committed: the next close's publish.sh commits it.
+
+## 9. Writing rules are guides (J, 7 October 2026, 09:01 Berlin)
+
+- **Change.** `pretool_guard.py --post` refuses a room note only for errors (`err`); warnings (`warn`: length over 350, quoting) return as advice through `additionalContext`, exit 0. In `handler/claude/` and the run's `CONTROL/harness/` (same bytes). Stage A1's note line now reads "about 350 words is a guide, not a limit", in the instrument, `DROPS/A1/stages/` and the analyst's `stages/`; `STAGES-full.md` regenerated; `VERSIONS.tsv` rows.
+- **Tested.** By hand on a scratch copy: a 420-word note (advice, exit 0) and a placeholder (refused, exit 2). The harness test is owed on the Mac; it has no case for the note hook, and one should be added.
+- **Why.** J: the notes are the analyst's, for its own later use; pass/fail rules stand; length and wording are its judgement, with J to ask. Across the catch-up so far, 145 notes were cut to fit 350 words.
