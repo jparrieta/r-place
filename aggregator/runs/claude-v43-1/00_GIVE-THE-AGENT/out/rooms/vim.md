@@ -4,9 +4,10 @@ week:       h16 to h41 April Fools; h56.7 to h62 a call and arrival; h62 to h72 
 named:      r/ArchLinux as the builders and maintainers (c0007, c0008).
 goal:       a Vim logo; made by r/ArchLinux members by h61.9; held.
 unsettled:  nothing argued in the record.
-coder unsure: 42 threads out of scope.
+coder unsure: both recruitment bodies deleted (633fsz, 633o4z); the celebrated image unread (634y32); the parent of the vandalism correction deleted (dfrgbog); whether the placebot was used unknown (dfrvfi4).
 carrying:   c0004, c0007, c0013
 not this:   a room that built its logo; the record credits r/ArchLinux.
 ended:      last coordinating turn h71.66 (c0014, a placebot shared); nothing coded after h71.91.
 struck by:  "Not being vandalized, it's a coordinated effort to move it down 3px."
 made:       one artwork, Vim, 529 px at the edge, 3,050 placers, placed from h1.33, 55 hours before the room's call; writers placed 0.028, pre-event members 0.001. The canvas keeps a Vim logo the room says another sub made.
+later:      2026-10-07, catch-up: the credit to r/ArchLinux is one reply's claim, with no answer from that sub (dfrdwux), so who built the logo stays open; after h72 the room returned to editor questions (6388fz). The brief shows the running joke about not exiting Vim that week (dfha4sj).

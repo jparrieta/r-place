@@ -4,9 +4,10 @@ week:       h1.5 to h3.5 fake Eders; h22.6 to h25 the call and the mark; h52.7 a
 named:      r/portugal as host and collaborator (c0008, c0017); the Portuguese flag as the site (c0004).
 goal:       Lord Eder under the Portuguese flag; done by h24.5; held.
 unsettled:  nothing argued.
-coder unsure: 2 threads out of scope.
+coder unsure: who placed the pixels and where plans were made unseen behind image links (dfp3bcu, dfqorso); a deleted parent hides what brought the tear (dfqamdc); r/portugal's own account unseen (dft5l1l).
 carrying:   c0004, c0008, c0017
 not this:   a room that built alone; r/portugal supplied the later plan and hosted the work.
 ended:      last coordinating turn h69.64 (c0013, an r/ proposed for the logo); after h73 thanks to r/portugal.
 struck by:  "Brings a tear to my eye ;')"
 made:       one artwork, Eder, 147 px in the middle ring, placed from h1.23; writers placed 0.015, pre-event members 0. The canvas keeps Eder.
+later:      2026-10-07, catch-up: one member blamed the ending on bots taking over, another learned only after work that it had ended (dfs02aa, dfsed03). The brief shows the fake-Eders joke already running the day before the canvas (62hhk5).

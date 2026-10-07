@@ -4,9 +4,10 @@ week:       h9.4 a call; h24.9 to h26.3 a refusal, an offer, confusion; h46.7 on
 named:      r/greenflair, for which one member places green (c0005).
 goal:       a polyamory mark; proposed, never settled in the record.
 unsettled:  whether to take part at all (c0002, c0003).
-coder unsure: 132 threads out of scope.
+coder unsure: whether the proposed Discord channel was made or used is unseen (62uaxr); removed bodies and triage could hide isolated mentions; one coder per slice, no agreement measure.
 carrying:   c0001, c0002, c0004
 not this:   a room that organised its flag; the record holds a call, a refusal and two offers.
 ended:      last coordinating turn h46.66 (c0007, interest and a question); nothing coded after.
 struck by:  "I've seen too much /r\/place spam today already. So...no thanks."
 made:       one artwork, Polyamory Flag, 48 px at the edge, placed from h1.71; writers placed 0.0, pre-event members 0.0. The canvas keeps a small flag none of the room's writers placed.
+later:      2026-10-07, catch-up: the two calls are not linked in the text (62poj0, 62uaxr); the general polyamory Discord in other threads shows no canvas channel (62ypfm, dfq1xiy). The brief changes nothing.

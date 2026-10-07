@@ -1,12 +1,13 @@
 # r/acecombat  (read 2026-10-06)   coded share 0.171   off-platform pointers 2
-doing:      a flight-game sub whose moderators turned it into a sub for a rival series, HAWX, for April Fools; that joke and its mock policing hold the first day (c0002, c0012, c0018); at h38.1 a call to make the ISAF logo, reported done, then the land taken by r/Serbia (c0024, c0025, c0026); at h51.1 a flag mission abandoned to team up with others, everyone switched to a new logo plan, planned in the general Ace Combat Discord (c0027, c0029, c0030); the Project Aces logo put first, r/murica's moderators messaged for help (c0034, c0035); at h57.6 the logo done, credited to allies (c0040, c0041); at h72.5 an assault by r/theblackvoid (c0047); after the close a moderator's account: the ISAF logo scripted, a mutual border with r/anime_irl, r/Habs' offer accepted to give up a spot in return for help rebuilding, the name crossing cleared with r/ainbowroad, and a war memorial kept where planning happened (c0053, c0054, c0055, c0056, c0057).
+doing:      a flight-game sub turned by its moderators into a HAWX sub for April Fools (c0002); at h38.1 the ISAF logo made, then taken by r/Serbia (c0025, c0026); at h51.1 a flag mission abandoned to team up, a new logo planned in a Discord (c0027, c0030); at h57.6 Project Aces done, credited to allies (c0040, c0041); at h72.5 an assault by r/theblackvoid (c0047); after the close a moderator's account: scripts used, r/Habs' offer accepted to give up a spot for help, a memorial (c0053, c0055, c0057).
 week:       h8 to h33 April Fools; h38 the ISAF logo and its loss; h51 to h58 a new plan, allies, done; h67 to h73 the name, the void.
 named:      r/Serbia as taker of the first spot (c0026); r/Habs, r/anime_irl, r/ainbowroad as neighbours under deals (c0055, c0054, c0056); r/murica as ally sought (c0035); r/theblackvoid as attacker (c0047).
 goal:       an Ace Combat logo; first the ISAF logo at h38.1; then Project Aces from h51.4; held.
 unsettled:  which design to build after the first was lost (c0032, c0034, c0064).
-coder unsure: 21 threads out of scope.
+coder unsure: most planning in Discord and the scripts' operation unseen (639k23, dfqmw1k); title-only canvas calls (631ych, 633ibr); what cleanup projects did unknown (dfs3ghm).
 carrying:   c0027, c0041, c0055
 not this:   a room that held its first spot; it gave one up to r/Habs in exchange for help.
 ended:      last coordinating turn h72.45 (c0046, a defence call); after h73 a memorial post.
 struck by:  "I'll protect its six o'clock and I'm not gonna lose another pixel art! Defend at all cost!"
 made:       one artwork, Ace Combat, 840 px at the edge, 2,984 placers, placed from h1.74; writers placed 0.139, pre-event members 0.032. The canvas keeps the logo.
+later:      2026-10-07, catch-up: an F-15 attempt never found space (dfr5cnn); a moderator said they did nothing themselves, others one pixel (dfsf1iw, dfsmglo); a sequel was deferred because people were burned out (dfsh1yo). The brief shows the room's war-lore quote chains and mock radio talk that week (61jptj).

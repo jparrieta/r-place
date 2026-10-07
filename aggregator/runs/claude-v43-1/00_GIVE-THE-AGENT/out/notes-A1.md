@@ -937,3 +937,20 @@ leg A1b-30 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 632 lines (10 block-30 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,835 words. 275 of 702 catch-up rooms are done. The next leg reads catch-up block 31, from k_on.
+
+## Close report, leg A1b-31 (catch-up block 31), 2026-10-07
+
+Block 31 is read: 25 of 25 rooms, k_on to rocketbeans. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. The `coder unsure:` line was replaced in all 25 notes. Every old line either gave the brief's coverage ("N threads out of scope") or said none. The new lines give case.md's limits with thread ids. Each note has a dated `later:` line. Three briefs were the harness's empty brief (TreePlace, GrowTheTree, placehfarts). The note hook refused 3 notes: Pigifs at 363 words, lexington at 371 and luxembourg at 354. In all three, the new lines were added before the doing line was cut. One more note was trimmed because `wc -w` showed 349 without a refusal (bih). Every trim is logged. In wine the doing line said the boxed-wine challenge was annual; case.md calls it monthly, and the line was corrected. In vim, TreePlace, bih and japan the later line qualifies the not-this line. The A1b-30 head misnamed the diary part; the A1b-31 head corrects it.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-31 cut=none 20261007T053215Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-31 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 641 lines (9 block-31 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,956 words. 300 of 702 catch-up rooms are done. The next leg reads catch-up block 32, from ReBoot.
