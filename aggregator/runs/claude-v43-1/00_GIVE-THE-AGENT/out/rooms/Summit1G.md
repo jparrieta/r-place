@@ -4,9 +4,10 @@ week:       h4 to h9 the 1G and Chatot; h25 to h36 lost, recovered, Canada; h52 
 named:      Chatot's builders as neighbour moved (c0011, c0021); Canada and r/placecanada as the force that took and helped rebuild (c0026, c0045); Forsen's viewers as raiders (c0143).
 goal:       a 1G logo; done h7.1; moved by Canada; raided by Forsen; flawless at the end by its account.
 unsettled:  whether to move for neighbours or hold (c0008, c0017).
-coder unsure: 26 threads out of scope.
+coder unsure: the Discord glimpsed through one member only (dfqir7e); images unread; deleted bodies under three titles (6325xb, 632f8h, 634bqp); the force-then-rebuild account one Canadian's (dfqi96d).
 carrying:   c0017, c0045, c0147
 not this:   a thread mostly of its own members; 82 of 140 coded turns are a rival chat's chant.
 ended:      last coordinating turn h57.14 (c0147, revenge declined); after it the 1G admired as flawless.
 struck by:  "we took it by force and then helped them to rebuild it in a new position"
 made:       one artwork at the edge, Summit1G 621 px at 282, 215, 6,644 placers, placed from h1.37; writers placed 0.043, pre-event members 0.024.
+later:      2026-10-07, catch-up: the first call came from a moderator of Summit's Twitch chat (62nt7t); the displacement was mixed, with offered help to move north beside force (dfpt9wl, dfqi96d). The brief shows the fans calling themselves the 1G family (622m6e) and a week of moderator-posted highlight series.

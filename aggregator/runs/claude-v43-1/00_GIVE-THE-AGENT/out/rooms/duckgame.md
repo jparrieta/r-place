@@ -10,3 +10,4 @@ not this:   a fight that ended in a winner; the conflict lasted under an hour be
 ended:      last coordinating turn h72.70 (c0044, telling members to rebuild Mexico's flag once the duck is restored); after h73 mourning, one plan to build again corrected (c0054, c0055), thanks.
 struck by:  "i'll try and work out a deal with mexico, in the meantime defend"
 made:       one Duck Game Duck, 224 px in the middle ring; the room's writers placed 0.215 of it. The atlas lists a duck that survived, while the room mourned it dead and argued over which image was final; I read the mourning as about the damaged sombrero duck, not its absence.
+later:      2026-10-07, catch-up: the deal's maker said they took Mexico's first offer at once (dfptw9e), so the negotiation was quick acceptance, not bargaining; one post still claimed to have defaced the duck (63282s). The brief shows a small room of map posts and quacking (dfd05jx) and changes nothing.

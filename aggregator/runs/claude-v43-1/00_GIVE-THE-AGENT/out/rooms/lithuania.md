@@ -4,9 +4,10 @@ week:       h16 to h31 flag and Baltic borders; h42 to h56 banner, Belarus defen
 named:      Latvia and Estonia as Baltic brothers helped (c0038, c0114); Belarus as a small flag defended (c0097); The Expanse as respected neighbour (c0017); KSP and Gorillaz as joint defenders (c0112).
 goal:       a Lithuanian flag; done by h16.2; then neighbours' flags; held.
 unsettled:  how to widen the flag, and the hammer and sickle's meaning (c0008, c0080, c0082).
-coder unsure: 17 threads out of scope.
+coder unsure: the Baltic Discord's deliberation unseen, only plans returned (dfq3a80, 631q3h); 28 deleted or removed items, a political branch lost (6301wf); who placed which pixels unshown.
 carrying:   c0013, c0023, c0114
 not this:   a nation that expanded its own flag; it spent its pixels on Latvia, Belarus and Estonia.
 ended:      last coordinating turn h66.48 (c0116, soldiers readied); after it Baltic war jokes.
 struck by:  "It was an epic 4 hour long battle for 60 pixels."
 made:       three artworks at the edge, among them Flag of Lithuania 833 px at 635, 152 with 1,622 placers and Latvia and Lithuania 343 px (shared with latvia), placed from h1.36; writers placed 0.106, pre-event members 0.016.
+later:      2026-10-07, catch-up: one member threatened to consume a neighbour's work for more land (dfpidtn), so the giving was contested, though no one refused Baltic help; one member said their hearts prompted other countries' hearts (dfq241f). The brief shows broliuk as a greeting the week before (dfh2l7g), the word the canvas used for the Latvians.

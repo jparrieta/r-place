@@ -4,9 +4,10 @@ week:       h1.6 to h8 calls and the first /pol/ raids; h9 to h35 repair, new fl
 named:      /pol/ and T_D as attackers (c0022, c0023); the ancaps as thieves of the flag (c0009); r/COMPLETEANARCHY asked for help (c0004); r/TheFarLeftSide as the place to take canvas talk; communists as allies at the end (c0097, c0122).
 goal:       set in the first hour by one call to place anarchist symbols and remove swastikas (c0001); never one image. It widened at h50 to attacking national flags, against members who said the room has no flag to own (c0060, c0073).
 unsettled:  whether the canvas was worth the effort (c0065, c0124); whether to own a flag at all; whether pixels should have gone to BLM (c0120, c0121).
-coder unsure: Discord and bot repositories hold work the record cannot see; "botted up" repairs are members' guesses, not facts (6320va, 630mqw).
+coder unsure: Discord and bot repositories hold work the record cannot see (dfp3aeb, dfrc8gr); "botted up" repairs are members' guesses, not facts (6320va, 630mqw); removed bodies hide tactics in the flag threads; seven coders, one per slice, no agreement measure.
 carrying:   c0030, c0085, c0106
 not this:   a room agreed on what it was doing; the shared practice is plain, the commitment is not.
 ended:      last coordinating turn h72.22 (c0115, a plan for a FREE MARU sign); removed posts and the Discord limit what is seen; after h73 only recounting, victory claims and the BLM dispute (c0116 to c0123).
 struck by:  "I am doing just that, glad I am not alone!"
 made:       two "Anarchist Flags" artworks, 726 px at the left edge, placed from h1.4 to the freeze; the room claims a siege prevailed, which the canvas fits. The American-flag campaign left nothing the canvas names. The room's writers placed 0.068 of its region.
+later:      2026-10-07, catch-up: BASH THE FASH was put on the canvas as an answer to the admins (dfnw9fq). The brief shows why: the week before, a moderator's sticky refused the admins' demand over that slogan and was reported suspended (621gs3, 6291v0); the room's last plan, a FREE MARU sign, carried that dispute onto the canvas.

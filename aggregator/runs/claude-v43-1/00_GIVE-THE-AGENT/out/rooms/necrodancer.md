@@ -10,3 +10,4 @@ not this:   a room fighting for its spot; members said there were too many to fi
 ended:      last coordinating turn h70.17 (c0089, a Dark Souls neighbour asking help defending a border; the room's own last move is c0086 at h61.43); Discord unseen; after h73 survival claims.
 struck by:  "I'm putting down pixels at 0.1 BPM :D"
 made:       one Crypt of the Necrodancer, 1800 px at the edge, placed from h1.2; the room's writers placed 0.139. The canvas keeps the whole scene after the move.
+later:      2026-10-07, catch-up: whether to move was argued, one member doubting the hands (dfr590h), and a passer-by found the sub through the finished sign (dfq4rpe). The brief shows Coda as the hardest character the week before (61o6t9), the joke behind the April 1 claim to have completed Coda (dfpduy9).

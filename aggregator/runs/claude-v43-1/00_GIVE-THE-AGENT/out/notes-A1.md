@@ -997,3 +997,15 @@ In hoodr, muse, esperanto, araragi, twentyonepilots, GreenCorner, Thegreatblackh
 `validate.py A1` before the close: 0 errors, 0 warnings.
 
 Ledgers at the close: lexicon 1,289 lines, running file 665 lines (7 block-34 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 375 of 702 catch-up rooms are done. The next leg reads catch-up block 35.
+
+## Close report, leg A1b-35 (catch-up block 35), 2026-10-07
+
+Block 35 is read: 25 of 25 rooms, forsen to the_pack. For each room, case.md and brief.md were each served whole by `mem.py` in separate calls, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. In twelve notes the old `coder unsure:` line gave the brief's coverage or said none, and it was replaced with case.md's limits and thread ids. In the other thirteen it already drew on case.md from an earlier full read; it was kept and, where case.md gave more, extended. Two briefs were the harness's empty brief (AcePlace, PinkVomitMonster).
+
+The stage file changed before this leg: section 4 now says about 350 words is a guide, not a limit, and J's message of 7 October, received during the leg and answered, says the same. From forsen on, earlier lines were no longer cut to make room. A few doing clauses already covered by the named line were cut where they would not be missed, and every such cut is logged. Notes in this block average about 390 words; `validate.py A1` reports 21 of them over 350 as warnings. Twice a cut at the end of the doing line removed the line break before `week:` (AcePlace here, yogscast in block 34); the hook refused, and the break was restored at once.
+
+In forsen, AcePlace, lithuania, terraria and PinkVomitMonster the later line qualifies the not-this line. Two block-35 lines appended to `running-A1.md` in this leg carried garbled cross-references and were corrected in place before the close; that is logged as a departure in the diary.
+
+`validate.py A1` before the close: 0 errors, 21 warnings (notes over the 350-word guide).
+
+Ledgers at the close: lexicon 1,289 lines, running file 671 lines (6 block-35 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 400 of 702 catch-up rooms are done. The next leg reads catch-up block 36, from wales.

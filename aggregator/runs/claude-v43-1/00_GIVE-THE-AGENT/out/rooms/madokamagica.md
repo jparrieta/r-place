@@ -4,9 +4,10 @@ week:       h4 to h7 a Discord invite and the A; h24 April Fools; h26 to h34 gri
 named:      r/twitchplayspokemon's Chatot as armistice partner, later companion (c0068, c0087); r/anime_irl as ally (c0061); r/Landry as displaced (c0097); r/bostonceltics, BluePatch, r/SCP, r/lugarix asking space (c0100, c0099, c0091, c0081); r/homestuck as ally asking help (c0103).
 goal:       Homura, then a MadoHomu scene and the other girls; the final design declared at h30.2, then grown.
 unsettled:  whether canvas posts are spam in the sub (c0105, c0106); what they destroyed (c0108).
-coder unsure: the Discord planning and relocation talk unseen; deleted bodies of neighbour requests (6344la, 634509).
+coder unsure: the Discord planning and relocation talk unseen (dfqvmzy); deleted bodies of neighbour requests (6344la, 634509); whether Chatot became a mascot unknown (63cntr); two coders, no agreement measure.
 carrying:   c0021, c0068, c0097
 not this:   a room that started the art; the joke line came from the canvas and the room took it up.
 ended:      last coordinating turn h72.79 (c0103, a homestuck emissary asking help; the room's own last defence c0054 at h69.62); Discord unseen; after h73 thanks, praise, timelapses.
 struck by:  "We have an armistice with birb."
 made:       six artworks in the middle ring, Madoka Magica 8644 px, Homura Did Nothing Wrong, Mami, Soul Gems, Kyubey, Grief Seed, all placed from h0.95; writers placed 0.134, pre-event members 0.03. The canvas held the art from hour one, before the room's first canvas talk.
+later:      2026-10-07, catch-up: one member left the sub until the event ended (dfqhchu), so the project was contested, not shared by all. The brief shows Homura did nothing wrong already a running bit (dfla5f1), the joke line the room took up, and a Discord already active (dfd5fef).

@@ -4,9 +4,10 @@ week:       h3.8 the first call and readable letters; h19.5 the Pack on the canv
 named:      r/the_fack as copier and vandal (c0041, c0060, c0116); r/transflagplace and r/okami as allies (c0075, c0102); Armenia as the flag pushing in, which apologised (c0068, c0076); me_irl as a target proposed (c0118); THE_WITCHER blamed for one attack (c0083).
 goal:       THE_PACK sign, set by h3.8; extended with a wolf and MFER; held against renaming to FACK.
 unsettled:  whether the Pack helps outside causes or only itself (c0027, c0028); whether to retaliate or congratulate THE_FACK (c0087, c0112, c0116).
-coder unsure: the Discord fight unseen; 37 threads left unopened by the brief.
+coder unsure: the Discord work unseen, only invitations and a wolf image returned (dfnxbls, dfpnq6e); 24 deleted texts, one parent lost under a plea against collective blame (dfrrinu); whether the ME_IRL insult was carried out unshown (dfpqzfx).
 carrying:   c0029, c0060, c0075
 not this:   a closed in-group; it took a trans flag group as allies and members said the bond outlasted the event.
 ended:      last coordinating turn h72.23 (c0087, proposing retaliation; the room's last defence report c0079 at h70.35); Discord unseen; after h73 victory, thanks, a rivalry settled in words.
 struck by:  "I GOTCHU FAMFER"
 made:       one THE_PACK sign, 668 px in the middle ring, placed from h1.38; writers placed 0.228, pre-event members 0.1. The canvas keeps the sign as written, not FACK.
+later:      2026-10-07, catch-up: one member called the whole thing a giant waste of time (dfstzrf). The brief shows the room's house register the week before, the shouted MFER, speak up, and the Pack having each other's back (dfhuxtw), the words the canvas calls reused (dfp9yzf, dfowusn).

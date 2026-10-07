@@ -4,9 +4,10 @@ week:       nothing before h18.8; h18.8 to h19.6 the Pipo call and one helper; h
 named:      r/thenetherlands Discord and r/PlaceNL Discord as where plans were (c0003, c0010); THE WRECKING CREW.EU as overwritten work (c0007).
 goal:       Pipo, then the Wilhelmus; set by one poster; the change came from the Dutch Discord, not the room.
 unsettled:  who owns the overwritten space (c0007, c0009).
-coder unsure: many image-only posts with the generic title; whether void_ihe is about the canvas (635t1n).
+coder unsure: many image-only posts with the generic title; whether void_ihe is about the canvas (635t1n); the two Discords' talk unseen and the Pipo post's edits untimed (62s00d, dfq7mg8).
 carrying:   c0001, c0003, c0007
 not this:   a room that drew its own name; the ik_ihe artwork appears in no thread here.
 ended:      last coordinating turn h47.26 (c0009, saying there is room for three more); after it only stock replies and a removed post; nothing after h73.
 struck by:  "Klinkt goed! ik kom ook meehelpen!"
 made:       one artwork named ik_ihe, 312 px at the top edge, placed from h1.5; the room's writers placed 0.021 of it. The canvas holds a name tag the room never mentions; the work was the Dutch rooms', and this room was one of their channels.
+later:      2026-10-07, catch-up: the account adds nothing to the note's facts. The brief shows the two room habits the canvas posts met: the stock reply ik ook bedankt (dfdexor) and the moderators' bot removing a post with the wrong title (dfk65fh), which also removed void_ihe (dfrjd17).

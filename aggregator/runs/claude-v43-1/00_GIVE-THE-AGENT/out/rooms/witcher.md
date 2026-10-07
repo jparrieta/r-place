@@ -10,3 +10,4 @@ not this:   a room-wide effort; the members credit a small squad.
 ended:      last coordinating turn h70.49 (c0057, refusing a letter shift while busy defending; c0066 reports a fix at h66.60); after h73 celebration, recounting, wordplay and one plan for a bigger medallion next time (c0032, h85.25).
 struck by:  "Finish the middle claw mark, then use that for a reference on the second two."
 made:       one Witcher 3: Wild Hunt artwork, 794 px in the middle ring, placed h1.2 to the freeze; the room's writers placed 0.162. The atlas places it from h1.2, a day before the room's call at h24; the room may have joined or rebuilt something already begun.
+later:      2026-10-07, catch-up: the overlap quarrel was never settled in the record; one member answered the trans flag's request by threatening to vandalise it (dfrkf7y), while another held up asking first as the way the_pack got its wolf (dfrtq9k). The brief changes nothing.

@@ -4,9 +4,10 @@ week:       nothing before h14.8; h14.8 to h17 roll call, the flag agreement; h2
 named:      the trans flag and Trans Continental Railroad as neighbours under agreement (c0002, c0026); r/TheFarLeftSide as help against fascist marks (c0020); r/mechanicalkeyboards and CESLetters as encroachers turned treaty partners (c0035, c0075); the void as enemy and material (c0031); parahumans and RAMA as allies (c0052, c0054).
 goal:       to keep the Beast alive and changing; no fixed design until a reference image late on (c0046, c0061).
 unsettled:  whether to honour treaties or push through (c0072, c0037).
-coder unsure: Discord and chat negotiations unseen (dfr1a6k).
+coder unsure: Discord and chat negotiations unseen, only outcomes and diagrams returned (dfr1a6k, 630rb1, 6328rw); 47 deleted or removed bodies (634g0r).
 carrying:   c0071, c0078, c0045
 not this:   a planned artwork; members said its beauty was that nobody coordinated it.
 ended:      last coordinating turn h71.13 (c0062, branding the Beast; the pigifs treaty moved to Discord at h70.82); Discord unseen; after h73 survival, thanks, an archive of forms.
 struck by:  "I think the monster is not so coordinated (and that's its beauty)."
 made:       one artwork, The Beast, 1509 px in the middle ring, placed from h1.18, before the sub's first post; writers placed 0.135, pre-event members 0. The room grew out of the canvas, and the canvas keeps the Beast.
+later:      2026-10-07, catch-up: the line that its beauty was the lack of coordination was one member's (dfqbqr2); others posted repair lists and asked for a grid and reference image (62xh27, 633nji), so coordination was episodic and argued over, not absent. The brief is the harness's empty brief.

@@ -4,9 +4,10 @@ week:       h28 one member's start; h36 to h46 alone, then one helper; h72 a las
 named:      the girl on the broom as a neighbour to spare (c0001); Ness and the rainbow as landmarks (c0003); Twitter as the place support was asked (c0017).
 goal:       a Dofus Emerald; begun by one member; on the canvas at the close.
 unsettled:  nothing argued; the work was one member's.
-coder unsure: 17 threads out of scope.
+coder unsure: the tweet and any answer to it unseen (dfrxvqr); whether the help offered was given unshown (dfq8469); one deleted comment (dfqshug); who made the final design cannot be measured.
 carrying:   c0002, c0015, c0017
 not this:   a room that organised the Emerald; one member made it alone, and most found it after the close.
 ended:      last coordinating turn h72.47 (c0017, pixels added, support asked by tweet); after h73 surprise and nostalgia.
 struck by:  "Basically I've been doing it alone..."
 made:       one artwork in the middle ring, Dofus 324 px at 776, 677, 437 placers, placed from h1.95; writers placed 0.256, pre-event members 0.027. The linked region predates the member's first post (h28.4).
+later:      2026-10-07, catch-up: after the close the room spoke of the Emerald as something we made (dfs4a81, 63ap8w), though the record shows one maker, one offer and one late helper. The brief changes nothing.
