@@ -4,9 +4,10 @@ week:       h36 to h50 the logo built, moved, allied; h57 to h62 Quebec, bots, a
 named:      r/edBoxes as truce partner (c0005, c0008); Quebec as neighbour whose bots overran and then offered to rebuild (c0010, c0026, c0032); r/heyyea as host of a new spot (c0033).
 goal:       an Air For Free logo; done h50.1; overrun h60.5; a new spot arranged at h62.5.
 unsettled:  where the logo can stay beside Quebec (c0018, c0022).
-coder unsure: 3 threads out of scope.
+coder unsure: one canvas thread only, so no test of repetition (62xnq8); a deleted body (dfpxn27); Imgur images unread (dfpu2zp); Quebec's Discord seen only as returned (dfranoj).
 carrying:   c0005, c0026, c0032
 not this:   a room that fought for space; it moved on every request and accepted a neighbour's bots to rebuild.
 ended:      last coordinating turn h62.47 (c0033, a deal with r/heyyea); nothing after in the record.
 struck by:  "old scripts from people who went to bed make it hard"
 made:       one artwork in the middle ring, Air for Free 105 px at 435, 298, 437 placers, placed from h1.25; writers placed 0.24, pre-event members 0.287.
+later:      2026-10-07, catch-up: the not-this line overstates the bots; one Quebec member offered bots if r/Quebec's moderators approved (dfrblkn), another said bots were busy with their own image (dfrbm5z), and only a grid was begun (dfrbzuj). The brief shows AFF as the room's album shorthand (dfeem4p), the logo's name.

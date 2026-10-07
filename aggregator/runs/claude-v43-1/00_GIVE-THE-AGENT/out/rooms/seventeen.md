@@ -4,9 +4,10 @@ week:       h54.7 the logo shown; h64 to h67 the diamond identified; h70.6 an ap
 named:      an SVT Discord as the place it was organised (c0006); BTS, AoA and TWICE as neighbours in the kpop corner (c0004, c0012); OSU as a work a helper turned to (c0008).
 goal:       a Seventeen diamond in the kpop corner; on the canvas at the first turn; held.
 unsettled:  nothing in the thread; the planning was elsewhere.
-coder unsure: 3 threads out of scope.
+coder unsure: the two Discords' decisions and help unseen, only one member's short account returns (dfrl4cz); no later canvas thread tests whether the practices repeat (635gg4).
 carrying:   c0001, c0006, c0007
 not this:   a room that planned its mark in the thread; it was organised on Discord before the first post.
 ended:      last coordinating turn h70.63 (c0008, a helper turning to OSU); after h73 the kpop corner praised.
 struck by:  "Our little reddit kpop community did a great job"
 made:       one artwork in the middle ring, Seventeen 19 px at 474, 792, 75 placers, placed from h6.81; writers placed 0.07, pre-event members 0. A late room (contrast, late side): the mark was organised off-platform and shown at the first post (the fifth kind, find the mark already there); the linked work was placed from h6.81.
+later:      2026-10-07, catch-up: not this qualified; the first post's author invited anyone to work on the logo, a call made in the thread (dfquhmc), and the Discord account concerns the diamond, with no time given (dfrl4cz). The brief shows a sparse week of three release posts, and changes nothing.

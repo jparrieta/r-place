@@ -4,9 +4,10 @@ week:       h8 to h22 plans and the logo; h24 to h39 TSM attacks, ASOV; h57 to h
 named:      TSM fans as attackers (c0023, c0057); ASOV and the Broncos as neighbours who apologised (c0036, c0064); the Danes as wreckers of TSM's logo (c0056).
 goal:       a CLG logo; done h22; held with one pixel wrong; FREESM beside it.
 unsettled:  who was attacking, TSM fans or Broncos fans (c0069, c0078, c0079).
-coder unsure: 45 threads out of scope.
+coder unsure: early plan posts survive as titles only (62qmh7, 62qsdq); the destroy-TSM call has no body (630oeh); Discord activity unseen (dfr9d1d); attackers never reliably identified (dfradcy).
 carrying:   c0041, c0067, c0081
 not this:   a room that only fought TSM; it struck a truce with Broncos fans and traded help with ASOV.
 ended:      last coordinating turn h72.78 (c0081, focus on the logo over FREESM); after h73 one pixel wrong, thanks.
 struck by:  "the simple fanaticism of us CLG fans ensured a loss on your part this day"
 made:       two artworks at the edge, CLG logo 137 px with 671 placers and FREESM! 196 px, at 236, 884, placed from h1.29 and h2.64; writers placed 0.197, pre-event members 0.129.
+later:      2026-10-07, catch-up: a moderator's edited comments carried the link, blueprint and later a Discord channel (dfpiq5v, dfr9d1d). A post asked to destroy TSM (630oeh), attack talk beside the truces. The brief shows the fans calling themselves the faithful (dfdr9fg) and the TSM rivalry already running (dfl6ux8).

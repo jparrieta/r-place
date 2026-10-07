@@ -4,9 +4,10 @@ week:       h0 to h36 April Fools; h31 to h39 a call judged too big; h49 to h60 
 named:      r/truestl as the maker of the Vivec and the parody of the sub (c0015, c0025).
 goal:       a big Elder Scrolls; judged too big at h39; Vivec, made by r/truestl, kept by a few from h49.4.
 unsettled:  who made the Vivec (c0015, c0016).
-coder unsure: 68 threads out of scope.
+coder unsure: no final screenshot or canvas state, so whether CHIM survived is unknown (dfr9b5o); removed bodies (62stfs, 62w57o, 637gex); two slices, no reader held the week.
 carrying:   c0010, c0015, c0021
 not this:   a room that made its Vivec; members credit r/truestl and kept it with two people.
 ended:      last coordinating turn h59.81 (c0024, the CHIMs vandalised); after it the parody sub explained, nothing after h68.3.
 struck by:  "r/truestl did it, but yeah it's awesome :p"
 made:       one artwork at the edge, Vivec 1,715 px at 812, 688, 5,147 placers, placed from h1.38; writers placed 0.037, pre-event members 0.016. The canvas links the Vivec the room credits to r/truestl.
+later:      2026-10-07, catch-up: the "we did it" claim is one member's (dfqjgrg), against the credit to r/truestl (dfqgcrg). A maintainer asked for a screenshot of the finished work and none came (dfr9b5o). The brief shows an inherited fishy-stick joke that never reached the canvas, and changes nothing.

@@ -1139,3 +1139,15 @@ Two small logged edits to earlier lines in destiny replaced gendered pronouns fo
 `validate.py A1` before the close: 0 errors, 251 warnings (notes over the 350-word guide, 21 of them from this block). The diary moved into part A1-49 during this leg.
 
 Ledgers at the close: lexicon 1,289 lines, running file 758 lines (8 block-46 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 675 of 702 catch-up rooms are done. The next leg reads catch-up block 47, from marvel (`order-A1.txt` line 1384).
+
+## Close report, leg A1b-47 (catch-up block 47), 2026-10-07
+
+Block 47 is read: 25 of 25 rooms, marvel to fxKorea. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. 23 old `coder unsure:` lines were replaced with case.md's limits and thread ids: 20 gave the brief's coverage, and three said none (parabola, FederationPlace, fxKorea). Two lines that already held a case.md limit beside the brief's coverage were kept in part and extended (androidgaming, TheID). Three briefs were the harness's empty brief (TheID, parabola, FederationPlace).
+
+Case.md showed an earlier line wrong or overstated in seven rooms: marvel (the Hulk saved rests on the poster's own claim), androidgaming (the peace offer's acceptance is the member's claim), aromantic (the flags were reported at other spots than the first post's), pusheen (drawing over the Dutch flag was a proposal, not a decision), neutralmilkhotel (r/The_Donald's flag was a warning; no one says what destroyed the cover), RelientK (Quebec's bots were offered on conditions, not accepted) and snsd (the Jets logo's loss is one member's accusation). The later lines say so and the earlier lines stand. In daftpunk, WisconsinBadgers and seventeen the later line qualifies the not-this line.
+
+Wording fixed before logging: a leftover "h?" placeholder in the notredame later line (now about h49, from the case's d2 04-02 17:15); a four-word quotation of the note's own line in RelientK, flagged by the hook and rephrased; and overstatements in aromantic, apocalypserising, blackmirror and snsd, each narrowed to what case.md says. No gendered pronoun was written. The leg began after a compaction; the head and the diary were re-read and "compacted; head reconciled" was logged before any note was touched.
+
+`validate.py A1` before the close: 0 errors, 273 warnings (notes over the 350-word guide, 22 of them from this block). The diary moved into part A1-50 during this leg.
+
+Ledgers at the close: lexicon 1,289 lines, running file 767 lines (9 block-47 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 700 of 702 catch-up rooms are done. The next leg reads catch-up block 48, from Russiaclan (`order-A1.txt` line 1409).

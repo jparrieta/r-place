@@ -4,9 +4,10 @@ week:       h6 to h32 starts; h33 to h44 Guy-Man and Thomas under Green Lattice;
 named:      Green Lattice as permit office, host and mover of the figures (c0031, c0045); r/straya and r/h3h3productions as neighbours (c0035, c0043); r/indieheads as helper (c0034).
 goal:       the two robots; Guy-Man by h37.1, Thomas by h44; held inside the Green Lattice.
 unsettled:  where to build and whether to yield to Straya (c0014, c0048).
-coder unsure: 49 threads out of scope.
+coder unsure: Discord decisions unseen (dfpzrrb); the old smile and green eyes proposal's fate unknown (6343rj); deleted bodies hide some proposals (62x2j3); the new canvas got no reply (639s8t).
 carrying:   c0031, c0041, c0048
 not this:   a room that defended its space; it let the Australians have it and lived inside Green Lattice's barrier.
 ended:      last coordinating turn h65.40 (c0045, the figures moved side by side); after h73 thanks, Thomas on a new canvas.
 struck by:  "After some thought, I personally think we should let them have it."
 made:       one artwork at the edge, Daft Punk and Beanie Collab 590 px at 989, 321, 2,399 placers, placed from h1.46; writers placed 0.145, pre-event members 0.055.
+later:      2026-10-07, catch-up: not this qualified; yielding to the Steve Irwin was one member's view (dfq3q0v), while another posted to r/straya seeking a deal (dfq34ol). Canvas talk was moved into one megathread (62ysrq). The brief shows "the robots" as the members' name for the duo (dfluhe9), the name the build call used (62t3kx).

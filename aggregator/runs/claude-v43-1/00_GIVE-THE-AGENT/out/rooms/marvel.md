@@ -4,9 +4,10 @@ week:       h5 to h28 April Fools and a shield call; h35 to h59 Hydra, Groot, De
 named:      the r/marvelstudios Discord as builder of Hydra (c0028); pcmasterrace as encroacher (c0028); r/Doormonster as holder of Groot's spot (c0049).
 goal:       no single mark; a run of proposals from h5.6; Hydra and Wolverine found, Groot refused space, the Hulk saved.
 unsettled:  what to make and where (c0044, c0050).
-coder unsure: 348 threads out of scope.
+coder unsure: outcomes of the shield, Hydra, Groot, Deadpool and Spider-Man calls unreported; the Discord's work unseen (dfpt60q); removed bodies (62yqpu, 63430w, 637vvr); Hulk survival a participant's claim (dfs0l8c).
 carrying:   c0028, c0049, c0055
 not this:   a room that built its own marks; it found Marvel work others made and asked help for it.
 ended:      last coordinating turn h72.54 (c0055, save the Hulk); after h73 the Hulk survived, Wolverine asked after.
 struck by:  "NOPE. /r/Doormonster is already there, we're the orange."
 made:       one artwork at the edge, Site of Wolverine 343 px at 771, 949, 1,242 placers, placed from h1.73; writers placed 0.003, pre-event members 0.002. The room found Wolverine at h43.5 and asked where it was at h82.7.
+later:      2026-10-07, catch-up: the goal line's "the Hulk saved" rests on the poster's own claim (dfs0l8c). One member wanted Groot beside S.H.I.E.L.D and Hydra to keep the Marvel work together (dfqm39k), the only sign of a cluster plan. The brief shows ordinary comics threads and changes nothing.

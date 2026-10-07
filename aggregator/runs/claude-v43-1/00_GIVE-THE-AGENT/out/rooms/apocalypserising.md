@@ -4,9 +4,10 @@ week:       h16 to h30 April Fools; h31 to h50 the logo found, claimed, attacked
 named:      Minecraft as attacker (c0027, c0049); a Canadian flag as border dispute (c0023); the n64 logo and Vaporwave as helpers (c0039, c0041); Indonesia as helper (c0049); Factorio cleared of blame (c0038).
 goal:       an Apocalypse Rising logo; found on the canvas at h30.8; lost at h56; back at h60.2; held.
 unsettled:  who made the logo, and who speaks for the room (c0018, c0019, c0051).
-coder unsure: 84 threads out of scope.
+coder unsure: deleted bodies hide the flag demand, loss report, last appeal and finish post (62ys8j, 6339xi, 637hy4, 63bd9v); Discord decisions unseen (633bej); attackers never resolved into one.
 carrying:   c0009, c0041, c0051
 not this:   a room that planned its logo in the thread; most members found it there, built by a few.
 ended:      last coordinating turn h71.51 (c0047, help asked under attack); after h73 how to find it, a maker's account.
 struck by:  "I think it's not we, it's you"
 made:       one artwork at the edge, Apocalypse Rising 698 px at 88, 613, 1,693 placers, placed from h1.25; writers placed 0.169, pre-event members 0.094. The linked region predates the room's first turn (h15.9).
+later:      2026-10-07, catch-up: the defence Discord was also for other Roblox pixel art (633bej); one member called the result nothing special (dftbin1). The Indonesia repair is the maker's own account (dftetnz). The brief shows Apocalypse Drying as a returning April Fools bit, asked for the week before (61ff4o); it never reached the canvas.

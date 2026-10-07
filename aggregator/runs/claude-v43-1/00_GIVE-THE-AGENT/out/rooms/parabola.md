@@ -4,9 +4,10 @@ week:       h52.9 the writing shown and moved; h57.7 to h59.6 the paranoid fight
 named:      the Lost and numbers people, r/cubers, r/bulgaria and Croatia as neighbours under agreements (c0003, c0011, c0019).
 goal:       the word Parabola; on the canvas at the first post; moved right by request; held.
 unsettled:  whether to add r/ and how far to move (c0004).
-coder unsure: none; 0 threads out of scope.
+coder unsure: one thread only, so no test of repetition (6326lv); the opening image and the reference shot unseen (dfryb08); one deleted comment (dfr8utm); neighbours' side unseen.
 carrying:   c0003, c0008, c0019
 not this:   a room that started its writing; its first post shows the word already there.
 ended:      last coordinating turn h72.62 (c0019, the agreements listed); after h73 one stray reply.
 struck by:  "it's funny how close Parabola and Paranoid are"
 made:       one artwork at the edge, Parabola 245 px at 905, 488, 291 placers, placed from h1.76; writers placed 0.144, pre-event members 0. A late room (contrast, late side): it arrived with its word already on the canvas, then moved it by request and made border deals (close to the third kind, arrive to defend); the linked work was placed from the first hours.
+later:      2026-10-07, catch-up: the self-named defender and the r/cubers ally both said they did not use Parabola (dfr37cj, dfrpefp); outsiders defended the word and made its border deal, and one member in the room coordinated the rest. The brief is the harness's empty brief.

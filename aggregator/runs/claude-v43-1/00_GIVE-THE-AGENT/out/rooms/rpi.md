@@ -4,9 +4,10 @@ week:       h10 to h48 plans; h55 to h57 WPI hijack and retreat; h57 to h60 Purd
 named:      WPI as rival turned supporter (c0027, c0088); Purdue as refuser of space (c0054); Green Lattice, the Predators, Texas A&M and RWBY as neighbours under agreements (c0084, c0106, c0060, c0083).
 goal:       an RPI logo; three relocations; a mark made at h67.2; the logo not completed by its account.
 unsettled:  whether to bot, and whether to attack WPI again (c0093, c0103, c0104).
-coder unsure: 52 threads out of scope.
+coder unsure: five event post bodies deleted, titles only (62xqld, 632wc5, 63325r, 633zcs, 6354x9); the RPI Discord discussion unseen, only plans and scripts return (dfqzee5).
 carrying:   c0050, c0077, c0080
 not this:   a room bound by its Discord; members kept attacking WPI after the move.
 ended:      last coordinating turn h72.90 (c0106, the below-529 agreement); after h73 the logo called unfinished.
 struck by:  "With 3 relocations already, I'm not sure we could survive a 4th."
 made:       one artwork at the edge, Rensselaer Polytechnic Institute 207 px at 897, 524, 1,388 placers, placed from h1.85; writers placed 0.083, pre-event members 0.046.
+later:      2026-10-07, catch-up: a moderator announced the move off WPI and relayed the stop request (dfr02io, dfr1t1r); the brief shows that moderator as the sub's busiest account, running its megathread rule (61um9k). One member said the mark was made (dfrkx4x), another that the logo never got down (dfs01br).

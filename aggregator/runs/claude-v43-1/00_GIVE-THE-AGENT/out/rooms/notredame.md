@@ -4,9 +4,10 @@ week:       h3 to h33 two sites, deals with neighbours; h39 done; h47 to h60 bor
 named:      the Blue Corner as the force that morphed the first site (c0008); Michigan as larger neighbour not to attack (c0058); a 中国 writer, the bomb's builders and a name writer as neighbours dealt with one by one (c0028, c0034, c0064).
 goal:       an ND monogram; moved at h23.6; done h39.5; held with additions.
 unsettled:  what to put around the ND (c0063, c0086, c0090).
-coder unsure: 3 threads out of scope.
+coder unsure: three event posts survive by title only (62ybik, 630vnx, 634ekc); the Discord discussion that chose GCND unseen (630ujd, dfr99a8); deleted replies (dfqbhf4, dfracdb).
 carrying:   c0031, c0068, c0073
 not this:   a room that won a contest; a member asked how they won when it was never a competition.
 ended:      last coordinating turn h72.35 (c0096, repairing under bot attack); after h73 winning disputed, the red dot remembered.
 struck by:  "I never knew it was some sort of competition"
 made:       one artwork at the edge, University of Notre Dame 768 px at 16, 897, 1,184 placers, placed from h1.34; writers placed 0.181, pre-event members 0.006.
+later:      2026-10-07, catch-up: a Discord opened for canvas coordination at about h49 sent back only the GCND plan (630ujd, dfr99a8). One member also called to change USC to ND (dfpudke), attack talk beside the fight-only-for-our-spot rule. The brief shows "the Irish" as the team name, which the IRISH addition reused.

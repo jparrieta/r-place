@@ -4,9 +4,10 @@ week:       h7 to h21 April Fools; h20 to h34 the crest from an existing 09; h34
 named:      r/stlouisblues and the Celtic sub as allies sought (c0054, c0087); r/fcbayern and Schalke as rivals (c0086, c0061); r/placestart as pressing neighbour (c0067); r/uofu as partner against it (c0097).
 goal:       the BVB crest; finished h33.5; held, one blue pixel off.
 unsettled:  whether to advertise the sub and how far to expand (c0091, c0092).
-coder unsure: 35 threads out of scope.
+coder unsure: the r/uofu proposal's body and reply deleted (636k1a); Discord discussion seen only as returned (dfrq08v); draft images unread; one coder a slice, no reader held the week.
 carrying:   c0028, c0058, c0068
 not this:   a crest drawn from nothing; members built it from a BVB 09 already on the canvas.
 ended:      last coordinating turn h70.99 (c0076, defenders sent to the new template); after h73 the crest stayed.
 struck by:  "I dont know what BVB is but they are staunch as hell in remaining on /r/place"
 made:       one artwork at the edge, Borussia Dortmund 621 px at 768, 908, 3,453 placers, placed from h1.37; writers placed 0.191, pre-event members 0.107.
+later:      2026-10-07, catch-up: a moderator made the logo thread the only hub (dfqmoyp). r/placestart stopping followed the compromise post, but nobody tied the two (dfr8nj5). The credit to diplomacy is one member's account (dfs34v7). The brief shows the sub's habit of sending posts to one megathread (dfdv7d5), the rule the hub reused.

@@ -4,9 +4,10 @@ week:       h49 to h51 calls and relocations; h51 to h54 neighbours and design b
 named:      the AOA Discord as adviser and holder of space (c0022, c0030); BTS, the Korean flag, the rainbow, the smiley and Germany as neighbours (c0004, c0026, c0012, c0049).
 goal:       an f(x) logo; on the canvas at h49.19 after three hours; finished h54.1; held intact.
 unsettled:  borders against the rainbow and AOA (c0028, c0031).
-coder unsure: none; 0 threads out of scope.
+coder unsure: one thread only (630tol); four deleted bodies, one behind the heart correction (dfrmkt7, dfrn9g8); the AOA and f(x) Discords seen only as returned (dfqlqs2, dfqrpy0); images unread.
 carrying:   c0022, c0030, c0091
 not this:   a fandom drive; two members built most of it together through the night.
 ended:      last coordinating turn h54.10 (c0096, checking for vandalism tomorrow); after h73 intact, an offer to organise again.
 struck by:  "Where are you from? I'm from Norway"
 made:       one artwork in the middle ring, f(x) 114 px at 491, 783, 162 placers, placed from h1.41; writers placed 0.146, pre-event members 0. A late room (contrast, late side): ask and move with a neighbour's Discord, carried by two members (the first and sixth kinds together); the linked region was placed from the first hours.
+later:      2026-10-07, catch-up: one builder's remark that nobody stopped them any more hints at earlier interference (dfql44p). The intact finish is credited to dedication by the organiser alone (dfs405z). The brief shows one thread on a member's solo plans, with no group release (dfjtd0i), beside the call's wish for a comeback.

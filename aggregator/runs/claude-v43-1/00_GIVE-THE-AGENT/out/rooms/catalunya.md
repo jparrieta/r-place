@@ -4,9 +4,10 @@ week:       h17 to h45 the senyera and the U; h48 to h53 holding, Factorio; h59 
 named:      the U's builders as neighbour bargaining then erased (c0019, c0022); r/factorio and AR as neighbours under a disputed deal (c0034, c0040); Dreamcast and Aang's builders as neighbours (c0031, c0046); Club Penguin's Puffle as intruder (c0051).
 goal:       a senyera; from h16.7; enlarged, an estelada refused; held.
 unsettled:  truce or fight, and whether the Factorio deal existed (c0021, c0039, c0069).
-coder unsure: 237 threads out of scope.
+coder unsure: many organizing post bodies deleted, titles only (631fl6, 631qmh, 636oq1); images unread (637pf6, 638pot); Discord decisions unseen (631tfj); Racó Català talk unseen (62z26j).
 carrying:   c0021, c0029, c0057
 not this:   one voice for the room; a deal one member made with Factorio was denied as talk with one guy.
 ended:      last coordinating turn h72.97 (c0043, a newcomer sent to Discord); after h73 the flag kept, Factorio regretted, an Avatar fight.
 struck by:  "No you didn't. You talked with one guy"
 made:       one artwork at the edge, Flag of Catalonia 1,288 px at 21, 622, 2,076 placers, placed from h1.37; writers placed 0.176, pre-event members 0.006. The linked flag predates the room's first call (h16.7).
+later:      2026-10-07, catch-up: the flag script came from r/catalonia (dfrneo6), recruiting ran through Racó Català (62z26j), and pxls.space was proposed for after the close (dfs3yug). The brief shows a week of one poster's news links with one comment; a member said the canvas woke the sub (dfs6bu7).

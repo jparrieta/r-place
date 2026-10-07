@@ -4,9 +4,10 @@ week:       h9 to h28 three starts, one done; h31 to h48 damaged, gone; h49 to h
 named:      r/partyparrot as another parrot's maker (c0013); r/PurplePixels as host alliance (c0044); the communist party parrot as ally asking help (c0056).
 goal:       a parrot; done h28.2; lost h47.6; recreated h48.9; held.
 unsettled:  whether to write r/parrots (c0051, c0052).
-coder unsure: 128 threads out of scope.
+coder unsure: two update bodies deleted (631r32, 631s00); one deleted comment near the name plan (631rrp); reference and progress images unread (dfoesix, dfqixiy); two slices, no reader held the week.
 carrying:   c0022, c0044, c0053
 not this:   a room of many builders; one member organised much of it, and outsiders helped defend.
 ended:      last coordinating turn h68.12 (c0058, the defacer rebuked); after h73 the bird kept, pixel art posted.
 struck by:  "We don't need a title for our beatiful bird. We just need to keep him looking beautiful."
 made:       one artwork at the edge, Parrot 374 px at 130, 185, 1,739 placers, placed from h1.28; writers placed 0.042, pre-event members 0.013. The linked parrot sits at the recreated spot (132, 177).
+later:      2026-10-07, catch-up: one helper said they were not part of the sub (dfquslx), and one reader of the success post did not know what happened (dft087g). A defence call turned into talk about a pet bird's feet (6343kc). The brief shows a pet-care room of photos and advice, and changes nothing.

@@ -4,9 +4,10 @@ week:       h8 a call; h42 to h54 the logo found and defended; h57 to h64 a deal
 named:      r/ainbowroad as neighbour under a peace offer (c0015, c0016); r/SNES as possible helper (c0023).
 goal:       an Android Gaming logo; announced at h41.9; held, almost perfect, one eye lost.
 unsettled:  the controller and button colours (c0017, c0024).
-coder unsure: the first call's body is deleted (62p7bu), so the chosen artwork is unresolved; 213 threads out of scope.
+coder unsure: the first call's body is deleted (62p7bu), so the chosen artwork is unresolved; the peace and help post's body removed (62zsqt); the neighbour's Discord unseen (dfr8lt9).
 carrying:   c0003, c0010, c0016
 not this:   a room that drew its logo from its first call; a 34-hour gap separates the call and the logo's announcement.
 ended:      last coordinating turn h64.44 (c0024, button colours left); after h73 one eye mourned.
 struck by:  "We are currently: *Android Gaying*"
 made:       one artwork in the middle ring, Android Gaming 1,317 px at 656, 403, 4,327 placers, placed from h-0.64; writers placed 0.042, pre-event members 0.02. A placement before hour 0 (the twenty-first room).
+later:      2026-10-07, catch-up: the doing line's "accepted" is the member's own claim (dfr1ww0); no reply from Rainbow Road appears. Someone else changed the letters one member had set (dfr7qcd). The brief shows the room's [DEV] post format, which the studio found through the canvas used (dfqbz39).

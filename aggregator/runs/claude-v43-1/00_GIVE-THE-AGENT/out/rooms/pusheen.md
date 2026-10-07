@@ -4,9 +4,10 @@ week:       h39 to h47 the first Pusheen under attack; h61 a second Pusheen buil
 named:      the Dutch as aggressors (c0003); r/cirkeltrek as neighbour asking about expansion (c0008); Bender as landmark (c0011).
 goal:       a Pusheen; the first at 516, 8 lost; a second at the bottom from h61.2; held.
 unsettled:  whether to fight the Dutch or move (c0003, c0007).
-coder unsure: 4 threads out of scope.
+coder unsure: r/cirkeltrek's request got no reply, so no answer is visible (62zdys); the plan screenshot and rebuild images unseen (dfrdooz, dfrq9ff); the sticky and messages never shown done.
 carrying:   c0004, c0011, c0014
 not this:   a room that saved its first cat; the cat on the canvas is a second one a few friends built elsewhere.
 ended:      last coordinating turn h69.89 (c0015, defending the blep); after h73 joy at Pusheen in the final canvas.
 struck by:  "So I and a few friends got together and quietly brought Pusheen back."
 made:       one artwork at the edge, Pusheen the Cat 279 px at 659, 964, 671 placers, placed from h1.83; writers placed 0.044, pre-event members 0. The linked region sits near the bottom where the second Pusheen was built, not at 516, 8, and predates the room's first turn (h38.9).
+later:      2026-10-07, catch-up: the doing line's "decision" to draw over the Dutch flag was one member's proposal, never shown carried out (dfq8ijy). The rebuild was a member and a few friends, not the room (634s3e). The brief shows a quiet showcase-and-shopping sub, and changes nothing.

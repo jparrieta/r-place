@@ -4,9 +4,10 @@ week:       h27 badge done; h28 to h53 Spock, alliances, truces; h54 to h71 Spac
 named:      Harvard, the starfruit and orange star builders as neighbours dealt with (c0016, c0023, c0028); SpaceX as truce partner in IRC (c0048); snek and Anime_IRL as neighbours (c0056, c0063); r/startrek as parent sub (c0058).
 goal:       the Starfleet badge, Spock and an r/startrek banner; badge done by h27.25; Spock lost; badge and banner held.
 unsettled:  whether bots were within the rules, and the badge's colours (c0020, c0006, c0047).
-coder unsure: none; 0 threads out of scope.
+coder unsure: the record starts at h27, after the badge was done; eight post bodies deleted (62xfr6, 62xno1, 632t9j); IRC, Discord and private messages seen only as returned (dfqtriw, dfrgxye).
 carrying:   c0023, c0031, c0066
 not this:   a sub that built its badge in the thread; its first turn shows the badge finished.
 ended:      last coordinating turn h71.49 (c0066, an older bot image still running); after h73 the mark kept, Spock mourned.
 struck by:  "Anyone want to continue think of it like a Mandala?"
 made:       one artwork at the edge, Star Trek 895 px at 784, 171, 2,089 placers, placed from h1.56; writers placed 0.173, pre-event members 0. The linked region predates the room's first turn (h27.25).
+later:      2026-10-07, catch-up: after one member said r/startrek did not care, an r/startrek moderator answered and stickied a thread (dfrqked, dfrsy2b). The SpaceX truce followed a friendly message, but no one tied the two (633ns7). Discord carried a later design (dfrgxye). The brief is the harness's empty brief.

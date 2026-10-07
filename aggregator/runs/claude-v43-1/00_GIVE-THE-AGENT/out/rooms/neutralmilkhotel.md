@@ -4,9 +4,10 @@ week:       h19 to h24 a call and template; h35 to h40 drawn, destroyed, back; h
 named:      r/The_Donald's flag as the force that destroyed it (c0007); r/indieheads as the organiser of nearby album art and the border deal (c0014, c0020); the bisexual flag as neighbour (c0014).
 goal:       the In the Aeroplane Over the Sea cover; drawn by h35.7; destroyed and back by h40.3; held.
 unsettled:  how wide the border should be (c0013, c0014).
-coder unsure: 9 threads out of scope.
+coder unsure: the r/indieheads Discord and details thread unseen (dfp3821, dfqpsef); four deleted bodies in the protection thread (62xm0z); whether the border changed on the canvas not shown (dfqn8yr).
 carrying:   c0012, c0014, c0020
 not this:   a room that organised its cover alone; r/indieheads coordinated the album art and its borders.
 ended:      last coordinating turn h53.08 (c0020, a helper sent to indieheads); after it the cover held among other art.
 struck by:  "IT'S BACK, NO FLAG WILL PAVE OVER US"
 made:       one artwork in the centre ring, In the Aeroplane Over the Sea 812 px at 585, 545, 3,982 placers, placed from h0.98, shared with indieheads; writers placed 0.017, pre-event members 0. The linked region predates the room's first call (h19.6).
+later:      2026-10-07, catch-up: the named line overstates; r/The_Donald's flag was a member's warning, and no one says what destroyed the cover (dfpwbl9, dfpxiiu). The updated template came from the r/indieheads Discord (dfp3821), and one newcomer found the sub through the art (dfqn78y). The brief shows ITAOTS as the room's shorthand (dfgu3ur), the name in the canvas call.

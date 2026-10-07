@@ -4,9 +4,10 @@ week:       h3 to h39 April Fools; h46 to h56 starts and an existing SNSD; h56 t
 named:      r/bangtan and r/stlouisblues as offering help (c0019, c0035); r/robotwars as holder of the spot under a kpop-area deal (c0050, c0053); Starcraft and TWICE as neighbours taking space (c0023, c0025); r/nyjets as a logo the Seolhyun builders wiped (c0063).
 goal:       an SNSD mark; several tries from h54.8; the design above the heart done at h60.1.
 unsettled:  whose space to respect (c0051, c0056, c0067).
-coder unsure: 52 threads out of scope.
+coder unsure: the Discord discussion behind the plans unseen (dfr8sqx, dfrb2bw); deleted replies inside canvas threads (632txj, 6345ce); the sidebar joke's first post outside the record.
 carrying:   c0018, c0053, c0056
 not this:   a room that made the first SNSD; one was found on the canvas at h55.6.
 ended:      last coordinating turn h61.48 (c0070, pixels covered); after it mini-politics remarked, nothing after h63.
 struck by:  "Jesus Christ this thing has mini-politics now"
 made:       one artwork in the middle ring, SNSD 141 px at 542, 778, 579 placers, placed from h2.98; writers placed 0.085, pre-event members 0.005.
+later:      2026-10-07, catch-up: the named line overstates; the Jets logo's loss is one member's accusation, never checked (dfrchis). No reply took up the call to take the Blues out (dfr629p). One member said plans were discussed on Discord (dfrb2bw). The brief shows the numbered weekly chat thread where the canvas first came up (61rd91).

@@ -4,9 +4,10 @@ week:       h14 to h22 April Fools; h19 to h36 an array of small logos; h38 to h
 named:      r/ainbowroad as a neighbour to keep content (c0036); the blue corner and purple corner as pressing colours (c0017, c0045).
 goal:       White Bear logos; an array from h23.7; one survived.
 unsettled:  many small logos or one large one (c0050, c0051).
-coder unsure: 103 threads out of scope.
+coder unsure: the Imgur design unseen (dfoxud5); the purple placers never identified (dfq9oq4); the Tesla A proposal unanswered (631ycf); the survivor not independently checked (63ahf5); two slices.
 carrying:   c0010, c0027, c0036
 not this:   a room that cleared its own ground; it started in a black void others had made.
 ended:      last coordinating turn h61.87 (c0053, maintenance offered); after h73 last pixels claimed, one logo survived, r/pxlsspace.
 struck by:  "What if we started making an array of white bears to generate an area?"
 made:       one artwork at the edge, White Bear Symbol 25 px at 158, 48, 147 placers, placed from h2.56; writers placed 0.128, pre-event members 0.008.
+later:      2026-10-07, catch-up: the one survivor rests on a post (63ahf5); a maker said everything was gone at one check and rebuilt logos kept being overtaken (dfssjhw). The brief shows White Bear already a running reference that week, the episode one member showed a parent (61crza, dfecw92).

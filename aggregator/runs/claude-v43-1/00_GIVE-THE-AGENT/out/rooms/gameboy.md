@@ -4,9 +4,10 @@ week:       h5 one start; h26 to h62 questions and a design; h66 to h72 small Ga
 named:      Green Lattice as the domain one Game Boy sat in and a permit holder (c0007, c0010); the Czech flag as a landmark (c0014).
 goal:       a Game Boy; small ones by individual members; two in the final canvas by the room's count.
 unsettled:  which design and where (c0005, c0006).
-coder unsure: 86 threads out of scope.
+coder unsure: the pixel art post's body deleted (630t0j); linked design images unread (dfre563); whether the Tesla-side DMG is the earlier Tiny Game Boy unsaid (dfrjdyd, dfsjzmx); two slices.
 carrying:   c0001, c0007, c0010
 not this:   a room that built one planned Game Boy; separate members made small ones and the room found two after the close.
 ended:      last coordinating turn h72.43 (c0010, a warning about Green Lattice approval); after h73 two DMGs counted.
 struck by:  "A little DMG is permanently embedded in the canvas"
 made:       two artworks at the edge, Nintendo Game Boy 126 px and Game Boy 116 px, around 382, 38, 440 and 653 placers, placed from h1.39; writers placed 0.035, pre-event members 0.002.
+later:      2026-10-07, catch-up: the Discord question went unanswered (dfrkqip), and the Green Lattice warning reports a rule, with no covering seen (dfrxro4). No member ties the separate Game Boy reports together. The brief shows DMG as the room's hardware label (61nj2f), the word the outcome report used.

@@ -4,9 +4,10 @@ week:       h23 to h30 two flags tried, one kept; h33 to h47 neighbours on each 
 named:      the asexual flag as anchor (c0001); a Link drawer and the Minecraft tool builders as neighbours (c0006, c0008); the transgender stripe as a border crossed (c0009).
 goal:       one aromantic flag; at 67, 611 from h27; held and extended.
 unsettled:  how to extend past the shovel's border (c0008).
-coder unsure: 8 threads out of scope.
+coder unsure: one deleted comment (dfp2kmi); the crossposted r/asexuality thread is not in the corpus (dfp1449); the Link image unread (dfpndxx); whether the flag survived to the close not shown.
 carrying:   c0005, c0006, c0008
 not this:   a room of many members; six authors in one thread kept a flag among larger neighbours.
 ended:      last coordinating turn h47.08 (c0009, extending past the transgender stripe); nothing after in the record.
 struck by:  "I'll stop drawing on your flag."
 made:       one artwork at the edge, Aromantic Flag 752 px at 170, 611, 4,078 placers, placed from h1.34; writers placed 0.015, pre-event members 0. The linked flag predates the room's first turn (h23.2) and drew 4,078 placers against six coded authors.
+later:      2026-10-07, catch-up: members reported flags at 67, 611 and 812, 437 (dfp9epj, dfp9la0), not at the first post's spot by the asexual flag. The record never says whether the flag lasted to the close. The brief shows aro and ace used together (dfdhxbg), and changes nothing.
