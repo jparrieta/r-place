@@ -1,6 +1,6 @@
 # r/physical_removal  (read 2026-10-06)   coded share 0.109   off-platform pointers 10
 doing:      a far-right political sub; from h7.4 calls to cover communist flags, called homesteading (c0002); at h19.8 a snek blueprint with Pinochet's hat (c0009); a Discord at h22.5, orders given there (c0011, c0031); the rainbow kept as non-aggression (c0036); an alliance with Poland, AMD, FRC and Crusaders (c0075); a script to erase red run for twelve hours (c0082, c0084); members sent to r/PlaceSnek (c0080); the flag replaced by a helicopter at h60.1 (c0074).
-week:       h7 to h17 covering flags; h19.8 to h33 the snek; h35 to h54 alliances; h58 to h65 the helicopter and a script; after h73 stocktaking.
+week:       h7 to h17 covering flags; h19.8 to h33 the snek and Discord; h35 to h54 alliances and expansion; h58 to h65 r/PlaceSnek, the helicopter, a script; after h73 stocktaking.
 named:      communists as the target (c0002, c0017); 4chan, T_D, r/anarcho_capitalism, Poland, AMD, FRC as helpers and allies (c0004, c0092, c0045, c0054, c0075); r/PlaceSnek (c0080).
 goal:       the snek with a blueprint from h19.8; held; a helicopter added at h60.1.
 unsettled:  whether to expand onto others (c0048, c0050).

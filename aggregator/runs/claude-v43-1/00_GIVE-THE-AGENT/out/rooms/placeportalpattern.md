@@ -1,6 +1,6 @@
 # r/placeportalpattern  (read 2026-10-06)   coded share 0.214   off-platform pointers 8
 doing:      a sub made for a tiling pattern started on the canvas before any post; from h9.7 guides and maps of matching pixels (c0001, c0025); a reminder not to destroy art (c0026); an alliance with r/SquareSpiral (c0027); a border with r/dwarffortress (c0043); making way for BNE and Buizel text, Fluffhead's truce (c0048, c0046); a split between members wanting to be kind and members refusing to be pushovers (c0133, c0068, c0078); many requests for room (c0073, c0076); defending neighbours against the void (c0081).
-week:       h9.7 guides; h23 to h41 alliances and borders; h46 to h55 expansion fights; h56 to h64 the void; after h73 pxls.space.
+week:       h9.7 to h12 guides and first borders; h23 to h41 alliances, dwarffortress, BNE, Fluffhead; h46 to h55 expansion fights and requests; h56 to h64 the void and the R; h67 to h72 more requests; after h73 Discord and pxls.space.
 named:      r/SquareSpiral and the sister pattern as allies (c0011, c0027); r/dwarffortress as neighbour under a border (c0028, c0043, c0113); Fluffhead and r/phish, Brasil, BNE, Buizel, the blacksmith (c0046, c0062, c0047, c0052); r/indonesia (c0101); r/portal, r/MMA, r/Surrealmemes asking room (c0076, c0073, c0104).
 goal:       to grow the pattern; set before the first post; bounded by borders from h33.
 unsettled:  give space or keep it (c0068, c0078, c0099, c0112).

@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-51, 2026-10-07, the third leg of the restore pass.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-52, 2026-10-07, the fourth leg of the restore pass.
 
 ## The method question, in one sentence
 
@@ -32,7 +32,7 @@ After a compaction, do not trust edits made from the summary. Serve the room's c
 
 A grep pattern with parentheses matches nothing; grep on a plain word.
 
-`validate.py A1` before this close: 0 errors, 444 warnings (notes over the 350-word guide). A coder unsure line already drawn from case.md in an earlier read is kept and extended, not replaced (block 47: androidgaming, TheID). When case.md shows an earlier line is wrong, correct it through the later line or a small logged edit (blocks 46 to 48: seven, seven and two rooms, named in the close reports). Recount the head with `wc -w` after the last edit and before `done.sh`.
+`validate.py A1` before this close: 0 errors, 498 warnings (notes over the 350-word guide). A coder unsure line already drawn from case.md in an earlier read is kept and extended, not replaced (block 47: androidgaming, TheID). When case.md shows an earlier line is wrong, correct it through the later line or a small logged edit (blocks 46 to 48: seven, seven and two rooms, named in the close reports). Recount the head with `wc -w` after the last edit and before `done.sh`.
 
 ## Section 5, done in A1b-19
 
@@ -119,13 +119,9 @@ None is filed in `_questions/`. Distinctions forming, to carry into B1:
 - The moderator as organiser, obstacle, funnel, enforcer or permit office; a moderator who is also the main defender (oneplus).
 - The end of organizing: before hour 73, at the close, or in calls to rebuild after it; the work kept elsewhere after the close.
 
-## What the catch-up pass found (blocks 20 to 48)
-
-Every block's findings are in `running-A1.md` under "catch-up block NN" (block 48: entries 768 to 773) and in the list of patterns seen three times above.
-
 ## The last rooms read
 
-Catch-up block 48, in order: Russiaclan, predators. Block 47 before it: marvel to fxKorea (25 rooms, named in its close report).
+Catch-up findings are in `running-A1.md` under "catch-up block NN". The last restore batch: pathofexile to spain.
 
 ## Ledgers at this close
 
@@ -136,11 +132,11 @@ Catch-up block 48, in order: Russiaclan, predators. Block 47 before it: marvel t
   - Count a ledger's lines after appending, before logging the count; count the diary's trim lines before writing the closing line.
   - There is no `--kind close`; log the closing line as a note.
 - The permission check refuses "=w=", for and while loops, shell functions, heredocs, awk and a variable set from `$(...)`. The command guard reads a bare "rm" inside quoted text as a delete. Use the Write and Edit tools for file content; an Edit whose old text spans non-adjacent lines fails, so edit lines one at a time.
-- The diary rolls into a new part as it grows; during A1b-51 it moved into part A1-55. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
+- The diary rolls into a new part as it grows; during A1b-52 it moved into part A1-56. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
 
 ## The next comparison
 
-The restore pass (J, 7 October 2026), legs A1b-49 to A1b-53: one batch each from `out/_handling/pretrim-A1/BATCHES.tsv`. For each room, choose among the prototype in `restored/`, the cuts in `review/`, or leaving the note. Put back only my own pre-cut words, with no new reading, and log `<sub> restore: ...` for every room. Helpers: `python3 out/_analysis/restore_show.py <subs>` (read-only diff and review); `python3 out/_analysis/restore_put.py <sub> <leg> <field>...` (copies that leg's pre-cut "+" line for each field; refuses when the current line holds words the pre-cut one lacks; read those words, then add `--force` only for wording). Batches 1 to 3 are done (A1b-49: 91 rooms, 45 prototypes whole; A1b-50: 89 rooms, 40 whole; A1b-51: 88 rooms, 35 whole). Leave out pre-cut lines that a cut leg corrected (ended lines, hedges, quotes of four words or more, gendered pronouns, stray thread marks such as "(t03 aside)"), but check ended lines against `organizing_end-A1.jsonl` (greece's pre-cut line was the right one); a catch-up not-this line that a later line qualifies stands. Rooms with national flag conflicts stay as they are (israel, india, pakistan, palestine). QA1-002 is answered: organizing is counted before the freeze at h73, so r/canada's ended line h72.16 stands. The next leg takes the A1b-52 batch.
+The restore pass (J, 7 October 2026), legs A1b-49 to A1b-53: one batch each from `out/_handling/pretrim-A1/BATCHES.tsv`. For each room, choose among the prototype in `restored/`, the cuts in `review/`, or leaving the note. Put back only my own pre-cut words, with no new reading, and log `<sub> restore: ...` for every room. Helpers: `python3 out/_analysis/restore_show.py <subs>` (read-only diff and review); `python3 out/_analysis/restore_put.py <sub> <leg> <field>...` (copies that leg's pre-cut "+" line for each field; refuses when the current line holds words the pre-cut one lacks; read those words, then add `--force` only for wording). Batches 1 to 4 are done (A1b-49: 91 rooms, 45 prototypes whole; A1b-50: 89 rooms, 40 whole; A1b-51: 88 rooms, 35 whole; A1b-52: 92 rooms, 41 whole). Leave out pre-cut lines that a cut leg corrected (ended lines, hedges, quotes of four words or more, gendered pronouns, stray thread marks such as "(t03 aside)"), but check ended lines against `organizing_end-A1.jsonl` (greece's pre-cut line was the right one); a catch-up not-this line that a later line qualifies stands. Rooms with national flag conflicts or Nazi imagery stay as they are (israel, india, pakistan, palestine, Russiaclan, serbia, shitredditsays). A pre-cut line that dates a turn differently from the cut line stays out (scotland, soylent, redhotchilipeppers). QA1-002 is answered: organizing is counted before the freeze at h73, so an ended line before h73 stands against a later ledger hour (canada, southafrica). The next leg takes the A1b-53 batch, the last.
 
 After the restore, the next comparison is the `later:` lines across rooms, by the patterns above, when a leg message asks for it.
 

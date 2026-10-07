@@ -91,3 +91,4 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-07 11:28 restore leg A1b-49 closed, audit 0; restarted at A1b-50.
 - 2026-10-07 11:38 J answered QA1-002; passed verbatim with legs.py answer.
 - 2026-10-07 11:39 A1b-50 audit flagged 1 line (FloydVsVoid not-this: 'he was' -> 'they were'): the analyst's own logged edit, a gendered pronoun for the founder made neutral; no new content. Accepted. Lost-word check on A1b-50: 63 of 89 rooms lose 1-9 words where the pre-cut wording replaced the cut wording (synonyms, rephrasings); concept ids still cited. The analyst uses its own helper out/_analysis/restore_put.py (copies '+' lines from review files; --force when the current line has words the pre-cut lacks). Restarting at A1b-51.
+- 2026-10-07 12:09 restore leg A1b-51 closed, audit 0; restarted at A1b-52.

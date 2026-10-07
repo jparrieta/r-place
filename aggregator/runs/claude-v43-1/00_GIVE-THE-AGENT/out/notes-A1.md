@@ -1236,3 +1236,31 @@ Stray thread marks removed from restored lines: ireland "(t03 aside: ...)", leag
 Gendered pronouns for members: one restore in loltyler1 would have brought one back; it reads "the streamer's own face". The two pronouns left in the batch refer to game figures: luciomains' struck-by quote and Samus in metroid.
 
 `validate.py A1` before the close: 0 errors, 444 warnings (notes over the 350-word guide; 54 more than before this leg). The diary moved into parts A1-54 and A1-55 during this leg. Ledgers unchanged. No question is open. The next leg takes the A1b-52 batch.
+
+## Close report, leg A1b-52 (restore batch 4 of 5), 2026-10-07
+
+This leg took the fourth batch in `BATCHES.tsv`: 92 rooms, pathofexile to spain. Every room has a `restore:` line in the diary.
+- 41 rooms took the prototype whole.
+- 46 rooms took part of it, or had pre-cut lines put back through `restore_put.py`. I read every refused list of words before forcing a copy.
+- Five rooms stand as they were. Russiaclan, serbia and shitredditsays: their pre-cut lines add to national conflicts or to Nazi and fascist imagery, and this pass keeps that content minimal. redhotchilipeppers and soylent: the pre-cut doing line dates a turn differently from the cut line, so choosing needs a new reading.
+
+Ended lines:
+- redhotchilipeppers and southafrica: the pre-cut line, or the ledger, uses a turn after h73. Under QA1-002 the current line, before the freeze, stands.
+- singapore and spain: neither version matches `organizing_end-A1.jsonl`, so the current line stands.
+
+Other pre-cut lines left out on purpose:
+- placeDE: the pre-cut doing line adds Nazi symbols and conquest calls. The current doing line already records the refusals.
+- scotland: the pre-cut doing line dates Nessie (c0114) to h36.3 where the cut line has h40.3, and carries a near-quote of a member.
+- pokemon: the pre-cut made line gave 0.079, the coded share, as the writers' share. The cut line (0.027) stands.
+- placestart: the pre-cut week line drops the 962 coordinate.
+- python: the current not-this line is longer than the pre-cut one and stands.
+- placeportalpattern and porterrobinson: the pre-cut struck-by quote is cut off mid-word, so the current one stands.
+- PurplePixels: the restored doing line keeps the cut's paraphrase in place of a four-word member phrase.
+
+Stray thread marks removed from restored lines: rocketleague "(t08 aside: ...)" and "(t18 aside)", rush "(t02, ...)" in one citation list. Thread marks that were in both the cut and the pre-cut line stand (pathofexile, pcmasterrace, philippines, paydaytheheist, rit, rotmg, rwby, smite, snsd, and others named in the diary).
+
+placecanada's prototype had its later line above struck-by. I moved it back below made, where the form puts it.
+
+Gendered pronouns: PUBATTLEGROUNDS had "his" for a member in both versions; it now reads "their". The pronouns left refer to the drawn monster in PinkVomitMonster and, in shitredditsays, to a figure on the canvas; that note was not touched.
+
+`validate.py A1` before the close: 0 errors, 498 warnings (notes over the 350-word guide; 54 more than before this leg). The diary moved into part A1-56 during this leg. Ledgers unchanged. No question is open. The next leg takes the A1b-53 batch, the last of the restore pass.
