@@ -314,3 +314,75 @@ Ties told by one room only, not episodes: teslamotors, gameattack, giivasunner, 
 **Leads carried forward**, for when the other room is read. placehearts, the Colts sub and miamidolphins with texans. thebluecorner, ainbowroad, Destiny, svtfoe, Hearthstone, NRG and smite with rocketleague. kpop, rhythmheaven, udubs, Python and thebluecorner with xcom. vzla, belgium, argentina, mexico and GranColombia with colombia. finland (r/finlandflag) and squarespiral with chibears. portugal with eder. rotmg, kanye and TFLS with traaaaaaannnnnnnnnns. Lead kinds for the second pass: a mark copied by strangers beyond the room's plan (formula1's own checkers, called a new void, c0130); disinformation proposed against a rival (greenlattice c0144); a defence force formed (greenlattice c1116, c1120).
 
 **The stopping rule.** `saturation.py status --stage B1`: 157 of 705 rooms read, 22.9% of the words, kinds 168 by the rule's count (the eleven of the review, three splits and this leg's five), coverage 0.9884, unseen 37.26. Round 3 opened after rocketleague (order 155, predicted next kind in 5.4 rooms) and was reset at order 157 by T3-164. No markers.
+
+## Leg B1b-08, the eighth stretch, 2026-10-07 to 08
+
+**The stretch.** Order 158 (greece) to 182 (uofm), 25 rooms, about 0.99 MB, each the room `mem.py next --stage B1` named. 275 second-order themes were read; 274 were placed (452 placements) and one went to `unplaced-B1.jsonl` (berserk t04, a removed post whose title is only 'It's April 1st').
+
+**How the rooms were read.** Every room was printed whole through `b1_room.py`, every theme with every concept label, before any of its themes was placed. Large rooms were printed in parts under 30 KB with the line count checked: pokemon (585 lines) and halo (520) in four parts; frankocean, uofm, flashtv, gameofthrones, stlouisblues and HomestarRunner in two. Each room was then read against the rooms already read that it is tied to: `mem.py neighbours`, its leads, and a search of the read rooms' concepts for its name or artwork (`mem.py codes --grep` over the store, or the tied rooms' codes directly).
+
+**New kinds: nine, T3-165 to T3-173**, each logged as an idea first and minted before the room's other placements.
+- greece: T3-165 debating friendship with a historic enemy. After the close members argue whether the Greek and Turkish heart means friendship between peoples, against Erdogan's threats and four hundred years of Ottoman rule; Turkish visitors' thanks go to T3-155 as a second. T3-130 reading national politics into the canvas was weighed and set aside: its members attach politics to canvas events, while this theme argues whether reconciliation with an enemy nation is real.
+- greece: T3-166 arguing over the nation's historical record. Whether Greeks were always on the right side of history, with massacres and slavery set against the claim. T3-081 casting fights as historic wars and T3-017 the sub's usual talk were set aside: no canvas fight is cast as a war, and a stranger would tell this quarrel apart from usual talk.
+- dbz: T3-167 timing a mass placement together (c0036, a scheduled mass placement, one tile each). A search of the store finds the same doing in read rooms: falcons c0150 and c0051 (twenty people blitzing together), radiohead c0023 (a mass draw), jerma985 c0037 (synchronized placement), minnesotavikings c0090 (everyone starting at once). purplecorner c0057's jointly timed white ending was placed there in this stretch.
+- neu: T3-168 editing scripts to spare neighbours (c0072, c0073: the auto-manage script edited away from KState, KState's thanks). This is the A1 open distinction of bot rooms cutting their own targets to spare neighbours. rust t11 (c0116, c0163, c0171, c0177: the bot's target changed to end an overlap, a neighbour's square added one pixel over) is the same doing.
+- halo: T3-169 signing the sub's name (c0025, c0043: the finished face signed r/halo). It is not T3-004 settling the design: the doing is writing the community's name beside the art so viewers know whose it is. neu's r/neu lettering and banner telling stray Huskers whose logo it is, berserk c0074's attempts to write r/Berserk, oneplus c0057, purplecorner c0005 and c0025, uofm c0184 and c0185 and greece c0017's GREECE underneath are the same doing; most sit inside bags.
+- halo: T3-170 mistaking friendly work for vandalism (t18: defenders revert Cortana until a visible plan is posted, then protect it). stlouisblues t07 is its second room (allies and fans erasing the witch through ignorance, a member messaging rogue heart makers). cowchop c0083, greenlattice c0632, c0698 and c0754, neu c0081 and rocketleague c0435 are the same doing.
+- AprilKnights: T3-171 spreading a colour over the canvas (t03, Spread the Red with the Red Corner, a colour field as the work itself). purplecorner (t01, t02) is its second room. greenlattice's lattice and cirkeltrek's orange are the same doing.
+- AprilKnights: T3-172 renewing the order's oaths (t05: a standing order from the 2015 Button event reconvening each April, oaths sworn, new Knights welcomed).
+- AprilKnights: T3-173 holding elections for office (t09: candidacies, voter registration, elections moved after the event). T3-101 putting one member in charge and T3-066 putting a decision to the room were set aside: neither holds offices filled by election.
+
+**Rule 0 and bags.** 178 lines this leg in `out/_analysis/b1_multiplace_b1b08.tsv`, each checked against the scheme and the store and written with `b1_multiplace_write3.py`, and 59 bag records, in 20 of the 25 rooms. The coders' themes in this stretch are broad: a room's long theme on neighbours, defence, design or the close often holds four to eight kinds. Each bag keeps one placement and lists the kinds it would need with the concepts that show them, so the second pass can count them. 125 of the stretch's 274 placed themes carry more than one placement, 53 of them three. The scheme now holds 727 multiply placed second-order themes, 254 of them three times, none over three. The write tool now takes over two minutes; its check and write run as one call with a long timeout, so a bag is never written twice.
+
+**Episodes: twenty-six, E060 to E085**, each with its disagreement written in `episodes-B1.jsonl`.
+- greece with cirkeltrek (E060, the Dutch takeover of the Greek flag) and lithuania (E061, a Lithuanian call against the Turkish flag answered with an insult).
+- dbz with greenlattice (E062, one member writing in both).
+- OrderOfTheKoi with theitalyplace (E063, the koi voted away and destroyed), japan (E064) and COSI (E065).
+- neu with rutgers (E066, BU's attempt on the R) and greenlattice (E067, the Hong Kong picture, one member writing in both).
+- traaaaaaannnnnnnnnns and transgender (E068, the flag across the canvas).
+- halo with cowchop (E069) and redvsblue (E070), Halo members writing in both.
+- stlouisblues with bostonbruins (E071), nyjets (E072) and worldpowers (E073, the globe, disagreeing on whether to overrun it).
+- AprilKnights and jerma985 (E074, the Jerma face asked to move).
+- fireemblem and pokemon (E075, disagreeing on who attacked Squirtle and Pikachu).
+- ice_poseidon and purplecorner (E076, TriHard spared for expansion help).
+- gatech and virginiatech (E077), frankocean and indieheads (E078), clubpenguin and dbz (E079, disagreeing on who destroyed the penguin), HomestarRunner and donaldglover (E080), flashtv with greenlattice (E081) and batman (E082), gameofthrones with greenlattice (E083) and redvsblue (E084), uiuc and uofm (E085).
+
+Ties told by one room only, not episodes:
+- purplecorner tells a one-tile peace with GreyBlob that greyblob's record does not.
+- virginiatech tells Green Lattice refusing it space, and purplecorner accuses Green Lattice over a Pepe plan; the lattice's record has neither.
+- clubpenguin tells the Mona Lisa erasing its penguin, the Linux caption and the Puffle on the Catalan flag; monalisaclan, archlinux and spain do not.
+- pokemon recalls a war with r/Chicago; chicago does not. germany c0055 asks Germany to spare Fire Emblem and Pokemon, a different exchange.
+- flashtv tells League of Legends taking its spot and help for Watchmen; leagueoflegends and watchmen do not.
+- gameofthrones warns not to mess with the Burninator; HomestarRunner does not answer.
+- uofm calls at h34.5 to turn Rutgers' R into a B; rutgers accuses Michigan at h49.8, fifteen hours apart, and lays the B on Boston.
+- donaldglover recounts r/kanye's help to frankocean hours after frankocean tells it.
+- stlouisblues tells a promise not to grief geometrydash, which geometrydash does not; canucks names St. Louis's logo only as a reason to build its own.
+
+**What the scheme holds now.** 173 themes over 2,154 placed second-order themes (3,135 placements). Size distribution: 26 themes hold one second-order theme, 17 two, 14 three, 8 four, 7 five, 6 six, 6 seven, 4 eight, 3 nine, 3 ten. 30 themes are seen in one room only. The largest: T3-009 celebrating the finished work (119, 5.5%), T3-010 the space and border deals (117), T3-017 the sub's usual talk (96), T3-001 members' April Fools (95), T3-002 calling members in (91), T3-031 in-jokes (82), T3-005 defence (81), T3-014 the room's own chat (77), T3-004 design and T3-016 explaining r/place (72 each). None holds one in ten.
+
+**National kinds under J's words.** greece minted two (T3-165, T3-166) and put the swastikas and hammer and sickle argument in T3-080. T3-080 also took vietnam's argument over which flag to use (the South Vietnam flag). T3-065 took greece, NovaScotia (the motherland) and vietnam. clubpenguin's Puffle on the Catalan flag sits in T3-010 with T3-046 (nobody asked permission) and T3-056 (the Puffle recoloured in Catalan colours). frankocean's grievance against r/Denmark is a bag kept in T3-058; its jokes about Danes as a people (c0206, c0247, c0254) want T3-142, and the Danish apologies sit in T3-040. The Lithuanian call against the Turkish flag and the Dutch takeover of the Greek flag are in the greece t03 bag.
+
+**Content.** The greece and Turkey argument after the close (Erdogan, four hundred years of rule, a Turkish copypasta threat), the hammer and sickle and swastikas in greece, frankocean's anti-Danish slogans, the swastika on Pikachu in pokemon and the crude words policed in uofm were placed and named plainly as study material. Nothing was left out or softened.
+
+**What the second-order themes showed that the notes did not predict.** The A1 notes name neighbours by room and never name a member (a search of the notes for the members below finds none). Ten of the twenty-six episodes rest on a member writing in both rooms (dbz, neu twice, halo twice, stlouisblues twice, flashtv, gameofthrones twice). The colour factions (AprilKnights, purplecorner) and the standing order with oaths and elections (AprilKnights) were in the notes as facts; read whole, they are kinds the scheme had not held.
+
+**Leads carried forward.** Members to place at the second pass:
+- T3-167: falcons t02, radiohead t02, jerma985 t02, minnesotavikings t06.
+- T3-168: rust t11.
+- T3-169: neu t02, berserk t12, greece t01, oneplus t08, purplecorner t03, uofm t01 (most inside bags).
+- T3-170: cowchop t03, greenlattice (friendly fire on Hong Kong and the approved Warframe art), neu t03, rocketleague t05.
+- T3-171: greenlattice's lattice, cirkeltrek's orange.
+- T3-160: theitalyplace t11.
+
+Rooms waiting on a tie:
+- turkey, thenetherlands and armenia (greece)
+- darksouls, necrodancer and placestart (berserk, clubpenguin)
+- osugame and philippines (adventuretime, vietnam)
+- PurplePixels and thebluecorner (purplecorner, AprilKnights)
+- kanye, denmark, survivor and liverpoolfc (frankocean)
+- osu, TheB1G and minnesota (uofm)
+- mylittlepony and funhaus (halo)
+- hoodr and OnePiece (gameofthrones)
+- Watchmen and TheFarLeftSide (flashtv)
+
+**The stopping rule.** `saturation.py status --stage B1`: 182 of 705 rooms read, 26.4% of the words, kinds 177 by the rule's count, coverage 0.9887, unseen 41.06. Round 4 opened after gameofthrones (order 180): next kind predicted in 5.3 rooms, reading to 189.5 average rooms, under 10 average rooms. The last new kinds were at AprilKnights (order 170). No markers.
