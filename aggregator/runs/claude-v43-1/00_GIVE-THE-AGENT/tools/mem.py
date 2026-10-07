@@ -1350,9 +1350,17 @@ def _leg(st):
     return open(p).read().strip() if os.path.exists(p) else "?"
 
 
+def _part_key(f):
+    """A diary part's sort key: the stage, then the part number as a number, so A1-10 follows A1-9
+    (J, 2026-10-07, after A1's handback: a name sort put A1-10 between A1-1 and A1-2)."""
+    stem = f[:-len(".jsonl")] if f.endswith(".jsonl") else f
+    head, _, n = stem.rpartition("-")
+    return (head, int(n)) if n.isdigit() else (stem, 0)
+
+
 def _diary_path(st, stage):
     d = os.path.join(st.out, "diary")
-    parts = sorted(f for f in os.listdir(d) if f.startswith("%s-" % stage) and f.endswith(".jsonl")) \
+    parts = sorted((f for f in os.listdir(d) if f.startswith("%s-" % stage) and f.endswith(".jsonl")), key=_part_key) \
         if os.path.isdir(d) else []
     if not parts:
         return os.path.join(d, "%s-1.jsonl" % stage)
@@ -1394,7 +1402,7 @@ def _diary_lines(st):
     if not os.path.isdir(d):
         return []
     out = []
-    for f in sorted(os.listdir(d)):
+    for f in sorted(os.listdir(d), key=_part_key):
         if f.endswith(".jsonl"):
             out += jl(os.path.join(d, f))
     return out

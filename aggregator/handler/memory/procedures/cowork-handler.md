@@ -10,7 +10,7 @@ Target length: under 450 words. Written 2026-10-06 by the handler. Holds the pro
 
 ## Never
 
-- No git from the Cowork shell. A `git status` there left an empty `.git/index.lock` it could not remove (2026-10-06 12:12Z), which would have failed `publish.sh`'s `git add`. It was moved to `Jail/_to_delete/r-place/.git/index.20261006T121237Z.lock` with a WHY.tsv line.
+- No git from the Cowork shell, even with delete permission: on 2026-10-07 git still could not unlink inside `.git` (HEAD.lock, next-index lock, maintenance.lock, tmp objects) and the locks had to be moved to `Jail/_to_delete/`. Give J the commands instead. A `git status` there left an empty `.git/index.lock` it could not remove (2026-10-06 12:12Z), which would have failed `publish.sh`'s `git add`. It was moved to `Jail/_to_delete/r-place/.git/index.20261006T121237Z.lock` with a WHY.tsv line.
 - No `mem.py` or other run tool from the handler: they write read-logs into the run.
 - Never read `CONTROL/.cc`. Usage per leg comes from `CONTROL/legs/actors/<leg>/turns/<turn>/result.json`.
 - Moving a file aside: check the target path first; if taken, put the UTC time before the extension (HANDLER.md rule 1). A plain `mv` overwrites.

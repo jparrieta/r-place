@@ -380,7 +380,7 @@ def snap_matches(outdir, snap_name, file_name, stage, what):
 def diary_lines(outdir, stage):
     """The running diary's lines for a stage (out/diary/*.jsonl, harness-stamped by mem.py log)."""
     rows = []
-    for p in sorted(glob.glob(os.path.join(outdir, "diary", "*.jsonl"))):
+    for p in sorted(glob.glob(os.path.join(outdir, "diary", "*.jsonl")), key=lambda p: [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", os.path.basename(p))]):   # A1-10 after A1-9 (2026-10-07)
         for r in jsonl(p) or []:
             if str(r.get("stage")) == stage:
                 rows.append(r)

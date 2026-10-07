@@ -743,3 +743,27 @@ links: 1 files checked, all ids resolve
 views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
 leg A1c closed at cut interview. Stop now; the harness takes the snap and runs the probe.
 ```
+
+## Close report, leg A1b-20 (catch-up block 20), 2026-10-07
+
+J's rulings of 7 October 2026 opened a catch-up pass. This leg applied rulings 2 to 7 and read the first block of the pass.
+
+- Ruling 1: the pass is declared in `order-A1.txt` as comment lines, blocks 20 to 48. 702 rooms were not served both case.md and brief.md whole in A1; 3 were. The tiers are 40 rooms with concepts partly served, 187 with more than 170 concepts, 158 whose ended line differs from the rule by more than an hour, and 317 others. Block 20 holds 25 tier-1 rooms. Each room's case.md and brief.md were served whole by `mem.py`, and the read log showed lines served equal to the total before each note was amended. Each note's `coder unsure:` line now says what case.md says, with thread ids. Each note has a dated `later:` line. Eleven notes needed a second trim after the note hook refused them at 350 words or more.
+- Ruling 2: defect 7 is answered by an appended line in `defects.jsonl`.
+- Ruling 3: the onset contrast is recomputed in `contrast.md`. Only r/italy moves, to the early side (132 early, 61 late).
+- Ruling 4: `organizing_end-to73-A1.jsonl` gives the end without the calls after hour 73. 146 rooms move, and the median end goes from h72.02 to h71.69.
+- Ruling 5: `coordinating-rule-A1.md` now states the rule's measured error. On 100 concepts the rule agrees with my judgment on 79, with precision 0.92 and recall 0.66. On 34 non-silent rooms, work_remained is right in 25.
+- Departures this leg: the catch-up order script, the reader script and its revision, and the to-73 file. `departures.jsonl` has 9 lines.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-20 cut=none 20261007T014012Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-20 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 542 lines, leads 2,478 lines, defects 8 lines. The head is rewritten at 2,952 words. The next leg reads catch-up block 21.

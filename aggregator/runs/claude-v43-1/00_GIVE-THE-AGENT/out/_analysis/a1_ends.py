@@ -145,7 +145,7 @@ def main():
     for line in open(src, encoding="utf-8"):
         c = json.loads(line)
         rooms[c["sub"]].append(c)
-    order = [l.rstrip("\n").split("\t")[1] for l in open("out/order-A1.txt", encoding="utf-8") if "\t" in l]
+    order = [l.rstrip("\n").split("\t")[1] for l in open("out/order-A1.txt", encoding="utf-8") if "\t" in l and not l.startswith("#")]
     notes = {}
     for l in open(notes_path, encoding="utf-8"):
         p = l.rstrip("\n").split("\t")
@@ -193,6 +193,30 @@ def main():
     print("work_remained", dict(collections.Counter(l["work_remained"] for l in lines)))
     print("organizing_end_hour > 73:", sum(1 for l in lines if (l["organizing_end_hour"] or 0) > 73))
     print("no coordinating turn:", [l["sub"] for l in lines if l["last_coordinating_code"] is None])
+    # J's ruling 4 (7 October 2026): the end also without the turns after hour 73, which under the rule are only
+    # calls and plans for canvas work, mostly to rebuild, made when the canvas was closed
+    to73 = []
+    for s, l in zip(order, lines):
+        cs = sorted(rooms.get(s, []), key=lambda c: (c["hour"] if isinstance(c.get("hour"), (int, float)) else -1e9,
+                                                      c["code_id"]))
+        co = [c for c in cs if coordinating(c) and not (isinstance(c.get("hour"), (int, float)) and c["hour"] > 73)]
+        last = co[-1] if co else None
+        to73.append({"sub": s, "organizing_end_hour": l["organizing_end_hour"],
+                     "last_coordinating_code": l["last_coordinating_code"],
+                     "organizing_end_hour_to73": last["hour"] if last else None,
+                     "last_coordinating_code_to73": last["code_id"] if last else None,
+                     "coordinating_turns_to73": len(co),
+                     "calls_after_73": len(l["aftermath_coordinating_codes"])})
+    moved = [t for t in to73 if t["organizing_end_hour"] != t["organizing_end_hour_to73"]]
+    hs = sorted(t["organizing_end_hour_to73"] for t in to73 if t["organizing_end_hour_to73"] is not None)
+    print("without calls after 73: rooms whose end moves %d; median end %.2f; before 60 %d; 60 to 73 %d"
+          % (len(moved), hs[len(hs) // 2] if len(hs) % 2 else (hs[len(hs) // 2 - 1] + hs[len(hs) // 2]) / 2,
+             sum(1 for h in hs if h < 60), sum(1 for h in hs if 60 <= h <= 73)))
+    if "--write-to73" in sys.argv:
+        with open("out/organizing_end-to73-A1.jsonl", "w", encoding="utf-8") as f:
+            for t in to73:
+                f.write(json.dumps(t) + "\n")
+        print("written to73")
     if write:
         with open("out/organizing_end-A1.jsonl", "w", encoding="utf-8") as f:
             for l in lines:

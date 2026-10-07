@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1c, 2026-10-07, the end of stage A1.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-20, 2026-10-07, the first leg of the catch-up pass.
 
 ## The method question, in one sentence
 
@@ -10,13 +10,28 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1, the reading, is done. Leg A1a did the checks, the screen and the order. Legs A1b-01 to A1b-19 read blocks 01 to 19. All 705 rooms of the analysed set have a note in `out/rooms/`. Leg A1c wrote section 6 of `notes-A1.md`, `handback-A1.md` and the interview brief `out/interview/A1c.md`, and closed with `done.sh A1 --cut interview`.
+Stage A1, the reading. Legs A1a, A1b-01 to A1b-19 and A1c are closed; A1c closed at the interview cut. All 705 rooms have a note.
 
-The next stage is not yet delivered. Do not begin it. If a reply to the brief arrives (`A1c...-reply`), read it before the first write of the next leg and answer it in the files.
+J's rulings of 7 October 2026 (after the A1c handback) opened a catch-up pass, legs A1b-20 onward:
+1. For every room whose case.md or brief.md was not served whole in A1, read both whole, then amend the note: replace the `coder unsure:` line with what case.md says, with thread ids, and add a dated `later:` line wherever the account or the brief changes the note. Forests and concepts are not part of the pass. Read each file whole, with no head, cut or limit below its total; before amending, check in the read log that lines served equal the total. If a block does not fit in a leg, stop at a safe stop and pause; never shorten the route. Log any departure the moment it is made.
+2. Hour 0 is the canvas opening; Reddit's tests appear from about hour -16. Defect 7 is answered (a line appended to `defects.jsonl`).
+3. The onset is the first coded turn at hour 0 or later. Done this leg: only r/italy moves (to the early side); early 132, late 61, held size unchanged (appended to `contrast.md`).
+4. The organizing end reported with and without calls after hour 73. Done: `out/organizing_end-to73-A1.jsonl`.
+5. The rule is kept; its measured error is now in `coordinating-rule-A1.md`.
+6. `leads-outside-frame-A1.jsonl` is a ledger B1 may read.
+7. `mem.py diary --last` now reads the newest part.
 
-The reading route, from the read logs: every room through `room --no-canvas`, `when`, its concepts with their words, and `canvas`. The rendered forest for 155 rooms, the coder's account for 174, the brief for 98. Section 4 asks for all three in every room. The departure was logged late, at A1c. Earlier heads called every room read whole; that overstated it. Stage B1 reads the notes as its prior and should read the account and forest of any room whose note carries weight.
+The catch-up pass is declared in `out/order-A1.txt` as comment lines `#<block><TAB><sub>` after the A1 order (the checker refuses a room named twice; comment lines are skipped). 702 rooms, blocks 20 to 48, 25 rooms each (block 48 has 2), listed with tiers and byte sizes in `out/_analysis/catchup-A1.tsv`. Tiers: 40 rooms whose concepts were partly served, then 187 with more than 170 concepts, then 158 whose ended line differs from the rule by more than an hour, then 317 others. `mem.py next` does not serve this pass; take the next block from the tsv and the diary (`mem.py diary --grep "catch-up"`).
 
-`validate.py A1` before the close of A1c: 0 errors, 0 warnings.
+Block 20 is done (this leg): babymetal, qotsa, uvic, hellointernet, Rainbow6, uwaterloo, luciomains, colorado, giantbomb, mechanicalkeyboards, battlecats, frankocean, giivasunner, aoe2, hawks, heroesofthestorm, indieheads, habs, MMA, ripcity, indonesia, btc, bostonbruins, falcons, opticgaming. The next leg reads block 21, starting with the first `#21` line in `order-A1.txt`.
+
+The reading route for the pass: `bash out/_analysis/catchup_read.sh <sub> case` (logs the room opened, prints case.md whole), then `... brief`, then `... check` (prints lines served against the total from `_mem_reads-A1.jsonl`). Each file is under 30 KB, so the output is shown whole. Then amend the note and log `<sub> amended (catch-up): ...` with `--ids <sub>`.
+
+Note length: the hook refuses a note at 350 words or more by its own count, which can run above `wc -w`. Notes were near 340 words before the pass. Cut doing, week or named first, then add the new lines; keep `wc -w` near 335. Eleven notes this leg needed a second trim after the hook refused them.
+
+`validate.py A1` before this close: 0 errors, 0 warnings.
+
+The reading route in A1, from the read logs: every room through `room --no-canvas`, `when`, its concepts with their words, and `canvas`; the forest for 155 rooms, the coder's account for 174, the brief for 98. The departure was logged late, at A1c.
 
 ## Section 5, done in A1b-19
 
@@ -25,8 +40,9 @@ The reading route, from the read logs: every room through `room --no-canvas`, `w
 - The rule is applied by `out/_analysis/a1_ends.py` to the dump written by `out/_analysis/a1_codes_dump.py`. Both are logged departures. `departures.jsonl` now holds five lines; the fifth is the late reading-route departure.
 - Figures: 44,116 of 115,388 concepts coordinate (0.382). Nine rooms have no coordinating turn: watchmen, Redox, yerbamate, Lugarix, azores, ReBoot, PokemonSage, UNLincoln, tetris. 146 rooms have their last coordinating turn after hour 73, mostly calls to rebuild on later canvases. work_remained: kept 347, lost 218, silent 140.
 - Reconciliation with the notes' `ended` lines, in `out/_analysis/organizing_end-reconcile-A1.tsv`: same concept 268 rooms; a different concept within one hour 156; differs 281. Six notes name no concept. The file follows the rule; the notes stand as written. The disagreement is logged in the diary.
-- Known limits, stated in the rule file: the rule reads the coder's labels by their first verb. In a hand check of 40 rooms' work_remained outcomes, about six were doubtful, mostly labels about another room's work. A few questions about Discord count as coordinating.
-- A question for B1, put in the handback: whether 146 rooms ending after hour 73 is what the stage means by "organizing ended", or whether the post-73 calls should be reported apart. Do not change the rule without a departure.
+- Measured error (ruling 5, written this leg into the rule file): 100 concepts, seed 20261007, agreement 79; precision 35 of 38 (0.92), recall 35 of 53 (0.66). The rule undercounts coordinating turns, so its end hours lean early. work_remained: 40 rooms, seed 20261007, right in 25 of 34 non-silent (0.74); the 6 silent rooms not judged.
+- With and without calls after hour 73 (ruling 4): `out/organizing_end-to73-A1.jsonl`. 146 rooms move; median end h72.02 with the calls, h71.69 without; without them 79 rooms end before hour 60 and 617 between 60 and 73.
+- `a1_ends.py` now skips `#` lines in `order-A1.txt`; `organizing_end-A1.jsonl` was byte-compared unchanged after the rerun.
 
 ## The census and the analysed set
 
@@ -36,7 +52,7 @@ The reading route, from the read logs: every room through `room --no-canvas`, `w
 
 ## What the checks found
 
-Seven defects are in `defects.jsonl`; none blocks the reading. The seventh, filed at A1c with `sure` false, is the placements before hour 0 described below. The first six:
+Seven defects are in `defects.jsonl`, plus an eighth line answering the seventh (J, ruling 2: placements before hour 0 are Reddit's tests). None blocks the reading. The first six:
 - r/tenma has no canvas line;
 - r/archlinux has a coded turn at hour 100.9;
 - `n_codes_coder` has two meanings;
@@ -44,15 +60,7 @@ Seven defects are in `defects.jsonl`; none blocks the reading. The seventh, file
 - concept reach is 1.0 everywhere;
 - r/yogscast's first coded turn is not about the canvas (h-18.58, streaming keys; first canvas call h5.03).
 
-The seventh defect: linked artworks with region placements before hour 0, while README-store puts hour 0 at the canvas opening. A query over the notes' made lines at A1c finds 25 rooms, earliest h-15.92 (AmericanFlaginPlace); the list below, from the blocks, misses leagueoflegends, orderofthebluecorner and switzerland:
-- through block 14: FloydVsVoid, ProfessorLayton, SwissNeutralityZone (shared with switzerland), monalisaclan, radiohead, aoe2, thebluecorner, globaloffensive, GrowTheTree, nin, npr, starcitizen;
-- block 15: rainbowgrid, AmericanFlaginPlace;
-- block 16: trees, afip, PlaceNL, scotland;
-- block 17: Thegreatblackhole (h-14.52);
-- block 18: 2007scape (h-15.07), androidgaming (h-0.64);
-- block 19: ainbowroad (Rainbow Road from h-13.07).
-
-No `mem.py` verb serves `package/DATA-manifest-canvas.md`, so it was not read. The handback asks for a verb or a ruling.
+The seventh defect, now answered: 25 rooms' linked artworks show placements before hour 0, earliest h-15.92 (AmericanFlaginPlace). J ruled they are Reddit's tests while the canvas was closed; README-store says so. Notes that say "placed from h-..." keep their words; where a catch-up note mentions it, the later line says tests.
 
 ## The principal investigator's answer QA1-001
 
@@ -70,7 +78,7 @@ The concept-reach threshold stays at 0 items. No substitute measure is to be inv
 
 ## The onset contrast
 
-`out/contrast.md`. Early: first coded turn after hour 0 and before hour 3, 131 rooms. Late: first coded turn after hour 48, 61 rooms. The confound is size (median items 5067 against 33). A held-size comparison (items 156 to 2770, 41 against 12) travels with it. Expectation: late rooms organize around finding space on a full canvas; early rooms around claiming and holding it.
+`out/contrast.md`. Recomputed this leg on ruling 3 (onset = first coded turn at hour 0 or later): early 132 (italy joins), late 61, neither 512; yogscast moves to h5.03, still neither. Early: hours 0 to before 3. Late: after hour 48. The confound is size (median items 5067 against 33). A held-size comparison (items 156 to 2770, 41 against 12) travels with it. Expectation: late rooms organize around finding space on a full canvas; early rooms around claiming and holding it.
 
 The kinds of late room found in the reading:
 - ask and move: COSI, UPenn, sheffield, corridor, MiamiHurricanes, mysterydungeon, CSUFoCo, latin, guatemala; block 19 fxKorea (moved by the AOA Discord's suggestion);
@@ -87,15 +95,7 @@ In every late room read, the linked work was placed from the first hours. No siz
 
 The three sentences: one burst of calls in the first day or two, then defence and looking back, with coordinating turns ending near hour 73; fights with canvas neighbours and deals about borders, struck in the thread or sent to Discord; the goal set early by one call and changed only under pressure.
 
-What the reading found against them. These are the candidates for the "three things expected and not found" in `notes-A1.md`:
-1. The artwork was often there before the room spoke. The linked region predates the room's first call in many rooms. Block 19: FederationPlace's first turn shows the badge finished; seventeen's first post shows the mark; WisconsinBadgers and dofus. Some rooms credit the work to another sub.
-2. Coordinating turns do not all end near hour 73. Under the rule, 146 rooms have a last coordinating turn after 73 (calls to rebuild), and many small rooms end well before. In the notes, many end between hours 68 and 73.
-3. Fights are with neighbours, and rivals often become partners: Hawks and Wild fans helping predators; Russiaclan settling each border by alliance; winnipegjets turning a turf war with a ladybug into mutual protection.
-4. Deals often do not bind the crowd: reddevils members broke the CFB truce; rpi members kept attacking WPI after the Discord agreed a move.
-5. Leaders outside the thread: streamers, chats, single organisers, national Discords (winnipegjets under the r/canada Discord).
-6. April Fools filled the first days of many rooms: block 19 reddevils, dota2, rotmg, snsd.
-7. Moderators funnelled canvas posts into one thread or a second sub; ainbowroad's moderators ran a recognised-art list and answered petitions.
-8. Scripts: refused, remote, offered by a neighbour, fighting the room's own plan (dota2's old and new scripts, predators' old scripts during the move).
+What the reading found against them (`notes-A1.md` §6 has the full version): the artwork was often on the canvas before the room spoke; coordinating turns do not all end near hour 73; rivals often became partners; deals often did not bind the crowd. Also seen: leaders outside the thread (streamers, national Discords), April Fools filling first days, moderators funnelling canvas posts, scripts fighting the room's own plan.
 
 Seen three or more times and logged, blocks 10 to 19:
 - Green Lattice and Rainbow Road as host, permit office and border authority. Block 19: ainbowroad itself (protected status on request), gameboy (a Tiny Game Boy in the Green Lattice domain), rpi (r/ainbowroad to be asked).
@@ -128,13 +128,7 @@ Blocks 01 to 17: see `notes-A1.md` and earlier heads; kept here by name only.
 - Block 17: placestart, starryknights, tf2, brasil, wholesomememes, Thegreatblackhole, GreenCorner, ibo, wario.
 - Block 18: destiny, Summit1G, Okami, 2007scape, lithuania, stardewvalley, planetside.
 
-Block 19:
-- ainbowroad: a sub made for the canvas that ran a permit office for other subs (recognised-art list, protected status, a moratorium) and disowned its own rogue shards.
-- dota2: its own old and new scripts fought each other and hit Canada.
-- Braveryjerk: one call to place an image and no record of placement; the canvas links an 18-px line far from the coordinates it gave.
-- dofus: one member made the work alone; most of the room found it after the close.
-- Russiaclan: settled every border by alliance; mourned an unfinished heart the canvas keeps.
-- rotmg: made, lost and remade sprites across the canvas; kept them under Ireland's agreement.
+- Block 19: ainbowroad (a permit office for other subs), dota2 (its own scripts fought each other), Braveryjerk (one call, no placement), dofus (one member alone), Russiaclan (every border by alliance), rotmg (sprites made, lost, remade).
 
 The one room that fits nothing else, chosen at A1c: r/Summit1G. 82 of its 140 coded turns are a raiding rival chat's chant; Canada took its spot and helped rebuild its logo elsewhere.
 
@@ -153,31 +147,38 @@ None is filed in `_questions/`. Distinctions forming, to carry into B1:
 - The late-room kinds listed above.
 - The end of organizing: before hour 73, at the close, or in calls to rebuild after it.
 
+## What the catch-up pass found so far (block 20)
+
+The accounts and briefs changed notes in these ways, each in a dated `later:` line:
+- the canvas mark came from a joke older than the canvas (uwaterloo, giivasunner, falcons, habs);
+- the room credits the build or its coordination to another sub (Rainbow6 to r/2007scape, luciomains to the Overwatch sub, aoe2 to Ireland);
+- the account's end differs from the note's (giantbomb's bomb came back; frankocean saw Blond destroyed while the canvas keeps it; mechanicalkeyboards' S-Puck was only a top plate);
+- moderators removing canvas posts, then keeping one thread after members objected (hawks), or members asking for one thread (habs);
+- raids answered with home defence (ripcity, bostonbruins, btc);
+- damage to neighbours admitted beside deals (heroesofthestorm, opticgaming, indonesia);
+- organised shared projects in the brief before the canvas (qotsa's cover album, indieheads' rates).
+
 ## The last rooms read
 
-Block 19, in reading order: ainbowroad, dota2, Braveryjerk, WisconsinBadgers, FederationPlace, seventeen, rpi, traaaaaaannnnnnnnnns, rotmg, dofus, snsd, clg, reddevils, gameboy, fxKorea, winnipegjets, Russiaclan, predators.
+Catch-up block 20, in order: babymetal, qotsa, uvic, hellointernet, Rainbow6, uwaterloo, luciomains, colorado, giantbomb, mechanicalkeyboards, battlecats, frankocean, giivasunner, aoe2, hawks, heroesofthestorm, indieheads, habs, MMA, ripcity, indonesia, btc, bostonbruins, falcons, opticgaming.
 
 ## Ledgers at this close
 
-- `lexicon-A1.md`: 1,289 lines, 1,285 entries over 627 rooms; four lines appended at A1c duplicate four corrected lines already there (diary correction). `running-A1.md`: 535 lines. `leads-A1.jsonl`: 2,478 lines. Every lead's `other` is in `order-A1.txt`, letter case aside; checked at this close with grep, sort and comm.
-- `out/leads-outside-frame-A1.jsonl`: two lead lines moved there verbatim this leg, FederationPlace to harvard and clg to teamsolomid. Their other rooms are not in the frame, and `validate.py A1` refused them. The move is logged in the diary.
+- `lexicon-A1.md`: 1,289 lines. `running-A1.md`: 542 lines. `leads-A1.jsonl`: 2,478 lines. `departures.jsonl`: 9 lines (this leg: the catch-up order script, the reader script and its revision, the to-73 file). `defects.jsonl`: 8 lines.
+- `out/leads-outside-frame-A1.jsonl`: two lead lines (FederationPlace to harvard, clg to teamsolomid), a ledger B1 may read (ruling 6).
 - Rule, kept:
   - Fetch every id with `cite.py`. Check every lead's room with grep against the frame before appending. Append through a grep filter on the item id. Never type an id from memory.
   - Copy lexicon words from the item text, never from the coder's labels.
   - Never log "noted" in the same call that writes the note; wait for the hook's answer.
 - The permission check refuses "=w=", for and while loops, shell functions, heredocs and awk. The command guard reads a bare "rm" inside quoted text as a delete. Use the Write and Edit tools for file content.
-- `mem.py diary --last 5` returns lines from an older file; read the current leg's diary with `mem.py diary --grep <word>`.
+- `mem.py diary --last 5` now reads the newest part (ruling 7). The diary rolled to part A1-12 this leg.
 - After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
 
 ## The next comparison
 
-Stage A1 is closed at the interview cut. What the next stage should compare first, from the A1 record:
-- rooms whose linked work was on the canvas before their first coded turn, against rooms whose call came first (649 of 678 notes with a start hour show placement before hour 3; the median first coded turn is h9.51);
-- rooms whose organizing ends before hour 60 (78), between 60 and 73 (472), and after 73 (146), under the rule in `coordinating-rule-A1.md`;
-- deals kept against deals the crowd did not keep;
-- the onset contrast in `contrast.md`, early 131 against late 61, with size held.
+Catch-up block 21 (25 rooms: the last of tier 1, then tier 2), from `out/_analysis/catchup-A1.tsv`. For each room ask: does the coder's account change who started the work, where it was decided, what became of it, or whether the room's members kept their deals? Does the brief show a joke, ritual or shared project the canvas work grew from? Record only what changes the note.
 
-Four requests stand in `handback-A1.md`: a verb for the canvas manifest, a ruling on calls after hour 73, a ruling on reading the coder's account for the rooms read without it, and a fix to `mem.py diary --last`.
+When the pass ends (block 48), compare the `later:` lines across rooms: how often the account moved the note's end, credited another sub, or showed the mark drawn from an older joke.
 
 ## Nothing changed in the scheme or the model
 

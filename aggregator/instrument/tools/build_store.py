@@ -408,7 +408,7 @@ rewrites it. `tools/mem.py` reads it one page at a time and overlays your own ti
 the current one.
 
 **The clock.** `hour` is hours since the canvas opened, %(open_utc)d UTC (2017-03-31 16:00).
-Placement stopped at hour 73; the window ends at 97. Negative hours are the pre-event week.
+Placement stopped at hour 73; the window ends at 97. Negative hours are the pre-event week. Hour 0 is when the canvas opened; the placement record also holds Reddit's tests before the opening, from about hour -16, made while the canvas was closed to users (J, 2026-10-07).
 
 **The limit that holds on every row that has a parent.** %(limit)s. An interval between two
 posts is elapsed time, never the speed of a decision.

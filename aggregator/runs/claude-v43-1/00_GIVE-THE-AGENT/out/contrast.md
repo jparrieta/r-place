@@ -48,3 +48,19 @@ Early, 41: totallynotrobots, ElderScrolls, oneplus, tagpro, splatoon, texans, un
 Late, 12: littlewitchacademia, vermont, vietnam, latin, k_on, mysterydungeon, nVade, ukplace, udub, ibo, ManningPlace, cgpgrey.
 
 The lists come from `mem.py facts --field onset_first_code_hour --where ...` calls made in leg A1a and logged in `_mem_reads-A1.jsonl`.
+
+## Recomputed on J's ruling 3, leg A1b-20, 2026-10-07
+
+J ruled on 7 October 2026 that the onset is the room's first coded turn at hour 0 or later. Turns before hour 0 are reported apart. The sides keep their bounds: early from hour 0 to before hour 3, late after hour 48. The text above stays as written at A1a.
+
+I recomputed the onset from every concept's hour in the store. The concepts were read through `mem.py codes` by `out/_analysis/a1_codes_dump.py`. Two rooms have a coded turn before hour 0, one turn each:
+- r/italy: one turn at h-1.14. Its onset is now h0.15, so it moves from neither side to the early side.
+- r/yogscast: one turn at h-18.58, the offer of streaming keys (yogscast/c0024). Its onset is now h5.03. It stays on neither side.
+
+No other room moves. The quartiles of the onset are unchanged: q1 3.76, median 9.51, q3 24.82.
+
+Sizes on the new rule:
+- Early: 132 rooms (131 above, with italy). The median `items_in_window` is 5149.
+- Late: 61 rooms, unchanged. The median `items_in_window` is 33.
+- Neither: 512 rooms.
+- Held size (`items_in_window` 156 to 2770): 41 early and 12 late, unchanged, because r/italy lies outside the band.

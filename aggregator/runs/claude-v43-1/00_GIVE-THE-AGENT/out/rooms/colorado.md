@@ -4,9 +4,10 @@ week:       nothing before h31.9; h32 to h38 calls and flags; h42 to h47 a sizab
 named:      r/trees and its pineapple as neighbour (c0013); the rainbow as a border (c0021).
 goal:       a Colorado flag, wanted from h31.9 by many members; several flags made; no one plan.
 unsettled:  which flag to support (c0006, c0007, c0010).
-coder unsure: none named.
+coder unsure: the decisions in Discord (dfrd2mf); how many readers acted on the title-only calls whose bodies are deleted (634tgg, 63a7cv); whether the placehearts group is a subreddit (dfq00g9); the biggest-flag claim unverified.
 carrying:   c0006, c0010, c0031
 not this:   one coordinated build; the record is single posts, each starting its own flag.
 ended:      last coordinating turn h61.36 (c0031, coordinating on Discord against randoms); after h73 pride.
 struck by:  "Hats off to whoever got this squeezed in."
 made:       one Flag of Colorado, 828 px in the centre ring, placed from h0.98; writers placed 0.052. The canvas keeps a flag this room praised more than built.
+later:      2026-10-07, catch-up: the account adds a Rainbow Grid member telling Colorado to get back to its side (dfqfwek); the brief shows a room of state politics and local advice with no ritual, its canvas work the only shared build.

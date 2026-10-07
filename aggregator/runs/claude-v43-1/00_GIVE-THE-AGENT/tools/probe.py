@@ -82,7 +82,7 @@ def main():
         # next: the last `next:` this leg wrote in the diary, when there is one
         nxt = ""
         import glob as _g
-        for fp in sorted(_g.glob(os.path.join(out, "diary", "%s-*.jsonl" % a.stage))):
+        for fp in sorted(_g.glob(os.path.join(out, "diary", "%s-*.jsonl" % a.stage)), key=lambda p: [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", os.path.basename(p))]):   # A1-10 after A1-9 (2026-10-07)
             for r in jl(fp):
                 m = re.search(r"\bnext:\s*(.+)$", str(r.get("text") or ""))
                 if m and r.get("leg") == a.leg:

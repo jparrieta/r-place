@@ -1,6 +1,6 @@
 # Changes the handler made, to hand the orchestrator
 
-Target length: under 600 words, kept current. J, 2026-10-06 23:37 Berlin: "make all changes in a list to hand the orchestrator at some point". One entry per change to the instrument or the harness, newest last, with what was tested and what was not. Proposals the handler only raised are listed apart.
+Target length: under 1,200 words, kept current. J, 2026-10-06 23:37 Berlin: "make all changes in a list to hand the orchestrator at some point". One entry per change to the instrument or the harness, newest last, with what was tested and what was not. Proposals the handler only raised are listed apart.
 
 ## Changes made
 
@@ -18,6 +18,28 @@ Target length: under 600 words, kept current. J, 2026-10-06 23:37 Berlin: "make 
 - **Tested.** 21 hand cases against the old and new guard in a scratch folder in the Cowork VM: the new guard gets all 21 right; the old one blocked the quoted cases and missed `xargs rm`, `bash -c`, `sh -c`, `eval`. Harness test (`tests/run.sh` on the run's package and trees, in the VM): 49 of 82 checks ran, all ok, among them every tool-guard check and the two new ones; the VM shell stopped the script after about two minutes, so checks 50 to 82 (closes, interviews restored, fleet stages, validator imports, publication) did not run. **To do on the Mac: the full harness test and `validate.py --self-test`.** 
 - **Not done.** No commit of its own (the handler runs no git from Cowork): the change rode in the commit `close A1.A1b-16` (2026-10-06 22:08Z, pushed). `validate.py --self-test` could not run in the VM (no scipy: 36 failures, all from that); it does not touch the guard. The run's fingerprint (`CONTROL/RUN.json`) is not rebuilt: after the first leg `build.sh` refuses, and `CONTROL/harness/` is the run's.
 - **Effect on the live run.** The hook reads the file at every tool call, so A1b-16 (opened 21:30:04Z) got the new guard mid-leg, and its close commits it. It only lets through quoted text the old guard refused, and blocks two forms the old guard let through.
+
+### 2. Diary parts sorted by number (2026-10-07 00:41Z)
+
+- **Ruling.** J, 02:38 Berlin: triage item 3, "ok".
+- **Why.** `mem.py` sorted `out/diary/` parts by name, so `A1-10` came between `A1-1` and `A1-2`. `diary --last` read the end of `A1-9`, and `_diary_path` kept writing to `A1-10` without rolling over (956 lines, against about 1,500 words a part). `vlib.diary_lines` (the validator) and `probe.py` (the close-time probe, "the last next: line") had the same sort.
+- **Change.** A numeric key in `mem.py` (`_part_key`, used by `_diary_path` and `_diary_lines`), in `vlib.py` `diary_lines` and in `probe.py`. Installed in `aggregator/instrument/tools/`, the run's `00_GIVE-THE-AGENT/tools/` and `CONTROL/harness/validation_tools/` (same bytes each); `version_log.py` rows in `VERSIONS.tsv`.
+- **Tested.** Read-only against the run's diary: the last line is now A1c's (23:53:01Z), where it was A1b-12's (19:34:18Z); the next A1 line goes to `A1-11`. Not run: the instrument's tests and the validator self-test (no scipy in the Cowork VM).
+
+### 3. README-store: hour 0 and the pre-open tests (2026-10-07)
+
+- **Ruling.** J, 02:38 Berlin: "Canvas opens at 0. Reddit made some pre open tests before while closed".
+- **Change.** One sentence added to "The clock" in `tools/build_store.py` (the README's source) and in the run's `package/store/README-store.md`: hour 0 is the canvas opening; the placement record also holds Reddit's tests before it, from about hour -16, while the canvas was closed. `DATA-manifest-canvas.md` left as it is (it agrees).
+
+### 4. Bash allow rules (2026-10-07 00:43Z)
+
+- **Ruling.** J, 02:38 Berlin: triage item 8, "allow yourself".
+- **Change.** In `aggregator/handler/claude/settings.template.json` and the run's `CONTROL/settings.template.json`: allow `Bash(python3:*)`, `Bash(bash out/_analysis/:*)` and `grep`, `awk`, `sed`, `cut`, `head`, `tail`, `sort`, `uniq`, `wc`, `ls`, `cat`, `echo`, `printf`, `tr`. The sandbox, its denyWrite and the guard still apply; `step.sh` renders them into the next leg's settings.
+- **Not verified.** Whether an allow rule lifts the CLI's own asks (comparison operators, loops); the next leg's refusal count will tell.
+
+### Not changed: the note hook's word count (triage 10)
+
+- J said "fix yourself". On all 705 notes the hook's count (`len(t.split())`) equals `wc -w` (C locale, Linux); no note holds a non-ASCII space. The gap the analyst saw is not reproduced, so nothing was changed.
 
 ## Raised, not changed (the orchestrator's to propose to J)
 
