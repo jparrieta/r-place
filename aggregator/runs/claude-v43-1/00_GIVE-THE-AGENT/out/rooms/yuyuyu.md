@@ -4,9 +4,10 @@ week:       h28 April Fools; h55 to h62 the Swiss deal; h73 to h77 thanks.
 named:      r/SwissNeutralityZone as host and partner (c0018, c0025); griefers who would censor the cheese and mountains as the enemy (c0018).
 goal:       C-Shadow written in the Swiss zone; settled by the deal at h61.3; kept to the end as the room tells it.
 unsettled:  nothing recorded.
-coder unsure: 3 threads out of scope.
+coder unsure: the first event post's body deleted, no replies (633500); the Discord's decisions and participants unseen (dfrcuwh); the win is one member's account, not verified (dfs1lns); the Swiss side absent.
 carrying:   c0017, c0018, c0025
 not this:   a room that organized its work in the thread; the Discord group made the deal and did the work.
 ended:      last coordinating turn h61.34 (c0020, members sent to the coordinates); after h73 thanks and Chikage remembered.
 struck by:  "It was an unusual alliance, but one worth it."
 made:       one artwork in the middle ring, C-Shadow Memorial 217 px at 337, 533, 731 placers, placed from h1.1; writers placed 0.02, pre-event members 0.019. The linked region was placed from the first hours; the room's first canvas turn came at h55.7.
+later:      2026-10-07, catch-up: one member wanted actual Yuusha content next time, so the win was a narrow memorial (dfsc4wt). The brief shows the numbered Yuusha Daily Art series by one member (61jxv5), the format swapped for April Fools.

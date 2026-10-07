@@ -4,9 +4,10 @@ week:       h21 to h30 the flag on the Israeli flag; h35 to h50 restraint, treat
 named:      Israel as rival and partner offering both flags (c0092); Ukraine, Jordan, Italy and TheFarLeftSide as allies (c0024, c0044, c0013, c0082); Algeria and Pakistan credited after (c0062, c0066).
 goal:       a Palestinian flag; made at h30.7 on the Israeli flag's space; held.
 unsettled:  whether the flags should sit side by side (c0059, c0060, c0095).
-coder unsure: 41 threads out of scope.
+coder unsure: two slices, no reader held the week; the Discord's talk unseen (62z4bs, 637k5j); deleted bodies under strong titles (632pq6, 638je8); who vandalised, and whether every deal held, not shown.
 carrying:   c0038, c0039, c0092
 not this:   a room of only conflict with Israel; members refused to attack and argued for side-by-side flags.
 ended:      last coordinating turn h71.67 (c0035, flag projects centralised); after h73 the flag survived, side by side argued.
 struck by:  "Today, you are all street artists."
 made:       one artwork, Palestinian Flag, 1,397 px at the edge, 4,169 placers, placed from h1.22; writers placed 0.125, pre-event members 0.014. The canvas keeps the flag.
+later:      2026-10-07, catch-up: the organising post itself called covering the Israeli flag war (62uah3), and a take-over-Ukraine call stood beside the alliance (632pq6). After the close a banner was proposed from the canvas work (dft366g). The brief shows the moderators' redesign that week (6207fx), the banner habit the canvas fed.

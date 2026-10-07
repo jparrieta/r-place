@@ -4,9 +4,10 @@ week:       h3 to h31 calls, Dan, the Jedi flood; h38 to h53 RURURU, the badge, 
 named:      Austin's Discord as where the work was organised (c0078); GB, Purdue, Texas A&M and smashbros as neighbours (c0062, c0067, c0068, c0079).
 goal:       RURURU and Austin's badge; done by h52.2; held to the end.
 unsettled:  what to make (Dan, an egg, the sub's name) (c0017, c0050).
-coder unsure: 132 threads out of scope.
+coder unsure: two slices, no reader held the week; removed bodies of the Egglord, Gheese, Dan-face, RURURU-help and eggdaddy calls (62n6ya, 636vg7); Austin's Discord unseen (dfqpwby); smashbros' side absent (dfrqp0q).
 carrying:   c0063, c0065, c0078
 not this:   a room that built its work in its threads; members said the build came from Austin's Discord.
 ended:      last coordinating turn h72.81 (c0081, hold the line); after h73 RURURU and the badge survived.
 struck by:  "we chose a site where the only actual drawing was a day old"
 made:       two artworks at the edge, RURURURURU 700 px with 1,223 placers and Last_Grey_Wolf Icon 226 px, placed from h1.28; writers placed 0.137, pre-event members 0.042.
+later:      2026-10-07, catch-up: the Dan work reportedly began as a rough outline but no finish is shown (62wb66, dfq9ob3); the badge post thanked the sub while its author credited the Discord (631vcc, dfqpwby). The brief shows Northernlion called the egg (62f7et), the egg of the Egglord and eggdaddy calls.

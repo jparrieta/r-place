@@ -4,9 +4,10 @@ week:       h8 to h12 the logo found, designed, done; h22 to h62 noticed, mainta
 named:      the Lattice and the blue corner as hosts to be appeased by colour (c0003, c0025, c0026); TSM, CLG and Phoenix1 as rival logos (c0018, c0059, c0060); Team Dignitas as the team that noticed (c0036).
 goal:       a Dig logo; found under way at h8.8; done by h10.6; held to the end.
 unsettled:  whether to trash a rival's logo (c0018, c0021).
-coder unsure: none; 0 threads out of scope.
+coder unsure: three posts survive only as titles (62q1p3, 636rxc, 6385yf); two comments deleted; the images and the Twitter screenshot unseen (dfrwy97, dfoybxd); who damaged the logo not shown.
 carrying:   c0003, c0023, c0025
 not this:   a room that started its logo; a member found someone already making it underneath the Lattice.
 ended:      last coordinating turn h72.15 (c0051, a vertical logo identified); after h73 Yellow man measured against rival logos.
 struck by:  "SURROUND IT IN BLUE SO BLUE CORNER IGNORES US"
 made:       one artwork at the edge, Team Dignitas logo 253 px at 986, 604, 706 placers, placed from h2.31; writers placed 0.198, pre-event members 0.068.
+later:      2026-10-07, catch-up: the doing line's refused overstates it; one member reported turning the TSM logo into a Dig logo while others refused vandalism (dfofrpu, dfofpa7). The brief shows all-caps match hype threads (61a1ku), the register of the canvas calls.

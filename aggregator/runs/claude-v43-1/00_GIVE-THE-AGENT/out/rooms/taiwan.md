@@ -4,9 +4,10 @@ week:       h15 to h37 April Fools; h47 to h60 the flag, hearts, borders; h60 to
 named:      PTT as the Taiwanese board to mobilize (c0006, c0025); r/Morocco and r/CCJ2 as attackers (c0026, c0058); r/danganronpa, OSU and r/trees as neighbours (c0065, c0041, c0013); Japan and CCJ2 regulars credited after (c0074).
 goal:       a Taiwan flag; up by h52; held, with TW#1 on it by h69.3.
 unsettled:  what to write on the flag, and whose scripts to follow (c0014, c0034, c0062).
-coder unsure: 68 threads out of scope.
+coder unsure: two slices, no reader held the week; the TW#1 proposal's body removed (635bdo); PTT, poll, scripts, Telegram, Discord and the second board seen only as returned (dfqb451, dft2e0s); images unseen.
 carrying:   c0062, c0065, c0066
 not this:   a room whose attackers stayed attackers; one canceled its own raid and sabotage calls turned into help.
 ended:      last coordinating turn h71.54 (c0067, an account pledged to defend 24/7); after h73 alliances praised, a flag on a second board.
 struck by:  "Could our own team stop fighting against the TW#1 in white please? Thanks"
 made:       two artworks at the edge, Flag of the ROC 319 px with 1,119 placers and Taiwan R.O.C. 98 px, placed from h1.75; writers placed 0.185, pre-event members 0.018.
+later:      2026-10-07, catch-up: the not-this rests on single speakers; the cancelled Moroccan raid and the CCJ2 help are each one member's account (dfruqoa, dfsueiy), and r/CCJ2 is also listed as an attacker (dfr5jm5). A mocked objection shows the flag itself was disputed (dfru3cx). The brief shows practical advice and changes nothing.

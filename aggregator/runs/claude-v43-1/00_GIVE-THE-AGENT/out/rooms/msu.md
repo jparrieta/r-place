@@ -4,9 +4,10 @@ week:       h7 to h30 attack or build; h30 to h52 marks lost and rebuilt; h55 to
 named:      smashbros, r/runescape and r/2007scape as helpers (c0035, c0048, c0049); Michigan, OSU and K-State as rivals (c0001, c0050, c0021); r/theB1G as the plan that stopped griefing (c0040); Rose Hulman, Penn State, r/unturned and r/argentina as neighbours (c0030, c0051, c0055, c0052).
 goal:       an MSU mark; tried in three places; settled above the green head by h57.
 unsettled:  attack rival schools or not (c0038, c0040, c0041).
-coder unsure: 29 threads out of scope.
+coder unsure: several calls survive only as titles; the smashbros Discord's decisions unseen (dfr0ujb); outside requests removed by the moderator after the close, so later ones may be missing (dfsahd0); images unseen.
 carrying:   c0003, c0031, c0040
 not this:   a room at war with Michigan; its members argued it out and stopped for the Big Ten plan.
 ended:      last coordinating turn h72.72 (c0052, r/argentina taking the space); after h73 three relocations recounted.
 struck by:  "How about you guys try creating something for once, instead of just destroying others' work?"
 made:       one artwork at the edge, Michigan State University 990 px at 53, 927, 3,695 placers, placed from h1.5; writers placed 0.139, pre-event members 0.019.
+later:      2026-10-07, catch-up: not this qualified; the stop for the Big Ten plan was one reply against a call to attack, not a settled stop (634d1x, dfrchcj), and one member still said the room was not unified (dfr1rq9). The brief shows Sparty and Spartans (dfcywwu), the figure the room drew.

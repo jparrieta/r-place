@@ -4,9 +4,10 @@ week:       h25 to h33 April Fools; h49 to h61 Emilia, the drawings, borders; h6
 named:      r/anime and OneTrueEmilia's Emilia sign as a joined build (c0011); Fire Emblem, r/megumin and r/loliconsunite as neighbours (c0022, c0026, c0028); the Re:Zero Discord as where the work was done (c0056).
 goal:       mini pixel art of Emilia, Rem, Ram and Subaru; placed from h51.2; Subaru and Rem defaced at the end, Emilia mostly there.
 unsettled:  whose favourite character to draw (c0014, c0033, c0042).
-coder unsure: 173 threads out of scope.
+coder unsure: three slices, no reader held the week; bodies missing in event posts (630qyf, 6336vn, 635wtg, 635y7u, 6384r6); the Discord, where the work mainly ran, unseen (dfrzxl0); images unseen.
 carrying:   c0023, c0028, c0067
 not this:   a scripted build; members said they defended with two accounts each and agreed on Ram's hair by arguing.
 ended:      last coordinating turn h72.61 (c0016, the Emilia text located); after h73 posters of the design.
 struck by:  "we eventually agreed and wondered why the hell we were making her hair light purple instead of pink."
 made:       two artworks at the edge, Re: Zero 741 px with 1,559 placers and Re:Zero 380 px, placed from h1.54; writers placed 0.101, pre-event members 0.025.
+later:      2026-10-07, catch-up: the doing line's maintained in return overstates it; the organiser offered upkeep to r/megumin, and none is shown done (dfrp6d5). The brief shows the numbered Daily Emilia series and best-girl rivalries (61dcp8), the rivalry behind the Crusch refusal.

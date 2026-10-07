@@ -4,9 +4,10 @@ week:       h24 to h42 April Fools, the first logo; h46 to h60 neighbours, the l
 named:      Green Lattice and the blue corner as hosts and gatekeepers (c0042, c0063, c0067, c0074); WallStreetBets as taker (c0025, c0065); r/homestuck and feedthebeast as neighbours (c0031, c0076).
 goal:       a Starbound logo; made by h34.6; lost near h56; a second placed by the Discord at h72.
 unsettled:  how big, what design, and where (c0056, c0057, c0064).
-coder unsure: 92 threads out of scope.
+coder unsure: two slices, no reader held the week; removed openings of the reclaim and claim posts (634ajt, 634ise); a warning title without body (633q6u); the Discord's design talk unseen (dfrwl22); templates unseen.
 carrying:   c0053, c0067, c0094
 not this:   a room that fought for its space; members moved, shrank and asked leave.
 ended:      last coordinating turn h72.03 (c0094, the Discord's design placed); after h73 survival celebrated.
 struck by:  "I'm content with having made a mark on the canvas that lasted ~24h"
 made:       two artworks at the edge, Starbound 735 px with 2,380 placers and William Glitchspeare 1,036 px, both placed from h1.7; writers placed 0.053, pre-event members 0.013. The linked regions predate the room's first call at h27.7 by a day.
+later:      2026-10-07, catch-up: the megathread came from fifteen place posts and twice as many reports (dfrm1k8); contentment with a day-long mark was one member's view before the rebuild, and survival was claimed at the close (dfqykbr, dfs4du4). The brief shows the weekly Build of the Week contest (61vndv), the room's habit of design and critique.

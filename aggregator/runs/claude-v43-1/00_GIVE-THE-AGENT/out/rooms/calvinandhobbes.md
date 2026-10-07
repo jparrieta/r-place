@@ -4,9 +4,10 @@ week:       h34 to h40 the build; h45 to h61 neighbours, defence; h64 to h72 the
 named:      r/eagles as ally (c0023, c0041); r/weezer as the neighbour that would not let the ears in (c0057, c0080); r/metalcore, the hearts and the Giants as neighbours (c0029, c0061, c0049).
 goal:       Calvin and Hobbes; done by h40.8; kept clean to the end.
 unsettled:  whether the heart belongs, and the ears (c0066, c0057).
-coder unsure: 51 threads out of scope.
+coder unsure: the heart and Nazi-flag posts survive only as titles (635i2t, 637d7f); the Discord's live choices unseen (dfpyegi); why the picture survived is participants' guess (dft05jp); the final thread runs past the window.
 carrying:   c0016, c0025, c0048
 not this:   a room that fought for its place; members expected a loved picture to be left alone, and say little vandalism came.
 ended:      last coordinating turn h72.61 (c0060, outlast r/weezer); after h73 the mosaic praised.
 struck by:  "It also helps that Calvin and hobbes is so wholesome and loved by many."
 made:       one artwork at the edge, Calvin and Hobbes 893 px at 99, 966, 4,552 placers, placed from h1.4; writers placed 0.087, pre-event members 0.001. The room's first call was h34.7; the region was placed from the first hours.
+later:      2026-10-07, catch-up: the doing line's h71.2 clause goes past the record; the Nazi-flag request names no group and drew no reply (637d7f). Upkeep did happen, called tricky (dfq684g, dfr9sw1). The brief shows affectionate praise of the strip (dfdxi5j), the love members credited for the picture's survival.

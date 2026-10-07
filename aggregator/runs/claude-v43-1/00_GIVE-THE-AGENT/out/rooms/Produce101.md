@@ -4,9 +4,10 @@ week:       h70.9 to h72.5, one thread.
 named:      SNSD and the kpop corner as the location (c0003); r/cosmicgirls and WJSN as the group whose spot they took (c0004, c0006).
 goal:       I O I in magenta; started at h71.05; almost done at h72.5.
 unsettled:  nothing recorded.
-coder unsure: 13 threads out of scope.
+coder unsure: one in-window turn deleted (637a1h); the effort ends at almost done, no outcome shown (dfrxxqp); no contact with r/cosmicgirls shown (dfrusea); later replies fall after the window.
 carrying:   c0003, c0004, c0006
 not this:   a room organizing a build; one member and friends did it, two authors in all.
 ended:      last coordinating turn h72.49 (c0006, an apology for taking the spot); nothing after.
 struck by:  "Sorry to WJSN but we had to act fast before others took the spot"
 made:       one artwork in the middle ring, I.O.I 77 px at 561, 778, 201 placers, placed from h2.39; writers placed 0.03, pre-event members 0.005. The linked region was placed from the first hours; the room's first turn came at h70.94. A late room (contrast, late side), of the sixth kind (one member with friends), taking a spot another group wanted.
+later:      2026-10-07, catch-up: the account changes nothing; the post asked tentatively while the poster's own comment already held a plan (637a1h, dfrtl41). The brief shows I.O.I named as a remembered group (dfh5z6o) and a sub of clip posts, and changes nothing else.

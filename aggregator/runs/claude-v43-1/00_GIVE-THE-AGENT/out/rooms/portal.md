@@ -4,9 +4,10 @@ week:       h6 to h13 the cube; h21 to h27 the cake; h37 to h72 one attempt afte
 named:      Catalunya, eve, Dwarf Fortress and Rocket League as neighbours the room would not or could not overrun (c0031, c0046, c0055, c0083); r/placeportalpattern as the space's gatekeeper (c0075); r/tinytardis and r/TheLastAirbender as allies (c0094, c0100).
 goal:       a companion cube; done by h12.5; held clean; every later work failed.
 unsettled:  what to build next and where (c0003, c0047, c0102).
-coder unsure: 47 threads out of scope.
+coder unsure: several proposals survive only as titles (62qslb, 62yruf, 632z7i, 6366s4); images not used as evidence; whether the r/TheLastAirbender upkeep happened not shown, replies only joked (6348ma, dfr7u17).
 carrying:   c0057, c0060, c0094
 not this:   a room that took space; it stopped each time a neighbour asked.
 ended:      last coordinating turn h72.91 (c0107, three building a Portal gun); after h73 one false pixel mourned.
 struck by:  "it's very hard to create something complex now that the canvas is so full."
 made:       one artwork at the edge, Companion Cube 729 px at 15, 661, 2,299 placers, placed from h1.55; writers placed 0.055, pre-event members 0.013. The canvas keeps the cube; none of the later attempts is linked.
+later:      2026-10-07, catch-up: not this qualified; one member joined a plan to paint over Rocket League, given up only as impossible (dfqohn3, dfqprc7). The brief shows game quotes such as the cake reward (dfdznou) and members joking that the sub has no active moderators (dfem0m3).

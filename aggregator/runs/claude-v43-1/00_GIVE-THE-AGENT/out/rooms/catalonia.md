@@ -4,9 +4,10 @@ week:       h21 to h49 attempts, disputes; h59 to h72 scripts, factorio, the ase
 named:      r/factorio and r/Asexual as neighbours given room (c0020, c0027); the Dreamcast and the blue Human as neighbours run over (c0008, c0003); r/catalunya as the sister sub (c0014).
 goal:       a Catalan flag; built by script from h66.8; held.
 unsettled:  how far to expand over others (c0009, c0025).
-coder unsure: 4 threads out of scope.
+coder unsure: call and announcement bodies deleted (62so43, 635p9l, 636p22, 636r04, 636v8o); the script's unseen changes on Pastebin (635yxc); no answer shown from r/TheLastAirbender or r/Asexual (634e4p, dfrt9e5).
 carrying:   c0009, c0020, c0027
 not this:   a room that pushed into its neighbours; members refused, wrote neighbours into their script and moved for them.
 ended:      last coordinating turn h71.83 (c0040, script instructions corrected); nothing after h73.
 struck by:  "Being there in one corner is enough. We are not Germany."
 made:       two artworks at the edge, Flag of Catalonia 1,288 px with 2,076 placers and Catalonia Heart, placed from h1.37; writers placed 0.057, pre-event members 0.009.
+later:      2026-10-07, catch-up: not this qualified; a post refused any drawings on the flag (636p22), and one member called the flag's spread defence against invaders (dfq3aak). The brief shows a quiet sub of six items, a language question, and changes nothing.

@@ -4,9 +4,10 @@ week:       h36 one member's work; h54 to h59 attack, a help request removed; h7
 named:      no sub or neighbour named as party; the automoderator as the one that removed the help request (c0011).
 goal:       one member's place thing; made by h36.1; lost by h70.3 as the room tells it.
 unsettled:  nothing recorded.
-coder unsure: 87 threads out of scope.
+coder unsure: the linked images unreadable (62xptp, 63473x, 63724u); whether the three posts show the same picture not shown; the opening behind the visitor's comment outside the record (dfpz4i1); who attacked unknown (dfqu1rq).
 carrying:   c0001, c0008, c0012
 not this:   a room that organized a build; one member made the work and others reacted.
 ended:      last coordinating turn h59.08 (c0010, a help request, removed); at h70.34 the loss reported; after h73 the capture admired.
 struck by:  "Our place on r/place is gone, but I captured its most perfect form"
 made:       one artwork at the edge, Original Location of Futanari Tag 441 px at 122, 258, 992 placers, placed from h1.35; writers placed 0.001, pre-event members 0. The room says its work was gone at h70.3; the canvas links a region placed from the first hours, almost wholly by people outside the room.
+later:      2026-10-07, catch-up: the account changes nothing; the same member who called for repair later wrote of our place (dfqu1rq, 63724u), and the loss is not shown to follow the attack. The brief shows AutoModerator removing request posts to a sticky (dfietyh), the rule that removed the canvas help request.

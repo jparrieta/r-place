@@ -4,9 +4,10 @@ week:       h28 to h34 the spot, 42-39; h49 to h54 the script; h57 to h72 expans
 named:      Penn State as rival held to a mutual let-alone (c0091); CMU, r/penguins, Xerath and New Mexico as neighbours (c0034, c0141, c0077, c0110); Ohio State, WVU and r/python as attackers (c0055, c0140, c0105).
 goal:       a Pitt script logo; done by h54.2; grown, held.
 unsettled:  attack Penn State or not (c0052, c0128, c0089).
-coder unsure: 24 threads out of scope.
+coder unsure: attack and defence posts survive only as titles (63220q, 632nc4, 6350k2); the Rhythm Heaven Discord's border decision unseen (dfrs600); images unseen; other attack coordination outside the record unknown.
 carrying:   c0030, c0091, c0116
 not this:   a room fighting its rival; members kept to 42-39 and an agreement to leave Penn State alone.
 ended:      last coordinating turn h72.94 (c0121, a WVU script warned of); after h73 the line of CMU, Pitt and New Mexico admired.
 struck by:  "in the PSU subreddit they are thanking us for expanding a white background"
 made:       two artworks at the edge, University of Pittsburgh 735 px with 4,199 placers and 42-39 457 px, placed from h1.23; writers placed 0.111, pre-event members 0.026.
+later:      2026-10-07, catch-up: not this qualified; members proposed putting 42-39 over the Penn State logo and reported it said (dfpnexo, dfqsx77), before the moderator removed the attack post (dfqhrof). The brief shows 42-39 Pitt as a stock answer (dfmqm1c) and moderator megathreads for repeat posts (dfhrig6).

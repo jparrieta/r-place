@@ -1117,3 +1117,13 @@ One later line first used a gendered pronoun for an r/turkey visitor (azerbaijan
 `validate.py A1` before the close: 0 errors, 208 warnings (notes over the 350-word guide, 24 of them from this block). The diary moved into part A1-47 during this leg.
 
 Ledgers at the close: lexicon 1,289 lines, running file 742 lines (8 block-44 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 625 of 702 catch-up rooms are done. The next leg reads catch-up block 45, from palestine (`order-A1.txt` line 1334).
+
+## Close report, leg A1b-45 (catch-up block 45), 2026-10-07
+
+Block 45 is read: 25 of 25 rooms, palestine to calvinandhobbes. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. All 25 old `coder unsure:` lines were replaced with case.md's limits and thread ids: 23 gave the brief's coverage, and two said none (TeamDignitas, DevonUK). One brief was the harness's empty brief (afip).
+
+Case.md showed an earlier line wrong or overstated in six rooms: oltp (the title does not say who built the sign), TeamDignitas (one member reported converting the TSM logo, so refused overstates it), sbu (the Jigglypuff-covered site was abandoned), afip (r/PlaceUS was only proposed), re_zero (upkeep for r/megumin was only offered) and calvinandhobbes (the Nazi-flag request names no group). The later lines say so and the earlier lines stand. In pitt, taiwan, msu, portal and catalonia the later line qualifies the not-this line. In oltp the old coder unsure line's note on null concentration fields was carried into the later line.
+
+`validate.py A1` before the close: 0 errors, 230 warnings (notes over the 350-word guide, 22 of them from this block). The diary moved into part A1-48 during this leg.
+
+Ledgers at the close: lexicon 1,289 lines, running file 750 lines (8 block-45 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 650 of 702 catch-up rooms are done. The next leg reads catch-up block 46, from swordartonline (`order-A1.txt` line 1359).

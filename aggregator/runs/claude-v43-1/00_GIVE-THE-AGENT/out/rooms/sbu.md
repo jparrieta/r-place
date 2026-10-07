@@ -4,9 +4,10 @@ week:       h23 to h25 a first call; h56 to h64 the script, moves; h67 to h72 pl
 named:      r/smashbros, UCONN, r/aviation and r/warthunder as neighbours asking space (c0026, c0028, c0014); r/placestart's taskbar as the boundary (c0020); a mods-only Discord as the larger coordination (c0023).
 goal:       an SBU logo by script; placed from h56.9; moved and shrunk; kept near gogh.bmp, partly covered by Jigglypuff.
 unsettled:  where the logo may stay, and whether scripts need a community (c0019, c0023, c0030).
-coder unsure: 50 threads out of scope.
+coder unsure: the duplicate script post and the gallery survive only as titles (635exj, 639hk0); two deleted comments in the script thread; GitHub, the Discord and pxls.space seen only as pointers (dfrmliy, dfs6ojv).
 carrying:   c0008, c0019, c0033
 not this:   a room with many builders; one member wrote the script and about 20 ran it.
 ended:      last coordinating turn h71.77 (c0030, staying by gogh.bmp); after h73 a gallery of attempts, pxls.space.
 struck by:  "I'm proud of the fact that ~20 of us managed to carve our initials into the canvas of a site populated by millions."
 made:       one artwork at the edge, Stony Brook University 270 px at 301, 921, 440 placers, placed from h1.45; writers placed 0.004, pre-event members 0.078. The linked region was placed from the first hours, almost wholly by people outside the room; the room's script logo sat near 38, 961 and then gogh.bmp.
+later:      2026-10-07, catch-up: the goal line mixes two spots; the site Jigglypuff covered was abandoned, and the logo moved left of the Van Gogh (dfs9z8k). One member claimed about 20 runners against the stated need of 100 (633j37, dfs7s2u). The brief shows students called Seawolves (61ow19), the name of the first call.

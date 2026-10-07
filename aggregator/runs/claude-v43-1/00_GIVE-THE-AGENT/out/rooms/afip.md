@@ -4,9 +4,10 @@ week:       h29 to h47 rallying, party claims; h50 to h63 scripts, allies; h66 t
 named:      r/AmericanFlagInPlace and r/PlaceUS as where talk went (c0001, c0026); T_D as a claimant (c0072); rainbowroad, Ireland, Texas, Australia, Pepe and SwissNeutralityZone as neighbours (c0043, c0046, c0027, c0018, c0042, c0030).
 goal:       an American flag; held by scripts; lost and rebuilt by h70.9.
 unsettled:  who owns the flag, and whether scripts are cheating (c0072, c0069).
-coder unsure: 1 thread out of scope.
+coder unsure: title-only posts hide their bodies (631umd, 6360jp, 63786a); the Discord talk unseen (636u1u, 632i50); the party dispute runs past the window; malicious scripts only a member's warning (636639).
 carrying:   c0012, c0069, c0072
 not this:   the flag's main room; it sent talk to r/AmericanFlagInPlace and r/PlaceUS.
 ended:      last coordinating turn h72.86 (c0061, scripts to be changed); after h73 the anthem.
 struck by:  "WE ALL DID IT. AMERICA DID IT."
 made:       one artwork in the centre ring, American Flag Banner 939 px with 12,130 placers, placed from h-14.34; writers placed 0.035, pre-event members 0. Another placement before hour 0, on the American flag already counted under r/AmericanFlaginPlace.
+later:      2026-10-07, catch-up: the doing and named lines overstate r/PlaceUS; it was only proposed (63243l). Scripts did real work, one member saying the US was painted by bots (dfrvtz5), while others called them cheating. The brief is the harness's empty brief.

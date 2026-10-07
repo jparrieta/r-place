@@ -4,9 +4,10 @@ week:       h28 to h44 the loop and art; h57 to h71 the sign found, defended, sa
 named:      Rem's fans as the ones replacing the sign (c0012, c0017); r/anime FTF and r/monero as helpers (c0015); r/Re_Zero as where the defence call was seen (c0013).
 goal:       to keep the Emilia Best Girl sign; found at h57.1; defended to the end, a little defaced.
 unsettled:  nothing recorded.
-coder unsure: 22 threads out of scope.
+coder unsure: seven loop posts survive only as titles (62va40, 62vgja); the sign's earlier history is one member's retrospective (dfrey5t); r/anime FTF and r/monero activity outside the venue; images unseen.
 carrying:   c0012, c0015, c0017
 not this:   a room that made its sign; a member found it already there, built by others over days.
 ended:      last coordinating turn h70.90 (c0019, help r/monero when Emilia is safe); after h73 the unfinished fix recounted.
 struck by:  "We must defend against this, as Emilia's knights."
 made:       one artwork in the middle ring, Emilia Best Girl 393 px at 278, 720, 1,621 placers, placed from h1.83; writers placed 0.022, pre-event members 0.002. The room found the sign at h57.1; others had placed it from the first hours.
+later:      2026-10-07, catch-up: the account changes nothing; the color picker vanished mid-repair at the close (dfstn9g). The brief shows Enzy- writing 42 of 107 items, the member who fixed the vandalism, and members limiting harsh talk about Rem (dfm081f), the rivalry the sign carried.

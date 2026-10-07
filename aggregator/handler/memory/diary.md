@@ -80,3 +80,7 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-07 09:20 2026-10-07T09:17:31Z  closed A1.A1b-42: checkpoint 3f0c12bc66a57eb2, cut close, advances True, git pushed; restarted at A1b-43.
 - 2026-10-07 09:32 2026-10-07T09:31:50Z  closed A1.A1b-43: checkpoint eebae7ccf3402860, cut close, advances True, git pushed; restarted at A1b-44.
 - 2026-10-07 09:32 J: pause after A1b-44 (no internet for a while); ~/catchup.pause set.
+- 2026-10-07 09:46 2026-10-07T09:45:11Z  closed A1.A1b-44: checkpoint 001dd6825b33118c, cut close, advances True, git committed, push faile; paused before A1b-45 (J).
+- 2026-10-07 09:46 A1b-44 closed 09:45:11Z, checkpoint 001dd6825b33118c, validator 0, committed and tagged, PUSH FAILED (the Mac lost internet); the commit goes up with the next push. Paused before A1b-45 (J). No ticks scheduled.
+- 2026-10-07 09:49 J: report tokens, not dollars. tick.sh prints per-leg token sums (all turns of the leg) and the run's cumulative cache read and output.
+- 2026-10-07 10:07 J: continue; pause lifted; A1b-44 audit run; starting A1b-45..A1b-48.

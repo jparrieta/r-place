@@ -4,9 +4,10 @@ week:       h54 to h58 the flag, expansion; h64 to h71 the Flames dispute, a dea
 named:      the Calgary Flames people as neighbour first called attacker (c0007, c0008); the Cornish as rival (c0018, c0024); the Void as a shared threat (c0013).
 goal:       a Devon flag; made by h54.1; expanded; kept beside the Flames under a deal at h70.5.
 unsettled:  who was attacking whom (c0010, c0012).
-coder unsure: none; 0 threads out of scope.
+coder unsure: the expansion post's body deleted, title and reply kept (633u6k); a deleted reply under the link (dfqyr8r); who began the overwriting with Calgary not established (dfrn45d, dfrqnre); Cornwall's late flag one member's account.
 carrying:   c0001, c0008, c0013
 not this:   a room defending itself; the Flames record says Devon drew over a logo there since day 1.
 ended:      last coordinating turn h70.49 (c0014, agreed if the green flag stays); after h77 lasting celebrated.
 struck by:  "We did it, the flag lasted until the end and more importantly; lasted longer than Cornish flag r/place"
 made:       one artwork at the edge, Devon and Dorset 236 px at 148, 389, 1,473 placers, shared with r/Dorset, placed from h1.82; writers placed 0.028, pre-event members 0. The linked region was placed from the first hours; the room's first turn was h54.1. A late room (contrast, late side), nearest the sixth kind: one member's flag, then friends.
+later:      2026-10-07, catch-up: the original poster corrected the attack claim as the situation changed (dfrqusy). The brief shows a sub of three posts and no comments that week, so the canvas brought it readers who had not known it existed (dfqwnei).

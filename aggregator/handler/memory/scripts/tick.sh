@@ -8,7 +8,7 @@ grep -E "closed|NEEDS YOU|stopped|refus|fail" $S.evnew | cut -c1-300
 for f in $(grep -o 'closed A1\.[A-Za-z0-9-]*' $S.evnew | sed 's/closed //'); do
   echo "## $f"; python3 -c "import json;d=json.load(open('$R/CONTROL/close-status-$f.json'));print({k:d.get(k) for k in ('complete','validator_exit_code')})"
   grep -h "git:" $R/CONTROL/legs/actors/leg-$RUN-${f#A1.}-*/closes/*.log 2>/dev/null
-  python3 -c "import json,glob,os;r=sorted(glob.glob('$R/CONTROL/legs/actors/leg-$RUN-${f#A1.}-*/turns/*/result.json'),key=os.path.getmtime);d=[json.load(open(x)) for x in r];u=d[-1]['usage'];print('cost now',round(d[-1]['total_cost_usd'],2),'out',u['output_tokens'],'read',u['cache_read_input_tokens'],'min',round(sum(x['duration_ms'] for x in d)/60000,1))"
+  python3 -c "import json,glob,os;r=sorted(glob.glob('$R/CONTROL/legs/actors/leg-$RUN-${f#A1.}-*/turns/*/result.json'),key=os.path.getmtime);d=[json.load(open(x)) for x in r];g=lambda k:sum(x['usage'].get(k,0) for x in d);m=list((d[-1].get('modelUsage') or {}).values());M=m[0] if m else {};print('tokens (leg): in',g('input_tokens'),'cache write',g('cache_creation_input_tokens'),'cache read',g('cache_read_input_tokens'),'out',g('output_tokens'),'| run so far: cache read',M.get('cacheReadInputTokens'),'out',M.get('outputTokens'),'| min',round(sum(x['duration_ms'] for x in d)/60000,1))"
 done
 G=$(find $R -path '*/.cc' -prune -o -path '*/snapshots' -prune -o -path '*/interview-workspaces' -prune -o -name guard.log -print); [ -n "$G" ] && { echo "GUARD:"; wc -l $G; tail -3 $G; }
 echo "defects $(wc -l < $R/00_GIVE-THE-AGENT/out/defects.jsonl) asks $(wc -l < $R/00_GIVE-THE-AGENT/out/asks.jsonl)"

@@ -4,9 +4,10 @@ week:       h9 to h37 banner visitors, the count, alts; h49 to h66 neighbours, b
 named:      r/counting as sister sub (c0017); Ukraine, Palestine and r/thefarleftside as neighbours or rivals (c0020, c0037, c0040); r/wallstreetbets as the source of the code (c0055).
 goal:       the livecounting banner; up by h9.9; kept to the end by alts and code.
 unsettled:  how much of the defence was alts (c0048, c0049).
-coder unsure: 4 threads out of scope.
+coder unsure: the lag warning and mutual-defence posts survive only as titles (62q5te, 632xyw); deleted arrival comments; the live-count service, pastebin code and the visualisation seen only as pointers (dfr85it, dfs9uap).
 carrying:   c0019, c0045, c0055
 not this:   a room made larger by the canvas only in pixels; the banner brought visitors into the count itself.
 ended:      last coordinating turn h66.07 (c0040, energy spent on the war); after h73 how often the banner was turned into jokes.
 struck by:  "How does a subreddit with 160 subs manage to keep their banner on r/place?"
 made:       one artwork at the edge, Livecounting 614 px at 33, 366, 1,054 placers, placed from h1.99; writers placed 0.114, pre-event members 0.081.
+later:      2026-10-07, catch-up: the not-this line holds for arrivals, not retention; one visitor reported adding over 100 counts (dfpv0u4), others stayed confused (dfq2l0i, dfpvyap). The brief shows the room's stat tables and records (dfftk83), the habit that measured the influx.
