@@ -20,3 +20,4 @@ Seeded 2026-10-06 from Orchestrator/HEAD.md, "Open" (OpenAI's entry of 10:03Z).
 - [ ] 2026-10-07 J: B1 starts only on J's word (estimate in stage-estimates.md: 8 to 17 legs, $250 to $600 list).
 - [ ] 2026-10-07 J: the catch-up's scope after the A1c interview (accounts and briefs; plus the concepts of the 220 rooms cut at 170; plus forests), its leg size, and the mechanism (extra A1b legs after A1 finished are untested in the harness).
 - [ ] 2026-10-07 J: commit the A1c interview transcript or not.
+- Catch-up paused by J (2026-10-07 07:55 Berlin) after A1b-33. Resume: move ~/catchup.pause to Jail/_to_delete with a WHY.tsv line, then `legs.py run claude-v43-1 A1b-34..A1b-48` and restart the ticks.

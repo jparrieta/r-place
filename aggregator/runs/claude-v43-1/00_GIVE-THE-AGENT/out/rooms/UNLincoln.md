@@ -4,9 +4,10 @@ week:       h72.08 a call to fix a logo; h76.13 a correction.
 named:      Northeastern as the logo's owner (c0002).
 goal:       repair a logo taken for the room's own; set at h72.08; the logo's ownership then disputed.
 unsettled:  whose logo it was (c0001, c0002).
-coder unsure: 3 threads out of scope.
+coder unsure: no reply shows anyone repairing or placing (637pti); the ownership claim is one member's word (dfs95la); a two-item exchange cannot show the wider community.
 carrying:   c0001, c0002, c0001
 not this:   a late room that built a mark; it called to repair a logo another member said belonged to Northeastern.
 ended:      last coordinating turn h72.08 (c0001, the call to fix the logo); after h73 the correction.
 struck by:  "Because its not ours, its Northeastern"
 made:       one artwork, Nebraska Huskers, 297 px at the edge, 1,450 placers, placed from h1.43; writers placed 0.007, pre-event members 0.007. The canvas field links a Huskers work the room's two writers barely placed; r/neu's record has its N mistaken for Nebraska's at h50.7.
+later:      2026-10-07, catch-up: the account adds nothing beyond the call and the correction; after it the room returned to a campus pun (63dy4t). The brief changes nothing.

@@ -971,3 +971,17 @@ leg A1b-32 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 650 lines (9 block-32 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,837 words. 325 of 702 catch-up rooms are done. The next leg reads catch-up block 33, from neu.
+
+## Close report, leg A1b-33 (catch-up block 33), 2026-10-07
+
+Block 33 is read: 25 of 25 rooms, neu to Slovakia. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. The `coder unsure:` line was replaced in all 25 notes. Each old line either gave the brief's coverage ("N threads out of scope") or said none. The new lines give case.md's limits with thread ids. Each note has a dated `later:` line. Three briefs were the harness's empty brief (GreenEmpire, armok, rainbowgrid).
+
+The hook refused five notes. dmt (352) and ontario (362) were refused because the new lines went in before the doing line was cut. From ontario on, the doing line was cut first in every note. polandball (356), rainbowgrid (353) and mizzou (356) were still refused: their cut doing lines stayed near 70 words, and mizzou's struck-by line is long. No note was trimmed by `wc -w` alone. Every trim is logged.
+
+In GreenEmpire, armenia, satania and nyjets the later line qualifies the not-this line. The rainbowgrid later line says its placements before hour 0 are Reddit's tests.
+
+Two departures were logged. First, the polandball edits were made just after a compaction. Its case.md and brief.md were then served whole again and every id checked. Two phrases were corrected: "before the close" became "before the switch", and the brief's workshop series is no longer said to feed the switch. Second, nerf's case.md and brief.md were served in separate calls. Served together, they passed the shell's 30 KB display limit, and the overflow went to a file under CONTROL, which is read-denied.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+Ledgers at the close: lexicon 1,289 lines, running file 658 lines (8 block-33 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 350 of 702 catch-up rooms are done. The next leg reads catch-up block 34, from raocow.

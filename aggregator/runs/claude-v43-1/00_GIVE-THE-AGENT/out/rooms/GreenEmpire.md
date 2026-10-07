@@ -4,9 +4,10 @@ week:       h1.9 founded; h4.3 to h5.4 a corner named, cousins call, attention m
 named:      the blue corner as rival (c0005, c0006); r/GreenCheckerboard as cousin (c0006); r/GreenLattice as where green organizing went (c0007).
 goal:       a green territory in the bottom left; set at h4.3; the room fell silent after h5.4.
 unsettled:  nothing in the record.
-coder unsure: none.
+coder unsure: two post bodies deleted, titles only (62nsyq, 62ny4p); what happened in r/GreenCheckerboard or r/GreenLattice unseen (dfo1wfy); six items, all on the first day.
 carrying:   c0004, c0006, c0007
 not this:   a colour faction that kept its own sub alive; its members moved to r/GreenLattice within six hours.
 ended:      last coordinating turn h5.36 (c0007, pointing to r/GreenLattice); nothing observed after.
 struck by:  "The sub is private. I think more is going on at /r/GreenLattice"
 made:       one artwork, Former location of the Green Corner, 1,650 px at the edge, 36,126 placers, placed from h0.96; writers placed 0 (one placement in all), pre-event members 0. The canvas field names a former green corner the room's writers did not place.
+later:      2026-10-07, catch-up: the pointer to r/GreenLattice was one member's tentative redirect, and no move is shown (dfo1wfy), so not this overstates; the room simply falls silent. The brief is the harness's empty brief.
