@@ -1163,3 +1163,24 @@ The catch-up pass is complete. A check of the diary against the `#NN` lines in `
 `validate.py A1` before the close: 0 errors, 275 warnings (notes over the 350-word guide, 2 of them from this block). The diary moved into part A1-51 during this leg.
 
 Ledgers at the close: lexicon 1,289 lines, running file 773 lines (6 block-48 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 702 of 702 catch-up rooms are done.
+
+## Close report, leg A1b-49 (restore batch 1 of 5), 2026-10-07
+
+The principal investigator opened a restore pass after A1b-48 (legs A1b-49 to A1b-53). Before 09:01 Berlin the note hook refused notes over 350 words, so 562 notes were cut. The handler recovered the pre-cut lines into `out/_handling/pretrim-A1/` (prototypes in `restored/`, each cut in `review/`). This leg took the first batch in `BATCHES.tsv`: 91 rooms, 2007scape to de. Every room has a `restore:` line in the diary.
+
+- 45 rooms took the prototype whole.
+- 46 rooms took part of it, or had pre-cut lines put back by hand. In most of these the catch-up had cut the doing line again, so the prototype could not match it word for word. In those rooms the fuller pre-cut doing line went back whole, less anything a later line already says.
+- No source was reread. The only new words are joins: "a member" in acecombat; "they" for a pre-cut gendered pronoun in bih; the h25.1 clause moved before h25.6 in argentina. One paraphrase slipped into danganronpa and was cut back to my own words before the room was logged.
+
+Pre-cut lines left out on purpose:
+- Corrections made during a cut leg stand: 2007scape later line (the logged "was refused"); anarchism made line (a null px_window_share the head's figures contradict); completeanarchy later line (the hedged "likely").
+- Ended lines that named a recounting turn or a range stand in the cut form: achievement_hunter, cfb, buffalobills.
+- canada: the pre-cut ended line (h78.2 outside the canvas) and the cut line (h72.16, c0498) both differ from `organizing_end-A1.jsonl` (78.25). The cut line stands. Asked J as QA1-002.
+- buffalobills: the pre-cut named and ended lines quoted the room in four words or more. The cut lines stand.
+- croatia, bih: pre-cut wording that gave members a gender was not restored.
+- danganronpa: a pre-cut named line that disagreed with the doing line was not restored.
+- bakchodi (A1b-10 group) and dankmemes (A1b-10 doing): those notes stand as they are.
+
+A read-only helper, `out/_analysis/restore_show.py`, prints each room's diff to its prototype and the review file, and flags gendered pronouns. In the 91 notes, the gendered pronouns left are inside a struck-by quotation (asktransgender) or refer to a drawn figure or the musician (daftpunk, davidbowie).
+
+`validate.py A1` before the close: 0 errors, 328 warnings (notes over the 350-word guide; 53 more than before this leg). The diary moved into part A1-52 during this leg. Ledgers unchanged: lexicon 1,289 lines, running file 773 lines, leads 2,478 lines, defects 8 lines, departures 9 lines. The next leg takes the A1b-50 batch in `BATCHES.tsv`.

@@ -6,8 +6,8 @@ goal:       at h1.5 the moderator set spreading red; by h35 the goal had become 
 unsettled:  whether to attack Blue (c0100 against c0047); how much to take on with few hands (c0078, c0079).
 coder unsure: Discord carried the planning, and only results come back; removed treaty and anti-Blue bodies (62qiyr, 62r9wm).
 carrying:   c0047, c0079, c0093
-not this:   a room formed for this event; the order existed before and reconvened by plan.
+not this:   a room that formed for this event; the order existed before and reconvened by plan, with a stated yearly purpose.
 ended:      last coordinating turn on the canvas h66.67 (c0062, an appeal to the Swedes to respect the cooperation); after h73 the order goes on organizing itself, elections and a sub to fix the canvas (c0098, h83.64).
 struck by:  "Basically we meet up once a year to shitpost with each other."
-made:       one artwork named r/AprilKnights, 756 px at the edge; its writers placed 0.029 of it. The canvas keeps the sign and Button they say survived; the low share fits labour that came through allies and Discord.
+made:       one artwork named r/AprilKnights, 756 px at the edge, placed from h1.3; the room's writers placed 0.029 of it. The canvas keeps the sign and Button they say survived; the low share fits a room whose labour came through allies and Discord.
 later:      2026-10-07, catch-up: a destroy-Blue strand ran beside the peace (dfnttvq, dfpgygm); after the close the order set its elections after future events so they would not interrupt them (63a4qy). The brief shows the order the week before checking the admin's subreddits for clues to the coming event (62ishp, dfn2a4n), so it was waiting for the canvas.

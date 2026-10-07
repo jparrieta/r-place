@@ -4,7 +4,7 @@ week:       h10 to h22 Nepal; h25 to h44 Pakistan, scripts; h54 to h73 Belgium t
 named:      Nepal and Pakistan as targets (c0001, c0047); r/india as builder and rival (c0081); r/belgium as treaty partner and attacker (c0112, c0225); r/rangers and Bangladesh as helped (c0138, c0147).
 goal:       saffron over rivals' flags and an Indian flag; changed by day; a treaty line held at the close.
 unsettled:  trolling against building, and whose script to trust (c0060, c0157, c0154).
-coder unsure: Discord, Pastebin scripts, IRC and messages seen only as returned (dfrzdmc); removed bodies in script and truce threads; r/PlaceTwo unseen (63dok2).
+coder unsure: Discord, Pastebin scripts, IRC and private messages seen only as returned (dfrzdmc); removed bodies in script and truce threads; image and video posts by title only; r/PlaceTwo activity unseen (63dok2).
 carrying:   c0039, c0112, c0154
 not this:   a room united behind one flag; members fought r/india over credit and argued over scripts.
 ended:      last coordinating turn h72.97 (c0218, moving mobilisation to messages or IRC); after h73 victory claims.

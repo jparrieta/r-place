@@ -1,6 +1,6 @@
 # r/chess  (read 2026-10-06)   coded share 0.052   off-platform pointers 9
 doing:      April Fools chess jokes, a moderator sending comedy to r/AnarchyChess (c0003, c0009); at h49.6 a member asking why r/chess has no spot (c0040); a white piece in the Swedish flag proposed, the canvas called settled (c0043, c0045); a pawn covered at once (c0047); Norway, Green Lattice and Croatia suggested as hosts (c0050, c0052); r/norge offering its Discord after voting to add chess for Magnus (c0060); permission won on Discord for a knight at h72.4, then the close (c0076, c0078); the knight started by Norwegians just before the end (c0064).
-week:       h10 to h41.5 April Fools; h49.6 to h64 the idea and hosts; h70.4 to h72.4 Norway's offer; after h73 an unfinished knight.
+week:       h10 to h41.5 April Fools; h49.6 to h64 the idea, spots, a pawn lost, hosts lobbied; h70.4 to h72.4 Norway's offer and permission; after h73 an unfinished knight and why it mattered.
 named:      r/norge and Norway as host offering space for Magnus (c0060, c0076, c0072); r/SwedenOnPlace, r/GreenLattice and r/Croatia as hosts considered (c0058, c0052, c0057); r/AnarchyChess as where jokes belong (c0009).
 goal:       a chess piece; proposed at h49.6; settled as a knight in Norway's flag at h72.4, too late.
 unsettled:  whether the canvas still had room (c0045, c0053, c0059).

@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-48, 2026-10-07, the twenty-ninth and last leg of the catch-up pass.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-49, 2026-10-07, the first leg of the restore pass.
 
 ## The method question, in one sentence
 
@@ -24,7 +24,7 @@ J's rulings of 7 October 2026 (after the A1c handback) opened a catch-up pass, l
 The catch-up pass is declared in `out/order-A1.txt` as comment lines `#<block><TAB><sub>` after the A1 order. 702 rooms, blocks 20 to 48, 25 rooms each (block 48 has 2). `mem.py next` does not serve this pass; take the next block from the `#NN` lines (`grep "^#40" out/order-A1.txt`) and the diary (`mem.py diary --grep "amended" --limit 2000`; 500 no longer covers a block).
 
 Blocks 20 to 48 are done: 702 of 702 rooms. The pass is complete; a check of the diary against the `#NN` lines finds an amendment logged for every declared room.
-The reading route for the pass: `bash out/_analysis/catchup_read.sh <sub> case` (logs the room opened, prints case.md whole), then `... brief`, then `... check` (prints lines served against the total from `_mem_reads-A1.jsonl`). In the same turn, Read the note with the Read tool (the Edit tool needs it). Amend it, count with `wc -w`, and log `<sub> amended (catch-up): ...` with `--ids <sub>`. Logging, `ls .pause` and the next case.md share one call; brief.md and the check a second. The shell shows at most 30 KB per call, and the overflow goes under CONTROL, which is read-denied.
+The pass's reading route was `bash out/_analysis/catchup_read.sh <sub> case|brief|check`. The shell shows at most 30 KB per call, and the overflow goes under CONTROL, which is read-denied.
 
 Note length (J, 7 October 2026): about 350 words is a guide, not a limit. Length and wording are my judgement; the pass/fail rules stand (the fixed lines, concept ids, case and brief read before the note). Do not cut earlier lines to fit new ones; cut only what I would not miss later, and log it. Keep the new lines short: coder unsure about 25 words, later about 45. The hook now reports a note over the guide as advice and lets it stand; `validate.py` counts these as warnings (18 to 24 a block, blocks 36 to 47). If unsure about writing, ask J (`mem.py ask`). When cutting the last doing clause, keep a full stop; removing it removes the line break before `week:`, and the hook refuses the note. A coder unsure line that says none, cites a concept id, or gives the brief's coverage ("N threads out of scope") is not case.md's word: replace it with case.md's limits and thread ids. Remove any gendered pronoun for a member when a line is cut.
 
@@ -34,7 +34,7 @@ A grep pattern with parentheses matches nothing; grep on a plain word. A shell v
 
 The harness's brief is empty for event-made subs (the close reports name them); it is still served and checked, and the later line says so.
 
-`validate.py A1` before this close: 0 errors, 275 warnings (notes over the 350-word guide). A coder unsure line already drawn from case.md in an earlier read is kept and extended, not replaced (block 47: androidgaming, TheID). When case.md shows an earlier line is wrong, correct it through the later line or a small logged edit (blocks 46 to 48: seven, seven and two rooms, named in the close reports). Recount the head with `wc -w` after the last edit and before `done.sh`.
+`validate.py A1` before this close: 0 errors, 328 warnings (notes over the 350-word guide). A coder unsure line already drawn from case.md in an earlier read is kept and extended, not replaced (block 47: androidgaming, TheID). When case.md shows an earlier line is wrong, correct it through the later line or a small logged edit (blocks 46 to 48: seven, seven and two rooms, named in the close reports). Recount the head with `wc -w` after the last edit and before `done.sh`.
 
 ## Section 5, done in A1b-19
 
@@ -138,11 +138,13 @@ Catch-up block 48, in order: Russiaclan, predators. Block 47 before it: marvel t
   - Count a ledger's lines after appending, before logging the count; count the diary's trim lines before writing the closing line.
   - There is no `--kind close`; log the closing line as a note.
 - The permission check refuses "=w=", for and while loops, shell functions, heredocs, awk and a variable set from `$(...)`. The command guard reads a bare "rm" inside quoted text as a delete. Use the Write and Edit tools for file content; an Edit whose old text spans non-adjacent lines fails, so edit lines one at a time.
-- The diary rolls into a new part as it grows; during A1b-48 it moved into part A1-51. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
+- The diary rolls into a new part as it grows; during A1b-49 it moved into part A1-52. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
 
 ## The next comparison
 
-The catch-up pass is complete. The next comparison is the `later:` lines across rooms, by the patterns listed above, when a leg message asks for it.
+The restore pass (J, 7 October 2026), legs A1b-49 to A1b-53: one batch each from `out/_handling/pretrim-A1/BATCHES.tsv`. For each room, choose among the prototype in `restored/`, the cuts in `review/`, or leaving the note. Put back only my own pre-cut words, with no new reading, and log `<sub> restore: ...` for every room. A read-only helper: `python3 out/_analysis/restore_show.py <subs>`. Batch 1 (A1b-49, 91 rooms, 2007scape to de) is done: 45 prototypes taken whole, 46 in part or by hand. Leave out pre-cut lines that a cut leg corrected (ended lines, hedges, quotes of four words or more, gendered pronouns). Open: QA1-002 on r/canada's ended line. The next leg takes the A1b-50 batch.
+
+After the restore, the next comparison is the `later:` lines across rooms, by the patterns above, when a leg message asks for it.
 
 ## Nothing changed in the scheme or the model
 

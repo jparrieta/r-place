@@ -1,0 +1,13 @@
+# r/spacex  (read 2026-10-06)   coded share 0.007   off-platform pointers 1
+doing:      a large space company sub, 30 coded turns in 4,577 items; an April Fools mission patch joke and an argument over whether it was hurtful to people whose work was lost hold the first coded turns (c0001, c0005, c0006, c0008); at h26.2 a member naming the canvas image PlaceX, another showing SpaceX already represented on the canvas (c0016, c0017); at h27.5 a call for everyone to make a rocket, and r/Tesla asking help to draw its logo near SpaceX's (c0018, c0019); at h32.6 SpaceX shown on the canvas with Tesla, a plan given to contributors (c0020, c0021, c0022); at h37.1 the Falcon 9 landing drawn on the canvas congratulated (c0031); at h40.6 a visitor asking whether r/spacex knows what fellow redditors made (c0023); congratulations (c0024); at h52.4 calls to help build a landing Falcon 9 and to put a SpaceX logo on the canvas rocket (c0027, c0028); at h62.6 r/Maryland loving its rocket neighbour (c0030).
+week:       h20 to h26 the patch joke; h26 to h41 SpaceX found on the canvas, Tesla, a plan; h48 to h55 calls for a landing and a logo; h62.6 Maryland.
+named:      r/Tesla as neighbour asking help (c0019); r/Maryland as fond neighbour (c0030); fellow redditors as the makers (c0023).
+goal:       no goal settled in the room; members found SpaceX art on the canvas and called for additions.
+unsettled:  whether the patch joke was hurtful (c0006, c0008, c0009).
+coder unsure: eleven readers, no one held the week; most canvas posts survive only as titles (62uvw7, 62uwlx, 633s4k); the linked plan and images unseen (dfpmrxr); whether calls produced edits not shown.
+carrying:   c0017, c0023, c0028
+not this:   the room that built the SpaceX art; a visitor asked whether r/spacex knew what other redditors had made.
+ended:      last coordinating turn h54.62 (c0028, calling for a SpaceX logo on the rocket); h62.6 a neighbour's note.
+struck by:  "Hi /r/spacex, are you aware of what some of your fellow redditors have made on /r/place?"
+made:       seven artworks at the edge, two SpaceX works of 938 and 3,473 px with 3,481 and 10,434 placers, ASDS, OCISLY, SES-10 and two Mars works, placed from h1.1; writers placed 0.098, pre-event members 0.112. The canvas keeps them; the canvas fields credit the room with work its threads describe others making.
+later:      2026-10-07, catch-up: a comment in the launch thread congratulated the Falcon 9 landing drawn on the canvas (dfpw6x5); r/Tesla's request drew no visible answer (62uwlx). The brief shows the SES-10 reflight and landing on Of Course I Still Love You (62aqi7, 62hcv0), the subjects of the canvas works.

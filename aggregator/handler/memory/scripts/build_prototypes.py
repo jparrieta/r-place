@@ -50,6 +50,8 @@ for sub in sorted(by, key=str.lower):
         t = open(os.path.join(P, "%s__%s.md" % (sub, leg)), encoding="utf-8").read()
         m = re.search(r"```diff\n(.*?)```", t, re.S)
         for prev, mi, pl in groups(m.group(1) if m else ""):
+            if any(re.match(r"^\s*\d+\t", x) for x in pl):   # a Read line-number prefix the cut itself removed
+                conflict.append(leg); continue
             if mi:
                 i = find(lines, mi)
                 if i >= 0 and lines[i:i + len(mi)] != pl:

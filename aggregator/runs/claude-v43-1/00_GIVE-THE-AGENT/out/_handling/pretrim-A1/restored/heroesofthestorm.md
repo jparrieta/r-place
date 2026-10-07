@@ -1,0 +1,13 @@
+# r/heroesofthestorm  (read 2026-10-06)   coded share 0.017   off-platform pointers 29
+doing:      a game sub where most coded talk is April Fools fakes, leaks and shipping complaints (t01); at h7.0 a proposal to put the room on the canvas, removed for little content (c0017, c0018); at h16.2 a call to make a Heroes logo on a quiet blue patch, a first arrow started (c0039, c0040, c0041); World of Tanks asked to move, later eaten (c0047, c0143); r/math moving and thanked (c0074, c0102); HEROES done at h30.3 (c0050); r/homestuck's Dave, the logo chosen over him, then help moving him (c0103, c0131, c0133); r/wow and the snek as allies (c0112, c0177); a master image for repairs (c0163); a truce with Binding of Isaac after encroaching, painters told to stop (c0144, c0169, c0171); members checking placers' histories and finding their own vandals (c0210, c0214); at h70.6 the corner called home, Morocco said to ruin the logo, disputed pixels left alone (c0346, c0348, c0350).
+week:       h3 to h30 April Fools; h16 to h30 the logo; h30 to h42 neighbours, Dave, Isaac truce; h65 to h72 defence; after h73 a keepsake made.
+named:      r/math, World of Tanks, r/homestuck, Binding of Isaac as neighbours (c0074, c0047, c0103, c0171); r/wow and the snek as allies (c0112, c0173); Starcraft (c0049); Morocco (c0348).
+goal:       a Heroes of the Storm logo; HEROES done at h30.3; held.
+unsettled:  how much to take from neighbours (c0131, c0168, c0219).
+coder unsure: the Discord updates and alliance planning (dfrgkhv); the linked images and time-lapses; direct-image posts removed by AutoModerator (dfrztzp, dfs85xg); the successor-canvas Lunara unseen (63e1n9).
+carrying:   c0040, c0102, c0171
+not this:   a room whose talk was the canvas; April Fools fakes filled more of it.
+ended:      last coordinating turn h72.07 (c0353, coordinates supplied); after h73 a keepsake.
+struck by:  "this painting event really helped to easy down the negativity"
+made:       one artwork, Heroes Of The Storm, 3,755 px at the edge, placed from h1.12, before the room's call; writers placed 0.307, pre-event members 0.238. The canvas keeps the logo.
+later:      2026-10-07, catch-up: the account has members admitting they muscled out r/math and destroyed the World of Tanks logo (dfszak9, dfs1dzo); deals and damage went together.

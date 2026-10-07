@@ -1,0 +1,13 @@
+# r/TsundereSharks  (read 2026-10-06)   coded share 0.569   off-platform pointers 2
+doing:      a small fan sub; at h27.1 someone asked to make a sprite, the blue corner suggested for help (c0001, c0003); at h35.5 a timed build planned, sprite first, then a team (c0004, c0005); at h46.9 a shark proposed, the start moved to be amicable with r/kamenrider, then moved again when asked (c0011, c0012, c0017, c0018); at h48.2 the wrong blue found (c0016); at h50.8 bow, lipstick and eye argued, a member asking to get the base down first (c0022, c0028, c0033); at h55.7 the shark made, the thread turned to defending it (c0048, c0052); at h56.6 StarCraft's logo asked to go behind the tail (c0053, c0055); at h58.3 r/python's scripts feared, Python asked nicely to move, its Discord unreachable, a member offering to drop the blue border if the shark is spared (c0057, c0058, c0059, c0064); at h61.4 a compromise with r/newmexico, a neighbour's sun turned into the shark's blush, then New Mexico said to break it (c0076, c0081, c0080); at h61.9 a defence script shared, built because everyone else uses scripts (c0071, c0085); at h70.8 r/Python retreating and offering five accounts to repair the shark (c0088, c0089); at h72.5 every script runner told to update from one template (c0093).
+week:       h27 to h46 sprite, team; h46 to h56 the shark; h56 to h73 StarCraft, Python, New Mexico, scripts.
+named:      r/kamenrider as neighbour moved for (c0012); r/python as scripted threat, then helper (c0057, c0089); r/newmexico as compromise partner and breaker (c0076, c0080); StarCraft as neighbour (c0053).
+goal:       a tsundere shark; done at h55.7; damaged overnight; its face kept.
+unsettled:  whether to fight with scripts (c0060, c0073, c0085).
+coder unsure: r/Python's Discord unreachable and the Zia talk moved to IRC, both unseen (dfr5lg2, dfr9lil); the outline post only a title (632z10); how many subscribers took part not shown.
+carrying:   c0064, c0085, c0088
+not this:   a room that refused scripts; it wrote its own after others used them.
+ended:      last coordinating turn h72.49 (c0093, updating script runners from one template); after h73 the shy face recounted.
+struck by:  "Baka! Save me!"
+made:       one artwork, Tsundere shark, 193 px at the edge, 957 placers, placed from h1.78; writers placed 0.168, pre-event members 0. The canvas keeps the shark, its face visible.
+later:      2026-10-07, catch-up: the most active member said they were not the leader (dfr9ic5), and a recruiter hoped half a percent of subscribers would run the script (dfrratr), so the work rested on few hands. The brief holds seven stray comments and changes nothing.
