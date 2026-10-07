@@ -4,9 +4,10 @@ week:       h4.4 to h27 Pepes found, lost and restarted; h46 to h48 a plan; h57.
 named:      r/AmericanFlaginPlace as neighbour holding a truce over the tree (c0030, c0031); r/ainbow and r/ainbowroad as attackers (c0033, c0034).
 goal:       a Pepe; many separate starts by single posters or small groups; never one plan.
 unsettled:  who "we" were; which Pepe (c0020, c0022, c0035).
-coder unsure: none named.
+coder unsure: the Discord talk and whether anyone ran the bot target are unseen (634mrt, dfr3a6s); images behind links unread.
 carrying:   c0013, c0027, c0032
 not this:   a room that kept a Pepe; the record shows starts, losses and restarts.
 ended:      last coordinating turn h69.29 (c0039, telling people to draw Pepe); nothing after.
 struck by:  "I can't control that level of dank."
 made:       one artwork, Stealth Pepe, 8 px at the edge, placed from h2.14; writers placed 0, pre-event members 0. The canvas keeps a tiny Pepe nobody in this room placed.
+later:      2026-10-07, catch-up: no passage links the separate starts to one target, and none says a Pepe held (dfr62yk, dfrgtrb). The brief shows the call for a rare Pepe used the sub's rarity grading (61w5ta).

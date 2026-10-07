@@ -4,9 +4,10 @@ week:       nothing before h55.3; h55.3 the r/trees text and pineapple turned to
 named:      r/trees as the encroacher whose work is changed (c0001); the Mona Lisa as the work encroached on (c0001).
 goal:       a bee and hive over the r/trees work; set at h55.3 by one member; growth proposed at h63.3.
 unsettled:  nothing argued; three members spoke.
-coder unsure: 6 threads out of scope.
+coder unsure: the linked design unread (dfr0enq); placements unobserved, so how many placed and what the image became are unknown (632zt4); one coordinate reply falls after the window.
 carrying:   c0001, c0004, c0005
 not this:   a room defending a bee of its own; its first coded turn turns another sub's text into its name.
 ended:      last coordinating turn h63.29 (c0005, proposing to make it bigger); nothing coded after.
 struck by:  "we can make it even bigger haha"
 made:       one artwork, Bee, 101 px at the edge, placed from h2.57, long before the room's first coded turn; writers placed 0.145, pre-event members 0. The canvas keeps a bee.
+later:      2026-10-07, catch-up: the trigger is the poster's own account of r/trees, not shown from the r/trees side (632zt4); after the close the room returned to ordinary bee questions (638p2b, 6396cq). The brief changes nothing.

@@ -920,3 +920,20 @@ leg A1b-29 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 622 lines (9 block-29 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,989 words. 250 of 702 catch-up rooms are done. The next leg reads catch-up block 30, from pepe.
+
+## Close report, leg A1b-30 (catch-up block 30), 2026-10-07
+
+Block 30 is read: 25 of 25 rooms, pepe to azores. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. The `coder unsure:` line was replaced in all 25 notes. Most old lines gave the brief's coverage ("N threads out of scope") or said none; the new lines give case.md's limits with thread ids. Each note has a dated `later:` line. Four briefs were the harness's empty brief (placeportalpattern, placetardis, compsoc, TheGreatGreenBox). The note hook refused 2 notes (Honduras at 369 words, ss13 at 352); 1 more was trimmed because `wc -w` showed 349 without a refusal (osu). Every trim is logged. Gendered pronouns for members were removed from four notes when their doing lines were cut (bardmains, day9, placetardis, virginiatech). In bardmains and osu the later line qualifies the not-this line. A compaction happened mid-leg, after chess; the head was re-read and the line "compacted; head reconciled" was logged before day9 was amended.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-30 cut=none 20261007T051137Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-30 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 632 lines (10 block-30 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,835 words. 275 of 702 catch-up rooms are done. The next leg reads catch-up block 31, from k_on.
