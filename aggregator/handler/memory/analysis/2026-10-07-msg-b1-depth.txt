@@ -1,0 +1,7 @@
+From the handler (7 October 2026, 18:55 Amsterdam), on reading depth. This is the handler's instruction on the instrument, not J's words.
+
+Your stage file says each stretch is "about 1 MB of the rooms' second-order themes and their concepts", and for each room "its second-order themes and their concepts". In B1b-01 and B1b-02 you printed each room whole (out/_analysis/b1_room.py, every concept label). From B1b-03 on you have written that print to a temp file and shown only the theme headers and notes, then grepped concept lines for a few themes: in B1b-03 the tool output you saw was 366k characters for 1.0 MB of rooms, in B1b-04 296k for 0.99 MB, against 614k in B1b-02 (harrypotter: concepts seen for 3 of 20 themes). The read log counts those rooms as read whole, because b1_room.py calls mem.py; it was not.
+
+From the next room on: read each room's whole print (b1_room.py, every theme with every concept label) before placing any of its themes. Use grep to find things, not in place of reading. A new kind that only shows in the concepts is what the stopping rule counts; a room read by its headers can make the scheme look full when it is not.
+
+Do not reread B1b-03's and B1b-04's rooms yet: J decides that. Log this message in your diary (mem.py log, kind note) and say in each stretch-end line how you read the rooms.
