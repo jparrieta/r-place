@@ -4,9 +4,10 @@ week:       nothing before h29; h29 to h41 the call, griefing, the Orange Blob t
 named:      the Orange Blob as truce partner (c0025); r/drugs as the group that overran the Yak (c0045, c0048); r/eve and r/edBoxes as negotiators over Bolivia (c0040, c0041).
 goal:       a small Yak; set at h29 by one member; rebuilt at new sites at least three times.
 unsettled:  where the Yak could stay (c0039, c0073).
-coder unsure: Discord negotiation unseen; 101 threads out of scope.
+coder unsure: the Discord negotiation behind the safe pasture unseen (dfrsq94); the opening post's edits untimed (62vie8); deleted comments and linked images; bots as the eraser one member's guess (dft2hwp); two coders, no agreement measure.
 carrying:   c0024, c0027, c0073
 not this:   a room that held its spot; it moved each time it lost, and kept a remnant.
 ended:      last coordinating turn h70.77 (c0042, r/eve sending negotiation to Discord; the room's own last call c0057 at h62.79); after h73 a remnant celebrated.
 struck by:  "it's not griefing"
 made:       three small Yak entries in the middle ring, 75, 30 and 84 px, placed from h1.65; writers placed 0.242. The canvas keeps small Yaks at several sites the room moved to.
+later:      2026-10-07, catch-up: one member gave up on a half-built Yak (dft2hwp), but no one called the effort pointless. The brief shows why a Yak: the week before, members hunted a secret Yak level as a joke and filled a match board with yaks (61i7lt, 61o8aj), so the canvas Yak carried that bit.

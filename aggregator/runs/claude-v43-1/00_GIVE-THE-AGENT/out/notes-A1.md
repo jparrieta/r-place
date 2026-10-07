@@ -1009,3 +1009,15 @@ In forsen, AcePlace, lithuania, terraria and PinkVomitMonster the later line qua
 `validate.py A1` before the close: 0 errors, 21 warnings (notes over the 350-word guide).
 
 Ledgers at the close: lexicon 1,289 lines, running file 671 lines (6 block-35 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 400 of 702 catch-up rooms are done. The next leg reads catch-up block 36, from wales.
+
+## Close report, leg A1b-36 (catch-up block 36), 2026-10-07
+
+Block 36 is read: 25 of 25 rooms, wales to nonbinary. For each room, case.md and brief.md were each served whole by `mem.py` in separate calls, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. In 22 notes the old `coder unsure:` line said none, gave the brief's coverage, cited a concept id or drew on `rooms.jsonl` (nonbinary); it was replaced with case.md's limits and thread ids. In three (watchmen, lofihiphop, uva) it already drew on case.md and was extended. No brief in this block was the harness's empty brief.
+
+Case.md corrected facts in three notes, and each correction is logged. In wales the ended line said a sidebar link was agreed; it was proposed (dft5l3r), and the line was changed. In buffalowizards and lofihiphop the later line carries the correction and the earlier lines stand. Gendered pronouns for members were removed in wales, konosuba, hentai and dwarffortress. In DatBoi, WPI and ubc the later line qualifies the not-this line.
+
+A compaction fell after DCFU was amended from the summary. DCFU's case.md and brief.md were served again whole and every id in its new lines was checked against them; all matched, and that check is logged.
+
+`validate.py A1` before the close: 0 errors, 40 warnings (notes over the 350-word guide, 19 of them from this block).
+
+Ledgers at the close: lexicon 1,289 lines, running file 678 lines (7 block-36 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 425 of 702 catch-up rooms are done. The next leg reads catch-up block 37, from bobross (`order-A1.txt` line 1134).

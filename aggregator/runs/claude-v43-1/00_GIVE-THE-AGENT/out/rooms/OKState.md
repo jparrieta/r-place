@@ -4,9 +4,10 @@ week:       nothing before h60.1; h60 to h61.6 the call and joining; h71.5 to h7
 named:      r/startrek as the neighbour running a script and the Spock head being replaced (c0011, c0020).
 goal:       an OKST mark; set at h60.1 by one member; a logo and bot came too late.
 unsettled:  which design, OKST, Go Pokes or the retro logo (c0012, c0016, c0023).
-coder unsure: none named.
+coder unsure: the opening post's edits untimed, so futile, bot and made it cannot be ordered (634hk1); pattern and result images and the GitHub work unseen (dfrvpzj); r/startrek's script only reported (dfrvzi7).
 carrying:   c0011, c0020, c0025
 not this:   a planned effort; one thread, eight people, and a script that went up as the canvas closed.
 ended:      last coordinating turn h72.81 (c0025, posting the script); after h73 the small place claimed.
 struck by:  "Looks like we got our small place"
 made:       one Oklahoma State University mark, 56 px at the edge, placed from h1.56; writers placed 0.156. The canvas keeps the small mark, not the planned logo.
+later:      2026-10-07, catch-up: much of the effort stayed conditional, if it goes well, hopefully, might (dfrbqj8, dfrdivt), yet one member cleared pixels by hand and another built the script. The brief shows a small campus help room the week before and changes nothing.

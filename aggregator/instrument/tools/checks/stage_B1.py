@@ -276,6 +276,28 @@ def _check_walk(outdir, ctx, analysed, last):
             "scheme stands only when the walk has ended" % (R["state"], R["next"]), shape="walk:unfinished")
 
 
+def _check_pass2(outdir, ctx):
+    """B1d's stop (J, 2026-10-07), counted by tools/saturation.py pass2 from out/pass2-B1.jsonl and kinds-B1.jsonl,
+    never from the words of saturation-B1.md: every chosen room read, and a run since the pass's last new kind of
+    at least marker 1's empty run (never fewer than thirty rooms); or every room read, the list ended."""
+    import saturation
+    if not os.path.exists(os.path.join(outdir, "pass2-B1.jsonl")):
+        err("pass2-B1.jsonl is absent: the second pass (B1d) records each room it reads with mem.py reread <sub>, "
+            "and its stop is counted there (section 2, B1d)", shape="pass2:absent")
+        return
+    P = saturation.pass2(os.path.dirname(ctx["package"]), outdir)
+    print("  " + saturation.pass2_lines(P)[0])
+    if P["dropped"]:
+        err("%d room(s) left the chosen list after the second pass began (%s): a chosen room is read, not dropped"
+            % (len(P["dropped"]), ", ".join(P["dropped"][:6])), shape="pass2:dropped", where=P["dropped"][0])
+    if P["state"] not in ("met", "list ended"):
+        T = P["target"]
+        err("the second pass stopped before its rule held (%s): %d of %d chosen rooms read; %d rooms and %s average "
+            "rooms since its last new third-order theme, against %d and %s; next: %s"
+            % (P["state"], P["chosen_read"], len(P["chosen"]), P["run_rooms"], P["run_x"], T["rooms"], T["x"],
+               P["next"]), shape="pass2:short", where=P["next"] or "")
+
+
 def _check_prior(outdir):
     p = text(outdir, "prior.md")
     if not p.strip():
@@ -606,9 +628,10 @@ def check(root, outdir, ctx):
     if not sat.strip():
         err("saturation-B1.md is empty; it holds the saturation test and the second pass (section 2)")
     elif not ("two stretches" in sat or "added no new" in sat or "still climbing" in sat):
-        err("saturation-B1.md does not say how the second pass stopped: thirty rooms in a row that added no new "
-            "third-order theme, or the count still climbing (section 2, B1d)")
-    ids0 = {r.get("id") for r in (jsonl(os.path.join(outdir, "scheme.jsonl")) or [])}
+        err("saturation-B1.md does not say how the second pass stopped: its run of rooms that added no new "
+            "third-order theme, or the count still climbing at the list's end (section 2, B1d)")
+    _check_pass2(outdir, ctx)
+    ids0 ={r.get("id") for r in (jsonl(os.path.join(outdir, "scheme.jsonl")) or [])}
     joins = _check_episodes(outdir, analysed, ids0)
     ids = _check_scheme(outdir, ctx, analysed, rooms_of, joins)
     _check_prose(outdir, ids)
@@ -672,6 +695,10 @@ def _base(outdir, root):
     _w(outdir, "handback-B1.md", "# handback\n")
     _w(outdir, "saturation-B1.md", "# saturation\n\nThe second pass stopped after two stretches in a row added no new theme.\n")
     _w(outdir, "stopping-B1.md", "# When to stop, stage B1\n")
+    _w(outdir, "pass2-chosen-B1.txt", "denmark\n")
+    _wj(outdir, "pass2-B1.jsonl", [
+        {"t": "2026-09-25T10:00:00Z", "leg": "B1d-01", "sub": "denmark", "chosen": ["denmark"]},
+        {"t": "2026-09-25T10:30:00Z", "leg": "B1d-01", "sub": "asoiaf", "chosen": ["denmark"]}])
 
 
 def _plant_split_unprompted(outdir, root):
@@ -732,6 +759,18 @@ def _plant_findings(outdir, root):
 def _plant_saturation_missing(outdir, root):
     _base(outdir, root)
     os.remove(os.path.join(outdir, "saturation-B1.md"))
+
+
+def _plant_pass2_short(outdir, root):
+    _base(outdir, root)
+    _w(outdir, "pass2-chosen-B1.txt", "denmark\nasoiaf\n")
+    _wj(outdir, "pass2-B1.jsonl", [
+        {"t": "2026-09-25T10:00:00Z", "leg": "B1d-01", "sub": "denmark", "chosen": ["denmark", "asoiaf"]}])
+
+
+def _plant_pass2_absent(outdir, root):
+    _base(outdir, root)
+    os.remove(os.path.join(outdir, "pass2-B1.jsonl"))
 
 
 def _plant_one_episode(outdir, root):
@@ -800,4 +839,6 @@ PLANTED = [
     ("a floor unlike in no named way", _plant_floor_axis, "not size, side or form"),
     ("a placement the kinds ledger never met", _plant_kinds_unlogged, "are not in kinds-B1.jsonl"),
     ("the walk unfinished at the end", _plant_walk_left, "has neither reached the list's end"),
+    ("a second pass stopped short", _plant_pass2_short, "the second pass stopped before its rule held"),
+    ("a second pass with no record", _plant_pass2_absent, "pass2-B1.jsonl is absent"),
 ]

@@ -4,9 +4,10 @@ week:       nothing before h35; h38 to h39.5 the edits, the goon raid, moves; h5
 named:      the goons and r/smashbros as raiders and space takers (c0016, c0022); r/carrots as host (c0004, c0040); r/RPI as rival who apologised and worked with them (c0043, c0050, c0053).
 goal:       a small WPI logo; set at h35; moved several times; kept small to maintain (c0045).
 unsettled:  expand or keep small (c0044, c0045).
-coder unsure: none named.
+coder unsure: real-time updates moved to Discord, decisions unseen (dfpxq57); the bodies of the conspiracy and bot posts deleted (634km4, 634rt7); the carrots permission negotiated off-thread.
 carrying:   c0009, c0032, c0053
 not this:   a fight with rival RPI; the organiser said they worked with RPI, and an RPI member apologised.
 ended:      last coordinating turn h62.85 (c0057, owning a bot mistake; c0055 asking script coordination at h62.71); after h73 a celebration.
 struck by:  "Oops, my bad. Oh well it is what it is"
 made:       one WPI logo, 300 px at the edge, placed from h1.08 with a burst near h56; writers placed 0.189. The canvas keeps the small logo.
+later:      2026-10-07, catch-up: not this qualified; the edited post also said WPI could force r/farmcarrots to let it stay (dfpxq57), and the writer who denied conspiring with RPI is not shown to be the organiser (dfrcjed). The brief shows a quiet admissions and courses room, no moderator voice, and changes nothing.

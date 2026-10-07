@@ -4,9 +4,10 @@ week:       h21 to h37 April Fools servers; h62 a Discord ping; h68.3 to h69.3 t
 named:      r/homestuck as the banner taken over (c0031, c0059); India as Homestuck's helper (c0035); the cheese cat as a place to build instead (c0034).
 goal:       HOMELAB in place of Homestuck's banner, set at h68.3 by moderators of the sub and its Discord.
 unsettled:  whether taking the banner was fair play (c0050, c0052, c0055).
-coder unsure: Discord coordination unseen; 288 threads out of scope.
+coder unsure: the takeover and dispute post bodies removed (636e4w, 634ynj, 638bh2); who sent the Discord ping and what was decided there unseen (dfrpk8a, dftcecb); the final pixel state not established; six coders, no agreement measure.
 carrying:   c0030, c0032, c0050
 not this:   a room building its own art; its one canvas act was a late, moderator-led takeover of another sub's banner.
 ended:      last coordinating turn h69.30 (c0040, reporting the takeover); after h73 argument and moderation.
 struck by:  "You know what to do guys."
 made:       one Homelab Invasion entry, 420 px at the edge, over Homestuck's banner; writers placed 0.007. The canvas records the takeover, placed mostly by others.
+later:      2026-10-07, catch-up: one member in the room said they were working with the restorers (dfros1z), and another admitted they knew they were being dicks and meant it (dft7u7h). The brief shows moderators removing memes and off-topic posts under named rules the week before (dfjsdgi), the same moderators who backed a meme takeover here.

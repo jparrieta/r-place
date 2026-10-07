@@ -4,9 +4,10 @@ week:       nothing before h61; h61 the post and allies; h64.7 to h67 the disput
 named:      r/DC_Cinematic as rival claimant, then helped (c0014, c0015, c0024); r/TeamYellowPlace and other DC logos as allies (c0003); osu! as a size to envy (c0025).
 goal:       a DCFU name on the canvas, already being built when posted at h61; held, then lost at the last minute per the edited post (c0005).
 unsettled:  who owns the sign and the Superman symbol (c0012, c0022).
-coder unsure: none named; 8 threads out of scope.
+coder unsure: the Green Lantern accusation's body removed (63dzgf); the timestamped proof images and the launch image unseen (dfrk5fa, 634ps2); the loss at the end only the moderator's edit (dfrc8qu).
 carrying:   c0003, c0012, c0023
 not this:   a quarrel with outsiders; the fight was between two DC fan subs and ended in help.
 ended:      last coordinating turn h69.81 (c0025, cheering DC unite while offering help); after h73 attribution disputes.
 struck by:  "DC unite!"
 made:       one DC Fan Universe artwork, 158 px at the edge, placed from h1.76; writers placed 0.172. The canvas keeps the DCFU mark, though the moderator's edit says it was lost at the end.
+later:      2026-10-07, catch-up: the claim to the sign rested on labour, we built it so we decide what it says (dfrk8il); the help across groups came in one branch only. The brief shows a serial-fiction room with a community event the week before (dffm4je) and changes nothing.

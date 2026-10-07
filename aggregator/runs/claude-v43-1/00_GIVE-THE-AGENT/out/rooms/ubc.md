@@ -4,9 +4,10 @@ week:       h3.8 to h17 the logo call; h14 to h40 the SFU swap; h29 to h33 the C
 named:      SFU and UVic as allies to guard (c0066, c0093, c0102); r/UofT as declarer of war and later warner (c0050, c0082); r/Polandball as the claimant of the land (c0056, c0061); r/Thailand as treaty partner (c0053, c0078); Norway as threat (c0093).
 goal:       a UBC logo, then the Cairn, then the crest; set at h3.8; crest the main work from h39.
 unsettled:  how far to expand into Thailand and Polandball (c0059, c0107, c0074).
-coder unsure: Discord pixel logo origin unseen (c0004).
+coder unsure: the Discord logo's making unseen (dfoqwek); GitHub discussion unseen (633wki); deleted Polandball and Thailand bodies; the poster repair never shown done (dfs8ats); one coder per slice, no agreement measure.
 carrying:   c0066, c0078, c0095
 not this:   a school fighting its rivals; it refused to deface SFU and guarded SFU and UVic.
 ended:      last coordinating turn h72.75 (c0095, setting up a defender on a Raspberry Pi); after h73 mourning a minute too late.
 struck by:  "super multiplayer Microsoft Paint"
 made:       one UBC Crest, 602 px at the edge, placed from h1.77 with a burst near h50; writers placed 0.201. The canvas keeps the crest the room defended with bots.
+later:      2026-10-07, catch-up: not this qualified; one member allowed expansion into the Thai flag as needed to finish the logo (dfqwvog), and members told the room to leave Polandball alone because they were there first (dfqo72g). The brief shows megathreads and an election guide the week before, nothing on the canvas, and changes nothing.

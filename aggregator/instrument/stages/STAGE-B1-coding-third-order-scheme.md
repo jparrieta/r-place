@@ -30,7 +30,7 @@ C1 and C2); citing a note as a source.
 **Outputs:** `prior.md`, written first; `scheme/scheme_current.jsonl` (working); `scheme.md`;
 `scheme.jsonl`; `families.jsonl`; `confusions.md`; `theme_discovery.jsonl`; `saturation-B1.md`
 (steps c and d); `stopping-B1.md` (the stopping rule's report); `kinds-B1.jsonl` (the rule's record, written by
-`mem.py`); `stopping-B1-decision.jsonl` (the PI's, written by `saturation.py decide`, never by
+`mem.py`); `pass2-chosen-B1.txt` and `pass2-B1.jsonl` (the second pass's chosen rooms and its record, the second written by `mem.py reread`); `stopping-B1-decision.jsonl` (the PI's, written by `saturation.py decide`, never by
 you); `ideas-B1.jsonl`; `episodes-B1.jsonl`; `unplaced-B1.jsonl`; `tier_history.jsonl`
 opened, appended to by every stage that recuts; `findings.jsonl` opened with
 the scheme's claim in rule 14's form; `notes-B1.md`.
@@ -139,11 +139,22 @@ hundred second-order themes read in the first pass (from `theme_discovery.jsonl`
 
 **B1d-01, B1d-02 ... the second pass, at twice the depth.** Read again, concepts and forests,
 the rooms the test found not fitting, the rooms with the most hesitations in your log, and the
-contrary rooms of `contrast.md`; in the order (`python3 tools/saturation.py order --stage B1` prints it),
-one stretch per leg. **Stop only when both hold:**
-every room chosen for this pass has been read, and thirty rooms in a row of this pass have added no new third-order theme (J, 2026-10-07; two stretches of at least twenty rooms each before). Record each
-stretch's new kinds in `saturation-B1.md` as you go. A count still climbing at the end is a finding about the material,
-written down, not a reason to have stopped, and not a reason to stop.
+contrary rooms of `contrast.md`. Before the first, write them to `out/pass2-chosen-B1.txt`, one room
+a line; add to it as you find more, never take one off. Read them in the order (`python3
+tools/saturation.py order --stage B1` prints it), one stretch per leg, and when a room is read
+whole, record it: `mem.py reread <sub>`. **Stop only when both hold** (J, 2026-10-07):
+every chosen room has been read, and the rooms read since this pass's last new third-order theme
+are at least as many as the first pass's empty run at marker 1, counted both in average rooms and
+in rooms, and never fewer than thirty rooms. Marker 1's empty run runs from the first pass's last new
+kind to marker 1; if the first pass never reached marker 1, the run is thirty rooms and thirty average
+rooms. The first pass gives the run its length, the literature its form: a run with nothing new after
+a base (Francis et al. 2010; Guest, Namey and Chen 2020). If the chosen rooms are read and the run is
+short, go on down the seeded order with rooms this pass has not read. There is no ceiling; the PI
+sets one if he wants one. `python3 tools/saturation.py pass2 --stage B1` (and `mem.py reread`) says
+where the run stands and which room is next; you never count by hand. Record each stretch's new
+kinds in `saturation-B1.md` as you go. A count still climbing when every room is read is a finding
+about the material, written down, not a reason to have stopped, and not a reason to stop. (Before
+2026-10-07: thirty rooms in a row; before that, two stretches of at least twenty rooms each.)
 
 **B1e, the scheme standing.** `scheme.md`, `scheme.jsonl`, `families.jsonl`, `confusions.md`
 (§3 to §5), the hand-over (§7), the handback, and the interview.
@@ -311,7 +322,7 @@ there.
 A room opened; a theme minted (through `mint`, which logs); every merge, split, drop and
 relabel; a question opened (`_questions/<slug>.md`); a room boundary, with the rewrite of
 `scheme_current.jsonl`; an episode seen twice; a stretch's end, with its new kinds; the
-saturation test's count; the second pass's stop, with the thirty rooms in a row that added nothing.
+saturation test's count; the second pass's stop, with its run since the last new theme against its target (`saturation.py pass2`).
 
 ## Final message
 

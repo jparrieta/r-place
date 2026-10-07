@@ -4,9 +4,10 @@ week:       h4 to h10 Ness; h13 to h29 Lucas, Mr. Saturn, April Fools; h30 to h4
 named:      r/placestart and its taskbar as the threat, then the partner for icons (c0036, c0066); r/chronotrigger as a neighbour sharing watch (c0055); Shantae and Half-Genie Hero as neighbours helped (c0013, c0030); the payday group as a border (c0007).
 goal:       Ness, then the MOTHER boys and objects; set at h4; an area, then a taskbar compromise.
 unsettled:  fight the taskbar or join it (c0036, c0048, c0059).
-coder unsure: Discord work unseen; 28 threads out of scope.
+coder unsure: Discord and pxls.space deliberation unseen (62pl9j, dfsdmpb); the deleted body of the background post (637kvd); one coder per slice, no agreement measure, links across slices weaker.
 carrying:   c0003, c0059, c0066
 not this:   a room that built Ness first; members found a Ness on the canvas and adopted it.
 ended:      last coordinating turn h72.94 (c0079, placestart asking EarthBound to build taskbar icons; c0068 maintain what they have); after h73 mourning.
 struck by:  "Maintain what they have"
 made:       three artworks in the middle ring, Earthbound 2289 px, Insane Cultists 639 px, Mr. Saturn 319 px, placed from h1.06; writers placed 0.164. The canvas keeps the area and two Cultists.
+later:      2026-10-07, catch-up: one defender said they did not know who was organizing (635j54), and the moderator called members too eager to wage war (dfrvpta); after the close the work moved to pxls.space (dfsdmpb). The brief shows images recast as game encounters the week before (dffpo8m), the habit the canvas jokes reused.

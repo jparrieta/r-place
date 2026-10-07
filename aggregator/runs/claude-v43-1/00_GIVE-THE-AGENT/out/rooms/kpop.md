@@ -4,9 +4,10 @@ week:       h3.9 the dating joke; h20 to h36 the discussion, Gee, f(x); h26 to h
 named:      Japan's flag as a target refused (c0065, c0072); r/korea as the flag's builders (c0073); r/placehearts and Robot Wars as neighbours fought over (c0045, c0041); r/tsunderesharks as taker of the Gee work (c0040); r/seolhyun and AOA as allies (c0036, c0038).
 goal:       first Gee lettering, then fandom marks and a banner; set at h20 to h25 by one member's invitation.
 unsettled:  whether r/kpop was attacker or defender (c0044, c0046, c0048); what to make (c0024).
-coder unsure: 421 threads out of scope; Discord work unseen.
+coder unsure: the AOA Discord and a shared Discord unseen (62sb8q, dfr4a7k); the edit times of the opening not stored (62sb8q); the result images removed (632595, 633ht9, 638a0z); one coder per slice.
 carrying:   c0021, c0068, c0045
 not this:   a fandom pushing a national flag; members refused to replace Japan's and called their own moderator's push an attack.
 ended:      last coordinating turn h68.23 (c0049, treating neighbour relations as protection); after h73 mourning.
 struck by:  "FUUUUCK THAT GAP"
 made:       one /r/kpop banner, 204 px in the middle ring, placed from h2.21 with a burst near h56; writers placed 0.165. The canvas keeps the banner, not the Gee words.
+later:      2026-10-07, catch-up: one member claimed the room cast aside its differences (633ht9), against the opening's failure to rally support (62sb8q). The brief shows kpoopers offered as a joke the week before (dfhhm2s), beside the canvas report that r/kpop became r/poop (62y7gg).

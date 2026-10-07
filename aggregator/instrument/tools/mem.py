@@ -109,6 +109,9 @@ A room is named bare, as r/<sub> or as <sub>/, in any case.
                                        scheme_current atomically and logs kind placed (B1; after the
                                        freeze, reassign)
     unplace <sub>:<tNN> [--theme T3-NNN] take it out of one third-order theme, or of all
+    reread <sub>                       B1d, the second pass: the room is read again, whole; recorded in
+                                       out/pass2-B1.jsonl with the chosen list (out/pass2-chosen-B1.txt),
+                                       and the pass's run against its target printed (saturation.py pass2)
     reassign <sub>:<tNN> --theme T3-a[,T3-b] --reason "..."   re-place a second-order theme under
                                        scheme v2 after a recut: rewrites its line of assignments_final.jsonl
                                        in place, the move recorded on the line, and logs kind move (C1 to D6)
@@ -1622,6 +1625,40 @@ def v_unplace(st, a):
     return ["unplaced %s:%s from %s" % (sub, tth, ", ".join(hit))]
 
 
+def v_reread(st, a):
+    """reread <sub>: B1d, the second pass. The room has been read again, whole, at twice the depth; the line
+    (time, leg, room, the chosen list as it stands) goes to out/pass2-B1.jsonl, which saturation.py pass2 counts
+    (J, 2026-10-07). The chosen rooms come first, in any order; then, if the run is short, the seeded order."""
+    _stage_guard(a, "reread", ("B1",))
+    leg = _leg(st)
+    if not leg.upper().startswith("B1D"):
+        raise Refuse("reread is the second pass's (B1d legs); this leg is %s" % leg)
+    sub = st.room(a.arg1)
+    import saturation, vlib
+    an =[s for s in st.subs() if s not in {d.get("sub") for d in jl(os.path.join(st.out, "dropped.jsonl"))}]
+    chosen = saturation.read_chosen(st.out, an)
+    if not chosen:
+        raise Refuse("write out/pass2-chosen-B1.txt first: the rooms this pass reads, one per line (stage B1, B1d)")
+    p = os.path.join(st.out, "pass2-B1.jsonl")
+    if any(vlib.canon(r.get("sub"), an) == sub for r in jl(p)):
+        raise Refuse("r/%s is already recorded in this pass (out/pass2-B1.jsonl)" % sub)
+    P = saturation.pass2(st.root, st.out)
+    if P["state"] == "met":
+        raise Refuse("the second pass's rule is met: every chosen room is read and the run is long enough; "
+                     "stop here (saturation.py pass2)")
+    if sub not in chosen and P["chosen_left"]:
+        raise Refuse("r/%s is not on the chosen list, and %d chosen room(s) are unread (next: %s); the chosen rooms "
+                     "come first" % (sub, len(P["chosen_left"]), P["chosen_left"][0]))
+    if sub not in chosen and P["next"] and sub != P["next"]:
+        raise Refuse("beyond the chosen rooms the pass follows the seeded order: next is r/%s, not r/%s"
+                     % (P["next"], sub))
+    if a.dry_run:
+        return ["dry run: would record r/%s in out/pass2-B1.jsonl (leg %s)" % (sub, leg)]
+    with open(p, "a", encoding="utf-8") as f:
+        f.write(json.dumps({"t": _stamp(), "leg": leg, "sub": sub, "chosen": chosen}, ensure_ascii=False) + "\n")
+    return ["r/%s recorded in the second pass" % sub] + saturation.pass2_lines(saturation.pass2(st.root, st.out))
+
+
 def v_reassign(st, a):
     """reassign <sub>:<tNN> --theme T3-a[,T3-b] --reason "...": a recut's re-placement. Rewrites that second-order
     theme's line of assignments_final.jsonl in place (the file stays one line per theme) and records the move."""
@@ -2123,7 +2160,7 @@ VERBS = {"room": v_room, "case": v_case, "brief": v_brief, "forest": v_forest, "
          "canvas": v_canvas, "neighbours": v_neighbours, "compare": v_compare, "note": v_note, "codes": v_codes, "theme": v_theme,
          "themes": v_themes, "after": v_after, "pairs": v_pairs, "facts": v_facts, "notes": v_notes,
          "progress": v_progress, "next": v_next, "scheme": v_scheme, "where": v_where, "shelf": v_shelf,
-         "log": v_log, "diary": v_diary, "mint": v_mint, "idea": v_idea, "place": v_place, "unplace": v_unplace, "reassign": v_reassign,
+         "log": v_log, "diary": v_diary, "mint": v_mint, "idea": v_idea, "place": v_place, "unplace": v_unplace, "reread": v_reread, "reassign": v_reassign,
          "adjudicate": v_adjudicate,
          "adaptations": v_adaptations, "rooms": v_rooms, "contrast": v_contrast, "finding": v_finding,
          "findings": v_finding, "question": v_question, "contract": v_contract, "table": v_table,

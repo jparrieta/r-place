@@ -5,6 +5,7 @@
     python3 tools/saturation.py status --stage B1          the loop replayed: estimates, rounds, markers, next unit
     python3 tools/saturation.py report --stage B1          out/stopping-B1.md, the report for the PI
     python3 tools/saturation.py decide --stage B1 continue|finish|stop --why "..."   the PI's decision, after a report
+    python3 tools/saturation.py pass2  --stage B1          the second pass (B1d): its run against its target, next room
 
 The rule, for stage B1 only (A1 reads every room and counts no kinds: J, 2026-09-29). A unit is a room;
 a kind is a third-order theme as met, from out/kinds-B1.jsonl, which mem.py mint and place
@@ -35,6 +36,19 @@ and at least 10 average rooms (the handler's choice, 2026-09-29, for the PI to c
 units, n drawn and k bringing a new kind, the smallest K with P(X <= k) < 0.05, X ~ Hypergeometric(N, K, n)
 (Callaghan and Müller-Hansen 2020): K or more unread units carrying an unseen kind are ruled out.
 
+The second pass (B1d; J, 2026-10-07, on the orchestrator's advice of that day). At marker 1 the replay
+records the empty run that the estimate needed before it let the first pass stop: from the last new
+kind before marker 1 to marker 1, in average rooms (run_x) and in rooms (run_rooms). The second pass
+reads the rooms it chose (out/pass2-chosen-B1.txt), each recorded by `mem.py reread <sub>` in
+out/pass2-B1.jsonl, and stops when both hold: every chosen room is read, and the rooms read since the
+pass's last new third-order theme are at least run_x average rooms and run_rooms rooms, and never fewer
+than 30 rooms. With no marker 1 in the first pass (its list ended, or the PI stopped it), the run is 30
+rooms and 30 average rooms. If the chosen rooms run out first, the pass goes on down the seeded order
+with rooms it has not read. A kind of the pass is a kinds-B1.jsonl line from a B1d leg; it is new when
+no earlier line names it, and it belongs to the first room recorded at or after its time. There is no
+ceiling: one would be the PI's value. The literature gives the rule its form, a run with nothing new
+after a base (Francis et al. 2010; Guest, Namey and Chen 2020); the first pass gives its length.
+
 Everything is replayed from the files on disk at every call, in the order the units were meant to be
 read; nothing depends on the analyst's memory. The seed is the sha256 of the store's rooms.jsonl, so no
 one chooses the order.
@@ -51,6 +65,8 @@ CHECK_IN = 0.60         # at this share of the words, before marker 3, the stage
 ROUNDS_TO_MARKER1 = 3
 ROUNDS_TO_MARKER2 = 6
 ALPHA = 0.05
+PASS2_FLOOR_ROOMS = 30  # B1d's run is never fewer rooms than this (J, 2026-10-07: "After 30 rooms in a row")
+PASS2_DEFAULT_X = 30.0  # B1d's run in average rooms when the first pass never reached marker 1
 
 
 def _jl(p):
@@ -332,8 +348,9 @@ def replay(root, out, stage, st=None):
         elif state == "round" and x >= R["rounds"][-1]["end_x"]:
             R["rounds"][-1]["result"] = "empty"
             rcount += 1
-            if rcount == ROUNDS_TO_MARKER1:
-                R["markers"][1] = snap()
+            if rcount == ROUNDS_TO_MARKER1:      # with the empty run the estimate needed: B1d's target
+                R["markers"][1] = dict(snap(), run_x=round(x - last_new, 1), run_rooms=len(R["seq"]) - last_new_n,
+                                       last_new_x=round(last_new, 1), last_new_rooms=last_new_n)
             if rcount == ROUNDS_TO_MARKER2:
                 R["markers"][2] = snap()
                 m1 = R["markers"][1]
@@ -357,9 +374,140 @@ def replay(root, out, stage, st=None):
     return R
 
 
+# ---- the second pass (B1d) -----------------------------------------------------------------------
+
+def pass2_target(R):
+    """B1d's run: marker 1's empty run, never fewer than PASS2_FLOOR_ROOMS rooms; 30 and 30 without marker 1."""
+    m1 = (R.get("markers") or {}).get(1)
+    if m1 and m1.get("run_rooms") is not None:
+        return {"rooms": max(PASS2_FLOOR_ROOMS, int(m1["run_rooms"])), "x": float(m1["run_x"]),
+                "from": "marker 1's empty run (%s average rooms, %d rooms; floor %d rooms)"
+                        % (m1["run_x"], m1["run_rooms"], PASS2_FLOOR_ROOMS)}
+    return {"rooms": PASS2_FLOOR_ROOMS, "x": PASS2_DEFAULT_X,
+            "from": "the first pass never reached marker 1: %d rooms and %s average rooms"
+                    % (PASS2_FLOOR_ROOMS, PASS2_DEFAULT_X)}
+
+
+def chosen_file(out):
+    return os.path.join(out, "pass2-chosen-B1.txt")
+
+
+def read_chosen(out, frame):
+    """The rooms the second pass chose, one per line (`#` starts a comment), in the frame's spelling."""
+    p = chosen_file(out)
+    if not os.path.exists(p):
+        return None
+    got = []
+    for l in open(p, encoding="utf-8", errors="replace"):
+        l = l.split("#", 1)[0].strip()
+        if l:
+            s = vlib.canon(l.split()[0], frame)
+            if s not in got:
+                got.append(s)
+    return got
+
+
+def pass2(root, out, st=None, R=None):
+    """The second pass replayed from disk: its target, the rooms it read, its run since its last new kind,
+    the state (no chosen list | chosen | beyond the chosen rooms | met | list ended) and the next room."""
+    st = st or store(root)
+    R = R or replay(root, out, "B1", st)
+    an = analysed(root, out, st)
+    w = words(st)
+    avg = R.get("avg_words") or 1.0
+    order, _, _ = data(root, out, "B1", st)
+    order = order or []
+    T = pass2_target(R)
+    chosen_now = read_chosen(out, an)
+    led = [r for r in _jl_lines(os.path.join(out, "pass2-B1.jsonl")) if r.get("sub")]
+    recorded = []
+    for r in led:
+        for s in r.get("chosen") or []:
+            s = vlib.canon(s, an)
+            if s not in recorded:
+                recorded.append(s)
+    chosen = list(chosen_now or [])
+    chosen += [s for s in recorded if s not in chosen]
+    dropped = [s for s in recorded if chosen_now is not None and s not in chosen_now]
+    lines = _jl_lines(os.path.join(out, "kinds-B1.jsonl"))
+    is2 = lambda r: str(r.get("leg") or "").upper().startswith("B1D")
+    seen = {r.get("kind") for r in lines if r.get("kind") and not is2(r)}
+    kl = sorted((r for r in lines if r.get("kind") and is2(r)), key=lambda r: str(r.get("t") or ""))
+    rows, read, ki = [], [], 0
+    run_rooms, run_x, last_new = 0, 0.0, None
+    for r in led:
+        sub = vlib.canon(r["sub"], an)
+        if sub in read:
+            continue
+        ks = []
+        while ki < len(kl) and str(kl[ki].get("t") or "") <= str(r.get("t") or ""):
+            ks.append(kl[ki]["kind"])
+            ki += 1
+        new = sorted({k for k in ks if k not in seen})
+        seen |= set(ks)
+        read.append(sub)
+        if new:
+            run_rooms, run_x, last_new = 0, 0.0, sub
+        else:
+            run_rooms += 1
+            run_x += (w[sub] or 1) / avg
+        rows.append({"sub": sub, "t": r.get("t"), "leg": r.get("leg"), "new": new, "run_rooms": run_rooms,
+                     "run_x": round(run_x, 1), "chosen": sub in chosen})
+    pending = sorted({kl[j]["kind"] for j in range(ki, len(kl)) if kl[j]["kind"] not in seen})
+    done = set(read)
+    pos = {s: i for i, s in enumerate(order)}
+    chosen_left = sorted((s for s in chosen if s not in done), key=lambda s: (pos.get(s, len(pos)), s))
+    met = (chosen_now is not None and not chosen_left and not pending
+           and run_rooms >= T["rooms"] and run_x + 1e-9 >= T["x"])
+    beyond = [s for s in order if s not in done]
+    if chosen_now is None and not read:
+        state, nxt = "no chosen list", None
+    elif met:
+        state, nxt = "met", None
+    elif chosen_left:
+        state, nxt = "chosen", chosen_left[0]
+    elif beyond:
+        state, nxt = "beyond the chosen rooms", beyond[0]
+    else:
+        state, nxt = "list ended", None
+    return {"target": T, "chosen": chosen, "chosen_read": len([s for s in chosen if s in done]),
+            "chosen_left": chosen_left, "dropped": dropped, "read": len(read), "rows": rows,
+            "run_rooms": run_rooms, "run_x": round(run_x, 1), "last_new": last_new,
+            "new_kinds": [k for r in rows for k in r["new"]], "pending": pending, "state": state, "next": nxt,
+            "out_of_order": [r["sub"] for r in rows if not r["chosen"] and
+                             any(t["t"] and r["t"] and str(t["t"]) > str(r["t"]) for t in rows if t["chosen"])]}
+
+
+def pass2_lines(P):
+    T = P["target"]
+    L = ["pass 2 (B1d): %s; chosen rooms read %d of %d; rooms read in this pass %d; since its last new "
+         "third-order theme %d rooms and %s average rooms, against %d rooms and %s average rooms (%s)"
+         % (P["state"], P["chosen_read"], len(P["chosen"]), P["read"], P["run_rooms"], P["run_x"],
+            T["rooms"], T["x"], T["from"])]
+    if P["state"] == "no chosen list":
+        L.append("write out/pass2-chosen-B1.txt first: the rooms this pass reads, one per line (the rooms the test "
+                 "found not fitting, the most hesitations, the contrary rooms of contrast.md)")
+    if P["pending"]:
+        L.append("new kind(s) %s met on the room in hand: they reset the run when you record it with mem.py "
+                 "reread <sub>" % ", ".join(P["pending"]))
+    if P["next"]:
+        L.append("next: %s%s" % (P["next"], "" if P["state"] == "chosen" else
+                                 "   (the chosen rooms are read and the run is short: the seeded order goes on)"))
+    elif P["state"] == "met":
+        L.append("the second pass may stop: every chosen room is read and the run is met")
+    elif P["state"] == "list ended":
+        L.append("every room is read in this pass and the run is not met: the list has ended; a count still "
+                 "climbing is a finding about the material, written in saturation-B1.md")
+    if P["dropped"]:
+        L.append("dropped from the chosen list after the pass began: %s" % ", ".join(P["dropped"][:10]))
+    if P["out_of_order"]:
+        L.append("read beyond the chosen rooms before they were all read: %s" % ", ".join(P["out_of_order"][:10]))
+    return L
+
+
 # ---- the report ------------------------------------------------------------------------------------
 
-def report_md(R):
+def report_md(R, P=None):
     L = ["# When to stop, stage %s" % R["stage"], "",
          "Written by `tools/saturation.py report` at %s. The rule: `saturation.py` docstring; J, 2026-09-29." % _stamp(), ""]
     now, left = R["now"], R["left"]
@@ -384,6 +532,11 @@ def report_md(R):
     L.append("| check-in: %d%% of the words read before marker 3 | %s |" % (round(100 * CHECK_IN), "-" if not c else
              "%s | %s | %s | %s | %s" % (c["rooms_read"], c["x"], c["C"], c["Q0"], "%.1f%%" % (100 * c["words_share"]))))
     L.append("")
+    m1 = R["markers"].get(1)
+    if m1 and m1.get("run_rooms") is not None:
+        L += ["Marker 1's empty run, from the last new kind (room %d, %s average rooms) to marker 1: %s average rooms "
+              "and %d rooms. It is the second pass's target, never fewer than %d rooms." % (
+                  m1["last_new_rooms"], m1["last_new_x"], m1["run_x"], m1["run_rooms"], PASS2_FLOOR_ROOMS), ""]
     if R["draw"]:
         d = R["draw"]
         L += ["## The draw", "",
@@ -414,6 +567,11 @@ def report_md(R):
     if R["stage"] == "B1" and R["state"] == "report":
         L += ["", "**The three markers are reached. The stage pauses here: the PI decides whether to finish the list "
               "(`saturation.py decide --stage B1 finish`) or stop (`... stop`).**"]
+    if P:
+        L += ["", "## The second pass (B1d)", ""] + pass2_lines(P)[:1] + [""]
+        L += ["| room | leg | new kinds | run, rooms | run, average rooms |", "|---|---|---|---:|---:|"]
+        L += ["| %s%s | %s | %s | %d | %s |" % (r["sub"], "" if r["chosen"] else " (beyond the chosen)", r["leg"],
+                                               ", ".join(r["new"]) or "-", r["run_rooms"], r["run_x"]) for r in P["rows"]]
     return "\n".join(L) + "\n"
 
 
@@ -423,6 +581,10 @@ def status_lines(R):
          "markers %s" % (R["stage"], R["state"], now["rooms_read"], R["units"],
                          "%.1f%%" % (100 * now["words_share"]) if now["words_share"] is not None else "n/a",
                          now["S"], now["C"], now["Q0"], len(R["rounds"]), ",".join(map(str, sorted(R["markers"]))) or "none")]
+    m1 = R["markers"].get(1)
+    if m1 and m1.get("run_rooms") is not None:
+        L.append("marker 1's empty run: %s average rooms, %d rooms (the second pass's target, never fewer than %d rooms)"
+                 % (m1["run_x"], m1["run_rooms"], PASS2_FLOOR_ROOMS))
     if R["rounds"] and R["rounds"][-1]["result"] == "open":
         r = R["rounds"][-1]
         L.append("round %d open: predicted next kind in %s rooms; reads to %s average rooms (now %s)%s"
@@ -443,7 +605,7 @@ def status_lines(R):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("verb", choices=("order", "status", "report", "decide"))
+    ap.add_argument("verb", choices=("order", "status", "report", "decide", "pass2"))
     ap.add_argument("what", nargs="?")
     ap.add_argument("--stage", required=True)
     ap.add_argument("--root", default=".")
@@ -474,9 +636,19 @@ def main():
         print("decision logged at the %s: %s" % (point, a.what))
         return 0
     R = replay(root, out, stage)
+    has2 = stage == "B1" and any(os.path.exists(p) for p in (chosen_file(out), os.path.join(out, "pass2-B1.jsonl")))
+    if a.verb == "pass2":
+        if stage != "B1":
+            raise SystemExit("pass2 is B1's second pass (B1d)")
+        P = pass2(root, out, R=R)
+        if a.json:
+            print(json.dumps(P, ensure_ascii=False, indent=1))
+        else:
+            print("\n".join(pass2_lines(P)))
+        return 0
     if a.verb == "report":
         p = os.path.join(out, "stopping-%s.md" % stage)
-        open(p, "w", encoding="utf-8").write(report_md(R))
+        open(p, "w", encoding="utf-8").write(report_md(R, pass2(root, out, R=R) if has2 else None))
         print("written %s" % os.path.relpath(p, root))
         return 0
     if a.json:

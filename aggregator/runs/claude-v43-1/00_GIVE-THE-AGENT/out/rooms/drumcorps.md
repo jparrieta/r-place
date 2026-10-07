@@ -4,9 +4,10 @@ week:       h14 to h31 April Fools; h51.2 the calls; h53 take two; h53 to h56 te
 named:      the blue corner as host to be told (c0084, c0104); r/rust as the neighbour that removed its dino and stopped a bot (c0119, c0121); greenlattice as not aggressive (c0085); Vivec and EarthBound as neighbours enjoyed (c0106, c0143).
 goal:       a DCI logo; set at h51; resized at h53 to fit the space; held.
 unsettled:  how to fix the overlap with a cut neighbour (c0129, c0130).
-coder unsure: Discord coordination unseen; 28 threads left unopened.
+coder unsure: Discord decisions unseen, only plans and credits returned (dfqnlpo, dfqxvrx); the three first calls' bodies deleted (631kme, 631ksn, 631kzq); templates are links; how many worked off Reddit, and the bots, unknown (dfsxiql).
 carrying:   c0094, c0119, c0149
 not this:   a big planned campaign; the work started at h51 and finished with a day to spare.
 ended:      last coordinating turn h72.28 (c0130, a black border proposed); Discord unseen; after h73 celebration and thanks.
 struck by:  "started off slow" but produced "some of the finest pixelating"
 made:       one Drum Corps International logo, 403 px at the edge, placed from h1.22 with a burst from h52; writers placed 0.092. The canvas keeps the resized logo.
+later:      2026-10-07, catch-up: overnight defence leaned on lent accounts running janitors and on Discord helpers (dfsxiql), beside the visible Reddit work. The brief shows drill coordinates as everyday marching talk the week before (dfm8cq5), and the build was later retold as a corps season (dfrvdnx).

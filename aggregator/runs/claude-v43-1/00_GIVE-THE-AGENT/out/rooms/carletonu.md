@@ -4,9 +4,10 @@ week:       nothing before h70.6; h70.6 to h72.7 one thread, three people.
 named:      the little dog's maker as the neighbour who offered a spot and help (c0002, c0004).
 goal:       a Carleton Raven; set at h70.6 by one member; moved beside the dog on the neighbour's offer.
 unsettled:  nothing; the offer was accepted.
-coder unsure: none named.
+coder unsure: the logo, the two plans and the figure called him are images, unseen (6375y5, dfrxghx); what the closing thanks answered not said (dfrxwr7); one thread, so no saturation shown.
 carrying:   c0002, c0004, c0006
 not this:   a takeover; the room accepted the neighbour's offer instead of covering the dog.
 ended:      last coordinating turn h72.67 (c0007, accepting the move); nothing after.
 struck by:  "Put it next to him. We'll even help you build it"
 made:       one Carleton University mark, 110 px at the edge, placed from h1.93 with a burst near h30; writers placed 0.017. The canvas fields show placements in this region long before the room's thread.
+later:      2026-10-07, catch-up: the record shows agreement to the move, not that the raven was moved or built (dfry4on, dfrygcb); no later thread recounts it. The brief shows a question-and-answer university room with no moderator voice and changes nothing.

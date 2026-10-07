@@ -4,9 +4,10 @@ week:       h10.9 a first call; h29.8 to h52 fixing, boxing, neighbours, the tas
 named:      r/placestart and its taskbar as the expanding threat and deal partner (c0020, c0035, c0073); OVO as the overwritten logo (c0042); r/seolhyun, Mudkip, WIT, the happy cultists as neighbours (c0017, c0023, c0085, c0060).
 goal:       Miku, already being built at h29.8; then a whole Miku kept by joining the taskbar.
 unsettled:  whether to overwrite others' logos (c0047, c0049); fight or compromise with placestart (c0075, c0080).
-coder unsure: Discord coordination unseen; 91 threads out of scope.
+coder unsure: Discord decisions, templates and maintenance unseen (dfqv134, dfs39vy); a deleted middle reply in the U exchange (63591t); no answer shown to WIT's border request (636hbg).
 carrying:   c0010, c0035, c0049
 not this:   a room that defended in place; it chose to become part of the taskbar to keep Miku whole.
 ended:      last coordinating turn h72.96 (c0084, circulating new plans and coordinates); after h73 mourning and fatigue.
 struck by:  "Miku in a safety box"
 made:       one Vocaloid Soft artwork, 248 px at the edge, placed from h1.73; writers placed 0.107. The canvas fields link a Vocaloid Soft mark to this room; the Miku the threads describe is not linked here.
+later:      2026-10-07, catch-up: one member refused to need a separate app to pitch ideas when told to consult Discord first (dfrp8ms), so the venue excluded some; the OVO dispute ended with the defender offering to help rebuild it (dfr7h4u). The brief shows a song-sharing room the week before and changes nothing.

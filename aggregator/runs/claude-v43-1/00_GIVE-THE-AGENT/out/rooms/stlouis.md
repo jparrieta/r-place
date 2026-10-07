@@ -4,9 +4,10 @@ week:       nothing before h34.4; h34 to h36 the Note admired; h48 to h52 the ha
 named:      the Megumin builders (konosuba) as partners sharing the hat (c0064, c0090); the Cubs and the Blackhawks as rivals to deface (c0040, c0057); r/worldpowers as an expansion threat (c0036); Mizzou fans as builders nearby (c0073).
 goal:       to keep the Blues Note, already on the canvas when the room spoke; then a skyline and local marks.
 unsettled:  whether to cover the witch's hat (c0023, c0030, c0082).
-coder unsure: who built the Note; 127 threads out of scope.
+coder unsure: who built the Note and who negotiated the witch agreement unshown (dfq44t1, dfrvin2); removed bodies of several event openings (62x8ug, 63anc4); the Hawks plot only alleged (dfrm4p9); four coders, no agreement measure.
 carrying:   c0021, c0035, c0083
 not this:   the room that made the Blues logo; it found it built and joined its upkeep, under an agreement with Megumin's builders.
 ended:      last coordinating turn h71.69 (c0083 to c0085, explaining the witch agreement); after h73 pride, a megathread too late.
 struck by:  "we are friends with the witch"
 made:       two artworks in the middle ring, St. Louis 2798 px, placed from h1.33, and a St. Louis Skyline 160 px; writers placed 0.055. The canvas keeps the Note the room adopted and the skyline it added.
+later:      2026-10-07, catch-up: one skyline builder said screw them about the ceasefire, then accepted the case for building rather than cancelling (dfrsi00, dfrtbx9). The brief shows The Lou already the room's name for the area (623zim), the words a member wanted written on the canvas.

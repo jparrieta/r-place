@@ -4,9 +4,10 @@ week:       h28 to h39 April Fools gifts; h44.8 to h45.5 the plan; h55.5 a delet
 named:      Rainbow Road as the neighbour that will overwrite (c0004); Rocket League as the group that damaged the work (c0010).
 goal:       an LFHH mark in black only, at fixed coordinates; set at h44.8 by one planner; kept.
 unsettled:  whether to aim bigger (c0009, c0010).
-coder unsure: the deleted help call (63331h); Discord and forum planning unseen.
+coder unsure: the deleted help call and corner proposal bodies (63331h, 637ee0); plan images unreadable; Discord and forum planning unseen (dfrwjip); whether the rebuild succeeded not shown; two coders, no agreement measure.
 carrying:   c0004, c0010, c0011
 not this:   a room busy with the canvas; five threads in 261 touched it, and one member planned.
 ended:      last coordinating turn h72.02 (c0011, sending people to Discord and forums); Discord unseen; after h73 no canvas talk.
 struck by:  "ONLY FILL IN THE BLACK"
 made:       one lofi.hiphop artwork, 246 px at the edge, placed from h1.73 with a burst near h52; writers placed 0.169, pre-event members 0.142. The canvas keeps the mark the planner directed.
+later:      2026-10-07, catch-up: the record does not show that the member who redirected the corner proposal was the first planner; that member reposted the earlier plan and said it had been complete before Rocket League's damage (dfrwc27). The brief shows a beat-tape weekly thread and track feedback (61lyj9) and changes nothing.
