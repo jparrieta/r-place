@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-54, 2026-10-07, the short leg that brought `handback-A1.md` up to date (section "After A1c").
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-55, 2026-10-07.
 
 ## The method question, in one sentence
 
@@ -24,15 +24,11 @@ J's rulings of 7 October 2026 (after the A1c handback) opened a catch-up pass, l
 The catch-up pass is declared in `out/order-A1.txt` as comment lines `#<block><TAB><sub>` after the A1 order. 702 rooms, blocks 20 to 48, 25 rooms each (block 48 has 2). The diary's amendment lines are found with `mem.py diary --grep "amended" --limit 5000`.
 
 Blocks 20 to 48 are done; the diary holds an amendment for all 702 declared rooms.
-The pass's reading route was `bash out/_analysis/catchup_read.sh <sub> case|brief|check`. The shell shows at most 30 KB per call, and the overflow goes under CONTROL, which is read-denied.
+The shell shows at most 30 KB per call; the overflow goes under CONTROL, which is read-denied.
 
 Note length (J, 7 October 2026): about 350 words is a guide, not a limit. Length and wording are my judgement; the pass/fail rules stand (the fixed lines, concept ids, case and brief read before the note). Do not cut earlier lines to fit new ones; cut only what I would not miss later, and log it. Keep the new lines short: coder unsure about 25 words, later about 45. The hook now reports a note over the guide as advice and lets it stand; `validate.py` counts these as warnings (18 to 24 a block, blocks 36 to 47). If unsure about writing, ask J (`mem.py ask`). When cutting the last doing clause, keep a full stop; removing it removes the line break before `week:`, and the hook refuses the note. A coder unsure line that says none, cites a concept id, or gives the brief's coverage ("N threads out of scope") is not case.md's word: replace it with case.md's limits and thread ids. Remove any gendered pronoun for a member when a line is cut.
 
-After a compaction, do not trust edits made from the summary. Serve the room's case.md and brief.md again and check every id before logging.
-
-A grep pattern with parentheses matches nothing; grep on a plain word.
-
-`validate.py A1` before this close: 0 errors, 551 warnings (notes over the 350-word guide). A coder unsure line already drawn from case.md in an earlier read is kept and extended, not replaced (block 47: androidgaming, TheID). When case.md shows an earlier line is wrong, correct it through the later line or a small logged edit (blocks 46 to 48: seven, seven and two rooms, named in the close reports). Recount the head with `wc -w` after the last edit and before `done.sh`.
+`validate.py A1` before this close: 0 errors, 556 warnings (notes over the 350-word guide). A coder unsure line already drawn from case.md in an earlier read is kept and extended, not replaced (block 47: androidgaming, TheID). When case.md shows an earlier line is wrong, correct it through the later line or a small logged edit (blocks 46 to 48: seven, seven and two rooms, named in the close reports). Recount the head with `wc -w` after the last edit and before `done.sh`.
 
 ## Section 5, done in A1b-19
 
@@ -132,11 +128,11 @@ Catch-up findings are in `running-A1.md` under "catch-up block NN". The last res
   - Count a ledger's lines after appending, before logging the count; count the diary's trim lines before writing the closing line.
   - There is no `--kind close`; log the closing line as a note.
 - The permission check refuses "=w=", for and while loops, shell functions, heredocs, awk and a variable set from `$(...)`. The command guard reads a bare "rm" inside quoted text as a delete. Use the Write and Edit tools for file content; an Edit whose old text spans non-adjacent lines fails, so edit lines one at a time.
-- The diary rolls into a new part as it grows; during A1b-53 it moved into part A1-57. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
+- The diary rolls into a new part as it grows; during A1b-55 it moved into part A1-58. After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
 
 ## The next comparison
 
-The restore pass (J, 7 October 2026), legs A1b-49 to A1b-53: one batch each from `out/_handling/pretrim-A1/BATCHES.tsv`. For each room, choose among the prototype in `restored/`, the cuts in `review/`, or leaving the note. Put back only my own pre-cut words, with no new reading, and log `<sub> restore: ...` for every room. Helpers: `python3 out/_analysis/restore_show.py <subs>` (read-only diff and review); `python3 out/_analysis/restore_put.py <sub> <leg> <field>...` (copies that leg's pre-cut "+" line for each field; refuses when the current line holds words the pre-cut one lacks; read those words, then add `--force` only for wording). All five batches are done: 447 rooms, 197 prototypes taken whole (A1b-49 to A1b-53: 91, 89, 88, 92, 87 rooms). Each leg's choices are in its close report in `notes-A1.md`. Leave out pre-cut lines that a cut leg corrected (ended lines, hedges, quotes of four words or more, gendered pronouns, stray thread marks such as "(t03 aside)"), but check ended lines against `organizing_end-A1.jsonl` (greece's pre-cut line was the right one); a catch-up not-this line that a later line qualifies stands. Rooms with national flag conflicts, Nazi imagery or political content stay as they are (israel, india, pakistan, palestine, Russiaclan, serbia, shitredditsays, TheFarLeftSide, ukraine). A pre-cut line that dates a turn differently from the cut line stays out. QA1-002 is answered: organizing is counted before the freeze at h73, so an ended line before h73 stands against a later ledger hour (canada, southafrica). The restore pass is complete; no further batch is declared.
+The restore pass (J, 7 October 2026), legs A1b-49 to A1b-53: one batch each from `out/_handling/pretrim-A1/BATCHES.tsv`. For each room, choose among the prototype in `restored/`, the cuts in `review/`, or leaving the note. Put back only my own pre-cut words, with no new reading, and log `<sub> restore: ...` for every room. Helpers: `python3 out/_analysis/restore_show.py <subs>` (read-only diff and review); `python3 out/_analysis/restore_put.py <sub> <leg> <field>...` (copies that leg's pre-cut "+" line for each field; refuses when the current line holds words the pre-cut one lacks; read those words, then add `--force` only for wording). All five batches are done: 447 rooms, 197 prototypes taken whole (A1b-49 to A1b-53: 91, 89, 88, 92, 87 rooms). Each leg's choices are in its close report in `notes-A1.md`. Leave out pre-cut lines that a cut leg corrected (ended lines, hedges, quotes of four words or more, gendered pronouns, stray thread marks such as "(t03 aside)"), but check ended lines against `organizing_end-A1.jsonl` (greece's pre-cut line was the right one); a catch-up not-this line that a later line qualifies stands. A1b-55 (J, 7 October): national, political and conflict content is study material. The 9 rooms I had left out for it, plus israel and tagpro, now hold my pre-cut words. Handler's rule: a choice to leave out or soften content for any reason other than the study's goes to J first (`mem.py ask`), and the content stays meanwhile. QA1-003 is open: bakchodi and dankmemes still hold back A1b-10 pre-cut lines after a safety stop in A1b-49. A pre-cut line that dates a turn differently from the cut line stays out. QA1-002 is answered: organizing is counted before the freeze at h73, so an ended line before h73 stands against a later ledger hour (canada, southafrica). The restore pass is complete; no further batch is declared.
 
 After the restore, the next comparison is the `later:` lines across rooms, by the patterns above, when a leg message asks for it.
 

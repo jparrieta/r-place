@@ -33,3 +33,7 @@ Target length: under 450 words. Written 2026-10-06 by the handler. Holds the pro
 ## Tick interval (J, 2026-10-06 22:31 Berlin)
 
 - One tick every 600 s: run `tick.sh 60`, report any close, then schedule the next tick with a `send_later` of 10 minutes back into the session, and end the turn. A close is reported at most about ten minutes late.
+
+## At every close: omissions as well as additions (2026-10-07)
+
+The audits check that what the analyst added comes from the record. They do not see what it left out. At every close, read the reasons the analyst logs for leaving content out, softening it or keeping a note as it stands (grep the leg's diary notes for "left", "kept minimal", "not put back", "omitted"). A reason that is not the study's goes to J at once. J, 7 October 2026: "national elements are very important here", and "we need to get as much variance on organizing behavior early on so that later we have enough to create the model".
