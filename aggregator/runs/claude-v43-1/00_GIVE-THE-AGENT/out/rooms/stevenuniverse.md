@@ -4,10 +4,10 @@ week:       h6 to h13 April Fools, the Diamond Authority; h27 to h52 Discord, tr
 named:      r/polandball and r/Slovakia as truce partners (c0284, c0214); r/norge as attacker and apologiser (c0416, c0395); 4chan and Rainbow Road as neighbours (c0028, c0024).
 goal:       Steven Universe art; the Diamond Authority done at h10.1; more gems added; held until Norway's late advance.
 unsettled:  war or peace with neighbours (c0323, c0337, c0355).
-coder unsure: Discord deliberation unseen, only invites and summaries returned; removed bodies (635stz, 63dbsp).
+coder unsure: Discord deliberation unseen, only invites, plans and summaries returned; removed bodies (635stz, 63dbsp); an atlas request with no confirmation (63bt0d).
 carrying:   c0214, c0362, c0496
 not this:   a room that expanded freely; it cracked its own diamond to give Polandball room.
-ended:      last coordinating turn h71.17 (c0443, coordinates for retaking space); after h73 mourning.
+ended:      last coordinating turn h71.17 (c0443, coordinates for retaking space); after h73 mourning and credit.
 struck by:  "Ironic in that the show is about loving and caring about others"
 made:       ten artworks at the edge, the largest Steven Universe 1,982 px and The Great Diamond Authority 528 px, placed from h1.17; writers placed 0.28, pre-event members 0.159. The canvas keeps the gems.
 later:      2026-10-07, catch-up: calls for revenge and destruction came from inside the room too (dfr7ixy), and a retrospective said many wanted others' art destroyed (dfskn41); a moderator megathread answered canvas posts clogging the sub (63651x). The brief shows the Lapis mirror bot at its usual work (dfe59ch), which the takeover joke used.

@@ -1264,3 +1264,27 @@ placecanada's prototype had its later line above struck-by. I moved it back belo
 Gendered pronouns: PUBATTLEGROUNDS had "his" for a member in both versions; it now reads "their". The pronouns left refer to the drawn monster in PinkVomitMonster and, in shitredditsays, to a figure on the canvas; that note was not touched.
 
 `validate.py A1` before the close: 0 errors, 498 warnings (notes over the 350-word guide; 54 more than before this leg). The diary moved into part A1-56 during this leg. Ledgers unchanged. No question is open. The next leg takes the A1b-53 batch, the last of the restore pass.
+
+## Close report, leg A1b-53 (restore batch 5 of 5), 2026-10-07
+
+This leg took the fifth and last batch in `BATCHES.tsv`: 87 rooms, splatoon to zelda. Every room has a `restore:` line in the diary.
+- 36 rooms took the prototype whole.
+- 47 rooms took part of it, or had pre-cut lines put back through `restore_put.py`. I read every refused list of words before forcing a copy.
+- Four rooms stand as they were. TheFarLeftSide and ukraine: their pre-cut lines add to political or national conflict content. warframe and wine: the pre-cut doing line differs from the cut line on a fact (an hour, annual against monthly), so choosing needs a new reading.
+
+Pre-cut doing lines left out because they date a turn differently from the cut line: stevenuniverse (c0257), theblackvoid (c1106), thenetherlands (c0127), turkey (c0131). Their other pre-cut lines were put back.
+
+Other pre-cut lines left out on purpose:
+- tagpro: the A1b-01 week line repeats a griefers' slur-based name for the sign; the made line already records it.
+- wildhockey: the week line adds a far-right plan; only the named line was put back.
+- thailand and vegan: the pre-cut ended line names no concept, or cites a thread, for its hour. The current line stands.
+- twentyonepilots: the current not-this line, which the catch-up qualified, stands.
+- startrek: the review file's week line carries a stray line-number prefix.
+
+Restored lines changed where they broke a rule: stray thread marks removed in stardustcrusaders "(t19, t20 aside)"; four-word member quotes replaced with the cut line's paraphrase in twitchplayspokemon. Thread marks that were in both versions stand (ss13, ssbpm, starvstheforcesofevil, trees, uiuc, wallstreetbets, wow, and others named in the diary).
+
+Gendered pronouns: the_pack's prototype had "him" for a member; it now reads "that member". The pronouns left refer to the Hulk character in TheHulk and to the hockey player Laine in winnipegjets' later line.
+
+The restore pass is complete. Over five legs it covered 447 rooms (91, 89, 88, 92, 87); 197 took the prototype whole.
+
+`validate.py A1` before the close: 0 errors, 551 warnings (notes over the 350-word guide; 53 more than before this leg). The diary moved into part A1-57 during this leg. Ledgers unchanged. No question is open.
