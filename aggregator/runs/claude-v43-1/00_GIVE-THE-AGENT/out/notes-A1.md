@@ -1210,3 +1210,29 @@ Gendered pronouns for members:
 - The pronouns left in this batch refer to game or cartoon figures: dragonquest, Fez, hatsune, heroesofthestorm.
 
 `validate.py A1` before the close: 0 errors, 390 warnings (notes over the 350-word guide; 62 more than before this leg). The diary moved into part A1-53 during this leg. Ledgers unchanged. QA1-002 is still open. The next leg takes the A1b-51 batch.
+
+## Close report, leg A1b-51 (restore batch 3 of 5), 2026-10-07
+
+J answered QA1-002 before my first write. Organizing is counted before the freeze at h73. r/canada's current ended line (h72.16, c0498) is before the freeze, so it stands, as I had assumed. The diary logs the answer under canada.
+
+This leg took the third batch in `BATCHES.tsv`: 88 rooms, indieheads to partyparrot. Every room has a `restore:` line in the diary.
+- 35 rooms took the prototype whole.
+- 50 rooms took part of it, or had pre-cut lines put back through `restore_put.py`. Most of these are doing and week lines the catch-up had cut again. I read every refused list of words before forcing a copy.
+- Three rooms stand as they were: israel, pakistan and palestine. Their pre-cut lines add to national flag conflicts, and this pass keeps that content minimal.
+
+Ended lines checked against `organizing_end-A1.jsonl`:
+- leafs and parahumans: the current ended line matches the ledger and stands.
+- nVade: the current line matches the ledger; the prototype's line (h73.04) stays out.
+- japan, mls, monero, OnePiece: neither line matches the ledger, so the current line stands.
+
+Other pre-cut lines left out on purpose:
+- ManningPlace and npr: the current not-this line stands. ManningPlace's pre-cut line contradicts its made line. npr's later line qualifies the current one.
+- lego: the catch-up's qualified not-this line was put back after the prototype was copied.
+- monero and nbaspurs: the pre-cut coder unsure line was weaker than the catch-up's line from case.md.
+- nintendo and partyparrot: the current struck-by line stands. The prototype's quote was a fragment, or cut off mid-word.
+
+Stray thread marks removed from restored lines: ireland "(t03 aside: ...)", leagueoflegends "(t02, t09, t12)", metalcore "(t14 aside: ...)", mylittlepony "(t08)", opticgaming "(t12, t17 aside)", overwatch "(t02, t15, t17 aside: ...)". Where a thread mark was in both the cut and the pre-cut line (MMA, osu, osugame, paladins, paragon), it stands.
+
+Gendered pronouns for members: one restore in loltyler1 would have brought one back; it reads "the streamer's own face". The two pronouns left in the batch refer to game figures: luciomains' struck-by quote and Samus in metroid.
+
+`validate.py A1` before the close: 0 errors, 444 warnings (notes over the 350-word guide; 54 more than before this leg). The diary moved into parts A1-54 and A1-55 during this leg. Ledgers unchanged. No question is open. The next leg takes the A1b-52 batch.

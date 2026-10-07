@@ -22,7 +22,11 @@ with tarfile.open(os.path.join(SNAP, prev, "fs.tar.gz"), "r:gz") as t:
             before[want[m.name]] = t.extractfile(m).read().decode("utf-8")
             if len(before) == len(want):
                 break
-grams = lambda s: [tuple(w) for w in zip(*(re.findall(r"\w+", s.lower())[i:] for i in range(3)))]
+NEUTRAL = {"he": "P", "she": "P", "they": "P", "his": "PP", "her": "PP", "hers": "PP", "their": "PP", "theirs": "PP",
+           "him": "PO", "them": "PO", "himself": "PR", "herself": "PR", "themselves": "PR", "themself": "PR",
+           "was": "BE", "were": "BE", "is": "BE2", "are": "BE2", "has": "HV", "have": "HV"}
+# a gendered pronoun made neutral (the analyst's own policy, logged) is not new wording (2026-10-07, after A1b-50)
+grams = lambda s: [tuple(w) for w in zip(*([NEUTRAL.get(x, x) for x in re.findall(r"\w+", s.lower())][i:] for i in range(3)))]
 noted = set()
 for f in glob.glob(os.path.join(OUT, "diary", "A1-*.jsonl")):
     for l in open(f, encoding="utf-8"):
