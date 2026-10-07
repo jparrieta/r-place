@@ -1,12 +1,13 @@
 # r/TeamYellowPlace  (read 2026-10-06)   coded share 0.404   off-platform pointers 2
-doing:      a sub made for the canvas, for the yellow colour; at h3.1 a Lord Commander carving out a place as Blue moves (c0001, c0003); a hierarchy posted (c0005); at h4.7 a new base named, then breached (c0062, c0023); at h4.9 the Black Pattern offering its white spots, accepted with a pixel limit (c0012, c0013); members told to draw only yellow without covering others (c0019); at h6.8 talk moved to Discord (c0025); at h10.4 an agreement with Rainbow Road (c0033); at h11.2 the Yellow Triangle set as goal (c0037); at h26.6 a mural's builders trading triangle help for defence (c0047); at h30.2 Batman's builders thanking yellow, a Discord channel for contact (c0050, c0063); at h31.9 Snake's builders maintaining the yellow background in exchange for room (c0051); at h51.3 a small group cleaning the triangle without starting wars with nice art (c0053); at h63.1 FRC asking not to be cut off from its sister sub (c0058).
+doing:      a sub made for the canvas, for the yellow colour; at h3.1 a Lord Commander carving out a place (c0001); at h4.7 a new base, then breached (c0062, c0023); at h4.9 the Black Pattern's offer accepted with a pixel limit (c0013); at h6.8 talk moved to Discord (c0025); at h11.2 the Yellow Triangle set as goal (c0037); at h26.6 a mural's builders trading help for defence (c0047); at h31.9 Snake's builders maintaining the background for room (c0051); at h51.3 cleaning without wars on nice art (c0053); at h63.1 FRC asking not to be cut off (c0058).
 week:       h3 to h12 bases, allies, the Triangle goal; h26 to h37 hosting murals, Batman, Snake; h51 to h72 upkeep.
 named:      the Black Pattern and Rainbow Road as allies (c0014, c0033); the blue corner as rival (c0003, c0041); Batman, Snake and FRC builders as hosted neighbours (c0050, c0051, c0058).
 goal:       a yellow home; the Yellow Triangle from h11.2; held.
 unsettled:  ally with blue or not (c0040, c0041), and checkerboard or pure yellow (c0056, c0057).
-coder unsure: none.
+coder unsure: Discord coordination and alliance contact unseen (dfpj1lr, 6375ay); 15 deleted or removed bodies leave titles only (62nyr2); pxls.space seen only as a destination (63alel).
 carrying:   c0013, c0051, c0053
 not this:   a colour faction that only fought; it hosted other works in exchange for upkeep.
 ended:      last coordinating turn h72.00 (c0060, calling out redness in the FlashTV logo); after h73 yellow spread on canvas clones.
 struck by:  "Happy to help repair and maintain the yellow background in exchange for being allowed to exist in your realm."
 made:       one artwork, The Yellow Triangle, 7,053 px at the edge, 16,398 placers, placed from h1.04; writers placed 0.031, pre-event members 0. The canvas keeps the triangle.
+later:      2026-10-07, catch-up: a covert expansion through the Helix glow was refused by Rainbow Road's representative (dfofb8p); Rainbow Road was later accepted in an uneasy alliance despite having crossed the base (dfp89n3). The brief is the harness's empty brief.

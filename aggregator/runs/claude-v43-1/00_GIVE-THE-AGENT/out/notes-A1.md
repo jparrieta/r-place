@@ -954,3 +954,20 @@ leg A1b-31 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 641 lines (9 block-31 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,956 words. 300 of 702 catch-up rooms are done. The next leg reads catch-up block 32, from ReBoot.
+
+## Close report, leg A1b-32 (catch-up block 32), 2026-10-07
+
+Block 32 is read: 25 of 25 rooms, ReBoot to TeamYellowPlace. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. The `coder unsure:` line was replaced in all 25 notes. Each old line either gave the brief's coverage ("N threads out of scope") or said none. The new lines give case.md's limits with thread ids. Each note has a dated `later:` line. Six briefs were the harness's empty brief (GranColombia, epublica, FlaggyFlag, ManningPlace, littlebusters, TeamYellowPlace). In this leg the doing line was cut before the new lines were added. The hook still refused one note: npr at 351 words, because its struck-by line is long. Two more notes were trimmed because `wc -w` showed 347 or more without a refusal (warthunder 348, Cornwall 347). Every trim is logged. In PORTUGALCARALHO and npr the later line qualifies the not-this line. The npr later line also says its placements before hour 0 are Reddit's tests.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-32 cut=none 20261007T054914Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-32 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 650 lines (9 block-32 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,837 words. 325 of 702 catch-up rooms are done. The next leg reads catch-up block 33, from neu.
