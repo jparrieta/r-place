@@ -4,9 +4,10 @@ week:       h24 to h27 proposals; h40 eaten; h46 to h50 announcements, Discord, 
 named:      the Irish flag's area as a site (c0001); the French area and placehearts as protectors (c0016); Spain as backer (c0040).
 goal:       a Gwenn ha Du; tried from h24.2; eaten at h40; a small flag kept by the close.
 unsettled:  where a flag can last away from France (c0038).
-coder unsure: 1 thread out of scope.
+coder unsure: the Discord talk unseen (dfq8hgk, dfqhe3g); two deleted comments around an outside offer of help (dfqpcvi, dfqst5g); the Spanish backing only a post title (6335wv).
 carrying:   c0016, c0025, c0038
 not this:   a room that held space on its own; its small flag survived inside the French area's protection.
 ended:      last coordinating turn h55.80 (c0040, the full plan with Spain); h73.6 the verdict.
 struck by:  "Bon ben on aura essayé"
 made:       two artworks at the edge, Flag of Brittany 272 px with 921 placers and Flag of Brittany 71 px, placed from h1.17; writers placed 0.069, pre-event members 0.009. The canvas keeps a small flag the room calls vandalised but recognisable.
+later:      2026-10-07, catch-up: the French area's protection and Spain's backing are members' claims, not shown from the other side (dfq82td, 6335wv), so the not-this line rests on a claim. The brief holds four items and changes nothing.

@@ -4,9 +4,10 @@ week:       h13 to h33 a call, a site; h35 to h50 neighbours, Sounders; h53 to h
 named:      r/Portland and Rip City as hosts and partners (c0002, c0015); r/straya as truce partner (c0018, c0037); Sounders and Seattle as attackers, then flag partners (c0022, c0051).
 goal:       a Timbers crest; begun at h31.1; redesigned for the space; done at h53.6; held.
 unsettled:  whether to attack neighbours to defend allies (c0079, c0080).
-coder unsure: 41 threads out of scope.
+coder unsure: two readers, no one held the week; the Discord's decisions unseen (dfpp23v, dfq0ef7); the first call and two completion posts only titles (62qw2c, 632en8); the Cascadian flag's outcome not shown (63353z).
 carrying:   c0014, c0037, c0051
 not this:   a room that kept its first design; truces cost it half the crest and a redesign.
 ended:      last coordinating turn h72.82 (c0047, the location and a defence call).
 struck by:  "I feel bad. I'm not a Blazers fan and I've been helping fight against the Nip City people"
 made:       one artwork, Portland Timbers, 828 px in the middle ring, 1,811 placers, placed from h1.09; writers placed 0.189, pre-event members 0.048. The canvas keeps the crest.
+later:      2026-10-07, catch-up: a neighbour accused them of attacking its art about five times (dfr1dfg); members fought fellow Timbers fans for hours over a design choice (dfsoqlc). The brief shows the community scarf order and the RCTID chant (62inmb, 61gxxi); the canvas held an RCTID logo.

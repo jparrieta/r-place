@@ -1,0 +1,17 @@
+# r/loliconsunite: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/loliconsunite.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-06: 376 words before the cut, 346 after
+
+```diff
+@@ -1,6 +1,6 @@
+ # r/loliconsunite  (read 2026-10-06)   coded share 0.329   off-platform pointers 6
+-doing:      a sub with no pre-event members, named after a canvas message; at h22.9 a member asking who started it, the answer that a few people on a Discord server settled on "lolicons unite" and took four hours, an invite given (c0001, c0002, c0005); phase two, maintain and expand, keeping the symbol alive first (c0008, c0010); attacks with alternate accounts, the room refusing to stoop to their level (c0021, c0023); at h37 the rebuild moved to avoid New Zealand (c0024, c0026); at h46.9 a proposal to replace the Hentai sign, then an alliance sought with its builders (c0029, c0030); a LOLI logo and a "flat is #1" sign begun, a border adjusted for a neighbour's M (c0037, c0042, c0035, c0045); mutual help against vandalism agreed (c0043, c0044); Taiwan reassured about the border (c0060); members refusing to pick a fight and weighing publicity (c0061, c0057); a Discord made at h63.8, a member saying nothing had been done through Discord before (c0070, c0088); at h73 the sign reported unblemished (c0074); after the close the sub made SFW to last (c0084, c0086).
+-week:       h22.9 to h31 attacks; h37 a move; h47 to h64 new signs, neighbours, a Discord; h68 defence; after h80 a lasting sub.
++doing:      a sub with no pre-event members, named after a canvas message; at h22.9 a member asking who started it, the answer that a few people on a Discord server settled on "lolicons unite" and took four hours, an invite given (c0001, c0002, c0005); phase two, maintain and expand, keeping the symbol alive first, a blueprint shared (c0008, c0010, c0014); pixel art proposed as harder to vandalise (c0016, c0017); attacks with alternate accounts, the room refusing to stoop to their level (c0021, c0023); at h37 the rebuild moved to avoid New Zealand and a member called Yuti (c0024, c0025, c0026); at h46.9 a proposal to replace the Hentai sign, then an alliance sought with its builders (c0029, c0030); a LOLI logo and a "flat is #1" sign begun, a border adjusted for a neighbour's M (c0037, c0042, c0035, c0045); mutual help against vandalism agreed (c0043, c0044); Taiwan reassured about the border (c0060); members refusing to pick a fight and weighing publicity (c0061, c0057); a Discord made at h63.8, a member saying nothing had been done through Discord before (c0070, c0088); critics condemning the sign (c0064, c0068); at h73 the sign reported unblemished (c0074); after the close the sub made SFW to last (c0084, c0086).
++week:       h22.9 to h31 the first sign, attacks; h37 to h41 a move; h47 to h64 new signs, neighbours, a Discord; h68 defence; after h80 a lasting sub.
+ named:      r/hentai's sign as neighbour (c0029, c0030); r/Taiwan (c0060); New Zealand and Moroccan users as attackers (c0024, c0062); a Discord server as origin (c0002).
+ goal:       a lolicon message; moved once; rebuilt as LOLI; kept.
+ unsettled:  whether recruiting would bring more damage than help (c0057, c0058, c0059).
+```

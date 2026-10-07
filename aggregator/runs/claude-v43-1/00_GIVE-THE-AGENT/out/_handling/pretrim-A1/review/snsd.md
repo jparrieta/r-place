@@ -1,0 +1,15 @@
+# r/snsd: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/snsd.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-19: 352 words before the cut, 340 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/snsd  (read 2026-10-07)   coded share 0.333   off-platform pointers 1
+-doing:      a K-pop group's sub whose first two days were a moderator's sidebar picture joke (t07); at h46.1 a question why no GG symbol (c0001); at h54.8 help asked near 517, 805, a member and friends starting an SD, a third attempt from the GEE remains (c0014, c0015, c0020); at h55.6 an SNSD found already at 774, 880 (c0018); at h55.8 r/bangtan offering help to integrate (c0019); at h56 the Starcraft logo swallowing the area, the space turned to TWICE (c0023, c0025); at h56.7 a new SNSD proposed beside the Seolhyun heart (c0031); at h58.1 r/stlouisblues asking its note left alone and offering space and help (c0032, c0034, c0035); at h58.7 a call to take the Blues area out (c0029); at h59.4 a design above the heart (c0041); at h59.6 to h61.2 a kpop-area maintainer refusing the spot as promised to r/robotwars, whose deal protects the kpop area, the room saying everybody steps on you (c0046, c0050, c0053, c0056); at h61.2 the Seolhyun builders accused of wiping a Jets logo (c0063).
++doing:      a K-pop group's sub whose first two days were a moderator's sidebar picture joke (t07); at h46.1 a question why no GG symbol (c0001); at h54.8 help asked near 517, 805, a member and friends starting an SD, a third attempt from the GEE remains (c0014, c0015, c0020); at h55.6 an SNSD found already at 774, 880 (c0018); at h55.8 r/bangtan offering help to integrate (c0019); at h56 the Starcraft logo swallowing the area, the space turned to TWICE (c0023, c0025); at h56.7 a new SNSD proposed beside the Seolhyun heart (c0031); at h58.1 r/stlouisblues asking its note left alone and offering space and help (c0032, c0034, c0035); at h58.7 a call to take the Blues area out by numbers (c0028, c0029); at h59.4 a design above the heart, white with a black border, a Discord (c0041, c0039, c0045); at h59.6 to h61.2 a kpop-area maintainer refusing the spot as promised to r/robotwars, whose deal protects the kpop area, the room saying everybody steps on you (c0046, c0050, c0053, c0056); at h61.2 the Seolhyun builders accused of wiping the r/nyjets logo (c0063).
+ week:       h3 to h39 April Fools; h46 to h56 starts and an existing SNSD; h56 to h61 neighbours, robotwars, Blues.
+ named:      r/bangtan and r/stlouisblues as offering help (c0019, c0035); r/robotwars as holder of the spot under a kpop-area deal (c0050, c0053); Starcraft and TWICE as neighbours taking space (c0023, c0025); r/nyjets as a logo the Seolhyun builders wiped (c0063).
+ goal:       an SNSD mark; several tries from h54.8; the design above the heart done at h60.1.
+```

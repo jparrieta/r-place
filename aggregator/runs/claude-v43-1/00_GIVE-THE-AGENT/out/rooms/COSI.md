@@ -4,9 +4,10 @@ week:       h50.0 a plan; h55.1 to h55.9 the koi request and a move; h74.4 the r
 named:      the koi and Waldo helpers as neighbours asking room (c0003); r/rit as the thread for updates and host (c0004); the Italians as claimants of space nearby (c0005, c0006).
 goal:       a COSI logo; planned at h50.0; moved at h55.6 off the koi; held.
 unsettled:  nothing coded beyond the koi's future (c0006).
-coder unsure: none; 0 threads out of scope.
+coder unsure: the GitHub game plan and the RIT thread hold the decisions and are unseen (6313ne, dfqwtyv); why the logo moved is not stated, so the request may not have caused it.
 carrying:   c0001, c0003, c0004
 not this:   a late room that fought for space; it moved as soon as a neighbour asked.
 ended:      last coordinating turn h55.57 (c0004, the move and the pointer to r/rit's thread); h74.4 the final product.
 struck by:  "We're moving it. Reference the RIT thread for up to date info on that."
 made:       one artwork, Clarkson Open Source Institute, 158 px at the edge, 1,702 placers, placed from h1.3; writers placed 0.014, pre-event members 0. The canvas keeps the logo.
+later:      2026-10-07, catch-up: not this qualified; the move followed the koi request, but no turn says it moved because of it (dfqwtyv). The koi helper's acceptance was explicitly for now (dfqxv93), so the dispute is not shown settled. The brief is the harness's empty brief.

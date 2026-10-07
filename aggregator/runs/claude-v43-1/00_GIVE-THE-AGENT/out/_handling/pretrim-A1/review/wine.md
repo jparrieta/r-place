@@ -1,0 +1,15 @@
+# r/wine: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/wine.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-07: 369 words before the cut, 325 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/wine  (read 2026-10-06)   coded share 0.067   off-platform pointers 2
+-doing:      a wine sub; most coded turns are an April Fools post about a decanted bottle of Dom and an annual boxed-wine challenge (c0001, c0002, c0020, c0021); at h47.0 a post showing r/wine looking good on the canvas (c0035); at h48.5 one member saying they went rogue: France had given the space to PlaceHearts, so they asked for the spot in PlaceHearts' Discord, and asked others to help France and PlaceHearts in return (c0036, c0038); a border kept to the space neighbours allowed (c0056); scripted Spanish pressure on nine bottle pixels (c0044); r/france's approval relayed, and a French Discord call for red wine in the glass asked to be confirmed (c0045, c0046, c0047); at h72.9 a cleaner asking who cares for the drawing, a French member saying the French made it, and the r/wine member denying a claim of ownership (c0048, c0049, c0050); Portugal having the last laugh (c0051).
++doing:      a wine sub; most coded turns are an April Fools post about a decanted bottle of Dom and an annual boxed-wine challenge (c0001, c0002, c0020, c0021); at h47.0 a post showing r/wine looking good on the canvas (c0035); at h48.5 one member saying they went rogue: France had given the space to PlaceHearts, so they asked for the spot in PlaceHearts' Discord, and asked others to help France and PlaceHearts in return (c0036, c0038); Italy said to mess with France's wine bottle, fighting with Ireland tiring (c0037, c0039); the r fitted using the PlaceHearts sign, the N shaped, a border kept to the space neighbours allowed (c0041, c0054, c0056); Place users asked to keep the yellow name tag (c0052); a newcomer joining after seeing the mark (c0042); scripted Spanish pressure on nine bottle pixels (c0044); r/france's approval relayed, and a French Discord call for red wine in the glass asked to be confirmed (c0045, c0046, c0047); at h72.9 a cleaner asking who cares for the drawing, a French member saying the French made it, and the r/wine member denying a claim of ownership (c0048, c0049, c0050); Portugal having the last laugh (c0051).
+ week:       h21 to h37 April Fools; h47 to h59 the tag and its border; h64 to h73 French requests and credit.
+ named:      France and PlaceHearts as givers of the space (c0036, c0038); Italy, Ireland, Spain as pressure (c0037, c0039, c0044); r/france's Discord as co-maker (c0046, c0049); Portugal (c0051).
+ goal:       an r/wine tag beside the French wine; asked for at h48.5; held.
+```

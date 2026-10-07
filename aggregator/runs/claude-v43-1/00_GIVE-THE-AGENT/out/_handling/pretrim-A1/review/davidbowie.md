@@ -1,0 +1,15 @@
+# r/davidbowie: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/davidbowie.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-07: 358 words before the cut, 346 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/davidbowie  (read 2026-10-06)   coded share 0.167   off-platform pointers 3
+-doing:      a fan sub of a musician; at h8.2 a call to get an image on the canvas (c0001); at h36.1 one member asking help to add Bowie starting at his chin at 341,599, then a call to everyone (c0002, c0003); a member joining on recognising Bowie in the drawing (c0004); a template asked for and given, the original canvas thread and coordinates shared (c0005, c0006, c0008, c0010); at h46.7 push back on the chin from a rainbow, members urged to keep pushing until it sticks (c0014, c0015); a template made for an overlay script (c0019); at h50.7 a call to fight back for the memorial, a member leaving NIN's logo to defend Bowie and asking for the template (c0026, c0027, c0028); a Discord shared (c0022); from h56 Bowie's eyes and skin repeatedly changed and corrected, his eye colours argued (c0024, c0030, c0031, c0032); after the close the memorial celebrated as part of Reddit history, the starter thanked, a member recounting nearly losing him at the end, and Bowie found beside the Pink Floyd tribute (c0033, c0036, c0038, c0043).
++doing:      a fan sub of a musician; at h8.2 a call to get an image on the canvas (c0001); at h36.1 one member asking help to add Bowie starting at his chin at 341,599, then a call to everyone (c0002, c0003); a member joining on recognising Bowie in the drawing (c0004); a template asked for and given, the original canvas thread and coordinates shared (c0005, c0006, c0008, c0010); kudos for the portrait and a rock-star Mount Rushmore proposed (c0011, c0012); at h46.7 push back on the chin from a rainbow, members urged to keep pushing until it sticks (c0014, c0015); a template made for an overlay script (c0019); at h50.7 a call to fight back for the memorial, a member leaving NIN's logo to defend Bowie and asking for the template (c0026, c0027, c0028); a Discord shared (c0022); from h56 Bowie's eyes and skin repeatedly changed and corrected, his eye colours argued (c0024, c0030, c0031, c0032); after the close the memorial celebrated as part of Reddit history, the starter thanked, a member recounting nearly losing him at the end, and Bowie found beside the Pink Floyd tribute (c0033, c0036, c0038, c0043).
+ week:       h8.2 a call; h36 to h47 the face, a template, coordinates; h47 to h55 a rainbow, defence, a Discord; h56 to h70 eyes and skin; after h73 the memorial.
+ named:      a rainbow as encroacher (c0014); NIN as a logo one member left to defend Bowie (c0027); the Pink Floyd tribute as neighbour (c0043).
+ goal:       a Bowie memorial portrait; begun at h36.1 by one member; held.
+```

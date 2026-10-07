@@ -1,0 +1,15 @@
+# r/traaaaaaannnnnnnnnns: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/traaaaaaannnnnnnnnns.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-19: 360 words before the cut, 341 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/traaaaaaannnnnnnnnns  (read 2026-10-07)   coded share 0.08   off-platform pointers 10
+-doing:      a trans community sub; at h2.14 a trans flag proposed for the top left, at h4 trans lives matter written above (c0001, c0004); at h4.8 to h10.6 patching, messaging those who dot the flag, many flags popping up, the edge reached (c0003, c0011, c0034, c0035); at h9.6 the ace flag's builders asking to meet it, welcomed (c0015, c0016); at h10.4 an alliance with the knight (c0019); at h12.7 the flag spontaneously made into a crossroad, a branch rejected (c0022, c0122); at h13.5 letting others have their art (c0024); at h14.6 told not to attack the rainbow road, a moderator saying to work it out with r/ainbowroad (c0025, c0026); at h15.5 a warning of /pol/ false flags (c0027); at h29.5 co-opting other pieces refused (c0069); at h31.7 the Edmonton Oilers asking their logo be left, against destroying existing art (c0031, c0032); at h53.3 a counter-offensive against the Void (c0081); at h58.3 others allowed to cross if they keep small (c0088).
++doing:      a trans community sub; at h2.14 a trans flag proposed for the top left, at h4 trans lives matter written above (c0001, c0004); at h4.8 to h10.6 patching, messaging those who dot the flag, many flags popping up, the edge reached (c0003, c0011, c0034, c0035); at h9.6 the ace flag's builders asking to meet it, welcomed (c0015, c0016); at h9.8 a Discord (c0017); at h10.4 an alliance with the knight (c0019); at h11.3 a friendship with r/rotmg (c0021); at h12.7 the flag spontaneously made into a crossroad, a branch rejected (c0022, c0122); at h13.5 letting others have their art (c0024); at h14.6 told not to attack the rainbow road, a moderator saying to work it out with r/ainbowroad (c0025, c0026); at h15.5 a warning of /pol/ false flags (c0027); at h29.5 co-opting other pieces refused (c0069); at h31.7 the Edmonton Oilers asking their logo be left, against destroying existing art (c0031, c0032); at h36.5 the wrong blue admitted (c0076); at h53.3 a counter-offensive against the Void (c0081); at h58.3 others allowed to cross if they keep small (c0088).
+ week:       h2 to h15 the flag across the canvas, alliances; h15 to h60 the Void and repairs; h68 to h95 support felt, thanks.
+ named:      the knight, r/rotmg and the ace flag as allies (c0019, c0021, c0015); r/ainbowroad as a road not to attack (c0025); /pol/, r/the_donald and the Void as attackers (c0027, c0072, c0056); the Edmonton Oilers as a neighbour spared (c0031).
+ goal:       a trans flag; from h2.14; across the canvas by h20; held.
+```

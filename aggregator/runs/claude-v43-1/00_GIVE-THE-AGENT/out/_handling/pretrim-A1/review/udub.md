@@ -1,0 +1,15 @@
+# r/udub: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/udub.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-11: 355 words before the cut, 334 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/udub  (read 2026-10-06)   coded share 0.114   off-platform pointers 7
+-doing:      a university sub; three coded threads, all after h54; at h54.7 a call to solidify the room's spot on the canvas (c0001); a neighbour asking them not to build over work already under way, rebuilt after Serbia destroyed it (c0003, c0005); the design shrunk to 20 by 20 (c0009); r/shishamo's builders asking UW not to overlap their work, answered with a video link (c0011, c0012); at h60.4 code asked for and run, members putting three accounts each to work (c0016, c0018, c0021, c0022); at h61.3 regret that the shishamo logo was hit (c0019); at h62.9 a member saying they won because the others stopped defending (c0029); at h64.3 Reddit told they did it (c0041); r/Xcom ordering UW to move its icon, a neighbour saying UW shoved its logo in and laughed at requests for compromise (c0032, c0036); at h70.5 bots said to ruin the fun (c0038); at h71.9 a giant Dubs proposed next (c0042); at h72.2 accused of killing Shishamo and condemned for bots by r/rainbow6 (c0043, c0044); after the close neighbours hailing Lord Chanka against the W (c0039, c0046).
++doing:      a university sub; three coded threads, all after h54; at h54.7 a call to solidify the room's spot on the canvas (c0001); a neighbour asking them not to build over work already under way, rebuilt after Serbia destroyed it (c0003, c0005); a member warning the design is too big, dismissed as fake news, then shrunk to 20 by 20 (c0006, c0007, c0009); at h55.3 an official UW spot declared (c0010); r/shishamo's builders asking UW not to overlap their work, answered with a video link (c0011, c0012); at h60.4 code asked for and run, members putting three accounts each to work (c0016, c0018, c0021, c0022); at h61.3 regret that the shishamo logo was hit (c0019); at h62.9 a member saying they won because the others stopped defending (c0029); at h64.3 Reddit told they did it (c0041); r/Xcom ordering UW to move its icon, a neighbour saying UW shoved its logo in and laughed at requests for compromise (c0032, c0036); at h70.5 bots said to ruin the fun (c0038); at h71.9 a giant Dubs proposed next (c0042); at h72.2 accused of killing Shishamo and condemned for bots by r/rainbow6 (c0043, c0044); after the close neighbours hailing Lord Chanka against the W (c0039, c0046).
+ week:       h54 to h56 a spot claimed, shrunk; h60 to h64 scripts, a win; h64 to h72 neighbours object.
+ named:      r/shishamo, r/Xcom and r/rainbow6 as neighbours who objected (c0011, c0032, c0044); Serbia as earlier destroyer (c0005).
+ goal:       a UW mark; set at h54.7; held by script from h62.9.
+```

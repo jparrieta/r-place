@@ -1,0 +1,17 @@
+# r/Moondye7: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/Moondye7.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-09: 388 words before the cut, 347 after
+
+```diff
+@@ -1,6 +1,6 @@
+ # r/Moondye7  (read 2026-10-06)   coded share 0.323   off-platform pointers 3
+-doing:      a German streamer's community sub, mostly in German; at h30.6 space reserved in black for the MD7 sign, a pixel every five minutes asked (c0004, c0005); done at h32.5 (c0013); at h34.9 a member holding watch, handing it to a bot named after themselves, and moving the logo (c0007, c0009, c0010); at h52.6 cooperation called the only answer to r/placestart's strength (c0020); at h58.2 a deal to fill the lower corner with blue for the Blue Corner in return for staying (c0024, c0025); members saying they gave everything in negotiations to defend 50 pixels, then ignored (c0026, c0028); an Undertale visitor apologising and repairing (c0034, c0035); at h66.3 a vote on joining r/placestart's template, then r/placestart's scripts found working against them while its people slept (c0030, c0037); at h68.8 an alliance with r/placestart and a place in its template, the move done (c0041, c0049); a Rocketbeans visitor claiming the space, answered that it was agreed with them (c0044, c0045); the old space given to Undertale for its defence (c0036).
+-week:       h30 to h46 the sign, a move; h52 to h60 the Blue Corner deal; h64 to h72 the taskbar.
++doing:      a German streamer's community sub, mostly in German; a stream chat prank first (c0001, c0003); at h30.6 space reserved in black for the MD7 sign, everyone asked to place a pixel every five minutes (c0004, c0005, c0006); done at h32.5 (c0013); at h34.9 a member holding watch, logging hostile pixels, handing the watch to a bot named after themselves, and moving the logo (c0007, c0008, c0009, c0010); new coordinates at h41.0, defence from h46 (c0011, c0012); at h52.6 cooperation called the only answer to r/placestart's strength (c0020); at h58.2 a deal to fill the lower corner with blue for the Blue Corner in return for staying (c0024, c0025); members saying they gave everything in negotiations to defend 50 pixels, then ignored (c0026, c0028); an Undertale visitor apologising and repairing (c0034, c0035); at h66.3 a vote on joining r/placestart's template, then r/placestart's scripts found working against them while its people slept (c0030, c0037); at h68.8 an alliance with r/placestart and a place in its template, the move done (c0041, c0049); a Rocketbeans visitor claiming the space, answered that it was agreed with them (c0044, c0045); the old space given to Undertale for its defence (c0036); after the close credits for planners, negotiators and pixellers (c0058, c0062).
++week:       h28 to h46 the sign, a bot, a move; h52 to h60 the Blue Corner deal; h64 to h72 r/placestart's template, the move, Undertale.
+ named:      the Blue Corner as protector by deal (c0025); r/placestart as threat then ally (c0020, c0041); Rocketbeans and Undertale as neighbours under agreements (c0045, c0036).
+ goal:       the MD7 sign; done at h32.5; moved into the taskbar at h68.8; held.
+ unsettled:  follow r/placestart's template or hold their spot (c0027, c0030).
+```

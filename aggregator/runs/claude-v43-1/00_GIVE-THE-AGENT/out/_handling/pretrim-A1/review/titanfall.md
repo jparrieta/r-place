@@ -1,0 +1,15 @@
+# r/titanfall: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/titanfall.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-11: 366 words before the cut, 338 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/titanfall  (read 2026-10-06)   coded share 0.023   off-platform pointers 19
+-doing:      a game sub; April Fools fake-outs and a Bamboozle Day hold early turns (c0002, c0028, c0081); at h26.7 a call to represent the sub, a build started below the CS:GO sign (c0055, c0078); at h47.2 Green Lattice granting a spot (c0102, c0067); at h48.8 a neighbour asking Titanfall to move so both logos fit (c0105); at h52.0 a truce proposed with UB, members deciding they cannot take its space, a call to fight withdrawn on learning UB was there first, an apology (c0109, c0111, c0114, c0115); at h53.4 the game's community manager helping take back the spot (c0140); a titanfallplace Discord (c0145); at h55.8 R/TITANFALL done, then a logo (c0159, c0161); at h59.2 contact with r/virginiatech, peace talks, a one-pixel move negotiated, help given to move VT's art under the agreement (c0163, c0183, c0126, c0203); at h63.5 help for Virginia Tech in thanks (c0207); at h69.4 the logo finished (c0213); at h70.8 members reminded that Green Lattice let them post and asked to help preserve its field (c0216).
++doing:      a game sub; April Fools fake-outs and a Bamboozle Day hold early turns (c0002, c0028, c0081); at h26.7 a call to represent the sub, spots and designs offered, a build started below the CS:GO sign (c0055, c0057, c0060, c0078); at h31.2 a call to write Titanfall elsewhere (c0090); at h47.2 Green Lattice granting a spot, pilots told to stay inside it (c0102, c0067); at h48.8 a neighbour asking Titanfall to move so both logos fit, a Zelda defender wishing them luck (c0105, c0107); at h52.0 a truce proposed with UB, members deciding they cannot take its space, a call to fight withdrawn on learning UB was there first, an apology (c0109, c0111, c0114, c0115); at h53.4 the game's community manager helping take back the spot (c0140); a titanfallplace Discord (c0145); at h55.8 R/TITANFALL done, then a logo (c0159, c0161); at h59.2 contact with r/virginiatech, peace talks, a one-pixel move negotiated, help given to move VT's art under the agreement (c0163, c0183, c0126, c0203); at h63.5 help for Virginia Tech in thanks (c0207); at h69.4 the logo finished (c0213); at h70.8 members reminded that Green Lattice let them post and asked to help preserve its field (c0216).
+ week:       h1 to h36 April Fools; h26 to h50 spots, Green Lattice; h52 to h64 UB, Virginia Tech, logo; h69 finished.
+ named:      Green Lattice as host (c0102, c0216); UB and r/virginiatech as neighbours dealt with (c0114, c0163); the community manager as helper (c0140).
+ goal:       a Titanfall logo; a spot from h47.2; text by h55.8; finished at h69.4; held.
+```

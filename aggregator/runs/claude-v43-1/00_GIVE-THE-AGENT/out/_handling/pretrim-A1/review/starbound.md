@@ -1,0 +1,15 @@
+# r/starbound: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/starbound.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-15: 368 words before the cut, 338 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/starbound  (read 2026-10-06)   coded share 0.109   off-platform pointers 11
+-doing:      a game sub; April Fools as a leaked game, Aprilfish (c0001, c0002); at h27.7 a call for a Starbound logo at given coordinates, the Terrene Protectorate template, a move to 910, 360 because others were working there (c0007, c0009, c0010, c0013); at h33.3 a penguin returned to Green Lattice, WallstreetBets asked to stop taking the corner (c0017, c0025); at h46.7 expansion asked of Green Lattice, spreading over others' work called an invitation to vandalism (c0042, c0053); at h56.2 the mark called content after about 24 hours (c0060); at h58 relocation under warframe refused because Green Lattice does not want newcomers, the blue corner people giving permission for a new spot, a Discord (c0063, c0067, c0075); at h60.3 Green Lattice latticing over the flag against WSB, promising to help rebuild (c0074, c0050); at h67.7 r/place posts sent to a megathread (c0088); at h72.0 the Starbound Discord agreeing a design, the title placed (c0094).
++doing:      a game sub; April Fools as a leaked game, Aprilfish (c0001, c0002); at h27.7 a call for a Starbound logo at given coordinates, the Terrene Protectorate template, a move to 910, 360 because others were working there (c0007, c0009, c0010, c0013); at h33.3 an outline, a penguin returned to Green Lattice, WallstreetBets asked to stop taking the corner (c0015, c0017, c0025); at h40.5 a pact with r/homestuck proposed and refused (c0031, c0032); at h46.7 expansion asked of Green Lattice, spreading over others' work called an invitation to vandalism, a smaller logo proposed (c0042, c0053, c0056); at h54.5 a bot-backed neighbour asked to move its symbol (c0036); at h56.2 the mark called content after about 24 hours (c0060); at h58 relocation under warframe refused because Green Lattice does not want newcomers, the blue corner people giving permission for a new spot, a Discord (c0063, c0067, c0075); at h60.3 Green Lattice latticing over the flag against WSB, promising to help rebuild (c0074, c0050); at h67.7 r/place posts sent to a megathread (c0088); at h72.0 the Starbound Discord agreeing a design, the title placed (c0094).
+ week:       h24 to h42 April Fools, the first logo; h46 to h60 neighbours, the logo lost, a new spot; h67 to h72 the Discord design.
+ named:      Green Lattice and the blue corner as hosts and gatekeepers (c0042, c0063, c0067, c0074); WallStreetBets as taker (c0025, c0065); r/homestuck and feedthebeast as neighbours (c0031, c0076).
+ goal:       a Starbound logo; made by h34.6; lost near h56; a second placed by the Discord at h72.
+```

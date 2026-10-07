@@ -4,9 +4,10 @@ week:       h9 a taunt; h32 to h41 a site, the Stark border; h52 to h58 the comp
 named:      the Stark sigil's builders as rival, then border partner (c0025, c0030); r/halo as co-builder by compromise (c0035, c0038); the Blue Corner, the pink circle and osu! as space holders (c0014, c0007, c0008).
 goal:       a Red vs Blue picture; begun at h33.7; made half blue by compromise; done at h58.2; held.
 unsettled:  whether the Stark alliance held (c0030, c0032).
-coder unsure: 42 threads out of scope.
+coder unsure: the blue call's body deleted (63267c); r/Halo's own decision unseen (dfqr3nq); the images unseen; who attacked and any response not shown (634ua9).
 carrying:   c0030, c0035, c0037
 not this:   a room that made its art alone; r/halo shaped it, and the canvas field shares it with halo.
 ended:      last coordinating turn h61.45 (c0041, an attack warning).
 struck by:  "Let's not mess with other peoples art."
 made:       two artworks in the middle ring, Halo 1,500 px with 4,505 placers shared with r/halo, and Red/Blue Spartan 406 px, placed from h1.29; writers placed 0.017, pre-event members 0.006. The canvas keeps the Spartan.
+later:      2026-10-07, catch-up: one helper never got past three pixels (dfqnzp2); after the close a member called the result a good compromise (dfskva1). The brief shows red-against-blue taunts as a stock joke (dfinnh3), the joke behind the first taunt plan.

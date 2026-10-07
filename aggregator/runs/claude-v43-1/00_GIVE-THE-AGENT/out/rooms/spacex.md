@@ -4,9 +4,10 @@ week:       h20 to h26 the patch joke; h26 to h41 SpaceX found on the canvas, Te
 named:      r/Tesla as neighbour asking help (c0019); r/Maryland as fond neighbour (c0030); fellow redditors as the makers (c0023).
 goal:       no goal settled in the room; members found SpaceX art on the canvas and called for additions.
 unsettled:  whether the patch joke was hurtful (c0006, c0008, c0009).
-coder unsure: 138 threads out of scope.
+coder unsure: eleven readers, no one held the week; most canvas posts survive only as titles (62uvw7, 62uwlx, 633s4k); the linked plan and images unseen (dfpmrxr); whether calls produced edits not shown.
 carrying:   c0017, c0023, c0028
 not this:   the room that built the SpaceX art; a visitor asked whether r/spacex knew what other redditors had made.
 ended:      last coordinating turn h54.62 (c0028, calling for a SpaceX logo on the rocket); h62.6 a neighbour's note.
 struck by:  "Hi /r/spacex, are you aware of what some of your fellow redditors have made on /r/place?"
 made:       seven artworks at the edge, two SpaceX works of 938 and 3,473 px with 3,481 and 10,434 placers, ASDS, OCISLY, SES-10 and two Mars works, placed from h1.1; writers placed 0.098, pre-event members 0.112. The canvas keeps them; the canvas fields credit the room with work its threads describe others making.
+later:      2026-10-07, catch-up: a comment in the launch thread congratulated the Falcon 9 landing drawn on the canvas (dfpw6x5); r/Tesla's request drew no visible answer (62uwlx). The brief shows the SES-10 reflight and landing on Of Course I Still Love You (62aqi7, 62hcv0), the subjects of the canvas works.

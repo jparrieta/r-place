@@ -4,9 +4,10 @@ week:       h1 to h27 the fake editions; h63.1 the BU; h71 to h73 explanation; h
 named:      UT and A&M as rivals whose logos prompted theirs (c0007).
 goal:       a 7 by 7 BU; made by one member at h63.1; held mainly intact.
 unsettled:  nothing coded.
-coder unsure: 17 threads out of scope.
+coder unsure: the couple of helpers are only the maker's word, their pixels not visible (dfrfpmg); one canvas thread, so how widely the sub took part is not shown.
 carrying:   c0007, c0008, c0011
 not this:   a room that organised; one member placed the BU and a couple helped keep it.
 ended:      last coordinating turn h63.07 (c0009, asking others to maintain it); h80.9 its location given.
 struck by:  "it took a couple hours just to get a barely-legible 7x7 BU on there, but it was finished at (38,347) as of 1:55 am. of course it'll probably be drawn over real soon haha, but it was there"
 made:       one artwork, Baylor University, 42 px at the edge, 183 placers, placed from h2.14; writers placed 0.088, pre-event members 0. The canvas keeps the small BU.
+later:      2026-10-07, catch-up: the account changes nothing. The brief shows the NoZe Bros' fake student-paper edition as a campus April Fools tradition (62m14m), the joke the first coded turns recall.

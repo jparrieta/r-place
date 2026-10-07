@@ -4,9 +4,10 @@ week:       h27 to h33 the figure begun, moved, corrected; h48 to h52 joined, wr
 named:      a Star Wars thread as claimant of the spot (c0010); the blues as takers (c0019); the Flash as a rival that finished better (c0024).
 goal:       a pixel Superman figure; begun h27.4; lost by h50.8; the symbol kept by others.
 unsettled:  where the figure could go (c0009, c0022).
-coder unsure: 24 threads out of scope.
+coder unsure: the images unseen, so the result is known only from words (63758g, 637s93); a deleted reply in the completion thread (dfs9pdi); what caused the overwrites not settled (dfpcjrw, dfpg6kx).
 carrying:   c0010, c0021, c0029
 not this:   a room that organized its symbol; one member drew a figure and lost it, and the symbol on the canvas was kept by others.
 ended:      last coordinating turn h52.32 (c0022, suggesting a spot near the shield); after h73 recounting and regret.
 struck by:  "Should have asked this subreddit for help."
 made:       one artwork, Superman, 368 px at the edge, 1,043 placers, placed from h1.67; writers placed 0.056, pre-event members 0.01. The canvas keeps the symbol; the room's figure is not there.
+later:      2026-10-07, catch-up: the account changes nothing; the "We did it" post celebrated a partial survival (63758g, dfsv3hc). The brief shows members arguing which version of Superman counts (dfkzrnk), as the Byrne design was later insisted on.

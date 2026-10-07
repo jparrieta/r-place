@@ -4,9 +4,10 @@ week:       h27 to h50 Play-Yan; h48 to h54 xcom; h61 to h71 lettering; h73 Nose
 named:      r/xcom as neighbour, then truce partner (c0029, c0034, c0060, c0080); r/Earthbound as example (c0052).
 goal:       Play-Yan; begun at h27.8; done at h50.0; merged with xcom's work by the close.
 unsettled:  whether the crossover is welcome (c0050, c0071).
-coder unsure: 12 threads out of scope.
+coder unsure: the Discord's decisions unseen (dfpbhrv); four deleted turns in the collision thread (dfqg6mg, dfqiul2); the pink-fill request only a title (632cc9); whether the lettering was finished not shown.
 carrying:   c0032, c0034, c0060
 not this:   a room that held its own figure apart; it ended as half of a crossover with xcom.
 ended:      last coordinating turn h70.71 (c0068, adjusting the lettering); after h73 the truce celebrated.
 struck by:  "both had to relocate multiple times and I'm glad we were able to find sanctuary with you guys."
 made:       one artwork, Play-Yan, 172 px at the edge, 1,241 placers, placed from h1.67; writers placed 0.179, pre-event members 0.117. The canvas keeps the figure.
+later:      2026-10-07, catch-up: strangers who recognised the half-made face joined the Discord to help (dfqjd7l, dfqjg58); the closing thanks said its poster had never heard of the game before the canvas (638omn). The brief shows the room's Discord with its own roles the week before (62jh84), the venue the build talk moved to.

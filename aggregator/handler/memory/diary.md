@@ -74,3 +74,5 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-07 08:17 2026-10-07T08:10:13Z  closed A1.A1b-38: checkpoint a62e354ad550cdb4, cut close, advances True, git pushed; restarted at A1b-39.
 - 2026-10-07 08:41 2026-10-07T08:32:46Z  closed A1.A1b-39: checkpoint abc406c52c629717, cut close, advances True, git pushed; restarted at A1b-40.
 - 2026-10-07 08:54 2026-10-07T08:53:55Z  closed A1.A1b-40: checkpoint 1fd8f9e74a157dad, cut close, advances True, git pushed; restarted at A1b-41.
+- 2026-10-07 09:07 J chose (b). scripts/pretrim_review.py: review/<sub>.md per room (diff hunks only) and BATCHES.tsv, 447 rooms in 5 batches of ~550 kB (A1b-49..53). scripts/audit_restore.py: every added line >=90% of its word 3-grams from the cut versions or the note before the leg; every batch room has a note line. Message to the analyst in analysis/2026-10-07-msg-restore.txt, to be sent to A1b-48's close so A1b-49's first message carries it. catchup.sh restarts restore legs 50..53 on audit 0.
+- 2026-10-07 09:07 2026-10-07T09:04:13Z  closed A1.A1b-41: checkpoint 8292386ea79f6710, cut close, advances True, git pushed; restarted at A1b-42.

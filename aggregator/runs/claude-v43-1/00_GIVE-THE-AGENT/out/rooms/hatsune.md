@@ -4,9 +4,10 @@ week:       h35 to h43 Miku boxed in; h45 to h55 the taskbar deal; h64 to h73 th
 named:      r/placestart and its taskbar as protector and threat (c0021, c0023); r/Vocaloid as deal maker (c0040); r/berserk as neighbour (c0017); Touhou as model (c0004).
 goal:       a Miku; held from h35.6; to become a taskbar icon by deal from h52.4; bulldozed before the move.
 unsettled:  whether to move before the new spot is ready (c0045, c0046).
-coder unsure: 6 threads out of scope.
+coder unsure: the moderators' official stance survives only as a title (635ld8); the Discord negotiations and building talk unseen (62zmro, dfqv0kj); the other side of the placestart and Vocaloid deals not shown.
 carrying:   c0021, c0025, c0040
 not this:   a room that kept its own sprite; it traded its space for protection, and the sprite was bulldozed first.
 ended:      last coordinating turn h72.97 (c0051, new build plans); after h73 the plans called off and The Ideal Place joke.
 struck by:  "We also get protection from the placestart gang."
 made:       one artwork, Hatsune Miku, 871 px at the edge, 3,403 placers, placed from h1.18; writers placed 0.06, pre-event members 0.004. The canvas field links a Miku the room reports bulldozed.
+later:      2026-10-07, catch-up: one member welcomed the taskbar icon as more visible (dfqkuau), so the move was not only a loss; defenders were told the sprite was meant to move under the deal (dfri6iu). The brief shows source-linked Miku art and changes nothing.

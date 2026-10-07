@@ -1,0 +1,17 @@
+# r/mindcrack: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/mindcrack.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-14: 419 words before the cut, 347 after
+
+```diff
+@@ -1,6 +1,6 @@
+ # r/mindcrack  (read 2026-10-06)   coded share 0.123   off-platform pointers 7
+-doing:      a sub for a group of Minecraft video makers; at h4.9 a Mindcrack logo at 420, 33 shown, made by members who noticed it (c0001, c0004, c0005); at h7.2 a Guude logo started beside it (c0007); at h20.7 the Czech flag erasing the logo (c0011); at h25.2 a bigger rebuild (c0013); at h42.6 repair without griefing the Czech flag, part of a face ceded to Armenia (c0052, c0053); at h44.1 coexistence for flag help (c0071); at h48.4 a Dutch-Discord diplomat moving the logo (c0065); at h49.4 rogue cirkeltrek attackers separated from the Dutch (c0067); at h50.7 two pixels given up to escape a two-front war (c0069); at h52.4 a maintenance script refused as removing the fun (c0086); at h53.1 the Pink Bird spared, mutual defence traded (c0087, c0091); at h58.3 a truce, a member moved three pixels (c0098, c0100); at h61.1 mission complete (c0101); at h68.8 a Dutch vote not to take the spot reported, then contradicted (c0116, c0117).
+-week:       h4 to h25 the logo, the Czech flag; h32 to h53 borders, Dutch; h58 to h69 truces.
++doing:      a sub for a group of Minecraft video makers; at h4.9 a Mindcrack logo at 420, 33 shown, made by members who noticed it (c0001, c0004, c0005); at h7.2 a Guude logo started beside it, work together asked (c0007, c0008); at h12.5 faces of members added (c0017, c0018); at h20.7 the Czech flag erasing the logo in a flag war (c0011, c0024); at h25.2 a bigger rebuild begun (c0012, c0013); at h32.2 a one-pixel border with a neighbour, purple to match (c0031, c0032, c0034); at h42.6 a proposal taken to the Czech sub, repair without griefing the Czech flag, part of a face ceded to Armenia (c0037, c0052, c0053); at h44.1 coexistence for flag help, the Czech border pushed back two pixels (c0071, c0074); at h47.4 an r/place Discord to keep subs friends, a Dutch-Discord diplomat moving the logo (c0061, c0065); at h49.4 rogue cirkeltrek attackers separated from the Dutch, Hermitcraft help (c0067, c0068); at h50.7 two pixels given up to escape a two-front war (c0069); at h52.4 a maintenance script refused as removing the fun (c0086); at h53.1 the Pink Bird spared, mutual defence traded (c0087, c0091); at h58.3 a truce, a member moved three pixels (c0098, c0100); at h61.1 mission complete, maintenance (c0101, c0102); at h64.5 a megathread (c0112); at h68.8 a Dutch vote not to take the spot reported, then contradicted (c0116, c0117).
++week:       h4 to h25 the logo, faces, the Czech flag; h32 to h53 borders, Dutch, refusal of scripts; h58 to h69 truces, upkeep.
+ named:      the Czechs and the Dutch as pressing neighbours (c0011, c0067); Armenia, the Pink Bird and Texas as neighbours with deals (c0053, c0091, c0057); Hermitcraft as helpers (c0068).
+ goal:       Mindcrack logos and faces; first made at h4.9; rebuilt and moved; four held.
+ unsettled:  scripts or hand work, and how far to give way (c0083, c0086, c0069).
+```

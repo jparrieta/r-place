@@ -1,0 +1,15 @@
+# r/TeamYellowPlace: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/TeamYellowPlace.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-10: 380 words before the cut, 330 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/TeamYellowPlace  (read 2026-10-06)   coded share 0.404   off-platform pointers 2
+-doing:      a sub made for the canvas, for the yellow colour; at h3.1 a Lord Commander carving out a place as Blue moves (c0001, c0003); a hierarchy posted (c0005); at h4.7 a new base named, then breached (c0062, c0023); at h4.9 the Black Pattern offering its white spots, accepted with a pixel limit (c0012, c0013); members told to draw only yellow without covering others (c0019); at h6.8 talk moved to Discord (c0025); at h10.4 an agreement with Rainbow Road (c0033); at h11.2 the Yellow Triangle set as goal (c0037); at h26.6 a mural's builders trading triangle help for defence (c0047); at h30.2 Batman's builders thanking yellow, a Discord channel for contact (c0050, c0063); at h31.9 Snake's builders maintaining the yellow background in exchange for room (c0051); at h51.3 a small group cleaning the triangle without starting wars with nice art (c0053); at h63.1 FRC asking not to be cut off from its sister sub (c0058).
++doing:      a sub made for the canvas, for the yellow colour; at h3.1 a Lord Commander carving out a place, fighting for the right to exist, expanding as Blue moves (c0001, c0002, c0003); a hierarchy posted (c0005); at h4.7 Home Base called dead, a new base named, then breached (c0011, c0062, c0023); at h4.9 the Black Pattern offering its white spots, accepted with a pixel limit, toasted as ally (c0012, c0013, c0014); members told to draw only yellow without covering others (c0019); at h6.8 talk moved to Discord (c0025); at h8.0 the top-left corner claimed (c0027); at h10.4 an agreement with Rainbow Road, its pixels protected, a proposed loophole refused (c0033, c0031); at h11.2 the Yellow Triangle set as goal (c0037); at h11.6 an alliance with blue weighed against memory that blue took the base after one (c0040, c0041); at h26.6 a mural's builders trading triangle help for defence (c0047); at h30.2 Batman's builders thanking yellow, a Discord channel for contact (c0050, c0063); at h31.9 Snake's builders maintaining the yellow background in exchange for room (c0051); at h51.3 a small group cleaning the triangle without starting wars with nice art (c0053); at h63.1 FRC asking not to be cut off from its sister sub (c0058).
+ week:       h3 to h12 bases, allies, the Triangle goal; h26 to h37 hosting murals, Batman, Snake; h51 to h72 upkeep.
+ named:      the Black Pattern and Rainbow Road as allies (c0014, c0033); the blue corner as rival (c0003, c0041); Batman, Snake and FRC builders as hosted neighbours (c0050, c0051, c0058).
+ goal:       a yellow home; the Yellow Triangle from h11.2; held.
+```

@@ -1,0 +1,15 @@
+# r/detroitlions: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/detroitlions.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-17: 380 words before the cut, 339 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/detroitlions  (read 2026-10-06)   coded share 0.169   off-platform pointers 7
+-doing:      an NFL team sub turned into a Titans sub by its moderators for April Fools, argued over all day (t01, t02, t03; c0005, c0019); at h4.4 a call to draw the helmet, its top middle pixel placed (c0063, c0064); at h20.8 finishing the helmet before a new target, one at a time (c0076, c0078); at h25.1 a treaty with r/greenlattice asked, cleanup before helping it (c0068, c0069, c0073); at h26.5 a Discord (c0074); at h27.4 Stafford's face proposed, blocked by r/miamidolphins' logo (c0080, c0091); at h34.5 the Red Wings helped against r/kanye (c0089, c0106); at h53.5 Titans and a Titans moderator trying to hijack the helmet (c0119, c0120); at h59 a drawing script shared (c0108); at h72 white filled below the helmet (c0137); after h73 members admitting attacks on the Packers image and its script, a Vikings-Packers truce ignored (c0145, c0146, c0155).
++doing:      an NFL team sub turned into a Titans sub by its moderators for April Fools, argued over all day (t01, t02, t03; c0005, c0019); at h4.4 a call to draw the helmet, its top middle pixel placed (c0063, c0064); at h20.8 finishing the helmet before a new target, one at a time (c0076, c0078); at h25.1 a treaty with r/greenlattice asked, cleanup before helping it (c0068, c0069, c0073); at h26.5 a Discord, the helmet then FTP (c0074); at h27.4 Stafford's face proposed for the blue corner, boosted on r/nfl, then blocked by r/miamidolphins' logo on its corner (c0080, c0081, c0091); at h34.5 the Red Wings helped against r/kanye (c0089, c0106); at h35.3 a member altering another sub's banner (c0093, c0097); at h53.5 Titans and a Titans moderator trying to hijack the helmet (c0119, c0120); at h59 a drawing script shared, then a new one after errors (c0108, c0112); at h71.2 one member leaving over drama (c0113); at h72 white filled below the helmet (c0137); after h73 members admitting attacks on the Packers image and its script, a Vikings-Packers truce ignored (c0145, c0146, c0155).
+ week:       h4 to h26 April Fools, the helmet; h27 to h59 Stafford, Red Wings, Titans; h72 to h85 attacks on the Packers recounted.
+ named:      Green Lattice as treaty host (c0068); r/miamidolphins, the Titans and r/kanye as blockers or raiders (c0091, c0119, c0106); the Packers and Vikings as targets and truce partners (c0145, c0155); the Red Wings as Detroit brothers (c0089).
+ goal:       the helmet; done by h26; held with FTP beside it; Stafford's face never established.
+```

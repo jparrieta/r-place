@@ -1,0 +1,17 @@
+# r/rickandmorty: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/rickandmorty.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-04: 371 words before the cut, 337 after
+
+```diff
+@@ -1,6 +1,6 @@
+ # r/rickandmorty  (read 2026-10-06)   coded share 0.012   off-platform pointers 19
+-doing:      a very large sub where canvas talk is a thin share; from h2.6 calls to get schwifty, coordinates, Tiny Rick beside 8-bit Link, stickied by a moderator at h8.8 (c0001, c0003, c0011, c0014); the trans flag asking to prosper together, a border yielded (c0016, c0019); Tiny Rick declared finished at h23.9 (c0065); separate calls for Morty, a giant head, a pixel Rick, India asking a hand redrawn around its flag (c0099, c0088, c0039, c0096); from h29.9 the Void eating Rick, defenders assembling, r/fightthevoid recruiting, the trans flag helping repair (c0109, c0127, c0071, c0125); the surprise season three premiere at h32 filling the room (t09); Szechuan sauce and blue pants proposed and argued (c0251, c0280, c0281); a second Void wave at h53 to h60, void members saying they go past Rick, a peace offer refused, a defence Discord found in the sidebar (c0323, c0347, c0389, c0390, c0377); the Aboriginal flag's builders asking to be left alone (c0024); timelapses after the close (c0440, c0443).
+-week:       h2.6 to h24 Tiny Rick built; h29.9 to h38 first Void; h53 to h61 second Void; after h73 timelapses.
++doing:      a very large sub where canvas talk is a thin share; from h2.6 calls to get schwifty, coordinates, Mr. Poopy Butthole from yellow pixels, Tiny Rick beside 8-bit Link, stickied by a moderator at h8.8 (c0001, c0003, c0004, c0011, c0014); the trans flag asking to prosper together, a checkerboard border yielded (c0016, c0019); Tiny Rick declared finished at h23.9 (c0065); many separate calls for Morty, a giant head, a pixel Rick above the blue corner, India asking a hand redrawn around its flag (c0099, c0088, c0039, c0096); from h29.9 the Void eating Rick, defenders assembling, r/fightthevoid recruiting, the trans flag helping repair (c0109, c0127, c0071, c0125); the surprise season three premiere at h32 filling the room (t09); Szechuan sauce, blue pants and 3s in the eyes proposed as canvas changes and argued (c0251, c0280, c0281, c0233); a second Void wave at h53 to h60, void members saying they go past Rick, a peace offer refused, a defence Discord asked for and found in the sidebar (c0323, c0347, c0389, c0390, c0373, c0377); the Aboriginal flag's builders asking to be left alone (c0024); timelapses and pride after the close (c0440, c0443).
++week:       h2.6 to h24 Tiny Rick built; h29.9 to h38 first Void; h32 premiere; h53 to h61 second Void; h63 to h72 small repairs; after h73 timelapses.
+ named:      the trans flag as neighbour and helper (c0016, c0134); r/India (c0096, c0074); the Void and r/fightthevoid (c0071, c0347); r/diabetes (c0044); r/ainbowroad (c0046); OSU (c0314); Zelda and r/AcePlace thanked (c0439).
+ goal:       Tiny Rick; settled by h8.8; finished at h23.9; held after; Morty and others never settled.
+ unsettled:  what to add to Rick, and whether to (c0233, c0281, c0334).
+```

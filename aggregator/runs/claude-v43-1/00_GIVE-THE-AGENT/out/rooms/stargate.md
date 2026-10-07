@@ -4,9 +4,10 @@ week:       h9 to h29 the joke and its backlash; h24 to h46 drafts, Green Lattic
 named:      Green Lattice as host granting a small sanctioned space (c0021, c0047); r/EraseThePlace and Rainbow Road as space holders (c0043, c0041); r/placeStart as possible host (c0045).
 goal:       a Stargate; drafted at 32 by 32 at h24.9; shrunk at h48.4; a very small one done at h63.0; held.
 unsettled:  hand placing or scripts (c0027, c0028).
-coder unsure: 44 threads out of scope.
+coder unsure: two readers, no one held the week; the Samurai helpers unidentified (6356ei); the mini-Stargate and late success posts only titles (633its, 63e9p9); whether any script was run not shown (dfpwcds).
 carrying:   c0034, c0047, c0050
 not this:   a room that drew what it planned; it shrank the gate to fit the space Green Lattice sanctioned.
 ended:      last coordinating turn h62.95 (c0052, asking defenders to preserve Green Lattice and neighbours); after h73 celebration.
 struck by:  "We have our little stargate though--which is awesome :D"
 made:       one artwork, Stargate, 91 px at the edge, 239 placers, placed from h2.9; writers placed 0.067, pre-event members 0.064. The canvas keeps the small gate.
+later:      2026-10-07, catch-up: one member told EraseThePlace's recruiter to go erase the flags (dfqn3yi), against the completed gate's ask to keep neighbours intact. The brief shows a two-year group rewatch ending and the next planned (dfg60eg, 62gq2y), a standing shared project the week before.

@@ -4,9 +4,10 @@ week:       h12 a call; h18 to h34 the logo; h39 to h63 upkeep, Trogdor.
 named:      FunHaus as sister group teased (c0005, c0009); r/Esperanto and Romania as neighbours (c0013, c0023); the Homestar Runner builders' Trogdor as threat, then apologiser (c0031, c0033).
 goal:       the AH logo; built by h30.4 beside FunHaus; held.
 unsettled:  whether to deface the sister group's logo (c0005, c0009, c0030).
-coder unsure: 18 threads out of scope.
+coder unsure: thirteen texts deleted; the Geoff's house, Halo-into-Grif and upkeep calls only titles, their execution not shown (62yu65, 62z2ii, 62yt5i); images unseen.
 carrying:   c0009, c0021, c0033
 not this:   a room whose members placed its logo; its writers placed 0.02 of the linked artwork.
 ended:      last coordinating turn h56.87 (c0035, a main thread for the canvas); after h73 Trogdor's note.
 struck by:  "Hold the fort guys. Trogdor will not defeat us!"
 made:       one artwork, Achievement Hunter, 636 px in the middle ring, 3,831 placers, placed from h1.23; writers placed 0.02, pre-event members 0.001. The canvas keeps the logo.
+later:      2026-10-07, catch-up: the account changes nothing; one member claimed to have started the logo and invited help, and another took it up (dfprkxk, dfprxz9). The brief shows running jokes about the cast and old episodes (dfj4dde), the material of the Geoff's house and Grif additions.

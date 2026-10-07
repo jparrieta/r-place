@@ -4,9 +4,10 @@ week:       h12 to h13 the M; h27 to h39 Big Ten wars, truces; h48 to h62 Venezu
 named:      Michigan as ally (c0022, c0083); OSU and Wisconsin as rivals (c0021, c0036); Venezuela as threat, then offered help (c0053, c0065); r/minnesotawild and Northwestern as requesters (c0088, c0090).
 goal:       a Block M; done at h12.6; Ski-U-Mah added at h52.0; held.
 unsettled:  Big Ten alliance or rivalry (c0029, c0031, c0056).
-coder unsure: 25 threads out of scope.
+coder unsure: key request posts only titles (634qz8, 637r6w); the Wild's Discord unseen (dfrbv20); who placed pixels and what made neighbours move not shown (dfpszi3); seven parent links missing.
 carrying:   c0024, c0044, c0065
 not this:   a room united in the Big Ten corner; members split on alliance and refused Wisconsin.
 ended:      last coordinating turn h72.17 (c0090, relaying Northwestern's request); after h73 congratulations.
 struck by:  "it was sorta interesting turning from a psuedo-planner to a pseudo-war general/negotiator."
 made:       one artwork, University of Minnesota, 644 px at the edge, 2,747 placers, placed from h1.48; writers placed 0.154, pre-event members 0.027. The canvas keeps the M and Ski-U-Mah.
+later:      2026-10-07, catch-up: attack stayed a durable strand beside repair; members called to finish OSU off together (dfpnfzh) and declared war over WSOFT's area (dfr30p7). The brief shows student advice threads and changes nothing.

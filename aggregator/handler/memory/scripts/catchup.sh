@@ -6,6 +6,14 @@ ST="$(python3 $P status $RUN | sed -n '4p')"
 if echo "$ST" | grep -q "list: completed\|list: stopped"; then
   if echo "$ST" | grep -q "Stage A1 finished at A1.A1b-"; then
     N=$(echo "$ST" | grep -o 'next: A1b-[0-9]*' | grep -o '[0-9]*$')
+    if [ -n "$N" ] && [ "$N" -ge 50 ] && [ "$N" -le 53 ]; then     # the restore legs (J, 2026-10-07, option b)
+      PB=$((N-1)); AU=$(python3 aggregator/handler/memory/scripts/audit_restore.py $R A1b-$(printf %02d $PB) 2>&1)
+      echo "AUDIT: $AU" | head -12
+      if ! echo "$AU" | grep -q "^problems 0$"; then echo "STOPPED (handler restore audit on A1b-$PB): not restarting"; exit 0; fi
+      echo "RESTART restore from A1b-$N"; timeout 100 python3 $P run $RUN A1b-$N..A1b-53 | head -2
+      echo "- $(date -u +%Y-%m-%d\ %H:%M) restore leg A1b-$PB closed, audit 0; restarted at A1b-$N." >> aggregator/handler/memory/diary.md
+      exit 0
+    fi
     if [ -n "$N" ] && [ "$N" -le 48 ]; then
       if [ -f $HOME/catchup.pause ]; then echo "PAUSED by J: not restarting; next is A1b-$N"
         L=$(grep "closed A1.A1b-" $R/CONTROL/legs/events.log | tail -1 | cut -c1-120)

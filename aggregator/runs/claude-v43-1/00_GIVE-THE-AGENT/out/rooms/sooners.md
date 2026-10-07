@@ -4,9 +4,10 @@ week:       h50 to h56 a call, UF; h56 to h60 White Space, r/neu, peace; h62 LSU
 named:      TheWhiteVoid and UF as defenders (c0013, c0015); r/neu as claimant under agreement (c0029, c0036); osu! as a thousand-strong Discord (c0044); r/CFBplace as venue (c0008).
 goal:       an OU logo; called at h50.8; moved at least four times; small at the close.
 unsettled:  whether to take others' logos (c0012, c0031, c0049).
-coder unsure: 7 threads out of scope.
+coder unsure: the template post's body and several turns deleted (633bbq, 633xqy); the Imgur image, Pastebin script and osu!'s Discord seen only through pointers (dfru1kt); the final logo unseen (dftbgxk).
 carrying:   c0015, c0031, c0036
 not this:   a late room that found leftover space; it tried to take UF's, Nebraska's and Northeastern's logos first.
 ended:      last coordinating turn h72.72 (c0046, seeking an ally after being wiped); h93.5 the logo found.
 struck by:  "As a current OU student let's not do this. This is not cool."
 made:       one artwork, University of Oklahoma Logo, 110 px in the centre ring, 301 placers, placed from h0.98; writers placed 0.026, pre-event members 0. The canvas keeps a small logo.
+later:      2026-10-07, catch-up: after the NEU agreement one member still wanted the spot because of an insult (dfr8iji), and another's edit kept a struck-out still taking it over (dfr743r). The brief shows members holding each other to how a Sooner should act (dfj3gsj), as an OU student later did over NEU's logo.

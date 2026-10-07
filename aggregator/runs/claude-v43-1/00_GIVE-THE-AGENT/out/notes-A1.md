@@ -1081,3 +1081,15 @@ The diary moved into part A1-43 during this leg.
 `validate.py A1` before the close: 0 errors, 140 warnings (notes over the 350-word guide, 22 of them from this block).
 
 Ledgers at the close: lexicon 1,289 lines, running file 718 lines (9 block-41 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 550 of 702 catch-up rooms are done. The next leg reads catch-up block 42, from torontoraptors (`order-A1.txt` line 1259).
+
+## Close report, leg A1b-42 (catch-up block 42), 2026-10-07
+
+Block 42 is read: 25 of 25 rooms, torontoraptors to coldplay. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. All 25 old `coder unsure:` lines were replaced with case.md's limits and thread ids: 22 gave the brief's coverage, and three said none (UMiami, COSI, PokemonSage). One brief was the harness's empty brief (COSI).
+
+Case.md showed an earlier line wrong in seolhyun: the named line says a WJSN group was helped, but its request was refused. The later line says so and the earlier line stands. In COSI and bretagne the later line qualifies the not-this line: COSI's move followed the koi request with no stated reason, and bretagne's French protection is only the members' claim.
+
+The diary moved into parts A1-44 and A1-45 during this leg.
+
+`validate.py A1` before the close: 0 errors, 162 warnings (notes over the 350-word guide, 22 of them from this block).
+
+Ledgers at the close: lexicon 1,289 lines, running file 726 lines (8 block-42 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 575 of 702 catch-up rooms are done. The next leg reads catch-up block 43, from foxstevenson (`order-A1.txt` line 1284).

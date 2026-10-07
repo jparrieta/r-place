@@ -4,9 +4,10 @@ week:       h55 to h60 the name, a night watch; h65 to h67 One Punch Man; h67 to
 named:      r/OnePunchMan as threat (c0013, c0058); Ace Attorney's builders as neighbours with a prior claim and helpers (c0037, c0045); a snake game as neighbour (c0005).
 goal:       Sheffield on the canvas; begun at h55.2; defended; held in full at the close.
 unsettled:  which blue, or none (c0028, c0032, c0034).
-coder unsure: 19 threads out of scope.
+coder unsure: deleted turns inside the defence and colour exchanges (632zky); the Ace Attorney Discord unseen (dfrrzin); who placed the One Punch Man pixels not shown (dfriof3).
 carrying:   c0001, c0038, c0049
 not this:   a late room that took leftover space alone; neighbours' members helped it move the rose they asked it to move.
 ended:      last coordinating turn h71.66 (c0052, warning about the reddened rose).
 struck by:  "Operation 'Move the Rose' is a go. If you and your lot can help shift it across it'd be appreciated."
 made:       one artwork, Sheffield, 297 px at the edge, 509 placers, placed from h2.21; writers placed 0.174, pre-event members 0.026. The canvas keeps the name.
+later:      2026-10-07, catch-up: the blue-border redesign did take part of Apollo's sleeve, as the Ace Attorney member said (dfrqtvv); after the close someone found r/sheffield through the canvas (dftavik). The brief shows local advice and news and changes nothing.

@@ -4,9 +4,10 @@ week:       h24 to h33 X&Y, moves; h36 to h46 boundaries, Straya; h50 to h55 thr
 named:      r/straya as mover and deal partner (c0037, c0058); r/kanye as overlapper (c0019); TOPS creators as helped neighbour (c0064); northern neighbours as compromise partners (c0022).
 goal:       album covers; X&Y done at h29.6; Parachutes and a third added by h54.9; held.
 unsettled:  how far to grow without making enemies (c0052, c0053, c0082).
-coder unsure: 53 threads out of scope.
+coder unsure: designs and choices made in Discord seen only as returned (dfq5k3k, dfrfqeb); a few event bodies deleted (62yt1j, 62zp9i); r/straya's own view of the deal not shown (6324lo).
 carrying:   c0022, c0058, c0052
 not this:   a room that held one spot; it moved X&Y at least four times and paid Straya five pixels.
 ended:      last coordinating turn h71.14 (c0082, proposing to take France's picture); after h73 thanks.
 struck by:  "THANKS KANGAROOS"
 made:       three artworks in the middle ring, X&Y 256 px with 691 placers, Parachutes 256 px, A Rush of Blood to the Head 213 px, placed from h1.34; writers placed 0.283, pre-event members 0.128. The canvas keeps the three covers.
+later:      2026-10-07, catch-up: after the close Survivor resumed once the flood of canvas posts was over (6397d3), and a member began 16 by 16 pixel art for every album (63a53a). The brief shows the Survivor song-elimination polls as the room's standing ritual (622m9r), the format the cover poll echoed.

@@ -4,9 +4,10 @@ week:       h11 to h48 April Fools; h28 to h36 a first logo, lost; h49 to h62 a 
 named:      r/MinnesotaVikings as treaty partner (c0086, c0140); Square Spiral as host asked (c0076); Warriors and Celtics as rivals for space (c0054, c0143); r/vermont and the Ducks as neighbours spared (c0095, c0131).
 goal:       a Raptors logo; first given up at h35.8; rebuilt from h49.3; held.
 unsettled:  whether members' NFL rivalries bind them against the treaty (c0107, c0108, c0109).
-coder unsure: 204 threads out of scope.
+coder unsure: nine readers, no one held the week; two Discords seen only as returned (dfphci3, dfqkc12); the Square Spiral and anti-Celtics posts only titles, no outcome (631bvw, 631yvq).
 carrying:   c0063, c0086, c0107
 not this:   a room that held its first spot; it gave up once and rebuilt elsewhere.
 ended:      last coordinating turn h72.91 (c0132, putting WTN over VT 802 proposed); after h73 celebration and thanks to the Vikings.
 struck by:  "Being a Detroit Lions fan I can not honour a treaty with the Vikings..."
 made:       one artwork, Toronto Raptors, 701 px in the middle ring, 2,228 placers, placed from h1.69; writers placed 0.175, pre-event members 0.143. The canvas keeps the logo.
+later:      2026-10-07, catch-up: calls to hijack an area and cannibalize the Celtics logo stayed calls (dfpqjcu, dfpoa87); a WTN takeover was checked by the Vermont treaty (dfsb9fj). The brief shows Fuck the Celtics as a running bit (61pop4), the rivalry behind the anti-Celtics inscription.

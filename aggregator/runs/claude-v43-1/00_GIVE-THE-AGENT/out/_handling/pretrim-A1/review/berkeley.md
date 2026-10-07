@@ -1,0 +1,17 @@
+# r/berkeley: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/berkeley.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-06: 370 words before the cut, 341 after
+
+```diff
+@@ -1,6 +1,6 @@
+ # r/berkeley  (read 2026-10-06)   coded share 0.081   off-platform pointers 2
+-doing:      a university sub; at h33.0 a call to make a Cal logo in the bottom-right corner, a guideline asked, work begun at 967,979, a call to overtake the Arizona logo (c0003, c0004, c0005, c0014); the bear consumed in half an hour, the script Cal chosen instead, a spot and template broadcast (c0006, c0007, c0009); a neighbour asking a truce, then asking them to keep the area blue and clean, then requiring the logo to move (c0010, c0011, c0012); negotiation offered (c0020); at h49.9 an agreement with Sweden sought, and permission secured through r/sweden's diplomats on Discord for a new spot (c0021, c0022, c0029); a war with the blue corner conceded, the new spot made the moderator's plan (c0038, c0040, c0052); repairing the Dutch border to prevent revenge (c0055); the logo done at h55.1, defence and upkeep after (c0060, c0056); Arizona's request for help declined for lack of pixels (c0044, c0045); a strike on Sweden while it sleeps proposed and opposed, members saying smaller subs must make peace with larger ones (c0093, c0094, c0048); at h72.6 a defence script (c0070).
+-week:       h28 to h50 attempts and moves; h50 to h55 Sweden's permission and the logo; h55 to h72 upkeep.
++doing:      a university sub; at h33.0 a call to make a Cal logo in the bottom-right corner, a guideline asked, work begun at 967,979, a call to overtake the Arizona logo (c0003, c0004, c0005, c0014); the bear consumed in half an hour, the script Cal chosen instead, a spot and template broadcast (c0006, c0007, c0009); a neighbour asking a truce, then asking them to keep the area blue and clean, then requiring the logo to move (c0010, c0011, c0012); negotiation offered (c0020); at h49.9 an agreement with Sweden sought, and permission secured through r/sweden's diplomats on Discord for a new spot (c0021, c0022, c0029); a war with the blue corner conceded, the new spot made the moderator's plan (c0038, c0040, c0052); repairing the Dutch border to prevent revenge (c0055); the logo done at h55.1, defence and upkeep after (c0060, c0056); Arizona's request for help declined for lack of pixels (c0044, c0045); a strike on Sweden while it sleeps proposed and opposed, members saying smaller subs must make peace with larger ones (c0093, c0094, c0048); a band addition withdrawn (c0050); the Mets avoiding the logo (c0057); at h72.6 a defence script (c0070).
++week:       h28 to h37 first attempts; h37 to h50 moves and a neighbour's demand; h50 to h55 Sweden's permission, the logo; h55 to h64 upkeep and politics; h72 a script; after h73 pride and a prospective student.
+ named:      r/sweden as permission-giver (c0022, c0046); the blue corner (c0038); the Dutch flag (c0055); Arizona, Georgia Tech, the Mets as neighbours (c0014, c0026, c0057); Stanford as joke enemy (c0002).
+ goal:       a Cal logo; moved three times; built at h55.1 on Swedish-sanctioned space; held.
+ unsettled:  whether to add to the logo or stay within Sweden's terms (c0049, c0062, c0093).
+```

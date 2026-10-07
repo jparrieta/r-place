@@ -4,9 +4,10 @@ week:       h15 to h19 the logo; h25 to h30 cleaning, the rainbow; h44 to h50 a 
 named:      the rainbow builders as neighbours made to go around (c0012, c0014); r/placestart as neighbour to avoid, then called nice (c0018, c0031); r/CrimsonHordeArmy as proposed ally (c0030).
 goal:       the Mordhau logo; made by h19.2; moved up at h44.3; held.
 unsettled:  whether to clear neighbours for allies (c0030, c0031).
-coder unsure: 27 threads out of scope.
+coder unsure: the first proposal's body deleted (62rci5); four deleted comments inside the rainbow exchange (62u94d); work in the forums and the Chivalry sub unseen (dfpklps); images unseen.
 carrying:   c0012, c0023, c0031
 not this:   a room that built alone; members said the game's forums and another sub built it too.
 ended:      last coordinating turn h58.60 (c0031, refusing to clear r/placestart); after h61 questions about relevance.
 struck by:  "nah dont clear it, r/placestart are nice guys. we just need to ensure the minecraft poo boys dont attack us from the north east"
 made:       one artwork, Mordhau Logo, 992 px at the edge, 1,731 placers, placed from h1.0; writers placed 0.181, pre-event members 0.08. The canvas keeps the logo.
+later:      2026-10-07, catch-up: the account changes nothing; a member warned that faithful red looked like vandalism and invited more (dfqxdbt). The brief shows Chivalry veterans as part of the game's following (dffh6i2), the sub later credited with helping.

@@ -4,9 +4,10 @@ week:       h39.9 the heart, moved and rebuilt; h41 to h53 masseffect, the Jets;
 named:      r/masseffect and the Jets as rivals for space (c0015, c0021); r/korea as a neighbour asking leave (c0024); r/crystalclear and a WJSN group as small neighbours helped (c0025, c0033).
 goal:       a heart for the singer; moved at h39.9; rebuilt; held.
 unsettled:  whether the Jets' logo was taken from them (c0016, c0021, c0022).
-coder unsure: 5 threads out of scope.
+coder unsure: the main post's many edits have no times (62yis6); four bodies deleted, among them the prompt to the script warning (dfri887); whether scripts wiped out the Jets not settled (dfqdw5k).
 carrying:   c0004, c0021, c0029
 not this:   a room that only defended its heart; members took the Jets' logo space, and a Jets member called it stealing.
 ended:      last coordinating turn h65.16 (c0037, asking script users to adjust); h69.8 praise from r/twice.
 struck by:  "We've expanded about as much as we can at this point, the only mission now is to preserve what we've got and not to anger our allies."
 made:       one artwork, Seolhyun, 754 px in the middle ring, 2,861 placers, placed from h1.16; writers placed 0.077, pre-event members 0.027. The canvas keeps the heart.
+later:      2026-10-07, catch-up: the WJSN request was told to piss off, not helped, as the named line says (dfrhboh); members were divided over Korea touching the heart (dfre1gi). The brief shows labelled Seolhyun image posts (61f3op), the habit behind rare pictures promised as a reward (dfr0p1d).

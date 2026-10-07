@@ -4,9 +4,10 @@ week:       h51 to h57 permissions, Discord; h67 to h72 a smaller logo, a new sp
 named:      the German flag's and Pink Floyd's builders as space holders (c0003, c0009); the Dutch as owners of the orange field (c0027); Mexico as a threat (c0055).
 goal:       a Corridor logo; called at h51.4; shrunk at h71.2; almost finished at the close.
 unsettled:  whether one person's permission protects a site (c0036, c0017).
-coder unsure: 29 threads out of scope.
+coder unsure: the Discord's decisions and labour unseen (dfqlbsk, dfrtw0f); a deleted comment ends the organising thread (dfs0idg); the almost-finished claim only the poster's (63856s).
 carrying:   c0009, c0030, c0036
 not this:   a late room that found leftover space on its own; it asked permission at each site and moved three times.
 ended:      last coordinating turn h72.88 (c0032, helping from mobile).
 struck by:  "I doubt permission from one person is enough for it to be protected"
 made:       one artwork, Corridor Digital Logo, 145 px in the middle ring, 556 placers, placed from h1.04; writers placed 0.037, pre-event members 0.011. The canvas keeps the logo.
+later:      2026-10-07, catch-up: one helper came over from Funhaus's finished work (dfswjdn); several members learned of the logo only after the close (dfscen9, dftkf6y). The brief shows crew members answering in the room (dfepiyq), yet one crew member had to have the canvas explained afterwards (dfsxcms).

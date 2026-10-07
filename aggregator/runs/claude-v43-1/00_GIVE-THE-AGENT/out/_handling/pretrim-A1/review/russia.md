@@ -1,0 +1,17 @@
+# r/russia: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/russia.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-17: 366 words before the cut, 332 after
+
+```diff
+@@ -1,6 +1,6 @@
+ # r/russia  (read 2026-10-06)   coded share 0.074   off-platform pointers 3
+-doing:      a national sub in English and Russian; at h17.3 a call to fix the Russian flag (c0005); at h19 Czechs said to move on their turf, an American flag wiped overnight, a Slovak member asking them to stop changing the Slovak flag, denied (c0007, c0010, c0014, c0018, c0019); at h29.8 encroaching on the Czechs refused, borders secured before expanding, too few Russians and zero coordination (c0029, c0030, c0043, c0051); at h29.6 Armenia, Serbia and India asking help, help offered after the Russian flag is safe, Indians helping draw the Russian flag (c0044, c0072, c0075, c0078); at h37.6 the flag lost, a heart flag taken block by block, a reserve flag (c0056, c0064, c0069); at h47 the Netherlands shooting down the flag (c0085); at h49.6 moderators removing all r/place posts and thanking participants (c0097, c0098); at h54.1 Kalmar Union neighbours asking peace, healthy relations unless provoked (c0100, c0101); at h58.5 r/leafs asking permission to paint nearby (c0041); at h65.5 a flag perfect (c0105); at h68.6 a flag over the Osu symbol proposed (c0108).
+-week:       h17 to h31 the flag; h37 to h50 loss, the ban; h54 to h71 peace.
++doing:      a national sub in English and Russian; at h17.3 a call to fix the Russian flag (c0005); at h19 Czechs said to move on their turf, an American flag wiped overnight, a Slovak member asking them to stop changing the Slovak flag, denied (c0007, c0010, c0014, c0018, c0019); at h27.1 a spot at 443, 19, three people defending (c0025, c0026); at h29.8 encroaching on the Czechs refused, borders secured before expanding, too few Russians and zero coordination (c0029, c0030, c0043, c0051); at h29.6 Armenia, Serbia and India asking help, help offered after the Russian flag is safe, Indians helping draw the Russian flag (c0044, c0072, c0075, c0078); at h37.6 the flag lost, a heart flag taken block by block, a reserve flag (c0056, c0064, c0069); at h44.6 a script made for them (c0061); at h47 the Netherlands shooting down the flag, taunts both ways (c0085, c0091); at h49.6 moderators removing all r/place posts and thanking participants (c0097, c0098); at h54.1 Kalmar Union neighbours asking peace, healthy relations unless provoked (c0100, c0101); at h58.5 r/leafs asking permission to paint nearby (c0041); at h65.5 a flag perfect (c0105); at h68.6 a flag over the Osu symbol proposed (c0108).
++week:       h17 to h31 the flag, Czechs, Slovakia; h37 to h50 loss, a heart, the Dutch, the moderators' ban; h54 to h71 peace, a final flag.
+ named:      Czechs, Slovaks and the Netherlands as rivals (c0007, c0014, c0085); Armenia, Serbia and India as allies helped and helping (c0044, c0072, c0078); the Kalmar Union and r/leafs as neighbours (c0100, c0041).
+ goal:       a Russian flag; lost at h37.6; a small one perfect by h65.5.
+ unsettled:  expand or keep borders (c0028, c0030).
+```

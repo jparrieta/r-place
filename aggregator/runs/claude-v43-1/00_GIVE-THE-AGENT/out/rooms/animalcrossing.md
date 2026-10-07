@@ -4,9 +4,10 @@ week:       h19 to h35 the leaf; h40 to h47 villager, Isabelle; h53 to h61 demol
 named:      r/TheFarLeftSide as protector, demolisher and rebuilder (c0036, c0083, c0123); r/NintendoSwitch as taker of the villager's spot (c0132); a heart's artists as neighbours (c0068).
 goal:       an AC leaf; done at h35.1; demolished and rebuilt by its protector by h58.4; held.
 unsettled:  whether the room should accept communist allies (c0139, c0141, c0145).
-coder unsure: 154 threads out of scope.
+coder unsure: two readers, no one held the week; four post bodies deleted (62s3ta, 633z9e, 635s32); private messages, TFLS's Discord and the script runner's choice unseen (632fdd, dfqtxhc).
 carrying:   c0038, c0083, c0123
 not this:   a room that defended its leaf alone; its protector's script destroyed it and the protector rebuilt it.
 ended:      last coordinating turn h65.91 (c0149, warning the void attacks the leaf and TFLS); after h73 thanks and debate.
 struck by:  "It's the kindest subreddit I'm a part of. It was wholesomememes BEFORE it was cool!"
 made:       one artwork, Animal Crossing Leaf, 182 px at the edge, 580 placers, placed from h1.93; writers placed 0.108, pre-event members 0.028. The canvas keeps the leaf.
+later:      2026-10-07, catch-up: one defender said few were defending and they were burned out (dfqsioc); canvas art was turned into an in-game design with QR codes (dfshtii). The brief shows daily villager birthday posts and a villager-card series (61f0mr, 61dfn0), the characters behind the canvas villager and Isabelle.

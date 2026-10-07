@@ -1,0 +1,24 @@
+# r/singapore: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/singapore.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-15: 359 words before the cut, 341 after
+
+```diff
+@@ -1,12 +1,12 @@
+ # r/singapore  (read 2026-10-06)   coded share 0.028   off-platform pointers 3
+-doing:      a national sub whose early turns were April Fools jokes (c0005, c0046); at h8.4 calls for an SG flag (c0009, c0051); at h10.8 to h23.4 hijacking Denmark's, Indonesia's or Austria's flag proposed, r/turkey messaged (c0021, c0012, c0014, c0028); at h24.3 a flag at 384, 167, griefed in minutes (c0078, c0083); at h35.3 restarts at 130, 630 and 999, 900, the crescent erased, an SG heart guarded (c0101, c0103, c0114, c0110); at h40.5 a spot by the Malaysian flag chosen, an agreement with r/placehearts (c0121, c0122); at h47.1 a truce with r/Indonesia (c0034); at h61.2 told the flag is on Dutch ground, peace urged, permission and an alliance sought, a mock-up below Malaysia's (c0136, c0039, c0045, c0147); at h64.9 r/malaysia helping, the flag completed (c0149, c0173); at h65 Hello Internet pleading for its flag, a petition to ally, love of country over flaggy flag (c0172, c0152, c0188); at h66.1 a heart with Malaysia, an autorepair script adapted from r/AmericanFlaginPlace (c0156, c0171); at h71.6 national servicemen called to defend (c0181).
+-week:       h8 to h46 calls, flags lost; h61 to h72 Malaysia, completion, hearts.
++doing:      a national sub whose early turns were April Fools jokes (c0005, c0046); at h8.4 calls for an SG flag (c0009, c0051); at h10.8 to h23.4 hijacking Denmark's, Indonesia's, Austria's or Germany's flag proposed, Turkey redding out the stars, r/turkey messaged (c0021, c0012, c0014, c0074, c0025, c0028); at h24.3 a flag at 384, 167, griefed in minutes (c0078, c0083); at h35.3 restarts at 130, 630 and 999, 900, the crescent erased, an SG heart guarded (c0101, c0103, c0114, c0110); at h40.5 a spot by the Malaysian flag chosen, an agreement with r/placehearts (c0121, c0122); at h47.1 a truce with r/Indonesia (c0034); at h61.2 told the flag is on Dutch ground, peace urged, permission and an alliance sought, a mock-up below Malaysia's (c0136, c0039, c0045, c0147); at h64.9 r/malaysia helping, the flag completed (c0149, c0173); at h65 Hello Internet pleading for its flag, a petition to ally, love of country over flaggy flag (c0172, c0152, c0188); at h66.1 a heart with Malaysia, an autorepair script adapted from r/AmericanFlaginPlace (c0156, c0171); at h71.6 national servicemen called to defend (c0181).
++week:       h8 to h46 many calls, flags lost; h61 to h66 permission, Malaysia, completion; h66 to h72 hearts, scripts, Hello Internet.
+ named:      Malaysia as host and helper (c0121, c0149); Indonesia, the Dutch, Turkey and Hello Internet as rivals or neighbours (c0034, c0136, c0025, c0172).
+ goal:       a Singapore flag; settled below Malaysia's at h63.6; completed at h65.3; held.
+ unsettled:  whether a flag is worth it, and whether to take others' space (c0020, c0092, c0032).
+ coder unsure: 269 threads out of scope.
+ carrying:   c0045, c0147, c0171
+ not this:   a room that won space by force; members said only permission and an alliance would keep a flag.
+-ended:      last coordinating turn h71.57 (c0181, servicemen called to defend); after h73 a second round of national service.
++ended:      last coordinating turn h72.07 (c0194, an apology for erasing the plan); after h73 a second round of national service.
+ struck by:  "Sorry, I love hellointernet and I personally voted for flaggy flag but I love my country more."
+ made:       three artworks at the edge, Flag of Singapore 496 px with 2,048 placers, an Indonesian/Singaporean/Dutch heart, a Malaysia/Singapore heart, placed from h2.02; writers placed 0.151, pre-event members 0.067.
+```

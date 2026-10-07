@@ -1,0 +1,15 @@
+# r/rpi: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/rpi.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-19: 364 words before the cut, 344 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/rpi  (read 2026-10-07)   coded share 0.218   off-platform pointers 1
+-doing:      a university sub; at h10 a logo proposed, at h36.9 a plan at 500, 400 (c0001, c0014, c0015); at h47.8 the plan called too ambitious, r/ainbowroad to be asked (c0016, c0019); at h55 to h56 a call to hijack WPI's W into an R, WPI fighting back and telling them to get their own logo (c0024, c0029, c0027, c0031); at h56.5 a move to 0, 849, a script, WPI offering support (c0038, c0045, c0047); at h57.2 RPI members still attacking WPI, the Discord asked to stop them (c0049, c0050); at h57.8 Purdue refusing to share its cleared space (c0053, c0054, c0056); at h58.8 a new spot, Purdue's bot modded and co-opted (c0062, c0080); at h59.7 a fourth move refused (c0077); at h62.4 Green Lattice asking RPI's bot off its pattern, an updated script sent for approval (c0084, c0095); at h65.8 WPI congratulating, the attack forgiven (c0088, c0092); at h71.8 botting called ruining the fun (c0103); at h72.9 the Predators asking RPI to honour a boundary below 529 (c0106).
++doing:      a university sub; at h10 a logo proposed, at h36.9 a plan at 500, 400 (c0001, c0014, c0015); at h47.8 the plan called too ambitious, r/ainbowroad to be asked (c0016, c0019); at h55 to h56 a call to hijack WPI's W into an R, WPI fighting back and telling them to get their own logo (c0024, c0029, c0027, c0031); at h56.4 a GameCube spot left to its builders (c0035); at h56.5 a move to 0, 849, a Discord, a console script, WPI offering support (c0038, c0037, c0045, c0047); at h57.2 RPI members still attacking WPI, the Discord asked to stop them (c0049, c0050); at h57.8 Purdue refusing to share its cleared space (c0053, c0054, c0056); at h58.8 a new spot, Purdue's bot modded and co-opted (c0062, c0080); at h59.7 a fourth move refused (c0077); at h61 to h68.8 neighbours' scripts kept out, Green Lattice asking RPI's bot off its pattern, an updated script for approval (c0082, c0084, c0095); at h65.8 WPI congratulating, the attack forgiven (c0088, c0092); at h71.8 botting called ruining the fun (c0103); at h72.9 the Predators asking RPI to honour a boundary below 529 (c0106).
+ week:       h10 to h48 plans; h55 to h57 WPI hijack and retreat; h57 to h60 Purdue, three moves; h61 to h73 bots and boundaries.
+ named:      WPI as rival turned supporter (c0027, c0088); Purdue as refuser of space (c0054); Green Lattice, the Predators, Texas A&M and RWBY as neighbours under agreements (c0084, c0106, c0060, c0083).
+ goal:       an RPI logo; three relocations; a mark made at h67.2; the logo not completed by its account.
+```

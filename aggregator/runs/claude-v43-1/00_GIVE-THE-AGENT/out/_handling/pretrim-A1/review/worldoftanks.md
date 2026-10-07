@@ -1,0 +1,15 @@
+# r/worldoftanks: what the 350-word cap cut
+
+Read with your note as it stands now (`out/rooms/worldoftanks.md`). Each section is one leg's cut, recovered from the record (the checkpoint before the leg and the leg's own edits; verified against the leg's checkpoint). Lines marked `-` are in the note as it stood after that leg; lines marked `+` are what you wrote before the hook made you cut. Since then the note may have changed again.
+
+## A1b-12: 385 words before the cut, 335 after
+
+```diff
+@@ -1,5 +1,5 @@
+ # r/worldoftanks  (read 2026-10-06)   coded share 0.027   off-platform pointers 5
+-doing:      a game sub; April Fools hold most turns: a shaking all-caps theme, a suspended modshop, a robot uprising, a mock tank patch (c0001, c0037, c0049, c0130); at h5.4 a call to draw a TOG on the Argentinean flag (c0033, c0035); at h18.0 a spot claimed, a tank started, overrun, moved twice with no answer from r/HeroesOfTheStorm (c0090, c0092, c0093, c0094); at h20.3 fighting off r/StardustCrusaders, a non-aggression pact proposed, refused while tiles are deleted, the smaller kanji asked to move south (c0101, c0103, c0104, c0105); at h27.0 the TOG moved to leave room for Heroes text (c0182); at h31.6 the tank gone (c0124); at h55.2 a new spot sought, a rough TOG placed (c0152, c0154); at h57.1 a little logo planned by the Italian flag (c0164); at h65.3 done after three wipes, a defence call (c0167, c0168, c0173); at h70.2 a Discord (c0171); at h72.3 Karl proposed, too late (c0177, c0180).
++doing:      a game sub; April Fools hold most turns: a shaking all-caps theme, a suspended modshop, a robot uprising, a mock tank patch (c0001, c0037, c0049, c0130); at h5.4 a call to draw a TOG on the Argentinean flag (c0033, c0035); at h18.0 a spot claimed, a tank started, overrun, moved twice with no answer from r/HeroesOfTheStorm (c0090, c0092, c0093, c0094); at h20.3 fighting off r/StardustCrusaders, a non-aggression pact proposed, refused while tiles are deleted, the smaller kanji asked to move south (c0101, c0103, c0104, c0105); at h25.7 the tank asked to move 20 pixels to avoid a logo, overlap proposed (c0112, c0113); at h27.0 the TOG moved to leave room for Heroes text (c0182); at h29.6 the TOG mourned, new coordinates (c0119, c0118); at h31.6 the tank gone (c0124); at h36.7 a call to change HEROES OF THE STORM text (c0123); at h48.9 erasure recounted (c0150); at h55.2 a new spot sought, a rough TOG placed (c0152, c0154); at h56.3 a little logo between Hearthstone and others, then the Italian flag and paper planes (c0163, c0164); at h65.3 done after three wipes, a defence call (c0167, c0168, c0173); at h70.2 a Discord (c0171); at h72.3 Karl proposed, too late (c0177, c0180).
+ week:       h0 to h40 April Fools; h18 to h32 the TOG, moved and lost; h55 to h67 a small logo; h72 Karl.
+ named:      r/HeroesOfTheStorm and r/StardustCrusaders as neighbours who took space (c0094, c0101, c0147).
+ goal:       a TOG tank; lost by h31.6; a small logo instead, done at h65.3; held.
+```

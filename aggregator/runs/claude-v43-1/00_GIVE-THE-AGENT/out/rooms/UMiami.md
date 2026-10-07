@@ -4,9 +4,10 @@ week:       h51.2 one post; nothing before or after.
 named:      the University of Florida's logo as the target (c0001, c0002).
 goal:       to take over the UF logo; stated at h51.2; no later turn says what came of it.
 unsettled:  nothing coded.
-coder unsure: none; 0 threads out of scope.
+coder unsure: one post-only item with no comments, so no reply, placement or outcome is shown (631kri); the linked image unseen.
 carrying:   c0001, c0002, c0001
 not this:   a room that organised the UM work on the canvas; its one post calls for an attack, and the linked artwork is shared with r/MiamiHurricanes.
 ended:      last coordinating turn h51.23 (c0002, the invitation); nothing observed after.
 struck by:  "Feel free to join us in taking down the gators once again."
 made:       one artwork, The UM Football Team, 307 px at the edge, 1,255 placers, shared with r/MiamiHurricanes, placed from h1.69; writers placed 0, pre-event members 0. The canvas keeps a UM work the room's record does not describe.
+later:      2026-10-07, catch-up: the account changes nothing; the call shows recruitment, not action. The brief shows a sarcastic jab at r/FSU in an admissions thread (dfhcvjk) and changes nothing else.

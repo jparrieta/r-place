@@ -4,9 +4,10 @@ week:       h52 to h56 a call, a move, r/farmcarrots; h59 to h62 a border, Penn 
 named:      r/farmcarrots as earlier claimant pleaded with (c0005, c0006); Penn State as expanding rival above (c0012, c0014).
 goal:       a Penn logo; begun at h53.9 after a move; bordered; held.
 unsettled:  whether to grow the logo (c0015, c0018).
-coder unsure: 23 threads out of scope.
+coder unsure: three deleted comments in the one event thread (dfr5l1n, dfrc5fa, dfrdsdt); the design and progress images unseen (dfr5mbt); the final canvas claim only the members' report (dfs09du).
 carrying:   c0002, c0006, c0011
 not this:   a late room that took space; it moved when its first spot was taken and pleaded for pixels at the second.
 ended:      last coordinating turn h70.15 (c0018, weighing expansion against an overnight flag); h73.3 celebration.
 struck by:  "I kinda like the irony of it"
 made:       one artwork, University of Pennsylvania, 265 px at the edge, 444 placers, placed from h1.16; writers placed 0.142, pre-event members 0.003. The canvas keeps the logo.
+later:      2026-10-07, catch-up: the account changes nothing; the bigger-logo idea was opportunistic use of loose pixels, not a call to take space (dfrd9uo). The brief shows admitted students asking current ones for advice and changes nothing.
