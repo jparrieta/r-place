@@ -4,9 +4,10 @@ week:       h5.9 to h21 Euler's identity begun and fixed; h24 to h31 the HotS pa
 named:      r/heroesofthestorm under a non-aggression pact (c0025, c0028); Rainbow Road and Fire Emblem as encroachers (c0039, c0046); r/smashbros helped (c0029).
 goal:       Euler's identity; begun by one member at h6.9; held, by the fields.
 unsettled:  whether canvas posts belong on r/math (c0022, c0034, c0058).
-coder unsure: 237 threads out of scope.
+coder unsure: five readers, no one held the week; several call bodies removed; the late mark's maker not shown (63agi8); removals alleged but no moderator rule on canvas posts visible (dfqdd18).
 carrying:   c0003, c0028, c0030
 not this:   a room that organised; most mathematical calls drew one or two replies, some only a no.
 ended:      last coordinating turn h72.12 (c0076, a call to defend); after h73 jokes.
 struck by:  "every dot counts! dont give up!"
 made:       one artwork, Euler's Identity, 587 px at the edge, 4,956 placers, placed from h1.81; writers placed 0.069, pre-event members 0.026. The canvas keeps the identity.
+later:      2026-10-07, catch-up: near the close a member used the weekly What Are You Working On thread to recruit defenders (dfrwuhd). The brief shows a member objecting to meme threads and moderators sending jokes to r/mathjokes (dffd3cl, dfll0k3), the objection later made to canvas posts.

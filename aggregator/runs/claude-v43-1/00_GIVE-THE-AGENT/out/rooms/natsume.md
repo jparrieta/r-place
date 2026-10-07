@@ -4,9 +4,10 @@ week:       nothing before h54.1; h54.1 to h60.7 found and defended; h63.6 to h6
 named:      r/truestl as the neighbour overwriting with CHIM (c0011); the Danish flag (c0013); unknown creators (c0021).
 goal:       keep Nyanko-sensei; found, not made, by the room; held mostly.
 unsettled:  who made him (c0014, c0015).
-coder unsure: 4 threads out of scope.
+coder unsure: no creator answered and no planning thread was found (dfrhep9, dfrhqeq); the Imgur template unseen (dfrgfmg); whether the defence was carried out after the promise not shown (dfswr8m).
 carrying:   c0001, c0011, c0015
 not this:   a room that built Nyanko-sensei; members found him and never learned who made him.
 ended:      last coordinating turn h64.63 (c0017, asking a possible placer where the plan was); after h73 thanks.
 struck by:  "Thank you so much! You're doing God's work haha."
 made:       one artwork, Nyanko-sensi, 416 px at the edge, placed from h2.23, long before the room's first coded turn; writers placed 0.018, pre-event members 0.001. The canvas keeps him.
+later:      2026-10-07, catch-up: the account changes nothing; a member named a possible creator from tile data but got no answer (dfrhqeq). The brief shows one member's numbered Daily Book of Friends fan art as most of the week before (61do4e), the series the room went back to.

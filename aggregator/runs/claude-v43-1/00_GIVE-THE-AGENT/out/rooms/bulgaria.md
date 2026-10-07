@@ -4,9 +4,10 @@ week:       h15 to h28 the flag in the blue corner; h28 to h56 the cube, neighbo
 named:      r/cubers as partner (c0004, c0036, c0085); GreenLattice, r/lost, r/doormonster, the Hulk, Gift of Games as neighbours under agreements (c0019, c0009, c0027, c0051); Lithuania asking help (c0064).
 goal:       the Bulgarian flag; from h15.3; a cube added; a coat of arms not made.
 unsettled:  expand the flag or keep agreements (c0045, c0050, c0060).
-coder unsure: 32 threads out of scope.
+coder unsure: two readers, no one held the week; Discord, a strawpoll, Google Drive and pxls.space seen only as returned (632s5x, 631vss, 635ovc, dfs7jn6); two posts only titles (6380tu, 6383jg).
 carrying:   c0004, c0045, c0058
 not this:   a room whose expansion was planned in the sub; members blamed compatriots outside it.
 ended:      last coordinating turn h73.18 (c0067, an r/Bulgaria attempt explained); after h73 thanks and pxls.space.
 struck by:  "Every flag is beautiful."
 made:       three artworks at the edge, Flag of Bulgaria 2,065 px with 5,422 placers and two hearts, placed from h1.26; writers placed 0.165, pre-event members 0.031. The canvas keeps the flag.
+later:      2026-10-07, catch-up: not this qualified; late on the last day a member in the sub called to expand right and asked for an updated script (dfrr3yf), and an earlier post called for the cube's death (630gcv). The brief shows an election week and changes nothing.

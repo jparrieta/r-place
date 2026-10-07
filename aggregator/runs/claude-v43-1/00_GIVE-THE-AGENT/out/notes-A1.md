@@ -1055,3 +1055,17 @@ The head left at the A1b-38 close was 3,007 words, over the 3,000-word limit, be
 `validate.py A1` before the close: 0 errors, 98 warnings (notes over the 350-word guide, 22 of them from this block).
 
 Ledgers at the close: lexicon 1,289 lines, running file 700 lines (7 block-39 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 500 of 702 catch-up rooms are done. The next leg reads catch-up block 40, from natsume (`order-A1.txt` line 1209).
+
+## Close report, leg A1b-40 (catch-up block 40), 2026-10-07
+
+Block 40 is read: 25 of 25 rooms, natsume to lost. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. In all 25 notes the old `coder unsure:` line gave the brief's coverage; it was replaced with case.md's limits and thread ids. Three briefs were the harness's empty brief (placesnek, landry, loliconsunite).
+
+The context compacted once, after natsume's two edits were made and before they were logged. natsume's case.md and brief.md were served again and every id was checked before the log line.
+
+Case.md showed earlier lines wrong or unsupported in three notes, and each later line says so while the earlier lines stand: bannedfromanime_irl (no item ties the celebration to the canvas), crystalclear (the member who promised to guard the tag may not have built it, and the success edit has no time), and transgender (this record names no other sub, so the not-this line's venues come from other rooms). In FlipnoteStudio3D, placesnek, TheB1G and bulgaria the later line qualifies the not-this line.
+
+The diary moved into part A1-42 during this leg.
+
+`validate.py A1` before the close: 0 errors, 118 warnings (notes over the 350-word guide, 20 of them from this block).
+
+Ledgers at the close: lexicon 1,289 lines, running file 709 lines (9 block-40 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 525 of 702 catch-up rooms are done. The next leg reads catch-up block 41, from bangladesh (`order-A1.txt` line 1234).

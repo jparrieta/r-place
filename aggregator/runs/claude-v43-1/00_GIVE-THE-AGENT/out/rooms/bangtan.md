@@ -4,9 +4,10 @@ week:       h25 to h33 the first logo; h33 to h47 the void and a move; h50 rebui
 named:      Green Lattice as gatekeeper (c0006, c0007); r/CheckersUnited and the Germans as neighbours given room (c0038, c0071); the void as destroyer (c0029, c0053); r/SNSD, VIXX, Inspirit, Seventeen as K-pop neighbours (c0058, c0085, c0079, c0091).
 goal:       the BTS logo; moved three times; held from h50.1 with an ARMY bomb.
 unsettled:  whether shared defence was worth the politics (c0104).
-coder unsure: 133 threads out of scope.
+coder unsure: four readers, one slice each; Discord's assignments unseen (dfpqucf, dfri5nc); the r/Ireland and r/SNSD calls survive only as titles (6321tp, 6347hg).
 carrying:   c0053, c0071, c0101
 not this:   a room that defended its logo alone; the K-pop groups held their area together.
 ended:      last coordinating turn h71.72 (c0085, room left to VIXX); after h73 thanks.
 struck by:  "TEAMWORK MAKES THE DREAM WORK"
 made:       two artworks named BTS in the middle ring, 388 and 406 px, placed from h1.67, long before the room's first call; writers placed 0.187, pre-event members 0.16. The canvas keeps the logo.
+later:      2026-10-07, catch-up: one logo was abandoned to the void's bots and its helpers sent to Discord (dfq9smf); the member who wished subs had stayed separate later called the result worth it (dfsg0n9, dft61ge). The brief shows the army bomb as the fans' concert light (dfexcbp), the object added beside the logo.

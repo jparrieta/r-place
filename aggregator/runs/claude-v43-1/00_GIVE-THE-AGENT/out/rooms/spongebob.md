@@ -4,9 +4,10 @@ week:       h25.9 a call; h31.9 to h43 Squidward, Patrick; h47 India; h50 to h63
 named:      r/India and Armenia as builders over Squidward (c0008, c0024); r/RWBY as ally (c0036, c0037); Critical Role as neighbour helped (c0040).
 goal:       SpongeBob characters; several calls, no single plan; Squidward lost, Bold and Brash held.
 unsettled:  who covered whom between Squidward and India's banner (c0009, c0026).
-coder unsure: 64 threads out of scope.
+coder unsure: the offered Discord never seen made (62ua7r); images and templates known only from text; a deleted turn inside the Squidward dispute (dfqpl04).
 carrying:   c0009, c0022, c0037
 not this:   a room with one plan; separate members called for separate characters.
 ended:      last coordinating turn h72.06 (c0040, helping allies); h79.3 a joke.
 struck by:  "Squidward was there first, you guys are the ones that decided to put /r/India over him."
 made:       two artworks at the edge, Bold and Brash 532 px and Surprised Patrick 303 px, placed from h1.61, a day before the room's first call; writers placed 0.025, pre-event members 0.006. The canvas keeps work the room's writers barely placed.
+later:      2026-10-07, catch-up: the account changes nothing; members teased Bold and Brash as headed "Where it belongs" while others reported doing their part (dfr7uv1, dfra9v5). The brief shows members continuing episode dialogue line by line (dffcace); the trash joke is that habit.

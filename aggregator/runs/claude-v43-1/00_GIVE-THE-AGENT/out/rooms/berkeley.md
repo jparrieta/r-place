@@ -4,9 +4,10 @@ week:       h28 to h50 attempts and moves; h50 to h55 Sweden's permission and th
 named:      r/sweden as permission-giver (c0022, c0046); the blue corner (c0038); the Dutch flag (c0055); Arizona, Georgia Tech, the Mets as neighbours (c0014, c0026, c0057); Stanford as joke enemy (c0002).
 goal:       a Cal logo; moved three times; built at h55.1 on Swedish-sanctioned space; held.
 unsettled:  whether to add to the logo or stay within Sweden's terms (c0049, c0062, c0093).
-coder unsure: 130 threads out of scope.
+coder unsure: three readers, no one held the week; post bodies deleted (62x9r7, 634ol3); the Discord talks with Sweden unseen (dfql7jy); the final image unseen (63bdza).
 carrying:   c0022, c0048, c0052
 not this:   a room that held its first spot; it built where Sweden's diplomats allowed.
 ended:      last coordinating turn h72.57 (c0070, a defence script); after h73 pride.
 struck by:  "Here at /r/berkeley we provide only hand-made, all-natural Cal logos."
 made:       one artwork, Script Cal, 527 px at the edge, placed from h1.39; writers placed 0.157, pre-event members 0.046. The canvas keeps the logo.
+later:      2026-10-07, catch-up: one member went ahead with an Oski addition against the pleas (dfr6vxs); a Cal Band addition was withdrawn when a member said the logo belongs to all of Cal (dfrdv5m, dfre2sx). The brief shows the Class of 2021 welcome (62hrmi), which the result thread took up again after the close (dftmijy).

@@ -4,9 +4,10 @@ week:       h7.8 to h24 two lost starts; h15 to h40 April Fools; h57.8 a new spo
 named:      the Swedes as greedy (c0023); the void as SCP-000 (c0025); Isaac as neighbour (c0007).
 goal:       an SCP logo; proposed at h7.8; moved twice; the lettering ended as r/spc.
 unsettled:  where to put it and with how few people (c0014, c0117).
-coder unsure: 121 threads out of scope.
+coder unsure: three readers, no one held the week; Operation SCP-PLACE only a title (62th1p); the Discord location decision unseen (dfrrs65); sightings may be different marks (dfp00g1, dfqyj4j).
 carrying:   c0011, c0020, c0117
 not this:   a room that organised from the start; a Discord came only at h69.4, after members said nothing would happen without one.
 ended:      last coordinating turn h71.73 (c0098, coordinates for repair); after h73 the Shark Punching Centre.
 struck by:  "SCP-000 is presently uncontained, as the Foundation lacks the human resources required to fully stop its expansion."
 made:       one artwork, SCP Foundation, 168 px at the edge, 458 placers, placed from h2.41; writers placed 0.15, pre-event members 0.048. The canvas keeps a small Foundation mark.
+later:      2026-10-07, catch-up: a visitor returned to the sub after seeing the logo (dfqyj4j); after the close the Discord was kept for general chat (dfs4npi). The brief shows members joking that a linking bot can never be contained (dffru11); the void was written up the same way.

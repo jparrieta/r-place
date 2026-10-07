@@ -4,9 +4,10 @@ week:       h2.7 to h9.1 small flags and a warning; h13.2 the giant flag; h29.5 
 named:      the blue corner as threat (c0006).
 goal:       trans flags on the canvas; several small ones from h2.7; a giant one by h13.2.
 unsettled:  whether to go vertical over others' art (c0010).
-coder unsure: 52 threads out of scope.
+coder unsure: the organising post's body and several replies deleted (62n7lx, dfnz93u); the Twitch overview and linked flag images unseen (dfo26bb, 62qtaf).
 carrying:   c0002, c0007, c0010
 not this:   the room where the giant flag was organised; its planning ran in r/asktransgender and r/TransFlagPlace.
 ended:      last coordinating turn h9.14 (c0010, a warning against the vertical addition); h29.5 congratulations.
 struck by:  "Don't do the Vertical Addition!"
 made:       one artwork, Transgender flag, 12,716 px in the centre ring, 65,866 placers, shared with transgenderplace and traaaaa, the same flag r/asktransgender links, placed from h0.97; writers placed 0.01, pre-event members 0.007. The canvas keeps a flag this room's writers barely placed.
+later:      2026-10-07, catch-up: the call to defend left no report of defence (62n7lx); this record names no other sub, so the not-this venues come from other rooms. The brief shows the Transgender Day of Visibility announced for the eve of the canvas (62dqmc); the first flag post came that day.

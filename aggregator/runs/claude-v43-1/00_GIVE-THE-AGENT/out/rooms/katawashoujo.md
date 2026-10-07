@@ -4,9 +4,10 @@ week:       h13.8 a call; h35 to h41 the heart; h55 to h63 the purple question; 
 named:      r/Texans for its redesign (c0004, c0010); anime_irl as neighbour (c0027); r/sweden (c0017); the blue corner (c0043).
 goal:       a Katawa Shoujo heart; found under way at h41.2; held.
 unsettled:  whether to turn the black background purple (c0024, c0037, c0042).
-coder unsure: 31 threads out of scope.
+coder unsure: the heart call's body deleted (62xfv4); the Steam group's guide and talk unseen (dfrcjjz); who started the image not shown.
 carrying:   c0021, c0037, c0042
 not this:   a room that planned its heart in the thread; a member reported it already made, and a builder spoke for the design.
 ended:      last coordinating turn h63.09 (c0044, coordinates next to anime_irl); after h73 surprise it lasted.
 struck by:  "I will repair this for as long as I live"
 made:       one artwork, Katawa Shoujo, 294 px at the edge, placed from h2.02; writers placed 0.107, pre-event members 0.029. The canvas keeps the heart.
+later:      2026-10-07, catch-up: a builder said the image was the work of a Steam group following an official guide, now mostly maintaining (dfrcjjz); after the window a member said they took a heart already there and recoloured it (dfu1rne). The brief shows Misha's laugh as a running character bit (dfifdia); the first call was for Misha.

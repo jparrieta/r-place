@@ -4,9 +4,10 @@ week:       h24 a proposal; h44.8 to h52.9 a heart, the void; h54 to h58 done; h
 named:      r/placehearts as host of the heart (c0028, c0029); the void as both threat and party to a compromise (c0020, c0027); r/GreenLattice applied to (c0047).
 goal:       a Jamaica flag; made small in a heart at h51.2; held; a larger flag tried.
 unsettled:  how big a flag so few people can keep (c0008, c0010, c0049).
-coder unsure: 16 threads out of scope.
+coder unsure: Discord's outline talks and permission seen only as returned (dfqp2eg, dfqt87g); a deleted parent hides the neighbours' terms (dfqokhi); Green Lattice's answer and the larger flag's fate not shown (634op8).
 carrying:   c0010, c0029, c0047
 not this:   a room that won space alone; it took a heart with permission and applied to Green Lattice.
 ended:      last coordinating turn h60.94 (c0053, a rally for the new flag); h70.2 a remark on politics.
 struck by:  "lol we likkle but we tallowah"
 made:       one artwork, Jamaican Heart, 102 px in the middle ring, 321 placers, placed from h2.22; writers placed 0.068, pre-event members 0.003. The canvas keeps the heart.
+later:      2026-10-07, catch-up: r/reggae, r/caribbean and r/trees were also asked for help, with no help reported (dfqt0q4); one celebrant said they did not know exactly what they had done (dfr1bs1). The brief shows members writing in patois (dfhary6), as the canvas talk did.

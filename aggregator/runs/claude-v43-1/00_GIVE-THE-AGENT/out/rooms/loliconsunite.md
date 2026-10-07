@@ -4,9 +4,10 @@ week:       h22.9 to h31 attacks; h37 a move; h47 to h64 new signs, neighbours, 
 named:      r/hentai's sign as neighbour (c0029, c0030); r/Taiwan (c0060); New Zealand and Moroccan users as attackers (c0024, c0062); a Discord server as origin (c0002).
 goal:       a lolicon message; moved once; rebuilt as LOLI; kept.
 unsettled:  whether recruiting would bring more damage than help (c0057, c0058, c0059).
-coder unsure: 2 threads out of scope.
+coder unsure: 27 deleted or removed bodies, six of them posts (62tuyi, 631nj5, 635d5y); talk inside the Discords unseen (dfp4lcr, dfqp8fj).
 carrying:   c0002, c0010, c0061
 not this:   a room that planned in Discord; one member says Discord only spread word of the effort.
 ended:      last coordinating turn h68.10 (c0073, a rally); after h73 credit and a SFW sub.
 struck by:  "Flat is justice and justice always wins."
 made:       two artworks at the edge, Loli 153 px and Flat is #1 285 px, placed from h1.28, long before the room's first turn; writers placed 0.161, pre-event members 0. The canvas keeps the signs.
+later:      2026-10-07, catch-up: help was also asked in a hentai Discord (dfqp8fj); at the end a member said the Flat is #1 sign was partly lost (dfs0n8i). A member declined to approach other moderators for want of a mandate (dfrh2bm). The brief is the harness's empty brief.

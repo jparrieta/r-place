@@ -4,9 +4,10 @@ week:       h29 to h41 Poland and neighbours; h45 to h60 routing round others; h
 named:      Poland as invader then ally (c0004, c0033); Purple Corner (c0035, c0069); The Far Left Side (c0024); r/formula1 (c0036, c0087); r/shawnhate, r/myst, AMD and others as neighbours (c0045, c0057, c0096).
 goal:       a long snake that grows without destroying others; kept to the end.
 unsettled:  whether the snek carries a politics, and whether to use bots (c0062, c0092, c0082, c0086).
-coder unsure: 2 threads out of scope.
+coder unsure: 17 deleted or removed items, five of them posts (635lfk, 62xxhf, 637oo5); Discord agreements seen only as returned (62w665, 634yqk); no prehistory, the brief is empty.
 carrying:   c0033, c0099, c0101
 not this:   a room that grew by force; most of its growth was routed round others on request.
 ended:      last coordinating turn h72.00 (c0092, asked about Pinochet memes; c0091 at h71.91 setting defence); after h73 thanks.
 struck by:  "sNEK no break."
 made:       one artwork, No Step On Snek!, 3,790 px at the edge with 16,975 placers, placed from h1.05; writers placed 0.068, pre-event members 0. The canvas keeps the snek.
+later:      2026-10-07, catch-up: not this qualified; one post edit said of the Bills logo "Kill it" (62wpfs). The room called itself organic and bot-free (dfs1o8m), but a member reported using ten accounts (dfsjhxk). After the close the snek moved to another canvas (63eixd, 63emnn). The brief is the harness's empty brief.

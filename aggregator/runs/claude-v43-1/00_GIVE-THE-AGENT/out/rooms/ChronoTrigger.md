@@ -4,9 +4,10 @@ week:       h4.5 to h20 Crono, trolls, a guide; h25 to h55 Marle, sprites, agree
 named:      the 76ers, Muse, Kanye, Waldo, Lucario under boundary deals (c0050, c0045, c0062, c0023, c0056); EarthBound and Final Fantasy as allies (c0057, c0071); 4chan trolls (c0011).
 goal:       the Chrono Trigger cast; begun with Crono before h4.5; grown sprite by sprite; held.
 unsettled:  whether to add sprites or repair Marle first (c0019, c0037, c0068).
-coder unsure: 7 threads out of scope.
+coder unsure: Discord's sprite decisions seen only as returned (dfqjfsr, dfqng0k); 32 bodies deleted, some calls only titles (62u8pa, 63842i); work on a place clone unseen (634yt1).
 carrying:   c0015, c0045, c0083
 not this:   a room that grew by taking space; members said boundary alliances with every neighbour limited what they could add.
 ended:      last coordinating turn h71.10 (c0072, keeping Marle covered); after h73 thanks and accounts.
 struck by:  "We had boundary alliances with everyone around us, so there was limited space with which to work."
 made:       one artwork, Chrono Trigger, 3,776 px in the middle ring, 7,693 placers, placed from h1.02, before the room's first turn; writers placed 0.152, pre-event members 0.007. The canvas keeps the cast.
+later:      2026-10-07, catch-up: the 76ers approved Lucca's overlap, but people outside their Discord kept restoring the border (dfqzv7c); one member wasted pixels on a stale view (dfqx5pf). The brief shows a running joke that a GIF had no Magus (dfkt5d9); Magus was proposed and put after Marle's repair (62uob8, dfp9aql).

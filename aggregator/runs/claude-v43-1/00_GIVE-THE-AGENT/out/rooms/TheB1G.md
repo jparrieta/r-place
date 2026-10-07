@@ -4,9 +4,10 @@ week:       h31.8 to h38 calls; h51.8 to h59 a truce, spots, a bot; h62 to h72 a
 named:      Argentina as ally (c0033, c0034); Venezuela, Finland and Texas as threats (c0005, c0036, c0040); Michigan trolls (c0016); Temple and Notre Dame as neighbours (c0030, c0038).
 goal:       a B1G logo with every school; called at h38.1; held, with some schools missing.
 unsettled:  keep or break past agreements (c0029, c0030); which schools get room (c0038, c0042).
-coder unsure: 1 thread out of scope.
+coder unsure: school subs, a UIUC megathread and a Discord seen only as returned (635h1d, 6380cb, 637t5m); 30 bodies deleted, so one target of "They are weak" is lost (dfqvzls).
 carrying:   c0006, c0019, c0045
 not this:   a room where rival schools kept fighting; they argued for and ran a shared defence.
 ended:      last coordinating turn h72.84 (c0043, Indiana's code shared); after h73 cleanup argued.
 struck by:  "Test is over, pencils down - no cleanup work. The final version is just that, final."
 made:       two artworks at the edge, Big Ten Corner 8,464 px with 32,364 placers and the B1G logo 512 px, placed from h1.09; writers placed 0.029, pre-event members 0. The canvas keeps a corner the room's writers barely placed.
+later:      2026-10-07, catch-up: not this qualified; a post petitioned to rid the corner of Notre Dame (6374gs), and members answered that covering college logos was picking fights (dfrwem5, dfry2gt). A dedicated sub was made, but members chose to stay (633w9m, dfr5yco). The brief shows a quiet sports sub and changes nothing.

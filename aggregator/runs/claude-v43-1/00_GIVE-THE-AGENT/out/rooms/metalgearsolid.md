@@ -4,9 +4,10 @@ week:       h5.9 to h16 spots lost; h31 to h56 Snake, Team Yellow; h57 to h71 ru
 named:      Team Yellow as partner (c0054); Rainbow Road and Waldo as takers (c0009, c0013); NerdCubed under an agreement (c0063); Greenlattice refusing a portrait (c0099); r/FRC's bots (c0121).
 goal:       a Metal Gear sprite; tried from h6.5; Snake settled by h31.1; held, small.
 unsettled:  whether to try anything larger (c0092, c0117, c0159).
-coder unsure: 155 threads out of scope.
+coder unsure: three readers, no one held the week; Discord's templates and choices unseen (634bc0, dfrk1uj); the repeated call bodies deleted (62ow2v); the box dispute runs past the window (63ase1).
 carrying:   c0054, c0063, c0110
 not this:   a room that held space alone; it held Snake through Team Yellow's alliance and Discord.
 ended:      last coordinating turn h70.64 (c0132, sticking to the agreed design); after h73 thanks.
 struck by:  "We are Placers without borders, our purpose defined by the era we live in."
 made:       one artwork, Metal Gear Solid, 688 px at the edge, 1,213 placers, placed from h1.08; writers placed 0.199, pre-event members 0.134. The canvas keeps the little Snake.
+later:      2026-10-07, catch-up: the organiser counted ten people at most (dfragme); members undid each other's pixels (dfrbox3), and stray pixels were blamed on a forgotten bot script (dfrk5lr). The brief shows members answering with stock game lines (dfe701c, dflxltz), as the struck-by line recasts a game speech.

@@ -4,9 +4,10 @@ week:       h6 to h13 two flags; h20 to h33 a wave, a rebuild; h37 to h56 the ri
 named:      r/TransFlagPlace and the trans flag as host neighbour (c0066, c0069); r/indieheads, r/npr, r/aoe2 under truces or borders (c0133, c0095, c0102); r/placehearts asked for a heart (c0033).
 goal:       a bi flag; started by individuals from h10.0; rebuilt twice; held as a ribbon behind other art.
 unsettled:  whether to add text, and what (c0104, c0106, c0108, c0142).
-coder unsure: 132 threads out of scope.
+coder unsure: three readers, no one held the week; two Discords' talk seen only as returned (635b8t, dfrv90g); the second flag's fate unknown (dftk06u, dftke8o); images unseen.
 carrying:   c0063, c0064, c0102
 not this:   a room with one plan from the start; individuals made flags that were gathered into one thread only at h64.7.
 ended:      last coordinating turn h73.19 (c0142, preserve or write text); after h73 stock-taking.
 struck by:  "it's all individuals of the bi community"
 made:       four artworks in the centre ring, two bisexual flags and two hearts, the largest 360 px, placed from h0.96; writers placed 0.107, pre-event members 0.022. The canvas keeps the flags.
+later:      2026-10-07, catch-up: the member who said no common group existed later said they started the large flag and were its diplomat (dfqj51x, dfrv90g). A separate thread weighed April Fools as cover for coming out (62suou). The brief shows advice and Selfie Sunday threads and changes nothing.

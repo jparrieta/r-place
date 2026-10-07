@@ -4,9 +4,10 @@ week:       h14 to h22 a face begun; h28 to h33 April Fools and arrival; h49 to 
 named:      Docm77, Guude and r/Mindcrack as neighbours and planners (c0021, c0028); FTL as an expanding neighbour avoided (c0044, c0046); the Netherlands as destroyer (c0039); the Czech flag (c0036); Mojang logo builders asking help (c0030).
 goal:       Etho's face; settled at h20.4; moved at least twice; held, small and orange.
 unsettled:  colour and border of the face (c0026, c0043, c0044).
-coder unsure: 16 threads out of scope.
+coder unsure: Discord seen only in one warning (dfqe74n); r/Mindcrack's own decisions unseen (dfqejuz); deleted turns inside the move and defence threads (631ujh, 636chr).
 carrying:   c0007, c0038, c0046
 not this:   a room that sought FTL's protection; its record avoids FTL and keeps a black border against it.
 ended:      last coordinating turn h71.77 (c0051, refusing expansion); after h73 congratulations.
 struck by:  "Perfect finish: small, humble, but respectable logo"
 made:       one artwork, Etho, 100 px at the edge, placed from h1.58, before the room's first turn; writers placed 0.105, pre-event members 0.022. The canvas keeps the face.
+later:      2026-10-07, catch-up: the account changes nothing; a backup copy was refused with "Don't flee" (dfruhre) beside the refusal to expand (dfrvrkk). The brief shows members designing Etho wall art as a "mission" the week before (62euph), a shared design project ahead of the face.

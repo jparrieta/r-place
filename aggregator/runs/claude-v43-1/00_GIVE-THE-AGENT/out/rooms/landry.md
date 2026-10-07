@@ -4,9 +4,10 @@ week:       h16 a peace notice; h64 praise of Madoka Magica; h72.5 to h73.4 the 
 named:      Madoka Magica builders as displacers (c0003, c0011); r/Predators and the Celtics as neighbours built over (c0002, c0009); a K-pop logo (c0006).
 goal:       a Landry mark kept in peace; moved once; held.
 unsettled:  whose space the new spot was (c0002, c0006, c0009).
-coder unsure: 11 threads out of scope.
+coder unsure: the Madoka image unseen, so whether the praise was sincere is open (635gxa); the r/celtics request outside the record (dfrzw4i); one post body deleted (62s31s).
 carrying:   c0001, c0003, c0007
 not this:   a room that attacked; it apologised and offered help to those it built over.
 ended:      last coordinating turn h72.82 (c0007, an apology and offer to help hold the area); h73.4 confusion over the Celtics.
 struck by:  "Landry LOVES Madoka Magica, big big fan!"
 made:       one artwork, Landry, 182 px at the edge, placed from h2.28; writers placed 0.043, pre-event members 0. The canvas keeps Landry.
+later:      2026-10-07, catch-up: the Celtics charge was that Landry asked in r/celtics, was refused, and built anyway (dfrzw4i); the only answer was "huh?" (dfs0ttn). No Landry turn admits it or calls an attack. The brief is the harness's empty brief.

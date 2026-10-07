@@ -4,9 +4,10 @@ week:       h4.1 an emoji thread; h22.7 to h23.7 SoundGame; h42.3 to h42.4 the k
 named:      no other room by name; PG the Kiwi on the canvas (c0003).
 goal:       not stated in the record; the kiwi on the canvas is named after the fact.
 unsettled:  nothing argued.
-coder unsure: 127 threads out of scope.
+coder unsure: three readers, no one held the week; whether the kiwi emoji was made not shown (dfq2nxy); the official Discord's talk unseen (dfoyquh).
 carrying:   c0001, c0003, c0005
 not this:   a room that organised its kiwi in its threads; the coded record only names it later as an emoji idea.
 ended:      no coordinating turn coded; last coded turn h42.37 (c0003, an emoji idea).
 struck by:  "it could have a double meaning of PG teamwork."
 made:       three artworks at the edge, Picture Game 284 px, the r/picturegame logo 130 px, and Remnants of the /r/PictureGame Kiwi 40 px, placed from h1.16; writers placed 0.101, pre-event members 0.107. The atlas names the kiwi's remnants; the room's coded talk names the kiwi only as an emoji source.
+later:      2026-10-07, catch-up: the account changes nothing; no item in the record uses pixel, coordinate or canvas. The brief shows the emoji nominations for the Discord server as a shared project of the week before (62a4hz); the kiwi was folded into it.
