@@ -4,9 +4,10 @@ week:       h23 to h35 doubt; h45 to h56 calls; h56 to h64 Saitama; h66 to h72 u
 named:      r/aceattorney and the Dallas Stars as partners by agreement (c0108, c0083); the pink vomit monster, Sheffield and Green Lattice as neighbours (c0085, c0115, c0090); Godzilla as crusher (c0091).
 goal:       Saitama; begun at h47.8; finished at h63.9; held.
 unsettled:  whether the room could organise at all (c0005, c0044, c0068).
-coder unsure: 206 threads out of scope.
+coder unsure: the official and personal Discords and the Green Lattice form unseen (633hg3, dfra9ix, dfr7sak); bodies removed under surviving titles (62wibn, 635dwi, 63cqhd); designs and final screenshots unseen.
 carrying:   c0086, c0108, c0111
 not this:   a fandom eager to draw; for a day members doubted or mocked the calls.
 ended:      last coordinating turn h71.73 (c0110, red pixels attacking Saitama); after h73 screenshots and thanks.
 struck by:  "subreddits created exclusively to make (and unleash) a beast on the canvas have less priority than older subreddits."
 made:       one artwork, One-Punch Man, 1,214 px at the edge, 3,485 placers, placed from h1.12; writers placed 0.107, pre-event members 0.014. The canvas keeps Saitama. The linked region was placed from h1.12; the room's first call came at h23.2.
+later:      2026-10-07, catch-up: the official plan set out to cover Sheffield (633hg3), yet one member later thanked the room for not absorbing it (dft9zvw). The brief shows the power-ranking fights (dflevxk) members blamed for the room's lack of teamwork, and repeat posts removed by moderators (dfkvtwd).

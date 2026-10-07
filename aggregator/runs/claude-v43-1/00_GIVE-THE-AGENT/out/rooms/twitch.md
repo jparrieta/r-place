@@ -4,9 +4,10 @@ week:       h6 to h8 a logo call; h28 to h34 emotes, a tree; h39 to h46 Kappa; h
 named:      r/treeplace as a neighbour asking room (c0010); CS:GO, the pride road and the void as crowding (c0019, c0021).
 goal:       a Twitch mark; several tries; a Kappa found and fixed after h41.1.
 unsettled:  where Kappa could go without killing other work (c0023, c0026).
-coder unsure: 503 threads out of scope.
+coder unsure: seven slices, no reader held the week; the logo, TriHard, Pepe, Glitch and one-stream posts lost their bodies (62opgh, 62v6rr, 62vzkp, 630ugj); no outcome reported for any image; a deleted parent (dfpjxnl).
 carrying:   c0007, c0021, c0026
 not this:   a large sub organising a mark; coded share 0.008, and calls came from single members.
 ended:      last coordinating turn h46.15 (c0026, Kappa nearer Glitch without killing others); after h49 r/place explained.
 struck by:  "It's a goddamn revolution."
 made:       one artwork, Remains of Twitch, 304 px at the edge, centre 226, 155, 1,625 placers, placed from h2.12; writers placed 0.062, pre-event members 0.039. The canvas names what is left of a Twitch work; the room's calls were at other coordinates.
+later:      2026-10-07, catch-up: the goal line's fixed overstates it; a repair template was offered, and no turn reports the Kappa fixed (dfq7pyh). The brief shows emotes as shared words (6202nc) and AutoModerator's rule 5 removals (dfktdrz), the rule that removed the first logo call.

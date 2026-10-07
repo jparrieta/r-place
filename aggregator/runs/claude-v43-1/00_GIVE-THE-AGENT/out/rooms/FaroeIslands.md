@@ -4,9 +4,10 @@ week:       h22 to h30 moves; h51 to h58 Iceland, France; h64 to h71 hearts, pac
 named:      Iceland, Wales and the Philippines as partners in flags and hearts (c0012, c0042, c0034); the French and the Finns as flags taken or spared (c0018, c0053).
 goal:       a Faroese flag; restarted several times; three flags and hearts by h71.1.
 unsettled:  take others' flags or leave them (c0020, c0052, c0053).
-coder unsure: 8 threads out of scope.
+coder unsure: a deleted parent hides what prompted the Finnish takeover admission (6324bj, dfqpdy4); a progress post's body deleted (6333z1); deleted turns in the French dispute; the Welsh Discord unseen (63635r).
 carrying:   c0012, c0021, c0052
 not this:   a small nation that kept to itself; it worked through hearts and pacts with Iceland, Wales and the Philippines.
 ended:      last coordinating turn h71.13 (c0055, the unity heart finished); after h73 three flags counted, PlaceTwo.
 struck by:  "Better not take their flag. Not just because it's rude"
 made:       three artworks at the edge, Flag of the Faroe Islands 450 px with 2,374 placers, Faroe Islands 198 px and a heart, placed from h1.66; writers placed 0.04, pre-event members 0. The canvas keeps the flags.
+later:      2026-10-07, catch-up: taking space was a real strand; the French called the build an erasure of their flag (dfr1ay1), and one member admitted an earlier try at the Finnish flag (dfqpdy4). Flags went on PlaceTwo after the close (63bffz). The brief shows travel questions and changes nothing.

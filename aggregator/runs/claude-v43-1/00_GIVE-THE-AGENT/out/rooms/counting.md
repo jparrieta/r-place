@@ -4,9 +4,10 @@ week:       h4 to h19 banners, an alliance; h23 to h50 defence, a second banner;
 named:      r/FlagAlliance, r/ukrainian_flag and Green Lattice as allies let into the territory (c0014); TheFarLeftSide as attacker (c0023); r/livecounting as the sister banner (c0011, c0022).
 goal:       an r/counting banner; made by h14.0; a second at h36.1; reported lost at h73.2.
 unsettled:  whether the alliance was an annexation (c0014, c0016).
-coder unsure: 105 threads out of scope.
+coder unsure: the FlagAlliance greeting, cairn demand and next-level call lack bodies or replies (62rxbg, 62y9i3, 6311jm); one image unreadable (6337kp); side-count place talk first set out of scope (dfoq6e5, dfs9qso).
 carrying:   c0014, c0018, c0023
 not this:   a sub whose canvas talk was a large part of its record; coded share 0.007, and most turns count.
 ended:      last coordinating turn h49.79 (c0108, a call to take the place game further); after h73 the banners mourned.
 struck by:  "We didn't pay attention to the second banner."
 made:       one artwork, /r/counting, 179 px at the edge, 568 placers, centre at 908, 353, placed from h1.43 to h72.91; writers placed 0.032, pre-event members 0.034. The room said its banners did not make it; the linked region sits near the second banner's 920, 350.
+later:      2026-10-07, catch-up: the canvas's lasting effect in the room was newcomers joining the count, welcomed as place migrants (dfqidgv, dftgnji); the reinforcement call drew no answer (dfptgqk). The brief shows Free Talk Friday (62jqg0), where the canvas talk began, and the welcome given new counters (dfgedqc).

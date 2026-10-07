@@ -78,3 +78,5 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-07 09:07 2026-10-07T09:04:13Z  closed A1.A1b-41: checkpoint 8292386ea79f6710, cut close, advances True, git pushed; restarted at A1b-42.
 - 2026-10-07 09:20 J: prototypes in a folder, the analyst chooses. scripts/build_prototypes.py (change groups applied only where the after-cut lines stand unchanged, latest leg first). Dry run on today's notes: 447 rooms, 213 complete, 133 partial, 101 none; 548 groups put back, 244 left; ~10,250 words. Build for real after A1b-48 (notes still change), then pretrim_review.py, then the message (analysis/2026-10-07-msg-restore.txt, revised) and A1b-49.
 - 2026-10-07 09:20 2026-10-07T09:17:31Z  closed A1.A1b-42: checkpoint 3f0c12bc66a57eb2, cut close, advances True, git pushed; restarted at A1b-43.
+- 2026-10-07 09:32 2026-10-07T09:31:50Z  closed A1.A1b-43: checkpoint eebae7ccf3402860, cut close, advances True, git pushed; restarted at A1b-44.
+- 2026-10-07 09:32 J: pause after A1b-44 (no internet for a while); ~/catchup.pause set.

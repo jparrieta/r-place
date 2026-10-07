@@ -4,9 +4,10 @@ week:       h18 to h28 April Fools, a shoutout; h47 to h58 the butterfly, LIS; h
 named:      HunterXHunter as neighbour with a border (c0046, c0058); Wales and the Faroe Islands as neighbours objecting to Max (c0052, c0053); the rainbow builders as mutual watchers (c0045).
 goal:       a Life is Strange tribute; the butterfly done at h52.7; a larger Max dropped at h71.7; held.
 unsettled:  how big to build (c0050, c0055).
-coder unsure: 118 threads out of scope.
+coder unsure: two slices, no reader held the week; deleted turns in the conflict and Max threads (6323ur, 636b5k); a DM screenshot returned without text (dfskrhg); the Wales, Faroe and HxH threads unseen.
 carrying:   c0025, c0049, c0054
 not this:   a room that grew by pushing; it moved twice and dropped Max to respect neighbours.
 ended:      last coordinating turn h72.52 (c0054, Max must respect neighbours); after h73 a community effort claimed.
 struck by:  "Its not much, but its ours!"
 made:       one artwork, Life is Strange, 283 px in the middle ring, 1,244 placers, placed from h1.35; writers placed 0.174, pre-event members 0.079. The canvas keeps the butterfly.
+later:      2026-10-07, catch-up: not this qualified; one member granted that some of the room trolled other placers (dfses1o), and Max was left unfinished at the close, not dropped by decision (dfs0wkl). The brief shows the Pricefield pairing name (dfdhikr), the Pricefielders the defence call summoned.

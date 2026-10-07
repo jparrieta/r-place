@@ -4,9 +4,10 @@ week:       h25 to h37 the flag, REP. DOM.; h44 to h56 attacks, scripts, Puerto 
 named:      r/PuertoRico as partner (c0049, c0050); the Dutch, Holland and Germans as attackers (c0033, c0063, c0064); r/placeNL as a diplomatic channel (c0068).
 goal:       a Dominican flag; grown by h36.7; erased by h71.9; a heart flag kept.
 unsettled:  script or hand, and where to rebuild (c0073, c0074, c0077).
-coder unsure: 7 threads out of scope.
+coder unsure: five deleted comments in the flag thread (62u8tw); the small-flag post only a title (6383dc); images, templates and the pastebin script unseen; r/placeNL's answer absent (636a61).
 carrying:   c0018, c0050, c0063
 not this:   a room that only defended itself; it ran its script for Puerto Rico's flag too.
 ended:      last coordinating turn h72.09 (c0078, manual coordination preferred); after h73 a small flag, barely made it.
 struck by:  "Small but proud, we stand with the boricuas!"
 made:       two artworks at the edge, (Covered) Dominican Flag 330 px with 1,517 placers and Dominican Republic heart 67 px, placed from h0.97; writers placed 0.137, pre-event members 0. The canvas fields name the flag covered and keep the heart.
+later:      2026-10-07, catch-up: one helper first took the boricuas for attackers before running the script for both flags (dfqx06q); the Dutch bots are a member's claim (dfrw1js). The brief shows a quiet sub of 28 items and changes nothing.

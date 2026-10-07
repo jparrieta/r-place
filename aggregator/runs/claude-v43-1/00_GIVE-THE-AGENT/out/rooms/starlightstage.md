@@ -4,9 +4,10 @@ week:       h2 to h20 April Fools, a milestone; h63 to h66 Akane, neighbours; h6
 named:      Love Live and CUTIES as neighbours (c0084, c0086); the Indonesian flag and r/TheBlueCorner as spaces avoided (c0089, c0121); COSI and r/SquareSpiral at the end (c0105, c0106).
 goal:       Akane; begun at h63.7; done by h73.1; held.
 unsettled:  where to fit, and war or retreat (c0086, c0091).
-coder unsure: 37 threads out of scope.
+coder unsure: two slices, no reader held the week; the talk that chose Akane absent (635c86); three deleted comments in the build; the comparison page's keepers unseen; the retrospective runs past the window (63a5gh).
 carrying:   c0071, c0084, c0093
 not this:   a room that fought for space; it chose a small piece late and avoided flags and corners.
 ended:      last coordinating turn h72.89 (c0108, no additions because of agreements); after h73 last-minute fixes.
 struck by:  "neighbors in Idol Hell"
 made:       one artwork, Akane Hino, 682 px at the edge, 6,312 placers, placed from h1.56; writers placed 0.042, pre-event members 0.028. The canvas keeps Akane.
+later:      2026-10-07, catch-up: the CUTIES overlap never shows a settlement (dfrjq6c); one member did nothing for fear of damaging Akane (dfsrx62). The brief shows Idol Hell (dfn10rc) and members called P's (dfie4tb) already in use, the words behind the Idol Hell neighbours and the MeganePs.

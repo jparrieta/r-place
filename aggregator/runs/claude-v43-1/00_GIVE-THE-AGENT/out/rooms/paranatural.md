@@ -4,9 +4,10 @@ week:       h38 the post and its edits; h46 to h51 Ghibli; h54 to h57 a lost spo
 named:      the Void as taker (c0006, c0016); r/ghibli as a neighbour run over (c0013, c0017); r/Terraria and r/battlecats as neighbours asking bounds (c0023, c0026).
 goal:       Eightfold; tried in several spots; not completed; RIP said in the post.
 unsettled:  where Eightfold could go (c0009, c0010, c0027).
-coder unsure: 7 threads out of scope.
+coder unsure: the post's edits carry no times of their own (62y6ml); the Discord's choice of spots unseen; plan images and the screenshot unseen (dfsd4vz); the Terraria requests unanswered (dfqxzt3, dfqyt56).
 carrying:   c0011, c0017, c0020
 not this:   a room that ran over Ghibli on purpose; members apologised twice and Ghibli's builder gave the spot.
 ended:      last coordinating turn h57.10 (c0027, the new plan shown to r/battlecats); after h73 a screenshot of the closest attempt.
 struck by:  "Guess we're a little too small to make this work, couldn't build fast enough."
 made:       one artwork, Eightfold, 15 px at the edge, centre 98, 84, area 1 px, 105 placers, placed from h3.05; writers placed 0, pre-event members 0. The canvas links a 15 px Eightfold; the room said it did not survive.
+later:      2026-10-07, catch-up: the doing line's h46.6 clause is wrong; an r/ghibli visitor said the room ran over its art, and the organiser apologised (dfq8jet, dfqdpkm). The brief shows a 1,500-subscriber milestone (624fdi), the small community the post named.

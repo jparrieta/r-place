@@ -4,9 +4,10 @@ week:       h4 to h25 the logo, the Czech flag; h32 to h53 borders, Dutch; h58 t
 named:      the Czechs and the Dutch as pressing neighbours (c0011, c0067); Armenia, the Pink Bird and Texas as neighbours with deals (c0053, c0091, c0057); Hermitcraft as helpers (c0068).
 goal:       Mindcrack logos and faces; first made at h4.9; rebuilt and moved; four held.
 unsettled:  scripts or hand work, and how far to give way (c0083, c0086, c0069).
-coder unsure: 107 threads out of scope.
+coder unsure: three slices, no reader held the week; the Dutch apology's replies nearly all removed (639cud); the FLOB, Netherlands and Hermitcraft Discords and Justin's stream seen only as returned (dfqajul, dfqgwsb).
 carrying:   c0069, c0087, c0091
 not this:   a room that fought the flags; it ceded pixels and refused to treat a smaller neighbour as it was treated.
 ended:      last coordinating turn h71.45 (c0118, a Minecraft beef symbol if a spot is found); after h73 thanks, Dutch apologies.
 struck by:  "I don't think we want to be looked at by them as how we are looking at the dutch group."
 made:       four artworks at the edge, Guude Boulderfist twice, Mindcrack 255 px and KurtJMac, placed from h1.22; writers placed 0.159, pre-event members 0.057. The canvas keeps the logos.
+later:      2026-10-07, catch-up: not this qualified; the restraint came after MenOnKazoo objected that the room had expanded into its logo (633yh1, dfr5pxo). The brief shows the FIU and Weekly Recap formats (62ddbo, 61c6md), which carried the canvas after the close (639sof, 63bxgr).

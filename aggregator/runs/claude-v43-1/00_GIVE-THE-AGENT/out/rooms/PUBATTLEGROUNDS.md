@@ -4,9 +4,10 @@ week:       h17 to h45 April Fools, the hack; h45 to h53 the logo; h53 to h65 ra
 named:      r/ainbowroad as overrunning neighbour (c0080, c0098); RIT and its Slime bot as overlapping (c0142, c0143); the Blue Corner as gatekeeper (c0118); the void as last attacker (c0154).
 goal:       a PUBG logo; done at h52.2; moved twice; reported gone at h71.0.
 unsettled:  move or hold, and whether to bot (c0094, c0098, c0131).
-coder unsure: 2,848 threads out of scope.
+coder unsure: many slices, no reader held the week; deleted bodies in the optimization joke, the hack opening, the Angus answer and logo turns (62rrmg, 62yqqp); images unseen; bots only members' reports (dfri1vy).
 carrying:   c0080, c0143, c0159
 not this:   a large game sub with a large mark; 71 coded authors, a 192 px logo, reported destroyed.
 ended:      last coordinating turn h70.07 (c0152, coordinates and the original for repair); after h73 the virus called too strong.
 struck by:  "This means war! One-pixel-every-5-minutes of WAR!"
 made:       one artwork, PUBG, 192 px at the edge, 948 placers, placed from h2.17; writers placed 0.287, pre-event members 0.223. The canvas links a PUBG region at 172, 424; the room reported it gone at h71.0.
+later:      2026-10-07, catch-up: one member asked whether the rainbow push was r/ainbowroad's own decision (dfqrw66); the Slime maker's contact with the bot operators is not shown to have worked (dfri1vy). The brief shows update and server complaints (626my2), the grievance the optimization fake-out played on.

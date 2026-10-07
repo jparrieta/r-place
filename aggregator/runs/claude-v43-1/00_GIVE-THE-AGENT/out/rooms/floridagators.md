@@ -4,9 +4,10 @@ week:       h3 to h21 debate, Tennessee; h21 to h47 the F, shrinking, moves; h54
 named:      Tennessee, FSU, UCF and Miami as rivals (c0008, c0098, c0107); r/thewhitevoid, r/Unturned, TheBlueCorner and the Nordic group as partners (c0090, c0057, c0093, c0075); r/smashbros thanked for overnight saving (c0129).
 goal:       a UF logo; begun at h21.7; shrunk at h31.7; held untainted.
 unsettled:  defend only or raid rivals (c0097, c0103, c0137).
-coder unsure: 53 threads out of scope.
+coder unsure: two slices, no reader held the week; the Discord's talk unseen (dfq9v0r); removed bodies under proposal and routine titles (636cwc); whether the maintenance bot ever ran not shown (dfpz7j6).
 carrying:   c0045, c0090, c0103
 not this:   a rivalry room bent on raids; from h58 members chose upkeep and neighbour help.
 ended:      last coordinating turn h72.74 (c0126, r/Unturned's request relayed); after h73 thanks and flair.
 struck by:  "Just protect our own logo, be a good neighbor to other pixels, and never mind what anyone else has."
 made:       one artwork, University of Florida, 925 px at the edge, 5,945 placers, shared with ufl, placed from h1.26; writers placed 0.177, pre-event members 0.123. The canvas keeps the logo.
+later:      2026-10-07, catch-up: the room shrank the F because members called the big plan unsustainable (dfppt2t); a moderator removed raid talk to avoid provoking a rival sub (dfr2n59). The brief shows the game-thread format (61cxqm), reused for the defence gamethread (632myz).

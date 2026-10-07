@@ -4,9 +4,10 @@ week:       h8 to h14 two requests; h52 to h64 the logo found, enlarged, the Col
 named:      the Colorado flag builders and their Discord as helpers (c0011, c0012); the US flag, DU and CSU as neighbours (c0014, c0021); r/trees as neighbour (c0029).
 goal:       a CU logo; found already there at h53.3; made bigger; held.
 unsettled:  what to add beside the logo (c0013, c0016).
-coder unsure: 19 threads out of scope.
+coder unsure: the first two calls survive only as titles (62p9nb, 62r27t); deleted turns in the main thread (dfqwvaw, dfr99gj, dfredql); the Colorado flag Discord seen only through invites (dfqu2b8); images unseen.
 carrying:   c0006, c0011, c0021
 not this:   a room that made its own logo; at h53.3 members found one already there and joined the Colorado flag's Discord.
 ended:      last coordinating turn h68.12 (c0022, a Chip tried); after h73 the final canvas shown.
 struck by:  "don't we already have one?"
 made:       one artwork, University of Colorado Boulder, 212 px in the centre ring, 595 placers, placed from h0.98; writers placed 0.107, pre-event members 0.017. The logo was on the canvas from the first hour; the room's calls at h8.1 and h52.5 found it.
+later:      2026-10-07, catch-up: the not-this line overstates the Discord; the record shows invites, not members joining (dfqu2b8, dfreqyl). The neighbour is r/treeg, corrected from r/trees (dfs8p4c); one member said the banner was spoiled for the finale (dfsblm5). The brief shows members called Buffs (6209r9), as in Sko Buffs.

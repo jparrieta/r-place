@@ -4,9 +4,10 @@ week:       h37 to h43 the logo; h58 to h62 a neighbour, r/udub; h68 a recovery 
 named:      the Android builders as friendly neighbours (c0007, c0015); r/udub as invader with scripts (c0010, c0013).
 goal:       a SHISHAMO logo; drawn by h39.3; damaged by h68.7; a recovery planned.
 unsettled:  how to recover the text, or move it (c0016, c0017).
-coder unsure: 2 threads out of scope.
+coder unsure: the Android post's body removed, hiding its proposal (633y1l); a reply and two comments deleted; the template, script and images unseen (62xy0j); r/udub's side absent (dfr77nk).
 carrying:   c0001, c0008, c0013
 not this:   a room that drew by hand alone; its first post gave a script with the template.
 ended:      last coordinating turn h68.74 (c0017, a plan B to move the art three pixels); after h73 praise and newcomers.
 struck by:  "the purple/brown guys are using a script and i cant keep up."
 made:       one artwork, SHISHAMO, 361 px at the edge, 1,004 placers, placed from h1.41; writers placed 0.055, pre-event members 0. The canvas keeps the logo. The linked region was placed from h1.41; the room's first call came at h37.1.
+later:      2026-10-07, catch-up: the account changes nothing; the help between the two drawings was conditional and defensive, and the invasion is one side's word (dfr6asi, dfr77nk). The brief is the harness's empty brief; the sub had no items that week.

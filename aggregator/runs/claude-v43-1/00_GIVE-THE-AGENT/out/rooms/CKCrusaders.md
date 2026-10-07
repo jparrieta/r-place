@@ -4,9 +4,10 @@ week:       h9 to h24 shields, orders, one design; h31 to h52 Nordic attacks, al
 named:      Sweden, Norway, r/eu4 and Texas as allies (c0033, c0056, c0054, c0069); Korea, Turkey and 4chan as targets or rivals (c0048, c0085, c0068); Paradox siblings as partners (c0006).
 goal:       crusader shields with DEUS VULT; one design from h23.5; finished at h64.4; held.
 unsettled:  which design, as revisions kept people at odds (c0032, c0049).
-coder unsure: 2 threads out of scope.
+coder unsure: the Discord that set designs and timed charges unseen (62sjns, dfpa18e); private messages only reported (dfp0ch3); 26 items deleted, 13 of them posts, among them an organising thread (62ps29).
 carrying:   c0032, c0049, c0059
 not this:   a war room in earnest; its crusade talk sat beside alliances and calls not to brigade.
 ended:      last coordinating turn h71.05 (c0078, keeping the crown symmetrical); after h73 the crusade honoured.
 struck by:  "it ALWAYS takes a while for people to get on the same page."
 made:       one artwork, Crusader Kings, 3,987 px at the edge, 22,281 placers, placed from h1.04; writers placed 0.071, pre-event members 0. The canvas keeps the shields.
+later:      2026-10-07, catch-up: not this qualified; a call to conquer Turkey was followed by a reported success (62yfxx, dfq0y0t). One member said after the close the room could not have kept going much longer (63ahyj). The brief is the harness's empty brief.

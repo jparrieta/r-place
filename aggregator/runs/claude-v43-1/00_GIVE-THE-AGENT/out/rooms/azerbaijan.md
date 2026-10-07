@@ -4,9 +4,10 @@ week:       h72.6 a call from r/turkey; h73.6 to h73.8 one member's small flag; 
 named:      r/turkey as the caller and helper (c0001, c0004).
 goal:       a mini Azerbaijan flag; attempted in the last half hour; shown at h73.8.
 unsettled:  how placing works (c0003, c0007).
-coder unsure: 23 threads out of scope.
+coder unsure: the one r/place thread is whole (637wtz); the flag image unseen (dfs227w); how the Turkish help was arranged not shown; no location, Discord or defence in the record.
 carrying:   c0001, c0002, c0004
 not this:   a national room that organised a flag; a visitor called, one member drew alone, and the canvas closed.
 ended:      last coordinating turn h72.60 (c0002, a mini flag considered); after h73 thanks and the end noted.
 struck by:  "Best I could do with only occasional help from turkish friendos"
 made:       one artwork, Azerbaijan, 118 px in the middle ring, 208 placers, placed from h1.55; writers placed 0.103, pre-event members 0.004. The flag region was placed from h1.55; the room's only call came at h72.6.
+later:      2026-10-07, catch-up: the account changes nothing; the r/turkey visitor wrote of a mini flag their side was considering, with no promises (637wtz). The brief shows Murad_97_14 writing 39 of 100 items that week, the member who later asked how placing works (dfs188o).

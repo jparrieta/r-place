@@ -4,9 +4,10 @@ week:       h19 a question; h41 a plot, a lost spot; h58 to h68 a tiny flag; h69
 named:      the rainbow builders and r/romnia as neighbours taking space (c0009, c0014); r/Bahrain as a neighbour asking help (c0023).
 goal:       a Kuwait flag; begun at h41.2; tiny flag done at h67.7.
 unsettled:  where a visible flag could go (c0006, c0007).
-coder unsure: 38 threads out of scope.
+coder unsure: one deleted comment after the first exchange (dfq51gn); the vertical plan image unseen (dfr6xxv); who placed which pixels, and who helped Bahrain, not shown (dfs0qdh).
 carrying:   c0009, c0015, c0023
 not this:   a national room with many builders; ten members wrote, and the flag is 70 px.
 ended:      last coordinating turn h69.16 (c0024, Bahrain's request repeated); after h73 Bahrain's flag confirmed.
 struck by:  "Yalla"
 made:       one artwork, Kuwait Flag, 70 px in the middle ring, 487 placers, placed from h1.77; writers placed 0.078, pre-event members 0.04. The canvas keeps the small flag; the linked region was placed from h1.77, long before the room's call at h41.1.
+later:      2026-10-07, catch-up: the account changes nothing; one member could not find the flag on mobile (dfree2q), and the rainbow deletion is one member's explanation (dfq1jpm). The brief shows local how-to questions and changes nothing.

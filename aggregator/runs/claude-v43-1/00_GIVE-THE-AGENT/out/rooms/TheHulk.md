@@ -4,9 +4,10 @@ week:       h31 to h37 defence, borders; h47 to h54 Croatia, the move; h70 to h7
 named:      Croatia as attacker and helper (c0032, c0054, c0086); the Yoshi egg and Parabola as neighbours with treaties (c0017, c0027); Green Lattice and Bulgarians as supporters (c0039, c0095).
 goal:       keep the Hulk; relocated at h53.7; held to the end.
 unsettled:  which changes count as griefing (c0088, c0093, c0098).
-coder unsure: none; 0 threads out of scope.
+coder unsure: four post bodies deleted under surviving titles (62xlvh, 631qnd, 6324lz, 6371dp); the r/Croatia moderator status only self-described (631luy); any private coordination unseen; no pre-week items.
 carrying:   c0041, c0064, c0086
 not this:   a room that only resisted; it agreed borders, moved itself and moved a neighbour.
 ended:      last coordinating turn h72.86 (c0099, driving out a person changing Hulk); after h73 a relocation threat refused, thanks.
 struck by:  "Some of the people there just don't want to honor it."
 made:       one artwork, The Hulk, 414 px at the edge, 942 placers, placed from h1.57; writers placed 0.117, pre-event members 0. The canvas keeps the Hulk.
+later:      2026-10-07, catch-up: survival was shared work; a Hulk member credited Croatians with help in the move and the last hour (dfs23w9). The h73.0 relocation demand came after placement had stopped (6382up). The brief is the harness's empty brief.

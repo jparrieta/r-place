@@ -1105,3 +1105,15 @@ A compaction fell after the anarchocapitalism edits and before its log line. Tha
 `validate.py A1` before the close: 0 errors, 184 warnings (notes over the 350-word guide, 22 of them from this block).
 
 Ledgers at the close: lexicon 1,289 lines, running file 734 lines (8 block-43 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 600 of 702 catch-up rooms are done. The next leg reads catch-up block 44, from counting (`order-A1.txt` line 1309).
+
+## Close report, leg A1b-44 (catch-up block 44), 2026-10-07
+
+Block 44 is read: 25 of 25 rooms, counting to transformers. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. All 25 old `coder unsure:` lines were replaced with case.md's limits and thread ids: 23 gave the brief's coverage, and two said none (TheHulk, tinytardis). Four briefs were the harness's empty brief (shishamo, TheHulk, CKCrusaders, tinytardis).
+
+Case.md showed an earlier line wrong or overstated in seven rooms: paranatural (an r/ghibli visitor, not a member, said the room ran over its art), cuboulder (Discord invites, not members joining; the neighbour is r/treeg), nintendo (Operation Mario began at h4.1, not h36.3), mysterydungeon (r/Chicago is not named in the window), tinytardis (the h70.7 formation is a later account), twitch (no Kappa fix reported) and transformers (no reply shown from r/ainbowroad or the blue corner). The later lines say so and the earlier lines stand. In lifeisstrange, mindcrack and CKCrusaders the later line qualifies the not-this line.
+
+One later line first used a gendered pronoun for an r/turkey visitor (azerbaijan); it was changed to they/them before logging. One running-file entry I had just appended carried a stray id; it was fixed before the close and logged.
+
+`validate.py A1` before the close: 0 errors, 208 warnings (notes over the 350-word guide, 24 of them from this block). The diary moved into part A1-47 during this leg.
+
+Ledgers at the close: lexicon 1,289 lines, running file 742 lines (8 block-44 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 625 of 702 catch-up rooms are done. The next leg reads catch-up block 45, from palestine (`order-A1.txt` line 1334).

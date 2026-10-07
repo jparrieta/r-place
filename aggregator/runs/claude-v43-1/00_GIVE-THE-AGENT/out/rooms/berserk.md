@@ -4,9 +4,10 @@ week:       h10 to h32 the Brand moved and done; h33 to h53 behelit, deals, a sh
 named:      r/darksouls and r/necrodancer as window partners (c0084, c0097); the red corner, r/placestart and DFTBA as pressures (c0024, c0087, c0054); the Cat guys as a deal partner (c0069).
 goal:       Berserk symbols; the Brand done at h32.0; a behelit and a shared window added; held.
 unsettled:  where the Brand should sit (c0025, c0028, c0099).
-coder unsure: 157 threads out of scope.
+coder unsure: four slices, no reader held the week; removed openings of the first Brand calls and the celebration (62q3kr, 63756c); deleted relocation replies (631yeo); the Discord's talk unseen; images not fetched.
 carrying:   c0057, c0084, c0098
 not this:   a single build that stayed put; it moved repeatedly and builders kept working at old spots.
 ended:      last coordinating turn h71.92 (c0125, r/place threads gathered into one topic); after h73 Griffith blamed in jest.
 struck by:  "Every 5mins I will fight back these demons"
 made:       one artwork, Berserk, 2,100 px at the edge, 6,925 placers, placed from h1.36; writers placed 0.178, pre-event members 0.055. The canvas keeps the work.
+later:      2026-10-07, catch-up: the feared r/placestart erasure was the room's own planned move (dfqncuu); the organiser's last report says the Behelit was not fully moved (dfrfjgh). The brief shows behelit sacrifice jokes (dfk3b4d) and moderators removing memes (dfmv59a), before the behelit build and the one-topic rule.

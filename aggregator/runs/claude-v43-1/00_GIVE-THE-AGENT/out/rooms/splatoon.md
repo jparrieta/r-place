@@ -4,9 +4,10 @@ week:       h0 to h11 April Fools, a squid; h21 to h35 squids, Iceland, Starry N
 named:      r/Iceland and the Starry Nighters as neighbours, one breaking a truce (c0018, c0051); r/placestart as gatekeeper (c0029, c0069); r/3Dprinting and FNaF as neighbours with deals (c0080, c0079).
 goal:       squids; several made from h22.1; most lost; one squid held.
 unsettled:  how many squids to keep, and which (c0027, c0062, c0063).
-coder unsure: 107 threads out of scope.
+coder unsure: three slices, no reader held the week; deleted bodies under surviving titles (62vwh9, 633rt5); the diplomacy Discord's talk unseen (dfqhj6x); images and templates not fetched.
 carrying:   c0051, c0069, c0093
 not this:   a room that held one mark; it made several squids and lost most.
 ended:      last coordinating turn h72.67 (c0100, asking the OSU-boos for space); after h73 the design not made.
 struck by:  "apparently they're only willing to talk to mods =/"
 made:       one artwork, Splatoon squid, 268 px at the edge, 829 placers, placed from h2.11; writers placed 0.232, pre-event members 0.216. The canvas keeps one squid.
+later:      2026-10-07, catch-up: a moderator offered relay but wanted the work community run (dfroowt); the border request was withdrawn after rogue users kept the border (dfryfgq, dfs15wq). The brief shows moderators calling members Squids during the Splatoon 2 Testfire (61aqrl), the mark the canvas carried.

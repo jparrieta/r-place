@@ -4,9 +4,10 @@ week:       h24 to h34 Autobots and Decepticons in play; h43 to h55 the emblem, 
 named:      r/ainbowroad, r/TMNT and the blue corner as neighbours with deals (c0033, c0057, c0088); r/placestart and Kenya as threats (c0060, c0081).
 goal:       a Decepticon emblem and an Autobot logo; the emblem done at h53.8; the logo under a deal at h72.0; both held.
 unsettled:  Autobot or Decepticon (c0051, c0084).
-coder unsure: 123 threads out of scope.
+coder unsure: two slices, no reader held the week; deleted replies in the build and alliance threads (62zu9i, 63754c); the Discord, other subs' decisions and images unseen; Kenya's bots only a member's claim (dfrtqz6).
 carrying:   c0022, c0070, c0075
 not this:   a faction war in earnest; Decepticon talk was play beside deals with neighbours.
 ended:      last coordinating turn h72.02 (c0057, the Autobot logo under a deal with r/TMNT); after h73 Decepticon forever.
 struck by:  "Can two fellow 80's icon lovers live and let live?"
 made:       two artworks at the edge, Deccepticon Insignia 431 px with 5,126 placers and Transformers Autobot logo 143 px, placed from h1.4; writers placed 0.098, pre-event members 0.025. The canvas keeps both.
+later:      2026-10-07, catch-up: the named line overstates two deals; no reply from r/ainbowroad or the blue corner is shown (dfqpdub, 63754c), and the r/placestart threat was answered as a mock-up (dfrdhk7). The brief shows Autobot scum as faction ribbing (dfluur6), the play carried onto the canvas.

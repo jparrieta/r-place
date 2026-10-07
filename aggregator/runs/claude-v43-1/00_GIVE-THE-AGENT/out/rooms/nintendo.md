@@ -4,9 +4,10 @@ week:       h2 to h18 April Fools, early attempts; h28 to h37 the Switch logo, M
 named:      the blue corner as obstacle (c0013, c0067); the red corner and PCMasterRace as proposed partner and target (c0017, c0018); r/Metroid, Tails and OSU as neighbours (c0131, c0023, c0149).
 goal:       a Nintendo mark; several tried; the Switch logo kept, a grander one failed by h48.8.
 unsettled:  which mark, and whether r/place belongs in the sub (c0070, c0132).
-coder unsure: 335 threads out of scope.
+coder unsure: sixteen slices, no reader held the week; removed post bodies hide many designs and results; whether removed authors went to Operation Mario not shown (dfq8l22); the portrait post's image removed (63c2hr).
 carrying:   c0013, c0101, c0121
 not this:   a sub that organised a single build; moderators channelled scattered calls into one megathread and removed the rest.
 ended:      last coordinating turn h72.83 (c0151, a Peach on the Osu logo); after h73 portrait posts removed as fan art.
 struck by:  "It's like drawing in the sand at high tide."
 made:       two artworks at the edge, Nintendo Switch 1,980 px with 18,724 placers and Luigi 301 px, placed from h0.99; writers placed 0.059, pre-event members 0.048. The canvas keeps the Switch logo.
+later:      2026-10-07, catch-up: the doing line's h36.3 is late; Operation Mario was the moderators' first call at h4.1 (62npm2), and one member objected to six place threads (dfq2b8h). The brief shows moderators routing posts to weekly threads and fan work to Showoff Saturday (dfcsvjp), the routing the canvas posts met.

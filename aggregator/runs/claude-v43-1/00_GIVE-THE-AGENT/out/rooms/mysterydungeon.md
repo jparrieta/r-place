@@ -4,9 +4,10 @@ week:       h52 to h55 a call, a move, done; h55 to h58 Chicago's border; h69 to
 named:      Chicago as border neighbour and later mock enemy (c0016, c0021, c0039); Toon Link as shared neighbour (c0017, c0022).
 goal:       a Time Gear; done at h55.1; damaged and defended; held fragmented.
 unsettled:  where the border with Chicago runs (c0016, c0019).
-coder unsure: 23 threads out of scope.
+coder unsure: the first call and the loss claim survive only as titles (6322us, 638jie); a removed reply in the defence thread (636lvm); the Discord template and images unseen (dfqoxn8); who placed what unknown.
 carrying:   c0005, c0021, c0032
 not this:   a late room that found its mark already there; it built the gear itself in under three hours.
 ended:      last coordinating turn h71.84 (c0033, all arms against vandalism); after h73 a mock war and a relic.
 struck by:  "You're hired! (I had no authority to make that decision, but fuck it.)"
 made:       one artwork, Time Gear, 222 px at the edge, centre 80, 185, 495 placers, placed from h1.87; writers placed 0.223, pre-event members 0.106. The canvas keeps the gear where the room moved it; the linked region was placed from h1.87.
+later:      2026-10-07, catch-up: r/Chicago is not named in the window; the objector's sub is not shown (dfqwh84). After the close one post said the gear was gone and another that it remained (638jie, 638kno). The brief shows Explorers of Sky as EoS (dfmaqh0), the game of the Time Gear and the Explorers called to defend it.

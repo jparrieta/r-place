@@ -4,9 +4,10 @@ week:       h34 to h48 April Fools; h50 to h57 the brick, truces, a new spot; h6
 named:      r/CFB and r/CFBOT as neighbours respected and helping (c0016, c0029); Titanfall as truce partner (c0021, c0022); the vegans and Alabama as pressures (c0018, c0034); r/716Place as the war room (c0045).
 goal:       a UB mark; begun at h50.1; moved and lost; conceded at h62.2; a design above BUFFALO proposed.
 unsettled:  where to build, and with whom (c0036, c0038, c0044).
-coder unsure: 38 threads out of scope.
+coder unsure: six deleted turns in the brick thread leave holes around coordinates and visitors (63165o); r/716Place's talk unseen (dfrqmc9); design images unseen; no account after the close.
 carrying:   c0016, c0021, c0043
 not this:   a university room that held its mark; members conceded the loss and moved the fight to r/716Place.
 ended:      last coordinating turn h70.03 (c0045, war talk sent to r/716Place); nothing coded after h73.
 struck by:  "Looks like we took an L there..."
 made:       one artwork, SUNY at Buffalo, 178 px at the edge, centre 114, 226, 516 placers, placed from h2.04; writers placed 0.029, pre-event members 0.001. The canvas links a UB mark far from the room's brick at 845, 189; the room conceded its own.
+later:      2026-10-07, catch-up: the account changes nothing; for a time the UB was called safe, then the same comment was edited to say no (dfql7qx), and no member claims the mark survived. The brief shows campus advice and changes nothing.
