@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-20, 2026-10-07, the first leg of the catch-up pass.
+Target length: under 3,000 words. Rewritten whole at every close. Last written at the close of A1b-21, 2026-10-07, the second leg of the catch-up pass.
 
 ## The method question, in one sentence
 
@@ -23,11 +23,13 @@ J's rulings of 7 October 2026 (after the A1c handback) opened a catch-up pass, l
 
 The catch-up pass is declared in `out/order-A1.txt` as comment lines `#<block><TAB><sub>` after the A1 order (the checker refuses a room named twice; comment lines are skipped). 702 rooms, blocks 20 to 48, 25 rooms each (block 48 has 2), listed with tiers and byte sizes in `out/_analysis/catchup-A1.tsv`. Tiers: 40 rooms whose concepts were partly served, then 187 with more than 170 concepts, then 158 whose ended line differs from the rule by more than an hour, then 317 others. `mem.py next` does not serve this pass; take the next block from the tsv and the diary (`mem.py diary --grep "catch-up"`).
 
-Block 20 is done (this leg): babymetal, qotsa, uvic, hellointernet, Rainbow6, uwaterloo, luciomains, colorado, giantbomb, mechanicalkeyboards, battlecats, frankocean, giivasunner, aoe2, hawks, heroesofthestorm, indieheads, habs, MMA, ripcity, indonesia, btc, bostonbruins, falcons, opticgaming. The next leg reads block 21, starting with the first `#21` line in `order-A1.txt`.
+Blocks 20 (A1b-20) and 21 (A1b-21) are done: 50 of 702 rooms. The next leg reads block 22 (25 tier-2 rooms), starting with the first `#22` line in `order-A1.txt`.
 
 The reading route for the pass: `bash out/_analysis/catchup_read.sh <sub> case` (logs the room opened, prints case.md whole), then `... brief`, then `... check` (prints lines served against the total from `_mem_reads-A1.jsonl`). Each file is under 30 KB, so the output is shown whole. Then amend the note and log `<sub> amended (catch-up): ...` with `--ids <sub>`.
 
-Note length: the hook refuses a note at 350 words or more by its own count, which can run above `wc -w`. Notes were near 340 words before the pass. Cut doing, week or named first, then add the new lines; keep `wc -w` near 335. Eleven notes this leg needed a second trim after the hook refused them.
+Note length: the hook refuses a note at 350 words or more by its own count, which runs above `wc -w`. Notes were near 340 words before the pass. Cut doing, week or named first, by about 40 words, then add the new lines; aim for `wc -w` near 330. Eleven notes in block 20 and sixteen in block 21 needed a second trim; the edits that add lines trip the hook before the cuts land, so make the cuts first.
+
+Some notes were written from the case already (furry, homestuck, unitedkingdom, detroitredwings, calgaryflames, FloydVsVoid, monstercat, flashtv); for them the pass revises the coder-unsure line with thread ids. The harness's brief is empty for event-made subs (theblackvoid, FloydVsVoid); it is still served and checked.
 
 `validate.py A1` before this close: 0 errors, 0 warnings.
 
@@ -147,36 +149,37 @@ None is filed in `_questions/`. Distinctions forming, to carry into B1:
 - The late-room kinds listed above.
 - The end of organizing: before hour 73, at the close, or in calls to rebuild after it.
 
-## What the catch-up pass found so far (block 20)
+## What the catch-up pass found so far (blocks 20 and 21)
 
-The accounts and briefs changed notes in these ways, each in a dated `later:` line:
-- the canvas mark came from a joke older than the canvas (uwaterloo, giivasunner, falcons, habs);
-- the room credits the build or its coordination to another sub (Rainbow6 to r/2007scape, luciomains to the Overwatch sub, aoe2 to Ireland);
-- the account's end differs from the note's (giantbomb's bomb came back; frankocean saw Blond destroyed while the canvas keeps it; mechanicalkeyboards' S-Puck was only a top plate);
-- moderators removing canvas posts, then keeping one thread after members objected (hawks), or members asking for one thread (habs);
-- raids answered with home defence (ripcity, bostonbruins, btc);
-- damage to neighbours admitted beside deals (heroesofthestorm, opticgaming, indonesia);
-- organised shared projects in the brief before the canvas (qotsa's cover album, indieheads' rates).
+Block 21 added:
+- the account found work the coded slices missed (anime's Emilia sign in Free Talk Friday; detroitredwings planning to overwrite while UK bots slept);
+- bots and scripts making the work less human or less fun (zootopia's eight bot accounts, bitcoin's bots at war over an omitted row, pcmasterrace);
+- the work carried to successor canvases after the close (theblackvoid, calgaryflames, homestuck, pcmasterrace);
+- the art bringing newcomers or lapsed players (kanye, fireemblem, furry);
+- moderators narrowing or routing canvas talk rather than banning it (liverpoolfc, eve, clashroyale);
+- expansion talk kept as a countercurrent beside restraint (starcraft, anarcho_capitalism, canucks, detroitredwings).
+
+Block 20 found: marks drawn from jokes older than the canvas (uwaterloo, giivasunner, falcons, habs); coordination credited to another sub (Rainbow6, luciomains, aoe2); the account's end differing from the note's (giantbomb, frankocean, mechanicalkeyboards); raids answered with home defence (ripcity, bostonbruins, btc); damage admitted beside deals (heroesofthestorm, opticgaming, indonesia).
 
 ## The last rooms read
 
-Catch-up block 20, in order: babymetal, qotsa, uvic, hellointernet, Rainbow6, uwaterloo, luciomains, colorado, giantbomb, mechanicalkeyboards, battlecats, frankocean, giivasunner, aoe2, hawks, heroesofthestorm, indieheads, habs, MMA, ripcity, indonesia, btc, bostonbruins, falcons, opticgaming.
+Catch-up block 21, in order: metroid, starcitizen, anarcho_capitalism, malaysia, eve, clashroyale, argentina, starcraft, bitcoin, kanye, canucks, theblackvoid, fireemblem, zootopia, pcmasterrace, furry, flashtv, homestuck, unitedkingdom, detroitredwings, calgaryflames, liverpoolfc, monstercat, anime, FloydVsVoid.
 
 ## Ledgers at this close
 
-- `lexicon-A1.md`: 1,289 lines. `running-A1.md`: 542 lines. `leads-A1.jsonl`: 2,478 lines. `departures.jsonl`: 9 lines (this leg: the catch-up order script, the reader script and its revision, the to-73 file). `defects.jsonl`: 8 lines.
+- `lexicon-A1.md`: 1,289 lines. `running-A1.md`: 550 lines (one appended line corrects a slip in the first block-21 entry). `leads-A1.jsonl`: 2,478 lines. `departures.jsonl`: 9 lines (this leg: the catch-up order script, the reader script and its revision, the to-73 file). `defects.jsonl`: 8 lines.
 - `out/leads-outside-frame-A1.jsonl`: two lead lines (FederationPlace to harvard, clg to teamsolomid), a ledger B1 may read (ruling 6).
 - Rule, kept:
   - Fetch every id with `cite.py`. Check every lead's room with grep against the frame before appending. Append through a grep filter on the item id. Never type an id from memory.
   - Copy lexicon words from the item text, never from the coder's labels.
   - Never log "noted" in the same call that writes the note; wait for the hook's answer.
 - The permission check refuses "=w=", for and while loops, shell functions, heredocs and awk. The command guard reads a bare "rm" inside quoted text as a delete. Use the Write and Edit tools for file content.
-- `mem.py diary --last 5` now reads the newest part (ruling 7). The diary rolled to part A1-12 this leg.
+- `mem.py diary --last 5` now reads the newest part (ruling 7). The diary is in part A1-13.
 - After a compaction the guard requires the exact line "compacted; head reconciled" through `mem.py log --kind note`.
 
 ## The next comparison
 
-Catch-up block 21 (25 rooms: the last of tier 1, then tier 2), from `out/_analysis/catchup-A1.tsv`. For each room ask: does the coder's account change who started the work, where it was decided, what became of it, or whether the room's members kept their deals? Does the brief show a joke, ritual or shared project the canvas work grew from? Record only what changes the note.
+Catch-up block 22 (25 tier-2 rooms), from `out/_analysis/catchup-A1.tsv`. For each room ask: does the coder's account change who started the work, where it was decided, what became of it, or whether the room's members kept their deals? Does the brief show a joke, ritual or shared project the canvas work grew from? Record only what changes the note.
 
 When the pass ends (block 48), compare the `later:` lines across rooms: how often the account moved the note's end, credited another sub, or showed the mark drawn from an older joke.
 

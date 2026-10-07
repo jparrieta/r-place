@@ -37,6 +37,18 @@ Target length: under 1,200 words, kept current. J, 2026-10-06 23:37 Berlin: "mak
 - **Change.** In `aggregator/handler/claude/settings.template.json` and the run's `CONTROL/settings.template.json`: allow `Bash(python3:*)`, `Bash(bash out/_analysis/:*)` and `grep`, `awk`, `sed`, `cut`, `head`, `tail`, `sort`, `uniq`, `wc`, `ls`, `cat`, `echo`, `printf`, `tr`. The sandbox, its denyWrite and the guard still apply; `step.sh` renders them into the next leg's settings.
 - **Not verified.** Whether an allow rule lifts the CLI's own asks (comparison operators, loops); the next leg's refusal count will tell.
 
+### 5. B1 stretch about 1 MB (2026-10-07)
+
+- **Ruling.** J, 03:51 Berlin: "I think 1mb is fine. Keep two stretches still as stopping".
+- **Change.** `stages/STAGE-B1-coding-third-order-scheme.md`, B1b: "about 3 MB" to "about 1 MB", with the dates; in the instrument and in the run's `DROPS/B1/stages/` (same bytes); `STAGES-full.md` regenerated; `VERSIONS.tsv` rows. The stopping rule is unchanged (two stretches in a row, each of at least twenty rooms, with no new third-order theme).
+- **Consequence.** By file sizes (the handler's measure, not `mem.py room --size`) a 1 MB stretch holds about 8 rooms. The two-stretch rule is B1d's (the second pass); B1b stops by `saturation.py`'s rule, which counts rooms in words and does not depend on stretch size. Item 6 replaces B1d's rule.
+
+### 6. B1d stops after thirty rooms in a row (2026-10-07)
+
+- **Ruling.** J, 03:58 Berlin: "After 30 rooms in a row without new concepts" (read as: no new third-order theme).
+- **Change.** B1d's stop in the stage card: "thirty rooms in a row of this pass have added no new third-order theme", in place of two stretches of at least twenty rooms each; the closing summary line to match; `checks/stage_B1.py`'s message to match (its test, "added no new", unchanged). Card in the instrument and `DROPS/B1/`; the check in the instrument, the run's `tools/checks/` and `CONTROL/harness/validation_tools/checks/` (copied from the instrument; not compared before the copy). `STAGES-full.md` regenerated; `VERSIONS.tsv` rows.
+- **Not changed.** `saturation.py` (B1b's rule).
+
 ### Not changed: the note hook's word count (triage 10)
 
 - J said "fix yourself". On all 705 notes the hook's count (`len(t.split())`) equals `wc -w` (C locale, Linux); no note holds a non-ASCII space. The gap the analyst saw is not reproduced, so nothing was changed.

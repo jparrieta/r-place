@@ -540,3 +540,11 @@ What I keep seeing, unpruned and unordered, one entry per line with the room it 
 - catch-up block 20: a raid proposal answered with home defence or refusal | ripcity (dfr79l0), bostonbruins (dfr019f), btc (unlimited refused; dfs11yg)
 - catch-up block 20: damage to neighbours admitted beside deals | heroesofthestorm (dfszak9, dfs1dzo), opticgaming (the Greenwall past its organisers; dfrsdzb), indonesia (overnight expansion disowned; c0124)
 - catch-up block 20: organised shared projects in the brief before the canvas | qotsa (a cover album; 61vwaa), indieheads (staged rates; 61oxpb)
+- catch-up block 21: the account found work the coded slices missed or understated | anime (Emilia in Free Talk Friday; dfoo1uu), bostonbruins-like late finds: detroitredwings (overwrite while UK bots slept; dfpa8g0), FloydVsVoid (a builder leaving; dfph306)
+- catch-up block 21: a single member or Discord credited with a push while others gave up | theblackvoid (dfrfc6e), eve (Discord moves with almost no luck; dfpwggj), liverpoolfc (a member giving up at the Discord login; dfqr56b)
+- catch-up block 21: bots and scripts making the work less human or less fun | zootopia (dfreri0, dft1cky), bitcoin (bots at war over an omitted row; dfqvzx9), pcmasterrace (dfrtsy4)
+- catch-up block 21: the work carried to successor canvases after the close | theblackvoid (63ez18), calgaryflames (dfsmvfd), homestuck (63c29b), pcmasterrace (6390j0)
+- catch-up block 21: moderators narrowing or routing canvas talk rather than banning it | liverpoolfc (dfqyr6a), eve (632cfl), clashroyale (dfsx2by on the layout swap)
+- catch-up block 21: the art bringing newcomers or lapsed players to the room | kanye (63de98), fireemblem (63a5je), furry (63aima)
+- catch-up block 21: expansion talk kept as a countercurrent beside restraint | starcraft (dfqs866), anarcho_capitalism (dfp69vh), canucks (dfs4r9n), detroitredwings (dfqq1sc)
+- correction to the first catch-up block 21 entry above: the words "bostonbruins-like late finds" are a slip; read the entry as anime (dfoo1uu), detroitredwings (dfpa8g0), FloydVsVoid (dfph306) | anime, detroitredwings, FloydVsVoid

@@ -63,8 +63,8 @@ leg.
 rule's estimates mean something, and it keeps related rooms from being read one after another,
 so that one room's account does not prime the next. Say in `notes-B1.md` what you expect of it.
 
-**B1b-01, B1b-02 ... getting lost.** One stretch of the order per leg: about 3 MB of the rooms' second-order
-themes and their concepts (`mem.py room <sub> --size`: codes plus second-order themes, not the forest), several rooms, as in stage A1 (v42, J 2026-10-03), the stretch (first and last `order`) declared in the diary
+**B1b-01, B1b-02 ... getting lost.** One stretch of the order per leg: about 1 MB of the rooms' second-order
+themes and their concepts (`mem.py room <sub> --size`: codes plus second-order themes, not the forest), several rooms (1 MB, J 2026-10-07; 3 MB before, v42, J 2026-10-03), the stretch (first and last `order`) declared in the diary
 when the leg opens. **The next room is always `mem.py next --stage B1`**, at the start of every
 leg and after every compaction: it follows the order and the stopping rule below. A room is done when every one of its second-order themes is placed in
 `scheme_current.jsonl`, or listed in `unplaced-B1.jsonl` (`{"sub", "second_order", "why"}`) when it
@@ -141,7 +141,7 @@ hundred second-order themes read in the first pass (from `theme_discovery.jsonl`
 the rooms the test found not fitting, the rooms with the most hesitations in your log, and the
 contrary rooms of `contrast.md`; in the order (`python3 tools/saturation.py order --stage B1` prints it),
 one stretch per leg. **Stop only when both hold:**
-every room chosen for this pass has been read, and two stretches in a row of this pass, each of at least twenty rooms, have added no new third-order theme. Record each
+every room chosen for this pass has been read, and thirty rooms in a row of this pass have added no new third-order theme (J, 2026-10-07; two stretches of at least twenty rooms each before). Record each
 stretch's new kinds in `saturation-B1.md` as you go. A count still climbing at the end is a finding about the material,
 written down, not a reason to have stopped, and not a reason to stop.
 
@@ -311,7 +311,7 @@ there.
 A room opened; a theme minted (through `mint`, which logs); every merge, split, drop and
 relabel; a question opened (`_questions/<slug>.md`); a room boundary, with the rewrite of
 `scheme_current.jsonl`; an episode seen twice; a stretch's end, with its new kinds; the
-saturation test's count; the second pass's stop, with the two stretches that added nothing.
+saturation test's count; the second pass's stop, with the thirty rooms in a row that added nothing.
 
 ## Final message
 

@@ -606,7 +606,7 @@ def check(root, outdir, ctx):
     if not sat.strip():
         err("saturation-B1.md is empty; it holds the saturation test and the second pass (section 2)")
     elif not ("two stretches" in sat or "added no new" in sat or "still climbing" in sat):
-        err("saturation-B1.md does not say how the second pass stopped: two stretches in a row that added no new "
+        err("saturation-B1.md does not say how the second pass stopped: thirty rooms in a row that added no new "
             "third-order theme, or the count still climbing (section 2, B1d)")
     ids0 = {r.get("id") for r in (jsonl(os.path.join(outdir, "scheme.jsonl")) or [])}
     joins = _check_episodes(outdir, analysed, ids0)
