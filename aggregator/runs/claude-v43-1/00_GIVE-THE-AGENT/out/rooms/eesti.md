@@ -4,9 +4,10 @@ week:       h12 to h25 the flag; h29 to h58 Discord, bots; h60 to h70 the Tyler1
 named:      r/loltyler1's supporters as invaders (c0029, c0040, c0092); Lithuania and Latvia as allies (c0010); France, BerryTubeLounge, India, Rainbow Road and others as allies (c0050); Team Soviet as rival (c0004).
 goal:       the Estonian flag; flying at h18.3; redesigned and held under attack.
 unsettled:  give space to the Tyler1 face or fight (c0040, c0072, c0095).
-coder unsure: 26 threads out of scope.
+coder unsure: two readers, no one held the week; the Discord's decisions unseen (dfquqo3); the first flag call and post-fight prompts removed (62pedd, 63devm, 63dhel); threads run past the window (6384fs).
 carrying:   c0026, c0040, c0079
 not this:   a room that held its flag by numbers alone; its bot admins ran a script, and allies from other subs defended it.
 ended:      last coordinating turn h70.06 (c0043, start the bots and sleep); after h73 thanks.
 struck by:  "Estonians do not accept threats as currency."
 made:       three artworks in the middle ring, Flag of Estonia 2,100 px with 13,560 placers, Tallinn 1,053 px, Estonian Heart 102 px, placed from h1.09; writers placed 0.104, pre-event members 0.022. The canvas keeps the flag.
+later:      2026-10-07, catch-up: one member took no part and found it silly, yet praised the flag (dfs9g3b); another refused the bot (dfrs1fc). The brief shows a Russia-threat thread with a mock Soviet-brothers comment (61ej2y, dfdwmpl), the theme behind the call against Team Soviet.

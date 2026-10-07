@@ -4,9 +4,10 @@ week:       h7 to h22 April Fools; h29 to h32 Kebble; h62 to h72 a new icon.
 named:      Kebble's makers as defenders of a small sub (c0028, c0034); r/BABYMETAL as Kebble's protector (c0036, c0041); Halo's builders as neighbours (c0055).
 goal:       a Pebble mark; first by converting Kebble; then a small icon from h67.5; unfinished at the close.
 unsettled:  convert the Kebble sign or build elsewhere (c0018, c0033, c0042).
-coder unsure: 78 threads out of scope.
+coder unsure: two readers, no one held the week; deleted bodies inside the first Kebble dispute (62vhrt, 62w84n); the Imgur designs and final image unseen (dfrlcik, dfs201b).
 carrying:   c0034, c0039, c0055
 not this:   a room that won its fight; it left the Kebble sign and its icon was unfinished.
 ended:      last coordinating turn h72.62 (c0044, stopping work on the old spot to help the new); after h73 a tally.
 struck by:  "Why not make a Pebble elsewhere? We're just a small sub trying to carve out a little piece of /r/place."
 made:       one artwork, Pebble, 42 px at the edge, 173 placers, placed from h2.74; writers placed 0.079, pre-event members 0.06. The canvas field links a Pebble mark; the room called its icon unfinished.
+later:      2026-10-07, catch-up: one member called for an army to continue the war with Kebble (dfpji1i); the tally blamed a mid-way move and a fight with Halo for the unfinished icon (dfs201b). The brief shows members fearing the end of Pebble's servers (61gjhl), the fear the April Fools posts played on.

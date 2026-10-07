@@ -4,9 +4,10 @@ week:       h6.6 to h22.5 flags and hearts begun; h43 the ace dispute and offers
 named:      the ace flag's builders as neighbours with a prior claim (c0008, c0011); the bi flag as neighbour helped (c0013); the trans flag's hearts as host (c0003, c0020).
 goal:       a pan flag; begun before h6.6; moved under a truce at h58.9; held.
 unsettled:  where the flag may stand among other pride flags (c0010, c0014, c0020).
-coder unsure: 3 threads out of scope.
+coder unsure: the opening post's completion edits untimed (62onyu); two post bodies deleted (62ox1n, 6344q0); the linked Discord's decision unseen (63474m); one reply's parent missing.
 carrying:   c0009, c0012, c0020
 not this:   a room that fought for space; it moved twice to avoid fights with neighbouring pride flags.
 ended:      last coordinating turn h59.08 (c0020, the relocation deal announced); h79.5 a celebration.
 struck by:  "I don't want a fight."
 made:       two artworks in the middle ring, Pansexual pride flag 288 px and Pansexual Heart 74 px, placed from h1.28; writers placed 0.046, pre-event members 0. The canvas keeps the flag.
+later:      2026-10-07, catch-up: the ace builder accepted the offer while reporting harassment of ace members by those who recoloured the heart (dfq3fuq); the truce's dispute was linked to r/KCRoyals, and Red Wings later covered the flag (63474m, dfsje52). The brief shows introductions and label talk and changes nothing.

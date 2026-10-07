@@ -4,9 +4,10 @@ week:       h33.5 a call and a Discord; h46 to h50 a heart flag, a replacement a
 named:      r/pakistan as rival (c0002, c0006, c0011); r/bakchodi as proposed partner (c0033); Belgium (c0021).
 goal:       a Bangladesh flag; from h33.5; small marks in a heart and an avocado by the end.
 unsettled:  attack Pakistan's flag or build a small one of their own (c0010, c0020, c0032).
-coder unsure: 42 threads out of scope.
+coder unsure: the r/bakchodi deal only a title, no outcome (633e8x); two comments removed (dfpoxbi, dfrg8jm); the opening post's edits untimed (62wzlx); Discord's talk unseen (dfrmju9).
 carrying:   c0004, c0005, c0020
 not this:   a room that held a large flag; its own organiser said they started too late.
 ended:      last coordinating turn h68.39 (c0029, asking for a sticky with Discord and information); h75.4 a late arrival.
 struck by:  "It seems we were all just a bit too late in organizing"
 made:       one artwork, Heart of Bangladesh, 59 px in the middle ring, 451 placers, placed from h2.33; writers placed 0.157, pre-event members 0.012. The canvas keeps a heart.
+later:      2026-10-07, catch-up: the moderator stickied the thread and offered a fuller sticky with goals, which a Discord maker asked to fill (dfqwwyh, dfrkv79, dfrmv5c); the heart's maker said it was hard to defend alone (dfqw60y). The brief shows news and health links and changes nothing.

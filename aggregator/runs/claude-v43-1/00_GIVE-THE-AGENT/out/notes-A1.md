@@ -1069,3 +1069,15 @@ The diary moved into part A1-42 during this leg.
 `validate.py A1` before the close: 0 errors, 118 warnings (notes over the 350-word guide, 20 of them from this block).
 
 Ledgers at the close: lexicon 1,289 lines, running file 709 lines (9 block-40 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 525 of 702 catch-up rooms are done. The next leg reads catch-up block 41, from bangladesh (`order-A1.txt` line 1234).
+
+## Close report, leg A1b-41 (catch-up block 41), 2026-10-07
+
+Block 41 is read: 25 of 25 rooms, bangladesh to hyperlightdrifter. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. All 25 old `coder unsure:` lines were replaced with case.md's limits and thread ids: 23 gave the brief's coverage, and two said none (nVade, THE_R). Three briefs were the harness's empty brief (nVade, THE_R, pgang).
+
+Case.md showed earlier lines wrong in two notes, and each later line says so while the earlier lines stand: sadboys (the goal line's "nothing placed by the close" is not shown either way) and cardinals (members built and repaired a Cardinals logo from h36, before the r/stlouisblues representative's new spot). In nVade and cardinals the later line qualifies the not-this line.
+
+The diary moved into part A1-43 during this leg.
+
+`validate.py A1` before the close: 0 errors, 140 warnings (notes over the 350-word guide, 22 of them from this block).
+
+Ledgers at the close: lexicon 1,289 lines, running file 718 lines (9 block-41 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 550 of 702 catch-up rooms are done. The next leg reads catch-up block 42, from torontoraptors (`order-A1.txt` line 1259).

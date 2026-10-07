@@ -4,9 +4,10 @@ week:       h16 to h36 ideas; h48 to h57 scripts, moves; h59 to h62 smashbros, D
 named:      r/unturned and r/smashbros as larger neighbours that moved them (c0010, c0031); r/NEU as welcoming neighbour (c0038); UCF and an Iowa logo as neighbours spared (c0024, c0017).
 goal:       a KSU mark; settled small by h54.7; kept by scripts; destroyed at the close.
 unsettled:  expand to KSTATE or a powercat, or hold KSU (c0027, c0028, c0058).
-coder unsure: 3 threads out of scope.
+coder unsure: fourteen bodies deleted, many in the script branch (62rho0); the Discord's talk unseen (634wlv); the script's authorship and revisions not visible (dfquef1).
 carrying:   c0011, c0015, c0049
 not this:   a room that hand-placed; its KSU was kept by scripts and alt accounts.
 ended:      last coordinating turn h61.90 (c0035, advice to ally beside someone powerful); h73 to h77 the loss recounted.
 struck by:  "But you're clearly outnumbering us, so I guess we have no choice."
 made:       one artwork, Kansas State University, 84 px at the edge, 310 placers, placed from h1.79; writers placed 0.253, pre-event members 0.046. The canvas field links KSU; the room reports it griefed at the last minute.
+later:      2026-10-07, catch-up: the twenty-account griefer is the members' own explanation, repeated but not shown (dfs1dj7, dfsc003); the alliance advice came from an r/smashbros visitor and no alliance followed (dfrdvww). The brief shows the KU rivalry (6230vb); the first KSU went above KU.

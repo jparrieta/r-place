@@ -4,9 +4,10 @@ week:       h20 to h56 asking and proposing; h56 to h68 scaling down, alliances;
 named:      Green Lattice and r/TransFlagPlace as hoped-for hosts (c0006, c0013); a hammer-and-sickle work as overlap partner on another canvas (c0040, c0044).
 goal:       a Sad Boys mark; shrank from a logo to a smiley; nothing placed by the close.
 unsettled:  whether so few people can make anything (c0011, c0021, c0042).
-coder unsure: 91 threads out of scope.
+coder unsure: two readers; three proposal bodies removed (62sfi8, 63301p, 633bew); which design produced the celebrated result not shown (63a4e5); two Discords and the r/TransFlagPlace terms unseen (dfrjdi0, dfrm4fi).
 carrying:   c0011, c0022, c0030
 not this:   a room that built the wooden horse; it found it after the close, and its writers placed almost none of it.
 ended:      last coordinating turn h69.88 (c0025, asking who maintains the proposed spot); after h73 the horse found and other canvases.
 struck by:  "WOOODEEN HOORSEEE"
 made:       one artwork, Yung Lean's Wooden Horse, 582 px at the edge, 5,362 placers, placed from h1.36; writers placed 0.001, pre-event members 0.001. The canvas links a work the room did not plan.
+later:      2026-10-07, catch-up: case.md does not show that nothing was placed; it cannot tie the celebrated result to any plan (63a4e5). A follow-on smiley was finished on plastuer (dftab2k), and a new wooden horse recruited (dftcbjd). The brief shows clothing-ID and leak threads and changes nothing.

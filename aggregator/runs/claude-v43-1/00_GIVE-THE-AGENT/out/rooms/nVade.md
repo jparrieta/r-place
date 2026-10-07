@@ -4,9 +4,10 @@ week:       h54 the new home; h55 to h63 deals; h69 to h72 Scotland, apology, re
 named:      Rainbow Road as host and rival (c0019, c0034); Scotland as invader, then helper (c0056, c0073); the Duck under a treaty (c0040); Tobo as a protected work (c0037, c0043).
 goal:       green space invaders on Rainbow Road; from before the sub opened; held with losses.
 unsettled:  defend or counterattack (c0059, c0067); whether concessions invited the takeover (c0061, c0079).
-coder unsure: none; 0 threads out of scope.
+coder unsure: six post bodies deleted, among them the Rainbow Road talks (6340ex, 637i3q); two Discords' decisions unseen (633pdc, dfrw6f5); the record starts late, so the group's first two days are not shown.
 carrying:   c0034, c0061, c0073
 not this:   a room that went to war when taken over; it refused an outsider's call to attack and took an apology.
 ended:      last coordinating turn h72.76 (c0083, a call for a counterattack on Scotland's flag); after h73 thanks and a cleanup deal sought.
 struck by:  "It set a bad precedent when we kept rolling over for their earlier expansions"
 made:       two artworks at the edge, Space Invaders on the Rainbow Road 889 px and Space Invaders 976 px, 2,146 and 2,794 placers, placed from h1.2; writers placed 0.146, pre-event members 0. The canvas keeps the invaders.
+later:      2026-10-07, catch-up: not this qualified; besides the refused outsider, a post called to destroy the Scottish flag (637z1d) and a member admitted petty revenge (dfs1k3i). Scots said they thought nVade had abandoned the area (dfrw5e0). The brief is the harness's empty brief.

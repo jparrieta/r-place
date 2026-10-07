@@ -4,9 +4,10 @@ week:       h35.7 to h35.9 the founding posts; nothing coded after.
 named:      r/the_place as the R's origin (c0001).
 goal:       protect one letter R; stated at h35.7; no later turn says whether it held.
 unsettled:  what the R is (c0003).
-coder unsure: none; 0 threads out of scope.
+coder unsure: no pixel, target or repair words anywhere, so protection is a stated aim, not a seen act (62xlxp, 62xmwy); the linked image unseen; the last two replies too short to read.
 carrying:   c0001, c0005, c0007
 not this:   a room that defended its R; after the founding posts the record is silent.
 ended:      last coordinating turn h35.91 (c0007, taking up the flairs); nothing observed after.
 struck by:  "Long live the R!"
 made:       one artwork, The R, 35 px at the edge, 37 placers, placed from h2.01 to h70.16; writers placed 0.397, pre-event members 0. The R had placements 34 hours before the sub's first post; the canvas keeps it.
+later:      2026-10-07, catch-up: the account changes nothing; the only task taken up was flair work on the sub itself (62xnd2, dfpu0yr). The brief is the harness's empty brief.

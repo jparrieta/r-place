@@ -4,9 +4,10 @@ week:       h2.7 to h38 calls; h63 to h68 templates, a move for QR; h69 to h71 a
 named:      r/placeQR as host (c0026, c0042); r/homelab as overwriter then repairer (c0057, c0064); r/totallynotrobots' captcha as destroyer (c0067); Rainbow Road's moderators as permitters (c0047).
 goal:       a pixel fox; first called at h2.7; built only from h65; moved twice; perfect for minutes.
 unsettled:  fight or move again (c0045, c0058, c0060).
-coder unsure: 16 threads out of scope.
+coder unsure: two Discords seen only as returned (dfrshbh, dfrtf0e); the script and templates known only from links (dfropec); deleted turns inside the defence thread (6371h5).
 carrying:   c0026, c0064, c0067
 not this:   a room that fought for space; it moved twice and asked permission before it fought.
 ended:      last coordinating turn h72.86 (c0068, a move proposed as the captcha erases the fox); after h73 an apology, mourning and the header.
 struck by:  "But we did get our fox perfect for at least a few minutes!!"
 made:       one artwork, Fox, 694 px at the edge, 7,883 placers, placed from h1.21; writers placed 0.024, pre-event members 0.005. The canvas field links the fox, which the room says was covered at the end.
+later:      2026-10-07, catch-up: Homelab members said they repaired the fox because the moderator asked nicely (dfrvjhp, dfrvodx); outsiders said its cuteness made them stay to help (dfss9pr, dft0lpm). The brief shows warm fox talk and changes nothing.

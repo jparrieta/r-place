@@ -4,9 +4,10 @@ week:       h24 to h47 starts; h47 to h55 Green Lattice, done; h55 to h60 allian
 named:      Green Lattice as approver (c0021, c0064); r/gamindustri and r/onepiece as neighbours under deals (c0023, c0027); r/wildhockey as earlier claimant (c0056).
 goal:       the Drifter; begun h24.6; done at h55.2 without legs; held.
 unsettled:  orange or pink coat (c0033, c0042, c0044).
-coder unsure: 23 threads out of scope.
+coder unsure: the Discord's planning, the approval document and the Guardian script seen only through links (dfqxv4k, dfqsomq, 634kbf); a deleted comment in the main thread (dfqxcd8).
 carrying:   c0021, c0050, c0073
 not this:   a room that took space by force; it took Green Lattice's approval and gave up the legs.
 ended:      last coordinating turn h72.09 (c0036, telling a late arrival it is defence now); after h73 thanks.
 struck by:  "Because we have the manpower to defend it :/"
 made:       one artwork, The Drifter, 301 px area at the edge, 2,867 placements; writers placed 0.201, pre-event members 0.004. The canvas keeps the Drifter.
+later:      2026-10-07, catch-up: after the close a member credited two people joining the Discord with finishing the figure, and the Discord growing to about ten (dfs36e1). The brief shows members sharing their own drawings of the game (61wag5), the habit the canvas figure extended.

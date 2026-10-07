@@ -4,9 +4,10 @@ week:       h4 to h29 calls; h32 to h52 Goku; h59 to h71 a ball, the radar.
 named:      Club Penguin's builders as neighbours, then targets (c0042, c0059); Green Lattice and One Piece as hoped-for hosts (c0105, c0107); the Blue Corner as threat and apologiser (c0110, c0116); the Swedes (c0106).
 goal:       Goku; built from h32.9; lost at h52; replaced by a four-star ball and a dragon radar; held.
 unsettled:  who destroyed Goku (c0059, c0106, c0116).
-coder unsure: 464 threads out of scope.
+coder unsure: fifteen readers, no one held the week; the strawpoll and the Discord that made the radar unseen (dfrr5nd); uptake of the standalone calls not shown (630siu, 631dge); reports of what survived conflict (dft4eqa).
 carrying:   c0042, c0105, c0116
 not this:   a room that kept its first work; the canvas keeps the ball and radar made after Goku was lost.
 ended:      last coordinating turn h71.71 (c0134, a call to plan a Saiyan God section); after h73 thanks and PlaceTwo.
 struck by:  "It was impossible to compete against the bluecorner."
 made:       two artworks at the edge, DBZ Dragon Radar 242 px and Dragon Radar & Four-Star Ball 418 px, placed from h1.66; writers placed 0.054, pre-event members 0.017. The canvas keeps the radar and ball.
+later:      2026-10-07, catch-up: a member said Discord users got together and made the radar and ball (dfrr5nd); another objected to the one-thread rule (dfr48jv); after the close the ball was rebuilt on PlaceTwo (dfsqlbt). The brief shows moderators removing repeat posts (dfkybkw), as they later held canvas talk to one thread.

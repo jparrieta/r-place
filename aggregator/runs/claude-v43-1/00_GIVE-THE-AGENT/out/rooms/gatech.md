@@ -4,9 +4,10 @@ week:       h4 to h15 logo, Buzz, treaties; h25 to h36 designs, the void decline
 named:      Mona Lisa under the stinger treaty (c0015, c0057); Rainbow Road as recogniser (c0008, c0045); UGA and Virginia Tech as attackers (c0084, c0007); DOTA2 through its moderators (c0060); the classy potato (c0086).
 goal:       a GT logo with Buzz; from h4.6; THWG added by h62.6; held with damage at the end.
 unsettled:  hand-placing or scripts and lent accounts (c0065, c0097, c0098).
-coder unsure: 85 threads out of scope.
+coder unsure: two readers, no one held the week; Mona Lisa's Discord and the potato's Telegram unseen (62ywcf, dfqjrlp); script and template post bodies deleted (6326qd, 635yze).
 carrying:   c0015, c0045, c0109
 not this:   a room whose treaties all held; Mona Lisa members moved to remove the stinger before others restored it.
 ended:      last coordinating turn h70.59 (c0114, flagging a template coordinate); after h73 mourning and gayech.
 struck by:  "You can take the stinger from our cold dead hands."
 made:       one artwork, Georgia Tech, 2,132 px in the middle ring, 5,329 placers, placed from h1.1; writers placed 0.231, pre-event members 0.077. The canvas keeps the mark.
+later:      2026-10-07, catch-up: a member said most damage came from trolls at GT, not UGA (dfrznpf); synchronised shading was proposed when solo upkeep failed (6321yr, dfqov1c). The brief shows THWg as a sports-post sign-off and the UGAg rivalry (62e9tu, dfixble), both carried onto the canvas.

@@ -4,9 +4,10 @@ week:       h5 a call; h34 to h55 takeovers; h59 to h60 UCF; h71 a shunning.
 named:      r/UCF as peaceful neighbour and as target (c0015, c0025); r/floridagators as the sub for the canvas logo (c0018); Tennessee as rival for the spot (c0027).
 goal:       a UF mark; called at h5.8; the logo run by r/floridagators; held.
 unsettled:  whether to ally with UCF or take its logo (c0016, c0025, c0026).
-coder unsure: 49 threads out of scope.
+coder unsure: several calls survive only as titles (631rxr, 632mrt, 6349ek, 634aj7); linked images unseen (62odxq); which design the started pixels follow not shown (dfqufkg).
 carrying:   c0016, c0018, c0025
 not this:   the room that ran the UF logo; its own member sent the alliance to r/floridagators.
 ended:      last coordinating turn h71.21 (c0031, calling to shun the nonbeliever); h77.9 help offered late.
 struck by:  "Dick move"
 made:       one artwork, University of Florida, 925 px at the edge, 5,945 placers, shared with r/floridagators, placed from h1.26; writers placed 0.054, pre-event members 0.016. The canvas keeps the logo.
+later:      2026-10-07, catch-up: the second call to take UCF's logo was answered "GOOD IDEA!" where the first drew "Dick move" (dfrahau, dfr8kzb). The brief shows the Gators' Final Four run and its cheers (61dzaw), the language of the GO GATA design.

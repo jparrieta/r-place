@@ -4,9 +4,10 @@ week:       h16 to h30 April Fools; h37 to h60 the Cubs logo; h54 to h62 the new
 named:      r/stlouisblues as builder of the Cardinals logo (c0067); the Cubs as target (c0041, c0063); the Dolphins as the Cubs' ally (c0095); a witch's hat and a pink bow as neighbours under agreement (c0021, c0031).
 goal:       a Cardinals logo; proposed at h36.3; built from h62.5 by r/stlouisblues; held.
 unsettled:  build their own or deface the Cubs (c0042, c0063, c0091).
-coder unsure: 83 threads out of scope.
+coder unsure: seven readers, no one held the week; attack talk buried in two long threads found only late (62ztl1, 6320ar); post bodies and images unseen (636l3b, 6388bi); the Discord unseen (dfreyfb).
 carrying:   c0042, c0053, c0067
 not this:   a room that built its logo; a r/stlouisblues representative started it, and its writers placed 0.054.
 ended:      last coordinating turn h72.60 (c0038, alliances around St. Louis); after h73 the logo called done.
 struck by:  "I'm down, i've just been destroying the cubs logo and I feel like an absolute jerk."
 made:       one artwork, St. Louis Cardinals, 224 px at the edge, 820 placers, placed from h1.39; writers placed 0.054, pre-event members 0.007. The canvas keeps the logo.
+later:      2026-10-07, catch-up: not this qualified; members built and repaired a Cardinals logo from h36 (62xr3x, dfqd9tj) before the Blues representative's new spot (6352zd). Members spent a game turning the Cubs logo rude (dfrb7z8). The brief shows Cubs fans greeted with ritual abuse (dfneuc1), the rivalry the defacing carried.

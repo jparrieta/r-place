@@ -4,9 +4,10 @@ week:       h8 to h14 McDavid, the logo; h27 to h37 a move, the pact; h37 to h59
 named:      the Flames as rival and pact partner (c0013, c0073); the CS:GO sub's bots as attackers (c0066); the void as destroyer (c0127, c0136).
 goal:       an Oilers logo beside the Flames; settled by vote at h13.7; moved at h27; covered at h72.4.
 unsettled:  fight Calgary or defend with it (c0078, c0100, c0132); whether scripts are fair (c0068, c0085).
-coder unsure: 63 threads out of scope.
+coder unsure: six readers, no one held the week; anti-Calgary calls survive only as titles (62v7hb, 62vgdk); images unseen (63c3dh); event talk found late in a triaged thread (637l7i).
 carrying:   c0013, c0073, c0127
 not this:   a room at war with its rival; it built a pact with Calgary and broke it only in words after the close.
 ended:      last coordinating turn h72.28 (c0126, the call to defend from the void); after h73 mourning and blame.
 struck by:  "I'm in on the defense pact!"
 made:       one artwork, Edmonton Oilers (covered), 693 px in the middle ring, 4,463 placers, placed from h1.24; writers placed 0.23, pre-event members 0.15. The canvas field names the logo covered.
+later:      2026-10-07, catch-up: one script kept both the Oilers and Flames logos (dfr60wp); after the close a member found comfort that the drop was replaced to the last minute (63c3dh). The brief shows the playoff clinch and members summoning the moderators' bot (624bkj, dfjnka2), which the April Fools bot takeover played on.

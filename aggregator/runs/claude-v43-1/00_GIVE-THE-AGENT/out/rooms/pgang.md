@@ -4,9 +4,10 @@ week:       h72.55 to h72.80 templates and a territory link; h73.1 to h73.4 a pe
 named:      the canvas's moderators as the ones who ended it (c0007).
 goal:       keep their territory to the template; stated at h72.55; the close came twenty-five minutes later.
 unsettled:  what the sub is for once the canvas ends (c0008).
-coder unsure: 2 threads out of scope.
+coder unsure: no comments at all; the moderator's template body deleted (637w5x); the Imgur template and petition image unseen (637xx7, 6383hv); the record holds only 52 minutes.
 carrying:   c0001, c0005, c0008
 not this:   a room that built its work in its threads; its first coded turn came after the artworks had been on the canvas for seventy hours.
 ended:      last coordinating turn h72.80 (c0006, the template link again); after h73 a petition and a new purpose.
 struck by:  "1 UPVOTE AND I WILL PLACE A NEW TILE"
 made:       two artworks at the edge, PGang 198 px with 309 placers and PGang Pyramid 80 px, placed from h1.38; writers placed 0.049, pre-event members 0. The canvas keeps both; the room's record holds only their last minutes.
+later:      2026-10-07, catch-up: the account changes nothing; the petition and the new-use proposal came from one poster, so they are no shift by the room (6383hv, 6388p4). The brief is the harness's empty brief.

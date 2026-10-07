@@ -4,9 +4,10 @@ week:       h8 to h53 tools, the joke; h53 to h66 the logo, the shark; h71 losin
 named:      the Blue Corner as target of scripts (c0002, c0010); the shark's hand-drawers as neighbours under a peace deal (c0097, c0106); r/placestart as taskbar keeper (c0104).
 goal:       a Python logo; called at h18.6; planned from h53.8; partly lost near h71.6.
 unsettled:  scripts against hand-drawn neighbours (c0097, c0106, c0122).
-coder unsure: 170 threads out of scope.
+coder unsure: three readers, no one held the week; Discord and the placer server unseen (63132t); the package post's pitch removed (635cl6); linked code and the canvas itself not read.
 carrying:   c0006, c0098, c0106
 not this:   a room that drew by hand; its members wrote and shared placing scripts from h8.7, and coordinated the logo through a package.
 ended:      last coordinating turn h72.73 (c0112, redirecting help to the existing logo).
 struck by:  "We've spent an entire day drawing that shark without the use of scripts and you guys are about to replace it with a grey box."
 made:       one artwork, Python, 405 px at the edge, 2,279 placers, placed from h1.38; writers placed 0.057, pre-event members 0.01. The canvas keeps a Python mark.
+later:      2026-10-07, catch-up: a member said the earlier attempt was half done and was destroying an image they helped build (dfrimno); the module was reused to keep r/placeQR's code (dfrwuse). The brief shows members trading automation scripts the week before (61vbni, dfhrs4z), the habit the canvas tools came from.

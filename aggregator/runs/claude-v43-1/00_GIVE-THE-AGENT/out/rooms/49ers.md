@@ -4,9 +4,10 @@ week:       h39 to h51 the start, a move; h51 to h59 neighbours, done; h60 to h7
 named:      r/doormonster and Green Lattice as neighbours to spare and ask (c0024, c0041); the Seahawks as attacker and rival (c0034, c0047); the Chiefs and Blackhawks as partners (c0050, c0046).
 goal:       a 49ers logo; begun at h47.3; moved once; done at h59.0; held.
 unsettled:  remove the Seahawks 12 or live and let live (c0047, c0048, c0049).
-coder unsure: 76 threads out of scope.
+coder unsure: three readers, no one held the week; Green Lattice's Discord and Gift of Games' approval sheet unseen (634y62); post bodies deleted (6386ca, 636lhw); who placed the pixels not shown.
 carrying:   c0018, c0031, c0050
 not this:   a room organised by its members alone; a moderator stickied the plan, moved the logo and set rules for neighbours.
 ended:      last coordinating turn h72.12 (c0070, redirecting effort to the Warriors logo).
 struck by:  "We should live and let live."
 made:       one artwork, San Francisco 49ers, 756 px at the edge, 3,236 placers, placed from h1.39; writers placed 0.142, pre-event members 0.063. The canvas keeps the logo.
+later:      2026-10-07, catch-up: Gift of Games was helped back (dfriqpz); a Bay-logo pact was refused by an A's fan (dfs0nxi); one member called the canvas brand advertising (dft18p6). The brief shows the NFL Survivor rounds with allies and rival teams voted out (61shoo, dfeams4), the alliance talk the canvas reused.

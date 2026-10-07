@@ -4,9 +4,10 @@ week:       h14 to h39 Gomez; h42 to h62 limits; h65 to h71 the deal, the loss.
 named:      r/denmark as limiter, defender, eater and apologiser (c0030, c0060, c0063, c0085); Estonia and the menorah as neighbours (c0008, c0014).
 goal:       Gomez; done at h39.2; lost at h67.5 under a destroy-then-rebuild deal; not rebuilt by the close.
 unsettled:  whether Denmark's word binds its members (c0059, c0081).
-coder unsure: 2 threads out of scope.
+coder unsure: two Discords, Fez's and Denmark's, seen only as returned (dfp407k, dfrlhaz); the rebuild script unread (6373e5); five post bodies deleted (634tv7, 63659n, 638yqa); whether rebuilding happened not shown.
 carrying:   c0030, c0063, c0085
 not this:   a room that lost to an enemy; it agreed to its own erasure on a promise to rebuild.
 ended:      last coordinating turn h71.09 (c0084, passing the template into Denmark's Discord); after h73 an apology and Danish beer.
 struck by:  "let them eat it and rebuild it after"
 made:       one artwork, Gomez (Fez Game), 358 px in the middle ring, 1,912 placers, placed from h2.04; writers placed 0.007, pre-event members 0. The canvas field links Gomez; the room says it was absent at the close.
+later:      2026-10-07, catch-up: the room was not only conciliatory; one member said give Denmark a fight (dfq2iv9) and another boasted of defeating Denmark (dfqvzly). The brief shows puzzle and soundtrack talk and changes nothing.

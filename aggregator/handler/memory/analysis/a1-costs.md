@@ -25,3 +25,4 @@ Target length: under 400 words. Handler analysis; regenerate from `CONTROL/legs/
 - So 1% of a week is about $19 of list cost ($16 to $24 with the readings rounded); a full leg is about 1.5% of a week.
 - The 59% J read at 16:27Z was another meter, likely the 5-hour window.
 
+- 55% at 2026-10-07 09:02Z (J; some of it his own copy editing). Run cost then about $815 list; from 44% at 04:31Z ($656) that is about $160 for 11 points, at most $15 per point, less once J's and the handler's own use are taken out.

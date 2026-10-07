@@ -4,9 +4,10 @@ week:       h25 to h41 a 15 and a logo; h45 to h62 attacks, truce, r/716Place; h
 named:      the Leafs, Bruins and Habs as targets (c0017, c0068, c0055); the Bills as hoped-for help (c0020, c0046); the Red Wings as invaders, then partners (c0092, c0080); r/716Place as the new home (c0081).
 goal:       a Sabres mark; a 15 by h40.7, a logo by h48.2; held with a deal.
 unsettled:  whether there are enough people (c0008, c0045, c0083).
-coder unsure: 56 threads out of scope.
+coder unsure: two readers, no one held the week; work in r/716Place and on PlaceTwo unseen (dfrs1k2, dfsy967); the first canvas post body deleted (62su6n); images unseen.
 carrying:   c0011, c0081, c0102
 not this:   a room whose members spent the week only on their logo; many turns went to defacing rival logos.
 ended:      last coordinating turn h72.97 (c0080, thanks to the Red Wings); h84.8 PlaceTwo.
 struck by:  "These things have to be organized. 3 people cant do anything by themselves."
 made:       one artwork, Buffalo Sabres, 264 px at the edge, 670 placers, placed from h1.77; writers placed 0.182, pre-event members 0.075. The canvas keeps the logo.
+later:      2026-10-07, catch-up: the Red Wings offered help in thanks for space (dfrzdif); after the close the Laffs thread turned into Leafs taunts and a farewell (dfsy8dv). The brief shows a Leafs-beating post-game thread and an upvote party mocking Matthews (61j8gu, 61wjod), the rivalry the Laffs edit carried.

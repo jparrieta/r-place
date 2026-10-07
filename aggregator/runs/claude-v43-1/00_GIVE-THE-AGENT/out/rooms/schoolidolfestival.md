@@ -4,9 +4,10 @@ week:       h0 to h27 April Fools; h37.6 to h50 Honoka; h53 to h63 a second imag
 named:      r/LoveLive as partner (c0038, c0097); r/placehearts and r/ainbowroad as consenting hosts (c0039, c0093); r/StardustCrusaders as neighbour (c0047); fnatic as a logo to rebuild (c0055); osu as a warning (c0095).
 goal:       an 8-bit Honoka; called at h37.6; done by h50.7; a second image refused; held.
 unsettled:  whether to add a second image without approval (c0093, c0096).
-coder unsure: 246 threads out of scope.
+coder unsure: nine readers, no one held the week; the main post's middle truncated in delivery (62y2d6); the Discord compromise and guide sites unseen (dfqvn0d, dfrplaz); Place Two body deleted (63csj8).
 carrying:   c0037, c0039, c0100
 not this:   a room that built alone; the Honoka was a joint effort planned with r/LoveLive's Discord.
 ended:      last coordinating turn h72.40 (c0060, defending Honoka and allies against the void); after h73 thanks and Place Two.
 struck by:  "This society has evolved into approvals, alliances, movements, and unwritten rules."
 made:       three artworks in the middle ring, Love Live 2,455 px shared with r/lovelive, Honoka Kousaka 1,130 px shared with r/LoveLive and r/Honkers, Love Gems 190 px, placed from h1.12; writers placed 0.14, pre-event members 0.08. The canvas keeps them.
+later:      2026-10-07, catch-up: one member said the canvas brought them back to the game (dfsgbf9); the Place Two question got no answer (63csj8). The brief shows moderators routing posts into weekly megathreads (dfd2tkw), as the canvas work was gathered in one edited post.

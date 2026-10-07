@@ -4,9 +4,10 @@ week:       h30 to h46 the sign, a move; h52 to h60 the Blue Corner deal; h64 to
 named:      the Blue Corner as protector by deal (c0025); r/placestart as threat then ally (c0020, c0041); Rocketbeans and Undertale as neighbours under agreements (c0045, c0036).
 goal:       the MD7 sign; done at h32.5; moved into the taskbar at h68.8; held.
 unsettled:  follow r/placestart's template or hold their spot (c0027, c0030).
-coder unsure: 7 threads out of scope.
+coder unsure: the placestart thread's opening body deleted (631p9b); talks in Twitch chat and Discord unseen (dfr87nj, dfrvilr); deleted comments in the credit thread (dfs8n1m).
 carrying:   c0026, c0036, c0041
 not this:   a room that held space by numbers; it held it by deals with the Blue Corner, r/placestart and Undertale.
 ended:      last coordinating turn h72.97 (c0053, an Undertale diplomat asking to finish its work); after h73 credits.
 struck by:  "Selten so viele Verhandlungen geführt um 50 Pixel zu verteidigen. Wir haben wirklich alles gegeben."
 made:       two artworks at the edge, Moondye7 Logo 484 px with 6,572 placers and Moondye 7 353 px, placed from h1.65; writers placed 0.062, pre-event members 0.001. The canvas keeps both signs.
+later:      2026-10-07, catch-up: after the close a member began a named roll of pixelers, designers and diplomats, and others corrected who was left out (6390iw, dfs7fzi, dftftqq). The room's own April Fools joke, spamming the stream chat, was refused (62vaea, dfpdai9). The brief shows stream clip posts and changes nothing.

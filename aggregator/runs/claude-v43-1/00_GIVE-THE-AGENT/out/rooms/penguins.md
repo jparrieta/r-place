@@ -4,9 +4,10 @@ week:       h24 to h37 jokes, a call; h36 to h52 the old logo, overrun; h56 to h
 named:      r/Pitt as host and helper (c0077, c0096); the Blue Corner and Rainbow Road as space holders (c0043, c0029); the Flyers as rival (c0106).
 goal:       a Pens logo; tried from h36.4; overrun twice; a head at the close.
 unsettled:  where and when to build together (c0088, c0089, c0090).
-coder unsure: 72 threads out of scope.
+coder unsure: five readers, no one held the week; the old-logo and locating post bodies removed (62xsk6, 635f7h); images unseen, so whether the head held is not shown; the mutual-defence pact one visitor's report (dfrs2pw).
 carrying:   c0032, c0088, c0096
 not this:   a large team sub with a large logo; it could not gather enough people at one place and time.
 ended:      last coordinating turn h72.85 (c0100, joining so the Pens are represented); h73.1 a head.
 struck by:  "We should have an official post with clear instructions of location and the layout dimensions."
 made:       one artwork, Pittsburgh Penguins, 110 px at the edge, 604 placers, placed from h2.85; writers placed 0.106, pre-event members 0.036. The canvas keeps a small Pens mark.
+later:      2026-10-07, catch-up: a recruiting call sat buried in a game thread (dfqs1et); the Flyers call drew no reply (637wv4); the finished head was likened to a marlin (dfs17xr). The brief shows "Fuck the Flyers" as the room's greeting (61l4a8), the rivalry behind the last call.
