@@ -10,8 +10,10 @@ for l in open(sys.argv[1]):
     it=n["params"]["item"]
     if it["type"] not in ("commandExecution","dynamicToolCall"): continue
     c=it.get("command",""); o=it.get("aggregatedOutput") or ""
-    m=re.search(r'room boundary:? (?:\w+ )?([A-Za-z0-9_]+)',c)
-    if m and "mem.py log" in c:
+    m=None
+    if "mem.py log" in c:   # the room's end: "room boundary <sub>", "<sub> (order N) read whole", "reread <sub> (order N)"
+        m=(re.search(r'room boundary:? (?:\w+ )?([A-Za-z0-9_]+)',c) or re.search(r'mem\.py log "(?:reread )?([A-Za-z0-9_]+) \(order \d+',c))
+    if m:
         s=m.group(1)
         if s=="room": continue
         try: f,cb,tb=mem.room_bytes(st,s); size=cb+tb
