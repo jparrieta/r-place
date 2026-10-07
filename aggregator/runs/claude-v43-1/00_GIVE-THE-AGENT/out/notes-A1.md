@@ -886,3 +886,20 @@ leg A1b-27 closed. Stop now; the harness takes the snap and runs the probe.
 ```
 
 Ledgers at the close: lexicon 1,289 lines, running file 604 lines (10 block-27 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,986 words. 200 of 702 catch-up rooms are done. The next leg reads catch-up block 28, from ultrahardcore.
+
+## Close report, leg A1b-28 (catch-up block 28), 2026-10-07
+
+Block 28 is read: 25 of 25 rooms, ultrahardcore to dota2. For each room, case.md and brief.md were each served whole by `mem.py`, and the read log showed lines served equal to the total before the note was amended. Each `coder unsure:` line now says what case.md says, with thread ids where the account gives them; for AvoArmy and PlaceNL, whose lines said none, the line now names the limits the account states. Each note has a dated `later:` line. Four briefs are the harness's empty brief (AvoArmy, PlaceNL, placestart, ainbowroad); all were served and checked. The note hook refused 15 notes (trees, philippines, AvoArmy, PlaceNL, scotland, rwby, tf2, brasil, purdue, turkey twice, 2007scape, lakers twice, europe, ainbowroad, dota2); 2 more were trimmed because `wc -w` showed 348 or 350 without a refusal (ultrahardcore, placestart). Every trim is logged. In trees, starvstheforcesofevil, brasil and prequelmemes the later line qualifies the not-this line. The later lines for trees, PlaceNL, scotland, 2007scape and ainbowroad say their placements before hour 0 are Reddit's tests. The head dropped its A1 reading-route line for length; the same figures are in this file's read-log paragraph.
+
+`validate.py A1` before the close: 0 errors, 0 warnings.
+
+`done.sh A1`:
+
+```
+done.sh A1 leg=A1b-28 cut=none 20261007T042457Z
+links: 1 files checked, all ids resolve
+views regenerated for stage A1: 115388 concepts, 705 rooms, 0 ledger lines
+leg A1b-28 closed. Stop now; the harness takes the snap and runs the probe.
+```
+
+Ledgers at the close: lexicon 1,289 lines, running file 613 lines (9 block-28 entries), leads 2,478 lines, defects 8 lines. The head is rewritten at 2,964 words. 225 of 702 catch-up rooms are done. The next leg reads catch-up block 29, from rotmg.
