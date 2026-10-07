@@ -4,13 +4,14 @@ before the leg against the note now; every line added or changed must be made of
 in the cut versions (pretrim-A1/<sub>__<leg>.md) or in the note before the leg: at least 90% of its word 3-grams
 found there. And each room of the batch has a diary note line in the leg (the decision recorded, put back or not).
 
-    python3 audit_restore.py RUN_DIR LEG
+    python3 audit_restore.py RUN_DIR LEG [EXTRA_SUB ...]
 """
 import difflib, glob, json, os, re, sys, tarfile
 RUN, LEG = sys.argv[1], sys.argv[2]
 AG = os.path.join(RUN, "00_GIVE-THE-AGENT"); OUT = os.path.join(AG, "out"); P = os.path.join(OUT, "_handling", "pretrim-A1")
 SNAP = os.path.join(RUN, "CONTROL", "snapshots")
 batch = [l.split("\t")[1] for l in open(os.path.join(P, "BATCHES.tsv"), encoding="utf-8").read().splitlines()[1:] if l.split("\t")[0] == LEG]
+batch += [x for x in sys.argv[3:] if x not in batch]   # rooms the leg changed outside its batch (2026-10-07, A1b-55)
 idx = [l.split("\t") for l in open(os.path.join(SNAP, "INDEX.tsv"), encoding="utf-8").read().splitlines()[1:] if l.strip()]
 order = [r[0] for r in sorted(idx, key=lambda r: r[2])]
 label = "A1." + LEG
