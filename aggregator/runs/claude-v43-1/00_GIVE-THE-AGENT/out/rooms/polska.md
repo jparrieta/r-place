@@ -4,9 +4,10 @@ week:       h3.5 the flag; h26 to h33 the AMD deal; h38 to h46 Discord; h62 to h
 named:      AMD and r/AyyMD as neighbour under a deal (c0038, c0045, c0100); Austrians as rivals for the flag and the heart (c0004, c0133); r/FRC and r/FTC as neighbours overrun (c0103, c0113); r/ainbowroad as saviour (c0140); PCMasterRace as enemy (c0134); r/soylent as target (c0066, c0132).
 goal:       the Polish flag; set at h3.5; extended under the AMD deal.
 unsettled:  whether organised Poles control every Polish pixel (c0039, c0085, c0114).
-coder unsure: the opening edge comes from one batch, not a whole reading.
+coder unsure: the opening edge comes from one batch, not a whole reading; Discord plans and compliance unseen (dfq75g4, 62ngud); scripts, bots and the clone's destination not inspectable (63f4me); four coders, links across slices weaker.
 carrying:   c0039, c0060, c0141
 not this:   one Polish group; members kept saying that random Poles, not the organisers, did the invading.
 ended:      last coordinating turn h71.61 (c0135, telling players to back PCMR; c0134 at h71.50); after h73 credit, blame, a clone.
 struck by:  "We have a deal! I can't speak for every member of Polish community"
 made:       two artworks at the edge, Flag of Poland 3,346 px and an unfinished Polish-Hungarian heart, placed from h1.34; writers placed 0.094. The canvas keeps the flag.
+later:      2026-10-07, catch-up: one Discord had a shared direction and banned a member who pulled away from it (dft2iwe), yet only half the channel followed orders (dftkezd). The brief shows members calling themselves a pack of random people the week before (dfk1dp2), the randomy later credited with the flag.

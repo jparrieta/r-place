@@ -4,9 +4,10 @@ week:       h10 to h36 the first project; h45.8 to h58 NoFace and Totoro lost; h
 named:      r/undertale and r/paranatural as rivals for space (c0012); Virginia Tech as the group that took Totoro (c0030); r/stevenuniverse as neighbour asked to make room (c0044); r/SwedenOnPlace and r/Astroneer as holders of a spot (c0048, c0058); r/hardstyle as maker of a logo mistaken for Mononoke's mask (c0035).
 goal:       a Ghibli picture; several were started and none held; at the end, keeping a small white Totoro already there.
 unsettled:  where to build, and what (c0021, c0047, c0058).
-coder unsure: the link from Virginia Tech's takeover to the move is not stated (631cfj).
+coder unsure: the link from Virginia Tech's takeover to the move is not stated (631cfj); deleted replies there and in 630pfy; the Discord talks and SwedenOnPlace's answer unseen (dfr26nl, dfrma6n); no recap after the close.
 carrying:   c0031, c0033, c0061
 not this:   a room that kept what it built; each start was lost to larger groups.
 ended:      last coordinating turn h72.89 (c0061, proposing to maintain the small Totoro); nothing after.
 struck by:  "there's no saying no to a totoro."
 made:       one artwork, Totoro, 114 px in the centre, placed from h0.96; writers placed 0.002, pre-event members 0. The canvas keeps a Totoro this room did not build; it proposed to adopt it at the close.
+later:      2026-10-07, catch-up: the account changes nothing; the move away from the Switch area was explicitly made after reading the comments (dfrw119), and a search for finished or held pictures found only the small-Totoro proposal (dfrz4he). The brief shows a film-talk room with no ritual and changes nothing.

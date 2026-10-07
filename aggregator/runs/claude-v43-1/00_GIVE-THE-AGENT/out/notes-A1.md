@@ -1021,3 +1021,13 @@ A compaction fell after DCFU was amended from the summary. DCFU's case.md and br
 `validate.py A1` before the close: 0 errors, 40 warnings (notes over the 350-word guide, 19 of them from this block).
 
 Ledgers at the close: lexicon 1,289 lines, running file 678 lines (7 block-36 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 425 of 702 catch-up rooms are done. The next leg reads catch-up block 37, from bobross (`order-A1.txt` line 1134).
+
+## Close report, leg A1b-37 (catch-up block 37), 2026-10-07
+
+Block 37 is read: 25 of 25 rooms, bobross to sixers. For each room, case.md and brief.md were each served whole by `mem.py` in separate calls, and the read log showed lines served equal to the total before the note was amended. Each note has a dated `later:` line. In 16 notes the old `coder unsure:` line said none or gave the brief's coverage; it was replaced with case.md's limits and thread ids. In nine (bobross, texastech, ghibli, polska, yerbamate, iceland, ftlgame, freedomplanet, ukplace) it already drew on case.md and was extended. Three briefs were the harness's empty brief (GuardiansOfDatBoi, CryptoFR, ukplace).
+
+Case.md showed facts in earlier lines that were wrong or too strong in bobross (the easel), linux (one scripts post removed, not all), glasgow (the late contribution is not the saltire and not tied to r/scotland) and ukplace (the refusal to invade Mexico was not the only position). Each later line says so and the earlier lines stand. In texastech, linux, dallasstars, oman and sixers the later line qualifies the not-this line. Gendered pronouns for members were removed in texastech, oman and glasgow.
+
+`validate.py A1` before the close: 0 errors, 58 warnings (notes over the 350-word guide, 18 of them from this block).
+
+Ledgers at the close: lexicon 1,289 lines, running file 686 lines (8 block-37 entries), leads 2,478 lines, defects 8 lines, departures 9 lines. 450 of 702 catch-up rooms are done. The next leg reads catch-up block 38, from Lugarix (`order-A1.txt` line 1159).

@@ -4,9 +4,10 @@ week:       h6.8 to h12 the first call; h21.9 to h30.6 the flag under Argentina,
 named:      r/argentina as host, helper and Discord (c0005, c0008, c0012, c0048); Brazil as helper and ally against the void (c0036, c0047); Greece, China and Pansexual Pride as owners of hearts (c0043, c0060, c0052); Serbia as a space eyed (c0069); Finland (c0049).
 goal:       a Uruguay flag; set at h6.8; resized to Argentina's width at h24; done at h30.6.
 unsettled:  whether to take others' hearts and space (c0034, c0044, c0069).
-coder unsure: none named.
+coder unsure: the Argentine Discord's decisions unseen (dfp8hdc); the unofficial sequel's uptake unknown (dfst61j); two mobilising post bodies deleted (62ukgx, 634s0f); no vote, leader or settlement of the heart disputes shown.
 carrying:   c0004, c0012, c0034
 not this:   a room working alone; it built under Argentina and coordinated in Argentina's Discord.
 ended:      last coordinating turn h72.81 (c0054, insisting Uruguay return; c0058 at h72.48); after h73 thanks for the mates and pride.
 struck by:  "somos 4 gatos locos. Hay que achicar."
 made:       one artwork, Flag of Uruguay, 220 px at the edge, placed from h1.05; writers placed 0.122. The canvas keeps the flag.
+later:      2026-10-07, catch-up: a member said Argentine bots guarded the flag, so expansion would fight them (dfr87sg). The brief shows Uruguayan self-deprecation named as a stock routine (dfk4msz) and threads that rarely pass ten comments (dflsx8c), the smallness members cited.

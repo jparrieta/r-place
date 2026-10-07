@@ -4,9 +4,10 @@ week:       h39.1 the call; h40 to h44 a few pixels; h47 to h52 Lilac lost and m
 named:      green lettuce (Green Lattice) as host (c0001, c0025, c0042); r/esperanto as neighbour (c0002); r/FloydVsVoid as the triangle's maker and later watcher (c0032, c0041); r/ainbowroad as a group to ask (c0023).
 goal:       a Lilac head; set at h39.1 by one member; moved into Green Lattice at h57.7.
 unsettled:  who contributed (c0043, c0045).
-coder unsure: two post bodies deleted (633rk0, 633rmh).
+coder unsure: two post bodies deleted (633rk0, 633rmh); the Freedom Planet Discord's decisions unseen (62ydi7, dfqpra2); whose account of who helped is true not settled (dfr35if); Floyd's denial of intent the visitor's own (dfqai2j).
 carrying:   c0005, c0017, c0041
 not this:   a room effort; one member organised it with a handful of others.
 ended:      last coordinating turn h64.99 (c0041, Floyd offering to watch Lilac); after h73 the final image saved.
 struck by:  "there are at least 6 people who often use"
 made:       one artwork, Sash Lilac, 229 px at the edge, placed from h1.43; writers placed 0.096. The canvas keeps the reborn Lilac.
+later:      2026-10-07, catch-up: after the close a member posted a link dump so the sequence could be found later (dfsvlou). The brief shows a small art-sharing room, empty for three days the week before, and changes nothing.

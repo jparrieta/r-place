@@ -4,9 +4,10 @@ week:       nothing before h34.14; h34 to h36 celebration; h38.4 the Discord inv
 named:      r/Eve as where a logo effort is posted (c0006); the room's own corporation as the "we" (c0003).
 goal:       the Brave Newbies mark, already done when the room spoke; then an EVE logo, organised on Discord.
 unsettled:  nothing in the record.
-coder unsure: three of four threads out of scope; the thread is the only window.
+coder unsure: the linked result image unseen, so what "we did" names is not shown (62x67t); the Discord talk unseen, only its aim and headcount returned (dfpy9o7).
 carrying:   c0001, c0003, c0005
 not this:   a room that organized in its thread; it announced a result and pointed to Discord.
 ended:      last coordinating turn h38.42 (c0005, the Discord invitation for the EVE logo); after it praise at h43.47; nothing after.
 struck by:  "Mission Accomplished. We faction nao."
 made:       two artworks in the middle ring, Brave Newbies 630 px and Eve Online Atron 40 px, placed from h1.8; writers placed 0.035. The canvas keeps the mark the room announced.
+later:      2026-10-07, catch-up: the invitation names an EVE logo and r/Eve, so the record does not show Brave alone made the work (dfpy9o7). The brief shows the 7o salute in welcomes and leave-taking the week before (dfdngqa), the salute the canvas thread closed with.

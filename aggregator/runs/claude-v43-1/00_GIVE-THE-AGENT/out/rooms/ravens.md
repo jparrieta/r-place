@@ -4,9 +4,10 @@ week:       h7.7 to h11 first calls; h19 to h26 April Fools; h26 to h33 Sweden a
 named:      r/steelers as attacker (c0053, c0065); Swedes as rivals (c0045, c0047); Pink Vomit Monster as neighbour under a Discord deal (c0061); r/drumcorps and another neighbour asking a shift (c0067, c0069); Sweddit's Discord (c0074).
 goal:       a Ravens logo; many starts by single members; one painter carried it from h46.
 unsettled:  where to build (c0031, c0054, c0064).
-coder unsure: none named; 58 threads out of scope.
+coder unsure: the Bengals fan's body deleted (62q6tw); the painter's post edits untimed (630s20); the Discord talks seen only as returned (dfqlk6j); one coder per slice, no agreement measure.
 carrying:   c0050, c0061, c0068
 not this:   a room that backed its builder; the painter said r/ravens gave little support.
 ended:      last coordinating turn h72.70 (c0072, giving the location to a helper); nothing after.
 struck by:  "Don't destroy anything around us"
 made:       one artwork, Baltimore Ravens, 129 px at the edge, placed from h2.06; writers placed 0.033. The canvas keeps a small logo the painter called unfinished.
+later:      2026-10-07, catch-up: a member asked in Sweddit's Discord and brought back a Maryland-text decision (dfqlk6j). The brief shows Fuck the Steelers as a call-and-response the week before (dfes9l5), the refrain the canvas call used, and the r/NFL Survivor game running in many posts (61uh50).

@@ -4,9 +4,10 @@ week:       h5.7 a title; h20 to h24 the stripe moved; h26 to h33 alliances and 
 named:      r/splatoon as neighbour helped (c0004, c0015); France as threat and protector (c0008, c0023); r/Ireland as raided, then at peace (c0030, c0036); the Faroese as given a flag (c0050); EVE as host and diplomat (c0059, c0063); Snorlax and Bolivia under deals (c0065, c0066); r/FlagAlliance (c0057).
 goal:       the Icelandic flag, set by h20, moved to fit neighbours; then copies, a word, hearts.
 unsettled:  raiding against peace (c0031, c0038, c0071).
-coder unsure: the first post's body was removed (62ocu9).
+coder unsure: the first post's body was removed (62ocu9), as were proposal and treaty posts (62y8sa, 6336m0); Discords, spreadsheets and the EVE channel seen only as returned; who first covered Bolivia disputed (63578i, dfrivqq).
 carrying:   c0003, c0049, c0069
 not this:   a room that only raided; most turns are deals and moves for neighbours.
 ended:      last coordinating turn h72.23 (c0077, a visitor asking Bolivia and Iceland to stop; c0071 at h71.31); after h73 pride.
 struck by:  "Ireland was always a Viking raiding target!"
 made:       four Icelandic artworks at the edge, largest Flag of Iceland 756 px, placed from h1.37; writers placed 0.119. The canvas keeps the flag and three copies.
+later:      2026-10-07, catch-up: some members said they gave up on the Union Jack and hit Ireland instead (dfqjoko), while another restored Ireland because the Irish are bros (dfrudtk); a moderator moved all canvas talk to a megathread as too much (636n57). The brief shows the AutoModerator routing tourist posts away (dfhtl9z) and changes nothing.

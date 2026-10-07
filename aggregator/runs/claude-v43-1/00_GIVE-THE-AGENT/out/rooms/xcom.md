@@ -4,9 +4,10 @@ week:       h26.4 to h46 spots and plans; h46.9 one plan; h49 to h62 compromises
 named:      Green Lattice, the Blue Corner, r/Kpop, r/rhythmheaven, Gungeon, Hydra, r/Rainbow6 as neighbours (c0002, c0017, c0038, c0060, c0005, c0068, c0070); r/Udubs, the University of Washington, as scripted attacker (c0083, c0104); r/Python as a polite contrast (c0086).
 goal:       the XCOM logo; settled at h46.9; text added at h57.
 unsettled:  where to talk about the canvas (c0088, c0095, c0097).
-coder unsure: 144 threads out of scope.
+coder unsure: linked plans, images and the Minecraft view unseen; Blue Corner and other subs' decisions one-sided; the script never finished (dft8jde); deleted proposal bodies (62xr73, 637r69); four coders, no agreement measure.
 carrying:   c0021, c0035, c0047
 not this:   a room that took space; it gave up spots and let neighbours sit on its logo.
 ended:      last coordinating turn h72.78 (c0057, a reset report; c0092 at h70.74); after h73 victory, thanks between rooms.
 struck by:  "Play-Yan looked very comfortable"
 made:       one artwork, XCOM Logo, 1,584 px at the edge, placed from h1.51; writers placed 0.129. The canvas keeps the logo with Play-Yan on it.
+later:      2026-10-07, catch-up: the member who called canvas posts spam withdrew the complaint once told it was over (dfsdvek), and a newcomer arrived through the final image (dftj50u). The brief shows That's XCOM, baby! as a running line the week before (dff5upi), the game talk the canvas narration reused.

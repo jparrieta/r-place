@@ -4,9 +4,10 @@ week:       h53 to h60 heart, peace offer, script; h65 to h73 Mexico, the void, 
 named:      the American flag and Mexico as neighbours helped (c0032, c0043); r/theblackvoid (c0042); Tennessee fans as overwritten (c0071); Italian allies (c0084).
 goal:       a UK flag with additions; the flag fixed before h53; additions argued throughout.
 unsettled:  whether scripts are fair (c0022, c0024, c0089).
-coder unsure: the room's opening is not in the window.
+coder unsure: the room's opening is not in the window; Discord decisions and agreements unseen, invitations later expired (635omh, 637uog); deleted bodies include the master script post (632n5g); the room's account of other subs one-sided.
 carrying:   c0009, c0038, c0081
 not this:   a late room looking for space; it expanded by script over others.
 ended:      last coordinating turn h73.21 (c0062, asking whether moving Kingdom means war; c0061 at h73.19); after h73 a quarrel and a mock defence pact.
 struck by:  "Anyone you ran script on. A man from Tennessee."
 made:       one artwork, Flag of the United Kingdom, 4,946 px at the edge, placed from h1.14; writers placed 0.02, pre-event members 0. The canvas keeps the flag; its placers far outnumber this room's writers.
+later:      2026-10-07, catch-up: the doing line's refusal to invade Mexico was not the room's only position; a member blamed damage on trying to overwrite Mexico (dfs9nbw), and another called reported cooperation against Mexico shame to our flag (dfryepa). The brief is the harness's empty brief; the sub had no posts the week before.

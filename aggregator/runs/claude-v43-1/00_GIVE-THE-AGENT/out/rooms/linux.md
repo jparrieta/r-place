@@ -4,9 +4,10 @@ week:       h7 to h25 pranks; h11.5 to h28 Tux and tools; h24 to h50 neighbours 
 named:      r/linuxmasterrace as where coordination ran (c0023, c0125); r/PrequelMemes and CowChop as neighbours under agreement (c0041, c0047); the Lost subreddit as owner of space (c0089); r/Paladins apologising for a stray pixel (c0090); Sweden as invader (c0077); the Rust community (c0117).
 goal:       Tux, then GNU/Linux; set from h11.5; the slash changed under griefing.
 unsettled:  Tux's design (c0070, c0112, c0113); bots against people (c0129, c0132).
-coder unsure: 244 of 268 threads out of scope.
+coder unsure: who made each image unknown, perhaps not this sub (dfrpvdf); r/linuxmasterrace and Discord decisions unseen (dfq7i54); the Rust offer and the Java griefing never shown carried out (dfrstda, dfs5tmk); eleven slices, no single reader.
 carrying:   c0023, c0101, c0116
 not this:   a room the moderators welcomed for its canvas work; scripts were removed as off-topic.
 ended:      last coordinating turn h70.80 (c0117, offering the Rust botnet; c0116 at h69.84); after h73 the final form and a red dot lamented.
 struck by:  "Any man who who says I am King, is no true King."
 made:       one artwork, Tux (Linux Mascot), 3,264 px at the edge, placed from h1.17; writers placed 0.091, pre-event members 0.039. The canvas keeps Tux; a member doubted this room made it.
+later:      2026-10-07, catch-up: not this qualified; the moderator removed one scripts post as off-topic (dfr1ier), not every canvas thread, and the doing line's plural overstates it. The brief shows a Tux thread with jokes the week before (dfigigb) and moderators routing posts under a no-support rule (dfgi9ij).

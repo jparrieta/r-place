@@ -4,9 +4,10 @@ week:       h6 to h33 April Fools; h9 to h11.5 TTP written; h27 to h52 Kanye dam
 named:      r/Kanye as eater, then ally under a pact (c0049, c0064, c0136); r/ChronoTrigger, the Red Wings, r/eagles, r/tagpro as neighbours (c0104, c0106, c0108, c0058); the Celtics as target (c0050); r/nbaplace and r/phillyplace as new hubs (c0069, c0103).
 goal:       TRUST THE PROCESS at h9.1; then a Sixers logo chosen in Discord at h56.
 unsettled:  phrase or logo (c0061, c0063, c0066).
-coder unsure: 105 threads out of scope.
+coder unsure: the Sixers and Kanye Discord talks unseen, only a design and reports returned (dfqy0rh); templates, final images and the time-lapse unseen (6392fa); opening bodies deleted (632qsp, 632wv7); one coder per slice.
 carrying:   c0054, c0066, c0107
 not this:   a feud with Kanye; the room repaired, negotiated and ended in a pact.
 ended:      last coordinating turn h60.85 (c0109, proposing Hinkie; c0115 at h59.05); after h73 a period lost and pride.
 struck by:  "The weekend the Sixers made a pact with Kanye"
 made:       one artwork, Philadelphia 76ers, 1,140 px in the middle ring, placed from h1.11; writers placed 0.186. The canvas keeps the logo.
+later:      2026-10-07, catch-up: not this qualified; one member called Kanye snakes in a civil war (dfqajax), and another said people outside Discord and the thread could not be kept from interfering (dfr1is5). The brief shows The Process and a TTP sign-off as the room's own words the week before (61loit, dfdhprc), the phrase the first call wrote.

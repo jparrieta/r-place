@@ -4,9 +4,10 @@ week:       h29 to h50 the prank; h37 to h54 spots; h55 to h59 the build; h62 to
 named:      the Blues as rivals not to deface (c0026, c0059); Green Lattice and Finland as hosts asked (c0040, c0053); r/49ers as owner of a spot (c0064); r/hawks and the Wild as Central Team allies (c0084, c0086); One Punch Man as invader (c0096); r/Dallas as help asked (c0085).
 goal:       a Stars logo; spot after spot from h37; built by hand at h59; moved to a bot site at h64.
 unsettled:  hand work against scripts (c0094, c0100, c0107).
-coder unsure: none named.
+coder unsure: three event openings deleted, titles only (62qiqh, 62zatq, 631uo1); the Wild Discord and the Pastebin script unseen (dfr4lnl, 635iyf); one coder per slice, no agreement measure.
 carrying:   c0034, c0065, c0099
 not this:   a room that took space; it asked, apologised and moved at least four times.
 ended:      last coordinating turn h71.19 (c0101, a helper unable to run the script; the bot move c0097 at h64.65); after h73 relief and salt.
 struck by:  "Sorry, looked unoccupied. We'll relocate."
 made:       one artwork, Dallas Stars, 292 px at the edge, placed from h1.72; writers placed 0.081. The canvas keeps a Stars logo the room said was lost; the atlas may hold the bot-site version.
+later:      2026-10-07, catch-up: not this qualified; a blue-letter neighbour said the room's people kept overwriting its blocks (dfr0fuc). The brief shows brexbre as the moderator who ran the star-of-the-game prompts (dfdoeom) and the team already eliminated from the playoffs (61wqn8).

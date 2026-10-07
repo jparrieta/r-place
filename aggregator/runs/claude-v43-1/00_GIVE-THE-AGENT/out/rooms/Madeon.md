@@ -4,9 +4,10 @@ week:       h18.8 to h44 the fake leak; h39.7 the canvas sighting; h49 to h67.5 
 named:      no other group.
 goal:       none set by the room; at h70.9 album art proposed, already on the canvas.
 unsettled:  nothing about the canvas.
-coder unsure: none named; 19 of 22 threads out of scope.
+coder unsure: the picture posts and Imgur images unseen, so the art is known only by what members said (62yhq1); two deleted comments in the sighting thread (dfq0cul, dfqe6ax); who placed the album art not shown (dfrwszt).
 carrying:   c0032, c0039, c0041
 not this:   a room that built its art; it found it twice, at h39.7 and h72.1.
 ended:      last coordinating turn h71.52 (c0040, coordinates for the album art); the last turn, h72.10, reports it done; nothing after.
 struck by:  "each of us is a /r/place"
 made:       two artworks in the middle ring, Madeon - Adventure 163 px and Shelter Tour 238 px, placed from h1.6; writers placed 0.012, pre-event members 0.019. The canvas keeps work this room only noticed.
+later:      2026-10-07, catch-up: the account changes nothing; searches for building, defending or coordinates found only the noted turns. The brief shows leaks argued over and the Adventure anniversary with official acapellas the week before (dfhojwx, 62ecjf), the leak habit the April Fools joke played on.

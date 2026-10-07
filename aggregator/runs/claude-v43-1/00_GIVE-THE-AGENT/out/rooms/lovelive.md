@@ -4,9 +4,10 @@ week:       h10.8 to h39 April Fools; h31.5 to h44 Nico and Honoka proposed; h53
 named:      r/schoolidolfestival as source of the idea (c0022, c0044); r/placehearts as ally and obstacle (c0026, c0037); Estonia, Spain, BDSM and r/dota2 as neighbours (c0024, c0051, c0053, c0073); osu as a warzone (c0032); /vg/ as blamed (c0050); r/StrangerThings in a late quarrel (c0040).
 goal:       Honoka and the Love Live logos; set at h39 from another sub's idea.
 unsettled:  who placed hostile pixels (c0050, c0066, c0072).
-coder unsure: 118 threads out of scope.
+coder unsure: the Discord choice of the final design and its diplomats unseen (dfrtodp, dfs0a0d); proposal bodies removed (62wcf3, 631nuk); blame for the red pixels contested, not settled (dfs51zu, dfst1lt); two coders.
 carrying:   c0022, c0043, c0062
 not this:   this room's own project; the idea and much of the work came from the SIF subreddit.
 ended:      last coordinating turn h72.41 (c0056, a last layout shift); after h73 thanks and mutual vandalism admitted.
 struck by:  "It was a pleasure Honking with you all."
 made:       two artworks in the middle ring, Love Live 2,455 px and Honoka Kousaka 1,130 px, shared with SchoolIdolFestival; writers placed 0.088. The canvas keeps both.
+later:      2026-10-07, catch-up: after the close a member reused the canvas hearts in a Mario Kart emblem (dfsnwen). The brief shows Honk as the room's shorthand the week before (dfjrtl5), the word members made a verb for the build, and moderators already running fan projects such as the call guide (dfl24nw).

@@ -4,9 +4,10 @@ week:       h20.8 the joke; h24.9 to h35 flag and relocation; h43 to h48 Michiga
 named:      Michigan and TTUN as rivals (c0016, c0025, c0033); r/anime_irl as neighbour under a border agreement (c0055); r/texas as ally owed help (c0061, c0094); the Warriors logo as space to take (c0051, c0053); Summit1G's chat as ally (c0040); r/bluejackets and r/OhioState as help sought (c0071, c0072).
 goal:       an Ohio flag, set at h24.9; then OHIO text, block O, script Ohio; the duplicate removed late.
 unsettled:  ceding space and expanding (c0069, c0081, c0083, c0086).
-coder unsure: none named.
+coder unsure: two Discords and Summit1G's chat seen only as returned (62xfgs, dfrz1b2, dfqpr3d); the flag and 3-1 post bodies deleted (62wyy6, 62yidk); the sticky asked for never shown made (dfqxjmy).
 carrying:   c0047, c0081, c0093
 not this:   a room whose members pulled one way; they repaired what others erased until h72.
 ended:      last coordinating turn h72.97 (c0100, inviting expansion talk to Discord); after h73 pride.
 struck by:  "Let it be known that we dotted the I together"
 made:       one artwork, Ohio, USA, 892 px at the edge, placed from h1.25; writers placed 0.135. The canvas keeps the Ohio marks.
+later:      2026-10-07, catch-up: attack talk ran beside the defence-first list, the sharpest a call to overtake Golden State (dfr8mpm). The brief shows the 3 C's as the room's phrase for its cities the week before (dfgyqyb), the phrase members read into the final O (dfs0e7f).

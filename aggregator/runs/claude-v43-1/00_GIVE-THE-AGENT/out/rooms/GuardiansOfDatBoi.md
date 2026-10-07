@@ -4,9 +4,10 @@ week:       h35 the call; h56.8 to h59 template, beam and treaty, most turns in 
 named:      r/megaman as treaty partner and suspect (c0023, c0040, c0041); OSU as target and negotiating party (c0004, c0039); r/DatBoi implied as parent.
 goal:       to keep Dat Boi alive; settled at h35; then to turn a beam away from him.
 unsettled:  attacking OSU against peace (c0021, c0031, c0039); trust in Mega Man (c0029, c0033).
-coder unsure: none named.
+coder unsure: image and link posts unseen (62qp3h, 634nj0); the advertising on r/place and any answer to it outside the record (dfr5nuh, 634do9); whether the portal gun was started not shown (dfrdddm).
 carrying:   c0001, c0028, c0039
 not this:   a room that obeyed its founder; members kept bending the beam at OSU while the founder negotiated.
 ended:      last coordinating turn h71.92 (c0025, blaming Mega Man; c0041 at h71.87); after h73 thanks.
 struck by:  "you were never alone brother"
 made:       one artwork, Remnants of a deflected beam, 380 px at the edge, placed from h1.68; writers placed 0.009, pre-event members 0. The canvas fields link this room to the beam, not to Dat Boi.
+later:      2026-10-07, catch-up: a search for abandoning Dat Boi or refusing to place found none; one member argued fighting among themselves wastes clicks (dfr6zbo). The brief is the harness's empty brief; the sub had no posts the week before.
