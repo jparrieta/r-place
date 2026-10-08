@@ -40,3 +40,4 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 | `b1_stretch_themes.py` | `d4177ff16248` | Codes and second-order themes per room for a stretch of the B1 order, with totals. |
 | `b1_theme_members.py` | `d0ff0d2b2f7f` | Print every member of a third-order theme with its second-order theme note and concept labels, |
 | `b1_tier_line.py` | `f80d8c05e875` | Append one tier_history.jsonl line for a move that took second-order themes out of an existing |
+- `b1_dump_rooms.py` (B1b-15): dumps several rooms' concepts to compare one large room with many partners (added after the first copy).

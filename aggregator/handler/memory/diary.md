@@ -179,3 +179,12 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-08 14:04 tick: B1b-15 (turn e317b546) running; 332/705, 47.4%, 192 kinds (round 12 ended with a new kind; count reset), state reading, no markers.
 - 2026-10-08 14:26 tick: B1b-15 running; 333/705, 47.5%, 192 kinds (T3-188 minted at ainbowroad 13:48Z reset the count); state reading, no markers.
 - 2026-10-08 14:47 tick: B1b-15 running; 338/705, 49.0%, 192 kinds; reading, no markers.
+- 2026-10-08 15:11 B1b-15 closed (auto) ~15:04Z: commit 7ad5b924 pushed, validator 0; 84 min; 192 calls, mean ctx 649k, in 384 / cw 0.59M / cr 124.0M / out 242k; 10 rooms (331-340, ainbowroad 142k), 113/114 placed, 173 placements, 1 unplaced; new kind T3-188 (rare tier); E336-E418 (59 from ainbowroad; E388-390, E407 weak per analyst); 60 rule 0 lines, 23 bags clean; moved ainbowroad t11 T3-099 -> T3-139; new helper b1_dump_rooms.py; depth 90-100% of full print. Saturation 342/705, 49.3%, round 13 open 347.5 to 361.0. B1b-16 running.
+- 2026-10-08 15:33 tick: B1b-16 running; 345/705, 49.5%, 193 kinds (round 13 ended with a new kind); reading, no markers.
+- 2026-10-08 15:55 tick: B1b-16 running; 349/705, 50.2%, 193 kinds; reading, no markers.
+- 2026-10-08 16:16 tick: device tools absent (bridge down); scheduled 30 min.
+- 2026-10-08 16:49 tick: B1b-16's turn failed at 16:18Z (ECONNRESET); API 405. Said to B1b-16 to pick up from the record (last: k_on room end 16:11:00, order 350); new turn 7cf93faf. 350/705, 50.2%, 193 kinds, reading, no markers.
+- 2026-10-08 17:12 tick: B1b-16 turn 7cf93faf running; 353/705, 50.8%, 193 kinds; reading, no markers.
+- 2026-10-08 17:33 tick: B1b-16 turn 7cf93faf running (working placestart's ties and room end, no diary line since 17:11:49 but events live at 17:33); 354/705, 51.1%, 193 kinds.
+- 2026-10-08 17:55 tick: B1b-16 turn 7cf93faf running; 359/705, 51.4%, 193 kinds; round 14 open (362.2 to 374.8 avg rooms); no markers.
+- 2026-10-08 18:17 tick: device tools absent ~18:00 to 18:17Z; J asked status twice, told last reading. Bridge back 18:18: B1b-16 turn 7cf93faf running; 360/705, 51.9%, 193 kinds; round 14 at 366.2 of 374.8; no markers.
