@@ -449,3 +449,80 @@ Rooms waiting on a tie:
 - heroesofthestorm (peterdraws); patriots and foxes (totallynotrobots); telegram and cavestory (ScottPilgrim); edboxes and prequelmemes (porterrobinson); DevonUK, Cornwall and calgaryflames (Dorset); GabrielDropout and satania (tenma)
 
 **The stopping rule.** `saturation.py status --stage B1`: 214 of 705 rooms read, 29.8% of the words, kinds 179 by the rule's count, coverage 0.9917, unseen 26.16. Round 4 ended empty at 189.5 average rooms; round 5 opened at 190.0 and ended at 196.0 with T3-174 at orderofthebluecorner; T3-175 at furry_irl (order 206) reset the count again. Next kind predicted in 7.4 average rooms. No markers.
+
+## Leg B1b-10, the tenth stretch, 2026-10-08
+
+**The stretch.** Order 215 (luxembourg) to 241 (utaustin), 27 rooms, about 1.03 MB, as declared when the leg opened, each the room `mem.py next --stage B1` named. 244 second-order themes were read and all 244 were placed (410 placements). None went to `unplaced-B1.jsonl`.
+
+**How the rooms were read.** Every room was printed whole through `b1_room.py`, every theme with every concept label, before any of its themes was placed. Large rooms were printed to `$TMPDIR` in parts under 30 KB with the line count checked: osugame (866 lines) and argentina (694) in four parts; thenetherlands (474), magictcg (403), anime (294), wildhockey (278), twice (266), hellointernet (213) and ss13 (206) in two. Redox, sbu and utaustin were read with their A1 notes. Each room was then read against the read rooms tied to it. Ties were searched by room count, intersected with the read rooms, and each tied room's concepts were paged in full. Members writing in two rooms were found with a new helper, `out/_analysis/b1_shared_authors.py`, which compares two rooms' concept dumps.
+
+**A second fault in the tie search.** The room-count listing (`mem.py codes --grep --by-room`) is itself paged at 80 rooms. It was found at osugame, whose listing ran to 94 rooms. The osugame and twice searches were run again on their second page. osugame's second page added one-sided ties only (skyrim c0142, vietnam c0009, seventeen c0008, worldpowers c0020 and others); twice's matched the word 'twice' only. From then on every listing was paged to its last room. The name searches of the thirteen rooms read before osugame were re-run with `out/_analysis/b1_listing_pages.py`: they list 4 to 23 rooms each, under one page. Their artwork searches were not re-run.
+
+**New kinds: one, T3-176**, logged as an idea first and minted before the room's other placements.
+- utaustin: T3-176 planting disguised scripts on rivals (t13). c0167 recounts a script posted in r/GiantBomb that looked like GiantBomb's own and placed UT tiles; the replies cheer it, call it dirty, or deny it happened (c0173). A search of the store for disguised, trojan or malicious scripts found it in no other read room. T3-132 watching a rival's Discord from inside and T3-006 open defacing were weighed and set aside: the first watches and the second attacks in the open, while this one hands the rival a tool that works against it. Its only record is the author's claim, denied in one reply. It stands on the rare tier.
+
+Ideas logged and not minted: reusing another room's script (wildhockey c0073, the Vikings' script rewritten, inside a bag whose best gate is T3-028); answering an insult with goodwill (bulgaria t06, one concept); guarding an ally's flag while it sleeps (argentina t06, a bag kept in T3-150; bulgaria c0036 and argentina c0094, c0107, c0238 and c0243 are the same doing, for the second pass); watching the canvas on a livestream (twitch t08; argentina c0079 and osugame c0533 point to the same); redirecting requests to specialist rooms (anime t12, placed in T3-062 with T3-137).
+
+**Rule 0 and bags.** 166 lines this leg in `out/_analysis/b1_multiplace_b1b10.tsv`, each checked and written with `b1_multiplace_write3.py`, and 44 bag records. 113 of the stretch's 244 placed themes carry more than one placement (46%), 53 of them three. The bags fall mostly on very broad themes: osugame 8 (its themes hold 54 to 194 codes), argentina 6, magictcg 5, wildhockey and thenetherlands 4. The scheme holds 987 multiply placed second-order themes, 379 of them three times, none over three.
+
+**Episodes: thirty-two lines, E119 to E150**, each with its agreement or disagreement written in `episodes-B1.jsonl`. 22 of them name a member who writes in both rooms. Four earlier lines were edited to add rooms: E114 (Mexico's flag at the end) now lists bulgaria and argentina, seven rooms in all; E060 (the Dutch takeover of the Greek flag) and E093 (the doggos and the clogs) list thenetherlands; E079 (the penguin beside the Goku) lists anime.
+- wildhockey with chibears (E119, the Wild logo refused on Finland's flag) and with minnesotavikings and stlouisblues (E120, frozyo's drive for help, r/stlouisblues saying yes and r/minnesotavikings holding no answer).
+- rpi and WPI (E121, WPI's W turned into an R, three members in both); smashbros and WPI (E122, disagreeing on whether taking WPI's first spot was help or a loss).
+- achievement_hunter with HomestarRunner (E123, Trogdor's fire reaching the AH logo) and esperanto (E124, thread 62tfwc).
+- churchofhelix and pokemon (E125, the Helix Fossil in the first hours).
+- bulgaria with xenoblade_chronicles (E126, thread 62vd67, first disagreeing, then agreeing), with xenoblade_chronicles and seahawks (E127, the Monado's sword), romania (E128) and lost (E129).
+- greyblob and hellointernet (E130, the Nail and Gear inside the Grey Blob); hellointernet and jerma985 (E131).
+- shitredditsays and TransFlagPlace (E132), the same trans flag as E068, E109 and E110.
+- osugame with ice_poseidon, fireemblem, leagueoflegends and uofm (E133, Tyler1's viewers blacking out the logo), adventuretime (E134), babymetal (E135), greenlattice (E136, 'DESTROY OSU' beside a cooperation offer, disagreeing) and redvsblue (E137).
+- placeportalpattern and portal (E138, Wheatley asked for and refused).
+- argentina with slovenia (E139), southafrica (E140) and colombia (E141).
+- cirkeltrek and thenetherlands (E142, the Dutch flag and the orange line planned in r/cirkeltrek; twenty-five members write in both).
+- indieheads and neutralmilkhotel (E143, the album cover).
+- pebble with babymetal (E144, Kebble, disagreeing on Kebble's part) and halo (E145).
+- anime with berserk (E146) and anime_irl (E147, the Vignette sign, disagreeing on who started it).
+- chibears and magictcg (E148, the Bears C under Finnish pressure; escobert tells r/magictcg of defending the C and tells r/chibears sixteen minutes later to work with the Finns).
+- Redox and rust (E149, thread 62yv2i and the Redox spot inside the Rust art).
+- rpi and utaustin (E150, the Texas schools' logo growing at RPI's border at 856; thin accounts that do not conflict).
+
+Ties told by one room only, not episodes:
+- gameofthrones' record does not tell taking over a Wild logo (wildhockey c0024); uiuc c0105 offers help to OSU and Iowa, and uiowa's record does not hold it.
+- greenlattice c0504 (help for Bulgaria's text) and bulgaria c0023 are seven hours apart; lithuania's record does not hold bulgaria c0064's call.
+- battlecats c0190 put a bulge on a clown at h61.8, not shown to be ss13's clown; shitredditsays c0033 (the Fred Flintstone star) is not in giivasunner's record.
+- stlouisblues c0132 and c0137 and skyrim c0142 tell acts that osugame's record does not hold; seventeen c0012 claims a part in the TWICE sign with no act twice's record holds.
+- the Argentine diplomats in germany c0080, monalisaclan c0136, scotland c0099 and australia c0237, chile c0014, AvoArmy c0062 and mexico c0050 are not told in argentina's record.
+- greyblob c0047 and c0072 (Dutch help welcomed), ss13 c0115 and c0116, japan c0065 and germany c0031 are not told in thenetherlands' record.
+- lakers c0224 (an attack by 'placefarts') is not in placehfarts' record; ice_poseidon's TriHards (h28 to h31) are not shown to be the one twitch c0005 names.
+- sbu and smashbros share three writers (aklancher31, MackerBacker, Darko28064212), who tell r/sbu that the logo interferes with Smashbros' work; in smashbros they speak of goon and the Discord, and smashbros never names SBU. nyu c0029 names Stony Brook's footprint after the close.
+- archlinux c0215 names r/redox on the finished canvas; texas c0155 (HouseOfSavage, hoping to unite university groups to bring back the Texas flag) names no UT or A&M work.
+- greenlattice's two writers shared with magictcg (Scondoro, Shogunfish) write there about r/lotr and r/tsunderesharks.
+
+**What the scheme holds now.** 176 themes over 2,723 placed second-order themes (4,089 placements). Size distribution: 22 themes hold one second-order theme, 15 two, 14 three, 4 four, 12 five, 4 six, 1 seven, 7 eight. 25 themes are seen in one room only. The largest: T3-009 celebrating the finished work (160, 5.9%), T3-010 the space and border deals (146), T3-001 members' April Fools (123), T3-002 calling members in (117), T3-005 defence (116), T3-017 the sub's usual talk (114), T3-031 in-jokes (106), T3-014 the room's own chat (99). None holds one in ten. Kinds gaining rooms: T3-019 tallying kindred rooms' works (wildhockey, its third), T3-134 flooding a rival's thread with chants (WPI, its fourth), T3-171 spreading a colour (ss13 fifth, thenetherlands sixth), T3-137 joining an outside group's build (neutralmilkhotel, its second), T3-170 (ss13 t15, bulgaria t10), T3-169 (ss13 t03, bulgaria t07), T3-167 and T3-159 (luxembourg), T3-155 (utaustin), T3-154 (placehfarts), T3-099 (pebble), T3-092 and T3-136 (oman), T3-143 (shitredditsays), T3-139 (twitch).
+
+**Gate notes added this leg, for B1e.** T3-176 is a script handed to a rival that appears to serve the rival and places the room's own pixels; it is not T3-006 (open defacing), not T3-132 (watching from inside) and not T3-089 (switching off one's own stale scripts). T3-015 now holds a link to a kin room's thread (Redox t02 to r/rust's thread 62yv2i, the thread rust t09 routes its bot talk into): its gate should say whether the one thread must be the room's own. T3-082 took Redox t01 as batman t02 shows a logo already there. T3-165 debating friendship with a historic enemy was minted on Greece and Turkey; utaustin t05 holds the same doing for two rival schools (c0054, c0055, c0088, c0095, c0106, c0109), inside a bag: B1e must say whether the gate needs nations.
+
+**National kinds under J's words.** luxembourg's flag choices (the Argentinian flag, then the small Norwegian flag in the German one's corner, which 'already has red and white', c0004) in T3-068. wildhockey: Sweden's and Finland's refusals to put foreign logos on their flags, a bag kept in T3-020 wanting T3-035 and T3-162. bulgaria: the flag held in the blue corner (T3-021 with T3-084 and T3-141), Macedonian historians mocked (T3-001 with T3-142), the lion, coat of arms and БЪЛГАРИЯ (a bag kept in T3-056 wanting T3-113 and T3-169), members fighting fellow Bulgarians to stop an expansion that broke two agreements (a bag kept in T3-076). hellointernet: which nations love their flags, read from the canvas (T3-130 with T3-086). oman: the flag called for (T3-002 with T3-065), one member against 80,000 (T3-136). argentina: the flag (T3-065 with T3-103 and T3-021), 'invincible' and 'a world power' (T3-009 with T3-145 and T3-157), guarding la patria against the English (a bag kept in T3-021 wanting T3-081), the sun, San Martín, Maradona, Macri gato, Malvinas and 1807 (a bag kept in T3-113), raids, a 7-1 on Brazil's flag, Chávez's eyes removed and the Triple Alliance joked (a bag kept in T3-006). thenetherlands: the Wilhelmus, the lion, clogs, cheese and MH17 on the Russian flag (a bag kept in T3-113), Croatia's flag to be made Dutch (T3-061 with T3-068 and T3-171), requests with Greece, Sweden, Denmark, Armenia and the Czechs (a bag kept in T3-010). twice: the pink space lost to Denmark and hatred for Denmark (a bag kept in T3-010; T3-073 with T3-058). utaustin: an Indian member's permission to write over India's flag and the move to avoid it (T3-006, T3-039).
+
+**Content.** achievement_hunter's running swastika joke about FunHaus's logo; hellointernet's swastika on the doorstep; shitredditsays' swastikas, Donald images, 'Bill Clinton is a rapist', 'lolicon pride', a gamergate character, 'weaponized autism' argued as ableism and a retort that white people are genetically inferior; wildhockey's Catholic crusade jokes; osugame's Ohio State calls against Michigan; argentina's raids and Chávez; thenetherlands' MH17 on the Russian flag; twice's hatred for Denmark. All placed and named plainly as study material. Nothing was left out or softened.
+
+**What the second-order themes showed that the notes did not predict.** utaustin's A1 note had the disguised script in its not-this line, resting on one account. Read whole, the room's replies judge that one act, and no other read room tells such a script: it is a kind, T3-176. Redox's note called it a room that only pointed to work discussed elsewhere; the rust record shows the same member running the Rust bot there, and the Redox spot dropped and then moved (E149). Members writing in two rooms carry most of the episodes: 22 of the 32 lines, and twenty-five members in both cirkeltrek and thenetherlands. Several small kinds reached second rooms only inside bags: T3-098 questioning the room's canvas presence (magictcg t05 and t08), T3-118 blaming the moderators for a loss and T3-140 moderators disowning the canvas work (magictcg t09), T3-165 (utaustin t05).
+
+**Leads carried forward.** Members to place at the second pass:
+- T3-098: magictcg t05 (c0253, c0283, c0286, c0288) and t08 (c0338, c0339), both bags.
+- T3-118 and T3-140: magictcg t09 (c0254, c0287, c0291; c0295, c0296), a bag.
+- T3-165: utaustin t05, a bag.
+- T3-162: wildhockey t03; T3-119 and T3-128: osugame t03 and t08; T3-081: argentina t04; T3-169 and T3-170: bulgaria t03 and t08, twice t08 (all bags).
+- T3-171: greenlattice's lattice and cirkeltrek's orange.
+- The idea 'guarding an ally's flag while it sleeps': bulgaria c0036; argentina c0094, c0107, c0238, c0243.
+
+Rooms waiting on a tie:
+- giantbomb (24 concepts name GiantBomb or the Longhorns) and aggies (13) (utaustin); texastech and purdue (utaustin)
+- warthunder (sbu; c0075, c0085 and c0086 move the A6M because SBU uses bots); UConn and aviation (sbu)
+- monstercat (Redox; c0179 avoids the Redox builders)
+- ainbowroad, teamliquid, yugioh, hearthstone and france (magictcg)
+- finland (wildhockey, argentina, magictcg); sweden and denmark (wildhockey, shitredditsays, thenetherlands, twice); dallasstars, which copied the Wild script, hawks and predators (wildhockey)
+- rit and mit (WPI); roosterteeth and funhaus (achievement_hunter); ockytop (ducks); drawhelix and twitchplayspokemon (churchofhelix)
+- cubers, doormonster and lotr (bulgaria); singapore, FlagAlliance and cgpgrey (hellointernet); homestuck, Northernlion, PlaceNL and theblackvoid (ss13)
+- the_donald, ukplace and 4chan (shitredditsays); loltyler1, philippines, overwatch, touhou, placestart and thebluecorner (osugame); prequelmemes and korea (twice)
+- catalonia, dwarffortress and tinytardis (portal); brasil, uruguay and vzla (argentina); armenia and croatia (thenetherlands); placehearts (placehfarts, luxembourg); TreePlace (twitch); megumin and evangelion (anime)
+
+**The stopping rule.** `saturation.py status --stage B1`: 241 of 705 rooms read, 33.1% of the words, kinds 180 by the rule's count, coverage 0.9925, unseen 32.21. Round 6 opened at 212.1 average rooms and ended empty at 219.4; round 7 opened at 220.7 and ended empty at 228.4; round 8 opened at 229.6 (predicted 8.5) and ended with T3-176 at utaustin (233.4), so a third empty round in a row, marker 1, was not reached. No round was predicted longer than 10 average rooms. Next kind predicted in 8.3 average rooms. No markers.
