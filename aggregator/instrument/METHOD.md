@@ -49,9 +49,11 @@ third tier gerund-led, the literature at C3), so a move is defended by what it p
 rooms' meanings, never by a standard. What carries the claim: the words of texts or the shape of
 the corpus. This study makes both kinds, and each owes its own validation (p. 872): a claim about
 what rooms did or meant is validated by exemplars that pass its gate and by the return; a claim
-about a pattern across rooms, a count, a sequence on the clock, a branch, by counts with their
-denominators (rules 5 and 6), by the documented events of the 73 hours (`prior.md` §4), and by
-the alternatives examined at D4. Never validate one kind with the other's evidence. For a
+about a pattern across rooms, a count, a branch, by counts with their denominators (rules 5 and
+6), by the documented events of the 73 hours (`prior.md` §4), and by the alternatives examined at
+D4. A dated sequence within a room rests on the documented events and the room's forest; how
+often a sequence occurs across rooms rests on counts with their denominators. Never validate one
+kind with the other's evidence. For a
 consequential move, record what prompted it, the move, what changed, and why the new state serves
 the claim better (pp. 865, 868; stage B1 §6); where the literature changes what a claim rests on,
 write a switch record (p. 872; stage C3 §1). Readers of one model agreeing with each other show

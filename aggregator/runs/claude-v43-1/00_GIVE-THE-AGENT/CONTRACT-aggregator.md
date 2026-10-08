@@ -156,9 +156,11 @@ level, in both directions:
 **Two kinds of claim, and what each owes** (Günther, Joshi and Constantinides 2026, METHOD.md).
 A claim about what rooms did or meant rests on the words of the record: it is validated by
 exemplars that pass its gate (rule 3) and by the return (D1 to D3). A claim about a pattern
-across rooms, a count, an order on the clock, a branch, a survival difference, rests on the shape
-of the corpus: it is validated by counts with their denominators (rules 5 and 6), by the
-documented events of the 73 hours (`prior.md` §4), and by the alternatives stage D4 examines.
+across rooms, a count, a branch, a survival difference, rests on the shape of the corpus: it is
+validated by counts with their denominators (rules 5 and 6), by the documented events of the 73
+hours (`prior.md` §4), and by the alternatives stage D4 examines. A dated sequence within a room
+rests on the documented events and the room's forest; a claim about how often a sequence occurs
+across rooms rests on counts with their denominators.
 Every proposition at C5 and every branch account at D5 says which kind it is, or that it is both
 with one primary; the evidence named for it is of that kind, and a claim validated with the other
 kind's evidence is a defect stage E1 names. `prior.md` §3 says before B1 which kind the method

@@ -78,8 +78,10 @@ appeared and say whether new kinds stopped appearing.
 
 ## 4. Recut the third-order tier, under rule 11
 
-Treat every disagreement as a defect in a *description*, not a dispute about a case: readers who
-sent the same kind of material to different places found an underspecified boundary.
+Read every disagreement first as a diagnosis, not as a verdict on the description. It may be an
+underspecified boundary (readers who sent the same kind of material to different places), a
+reader's error, bundled material (one item that carries two kinds), or a defensible second
+reading. §2 says which to revise and which to leave.
 
 The rule changes first and the items follow from it. Declare the stopping criterion before
 the first recut: what would make you prefer a later cut to this one. Rule 7 stays shut, so no

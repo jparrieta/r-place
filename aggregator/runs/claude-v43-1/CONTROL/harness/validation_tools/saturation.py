@@ -20,7 +20,7 @@ average rooms. If 60% of the words are read before marker 3, stage B1 reports an
 last 10 average rooms (and the last 10 rooms, so one large room cannot fill the gap), reading goes on.
 After 10 without one, a round starts: the estimate predicts how far the next kind is, and the round reads that far (never more than
 the rooms already read, the doubling limit of Chao et al. 2014). A round that brings a new kind resets
-everything, and so does a new kind in the draw (J, 2026-09-29). Three empty rounds in a row are marker 1 (where the literature would stop); three more are
+everything, and so does a new kind in the draw (J, 2026-09-29). Three empty rounds in a row are marker 1 (the first stop); three more are
 marker 2; then a draw: units taken at random from those not yet read, as many words as the three rounds
 between the markers. When the draw is read, marker 3 is set, the report is written and the stage pauses
 for the PI, who decides whether to finish the list or stop. Stage B1 reads in a seeded
@@ -47,7 +47,10 @@ rooms and 30 average rooms. If the chosen rooms run out first, the pass goes on 
 with rooms it has not read. A kind of the pass is a kinds-B1.jsonl line from a B1d leg; it is new when
 no earlier line names it, and it belongs to the first room recorded at or after its time. There is no
 ceiling: one would be the PI's value. The literature gives the rule its form, a run with nothing new
-after a base (Francis et al. 2010; Guest, Namey and Chen 2020); the first pass gives its length.
+after a base (Francis et al. 2010; Guest, Namey and Chen 2020); the first pass gives its length. The
+numbers (10 average rooms, rounds of at most 25, three empty rounds to a marker, the 60% check-in) are
+this design's discovery heuristic, J's recorded choice (2026-09-29); the literature does not fix them,
+and the report and the write-up say so (2026-10-08).
 
 Everything is replayed from the files on disk at every call, in the order the units were meant to be
 read; nothing depends on the analyst's memory. The seed is the sha256 of the store's rooms.jsonl, so no
@@ -509,7 +512,11 @@ def pass2_lines(P):
 
 def report_md(R, P=None):
     L = ["# When to stop, stage %s" % R["stage"], "",
-         "Written by `tools/saturation.py report` at %s. The rule: `saturation.py` docstring; J, 2026-09-29." % _stamp(), ""]
+         "Written by `tools/saturation.py report` at %s. The rule: `saturation.py` docstring; J, 2026-09-29." % _stamp(), "",
+         "The thresholds (10 average rooms before a round, rounds of at most 25, three empty rounds to a marker, "
+         "the check-in at %d%% of the words) are this design's discovery heuristic, J's recorded choice "
+         "(2026-09-29). The literature gives the rule its form, a run with nothing new after a base; it does not "
+         "fix these numbers." % round(100 * CHECK_IN), ""]
     now, left = R["now"], R["left"]
     L += ["## Where the reading stands", "",
           "| | |", "|---|---:|",
@@ -523,7 +530,7 @@ def report_md(R, P=None):
           "| state | %s |" % R["state"], ""]
     L += ["## The markers", "", "| marker | rooms read | average rooms read | coverage | unseen kinds | share of words |",
           "|---|---:|---:|---:|---:|---:|"]
-    names = {1: "1: three empty rounds (the literature's stop)", 2: "2: three more empty rounds", 3: "3: the draw read"}
+    names = {1: "1: three empty rounds (the first stop)", 2: "2: three more empty rounds", 3: "3: the draw read"}
     for k in (1, 2, 3):
         m = R["markers"].get(k)
         L.append("| %s | %s | %s | %s | %s | %s |" % (names[k], *(("-",) * 5 if not m else

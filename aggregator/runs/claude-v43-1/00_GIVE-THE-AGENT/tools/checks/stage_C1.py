@@ -20,7 +20,8 @@ What it holds to:
                       none: a second-order theme lifts to two only through rule 0); prose; each cut
                       logged in tier_history with tier fourth and move merging|relating; the
                       unpicked third-order themes listed in fourth.md or notes-C1.md.
-  form_pass-C1.md     FP- ids live there and in no JSONL; the sentence that they never enter the arithmetic.
+  form_pass-C1.md     FP- ids live there and in no JSONL, no count receipt and no gate; the sweep's
+                      coverage is allowed there (2026-10-08).
   notes-C1.md         the revision rate; the empties at the top when above one in five; stage B4's
                       figures cited with the licence and never as reliability.
 
@@ -426,9 +427,26 @@ def _check_form_pass(outdir):
         warn("form_pass-C1.md mints no FP- id; if the form pass found nothing, say so there, since stage C2 takes "
              "the FP ids from that file and nowhere else")
     low = fp.lower()
+    # The sentence is owed (section 7), but a word is not the test: a finding enters the arithmetic only
+    # through a count receipt or a gate, and those are checked below. The coverage of a sweep (how many
+    # communities and lines a finding covers) is prose in this file and is allowed (2026-10-08).
     if not re.search(r"arithmetic|never counted|not counted|never clustered", low):
-        err("form_pass-C1.md does not say that a form-pass finding never enters the arithmetic (no line in "
-            "assignments_final.jsonl, no counts, no share at D4, no contrast at D5; section 7)")
+        warn("form_pass-C1.md does not say that a form-pass finding never enters the arithmetic (section 7)")
+    receipts = sorted(n for n in os.listdir(outdir)
+                      if n.endswith(".count.txt") or re.match(r"counts?[-_.]", n)) if os.path.isdir(outdir) else []
+    for name in receipts:
+        hit = sorted(set(FP.findall(text(outdir, name))))
+        if hit:
+            err("the count receipt %s names %s; a form-pass finding never enters a count (section 7)"
+                % (name, hit[:4]), shape="an FP id in a count receipt", where=name)
+    sp = os.path.join(outdir, "scheme_v2.jsonl")
+    for row in [r for r in (jsonl(sp) or []) if isinstance(r, dict)]:
+        for f in ("must_show", "must_not_show"):
+            hit = sorted(set(FP.findall(json.dumps(row.get(f, "")))))
+            if hit:
+                err("the gate %s of %s names %s; do not invent a gate to make a form-pass finding look "
+                    "promotable (section 7, rule 5)" % (f, row.get("id"), hit[:4]),
+                    shape="an FP id in a gate", where="scheme_v2.jsonl")
     for word, sweep in (("form", "form (turn shape, position, length, timing)"), ("register", "register"),
                         ("not said", "what is not said")):
         if word not in low:
@@ -608,6 +626,26 @@ def _plant_moved_not_in_overlay(outdir, root):
         {"sub": "asoiaf", "theme_id": "t02", "third_order": ["T3-020"], "confidence": "clear", "read": "whole"}])
 
 
+def _plant_fp_in_receipt(outdir, root):
+    _fixture(outdir, root)
+    _w(outdir, "assignments_final.count.txt", "2\nFP-01 1\n")
+
+
+def _plant_fp_in_gate(outdir, root):
+    _fixture(outdir, root)
+    rows = [dict(r) for r in SCHEME]
+    rows[0]["must_show"] = "a call for placers addressed beyond the room, as FP-01"
+    _wj(outdir, "scheme_v2.jsonl", rows)
+
+
+def _plant_no_sentence(outdir, root):
+    # the word test is gone: a form pass that reports its sweep's coverage and omits the sentence is no error
+    _fixture(outdir, root)
+    _w(outdir, "form_pass-C1.md", "Sweep 1, form. Sweep 2, register. Sweep 3, what is not said.\n"
+       "FP-01: the cheapest act is the one-word call; 2 communities, 14 lines.\n"
+       "What the pass could not reach: stance.\n")
+
+
 PLANTED = [
     ("placement outside scheme_v2", _plant_outside_v2, "which scheme_v2.jsonl does not define"),
     ("a T3 in two fourth-order themes", _plant_two_fourths, "sits in two fourth-order themes"),
@@ -615,4 +653,7 @@ PLANTED = [
     ("count.txt off", _plant_count, "assignments_final.count.txt says"),
     ("a retired id unlogged", _plant_unlogged_retire, "not in scheme_v2.jsonl with no stage-C1 line"),
     ("a moved item not in the overlay", _plant_moved_not_in_overlay, "has no line for it; the overlay"),
+    ("an FP id in a count receipt", _plant_fp_in_receipt, "the count receipt assignments_final.count.txt names"),
+    ("an FP id in a gate", _plant_fp_in_gate, "the gate must_show of T3-014 names"),
+    ("sweep coverage, no sentence", _plant_no_sentence, None),   # passes: coverage is allowed, no word test
 ]

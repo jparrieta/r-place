@@ -95,7 +95,7 @@ words show. Two episodes alike in shape but on different threads or artworks are
 
 **When to stop (the PI's rule, 2026-09-29).** An earlier run stopped after 127 rooms with both
 curves still climbing, and the tier it froze collapsed; this one stops only by a rule, and goes past
-where the literature would stop. `python3 tools/saturation.py status --stage B1` replays it from the
+its own first stop. `python3 tools/saturation.py status --stage B1` replays it from the
 files at any time, and `mem.py next --stage B1` follows it; you never count by hand.
 What it counts is `kinds-B1.jsonl`, which `mem.py mint` and `place` append with the room you are
 reading, which says when a theme is new, and the room whose second-order theme was placed, where
@@ -110,7 +110,7 @@ rule's past as you read it; a theme placed without `mint` or `place` is a defect
   the formulas are in the tool) predicts how far the next new theme is, and you read that far,
   never more than you have already read, and never more than 25 average rooms. A new theme inside a
   round resets everything, and so does a new theme in the draw (J, 2026-09-29).
-- Three empty rounds in a row are **marker 1**, where the literature would stop. Three more are
+- Three empty rounds in a row are **marker 1**, the first stop. Three more are
   **marker 2**. Then **the draw**: rooms taken at random from those not yet read, as many words
   as the three rounds between the markers; `mem.py next` names them. The draw read is **marker 3**.
 - A round predicted longer than 10 average rooms is logged when it begins (`mem.py log --kind note
@@ -125,6 +125,10 @@ rule's past as you read it; a theme placed without `mint` or `place` is a defect
   close with `done.sh B1 --pause`: the PI decides to continue under the rule, finish the list or stop
   (`saturation.py decide --stage B1 continue|finish|stop --why "..."`).
 - If the list ends before marker 3, every room has been read, and the report says so.
+- **What the numbers are.** The thresholds (10 average rooms, rounds of at most 25, three empty
+  rounds to a marker, the check-in at 60%) are this design's discovery heuristic, the PI's recorded
+  choice (J, 2026-09-29). The literature gives the rule its form, a run with nothing new after a
+  base; it does not fix the numbers. `stopping-B1.md` says so, and so does the write-up.
 
 Log a prospective theme when you first think of it, before it is minted: `mem.py idea "<label>"
 --trigger <sub>:<tNN>`; the idea log is stamped as the mints are, and the report sets the two
