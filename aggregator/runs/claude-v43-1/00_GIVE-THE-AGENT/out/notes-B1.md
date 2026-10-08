@@ -723,3 +723,82 @@ Rooms waiting on a tie (unread):
 - Still open from B1b-12: prequelmemes, loltyler1, taiwan, truestl, 2007scape, puzzleanddragons, fartcarrots, RWBY, funhaus, estonia, austria, aviation, pathofexile, imaginedragons, placenyancat. Closed this leg: DestinyTheGame (E252), EliteDangerous (E253), overwatch (stardewvalley's talks are one-sided), miamidolphins (E259).
 
 **The stopping rule.** `saturation.py status --stage B1`: 304 of 705 rooms read, 43.0% of the words, kinds 190 by the rule's count, coverage 0.9944, unseen 27.91. No new kind came this leg. Round 9 ended empty (277.8 to 287.1 average rooms). Round 10 opened at overwatch (289.0 average rooms, predicted 10.0, not long) and ended empty at 299.0. Round 11 opened at ravens (301.9 average rooms) with a prediction of 10.4, over the 10 that needs a round note, which is in the diary; it reads to 312.3 and stands at 303.3. It is the third round in a row: if it ends empty, the rule reaches marker 1, the first stop. The check-in at 60% of the words is not near.
+
+## Leg B1b-14, the fourteenth stretch, 2026-10-08
+
+**The stretch.** Order 305 (lego) to 330 (megaman), 26 rooms, 975,002 bytes (about 0.98 MB), as declared when the leg opened, each the room `mem.py next --stage B1` named. 279 second-order themes were read and all were placed (455 placements); none went to `unplaced-B1.jsonl`. r/nonbinary's one theme is a single post asking for help with a flag; it has a doing, so it was placed.
+
+**How the rooms were read.** Every room was printed whole through `b1_room.py`, every theme with every concept label, before any of its themes was placed; every A1 note was read. Three prints passed 30 KB and were read in parts under 30 KB with the line count checked: cfb (604 lines), pathofexile (489) and purdue (436); `out/_analysis/b1_print_sizes.py` gives the sizes. Ties were searched by room count with every listing paged to its end and intersected with the read rooms (the list refreshed at the leg's start and again during it, so this leg's own rooms were in it); the matches were read in full, shared writers came from `b1_shared_many.py`, every cited concept was checked with `b1_show_codes.py`, and partner kinds with `b1_room_placements.py`. One forest thread was opened and logged: megaman 635k0q, to see which change a member said needed r/chile's agreement; its starting post is not coded. The context was compacted once, after r/rotmg's room end; the head and stage file were read again and the exact line logged. The connection dropped once at 12:42Z, after r/purdue's placements and rule 0 lines and before its episodes; the handler said so, and the room was finished from the record. Four census or read-status errors in episode notes were corrected by diary lines: r/snek and r/the_donald are not in the census (completeanarchy); r/norway is unread (leafs); r/touhou is unread and r/RainbowRift is not in the census (SquareSpiral); the Rockies, Rapids and Avalanche rooms are not in the census, and r/patriots' record does tell its outline (denverbroncos). `validate.py B1`: 0 errors; its warning count prints as 200, a capped figure.
+
+**New kinds: one.** T3-187 handing the work to the community (haskell t08), minted before the room's other placements after an idea line. The founder passed the pixels' open-source maintainership to the community on leaving (c0023). T3-101 puts one member in charge and T3-066 puts a decision to the room; this kind moves custody from one person to the room. It gained its second room at SquareSpiral (t13, a moderator retiring after placing a last tile). The two rooms are unlike in form, a programming sub and a sub made for the canvas, so the kind meets the floor.
+
+**Rule 0 and bags.** 176 lines this leg in `out/_analysis/b1_multiplace_b1b14.psv` (converted to `.tsv`), each checked and written with `b1_multiplace_write3.py`, and 60 bag records; `b1_check_bags.py` over all 60: 0 problems. Of the stretch's 279 placed themes, 155 are placed once, 72 twice and 52 three times (124, 44%, carry more than one). Large rooms gave many bags: pathofexile 8, leafs 7, SquareSpiral 7, purdue 5, rotmg 5. The scheme holds 1,480 multiply placed second-order themes, 599 of them three times, none over three.
+
+**Episodes: sixty lines, E276 to E335**, each with its agreement or disagreement written in `episodes-B1.jsonl`; 46 name a member who writes in both rooms. Six earlier lines were edited to add rooms: E008 (Germany's advance on the Fire Emblem sprites) adds megaman and stlouisblues; E021 (the joint Big Ten logo) adds purdue; E072 (the Jets logo, the Korea flag and the Seolhyun heart) adds AceOfAngels8 and kpop; E114 (Mexico's flag and the void) adds duckgame; E150 (the Texas logo at RPI's border) adds purdue; E264 (the void at the trans flag) adds rotmg. This leg's E277 adds pathofexile. r/kpop and r/stlouisblues were read at earlier legs; their records tell those events, and they were not joined then.
+- lego with frankocean (E276) and with newzealand and pathofexile (E277, the Danish raid and the LEGO move onto Path of Exile).
+- haskell and kamenrider (E278, disagreeing on who was taking over).
+- completeanarchy with anarcho_capitalism (E279, disagreeing on whose flag it first was), samuraijack (E280, differing in intent) and shitredditsays (E281).
+- vim and archlinux (E282, the logo built from r/ArchLinux's bot map).
+- wine with theitalyplace (E283) and spain (E284, disagreeing on whose wine it was).
+- leafs with sabres (E285), bostonbruins (E286) and bostonbruins and rangers (E287, a hockey truce brokered by a Habs member).
+- nlsscirclejerk and auburn (E288, RURURU held).
+- SquareSpiral with finland (E289), argentina (E290), brasil (E291), placeportalpattern (E292), dwarffortress (E293), norge (E294), furry_irl (E295), chibears (E296), faeria (E297) and DestinyTheGame (E298).
+- sonicthehedgehog with columbia (E299) and greenlattice (E300).
+- duckgame with mexico (E301, the sombrero deal) and giivasunner (E302).
+- hongkong and greenlattice (E303).
+- denverbroncos with ManningPlace and falcons (E304), farmcarrots (E305) and utaustin (E306).
+- cfb with FinalFantasy (E307, disagreeing on who broke the truce), vegan (E308, disagreeing on who started the war), greenlattice (E309), sooners (E310), pitt (E311) and rutgers (E312).
+- alberta with edmontonoilers and canucks (E313).
+- FlaggyFlag and hellointernet (E314).
+- pathofexile with newzealand (E315), hongkong (E316) and diablo (E317).
+- twentyonepilots and masseffect (E318).
+- texastech with neu (E319) and harrypotter (E320).
+- cmu and pitt (E321).
+- rotmg with TransFlagPlace and traaaaaaannnnnnnnnns (E322) and slovenia (E323, disagreeing over the banner).
+- purdue with uiuc (E324, the border deal, disagreeing on who was first; E325, the obscene lettering on the logo), uiuc and uofm (E326, the call to wipe out Arizona), uofm (E327, the troll accounts; E328, Ohio State's restarted design), uofm and uiuc (E329, Wisconsin's W), rpi (E330, disagreeing on how RPI left) and bostonbruins (E331, disagreeing on who took whose spot).
+- AceOfAngels8 and kpop (E332, the f(x) letters, disagreeing on their fate).
+- megaman with nyjets (E333), AvoArmy (E334) and chile (E335, a thin record on both sides).
+- nonbinary, greenland and bdsm: none.
+
+Ties told by one room only, not episodes:
+- r/greenlattice's record has r/Lego asking for a logo; r/lego's does not. A r/kanye member asks r/haskell about a purple creature; r/kanye's record does not hold it.
+- r/TheFarLeftSide's envoys appear in eleven read rooms, but not in r/completeanarchy's record.
+- A member writes in r/argentina from r/ArchLinux and r/vim (c0423, h58.9); r/vim's record does not name Argentina. Portugal's last laugh (wine) is not in r/PORTUGALCARALHO's record. The Viking ship that covered the Leafs logo is in no read room's record.
+- neu's Hong Kong members (h47.5 to 49.9) are not in r/hongkong's record; babymetal's treaty with Manningface is not in r/denverbroncos'.
+- r/rutgers' record tells a white-border quarrel with Purdue (h39.8 to 49.4); r/purdue's has no code on it. r/purdue's plan to turn RURURU into PURDUE (h30.3 to 32.5) is not in r/nlsscirclejerk's record.
+- r/bitcoin's record tells avoiding Mega Man at hours 9 and 26; r/megaman's tells Bitcoin pressing the laser at hours 36 to 59. r/minnesotavikings' Mega Man rainbow shot at the Packers logo (h72.7 to 74.2) is one-sided.
+- Mexico's alliance offer to r/rotmg is not in r/mexico's record; lovelive's and leagueoflegends' lines on the BDSM sign are not in r/bdsm's.
+
+**What the scheme holds now.** 187 themes over 3,756 placed second-order themes (5,835 placements). Size distribution: 20 themes hold one second-order theme, 14 two, 17 three, 4 four, 11 five, 5 six, 5 seven, 5 eight. 22 themes are seen in one room only. The largest: T3-009 celebrating the finished work (236, 6.3%), T3-010 the space and border deals (197), T3-001 members' April Fools (186), T3-002 calling members in (177), T3-005 defence (171), T3-031 in-jokes (151), T3-017 the sub's usual talk (151), T3-021 repair (144). None holds one in ten. Kinds gaining rooms: T3-187 its second (SquareSpiral); T3-176 planting disguised scripts on rivals its second (completeanarchy, after utaustin); T3-179 arguing ideology from the canvas its second room (completeanarchy, after anarcho_capitalism; E279 does not join them for it, because the arguments are different exchanges); T3-181 quitting the effort under strain its third (denverbroncos); T3-127 hoping the creators notice the work its third (pathofexile); T3-168 editing scripts to spare neighbours its fifth (texastech); T3-108 pooling one bot map with kindred rooms its fifth (purdue); T3-139 pleading with attackers to stop (purdue, its seventh); T3-008 messaging individual placers to stop (SquareSpiral, its ninth).
+
+**Gate notes added this leg, for B1e.**
+- T3-057 holds the final canvas rebuilt in LEGO tiles (lego t10), as minecraft's rebuild in Minecraft.
+- T3-031 holds a repost flood (nlsscirclejerk t08) and a burst of posts of a band's tattoo symbol (twentyonepilots t09).
+- T3-090 holds a separate sub opened to defend one figure (sonicthehedgehog t08).
+- T3-087 holds a post title claiming an obscene drawing on the room's figure (duckgame t09).
+- T3-023 holds a College Food Board play inside the moderators' flair joke (cfb t05), with T3-017 and T3-032.
+- T3-169 holds a room's name tag placed beside another room's art (wine t08).
+- T3-017 holds a member answering an automatic account's failed image reading (purdue t17).
+- T3-086 holds a school's old rivalry carried onto the canvas (purdue t10, IU) and a fan's suggestion to use the work to put other K-pop groups down (AceOfAngels8 t07).
+- T3-108 holds one bot set to defend two neighbouring schools' logos (purdue t05).
+- T3-084 holds an envoy from another fandom's sub asking the room for help with its work (AceOfAngels8 t04, r/seolhyun's heart).
+- T3-058 holds complaints after the close that a neighbour left underwear on the room's figure (megaman t13).
+- A theme whose only post asks for help with a flag is placed, not unplaced (nonbinary t01).
+
+**National kinds under J's words.** lego: the logo was r/denmark's work by its flag, tied to Denmark's revenge on New Zealand (E277). completeanarchy: the Portuguese Empire, the Dutch East India Company emblem and Deus Vult argued (T3-130, T3-080). wine: Italy's and Spain's flags on the French bottle (T3-087, E283, E284), the French Discord's colour proposal (T3-152 with T3-066), Portugal's last laugh (T3-073). greenland: a flag on or above Denmark's (T3-065, T3-020). leafs: refusing to overwrite a national flag, calls to annihilate Russia and to leave the Russians and Serbia alone, a Canadian flag proposed (bags). SquareSpiral: borders with Finland, Argentina and Brazil (E289 to E291), a Norwegian flag claimed (E294), Gran Colombia's flag and Indonesia spared (bags). duckgame: Mexican pixels on the duck and the Sombrero Duck Alliance (E301). hongkong: the Hong Kong flag (T3-065) and the HK or 香港 letters argued. alberta: the Alberta flag (T3-065) and the call to vandalise and relocate Quebec's flag, with its refusal (a bag). pathofexile: the alliance with r/newzealand (E315). bdsm: the Spanish onslaught read as an inquisition and a civil war, a blitzkrieg over the French flag (T3-081). rotmg: the agreement beside the Slovenian flag (E323), Ireland's flag and Mexico's offer. megaman: France's flag, cap and underwear on Mega Man (T3-058), Germany's advance at the beam (E008), Welsh and Chilean recolours proposed (E335). AceOfAngels8: the heart beside the Korean flag (E072).
+
+**Content.** completeanarchy's BASH THE FASH, covered swastikas, the hammer and sickle, and arguments over TERFs, Palestine and tankies; leafs' calls to annihilate Russia; bdsm's inquisition and civil war; purdue's obscene lettering on its logo (E325) and its stripper jokes about IU; cfb's 'eat shit' over Pitt's logo (E311); duckgame's title about an obscene drawing; megaman's French underwear. All placed and named plainly as study material. Nothing was left out or softened.
+
+**What the second-order themes showed that the notes did not predict.** Many rooms' marks were made by others. r/denmark's Discord built r/lego's logo; r/ArchLinux's bot map built r/vim's; r/greenland's writers placed none of their flag; r/bdsm found its sign already made; r/megaman kept a figure a stranger began; r/AceOfAngels8 lent hands to r/seolhyun's heart. College rooms (purdue, cfb, texastech, cmu) ran border deals, script agreements and rivalries at the same time, and r/purdue refused its own strike on a neighbour that had helped it. Rooms made for the canvas (SquareSpiral, FlaggyFlag) negotiated borders from their first hours. One new kind came: a founder or moderator handing the work to the room on leaving (haskell, SquareSpiral).
+
+**Leads carried forward.** Members to place at the second pass:
+- T3-147 sharing press coverage of the mark: rotmg t11 c0238 (inside a bag).
+- T3-182, T3-181, T3-161, T3-177 and T3-127 as B1b-13 listed them.
+
+Rooms waiting on a tie (unread):
+- denmark (lego, greenland, pathofexile); placehearts (wine, SquareSpiral, bdsm, megaman); france (wine, megaman); ireland (wine, rotmg); aggies (nlsscirclejerk, texastech, purdue); Temple (texastech, purdue); touhou (SquareSpiral, purdue); ockytop (cfb, purdue); calgaryflames (leafs, alberta); seolhyun (kpop, AceOfAngels8)
+- python and pansexual (haskell); TheFarLeftSide, palestine and crusaderkings (completeanarchy); italy and portugal (wine); habs, winnipegjets, detroitredwings, torontoraptors, norway and russia (leafs); indonesia (SquareSpiral); thebluecorner and metroid (sonicthehedgehog); eagles (denverbroncos); loltyler1, reddevils, titanfall and udub (cfb); placecanada, quebec and canada (alberta); austria, bardmains, hungary and globaloffensive (pathofexile); theblackvoid (twentyonepilots); rwby, tf2 and placestart (rotmg); colorado (lego)
+- giantbomb, Northwestern, osu, uofmn, maryland, unitedkingdom, lsu and msu (purdue); placeDE, ainbowroad, GuardiansOfDatBoi, DatBoi, vinesauce, mamamoo, wales and btc (megaman)
+- Still open from B1b-13: the lists in its section, less those closed here. Closed this leg: pathofexile (E315 and E316 close the newzealand and hongkong leads), rotmg (E264), SquareSpiral (E289, E290 and E294 close the finland, argentina and norge leads), purdue (the nlsscirclejerk lead: r/purdue's record does not tell the failed truce, which a Giant Bomb member recounts in r/nlsscirclejerk).
+
+**The stopping rule.** `saturation.py status --stage B1`: 330 of 705 rooms read, 46.3% of the words, kinds 191 by the rule's count, coverage 0.9952, unseen 22.47. Round 11 ended with a new kind, T3-187 at haskell (order 307), and the count reset; no marker was reached. Round 12 opened at alberta (order 320, 317.0 average rooms) with a prediction of 12.3, over the 10 that needs a round note, which is in the diary; it reads to 329.2 and stands at 326.3. It is the first round in a row since the reset: marker 1 needs three empty rounds in a row. The check-in at 60% of the words is not near.
