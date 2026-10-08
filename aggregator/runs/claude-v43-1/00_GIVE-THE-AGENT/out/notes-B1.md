@@ -386,3 +386,66 @@ Rooms waiting on a tie:
 - Watchmen and TheFarLeftSide (flashtv)
 
 **The stopping rule.** `saturation.py status --stage B1`: 182 of 705 rooms read, 26.4% of the words, kinds 177 by the rule's count, coverage 0.9887, unseen 41.06. Round 4 opened after gameofthrones (order 180): next kind predicted in 5.3 rooms, reading to 189.5 average rooms, under 10 average rooms. The last new kinds were at AprilKnights (order 170). No markers.
+
+## Leg B1b-09, the ninth stretch, 2026-10-07 to 08
+
+**The stretch.** Order 183 (shield) to 214 (smite), 32 rooms, about 1.03 MB, as declared when the leg opened, each the room `mem.py next --stage B1` named. 329 second-order themes were read; 325 were placed (544 placements) and four went to `unplaced-B1.jsonl`: orderofthebluecorner t11 (a note that a delayed post went through), rangers t15 (two update posts whose bodies are gone), mexico t19 (a post keeping only 'Place' and a tearful smile) and smite t11 (a removed post's title only).
+
+**How the rooms were read.** Every room was printed whole through `b1_room.py`, every theme with every concept label, before any of its themes was placed. Large rooms were printed to `$TMPDIR` in parts under 30 KB with the line count checked: romania (395 lines), TransFlagPlace (401), mexico (474) and smite (490) in three parts; detroitlions, totallynotrobots, porterrobinson, rangers and furry_irl in two. Each room was then read against the read rooms tied to it: `mem.py neighbours`, its leads, and a search of the store's concepts for its name or artwork.
+
+**A fault in the tie search, and its repair.** `mem.py codes --grep` prints only its first 80 matches. For rooms with a common name the read rooms past line 80 were not seen, and for ontario the filter was run on the room-count output, where it matches nothing. From ontario on, ties were found with `--by-room`, intersected with the read rooms, and each tied room's concepts were then paged in full. The stretch's earlier rooms were re-checked the same way (diary B1-37). The re-check found E111 (gameattack and starbound) and E112 (Starry Night, nine rooms), and the greenlattice side of furry_irl's treaty (E105), which the furry_irl note had first called one-sided. Two room notes named a tied room as unread when it had been read: araragi (madokamagica's note) and RelientK (porterrobinson's note). Both ties stay one-sided on the record.
+
+**New kinds: two, T3-174 and T3-175**, each logged as an idea first and minted before the room's other placements.
+- orderofthebluecorner: T3-174 professing loyalty to a colour faction (t01: blue as a faith and an empire, opposition called heresy, BLUE VULT, a pledge never to abandon the Order). T3-031 in-jokes and T3-172 renewing the order's oaths were set aside: the faith is the faction's identity, not a joke the room plays on itself, and no standing order reconvenes. GreenEmpire t01 is its second room (the Green Empire hailed). purplecorner t01 (purple as the people's corner and the colour of kings) is the same doing, for the second pass.
+- furry_irl: T3-175 adopting a sign others began (t03: the room embraced, rebuilt and kept as its own the Yiff Me Daddy sign another person made, c0130). It is not T3-068 converting a neighbour's art (the sign was kept as made), not T3-156 adopting the mark as emblem (that is the room's own mark carried into flair or sidebar), and it is the adopter's side of T3-071 letting a neighbour adopt the work. mexico t07 is its second room: Yoshi, a neighbour's figure, spared under 'el respeto al Yoshi ajeno es la paz' and proposed as Mexico's mascot, 'we adopt rather than invade' (c0118, c0200). It speaks to the open distinction of joining work begun elsewhere.
+
+Ideas logged and not minted: hijacking a rival's script (detroitlions c0146, one concept inside a bag whose best gate is T3-006; purdue c0279 names a maintenance script guarded against hijacking); calling from comments when the sub's posts are closed (ontario c0002, one concept copied three times, a means of calling); making a mark because rivals have one (baylor c0007 with UT and A&M, columbia c0004 and rangers c0050 give the same reason; the reason a call gives, carried inside T3-033).
+
+**Rule 0 and bags.** 219 lines this leg in `out/_analysis/b1_multiplace_b1b09.tsv`, each checked against the scheme and the store and written with `b1_multiplace_write3.py`, and 66 bag records. 147 of the stretch's 325 placed themes carry more than one placement (45%), 72 of them three. The check caught one wrong concept before writing (ScottPilgrim c0016 cited under t05 belongs to t03). The largest bags are long themes on neighbours or on the room's own April Fools: TransFlagPlace t02 (70 codes, seven kinds wanted), smite t02 (189 codes), mexico t06 (56 codes), rangers t06. The scheme holds 874 multiply placed second-order themes, 326 of them three times, none over three.
+
+**Episodes: thirty-three lines, E086 to E118**, each with its agreement or disagreement written in `episodes-B1.jsonl`. Two lines join more than two rooms, because one event is told in many: E112, the Void's destruction of Starry Night (starryknights with babymetal, chibears, cirkeltrek, germany, rocketleague, smashbros, transformers and xenoblade_chronicles, whose concept links the starryknights thread), and E114, Mexico's flag lost to the Void and the UK (mexico with theitalyplace, colombia, chile and fireemblem). The close-check joins an episode's rooms only for the themes the line lists, so the theme lists of E112, E114 and E116 were cut to the doings in the shared event; a big room's unrelated deal placements are not joined.
+- shield with pcmasterrace (E086, the same HYDRA post) and chelseafc (E087, the HYDRA and crest border, disagreeing on who gave ground).
+- epublica and spain (E088); greenlattice with notredame (E089), starbound (E090), xenoblade_chronicles (E095, the same member) and furry_irl (E105, the OwO truce); gameattack and starbound (E111, the same member, the r/wallstreetbets attack).
+- detroitlions and minnesotavikings (E091, the FTP mark and the broken Packers truce).
+- Moondye7 and undertale (E092), cirkeltrek and Goodboye (E093), anime_irl and madokamagica (E094), seahawks and xenoblade_chronicles (E096, disagreeing on the 12's standing).
+- orderofthebluecorner with pokemon (E097, Hiker David refused as blue only) and purplecorner (E098, each side the invader's victim).
+- nVade and scotland (E099), colombia and columbia (E100, a correction or a defacement), columbia and nyu (E101, the Columbine changes).
+- rangers with pakistan (E102, six members in both, disagreeing on blame) and bakchodi (E103).
+- monalisaclan and starryknights (E104).
+- TransFlagPlace with greenlattice (E106, 'DO NOT DEFILE' in both within the hour), PinkVomitMonster (E107, the Queen Beast's peace, disagreeing on whether it held), AvoArmy (E108), traaaaaaannnnnnnnnns (E109, six members in both) and transgender (E110); E068, E109 and E110 tell one flag.
+- mexico with giivasunner (E113, Fred and the skull, three members in both), radiohead (E115, the taco), spain (E116, four members in both, disagreeing at h27) and opticgaming (E117, a deal in one record, a call for FaZe on Optic's wall in the other).
+- cloud9 and smite (E118, two members in both).
+
+Ties told by one room only, not episodes:
+- kamenrider's record does not hold shield c0039's request to move away from its work; xcom c0068 and c0069 (a push from Hydra) are not in shield's.
+- spain c0025 (a Romanian blue square coloured for a Spanish flag) against romania; edmontonoilers c0096 (a r/rangers member cheering a goalie) and rangers c0163 (the Oilers' offer to help a move).
+- auburn c0029 tells an accord with r/Transflagplace over the AU spot; TransFlagPlace c0279 is the same member's title nine hours later with no body. A lead for B1d.
+- gorillaz c0027 and c0028 tell Russel attacked in the hours of the envoy's request to Dreddit, without naming Dreddit.
+- chibears c0109 and c0152 and detroitlions c0145 and c0156 tell different members' acts on the Packers logo; berserk c0031, RelientK c0004, araragi c0026, theitalyplace c0039 and leagueoflegends c1812 each name a room whose record does not hold the act.
+- the Mexican heart argued in theitalyplace at h47.7 to h50.9 is told in mexico only as its making at h27 to h28.
+
+**What the scheme holds now.** 175 themes over 2,479 placed second-order themes (3,679 placements). Size distribution: 22 themes hold one second-order theme, 18 two, 13 three, 9 four, 7 five, 4 six, 5 seven, 6 eight. 25 themes are seen in one room only. The largest: T3-009 celebrating the finished work (145, 5.8%), T3-010 the space and border deals (134), T3-001 members' April Fools (113), T3-017 the sub's usual talk (106), T3-002 calling members in (105), T3-005 defence (104), T3-031 in-jokes (100), T3-014 the room's own chat (95). None holds one in ten. Kinds gaining rooms: T3-170 mistaking friendly work for vandalism (epublica, romania, TransFlagPlace, smite placed; ScottPilgrim, rangers, starryknights and smite t05 inside bags), T3-168 (epublica, SpaceX changing its bot), T3-162 vetting others' requests to build (orderofthebluecorner, its second room), T3-169 signing the sub's name (detroitlions, Goodboye, orderofthebluecorner), T3-164 feeling supported through the canvas (TransFlagPlace; with traaaaaaannnnnnnnnns one room under E109, so still rare), T3-163 defecting from a rival faction (starryknights, 'I left the void to help you guys repair').
+
+**National kinds under J's words.** T3-065 took mexico (the flag started as Argentina had) and Dorset's county flag; egypt t01 is a bag kept in it; ontario's single call for a provincial flag beside Canada's sits in T3-033, since nothing was built. T3-080 took epublica's republican flag and mexico's American flag to challenge Trump and a religious symbol refused. T3-145 took mexico's unity around the flag; T3-130 took r/the_donald named as Mexico's attacker, Trump's wall, and romania's Budapest protest joke; T3-142 took the pizza and tacos jokes between Mexicans and Italians. romania: the heart with Hungary as a bag kept in T3-079 (T3-165 wanted for the design some refused), the Hungary rivalry as Austria-Hungary in T3-081, Bulgarian kin in T3-078, Dracula and national figures as a bag kept in T3-113. rangers: the Indian and Pakistani flags over the logo and the quarrel over blame between Indian and Pakistani members.
+
+**Content.** TransFlagPlace's /pol/ and transphobic attacks and slurs met during espionage, a Trump drawing turned into a trans flag, Black Lives Matter pixels removed and asked back, a communist flag; mexico's raids on Argentina's, Italy's and the US flag and the Trump wall jokes; the India and Pakistan blame in rangers; romania's calls to sabotage Hungary's flag; furry_irl's swastika kept off the F; porterrobinson's slur; columbia's Columbine; ontario's prank rules about Premier Kathleen Wynne. All placed and named plainly as study material. Nothing was left out or softened.
+
+**What the second-order themes showed that the notes did not predict.** The A1 notes name a room's neighbours as the room's own members named them. Read against the store, events reach further: the Void's attack on Starry Night is told in nine read rooms, the trans flag and its crossings in six (E068 and E106 to E110), Mexico's flag and deals in eight rooms besides mexico, and fifteen of the thirty-three episode lines name a member writing in both rooms, none of whom the notes name. furry_irl's not-this line (a room that adopted a sign another person made) was in the note as a fact; read whole, it is a kind, and mexico's Yoshi is a second room for it.
+
+**Leads carried forward.** Members to place at the second pass:
+- T3-174: purplecorner t01.
+- T3-175: mexico t16 (Yoshi as the sub's mascot, c0311, inside a bag); ireland adopting undertale's Temmie when ireland is read.
+- T3-170: ScottPilgrim t03, rangers t02, starryknights t02, smite t05 (all bags).
+- T3-169: notredame t03 and starbound t03 (bags).
+
+Rooms waiting on a tie:
+- india (rangers; india c0221, c0222 and c0423 tell the lost logo, ncolaros writes in both)
+- canada and placecanada (ontario)
+- furry, touhou and wales (furry_irl; r/furry c0020 to c0022 tell who made Yiff Me Daddy)
+- eve, thenetherlands and sweden (evedreddit)
+- osu, Temple and pepe (Villanova); utaustin and A&M (baylor); DCFU (superman)
+- placeDE and bindingofisaac (starryknights); kanye, THE_PACK, DetroitRedWings, rotmg and ainbowroad (TransFlagPlace)
+- hungary, bulgaria, portugal, malaysia and newzealand (romania); palestine (egypt)
+- heroesofthestorm (peterdraws); patriots and foxes (totallynotrobots); telegram and cavestory (ScottPilgrim); edboxes and prequelmemes (porterrobinson); DevonUK, Cornwall and calgaryflames (Dorset); GabrielDropout and satania (tenma)
+
+**The stopping rule.** `saturation.py status --stage B1`: 214 of 705 rooms read, 29.8% of the words, kinds 179 by the rule's count, coverage 0.9917, unseen 26.16. Round 4 ended empty at 189.5 average rooms; round 5 opened at 190.0 and ended at 196.0 with T3-174 at orderofthebluecorner; T3-175 at furry_irl (order 206) reset the count again. Next kind predicted in 7.4 average rooms. No markers.

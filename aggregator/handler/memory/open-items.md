@@ -27,3 +27,4 @@ Seeded 2026-10-06 from Orchestrator/HEAD.md, "Open" (OpenAI's entry of 10:03Z).
 - A1 restore finished 12:36Z. Before B1: J decides on a short leg to update handback-A1.md (dates from A1c, before the catch-up and the restore). Owed on the Mac: harness test, validator self-test.
 - For J: the 9 rooms the restore left minimal on national/political grounds (prototypes exist in pretrim-A1/restored/); whether to put them back, and whether to tell the analyst before B1 that conflict content is study material.
 - 2026-10-07 mem.py progress --plan is A1-only; at stage B1 it reports order-A1.txt and 3 MB blocks. Make it stage-aware (B1 order, 1 MB, codes plus themes) or say so in its help.
+- 2026-10-08 mem.py codes --grep caps output at 80 lines without saying so loudly; the analyst missed ties because of it (B1b-09). Make the cap visible or add paging.
