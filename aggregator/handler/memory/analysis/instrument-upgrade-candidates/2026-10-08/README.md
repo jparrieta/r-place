@@ -45,3 +45,4 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 - `b1_episode_read_check.py` (B1b-17): lists episode lines naming a room that is unread or outside the order.
 - `b1_episode_theme_check.py` (B1b-17): for a range of episode lines, reports listed themes no listed room holds. Found 108 such kinds on 81 of E001-E418.
 - `b1_print_sizes.py` (B1b-17): b1_room.py print size per room for an order range, to note rooms read in parts.
+- `b1_label_grep.py` (B1b-18): prints every placed second-order theme whose label matches a regex, with its third-order themes.
