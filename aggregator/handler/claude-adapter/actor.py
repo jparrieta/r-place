@@ -766,8 +766,17 @@ class ClaudeActor:
                     # are told by their ids, never by a line count
                     'parent_ids': [g.message_id(r) for r in g.messages(parent)] if parent else []})
                 hooks = tdir / 'adapter-settings.json'
-                write(hooks, {'hooks': {'PostToolUse': [{'matcher': '*', 'hooks': [{'type': 'command', 'command': ' '.join(
-                    shlex.quote(x) for x in (sys.executable, str(HERE / 'inbox_hook.py'), str(self.inbox)))}]}]}})
+                adapter_settings = {'hooks': {'PostToolUse': [{'matcher': '*', 'hooks': [{'type': 'command', 'command': ' '.join(
+                    shlex.quote(x) for x in (sys.executable, str(HERE / 'inbox_hook.py'), str(self.inbox)))}]}]}}
+                # fast mode (J, 2026-10-09 09:27 Berlin): a headless turn takes /fast only from its --settings, so
+                # the switch is fast-mode.json beside this file ({"fastMode": true|false}), read at each turn's launch;
+                # absent or unreadable means off. Billed from usage credits, not the plan's limits.
+                try:
+                    if json.loads((HERE / 'fast-mode.json').read_text()).get('fastMode') is True:
+                        adapter_settings['fastMode'] = True
+                except (OSError, ValueError, AttributeError):
+                    pass
+                write(hooks, adapter_settings)
                 flags = set(self.state['runtime'].get('flags', []))
                 cmd = [self.state['runtime']['executable'], '-p', '--output-format', 'stream-json', '--verbose']
                 cmd += [f for f in ('--include-partial-messages', '--forward-subagent-text') if f in flags]

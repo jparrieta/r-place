@@ -119,3 +119,5 @@ legs.py run claude-v43-1--C2-1 C2a-01
 2. The run's `acceptance.sh` and `acceptance_v41.sh` end ALL CLEAR after the last change to its `CONTROL/harness/`.
 3. The repository's first commit and push.
 4. Start `serve` and, at the Mac, run A1a through it. A headless turn passes `--settings` with the inbox hook only; the run's own settings still applied in the probe (its `dontAsk` turn ran Bash under the run's allow rules), but that the run's guard hook fires in a headless turn is not yet seen. A refusal in A1a shows in `out/_closes/guard.log`.
+
+**Fast mode** (J, 9 October 2026). `fast-mode.json` beside `actor.py` switches the analyst's fast mode: with `{"fastMode": true}`, each headless turn's `--settings` carries `"fastMode": true` (a `-p` session takes `/fast` only that way). It is read at each turn's launch; set it to false to turn fast mode off from the next turn. Fast mode is billed from usage credits, outside the plan's limits.

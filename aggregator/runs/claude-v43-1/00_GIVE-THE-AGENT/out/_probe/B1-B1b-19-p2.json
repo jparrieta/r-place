@@ -1,0 +1,49 @@
+{
+ "t": "2026-10-09T09:22:44+00:00",
+ "stage": "B1",
+ "leg": "B1b-19-p2",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "MiamiHurricanes",
+   "borderlands",
+   "truestl"
+  ],
+  "changed": [
+   "T3-010",
+   "T3-012",
+   "T3-039",
+   "T3-040",
+   "T3-056",
+   "T3-099",
+   "T3-102",
+   "T3-122",
+   "T3-126",
+   "T3-149",
+   "T3-150",
+   "T3-151",
+   "T3-153"
+  ],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "n/a"
+ },
+ "scored": 3,
+ "unscored": [
+  "open",
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "rooms",
+  "changed"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

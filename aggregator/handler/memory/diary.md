@@ -214,3 +214,10 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-09 06:29 tick: B1b-19 running; 405/705, 59.7%, 197 kinds; state reading; next anarchism; no markers.
 - 2026-10-09 06:51 tick: saturation.py reports the 60% CHECK-IN (408/705, 60.1%, 197 kinds, no markers). B1b-19 still running; report not yet written. Told J at once.
 - 2026-10-09 06:59 (UTC): J decided at the check-in: continue under the rule, track markers, stop when the rule says, then reopen with an amendment to read all. Said to B1b-19 (handler text, spirit, per J). Also passed: review oversized kinds for splitting, starting from the rule 0 parent/child pairs. When the rule stops B1 (marker 3 pause): tell J, then on his word write the finish amendment.
+- 2026-10-09 07:24 tick: B1b-19 paused (733719c7, pushed, validator 0) at the check-in; 9 rooms (400-408), 135/138 themes, no new kind, E583-E597; stopping-B1.md written 06:56Z. The analyst's decide continue was refused by the harness guard (PI-only); asked J to run it in Terminal. Split review moved to the first work of the next part.
+- 2026-10-09 07:33 (UTC): fast mode wired (actor.py + fast-mode.json, LEGS.md note, DECISIONS 07:33Z); tests 35/35; needs J to restart serve; waiting also for J's decide continue.
+- 2026-10-09 07:47 tick: no decision logged yet; handler still pid 1373 (not restarted for fast mode); waiting for J.
+- 2026-10-09 08:07 (UTC): J deferred fast mode; fast-mode.json false. Decide continue still not logged (J's computer stuck); asked J whether the handler may log it for him.
+- 2026-10-09 08:14 (UTC): logged decide continue at J's word; state reading; list restarted (B1b-19 resumes at 409, split review first).
+- 2026-10-09 08:39 tick: B1b-19-p2 running (split review first; no new rooms yet); 408/705, 60.1%, 197 kinds, reading.
+- 2026-10-09 09:01 tick: B1b-19-p2 split review: T3-194 (Summit1G) and T3-195 (weezer) minted at anaheimducks 08:58Z (splits); kinds 199. Replay changed: rounds 15 -> 14, round 1 now starts at room 132 (was 94); splits count as new kinds (stage card, J 2026-09-29) and estimates count kinds in holding rooms, so the round history moved. Told J.
