@@ -53,3 +53,6 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 - `b1_precheck_bagfile.py` (B1b-19-p2): Before writing, check every concept id cited in a bag file's why against the second-order theme
 - `b1_review_tier_lines.py` (B1b-19-p2): Append tier_history.jsonl lines for one review of an oversized kind, read after the moves: the
 - `b1_split_print.py` (B1b-19-p2): Cut a member print (b1_theme_members.py output) into part files under a byte limit, breaking
+- `b1_both_acts.py` (B1b-20): List second-order themes whose label names both acts of a kind pair (two regexes) but which are
+- `b1_members_changed_lines.py` (B1b-20): Append members_changed lines to tier_history.jsonl for a review that changed members of existing
+- `b1_members_changed_lines2.py` (B1b-20): Append members_changed lines to tier_history.jsonl for a review that changed members of existing

@@ -1222,3 +1222,74 @@ Themed play with no fake claimed (bread, Snek, robot pretence, "Data") is the sa
 **What the second-order themes showed that the notes did not predict.** On a day of expected lies, real news was doubted. Members took a surprise premiere (rickandmorty), roster changes (dota2), a tournament result (starcraft), preload news (fireemblem) and an award (leafs) for April Fools. The planning chats carried their own gatekeeping, and members left in the thread asked to be told what the chat had decided.
 
 **Close-check figures.** `validate.py B1`: 0 errors, 200 warnings (the capped figure). `b1_check_bags.py B1b-20`: 6 bags, 0 problems. Episodes unchanged: 596 lines. Helpers written this leg: `b1_both_acts.py`, `b1_members_changed_lines.py`, `b1_members_changed_lines2.py`.
+
+## Leg B1b-21, the twentieth stretch, 2026-10-09
+
+**The stretch.** Declared at the open as order 409 (anaheimducks) to 437 (turkey), 29 rooms, about 1.04 MB by `b1_stretch_sizes.py`. All 29 were read, each the room `mem.py next --stage B1` named. 310 second-order themes were read. 306 were placed (515 placements, and one more when the mint placed its trigger). 4 went to `unplaced-B1.jsonl`: quebec t06, t16 and t17, bare titles whose bodies are deleted, and portugal t26, a reply affirming its deleted parent. By room: anaheimducks 14, GrowTheTree 5, riskofrain 5, norway 9, indonesia 17, placeDE 13, drumcorps 13, the_pack 10, titanfall 13, coldplay 10, VelvetUnderground 4, quebec 14 of 17, mindcrack 12, maryland 12, guatemala 4, cardinals 9, zelda 14, bisexual 11, portugal 41 of 42, truestl 7, borderlands 9, MiamiHurricanes 8, mizzou 8, Russiaclan 11, wario 1, mysterydungeon 8, calvinandhobbes 7, CelticFc 3, turkey 14.
+
+**How the rooms were read.** Every room was printed whole through `b1_room.py` before any of its themes was placed, large prints in parts under 30 KB. Every A1 note was read. Ties were read through `mem.py neighbours`, `b1_grep_rooms.py` on the read neighbours and the rooms the codes name, partner dumps compared with `b1_shared_many.py`, cited codes checked in the dumps or with `b1_show_codes.py`, and partner kinds with `b1_room_placements.py`. `b1_label_grep.py` showed earlier placements before each unfamiliar theme. A new helper, `b1_episode_join.py`, adds a joining room to existing episode lines from a spec file, dry run unless `--write`. No forest thread was opened and no placement was taken off. The context was compacted once, after wario; the head and the stage file were read again and the reconcile line logged.
+
+**New kinds: one.** T3-196 drawing lapsed fans back, minted at mindcrack t06 (order 421), the idea logged first. The canvas picture brought former fans of a fading community back: they remembered it, watched old videos, checked old haunts and came back to defend the picture (c0042 to c0050). Set aside: T3-044 recruiting canvas visitors into the sub, which holds newcomers invited in, and T3-082 finding the room's mark already placed. T3-196 is on the rare tier until a second room unlike mindcrack holds it. One idea was logged and not minted: performing state offices in the room's canvas war (indonesia t07: a member signing as the president, decrees, a parliament, traitors). It is placed in T3-081 as that kind's variation.
+
+**Rule 0 and bags.** 210 lines this leg in `out/_analysis/b1_multiplace_b1b21.psv`, converted to `.tsv` and written with `b1_multiplace_write3.py` or `b1_bags_from_file.py`. Six bags, all kept in T3-010:
+- indonesia t09, would need T3-149, T3-151, T3-022;
+- placeDE t04, would need T3-011, T3-150, T3-195, T3-115;
+- quebec t04, would need T3-011, T3-024, T3-084, T3-150;
+- mindcrack t04, would need T3-151, T3-039, T3-024, T3-011;
+- maryland t03, would need T3-099, T3-123, T3-066, T3-035;
+- turkey t06, would need T3-149, T3-150, T3-151, T3-084.
+
+`b1_bags_from_file.py` writes every line of its bag file, so from placeDE on each room's bag went in a file of its own (`b1b21_bags_<room>.txt`). indonesia's bag line was checked to appear once. `b1_check_bags.py B1b-21`: 6 bags, 0 problems.
+
+**Episodes: sixty new lines, E598 to E657, and 21 earlier lines joined.** Each line states whether the rooms agree. Joined, with "Added at B1b-21": E005, E272 and E596 (norway); E183 (indonesia); E473, E475, E170, E112, E567 and E574 (placeDE); E188 (the_pack); E415 (titanfall); E437 and E441 (quebec); E486 (cardinals); E154 (bisexual); E167 (portugal); E233 (truestl); E500 (Russiaclan); E267 and E573 (turkey). New lines by room:
+- GrowTheTree with ainbowroad (E598 to E600); norway with chess (E601) and starcraft (E602).
+- indonesia with touhou (E603), brasil (E604), starlightstage (E605), AvoArmy (E606) and australia (E607).
+- placeDE with nyjets (E608), ainbowroad and osugame (E609), de (E610), germany (E611), placehearts (E612) and europe (E613, E614).
+- drumcorps with rust (E615) and morrowind (E616); titanfall with virginiatech (E617) and greenlattice (E618); VelvetUnderground with indieheads (E619); quebec with kilian (E620); mindcrack with gravityfalls (E621).
+- maryland with ravens (E622) and placehearts (E623); guatemala with placehearts (E624) and kuwait (E625); cardinals with stlouis (E626), and with stlouis and stlouisblues (E627).
+- zelda with greenlattice (E628), ainbowroad (E629) and titanfall (E630); bisexual with placehearts (E631) and TransFlagPlace (E632).
+- portugal with tinytardis (E633), halo (E634), placehearts (E635), ainbowroad (E636), romania and hungary (E637) and PORTUGALCARALHO (E638, E639).
+- truestl with drumcorps (E640) and morrowind (E641); borderlands with greenlattice (E642); MiamiHurricanes with fireemblem (E643).
+- Russiaclan with placecanada (E644), serbia (E645, E646) and leafs (E647).
+- mysterydungeon with chicago (E648) and pokemon (E649); calvinandhobbes with weezer (E650).
+- turkey with cirkeltrek (E651), de (E652), greece and thenetherlands (E653), pakistan (E654), placehearts (E655), albania (E656) and factorio (E657).
+- No line: anaheimducks, riskofrain, coldplay, wario, mizzou, CelticFc.
+
+Corrections: E612 first listed T3-079, which neither of its rooms holds; it was changed to T3-010 before the check. A few word counts and episode parses ran in the same turn as the edit they checked, which the batching rule forbids; each result agreed with the record. E170 and E167 hold kind faults from before this leg, listed in `b1_episode_theme_check_E001-E418_B1b17.txt`.
+
+Ties told by one room only, not episodes, are named in each room's note in the diary (parts B1-94 to B1-97). Examples: lakers proposing to recruit the Ducks; finland calling to take Norway's flag; alberta calling the Quebec flag an invasion; Homura's claim that r/Turkey declared war on it (E422), the YPG flag (E469) and the Lithuanian call (E061), none of which r/turkey's record tells; Turkish members asking help in korea, australia, 2007scape and azerbaijan.
+
+**What the scheme holds now.** 196 themes over 4,998 placed second-order themes, 7,835 placements. Multiply placed: 2,022 (1,207 twice, 815 three times, none over three). Size distribution: 19 themes hold one second-order theme, 15 two, 11 three, 9 four, 6 five, 5 six, 5 seven, 8 eight; 20 are seen in one room only. Largest: T3-009 320 (6.4%), T3-010 265 (5.3%), T3-001 234, T3-005 233, T3-002 230, T3-031 211, T3-017 209, T3-021 201. None holds one in ten. T3-185 changing the sub's posting rules and T3-184 pausing the sub's usual events each gained a second room (coldplay). Ledgers: `ideas-B1.jsonl` 207, `theme_discovery.jsonl` 196, `kinds-B1.jsonl` 8,011, `multiplacement_log.jsonl` 3,551, `tier_history.jsonl` 74, `unplaced-B1.jsonl` 33, `episodes-B1.jsonl` 656 (E001 to E657, E460 absent).
+
+**Gate notes added this leg, for B1e.**
+- T3-023 holds a sub's frame changed for one day and members playing inside it: one-day posting rules (truestl), a moderators' bot makeover (cardinals), a swap with a sister sub (zelda).
+- T3-017 holds April Fools used as cover for coming out (bisexual t09).
+- T3-125 holds a flag said to be made by individuals with no common group (bisexual t10) and members working without a Discord (calvinandhobbes t02).
+- T3-175 holds a neighbour's sprite adopted into the national flag (portugal t07, t37).
+- T3-127 holds a game's community manager placing pixels beside the room (titanfall t06).
+- T3-050 holds a mock war on a neighbour told only inside the room after the close (mysterydungeon t07, as evedreddit t02).
+- T3-157 holds explaining why loved art survives (calvinandhobbes t07, as shitredditsays t06).
+- T3-086 holds a national referendum slogan and a secularist slogan carried onto the canvas (turkey t08).
+- T3-081 holds members performing state offices in the room's canvas war (indonesia t07).
+- T3-099 holds a colony under a bigger neighbour's protection (maryland t03, in its bag).
+
+**National kinds under J's words.** norway: destroying the Swedes, turning the Danish flag Norwegian, displaced pixel migrants sent to Sweden (T3-081). indonesia: the Dutch flag's blue torn off as the Yamato Hotel reenactment (T3-081), ganyang Singapore, a call for an international tribunal. placeDE: calls for Lebensraum and Place-Herrschaft (T3-061); a swastika, a Reich flag and a Hitler joke rejected, Refugees Welcome and an FDP logo proposed (T3-080); provoking Turkish nationalists with an Armenian flag (T3-006). quebec: the fleurdelisé and the 1837 Patriote flag (T3-065), freedom, assimilation and secession read into the canvas with the Plains of Abraham (T3-130, T3-081), whether all Quebecers are Canadian (T3-180). maryland: Maryland as Sweden's colony under protection (bag, T3-099). portugal: the flag and Éder (T3-065, T3-113), taunts with the former colony over independence and Pedro IV (T3-050, T3-081), the Galician nationalist flag (T3-080). Russiaclan: the Russian flag beside Serbia's and their heart (T3-065, T3-079), Polish and American flags turned Russian (T3-068). turkey: the flag built and moved (T3-065, T3-022), the referendum's Hayır and an imam hatip slogan (T3-086), the hammer and sickle and the German flag proposed for a star and crescent (T3-068), the Greek-Turkish heart and its rejection over Greek politics (T3-079, T3-165), honour in serving the flag (T3-145). mizzou: a plan to trim Pakistan's flag in secret (T3-061). GrowTheTree: the American flag consuming the tree, then an apology (T3-010).
+
+**Content.** Placed and named plainly as study material: placeDE's calls for Lebensraum and the swastika and Reich flag its members rejected; racist abuse against Brazilians called out in portugal (T3-182, the insult in T3-142); a call in calvinandhobbes to help r/Eagles against a Nazi flag (T3-146); McGill's objection in turkey about drawing on unceded Kanien'kehá:ka territory (turkey t06's bag); turkey's slogans and the rejection of peace with Greece. Nothing was left out or softened.
+
+**What the second-order themes showed that the notes did not predict.** The canvas brought lapsed fans of a fading community back to it (mindcrack, T3-196). Several subs changed their own frame for one day, and members played inside the change (truestl, cardinals, zelda). The Turkish flag's story runs through eleven read rooms (E267, E573, E651 to E657). The move to turn it Greek was called in r/greece and r/thenetherlands by one member speaking for r/Armenia, and r/turkey proposed the heart with Greece two hours later. Turkish members carried offers and requests into r/albania, r/pakistan, r/placehearts and r/de. In a small game room, envoys of each side settled a border by writing in each other's rooms; after the close the room replayed the border as a mock war (mysterydungeon and chicago).
+
+**Leads carried forward.** Rooms waiting on a tie, unread, by the room whose record names them:
+- norway: Slovakia, crusaderkings, CKCrusaders, denmark, sweden. indonesia: Singapore, PlaceNL, malaysia, india, sweden.
+- placeDE: Belgium, italy, ireland, austria, iceland, theblackvoid, 4chan, konosuba, CryptoFR.
+- drumcorps: thebluecorner, prequelmemes. the_pack: armenia, eesti, witcher. titanfall: uwaterloo. coldplay: straya, parahumans, chicubs. VelvetUnderground: AmericanFlaginPlace.
+- quebec: trees, catalonia, habs, eve, Honduras. mindcrack: czech, PlaceNL, armenia, Slovakia, ethoslab. maryland: sweden, thebluecorner, theblackvoid.
+- cardinals: metroid, chicubs, hawks. zelda: tagpro, AcePlace, ockytop. bisexual: costa_rica. truestl: natsume, nascar. portugal: parahumans, straya, armenia, androidgaming, miraculousladybug.
+- MiamiHurricanes: UMiami, necrodancer, ucf. mizzou: belgium, india. Russiaclan: mcgill, russia, habs, detroitredwings, palestine, carletonu.
+- calvinandhobbes: eagles, metalcore. CelticFc: borussiadortmund. turkey: armenia, mcgill, singapore, sweden, day9, prequelmemes, crusaderkings, israel.
+
+**The stopping rule.** At the open: reading, 408 of 705 rooms, 60.1% of the words, kinds 199, 14 rounds, no marker. `saturation.py status` counted the B1b-19-p2 split of T3-010 as a new kind at the next room read, anaheimducks (kinds 200); as the stage file says, a split is a new theme, and the count of rooms without a new kind restarted there. T3-196 at mindcrack (kinds 201) reset it again. Round 15 opened at wario (order 433) after 10 average rooms and 10 rooms without a new kind; it predicted the next kind in 17.3 rooms and reads to 463.2 average rooms, more than 10 average rooms, so it was logged as it began. At the close: reading, 437 of 705 rooms, 63.6% of the words, kinds 201, coverage 0.9966, unseen 20.79, 15 rounds, round 15 open at 448.1 of its 463.2 average rooms, no marker; next futanari.
+
+**The check-in report.** `validate.py B1` at this close first gave one error: `stopping-B1.md` reported 408 rooms read and the record held 437 (`tools/checks/stage_B1.py` compares the two). `saturation.py report --stage B1` replays the record and rewrites the report; it does not touch the decision file. The check-in version was kept first as `out/stopping-B1-checkin-408.md`, then the report was written again (437 of 705 rooms).
+
+**Close-check figures.** `validate.py B1`: 0 errors, 200 warnings (the capped figure). `b1_check_bags.py B1b-21`: 6 bags, 0 problems. `b1_episode_theme_check.py` over each room's new lines: 0 kinds held by no listed room. `b1_episode_read_check.py` over the 437 read rooms: 0 lines naming an unread room. `episodes-B1.jsonl` 656 lines, E001 to E657, E460 absent. Helper written this leg: `b1_episode_join.py`.

@@ -223,3 +223,13 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-09 09:01 tick: B1b-19-p2 split review: T3-194 (Summit1G) and T3-195 (weezer) minted at anaheimducks 08:58Z (splits); kinds 199. Replay changed: rounds 15 -> 14, round 1 now starts at room 132 (was 94); splits count as new kinds (stage card, J 2026-09-29) and estimates count kinds in holding rooms, so the round history moved. Told J.
 - 2026-10-09 09:27 (UTC): B1b-19-p2 closed 0971da98 (validator 0, pushed); 68 min, 115 calls, mean ctx 407k, cache read 45.2 M, write 1.68 M, out 0.20 M, in 230. Split review: T3-010 split (T3-194, T3-195; joint designs to T3-056); T3-009 kept whole. No rooms read (408). Next leg reviews T3-014, T3-001 and ten more kinds >140 members, then resumes at anaheimducks. 7 b1_*.py copied. B1b-20 running (turn 372cccd2). Split-counting question still with J.
 - 2026-10-09 09:48 tick: B1b-20 running (split review); no new splits; 408/705, 199 kinds, reading.
+- 2026-10-09 10:07 (UTC): J: splits are new kinds; rule unchanged.
+- 2026-10-09 10:11 (UTC): B1b-20 closed 2c5b7c61 (validator 0, pushed); 39 min, 125 calls, mean ctx 534k, cache read 66.1 M, write 0.61 M, out 0.20 M, in 250. Split review done: T3-014 and T3-001 kept whole; T3-095 rule set (tests a claim the theme did not stage): -21, +7, 2 moved from T3-001, 2 to T3-023, 5 gain T3-032; ten kinds >140 need no split; T3-005/T3-021 boundary (76 themes) left to B1d. No splits, no rooms read. B1b-21 running (turn d3929a45).
+- 2026-10-09 10:32 tick: B1b-21 reading; 414/705, 60.8%, 200 kinds; no markers.
+- 2026-10-09 10:34 (UTC): J: let B1b-21 close, no new leg; ran legs.py stop (after current leg).
+- 2026-10-09 10:57 tick: B1b-21 still reading; 419/705, 61.3%, 200 kinds (the 200th is the split record 'split:T3-010+T3-194+T3-195' itself, counted as a kind besides the two minted); no markers; list stops after this leg.
+- 2026-10-09 11:19 tick: B1b-21 still reading; 423/705, 62.0%, 201 kinds; no markers.
+- 2026-10-09 11:41 tick: B1b-21 still reading; 426/705, 62.5%, 201 kinds; next portugal; no markers.
+- 2026-10-09 12:03 tick: B1b-21 still reading; 431/705, 63.0%, 201 kinds; next Russiaclan; no markers.
+- 2026-10-09 12:26 tick: B1b-21 still reading; 436/705, 63.4%, 201 kinds; round 15 open (446.7 of 463.2 avg rooms); no markers.
+- 2026-10-09 12:49 tick: B1b-21 still running (on its last room, turkey, or closing).
