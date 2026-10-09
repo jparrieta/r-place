@@ -41,3 +41,7 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 | `b1_theme_members.py` | `d0ff0d2b2f7f` | Print every member of a third-order theme with its second-order theme note and concept labels, |
 | `b1_tier_line.py` | `f80d8c05e875` | Append one tier_history.jsonl line for a move that took second-order themes out of an existing |
 - `b1_dump_rooms.py` (B1b-15): dumps several rooms' concepts to compare one large room with many partners (added after the first copy).
+- `b1_bags_from_file.py` (B1b-17): runs b1_multiplace_write3.py with one --bag per line of a bag file.
+- `b1_episode_read_check.py` (B1b-17): lists episode lines naming a room that is unread or outside the order.
+- `b1_episode_theme_check.py` (B1b-17): for a range of episode lines, reports listed themes no listed room holds. Found 108 such kinds on 81 of E001-E418.
+- `b1_print_sizes.py` (B1b-17): b1_room.py print size per room for an order range, to note rooms read in parts.
