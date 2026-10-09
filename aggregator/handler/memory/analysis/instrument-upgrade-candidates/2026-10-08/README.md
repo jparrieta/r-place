@@ -46,3 +46,10 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 - `b1_episode_theme_check.py` (B1b-17): for a range of episode lines, reports listed themes no listed room holds. Found 108 such kinds on 81 of E001-E418.
 - `b1_print_sizes.py` (B1b-17): b1_room.py print size per room for an order range, to note rooms read in parts.
 - `b1_label_grep.py` (B1b-18): prints every placed second-order theme whose label matches a regex, with its third-order themes.
+- `b1_bag_lists.py` (B1b-19-p2): Print the latest bag record of each sub:tNN as 'sub:tNN:kept:would_need (leg)'. Read-only.
+- `b1_kind_labels.py` (B1b-19-p2): Print each member of the named third-order themes as one line: sub, theme id, second-order label,
+- `b1_kind_overview.py` (B1b-19-p2): For each third-order theme named, print its members' count, rooms, and how often its members
+- `b1_member_status.py` (B1b-19-p2): For each sub:tNN given, print its current kinds (scheme_current.jsonl), whether a bag record exists
+- `b1_precheck_bagfile.py` (B1b-19-p2): Before writing, check every concept id cited in a bag file's why against the second-order theme
+- `b1_review_tier_lines.py` (B1b-19-p2): Append tier_history.jsonl lines for one review of an oversized kind, read after the moves: the
+- `b1_split_print.py` (B1b-19-p2): Cut a member print (b1_theme_members.py output) into part files under a byte limit, breaking
