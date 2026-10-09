@@ -56,3 +56,4 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 - `b1_both_acts.py` (B1b-20): List second-order themes whose label names both acts of a kind pair (two regexes) but which are
 - `b1_members_changed_lines.py` (B1b-20): Append members_changed lines to tier_history.jsonl for a review that changed members of existing
 - `b1_members_changed_lines2.py` (B1b-20): Append members_changed lines to tier_history.jsonl for a review that changed members of existing
+- `b1_episode_join.py` (B1b-21): Add a joining room to existing episode lines, as the B1 walk records it: the room appended to

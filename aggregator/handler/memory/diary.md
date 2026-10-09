@@ -233,3 +233,16 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - 2026-10-09 12:03 tick: B1b-21 still reading; 431/705, 63.0%, 201 kinds; next Russiaclan; no markers.
 - 2026-10-09 12:26 tick: B1b-21 still reading; 436/705, 63.4%, 201 kinds; round 15 open (446.7 of 463.2 avg rooms); no markers.
 - 2026-10-09 12:49 tick: B1b-21 still running (on its last room, turkey, or closing).
+- 2026-10-09 13:03 (UTC): B1b-21 closed 01fc6da4 (validator 0, pushed); turn 10:06-12:54Z (168 min), 333 calls, mean ctx 532k, max 964k; cache read 176.3 M, write 0.87 M, out 0.39 M, in 666. Orders 409-437, 29 rooms; 306/310 themes placed (4 unplaced: quebec t06/t16/t17, portugal t26); new T3-196 (mindcrack, rare tier); E598-E657, 21 lines extended; no omissions reported. stopping-B1.md rewritten at close (check-in copy at out/stopping-B1-checkin-408.md; also in 733719c7). 437/705, 63.6%, 201 kinds, round 15 open (448.1 of 463.2), no markers. Depth: one temp file reused for all rooms, ~420k characters read in all; per-room not measured. 97% single-call turns. List stopped per J; no ticks scheduled.
+- 2026-10-09 13:20 (UTC): J turned fast mode on 15:13 Berlin, restarted serve (pid 36300), list B1b-22..32 running. Fast refused: usage credits exhausted; 15/15 calls speed=standard. Note for the record: events.log shows a second say to B1b-18 at 01:49:58Z, the call J rejected at 03:51 Berlin; it was delivered before the rejection, and that turn (fb0fb657) is the one that finished B1b-18's close.
+- 2026-10-09 13:40 tick: B1b-22 running; 442/705, 63.8%, 201 kinds; round 15 open (449.9/463.2); fast: 112/112 calls speed=standard; overage notice once (turn start); no fast calls.
+- 2026-10-09 14:02 tick: B1b-22 running; 444/705, 64.3%, 201 kinds; round 15 open (453.3/463.2); fast: 204/204 standard; last rate_limit_event overage rejected (out_of_credits); no fast call yet.
+- 2026-10-09 14:25 tick: B1b-22 running; 448/705, 64.6%, 201 kinds; round 15 open (455.7/463.2); fast cannot engage (J); switch still true awaiting J.
+- 2026-10-09 14:46 tick: B1b-22 running; 451/705, 64.9%, 201 kinds; round 15 open (457.5/463.2); next nin; no markers. Pending J: pre-logged 'finish at marker 3' change offered; fast off recommended.
+- 2026-10-09 14:53 (UTC): fast off at J's word; switch false from next turn.
+- 2026-10-09 14:54 (UTC): J keeps marker 3 as is (pause for his decision); no saturation.py change.
+- 2026-10-09 15:09 tick: B1b-22 running; 454/705, 65.2%, 201 kinds; round 15 open (459.8/463.2); next aggies; no markers.
+- 2026-10-09 15:30 tick: B1b-22 running; 457/705, 65.5%, 201 kinds; round 15 open (461.8/463.2); next yugioh; no markers.
+- 2026-10-09 16:05 tick: ROUND 15 ENDED EMPTY (rooms 432-459, 445.4 to 463.2 avg rooms, 17.8 long, no new kind; 201 kinds). Round 16 open (in_row 2), predicted 20.9, reads to 484.7 avg rooms (now 466.3). 461/705, 66.1%. One more empty round makes marker 1 (the first stop). Told J.
+- 2026-10-09 16:36 tick: B1b-22 running; 464/705, 66.5%, 201 kinds; round 16 open (468.7/484.7, in_row 2); next crusaderkings; no markers.
+- 2026-10-09 17:09Z tick: B1b-22 running (turn cc2f88a3); 466/705 rooms, 66.8% words, 201 kinds; round 16 open, in_row 2, at x 470.9 of 484.7; no markers; next PokemonSage.
