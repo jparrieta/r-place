@@ -1,0 +1,7 @@
+Handler text, passing J's word (J, 22:09 Berlin: "Write the fix to the agent").
+
+1. Your logging scripts slow down within each leg. b1_multiplace_write3.py starts one mem.py process for every row of the leg's whole table (b1_multiplace_b1b29.tsv), and the bag write runs it again. In B1b-29 one run took 0.1 min at 15:40Z and 8.5 min at 19:22Z. Change your scripts so that each write handles only the new room's rows (a per-room table, or a filter to rows not yet in the log, before any mem.py call), and so that the mem.py lookups run once per write, not once per row. Keep what is written the same: same records, same checks. Dry-run the changed script against a room already written and confirm it finds nothing new to write before you use it with --write.
+2. Never end a turn while a job runs in the background. Run writes in the foreground and wait for them.
+3. Record both points in this leg's section of notes-B1.md, so the next leg follows them.
+
+Nothing else changes: same rooms, same order, same care in reading.
