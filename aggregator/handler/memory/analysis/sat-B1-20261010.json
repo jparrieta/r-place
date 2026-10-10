@@ -1,0 +1,1541 @@
+{
+ "stage": "B1",
+ "avg_words": 2604.4,
+ "units": 705,
+ "total_words": 1836088,
+ "rounds": [
+  {
+   "n": 1,
+   "in_row": 1,
+   "start_rooms": 132,
+   "start_x": 130.4,
+   "predicted": 4.4,
+   "length": 4.3,
+   "end_x": 134.7,
+   "C": 0.9835,
+   "Q0": 26.27,
+   "S": 149,
+   "long": false,
+   "result": "new"
+  },
+  {
+   "n": 2,
+   "in_row": 1,
+   "start_rooms": 155,
+   "start_x": 160.6,
+   "predicted": 5.2,
+   "length": 5.4,
+   "end_x": 166.0,
+   "C": 0.9883,
+   "Q0": 37.26,
+   "S": 168,
+   "long": false,
+   "result": "new"
+  },
+  {
+   "n": 3,
+   "in_row": 1,
+   "start_rooms": 180,
+   "start_x": 184.1,
+   "predicted": 5.2,
+   "length": 5.3,
+   "end_x": 189.4,
+   "C": 0.9882,
+   "Q0": 43.51,
+   "S": 178,
+   "long": false,
+   "result": "empty"
+  },
+  {
+   "n": 4,
+   "in_row": 2,
+   "start_rooms": 188,
+   "start_x": 190.0,
+   "predicted": 5.7,
+   "length": 5.8,
+   "end_x": 195.8,
+   "C": 0.9894,
+   "Q0": 38.69,
+   "S": 178,
+   "long": false,
+   "result": "new"
+  },
+  {
+   "n": 5,
+   "in_row": 1,
+   "start_rooms": 217,
+   "start_x": 212.1,
+   "predicted": 7.0,
+   "length": 6.8,
+   "end_x": 218.9,
+   "C": 0.9912,
+   "Q0": 34.16,
+   "S": 181,
+   "long": false,
+   "result": "empty"
+  },
+  {
+   "n": 6,
+   "in_row": 2,
+   "start_rooms": 228,
+   "start_x": 220.7,
+   "predicted": 7.4,
+   "length": 7.2,
+   "end_x": 227.9,
+   "C": 0.9916,
+   "Q0": 34.17,
+   "S": 181,
+   "long": false,
+   "result": "empty"
+  },
+  {
+   "n": 7,
+   "in_row": 3,
+   "start_rooms": 236,
+   "start_x": 228.2,
+   "predicted": 7.9,
+   "length": 7.6,
+   "end_x": 235.9,
+   "C": 0.9921,
+   "Q0": 32.01,
+   "S": 181,
+   "long": false,
+   "result": "new"
+  },
+  {
+   "n": 8,
+   "in_row": 1,
+   "start_rooms": 284,
+   "start_x": 277.8,
+   "predicted": 8.9,
+   "length": 8.7,
+   "end_x": 286.5,
+   "C": 0.9932,
+   "Q0": 31.89,
+   "S": 192,
+   "long": false,
+   "result": "empty"
+  },
+  {
+   "n": 9,
+   "in_row": 2,
+   "start_rooms": 290,
+   "start_x": 289.0,
+   "predicted": 9.4,
+   "length": 9.4,
+   "end_x": 298.4,
+   "C": 0.9936,
+   "Q0": 29.93,
+   "S": 192,
+   "long": false,
+   "result": "empty"
+  },
+  {
+   "n": 10,
+   "in_row": 3,
+   "start_rooms": 301,
+   "start_x": 298.8,
+   "predicted": 9.7,
+   "length": 9.6,
+   "end_x": 308.4,
+   "C": 0.9938,
+   "Q0": 36.84,
+   "S": 192,
+   "long": false,
+   "result": "new"
+  },
+  {
+   "n": 11,
+   "in_row": 1,
+   "start_rooms": 319,
+   "start_x": 317.0,
+   "predicted": 11.4,
+   "length": 11.3,
+   "end_x": 328.3,
+   "C": 0.9947,
+   "Q0": 24.42,
+   "S": 193,
+   "long": true,
+   "result": "new"
+  },
+  {
+   "n": 12,
+   "in_row": 1,
+   "start_rooms": 342,
+   "start_x": 347.5,
+   "predicted": 12.3,
+   "length": 12.5,
+   "end_x": 360.0,
+   "C": 0.995,
+   "Q0": 26.06,
+   "S": 194,
+   "long": true,
+   "result": "new"
+  },
+  {
+   "n": 13,
+   "in_row": 1,
+   "start_rooms": 355,
+   "start_x": 360.9,
+   "predicted": 12.7,
+   "length": 12.9,
+   "end_x": 373.8,
+   "C": 0.9952,
+   "Q0": 24.43,
+   "S": 195,
+   "long": true,
+   "result": "new"
+  },
+  {
+   "n": 14,
+   "in_row": 1,
+   "start_rooms": 386,
+   "start_x": 390.4,
+   "predicted": 14.9,
+   "length": 15.1,
+   "end_x": 405.4,
+   "C": 0.9959,
+   "Q0": 17.74,
+   "S": 197,
+   "long": true,
+   "result": "new"
+  },
+  {
+   "n": 15,
+   "in_row": 1,
+   "start_rooms": 432,
+   "start_x": 445.4,
+   "predicted": 17.3,
+   "length": 17.8,
+   "end_x": 463.2,
+   "C": 0.9966,
+   "Q0": 20.79,
+   "S": 201,
+   "long": true,
+   "result": "empty"
+  },
+  {
+   "n": 16,
+   "in_row": 2,
+   "start_rooms": 459,
+   "start_x": 463.6,
+   "predicted": 20.9,
+   "length": 21.1,
+   "end_x": 484.7,
+   "C": 0.9972,
+   "Q0": 15.09,
+   "S": 201,
+   "long": true,
+   "result": "empty"
+  },
+  {
+   "n": 17,
+   "in_row": 3,
+   "start_rooms": 476,
+   "start_x": 484.8,
+   "predicted": 21.7,
+   "length": 22.1,
+   "end_x": 506.9,
+   "C": 0.9973,
+   "Q0": 16.1,
+   "S": 201,
+   "long": true,
+   "result": "empty"
+  },
+  {
+   "n": 18,
+   "in_row": 4,
+   "start_rooms": 499,
+   "start_x": 507.0,
+   "predicted": 22.7,
+   "length": 23.1,
+   "end_x": 530.1,
+   "C": 0.9974,
+   "Q0": 18.58,
+   "S": 201,
+   "long": true,
+   "result": "empty"
+  },
+  {
+   "n": 19,
+   "in_row": 5,
+   "start_rooms": 528,
+   "start_x": 530.2,
+   "predicted": 25.2,
+   "length": 25,
+   "end_x": 555.2,
+   "C": 0.9977,
+   "Q0": 20.01,
+   "S": 201,
+   "long": true,
+   "result": "open"
+  }
+ ],
+ "markers": {
+  "1": {
+   "T": 499,
+   "U": 8434,
+   "S": 201,
+   "Q1": 22,
+   "Q2": 13,
+   "C": 0.9974,
+   "Q0": 18.58,
+   "next_in": 22.7,
+   "rooms_read": 499,
+   "x": 507.0,
+   "words_share": 0.7192,
+   "run_x": 72.1,
+   "run_rooms": 78,
+   "last_new_x": 434.9,
+   "last_new_rooms": 421
+  }
+ },
+ "draw": null,
+ "state": "round 5",
+ "next": "predators",
+ "resets": 9,
+ "decision": null,
+ "decisions": {
+  "check-in": "continue"
+ },
+ "checkin": {
+  "T": 408,
+  "U": 6791,
+  "S": 199,
+  "Q1": 27,
+  "Q2": 15,
+  "C": 0.996,
+  "Q0": 24.24,
+  "next_in": 15.2,
+  "rooms_read": 408,
+  "x": 423.8,
+  "words_share": 0.6012
+ },
+ "now": {
+  "T": 546,
+  "U": 9363,
+  "S": 201,
+  "Q1": 21,
+  "Q2": 11,
+  "C": 0.9978,
+  "Q0": 20.01,
+  "next_in": 26.0,
+  "rooms_read": 546,
+  "x": 553.8,
+  "words_share": 0.7856
+ },
+ "new_kinds": [
+  {
+   "kind": "T3-013",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-009",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-015",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-010",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-014",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-012",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-016",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-004",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-018",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-019",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-005",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-017",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-008",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-011",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-002",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-001",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-006",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-003",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-007",
+   "unit": "sixers",
+   "rooms_read": 1,
+   "x": 1.0
+  },
+  {
+   "kind": "T3-020",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-025",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-023",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-027",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-024",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-021",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-022",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-030",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-026",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-028",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-029",
+   "unit": "edmontonoilers",
+   "rooms_read": 2,
+   "x": 2.1
+  },
+  {
+   "kind": "T3-031",
+   "unit": "chess",
+   "rooms_read": 3,
+   "x": 3.0
+  },
+  {
+   "kind": "T3-033",
+   "unit": "chess",
+   "rooms_read": 3,
+   "x": 3.0
+  },
+  {
+   "kind": "T3-036",
+   "unit": "chess",
+   "rooms_read": 3,
+   "x": 3.0
+  },
+  {
+   "kind": "T3-037",
+   "unit": "chess",
+   "rooms_read": 3,
+   "x": 3.0
+  },
+  {
+   "kind": "T3-035",
+   "unit": "chess",
+   "rooms_read": 3,
+   "x": 3.0
+  },
+  {
+   "kind": "T3-032",
+   "unit": "chess",
+   "rooms_read": 3,
+   "x": 3.0
+  },
+  {
+   "kind": "T3-034",
+   "unit": "chess",
+   "rooms_read": 3,
+   "x": 3.0
+  },
+  {
+   "kind": "T3-039",
+   "unit": "lifeisstrange",
+   "rooms_read": 4,
+   "x": 3.7
+  },
+  {
+   "kind": "T3-038",
+   "unit": "lifeisstrange",
+   "rooms_read": 4,
+   "x": 3.7
+  },
+  {
+   "kind": "T3-040",
+   "unit": "lifeisstrange",
+   "rooms_read": 4,
+   "x": 3.7
+  },
+  {
+   "kind": "T3-041",
+   "unit": "lifeisstrange",
+   "rooms_read": 4,
+   "x": 3.7
+  },
+  {
+   "kind": "T3-047",
+   "unit": "worldpowers",
+   "rooms_read": 5,
+   "x": 4.2
+  },
+  {
+   "kind": "T3-044",
+   "unit": "worldpowers",
+   "rooms_read": 5,
+   "x": 4.2
+  },
+  {
+   "kind": "T3-043",
+   "unit": "worldpowers",
+   "rooms_read": 5,
+   "x": 4.2
+  },
+  {
+   "kind": "T3-046",
+   "unit": "worldpowers",
+   "rooms_read": 5,
+   "x": 4.2
+  },
+  {
+   "kind": "T3-045",
+   "unit": "worldpowers",
+   "rooms_read": 5,
+   "x": 4.2
+  },
+  {
+   "kind": "T3-042",
+   "unit": "worldpowers",
+   "rooms_read": 5,
+   "x": 4.2
+  },
+  {
+   "kind": "T3-054",
+   "unit": "leagueoflegends",
+   "rooms_read": 6,
+   "x": 12.2
+  },
+  {
+   "kind": "T3-052",
+   "unit": "leagueoflegends",
+   "rooms_read": 6,
+   "x": 12.2
+  },
+  {
+   "kind": "T3-050",
+   "unit": "leagueoflegends",
+   "rooms_read": 6,
+   "x": 12.2
+  },
+  {
+   "kind": "T3-053",
+   "unit": "leagueoflegends",
+   "rooms_read": 6,
+   "x": 12.2
+  },
+  {
+   "kind": "T3-051",
+   "unit": "leagueoflegends",
+   "rooms_read": 6,
+   "x": 12.2
+  },
+  {
+   "kind": "T3-048",
+   "unit": "leagueoflegends",
+   "rooms_read": 6,
+   "x": 12.2
+  },
+  {
+   "kind": "T3-049",
+   "unit": "leagueoflegends",
+   "rooms_read": 6,
+   "x": 12.2
+  },
+  {
+   "kind": "T3-055",
+   "unit": "rutgers",
+   "rooms_read": 7,
+   "x": 13.7
+  },
+  {
+   "kind": "T3-058",
+   "unit": "rutgers",
+   "rooms_read": 7,
+   "x": 13.7
+  },
+  {
+   "kind": "T3-057",
+   "unit": "rutgers",
+   "rooms_read": 7,
+   "x": 13.7
+  },
+  {
+   "kind": "T3-056",
+   "unit": "rutgers",
+   "rooms_read": 7,
+   "x": 13.7
+  },
+  {
+   "kind": "T3-059",
+   "unit": "rutgers",
+   "rooms_read": 7,
+   "x": 13.7
+  },
+  {
+   "kind": "T3-063",
+   "unit": "drugs",
+   "rooms_read": 8,
+   "x": 14.9
+  },
+  {
+   "kind": "T3-062",
+   "unit": "drugs",
+   "rooms_read": 8,
+   "x": 14.9
+  },
+  {
+   "kind": "T3-061",
+   "unit": "drugs",
+   "rooms_read": 8,
+   "x": 14.9
+  },
+  {
+   "kind": "T3-060",
+   "unit": "drugs",
+   "rooms_read": 8,
+   "x": 14.9
+  },
+  {
+   "kind": "T3-064",
+   "unit": "drugs",
+   "rooms_read": 8,
+   "x": 14.9
+  },
+  {
+   "kind": "T3-067",
+   "unit": "thailand",
+   "rooms_read": 9,
+   "x": 16.1
+  },
+  {
+   "kind": "T3-066",
+   "unit": "thailand",
+   "rooms_read": 9,
+   "x": 16.1
+  },
+  {
+   "kind": "T3-068",
+   "unit": "thailand",
+   "rooms_read": 9,
+   "x": 16.1
+  },
+  {
+   "kind": "T3-065",
+   "unit": "thailand",
+   "rooms_read": 9,
+   "x": 16.1
+  },
+  {
+   "kind": "T3-071",
+   "unit": "undertale",
+   "rooms_read": 10,
+   "x": 17.9
+  },
+  {
+   "kind": "T3-069",
+   "unit": "undertale",
+   "rooms_read": 10,
+   "x": 17.9
+  },
+  {
+   "kind": "T3-070",
+   "unit": "undertale",
+   "rooms_read": 10,
+   "x": 17.9
+  },
+  {
+   "kind": "T3-072",
+   "unit": "undertale",
+   "rooms_read": 10,
+   "x": 17.9
+  },
+  {
+   "kind": "T3-073",
+   "unit": "undertale",
+   "rooms_read": 10,
+   "x": 17.9
+  },
+  {
+   "kind": "T3-074",
+   "unit": "rpi",
+   "rooms_read": 11,
+   "x": 18.7
+  },
+  {
+   "kind": "T3-075",
+   "unit": "rpi",
+   "rooms_read": 11,
+   "x": 18.7
+  },
+  {
+   "kind": "T3-076",
+   "unit": "Mario",
+   "rooms_read": 12,
+   "x": 18.9
+  },
+  {
+   "kind": "T3-077",
+   "unit": "Mario",
+   "rooms_read": 12,
+   "x": 18.9
+  },
+  {
+   "kind": "T3-078",
+   "unit": "lithuania",
+   "rooms_read": 13,
+   "x": 19.5
+  },
+  {
+   "kind": "T3-080",
+   "unit": "lithuania",
+   "rooms_read": 13,
+   "x": 19.5
+  },
+  {
+   "kind": "T3-079",
+   "unit": "lithuania",
+   "rooms_read": 13,
+   "x": 19.5
+  },
+  {
+   "kind": "T3-081",
+   "unit": "lithuania",
+   "rooms_read": 13,
+   "x": 19.5
+  },
+  {
+   "kind": "T3-082",
+   "unit": "RelientK",
+   "rooms_read": 15,
+   "x": 20.3
+  },
+  {
+   "kind": "T3-084",
+   "unit": "faeria",
+   "rooms_read": 16,
+   "x": 20.8
+  },
+  {
+   "kind": "T3-083",
+   "unit": "faeria",
+   "rooms_read": 16,
+   "x": 20.8
+  },
+  {
+   "kind": "T3-085",
+   "unit": "bitcoin",
+   "rooms_read": 17,
+   "x": 23.5
+  },
+  {
+   "kind": "T3-086",
+   "unit": "bitcoin",
+   "rooms_read": 17,
+   "x": 23.5
+  },
+  {
+   "kind": "T3-092",
+   "unit": "criticalrole",
+   "rooms_read": 18,
+   "x": 24.1
+  },
+  {
+   "kind": "T3-087",
+   "unit": "criticalrole",
+   "rooms_read": 18,
+   "x": 24.1
+  },
+  {
+   "kind": "T3-088",
+   "unit": "criticalrole",
+   "rooms_read": 18,
+   "x": 24.1
+  },
+  {
+   "kind": "T3-090",
+   "unit": "criticalrole",
+   "rooms_read": 18,
+   "x": 24.1
+  },
+  {
+   "kind": "T3-091",
+   "unit": "criticalrole",
+   "rooms_read": 18,
+   "x": 24.1
+  },
+  {
+   "kind": "T3-089",
+   "unit": "criticalrole",
+   "rooms_read": 18,
+   "x": 24.1
+  },
+  {
+   "kind": "T3-093",
+   "unit": "seahawks",
+   "rooms_read": 19,
+   "x": 25.1
+  },
+  {
+   "kind": "T3-094",
+   "unit": "seahawks",
+   "rooms_read": 19,
+   "x": 25.1
+  },
+  {
+   "kind": "T3-097",
+   "unit": "minecraft",
+   "rooms_read": 20,
+   "x": 26.7
+  },
+  {
+   "kind": "split:T3-023+T3-048+T3-095",
+   "unit": "minecraft",
+   "rooms_read": 20,
+   "x": 26.7
+  },
+  {
+   "kind": "T3-095",
+   "unit": "minecraft",
+   "rooms_read": 20,
+   "x": 26.7
+  },
+  {
+   "kind": "T3-096",
+   "unit": "minecraft",
+   "rooms_read": 20,
+   "x": 26.7
+  },
+  {
+   "kind": "T3-098",
+   "unit": "minecraft",
+   "rooms_read": 20,
+   "x": 26.7
+  },
+  {
+   "kind": "T3-099",
+   "unit": "bretagne",
+   "rooms_read": 23,
+   "x": 28.7
+  },
+  {
+   "kind": "T3-101",
+   "unit": "mls",
+   "rooms_read": 24,
+   "x": 31.1
+  },
+  {
+   "kind": "T3-100",
+   "unit": "mls",
+   "rooms_read": 24,
+   "x": 31.1
+  },
+  {
+   "kind": "T3-102",
+   "unit": "nyjets",
+   "rooms_read": 25,
+   "x": 32.1
+  },
+  {
+   "kind": "T3-103",
+   "unit": "monalisaclan",
+   "rooms_read": 26,
+   "x": 33.5
+  },
+  {
+   "kind": "T3-104",
+   "unit": "monalisaclan",
+   "rooms_read": 26,
+   "x": 33.5
+  },
+  {
+   "kind": "T3-105",
+   "unit": "monalisaclan",
+   "rooms_read": 26,
+   "x": 33.5
+  },
+  {
+   "kind": "T3-106",
+   "unit": "samuraijack",
+   "rooms_read": 29,
+   "x": 37.2
+  },
+  {
+   "kind": "T3-107",
+   "unit": "samuraijack",
+   "rooms_read": 29,
+   "x": 37.2
+  },
+  {
+   "kind": "T3-109",
+   "unit": "archlinux",
+   "rooms_read": 30,
+   "x": 39.0
+  },
+  {
+   "kind": "T3-108",
+   "unit": "archlinux",
+   "rooms_read": 30,
+   "x": 39.0
+  },
+  {
+   "kind": "T3-110",
+   "unit": "pgang",
+   "rooms_read": 38,
+   "x": 43.0
+  },
+  {
+   "kind": "T3-111",
+   "unit": "pgang",
+   "rooms_read": 38,
+   "x": 43.0
+  },
+  {
+   "kind": "T3-112",
+   "unit": "warframe",
+   "rooms_read": 39,
+   "x": 44.6
+  },
+  {
+   "kind": "T3-113",
+   "unit": "norge",
+   "rooms_read": 41,
+   "x": 47.3
+  },
+  {
+   "kind": "T3-114",
+   "unit": "norge",
+   "rooms_read": 41,
+   "x": 47.3
+  },
+  {
+   "kind": "T3-115",
+   "unit": "radiohead",
+   "rooms_read": 43,
+   "x": 49.8
+  },
+  {
+   "kind": "T3-117",
+   "unit": "lakers",
+   "rooms_read": 44,
+   "x": 51.5
+  },
+  {
+   "kind": "T3-116",
+   "unit": "lakers",
+   "rooms_read": 44,
+   "x": 51.5
+  },
+  {
+   "kind": "T3-118",
+   "unit": "chelseafc",
+   "rooms_read": 46,
+   "x": 53.7
+  },
+  {
+   "kind": "T3-119",
+   "unit": "albania",
+   "rooms_read": 49,
+   "x": 55.5
+  },
+  {
+   "kind": "T3-120",
+   "unit": "albania",
+   "rooms_read": 49,
+   "x": 55.5
+  },
+  {
+   "kind": "T3-121",
+   "unit": "uoft",
+   "rooms_read": 50,
+   "x": 56.7
+  },
+  {
+   "kind": "T3-122",
+   "unit": "germany",
+   "rooms_read": 51,
+   "x": 57.5
+  },
+  {
+   "kind": "T3-123",
+   "unit": "placeportalpattern",
+   "rooms_read": 52,
+   "x": 58.4
+  },
+  {
+   "kind": "T3-125",
+   "unit": "southafrica",
+   "rooms_read": 54,
+   "x": 59.5
+  },
+  {
+   "kind": "T3-124",
+   "unit": "southafrica",
+   "rooms_read": 54,
+   "x": 59.5
+  },
+  {
+   "kind": "T3-126",
+   "unit": "harrypotter",
+   "rooms_read": 57,
+   "x": 61.9
+  },
+  {
+   "kind": "T3-127",
+   "unit": "gameattack",
+   "rooms_read": 60,
+   "x": 63.1
+  },
+  {
+   "kind": "T3-128",
+   "unit": "ice_poseidon",
+   "rooms_read": 62,
+   "x": 65.1
+  },
+  {
+   "kind": "T3-129",
+   "unit": "fxKorea",
+   "rooms_read": 65,
+   "x": 67.5
+  },
+  {
+   "kind": "T3-130",
+   "unit": "scotland",
+   "rooms_read": 66,
+   "x": 68.7
+  },
+  {
+   "kind": "T3-131",
+   "unit": "donaldglover",
+   "rooms_read": 69,
+   "x": 70.6
+  },
+  {
+   "kind": "T3-132",
+   "unit": "babymetal",
+   "rooms_read": 73,
+   "x": 75.7
+  },
+  {
+   "kind": "T3-133",
+   "unit": "PUBATTLEGROUNDS",
+   "rooms_read": 75,
+   "x": 77.4
+  },
+  {
+   "kind": "T3-134",
+   "unit": "Summit1G",
+   "rooms_read": 77,
+   "x": 79.7
+  },
+  {
+   "kind": "T3-135",
+   "unit": "fireemblem",
+   "rooms_read": 81,
+   "x": 85.5
+  },
+  {
+   "kind": "T3-194",
+   "unit": "ManningPlace",
+   "rooms_read": 86,
+   "x": 87.8
+  },
+  {
+   "kind": "T3-137",
+   "unit": "araragi",
+   "rooms_read": 95,
+   "x": 96.6
+  },
+  {
+   "kind": "T3-136",
+   "unit": "araragi",
+   "rooms_read": 95,
+   "x": 96.6
+  },
+  {
+   "kind": "T3-138",
+   "unit": "kamenrider",
+   "rooms_read": 99,
+   "x": 99.1
+  },
+  {
+   "kind": "T3-139",
+   "unit": "homelab",
+   "rooms_read": 100,
+   "x": 99.7
+  },
+  {
+   "kind": "T3-140",
+   "unit": "japan",
+   "rooms_read": 105,
+   "x": 101.6
+  },
+  {
+   "kind": "T3-141",
+   "unit": "canucks",
+   "rooms_read": 111,
+   "x": 110.0
+  },
+  {
+   "kind": "T3-142",
+   "unit": "canucks",
+   "rooms_read": 111,
+   "x": 110.0
+  },
+  {
+   "kind": "T3-143",
+   "unit": "canucks",
+   "rooms_read": 111,
+   "x": 110.0
+  },
+  {
+   "kind": "T3-144",
+   "unit": "loliconsunite",
+   "rooms_read": 114,
+   "x": 113.7
+  },
+  {
+   "kind": "T3-145",
+   "unit": "theitalyplace",
+   "rooms_read": 118,
+   "x": 118.4
+  },
+  {
+   "kind": "T3-146",
+   "unit": "PinkVomitMonster",
+   "rooms_read": 119,
+   "x": 118.9
+  },
+  {
+   "kind": "T3-147",
+   "unit": "starlightstage",
+   "rooms_read": 120,
+   "x": 119.6
+  },
+  {
+   "kind": "T3-148",
+   "unit": "pcmasterrace",
+   "rooms_read": 134,
+   "x": 136.0
+  },
+  {
+   "kind": "T3-161",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-153",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "split:T3-009+T3-154+T3-155+T3-156+T3-157",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-149",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "split:T3-010+T3-149+T3-150+T3-151",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-156",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-154",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-151",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-159",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-152",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-155",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-160",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-158",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "split:T3-014+T3-152+T3-153",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-150",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-157",
+   "unit": "formula1",
+   "rooms_read": 141,
+   "x": 142.6
+  },
+  {
+   "kind": "T3-162",
+   "unit": "greenlattice",
+   "rooms_read": 143,
+   "x": 148.2
+  },
+  {
+   "kind": "T3-163",
+   "unit": "greenlattice",
+   "rooms_read": 143,
+   "x": 148.2
+  },
+  {
+   "kind": "T3-164",
+   "unit": "traaaaaaannnnnnnnnns",
+   "rooms_read": 157,
+   "x": 161.8
+  },
+  {
+   "kind": "T3-165",
+   "unit": "greece",
+   "rooms_read": 158,
+   "x": 162.9
+  },
+  {
+   "kind": "T3-166",
+   "unit": "greece",
+   "rooms_read": 158,
+   "x": 162.9
+  },
+  {
+   "kind": "T3-167",
+   "unit": "dbz",
+   "rooms_read": 160,
+   "x": 164.7
+  },
+  {
+   "kind": "T3-168",
+   "unit": "neu",
+   "rooms_read": 162,
+   "x": 165.8
+  },
+  {
+   "kind": "T3-170",
+   "unit": "halo",
+   "rooms_read": 165,
+   "x": 168.9
+  },
+  {
+   "kind": "T3-169",
+   "unit": "halo",
+   "rooms_read": 165,
+   "x": 168.9
+  },
+  {
+   "kind": "T3-173",
+   "unit": "AprilKnights",
+   "rooms_read": 170,
+   "x": 173.2
+  },
+  {
+   "kind": "T3-171",
+   "unit": "AprilKnights",
+   "rooms_read": 170,
+   "x": 173.2
+  },
+  {
+   "kind": "T3-172",
+   "unit": "AprilKnights",
+   "rooms_read": 170,
+   "x": 173.2
+  },
+  {
+   "kind": "T3-174",
+   "unit": "orderofthebluecorner",
+   "rooms_read": 196,
+   "x": 195.5
+  },
+  {
+   "kind": "T3-195",
+   "unit": "nVade",
+   "rooms_read": 201,
+   "x": 197.0
+  },
+  {
+   "kind": "T3-175",
+   "unit": "furry_irl",
+   "rooms_read": 206,
+   "x": 201.7
+  },
+  {
+   "kind": "T3-176",
+   "unit": "utaustin",
+   "rooms_read": 241,
+   "x": 233.4
+  },
+  {
+   "kind": "T3-177",
+   "unit": "dankmemes",
+   "rooms_read": 242,
+   "x": 235.9
+  },
+  {
+   "kind": "T3-178",
+   "unit": "dankmemes",
+   "rooms_read": 242,
+   "x": 235.9
+  },
+  {
+   "kind": "T3-179",
+   "unit": "anarcho_capitalism",
+   "rooms_read": 249,
+   "x": 241.6
+  },
+  {
+   "kind": "T3-180",
+   "unit": "korea",
+   "rooms_read": 255,
+   "x": 246.1
+  },
+  {
+   "kind": "T3-181",
+   "unit": "cubers",
+   "rooms_read": 259,
+   "x": 254.7
+  },
+  {
+   "kind": "T3-182",
+   "unit": "kanye",
+   "rooms_read": 267,
+   "x": 261.3
+  },
+  {
+   "kind": "T3-183",
+   "unit": "kanye",
+   "rooms_read": 267,
+   "x": 261.3
+  },
+  {
+   "kind": "T3-184",
+   "unit": "kanye",
+   "rooms_read": 267,
+   "x": 261.3
+  },
+  {
+   "kind": "T3-185",
+   "unit": "warthunder",
+   "rooms_read": 273,
+   "x": 265.4
+  },
+  {
+   "kind": "T3-186",
+   "unit": "SwissNeutralityZone",
+   "rooms_read": 274,
+   "x": 266.1
+  },
+  {
+   "kind": "T3-187",
+   "unit": "haskell",
+   "rooms_read": 307,
+   "x": 305.3
+  },
+  {
+   "kind": "T3-188",
+   "unit": "ainbowroad",
+   "rooms_read": 332,
+   "x": 334.5
+  },
+  {
+   "kind": "T3-189",
+   "unit": "scp",
+   "rooms_read": 345,
+   "x": 349.2
+  },
+  {
+   "kind": "T3-190",
+   "unit": "PurplePixels",
+   "rooms_read": 367,
+   "x": 373.5
+  },
+  {
+   "kind": "T3-191",
+   "unit": "furry",
+   "rooms_read": 374,
+   "x": 379.5
+  },
+  {
+   "kind": "T3-192",
+   "unit": "paladins",
+   "rooms_read": 392,
+   "x": 403.3
+  },
+  {
+   "kind": "T3-193",
+   "unit": "france",
+   "rooms_read": 399,
+   "x": 416.0
+  },
+  {
+   "kind": "split:T3-010+T3-194+T3-195",
+   "unit": "anaheimducks",
+   "rooms_read": 409,
+   "x": 424.5
+  },
+  {
+   "kind": "T3-196",
+   "unit": "mindcrack",
+   "rooms_read": 421,
+   "x": 434.9
+  }
+ ],
+ "left": {
+  "rooms": 159,
+  "words": 393674,
+  "avg_rooms": 151.2
+ },
+ "out_of_turn": []
+}
