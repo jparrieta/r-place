@@ -58,3 +58,4 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 - `b1_members_changed_lines2.py` (B1b-20): Append members_changed lines to tier_history.jsonl for a review that changed members of existing
 - `b1_episode_join.py` (B1b-21): Add a joining room to existing episode lines, as the B1 walk records it: the room appended to
 - b1_split_spec.py (B1b-23): applies several episode joins one at a time, since b1_episode_join.py keeps only the last entry when several rooms join one episode in a run.
+- b1_shared_counts.py (B1b-26): counts members shared between rooms (for episode joins).
