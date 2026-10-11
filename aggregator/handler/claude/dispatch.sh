@@ -34,6 +34,7 @@ R="$(json_get "$C/arm.json" "$( [ "$NN" = D3 ] && echo D2 || echo "$NN" ).reader
 [ -n "$R" ] || { echo "stage $NN has no readers in CONTROL/arm.json; nothing to dispatch" >&2; exit 1; }
 getr() { python3 -c 'import json,sys;d=json.loads(sys.argv[1]);v=d.get(sys.argv[2]);print("" if v is None else v)' "$R" "$1"; }
 ROUTE="$(getr route)"; MODEL="$(getr model)"; N="$(getr n)"; SHARED="$(getr shared)"; ALLOW="$(getr allow_anthropic)"
+DECLARED="$(getr declared_served)"     # J, 2026-10-11: the gateway does not share the served model
 case "$NN" in
   B2) [ -n "$ROUND" ] || { echo "B2 needs --round K" >&2; exit 1; }
       PK="out/_packets-B2/round-$ROUND"; RET="out/RETURN-B2.md"; RAW="out/_fleet_raw/B2/round-$ROUND";;
@@ -53,6 +54,9 @@ fi
 CMD=(python3 -I "$C/harness/validation_tools/fleet.py" "$NN" --packets "$PK" --return "$RET" --raw "$RAW"
      --readers "$N" --model "$MODEL" --route "${ROUTE:-gateway}" --shared "$SHARED")
 [ "$ALLOW" = True ] && CMD+=(--allow-anthropic)
+[ -n "$DECLARED" ] && CMD+=(--declared-served "$DECLARED")
+MAXT="$(getr max_tokens)"; [ -n "$MAXT" ] && CMD+=(--max-tokens "$MAXT")
+EFF="$(getr reasoning_effort)"; [ -n "$EFF" ] && CMD+=(--reasoning-effort "$EFF")
 [ -n "$ONLY" ] && CMD+=(--only "$ONLY")
 [ -n "$DRY" ] && CMD+=("$DRY")
 # the cli readers use the analyst runtime's login (CONTROL/.cc) from their own scratch folder, so their

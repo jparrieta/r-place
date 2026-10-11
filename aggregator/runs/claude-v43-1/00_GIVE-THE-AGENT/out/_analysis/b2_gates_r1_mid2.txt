@@ -1,0 +1,31 @@
+gates of scheme.jsonl: 197 themes, 492 pairs whose gates name each other; 0 confirmed, 0 stale, 492 unconfirmed
+
+discriminators that run one way: 0
+
+a must_not_show that sends material to a theme with no discriminator against it: 21
+  T3-023 -> T3-032
+  T3-029 -> T3-022
+  T3-051 -> T3-062
+  T3-060 -> T3-068
+  T3-073 -> T3-058
+  T3-098 -> T3-136
+  T3-100 -> T3-023
+  T3-104 -> T3-072
+  T3-115 -> T3-012
+  T3-118 -> T3-185
+  T3-131 -> T3-105
+  T3-140 -> T3-063
+  T3-159 -> T3-072
+  T3-177 -> T3-080
+  T3-192 -> T3-061
+  T3-194 -> T3-149
+  T3-194 -> T3-150
+  T3-194 -> T3-151
+  T3-195 -> T3-150
+  T3-195 -> T3-151
+  T3-197 -> T3-015
+
+ids a gate names that the scheme lacks: 0
+
+the mechanical check cannot tell whether two sentences contradict each other: read each pair (mem.py gates T3-a T3-b) and confirm it
+[end: lines 1-30 of 30]

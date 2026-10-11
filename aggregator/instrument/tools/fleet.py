@@ -61,7 +61,7 @@ v41: under Claude the operator runs this file (harness/dispatch.sh); under Codex
 (rplace/runtime/fleet.py) dispatches and applies the same return validation (validate, counted,
 end_marker_of), which must stay identical on both platforms.
 """
-import argparse, collections, datetime, glob, hashlib, json, os, re, subprocess, sys, time, urllib.request
+import argparse, collections, concurrent.futures, threading, datetime, glob, hashlib, json, os, re, subprocess, sys, time, urllib.request
 
 API = "https://openrouter.ai/api/v1/messages"
 GEN = "https://openrouter.ai/api/v1/generation?id="
@@ -230,10 +230,17 @@ def main():
     ap.add_argument("--shared", default="index.md,G*.md",
                     help="comma-separated globs, relative to --packets, sent with every packet and never as a packet")
     ap.add_argument("--reissue", type=int, default=2)
-    ap.add_argument("--max-tokens", type=int, default=16000)
+    ap.add_argument("--max-tokens", type=int, default=64000)   # a reasoning reader spent 15,719 of 16,000 on thinking (B2 r1)
     ap.add_argument("--end-marker", default=None)
     ap.add_argument("--only", default=None, help="comma-separated packet names")
     ap.add_argument("--allow-anthropic", action="store_true", help="for a reader arm the stage file names as Opus (C2, C5)")
+    ap.add_argument("--declared-served", default=None,
+                    help="the one model the alias is set to serve, used when the gateway's generation record cannot "
+                         "be read (J, 2026-10-11: OpenRouter does not share the model); recorded as unverified")
+    ap.add_argument("--reasoning-effort", default=None,
+                    help="OpenRouter's reasoning effort for the readers (none, minimal, low, medium, high); J, 2026-10-11: "
+                         "a reader spent 63,039 of 64,000 output tokens reasoning and wrote nothing")
+    ap.add_argument("--parallel", type=int, default=24, help="readers in flight at once (J, 2026-10-11)")
     ap.add_argument("--dry-run", action="store_true", help="build the messages, send nothing")
     ap.add_argument("--route", choices=["gateway", "cli"], default="gateway",
                     help="gateway: OpenRouter with a preset alias; cli: the Claude Code CLI on the subscription, "
@@ -285,6 +292,7 @@ def main():
         a.cli_config = a.cli_config or os.path.join(a.raw, ".readers-config")
         a.cli_cwd = a.cli_cwd or os.path.join(a.raw, ".readers-cwd")
         k, gid, served = None, None, a.model
+        verified = True
     else:
         k = key()
         # ---- the probe: what serves the alias --------------------------------------------------
@@ -293,14 +301,25 @@ def main():
         gid = probe.get("id")
         if not gid:
             sys.exit("REFUSING: the probe of %s returned no generation id: %s" % (a.model, json.dumps(probe)[:400]))
-        served = served_model(gid, k)
+        # J, 2026-10-11: /messages answers with a msg_ id the generation endpoint refuses ("Invalid generation
+        # ID"); the reply itself names the model that served it, so that is read first
+        said = probe.get("model") if probe.get("model") not in (None, "", "unknown") else None
+        served = said or (served_model(gid, k) if not str(gid).startswith("msg_") else None)
+        verified = bool(served)
         if not served:
-            sys.exit("REFUSING: could not read the generation record for the probe (%s)" % gid)
+            said = probe.get("model") if probe.get("model") not in (None, "", "unknown") else None
+            served = said or a.declared_served
+            if not served:
+                sys.exit("REFUSING: could not read the generation record for the probe (%s), and no model was declared "
+                         "for the alias (--declared-served, arm.json readers.declared_served)" % gid)
+            print("note: the generation record could not be read; the alias is taken to serve %s (%s), unverified"
+                  % (served, "the reply's model field" if said else "declared"))
     low = served.lower()
     if ("opus" in low or "anthropic" in low or "claude" in low) and not a.allow_anthropic:
         sys.exit("REFUSING: %s serves %s, an Anthropic model on a cheap fleet; pass --allow-anthropic only "
                  "for a reader arm the stage file names" % (a.model, served))
-    arm = {"stage": a.stage, "route": a.route, "alias": a.model, "served": served, "probe_generation": gid,
+    arm = {"stage": a.stage, "route": a.route, "alias": a.model, "served": served, "served_verified": verified,
+           "probe_generation": gid, "reasoning_effort": a.reasoning_effort,
            "utc": now(), "readers": a.readers, "reissue": a.reissue, "max_tokens": a.max_tokens,
            "shared": [os.path.basename(p) for p in shared_files], "packets": len(packets),
            "return_spec_sha256": hashlib.sha256(spec.encode("utf-8")).hexdigest()}
@@ -311,8 +330,10 @@ def main():
     # reader ids are never reused in a raw folder, across runs of --only included
     seen = [int(m.group(1)) for f in glob.glob(os.path.join(a.raw, "*", "r*.meta.json"))
             for m in [re.search(r"/r(\d+)\.meta\.json$", f)] if m]
-    next_id = [max([a.readers] + seen)]
     first_id = (max(seen) if (seen and a.only) else 0)
+    # a reissue takes the next id above every reader of this run (J, 2026-10-11: under --only the old start
+    # handed the first reissue the id just used, so it sent the same bytes and the cache answered)
+    next_id = [max([first_id + a.readers] + seen)]
     exhausted = []
     ok_returns = 0
     spend = 0.0          # gateway spend, USD
@@ -331,6 +352,7 @@ def main():
         units[g].sort(key=lambda p: (manifest.get(os.path.splitext(os.path.basename(p))[0]) or {}).get("part", 0))
     TAIL = ("\n\nReturn only the lines the return specification asks for, one JSON object per line, then the "
             "end marker on its own line. No prose before, between or after.")
+    jobs = []
     for g, plist in units.items():
         d = os.path.join(a.raw, g)
         os.makedirs(d, exist_ok=True)
@@ -340,74 +362,96 @@ def main():
             ptxt = open(p, encoding="utf-8").read()
             parts.append((name, ptxt, hashlib.sha256(ptxt.encode("utf-8")).hexdigest()))
         for r in range(1, a.readers + 1):
-            rid, tries = "r%d" % (first_id + r), 0
-            while True:
-                msgs, rows_all, why, raws, metas, sess = [], [], None, [], [], None
-                for i, (name, ptxt, psha) in enumerate(parts):
-                    if i == 0:
-                        body = shared + "<<< %s >>>\n%s\n\n<<< RETURN >>>\n%s%s" % (name, ptxt, spec, TAIL)
-                    else:
-                        body = "<<< %s >>>\n%s%s" % (name, ptxt, TAIL)
-                    msgs.append({"role": "user", "content": body})
-                    t0 = time.time()
-                    try:
-                        if a.route == "cli":
-                            reply, sess = cli_send(msgs, sess, a)
-                        else:
-                            reply = post(API, {"model": a.model, "max_tokens": a.max_tokens, "messages": msgs}, k)
-                        raw = text_of(reply)
-                        gid = reply.get("id")
-                        usage = reply.get("usage") or {}
-                        err = None
-                    except Exception as e:                # a transport failure is a failed return
-                        raw, gid, usage, err = "", None, {}, "transport: %s" % e
-                    el = round(time.time() - t0, 1)
-                    rows, why = (None, err) if err else validate(raw, marker, schema,
-                                                                  (manifest.get(name) or {}).get("items"),
-                                                                  manifest.get(name) or {})
-                    spend_i = float(usage.get("cost") or 0.0)
+            jobs.append((g, d, parts, "r%d" % (first_id + r)))
+    lock = threading.Lock()
+    acc = {"spend": 0.0, "sub": 0.0, "tin": 0, "tout": 0, "ok": 0}
+
+    def chain(g, d, parts, rid):
+        """One reader's unit with its reissues. Readers run side by side, --parallel at a time (J, 2026-10-11:
+        v37's fleets ran in parallel; one call at a time made three high-effort readers take over half an hour)."""
+        tries = 0
+        while True:
+            msgs, rows_all, why, raws, metas, sess = [], [], None, [], [], None
+            for i, (name, ptxt, psha) in enumerate(parts):
+                if i == 0:
+                    # the reader's id opens the message (J, 2026-10-11): the return names it as `agent`, and two
+                    # readers never send the same bytes, so the gateway's response cache cannot hand one
+                    # reader another's reply (B2 round 1: eight reissues got the first reply back, 0 tokens)
+                    body = ("<<< READER >>>\nYour reader id is %s; write it as `agent` on every line.\n\n" % rid
+                            + shared + "<<< %s >>>\n%s\n\n<<< RETURN >>>\n%s%s" % (name, ptxt, spec, TAIL))
+                else:
+                    body = "<<< %s >>>\n%s%s" % (name, ptxt, TAIL)
+                msgs.append({"role": "user", "content": body})
+                t0 = time.time()
+                try:
                     if a.route == "cli":
-                        sub_spend += spend_i
+                        reply, sess = cli_send(msgs, sess, a)
                     else:
-                        spend += spend_i
-                    tokens_in += int(usage.get("input_tokens") or 0)
-                    tokens_out += int(usage.get("output_tokens") or 0)
-                    meta = {"packet": name, "group": g, "reader": rid, "reissue": tries, "generation": gid,
-                            "served": (reply.get("model") if a.route == "cli" else served_model(gid, k)) if gid else None,
-                            "usage": usage, "elapsed_s": el,
-                            "packet_sha256": psha, "valid": rows is not None, "why": why}
-                    sv = (meta.get("served") or "").lower()
-                    if rows is not None and a.route != "cli" and not a.allow_anthropic and ("claude" in sv or "anthropic" in sv):
-                        rows, why = None, "served by %s: the gateway fell back to an Anthropic model" % meta["served"]
-                        meta.update(valid=False, why=why)
-                    meta["served_matches_probe"] = (not meta.get("served")) or meta["served"] == served
-                    metas.append(meta)
-                    raws.append(raw)
+                        req = {"model": a.model, "max_tokens": a.max_tokens, "messages": msgs}
+                        if a.reasoning_effort:
+                            req["reasoning"] = {"effort": a.reasoning_effort}
+                        reply = post(API, req, k)
+                    raw = text_of(reply)
+                    gid = reply.get("id")
+                    usage = reply.get("usage") or {}
+                    err = None
+                except Exception as e:                # a transport failure is a failed return
+                    raw, gid, usage, err = "", None, {}, "transport: %s" % e
+                el = round(time.time() - t0, 1)
+                rows, why = (None, err) if err else validate(raw, marker, schema,
+                                                              (manifest.get(name) or {}).get("items"),
+                                                              manifest.get(name) or {})
+                spend_i = float(usage.get("cost") or 0.0)
+                with lock:
+                    acc["sub" if a.route == "cli" else "spend"] += spend_i
+                    acc["tin"] += int(usage.get("input_tokens") or 0)
+                    acc["tout"] += int(usage.get("output_tokens") or 0)
+                meta = {"packet": name, "group": g, "reader": rid, "reissue": tries, "generation": gid,
+                        "served": (reply.get("model") if a.route == "cli" or not verified or
+                                   str(gid).startswith("msg_") else served_model(gid, k)) if gid else None,
+                        "usage": usage, "elapsed_s": el,
+                        "packet_sha256": psha, "valid": rows is not None, "why": why}
+                sv = (meta.get("served") or "").lower()
+                if rows is not None and a.route != "cli" and not a.allow_anthropic and ("claude" in sv or "anthropic" in sv):
+                    rows, why = None, "served by %s: the gateway fell back to an Anthropic model" % meta["served"]
+                    meta.update(valid=False, why=why)
+                meta["served_matches_probe"] = (not meta.get("served")) or meta["served"] == served
+                metas.append(meta)
+                raws.append(raw)
+                with lock:
                     log(**meta)
-                    msgs.append({"role": "assistant", "content": raw or "(no reply)"})
-                    if rows is None:
-                        why = "%s: %s" % (name, why)
-                        break
-                    rows_all += rows
-                tag = rid
-                json.dump(metas if len(parts) > 1 else metas[0], open(os.path.join(d, "%s.meta.json" % tag), "w"), indent=1)
-                open(os.path.join(d, "%s.raw.txt" % tag), "w", encoding="utf-8").write(
-                    "\n\n".join("<<< %s >>>\n%s" % (parts[i][0], x) for i, x in enumerate(raws)) if len(parts) > 1 else raws[0])
-                if why is None:
-                    with open(os.path.join(d, "%s.jsonl" % tag), "w", encoding="utf-8") as f:
-                        for o in rows_all:
-                            f.write(json.dumps(o, ensure_ascii=False) + "\n")
-                    ok_returns += 1
-                    print("%s %s ok (%d lines in %d part(s))" % (g, rid, len(rows_all), len(parts)))
+                msgs.append({"role": "assistant", "content": raw or "(no reply)"})
+                if rows is None:
+                    why = "%s: %s" % (name, why)
                     break
-                open(os.path.join(d, "%s.failed.txt" % tag), "w", encoding="utf-8").write("%s\n%s" % (why, "\n\n".join(raws)))
-                print("%s %s FAILED: %s" % (g, rid, why))
-                if tries >= a.reissue:
+                rows_all += rows
+            tag = rid
+            json.dump(metas if len(parts) > 1 else metas[0], open(os.path.join(d, "%s.meta.json" % tag), "w"), indent=1)
+            open(os.path.join(d, "%s.raw.txt" % tag), "w", encoding="utf-8").write(
+                "\n\n".join("<<< %s >>>\n%s" % (parts[i][0], x) for i, x in enumerate(raws)) if len(parts) > 1 else raws[0])
+            if why is None:
+                with open(os.path.join(d, "%s.jsonl" % tag), "w", encoding="utf-8") as f:
+                    for o in rows_all:
+                        f.write(json.dumps(o, ensure_ascii=False) + "\n")
+                with lock:
+                    acc["ok"] += 1
+                print("%s %s ok (%d lines in %d part(s))" % (g, rid, len(rows_all), len(parts)))
+                break
+            open(os.path.join(d, "%s.failed.txt" % tag), "w", encoding="utf-8").write("%s\n%s" % (why, "\n\n".join(raws)))
+            print("%s %s FAILED: %s" % (g, rid, why))
+            if tries >= a.reissue:
+                with lock:
                     exhausted.append((g, rid, why))
-                    break
-                tries += 1
+                break
+            tries += 1
+            with lock:
                 next_id[0] += 1
                 rid = "r%d" % next_id[0]                 # a fresh reader id, never reused
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, a.parallel)) as ex:
+        for f in [ex.submit(chain, *j) for j in jobs]:
+            f.result()
+    spend, sub_spend, tokens_in, tokens_out, ok_returns = acc["spend"], acc["sub"], acc["tin"], acc["tout"], acc["ok"]
     if exhausted:
         with open(os.path.join(a.raw, "EXHAUSTED.tsv"), "w", encoding="utf-8") as f:
             f.write("packet\tlast_reader\twhy\n")

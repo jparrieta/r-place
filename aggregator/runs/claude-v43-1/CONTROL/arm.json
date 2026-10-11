@@ -15,7 +15,9 @@
    "route": "gateway",
    "model": "@preset/cheap",
    "n": 3,
-   "shared": "index.md,G*.md"
+   "shared": "index.md,G*.md",
+   "declared_served": "deepseek/deepseek-v4-flash-0731",
+   "max_tokens": 900000
   }
  },
  "B3": {
@@ -25,7 +27,9 @@
    "route": "gateway",
    "model": "@preset/cheap",
    "n": 2,
-   "shared": "index.md,G*.md"
+   "shared": "index.md,G*.md",
+   "declared_served": "deepseek/deepseek-v4-flash-0731",
+   "max_tokens": 900000
   }
  },
  "B4": {
@@ -35,7 +39,9 @@
    "route": "gateway",
    "model": "@preset/cheap",
    "n": 2,
-   "shared": "index.md,G*.md"
+   "shared": "index.md,G*.md",
+   "declared_served": "deepseek/deepseek-v4-flash-0731",
+   "max_tokens": 900000
   }
  },
  "C1": {

@@ -143,8 +143,13 @@ search of these.
  "unresolved": false, "taxonomy": "scheme-ambiguous", "field": "must_not_show",
  "theme": "T3-007", "quote": "the sentence that failed to decide",
  "boundary_ruling": "T3-007|T3-011 or null",
- "named_neither": false, "confidence": "clear|arguable", "why": "...", "leg": "..."}
+ "named_neither": false, "confidence": "clear|arguable", "why": "...", "leg": "...",
+ "support_by_theme": {"T3-007": ["c0013"]}, "also_present": {}}
 ```
+
+Every ruling names the concepts behind each theme it places (`support_by_theme`, rule 0 as
+amended, J 2026-10-11); a bag keeps the themes it does not place under `also_present`, each with
+its concepts. `assign_final.jsonl` carries both from the ruling or from the readers' lines.
 
 `ruling` is empty and `unresolved` true where the scheme does not decide; a boundary ruled once
 carries the pair in `boundary_ruling` on every item it decided, and the ruling itself is one

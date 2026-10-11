@@ -486,6 +486,21 @@ def _check_notes(outdir):
     _reliability_word(outdir, "notes-C1.md")
 
 
+def _check_rechecks(outdir, ctx, ids):
+    """J, 2026-10-11: a gate amended at C1 owes the rechecks of the placements it could move; a move made with
+    mem.py reassign names the concepts behind each theme; the gates of scheme v2 agree with one another."""
+    ct = vlib.code_themes(jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [])
+    vlib.recheck_errors(outdir, "C1", ct, ids)
+    for i, r in enumerate(jsonl(os.path.join(outdir, "assignments_final.jsonl")) or [], 1):
+        for m in r.get("moves") or []:
+            if str(m.get("stage")) == "C1" and str(m.get("t") or "") >= vlib.RULE_DATE and not m.get("support"):
+                err("assignments_final.jsonl line %d: a move at %s names no concepts; mem.py reassign takes --codes"
+                    % (i, m.get("t")), shape="assignments_final.jsonl: a move without its concepts", where="line %d" % i)
+    rows, name = vlib.gate_scheme(outdir)
+    if rows and name.endswith("scheme_v2.jsonl"):
+        vlib.gate_warnings(outdir, rows, name, edited={c.get("theme") for c in vlib.gate_changes(outdir, "C1")})
+
+
 def check(root, outdir, ctx):
     # a pass may close early (section 1); the whole set is owed at the last pass, the one that writes the handback
     last = os.path.exists(os.path.join(outdir, "handback-C1.md")) or vlib.current_step(root) is None
@@ -497,6 +512,7 @@ def check(root, outdir, ctx):
         ids = _check_scheme(outdir, hist) if os.path.exists(os.path.join(outdir, "scheme_v2.jsonl")) else None
         if os.path.exists(os.path.join(outdir, "assignments_final.jsonl")):
             _check_assignments(outdir, ctx, ids)
+        _check_rechecks(outdir, ctx, ids)
         print("  a pass closed; the full set (scheme v2, assignments, the fourth-order themes, the form pass) is "
               "owed at the last pass, with the handback")
         return
@@ -512,6 +528,7 @@ def check(root, outdir, ctx):
              "theme, say so in notes-C1.md")
     ids = _check_scheme(outdir, hist)
     keyed = _check_assignments(outdir, ctx, ids)
+    _check_rechecks(outdir, ctx, ids)
     _check_fourth(outdir, ids, hist, keyed)
     _check_form_pass(outdir)
     _check_notes(outdir)

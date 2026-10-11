@@ -170,8 +170,13 @@ holds the test and the second pass.
 `{"theme": "T3-007", "label": "...", "members": [{"sub": "...", "second_order": "...", "codes":
 ["c0013"]}]}`, rewritten at every room boundary. Three verbs write it for you, atomically, and
 log what they did: `mem.py mint` adds a new theme with its trigger as first member, `mem.py
-place <sub>:<tNN> --theme T3-NNN` puts a second-order theme in, `mem.py unplace <sub>:<tNN>
-[--theme T3-NNN]` takes it out. Edit it only through these verbs: the stopping rule counts what
+place <sub>:<tNN> --theme T3-NNN --codes c1,c2` puts a second-order theme in with the concepts
+that carry it, `mem.py unplace <sub>:<tNN> [--theme T3-NNN]` takes it out. **A theme has a gate
+from the moment it is minted** (J, 2026-10-11): `mint --gate "..."` writes a provisional gate, what
+a second-order theme must show to be placed there; `mem.py gate T3-NNN --field provisional_gate
+--now "..." --reason "..."` revises it at each relabel, and each revision owes rechecks of the
+members it could move (`mem.py rechecks --owed`, `mem.py recheck`), so placement never runs ahead
+of the gate it rests on. Edit it only through these verbs: the stopping rule counts what
 they record in `kinds-B1.jsonl`, and a placement made by hand is a defect. With
 `theme_discovery.jsonl` it is what you read, through `scheme --brief`, at every leg start and after any compaction, before the next room, so that the
 grouping in your head and on disk are one; a theme the file does not hold does not exist. It is a working file (rule 18): it ships to nobody, and the fleet at B3 places from
@@ -291,7 +296,7 @@ the disagreement rate on the hardest pair. Stage B2 scores it.
 Record; do not compute.
 
 **`theme_discovery.jsonl`**: one line the first time a third-order theme exists, written as it
-happens by `mem.py mint --label "..." --trigger <sub>:<theme_id>`, stamped by the harness,
+happens by `mem.py mint --label "..." --trigger <sub>:<theme_id> --gate "..." --codes c1,c2`, stamped by the harness,
 never edited: `{"theme": "T3-007", "label": "...", "t": "<ISO>", "leg": "...",
 "sub": "...", "trigger": "<sub>:<theme_id>", "rooms_read": 37, "themes_read": 521, "codes_read":
 3902, "tokens_read": ...}`. New kinds per hundred second-order themes read is computed from

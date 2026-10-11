@@ -4,7 +4,7 @@ run, leg, actor, start = sys.argv[1:5]
 def ts(s): return dt.datetime.fromisoformat(s.replace('Z', '+00:00'))
 t0 = ts(start)
 seen = {}; first = last = None
-for l in open(f'{run}/CONTROL/snapshots/B1.{leg}/transcript.jsonl'):
+for l in open(f'{run}/CONTROL/snapshots/{leg[:2]}.{leg}/transcript.jsonl'):
     d = json.loads(l)
     if d.get('type') != 'assistant' or 'timestamp' not in d: continue
     t = ts(d['timestamp'])

@@ -15,6 +15,8 @@ Two more, added 2026-09-28 from the v37 interviews (the rules were asked and not
     (`mem.py codes --sub <sub>` or `cite.py --room <sub>`).
 With --post it is the PostToolUse hook: after a room note is written it runs the note's form check
 and returns what is wrong at once, instead of at the block's close.
+From 2026-10-11 (J): reads of placement files are refused in a blind window (mem.py blind); no column cut
+after mem.py, cite.py or a helper; awk without system(); pipes after mem.py and cite.py are recorded.
 A string guard over Bash is a tripwire, never a wall: the sandbox's denyWrite is the wall for the
 folders above. Every block is appended to out/_closes/guard.log for the audit.
 """
@@ -209,6 +211,67 @@ def deletes(cmd):
     return False
 
 
+# ---- J, 2026-10-11: blind windows, whole room reads, read-only awk, and the record of pipes ---------------
+# Files that hold placements, the analyst's own or the readers'. While a blind window is open
+# (out/_blind.json, written by mem.py blind) a direct read of any of them is refused; the scheme is read
+# through `mem.py scheme <id>` and `mem.py gates`, which withhold members and exemplars in the window.
+BLIND_FILES = re.compile(
+    r"(scheme_current|scheme_final|scheme_v2|scheme|assignments_final|assign_final|assign_raw|assign_pass2|"
+    r"assign_revisions_only|multiplacement_log|tier_history|author_items|gold_items|pilot_rounds|scheme_edits|"
+    r"disagreements|findings|gate_history|gate_checks|theme_discovery)\.jsonl|kinds-[A-E]\d\.jsonl|unplaced-[A-E]\d\.jsonl|"
+    r"episodes-[A-E]\d\.jsonl|rechecks-[A-E]\d\.jsonl|scheme(_final|_v2)?\.md|confusions\.md|notes-[A-E]\d\.md|"
+    r"handback-[A-E]\d\.md|saturation-[A-E]\d\.md|_fleet_raw/|out/diary/|_views/|_wiki/|_mem_reads-")
+READERS = re.compile(r"\b(mem|cite)\.py\b|out/_analysis/")
+
+
+def blind_open():
+    try:
+        d = json.load(open(os.path.join(BASE, "out", "_blind.json"), encoding="utf-8"))
+        return isinstance(d, dict) and d.get("on") is True
+    except Exception:
+        return False
+
+
+def blind_reads(tool, inp, call):
+    if not blind_open():
+        return
+    if tool in ("Read", "Grep", "Glob"):
+        target = " ".join(str(inp.get(k) or "") for k in ("file_path", "path", "pattern", "glob"))
+    elif tool == "Bash":
+        target = inp.get("command") or ""
+        if re.search(r"mem\.py\s+blind\b", target):
+            return
+    else:
+        return
+    m = BLIND_FILES.search(target)
+    if m:
+        block("a blind window is open (mem.py blind): %s holds placements and is not read until mem.py blind off. Read "
+              "the items through mem.py theme and codes --sub, the gates through mem.py scheme <id> and mem.py gates."
+              % m.group(0), call)
+
+
+def pipes(cmd, call):
+    """Room reads are read whole (J, 2026-10-11): no cut by column after mem.py, cite.py or a helper in
+    out/_analysis/; mem.py --width clips and the read log records it. awk reads; it does not run commands.
+    Every pipe after mem.py or cite.py is recorded in out/_mem_pipes-<stage>.jsonl, so the record says what
+    reached the screen."""
+    bare = QUOTED.sub(" '' ", cmd)
+    segs = re.split(r"(?<!\|)\|(?!\|)", cmd)
+    if READERS.search(cmd) and len(segs) > 1:
+        if re.search(r"(^|[|;&]\s*)(cut\s+[^|;&]*-[a-z]*[cb]|colrm\b)", bare):
+            block("room reads are read whole (J, 2026-10-11): no cut -c, cut -b or colrm after mem.py, cite.py or a "
+                  "helper. To narrow a page, pass --width N to mem.py: it clips and the read log records it.", call)
+        try:
+            d = os.path.join(BASE, "out")
+            with open(os.path.join(d, "_mem_pipes-%s.jsonl" % (_read(".stage") or "xx")), "a", encoding="utf-8") as f:
+                f.write(json.dumps({"t": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S"), "leg": _read(".leg"),
+                                    "cmd": cmd[:2000]}) + "\n")
+        except Exception:
+            pass
+    if re.search(r"(^|[|;&]\s*)awk\b", bare) and re.search(r"\bsystem\s*\(", cmd):
+        block("awk is allowed for reading: system() runs commands and is refused. Use python3 in out/_analysis/.", call)
+
+
 def main():
     global BASE
     try:
@@ -230,6 +293,7 @@ def main():
         except OSError:
             pass
         _audit("compaction gate set aside, unreadable: %s" % e, call)
+    blind_reads(tool, inp, call)
     if tool in ("Write", "Edit", "MultiEdit", "NotebookEdit"):
         p = rel(inp.get("file_path") or inp.get("notebook_path"))
         if p.startswith(RO):
@@ -245,6 +309,7 @@ def main():
         cmd = inp.get("command") or ""
         if deletes(cmd):
             block("never delete a file: supersede it with a new name (STANDING-INSTRUCTIONS §2).", call)
+        pipes(cmd, call)
         RO_RX = r"(tools|stages|package|trees|shelves|\.claude)/"
         if re.search(r"(>>?|\btee(\s+-a)?)\s*(\S*/)?" + RO_RX, cmd) \
                 or re.search(r"\bsed\s+-i\S*\s[^|;&]*\s(\S*/)?" + RO_RX, cmd) \

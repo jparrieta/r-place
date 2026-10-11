@@ -279,6 +279,7 @@ Members post their own April Fools fakes in the sub as if true (news, leaks, pat
 - Against T3-023: Is the joke the sub's own changed state (its name, look, rules, subject or a staged takeover)? T3-023. Is it a member's post claiming something false inside the sub? T3-001.
 - Against T3-048: Whose joke is it: the room's members (T3-001), or the game's company, the show's creator, an official channel or organisation (T3-048)?
 - Against T3-031: Is the joke a fake posted as true for April Fools (T3-001), or the room's ordinary in-jokes and memes on any day (T3-031)?
+- Against T3-017: Is anything posted as a fake for April Fools (T3-001), or are the posts ordinary (T3-017)?
 - Varies: From one fake headline to a run of fake patch notes and leaks; from members who stay in character to members who reveal at once; from fooling the room to readers admitting they were caught.
 - Is not: Members proposing pranks to play on friends away from the site: nothing is staged in the room, so it is the sub's usual talk (T3-017).
 - Exemplars: "... nah not really, happy April 1st every one XD" (metalcore c0106); "April Fool's joke. OP is actually eating edibles. One for every upvote!" (trees c0217, rivals c0083); "Following the great reveal on Discord that I was faking, naw I actually do enjoy April Fool's quite a bit." (touhou c0037)
@@ -295,6 +296,11 @@ The sub is turned into something else for April Fools, by its moderators or by t
 - Against T3-097: Is the look being staged or played with (T3-023), or turned off, worked around or asked away (T3-097)?
 - Against T3-093: Are moderator powers handed to every member and played with (T3-093), or is it any other takeover (T3-023)?
 - Against T3-064: Is the target sub changed as a whole, as the joke's stage (T3-023), or do members carry the room's joke into other places one post at a time (T3-064)?
+- Against T3-048: Is the joke the maker's (T3-048), or the sub's own moderators' change to the sub, even when they play the maker (T3-023)?
+- Against T3-133: Is the change a joke the moderators staged (T3-023), or a real compromise they repair (T3-133)?
+- Against T3-185: Is the rule change a joke for the day (T3-023), or meant to hold (T3-185)?
+- Against T3-032: Is the sub turned into something else for the day and played inside (T3-023), or are the sub's April Fools jokes objected to and asked to stop (T3-032)?
+- Against T3-100: Is the sub turned into something else for the day (T3-023), or is it asked that an April Fools change outlive the day (T3-100)?
 - Varies: From a one-day styling swap to a full change of subject with removals enforced; from the moderators alone to a whole sub raiding another sub as a joke.
 - Is not: A moderator removing canvas posts under the sub's ordinary rules on 1 April (T3-063): nothing about the sub was changed for the joke.
 - Exemplars: "After many years of hard work on this sub, we've decided it's time to cash in! So we've sold the subreddit to [Funko](https://funko.com/)!" (gameofthrones c0007); "Annoucement: We received an intellectual property related cease and desist letter from the NFL's legal team today. Starting noon today, all football gifs are banned from r/Patriots." (patriots c0042); "What's the point in doing a joke like this without fully committing? It's not like we're getting rid of a place for people to talk about what they want to talk about, /r/horizon is currently a zelda subreddit." (zelda c0130)
@@ -310,6 +316,9 @@ Members object to the April Fools jokes in their sub as unfunny, stale, hurtful 
 - Against T3-097: Are the jokes themselves bad or unwelcome (T3-032), or is the joke look in the way of reading and voting (T3-097)?
 - Against T3-063: Are members objecting (T3-032), or moderators removing posts under the sub's rules (T3-063)?
 - Against T3-048: Is the objection to posts in the sub (T3-032), or a verdict on the company's or creator's own joke (T3-048)?
+- Against T3-118: Is the moderators' joke objected to as a joke (T3-032), or blamed for a loss (T3-118)?
+- Against T3-143: Are April Fools posts objected to (T3-032), or a canvas joke's limits argued (T3-143)?
+- Against T3-023: Is the sub turned into something else for the day and played inside (T3-023), or are the sub's April Fools jokes objected to and asked to stop (T3-032)?
 - Varies: From a sigh at a stale joke to calls for the moderators to undo a takeover; hurt at a joke about a nation, a language or a death.
 - Is not: A member disliking the game company's April Fools feature (T3-048): the objection is to the maker's joke, not to posts in the sub.
 - Exemplars: "This April fools' joke is in really poor taste. Hate towards a particular country and language is not a joke." (europe c0453); "Stop with these Kimi posts, they are getting boring fast" (formula1 c0203); "I forsee many of these 'jokes' coming, so as a PSA and if your reading, please do not make these posts." (fivenightsatfreddys c0166)
@@ -325,6 +334,8 @@ Members react to the April Fools jokes of the company, creator, channel or organ
 - Against T3-001: Is the joke the official maker's (T3-048) or the room's members' (T3-001)?
 - Against T3-100: Reacting to the joke on the day (T3-048), or asking for it to stay or be made real after the day (T3-100)?
 - Against T3-023: Is the joke the maker's (T3-048), or the sub's own moderators' change to the sub, even when they play the maker (T3-023)?
+- Against T3-032: Is the objection to posts in the sub (T3-032), or a verdict on the company's or creator's own joke (T3-048)?
+- Against T3-106: Do members only judge the maker's joke (T3-048), or call for action against the maker (T3-106)?
 - Varies: From disappointment that a company made no joke this year to praise for a well-made fake update; companies, streamers, channels, clubs and universities.
 - Is not: The sub's moderators staging a fake takeover by the company (T3-023): the moderators are not the company.
 - Exemplars: "Blizzard usually goes all out for all their games, but this year it doesn't seem that way." (overwatch c0472, rivals c0766); "Gaijin is memeing on a whole new level" (warthunder c0006); "This year's April Fools update however, it was pretty amazing." (paydaytheheist c0103)
@@ -351,6 +362,7 @@ Rare tier. Every member is made a moderator for April Fools, and members play wi
 - Must not show: Any other takeover in which the moderators keep their powers (T3-023).
 - Decide when both: The moderators' staging of the handout sits with T3-023; members' play with the powers goes to T3-093.
 - Against T3-023: Do members hold moderator powers and play with them (T3-093), or do they play inside a change the moderators made (T3-023)?
+- Against T3-133: Members playing with powers handed out for the day (T3-093), or a stolen account undone (T3-133)?
 - Varies: From jokes about banning the real moderators to a mock mutiny once the powers end.
 - Is not: A real election or appointment of moderators for the canvas work (T3-173, T3-101).
 - Exemplars: "Unfortunately you can't ban other moderators, so really no one has any power!" (seahawks c0015, rivals c0031 c0023); "How do I ban all the other mods so I can be the only mod?" (seahawks c0031, rivals c0015 c0023); "At least I look good in moderator green." (seahawks c0023, rivals c0015 c0031)
@@ -394,6 +406,7 @@ Members ask that something made for April Fools outlive the day: the sub's flair
 - Against T3-097: Is the change wanted gone (T3-097) or kept (T3-100)?
 - Against T3-048: Judging the official joke (T3-048), or asking that it stay or be made real (T3-100)?
 - Against T3-105: Is the canvas work saved in screenshots and timelapses (T3-105), or an April Fools change kept in use (T3-100)?
+- Against T3-023: Is the sub turned into something else for the day (T3-023), or is it asked that an April Fools change outlive the day (T3-100)?
 - Varies: From a flair kept a few more days to petitions with thousands of votes asking a company to make a joke rank permanent.
 - Is not: Asking to carry the canvas work to a successor canvas (T3-054): the canvas is no April Fools change.
 - Exemplars: "Let's keep the April Fools flairs around a little longer anyway." (smashbros c0259); "THE PETITION TO KEEP THE VEGGIE RANKS" (rocketleague c0170, rivals c0560 c0614); "Mods, please keep this theme up." (rust c0026)
@@ -411,6 +424,9 @@ Moderators or members gather the sub's canvas talk into one stickied thread, a m
 - Against T3-014: Is the gathering place a thread inside the sub (T3-015), or a chat outside it (T3-014)?
 - Against T3-090: One thread in the sub (T3-015), or a new sub made for the canvas work (T3-090)?
 - Against T3-075: Is one thread asked for so the work can go on in order (T3-015), or are members objecting that canvas posts crowd the sub (T3-075)?
+- Against T3-049: Is the scattering complained of with no gathering act (T3-049), or is the talk gathered into one thread (T3-015)?
+- Against T3-140: Is the thread only gathering canvas talk (T3-015), or do the moderators also say the work is not the sub's (T3-140)?
+- Against T3-197: Is the canvas talk moved or shaped because the creator of the room's subject asked (T3-197), or gathered into one thread with no creator's wish behind it (T3-015)?
 - Varies: From one moderator's sticky to dozens of posts redirected by hand; members asking for a thread that does not exist yet.
 - Is not: A moderator removing a canvas post because the canvas has ended (T3-063): nothing is gathered.
 - Exemplars: "Everybody, please stop creating /r/place threads on our sub. Keep your posts and ideas within this thread." (dbz c0052); "Why can't they pin 1 thread for all this /rplace stuff???" (heroesofthestorm c0318); "Please use the megathread" (cubers c0281)
@@ -426,6 +442,7 @@ The sub's ordinary business goes on during the canvas week: its usual subject, n
 - Against T3-001: Is anything posted as a fake for April Fools (T3-001), or are the posts ordinary (T3-017)?
 - Against T3-185: Are members arguing the sub's posting rules (T3-185), or talking about the sub's subject (T3-017)?
 - Against T3-050: Does the sub's ordinary talk go on with no rival in it (T3-017), or is a rival community taunted (T3-050)?
+- Against T3-184: Does the usual business go on (T3-017), or is a recurring event stopped or restarted around the canvas (T3-184)?
 - Varies: From patch questions and match threads to a sub's politics, help requests and feuds; from whole themes of usual talk to usual talk drifting into a canvas thread.
 - Is not: Members trading outside creators' April Fools releases as examples of the day done well: that is reacting to official April Fools (T3-048).
 - Exemplars: "I'm glad RLCS is attractive enough to companies to have sponsors like that." (rocketleague c0648); "Uncheck all dlcs and start game, then close and re check all dlcs. Mine is now fully operational :))" (paydaytheheist c0159); "Don't know what to say but here's a *virtual hug* if you need it." (philippines c0031)
@@ -439,6 +456,8 @@ Members ask for upvotes so a post, an image or a joke climbs: up r/place or the 
 - Decide when both: A call to place that also asks for upvotes so the call is seen: T3-002 primary, T3-051 added when the vote drive has a concept of its own.
 - Against T3-002: Are members asked to vote a post up (T3-051), or to come and place (T3-002)?
 - Against T3-110: Is a tile offered in return for the vote (T3-110), or are votes gathered with nothing given (T3-051)?
+- Against T3-053: Is one post pushed up (T3-051), or a run of posts lined up to spell a phrase (T3-053)?
+- Against T3-062: Are upvotes asked so a post climbs (T3-051), or the room's call for hands carried into other subs (T3-062)?
 - Varies: From one request to upvote a coordination post on r/place to joke campaigns to own a search result; pledges promised for a vote count.
 - Is not: Offering to place a tile for an upvote (T3-110): the vote buys a tile.
 - Exemplars: "In particular, upvote [this thread](https://www.reddit.com/r/place/comments/62vijc/rcrusaderkings_is_changing_the_deus_vult_design/) so randoms will see and understand." (CKCrusaders c0040); "IceFrog. If this gets enough upvotes, this image will show up when you Google search "IceFrog"" (leagueoflegends c0289); "show up on google images when you search ya boi" (pokemon c0100)
@@ -467,6 +486,11 @@ Moderators, or their bots, remove, filter or flair canvas posts under the sub's 
 - Against T3-185: Are the rules applied as they stand (T3-063), or made, dropped or argued as a change (T3-185)?
 - Against T3-075: A removal or filter applied (T3-063), or members complaining about canvas posts (T3-075)?
 - Against T3-182: Posts removed for breaking the sub's rules (T3-063), or members shutting down bigotry in a chat (T3-182)?
+- Against T3-121: Is a post removed under the sub's rules (T3-063), or a member excluded as a sanction (T3-121)?
+- Against T3-032: Are members objecting (T3-032), or moderators removing posts under the sub's rules (T3-063)?
+- Against T3-118: Is a removal contested (T3-063), or a loss laid at the moderators' door (T3-118)?
+- Against T3-197: Are canvas posts handled under the sub's rules (T3-063), or shaped by the creator's wish (T3-197)?
+- Against T3-140: Do moderators say the canvas work is not the sub's (T3-140), or remove or filter canvas posts under the sub's rules without saying so (T3-063)?
 - Varies: From an automatic removal for an all-caps title to a moderator removing a post that ties the sub to fascism; members apologising in advance for breaking a rule.
 - Is not: A moderator stickying a megathread and asking for posts there (T3-015).
 - Exemplars: "Just letting you know I removed this because /r/place has ended." (smashbros c0345); "Reddiquette forbids titles written in ALL CAPS. Please fix this and resubmit your post." (pcmasterrace c0584); "Your link has been removed because it is not whitelisted." (2007scape c1423)
@@ -481,6 +505,8 @@ Members object that canvas posts crowd out the sub's usual talk, and ask for the
 - Against T3-037: Is the complaint that canvas posts crowd the sub (T3-075), or that the canvas is not worth doing (T3-037)?
 - Against T3-032: Are the unwanted posts canvas posts (T3-075) or April Fools jokes (T3-032)?
 - Against T3-015: Are members objecting to the flood (T3-075), or is the talk being gathered into one thread so the work can go on (T3-015)?
+- Against T3-063: A removal or filter applied (T3-063), or members complaining about canvas posts (T3-075)?
+- Against T3-189: Is the complaint about canvas posts crowding the sub (T3-075), or about the people the mark brings in (T3-189)?
 - Varies: From one weary 'please stop' to threads arguing whether the canvas enlivened or wrecked the sub; refusals to join because of the spam.
 - Is not: A member calling the canvas a waste of time with no word on the sub's space (T3-037).
 - Exemplars: "Some fans come here to read bears news you guys are spamming this whole subreddit with this shit." (chibears c0114); "Enough with this r/place bullsh*t already. None of these things posted these last few days are even remotely related to Minecraft." (minecraft c0227); "Half the subs I'm subscribed to are flooded with this r/place garbage." (AMD c0341, rivals c0140)
@@ -533,6 +559,8 @@ The sub's moderators say the canvas work is not the sub's: members may go on, bu
 - Decide when both: A sticky that gathers the canvas talk and disowns the work is T3-015 primary with T3-140 under rule 0.
 - Against T3-188: Do the moderators say the sub has no canvas project at all (T3-140), or that placers acting against the room's own plan are not the room (T3-188)?
 - Against T3-015: Is the thread only gathering canvas talk (T3-015), or do the moderators also say the work is not the sub's (T3-140)?
+- Against T3-197: Do the moderators disown the work (T3-140), or does the room heed its creator (T3-197)?
+- Against T3-063: Do moderators say the canvas work is not the sub's (T3-140), or remove or filter canvas posts under the sub's rules without saying so (T3-063)?
 - Varies: From a moderator too tired to lead who leaves members to it to a statement that the moderators have nothing to do with any canvas activity.
 - Is not: A room disowning rogue offshoots of its own work (T3-188).
 - Exemplars: "we (the mods) have nothing to do with any /r/place-related activities." (japan c0091, rivals c0092); "If you guys want to organize something, go for it. I can't speak for the other mods but I'm a bit tuckered out." (MMA c0398); "don't brigade anyone on "the sub's" behalf. Have fun!" (japan c0092, rivals c0091)
@@ -559,6 +587,9 @@ Moderators change the sub's posting rules around the canvas or April Fools, and 
 - Decide when both: Applying and changing in one theme: the larger part primary and the other under rule 0.
 - Against T3-063: Is a standing rule applied (T3-063), or is a rule made, dropped or argued (T3-185)?
 - Against T3-023: Is the rule change a joke for the day (T3-023), or meant to hold (T3-185)?
+- Against T3-017: Are members arguing the sub's posting rules (T3-185), or talking about the sub's subject (T3-017)?
+- Against T3-184: Is a rule about what may be posted changed (T3-185), or an event of the sub paused (T3-184)?
+- Against T3-118: Are moderators or admins blamed for a loss (T3-118), or a change to the sub's posting rules made and argued with no loss in view (T3-185)?
 - Varies: From a day's allowance for canvas posts to dropping a rule against memes for good.
 - Is not: An automatic removal under an existing rule (T3-063).
 - Exemplars: "Not a late April Fools': We're dropping the old Rule 2, memes are now allowed." (warthunder c0107, rivals c0121); "We've added a /r/Place link flair, please flair your posts as such if it is in regards to /r/Place at all." (Rainbow6 c0566, rivals c0567 c0568); "We're going to allow them for the next day or so. :)" (thesilphroad c0660)
@@ -577,6 +608,8 @@ The room moves its canvas planning into a chat outside the thread (a Discord mos
 - Against T3-090: Is the new venue a chat (T3-014) or a subreddit (T3-090)?
 - Against T3-109: Is a chat simply set up and used (T3-014), or is the choice of chat argued (T3-109)?
 - Against T3-015: Does the talk move out of Reddit into a chat (T3-014), or into one thread of the sub (T3-015)?
+- Against T3-107: Does the planning stay in the thread (T3-107) or move into a chat (T3-014)?
+- Against T3-116: Is the plan moved because rivals are reading (T3-116), or for speed and order (T3-014)?
 - Varies: From one member's new server to a sub's official Discord with a channel per project; voice chat; invite links that break and are renewed.
 - Is not: A room's members joining another room's chat to talk terms (T3-153).
 - Exemplars: "Also, someone suggested a Discord to coordinate on so I set one up because why not." (bostonbruins c0044); "join the discord if you want to discuss where to place stuff" (re_zero c0020); "I never really made a discord before so any help modding would be appreciated." (patriots c0071)
@@ -592,6 +625,7 @@ Members complain that the room's calls and plans are scattered, duplicated or un
 - Against T3-091: Are many plans complained of (T3-049), or is one template set for all (T3-091)?
 - Against T3-136: Is the room said to be uncoordinated (T3-049), or too weak or too few (T3-136)?
 - Against T3-188: Is the plan itself scattered (T3-049), or are placers acting against a plan set apart from the room (T3-188)?
+- Against T3-125: Is the lack of a plan complained of (T3-049), or stated as the room's way (T3-125)?
 - Varies: From a request for one post that states the goal to a member admitting there is zero coordination; during the work and after it.
 - Is not: A member saying the room has too few hands for its design (T3-136).
 - Exemplars: "can we get a clear post on what the goal is? Going through this thread I'm seeing a whole bunch of different coordinates" (predators c0027); "we have pretty good consensus on discord but the posts on the sub are all over the place because there is no single one that is kept up to date" (touhou c0024); "there is zero coordination at this stage." (russia c0051)
@@ -607,6 +641,7 @@ Members open a separate subreddit for the room's canvas work, or ask for one, an
 - Against T3-014: Is the new venue a subreddit (T3-090) or a chat (T3-014)?
 - Against T3-013: Is the new sub for this room's work (T3-090), or a hub for many kindred rooms (T3-013)?
 - Against T3-111: Is the sub being opened or used for the canvas (T3-090), or given a purpose after it (T3-111)?
+- Against T3-197: Is a canvas sub opened for order (T3-090), or to keep the work out of the creator's way (T3-197)?
 - Varies: From a request for a separate sub or filter to moderators sending every canvas post to a national place sub.
 - Is not: A sub that gathers many kindred rooms for a joint mark (T3-013).
 - Exemplars: "I've made the subreddit r/nzplace to talk about place-related stuff." (newzealand c0369, rivals c0346); "We refer everything related to r/place toithe dedicated subreddit: /r/SwedenOnPlace/." (sweden c0604); "Please use /r/europeplace for further /r/Place posts" (europe c0648, rivals c0750)
@@ -662,6 +697,7 @@ Members hide the room's plan from rivals who read the thread: private messages, 
 - Against T3-014: Is the plan moved because rivals are reading (T3-116), or for speed and order (T3-014)?
 - Against T3-132: Are rivals kept out of one's own plan (T3-116), or is the rival's plan read from inside (T3-132)?
 - Against T3-144: Is the plan hidden from readers (T3-116), or the recruiting kept quiet so attackers do not come (T3-144)?
+- Against T3-083: Is language used to keep rivals out (T3-116), or a gap bridged to deal with another room (T3-083)?
 - Varies: From asking members to write only in Hindi to letter-and-number codes in Russian; a plan passed by private message because rival fans got in.
 - Is not: Recruiting quietly to avoid attackers (T3-144).
 - Exemplars: "Alright. Pm this to others, don't post it in the thread because the celtics fans are infiltrating" (lakers c0131, rivals c0130); "Bakchodon, belgium ke log hamare thread padh rahe hai or hamari strategy ko samajh rahe hai." (bakchodi c0121, rivals c0230 c0118); "как вы думаете, лучше нам говорит по русский чтобы нас голланцы не понимали?" (russia c0031, rivals c0033 c0032)
@@ -676,6 +712,7 @@ Members watch a rival room's chat from inside, or an outsider watches theirs, an
 - Against T3-153: Is the visit open, to talk with the other room (T3-153), or hidden, to watch it (T3-132)?
 - Against T3-116: Is the rival's plan read from inside (T3-132), or one's own plan kept from rivals (T3-116)?
 - Against T3-087: Is an attack traced from the pixels and what others said (T3-087), or learned from inside the rival's chat (T3-132)?
+- Against T3-176: Is the rival watched from inside (T3-132), or harmed from inside by a script (T3-176)?
 - Varies: From one member undercover in the Void's Discord warning of an invasion to a member laughing at rivals panicking in their chat.
 - Is not: A diplomat serving in the open across many servers (T3-194).
 - Exemplars: "i am spying on their discord channel" (babymetal c0090); "I AM UNDERCOVER IN THE VOID DISCORD. THEY MAY INVADE CUBERS SOON. WATCH OUT" (cubers c0242); "Watched them freak out in their discord and laughed." (shitredditsays c0046)
@@ -723,6 +760,15 @@ Members call the room's own members to come and place for its work: to start, bu
 - Against T3-033: Is a mark already chosen and hands called for it (T3-002), or a mark proposed (T3-033)?
 - Against T3-070: Is the call itself the doing (T3-002), or the coordinates and templates that tell placers what to place (T3-070)?
 - Against T3-104: Are people asked to place (T3-002), or those already placing cheered on (T3-104)?
+- Against T3-169: Is the work the sub's name written on the canvas (T3-169), whatever the call or report about it, or any other picture called for (T3-002)?
+- Against T3-016: Is the event explained (T3-016), or are members called to come and place (T3-002)?
+- Against T3-038: Is the work placed and reported (T3-038), or are hands called for it (T3-002)?
+- Against T3-051: Are members asked to vote a post up (T3-051), or to come and place (T3-002)?
+- Against T3-065: Is the work the flag of the room's land (T3-065), or any other picture (T3-002)?
+- Against T3-167: Is a time set for placing together (T3-167), or hands called with no time (T3-002)?
+- Against T3-044: Are the room's own members called to come and place (T3-002), or outsiders brought to the sub by its mark and welcomed (T3-044)?
+- Against T3-084: Are the room's own members called to place (T3-002), or another canvas room asked, as a group, for help (T3-084)?
+- Against T3-144: Are hands called for in the open (T3-002), or recruited only inside friendly communities so the work draws no attackers (T3-144)?
 - Varies: From one 'come help me out' that draws no reply to repeated rallies through a long build; calls to start, to finish, to repair; calls to placers repeating a pattern before any group exists.
 - Is not: Calls to build the room's national flag (T3-065).
 - Exemplars: "Here's what I have so far: http://i.imgur.com/z5Q6TwA.png Come help me out!" (dallasstars c0075); "wtf, we're outnumbered! we need more people!" (thebluecorner c0256); "Get everyone you can" (korea c0067)
@@ -737,6 +783,10 @@ The room's mark on the canvas brings outsiders to the sub; members welcome them,
 - Against T3-082: Are outsiders led to the sub by the mark (T3-044), or members finding their own room's mark already placed (T3-082)?
 - Against T3-196: Is the newcomer new to the community (T3-044), or a former fan coming back (T3-196)?
 - Against T3-169: Is the sub's name written to sign the work (T3-169), or to bring visitors in (T3-044)?
+- Against T3-002: Are the room's own members called to come and place (T3-002), or outsiders brought to the sub by its mark and welcomed (T3-044)?
+- Against T3-127: Is the notice of the creators sought (T3-127), or are canvas visitors led into the sub (T3-044)?
+- Against T3-129: Is the mark meant to bring visitors to the sub (T3-044), or to make others notice a demand (T3-129)?
+- Against T3-189: Are the newcomers the mark draws welcomed (T3-044), or feared (T3-189)?
 - Varies: From a visitor saying the sign brought them in to members tracking subscriber stats day by day; welcomes in the room's own idiom.
 - Is not: A member of the room discovering that the room's mark is already on the canvas (T3-082).
 - Exemplars: "Hello, I just came from r/place. I don't think I'd ever come here if it wasn't for that sign" (parahumans c0041); "welcome to all visitors from /r/place!" (livecounting c0043, rivals c0004); "I'm happy that this sub decided to take part in /r/place. As a result I (and seemingly others) have found this great community" (npr c0035)
@@ -752,6 +802,11 @@ Members take the room's call into other subs, mostly kindred ones (sister, regio
 - Against T3-084: Is another sub's membership asked for hands (T3-062), or another canvas group asked, as a group, to help with this room's work (T3-084)?
 - Against T3-013: Is help sought for this room's work (T3-062), or are kindred rooms gathered into one hub (T3-013)?
 - Against T3-011: Is help asked for (T3-062), or sent to another room's work (T3-011)?
+- Against T3-064: Does the message to another sub carry the room's joke (T3-064), or ask that sub for help on the canvas (T3-062)?
+- Against T3-128: Are hands sought for the room's work (T3-062), or for a streamer's attack (T3-128)?
+- Against T3-137: Are other subs' members recruited to the room (T3-062), or does the room's member join another's build (T3-137)?
+- Against T3-144: Is the call kept inside friendly communities for safety (T3-144), or carried to other subs to bring hands (T3-062)?
+- Against T3-051: Are upvotes asked so a post climbs (T3-051), or the room's call for hands carried into other subs (T3-062)?
 - Varies: From a suggestion to ask a neighbouring sports sub to threads posted across many subs by a dying faction.
 - Is not: Sending the room's members to help another room's work (T3-011).
 - Exemplars: "The void is dying, we have to recruit from other subreddits." (theblackvoid c0184); "Maybe get some help from r/clevelandcavs" (osu c0053); "He abierto un hilo en Plaza Podemos para pedir más ayuda" (epublica c0017)
@@ -766,6 +821,7 @@ Members and passers-by cheer those placing: praise, encouragement and good wishe
 - Against T3-002: Are people asked to come and place (T3-002), or those placing encouraged (T3-104)?
 - Against T3-009: Is the work going on (T3-104), or done and celebrated (T3-009)?
 - Against T3-043: Are builders encouraged (T3-104), or the makers credited (T3-043)?
+- Against T3-072: Are those placing cheered on while the work goes on (T3-104), or other rooms thanked for their help (T3-072)?
 - Varies: From a passer-by's 'good job to everyone chipping in' to members keeping each other company through a night's building.
 - Is not: Celebrating the finished mark (T3-009).
 - Exemplars: "Keep going you glorious people and make this canvas a more civilised one!" (monalisaclan c0127); "Just thought I'd say that the carrots are inspiring and to keep it up!" (farmcarrots c0056); "Nice work team" (vermont c0028)
@@ -792,6 +848,8 @@ Rare tier. Members recruit only inside friendly communities and keep the work sm
 - Decide when both: Keeping the call quiet is T3-144; keeping the plan's text from readers is T3-116.
 - Against T3-116: Is the recruiting kept quiet so attackers do not come (T3-144), or the plan hidden from rivals who read it (T3-116)?
 - Against T3-062: Is the call kept inside friendly communities for safety (T3-144), or carried to other subs to bring hands (T3-062)?
+- Against T3-002: Are hands called for in the open (T3-002), or recruited only inside friendly communities so the work draws no attackers (T3-144)?
+- Against T3-191: Is the recruiting kept quiet (T3-144), or the name kept off the work (T3-191)?
 - Varies: From weighing whether publicity would do more damage to recruiting through a few friendly chats.
 - Is not: Writing the plan in a code so that rivals cannot read it (T3-116).
 - Exemplars: "maintain our tiny presence and recruit mostly from within lolicon communities" (loliconsunite c0058, rivals c0057 c0088); "Would the publicity result in more damage?" (loliconsunite c0057, rivals c0058 c0088); "Nothing has been done through Discord except me bringing up our existence to a couple loli groups I'm in." (loliconsunite c0088, rivals c0057 c0058)
@@ -805,6 +863,8 @@ Members reward those who helped the work with prizes: gold, medals, game codes, 
 - Decide when both: Thanks and a prize in one theme: T3-159 when the prize has a concept of its own, beside the thanking kind.
 - Against T3-043: Is credit given in words (T3-043), or a prize given (T3-159)?
 - Against T3-110: Is a prize given to helpers (T3-159), or a tile itself offered as payment (T3-110)?
+- Against T3-131: Is a sale of the work argued over (T3-131), or helpers rewarded with prizes (T3-159)?
+- Against T3-072: Are helpers given a prize (T3-159), or other rooms thanked with no prize (T3-072)?
 - Varies: From gold offered before a feat to mock medals and a giveaway after.
 - Is not: A pixel promised as thanks for help with something else (T3-110).
 - Exemplars: "I offer a month of reddit gold to anyone who achieves the ramp thing." (kerbalspaceprogram c0073); "I hereby award gold medals to" (HomestarRunner c0143); "I sent you a Sydney code, great organization!" (paydaytheheist c0011)
@@ -875,6 +935,9 @@ Members circulate what placers need to reproduce the work: coordinates, template
 - Against T3-002: Is the doing the directions (T3-070), or the call for hands (T3-002)?
 - Against T3-028: Is a picture or coordinates given for people to place by hand (T3-070), or a script that places (T3-028)?
 - Against T3-004: Is the design still argued (T3-004), or its directions handed out (T3-070)?
+- Against T3-016: Is the event explained for anyone (T3-016), or a guide, template or coordinates for the room's work posted to follow (T3-070)?
+- Against T3-034: Are directions asked for (T3-034) or given (T3-070)?
+- Against T3-103: Are directions given to all (T3-070), or parts handed to particular members (T3-103)?
 - Varies: From one pair of coordinates to step-by-step guides and colour-coordination threads; plans of colours, borders and timings are included.
 - Is not: Arguing over which design to build (T3-004).
 - Exemplars: "Update: Here is the guide: http://i.imgur.com/kAzcjIv.jpg" (startrek c0089); "The grid layout of our flag!" (canada c0228, rivals c0064); "Coords are (159,721) if anyone needs them" (rickandmorty c0353)
@@ -889,6 +952,9 @@ Members hold the room to one official design or plan, against versions and place
 - Against T3-070: Are directions shared for use (T3-070), or one plan imposed against others (T3-091)?
 - Against T3-004: Is the design being chosen (T3-004), or the chosen design enforced (T3-091)?
 - Against T3-049: Is the scattering complained of (T3-049), or one plan imposed as its remedy (T3-091)?
+- Against T3-069: Are the room's pieces narrowed to fewer (T3-069), or placers held to one design of one piece (T3-091)?
+- Against T3-089: Are hand placers held to the current plan (T3-091), or scripts brought into line with it (T3-089)?
+- Against T3-103: Is everyone held to one plan (T3-091), or the plan cut into assigned parts (T3-103)?
 - Varies: From one plea to keep the lettering to official coordination threads with updated plans.
 - Is not: A member posting the latest template with no word on following it (T3-070).
 - Exemplars: "For the love of god stick to the original lettering on the "Go Green"." (msu c0029); "Inderdaad, er zijn te veel mensen die het plan niet volgen." (cirkeltrek c0302); "Official Design thread" (monalisaclan c0016)
@@ -903,6 +969,8 @@ The room puts one member, or a few, in charge of the work, or members ask for so
 - Against T3-066: Does the room decide by vote (T3-066), or does one member lead (T3-101)?
 - Against T3-173: Is a leader for the work named (T3-101), or are a faction's offices filled by election (T3-173)?
 - Against T3-126: Is someone put in charge inside the room (T3-101), or is it disputed who speaks for the room to others (T3-126)?
+- Against T3-172: Is a leader named for the work (T3-101), or the order's standing rules set (T3-172)?
+- Against T3-187: Is one member put in charge (T3-101), or does the leader hand the work to all (T3-187)?
 - Varies: From a demand for somebody clearly in charge to a faction appointing ministers and overseers.
 - Is not: A faction's ritual elections (T3-173).
 - Exemplars: "WE NEED A NEW THREAD WITH SOMEBODY CLEARLY IN CHARGE." (mls c0307); "I guess you can call me the leader of the pack as i organised us and did all the diplomacy and coordination." (starcraft c0139, rivals c0114); "I am the new temp leader in the discord chat please don't give up we will not lose our corner" (TheGreatGreenBox c0051)
@@ -944,6 +1012,7 @@ Members keep the work through the night and across time zones: night watches, th
 - Against T3-021: Is the work watched and repaired (T3-021), or watched through the hours others sleep (T3-141)?
 - Against T3-103: Is the work divided by hour (T3-141), or by part of the picture (T3-103)?
 - Against T3-005: Is an attack fought off (T3-005), or the night covered (T3-141)?
+- Against T3-167: Do members place together at one time (T3-167), or take turns across the hours (T3-141)?
 - Varies: From one member going to bed and hoping others hold to a German night shift over American pixels.
 - Is not: A member repairing the work during the day (T3-021).
 - Exemplars: "Europe, America's going to sleep. Hold the position!" (dota2 c0728); "Texan living abroad. Defending it will you sleep." (texas c0063); "Wenn wir schlafen gehen und die Amis wach sind kann vieles passieren. Ich sollte Nachtwache schieben." (placeDE c0101)
@@ -987,6 +1056,8 @@ Members tell the room, or its defenders, to give the work up: it is lost, over, 
 - Against T3-181: Are others told to give up (T3-059), or does the speaker quit (T3-181)?
 - Against T3-123: Is giving up urged (T3-059), or refused (T3-123)?
 - Against T3-029: Is the loss mourned (T3-029), or is giving up urged (T3-059)?
+- Against T3-124: Is the room's next step weighed (T3-124), or giving up urged (T3-059)?
+- Against T3-136: Is the room's strength doubted (T3-136), or giving up urged (T3-059)?
 - Varies: From a gentle 'we made a good effort, let's have a beer' to scorn for a flag's last defenders.
 - Is not: Members mourning a lost work after it is gone (T3-029).
 - Exemplars: "Its over guys just give up." (apocalypserising c0035); "Guys, I think we made a good effort, but I think we need to just sit back and have a couple beers." (gameattack c0017); "Place is dead, let it go." (bardmains c0083)
@@ -1015,6 +1086,7 @@ Members ask whether and how the room shows on the canvas: why it is absent, whet
 - Against T3-033: Is a mark proposed (T3-033), or the room's presence or absence questioned (T3-098)?
 - Against T3-037: Is the canvas itself judged (T3-037), or the room's showing on it (T3-098)?
 - Against T3-085: Is the room's presence questioned (T3-098), or the room weighed against the nations on the canvas (T3-085)?
+- Against T3-136: Is it asked whether and how the room shows on the canvas (T3-098), or doubted that the room has the people or strength for a work (T3-136)?
 - Varies: From 'why don't we have a quaggan?' to arguing whether a game's pictures count as the sub's participation.
 - Is not: A member saying r/place is a waste of time (T3-037).
 - Exemplars: "/r/TF2 has their logo on /r/place.. Why can't /r/overwatch organize and get a logo going there??" (overwatch c0507, rivals c0209 c0511); "People are recreating /r/place in Minecraft... why is nobody putting minecraft on /r/place?" (minecraft c0198, rivals c0172); "Why don't we have a quaggan in Place?" (GuildWars2 c0166)
@@ -1045,6 +1117,8 @@ Members doubt that the room has the people or strength for a work: too few, too 
 - Against T3-059: Is the room's strength doubted (T3-136), or giving up urged (T3-059)?
 - Against T3-036: Is the room too weak (T3-136), or the canvas too full (T3-036)?
 - Against T3-049: Is the room too few or too weak (T3-136), or too scattered (T3-049)?
+- Against T3-069: Does the room put its pixels on fewer pieces (T3-069), or doubt it can manage any (T3-136)?
+- Against T3-098: Is it asked whether and how the room shows on the canvas (T3-098), or doubted that the room has the people or strength for a work (T3-136)?
 - Varies: From a hopeful 'now all we need is enough people' to a small sub conceding it cannot fight a larger one.
 - Is not: A member explaining how few pixels the timer allows while the room builds (T3-074).
 - Exemplars: "there is nothing our small ass subreddit can do to combat anything the Pats subreddit decides to do" (falcons c0110); "it needs at least 100 people working on it to make." (paladins c0150); "Trying to make a dragonlord but it seems impossible." (dragonquest c0024)
@@ -1059,6 +1133,7 @@ Members quit the canvas work themselves: tired, stressed, beaten by scripts or r
 - Against T3-059: Does the speaker quit (T3-181), or tell others to give up (T3-059)?
 - Against T3-029: Is the loss mourned (T3-029), or the effort abandoned (T3-181)?
 - Against T3-190: Does a faction split over doctrine (T3-190), or does a member leave the effort (T3-181)?
+- Against T3-187: Does a member quit under strain (T3-181), or pass the work on (T3-187)?
 - Varies: From an embarrassed admission of giving up hours ago to workers quitting because it was too stressful; leaving because scripts took the fun out.
 - Is not: A defender telling others that the work is a lost cause (T3-059).
 - Exemplars: "I give up. We started strong. But just like tennessee tradition we are in the wrong place. I'm done." (ockytop c0045); "Everyone who were working on it got tired of it as it was too stressful." (fivenightsatfreddys c0480); "I'm ashamed to admit I gave up hours ago, great fucking job so far though" (denverbroncos c0090)
@@ -1077,6 +1152,11 @@ Members work out what the mark should look like (picture, colours, size, letteri
 - Against T3-091: Is the design being settled (T3-004), or the settled design enforced against strays (T3-091)?
 - Against T3-055: Is the look changed for its own sake (T3-004), or to make the mark harder to tamper with (T3-055)?
 - Against T3-041: Is the mark's own design settled (T3-004), or a bigger or second piece added (T3-041)?
+- Against T3-066: Is the design argued out (T3-004), or put to a vote or poll (T3-066)?
+- Against T3-070: Is the design still argued (T3-004), or its directions handed out (T3-070)?
+- Against T3-077: Is a still design settled (T3-004), or a change over time planned (T3-077)?
+- Against T3-169: Is the mark's design settled (T3-004), or its signature added (T3-169)?
+- Against T3-038: Is the mark being placed and its progress reported (T3-038), or its look argued and corrected against the plan (T3-004)?
 - Varies: From a one-pixel correction to long arguments over which picture represents the room; letters, fonts, colours and outlines.
 - Is not: Holding placers to the agreed design against those who stray (T3-091).
 - Exemplars: "I think the design should be changed. Nobody knows what the pups are." (tagpro c0152); "Making them 4 tiles wide like we were doing before looks a bit tacky" (pitt c0095); "I'm gonna give it an outline of white where there is non-rainbow to give it some definition!" (anaheimducks c0039)
@@ -1107,6 +1187,8 @@ A member offers the room an idea of what to make on the canvas, and calls the ro
 - Against T3-004: Is a mark proposed (T3-033), or a chosen mark's look worked out (T3-004)?
 - Against T3-098: Is a mark proposed (T3-033), or the room's absence from the canvas questioned (T3-098)?
 - Against T3-041: Is the room's first mark proposed (T3-033), or a second piece beside an existing one (T3-041)?
+- Against T3-092: Is a mark proposed for the room to make (T3-033), or made alone and reported (T3-092)?
+- Against T3-129: Is a mark proposed as the room's emblem (T3-033), or as a message carrying a demand (T3-129)?
 - Varies: From one member's wish to put a symbol on the canvas to a series of picture proposals; political slogans proposed as such sit here.
 - Is not: A call for help on a picture already started (T3-002).
 - Exemplars: "we should put a plansewalker symbol on r/place" (magictcg c0138); "We need to rep Stardew Valley on https://www.reddit.com/r/place/ !!! Let's make a jumino or something!" (stardewvalley c0001); "We should make a pixel art for our lord and saviour on /r/place" (leagueoflegends c0383)
@@ -1145,9 +1227,11 @@ One member makes a small mark for the room, or for someone they admire, on their
 
 - Must show: A single member making a small piece alone and saying so: 'I wrote a small X, protect it', 'I added a little something for my bias', 'I decided to make a tribute'.
 - Must not show: Members reporting their share of the room's work (T3-003); proposing a mark to the room (T3-033).
-- Decide when both: A lone piece that the room then takes up: T3-092 for the lone making, T3-038 for the room's build.
+- Decide when both: A lone piece that the room then takes up: T3-092 for the lone making, T3-038 for the room's build. A piece begun alone and then offered to the room for others to join: T3-033 when the offer leads, T3-092 when the lone making is reported with no call.
 - Against T3-003: Is the work one member's own small piece (T3-092), or a share in the room's work (T3-003)?
 - Against T3-033: Is a mark proposed for the room to make (T3-033), or made alone and reported (T3-092)?
+- Against T3-060: Is the piece added to a shared mark (T3-060), or made alone apart from one (T3-092)?
+- Against T3-160: Is the tribute to someone who died (T3-160), or a lone member's tribute to anyone (T3-092)?
 - Varies: From a tiny tribute made before a long drive to a small logo one member keeps alive.
 - Is not: A member reporting how many pixels they placed on the room's flag (T3-003).
 - Exemplars: "I've got a 12 hour drive ahead of me, so I decided to make a tribute to Datlof on r/place." (yogscast c0043); "I wrote a small "SYD FC" on r/place. Protect it" (SydneyFC c0019, rivals c0012); "I added a little something for my bias" (bangtan c0055)
@@ -1175,6 +1259,7 @@ Members put the sub's name on or beside the work: r/name, a sign, a label. Floor
 - Against T3-044: Is the name written to sign the work (T3-169), or to bring visitors to the sub (T3-044)?
 - Against T3-191: Is the name put on (T3-169), or left off on purpose (T3-191)?
 - Against T3-004: Is the mark's design settled (T3-004), or its signature added (T3-169)?
+- Against T3-002: Is the work the sub's name written on the canvas (T3-169), whatever the call or report about it, or any other picture called for (T3-002)?
 - Varies: From a short tag under a logo to arguments over which short name fits the space.
 - Is not: Dropping the sub's name so that the work is no target (T3-191).
 - Exemplars: "We should display our subreddit name" (PurplePixels c0074); "Just added in R/SS13, just need the Greytide worldwide bit." (ss13 c0009); "we could use /r/DRHE. It could probably fit right under Lord without taking up too much space from the rainbow." (drawhelix c0038)
@@ -1202,6 +1287,8 @@ Rare tier. The room shapes its canvas work around what the creator of its subjec
 - Against T3-063: Are canvas posts handled under the sub's rules (T3-063), or shaped by the creator's wish (T3-197)?
 - Against T3-090: Is a canvas sub opened for order (T3-090), or to keep the work out of the creator's way (T3-197)?
 - Against T3-140: Do the moderators disown the work (T3-140), or does the room heed its creator (T3-197)?
+- Against T3-127: Is the creator's notice sought (T3-127), or the creator's wishes followed (T3-197)?
+- Against T3-015: Is the canvas talk moved or shaped because the creator of the room's subject asked (T3-197), or gathered into one thread with no creator's wish behind it (T3-015)?
 - Varies: From passing on that the author wants his name kept out to asking members not to ping him.
 - Is not: Moderators gathering canvas talk into a megathread for order (T3-015).
 - Exemplars: "Am hearing wildbow would prefer if we kept his name out of it, so focus on the top part and protecting the bug." (parahumans c0033, rivals c0063); "the moderator of this sub and author of its subject matter has asked to keep all the /r/place stuff to the pinned" (parahumans c0079, rivals c0063); "Please don't ping Wildbow. He gets enough spam as it is, and just distracts him from important stuff." (parahumans c0053, rivals c0063)
@@ -1233,6 +1320,7 @@ Members announce that the room's mark is on the canvas: 'we got on r/place', wit
 - Against T3-082: Is the room's own work announced (T3-026), or a mark found that the room did not know of (T3-082)?
 - Against T3-009: Is the mark announced as being up (T3-026), or the finished work celebrated (T3-009)?
 - Against T3-038: Is the mark's progress reported (T3-038), or its presence announced (T3-026)?
+- Against T3-065: Is the room's mark announced as up (T3-026), or is the work the flag of the room's own land, announced, called for or built (T3-065)?
 - Varies: From a one-line post to a weekly roundup that names the mark.
 - Is not: A member finding that someone made the sub's logo without the room (T3-082).
 - Exemplars: "We got on /r/place!" (genderfluid c0007); "We made it onto r/place" (calgaryflames c0110); "GNU/Linux on /r/place" (linux c0031)
@@ -1249,6 +1337,8 @@ Members build the mark and report its progress: started, half done, almost there
 - Against T3-009: Is the work under way (T3-038), or finished and celebrated (T3-009)?
 - Against T3-003: Is the room's mark reported (T3-038), or one member's own share (T3-003)?
 - Against T3-073: Is the first build's progress reported (T3-038), or what happened to the work once it stood (T3-073)?
+- Against T3-026: Is the mark's progress reported (T3-038), or its presence announced (T3-026)?
+- Against T3-004: Is the mark being placed and its progress reported (T3-038), or its look argued and corrected against the plan (T3-004)?
 - Varies: From a start at given coordinates to running reports until the close.
 - Is not: Restoring the mark after an attack (T3-021).
 - Exemplars: "Making really good progress now. We are about half way done." (necrodancer c0014); "I've started to make one. Finished with the face and eyes in the vicinity of (886,563)" (hyperlightdrifter c0008); "WE ARE ALMOST THERE FELLOW GREENS!!!" (greenlattice c0109)
@@ -1264,6 +1354,9 @@ The room adds pieces to its work or enlarges it: a second picture, another album
 - Against T3-060: Does the room extend its own work (T3-041), or does a member add a personal piece to a shared mark (T3-060)?
 - Against T3-042: Is growth pursued (T3-041), or set aside for upkeep (T3-042)?
 - Against T3-004: Is the existing mark's look settled (T3-004), or a new piece or enlargement added (T3-041)?
+- Against T3-061: Does the room grow into empty space or onto its own work (T3-041), or into a neighbour's space (T3-061)?
+- Against T3-113: Is a further piece added to any work (T3-041), or a national emblem to the flag (T3-113)?
+- Against T3-171: Is the room's work extended (T3-041), or a colour spread for its own sake (T3-171)?
 - Varies: From a cake beside a logo to a run of album covers; enlarged letters; details added around a figure.
 - Is not: The room's first proposal of a mark (T3-033).
 - Exemplars: "Let's do College Dropout next on /r/place" (kanye c0147); "An idea to add the AI logo above the N7 logo" (masseffect c0182); "Just an update. The origin cover is next to it now :)" (muse c0078)
@@ -1279,6 +1372,7 @@ The room puts keeping what it holds before growing: maintain, clean, defend firs
 - Against T3-041: Is growth pursued (T3-041), or set aside (T3-042)?
 - Against T3-021: Is the work repaired (T3-021), or upkeep argued as the room's priority over growth (T3-042)?
 - Against T3-076: Is the room's own attack on others stopped (T3-076), or upkeep put before expansion (T3-042)?
+- Against T3-055: Is the mark reshaped to resist tampering (T3-055), or expansion dropped for upkeep (T3-042)?
 - Varies: From a refusal to anger another sub to a faction's 'clean first' against its expansionists.
 - Is not: Dropping one of the room's pieces to save pixels for another (T3-069).
 - Exemplars: "To all you expansionists: CLEAN FIRST!" (greenlattice c0257, rivals c0530); "I'm focused on maintaining the current pattern for now" (armok c0035); "focus on keeping our small loli sign together before we decide to make any big plans." (loliconsunite c0051)
@@ -1293,6 +1387,7 @@ Members add their own piece to a mark many share: a word, a heart, a drug's name
 - Against T3-041: Does the room extend its work (T3-041), or does a member add a personal piece to a shared mark (T3-060)?
 - Against T3-092: Is the piece added to a shared mark (T3-060), or made alone apart from one (T3-092)?
 - Against T3-056: Is a joint mark of kindred rooms made (T3-056), or a personal piece added inside it (T3-060)?
+- Against T3-068: Does a member add their own piece to a mark many share (T3-060), or turn another room's art into the room's sign (T3-068)?
 - Varies: From one drug's name in a molecule area to words and hearts added to a shared flag.
 - Is not: A member making a tribute alone, away from any shared mark (T3-092).
 - Exemplars: "I got the THC under DMT, working on PSILOCYBIN on top of the MDMA now." (shrooms c0017); "Help write "TRANS" above the flag" (TransFlagPlace c0211, rivals c0248); "TWEAKERS OF R/DRUGS, LETS CHANGE MDMA TO SAY METH BECAUSE WHY THE FUCK NOT" (drugs c0165)
@@ -1321,6 +1416,7 @@ Members find a mark of their room already on the canvas, made by others or witho
 - Against T3-044: Do the room's members find their own mark (T3-082), or are outsiders led to the sub by it (T3-044)?
 - Against T3-026: Is a mark found that the room did not know of (T3-082), or the room's own work announced (T3-026)?
 - Against T3-175: Is the room's own subject found drawn (T3-082), or another's sign adopted as the room's (T3-175)?
+- Against T3-052: Is another picture remarked on (T3-052), or the room's own mark found already placed (T3-082)?
 - Varies: From surprise at a logo someone made to members joining the work they found.
 - Is not: A visitor finding the sub through its mark (T3-044).
 - Exemplars: "Found a Northwestern N on Reddit's new April Fool's project" (Northwestern c0001); "Someone made a 1g on /r/place" (globaloffensive c0224); "Look who's made an appearance on r/Place..." (Madeon c0032)
@@ -1334,6 +1430,8 @@ The room adopts as its own a sign others began: a neighbour's character made a m
 - Decide when both: Adopting with a recolouring: T3-068 when the art is placed over, T3-175 when it is claimed with little or no change.
 - Against T3-068: Is another's art recoloured into the room's (T3-068), or adopted with little or no change (T3-175)?
 - Against T3-082: Is the room's own subject found drawn (T3-082), or another's sign taken up as the room's (T3-175)?
+- Against T3-071: Is the room's work adopted by a neighbour (T3-071), or another's sign adopted by the room (T3-175)?
+- Against T3-137: Does the room take another's sign as its own (T3-175), or put its pixels into another group's build (T3-137)?
 - Varies: From Squirtle made a Portuguese hero to a party parrot declared a comrade.
 - Is not: Painting the room's flag over a neighbour's work (T3-068).
 - Exemplars: "Squirtle Camões a mascote oficial do /r/portugal!" (portugal c0312); "Si Portugal tiene adoptó a Squirtle como su mascota, deberíamos adoptar al yoshi" (mexico c0118); "COMRADE PARTY PARROT DOING HIS PART IN BASHING THE FASH" (fullcommunism c0106, rivals c0141)
@@ -1358,13 +1456,19 @@ A member who led the work hands it to the community: maintainership passed on, t
 Members rally to defend the room's work against an attack under way: alarms, calls to fight back and hold, reports of attacks staved off. Floor: naruto and gatech, unlike in size (naruto holds 3,975 items in the window and gatech 919, over twice as many).
 
 - Must show: An attack on the room's work and the room's answer: alarms, calls to defend or fight back, holding the line, reports of an attack repelled.
-- Must not show: Watching and repairing with no attacker in view (T3-021); naming or tracing the attacker (T3-087); pleading with the attackers (T3-139); attacking others' work (G12).
+- Must not show: Watching for damage and repairing it, with or without an attacker in view, where no fight is called (T3-021); naming or tracing the attacker (T3-087); pleading with the attackers (T3-139); attacking others' work (G12).
 - Decide when both: Defence and repair: T3-005 when the attack and the fight lead, T3-021 when the watching and fixing do; tracing who attacked in concepts of its own adds T3-087.
 - Against T3-021: Is an attack fought (T3-005), or the work watched and fixed with or without an attacker in view (T3-021)?
 - Against T3-087: Is the attack fought (T3-005), or its source traced (T3-087)?
 - Against T3-139: Do members fight the attack (T3-005), or ask the attackers to stop (T3-139)?
 - Against T3-006: Is the room's own work defended (T3-005), or another's work attacked (T3-006)?
 - Against T3-081: Is the defence told as a fight (T3-005), or cast as a historic national war (T3-081)?
+- Against T3-011: Is the room's own work defended (T3-005), or another room's work helped or defended by the room's members, a pledge to protect it included (T3-011)?
+- Against T3-002: Is the call to build or finish (T3-002), or to defend against an attack under way (T3-005)?
+- Against T3-055: Are attackers fought off (T3-005), or the mark's shape changed against them (T3-055)?
+- Against T3-123: Is an attack fought off (T3-005), or a request to yield refused (T3-123)?
+- Against T3-124: Is the attack fought off (T3-005), or is fighting one option weighed against another (T3-124)?
+- Against T3-141: Is an attack fought off (T3-005), or the night covered (T3-141)?
 - Varies: From one alarm to day-long defence against bots, raids and the Void; defenders outnumbered or victorious.
 - Is not: Cleaning stray pixels from the room's work with no attacker named (T3-021).
 - Exemplars: "We are under attack by Virginia Tech. Stay strong!" (gatech c0007); "People are trying to kill our 4136121025 on Place. Let's get back to Place and fight them!" (homestuck c0105); "r/Naruto is under attack in r/Place! This is not a drill!" (naruto c0134)
@@ -1400,7 +1504,7 @@ Members contact individual placers who damage the work, by private message or by
 
 Members keep watch over the room's work and repair it: fixing changed and stray pixels, cleaning, keeping it intact over hours. Floor: newzealand and luxembourg, unlike in size (newzealand holds 8,226 items in the window and luxembourg 60, over twice as many).
 
-- Must show: Upkeep of the work: watching it, fixing changed pixels, cleaning stray ones, routines of repair, reports of damage to be fixed.
+- Must show: Upkeep of the work: watching it, fixing changed pixels, cleaning stray ones, routines of repair, reports of damage to be fixed. Repair during a raid counts here when the fixing leads and no fight is called.
 - Must not show: An attack fought as such (T3-005); the mark reshaped against tampering (T3-055); watch through the night arranged as shifts (T3-141); a script that repairs (T3-028).
 - Decide when both: Fight and upkeep: see T3-005. Upkeep with night shifts: T3-021 primary, T3-141 added when the shifts have concepts of their own.
 - Against T3-005: Is the work watched and fixed (T3-021), or an attack fought (T3-005)?
@@ -1408,6 +1512,10 @@ Members keep watch over the room's work and repair it: fixing changed and stray 
 - Against T3-055: Is the mark restored as it was (T3-021), or changed in shape against tampering (T3-055)?
 - Against T3-038: Is the work first built (T3-038), or kept and restored (T3-021)?
 - Against T3-028: Is it kept by hand (T3-021), or by a script (T3-028)?
+- Against T3-007: Is the work simply repaired (T3-021), or repair urged instead of striking back (T3-007)?
+- Against T3-042: Is the work repaired (T3-021), or upkeep argued as the room's priority over growth (T3-042)?
+- Against T3-073: Is what happened told (T3-073), or the work watched and repaired (T3-021)?
+- Against T3-146: Is a hate symbol or slur covered (T3-146), or the work repaired of other damage, obscene drawings included (T3-021)?
 - Varies: From a morning routine of cleaning a logo to hours of watching one small figure.
 - Is not: Running a script that restores the work (T3-028).
 - Exemplars: "My morning routine the last couple days: Wake up, check the news, clean up the Florida logo" (floridagators c0114); "Yes, I've had my eye on it for the last 2 hours or so" (luxembourg c0013); "But most importantly we must keep the kiwi, text and boarder clean" (newzealand c0229)
@@ -1422,6 +1530,8 @@ After the work is erased or overrun, the room moves it: a new spot, a smaller ve
 - Against T3-020: Is a spot chosen in the first place (T3-020), or a new one found after a loss (T3-022)?
 - Against T3-124: Is the move weighed (T3-124), or made (T3-022)?
 - Against T3-039: Does the room move because its work was lost (T3-022), or because a neighbour asked for the space (T3-039)?
+- Against T3-054: Does the work move to a new spot on the same canvas (T3-022), or to another canvas (T3-054)?
+- Against T3-029: Is the lost work grieved (T3-029), or moved or restarted elsewhere (T3-022)?
 - Varies: From one quick move after an erasure to a run of moves and shrinkings as the canvas fills.
 - Is not: Moving aside when a neighbour asks for room (T3-039).
 - Exemplars: "nah, we've moved, some assholes erased all of it" (donaldglover c0047, rivals c0032); "Phoenixs finger is destroyed we will have to find someplace else" (aceattorney c0025); "At this point, I believe it's in our best interest to find a different location." (seolhyun c0007)
@@ -1437,6 +1547,8 @@ Members ask the room or group damaging their work to stop or spare it: 'please d
 - Against T3-008: Is a group or room asked (T3-139), or individual placers contacted (T3-008)?
 - Against T3-035: Is space asked for (T3-035), or an attack asked to stop (T3-139)?
 - Against T3-046: Is the fairness of covering others' work argued (T3-046), or the covering asked to stop (T3-139)?
+- Against T3-076: Are the room's own attackers stopped (T3-076), or another room's attackers asked to stop (T3-139)?
+- Against T3-010: Is a line or space settled between neighbours (T3-010), or another room's attackers asked to stop (T3-139)?
 - Varies: From a polite request posted in the attacker's own thread to angry demands that a faction end its expansion.
 - Is not: A request to a host for room before any damage (T3-035).
 - Exemplars: "Please don't destroy our N7 and Garrus logo please!" (placestart c0326, rivals c0435 c0412); "Red chiken wld happily live in one of ur tentacles pls stop severing chaken in half" (mcgill c0047); "Please don't delete the Darth Plagueis text" (ainbowroad c0624, rivals c1147)
@@ -1454,6 +1566,8 @@ After the canvas closes, members blame the room that destroyed or attacked their
 - Against T3-029: Is the lost work mourned (T3-029), or a room blamed for it (T3-058)?
 - Against T3-118: Is an attacking room blamed (T3-058), or the moderators or admins (T3-118)?
 - Against T3-050: Are taunts traded with a rival as sport (T3-050), or blame laid for a loss (T3-058)?
+- Against T3-030: Is a rival blamed for a loss (T3-058), or an ally's conduct disputed (T3-030)?
+- Against T3-073: Is what happened to the work told (T3-073), or a named room blamed for its loss after the close (T3-058)?
 - Varies: From a curse on a nation's sub kept alive as a meme to careful accounts of who ruined what in the last hour.
 - Is not: Members working out during placement who is changing their pixels (T3-087).
 - Exemplars: "Fuck Thailand But hey at least we made it onto a piece of Internet history." (uoft c0182); "in the final hour of the canvas being open, r/Denmark destroyed our logo... RIP" (survivor c0320); "Fuck /r/Denmark" (frankocean c0210, rivals c0203)
@@ -1470,6 +1584,9 @@ Members work out who changed their work or who sent a call: checking placers, na
 - Against T3-188: Do members work out who did it (T3-087), or does an organised room tell others that such placers are not under its control (T3-188)?
 - Against T3-170: Is the culprit sought (T3-087), or found to be a friend or one's own mistake (T3-170)?
 - Against T3-132: Is the source traced from the pixels and what others say (T3-087), or learned from inside a rival's chat (T3-132)?
+- Against T3-121: Do members find out or name who is damaging the work (T3-087), or exclude a member who did, by a ban, a kick or a call to moderators to throw them out (T3-121)?
+- Against T3-008: Is the placer only traced (T3-087), or contacted and asked to stop (T3-008)?
+- Against T3-045: Is who altered the work traced (T3-087), or who was at the spot first argued (T3-045)?
 - Varies: From 'who keeps putting green in our logo?' to reading usernames and posting histories; bots and scripts suspected; who sent a call traced.
 - Is not: An organised room telling a neighbour that placers in its name are not under its control (T3-188).
 - Exemplars: "anyone know who keeps fucking with the letters?" (AcePlace c0053); "clicked on the user who put it on there.. and they have been posting on the smite reddit alot.." (smite c0370); "jeeze finland has a huge amount of space who keeps fucking putting green in our shit???" (chibears c0086)
@@ -1484,6 +1601,7 @@ Members blame the sub's moderators, or the site's admins, for a loss: their pran
 - Against T3-058: Is an attacking room blamed (T3-058), or the moderators or admins (T3-118)?
 - Against T3-063: Is a removal contested (T3-063), or a loss laid at the moderators' door (T3-118)?
 - Against T3-032: Is the moderators' joke objected to as a joke (T3-032), or blamed for a loss (T3-118)?
+- Against T3-185: Are moderators or admins blamed for a loss (T3-118), or a change to the sub's posting rules made and argued with no loss in view (T3-185)?
 - Varies: From a joke that a defeat will be the moderators' fault to suspicions that admins added touches to the canvas.
 - Is not: Contesting a single removal under the sub's rules (T3-063).
 - Exemplars: "If we lose it's the mods fault" (chelseafc c0048, rivals c0088 c0081); "When /r/prequelmemes mods pretend to be protectors of the /r/place Tragedy text after denying multiple requests for aid" (prequelmemes c0508); "I almost wonder if the admins helped some things or added in their final touches." (anarcho_capitalism c0165)
@@ -1499,6 +1617,7 @@ The room sanctions its own members who damage the work or the room by exclusion:
 - Against T3-063: Is a post removed under the sub's rules (T3-063), or a member excluded as a sanction (T3-121)?
 - Against T3-182: Is bigotry in chat shut down (T3-182), or a member sanctioned by exclusion for damage to the work or the room (T3-121)?
 - Against T3-076: Is the room's attack reined in by words (T3-076), or a member excluded (T3-121)?
+- Against T3-087: Do members find out or name who is damaging the work (T3-087), or exclude a member who did, by a ban, a kick or a call to moderators to throw them out (T3-121)?
 - Varies: From shunning a single traitor to a three-day cooling-off; a ban from the room's Discord challenged and reversed.
 - Is not: A moderator removing a post that breaks the sub's rules (T3-063).
 - Exemplars: "that guy was banned from the server" (roosterteeth c0088); "**SHUN THE NONBELIEVER**" (ufl c0031, rivals c0030); "Use that report button so our mods can throw out the trolls spreading disinformation" (AmericanFlaginPlace c0502)
@@ -1514,6 +1633,8 @@ Members dispute who may speak or decide for a room toward others: false claims t
 - Against T3-188: Is the right to speak for the room disputed (T3-126), or placers outside the plan disowned (T3-188)?
 - Against T3-194: Does a member act as the room's envoy (T3-194), or is the right to do so disputed or denied (T3-126)?
 - Against T3-101: Is someone put in charge of the work (T3-101), or is it disputed who speaks for the room outward (T3-126)?
+- Against T3-094: Is it disputed who speaks for a room (T3-126), or who may approve a spot (T3-094)?
+- Against T3-180: Is it disputed who speaks for the room (T3-126), or who belongs to the nation (T3-180)?
 - Varies: From a false moderator claim exposed to a random member denying they are the official mediator; a room telling other Discords not to decide for its art; a pattern's repeaters with no one to speak for them.
 - Is not: A room telling a neighbour that rogue placers act against its plan (T3-188).
 - Exemplars: "w-wait man im just some random guy not the official mediator" (jerma985 c0030); "Please don't pretend like you can make decisions about the artwork that was started by us." (crusaderkings c0051); "i don't think there's coordination yet of the people doing the rainbow grid??? unless i missed it??? so there's no way yet to get people to lay off of repeating the exact same grid" (rainbowgrid c0003)
@@ -1545,6 +1666,7 @@ An organised room tells others that placers acting in its name or against its pl
 - Against T3-076: Does the room rein in its own attackers (T3-076), or say the placers are not its own (T3-188)?
 - Against T3-140: Do moderators say the sub has no canvas project at all (T3-140), or does the room set its project apart from rogues (T3-188)?
 - Against T3-195: Does an organised room say it does not control placers acting in its name (T3-188), or hold another room to an agreement (T3-195)?
+- Against T3-049: Is the plan itself scattered (T3-049), or are placers acting against a plan set apart from the room (T3-188)?
 - Varies: From one disowned rogue in a chat to national rooms saying their plans do not control every placer of their nation; offers to repair the rogues' damage.
 - Is not: A room that says it has no plan and wings it (T3-125).
 - Exemplars: "We are not for that person in the discord. We completely disagree with them entirely." (ainbowroad c0042, rivals c0386 c0593); "We are trying avoiding cutting through you guys, but there are some rogues outside our discord" (gatech c0077, rivals c0072); "There will always be some rogue kids ruining stuff. Just make sure to rebuild it." (denmark c0198, rivals c0285)
@@ -1559,6 +1681,8 @@ Members grief a work for fun, the room's own or another's, and own it or joke ab
 - Against T3-006: Is a rival's work defaced for the room (T3-006), or any work, the room's own included, griefed for fun (T3-192)?
 - Against T3-170: Was the damage a mistake (T3-170), or done for fun (T3-192)?
 - Against T3-031: Is the joke played by damaging the work (T3-192), or told in talk (T3-031)?
+- Against T3-177: Is the griefing for fun with no hate symbol (T3-192), or a swastika called for (T3-177)?
+- Against T3-061: Is a work griefed for fun and owned as a joke (T3-192), or the room's work pushed into a neighbour's space for its own ends (T3-061)?
 - Varies: From turning 60 into 69 on the room's own logo to griefing a rival's logo to hear its fans complain.
 - Is not: A member admitting a misclick (T3-170).
 - Exemplars: "Really sad how people take this so srsly, im griefing it a lot just to enjoy hearing the kiddos cry" (paladins c0215, rivals c0209); "I'm working on restoring the 60 fps. But i changed it to 69. because i have the mind of a 12 year old." (pcmasterrace c0889); "I'll admit it, I changed it to that a few times." (prequelmemes c0684)
@@ -1592,6 +1716,9 @@ Members write, share and run scripts or bots that place or keep the room's work.
 - Against T3-089: Are scripts run for the plan (T3-028), or stopped because they fight it (T3-089)?
 - Against T3-108: Is the bot the room's own (T3-028), or one target pooled with other rooms (T3-108)?
 - Against T3-070: Is a template shared for placing by hand (T3-070), or a script that places (T3-028)?
+- Against T3-021: Is it kept by hand (T3-021), or by a script (T3-028)?
+- Against T3-120: Do members run the script on their own accounts (T3-028), or lend accounts for someone else's bot (T3-120)?
+- Against T3-176: Is the script run for the room's own work (T3-028), or slipped to a rival against it (T3-176)?
 - Varies: From one member offering a way to draw automatically to sub-wide bot armies with install guides; scripts that repair a mark overnight.
 - Is not: A template posted for placing by hand (T3-070).
 - Exemplars: "To use it, install TamperMonkey, load https://www.reddit.com/place?webview=true, and let the script do its work." (TheFarLeftSide c0506); "anyone wishing to join the bot army install the nodejs script" (archlinux c0157); "So I may or may not have a way to draw on /r/place automatically. Hit me up." (tagpro c0036)
@@ -1607,6 +1734,7 @@ Members place more than the one-pixel limit allows: extra accounts, alts, throwa
 - Against T3-074: Is the limit worked within (T3-074), or broken (T3-088)?
 - Against T3-120: Does a member place more with their own accounts (T3-088), or lend them to another's bot (T3-120)?
 - Against T3-110: Are extra placements made (T3-088), or a tile offered as payment (T3-110)?
+- Against T3-027: Are extra accounts used (T3-088), or the fairness of automation argued (T3-027)?
 - Varies: From a reminder that alt accounts work too to plans for multi-account scripts; members insisting the work is manual despite many accounts.
 - Is not: Working within the cooldown while building (T3-074).
 - Exemplars: "Reminder that alt accounts work too." (bitcoin c0149); "I made two more reddit accounts to assist in protecting" (uofm c0008); "Lol spent better part of 2 hours and 3 accounts on this. XD" (zootopia c0100)
@@ -1696,6 +1824,14 @@ Members call for, plan or carry out attacks that destroy, black out or erase ano
 - Against T3-005: Is another's work attacked (T3-006), or the room's own defended (T3-005)?
 - Against T3-128: Is the call the room's own (T3-006), or a streamer's relayed (T3-128)?
 - Against T3-076: Is an attack called for (T3-006), or reined in (T3-076)?
+- Against T3-067: Is a rival attacked for the room (T3-006), or a third room's work bargained away to a neighbour (T3-067)?
+- Against T3-085: Are flags attacked (T3-006), or weighed against the room's art (T3-085)?
+- Against T3-086: Is a rival's work defaced (T3-006), or the community's own quarrel carried into the marks (T3-086)?
+- Against T3-102: Is the attack called for by the room (T3-006), or pressed by a member against the room's word (T3-102)?
+- Against T3-171: Is a rival's work destroyed (T3-006), or the faction's colour spread over whatever lies in its way (T3-171)?
+- Against T3-176: Is the rival's work defaced by members placing (T3-006), or by a script planted on the rival (T3-176)?
+- Against T3-177: Is a rival's work defaced (T3-006), or a swastika drawn (T3-177)?
+- Against T3-178: Is a canvas work attacked (T3-006), or one person on another site (T3-178)?
 - Varies: From one member's 'let's attack' to timed strikes with coordinates; rivalries of sport, nation, fandom and colour.
 - Is not: Painting the room's colours or symbol into a neighbour's art (T3-068).
 - Exemplars: "WIPE OUT ARIZONA ON r/place! B1G Only! Get Started Now!" (uofmn c0039); "Fellow erasers, we must destroy the blue corner!" (EraseThePlace c0038); "Lets attack the danish flag." (theblackvoid c1559, rivals c1721 c1009 c1177)
@@ -1711,6 +1847,8 @@ The room grows its own work into space a neighbour holds: expanding over another
 - Against T3-068: Is the room's own work grown over the neighbour (T3-061), or the neighbour's art turned into the room's sign (T3-068)?
 - Against T3-041: Does the room grow into empty space or onto its own work (T3-041), or into a neighbour's space (T3-061)?
 - Against T3-010: Is the space taken (T3-061), or agreed (T3-010)?
+- Against T3-171: Is a picture grown into a neighbour's space (T3-061), or a colour spread as the aim (T3-171)?
+- Against T3-192: Is a work griefed for fun and owned as a joke (T3-192), or the room's work pushed into a neighbour's space for its own ends (T3-061)?
 - Varies: From a proposal to fight for room beside a cloud to a nation's flag pushed across its neighbours' flags.
 - Is not: Adding a second piece in empty canvas (T3-041).
 - Exemplars: "we could wage war with that yellow thing next to the cloud for space for her" (ChronoTrigger c0092); "Lets take the mexican flag, now is our chance." (theitalyplace c0247); "I'm gonna keep expanding west im not giving up boys" (armenia c0028)
@@ -1739,6 +1877,8 @@ Members turn another room's art into the room's own sign: a logo changed into th
 - Against T3-061: Is the other's art converted (T3-068), or its space taken for the room's own work (T3-061)?
 - Against T3-175: Is another's sign changed into the room's (T3-068), or adopted with little or no change (T3-175)?
 - Against T3-130: Is the converting the doing (T3-068), or the national politics read into the choice of target (T3-130)?
+- Against T3-071: Is the work taken in with consent (T3-071), or converted by placing over it (T3-068)?
+- Against T3-060: Does a member add their own piece to a mark many share (T3-060), or turn another room's art into the room's sign (T3-068)?
 - Varies: From a pokeball turned into a band's emblem to national flags recoloured into the room's flag.
 - Is not: Adopting a neighbour's character as a mascot with no change (T3-175).
 - Exemplars: "Should we change Finland's flag into ours?" (england c0021); "turning it into a dig logo rn" (TeamDignitas c0022); "we could turn this pokeball into a stealie?" (gratefuldead c0007)
@@ -1798,6 +1938,7 @@ The room gives ground when a neighbour asks: moving, shifting or shrinking its w
 - Against T3-022: Does the room move because a neighbour asked (T3-039), or because its work was lost (T3-022)?
 - Against T3-024: Does the room yield to a request (T3-039), or spare others' work unasked (T3-024)?
 - Against T3-012: Does the room give up its own space (T3-039), or grant a neighbour room on its work (T3-012)?
+- Against T3-010: Is a line or space settled between neighbours (T3-010), or the room's work moved, shrunk or given up because a neighbour asked (T3-039)?
 - Varies: From a sign moved a few pixels left to a whole attempt forfeited to another room.
 - Is not: Moving the work after an attack destroyed it (T3-022).
 - Exemplars: "we should just move the libra/terezi sign to the left and let university of toronto take it back" (homestuck c0253); "we've successfully moved them from one-over-the-other to a side-by-side" (daftpunk c0045); "I forfeit my attempt at Totoro" (paranatural c0017)
@@ -1812,6 +1953,9 @@ Members apologise to a neighbouring room for damage the room or its members did 
 - Against T3-170: Is damage to a neighbour's work apologised for (T3-040), or a friendly mistake inside the room's own or allied work owned (T3-170)?
 - Against T3-183: Is the apology made to the neighbour (T3-040), or the covered art mourned among members (T3-183)?
 - Against T3-076: Is the damage apologised for (T3-040), or the attackers stopped (T3-076)?
+- Against T3-047: Is damage to a neighbour's work apologised for (T3-040), or a quarrel between the subs closed (T3-047)?
+- Against T3-119: Do the former attackers only apologise (T3-040), or help repair (T3-119)?
+- Against T3-010: Is a line or space settled between neighbours (T3-010), or damage the room did to a neighbour's work apologised for (T3-040)?
 - Varies: From a one-line 'I'm so sorry' to offers to redraw the character nearby; apologies made on behalf of a nation's members.
 - Is not: A member admitting a misclick in the room's own work (T3-170).
 - Exemplars: "Sorry about that, if you have the reference pixel art, some of us might be able to help you draw it nearby" (sakuragakuin c0047); "We're as sorry as Canadians that we forced you to relocate." (monsterhunter c0189); "I wanted to apologize, for what it's worth, for all of the asshole people from our subreddit that attacked you." (TheHulk c0109)
@@ -1844,6 +1988,11 @@ Members tell their own room's attackers to stop: no more attacks, leave the neig
 - Against T3-188: Does the room rein in its own attackers (T3-076), or say the attackers are not its own (T3-188)?
 - Against T3-046: Is the attack stopped (T3-076), or the fairness of covering argued (T3-046)?
 - Against T3-195: Does the room stop its own attackers (T3-076), or hold another room to an agreement (T3-195)?
+- Against T3-006: Is an attack called for (T3-006), or reined in (T3-076)?
+- Against T3-007: Is an attack the room started stopped (T3-076), or retaliation for damage it suffered declined (T3-007)?
+- Against T3-040: Is the damage apologised for (T3-040), or the attackers stopped (T3-076)?
+- Against T3-042: Is the room's own attack on others stopped (T3-076), or upkeep put before expansion (T3-042)?
+- Against T3-121: Is the room's attack reined in by words (T3-076), or a member excluded (T3-121)?
 - Varies: From one 'stop messing with other schools' to moderators' rules against new wars; attacks withdrawn after an objection.
 - Is not: A member asking another room's raiders to stop (T3-139).
 - Exemplars: "No, stop messing with other schools" (Temple c0054); "Alot of people from this sub are vandalizing the art on place, this is getting annoying" (rocketleague c0365); "SEGERA HENTIKAN SERANGAN KE INTRODWARF" (indonesia c0130)
@@ -1873,6 +2022,8 @@ Members refuse to give up the room's space when a neighbour asks or presses: 'th
 - Against T3-045: Is who came first argued (T3-045), or is the space refused on any ground (T3-123)?
 - Against T3-005: Is an attack fought off (T3-005), or a request to yield refused (T3-123)?
 - Against T3-124: Is fighting set against moving (T3-124), or is moving refused outright (T3-123)?
+- Against T3-059: Is giving up urged (T3-059), or refused (T3-123)?
+- Against T3-010: Is a line or space settled between neighbours (T3-010), or a neighbour's demand for the room's space refused (T3-123)?
 - Varies: From a polite 'we'd rather stay' to promises to defend the space against a named neighbour.
 - Is not: A room moving after a neighbour asks (T3-039).
 - Exemplars: "No, this is our space! We will defend it" (uiuc c0123, rivals c0114 c0126); "Yes- we mind. We've been working on protecting that TARDIS and the cube above it for quite a while." (tinytardis c0040); "Actually, we've fought hard for the area and had to negotiate with others when they were taking up part of our space." (qotsa c0029, rivals c0028)
@@ -1905,6 +2056,17 @@ Neighbouring rooms settle lines, overlaps, moves and spots between their works: 
 - Against T3-194: Is a member acting as the room's envoy the doing (T3-194), or the line agreed (T3-010)?
 - Against T3-195: Is a line settled now (T3-010), or an agreement already made invoked (T3-195)?
 - Against T3-024: Is the line agreed with the neighbour (T3-010), or others' work spared by the room's own choice (T3-024)?
+- Against T3-052: Is a neighbour remarked on (T3-052), or a border with it settled (T3-010)?
+- Against T3-061: Is the space taken (T3-061), or agreed (T3-010)?
+- Against T3-153: Is the theme the place of the talks (T3-153), or the border or space agreed (T3-010)?
+- Against T3-168: Is the border agreed (T3-010), or the script changed to keep it (T3-168)?
+- Against T3-012: Is a line or shared space agreed between the two rooms (T3-010), or a neighbour simply let onto the room's own work or area (T3-012)?
+- Against T3-035: Is a line or space settled between neighbours (T3-010), or space or permission asked of the room that holds it (T3-035)?
+- Against T3-039: Is a line or space settled between neighbours (T3-010), or the room's work moved, shrunk or given up because a neighbour asked (T3-039)?
+- Against T3-040: Is a line or space settled between neighbours (T3-010), or damage the room did to a neighbour's work apologised for (T3-040)?
+- Against T3-084: Is a line or space settled between neighbours (T3-010), or another room asked, as a group, to help with the work (T3-084)?
+- Against T3-123: Is a line or space settled between neighbours (T3-010), or a neighbour's demand for the room's space refused (T3-123)?
+- Against T3-139: Is a line or space settled between neighbours (T3-010), or another room's attackers asked to stop (T3-139)?
 - Varies: From a request to shift a pixel or two to borders drawn with several neighbours at once; overlaps accepted with grumbling.
 - Is not: A truce ending raids between two rooms (T3-149).
 - Exemplars: "would it be possible to shift right like a pixel or two?" (Temple c0094); "All we're doing is pushing your border back 2 pixels to the left so we can keep our logo intact" (mindcrack c0074); "I don't mind the minecraft people making their shovel overlap the flag" (aromantic c0008)
@@ -1920,6 +2082,13 @@ Members send their pixels to another room's work: helping build, finish or defen
 - Against T3-084: Is help asked for (T3-084), or sent (T3-011)?
 - Against T3-150: Are the rooms allied for joint defence (T3-150), or is help sent to another's work (T3-011)?
 - Against T3-137: Does the member help another's work while keeping the room's own (T3-011), or join another group's build as theirs (T3-137)?
+- Against T3-005: Is the room's own work defended (T3-005), or another room's work helped or defended by the room's members, a pledge to protect it included (T3-011)?
+- Against T3-056: Is help sent to another's own work (T3-011), or one mark made together (T3-056)?
+- Against T3-062: Is help asked for (T3-062), or sent to another room's work (T3-011)?
+- Against T3-078: Is help sent to any room's work (T3-011), or to a kin nation's flag as kin (T3-078)?
+- Against T3-099: Is the bigger room sending help (T3-011), or the small room relying on it (T3-099)?
+- Against T3-119: Is help sent with no prior attack (T3-011), or by those who attacked (T3-119)?
+- Against T3-115: Is another room's request refused (T3-115), or its work helped (T3-011)?
 - Varies: From one member placing for a neighbour to a room sending its spare pixels to a neighbour's defence.
 - Is not: Help given in return for help received (T3-151).
 - Exemplars: "I'm helping /r/stlouisblues. I wish I could do my party." (borussiadortmund c0027); "come help our farm over at r/farmcarrots/!" (stardewvalley c0003); "Please support their cause by maintaining the borders and defeating the people who keep trolling Helix's eyes" (drawhelix c0006)
@@ -1934,6 +2103,8 @@ The room grants a neighbour space on or beside its work: permission to build in 
 - Against T3-039: Does the room move off and give up its spot (T3-039), or let a neighbour build on or beside its work (T3-012)?
 - Against T3-162: Does a host rule on requests by its standing rules (T3-162), or does the room grant one neighbour room (T3-012)?
 - Against T3-035: Is room asked for (T3-035), or granted (T3-012)?
+- Against T3-115: Is another room's request refused (T3-115), or a neighbour granted space on or beside the room's work (T3-012)?
+- Against T3-010: Is a line or shared space agreed between the two rooms (T3-010), or a neighbour simply let onto the room's own work or area (T3-012)?
 - Varies: From permission for a rival school's logo beside the room's to orange space assigned to displaced groups.
 - Is not: A room moving its work to give a neighbour its spot (T3-039).
 - Exemplars: "Better FSU than USF, I say. Go for it." (ucf c0091); "Ok. Do what you want with the butthole. Just don't let them vandalise anything else" (Goodboye c0064); "Thank you r/greenlattice for allowing us to put our goof/gaff on your part of the map." (greenlattice c0781)
@@ -1949,6 +2120,9 @@ Members ask a room that holds space (a host, a faction, a neighbour) for room to
 - Against T3-084: Is space asked for (T3-035), or hands to help the work (T3-084)?
 - Against T3-139: Is space asked for (T3-035), or an attack asked to stop (T3-139)?
 - Against T3-012: Is room asked (T3-035), or granted (T3-012)?
+- Against T3-036: Is space asked of a host room (T3-035), or is the canvas judged full (T3-036)?
+- Against T3-094: Is space asked for (T3-035), or the right to approve it disputed (T3-094)?
+- Against T3-010: Is a line or space settled between neighbours (T3-010), or space or permission asked of the room that holds it (T3-035)?
 - Varies: From a one-line request in a faction's thread to delegations asking for a fixed square in a colour corner.
 - Is not: Asking another room to send hands to help build (T3-084).
 - Exemplars: "Permission to make JOHN CENA in your lot." (greenlattice c0947, rivals c0931 c0711 c0677); "get permission to build Aang somewhere on the road?" (ainbowroad c1385, rivals c1563 c1661); "why not share and let us slip into that space?" (rpi c0053)
@@ -1993,6 +2167,9 @@ A room asks another canvas room, as a group, to help with its work: to build, de
 - Against T3-035: Is help with the work asked (T3-084), or space (T3-035)?
 - Against T3-151: Is help asked in return for help (T3-151), or asked outright (T3-084)?
 - Against T3-011: Is help asked for (T3-084), or sent (T3-011)?
+- Against T3-002: Are the room's own members called to place (T3-002), or another canvas room asked, as a group, for help (T3-084)?
+- Against T3-115: Is help asked (T3-084), or a request refused (T3-115)?
+- Against T3-010: Is a line or space settled between neighbours (T3-010), or another room asked, as a group, to help with the work (T3-084)?
 - Varies: From a tiny sub asking a big one for help to flag rooms petitioning a road for backup.
 - Is not: Posting a call for hands in a kindred sub (T3-062).
 - Exemplars: "we're a tiny subreddit, and we could use your help." (anime c0166); "We are the Italy Flag from r/Italy, help us please!" (ainbowroad c0911); "Guys! We need your help over at /r/Place. Pixel Mario Kart needs reinforcements!" (mariokart c0012)
@@ -2036,6 +2213,8 @@ Members refuse another room's request for help, space or a cause. Floor: anime a
 - Against T3-162: Does a host rule on requests to build in its space by its rules (T3-162), or does a room refuse another's request for help or a cause (T3-115)?
 - Against T3-084: Is help asked (T3-084), or a request refused (T3-115)?
 - Against T3-138: Is a side refused to stay neutral between two rooms (T3-138), or one request refused (T3-115)?
+- Against T3-011: Is another room's request refused (T3-115), or its work helped (T3-011)?
+- Against T3-012: Is another room's request refused (T3-115), or a neighbour granted space on or beside the room's work (T3-012)?
 - Varies: From a joke refusal over a capital letter to scorn for a colour; requests sent back to their own sub.
 - Is not: A faction denying a request to build inside its space under its rules (T3-162).
 - Exemplars: "You capitalized the G in georgia so unfortunately we can not offer our assistance at this time, best of luck in your endeavors." (gatech c0043); "As if I helped a filthy purple. Maybe if they changed the color." (anime c0004, rivals c0123); ">unturned post it on /r/unturned" (geometrydash c0077)
@@ -2094,6 +2273,7 @@ Two subs settle a quarrel: apologies, thanks and good wishes exchanged. Floor: c
 - Against T3-040: Is damage to a neighbour's work apologised for (T3-040), or a quarrel between the subs closed (T3-047)?
 - Against T3-149: Is a fight on the canvas ended by truce (T3-149), or a quarrel made up (T3-047)?
 - Against T3-122: Are greetings sent with no quarrel behind them (T3-122), or a quarrel made up (T3-047)?
+- Against T3-119: Is a quarrel made up in words (T3-047), or damage repaired by its makers (T3-119)?
 - Varies: From 'sorry, we were a bit salty, good luck' to an attack claim turned into apology and help.
 - Is not: Apologising for covering a neighbour's art and offering to redraw it (T3-040).
 - Exemplars: "ah yeah mate sorry about that - we were a bit salty. good luck with your project" (worldpowers c0038, rivals c0039); "Forgive me if I was mistaken." (japan c0085); "it seems you're being pretty polite. So I'd like to apologize." (canucks c0172)
@@ -2135,6 +2315,9 @@ Members send greetings, compliments and thanks to another room with no deal atta
 - Against T3-072: Are allies thanked for help in the work, often after the close (T3-072), or greetings sent with no deal (T3-122)?
 - Against T3-194: Is the visitor on an errand for their room (T3-194), or sending greetings (T3-122)?
 - Against T3-047: Is a quarrel made up (T3-047), or are greetings sent with none behind them (T3-122)?
+- Against T3-052: Do members remark on neighbouring pictures among themselves (T3-052), or send a message to another room (T3-122)?
+- Against T3-155: Are greetings sent with no fight behind them (T3-122), or a rival saluted after one (T3-155)?
+- Against T3-158: Is a greeting sent (T3-122), or a tie beyond the canvas proposed (T3-158)?
 - Varies: From humble greetings from another nation's sub to love for a neighbour's sprites.
 - Is not: Thanking allies for help in the war after the close (T3-072).
 - Exemplars: "[/r/place] Humble greetings from /r/argentina!" (germany c0080); "yeah, sending love from /r/coldplay, I really loved your sprites /r/MadokaMagica <3" (madokamagica c0096); "GT student here, glad to be a neighbor with y'all" (iastate c0057)
@@ -2149,6 +2332,7 @@ A room keeps out of a fight between others or declares neutrality, or a member i
 - Against T3-115: Is a request refused on its own merits (T3-115), or a side refused to stay neutral (T3-138)?
 - Against T3-149: Does the room make peace with its own rival (T3-149), or keep out of others' fight (T3-138)?
 - Against T3-150: Does the room join a side (T3-150), or stay out (T3-138)?
+- Against T3-161: Does the member keep out of others' fight (T3-138), or help them reach terms (T3-161)?
 - Varies: From a neutrality zone named for Switzerland to a fan of two rooms caught between them.
 - Is not: Turning down a request for help on its own merits (T3-115).
 - Exemplars: "MONA LISA ACCEPT OUR NEUTRALITY" (SwissNeutralityZone c0034, rivals c0114); "I also don't want to side against the void because that is nothing short of declaring war" (gatech c0042); "este otro proyecto no es apoyado ni atacado por la administración del sub" (epublica c0066)
@@ -2165,6 +2349,10 @@ Rooms already in contact end or forestall a fight with a truce: peace asked for,
 - Against T3-195: Is a truce made now (T3-149), or one already made invoked (T3-195)?
 - Against T3-138: Does the room make peace with its own rival (T3-149), or keep out of a fight between others (T3-138)?
 - Against T3-151: Is a fight ended or forestalled by a pact (T3-149), or help given in return for help (T3-151)?
+- Against T3-025: Is a fight ended (T3-149), or two rival marks set together with no fight (T3-025)?
+- Against T3-047: Is a fight on the canvas ended by truce (T3-149), or a quarrel made up (T3-047)?
+- Against T3-193: Is a truce made (T3-149), or is cooperation argued as surrender (T3-193)?
+- Against T3-194: Does a member act for the room toward another room as envoy or representative (T3-194), or is the truce itself asked for, offered or agreed (T3-149)?
 - Varies: From a quick 'can we have peace here?' between rival universities to non-aggression pacts with the Void.
 - Is not: A border drawn between neighbours who never fought (T3-010).
 - Exemplars: "We're all on the same team here. Just request a truce." (ice_poseidon c0207); "The rivalry was fun, but I'm glad we had a truce in the end" (uofm c0206, rivals c0143); "A message of peace" (finland c0008)
@@ -2181,6 +2369,13 @@ Rooms join in an alliance for joint defence or a joint fight: alliances named, p
 - Against T3-099: Does a small room rely on a bigger one (T3-099), or do rooms ally (T3-150)?
 - Against T3-056: Do kindred rooms make one joint mark (T3-056), or ally for defence or a fight (T3-150)?
 - Against T3-174: Is loyalty professed to a colour faction (T3-174), or an alliance made between rooms (T3-150)?
+- Against T3-011: Are the rooms allied for joint defence (T3-150), or is help sent to another's work (T3-011)?
+- Against T3-010: Do the rooms join for defence or a fight (T3-150), or settle where their works meet (T3-010)?
+- Against T3-072: Is an alliance formed for the fight (T3-150), or thanked and told afterwards (T3-072)?
+- Against T3-079: Is friendship drawn between flags (T3-079), or an alliance for defence formed (T3-150)?
+- Against T3-138: Does the room join a side (T3-150), or stay out (T3-138)?
+- Against T3-194: Does a member act for the room toward another room as envoy or representative (T3-194), or is the alliance itself proposed, named or joined (T3-150)?
+- Against T3-195: Is an agreement already made invoked, spread or said to be broken (T3-195), or a new alliance proposed, named or joined (T3-150)?
 - Varies: From a two-room defence pact to a United Red Front of many subs.
 - Is not: Swapping repairs with a neighbour once (T3-151).
 - Exemplars: "I come to propose a preemptive alliance to join forces in cleanup and construction of art" (thebluecorner c0537); "The Pirate-Ninja alliance!" (naruto c0146, rivals c0160); "Join us and together the red shall rein supreme over the tyrannical oppressors!" (AprilKnights c0045)
@@ -2198,6 +2393,11 @@ Rooms trade help: repairs, defence, maintenance or room given in return for the 
 - Against T3-010: Is help traded (T3-151), or a line settled (T3-010)?
 - Against T3-108: Is help traded by hand (T3-151), or one bot target pooled (T3-108)?
 - Against T3-149: Is help given in return for help (T3-151), or a fight ended or forestalled by a pact (T3-149)?
+- Against T3-071: Is help traded (T3-151), or the room's work adopted into a neighbour's (T3-071)?
+- Against T3-084: Is help asked in return for help (T3-151), or asked outright (T3-084)?
+- Against T3-099: Is protection repaid with help (T3-151), or relied on (T3-099)?
+- Against T3-194: Does a member act for the room toward another room as envoy or representative (T3-194), or is the trade of help itself offered or agreed (T3-151)?
+- Against T3-195: Is an agreement already made invoked, spread or said to be broken (T3-195), or a new trade of help offered or agreed (T3-151)?
 - Varies: From a one-off swap of repairs to running exchanges of maintenance for room.
 - Is not: Sending pixels to a neighbour's defence unasked (T3-011).
 - Exemplars: "We're willing to help you move if you help maintain ours afterwards." (thepointing c0011); "If you all can help preserve the Koi, we'd repay the favor by helping keep the Italian flag dot-free." (theitalyplace c0133); "Happy to help repair and maintain the yellow background in exchange for being allowed to exist in your realm." (TeamYellowPlace c0051)
@@ -2240,6 +2440,11 @@ A member acts for a room toward another room: envoy, diplomat, ambassador, repre
 - Against T3-126: Does a member act as envoy (T3-194), or is the right to speak for the room disputed (T3-126)?
 - Against T3-010: Is the errand the doing (T3-194), or the line it settles (T3-010)?
 - Against T3-161: Does the member act for their own room (T3-194), or go between two other rooms (T3-161)?
+- Against T3-083: Is a member the room's envoy (T3-194), or is the language between rooms the problem met (T3-083)?
+- Against T3-122: Is the visitor on an errand for their room (T3-194), or sending greetings (T3-122)?
+- Against T3-149: Does a member act for the room toward another room as envoy or representative (T3-194), or is the truce itself asked for, offered or agreed (T3-149)?
+- Against T3-150: Does a member act for the room toward another room as envoy or representative (T3-194), or is the alliance itself proposed, named or joined (T3-150)?
+- Against T3-151: Does a member act for the room toward another room as envoy or representative (T3-194), or is the trade of help itself offered or agreed (T3-151)?
 - Varies: From one representative's arrival in a neighbour's thread to diplomats flaired on a council server across a dozen chats.
 - Is not: Members of two rooms chatting in a shared Discord (T3-153).
 - Exemplars: "Today, I became a diplomat for the Day Knights." (day9 c0033, rivals c0037); "Whelp, guess I'm officially our diplomat on the r/PlaceWorldCouncil discord" (stardustcrusaders c0044); "/r/BluePatch representative" (Summit1G c0062)
@@ -2257,6 +2462,8 @@ Members invoke an agreement already made: its terms spread to placers, the room 
 - Against T3-102: Is the agreement invoked (T3-195), or broken by a member (T3-102)?
 - Against T3-188: Is another room held to an agreement (T3-195), or does an organised room say it does not control placers acting in its name (T3-188)?
 - Against T3-076: Is another room held to an agreement (T3-195), or does the room stop its own attackers (T3-076)?
+- Against T3-150: Is an agreement already made invoked, spread or said to be broken (T3-195), or a new alliance proposed, named or joined (T3-150)?
+- Against T3-151: Is an agreement already made invoked, spread or said to be broken (T3-195), or a new trade of help offered or agreed (T3-151)?
 - Varies: From a quick 'no stop, we made an agreement' to accusations that a neighbour went over the logo after the deal.
 - Is not: Agreeing a new border with a neighbour (T3-010).
 - Exemplars: "Oi no stop we made an agreement with hearts" (liverpoolfc c0168, rivals c0169); "We agreed that you guys can have the flower there, but please stop removing Apollo's sleeve with your blue border" (sheffield c0038); "I think we should apologize to r/shyvanamains for going over their logo even after we had a deal." (weezer c0038, rivals c0093)
@@ -2301,6 +2508,8 @@ Two or more rooms make one mark together: a shared design, a combined flag, lett
 - Against T3-079: Are national flags joined with a heart (T3-079), or another joint mark made (T3-056)?
 - Against T3-150: Do rooms ally for defence or a fight (T3-150), or make one mark together (T3-056)?
 - Against T3-060: Is one mark made jointly by rooms (T3-056), or a personal piece added to it (T3-060)?
+- Against T3-013: Do two or more rooms make one mark together (T3-056), or gather their separate works in a hub (T3-013)?
+- Against T3-025: Do the rooms make one mark together (T3-056), or keep two rival marks side by side (T3-025)?
 - Varies: From a beanie and lettering traded between two fandoms to ANZAC flags built together before the Americans woke.
 - Is not: Sending pixels to a neighbour's defence (T3-011).
 - Exemplars: "They're finishing our beanie and we're finishing their lettering." (h3h3productions c0133); "a row of heart-faced avocados wherever we meet up, and we maintain a strong border together" (AvoArmy c0053); "We are working together now on making a second flag to the left side." (newzealand c0143, rivals c0167 c0157)
@@ -2344,6 +2553,7 @@ A colour faction spreads its colour across the canvas: expanding the corner, cov
 - Against T3-006: Is a rival's work destroyed (T3-006), or the faction's colour spread over whatever lies in its way (T3-171)?
 - Against T3-174: Is the colour spread on the canvas (T3-171), or loyalty to it professed (T3-174)?
 - Against T3-041: Is the room's work extended (T3-041), or a colour spread for its own sake (T3-171)?
+- Against T3-096: Is the colour spread on the canvas (T3-171), or cheered in talk (T3-096)?
 - Varies: From a corner that grows a few rows to a Void meant to consume the whole canvas; red spread as a political colour.
 - Is not: A room extending its logo into a neighbour's space (T3-061).
 - Exemplars: "We shall spread the purple monarchy all over the canvas and defeat the blue usurpers!" (purplecorner c0006); "TWO TEAMS: ONE TO RID THE VOID OF ALL MATTER, ONE TO EXPAND OUR CANCER TO THE ENTIRE PLACE." (theblackvoid c0382); "Start expanding the green corner!" (GreenCorner c0048)
@@ -2385,6 +2595,8 @@ A colour faction's members profess loyalty to it: hails, slogans, propaganda, th
 - Against T3-096: Do the faction's own members profess loyalty (T3-174), or other subs' members cheer it (T3-096)?
 - Against T3-171: Is loyalty professed (T3-174), or the colour spread (T3-171)?
 - Against T3-031: Is the joke the faction's colour cult (T3-174), or any running in-joke of the room (T3-031)?
+- Against T3-150: Is loyalty professed to a colour faction (T3-174), or an alliance made between rooms (T3-150)?
+- Against T3-163: Is loyalty professed by members (T3-174), or a member's crossing announced (T3-163)?
 - Varies: From a one-line hail to the Void cast as a calling and a fit; propaganda posters.
 - Is not: A game sub hailing the Blue Corner from outside (T3-096).
 - Exemplars: "ALL HAIL THE BLUEMPIRE!!" (thebluecorner c0505); "Hail The All Consuming Void!" (theblackvoid c0833, rivals c1664); "10/10 propaganda. would vote for purple again" (destiny c0047)
@@ -2409,13 +2621,14 @@ A canvas faction splits over what it stands for: pure colour or art, erasing or 
 
 The room makes the flag of its nation, state or region its mark: calling hands to it, building, sizing and fixing it. Floor: argentina and DevonUK, unlike in size (argentina holds 10,453 items in the window and DevonUK 26, over twice as many).
 
-- Must show: The flag of the room's own land (a nation, a state, a region or county) built as the room's mark: calls to make it, its proportions, its spot, its repair.
+- Must show: The flag of the room's own land (a nation, a state, a region or county) built as the room's mark: calls to make it, its proportions, its spot, its repair. Announcements that the flag has begun or is up, and calls for hands to it, go here too.
 - Must not show: Calls for hands to any other picture (T3-002); emblems and pictures drawn beside or inside the flag (T3-113); helping another nation's flag (T3-078).
 - Decide when both: The flag of the room's land as its mark is T3-065, calls for hands to any other picture T3-002. A flag with emblems drawn into it: T3-065 for the flag, T3-113 when the emblems have concepts of their own.
 - Against T3-002: Is the work the flag of the room's land (T3-065), or any other picture (T3-002)?
 - Against T3-113: Is the flag itself built (T3-065), or emblems drawn beside or inside it (T3-113)?
 - Against T3-078: Is the room's own flag built (T3-065), or a kin nation's helped (T3-078)?
 - Against T3-145: Is the flag built (T3-065), or national feeling voiced through it (T3-145)?
+- Against T3-026: Is the room's mark announced as up (T3-026), or is the work the flag of the room's own land, announced, called for or built (T3-065)?
 - Varies: From nation states to the flags of a US state, a French region or an English county; proportions argued; flags rebuilt after attacks.
 - Is not: A room adding its nation's emblems inside a flag already built (T3-113).
 - Exemplars: "To all Israel in r/place, let's gather up and make a big flag on the canvas and be proud of our-self" (israel c0190); "hagamos la bandera de argentina en un costado" (argentina c0001); "Need help expanding the Devon flag!" (DevonUK c0016)
@@ -2444,6 +2657,7 @@ Rooms join their national flags with a heart or another sign of friendship. Floo
 - Against T3-056: Are national flags joined with a heart (T3-079), or another joint mark made (T3-056)?
 - Against T3-165: Is the heart made (T3-079), or friendship with a historic enemy argued (T3-165)?
 - Against T3-150: Is friendship drawn between flags (T3-079), or an alliance for defence formed (T3-150)?
+- Against T3-078: Is a kin nation's flag helped (T3-078), or two flags joined with a heart (T3-079)?
 - Varies: From one Faroese-Welsh heart to hearts traded as tokens of alliance among Balkan and Baltic flags.
 - Is not: Two fandoms finishing each other's lettering (T3-056).
 - Exemplars: "Would you be interested in making a heart between our two countries as a show of friendship?" (FaroeIslands c0045, rivals c0048 c0049); "Hai sa facem inima jumi-juma macar" (romania c0203, rivals c0018); "Can we create a beautiful friendship with Greece and Turkey including Netherlands." (europe c0515)
@@ -2500,6 +2714,7 @@ Members argue whether canvas friendship with a historic national enemy means any
 - Against T3-079: Is the heart made (T3-079), or friendship with a historic enemy argued (T3-165)?
 - Against T3-193: Is cooperation as such called surrender (T3-193), or friendship with a historic national enemy debated (T3-165)?
 - Against T3-130: Is national politics read into the canvas generally (T3-130), or friendship with one historic enemy debated (T3-165)?
+- Against T3-166: Is friendship with one historic enemy debated (T3-165), or the nation's own record (T3-166)?
 - Varies: From Greeks thanking Turkey as a good neighbour to Palestinians asking why anyone supported flags side by side with Israel.
 - Is not: A heart drawn between two friendly nations (T3-079).
 - Exemplars: "I get why we would not want to attack the Israeli flag on a practical level, but why did anyone ever support the notion" (palestine c0059); "it is possible to be pro-Japan and pro-Korea" (korea c0030); "we managed to quickly learn to co-exist" (greece c0144, rivals c0147)
@@ -2530,6 +2745,7 @@ Members argue over a political or religious symbol on the canvas: what it means,
 - Against T3-146: Is a hate symbol covered (T3-146), or a symbol's politics argued (T3-080)?
 - Against T3-179: Is one symbol on the canvas argued over (T3-080), or an ideology argued from the canvas as a whole (T3-179)?
 - Against T3-130: Is one symbol's meaning argued (T3-080), or national politics read into the canvas at large (T3-130)?
+- Against T3-177: Do members call for or draw swastikas and Nazi imagery (T3-177), or argue over what a political symbol means and whether it belongs (T3-080)?
 - Varies: From Czechs calling the hammer and sickle a symbol of occupation to a Mexican room keeping religion off its mural.
 - Is not: Painting over a swastika (T3-146).
 - Exemplars: "The Hammer and Sickle is a symbol of murder, totality and occupation for many Czechs. Let's take it down." (czech c0122); "Det dekker flagget. Det er også symbol for alt-right bevegelsen, som /r/norge bør distansere seg fra." (norge c0210); "Muy polarizante, se sugerio en Discord. Religion solo puede escalar conflictos lamentablemente." (mexico c0197)
@@ -2544,6 +2760,8 @@ Members cast canvas fights as their nations' historic wars: invasions repeated, 
 - Against T3-005: Is the defence told as a fight (T3-005), or cast as a nation's historic war (T3-081)?
 - Against T3-050: Are taunts traded as sport (T3-050), or the fight cast in a nation's war history (T3-081)?
 - Against T3-130: Is the fight told as historic war (T3-081), or national politics read into the canvas (T3-130)?
+- Against T3-135: Is the fight cast as a nation's history (T3-081), or as the fandom's story (T3-135)?
+- Against T3-166: Is a canvas fight cast as historic war (T3-081), or the nation's whole record argued (T3-166)?
 - Varies: From one line about an invasion again to running war narration with operations and battle names; Kosovo, Stalingrad, the Piave, blitzkrieg.
 - Is not: A streamer's fans calling a raid on a rival logo a war: a game-fandom war has no national history.
 - Exemplars: "Russia is invading us again!" (ukraine c0031); "Il Piave mormorò "Non passa il pixel nero!"." (theitalyplace c0272); "I'm more impressed with the blitzkrieg reenactment there, taking over the French flag" (bdsm c0002)
@@ -2572,6 +2790,9 @@ Members read their nation's politics into the canvas: referendums, elections, go
 - Against T3-080: Is one symbol's meaning argued (T3-080), or national politics read into the canvas (T3-130)?
 - Against T3-081: Is the fight cast as historic war (T3-081), or current national politics read into it (T3-130)?
 - Against T3-145: Is national belonging felt (T3-145), or national politics argued (T3-130)?
+- Against T3-068: Is the converting the doing (T3-068), or the national politics read into the choice of target (T3-130)?
+- Against T3-165: Is national politics read into the canvas generally (T3-130), or friendship with one historic enemy debated (T3-165)?
+- Against T3-180: Is national politics read into the canvas (T3-130), or belonging to the nation disputed (T3-180)?
 - Varies: From Quebec's referendums to a Serbian election silence; a US member disowning the government while defending the flag.
 - Is not: Arguing whether the hammer and sickle should be taken down (T3-080).
 - Exemplars: "Je sais pas pourquoi mais j'ai été investi là dedans comme si c'était une campagne référendaire." (quebec c0140, rivals c0185); "Just because I was born in the US doesn't mean I agree with or approve of the current administration." (europe c0711); "This started in a small fun game of pixel art but ended being a literal political war." (canada c0286)
@@ -2600,6 +2821,7 @@ Members cover swastikas, Nazi flags and other hate symbols or slurs placed on or
 - Against T3-177: Are swastikas called for (T3-177), or covered (T3-146)?
 - Against T3-021: Is a hate symbol or slur covered (T3-146), or the work repaired of other damage, obscene drawings included (T3-021)?
 - Against T3-080: Is a hate symbol covered (T3-146), or a political symbol's meaning argued (T3-080)?
+- Against T3-182: Is a hate symbol on the canvas covered (T3-146), or bigoted talk shut down (T3-182)?
 - Varies: From one member removing a swastika beside a flag to a leftist room promising to cover swastikas on another nation's flag.
 - Is not: Members turning a rival's logo into a swastika (T3-177).
 - Exemplars: "Trolls are trying to write swastikas on your flag on /r/places. We at farleftside have got you covered don't worry." (ukraine c0006); "/r/Eagles - We need your help with this Nazi Flag [/r/place]" (calvinandhobbes c0068); "Es gibt buchstäblich dünne Versuche ein Hakenkreuz neben die deutsche Flagge zu basteln" (de c0011, rivals c0459 c0460)
@@ -2627,6 +2849,7 @@ Members call for, or take part in, drawing swastikas and Nazi imagery on the can
 - Against T3-146: Are swastikas called for or drawn (T3-177), or covered (T3-146)?
 - Against T3-192: Is the griefing for fun with no hate symbol (T3-192), or a swastika called for (T3-177)?
 - Against T3-006: Is a rival's work defaced (T3-006), or a swastika drawn (T3-177)?
+- Against T3-080: Do members call for or draw swastikas and Nazi imagery (T3-177), or argue over what a political symbol means and whether it belongs (T3-080)?
 - Varies: From a proposal to turn a rival channel's logo into a swastika to members drawing one on their own room's logo.
 - Is not: A room painting over a swastika (T3-146).
 - Exemplars: "Let's make the logo on r/place a swastika" (funhaus c0236); "Anyone want to turn the FH logo into an actual swastika?" (roosterteeth c0218); "i was helping changing it to a swastika a few hours ago" (pcmasterrace c0643, rivals c0787)
@@ -2641,6 +2864,7 @@ Members argue political ideology from the canvas: socialism, capitalism, anarchi
 - Against T3-080: Is one symbol on the canvas argued (T3-080), or an ideology argued from the canvas (T3-179)?
 - Against T3-190: Is a canvas faction's doctrine split (T3-190), or a political ideology argued (T3-179)?
 - Against T3-027: Is the fairness of scripts argued (T3-027), or political ideology (T3-179)?
+- Against T3-086: Is a general ideology argued (T3-179), or the community's own dispute carried onto the canvas (T3-086)?
 - Varies: From anarcho-capitalists conceding the canvas looks like socialism to leftists arguing Kronstadt.
 - Is not: Czechs arguing that the hammer and sickle should come down (T3-080).
 - Exemplars: "So r/place is basically decentralize socialism." (anarcho_capitalism c0154); "Yeah but what do you think about Kronstadt" (completeanarchy c0293, rivals c0271); "Typical capitalist, destroys others instead of building your own." (anarchocapitalism c0003)
@@ -2655,6 +2879,7 @@ Members or moderators shut down bigoted speech in the room's thread or chat: slu
 - Against T3-146: Is a hate symbol on the canvas covered (T3-146), or bigoted talk shut down (T3-182)?
 - Against T3-121: Is a member excluded for damage to the work or room (T3-121), or bigoted speech shut down (T3-182)?
 - Against T3-142: Is bigotry voiced (T3-142), or shut down (T3-182)?
+- Against T3-063: Posts removed for breaking the sub's rules (T3-063), or members shutting down bigotry in a chat (T3-182)?
 - Varies: From a moderator removing a post for a slur to members shutting down an anti-trans speaker in the room's chat.
 - Is not: Painting over a swastika on the canvas (T3-146).
 - Exemplars: "someone joined the kanye discord and started spouting anti-trans shit. so we shut him down" (kanye c0277); "Your post was removed; it contained a slur." (fullcommunism c0239); "He is an uzbek as he is born in uzbekistan." (Rainbow6 c0403)
@@ -2687,6 +2912,12 @@ Members trade taunts, threats and mockery with a rival community over the canvas
 - Against T3-086: Is a rival taunted (T3-050), or the community's own internal quarrel fought (T3-086)?
 - Against T3-155: Is the rival mocked (T3-050), or saluted after the fight (T3-155)?
 - Against T3-017: Is a rival community taunted (T3-050), or the sub's ordinary talk carried on with no rival in it (T3-017)?
+- Against T3-025: Are taunts traded (T3-050), or the rivalry shown by marks placed side by side (T3-025)?
+- Against T3-031: Is a rival mocked (T3-050), or the room's own joke played among its members (T3-031)?
+- Against T3-081: Are taunts traded as sport (T3-050), or the fight cast in a nation's war history (T3-081)?
+- Against T3-134: Are taunts traded in replies (T3-050), or one chant repeated as a flood (T3-134)?
+- Against T3-143: Is the taunt made (T3-050), or argued over (T3-143)?
+- Against T3-178: Is a rival community taunted (T3-050), or one person harassed (T3-178)?
 - Varies: From friendly ribbing between schools to threats that an allied faction will destroy the rival.
 - Is not: Mocking a rival nation's people (T3-142).
 - Exemplars: "Lol try your best ya wank." (england c0023); "/r/thefarleftside will destroy you." (anarchocapitalism c0004); "But only super mature adults with lots of friends make scripts to cheat a fun community activity." (calgaryflames c0281)
@@ -2775,6 +3006,8 @@ Members ask or explain what the canvas event is, why it is everywhere and how an
 - Against T3-018: Is the event as a whole explained (T3-016), or a particular picture's meaning worked out (T3-018)?
 - Against T3-037: Is it said what the canvas is (T3-016), or argued whether it is worth anything (T3-037)?
 - Against T3-074: Is the cooldown explained as a rule of the event (T3-016), or worked around by the room (T3-074)?
+- Against T3-034: Is the question how and where to place for the room (T3-034), or what r/place is (T3-016)?
+- Against T3-095: Is the claim tested whether r/place itself is Reddit's April Fools joke, answered by explaining what r/place is (T3-016), or a claim about anything else (T3-095)?
 - Varies: From a bare 'what is r/place?' to a full account of the five-minute rule and subs planning pictures together.
 - Is not: A post giving the room's coordinates and colour template (T3-070).
 - Exemplars: "It's basically a subreddit where you can place one pixel every five minutes. Lots of subreddits are working together and make plans to get everyone to create a certain image." (leafs c0212); "You have to click a color square at the bottom and then pick a pixel." (virginiatech c0013); "Can I ask wtf is r/place and why is it popular all of a sudden?" (baylor c0012)
@@ -2789,6 +3022,7 @@ Members work out or explain what a particular picture or detail on the canvas sh
 - Against T3-016: Is a particular picture's meaning worked out (T3-018), or the event as a whole explained (T3-016)?
 - Against T3-052: Is a detail's meaning worked out (T3-018), or a neighbouring picture noticed, named or admired (T3-052)?
 - Against T3-073: Is what a detail means explained (T3-018), or what happened to the work told (T3-073)?
+- Against T3-019: Is the whole finished picture decoded (T3-018), or the kindred rooms' marks counted (T3-019)?
 - Varies: From a one-line note that a label is a fraternity joke to an argument over what a parrot's added cap says about its politics.
 - Is not: A member listing the subs next to the room's mark (T3-052).
 - Exemplars: "A q p w is something you'd type into the game chat one after another. The q p and w line up to make a penis shape." (2007scape c0858); "The broke phi broke fraternity (a reference to late reg.)" (sixers c0129); "but then somebody gave her [Bookchin cap](https://en.wikipedia.org/wiki/File:Murray_Bookchin.jpg) that made her overall colour scheme YPG/J-like, so she probably converted into the libertarian municipalism." (completeanarchy c0281)
@@ -2805,6 +3039,12 @@ Members play the room's own memes, catchphrases and running jokes in the canvas 
 - Against T3-017: Does the sub's ordinary talk go on with no canvas in it (T3-017), or is the joke played around the canvas work (T3-031)?
 - Against T3-050: Is a rival mocked (T3-050), or the room's own joke played among its members (T3-031)?
 - Against T3-135: Is a canvas clash retold as fandom story (T3-135), or the room's joke played with no clash told (T3-031)?
+- Against T3-053: Is the room's chant played in replies (T3-031), or spelled across the titles of many posts (T3-053)?
+- Against T3-064: Is the in-joke played inside the room (T3-031), or taken out to other subs (T3-064)?
+- Against T3-134: Is the refrain played among the room's members (T3-031), or used to flood a rival's thread (T3-134)?
+- Against T3-156: Does a canvas detail become the room's sign (T3-156), or is the room's existing joke played (T3-031)?
+- Against T3-174: Is the joke the faction's colour cult (T3-174), or any running in-joke of the room (T3-031)?
+- Against T3-192: Is the joke played by damaging the work (T3-192), or told in talk (T3-031)?
 - Varies: From a single catchphrase repeated under a post to a story riff that runs through a whole thread.
 - Is not: A thread of 'we did it' posts celebrating the finished logo (T3-009).
 - Exemplars: "Now the void seeks to return to the past, and undo the future that is AKU." (samuraijack c0318); "Before Monolith he could tank all five enemies and an inhibitor by himself! Buff Iggy!" (paragon c0082); "Frank Ocean Blonde??? That's independent!" (indieheads c0087)
@@ -2820,6 +3060,8 @@ Members argue whether the canvas, its fights or the time spent on it are worth a
 - Against T3-098: Is the canvas weighed as a whole (T3-037), or the room's showing on it questioned (T3-098)? A bare dismissal of a call, with nothing said about the room's own showing, is T3-037.
 - Against T3-157: Is the canvas's worth argued (T3-037), or what working together meant reflected on (T3-157)?
 - Against T3-016: Is it argued whether the canvas is worth anything (T3-037), or explained what it is (T3-016)?
+- Against T3-027: Is the canvas's worth argued (T3-037), or the fairness of its scripts (T3-027)?
+- Against T3-085: Is the whole canvas judged (T3-037), or nations' flags against the room's art (T3-085)?
 - Varies: From 'a weird waste of time on nothing' to defending the canvas as an art project and once-a-year fun.
 - Is not: A member asking that canvas posts go into one megathread (T3-075).
 - Exemplars: "This subreddit is filled with redditards ready to waste a weird amount of time on nothing." (korea c0139); "Graffiti is defacement of someone else's property. You, however, participated in an art project." (vegan c0369); "Ceo Reddit se zajebava jednom u godini, i ti sad ulećeš sa nekim kmečanjem." (serbia c0097)
@@ -2835,6 +3077,7 @@ Members remark among themselves on the pictures beside or around their own mark.
 - Against T3-018: Is a neighbouring picture noticed or named (T3-052), or its meaning worked out (T3-018)?
 - Against T3-082: Is another picture remarked on (T3-052), or the room's own mark found already placed (T3-082)?
 - Against T3-010: Is a neighbour remarked on (T3-052), or a border with it settled (T3-010)?
+- Against T3-019: Are pictures beside the mark remarked on (T3-052), or kindred rooms' marks across the canvas tallied (T3-019)?
 - Varies: From a one-line question about the figure next to the room's character to a full map of the neighbours on every side.
 - Is not: A room posting a greeting to the sub beside its mark (T3-122).
 - Exemplars: "Who's the girl next to Madotsuki at r/place?" (yumenikki c0028); "I was so happy when I saw this next to Rick!" (roosterteeth c0122); "North West: r/uvic & r/simonfraser & r/UBC & r/japan & r/ShawnHate & r/SS13" (zootopia c0180, rivals c0177 c0174 c0179)
@@ -2849,6 +3092,8 @@ Members remake the canvas work or its fights in other media: Minecraft, LEGO, fa
 - Against T3-105: Is the work kept as it was (T3-105), or remade in another medium (T3-057)?
 - Against T3-156: Is the mark adopted as the room's emblem (T3-156), or remade in another medium (T3-057)?
 - Against T3-054: Is the work carried to another canvas of the same kind (T3-054), or into another medium (T3-057)?
+- Against T3-131: Is the work remade for its own sake (T3-057), or sold (T3-131)?
+- Against T3-148: Is art the canvas never held imagined (T3-148), or the work that stood remade elsewhere (T3-057)?
 - Varies: From one member's wallpaper of the room's spot to the whole canvas rebuilt block by block in Minecraft.
 - Is not: A timelapse of the room's spot shared after the close (T3-105).
 - Exemplars: "I recreated the entire /r/place in Minecraft (Download in comments!)" (minecraft c0188, rivals c0173 c0243); "Made some wallpapers from our spot on /r/place!" (touhou c0206, rivals c0225); "The r/prequelmemes drawing on r/place inspired me" (animalcrossing c0112)
@@ -2889,6 +3134,7 @@ Members argue over someone selling prints, posters or templates of the shared ca
 - Decide when both: A sale answered with a giveaway: T3-131; prizes offered to those who placed: T3-159.
 - Against T3-159: Is a sale of the work argued over (T3-131), or helpers rewarded with prizes (T3-159)?
 - Against T3-057: Is the work remade for its own sake (T3-057), or sold (T3-131)?
+- Against T3-105: Is the sale of prints or templates of the work argued (T3-131), or the work saved as it stood with no sale (T3-105)?
 - Varies: From a plug for merchandise to a thread calling the seller a thief.
 - Is not: A room giving a prize to its most active placer (T3-159).
 - Exemplars: "You're profiting from the work of others, by definition, you are a thief." (donaldglover c0141, rivals c0139); "this is wack you're taking the work of multiple communities, printing it, and selling it back to them." (kanye c0445, rivals c0433 c0434); "Honest question, why would you need to buy the template?" (heyyea c0005)
@@ -2902,6 +3148,7 @@ Members share or remark on press, news or viral coverage that showed the room's 
 - Decide when both: Coverage shared in a celebration: T3-009 when the work is celebrated, T3-147 added when the coverage has concepts of its own.
 - Against T3-127: Is the coverage by the press (T3-147), or the notice of the fandom's own creators (T3-127)?
 - Against T3-009: Is the finished work celebrated (T3-009), or its coverage shared (T3-147)?
+- Against T3-164: Is visibility felt on the canvas (T3-164), or press coverage shared (T3-147)?
 - Varies: From pride that a story showed the flag to teasing the reporter who wrote it.
 - Is not: A streamer reacting to the room's logo (T3-127).
 - Exemplars: "The article with a...flattering title" (starlightstage c0122, rivals c0115); "Asexual pride featured on a story about /r/place!" (AcePlace c0041); "Hiljainen uutispäivä, kun Henrik Kärkkäisellä on aikaa katsella työaikana Kaarle Kustaan viiksien kasvamista redditissä" (suomi c0258)
@@ -2914,12 +3161,24 @@ Members mark the room's own finished or nearly finished work as achieved: we did
 
 - Must show: The room's work marked as achieved: 'we did it', pride, congratulations, a final image posted as done, the work said to have lasted to the end.
 - Must not show: Victory over rivals (T3-154); the makers credited by name or part (T3-043); allies thanked (T3-072); what working together meant (T3-157); the mark announced as up while the work goes on (T3-026); grief for a loss (T3-029).
-- Decide when both: Celebration with thanks or credit: T3-009 primary; T3-043, T3-072 or T3-157 added only where their part has concepts of its own.
+- Decide when both: Celebration with thanks or credit: the side with more concepts is primary. T3-043, T3-072 or T3-157 is primary when the thanks, the allies or the reflection hold more concepts than the celebrating, and is added only where its part has concepts of its own.
 - Against T3-154: Is the room's own work celebrated (T3-009), or victory over a rival claimed (T3-154)?
 - Against T3-043: Is the work celebrated (T3-009), or its makers credited (T3-043)?
 - Against T3-157: Is the finished work celebrated (T3-009), or what working together meant reflected on (T3-157)?
 - Against T3-026: Is the work finished and celebrated (T3-009), or the mark announced as being up (T3-026)?
 - Against T3-029: Is the work celebrated (T3-009), or its loss mourned (T3-029)?
+- Against T3-003: Is the finished work celebrated (T3-009), or one's own part in it told (T3-003)?
+- Against T3-031: Is the finished work celebrated (T3-009), or the room's joke played (T3-031)?
+- Against T3-038: Is the work under way (T3-038), or finished and celebrated (T3-009)?
+- Against T3-104: Is the work going on (T3-104), or done and celebrated (T3-009)?
+- Against T3-105: Is the work celebrated (T3-009), or saved as a record (T3-105)?
+- Against T3-117: Is the end marked (T3-117), or the work celebrated (T3-009)?
+- Against T3-145: Is the finished work celebrated (T3-009), or national belonging voiced (T3-145)?
+- Against T3-147: Is the finished work celebrated (T3-009), or its coverage shared (T3-147)?
+- Against T3-164: Is the work celebrated (T3-009), or support felt through it (T3-164)?
+- Against T3-186: Is the work celebrated online (T3-009), or a meeting in person proposed (T3-186)?
+- Against T3-072: Is the room's own finished work celebrated (T3-009), or other rooms thanked for their help (T3-072)?
+- Against T3-073: Is what happened to the work told (T3-073), or the finished work celebrated (T3-009)?
 - Varies: From a one-line 'we did it' to long posts with the final image, pride and thanks.
 - Is not: A county room boasting that its flag outlasted a rival's (T3-154).
 - Exemplars: "We did it! Place is over and our tag is on it! :D" (crystalclear c0006); "297 finished, well done ladies and gents!" (puzzleanddragons c0142); "Truly a great achievement, we should all be proud" (indieheads c0197)
@@ -2935,6 +3194,12 @@ Members grieve for the room's work, or a work they cared for, once it is covered
 - Against T3-117: Is a work's loss grieved (T3-029), or the end of the canvas itself (T3-117)?
 - Against T3-073: Is grief voiced (T3-029), or what happened told without it (T3-073)?
 - Against T3-009: Is the work mourned (T3-029), or celebrated (T3-009)?
+- Against T3-059: Is the loss mourned (T3-029), or is giving up urged (T3-059)?
+- Against T3-148: Is art that never stood imagined (T3-148), or work that stood mourned (T3-029)?
+- Against T3-160: Is a dead person honoured by the work (T3-160), or the lost work mourned (T3-029)?
+- Against T3-181: Is the loss mourned (T3-029), or the effort abandoned (T3-181)?
+- Against T3-183: Is the room's own lost work mourned (T3-029), or others' art the room covered (T3-183)?
+- Against T3-022: Is the lost work grieved (T3-029), or moved or restarted elsewhere (T3-022)?
 - Varies: From a bare 'RIP' to a long lament for a lost flag and every lost fight.
 - Is not: A member saying the canvas is over and it was fun (T3-117).
 - Exemplars: "RIP the overwatch logo on r/place" (overwatch c1065); "RIP in peace, sombrero duck. You died too young." (duckgame c0052); "the flag we've lost, every fight we've lost. never stop hurting" (indonesia c0203)
@@ -2945,10 +3210,13 @@ Members thank or credit the people who made, defended or perfected the work, or 
 
 - Must show: Credit given for the work: thanks to those who helped, named makers, a member claiming a change they made, disputes over who made it.
 - Must not show: Another room thanked as an ally (T3-072); the work celebrated with no one credited (T3-009); the work entered in an atlas (T3-112).
-- Decide when both: Credit inside a celebration: T3-009 primary; T3-043 added where the credit has concepts of its own.
+- Decide when both: Credit and celebration together: the side with more concepts is primary, the other added only where its part has concepts of its own; a thread whose concepts are mostly thanks to the makers is T3-043.
 - Against T3-072: Are the room's own makers and helpers credited (T3-043), or another room thanked as an ally (T3-072)?
 - Against T3-009: Are the makers credited (T3-043), or the work celebrated (T3-009)?
 - Against T3-003: Is credit given or claimed after the work (T3-043), or one member's placing reported as it is done (T3-003)?
+- Against T3-104: Are builders encouraged (T3-104), or the makers credited (T3-043)?
+- Against T3-112: Are the makers credited within the room (T3-043), or the work entered in a shared list (T3-112)?
+- Against T3-159: Is credit given in words (T3-043), or a prize given (T3-159)?
 - Varies: From a general 'thanks to everyone who helped' to a dispute over who drew a figure.
 - Is not: A room thanking a neighbouring room that defended its logo (T3-072).
 - Exemplars: "I'd like to thank everyone who participated in creating, defending, and perfecting our Destiny Tricorn emblem in /r/place." (DestinyTheGame c0223); "i have to say i was the one that changes it from CS:6O to CS:GO *shameless bragging*" (globaloffensive c1108); "Thanks to everyone who helped, you know who you are!" (hsv c0092)
@@ -2964,6 +3232,7 @@ Members take up or turn down a later canvas: rebuilding there, planning for next
 - Against T3-057: Is the work carried to another canvas (T3-054), or remade in another medium (T3-057)?
 - Against T3-117: Is a later canvas taken up, planned or turned down (T3-054), or the end marked with a hope the event returns (T3-117)?
 - Against T3-022: Does the work move to a new spot on the same canvas (T3-022), or to another canvas (T3-054)?
+- Against T3-148: Is missed art imagined (T3-148), or a later canvas planned (T3-054)?
 - Varies: From a one-line link to a clone site to a room rebuilding its art there alone, and from eager plans to a refusal to start again.
 - Is not: A room moving its logo to new coordinates after losing its spot (T3-022).
 - Exemplars: "this website is essentially r/place v2, and has bot protection, I built night's edge in it by myself" (terraria c0146); "we can do this again..http://pxls.space/" (aoe2 c0160); "We should see about doing the Celtic logo next year." (CelticFc c0018)
@@ -2979,6 +3248,10 @@ Members thank other rooms that helped and tell the story of who stood with the r
 - Against T3-158: Are allies thanked for the canvas (T3-072), or ties proposed beyond it (T3-158)?
 - Against T3-122: Is help thanked (T3-072), or a greeting sent with no help behind it (T3-122)?
 - Against T3-150: Is an alliance formed for the fight (T3-150), or thanked and told afterwards (T3-072)?
+- Against T3-009: Is the room's own finished work celebrated (T3-009), or other rooms thanked for their help (T3-072)?
+- Against T3-157: Are allies thanked (T3-072), or the meaning of working together reflected on (T3-157)?
+- Against T3-104: Are those placing cheered on while the work goes on (T3-104), or other rooms thanked for their help (T3-072)?
+- Against T3-159: Are helpers given a prize (T3-159), or other rooms thanked with no prize (T3-072)?
 - Varies: From one line of thanks to a named sub to the full story of a two-nation alliance.
 - Is not: A thread thanking the members who placed the room's logo (T3-043).
 - Exemplars: "Also, special thanks go out to the people at /r/SaveDashie !" (mylittlepony c0223); "With our alliance with r/FaroeIslands, we did it! Well done everyone!" (wales c0038); "Our creeper didn't get totally over-ran, thanks to you all (mindcrack and Dutch) here for trying to save him in the final hours." (mindcrack c0133)
@@ -2994,6 +3267,9 @@ Members report what happened to the work, live or after the close: what was cove
 - Against T3-021: Is what happened told (T3-073), or the work watched and repaired (T3-021)?
 - Against T3-029: Is the account plain (T3-073), or grief voiced (T3-029)?
 - Against T3-135: Is the work's history told plainly (T3-073), or as fandom lore (T3-135)?
+- Against T3-009: Is what happened to the work told (T3-073), or the finished work celebrated (T3-009)?
+- Against T3-018: Is what a detail means explained (T3-018), or what happened to the work told (T3-073)?
+- Against T3-058: Is what happened to the work told (T3-073), or a named room blamed for its loss after the close (T3-058)?
 - Varies: From a live report that a figure is being turned into another to a written legacy of the work after the close.
 - Is not: A member posting the coordinates of the half-built logo (T3-038).
 - Exemplars: "The Mario on Rainbow Road has turned into Luigi and is currently being turned into Waluigi." (nintendo c0125); "I know, we had to move it. I spent about 8 hours making that one." (roosterteeth c0130); "It'a a part of the story. We literally had to work to do this." (toolband c0212)
@@ -3009,6 +3285,9 @@ Members save or share the work as it stood: screenshots, timelapses, final image
 - Against T3-112: Is the work kept in the room's own screenshots or timelapses (T3-105), or entered in a shared atlas or wiki (T3-112)?
 - Against T3-156: Is the work kept as a record (T3-105), or put on the sub's banner, flair or sidebar (T3-156)?
 - Against T3-009: Is the work celebrated (T3-009), or saved as a record (T3-105)?
+- Against T3-077: Is the timelapse used to keep the work (T3-105), or the work designed to move in it (T3-077)?
+- Against T3-100: Is the canvas work saved in screenshots and timelapses (T3-105), or an April Fools change kept in use (T3-100)?
+- Against T3-131: Is the sale of prints or templates of the work argued (T3-131), or the work saved as it stood with no sale (T3-105)?
 - Varies: From a request to screenshot the logo before night to a timelapse of the work from its first pixel.
 - Is not: A Minecraft rebuild of the canvas (T3-057).
 - Exemplars: "can someone screenshot it in case it gets removed overnight?" (nbaspurs c0205); "Time lapse video of Placehearts from the beginning" (placehearts c0253); "Screenshot of our logo and The Button in mint condition" (AprilKnights c0075)
@@ -3094,6 +3373,7 @@ Members carry a tie with another room past the canvas: trading recommendations, 
 - Against T3-072: Are allies thanked for the canvas (T3-072), or ties proposed beyond it (T3-158)?
 - Against T3-111: Is a tie with another room proposed (T3-158), or the room's own sub repurposed (T3-111)?
 - Against T3-122: Is a greeting sent (T3-122), or a tie beyond the canvas proposed (T3-158)?
+- Against T3-186: Is a tie between rooms proposed (T3-158), or members invited to meet in person (T3-186)?
 - Varies: From trading recommendations between two fandoms to finding that two cities are already sister cities.
 - Is not: A thank-you to the neighbour that helped hold the logo (T3-072).
 - Exemplars: "may ours try your game and yours try ours." (rhythmheaven c0075, rivals c0079); "Annapolis [is actually already sister cities](https://en.wikipedia.org/wiki/Annapolis,_Maryland#Sister_cities) with Karlskrona, Sweden" (maryland c0273); "Came here on recommendation from /r/mylittlepony." (parahumans c0125)

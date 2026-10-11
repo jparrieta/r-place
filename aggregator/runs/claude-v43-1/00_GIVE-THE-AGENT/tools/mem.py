@@ -86,6 +86,27 @@ A room is named bare, as r/<sub> or as <sub>/, in any case.
                                        entry naming an id
     asks [<id>] [--open]               your questions to the principal investigator and the answers
                                        that came back (out/asks.jsonl, out/_answers/<id>.md)
+    gates [T3-a [T3-b]]                the gate check (J, 2026-10-11): discriminators that run one way,
+                                       a must_not_show sending material to a theme with no
+                                       discriminator against it, ids a gate names that the scheme
+                                       lacks; with one id its pairs, with two the pair's sentences side
+                                       by side. gates T3-a T3-b --confirm --reason "..." records that you
+                                       read them and they agree (out/gate_checks.jsonl; a confirmation
+                                       goes stale when either gate changes)
+    rechecks [--owed]                  the rechecks done after gate changes, and with --owed the
+                                       placements each change still owes (out/rechecks-NN.jsonl)
+
+  reading blind, and the width of a page (J, 2026-10-11)
+    blind on --reason "..." | blind off | blind
+                                       a blind window: until `blind off`, every read hides where
+                                       second-order themes are placed (placed: lines, members, member
+                                       counts, exemplars), the verbs that exist to show placements
+                                       refuse, and the tool guard refuses direct reads of the files that
+                                       hold them; the window is in the read log and out/_blind.json
+    --blind                            the same for one call
+    --width N                          clip each line of the page to N characters, marked …; the read
+                                       log records N and the lines clipped. Use it in place of a shell
+                                       `cut`, which the log cannot see; read whole by default
 
   the package checks (stage A1)
     audit [frame|rooms|retracted|build]   the census count, the six files of every room, the
@@ -102,19 +123,35 @@ A room is named bare, as r/<sub> or as <sub>/, in any case.
                                        investigator, at any stage: it reaches him at once; you go on
                                        with your stated assumption (out/asks.jsonl, diary kind ask)
     idea "<label>" --trigger <sub>:<tNN>   a prospective third-order theme, stamped (ideas-<ST>.jsonl), before any mint
-    mint --label "..." --trigger <sub>:<tNN> [T3-id]   a theme_discovery line; at B1 the new theme in
-                                       scheme_current with its trigger as first member; after B1 the
-                                       stamp only, the theme written into scheme_v2.jsonl (C1 to D6)
-    place <sub>:<tNN> --theme T3-NNN     put a second-order theme into a third-order theme; rewrites
-                                       scheme_current atomically and logs kind placed (B1; after the
-                                       freeze, reassign)
+    mint --label "..." --trigger <sub>:<tNN> --gate "..." [T3-id]   a theme_discovery line; at B1 the
+                                       new theme in scheme_current with its trigger as first member;
+                                       after B1 the stamp only, the theme written into scheme_v2.jsonl
+                                       (C1 to D6). --gate is the provisional gate, what the theme must
+                                       show, written at mint and revised with `gate` (J, 2026-10-11)
+    place <sub>:<tNN> --theme T3-NNN --codes c1,c2   put a second-order theme into a third-order
+                                       theme, with the concepts that carry it; rewrites scheme_current
+                                       atomically and logs kind placed (B1; after the freeze, reassign)
+    gate T3-NNN --field F --now "..." --reason "..."   a gate sentence changed: at B1 written into
+                                       scheme_current; at C1 to D6 recorded (you write scheme_v2.jsonl);
+                                       out/gate_history.jsonl gets the line with the placements the
+                                       change could move and the ones it owes a recheck (all up to 30,
+                                       else a seeded sample of 30, and all once more than one in ten of
+                                       the sample moves). Stage B2's edits are the lines of
+                                       scheme_edits.jsonl (edit:<n>)
+    recheck <sub>:<tNN> --change <edit:n|gate:n> --theme T3-a[,T3-b] --codes "T3-a=c1,c2;T3-b=c3"
+            --reason "..."             one placement placed again under the changed sentence, with the
+                                       concepts behind each theme (out/rechecks-NN.jsonl); a moved
+                                       placement is then moved with place or reassign (B2: author_items
+                                       stays as written)
     unplace <sub>:<tNN> [--theme T3-NNN] take it out of one third-order theme, or of all
     reread <sub>                       B1d, the second pass: the room is read again, whole; recorded in
                                        out/pass2-B1.jsonl with the chosen list (out/pass2-chosen-B1.txt),
                                        and the pass's run against its target printed (saturation.py pass2)
-    reassign <sub>:<tNN> --theme T3-a[,T3-b] --reason "..."   re-place a second-order theme under
-                                       scheme v2 after a recut: rewrites its line of assignments_final.jsonl
-                                       in place, the move recorded on the line, and logs kind move (C1 to D6)
+    reassign <sub>:<tNN> --theme T3-a[,T3-b] --codes "T3-a=c1,c2;T3-b=c3" --reason "..."   re-place a
+                                       second-order theme under scheme v2 after a recut: rewrites its line
+                                       of assignments_final.jsonl in place, the move and the concepts
+                                       behind each theme (`support`) recorded on the line, and logs kind
+                                       move (C1 to D6)
     adjudicate <adaptation-id> --decision accept|modify|reject|particular|pending --reason "..."
                                        [--revised ...] [--pair id] [--kind k]   stage D3's writer
 
@@ -174,6 +211,12 @@ CANVAS = ("canvas_entries", "canvas_area_px", "canvas_centre", "canvas_ring", "c
 GLYPH = " ▁▂▃▄▅▆▇█"
 NBINS = 25                   # 4-hour bins over hours 0..99; hour 96 falls in the last
 AXIS = [" " + "0     24    48    72    96", " " + " " * 18 + "^ freeze h73"]
+HIDDEN = "hidden (blind read)"
+T3_ANY = re.compile(r"\bT3-\d{3}\b")
+# verbs whose output is placements, or the record of placing, refuse in a blind window (J, 2026-10-11)
+BLIND_REFUSED = ("where", "rooms", "contrast", "table", "view", "wiki", "diff-scheme", "diff-model",
+                 "finding", "findings", "adaptations", "place", "unplace", "reassign", "rechecks")
+BLIND_FILE = "_blind.json"
 
 
 def jl(path):
@@ -247,6 +290,7 @@ class Store:
         self.root, self.out = root, out
         self.S = os.path.join(root, "package", "store")
         self._cache = {}
+        self.blind = False
 
     def rows(self, name):
         if name not in self._cache:
@@ -381,6 +425,8 @@ class Store:
         return ov["dim_of"].get(ov["chunk_of"].get(s), [])
 
     def placement(self, sub, theme_id):
+        if self.blind:                       # a blind read: where it was placed is withheld (J, 2026-10-11)
+            return [{"so": HIDDEN, "name": None, "chunk": None, "dims": []}]
         ov = self.overlay()
         so = ov["placed"].get((sub, theme_id), [])
         return [{"so": s, "name": ov["scheme"].get(s, {}).get("name"),
@@ -739,6 +785,9 @@ def v_codes(st, a):
                 second, sub, mean_hint(second, [t["theme_id"] for t in st.rows("themes") if t["sub"] == sub])))
         sel = [c for c in codes if c["sub"] == sub and (not second or tid_of(c) == second)]
         head = "concepts of r/%s%s" % (sub, " second-order theme " + second if second else "")
+    elif st.blind and (third or fourth or a.dimension):
+        raise Refuse("a blind read withholds placements: codes --third, --fourth and --dimension select by "
+                     "placement; read by --sub, --second or --grep, or close the window (mem.py blind off)")
     elif third:
         _third_id(st, third)
         keys = {k for k, v in ov["placed"].items() if third in v}
@@ -886,6 +935,9 @@ def v_pairs(st, a):
     if not level:
         raise Refuse("no such level: %s; one of second, third, fourth, dimension (old names "
                       "case_theme, theme, chunk still work)" % a.level)
+    if st.blind and level != "second":
+        raise Refuse("a blind read withholds placements: pairs above level second lift by placement; "
+                     "close the window first (mem.py blind off)")
     sub = st.room(a.sub) if a.sub else None
 
     def lift(sub_, tids):
@@ -1263,10 +1315,14 @@ def v_scheme(st, a):
         if tid not in ov["scheme"]:
             raise Refuse("no third-order theme %s in %s%s" % (tid, ov["scheme_file"], mean_hint(tid, ov["scheme"])))
         r = ov["scheme"][tid]
-        L = ["%s  %s  (%s; family %s; %d second-order themes placed)" % (tid, r.get("name"), ov["scheme_file"],
-                                                                         ov["families"].get(tid) or r.get("family") or "-", members[tid])]
+        L = ["%s  %s  (%s; family %s; %s)" % (tid, r.get("name"), ov["scheme_file"],
+                                              ov["families"].get(tid) or r.get("family") or "-",
+                                              "blind: members and exemplars withheld" if st.blind
+                                              else "%d second-order themes placed" % members[tid])]
         for k, v in r.items():
             if k in ("id", "theme", "name", "label"):
+                continue
+            if st.blind and k in ("members", "exemplars", "n_members", "member_count"):
                 continue
             if k == "members" and isinstance(v, list):
                 L.append("members (%d):" % len(v))
@@ -1282,7 +1338,8 @@ def v_scheme(st, a):
     for tid in sorted(ov["scheme"]):
         r = ov["scheme"][tid]
         n = len(r["members"]) if isinstance(r.get("members"), list) else members[tid]
-        L.append("%-8s %-6s %5d  %s%s" % (tid, ov["families"].get(tid) or r.get("family") or "-", n,
+        n = "-" if st.blind else str(n)
+        L.append("%-8s %-6s %5s  %s%s" % (tid, ov["families"].get(tid) or r.get("family") or "-", n,
                                           clip(r.get("name"), 50), (": " + clip(r.get("gloss"), 70)) if r.get("gloss") and a.brief is not None else ""))
     return L
 
@@ -1413,6 +1470,10 @@ def _diary_lines(st):
 
 def v_diary(st, a):
     lines = _diary_lines(st)
+    if st.blind:                     # the diary stays open (the compaction gate asks for it); placements do not
+        lines = [dict(l, text=T3_ANY.sub("T3-…", str(l.get("text") or "")),
+                      ids=[("T3-…" if T3_ANY.fullmatch(str(x)) else x) for x in (l.get("ids") or [])])
+                 for l in lines if l.get("kind") not in ("placed", "unplaced", "move", "minted")]
     if a.grep:
         rx = re.compile(a.grep, re.I)
         lines = [l for l in lines if rx.search(l.get("text", "")) or a.grep in (l.get("ids") or [])]
@@ -1435,6 +1496,10 @@ def v_mint(st, a):
     _stage_guard(a, "mint", MINT_STAGES)
     if not a.label or not a.trigger:
         raise Refuse("mint needs --label \"...\" and --trigger <sub>:<tNN>")
+    if not (a.gate or "").strip():
+        raise Refuse("mint needs --gate \"...\": the provisional gate, what a second-order theme must show to be "
+                     "placed here, written when the theme is minted and revised with mem.py gate as it changes "
+                     "(J, 2026-10-11)")
     tsub, _, tth = a.trigger.replace("/", ":").partition(":")
     tsub = st.room(tsub)
     if not tth or not any(t["sub"] == tsub and t["theme_id"] == tth for t in st.rows("themes")):
@@ -1462,9 +1527,13 @@ def v_mint(st, a):
     tok = os.path.join(st.root, ".tokens_read")
     tokens = int(open(tok).read().strip() or 0) if os.path.exists(tok) else None
     line = {"theme": tid, "label": a.label, "t": _stamp(), "stage": a.stage, "leg": _leg(st),
-            "sub": tsub, "trigger": "%s:%s" % (tsub, tth),
+            "sub": tsub, "trigger": "%s:%s" % (tsub, tth), "gate": a.gate.strip(),
             "rooms_read": rooms_read, "themes_read": themes_read, "codes_read": codes_read, "tokens_read": tokens}
     line.update(_words_read(st, a.stage))
+    support = None
+    if a.stage == "B1":                  # the trigger is the theme's first member: it names its concepts too
+        support = _member_codes(st, a, tsub, tth, "mint")
+        line["support"] = support
     if a.dry_run:
         return ["dry run, nothing written; would append to theme_discovery.jsonl:", json.dumps(line, ensure_ascii=False)]
     with open(p, "a", encoding="utf-8") as f:
@@ -1475,8 +1544,10 @@ def v_mint(st, a):
                                      ids=tid, stage=a.stage, dry_run=False))   # theme is written there by you
         return ["minted %s (theme_discovery.jsonl); write it into scheme_v2.jsonl with its gate, then move its "
                 "members with mem.py reassign" % tid]
-    _scheme_edit(st, lambda rows: rows + [{"theme": tid, "label": a.label, "members": [
-        {"sub": tsub, "theme_id": tth, "second_order": _second_label(st, tsub, tth)}]}])
+    _scheme_edit(st, lambda rows: rows + [{"theme": tid, "label": a.label, "provisional_gate": a.gate.strip(),
+                                           "members": [{"sub": tsub, "theme_id": tth,
+                                                        "second_order": _second_label(st, tsub, tth),
+                                                        "support": support}]}])
     v_log(st, argparse.Namespace(arg1="minted %s %s (trigger %s)" % (tid, a.label, line["trigger"]), kind="minted",
                                  ids=tid, stage=a.stage, dry_run=False))
     return ["minted %s; its trigger is its first member in %s" % (tid, os.path.relpath(_scheme_path(st), st.root))]
@@ -1564,28 +1635,48 @@ def _member_is(m, sub, tth, label):
         m.get("theme_id") == tth or (label and (m.get("second_order") or "").strip().lower() == label.strip().lower()))
 
 
+def _member_codes(st, a, sub, tth, verb):
+    """--codes c1,c2 for one placement at B1: the concepts of sub/tth that carry it (J, 2026-10-11)."""
+    codes = [c.strip() for c in (a.codes or "").replace(";", ",").split(",") if c.strip()]
+    if not codes:
+        raise Refuse("%s needs --codes c1,c2: the concepts of %s:%s that carry the placement (every placement "
+                     "names its concepts, J 2026-10-11)" % (verb, sub, tth))
+    mine = {c["code_id"] for c in st.rows("codes") if c["sub"] == sub and tid_of(c) == tth}
+    bad = [c for c in codes if c not in mine]
+    if bad:
+        raise Refuse("%s are not concepts of %s:%s%s" % (", ".join(bad), sub, tth, mean_hint(bad[0], mine)))
+    return codes
+
+
 def v_place(st, a):
-    """place <sub>:<tNN> --theme T3-NNN: move a second-order theme into a third-order theme."""
+    """place <sub>:<tNN> --theme T3-NNN --codes c1,c2: move a second-order theme into a third-order theme."""
     _stage_guard(a, "place", ("B1",))
     if not a.arg1 or not a.theme:
-        raise Refuse("place needs <sub>:<tNN> and --theme T3-NNN")
+        raise Refuse("place needs <sub>:<tNN>, --theme T3-NNN and --codes c1,c2")
     sub, _, tth = a.arg1.replace("/", ":").partition(":")
     sub = st.room(sub)
     if not any(t["sub"] == sub and t["theme_id"] == tth for t in st.rows("themes")):
         raise Refuse("%s names no second-order theme of r/%s" % (a.arg1, sub))
+    support = _member_codes(st, a, sub, tth, "place")
     rows = jl(_scheme_path(st))
     if not any(r.get("theme") == a.theme for r in rows):
         raise Refuse("%s is not in scheme_current; mint it first%s" % (
             a.theme, mean_hint(a.theme, [r.get("theme") for r in rows if r.get("theme")])))
     lab = _second_label(st, sub, tth)
     was = [r["theme"] for r in rows if any(_member_is(m, sub, tth, lab) for m in r.get("members") or [])]
+    others = {c for r in rows if r.get("theme") != a.theme for m in r.get("members") or []
+              if _member_is(m, sub, tth, lab) for c in (m.get("support") or [])}
+    if others and not set(support) - others:
+        raise Refuse("%s:%s is already placed (%s) on these concepts; an additional placement needs a concept of its "
+                     "own (rule 0's distinct support)" % (sub, tth, ", ".join(w for w in was if w != a.theme)))
     if a.dry_run:
         return ["dry run: would place %s:%s in %s (now in %s)" % (sub, tth, a.theme, ", ".join(was) or "none")]
 
     def fn(rows):
         for r in rows:
             if r.get("theme") == a.theme and not any(_member_is(m, sub, tth, lab) for m in r.get("members") or []):
-                r.setdefault("members", []).append({"sub": sub, "theme_id": tth, "second_order": lab})
+                r.setdefault("members", []).append({"sub": sub, "theme_id": tth, "second_order": lab,
+                                                    "support": support})
         return rows
     _kinds_ledger(st, a.stage, [(sub, a.theme, "placed")])
     _scheme_edit(st, fn)
@@ -1659,12 +1750,271 @@ def v_reread(st, a):
     return ["r/%s recorded in the second pass" % sub] + saturation.pass2_lines(saturation.pass2(st.root, st.out))
 
 
+# ---- blind reads, the gate check, gate changes and their rechecks (J, 2026-10-11) -----------------
+GATE_STAGES = ("B1",) + RECUT_STAGES
+GATE_EDIT_FIELDS = ("name", "gloss", "must_show", "must_not_show", "decide_when_both", "discriminators",
+                    "is_not", "varies", "provisional_gate")
+
+
+def blind_state(out):
+    """The open blind window ({on, since, leg, reason}), or None."""
+    try:
+        d = json.load(open(os.path.join(out, BLIND_FILE), encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    return d if isinstance(d, dict) and d.get("on") is True else None
+
+
+def v_blind(st, a):
+    """blind on --reason "..." | blind off | blind: a window of blind reads."""
+    p = os.path.join(st.out, BLIND_FILE)
+    cur = blind_state(st.out)
+    if not a.arg1:
+        return ["blind window: " + ("open since %s (stage %s, leg %s): %s" % (cur.get("since"), cur.get("stage"),
+                                                                          cur.get("leg"), cur.get("reason"))
+                                    if cur else "closed")]
+    if a.arg1 == "on":
+        if cur:
+            raise Refuse("a blind window is already open, since %s; mem.py blind off closes it" % cur.get("since"))
+        if not a.reason:
+            raise Refuse("blind on needs --reason \"...\": what you are about to read blind, and why")
+        state = {"on": True, "since": _stamp(), "stage": a.stage, "leg": _leg(st), "reason": a.reason}
+    elif a.arg1 == "off":
+        if not cur:
+            raise Refuse("no blind window is open")
+        state = dict(cur, on=False, until=_stamp(), closed_leg=_leg(st))
+    else:
+        raise Refuse("blind takes on, off, or nothing (the window's state)")
+    if a.dry_run:
+        return ["dry run, nothing written; would write %s:" % BLIND_FILE, json.dumps(state, ensure_ascii=False)]
+    os.makedirs(st.out, exist_ok=True)
+    tmp = p + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False)
+    os.replace(tmp, p)
+    if state["on"]:
+        return ["blind window open: until mem.py blind off, every read hides placements, the verbs that show them "
+                "refuse, and the tool guard refuses direct reads of the files that hold them (the read log keeps "
+                "the window)"]
+    return ["blind window closed (%s to %s)" % (state["since"], state["until"])]
+
+
+def v_gates(st, a):
+    """gates [T3-a [T3-b]] [--confirm --reason "..."]: the gate consistency check."""
+    import vlib
+    rows, name = vlib.gate_scheme(st.out)
+    if not rows:
+        raise Refuse("no scheme with gates in out/ (scheme_v2.jsonl, scheme_final.jsonl or scheme.jsonl)")
+    rep = vlib.gate_report(rows, vlib.family_ids(st.out))
+    conf = vlib.gate_confirmations(st.out, rows)
+    ids = [x for x in (a.arg1, a.arg2) if x]
+    for x in ids:
+        if x not in rows:
+            raise Refuse("no third-order theme %s in %s%s" % (x, name, mean_hint(x, rows)))
+
+    def flags(x, y):
+        f = []
+        if (x, y) in rep["one_way"]:
+            f.append("%s has a discriminator against %s, %s none against %s" % (x, y, y, x))
+        if (y, x) in rep["one_way"]:
+            f.append("%s has a discriminator against %s, %s none against %s" % (y, x, x, y))
+        for s, t in ((x, y), (y, x)):
+            if (s, t) in rep["mns_no_disc"]:
+                f.append("%s's must_not_show sends material to %s with no discriminator against it" % (s, t))
+        return f
+
+    def status(x, y):
+        c = conf.get(frozenset((x, y)))
+        return c[0] if c else "unconfirmed"
+    if a.confirm:
+        if len(ids) != 2 or not a.reason:
+            raise Refuse("--confirm needs two ids and --reason: mem.py gates T3-a T3-b --confirm --reason \"...\"")
+        x, y = sorted(ids)
+        f = flags(x, y)
+        if f:
+            raise Refuse("fix the pair before confirming it: " + "; ".join(f))
+        line = {"t": _stamp(), "stage": a.stage, "leg": _leg(st), "pair": [x, y], "hash": vlib.gate_hash(rows, x, y),
+                "scheme": name, "why": a.reason}
+        if a.dry_run:
+            return ["dry run, nothing written; would append to gate_checks.jsonl:", json.dumps(line, ensure_ascii=False)]
+        with open(os.path.join(st.out, "gate_checks.jsonl"), "a", encoding="utf-8") as fh:
+            fh.write(json.dumps(line, ensure_ascii=False) + "\n")
+        return ["confirmed %s|%s against the sentences of %s; the confirmation goes stale when either gate changes"
+                % (x, y, name)]
+    if len(ids) == 2:
+        x, y = ids
+        f = flags(x, y)
+        return (["%s | %s  (%s; %s)" % (x, y, name, status(x, y))] + ["  defect: " + s for s in f] + [""]
+                + vlib.pair_lines(rows, x, y)
+                + ["read both sides; when they agree: mem.py gates %s %s --confirm --reason \"...\"" % (x, y)])
+    if len(ids) == 1:
+        x = ids[0]
+        others = sorted(next(iter(p - {x})) for p in rep["pairs"] if x in p)
+        L = ["%s  %s: %d themes its gate names or that name it (%s)" % (x, rows[x].get("name") or "", len(others), name)]
+        for y in others:
+            L.append("  %-8s %-12s %s" % (y, status(x, y), "; ".join(flags(x, y)) or "-"))
+        L += ["  unresolved: %s's %s names %s" % u for u in rep["unresolved"] if u[0] == x]
+        return L
+    n_conf = sum(1 for p in rep["pairs"] if conf.get(p, ("",))[0] == "confirmed")
+    n_stale = sum(1 for p in rep["pairs"] if conf.get(p, ("",))[0] == "stale")
+    L = ["gates of %s: %d themes, %d pairs whose gates name each other; %d confirmed, %d stale, %d unconfirmed"
+         % (name, len(rows), len(rep["pairs"]), n_conf, n_stale, len(rep["pairs"]) - n_conf - n_stale),
+         "", "discriminators that run one way: %d" % len(rep["one_way"])]
+    L += ["  %s has one against %s; %s none against %s" % (x, y, y, x) for x, y in rep["one_way"]]
+    L += ["", "a must_not_show that sends material to a theme with no discriminator against it: %d" % len(rep["mns_no_disc"])]
+    L += ["  %s -> %s" % p for p in rep["mns_no_disc"]]
+    L += ["", "ids a gate names that the scheme lacks: %d" % len(rep["unresolved"])]
+    L += ["  %s's %s names %s" % u for u in rep["unresolved"]]
+    L += ["", "the mechanical check cannot tell whether two sentences contradict each other: read each pair "
+          "(mem.py gates T3-a T3-b) and confirm it"]
+    return L
+
+
+def v_gate(st, a):
+    """gate T3-NNN --field F --now "..." --reason "...": a gate sentence changed, and the rechecks it owes."""
+    if a.stage == "B2":
+        raise Refuse("at stage B2 an edit is its line in scheme_edits.jsonl (section 3), keyed edit:<n>; "
+                     "mem.py rechecks --owed reads the rechecks each line owes")
+    _stage_guard(a, "gate", GATE_STAGES)
+    if not a.arg1 or not a.field or a.now is None or not a.reason:
+        raise Refuse("gate needs T3-NNN, --field F, --now \"...\" and --reason \"...\"")
+    if a.field not in GATE_EDIT_FIELDS:
+        raise Refuse("no gate field %s; one of %s" % (a.field, ", ".join(GATE_EDIT_FIELDS)))
+    import vlib
+    now = a.now
+    if a.field == "discriminators":
+        try:
+            now = json.loads(a.now)
+        except ValueError:
+            raise Refuse("--now for discriminators is JSON: [{\"vs\": \"T3-NNN\", \"question\": \"...\"}]")
+    if a.stage == "B1":
+        rows = jl(_scheme_path(st))
+        row = next((r for r in rows if r.get("theme") == a.arg1), None)
+        if row is None:
+            raise Refuse("%s is not in scheme_current; mint it first%s" % (a.arg1, mean_hint(a.arg1, [r.get("theme") for r in rows])))
+        was = row.get(a.field)
+    else:
+        grows, _ = vlib.gate_scheme(st.out)
+        if a.arg1 not in grows and a.arg1 not in st.known_third():
+            raise Refuse("no third-order theme %s in the scheme%s" % (a.arg1, mean_hint(a.arg1, grows)))
+        was = (grows.get(a.arg1) or {}).get(a.field)
+    th = vlib.touched({"theme": a.arg1, "was": was, "now": now})
+    items = vlib.placed_items(st.out, a.stage)
+    cands = sorted(k for k, v in items.items() if set(v["third_order"]) & th)
+    p = os.path.join(st.out, "gate_history.jsonl")
+    ref = "gate:%d" % (len(jl(p)) + 1)
+    owed, sampled = vlib.draw_owed(cands, a.stage, ref)
+    line = {"t": _stamp(), "stage": a.stage, "leg": _leg(st), "ref": ref, "theme": a.arg1, "field": a.field,
+            "was": was, "now": now, "why": a.reason, "touched": sorted(th), "candidates": len(cands),
+            "candidates_list": [list(k) for k in cands], "owed": [list(k) for k in owed]}
+    if a.dry_run:
+        return ["dry run, nothing written; would append to gate_history.jsonl:", json.dumps(line, ensure_ascii=False)[:600]]
+    with open(p, "a", encoding="utf-8") as f:
+        f.write(json.dumps(line, ensure_ascii=False) + "\n")
+    if a.stage == "B1":
+        def fn(rows):
+            for r in rows:
+                if r.get("theme") == a.arg1:
+                    r[a.field] = now
+            return rows
+        _scheme_edit(st, fn)
+    v_log(st, argparse.Namespace(arg1="gate %s %s changed (%s): %s" % (a.arg1, a.field, ref, a.reason), kind="note",
+                                 ids=a.arg1, stage=a.stage, dry_run=False))
+    return ["%s: %s %s changed%s; %d placements it could move, %d owed a recheck%s: mem.py rechecks --owed, then "
+            "mem.py recheck <sub>:<tNN> --change %s ..." % (ref, a.arg1, a.field,
+                                                             " in scheme_current" if a.stage == "B1" else
+                                                             " (recorded; write it into scheme_v2.jsonl)",
+                                                             len(cands), len(owed),
+                                                             " (a seeded sample; all of them once more than one in "
+                                                             "ten of the sample moves)" if sampled else "", ref)]
+
+
+def v_recheck(st, a):
+    """recheck <sub>:<tNN> --change <ref> --theme T3-a[,T3-b] --codes "..." --reason "...": one placement
+    placed again under a changed gate sentence."""
+    _stage_guard(a, "recheck", ("B1", "B2") + RECUT_STAGES)
+    if not a.arg1 or not a.change or not a.theme or not a.codes or not a.reason:
+        raise Refuse("recheck needs <sub>:<tNN>, --change <edit:n|gate:n>, --theme T3-a[,T3-b], --codes "
+                     "\"T3-a=c1,c2;T3-b=c3\" and --reason \"...\"")
+    sub, _, tth = a.arg1.replace("/", ":").partition(":")
+    sub = st.room(sub)
+    if not any(t["sub"] == sub and t["theme_id"] == tth for t in st.rows("themes")):
+        raise Refuse("%s names no second-order theme of r/%s" % (a.arg1, sub))
+    import vlib
+    O = {o["ref"]: o for o in vlib.owed_rechecks(st.out, a.stage)}
+    o = O.get(a.change)
+    if o is None:
+        raise Refuse("no gate change %s at stage %s%s; mem.py rechecks --owed lists them" % (
+            a.change, a.stage, mean_hint(a.change, O)))
+    k = (sub, tth)
+    if k not in o["candidates"]:
+        raise Refuse("%s:%s is not a placement %s could move: it is not on %s" % (sub, tth, a.change, ", ".join(o["touched"])))
+    if k in o["done"]:
+        raise Refuse("%s:%s is already rechecked for %s (rechecks-%s.jsonl); a recheck is recorded once"
+                     % (sub, tth, a.change, a.stage))
+    now = [x.strip() for x in a.theme.split(",") if x.strip()]
+    if len(now) > 3:
+        raise Refuse("%d themes: three at most (rule 0)" % len(now))
+    grows, _ = vlib.gate_scheme(st.out)
+    known = set(grows) | set(st.overlay()["scheme"])
+    bad = [x for x in now if x not in known]
+    if bad:
+        raise Refuse("%s not in the scheme%s" % (", ".join(bad), mean_hint(bad[0], known)))
+    support = vlib.parse_support(a.codes, now)
+    if support is None:
+        raise Refuse("--codes reads \"T3-a=c1,c2;T3-b=c3\", one group per theme placed (or \"c1,c2\" for one)")
+    probs = vlib.support_problems(support, now, sub, tth, vlib.code_themes(st.rows("codes")))
+    if probs:
+        raise Refuse("--codes: " + "; ".join(probs))
+    was = o["before"].get(k) or []
+    line = {"t": _stamp(), "stage": a.stage, "leg": _leg(st), "change": a.change, "sub": sub, "theme_id": tth,
+            "source": o["source"].get(k), "was": was, "now": now, "support_by_theme": support,
+            "changed": list(now) != list(was), "blind": bool(st.blind), "why": a.reason}
+    if a.dry_run:
+        return ["dry run, nothing written; would append to rechecks-%s.jsonl" % a.stage]
+    with open(os.path.join(st.out, "rechecks-%s.jsonl" % a.stage), "a", encoding="utf-8") as f:
+        f.write(json.dumps(line, ensure_ascii=False) + "\n")
+    if not line["changed"]:
+        return ["%s:%s rechecked for %s: unchanged" % (sub, tth, a.change)]
+    then = {"B1": "move it with mem.py place and unplace", "B2": "author_items.jsonl stays as you wrote it; "
+            "fidelity is scored against both"}.get(a.stage, "move it with mem.py reassign")
+    return ["%s:%s rechecked for %s: moved%s; %s" % (sub, tth, a.change,
+                                                    "" if st.blind else " from %s to %s" % (",".join(was), ",".join(now)),
+                                                    then)]
+
+
+def v_rechecks(st, a):
+    """rechecks [--owed]: the gate changes of this stage and their rechecks."""
+    import vlib
+    O = vlib.owed_rechecks(st.out, a.stage)
+    src = "scheme_edits.jsonl" if a.stage == "B2" else "gate_history.jsonl"
+    if not O:
+        return ["no gate change at stage %s in %s" % (a.stage, src)]
+    L = ["gate changes at stage %s (%s): %d; owed %d, done %d, missing %d" % (
+        a.stage, src, len(O), sum(len(o["owed"]) for o in O), sum(len(o["done"]) for o in O),
+        sum(len(o["missing"]) for o in O))]
+    for o in O:
+        L.append("%-8s %s %s: %d it could move, %d owed%s, %d done (%d moved), %d missing" % (
+            o["ref"], o["theme"], o["field"], len(o["candidates"]), len(o["owed"]),
+            " (all: more than one in ten of the sample moved)" if o["escalated"] else
+            " (a seeded sample)" if o["sampled"] else "", len(o["done"]), o["moved"], len(o["missing"])))
+        if a.owed:
+            L += ["    owed: %s:%s  on %s (%s)" % (k[0], k[1], ",".join(o["before"].get(k) or []), o["source"].get(k))
+                  for k in o["missing"]]
+        else:
+            L += ["    done: %s:%s  %s -> %s%s" % (r.get("sub"), r.get("theme_id"), ",".join(r.get("was") or []),
+                                                   ",".join(r.get("now") or []), "  moved" if r.get("changed") else "")
+                  for r in o["done"].values()]
+    return L
+
+
 def v_reassign(st, a):
     """reassign <sub>:<tNN> --theme T3-a[,T3-b] --reason "...": a recut's re-placement. Rewrites that second-order
     theme's line of assignments_final.jsonl in place (the file stays one line per theme) and records the move."""
     _stage_guard(a, "reassign", RECUT_STAGES)
-    if not a.arg1 or not a.theme or not a.reason:
-        raise Refuse("reassign needs <sub>:<tNN>, --theme T3-NNN[,T3-MMM] and --reason \"...\"")
+    if not a.arg1 or not a.theme or not a.reason or not a.codes:
+        raise Refuse("reassign needs <sub>:<tNN>, --theme T3-NNN[,T3-MMM], --codes \"T3-NNN=c1,c2;T3-MMM=c3\" and "
+                     "--reason \"...\" (every placement names the concepts behind each theme, J 2026-10-11)")
     sub, _, tth = a.arg1.replace("/", ":").partition(":")
     sub = st.room(sub)
     if not any(t["sub"] == sub and t["theme_id"] == tth for t in st.rows("themes")):
@@ -1676,6 +2026,15 @@ def v_reassign(st, a):
     if bad:
         raise Refuse("%s not in %s; a theme a recut makes is written there first, with its gate" % (
             ", ".join(bad), name or "scheme_v2.jsonl"))
+    if len(to) > 3:
+        raise Refuse("%d themes: three at most (rule 0); beyond three place one and record the rest under "
+                     "also_present" % len(to))
+    support = vlib.parse_support(a.codes, to)
+    if support is None:
+        raise Refuse("--codes reads \"T3-NNN=c1,c2;T3-MMM=c3\", one group per theme placed (or \"c1,c2\" for one)")
+    probs = vlib.support_problems(support, to, sub, tth, vlib.code_themes(st.rows("codes")))
+    if probs:
+        raise Refuse("--codes: " + "; ".join(probs))
     p = os.path.join(st.out, "assignments_final.jsonl")
     rows = jl(p)
     hit = [r for r in rows if r.get("sub") == sub and r.get("theme_id") == tth]
@@ -1687,8 +2046,9 @@ def v_reassign(st, a):
         return ["dry run: would move %s:%s from %s to %s" % (sub, tth, was, ", ".join(to))]
     for r in hit:
         r["third_order"] = to
+        r["support_by_theme"] = support
         r.setdefault("moves", []).append({"from": was, "to": to, "stage": a.stage, "leg": _leg(st), "t": _stamp(),
-                                          "why": a.reason})
+                                          "why": a.reason, "support": support})
     tmp = p + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         for r in rows:
@@ -2165,7 +2525,8 @@ VERBS = {"room": v_room, "case": v_case, "brief": v_brief, "forest": v_forest, "
          "adaptations": v_adaptations, "rooms": v_rooms, "contrast": v_contrast, "finding": v_finding,
          "findings": v_finding, "question": v_question, "contract": v_contract, "table": v_table,
          "view": v_view, "wiki": v_wiki, "diff-scheme": v_diff, "diff-model": v_diff,
-         "ask": v_ask, "asks": v_asks, "audit": v_audit}
+         "ask": v_ask, "asks": v_asks, "audit": v_audit,
+         "blind": v_blind, "gates": v_gates, "gate": v_gate, "recheck": v_recheck, "rechecks": v_rechecks}
 OVERLAY_VERBS = ("room", "codes", "theme", "themes", "where", "pairs", "scheme", "rooms", "contrast")
 
 
@@ -2204,6 +2565,11 @@ def parser():
     ap.add_argument("--size", action="store_true")
     ap.add_argument("--plan", nargs="?", const="3", default=None)
     ap.add_argument("--assume"); ap.add_argument("--open", dest="open_only", action="store_true")
+    ap.add_argument("--blind", action="store_true")                  # J, 2026-10-11: blind reads,
+    ap.add_argument("--width", type=int, default=None)                # the page's width, logged,
+    ap.add_argument("--codes"); ap.add_argument("--gate")             # the concepts behind a placement,
+    ap.add_argument("--now"); ap.add_argument("--change")              # gate changes and their rechecks
+    ap.add_argument("--confirm", action="store_true"); ap.add_argument("--owed", action="store_true")
     ap.add_argument("-h", "--help", action="store_true")
     return ap
 
@@ -2250,8 +2616,16 @@ def main(argv=None):
             return 2
         a.offset = (a.page - 1) * a.limit
     st = Store(a.root, out)
+    window = blind_state(out) if a.verb != "blind" else None
+    st.blind = bool(a.blind or window)
     refused, rc = None, 0
     try:
+        if a.width is not None and a.width < 20:
+            raise Refuse("--width %d is too narrow to read; 20 at least (the default is whole lines)" % a.width)
+        if st.blind and a.verb in BLIND_REFUSED:
+            raise Refuse("a blind %s withholds placements, and %s exists to show them or to write them; %s" % (
+                "window (since %s)" % window.get("since") if window else "read", a.verb,
+                "close the window first: mem.py blind off" if window else "drop --blind"))
         lines = VERBS[a.verb](st, a)
     except Refuse as e:
         refused, lines, rc = str(e), [str(e)], 1
@@ -2269,6 +2643,15 @@ def main(argv=None):
             while end < total and not lines[end].startswith("=== THREAD ") and end < a.offset + 4 * a.limit:
                 end += 1
         page = lines if refused else lines[a.offset:end]
+    clipped = 0
+    if a.width and not refused:          # the width the reader asked for, applied here so the log can see it
+        cut = []
+        for l in page:
+            if len(l) > a.width:
+                clipped += 1
+                l = l[:a.width - 1] + "…"
+            cut.append(l)
+        page = cut
     for l in page:
         print(l)
     if not refused:
@@ -2296,11 +2679,16 @@ def main(argv=None):
     try:
         os.makedirs(out, exist_ok=True)
         with open(os.path.join(out, "_mem_reads-%s.jsonl" % a.stage), "a", encoding="utf-8") as f:
-            f.write(json.dumps({"t": _stamp(), "stage": a.stage, "verb": a.verb,
-                                "args": [x for x in (a.arg1, a.arg2) if x], "opts": opts,
-                                "offset": a.offset, "limit": a.limit,
-                                "lines": 0 if refused else len(page), "total": total,
-                                "refused": refused}, ensure_ascii=False) + "\n")
+            rec = {"t": _stamp(), "stage": a.stage, "verb": a.verb,
+                   "args": [x for x in (a.arg1, a.arg2) if x], "opts": opts,
+                   "offset": a.offset, "limit": a.limit,
+                   "lines": 0 if refused else len(page), "total": total,
+                   "refused": refused}
+            if st.blind:
+                rec["blind"] = True
+            if a.width:
+                rec["width"], rec["clipped"] = a.width, clipped
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
     except OSError as e:
         print("note: the read log could not be written: %s" % e, file=sys.stderr)
     return rc

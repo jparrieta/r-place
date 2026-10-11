@@ -207,6 +207,12 @@ def _check_assign_final(outdir, ctx, ids):
     return keyed
 
 
+def _ct(ctx):
+    if "code_themes" not in ctx:
+        ctx["code_themes"] = vlib.code_themes(jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [])
+    return ctx["code_themes"]
+
+
 def _check_disagreements(outdir, root, ctx, ids, srows, keyed):
     """disagreements.jsonl, section 7's line. Returns {key: last ruling row}."""
     dis = jsonl(os.path.join(outdir, "disagreements.jsonl"))
@@ -252,6 +258,16 @@ def _check_disagreements(outdir, root, ctx, ids, srows, keyed):
                 err("disagreements.jsonl line %d: the ruling names %r, outside the frozen scheme; no edit to "
                     "the scheme here (section 8)" % (i, s),
                     shape="disagreements.jsonl: a ruling outside the frozen scheme", where=w)
+        if ruling:                     # J, 2026-10-11: your ruling names the concepts behind each theme it places
+            if not d.get("support_by_theme"):
+                err("disagreements.jsonl line %d: the ruling %s names no support_by_theme; every placement you make "
+                    "names the concepts behind each theme (rule 0)" % (i, ruling),
+                    shape="disagreements.jsonl: a ruling without support_by_theme", where=w)
+            else:
+                for pb in vlib.support_problems(d.get("support_by_theme"), ruling, k[0], k[1], _ct(ctx)):
+                    err("disagreements.jsonl line %d: %s" % (i, pb), shape="disagreements.jsonl: support_by_theme", where=w)
+        for pb in vlib.also_present_problems(d.get("also_present"), ruling, k[0], k[1], _ct(ctx), ids):
+            err("disagreements.jsonl line %d: %s" % (i, pb), shape="disagreements.jsonl: also_present", where=w)
         unresolved = d.get("unresolved")
         if not isinstance(unresolved, bool):
             err("disagreements.jsonl line %d: unresolved is %r, not true|false" % (i, unresolved),
@@ -679,7 +695,7 @@ def _fixture(outdir, root, leg="build"):
         {"sub": "asoiaf", "theme_id": "t02", "third_order": ["T3-020"], "confidence": "clear", "read": "whole",
          "agent": "a003", "replicate": 2}])
     _wj(outdir, "disagreements.jsonl", [
-        {"sub": "denmark", "theme_id": "t07", "readers": [["T3-014"], ["T3-020"]], "ruling": ["T3-014"],
+        {"sub": "denmark", "theme_id": "t07", "readers": [["T3-014"], ["T3-020"]], "ruling": ["T3-014"], "support_by_theme": {"T3-014": ["c0117"]},
          "unresolved": False, "taxonomy": "item-is-a-bag", "field": None, "theme": "T3-014",
          "quote": "we need more people at the border", "boundary_ruling": None, "named_neither": False,
          "confidence": "clear", "why": "the call is addressed outside", "leg": "B4-adj-1"}])
@@ -743,6 +759,15 @@ def _plant_ruling_differs(outdir, root):
         {"sub": "asoiaf", "theme_id": "t02", "third_order": ["T3-020"], "confidence": "clear", "read": "whole"}])
 
 
+def _plant_ruling_without_support(outdir, root):
+    """J, 2026-10-11: a ruling that names no concepts."""
+    _fixture(outdir, root, "build")
+    rows = [json.loads(l) for l in open(os.path.join(outdir, "disagreements.jsonl"))]
+    for r in rows:
+        r.pop("support_by_theme", None)
+    _wj(outdir, "disagreements.jsonl", rows)
+
+
 def _plant_outcome(outdir, root):
     _fixture(outdir, root, "check")
     rows = jsonl(os.path.join(outdir, "reassign.jsonl"))
@@ -758,6 +783,7 @@ def _plant_unanimous_on_adjudicated(outdir, root):
 
 
 PLANTED = [
+    ("build: ruling without concepts", _plant_ruling_without_support, "names no support_by_theme"),
     ("build: id outside the frozen scheme", _plant_outside_scheme, "outside the frozen scheme"),
     ("build: gold placement survived", _plant_gold_survived, "seeded gold placement that survived the drop"),
     ("build: standing line vs ruling", _plant_ruling_differs, "standing placement is the ruling"),

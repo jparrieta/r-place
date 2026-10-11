@@ -58,14 +58,20 @@ to confirm it reached the marker. `packets.py B2` builds one packet per reader u
 ceiling: `scheme.jsonl` as it currently stands, served as stage B3 serves it, the index page
 whole and the families opened as the reader needs them; the hard set's items with label,
 `theme_note` and concepts; and no exemplars: stage B3 may ship them; this stage measures the
-description alone.
+description alone. **From the round after 2026-10-11 (J)** the return line also carries
+`also_present`: `{}` unless `item_is_a_bag` is true, and then every theme beyond the one placed,
+each with its own concept ids (rule 0 as amended); `support` holds the concepts behind the
+primary, and each further theme's concepts are in its `multiplacement_log` record. Rounds sent
+before the amendment are scored as they were sent. Oversized items are served in parts to the
+same reader (`MANIFEST.json` groups, as stage B3 serves a large room), never dropped for size.
 
 ```json
 {"sub": "...", "theme_id": "...", "batch": "...", "agent": "...", "replicate": 1, "position": 23,
  "third_order": ["T3-007"], "multi": false,
  "why": {"T3-007": "what about THIS theme put it here rather than its nearest neighbour"},
  "confidence": "clear|arguable", "read": "whole|theme-block", "exemplar_read": null,
- "families_opened": ["G03", "G09"], "t_start": "...", "t": "...", "support": ["c0013"]}
+ "families_opened": ["G03", "G09"], "t_start": "...", "t": "...", "support": ["c0013"],
+ "also_present": {}}
 ```
 
 Append the round's manifest entry: readers' model, seed, decoding, count. Every later fidelity is
@@ -86,8 +92,11 @@ counts into `notes-B2.md`: readers, reissues, durations. Counts, not readings.
 You are relaunched. Validate, then score, in this order: **fidelity** against
 `author_items.jsonl`, the primary figure; **pairwise agreement** among the three readers,
 secondary, since three readers can agree with each other and all diverge from you; **your own
-consistency**, by re-placing ten of the hard set blind (after the last round only): if you
-disagree with yourself more than the readers disagree with you, the fleet is not the problem.
+consistency**, by re-placing ten of the hard set blind (after the last round only): open a blind
+window first (`mem.py blind on --reason "..."`), read the ten through `mem.py theme` and the
+packets' family pages, write your placements, then `mem.py blind off`; the read log is the
+evidence that the window held. If you disagree with yourself more than the readers disagree with
+you, the fleet is not the problem.
 Every item where any two disagree is a finding and the material for the edit. One line per round
 in `pilot_rounds.jsonl`:
 
@@ -117,6 +126,20 @@ revises anything. Every edit is a `tier_history` line with its move (`relabelled
 move `asking questions` or `splitting`). **Never tighten by narrowing until a theme becomes
 rare**: it looks like success here and makes that theme's prevalence wrong everywhere after.
 Watch every theme's base rate across rounds and report it.
+
+**Every edit owes its rechecks** (J, 2026-10-11). After you change a gate, place again every
+placement of yours it could move: the items of `author_items.jsonl` and `gold_items.jsonl` on the
+edited theme, or on a theme its old or new sentence names. `mem.py rechecks --owed` lists them
+(the edit is `edit:<n>`, its line in `scheme_edits.jsonl`; above thirty a seeded sample of thirty,
+and all of them once more than one in ten of the sample moves); `mem.py recheck <sub>:<tNN>
+--change edit:<n> --theme ... --codes "T3-a=c1,c2" --reason "..."` records each, with the concepts
+behind each theme. `author_items.jsonl` stays as you wrote it: from the next round report
+fidelity twice, against it and against the rechecked placements, and say in each moved recheck's
+reason whether it is an `author-error` or the edit doing its work. The close refuses an edit
+whose rechecks are missing. Then run `mem.py gates` and read every pair an edited theme belongs
+to (`mem.py gates T3-a T3-b`), confirming each with `--confirm --reason`: a discriminator that
+runs one way, or a `must_not_show` that sends material to a theme with no discriminator against
+it, is fixed before the packets are rebuilt, and the freeze refuses a scheme that carries either.
 
 Then decide: another round opens if no stopping condition holds (§5), and its build leg
 rebuilds the packets from the edited scheme.
@@ -162,7 +185,8 @@ The rounds, with agreement climbing or not; every edit grouped by theme with the
 that caused it; the gold number beside the last pilot number and what the gap means; the
 `author-error` verdicts, listed; the themes that never stabilised, named, with what stage B4
 should expect from them; the prediction scorecard; the stability figure; what it cost: readers,
-items, tokens.
+items, tokens (`tools/tokens.py --dispatched` gives the tokens each packet cost, as the gateway
+counted them).
 
 ## Moments to log
 

@@ -335,6 +335,8 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
             "cell number")
     vlib.store_codes(ctx)
     codes = ctx["codes"]
+    ct = vlib.code_themes(jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [])
+    spec_ap = "also_present" in text(outdir, "RETURN-B3.md")
     if not codes:
         err("package/store/codes.jsonl holds no concept, so no support id could be resolved")
     multi = jsonl(os.path.join(outdir, "multiplacement_log.jsonl")) or []
@@ -397,6 +399,12 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
         if len(so) > 3:
             err("assign_raw.jsonl line %d carries %d themes; three at most, beyond three place one and set bag true"
                 % (i, len(so)), shape="assign_raw.jsonl: more than three themes on a line", where="line %d" % i)
+        for pb in vlib.also_present_problems(r.get("also_present"), so, r.get("sub"), r.get("theme_id"), ct, scheme):
+            err("assign_raw.jsonl line %d: %s" % (i, pb), shape="assign_raw.jsonl: also_present", where="line %d" % i)
+        if r.get("bag") and spec_ap and not r.get("also_present"):
+            err("assign_raw.jsonl line %d is a bag and names no also_present; rule 0 keeps every theme beyond the one "
+                "placed, each with its own concepts (J, 2026-10-11)" % i,
+                shape="assign_raw.jsonl: a bag with no also_present", where="line %d" % i)
         sup = as_list(r.get("support"))
         for c in sup:
             if codes and (r.get("sub"), c) not in codes:

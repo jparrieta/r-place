@@ -51,3 +51,13 @@ python3 tools/ingest.py D    changed: with no DROPS/D it says so in one line and
 python3 tools/gen_views.py NN changed: data-structure.md above 2 MB holds a note pointing to `mem.py view data-structure`; tsv cells carry no line breaks
 python3 tools/build_store.py --root R --join-canvas F   changed: F may be relative to --root
 ```
+
+## v43.2, 2026-10-11 (J, after the B1e interview)
+
+- `mem.py blind on --reason "..."`, `blind off`, `blind`: a blind window. Every read hides placements (placed lines, members, member counts, exemplars); `where`, `rooms`, `contrast`, `table`, `view`, `wiki`, `diff-*`, `finding(s)`, `adaptations`, `place`, `unplace`, `reassign`, `rechecks`, and `codes --third/--fourth/--dimension`, `pairs` above level second refuse; the diary drops placement lines and masks T3 ids. `--blind` does the same for one call. The read log marks each blind read; the tool guard refuses direct reads of placement files while the window is open.
+- `--width N` (20 or more): mem.py clips each line of the page and logs the width and the lines clipped, in place of a shell `cut`, which the guard now refuses after mem.py, cite.py or a helper.
+- `mem.py gates [T3-a [T3-b]] [--confirm --reason "..."]`: one-way discriminators, `must_not_show` lines sending material to a theme with no discriminator against it, ids the gates name that the scheme lacks; a pair side by side; confirmations in `out/gate_checks.jsonl`, stale when a gate changes.
+- `mem.py gate T3-NNN --field F --now "..." --reason "..."` (B1, C1 to D6; B2's edits are `scheme_edits.jsonl`): records a gate change in `out/gate_history.jsonl` with the placements it could move and those it owes (all up to 30, a seeded sample of 30 above, all once more than one in ten of the sample moves). At B1 it writes the field into scheme_current.
+- `mem.py recheck <sub>:<tNN> --change <edit:n|gate:n> --theme ... --codes ... --reason "..."` and `mem.py rechecks [--owed]`: `out/rechecks-NN.jsonl`. The checks of B1, B2 and C1 refuse a change with rechecks missing.
+- `place` and B1 `mint` need `--codes` (the trigger's or member's concepts); `mint` needs `--gate`; `reassign` needs `--codes "T3-a=c1,c2;T3-b=c3"` and keeps `support_by_theme` on the line and the move.
+- `tools/tokens.py`: token sizes measured from the dispatch's usage records (`--dispatched`), or estimated at the measured rate, never at an assumed one without saying so.

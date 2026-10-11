@@ -98,6 +98,15 @@ reader**. Log every moved item: which second-order theme, out of which third-ord
 which, and the clause of the amended gate that decides it. **A theme that arrives here declares
 its gate here**, in the form stage B1 uses, before any count appears anywhere (rule 5).
 
+**A gate amended without a split or a merge owes rechecks too** (J, 2026-10-11). Record it with
+`mem.py gate T3-NNN --field F --now "..." --reason "..."` (`out/gate_history.jsonl`), write the
+sentence into `scheme_v2.jsonl`, then recheck the placements it could move: every one up to
+thirty, else the seeded sample of thirty the line names, and every one once more than one in ten
+of the sample moves. Each recheck is `mem.py recheck <sub>:<tNN> --change gate:<n> --theme ...
+--codes ... --reason ...`; each moved one is then moved with `mem.py reassign`, which takes
+`--codes`, the concepts behind each theme. Run `mem.py gates` on every theme you amend and confirm
+each pair you read.
+
 `assignments_final.jsonl` is every second-order theme with its placement under scheme v2, and it
 is what stage C2 reads; nothing after C1 reads `assign_final.jsonl`.
 
@@ -198,7 +207,7 @@ complete file, and a stage that reads it literally works on whatever fraction of
 covers and never finds out. Unchanged lines carried through verbatim, changed lines superseding,
 same schema as stage B3, one line per `(sub, theme_id)`. Nothing is deleted. Keep the
 overlay as `assign_revisions_only.jsonl`; stage E1 reports it. Once `assignments_final.jsonl` is
-written, re-place a second-order theme with `mem.py reassign <sub>:<tNN> --theme T3-NNN --reason
+written, re-place a second-order theme with `mem.py reassign <sub>:<tNN> --theme T3-NNN --codes "c1,c2" --reason
 "..."`, which rewrites its line and keeps the overlay in step.
 
 **The line count goes in `assignments_final.count.txt`, not at the top of the JSONL**, which

@@ -317,9 +317,13 @@ from the global model plus its adaptations.
    cannot carry the material, and never silently: it needs its own distinct supporting concept, a
    written `why_not_one` in terms of what the single placement would fail to carry, a named
    dispensable one, and a line in `multiplacement_log.jsonl`. Three at most; beyond three, place
-   one and record `item-is-a-bag`. An unjustified extra is a defect. The log is a measurement:
-   recurring `(primary, additional)` pairs are boundaries the scheme has not drawn, and stage C1
-   reads that table first.
+   one, record `item-is-a-bag`, and name every other theme the material satisfies under
+   `also_present`, each with its own concept ids, so the cap drops no theme from the record. Every
+   placement you make yourself names the concepts that carry each theme it places
+   (`support_by_theme`, or `--codes` to the writer verbs). An unjustified extra is a defect. The log
+   is a measurement: recurring `(primary, additional)` pairs are boundaries the scheme has not
+   drawn, and stage C1 reads that table and the `also_present` record first. (J, 2026-10-11: the
+   `also_present` record and the concepts behind a placement.)
 1. **The log is an output.** Every read of the package goes through `cite.py`, and every read of
    the store or of your own files through `mem.py`. Where your account of your reading and the
    log disagree, the log is right.

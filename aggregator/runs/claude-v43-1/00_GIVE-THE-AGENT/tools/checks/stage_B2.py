@@ -41,7 +41,7 @@ from vlib import err, warn, jsonl, text, need
 
 CONF = ("clear", "arguable")
 READ = ("whole", "theme-block")
-KINDS = ("scheme-ambiguous", "item-is-a-bag", "reader-error", "author-error", "genuine-joint")
+KINDS = ("scheme-ambiguous", "item-is-a-bag", "reader-error", "author-error", "genuine-joint", "gate-check")
 ROUND_FIELDS = ("round", "n_items", "agents", "exemplars", "fidelity_vs_author", "agreement_pairwise",
                 "alpha", "items_with_disagreement", "seed")
 EDIT_FIELDS = ("round", "theme", "field", "caused_by", "was", "now", "why")
@@ -153,6 +153,31 @@ def check_return_spec(outdir, name):
         err("%s has no line telling the reader to confirm it reached the end marker (FLEET.md)" % name)
 
 
+def spec_in_force(outdir, name, d):
+    """Was the dispatch in d sent under the current return specification (fleet.py's arm.json keeps the
+    sha256 of the specification it sent)? None when the dispatch kept no arm.json."""
+    try:
+        arm = json.load(open(os.path.join(d, "arm.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    t = text(outdir, name)
+    import hashlib
+    return bool(t) and arm.get("return_spec_sha256") == hashlib.sha256(t.encode("utf-8")).hexdigest()
+
+
+def check_also_present(rel, r, ct, scheme, required, where):
+    """Rule 0 as amended (J, 2026-10-11): a bag places one theme and names the others under also_present,
+    each with its own concepts. Checked where present; required on a bag line when the specification the
+    round was sent under asks for it."""
+    so = as_list(r.get("third_order"))
+    bag = bool(r.get("item_is_a_bag") or r.get("bag"))
+    for p in vlib.also_present_problems(r.get("also_present"), so, r.get("sub"), r.get("theme_id"), ct, scheme):
+        err("%s: a return on %s: %s" % (rel, key_of(r), p), shape="%s: also_present" % rel, where=where)
+    if bag and required and not r.get("also_present"):
+        err("%s: a return on %s is a bag and names no also_present; rule 0 keeps every theme beyond the one placed, "
+            "each with its own concepts" % (rel, key_of(r)), shape="%s: a bag with no also_present" % rel, where=where)
+
+
 def check_packets(outdir, stage, exemplars_allowed):
     pd = packets_dir(outdir, stage)
     if pd is None:
@@ -261,9 +286,12 @@ def check(root, outdir, ctx):
         err("pilot_rounds.jsonl is empty or absent while _fleet_raw/B2 holds a finished dispatch; the check "
             "leg scores every round, one line each")
     # the returns themselves
+    ct = vlib.code_themes(jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [])
+    spec_ap = "also_present" in text(outdir, "RETURN-B2.md")
     for d in dirs:
         rel = os.path.relpath(d, outdir)
         n_lines, n_readers = 0, 0
+        required = bool(spec_ap and spec_in_force(outdir, "RETURN-B2.md", d))
         for p, rows in returns_in(d):
             n_readers += 1
             for i, r in enumerate(rows, 1):
@@ -309,6 +337,7 @@ def check(root, outdir, ctx):
                         err("%s: a return on %s cites support %r, which does not resolve in package/store/codes.jsonl "
                             "for that room" % (rel, key_of(r), c),
                             shape="%s: a support id that does not resolve" % rel, where=key_of(r))
+                check_also_present(rel, r, ct, scheme, required, "%s line %d" % (os.path.basename(p), i))
         print("  %s: %d readers, %d return lines" % (rel, n_readers, n_lines))
 
     # one scored line per dispatched round
@@ -369,7 +398,10 @@ def check(root, outdir, ctx):
                 "caused_by is not allowed, name the items that divided the readers"
                 % (i, e.get("theme"), e.get("field"), e.get("round")),
                 shape="scheme_edits.jsonl: an edit with no caused_by", where="line %d" % i)
+        gate_check = e.get("kind") == "gate-check"      # J, 2026-10-11 (QB2-003): a repair the gate check found
         for it in cb:
+            if str(it).startswith("gates:"):
+                continue
             if it not in item_keys:
                 err("scheme_edits.jsonl line %d: caused_by names %r, not an item of the hard set (sub/theme_id)"
                     % (i, it), shape="scheme_edits.jsonl: caused_by on an item you did not place", where="line %d" % i)
@@ -382,14 +414,23 @@ def check(root, outdir, ctx):
     if edits and not any(e.get("kind") == "author-error" for e in edits):
         warn("no scheme edit is recorded as author-error; a pilot that never returns one measures obedience "
              "(say so in pilot_report.md if it is so)")
+    if edits:                       # J, 2026-10-11: every edit owes the rechecks of your placements it could move
+        vlib.recheck_errors(outdir, stage, ct, scheme)
     if edits:
         th = [r for r in (jsonl(os.path.join(outdir, "tier_history.jsonl")) or []) if str(r.get("stage")) == stage]
-        if len(th) < len(edits):
+        moves = [e for e in edits if e.get("kind") != "gate-check"]
+        if len(th) < len(moves):
             err("tier_history.jsonl has %d stage-B2 lines for %d scheme edits; every edit is a tier_history line "
-                "with its move (relabelled or rescoped)" % (len(th), len(edits)))
+                "with its move (relabelled or rescoped); gate-check mirrors excepted" % (len(th), len(moves)))
+
+    # ---- the gate check (J, 2026-10-11): warnings while the rounds run, errors on the frozen scheme --------
+    frozen = os.path.exists(os.path.join(outdir, "scheme_final.jsonl"))
+    grows, gname = vlib.gate_scheme(outdir)
+    if grows:
+        vlib.gate_warnings(outdir, grows, gname, as_errors=frozen and gname.endswith("scheme_final.jsonl"),
+                           edited={e.get("theme") for e in edits if e.get("theme")})
 
     # ---- the freeze ------------------------------------------------------------------------------------
-    frozen = os.path.exists(os.path.join(outdir, "scheme_final.jsonl"))
     finished = bool(other_dirs) or os.path.exists(os.path.join(outdir, "stability-B2.md")) or "gold" in by_round
     if finished or frozen:
         need(outdir, "scheme_final.md", "scheme_final.jsonl", "families.jsonl")
@@ -482,8 +523,48 @@ def _plant_edit_without_cause(outdir, root):
         {"stage": "B2", "id": "T3-001", "event": "rescoped", "move": "asking questions"}) + "\n")
 
 
+def _plant_edit_without_recheck(outdir, root):
+    """J, 2026-10-11: an edit on T3-001 with author_items' denmark/t07 on it, and no recheck."""
+    _plant_edit_without_cause(outdir, root)
+    open(os.path.join(outdir, "scheme_edits.jsonl"), "w").write(json.dumps(
+        {"round": 1, "theme": "T3-001", "field": "must_not_show", "caused_by": ["denmark/t07"], "was": "a", "now": "b",
+         "why": "readers split", "kind": "scheme-ambiguous"}) + "\n")
+
+
+def _plant_bag_without_also_present(outdir, root):
+    """J, 2026-10-11: the round went out under a specification that asks for also_present, and a bag names none."""
+    import hashlib
+    _plant_unscored_round(outdir, root)
+    spec = ("# RETURN-B2\n\nRule 0. Single placement; a second placement owes its line in multiplacement_log.jsonl; "
+            "beyond three place one and name the rest under also_present.\n\n```json\n{\"sub\": \"...\", "
+            "\"also_present\": {}}\nEND-OF-RETURN\n```\n\nConfirm on the last line that you reached the marker.\n")
+    open(os.path.join(outdir, "RETURN-B2.md"), "w").write(spec)
+    json.dump({"return_spec_sha256": hashlib.sha256(spec.encode("utf-8")).hexdigest()},
+              open(os.path.join(outdir, "_fleet_raw", "B2", "round-1", "arm.json"), "w"))
+    open(os.path.join(outdir, "_fleet_raw", "B2", "round-1", "P01", "r1.jsonl"), "w").write(json.dumps(
+        {"sub": "denmark", "theme_id": "t07", "batch": "P01", "agent": "r1", "replicate": 1, "position": 1,
+         "third_order": ["T3-001"], "multi": False, "why": {"T3-001": "hands"}, "confidence": "clear",
+         "read": "whole", "exemplar_read": None, "families_opened": ["G01"], "t_start": "t0", "t": "t1",
+         "support": ["c0117"], "item_is_a_bag": True}) + "\n")
+
+
+def _plant_one_way_at_freeze(outdir, root):
+    """J, 2026-10-11: the frozen scheme carries a discriminator that runs one way."""
+    _plant_unscored_round(outdir, root)
+    open(os.path.join(outdir, "pilot_rounds.jsonl"), "w").write(json.dumps(
+        {"round": 1, "n_items": 1, "agents": 3, "exemplars": False, "fidelity_vs_author": 1.0,
+         "agreement_pairwise": 1.0, "alpha": 1.0, "items_with_disagreement": [], "seed": 7}) + "\n")
+    open(os.path.join(outdir, "scheme_final.jsonl"), "w").write("\n".join(json.dumps(x) for x in (
+        {"id": "T3-001", "name": "recruiting", "gloss": "asking outsiders for hands", "tier": "core",
+         "discriminators": [{"vs": "T3-002", "question": "outsiders asked, or a border held?"}]},
+        {"id": "T3-002", "name": "holding", "gloss": "defending a border", "tier": "core", "discriminators": []})) + "\n")
+
+
 PLANTED = [
     ("author placement off the scheme", _plant_scheme_id, "which the scheme file does not define"),
     ("dispatched round not scored", _plant_unscored_round, "has no line for round 1"),
     ("edit without caused_by", _plant_edit_without_cause, "has no caused_by"),
+    ("edit without its rechecks", _plant_edit_without_recheck, "owes rechecks"),
+    ("bag without also_present", _plant_bag_without_also_present, "names no also_present"),
+    ("one-way discriminator frozen", _plant_one_way_at_freeze, "discriminators run both ways"),
 ]

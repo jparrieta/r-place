@@ -456,3 +456,374 @@ def b1_progress(outdir, themes, analysed=None, order=None):
             left.setdefault(s, []).append(t.get("theme_id"))
     done = {s for s in order if s not in left}
     return order, done, left
+
+
+# ---- gates, rechecks and the concepts behind a placement (J, 2026-10-11) -------------------------
+# The B1e interview asked for a check that the gates agree with one another, for a recheck of the
+# placements a gate change could move, and for every placement to name the concepts that carry each
+# third-order theme it places. mem.py (gates, gate, recheck, rechecks) and the stage checks share
+# what follows.
+
+GATE_TEXT_FIELDS = ("must_show", "must_not_show", "decide_when_both", "is_not")
+GATE_FIELDS = GATE_TEXT_FIELDS + ("discriminators",)
+T3_REF = re.compile(r"\bT3-\d{3}\b")
+FAM_REF = re.compile(r"\bG\d{2,3}\b")
+RECHECK_ALL = 30           # a change owes every placement it could move, up to this many ...
+RECHECK_ESCALATE = 0.10    # ... else a seeded sample of this many, and all of them once more than this share of the sample moved
+RULE_DATE = "2026-10-11T17:00:00"   # lines stamped before it were written under the earlier rules
+
+
+def gate_scheme(outdir):
+    """The scheme whose gates are in force: scheme_v2, else scheme_final, else scheme.jsonl (the
+    working grouping in scheme_current holds no gates). ({id: row}, file name), or ({}, None)."""
+    for name in ("scheme_v2.jsonl", "scheme_final.jsonl", "scheme.jsonl"):
+        for d in ("", "scheme"):
+            p = os.path.join(outdir, d, name)
+            if os.path.exists(p):
+                rows = {}
+                for r in jsonl(p) or []:
+                    i = r.get("id") or r.get("theme")
+                    if i:
+                        rows[i] = r
+                if rows:
+                    return rows, os.path.join(d, name)
+    return {}, None
+
+
+def family_ids(outdir):
+    return {r.get("family") for r in (jsonl(os.path.join(outdir, "families.jsonl")) or []) if r.get("family")}
+
+
+def _flat(v):
+    if v is None:
+        return ""
+    return v if isinstance(v, str) else json.dumps(v, ensure_ascii=False)
+
+
+def discriminators(row):
+    """[(vs, question)] of one theme, from a list of {vs, question} (or a {vs: question} object)."""
+    d = row.get("discriminators") or []
+    if isinstance(d, dict):
+        d = [{"vs": k, "question": v} for k, v in d.items()]
+    out = []
+    for x in d if isinstance(d, list) else []:
+        if isinstance(x, dict):
+            vs = x.get("vs")
+            for v in (vs if isinstance(vs, list) else [vs]):
+                if v:
+                    out.append((str(v), _flat(x.get("question") or x.get("text") or x.get("test"))))
+        elif isinstance(x, str):
+            for v in T3_REF.findall(x):
+                out.append((v, x))
+    return out
+
+
+def gate_refs(row):
+    """{field: the ids it names}, for the four gate sentences, and the discriminators by their `vs`."""
+    me = row.get("id") or row.get("theme")
+    refs = {f: (set(T3_REF.findall(_flat(row.get(f)))) | set(FAM_REF.findall(_flat(row.get(f))))) - {me}
+            for f in GATE_TEXT_FIELDS}
+    refs["discriminators"] = {v for v, _ in discriminators(row)} - {me}
+    return refs
+
+
+def gate_report(rows, families=()):
+    """The mechanical half of the gate check, over {id: row}:
+    unresolved [(A, field, id)]  an id a gate names that the scheme (or families.jsonl) lacks;
+    one_way [(A, B)]             A has a discriminator against B and B none against A;
+    mns_no_disc [(A, B)]         A's must_not_show sends material to B with no discriminator against B;
+    pairs {frozenset}            every pair of themes whose gates name each other."""
+    ids, fams = set(rows), set(families or ())
+    R = {i: gate_refs(r) for i, r in rows.items()}
+    out = {"unresolved": [], "one_way": [], "mns_no_disc": [], "pairs": set()}
+    for a, refs in sorted(R.items()):
+        for f in GATE_FIELDS:
+            for x in sorted(refs[f]):
+                if T3_REF.fullmatch(x):
+                    if x in ids:
+                        out["pairs"].add(frozenset((a, x)))
+                    else:
+                        out["unresolved"].append((a, f, x))
+                elif FAM_REF.fullmatch(x):
+                    if fams and x not in fams:
+                        out["unresolved"].append((a, f, x))
+                else:
+                    out["unresolved"].append((a, f, x))
+        for b in sorted(refs["discriminators"]):
+            if b in ids and a not in R[b]["discriminators"]:
+                out["one_way"].append((a, b))
+        for b in sorted(refs["must_not_show"]):
+            if b in ids and b not in refs["discriminators"]:
+                out["mns_no_disc"].append((a, b))
+    return out
+
+
+def gate_hash(rows, a, b):
+    """A fingerprint of both themes' gates, so a confirmation goes stale when either changes."""
+    h = hashlib.sha256()
+    for i in sorted((a, b)):
+        r = rows.get(i) or {}
+        h.update(json.dumps({f: r.get(f) for f in GATE_FIELDS}, sort_keys=True, ensure_ascii=False).encode("utf-8"))
+    return h.hexdigest()[:16]
+
+
+def _clauses(text, ref):
+    parts = re.split(r";\s+|(?<=[.!?])\s+", _flat(text))
+    return [p.strip() for p in parts if ref in p]
+
+
+def pair_lines(rows, a, b):
+    """The two themes' sentences about each other, side by side, for a reader to judge."""
+    L = []
+    for x, y in ((a, b), (b, a)):
+        r = rows.get(x) or {}
+        L.append("%s  %s" % (x, r.get("name") or r.get("label") or ""))
+        L.append("  must_show: %s" % _flat(r.get("must_show")))
+        for f in ("must_not_show", "decide_when_both", "is_not"):
+            for c in _clauses(r.get(f), y):
+                L.append("  %s naming %s: %s" % (f, y, c))
+        d = [q for v, q in discriminators(r) if v == y]
+        L.append("  discriminator against %s: %s" % (y, d[0] if d else "NONE"))
+        L.append("")
+    return L
+
+
+def gate_confirmations(outdir, rows):
+    """{frozenset(A, B): ("confirmed" | "stale", line)} from out/gate_checks.jsonl, the latest line per pair."""
+    out = {}
+    for r in jsonl(os.path.join(outdir, "gate_checks.jsonl")) or []:
+        p = r.get("pair") or []
+        if len(p) == 2:
+            k = frozenset(p)
+            out[k] = ("confirmed" if r.get("hash") == gate_hash(rows, p[0], p[1]) else "stale", r)
+    return out
+
+
+def code_themes(rows):
+    """(sub, code_id) -> the second-order theme id it belongs to, from the store's codes rows."""
+    return {(c.get("sub"), c.get("code_id")): (c.get("theme_id") or c.get("case_theme_id")) for c in rows}
+
+
+def support_problems(mapping, placed, sub, tid, ct):
+    """What is wrong with `support_by_theme`, {third-order id: [concept ids]}, for one placement `placed`
+    (primary first) of the second-order theme sub/tid; ct is code_themes() of the store."""
+    if not isinstance(mapping, dict):
+        return ["support_by_theme is not an object {third-order id: [concept ids]}"]
+    P = []
+    for t in placed:
+        if not mapping.get(t):
+            P.append("%s names no concept in support_by_theme" % t)
+    for t, cs in mapping.items():
+        if t not in placed:
+            P.append("support_by_theme names %s, which the placement does not hold" % t)
+        for c in (cs if isinstance(cs, list) else [cs]):
+            th = ct.get((sub, c))
+            if th is None:
+                P.append("%s is not a concept of r/%s" % (c, sub))
+            elif tid and th != tid:
+                P.append("%s is a concept of %s/%s, not of %s" % (c, sub, th, tid))
+    prim = set(mapping.get(placed[0]) or []) if placed else set()
+    for t in placed[1:]:
+        if mapping.get(t) and not set(mapping.get(t)) - prim:
+            P.append("%s has no concept of its own (rule 0's distinct support)" % t)
+    return P
+
+
+def also_present_problems(ap, placed, sub, tid, ct, scheme_ids=None):
+    """What is wrong with `also_present`, {third-order id: [concept ids]}: the themes beyond the one a
+    bag places (rule 0, J 2026-10-11), each with its own concepts."""
+    if ap in (None, {}):
+        return []
+    if not isinstance(ap, dict):
+        return ["also_present is not an object {third-order id: [concept ids]}"]
+    P = []
+    for t, cs in ap.items():
+        if scheme_ids and t not in scheme_ids:
+            P.append("also_present names %s, which the scheme does not define" % t)
+        if t in (placed or []):
+            P.append("also_present names %s, which the line places" % t)
+        cs = cs if isinstance(cs, list) else [cs]
+        if not cs:
+            P.append("also_present names %s with no concept" % t)
+        for c in cs:
+            th = ct.get((sub, c))
+            if th is None:
+                P.append("%s is not a concept of r/%s" % (c, sub))
+            elif tid and th != tid:
+                P.append("%s is a concept of %s/%s, not of %s" % (c, sub, th, tid))
+    return P
+
+
+def parse_support(text, themes):
+    """--codes for a placement: "T3-a=c1,c2;T3-b=c3", or "c1,c2" when one theme is placed."""
+    text = str(text or "").strip()
+    if not text:
+        return None
+    if "=" not in text:
+        return {themes[0]: [c.strip() for c in text.split(",") if c.strip()]} if len(themes) == 1 else None
+    out = {}
+    for part in re.split(r"[;\s]+(?=T3-)", text):
+        k, _, v = part.partition("=")
+        if k.strip():
+            out[k.strip()] = [c.strip() for c in v.replace(";", ",").split(",") if c.strip()]
+    return out
+
+
+# ---- the rechecks a gate change owes -----------------------------------------------------------
+
+def gate_changes(outdir, stage):
+    """A stage's gate changes, each with its ref: at B2 the lines of scheme_edits.jsonl (edit:<n>);
+    elsewhere that stage's lines of gate_history.jsonl (gate:<n>, n counting every line of the file)."""
+    stage = str(stage).upper()
+    if stage == "B2":           # a gate-check mirror copies a question already in force and owes no recheck (QB2-003)
+        return [dict(r, ref="edit:%d" % i) for i, r in enumerate(jsonl(os.path.join(outdir, "scheme_edits.jsonl")) or [], 1)
+                if r.get("kind") != "gate-check"]
+    return [dict(r, ref="gate:%d" % i) for i, r in enumerate(jsonl(os.path.join(outdir, "gate_history.jsonl")) or [], 1)
+            if str(r.get("stage") or "").upper() == stage]
+
+
+def touched(change):
+    """The third-order themes a change names: the edited one, and every id its old or new sentence names."""
+    t = {change.get("theme")} if change.get("theme") else set()
+    for f in ("was", "now"):
+        t |= set(T3_REF.findall(_flat(change.get(f))))
+    return {x for x in t if x}
+
+
+def placed_items(outdir, stage):
+    """(sub, theme_id) -> {"source", "third_order"}: the placements a gate change at this stage can
+    move. B1: the working grouping (scheme_current members); B2: your own placements
+    (author_items.jsonl and gold_items.jsonl); C1 on: assignments_final.jsonl."""
+    out, stage = {}, str(stage).upper()
+    if stage == "B1":
+        p = os.path.join(outdir, "scheme", "scheme_current.jsonl")
+        if not os.path.exists(p):
+            p = os.path.join(outdir, "scheme_current.jsonl")
+        for r in jsonl(p) or []:
+            for m in r.get("members") or []:
+                if isinstance(m, dict) and m.get("sub") and m.get("theme_id"):
+                    e = out.setdefault((m["sub"], m["theme_id"]), {"source": "scheme_current.jsonl", "third_order": []})
+                    e["third_order"].append(r.get("theme") or r.get("id"))
+        return out
+    names = ("author_items.jsonl", "gold_items.jsonl") if stage == "B2" else ("assignments_final.jsonl",)
+    for name in names:
+        for r in jsonl(os.path.join(outdir, name)) or []:
+            so = r.get("third_order") or []
+            out[(r.get("sub"), r.get("theme_id"))] = {"source": name, "third_order": list(so) if isinstance(so, list) else [so]}
+    return out
+
+
+def recheck_lines(outdir, stage):
+    return jsonl(os.path.join(outdir, "rechecks-%s.jsonl" % str(stage).upper())) or []
+
+
+def draw_owed(cands, stage, ref):
+    """Every candidate up to RECHECK_ALL, else a seeded sample of RECHECK_ALL (the seed is the change)."""
+    import random
+    cands = sorted(cands)
+    if len(cands) <= RECHECK_ALL:
+        return cands, False
+    return sorted(random.Random("%s|%s" % (stage, ref)).sample(cands, RECHECK_ALL)), True
+
+
+def owed_rechecks(outdir, stage):
+    """For every gate change of the stage: the placements it could move, those it owes, those done and
+    those missing. At B2 the candidates are your placements as they stood before the change (the
+    earlier changes' rechecks applied, in order); after B1 `mem.py gate` stores them on its line."""
+    stage = str(stage).upper()
+    done = collections.defaultdict(dict)
+    for r in recheck_lines(outdir, stage):
+        done[r.get("change")][(r.get("sub"), r.get("theme_id"))] = r
+    items = placed_items(outdir, stage)
+    out = []
+    for ch in gate_changes(outdir, stage):
+        ref, th = ch["ref"], touched(ch)
+        if ch.get("candidates_list") is not None:
+            cands = [tuple(x) for x in ch["candidates_list"]]
+        else:
+            cands = [k for k, v in items.items() if set(v["third_order"]) & th]
+        if ch.get("owed") is not None:
+            owed, sampled = [tuple(x) for x in ch["owed"]], len(ch["owed"]) < len(cands)
+        else:
+            owed, sampled = draw_owed(cands, stage, ref)
+        d = done.get(ref, {})
+        moved = sum(1 for k in owed if k in d and d[k].get("changed"))
+        checked = sum(1 for k in owed if k in d)
+        escalated = bool(sampled and checked and moved / float(checked) > RECHECK_ESCALATE)
+        if escalated:
+            owed = sorted(cands)
+        out.append({"ref": ref, "theme": ch.get("theme"), "field": ch.get("field"), "touched": sorted(th),
+                    "candidates": sorted(cands), "owed": owed, "done": d, "sampled": sampled,
+                    "before": {k: list((items.get(k) or {}).get("third_order") or []) for k in cands},
+                    "source": {k: (items.get(k) or {}).get("source") for k in cands},
+                    "escalated": escalated, "moved": sum(1 for r in d.values() if r.get("changed")),
+                    "missing": [k for k in owed if k not in d]})
+        if stage == "B2":                      # the next change starts from the placements as rechecked
+            for k, r in d.items():
+                if k in items and r.get("now"):
+                    items[k] = dict(items[k], third_order=list(r["now"]))
+    return out
+
+
+def recheck_errors(outdir, stage, ct=None, scheme_ids=None):
+    """The checks' half: every owed recheck done, and every recheck line well formed."""
+    stage = str(stage).upper()
+    name = "scheme_edits.jsonl" if stage == "B2" else "gate_history.jsonl"
+    n = 0
+    for o in owed_rechecks(outdir, stage):
+        if o["missing"]:
+            n += 1
+            err("%s %s (%s, %s) owes rechecks of %d placement(s) it could move and %d are not done (%s%s); "
+                "mem.py rechecks --owed lists them, mem.py recheck records each (J, 2026-10-11)"
+                % (name, o["ref"], o["theme"], o["field"], len(o["owed"]), len(o["missing"]),
+                   ", ".join("%s/%s" % k for k in o["missing"][:4]), " ..." if len(o["missing"]) > 4 else ""),
+                shape="%s: a gate change with rechecks owed" % name, where=o["ref"])
+    refs = {c["ref"] for c in gate_changes(outdir, stage)}
+    for i, r in enumerate(recheck_lines(outdir, stage), 1):
+        w = "line %d" % i
+        if r.get("change") not in refs:
+            err("rechecks-%s.jsonl line %d names change %r, which %s does not hold" % (stage, i, r.get("change"), name),
+                shape="rechecks-%s.jsonl: a recheck of no change" % stage, where=w)
+        now = r.get("now") or []
+        if not isinstance(now, list) or not now or len(now) > 3:
+            err("rechecks-%s.jsonl line %d: now is %r; one to three third-order ids, primary first (rule 0)" % (stage, i, now),
+                shape="rechecks-%s.jsonl: now not one to three ids" % stage, where=w)
+            continue
+        for s in now:
+            if scheme_ids and s not in scheme_ids:
+                err("rechecks-%s.jsonl line %d places on %s, which the scheme does not define" % (stage, i, s),
+                    shape="rechecks-%s.jsonl: an id the scheme does not define" % stage, where=w)
+        if ct is not None:
+            for p in support_problems(r.get("support_by_theme"), now, r.get("sub"), r.get("theme_id"), ct):
+                err("rechecks-%s.jsonl line %d (%s/%s): %s" % (stage, i, r.get("sub"), r.get("theme_id"), p),
+                    shape="rechecks-%s.jsonl: support" % stage, where=w)
+        if not r.get("why"):
+            err("rechecks-%s.jsonl line %d has no why" % (stage, i), shape="rechecks-%s.jsonl: no why" % stage, where=w)
+    return n
+
+
+def gate_warnings(outdir, rows, name, as_errors=False, edited=None):
+    """The gate check as the stage checks report it: one-way discriminators, must_not_show lines with
+    no discriminator, unresolved ids (errors when as_errors, at a freeze), and the pairs of the
+    edited themes that were not confirmed against their current sentences."""
+    rep = gate_report(rows, family_ids(outdir))
+    say = err if as_errors else warn
+    for a, f, x in rep["unresolved"]:
+        say("%s: %s's %s names %s, which the scheme does not define" % (name, a, f, x),
+            shape="%s: a gate names an id the scheme lacks" % name, where="%s %s" % (a, f))
+    for a, b in rep["one_way"]:
+        say("%s: %s has a discriminator against %s and %s none against %s; discriminators run both ways "
+            "(mem.py gates %s %s)" % (name, a, b, b, a, a, b),
+            shape="%s: a discriminator that runs one way" % name, where="%s|%s" % (a, b))
+    for a, b in rep["mns_no_disc"]:
+        say("%s: %s's must_not_show sends material to %s and %s has no discriminator against %s (mem.py gates %s %s)"
+            % (name, a, b, a, b, a, b), shape="%s: must_not_show with no discriminator" % name, where="%s|%s" % (a, b))
+    if edited:
+        conf = gate_confirmations(outdir, rows)
+        for p in sorted(rep["pairs"], key=sorted):
+            if p & set(edited) and (conf.get(p, ("none",))[0] != "confirmed"):
+                a, b = sorted(p)
+                warn("%s: the pair %s|%s touches an edited theme and is not confirmed against its current sentences "
+                     "(mem.py gates %s %s --confirm --reason ...)" % (name, a, b, a, b),
+                     shape="%s: an edited pair not confirmed" % name, where="%s|%s" % (a, b))
+    return rep

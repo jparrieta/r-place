@@ -149,8 +149,8 @@ the whole fleet is a cap set too high, and the fix for that is a smaller batch.
 One return specification, frozen with this file; the packet builder emits it verbatim, the brief
 cites it, and `fleet.py`'s schema check is generated from it (FLEET.md). In this order:
 rule 0 in the contract's words (a second placement owes its `why_not_one` and a
-`multiplacement_log.jsonl` line; three at most; beyond three place one and record
-`item-is-a-bag`); the prediction line; the return line; the multiplacement record; the second
+`multiplacement_log.jsonl` line; three at most; beyond three place one, record `item-is-a-bag`,
+and name the others under `also_present` with their concepts); the prediction line; the return line; the multiplacement record; the second
 pass; the end marker and the confirmation line.
 
 **Before the first placement**, each reader writes which pair of third-order themes it expects to
@@ -177,7 +177,8 @@ them against what actually divided the readers, as the pilot scores `confusions.
  "families_opened": ["G03", "G09"],
  "bag": false,
  "t_start": "...", "t": "...",
- "support": ["c0013"]}
+ "support": ["c0013"],
+ "also_present": {}}
 ```
 
 `third_order` carries one id in the ordinary case, and the first id is always the primary.
@@ -214,7 +215,10 @@ Four rules on it, in the brief:
 - **`dispensable` is compulsory and may not be `null`.**
 - **No line carries more than three themes.** A third requires its own record and its own
   `why_not_one` against **both** the others. Beyond three, place one and record the item as
-  `item-is-a-bag` for stage B4, `"bag": true` on the line.
+  `item-is-a-bag` for stage B4, `"bag": true` on the line, and name every other theme the
+  material satisfies under `also_present`, `{"T3-011": ["c0027"]}`, each with its own concepts
+  (J, 2026-10-11): the cap drops no theme from the record. `also_present` is `{}` on every other
+  line.
 
 **Two passes, and the second never overwrites the first.** Every reader makes a second pass over
 its own batch after finishing it, and both are kept. The revision rate between them is
