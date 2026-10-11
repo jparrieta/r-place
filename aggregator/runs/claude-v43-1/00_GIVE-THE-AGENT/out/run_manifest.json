@@ -1,4 +1,179 @@
 [
-{"stage": "A1", "written_utc": "2026-10-06T12:45:00Z", "package_sha256": "51513b1e06415456d514918fe855d80d5e1aa99eb36bed7d9af7f2a7fd3cbe8d", "tools_commit": "TOOLS_VERSION v43.1 2026-10-04 (evening); sha256 over the sha256 lines of tools/*.py, tools/checks/*.py, tools/done.sh and tools/TOOLS_VERSION: acec07a84d10b7ea1d9b87a5dba0902bcfe7e2308f4e58235a2b4a018970a509 (the git history is outside the folder this session may read)", "model": "claude-opus-5-5", "decoding": {"temperature": 0.0, "top_p": 1.0}, "seeds": {"reading_order": 20261006}, "n_agents": null, "notes": "stage A1: the analyst reads every room alone; no fleet. The decoding figures are the form's; the platform serves the model at its own settings, which this session cannot read. The reading-order seed is out/_analysis/a1_order.py's."},
-{"stage": "B2", "round": 1, "leg": "B2a-r1", "written_utc": "2026-10-11T15:10:00Z", "model": "@preset/cheap via gateway (the routine reader route, PLATFORM-claude.md); the model that served is recorded by the dispatch in arm.json", "decoding": {"temperature": null, "top_p": null, "note": "set by the dispatch (fleet.py), which this session cannot read; the dispatch records what served"}, "seeds": {"hard_set": "b2a-r1:hard", "gold_set": "b2a-r1:gold", "packet_order": 20261011}, "n_agents": 3, "n_items": 40, "packet": "out/_packets-B2/P03-r1.md (49,720 bytes, sha256 1efc10ac60398acee09ad3503aca758803f96cd1fae8ee0afea3044d0bf868ff)", "scheme": "out/scheme.jsonl as shipped at B1e, exemplars withheld", "notes": "Pilot round 1. Each of three fresh readers holds the index page, the family pages and the one packet of 40 items. Every later fidelity is compared against this round's figure."}
+ {
+  "stage": "A1",
+  "written_utc": "2026-10-06T12:45:00Z",
+  "package_sha256": "51513b1e06415456d514918fe855d80d5e1aa99eb36bed7d9af7f2a7fd3cbe8d",
+  "tools_commit": "TOOLS_VERSION v43.1 2026-10-04 (evening); sha256 over the sha256 lines of tools/*.py, tools/checks/*.py, tools/done.sh and tools/TOOLS_VERSION: acec07a84d10b7ea1d9b87a5dba0902bcfe7e2308f4e58235a2b4a018970a509 (the git history is outside the folder this session may read)",
+  "model": "claude-opus-5-5",
+  "decoding": {
+   "temperature": 0.0,
+   "top_p": 1.0
+  },
+  "seeds": {
+   "reading_order": 20261006
+  },
+  "n_agents": null,
+  "notes": "stage A1: the analyst reads every room alone; no fleet. The decoding figures are the form's; the platform serves the model at its own settings, which this session cannot read. The reading-order seed is out/_analysis/a1_order.py's."
+ },
+ {
+  "stage": "B2",
+  "round": 1,
+  "leg": "B2a-r1",
+  "written_utc": "2026-10-11T15:10:00Z",
+  "model": "@preset/cheap via gateway (the routine reader route, PLATFORM-claude.md); the model that served is recorded by the dispatch in arm.json",
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py), which this session cannot read; the dispatch records what served"
+  },
+  "seeds": {
+   "hard_set": "b2a-r1:hard",
+   "gold_set": "b2a-r1:gold",
+   "packet_order": 20261011
+  },
+  "n_agents": 3,
+  "n_items": 40,
+  "packet": "out/_packets-B2/P03-r1.md (49,720 bytes, sha256 1efc10ac60398acee09ad3503aca758803f96cd1fae8ee0afea3044d0bf868ff)",
+  "scheme": "out/scheme.jsonl as shipped at B1e, exemplars withheld",
+  "notes": "Pilot round 1. Each of three fresh readers holds the index page, the family pages and the one packet of 40 items. Every later fidelity is compared against this round's figure."
+ },
+ {
+  "stage": "B2",
+  "round": 2,
+  "leg": "B2a-r2",
+  "written_utc": "2026-10-11T19:37:31Z",
+  "model": "deepseek/deepseek-v4-flash-0731, the model that served round 1, on the routine reader route",
+  "reader_settings": {
+   "provider": "Relace (one provider)",
+   "reasoning_effort": "medium",
+   "round_1_was": "high effort on mixed providers"
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py); the reader settings above are J's for round 2 on"
+  },
+  "seeds": {
+   "hard_set": "b2a-r1:hard, plus the ten biggest bags of notes-B1.md (no draw)",
+   "packet_order": 20261012
+  },
+  "n_agents": 3,
+  "n_items": 50,
+  "packet": "out/_packets-B2/round-2/, P03-r2 in 11 parts for one reader (QB2-001)",
+  "parts": [
+   {
+    "name": "P03-r2-p1",
+    "bytes": 50254,
+    "sha256": "21b082759f4b2c14ebca7f455c0d1dd4e119e4a6b2bfe3fac9666a1d8143a2e9",
+    "positions": [
+     1,
+     8
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p2",
+    "bytes": 50302,
+    "sha256": "c9d0cab7eeccc681e813078fbcd5ab01ab51037829e51cb855a921456e1c67a7",
+    "positions": [
+     8,
+     19
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p3",
+    "bytes": 50394,
+    "sha256": "de3b5873192273a893fcd9e3218d3f48740fcf6cfa7ffb9d653c4c924e1c7519",
+    "positions": [
+     19,
+     27
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p4",
+    "bytes": 50293,
+    "sha256": "2be148371417f69a95467b168a8cc376b2a78632a5043814d0d3635b5a8af594",
+    "positions": [
+     27,
+     28
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p5",
+    "bytes": 50387,
+    "sha256": "fa02e8a6bbd9a8d5be7104a3550e4d7791d08a21639dae621f87f15c3923d670",
+    "positions": [
+     28,
+     36
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p6",
+    "bytes": 50387,
+    "sha256": "14c34ead8d777fa93387afd2d890f1132552029285417bd2b6bc42d05a2af6e4",
+    "positions": [
+     36,
+     37
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p7",
+    "bytes": 50351,
+    "sha256": "c6c839daf9a420fa85faa6ae515f6b3b1d611988939c9fceeecca0b1eb213555",
+    "positions": [
+     37,
+     37
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p8",
+    "bytes": 50354,
+    "sha256": "1067becc901210cbc8562b647ef44b48847d84c9b8b2f303085ec5684e6ed49b",
+    "positions": [
+     37,
+     39
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p9",
+    "bytes": 50284,
+    "sha256": "e38489ea966bf542a93fb87c49f49f98b519e2553060544e06186829292c69ca",
+    "positions": [
+     39,
+     43
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p10",
+    "bytes": 50291,
+    "sha256": "53852ed96fb2f91d39a4be442d274236b033870e2fb82b59658c85f3cd5b1595",
+    "positions": [
+     43,
+     47
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p11",
+    "bytes": 9799,
+    "sha256": "daad26ab64b886a09025312c8dd2dd862cc6d331b656a97cd45c067873d4d101",
+    "positions": [
+     47,
+     50
+    ],
+    "items": 50
+   }
+  ],
+  "scheme": "out/scheme.jsonl after round 1's edits (scheme_edits.jsonl 286 lines), exemplars withheld",
+  "return_spec": "out/RETURN-B2.md with the also_present clause and the parts paragraph",
+  "notes": "Pilot round 2. The reader settings changed from round 1 (one provider, Relace; medium effort), so a change in agreement is partly the settings, not only the edits. Fidelity is reported against author_items.jsonl and against the rechecked placements. MANIFEST.json follows QB2-004's assumption until it is answered."
+ }
 ]
