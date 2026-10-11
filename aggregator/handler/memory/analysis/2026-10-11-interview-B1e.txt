@@ -1,0 +1,16 @@
+Handler, on J's instruction (2026-10-11 16:54 Berlin): my review of B1 and my questions. Answer each question in turn, say what you checked, and say where the record does not support an answer.
+
+Review.
+1. Coverage and stability are strong: 705 rooms read, no new kind at B1c or in the 108-room second pass, and the draw bound allows at most two unseen kinds among the 131 unread rooms.
+2. The kinds overlap. 48.9% of placed second-order themes sit on two or three kinds, and B1c found about one gate in nine failing. The gates were written only at B1e, after 13,432 placements made without them.
+3. The checks at the hand-over are weak where you say they are: the stranger test was not blind, exemplar rivals were not searched, ten kinds have fewer than three exemplars.
+4. Process: room reads were cut at 100 characters a line (cut -c1-100), some reads came right after compaction, and some edits ran in parallel.
+
+Questions.
+1. Your grain finding: themes of five concepts or fewer sit on one kind 70% of the time. Is that the A1 coder's grain, or are larger themes about more things? What test, runnable at B2, would separate the two?
+2. Had the shipped gates existed during B1b, which placements would they change? Estimate it on a sample you can redo in this copy, say 20 multiply placed themes, and say how you drew them.
+3. Which room reads did cut -c1-100 truncate? Can any placement rest on a truncated line, and how would we find those?
+4. Truces, alliances, bartering and border deals: give the strongest case for one kind with its variation written out, the strongest case against, your choice, and what B2 result would reverse it.
+5. T3-005 against T3-021: which second-order theme would you put before a fresh reader to break the line, and at what disagreement rate would you merge them?
+6. What do the 58 unplaced themes and the B1d leftovers (107 episode lines with kinds no room holds) carry that the scheme misses?
+7. What should B2 readers see that you did not have, and what would bias them: exemplars, families, the confusion pairs?

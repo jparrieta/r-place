@@ -55,3 +55,13 @@ Pairs 2, 11, 12 and 13 share one structure. T3-010 is in G14, while truces, alli
 ## The hardest pair, with an estimate
 
 The hardest pair is T3-005 against T3-021. Of the 655 second-order themes on either theme, 131 (20%) hold both acts. For these, the record splits nearly evenly on which theme is primary (60 against 66). I expect two fresh readers to disagree on the primary placement in about 45% of the both-acts themes. I expect them to disagree in about 10% of the themes that hold one act, where the line is between watching for damage and fighting a raid. Across all 655, that gives an estimated disagreement of 15 to 20% on which of the two themes carries the second-order theme. The estimate is a judgment from the direction split. No reader has been tested.
+
+## Two sibling pairs added at B2a-r1, before any reader
+
+Stage B2 asks that at least half the pairs the pilot tests be sibling pairs inside one family. Pairs 1 to 17 hold eight. These two were added from the same rule 0 record, ranked after the seventeen, so that ten of nineteen are siblings.
+
+18. **T3-014 moving planning into a chat / T3-152 announcing what the chat decided** (both G03). Rule 0 lines: 43, with T3-014 primary in 42. The confusion: a thread that moves the talk to Discord and later posts what Discord decided. Readers will agree on the move and differ on whether the relay earns a second placement. Expose it with floridagators t09, "moving coordination to Discord and bringing plans back".
+
+19. **T3-015 routing canvas posts into megathreads / T3-063 removing canvas posts by rule** (both G02). Rule 0 lines: 36 (28 and 8). The confusion: a moderator who removes canvas posts and points them to one megathread. Expose it with quebec t13, "asking to consolidate the flood and enforcing a megathread".
+
+In the round-1 packet, five nominated items render over 2,500 bytes and were replaced by seeded picks from their pairs: pair 7 by korea t15, pair 8 by furry t10, pair 11 by acecombat t05, pair 12 by parabola t02, and pair 19 by darksouls t13 (`out/_analysis/b2_hardset_r1.tsv`).

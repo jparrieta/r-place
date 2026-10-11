@@ -68,3 +68,21 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 - b1d_tier_rescope.py (B1d-01, fb906885): second-pass helper.
 - b1d_forest_lengths.py (B1d-03, 62fa293e): second-pass helper.
 - b1d_tier_unplace_fill.py (B1d-06, 690943a6): second-pass helper.
+- b1e_add_disc.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_append.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_assemble.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_cands.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: """B1e: exemplar candidates for one third-order theme.
+- b1e_check_draft.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: """B1e: check one family's draft lines before assembly.
+- b1e_cite.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: """B1e: quote chosen concepts through cite.py, one line each, for copying into the scheme's exemplar
+- b1e_confusions.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_digest.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: """B1e: a digest of third-order themes, for writing their gates.
+- b1e_disc_pairs.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_fix_fields.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_floor.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_ideas_unminted.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_kinds_per_theme.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_pair_overlap.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_rooms_fit.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_running_dropped.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_stranger_draw.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3
+- b1e_tier_lines.py: B1e helper (copied 2026-10-11 from out/_analysis), first line: #!/usr/bin/env python3

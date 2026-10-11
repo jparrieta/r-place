@@ -1,0 +1,1 @@
+Handler text, passing J's word (2026-10-11 16:54 Berlin): stop cutting room reads to a line length (cut -c1-100 or any other cut). Read room lines whole. When a read is too long, page it by line ranges or by offset, never by truncating lines. Record this in notes-B2.md.
