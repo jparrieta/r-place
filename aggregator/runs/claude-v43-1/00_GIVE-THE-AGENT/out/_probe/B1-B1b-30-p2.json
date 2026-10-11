@@ -1,0 +1,35 @@
+{
+ "t": "2026-10-11T03:53:15+00:00",
+ "stage": "B1",
+ "leg": "B1b-30-p2",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "Lugarix",
+   "hunterxhunter",
+   "borussiadortmund"
+  ],
+  "changed": [],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "n/a",
+  "next": "n/a"
+ },
+ "scored": 2,
+ "unscored": [
+  "open",
+  "changed",
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "rooms"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
