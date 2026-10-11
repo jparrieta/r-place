@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at the close of B1d-07, 2026-10-11 (UTC): the second pass's seventh and last stretch, 12 chosen rooms reread whole. The second pass has stopped.
+Under 3,000 words, rewritten whole at every close. Last written at the close of B1e, 2026-10-11 (UTC): the scheme standing, closed at the interview point (`done.sh B1 --cut interview`). Stage B1 is done.
 
 ## The method question, in one sentence
 
@@ -10,24 +10,29 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1 is closed; all 705 rooms have a note. Stage B1, the third-order scheme, is open.
+Stage A1 is closed; all 705 rooms have a note. Stage B1, the third-order scheme, is done: B1a to B1e are closed. The next stage is B2, which tightens the scheme against fresh readers and freezes it. Read its stage file when the next leg opens; this head does not plan it.
 
-**B1a is closed.** `prior.md` came first (sections 1 to 6 dated 2026-10-07; 7 and 8 wait for the return stage) and is sealed; a change is a departure (rule 10). Seed cd472a6087a223d4 in `out/seed.txt`; `saturation.py order --stage B1` prints the order.
+**B1a.** `prior.md` came first (sections 1 to 6 dated 2026-10-07; 7 and 8 wait for the return stage) and is sealed; a change is a departure (rule 10). Seed cd472a6087a223d4 in `out/seed.txt`.
 
-**B1b is done (B1b-01 to B1b-32).** The last new kind is T3-197 heeding the creator's wishes (parahumans t08, room 661 of 705). Marker 1 at austria (order 499): its empty run, 78 rooms and 72.1 average rooms, is the second pass's target. Marker 2 at theblackvoid; marker 3 at TheFarLeftSide. The PI decided finish at marker 3 (10 October), and it is carried out.
+**B1b (B1b-01 to B1b-32).** Every room was walked in the seeded order, 705 of 705. The last new kind is T3-197 heeding the creator's wishes (parahumans t08, room 661 of 705). New kinds per hundred second-order themes: 60 in the first hundred, 0 in the last hundred, 2.51 over the whole pass (197 in 7,844). The PI decided finish at marker 3 (10 October).
 
-**B1c is closed.** 30 seeded rooms read fresh: 0 new kinds, 0 splits; 35 of 317 themes (11.0%) in 20 rooms meet a gate that fails; four ideas logged (`ideas-B1.jsonl` 211 to 214).
+**B1c.** 30 seeded rooms read fresh: 0 new kinds, 0 splits; 35 of 317 themes (11.0%) in 20 rooms met a gate that failed.
 
-**B1d is closed (B1d-01 to B1d-07), and the second pass has stopped.** `out/pass2-chosen-B1.txt` holds 108 rooms: 20 with a gate that failed at B1c, 23 with the most hesitations (`b1d_hesitations.py`) and 65 contrary rooms. All 108 were reread whole in seven stretches, orders 47 (morrowind) to 703 (TheFarLeftSide).
-- No stretch minted, split or merged a kind. Placements went from 13,440 to 13,432 through rule 0 lines, bags and unplacements. T3-188 was rescoped at B1d-01 and holds 7 themes in 7 rooms.
-- Stretch 7 (B1d-07), orders 641 (prequelmemes) to 703 (TheFarLeftSide), 12 rooms: seven bags and one rule 0 line (thesilphroad t09, T3-095); placements 13,445 to 13,432. The B1c idea "gathering lone placers together" was met at its trigger, rainbowgrid t02, and not minted: T3-002, T3-126 and T3-090 hold its parts, and a kind would split T3-002 by degree.
-- `saturation.py pass2 --stage B1`: met; 108 of 108 chosen rooms read; run 108 rooms and 148.1 average rooms against 78 and 72.1 (floor 30). The stop is logged in the diary. `saturation-B1.md` holds the stretch table and each stretch's text.
+**B1d (B1d-01 to B1d-07).** 108 chosen rooms reread whole in seven stretches; no stretch minted, split or merged a kind. The pass stopped on its run of 108 rooms and 148.1 average rooms with no new kind, against marker 1's 78 rooms and 72.1 average rooms (floor 30). `saturation-B1.md` closes with how the pass stopped.
 
-Kinds 202 by the rule (197 themes plus the PI's splits), coverage 0.9985, unseen 20.03.
+**B1e, the scheme standing.**
+- `scheme.jsonl`: 197 themes, 183 main and 14 rare, each with gate, discriminators, varies, is_not, floor (main only) and up to three exemplars (578 in all; 10 themes have fewer than three).
+- `families.jsonl`: 21 families. The largest is G21, after the canvas closed (15 themes).
+- `scheme.md`: an index page, then every family in full, with exemplars.
+- `confusions.md`: 17 ranked pairs. The hardest is T3-005 against T3-021, with an estimated 15 to 20% disagreement.
+- `findings.jsonl`: F-001, the scheme's claim, warrant read, status standing.
+- `handback-B1.md`; `out/interview/B1e.md`.
+- 115 themes relabelled and 14 moved to rare, each with a `tier_history.jsonl` line. Two moves were logged and snapped (`B1-move-asking-questions-1`, `B1-move-relating-or-contrasting-1`). No theme merged, split or dropped at B1e.
+- The hand-over checks of section 7 are in `notes-B1.md`, section "Leg B1e".
 
-**The PI's review of the oversized kinds (B1b-19-p2, B1b-20):** T3-010 split into T3-010, T3-194 and T3-195; T3-009, T3-014 and T3-001 kept whole (tier_history lines 65 to 74).
+**The claim (F-001).** The organising of the 705 rooms sorts into 197 kinds of doing, none over 7% of the 7,786 placed second-order themes. Half of those themes (51.1%) sit on one kind; the rest need two or three. Themes about dealing with other rooms need the most: 36.0% on one kind, against 54.1% for the others. Bound: the share needing several kinds rises with the grain of the second-order theme (70.4% on one kind at five concepts or fewer, 35 to 38% at six to twenty). Best fit: canucks, 40 themes each on one kind across 18 families. Worst fit among rooms of eight themes or more: turkey, 13 of 14 themes on two or three kinds. What separates them is the grain: about 5 concepts a theme against about 19.
 
-**J's words for B1 (7 October 2026):** "national elements are very important here"; "we need to get as much variance on organizing behavior early on so that later we have enough to create the model". National, political and conflict content is study material: a theme about flags, borders, alliances or fights between national rooms is minted, placed and named as plainly as any other. **The handler's rule:** a choice to leave out or soften content for any reason other than the study's goes to J first with `mem.py ask`, and the content stays meanwhile. Nothing was left out or softened at B1d-01 to B1d-07.
+**J's words for B1 (7 October 2026):** "national elements are very important here"; "we need to get as much variance on organizing behavior early on so that later we have enough to create the model". National, political and conflict content is study material: a theme about flags, borders, alliances or fights between national rooms is minted, placed and named as plainly as any other. **The handler's rule:** a choice to leave out or soften content for any reason other than the study's goes to J first with `mem.py ask`, and the content stays meanwhile. Nothing was left out or softened at B1e; the gates and exemplars name Israel and Palestine, swastikas, slurs and ethnic jokes plainly.
 
 **The PI's clarifications (8 October, approved by J):** the thresholds are the design's heuristic; the rule is unchanged.
 
@@ -37,23 +42,32 @@ Kinds 202 by the rule (197 themes plus the PI's splits), coverage 0.9985, unseen
 
 No question is open.
 
-## How B1 goes from here (the stage file, kept here for after a compaction)
+## What B1 hands to B2 (from the handback, kept here for after a compaction)
 
-- **B1e, the next leg: the scheme standing.** The stage file's §3 to §7 and its Close say what it writes: `scheme.md`, `scheme.jsonl`, `families.jsonl`, `confusions.md`, the hand-over checks, the handback, and the interview brief `out/interview/B1e.md`, closed with `done.sh B1 --cut interview`. Read those sections again when the leg opens.
-- **Startup packet each leg:** this head, the stage file, the last five diary entries, `mem.py scheme --brief` (paged at 80 lines; `--offset`), `validate.py --open B1`.
-- **Episodes.** One line per event; a joining room through `b1_episode_join.py <spec.json> --leg <leg> [--write]`, a dry run first. Describe members without naming them; members take they/them. Check the parse with `jq -c .episode out/episodes-B1.jsonl | wc -l` in a turn of its own after every write. B1d did not check episode joins for its rooms.
-- **Placing and moving:** `mem.py place <sub>:<tNN> --theme T3-x` (timeout 600,000 ms). A move: `unplace`, `place`, then `out/_analysis/b1_tier_line.py --leg --id --to --moved --move --event members_changed --prompted --why`. A kind widened: `out/_analysis/b1d_tier_rescope.py --leg --id --added --prompted --why [--label-to]`.
-- **Rule 0, single placement.** One kind per second-order theme; a second or third only where a concept of its own supports it, central or a carrying code: `place`, then a line in the leg's `.psv` (header `sub|theme_id|primary|additional|codes|why_not_one`, new lines before `END|t00|`), converted with `grep -v "^END|" ... | tr '|' '\t'`, written with `b1_multiplace_write4.py <tsv> --leg <leg> --write`. Beyond three, bag: unplace the extra kinds, then a file of lines `sub:tNN:T3-kept:T3-a,T3-b:why` (exactly four colons), checked with `b1_precheck_bagfile.py`, written with `b1_bags_from_file2.py <tsv> <leg> <bagfile> --write`, then `b1_check_bags.py <leg> <sub>`. The bag writer skips a kind's second unplacement in one leg: after bags, run `out/_analysis/b1d_tier_unplace_fill.py --leg <leg>` dry, then with `--write`. Kinds missing from an existing bag go in the room note.
-- **April Fools (the B1b-20 review, in its own words).** T3-095 holds testing a claim the theme did not stage: a change or announcement by the moderators or the company, a public figure's post, a news story, another room, real news taken for a joke. Themes that test only the fake they stage go to T3-001 alone. The room's own fakes: T3-001. The sub's takeover and play inside it: T3-023. Objecting in three or more concepts: T3-032. A company's, organisation's or creator's own joke: T3-048. Switching off the styling: T3-097. Keeping the flair after the day: T3-100.
-- **Reading a room (the handler, 7 October):** read the whole print before placing; grep does not replace reading.
-- **Verbs, never by hand.** `mem.py idea`, `mint`, `place`, `unplace`; a merge or split of a theme with more than twenty members: `log --kind split --ids`, `python3 tools/snap.py B1 move-<move>-<n>`, then `log --kind move`. Every grouping move gets a `tier_history.jsonl` line with its move and `prompted_by`.
-- **Grouping.** Gioia's first-order consolidation: kinds, not sizes; never split by degree; when in doubt keep two. No ceiling. Names 2 to 5 words, gerund-led, never a construct's name.
-- **The floor:** a kind seen in two rooms unlike each other enters the main scheme; one room only, the rare tier. Rooms telling one episode count as one. Read at B1e.
-- **At every close** rerun `saturation.py report --stage B1` (it leaves the decision file alone), then `validate.py B1`, then the notes section.
-- **Reads allowed** are listed in the stage file; quotes through `cite.py` only. Forbidden: cutting fourth-order themes or dimensions; citing a note.
-- **Safe stops:** after each room or theme is logged; `ls .pause`.
+- Asks: a way to serve a second-order theme's concepts without its placements (the stranger test at B1e was not blind); a ruling on testing one index page for G13, G14 and G15 together; a ruling on whether B3 readers see exemplars; a ruling on the B1d leftovers below.
+- B1d leftovers not taken up at B1e:
+  - 107 episode lines whose kinds none of their rooms holds;
+  - seven pairs of lines telling one event (the first E846 beside E1178);
+  - E989;
+  - the cfb and finland records;
+  - shared-member counts that may include AutoModerator;
+  - the 76 themes holding both T3-005 and T3-021 acts (`b1_review_T3-005_T3-021_both_acts.txt`);
+  - T3-149 and T3-150 members that may hold T3-195;
+  - kinds left out of bags.
+- Hard items for B2 will come from second-order themes of six to twenty concepts, and from the deal kinds: T3-010 in G14; T3-149, T3-150, T3-151, T3-194 and T3-195 in G15; T3-024, T3-039, T3-040 and T3-076 in G13.
+- The second-order theme the scheme handles worst: argentina t06, "making and contesting pixel alliances", on T3-150 with a bag naming seven more kinds.
+- The ten biggest second-order themes by concepts are in the B1e notes for B3 to flag. leagueoflegends t02 is the largest, at 798 concepts.
+- Token sizes: `scheme.md` about 85,400 tokens (bytes over four), of which exemplars are about 14,100; the served index page about 8,300; a family page about 1,600 to 4,100.
 
-## Stage A1, what B1 inherits
+## The floor and the tiers, as read at B1e
+
+The floor is two rooms unlike each other: in size (one holds at least twice the other's items in the window), in side of the contrast, or in form as the notes have it. Rooms telling one episode count as one. `out/_analysis/b1e_floor.py` read it.
+- 181 main themes rest on size.
+- Two rest on form: T3-173 (GreenCorner, AprilKnights) and T3-189 (scp, parahumans).
+- Rare: T3-007, T3-025, T3-067, T3-077, T3-093, T3-106, T3-133, T3-144, T3-161, T3-166, T3-186, T3-191 and T3-197, each seen in one room; T3-128, in three rooms that tell one episode (E1132).
+- T3-007 and T3-077 each have a second room's concept that is not placed on them (parahumans c0007, in a bag; PlaceNL c0087).
+
+## Stage A1, what B1 inherited
 
 - J's rulings of 7 October: hour 0 is the canvas opening; the onset is the first coded turn at hour 0 or later; the organizing end is reported with and without calls after hour 73 (QA1-002).
 - `coordinating-rule-A1.md`, copied into `prior.md` §5. 44,116 of 115,388 concepts coordinate. Census 705 rooms; second-order themes 7,844, all placed or listed as unplaced in B1. QA1-001: the concept-reach threshold stays at 0.
@@ -63,29 +77,64 @@ No question is open.
 
 Blocks 01 to 19, with the contrast's sides in `contrast.md`. The 68 the log and head name are the chosen list's group 3; Summit1G is the room that fits nothing else (A1c).
 
-## Open distinctions, carried into B1e
+## Open distinctions, carried past B1
 
-None is filed in `_questions/`. Still open: who started the work; wars told twice; rivals who turn partners (E1076, E1122, E1142, E1318); protection bought from a bigger faction (T3-099) and protection given, with no host-side kind (episodes in the notes; sakuragakuin c0033 and c0050); whose flag a shared flag is (E1118); one act read differently by its rooms, and records that disagree on who attacked, on promises, truces, bots and design changes (episodes in the notes); who drove a bot and why it left a work (E1025); a room's own scripts barring it from sparing a neighbour (E843) or wrecking a protectorate it then rebuilt (E1209); one member on both sides of a quarrel (E820, E947); objections to altering the final image, split between T3-054 and T3-105; striking where the defence is weak (theblackvoid t08, in T3-020); offensive joking as a kind of its own (ultrahardcore t07, in T3-031); veiled fascist emblems and number codes (croatia c0007 and c0008, bagged under T3-113; BVB 88 and BVB NS, in T3-146); members drawing a swastika on the room's own logo (pcmasterrace t05, now in T3-177); political slogans as such, with no kind (TheFarLeftSide t02, in T3-033); replacing another nation's flag with the room's own (kurdistan t02: T3-068, T3-006, T3-061, with T3-130 for the national choice of target; israel t04 is another case).
+None is filed in `_questions/`. These remain open:
+- who started the work;
+- wars told twice;
+- rivals who turn partners (E1076, E1122, E1142, E1318);
+- whose flag a shared flag is (E1118);
+- one act read differently by its rooms, and records that disagree on who attacked, on promises, truces, bots and design changes;
+- who drove a bot and why it left a work (E1025);
+- a room's own scripts barring it from sparing a neighbour (E843), or wrecking a protectorate it then rebuilt (E1209);
+- one member on both sides of a quarrel (E820, E947);
+- objections to altering the final image, split between T3-054 and T3-105.
+
+Settled at B1e and written into the gates:
+- protection given (no host-side kind; T3-011 or T3-150);
+- offensive joking (in T3-031; arguing over it is T3-143);
+- political slogans (T3-033);
+- veiled fascist emblems (T3-113);
+- outside voices' denials (T3-188);
+- glitches (T3-016, T3-088, T3-074);
+- bot rumours (T3-027);
+- game-fandom wars (not T3-081).
 
 ## Ledgers at this close
 
 - A1: `lexicon-A1.md` 1,289 lines; `running-A1.md` 773; `leads-A1.jsonl` 2,478; `departures.jsonl` 9; `defects.jsonl` 8.
-- B1: `prior.md`; `notes-B1.md` (sections through "Leg B1d-07"); `stopping-B1.md` (384 lines, rewritten at this close) and `stopping-B1-checkin-408.md`; `stopping-B1-decision.jsonl` (the PI's); `saturation-B1.md` (207 lines); `scheme/scheme_current.jsonl` (197 themes over 7,786 placed second-order themes, 13,432 placements); `theme_discovery.jsonl` (197); `ideas-B1.jsonl` (214); `kinds-B1.jsonl` (13,657); `multiplacement_log.jsonl` (6,663); `tier_history.jsonl` (123); `unplaced-B1.jsonl` (58); `episodes-B1.jsonl` (1,341 lines, E001 to E1342, E460 absent); `pass2-chosen-B1.txt` (108 rooms, 125 lines); `pass2-B1.jsonl` (108). `validate.py B1`: 0 errors, 200 warnings (capped). B1d records in `out/_analysis/`: `b1_multiplace_b1d01.psv` to `b1_multiplace_b1d07.psv`, the bag files `b1d01_bags_*`, `b1d03_bags_*`, `b1d05_bags_*`, `b1d06_bags_*` and `b1d07_bags_*`, `b1d_forest_lengths.py` and `b1d_tier_unplace_fill.py`.
-- Left from B1d for B1e, under "For B1d" in the notes sections: episode lines whose kinds none of their rooms holds (107, all older than B1b-30); one event told in several lines (seven pairs, the first E846 beside E1178); E989, where runescape t10 now holds T3-086 and 2007scape holds none; cfb c0468 and c0485 against finland c0070 and c0071 (who worked for whom against two logos); shared-member counts in lines older than B1b-31 that may include AutoModerator; the 76 T3-005/T3-021 themes (`b1_review_T3-005_T3-021_both_acts.txt`); T3-149 and T3-150 members that may hold T3-195; kinds left out of bags, in the diary's room notes (B1d-06's and B1d-07's in `saturation-B1.md`, stretches 6 and 7).
-- Rules kept: never type an id, an order or a name from memory; check with `jq` or `saturation.py order`; never log a write before the tool answers, nor trust an answer cut by `tail`; count a ledger's lines after appending; there is no `--kind close` and no `--kind episode`, log those as notes. Check a notes section against the diary before closing. Never put a placeholder or a no-op in a command. Never put an Edit and the read that checks it in one turn. Before moving a placement under a rule, read the rule's own `tier_history.jsonl` line, not this head's summary of it.
-- The permission check refuses "=w=" (write "the Weezer symbol"), shell for and while loops (and words beginning "for_"), shell functions, brace groups, heredocs, awk (even inside another word), a variable set from `$(...)`, some `python3 -c` scripts, jq with a `test()` regex (alone or chained with greps), env-var prefixes such as `LC_ALL=C cut`, and cat or jq on `out/diary/` (use `mem.py diary`); split those or use `cut`. In zsh a word beginning with "=" (such as a row of equals signs) fails and stops the line; use dashes. The guard refuses any text holding the name of the PI's decision command. A file over 256 KB is read with `offset` and `limit` (`notes-B1.md` is one). The shell shows at most 30 KB per call; `cut` can drop text on an illegal byte, so print parts with `head -c` and `tail -c`. A long `sleep` is refused. `mem.py diary` pages at 80 lines (`--offset`); `--grep` takes an id, not free text. The Read tool cannot open files under `$TMPDIR`.
-- The diary is in part B1-185 at this close. After a compaction the guard requires the head and stage file read again and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other write; run no read and no write before those steps (slips: one call at B1d-01, one read each at B1d-02, B1d-04 and B1d-05, two reads at B1d-03, one write at B1d-06, four reads at B1d-07). After an interrupted turn or a lost connection, check the record before rerunning anything.
+- B1:
+  - `prior.md`; `notes-B1.md` (sections through "Leg B1e"); `stopping-B1.md` (384 lines) and `stopping-B1-checkin-408.md`; `stopping-B1-decision.jsonl` (the PI's); `saturation-B1.md` (211 lines);
+  - `scheme/scheme_current.jsonl` (197 themes over 7,786 placed second-order themes, 13,432 placements); `scheme.jsonl` (197); `families.jsonl` (21); `scheme.md`; `confusions.md`; `findings.jsonl` (1);
+  - `theme_discovery.jsonl` (197); `ideas-B1.jsonl` (214); `kinds-B1.jsonl` (13,657); `multiplacement_log.jsonl` (6,663); `tier_history.jsonl` (252); `unplaced-B1.jsonl` (58); `episodes-B1.jsonl` (1,341 lines, E001 to E1342, E460 absent);
+  - `pass2-chosen-B1.txt` (108 rooms, 125 lines); `pass2-B1.jsonl` (108); `handback-B1.md`; `out/interview/B1e.md`.
+- B1e working files in `out/_analysis/`: `b1e_method.md`, the drafts `b1e_draft_G01.jsonl` to `b1e_draft_G21.jsonl` (the source of `scheme.jsonl`), `b1e_families.tsv`, `b1e_floor.tsv`, `b1e_relabels.tsv`, `b1e_two_or_half.md`, `b1e_running_dropped.tsv`, `b1e_notes_section.md`, the packet pages `b1e_packets/` and `b1e_packets2/`. The scripts are `b1e_digest.py`, `b1e_cands.py`, `b1e_cite.py`, `b1e_check_draft.py`, `b1e_fix_fields.py`, `b1e_add_disc.py`, `b1e_disc_pairs.py`, `b1e_assemble.py`, `b1e_floor.py`, `b1e_tier_lines.py`, `b1e_confusions.py`, `b1e_pair_overlap.py`, `b1e_rooms_fit.py`, `b1e_kinds_per_theme.py`, `b1e_stranger_draw.py`, `b1e_running_dropped.py`, `b1e_ideas_unminted.py` and `b1e_append.py`. To change the shipped scheme, edit the drafts and rerun `b1e_assemble.py --write`; it rewrites `scheme.jsonl`, `families.jsonl` and `scheme.md`.
+
+## Rules kept
+
+- Never type an id, an order or a name from memory; check with `jq` or a script. Never log a write before the tool answers, nor trust an answer cut by `tail`. Count a ledger's lines after appending.
+- There is no `--kind close` and no `--kind episode`; log those as notes.
+- Check a notes section against the diary before closing. Never put a placeholder or a no-op in a command. Never put an Edit and the read that checks it in one turn.
+- Before moving a placement under a rule, read the rule's own `tier_history.jsonl` line, not this head's summary of it.
+- The permission check refuses:
+  - "=w=" (write "the Weezer symbol");
+  - shell for and while loops, and words beginning "for_";
+  - shell functions, brace groups and heredocs (python heredocs included);
+  - awk, even inside another word;
+  - a variable set from `$(...)`, and some `python3 -c` scripts;
+  - jq with a `test()` regex, some jq filters with chained `or` selects or jq variables, and env-var prefixes such as `LC_ALL=C cut`;
+  - cat or jq on `out/diary/` (use `mem.py diary`).
+
+  Split those, or write a script file.
+- In zsh a word beginning with "=" fails and stops the line. The guard refuses any text holding the name of the PI's decision command.
+- A file over 256 KB is read with `offset` and `limit` (`notes-B1.md` is one); append to it with `b1e_append.py`. The shell shows at most 30 KB per call. `mem.py diary` pages at 80 lines. The Read tool cannot open files under `$TMPDIR`. BSD grep has no `-P`.
+- Once `scheme.jsonl` exists, `mem.py scheme <T3>` serves the shipped line without members; read members from `scheme_current.jsonl`. `mem.py theme` prints the working placements above the concepts.
+- The diary is in part B1-188 at this close. After a compaction the guard requires the head and stage file read again and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other write. Run no read and no write before those steps. Slips so far: one call at B1d-01, one read each at B1d-02, B1d-04 and B1d-05, two reads at B1d-03, one write at B1d-06, four reads at B1d-07, and one write and one check at B1e. After an interrupted turn or a lost connection, check the record before rerunning anything.
 
 ## The next comparison
 
-The next leg is B1e, the scheme standing. Each of the 197 themes is set against its near neighbours through its gate and discriminators, using the gate notes and discriminators below and the cases in `saturation-B1.md` (B1c and stretches 1 to 7) and the notes sections.
-
-## The scheme as it stands
-
-197 third-order themes, the working grouping in `scheme/scheme_current.jsonl` (`mem.py scheme --brief`). The largest: T3-009 (532), T3-010, T3-005, T3-031, T3-002, T3-001, T3-021, T3-004; none holds one in ten.
-
-Names to change at B1e: T3-010 should say borders and space; T3-056 should drop "kindred"; T3-121 should say sanctioning by exclusion; T3-023 should say the sub's takeover, not only its moderators, and one sub's joke raid on another (Slovakia t02); T3-048 should say a company's, organisation's or creator's own; T3-030 should drop "after the close"; T3-192 should say griefing the work, the room's own included; T3-065 should say a nation's, state's or region's flag; T3-115 should say any other room's request; T3-063 should say posts about the event, insults and April Fools posts included; T3-088 should say placing beyond the limit by any means; T3-132 should say a rival watching from inside; T3-117 should take registering the end and hoping it returns; T3-188 should say separating the plan from placers it cannot control; T3-041 should say adding pieces to the work or enlarging it; T3-087 should say tracing who changed the work or sent a call; T3-120 should say lending accounts to a bot, the room's own included.
-
-Gates to sharpen: T3-197, T3-196, T3-195, T3-160, T3-080, T3-081 (not game-fandom wars: loltyler1 t03), T3-085, T3-146 (whether obscene images or covered insults count), T3-177, T3-193 (a rival fandom's room counts: starcitizen t16), T3-063, T3-027 (whether a bot rumour, or saying a defence was scripts, counts), T3-070 (plans of colours, borders and timings included), T3-073 (live reports included), T3-002 (calls to placers who are not yet a group included), T3-126 (saying no one can speak for the placers included), T3-099 or a new host-side kind (protection given), T3-188 (whether an outside voice's "it was not us" counts: cases in `saturation-B1.md`, stretches 2 to 7), T3-054 (either answer to a successor canvas), T3-074 against T3-088 for glitches, T3-102 (placestart c0477). Discriminators written at B1d-06 and B1d-07: T3-010/T3-149 (a pact ending or forestalling a fight goes to T3-149; borders or space with no fight, to T3-010); T3-074/T3-136 (doubting the room can manage a work at all, even mid-work, goes to T3-136; working around the timer and few hands, to T3-074); T3-044/T3-082 (outsiders led to the sub by the mark go to T3-044; members finding their own room's mark already placed, to T3-082). Discriminators owed: T3-003/T3-038, T3-037/T3-098 (bare dismissals of a call: glasgow t02, cardinals t04), T3-010/T3-149/T3-151 (Fez t07: help given in return goes to T3-151), T3-046/T3-076 (PlaceNL t14), T3-016/T3-074 (glitches: rotmg t14 and wholesomememes t09 against nyjets), T3-024/T3-010, T3-070/T3-091, T3-068/T3-061/T3-006, T3-120/T3-088, T3-188/T3-076/T3-195, T3-188/T3-087 (members saying damage was not the room's: TheFarLeftSide c0422, c0497), T3-050/T3-017, T3-168/T3-024 (runescape t12), T3-073/T3-038. A bag line may file under T3-010 what T3-194 or T3-150 holds (starcitizen t11). The floor: T3-007 and T3-077 each have a second room's concept (parahumans c0007, in a bag; PlaceNL c0087).
-
-National kinds minted under J's words: T3-065, T3-078, T3-079, T3-080, T3-081, T3-085, T3-099, T3-113, T3-130, T3-145, T3-165, T3-166 and T3-180; their names are in `scheme --brief`.
+Stage B2 sets the gates in front of fresh readers. The first comparisons to watch:
+- T3-005 against T3-021, with GreenCorner t03 to expose it;
+- T3-010 against T3-149, with anarcho_capitalism t12;
+- whether a reader holding G14 alone files truces and alliances under T3-010;
+- whether readers disagree on the primary in more than a third of the second-order themes, which F-001 names as its refutation.

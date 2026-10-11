@@ -2753,3 +2753,352 @@ Nothing was left out or softened.
 - `pass2-B1.jsonl`: 108;
 - `pass2-chosen-B1.txt`: 108 rooms (125 lines);
 - `saturation-B1.md`: 207 lines.
+
+
+## Leg B1e, the scheme standing, 2026-10-11
+
+The leg wrote the shipped scheme from the working grouping. It wrote a gate, discriminators, varies, is_not and exemplars for each of the 197 themes, set every theme in one of 21 families, read the floor, and ran the hand-over checks of section 7. No theme was merged, split or dropped. The leg ran across one compaction.
+
+**What was written.**
+- `scheme.jsonl`: 197 themes, 183 main and 14 rare, each with every field of section 4. 578 exemplars through `cite.py`: 187 themes have three, 7 have two and 3 have one.
+- `families.jsonl`: 21 families. `scheme.md`: an index page listing every family with its themes' names and glosses, then every family's themes in full.
+- `confusions.md`: 17 ranked pairs, an exposing second-order theme for each, a family boundary to test, and an estimate on the hardest pair.
+- `findings.jsonl`: opened with F-001, the scheme's claim in rule 14's form.
+- `tier_history.jsonl`: 129 lines added (124 to 252), 115 `relabelled` and 14 `moved_to_rare`.
+- `saturation-B1.md`: a closing section on how the second pass stopped.
+- `handback-B1.md` and `out/interview/B1e.md`.
+- Working files in `out/_analysis/`: `b1e_method.md`, the 21 drafts `b1e_draft_G01.jsonl` to `b1e_draft_G21.jsonl`, `b1e_families.tsv`, `b1e_floor.tsv`, `b1e_relabels.tsv`, `b1e_two_or_half.md`, `b1e_running_dropped.tsv`, the packet pages in `b1e_packets/` (before the last reassembly) and `b1e_packets2/` (after it), and the scripts named below.
+
+**How the gates were written.** One family at a time. For each theme, `b1e_digest.py` printed its trigger, its rooms, its rule 0 partners, its tier history and a seeded sample of members. `b1e_cands.py` printed seeded candidate concepts, filtered by the gate's own words where that helped. Every quote was confirmed as a substring of the concept's words through `cite.py` (`b1e_cite.py`). `b1e_check_draft.py` checked each draft's fields, name length, problem words, family, discriminator ids and quotes. Families were revised during drafting for what a reader would confuse; each move is in the diary.
+
+**The gate questions the second pass left, as settled.**
+- T3-188 takes an outside room's denial when it separates its organised members from placers acting in its name. A bare "it was not us" that points to another room is tracing (T3-087). Members doubting that damage was their room's own are also tracing.
+- T3-146 takes hate symbols and slurs. Obscene drawings and ordinary insults that are covered are repair (T3-021).
+- Glitches: explaining one is T3-016, placing beyond the limit with one is T3-088, coping with one is T3-074.
+- T3-099 keeps the protected side only. A host-side kind for protection given was weighed and set aside: in every case met, protection given reads as help sent (T3-011) or an alliance (T3-150).
+- T3-027 takes bot rumours and claims that a defence was scripts when fairness is in question.
+- T3-081 excludes game-fandom wars with no national history.
+- T3-054 takes either answer to a successor canvas. T3-117 takes registering the end and hoping the event returns. T3-073 takes live reports.
+- T3-002 takes calls to placers who are not yet a group. T3-126 takes saying that no one can speak for the placers.
+- The discriminators the head owed are written into both gates of each pair, as `b1e_disc_pairs.py` checked: T3-068/T3-061/T3-006, T3-010/T3-149/T3-151, T3-024/T3-010, T3-046/T3-076, T3-003/T3-038, T3-044/T3-082, T3-074/T3-136, T3-037/T3-098, T3-073/T3-038, T3-188/T3-076/T3-195, T3-188/T3-087, T3-016/T3-074, T3-070/T3-091, T3-120/T3-088, T3-050/T3-017 and T3-168/T3-024. Six of them were missing in one or both directions after drafting, and `b1e_add_disc.py` added 10 questions before the last reassembly.
+- 115 names changed; each change has a `relabelled` line. The head's listed changes are among them.
+
+Before assembly, 42 gate fields named legs, room theme ids, concept ids or the notes. Strangers are given none of these, so each field was rewritten in words (`b1e_fix_fields.py`). `b1e_assemble.py` cut rule 0 and bag line counts from 32 fields. Counts stay in the working files and in `confusions.md`.
+
+**The floor and the tiers.** `b1e_floor.py` read the floor for all 197 themes against `episodes-B1.jsonl`, counting rooms that tell one episode as one, and the store's items in the window.
+- 181 themes rest on a pair of rooms at least twice apart in size and not joined by an episode. Pairs with exemplar rooms came first.
+- T3-173 rests on form: GreenCorner is a sub made on the canvas for a colour faction; AprilKnights is an order carried over from the 2015 Button event. T3-189 rests on form: scp is a sub whose members write the fiction together; parahumans is the fan sub of one author's web serial. No pair of their rooms is twice apart in size.
+- 14 rare. Thirteen were seen in one room: T3-007, T3-025, T3-067, T3-077, T3-093, T3-106, T3-133, T3-144, T3-161, T3-166, T3-186, T3-191, T3-197. T3-128 was seen in three rooms (PurplePixels, destiny, ice_poseidon) that tell one episode, E1132. The validator warns that it is rare on three rooms; this is the reason.
+- T3-007 and T3-077 each have a second room's concept, named in the head (parahumans c0007, in a bag; PlaceNL c0087), but scheme_current.jsonl does not place those second-order themes on them. They ship rare by the file.
+
+**Moves.** Two moves were logged with `--kind move` and snapped: asking questions (115 relabels, `B1-move-asking-questions-1`) and relating or contrasting (the floor and 14 rare, `B1-move-relating-or-contrasting-1`).
+
+**What the second-order themes showed that the notes did not predict.**
+- `prior.md` expected 250 to 450 kinds. The walk made 197, below the low end. The notes' families were each one kind or a few, not the many the prior expected once split by how a thing was done; kinds were not split by degree.
+- The prior named deals between rooms as one family. It did not predict that one second-order theme about a neighbour would so often hold four or more kinds at once. Themes touching G13, G14 or G15 sit on one kind in 36.0% of cases, against 54.1% for the rest (`b1e_kinds_per_theme.py`).
+- How many kinds a second-order theme needs follows its grain. At five concepts or fewer, 70.4% sit on one kind; at six to twenty, 35 to 38% do. Above forty concepts the share rises again (61.8%), because bags keep one kind and name the rest. canucks (40 themes, about 5 concepts each) has every theme on one kind; turkey (14 themes, about 19 concepts each) has 13 of 14 on two or three.
+- The three kinds the prior said the material would refuse held as predicted. Deliberation off the record appears only as a decision brought back (T3-152). Reward and motive are thin (T3-159, T3-110). The canvas as outcome is absent: canvas facts were dropped from the running file and no kind rests on the atlas.
+
+**Themes rejected, and why.** 17 of the 214 ideas were never minted (`b1e_ideas_unminted.py`). Each trigger's doing is held by existing kinds:
+- hijacking a rival's script (detroitlions t10): T3-006, with T3-028 named in its bag;
+- calling from comments when the sub's posts are closed (ontario t01): T3-020, T3-033, T3-070; the venue varies, the call does not;
+- making a mark because rivals have one (baylor t03): T3-033;
+- reusing another room's script (wildhockey t02): T3-028;
+- answering an insult with goodwill (bulgaria t06): T3-050;
+- guarding an ally's flag while it sleeps (argentina t06): T3-150, with T3-141 and T3-011 in its bag;
+- watching the canvas on a livestream (twitch t08): T3-016;
+- redirecting requests to specialist rooms (anime t12): T3-062, T3-137;
+- closing the canvas sub after the end (heyyea t11): T3-117, and now T3-111's gate;
+- declining to start again after the end (aoe2 t11): T3-054, which now takes either answer;
+- performing state offices in the room's canvas war (indonesia t07): T3-081;
+- striking where the defence is weak (theblackvoid t08): T3-006 and T3-020;
+- posting slurs and taboo material on the joke day (ultrahardcore t07): T3-031 and T3-182; offensive joking stays in T3-031, and arguing over it is T3-143;
+- reporting the live canvas (france t09): T3-073, which now takes live reports;
+- conceding placers ignore the plan (PlaceNL t11): T3-188;
+- gathering lone placers together (rainbowgrid t02): T3-002, T3-090, T3-126; a kind would split T3-002 by degree (B1d-07);
+- planning the room's pixel operations (france t05): T3-070.
+
+Weighed at B1e and set aside: a host-side kind for protection given (T3-011 or T3-150 hold it); political slogans as a kind (T3-033 holds them); veiled fascist emblems as a kind (T3-113 holds them, named plainly in its gate).
+
+### Before handing over (section 7)
+
+**The stranger test.** I read only the gates and discriminators of T3-005, T3-021 and T3-087. `b1e_stranger_draw.py` drew five second-order themes, seeded, from the 689 members of the three. The draw left out rooms of the second pass and the three themes' exemplar rooms. Placed from the gates:
+- thesimpsons t11 (asking allies to fight red and celebrating together): T3-005. The request to an ally to call off aligned placers is a kind none of the three gates holds (T3-084 or T3-139).
+- littlewitchacademia t08 (keeping the witches around): T3-021, with no hesitation. Handing upkeep over at bedtime looks like T3-141, which I did not hold.
+- vegan t08 (defending vegan signs from repeated overwriting): T3-005. I hesitated over whether its repair concepts (c0177, c0181) earn T3-021. The working grouping did not add it.
+- palestine t04 (defending, repairing and holding the flag): T3-005 with T3-021 (c0073). I hesitated over c0074, a member messaging the placers laying blue dots, which none of the three gates holds.
+- WPI t05 (stopping others from taking the logo): T3-005 with T3-087. I hesitated over whether a warning that a named room wants the logo is tracing when the source is already known.
+
+All five primaries match the working placements. The test was not blind: `mem.py theme` prints the working placements above the concepts, and they were in view.
+
+**The ten biggest bags** (second-order themes ranked by the concepts under them; stage B3 flags them so readers place them from the concepts):
+1. leagueoflegends t02, 798 concepts, T3-023: Turning Marc Merrill into the room's lord and savior
+2. theblackvoid t09, 389 concepts, T3-006, T3-080, T3-085: Calling attacks on named targets
+3. ainbowroad t11, 361 concepts, T3-035, T3-084, T3-139: Petitioning the road for room, help, or protection
+4. 2007scape t04, 349 concepts, T3-038: Building from coordinates, grids, and progress calls
+5. theblackvoid t12, 335 concepts, T3-031, T3-163, T3-174: Hailing and embodying the Void
+6. ainbowroad t04, 327 concepts, T3-021: Repairing and defending the road and nearby art
+7. ainbowroad t03, 326 concepts, T3-005: Warning about and fighting attacks
+8. dota2 t05, 314 concepts, T3-023, T3-032: Turning the subreddit into r/tz and playing along
+9. ainbowroad t07, 311 concepts, T3-038, T3-041, T3-160: Extending strands and building road projects
+10. sweden t01, 310 concepts, T3-065: Building, repairing, and decorating the shared canvas
+
+**Running-file entries dropped.** All 769 entries of `running-A1.md` were read. 601 name a doing, and the kinds whose gates take it carry it. 168 are dropped; each is listed with its reason in `out/_analysis/b1e_running_dropped.tsv`:
+- canvas, 51: facts from the canvas record (linked artworks, writers' shares, placements before hour 0, the atlas). They are measured from pixels, not told in the rooms' words, and the canvas fields carry them.
+- record, 61: remarks about the A1 reading itself (block markers, sides of a block, corrections, notes an account weakened, accounts that disagree). The doings they mention, such as attack talk in a room read as restrained, are carried by their kinds.
+- share, 15: a share of a room's coded record (April Fools filling most turns, one member writing most). The store's facts and stage C1's counts carry them.
+- brief, 33: the room's week before the canvas as the source of a word, mark or habit. This is outside the window B1 places; T3-031 and T3-033 carry the canvas talk that uses it.
+- sequence, 8: an order of events over the week. This is sequencing, for stage C.
+
+**Token sizes, and what was cut.** Tokens are estimated as bytes over four; no tokenizer was run.
+- `scheme.md`: 341,571 bytes and 57,990 words, about 85,400 tokens. Its 197 exemplar lines are 56,510 bytes and 8,991 words, about 14,100 tokens. Its index section (lines 1 to 268) is 31,904 bytes and 5,418 words, about 8,000 tokens.
+- The index page the harness serves (`packets.py scheme`, built to `out/_analysis/b1e_packets2/index.md` after the last reassembly): 33,148 bytes and 5,455 words, about 8,300 tokens.
+- One family page: 6,566 bytes (G12) to 16,448 bytes (G21), about 1,600 to 4,100 tokens. A reader holding the index and one family page holds about 10,000 to 12,400 tokens.
+- Cut to get there: the working labels and the two-or-half arguments moved to the notes; rule 0 and bag line counts cut from 32 fields; leg names, room theme ids and concept ids rewritten out of 42 fields; exemplars withheld from the packet pages, which is `packets.py`'s default.
+- Not cut: `scheme.md` keeps every exemplar for a human reader.
+
+**Size distribution** (second-order themes per theme, `b1e_rooms_fit.py`): minimum 1, quartiles 7, 26 and 91, maximum 532, mean 68.2. By band: 1 member, 11 themes; 2 to 9, 49; 10 to 24, 37; 25 to 49, 23; 50 to 99, 36; 100 to 199, 25; 200 to 399, 13; 400 or more, 3. The largest themes are T3-009 (532), T3-010 (444), T3-005 (429), T3-031 (390), T3-002 (385), T3-001 (380), T3-021 (357) and T3-004 (347). None holds one in ten of the 7,786 placed second-order themes; T3-009 holds 6.8%. T3-009 was read member by member at B1b-06, four kinds were split out of it, and the PI kept the rest whole at B1b-20. Its gate now writes out its variation, from a one-line "we did it" to long posts with the final image, pride and thanks.
+
+**Families.** 21. The largest is G21, after the canvas closed (15 themes); then G15, pacts and envoys between rooms (13); then G02 and G14 (12 each). The smallest are G09 and G12 (6 each).
+
+**The one second-order theme the scheme handles badly.** argentina t06, "making and contesting pixel alliances". It holds T3-150, and its bag names seven more kinds: T3-149, T3-011, T3-079, T3-078, T3-141, T3-126 and T3-081. One stretch of talk about allies does eight things the scheme keeps apart: a truce, help, a joint flag, help to kin nations' flags, a night watch for an ally, who speaks for the room, and the fight cast as national history. A reader holding one family's tests cannot place it whole.
+
+**Faults and slips this leg.**
+- After the compaction, the G19 draft was written and checked once before the head and the stage file were read again. The reconciliation line followed, and the G19 labels were then checked against `scheme_current.jsonl`.
+- The G20 draft's write and its check ran in one turn. The check read the written file and passed.
+- A first draft of the `saturation-B1.md` closing paragraph named stretches 6 and 7 with a room count typed from memory. It was checked against the stretch table and corrected (stretches 1 and 2, 21 and 24 rooms) before it was logged.
+- The guard refused two jq commands (one with chained `or` selects and a field print; one with a jq variable and a redirect), a python heredoc and a jq `test()` filter. Each was redone with grep or a script file.
+- After `scheme.jsonl` was written, `mem.py scheme <T3>` serves the shipped scheme without members, so `b1e_digest.py` printed members 0. Member lists after that point were read from `scheme_current.jsonl` with jq.
+- Left from B1d and not taken up at B1e: the 107 episode lines whose kinds none of their rooms holds; seven pairs of lines telling one event; E989; the cfb and finland records; shared-member counts that may include AutoModerator; the 76 T3-005/T3-021 themes; T3-149 and T3-150 members that may hold T3-195; and the kinds left out of bags. B1e wrote gates and did not re-place members. These go to stage B2 in the handback.
+
+### The strongest argument that each theme is two, or half of another (section 7)
+
+- T3-001 staging April Fools fake news: It could be two: making a fake and being fooled by one. The B1b-20 review kept them together, because the replies sit inside the room's own fake and a theme seldom holds one without the other.
+- T3-023 running an April Fools takeover: The moderators' staging and the members' playing inside it could be two kinds; B1b-02 kept them as one and sent working out what the change was to T3-095.
+- T3-032 objecting to April Fools posts: It is half of a pair with T3-075 (objecting that canvas talk floods the sub): both are members objecting to what fills the sub. They stay two because the object differs and a reader sees which.
+- T3-048 reacting to official April Fools: It was split from T3-001 at B1b-02; with T3-095 it could be one kind of responding to others' jokes, kept apart because testing and judging are different questions put to a joke.
+- T3-064 spreading the room's joke elsewhere: It could be half of T3-023, the outward face of a sub's joke; kept apart because members spreading a joke do not change any sub.
+- T3-093 playing with granted moderator powers: It is half of T3-023 in substance, one sub's takeover form; it stays apart because members wield the powers themselves, which no other takeover gives them.
+- T3-095 testing others' April Fools claims: It holds two sources of claim, the sub's own moderators and everyone outside the room; they could be split, but the doing, testing whether a claim is a joke, is one.
+- T3-097 switching off the prank styling: It is the other face of T3-100, the same changed look judged from the opposite side; kept apart because wanting it gone and wanting it kept are opposite doings.
+- T3-100 keeping April Fools changes afterwards: It could be half of T3-048 when the joke is a company's; kept apart because the request looks past the day and is addressed to whoever can keep the change.
+- T3-015 routing canvas posts into megathreads: With T3-063 it could be one kind, moderators ordering canvas posts; 28 rule 0 lines hold both in one theme, and they stay two because gathering the talk serves the work while removing under rules serves the sub.
+- T3-017 carrying on ordinary sub talk: It is a residual kind and could be many, one per subject; it stays one because its gate says what the theme is not, and no canvas question reads inside it.
+- T3-051 pushing posts up the rankings: It joins two aims, visibility for a canvas call and joke search-result drives; they share the doing, gathering votes, and a reader cannot always tell which the drive serves.
+- T3-053 spelling slogans with post titles: It is half of T3-051, play with Reddit's listings; kept apart because the posts make a picture of words, like a mark on the canvas.
+- T3-063 removing canvas posts by rule: See T3-015: the two share 28 rule 0 lines and could be one moderators' kind; they stay two by what the act serves.
+- T3-075 objecting to the canvas flood: With T3-032 it is half of one kind, objecting to what fills the sub; with T3-037 it shares disdain for the canvas; it stays its own because the complaint is about the sub's space.
+- T3-106 calling a network boycott: It is half of T3-048 in substance, a reaction to an official joke; it stays apart because it turns judgement into action against the maker.
+- T3-110 placing a tile as payment: It could be half of T3-159, things given in exchange around the canvas; kept apart because the tile itself is the payment.
+- T3-133 recovering a hacked sub: It stands alone in one room; it could be read as part of the sub's rules and usual life, but no other kind holds a stolen account.
+- T3-140 moderators disowning the canvas work: It could be half of T3-188, a room setting placers apart from itself; it stays apart because here no plan of the room exists to be set apart from.
+- T3-184 pausing the sub's usual events: It is thin, two concepts in two rooms; it could be half of T3-185, the sub's life rearranged around the canvas; kept apart because nothing about posting is ruled.
+- T3-185 changing the sub's posting rules: It is half of the moderators' handling of the sub with T3-063; kept apart because a reader can see whether a rule is applied or changed.
+- T3-014 moving planning into a chat: B1b-06 split it into three: the move (T3-014), the relay back (T3-152) and talks with other rooms (T3-153). It could split again by venue, which would be splitting by tool, not by doing.
+- T3-049 complaining the calls are scattered: It could be half of T3-015 and T3-091, the complaint before their remedies; it stays its own because many rooms complained and no remedy followed.
+- T3-090 opening a canvas sub: It is half of T3-015 in purpose, getting canvas talk out of the main feed; kept apart because a new sub is a new room with its own members and moderators.
+- T3-107 keeping planning in the thread: It is the absence of T3-014 voiced; it could be half of T3-109, choosing a venue; kept because the thread is chosen over any chat.
+- T3-109 arguing which chat to use: It could be half of T3-014, the move into a chat with its venue choice; kept apart because the dispute itself is the doing.
+- T3-114 disputing the chat's authority: It could be half of T3-126, disputes over who speaks for a room; kept apart because here the room's own venue is contested, not its voice to others.
+- T3-116 hiding the plan from rivals: It could be half of T3-014, a reason to leave the thread; kept apart because its doing is secrecy toward a named rival, which T3-014 does not need.
+- T3-132 spying in a rival's chat: It could be half of T3-087, finding out what rivals are doing; kept apart because being inside the rival's venue is the doing.
+- T3-152 announcing what the chat decided: It was split from T3-014 at B1b-06; it could go back, but 49 rule 0 lines show the relay standing in concepts of its own.
+- T3-153 meeting other rooms in chat: It was split from T3-014 at B1b-06; it could be half of the pact kinds, the place where pacts are made; kept because many themes meet in chat and make no pact.
+- T3-002 calling members in to place: It is the commonest doing and could be split by stage (starting, finishing, repairing), which would be splitting by degree; its rule 0 partners (T3-070, T3-033, T3-005) carry the other doings.
+- T3-044 recruiting canvas visitors: With T3-196 it is one kind, people drawn to the sub by its mark; they stay two because a reader can tell a newcomer from a returning fan and the second says the community had lapsed.
+- T3-062 recruiting kindred subs to help: It is half of T3-002, a call for hands sent further out; kept apart because the audience is another community and the call must reach it there.
+- T3-104 cheering the builders on: It could be half of T3-009, praise for the work; it stays apart because the praise is addressed to people still working, and some rooms cheered and never finished.
+- T3-129 making passers-by notice a demand: It is half of T3-033 in form, a mark proposed; kept apart because the mark is addressed to an outsider who is asked for something.
+- T3-144 recruiting quietly to avoid attackers: It is half of T3-062 turned inward, recruiting from kindred communities; kept apart because restraint for safety is its point.
+- T3-159 rewarding helpers with prizes: It could be half of T3-043, recognising helpers; kept apart because a prize is given, not only words.
+- T3-189 fearing newcomers the mark draws: It is the other face of T3-044, the same influx judged from the opposite side; kept apart because welcoming and fearing are opposite doings.
+- T3-196 drawing lapsed fans back: See T3-044: one kind of people drawn in by the mark, kept two by who comes.
+- T3-034 asking for coordinates and instructions: It is half of T3-070, the question its answers meet; kept apart because many rooms asked and no one answered.
+- T3-066 putting decisions to a vote: It is half of T3-004 when the choice is a design; kept apart because the way of deciding, a vote, is what a reader sees.
+- T3-070 sharing coordinates, templates and how-to: It could split into coordinates and templates, which would be splitting by tool; with T3-091 it is half of directing placers, kept apart because insisting on one plan is another act.
+- T3-091 keeping everyone on one template: See T3-070: half of directing placers, kept apart by the insistence on one plan.
+- T3-101 putting one member in charge: It could be half of T3-173, offices in a room; kept apart because most leaders here are named for the work with no vote.
+- T3-103 dividing the picture among teams: It could be half of T3-141, dividing the labour; kept apart because the division is in space, not in time.
+- T3-125 saying the room wings it: It could be half of T3-049, a room without a plan; kept apart because the room states it rather than complains of it.
+- T3-141 covering the night shift: It is half of T3-021 in substance, keeping the work; kept apart because the shift across hours and time zones is its own arrangement, and 31 rule 0 lines show it standing beside T3-021.
+- T3-167 timing a mass placement together: It is half of T3-002 in form, a call; kept apart because synchronising the placing is its own move.
+- T3-036 judging the canvas too full: It could be half of T3-136, reasons the room cannot join; kept apart because the reason is the canvas, not the room.
+- T3-059 urging others to give up: With T3-181 it is one kind of stopping; they stay two because telling others to stop and stopping oneself are different acts toward the room.
+- T3-074 working around the timer: It is the other half of T3-136 (B1d-06 drew the line) and could merge with it as the room's limits; they stay two because coping and doubting are different stances toward the same limits.
+- T3-098 questioning the room's canvas presence: It is half of T3-033 when it nudges a proposal; kept apart because many questions stayed questions and none followed.
+- T3-124 weighing fighting against moving: It could be half of T3-022, the decision before the move; kept apart because many rooms weighed and stayed.
+- T3-136 doubting the room's strength: See T3-074; the B1d-06 discriminator holds the line between them.
+- T3-181 quitting the effort under strain: See T3-059: one kind of stopping, kept two by who stops.
+- T3-004 settling the mark's design: It is among the largest kinds and could split into choosing the picture and correcting the details; that would split one doing by its stage.
+- T3-020 choosing a canvas spot: It could be half of T3-022, choosing a place; kept apart because the first choice and the move after a loss are moments a reader can tell apart.
+- T3-033 proposing the room's mark: B1b-02 drew its line with T3-002; the two could merge as getting the room to act, but many proposals drew no call and many calls carried no new idea.
+- T3-055 reshaping the mark against tampering: It is half of T3-004 in form and half of T3-021 in aim; kept apart because the design is changed for defence, which neither carries.
+- T3-077 animating the mark in timelapse: It is a single room's kind with one more room's concept (PlaceNL c0087, not placed here); it could be half of T3-004, the design, kept apart because time is part of the design.
+- T3-092 making a tribute alone: It could be half of T3-003, a member's own labour; kept apart because the whole work is one member's.
+- T3-160 building memorials to the dead: It could be half of T3-033, a proposed mark; kept apart because what it remembers sets how the room and its neighbours treat it.
+- T3-169 signing the sub's name: It could be half of T3-004, a part of the design; kept apart because the name says whose work it is.
+- T3-191 leaving the work unsigned: It is the other half of T3-169 and one room's kind; kept apart because leaving the work unsigned for safety is a choice a stranger can see.
+- T3-197 heeding the creator's wishes: It is the last kind minted (B1b-30-p2) and one room's; it could be half of T3-024, restraint for another's sake; kept apart because the other is the subject's creator, not a neighbour.
+- T3-003 reporting one's own placing labour: It could be half of T3-038, the work reported, told in the first person; kept apart because the member's own share is what it reports.
+- T3-026 announcing the mark is up: It is half of T3-009 in mood; kept apart because the announcement comes while the work is still in play.
+- T3-038 building and reporting the mark: It is the plainest doing and could be split into building and reporting; a report is how a building room speaks, so the two stay one.
+- T3-041 extending the room's work: It joins adding pieces and enlarging, which could be two; both grow the room's work beyond its first mark, and a reader could not always tell an enlargement from an addition.
+- T3-042 choosing upkeep over expansion: With T3-069 it is half of one kind, the room setting its priorities; they stay two because one weighs growth and the other weighs pieces.
+- T3-060 adding a personal piece: It could be half of T3-041 at the scale of one member; kept apart because the piece is the member's own inside a work held in common.
+- T3-069 concentrating effort on fewer pieces: See T3-042: half of the room setting priorities, kept two by what is weighed.
+- T3-082 finding the room's mark placed: With T3-026 it is one kind, the room seeing itself on the canvas; they stay two because one room made its mark and the other found it.
+- T3-175 adopting a sign others began: It is half of T3-068, taking another's sign; kept apart because nothing is placed over the sign.
+- T3-187 handing the work over: It is the other half of T3-101, leadership given up instead of taken; kept apart because the community, not a member, receives the work.
+- T3-005 defending the work against attackers: With T3-021 it could be one kind, holding the work; 126 rule 0 lines show readers keep two, the fight against an attacker and the upkeep that goes on with or without one.
+- T3-007 urging repair over retaliation: It is one room's kind (parahumans c0007 is a second room's concept, in a bag only); it could be half of T3-076, restraint toward others; kept apart because the restraint answers an attack suffered.
+- T3-008 messaging individual placers to stop: It could be half of T3-139, asking the damage to stop; kept apart because the addressee is one placer, reached one by one.
+- T3-021 watching and repairing the work: See T3-005: one kind of holding the work, kept two by the attacker in view.
+- T3-022 relocating after losing the spot: See T3-020: one kind of choosing a place, kept two by the loss that forces the second choice.
+- T3-139 pleading with attackers to stop: It could be half of T3-046, talk about covering others' work; kept apart because the speaker asks for their own work to be spared.
+- T3-058 blaming attackers after the close: It is half of T3-087 set later in time; kept apart because after the close nothing can be repaired and the talk turns to grievance.
+- T3-087 tracing who changed the work: It holds tracing damage and tracing a call's sender, which could be two; both ask who stands behind a change, and the second is rare.
+- T3-118 blaming moderators for a loss: It is half of T3-058 with another target; kept apart because the blamed are the room's own moderators or the site.
+- T3-121 excluding the room's own vandals: It could be half of T3-063, moderators enforcing order; kept apart because the sanction falls on a member, not a post.
+- T3-126 disputing who speaks for rooms: It could be half of T3-114 or of T3-188; B1d-01 drew the line with T3-188, and it stays apart from T3-114 by facing outward.
+- T3-170 mistaking friendly work for vandalism: It could be half of T3-087, the tracing that ends well; kept apart because the outcome, a friend found, changes what the room does next.
+- T3-188 disowning placers outside the plan: It was widened at B1d-01 from one room to seven, and the second pass met the doing again in many bags and outside voices; it could be half of T3-076 (restraint toward neighbours), kept apart because the room disowns the placers instead of restraining them.
+- T3-192 griefing the work for fun: It could be half of T3-006, defacing work; kept apart because the griefer serves no room's plan, often damaging their own room's work.
+- T3-027 arguing whether scripts are fair: It is half of T3-028, the talk around automation; kept apart because many rooms argued about scripts they never ran.
+- T3-028 running scripts for the work: See T3-027; it could also split into writing and running scripts, which would split one doing by role.
+- T3-088 placing beyond the pixel limit: It joins extra accounts and glitches, which could be two; both break the one-pixel limit, the rule every placer met.
+- T3-089 switching off stale scripts: It could be half of T3-028, the upkeep of scripts; kept apart because the room's own automation turned against its plan.
+- T3-108 sharing one bot target: It is half of T3-151 in kind, help between rooms, carried by a machine; kept apart because the pooled target binds rooms through their scripts.
+- T3-120 lending accounts to a bot: It could be half of T3-088, accounts beyond the limit; kept apart because the accounts serve someone else's bot.
+- T3-168 editing scripts to spare neighbours: It is half of T3-024 carried by a machine; kept apart because the restraint is coded, and B1b-08 found rooms whose scripts barred restraint (E843).
+- T3-176 planting disguised scripts on rivals: It is half of T3-006 by other means; kept apart because deception through the rival's own tool is the doing.
+- T3-006 calling to deface rivals' work: With T3-061 and T3-068 it is one family of attacks; the three are kept because destroying, taking space and converting leave different marks and readers can see which.
+- T3-061 pushing into a neighbour's space: See T3-006: one family of attacks, kept three by the mark left.
+- T3-067 trading away another room's work: It is one room's kind and could be half of T3-151; kept apart because a third room pays for the deal.
+- T3-068 converting a neighbour's art: See T3-006: one family of attacks, kept three by the mark left.
+- T3-128 relaying a streamer's attack call: It is half of T3-006 with an outside author; kept apart because the call comes from a streamer the room follows.
+- T3-178 brigading one person off Reddit: It could be half of T3-006, an attack; kept apart because the target is a person off the canvas.
+- T3-024 refusing to cover others' work: It is half of T3-010 in practice (69 bag lines keep T3-010); it stays its own because restraint without any agreement is common and readers can see whether a deal was made.
+- T3-039 yielding space when asked: See T3-123: the yielding half of one kind, kept two by which way the room went.
+- T3-040 apologizing to neighbours for damage: It is half of T3-010 in practice (68 bag lines); kept apart because an apology without any deal is common.
+- T3-046 arguing whether covering is fair: It is half of T3-024 and of T3-006 in subject; kept apart because the argument itself, with sides, is the doing.
+- T3-076 reining in the room's attackers: It could be half of T3-024, restraint; kept apart because an attack under way is stopped, which restraint before any attack does not show.
+- T3-102 defying the call for restraint: It is the other half of T3-076; kept apart because the member acts against the room's call.
+- T3-123 refusing to give up space: It is the refusing half of T3-039 (yielding space when a neighbour asks); kept two because a reader sees which way the room went.
+- T3-183 mourning art the room covered: It is half of T3-029 in mood and half of T3-040 in object; kept apart because the room grieves harm it did itself.
+- T3-010 settling borders with neighbours: It was split twice (B1b-06, B1b-19-p2) and is still the second-largest kind; it could split again by the deal's object (border, shift, overlap), which would split one doing by what it settles. A bag line may file under T3-010 what T3-194 or T3-150 holds (starcitizen t11).
+- T3-011 helping another room's work: It is half of T3-151, help between rooms; kept apart by the Fez t07 line, whether the help is owed.
+- T3-012 granting a neighbour room: It is the granting half of T3-035; kept apart because a reader sees which side speaks.
+- T3-035 asking a host for space: See T3-012: one exchange over space, kept two by the speaker's side.
+- T3-045 arguing who was there first: It could be half of T3-123, a claim to space; kept apart because the claim is priority and readers can see it argued.
+- T3-071 letting neighbours adopt the work: It is the giving side of T3-175; kept apart because the room gives its work away.
+- T3-084 asking other rooms for help: It is the asking half of T3-011; kept apart by the speaker's side.
+- T3-094 disputing who approves a spot: It is half of T3-162, the host's authority, seen from those who contest it; kept apart because the dispute is the doing.
+- T3-099 relying on a bigger neighbour: It is the protected half of a relation whose other half has no kind; a host-side kind was weighed and set aside because protection given reads as help or alliance in every case met.
+- T3-115 turning away another room's request: It is the refusing half of T3-011 and T3-012; kept apart because a reader sees the refusal.
+- T3-137 joining an outside group's build: It could be half of T3-011; kept apart because the member's work is no longer the room's.
+- T3-162 vetting others' requests to build: It could be half of T3-012 at a larger scale; kept apart because a host's standing rules govern many requests, which only canvas-born factions had.
+- T3-030 disputing how an alliance went: It is half of T3-195, the same agreements judged; kept apart because the dispute weighs the alliance rather than invoking it.
+- T3-047 making up with another sub: It could be half of T3-040, an apology between rooms; kept apart because the quarrel, not damage, is mended.
+- T3-083 negotiating across a language gap: It is thin and could be half of T3-153 or T3-194; kept apart because language is the obstacle named.
+- T3-119 turning attackers into helpers: It could be half of T3-040 and T3-011 together; kept apart because the helpers are the attackers.
+- T3-122 sending greetings to another room: It could be half of T3-072, warmth between rooms; kept apart because no help or alliance is thanked.
+- T3-138 staying neutral between two rooms: It could be half of T3-115, a refusal; kept apart because the room refuses a side, not a task.
+- T3-149 agreeing truces with rival rooms: It was split from T3-010 at B1b-06; it could merge back as deals between rooms, but a truce ends a fight, which a reader sees.
+- T3-150 forming alliances between rooms: It was split from T3-010 at B1b-06; with T3-151 it could be one kind of mutual help, kept two because an alliance binds rooms beyond one swap.
+- T3-151 bartering help with neighbours: See T3-011 and T3-150: the middle of three kinds of help between rooms, kept by whether the help is owed and whether it binds beyond the swap.
+- T3-161 mediating between other rooms: It is one room's kind and could be half of T3-194; kept apart because the go-between speaks for neither room.
+- T3-193 arguing whether cooperation is surrender: It could be half of T3-149, the truce argued over; kept apart because the argument is about the room's pride, not the terms.
+- T3-194 acting as envoys between rooms: It was split from T3-010 at B1b-19-p2; it could be half of T3-153, contact between rooms, kept apart because a member holds the room's voice.
+- T3-195 holding rooms to their agreements: It was split from T3-010 at B1b-19-p2; it could merge back into the deal kinds, but invoking a deal already made is a different act from making one.
+- T3-013 gathering kindred rooms together: It could be half of T3-090, a sub for the canvas; kept apart because the hub belongs to many rooms.
+- T3-019 tallying kindred rooms' works: It is thin and could be half of T3-018; kept apart because the count is of the room's own kind of community.
+- T3-056 making joint marks with others: With T3-079 it is one kind, the joint mark; they stay two because hearts between national flags are a distinct and common form.
+- T3-096 hailing the colour corners: It is half of T3-174, loyalty to a colour, voiced by outsiders; kept apart because the cheering room is not the faction.
+- T3-163 defecting from a rival faction: It could be half of T3-174, loyalty declared; kept apart because the declaration renounces another faction.
+- T3-171 spreading a faction's colour: It could be half of T3-061, taking space; kept apart because the colour itself is the work.
+- T3-172 renewing the order's oaths: With T3-173 it is one kind, a faction governing itself; they stay two because an election is a different act from laying down rules.
+- T3-173 holding elections for office: See T3-172.
+- T3-174 professing loyalty to a colour: See T3-096: loyalty to a colour, kept two by whether the speaker belongs.
+- T3-190 splitting a faction over doctrine: It could be half of T3-174, doctrine professed, turned to dispute; kept apart because the faction divides.
+- T3-065 building the homeland's flag: It could be half of T3-002, a call for hands, as it was before B1b-04; kept apart because the flag carries the land's own sign, which J asked to be named plainly.
+- T3-078 helping kin nations' flags: It is half of T3-011 in kind, help sent; kept apart because the help follows a national kinship the rooms name.
+- T3-079 joining flags with a heart: See T3-056: the joint mark, kept two by this common national form.
+- T3-085 weighing the room against nations: It is thin and could be half of T3-037, judging the canvas; kept apart because nations are the measure.
+- T3-113 drawing national emblems: It could be half of T3-041, more pieces; kept apart because the pieces are the nation's own signs.
+- T3-145 feeling national through the canvas: It is half of T3-009 in mood; kept apart because the feeling is for the nation, which J asked to keep visible.
+- T3-165 debating friendship with historic enemies: It could be half of T3-130, national politics read into the canvas; kept apart because one historic enmity is weighed against canvas friendship.
+- T3-180 disputing national belonging: It could be half of T3-126 at the scale of a nation; kept apart because the nation, not the room, is contested.
+- T3-080 arguing over political symbols: It could be half of T3-179, politics argued from the canvas; kept apart because a particular symbol on the canvas is the object.
+- T3-081 casting fights as national history: It could be half of T3-050, banter between rivals; kept apart because a nation's real history is invoked, which J asked to keep plain.
+- T3-086 carrying in the sub's quarrel: It could be half of T3-050; kept apart because the quarrel belongs to the community's own life before the canvas.
+- T3-130 reading national politics in pixels: It could be half of T3-081 or T3-080; kept apart because present-day national politics, not history or one symbol, is read in.
+- T3-142 making ethnic jokes about rivals: It is half of T3-050 in form; kept apart because the target is a people, which J asked to name plainly.
+- T3-146 covering swastikas and hate symbols: It could be half of T3-021, repair; kept apart because hate symbols carry a meaning rooms answered as such.
+- T3-166 arguing the nation's historical record: It is one room's kind and could be half of T3-130; kept apart because history, not present politics, is argued.
+- T3-177 calling to draw swastikas: It could be half of T3-006 or T3-192; kept apart because the hate symbol is the point, as J asked to name plainly.
+- T3-179 arguing ideology from the canvas: See T3-080: politics argued from the canvas, kept two by the object.
+- T3-182 shutting down bigotry in chat: It could be half of T3-121 or T3-063; kept apart because bigotry, not damage or post rules, is answered.
+- T3-025 placing rival marks together: It is one room's kind and could be half of T3-056 or T3-149; kept apart because the rivalry itself is displayed without a fight.
+- T3-050 trading taunts with rivals: It is the common form of rivalry talk; T3-142, T3-155 and T3-134 are cut from it by target, moment and form.
+- T3-134 flooding rivals' threads with chants: It could be half of T3-050; kept apart because the flood of one chant is a raid's form.
+- T3-135 telling clashes as fandom lore: With T3-081 it is one kind, a fight retold in borrowed story; kept two because national history and fiction are different stores readers can tell apart.
+- T3-143 judging whether a joke offends: It could be half of T3-182, answering offence; kept apart because the offence is argued, not shut down.
+- T3-154 claiming victory over rival rooms: It is half of T3-009 in mood; kept apart because a rival is beaten in the telling.
+- T3-155 saluting rivals after the fight: It could be half of T3-122, warm words between rooms; kept apart because the warmth closes a fight.
+- T3-016 explaining what the canvas is: It could be two, asking and explaining; kept one because the question and its answer are one exchange about the event.
+- T3-018 decoding the finished picture's details: It could be half of T3-052, both looking at pictures; kept apart because T3-018 works out meaning and T3-052 only notices.
+- T3-031 playing the room's in-jokes: It is large and could be two: jokes about the canvas and the room's old memes brought onto it. Kept one because both are the room's humour played in canvas talk, and the line between them is degree. Offensive joking was weighed as a kind of its own and kept here; arguing over it is T3-143.
+- T3-037 arguing the canvas's worth: It could be two, dismissing and defending; kept one because the two sides answer each other in one argument.
+- T3-052 remarking on neighbouring pictures: It could be half of T3-018; kept apart because noticing a neighbour and decoding a detail are different acts a reader can tell apart.
+- T3-057 remaking canvas art elsewhere: It could be half of T3-105, both carrying the work past the close; kept apart because a remake changes the medium and a record does not.
+- T3-112 entering the work in atlases: It could be half of T3-105, preserving the work; kept apart because the atlas is a shared record outside the room.
+- T3-127 seeking the creators' notice: It could be half of T3-147, both seeking outside notice; kept apart because the creators are the room's own subject and the press is not.
+- T3-131 arguing over selling canvas art: It could be half of T3-159, money around the work; kept apart because selling the shared work to its makers raises ownership and prizes do not.
+- T3-147 sharing the work's press coverage: It could be half of T3-127; kept apart because the press is outside the fandom.
+- T3-009 celebrating the finished work: It is the largest theme. The argument that it is two: announcing completion and taking pride are different acts. Kept one because they come in the same posts about the same finished work; the four kinds that were inside it (T3-154, T3-155, T3-156, T3-157) were split out at B1b-06, and the PI kept the rest whole at B1b-20.
+- T3-029 mourning the lost work: It could be half of T3-117, grief at the end; kept apart because one grieves a work and the other the event.
+- T3-043 crediting who made the work: It could be half of T3-009, which it sits beside in 75 rule 0 lines; kept apart because credit names people and celebration names the work.
+- T3-054 carrying work to new canvases: It could be two, going on and declining; kept one because both answer the same question about a later canvas, as the head asked.
+- T3-072 thanking the room's allies: It holds two acts, thanking and telling; kept one because the story is told in order to thank. It could be half of T3-043; kept apart because the thanked are another room.
+- T3-073 reporting how the work fared: It could be two, live reports and later accounts; kept one because both tell the work's fortunes and the line is only the hour.
+- T3-105 saving screenshots and timelapses: It could be half of T3-057 or T3-112; kept apart because it keeps the work as it was, in the room's own hands.
+- T3-111 repurposing the canvas sub: It could be half of T3-054, both about what comes after; kept apart because one is about a sub and the other about a canvas.
+- T3-117 marking the canvas's end: It could be half of T3-029; kept apart because the event ends for every room alike.
+- T3-148 imagining art the canvas missed: It could be half of T3-029; kept apart because it imagines rather than grieves.
+- T3-156 adopting the mark as emblem: It came out of T3-009 at B1b-06; it could be half of T3-105; kept apart because the mark becomes part of the sub.
+- T3-157 reflecting on working together: It came out of T3-009 at B1b-06 and could be half of it again; kept apart because it says what the effort meant, not that it succeeded.
+- T3-158 proposing ties beyond the canvas: It could be half of T3-072; kept apart because it looks past the canvas.
+- T3-164 feeling supported through the canvas: It could be half of T3-157; kept apart because the support is felt by a group that needs to be seen.
+- T3-186 celebrating the feat in person: It is one room's kind and could be half of T3-009; kept apart because it takes the celebration offline.
+
+### The close-check, B1e
+
+`saturation.py report --stage B1` was rerun at the close and rewrote `stopping-B1.md` (384 lines); the decision file was not touched. `validate.py B1` reported, in full:
+
+```
+stage B1:
+  scheme_current: 197 themes over 7786 placed second-order themes (13432 members)
+  theme_discovery: 197 themes minted
+  saturation B1: end; 705 of 705 rooms read (100.0% of the words); kinds 202, coverage 0.9985, unseen 20.03; rounds 20, markers 1,2,3
+  pass 2 (B1d): met; chosen rooms read 108 of 108; rooms read in this pass 108; since its last new third-order theme 108 rooms and 148.1 average rooms, against 78 rooms and 72.1 average rooms (marker 1's empty run (72.1 average rooms, 78 rooms; floor 30 rooms))
+  episodes seen twice: 1341
+  scheme ships 197 themes in 21 families (14 rare)
+  tier_history: 252 lines
+
+warn   scheme_current.jsonl: second-order theme 2007scape/Arguing over the pixels that make the meme right is under 3 third-order themes (T3-004, T3-008, T3-031); rule 0 is single placement, a second one on the record with its why_not_one  [200 lines with this shape; first: 2007scape/Arguing over the pixels that make the meme right]
+warn   scheme.jsonl T3-053 carries 2 exemplar(s); section 3 asks for three, each through `cite.py --room <sub> --code <id>`  [10 lines with this shape; first: T3-053]
+warn   scheme.jsonl T3-128 is tier rare yet holds members from 3 rooms; say why it is not main
+
+0 errors (0 distinct shapes), 211 warnings
+```
+
+The 200 warnings of the first shape are the record of rule 0: second-order themes under two or three kinds, each with its line in `multiplacement_log.jsonl`. The 10 of the second shape are the themes with fewer than three exemplars, named above. T3-128 is rare because its three rooms tell one episode (E1132).
+
+**Ledgers at the close.**
+- `scheme_current.jsonl`: 197 themes over 7,786 placed second-order themes, 13,432 placements;
+- `scheme.jsonl`: 197 (183 main, 14 rare); `families.jsonl`: 21; `confusions.md`: 57 lines; `findings.jsonl`: 1;
+- `theme_discovery.jsonl`: 197; `ideas-B1.jsonl`: 214; `kinds-B1.jsonl`: 13,657;
+- `multiplacement_log.jsonl`: 6,663; `tier_history.jsonl`: 252; `unplaced-B1.jsonl`: 58; `episodes-B1.jsonl`: 1,341;
+- `pass2-B1.jsonl`: 108; `pass2-chosen-B1.txt`: 108 rooms (125 lines);
+- `saturation-B1.md`: 211 lines; `stopping-B1.md`: 384 lines;
+- `handback-B1.md`: 896 words; `out/interview/B1e.md`: 698 words; `_head.md`: 2,281 words.
