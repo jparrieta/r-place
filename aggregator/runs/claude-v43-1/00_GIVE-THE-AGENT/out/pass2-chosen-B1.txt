@@ -1,0 +1,125 @@
+# pass2-chosen-B1.txt, written at leg B1d-01, 2026-10-11, before the first room of the second pass.
+# One room a line; '#' starts a comment. Rooms are read in the seeded order (saturation.py order --stage B1),
+# not in the order below. Rooms are added as more are found, never taken off.
+#
+# Group 1. The rooms the saturation test (B1c) found not fitting: every room with a gate that fails,
+# named in saturation-B1.md (20). ik_ihe is left out: its only verdict other than fits was a bare pointer.
+rainbowgrid
+stardustcrusaders
+kurdistan
+france
+vinesauce
+oman
+mexico
+gatech
+PlaceNL
+ubc
+DevonUK
+glasgow
+wholesomememes
+cardinals
+Fez
+sakuragakuin
+math
+scp
+ChronoTrigger
+hellointernet
+#
+# Group 2. The rooms with the most hesitations in the log: out/_analysis/b1d_hesitations.py ranks rooms
+# by kinds named after "For B1d" in their notes, words of doubt, and ideas never minted (twice). The top 20,
+# with the ties at the 20th room's score (10) kept: 24 rooms. PlaceNL is already in group 1.
+theblackvoid
+loltyler1
+TheFarLeftSide
+israel
+reddevils
+ireland
+ucf
+earthbound
+thesilphroad
+CKCrusaders
+philippines
+prequelmemes
+detroitredwings
+heroesofthestorm
+homestuck
+runescape
+unitedkingdom
+Slovakia
+hawks
+lsu
+parahumans
+rocketbeans
+starcitizen
+#
+# Group 3. The contrary rooms. contrast.md lists the contrast's two sides, not contrary rooms. The run's
+# contrary rooms were named in the A1 heads by block and tagged "contrary room" in the log as each was read
+# (out/_mem_reads-A1.jsonl and out/_mem_reads-B1.jsonl, through B1b-22): 66 tagged rooms, and morrowind and
+# Summit1G, which the head names and which were read before the tagging began: 68 rooms. ubc, wholesomememes
+# and Fez are already in group 1, so 65 are listed here. The list holds 108 rooms in all. Rooms read in B1b-01 to B1b-04 or after B1b-22 carry no tag in the log; the A1
+# heads' full lists are not on disk in a readable form, so the group may be short of the A1 list.
+AprilKnights
+GreenEmpire
+Okami
+PinkVomitMonster
+Redox
+SwissNeutralityZone
+Thegreatblackhole
+UNLincoln
+aeskwadraat
+ainbowroad
+anarcho_capitalism
+anime
+aoe2
+azerbaijan
+azores
+bobross
+brasil
+canucks
+cfb
+cirkeltrek
+danganronpa
+dankmemes
+dota2
+duckgame
+egypt
+evedreddit
+falcons
+finland
+flashtv
+furry_irl
+heyyea
+homelab
+ibo
+kanye
+korea
+kpop
+lego
+magictcg
+mariokart
+masseffect
+megaman
+nVade
+ontario
+orderofthebluecorner
+pcmasterrace
+placehfarts
+placestart
+popheads
+qotsa
+rotmg
+rust
+stardewvalley
+starryknights
+totallynotrobots
+ubreddit
+ukplace
+utaustin
+warthunder
+wine
+theitalyplace
+tenma
+placehearts
+FloydVsVoid
+morrowind
+Summit1G

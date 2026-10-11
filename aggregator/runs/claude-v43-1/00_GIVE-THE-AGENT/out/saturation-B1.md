@@ -103,4 +103,25 @@ The rule names every room with a verdict other than fits. The rooms with a gate 
 
 ## B1d, the second pass
 
-Not begun.
+### The chosen list and the rule
+
+`out/pass2-chosen-B1.txt` was written at B1d-01 before the first room was reread. It holds 108 rooms in three groups:
+- the 20 rooms with a gate that failed at B1c;
+- 23 more rooms with the most hesitations in the log (`out/_analysis/b1d_hesitations.py`: the top 20 by score, with ties at the twentieth score kept, 24 rooms, PlaceNL already in the first group);
+- 65 more contrary rooms. These are the 66 rooms tagged "contrary room" in the B1 log through B1b-22, plus morrowind and Summit1G from the head; ubc, wholesomememes and Fez are already in the first group. `contrast.md` lists the contrast's two sides, not the contrary rooms, so this group may be short of the A1 heads' lists.
+
+The rooms are read in the seeded order (`saturation.py order --stage B1`). Each room gets its A1 note, every second-order theme with every concept's words, and its forest whole. `mem.py reread` records each room in `pass2-B1.jsonl`. The pass stops when two things hold (J, 2026-10-07). Every chosen room has been read. The run since this pass's last new kind has reached marker 1's empty run, 78 rooms and 72.1 average rooms, and at least 30 rooms.
+
+### The stretches
+
+The next table gives each stretch, its new kinds and the run after it, from `saturation.py pass2 --stage B1`.
+
+| Stretch | Leg | Orders | Rooms | Codes and themes | New kinds | Run after the stretch |
+|---|---|---|---|---|---|---|
+| 1 | B1d-01 | 47 (morrowind) to 184 (egypt) | 21 | about 974,000 bytes | 0 | 21 rooms, 21.4 average rooms |
+
+Stretch 1 rooms, in order: morrowind, Summit1G, popheads, homelab, qotsa, aeskwadraat, falcons, canucks, cirkeltrek, kurdistan, theitalyplace, PinkVomitMonster, ubc, bobross, pcmasterrace, mariokart, rust, gatech, AprilKnights, flashtv, egypt. After it, 21 of the 108 chosen rooms are read. The next room is totallynotrobots.
+
+Stretch 1 minted nothing, split nothing and merged nothing. It logged 28 place events into existing kinds (`kinds-B1.jsonl`) and 9 unplacements, so placements rose by 19, from 13,440 to 13,459. Most of the new placements are second or third kinds under rule 0. Four of the events and four of the unplacements belong to two moves that were reverted the same leg (popheads t04, mariokart t02; see `notes-B1.md`). It also wrote 23 rule 0 lines and 1 bag (theitalyplace t08) and 9 `tier_history.jsonl` lines. One kind was widened. T3-188 (disowning rogue offshoots of the work) had held one theme. It now holds 6 themes in 6 rooms: ainbowroad, cirkeltrek, polska, PlaceNL, denmark and gatech. This is the doing the B1c idea "conceding placers ignore the plan" named: an organised room tells others it does not control the placers acting in its name. At B1e its label is to become "separating the plan from placers it cannot control". The stretch did not meet the other three B1c ideas: reporting the live canvas, gathering lone placers together, and planning the room's pixel operations.
+
+The gates that failed at B1c in kurdistan t02, ubc t09 and gatech t07 need B1e work, not new kinds. kurdistan t02 needs a discriminator between T3-068, T3-061 and T3-006. ubc t09 and gatech t07 need the label changes already listed for T3-117 and T3-115.

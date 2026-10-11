@@ -2148,3 +2148,97 @@ No compaction happened in this leg.
 - `unplaced-B1.jsonl`: 58;
 - `episodes-B1.jsonl`: 1,341;
 - `saturation-B1.md`: 106 lines.
+
+## Leg B1d-01, the second pass's first stretch, 2026-10-11
+
+**The chosen list.** `out/pass2-chosen-B1.txt` was written before the first room was reread: 108 rooms, one a line, with `#` comments.
+- Group 1: the 20 rooms the B1c test found with a gate that fails, as named in `saturation-B1.md`.
+- Group 2: the rooms with the most hesitations. `out/_analysis/b1d_hesitations.py` scores each room from the text of its notes in `out/_mem_reads-B1.jsonl`. The score adds three things: the T3 ids named after "For B1d", the words of doubt, and twice the ideas triggered in the room that were never minted. The top 20, with the ties at the twentieth score (10) kept, are 24 rooms. PlaceNL is in group 1 already, so 23 are listed. The "For B1d" lists began only in the later B1b legs, so the score leans toward rooms read late.
+- Group 3: the contrary rooms. `contrast.md` lists the contrast's two sides, not contrary rooms, and the A1 heads' full lists are not on disk in a readable form. The group is the 66 rooms tagged "contrary room" in `_mem_reads-A1.jsonl` and `_mem_reads-B1.jsonl` through B1b-22, plus morrowind and Summit1G from the head: 68 rooms, 65 beyond group 1. It may be short of the A1 heads' lists.
+
+**The stretch.** It was declared when the leg opened. It covers the chosen rooms in the seeded order from order 47 (morrowind) to order 184 (egypt): 21 rooms, about 974,000 bytes of codes and second-order themes and 707,000 of forest (`out/_analysis/b1d_stretch_sizes.py`). Each room got five steps:
+1. its forest opening logged;
+2. its A1 note read;
+3. every theme read with every concept's words (`b1_room.py --words`);
+4. the forest read whole;
+5. the changes made, then the room note logged and `mem.py reread` run.
+
+All 21 rooms were read, in diary parts B1-162 to B1-165.
+
+**Placement changes.** There was no mint, split or merge and no new kind, so the run is not reset. The leg logged 28 place events and 9 unplacements, and placements went from 13,440 to 13,459. The 23 rule 0 lines and 1 bag were written with `b1_multiplace_write4.py` and `b1_bags_from_file2.py`, from `out/_analysis/b1_multiplace_b1d01.psv` and `b1d01_bags_theitalyplace.txt`. The kinds added, by room:
+- Summit1G: t01 T3-002 and T3-009 beside T3-021; t04 T3-123 beside T3-010.
+- popheads: t18 moved from T3-002 to T3-169.
+- cirkeltrek: t08 T3-188 beside T3-010.
+- polska: t10 moved from T3-125 and T3-126 to T3-188, kept with T3-087.
+- PlaceNL: t11 moved from T3-126 and T3-087 to T3-188, kept with T3-049.
+- denmark: t13 T3-188 beside T3-126.
+- kurdistan: t02 T3-006 beside T3-068 and T3-130; t03 T3-024 beside T3-010 and T3-132.
+- theitalyplace: t01 T3-069 beside T3-005; t09 T3-050 beside T3-081; t08 bagged under T3-087 with T3-188, T3-170, T3-126 and T3-195.
+- PinkVomitMonster: t03 T3-061 beside T3-060 and T3-125; t04 T3-076 and T3-195 beside T3-010.
+- ubc: t01 T3-033 beside T3-002 and T3-070; t06 T3-024 and T3-045 beside T3-010.
+- pcmasterrace: t04 T3-048; t05 T3-177; t11 T3-182; t12 T3-192.
+- gatech: t03 T3-188 and T3-195 beside T3-010.
+
+The other 12 stretch rooms are unchanged: morrowind, homelab, qotsa, aeskwadraat, falcons, canucks, bobross, mariokart, rust, AprilKnights, flashtv and egypt. mariokart's one move was reverted (below). polska, PlaceNL and denmark lie outside the stretch and changed only through the T3-188 move.
+
+**The moves, with 9 `tier_history.jsonl` lines.**
+- T3-188 rescoped. It held ainbowroad t10 alone. cirkeltrek c0306 prompted the move: "We have no control over our people so this can probably not be stopped." The kind now holds the doing the B1c idea "conceding placers ignore the plan" named. Members_changed lines record T3-125 and T3-126 (polska t10, PlaceNL t11) and T3-087 (PlaceNL t11, dropping). T3-188 now holds 6 themes in 6 rooms. Its label at B1e: "separating the plan from placers it cannot control". A mint was weighed and set aside, because the road disowning its rogue shards is the same doing.
+- popheads t18 moved from T3-002 to T3-169.
+- popheads t04 and mariokart t02 moved from T3-095 to T3-001 and then back: four lines. See the faults below.
+
+**The B1c ideas and gates.**
+- "Conceding placers ignore the plan" was met in cirkeltrek, polska, PlaceNL, denmark and gatech, and in theitalyplace t08's bag. Widening T3-188 settled it, with no mint. A second side shows in gatech and theitalyplace: neighbours tell the room that their own placers are beyond their control. A third shows in PinkVomitMonster c0005: a room says another room's placers do not know that room's agreement. That one is placed in T3-195.
+- This stretch did not meet "reporting the live canvas", "gathering lone placers together" or "planning the room's pixel operations". morrowind c0086 and c0087 were too thin.
+- kurdistan t02 needs a discriminator at B1e. T3-068 is turning the other's work into the room's own mark. T3-006 is calling to deface without making one's own. T3-061 is pushing into space without converting. T3-130 carries the national choice of target.
+- ubc t09 and gatech t07 need the B1e label changes already listed for T3-117 and T3-115. gatech t04 needs a discriminator between T3-120 and T3-088.
+
+**Gate notes added this leg, for B1e.**
+- T3-041: its 194 members show its use is adding pieces to the work or enlarging it. The label "trying a bigger second piece" is narrower than that.
+- T3-063 holds every moderators' removal of posts about the event, April Fools posts and insults included (homelab t04 and t11).
+- T3-087 holds tracing who sent a Discord ping (homelab t05). Its label is about pixels.
+- T3-027 holds a rumour that bots defend pieces (morrowind t13).
+- Registering the end of the canvas is spread over T3-016, T3-073 and T3-117; aeskwadraat t02 is one more case.
+- T3-095: the B1b-20 test is whether the theme staged the claim. The head's wording is corrected at this close.
+- T3-182 now holds a moderator refusing to link the room's name with fascism (pcmasterrace t11).
+- Some bags lack kinds this reread found: T3-168 and T3-039 in rust t11; T3-005 and T3-011 in kurdistan t04; T3-126 and T3-076 in theitalyplace t02; T3-011 in theitalyplace t11. `b1_multiplace_write4.py` writes one bag per room, theme and kept kind, so these kinds are recorded only in the diary room notes.
+
+**What the second-order themes showed that the notes did not predict.** The second pass changed second and third kinds, not primaries. Reading the forests whole found concepts of their own that the first pass had folded into one kind: a member's scruple inside a deal, a company's joke inside the room's prank theme, a swastika inside a recruiting theme. In 21 rooms no concept needed a new kind. In 8 contrary rooms the room note says the forest bore out the A1 note: Summit1G, popheads, homelab, canucks, cirkeltrek, bobross, mariokart and egypt.
+
+**National and political content.** It was read and placed plainly:
+- cirkeltrek: annexation calls on Greece, Armenia, Turkey, Croatia, Czechia and Indonesia; the Armenian genocide invoked; MH17 proposed for the Russian flag; slurs for Greeks and Germans; the VOC.
+- kurdistan: the Turkish flag chosen as a target; the statement to register Turkmen nationalists and ban their flags; the PKK, YPG and Rojava flags.
+- theitalyplace: the war and pacts with r/TheFarLeftSide; "DESTROY ALL MUSSOLINIS"; whether a tricolour and a legionary are fascist apology, argued against partisan resistance; the Savoy crest; Caporetto, the Piave and General Diaz; the Vatican flag refused.
+- pcmasterrace: the room's logo turned into a swastika several times; a member who helped and called it "a symbol of peace"; members covering it; moderators refusing any link between the room's name and fascism; the Kekistan flag in the canvas reuse.
+- canucks: the thread about Jews planning to steal the logo, with "final solution" and Homeland jokes, and a Jewish member reassured.
+- falcons: the Eagles' plea to replace a Nazi flag.
+- flashtv: r/TheFarLeftSide's protectorate for a red and yellow logo; "white conspirators".
+- egypt: "All the other countries are doing it"; a wish for another world war; a quotation mocking national pride, set against the Palestinian appeal.
+- PinkVomitMonster: a swastika covered with pink; "BASH THE BLUE FASCISTS".
+- rust: r/drumcorps calling the room's art "far-right red and black art".
+
+Nothing was left out or softened.
+
+**Corrections and faults in the process.**
+- The permission check refused a jq template chained with grep. I wrote `b1d_hesitations.py` instead.
+- Two prints went over the shell's 30 KB and were saved under CONTROL, which is read-denied: falcons, and pcmasterrace's themes t07 to t09. Both were printed again in smaller parts.
+- A compaction happened during cirkeltrek. After it, one call ran before the head and the stage file were read again. That call logged the cirkeltrek room note, ran `mem.py reread cirkeltrek`, logged kurdistan's opening and printed kurdistan's theme heads and forest. The guard did not refuse it. I then read the head, the stage file and the last five diary entries, and logged "compacted; head reconciled" in a call of its own.
+- I moved popheads t04 and mariokart t02 from T3-095 to T3-001, following the head's wording of the April Fools rule. The B1b-20 tier_history line, the record of the PI's review, states the test as whether the theme staged the claim. It names a moderators' announcement as a claim the theme did not stage, and it kept both themes in T3-095. Both moves were reverted in the same leg, with tier lines. The popheads room note's suggestion, that earlier rooms' T3-095 themes go to T3-001, is withdrawn.
+- The gatech room note said T3-188 had members in seven rooms. It has six. A note corrected it.
+- The leg did not check episode joins for the reread rooms.
+
+**Helpers written this leg.** `b1d_hesitations.py`, `b1d_stretch_sizes.py` and `b1d_tier_rescope.py`, all in `out/_analysis/`, logged with `--kind helper` when the leg opened.
+
+**The stopping rule.** `saturation.py report --stage B1` was rerun at the close and rewrote `stopping-B1.md` (297 lines); the decision file was not touched. `saturation.py pass2 --stage B1`: 21 of 108 chosen rooms read; run since this pass's last new kind 21 rooms and 21.4 average rooms, against 78 rooms and 72.1 average rooms. Next room: totallynotrobots.
+
+**Close-check figures.** `validate.py B1`: 0 errors, 200 warnings (the capped figure). Ledgers:
+- `scheme_current.jsonl`: 197 themes over 7,786 placed second-order themes, 13,459 placements;
+- `theme_discovery.jsonl`: 197;
+- `ideas-B1.jsonl`: 214;
+- `kinds-B1.jsonl`: 13,644;
+- `multiplacement_log.jsonl`: 6,636;
+- `tier_history.jsonl`: 83;
+- `unplaced-B1.jsonl`: 58;
+- `episodes-B1.jsonl`: 1,341;
+- `pass2-B1.jsonl`: 21;
+- `pass2-chosen-B1.txt`: 108 rooms (125 lines);
+- `saturation-B1.md`: 127 lines.

@@ -61,3 +61,5 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 - b1_shared_counts.py (B1b-26): counts members shared between rooms (for episode joins).
 - b1_shared_detail.py (B1b-27): prints the codes of members who write in two rooms, sorted by hour.
 - b1_multiplace_write4.py, b1_bags_from_file2.py (B1b-29, 41c76ff5): rule 0 and bag writes check only rows not yet in the log, one mem.py codes call per room; write3 called mem.py once per row of the leg's whole table and grew from 0.1 to 8.5 min a run within a leg. Written after J's word (2026-10-10 22:09 Berlin).
+- b1c_sample.py (B1c, f8945bbb): seeded B1c sample draw / fresh-against-record totals.
+- b1c_totals.py (B1c, f8945bbb): seeded B1c sample draw / fresh-against-record totals.

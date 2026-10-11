@@ -1,0 +1,43 @@
+{
+ "t": "2026-10-11T08:07:18+00:00",
+ "stage": "B1",
+ "leg": "B1d-01",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "tenma",
+   "GreenEmpire",
+   "orderofthebluecorner"
+  ],
+  "changed": [
+   "T3-001",
+   "T3-002",
+   "T3-087",
+   "T3-095",
+   "T3-125",
+   "T3-126",
+   "T3-188"
+  ],
+  "next": "totallynotrobots. Written in saturation-B1.md, section 'B1d, the second pass'."
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "missing"
+ },
+ "scored": 4,
+ "unscored": [
+  "open"
+ ],
+ "misses": [
+  "goal",
+  "rooms",
+  "changed",
+  "next"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
