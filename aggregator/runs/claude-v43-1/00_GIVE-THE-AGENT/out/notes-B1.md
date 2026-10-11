@@ -2067,3 +2067,84 @@ Ties told by one room only, not episodes, are named in each room's note in the d
 **B1b is done.** The walk reached the list's end under the PI's decision, finish: every room of the census was read in the order `mem.py next --stage B1` gave, and no new kind came in after T3-197 (B1b-30-p2). Next is B1c, the saturation test: a seeded sample of the rooms read, read again at the concept level holding only `scheme --brief` and the gates, with its seed and rule written here first.
 
 **Close-check figures.** `validate.py B1`: 0 errors, 200 warnings (the capped figure). `b1_check_bags.py B1b-32`: 3 bags, 0 problems. `b1_episode_theme_check.py 1333 1342`: 0 kinds held by no listed room. `b1_episode_read_check.py` over the 705 read rooms: 0 lines naming an unread room, whole file. `b1_leg_figures.py B1b-32`: 6 rooms, 131 placement events, 66 rule 0 lines, 3 bags, 10 episode lines written and 14 edited. `episodes-B1.jsonl` 1,341 lines, E001 to E1342, E460 absent. No helper was written this leg.
+
+## Leg B1c, the saturation test, 2026-10-11
+
+**The seed and the rule, written before the draw.**
+
+- **The seed.** The run's B1 seed in `out/seed.txt` (cd472a6087a223d4, the sha256 of the store's `rooms.jsonl`, frozen at B1's first draw), with the tag "B1c". The order is the 705 read rooms sorted by name and shuffled by `random.Random("cd472a6087a223d4:B1c")`, the function `saturation.py` uses for B1's order and its draw (`shuffled`). No one chooses it, and it is not printed before this rule is written.
+- **The size.** Rooms are taken from the head of that order until both hold: at least 30 rooms, and at least 300 second-order themes. Thirty is the design's own floor for a run (the second pass's minimum, J 2026-10-07). 300 themes is about 4% of the census's 7,844, near thirty rooms at the census mean of 11.1 themes a room. No room is skipped for its size; a room drawn is read whole.
+- **What I hold.** Only `mem.py scheme --brief`, the 197 labels. The kinds have no written gates yet; B1e writes them. So the labels are the gates this test holds, and a label that cannot decide counts as a gate that fails. During the reading I open no A1 note, no diary room note, no episode line and no earlier placement.
+- **The reading.** Each room printed with its second-order themes, their notes and every concept's label, hour and first 90 characters of words (`b1_room.py <sub> --words`), with the recorded placements filtered out, read whole in parts under 30 KB.
+- **A fresh placement per second-order theme.** The kind whose label takes the theme best; a second or third only where a concept of its own needs it (rule 0). Then one or more verdicts:
+  - fits: a label takes the theme and every concept under it;
+  - new kind: a concept or the theme does something no label names, counted by concept with its id;
+  - split: a label takes the theme, but the theme shows the kind holds two doings a stranger would tell apart;
+  - gate fails: two or more labels take the theme and nothing in them decides, or the label that takes it misdescribes it.
+- **The comparison, after the room's fresh placements are written.** Against the recorded placements in `scheme_current.jsonl`: the fresh primary among the recorded kinds or not, and each disagreement read for whether the labels cannot decide (a gate that fails) or one reading slipped (named, not counted as a failure of the scheme).
+- **The test changes nothing in the scheme.** No mint, place or unplace. A candidate new kind is logged with `mem.py idea` when first seen. The rooms with any verdict other than fits are named in `saturation-B1.md` for the second pass's chosen list.
+- **The record.** `out/_analysis/b1c_fresh.psv`, one line per second-order theme (`sub|theme_id|fresh_primary|fresh_additional|verdict|codes|why`); each room's comparison in its diary note; the count in `saturation-B1.md`, beside new kinds per hundred second-order themes read in the first pass. That rate is computed by room: the rooms in the order the first pass read them (the first placement event of each room in `kinds-B1.jsonl`), each room's second-order themes from the store, and each mint in `theme_discovery.jsonl` set at the end of its room. The `themes_read` field of `theme_discovery.jsonl` counts reads with repeats (14,197 at the last mint, against 7,844 themes), so it is not used.
+
+**The sample.** `b1c_sample.py` drew 30 rooms, 317 second-order themes, 3,891 concepts and 24.8 average rooms of words. In draw order: rainbowgrid, stardustcrusaders, kamenrider, ik_ihe, kurdistan, poland, france, vinesauce, oman, mexico, gatech, PlaceNL, VelvetUnderground, ubc, DevonUK, glasgow, wholesomememes, cardinals, picturegame, radiohead, sixers, Fez, sakuragakuin, math, scp, foxes, drawhelix, ChronoTrigger, TeamDignitas, hellointernet. Each was read whole in that order, with the placements filtered out of the print, and logged in the diary room by room (parts B1-160 to B1-162).
+
+**The count** (full report in `saturation-B1.md`). Fresh verdicts: 299 fit, 15 gate fails, 3 bare (each also unplaced in the record). No concept or theme needed a new kind, and no kind needed a split. Judging the disagreements with the record added 20 more gate failures. That makes 35 of 317 themes (11.0%), in 20 rooms, where a label cannot decide or says too little:
+- 15 where two labels both take the theme;
+- 5 where a label is narrower than its use (T3-065, T3-115, T3-063, T3-048, T3-088);
+- 15 where no single label names the theme's doing, 10 doings in all.
+
+Four of those doings were logged as ideas at the count (`ideas-B1.jsonl` 211 to 214) for the second pass to test. Against the record, of 313 themes placed in both readings: same primary 84.0%, fresh primary among the recorded kinds 89.8%, a shared kind 94.9%. 165 of the 565 recorded placements have no match in the fresh reading.
+
+**What the second-order themes showed that the notes did not predict.** The kinds held and the labels did not. A reader holding only the labels found a kind for every concept in 30 rooms. Yet one theme in nine met two labels that both fit, or a label too narrow for its use. The disagreements cluster in a few pairs:
+- T3-003 and T3-038 (one's own labour and building);
+- T3-074 and T3-136 (few hands);
+- T3-037 and T3-098 (scorning the canvas);
+- T3-044 and T3-082 (the mark drawing outsiders);
+- T3-010 with T3-149 and T3-151 (deals, truces and barters).
+
+The end of the canvas is told in five rooms. No label holds it, and the record scattered those themes over three kinds. Second and third kinds differ between readings far more than primaries do.
+
+**Gate notes added this leg, for B1e.**
+- T3-117 should take registering the end of the canvas and hoping it returns, as well as mourning it.
+- T3-065 should take regional and county flags, or name a sister kind.
+- T3-115 should say any other room's request, not only a rival fandom's.
+- T3-063 should say posts about the event, April Fools included, not only canvas posts.
+- T3-048 should say a company's, organisation's or creator's own joke.
+- T3-088 should say placing beyond the limit by any means.
+- T3-041 should say whether enlarging the room's own mark belongs there.
+- T3-132 should say a rival watching from inside, not only a Discord.
+- Each overlapping pair above needs a discriminator written from both sides.
+
+**For B1d.** The rooms with a gate that fails are named in `saturation-B1.md` for the chosen list: rainbowgrid, stardustcrusaders, kurdistan, france, vinesauce, oman, mexico, gatech, PlaceNL, ubc, DevonUK, glasgow, wholesomememes, cardinals, Fez, sakuragakuin, math, scp, ChronoTrigger and hellointernet. The four ideas wait to be tested there: reporting the live canvas, conceding placers ignore the plan, gathering lone placers together, and planning the room's pixel operations. Writing `pass2-chosen-B1.txt` is B1d's first step and was not done here.
+
+**National and political content.** It was read and placed plainly in the fresh reading as in the first:
+- the Kurdish, YPG, PKK and Rojava flags, Turkmen nationalists, and Italian attackers called fascists (kurdistan);
+- partition, the Winged Hussars, and Pan-Slavism as Russian domination (poland);
+- the war with Germany cast as occupation, Maginot and Overlord, slurs for Germans, and a warning about electing a fascist (france);
+- Mexico against Argentina, Italy, Spain and the UK, the_donald named as attacker, Trump's wall jokes, and an insult to Mexicans (mexico);
+- colonising and the VOC called up, and 'make the Netherlands great again' (PlaceNL);
+- swastikas noticed or reported (wholesomememes c0103, hellointernet c0101) and Gomez turned into Hitler (Fez c0054).
+
+Nothing was left out or softened.
+
+**Corrections and faults in the process.**
+- In 16 turns, the Edit that added a room's fresh lines ran in the same turn as the comparison that reads them, against the batching rule. Each comparison printed the new lines, so each Edit had landed first, but the rule was broken.
+- One print of france overran the shell's 30 KB and was saved under CONTROL, which is read-denied. It was printed again in two smaller parts.
+- My rule said a candidate new kind is logged as an idea when first seen. The four ideas were logged at the count instead, after the gate failures were grouped.
+- Two fresh placements were slips: glasgow t03, a crude mockery read as a proposal, and PlaceNL t20, a bare reply placed though the rule leaves it unplaced. Both are in `b1c_disagreements.psv`.
+
+No compaction happened in this leg.
+
+**Helpers written this leg.** `b1c_sample.py`, `b1c_discovery.py`, `b1c_compare.py` and `b1c_totals.py`, all in `out/_analysis/` and each logged with `--kind helper`. The records are `b1c_fresh.psv` (317 lines) and `b1c_disagreements.psv` (30 judgements).
+
+**The stopping rule.** It is unchanged by the test. 705 of 705 rooms are read, 100.0% of the words, kinds 202, coverage 0.9985, unseen 20.03. `saturation.py report --stage B1` was rerun at the close and rewrote `stopping-B1.md` (269 lines); the decision file was not touched. Nothing in the scheme changed this leg: no mint, place or unplace.
+
+**Close-check figures.** `validate.py B1`: 0 errors, 200 warnings (the capped figure). Ledgers:
+- `scheme_current.jsonl`: 197 themes;
+- `theme_discovery.jsonl`: 197;
+- `ideas-B1.jsonl`: 214;
+- `kinds-B1.jsonl`: 13,616;
+- `multiplacement_log.jsonl`: 6,612;
+- `tier_history.jsonl`: 74;
+- `unplaced-B1.jsonl`: 58;
+- `episodes-B1.jsonl`: 1,341;
+- `saturation-B1.md`: 106 lines.
