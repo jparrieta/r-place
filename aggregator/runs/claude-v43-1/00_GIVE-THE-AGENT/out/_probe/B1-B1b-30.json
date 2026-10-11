@@ -1,0 +1,35 @@
+{
+ "t": "2026-10-11T01:22:45+00:00",
+ "stage": "B1",
+ "leg": "B1b-30",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "TheFarLeftSide",
+   "dofus",
+   "colorado"
+  ],
+  "changed": [],
+  "next": "the PI's decision on marker 3, to finish the list or stop"
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "n/a",
+  "next": "missing"
+ },
+ "scored": 3,
+ "unscored": [
+  "open",
+  "changed"
+ ],
+ "misses": [
+  "goal",
+  "rooms",
+  "next"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
