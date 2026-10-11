@@ -1,0 +1,48 @@
+{
+ "t": "2026-10-11T12:22:24+00:00",
+ "stage": "B1",
+ "leg": "B1d-07",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [
+   "TheFarLeftSide",
+   "DevonUK",
+   "thesilphroad"
+  ],
+  "changed": [
+   "T3-017",
+   "T3-022",
+   "T3-033",
+   "T3-041",
+   "T3-042",
+   "T3-052",
+   "T3-061",
+   "T3-095",
+   "T3-154",
+   "T3-157",
+   "T3-170",
+   "T3-171"
+  ],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "n/a"
+ },
+ "scored": 3,
+ "unscored": [
+  "open",
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "rooms",
+  "changed"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
