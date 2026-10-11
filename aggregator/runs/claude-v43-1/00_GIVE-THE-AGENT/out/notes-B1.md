@@ -2242,3 +2242,83 @@ Nothing was left out or softened.
 - `pass2-B1.jsonl`: 21;
 - `pass2-chosen-B1.txt`: 108 rooms (125 lines);
 - `saturation-B1.md`: 127 lines.
+
+## Leg B1d-02, the second pass's second stretch, 2026-10-11
+
+**The stretch.** It was declared when the leg opened. It covers the chosen rooms not yet reread in the seeded order from order 193 (totallynotrobots) to order 256 (brasil): 24 rooms, 1,057,696 bytes of codes and second-order themes and 703,270 of forest (`out/_analysis/b1d_stretch_sizes.py`). The rooms, in order: totallynotrobots, orderofthebluecorner, GreenEmpire, tenma, nVade, ontario, furry_irl, starryknights, evedreddit, mexico, hellointernet, oman, placehfarts, anime, magictcg, Redox, utaustin, dankmemes, heyyea, azores, aoe2, anarcho_capitalism, korea, brasil. Each room got the same five steps as at B1d-01: the forest opening logged, the A1 note read, every theme read with every concept's words, the forest read whole, then the changes, the room note and `mem.py reread`. All 24 rooms were read. The leg's diary entries are in parts B1-165 to B1-169.
+
+**Placement changes.** There was no mint, split, merge or rescope and no new kind, so the run is not reset. The leg logged 3 place events and 1 unplacement, and placements went from 13,459 to 13,461. The 2 rule 0 lines were written with `b1_multiplace_write4.py` from `out/_analysis/b1_multiplace_b1d02.psv`; no bag was written. By room:
+- furry_irl: t17 moved from T3-017 to T3-185. It is the moderators' "April 1st Recovery + Mod Applications + New/Clarified Rules" post setting new removal rules, and members arguing them (c0116 to c0122).
+- magictcg: t04 T3-048 beside T3-001, for readers falling for and playing along with SaffronOlive's video, the artist Ryan Yee's fake spoiler card and a small webshop's fake inner sleeves.
+- anarcho_capitalism: t10 T3-017 beside T3-050. Six of its eleven concepts are members arguing among themselves for physical removal at hour 94, not taunts with a rival.
+
+The other 21 stretch rooms are unchanged.
+
+**The moves, with 1 `tier_history.jsonl` line.** furry_irl t17 from T3-017 to T3-185 (members_changed, relating or contrasting).
+
+**The B1c ideas and gates.**
+- The three ideas still open were not met: reporting the live canvas, gathering lone placers together, and planning the room's pixel operations.
+- mexico t05 needs the T3-041 label change already listed: adding pieces to the work or enlarging it.
+- mexico t18 (side quarrels and an insult displacing canvas threads) stays in T3-017. No label names side disputes displacing the canvas work; that is for B1e, and no idea is logged.
+- hellointernet t08 (an unlimited-block glitch, c0049) stays in T3-074. A move to T3-088 was weighed and set aside. Ten T3-074 members hold glitches and timer workarounds, among them nyjets t13, sabres t09, kanye t14, msu t07, furry t15, furry_irl t09 and hellointernet t08. At B1e, either T3-088 takes placing beyond the limit by any means and the glitch members move together, or a discriminator is written.
+- hellointernet t12 needs the T3-044/T3-082 discriminator already listed.
+- oman t06 ("Too late. Already finished") is the registering of the end that T3-117 is to take. With stardustcrusaders t17, aeskwadraat t02 and ubc t09 it was the fourth such theme read. heyyea t11 (the archive "till the day that /r/place rises again") and aoe2 t11 (glad the event ended) are two more.
+
+**T3-188 met again.** The doing (an organised room separating its plan from placers it cannot control) appeared in six rooms, each in a bag, a three-kind theme or one concept, so none could be placed:
+- nVade: twice, one of them in the t03 bag;
+- furry_irl c0192, in t13 (three kinds);
+- mexico c0187, in the t06 bag;
+- hellointernet c0135, in the t05 bag;
+- aoe2 c0241, in the t06 bag;
+- korea c0071, in the t07 bag.
+
+In brasil, Argentine members told the room their sub was not writing 7-1 on the flag (c0058 in t04; c0180 and c0213 in the t07 bag). That denies the act rather than disowning placers. The T3-188 gate at B1e must say whether "it was not us" counts.
+
+**Gate notes added this leg, for B1e.**
+- T3-048 took a creator's and a webshop's own April Fools (magictcg t04), as at pcmasterrace t04. The label change is listed already.
+- T3-054: aoe2 t11 mostly declines the successor canvas. The gate should take the room's answer either way.
+- T3-050 against T3-017: members' own talk of violence against political opponents is the sub's usual talk, not a taunt traded with a rival (anarcho_capitalism t10).
+- Kinds missing from existing bags, recorded only in the room notes: T3-188 in the bags named above; T3-024 in aoe2's t04 bag (c0065, c0148); T3-132 in brasil's t07 bag (c0382, a member who infiltrated the Void's voice chat).
+- dankmemes t09 (the "Data" replies) stays in T3-001, as the B1b-20 review left it.
+
+**What the second-order themes showed that the notes did not predict.** The second pass again changed second kinds, not primaries, apart from one move. In 24 rooms no concept needed a new kind. Both added kinds came from concept groups that the first pass folded into one kind: a creator's and a webshop's jokes inside a theme of the members' own jokes (magictcg t04), and members' own physical-removal talk inside a theme of taunts with communists (anarcho_capitalism t10). The move corrected a theme of moderators setting rules that the first pass had put with the sub's usual talk (furry_irl t17). In the contrary rooms the reread bore out the A1 note's "not this" in totallynotrobots, orderofthebluecorner, nVade, ontario, furry_irl, starryknights, evedreddit, placehfarts and anime. The catch-up readings of GreenEmpire and tenma stand.
+
+**National and political content.** It was read and placed plainly:
+- orderofthebluecorner: the rainbow road's stripe refused as "heretics"; a slur in a taunt at red.
+- nVade: an outsider urging an attack on Scotland, and the Scottish room's "no politics" policy; "Destroy the Scottish flag!".
+- ontario: provincial politics in the moderators' fake rules; Kathleen Wynne "off limits for negative discussion"; mock praise of Trudeau and Wynne.
+- furry_irl: repeated attempts to turn the F into a swastika.
+- evedreddit: a mock-war reply in the words of a war of conquest; "Damn Swedes".
+- mexico: r/The_Donald named as the flag's attacker; an American flag "para desafiar Trump"; Trump's wall slogans; Spain answered with the stolen gold; "Lol idiot mexicans".
+- hellointernet: the American flag painted over with a hammer and sickle; a swastika on the room's doorstep.
+- anime: "the Reich is strong and out in force", said of the moderators.
+- utaustin: an Indian member's permission to write over India's flag; the Aggie offer called "a 2-state solution"; "We're all Texans".
+- dankmemes: calls for a swastika and for Hitler's face over OSU's logo, removed by a moderator as "not a dank meme"; "Onward Serbian comrades! Let us take over the Croatian fascists"; Colombia to Columbine; the Kekistan flag; a 9/11 threat; a quarrel over Islam and terrorism; a school-shooting joke; talk of suicide methods.
+- aoe2: the Good Sunday Agreement with Ireland; Trump's wall and r/The_Donald's attack; Ireland's threat to withdraw support over the wall; the Finnish flag fought with blue; an attempt to put a Mexican flag over the Irish flag and the helmet.
+- anarcho_capitalism: physical removal and helicopters as the room's language for removing communists; "Pinochet Snek"; r/The_Donald asked to paint an American flag over the German flag; the hammer and sickle, the feminist and the anarcho-queer flags targeted; the alliance with Poland; members arguing for throwing opponents from helicopters.
+- korea: calls to turn Japan's flag Korean and refusals; the takeover likened to colonisation; a North Korean flag effort; "mandatory service in Operation Taegukgi"; r/Turkey's "brothers and sisters"; K-pop additions called "illegal immigrants"; Korean-American identity argued.
+- brasil: calls to cover, invade and annex Argentina and Finland, then peace, Argentine repairers and an alliance proposed; the 7-1 and a war process against Germany; "Nazi symbols in the German flag" proposed and a swastika rejected; Brazilians named as most of the flag's vandals; Portugal asked to return the gold, the Portuguese Empire and former-colony flags; Lusophony refused; Senna's death as "our 9/11"; the prank's headlines on Lula, Menem, Cristina Kirchner and Temer.
+
+Nothing was left out or softened.
+
+**Corrections and faults in the process.**
+- A compaction happened during magictcg. After it, one read ran before the head and the stage file were read again: the second part of magictcg's forest print. No write ran before the reconciliation. I then read the head, the stage file and the last five diary entries, and logged "compacted; head reconciled" in a call of its own. A note records the slip.
+- The Redox room note gave its order as 240. `saturation.py order` gives 239. A note corrected it.
+- The handler reported that a turn failed at 08:28Z on a lost connection. The record was checked: the last write was the utaustin opening, and nothing was half done. A note records the check.
+- One `mem.py place` call's output was cut by `tail -1`. The placement was checked with jq before its rule 0 line was written.
+- The leg did not check episode joins for the reread rooms.
+
+**The stopping rule.** `saturation.py report --stage B1` was rerun at the close and rewrote `stopping-B1.md` (321 lines); the decision file was not touched. `saturation.py pass2 --stage B1`: 45 of 108 chosen rooms read; run since this pass's last new kind 45 rooms and 45.2 average rooms, against 78 rooms and 72.1 average rooms. Next room: Okami.
+
+**Close-check figures.** `validate.py B1`: 0 errors, 200 warnings (the capped figure). Ledgers:
+- `scheme_current.jsonl`: 197 themes over 7,786 placed second-order themes, 13,461 placements;
+- `theme_discovery.jsonl`: 197;
+- `ideas-B1.jsonl`: 214;
+- `kinds-B1.jsonl`: 13,647;
+- `multiplacement_log.jsonl`: 6,638;
+- `tier_history.jsonl`: 84;
+- `unplaced-B1.jsonl`: 58;
+- `episodes-B1.jsonl`: 1,341;
+- `pass2-B1.jsonl`: 45;
+- `pass2-chosen-B1.txt`: 108 rooms (125 lines);
+- `saturation-B1.md`: 136 lines.

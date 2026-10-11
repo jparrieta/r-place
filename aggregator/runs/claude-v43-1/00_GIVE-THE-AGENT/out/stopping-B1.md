@@ -1,6 +1,6 @@
 # When to stop, stage B1
 
-Written by `tools/saturation.py report` at 2026-10-11T08:02:44Z. The rule: `saturation.py` docstring; J, 2026-09-29.
+Written by `tools/saturation.py report` at 2026-10-11T09:00:50Z. The rule: `saturation.py` docstring; J, 2026-09-29.
 
 The thresholds (10 average rooms before a round, rounds of at most 25, three empty rounds to a marker, the check-in at 60% of the words) are this design's discovery heuristic, J's recorded choice (2026-09-29). The literature gives the rule its form, a run with nothing new after a base; it does not fix these numbers.
 
@@ -24,7 +24,7 @@ The thresholds (10 average rooms before a round, rounds of at most 25, three emp
 | 1: three empty rounds (the first stop) | 499 | 507.0 | 0.9974 | 18.58 | 71.9% |
 | 2: three more empty rounds | 574 | 581.5 | 0.9979 | 20.01 | 82.5% |
 | 3: the draw read | 660 | 656.4 | 0.9983 | 18.02 | 93.1% |
-| check-in: 60% of the words read before marker 3 | 408 | 423.8 | 0.996 | 24.24 | 60.1% |
+| check-in: 60% of the words read before marker 3 | 408 | 423.8 | 0.9962 | 21.07 | 60.1% |
 
 Marker 1's empty run, from the last new kind (room 421, 434.9 average rooms) to marker 1: 72.1 average rooms and 78 rooms. It is the second pass's target, never fewer than 30 rooms.
 
@@ -42,18 +42,18 @@ What is left (0.0 average rooms) is no larger than the draw was (74.5): reading 
 | 2 | 155 | 5.0 | 5.2 | 0.9879 | 39.78 | new |
 | 3 | 180 | 5.3 | 5.4 | 0.9886 | 38.32 | empty |
 | 4 | 188 | 5.7 | 5.8 | 0.9894 | 41.66 | new |
-| 5 | 217 | 7.0 | 6.8 | 0.9912 | 34.16 | empty |
-| 6 | 228 | 7.4 | 7.2 | 0.9916 | 34.17 | empty |
-| 7 | 236 | 7.9 | 7.6 | 0.9921 | 32.01 | new |
-| 8 | 284 | 8.9 | 8.7 | 0.9932 | 31.89 | empty |
-| 9 | 290 | 9.4 | 9.4 | 0.9936 | 29.93 | empty |
-| 10 | 301 | 9.7 | 9.6 | 0.9938 | 36.84 | new |
-| 11 | 319 | 11.4 | 11.3 (over 10) | 0.9947 | 24.42 | new |
-| 12 | 342 | 12.3 | 12.5 (over 10) | 0.995 | 26.06 | new |
-| 13 | 355 | 12.7 | 12.9 (over 10) | 0.9952 | 24.43 | new |
-| 14 | 386 | 14.9 | 15.1 (over 10) | 0.9959 | 17.74 | new |
-| 15 | 432 | 17.3 | 17.8 (over 10) | 0.9966 | 20.79 | empty |
-| 16 | 459 | 20.9 | 21.1 (over 10) | 0.9972 | 15.09 | empty |
+| 5 | 217 | 6.8 | 6.6 | 0.991 | 36.4 | empty |
+| 6 | 228 | 7.2 | 7.0 | 0.9913 | 36.41 | empty |
+| 7 | 235 | 7.6 | 7.4 | 0.9918 | 34.18 | new |
+| 8 | 284 | 9.2 | 9.0 | 0.9934 | 28.17 | empty |
+| 9 | 290 | 9.7 | 9.7 | 0.9938 | 26.38 | empty |
+| 10 | 301 | 10.1 | 10.0 (over 10) | 0.994 | 32.04 | new |
+| 11 | 319 | 11.9 | 11.8 (over 10) | 0.9949 | 21.37 | new |
+| 12 | 342 | 12.7 | 12.9 (over 10) | 0.9952 | 22.71 | new |
+| 13 | 355 | 13.2 | 13.4 (over 10) | 0.9954 | 21.38 | new |
+| 14 | 386 | 15.5 | 15.7 (over 10) | 0.9961 | 15.58 | new |
+| 15 | 432 | 17.3 | 17.8 (over 10) | 0.9966 | 22.27 | empty |
+| 16 | 459 | 20.9 | 21.1 (over 10) | 0.9972 | 16.1 | empty |
 | 17 | 476 | 21.7 | 22.1 (over 10) | 0.9973 | 16.1 | empty |
 | 18 | 499 | 22.7 | 23.1 (over 10) | 0.9974 | 18.58 | empty |
 | 19 | 528 | 25.2 | 25 (over 10) | 0.9977 | 20.01 | empty |
@@ -65,111 +65,111 @@ Resets (a new kind inside a round or the draw): 9.
 
 | kind | room | rooms read | average rooms read |
 |---|---|---:|---:|
-| T3-010 | sixers | 1 | 1.0 |
+| T3-004 | sixers | 1 | 1.0 |
 | T3-011 | sixers | 1 | 1.0 |
-| T3-018 | sixers | 1 | 1.0 |
-| T3-007 | sixers | 1 | 1.0 |
 | T3-012 | sixers | 1 | 1.0 |
+| T3-010 | sixers | 1 | 1.0 |
+| T3-019 | sixers | 1 | 1.0 |
+| T3-005 | sixers | 1 | 1.0 |
+| T3-009 | sixers | 1 | 1.0 |
+| T3-007 | sixers | 1 | 1.0 |
+| T3-017 | sixers | 1 | 1.0 |
+| T3-003 | sixers | 1 | 1.0 |
+| T3-016 | sixers | 1 | 1.0 |
 | T3-006 | sixers | 1 | 1.0 |
 | T3-013 | sixers | 1 | 1.0 |
-| T3-014 | sixers | 1 | 1.0 |
+| T3-018 | sixers | 1 | 1.0 |
 | T3-015 | sixers | 1 | 1.0 |
-| T3-016 | sixers | 1 | 1.0 |
-| T3-002 | sixers | 1 | 1.0 |
-| T3-019 | sixers | 1 | 1.0 |
-| T3-003 | sixers | 1 | 1.0 |
-| T3-008 | sixers | 1 | 1.0 |
+| T3-014 | sixers | 1 | 1.0 |
 | T3-001 | sixers | 1 | 1.0 |
-| T3-017 | sixers | 1 | 1.0 |
-| T3-009 | sixers | 1 | 1.0 |
-| T3-005 | sixers | 1 | 1.0 |
-| T3-004 | sixers | 1 | 1.0 |
-| T3-026 | edmontonoilers | 2 | 2.1 |
-| T3-029 | edmontonoilers | 2 | 2.1 |
-| T3-025 | edmontonoilers | 2 | 2.1 |
-| T3-030 | edmontonoilers | 2 | 2.1 |
-| T3-020 | edmontonoilers | 2 | 2.1 |
-| T3-021 | edmontonoilers | 2 | 2.1 |
+| T3-002 | sixers | 1 | 1.0 |
+| T3-008 | sixers | 1 | 1.0 |
 | T3-028 | edmontonoilers | 2 | 2.1 |
 | T3-027 | edmontonoilers | 2 | 2.1 |
 | T3-022 | edmontonoilers | 2 | 2.1 |
-| T3-024 | edmontonoilers | 2 | 2.1 |
 | T3-023 | edmontonoilers | 2 | 2.1 |
-| T3-033 | chess | 3 | 3.0 |
-| T3-031 | chess | 3 | 3.0 |
-| T3-036 | chess | 3 | 3.0 |
-| T3-037 | chess | 3 | 3.0 |
+| T3-020 | edmontonoilers | 2 | 2.1 |
+| T3-030 | edmontonoilers | 2 | 2.1 |
+| T3-029 | edmontonoilers | 2 | 2.1 |
+| T3-026 | edmontonoilers | 2 | 2.1 |
+| T3-021 | edmontonoilers | 2 | 2.1 |
+| T3-025 | edmontonoilers | 2 | 2.1 |
+| T3-024 | edmontonoilers | 2 | 2.1 |
 | T3-034 | chess | 3 | 3.0 |
+| T3-031 | chess | 3 | 3.0 |
+| T3-037 | chess | 3 | 3.0 |
+| T3-033 | chess | 3 | 3.0 |
 | T3-035 | chess | 3 | 3.0 |
 | T3-032 | chess | 3 | 3.0 |
+| T3-036 | chess | 3 | 3.0 |
 | T3-040 | lifeisstrange | 4 | 3.7 |
-| T3-039 | lifeisstrange | 4 | 3.7 |
-| T3-038 | lifeisstrange | 4 | 3.7 |
 | T3-041 | lifeisstrange | 4 | 3.7 |
-| T3-046 | worldpowers | 5 | 4.2 |
+| T3-038 | lifeisstrange | 4 | 3.7 |
+| T3-039 | lifeisstrange | 4 | 3.7 |
+| T3-043 | worldpowers | 5 | 4.2 |
 | T3-045 | worldpowers | 5 | 4.2 |
+| T3-042 | worldpowers | 5 | 4.2 |
+| T3-046 | worldpowers | 5 | 4.2 |
 | T3-047 | worldpowers | 5 | 4.2 |
 | T3-044 | worldpowers | 5 | 4.2 |
-| T3-042 | worldpowers | 5 | 4.2 |
-| T3-043 | worldpowers | 5 | 4.2 |
-| T3-049 | leagueoflegends | 6 | 12.2 |
 | T3-053 | leagueoflegends | 6 | 12.2 |
-| T3-050 | leagueoflegends | 6 | 12.2 |
-| T3-054 | leagueoflegends | 6 | 12.2 |
 | T3-052 | leagueoflegends | 6 | 12.2 |
+| T3-050 | leagueoflegends | 6 | 12.2 |
+| T3-049 | leagueoflegends | 6 | 12.2 |
 | T3-048 | leagueoflegends | 6 | 12.2 |
+| T3-054 | leagueoflegends | 6 | 12.2 |
 | T3-051 | leagueoflegends | 6 | 12.2 |
-| T3-055 | rutgers | 7 | 13.7 |
-| T3-059 | rutgers | 7 | 13.7 |
-| T3-058 | rutgers | 7 | 13.7 |
 | T3-056 | rutgers | 7 | 13.7 |
+| T3-059 | rutgers | 7 | 13.7 |
 | T3-057 | rutgers | 7 | 13.7 |
-| T3-063 | drugs | 8 | 14.9 |
-| T3-060 | drugs | 8 | 14.9 |
+| T3-055 | rutgers | 7 | 13.7 |
+| T3-058 | rutgers | 7 | 13.7 |
 | T3-062 | drugs | 8 | 14.9 |
-| T3-061 | drugs | 8 | 14.9 |
+| T3-063 | drugs | 8 | 14.9 |
 | T3-064 | drugs | 8 | 14.9 |
-| T3-067 | thailand | 9 | 16.1 |
-| T3-068 | thailand | 9 | 16.1 |
+| T3-061 | drugs | 8 | 14.9 |
+| T3-060 | drugs | 8 | 14.9 |
 | T3-066 | thailand | 9 | 16.1 |
 | T3-065 | thailand | 9 | 16.1 |
+| T3-068 | thailand | 9 | 16.1 |
+| T3-067 | thailand | 9 | 16.1 |
 | T3-073 | undertale | 10 | 17.9 |
-| T3-069 | undertale | 10 | 17.9 |
 | T3-070 | undertale | 10 | 17.9 |
+| T3-069 | undertale | 10 | 17.9 |
 | T3-072 | undertale | 10 | 17.9 |
 | T3-071 | undertale | 10 | 17.9 |
 | T3-074 | rpi | 11 | 18.7 |
 | T3-075 | rpi | 11 | 18.7 |
-| T3-076 | Mario | 12 | 18.9 |
 | T3-077 | Mario | 12 | 18.9 |
+| T3-076 | Mario | 12 | 18.9 |
 | T3-081 | lithuania | 13 | 19.5 |
+| T3-079 | lithuania | 13 | 19.5 |
 | T3-078 | lithuania | 13 | 19.5 |
 | T3-080 | lithuania | 13 | 19.5 |
-| T3-079 | lithuania | 13 | 19.5 |
 | T3-082 | RelientK | 15 | 20.3 |
 | T3-083 | faeria | 16 | 20.8 |
 | T3-084 | faeria | 16 | 20.8 |
-| T3-086 | bitcoin | 17 | 23.5 |
 | T3-085 | bitcoin | 17 | 23.5 |
-| T3-088 | criticalrole | 18 | 24.1 |
+| T3-086 | bitcoin | 17 | 23.5 |
 | T3-091 | criticalrole | 18 | 24.1 |
-| T3-092 | criticalrole | 18 | 24.1 |
-| T3-089 | criticalrole | 18 | 24.1 |
 | T3-090 | criticalrole | 18 | 24.1 |
+| T3-092 | criticalrole | 18 | 24.1 |
 | T3-087 | criticalrole | 18 | 24.1 |
+| T3-089 | criticalrole | 18 | 24.1 |
+| T3-088 | criticalrole | 18 | 24.1 |
 | T3-094 | seahawks | 19 | 25.1 |
 | T3-093 | seahawks | 19 | 25.1 |
 | T3-095 | minecraft | 20 | 26.7 |
-| split:T3-023+T3-048+T3-095 | minecraft | 20 | 26.7 |
-| T3-097 | minecraft | 20 | 26.7 |
 | T3-096 | minecraft | 20 | 26.7 |
+| split:T3-023+T3-048+T3-095 | minecraft | 20 | 26.7 |
 | T3-098 | minecraft | 20 | 26.7 |
+| T3-097 | minecraft | 20 | 26.7 |
 | T3-099 | bretagne | 23 | 28.7 |
-| T3-101 | mls | 24 | 31.1 |
 | T3-100 | mls | 24 | 31.1 |
+| T3-101 | mls | 24 | 31.1 |
 | T3-102 | nyjets | 25 | 32.1 |
-| T3-104 | monalisaclan | 26 | 33.5 |
 | T3-103 | monalisaclan | 26 | 33.5 |
+| T3-104 | monalisaclan | 26 | 33.5 |
 | T3-105 | monalisaclan | 26 | 33.5 |
 | T3-107 | samuraijack | 29 | 37.2 |
 | T3-106 | samuraijack | 29 | 37.2 |
@@ -178,14 +178,14 @@ Resets (a new kind inside a round or the draw): 9.
 | T3-110 | pgang | 38 | 43.0 |
 | T3-111 | pgang | 38 | 43.0 |
 | T3-112 | warframe | 39 | 44.6 |
-| T3-114 | norge | 41 | 47.3 |
 | T3-113 | norge | 41 | 47.3 |
+| T3-114 | norge | 41 | 47.3 |
 | T3-115 | radiohead | 43 | 49.8 |
-| T3-116 | lakers | 44 | 51.5 |
 | T3-117 | lakers | 44 | 51.5 |
+| T3-116 | lakers | 44 | 51.5 |
 | T3-118 | chelseafc | 46 | 53.7 |
-| T3-119 | albania | 49 | 55.5 |
 | T3-120 | albania | 49 | 55.5 |
+| T3-119 | albania | 49 | 55.5 |
 | T3-121 | uoft | 50 | 56.7 |
 | T3-122 | germany | 51 | 57.5 |
 | T3-123 | placeportalpattern | 52 | 58.4 |
@@ -209,43 +209,44 @@ Resets (a new kind inside a round or the draw): 9.
 | T3-139 | homelab | 100 | 99.7 |
 | T3-140 | japan | 105 | 101.6 |
 | T3-141 | canucks | 111 | 110.0 |
-| T3-143 | canucks | 111 | 110.0 |
 | T3-142 | canucks | 111 | 110.0 |
+| T3-143 | canucks | 111 | 110.0 |
 | T3-144 | loliconsunite | 114 | 113.7 |
 | T3-145 | theitalyplace | 118 | 118.4 |
 | T3-146 | PinkVomitMonster | 119 | 118.9 |
 | T3-147 | starlightstage | 120 | 119.6 |
 | T3-148 | pcmasterrace | 134 | 136.0 |
-| T3-155 | formula1 | 141 | 142.6 |
-| T3-161 | formula1 | 141 | 142.6 |
 | T3-150 | formula1 | 141 | 142.6 |
-| T3-149 | formula1 | 141 | 142.6 |
-| split:T3-014+T3-152+T3-153 | formula1 | 141 | 142.6 |
-| T3-159 | formula1 | 141 | 142.6 |
-| T3-157 | formula1 | 141 | 142.6 |
-| T3-153 | formula1 | 141 | 142.6 |
-| T3-160 | formula1 | 141 | 142.6 |
-| T3-152 | formula1 | 141 | 142.6 |
-| T3-151 | formula1 | 141 | 142.6 |
-| T3-158 | formula1 | 141 | 142.6 |
-| T3-156 | formula1 | 141 | 142.6 |
 | split:T3-010+T3-149+T3-150+T3-151 | formula1 | 141 | 142.6 |
-| split:T3-009+T3-154+T3-155+T3-156+T3-157 | formula1 | 141 | 142.6 |
+| T3-160 | formula1 | 141 | 142.6 |
+| T3-157 | formula1 | 141 | 142.6 |
+| T3-156 | formula1 | 141 | 142.6 |
 | T3-154 | formula1 | 141 | 142.6 |
+| T3-149 | formula1 | 141 | 142.6 |
+| T3-161 | formula1 | 141 | 142.6 |
+| split:T3-009+T3-154+T3-155+T3-156+T3-157 | formula1 | 141 | 142.6 |
+| T3-151 | formula1 | 141 | 142.6 |
+| T3-155 | formula1 | 141 | 142.6 |
+| T3-152 | formula1 | 141 | 142.6 |
+| T3-158 | formula1 | 141 | 142.6 |
+| split:T3-014+T3-152+T3-153 | formula1 | 141 | 142.6 |
+| T3-153 | formula1 | 141 | 142.6 |
+| T3-159 | formula1 | 141 | 142.6 |
 | T3-162 | greenlattice | 143 | 148.2 |
 | T3-163 | greenlattice | 143 | 148.2 |
 | T3-164 | traaaaaaannnnnnnnnns | 157 | 161.8 |
-| T3-166 | greece | 158 | 162.9 |
 | T3-165 | greece | 158 | 162.9 |
+| T3-166 | greece | 158 | 162.9 |
 | T3-167 | dbz | 160 | 164.7 |
 | T3-168 | neu | 162 | 165.8 |
 | T3-170 | halo | 165 | 168.9 |
-| T3-171 | AprilKnights | 170 | 173.2 |
-| T3-173 | AprilKnights | 170 | 173.2 |
 | T3-172 | AprilKnights | 170 | 173.2 |
+| T3-173 | AprilKnights | 170 | 173.2 |
+| T3-171 | AprilKnights | 170 | 173.2 |
 | T3-174 | orderofthebluecorner | 196 | 195.5 |
 | T3-195 | nVade | 201 | 197.0 |
 | T3-175 | furry_irl | 206 | 201.7 |
+| T3-185 | furry_irl | 206 | 201.7 |
 | T3-176 | utaustin | 241 | 233.4 |
 | T3-177 | dankmemes | 242 | 235.9 |
 | T3-178 | dankmemes | 242 | 235.9 |
@@ -253,9 +254,8 @@ Resets (a new kind inside a round or the draw): 9.
 | T3-180 | korea | 255 | 246.1 |
 | T3-181 | cubers | 259 | 254.7 |
 | T3-183 | kanye | 267 | 261.3 |
-| T3-182 | kanye | 267 | 261.3 |
 | T3-184 | kanye | 267 | 261.3 |
-| T3-185 | warthunder | 273 | 265.4 |
+| T3-182 | kanye | 267 | 261.3 |
 | T3-186 | SwissNeutralityZone | 274 | 266.1 |
 | T3-187 | haskell | 307 | 305.3 |
 | T3-188 | ainbowroad | 332 | 334.5 |
@@ -270,7 +270,7 @@ Resets (a new kind inside a round or the draw): 9.
 
 ## The second pass (B1d)
 
-pass 2 (B1d): chosen; chosen rooms read 21 of 108; rooms read in this pass 21; since its last new third-order theme 21 rooms and 21.4 average rooms, against 78 rooms and 72.1 average rooms (marker 1's empty run (72.1 average rooms, 78 rooms; floor 30 rooms))
+pass 2 (B1d): chosen; chosen rooms read 45 of 108; rooms read in this pass 45; since its last new third-order theme 45 rooms and 45.2 average rooms, against 78 rooms and 72.1 average rooms (marker 1's empty run (72.1 average rooms, 78 rooms; floor 30 rooms))
 
 | room | leg | new kinds | run, rooms | run, average rooms |
 |---|---|---|---:|---:|
@@ -295,3 +295,27 @@ pass 2 (B1d): chosen; chosen rooms read 21 of 108; rooms read in this pass 21; s
 | AprilKnights | B1d-01 | - | 19 | 19.3 |
 | flashtv | B1d-01 | - | 20 | 21.1 |
 | egypt | B1d-01 | - | 21 | 21.4 |
+| totallynotrobots | B1d-02 | - | 22 | 23.1 |
+| orderofthebluecorner | B1d-02 | - | 23 | 23.7 |
+| GreenEmpire | B1d-02 | - | 24 | 23.8 |
+| tenma | B1d-02 | - | 25 | 23.8 |
+| nVade | B1d-02 | - | 26 | 24.3 |
+| ontario | B1d-02 | - | 27 | 24.7 |
+| furry_irl | B1d-02 | - | 28 | 26.2 |
+| starryknights | B1d-02 | - | 29 | 26.7 |
+| evedreddit | B1d-02 | - | 30 | 27.1 |
+| mexico | B1d-02 | - | 31 | 29.3 |
+| hellointernet | B1d-02 | - | 32 | 30.1 |
+| oman | B1d-02 | - | 33 | 30.3 |
+| placehfarts | B1d-02 | - | 34 | 30.4 |
+| anime | B1d-02 | - | 35 | 31.7 |
+| magictcg | B1d-02 | - | 36 | 34.0 |
+| Redox | B1d-02 | - | 37 | 34.1 |
+| utaustin | B1d-02 | - | 38 | 35.2 |
+| dankmemes | B1d-02 | - | 39 | 37.7 |
+| heyyea | B1d-02 | - | 40 | 38.1 |
+| azores | B1d-02 | - | 41 | 38.1 |
+| aoe2 | B1d-02 | - | 42 | 39.7 |
+| anarcho_capitalism | B1d-02 | - | 43 | 41.3 |
+| korea | B1d-02 | - | 44 | 42.4 |
+| brasil | B1d-02 | - | 45 | 45.2 |
