@@ -2410,3 +2410,83 @@ Nothing was left out or softened.
 - `pass2-B1.jsonl`: 63;
 - `pass2-chosen-B1.txt`: 108 rooms (125 lines);
 - `saturation-B1.md`: 145 lines.
+
+## Leg B1d-04, the second pass's fourth stretch, 2026-10-11
+
+**The stretch.** It was declared when the leg opened. It covers the chosen rooms not yet reread in the seeded order from order 332 (ainbowroad) to order 371 (ukplace): 10 rooms, 1,009,574 bytes of codes and second-order themes and 889,863 of forest (`out/_analysis/b1d_stretch_sizes.py` at the leg's start; summed again at the close from `mem.py room <sub> --size`). The rooms, in order: ainbowroad, dota2, ubreddit, Fez, azerbaijan, scp, wholesomememes, placestart, UNLincoln, ukplace. Fez, scp and wholesomememes are in group 1 (a gate failed at B1c); Fez and wholesomememes are contrary rooms too, and the other 7 are contrary rooms. Each room got the same five steps as at B1d-01. All 10 rooms were read. The leg's diary entries are in parts B1-172 to B1-175.
+
+**Placement changes.** There was no mint, split, merge or rescope and no new kind, so the run is not reset. The leg logged 3 place events and 2 unplacements, and placements went from 13,460 to 13,461. The 1 rule 0 line was written with `b1_multiplace_write4.py` from `out/_analysis/b1_multiplace_b1d04.psv`. By room:
+- scp: t06 (the room's April Fools jokes) took T3-048 as a third kind beside T3-001 and T3-031. Its largest concept group greets and riffs on the SCP wiki author's annual April Fools tale (c0038, c0039, c0041, c0044, c0047, c0056), and c0077 and c0079 react to another wiki April Fools article. The B1b-20 rule sends reacting to a creator's own joke to T3-048, as magictcg t04 at B1d-02.
+- wholesomememes: t12 moved from T3-001 to T3-017. It is members proposing pranks to play on friends off the site (c0056, c0065). The B1b-20 line keeps in T3-001 the members' own staged jokes and the replies inside them; t12 stages no fake and plays inside none. It is the same April Fools talk as t14, a father's prank story, in T3-017.
+- wholesomememes: t13 moved from T3-017 to T3-048. It is members trading outside creators' own April Fools releases, WeRateDogs (c0057) and Ross Scott (c0060). A second placement in T3-017 was set aside, as for furry_irl t17 at B1d-02: no concept is talk apart from those jokes.
+
+The other 8 stretch rooms are unchanged.
+
+**The moves, with 2 `tier_history.jsonl` lines.** wholesomememes t12 from T3-001 to T3-017, and t13 from T3-017 to T3-048 (members_changed, relating or contrasting). Before them I read the B1b-20 line for T3-001 and the B1b-02 line for T3-048. wholesomememes was placed at B1b-16, before the B1b-20 April Fools rule.
+
+**The B1c ideas and gates.**
+- The three ideas still open were not met: reporting the live canvas, gathering lone placers together, and planning the room's pixel operations.
+- Fez t07 (the destroy-then-rebuild deal with Denmark) stays in T3-151 with T3-039 and T3-150: its terms are help in return (c0061, c0062, c0067). The T3-010/T3-151 discriminator owed for B1e should say that a deal whose terms are help given in return goes to T3-151, and a deal over borders and space alone to T3-010.
+- scp t02 stays a bag under T3-074. The B1b-05 tier line keeps working around the cooldown and few hands while building in T3-074, and sends arguing before building whether there is manpower to T3-136. t02's concepts come during the work. The T3-074/T3-136 discriminator is still owed.
+- wholesomememes t07 stays in T3-003: one member's own five pixels and smiley face (c0038, c0042), not the room's mark (T3-038).
+- wholesomememes t09 stays in T3-016 beside rotmg t14: asking how elaborate art is possible under the timer, and a placing glitch explained (c0043, c0044). One room is not moved before the T3-016/T3-074 discriminator is written at B1e.
+- wholesomememes t10 keeps its rule 0 line (T3-017 with T3-063): moderators routing posts to sister subs. T3-015 was weighed and set aside, since t10 does not route canvas talk into one thread and c0047 has no canvas tie.
+- wholesomememes t15 stays in T3-063; the T3-063 label change already listed covers April Fools posts.
+- wholesomememes t12 and t13 moved, as above.
+
+**T3-188 met again.** No theme was placed in T3-188 this leg; it still holds 7 themes in 7 rooms. The doing showed as single concepts or inside bags:
+- ainbowroad c1080, in t01's bag: a member saying anyone cutting through the road is an unorganised member, not one on the Discord (the kind is missing from that bag line);
+- dota2 c1037 (a member telling r/iastate the expansion is not under their control), c0827, c1104 and c1121.
+
+Cases for the gate question, whether an outside room's denial or disowning counts:
+- ainbowroad c1787 (a Void member: members told not to touch the road), c0117 (Blue denying an attack and blaming Red), c1325 (r/Denmark not trying to destroy the road), and an uncoded apology from r/france in thread 634mb9;
+- dota2 c1043, a representative of the Colombia, Venezuela and Ecuador flag setting a few random users apart from the group;
+- Fez c0059, c0072, c0081, c0092 and c0094, Danish members saying a few were destroying the work against the majority's wish and that it was not them (E760; denmark t13 already holds T3-188);
+- placestart c0137, an outside room saying placestart's "volunteers" still followed the wrong template;
+- ukplace c0033, an outside member reporting that the room's people "claim no knowledge"; c0088, a member setting the room's scripting apart from others' botnets; c0091, a member denying that the flag expanded.
+
+**Gate notes added this leg, for B1e.**
+- T3-102: placestart c0477, a member answering the room's agreement to stop at 962 by refusing to obey the treaty. It is one concept in t10 and not a carrying code, so no second kind.
+- T3-074/T3-088 for glitches: placestart c0166, a member placing without limit through a glitch.
+- T3-120/T3-088: ukplace c0017, a member posting from a bot account tab; wholesomememes c0172, a defender with three alt accounts against the void.
+- Single peripheral concepts named only in the room notes: ainbowroad c1556 and c1676 (outside rooms' apologies, near T3-040), c1087 and c1834 (the_donald's sign and a kekistani flag covered with rainbow, near T3-146), c1000 (a Void diplomat saying they were banned); wholesomememes c0103 (the S in Sweden made a swastika, near T3-146); placestart c0122 (a member saying treaties do not stop the deleting); ukplace c0067 (a member blaming the room's own aggressive scripters).
+- Kinds missing from existing bags, recorded only in the room notes: T3-188 in ainbowroad's t01 bag.
+
+**The forest prints.** ainbowroad's forest print stopped at line 5,000 of 6,901 (`mem.py forest --limit 5000`). The rest, hours 53.9 to 94.4, was printed with `--offset 5001` and read. A new helper, `out/_analysis/b1d_forest_lengths.py`, checked the 63 rooms reread at B1d-01 to B1d-03. None has a forest over 5,000 lines (the largest, pcmasterrace, has 2,098), so no earlier print was cut. The helper's first run returned -1 for every room, because the page footer is on stderr and ends with ";". The regex and the capture were fixed before the run that counts. Every later room this leg was checked for the footer.
+
+**What the second-order themes showed that the notes did not predict.** In 10 rooms no concept needed a new kind. All three changes came from the April Fools rule of B1b-20. wholesomememes was placed before that rule, and two of its April Fools themes sat in kinds the rule no longer gives them. The T3-188 gate question grew. Three rooms of this stretch hold an outside room's own denial or disowning (ainbowroad, dota2, Fez). Two more hold an outside voice about the room's own placers (placestart, ukplace). The A1 note's "not this" held in all 10 rooms.
+
+**National and political content.** It was read and placed plainly:
+- ainbowroad: the_donald's Discord listened in on, and an uncoded thread title reporting its members saying gay people should be put in camps; its sign filled with rainbow, and its apology; "KILL THE GAYS" posted to the room; Shadilay destroyed for nazi references; a swastika to clean up; the Deus Vult flag to cover; the /pol/ kekistani flag; transphobes planning to vandalise the road and blame the trans flag; the trans flag merges, the asexual and bi pride banners and the Gilbert Baker memorial; the American flag fight ("KEEP YOUR RAINBOW ROAD OUT OF OUR FLAG"); France against Germany; Sweden's annexation of Denmark, and Denmark's expansion; Poland's flag, a compromise, and r/Polska said to have broken its word; many nations asking for room or help, Tunisia and Palestine among them; the Colombian, Venezuelan and Ecuadorian flag; a Russian flag proposed in solidarity with the St. Petersburg attack; "advancing capitalist forces"; Mussolini supporters; Bernie; a Vatican flag; TheFarLeftSide's "Gay".
+- dota2: the Colombia, Venezuela and Ecuador flag covered by the RTZ text and settled at border 773; "Venezuela is trying to eliminate r/tz!"; a call not to invade other countries; the script that hit Canada, and "Not O Canada = GTFO"; Sweden's permission for the Alliance logo; r/Switzerland, Turkey, the Netherlands and Mexico; countries fighting for the logo's black background; League's parody of The_Donald, "BUILD THE WALL AND MAKE /r/LOL PAY FOR IT", electoral-college taunts, "Go back to /pol/" and "DEUS VULT!"; "League of Lesbians" and "League Of Cucks", a racist meme and uncoded slurs.
+- ubreddit: an Alabama member claiming the football area.
+- Fez: trolls using the Danish flag to turn Gomez into Hitler; Estonia's flag near Gomez; "When we are done with the Hungarians" (uncoded); Danish beer offered.
+- azerbaijan: a visitor from r/turkey greeting the room as brothers; the flag made with occasional Turkish help; the maker asked whether Azeri or Turkish.
+- scp: "Those damn swedes are greedy for the whole map".
+- wholesomememes: Sweden and Norway coexisting; Greece and Turkey as two countries with bitter histories, and a Cyprus heart; Brazil and Argentina's grudge, raids then treaties with Finland, a "Cross Continental Coalition"; South Africa; the S in Sweden made a swastika.
+- placestart: the Eiffel Tower deal with France, "The French problem....", "Screw the Eiffel Tower", and a French critic saying there was no compromise; Iceland's border; Remain branded across the Union Jack; clutter on the Indian flag; the Philippine flag; Greenland, Texas and a human equality flag; a plan for a hammer and sickle; "the blue KKK Member" for Earthbound's cultists; "Manifest Destiny!"; "the meek are eaten by the strong".
+- UNLincoln: none (a logo claimed for Nebraska and corrected to Northeastern).
+- ukplace: Scotland and Northern Ireland "invaded" by Irishmen, Scottish nationalists and Canadian hockey fans; a master script that could be turned to draw a swastika; propaganda to cover colonies, refused; "Mexican living space"; a reported alliance of the UK flag, thedonald and the void against Mexico; the poppy, and the overwrite defended as a war memorial; Theresa May proposed under the flag and refused; Italian and Commonwealth allies.
+
+Nothing was left out or softened.
+
+**Corrections and faults in the process.**
+- A compaction happened during wholesomememes, after its prints were written to `$TMPDIR`. After it, one read ran before the head and the stage file were read again: the first 22 KB of wholesomememes' theme print. No write ran before the reconciliation. I then read the head, the stage file and the last five diary entries, and logged "compacted; head reconciled" in a call of its own. A note records the slip.
+- One `cut` hit an illegal byte sequence and dropped the middle of an output. The segment was printed again with `head -c` and no `cut`.
+- The two `saturation-B1.md` edits ran one after the other, as the batching rule asks.
+- The leg did not check episode joins for the reread rooms.
+
+**The stopping rule.** `saturation.py report --stage B1` was rerun at the close and rewrote `stopping-B1.md` (349 lines); the decision file was not touched. `saturation.py pass2 --stage B1`: 73 of 108 chosen rooms read; run since this pass's last new kind 73 rooms and 83.1 average rooms, against 78 rooms and 72.1 average rooms. Next room: placehearts.
+
+**Close-check figures.** `validate.py B1`: 0 errors, 200 warnings (the capped figure). Ledgers:
+- `scheme_current.jsonl`: 197 themes over 7,786 placed second-order themes, 13,461 placements;
+- `theme_discovery.jsonl`: 197;
+- `ideas-B1.jsonl`: 214;
+- `kinds-B1.jsonl`: 13,652;
+- `multiplacement_log.jsonl`: 6,641;
+- `tier_history.jsonl`: 89;
+- `unplaced-B1.jsonl`: 58;
+- `episodes-B1.jsonl`: 1,341;
+- `pass2-B1.jsonl`: 73;
+- `pass2-chosen-B1.txt`: 108 rooms (125 lines);
+- `saturation-B1.md`: 158 lines.

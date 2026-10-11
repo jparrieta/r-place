@@ -66,3 +66,4 @@ Tag: [future instrument upgrade]. Logged 2026-10-08 on J's request (13:00 Berlin
 - b1d_hesitations.py (B1d-01, fb906885): second-pass helper.
 - b1d_stretch_sizes.py (B1d-01, fb906885): second-pass helper.
 - b1d_tier_rescope.py (B1d-01, fb906885): second-pass helper.
+- b1d_forest_lengths.py (B1d-03, 62fa293e): second-pass helper.
