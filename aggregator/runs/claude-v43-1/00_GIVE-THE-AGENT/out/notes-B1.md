@@ -2490,3 +2490,90 @@ Nothing was left out or softened.
 - `pass2-B1.jsonl`: 73;
 - `pass2-chosen-B1.txt`: 108 rooms (125 lines);
 - `saturation-B1.md`: 158 lines.
+
+## Leg B1d-05, the second pass's fifth stretch, 2026-10-11
+
+**The stretch.** It was declared when the leg opened. It covers the chosen rooms not yet reread in the seeded order from order 381 (placehearts) to order 571 (runescape): 12 rooms, 1,027,761 bytes of codes and second-order themes and 720,090 of forest (`out/_analysis/b1d_stretch_sizes.py`). The rooms, in order: placehearts, stardustcrusaders, france, cardinals, FloydVsVoid, ChronoTrigger, philippines, ireland, Slovakia, unitedkingdom, hawks, runescape. stardustcrusaders, france, cardinals and ChronoTrigger are in group 1 (a gate failed at B1c). philippines, ireland, Slovakia, unitedkingdom, hawks and runescape are in group 2 (most hesitations); for these, each item of the B1b room note's "For B1d" list of kinds left out was checked. placehearts and FloydVsVoid are contrary rooms. Each room got the same five steps as at B1d-01. All 12 rooms were read, every forest whole; none passed 5,000 lines (the largest, runescape, has 1,383). The leg's diary entries are in parts B1-175 to B1-178.
+
+**Placement changes.** There was no mint, split, merge or rescope and no new kind, so the run is not reset. The leg logged 4 place events and 8 unplacements, and placements went from 13,461 to 13,457. The 4 rule 0 lines were written with `b1_multiplace_write4.py` from `out/_analysis/b1_multiplace_b1d05.psv`. The 4 bags were written with `b1_bags_from_file2.py` from `out/_analysis/b1d05_bags_ChronoTrigger.txt`, `b1d05_bags_ireland.txt` and `b1d05_bags_unitedkingdom.txt`, each checked with `b1_precheck_bagfile.py` and `b1_check_bags.py`. By room:
+- placehearts: t11 (arguing whether the varied hearts still belong) took T3-046 beside T3-098. In c0354 and c0355, Lakers members answer the room's complaint about their logo by asking how many designs the hearts had covered: arguing whether covering others' work is fair. The room's answer (c0356 to c0358) sits in t04's bag under T3-010.
+- cardinals: t05 (attacking and joking with the Cubs logo) took T3-037 as a third kind beside T3-006 and T3-050. c0091, a carrying code of the A1 note, judges r/place made for tearing down others' work while endorsing the attack.
+- ChronoTrigger: t02 (keeping builders on the same guide and in the same thread) held T3-070 with T3-015 and T3-014. The reread found a fourth kind carried by concepts of its own: an old screenshot posted so that everyone would use the same image (c0014; c0015, a carrying code), putting the room on one template (T3-091). It is now one placement in T3-070 with T3-091, T3-015 and T3-014 in the bag line.
+- ireland: t03 (making, growing and mending the flag) held T3-065 with T3-003 and T3-091. The reread found calls to get the flag up and grow it (c0063, c0065, c0070, c0155), pride in it (c0050, c0051, c0098, c0152), and complaints with a call to fix it (c0021, c0031, c0069). It is now one placement in T3-065 with T3-003, T3-091, T3-002, T3-009 and T3-021 in the bag line.
+- ireland: t06 (calling raids and taking more canvas) held T3-061 with T3-006 and T3-024. The reread found the Irish-British conflict carried into the raids: Republican slogans proposed over the Union Jack, IRA to be written on it as a deterrent and on the English flag, Northern Ireland removed from the Union Jack, and a call to retake the north (c0033, c0084, c0252, c0258, c0352). It is now one placement in T3-061 with T3-006, T3-024 and T3-081 in the bag line.
+- unitedkingdom: t04 (routing work through coordinates, scripts, templates and side venues) held T3-070 with T3-028 and T3-090. Two carrying codes carry kinds of their own. c0013 (with c0161 and c0162) is three separate flags obstructing one another, complaining the calls are scattered (T3-049). c0016 is a call for someone in charge, putting one member in charge (T3-101). Beside them sits the Discord made to fix it (c0015, T3-014). It is now one placement in T3-070 with T3-028, T3-090, T3-049, T3-101 and T3-014 in the bag line.
+- hawks: t07 (asking what Breadman means and where the joke stops) took T3-097 as a third kind beside T3-023 and T3-031. c0085 is the moderators' post closing their April Fools makeover, and c0086 a member asking whether bread pictures are still allowed. The B1b-20 rule puts switching off the styling in T3-097, and habs t01 holds the same doing in its bag. The B1b-27 rule 0 line for t07 said T3-023 carried the closing; the new line places it in T3-097.
+- runescape: t10 (crediting and contesting who made the drawings) took T3-086 beside T3-043, for c0336, c0456, c0485, c0496 and c0506: the split between RuneScape 3 and old-school players carried onto the shared logo. btc holds the same doing for the block-size split.
+
+The other 5 stretch rooms are unchanged: stardustcrusaders, france, FloydVsVoid, philippines and Slovakia.
+
+**The unplacements, with 8 `tier_history.jsonl` lines.** The rule 0 writer wrote one line for each unplacement it read from the diary: ChronoTrigger t02 from T3-015 and T3-014; ireland t03 from T3-003 and T3-091; ireland t06 from T3-006 and T3-024; unitedkingdom t04 from T3-028 and T3-090. No theme moved under a rule this leg.
+
+**The B1c ideas and gates.**
+- Idea 214, planning the room's pixel operations, was first logged at france and met there again. france t05 stays a bag under T3-070 naming T3-066, T3-167, T3-069 and T3-010. The border and colour balance are sharing the plan; the straw polls put a decision to the room; the evening landing times a mass placement; one colour at a time concentrates effort; the limits with neighbours are borders. Not minted: a kind for the whole plan would hold what these kinds hold, and five stretches found no other theme of it. For B1e, T3-070's gate should say that plans of colours, borders and timings are included.
+- Idea 211, reporting the live canvas, was first logged at france and met there again. france t09 keeps T3-073 with T3-087 and T3-052. Not minted: a live report and a later account are one doing told at different hours, and splitting by timing would split by degree. ainbowroad t12 holds situation reports in T3-038 with T3-087. For B1e, T3-073's gate should say that live reports are included, and the T3-073/T3-038 discriminator should say where a situation report goes. cardinals t06 (watching things move, and what survived) stays in T3-073 for the same reason.
+- The third open idea, gathering lone placers together, was not met.
+- stardustcrusaders t05 stays a bag under T3-003 (members' own joining and helping); the T3-003/T3-038 discriminator is owed. t06 stays a bag under T3-010; the T3-024/T3-010 discriminator is owed. t17 (registering the end) stays in T3-016. It is one more case for T3-117 taking registering the end, with oman t06, heyyea t11, aoe2 t11 and wholesomememes c0257.
+- cardinals t04 (dismissing r/place) stays in T3-037: it judges the canvas, not the room's presence on it. The T3-037/T3-098 discriminator is owed with glasgow t02.
+- ChronoTrigger t02 was bagged, as above. Its B1c failure is the T3-070/T3-091 discriminator, owed for B1e: sharing a template against holding everyone to one.
+
+**T3-188 met again.** No theme was placed in T3-188 this leg; it still holds 7 themes in 7 rooms. The doing showed as single concepts or inside bags:
+- placehearts c0082, named in t06's bag: the room saying it does not mean to swallow art and that anything else is unsanctioned;
+- france c0280, missing from t07's bag: a member telling r/vinesauce that a French community outside Reddit erased their work without the room's consent;
+- FloydVsVoid c0128, a single concept in t04: a member answering r/Ireland that many contributors are not on the sub or the Discord and so not under the room's control, while restoring Irish pixels (c0129).
+
+Cases for the gate question, whether an outside voice's denial counts:
+- france c0573, a member saying a boaster from an outside forum did not speak for that forum;
+- hawks c0176, a member telling a Blues fan that random griefers, not the rival camp, did most of the damage;
+- runescape c0490 and c0501, members setting a sabotage post on the old-school sub apart from the old-school players who helped, and defending the old-school sub by recalling mutual help.
+
+**Gate notes added this leg, for B1e.**
+- T3-146: placehearts t07 covers a personal insult with LOVE and CUTIE (c0061, c0063), not a hate symbol. Does T3-146 take insults?
+- T3-023: Slovakia t02 is r/slovenia's April Fools raid on the room (E943); slovenia t01 holds it in T3-023. Does one sub's joke on another count?
+- T3-027: runescape's argument over whether the defence was scripts or people (c0424, c0477 to c0480) is spread over t10, t13 and t14 and is central to none. Does saying that a defence was scripts count?
+- T3-074/T3-088 for glitches: cardinals c0102, a member given about thirty pixels in a row by a glitch.
+- T3-099: Slovakia t05's carrying code c0048, accepting Norway's terms, is carried by T3-149 with the vote and the repair-for-expansion trade, so T3-099 is not needed.
+- T3-095: unitedkingdom t09's Daily Mail concepts (c0083 to c0085) are the room's own satire, so T3-095 is not added. stardustcrusaders c0180, a moderator holding back a real trailer because people might not believe it on the day, sits near T3-095.
+- T3-032: hawks t02 (c0025, c0045), hawks t07 (c0055, c0062) and Slovakia t02 (c0003, c0004) hold two objecting concepts each, under the rule's three.
+- T3-168 against T3-024: runescape t12's script concepts (c0324, c0354, c0356; c0461, a carrying code) fit T3-168 better than T3-024, which the first pass named.
+- Kinds missing from existing bags, recorded only in the room notes: philippines t05 (T3-022), t07 (T3-170 in about ten concepts, T3-130), t08 (T3-079, T3-194), t10 (T3-145, T3-121, T3-192) and t11 (T3-072, T3-145, T3-130); ireland t08 (the wall politics as T3-130 or T3-080 in about a dozen concepts, T3-142, T3-195, T3-194, and c0274 near T3-140), t10 (T3-027, T3-075) and t15 (T3-073, T3-027, T3-117); unitedkingdom t02 (T3-194, T3-072) and t10 (T3-081); hawks t06 (T3-151, T3-084); runescape t12 (T3-168, T3-150, T3-069, T3-151, T3-086); placehearts t04 (T3-046, for c0356 to c0358); france t07 (T3-188).
+
+**What the second-order themes showed that the notes did not predict.** In 12 rooms no concept needed a new kind. The changes came from three sources. Carrying codes of the A1 note held kinds the first pass had left out (cardinals c0091, ChronoTrigger c0015, unitedkingdom c0013 and c0016). Concept groups too large to leave as peripheral turned two ireland themes into bags. The B1b-20 April Fools rule gave a moderators' closing post to T3-097 (hawks t07). runescape t10 shows one game's two player communities carrying their split onto a shared logo; its partner room 2007scape holds no T3-086 in its own record. The A1 note's "not this" held in all 12 rooms, as qualified at catch-up where the note says so.
+
+**National and political content.** It was read and placed plainly:
+- placehearts: hearts to keep the peace between r/de and r/france; France's flag over the hearts' background, France accused of using the compromise to expand, and a French apology after an outside forum overran the Discord team; French régions; Ireland's border and its request for the same access as France; Korea and Japan; China called too hated for a heart; a Pakistani flag said destroyed by an Indian group; the Syrian flag changed to the rebel banner; the Israel heart attacked; the Iranian heart; Italy and Palestine; r/scotland declaring war; about forty more country, state and region hearts; the trans flag bridged across the Void, and other pride hearts; a swastika called a Nazi sign, then corrected as Buddhist and Hindu.
+- stardustcrusaders: little; the Swiss taking the Killer Queen spot, and a Menacing by the German flag.
+- france: the war with r/de told as the Second World War (Vichy, the Maginot line, Overlord, D-Day, a wartime poster, and a German slur proposed for the German band); the European flag and clasped hands, against members refusing to love those who took their territory; Italy and the wine-label war, with ethnic jokes; r/Bitcoin erased; a hammer and sickle, red brigades and a royalist heart; "La France d'abord", and help for the American flag called collaboration (c0408); Luxembourg, Quebec, Kabylie, the Scottish saltire, Iceland, the Philippines, Nepal and Bosnia; a flag destroyed for being right-wing (c0163); the presidential campaign, with Mélenchon, Fillon, a member warning of a fascist elected (c0442) and an uncoded remark about voting FN.
+- cardinals: none; the Cubs logo was turned into insults.
+- FloydVsVoid: r/the_donald offering to help build The Wall, a joke; the trans flag merged with the rainbow under the prism; the USA flag's loss and return; Ireland's pot of gold; r/Ireland asking the room to stop invading its flag.
+- ChronoTrigger: 4chan trolls using the trans flag's colours over the art, and solidarity with the trans flag room; Marle's sprite drawn naked by trolls and dressed again.
+- philippines: April Fools feints on Duterte, Robredo, Marcos and Martial Law, Mar Roxas, and a Mocha Uson takeover; the wartime flag, red on the left, as the room's stance; Scarborough, Panatag Shoal, Pagasa Island and Benham Rise drawn and kept; China jokes; the drug war as a joke; the red dot on the sun as a protest against the country, condemned; Jollibee as nationalism or marketing; Denmark against Sweden.
+- ireland: Tiocfaidh ár lá and Up the Ra on the flag, condemned as sectarian and threatened with bans; Gerry Adams; a hard border joked; British sabotage blamed; Wales and Scotland called to destroy the Union Jack; Republican slogans and IRA over the Union Jack (t06's bag); Trump's wall refused, and r/the_donald blamed; empathy with a Bosnian flag destroyed by a colonial power; r/lgbt's Stop the Hate over the early flag; an outsider's slur on the Irish (c0347).
+- Slovakia: Czech and Slovak brotherhood and the D2 motorway, against Czechoslovakia called a remnant of the old oppressive regime; fear of a Russian takeover; Norway's attack, vote and terms, and The Defiance meme; a pan-Slavic flag.
+- unitedkingdom: the Falklands, HMS Conqueror and the Belgrano; lebensraum and the third Franco-German war; Rule Britannia, empire and colonising jokes; Brexit proposed and refused, Cameron, and a fake May resignation; the Saltire, the Irish flag in the Union flag, and the kingdoms' unity doubted; Gibraltar; the Queen; a wall for the Italians; a Daily Mail parody headline, and casual racism called out (t09, T3-143 named).
+- hawks: the Breadman makeover's Russian register (the FSB and Russia-hacked-us jokes, bread in Russian, borscht, and the Breadlines joke with one member objecting); the Chief Black Hawk head as the room's mark, with no theme arguing over the image.
+- runescape: fake broadcasts linked to a president's fake-news tweets; r/the_donald's plan to take the corner; the drawing placed south of the NZ flag and the script updated at r/newZealand's request (E988); t15's argument over weaponised autism, with an autistic member calling the joke demeaning (T3-143).
+
+Nothing was left out or softened.
+
+**Corrections and faults in the process.**
+- A compaction happened during hawks, after its prints were written to `$TMPDIR`. After it, one read ran before the head and the stage file were read again: the rest of hawks' theme print. No write ran before the reconciliation. I then read the head, the stage file and the last five diary entries, and logged "compacted; head reconciled" in a call of its own. The hawks room note records the slip.
+- At philippines, one `cut` hit an illegal byte sequence and dropped the middle of an output. The segment was printed again with `head -c` and no `cut`.
+- A grep for the first pass's "For B1d" items failed on a repetition limit; `grep -o "For B1d.*" | cut` replaced it. The first note greps for group 2 rooms returned other rooms' notes; a pattern anchored on the room fixed it.
+- The two `saturation-B1.md` edits ran one after the other, as the batching rule asks.
+- The leg did not check episode joins for the reread rooms.
+
+**The stopping rule.** `saturation.py report --stage B1` was rerun at the close and rewrote `stopping-B1.md` (361 lines); the decision file was not touched. `saturation.py pass2 --stage B1`: 85 of 108 chosen rooms read; run since this pass's last new kind 85 rooms and 106.8 average rooms, against 78 rooms and 72.1 average rooms. Both targets are passed. 23 chosen rooms are unread, so the pass goes on. Next room: theblackvoid.
+
+**Close-check figures.** `validate.py B1`: 0 errors, 200 warnings (the capped figure). Ledgers:
+- `scheme_current.jsonl`: 197 themes over 7,786 placed second-order themes, 13,457 placements;
+- `theme_discovery.jsonl`: 197;
+- `ideas-B1.jsonl`: 214;
+- `kinds-B1.jsonl`: 13,656;
+- `multiplacement_log.jsonl`: 6,649;
+- `tier_history.jsonl`: 97;
+- `unplaced-B1.jsonl`: 58;
+- `episodes-B1.jsonl`: 1,341;
+- `pass2-B1.jsonl`: 85;
+- `pass2-chosen-B1.txt`: 108 rooms (125 lines);
+- `saturation-B1.md`: 173 lines.
