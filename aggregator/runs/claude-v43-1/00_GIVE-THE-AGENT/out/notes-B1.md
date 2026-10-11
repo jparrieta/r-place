@@ -2322,3 +2322,91 @@ Nothing was left out or softened.
 - `pass2-B1.jsonl`: 45;
 - `pass2-chosen-B1.txt`: 108 rooms (125 lines);
 - `saturation-B1.md`: 136 lines.
+
+## Leg B1d-03, the second pass's third stretch, 2026-10-11
+
+**The stretch.** It was declared when the leg opened. It covers the chosen rooms not yet reread in the seeded order from order 265 (Okami) to order 330 (megaman): 18 rooms, 782,756 bytes of codes and second-order themes and 526,235 of forest (`out/_analysis/b1d_stretch_sizes.py`). The rooms, in order: Okami, kanye, glasgow, stardewvalley, danganronpa, warthunder, SwissNeutralityZone, masseffect, ibo, finland, Thegreatblackhole, kpop, lego, wine, duckgame, cfb, rotmg, megaman. glasgow is in group 1 (a gate failed at B1c); the other 17 are contrary rooms. Each room got the same five steps as at B1d-01: the forest opening logged, the A1 note read, every theme read with every concept's words, the forest read whole, then the changes, the room note and `mem.py reread`. All 18 rooms were read. The leg's diary entries are in parts B1-169 to B1-172.
+
+**Placement changes.** There was no mint, split, merge or rescope and no new kind, so the run is not reset. The leg logged 2 place events and 3 unplacements, and placements went from 13,461 to 13,460. The 1 rule 0 line was written with `b1_multiplace_write4.py` from `out/_analysis/b1_multiplace_b1d03.psv`; the 1 bag was written with `b1_bags_from_file2.py` from `out/_analysis/b1d03_bags_finland.txt` and checked with `b1_check_bags.py`. By room:
+- warthunder: t15 moved from T3-063 to T3-185. It is the moderators and members working out the meme rule announced in t14, in the same thread (635l4o): a meme flair, a no-memes filter, votes instead of removal, objections (c0112 to c0135). None of its posts is about the canvas. T3-185 holds the same doing in habs and furry_irl.
+- finland: t04 (pushing back on the expanding Finnish flag) held T3-076, T3-081 and T3-087. The reread found a fourth kind carried by concepts of its own: members telling the Bears and others that the eastward expansion is not the organised effort and that "some random botter" is doing it (c0032, c0033, c0039), the T3-188 doing. By rule 0 it is now a bag: one placement in T3-076, with T3-188, T3-087 and T3-081 named in the bag line. T3-081 and T3-087 were unplaced.
+- megaman: t11 T3-188 beside T3-087. The room told r/osuplace "that's not done by people of /r/megaman" (c0042) and the Dat Boi room "We aren't doing it, we have virtually no control over the beam" (c0067, a carrying code of the A1 note). This follows cirkeltrek t08 (c0306) at B1d-01.
+
+The other 15 stretch rooms are unchanged.
+
+**The moves, with 3 `tier_history.jsonl` lines.** warthunder t15 from T3-063 to T3-185 (members_changed, relating or contrasting). finland t04 out of T3-081 and T3-087 (members_changed, dropping), written by the rule 0 writer from the leg's unplacements.
+
+**The B1c ideas and gates.**
+- The three ideas still open were not met: reporting the live canvas, gathering lone placers together, and planning the room's pixel operations.
+- glasgow t02 (c0002, "What the fuck are you slevvering about?" to the saltire organiser) stays in T3-037. Its gate failure is the T3-037/T3-098 discriminator already owed: it must say where a bare dismissal of a call goes. glasgow t03 ("Or just draw a dick on something", c0005) also stays in T3-037; the fresh B1c reading's T3-033 was the slip.
+- rotmg t14 (an infinite-pixel glitch, c0176) stays in T3-016. T3-016 holds glitch themes from auburn, lost and wholesomememes too; T3-074 holds the same doing from nyjets, furry_irl, msu and hellointernet. One room is not moved before the T3-016/T3-074 discriminator is written at B1e.
+
+**T3-188 met again.** The doing (an organised room separating its plan from placers it cannot control) was placed once and bagged once:
+- megaman t11, placed (T3-188 now holds 7 themes in 7 rooms: ainbowroad, cirkeltrek, polska, PlaceNL, denmark, gatech, megaman);
+- finland t04, in its new bag under T3-076.
+
+It showed as single concepts or inside bags in three more rooms, so these were not placed:
+- stardewvalley c0086, in the t05 bag: a Discord compromise with most of the Swedes "but not the rouge ones";
+- masseffect c0124, in t04: a member from r/2007scape warning that no single person is in charge of the RuneScape subs;
+- megaman c0043 and c0044, in the t10 bag under T3-149.
+
+finland c0007 is the other side of the doing: r/Argentina's member doubting that all of SquareSpiral's placers will heed the boundary, as in PinkVomitMonster c0005. kpop t10 is members refusing a call made to the room ("Who do you think we are?"). That is reining in, and T3-188 does not apply.
+
+Four cases bear on the gate question raised in brasil, whether a denial of the act ("it was not us") counts:
+- kanye c0216, the room's own member telling TheFarLeftSide it did not attack;
+- duckgame thread 62qdx6, a Mexican member telling the room that Mexico was not trying to cover the duck;
+- rotmg c0197, a Slovenian member asking to be told of attacks by Slovenians "so we can try to sort it out";
+- cfb c0518, r/CFB's moderator blaming the lost logo on "rogue elements in the Green Lattice", the receiving side.
+
+cfb c0420 is not counted: its words ask only not to retaliate past cleaning up, and "rogue Red Devils" is the coder's label.
+
+**Gate notes added this leg, for B1e.**
+- T3-100: cfb t04 c0071 and c0269 ask to keep the food flairs. They only ask, so they stay inside T3-023.
+- Single peripheral concepts named only in the room notes: kanye c0340 (a moderator against scripts), glasgow c0014 (a truce with the Destiny 2 crowd), danganronpa c0033 (a banner attempt that became a swastika), SwissNeutralityZone c0097 (multiple accounts), cfb c0201 and c0202 (testing In-N-Out's bacon post) and c0057, c0058 and c0166 (the header clue).
+- Kinds missing from existing bags, recorded only in the room notes: T3-188 in stardewvalley's t05 bag and megaman's t10 bag.
+- For the episode check: cfb c0468 and c0485 report the PSU logo attacked by the Chicago Bears "with help from Finland" and "The Finns are working on behalf of r/CHIBears". finland c0070 and c0071 have outsiders naming Finland as destroying the Bears' logo. The two records disagree on who worked for whom. No episode line was written.
+
+**What the second-order themes showed that the notes did not predict.** In 18 rooms no concept needed a new kind. Both changes besides the move came from the T3-188 doing. In finland t04 a theme that already carried three kinds held concepts of a fourth. In megaman t11 the room's denials of control over its beam had been filed only as tracing who changed the pixels. The A1 note had named those denials as its "not this" and as a carrying code. The move took a theme of moderators setting meme rules out of the canvas-posts kind (warthunder t15), the same correction as furry_irl t17 at B1d-02. The A1 note's "not this" held in all 18 rooms; Thegreatblackhole's holds as qualified at catch-up.
+
+**National and political content.** It was read and placed plainly:
+- Okami: a logo placed beside the Japanese flag.
+- kanye: a deal with "the communists to the north" (TheFarLeftSide) and its thanks; weighing sabotage of the_donald's picture; 4chan's black dots and a /pol/ raid on the trans flag; a member's anti-trans rant shut down in the Discord; "Kanye 2024" under the American flag; the Kalmar Union's alliance request; Italy and Denmark as threats; "PRAY FOR PARIS" turned to the canvas.
+- glasgow: "Place is decidedly lacking in Scottish representation"; the saltire left to r/scotland.
+- stardewvalley: the Swedes turning everything blue and r/Sweden blamed; Estonia taking the fruit by the smaller EU flag; a Polish team defending the chicken.
+- danganronpa: a banner attempt that "has become a swastika"; griefing put down to r/LGBT and a worry about the Pride Flag; r/Sweden's flag over Monokuma; the truce with r/Taiwan, its flag rebuilt elsewhere and its border fixed; the art standing on Malaysia's flag.
+- warthunder: the Soviet hammer and sickle accepted as the room's spot ("Good enough comrade!"); a T-34 with "Russian bias" proposed for the blue corner; r/ireland, r/japan, r/ainbowroad and r/italy asked for room.
+- SwissNeutralityZone: a Savoyard flag to be attacked and made Swiss; a border sent to r/de over France; a 3-Länder-Eck with France and Germany; a réduit; a Swiss heart because Togo, North Korea, Tonga and Mongolia have one; "DEFEND SCHWEIZ"; helping the American flag argued as not neutral and as "the most swiss thing to do"; organised vandals setting the room and MonaLisaClan against each other.
+- masseffect: the Netherlands expanding into a proposed site; "the World Congress".
+- finland: "Suur-Suomi must prevail" and "what we will do to Russia"; help asked against "the brutal swedish hordes" for the Danish flag; a call to take over Norway's flag; Estonia's and Åland's flags helped; Pakistan asking help; Kekkonen on the flag; an equality flag proposed and refused; a Viking ship above the UK.
+- Thegreatblackhole: "Not even the Nazis destroyed art, they only stole it"; a call against the trans road put in a slur, and the war with the transflag kept up; "PURPLE IS TRYING TO INVADE. PURIFY"; the European flag to be swallowed; "consume the Swiss next", answered with free transit through the Alps and gold storage.
+- kpop: "Help us replace the Japanese flag with the Korean one!" refused with "instead of fueling nationalistic tensions we could you know respect them"; a two-person Mauritian flag destroyed by a Twice logo; r/korea's flag located past the German flag banner.
+- lego: an r/denmark member's "We have a causus belli. We own that place, or it shall end in war"; "revenge on New Zealand" over its mini-flags; Colorado overwriting the first logo.
+- wine: Italy messing with France's bottle; "tired of fighting Ireland"; the bottle "heavily botted by spaniards"; r/france's approval and its Discord's call for red wine; "The french did it, why are you claming it?"; Portugal's last laugh.
+- duckgame: protecting the duck from "Trumper raids" and Granddad from "the UK raids"; "Help Mexico against UK!"; "them greedy italians"; a member "from /r/Mexico" claiming the red dick on the duck.
+- cfb: blacking out a swastika under "fuck Nazis"; "a mostly American sub" as an overnight disadvantage; the Finns working for the Chicago Bears against the PSU logo; "the Venezuelan army of bots"; "Down with the flags!" against massive country flags at a future canvas; defacing Argentina's last a; an r/Israel member seeking the Utah logo's builders.
+- rotmg: the Red Army taking the Stone Guardian; the trans flag groups as allies whose flag passed under Oryx, attacks on the flag "from 4chan and such", and an uncoded hostile reply about the trans group answered by c0098; Ireland's expansion called an invasion and defended as protection, the erased background, the agreement with r/ireland and "Craig is now Irish!"; Mexico's offer of mutual protection; "we aren't shitting on slovenia" after an uncoded call to do so, and the Slovenian leaf; help for Brazil, Argentina and Finland against the Void; the Finnish news site; Ireland blamed for the green dot.
+- megaman: France coming for Mega Man; the phrygian cap rejected; France's attacks on the crotch and the French underwear at the close; the German advance and Germany on the laser; "a Void splinter cell" "posing as Germany"; a change to be coordinated with r/chile; a greeting from r/wales; MAMAMOO's Korean logo spared.
+- ibo: none.
+
+Nothing was left out or softened.
+
+**Corrections and faults in the process.**
+- The finland room note said c0007 was the boundary proposer's. A correction note says it is r/Argentina's member doubting SquareSpiral's control of its placers; r/SquareSpiral's member proposed the boundary (c0006).
+- A compaction happened during cfb. After it, two reads ran before the head and the stage file were read again: the first 40,000 bytes of cfb's theme print. No write ran before the reconciliation. I then read the head, the stage file and the last five diary entries, and logged "compacted; head reconciled" in a call of its own. A note records the slip.
+- The two `saturation-B1.md` edits for stretch 3 ran as parallel calls in one turn. Both landed and were checked with wc and grep. A note records it.
+- The leg did not check episode joins for the reread rooms.
+
+**The stopping rule.** `saturation.py report --stage B1` was rerun at the close and rewrote `stopping-B1.md` (339 lines); the decision file was not touched. `saturation.py pass2 --stage B1`: 63 of 108 chosen rooms read; run since this pass's last new kind 63 rooms and 63.1 average rooms, against 78 rooms and 72.1 average rooms. Next room: ainbowroad.
+
+**Close-check figures.** `validate.py B1`: 0 errors, 200 warnings (the capped figure). Ledgers:
+- `scheme_current.jsonl`: 197 themes over 7,786 placed second-order themes, 13,460 placements;
+- `theme_discovery.jsonl`: 197;
+- `ideas-B1.jsonl`: 214;
+- `kinds-B1.jsonl`: 13,649;
+- `multiplacement_log.jsonl`: 6,640;
+- `tier_history.jsonl`: 87;
+- `unplaced-B1.jsonl`: 58;
+- `episodes-B1.jsonl`: 1,341;
+- `pass2-B1.jsonl`: 63;
+- `pass2-chosen-B1.txt`: 108 rooms (125 lines);
+- `saturation-B1.md`: 145 lines.
