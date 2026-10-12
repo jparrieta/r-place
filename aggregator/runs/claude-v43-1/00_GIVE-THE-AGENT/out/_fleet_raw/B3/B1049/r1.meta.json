@@ -1,0 +1,34 @@
+{
+ "packet": "B1049",
+ "group": "B1049",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_C8sKjdwC1pabw8cqSjAz",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 12681,
+  "output_tokens": 44594,
+  "output_tokens_details": {
+   "thinking_tokens": 38039
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 81024,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.057803244,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.057803244,
+   "upstream_inference_prompt_cost": 0.004290444,
+   "upstream_inference_completions_cost": 0.0535128
+  }
+ },
+ "elapsed_s": 170.8,
+ "packet_sha256": "e30243fcd4c9c089f990962db09f8cf5cd7330456f9f71463e8fbc843c2918ef",
+ "valid": false,
+ "why": "line 3 is not JSON: {\"sub\": \"r/philippines\", \"theme_id\": \"T2-11924\", \"batch\": \"B1049\", \"agent\": \"r1\"",
+ "served_matches_probe": true
+}

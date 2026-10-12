@@ -170,3 +170,51 @@ stage B3:
 ```
 
 The leg closes with `done.sh B3 --cut packets-out`. J runs the dispatch in two groups, the first 100 batches and then the other 1,110, with the gold check of section 3.2 between them.
+
+## Leg B3a-p2: the gold check after group 1
+
+J dispatched group 1 (the first 100 batches of `b3_dispatch_order.json`) at 15:17Z. It ended at 15:32Z: 100 valid returns, 0 exhausted, 4 replies reissued (3 cited a concept outside the item, 1 line not JSON). The record is `out/_fleet_raw/B3/PARTIAL-2026-10-12T153202Z.json`. No DONE exists, since group 2 has not gone out. This leg is a continuation of the build leg (the PI, 15:51Z): it runs the gold check and closes at `--cut packets-out`.
+
+**The stop rule, declared before any gold figure is computed.** The build leg declared no number for "a fall beyond the stability floor". I fix it here.
+- **The comparison.** Each gold copy that group 1 returned is scored against my placement in `gold_items.jsonl` (Jaccard), against the rechecked placement, and on primary match. The B2 figure for the same copy is the mean over B2's nine frozen-scheme readings of that item (the gold round, stab-1 and stab-2: the same reader model, the same scheme). The fall is the B2 mean minus the B3 mean over the same copies, so both sides weigh the items alike.
+- **The floor.** `stability-B2.md` gives 0.807: readers differ on about 0.193 of a placement whatever the brief's wording. A fall in fidelity or in primary match larger than 0.193 is beyond the floor. Group 2 then does not go out as built, and J is asked before any batch or packet changes.
+- **Reported beside the rule, deciding nothing:** a bootstrap 95% interval for the fall, resampling batches; the figures per batch and per reader; the themes each reader missed; and the items whose own fall is beyond the floor.
+- **How lines are read.** One valid reply per packet (its `meta.json` says `valid`). Each line is keyed on its batch and position, and the item is the one `batches-B3.jsonl` puts at that position. The typed fleet theme id is checked against that item through `fleet_ids.jsonl`, as a label. A gold copy is the position in a batch whose item is in that batch's `gold_items`. The allocator never seeds a gold copy into a batch that already holds the item, so the key is unambiguous.
+
+**What group 1 returned** (`out/_analysis/b3_gold_group1.py`; per copy in `b3_gold_group1.tsv`, figures in `b3_gold_group1.json`).
+- **Returns.** 100 packets, one valid reply each, 1,470 pass-1 lines. Every packet's pass-1 positions run 1 to n. Every typed fleet theme id names the item its position holds. No line reads `label-only`.
+- **Gold.** All 72 gold copies seeded in group 1 came back: 34 of the 40 gold items, one copy in each of 72 batches (31 in replicate 1, 41 in replicate 2). No reissued packet held a gold copy.
+
+The next table compares group 1's gold copies with B2's nine frozen-scheme readings of the same items, weighted copy by copy. The fall is B2 minus B3, and the interval resamples batches.
+
+| figure | B3 group 1 | B2, same copies | fall | 95% interval of the fall |
+|---|---|---|---|---|
+| fidelity against `gold_items.jsonl` | 0.637 | 0.625 | -0.011 | -0.065 to +0.045 |
+| fidelity against the rechecked placements | 0.657 | 0.646 | -0.011 | -0.065 to +0.045 |
+| primary match | 0.833 | 0.812 | -0.022 | -0.071 to +0.028 |
+
+**Decision: group 2 goes out as built.** Group 1 scored slightly above B2 on gold, not below it. The upper end of every interval (+0.045 at most) lies far inside the floor of 0.193. No batch or packet changes, and no question goes to J.
+
+**Per copy.** 31 of the 72 copies match my set exactly, and 11 score 0. No set is empty. The misses follow the pattern B2 found. Readers drop my second placement, most often T3-063 (9 copies), T3-004 (5) and T3-039 (4). They add T3-033 on 4 copies.
+
+**Items whose own fall exceeds the floor.** These are one to four copies each, read as cases and not as a figure:
+- ukraine t07, one copy, in B1150. The reader placed T3-073, while my placement is T3-009. B2's readers took T3-009 on 8 of 9 readings. T3-009/T3-073 is one of the three pairs that split B2's readers more than once.
+- shitredditsays t09, two copies (B0261, B0975). Both readers placed T3-182 against my T3-063. B2's readers matched T3-063 on only 2 of 9 readings.
+- cloud9 t12, one copy, in B0850. The reader placed T3-117 against my T3-002. B2's readers matched T3-002 on only 2 of 9 readings.
+- nuclearthrone t06 and roosterteeth t03. These are partial losses.
+
+**What the figure licenses.** The readers share an architecture with me and with each other. So the figure bounds whether the written instrument decides the same way at fleet scale as in the pilot, not whether it is right.
+
+**Left to the check leg.** `fidelity-B3.md` (per batch and per reader over both groups), the screen of section 3.1, the position curve and the register. This leg writes none of them. The copy-level table above is their input for group 1.
+
+**The close-check, B3a-p2.** `validate.py B3` reads the leg as a build leg with no DONE, so the PARTIAL record needs no question to J. It reported:
+
+```
+stage B3:
+  batches 1210, R 2, rooms 705, items 7844, graph one component
+  leg: build (0 dispatch folders with DONE)
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+The leg closes with `done.sh B3 --cut packets-out`. Group 2 (1,110 batches) is J's to send.

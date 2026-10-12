@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B3a, 2026-10-12 (UTC): the fleet built in B2's packet shape (J at QB3-001): 1,210 self-contained packets; the close-check clean. J runs the dispatch; B3b checks it.
+Under 3,000 words, rewritten whole at every close. Last written at B3a-p2, 2026-10-12 (UTC): the gold check after dispatch group 1 passed; group 2 goes out as built. J runs it; B3b checks the whole fleet after its DONE.
 
 ## The method question, in one sentence
 
@@ -10,7 +10,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is done: three rounds, the freeze, the gold round and the stability check (`pilot_report.md`, `stability-B2.md`, `handback-B2.md`). Stage B3, the fleet, is open: B3a has built it; the dispatch and B3b come next.
+Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is done: three rounds, the freeze, the gold round and the stability check (`pilot_report.md`, `stability-B2.md`, `handback-B2.md`). Stage B3, the fleet, is open. B3a built it. Group 1 went out and passed the gold check (B3a-p2). Group 2 and then B3b come next.
 
 ## Stage B3, as built (B3a)
 
@@ -19,6 +19,8 @@ Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families)
 **Declarations** (`notes-B3.md`): R = 2; seed 20261015 (under `:redraw2`); 15 positions and 180,000 bytes of item text a packet; rooms poured in seeded order and spread where a batch fills; gold one copy per 20 items, at most two a batch, positions spread least-used first; one duplicate a batch; no exemplars; warm-up in reserve (B2's agreement fell, not rose, within packets); dispatch in two groups, 100 then 1,110, the gold check between; the ten biggest bags flagged; cost about 40 to 55 USD.
 
 **Built.** `out/_analysis/b3_allocate2.py` wrote `batches-B3.jsonl`: 1,210 batches, one reader each (605 a replicate); one component; each replicate places the 7,844 items once; 17,653 positions (15,688 readings, 1,210 duplicates, 755 gold copies, 18 or 19 per gold item). `out/_analysis/b3_packets_fleet2.py` wrote `_packets-B3/`: 22 shared pages, 1,210 packets (at most 178,758 item bytes), fleet ids only, `codes_by_item` in the MANIFEST. One coder note held a room id (nyjets t11, c0104): served as its fleet id. `RETURN-B3.md` carries J's two rulings word for word. `validate.py B3`: 0 errors, 0 warnings.
+
+**Group 1 and the gold check (B3a-p2).** J sent the first 100 batches at 15:17Z. They returned 100 valid replies (4 reissued, 0 exhausted; `_fleet_raw/B3/PARTIAL-2026-10-12T153202Z.json`). No DONE exists yet, and I write none. The stop rule was declared in `notes-B3.md` before scoring: a fall over 0.193 (1 − 0.807) in gold fidelity or primary match, against the mean of B2's nine frozen-scheme readings of the same items, stops group 2. Of the 72 gold copies seeded, 72 came back. Fidelity was 0.637 against 0.625 (fall −0.011, interval −0.065 to +0.045), and primary match 0.833 against 0.812. So group 2 goes out as built. Five items had their own fall beyond the floor on 1 to 4 copies each, among them ukraine t07 (T3-073 placed for T3-009). Per copy: `out/_analysis/b3_gold_group1.tsv`. `fidelity-B3.md` waits for the check leg.
 
 ## Stage B2, in short
 

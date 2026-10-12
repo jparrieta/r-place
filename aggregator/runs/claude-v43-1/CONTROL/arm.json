@@ -28,12 +28,13 @@
   "readers": {
    "route": "gateway",
    "model": "deepseek/deepseek-v4.1-flash",
-   "n": 2,
+   "n": 1,
    "shared": "index.md,G*.md",
    "declared_served": "deepseek/deepseek-v4.1-flash",
    "max_tokens": 128000,
    "reasoning_effort": "medium",
-   "note": "J 2026-10-12 07:34: bypass the preset (it 400s on every call), V4.1 Flash direct, medium effort; max_tokens 128000 so input plus output stays well inside the 1,048,576 window"
+   "note": "J 2026-10-12 07:34: bypass the preset (it 400s on every call), V4.1 Flash direct, medium effort; max_tokens 128000 so input plus output stays well inside the 1,048,576 window",
+   "note_n": "handler 2026-10-12 17:15 Berlin: n=1 reader per packet; the build carries R=2 as two replicate batches per item (605 packets each), so n=2 would read every item four times"
   }
  },
  "B4": {

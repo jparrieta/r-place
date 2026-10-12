@@ -384,3 +384,6 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 2026-10-12T14:00Z: J's dispatches done 13:28-13:39Z (gold 288,978 in/225,436 out; stab-1 46,041/211,978; stab-2 132,118/276,244; 9 valid, 0 exhausted each). B2d started.
 2026-10-12T14:20Z: B2d closed 14:10Z (0/0; gold fidelity 0.624, pairwise 0.818, alpha 0.809; stability 0.807; 143 turns, 286 in, 551,707 cache-write, 100,694,079 cache-read, 205,903 out; head 3,015 words). J: go. B3a started.
 2026-10-12T14:57Z: QB3-001/002 answered (B2 shape for B3, J 16:37); tools installed (packets 779f2fe4, fleet 47c03966, vlib cf863555, stage_B3 8b77783e; B2 validate still 0/0); B3a resumed to redraw and rebuild.
+2026-10-12T15:13Z: B3a closed 15:00Z (0/0; 1,210 packets, 605/replicate, 17,653 positions; RETURN-B3 carries both J rulings; 161 turns, 322 in, 612,504 cache-write, 144,557,493 cache-read, 352,327 out); pushed c17c5b99. Group 1 (100 batches) command to J.
+2026-10-12T15:40Z: B3 group 1 done 15:32Z (100 valid, 0 exhausted, 4 reissued; 1,693,077 in / 2,278,585 out). B3b started for the section 3.2 gold check.
+2026-10-12T15:53Z: B3b refused to prepare (no DONE after a partial dispatch; handler did not check). Gold check run instead as B3a-p2 (build continuation), corrected handler text sent.

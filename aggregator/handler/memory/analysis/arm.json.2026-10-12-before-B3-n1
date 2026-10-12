@@ -1,0 +1,132 @@
+{
+ "_note": "One entry per stage, read by step.sh (the analyst's model and effort, passed as --model and --effort), close.sh (the model audit) and dispatch.sh (the readers). A leg may override: \"legs\": {\"<leg>\": {...}}. J, 2026-09-25: every stage on Opus 5.5 (Fable 5.1 draws usage credits this account does not hold); effort medium for the standard stages (A1, B2, B3, D1, D2, E1), xhigh for the intensive ones (B1, B4 to C5, C4 the field included, D3 to D6, E2).",
+ "A1": {
+  "analyst": "claude-opus-5-5",
+  "effort": "medium"
+ },
+ "B1": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh"
+ },
+ "B2": {
+  "analyst": "claude-opus-5-5",
+  "effort": "medium",
+  "readers": {
+   "route": "gateway",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "n": 3,
+   "shared": "index.md,G*.md",
+   "declared_served": "deepseek/deepseek-v4.1-flash",
+   "max_tokens": 128000,
+   "reasoning_effort": "medium",
+   "note": "J 2026-10-12 07:34: bypass the preset (it 400s on every call), V4.1 Flash direct, medium effort; max_tokens 128000 so input plus output stays well inside the 1,048,576 window"
+  }
+ },
+ "B3": {
+  "analyst": "claude-opus-5-5",
+  "effort": "medium",
+  "readers": {
+   "route": "gateway",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "n": 2,
+   "shared": "index.md,G*.md",
+   "declared_served": "deepseek/deepseek-v4.1-flash",
+   "max_tokens": 128000,
+   "reasoning_effort": "medium",
+   "note": "J 2026-10-12 07:34: bypass the preset (it 400s on every call), V4.1 Flash direct, medium effort; max_tokens 128000 so input plus output stays well inside the 1,048,576 window"
+  }
+ },
+ "B4": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh",
+  "readers": {
+   "route": "gateway",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "n": 2,
+   "shared": "index.md,G*.md",
+   "declared_served": "deepseek/deepseek-v4.1-flash",
+   "max_tokens": 128000,
+   "reasoning_effort": "medium",
+   "note": "J 2026-10-12 07:34: bypass the preset (it 400s on every call), V4.1 Flash direct, medium effort; max_tokens 128000 so input plus output stays well inside the 1,048,576 window"
+  }
+ },
+ "C1": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh"
+ },
+ "C2": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh",
+  "readers": {
+   "route": "cli",
+   "model": "claude-opus-5-5",
+   "n": 1,
+   "shared": "",
+   "allow_anthropic": true
+  }
+ },
+ "C3": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh"
+ },
+ "C4": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh"
+ },
+ "C5": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh",
+  "readers": {
+   "route": "cli",
+   "model": "claude-opus-5-5",
+   "n": 1,
+   "shared": "",
+   "allow_anthropic": true
+  }
+ },
+ "D1": {
+  "analyst": "claude-opus-5-5",
+  "effort": "medium"
+ },
+ "D2": {
+  "analyst": "claude-opus-5-5",
+  "effort": "medium",
+  "readers": {
+   "route": "gateway",
+   "model": "@preset/cheap",
+   "n": 2,
+   "shared": ""
+  },
+  "labelers": "GPT in OpenAI Codex, one fresh session per room, run by the adaptation handler from out/handoff-D/HANDLER.md"
+ },
+ "D3": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh"
+ },
+ "D4": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh"
+ },
+ "D5": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh"
+ },
+ "E1": {
+  "analyst": "claude-opus-5-5",
+  "effort": "medium",
+  "readers": {
+   "route": "gateway",
+   "model": "@preset/cheap",
+   "n": 1,
+   "shared": ""
+  }
+ },
+ "E2": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh"
+ },
+ "D6": {
+  "analyst": "claude-opus-5-5",
+  "effort": "xhigh"
+ }
+}
