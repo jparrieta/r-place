@@ -22,6 +22,7 @@ import argparse, hashlib, importlib.util, json, os, random, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, "out")
+sys.path.insert(0, os.path.join(ROOT, "tools"))      # packets.py imports vlib for the split layer
 spec = importlib.util.spec_from_file_location("packets", os.path.join(ROOT, "tools", "packets.py"))
 pk = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(pk)
@@ -69,8 +70,14 @@ def main():
     ap.add_argument("--n", type=int); ap.add_argument("--write", action="store_true")
     a = ap.parse_args()
     cmap, tmap = load_ids()
-    store = pk.Store(ROOT)
+    store = pk.Store(ROOT, OUT)                       # with out/, the Store reads the split layer
     items = list(dict.fromkeys(pk.key_of(x) for x in jl(os.path.join(OUT, "author_items.jsonl"))))
+    # a parent superseded by a split (out/recut/themes.jsonl) is not served; its children are (QB2-010, QB2-011)
+    rp = os.path.join(OUT, "recut", "themes.jsonl")
+    parents = {(r["sub"], r["parent"]) for r in jl(rp)} if os.path.exists(rp) else set()
+    dropped = [x for x in items if x in parents]
+    items = [x for x in items if x not in parents]
+    print("items %d; superseded parents left out %d: %s" % (len(items), len(dropped), ", ".join("%s/%s" % x for x in dropped)))
     random.Random(a.seed).shuffle(items)
     blocks = [render(store, cmap, tmap, s, t, 1) for s, t in items]
     sizes = [len("\n".join(b).encode("utf-8")) + 2 for b in blocks]

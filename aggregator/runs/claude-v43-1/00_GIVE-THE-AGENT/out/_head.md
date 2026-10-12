@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B2b-r2-p2, 2026-10-12 (UTC): round 2 scored, verdicts given, 9 edits made and rechecked; round 3 ruled (QB2-007), fleet ids and the also_present floor written in, 16 faulty return lines waived by J (QB2-009); the hard set's six bags and one gold bag split into 56 children and placed (QB2-010). The check now reads the split layer (QB2-011); closed with done.sh B2. Round 3's build comes next.
+Under 3,000 words, rewritten whole at every close. Last written at B2a-r3, 2026-10-12 (UTC): round 3 built, 98 items in 7 self-contained packets with fleet ids (`out/_packets-B2/round-3/`). The dispatch runs next, then the check of round 3. Before it, at B2b-r2-p2: round 2 scored, 9 edits, 16 faulty lines waived (QB2-009), six bags and one gold bag split into 56 children (QB2-010), the check reading the split layer (QB2-011).
 
 ## The method question, in one sentence
 
@@ -66,7 +66,7 @@ The readers ran on deepseek/deepseek-v4-flash-0731 at high effort on mixed provi
 
 ## What comes next
 
-- Round 3's build with `b2_packets_fleet.py --round 3` on the 98 items (it reads author_items.jsonl: exclude the six superseded parents first), then its dispatch and check.
+- Round 3 is built (B2a-r3): `out/_packets-B2/round-3/`, 7 packets (10 to 15 items, 31,082 to 113,527 bytes of item text), seed 20261013, the six parents left out, `codes_by_item` in each MANIFEST entry; `run_manifest.json` round-3 entry. Its check: translate the returns with `b2_translate_fleet.py --round 3`, score with a round-3 copy of `b2_score_r2.py` reading the translated copies, and report the 40 round-1 items, the 4 unsplit bags and the 54 children apart. Packing one item per room per packet is still unruled (siblings share packets).
 - Stop for J before splitting the 846 B1 bags.
 - Before any freeze: the 464 unconfirmed pairs read and confirmed, and every cluster read for a decide_when_both that names a theme with no discriminator.
 
@@ -128,8 +128,8 @@ None is filed in `_questions/`. These remain open:
 
 - B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `scheme.jsonl` (197, edited); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines, F-001 and its superseding line); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
 - B2:
-  - `notes-B2.md` (716 lines); `author_items.jsonl` (104, six parents superseded); `gold_items.jsonl` (42); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (2);
-  - `scheme_edits.jsonl` (295); `rechecks-B2.jsonl` (1,413, none owed); `gate_checks.jsonl` (31 pairs confirmed); `exemplar_candidates.jsonl` (45); `tier_history.jsonl` (381); `run_manifest.json` (A1, B2 round 1, two B2 round-2 entries).
+  - `notes-B2.md` (776 lines); `author_items.jsonl` (104, six parents superseded); `gold_items.jsonl` (42); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (2);
+  - `scheme_edits.jsonl` (295); `rechecks-B2.jsonl` (1,413, none owed); `gate_checks.jsonl` (31 pairs confirmed); `exemplar_candidates.jsonl` (45); `tier_history.jsonl` (381); `run_manifest.json` (A1, B2 round 1, two B2 round-2 entries, B2 round 3).
 - Asks QB2-001 to QB2-011 are answered; none is open. `return_waivers.jsonl` holds 16 waivers (J, QB2-009). `out/recut/` holds 56 children.
 
 ## Rules kept

@@ -239,5 +239,85 @@
   "scheme": "out/scheme.jsonl after round 1's edits, exemplars withheld (pages unchanged from B2a-r2)",
   "return_spec": "out/RETURN-B2.md with also_present, without the parts paragraph",
   "notes": "Each packet is self-contained and goes to three fresh readers. A change in agreement against round 1 is partly the reader settings."
+ },
+ {
+  "stage": "B2",
+  "round": 3,
+  "leg": "B2a-r3",
+  "written_utc": "2026-10-12T08:43:12Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly, the same readers as round 2 (J, QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261013,
+   "cut": "consecutive cut of the seeded order, largest packet minimised"
+  },
+  "n_agents": 3,
+  "n_items": 98,
+  "packets": [
+   {
+    "name": "P03-r3-1",
+    "items": 10,
+    "bytes": 114079,
+    "item_bytes": 113527,
+    "sha256": "46629cdb1c08a7aad9ffd0b0ad6238752c424786476e8c6c073d4956b076d5ff"
+   },
+   {
+    "name": "P03-r3-2",
+    "items": 13,
+    "bytes": 112573,
+    "item_bytes": 112021,
+    "sha256": "9366b17d0fe5a1432980ffbe7ea41980707e83e6bbc7c39b22e2643514911301"
+   },
+   {
+    "name": "P03-r3-3",
+    "items": 15,
+    "bytes": 42711,
+    "item_bytes": 42159,
+    "sha256": "22e0757687edc96eb132a0ae28c707f21c39b2223023da57aa6eb215cd4c0a63"
+   },
+   {
+    "name": "P03-r3-4",
+    "items": 15,
+    "bytes": 49344,
+    "item_bytes": 48792,
+    "sha256": "916a1ef7f87499d17229be700a85dddc9f8e37435c80aea34b4f3b2de8e1af5e"
+   },
+   {
+    "name": "P03-r3-5",
+    "items": 15,
+    "bytes": 89046,
+    "item_bytes": 88494,
+    "sha256": "9e890e0b1cca4ba727abfc20c81889f7e6cb7c5fd1eea02514e7d497695b85b5"
+   },
+   {
+    "name": "P03-r3-6",
+    "items": 15,
+    "bytes": 31634,
+    "item_bytes": 31082,
+    "sha256": "7c015869459f7fd85972324f0992a1f8b6ec7c7fbf35edf279b9e8e91ef9f6fa"
+   },
+   {
+    "name": "P03-r3-7",
+    "items": 15,
+    "bytes": 92551,
+    "item_bytes": 91999,
+    "sha256": "212537ccca0b1ef3ceb26e43fbf40e2b7335f4762b3cdaa75d3e6562ef52f5d5"
+   }
+  ],
+  "ids": "fleet ids only (out/fleet_ids.jsonl): C and seven digits for concepts, T2- and five digits for second-order themes; each MANIFEST entry carries codes_by_item for fleet.py's citation check",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "scheme": "out/scheme.jsonl after round 2's edits (scheme_edits 295 lines), exemplars withheld",
+  "items": "the 44 unsplit hard items and the 54 children of the six split bags (QB2-010); the six parents are not served",
+  "return_spec": "out/RETURN-B2.md with fleet ids and the three-concept floor for also_present (QB2-008)",
+  "notes": "Pilot round 3, the first round in which only the scheme changes (QB2-007) and the first with fleet ids."
  }
 ]
