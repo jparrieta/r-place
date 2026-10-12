@@ -74,7 +74,8 @@ def main():
     items = list(dict.fromkeys(pk.key_of(x) for x in jl(os.path.join(OUT, "author_items.jsonl"))))
     # a parent superseded by a split (out/recut/themes.jsonl) is not served; its children are (QB2-010, QB2-011)
     rp = os.path.join(OUT, "recut", "themes.jsonl")
-    parents = {(r["sub"], r["parent"]) for r in jl(rp)} if os.path.exists(rp) else set()
+    withdrawn = os.path.exists(os.path.join(OUT, "recut", "WITHDRAWN.json"))   # J withdrew the split, 2026-10-12
+    parents = {(r["sub"], r["parent"]) for r in jl(rp)} if os.path.exists(rp) and not withdrawn else set()
     dropped = [x for x in items if x in parents]
     items = [x for x in items if x not in parents]
     print("items %d; superseded parents left out %d: %s" % (len(items), len(dropped), ", ".join("%s/%s" % x for x in dropped)))

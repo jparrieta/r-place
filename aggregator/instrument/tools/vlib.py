@@ -865,6 +865,23 @@ def recut_overlay(name, rows, outdir):
     if not os.path.exists(tp):
         return rows
     kids = jsonl(tp) or []
+    if os.path.exists(os.path.join(d, "WITHDRAWN.json")):
+        # J, 2026-10-12: the split is withdrawn (second-order themes are the coders' to cut, not the aggregator's).
+        # The parents stand again; a concept keeps its children in .lineage only, so a record made while the
+        # split stood still resolves, and nothing written under out/recut/ is deleted
+        if name == "themes":
+            return rows
+        kid_of = {}
+        for c in jsonl(os.path.join(d, "codes.jsonl")) or []:
+            kid_of.setdefault((c.get("sub"), c.get("code_id")), []).append(c.get("theme_id"))
+        out = []
+        for r in rows:
+            k = kid_of.get((r.get("sub"), r.get("code_id")))
+            if k:
+                r = dict(r)
+                r["split_lineage"] = k
+            out.append(r)
+        return out
     gone = {(k.get("sub"), k.get("parent")) for k in kids}
     if name == "themes":
         keep = [r for r in rows if (r.get("sub"), r.get("theme_id")) not in gone]

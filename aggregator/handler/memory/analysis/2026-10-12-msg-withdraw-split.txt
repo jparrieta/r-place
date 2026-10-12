@@ -1,0 +1,11 @@
+Handler text, carrying J's ruling (2026-10-12, 12:04 to 12:10 Berlin).
+
+J: the bags are a coder problem, not an aggregator one, so the aggregator is not in charge of breaking them. The split was a mistake: go back to before any cut and go on from there. He chose to withdraw the split inside this run rather than branch from an earlier close.
+
+What that means, nothing deleted:
+1. Write out/recut/WITHDRAWN.json: {"withdrawn": true, "ruled_by": "J 2026-10-12", "reason": "second-order themes are the coders' to cut; the aggregator takes them as given"}. From then every tool reads the store as it was: the six parents (and the gold bags) stand again, the 56 children are gone from every view, and a record you made about a child while the split stood still resolves. out/recut/ stays as written.
+2. author_items.jsonl and gold_items.jsonl go back to their state before the split: the children's lines move to out/_analysis/author_items_split_withdrawn.jsonl and gold_items_split_withdrawn.jsonl (kept, not deleted), and each file again holds the items it held before (50 and 40 as round 2 had them; say so if your count differs).
+3. Supersede whatever the split wrote elsewhere (placements of the children, the rechecks owed by the split, the multiplacement or tier lines it changed): say in notes-B2.md which records belong to the withdrawn split, so no figure counts them. Round 2's scores, the waivers, the edits 287 to 295 and their rechecks stand.
+4. mem.py split now refuses. A bag stays one item: one theme, the others under also_present with three concepts of its own at least.
+5. Rebuild round 3 on the 50 items with fleet ids, as before, superseding the 98-item packets (keep them under a new name), then close with done.sh B2 --cut packets-out. The 841 B1 bags are not split by this run; J will decide how the coders recut them.
+6. In notes-B2.md, a section "The split, withdrawn": what was cut, why J withdrew it, and that round 3 is round 2's set.

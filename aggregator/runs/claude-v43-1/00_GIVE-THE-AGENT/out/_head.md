@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B2a-r3, 2026-10-12 (UTC): round 3 built, 98 items in 7 self-contained packets with fleet ids (`out/_packets-B2/round-3/`). The dispatch runs next, then the check of round 3. Before it, at B2b-r2-p2: round 2 scored, 9 edits, 16 faulty lines waived (QB2-009), six bags and one gold bag split into 56 children (QB2-010), the check reading the split layer (QB2-011).
+Under 3,000 words, rewritten whole at every close. Last written at B2a-r3-p2, 2026-10-12 (UTC): J withdrew the split; round 3 rebuilt on round 2's 50 items in 5 self-contained packets with fleet ids (`out/_packets-B2/round-3/`). The dispatch runs next, then the check of round 3.
 
 ## The method question, in one sentence
 
@@ -51,23 +51,17 @@ The readers ran on deepseek/deepseek-v4-flash-0731 at high effort on mixed provi
 
 **Section 4.** The packets are too short for round 1's curve. Within packets, agreement with the other two falls from first half to last in 9 of 12 readers. The B3 cap stays at 40 with a 10-item warm-up.
 
-**Open.**
-- None besides QB2-010.
-
 **QB2-009, answered.** No reissue of round 2: the 16 faulty lines (one incomplete, one mistyped heading, 14 citing concepts not the item's own) are waived by name in `out/return_waivers.jsonl`; `validate.py` skips and counts them. Round 2 stands as scored. The faults came from room ids repeating across rooms and from invented ids landing on sibling codes; fleet ids end both, and `fleet.py` now rejects a line citing a code its item does not hold, using each packet's MANIFEST `codes_by_item` (written by `b2_packets_fleet.py`).
-- None. QB2-011 (answered): the handler fixed the check. A split child and its parent are both second-order themes; a split concept belongs to its child and its parent; a round's n_items is held to its own MANIFEST. `validate.py B2`: 0 errors, 444 warnings.
-
-**The split (QB2-010, approved, done).** `mem.py split` (the handler's) writes `out/recut/`. Read whole in one blind window, cut by doing, each child at least three concepts: 2007scape t04 into 14 (t15 to t28), sweden t01 into 10 (t08 to t17), theblackvoid t12 into 10 (t16 to t25), ainbowroad t03 into 8 (t14 to t21), t04 into 6 (t22 to t27), t07 into 6 (t28 to t33); gold dankmemes t16 into 2 (t18, t19). Seven small gold bags (5 to 12 concepts) cannot be cut at the floor and stay. The cut files are `out/_analysis/b2_split_*.txt`, run by `b2_split_run.py`. The 56 children are placed (`b2_author_split.py`: 40 on one theme, 16 on two, none a bag) in `author_items.jsonl` (104 lines) and `gold_items.jsonl` (42), the parents' lines kept as written. Round 3's hard set: 44 unsplit items and 54 children, 98. 526 rechecks owed to the children recorded, none moves (`b2_rechecks_split.py`); `rechecks-B2.jsonl` 1,413, none owed. `mem.py theme` printed some lines blank; read bags with `mem.py codes --sub S --second tNN`. The 846 B1 bags wait for J's word.
+**The split, withdrawn (J, 2026-10-12, 12:04 Berlin).** At B2b-r2-p2 (QB2-010, QB2-011) I cut six hard bags into 54 children and gold dankmemes t16 into 2. J withdrew it: bags are a coder problem; second-order themes are the coders' to cut, and the aggregator takes them as given. `out/recut/WITHDRAWN.json` makes every tool read the store as before the split; `out/recut/` stays as written. The children's placement lines moved to `out/_analysis/author_items_split_withdrawn.jsonl` (54) and `gold_items_split_withdrawn.jsonl` (2). `rechecks-B2.jsonl` lines 888 to 1,413 (526) are the children's and stay so they resolve; no figure counts them. The full list is in `notes-B2.md`, "The split, withdrawn". Round 2's scores, the waivers, edits 287 to 295 and their rechecks stand. This run splits none of the B1 bags (J counts 841; this head said 846, not reconciled); J decides how the coders recut them. `mem.py theme` printed some lines blank; read bags with `mem.py codes --sub S --second tNN`.
 
 **Answered at this leg.**
 - QB2-007: round 3 runs on the edited scheme with round 2's readers; it is the first round where only the scheme changes. No freeze.
-- QB2-008: a theme enters `also_present` only with at least three concepts of its own (in RETURN-B2.md; carry it into B3's return specification when B3 comes). The bags need a recut, proposed first (QB2-010).
+- QB2-008: a theme enters `also_present` only with at least three concepts of its own (in RETURN-B2.md; carry it into B3's return specification when B3 comes). A bag stays one item.
 - Fleet ids (J, 09:14): from round 3 and in B3, packets carry only fleet ids for codes and second-order themes (`out/fleet_ids.jsonl`); returns are translated back before scoring (`out/_analysis/b2_packets_fleet.py`, `b2_translate_fleet.py`); my files keep room ids. Carry this into B3's specification too. `validate.py` reads room ids in `_fleet_raw`, which J must square with fleet-id returns.
 
 ## What comes next
 
-- Round 3 is built (B2a-r3): `out/_packets-B2/round-3/`, 7 packets (10 to 15 items, 31,082 to 113,527 bytes of item text), seed 20261013, the six parents left out, `codes_by_item` in each MANIFEST entry; `run_manifest.json` round-3 entry. Its check: translate the returns with `b2_translate_fleet.py --round 3`, score with a round-3 copy of `b2_score_r2.py` reading the translated copies, and report the 40 round-1 items, the 4 unsplit bags and the 54 children apart. Packing one item per room per packet is still unruled (siblings share packets).
-- Stop for J before splitting the 846 B1 bags.
+- Round 3 is built (B2a-r3-p2): `out/_packets-B2/round-3/`, round 2's 50 items in 5 packets (7 to 13 items, 89,418 to 135,742 bytes of item text), seed 20261013, `codes_by_item` in each MANIFEST entry, 0 room ids in any packet or shared page (`b2_r3_roomid_scan.py`); `run_manifest.json` entry of B2a-r3-p2. The 98-item build is at `out/_analysis/b2_packets_round3_split_withdrawn/`. Its check: translate the returns with `b2_translate_fleet.py --round 3`, score with a round-3 copy of `b2_score_r2.py` reading the translated copies, and compare item for item with round 2, the 40 round-1 items and the ten biggest bags apart.
 - Before any freeze: the 464 unconfirmed pairs read and confirmed, and every cluster read for a decide_when_both that names a theme with no discriminator.
 
 ## Standing words from J and the PI (carry into every head)
@@ -128,14 +122,15 @@ None is filed in `_questions/`. These remain open:
 
 - B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `scheme.jsonl` (197, edited); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines, F-001 and its superseding line); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
 - B2:
-  - `notes-B2.md` (776 lines); `author_items.jsonl` (104, six parents superseded); `gold_items.jsonl` (42); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (2);
-  - `scheme_edits.jsonl` (295); `rechecks-B2.jsonl` (1,413, none owed); `gate_checks.jsonl` (31 pairs confirmed); `exemplar_candidates.jsonl` (45); `tier_history.jsonl` (381); `run_manifest.json` (A1, B2 round 1, two B2 round-2 entries, B2 round 3).
-- Asks QB2-001 to QB2-011 are answered; none is open. `return_waivers.jsonl` holds 16 waivers (J, QB2-009). `out/recut/` holds 56 children.
+  - `notes-B2.md` (842 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (2);
+  - `scheme_edits.jsonl` (295); `rechecks-B2.jsonl` (1,413, of which 526 the withdrawn split's; none owed); `gate_checks.jsonl` (31 pairs confirmed); `exemplar_candidates.jsonl` (45); `tier_history.jsonl` (381); `run_manifest.json` (6: A1, B2 round 1, two round-2 entries, two round-3 entries, the second superseding the first).
+- Asks QB2-001 to QB2-011 are answered; none is open. `return_waivers.jsonl` holds 16 waivers (J, QB2-009). `out/recut/` holds the 56 withdrawn children, as written.
 
 ## Rules kept
 
 - Never type an id, an order or a name from memory; check with `jq` or a script. Never log a write before the tool answers. Count a ledger's lines after appending.
 - There is no `--kind close` and no `--kind episode`; log those as notes.
+- `mem.py split` refuses (J, 2026-10-12). Never cut a second-order theme; a bag stays one item.
 - A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`; `mem.py log --kind ask` writes only a diary line and gives no id.
 - A reader's thread must fit the provider's window (about 164,000 tokens, inferred at round 2); the shared pages alone are about 95,000.
 - Check a notes section against the diary before closing. Never put a placeholder or a no-op in a command. Never put an Edit and the read that checks it in one turn.

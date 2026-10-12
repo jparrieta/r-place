@@ -299,6 +299,18 @@ def main():
         packets = [p for p in packets if os.path.splitext(os.path.basename(p))[0] in want]
     if not packets:
         sys.exit("no packets in %s" % a.packets)
+    # J, 2026-10-12: a round in fleet ids sends no room id. A packet whose MANIFEST entry carries codes_by_item
+    # is a fleet-id packet, and one room code (c0006) or room theme id (t01) in it refuses the dispatch
+    room_id = re.compile(r"(?<![\w-])(c\d{4}|t\d{2})(?![\w-])")
+    leaks = []
+    for p in packets:
+        name = os.path.splitext(os.path.basename(p))[0]
+        if (manifest.get(name) or {}).get("codes_by_item"):
+            hit = sorted(set(room_id.findall(open(p, encoding="utf-8").read())))
+            if hit:
+                leaks.append("%s: %s" % (name, ", ".join(hit[:6])))
+    if leaks:
+        sys.exit("REFUSING: room ids in fleet-id packets (the table out/fleet_ids.jsonl maps them): " + "; ".join(leaks))
     shared = "".join("<<< %s >>>\n%s\n\n" % (os.path.basename(p), open(p, encoding="utf-8").read())
                      for p in shared_files)
     os.makedirs(a.raw, exist_ok=True)

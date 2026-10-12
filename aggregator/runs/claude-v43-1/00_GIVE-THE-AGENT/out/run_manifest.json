@@ -319,5 +319,72 @@
   "items": "the 44 unsplit hard items and the 54 children of the six split bags (QB2-010); the six parents are not served",
   "return_spec": "out/RETURN-B2.md with fleet ids and the three-concept floor for also_present (QB2-008)",
   "notes": "Pilot round 3, the first round in which only the scheme changes (QB2-007) and the first with fleet ids."
+ },
+ {
+  "stage": "B2",
+  "round": 3,
+  "leg": "B2a-r3-p2",
+  "written_utc": "2026-10-12T10:14:39Z",
+  "supersedes": "the B2a-r3 round-3 entry (98 items with the split children), withdrawn with the split (J, 2026-10-12)",
+  "model": "deepseek/deepseek-v4.1-flash, called directly, the same readers as round 2 (J, QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261013,
+   "cut": "consecutive cut of the seeded order, largest packet minimised"
+  },
+  "n_agents": 3,
+  "n_items": 50,
+  "packets": [
+   {
+    "name": "P03-r3-1",
+    "items": 12,
+    "bytes": 89970,
+    "item_bytes": 89418,
+    "sha256": "c3ed4a83486d99e0848dd3c69812a43d8d30efccd92256313f86274e26114a8a"
+   },
+   {
+    "name": "P03-r3-2",
+    "items": 13,
+    "bytes": 136294,
+    "item_bytes": 135742,
+    "sha256": "36a3c20dccf18a9a788079ee69ea3353c48aeb7eea1c0dc8daa0fd7638ef35d6"
+   },
+   {
+    "name": "P03-r3-3",
+    "items": 8,
+    "bytes": 98758,
+    "item_bytes": 98208,
+    "sha256": "c85e8c43a5c741ddda30d2758885b507673db9657e0694301434f7c08905ce13"
+   },
+   {
+    "name": "P03-r3-4",
+    "items": 7,
+    "bytes": 99393,
+    "item_bytes": 98843,
+    "sha256": "c3693af45bc826e1fbf597e4248f0f36df4aa2ccebb45dd1dd6c092030f2ae34"
+   },
+   {
+    "name": "P03-r3-5",
+    "items": 10,
+    "bytes": 96439,
+    "item_bytes": 95887,
+    "sha256": "9171694439778aec7b82b82cbbdb21dbde4181eded8ed8203a1101bfb7cb5373"
+   }
+  ],
+  "ids": "fleet ids only (out/fleet_ids.jsonl); each MANIFEST entry carries codes_by_item for fleet.py's citation check",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "scheme": "out/scheme.jsonl after round 2's edits (scheme_edits 295 lines), exemplars withheld",
+  "items": "round 2's 50 hard items; the split is withdrawn and each bag is one item (J, 2026-10-12)",
+  "return_spec": "out/RETURN-B2.md with fleet ids and the three-concept floor for also_present (QB2-008)",
+  "notes": "Pilot round 3: round 2's set, the first round in which only the scheme changes (QB2-007), the first with fleet ids."
  }
 ]

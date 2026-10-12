@@ -1,0 +1,9 @@
+stage B2:
+  leg: check (2 dispatch folders with DONE)
+  _fleet_raw/B2/round-1: 3 readers, 120 return lines
+  _fleet_raw/B2/round-2: 15 readers, 150 return lines, 16 waived by J (return_waivers.jsonl)
+  author items 50, gold items 40, rounds scored 2, edits 295 (author-error 4), scheme ids 197 (scheme/scheme_current.jsonl)
+
+warn   scheme.jsonl: the pair T3-001|T3-017 touches an edited theme and is not confirmed against its current sentences (mem.py gates T3-001 T3-017 --confirm --reason ...)  [443 lines with this shape; first: T3-001|T3-017]
+
+0 errors (0 distinct shapes), 443 warnings

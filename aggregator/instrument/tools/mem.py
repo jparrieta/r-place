@@ -138,12 +138,8 @@ A room is named bare, as r/<sub> or as <sub>/, in any case.
                                        else a seeded sample of 30, and all once more than one in ten of
                                        the sample moves). Stage B2's edits are the lines of
                                        scheme_edits.jsonl (edit:<n>)
-    split <sub>:<tNN> --child "label|note|c1,c2,c3" --child ... --reason "..."
-                                       a second-order theme too coarse for one to three kinds, cut
-                                       into children by what the concepts do (B1 to B3, J 2026-10-12):
-                                       each child three concepts or more, every concept in one child;
-                                       written to out/recut/, the parent superseded, never deleted;
-                                       children get the room's next tNN and a fleet id
+    split                              withdrawn (J, 2026-10-12): second-order themes are the
+                                       coders' to cut; a bag stays one item
     recheck <sub>:<tNN> --change <edit:n|gate:n> --theme T3-a[,T3-b] --codes "T3-a=c1,c2;T3-b=c3"
             --reason "..."             one placement placed again under the changed sentence, with the
                                        concepts behind each theme (out/rechecks-NN.jsonl); a moved
@@ -2004,6 +2000,9 @@ def v_split(st, a):
     least three concepts; every concept of the parent goes to exactly one child. Children take the room's next
     free tNN, and a fleet id in out/fleet_ids.jsonl when that table exists. Children are the analyst's own
     second-order themes: the line says so."""
+    raise Refuse("split is withdrawn (J, 2026-10-12): second-order themes are the coders' to cut, not the "
+                 "aggregator's. A bag stays one item, placed on one theme, with its other themes under also_present "
+                 "(three concepts of its own at least)")
     _stage_guard(a, "split", SPLIT_STAGES)
     kids_in = a.child or []
     if not a.arg1 or len(kids_in) < 2 or not a.reason:
