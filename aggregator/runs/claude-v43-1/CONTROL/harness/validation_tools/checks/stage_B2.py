@@ -296,6 +296,8 @@ def check(root, outdir, ctx):
     # is itself an error, and the waived lines are counted aloud
     waived = set()
     for i, w in enumerate(jsonl(os.path.join(outdir, "return_waivers.jsonl")) or [], 1):
+        if w.get("stage") not in (None, "B2"):      # another stage's waiver (B3, QB3-004) is that stage's check's
+            continue
         if not (w.get("reason") and w.get("ruled_by") and w.get("round_dir") and w.get("file") and w.get("item")):
             err("return_waivers.jsonl line %d lacks round_dir, file, item, reason or ruled_by" % i,
                 shape="a waiver without its ruling", where="return_waivers.jsonl line %d" % i)

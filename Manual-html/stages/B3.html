@@ -100,11 +100,13 @@
 <code>R</code> readers under rule 0. <strong>Model:</strong>
 <code>arm.json</code>; dispatch as at B2. (From the contract's stage
 table, section 4.)</p>
-<p>Status: <strong>2 legs closed</strong>. <a
+<p>Status: <strong>finished</strong>. <a
 href="../../aggregator/runs/claude-v43-1/STAGE%20CARDS/Stage%20B3.%20Coding%20-%20fleet.md">the
 card</a> · <a
 href="../../aggregator/runs/claude-v43-1/DROPS/B3/stages/STAGE-B3-coding-fleet.md">the
-stage file</a></p>
+stage file</a> · <a
+href="../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/handback-B3.md">the
+handback</a></p>
 <p>Steps: <code>B3a</code> build; <code>B3b</code> check</p>
 <h2 id="b3a--build">B3a · build</h2>
 <p>Closed 2026-10-12T15:11:21Z; closed at packets-out; 7839 out files;
@@ -132,5 +134,18 @@ fork; your account's usage; the transcript in the repository is not
 changed; <a href="../9-resuming.html">what this command does</a>):</p>
 <div class="sourceCode" id="cb2"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="st">&quot;</span><span class="va">$(</span><span class="fu">git</span> rev-parse <span class="at">--show-toplevel</span><span class="va">)</span><span class="st">/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT&quot;</span> <span class="kw">&amp;&amp;</span> <span class="ex">claude</span> <span class="at">--resume</span> <span class="st">&quot;</span><span class="va">$PWD</span><span class="st">/out/_transcripts/leg-B3.B3a-p2-666ae53a-d0c9-4cc9-a81b-7285a29c321c.jsonl&quot;</span> <span class="at">--fork-session</span> <span class="at">--permission-mode</span> plan <span class="at">--model</span> claude-opus-5-5 <span class="at">--effort</span> medium <span class="at">--strict-mcp-config</span> <span class="at">--disallowedTools</span> Bash Write Edit MultiEdit NotebookEdit</span></code></pre></div>
+<h2 id="b3b--check">B3b · check</h2>
+<p>Closed 2026-10-12T21:18:42Z; closed; 11863 out files; tokens in
+56797143, out 420401 (summed over every turn of the leg).</p>
+<p><a
+href="../../aggregator/runs/claude-v43-1/CONTROL/snapshots/B3.B3b">the
+checkpoint</a> · <a
+href="../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-B3.B3b-fddce5e7-8bd9-4384-a46d-7321a748b45b.jsonl">the
+transcript</a></p>
+<p>Talk with the analyst as it was at the end of this leg (a read-only
+fork; your account's usage; the transcript in the repository is not
+changed; <a href="../9-resuming.html">what this command does</a>):</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="st">&quot;</span><span class="va">$(</span><span class="fu">git</span> rev-parse <span class="at">--show-toplevel</span><span class="va">)</span><span class="st">/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT&quot;</span> <span class="kw">&amp;&amp;</span> <span class="ex">claude</span> <span class="at">--resume</span> <span class="st">&quot;</span><span class="va">$PWD</span><span class="st">/out/_transcripts/leg-B3.B3b-fddce5e7-8bd9-4384-a46d-7321a748b45b.jsonl&quot;</span> <span class="at">--fork-session</span> <span class="at">--permission-mode</span> plan <span class="at">--model</span> claude-opus-5-5 <span class="at">--effort</span> medium <span class="at">--strict-mcp-config</span> <span class="at">--disallowedTools</span> Bash Write Edit MultiEdit NotebookEdit</span></code></pre></div>
 </body>
 </html>

@@ -62,6 +62,19 @@ of records (or B2's object); the check leg assembles them into multiplacement_lo
 multi line whose extra themes are recorded on the line itself is not refused for want of a
 multiplacement_log.jsonl line.
 
+What tools/assemble.py writes (the handler's brief, 2026-10-12; J's rulings of 12 October via the orchestrator's
+note of 19:00Z). The returns are in fleet ids; assemble.py reads them back into room ids and keeps the fleet's beside
+them (fleet_sub, fleet_theme_id, fleet_support, fleet_also_present, and fleet_* on a multiplacement record), which this
+check reads past. It tags every line with copy_kind, "corpus", "gold" or "duplicate" (the duplicate's second copy),
+from batches-B3.jsonl; where a line carries copy_kind this check counts a corpus reading by it (a gold copy is never
+one) and refuses a tag the batch does not bear out: "gold" on an item the batch does not seed as a gold copy, "corpus"
+or "duplicate" on an item the batch does not hold live, "duplicate" on an item not its declared duplicate, more gold or
+duplicate lines than the batch tags. Lines without copy_kind are read by batch membership, as before. assemble.py
+drops the readers' t_start and t, which readers invent (every line of the 2026-10-12 run read 2026-05-09T00:00:00Z),
+and carries the dispatch's measured time, packet_elapsed_s from the return's meta: a line carries both timestamps or
+packet_elapsed_s, and one with neither is refused, so section 3.6's "both timestamps" is kept as "a measured time".
+agent is the batch's agent (a0001), the dispatch's reader id (r6, reused across packets) kept as `reader`.
+
 Files the stage file names without giving their fields, checked for existence and the licence
 sentence only: fidelity-B3.md, position-B3.md, agent_report-B3.md, multiplacement_register-B3.md,
 notes-B3.md (declarations by keyword), RETURN-B3.md (by keyword). assign_pass2.jsonl's fields
@@ -102,7 +115,9 @@ READ = ("whole", "theme-block")
 BATCH_FIELDS = ("batch", "agent", "n_items", "replicate", "rooms", "exemplar_items", "gold_items",
                 "duplicate_items", "warmup_items", "reissue", "original_agent", "seed", "items")
 LINE_FIELDS = ("sub", "theme_id", "batch", "agent", "replicate", "position", "third_order", "multi", "why",
-               "confidence", "read", "exemplar_read", "families_opened", "bag", "t_start", "t", "support")
+               "confidence", "read", "exemplar_read", "families_opened", "bag", "support")
+TIME_FIELDS = ("t_start", "t")     # the readers' own; assemble.py drops them for the dispatch's packet_elapsed_s
+COPY_KINDS = ("corpus", "gold", "duplicate")
 MULTI_FIELDS = ("sub", "theme_id", "key", "batch", "agent", "replicate", "position", "primary", "additional",
                 "why_not_one", "why_this_one", "support_primary", "support_additional", "dispensable")
 KB50 = 50 * 1024                   # the shared pages' ceiling (index.md, G*.md)
@@ -458,11 +473,38 @@ def gold_leaked(outdir, dirs):
 
 # ---- the check leg -------------------------------------------------------------------------------------
 
+B3_LINE_WAIVERS = ("support_overlap", "support_count", "no_multi")
+
+
+def b3_waivers(outdir, report=True):
+    """J's waivers by name for stage B3 (QB3-004, QB3-005, 2026-10-12), out/return_waivers.jsonl lines with stage "B3",
+    a check, a reason and ruled_by, and either file "<batch>/<reader>.jsonl" (check no_prediction) or batch and
+    position (checks support_overlap, support_count, no_multi; keyed so that a re-assembly that renumbers
+    assign_raw.jsonl keeps them). Returns (by_file, by_position): sets of (file, check), (batch, position, check)."""
+    by_file, by_pos = set(), set()
+    for i, w in enumerate(jsonl(os.path.join(outdir, "return_waivers.jsonl")) or [], 1):
+        if w.get("stage") != "B3":
+            continue
+        ck = w.get("check")
+        ok = w.get("reason") and w.get("ruled_by") and ck
+        if ok and ck == "no_prediction" and w.get("file"):
+            by_file.add((w["file"], ck))
+        elif ok and ck in B3_LINE_WAIVERS and w.get("batch") and isinstance(w.get("position"), int):
+            by_pos.add((w["batch"], w["position"], ck))
+        elif report:
+            err("return_waivers.jsonl line %d (stage B3) lacks its check, reason, ruled_by, or the file (no_prediction) "
+                "or batch and position (%s) it names" % (i, ", ".join(B3_LINE_WAIVERS)),
+                shape="a B3 waiver without its ruling", where="return_waivers.jsonl line %d" % i)
+    return by_file, by_pos
+
+
 def check_returns(outdir, dirs, scheme, by_batch, manifest):
     """The returns as fleet.py left them: a prediction line first, then the batch's n_items pass-1 lines counted
     as MANIFEST.json says (fleet.counted), then the pass-2 lines, each carrying "revises". Returns (pass-1
     lines, pass-2 lines)."""
     total = total2 = 0
+    waived, _ = b3_waivers(outdir)               # J, 2026-10-12 (QB3-004)
+    n_waived = 0
     for d in dirs:
         rel = os.path.relpath(d, outdir)
         for p in sorted(glob.glob(os.path.join(d, "*", "*.jsonl"))):
@@ -476,7 +518,9 @@ def check_returns(outdir, dirs, scheme, by_batch, manifest):
             pass2 = [(i, r) for i, r in enumerate(rows) if "revises" in r]
             total += len(lines)
             total2 += len(pass2)
-            if not preds:
+            if not preds and ("%s/%s.jsonl" % (name, reader), "no_prediction") in waived:
+                n_waived += 1
+            elif not preds:
                 err("%s/%s/%s: no prediction line; each reader writes its predicted_confusion first in its return "
                     "(section 1.5), and agent_report-B3.md compiles them" % (rel, name, reader),
                     shape="_fleet_raw/04: a return without a prediction line", where="%s/%s" % (name, reader))
@@ -508,6 +552,8 @@ def check_returns(outdir, dirs, scheme, by_batch, manifest):
                 if i < last1:
                     warn("%s/%s/%s line %d: a pass-2 line before the last pass-1 line; pass 2 follows pass 1 in the "
                          "return" % (rel, name, reader, i + 1))
+    if n_waived:
+        print("  returns without a prediction line waived by J by name: %d (return_waivers.jsonl)" % n_waived)
     return total, total2
 
 
@@ -523,6 +569,8 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
     share_rule = vlib.BOUND_PHRASE in text(outdir, "RETURN-B3.md")
     if not codes:
         err("package/store/codes.jsonl holds no concept, so no support id could be resolved")
+    _, waived_pos = b3_waivers(outdir, report=False)    # J, 2026-10-12 (QB3-005): by batch and position
+    n_waived = collections.Counter()
     multi = jsonl(os.path.join(outdir, "multiplacement_log.jsonl")) or []
     mkeys = collections.defaultdict(set)
     for i, m in enumerate(multi, 1):
@@ -546,7 +594,9 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
             err("multiplacement_log.jsonl line %d: dispensable is null; it is compulsory" % i,
                 shape="multiplacement_log.jsonl: dispensable null", where="line %d" % i)
         sp, sa = set(as_list(m.get("support_primary"))), set(as_list(m.get("support_additional")))
-        if not sa or sa & sp:
+        if (not sa or sa & sp) and (m.get("batch"), m.get("position"), "support_overlap") in waived_pos:
+            n_waived["support_overlap"] += 1
+        elif not sa or sa & sp:
             err("multiplacement_log.jsonl line %d: the additional theme %s has no supporting concept of its own "
                 "(same concept twice is the same reading twice)" % (i, m.get("additional")),
                 shape="multiplacement_log.jsonl: no distinct support for the additional theme", where="line %d" % i)
@@ -572,12 +622,20 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
     positions = collections.defaultdict(list)
     edges = []
     ex_seen = set()
+    copies = collections.Counter()                  # (batch, agent, item, copy_kind) -> lines
     for i, r in enumerate(raw, 1):
         for k in LINE_FIELDS:
-            if k not in r:
+            if k == "multi" and k not in r and (r.get("batch"), r.get("position"), "no_multi") in waived_pos:
+                n_waived["no_multi"] += 1
+            elif k not in r:
                 err("assign_raw.jsonl line %d carries no %s; the return line of section 1.5 carries it, and the v35 "
                     "analyst found a field missing on every row at the end of the run" % (i, k),
                     shape="assign_raw.jsonl: a line without %s" % k, where="line %d" % i)
+        if not all(k in r for k in TIME_FIELDS) and not isinstance(r.get("packet_elapsed_s"), (int, float)):
+            err("assign_raw.jsonl line %d carries neither both timestamps (t_start, t) nor packet_elapsed_s, the "
+                "dispatch's measured time assemble.py carries from the return's meta; per-reader elapsed time is what a "
+                "cost estimate is built from (section 1.5)" % i,
+                shape="assign_raw.jsonl: a line with no measured time", where="line %d" % i)
         so = as_list(r.get("third_order"))
         if not so:
             err("assign_raw.jsonl line %d has no third_order" % i, shape="assign_raw.jsonl: a line with no placement",
@@ -619,7 +677,9 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
                 err("assign_raw.jsonl line %d: multi-assigned with no record in multiplacement_log.jsonl for %s; "
                     "reduce the line to its primary and write the defect" % (i, sorted(extra - have)),
                     shape="assign_raw.jsonl: a multi line with no multiplacement record", where="line %d" % i)
-            if len(set(sup)) < len(set(so)):
+            if len(set(sup)) < len(set(so)) and (r.get("batch"), r.get("position"), "support_count") in waived_pos:
+                n_waived["support_count"] += 1
+            elif len(set(sup)) < len(set(so)):
                 err("assign_raw.jsonl line %d: %d themes on %d distinct support concepts; a multi-assigned line names "
                     "at least one distinct concept per theme" % (i, len(set(so)), len(set(sup))),
                     shape="assign_raw.jsonl: fewer support concepts than themes on a multi line", where="line %d" % i)
@@ -650,7 +710,31 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
             err("assign_raw.jsonl line %d names batch %r, which batches-B3.jsonl does not hold" % (i, r.get("batch")),
                 shape="assign_raw.jsonl: a batch not in batches-B3.jsonl", where="line %d" % i)
         k = (r.get("sub"), r.get("theme_id"))
-        if k in live_of(r.get("batch")) or r.get("batch") not in by_batch:
+        bid = r.get("batch")
+        if "copy_kind" in r:                        # assemble.py's tag, read from batches-B3.jsonl (2026-10-12)
+            ck = r.get("copy_kind")
+            b = by_batch.get(bid)
+            if ck not in COPY_KINDS:
+                err("assign_raw.jsonl line %d: copy_kind is %r, not one of %s" % (i, ck, ", ".join(COPY_KINDS)),
+                    shape="assign_raw.jsonl: copy_kind outside corpus|gold|duplicate", where="line %d" % i)
+            elif b is not None:
+                if ck == "gold" and k not in {split_key(g) for g in as_list(b.get("gold_items"))}:
+                    err("assign_raw.jsonl line %d: %s/%s is tagged gold and batch %s seeds no gold copy of it"
+                        % (i, k[0], k[1], bid), shape="assign_raw.jsonl: a gold tag the batch does not bear out",
+                        where="line %d" % i)
+                if ck in ("corpus", "duplicate") and k not in live_of(bid):
+                    err("assign_raw.jsonl line %d: %s/%s is tagged %s and batch %s does not hold it live (a gold copy "
+                        "is never a corpus reading)" % (i, k[0], k[1], ck, bid),
+                        shape="assign_raw.jsonl: a corpus tag on an item the batch does not hold live", where="line %d" % i)
+                if ck == "duplicate" and k not in {split_key(x) for x in as_list(b.get("duplicate_items"))}:
+                    err("assign_raw.jsonl line %d: %s/%s is tagged duplicate and is not batch %s's declared duplicate"
+                        % (i, k[0], k[1], bid), shape="assign_raw.jsonl: a duplicate tag off the batch's duplicate",
+                        where="line %d" % i)
+            copies[(bid, r.get("agent"), k, ck)] += 1
+            corpus = ck == "corpus"
+        else:
+            corpus = k in live_of(bid) or bid not in by_batch
+        if corpus:
             per_item[k].append((r.get("agent"), r.get("replicate")))    # a gold copy is not a corpus reading
         per_key_agent[(k, r.get("agent"), r.get("batch"))] += 1
         positions[(r.get("batch"), r.get("agent"))].append(r.get("position"))
@@ -670,6 +754,14 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
                 err("assign_raw.jsonl: %s/%s was read %d times by reader %s in %s and is not that batch's declared "
                     "duplicate item or gold copy" % (k[0], k[1], n, agent, bid),
                     shape="assign_raw.jsonl: one reader reading an item twice", where="%s/%s" % k)
+    # copy_kind against the batch's tags: one corpus line and one duplicate line at most, gold lines as many as tagged
+    for (bid, agent, k, ck), n in copies.items():
+        b = by_batch.get(bid) or {}
+        cap = sum(1 for g in as_list(b.get("gold_items")) if split_key(g) == k) if ck == "gold" else 1
+        if ck in COPY_KINDS and n > cap:
+            err("assign_raw.jsonl: %s/%s carries %d lines tagged %s by reader %s in %s, where the batch allows %d; no "
+                "seeded copy counts as a corpus reading" % (k[0], k[1], n, ck, agent, bid, cap),
+                shape="assign_raw.jsonl: more %s copies than the batch tags" % ck, where="%s/%s" % k)
     # no reader in two replicates of one item
     for k, ar in per_item.items():
         by_agent = collections.defaultdict(set)
@@ -736,6 +828,8 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
                 "the first; pass 2 goes to assign_pass2.jsonl and never back" % (len(raw), len(keys1)))
         if raw and any(r.get("pass") == 2 for r in raw):
             err("assign_raw.jsonl carries lines marked pass 2; the second pass never overwrites or joins the first")
+    if n_waived:
+        print("  lines waived by J by name (return_waivers.jsonl): %s" % ", ".join("%s %d" % kv for kv in sorted(n_waived.items())))
     return raw
 
 
@@ -979,7 +1073,36 @@ def _plant_return_short_beside_pass2(outdir, root):
     _write_raw(outdir, l1, l2, l3, short2=True)
 
 
+def _assembled(l1, l2, l3):
+    """The fixture's lines as tools/assemble.py writes them: copy_kind tagged, the readers' timestamps dropped for
+    the dispatch's packet_elapsed_s."""
+    for ls in (l1, l2, l3):
+        for x in ls:
+            x.pop("t_start", None)
+            x.pop("t", None)
+            x["packet_elapsed_s"] = 12.5
+            x["copy_kind"] = "gold" if (x["batch"], x["sub"]) == ("B001", "asoiaf") else "corpus"
+
+
+def _plant_gold_tagged_corpus(outdir, root):
+    """A gold copy tagged corpus: it would count as a reading of the analysed set."""
+    l1, l2, l3 = _check_base(outdir, root)
+    _assembled(l1, l2, l3)
+    l1[1]["copy_kind"] = "corpus"
+    _w(outdir, "assign_raw.jsonl", "\n".join(json.dumps(x) for x in l1 + l3 + l2) + "\n")
+
+
+def _plant_no_measured_time(outdir, root):
+    """The readers' timestamps dropped and no packet_elapsed_s carried in their place."""
+    l1, l2, l3 = _check_base(outdir, root)
+    _assembled(l1, l2, l3)
+    del l2[0]["packet_elapsed_s"]
+    _w(outdir, "assign_raw.jsonl", "\n".join(json.dumps(x) for x in l1 + l3 + l2) + "\n")
+
+
 PLANTED = [
+    ("a gold copy tagged corpus", _plant_gold_tagged_corpus, "does not hold it live"),
+    ("a line with no measured time", _plant_no_measured_time, "neither both timestamps"),
     ("an item meeting one reader twice", _plant_item_reader_twice, "meets reader a001 in two replicates"),
     ("a 16-item packet", _plant_packet_16, "holds 16 items"),
     ("a packet in parts", _plant_packet_in_parts, "never a part of a batch"),

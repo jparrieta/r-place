@@ -1,0 +1,34 @@
+{
+ "packet": "B0785",
+ "group": "B0785",
+ "reader": "r6",
+ "reissue": 0,
+ "generation": "msg_1VaqPRQZ5aVefA8rtdEI",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 21340,
+  "output_tokens": 45775,
+  "output_tokens_details": {
+   "thinking_tokens": 37226
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 81024,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.034218744,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.034218744,
+   "upstream_inference_prompt_cost": 0.004007244,
+   "upstream_inference_completions_cost": 0.0302115
+  }
+ },
+ "elapsed_s": 225.4,
+ "packet_sha256": "ca32f26a80ac6c0083f9544f599cfcd2db2a3516d9f8f626c8a38b9bac226969",
+ "valid": false,
+ "why": "line 5 is not JSON: {\"sub\": \"r/naruto\", \"theme_id\": \"T2-27861\", \"batch\": \"B0785\", \"agent\": \"r6\", \"re",
+ "served_matches_probe": true
+}

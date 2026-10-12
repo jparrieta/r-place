@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B3a-p2, 2026-10-12 (UTC): the gold check after dispatch group 1 passed; group 2 goes out as built. J runs it; B3b checks the whole fleet after its DONE.
+Under 3,000 words, rewritten whole at every close. Last written at B3b, 2026-10-12 (UTC). Stage B3 is closed: the fleet is complete, assembled and checked, and the reports and `handback-B3.md` are written on the assembly of record. Stage B4 comes next.
 
 ## The method question, in one sentence
 
@@ -10,7 +10,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is done: three rounds, the freeze, the gold round and the stability check (`pilot_report.md`, `stability-B2.md`, `handback-B2.md`). Stage B3, the fleet, is open. B3a built it. Group 1 went out and passed the gold check (B3a-p2). Group 2 and then B3b come next.
+Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is done: three rounds, the freeze, the gold round and the stability check (`pilot_report.md`, `stability-B2.md`, `handback-B2.md`). Stage B3, the fleet, is done. B3a built it. Group 1 passed the gold check (B3a-p2), and group 2 went out. B3b, the check leg, closed the stage: see "B3b" below.
 
 ## Stage B3, as built (B3a)
 
@@ -21,6 +21,24 @@ Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families)
 **Built.** `out/_analysis/b3_allocate2.py` wrote `batches-B3.jsonl`: 1,210 batches, one reader each (605 a replicate); one component; each replicate places the 7,844 items once; 17,653 positions (15,688 readings, 1,210 duplicates, 755 gold copies, 18 or 19 per gold item). `out/_analysis/b3_packets_fleet2.py` wrote `_packets-B3/`: 22 shared pages, 1,210 packets (at most 178,758 item bytes), fleet ids only, `codes_by_item` in the MANIFEST. One coder note held a room id (nyjets t11, c0104): served as its fleet id. `RETURN-B3.md` carries J's two rulings word for word. `validate.py B3`: 0 errors, 0 warnings.
 
 **Group 1 and the gold check (B3a-p2).** J sent the first 100 batches at 15:17Z. They returned 100 valid replies (4 reissued, 0 exhausted; `_fleet_raw/B3/PARTIAL-2026-10-12T153202Z.json`). No DONE exists yet, and I write none. The stop rule was declared in `notes-B3.md` before scoring: a fall over 0.193 (1 − 0.807) in gold fidelity or primary match, against the mean of B2's nine frozen-scheme readings of the same items, stops group 2. Of the 72 gold copies seeded, 72 came back. Fidelity was 0.637 against 0.625 (fall −0.011, interval −0.065 to +0.045), and primary match 0.833 against 0.812. So group 2 goes out as built. Five items had their own fall beyond the floor on 1 to 4 copies each, among them ukraine t07 (T3-073 placed for T3-009). Per copy: `out/_analysis/b3_gold_group1.tsv`. `fidelity-B3.md` waits for the check leg.
+
+**B3b, the check leg (closed).**
+- **The fleet.** `_fleet_raw/B3/DONE`: 1,204 of 1,210 packets were valid on the main run, at 32.78 USD. B0192 and B0927 failed six tries each. Under J's ruling, the handler split them into halves (B0192a/b, B0927a/b), and all four came back valid.
+- **J's rulings for this leg.**
+  - (1) Assemble only with `tools/assemble.py B3 --supersede --accept-sub-label --families out/families.jsonl`, never a hand script. It writes `b3_classes.jsonl`, the five classes stage B4 reads.
+  - (2) Put the split into the record.
+  - (3) Review the failed replies as one set.
+- **The split.** The handler's room-id halves were superseded under new names. Under J at QB3-003 I rebuilt them in fleet ids as B0192c, B0192d, B0927c and B0927d, and J sent them at 20:45Z; all four came back valid. `batches-B3.jsonl` holds 1,212 batches. The handler's `_packets-B3-split/` sits in `out/_analysis/`, because the check had read it in place of `_packets-B3/`.
+- **Failed replies.** 87, of which 72 cite another item's concepts, nearly all from a neighbouring item of the same packet and mostly in `also_present`. Accepted lines cite only their own item's concepts.
+- **The assembly of record.** `assign_raw.jsonl` holds 17,653 lines (15,688 corpus readings); `b3_classes.jsonl` gives 4,556 items standing and 3,288 for B4. Coverage is 100% in both replicates.
+- **Figures** (`handback-B3.md`):
+  - gold 0.645 against B2's 0.631 on the same copies, no fall;
+  - agreement Jaccard 0.786, alpha 0.782, at the stability floor; G18 the family that agreed least;
+  - the arguable rate +0.040 across a batch, a diagnostic;
+  - the multi rate 0.158; the commonest pairs T3-009/T3-043 and T3-005/T3-021;
+  - the worst theme T3-152.
+- **Waivers.** QB3-004 waived 32 returns without a prediction line by name (`return_waivers.jsonl`, 52 lines).
+- **QB3-005, answered (waive).** J waived 22 readers' record slips by name, keyed by batch and position, with the placements kept as given (loose support records; 4 lines with no `multi` field). Every added theme has a concept of its own. They are also in `defects.jsonl`. `validate.py B3`: 0 errors, 0 warnings.
 
 ## Stage B2, in short
 
@@ -90,8 +108,8 @@ Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families)
 
 - B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
 - B2: `notes-B2.md` (1,192 lines); `pilot_report.md`, `stability-B2.md`, `handback-B2.md`; `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md`; `pilot_rounds.jsonl` (6); `scheme_final.jsonl` (197), `scheme_final.md`; `scheme_edits.jsonl` (306); `rechecks-B2.jsonl` (1,594, of which 526 the withdrawn split's); `gate_checks.jsonl` (519 lines, 496 pairs confirmed); `exemplar_candidates.jsonl` (68, hard items only); `tier_history.jsonl` (392); `run_manifest.json` (9); `return_waivers.jsonl` (20).
-- Asks QB2-001 to QB2-014 and QB3-001 to QB3-002 are answered; none is open.
-- B3: `notes-B3.md`; `RETURN-B3.md`; `batches-B3.jsonl` (1,210); `_packets-B3/` (22 shared pages, 1,210 packets, MANIFEST); `run_manifest.json` (11).
+- Asks QB2-001 to QB2-014 and QB3-001 to QB3-005 are answered; none is open.
+- B3: `notes-B3.md`; `RETURN-B3.md`; `batches-B3.jsonl` (1,212); `_packets-B3/` (22 shared pages, 1,212 packets, MANIFEST); `run_manifest.json` (11); `assign_raw.jsonl` and `assign_pass2.jsonl` (17,653 each); `multiplacement_log.jsonl` (3,171; B1's 6,663 kept as `multiplacement_log.jsonl.superseded-20261012T205314Z`); `predicted_confusion-B3.jsonl` (1,180); `b3_classes.jsonl` (7,844); `defects.jsonl` (63: 8 from A1, 55 from B3); `return_waivers.jsonl` (74); `fidelity-B3.md`, `position-B3.md`, `multiplacement_register-B3.md`, `agent_report-B3.md`, `handback-B3.md`.
 
 ## Rules kept
 

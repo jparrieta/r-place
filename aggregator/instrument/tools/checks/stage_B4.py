@@ -20,6 +20,16 @@ theme_id) they carry resolved): coder_conflicts.jsonl (section 4); reassign.json
 strata of section 10 and the four outcomes of section 12, whose field names are v37's (stratum,
 outcome).
 
+The selection and the sample (J, 2026-10-12, through the orchestrator's note of 19:00Z). Section 1 now picks the
+contested items by three placements, the two readers' lists and the analyst's B1 grouping, into five classes that
+tools/assemble.py writes to b3_classes.jsonl. Where that file exists the check reads it: every item of class 3, 4 or
+5 owes a ruling in disagreements.jsonl by the build leg (at an adjudication leg the outstanding count is printed);
+an item of class 1 or 2 that no ruling touched stands in assign_final.jsonl as b3_classes.jsonl gives it, class 2's
+line tagged "source": "b1_grouping_kept", and no line of another class carries that tag. Without the file the
+selection is not checked, and the check says so. The blind sample is five hundred items, 250 uniform and 250
+adjudicated, two fresh readers each: 1,000 readings in reassign.jsonl; the uniform stratum's rule-2 items are
+reported in a row of their own in transmission-after-revision-B4.md.
+
 Not carried from v37: `verdict` or `kind` as alternative names of the ruling's taxonomy (v38 fixes
 `taxonomy` in section 7); `reliability-B4.md` (renamed transmission-after-revision-B4.md, and
 "reliability" is now a banned word in it); `case_theme` (now theme_id).
@@ -34,6 +44,8 @@ TAXONOMY = ("scheme-ambiguous", "item-is-a-bag", "reader-error", "author-error",
 FIELDS = ("must_show", "must_not_show", "decide_when_both", "discriminators")
 STRATA = ("uniform", "adjudicated")
 OUTCOMES = ("agrees", "disagrees-contested", "disagrees-unanimous", "disagrees-unresolved")
+STRATUM_ITEMS = 250                # J, 2026-10-12: "250 each for adjudication and random" (fifty each before)
+SAMPLE_READINGS = 2 * 2 * STRATUM_ITEMS   # two strata, two fresh readers per item
 FORBIDDEN_IN_PACKETS = ("assign_final.jsonl", "disagreements.jsonl", "gold_items.jsonl", "_head.md",
                         "findings.jsonl", "author_items.jsonl", "adjudication_report.md")
 GATE_TEXT_FIELDS = ("must_show", "must_not_show", "decide_when_both", "varies", "is_not", "gloss", "name")
@@ -205,6 +217,56 @@ def _check_assign_final(outdir, ctx, ids):
                         "anything else (section 2)" % (i, key[0], key[1], key[2]),
                         shape="assign_final.jsonl: a gold placement survived the drop", where="line %d" % i)
     return keyed
+
+
+def _check_selection(outdir, keyed, last, leg):
+    """Section 1 against b3_classes.jsonl (tools/assemble.py): the contested classes ruled, the standing classes
+    standing as the file gives them. Returns {key: class}."""
+    rows = jsonl(os.path.join(outdir, "b3_classes.jsonl"))
+    if rows is None:
+        warn("b3_classes.jsonl is not in out/, so section 1's selection (the five classes, J 2026-10-12) was NOT "
+             "checked; tools/assemble.py B3 writes it at stage B3's check leg")
+        return {}
+    cls, n = {}, collections.Counter()
+    for i, r in enumerate(rows, 1):
+        k = (r.get("sub"), r.get("theme_id"))
+        c = r.get("class")
+        cls[k] = c
+        n[c] += 1
+        if c not in (1, 2, 3, 4, 5):
+            err("b3_classes.jsonl line %d: class %r is not 1 to 5" % (i, c),
+                shape="b3_classes.jsonl: a class outside 1 to 5", where="line %d" % i)
+            continue
+        if c in (3, 4, 5):
+            continue
+        if k in last or not keyed or k not in keyed:
+            continue                               # ruled (the ruling stands, checked above), or not settled yet
+        want = r.get("final") or []
+        got = _settled_ids(keyed[k])
+        if got != want:
+            err("assign_final.jsonl gives %s/%s %s, and b3_classes.jsonl's class %d gives %s; an item of class 1 or 2 "
+                "no ruling touched stands as section 1 gives it" % (k[0], k[1], got, c, want),
+                shape="assign_final.jsonl: a class-%d item off its standing placement" % c, where="%s/%s" % k)
+        if c == 2 and keyed[k].get("source") != "b1_grouping_kept":
+            err("assign_final.jsonl: %s/%s is kept under section 1's rule 2 and its line carries source %r, not "
+                "\"b1_grouping_kept\"; stage C1 tells these lines from placements under the frozen scheme by the tag"
+                % (k[0], k[1], keyed[k].get("source")),
+                shape="assign_final.jsonl: a rule-2 line without source b1_grouping_kept", where="%s/%s" % k)
+    for k, r in (keyed or {}).items():
+        if r.get("source") == "b1_grouping_kept" and cls.get(k) != 2:
+            err("assign_final.jsonl: %s/%s carries source b1_grouping_kept and b3_classes.jsonl gives it class %r; "
+                "only rule 2's items keep the B1 grouping" % (k[0], k[1], cls.get(k)),
+                shape="assign_final.jsonl: b1_grouping_kept on an item outside rule 2", where="%s/%s" % k)
+    owed = sorted(k for k, c in cls.items() if c in (3, 4, 5) and k not in last)
+    if owed and leg in ("build", "check"):
+        err("%d items of class 3, 4 or 5 in b3_classes.jsonl have no ruling in disagreements.jsonl (%s ...); section 1 "
+            "sends every one of them here, and the blind sample's build waits for the last" % (
+                len(owed), ["%s/%s" % k for k in owed[:3]]),
+            shape="disagreements.jsonl: a contested item never ruled")
+    print("  classes %s; contested (3, 4, 5) %d, ruled %d, outstanding %d" % (
+        ", ".join("%d: %d" % (c, n[c]) for c in (1, 2, 3, 4, 5)), n[3] + n[4] + n[5],
+        sum(1 for k, c in cls.items() if c in (3, 4, 5) and k in last), len(owed)))
+    return cls
 
 
 def _ct(ctx):
@@ -512,7 +574,7 @@ def _check_build(outdir):
 
 # ---- the check leg ------------------------------------------------------------------------------
 
-def _check_reassign(outdir, ctx, ids, keyed, last):
+def _check_reassign(outdir, ctx, ids, keyed, last, cls=None):
     if not os.path.exists(os.path.join(outdir, "_fleet_raw", "B4", "arm.json")):
         warn("_fleet_raw/B4/arm.json is absent; the serving arm is declared on both sides of the comparison "
              "(FLEET.md), and fleet.py writes it")
@@ -520,7 +582,7 @@ def _check_reassign(outdir, ctx, ids, keyed, last):
     if re_ is None:
         return
     if not re_:
-        err("reassign.jsonl is empty; section 12's comparison is one line per reading, two hundred for a "
+        err("reassign.jsonl is empty; section 12's comparison is one line per reading, one thousand for five "
             "hundred items by two fresh readers")
         return
     vlib.store_themes(ctx)
@@ -582,13 +644,15 @@ def _check_reassign(outdir, ctx, ids, keyed, last):
                 err("reassign.jsonl: %s/%s is in the adjudicated stratum and disagreements.jsonl never ruled it; "
                     "that stratum is drawn from the adjudicated items" % k,
                     shape="reassign.jsonl: an adjudicated-stratum item never adjudicated", where="%s/%s" % k)
-    if len(re_) != 200:
-        warn("reassign.jsonl has %d readings; a hundred items by two readers is two hundred, unless notes-B4.md "
-             "says why not" % len(re_))
+    if len(re_) != SAMPLE_READINGS:
+        warn("reassign.jsonl has %d readings; five hundred items by two readers is one thousand (J, 2026-10-12), "
+             "unless notes-B4.md says why not" % len(re_))
     for s in STRATA:
         n = len(items_by_stratum.get(s, ()))
-        if n and n != 50:
-            warn("reassign.jsonl: the %s stratum holds %d items, not fifty (section 10)" % (s, n))
+        if n and n != STRATUM_ITEMS:
+            warn("reassign.jsonl: the %s stratum holds %d items, not %d (section 10)" % (s, n, STRATUM_ITEMS))
+    rule2 = sorted(k for k in items_by_stratum.get("uniform", set())
+                   if (cls or {}).get(k) == 2 or ((keyed or {}).get(k) or {}).get("source") == "b1_grouping_kept")
     odd = [k for k, n in per_item.items() if n != 2]
     if odd:
         warn("reassign.jsonl: %d items do not have exactly two readings (%s ...); two fresh readers per item"
@@ -602,7 +666,11 @@ def _check_reassign(outdir, ctx, ids, keyed, last):
                 err("transmission-after-revision-B4.md does not report the %s stratum by name; the strata are "
                     "never pooled" % word)
         if "alpha" not in low:
-            err("transmission-after-revision-B4.md gives no alpha on the hundred (section 12)")
+            err("transmission-after-revision-B4.md gives no alpha (section 12: per stratum)")
+        if rule2 and not re.search(r"b1_grouping_kept|rule[ -]2|class[ -]2", low):
+            err("transmission-after-revision-B4.md has no row for the %d items of the uniform stratum kept under section "
+                "1's rule 2; they were neither adjudicated nor placed under the frozen scheme, and are reported apart "
+                "(section 10)" % len(rule2))
         for word, what in (("stability", "the stability floor from stability-B2.md beside alpha"),
                            ("definition", "the agreement definition stated once above the figures"),
                            ("unanimous", "the unanimous-but-disagreed items, listed, or that there were none"),
@@ -618,7 +686,8 @@ def _check_reassign(outdir, ctx, ids, keyed, last):
                     shape="transmission-after-revision-B4.md: a unanimous-but-disagreed item not named", where="%s/%s" % k)
         vlib.licence_sentence(outdir, "transmission-after-revision-B4.md", "transmission after revision")
         _reliability_word(outdir, "transmission-after-revision-B4.md")
-    print("  blind readings %d (%s), unanimous-but-disagreed %d" % (len(re_), dict(strata), len(unanimous)))
+    print("  blind readings %d (%s), rule-2 items in the uniform stratum %d, unanimous-but-disagreed %d"
+          % (len(re_), dict(strata), len(rule2), len(unanimous)))
 
 
 # ---- the check ---------------------------------------------------------------------------------
@@ -643,6 +712,7 @@ def check(root, outdir, ctx):
     ids, sname, srows = _frozen_scheme(outdir)
     keyed = _check_assign_final(outdir, ctx, ids)
     last = _check_disagreements(outdir, root, ctx, ids, srows, keyed)
+    cls = _check_selection(outdir, keyed, last, leg)
     _check_coder_conflicts(outdir, ctx)
     _check_transmission(outdir)
     _check_report(outdir, last)
@@ -650,7 +720,7 @@ def check(root, outdir, ctx):
     if leg in ("build", "check"):
         _check_build(outdir)
     if leg == "check":
-        _check_reassign(outdir, ctx, ids, keyed, last)
+        _check_reassign(outdir, ctx, ids, keyed, last, cls)
     elif os.path.exists(os.path.join(outdir, "reassign.jsonl")):
         warn("reassign.jsonl exists but _fleet_raw/B4/DONE does not; the comparison is made in the check leg, "
              "after the dispatch, and this leg was not read as one")
@@ -699,6 +769,12 @@ def _fixture(outdir, root, leg="build"):
          "unresolved": False, "taxonomy": "item-is-a-bag", "field": None, "theme": "T3-014",
          "quote": "we need more people at the border", "boundary_ruling": None, "named_neither": False,
          "confidence": "clear", "why": "the call is addressed outside", "leg": "B4-adj-1"}])
+    _wj(outdir, "b3_classes.jsonl", [          # tools/assemble.py's inventory: one contested, one standing
+        {"sub": "denmark", "theme_id": "t07", "class": 3, "r1": ["T3-014"], "r2": ["T3-020"], "b1": ["T3-014"],
+         "flags": {"missing_replicate": False, "unopened_family": False}, "final": None, "source": None},
+        {"sub": "asoiaf", "theme_id": "t02", "class": 1, "r1": ["T3-020"], "r2": ["T3-020"], "b1": ["T3-020"],
+         "flags": {"missing_replicate": False, "unopened_family": False}, "final": ["T3-020"],
+         "source": "readers_agree"}])
     _wj(outdir, "coder_conflicts.jsonl", [])
     _w(outdir, "transmission-B4.md", "# Transmission\n\nRows over the gold and pilot items, by family G01.\n"
        "Row 2, fails to transmit: none. Row 3, the instrument does not decide: none. Row 4, teaches something "
@@ -709,7 +785,7 @@ def _fixture(outdir, root, leg="build"):
        "1.0, not a reliability figure. Stage B2's predictions held.\n")
     _w(outdir, "notes-B4.md", "The gold drop removed 1 placement. One packet of 1 item. A clear reading against an "
        "arguable one is nothing. A ruling may name a theme neither reader chose. Unresolved is an outcome.\n"
-       "Blind sample: seed 20260901, fifty uniform and fifty adjudicated, Jaccard on sets.\n")
+       "Blind sample: seed 20260901, 250 uniform and 250 adjudicated, two fresh readers each, Jaccard on sets.\n")
     _w(outdir, "RETURN-B4.md", "Return one line per item, rule 0 in the contract's words.\n\n```\n"
        "{\"batch\": \"P001\", \"position\": 1, \"third_order\": [\"T3-014\"]}\nEND-OF-RETURN\n```\n"
        "Confirm you reached the end marker.\n")
@@ -782,7 +858,42 @@ def _plant_unanimous_on_adjudicated(outdir, root):
     _wj(outdir, "reassign.jsonl", rows)
 
 
+def _plant_contested_unruled(outdir, root):
+    """Section 1 (J, 2026-10-12): an item of class 4, readers agreeing outside the B1 grouping, with no ruling."""
+    _fixture(outdir, root, "build")
+    rows = jsonl(os.path.join(outdir, "b3_classes.jsonl"))
+    rows[1].update({"class": 4, "b1": ["T3-014"], "final": None, "source": None})
+    _wj(outdir, "b3_classes.jsonl", rows)
+
+
+def _rule2(outdir, tagged):
+    """asoiaf/t02 kept under rule 2: the readers' [T3-020], then B1's T3-014; its line tagged or not."""
+    rows = jsonl(os.path.join(outdir, "b3_classes.jsonl"))
+    rows[1].update({"class": 2, "b1": ["T3-014", "T3-020"], "final": ["T3-020", "T3-014"], "source": "b1_grouping_kept"})
+    _wj(outdir, "b3_classes.jsonl", rows)
+    fin = jsonl(os.path.join(outdir, "assign_final.jsonl"))
+    fin[1]["third_order"] = ["T3-020", "T3-014"]
+    if tagged:
+        fin[1]["source"] = "b1_grouping_kept"
+    _wj(outdir, "assign_final.jsonl", fin)
+
+
+def _plant_rule2_untagged(outdir, root):
+    """A rule-2 item standing with the B1 grouping kept, its line not tagged b1_grouping_kept."""
+    _fixture(outdir, root, "build")
+    _rule2(outdir, False)
+
+
+def _plant_rule2_row_missing(outdir, root):
+    """The uniform stratum holds a rule-2 item (asoiaf/t02) and the figures give it no row of its own (section 10)."""
+    _fixture(outdir, root, "check")
+    _rule2(outdir, True)
+
+
 PLANTED = [
+    ("build: contested item unruled", _plant_contested_unruled, "have no ruling in disagreements.jsonl"),
+    ("build: rule-2 line untagged", _plant_rule2_untagged, "not \"b1_grouping_kept\""),
+    ("check: no rule-2 row", _plant_rule2_row_missing, "has no row for the 1 items of the uniform stratum"),
     ("build: ruling without concepts", _plant_ruling_without_support, "names no support_by_theme"),
     ("build: id outside the frozen scheme", _plant_outside_scheme, "outside the frozen scheme"),
     ("build: gold placement survived", _plant_gold_survived, "seeded gold placement that survived the drop"),

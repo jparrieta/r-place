@@ -1,0 +1,34 @@
+{
+ "packet": "B0192",
+ "group": "B0192",
+ "reader": "r78",
+ "reissue": 1,
+ "generation": "msg_dv2CQcJLdAadMFklBBUi",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 106932,
+  "output_tokens": 33118,
+  "output_tokens_details": {
+   "thinking_tokens": 29146
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.03950166,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.03950166,
+   "upstream_inference_prompt_cost": 0.01764378,
+   "upstream_inference_completions_cost": 0.02185788
+  }
+ },
+ "elapsed_s": 149.5,
+ "packet_sha256": "700a45ab49a35bfd5368765a0f4a4f66425b69d74c1bd30265fcaebacc691d32",
+ "valid": false,
+ "why": "line 6 cites C0639218, not among the codes of its item",
+ "served_matches_probe": true
+}

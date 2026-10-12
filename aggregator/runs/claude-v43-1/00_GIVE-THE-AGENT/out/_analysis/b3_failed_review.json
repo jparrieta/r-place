@@ -1,0 +1,717 @@
+{
+ "failed": 87,
+ "reasons": {
+  "concept outside the item": 72,
+  "not JSON": 6,
+  "count": 5,
+  "other": 4
+ },
+ "classes": {
+  "own": 11638,
+  "packet": 454,
+  "unknown": 5,
+  "other": 1
+ },
+ "packet_distance": {
+  "1": 155,
+  "3": 122,
+  "6": 15,
+  "7": 20,
+  "2": 71,
+  "11": 12,
+  "8": 18,
+  "10": 2,
+  "12": 1,
+  "5": 9,
+  "9": 3,
+  "4": 26
+ },
+ "by_field": {
+  "support/packet": 96,
+  "multiplacement/packet": 26,
+  "also_present/packet": 332,
+  "support/unknown": 4,
+  "multiplacement/unknown": 1,
+  "multiplacement/other": 1
+ },
+ "replies": [
+  {
+   "file": "_fleet_raw/B3/B0002/r10.failed.txt",
+   "why": "B0002: line 4 cites C0502454, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0002/r6.failed.txt",
+   "why": "B0002: line 4 cites C1165463, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0019/r6.failed.txt",
+   "why": "B0019: line 2 cites C1404023, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 5
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0019/r7.failed.txt",
+   "why": "B0019: line 2 cites C0333753, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0019/r74.failed.txt",
+   "why": "B0019: line 5 cites C0918057, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0019/r76.failed.txt",
+   "why": "B0019: line 2 cites C0236970, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0019/r8.failed.txt",
+   "why": "B0019: line 2 cites C0502506, C0560180, C1206176, C1271584, C1375531, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 5
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0039/r6.failed.txt",
+   "why": "B0039: line 10 cites C1524425, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0119/r6.failed.txt",
+   "why": "B0119: line 8 cites C0444353, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0148/r6.failed.txt",
+   "why": "B0148: line 7 cites C0376627, C1019498, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0152/r15.failed.txt",
+   "why": "B0152: line 4 cites C1439508, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0152/r6.failed.txt",
+   "why": "B0152: line 4 cites C0635245, C0835056, C1201148, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 3
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0153/r6.failed.txt",
+   "why": "B0153: line 12 cites C0619518, C1431439, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0158/r6.failed.txt",
+   "why": "B0158: line 15 cites C0391523, C1362404, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0182/r6.failed.txt",
+   "why": "B0182: line 3 cites C0840134, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0192/r18.failed.txt",
+   "why": "B0192: line 3 cites C1358524, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0192/r21.failed.txt",
+   "why": "B0192: line 3 cites C0342178, C0873994, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 4
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0192/r6.failed.txt",
+   "why": "B0192: line 3 is not JSON: {\"sub\":\"r/MMA\",\"theme_id\":\"T2-61149\",\"batch\":\"B0192\",\"agent\":\"r6\",\"replicate\":1,",
+   "kind": "not JSON",
+   "bad": {
+    "packet": 5
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0192/r74.failed.txt",
+   "why": "B0192: line 3 cites C1358524, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 4
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0192/r78.failed.txt",
+   "why": "B0192: line 6 cites C0639218, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0192/r79.failed.txt",
+   "why": "B0192: line 3 cites C0342178, C0654091, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0192c/r82.failed.txt",
+   "why": "B0192c: line 5 cites C0027852, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0236/r6.failed.txt",
+   "why": "B0236: line 8 cites C1390077, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "unknown": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0278/r22.failed.txt",
+   "why": "B0278: line 9 cites C0421937, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0278/r6.failed.txt",
+   "why": "B0278: line 16 cites C0073497, C0526273, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 4
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0295/r6.failed.txt",
+   "why": "B0295: 14 item lines returned, 15 expected: a partial return is not a return",
+   "kind": "count",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0317/r6.failed.txt",
+   "why": "B0317: line 7 cites C0076634, C0929615, C1092577, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 3
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0328/r6.failed.txt",
+   "why": "B0328: line 3 cites C0062182, C0253397, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0362/r6.failed.txt",
+   "why": "B0362: line 4 cites C0882967, C0902428, C1285786, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 3
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0456/r28.failed.txt",
+   "why": "B0456: line 16 cites C1216163, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0456/r6.failed.txt",
+   "why": "B0456: line 16 cites C1307505, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0467/r29.failed.txt",
+   "why": "B0467: line 9: also_present names T3-105 (2) with fewer than three concepts",
+   "kind": "other",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0467/r6.failed.txt",
+   "why": "B0467: line 15: also_present names T3-122 (2), T3-139 (2), T3-037 (1) with fewer than three concepts",
+   "kind": "other",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0502/r1.failed.txt",
+   "why": "B0502: line 9 cites C0349582, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0550/r6.failed.txt",
+   "why": "B0550: line 4 cites C0579808, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0568/r6.failed.txt",
+   "why": "B0568: line 8 cites C0981819, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0603/r34.failed.txt",
+   "why": "B0603: line 12 cites C0014637, C0124180, C0266074, C0374793, C0430342, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 11
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0603/r6.failed.txt",
+   "why": "B0603: line 12 cites C0014637, C0152324, C0266074, C0430342, C0473279, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 6
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0610/r6.failed.txt",
+   "why": "B0610: line 13 cites C0849034, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0611/r6.failed.txt",
+   "why": "B0611: line 2 is not JSON: {\"sub\": \"r/torontoraptors\", \"theme_id\": \"T2-54172\", \"batch\": \"B0611\", \"agent\": \"",
+   "kind": "not JSON",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0645/r6.failed.txt",
+   "why": "B0645: 13 item lines returned, 14 expected: a partial return is not a return",
+   "kind": "count",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0670/r6.failed.txt",
+   "why": "B0670: line 13 is not JSON: {\"sub\": \"r/vinesauce\", \"theme_id\": \"T2-86719\", \"batch\": \"B0670\", \"agent\": \"r6\", ",
+   "kind": "not JSON",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0680/r6.failed.txt",
+   "why": "B0680: line 14: also_present names T3-003 (2), T3-084 (2) with fewer than three concepts",
+   "kind": "other",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0733/r41.failed.txt",
+   "why": "B0733: line 2 cites C1429548, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0733/r6.failed.txt",
+   "why": "B0733: line 3 cites C0183521, C1429548, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 5
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0785/r43.failed.txt",
+   "why": "B0785: 5 item lines returned, 15 expected: a partial return is not a return",
+   "kind": "count",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0785/r6.failed.txt",
+   "why": "B0785: line 5 is not JSON: {\"sub\": \"r/naruto\", \"theme_id\": \"T2-27861\", \"batch\": \"B0785\", \"agent\": \"r6\", \"re",
+   "kind": "not JSON",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0822/r44.failed.txt",
+   "why": "B0822: line 4 cites C1140260, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0822/r45.failed.txt",
+   "why": "B0822: line 4 cites C0126031, C0240472, C1140260, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 3
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0822/r6.failed.txt",
+   "why": "B0822: line 4 cites C0126031, C0240472, C1140260, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 3
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0822/r74.failed.txt",
+   "why": "B0822: line 4 cites C0126031, C0240472, C1140260, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 3
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0880/r47.failed.txt",
+   "why": "B0880: line 11: also_present names T3-153 (2) with fewer than three concepts",
+   "kind": "other",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0880/r49.failed.txt",
+   "why": "B0880: line 8 cites C0396852, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0880/r6.failed.txt",
+   "why": "B0880: line 1 cites C0238732, C1213188, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0884/r6.failed.txt",
+   "why": "B0884: line 4 cites C1157721, C1187132, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 4
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0886/r6.failed.txt",
+   "why": "B0886: line 8 cites C0956292, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0906/r6.failed.txt",
+   "why": "B0906: line 13 cites C1170950, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "unknown": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0907/r6.failed.txt",
+   "why": "B0907: line 6 cites C0174323, C0466658, C0689802, C1451631, C1535101, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 5
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0927/r52.failed.txt",
+   "why": "B0927: line 4 cites C0669581, C0963654, C1358524, C1392725, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 34
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0927/r56.failed.txt",
+   "why": "B0927: line 8 cites C0477115, C0518708, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0927/r6.failed.txt",
+   "why": "B0927: line 4 cites C0669581, C0963654, C1392725, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 24
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0927/r74.failed.txt",
+   "why": "B0927: line 9 cites C0639218, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0927/r77.failed.txt",
+   "why": "B0927: line 4 cites C0669581, C0963654, C1392725, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 13,
+    "other": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0927/r80.failed.txt",
+   "why": "B0927: line 9 cites C0373955, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0941/r6.failed.txt",
+   "why": "B0941: line 2 cites C0255431, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0942/r54.failed.txt",
+   "why": "B0942: line 10 cites C0114875, C0245432, C1240444, C1262675, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 4
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0942/r6.failed.txt",
+   "why": "B0942: line 11 cites C0516792, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B0945/r6.failed.txt",
+   "why": "B0945: 15 item lines returned, 14 expected: a partial return is not a return",
+   "kind": "count",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B0981/r6.failed.txt",
+   "why": "B0981: line 10 cites C0285413, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1024/r6.failed.txt",
+   "why": "B1024: line 13 is not JSON: {\"sub\":\"r/clashroyale\",\"theme_id\":\"T2-95367\",\"batch\":\"B1024\",\"agent\":\"r6\",\"repli",
+   "kind": "not JSON",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B1027/r6.failed.txt",
+   "why": "B1027: line 16 cites C0457902, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1049/r1.failed.txt",
+   "why": "B1049: line 3 is not JSON: {\"sub\": \"r/philippines\", \"theme_id\": \"T2-11924\", \"batch\": \"B1049\", \"agent\": \"r1\"",
+   "kind": "not JSON",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B1065/r1.failed.txt",
+   "why": "B1065: line 6 cites C0776584, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1072/r6.failed.txt",
+   "why": "B1072: line 9 cites C0974212, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1073/r6.failed.txt",
+   "why": "B1073: line 12 cites C0810261, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1098/r1.failed.txt",
+   "why": "B1098: line 11 cites C1535550, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "unknown": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1114/r6.failed.txt",
+   "why": "B1114: line 6 cites C0538170, C0986887, C1038187, C1469837, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 4
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1114/r64.failed.txt",
+   "why": "B1114: line 6 cites C0145452, C0494087, C0622612, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 3
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1119/r6.failed.txt",
+   "why": "B1119: line 14 cites C0437523, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "unknown": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1121/r6.failed.txt",
+   "why": "B1121: line 14 cites C0961137, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "unknown": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1129/r6.failed.txt",
+   "why": "B1129: 13 item lines returned, 14 expected: a partial return is not a return",
+   "kind": "count",
+   "bad": {}
+  },
+  {
+   "file": "_fleet_raw/B3/B1140/r6.failed.txt",
+   "why": "B1140: line 14 cites C1061548, C1109644, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1175/r6.failed.txt",
+   "why": "B1175: line 9 cites C0980160, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1194/r6.failed.txt",
+   "why": "B1194: line 6 cites C0843058, C0970212, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1194/r71.failed.txt",
+   "why": "B1194: line 2 cites C0012595, C0017544, C0062427, C0062516, C0062620, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 237
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1194/r73.failed.txt",
+   "why": "B1194: line 5 cites C0185762, C1000492, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 2
+   }
+  },
+  {
+   "file": "_fleet_raw/B3/B1195/r6.failed.txt",
+   "why": "B1195: line 2 cites C0595117, not among the codes of its item",
+   "kind": "concept outside the item",
+   "bad": {
+    "packet": 1
+   }
+  }
+ ],
+ "accepted": {
+  "pass1/support/own": 84466,
+  "pass1/multiplacement/own": 21744,
+  "pass1/also_present/own": 14203
+ },
+ "accepted_lines": 35306,
+ "accepted_lines_off_item": 0,
+ "why_ids": 4977,
+ "why_ids_off_item": 0
+}

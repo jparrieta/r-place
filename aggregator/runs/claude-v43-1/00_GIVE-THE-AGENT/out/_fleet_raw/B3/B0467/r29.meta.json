@@ -1,0 +1,34 @@
+{
+ "packet": "B0467",
+ "group": "B0467",
+ "reader": "r29",
+ "reissue": 1,
+ "generation": "msg_vSTwsDqdiGj4R4w9028L",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 97290,
+  "output_tokens": 60600,
+  "output_tokens_details": {
+   "thinking_tokens": 54269
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.04082133,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.04082133,
+   "upstream_inference_prompt_cost": 0.00749133,
+   "upstream_inference_completions_cost": 0.03333
+  }
+ },
+ "elapsed_s": 418.9,
+ "packet_sha256": "922b57db28a934ee0030cc2654a1436d24e52621436aec0b8a5ab6dea8638596",
+ "valid": false,
+ "why": "line 9: also_present names T3-105 (2) with fewer than three concepts",
+ "served_matches_probe": true
+}

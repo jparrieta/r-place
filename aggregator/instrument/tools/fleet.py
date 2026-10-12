@@ -366,6 +366,7 @@ def main():
     packets = sorted(p for p in glob.glob(os.path.join(a.packets, "*.md"))
                      if p not in shared_files and os.path.abspath(p) != ret_abs
                      and not os.path.basename(p).startswith("RETURN-"))
+    all_names = [os.path.splitext(os.path.basename(p))[0] for p in packets]
     if a.only:
         want = set(a.only.split(","))
         packets = [p for p in packets if os.path.splitext(os.path.basename(p))[0] in want]
@@ -586,6 +587,28 @@ def main():
     name = "DONE" if not a.only else "PARTIAL-%s.json" % now().replace(":", "")
     with open(os.path.join(a.raw, name), "w") as f:
         f.write(json.dumps(rec) + "\n")
+    # J, 2026-10-12: a fleet sent in groups (--only, group by group) never had a full run, so no DONE
+    # opened the check leg. When an --only run leaves every packet of the folder tried (a reader's
+    # meta file under it) and no DONE exists, DONE is written as the sum of the PARTIAL records.
+    done_p = os.path.join(a.raw, "DONE")
+    if a.only and not os.path.exists(done_p):
+        untried = [n for n in all_names if not glob.glob(os.path.join(a.raw, n, "r*.meta.json"))]
+        if not untried:
+            parts = []
+            for pp in sorted(glob.glob(os.path.join(a.raw, "PARTIAL-*.json"))):
+                try:
+                    parts.append(json.loads(open(pp).read()))
+                except ValueError:
+                    pass
+            tot = {"stage": a.stage, "utc": now(), "packets": len(all_names), "readers": a.readers,
+                   "served": served, "only": None, "from_partials": [os.path.basename(x) for x in
+                                                                    sorted(glob.glob(os.path.join(a.raw, "PARTIAL-*.json")))]}
+            for k in ("units", "valid_returns", "exhausted", "cost_usd", "subscription_cost_usd",
+                      "input_tokens", "output_tokens"):
+                tot[k] = round(sum((r.get(k) or 0) for r in parts), 6) if "cost" in k else sum((r.get(k) or 0) for r in parts)
+            with open(done_p, "w") as f:
+                f.write(json.dumps(tot) + "\n")
+            print("every packet in %s is now tried: DONE written from %d PARTIAL record(s)" % (a.raw, len(parts)))
     print("done: %d valid returns, %d exhausted, %.4f USD, %d in / %d out tokens -> %s"
           % (ok_returns, len(exhausted), spend, tokens_in, tokens_out, a.raw))
     return 2 if exhausted else 0

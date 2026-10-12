@@ -21,7 +21,7 @@ ROOT=. bash "$T/done.sh" C2 --cut merging || echo "(done.sh refused the close: t
 python3 "$T/validate.py" --self-test --summary > "$W/selftest.log" || { cat "$W/selftest.log"; exit 1; }; tail -1 "$W/selftest.log"
 python3 "$T/tests/test_verbs.py" ${1:+--run "$1"} > "$W/verbs.log" || { grep -A12 FAIL "$W/verbs.log"; exit 1; }; tail -1 "$W/verbs.log"
 python3 "$T/tests/test_stage_d.py" > "$W/stage-d.log" || { grep -A6 FAIL "$W/stage-d.log"; exit 1; }; tail -1 "$W/stage-d.log"
-for TEST in test_methods_v40.py test_statistics.py test_views_v40.py test_pass2.py test_v43_2.py test_split.py test_b3_packets.py; do
+for TEST in test_methods_v40.py test_statistics.py test_views_v40.py test_pass2.py test_v43_2.py test_split.py test_b3_packets.py test_assemble.py; do
   python3 -B -W ignore::ResourceWarning "$T/tests/$TEST" > "$W/$TEST.log" 2>&1 || { cat "$W/$TEST.log"; exit 1; }
   tail -5 "$W/$TEST.log"
 done

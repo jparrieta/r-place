@@ -387,3 +387,10 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 2026-10-12T15:13Z: B3a closed 15:00Z (0/0; 1,210 packets, 605/replicate, 17,653 positions; RETURN-B3 carries both J rulings; 161 turns, 322 in, 612,504 cache-write, 144,557,493 cache-read, 352,327 out); pushed c17c5b99. Group 1 (100 batches) command to J.
 2026-10-12T15:40Z: B3 group 1 done 15:32Z (100 valid, 0 exhausted, 4 reissued; 1,693,077 in / 2,278,585 out). B3b started for the section 3.2 gold check.
 2026-10-12T15:53Z: B3b refused to prepare (no DONE after a partial dispatch; handler did not check). Gold check run instead as B3a-p2 (build continuation), corrected handler text sent.
+2026-10-12T16:06Z: B3a-p2 closed 15:57Z, pushed 2f85daa9: group 2 goes out as built (gold fidelity 0.637 vs B2 0.625; primary 0.833 vs 0.812; floor 0.193). fleet.py group-DONE rule installed. Group-2 command to J.
+2026-10-12T18:33Z: B3 dispatch ended 18:26:54Z rc=2. DONE written from the two PARTIALs (group-DONE rule worked): 1,210 packets, 1,204 valid, 6 exhausted (B0019 B0192 B0822 B0880 B0927 B1194, all foreign-code), 21,843,680 in / 40,588,501 out. B3b held for J's answer on the assemble verb.
+2026-10-12T19:40Z: assemble.py built and installed (dry run clean except 22 reader sub typos, handled by --accept-sub-label pending J). B4 stage and check amended per J's three-placement rule and 500-item blind sample. B3b not yet opened.
+2026-10-12T20:03Z: halves B0192a/b, B0927a/b all valid first try. B3b started with handler text (assemble, merge split, batch review of failures).
+2026-10-12T20:35Z: QB3-003 (b) and QB3-004 (waive) answered; stage_B3 waivers installed; B3b resumed.
+2026-10-12T20:53Z: fleet-id halves all valid (dispatch 20:45Z rc=0). B3b resumed for assembly, checks, close.
+2026-10-12T21:20Z: QB3-005 answered (waive), B3 check extended to line waivers (0a77bbad); B3b resumed to close.

@@ -1,0 +1,31 @@
+{
+ "t": "2026-10-12T21:16:35+00:00",
+ "stage": "B3",
+ "leg": "B3b",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [],
+  "changed": [],
+  "next": "assemble as J rules, b3_check.py --from out --tag record --write-defects, b3_reports.py --tag record --write, handback-B3.md, close."
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "n/a",
+  "changed": "n/a",
+  "next": "missing"
+ },
+ "scored": 2,
+ "unscored": [
+  "open",
+  "rooms",
+  "changed"
+ ],
+ "misses": [
+  "goal",
+  "next"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

@@ -1,0 +1,26 @@
+stage B3:
+  batches 1212, R 2, rooms 705, items 7844, graph one component
+  leg: check (1 dispatch folders with DONE)
+
+ERROR  stage output 'assign_raw.jsonl' was not written
+ERROR  stage output 'assign_pass2.jsonl' was not written
+ERROR  _fleet_raw/B3/B0011/r6: no prediction line; each reader writes its predicted_confusion first in its return (section 1.5), and agent_report-B3.md compiles them  [32 lines with this shape; first: B0011/r6]
+ERROR  assign_raw.jsonl is empty; the check leg assembles it from the returns, keyed on packet heading and cell number
+ERROR  multiplacement_log.jsonl line 1 lacks 'key'; the record of section 1.5 carries it  [6663 lines with this shape; first: line 1]
+ERROR  multiplacement_log.jsonl line 1 lacks 'batch'; the record of section 1.5 carries it  [6663 lines with this shape; first: line 1]
+ERROR  multiplacement_log.jsonl line 1 lacks 'agent'; the record of section 1.5 carries it  [6663 lines with this shape; first: line 1]
+ERROR  multiplacement_log.jsonl line 1 lacks 'replicate'; the record of section 1.5 carries it  [6663 lines with this shape; first: line 1]
+ERROR  multiplacement_log.jsonl line 1 lacks 'position'; the record of section 1.5 carries it  [6663 lines with this shape; first: line 1]
+ERROR  multiplacement_log.jsonl line 1 lacks 'why_this_one'; the record of section 1.5 carries it  [6663 lines with this shape; first: line 1]
+ERROR  multiplacement_log.jsonl line 1 lacks 'support_primary'; the record of section 1.5 carries it  [6663 lines with this shape; first: line 1]
+ERROR  multiplacement_log.jsonl line 1 lacks 'support_additional'; the record of section 1.5 carries it  [6663 lines with this shape; first: line 1]
+ERROR  multiplacement_log.jsonl line 1: the additional theme T3-042 has no supporting concept of its own (same concept twice is the same reading twice)  [6663 lines with this shape; first: line 1]
+ERROR  multiplacement_log.jsonl line 67 lacks 'additional'; the record of section 1.5 carries it  [909 lines with this shape; first: line 67]
+ERROR  multiplacement_log.jsonl line 67 lacks 'dispensable'; the record of section 1.5 carries it  [909 lines with this shape; first: line 67]
+ERROR  multiplacement_log.jsonl line 67: dispensable is null; it is compulsory  [909 lines with this shape; first: line 67]
+ERROR  multiplacement_log.jsonl line 67 names None, which scheme_final.jsonl does not define  [909 lines with this shape; first: line 67]
+ERROR  fidelity-B3.md reports gold fidelity without the sentence saying what it licenses (it bounds whether the instrument decides, not whether it is right)
+ERROR  multiplacement_register-B3.md reports the multiplacement rate without the sentence saying what it licenses (it bounds whether the instrument decides, not whether it is right)
+warn   assign_pass2.jsonl holds 0 lines and the returns hold 17653 lines carrying "revises"; pass 2 is assembled from those lines
+
+63640 errors (19 distinct shapes), 1 warnings

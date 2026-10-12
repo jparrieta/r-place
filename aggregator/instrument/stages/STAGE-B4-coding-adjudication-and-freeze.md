@@ -13,7 +13,7 @@ build, dispatch and check for the blind sample.
 `validate.py --open B4`; in the check leg, the harness's one line: the readers left their files
 in `_fleet_raw/B4/`.
 
-**Reads allowed:** `assign_raw.jsonl`, `multiplacement_log.jsonl` (every `why_not_one`),
+**Reads allowed:** `assign_raw.jsonl`, `b3_classes.jsonl` (the contested inventory, §1), `multiplacement_log.jsonl` (every `why_not_one`),
 `fidelity-B3.md`, `position-B3.md`, `notes-B3.md` (the disagreement inventory, the gloss-only
 placements), stage B3's gold keys (the tags in `batches-B3.jsonl`), `author_items.jsonl`, `gold_items.jsonl`, `scheme_final.*`
 with `families.jsonl`, `confusions.md` and `pilot_report.md` (stage B2's predictions),
@@ -28,13 +28,36 @@ while you rule; any edit to the scheme; to a blind reader, everything §10 withh
 
 ## 1. What comes here
 
-**Only the contested items, and the placements made from a gloss.** Contested: every item where
-the two readers differ, plus every `multi` item. Where the readers agree, the assignment stands,
-with one exception: a placement into a family neither reader opened (`families_opened` without
-the chosen family) is read by you whether or not the readers agreed, since two readers can agree
-from a gloss; where you move one, it is logged as a ruling like any other. An item two readers
-holding the same written scheme placed differently is a boundary the scheme did not decide, with
-the alternatives attached.
+**Only the contested items, and the placements made from a gloss.** Three placements decide which
+items are contested (J, 2026-10-12): the two readers' pass-1 lines, replicates 1 and 2, and your
+B1 grouping, the item's third-order themes among the members of `scheme/scheme_current.jsonl`
+(sha256 `8b67360b8d0dfefc`), joined by sub and second-order label through
+`package/store/themes.jsonl`, a set with no order. A reader's list is its `third_order` in order.
+Gold copies and the duplicate's second copy are left out. `tools/assemble.py B3` writes each item's
+class into `b3_classes.jsonl`; that file is the contested inventory, built by the tool, not by hand.
+
+The placement stands, with no adjudication:
+
+1. The two readers return the same list, order included, and its set equals the B1 grouping. The
+   readers' list stands, `multi` or not.
+2. The two readers return the same list, and its set is smaller than the B1 grouping and inside it.
+   The B1 grouping stands: the readers' list first, then B1's other themes in ascending id order.
+   Its line in `assign_final.jsonl` carries `"source": "b1_grouping_kept"`, so that stage C1 can
+   tell it from placements made under the frozen scheme.
+
+The item comes here:
+
+3. The readers differ, including the same themes in another order (J: "just add the case to
+   adjudication"); and an item with one replicate missing, which cannot be agreed
+   (`missing_replicate` in `b3_classes.jsonl`).
+4. The readers agree on a set that is not inside the B1 grouping.
+5. The item has no B1 grouping (58 at B1).
+
+One exception stands whatever the class: a placement into a family neither reader opened
+(`families_opened` without the chosen family; `unopened_family` in `b3_classes.jsonl`) is read by
+you, since two readers can agree from a gloss; where you move one, it is logged as a ruling like
+any other. An item two readers holding the same written scheme placed differently is a boundary
+the scheme did not decide, with the alternatives attached.
 
 ## 2. The gold placements come out first
 
@@ -194,13 +217,16 @@ twice.
 
 Declared before you draw, in `notes-B4.md`:
 
-- **The sample**: one hundred items, fifty drawn uniformly at random from the analysed set and
-  fifty from the adjudicated items, by a recorded seed. The two strata are reported separately
+- **The sample**: five hundred items, two hundred and fifty drawn uniformly at random from the
+  analysed set and two hundred and fifty from the adjudicated items, by a recorded seed (J,
+  2026-10-12: "250 each for adjudication and random"). The two strata are reported separately
   and never pooled: the first says whether the scheme decides the ordinary item, the second
-  whether your rulings can be reached by a stranger.
-- **Two fresh readers per item**, with no memory of the run, one dispatch. Each reading is
-  compared with the settled line on its own: two hundred comparisons, a rate over readings; the
-  readers' agreement with each other is reported beside it.
+  whether your rulings can be reached by a stranger. Within the uniform stratum, the items kept
+  under §1's rule 2 are reported as a row of their own: they were neither adjudicated nor placed
+  under the frozen scheme.
+- **Two fresh readers per item**, as `arm.json` sets this stage's readers, with no memory of the
+  run, one dispatch. Each reading is compared with the settled line on its own: one thousand
+  comparisons, a rate over readings; the readers' agreement with each other is reported beside it.
 - **The agreement definition**, stage B2's and B3's from `notes-B2.md`, unchanged, or the
   figures cannot be set beside each other: sets by Jaccard where rule 0 allowed more than one
   placement, alpha computed on it; whether `["T3-004"]` against `["T3-004","T3-011"]` is
@@ -242,10 +268,11 @@ comparison, per reading, the fresh placement against the settled one**, into `re
   the denominator rather than counting them as a failure, and say how many.
 
 **`transmission-after-revision-B4.md`**: the headline figures side by side, fleet agreement from
-stage B3 and fresh-against-settled agreement per stratum, with alpha on the hundred and the
-stability floor from `stability-B2.md` beside them, the definition stated once above them; per
-family, not per theme: a hundred items over hundreds of themes leave most themes with no item in
-the sample. The per-theme figure stage C1 needs is stage B3's agreement, over every item and
+stage B3 and fresh-against-settled agreement per stratum, with alpha per stratum on its two
+hundred and fifty items and the stability floor from `stability-B2.md` beside them, the uniform
+stratum's rule-2 items in a row of their own, the definition stated once above them; per family,
+not per theme: two hundred and fifty items a stratum over nearly two hundred themes leave most
+themes with one or two items, or none, in the sample. The per-theme figure stage C1 needs is stage B3's agreement, over every item and
 every theme; point to it, do not recompute it. Then the unanimous-but-disagreed items, listed;
 and the gap between the uniform stratum's figure and stage B2's gold figure: the pilot measured
 the scheme on deliberately hard items, and where the gold number is not the lower of the two, the

@@ -218,3 +218,191 @@ stage B3:
 ```
 
 The leg closes with `done.sh B3 --cut packets-out`. Group 2 (1,110 batches) is J's to send.
+
+## Leg B3b: the check
+
+**What the dispatch left** (the PI, 20:02Z). `out/_fleet_raw/B3/DONE` and four PARTIAL records. Per `DONE`, 1,204 of 1,210 packets were valid on the main run, at 32.78 USD. Every packet now has a valid return except B0192 and B0927, which failed six tries each (`EXHAUSTED.tsv`). Under J's ruling (21:39 Berlin), the handler rebuilt those two in halves with `tools/packets.py` (`out/batches-B3-split.jsonl`, `out/_packets-B3-split/`). All four halves came back valid on the first try. B0019a and B0019b are unused spares, since B0019 passed on retry.
+
+### The split put into the fleet's record
+
+J's ruling 2 for this leg: the record must show the batches as served, never deleting. `out/_analysis/b3_split_merge.py` did this:
+- **Batches.** `batches-B3.jsonl` is kept as `batches-B3.superseded-20261012T200341Z.jsonl`. It was rewritten with B0192 and B0927 replaced in place by B0192a/b and B0927a/b, with the B0019 spares left out. The record now holds 1,212 batches and the same 17,653 positions.
+- **What the halves keep.** Each pair holds its original's items. The original order is kept, except that the duplicate's second copy moved into half a, so both copies sit in one half. The replicates are kept, and the agents are new (a1213 to a1216, `original_agent` the old one). The gold copies sit in B0192a (mit t01) and B0927b (lego t13).
+- **Packets.** B0192.md and B0927.md moved to `out/_analysis/packets-B3_exhausted_superseded/`, and the four halves were copied into `_packets-B3/`. The old `MANIFEST.json` is kept as `out/_analysis/packets-B3_MANIFEST_before_split.json`. The new MANIFEST has 1,212 entries and 17,653 lines due. Each half's sha256 matches its MANIFEST entry and the packet its accepted return was served.
+
+**A fault in the halves (QB3-003).** `tools/packets.py` writes room ids. The four halves were served with room ids in their headings and lines (t01, c0009) and with no `codes_by_item`. So their 30 positions reached readers against J's fleet-id ruling, and `fleet.py` could not check their concepts. A hand check (`out/_analysis/b3_halves_support.py`) found no harm: all 289 concepts these lines cite belong to their own items, and every typed id matches its cell. But `tools/assemble.py` refuses all 30 lines, because "t01" does not resolve in `fleet_ids.jsonl`, and it writes nothing. J's ruling 1 forbids a hand assembly. So QB3-003 asks J for one of three choices:
+- (a) the handler lets the tool read room-id returns;
+- (b) the halves are rebuilt in fleet ids and sent again;
+- (c) the halves are left out as missing replicates.
+
+### The failed replies, read as one set (J's ruling 3)
+
+`out/_analysis/b3_failed_review.py` reads every `*.failed.txt` (the dispatch's reason on the first line, then the reply). It classes every concept each reply cites against the item at the line's cell. Figures are in `b3_failed_review.json`.
+
+**86 failed replies over 55 packets** (1,298 replies in `log.jsonl`). The next table counts them by the dispatch's reason.
+
+| reason | replies |
+|---|---|
+| a concept outside the item | 71 |
+| a line not JSON (cut off mid-line) | 6 |
+| a partial return: 5 to 15 lines against 14 or 15 due | 5 |
+| `also_present` naming a theme with fewer than three concepts | 4 |
+
+**The concept failures are concepts of a neighbouring item in the same packet.** Of the 71 replies:
+- 65 cite only concepts of another item in their own packet;
+- 1 (B0927, r77) cites those and also one concept of another room;
+- 5 cite an id the fleet table lacks, a made-up id.
+
+The dispatch names only the first bad line, but the failed replies cite 453 off-item concepts in all, and 452 belong to another item of the same packet. The neighbour usually sits close by: 347 of the 453 come from an item one to three positions away.
+
+They sit mostly where a reader names other themes:
+- 332 in `also_present`;
+- 95 in `support`;
+- 26 in the multiplacement records.
+
+So a reader filling `also_present` reaches into the items around it. The handler's count holds: almost all failures cite a neighbour's concepts.
+
+Six packets failed more than twice: B0192 and B0927 (six each), B0019 (five), B0822 (four), B0880 and B1194 (three each). B0192 and B0927 both hold r/MMA's eight items, whose concepts readers carried from one item to the next.
+
+**The accepted replies hold no concepts from neighbouring items.** I screened all 1,212 accepted replies: 17,653 pass-1 lines and 17,653 pass-2 lines.
+- **Cited ids.** 120,119 concepts are cited in fleet ids (`support`, `also_present`, the multiplacement records), and every one belongs to its item. The other 289 are the halves' room ids (above).
+- **Ids in the readers' reasons.** No check reads the `why` texts. They hold 4,971 concept ids, and all are the item's own.
+- **Pass 2.** Pass-2 lines cite no concepts (fields: pass, revises, third_order, changed, why_changed).
+- **Assembler check.** The dry run of `tools/assemble.py` found no line whose typed theme id names another cell than its own.
+
+So a neighbouring item's concepts reached no accepted line in any field. The screen cannot see whether a neighbour swayed a reading without being cited.
+
+### Declarations for the check, made before any figure is fitted
+
+- **Lines that count.** Agreement and the population figures read pass 1, corpus copies only. Gold copies and duplicates' second copies are left out, as J ruled that no seeded copy counts as a corpus reading. Gold copies are scored apart in `fidelity-B3.md`. Duplicates are scored apart as within-reader disagreement.
+- **Agreement**, as `notes-B2.md` defined it and not redefined. It is the Jaccard of replicate 1's set against replicate 2's set for each item: `["T3-004"]` against `["T3-004","T3-011"]` scores 0.5. Exact-set agreement and primary agreement are reported beside it. Alpha uses the distance 1 − Jaccard, with chance taken over the pooled sets.
+- **Per-theme presence.** For each theme, over the items with both replicates, positive agreement is (items where both readers name the theme) ÷ (items where either does). Cohen's kappa on the theme's presence is reported beside it.
+- **The position curve.** Each corpus line has three outcomes:
+  - agreement: Jaccard with the other replicate's line for the same item;
+  - multi: more than one theme;
+  - arguable: confidence "arguable".
+
+  Each outcome is regressed on position within the batch, with batch fixed effects (outcomes demeaned within the batch) and standard errors clustered by batch. One reader holds each batch, so batch clusters are reader clusters. The curve is drawn by decile of relative position, (p − 1) ÷ (n − 1).
+- **Tolerable change.** At most 0.10 in each outcome across a 15-position batch, that is, over 14 steps. That is about half the 0.193 placement disagreement behind the stability floor. The sensitivity is the change across 14 steps that the fit detects with 80% power at two-sided 5%, which is 2.80 × SE × 14. A slope inside the tolerance and a sensitivity inside it together count as stability. A slope that is not significant counts for nothing.
+- **Formation per reader.** Batches hold at most 15 positions, so "first ten against last ten" would overlap. I compare the first five with the last five instead, in batches of ten or more.
+- **Variance components.** Room and reader are crossed. For multi, the empty set and the theme count, I fit a linear mixed model with crossed random intercepts for room and batch (reader), using statsmodels MixedLM with variance components.
+- **The funnel.** Each reader's rate is plotted against its batch size, with limits at the fleet rate ± 3 binomial standard errors. A reader outside the limits is named.
+- **The justifications.** I read at least 30 `why_not_one` texts, drawn by seed 20261015 across distinct readers. I class each as one of four kinds: the material spans two themes; the scheme lacks a theme; the reader is hedging; or it restates that both gates are met, which is a defect.
+- **Runs before the real assembly.** While QB3-003 is open, the scripts run on a trial assembly with the halves left out (option (c)), in a scratch folder outside `out/` (`out/_analysis/b3_scratch_c.py`). The figures of record come from the assembly J rules on.
+
+### Where the check stands (QB3-003 and QB3-004 open)
+
+**The meanwhile line of QB3-003 does not work as written.** It said that, without an answer, I would assemble on option (c) in `out/`. But the assembler reads `out/batches-B3.jsonl`, which now holds the halves under J's ruling 2. Leaving them out there would undo that ruling. So `out/` holds no assembly yet: no `assign_raw.jsonl`, no `assign_pass2.jsonl` and no `b3_classes.jsonl`. B1's `multiplacement_log.jsonl` (6,663 lines) still stands, and the real assembly's `--supersede` will rename it.
+
+**The check folder.** `checks/stage_B3.py` reads the last folder named `_packets-B3*`. The handler's `_packets-B3-split/` therefore hid `_packets-B3/`, and the check reported 1,208 batches "without a packet". I moved `_packets-B3-split/` to `out/_analysis/packets-B3-split_handler_merged/`; its four halves used in the fleet were already in `_packets-B3/`.
+
+**QB3-004.** The check refuses 32 accepted returns that carry no prediction line (`fleet.py` accepted them). I asked J to waive them by name or have them sent again.
+
+**Reports from the trial assembly.** `fidelity-B3.md`, `position-B3.md`, `multiplacement_register-B3.md` and `agent_report-B3.md` are rendered by `out/_analysis/b3_check.py` and `b3_reports.py` from `b3_check_scratch_c.json`. Each opens by saying it is a trial. Once J rules, the real assembly runs (`tools/assemble.py B3 --supersede --accept-sub-label --families out/families.jsonl`), then `b3_check.py --from out --tag record --write-defects`, then `b3_reports.py --tag record --write`, which keeps the trial reports under superseded names. `defects.jsonl` and `handback-B3.md` wait for that run.
+
+The trial figures (halves left out, 19 items missing a replicate):
+- **Screen.** 17,623 pass-1 lines (15,662 corpus). `read` is "whole" on 17,594 lines and "theme-block" on 29; no line is `label-only`. Every multi line has its records and a non-empty `why_not_one`, so no line is reduced to its primary. No reader text says the scheme did not decide. Positions run 1 to n in every batch. The room-batch graph is one component.
+- **Gold.** 753 copies: fidelity 0.645 against 0.631 for B2 on the same copies (fall −0.014, interval −0.030 to +0.003); primary match 0.815 against 0.801. Group 2 alone: 0.645 against 0.632. No gold item has its own fall beyond the 0.193 floor.
+- **Agreement**, over 7,825 items: Jaccard 0.786, exact set 0.703, primary 0.838, alpha 0.782. The family that agreed least is G18 (0.552). The theme handled worst is T3-152: positive agreement 0.333 over 42 items.
+- **Position.** Agreement moves +0.003 over 14 positions (sensitivity 0.027), and the multi rate +0.018. The arguable rate rises +0.040 (0.017 to 0.063). That is inside the 0.10 tolerance, but it is a diagnostic for `defects.jsonl`.
+- **Pass 2.** It changed 0.01% of lines.
+- **The duplicate.** Both copies agree on every one of 1,208 duplicates. The readers recognised the repeat: 911 repeat the first copy's `why` word for word. So the duplicate does not measure within-reader instability in this fleet.
+- **Multiplacement.** The multi rate is 0.158. 88 readers sit above the funnel limits; they held longer items and called more lines arguable. The commonest pairs are T3-009/T3-043 and T3-005/T3-021, 114 each. All 40 sampled `why_not_one` texts name material that one theme leaves out.
+- **Variance components.** The reader share exceeds the room share (multi: reader 0.012, room 0.007, residual 0.114).
+
+### J's answers to QB3-003 and QB3-004 (22:30 Berlin)
+
+**QB3-004: the 32 returns are waived by name.** `out/_analysis/b3_waivers_qb3004.py` found the accepted returns without a prediction line from the returns themselves. They are exactly the 32 named in the question. It wrote one line for each to `return_waivers.jsonl`, in the form J gave: stage B3, the file, check "no_prediction", a reason, and "J, 2026-10-12, QB3-004". The file now holds 52 lines. `validate.py B3` counts them aloud: "returns without a prediction line waived by J by name: 32". My assumption was a waiver by name, and it stands. The item lines are scored as given, `agent_report-B3.md` names the 32, and each still goes into `defects.jsonl` as a reader omission.
+
+**QB3-003: (b), the four halves rebuilt in fleet ids and sent again.** J ruled that the error was the handler's. `out/_analysis/b3_halves_fleet.py` rebuilt them under new batch names, so no folder holds two accepted returns. The next table gives the old and new names.
+
+| room-id half (superseded) | rebuilt in fleet ids | agent | replicate | items | item bytes | gold copy | duplicate |
+|---|---|---|---|---|---|---|---|
+| B0192a | B0192c | a1217 | 1 | 9 | 75,877 | mit t01 | ucf t12 |
+| B0192b | B0192d | a1218 | 1 | 6 | 12,512 | - | - |
+| B0927a | B0927c | a1219 | 2 | 9 | 75,912 | - | MMA t02 |
+| B0927b | B0927d | a1220 | 2 | 6 | 29,547 | lego t13 | - |
+
+- **Renderer.** The rebuild uses the main build's renderer (`b3_packets_fleet2.py`): the same brief, sibling blocks, item text and checks. Rendered by this script, B0001, B0500 and B1100 match their main-build sha256, so the renderer is the same.
+- **Packets.** Each half keeps its items in the same order, its rooms, its gold copy, its duplicate and its replicate. Each has a new agent and a `supersedes` field naming the room-id half. Fleet ids only: no room id of a packet's rooms stands anywhere in it, and no other string shaped like a room id appears. Each MANIFEST entry carries `codes_by_item`, so `fleet.py` checks the concepts.
+- **Superseded under new names, nothing deleted:**
+  - `batches-B3.jsonl` → `batches-B3.superseded-20261012T203637Z.jsonl`. The new file has 1,212 batches and 17,653 positions.
+  - the room-id packets B0192a.md, B0192b.md, B0927a.md and B0927b.md → `out/_analysis/packets-B3_roomid_halves_superseded/`.
+  - the MANIFEST before this change → `out/_analysis/packets-B3_MANIFEST_before_fleet_halves.json`.
+  - the raw folders `out/_fleet_raw/B3/B0192a`, `B0192b`, `B0927a` and `B0927b` → `out/_analysis/fleet_raw-B3_roomid_halves_superseded/`.
+- **Close-check.** `validate.py B3` now reads 1,212 batches, R 2, 705 rooms and 7,844 items, with the graph one component. No packet error remains. The errors left are the assembly, which waits for the four returns.
+
+**What rested on my assumption for QB3-003.** I had assumed (c). Nothing in `out/` was assembled on it, because that would have undone J's ruling 2. The four reports remain marked as trial, and they will be replaced. The trial assembly in `$TMPDIR` is not the record.
+
+**Dispatch.** J sends the four from `out/_packets-B3`. The command, built from the handler's words and the PARTIAL records' `only` field:
+
+```
+python3 tools/fleet.py B3 --only B0192c,B0192d,B0927c,B0927d
+```
+
+**After the four returned** (J, 20:45Z; B0192c valid on its second try), the check leg ran the steps below. Their results are in the next section.
+1. `python3 tools/assemble.py B3 --supersede --accept-sub-label --families out/families.jsonl`;
+2. `python3 out/_analysis/b3_check.py --from out --tag record --write-defects`;
+3. `python3 out/_analysis/b3_reports.py --tag record --basis "<the record>" --write`;
+4. `handback-B3.md`, the head, and `done.sh B3`.
+
+### The check of record
+
+**The assembly** (J's flags):
+- **Returns.** 1,212 accepted, none exhausted or missing.
+- **`assign_raw.jsonl`.** 17,653 pass-1 lines: 15,688 corpus readings, 755 gold copies and 1,210 duplicate copies.
+- **The other outputs.** `assign_pass2.jsonl` holds 17,653 lines, `multiplacement_log.jsonl` 3,171 records and `predicted_confusion-B3.jsonl` 1,180 predictions.
+- **`b3_classes.jsonl`.** 7,844 items: class 1 2,566; class 2 1,990; class 3 2,393; class 4 837; class 5 58.
+- **Coverage.** 100% in both replicates.
+- **Other.** B1's `multiplacement_log.jsonl` is kept by the tool as `multiplacement_log.jsonl.superseded-20261012T205314Z`. 22 lines carry `sub_typed` under J's flag.
+
+**Figures** (`b3_check_record.json`). They match the trial assembly to the third decimal, and coverage is now complete:
+- **Gold.** Fidelity 0.645 against B2's 0.631 on the same 755 copies; the fall is −0.014 (−0.031 to +0.003).
+- **Agreement.** Jaccard 0.786, exact set 0.703, primary 0.838, alpha 0.782.
+- **Position.** The arguable rate rises +0.040 across 14 positions; agreement moves +0.003.
+- **Multiplacement.** The multi rate is 0.158, and 88 readers sit above the funnel limits.
+- **Worst cases.** The family that agreed least is G18 (0.552). The theme handled worst is T3-152 (0.333 over 42 items).
+
+**Two faults in my scripts, fixed:**
+- `b3_check.py` refused to write because `defects.jsonl` exists. That file is the run's ledger and holds 8 lines from A1, so the script now appends stage B3 lines once.
+- `b3_failed_review.py` read only the newest superseded batch file, which no longer holds B0192. It now reads every superseded file.
+
+**The failed replies, again.** There are 87 over 56 packets: the earlier 86, plus B0192c's first try, which cited a neighbour's concept. The accepted replies cite 120,413 concepts in fleet ids, all from their own item.
+
+**The justifications.** The sample from the record is not the trial's sample. I read its 40 texts too. All 40 name material that one theme leaves out, and the counts in the register are unchanged.
+
+**`defects.jsonl`.** 55 stage B3 lines were appended after A1's 8, 63 lines in all:
+- 32 returns without a prediction line (waived, QB3-004);
+- the trend in the arguable rate (a diagnostic);
+- 22 readers' record slips (below).
+
+**The close-check (QB3-005).** `validate.py B3` reports 23 errors on 22 lines, read one by one in `out/_analysis/b3_support_defects.py`:
+- 10 lines whose multiplacement record shares a concept between `support_primary` and `support_additional`;
+- 8 multi lines whose `support` field lists only the primary's concepts;
+- 4 single-theme lines from B0192c with no `multi` field.
+
+On every multi line, each added theme has at least one concept of its own. So none is "the same reading twice", and none meets section 3.1's reduction. I asked J to waive the 22 by name (QB3-005). Meanwhile they are kept as given and listed in `defects.jsonl`. No waiver is written without J's word.
+
+**Written:**
+- the four reports of record, with the trial versions kept as superseded;
+- `handback-B3.md`;
+- the head.
+
+**QB3-005, answered (J, 23:09 Berlin): the 22 are waived by name and the placements kept as given.** `out/_analysis/b3_waivers_qb3005.py` finds them with the check's own tests and writes one line for each to `return_waivers.jsonl`, keyed by batch and position as J asked:
+- 10 `support_overlap` (the record's batch and position);
+- 8 `support_count`;
+- 4 `no_multi`.
+
+The file now holds 74 lines. My assumption was a waiver by name, with the placements kept and the 22 listed in `defects.jsonl`. It stands, so no figure, report or defect line changes.
+
+### The close-check, B3b
+
+`validate.py B3` reported:
+
+```
+  returns without a prediction line waived by J by name: 32 (return_waivers.jsonl)
+  lines waived by J by name (return_waivers.jsonl): no_multi 4, support_count 8, support_overlap 11
+0 errors (0 distinct shapes), 0 warnings
+```
+
+It counts 11 `support_overlap` against 10 waiver lines because two positions each carry two multiplacement records. The leg closes with `done.sh B3`.

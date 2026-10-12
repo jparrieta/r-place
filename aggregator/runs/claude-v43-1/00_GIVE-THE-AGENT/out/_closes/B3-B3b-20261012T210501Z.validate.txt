@@ -1,0 +1,12 @@
+stage B3:
+  batches 1212, R 2, rooms 705, items 7844, graph one component
+  leg: check (1 dispatch folders with DONE)
+  returns without a prediction line waived by J by name: 32 (return_waivers.jsonl)
+  readings 15688 cover items 7844 x R 2 (17653 lines with duplicates and gold copies)
+  room-reader graph over the returns: one component over 705 rooms and 1212 readers
+
+ERROR  multiplacement_log.jsonl line 489: the additional theme T3-031 has no supporting concept of its own (same concept twice is the same reading twice)  [11 lines with this shape; first: line 489]
+ERROR  assign_raw.jsonl line 2199: 2 themes on 1 distinct support concepts; a multi-assigned line names at least one distinct concept per theme  [8 lines with this shape; first: line 2199]
+ERROR  assign_raw.jsonl line 2795 carries no multi; the return line of section 1.5 carries it, and the v35 analyst found a field missing on every row at the end of the run  [4 lines with this shape; first: line 2795]
+
+23 errors (3 distinct shapes), 0 warnings
