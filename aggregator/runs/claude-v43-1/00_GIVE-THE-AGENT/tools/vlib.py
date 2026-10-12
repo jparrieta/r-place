@@ -222,15 +222,30 @@ def analysed_set(stage, what, outdir, ctx):
 
 
 def store_themes(ctx):
-    """(sub, theme_id) of every second-order theme in the store, and the count per room."""
+    """(sub, theme_id) of every second-order theme a record may name, and the count per room of the themes
+    that stand now.
+
+    Two sets, kept apart (J, 2026-10-12). ctx["themes"], the return value, is what resolves: the store's
+    themes and every split child in out/recut/, so a record made before or under a split still resolves
+    (QB2-011). ctx["themes_current"] and ctx["themes_per_room"] are the store as recut_overlay lays it out:
+    while a split stands its parent is gone and its children stand; once out/recut/WITHDRAWN.json exists the
+    children are gone from every view and the parents stand again. A count of what a stage owes (B3's
+    assignment_items_expected, B4 and C1's line counts) is read from the current set, never from the
+    resolvable one: the old count added the 56 children of the withdrawn split to 7,844 and expected 7,900."""
     if "themes" not in ctx:
         rows = jsonl(os.path.join(ctx["package"], "store", "themes.jsonl")) or []
-        # a split child is a second-order theme too, and its parent stays one for the records made before
-        # the split (J, 2026-10-12, QB2-011)
-        rows = rows + (jsonl(os.path.join(ctx.get("outdir") or "", "recut", "themes.jsonl")) or [])
-        ctx["themes"] = {(r["sub"], r["theme_id"]) for r in rows}
-        ctx["themes_per_room"] = collections.Counter(r["sub"] for r in rows)
+        kids = jsonl(os.path.join(ctx.get("outdir") or "", "recut", "themes.jsonl")) or []
+        ctx["themes"] = {(r["sub"], r["theme_id"]) for r in rows + kids}
+        cur = recut_overlay("themes", rows, ctx.get("outdir"))
+        ctx["themes_current"] = {(r["sub"], r["theme_id"]) for r in cur}
+        ctx["themes_per_room"] = collections.Counter(r["sub"] for r in cur)
     return ctx["themes"]
+
+
+def current_themes(ctx):
+    """(sub, theme_id) of every second-order theme that stands now (store_themes' current set)."""
+    store_themes(ctx)
+    return ctx.get("themes_current", ctx["themes"])
 
 
 def store_codes(ctx):

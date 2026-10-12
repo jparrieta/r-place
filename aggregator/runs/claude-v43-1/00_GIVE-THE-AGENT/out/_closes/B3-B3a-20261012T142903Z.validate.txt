@@ -1,0 +1,10 @@
+stage B3:
+  batches 624, R 2, rooms 705, graph one component
+  leg: build (0 dispatch folders with DONE)
+
+ERROR  batches-B3.jsonl B001 lists item polska/t10 from a room not in its rooms; a batch holds whole rooms  [777 lines with this shape; first: B001]
+ERROR  batches-B3.jsonl B157 holds room ainbowroad without 20 of its second-order themes (['t14', 't15', 't16']); no room is ever split  [10 lines with this shape; first: B157]
+ERROR  batches-B3.jsonl: replicate 1 lacks 56 of the 7900 items assignment_items_expected counts (['2007scape/t15', '2007scape/t16', '2007scape/t17'])
+ERROR  batches-B3.jsonl: replicate 2 lacks 56 of the 7900 items assignment_items_expected counts (['2007scape/t15', '2007scape/t16', '2007scape/t17'])
+
+789 errors (4 distinct shapes), 0 warnings

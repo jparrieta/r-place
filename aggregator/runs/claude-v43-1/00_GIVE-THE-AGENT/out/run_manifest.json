@@ -545,5 +545,93 @@
   "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
   "return_spec": "out/RETURN-B2.md: fleet ids, the three-concept floor, a bag with no other theme at the floor not flagged, 'twenty themes at most'",
   "notes": "stage B2 section 5: the stability check, the gold set under a reworded brief"
+ },
+ {
+  "stage": "B3",
+  "leg": "B3a",
+  "written_utc": "2026-10-12T14:27:59Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of B2's rounds 2 and 3 and the gold round (J)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "allocation": 20261015,
+   "suffix": ":redraw7",
+   "redraws": 7,
+   "dispatch_order": "seeded shuffle, out/_analysis/b3_dispatch_order.json"
+  },
+  "R": 2,
+  "n_agents": 624,
+  "batches": 624,
+  "packet_files": 1080,
+  "batches_in_parts": 313,
+  "positions": 17089,
+  "items": 7844,
+  "rooms": 705,
+  "gold_copies": 777,
+  "duplicates": 624,
+  "groups": {
+   "1": 60,
+   "2": 564
+  },
+  "exemplars": "none served",
+  "warmup": "in reserve",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B3.md, sha256 cb5b432b3dfd1698cad1c91c3b7c59e8143d536fa3354152c9df72ca2bb8df14",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "packets": "out/_packets-B3/ (out/_analysis/b3_packets_fleet.py); every file under 50 KB",
+  "notes": "stage B3 build; design points under QB3-001"
+ },
+ {
+  "stage": "B3",
+  "leg": "B3a",
+  "shape": "B2 packets",
+  "written_utc": "2026-10-12T15:00:03Z",
+  "supersedes": "the first B3 entry (whole-room batches served in parts), superseded under J at QB3-001",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of B2's rounds 2 and 3 and the gold round (J)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "allocation": 20261015,
+   "suffix": ":redraw2",
+   "redraws": 2,
+   "dispatch_order": "seeded shuffle, out/_analysis/b3_dispatch_order.json"
+  },
+  "R": 2,
+  "n_agents": 1210,
+  "batches": 1210,
+  "packets": 1210,
+  "positions": 17653,
+  "items": 7844,
+  "rooms": 705,
+  "gold_copies": 755,
+  "duplicates": 1210,
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no parts (J, QB3-001)",
+  "max_item_bytes": 178758,
+  "groups": {
+   "1": 100,
+   "2": 1110
+  },
+  "exemplars": "none served",
+  "warmup": "in reserve",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B3.md, sha256 1aeb4a7c958276875769132547a2ab6f293cba92b8c123398437149738c43b92",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "build": "out/_analysis/b3_allocate2.py and b3_packets_fleet2.py; out/_packets-B3/"
  }
 ]

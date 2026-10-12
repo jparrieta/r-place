@@ -50,12 +50,27 @@ Files written under --raw:
                              written only when every packet was tried
 Reader ids are r1..rR for the first try and r<R+k> for reissues; no id is reused in one run.
 
-Parts. Packets that MANIFEST.json groups (`"group": "B017", "part": k, "parts": n`, written by
-packets.py for a batch over the ceiling) are one unit: the same reader gets part 1 with the shared
-pages and the return specification, returns its lines, then gets part 2 as the next turn of the
-same conversation, and so on, so one reader reads the whole room (J, 2026-09-25). Each part's reply
-is validated against its own item count; the unit's return is the parts' lines concatenated into
-`<batch>/<reader>.jsonl`; a failed part sends the whole unit to a fresh reader.
+Parts. Packets that MANIFEST.json groups (`"group": "B017", "part": k, "parts": n`) are one unit:
+the same reader gets part 1 with the shared pages and the return specification, returns its lines,
+then gets part 2 as the next turn of the same conversation, and so on (J, 2026-09-25). Each part's
+reply is validated against its own item count; the unit's return is the parts' lines concatenated
+into `<batch>/<reader>.jsonl`; a failed part sends the whole unit to a fresh reader. Since J's
+ruling of 2026-10-12 packets.py writes no parts for stage B3 (every B3 packet is self-contained,
+B2's shape); the unit is kept for a packet folder built before it. A packet or part whose MANIFEST
+count is 0 is valid with no counted line (the end marker alone).
+
+Pass 2 and the multiplacement records (stage B3). The return is stored whole, every validated line
+in the order the reader wrote it: the prediction line, the pass-1 lines, then the pass-2 lines,
+each carrying `revises` (the position of the pass-1 line it revises). A multiplacement record rides
+on its item line as `multiplacement_log`, a list of records (or B2's object). Only the pass-1 lines
+count against the MANIFEST item count (`count_exclude` names `revises`), and the check leg reads
+pass 2 apart by the `revises` key; nothing here merges or drops either pass.
+
+The room-id guard. A packet whose MANIFEST entry carries `codes_by_item` is in fleet ids, and a room
+code (c0006) or room theme id (t05) in an id position refuses the dispatch: an item header
+(`### 3. T2-04512`), the first token of a concept or sibling line (`- C0781518  label`), an `id:`
+field, and the MANIFEST's codes_by_item keys and values. The participants' quoted words and the
+coders' labels are not id positions, so a tank called "t34" in a quote is not a leak (J, 2026-10-12).
 
 v41: under Claude the operator runs this file (harness/dispatch.sh); under Codex the controller
 (rplace/runtime/fleet.py) dispatches and applies the same return validation (validate, counted,
@@ -203,8 +218,10 @@ def foreign_codes(o, rule):
         for v in ap.values():
             cited += list(v or [])
     ml = o.get("multiplacement_log")
-    if isinstance(ml, dict):
-        for v in ml.values():
+    for rec in (ml if isinstance(ml, list) else [ml]):  # B2's object, or B3's list of records on the line
+        if not isinstance(rec, dict):
+            continue
+        for v in rec.values():
             if isinstance(v, list):
                 cited += [x for x in v if isinstance(x, str)]
             elif isinstance(v, dict):
@@ -216,6 +233,38 @@ def foreign_codes(o, rule):
     # dispatch rejected 19 readers for citing T3 ids there)
     code = re.compile(r"^(C\d{7}|c\d{4})$")
     return sorted({c for c in cited if isinstance(c, str) and code.match(c) and c not in own})
+
+
+ID_TOKEN = re.compile(r"^(c\d{4}|t\d{2})$")
+
+
+def id_positions(text):
+    """The tokens of a packet that sit where packets.py writes an id, and nothing else: an item header
+    (`### 3. denmark/t07`, `### 3. T2-04512`), the first token of a list line (a concept `- c0117  label` or
+    `- C0781518  label`, a sibling `- t07 label`), and an `id:`/`theme_id:`/`code_id:`/`item:` field. A token
+    `sub/tNN` is split at the slash. The quoted participants' words, the labels after an id and the notes
+    are prose, not id positions."""
+    out = []
+    for ln in text.splitlines():
+        m = (re.match(r"^#{1,6}\s+(?:\d+\.\s+)?(\S+)", ln) or re.match(r"^\s*[-*]\s+(\S+)", ln)
+             or re.match(r"^\s*(?:id|theme_id|code_id|item)\s*:\s*(\S+)", ln))
+        if m:
+            out += [x for x in m.group(1).strip("`*:,").split("/") if x]
+    return out
+
+
+def room_id_leaks(text, rule):
+    """Room ids (c0006, t05) in the id positions of a fleet-id packet and in its MANIFEST codes_by_item keys and
+    values (J, 2026-10-12). [] for a packet whose entry carries no codes_by_item: it is in room ids by design."""
+    by = (rule or {}).get("codes_by_item")
+    if not by:
+        return []
+    hit = {t for t in id_positions(text) if ID_TOKEN.match(t)}
+    for k, v in by.items():
+        for x in [k] + list(v or []):
+            if isinstance(x, str) and ID_TOKEN.match(x):
+                hit.add(x)
+    return sorted(hit)
 
 
 def ap_thin(o, rule):
@@ -323,15 +372,14 @@ def main():
     if not packets:
         sys.exit("no packets in %s" % a.packets)
     # J, 2026-10-12: a round in fleet ids sends no room id. A packet whose MANIFEST entry carries codes_by_item
-    # is a fleet-id packet, and one room code (c0006) or room theme id (t01) in it refuses the dispatch
-    room_id = re.compile(r"(?<![\w-])(c\d{4}|t\d{2})(?![\w-])")
+    # is a fleet-id packet, and one room code (c0006) or room theme id (t01) in an id position refuses the
+    # dispatch; the participants' own words are not scanned (a tank called t34 is not a room id)
     leaks = []
     for p in packets:
         name = os.path.splitext(os.path.basename(p))[0]
-        if (manifest.get(name) or {}).get("codes_by_item"):
-            hit = sorted(set(room_id.findall(open(p, encoding="utf-8").read())))
-            if hit:
-                leaks.append("%s: %s" % (name, ", ".join(hit[:6])))
+        hit = room_id_leaks(open(p, encoding="utf-8").read(), manifest.get(name))
+        if hit:
+            leaks.append("%s: %s" % (name, ", ".join(hit[:6])))
     if leaks:
         sys.exit("REFUSING: room ids in fleet-id packets (the table out/fleet_ids.jsonl maps them): " + "; ".join(leaks))
     shared = "".join("<<< %s >>>\n%s\n\n" % (os.path.basename(p), open(p, encoding="utf-8").read())

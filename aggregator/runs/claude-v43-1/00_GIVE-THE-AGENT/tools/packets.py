@@ -2,8 +2,10 @@
 """packets.py, v38: what a fleet reader is served, assembled by script so that every reader gets
 the same page and nothing on it is the canvas, a room note or another reader's output (rule 7).
 Every packet ends with the end line and the line telling the reader to confirm it reached it;
-every file is asserted under FLEET.md's 50 KB ceiling; every build writes MANIFEST.json beside
-the packets, which fleet.py reads for the item count.
+every shared page (index.md, the family pages) and every packet of B2, B4, E1 and files is
+asserted under FLEET.md's 50 KB ceiling; a B3 batch packet is held instead to B2's packet shape,
+at most 15 items and 180,000 bytes of item text (J, 2026-10-12); every build writes MANIFEST.json
+beside the packets, which fleet.py reads for the item count.
 
     python3 tools/packets.py scheme [--scheme F] [--families F] --to DIR [--exemplars]
         the shared pages: index.md (rule 0 in the contract's words, then every family with every
@@ -21,14 +23,17 @@ the packets, which fleet.py reads for the item count.
 
     python3 tools/packets.py B3 [--batches out/batches-B3.jsonl] [--exemplars] [--only B017]
                                 [--scheme F] [--families F] [--to DIR]
-        _packets-B3/ (or --to DIR): the shared pages from scheme_final.jsonl (or --scheme), and one file per batch from
-        batches-B3.jsonl: the sibling block per room (labels of all its second-order themes, labels
-        only), then the items in the batch's order (duplicates rendered as separate items), each
-        numbered by position. A batch over the 50 KB ceiling (a room larger than the cap, in a batch
-        by itself) is split into parts B017-p1, B017-p2, ..., each under the ceiling and each with the
-        full sibling block; MANIFEST.json groups them, and fleet.py serves the parts of one batch to
-        the same reader in one conversation, so one reader reads the whole room. The gold key never reaches the folder: batches carry items, and the
-        packet shows no tag.
+        _packets-B3/ (or --to DIR): the shared pages from scheme_final.jsonl (or --scheme), and one file per
+        line of batches-B3.jsonl, never split into parts: the sibling block (labels of all its second-order
+        themes, labels only) for every room the packet holds an item from, so a reader sees each room's full
+        theme list, then the items in the batch's order (duplicates and gold copies rendered as separate
+        items), each numbered by position. B3 uses B2's packet shape (J, 2026-10-12): every packet is
+        self-contained, at most 15 items and at most 180,000 bytes of item text; a room may be spread over
+        several packets, and no item is split across two. MANIFEST.json records each packet's own "items"
+        and "item_bytes" and no group, part or parts. A batch over either cap is refused before any file is
+        written (redraw the batches); an item that alone exceeds 180,000 bytes stops the build: ask J. The
+        shared pages are not counted toward the cap and stay under the 50 KB ceiling. The gold key never
+        reaches the folder: batches carry items, and the packet shows no tag.
 
     python3 tools/packets.py B4 [--sample out/sample-B4.jsonl] [--scheme F] [--families F] [--to DIR]
         _packets-B4/ (or --to DIR): the shared pages from scheme_final.jsonl (or --scheme) (exemplars only with --exemplars,
@@ -53,6 +58,8 @@ import argparse, collections, datetime, glob, hashlib, json, os, random, re, sub
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CEILING = 50 * 1024
+B3_ITEMS = 15                    # J, 2026-10-12: stage B3 uses B2's packet shape
+B3_ITEM_BYTES = 180000
 END = ("This is the end of the packet. Confirm you reached it by returning your lines and then the "
        "end marker the return specification names. END OF PACKET")
 CANVAS = re.compile(r"\bcanvas_[a-z_]+\b")
@@ -79,11 +86,13 @@ def rule0(root):
     sys.exit("rule 0 was not found in CONTRACT-aggregator.md; the packets carry it in the contract's words")
 
 
-def write(path, text, manifest, name, items, rule=None):
+def write(path, text, manifest, name, items, rule=None, ceiling=CEILING):
+    """Write one served file and its MANIFEST entry. ceiling=None for a B3 batch packet, which is held to its
+    item count and item bytes instead (v04 asserts them before writing)."""
     b = text.encode("utf-8")
     if CANVAS.search(text):
         sys.exit("%s carries a canvas field; nothing served carries the canvas (rule 7)" % path)
-    if len(b) > CEILING:
+    if ceiling is not None and len(b) > ceiling:
         sys.exit("%s is %d bytes, over the 50 KB ceiling (FLEET.md); cut the batch or the scheme page" % (path, len(b)))
     os.makedirs(os.path.dirname(path), exist_ok=True)
     supersede_siblings(path, manifest)
@@ -289,34 +298,22 @@ INTRO_04 = ("Each room is introduced once by the labels of all its second-order 
             "per item in the form the return specification gives, the prediction line first.")
 
 
-def part_packet(name, k, n, items, positions, store, first):
-    """Part k of n of one batch, for the same reader in one conversation: every part carries the
-    full sibling block of the rooms in the batch, and positions run on across parts."""
-    head = ("Batch %s, part %d of %d. You read every part in this one conversation; the parts are one "
-            "batch. %s" % (name, k, n, "Write the prediction line first, before any placement. " if first else
-                           "Do not repeat the prediction line. "))
-    intro = INTRO_04 if first else INTRO_04.replace(", the prediction line first", "")
-    L = ["# Batch %s, part %d of %d" % (name, k, n), "", head + intro, ""]
-    for s in dict.fromkeys(s for s, _ in store.batch_rooms):
-        L += store.sibling(s)
-    L += ["## The items, part %d of %d" % (k, n), ""]
-    for pos, (s, tid) in zip(positions, items):
-        L += store.item(s, tid, pos)
-    last = ("After this part, make your second pass over the whole batch as the return specification says. "
-            if k == n else "Return the lines for this part's items and the end marker; part %d follows. " % (k + 1))
-    L += ["", last + END, ""]
-    return "\n".join(L)
+def item_bytes(store, items):
+    """Bytes of item text of a packet: each item's block as items_packet renders it (header, label, note,
+    concepts with the participants' words), positions included; the sibling blocks and the intro are not
+    item text. Returns (total, [bytes per item])."""
+    per = [len(("\n".join(store.item(s, t, pos)) + "\n").encode("utf-8")) for pos, (s, t) in enumerate(items, 1)]
+    return sum(per), per
 
 
 def v04(a, root, out, store):
+    """B3: one self-contained packet per batch line, B2's packet shape (J, 2026-10-12). Every batch is
+    measured before any packet is written, so a refusal leaves the folder as it was."""
     rows, sname = load_scheme(out, [a.scheme] if a.scheme else ["scheme_final.jsonl"])
     fams = jl(path_in(out, a.families or "families.jsonl"))
     to = a.to or os.path.join(out, "_packets-B3")
-    scheme_pages(root, out, to, rows, fams, a.exemplars)
-    shared = sum(os.path.getsize(os.path.join(to, f)) for f in os.listdir(to) if f.endswith(".md"))
     batches = jl(path_in(out, a.batches or "batches-B3.jsonl"))
-    man = {}
-    done = split = 0
+    plan, over = [], []
     for b in batches:
         name = b.get("batch")
         if a.only and name not in a.only.split(","):
@@ -324,35 +321,31 @@ def v04(a, root, out, store):
         items = [key_of(x) for x in b.get("items") or []]
         if not items:
             sys.exit("batch %s has no items" % name)
+        ib, per = item_bytes(store, items)
+        for (s, t), n in zip(items, per):
+            if n > B3_ITEM_BYTES:
+                sys.exit("batch %s: item %s/%s alone is %d bytes of item text, over the %d-byte cap of a B3 packet; "
+                         "no item is split across packets, so this item cannot be served as the ruling stands: ask J"
+                         % (name, s, t, n, B3_ITEM_BYTES))
+        if len(items) > B3_ITEMS or ib > B3_ITEM_BYTES:
+            over.append("%s (%d items, %d bytes of item text)" % (name, len(items), ib))
+        plan.append((name, items, ib))
+    if over:
+        sys.exit("REFUSING: %d batches exceed a B3 packet's shape, at most %d items and %d bytes of item text "
+                 "(J, 2026-10-12): %s. Redraw batches-B3.jsonl under both caps; a batch is never split into parts"
+                 % (len(over), B3_ITEMS, B3_ITEM_BYTES, "; ".join(over[:8])))
+    scheme_pages(root, out, to, rows, fams, a.exemplars)
+    shared = sum(os.path.getsize(os.path.join(to, f)) for f in os.listdir(to) if f.endswith(".md"))
+    man = {}
+    for name, items, ib in plan:
         txt = items_packet("Batch %s" % name, INTRO_04, items, store, True)
-        if len(txt.encode("utf-8")) <= CEILING:
-            write(os.path.join(to, "%s.md" % name), txt, man, name, len(items), COUNT_04)
-            done += 1
-            continue
-        # A batch over the ceiling (a room larger than the cap sits in a batch by itself): split it
-        # into parts under the ceiling, each with the full sibling block, served to the same reader
-        # in one conversation (J, 2026-09-25). Positions run on across parts.
-        store.batch_rooms = items
-        parts, cur, cur_pos = [], [], []
-        for pos, it in enumerate(items, 1):
-            trial = part_packet(name, 1, 9, cur + [it], cur_pos + [pos], store, True)
-            if cur and len(trial.encode("utf-8")) > CEILING:
-                parts.append((cur, cur_pos))
-                cur, cur_pos = [], []
-            cur.append(it); cur_pos.append(pos)
-        if cur:
-            parts.append((cur, cur_pos))
-        n = len(parts)
-        for k, (its, poss) in enumerate(parts, 1):
-            pname = "%s-p%d" % (name, k)
-            rule = dict(COUNT_04, group=name, part=k, parts=n)
-            write(os.path.join(to, "%s.md" % pname), part_packet(name, k, n, its, poss, store, k == 1),
-                  man, pname, len(its), rule)
-        done += 1
-        split += 1
+        write(os.path.join(to, "%s.md" % name), txt, man, name, len(items), dict(COUNT_04, item_bytes=ib),
+              ceiling=None)
     save_manifest(to, man)
-    print("%s: shared pages from %s (exemplars %s, %d bytes), %d batches, %d split into parts for one reader"
-          % (to, sname, "served" if a.exemplars else "withheld", shared, done, split))
+    big = max((ib for _, _, ib in plan), default=0)
+    print("%s: shared pages from %s (exemplars %s, %d bytes), %d batch packets, at most %d items and %d bytes of "
+          "item text each (largest %d)" % (to, sname, "served" if a.exemplars else "withheld", shared, len(plan),
+                                           B3_ITEMS, B3_ITEM_BYTES, big))
 
 
 def v05(a, root, out, store):
