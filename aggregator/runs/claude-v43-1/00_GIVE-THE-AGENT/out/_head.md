@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B3b, 2026-10-12 (UTC). Stage B3 is closed: the fleet is complete, assembled and checked, and the reports and `handback-B3.md` are written on the assembly of record. Stage B4 comes next.
+Under 3,000 words, rewritten whole at every close. Last written at B4a-01, 2026-10-12 (UTC). Stage B4 is open: packet 1 of 7 of the adjudication is ruled. The next leg is B4a-02, packet 2.
 
 ## The method question, in one sentence
 
@@ -10,69 +10,81 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is done: three rounds, the freeze, the gold round and the stability check (`pilot_report.md`, `stability-B2.md`, `handback-B2.md`). Stage B3, the fleet, is done. B3a built it. Group 1 passed the gold check (B3a-p2), and group 2 went out. B3b, the check leg, closed the stage: see "B3b" below.
+Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is done (`pilot_report.md`, `stability-B2.md`, `handback-B2.md`). Stage B3, the fleet, is done (`handback-B3.md`). Stage B4: the adjudication runs one packet a leg; packet 1 is ruled.
 
-## Stage B3, as built (B3a)
+## Stage B4 (from B4a-01)
 
-**J's ruling (QB3-001, QB3-002, 16:37 Berlin).** B3 uses B2's packet shape: every packet self-contained, at most 15 items and 180,000 bytes of item text, no parts, its own item count; a room may spread over several packets, each with the sibling blocks of the rooms it holds; gold copies listed in `items` and `gold_items`, exempt from room membership and coverage; records ride on the item line; pass-2 lines carry `revises` after the pass-1 lines; warm-up in reserve, no exemplars. The handler fixed the check (7,844 items, the withdrawn split ignored) and `fleet.py` (room-id guard on id positions only; 0-line packets accepted). The first build (whole rooms in parts) is kept under `out/_analysis/*_parts_superseded*`.
+**The selection (the PI at 21:19Z, J's amended stage file).** `tools/assemble.py` wrote `b3_classes.jsonl` with J's five classes. Class 1 (readers agree, equal to B1) 2,566 and class 2 (readers agree, a proper subset of B1; B1 kept, tagged `b1_grouping_kept`) 1,990 stand. Class 3 (readers differ) 2,393, class 4 (readers agree outside B1) 837 and class 5 (no B1 grouping) 58 are contested: 3,288 items. For the blind sample at B4b, J agreed the two readers stay DeepSeek V4.1 Flash, and a third reader per item from an OpenAI model is a separate arm, reported apart, never pooled, with no Claude reader. The handler sets that arm in `arm.json` before B4b.
 
-**Declarations** (`notes-B3.md`): R = 2; seed 20261015 (under `:redraw2`); 15 positions and 180,000 bytes of item text a packet; rooms poured in seeded order and spread where a batch fills; gold one copy per 20 items, at most two a batch, positions spread least-used first; one duplicate a batch; no exemplars; warm-up in reserve (B2's agreement fell, not rose, within packets); dispatch in two groups, 100 then 1,110, the gold check between; the ten biggest bags flagged; cost about 40 to 55 USD.
+**Before the first ruling.**
+- **Gold drop:** 755 seeded gold placements and 1,210 duplicate copies dropped; `assign_final.jsonl` reads corpus copies only and holds 7,844 lines, equal to `assignment_items_expected`.
+- **Transmission** (`transmission-B4.md`, over 90 gold and pilot items):
+  - gold 21, 1, 6, 12 across the four rows;
+  - pilot 30, 0, 12, 8;
+  - of the 20 fourth-row items, 11 are "I was wrong" and 9 "unintended";
+  - rule 0's "under rule 0" pairing did not transmit.
+- **Conflicts pass:** eight lines for packet 1 in `coder_conflicts.jsonl`, CC-001 to CC-008 (among them a members' flood, makers' jokes called "the room's own", testing claims, moderators applying rules on the joke day, upvote-threshold promises).
+- **Policy and blindness:** declared in `notes-B4.md`.
+  - Confidence counts for nothing.
+  - My B1 grouping is shown as a third placement.
+  - Class 4 is author-error when the readers' list is taken and author-disagrees when a B1 theme is kept.
+  - Readings are blinded as A and B in seeded order.
 
-**Built.** `out/_analysis/b3_allocate2.py` wrote `batches-B3.jsonl`: 1,210 batches, one reader each (605 a replicate); one component; each replicate places the 7,844 items once; 17,653 positions (15,688 readings, 1,210 duplicates, 755 gold copies, 18 or 19 per gold item). `out/_analysis/b3_packets_fleet2.py` wrote `_packets-B3/`: 22 shared pages, 1,210 packets (at most 178,758 item bytes), fleet ids only, `codes_by_item` in the MANIFEST. One coder note held a room id (nyjets t11, c0104): served as its fleet id. `RETURN-B3.md` carries J's two rulings word for word. `validate.py B3`: 0 errors, 0 warnings.
+**The packets.** Seven, built by `out/_analysis/b4_adjudication_packets.py` into `out/_adjudication-B4/`, in chunks of 25:
+- packet 1: 491 (gloss-only, G01, G02);
+- packet 2: 447 (G03 to G06);
+- packet 3: 500;
+- packet 4: 461;
+- packet 5: 409;
+- packet 6: 500;
+- packet 7: 480.
 
-**Group 1 and the gold check (B3a-p2).** J sent the first 100 batches at 15:17Z. They returned 100 valid replies (4 reissued, 0 exhausted; `_fleet_raw/B3/PARTIAL-2026-10-12T153202Z.json`). No DONE exists yet, and I write none. The stop rule was declared in `notes-B3.md` before scoring: a fall over 0.193 (1 − 0.807) in gold fidelity or primary match, against the mean of B2's nine frozen-scheme readings of the same items, stops group 2. Of the 72 gold copies seeded, 72 came back. Fidelity was 0.637 against 0.625 (fall −0.011, interval −0.065 to +0.045), and primary match 0.833 against 0.812. So group 2 goes out as built. Five items had their own fall beyond the floor on 1 to 4 copies each, among them ukraine t07 (T3-073 placed for T3-009). Per copy: `out/_analysis/b3_gold_group1.tsv`. `fidelity-B3.md` waits for the check leg.
+Drafts go through `out/_analysis/b4_rule_append.py`: a dry run first, then `--write`. It now also has `--replace`, which corrects a ruled line in place and keeps the old file under a superseded name. `out/_analysis/b4_scheme.py` prints a theme's tests. `out/_analysis/b4_assign_final.py` rewrites `assign_final.jsonl` after each packet. `out/_analysis/b4_packet_summary.py` writes a packet's figures.
 
-**B3b, the check leg (closed).**
-- **The fleet.** `_fleet_raw/B3/DONE`: 1,204 of 1,210 packets were valid on the main run, at 32.78 USD. B0192 and B0927 failed six tries each. Under J's ruling, the handler split them into halves (B0192a/b, B0927a/b), and all four came back valid.
-- **J's rulings for this leg.**
-  - (1) Assemble only with `tools/assemble.py B3 --supersede --accept-sub-label --families out/families.jsonl`, never a hand script. It writes `b3_classes.jsonl`, the five classes stage B4 reads.
-  - (2) Put the split into the record.
-  - (3) Review the failed replies as one set.
-- **The split.** The handler's room-id halves were superseded under new names. Under J at QB3-003 I rebuilt them in fleet ids as B0192c, B0192d, B0927c and B0927d, and J sent them at 20:45Z; all four came back valid. `batches-B3.jsonl` holds 1,212 batches. The handler's `_packets-B3-split/` sits in `out/_analysis/`, because the check had read it in place of `_packets-B3/`.
-- **Failed replies.** 87, of which 72 cite another item's concepts, nearly all from a neighbouring item of the same packet and mostly in `also_present`. Accepted lines cite only their own item's concepts.
-- **The assembly of record.** `assign_raw.jsonl` holds 17,653 lines (15,688 corpus readings); `b3_classes.jsonl` gives 4,556 items standing and 3,288 for B4. Coverage is 100% in both replicates.
-- **Figures** (`handback-B3.md`):
-  - gold 0.645 against B2's 0.631 on the same copies, no fall;
-  - agreement Jaccard 0.786, alpha 0.782, at the stability floor; G18 the family that agreed least;
-  - the arguable rate +0.040 across a batch, a diagnostic;
-  - the multi rate 0.158; the commonest pairs T3-009/T3-043 and T3-005/T3-021;
-  - the worst theme T3-152.
-- **Waivers.** QB3-004 waived 32 returns without a prediction line by name (`return_waivers.jsonl`, 52 lines).
-- **QB3-005, answered (waive).** J waived 22 readers' record slips by name, keyed by batch and position, with the placements kept as given (loose support records; 4 lines with no `multi` field). Every added theme has a concept of its own. They are also in `defects.jsonl`. `validate.py B3`: 0 errors, 0 warnings.
+**Packet 1, ruled.** 491 rulings: genuine-joint 137, scheme-ambiguous 123, author-error 97, reader-error 77, author-disagrees 37, item-is-a-bag 20.
+- **Counts:** unresolved 52; named_neither 84.
+- **Fields that failed:** must_show 78, discriminators 39, decide_when_both 4, must_not_show 2.
+- **Themes that failed most:** T3-017 29, T3-023 27, T3-001 24.
+- **Agreement:** before 0.486 mean Jaccard; after 0.633, which is not a reliability figure.
+- **Predicted pairs:** of B2's, only T3-001|T3-023 (20), T3-001|T3-095 (11), T3-015|T3-063 (7) and T3-015|T3-075 (4) could appear. Unpredicted, T3-017|T3-031 (17), T3-001|T3-048 (13) and T3-023|T3-095 (11) split as much.
+- **Two rulings corrected in place,** formula1 t05 and elitedangerous t01: T3-063 takes canvas posts only.
+- **Files:** `adjudication_report.md`, the interim report after packet 1; `out/_adjudication-B4/boundaries.md`, the boundary paragraphs.
+
+**What packet 1 ruled, to carry into the next packets.**
+- **The joke's stage** (T3-001|T3-023). A change to the sub made by moderators, or by members flooding it "as a sub acting together", is T3-023. Members' fakes in an unchanged sub are T3-001.
+- **The canvas condition** (T3-017|T3-031). T3-031 needs the canvas. An in-joke with no canvas is T3-017, scheme-ambiguous on T3-017's discriminator.
+- **Whose joke** (T3-001|T3-048). The source in the words decides; unresolved where it is not shown. A member relaying an outside joke is T3-048 (CC-002).
+- **Who staged the claim** (T3-001|T3-095). A test of a member's own fake stays T3-001.
+- **Open or known** (T3-048|T3-095). The larger share decides.
+- **The jokes or the look** (T3-032|T3-097). Complaints about the sub's own joke look or rule, and requests to end it, go to T3-097.
+- **Applied or made** (T3-063|T3-185). A day's exception, or a kind of post banned, is a rule made.
+- **Upvote bargains** (T3-023|T3-051). They are T3-051 unless the change was made (CC-007).
+- **T3-023's own rule.** It adds T3-095 or T3-032 at three concepts, and T3-097 or T3-100 on one. Four themes needed means a bag.
+- **Three gaps,** each unresolved:
+  - April Fools play not posted as true (T3-001 `must_show`);
+  - another sub's change (T3-023 `must_show`);
+  - moderators applying standing rules to non-canvas posts (T3-063 `must_show`, CC-004).
+
+## Stage B3, in short
+
+J's rulings QB3-001 and QB3-002 set B2's packet shape: at most 15 items and 180,000 bytes, self-contained, fleet ids only. The fleet ran 1,212 batches, one reader each, R = 2; B0192 and B0927 were rebuilt in fleet-id halves under QB3-003. The gold check after group 1 passed (fidelity 0.637 against 0.625). The assembly of record: `assign_raw.jsonl` 17,653 lines and `b3_classes.jsonl`. The figures:
+- gold fidelity 0.645 against B2's 0.631;
+- agreement Jaccard 0.786 and alpha 0.782, at the stability floor;
+- G18 the family that agreed least; the multi rate 0.158.
+
+Waivers: QB3-004 (32 returns without a prediction line) and QB3-005 (22 record slips), in `return_waivers.jsonl`. Failed replies: 87, of which 72 cited a neighbouring item's concepts.
 
 ## Stage B2, in short
 
-**The rounds.** The next table lists the figures (mean Jaccard; fidelity is agreement with my placements, pairwise the readers' with each other).
+Rounds 1 to 3 and gold: fidelity 0.594, 0.639, 0.682, 0.624; pairwise 0.733, 0.718, 0.728, 0.818. Stability 0.807 is the floor every later figure is read against. Readers from round 2: deepseek/deepseek-v4.1-flash, direct, medium effort. Primary match on gold 0.800. Four gold wording defects go to C1: uofmn t01, cuboulder t04, mariokart t04, ireland t12. The frozen scheme: `scheme_final.jsonl` (197 themes; 183 main, 14 rare), `families.jsonl` (21), `gate_checks.jsonl` (496 pairs). The freeze gave T3-002, T3-033 and T3-038 one counting rule (the act with most concepts leads), the sentence I am least sure a stranger reads as I meant.
 
-| round | set | fidelity | against rechecked | pairwise | alpha |
-|---|---|---|---|---|---|
-| 1 | 40 hard | 0.594 | - | 0.733 | 0.726 |
-| 2 | 50 hard | 0.639 | 0.701 | 0.718 | 0.710 |
-| 3 | 50 hard | 0.682 | 0.760 | 0.728 | 0.721 |
-| gold | 40 gold, frozen scheme | 0.624 | 0.661 | 0.818 | 0.809 |
+## J's rulings that bind (carry them)
 
-**Readers.** Round 1 ran deepseek-v4-flash-0731 through `@preset/cheap` at high effort. From round 2 on: deepseek/deepseek-v4.1-flash, called directly, medium effort, max_tokens 128,000. The same readers serve B3 and B4 (J, 2026-10-12).
-
-**Stability 0.807.** The gold set under two reworded briefs: stab-1 readers against stab-2 readers, nine pairs per item. It sits level with each round's own pairwise (0.800, 0.756), so the brief's wording adds no disagreement. It is the floor every later figure is read against.
-
-**What the pilot showed.**
-- Readers place one theme almost always; my second placements are author-errors under rule 0. 32 items in all (21 hard, 11 gold); on ten gold items the readers keep only my primary.
-- Primary match on gold is 0.800, as at round 3: the frozen scheme carries to unseen items.
-- Only T3-004/T3-070, T3-009/T3-073 and T3-001/T3-023 split readers more than once among the 19 predicted pairs of `confusions.md`; T3-005/T3-021, predicted hardest, never did.
-- Four gold wording defects go to C1: uofmn t01 (T3-001/T3-048), cuboulder t04 (T3-004/T3-033), mariokart t04 (T3-084 against T3-002/T3-005), ireland t12 (T3-160/T3-002).
-- My blind re-placement of ten hard items: 0.883 against my placements, 0.806 for round 3's readers (an upper bound: I had seen several of the ten).
-
-**The frozen scheme.** `scheme_final.jsonl` (197 themes; tier "main" 183, "rare" 14, J at QB2-014; sha256 4b471d29...), `scheme_final.md`, `families.jsonl` (21). All 496 gate pairs confirmed in `gate_checks.jsonl`. The freeze gave T3-002, T3-033 and T3-038 one rule: count the concepts of each act, the most is primary, the opening post does not lead because it comes first. That rule is the sentence I am least sure a stranger reads as I meant.
-
-**Edits.** `scheme_edits.jsonl` 306 lines: 202 word-for-word mirrors, 100 scheme-ambiguous, 4 author-error; no theme narrowed, no edited theme's base rate fell on gold.
-
-## J's rulings that bind B3 (carry them)
-
-- **Bags.** No one cuts the bags, neither this run nor the coders (J, 12:24 Berlin). The second-order themes stand as the coders made them. A bag stays one item through B2 and B3: one theme placed, its other themes under `also_present`, each with three concepts of its own at least. `mem.py split` refuses; `out/recut/WITHDRAWN.json` keeps the withdrawn split out of every view.
-- **The bound (J, 13:47).** `also_present` names "twenty themes at most", each with three concepts of its own; a bound, not a goal. The validator and `fleet.py` apply it only where that exact phrase stands.
-- **The not-flagged bag (J, QB2-013).** A bag with no other theme at the three-concept floor is not flagged a bag: `item_is_a_bag` false, `also_present` `{}`.
-- **Fleet ids (J, 09:14 and 12:15).** Packets carry only fleet ids for concepts and second-order themes (`out/fleet_ids.jsonl`: `C` and seven digits, `T2-` and five digits), never a room id, headings included; `fleet.py` refuses a packet with `codes_by_item` that carries one. Returns are translated back before scoring; my files keep room ids.
-- **Codes by item (J, QB2-009).** Each MANIFEST entry carries `codes_by_item` {fleet theme id: [fleet code ids]}; `fleet.py` rejects and reissues a line citing a concept its item does not hold.
+- **Bags.** No one cuts the bags (J, 12:24 Berlin). A bag stays one item: one theme placed, its others under `also_present`, each with three concepts of its own at least. `out/recut/WITHDRAWN.json` keeps the withdrawn split out of every view.
+- **The bound (J, 13:47).** `also_present` names "twenty themes at most", each with three concepts of its own.
+- **The not-flagged bag (J, QB2-013).** With no other theme at the three-concept floor, `item_is_a_bag` is false and `also_present` `{}`.
+- **Fleet ids (J, 09:14 and 12:15).** Packets carry only fleet ids; returns are translated back before scoring; my files keep room ids.
+- **Codes by item (J, QB2-009).** Each MANIFEST entry carries `codes_by_item`.
 
 ## Standing words from J and the PI (carry into every head)
 
@@ -91,38 +103,39 @@ Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families)
 ## The pilot's declarations (from `notes-B2.md`)
 
 - **Agreement:** Jaccard on placement sets (`["T3-004"]` against `["T3-004","T3-011"]` scores 0.5). Fidelity is mean Jaccard against my set. Alpha uses distance 1 − Jaccard, chance over the round's pooled sets. Primary exact agreement is reported beside, never in place.
-- **Gold:** 40 items in `gold_items.jsonl`, never shown to a reader, seeded in B3 at 1 per 20 items, at most two per batch.
-- **B3 batch cap:** 40 items, the first 10 a warm-up block not counted (stated at B2a-r1, kept at rounds 2 and 3).
+- **Gold:** 40 items in `gold_items.jsonl`, never shown to a reader.
 
 ## The scheme
 
-`scheme_final.jsonl` holds 197 themes (183 main, 14 rare) in 21 families. Rare: T3-007, T3-025, T3-067, T3-077, T3-093, T3-106, T3-128, T3-133, T3-144, T3-161, T3-166, T3-186, T3-191 and T3-197. F-001, as superseded: half the 7,786 placed second-order themes sit on one kind; themes about dealing with other rooms need the most kinds.
+`scheme_final.jsonl` holds 197 themes (183 main, 14 rare) in 21 families. Rare: T3-007, T3-025, T3-067, T3-077, T3-093, T3-106, T3-128, T3-133, T3-144, T3-161, T3-166, T3-186, T3-191 and T3-197. It is frozen: stage B4 logs defects and never edits it.
 
 ## Open, carried
 
-- **From B1.** The ruling on testing G13, G14 and G15 as one index page (B2's scorecard found readers did not confuse T3-010 with T3-149 or T3-150). The B1d leftovers: 106 (line, kind) pairs over 81 episode lines whose kinds none of their rooms holds; seven pairs of lines telling one event; E989; the cfb and finland records; shared-member counts that may include AutoModerator; the 76 themes holding both T3-005 and T3-021 acts; T3-149 and T3-150 members that may hold T3-195; kinds left out of bags. The second-order theme the scheme handles worst: argentina t06.
+- **From B1.** The ruling on testing G13, G14 and G15 as one index page. The B1d leftovers: 106 (line, kind) pairs over 81 episode lines whose kinds none of their rooms holds; seven pairs of lines telling one event; E989; the cfb and finland records; shared-member counts that may include AutoModerator; the 76 themes holding both T3-005 and T3-021 acts; T3-149 and T3-150 members that may hold T3-195; kinds left out of bags. The second-order theme the scheme handles worst: argentina t06.
 - **Distinctions** (none filed in `_questions/`): who started the work; wars told twice; rivals who turn partners (E1076, E1122, E1142, E1318); whose flag a shared flag is (E1118); records that disagree on who attacked, on promises, truces, bots and design changes; who drove a bot and why it left a work (E1025); a room's own scripts barring it from sparing a neighbour (E843), or wrecking a protectorate it then rebuilt (E1209); one member on both sides of a quarrel (E820, E947); objections to altering the final image (T3-054 or T3-105).
-- **The bag count.** J counts 841 B1 bags; this head said 846. Not reconciled.
+- **The bag count.** J counts 841 B1 bags; an older head said 846. Not reconciled.
+- **From B4a-01.** Single-concept second themes were not added perfectly evenly in packet 1 (magictcg t09). Chunk 18 held 16 of the packet's 77 reader-errors, on single-concept G02 items.
 
 ## Ledgers at this close
 
-- B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
-- B2: `notes-B2.md` (1,192 lines); `pilot_report.md`, `stability-B2.md`, `handback-B2.md`; `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md`; `pilot_rounds.jsonl` (6); `scheme_final.jsonl` (197), `scheme_final.md`; `scheme_edits.jsonl` (306); `rechecks-B2.jsonl` (1,594, of which 526 the withdrawn split's); `gate_checks.jsonl` (519 lines, 496 pairs confirmed); `exemplar_candidates.jsonl` (68, hard items only); `tier_history.jsonl` (392); `run_manifest.json` (9); `return_waivers.jsonl` (20).
+- B1: `scheme_current.jsonl`, `families.jsonl` (21), `confusions.md` (19 pairs), `findings.jsonl` (2), `episodes-B1.jsonl` (1,341).
+- B2: `notes-B2.md`, `pilot_report.md`, `stability-B2.md`, `handback-B2.md`, `author_items.jsonl` (50), `gold_items.jsonl` (40), `scheme_final.jsonl` (197), `scheme_edits.jsonl` (306), `gate_checks.jsonl` (519 lines).
+- B3: `notes-B3.md`, `RETURN-B3.md`, `batches-B3.jsonl` (1,212), `_packets-B3/`, `assign_raw.jsonl` and `assign_pass2.jsonl` (17,653 each), `multiplacement_log.jsonl` (3,171), `predicted_confusion-B3.jsonl` (1,180), `b3_classes.jsonl` (7,844), `defects.jsonl` (63), `return_waivers.jsonl` (74), `handback-B3.md`.
+- B4: `notes-B4.md`; `transmission-B4.md`; `coder_conflicts.jsonl` (8); `disagreements.jsonl` (491; the old file kept as `disagreements.superseded-20261012T221214Z.jsonl`); `assign_final.jsonl` (7,844: class 1 2,566, class 2 1,990, ruled 491, pending 2,797; older versions kept as `assign_final.superseded-*.jsonl`); `adjudication_report.md` (interim); `out/_adjudication-B4/` (seven packets, `boundaries.md`, packet 1's drafts and `summary.md`).
 - Asks QB2-001 to QB2-014 and QB3-001 to QB3-005 are answered; none is open.
-- B3: `notes-B3.md`; `RETURN-B3.md`; `batches-B3.jsonl` (1,212); `_packets-B3/` (22 shared pages, 1,212 packets, MANIFEST); `run_manifest.json` (11); `assign_raw.jsonl` and `assign_pass2.jsonl` (17,653 each); `multiplacement_log.jsonl` (3,171; B1's 6,663 kept as `multiplacement_log.jsonl.superseded-20261012T205314Z`); `predicted_confusion-B3.jsonl` (1,180); `b3_classes.jsonl` (7,844); `defects.jsonl` (63: 8 from A1, 55 from B3); `return_waivers.jsonl` (74); `fidelity-B3.md`, `position-B3.md`, `multiplacement_register-B3.md`, `agent_report-B3.md`, `handback-B3.md`.
 
 ## Rules kept
 
 - Never type an id, an order or a name from memory; check with `jq` or a script. Never log a write before the tool answers. Count a ledger's lines after appending.
 - There is no `--kind close` and no `--kind episode`; log those as notes.
 - A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`; `mem.py log --kind ask` writes only a diary line and gives no id.
-- A reader's thread must fit the provider's window (about 164,000 tokens, inferred at round 2); the shared pages alone are about 95,000.
-- Check a notes section against the diary before closing. Never put a placeholder or a no-op in a command. Never put an Edit and the read that checks it in one turn. Count the head's words before the closing line, not after.
+- Never put a placeholder or a no-op in a command. Never put an Edit and the read that checks it in one turn. Count the head's words before the closing line, not after.
 - Never write an id-like token the run does not define in the head, such as a D or a P followed by digits: `done.sh` reads it as an unresolved link. Name later stages and packet files in words.
 - The permission check refuses: "=w="; shell for and while loops, and words beginning "for_"; shell functions, brace groups and heredocs; awk with system() or `$` fields; a variable set from `$(...)`, and some `python3 -c` scripts; jq with a `test()` regex, and env-var prefixes; cat or jq on `out/diary/`; `cut -c`, `cut -b` and `colrm` after `mem.py`, `cite.py` or a helper (use `--width`). Split those, or write a script file in `out/_analysis/`.
-- `mem.py` pages long output (`[lines 1-80 of N]`); fetch the rest with `--offset` before trusting a count. A Bash output over about 30 KB is saved where I cannot read it; page it.
-- After a compaction the guard requires the head and stage file read again and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other write. After an interrupted turn or a lost connection, check the record before rerunning anything.
+- `mem.py` pages long output; fetch the rest with `--offset` before trusting a count. A Bash output over about 30 KB is saved where I cannot read it; page it.
+- After a compaction the guard requires the head and stage file read again and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other write.
+- In B4: a ruling never cites a room note; reader-error never where both readers made the same placement; T3-063 takes canvas posts only; a correction goes through `b4_rule_append.py --replace`, never a hand edit.
 
 ## The next comparison
 
-In B3, against stage B2's figures: gold fidelity against `gold_items.jsonl` and the rechecked gold placements (0.624, 0.661), primary match (0.800), and agreement read above the stability floor (0.807).
+Packet 2 (447 items, G03 to G06) is ruled at B4a-02 against the same tests and the boundaries ruled in packet 1. Its conflicts pass runs over its notes first. After packet 7: the full `adjudication_report.md`, then B4b, the blind sample, compared against the stability floor 0.807 and B3's agreement 0.786.

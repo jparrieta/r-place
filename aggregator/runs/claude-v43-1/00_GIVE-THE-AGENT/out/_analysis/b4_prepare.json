@@ -1,0 +1,6514 @@
+{
+ "gold_drop": {
+  "gold_lines": 755,
+  "on_batches_gold_keys": 755,
+  "gold_keys": 755,
+  "duplicate_second_copies": 1210,
+  "corpus_lines": 15688,
+  "items": 7844
+ },
+ "transmission": [
+  {
+   "item": "2007scape/t04",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-038"
+   ],
+   "mine_file": [
+    "T3-038"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-038"
+   ],
+   "r2": [
+    "T3-038"
+   ],
+   "family": "G08",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "4chan/t07",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-010"
+   ],
+   "mine_file": [
+    "T3-010",
+    "T3-024"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-010"
+   ],
+   "r2": [
+    "T3-010"
+   ],
+   "family": "G14",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "AyyMD/t08",
+   "src": "author_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-001"
+   ],
+   "mine_file": [
+    "T3-001"
+   ],
+   "set_from": "recheck",
+   "confidence": "clear",
+   "r1": [
+    "T3-023"
+   ],
+   "r2": [
+    "T3-023"
+   ],
+   "family": "G01",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "DevonUK/t02",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-044"
+   ],
+   "mine_file": [
+    "T3-044"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-070"
+   ],
+   "r2": [
+    "T3-082"
+   ],
+   "family": "G04",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "DevonUK/t04",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-010",
+    "T3-151"
+   ],
+   "mine_file": [
+    "T3-010",
+    "T3-151"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-010"
+   ],
+   "r2": [
+    "T3-010"
+   ],
+   "family": "G14",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-010"
+   ],
+   "seeded_mode_share": 0.8947368421052632
+  },
+  {
+   "item": "GabrielDropout/t03",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-070"
+   ],
+   "mine_file": [
+    "T3-070"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-070"
+   ],
+   "r2": [
+    "T3-070"
+   ],
+   "family": "G05",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-070"
+   ],
+   "seeded_mode_share": 0.9473684210526315
+  },
+  {
+   "item": "Goodboye/t03",
+   "src": "author_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-084"
+   ],
+   "mine_file": [
+    "T3-084",
+    "T3-011"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-151"
+   ],
+   "r2": [
+    "T3-151"
+   ],
+   "family": "G14",
+   "class": 4,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "GreenCorner/t03",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-005"
+   ],
+   "mine_file": [
+    "T3-005",
+    "T3-021"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-005",
+    "T3-021"
+   ],
+   "r2": [
+    "T3-005"
+   ],
+   "family": "G09",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "Slovakia/t07",
+   "src": "author_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-024",
+    "T3-079"
+   ],
+   "mine_file": [
+    "T3-024",
+    "T3-079"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-060",
+    "T3-024"
+   ],
+   "r2": [
+    "T3-024",
+    "T3-060"
+   ],
+   "family": "G13",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "Villanova/t01",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-038"
+   ],
+   "mine_file": [
+    "T3-038"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-038"
+   ],
+   "r2": [
+    "T3-038"
+   ],
+   "family": "G08",
+   "class": 1,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-038"
+   ],
+   "seeded_mode_share": 0.7368421052631579
+  },
+  {
+   "item": "WisconsinBadgers/t04",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-076"
+   ],
+   "mine_file": [
+    "T3-076",
+    "T3-006"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-076"
+   ],
+   "r2": [
+    "T3-042"
+   ],
+   "family": "G13",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "acecombat/t05",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-010"
+   ],
+   "mine_file": [
+    "T3-084",
+    "T3-010"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-062"
+   ],
+   "r2": [
+    "T3-010"
+   ],
+   "family": "G14",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "ainbowroad/t03",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-005"
+   ],
+   "mine_file": [
+    "T3-005"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-005"
+   ],
+   "r2": [
+    "T3-005"
+   ],
+   "family": "G09",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "ainbowroad/t04",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-021"
+   ],
+   "mine_file": [
+    "T3-021"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-021"
+   ],
+   "r2": [
+    "T3-021"
+   ],
+   "family": "G09",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "ainbowroad/t07",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-041"
+   ],
+   "mine_file": [
+    "T3-041"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-041"
+   ],
+   "r2": [
+    "T3-041"
+   ],
+   "family": "G08",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "ainbowroad/t11",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-035"
+   ],
+   "mine_file": [
+    "T3-035"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-035"
+   ],
+   "r2": [
+    "T3-035"
+   ],
+   "family": "G14",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "alberta/t04",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-006",
+    "T3-076"
+   ],
+   "mine_file": [
+    "T3-006",
+    "T3-076"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-006"
+   ],
+   "r2": [
+    "T3-006"
+   ],
+   "family": "G12",
+   "class": 1,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-006"
+   ],
+   "seeded_mode_share": 0.8421052631578947
+  },
+  {
+   "item": "anarcho_capitalism/t12",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-149",
+    "T3-010"
+   ],
+   "mine_file": [
+    "T3-149",
+    "T3-010"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-149",
+    "T3-010"
+   ],
+   "r2": [
+    "T3-149"
+   ],
+   "family": "G15",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "catalunya/t01",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-065"
+   ],
+   "mine_file": [
+    "T3-065"
+   ],
+   "set_from": "recheck",
+   "confidence": "clear",
+   "r1": [
+    "T3-065"
+   ],
+   "r2": [
+    "T3-065"
+   ],
+   "family": "G17",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "cloud9/t12",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-002"
+   ],
+   "mine_file": [
+    "T3-002"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-117"
+   ],
+   "r2": [
+    "T3-117"
+   ],
+   "family": "G04",
+   "class": 4,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-117"
+   ],
+   "seeded_mode_share": 0.8947368421052632
+  },
+  {
+   "item": "criticalrole/t06",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-063"
+   ],
+   "mine_file": [
+    "T3-063"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-063"
+   ],
+   "r2": [
+    "T3-063"
+   ],
+   "family": "G02",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "cubers/t12",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-169"
+   ],
+   "mine_file": [
+    "T3-169"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-169"
+   ],
+   "r2": [
+    "T3-044"
+   ],
+   "family": "G07",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "cubers/t27",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-010",
+    "T3-150"
+   ],
+   "mine_file": [
+    "T3-010",
+    "T3-150"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-010"
+   ],
+   "r2": [
+    "T3-010"
+   ],
+   "family": "G14",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-010"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "cuboulder/t04",
+   "src": "gold_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-039",
+    "T3-004"
+   ],
+   "mine_file": [
+    "T3-039",
+    "T3-004"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-004"
+   ],
+   "r2": [
+    "T3-033",
+    "T3-010"
+   ],
+   "family": "G13",
+   "class": 3,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-033"
+   ],
+   "seeded_mode_share": 0.7894736842105263
+  },
+  {
+   "item": "dankmemes/t10",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-033"
+   ],
+   "mine_file": [
+    "T3-033"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-033"
+   ],
+   "r2": [
+    "T3-033"
+   ],
+   "family": "G07",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-033"
+   ],
+   "seeded_mode_share": 0.42105263157894735
+  },
+  {
+   "item": "dankmemes/t16",
+   "src": "gold_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-073"
+   ],
+   "mine_file": [
+    "T3-073"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-073",
+    "T3-029"
+   ],
+   "r2": [
+    "T3-073"
+   ],
+   "family": "G21",
+   "class": 3,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-073"
+   ],
+   "seeded_mode_share": 0.6842105263157895
+  },
+  {
+   "item": "darksouls/t13",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-015",
+    "T3-063"
+   ],
+   "mine_file": [
+    "T3-015",
+    "T3-063"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-015",
+    "T3-063"
+   ],
+   "r2": [
+    "T3-015",
+    "T3-063"
+   ],
+   "family": "G02",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "dofus/t01",
+   "src": "author_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-033"
+   ],
+   "mine_file": [
+    "T3-033",
+    "T3-003"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-038"
+   ],
+   "r2": [
+    "T3-038"
+   ],
+   "family": "G07",
+   "class": 4,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "donaldglover/t04",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-001"
+   ],
+   "mine_file": [
+    "T3-001"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-001"
+   ],
+   "r2": [
+    "T3-001"
+   ],
+   "family": "G01",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "dota2/t05",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-023"
+   ],
+   "mine_file": [
+    "T3-023"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-023"
+   ],
+   "r2": [
+    "T3-023"
+   ],
+   "family": "G01",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "drumcorps/t07",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-014"
+   ],
+   "mine_file": [
+    "T3-014"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-014"
+   ],
+   "r2": [
+    "T3-014"
+   ],
+   "family": "G03",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "duckgame/t02",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-005"
+   ],
+   "mine_file": [
+    "T3-005"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-005"
+   ],
+   "r2": [
+    "T3-005"
+   ],
+   "family": "G09",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "edboxes/t02",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-002"
+   ],
+   "mine_file": [
+    "T3-002"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-002"
+   ],
+   "r2": [
+    "T3-002"
+   ],
+   "family": "G04",
+   "class": 1,
+   "seeded_n": 18,
+   "seeded_mode": [
+    "T3-002"
+   ],
+   "seeded_mode_share": 0.7222222222222222
+  },
+  {
+   "item": "england/t03",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-028"
+   ],
+   "mine_file": [
+    "T3-028",
+    "T3-070"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-028"
+   ],
+   "r2": [
+    "T3-028"
+   ],
+   "family": "G11",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "farmcarrots/t15",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-050"
+   ],
+   "mine_file": [
+    "T3-050"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-031"
+   ],
+   "r2": [
+    "T3-050"
+   ],
+   "family": "G19",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "finland/t06",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-015",
+    "T3-063"
+   ],
+   "mine_file": [
+    "T3-015",
+    "T3-063"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-015"
+   ],
+   "r2": [
+    "T3-015"
+   ],
+   "family": "G02",
+   "class": 1,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-015"
+   ],
+   "seeded_mode_share": 0.9473684210526315
+  },
+  {
+   "item": "flashtv/t13",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-073"
+   ],
+   "mine_file": [
+    "T3-073",
+    "T3-009"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-009",
+    "T3-073"
+   ],
+   "r2": [
+    "T3-073"
+   ],
+   "family": "G21",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "floridagators/t04",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-015",
+    "T3-063"
+   ],
+   "mine_file": [
+    "T3-015",
+    "T3-063"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-015"
+   ],
+   "r2": [
+    "T3-015"
+   ],
+   "family": "G02",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-015"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "floridagators/t09",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-014"
+   ],
+   "mine_file": [
+    "T3-014",
+    "T3-152"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-014"
+   ],
+   "r2": [
+    "T3-014"
+   ],
+   "family": "G03",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "furry/t10",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-070"
+   ],
+   "mine_file": [
+    "T3-070",
+    "T3-004"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-070"
+   ],
+   "r2": [
+    "T3-070"
+   ],
+   "family": "G05",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "guatemala/t02",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-065"
+   ],
+   "mine_file": [
+    "T3-065",
+    "T3-167"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-002"
+   ],
+   "r2": [
+    "T3-065"
+   ],
+   "family": "G17",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "harrypotter/t08",
+   "src": "author_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-017"
+   ],
+   "mine_file": [
+    "T3-017",
+    "T3-043"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-159"
+   ],
+   "r2": [
+    "T3-159"
+   ],
+   "family": "G02",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "ice_poseidon/t16",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-031"
+   ],
+   "mine_file": [
+    "T3-031"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-031"
+   ],
+   "r2": [
+    "T3-031"
+   ],
+   "family": "G20",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "ireland/t12",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-160",
+    "T3-084"
+   ],
+   "mine_file": [
+    "T3-160",
+    "T3-084"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-002"
+   ],
+   "r2": [
+    "T3-002"
+   ],
+   "family": "G07",
+   "class": 4,
+   "seeded_n": 18,
+   "seeded_mode": [
+    "T3-002"
+   ],
+   "seeded_mode_share": 0.4444444444444444
+  },
+  {
+   "item": "korea/t15",
+   "src": "author_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-015",
+    "T3-075"
+   ],
+   "mine_file": [
+    "T3-015",
+    "T3-075"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-015"
+   ],
+   "r2": [
+    "T3-015"
+   ],
+   "family": "G02",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "kpop/t04",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-033"
+   ],
+   "mine_file": [
+    "T3-033",
+    "T3-136"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-033"
+   ],
+   "r2": [
+    "T3-033",
+    "T3-136"
+   ],
+   "family": "G07",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "kurdistan/t03",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-010"
+   ],
+   "mine_file": [
+    "T3-010",
+    "T3-024"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-010"
+   ],
+   "r2": [
+    "T3-010"
+   ],
+   "family": "G14",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-010"
+   ],
+   "seeded_mode_share": 0.8947368421052632
+  },
+  {
+   "item": "leagueoflegends/t02",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-023"
+   ],
+   "mine_file": [
+    "T3-023"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-023"
+   ],
+   "r2": [
+    "T3-023"
+   ],
+   "family": "G01",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "lego/t13",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-021"
+   ],
+   "mine_file": [
+    "T3-021"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-021"
+   ],
+   "r2": [
+    "T3-021"
+   ],
+   "family": "G09",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-021"
+   ],
+   "seeded_mode_share": 0.9473684210526315
+  },
+  {
+   "item": "livecounting/t02",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-021"
+   ],
+   "mine_file": [
+    "T3-021"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-021"
+   ],
+   "r2": [
+    "T3-021"
+   ],
+   "family": "G09",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-021"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "mariokart/t04",
+   "src": "gold_items.jsonl",
+   "row": 2,
+   "mine": [
+    "T3-084"
+   ],
+   "mine_file": [
+    "T3-084"
+   ],
+   "set_from": "recheck",
+   "confidence": "clear",
+   "r1": [
+    "T3-002"
+   ],
+   "r2": [
+    "T3-005"
+   ],
+   "family": "G14",
+   "class": 3,
+   "seeded_n": 18,
+   "seeded_mode": [
+    "T3-002"
+   ],
+   "seeded_mode_share": 0.6666666666666666
+  },
+  {
+   "item": "mcgillrobotics/t02",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-009"
+   ],
+   "mine_file": [
+    "T3-009"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-009"
+   ],
+   "r2": [
+    "T3-009"
+   ],
+   "family": "G21",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-009"
+   ],
+   "seeded_mode_share": 0.7894736842105263
+  },
+  {
+   "item": "megaman/t11",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-087"
+   ],
+   "mine_file": [
+    "T3-087",
+    "T3-188"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-087"
+   ],
+   "r2": [
+    "T3-087"
+   ],
+   "family": "G10",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "mindcrack/t03",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-002"
+   ],
+   "mine_file": [
+    "T3-002"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-002"
+   ],
+   "r2": [
+    "T3-002"
+   ],
+   "family": "G04",
+   "class": 1,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-002"
+   ],
+   "seeded_mode_share": 0.8421052631578947
+  },
+  {
+   "item": "mit/t01",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-004",
+    "T3-020"
+   ],
+   "mine_file": [
+    "T3-004",
+    "T3-020"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-004"
+   ],
+   "r2": [
+    "T3-004"
+   ],
+   "family": "G07",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-004"
+   ],
+   "seeded_mode_share": 0.42105263157894735
+  },
+  {
+   "item": "montenegro/t04",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-009"
+   ],
+   "mine_file": [
+    "T3-009"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-009"
+   ],
+   "r2": [
+    "T3-009"
+   ],
+   "family": "G21",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-009"
+   ],
+   "seeded_mode_share": 0.9473684210526315
+  },
+  {
+   "item": "mordhau/t05",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-009"
+   ],
+   "mine_file": [
+    "T3-009"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-009"
+   ],
+   "r2": [
+    "T3-009"
+   ],
+   "family": "G21",
+   "class": 1,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-009"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "msu/t04",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-016"
+   ],
+   "mine_file": [
+    "T3-016"
+   ],
+   "set_from": "recheck",
+   "confidence": "clear",
+   "r1": [
+    "T3-016"
+   ],
+   "r2": [
+    "T3-016"
+   ],
+   "family": "G20",
+   "class": 1,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-016"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "n64/t02",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-038"
+   ],
+   "mine_file": [
+    "T3-038"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-038"
+   ],
+   "r2": [
+    "T3-038"
+   ],
+   "family": "G08",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "nVade/t04",
+   "src": "author_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-011",
+    "T3-005"
+   ],
+   "mine_file": [
+    "T3-011",
+    "T3-005"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-005"
+   ],
+   "r2": [
+    "T3-005"
+   ],
+   "family": "G14",
+   "class": 4,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "natsume/t01",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-044",
+    "T3-082"
+   ],
+   "mine_file": [
+    "T3-044",
+    "T3-082"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-044"
+   ],
+   "r2": [
+    "T3-044"
+   ],
+   "family": "G04",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-044"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "nuclearthrone/t06",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-001",
+    "T3-023"
+   ],
+   "mine_file": [
+    "T3-001",
+    "T3-023"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-001",
+    "T3-023"
+   ],
+   "r2": [
+    "T3-001",
+    "T3-023"
+   ],
+   "family": "G01",
+   "class": 1,
+   "seeded_n": 18,
+   "seeded_mode": [
+    "T3-001",
+    "T3-023"
+   ],
+   "seeded_mode_share": 0.6666666666666666
+  },
+  {
+   "item": "nyu/t01",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-020"
+   ],
+   "mine_file": [
+    "T3-004",
+    "T3-020"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-070",
+    "T3-020"
+   ],
+   "r2": [
+    "T3-004",
+    "T3-020"
+   ],
+   "family": "G07",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "oneplus/t02",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-095"
+   ],
+   "mine_file": [
+    "T3-095"
+   ],
+   "set_from": "recheck",
+   "confidence": "clear",
+   "r1": [
+    "T3-095"
+   ],
+   "r2": [
+    "T3-095"
+   ],
+   "family": "G01",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "orderofthebluecorner/t08",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-121"
+   ],
+   "mine_file": [
+    "T3-087"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-121"
+   ],
+   "r2": [
+    "T3-121"
+   ],
+   "family": "G10",
+   "class": 4,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "overwatch/t23",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-015",
+    "T3-075"
+   ],
+   "mine_file": [
+    "T3-015",
+    "T3-075"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-015"
+   ],
+   "r2": [
+    "T3-015"
+   ],
+   "family": "G02",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-015"
+   ],
+   "seeded_mode_share": 0.7368421052631579
+  },
+  {
+   "item": "pakistan/t04",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-016"
+   ],
+   "mine_file": [
+    "T3-016"
+   ],
+   "set_from": "recheck",
+   "confidence": "clear",
+   "r1": [
+    "T3-016"
+   ],
+   "r2": [
+    "T3-016"
+   ],
+   "family": "G20",
+   "class": 1,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-016"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "parabola/t02",
+   "src": "author_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-150"
+   ],
+   "mine_file": [
+    "T3-150"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-010"
+   ],
+   "r2": [
+    "T3-010"
+   ],
+   "family": "G15",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "placestart/t15",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-006"
+   ],
+   "mine_file": [
+    "T3-006"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-006"
+   ],
+   "r2": [
+    "T3-006"
+   ],
+   "family": "G12",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "polska/t10",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-188"
+   ],
+   "mine_file": [
+    "T3-188"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-188"
+   ],
+   "r2": [
+    "T3-188"
+   ],
+   "family": "G10",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-188"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "portugal/t41",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-137"
+   ],
+   "mine_file": [
+    "T3-137"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-137"
+   ],
+   "r2": [
+    "T3-137"
+   ],
+   "family": "G14",
+   "class": 1,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-137"
+   ],
+   "seeded_mode_share": 0.7894736842105263
+  },
+  {
+   "item": "predators/t04",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-070"
+   ],
+   "mine_file": [
+    "T3-070",
+    "T3-004"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-070"
+   ],
+   "r2": [
+    "T3-070"
+   ],
+   "family": "G05",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-070"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "rainbowgrid/t09",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-037"
+   ],
+   "mine_file": [
+    "T3-037"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-037"
+   ],
+   "r2": [
+    "T3-037"
+   ],
+   "family": "G20",
+   "class": 1,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-037"
+   ],
+   "seeded_mode_share": 0.7894736842105263
+  },
+  {
+   "item": "redhotchilipeppers/t09",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-009",
+    "T3-043"
+   ],
+   "mine_file": [
+    "T3-009",
+    "T3-043"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-009",
+    "T3-043"
+   ],
+   "r2": [
+    "T3-009",
+    "T3-043"
+   ],
+   "family": "G21",
+   "class": 4,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "rit/t01",
+   "src": "gold_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-048"
+   ],
+   "mine_file": [
+    "T3-048"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-023"
+   ],
+   "r2": [
+    "T3-048"
+   ],
+   "family": "G01",
+   "class": 3,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-048"
+   ],
+   "seeded_mode_share": 0.8947368421052632
+  },
+  {
+   "item": "roosterteeth/t03",
+   "src": "gold_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-038",
+    "T3-004"
+   ],
+   "mine_file": [
+    "T3-038",
+    "T3-004"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-038"
+   ],
+   "r2": [
+    "T3-038",
+    "T3-004"
+   ],
+   "family": "G08",
+   "class": 3,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-004",
+    "T3-038"
+   ],
+   "seeded_mode_share": 0.6842105263157895
+  },
+  {
+   "item": "russia/t09",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-010"
+   ],
+   "mine_file": [
+    "T3-010",
+    "T3-024"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-010"
+   ],
+   "r2": [
+    "T3-010"
+   ],
+   "family": "G14",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-010"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "shitredditsays/t09",
+   "src": "gold_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-063"
+   ],
+   "mine_file": [
+    "T3-063"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-017"
+   ],
+   "r2": [
+    "T3-063"
+   ],
+   "family": "G02",
+   "class": 3,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-182"
+   ],
+   "seeded_mode_share": 0.42105263157894735
+  },
+  {
+   "item": "signal/t01",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-038"
+   ],
+   "mine_file": [
+    "T3-038",
+    "T3-009"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-038"
+   ],
+   "r2": [
+    "T3-038"
+   ],
+   "family": "G08",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "simonfraser/t08",
+   "src": "author_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-084"
+   ],
+   "mine_file": [
+    "T3-084",
+    "T3-011"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-011",
+    "T3-084"
+   ],
+   "r2": [
+    "T3-011"
+   ],
+   "family": "G14",
+   "class": 3,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "stardustcrusaders/t19",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-043"
+   ],
+   "mine_file": [
+    "T3-009",
+    "T3-043"
+   ],
+   "set_from": "recheck",
+   "confidence": "clear",
+   "r1": [
+    "T3-043"
+   ],
+   "r2": [
+    "T3-043"
+   ],
+   "family": "G21",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "survivor/t24",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-037"
+   ],
+   "mine_file": [
+    "T3-037"
+   ],
+   "set_from": "recheck",
+   "confidence": "clear",
+   "r1": [
+    "T3-037"
+   ],
+   "r2": [
+    "T3-037"
+   ],
+   "family": "G20",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "sweden/t01",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-065"
+   ],
+   "mine_file": [
+    "T3-065"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-065"
+   ],
+   "r2": [
+    "T3-065"
+   ],
+   "family": "G17",
+   "class": 1,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "theblackvoid/t09",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-006"
+   ],
+   "mine_file": [
+    "T3-006"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-006"
+   ],
+   "r2": [
+    "T3-006"
+   ],
+   "family": "G12",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "theblackvoid/t12",
+   "src": "author_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-174"
+   ],
+   "mine_file": [
+    "T3-174"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-174"
+   ],
+   "r2": [
+    "T3-174"
+   ],
+   "family": "G16",
+   "class": 2,
+   "seeded_n": 0,
+   "seeded_mode": null,
+   "seeded_mode_share": null
+  },
+  {
+   "item": "tinytardis/t06",
+   "src": "gold_items.jsonl",
+   "row": 3,
+   "mine": [
+    "T3-010",
+    "T3-123"
+   ],
+   "mine_file": [
+    "T3-010",
+    "T3-123"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-010",
+    "T3-039",
+    "T3-123"
+   ],
+   "r2": [
+    "T3-010"
+   ],
+   "family": "G14",
+   "class": 3,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-010"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "twice/t09",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-014"
+   ],
+   "mine_file": [
+    "T3-014"
+   ],
+   "set_from": "recheck",
+   "confidence": "clear",
+   "r1": [
+    "T3-014"
+   ],
+   "r2": [
+    "T3-014"
+   ],
+   "family": "G03",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-014"
+   ],
+   "seeded_mode_share": 1.0
+  },
+  {
+   "item": "uiuc/t04",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-001",
+    "T3-095"
+   ],
+   "mine_file": [
+    "T3-001",
+    "T3-095"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-001"
+   ],
+   "r2": [
+    "T3-001"
+   ],
+   "family": "G01",
+   "class": 2,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-001"
+   ],
+   "seeded_mode_share": 0.8421052631578947
+  },
+  {
+   "item": "ukraine/t07",
+   "src": "gold_items.jsonl",
+   "row": 1,
+   "mine": [
+    "T3-009"
+   ],
+   "mine_file": [
+    "T3-009"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-009"
+   ],
+   "r2": [
+    "T3-009"
+   ],
+   "family": "G21",
+   "class": 1,
+   "seeded_n": 18,
+   "seeded_mode": [
+    "T3-009"
+   ],
+   "seeded_mode_share": 0.7222222222222222
+  },
+  {
+   "item": "uofmn/t01",
+   "src": "gold_items.jsonl",
+   "row": 4,
+   "mine": [
+    "T3-048"
+   ],
+   "mine_file": [
+    "T3-048"
+   ],
+   "set_from": "recheck",
+   "confidence": "arguable",
+   "r1": [
+    "T3-001"
+   ],
+   "r2": [
+    "T3-001"
+   ],
+   "family": "G01",
+   "class": 4,
+   "seeded_n": 19,
+   "seeded_mode": [
+    "T3-001"
+   ],
+   "seeded_mode_share": 0.9473684210526315
+  }
+ ],
+ "transmission_counts": {
+  "gold_items.jsonl": {
+   "4": 12,
+   "1": 21,
+   "3": 6,
+   "2": 1
+  },
+  "author_items.jsonl": {
+   "1": 30,
+   "4": 8,
+   "3": 12
+  }
+ },
+ "inventory": {
+  "contested": 3288,
+  "by_class": {
+   "3": 2393,
+   "4": 837,
+   "5": 58
+  },
+  "unopened_family": 18,
+  "by_family": {
+   "G01": 313,
+   "G02": 162,
+   "G03": 119,
+   "G04": 182,
+   "G05": 96,
+   "G06": 52,
+   "G07": 247,
+   "G08": 260,
+   "G09": 298,
+   "G10": 90,
+   "G11": 69,
+   "G12": 99,
+   "G13": 66,
+   "G14": 249,
+   "G15": 139,
+   "G16": 34,
+   "G17": 60,
+   "G18": 37,
+   "G19": 49,
+   "G20": 236,
+   "G21": 431
+  }
+ },
+ "packets": [
+  {
+   "packet": 1,
+   "items": [
+    "btc/t04",
+    "ethereum/t07",
+    "spain/t05",
+    "twentyonepilots/t03",
+    "bitcoin/t08",
+    "australia/t09",
+    "evex/t06",
+    "mexico/t07",
+    "newzealand/t08",
+    "skyrim/t06",
+    "teslamotors/t11",
+    "redpandas/t04",
+    "russia/t08",
+    "opticgaming/t14",
+    "roosterteeth/t07",
+    "puzzleanddragons/t06",
+    "PurplePixels/t12",
+    "miamidolphins/t06",
+    "4chan/t11",
+    "aceattorney/t01",
+    "AMD/t08",
+    "austria/t12",
+    "baylor/t01",
+    "bisexual/t09",
+    "bitcoin/t06",
+    "calgaryflames/t10",
+    "canucks/t10",
+    "chess/t03",
+    "chibears/t07",
+    "criticalrole/t01",
+    "dota2/t02",
+    "eve/t01",
+    "falcons/t12",
+    "feedthebeast/t02",
+    "flashtv/t05",
+    "india/t01",
+    "kcroyals/t01",
+    "kirby/t06",
+    "konosuba/t01",
+    "kpop/t02",
+    "kurdistan/t06",
+    "lakers/t07",
+    "lebanon/t09",
+    "lego/t06",
+    "masseffect/t11",
+    "metalgearsolid/t02",
+    "miamidolphins/t01",
+    "MMA/t02",
+    "n64/t01",
+    "nbaspurs/t06",
+    "nlsscirclejerk/t08",
+    "ohio/t01",
+    "opticgaming/t01",
+    "paladins/t02",
+    "paladins/t06",
+    "paragon/t08",
+    "pcmasterrace/t04",
+    "phish/t09",
+    "planetside/t04",
+    "popheads/t04",
+    "porterrobinson/t10",
+    "redhotchilipeppers/t01",
+    "rickandmorty/t05",
+    "rit/t02",
+    "rutgers/t02",
+    "rwby/t01",
+    "rwby/t03",
+    "schoolidolfestival/t11",
+    "scp/t06",
+    "sixers/t01",
+    "starcitizen/t04",
+    "starcraft/t03",
+    "thesimpsons/t03",
+    "undertale/t01",
+    "unitedkingdom/t09",
+    "uofmn/t01",
+    "wildhockey/t06",
+    "worldoftanks/t03",
+    "Madeon/t02",
+    "totallynotrobots/t06",
+    "totallynotrobots/t08",
+    "totallynotrobots/t09",
+    "49ers/t03",
+    "AceOfAngels8/t01",
+    "clashroyale/t03",
+    "danganronpa/t23",
+    "enterthegungeon/t02",
+    "flyers/t05",
+    "furry/t09",
+    "harrypotter/t06",
+    "kilian/t08",
+    "mylittlepony/t08",
+    "porterrobinson/t08",
+    "porterrobinson/t09",
+    "ss13/t01",
+    "teslamotors/t01",
+    "the_pack/t04",
+    "toolband/t02",
+    "totallynotrobots/t02",
+    "totallynotrobots/t03",
+    "totallynotrobots/t04",
+    "totallynotrobots/t07",
+    "falcons/t09",
+    "OneTrueEmilia/t01",
+    "parahumans/t07",
+    "tampabaylightning/t07",
+    "weezer/t13",
+    "bahrain/t04",
+    "bardmains/t09",
+    "baylor/t02",
+    "GuildWars2/t01",
+    "GuildWars2/t10",
+    "ice_poseidon/t09",
+    "oneplus/t09",
+    "runescape/t07",
+    "rutgers/t01",
+    "singapore/t01",
+    "starlightstage/t03",
+    "warframe/t15",
+    "yugioh/t10",
+    "yugioh/t11",
+    "clashroyale/t04",
+    "berserk/t04",
+    "chess/t05",
+    "de/t08",
+    "hawks/t07",
+    "linux/t04",
+    "planetside/t01",
+    "romania/t12",
+    "swordartonline/t03",
+    "thesimpsons/t02",
+    "twice/t02",
+    "worldoftanks/t02",
+    "pokemon/t09",
+    "python/t04",
+    "4chan/t18",
+    "kerbalspaceprogram/t07",
+    "popheads/t07",
+    "de/t22",
+    "OnePiece/t10",
+    "AceOfAngels8/t02",
+    "apocalypserising/t01",
+    "archlinux/t12",
+    "australia/t01",
+    "australia/t05",
+    "battlecats/t02",
+    "bindingofisaac/t11",
+    "bitcoin/t09",
+    "cardinals/t01",
+    "cfb/t04",
+    "cirkeltrek/t01",
+    "CKCrusaders/t02",
+    "cloud9/t01",
+    "dankmemes/t09",
+    "DestinyTheGame/t02",
+    "europe/t17",
+    "fireemblem/t06",
+    "flashtv/t14",
+    "formula1/t02",
+    "furry_irl/t08",
+    "geometrydash/t02",
+    "giantbomb/t05",
+    "globaloffensive/t07",
+    "greece/t07",
+    "greenbaypackers/t05",
+    "h3h3productions/t22",
+    "h3h3productions/t24",
+    "halo/t11",
+    "hawks/t01",
+    "kerbalspaceprogram/t01",
+    "kirby/t05",
+    "leafs/t09",
+    "leagueoflegends/t10",
+    "liverpoolfc/t01",
+    "megaman/t04",
+    "MMA/t06",
+    "nascar/t04",
+    "nbaspurs/t16",
+    "nbaspurs/t17",
+    "newzealand/t01",
+    "osugame/t05",
+    "polandball/t05",
+    "polska/t03",
+    "prequelmemes/t11",
+    "python/t03",
+    "Rainbow6/t06",
+    "rush/t01",
+    "rwby/t04",
+    "smashbros/t01",
+    "smashbros/t12",
+    "snsd/t07",
+    "ssbpm/t06",
+    "starcitizen/t01",
+    "strangerthings/t01",
+    "survivor/t20",
+    "survivor/t28",
+    "thenetherlands/t01",
+    "thetreesnetwork/t02",
+    "totallynotrobots/t01",
+    "ubc/t02",
+    "uiuc/t02",
+    "wholesomememes/t01",
+    "wow/t09",
+    "zootopia/t01",
+    "stardustcrusaders/t10",
+    "ethereum/t12",
+    "leagueoflegends/t09",
+    "iastate/t01",
+    "katawashoujo/t02",
+    "rit/t01",
+    "winnipegjets/t03",
+    "partyparrot/t16",
+    "titanfall/t05",
+    "warframe/t06",
+    "warriors/t04",
+    "Braveryjerk/t01",
+    "anime_irl/t14",
+    "criticalrole/t02",
+    "ElderScrolls/t01",
+    "h3h3productions/t23",
+    "liverpoolfc/t03",
+    "mindcrack/t07",
+    "rangers/t09",
+    "survivor/t18",
+    "thesilphroad/t09",
+    "transformers/t01",
+    "warframe/t03",
+    "formula1/t05",
+    "paragon/t11",
+    "picturegame/t03",
+    "danganronpa/t14",
+    "survivor/t11",
+    "wallstreetbets/t03",
+    "redhotchilipeppers/t04",
+    "elitedangerous/t01",
+    "GuildWars2/t02",
+    "GuildWars2/t05",
+    "rocketleague/t15",
+    "AMD/t10",
+    "chelseafc/t02",
+    "danganronpa/t15",
+    "dankmemes/t13",
+    "greenbaypackers/t06",
+    "nbaspurs/t02",
+    "pokemon/t02",
+    "redhotchilipeppers/t12",
+    "rotmg/t08",
+    "runescape/t08",
+    "drumcorps/t04",
+    "overwatch/t03",
+    "yugioh/t06",
+    "yugioh/t12",
+    "partyparrot/t17",
+    "anime_irl/t16",
+    "anime_irl/t17",
+    "hunterxhunter/t03",
+    "pcmasterrace/t02",
+    "survivor/t10",
+    "cloud9/t02",
+    "danganronpa/t19",
+    "dota2/t01",
+    "falcons/t10",
+    "feedthebeast/t03",
+    "gameofthrones/t08",
+    "GuildWars2/t07",
+    "halo/t01",
+    "kamenrider/t07",
+    "lego/t07",
+    "nerf/t06",
+    "nin/t09",
+    "pathofexile/t04",
+    "paydaytheheist/t01",
+    "Rainbow6/t08",
+    "rickandmorty/t09",
+    "rickandmorty/t10",
+    "simonfraser/t02",
+    "sips/t01",
+    "thesilphroad/t07",
+    "titanfall/t02",
+    "ubreddit/t02",
+    "vim/t01",
+    "wow/t07",
+    "borussiadortmund/t02",
+    "clg/t08",
+    "gameofthrones/t09",
+    "leagueoflegends/t15",
+    "paladins/t01",
+    "thesilphroad/t02",
+    "ssbpm/t13",
+    "giivasunner/t02",
+    "Moondye7/t01",
+    "nascar/t05",
+    "PlaceNL/t13",
+    "rainbowgrid/t06",
+    "slovenia/t01",
+    "touhou/t18",
+    "mariokart/t03",
+    "ultrahardcore/t04",
+    "bostonceltics/t03",
+    "btc/t01",
+    "canucks/t25",
+    "fivenightsatfreddys/t03",
+    "flashtv/t06",
+    "hearthstone/t01",
+    "loltyler1/t01",
+    "minecraft/t12",
+    "paladins/t05",
+    "polandball/t01",
+    "porterrobinson/t12",
+    "Rainbow6/t14",
+    "rocketleague/t02",
+    "scotland/t04",
+    "ss13/t02",
+    "starlightstage/t02",
+    "thailand/t02",
+    "h3h3productions/t10",
+    "minecraft/t14",
+    "NieR/t05",
+    "polandball/t07",
+    "4chan/t15",
+    "eve/t02",
+    "GuildWars2/t15",
+    "kanye/t11",
+    "mechanicalkeyboards/t05",
+    "metroid/t14",
+    "paydaytheheist/t06",
+    "paydaytheheist/t08",
+    "rust/t05",
+    "spacex/t02",
+    "streetfighter/t02",
+    "homelab/t03",
+    "planetside/t05",
+    "titanfall/t03",
+    "wholesomememes/t14",
+    "4chan/t12",
+    "python/t09",
+    "ockytop/t06",
+    "picturegame/t04",
+    "denmark/t07",
+    "eve/t11",
+    "france/t08",
+    "gorillaz/t16",
+    "homestuck/t11",
+    "israel/t06",
+    "liverpoolfc/t11",
+    "overwatch/t18",
+    "romania/t03",
+    "singapore/t09",
+    "smashbros/t15",
+    "canada/t09",
+    "fireemblem/t08",
+    "futanari/t06",
+    "mexico/t12",
+    "serbia/t15",
+    "stardustcrusaders/t21",
+    "thailand/t10",
+    "wholesomememes/t10",
+    "homestuck/t17",
+    "nin/t05",
+    "starbound/t08",
+    "tampabaylightning/t11",
+    "switzerland/t05",
+    "factorio/t12",
+    "splatoon/t10",
+    "4chan/t06",
+    "ethereum/t13",
+    "kuwait/t06",
+    "soylent/t07",
+    "twitch/t08",
+    "aggies/t10",
+    "armok/t04",
+    "Braveryjerk/t02",
+    "chicubs/t15",
+    "croatia/t11",
+    "de/t24",
+    "denverbroncos/t02",
+    "ElderScrolls/t07",
+    "fivenightsatfreddys/t16",
+    "furry_irl/t11",
+    "geometrydash/t11",
+    "h3h3productions/t50",
+    "ice_poseidon/t14",
+    "india/t11",
+    "ireland/t13",
+    "lakers/t02",
+    "MMA/t05",
+    "mylittlepony/t13",
+    "nintendo/t03",
+    "orderofthebluecorner/t11",
+    "OrderOfTheKoi/t06",
+    "pcmasterrace/t06",
+    "physical_removal/t10",
+    "portugal/t15",
+    "portugal/t26",
+    "quebec/t14",
+    "russia/t11",
+    "slovenia/t12",
+    "ssbpm/t08",
+    "ssbpm/t11",
+    "ssbpm/t14",
+    "twentyonepilots/t09",
+    "uoft/t16",
+    "wholesomememes/t25",
+    "wine/t04",
+    "wine/t05",
+    "wow/t04",
+    "yogscast/t15",
+    "necrodancer/t08",
+    "nascar/t02",
+    "rwby/t02",
+    "zelda/t10",
+    "clashroyale/t13",
+    "cubers/t30",
+    "ethereum/t06",
+    "falcons/t08",
+    "flashtv/t04",
+    "freedomplanet/t05",
+    "h3h3productions/t06",
+    "h3h3productions/t12",
+    "heyyea/t07",
+    "indieheads/t06",
+    "mls/t07",
+    "PlaceNL/t20",
+    "romania/t22",
+    "startrek/t01",
+    "sweden/t07",
+    "SydneyFC/t03",
+    "tf2/t09",
+    "torontoraptors/t03",
+    "FlipnoteStudio3D/t02",
+    "MonkeyIsland/t06",
+    "uwaterloo/t03",
+    "vocaloid/t07",
+    "nerf/t08",
+    "osu/t13",
+    "physical_removal/t09",
+    "rust/t06",
+    "buffalobills/t11",
+    "morrowind/t11",
+    "shitredditsays/t09",
+    "gamindustri/t07",
+    "feedthebeast/t09",
+    "furry_irl/t16",
+    "smashbros/t16",
+    "chess/t14",
+    "tagpro/t15",
+    "twitch/t04",
+    "shitredditsays/t11",
+    "empiredidnothingwrong/t10",
+    "shitredditsays/t10",
+    "yuyuyu/t03",
+    "lego/t02",
+    "danganronpa/t24",
+    "furry_irl/t05",
+    "crusaderkings/t11",
+    "anime_irl/t08",
+    "catalonia/t04",
+    "cubers/t02",
+    "DestinyTheGame/t05",
+    "formula1/t11",
+    "heroesofthestorm/t04",
+    "magictcg/t09",
+    "metalcore/t07",
+    "oneplus/t05",
+    "twice/t04",
+    "anime_irl/t05",
+    "destiny/t06",
+    "flashtv/t10",
+    "placecanada/t10",
+    "ss13/t11",
+    "math/t06",
+    "argentina/t13",
+    "btc/t12",
+    "chicago/t12",
+    "chile/t06",
+    "denmark/t14",
+    "greece/t09",
+    "norway/t07",
+    "pakistan/t18",
+    "russia/t12",
+    "stlouisblues/t13",
+    "toolband/t06",
+    "trees/t13",
+    "unitedkingdom/t07",
+    "worldoftanks/t09",
+    "dwarffortress/t10",
+    "epublica/t10",
+    "australia/t21",
+    "indieheads/t04",
+    "leafs/t12",
+    "magictcg/t01"
+   ],
+   "n": 491,
+   "families": {
+    "G01": 313,
+    "G02": 162,
+    "G03": 1,
+    "G05": 1,
+    "G07": 1,
+    "G09": 2,
+    "G13": 2,
+    "G14": 3,
+    "G15": 2,
+    "G16": 1,
+    "G21": 3
+   },
+   "classes": {
+    "3": 320,
+    "4": 153,
+    "5": 18
+   },
+   "gloss_only": 18,
+   "pairs_top": [
+    [
+     "T3-023",
+     38
+    ],
+    [
+     "T3-001",
+     24
+    ],
+    [
+     "T3-001|T3-023",
+     20
+    ],
+    [
+     "T3-017|T3-031",
+     16
+    ],
+    [
+     "T3-001|T3-048",
+     13
+    ],
+    [
+     "T3-075",
+     13
+    ],
+    [
+     "T3-023|T3-095",
+     11
+    ],
+    [
+     "T3-001|T3-095",
+     10
+    ],
+    [
+     "T3-095",
+     9
+    ],
+    [
+     "T3-001|T3-017",
+     8
+    ],
+    [
+     "T3-032",
+     8
+    ],
+    [
+     "T3-015",
+     7
+    ],
+    [
+     "T3-015|T3-063",
+     7
+    ],
+    [
+     "T3-048|T3-095",
+     6
+    ],
+    [
+     "T3-001|T3-031",
+     5
+    ],
+    [
+     "T3-032|T3-097",
+     5
+    ],
+    [
+     "T3-063|T3-185",
+     5
+    ],
+    [
+     "T3-017|T3-023",
+     4
+    ],
+    [
+     "T3-023|T3-048",
+     4
+    ],
+    [
+     "T3-023|T3-051",
+     4
+    ],
+    [
+     "T3-015|T3-075",
+     4
+    ],
+    [
+     "T3-016|T3-017",
+     4
+    ],
+    [
+     "T3-017|T3-048",
+     3
+    ],
+    [
+     "T3-017|T3-095",
+     3
+    ],
+    [
+     "T3-023|T3-097",
+     3
+    ]
+   ]
+  },
+  {
+   "packet": 2,
+   "items": [
+    "cloud9/t11",
+    "apocalypserising/t06",
+    "2007scape/t09",
+    "albania/t08",
+    "AmericanFlaginPlace/t02",
+    "archlinux/t01",
+    "armenia/t08",
+    "asexuality/t05",
+    "auburn/t04",
+    "bangladesh/t04",
+    "bangtan/t04",
+    "belgium/t03",
+    "brasil/t03",
+    "Bravenewbies/t02",
+    "catalunya/t04",
+    "chelseafc/t11",
+    "czech/t09",
+    "darksouls/t03",
+    "denmark/t06",
+    "DestinyTheGame/t10",
+    "dmt/t03",
+    "drugs/t03",
+    "dwarffortress/t06",
+    "earthbound/t01",
+    "EraseThePlace/t05",
+    "esperanto/t05",
+    "europe/t08",
+    "eve/t10",
+    "falcons/t14",
+    "FederationPlace/t06",
+    "fireemblem/t05",
+    "foxes/t05",
+    "france/t12",
+    "giivasunner/t12",
+    "GreenCorner/t02",
+    "heroesofthestorm/t03",
+    "hyperlightdrifter/t08",
+    "leagueoflegends/t17",
+    "madokamagica/t03",
+    "ManningPlace/t06",
+    "metalgearsolid/t08",
+    "minecraft/t17",
+    "mylittlepony/t03",
+    "norge/t10",
+    "notredame/t07",
+    "ohio/t08",
+    "onepunchman/t07",
+    "pakistan/t02",
+    "paladins/t25",
+    "pathofexile/t08",
+    "physical_removal/t03",
+    "placecanada/t06",
+    "placehearts/t06",
+    "PurplePixels/t07",
+    "quebec/t07",
+    "radiohead/t08",
+    "rangers/t08",
+    "rocketbeans/t04",
+    "rocketleague/t04",
+    "rotmg/t10",
+    "scp/t08",
+    "shield/t06",
+    "smite/t09",
+    "stevenuniverse/t07",
+    "sweden/t04",
+    "theblackvoid/t03",
+    "TheFarLeftSide/t08",
+    "TheGreatGreenBox/t05",
+    "theitalyplace/t07",
+    "tinytardis/t07",
+    "TransFlagPlace/t06",
+    "uwaterloo/t09",
+    "virginiatech/t05",
+    "wales/t04",
+    "yogscast/t04",
+    "tf2/t06",
+    "planetside/t09",
+    "columbia/t02",
+    "monero/t06",
+    "porterrobinson/t14",
+    "portugal/t06",
+    "AcePlace/t06",
+    "aoe2/t07",
+    "araragi/t03",
+    "ice_poseidon/t03",
+    "iceland/t05",
+    "buffalo/t07",
+    "fivenightsatfreddys/t11",
+    "fullcommunism/t07",
+    "bretagne/t04",
+    "bulgaria/t07",
+    "penguins/t10",
+    "ss13/t15",
+    "weezer/t03",
+    "Redox/t02",
+    "australia/t12",
+    "buffalobills/t06",
+    "crusaderkings/t05",
+    "gorillaz/t05",
+    "italy/t05",
+    "NewMexico/t06",
+    "norway/t06",
+    "osugame/t04",
+    "ssbpm/t09",
+    "Thegreatblackhole/t05",
+    "ubreddit/t07",
+    "TheB1G/t06",
+    "monstercat/t14",
+    "dwarffortress/t04",
+    "norge/t13",
+    "smashbros/t14",
+    "theblackvoid/t04",
+    "cubers/t05",
+    "popheads/t01",
+    "wine/t12",
+    "bdsm/t04",
+    "bretagne/t08",
+    "cuboulder/t03",
+    "androidgaming/t01",
+    "anime/t01",
+    "auburn/t01",
+    "australia/t07",
+    "bardmains/t01",
+    "bindingofisaac/t02",
+    "bretagne/t02",
+    "btc/t02",
+    "canada/t01",
+    "canucks/t03",
+    "CelticFc/t01",
+    "cfb/t03",
+    "chelseafc/t07",
+    "chicago/t01",
+    "Clannad/t02",
+    "clashroyale/t02",
+    "criticalrole/t03",
+    "crusaderkings/t01",
+    "dallasstars/t05",
+    "danganronpa/t03",
+    "danganronpa/t17",
+    "danganronpa/t26",
+    "dankmemes/t15",
+    "DCFU/t01",
+    "dmt/t01",
+    "donaldglover/t05",
+    "drumcorps/t05",
+    "dwarffortress/t01",
+    "earthbound/t02",
+    "eve/t19",
+    "fivenightsatfreddys/t04",
+    "FlaggyFlag/t02",
+    "frc/t02",
+    "furry/t04",
+    "ghibli/t01",
+    "gorillaz/t03",
+    "greyblob/t01",
+    "h3h3productions/t25",
+    "h3h3productions/t27",
+    "harrypotter/t01",
+    "hatsune/t05",
+    "ireland/t12",
+    "jerma985/t01",
+    "kingdomhearts/t15",
+    "mamamoo/t01",
+    "mcgill/t01",
+    "minecraft/t03",
+    "monalisaclan/t02",
+    "nascar/t06",
+    "NewMexico/t07",
+    "newzealand/t07",
+    "nyu/t02",
+    "ohio/t03",
+    "onepunchman/t01",
+    "pcmasterrace/t05",
+    "philippines/t03",
+    "PinkUnion/t01",
+    "placesnek/t05",
+    "pokemon/t04",
+    "polyamory/t01",
+    "portal/t04",
+    "python/t06",
+    "raocow/t01",
+    "raocow/t07",
+    "RelientK/t01",
+    "rocketbeans/t02",
+    "roosterteeth/t01",
+    "rutgers/t03",
+    "seahawks/t01",
+    "shrooms/t06",
+    "sips/t05",
+    "starbound/t02",
+    "starcraft/t06",
+    "stlouis/t02",
+    "streetfighter/t04",
+    "TheAdventuresofTintin/t01",
+    "TheB1G/t01",
+    "transformers/t02",
+    "twentyonepilots/t02",
+    "ubc/t01",
+    "undertale/t02",
+    "UNLincoln/t01",
+    "vinesauce/t07",
+    "witcher/t01",
+    "yugioh/t15",
+    "zootopia/t02",
+    "czech/t01",
+    "finland/t03",
+    "malta/t02",
+    "mariokart/t04",
+    "nin/t10",
+    "thetreesnetwork/t01",
+    "twitchplayspokemon/t04",
+    "prequelmemes/t02",
+    "austria/t10",
+    "kuwait/t09",
+    "OrderOfTheKoi/t03",
+    "frankocean/t07",
+    "minecraft/t18",
+    "rush/t06",
+    "chess/t07",
+    "england/t01",
+    "hellointernet/t01",
+    "nlsscirclejerk/t01",
+    "nonbinary/t01",
+    "opticgaming/t03",
+    "rickandmorty/t01",
+    "uiowa/t01",
+    "bangtan/t01",
+    "battlecats/t05",
+    "cloud9/t03",
+    "FinalFantasy/t02",
+    "foxstevenson/t02",
+    "frankocean/t04",
+    "survivor/t12",
+    "terraria/t01",
+    "torontoraptors/t04",
+    "traaaaaaannnnnnnnnns/t01",
+    "costa_rica/t02",
+    "gameattack/t03",
+    "GuardiansOfDatBoi/t07",
+    "taiwan/t02",
+    "albania/t02",
+    "guatemala/t02",
+    "ukraine/t01",
+    "detroitlions/t05",
+    "clg/t01",
+    "harrypotter/t15",
+    "lebanon/t05",
+    "miamidolphins/t02",
+    "polandball/t06",
+    "vermont/t01",
+    "sadboys/t10",
+    "Pigifs/t07",
+    "TeamYellowPlace/t01",
+    "placehearts/t08",
+    "acecombat/t05",
+    "danganronpa/t22",
+    "fullcommunism/t04",
+    "rhythmheaven/t06",
+    "anarcho_capitalism/t07",
+    "parahumans/t11",
+    "armok/t01",
+    "bakchodi/t17",
+    "EraseThePlace/t09",
+    "haskell/t05",
+    "osugame/t09",
+    "parahumans/t14",
+    "placehearts/t02",
+    "Thegreatblackhole/t04",
+    "TsundereSharks/t04",
+    "weezer/t14",
+    "cuboulder/t06",
+    "quq/t01",
+    "uiuc/t17",
+    "evedreddit/t06",
+    "fireemblem/t11",
+    "denverbroncos/t09",
+    "diablo/t02",
+    "FederationPlace/t07",
+    "hoodr/t03",
+    "linux/t09",
+    "miamidolphins/t03",
+    "sabres/t07",
+    "Slovakia/t09",
+    "suomi/t26",
+    "warriors/t05",
+    "xenoblade_chronicles/t03",
+    "anime/t12",
+    "greenbaypackers/t12",
+    "liquicity/t05",
+    "placetardis/t07",
+    "bdsm/t02",
+    "futurama/t09",
+    "wine/t11",
+    "malta/t08",
+    "PinkUnion/t11",
+    "catalunya/t08",
+    "scp/t04",
+    "nerf/t07",
+    "pathofexile/t16",
+    "schoolidolfestival/t10",
+    "cowchop/t01",
+    "mysterydungeon/t01",
+    "paragon/t01",
+    "shield/t01",
+    "greenbaypackers/t08",
+    "berserk/t06",
+    "foxstevenson/t03",
+    "nyu/t01",
+    "patriots/t02",
+    "pitt/t02",
+    "ssbpm/t02",
+    "metalgearsolid/t06",
+    "trees/t08",
+    "falcons/t02",
+    "clashroyale/t09",
+    "uoft/t15",
+    "furry_irl/t01",
+    "purdue/t02",
+    "AceOfAngels8/t04",
+    "suomi/t04",
+    "Temple/t04",
+    "scp/t01",
+    "kindafunny/t02",
+    "penguins/t12",
+    "placecanada/t11",
+    "shield/t07",
+    "funhaus/t10",
+    "stlouisblues/t01",
+    "dragonquest/t01",
+    "SquareSpiral/t03",
+    "suomi/t17",
+    "uruguay/t01",
+    "animalcrossing/t02",
+    "anime/t10",
+    "bisexual/t02",
+    "canucks/t18",
+    "chelseafc/t09",
+    "davidbowie/t02",
+    "europe/t02",
+    "faeria/t02",
+    "floridagators/t03",
+    "FloydVsVoid/t02",
+    "formula1/t20",
+    "forsen/t02",
+    "france/t05",
+    "fxKorea/t03",
+    "ghibli/t02",
+    "giivasunner/t05",
+    "greenlattice/t17",
+    "GuardiansOfDatBoi/t03",
+    "h3h3productions/t15",
+    "heyyea/t01",
+    "japan/t07",
+    "k_on/t01",
+    "kamenrider/t02",
+    "mizzou/t02",
+    "Moondye7/t02",
+    "muse/t02",
+    "naruto/t01",
+    "npr/t01",
+    "oman/t04",
+    "penguins/t05",
+    "philippines/t04",
+    "placeportalpattern/t02",
+    "puzzleanddragons/t01",
+    "roosterteeth/t02",
+    "russia/t04",
+    "rutgers/t05",
+    "samuraijack/t21",
+    "seventeen/t01",
+    "smashbros/t04",
+    "stardustcrusaders/t04",
+    "starryknights/t02",
+    "suomi/t06",
+    "swordartonline/t10",
+    "Thegreatblackhole/t08",
+    "xenoblade_chronicles/t02",
+    "DevonUK/t02",
+    "ChronoTrigger/t02",
+    "mylittlepony/t04",
+    "orderofthebluecorner/t02",
+    "PlaceNL/t01",
+    "theblackvoid/t05",
+    "ainbowroad/t02",
+    "cirkeltrek/t05",
+    "criticalrole/t04",
+    "lost/t07",
+    "msu/t06",
+    "ockytop/t04",
+    "TheFarLeftSide/t01",
+    "uofm/t03",
+    "indonesia/t06",
+    "TeamYellowPlace/t05",
+    "tampabaylightning/t02",
+    "tagpro/t01",
+    "bigbang/t01",
+    "monstercat/t13",
+    "sonicthehedgehog/t09",
+    "texas/t10",
+    "vegan/t02",
+    "wallstreetbets/t04",
+    "paladins/t20",
+    "pakistan/t10",
+    "transgender/t03",
+    "mylittlepony/t02",
+    "portal/t08",
+    "THE_R/t03",
+    "hunterxhunter/t04",
+    "bangladesh/t06",
+    "nightinthewoods/t06",
+    "toolband/t07",
+    "UNLincoln/t02",
+    "opticgaming/t04",
+    "parrots/t15",
+    "stardustcrusaders/t15",
+    "anarchism/t13",
+    "catalonia/t09",
+    "furry_irl/t22",
+    "kuwait/t08",
+    "livecounting/t06",
+    "osu/t12",
+    "Peru/t03",
+    "polandball/t08",
+    "rotmg/t14",
+    "rutgers/t13",
+    "sadboys/t03",
+    "cuboulder/t05",
+    "oneshot/t06",
+    "kpop/t12",
+    "Northwestern/t12",
+    "paladins/t14",
+    "wow/t22",
+    "ftlgame/t08",
+    "anarcho_capitalism/t06",
+    "edboxes/t07",
+    "greenlattice/t13",
+    "PinkUnion/t02",
+    "diablo/t08",
+    "sabres/t04",
+    "samuraijack/t15",
+    "vinesauce/t08",
+    "warriors/t03",
+    "detroitlions/t13",
+    "egypt/t06",
+    "halo/t05",
+    "shield/t12",
+    "slovenia/t06"
+   ],
+   "n": 447,
+   "families": {
+    "G03": 118,
+    "G04": 182,
+    "G05": 95,
+    "G06": 52
+   },
+   "classes": {
+    "3": 318,
+    "4": 124,
+    "5": 5
+   },
+   "gloss_only": 0,
+   "pairs_top": [
+    [
+     "T3-014",
+     60
+    ],
+    [
+     "T3-002",
+     50
+    ],
+    [
+     "T3-070",
+     28
+    ],
+    [
+     "T3-002|T3-038",
+     10
+    ],
+    [
+     "T3-002|T3-033",
+     8
+    ],
+    [
+     "T3-002|T3-070",
+     8
+    ],
+    [
+     "T3-002|T3-005",
+     7
+    ],
+    [
+     "T3-090",
+     6
+    ],
+    [
+     "T3-044",
+     6
+    ],
+    [
+     "T3-004|T3-070",
+     6
+    ],
+    [
+     "T3-014|T3-153",
+     5
+    ],
+    [
+     "T3-062",
+     5
+    ],
+    [
+     "T3-070|T3-091",
+     5
+    ],
+    [
+     "T3-091",
+     5
+    ],
+    [
+     "T3-002|T3-062",
+     4
+    ],
+    [
+     "T3-062|T3-084",
+     4
+    ],
+    [
+     "T3-002|T3-065",
+     3
+    ],
+    [
+     "T3-015|T3-090",
+     2
+    ],
+    [
+     "T3-049",
+     2
+    ],
+    [
+     "T3-114",
+     2
+    ],
+    [
+     "T3-002|T3-031",
+     2
+    ],
+    [
+     "T3-044|T3-196",
+     2
+    ],
+    [
+     "T3-004|T3-091",
+     2
+    ],
+    [
+     "T3-020|T3-070",
+     2
+    ],
+    [
+     "T3-101",
+     2
+    ]
+   ]
+  },
+  {
+   "packet": 3,
+   "items": [
+    "ubreddit/t03",
+    "chicubs/t09",
+    "DiamondClub/t01",
+    "foxes/t01",
+    "hawks/t05",
+    "kanye/t01",
+    "schoolidolfestival/t04",
+    "stardustcrusaders/t01",
+    "unturned/t03",
+    "wallstreetbets/t01",
+    "warframe/t01",
+    "aceattorney/t04",
+    "AMD/t05",
+    "archlinux/t02",
+    "armok/t10",
+    "australia/t08",
+    "AvoArmy/t06",
+    "AyyMD/t03",
+    "bakchodi/t05",
+    "berkeley/t03",
+    "bisexual/t03",
+    "bitcoin/t11",
+    "blackmirror/t02",
+    "borussiadortmund/t03",
+    "catalonia/t07",
+    "chile/t02",
+    "cirkeltrek/t03",
+    "corridor/t05",
+    "crusaderkings/t02",
+    "eesti/t12",
+    "ElderScrolls/t05",
+    "feedthebeast/t06",
+    "FinalFantasy/t03",
+    "frc/t01",
+    "funhaus/t01",
+    "GranColombia/t06",
+    "greyblob/t02",
+    "HomestarRunner/t01",
+    "httyd/t12",
+    "iastate/t03",
+    "india/t07",
+    "ireland/t04",
+    "kindafunny/t05",
+    "leafs/t04",
+    "linux/t24",
+    "minecraft/t04",
+    "mizzou/t03",
+    "monstercat/t06",
+    "NewMexico/t02",
+    "nin/t03",
+    "ohio/t04",
+    "osu/t04",
+    "penguins/t03",
+    "placeDE/t10",
+    "placehearts/t11",
+    "PlaceNL/t04",
+    "portal/t01",
+    "porterrobinson/t01",
+    "prequelmemes/t03",
+    "PUBATTLEGROUNDS/t07",
+    "radiohead/t01",
+    "rangers/t02",
+    "rickandmorty/t07",
+    "seahawks/t07",
+    "skyrim/t02",
+    "tetris/t05",
+    "texas/t04",
+    "theitalyplace/t10",
+    "timbers/t02",
+    "twice/t08",
+    "udub/t01",
+    "unturned/t09",
+    "uwaterloo/t01",
+    "weezer/t02",
+    "pusheen/t04",
+    "tampabaylightning/t09",
+    "kingdomhearts/t12",
+    "oneshot/t01",
+    "sabres/t03",
+    "TransFlagPlace/t01",
+    "wallstreetbets/t10",
+    "austria/t07",
+    "cuboulder/t04",
+    "de/t10",
+    "giantbomb/t01",
+    "h3h3productions/t30",
+    "nlsscirclejerk/t02",
+    "TheFarLeftSide/t02",
+    "truestl/t02",
+    "WPI/t01",
+    "AvoArmy/t01",
+    "calgaryflames/t01",
+    "tf2/t05",
+    "uoft/t08",
+    "vinesauce/t01",
+    "bindingofisaac/t03",
+    "DatBoi/t04",
+    "factorio/t09",
+    "PinkVomitMonster/t03",
+    "placetardis/t02",
+    "ProfessorLayton/t02",
+    "ethoslab/t02",
+    "littlewitchacademia/t07",
+    "NieR/t08",
+    "albania/t07",
+    "guatemala/t01",
+    "portugal/t02",
+    "drumcorps/t06",
+    "kanye/t05",
+    "Okami/t06",
+    "pebble/t04",
+    "placesnek/t04",
+    "portal/t03",
+    "esperanto/t03",
+    "latin/t03",
+    "OnePiece/t07",
+    "morrowind/t07",
+    "catholicism/t03",
+    "vietnam/t02",
+    "argentina/t07",
+    "theitalyplace/t03",
+    "rickandmorty/t11",
+    "drawhelix/t05",
+    "farmcarrots/t08",
+    "neopets/t14",
+    "starlightstage/t12",
+    "wine/t08",
+    "Thegreatblackhole/t03",
+    "twitch/t03",
+    "romania/t20",
+    "thepointing/t04",
+    "bretagne/t01",
+    "COSI/t01",
+    "dallasstars/t04",
+    "denverbroncos/t07",
+    "flashtv/t01",
+    "frc/t03",
+    "gameattack/t04",
+    "gratefuldead/t03",
+    "GreenEmpire/t02",
+    "lovelive/t05",
+    "nightinthewoods/t02",
+    "pathofexile/t02",
+    "portal/t06",
+    "quebec/t16",
+    "romania/t02",
+    "rpi/t07",
+    "schoolidolfestival/t12",
+    "singapore/t06",
+    "ubreddit/t06",
+    "uiuc/t06",
+    "utaustin/t01",
+    "vegan/t03",
+    "virginiatech/t03",
+    "zelda/t07",
+    "lakers/t13",
+    "NewMexico/t04",
+    "cmu/t01",
+    "hongkong/t02",
+    "metalgearsolid/t04",
+    "muse/t01",
+    "planetside/t08",
+    "redhotchilipeppers/t03",
+    "tetris/t01",
+    "spacexmasterrace/t13",
+    "bostonceltics/t04",
+    "sooners/t03",
+    "kuwait/t02",
+    "sakartvelo/t01",
+    "WisconsinBadgers/t02",
+    "Northwestern/t03",
+    "TheGreatGreenBox/t03",
+    "2007scape/t03",
+    "anarchism/t01",
+    "anarchism/t17",
+    "aoe2/t04",
+    "brasil/t02",
+    "clubpenguin/t07",
+    "denmark/t10",
+    "eagles/t02",
+    "ElderScrolls/t03",
+    "elitedangerous/t03",
+    "eve/t03",
+    "formula1/t03",
+    "frankocean/t01",
+    "gameofthrones/t02",
+    "glasgow/t03",
+    "globaloffensive/t02",
+    "h3h3productions/t43",
+    "hearthstone/t16",
+    "indieheads/t13",
+    "katawashoujo/t01",
+    "kingdomhearts/t04",
+    "kpop/t04",
+    "KState/t01",
+    "leagueoflegends/t03",
+    "loliconsunite/t07",
+    "Madeon/t08",
+    "math/t02",
+    "neopets/t01",
+    "nuclearthrone/t01",
+    "overwatch/t13",
+    "pakistan/t19",
+    "popheads/t09",
+    "popheads/t11",
+    "portal/t02",
+    "predators/t03",
+    "purplecorner/t03",
+    "re_zero/t02",
+    "rpi/t01",
+    "rush/t03",
+    "rust/t07",
+    "rust/t09",
+    "rwby/t05",
+    "sadboys/t02",
+    "simonfraser/t04",
+    "sooners/t01",
+    "splatoon/t03",
+    "ss13/t05",
+    "starcraft/t05",
+    "starlightstage/t09",
+    "starvstheforcesofevil/t02",
+    "stevenuniverse/t01",
+    "suomi/t02",
+    "SwissNeutralityZone/t01",
+    "trees/t03",
+    "warthunder/t10",
+    "yugioh/t04",
+    "yugioh/t13",
+    "davidbowie/t04",
+    "palestine/t03",
+    "touhou/t08",
+    "Goodboye/t08",
+    "norge/t03",
+    "unitedkingdom/t11",
+    "TheHulk/t04",
+    "neu/t02",
+    "cubers/t12",
+    "danganronpa/t07",
+    "placetardis/t04",
+    "Villanova/t03",
+    "kingdomhearts/t09",
+    "wholesomememes/t07",
+    "formula1/t14",
+    "greenlattice/t06",
+    "parrots/t10",
+    "bostonbruins/t02",
+    "enterthegungeon/t01",
+    "ethoslab/t01",
+    "forsen/t01",
+    "habs/t02",
+    "nyjets/t04",
+    "the_pack/t01",
+    "winnipegjets/t01",
+    "wow/t17",
+    "asktransgender/t10",
+    "bisexual/t04",
+    "Cornwall/t03",
+    "fullcommunism/t10",
+    "furry/t02",
+    "gratefuldead/t04",
+    "muse/t04",
+    "sixers/t02",
+    "sheffield/t05",
+    "AMD/t20",
+    "unturned/t10",
+    "rush/t07",
+    "placetardis/t09",
+    "DestinyTheGame/t07",
+    "Fez/t01",
+    "ManningPlace/t05",
+    "sakuragakuin/t01",
+    "borderlands/t02",
+    "GrowTheTree/t01",
+    "pcmasterrace/t08",
+    "puzzleanddragons/t08",
+    "spacexmasterrace/t03",
+    "vermont/t03",
+    "bostonceltics/t13",
+    "enterthegungeon/t03",
+    "hatsune/t01",
+    "k_on/t05",
+    "FlaggyFlag/t01",
+    "iastate/t06",
+    "stevenuniverse/t02",
+    "jerma985/t03",
+    "nuclearthrone/t05",
+    "Rainbow6/t12",
+    "anime/t06",
+    "aceattorney/t05",
+    "nVade/t02",
+    "anime_irl/t06",
+    "denverbroncos/t11",
+    "drumcorps/t09",
+    "stargate/t07",
+    "halo/t13",
+    "acecombat/t04",
+    "Slovakia/t07",
+    "apocalypserising/t08",
+    "bahrain/t09",
+    "batman/t02",
+    "corridor/t09",
+    "DestinyTheGame/t04",
+    "ethoslab/t05",
+    "feedthebeast/t04",
+    "furry_irl/t18",
+    "gamindustri/t13",
+    "haskell/t14",
+    "Homura/t01",
+    "ice_poseidon/t05",
+    "kingdomhearts/t08",
+    "math/t05",
+    "oneplus/t07",
+    "qotsa/t06",
+    "sheffield/t01",
+    "smite/t04",
+    "spacex/t05",
+    "spelunky/t01",
+    "startrek/t02",
+    "warthunder/t12",
+    "yerbamate/t01",
+    "yuyuyu/t02",
+    "2007scape/t10",
+    "bdsm/t01",
+    "CelticFc/t03",
+    "re_zero/t06",
+    "overwatch/t21",
+    "riskofrain/t01",
+    "vietnam/t04",
+    "watchmen/t01",
+    "KState/t04",
+    "italy/t10",
+    "reddevils/t04",
+    "twice/t05",
+    "ufl/t01",
+    "blackmirror/t05",
+    "borderlands/t04",
+    "drugs/t14",
+    "empiredidnothingwrong/t11",
+    "placehearts/t03",
+    "straya/t01",
+    "turkey/t08",
+    "winnipegjets/t11",
+    "rainbowgrid/t01",
+    "achievement_hunter/t03",
+    "adventuretime/t04",
+    "asexuality/t01",
+    "batman/t01",
+    "baylor/t03",
+    "bitcoin/t02",
+    "bobross/t01",
+    "borderlands/t01",
+    "brasil/t04",
+    "catholicism/t05",
+    "cavestory/t01",
+    "chelseafc/t10",
+    "counting/t02",
+    "CSUFoCo/t01",
+    "cubers/t03",
+    "dbz/t04",
+    "detroitlions/t04",
+    "detroitlions/t08",
+    "dofus/t01",
+    "dota2/t11",
+    "drugs/t01",
+    "Dustforce/t01",
+    "elitedangerous/t06",
+    "EraseThePlace/t03",
+    "eve/t06",
+    "factorio/t04",
+    "faeria/t01",
+    "farmcarrots/t02",
+    "FinalFantasy/t07",
+    "flashtv/t08",
+    "flyers/t01",
+    "formula1/t06",
+    "frc/t04",
+    "funhaus/t07",
+    "gameboy/t01",
+    "germany/t19",
+    "gravityfalls/t01",
+    "heroesofthestorm/t02",
+    "HomestarRunner/t02",
+    "kcroyals/t03",
+    "kerbalspaceprogram/t08",
+    "kpop/t05",
+    "liverpoolfc/t07",
+    "lost/t02",
+    "madokamagica/t01",
+    "minnesotavikings/t06",
+    "MMA/t07",
+    "monero/t01",
+    "monsterhunter/t03",
+    "msu/t02",
+    "nightinthewoods/t05",
+    "ockytop/t01",
+    "oneshot/t02",
+    "parahumans/t01",
+    "paydaytheheist/t02",
+    "physical_removal/t02",
+    "physical_removal/t07",
+    "popheads/t13",
+    "reddevils/t14",
+    "roosterteeth/t03",
+    "rust/t13",
+    "sabres/t02",
+    "schoolidolfestival/t06",
+    "sips/t10",
+    "snsd/t01",
+    "starcitizen/t14",
+    "stardustcrusaders/t05",
+    "suomi/t07",
+    "toolband/t05",
+    "touhou/t02",
+    "uva/t01",
+    "vegan/t07",
+    "warthunder/t13",
+    "wildhockey/t01",
+    "worldoftanks/t06",
+    "wsu/t01",
+    "AyyMD/t01",
+    "buffalo/t02",
+    "cubers/t21",
+    "cubers/t25",
+    "samuraijack/t10",
+    "suomi/t27",
+    "yumenikki/t01",
+    "skyrim/t03",
+    "belgium/t01",
+    "philippines/t07",
+    "freedomplanet/t01",
+    "hentai/t02",
+    "israel/t01",
+    "kingdomhearts/t05",
+    "lakers/t09",
+    "littlebusters/t01",
+    "miraculousladybug/t01",
+    "ainbowroad/t12",
+    "placestart/t13",
+    "peterdraws/t01",
+    "ss13/t03",
+    "AmericanFlaginPlace/t10",
+    "araragi/t05",
+    "argentina/t05",
+    "bulgaria/t03",
+    "cubers/t15",
+    "dmt/t02",
+    "dota2/t06",
+    "gorillaz/t08",
+    "hongkong/t08",
+    "Jamaica/t10",
+    "japan/t08",
+    "kindafunny/t04",
+    "kingdomhearts/t21",
+    "minnesotavikings/t07",
+    "newzealand/t09",
+    "placeDE/t06",
+    "placeportalpattern/t03",
+    "placestart/t09",
+    "placestart/t10",
+    "quebec/t02",
+    "riskofrain/t03",
+    "sadboys/t08",
+    "shrooms/t05",
+    "SquareSpiral/t02",
+    "stardewvalley/t11",
+    "teamcube/t04",
+    "texas/t05",
+    "ucf/t08",
+    "warriors/t09",
+    "yogscast/t01",
+    "popheads/t14",
+    "uoft/t06",
+    "kanye/t23",
+    "samuraijack/t25",
+    "metalcore/t12",
+    "TransFlagPlace/t10",
+    "apocalypserising/t04",
+    "parahumans/t15",
+    "tinytardis/t01",
+    "cuboulder/t02",
+    "spacexmasterrace/t10",
+    "Dominican/t05",
+    "southafrica/t09",
+    "partyparrot/t03",
+    "babymetal/t17",
+    "criticalrole/t09",
+    "detroitredwings/t03",
+    "eagles/t07",
+    "PlaceNL/t05",
+    "day9/t04",
+    "pitt/t05",
+    "portugal/t18",
+    "ucf/t10",
+    "furry/t01",
+    "gameofthrones/t04",
+    "bangtan/t10",
+    "mylittlepony/t06",
+    "pcmasterrace/t13",
+    "baylor/t05"
+   ],
+   "n": 500,
+   "families": {
+    "G07": 246,
+    "G08": 254
+   },
+   "classes": {
+    "3": 376,
+    "4": 117,
+    "5": 7
+   },
+   "gloss_only": 0,
+   "pairs_top": [
+    [
+     "T3-038",
+     57
+    ],
+    [
+     "T3-004",
+     36
+    ],
+    [
+     "T3-033",
+     30
+    ],
+    [
+     "T3-041",
+     18
+    ],
+    [
+     "T3-020",
+     17
+    ],
+    [
+     "T3-004|T3-041",
+     12
+    ],
+    [
+     "T3-033|T3-041",
+     11
+    ],
+    [
+     "T3-002|T3-033",
+     10
+    ],
+    [
+     "T3-004|T3-033",
+     9
+    ],
+    [
+     "T3-004|T3-038",
+     9
+    ],
+    [
+     "T3-002|T3-038",
+     9
+    ],
+    [
+     "T3-020|T3-033",
+     7
+    ],
+    [
+     "T3-038|T3-041",
+     7
+    ],
+    [
+     "T3-038|T3-070",
+     7
+    ],
+    [
+     "T3-004|T3-070",
+     6
+    ],
+    [
+     "T3-004|T3-020",
+     5
+    ],
+    [
+     "T3-004|T3-169",
+     5
+    ],
+    [
+     "T3-003",
+     5
+    ],
+    [
+     "T3-021|T3-038",
+     4
+    ],
+    [
+     "T3-026|T3-082",
+     4
+    ],
+    [
+     "T3-004|T3-055",
+     3
+    ],
+    [
+     "T3-004|T3-065",
+     3
+    ],
+    [
+     "T3-026",
+     3
+    ],
+    [
+     "T3-033|T3-038",
+     3
+    ],
+    [
+     "T3-042",
+     3
+    ]
+   ]
+  },
+  {
+   "packet": 4,
+   "items": [
+    "konosuba/t02",
+    "Northwestern/t01",
+    "spongebob/t06",
+    "seventeen/t02",
+    "haskell/t08",
+    "loliconsunite/t01",
+    "masseffect/t01",
+    "sooners/t08",
+    "linux/t01",
+    "aggies/t03",
+    "anarchocapitalism/t04",
+    "aoe2/t05",
+    "apocalypserising/t05",
+    "archlinux/t04",
+    "argentina/t04",
+    "armenia/t02",
+    "austria/t05",
+    "AyyMD/t04",
+    "bangtan/t06",
+    "blackmirror/t04",
+    "bostonbruins/t06",
+    "bulgaria/t01",
+    "chelseafc/t13",
+    "clg/t04",
+    "croatia/t05",
+    "cubers/t10",
+    "danganronpa/t08",
+    "darksouls/t09",
+    "de/t02",
+    "donaldglover/t07",
+    "drawhelix/t04",
+    "eagles/t05",
+    "earthbound/t04",
+    "elitedangerous/t09",
+    "esperanto/t04",
+    "eve/t07",
+    "factorio/t07",
+    "Fez/t05",
+    "fireemblem/t03",
+    "FlaggyFlag/t04",
+    "flashtv/t09",
+    "formula1/t07",
+    "frankocean/t10",
+    "funhaus/t02",
+    "furry_irl/t12",
+    "germany/t06",
+    "giantbomb/t02",
+    "globaloffensive/t11",
+    "Goodboye/t04",
+    "gorillaz/t06",
+    "gravityfalls/t02",
+    "GreenCorner/t03",
+    "hellointernet/t02",
+    "HomestarRunner/t03",
+    "homestuck/t04",
+    "india/t13",
+    "indieheads/t12",
+    "ireland/t05",
+    "japan/t04",
+    "leafs/t02",
+    "leagueoflegends/t16",
+    "lebanon/t03",
+    "lifeisstrange/t04",
+    "linux/t11",
+    "malaysia/t04",
+    "ManningPlace/t04",
+    "masseffect/t06",
+    "mexico/t10",
+    "mexico/t14",
+    "mindcrack/t02",
+    "naruto/t05",
+    "nVade/t04",
+    "nyjets/t08",
+    "ohio/t05",
+    "palestine/t04",
+    "parrots/t09",
+    "pcmasterrace/t09",
+    "Peru/t07",
+    "PinkVomitMonster/t02",
+    "pitt/t11",
+    "placestart/t14",
+    "placetardis/t03",
+    "portal/t07",
+    "PORTUGALCARALHO/t02",
+    "purdue/t04",
+    "rangers/t05",
+    "ravens/t07",
+    "reddevils/t15",
+    "redpandas/t06",
+    "rickandmorty/t04",
+    "rocketbeans/t05",
+    "roosterteeth/t04",
+    "samuraijack/t02",
+    "satania/t05",
+    "schoolidolfestival/t08",
+    "scotland/t05",
+    "serbia/t08",
+    "shield/t03",
+    "sixers/t04",
+    "Slovakia/t03",
+    "smite/t06",
+    "soylent/t03",
+    "ss13/t04",
+    "ss13/t06",
+    "ssbpm/t15",
+    "stardewvalley/t03",
+    "stevenuniverse/t06",
+    "sweden/t02",
+    "taiwan/t05",
+    "Temple/t06",
+    "terraria/t08",
+    "tf2/t12",
+    "theblackvoid/t06",
+    "TheFarLeftSide/t03",
+    "TheGreatGreenBox/t02",
+    "theitalyplace/t01",
+    "titanfall/t10",
+    "TransFlagPlace/t03",
+    "transformers/t05",
+    "unturned/t04",
+    "warriors/t08",
+    "weezer/t05",
+    "wildhockey/t07",
+    "2007scape/t06",
+    "anarchism/t02",
+    "osu/t15",
+    "rocketbeans/t07",
+    "rhythmheaven/t09",
+    "afip/t04",
+    "androidgaming/t03",
+    "canada/t03",
+    "cavestory/t02",
+    "chile/t03",
+    "ChronoTrigger/t03",
+    "clubpenguin/t09",
+    "colorado/t03",
+    "daftpunk/t05",
+    "dota2/t08",
+    "FinalFantasy/t05",
+    "gameofthrones/t14",
+    "harrypotter/t03",
+    "heroesofthestorm/t11",
+    "israel/t02",
+    "jerma985/t04",
+    "kilian/t02",
+    "korea/t09",
+    "metroid/t09",
+    "miamidolphins/t04",
+    "MonkeyIsland/t03",
+    "muse/t05",
+    "necrodancer/t05",
+    "oneshot/t04",
+    "overwatch/t20",
+    "pakistan/t05",
+    "partyparrot/t02",
+    "placeportalpattern/t06",
+    "runescape/t14",
+    "ScottPilgrim/t03",
+    "simonfraser/t09",
+    "stlouisblues/t08",
+    "straya/t03",
+    "tagpro/t03",
+    "tampabaylightning/t03",
+    "TeamDignitas/t04",
+    "texas/t02",
+    "aceattorney/t11",
+    "anarcho_capitalism/t04",
+    "GranColombia/t05",
+    "nerf/t02",
+    "osugame/t01",
+    "redhotchilipeppers/t08",
+    "borussiadortmund/t09",
+    "clg/t09",
+    "4chan/t08",
+    "anime/t11",
+    "bakchodi/t06",
+    "neutralmilkhotel/t03",
+    "texastech/t03",
+    "rutgers/t11",
+    "cavestory/t06",
+    "porterrobinson/t06",
+    "pakistan/t17",
+    "stlouisblues/t07",
+    "eagles/t16",
+    "hentai/t03",
+    "Goodboye/t07",
+    "RelientK/t05",
+    "neopets/t13",
+    "mordhau/t04",
+    "rutgers/t04",
+    "2007scape/t08",
+    "aceattorney/t08",
+    "anaheimducks/t09",
+    "animalcrossing/t04",
+    "AyyMD/t02",
+    "bih/t02",
+    "bindingofisaac/t08",
+    "bisexual/t06",
+    "catholicism/t08",
+    "cloud9/t07",
+    "coldplay/t05",
+    "costa_rica/t06",
+    "cowchop/t03",
+    "DestinyTheGame/t08",
+    "dragonquest/t02",
+    "edmontonoilers/t04",
+    "empiredidnothingwrong/t14",
+    "ethereum/t09",
+    "feedthebeast/t07",
+    "furry/t03",
+    "ice_poseidon/t02",
+    "Jamaica/t07",
+    "kanye/t03",
+    "kingdomhearts/t20",
+    "liquicity/t03",
+    "loliconsunite/t02",
+    "luciomains/t03",
+    "madokamagica/t02",
+    "mylittlepony/t05",
+    "nbaspurs/t14",
+    "newzealand/t06",
+    "OnePiece/t02",
+    "OneTrueEmilia/t04",
+    "pathofexile/t06",
+    "paydaytheheist/t04",
+    "placeDE/t03",
+    "placehearts/t16",
+    "predators/t06",
+    "prequelmemes/t07",
+    "Rainbow6/t10",
+    "redpandas/t03",
+    "rojava/t02",
+    "romania/t04",
+    "rwby/t08",
+    "scp/t02",
+    "sheffield/t02",
+    "smashbros/t06",
+    "starcraft/t07",
+    "starlightstage/t14",
+    "starvstheforcesofevil/t04",
+    "terraria/t02",
+    "tf2/t11",
+    "theexpanse/t05",
+    "TheHulk/t05",
+    "thenetherlands/t04",
+    "touhou/t04",
+    "traaaaaaannnnnnnnnns/t02",
+    "TsundereSharks/t07",
+    "undertale/t04",
+    "warriors/t06",
+    "wine/t13",
+    "witcher/t04",
+    "yogscast/t02",
+    "mizzou/t06",
+    "thepointing/t03",
+    "furry_irl/t02",
+    "konosuba/t03",
+    "opticgaming/t06",
+    "pitt/t03",
+    "taiwan/t04",
+    "telegram/t03",
+    "buffalowizards/t03",
+    "glasgow/t05",
+    "furry/t17",
+    "Dominican/t09",
+    "nuclearthrone/t03",
+    "cubers/t32",
+    "opticgaming/t17",
+    "animalcrossing/t07",
+    "berkeley/t04",
+    "evedreddit/t04",
+    "fivenightsatfreddys/t10",
+    "ghibli/t03",
+    "hatsune/t04",
+    "nyjets/t06",
+    "paranatural/t02",
+    "pusheen/t03",
+    "rpi/t04",
+    "rush/t04",
+    "seolhyun/t01",
+    "sonicthehedgehog/t07",
+    "sooners/t06",
+    "soylent/t04",
+    "SquareSpiral/t12",
+    "toolband/t04",
+    "turkey/t02",
+    "twentyonepilots/t05",
+    "twitchplayspokemon/t08",
+    "undertale/t06",
+    "vinesauce/t05",
+    "GreenCorner/t09",
+    "Dominican/t08",
+    "clubpenguin/t01",
+    "berserk/t07",
+    "detroitredwings/t12",
+    "penguins/t07",
+    "spongebob/t05",
+    "kpop/t13",
+    "loliconsunite/t06",
+    "england/t07",
+    "gameattack/t10",
+    "pepe/t05",
+    "TheHulk/t08",
+    "gameofthrones/t17",
+    "kpop/t07",
+    "asexual/t04",
+    "danganronpa/t09",
+    "DCFU/t04",
+    "opticgaming/t10",
+    "portugal/t13",
+    "neopets/t12",
+    "phish/t11",
+    "TreePlace/t03",
+    "rainbowgrid/t02",
+    "kanye/t29",
+    "nbaspurs/t12",
+    "albania/t14",
+    "frankocean/t13",
+    "frc/t09",
+    "spain/t09",
+    "corridor/t11",
+    "homestuck/t19",
+    "mexico/t15",
+    "wine/t15",
+    "DestinyTheGame/t14",
+    "kilian/t10",
+    "notredame/t10",
+    "hungary/t05",
+    "Russiaclan/t04",
+    "columbia/t04",
+    "serbia/t16",
+    "AmericanFlaginPlace/t09",
+    "croatia/t14",
+    "natsume/t04",
+    "anarcho_capitalism/t09",
+    "armenia/t12",
+    "babymetal/t09",
+    "bulgaria/t10",
+    "indonesia/t08",
+    "kanye/t25",
+    "mindcrack/t05",
+    "mizzou/t04",
+    "morrowind/t02",
+    "newzealand/t13",
+    "nyjets/t09",
+    "pakistan/t22",
+    "paragon/t04",
+    "reddevils/t11",
+    "Russiaclan/t09",
+    "smite/t07",
+    "theitalyplace/t08",
+    "TransFlagPlace/t04",
+    "vegan/t14",
+    "NewMexico/t03",
+    "bakchodi/t11",
+    "brasil/t07",
+    "chile/t12",
+    "albania/t13",
+    "monstercat/t08",
+    "Fez/t08",
+    "dankmemes/t17",
+    "pgang/t03",
+    "AMD/t17",
+    "argentina/t12",
+    "orderofthebluecorner/t08",
+    "yogscast/t11",
+    "flyers/t08",
+    "lakers/t23",
+    "purplecorner/t08",
+    "futurama/t10",
+    "dallasstars/t01",
+    "konosuba/t06",
+    "babymetal/t12",
+    "bostonbruins/t09",
+    "formula1/t15",
+    "futurama/t16",
+    "giivasunner/t09",
+    "japan/t13",
+    "katawashoujo/t09",
+    "norge/t11",
+    "ohio/t09",
+    "thetreesnetwork/t06",
+    "costa_rica/t07",
+    "enterthegungeon/t07",
+    "portugal/t28",
+    "SquareSpiral/t11",
+    "TheHulk/t06",
+    "alberta/t09",
+    "duckgame/t09",
+    "portugal/t40",
+    "rocketleague/t07",
+    "strangerthings/t07",
+    "ice_poseidon/t19",
+    "completeanarchy/t02",
+    "pcmasterrace/t14",
+    "suomi/t35",
+    "spacexmasterrace/t05",
+    "anarchism/t12",
+    "mylittlepony/t10",
+    "ockytop/t09",
+    "pakistan/t08",
+    "survivor/t25",
+    "TransFlagPlace/t09",
+    "utahjazz/t10",
+    "giantbomb/t07",
+    "placecanada/t12",
+    "placeDE/t07",
+    "shitredditsays/t05",
+    "sooners/t10",
+    "tampabaylightning/t15",
+    "afip/t05",
+    "aggies/t04",
+    "AmericanFlaginPlace/t05",
+    "argentina/t14",
+    "bakchodi/t09",
+    "bitcoin/t10",
+    "colombia/t06",
+    "dallasstars/t13",
+    "detroitredwings/t04",
+    "Dominican/t03",
+    "dota2/t07",
+    "FederationPlace/t05",
+    "foxes/t04",
+    "fullcommunism/t08",
+    "gatech/t04",
+    "haskell/t04",
+    "heyyea/t02",
+    "iastate/t02",
+    "india/t06",
+    "italy/t07",
+    "livecounting/t07",
+    "minnesotavikings/t09",
+    "monero/t05",
+    "monstercat/t11",
+    "pathofexile/t13",
+    "pepe/t04",
+    "python/t05",
+    "quebec/t12",
+    "rpi/t06",
+    "runescape/t13",
+    "rutgers/t15",
+    "sbu/t02",
+    "texans/t14",
+    "texastech/t05",
+    "uiowa/t04",
+    "uoft/t13",
+    "utaustin/t02",
+    "wallstreetbets/t11",
+    "unitedkingdom/t04",
+    "wildhockey/t02",
+    "RelientK/t07",
+    "archlinux/t07",
+    "malaysia/t05",
+    "furry_irl/t09",
+    "hellointernet/t08",
+    "kanye/t14",
+    "nyjets/t13",
+    "sabres/t09",
+    "scotland/t11",
+    "rust/t11",
+    "completeanarchy/t12"
+   ],
+   "n": 461,
+   "families": {
+    "G08": 6,
+    "G09": 296,
+    "G10": 90,
+    "G11": 69
+   },
+   "classes": {
+    "4": 105,
+    "3": 355,
+    "5": 1
+   },
+   "gloss_only": 0,
+   "pairs_top": [
+    [
+     "T3-005",
+     82
+    ],
+    [
+     "T3-021",
+     49
+    ],
+    [
+     "T3-005|T3-021",
+     37
+    ],
+    [
+     "T3-028",
+     35
+    ],
+    [
+     "T3-022",
+     15
+    ],
+    [
+     "T3-087",
+     11
+    ],
+    [
+     "T3-021|T3-038",
+     6
+    ],
+    [
+     "T3-005|T3-038",
+     5
+    ],
+    [
+     "T3-005|T3-073",
+     5
+    ],
+    [
+     "T3-005|T3-006",
+     4
+    ],
+    [
+     "T3-058|T3-073",
+     4
+    ],
+    [
+     "T3-027",
+     4
+    ],
+    [
+     "T3-021|T3-087",
+     3
+    ],
+    [
+     "T3-058",
+     3
+    ],
+    [
+     "T3-027|T3-028",
+     3
+    ],
+    [
+     "T3-027|T3-087",
+     3
+    ],
+    [
+     "T3-002|T3-005",
+     2
+    ],
+    [
+     "T3-005|T3-087",
+     2
+    ],
+    [
+     "T3-010|T3-139",
+     2
+    ],
+    [
+     "T3-020|T3-022",
+     2
+    ],
+    [
+     "T3-021|T3-022",
+     2
+    ],
+    [
+     "T3-006|T3-192",
+     2
+    ],
+    [
+     "T3-068|T3-192",
+     2
+    ],
+    [
+     "T3-082|T3-087",
+     2
+    ],
+    [
+     "T3-087|T3-121",
+     2
+    ]
+   ]
+  },
+  {
+   "packet": 5,
+   "items": [
+    "borderlands/t05",
+    "placehfarts/t01",
+    "france/t06",
+    "lakers/t20",
+    "AceOfAngels8/t07",
+    "argentina/t11",
+    "armenia/t05",
+    "brasil/t05",
+    "Braveryjerk/t03",
+    "canucks/t14",
+    "cardinals/t05",
+    "cirkeltrek/t07",
+    "clg/t06",
+    "completeanarchy/t03",
+    "czech/t04",
+    "dankmemes/t11",
+    "denmark/t04",
+    "floridagators/t07",
+    "greenbaypackers/t15",
+    "HomestarRunner/t04",
+    "homestuck/t14",
+    "iceland/t04",
+    "ireland/t06",
+    "leafs/t06",
+    "lebanon/t02",
+    "mexico/t02",
+    "minecraft/t10",
+    "newzealand/t04",
+    "nintendo/t08",
+    "norge/t02",
+    "ohio/t06",
+    "orderofthebluecorner/t03",
+    "overwatch/t25",
+    "pakistan/t24",
+    "PinkUnion/t04",
+    "ripcity/t05",
+    "romania/t05",
+    "sabres/t05",
+    "serbia/t03",
+    "skyrim/t11",
+    "spain/t02",
+    "suomi/t05",
+    "tampabaylightning/t12",
+    "TheFarLeftSide/t04",
+    "ukraine/t03",
+    "unitedkingdom/t10",
+    "uofm/t05",
+    "utaustin/t03",
+    "uwaterloo/t08",
+    "vegan/t13",
+    "wallstreetbets/t06",
+    "linux/t03",
+    "berkeley/t06",
+    "predators/t16",
+    "canucks/t33",
+    "farmcarrots/t11",
+    "muse/t06",
+    "costa_rica/t03",
+    "kurdistan/t02",
+    "pakistan/t21",
+    "polska/t05",
+    "purdue/t08",
+    "russia/t05",
+    "stlouis/t04",
+    "thailand/t06",
+    "bangladesh/t02",
+    "edmontonoilers/t01",
+    "lakers/t08",
+    "wow/t21",
+    "portugal/t17",
+    "Temple/t05",
+    "albania/t04",
+    "osu/t02",
+    "pitt/t04",
+    "india/t08",
+    "ice_poseidon/t07",
+    "theblackvoid/t08",
+    "penguins/t09",
+    "h3h3productions/t37",
+    "bulgaria/t14",
+    "placecanada/t03",
+    "belgium/t07",
+    "survivor/t26",
+    "costa_rica/t09",
+    "croatia/t04",
+    "placeDE/t05",
+    "PlaceNL/t06",
+    "sakartvelo/t02",
+    "teamcube/t02",
+    "texastech/t07",
+    "theitalyplace/t04",
+    "torontoraptors/t07",
+    "texastech/t04",
+    "ice_poseidon/t15",
+    "anarcho_capitalism/t02",
+    "latvia/t05",
+    "linux/t14",
+    "palestine/t02",
+    "rpi/t03",
+    "49ers/t05",
+    "cirkeltrek/t08",
+    "geometrydash/t08",
+    "japan/t10",
+    "monsterhunter/t04",
+    "porterrobinson/t05",
+    "PurplePixels/t05",
+    "riskofrain/t04",
+    "starcraft/t10",
+    "TeamYellowPlace/t02",
+    "foxstevenson/t05",
+    "placecanada/t04",
+    "bangladesh/t03",
+    "utahjazz/t04",
+    "ssbpm/t04",
+    "aromantic/t02",
+    "asktransgender/t03",
+    "catalonia/t06",
+    "flashtv/t07",
+    "germany/t08",
+    "germany/t10",
+    "gorillaz/t04",
+    "kpop/t10",
+    "PlaceNL/t08",
+    "python/t08",
+    "donaldglover/t09",
+    "slovenia/t04",
+    "AmericanFlaginPlace/t08",
+    "pebble/t03",
+    "qotsa/t05",
+    "ss13/t10",
+    "armenia/t11",
+    "sonicthehedgehog/t10",
+    "straya/t09",
+    "liquicity/t06",
+    "leagueoflegends/t19",
+    "nVade/t06",
+    "seventeen/t04",
+    "ainbowroad/t09",
+    "WisconsinBadgers/t04",
+    "bostonceltics/t08",
+    "kingdomhearts/t22",
+    "malaysia/t06",
+    "osugame/t07",
+    "PlaceNL/t14",
+    "PlaceNL/t17",
+    "placestart/t11",
+    "sooners/t04",
+    "FaroeIslands/t04",
+    "diablo/t06",
+    "anarchism/t11",
+    "EraseThePlace/t07",
+    "cloud9/t06",
+    "europe/t07",
+    "finland/t04",
+    "gratefuldead/t07",
+    "homelab/t07",
+    "leagueoflegends/t08",
+    "romania/t06",
+    "thailand/t07",
+    "uiuc/t14",
+    "utaustin/t04",
+    "minecraft/t11",
+    "Thegreatblackhole/t06",
+    "Jamaica/t05",
+    "magictcg/t07",
+    "sonicthehedgehog/t04",
+    "aceattorney/t09",
+    "AMD/t13",
+    "aoe2/t06",
+    "archlinux/t03",
+    "armenia/t04",
+    "bangladesh/t05",
+    "bangtan/t05",
+    "belgium/t11",
+    "bindingofisaac/t05",
+    "bisexual/t05",
+    "canucks/t23",
+    "catalunya/t05",
+    "chicago/t10",
+    "chicubs/t05",
+    "chile/t04",
+    "cloud9/t09",
+    "cmu/t03",
+    "criticalrole/t08",
+    "czech/t06",
+    "darksouls/t08",
+    "day9/t02",
+    "dbz/t05",
+    "detroitlions/t06",
+    "Dorset/t02",
+    "drugs/t05",
+    "earthbound/t05",
+    "edboxes/t04",
+    "eesti/t05",
+    "ElSalvador/t02",
+    "esperanto/t06",
+    "europe/t03",
+    "factorio/t10",
+    "faeria/t04",
+    "FederationPlace/t04",
+    "finland/t02",
+    "formula1/t10",
+    "forsen/t03",
+    "frc/t06",
+    "ftlgame/t03",
+    "futurama/t06",
+    "gameofthrones/t13",
+    "gravityfalls/t05",
+    "GrowTheTree/t03",
+    "hearthstone/t13",
+    "hyperlightdrifter/t04",
+    "iastate/t05",
+    "kamenrider/t04",
+    "kanye/t06",
+    "kerbalspaceprogram/t09",
+    "landry/t01",
+    "lifeisstrange/t05",
+    "littlewitchacademia/t05",
+    "liverpoolfc/t14",
+    "madokamagica/t04",
+    "maryland/t03",
+    "masseffect/t05",
+    "mechanicalkeyboards/t03",
+    "minnesotavikings/t12",
+    "mls/t10",
+    "Moondye7/t05",
+    "NewMexico/t05",
+    "newzealand/t05",
+    "Northwestern/t05",
+    "notredame/t04",
+    "oneshot/t03",
+    "pathofexile/t11",
+    "pcmasterrace/t10",
+    "phish/t04",
+    "PlaceNL/t07",
+    "placeportalpattern/t04",
+    "placestart/t08",
+    "placetardis/t06",
+    "poland/t03",
+    "polska/t02",
+    "prequelmemes/t08",
+    "purdue/t06",
+    "Rainbow6/t11",
+    "re_zero/t05",
+    "rwby/t07",
+    "samuraijack/t03",
+    "schoolidolfestival/t07",
+    "seolhyun/t05",
+    "sheffield/t07",
+    "singapore/t08",
+    "sixers/t06",
+    "skyrim/t04",
+    "slovenia/t05",
+    "smashbros/t08",
+    "snsd/t04",
+    "ss13/t09",
+    "ssbpm/t17",
+    "starbound/t04",
+    "switzerland/t03",
+    "Temple/t03",
+    "terraria/t03",
+    "teslamotors/t10",
+    "thailand/t05",
+    "TheB1G/t05",
+    "TheFarLeftSide/t05",
+    "timbers/t03",
+    "tinytardis/t02",
+    "tinytardis/t06",
+    "TransFlagPlace/t02",
+    "transformers/t06",
+    "truestl/t03",
+    "TsundereSharks/t05",
+    "ucf/t09",
+    "uiuc/t11",
+    "unturned/t05",
+    "uoft/t10",
+    "uruguay/t04",
+    "uwaterloo/t07",
+    "vinesauce/t06",
+    "winnipegjets/t04",
+    "worldoftanks/t07",
+    "xcom/t03",
+    "Clannad/t05",
+    "cowchop/t02",
+    "heroesofthestorm/t10",
+    "nyjets/t11",
+    "placeDE/t04",
+    "quebec/t04",
+    "radiohead/t07",
+    "rocketbeans/t08",
+    "weezer/t07",
+    "carletonu/t02",
+    "totallynotrobots/t12",
+    "foxes/t03",
+    "babymetal/t05",
+    "Fez/t06",
+    "k_on/t03",
+    "roosterteeth/t05",
+    "stardustcrusaders/t06",
+    "taiwan/t06",
+    "theexpanse/t04",
+    "hongkong/t05",
+    "pusheen/t02",
+    "rpi/t05",
+    "AmericanFlaginPlace/t06",
+    "giivasunner/t14",
+    "Dustforce/t08",
+    "metalcore/t10",
+    "toolband/t09",
+    "taiwan/t07",
+    "nuclearthrone/t04",
+    "buffalo/t04",
+    "czech/t07",
+    "math/t04",
+    "neopets/t04",
+    "overwatch/t19",
+    "placesnek/t03",
+    "soylent/t02",
+    "sweden/t03",
+    "titanfall/t07",
+    "VelvetUnderground/t04",
+    "PinkUnion/t08",
+    "giivasunner/t10",
+    "httyd/t10",
+    "india/t04",
+    "mylittlepony/t07",
+    "placecanada/t05",
+    "southafrica/t04",
+    "uiowa/t03",
+    "yugioh/t14",
+    "uiowa/t05",
+    "harrypotter/t09",
+    "nVade/t03",
+    "PinkVomitMonster/t04",
+    "cgpgrey/t03",
+    "chicubs/t12",
+    "counting/t03",
+    "DCFU/t05",
+    "epublica/t12",
+    "furry_irl/t13",
+    "greenlattice/t09",
+    "hawks/t06",
+    "kilian/t09",
+    "monalisaclan/t12",
+    "msu/t05",
+    "NieR/t11",
+    "OnePiece/t03",
+    "parrots/t05",
+    "portugal/t11",
+    "radiohead/t04",
+    "simonfraser/t08",
+    "snsd/t03",
+    "texas/t07",
+    "uvic/t02",
+    "vegan/t09",
+    "GranColombia/t09",
+    "europe/t10",
+    "maryland/t07",
+    "Northwestern/t04",
+    "uiuc/t12",
+    "albania/t09",
+    "utahjazz/t08",
+    "fullcommunism/t05",
+    "yogscast/t09",
+    "armok/t08",
+    "ChronoTrigger/t05",
+    "partyparrot/t05",
+    "dofus/t02",
+    "furry_irl/t19",
+    "asexual/t07",
+    "Cornwall/t01",
+    "battlecats/t06",
+    "Jamaica/t06",
+    "kingdomhearts/t07",
+    "lakers/t16",
+    "minecraft/t09",
+    "yumenikki/t03",
+    "aceattorney/t10",
+    "bisexual/t07",
+    "malta/t03",
+    "archlinux/t05",
+    "liquicity/t07",
+    "romania/t19",
+    "worldpowers/t04",
+    "seolhyun/t03",
+    "egypt/t05",
+    "tokyo/t07",
+    "androidgaming/t06",
+    "colombia/t03",
+    "nightinthewoods/t03",
+    "PurplePixels/t13",
+    "seolhyun/t06",
+    "sheffield/t04",
+    "vietnam/t05",
+    "theblackvoid/t02",
+    "uofmn/t06",
+    "czech/t05",
+    "placehearts/t10",
+    "gameboy/t06",
+    "england/t05",
+    "rutgers/t14",
+    "yogscast/t05",
+    "falcons/t15",
+    "borussiadortmund/t04",
+    "hearthstone/t12",
+    "paladins/t19",
+    "greenlattice/t11",
+    "PlaceNL/t09",
+    "theitalyplace/t11"
+   ],
+   "n": 409,
+   "families": {
+    "G12": 99,
+    "G13": 64,
+    "G14": 246
+   },
+   "classes": {
+    "3": 322,
+    "4": 86,
+    "5": 1
+   },
+   "gloss_only": 0,
+   "pairs_top": [
+    [
+     "T3-010",
+     92
+    ],
+    [
+     "T3-006",
+     28
+    ],
+    [
+     "T3-010|T3-024",
+     17
+    ],
+    [
+     "T3-010|T3-149",
+     10
+    ],
+    [
+     "T3-011",
+     9
+    ],
+    [
+     "T3-006|T3-061",
+     8
+    ],
+    [
+     "T3-010|T3-011",
+     7
+    ],
+    [
+     "T3-010|T3-151",
+     7
+    ],
+    [
+     "T3-061",
+     6
+    ],
+    [
+     "T3-076",
+     6
+    ],
+    [
+     "T3-024",
+     5
+    ],
+    [
+     "T3-046",
+     5
+    ],
+    [
+     "T3-006|T3-068",
+     4
+    ],
+    [
+     "T3-011|T3-084",
+     4
+    ],
+    [
+     "T3-068",
+     3
+    ],
+    [
+     "T3-040",
+     3
+    ],
+    [
+     "T3-010|T3-035",
+     3
+    ],
+    [
+     "T3-011|T3-151",
+     3
+    ],
+    [
+     "T3-035",
+     3
+    ],
+    [
+     "T3-084",
+     3
+    ],
+    [
+     "T3-005|T3-006",
+     2
+    ],
+    [
+     "T3-006|T3-046",
+     2
+    ],
+    [
+     "T3-006|T3-076",
+     2
+    ],
+    [
+     "T3-006|T3-086",
+     2
+    ],
+    [
+     "T3-006|T3-171",
+     2
+    ]
+   ]
+  },
+  {
+   "packet": 6,
+   "items": [
+    "cubers/t16",
+    "empiredidnothingwrong/t04",
+    "adventuretime/t06",
+    "clashroyale/t07",
+    "cubers/t07",
+    "denverbroncos/t08",
+    "DestinyTheGame/t09",
+    "empiredidnothingwrong/t13",
+    "fivenightsatfreddys/t08",
+    "Goodboye/t02",
+    "mcgill/t06",
+    "ockytop/t05",
+    "philippines/t08",
+    "suomi/t10",
+    "thesimpsons/t10",
+    "twice/t16",
+    "armok/t07",
+    "enterthegungeon/t05",
+    "norway/t05",
+    "turkey/t06",
+    "malaysia/t07",
+    "stlouis/t05",
+    "yogscast/t03",
+    "rocketleague/t05",
+    "spain/t06",
+    "weezer/t06",
+    "AmericanFlaginPlace/t07",
+    "cubers/t19",
+    "armenia/t03",
+    "thailand/t09",
+    "uoft/t05",
+    "puzzleanddragons/t03",
+    "startrek/t14",
+    "COSI/t03",
+    "empiredidnothingwrong/t22",
+    "PinkUnion/t10",
+    "torontoraptors/t14",
+    "PlaceNL/t21",
+    "croatia/t17",
+    "bangtan/t15",
+    "rainbowgrid/t04",
+    "ethoslab/t08",
+    "pansexual/t02",
+    "columbia/t08",
+    "kpop/t06",
+    "harrypotter/t19",
+    "ukplace/t08",
+    "Fez/t09",
+    "predators/t02",
+    "wholesomememes/t24",
+    "wildhockey/t04",
+    "stlouisblues/t03",
+    "neopets/t02",
+    "futurama/t15",
+    "HomestarRunner/t10",
+    "ManningPlace/t10",
+    "PokemonSage/t01",
+    "streetfighter/t07",
+    "canucks/t27",
+    "ainbowroad/t05",
+    "anarcho_capitalism/t12",
+    "berkeley/t05",
+    "cfb/t02",
+    "DatBoi/t09",
+    "denmark/t05",
+    "duckgame/t03",
+    "eagles/t15",
+    "frankocean/t05",
+    "germany/t05",
+    "hatsune/t03",
+    "kilian/t06",
+    "lebanon/t04",
+    "metalcore/t03",
+    "osu/t06",
+    "paragon/t13",
+    "parahumans/t03",
+    "quebec/t05",
+    "reddevils/t16",
+    "sooners/t05",
+    "TheB1G/t02",
+    "theitalyplace/t02",
+    "ukraine/t04",
+    "utaustin/t05",
+    "chibears/t10",
+    "cubers/t09",
+    "hentai/t06",
+    "AprilKnights/t04",
+    "EraseThePlace/t06",
+    "finland/t01",
+    "GreenCorner/t05",
+    "GreenEmpire/t03",
+    "homestuck/t15",
+    "kurdistan/t04",
+    "naruto/t04",
+    "palestine/t05",
+    "physical_removal/t05",
+    "portugal/t21",
+    "starcitizen/t11",
+    "SwissNeutralityZone/t03",
+    "TheGreatGreenBox/t04",
+    "thesimpsons/t11",
+    "TransFlagPlace/t05",
+    "twice/t15",
+    "ukplace/t04",
+    "elitedangerous/t07",
+    "nin/t02",
+    "placeportalpattern/t07",
+    "TeamYellowPlace/t03",
+    "texans/t09",
+    "ufl/t04",
+    "austria/t04",
+    "eagles/t06",
+    "floridagators/t08",
+    "flyers/t04",
+    "Goodboye/t03",
+    "hyperlightdrifter/t05",
+    "japan/t05",
+    "metalgearsolid/t07",
+    "nbaspurs/t10",
+    "ockytop/t07",
+    "overwatch/t22",
+    "PinkVomitMonster/t05",
+    "purplecorner/t04",
+    "rangers/t06",
+    "rotmg/t09",
+    "rutgers/t10",
+    "smite/t08",
+    "starcraft/t08",
+    "starryknights/t04",
+    "thailand/t08",
+    "torontoraptors/t09",
+    "uruguay/t02",
+    "loltyler1/t08",
+    "empiredidnothingwrong/t17",
+    "purdue/t15",
+    "AprilKnights/t06",
+    "giivasunner/t11",
+    "orderofthebluecorner/t12",
+    "theitalyplace/t19",
+    "fullcommunism/t03",
+    "purplecorner/t02",
+    "hoodr/t04",
+    "latvia/t08",
+    "purdue/t07",
+    "asktransgender/t05",
+    "detroitredwings/t13",
+    "miamidolphins/t14",
+    "paladins/t31",
+    "redpandas/t05",
+    "THE_R/t02",
+    "theblackvoid/t01",
+    "daftpunk/t06",
+    "newzealand/t11",
+    "ReBoot/t01",
+    "Slovakia/t04",
+    "serbia/t17",
+    "twitchplayspokemon/t01",
+    "GreenEmpire/t01",
+    "thesimpsons/t08",
+    "PurplePixels/t08",
+    "thebluecorner/t06",
+    "AprilKnights/t03",
+    "GreenCorner/t04",
+    "greyblob/t03",
+    "PurplePixels/t02",
+    "GreenCorner/t08",
+    "greenlattice/t02",
+    "purplecorner/t01",
+    "4chan/t23",
+    "greenlattice/t15",
+    "Jamaica/t01",
+    "japan/t01",
+    "russia/t03",
+    "texas/t01",
+    "FaroeIslands/t02",
+    "Jamaica/t04",
+    "japan/t02",
+    "colombia/t05",
+    "ukplace/t02",
+    "unitedkingdom/t03",
+    "lithuania/t08",
+    "mexico/t01",
+    "Peru/t01",
+    "japan/t03",
+    "thenetherlands/t02",
+    "spain/t04",
+    "costa_rica/t01",
+    "france/t03",
+    "kurdistan/t01",
+    "poland/t01",
+    "portugal/t14",
+    "serbia/t10",
+    "armenia/t01",
+    "austria/t01",
+    "austriahungary/t01",
+    "bahrain/t06",
+    "bakchodi/t04",
+    "bangladesh/t01",
+    "colombia/t01",
+    "croatia/t01",
+    "egypt/t02",
+    "hongkong/t01",
+    "hongkong/t06",
+    "hungary/t01",
+    "indonesia/t01",
+    "korea/t06",
+    "kpop/t11",
+    "ontario/t01",
+    "quebec/t01",
+    "quebec/t06",
+    "singapore/t02",
+    "switzerland/t01",
+    "turkey/t03",
+    "unitedkingdom/t01",
+    "Dorset/t01",
+    "portugal/t08",
+    "kuwait/t05",
+    "romania/t08",
+    "turkey/t11",
+    "wholesomememes/t17",
+    "yumenikki/t04",
+    "traaaaaaannnnnnnnnns/t10",
+    "afip/t03",
+    "belgium/t05",
+    "czech/t03",
+    "romania/t18",
+    "hellointernet/t06",
+    "korea/t14",
+    "azerbaijan/t02",
+    "canada/t08",
+    "chicago/t09",
+    "halo/t14",
+    "lithuania/t09",
+    "Slovakia/t06",
+    "ultrahardcore/t07",
+    "wow/t10",
+    "texans/t10",
+    "btc/t08",
+    "pakistan/t23",
+    "polska/t07",
+    "texas/t15",
+    "achievement_hunter/t02",
+    "h3h3productions/t44",
+    "placesnek/t06",
+    "h3h3productions/t47",
+    "europe/t05",
+    "spain/t03",
+    "animalcrossing/t12",
+    "lebanon/t06",
+    "poland/t07",
+    "de/t13",
+    "falcons/t16",
+    "neu/t07",
+    "indonesia/t07",
+    "AmericanFlaginPlace/t15",
+    "homelab/t11",
+    "afip/t06",
+    "bakchodi/t18",
+    "quebec/t11",
+    "portugal/t25",
+    "shitredditsays/t08",
+    "roosterteeth/t08",
+    "roosterteeth/t11",
+    "anarcho_capitalism/t17",
+    "samuraijack/t05",
+    "costa_rica/t10",
+    "EraseThePlace/t08",
+    "npr/t04",
+    "osugame/t08",
+    "denverbroncos/t04",
+    "purdue/t10",
+    "orderofthebluecorner/t10",
+    "falcons/t17",
+    "bulgaria/t06",
+    "berkeley/t01",
+    "norway/t08",
+    "singapore/t04",
+    "CKCrusaders/t06",
+    "fullcommunism/t06",
+    "torontoraptors/t12",
+    "TeamDignitas/t05",
+    "lovelive/t09",
+    "bakchodi/t03",
+    "bakchodi/t07",
+    "eve/t16",
+    "france/t13",
+    "pakistan/t16",
+    "PORTUGALCARALHO/t03",
+    "romania/t16",
+    "sabres/t10",
+    "samuraijack/t14",
+    "stlouisblues/t06",
+    "thailand/t12",
+    "the_pack/t07",
+    "unitedkingdom/t08",
+    "cardinals/t09",
+    "habs/t13",
+    "mysterydungeon/t07",
+    "qotsa/t07",
+    "bakchodi/t15",
+    "torontoraptors/t17",
+    "gatech/t09",
+    "re_zero/t07",
+    "croatia/t13",
+    "russia/t13",
+    "anarchocapitalism/t02",
+    "germany/t01",
+    "gamindustri/t15",
+    "Thegreatblackhole/t01",
+    "masseffect/t10",
+    "survivor/t21",
+    "morrowind/t09",
+    "shitredditsays/t02",
+    "notredame/t09",
+    "PlaceNL/t12",
+    "pepe/t06",
+    "danganronpa/t18",
+    "GuildWars2/t18",
+    "spacexmasterrace/t12",
+    "telegram/t01",
+    "thesimpsons/t04",
+    "twitchplayspokemon/t05",
+    "twitchplayspokemon/t09",
+    "wholesomememes/t11",
+    "aoe2/t02",
+    "cmu/t06",
+    "skyrim/t10",
+    "paladins/t23",
+    "maryland/t08",
+    "rwby/t09",
+    "portugal/t30",
+    "argentina/t09",
+    "2007scape/t11",
+    "albania/t01",
+    "AMD/t03",
+    "AMD/t21",
+    "archlinux/t13",
+    "clg/t02",
+    "de/t11",
+    "denmark/t08",
+    "dwarffortress/t09",
+    "gratefuldead/t02",
+    "HomestarRunner/t07",
+    "kindafunny/t03",
+    "leafs/t07",
+    "masseffect/t08",
+    "mechanicalkeyboards/t06",
+    "metalcore/t05",
+    "metroid/t03",
+    "mexico/t11",
+    "minnesotavikings/t02",
+    "mls/t05",
+    "muse/t10",
+    "nerf/t10",
+    "qotsa/t08",
+    "raocow/t08",
+    "reddevils/t07",
+    "roosterteeth/t12",
+    "scp/t07",
+    "spacex/t07",
+    "spacexmasterrace/t09",
+    "stlouis/t06",
+    "stlouis/t08",
+    "suomi/t12",
+    "suomi/t34",
+    "trees/t07",
+    "wallstreetbets/t15",
+    "warriors/t02",
+    "witcher/t07",
+    "cmu/t05",
+    "israel/t08",
+    "ProfessorLayton/t07",
+    "twice/t10",
+    "wildhockey/t09",
+    "elitedangerous/t10",
+    "rickandmorty/t06",
+    "buffalowizards/t06",
+    "mexico/t19",
+    "bih/t03",
+    "calgaryflames/t02",
+    "gamindustri/t06",
+    "kingdomhearts/t06",
+    "parrots/t04",
+    "wholesomememes/t09",
+    "tampabaylightning/t16",
+    "lego/t09",
+    "canucks/t13",
+    "eder/t01",
+    "edmontonoilers/t12",
+    "ibo/t03",
+    "ibo/t05",
+    "india/t14",
+    "paladins/t04",
+    "paladins/t26",
+    "planetside/t02",
+    "purdue/t16",
+    "totallynotrobots/t15",
+    "zootopia/t16",
+    "kcroyals/t09",
+    "france/t11",
+    "Clannad/t06",
+    "fullcommunism/t14",
+    "fullcommunism/t15",
+    "ghibli/t05",
+    "GranColombia/t01",
+    "italy/t13",
+    "Mario/t03",
+    "metalgearsolid/t13",
+    "morrowind/t06",
+    "redhotchilipeppers/t02",
+    "shishamo/t05",
+    "Slovakia/t16",
+    "yugioh/t01",
+    "wallstreetbets/t17",
+    "achievement_hunter/t04",
+    "greenbaypackers/t20",
+    "hatsune/t07",
+    "porterrobinson/t18",
+    "reddevils/t19",
+    "serbia/t04",
+    "rhythmheaven/t11",
+    "samuraijack/t18",
+    "shitredditsays/t03",
+    "thailand/t13",
+    "thepointing/t06",
+    "truestl/t06",
+    "Dustforce/t02",
+    "nascar/t16",
+    "pokemon/t05",
+    "UPenn/t06",
+    "kerbalspaceprogram/t02",
+    "kerbalspaceprogram/t03",
+    "leagueoflegends/t05",
+    "lego/t04",
+    "mcgill/t03",
+    "porterrobinson/t07",
+    "survivor/t04",
+    "Redox/t01",
+    "anarchism/t09",
+    "AprilKnights/t11",
+    "bakchodi/t19",
+    "chicago/t08",
+    "clubpenguin/t05",
+    "cubers/t14",
+    "dragonquest/t06",
+    "empiredidnothingwrong/t06",
+    "empiredidnothingwrong/t19",
+    "empiredidnothingwrong/t21",
+    "enterthegungeon/t13",
+    "eve/t12",
+    "factorio/t03",
+    "feedthebeast/t12",
+    "flashtv/t12",
+    "formula1/t19",
+    "forsen/t10",
+    "germany/t04",
+    "GranColombia/t03",
+    "greenlattice/t08",
+    "homestuck/t12",
+    "ik_ihe/t05",
+    "japan/t14",
+    "kanye/t09",
+    "kpop/t09",
+    "landry/t04",
+    "malta/t05",
+    "mexico/t17",
+    "neopets/t09",
+    "oneshot/t11",
+    "pakistan/t27",
+    "placehfarts/t02",
+    "porterrobinson/t13",
+    "portugal/t38",
+    "prequelmemes/t09",
+    "puzzleanddragons/t07",
+    "satania/t01",
+    "satania/t09",
+    "Slovakia/t02",
+    "spain/t14",
+    "starlightstage/t08",
+    "twentyonepilots/t07",
+    "udub/t07",
+    "wholesomememes/t23",
+    "wow/t05",
+    "croatia/t07",
+    "gorillaz/t02",
+    "GuardiansOfDatBoi/t08",
+    "popheads/t16",
+    "suomi/t25",
+    "4chan/t22",
+    "berserk/t02",
+    "futurama/t14",
+    "canucks/t38",
+    "farmcarrots/t15",
+    "southafrica/t03",
+    "smite/t11",
+    "futurama/t11",
+    "rickandmorty/t12",
+    "GranColombia/t10",
+    "belgium/t06",
+    "hellointernet/t04"
+   ],
+   "n": 500,
+   "families": {
+    "G15": 137,
+    "G16": 33,
+    "G17": 60,
+    "G18": 37,
+    "G19": 49,
+    "G20": 184
+   },
+   "classes": {
+    "3": 345,
+    "4": 134,
+    "5": 21
+   },
+   "gloss_only": 0,
+   "pairs_top": [
+    [
+     "T3-016",
+     21
+    ],
+    [
+     "T3-010|T3-149",
+     14
+    ],
+    [
+     "T3-149",
+     14
+    ],
+    [
+     "T3-151",
+     14
+    ],
+    [
+     "T3-065",
+     13
+    ],
+    [
+     "T3-150",
+     12
+    ],
+    [
+     "T3-017|T3-031",
+     12
+    ],
+    [
+     "T3-050",
+     7
+    ],
+    [
+     "T3-001|T3-031",
+     7
+    ],
+    [
+     "T3-023|T3-031",
+     7
+    ],
+    [
+     "T3-150|T3-151",
+     6
+    ],
+    [
+     "T3-031|T3-050",
+     6
+    ],
+    [
+     "T3-018|T3-031",
+     6
+    ],
+    [
+     "T3-018|T3-052",
+     6
+    ],
+    [
+     "T3-031",
+     5
+    ],
+    [
+     "T3-010|T3-150",
+     4
+    ],
+    [
+     "T3-002|T3-065",
+     4
+    ],
+    [
+     "T3-038|T3-065",
+     4
+    ],
+    [
+     "T3-016|T3-018",
+     4
+    ],
+    [
+     "T3-010|T3-151",
+     3
+    ],
+    [
+     "T3-010|T3-195",
+     3
+    ],
+    [
+     "T3-011|T3-151",
+     3
+    ],
+    [
+     "T3-171",
+     3
+    ],
+    [
+     "T3-004|T3-113",
+     3
+    ],
+    [
+     "T3-016|T3-074",
+     3
+    ]
+   ]
+  },
+  {
+   "packet": 7,
+   "items": [
+    "rotmg/t15",
+    "cubers/t04",
+    "splatoon/t07",
+    "transformers/t04",
+    "picturegame/t01",
+    "yuyuyu/t07",
+    "cgpgrey/t02",
+    "turkey/t09",
+    "49ers/t13",
+    "4chan/t03",
+    "anarchism/t05",
+    "anarchism/t14",
+    "borderlands/t06",
+    "bostonceltics/t10",
+    "buffalo/t09",
+    "corridor/t14",
+    "germany/t09",
+    "mordhau/t06",
+    "ockytop/t10",
+    "philippines/t09",
+    "sabres/t12",
+    "southafrica/t11",
+    "Summit1G/t03",
+    "vegan/t11",
+    "strangerthings/t08",
+    "croatia/t09",
+    "singapore/t05",
+    "weezer/t10",
+    "AMD/t22",
+    "completeanarchy/t10",
+    "linux/t26",
+    "rocketbeans/t13",
+    "cubers/t23",
+    "cuboulder/t08",
+    "drugs/t16",
+    "haskell/t11",
+    "norge/t09",
+    "polska/t11",
+    "wholesomememes/t19",
+    "linux/t13",
+    "nlsscirclejerk/t07",
+    "kuwait/t03",
+    "donaldglover/t16",
+    "drugs/t18",
+    "greenlattice/t21",
+    "kerbalspaceprogram/t13",
+    "theexpanse/t11",
+    "pcmasterrace/t16",
+    "tf2/t14",
+    "fireemblem/t10",
+    "TeamDignitas/t08",
+    "thesimpsons/t06",
+    "anaheimducks/t11",
+    "AceOfAngels8/t05",
+    "albania/t11",
+    "AMD/t12",
+    "animalcrossing/t03",
+    "anime_irl/t20",
+    "AprilKnights/t12",
+    "australia/t13",
+    "babymetal/t06",
+    "bangtan/t07",
+    "bannedfromanime_irl/t01",
+    "berserk/t10",
+    "bisexual/t08",
+    "Clannad/t01",
+    "clg/t10",
+    "coldplay/t06",
+    "colorado/t05",
+    "criticalrole/t07",
+    "croatia/t06",
+    "cuboulder/t07",
+    "darksouls/t06",
+    "denmark/t09",
+    "eesti/t04",
+    "ElderScrolls/t04",
+    "empiredidnothingwrong/t16",
+    "europe/t20",
+    "eve/t14",
+    "faeria/t05",
+    "FaroeIslands/t05",
+    "FloydVsVoid/t10",
+    "frc/t05",
+    "furry_irl/t03",
+    "fxKorea/t07",
+    "giivasunner/t04",
+    "Goodboye/t10",
+    "greenbaypackers/t24",
+    "GrowTheTree/t05",
+    "h3h3productions/t34",
+    "halo/t17",
+    "harrypotter/t02",
+    "hellointernet/t03",
+    "HomestarRunner/t05",
+    "hunterxhunter/t09",
+    "hyperlightdrifter/t09",
+    "india/t09",
+    "indieheads/t11",
+    "kanye/t16",
+    "kcroyals/t07",
+    "kerbalspaceprogram/t12",
+    "leagueoflegends/t18",
+    "lovelive/t11",
+    "lsu/t07",
+    "luciomains/t06",
+    "malaysia/t03",
+    "masseffect/t09",
+    "metalcore/t02",
+    "miamidolphins/t05",
+    "minnesotavikings/t13",
+    "Moondye7/t04",
+    "mylittlepony/t09",
+    "naruto/t06",
+    "newzealand/t02",
+    "norge/t12",
+    "ohio/t11",
+    "oneshot/t05",
+    "osu/t08",
+    "pathofexile/t12",
+    "pathofexile/t14",
+    "patriots/t15",
+    "Peru/t10",
+    "phish/t06",
+    "placeDE/t08",
+    "placeportalpattern/t01",
+    "placestart/t12",
+    "placetardis/t08",
+    "polska/t04",
+    "porterrobinson/t04",
+    "PUBATTLEGROUNDS/t10",
+    "purdue/t01",
+    "radiohead/t05",
+    "Rainbow6/t13",
+    "redhotchilipeppers/t09",
+    "ripcity/t07",
+    "rocketbeans/t10",
+    "romania/t17",
+    "runescape/t03",
+    "sadboys/t07",
+    "schoolidolfestival/t09",
+    "scotland/t06",
+    "ScottPilgrim/t06",
+    "seolhyun/t04",
+    "simonfraser/t10",
+    "singapore/t11",
+    "skyrim/t09",
+    "smashbros/t05",
+    "sonicthehedgehog/t02",
+    "spacexmasterrace/t04",
+    "splatoon/t06",
+    "ss13/t07",
+    "starcraft/t11",
+    "starryknights/t06",
+    "starvstheforcesofevil/t06",
+    "stlouisblues/t10",
+    "strangerthings/t11",
+    "straya/t07",
+    "texas/t08",
+    "tf2/t04",
+    "theexpanse/t06",
+    "titanfall/t12",
+    "toolband/t10",
+    "touhou/t07",
+    "TransFlagPlace/t07",
+    "transformers/t07",
+    "truestl/t04",
+    "TsundereSharks/t09",
+    "turkey/t13",
+    "unitedkingdom/t06",
+    "uoft/t18",
+    "vegan/t10",
+    "vermont/t02",
+    "vim/t03",
+    "vinesauce/t02",
+    "weezer/t08",
+    "wildhockey/t08",
+    "winnipegjets/t09",
+    "worldpowers/t09",
+    "yumenikki/t05",
+    "starlightstage/t06",
+    "detroitredwings/t10",
+    "clg/t03",
+    "transgender/t02",
+    "futanari/t04",
+    "nin/t08",
+    "TheFarLeftSide/t12",
+    "NieR/t07",
+    "oman/t06",
+    "prequelmemes/t04",
+    "starryknights/t01",
+    "AcePlace/t10",
+    "anaheimducks/t08",
+    "chelseafc/t14",
+    "gamindustri/t05",
+    "greenlattice/t19",
+    "GuardiansOfDatBoi/t09",
+    "kingdomhearts/t24",
+    "lakers/t17",
+    "malaysia/t11",
+    "ssbpm/t18",
+    "kuwait/t04",
+    "indonesia/t11",
+    "starcitizen/t16",
+    "2007scape/t12",
+    "androidgaming/t02",
+    "archlinux/t09",
+    "blackmirror/t07",
+    "cubers/t31",
+    "day9/t06",
+    "dragonquest/t08",
+    "flashtv/t13",
+    "formula1/t13",
+    "gameboy/t07",
+    "httyd/t11",
+    "kamenrider/t05",
+    "leafs/t05",
+    "mindcrack/t11",
+    "mizzou/t07",
+    "sheffield/t08",
+    "smite/t10",
+    "startrek/t10",
+    "tampabaylightning/t14",
+    "thebluecorner/t09",
+    "thesilphroad/t10",
+    "warframe/t13",
+    "gratefuldead/t09",
+    "rit/t04",
+    "bobross/t02",
+    "witcher/t03",
+    "armok/t11",
+    "colombia/t08",
+    "philippines/t11",
+    "bakchodi/t14",
+    "ibo/t06",
+    "teslamotors/t13",
+    "unturned/t13",
+    "metalcore/t14",
+    "afip/t09",
+    "furry/t18",
+    "yuyuyu/t05",
+    "tampabaylightning/t10",
+    "theexpanse/t12",
+    "catalonia/t08",
+    "TheHulk/t12",
+    "soylent/t05",
+    "cgpgrey/t06",
+    "detroitredwings/t11",
+    "redhotchilipeppers/t10",
+    "undertale/t14",
+    "weezer/t16",
+    "ethereum/t10",
+    "anarchism/t22",
+    "buffalowizards/t02",
+    "TheFarLeftSide/t19",
+    "osu/t09",
+    "TheGreatGreenBox/t07",
+    "rotmg/t05",
+    "suomi/t01",
+    "calgaryflames/t16",
+    "chile/t16",
+    "costa_rica/t08",
+    "edmontonoilers/t09",
+    "foxes/t09",
+    "freedomplanet/t06",
+    "gravityfalls/t08",
+    "ice_poseidon/t22",
+    "kanye/t28",
+    "paranatural/t05",
+    "pebble/t05",
+    "Peru/t08",
+    "popheads/t15",
+    "raocow/t09",
+    "scp/t05",
+    "Temple/t09",
+    "Thegreatblackhole/t10",
+    "survivor/t23",
+    "DatBoi/t03",
+    "enterthegungeon/t10",
+    "foxstevenson/t07",
+    "Honduras/t04",
+    "linux/t19",
+    "metroid/t10",
+    "ultrahardcore/t09",
+    "twentyonepilots/t12",
+    "ockytop/t13",
+    "empiredidnothingwrong/t20",
+    "OrderOfTheKoi/t04",
+    "ghibli/t04",
+    "miamidolphins/t12",
+    "opticgaming/t12",
+    "FloydVsVoid/t13",
+    "spain/t15",
+    "survivor/t01",
+    "quebec/t17",
+    "osu/t10",
+    "shitredditsays/t06",
+    "rangers/t15",
+    "yugioh/t18",
+    "carletonu/t03",
+    "ChronoTrigger/t06",
+    "ElSalvador/t03",
+    "factorio/t14",
+    "ireland/t15",
+    "loliconsunite/t08",
+    "paydaytheheist/t03",
+    "purdue/t14",
+    "rickandmorty/t08",
+    "samuraijack/t19",
+    "sonicthehedgehog/t11",
+    "SquareSpiral/t13",
+    "tagpro/t08",
+    "texans/t11",
+    "TheHulk/t11",
+    "traaaaaaannnnnnnnnns/t09",
+    "wallstreetbets/t13",
+    "yugioh/t17",
+    "france/t19",
+    "teamcube/t07",
+    "italy/t16",
+    "msu/t11",
+    "prequelmemes/t10",
+    "azores/t01",
+    "overwatch/t32",
+    "hentai/t08",
+    "Russiaclan/t11",
+    "DCFU/t03",
+    "uiowa/t08",
+    "xenoblade_chronicles/t07",
+    "uvic/t04",
+    "alberta/t10",
+    "AmericanFlaginPlace/t16",
+    "argentina/t17",
+    "catholicism/t09",
+    "croatia/t16",
+    "forsen/t11",
+    "greenlattice/t20",
+    "patriots/t20",
+    "placeportalpattern/t09",
+    "SquareSpiral/t14",
+    "thebluecorner/t10",
+    "theexpanse/t13",
+    "twice/t18",
+    "PlaceNL/t18",
+    "thenetherlands/t12",
+    "AvoArmy/t10",
+    "TransFlagPlace/t13",
+    "falcons/t05",
+    "czech/t12",
+    "stlouisblues/t05",
+    "thailand/t04",
+    "the_pack/t06",
+    "turkey/t14",
+    "heyyea/t09",
+    "italy/t14",
+    "anarcho_capitalism/t13",
+    "bindingofisaac/t13",
+    "bisexual/t11",
+    "brasil/t09",
+    "completeanarchy/t13",
+    "danganronpa/t29",
+    "dankmemes/t16",
+    "dbz/t07",
+    "destiny/t08",
+    "dwarffortress/t11",
+    "edboxes/t08",
+    "ethoslab/t06",
+    "forsen/t07",
+    "frankocean/t12",
+    "geometrydash/t07",
+    "greenbaypackers/t25",
+    "k_on/t07",
+    "KState/t09",
+    "maryland/t12",
+    "megaman/t13",
+    "mindcrack/t12",
+    "minecraft/t21",
+    "MMA/t08",
+    "monero/t07",
+    "mylittlepony/t14",
+    "nbaspurs/t13",
+    "overwatch/t14",
+    "pathofexile/t17",
+    "patriots/t17",
+    "pepe/t03",
+    "pitt/t10",
+    "polska/t08",
+    "ravens/t02",
+    "roosterteeth/t16",
+    "spelunky/t04",
+    "swordartonline/t09",
+    "thetreesnetwork/t05",
+    "truestl/t07",
+    "TsundereSharks/t10",
+    "twice/t17",
+    "virginiatech/t09",
+    "worldoftanks/t08",
+    "rainbowgrid/t03",
+    "hungary/t07",
+    "pakistan/t15",
+    "rangers/t13",
+    "straya/t10",
+    "corridor/t12",
+    "nascar/t12",
+    "nyjets/t14",
+    "rpi/t08",
+    "argentina/t15",
+    "theitalyplace/t15",
+    "mysterydungeon/t08",
+    "MiamiHurricanes/t06",
+    "philippines/t10",
+    "COSI/t04",
+    "frc/t10",
+    "freedomplanet/t09",
+    "hellointernet/t15",
+    "heyyea/t10",
+    "ireland/t14",
+    "kanye/t20",
+    "kcroyals/t08",
+    "liquicity/t02",
+    "mexico/t16",
+    "mylittlepony/t15",
+    "PinkVomitMonster/t10",
+    "placehearts/t14",
+    "ripcity/t11",
+    "uiuc/t15",
+    "uwaterloo/t12",
+    "aoe2/t12",
+    "czech/t15",
+    "telegram/t06",
+    "babymetal/t15",
+    "Goodboye/t11",
+    "paladins/t21",
+    "Temple/t08",
+    "touhou/t17",
+    "CKCrusaders/t07",
+    "aeskwadraat/t02",
+    "canucks/t30",
+    "cirkeltrek/t10",
+    "cloud9/t12",
+    "croatia/t15",
+    "ducks/t04",
+    "europe/t21",
+    "gorillaz/t15",
+    "HomestarRunner/t13",
+    "indieheads/t14",
+    "mamamoo/t03",
+    "monalisaclan/t15",
+    "muse/t11",
+    "philippines/t12",
+    "PlaceNL/t15",
+    "portugal/t29",
+    "purplecorner/t09",
+    "Rainbow6/t16",
+    "Slovakia/t10",
+    "slovenia/t11",
+    "stardustcrusaders/t17",
+    "terraria/t09",
+    "totallynotrobots/t14",
+    "uofm/t15",
+    "wallstreetbets/t14",
+    "rojava/t03",
+    "zootopia/t10",
+    "fivenightsatfreddys/t14",
+    "heroesofthestorm/t08",
+    "nyjets/t15",
+    "palestine/t12",
+    "pathofexile/t20",
+    "pitt/t08",
+    "samuraijack/t24",
+    "trees/t12",
+    "THE_R/t04",
+    "babymetal/t14",
+    "chess/t13",
+    "chile/t15",
+    "homelab/t09",
+    "PinkUnion/t12",
+    "rotmg/t12",
+    "TreePlace/t02",
+    "AcePlace/t13",
+    "Peru/t05"
+   ],
+   "n": 480,
+   "families": {
+    "G20": 52,
+    "G21": 428
+   },
+   "classes": {
+    "3": 357,
+    "4": 118,
+    "5": 5
+   },
+   "gloss_only": 0,
+   "pairs_top": [
+    [
+     "T3-009",
+     99
+    ],
+    [
+     "T3-073",
+     26
+    ],
+    [
+     "T3-009|T3-073",
+     22
+    ],
+    [
+     "T3-043",
+     12
+    ],
+    [
+     "T3-029",
+     11
+    ],
+    [
+     "T3-009|T3-043",
+     10
+    ],
+    [
+     "T3-054",
+     10
+    ],
+    [
+     "T3-105",
+     10
+    ],
+    [
+     "T3-117",
+     9
+    ],
+    [
+     "T3-029|T3-073",
+     7
+    ],
+    [
+     "T3-037",
+     5
+    ],
+    [
+     "T3-009|T3-038",
+     4
+    ],
+    [
+     "T3-009|T3-117",
+     4
+    ],
+    [
+     "T3-072",
+     4
+    ],
+    [
+     "T3-073|T3-105",
+     4
+    ],
+    [
+     "T3-073|T3-117",
+     4
+    ],
+    [
+     "T3-031|T3-156",
+     3
+    ],
+    [
+     "T3-009|T3-031",
+     3
+    ],
+    [
+     "T3-009|T3-105",
+     3
+    ],
+    [
+     "T3-043|T3-073",
+     3
+    ],
+    [
+     "T3-031|T3-135",
+     2
+    ],
+    [
+     "T3-052|T3-073",
+     2
+    ],
+    [
+     "T3-057",
+     2
+    ],
+    [
+     "T3-057|T3-105",
+     2
+    ],
+    [
+     "T3-105|T3-112",
+     2
+    ]
+   ]
+  }
+ ]
+}
