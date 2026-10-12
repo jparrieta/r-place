@@ -1,0 +1,471 @@
+{
+ "rounds": {
+  "gold": {
+   "fidelity": 0.6236111111111111,
+   "fidelity_rechecked": 0.6611111111111111,
+   "primary": 0.8,
+   "pairwise": 0.8180555555555555,
+   "primary_pairwise": 0.8833333333333334,
+   "alpha": 0.8088201027703854,
+   "items_with_disagreement": [
+    "alberta/t04",
+    "dankmemes/t10",
+    "dankmemes/t16",
+    "edboxes/t02",
+    "finland/t06",
+    "mariokart/t04",
+    "mit/t01",
+    "nuclearthrone/t06",
+    "overwatch/t23",
+    "portugal/t41",
+    "rainbowgrid/t09",
+    "roosterteeth/t03",
+    "shitredditsays/t09",
+    "ukraine/t07"
+   ],
+   "lines": 120,
+   "multi": 10,
+   "also_present_lines": 1,
+   "also_present_themes": 1,
+   "also_present_over20": 0,
+   "also_present_under3": 0
+  },
+  "stab-1": {
+   "fidelity": 0.6361111111111111,
+   "fidelity_rechecked": 0.673611111111111,
+   "primary": 0.8,
+   "pairwise": 0.8,
+   "primary_pairwise": 0.8333333333333334,
+   "alpha": 0.7888823181549378,
+   "items_with_disagreement": [
+    "GabrielDropout/t03",
+    "Villanova/t01",
+    "alberta/t04",
+    "cloud9/t12",
+    "cuboulder/t04",
+    "dankmemes/t10",
+    "edboxes/t02",
+    "finland/t06",
+    "ireland/t12",
+    "mariokart/t04",
+    "mit/t01",
+    "overwatch/t23",
+    "portugal/t41",
+    "roosterteeth/t03"
+   ],
+   "lines": 120,
+   "multi": 12,
+   "also_present_lines": 3,
+   "also_present_themes": 5,
+   "also_present_over20": 0,
+   "also_present_under3": 0
+  },
+  "stab-2": {
+   "fidelity": 0.63125,
+   "fidelity_rechecked": 0.66875,
+   "primary": 0.8,
+   "pairwise": 0.75625,
+   "primary_pairwise": 0.8083333333333333,
+   "alpha": 0.7433106771057386,
+   "items_with_disagreement": [
+    "Villanova/t01",
+    "alberta/t04",
+    "cloud9/t12",
+    "cuboulder/t04",
+    "dankmemes/t10",
+    "edboxes/t02",
+    "finland/t06",
+    "ireland/t12",
+    "mariokart/t04",
+    "mcgillrobotics/t02",
+    "mindcrack/t03",
+    "mit/t01",
+    "overwatch/t23",
+    "portugal/t41",
+    "rit/t01",
+    "roosterteeth/t03",
+    "shitredditsays/t09",
+    "uiuc/t04"
+   ],
+   "lines": 120,
+   "multi": 17,
+   "also_present_lines": 3,
+   "also_present_themes": 3,
+   "also_present_over20": 0,
+   "also_present_under3": 0
+  }
+ },
+ "stability": {
+  "stab-1|stab-2": {
+   "jaccard": 0.8074074074074075,
+   "primary": 0.8527777777777779,
+   "items_below_half": [
+    "cuboulder/t04",
+    "mariokart/t04",
+    "mit/t01",
+    "overwatch/t23",
+    "rit/t01"
+   ]
+  },
+  "gold|stab-1": {
+   "jaccard": 0.825925925925926,
+   "primary": 0.8694444444444445,
+   "items_below_half": [
+    "dankmemes/t10",
+    "mit/t01"
+   ]
+  },
+  "gold|stab-2": {
+   "jaccard": 0.7958333333333333,
+   "primary": 0.8583333333333334,
+   "items_below_half": [
+    "cuboulder/t04",
+    "mariokart/t04",
+    "rit/t01"
+   ]
+  },
+  "alpha_six": 0.7838114886408009,
+  "alpha_nine": 0.7938137278180796,
+  "fidelity_item_change_mean": 0.07569444444444444
+ },
+ "families": {
+  "G01": {
+   "n": 4,
+   "fidelity": 0.5833333333333334,
+   "pairwise": 0.9166666666666666
+  },
+  "G02": {
+   "n": 4,
+   "fidelity": 0.4583333333333333,
+   "pairwise": 0.6388888888888888
+  },
+  "G03": {
+   "n": 1,
+   "fidelity": 1.0,
+   "pairwise": 1.0
+  },
+  "G04": {
+   "n": 4,
+   "fidelity": 0.5277777777777778,
+   "pairwise": 0.875
+  },
+  "G05": {
+   "n": 2,
+   "fidelity": 0.75,
+   "pairwise": 1.0
+  },
+  "G07": {
+   "n": 3,
+   "fidelity": 0.3333333333333333,
+   "pairwise": 0.6666666666666666
+  },
+  "G08": {
+   "n": 2,
+   "fidelity": 0.9166666666666667,
+   "pairwise": 0.8333333333333333
+  },
+  "G09": {
+   "n": 2,
+   "fidelity": 1.0,
+   "pairwise": 1.0
+  },
+  "G10": {
+   "n": 1,
+   "fidelity": 1.0,
+   "pairwise": 1.0
+  },
+  "G12": {
+   "n": 1,
+   "fidelity": 0.3333333333333333,
+   "pairwise": 0.3333333333333333
+  },
+  "G13": {
+   "n": 1,
+   "fidelity": 0.0,
+   "pairwise": 1.0
+  },
+  "G14": {
+   "n": 7,
+   "fidelity": 0.40476190476190477,
+   "pairwise": 0.8095238095238095
+  },
+  "G20": {
+   "n": 3,
+   "fidelity": 0.8888888888888888,
+   "pairwise": 0.7777777777777778
+  },
+  "G21": {
+   "n": 5,
+   "fidelity": 0.9,
+   "pairwise": 0.8
+  }
+ },
+ "themes": {
+  "T3-010": {
+   "n": 5,
+   "fidelity": 0.5,
+   "pairwise": 1.0
+  },
+  "T3-004": {
+   "n": 4,
+   "fidelity": 0.5,
+   "pairwise": 0.8333333333333333
+  },
+  "T3-015": {
+   "n": 3,
+   "fidelity": 0.5,
+   "pairwise": 0.7407407407407408
+  },
+  "T3-009": {
+   "n": 4,
+   "fidelity": 0.9166666666666666,
+   "pairwise": 0.8333333333333334
+  },
+  "T3-063": {
+   "n": 3,
+   "fidelity": 0.46296296296296297,
+   "pairwise": 0.6296296296296297
+  },
+  "T3-002": {
+   "n": 3,
+   "fidelity": 0.5370370370370371,
+   "pairwise": 0.8333333333333334
+  }
+ },
+ "confusions": [
+  {
+   "rank": 1,
+   "pair": [
+    "T3-005",
+    "T3-021"
+   ],
+   "reader_pairs_touching": 67,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 6,
+   "primary_disagreement_rate": 0.0
+  },
+  {
+   "rank": 2,
+   "pair": [
+    "T3-010",
+    "T3-149"
+   ],
+   "reader_pairs_touching": 78,
+   "split": 0,
+   "primary_split": 2,
+   "split_rate": 0.0,
+   "observed_rank": 7
+  },
+  {
+   "rank": 3,
+   "pair": [
+    "T3-001",
+    "T3-023"
+   ],
+   "reader_pairs_touching": 58,
+   "split": 3,
+   "primary_split": 3,
+   "split_rate": 0.05172413793103448,
+   "observed_rank": 3
+  },
+  {
+   "rank": 4,
+   "pair": [
+    "T3-028",
+    "T3-070"
+   ],
+   "reader_pairs_touching": 53,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 8
+  },
+  {
+   "rank": 5,
+   "pair": [
+    "T3-004",
+    "T3-020"
+   ],
+   "reader_pairs_touching": 24,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 9
+  },
+  {
+   "rank": 6,
+   "pair": [
+    "T3-002",
+    "T3-033"
+   ],
+   "reader_pairs_touching": 97,
+   "split": 1,
+   "primary_split": 1,
+   "split_rate": 0.010309278350515464,
+   "observed_rank": 5
+  },
+  {
+   "rank": 7,
+   "pair": [
+    "T3-015",
+    "T3-075"
+   ],
+   "reader_pairs_touching": 45,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 10
+  },
+  {
+   "rank": 8,
+   "pair": [
+    "T3-004",
+    "T3-070"
+   ],
+   "reader_pairs_touching": 55,
+   "split": 6,
+   "primary_split": 6,
+   "split_rate": 0.10909090909090909,
+   "observed_rank": 1
+  },
+  {
+   "rank": 9,
+   "pair": [
+    "T3-009",
+    "T3-073"
+   ],
+   "reader_pairs_touching": 65,
+   "split": 5,
+   "primary_split": 6,
+   "split_rate": 0.07692307692307693,
+   "observed_rank": 2
+  },
+  {
+   "rank": 10,
+   "pair": [
+    "T3-004",
+    "T3-038"
+   ],
+   "reader_pairs_touching": 60,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 11
+  },
+  {
+   "rank": 11,
+   "pair": [
+    "T3-010",
+    "T3-151"
+   ],
+   "reader_pairs_touching": 84,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 12
+  },
+  {
+   "rank": 12,
+   "pair": [
+    "T3-010",
+    "T3-150"
+   ],
+   "reader_pairs_touching": 79,
+   "split": 0,
+   "primary_split": 2,
+   "split_rate": 0.0,
+   "observed_rank": 13
+  },
+  {
+   "rank": 13,
+   "pair": [
+    "T3-010",
+    "T3-024"
+   ],
+   "reader_pairs_touching": 87,
+   "split": 1,
+   "primary_split": 1,
+   "split_rate": 0.011494252873563218,
+   "observed_rank": 4
+  },
+  {
+   "rank": 14,
+   "pair": [
+    "T3-009",
+    "T3-043"
+   ],
+   "reader_pairs_touching": 64,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 14
+  },
+  {
+   "rank": 15,
+   "pair": [
+    "T3-001",
+    "T3-095"
+   ],
+   "reader_pairs_touching": 53,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 15
+  },
+  {
+   "rank": 16,
+   "pair": [
+    "T3-188",
+    "T3-087"
+   ],
+   "reader_pairs_touching": 20,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 16
+  },
+  {
+   "rank": 17,
+   "pair": [
+    "T3-044",
+    "T3-082"
+   ],
+   "reader_pairs_touching": 23,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 17
+  },
+  {
+   "rank": 18,
+   "pair": [
+    "T3-014",
+    "T3-152"
+   ],
+   "reader_pairs_touching": 40,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 18
+  },
+  {
+   "rank": 19,
+   "pair": [
+    "T3-015",
+    "T3-063"
+   ],
+   "reader_pairs_touching": 58,
+   "split": 0,
+   "primary_split": 0,
+   "split_rate": 0.0,
+   "observed_rank": 19
+  }
+ ],
+ "rechecked_moved": [
+  "kurdistan/t03",
+  "predators/t04",
+  "russia/t09"
+ ]
+}

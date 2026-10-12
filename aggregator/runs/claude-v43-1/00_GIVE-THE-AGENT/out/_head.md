@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B2c, 2026-10-12 (UTC): the tier word is "main" (QB2-014); the gold round and the two stability rounds are built on the frozen scheme. J runs the three dispatches; B2d checks them.
+Under 3,000 words, rewritten whole at every close. Last written at B2d, 2026-10-12 (UTC): the gold round and the stability check scored; `pilot_report.md`, `stability-B2.md` and `handback-B2.md` written. Stage B2's legs are done.
 
 ## The method question, in one sentence
 
@@ -10,7 +10,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is open: rounds 1 to 3 are built, dispatched and checked; the scheme is frozen; B2c built the gold and stability rounds. B2d remains.
+Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is open: rounds 1 to 3 are built, dispatched and checked; the scheme is frozen; the gold and stability rounds are built (B2c) and scored (B2d).
 
 **Round 1, as scored:**
 - fidelity against `author_items.jsonl` 0.594 (mean Jaccard; primary match 0.742);
@@ -37,7 +37,7 @@ Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families)
 - the 40 round-1 items: fidelity 0.572, rechecked 0.648, pairwise 0.685, alpha 0.676 (round 1: 0.594, 0.733, 0.726);
 - the ten biggest bags: fidelity 0.911, pairwise 0.850, primary 1.000; the themes readers name under `also_present` score Jaccard 0.283 against mine (one reader named 85 on 2007scape t04).
 
-**What round 2 showed.** These readers place two or three themes on 47 of 150 lines (round 1: 10 of 120), reading rule 0's "carry" as "cover every concept". Most divisions are such additions. Eight author-errors: AyyMD t08, nyu t01, cubers t12, harrypotter t08, farmcarrots t15, parabola t02, redhotchilipeppers t09, Slovakia t07 (no sentence changed; listed in `notes-B2.md`). Genuine-joint: kpop t04, floridagators t09, 4chan t07, anarcho_capitalism t12, simonfraser t08. Bags as before: Goodboye t03, acecombat t05.
+**What round 2 showed.** These readers place two or three themes on 47 of 150 lines (round 1: 10 of 120), reading rule 0's "carry" as "cover every concept". Eight author-errors, listed in `notes-B2.md` and `pilot_report.md`.
 
 **The edits** (scheme_edits 287 to 295, scheme-ambiguous; `out/_analysis/b2_edits_r2.py`): guatemala t02 (all three readers missed whose flag "a flag" in r/guatemala is) gave T3-065 a gloss sentence and reworded the T3-002/T3-065 and T3-026/T3-065 questions; n64 t02 and dofus t01 gave a new T3-033/T3-038 question; nVade t04 gave new T3-195/T3-011 and T3-195/T3-005 questions. 133 rechecks, none moves; `rechecks-B2.jsonl` 887, none owed. Ten pairs read and confirmed: 31 confirmed, 0 stale, 464 unconfirmed.
 
@@ -75,9 +75,13 @@ Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families)
 
 `out/_analysis/b2_packets_fleet2.py`: gold_items.jsonl's 40 items, fleet ids, shared pages from `scheme_final.jsonl`, seed 20261014 in all three rounds, so the same 3 packets (14, 14, 12 items) in the same order; only the brief differs (the builder's for gold; `out/brief-stab-1.md`, `out/brief-stab-2.md`, reworded, no test changed). Folders `out/_packets-B2/round-gold`, `round-stab-1`, `round-stab-2`; 0 room ids in 75 files; `run_manifest.json` 9 entries.
 
+## B2d, scored
+
+**Gold** (`out/_analysis/b2_score_final.py`; `pilot_rounds.jsonl` line 4): fidelity 0.624 (primary 0.800), against rechecked 0.661, pairwise 0.818, alpha 0.809. Readers agree with each other more and with me less than at round 3: on ten gold items they keep only my primary of two (the round-1 author-error; the gold set was placed before round 1). **Stability 0.807** (stab-1 readers against stab-2, nine pairs per item), level with each stability round's own pairwise (0.800, 0.756): the brief's wording adds no disagreement. **Blind re-placement** of ten hard items: 0.883 against my placements, 0.806 for round 3's readers (an upper bound: I had seen several of the ten). **Author-errors:** 32 items (21 hard, 11 gold). Four gold wording defects go to C1 (uofmn t01, cuboulder t04, mariokart t04, ireland t12). **Scorecard:** only T3-004/T3-070, T3-009/T3-073 and T3-001/T3-023 split readers more than once; T3-005/T3-021 never (estimate 15-20%).
+
 ## What comes next
 
-- J runs the three dispatches. B2d: translate the returns (`b2_translate_fleet.py --round gold` and so on), score gold beside round 3, write `stability-B2.md` (stab-1 against stab-2) and `pilot_report.md`, the blind re-placement of ten hard items, and `handback-B2.md`.
+- Stage B2's legs are done. The next stage is handed over by the harness.
 - **QB2-013, answered.** Four round-3 lines (bag flag, empty `also_present`) are waived by name. `RETURN-B2.md` says a bag with no other theme at the three-concept floor is not flagged (`item_is_a_bag` false, `also_present` `{}`). Round-3 text: `out/_analysis/RETURN-B2_round3.md`.
 - **The bound (J, 13:47).** `also_present` names "twenty themes at most", each with three concepts of its own; a bound, not a goal. The validator and `fleet.py` apply it only where that exact phrase stands. Write both rules, the phrase word for word, into B3's return specification. Rounds 1 to 3 are scored as given.
 
@@ -139,7 +143,7 @@ None is filed in `_questions/`. These remain open:
 
 - B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `scheme.jsonl` (197, edited); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines, F-001 and its superseding line); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
 - B2:
-  - `notes-B2.md` (1,120 lines); `brief-stab-1.md`, `brief-stab-2.md`; `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (3); `scheme_final.jsonl` (197), `scheme_final.md`;
+  - `notes-B2.md` (1,192 lines); `pilot_report.md`, `stability-B2.md`, `handback-B2.md`; `brief-stab-1.md`, `brief-stab-2.md`; `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (6); `scheme_final.jsonl` (197), `scheme_final.md`;
   - `scheme_edits.jsonl` (306); `rechecks-B2.jsonl` (1,594, of which 526 the withdrawn split's; none owed); `gate_checks.jsonl` (519 lines, all 496 pairs confirmed); `exemplar_candidates.jsonl` (68); `tier_history.jsonl` (392); `run_manifest.json` (9: A1, B2 round 1, two round-2 entries, two round-3 entries, the second superseding the first, gold, stab-1, stab-2).
 - Asks QB2-001 to QB2-014 are answered; none is open. `return_waivers.jsonl` holds 20 waivers (J: 16 at QB2-009, 4 at QB2-013). `out/recut/` holds the 56 withdrawn children, as written.
 
@@ -170,8 +174,4 @@ None is filed in `_questions/`. These remain open:
 
 ## The next comparison
 
-At the gold round in B2c:
-- gold fidelity, pairwise and alpha beside round 3's (0.682, 0.728, 0.721), with the readers held the same;
-- whether the T3-002/T3-033/T3-038 cluster divides gold readers as it divided signal t01 and n64 t02;
-- whether the rate of second placements (27 of 150 lines at round 3, 47 at round 2) holds;
-- whether the round-1 author-errors confirmed at round 2 (GreenCorner t03, WisconsinBadgers t04, england t03, megaman t11, signal t01) hold on the gold set's like items.
+In B3, against this stage's figures: gold fidelity against `gold_items.jsonl` and the rechecked gold placements (0.624, 0.661), primary match (0.800), and agreement read above the stability floor (0.807).

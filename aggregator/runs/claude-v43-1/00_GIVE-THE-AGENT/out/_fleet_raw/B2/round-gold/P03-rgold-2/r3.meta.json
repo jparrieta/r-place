@@ -1,0 +1,34 @@
+{
+ "packet": "P03-rgold-2",
+ "group": "P03-rgold-2",
+ "reader": "r3",
+ "reissue": 0,
+ "generation": "msg_HTSLfyb7wmBkKkm6drxd",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 5113,
+  "output_tokens": 14685,
+  "output_tokens_details": {
+   "thinking_tokens": 11945
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 81024,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.011021889,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.011021889,
+   "upstream_inference_prompt_cost": 0.001329789,
+   "upstream_inference_completions_cost": 0.0096921
+  }
+ },
+ "elapsed_s": 87.1,
+ "packet_sha256": "e5f8c0339702473d54aecd0f89497ac52e7ded5cb067d9713f2631cdb7bbf57d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

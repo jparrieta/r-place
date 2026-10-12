@@ -1,0 +1,34 @@
+{
+ "packet": "P03-rstab-2-1",
+ "group": "P03-rstab-2-1",
+ "reader": "r3",
+ "reissue": 0,
+ "generation": "msg_Z57tDh46kAFdanqVdTzE",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 5134,
+  "output_tokens": 50700,
+  "output_tokens_details": {
+   "thinking_tokens": 46417
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 81024,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.034795254,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.034795254,
+   "upstream_inference_prompt_cost": 0.001333254,
+   "upstream_inference_completions_cost": 0.033462
+  }
+ },
+ "elapsed_s": 212.1,
+ "packet_sha256": "446bf95fbcb673ad96245b67609328d2f49344ee6117f930197b0b34e5894c8f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}
