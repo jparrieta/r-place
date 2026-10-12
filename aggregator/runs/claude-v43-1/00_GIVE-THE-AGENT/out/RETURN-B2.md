@@ -11,7 +11,7 @@ Rule 0. **Single placement, exception on the record.** A second-order theme carr
 One JSON line per item in the packet, in packet order, and nothing else between the lines. Read the index page whole first. Open a family's page before you place anything into it, and list the families you opened in `families_opened`.
 
 - `sub`, `theme_id`: the item's heading, `<sub>/<theme_id>`.
-- `batch`: the packet name (for round 2, `P03-r2`; a packet served in parts keeps the one name). `agent`: your reader id as given to you. `replicate`: 1. `position`: the item's number in the packet.
+- `batch`: the packet name (for round 2, the name on the packet's title line, such as `P03-r2-3`). `agent`: your reader id as given to you. `replicate`: 1. `position`: the item's number in the packet.
 - `third_order`: the theme ids you place the item on, primary first. One id, unless rule 0's exception holds; never more than three.
 - `multi`: true when `third_order` holds more than one id.
 - `why`: for each id in `third_order`, what about THIS item put it there rather than its nearest neighbour.
@@ -26,10 +26,8 @@ One JSON line per item in the packet, in packet order, and nothing else between 
 - `also_present`: `{}` unless `item_is_a_bag` is true. For a bag, every theme beyond the one placed, each with its own concept ids: `{"T3-…": ["c…", "c…"], "T3-…": ["c…"]}`. `support` holds the concepts behind the placed theme; a theme in `also_present` never repeats the placed one.
 
 ```json
-{"sub": "...", "theme_id": "...", "batch": "P03-r2", "agent": "...", "replicate": 1, "position": 23, "third_order": ["T3-007"], "multi": false, "why": {"T3-007": "what about THIS theme put it here rather than its nearest neighbour"}, "confidence": "clear|arguable", "read": "whole|theme-block", "exemplar_read": null, "families_opened": ["G03", "G09"], "t_start": "...", "t": "...", "support": ["c0013"], "multiplacement_log": null, "item_is_a_bag": false, "also_present": {}}
+{"sub": "...", "theme_id": "...", "batch": "P03-r2-3", "agent": "...", "replicate": 1, "position": 23, "third_order": ["T3-007"], "multi": false, "why": {"T3-007": "what about THIS theme put it here rather than its nearest neighbour"}, "confidence": "clear|arguable", "read": "whole|theme-block", "exemplar_read": null, "families_opened": ["G03", "G09"], "t_start": "...", "t": "...", "support": ["c0013"], "multiplacement_log": null, "item_is_a_bag": false, "also_present": {}}
 END-OF-RETURN
 ```
-
-A packet too large for one file is served in parts (`P03-r2-p1`, `P03-r2-p2`, ...). Read every part before you answer. On every part but the last, reply with the end marker alone. On the last part, write one line per item of the whole packet, in packet order, then the end marker. An item may begin in one part and end in the next; its concepts continue under the same heading.
 
 After your last line, write the end marker `END-OF-RETURN` on a line of its own. Confirm that you reached the end of the packet by writing that marker; a return without it is a partial return and is reissued.

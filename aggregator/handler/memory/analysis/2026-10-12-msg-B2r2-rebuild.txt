@@ -1,0 +1,15 @@
+Handler text, carrying J's ruling (2026-10-12 05:52 Berlin).
+
+Round 2's dispatch ran three times and every reader was exhausted; there is no valid return (out/_fleet_raw/B2/round-2/: DONE, EXHAUSTED.tsv, log.jsonl). Two causes, both in the log:
+
+1. Every reader got HTTP 400 at part 6. Part 5 carried 149,007 input tokens and passed; part 6 would carry about 163k. The provider's window looks to be about 164k tokens (inferred from the log, not confirmed). An 11-part thread of the whole hard set cannot fit: the shared pages alone are about 95k tokens.
+2. Several readers closed part 1 with END-OF-PACKET instead of END-OF-RETURN. fleet.py now names the marker in every message; nothing for you to do there.
+
+J's ruling: rebuild round 2's packets as self-contained packets, as v37 did (packages of 45 placements, some split into three of 15). Here:
+- at most 15 items per packet, and at most 180,000 bytes of item text per packet, so the shared pages, the packet and the reader's reasoning stay inside the window;
+- no MANIFEST group, part or parts; every packet carries its own item count;
+- no item is split across packets; if one item alone is over the byte cap, stop and ask J;
+- the same 50 hard items, the same shared pages (index.md, G01 to G21), the same RETURN-B2.md, minus its paragraph on parts;
+- never delete: supersede the 11-part packets under a new name, and say in notes-B2.md which packets the dispatch must read.
+
+Then close with done.sh B2 --cut packets-out, as at B2a. J dispatches again. Score nothing from round 2's failed folder: it holds no reading.

@@ -1,0 +1,10 @@
+stage B2:
+  leg: check (2 dispatch folders with DONE)
+  _fleet_raw/B2/round-1: 3 readers, 120 return lines
+  _fleet_raw/B2/round-2: 0 readers, 0 return lines
+  author items 50, gold items 40, rounds scored 1, edits 286 (author-error 4), scheme ids 197 (scheme/scheme_current.jsonl)
+
+ERROR  _fleet_raw/B2/round-2 holds a finished dispatch and pilot_rounds.jsonl has no line for round 2; the check leg scores it (fidelity, pairwise agreement, alpha) before it closes
+warn   scheme.jsonl: the pair T3-001|T3-017 touches an edited theme and is not confirmed against its current sentences (mem.py gates T3-001 T3-017 --confirm --reason ...)  [443 lines with this shape; first: T3-001|T3-017]
+
+1 errors (1 distinct shapes), 443 warnings

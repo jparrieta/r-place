@@ -1,0 +1,35 @@
+[
+ {
+  "packet": "P03-r2-p1",
+  "group": "P03-r2",
+  "reader": "r8",
+  "reissue": 2,
+  "generation": "msg_liuemwOEybJXK7lQFV0d",
+  "served": "deepseek/deepseek-v4-flash-0731",
+  "usage": {
+   "input_tokens": 94779,
+   "output_tokens": 39,
+   "output_tokens_details": {
+    "thinking_tokens": 39
+   },
+   "cache_creation_input_tokens": null,
+   "cache_read_input_tokens": null,
+   "cache_creation": null,
+   "inference_geo": null,
+   "server_tool_use": null,
+   "service_tier": null,
+   "speed": "standard",
+   "cost": 0.001730982,
+   "cost_details": {
+    "upstream_inference_cost": 0.001730982,
+    "upstream_inference_prompt_cost": 0.001706022,
+    "upstream_inference_completions_cost": 2.496e-05
+   }
+  },
+  "elapsed_s": 5.3,
+  "packet_sha256": "21b082759f4b2c14ebca7f455c0d1dd4e119e4a6b2bfe3fac9666a1d8143a2e9",
+  "valid": false,
+  "why": "no end marker 'END-OF-RETURN' on the last line",
+  "served_matches_probe": true
+ }
+]

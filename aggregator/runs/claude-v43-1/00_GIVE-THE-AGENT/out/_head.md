@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at the close of B2a-r2, 2026-10-11 (UTC): round 2 of the pilot built, the ten biggest bags placed and served in parts. The dispatch runs next, then the check leg B2b-r2.
+Under 3,000 words, rewritten whole at every close. Last written at B2b-r2, 2026-10-12 (UTC): round 2's dispatch in eleven parts failed (no valid return), and round 2 was rebuilt as five self-contained packets on J's ruling. J dispatches again; the check of round 2 follows.
 
 ## The method question, in one sentence
 
@@ -34,19 +34,22 @@ The readers ran on deepseek/deepseek-v4-flash-0731 at high effort on mixed provi
 
 **`RETURN-B2.md`** gains the `also_present` clause and a paragraph on parts: read every part, reply with the end marker alone on all but the last, answer for every item on the last. The round-1 text is kept as `out/_analysis/RETURN-B2_round1.md`.
 
-**The packet, in parts (QB2-001).** `out/_packets-B2/round-2/` holds `index.md`, 21 family pages from the edited `scheme.jsonl`, and eleven parts of one packet, 513,096 bytes in all, each under 51,200. `out/_analysis/b2_parts_r2.py` built them with `packets.py`'s own renderers, seed 20261012. An item may run on into the next part under a "(continued)" heading; leagueoflegends t02 runs over four parts. The order is in `out/_analysis/b2_order_r2.json`, outside the readers' folder. Round 1's packets stay flat in `out/_packets-B2/`, with J's copy in `round-1/`.
+**The first build, in eleven parts, failed.** One conversation over eleven parts overran the provider's window (about 164,000 tokens, inferred): every reader got HTTP 400 at part 6, and the dispatch returned no valid reading. `out/_fleet_raw/B2/round-2/` is not scored (J). The parts and their manifest are kept in `out/_analysis/b2_packets_round2_parts/`.
 
-**MANIFEST.json, on QB2-004's assumption (open).** Each part carries count_key position, group, part k and parts 11; items 0 on parts 1 to 10 and 50 on the last. If J answers otherwise, the next build leg rebuilds with the same helper.
+**The packets the dispatch reads (J's ruling, 2026-10-12).** `out/_packets-B2/round-2/` holds `index.md`, 21 family pages from the edited `scheme.jsonl`, and five self-contained packets, numbered 1 to 5, of 15, 12, 9, 3 and 11 items (58,210 to 128,155 bytes of item text). The caps: at most 15 items and 180,000 bytes of item text a packet, no item split. `out/_analysis/b2_packets_r2b.py` cut round 2's seeded order (seed 20261012) into consecutive packets; five rather than four keeps the largest well under the cap. `MANIFEST.json` gives each packet its own item count, with no group or part. The items per packet are in `out/_analysis/b2_order_r2b.json`. Round 1's packets stay flat in `out/_packets-B2/`, with J's copy in `round-1/`. RETURN-B2.md has no parts paragraph now; its parts version is in `out/_analysis/RETURN-B2_round2_parts.md`.
 
-**Manifest.** `run_manifest.json` has a round-2 entry: the same model; J's reader settings, one provider (Relace) and medium reasoning effort; 3 agents, 50 items, every part's bytes and hash. A change in agreement is partly the settings, not only the edits.
+**Manifest.** `run_manifest.json` has two round-2 entries: B2a-r2's (the parts) and B2b-r2's, which supersedes it with the five packets. The same model; J's reader settings, one provider (Relace) and medium reasoning effort. A change in agreement is partly the settings, not only the edits.
+
+**The failed dispatch, set aside (QB2-005, QB2-006).** It is at `out/_analysis/fleet_B2_round2_failed/` (moved whole, DONE untouched), with no `pilot_rounds.jsonl` line, and is never scored. `_fleet_raw/B2/` holds `round-1/` only; J dispatches round 2 again into a fresh `round-2/`. The check reads any DONE folder in `_fleet_raw/B2/` not named round-N as a gold or stability dispatch, so nothing else goes there.
 
 **Stopping.** The PI's round-2 rule: no round may stop before the ten biggest bags are read once. Round 2 serves all ten, so its check leg may apply the stopping rules.
 
-## What the check leg B2b-r2 must do
+## What the check of round 2 must do, once the new dispatch returns
 
+- Score only the fresh `_fleet_raw/B2/round-2/`; the failed first dispatch is recorded in `notes-B2.md` and is never scored.
 - Copy `fleet.py`'s counts into `notes-B2.md`: readers, reissues, durations, tokens and cost.
 - Score round 2 with `out/_analysis/b2_score.py --round 2`: fidelity against `author_items.jsonl` and against the rechecked placements (`--alt`), pairwise agreement, alpha; primary exact agreement beside. Score `also_present` on the six bags separately; it is not in the Jaccard.
-- Read how readers handled the parts and the bags: whether every reader answered all 50 on the last part, whether any answered early, and how the four-part item fared.
+- Read how readers handled the bags, and whether the three-item packet (leagueoflegends t02, acecombat t05, dota2 t05) came back whole.
 - The next comparison (below). Edits, rechecks and gate repairs as at B2b-r1; then decide whether round 3 opens.
 
 ## Standing words from J and the PI (carry into every head)
@@ -107,14 +110,16 @@ None is filed in `_questions/`. These remain open:
 
 - B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `scheme.jsonl` (197, edited); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines, F-001 and its superseding line); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
 - B2:
-  - `notes-B2.md` (345 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`); `pilot_rounds.jsonl` (1);
-  - `scheme_edits.jsonl` (286); `rechecks-B2.jsonl` (754, none owed); `gate_checks.jsonl` (28 pairs confirmed); `exemplar_candidates.jsonl` (18); `tier_history.jsonl` (372); `run_manifest.json` (A1, B2 round 1, B2 round 2).
-- Asks QB2-001 to QB2-003 are answered; QB2-004 is open.
+  - `notes-B2.md` (402 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (1);
+  - `scheme_edits.jsonl` (286); `rechecks-B2.jsonl` (754, none owed); `gate_checks.jsonl` (28 pairs confirmed); `exemplar_candidates.jsonl` (18); `tier_history.jsonl` (372); `run_manifest.json` (A1, B2 round 1, two B2 round-2 entries).
+- Asks QB2-001 to QB2-006 are answered; none is open.
 
 ## Rules kept
 
 - Never type an id, an order or a name from memory; check with `jq` or a script. Never log a write before the tool answers. Count a ledger's lines after appending.
 - There is no `--kind close` and no `--kind episode`; log those as notes.
+- A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`; `mem.py log --kind ask` writes only a diary line and gives no id.
+- A reader's thread must fit the provider's window (about 164,000 tokens, inferred at round 2); the shared pages alone are about 95,000.
 - Check a notes section against the diary before closing. Never put a placeholder or a no-op in a command. Never put an Edit and the read that checks it in one turn.
 - Never write an id-like token the run does not define in the head, such as a D or a P followed by digits: `done.sh` reads it as an unresolved link. Name later stages and packet files in words.
 - The permission check refuses:

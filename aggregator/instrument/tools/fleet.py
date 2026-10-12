@@ -214,7 +214,9 @@ def validate(raw, marker, schema, expect_n, rule=None):
     n_counted = sum(1 for o in rows if counted(o, rule or {}))
     if expect_n is not None and n_counted != expect_n:
         return None, "%d item lines returned, %d expected: a partial return is not a return" % (n_counted, expect_n)
-    if not rows:
+    if not rows and expect_n != 0:
+        # an earlier part of a group carries "items": 0 and its reply is the end marker alone
+        # (J, 2026-10-11, QB2-004); any other empty reply is still a failed return
         return None, "empty return"
     return rows, None
 
@@ -352,6 +354,10 @@ def main():
         units[g].sort(key=lambda p: (manifest.get(os.path.splitext(os.path.basename(p))[0]) or {}).get("part", 0))
     TAIL = ("\n\nReturn only the lines the return specification asks for, one JSON object per line, then the "
             "end marker on its own line. No prose before, between or after.")
+    if marker:
+        # name the marker itself (J, 2026-10-12): B2 round 2 readers closed with END-OF-PACKET, a word
+        # they had read in the packet, and each such reply cost a reader
+        TAIL += " The end marker is %s, exactly; never END-OF-PACKET or any other word." % marker
     jobs = []
     for g, plist in units.items():
         d = os.path.join(a.raw, g)

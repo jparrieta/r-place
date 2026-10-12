@@ -175,5 +175,69 @@
   "scheme": "out/scheme.jsonl after round 1's edits (scheme_edits.jsonl 286 lines), exemplars withheld",
   "return_spec": "out/RETURN-B2.md with the also_present clause and the parts paragraph",
   "notes": "Pilot round 2. The reader settings changed from round 1 (one provider, Relace; medium effort), so a change in agreement is partly the settings, not only the edits. Fidelity is reported against author_items.jsonl and against the rechecked placements. MANIFEST.json follows QB2-004's assumption until it is answered."
+ },
+ {
+  "stage": "B2",
+  "round": 2,
+  "leg": "B2b-r2",
+  "written_utc": "2026-10-12T03:55:55Z",
+  "supersedes": "the B2a-r2 round-2 entry (one packet in 11 parts); its dispatch returned no valid reading",
+  "model": "deepseek/deepseek-v4-flash-0731, on the routine reader route",
+  "reader_settings": {
+   "provider": "Relace (one provider)",
+   "reasoning_effort": "medium"
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261012,
+   "cut": "consecutive cut of that order into 5 packets, largest packet minimised"
+  },
+  "n_agents": 3,
+  "n_items": 50,
+  "packets": [
+   {
+    "name": "P03-r2-1",
+    "items": 15,
+    "bytes": 58656,
+    "item_bytes": 58210,
+    "sha256": "36cea1122dfd5044230fd7d059bf194b77ebaff2cc8091f947fedf0f944962fd"
+   },
+   {
+    "name": "P03-r2-2",
+    "items": 12,
+    "bytes": 96965,
+    "item_bytes": 96519,
+    "sha256": "44ebc291a1b9dd3db1adf5d115e069b761d7a37dbfa8b715e8328150e420cfd8"
+   },
+   {
+    "name": "P03-r2-3",
+    "items": 9,
+    "bytes": 128599,
+    "item_bytes": 128155,
+    "sha256": "dab68bd91c48906d16722e8f48e21ad3550d4601e226e466382431ae63129720"
+   },
+   {
+    "name": "P03-r2-4",
+    "items": 3,
+    "bytes": 125928,
+    "item_bytes": 125484,
+    "sha256": "8145381f7a5fbd6c63c5bf903ab2d337d965879450753cc1cadb7fff383a1592"
+   },
+   {
+    "name": "P03-r2-5",
+    "items": 11,
+    "bytes": 97547,
+    "item_bytes": 97101,
+    "sha256": "976ac77564d1cd305d087218c6dc53589541b385e59ca3eca3a9074f7b613d03"
+   }
+  ],
+  "caps": "J, 2026-10-12: at most 15 items and 180,000 bytes of item text per packet; no item split",
+  "scheme": "out/scheme.jsonl after round 1's edits, exemplars withheld (pages unchanged from B2a-r2)",
+  "return_spec": "out/RETURN-B2.md with also_present, without the parts paragraph",
+  "notes": "Each packet is self-contained and goes to three fresh readers. A change in agreement against round 1 is partly the reader settings."
  }
 ]
