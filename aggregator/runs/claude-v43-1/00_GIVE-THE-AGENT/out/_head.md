@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B2b-r3-p2, 2026-10-12 (UTC): J's answers to QB2-012 and QB2-013 found applied. Before it, at B2b-r3: round 3 checked. Pairwise 0.728 clears the 0.70 threshold, so the rounds stop; no round 4 (QB2-012). Four bag-flag lines waived (QB2-013). A freeze leg of its own comes next.
+Under 3,000 words, rewritten whole at every close. Last written at B2b-r3-p3, 2026-10-12 (UTC): the scheme is frozen (`scheme_final.jsonl`, `scheme_final.md`, `families.jsonl`). B2c, the gold round and the two stability rounds, comes next. QB2-014 (the tier word) is open.
 
 ## The method question, in one sentence
 
@@ -10,7 +10,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is open: rounds 1 to 3 are built, dispatched and checked; rounds 1 and 2 were edited.
+Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is open: rounds 1 to 3 are built, dispatched and checked; the scheme is frozen. B2c and B2d remain.
 
 **Round 1, as scored** (readers r12, r15 and r16 only; the other attempts failed):
 - fidelity against `author_items.jsonl` 0.594 (mean Jaccard; primary match 0.742);
@@ -22,19 +22,13 @@ Per-item table: `out/_analysis/b2_r1_items.tsv`.
 
 **What round 1 showed.** I placed 24 of 40 items on two kinds; the readers placed one kind almost always, so those second placements are my author-errors under rule 0. acecombat t05, Goodboye t03 and simonfraser t08 are bags.
 
-**The edits** (`scheme_edits.jsonl` lines 1 to 286, round 1): 6 sentence changes, 8 discriminators, 28 new questions for `must_not_show` lines with no discriminator, 7 questions in the deal cluster around T3-010, 202 word-for-word mirrors (QB2-003). `mem.py gates` does not see a decide_when_both that names a theme with no discriminator; the deal cluster was found by reading, and the other clusters are read for it before the freeze.
+**The edits** (`scheme_edits.jsonl` lines 1 to 286, round 1): sentence changes, discriminators and new questions, and 202 word-for-word mirrors (QB2-003).
 
 **The rechecks.** Round 1's edits moved 22 items (18 author-errors, 4 edits doing their work). `author_items.jsonl` stays as written; fidelity is reported against it and against the rechecked placements.
 
 ## Round 2, as built (B2a-r2)
 
-**The hard set is 50 items:** round 1's 40, plus the ten biggest bags of `notes-B1.md`, read whole and placed by me before any packet (`out/_analysis/b2_author_r2.py`, source "biggest-bag"). Rule 0 as amended decides the form: no line places more than one theme; a bag places one and names the rest under `also_present`, each with its concepts. All ten are arguable.
-- Single placements: leagueoflegends t02 T3-023, theblackvoid t09 T3-006, ainbowroad t11 T3-035, dota2 t05 T3-023.
-- Bags: 2007scape t04 T3-038 (five more), theblackvoid t12 T3-174 (four), ainbowroad t04 T3-021 (four), ainbowroad t03 T3-005 (four), ainbowroad t07 T3-041 (four), sweden t01 T3-065 (five).
-
-**`RETURN-B2.md`** carries the `also_present` clause; earlier texts are in `out/_analysis/`.
-
-**The packets.** A first build in eleven parts failed in dispatch and is set aside at `out/_analysis/fleet_B2_round2_failed/`, never scored (QB2-005, QB2-006). Round 2 ran as five self-contained packets (`out/_analysis/b2_packets_r2b.py`, seed 20261012).
+**The hard set is 50 items:** round 1's 40, plus the ten biggest bags of `notes-B1.md`, placed by me before any packet (`out/_analysis/b2_author_r2.py`, source "biggest-bag"); six of the ten are bags, one theme placed and the rest under `also_present`. A first eleven-part build failed in dispatch and is set aside, never scored (QB2-005, QB2-006).
 
 ## Round 2, as scored (B2b-r2-p2)
 
@@ -61,7 +55,7 @@ Per-item table: `out/_analysis/b2_r1_items.tsv`.
 
 ## Round 3, as scored (B2b-r3)
 
-**The round.** Round 2's 50 items and readers, on the scheme after edits 287 to 295, in fleet ids, 5 packets (`out/_packets-B2/round-3/`, seed 20261013). `fleet.py`'s new check wrongly counted third-order ids in `multiplacement_log.additional` as concept codes; the handler fixed it and kept the first three valid replies per packet (`_fleet_raw/B2/round-3/RESCUE-2026-10-12.json`, which supersedes `EXHAUSTED.tsv`). 36 calls, 1.49 USD. `b2_translate_fleet.py --round 3` reads only the kept replies and drops the readers' "r/" before `sub`: 150 lines, 0 id problems, copies in `out/_analysis/b2_r3_returns/`.
+**The round.** Round 2's 50 items and readers, after edits 287 to 295, in fleet ids, 5 packets (seed 20261013). The handler's rescue record (`_fleet_raw/B2/round-3/RESCUE-2026-10-12.json`, superseding `EXHAUSTED.tsv`) keeps the first three valid replies per packet. `b2_translate_fleet.py --round 3` reads only those and drops the readers' "r/" before `sub`.
 
 **The numbers** (`out/_analysis/b2_score_r3.py`; `pilot_rounds.jsonl` line 3):
 - all 50: fidelity 0.682 (primary 0.780), against the rechecked placements 0.760, pairwise 0.728 (primary 0.793), alpha 0.721; 23 items with two readers differing (round 2: 27);
@@ -69,16 +63,22 @@ Per-item table: `out/_analysis/b2_r1_items.tsv`.
 - the ten biggest bags: fidelity 0.967, pairwise 0.933; kinds named against mine 0.283;
 - 27 of 150 lines place two or more themes (round 2: 47); no `also_present` theme under the floor.
 
-**What it showed.** Edit 287 (T3-065 gloss) moved two of three readers on guatemala t02 to my placement. nVade t04 moved from T3-195 to T3-005 for two of three. The cluster T3-002 (call for hands), T3-033 (proposing a mark) and T3-038 (building and reporting a mark) still divides readers: signal t01 (three themes from three readers), n64 t02, 2007scape t04. 23 dividing items went to `exemplar_candidates.jsonl`.
+**What it showed.** Edit 287 (T3-065 gloss) moved two of three readers on guatemala t02 to my placement; nVade t04 moved from T3-195 to T3-005 for two of three. 23 dividing items went to `exemplar_candidates.jsonl`. Rounds stop at round 3 (threshold cleared).
 
-**Decision.** Rounds stop at round 3 (section 5: threshold cleared). No scheme edit this leg.
+## The freeze (B2b-r3-p3)
+
+**The cluster.** signal t01, n64 t02 and 2007scape t04 hold an offer, a call and the build together; readers took the opening post as "the lead", and the three pairs used three measures. Edits 296 to 302 give T3-002, T3-033 and T3-038 one rule: count the concepts of each act, the most is primary, the opening post does not lead because it comes first (ties: T3-038 if placed, else T3-002 if the mark was chosen, T3-033 if not); and a T3-038/T3-070 question. 129 rechecks, none moves (2007scape t04 counted whole: about 44 build, 35 call, 23 directions, 13 proposals).
+
+**The pairs.** The 449 unconfirmed pairs read whole (`out/_analysis/b2_pairs_read_first.txt`). Two faults fixed (edits 303 to 306): T3-072 and T3-157 said "T3-009 primary" against T3-009's count; the T3-038/T3-070 question sent a link to the finished work to T3-038, which T3-026 takes. 52 rechecks, none moves. All 496 pairs confirmed, 0 stale, no mechanical defect.
+
+**The files.** `scheme_final.jsonl` (197 themes; tier "common" for the 183 main, "rare" for 14; sha256 fb8b543a...), `scheme_final.md` (frozen header), `families.jsonl` (21). The freeze edits are tested only by the gold round (QB2-012). Gates are now read from `scheme_final.jsonl`.
 
 ## What comes next
 
-- **The freeze leg (J, QB2-012, 13:47).** No round 4. A leg of its own confirms the 443 gate pairs, reads the T3-002/T3-033/T3-038 cluster and makes any sentence fix there; the gold round in B2c alone tests that fix.
+- B2c: the gold round on `gold_items.jsonl` and the two stability rounds (`brief-stab-1.md`, `brief-stab-2.md`), built on `scheme_final.jsonl` with fleet ids and the return spec's bag rule and "twenty themes at most"; it ends at `--cut packets-out`.
+- **QB2-014, open.** The B2 check takes tier none, rare, common or core; C1 expects main or rare and finds moves to rare by "main". Assumed until J answers: "common" stands; if J rules "main", supersede `scheme_final.jsonl` under a new name once the B2 check accepts it.
 - **QB2-013, answered.** Four round-3 lines (bag flag, empty `also_present`) are waived by name. `RETURN-B2.md` says a bag with no other theme at the three-concept floor is not flagged (`item_is_a_bag` false, `also_present` `{}`). Round-3 text: `out/_analysis/RETURN-B2_round3.md`.
 - **The bound (J, 13:47).** `also_present` names "twenty themes at most", each with three concepts of its own; a bound, not a goal. The validator and `fleet.py` apply it only where that exact phrase stands. Write both rules, the phrase word for word, into B3's return specification. Rounds 1 to 3 are scored as given.
-- Before the freeze: the 443 unconfirmed pairs read and confirmed, and every cluster read for a decide_when_both that names a theme with no discriminator.
 
 ## Standing words from J and the PI (carry into every head)
 
@@ -138,9 +138,9 @@ None is filed in `_questions/`. These remain open:
 
 - B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `scheme.jsonl` (197, edited); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines, F-001 and its superseding line); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
 - B2:
-  - `notes-B2.md` (968 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (3);
-  - `scheme_edits.jsonl` (295); `rechecks-B2.jsonl` (1,413, of which 526 the withdrawn split's; none owed); `gate_checks.jsonl` (31 pairs confirmed); `exemplar_candidates.jsonl` (68); `tier_history.jsonl` (381); `run_manifest.json` (6: A1, B2 round 1, two round-2 entries, two round-3 entries, the second superseding the first).
-- Asks QB2-001 to QB2-013 are answered; none is open. `return_waivers.jsonl` holds 20 waivers (J: 16 at QB2-009, 4 at QB2-013). `out/recut/` holds the 56 withdrawn children, as written.
+  - `notes-B2.md` (1,060 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (3); `scheme_final.jsonl` (197), `scheme_final.md`;
+  - `scheme_edits.jsonl` (306); `rechecks-B2.jsonl` (1,594, of which 526 the withdrawn split's; none owed); `gate_checks.jsonl` (519 lines, all 496 pairs confirmed); `exemplar_candidates.jsonl` (68); `tier_history.jsonl` (392); `run_manifest.json` (6: A1, B2 round 1, two round-2 entries, two round-3 entries, the second superseding the first).
+- Asks QB2-001 to QB2-013 are answered; QB2-014 is open. `return_waivers.jsonl` holds 20 waivers (J: 16 at QB2-009, 4 at QB2-013). `out/recut/` holds the 56 withdrawn children, as written.
 
 ## Rules kept
 
@@ -165,7 +165,6 @@ None is filed in `_questions/`. These remain open:
 - `mem.py` pages long output (`[lines 1-80 of N]`); fetch the rest with `--offset` before trusting a count.
 - New author items on edited themes owe rechecks under every edit that touches their themes; record them before the close.
 - `mem.py recheck` takes about 4.5 seconds a record. Run rechecks in the foreground in slices under ten minutes; the recheck scripts skip what is already recorded.
-- `mem.py theme` prints the working placements above the concepts; `mem.py blind on` hides them.
 - After a compaction the guard requires the head and stage file read again and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other write. After an interrupted turn or a lost connection, check the record before rerunning anything.
 
 ## The next comparison

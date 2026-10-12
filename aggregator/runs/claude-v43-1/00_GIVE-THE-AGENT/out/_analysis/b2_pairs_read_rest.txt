@@ -1,0 +1,236 @@
+#1 T3-020|T3-036 DIFF
+T3-020  choosing a canvas spot
+  must_show: Where the mark should go: free space found, corners and neighbours weighed, a location announced or changed before or while building.
+  must_not_show naming T3-036: judging there is no space left (T3-036).
+  discriminator against T3-036: Is a spot found (T3-020), or the canvas judged to have none (T3-036)?
+
+T3-036  judging the canvas too full
+  must_show: Statements that there is no space left, or that it is too late, to put the room's work on the canvas: 'no space for us now', 'the chart is too full', the canvas closed before the room began.
+  must_not_show naming T3-020: Searching for a spot (T3-020)
+  decide_when_both naming T3-020: Searching for a spot while judging there is none: T3-020 when the search leads, T3-036 when the judgement does.
+  discriminator against T3-020: Is a spot looked for (T3-020), or is the canvas judged to have none (T3-036)?
+
+#2 T3-024|T3-046 DIFF
+T3-024  refusing to cover others' work
+  must_show: Restraint toward others' work kept by the room's own choice: going around a neighbour's design, refusing to overwrite it, sizing or placing the work to spare it, respect for others' effort stated.
+  discriminator against T3-046: Is the fairness of covering argued (T3-046), or covering simply refused (T3-024)?
+
+T3-046  arguing whether covering is fair
+  must_show: Argument over covering others' work as such: 'it's an open canvas', 'that's the whole point', 'they put in passion, respect it', whether a neighbour may use the room's background.
+  must_not_show naming T3-024: Refusing to cover with no argument (T3-024)
+  decide_when_both naming T3-024: An argument that ends in restraint: T3-046 when the argument leads, T3-024 when the restraint does.
+  discriminator against T3-024: Is covering refused (T3-024), or its fairness argued (T3-046)?
+
+#3 T3-024|T3-168 DIFF
+T3-024  refusing to cover others' work
+  must_show: Restraint toward others' work kept by the room's own choice: going around a neighbour's design, refusing to overwrite it, sizing or placing the work to spare it, respect for others' effort stated.
+  must_not_show naming T3-168: restraint written into a script (T3-168)
+  discriminator against T3-168: Is the restraint kept by hand (T3-024), or written into a script (T3-168)?
+
+T3-168  editing scripts to spare neighbours
+  must_show: A script or bot edited, or asked to be edited, to leave a neighbour's work alone or keep an agreed border.
+  must_not_show naming T3-024: restraint kept by hand with no script (T3-024).
+  discriminator against T3-024: Is the restraint written into a script (T3-168), or kept by hand (T3-024)?
+
+#4 T3-030|T3-193 DIFF
+T3-030  disputing how an alliance went
+  must_show: Argument over an alliance's or deal's conduct or worth: broken word alleged, betrayal warned of, collaboration renounced.
+  must_not_show naming T3-193: arguing whether cooperation is surrender (T3-193)
+  discriminator against T3-193: Is cooperation as such called surrender (T3-193), or one alliance's conduct disputed (T3-030)?
+
+T3-193  arguing whether cooperation is surrender
+  must_show: Argument over cooperation as weakness or surrender: refusals to submit, a treaty defended as sensible, cooperation defended as credit to both rooms.
+  must_not_show naming T3-030: an ally's conduct disputed (T3-030).
+  discriminator against T3-030: Is one alliance's conduct disputed (T3-030), or cooperation as such called surrender (T3-193)?
+
+#5 T3-045|T3-046 DIFF
+T3-045  arguing who was there first
+  must_show: Priority of place argued: 'we were there first', 'did you steal this spot', timestamped proof, a work built around whoever came first.
+  must_not_show naming T3-046: arguing whether covering is fair at all (T3-046)
+  discriminator against T3-046: Is whether covering is fair argued (T3-046), or who came first (T3-045)?
+
+T3-046  arguing whether covering is fair
+  must_show: Argument over covering others' work as such: 'it's an open canvas', 'that's the whole point', 'they put in passion, respect it', whether a neighbour may use the room's background.
+  must_not_show naming T3-045: arguing who had the spot first (T3-045).
+  discriminator against T3-045: Is who came first argued (T3-045), or whether covering is fair at all (T3-046)?
+
+#6 T3-045|T3-094 DIFF
+T3-045  arguing who was there first
+  must_show: Priority of place argued: 'we were there first', 'did you steal this spot', timestamped proof, a work built around whoever came first.
+  must_not_show naming T3-094: disputing who may approve a spot (T3-094).
+  discriminator against T3-094: Is the right to approve a spot disputed (T3-094), or who came first (T3-045)?
+
+T3-094  disputing who approves a spot
+  must_show: Contest over approval for a spot: 'you are not even approved', 'we shouldn't need permission on an open canvas', warnings that a faction covers unapproved art, claims of approval.
+  must_not_show naming T3-045: who had the spot first (T3-045).
+  discriminator against T3-045: Is who came first argued (T3-045), or who may approve (T3-094)?
+
+#7 T3-066|T3-152 DIFF
+T3-066  putting decisions to a vote
+  must_show: Members asked to decide together: votes, strawpolls and polls in the thread, 'we need to decide as a group', a leader letting the room choose; members casting votes.
+  must_not_show naming T3-152: a chat's decision reported (T3-152)
+  discriminator against T3-152: Is the decision taken by the room in the thread (T3-066), or reported from a chat (T3-152)?
+
+T3-152  announcing what the chat decided
+  must_show: A report in the thread of what the chat decided or is doing: 'agreed on Discord', 'the Discord is working on it', the chat's next target, a change explained as approved there.
+  must_not_show naming T3-066: a decision put to the thread by vote (T3-066).
+  is_not naming T3-066: A moderator putting a choice to a vote in the thread (T3-066).
+  discriminator against T3-066: Is a decision put to the room by vote or poll (T3-066), or a chat's decision reported (T3-152)?
+
+#8 T3-066|T3-173 DIFF
+T3-066  putting decisions to a vote
+  must_show: Members asked to decide together: votes, strawpolls and polls in the thread, 'we need to decide as a group', a leader letting the room choose; members casting votes.
+  must_not_show naming T3-173: office-holders elected (T3-173).
+  is_not naming T3-173: A faction holding elections for its offices (T3-173).
+  discriminator against T3-173: Is a choice about the work voted (T3-066), or a person elected to an office (T3-173)?
+
+T3-173  holding elections for office
+  must_show: Elections in a faction: a new leader elected, voter registration, a round of elections, objections to holding them.
+  must_not_show naming T3-066: Votes on the work (T3-066)
+  decide_when_both naming T3-066: A leader elected who then puts choices to polls: T3-173 for the election, T3-066 for the polls.
+  is_not naming T3-066: A poll on whether to fight, expand or move (T3-066).
+  discriminator against T3-066: Is a choice about the work voted (T3-066), or a person elected to office (T3-173)?
+
+#9 T3-089|T3-168 SAME
+T3-089  switching off stale scripts
+  must_show: The room's scripts or bots working against its own current plan: old versions overwriting, bots fighting each other or a neighbour's agreed space, calls to stop or update them.
+  must_not_show naming T3-168: a script edited to spare a neighbour as an agreed change (T3-168).
+  is_not naming T3-168: A script revised to leave a neighbour's border alone (T3-168).
+  discriminator against T3-168: Is a script stopped because it fights the room's own plan (T3-089), or edited to spare a neighbour (T3-168)?
+
+T3-168  editing scripts to spare neighbours
+  must_show: A script or bot edited, or asked to be edited, to leave a neighbour's work alone or keep an agreed border.
+  must_not_show naming T3-089: Turning off stale scripts that fight the room's own plan (T3-089)
+  is_not naming T3-089: Stopping an outdated script that overwrites the room's own work (T3-089).
+  discriminator against T3-089: Is a script stopped because it fights the room's own plan (T3-089), or edited to spare a neighbour (T3-168)?
+
+#10 T3-094|T3-162 DIFF
+T3-094  disputing who approves a spot
+  must_show: Contest over approval for a spot: 'you are not even approved', 'we shouldn't need permission on an open canvas', warnings that a faction covers unapproved art, claims of approval.
+  must_not_show naming T3-162: a host ruling on requests (T3-162)
+  decide_when_both naming T3-162: A host's ruling that is contested: T3-162 for the ruling, T3-094 for the contest when it has concepts of its own.
+  is_not naming T3-162: A faction ruling on a request to build in its space (T3-162).
+  discriminator against T3-162: Does the host rule on requests (T3-162), or is the need for its approval disputed (T3-094)?
+
+T3-162  vetting others' requests to build
+  must_show: A room that holds space deciding on requests: 'you can build it, but it has to be completely blue', 'denied', rules for which art stays, lists of approved art.
+  must_not_show naming T3-094: disputing the need for approval (T3-094)
+  decide_when_both naming T3-094: A ruling that is contested: T3-162 for the ruling, T3-094 for the contest.
+  discriminator against T3-094: Does the host rule (T3-162), or is the need for its approval disputed (T3-094)?
+
+#11 T3-096|T3-163 DIFF
+T3-096  hailing the colour corners
+  must_show: Outsiders hailing or cheering a colour faction or corner, or calling others to its side, without being its own members.
+  decide_when_both naming T3-163: A member of another sub who joins the faction and hails it: T3-163 for the joining, T3-096 for the hailing.
+  discriminator against T3-163: Does a member defect to the faction (T3-163), or only cheer it (T3-096)?
+
+T3-163  defecting from a rival faction
+  must_show: Defection or conversion between canvas factions: 'defector from the Blue Corner', 'converting from the Void', joining the lattice's army with a first pixel.
+  must_not_show naming T3-096: outsiders cheering a faction (T3-096).
+  discriminator against T3-096: Does a member cross over (T3-163), or only cheer a faction (T3-096)?
+
+#12 T3-107|T3-109 DIFF
+T3-107  keeping planning in the thread
+  must_show: A choice or agreement to coordinate in the thread rather than in a chat, or a chat tried and failed so that the thread carried the work.
+  must_not_show naming T3-109: arguing which chat to use (T3-109).
+  discriminator against T3-109: Is the thread chosen over any chat (T3-107), or one chat argued against another (T3-109)?
+
+T3-109  arguing which chat to use
+  must_show: A dispute or choice among chats: Discord against IRC or Slack, the official server against a new one, whether a chat suits the room at all.
+  discriminator against T3-107: Is one chat weighed against another (T3-109), or the thread kept over any chat (T3-107)?
+
+#13 T3-108|T3-120 DIFF
+T3-108  sharing one bot target
+  must_show: A bot's target or map shared across rooms: other rooms' logos added to it, a target shared with another nation's room, scripts merged so another room can use them.
+  must_not_show naming T3-120: members lending accounts to another room's bot (T3-120).
+  is_not naming T3-120: A member lending their accounts to another room's bot (T3-120).
+  discriminator against T3-120: Do rooms share one target (T3-108), or do members lend their accounts to another's bot (T3-120)?
+
+T3-120  lending accounts to a bot
+  must_show: Accounts lent to a bot: members asked to run another's script or join a botnet, accounts handed over for someone else to run, manpower traded for a script.
+  must_not_show naming T3-108: a target shared among rooms (T3-108).
+  discriminator against T3-108: Do rooms share one target (T3-108), or do members lend accounts (T3-120)?
+
+#14 T3-109|T3-114 DIFF
+T3-109  arguing which chat to use
+  must_show: A dispute or choice among chats: Discord against IRC or Slack, the official server against a new one, whether a chat suits the room at all.
+  must_not_show naming T3-114: disputing whether the chat may decide for the room (T3-114).
+  decide_when_both naming T3-114: when it is whether the venue's decisions bind the room, T3-114.
+  is_not naming T3-114: Members disputing that a Discord may decide for the room (T3-114).
+  discriminator against T3-114: Is the argument about which chat (T3-109), or about the chat's right to decide (T3-114)?
+
+T3-114  disputing the chat's authority
+  must_show: Contest over the chat's standing: a Discord said to have no right to decide; the work said to belong on Reddit; members outside the chat said to be left out; the chat's decisions defended as binding; a chat seized or closed.
+  must_not_show naming T3-109: Choosing which chat to use (T3-109)
+  discriminator against T3-109: Is the question which chat (T3-109), or whether the chat may decide (T3-114)?
+
+#15 T3-114|T3-152 DIFF
+T3-114  disputing the chat's authority
+  must_show: Contest over the chat's standing: a Discord said to have no right to decide; the work said to belong on Reddit; members outside the chat said to be left out; the chat's decisions defended as binding; a chat seized or closed.
+  must_not_show naming T3-152: relaying the chat's decisions with no dispute (T3-152)
+  discriminator against T3-152: Are the chat's decisions only reported (T3-152), or contested or defended as binding (T3-114)?
+
+T3-152  announcing what the chat decided
+  must_show: A report in the thread of what the chat decided or is doing: 'agreed on Discord', 'the Discord is working on it', the chat's next target, a change explained as approved there.
+  must_not_show naming T3-114: disputing whether the chat may decide (T3-114)
+  discriminator against T3-114: Is the chat's decision reported (T3-152), or its right to decide contested (T3-114)?
+
+#16 T3-134|T3-154 DIFF
+T3-134  flooding rivals' threads with chants
+  must_show: A chant, refrain or slogan repeated by many members in another room's thread or in their own as a raid or victory chorus.
+  discriminator against T3-154: Is victory claimed in words (T3-154), or chanted as a chorus (T3-134)?
+
+T3-154  claiming victory over rival rooms
+  must_show: Victory claimed against named or implied rivals: a flag that outlasted a rival's, a small sub that held against bigger ones, rivals called defeated.
+  discriminator against T3-134: Is victory claimed in words (T3-154), or chanted as a flood (T3-134)?
+
+#17 T3-142|T3-143 DIFF
+T3-142  making ethnic jokes about rivals
+  must_show: Jokes, insults or slurs aimed at a rival people or nation: refugees, 'elf scum', a whole people cursed, national stereotypes used as abuse.
+  must_not_show naming T3-143: arguing whether a taunt goes too far (T3-143).
+  discriminator against T3-143: Is the joke made (T3-142), or argued as going too far (T3-143)?
+
+T3-143  judging whether a joke offends
+  must_show: Argument over a joke's or taunt's limits: called racist or horrible, defended as only a joke, 'you can't make a joke without offending someone'.
+  must_not_show naming T3-142: The taunt or joke itself (T3-050, T3-142)
+  decide_when_both naming T3-142: A taunt and the argument over it: T3-050 or T3-142 when the taunting leads, T3-143 when the argument does.
+  discriminator against T3-142: Is the ethnic joke made (T3-142), or its limits argued (T3-143)?
+
+#18 T3-154|T3-155 SAME
+T3-154  claiming victory over rival rooms
+  must_show: Victory claimed against named or implied rivals: a flag that outlasted a rival's, a small sub that held against bigger ones, rivals called defeated.
+  must_not_show naming T3-155: rivals saluted (T3-155).
+  discriminator against T3-155: Is victory claimed (T3-154), or the rival saluted (T3-155)?
+
+T3-155  saluting rivals after the fight
+  must_show: Respect or thanks addressed to a rival after the fight: 'well played', 'GG', 'thanks for playing', a loss conceded with good grace.
+  must_not_show naming T3-154: victory claimed (T3-154)
+  discriminator against T3-154: Is victory claimed (T3-154), or the rival saluted (T3-155)?
+
+#19 T3-163|T3-190 DIFF
+T3-163  defecting from a rival faction
+  must_show: Defection or conversion between canvas factions: 'defector from the Blue Corner', 'converting from the Void', joining the lattice's army with a first pixel.
+  must_not_show naming T3-190: A faction splitting over doctrine (T3-190)
+  decide_when_both naming T3-190: A member leaving over doctrine to found or join a splinter: T3-190 when the split is the doing, T3-163 when the member's crossing is.
+  is_not naming T3-190: A faction splitting into rival doctrines (T3-190).
+  discriminator against T3-190: Does a faction split over doctrine (T3-190), or does a member cross from a rival faction (T3-163)?
+
+T3-190  splitting a faction over doctrine
+  must_show: Dispute over a faction's doctrine that divides it: members leaving for a purer version, splinter subs founded, the faction's past and true nature argued.
+  must_not_show naming T3-163: A member defecting from a rival faction (T3-163)
+  decide_when_both naming T3-163: A member leaving over doctrine: T3-190 when the split in the faction is the doing, T3-163 when the crossing to another faction is.
+  discriminator against T3-163: Does a member cross from a rival faction (T3-163), or does the faction split over its doctrine (T3-190)?
+
+#20 T3-172|T3-173 DIFF
+T3-172  renewing the order's oaths
+  must_show: An order's or faction's own rules, commandments, oaths or membership rolls set or renewed: commandments for its members, a yearly renewal, officers appointed by the order.
+  must_not_show naming T3-173: Elections for office (T3-173)
+  decide_when_both naming T3-173: officers voted in: T3-173.
+  is_not naming T3-173: A faction voting in a new leader (T3-173).
+  discriminator against T3-173: Are offices filled by election (T3-173), or the order's rules and oaths laid down or renewed (T3-172)?
+
+T3-173  holding elections for office
+  must_show: Elections in a faction: a new leader elected, voter registration, a round of elections, objections to holding them.
+  discriminator against T3-172: Are rules and oaths laid down (T3-172), or offices filled by vote (T3-173)?
+
+END

@@ -1,0 +1,38 @@
+{
+ "t": "2026-10-12T12:43:29+00:00",
+ "stage": "B2",
+ "leg": "B2b-r3-p3",
+ "answers": {},
+ "expected": {
+  "open": [],
+  "rooms": [],
+  "changed": [
+   "T3-002",
+   "T3-033",
+   "T3-038",
+   "T3-070",
+   "T3-072",
+   "T3-157"
+  ],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "n/a",
+  "rooms": "n/a",
+  "changed": "missing",
+  "next": "n/a"
+ },
+ "scored": 2,
+ "unscored": [
+  "open",
+  "rooms",
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "changed"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

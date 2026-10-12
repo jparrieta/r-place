@@ -754,15 +754,15 @@ Members call the room's own members to come and place for its work: to start, bu
 
 - Must show: Calls to the room's members, or to placers not yet gathered into a group, to come and place: 'come help', 'we need more people', 'everyone join', rallies to build, finish or repair a work, posts asking who is in.
 - Must not show: Calls aimed at other subs (T3-062) or at another canvas room as a room (T3-084); welcoming canvas visitors into the sub (T3-044). The national flag as the room's mark carries T3-065; writing the sub's name carries T3-169.
-- Decide when both: A call made mostly of coordinates or a template is T3-070, with T3-002 added when the call has concepts of its own; a call to defend a work under attack is T3-005 when the defence leads.
+- Decide when both: A call made mostly of coordinates or a template is T3-070, with T3-002 added when the call has concepts of its own; a call to defend a work under attack is T3-005 when the defence leads. When a theme holds two or more of these acts (an idea of what to make offered to the room, T3-033; hands called to place, T3-002; the work placed and its progress reported, T3-038), count the concepts of each: the act with the most concepts of its own is primary, and another is added under rule 0 only with concepts of its own. The opening post does not lead because it comes first. On a tie, T3-038 when the work was placed; else T3-002 when the mark was already chosen, T3-033 when it was not.
 - Against T3-062: Are the room's own members called (T3-002), or the members of other subs (T3-062)?
 - Against T3-005: Is the call to build or finish (T3-002), or to defend against an attack under way (T3-005)?
-- Against T3-033: Is a mark already chosen and hands called for it (T3-002), or a mark proposed (T3-033)?
+- Against T3-033: Count the concepts of each: is the larger share an idea of what to make offered to the room (T3-033), or hands called to a mark already chosen (T3-002)? The opening post does not lead because it comes first.
 - Against T3-070: Is the call itself the doing (T3-002), or the coordinates and templates that tell placers what to place (T3-070)?
 - Against T3-104: Are people asked to place (T3-002), or those already placing cheered on (T3-104)?
 - Against T3-169: Is the work the sub's name written on the canvas (T3-169), whatever the call or report about it, or any other picture called for (T3-002)?
 - Against T3-016: Is the event explained (T3-016), or are members called to come and place (T3-002)?
-- Against T3-038: Is the work placed and reported (T3-038), or are hands called for it (T3-002)?
+- Against T3-038: Count the concepts of each: is the larger share the work placed and its progress reported (T3-038), or hands called for it (T3-002)? An opening call does not lead because it comes first.
 - Against T3-051: Are members asked to vote a post up (T3-051), or to come and place (T3-002)?
 - Against T3-065: Is the work a flag of the land the room is named for or speaks for, a flag built in r/guatemala being Guatemala's unless its concepts name another (T3-065), or any other picture (T3-002)?
 - Against T3-167: Is a time set for placing together (T3-167), or hands called with no time (T3-002)?
@@ -938,6 +938,7 @@ Members circulate what placers need to reproduce the work: coordinates, template
 - Against T3-016: Is the event explained for anyone (T3-016), or a guide, template or coordinates for the room's work posted to follow (T3-070)?
 - Against T3-034: Are directions asked for (T3-034) or given (T3-070)?
 - Against T3-103: Are directions given to all (T3-070), or parts handed to particular members (T3-103)?
+- Against T3-038: Is the mark being placed and its progress reported, coordinates given as where the work in progress stands (T3-038), or are directions posted for placers to follow, coordinates, templates, guides or colour plans (T3-070)? A link that only shows where the finished work is points to it (T3-026), not a direction.
 - Varies: From one pair of coordinates to step-by-step guides and colour-coordination threads; plans of colours, borders and timings are included.
 - Is not: Arguing over which design to build (T3-004).
 - Exemplars: "Update: Here is the guide: http://i.imgur.com/kAzcjIv.jpg" (startrek c0089); "The grid layout of our flag!" (canada c0228, rivals c0064); "Coords are (159,721) if anyone needs them" (rickandmorty c0353)
@@ -1182,14 +1183,14 @@ A member offers the room an idea of what to make on the canvas, and calls the ro
 
 - Must show: An idea of what the room should put on the canvas, offered to the room: 'we should put X on r/place', 'let's make a ...', a proposal with or without a picture; slogans and symbols proposed as the room's mark included.
 - Must not show: Calls for hands to a mark already chosen (T3-002); the design of a chosen mark worked out (T3-004).
-- Decide when both: A theme whose lead is recruiting hands to a picture is T3-002; one whose lead is offering the room an idea of what to make is T3-033.
-- Against T3-002: Is the lead an idea of what to make (T3-033), or hands called to a picture already chosen (T3-002)?
+- Decide when both: When a theme holds two or more of these acts (an idea of what to make offered to the room, T3-033; hands called to place, T3-002; the work placed and its progress reported, T3-038), count the concepts of each: the act with the most concepts of its own is primary, and another is added under rule 0 only with concepts of its own. The opening post does not lead because it comes first. On a tie, T3-038 when the work was placed; else T3-002 when the mark was already chosen, T3-033 when it was not.
+- Against T3-002: Count the concepts of each: is the larger share an idea of what to make offered to the room (T3-033), or hands called to a mark already chosen (T3-002)? The opening post does not lead because it comes first.
 - Against T3-004: Is a mark proposed (T3-033), or a chosen mark's look worked out (T3-004)?
 - Against T3-098: Is a mark proposed (T3-033), or the room's absence from the canvas questioned (T3-098)?
 - Against T3-041: Is the room's first mark proposed (T3-033), or a second piece beside an existing one (T3-041)?
 - Against T3-092: Is a mark proposed for the room to make (T3-033), or made alone and reported (T3-092)?
 - Against T3-129: Is a mark proposed as the room's emblem (T3-033), or as a message carrying a demand (T3-129)?
-- Against T3-038: Is an idea of what to make offered to the room (T3-033), or a mark being placed and its progress reported (T3-038)? A proposal followed by its placing: the side with more concepts is primary.
+- Against T3-038: Count the concepts of each: is the larger share an idea of what to make offered to the room (T3-033), or the mark placed and its progress reported (T3-038)? A proposal does not lead because it comes first.
 - Varies: From one member's wish to put a symbol on the canvas to a series of picture proposals; political slogans proposed as such sit here.
 - Is not: A call for help on a picture already started (T3-002).
 - Exemplars: "we should put a plansewalker symbol on r/place" (magictcg c0138); "We need to rep Stardew Valley on https://www.reddit.com/r/place/ !!! Let's make a jumino or something!" (stardewvalley c0001); "We should make a pixel art for our lord and saviour on /r/place" (leagueoflegends c0383)
@@ -1332,15 +1333,16 @@ Members build the mark and report its progress: started, half done, almost there
 
 - Must show: Placing the mark and reports of its state: started, coordinates of the work in progress, half done, almost finished, the parts done and left.
 - Must not show: Calls for hands (T3-002); the design argued (T3-004); the finished work celebrated (T3-009); repair after an attack (T3-021).
-- Decide when both: Building with calls for hands or with repairs: the larger part primary and the other under rule 0.
-- Against T3-002: Is the work placed and reported (T3-038), or are hands called for it (T3-002)?
+- Decide when both: Building with repairs: the larger part primary and the other under rule 0. When a theme holds two or more of these acts (an idea of what to make offered to the room, T3-033; hands called to place, T3-002; the work placed and its progress reported, T3-038), count the concepts of each: the act with the most concepts of its own is primary, and another is added under rule 0 only with concepts of its own. The opening post does not lead because it comes first. On a tie, T3-038 when the work was placed; else T3-002 when the mark was already chosen, T3-033 when it was not.
+- Against T3-002: Count the concepts of each: is the larger share the work placed and its progress reported (T3-038), or hands called for it (T3-002)? An opening call does not lead because it comes first.
 - Against T3-021: Is the mark built for the first time (T3-038), or restored after damage (T3-021)?
 - Against T3-009: Is the work under way (T3-038), or finished and celebrated (T3-009)?
 - Against T3-003: Is the room's mark reported (T3-038), or one member's own share (T3-003)?
 - Against T3-073: Is the first build's progress reported (T3-038), or what happened to the work once it stood (T3-073)?
 - Against T3-026: Is the mark's progress reported (T3-038), or its presence announced (T3-026)?
 - Against T3-004: Is the mark being placed and its progress reported (T3-038), or its look argued and corrected against the plan (T3-004)?
-- Against T3-033: Is an idea of what to make offered to the room (T3-033), or a mark being placed and its progress reported (T3-038)? A proposal followed by its placing: the side with more concepts is primary.
+- Against T3-033: Count the concepts of each: is the larger share an idea of what to make offered to the room (T3-033), or the mark placed and its progress reported (T3-038)? A proposal does not lead because it comes first.
+- Against T3-070: Is the mark being placed and its progress reported, coordinates given as where the work in progress stands (T3-038), or are directions posted for placers to follow, coordinates, templates, guides or colour plans (T3-070)? A link that only shows where the finished work is points to it (T3-026), not a direction.
 - Varies: From a start at given coordinates to running reports until the close.
 - Is not: Restoring the mark after an attack (T3-021).
 - Exemplars: "Making really good progress now. We are about half way done." (necrodancer c0014); "I've started to make one. Finished with the face and eyes in the vicinity of (886,563)" (hyperlightdrifter c0008); "WE ARE ALMOST THERE FELLOW GREENS!!!" (greenlattice c0109)
@@ -3249,7 +3251,7 @@ Members thank other rooms that helped and tell the story of who stood with the r
 
 - Must show: Another room thanked for help, or the alliance's story told: which rooms stood with the room, who tried to save the work, the alliance that made it.
 - Must not show: The room's own makers credited (T3-043); ties proposed beyond the canvas (T3-158); greetings with no help behind them (T3-122); an alliance formed for a fight (T3-150).
-- Decide when both: Thanks to allies inside a celebration: T3-009 primary; T3-072 added where the allies have concepts of their own.
+- Decide when both: Thanks to allies inside a celebration: the side with more concepts is primary, T3-009 when the celebrating holds more; the other added only where its part has concepts of its own.
 - Against T3-043: Is another room thanked as an ally (T3-072), or the room's own makers credited (T3-043)?
 - Against T3-158: Are allies thanked for the canvas (T3-072), or ties proposed beyond it (T3-158)?
 - Against T3-122: Is help thanked (T3-072), or a greeting sent with no help behind it (T3-122)?
@@ -3360,7 +3362,7 @@ Members say what the shared effort meant: strangers cooperating, the community a
 
 - Must show: What working together meant: cooperation with strangers, the community effort as what made the work, redditors creating amid chaos.
 - Must not show: The work celebrated (T3-009); allies thanked (T3-072); the canvas's worth argued (T3-037); support felt by a group (T3-164).
-- Decide when both: Reflection inside a celebration: T3-009 primary; T3-157 added where the reflection has concepts of its own.
+- Decide when both: Reflection inside a celebration: the side with more concepts is primary, T3-009 when the celebrating holds more; the other added only where its part has concepts of its own.
 - Against T3-009: Is the finished work celebrated (T3-009), or what working together meant reflected on (T3-157)?
 - Against T3-072: Are allies thanked (T3-072), or the meaning of working together reflected on (T3-157)?
 - Against T3-037: Is the canvas's worth argued (T3-037), or what working together meant reflected on (T3-157)?
