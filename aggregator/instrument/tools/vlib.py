@@ -940,3 +940,26 @@ def fleet_translate(r, by_fleet):
     if isinstance(ml, dict):
         r["multiplacement_log"] = {k: ([c(x) for x in v] if isinstance(v, list) else v) for k, v in ml.items()}
     return r
+
+
+# ---- also_present's bound (J, 2026-10-12) ----------------------------------------------------------------
+# A bag names at most twenty further themes, each with at least three concepts of its own. Twenty is a bound,
+# not a target: a reader names only the themes it finds, and an item with no other theme at the floor is not a
+# bag. (An earlier draft that day asked for 10% of the item's concepts; readers cite a handful of examples per
+# theme, so a share of the item measured their citing, not the theme, and J replaced it.)
+BOUND_PHRASE = "twenty themes at most"
+AP_CAP, AP_FLOOR = 20, 3
+
+
+def also_present_bound_problems(ap):
+    """also_present over the bound: more than twenty themes, or a theme with fewer than three concepts."""
+    if not isinstance(ap, dict) or not ap:
+        return []
+    P = []
+    if len(ap) > AP_CAP:
+        P.append("also_present names %d themes; twenty at most" % len(ap))
+    for t, cs in ap.items():
+        k = len(cs if isinstance(cs, list) else [cs])
+        if k < AP_FLOOR:
+            P.append("also_present names %s with %d concepts; three at least" % (t, k))
+    return P

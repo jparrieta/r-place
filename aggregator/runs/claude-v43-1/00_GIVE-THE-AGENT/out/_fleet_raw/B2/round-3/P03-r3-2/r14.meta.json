@@ -1,0 +1,34 @@
+{
+ "packet": "P03-r3-2",
+ "group": "P03-r3-2",
+ "reader": "r14",
+ "reissue": 2,
+ "generation": "msg_mHueU9hiqCbRKf48bQ4M",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 118935,
+  "output_tokens": 28046,
+  "output_tokens_details": {
+   "thinking_tokens": 23784
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.038134635,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.038134635,
+   "upstream_inference_prompt_cost": 0.019624275,
+   "upstream_inference_completions_cost": 0.01851036
+  }
+ },
+ "elapsed_s": 125.6,
+ "packet_sha256": "36a3c20dccf18a9a788079ee69ea3353c48aeb7eea1c0dc8daa0fd7638ef35d6",
+ "valid": false,
+ "why": "line 2 cites T3-152, not among the codes of its item",
+ "served_matches_probe": true
+}

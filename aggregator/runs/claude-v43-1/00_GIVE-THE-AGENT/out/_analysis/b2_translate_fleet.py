@@ -32,19 +32,27 @@ def main():
             ft[r["fleet"]] = (r["sub"], r["id"])
     raw = os.path.join(OUT, "_fleet_raw", "B2", "round-%s" % a.round)
     dst = os.path.join(OUT, "_analysis", "b2_r%s_returns" % a.round)
+    # a rescue record (the handler's, round 3) names the three replies kept per packet; only those are read
+    rescue = [f for f in os.listdir(raw) if f.startswith("RESCUE-") and f.endswith(".json")]
+    kept = None
+    if rescue:
+        kept = {pk: set(v["kept"]) for pk, v in json.load(open(os.path.join(raw, sorted(rescue)[-1]), encoding="utf-8"))["packets"].items()}
+        print("reading the replies kept by %s" % sorted(rescue)[-1])
     probs, n = [], 0
     for pkd in sorted(os.listdir(raw)):
         d = os.path.join(raw, pkd)
         if not os.path.isdir(d):
             continue
         for f in sorted(os.listdir(d)):
-            if not f.endswith(".jsonl"):
+            if not f.endswith(".jsonl") or (kept is not None and f[:-6] not in kept.get(pkd, ())):
                 continue
             out = []
             for i, x in enumerate(jl(os.path.join(d, f)), 1):
                 n += 1
                 where = "%s/%s line %d" % (pkd, f, i)
-                sub, fid = x.get("sub"), x.get("theme_id")
+                # round 3's readers write the room as "r/name"; the table writes "name"
+                sub, fid = re.sub(r"^/?r/", "", str(x.get("sub") or "")), x.get("theme_id")
+                x = dict(x, sub=sub)
                 tt = ft.get(fid)
                 if tt is None or tt[0] != sub:
                     probs.append("%s: theme id %s is %s" % (where, fid, "not in the table" if tt is None else "r/%s's" % tt[0]))

@@ -165,7 +165,7 @@ def spec_in_force(outdir, name, d):
     return bool(t) and arm.get("return_spec_sha256") == hashlib.sha256(t.encode("utf-8")).hexdigest()
 
 
-def check_also_present(rel, r, ct, scheme, required, where):
+def check_also_present(rel, r, ct, scheme, required, where, share=False):
     """Rule 0 as amended (J, 2026-10-11): a bag places one theme and names the others under also_present,
     each with its own concepts. Checked where present; required on a bag line when the specification the
     round was sent under asks for it."""
@@ -173,6 +173,9 @@ def check_also_present(rel, r, ct, scheme, required, where):
     bag = bool(r.get("item_is_a_bag") or r.get("bag"))
     for p in vlib.also_present_problems(r.get("also_present"), so, r.get("sub"), r.get("theme_id"), ct, scheme):
         err("%s: a return on %s: %s" % (rel, key_of(r), p), shape="%s: also_present" % rel, where=where)
+    if share:                                     # J, 2026-10-12: twenty themes at most, three concepts each
+        for p in vlib.also_present_bound_problems(r.get("also_present")):
+            err("%s: a return on %s: %s" % (rel, key_of(r), p), shape="%s: also_present over its bound" % rel, where=where)
     if bag and required and not r.get("also_present"):
         err("%s: a return on %s is a bag and names no also_present; rule 0 keeps every theme beyond the one placed, "
             "each with its own concepts" % (rel, key_of(r)), shape="%s: a bag with no also_present" % rel, where=where)
@@ -304,6 +307,7 @@ def check(root, outdir, ctx):
         rel = os.path.relpath(d, outdir)
         n_lines, n_readers, n_waived = 0, 0, 0
         required = bool(spec_ap and spec_in_force(outdir, "RETURN-B2.md", d))
+        share = bool(required and vlib.BOUND_PHRASE in text(outdir, "RETURN-B2.md"))
         for p, rows in returns_in(d):
             n_readers += 1
             for i, r in enumerate(rows, 1):
@@ -354,7 +358,7 @@ def check(root, outdir, ctx):
                         err("%s: a return on %s cites support %r, which does not resolve in package/store/codes.jsonl "
                             "for that room" % (rel, key_of(r), c),
                             shape="%s: a support id that does not resolve" % rel, where=key_of(r))
-                check_also_present(rel, r, ct, scheme, required, "%s line %d" % (os.path.basename(p), i))
+                check_also_present(rel, r, ct, scheme, required, "%s line %d" % (os.path.basename(p), i), share)
         print("  %s: %d readers, %d return lines%s" % (rel, n_readers, n_lines,
                                                          ", %d waived by J (return_waivers.jsonl)" % n_waived if n_waived else ""))
 

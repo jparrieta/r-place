@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B2a-r3-p2, 2026-10-12 (UTC): J withdrew the split; round 3 rebuilt on round 2's 50 items in 5 self-contained packets with fleet ids (`out/_packets-B2/round-3/`). The dispatch runs next, then the check of round 3.
+Under 3,000 words, rewritten whole at every close. Last written at B2b-r3, 2026-10-12 (UTC): round 3 checked. Pairwise 0.728 clears the 0.70 threshold, so the rounds stop; no round 4 (QB2-012). Four bag-flag lines waived (QB2-013). A freeze leg of its own comes next.
 
 ## The method question, in one sentence
 
@@ -10,7 +10,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is open: rounds 1 and 2 are built, dispatched, checked and edited.
+Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is open: rounds 1 to 3 are built, dispatched and checked; rounds 1 and 2 were edited.
 
 **Round 1, as scored** (readers r12, r15 and r16 only; the other attempts failed):
 - fidelity against `author_items.jsonl` 0.594 (mean Jaccard; primary match 0.742);
@@ -18,13 +18,13 @@ Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families)
 - alpha 0.726;
 - 18 of 40 items with two readers differing.
 
-The readers ran on deepseek/deepseek-v4-flash-0731 at high effort on mixed providers. The run cost 0.369 USD. The line is in `pilot_rounds.jsonl`; the per-item table is `out/_analysis/b2_r1_items.tsv`.
+Per-item table: `out/_analysis/b2_r1_items.tsv`.
 
-**What round 1 showed.** I placed 24 of 40 items on two kinds; the readers placed one kind almost always. Those second placements are my author-errors under rule 0, read strictly. Real splits came on guatemala t02 and catalunya t01 (the homeland's flag), dofus t01, cubers t12, nVade t04 (another room's work defended), WisconsinBadgers t04 and farmcarrots t15. acecombat t05, Goodboye t03 and simonfraser t08 are bags.
+**What round 1 showed.** I placed 24 of 40 items on two kinds; the readers placed one kind almost always, so those second placements are my author-errors under rule 0. acecombat t05, Goodboye t03 and simonfraser t08 are bags.
 
-**The edits** (`scheme_edits.jsonl`, 286 lines, round 1): 6 sentence changes (T3-005 and T3-021 on repair during a raid, T3-009 and T3-043, T3-065, T3-092); 8 discriminators from the round's splits; 28 new questions for `must_not_show` lines with no discriminator; 7 questions in the deal cluster around T3-010; 202 word-for-word mirrors (kind gate-check, QB2-003). `mem.py gates` finds no defect. 28 pairs are confirmed in `gate_checks.jsonl`; 464 are not, and are read before the freeze. `mem.py gates` does not see a decide_when_both that names a theme with no discriminator; the deal cluster was found by reading, and the other clusters are read for it before the freeze.
+**The edits** (`scheme_edits.jsonl` lines 1 to 286, round 1): 6 sentence changes, 8 discriminators, 28 new questions for `must_not_show` lines with no discriminator, 7 questions in the deal cluster around T3-010, 202 word-for-word mirrors (QB2-003). `mem.py gates` does not see a decide_when_both that names a theme with no discriminator; the deal cluster was found by reading, and the other clusters are read for it before the freeze.
 
-**The rechecks.** 754 records in `rechecks-B2.jsonl`, none owed. 697 are round 1's: 22 items moved (18 author-errors, 4 edits doing their work). 57 are the ten new items under 42 edits: all unchanged, each read against the edit's changed sentence (`out/_analysis/b2_rechecks_r2.py`). `author_items.jsonl` stays as written; fidelity is reported against it and against the rechecked placements.
+**The rechecks.** Round 1's edits moved 22 items (18 author-errors, 4 edits doing their work). `author_items.jsonl` stays as written; fidelity is reported against it and against the rechecked placements.
 
 ## Round 2, as built (B2a-r2)
 
@@ -32,9 +32,9 @@ The readers ran on deepseek/deepseek-v4-flash-0731 at high effort on mixed provi
 - Single placements: leagueoflegends t02 T3-023, theblackvoid t09 T3-006, ainbowroad t11 T3-035, dota2 t05 T3-023.
 - Bags: 2007scape t04 T3-038 (five more), theblackvoid t12 T3-174 (four), ainbowroad t04 T3-021 (four), ainbowroad t03 T3-005 (four), ainbowroad t07 T3-041 (four), sweden t01 T3-065 (five).
 
-**`RETURN-B2.md`** carries the `also_present` clause; its earlier texts are `out/_analysis/RETURN-B2_round1.md` and `RETURN-B2_round2_parts.md`.
+**`RETURN-B2.md`** carries the `also_present` clause; earlier texts are in `out/_analysis/`.
 
-**The packets.** A first build in eleven parts failed in dispatch (HTTP 400 at part 6, most likely the reader preset, J). It is set aside at `out/_analysis/fleet_B2_round2_failed/` and never scored (QB2-005, QB2-006). The round was rebuilt as five self-contained packets in `out/_packets-B2/round-2/`, of 15, 12, 9, 3 and 11 items (`out/_analysis/b2_packets_r2b.py`, seed 20261012; the items per packet are in `out/_analysis/b2_order_r2b.json`). `run_manifest.json` has two round-2 entries; the second supersedes the first.
+**The packets.** A first build in eleven parts failed in dispatch and is set aside at `out/_analysis/fleet_B2_round2_failed/`, never scored (QB2-005, QB2-006). Round 2 ran as five self-contained packets (`out/_analysis/b2_packets_r2b.py`, seed 20261012).
 
 ## Round 2, as scored (B2b-r2-p2)
 
@@ -49,20 +49,36 @@ The readers ran on deepseek/deepseek-v4-flash-0731 at high effort on mixed provi
 
 **The edits** (scheme_edits 287 to 295, scheme-ambiguous; `out/_analysis/b2_edits_r2.py`): guatemala t02 (all three readers missed whose flag "a flag" in r/guatemala is) gave T3-065 a gloss sentence and reworded the T3-002/T3-065 and T3-026/T3-065 questions; n64 t02 and dofus t01 gave a new T3-033/T3-038 question; nVade t04 gave new T3-195/T3-011 and T3-195/T3-005 questions. 133 rechecks, none moves; `rechecks-B2.jsonl` 887, none owed. Ten pairs read and confirmed: 31 confirmed, 0 stale, 464 unconfirmed.
 
-**Section 4.** The packets are too short for round 1's curve. Within packets, agreement with the other two falls from first half to last in 9 of 12 readers. The B3 cap stays at 40 with a 10-item warm-up.
+**Section 4.** The packets are too short for a first-ten against last-ten curve. Agreement with the other two falls from first half to last in 9 of 12 readers at round 2 and 9 of 15 at round 3. The B3 cap stays at 40 with a 10-item warm-up.
 
-**QB2-009, answered.** No reissue of round 2: the 16 faulty lines (one incomplete, one mistyped heading, 14 citing concepts not the item's own) are waived by name in `out/return_waivers.jsonl`; `validate.py` skips and counts them. Round 2 stands as scored. The faults came from room ids repeating across rooms and from invented ids landing on sibling codes; fleet ids end both, and `fleet.py` now rejects a line citing a code its item does not hold, using each packet's MANIFEST `codes_by_item` (written by `b2_packets_fleet.py`).
-**The split, withdrawn (J, 2026-10-12, 12:04 Berlin).** At B2b-r2-p2 (QB2-010, QB2-011) I cut six hard bags into 54 children and gold dankmemes t16 into 2. J withdrew it: bags are a coder problem; second-order themes are the coders' to cut, and the aggregator takes them as given. `out/recut/WITHDRAWN.json` makes every tool read the store as before the split; `out/recut/` stays as written. The children's placement lines moved to `out/_analysis/author_items_split_withdrawn.jsonl` (54) and `gold_items_split_withdrawn.jsonl` (2). `rechecks-B2.jsonl` lines 888 to 1,413 (526) are the children's and stay so they resolve; no figure counts them. The full list is in `notes-B2.md`, "The split, withdrawn". Round 2's scores, the waivers, edits 287 to 295 and their rechecks stand. This run splits none of the B1 bags (J counts 841; this head said 846, not reconciled); J decides how the coders recut them. `mem.py theme` printed some lines blank; read bags with `mem.py codes --sub S --second tNN`.
+**QB2-009, answered.** Round 2's 16 faulty lines are waived by name in `out/return_waivers.jsonl`; round 2 stands as scored. Fleet ids and `fleet.py`'s check against each MANIFEST's `codes_by_item` end that fault.
+**The split, withdrawn (J, 2026-10-12, 12:04 Berlin).** At B2b-r2-p2 (QB2-010, QB2-011) I cut six hard bags into 54 children and gold dankmemes t16 into 2. J withdrew it. **No one cuts the bags, neither this run nor the coders (J, 12:24 Berlin):** the second-order themes stand as the coders made them; a bag stays one item through B2 and B3, one theme placed, its other themes under `also_present`, each with three concepts of its own at least. `out/recut/WITHDRAWN.json` makes every tool read the store as before the split; `out/recut/` stays as written. The children's placement lines moved to `out/_analysis/*_split_withdrawn.jsonl`. `rechecks-B2.jsonl` lines 888 to 1,413 (526) are the children's and stay so they resolve; no figure counts them (list in `notes-B2.md`, "The split, withdrawn"). The B1 bags stay as they are (J counts 841; this head said 846, not reconciled). `mem.py theme` printed some lines blank; read bags with `mem.py codes --sub S --second tNN`.
 
 **Answered at this leg.**
 - QB2-007: round 3 runs on the edited scheme with round 2's readers; it is the first round where only the scheme changes. No freeze.
 - QB2-008: a theme enters `also_present` only with at least three concepts of its own (in RETURN-B2.md; carry it into B3's return specification when B3 comes). A bag stays one item.
-- Fleet ids (J, 09:14): from round 3 and in B3, packets carry only fleet ids for codes and second-order themes (`out/fleet_ids.jsonl`); returns are translated back before scoring (`out/_analysis/b2_packets_fleet.py`, `b2_translate_fleet.py`); my files keep room ids. Carry this into B3's specification too. `validate.py` reads room ids in `_fleet_raw`, which J must square with fleet-id returns.
+- Fleet ids (J, 09:14 and 12:15): from round 3 and in B3, packets carry only fleet ids for codes and second-order themes (`out/fleet_ids.jsonl`), never a room id, headings included; returns are translated back before scoring (`b2_packets_fleet.py`, `b2_translate_fleet.py`); my files keep room ids. Carry this into B3's specification.
+
+## Round 3, as scored (B2b-r3)
+
+**The round.** Round 2's 50 items and readers, on the scheme after edits 287 to 295, in fleet ids, 5 packets (`out/_packets-B2/round-3/`, seed 20261013). `fleet.py`'s new check wrongly counted third-order ids in `multiplacement_log.additional` as concept codes; the handler fixed it and kept the first three valid replies per packet (`_fleet_raw/B2/round-3/RESCUE-2026-10-12.json`, which supersedes `EXHAUSTED.tsv`). 36 calls, 1.49 USD. `b2_translate_fleet.py --round 3` reads only the kept replies and drops the readers' "r/" before `sub`: 150 lines, 0 id problems, copies in `out/_analysis/b2_r3_returns/`.
+
+**The numbers** (`out/_analysis/b2_score_r3.py`; `pilot_rounds.jsonl` line 3):
+- all 50: fidelity 0.682 (primary 0.780), against the rechecked placements 0.760, pairwise 0.728 (primary 0.793), alpha 0.721; 23 items with two readers differing (round 2: 27);
+- the 40 round-1 items: fidelity 0.611, pairwise 0.676, alpha 0.668;
+- the ten biggest bags: fidelity 0.967, pairwise 0.933; kinds named against mine 0.283;
+- 27 of 150 lines place two or more themes (round 2: 47); no `also_present` theme under the floor.
+
+**What it showed.** Edit 287 (T3-065 gloss) moved two of three readers on guatemala t02 to my placement. nVade t04 moved from T3-195 to T3-005 for two of three. The cluster T3-002 (call for hands), T3-033 (proposing a mark) and T3-038 (building and reporting a mark) still divides readers: signal t01 (three themes from three readers), n64 t02, 2007scape t04. 23 dividing items went to `exemplar_candidates.jsonl`.
+
+**Decision.** Rounds stop at round 3 (section 5: threshold cleared). No scheme edit this leg.
 
 ## What comes next
 
-- Round 3 is built (B2a-r3-p2): `out/_packets-B2/round-3/`, round 2's 50 items in 5 packets (7 to 13 items, 89,418 to 135,742 bytes of item text), seed 20261013, `codes_by_item` in each MANIFEST entry, 0 room ids in any packet or shared page (`b2_r3_roomid_scan.py`); `run_manifest.json` entry of B2a-r3-p2. The 98-item build is at `out/_analysis/b2_packets_round3_split_withdrawn/`. Its check: translate the returns with `b2_translate_fleet.py --round 3`, score with a round-3 copy of `b2_score_r2.py` reading the translated copies, and compare item for item with round 2, the 40 round-1 items and the ten biggest bags apart.
-- Before any freeze: the 464 unconfirmed pairs read and confirmed, and every cluster read for a decide_when_both that names a theme with no discriminator.
+- **The freeze leg (J, QB2-012, 13:47).** No round 4. A leg of its own confirms the 443 gate pairs, reads the T3-002/T3-033/T3-038 cluster and makes any sentence fix there; the gold round in B2c alone tests that fix.
+- **QB2-013, answered.** Four round-3 lines (bag flag, empty `also_present`) are waived by name. `RETURN-B2.md` says a bag with no other theme at the three-concept floor is not flagged (`item_is_a_bag` false, `also_present` `{}`). Round-3 text: `out/_analysis/RETURN-B2_round3.md`.
+- **The bound (J, 13:47).** `also_present` names "twenty themes at most", each with three concepts of its own; a bound, not a goal. The validator and `fleet.py` apply it only where that exact phrase stands. Write both rules, the phrase word for word, into B3's return specification. Rounds 1 to 3 are scored as given.
+- Before the freeze: the 443 unconfirmed pairs read and confirmed, and every cluster read for a decide_when_both that names a theme with no discriminator.
 
 ## Standing words from J and the PI (carry into every head)
 
@@ -122,9 +138,9 @@ None is filed in `_questions/`. These remain open:
 
 - B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `scheme.jsonl` (197, edited); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines, F-001 and its superseding line); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
 - B2:
-  - `notes-B2.md` (842 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (2);
-  - `scheme_edits.jsonl` (295); `rechecks-B2.jsonl` (1,413, of which 526 the withdrawn split's; none owed); `gate_checks.jsonl` (31 pairs confirmed); `exemplar_candidates.jsonl` (45); `tier_history.jsonl` (381); `run_manifest.json` (6: A1, B2 round 1, two round-2 entries, two round-3 entries, the second superseding the first).
-- Asks QB2-001 to QB2-011 are answered; none is open. `return_waivers.jsonl` holds 16 waivers (J, QB2-009). `out/recut/` holds the 56 withdrawn children, as written.
+  - `notes-B2.md` (959 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (3);
+  - `scheme_edits.jsonl` (295); `rechecks-B2.jsonl` (1,413, of which 526 the withdrawn split's; none owed); `gate_checks.jsonl` (31 pairs confirmed); `exemplar_candidates.jsonl` (68); `tier_history.jsonl` (381); `run_manifest.json` (6: A1, B2 round 1, two round-2 entries, two round-3 entries, the second superseding the first).
+- Asks QB2-001 to QB2-013 are answered; none is open. `return_waivers.jsonl` holds 20 waivers (J: 16 at QB2-009, 4 at QB2-013). `out/recut/` holds the 56 withdrawn children, as written.
 
 ## Rules kept
 
@@ -154,8 +170,8 @@ None is filed in `_questions/`. These remain open:
 
 ## The next comparison
 
-At the next round, or at the gold round if the rounds stop:
-- fidelity and agreement against round 2's, with the readers held the same;
-- whether guatemala-like flags in a room named for a land now go to T3-065, and pledge-led defences to T3-005 or T3-011 rather than T3-195;
-- whether the rate of second placements (47 of 150 lines at round 2) holds, and how many themes readers name under also_present;
+At the gold round in B2c:
+- gold fidelity, pairwise and alpha beside round 3's (0.682, 0.728, 0.721), with the readers held the same;
+- whether the T3-002/T3-033/T3-038 cluster divides gold readers as it divided signal t01 and n64 t02;
+- whether the rate of second placements (27 of 150 lines at round 3, 47 at round 2) holds;
 - whether the round-1 author-errors confirmed at round 2 (GreenCorner t03, WisconsinBadgers t04, england t03, megaman t11, signal t01) hold on the gold set's like items.

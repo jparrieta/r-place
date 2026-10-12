@@ -1,0 +1,68 @@
+{
+ "utc": "2026-10-12T11:12:02.774309Z",
+ "why": "fleet.py's foreign-code check (handler's, 2026-10-12) counted the third-order ids in multiplacement_log.additional as concept codes and rejected readers wrongly. Fixed (fleet.py md5 6af76281); every saved reply re-validated with the fixed check; per packet the first three valid replies in reader order are kept, which is what the dispatch would have kept; other valid replies moved to _beyond_three/, nothing deleted.",
+ "packets": {
+  "P03-r3-1": {
+   "kept": [
+    "r1",
+    "r2",
+    "r3"
+   ],
+   "valid_beyond_three": [
+    "r19"
+   ]
+  },
+  "P03-r3-2": {
+   "kept": [
+    "r2",
+    "r3",
+    "r6"
+   ],
+   "valid_beyond_three": [
+    "r7",
+    "r14",
+    "r18",
+    "r20"
+   ]
+  },
+  "P03-r3-3": {
+   "kept": [
+    "r2",
+    "r3",
+    "r10"
+   ],
+   "valid_beyond_three": [
+    "r12",
+    "r17",
+    "r21",
+    "r22"
+   ]
+  },
+  "P03-r3-4": {
+   "kept": [
+    "r1",
+    "r2",
+    "r3"
+   ],
+   "valid_beyond_three": [
+    "r9",
+    "r11",
+    "r15",
+    "r16",
+    "r23",
+    "r24"
+   ]
+  },
+  "P03-r3-5": {
+   "kept": [
+    "r1",
+    "r2",
+    "r3"
+   ],
+   "valid_beyond_three": [
+    "r8",
+    "r13"
+   ]
+  }
+ }
+}

@@ -211,7 +211,27 @@ def foreign_codes(o, rule):
                 for x in v.values():
                     if isinstance(x, list):
                         cited += [y for y in x if isinstance(y, str)]
-    return sorted({c for c in cited if isinstance(c, str) and c not in own})
+    # only concept ids are checked: a fleet code (C + 7 digits) or a room code (c + 4 digits). multiplacement_log
+    # also names third-order themes (its "additional" list), which are not codes (J, 2026-10-12: round 3's first
+    # dispatch rejected 19 readers for citing T3 ids there)
+    code = re.compile(r"^(C\d{7}|c\d{4})$")
+    return sorted({c for c in cited if isinstance(c, str) and code.match(c) and c not in own})
+
+
+def ap_thin(o, rule):
+    """J, 2026-10-12: also_present names twenty themes at most, each with three concepts of its own at least.
+    Twenty is a bound, not a target."""
+    ap = o.get("also_present") if isinstance(o, dict) else None
+    if not isinstance(ap, dict) or not ap:
+        return None
+    P = []
+    if len(ap) > 20:
+        P.append("names %d themes, twenty at most" % len(ap))
+    low = ["%s (%d)" % (t, len(v if isinstance(v, list) else [v])) for t, v in ap.items()
+           if len(v if isinstance(v, list) else [v]) < 3]
+    if low:
+        P.append("names %s with fewer than three concepts" % ", ".join(low[:4]))
+    return "; ".join(P) or None
 
 
 def validate(raw, marker, schema, expect_n, rule=None):
@@ -241,6 +261,9 @@ def validate(raw, marker, schema, expect_n, rule=None):
         bad = foreign_codes(o, rule)
         if bad:
             return None, "line %d cites %s, not among the codes of its item" % (i + 1, ", ".join(bad[:5]))
+        thin = ap_thin(o, rule)
+        if thin:
+            return None, "line %d: also_present %s" % (i + 1, thin)
         rows.append(o)
     n_counted = sum(1 for o in rows if counted(o, rule or {}))
     if expect_n is not None and n_counted != expect_n:

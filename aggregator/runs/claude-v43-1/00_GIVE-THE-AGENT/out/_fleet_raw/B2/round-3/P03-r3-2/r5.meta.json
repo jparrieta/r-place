@@ -1,0 +1,25 @@
+{
+ "packet": "P03-r3-2",
+ "group": "P03-r3-2",
+ "reader": "r5",
+ "reissue": 1,
+ "generation": "msg_28q6UApnEQHTjcK1diTH",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "output_tokens_details": null,
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": null,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "cost": null
+ },
+ "elapsed_s": 2.2,
+ "packet_sha256": "36a3c20dccf18a9a788079ee69ea3353c48aeb7eea1c0dc8daa0fd7638ef35d6",
+ "valid": false,
+ "why": "no end marker 'END-OF-RETURN' on the last line",
+ "served_matches_probe": true
+}

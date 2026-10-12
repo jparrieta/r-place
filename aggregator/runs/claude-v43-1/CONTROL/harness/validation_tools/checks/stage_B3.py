@@ -337,6 +337,7 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
     codes = ctx["codes"]
     ct = vlib.code_themes(vlib.recut_overlay("codes", jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [], ctx.get("outdir")))
     spec_ap = "also_present" in text(outdir, "RETURN-B3.md")
+    share_rule = vlib.BOUND_PHRASE in text(outdir, "RETURN-B3.md")
     if not codes:
         err("package/store/codes.jsonl holds no concept, so no support id could be resolved")
     multi = jsonl(os.path.join(outdir, "multiplacement_log.jsonl")) or []
@@ -401,6 +402,10 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
                 % (i, len(so)), shape="assign_raw.jsonl: more than three themes on a line", where="line %d" % i)
         for pb in vlib.also_present_problems(r.get("also_present"), so, r.get("sub"), r.get("theme_id"), ct, scheme):
             err("assign_raw.jsonl line %d: %s" % (i, pb), shape="assign_raw.jsonl: also_present", where="line %d" % i)
+        if share_rule:                              # J, 2026-10-12: twenty themes at most, three concepts each
+            for pb in vlib.also_present_bound_problems(r.get("also_present")):
+                err("assign_raw.jsonl line %d: %s" % (i, pb), shape="assign_raw.jsonl: also_present over its bound",
+                    where="line %d" % i)
         if r.get("bag") and spec_ap and not r.get("also_present"):
             err("assign_raw.jsonl line %d is a bag and names no also_present; rule 0 keeps every theme beyond the one "
                 "placed, each with its own concepts (J, 2026-10-11)" % i,
