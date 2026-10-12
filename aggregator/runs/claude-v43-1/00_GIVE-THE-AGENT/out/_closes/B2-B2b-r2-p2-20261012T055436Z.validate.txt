@@ -1,0 +1,18 @@
+stage B2:
+  leg: check (2 dispatch folders with DONE)
+  _fleet_raw/B2/round-1: 3 readers, 120 return lines
+  _fleet_raw/B2/round-2: 15 readers, 150 return lines
+  author items 50, gold items 40, rounds scored 2, edits 295 (author-error 4), scheme ids 197 (scheme/scheme_current.jsonl)
+
+ERROR  _fleet_raw/B2/round-2: a return on sweden/t01: c0006 is a concept of sweden/t04, not of t01  [36 lines with this shape; first: r1.jsonl line 4]
+ERROR  _fleet_raw/B2/round-2: a return line lacks 'confidence'; the return line of section 1 carries it. A return that fails the specification is reissued, not scored
+ERROR  _fleet_raw/B2/round-2: a return line lacks 'read'; the return line of section 1 carries it. A return that fails the specification is reissued, not scored
+ERROR  _fleet_raw/B2/round-2: a return line lacks 'exemplar_read'; the return line of section 1 carries it. A return that fails the specification is reissued, not scored
+ERROR  _fleet_raw/B2/round-2: a return line lacks 'families_opened'; the return line of section 1 carries it. A return that fails the specification is reissued, not scored
+ERROR  _fleet_raw/B2/round-2: a return line lacks 't_start'; the return line of section 1 carries it. A return that fails the specification is reissued, not scored
+ERROR  _fleet_raw/B2/round-2: a return line lacks 't'; the return line of section 1 carries it. A return that fails the specification is reissued, not scored
+ERROR  _fleet_raw/B2/round-2: a return line lacks 'support'; the return line of section 1 carries it. A return that fails the specification is reissued, not scored
+ERROR  _fleet_raw/B2/round-2: a return places AyyMD/t02, which is in neither author_items.jsonl nor gold_items.jsonl; a reader placed an item you never placed yourself
+warn   scheme.jsonl: the pair T3-001|T3-017 touches an edited theme and is not confirmed against its current sentences (mem.py gates T3-001 T3-017 --confirm --reason ...)  [443 lines with this shape; first: T3-001|T3-017]
+
+44 errors (9 distinct shapes), 443 warnings

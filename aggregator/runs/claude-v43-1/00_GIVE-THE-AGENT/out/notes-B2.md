@@ -451,3 +451,266 @@ warn   scheme.jsonl: the pair T3-001|T3-017 touches an edited theme and is not c
 ```
 
 The 443 warnings are the unconfirmed gate pairs, read before the freeze. The leg closes with `done.sh B2 --cut packets-out`. The dispatch must read the five packets `P03-r2-1.md` to `P03-r2-5.md` in `out/_packets-B2/round-2/`.
+
+## Leg B2b-r2-p2, check round 2, 2026-10-12
+
+### QB2-005 and QB2-006, revisited
+
+Both were applied at B2b-r2. The failed first dispatch is at `out/_analysis/fleet_B2_round2_failed/`, and it is never scored. No work of this leg rested on either assumption.
+
+### Rounds 1 and 2 had different readers (J, 2026-10-12 07:34 Berlin)
+
+- **Round 1:** deepseek/deepseek-v4-flash-0731, through `@preset/cheap`, at high reasoning effort on mixed providers.
+- **Round 2:** deepseek/deepseek-v4.1-flash, called directly, at medium reasoning effort, with max_tokens 128,000.
+
+J's reading: the preset refused even a 32-token probe with HTTP 400. So the part-6 failures of the first dispatch were most likely the preset or its provider pin, not the context window (OpenRouter lists V4.1 Flash at 1,048,576 tokens). The same readers serve B3 and B4. Every change from round 1 to round 2 below is partly a change of readers, not only of the scheme.
+
+### The dispatch, in `fleet.py`'s counts
+
+`_fleet_raw/B2/round-2/DONE` and `log.jsonl` record 5 packets, each sent to 3 fresh readers (15 readers, r1 to r3 inside each packet folder). There were 15 valid returns, 0 exhausted and 0 reissues. Calls took 67.6 to 235.7 seconds each. The round used 751,923 input and 489,651 output tokens, at a cost of 0.598 USD. All 150 lines came back.
+
+One line mistyped its heading. In `P03-r2-5/r2`, position 7 returned AyyMD t02, where the packet holds AyyMD t08. Its concepts (c0037, c0041) are t08's, so it is scored as t08 by position.
+
+### Round 2's three numbers
+
+`out/_analysis/b2_score_r2.py` scores the round by the declared definitions, reusing `b2_score.py`'s Jaccard and alpha. `out/_analysis/b2_rechecked.py` builds the rechecked placements: each item's latest recheck, which moves 19 hard items. The next table gives the figures for the whole set and for its two parts.
+
+| set | fidelity | primary match | fidelity vs rechecked | pairwise | primary pairwise | alpha |
+|---|---|---|---|---|---|---|
+| all 50 (the hard set) | 0.639 | 0.747 | 0.701 | 0.718 | 0.833 | 0.710 |
+| the 40 round-1 items | 0.572 | 0.683 | 0.648 | 0.685 | 0.792 | 0.676 |
+| the ten biggest bags | 0.911 | 1.000 | 0.911 | 0.850 | 1.000 | |
+
+Round 1, on its 40 items, scored fidelity 0.594, pairwise 0.733 and alpha 0.726. On the same 40 items round 2 is lower on all three. 27 of 50 items have two readers differing; 24 of them are round-1 items.
+
+The largest change is in how many themes a reader places. Round 2's readers placed more than one theme on 47 of 150 lines; round 1's placed more than one on 10 of 120. Most of round 2's divisions are a second or third theme added by one or two readers. Each comes with a `why_not_one` that reads "carry" as "cover every concept". Rule 0's words are the contract's and stay. The rate of second placements is a property of the reader model, and B3, which uses these readers, should expect it.
+
+What these figures license, in FLEET.md's words: they support the claim "what you would have produced at a scale one analyst cannot reach". They do not support "what any competent reader would have produced".
+
+**The ten biggest bags.** All 30 lines put my placed theme first (primary 1.000). Readers marked the six bags as bags on 11 of 18 lines. They also marked bags I did not: ainbowroad t11, dota2 t05, leagueoflegends t02 and theblackvoid t09 each drew one or two bag lines. `also_present` diverges widely. The themes a reader names, placed and also present, score a mean Jaccard of 0.283 against mine. On 2007scape t04 one reader named 85 themes (the other two 29 and 16). On sweden t01 the three named 34, 35 and 25; I named 5. QB2-008 asks J for a concept floor.
+
+### The verdicts
+
+The next table gives one verdict for each item that divided readers, and for each where all three readers left my placement. Stage B4's taxonomy names the kinds. "Rechecked" means my placement after round 1's rechecks.
+
+| item | readers | verdict |
+|---|---|---|
+| guatemala t02 | all three T3-002, T3-167, T3-026; none T3-065 | scheme-ambiguous: the concepts say only "a flag" in r/guatemala, and two readers never opened G17. Edits 287, 290, 293, 294 |
+| nVade t04 | T3-195, T3-195, T3-005 | scheme-ambiguous: a pledge honoured by defending had no T3-195 question against T3-011 or T3-005. Edits 288, 289, 295 |
+| n64 t02 | T3-033+T3-002, T3-033+T3-038, T3-038 | scheme-ambiguous: no question between T3-033 and T3-038. Edits 291, 292 |
+| dofus t01 | T3-033 in all three, seconds T3-092, T3-038 | the same pair; edits 291, 292 |
+| AyyMD t08 | T3-001, T3-023, T3-023 | author-error: the moderator's takeover and CSS change (c0041, c0042) make it T3-023, as T3-023's question asks |
+| nyu t01 | T3-070, T3-070, T3-004+T3-020 | author-error: coordinates, a moved spot and a template handed out are T3-070 |
+| cubers t12 | T3-038, T3-044+T3-005, T3-044+T3-005+T3-021 | author-error: the tag is made to send lost cubers to the sub (c0075), so T3-044, not T3-169 |
+| harrypotter t08 | T3-159, T3-031, T3-017+T3-159 | author-error: house points awarded for r/place work are a reward to helpers (T3-159) |
+| farmcarrots t15 | T3-031 in all three, T3-050 in two | author-error: the room's carrot-joke replies lead; the taunt is the provocation |
+| parabola t02 | T3-010 in all three, T3-150 in two | author-error: the border settled leads; my single T3-150 missed it |
+| redhotchilipeppers t09 | T3-009, T3-009+T3-072+T3-073, T3-009 | author-error on my second theme, T3-043, which the readers do not need; T3-009 is primary in all three |
+| Slovakia t07 | T3-065+T3-024, T3-024+T3-060, T3-024 | primary T3-024 matches all three; my second, T3-079, was drawn by none: author-error (Slovak hearts in the placehearts grid join no flags) |
+| kpop t04 | all three T3-033, T3-066, T3-136 | genuine-joint: three readers agree on three themes; the vote proposal (c0024) and the turnout doubt have concepts of their own |
+| floridagators t09 | T3-014+T3-152 in all three, T3-153 in two | genuine-joint: my original pair, plus the alliance meeting in the chat (c0124) |
+| 4chan t07 | T3-010 in all three, T3-149 in two | genuine-joint: peace asked of the blue box (c0136, c0143) |
+| anarcho_capitalism t12 | T3-149 and T3-010 in two, T3-149 alone in one | genuine-joint, as I placed it; one reader's T3-153 is a reader-error |
+| simonfraser t08 | T3-084, T3-011+T3-084, T3-011+T3-084+T3-170 | genuine-joint: help sent (c0029, c0043) beside help asked |
+| korea t15 | T3-015 in all three, T3-075 in one | genuine-joint by one reader, my original second |
+| Goodboye t03, acecombat t05 | divided across T3-084, T3-151, T3-011; T3-010, T3-014, T3-062 | item-is-a-bag, as at round 1 |
+| flashtv t13 | T3-009, T3-073, T3-073+T3-009 | two readers hold my rechecked T3-073; round 1's question holds; reader-error for the third |
+| drumcorps t07, furry t10, placestart t15, stardustcrusaders t19, orderofthebluecorner t08 | one reader adds themes; the others hold my rechecked placement | reader-error: unneeded second placements |
+| dota2 t05, leagueoflegends t02, theblackvoid t12 | all hold my primary; one or two add the themes I left in `why` | reader-error by rule 0, read strictly |
+
+GreenCorner t03, WisconsinBadgers t04, england t03, megaman t11 and signal t01 are unanimous. Each falls on my rechecked placement: round 1's author-error verdicts, confirmed by new readers. There are eight author-error verdicts this round: AyyMD t08, nyu t01, cubers t12, harrypotter t08, farmcarrots t15, parabola t02, redhotchilipeppers t09 and Slovakia t07. They change no sentence, so they are listed here and not in `scheme_edits.jsonl`. `author_items.jsonl` stays as written.
+
+### The edits
+
+`out/_analysis/b2_edits_r2.py` wrote `scheme_edits.jsonl` lines 287 to 295, all scheme-ambiguous, with tier_history lines 373 to 381. They change 9 fields over 8 themes:
+- T3-065's gloss now says a flag built in a room named for a land is that land's flag, unless its concepts name another.
+- The T3-002/T3-065 and T3-026/T3-065 questions say so in both gates.
+- A new T3-033/T3-038 question asks whether an idea is offered or a mark placed and reported. For a proposal followed by its placing, the side with more concepts is primary.
+- New T3-195/T3-011 and T3-195/T3-005 questions ask whether an agreement is invoked, or the work helped or defended with the pledge only the reason.
+
+No edit narrows a theme. `b1e_assemble.py --write` rebuilt `scheme.jsonl`, `families.jsonl` and `scheme.md`. `mem.py gates` finds no defect.
+
+**The rechecks.** The nine edits owed 133 records over 59 items in the hard and gold sets. `out/_analysis/b2_rechecks_r2b.py` read each against its edit's sentence; none moves. `rechecks-B2.jsonl` holds 887 records, and none is owed.
+
+**The gates.** I read ten pairs and confirmed them (`out/_analysis/b2_confirm_r2.json`): the five new or reworded pairs, and five whose confirmation the edits had made stale. 31 pairs are confirmed, 0 are stale and 464 are unconfirmed.
+
+### Section 4
+
+Round 2's packets hold 3 to 15 items, so round 1's curve (first ten items against last ten) cannot be drawn. Within the four packets of 9 or more items, I compared each reader's first half with its last half. The arguable rate falls in 8 of 12 readers and rises in 3. Agreement with the other two falls in 9 and rises in 2. The curve shows no sign that agreement grows with position. The B3 batch cap stays as declared: 40 items, the first 10 a warm-up block.
+
+### Stopping (QB2-007)
+
+Section 5 stops the rounds when pairwise agreement on the hard set clears the threshold. Round 2's figure on the 50-item hard set is 0.718, above 0.70. The PI's round-2 rule holds: the ten biggest bags have now been read once. But the 40 items both rounds share fell from 0.733 to 0.685, with new readers, and the ten bags lift the whole. QB2-007 asks J whether the rounds stop and the scheme freezes, or round 3 opens. Meanwhile the rounds stop under the declared rule, with the 40-item figure reported beside it. This leg does not freeze: the freeze needs the 464 unconfirmed pairs read and the decide_when_both clusters checked. The leg closes with `done.sh B2`.
+
+**Questions open:** QB2-007 (stopping), QB2-008 (a floor for `also_present`).
+
+### The close-check, B2b-r2-p2: return lines that break the specification (QB2-009)
+
+`validate.py B2` reported 44 errors in 9 shapes, all in `_fleet_raw/B2/round-2/`. `fleet.py` had accepted every line. `out/_analysis/b2_r2_return_problems.py` lists 16 of 150 lines in `out/_analysis/b2_r2_return_problems.txt`:
+- One line is incomplete: `P03-r2-2/r1`, ainbowroad t04, has third_order and why only. It lacks confidence, read, exemplar_read, families_opened, t_start, t and support.
+- One line mistypes its heading: `P03-r2-5/r2` position 7 returned AyyMD t02 where the packet holds t08. Its five support concepts are t08's.
+- 14 lines cite concept ids that are not the item's own, in support, also_present or multiplacement_log. They are on sweden t01 (three readers), ainbowroad t04 (two), 2007scape t04 (two), theblackvoid t09, theblackvoid t12, leagueoflegends t02, dota2 t05, donaldglover t04, duckgame t02 and ainbowroad t07. Each cited id belongs to another second-order theme of the same room, except c1636 on 2007scape t04, which is not a concept of r/2007scape at all.
+
+Every line carries its third_order, and the scores use nothing else. The stage says a return that fails the specification is reissued, not scored. Reissuing is the dispatch's work, not mine. QB2-009 asks J whether the dispatch reissues the ten affected returns (packet 2 r1, r2, r3; packet 3 r1, r2; packet 4 r1, r3; packet 5 r1, r2, r3), or the lines are scored as they stand with their errors on the record.
+
+Meanwhile the scores stand as computed on all 150 lines (`pilot_rounds.jsonl` line 2). No edit rests on an affected line: edits 287 to 295 came from guatemala t02, nVade t04, n64 t02 and dofus t01, whose lines are all within the specification. The AyyMD t08 author-error verdict rests partly on the mistyped line, one of its two T3-023 placements. The bag figures (primary 1.000, also_present Jaccard 0.283) rest partly on the affected lines. If the returns are reissued, I rescore, write a superseding pilot_rounds line, and revisit these. The leg stays open until the close-check passes.
+
+### The bag recut: a proposal to J (QB2-010), not yet acted on
+
+J ruled (QB2-008) that a second-order theme whose concepts spread over 16 to 85 third-order themes was cut too coarse. One item should sit in one theme most of the time, a few in two or three. Nothing below is cut until J's word.
+
+**How coarse the themes are** (`out/_analysis/b2_recut_survey.py`, one line per theme in `b2_recut_survey.tsv`):
+- The store's 7,844 second-order themes hold a median of 8 concepts (90th percentile 31, 99th 111, maximum 798).
+- B1 placed 3,977 on one kind, 1,972 on two and 1,837 on three. It recorded 846 as bags, themes needing more than three kinds.
+- 98 themes hold 100 or more concepts, together 14.5% of all concepts; 49 of them are B1 bags.
+- With J's floor applied to round 2's also_present (three concepts of the item's own), readers still name 14 to 43 kinds on 2007scape t04 and 21 to 24 on sweden t01.
+
+**A cut by thread does not work.** The bags were gathered across threads by what the concepts do. On ainbowroad t03, 309 of 326 concepts are alone in their thread; on sweden t01, 202 of 310. A neutral cut by thread would leave hundreds of one-concept parts. The cut has to be by doing, which is coding work.
+
+**The sibling citations.** Most of round 2's failing lines cite concepts of sibling themes of the same room. They split into two groups:
+- In packets 3 and 5 the sibling was in the same packet: theblackvoid t09 beside t12, ainbowroad t11 beside t07. The reader mixed two items of one room.
+- In packets 2 and 4 the room had one item in the packet (sweden t01, ainbowroad t04, dota2 t05, leagueoflegends t02), so the cited ids were never shown. Room ids run in sequence, and an invented number in range nearly always lands on a sibling.
+
+So the citations are not evidence that sibling themes overlap, and the proposal does not regroup siblings. Fleet ids stop the second group. For the first group, the packet builder could keep one item per room in a packet, with J's agreement.
+
+**The proposal.**
+1. **Which items.**
+   - At once, before round 3: the hard set's six author bags (2007scape t04, theblackvoid t12, ainbowroad t03, t04 and t07, sweden t01) and the gold set's bags.
+   - Before B3, by the same rule: every B1 bag (846 themes), and every theme of 100 or more concepts that round 3 shows to need more than three kinds.
+   - The round-1 items I placed as bags in round 1 (Goodboye t03, acecombat t05) follow the same rule if they still need more than three kinds.
+2. **By what rule.**
+   - I read the theme whole, in a blind window (`mem.py blind on`), so B1's working placements are hidden.
+   - I group its concepts into children, each one doing in the room's own terms. Each child gets a label and a note written as a second-order theme, with no third-order ids and no scheme words.
+   - A child needs at least three concepts (J's floor). A concept that fits no child of three joins the nearest child by its doing.
+   - Every concept goes to exactly one child, and the parent's concept ids are kept.
+   - Then, outside the window, each child is placed like any item, with a target of one third-order theme and at most three. A child that still needs more than three is cut again.
+3. **With which verbs.** No verb cuts a second-order theme today: `package/store` is read-only, and `reassign` re-places a theme only after a recut. I propose J adds two verbs:
+   - **A recut writer**, `mem.py recut <sub>:<tNN> --child "label|note|c1,c2,..." --reason ...`. It writes a recut layer beside the store (`out/recut/themes.jsonl`, the children with new room ids after the room's last tNN, and `out/recut/codes.jsonl`, each concept's child). It marks the parent superseded, never deletes it, and logs kind split.
+   - **Store readers** (`mem.py theme`, `codes --sub`, `packets.py`'s Store) that read the layer.
+
+   The children also need fleet ids. J's table maker would draw new T2 ids from the same space, so `fleet_ids.jsonl` covers them.
+4. **What it reopens of B1.**
+   - `scheme_current.jsonl`: the parents' placements are superseded by the children's (13,432 placements and 7,786 placed themes change by the cut).
+   - `multiplacement_log.jsonl`: the parents' bag records and rule 0 lines are superseded.
+   - F-001's within-room grain claim, which counts kinds per theme, is recomputed.
+   - Each third-order theme's member counts are recomputed, so its tier (rare at under two unlike rooms) is checked again; rooms per theme do not change.
+   - `confusions.md` rates are recomputed where they count parents.
+
+   Not reopened: the codes themselves (episodes and exemplars cite concept ids, which stay), the third-order scheme's sentences, and the rooms' notes.
+5. **What it changes in B2.** `author_items.jsonl` stays as written. The children are appended as new lines (source "recut", with their parent), and the parents leave the hard set from round 3, so round 3's set is not round 2's on those items. Round 3's comparison with round 2 is reported on the 40 unchanged round-1 items. J may also prefer that round 3 keeps the parents beside the children, for one round's comparison.
+
+**Fleet ids.** Round 3 is the first round with fleet ids. `out/_analysis/b2_packets_fleet.py` builds the packets: room name plus `T2-` theme ids and `C` concept ids; no room id in an id position; J's caps of 15 items and 180,000 bytes. A dry run on the current hard set (seed 20261013) gives five packets of 7 to 13 items. `out/_analysis/b2_translate_fleet.py` translates returns back before scoring and reports every id the table lacks, or that belongs to another room or theme. RETURN-B2.md now asks for fleet ids, and it carries J's floor: a theme enters `also_present` only with at least three concepts of its own. Its round-2 text is kept as `out/_analysis/RETURN-B2_round2.md`. B3's specification does not exist yet; the head carries both rules for it.
+
+Two points for J:
+- `validate.py` checks returns against room ids in `_fleet_raw`, so a fleet-id round will fail its concept check unless the check reads the translated copies (`out/_analysis/b2_r<K>_returns/`) or the table.
+- No round-3 packet is built until J's word on the recut.
+
+### QB2-007 and QB2-008, answered; fleet ids (J, 2026-10-12)
+
+**QB2-007.** J rules that round 3 runs on the edited scheme with round 2's readers: deepseek-v4.1-flash, called directly, at medium effort. Round 3 is the first round in which only the scheme changes. My assumption, that the rounds stop, is withdrawn, and nothing is frozen. `pilot_rounds.jsonl` line 2 stands as round 2's record. The section "Stopping (QB2-007)" above is superseded by this ruling.
+
+**QB2-008.** Yes to the floor: a theme enters `also_present` only with at least three concepts of its own. It is now in RETURN-B2.md, and the head carries it for B3's specification, which does not exist yet. J adds that the bags need a recut, proposed before round 3's packets and not cut before his word. The proposal follows (QB2-010).
+
+**Fleet ids.** From round 3, and in B3, packets carry only fleet ids for codes and second-order themes (`out/fleet_ids.jsonl`, seed 20261012). My own files keep the room ids, and returns are translated back before scoring. Round 3 is the first round with fleet ids. A made-up code id lands on a real code about 7.5% of the time, and a made-up theme id about 7.8%; with room ids, an invented c-number in range almost always landed on a sibling.
+
+### QB2-009, answered: the 16 lines waived, round 2 scored as it stands
+
+J ruled (2026-10-12, 09:27 Berlin): no reissue of round 2. The 16 lines in `out/_analysis/b2_r2_return_problems.txt` are waived by name, in `out/return_waivers.jsonl` (`out/_analysis/b2_waivers_r2.py`). Each line names the round folder, the file, the item as the line writes it, the problem as listed, and J's ruling. The AyyMD line's reason also names its mistyped heading. `validate.py B2` skips the waived lines and counts them aloud.
+
+Round 2 stays scored on third_order, as before. `pilot_rounds.jsonl` line 2, the verdicts and edits 287 to 295 stand unchanged; nothing rested on a reissue.
+
+The 16 lines are reader faults:
+- one incomplete line: packet 2 r1, ainbowroad t04;
+- one mistyped heading: packet 5 r2, AyyMD t02 for t08;
+- 14 lines citing concepts that are not the item's own.
+
+The faults came from two things, and both are artefacts of room ids:
+- **Room ids repeat across rooms.** c0006 names two different concepts in packet 2, one in each of two rooms.
+- **Invented ids land on sibling codes.** A room's ids run in sequence, so an id a reader makes up within range nearly always names a real concept of a sibling theme. Examples are c0558 on sweden t01 and c1556 on ainbowroad t04, neither ever shown in their packets. Where two items of one room shared a packet (theblackvoid t09 and t12, ainbowroad t07 and t11), readers also took concepts from the other item.
+
+From round 3 the fleet ids of `out/fleet_ids.jsonl` end both: no id repeats, and a made-up id lands on a real code about 7.5% of the time. `fleet.py` rejects, and reissues in the dispatch, a line citing an id not under its item. For that check, round 3's builder `out/_analysis/b2_packets_fleet.py` writes `codes_by_item` into each packet's MANIFEST entry: the item's fleet theme id, as the line writes theme_id, with the fleet code ids served under it. Tested on guatemala t02 (8 codes) and sweden t01 (310). No round-3 packet is built yet: QB2-010, the recut, waits for J's word.
+
+### The close-check, B2b-r2-p2
+
+`validate.py B2` reported:
+
+```
+stage B2:
+  leg: check (2 dispatch folders with DONE)
+  _fleet_raw/B2/round-1: 3 readers, 120 return lines
+  _fleet_raw/B2/round-2: 15 readers, 150 return lines, 16 waived by J (return_waivers.jsonl)
+  author items 50, gold items 40, rounds scored 2, edits 295 (author-error 4), scheme ids 197 (scheme/scheme_current.jsonl)
+
+warn   scheme.jsonl: the pair T3-001|T3-017 touches an edited theme and is not confirmed against its current sentences (mem.py gates T3-001 T3-017 --confirm --reason ...)  [443 lines with this shape; first: T3-001|T3-017]
+
+0 errors (0 distinct shapes), 443 warnings
+```
+
+The 443 warnings are the unconfirmed pairs that touch an edited theme; they are read before any freeze. The leg closes with `done.sh B2`. Round 3 opens (QB2-007). Its build waits for J's word on the recut (QB2-010), and its packets carry fleet ids.
+
+### QB2-010: the bags split (J approved, 2026-10-12 09:32 Berlin)
+
+J approved the cut as proposed, at medium effort. The handler installed `mem.py split`. It writes `out/recut/themes.jsonl` and `out/recut/codes.jsonl` beside the read-only store and gives each child the room's next free tNN and a fleet id in `out/fleet_ids.jsonl`. The parent is superseded, never deleted. Each child names me ("analyst") as its author and names the parent it supersedes.
+
+**How the cut was made.** I read every bag whole in one blind window (`mem.py blind on`, closed at 07:49:15), with B1's placements hidden. I grouped each bag's concepts into children by what the concepts do; each child has at least three concepts, and every concept is in one child. Each cut is written in `out/_analysis/b2_split_<sub>_<tNN>.txt` and was run by `out/_analysis/b2_split_run.py`. The helper checks coverage and the three-concept floor against the store before it calls `mem.py split`.
+
+`mem.py theme` printed some concept lines blank (c0084, c0505, c0595 and c0960 of 2007scape t04, for example). I read the bags with `mem.py codes --sub S --second tNN`, and the helper's coverage check named every concept I had not yet assigned. Each one was read and assigned.
+
+**The six hard-set bags became 54 children.** The next table lists each bag with its children and their sizes.
+
+| bag | children | the children (concepts) |
+|---|---|---|
+| 2007scape t04 (349) | t15 to t28 | proposing what to make 48; the design's spot, size and look 20; building and reporting 85; coordinates and references 12; fixing misplaced pixels 22; defending the corner 11; covering others' art 13; refusing to give up the corner 6; dealing with neighbours 35; Trump politics with r/The_Donald 13; pride in working together 35; the flood of r/place posts 7; jokes and asides 38; pushing posts up 4 |
+| sweden t01 (310) | t08 to t17 | building, cleaning and holding the flag 54; defending it and calling out vandals 18; taking over the Danish flag and neighbours 28; Swedish emblems on the flag 44; other rooms asking for space 51; other rooms asking for help 22; settling with neighbours and letting art stay 31; Nordic friendship 9; looking back and the Maryland friendship 27; off-topic talk 26 |
+| theblackvoid t12 (335) | t16 to t25 | hailing the Void and its creed 88; calling it to consume named targets 71; keeping and defending the cores 43; arguing what the true Void is 30; leaving other colours for the Void 11; other rooms dealing with the Void 15; critics and taunts 21; looking back after its end 10; jokes and asides 36; new cores elsewhere 10 |
+| ainbowroad t03 (326) | t14 to t21 | alarms and fighting the Void 59; alarms about other attacks and collisions 70; calls to attack other rooms' work 22; war and peace with Blue and others 33; dealing with the Void 38; other rooms asking for help or to be spared 61; routing the road and proposing designs 30; hostility and insults against the road 13 |
+| ainbowroad t04 (327) | t22 to t27 | repairing the road itself 103; repairing and protecting other rooms' art 74; deciding to spare and share space 38; other rooms asking to be spared or helped 96; defending the road 12; looking back 4 |
+| ainbowroad t07 (311) | t28 to t33 | extending the road and planning its course 50; proposing pictures and features for it 156; other rooms asking for space on it 38; working beside neighbours without harming their art 39; the Gilbert Baker memorial 5; shards, takeovers and disputes over its spread 23 |
+
+The hostility child of ainbowroad t03 holds "KILL THE GAYS" (c1395), posted to the room; it is kept and served as it stands.
+
+**The gold set's eight B1 bags.** One was cut: dankmemes t16 (12 concepts) became t18, pointing out drawings on the canvas (5), and t19, reporting the build failed and mourning the canvas (7). Seven were not cut:
+- cuboulder t04 and ukraine t07 hold 5 concepts each, so no two children of three exist.
+- Villanova t01 (building a logo together), tinytardis t06 (negotiating shared space), edboxes t02 (recruiting hands and arranging the next shift) and alberta t04 (arguing whether to attack the Quebec flag) each read as one doing.
+- finland t06 holds one doing of 5 concepts (moderators gathering the canvas posts) and three single concepts that each do something different; a second child would mix doings.
+
+These small themes were B1 bags because nearly every concept did something different. With a floor of three concepts per child, they cannot be cut.
+
+**The children placed.** I placed the 56 children like any item after the window closed (`out/_analysis/b2_author_split.py`). The 54 hard-set children were appended to `author_items.jsonl` and the 2 gold children to `gold_items.jsonl`. Each line carries its parent, source "split", `support_by_theme` and its fleet theme id. 40 children take one theme and 16 take two; each second theme has concepts of its own, named on the line. No child needs more than three themes, so none is a bag. The parents' lines stay as written. `author_items.jsonl` now has 104 lines and `gold_items.jsonl` 42. Round 3's hard set is the 44 unsplit items and the 54 children: 98 items.
+
+**The rechecks.** The children sit on themes that earlier edits changed, so 86 edits owed them 526 rechecks. I read each edit's changed sentence against the children it owes (`out/_analysis/b2_rechecks_split_show.txt`), and none moves a child. The closest call is ainbowroad t24's second theme, T3-010: three of its five concepts invoke agreements already made, which T3-195 names. It stays, because the trimming to the agreed size is itself the border being settled. The 526 records were written with `out/_analysis/b2_rechecks_split.py`, one reason per edit. `rechecks-B2.jsonl` has 1,413 records, and none is owed.
+
+**What the split leaves for the check (QB2-011).** `validate.py B2` reports 698 errors in five shapes. All come from the split layer meeting records made before it:
+- 56 items not in `package/store/themes.jsonl`: the item check reads the store, not the split layer.
+- 186 round-2 return lines and 454 rechecks whose concepts now resolve to the children, not the parents they name.
+- `pilot_rounds.jsonl` lines 1 and 2: n_items 40 and 50 against a hard set counted as 104, the parents included.
+
+QB2-011 asks J whether the check should read the split layer for items, keep a parent's own concepts for records that name the parent, and count the hard set without the superseded parents. Meanwhile the leg stays open. No round-3 packet is built. The 846 B1 bags wait for J's word.
+
+### QB2-011, answered: the check reads the split layer
+
+The handler fixed the three error shapes in `tools/vlib.py` and `tools/checks/stage_B2.py`. They were faults of the check, not of the run.
+- A split child counts as a second-order theme, and its parent stays one. `author_items.jsonl` and `gold_items.jsonl` resolve both.
+- A split concept belongs to its child and to every theme it was split from. Records made before the split about a parent pass; a concept of a sibling child still fails.
+- A round's n_items is held to the items its own MANIFEST sent (`out/_packets-B2/round-K/MANIFEST.json`), as the handler's correction says.
+
+My assumption needed no revisit. I recorded the 526 rechecks and left these shapes to the check, which now passes. Round 3's packets carry the children, not their parents.
+
+### The close-check, B2b-r2-p2, after the split
+
+`validate.py B2` reported:
+
+```
+stage B2:
+  leg: check (2 dispatch folders with DONE)
+  _fleet_raw/B2/round-1: 3 readers, 120 return lines
+  _fleet_raw/B2/round-2: 15 readers, 150 return lines, 16 waived by J (return_waivers.jsonl)
+  author items 104, gold items 42, rounds scored 2, edits 295 (author-error 4), scheme ids 197 (scheme/scheme_current.jsonl)
+
+warn   author_items.jsonl has 104 items; section 1 says forty to sixty
+warn   scheme.jsonl: the pair T3-001|T3-017 touches an edited theme and is not confirmed against its current sentences (mem.py gates T3-001 T3-017 --confirm --reason ...)  [443 lines with this shape; first: T3-001|T3-017]
+
+0 errors (0 distinct shapes), 444 warnings
+```
+
+`author_items.jsonl` holds 104 lines: the six superseded parents kept as written, beside their 54 children. Round 3 sends 98 items. The 443 pair warnings are the unconfirmed pairs, read before any freeze. The leg closes with `done.sh B2`. Next comes round 3's build: `b2_packets_fleet.py --round 3` on the 98 items, with the superseded parents left out and fleet ids only. The 846 B1 bags wait for J.

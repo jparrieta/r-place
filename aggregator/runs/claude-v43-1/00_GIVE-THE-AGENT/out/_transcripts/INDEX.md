@@ -107,3 +107,4 @@
 | B2.B2b-r1 | fd679c34-efee-4e9e-b914-f001465a1807 | leg-B2.B2b-r1-fd679c34-efee-4e9e-b914-f001465a1807.jsonl | 1834 | 2026-10-11T19:22:38Z |
 | B2.B2a-r2 | 90ab0827-59ef-4db0-81e4-e7120fc40c63 | leg-B2.B2a-r2-90ab0827-59ef-4db0-81e4-e7120fc40c63.jsonl | 2546 | 2026-10-11T19:45:58Z |
 | B2.B2b-r2 | 9b8326f3-e26d-48e5-95e9-1c81f47cc4c6 | leg-B2.B2b-r2-9b8326f3-e26d-48e5-95e9-1c81f47cc4c6.jsonl | 774 | 2026-10-12T04:59:54Z |
+| B2.B2b-r2-p2 | 441ecb71-d5da-4a46-93b1-9439b91cead5 | leg-B2.B2b-r2-p2-441ecb71-d5da-4a46-93b1-9439b91cead5.jsonl | 2009 | 2026-10-12T08:39:54Z |

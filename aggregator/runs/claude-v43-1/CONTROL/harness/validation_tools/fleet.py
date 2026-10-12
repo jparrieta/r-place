@@ -186,6 +186,34 @@ def counted(o, rule):
     return o.get("pass", 1) in (1, "1", None)
 
 
+def foreign_codes(o, rule):
+    """Codes a line cites that its item does not hold (J, 2026-10-12, QB2-009). The packet's MANIFEST entry may
+    carry "codes_by_item": {"<theme_id as the line writes it>": ["C0781518", ...]}; then every code in support,
+    in also_present's lists and in multiplacement_log must be one of the item's own. Without that entry nothing
+    is checked. A cited code the item lacks was read from another item or made up; the return is reissued."""
+    by = (rule or {}).get("codes_by_item")
+    if not by or not isinstance(o, dict) or o.get("theme_id") not in by:
+        return []
+    own = set(by[o["theme_id"]])
+    cited = []
+    for c in o.get("support") or []:
+        cited.append(c)
+    ap = o.get("also_present") or {}
+    if isinstance(ap, dict):
+        for v in ap.values():
+            cited += list(v or [])
+    ml = o.get("multiplacement_log")
+    if isinstance(ml, dict):
+        for v in ml.values():
+            if isinstance(v, list):
+                cited += [x for x in v if isinstance(x, str)]
+            elif isinstance(v, dict):
+                for x in v.values():
+                    if isinstance(x, list):
+                        cited += [y for y in x if isinstance(y, str)]
+    return sorted({c for c in cited if isinstance(c, str) and c not in own})
+
+
 def validate(raw, marker, schema, expect_n, rule=None):
     lines = [l.strip() for l in raw.strip().splitlines() if l.strip()]
     if marker:
@@ -210,6 +238,9 @@ def validate(raw, marker, schema, expect_n, rule=None):
             for k, spec in ((schema or {}).get("properties") or {}).items():   # an enum the schema sets (dreturn.py)
                 if isinstance(spec, dict) and "enum" in spec and k in o and o[k] not in spec["enum"]:
                     return None, "line %d: %s is %r, not one of %s" % (i + 1, k, o[k], spec["enum"])
+        bad = foreign_codes(o, rule)
+        if bad:
+            return None, "line %d cites %s, not among the codes of its item" % (i + 1, ", ".join(bad[:5]))
         rows.append(o)
     n_counted = sum(1 for o in rows if counted(o, rule or {}))
     if expect_n is not None and n_counted != expect_n:

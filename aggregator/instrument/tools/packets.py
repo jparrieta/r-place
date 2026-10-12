@@ -125,13 +125,15 @@ def save_manifest(d, manifest):
 
 
 class Store:
-    def __init__(self, root):
+    def __init__(self, root, out=None):
         S = os.path.join(root, "package", "store")
-        self.themes = {(t["sub"], t["theme_id"]): t for t in jl(os.path.join(S, "themes.jsonl"))}
+        import vlib                                  # the split layer, out/recut/ (J, 2026-10-12, QB2-010)
+        lay = lambda n: vlib.recut_overlay(n, jl(os.path.join(S, n + ".jsonl")), out)
+        self.themes = {(t["sub"], t["theme_id"]): t for t in lay("themes")}
         self.by_sub = collections.defaultdict(list)
         for t in self.themes.values():
             self.by_sub[t["sub"]].append(t)
-        self.codes = {(c["sub"], c["code_id"]): c for c in jl(os.path.join(S, "codes.jsonl"))}
+        self.codes = {(c["sub"], c["code_id"]): c for c in lay("codes")}
 
     def item(self, sub, tid, pos=None):
         t = self.themes.get((sub, tid))
@@ -448,7 +450,7 @@ def main():
         return v_scheme(a, root, out) or 0
     if a.verb == "files":
         return v_files(a, root, out) or 0
-    store = Store(root)
+    store = Store(root, out)
     return {"B2": v03, "B3": v04, "B4": v05, "E1": v13}[a.verb](a, root, out, store) or 0
 
 

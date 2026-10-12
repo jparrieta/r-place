@@ -203,7 +203,7 @@ How to read a theme. Place each second-order theme on one theme. Add a second or
 
 **G17 nations and their flags**
 
-- T3-065 building the homeland's flag: The room makes the flag of its nation, state or region its mark: calling hands to it, building, sizing and fixing it.
+- T3-065 building the homeland's flag: The room makes the flag of its nation, state or region its mark: calling hands to it, building, sizing and fixing it. A flag built in a room named for a land is that land's flag unless its concepts name another.
 - T3-078 helping kin nations' flags: Members help the flags of kindred nations or regions: Baltic brothers, neighbours, a diaspora's homeland.
 - T3-079 joining flags with a heart: Rooms join their national flags with a heart or another sign of friendship.
 - T3-085 weighing the room against nations: Members weigh the room's art against the nations' flags on the canvas: flags called bland or too big, a nation's size claimed as a right to space.
@@ -764,7 +764,7 @@ Members call the room's own members to come and place for its work: to start, bu
 - Against T3-016: Is the event explained (T3-016), or are members called to come and place (T3-002)?
 - Against T3-038: Is the work placed and reported (T3-038), or are hands called for it (T3-002)?
 - Against T3-051: Are members asked to vote a post up (T3-051), or to come and place (T3-002)?
-- Against T3-065: Is the work the flag of the room's land (T3-065), or any other picture (T3-002)?
+- Against T3-065: Is the work a flag of the land the room is named for or speaks for, a flag built in r/guatemala being Guatemala's unless its concepts name another (T3-065), or any other picture (T3-002)?
 - Against T3-167: Is a time set for placing together (T3-167), or hands called with no time (T3-002)?
 - Against T3-044: Are the room's own members called to come and place (T3-002), or outsiders brought to the sub by its mark and welcomed (T3-044)?
 - Against T3-084: Are the room's own members called to place (T3-002), or another canvas room asked, as a group, for help (T3-084)?
@@ -1189,6 +1189,7 @@ A member offers the room an idea of what to make on the canvas, and calls the ro
 - Against T3-041: Is the room's first mark proposed (T3-033), or a second piece beside an existing one (T3-041)?
 - Against T3-092: Is a mark proposed for the room to make (T3-033), or made alone and reported (T3-092)?
 - Against T3-129: Is a mark proposed as the room's emblem (T3-033), or as a message carrying a demand (T3-129)?
+- Against T3-038: Is an idea of what to make offered to the room (T3-033), or a mark being placed and its progress reported (T3-038)? A proposal followed by its placing: the side with more concepts is primary.
 - Varies: From one member's wish to put a symbol on the canvas to a series of picture proposals; political slogans proposed as such sit here.
 - Is not: A call for help on a picture already started (T3-002).
 - Exemplars: "we should put a plansewalker symbol on r/place" (magictcg c0138); "We need to rep Stardew Valley on https://www.reddit.com/r/place/ !!! Let's make a jumino or something!" (stardewvalley c0001); "We should make a pixel art for our lord and saviour on /r/place" (leagueoflegends c0383)
@@ -1320,7 +1321,7 @@ Members announce that the room's mark is on the canvas: 'we got on r/place', wit
 - Against T3-082: Is the room's own work announced (T3-026), or a mark found that the room did not know of (T3-082)?
 - Against T3-009: Is the mark announced as being up (T3-026), or the finished work celebrated (T3-009)?
 - Against T3-038: Is the mark's progress reported (T3-038), or its presence announced (T3-026)?
-- Against T3-065: Is the room's mark announced as up (T3-026), or is the work the flag of the room's own land, announced, called for or built (T3-065)?
+- Against T3-065: Is the room's mark announced as up (T3-026), or is the work a flag of the land the room is named for or speaks for, announced, called for or built (T3-065)? A flag built in a room named for a land is that land's flag unless its concepts name another.
 - Varies: From a one-line post to a weekly roundup that names the mark.
 - Is not: A member finding that someone made the sub's logo without the room (T3-082).
 - Exemplars: "We got on /r/place!" (genderfluid c0007); "We made it onto r/place" (calgaryflames c0110); "GNU/Linux on /r/place" (linux c0031)
@@ -1339,6 +1340,7 @@ Members build the mark and report its progress: started, half done, almost there
 - Against T3-073: Is the first build's progress reported (T3-038), or what happened to the work once it stood (T3-073)?
 - Against T3-026: Is the mark's progress reported (T3-038), or its presence announced (T3-026)?
 - Against T3-004: Is the mark being placed and its progress reported (T3-038), or its look argued and corrected against the plan (T3-004)?
+- Against T3-033: Is an idea of what to make offered to the room (T3-033), or a mark being placed and its progress reported (T3-038)? A proposal followed by its placing: the side with more concepts is primary.
 - Varies: From a start at given coordinates to running reports until the close.
 - Is not: Restoring the mark after an attack (T3-021).
 - Exemplars: "Making really good progress now. We are about half way done." (necrodancer c0014); "I've started to make one. Finished with the face and eyes in the vicinity of (886,563)" (hyperlightdrifter c0008); "WE ARE ALMOST THERE FELLOW GREENS!!!" (greenlattice c0109)
@@ -1469,6 +1471,7 @@ Members rally to defend the room's work against an attack under way: alarms, cal
 - Against T3-123: Is an attack fought off (T3-005), or a request to yield refused (T3-123)?
 - Against T3-124: Is the attack fought off (T3-005), or is fighting one option weighed against another (T3-124)?
 - Against T3-141: Is an attack fought off (T3-005), or the night covered (T3-141)?
+- Against T3-195: Is an agreement already made invoked, spread or said to be broken (T3-195), or the room's own work defended, the pledge named only as the reason for the defence (T3-005)?
 - Varies: From one alarm to day-long defence against bots, raids and the Void; defenders outnumbered or victorious.
 - Is not: Cleaning stray pixels from the room's work with no attacker named (T3-021).
 - Exemplars: "We are under attack by Virginia Tech. Stay strong!" (gatech c0007); "People are trying to kill our 4136121025 on Place. Let's get back to Place and fight them!" (homestuck c0105); "r/Naruto is under attack in r/Place! This is not a drill!" (naruto c0134)
@@ -2089,6 +2092,7 @@ Members send their pixels to another room's work: helping build, finish or defen
 - Against T3-099: Is the bigger room sending help (T3-011), or the small room relying on it (T3-099)?
 - Against T3-119: Is help sent with no prior attack (T3-011), or by those who attacked (T3-119)?
 - Against T3-115: Is another room's request refused (T3-115), or its work helped (T3-011)?
+- Against T3-195: Is an agreement already made invoked, spread or said to be broken (T3-195), or another room's work helped or defended, the pledge named only as the reason for the help (T3-011)?
 - Varies: From one member placing for a neighbour to a room sending its spare pixels to a neighbour's defence.
 - Is not: Help given in return for help received (T3-151).
 - Exemplars: "I'm helping /r/stlouisblues. I wish I could do my party." (borussiadortmund c0027); "come help our farm over at r/farmcarrots/!" (stardewvalley c0003); "Please support their cause by maintaining the borders and defeating the people who keep trolling Helix's eyes" (drawhelix c0006)
@@ -2464,6 +2468,8 @@ Members invoke an agreement already made: its terms spread to placers, the room 
 - Against T3-076: Is another room held to an agreement (T3-195), or does the room stop its own attackers (T3-076)?
 - Against T3-150: Is an agreement already made invoked, spread or said to be broken (T3-195), or a new alliance proposed, named or joined (T3-150)?
 - Against T3-151: Is an agreement already made invoked, spread or said to be broken (T3-195), or a new trade of help offered or agreed (T3-151)?
+- Against T3-011: Is an agreement already made invoked, spread or said to be broken (T3-195), or another room's work helped or defended, the pledge named only as the reason for the help (T3-011)?
+- Against T3-005: Is an agreement already made invoked, spread or said to be broken (T3-195), or the room's own work defended, the pledge named only as the reason for the defence (T3-005)?
 - Varies: From a quick 'no stop, we made an agreement' to accusations that a neighbour went over the logo after the deal.
 - Is not: Agreeing a new border with a neighbour (T3-010).
 - Exemplars: "Oi no stop we made an agreement with hearts" (liverpoolfc c0168, rivals c0169); "We agreed that you guys can have the flower there, but please stop removing Apollo's sleeve with your blue border" (sheffield c0038); "I think we should apologize to r/shyvanamains for going over their logo even after we had a deal." (weezer c0038, rivals c0093)
@@ -2619,16 +2625,16 @@ A canvas faction splits over what it stands for: pure colour or art, erasing or 
 
 ### T3-065 building the homeland's flag
 
-The room makes the flag of its nation, state or region its mark: calling hands to it, building, sizing and fixing it. Floor: argentina and DevonUK, unlike in size (argentina holds 10,453 items in the window and DevonUK 26, over twice as many).
+The room makes the flag of its nation, state or region its mark: calling hands to it, building, sizing and fixing it. A flag built in a room named for a land is that land's flag unless its concepts name another. Floor: argentina and DevonUK, unlike in size (argentina holds 10,453 items in the window and DevonUK 26, over twice as many).
 
 - Must show: The flag of the room's own land (a nation, a state, a region or county) built as the room's mark: calls to make it, its proportions, its spot, its repair. Announcements that the flag has begun or is up, and calls for hands to it, go here too.
 - Must not show: Calls for hands to any other picture (T3-002); emblems and pictures drawn beside or inside the flag (T3-113); helping another nation's flag (T3-078).
 - Decide when both: The flag of the room's land as its mark is T3-065, calls for hands to any other picture T3-002. A flag with emblems drawn into it: T3-065 for the flag, T3-113 when the emblems have concepts of their own.
-- Against T3-002: Is the work the flag of the room's land (T3-065), or any other picture (T3-002)?
+- Against T3-002: Is the work a flag of the land the room is named for or speaks for, a flag built in r/guatemala being Guatemala's unless its concepts name another (T3-065), or any other picture (T3-002)?
 - Against T3-113: Is the flag itself built (T3-065), or emblems drawn beside or inside it (T3-113)?
 - Against T3-078: Is the room's own flag built (T3-065), or a kin nation's helped (T3-078)?
 - Against T3-145: Is the flag built (T3-065), or national feeling voiced through it (T3-145)?
-- Against T3-026: Is the room's mark announced as up (T3-026), or is the work the flag of the room's own land, announced, called for or built (T3-065)?
+- Against T3-026: Is the room's mark announced as up (T3-026), or is the work a flag of the land the room is named for or speaks for, announced, called for or built (T3-065)? A flag built in a room named for a land is that land's flag unless its concepts name another.
 - Varies: From nation states to the flags of a US state, a French region or an English county; proportions argued; flags rebuilt after attacks.
 - Is not: A room adding its nation's emblems inside a flag already built (T3-113).
 - Exemplars: "To all Israel in r/place, let's gather up and make a big flag on the canvas and be proud of our-self" (israel c0190); "hagamos la bandera de argentina en un costado" (argentina c0001); "Need help expanding the Devon flag!" (DevonUK c0016)

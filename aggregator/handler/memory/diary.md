@@ -372,3 +372,4 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 2026-10-11T20:09Z: fleet.py empty-return fix installed (instrument + CONTROL), tested; QB2-004 answered on J's ruling. Round 2 MANIFEST already in the right form (P03-r2, 11 parts, items 0 x10 then 50). Dispatch is J's.
 2026-10-11T22:13Z tick: computer back after offline ticks at 21:14Z, 21:46Z. Round 2 still blocked on J's ruling on the rebuild.
 2026-10-12T04:00Z: B2 round 2 rebuild ruled by J; message queued to B2a-r2's next leg; B2b-r2 started (job e1be555c4f33).
+2026-10-12T05:42Z: B2 round 2 dispatched by J on V4.1 Flash direct (medium): 15 of 15 returns valid, 0 exhausted, 751,923 in / 489,651 out tokens. B2b-r2 was already closed (rebuild leg), so the check leg runs as B2b-r2-p2 (job 84bf7bb7c439); all 150 lines present.

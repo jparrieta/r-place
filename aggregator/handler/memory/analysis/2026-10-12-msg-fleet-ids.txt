@@ -1,0 +1,10 @@
+Handler text, carrying J's word (2026-10-12 09:14 Berlin).
+
+J: we took the 115,388 first-order codes and the 7,844 second-order themes of every subreddit and made a table, so that nothing leaks to the fleet. The table is out/fleet_ids.jsonl (one line per id; out/fleet_ids.meta.json gives the seed and the counts). Each line is
+  {"kind": "c", "fleet": "C0781518", "sub": "sweden", "id": "c0006", "theme": "t04"}
+  {"kind": "t", "fleet": "T2-17832", "sub": "sweden", "id": "t01"}
+For any fleet id you find the room's own c and t (lower case), and the reverse.
+
+The ids say nothing about where a code or theme comes from, and they are drawn at random from a space about thirteen times larger than the set: a code id a reader makes up lands on a real code about 7.5 % of the time, a theme id about 7.8 %. Today the room numbers repeat across rooms (c0006 names two different concepts in round 2's packet 2) and an invented c0558 lands on a real sibling code; with these ids that stops.
+
+From round 3 on, and in B3, packets carry only the fleet ids for codes and second-order themes; your own files keep the room ids, and you translate returns back with the table before scoring. Write this into the packet builder and RETURN-B2.md (and B3's specification), and say in notes-B2.md that round 3 is the first round with fleet ids. QB2-008's ruling (the floor of three concepts and the recut proposal before round 3) stands; build round 3's packets only after J's word on the recut.

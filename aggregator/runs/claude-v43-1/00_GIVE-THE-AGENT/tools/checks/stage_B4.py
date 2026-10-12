@@ -209,7 +209,7 @@ def _check_assign_final(outdir, ctx, ids):
 
 def _ct(ctx):
     if "code_themes" not in ctx:
-        ctx["code_themes"] = vlib.code_themes(jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [])
+        ctx["code_themes"] = vlib.code_themes(vlib.recut_overlay("codes", jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [], ctx.get("outdir")))
     return ctx["code_themes"]
 
 

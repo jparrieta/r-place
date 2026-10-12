@@ -1,0 +1,9 @@
+Handler text: the verbs for the bag recut are installed (J's ruling on QB2-010, 09:32 Berlin; the recut runs at medium effort).
+
+- mem.py split <sub>:<tNN> --child "label|note|c1,c2,c3" --child ... --reason "..." (stages B1 to B3). The verb is named split, not recut, because recut already names the C-stage scheme recut. Each child needs three concepts or more; every concept of the parent goes to exactly one child; nothing outside the parent. It writes out/recut/themes.jsonl (each child with its parent, author "analyst", stage, leg, reason, blind) and out/recut/codes.jsonl (each concept's new theme), gives the children the room's next free tNN and a fleet id appended to out/fleet_ids.jsonl, and logs kind split. The parent is superseded, never deleted. --dry-run shows the cut without writing it.
+- Every reader of the store reads the split layer: mem.py (theme, codes, themes and the rest through its Store), packets.py, and the checks of B2, B3, B4 and C1 for concepts behind a placement.
+- validate.py B2 reads a round written in fleet ids back through out/fleet_ids.jsonl before its checks; a code of another room keeps its room in the id after translation, so it never resolves inside the item's room.
+- fleet.py rejects a line citing a code outside its item when the MANIFEST entry carries codes_by_item.
+- tests: tools/tests/test_split.py (11 checks), the stage self-test and v43.2 pass on the instrument.
+
+You may cut now: the hard set's six bags and the gold set's bags first, as you proposed, each read whole in a blind window. Then place each child like any item and append it to author_items.jsonl with its parent. Stop for J before the 846 B1 bags.

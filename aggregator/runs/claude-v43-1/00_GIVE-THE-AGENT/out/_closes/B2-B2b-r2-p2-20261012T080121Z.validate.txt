@@ -1,0 +1,15 @@
+stage B2:
+  leg: check (2 dispatch folders with DONE)
+  _fleet_raw/B2/round-1: 3 readers, 120 return lines
+  _fleet_raw/B2/round-2: 15 readers, 150 return lines, 16 waived by J (return_waivers.jsonl)
+  author items 104, gold items 42, rounds scored 2, edits 295 (author-error 4), scheme ids 197 (scheme/scheme_current.jsonl)
+
+ERROR  author_items.jsonl line 51 places 2007scape/t15, which is not a second-order theme in package/store/themes.jsonl; every item is a store theme  [54 lines with this shape; first: line 51]
+ERROR  gold_items.jsonl line 41 places dankmemes/t18, which is not a second-order theme in package/store/themes.jsonl; every item is a store theme  [2 lines with this shape; first: line 41]
+ERROR  _fleet_raw/B2/round-2: a return on ainbowroad/t03: c0234 is a concept of ainbowroad/t15, not of t03  [186 lines with this shape; first: r2.jsonl line 8]
+ERROR  pilot_rounds.jsonl line 1: n_items 40 is neither the hard set (104) nor the gold set (42); a round runs the whole set  [2 lines with this shape; first: line 1]
+ERROR  rechecks-B2.jsonl line 98 (dankmemes/t16): c0637 is a concept of dankmemes/t19, not of t16  [454 lines with this shape; first: line 98]
+warn   author_items.jsonl has 104 items; section 1 says forty to sixty
+warn   scheme.jsonl: the pair T3-001|T3-017 touches an edited theme and is not confirmed against its current sentences (mem.py gates T3-001 T3-017 --confirm --reason ...)  [443 lines with this shape; first: T3-001|T3-017]
+
+698 errors (5 distinct shapes), 444 warnings

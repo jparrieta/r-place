@@ -138,6 +138,12 @@ A room is named bare, as r/<sub> or as <sub>/, in any case.
                                        else a seeded sample of 30, and all once more than one in ten of
                                        the sample moves). Stage B2's edits are the lines of
                                        scheme_edits.jsonl (edit:<n>)
+    split <sub>:<tNN> --child "label|note|c1,c2,c3" --child ... --reason "..."
+                                       a second-order theme too coarse for one to three kinds, cut
+                                       into children by what the concepts do (B1 to B3, J 2026-10-12):
+                                       each child three concepts or more, every concept in one child;
+                                       written to out/recut/, the parent superseded, never deleted;
+                                       children get the room's next tNN and a fleet id
     recheck <sub>:<tNN> --change <edit:n|gate:n> --theme T3-a[,T3-b] --codes "T3-a=c1,c2;T3-b=c3"
             --reason "..."             one placement placed again under the changed sentence, with the
                                        concepts behind each theme (out/rechecks-NN.jsonl); a moved
@@ -294,7 +300,11 @@ class Store:
 
     def rows(self, name):
         if name not in self._cache:
-            self._cache[name] = jl(os.path.join(self.S, name + ".jsonl"))
+            rows = jl(os.path.join(self.S, name + ".jsonl"))
+            if name in ("codes", "themes") and self.out:
+                import vlib                          # the split layer, out/recut/ (J, 2026-10-12, QB2-010)
+                rows = vlib.recut_overlay(name, rows, self.out)
+            self._cache[name] = rows
         return self._cache[name]
 
     def subs(self):
@@ -1983,6 +1993,118 @@ def v_recheck(st, a):
                                                     then)]
 
 
+SPLIT_STAGES = ("B1", "B2", "B3")
+
+
+def v_split(st, a):
+    """split <sub>:<tNN> --child "label|note|c1,c2,c3" [--child ...] --reason "...": a second-order theme too
+    coarse for one to three third-order themes, cut into children by what their concepts do (J, 2026-10-12,
+    QB2-010). The store stays read-only: the children go to out/recut/ (themes.jsonl, codes.jsonl), the parent is
+    superseded, never deleted, and every reader of the store sees the children in its place. Each child holds at
+    least three concepts; every concept of the parent goes to exactly one child. Children take the room's next
+    free tNN, and a fleet id in out/fleet_ids.jsonl when that table exists. Children are the analyst's own
+    second-order themes: the line says so."""
+    _stage_guard(a, "split", SPLIT_STAGES)
+    kids_in = a.child or []
+    if not a.arg1 or len(kids_in) < 2 or not a.reason:
+        raise Refuse("split needs <sub>:<tNN>, two or more --child \"label|note|c1,c2,c3\" and --reason \"...\"")
+    sub, _, tth = a.arg1.replace("/", ":").partition(":")
+    sub = st.room(sub)
+    parent = next((t for t in st.rows("themes") if t["sub"] == sub and t["theme_id"] == tth), None)
+    if parent is None:
+        raise Refuse("%s names no second-order theme of r/%s (a theme already split is superseded by its children)"
+                     % (a.arg1, sub))
+    own = list(parent.get("code_ids") or [])
+    kids, seen, probs = [], {}, []
+    for i, k in enumerate(kids_in, 1):
+        parts = k.split("|")
+        if len(parts) != 3 or not parts[0].strip() or not parts[1].strip():
+            probs.append("child %d does not read \"label|note|c1,c2,c3\"" % i)
+            continue
+        ids = [x.strip() for x in parts[2].split(",") if x.strip()]
+        if len(ids) < 3:
+            probs.append("child %d holds %d concepts; three at least (J's floor)" % (i, len(ids)))
+        for c in ids:
+            if c not in own:
+                probs.append("child %d: %s is not a concept of %s:%s" % (i, c, sub, tth))
+            elif c in seen:
+                probs.append("%s is in child %d and child %d; every concept goes to one child" % (c, seen[c], i))
+            seen[c] = i
+        kids.append((parts[0].strip(), " ".join(parts[1].split()), ids))
+    left = [c for c in own if c not in seen]
+    if left:
+        probs.append("%d concepts of %s:%s are in no child: %s%s" % (len(left), sub, tth, ", ".join(left[:8]),
+                                                                      " ..." if len(left) > 8 else ""))
+    if probs:
+        raise Refuse("; ".join(probs))
+    store_ids = [t["theme_id"] for t in jl(os.path.join(st.S, "themes.jsonl")) if t["sub"] == sub]
+    d = os.path.join(st.out, "recut")
+    rec = [t for t in (jl(os.path.join(d, "themes.jsonl")) if os.path.exists(os.path.join(d, "themes.jsonl")) else [])]
+    used = store_ids + [t["theme_id"] for t in rec if t.get("sub") == sub]
+    nxt = max([int(re.sub(r"\D", "", x) or 0) for x in used] + [0]) + 1
+    codes = {c["code_id"]: c for c in st.rows("codes") if c["sub"] == sub and c["code_id"] in seen}
+    t_lines, c_lines, made = [], [], []
+    stamp = _stamp()
+    for j, (label, note, ids) in enumerate(kids):
+        tid = "t%02d" % (nxt + j)
+        rows = [codes[c] for c in ids if c in codes]
+        hours = [c.get("hour") for c in rows if isinstance(c.get("hour"), (int, float))]
+        t_lines.append({"sub": sub, "theme_id": tid, "second_order": label, "theme_note": note,
+                        "n_codes": len(ids), "n_codes_coder": None, "code_ids": ids,
+                        "items": sorted({c.get("item_id") for c in rows if c.get("item_id")}),
+                        "threads": sorted({c.get("thread_id") for c in rows if c.get("thread_id")}),
+                        "first_hour": min(hours) if hours else None, "last_hour": max(hours) if hours else None,
+                        "regrouped_from": None, "parent": tth, "author": "analyst", "stage": a.stage,
+                        "leg": _leg(st), "t": stamp, "why": a.reason, "blind": bool(st.blind)})
+        c_lines += [{"sub": sub, "code_id": c, "theme_id": tid, "second_order": label, "parent": tth, "t": stamp}
+                    for c in ids]
+        made.append((tid, label, len(ids)))
+    if a.dry_run:
+        return ["dry run, nothing written; %s:%s would become %s" % (
+            sub, tth, "; ".join("%s %s (%d)" % m for m in made))]
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "themes.jsonl"), "a", encoding="utf-8") as f:
+        for l in t_lines:
+            f.write(json.dumps(l, ensure_ascii=False) + "\n")
+    with open(os.path.join(d, "codes.jsonl"), "a", encoding="utf-8") as f:
+        for l in c_lines:
+            f.write(json.dumps(l, ensure_ascii=False) + "\n")
+    fleet = _fleet_ids_for(st, sub, [m[0] for m in made])
+    st._cache.pop("themes", None); st._cache.pop("codes", None); st._cache.pop("ov", None)
+    v_log(st, argparse.Namespace(arg1="split %s:%s into %s: %s" % (sub, tth, ", ".join(m[0] for m in made), a.reason),
+                                 kind="split", ids=",".join(["%s:%s" % (sub, tth)] + ["%s:%s" % (sub, m[0]) for m in made]),
+                                 stage=a.stage, dry_run=False))
+    return ["split %s:%s (%d concepts) into %d children, written to out/recut/; the parent is superseded" % (
+        sub, tth, len(own), len(made))] + ["  %s:%s %s (%d concepts)%s" % (
+        sub, m[0], m[1], m[2], "  fleet %s" % fleet[m[0]] if fleet.get(m[0]) else "") for m in made] + [
+        "place each child like any item; B1's placement of %s:%s no longer stands" % (sub, tth)]
+
+
+def _fleet_ids_for(st, sub, tids):
+    """New T2 fleet ids for split children, drawn from the unused part of the table's space (J, 2026-10-12)."""
+    p = os.path.join(st.out, "fleet_ids.jsonl")
+    if not os.path.exists(p):
+        return {}
+    import random
+    rows = jl(p)
+    used = {r["fleet"] for r in rows}
+    have = {(r["sub"], r["id"]) for r in rows if r["kind"] == "t"}
+    R = random.Random("%s:%s" % (sub, ",".join(tids)))
+    got = {}
+    with open(p, "a", encoding="utf-8") as f:
+        for t in tids:
+            if (sub, t) in have:
+                continue
+            while True:
+                fid = "T2-%05d" % R.randrange(100000)
+                if fid not in used:
+                    break
+            used.add(fid)
+            got[t] = fid
+            f.write(json.dumps({"kind": "t", "fleet": fid, "sub": sub, "id": t, "split": True}) + "\n")
+    return got
+
+
 def v_rechecks(st, a):
     """rechecks [--owed]: the gate changes of this stage and their rechecks."""
     import vlib
@@ -2526,7 +2648,7 @@ VERBS = {"room": v_room, "case": v_case, "brief": v_brief, "forest": v_forest, "
          "findings": v_finding, "question": v_question, "contract": v_contract, "table": v_table,
          "view": v_view, "wiki": v_wiki, "diff-scheme": v_diff, "diff-model": v_diff,
          "ask": v_ask, "asks": v_asks, "audit": v_audit,
-         "blind": v_blind, "gates": v_gates, "gate": v_gate, "recheck": v_recheck, "rechecks": v_rechecks}
+         "blind": v_blind, "gates": v_gates, "gate": v_gate, "recheck": v_recheck, "rechecks": v_rechecks, "split": v_split}
 OVERLAY_VERBS = ("room", "codes", "theme", "themes", "where", "pairs", "scheme", "rooms", "contrast")
 
 
@@ -2570,6 +2692,7 @@ def parser():
     ap.add_argument("--codes"); ap.add_argument("--gate")             # the concepts behind a placement,
     ap.add_argument("--now"); ap.add_argument("--change")              # gate changes and their rechecks
     ap.add_argument("--confirm", action="store_true"); ap.add_argument("--owed", action="store_true")
+    ap.add_argument("--child", action="append")                       # split: one per child, J 2026-10-12
     ap.add_argument("-h", "--help", action="store_true")
     return ap
 

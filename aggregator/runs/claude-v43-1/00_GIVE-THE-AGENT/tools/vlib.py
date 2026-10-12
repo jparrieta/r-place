@@ -225,6 +225,9 @@ def store_themes(ctx):
     """(sub, theme_id) of every second-order theme in the store, and the count per room."""
     if "themes" not in ctx:
         rows = jsonl(os.path.join(ctx["package"], "store", "themes.jsonl")) or []
+        # a split child is a second-order theme too, and its parent stays one for the records made before
+        # the split (J, 2026-10-12, QB2-011)
+        rows = rows + (jsonl(os.path.join(ctx.get("outdir") or "", "recut", "themes.jsonl")) or [])
         ctx["themes"] = {(r["sub"], r["theme_id"]) for r in rows}
         ctx["themes_per_room"] = collections.Counter(r["sub"] for r in rows)
     return ctx["themes"]
@@ -599,9 +602,26 @@ def gate_confirmations(outdir, rows):
     return out
 
 
+class Owner(str):
+    """A concept's second-order theme, remembering the themes it was split from (J, 2026-10-12, QB2-011): a
+    record made before a split names the parent, one made after names the child, and both are right."""
+    lineage = ()
+
+
+def owns(th, tid):
+    """Whether the concept whose theme is th belongs to tid: its own theme, or one it was split from."""
+    return th == tid or tid in getattr(th, "lineage", ())
+
+
 def code_themes(rows):
-    """(sub, code_id) -> the second-order theme id it belongs to, from the store's codes rows."""
-    return {(c.get("sub"), c.get("code_id")): (c.get("theme_id") or c.get("case_theme_id")) for c in rows}
+    """(sub, code_id) -> the second-order theme id it belongs to, from the store's codes rows (read through
+    recut_overlay, a split concept's theme carries its parents in .lineage)."""
+    out = {}
+    for c in rows:
+        o = Owner(c.get("theme_id") or c.get("case_theme_id") or "")
+        o.lineage = tuple(c.get("split_lineage") or ())
+        out[(c.get("sub"), c.get("code_id"))] = o if str(o) else None
+    return out
 
 
 def support_problems(mapping, placed, sub, tid, ct):
@@ -620,7 +640,7 @@ def support_problems(mapping, placed, sub, tid, ct):
             th = ct.get((sub, c))
             if th is None:
                 P.append("%s is not a concept of r/%s" % (c, sub))
-            elif tid and th != tid:
+            elif tid and not owns(th, tid):
                 P.append("%s is a concept of %s/%s, not of %s" % (c, sub, th, tid))
     prim = set(mapping.get(placed[0]) or []) if placed else set()
     for t in placed[1:]:
@@ -649,7 +669,7 @@ def also_present_problems(ap, placed, sub, tid, ct, scheme_ids=None):
             th = ct.get((sub, c))
             if th is None:
                 P.append("%s is not a concept of r/%s" % (c, sub))
-            elif tid and th != tid:
+            elif tid and not owns(th, tid):
                 P.append("%s is a concept of %s/%s, not of %s" % (c, sub, th, tid))
     return P
 
@@ -827,3 +847,79 @@ def gate_warnings(outdir, rows, name, as_errors=False, edited=None):
                      "(mem.py gates %s %s --confirm --reason ...)" % (name, a, b, a, b),
                      shape="%s: an edited pair not confirmed" % name, where="%s|%s" % (a, b))
     return rep
+
+
+# ---- the split layer and the fleet ids (J, 2026-10-12, QB2-010 and QB2-009) -------------------------------
+# A second-order theme too coarse for one, two or three third-order themes is split by the analyst into
+# children (mem.py split). The store stays read-only; the children live in out/recut/: themes.jsonl (one line
+# per child, with its parent) and codes.jsonl (each moved concept's new theme). Every reader of the store's
+# codes and themes reads them through recut_overlay, so a superseded parent is gone and its children stand
+# in its place. A child split again is itself superseded the same way.
+
+def recut_overlay(name, rows, outdir):
+    """The store's rows of `name` ("themes" or "codes") with out/recut/ laid over them; other names unchanged."""
+    if name not in ("themes", "codes") or not outdir:
+        return rows
+    d = os.path.join(outdir, "recut")
+    tp = os.path.join(d, "themes.jsonl")
+    if not os.path.exists(tp):
+        return rows
+    kids = jsonl(tp) or []
+    gone = {(k.get("sub"), k.get("parent")) for k in kids}
+    if name == "themes":
+        keep = [r for r in rows if (r.get("sub"), r.get("theme_id")) not in gone]
+        keep += [k for k in kids if (k.get("sub"), k.get("theme_id")) not in gone]
+        return keep
+    moved, lineage = {}, {}
+    for c in jsonl(os.path.join(d, "codes.jsonl")) or []:
+        k = (c.get("sub"), c.get("code_id"))
+        moved[k] = c                                          # the latest line wins: a child split again
+        lineage.setdefault(k, []).append(c.get("parent"))
+    if not moved:
+        return rows
+    out = []
+    for r in rows:
+        m = moved.get((r.get("sub"), r.get("code_id")))
+        if m:
+            r = dict(r)
+            r["theme_id"] = m.get("theme_id")
+            r["second_order"] = m.get("second_order", r.get("second_order"))
+            r["split_from"] = m.get("parent")
+            r["split_lineage"] = lineage.get((r.get("sub"), r.get("code_id")), [])
+        out.append(r)
+    return out
+
+
+def fleet_table(outdir):
+    """(by fleet id, by (kind, sub, room id)) from out/fleet_ids.jsonl, or (None, None) when there is none."""
+    p = os.path.join(outdir, "fleet_ids.jsonl")
+    if not os.path.exists(p):
+        return None, None
+    rows = jsonl(p) or []
+    return ({r["fleet"]: r for r in rows}, {(r["kind"], r["sub"], r["id"]): r["fleet"] for r in rows})
+
+
+def fleet_translate(r, by_fleet):
+    """A return line written in fleet ids, read back into room ids (a copy). Lines already in room ids, and
+    ids the table does not hold, are left as written, so the checks still see an invented id as invented."""
+    if not by_fleet or not isinstance(r, dict):
+        return r
+    r = dict(r)
+    t = by_fleet.get(r.get("theme_id"))
+    if t and t.get("kind") == "t":
+        r["theme_id"] = t["id"]
+        r["sub"] = t["sub"]
+    def c(x):
+        # a code of another room keeps its room in the id, so it can never resolve inside this one
+        e = by_fleet.get(x) if isinstance(x, str) else None
+        if not e or e.get("kind") != "c":
+            return x
+        return e["id"] if e["sub"] == r.get("sub") else "%s:%s" % (e["sub"], e["id"])
+    if isinstance(r.get("support"), list):
+        r["support"] = [c(x) for x in r["support"]]
+    if isinstance(r.get("also_present"), dict):
+        r["also_present"] = {k: [c(x) for x in (v or [])] for k, v in r["also_present"].items()}
+    ml = r.get("multiplacement_log")
+    if isinstance(ml, dict):
+        r["multiplacement_log"] = {k: ([c(x) for x in v] if isinstance(v, list) else v) for k, v in ml.items()}
+    return r

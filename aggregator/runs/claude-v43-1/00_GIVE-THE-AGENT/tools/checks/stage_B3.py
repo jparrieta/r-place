@@ -335,7 +335,7 @@ def check_raw(outdir, ctx, scheme, by_batch, R, gold_keys, items_expected):
             "cell number")
     vlib.store_codes(ctx)
     codes = ctx["codes"]
-    ct = vlib.code_themes(jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [])
+    ct = vlib.code_themes(vlib.recut_overlay("codes", jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [], ctx.get("outdir")))
     spec_ap = "also_present" in text(outdir, "RETURN-B3.md")
     if not codes:
         err("package/store/codes.jsonl holds no concept, so no support id could be resolved")

@@ -13,11 +13,13 @@
   "effort": "medium",
   "readers": {
    "route": "gateway",
-   "model": "@preset/cheap",
+   "model": "deepseek/deepseek-v4.1-flash",
    "n": 3,
    "shared": "index.md,G*.md",
-   "declared_served": "deepseek/deepseek-v4-flash-0731",
-   "max_tokens": 900000
+   "declared_served": "deepseek/deepseek-v4.1-flash",
+   "max_tokens": 128000,
+   "reasoning_effort": "medium",
+   "note": "J 2026-10-12 07:34: bypass the preset (it 400s on every call), V4.1 Flash direct, medium effort; max_tokens 128000 so input plus output stays well inside the 1,048,576 window"
   }
  },
  "B3": {
@@ -25,11 +27,13 @@
   "effort": "medium",
   "readers": {
    "route": "gateway",
-   "model": "@preset/cheap",
+   "model": "deepseek/deepseek-v4.1-flash",
    "n": 2,
    "shared": "index.md,G*.md",
-   "declared_served": "deepseek/deepseek-v4-flash-0731",
-   "max_tokens": 900000
+   "declared_served": "deepseek/deepseek-v4.1-flash",
+   "max_tokens": 128000,
+   "reasoning_effort": "medium",
+   "note": "J 2026-10-12 07:34: bypass the preset (it 400s on every call), V4.1 Flash direct, medium effort; max_tokens 128000 so input plus output stays well inside the 1,048,576 window"
   }
  },
  "B4": {
@@ -37,11 +41,13 @@
   "effort": "xhigh",
   "readers": {
    "route": "gateway",
-   "model": "@preset/cheap",
+   "model": "deepseek/deepseek-v4.1-flash",
    "n": 2,
    "shared": "index.md,G*.md",
-   "declared_served": "deepseek/deepseek-v4-flash-0731",
-   "max_tokens": 900000
+   "declared_served": "deepseek/deepseek-v4.1-flash",
+   "max_tokens": 128000,
+   "reasoning_effort": "medium",
+   "note": "J 2026-10-12 07:34: bypass the preset (it 400s on every call), V4.1 Flash direct, medium effort; max_tokens 128000 so input plus output stays well inside the 1,048,576 window"
   }
  },
  "C1": {

@@ -286,18 +286,35 @@ def check(root, outdir, ctx):
         err("pilot_rounds.jsonl is empty or absent while _fleet_raw/B2 holds a finished dispatch; the check "
             "leg scores every round, one line each")
     # the returns themselves
-    ct = vlib.code_themes(jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [])
+    ct = vlib.code_themes(vlib.recut_overlay("codes", jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [], ctx.get("outdir")))
     spec_ap = "also_present" in text(outdir, "RETURN-B2.md")
+    # a line J waived by name is not checked (J, 2026-10-12, QB2-009): out/return_waivers.jsonl, one line per
+    # return line, {"round_dir", "file", "item", "reason", "ruled_by"}; a waiver without a reason or a ruling
+    # is itself an error, and the waived lines are counted aloud
+    waived = set()
+    for i, w in enumerate(jsonl(os.path.join(outdir, "return_waivers.jsonl")) or [], 1):
+        if not (w.get("reason") and w.get("ruled_by") and w.get("round_dir") and w.get("file") and w.get("item")):
+            err("return_waivers.jsonl line %d lacks round_dir, file, item, reason or ruled_by" % i,
+                shape="a waiver without its ruling", where="return_waivers.jsonl line %d" % i)
+            continue
+        waived.add((w["round_dir"].rstrip("/"), w["file"], w["item"]))
+    by_fleet, _ = vlib.fleet_table(outdir)       # a round read in fleet ids is checked in room ids (J, 2026-10-12)
+    round_items = {}                              # the items each round's readers returned (J, 2026-10-12, QB2-011)
     for d in dirs:
         rel = os.path.relpath(d, outdir)
-        n_lines, n_readers = 0, 0
+        n_lines, n_readers, n_waived = 0, 0, 0
         required = bool(spec_ap and spec_in_force(outdir, "RETURN-B2.md", d))
         for p, rows in returns_in(d):
             n_readers += 1
             for i, r in enumerate(rows, 1):
                 if "predicted_confusion" in r:
                     continue
+                r = vlib.fleet_translate(r, by_fleet)
                 n_lines += 1
+                if (rel, os.path.relpath(p, d), key_of(r)) in waived:
+                    n_waived += 1
+                    continue
+                round_items.setdefault(os.path.basename(d.rstrip("/")), set()).add(key_of(r))
                 for k in RETURN_FIELDS:
                     if k not in r:
                         err("%s: a return line lacks %r; the return line of section 1 carries it. A return "
@@ -338,7 +355,8 @@ def check(root, outdir, ctx):
                             "for that room" % (rel, key_of(r), c),
                             shape="%s: a support id that does not resolve" % rel, where=key_of(r))
                 check_also_present(rel, r, ct, scheme, required, "%s line %d" % (os.path.basename(p), i))
-        print("  %s: %d readers, %d return lines" % (rel, n_readers, n_lines))
+        print("  %s: %d readers, %d return lines%s" % (rel, n_readers, n_lines,
+                                                         ", %d waived by J (return_waivers.jsonl)" % n_waived if n_waived else ""))
 
     # one scored line per dispatched round
     by_round = {}
@@ -359,7 +377,22 @@ def check(root, outdir, ctx):
                 err("pilot_rounds.jsonl line %d: %s is %r, outside 0..1" % (i, k, v),
                     shape="pilot_rounds.jsonl: %s outside 0..1" % k, where="line %d" % i)
         n = r.get("n_items")
-        if isinstance(n, int) and auth and n not in (len(auth), len(gold)):
+        # the hard set grows when a bag is split (its children are appended, the parent kept as written), so a
+        # round's n_items is held to the items its own readers returned, and to the sets as they stand only when
+        # that round's returns are not on disk (J, 2026-10-12, QB2-011)
+        got = None
+        if r.get("round") not in (None, "gold"):
+            mf = os.path.join(outdir, "_packets-B2", "round-%s" % r.get("round"), "MANIFEST.json")
+            try:
+                m = json.load(open(mf, encoding="utf-8"))
+                got = sum(int(v.get("items") or 0) for v in m.values() if isinstance(v, dict))
+            except (OSError, ValueError):
+                got = len(round_items["round-%s" % r.get("round")]) if "round-%s" % r.get("round") in round_items else None
+        if isinstance(n, int) and got is not None and n != got:
+            err("pilot_rounds.jsonl line %d: n_items %d, but round %s sent %d items (its MANIFEST, or its returns "
+                "when no MANIFEST is kept); a round runs the whole set it was sent" % (i, n, r.get("round"), got),
+                shape="pilot_rounds.jsonl: n_items off the round's set", where="line %d" % i)
+        elif isinstance(n, int) and got is None and auth and n not in (len(auth), len(gold)):
             err("pilot_rounds.jsonl line %d: n_items %d is neither the hard set (%d) nor the gold set (%d); "
                 "a round runs the whole set" % (i, n, len(auth), len(gold)),
                 shape="pilot_rounds.jsonl: n_items off the set", where="line %d" % i)

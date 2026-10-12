@@ -489,7 +489,7 @@ def _check_notes(outdir):
 def _check_rechecks(outdir, ctx, ids):
     """J, 2026-10-11: a gate amended at C1 owes the rechecks of the placements it could move; a move made with
     mem.py reassign names the concepts behind each theme; the gates of scheme v2 agree with one another."""
-    ct = vlib.code_themes(jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [])
+    ct = vlib.code_themes(vlib.recut_overlay("codes", jsonl(os.path.join(ctx["package"], "store", "codes.jsonl")) or [], ctx.get("outdir")))
     vlib.recheck_errors(outdir, "C1", ct, ids)
     for i, r in enumerate(jsonl(os.path.join(outdir, "assignments_final.jsonl")) or [], 1):
         for m in r.get("moves") or []:
