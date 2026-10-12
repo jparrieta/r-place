@@ -376,3 +376,4 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 2026-10-12T08:58Z: B2b-r2-p2 closed and pushed (split done: 56 children, 54 in hard set, 2 gold; validate 0 errors). B2a-r3 started: 98 items (44 unsplit + 54 children), fleet ids only.
 2026-10-12T11:45Z tick: B2b-r3 running (round 3 check, rescued returns). also_present bound under discussion with J (cap 10 or 10%).
 2026-10-12T11:52Z tick: cap 20 / floor 3 installed (11 files, md5 verified; validate B2 shows only the 4 QB2-013 lines). QB2-012 and QB2-013 answered; bound note sent; B2b-r3 running (turn cbf333cf).
+2026-10-12T12:20Z: B2b-r3 closed by analyst (0 errors, 443 warnings, 20 waivers, RETURN-B2 carries 'twenty themes at most'); handler close pushed, checkpoint 09a73701. Freeze leg B2b-r3-p2 started (job 5953f381212c).

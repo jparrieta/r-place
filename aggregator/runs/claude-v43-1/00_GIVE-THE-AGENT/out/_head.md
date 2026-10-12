@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B2b-r3, 2026-10-12 (UTC): round 3 checked. Pairwise 0.728 clears the 0.70 threshold, so the rounds stop; no round 4 (QB2-012). Four bag-flag lines waived (QB2-013). A freeze leg of its own comes next.
+Under 3,000 words, rewritten whole at every close. Last written at B2b-r3-p2, 2026-10-12 (UTC): J's answers to QB2-012 and QB2-013 found applied. Before it, at B2b-r3: round 3 checked. Pairwise 0.728 clears the 0.70 threshold, so the rounds stop; no round 4 (QB2-012). Four bag-flag lines waived (QB2-013). A freeze leg of its own comes next.
 
 ## The method question, in one sentence
 
@@ -138,7 +138,7 @@ None is filed in `_questions/`. These remain open:
 
 - B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `scheme.jsonl` (197, edited); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines, F-001 and its superseding line); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
 - B2:
-  - `notes-B2.md` (959 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (3);
+  - `notes-B2.md` (968 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (3);
   - `scheme_edits.jsonl` (295); `rechecks-B2.jsonl` (1,413, of which 526 the withdrawn split's; none owed); `gate_checks.jsonl` (31 pairs confirmed); `exemplar_candidates.jsonl` (68); `tier_history.jsonl` (381); `run_manifest.json` (6: A1, B2 round 1, two round-2 entries, two round-3 entries, the second superseding the first).
 - Asks QB2-001 to QB2-013 are answered; none is open. `return_waivers.jsonl` holds 20 waivers (J: 16 at QB2-009, 4 at QB2-013). `out/recut/` holds the 56 withdrawn children, as written.
 
