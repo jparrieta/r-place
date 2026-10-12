@@ -1,0 +1,1 @@
+For every item below, decide where it sits in the scheme and write one line for it, in the form the return specification sets out. The items carry position numbers. A room name and an id head each item, and each concept has its own id; reproduce every id exactly as it is written here. Nothing outside this packet is needed.

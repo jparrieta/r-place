@@ -386,5 +386,164 @@
   "items": "round 2's 50 hard items; the split is withdrawn and each bag is one item (J, 2026-10-12)",
   "return_spec": "out/RETURN-B2.md with fleet ids and the three-concept floor for also_present (QB2-008)",
   "notes": "Pilot round 3: round 2's set, the first round in which only the scheme changes (QB2-007), the first with fleet ids."
+ },
+ {
+  "stage": "B2",
+  "round": "gold",
+  "leg": "B2c",
+  "written_utc": "2026-10-12T13:09:06Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of rounds 2 and 3 (QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261014,
+   "cut": "the same seed and cut in all three B2c rounds, so the same items fall in the same packets in the same order"
+  },
+  "n_agents": 3,
+  "n_items": 40,
+  "packets": [
+   {
+    "name": "P03-rgold-1",
+    "items": 14,
+    "bytes": 14707,
+    "item_bytes": 14157,
+    "sha256": "2bd6a08fdd07a89f86dc81293c181f3c04fc9059be7420d91703615ccf582bb9"
+   },
+   {
+    "name": "P03-rgold-2",
+    "items": 14,
+    "bytes": 15353,
+    "item_bytes": 14803,
+    "sha256": "e5f8c0339702473d54aecd0f89497ac52e7ded5cb067d9713f2631cdb7bbf57d"
+   },
+   {
+    "name": "P03-rgold-3",
+    "items": 12,
+    "bytes": 14687,
+    "item_bytes": 14137,
+    "sha256": "8f699a8b2e0dd556dc8536ee77bd447c69b0bbdd0ff12ead23df872e55217033"
+   }
+  ],
+  "scheme": "out/scheme_final.jsonl (frozen at B2b-r3-p3; tier main/rare, J at QB2-014), sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d; exemplars withheld",
+  "items": "gold_items.jsonl's 40 items (placements never shown)",
+  "brief": "the builder's brief (BRIEF in out/_analysis/b2_packets_fleet2.py)",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry; 0 room ids in any file",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "return_spec": "out/RETURN-B2.md: fleet ids, the three-concept floor, a bag with no other theme at the floor not flagged, 'twenty themes at most'",
+  "notes": "stage B2 section 5: the gold round on the frozen scheme"
+ },
+ {
+  "stage": "B2",
+  "round": "stab-1",
+  "leg": "B2c",
+  "written_utc": "2026-10-12T13:09:06Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of rounds 2 and 3 (QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261014,
+   "cut": "the same seed and cut in all three B2c rounds, so the same items fall in the same packets in the same order"
+  },
+  "n_agents": 3,
+  "n_items": 40,
+  "packets": [
+   {
+    "name": "P03-rstab-1-1",
+    "items": 14,
+    "bytes": 14748,
+    "item_bytes": 14157,
+    "sha256": "d8f0f08e207748038178b58065185644c2b6d5a8f131cd2cbde51fb92c58734b"
+   },
+   {
+    "name": "P03-rstab-1-2",
+    "items": 14,
+    "bytes": 15394,
+    "item_bytes": 14803,
+    "sha256": "ae9392f9d0b90f4891351170c08a14c566e85f95e2a3871b3a8171dc18369363"
+   },
+   {
+    "name": "P03-rstab-1-3",
+    "items": 12,
+    "bytes": 14728,
+    "item_bytes": 14137,
+    "sha256": "487eec48e71ae6ceed53307a6134182eb6918b7f9ca73b6e35dc5b4838c8364d"
+   }
+  ],
+  "scheme": "out/scheme_final.jsonl (frozen at B2b-r3-p3; tier main/rare, J at QB2-014), sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d; exemplars withheld",
+  "items": "gold_items.jsonl's 40 items (placements never shown)",
+  "brief": "out/brief-stab-1.md, the brief reworded, no test changed",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry; 0 room ids in any file",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "return_spec": "out/RETURN-B2.md: fleet ids, the three-concept floor, a bag with no other theme at the floor not flagged, 'twenty themes at most'",
+  "notes": "stage B2 section 5: the stability check, the gold set under a reworded brief"
+ },
+ {
+  "stage": "B2",
+  "round": "stab-2",
+  "leg": "B2c",
+  "written_utc": "2026-10-12T13:09:06Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of rounds 2 and 3 (QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261014,
+   "cut": "the same seed and cut in all three B2c rounds, so the same items fall in the same packets in the same order"
+  },
+  "n_agents": 3,
+  "n_items": 40,
+  "packets": [
+   {
+    "name": "P03-rstab-2-1",
+    "items": 14,
+    "bytes": 14720,
+    "item_bytes": 14157,
+    "sha256": "446bf95fbcb673ad96245b67609328d2f49344ee6117f930197b0b34e5894c8f"
+   },
+   {
+    "name": "P03-rstab-2-2",
+    "items": 14,
+    "bytes": 15366,
+    "item_bytes": 14803,
+    "sha256": "716648e21e6908d96f7aaa3f4cfe383c769e68aedd5f0f2d4b11189796f7ddad"
+   },
+   {
+    "name": "P03-rstab-2-3",
+    "items": 12,
+    "bytes": 14700,
+    "item_bytes": 14137,
+    "sha256": "847624c72a7ff98964a621ccbb7cde27da401077aa1a6eb8a72eda467e415b32"
+   }
+  ],
+  "scheme": "out/scheme_final.jsonl (frozen at B2b-r3-p3; tier main/rare, J at QB2-014), sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d; exemplars withheld",
+  "items": "gold_items.jsonl's 40 items (placements never shown)",
+  "brief": "out/brief-stab-2.md, the brief reworded, no test changed",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry; 0 room ids in any file",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "return_spec": "out/RETURN-B2.md: fleet ids, the three-concept floor, a bag with no other theme at the floor not flagged, 'twenty themes at most'",
+  "notes": "stage B2 section 5: the stability check, the gold set under a reworded brief"
  }
 ]

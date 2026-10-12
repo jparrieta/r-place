@@ -1,0 +1,1 @@
+Below are second-order themes to be placed on the scheme. Give each one its own line, shaped as the return specification requires, following the numbers the items carry. Copy each id character for character: the room and id over each item, and the id beside each concept. The packet stands alone.

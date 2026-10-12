@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at B2b-r3-p3, 2026-10-12 (UTC): the scheme is frozen (`scheme_final.jsonl`, `scheme_final.md`, `families.jsonl`). B2c, the gold round and the two stability rounds, comes next. QB2-014 (the tier word) is open.
+Under 3,000 words, rewritten whole at every close. Last written at B2c, 2026-10-12 (UTC): the tier word is "main" (QB2-014); the gold round and the two stability rounds are built on the frozen scheme. J runs the three dispatches; B2d checks them.
 
 ## The method question, in one sentence
 
@@ -10,15 +10,13 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## Where the run stands
 
-Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is open: rounds 1 to 3 are built, dispatched and checked; the scheme is frozen. B2c and B2d remain.
+Stage A1 is closed. Stage B1 (the third-order scheme, 197 themes in 21 families) is done. Stage B2, the pilot, is open: rounds 1 to 3 are built, dispatched and checked; the scheme is frozen; B2c built the gold and stability rounds. B2d remains.
 
-**Round 1, as scored** (readers r12, r15 and r16 only; the other attempts failed):
+**Round 1, as scored:**
 - fidelity against `author_items.jsonl` 0.594 (mean Jaccard; primary match 0.742);
 - pairwise agreement 0.733 (primary 0.767);
 - alpha 0.726;
 - 18 of 40 items with two readers differing.
-
-Per-item table: `out/_analysis/b2_r1_items.tsv`.
 
 **What round 1 showed.** I placed 24 of 40 items on two kinds; the readers placed one kind almost always, so those second placements are my author-errors under rule 0. acecombat t05, Goodboye t03 and simonfraser t08 are bags.
 
@@ -71,12 +69,15 @@ Per-item table: `out/_analysis/b2_r1_items.tsv`.
 
 **The pairs.** The 449 unconfirmed pairs read whole (`out/_analysis/b2_pairs_read_first.txt`). Two faults fixed (edits 303 to 306): T3-072 and T3-157 said "T3-009 primary" against T3-009's count; the T3-038/T3-070 question sent a link to the finished work to T3-038, which T3-026 takes. 52 rechecks, none moves. All 496 pairs confirmed, 0 stale, no mechanical defect.
 
-**The files.** `scheme_final.jsonl` (197 themes; tier "common" for the 183 main, "rare" for 14; sha256 fb8b543a...), `scheme_final.md` (frozen header), `families.jsonl` (21). The freeze edits are tested only by the gold round (QB2-012). Gates are now read from `scheme_final.jsonl`.
+**The files.** `scheme_final.jsonl` (197 themes; tier "main" 183, "rare" 14, J at QB2-014; sha256 4b471d29...), `scheme_final.md` (frozen header), `families.jsonl` (21). The freeze's "common" files are kept as `out/_analysis/scheme_final_common.*`. The freeze edits are tested only by the gold round (QB2-012). Gates are read from `scheme_final.jsonl`.
+
+## B2c, built
+
+`out/_analysis/b2_packets_fleet2.py`: gold_items.jsonl's 40 items, fleet ids, shared pages from `scheme_final.jsonl`, seed 20261014 in all three rounds, so the same 3 packets (14, 14, 12 items) in the same order; only the brief differs (the builder's for gold; `out/brief-stab-1.md`, `out/brief-stab-2.md`, reworded, no test changed). Folders `out/_packets-B2/round-gold`, `round-stab-1`, `round-stab-2`; 0 room ids in 75 files; `run_manifest.json` 9 entries.
 
 ## What comes next
 
-- B2c: the gold round on `gold_items.jsonl` and the two stability rounds (`brief-stab-1.md`, `brief-stab-2.md`), built on `scheme_final.jsonl` with fleet ids and the return spec's bag rule and "twenty themes at most"; it ends at `--cut packets-out`.
-- **QB2-014, open.** The B2 check takes tier none, rare, common or core; C1 expects main or rare and finds moves to rare by "main". Assumed until J answers: "common" stands; if J rules "main", supersede `scheme_final.jsonl` under a new name once the B2 check accepts it.
+- J runs the three dispatches. B2d: translate the returns (`b2_translate_fleet.py --round gold` and so on), score gold beside round 3, write `stability-B2.md` (stab-1 against stab-2) and `pilot_report.md`, the blind re-placement of ten hard items, and `handback-B2.md`.
 - **QB2-013, answered.** Four round-3 lines (bag flag, empty `also_present`) are waived by name. `RETURN-B2.md` says a bag with no other theme at the three-concept floor is not flagged (`item_is_a_bag` false, `also_present` `{}`). Round-3 text: `out/_analysis/RETURN-B2_round3.md`.
 - **The bound (J, 13:47).** `also_present` names "twenty themes at most", each with three concepts of its own; a bound, not a goal. The validator and `fleet.py` apply it only where that exact phrase stands. Write both rules, the phrase word for word, into B3's return specification. Rounds 1 to 3 are scored as given.
 
@@ -138,9 +139,9 @@ None is filed in `_questions/`. These remain open:
 
 - B1: `scheme_current.jsonl` (197 themes, 7,786 placed second-order themes, 13,432 placements); `scheme.jsonl` (197, edited); `families.jsonl` (21); `confusions.md` (19 pairs); `findings.jsonl` (2 lines, F-001 and its superseding line); `multiplacement_log.jsonl` (6,663); `episodes-B1.jsonl` (1,341).
 - B2:
-  - `notes-B2.md` (1,060 lines); `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (3); `scheme_final.jsonl` (197), `scheme_final.md`;
-  - `scheme_edits.jsonl` (306); `rechecks-B2.jsonl` (1,594, of which 526 the withdrawn split's; none owed); `gate_checks.jsonl` (519 lines, all 496 pairs confirmed); `exemplar_candidates.jsonl` (68); `tier_history.jsonl` (392); `run_manifest.json` (6: A1, B2 round 1, two round-2 entries, two round-3 entries, the second superseding the first).
-- Asks QB2-001 to QB2-013 are answered; QB2-014 is open. `return_waivers.jsonl` holds 20 waivers (J: 16 at QB2-009, 4 at QB2-013). `out/recut/` holds the 56 withdrawn children, as written.
+  - `notes-B2.md` (1,120 lines); `brief-stab-1.md`, `brief-stab-2.md`; `author_items.jsonl` (50); `gold_items.jsonl` (40); `RETURN-B2.md` (with `also_present`, no parts); `pilot_rounds.jsonl` (3); `scheme_final.jsonl` (197), `scheme_final.md`;
+  - `scheme_edits.jsonl` (306); `rechecks-B2.jsonl` (1,594, of which 526 the withdrawn split's; none owed); `gate_checks.jsonl` (519 lines, all 496 pairs confirmed); `exemplar_candidates.jsonl` (68); `tier_history.jsonl` (392); `run_manifest.json` (9: A1, B2 round 1, two round-2 entries, two round-3 entries, the second superseding the first, gold, stab-1, stab-2).
+- Asks QB2-001 to QB2-014 are answered; none is open. `return_waivers.jsonl` holds 20 waivers (J: 16 at QB2-009, 4 at QB2-013). `out/recut/` holds the 56 withdrawn children, as written.
 
 ## Rules kept
 

@@ -475,8 +475,8 @@ def check(root, outdir, ctx):
         fin = jsonl(os.path.join(outdir, "scheme_final.jsonl")) or []
         fids = {r.get("id") for r in fin}
         for r in fin:
-            if r.get("tier") not in (None, "rare", "common", "core"):
-                err("scheme_final.jsonl: theme %s has tier %r; the rare tier is marked \"tier\": \"rare\"" % (r.get("id"), r.get("tier")),
+            if r.get("tier") not in ("main", "rare"):
+                err("scheme_final.jsonl: theme %s has tier %r; tiers are \"main\" or \"rare\" (B1's scheme.jsonl, C1's check)" % (r.get("id"), r.get("tier")),
                     shape="scheme_final.jsonl: a tier outside rare", where=str(r.get("id")))
         for name, rows in (("author_items.jsonl", auth), ("gold_items.jsonl", gold)):
             for r in rows:
@@ -592,9 +592,9 @@ def _plant_one_way_at_freeze(outdir, root):
         {"round": 1, "n_items": 1, "agents": 3, "exemplars": False, "fidelity_vs_author": 1.0,
          "agreement_pairwise": 1.0, "alpha": 1.0, "items_with_disagreement": [], "seed": 7}) + "\n")
     open(os.path.join(outdir, "scheme_final.jsonl"), "w").write("\n".join(json.dumps(x) for x in (
-        {"id": "T3-001", "name": "recruiting", "gloss": "asking outsiders for hands", "tier": "core",
+        {"id": "T3-001", "name": "recruiting", "gloss": "asking outsiders for hands", "tier": "main",
          "discriminators": [{"vs": "T3-002", "question": "outsiders asked, or a border held?"}]},
-        {"id": "T3-002", "name": "holding", "gloss": "defending a border", "tier": "core", "discriminators": []})) + "\n")
+        {"id": "T3-002", "name": "holding", "gloss": "defending a border", "tier": "main", "discriminators": []})) + "\n")
 
 
 PLANTED = [
