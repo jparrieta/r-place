@@ -112,3 +112,53 @@ warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was 
 
 0 errors (0 distinct shapes), 1 warnings
 ```
+
+## Packet 2, ruled at B4a-02 (2026-10-12 to 13)
+
+Before the first item:
+- **The conflicts pass** read packet 2's notes alone, grouped by the readings' primaries, and added CC-009 to CC-016 to `coder_conflicts.jsonl` (16 lines now).
+- **Seven boundaries were ruled once** in `boundaries.md` ("Packet 2"): every pair on which five or more items split their primaries (`out/_analysis/b4_packet_pairs.py`). Four are T3-002 against a sibling, so each paragraph says how a concept is counted toward one act or the other.
+
+All 447 items are ruled, in 18 blind chunks of 25 (`out/_adjudication-B4/packet-02/rulings-NN.jsonl`). `packet-02/summary.md` holds the figures, and `adjudication_report.md` holds them with packet 1's as the interim report. In brief:
+- **Taxonomy:** genuine-joint 215, author-disagrees 65, scheme-ambiguous 62, author-error 58, item-is-a-bag 44, reader-error 3.
+- **Counts:** unresolved 10 (2.2%); named_neither 155 (34.7%), of which 98 add only themes from my B1 grouping.
+- **Fields that failed:** must_show 33, discriminators 17, must_not_show 6, decide_when_both 6.
+- **Themes that failed most:** T3-002 12, T3-033 9, T3-014 6.
+- **Agreement:** before, reader against reader, 0.537 mean Jaccard; after, each reader against the ruling, 0.603. The figure after is not a reliability figure.
+- **Mapping:** `assign_final.jsonl` was rewritten (class 1 2,566, class 2 1,990, ruled 938, pending 2,350).
+
+What changed during the packet, and why:
+- **The T3-016 correction (at item 146).** The T3-002|T3-070 paragraph had said that teaching a newcomer to place counts as directions. T3-016's `must_show` names "how to pick a colour and place". The paragraph now reads that such teaching is not a call, and is T3-016 when it explains the event. bindingofisaac t02 was revised by `--replace` (`revisions-01.jsonl`).
+- **The T3-033 and T3-041 reading (from item 140).** T3-041's `must_not_show` gives "The room's first mark proposed" to T3-033. Proposals of a further piece beside a standing mark are T3-041, scheme-ambiguous on T3-033's `must_show`. clashroyale t02, ruled before the reading, was revised (`revisions-02.jsonl`). I checked the T3-033 concepts of the 22 other packet 2 rulings that place T3-033 with `out/_analysis/b4_theme_support_lines.py`; each proposes a first mark.
+- **Class 4 went the other way.** In packet 1 I took the readers' list in 89 class 4 items and kept a B1 theme in 29. In packet 2 the figures are 53 and 63. Of packet 2's 65 author-disagrees, 39 keep the readers' theme and add mine under rule 0. The report says I cannot separate this from my pull toward my own grouping.
+- **A batching slip, twice.** I put an Edit and the dry run that depends on it in one turn (revisions-01 and the chunk 12 fix). Both ran in order. I kept them apart from then on.
+
+Readings applied in packet 2, to carry into the later packets (each from the theme's own sentences):
+- **The counting rule for T3-002, T3-033 and T3-038.** Calls, volunteers and answers ("I'm in", "on it") count toward T3-002; placing and reports of the work's state, with coordinates of the work in progress, toward T3-038; a new mark named, even with a call for help, toward T3-033.
+- **T3-065** takes the flag of the room's land, its calls and its proportions included (T3-002's `must_not_show`). **T3-169** takes the sub's name written; **T3-044** instead when bringing visitors in is the stated point.
+- **T3-084** takes a request received from another room and another canvas group asked as a group; **T3-062** takes calls posted to other communities. "Canvas group" is undefined: scheme-ambiguous.
+- **T3-074** needs the limit, the cooldown or a placing trouble while building. A member's exams, papers or sleep are not in its test (pakistan t10 scheme-ambiguous; rutgers t13 author-disagrees). With nothing built yet, doubt about the hands goes to **T3-136**, and a design scaled down to the hands to **T3-069**.
+- **Smaller readings:**
+  - T3-137 for following an outside sub's plan; T3-068 for another room's mark altered into the room's sign or joke;
+  - T3-170 for friendly work mistaken for vandalism; T3-196 for former fans returning; T3-122 for greetings to or from neighbours;
+  - T3-118 needs a loss; T3-125 for "we just wing it"; T3-141 for night shifts; T3-162 for vetting others' requests to build;
+  - T3-116 for plans hidden from rivals; T3-111 for a canvas sub's future.
+
+National, political and hate content is named in the whys as the words give it. Examples: "schleus de merde", an anti-German slur, in france t05; "until we reach the jews" in russia t04; the anarcho-capitalist and anarcho-communist flags in anarcho_capitalism t06; "Norwegian commie bastards" in texas t10.
+
+The next packet is packet 3: 500 items, G07 and the first 254 of G08. Its conflicts pass runs over its notes before its first ruling.
+
+`validate.py B4`, after packet 2:
+
+```
+stage B4:
+  leg: adjudication
+  settled items 7844 = assignment_items_expected
+  rulings 938: {'genuine-joint': 352, 'scheme-ambiguous': 185, 'reader-error': 80, 'author-error': 155, 'author-disagrees': 102, 'item-is-a-bag': 64}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 938, outstanding 2350
+  coder conflicts 16
+
+warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was read as an adjudication leg because neither RETURN-B4.md, a stage-B4 manifest entry nor _packets-B4/ exists
+
+0 errors (0 distinct shapes), 1 warnings
+```

@@ -395,3 +395,4 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 2026-10-12T20:53Z: fleet-id halves all valid (dispatch 20:45Z rc=0). B3b resumed for assembly, checks, close.
 2026-10-12T21:20Z: QB3-005 answered (waive), B3 check extended to line waivers (0a77bbad); B3b resumed to close.
 2026-10-12T21:20Z: B3b closed and pushed (16e528ff; 270 turns, 540 in, 857,491 cache-write, 55,939,112 cache-read, 420,401 out). B4a-01 started.
+2026-10-12T22:53Z: B4a-01 closed 22:43Z (0 errors; 459 turns, 918 in, 4,247,493 cache-write, 242,843,435 cache-read, 1,762,642 out; 52 unresolved, 3 recurring scheme gaps). Pushed; B4a-02 started.
