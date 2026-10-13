@@ -1,125 +1,144 @@
-# Adjudication report, stage B4 (interim: packets 1 to 3 of 7)
+# Adjudication report, stage B4 (interim: packets 1 to 4 of 7)
 
-Written at B4a-03 after packet 3 was ruled. It is rewritten whole after each packet; the figures below cover packets 1 to 3. Per-packet figures: `out/_adjudication-B4/packet-01/summary.md`, `packet-02/summary.md` and `packet-03/summary.md` (`out/_analysis/b4_packet_summary.py`). The sums: `out/_analysis/b4_cumulative.py --packets 1,2,3`. Packet 3's named_neither split and class 4 measure: `out/_analysis/b4_named_neither_split.py` and `out/_analysis/b4_packet_detail.py`. The rulings: `out/disagreements.jsonl`. The boundary paragraphs: `out/_adjudication-B4/boundaries.md`, carried below with their item lists.
+Written at B4a-04 after packet 4 was ruled. It is rewritten whole after each packet; the figures below cover packets 1 to 4. Per-packet figures: `out/_adjudication-B4/packet-01/summary.md` to `packet-04/summary.md` (`out/_analysis/b4_packet_summary.py`). The sums: `out/_analysis/b4_cumulative.py --packets 1,2,3,4`. Packet 4's named_neither split and class 4 measure: `out/_analysis/b4_named_neither_split.py` and `out/_analysis/b4_packet_detail.py`. Packet 4 split at J's ruling of 13 October: `out/_analysis/b4_agreement_range.py`. The rulings: `out/disagreements.jsonl`. The boundary paragraphs: `out/_adjudication-B4/boundaries.md`, carried below with their item lists.
 
 ## Items adjudicated
 
 Stage B3's inventory (`b3_classes.jsonl`, J's five classes) leaves 3,288 contested items: class 3 (the readers' lists differ) 2,393, class 4 (the readers agree on a list not inside my B1 grouping) 837, class 5 (no B1 grouping) 58.
 - **Packet 1** ruled 491: the 18 gloss-only items, G01 (April Fools in the sub) and G02 (the sub's own business).
 - **Packet 2** ruled 447: G03 (where the planning happens), G04 (calling people in to place), G05 (telling placers what to place) and G06 (strain, doubt and giving up).
-- **Packet 3** ruled 500: G07 (choosing what to make and where) and the first 254 items of G08 (building and growing the mark). 376 class 3, 117 class 4, 7 class 5.
+- **Packet 3** ruled 500: G07 (choosing what to make and where) and the first 254 items of G08 (building and growing the mark).
+- **Packet 4** ruled 461: the last 6 items of G08, G09 (keeping the mark against damage), G10 (finding who did it) and G11 (scripts, bots and extra accounts). 355 class 3, 105 class 4, 1 class 5.
 
-Together 1,438 items: 1,014 class 3, 394 class 4, 30 class 5. 1,850 contested items remain for packets 4 to 7.
+Together 1,899 items: 1,369 class 3, 499 class 4, 31 class 5. 1,389 contested items remain for packets 5 to 7.
 
 ## The taxonomy split
 
 The next table counts the rulings by taxonomy value, by packet and by class.
 
-| taxonomy | all | packet 1 | packet 2 | packet 3 | class 3 | class 4 | class 5 |
-|---|---|---|---|---|---|---|---|
-| genuine-joint | 583 | 137 | 215 | 231 | 583 | 0 | 0 |
-| scheme-ambiguous | 291 | 123 | 62 | 106 | 235 | 54 | 2 |
-| author-error | 200 | 97 | 58 | 45 | 2 | 182 | 16 |
-| author-disagrees | 141 | 37 | 65 | 39 | 0 | 129 | 12 |
-| item-is-a-bag | 140 | 20 | 44 | 76 | 111 | 29 | 0 |
-| reader-error | 83 | 77 | 3 | 3 | 83 | 0 | 0 |
-| total | 1438 | 491 | 447 | 500 | 1014 | 394 | 30 |
+| taxonomy | all | packet 1 | packet 2 | packet 3 | packet 4 | class 3 | class 4 | class 5 |
+|---|---|---|---|---|---|---|---|---|
+| genuine-joint | 802 | 137 | 215 | 231 | 219 | 802 | 0 | 0 |
+| scheme-ambiguous | 375 | 123 | 62 | 106 | 84 | 313 | 60 | 2 |
+| author-error | 275 | 97 | 58 | 45 | 75 | 2 | 256 | 17 |
+| item-is-a-bag | 193 | 20 | 44 | 76 | 53 | 156 | 37 | 0 |
+| author-disagrees | 158 | 37 | 65 | 39 | 17 | 0 | 146 | 12 |
+| reader-error | 96 | 77 | 3 | 3 | 13 | 96 | 0 | 0 |
+| total | 1899 | 491 | 447 | 500 | 461 | 1369 | 499 | 31 |
 
 How to read it:
-- **Genuine-joint is the largest value, 583 (40.5%).** In packet 3 it is 231 of 500 (46.2%). A G07 or G08 theme often holds a proposal, its design, its spot, its placing and a further piece in one coder's theme. One reader places the leading act and the other adds a second. The count measures how rule 0 travelled, not the readers.
-- **Scheme-ambiguous is 291 (20.2%).** Packet 1 had 123 (25.1%), packet 2 62 (13.9%), packet 3 106 (21.2%). Two failures make up 45 of packet 3's 106: T3-033's `must_show`, which does not say "first" (21), and the homeland flag, which the siblings' `must_not_show` lines do not send to T3-065 (24).
-- **Item-is-a-bag is 140.** Packet 3 has 76, the most of any packet so far. They are long build threads where four themes or more have three concepts of their own. The largest is overwatch t13: T3-033 is placed and ten themes sit under `also_present`.
-- **Reader-error is 83:** 77 in packet 1, 3 in packet 2, 3 in packet 3. Packet 3's three are PinkVomitMonster t03 (T3-061 with T3-004), Goodboye t08 (T3-073 with T3-090) and riskofrain t01 (T3-082).
-- **A theme on one or two concepts** was added wherever the concept passed that theme's gate as its own act, at most three placements in all. Where two or more such themes tied with no placement ahead, none was added. Packet 3 applied this more often than packets 1 and 2, and it is one of the two causes of the fall in agreement below (QB4-001).
+- **Genuine-joint is the largest value, 802 (42.2%).** In packet 4 it is 219 of 461 (47.5%). A G09 theme often holds an alarm, a call to defend, the repair and the watch in one coder's theme; a G11 theme holds the scripts run and the argument over them. One reader places the leading act and the other adds a second. The count measures how rule 0 travelled, not the readers.
+- **Scheme-ambiguous is 375 (19.7%).** Packet 4 had 84 (18.2%). 20 of them are the homeland flag's repair, which T3-021's `must_not_show` does not send to T3-065.
+- **Item-is-a-bag is 193.** Packet 4 has 53. They are long defence threads and script threads where four themes or more have three concepts of their own.
+- **Reader-error is 96.** Packet 4 has 13, the most since packet 1. Five come from G10 (neopets t12, TreePlace t03, kanye t29, nbaspurs t12, wine t15) and four from G11 (colombia t06, livecounting t07, RelientK t07 and ice_poseidon t19), where a discriminator or `decide_when_both` decides and one reader missed it.
+- **Themes added beyond the placements.** In packets 1 to 3 and items 1 to 400 of packet 4, a theme on one or two concepts was added wherever the concept passed that theme's gate, even when no reader and not my B1 placed it. From item 401 of packet 4, J's ruling stopped that (next section).
+
+## J's ruling on themes added (QB4-001), from item 401 of packet 4
+
+I asked J at B4a-03 (QB4-001) whether to keep adding a one- or two-concept theme that no placement held. Meanwhile packet 4 was ruled as packets 1 to 3 were. J answered at 06:43 Berlin on 13 October: "Ask it to stop. The point is to try to adjudicate. I imagine that the additions are really just the analyst trying to be nice. And not go back on what others said". J's rulings at 06:47 Berlin, for the rest of packet 4 on:
+1. The placements are the readers' and the analyst's (my B1). A ruling chooses among those placements and adds no theme beyond them.
+2. A ruling takes the union of placements only when it names, for each theme it keeps, the separate concept that carries it; otherwise it chooses.
+
+Items 1 to 400 of packet 4 and all of packets 1 to 3 stand as ruled. They are re-ruled at the start of B4a-05. Items 401 to 461 were ruled under J's rulings. A bag still lists its other themes under `also_present`, which places nothing. One bag from item 401 on lists a theme no reading named: bakchodi t09, with T3-006 for script attacks on the Pakistani and Belgian flags. wallstreetbets t11 and rust t11 list only themes a reading named.
+
+The next table sets packet 4's two parts side by side, with the definitions of the agreement section below.
+
+| packet 4 items | rulings | mean Jaccard before | primary before | mean Jaccard after | primary after | three themes placed | named_neither | a theme no placement held |
+|---|---|---|---|---|---|---|---|---|
+| 1 to 400 | 400 | 0.512 | 0.652 | 0.536 | 0.638 | 179 | 210 | 133 |
+| 401 to 461 | 61 | 0.566 | 0.820 | 0.726 | 0.883 | 22 | 12 | 0 |
+
+The two parts hold different families: items 1 to 400 are G08 to G10, items 401 to 461 are G11. The readers already agreed more on G11 before any ruling (0.566 against 0.512). The rise after the ruling is therefore not the effect of J's rule alone. The 12 named_neither rulings from item 401 on each keep a theme from my B1 grouping that neither reader placed.
 
 ## author-error and author-disagrees
 
-author-error: 200 (packet 1 97, packet 2 58, packet 3 45). author-disagrees: 141 (packet 1 37, packet 2 65, packet 3 39). Both come almost wholly from class 4, where the readers agreed on a list my B1 grouping did not hold.
+author-error: 275 (packet 1 97, packet 2 58, packet 3 45, packet 4 75). author-disagrees: 158 (packet 1 37, packet 2 65, packet 3 39, packet 4 17). Both come almost wholly from class 4, where the readers agreed on a list my B1 grouping did not hold.
 
 The next list gives, by packet, the class 4 items where I took the readers' list (author-error) and where I kept a B1 theme (author-disagrees):
 - **Packet 1:** 89 and 29.
 - **Packet 2:** 53 and 63; 8 are bags.
-- **Packet 3:** 40 and 37. 19 more are bags and 21 scheme-ambiguous. Counting those by what the ruling holds, the readers' list was taken in 49, a B1 theme kept in 55, and 13 rulings hold neither, such as baylor t05, where a known mark located by its maker is T3-026 against both readers' T3-082.
+- **Packet 3:** 40 and 37. 19 more are bags and 21 scheme-ambiguous. Counting those by what the ruling holds, the readers' list was taken in 49, a B1 theme kept in 55, and 13 rulings hold neither.
+- **Packet 4:** 74 and 17. 8 more are bags and 6 scheme-ambiguous. Counting by what the ruling holds, the readers' list was taken in 64 and a B1 theme kept in 32; 14 of those 32 are author-error rulings that take the readers' primary and keep a B1 theme beside it (costa_rica t07, TheHulk t06). 9 hold neither.
 
-I cannot separate how much of the fall from packet 1 is the scheme and how much is my pull toward my own grouping. The blind sample at B4b tests the adjudicated stratum against fresh readers, and these items are part of it.
+Packet 4 turned back toward the readers. Its class 4 items are mostly G10 and G11, where my B1 grouping missed the readers' themes often.
+
+I cannot separate how much of each packet's split is the scheme and how much is my pull toward my own grouping. The blind sample at B4b tests the adjudicated stratum against fresh readers, and these items are part of it.
 
 My commonest B1 errors:
 - **Packet 1:** T3-031 placed on an in-joke with no canvas in it; T3-001 placed where nothing was posted as true; T3-063 on posts that are not canvas posts; T3-032 where the complaints were about the sub's own joke styling.
-- **Packet 2:** calls for hands that my B1 had placed as the proposal (T3-033), the progress (T3-038) or a further piece (T3-041), among 14 rulings that take T3-002; placing troubles on the timer, a glitch or a phone (T3-074, 6); posted templates that my B1 had placed as one plan imposed (T3-091).
-- **Packet 3:** links and coordinates that only show where the finished mark is. In 11 author-error rulings the readers placed T3-026 and my B1 did not; my B1 had placed such items as decoding (T3-018), directions (T3-070) or a find (T3-082). The readers' T3-004 (8), T3-033 (8) and T3-020 (7) were the next themes missing from my B1.
+- **Packet 2:** calls for hands that my B1 had placed as the proposal (T3-033), the progress (T3-038) or a further piece (T3-041); placing troubles on the timer, a glitch or a phone (T3-074, 6); posted templates that my B1 had placed as one plan imposed (T3-091).
+- **Packet 3:** links and coordinates that only show where the finished mark is (T3-026, 11 rulings); the readers' T3-004 (8), T3-033 (8) and T3-020 (7).
+- **Packet 4:** in author-error rulings, the readers placed T3-170 (11), T3-005 (10), T3-021 (7), T3-088 (7), T3-087 (6) and T3-188 (5) where my B1 did not. Seven of the T3-088 items are glitches used to place more, which my B1 had put under T3-074; T3-088's `decide_when_both` gives "using one to place beyond the limit" to T3-088. My B1 also placed T3-087 where friendly work had been taken for an attack (T3-170) or where an organised room set its plan apart from rogue placers (T3-188).
 
-The themes I kept against both readers in packet 3's author-disagrees rulings: T3-082 5, T3-113 3, T3-056 3.
+The themes I kept against both readers in packet 4's author-disagrees rulings: T3-021 5, T3-170 4, T3-043 2.
 
 ## Fields by ambiguity
 
-The next list counts the 291 scheme-ambiguous rulings by the field whose sentence failed, with packets 1, 2 and 3 in brackets.
+The next list counts the 375 scheme-ambiguous rulings by the field whose sentence failed, with packets 1 to 4 in brackets.
 
-- must_show: 165 (78, 33, 54)
-- discriminators: 79 (39, 17, 23)
-- must_not_show: 34 (2, 6, 26)
-- decide_when_both: 13 (4, 6, 3)
+- must_show: 204 (78, 33, 54, 39)
+- discriminators: 81 (39, 17, 23, 2)
+- must_not_show: 66 (2, 6, 26, 32)
+- decide_when_both: 24 (4, 6, 3, 11)
 
-`must_not_show` rose from 8 to 34 in packet 3. 24 of its 26 failures there are the homeland flag and its emblems (see below).
+`must_not_show` rose again in packet 4, to 32. 20 of its failures are the homeland flag's repair on T3-021's `must_not_show`. `decide_when_both` rose to 11: T3-027's (6), T3-005's (3) and T3-088's (2).
 
 ## Third-order themes by ambiguity
 
-The next table ranks the themes whose sentence failed to decide, over the three packets. Stage C1 opens with it.
+The next table ranks the themes whose sentence failed to decide, over the four packets. Stage C1 opens with it.
 
 | theme | rulings | must_show | must_not_show | decide_when_both | discriminators |
 |---|---|---|---|---|---|
-| T3-033 | 34 | 31 | 1 | 0 | 2 |
+| T3-033 | 35 | 32 | 1 | 0 | 2 |
 | T3-017 | 30 | 6 | 0 | 1 | 23 |
 | T3-023 | 27 | 25 | 0 | 0 | 2 |
 | T3-004 | 26 | 4 | 12 | 0 | 10 |
+| T3-021 | 26 | 4 | 22 | 0 | 0 |
 | T3-001 | 24 | 18 | 0 | 0 | 6 |
 | T3-002 | 14 | 0 | 2 | 3 | 9 |
-| T3-038 | 11 | 9 | 2 | 0 | 0 |
+| T3-038 | 14 | 10 | 4 | 0 | 0 |
+| T3-005 | 11 | 7 | 0 | 3 | 1 |
+| T3-073 | 10 | 10 | 0 | 0 | 0 |
+| T3-020 | 9 | 0 | 7 | 0 | 2 |
 | T3-063 | 8 | 6 | 1 | 0 | 1 |
-| T3-020 | 8 | 0 | 6 | 0 | 2 |
-| T3-095 | 7 | 3 | 0 | 2 | 2 |
-| T3-041 | 7 | 2 | 4 | 0 | 1 |
-| T3-026 | 7 | 2 | 0 | 2 | 3 |
 
-51 more themes failed on 88 rulings between them.
+63 more themes failed on 141 rulings between them.
 
 The sentences that failed most:
-- **T3-033's `must_show`** "An idea of what the room should put on the canvas, offered to the room" (packet 2 9, packet 3 21). It does not say "first". T3-041's `must_not_show` gives "The room's first mark proposed" to T3-033, so a further piece beside a standing mark is T3-041, and readers placed it as T3-033. Conflict CC-019 shows coders writing both acts in the same words.
-- **The homeland flag in the siblings' `must_not_show` lines** (packet 3, 24). T3-065's `must_show` takes the flag of the room's land, its proportions, its spot and its repair, and T3-065's `decide_when_both` sends emblems in or beside it to T3-113. No sibling's `must_not_show` says so. The failures fell on T3-004's (12: eesti t12, GranColombia t06, placeDE t10, texas t04, theitalyplace t10, austria t07, albania t07, guatemala t01, portugal t02, theitalyplace t03, bretagne t01, and morrowind t07 on another ground), T3-020's (6: romania t02, singapore t06, hongkong t02, kuwait t02, sakartvelo t01, brasil t02), T3-041's (palestine t03, argentina t05, Jamaica t10, and halo t13 on another ground), two on T3-038's (brasil t04, belgium t01), and one each on T3-033's (SwissNeutralityZone t01) and T3-082's (vietnam t04).
-- **T3-038's `must_show`** "Placing the mark and reports of its state" (packet 3, 9). It does not say "first", so a further piece's progress sits on T3-038 and T3-041 at once.
-- **T3-004's discriminators** against T3-041 (5) and against T3-169 (4) (packet 3).
-- **T3-017's discriminator** "Is it the room's running in-joke carried into the canvas talk or the day (T3-031)" (packet 1). Its "or the day" contradicts T3-031's own canvas condition.
+- **T3-033's `must_show`** "An idea of what the room should put on the canvas, offered to the room" (packet 2 9, packet 3 21). It does not say "first". T3-041's `must_not_show` gives "The room's first mark proposed" to T3-033, so a further piece beside a standing mark is T3-041, and readers placed it as T3-033 (conflict CC-019).
+- **The homeland flag in the siblings' `must_not_show` lines** (packet 3 24, packet 4 22). T3-065's `must_show` takes the flag of the room's land, its proportions, its spot, its repair and calls for hands to it. No sibling's `must_not_show` says so. In packet 3 the failures fell on T3-004's, T3-020's, T3-041's, T3-038's, T3-033's and T3-082's. In packet 4 they fell on T3-021's `must_not_show` "An attack fought as such (T3-005); the mark reshaped against tampering (T3-055); watch through the night arranged as shifts (T3-141); a script that repairs (T3-028)." 20 of the 22 are the homeland flag: austria t05, india t13, malaysia t04, mexico t14, palestine t04, Peru t07, PORTUGALCARALHO t02, scotland t05, serbia t08, taiwan t05, theitalyplace t01, afip t04, canada t03, chile t03, colorado t03, korea t09, pakistan t05, texas t02, Jamaica t07 and thenetherlands t04. The other two are predators t06 (a member's own misplaced pixel, T3-170) and opticgaming t17 (attackers who repair what they broke, T3-119).
+- **T3-073's `must_show`** "What happened to the work told: live reports of changes and attacks, what survived, what was moved and why, the story of its fights afterwards" (packet 4, 9). "live reports of changes and attacks" overlaps T3-005's "alarms" (the T3-005|T3-073 paragraph).
+- **T3-005's `must_show`** (packet 4, 6). It names "calls to defend", and a call to defend with no attack in the words is T3-002 by packet 2's paragraph (redpandas t06, smite t06, cavestory t02, anarcho_capitalism t04).
+- **T3-027's `decide_when_both`** (packet 4, 6). "T3-028 primary when the scripts are run" does not say how much running; "goes here when fairness is in question" leaves bot claims with no fairness argued without a home.
+- **T3-022's `must_show`** (packet 4, 4). "crowded out" with no attack reaches a foothold lost before the mark stood.
+- **T3-038's `must_show`** "Placing the mark and reports of its state" (packet 3, 9). It does not say "first".
+- **T3-017's discriminator** (packet 1). Its "or the day" contradicts T3-031's own canvas condition.
 - **T3-023's** "A change made to a whole sub for April Fools" and **T3-001's** "Members of the room themselves post something false as true for April Fools" (packet 1).
-- **T3-014's discriminator** against T3-153 and **T3-002's tests on the national flag** (packet 2).
 
-Two single failures in packet 3 belong on stage C1's list. T3-092's `must_show` gives "I added a little something for my bias" as its own example, while its discriminator against T3-060 sends a piece "added to a shared mark" to T3-060 (bangtan t10; both readers placed T3-060). T3-082's `must_show` names "the room's subject" drawn, while its discriminator against T3-052 asks for "the room's own mark" (furry t01).
+Single failures for stage C1's list: T3-092's own example "I added a little something for my bias" against its discriminator toward T3-060 (bangtan t10, packet 3); T3-082's "the room's subject" against "the room's own mark" (furry t01, packet 3); T3-006's `must_not_show`, which does not name T3-171 for a colour faction spreading (packet 4); T3-089's `must_show`, which names "a neighbour's agreed space" that T3-168 also takes (afip t05, malaysia t05); T3-088's `decide_when_both`, which does not say whether a concept holding both a script and accounts counts (iastate t02, uoft t13); and T3-027's `must_show`, written for "scripts or bots as such", which leaves an argument over the fairness of throwaway accounts with no home (TransFlagPlace t09).
 
 ## The named_neither rate
 
-named_neither: 519 of 1,438 (36.1%). Packet 1: 84 of 491 (17.1%). Packet 2: 155 of 447 (34.7%). Packet 3: 280 of 500 (56.0%).
+named_neither: 741 of 1,899 (39.0%). Packet 1: 84 of 491 (17.1%). Packet 2: 155 of 447 (34.7%). Packet 3: 280 of 500 (56.0%). Packet 4: 222 of 461 (48.2%).
 
-Packet 1's came from three sources:
-- a second or third theme added by a scheme rule that neither reader applied;
-- a theme in a family the readers did not open;
-- my own B1 theme kept against both readers.
+Packet 1's came from three sources: a second or third theme added by a scheme rule that neither reader applied; a theme in a family the readers did not open; my own B1 theme kept against both readers. In packet 2, 97 of the 155 add only themes from my B1 grouping and 58 add a theme that no placement held. In packet 3, 123 and 157.
 
-In packet 2, 97 of the 155 add only themes from my B1 grouping and 58 add a theme that no placement held. (The interim report after packet 2 said 98 and 57. sadboys t03 moved between them when the cut-down reading revised its T3-069 to T3-004, which no placement held.)
+The next list splits packet 4's 222 the same way:
+- **Only themes from my B1 grouping:** 89. The commonest: T3-087 13, T3-021 8, T3-042 7, T3-170 7.
+- **A theme no placement held:** 133, all in items 1 to 400. The commonest: T3-065 31, T3-002 28, T3-073 13, T3-170 8.
+- **The primary itself:** chosen by neither reader in 50 rulings. In 28 of them no placement held it.
+- **How many themes:** 167 of the 222 place three themes. Over the packet, 201 of 461 rulings place three themes.
 
-The next list splits packet 3's 280 the same way:
-- **Only themes from my B1 grouping:** 123. The commonest: T3-041 16, T3-113 10, T3-070 8, T3-004 8.
-- **A theme no placement held:** 157. The commonest: T3-041 27, T3-065 14, T3-002 13, T3-070 11, T3-004 9, T3-038 8, T3-026 8.
-- **The primary itself:** chosen by neither reader in 112 rulings. In 57 of them no placement held it.
-- **How many themes:** 174 of the 280 place three themes. Over the packet, 201 of 500 rulings place three themes; packet 2 placed three in 117 of 447.
+My reading of it. Three causes in packets 3 and 4, none of which I can weigh against my own pull:
+- **The readings and boundaries send items to themes neither reader chose.** In packet 4 the homeland-flag reading put T3-065 on 31 rulings that no placement held, and packet 2's T3-002|T3-005 paragraph put T3-002 on 28 calls to defend with no attack in the words.
+- **Primaries moved by count.** Where a theme held more concepts than the readers' primary, it went first, even when both readers agreed on the primary.
+- **Small added themes.** A theme on one or two concepts of its own was added whenever it passed its gate.
 
-My reading of it. Three causes, none of which I can weigh against my own pull:
-- **The readings and boundaries send items to themes neither reader chose.** The homeland-flag reading places T3-065 on 22 rulings, 19 as primary; in 14 of them no placement held it. The T3-033/T3-041 and T3-038/T3-041 boundaries put T3-041 on further pieces that the readers placed as a proposal or as progress.
-- **T3-038 was put first by both readers in 76 items.** My rulings kept it first in 27. They moved it in 49: to T3-002 by the counting rule (11), to T3-041 for further pieces (10), to T3-004 for corrections (5), and to 16 other themes in the other 23. Its own concepts in those items were often one or two.
-- **Small added themes.** A third theme on one or two concepts of its own was added whenever it passed its gate, and many of those no placement held.
-
-The rate is also the measure of my pull toward my own reading, which no procedure removes. I asked J (QB4-001) whether packets 4 to 7 should add a one- or two-concept theme that no placement held. Meanwhile packets 4 to 7 are ruled as packets 1 to 3 were, so the seven packets stay comparable.
+J's ruling of 13 October stopped the third cause and the part of the first that adds themes no placement held. From item 401 on, every named_neither ruling keeps a theme from my B1 grouping.
 
 ## The unresolved count
 
-unresolved: 69 of 1,438 (4.8%). Packet 1: 52 (10.6%). Packet 2: 10 (2.2%). Packet 3: 7 (1.4%). The next lists name them by the reason the scheme did not decide.
+unresolved: 79 of 1,899 (4.2%). Packet 1: 52 (10.6%). Packet 2: 10 (2.2%). Packet 3: 7 (1.4%). Packet 4: 10 (2.2%). The next lists name them by the reason the scheme did not decide.
 
 Packet 1:
 - **April Fools play not posted as true** (the gap; T3-001 `must_show`), 13: 4chan t11, bisexual t09, schoolidolfestival t11, thesimpsons t03, 49ers t03, danganronpa t23, falcons t09, parahumans t07, berserk t04, GuildWars2 t07, vim t01, wholesomememes t14, portugal t15.
@@ -130,26 +149,24 @@ Packet 1:
 - **A record of the change, not the change kept** (T3-100 `must_show`), 2: survivor t18, survivor t11.
 - **Waiting for or remembering the sub's own joke** (T3-048 and T3-095 `must_show`), 2: halo t01, polandball t01.
 - **A defence of the sub's own joke against too few objections** (T3-032 `must_show`), 2: ethereum t12, denverbroncos t02.
-- **Single reasons**, 6:
-  - kurdistan t06 and lakers t07 (T3-095 discriminator);
-  - bardmains t09 (an April Fools joke's limits: T3-143 is canvas-only, T3-032 short of three);
-  - de t22 (suspicion of the platform's motives, no theme);
-  - mindcrack t07 (nothing asked or settled);
-  - stardustcrusaders t21 (the pointer is not shown).
+- **Single reasons**, 6: kurdistan t06 and lakers t07 (T3-095 discriminator); bardmains t09 (an April Fools joke's limits); de t22 (suspicion of the platform's motives); mindcrack t07 (nothing asked or settled); stardustcrusaders t21 (the pointer is not shown).
 
 Packet 2:
-- **One concept with no doing to place** (author-disagrees in class 4, empty ruling in class 5), 6: minecraft t17, popheads t01, h3h3productions t27, shield t07, kuwait t09, minecraft t18.
+- **One concept with no doing to place**, 6: minecraft t17, popheads t01, h3h3productions t27, shield t07, kuwait t09, minecraft t18.
 - **A pointer to another sub's thread on the room's canvas work** (T3-015 `must_show`), 1: Redox t02.
-- **Naming a feature of a colour faction's ground** ('the Beam'; T3-070 `must_show`), 1: orderofthebluecorner t02.
+- **Naming a feature of a colour faction's ground** (T3-070 `must_show`), 1: orderofthebluecorner t02.
 - **A bare question with no answer** (T3-018 and T3-073 `must_show`), 2: THE_R t03, parrots t15.
 
-Packet 3. All seven are one surviving concept or one exchange, and conflict CC-025 names six of them as themes their coders grouped by exclusion:
-- **A title with its body deleted** (class 5, empty ruling), 2: quebec t16 ('Une opportunité émerge!'), bahrain t09 ('R/place Bahrain').
-- **First mark or further piece not shown** (T3-033 `must_show`), 1: davidbowie t04 ('Can we make like a mount rushmore with Freddie, Ozzy, and Jagger?').
-- **Canvas or ordinary talk not shown** (T3-017 `must_show`), 1: tampabaylightning t09 ('Idea for new 3rd jersey').
-- **A jab that falls short of a complaint** (T3-049 `must_show`), 1: h3h3productions t30.
-- **A late apology with no placing** (T3-003 `must_show`), 1: AMD t20 ('Sorry im a day late').
-- **A name with no doing** (T3-052 `must_show`), 1: samuraijack t25 ('Dont forget Frank Ocean').
+Packet 3. All seven are one surviving concept or one exchange; conflict CC-025 names six of them: quebec t16 and bahrain t09 (a title with its body deleted), davidbowie t04 (T3-033 `must_show`), tampabaylightning t09 (T3-017 `must_show`), h3h3productions t30 (T3-049 `must_show`), AMD t20 (T3-003 `must_show`), samuraijack t25 (T3-052 `must_show`).
+
+Packet 4:
+- **The attack or its target not shown** (T3-005 `must_show`), 2: linux t01 ('Stop messing with the Leafs man!', with no word whether the Leafs image is the room's work or a neighbour's) and osu t15 ('The most important fight', one concept).
+- **Who changed the work not shown** (T3-087 `must_show`), 2: cavestory t06 (three title lines) and Dominican t09 (one '[hmmm]' screenshot).
+- **Whose work not shown** (T3-139 `must_show`), 1: kpop t13 ('Get the hell off of play-yan you fucking monsters').
+- **When or at whom the blame was laid not shown** (T3-058), 2: DestinyTheGame t14 (no time given, T3-058's discriminator against T3-087) and notredame t10 ('the red dot' with no room named).
+- **One act that meets two themes** (T3-068 `must_show`), 1: hungary t05 ('make Slovakian flag Russian', a flag turned into another sign and griefing for fun at once).
+- **Five acts of one concept each** (T3-192 `must_show`), 1: dallasstars t01.
+- **A bot claim with no fairness in question, told after the loss** (T3-027 `decide_when_both`), 1: tampabaylightning t15 ('destroyed by bots last minute').
 
 ## The boundary rulings
 
@@ -159,127 +176,125 @@ Each pair is one paragraph in `boundaries.md`. Each paragraph's ruling is summar
 
 **T3-001|T3-023, the joke's stage (32 items).** A change to the sub's name, look, rules or subject made by its moderators, or by members flooding it "as a sub acting together", is T3-023. Members' own false claims in an unchanged sub are T3-001. Both, each with concepts of their own: the larger primary. Items: aceattorney t01, MMA t02, nlsscirclejerk t08, rit t02, totallynotrobots t06, totallynotrobots t08, AceOfAngels8 t01, clashroyale t03, enterthegungeon t02, flyers t05, furry t09, harrypotter t06, kilian t08, mylittlepony t08, porterrobinson t08, porterrobinson t09, ss13 t01, teslamotors t01, toolband t02, totallynotrobots t02, totallynotrobots t03, totallynotrobots t04, totallynotrobots t07, OneTrueEmilia t01, apocalypserising t01, formula1 t02, greece t07, polska t03, thetreesnetwork t02, totallynotrobots t01, ubc t02, zootopia t01.
 
-**T3-001|T3-048, whose joke (20 items).** The source shown in the concepts decides. Where it cannot be read, the ruling is unresolved. A member relaying an organisation's joke is T3-048 by the discriminator, though T3-001's test catches it (conflict CC-002). Items: btc t04, bitcoin t06, feedthebeast t02, opticgaming t01, uofmn t01, baylor t02, GuildWars2 t01, GuildWars2 t10, runescape t07, rutgers t01, starlightstage t03, warframe t15, yugioh t10, yugioh t11, danganronpa t19, falcons t10, kamenrider t07, lego t07, simonfraser t02, ubreddit t02.
+**T3-001|T3-048, whose joke (20 items).** The source shown in the concepts decides. Where it cannot be read, the ruling is unresolved. A member relaying an organisation's joke is T3-048 by the discriminator (conflict CC-002). Items: btc t04, bitcoin t06, feedthebeast t02, opticgaming t01, uofmn t01, baylor t02, GuildWars2 t01, GuildWars2 t10, runescape t07, rutgers t01, starlightstage t03, warframe t15, yugioh t10, yugioh t11, danganronpa t19, falcons t10, kamenrider t07, lego t07, simonfraser t02, ubreddit t02.
 
-**T3-017|T3-031, the canvas condition (15 items here, with T3-001|T3-031: rwby t03).** T3-031 requires the canvas, and T3-017's and T3-001's discriminators do not. T3-031's own test governs: an in-joke with no canvas in it is T3-017. Every item is scheme-ambiguous on T3-017's discriminator. Items: cubers t30, ethereum t06, falcons t08, flashtv t04, freedomplanet t05, h3h3productions t06, h3h3productions t12, heyyea t07 (canvas in it: T3-031), indieheads t06, mls t07, PlaceNL t20, romania t22 (T3-130), SydneyFC t03, tf2 t09, torontoraptors t03.
+**T3-017|T3-031, the canvas condition (15 items, with T3-001|T3-031: rwby t03).** T3-031's own test governs: an in-joke with no canvas in it is T3-017. Every item is scheme-ambiguous on T3-017's discriminator. Items: cubers t30, ethereum t06, falcons t08, flashtv t04, freedomplanet t05, h3h3productions t06, h3h3productions t12, heyyea t07, indieheads t06, mls t07, PlaceNL t20, romania t22, SydneyFC t03, tf2 t09, torontoraptors t03.
 
-**T3-001|T3-095, who staged the claim (8 items).** A test of a member's own fake is T3-001 "even when readers test it". A test of anyone else's claim is T3-095. In fivenightsatfreddys t03 and hearthstone t01 both readers put the tests of members' fakes under T3-095, so those are scheme-ambiguous. Items: linux t04, planetside t01, romania t12, swordartonline t03, thesimpsons t02, worldoftanks t02, fivenightsatfreddys t03, hearthstone t01.
+**T3-001|T3-095, who staged the claim (8 items).** A test of a member's own fake is T3-001; a test of anyone else's claim is T3-095. Items: linux t04, planetside t01, romania t12, swordartonline t03, thesimpsons t02, worldoftanks t02, fivenightsatfreddys t03, hearthstone t01.
 
-**T3-023|T3-095, playing inside or working out (7 items).** Playing inside the change leads unless most concepts work it out. T3-095 is added at three concepts of its own. Items: paragon t08, hawks t07, smashbros t01, criticalrole t02, ElderScrolls t01, h3h3productions t23, transformers t01.
+**T3-023|T3-095, playing inside or working out (7 items).** Items: paragon t08, hawks t07, smashbros t01, criticalrole t02, ElderScrolls t01, h3h3productions t23, transformers t01.
 
-**T3-048|T3-095, open or known (6 items).** An open question whether an announcement is a joke is T3-095. Judging a known joke is T3-048. The larger share decides. Items: clg t08, gameofthrones t09, paladins t01, thesilphroad t02, btc t01, loltyler1 t01.
+**T3-048|T3-095, open or known (6 items).** Items: clg t08, gameofthrones t09, paladins t01, thesilphroad t02, btc t01, loltyler1 t01.
 
-**T3-032|T3-097, the jokes or the look (5 items).** Complaints and end-requests about the sub's own joke look or rule go to T3-097; objections to the jokes as jokes go to T3-032. Items: anime_irl t16, anime_irl t17, hunterxhunter t03, pcmasterrace t02, survivor t10.
+**T3-032|T3-097, the jokes or the look (5 items).** Items: anime_irl t16, anime_irl t17, hunterxhunter t03, pcmasterrace t02, survivor t10.
 
-**T3-063|T3-185, applied or made (5 items).** A moderator's exception for the day, or a kind of post banned, counts as a rule made (T3-185). Members asking what the rules allow is T3-063. Items: anime_irl t05, destiny t06, ss13 t11, russia t12, leafs t12.
+**T3-063|T3-185, applied or made (5 items).** Items: anime_irl t05, destiny t06, ss13 t11, russia t12, leafs t12.
 
-**T3-001|T3-017, a fake or ordinary posts (4 items).** Ruled as written. Items: ohio t01, homelab t03, planetside t05, titanfall t03.
-
-**T3-015|T3-063, pointer or rule (4 items).** Removals with a pointer to a gathering thread count toward T3-015. A standing rule pointing to a standing thread is not a canvas gathering thread, and the discriminator does not separate the two. Items: fireemblem t08, futanari t06, serbia t15, stardustcrusaders t21.
-
-**T3-023|T3-051, upvote bargains (4 items; conflict CC-007).** A bargain "if this gets N upvotes" is T3-051. It is T3-023 only where the change was made. Items: partyparrot t16, titanfall t05, warframe t06, warriors t04.
-
-**T3-031|T3-048 (3 items) and T3-023|T3-031 (1).** The canvas condition beside other G01 themes. Items: GuildWars2 t02, GuildWars2 t05, rocketleague t15; stardustcrusaders t10.
-
-**Single items.** T3-023|T3-048, a named organisation's reveal with no change to the sub: rit t01. T3-023|T3-100, a look brought back two years later: wallstreetbets t03. T3-023|T3-185, was the rule meant to hold: redhotchilipeppers t04. T3-001|T3-051, a promise traded for upvotes: 4chan t12.
-
-Three gaps were ruled the same way each time they were met; their items are in the unresolved list above: April Fools play that is not posted as true; another sub's change; moderators applying standing rules to non-canvas posts.
+**T3-001|T3-017 (4 items):** ohio t01, homelab t03, planetside t05, titanfall t03. **T3-015|T3-063 (4):** fireemblem t08, futanari t06, serbia t15, stardustcrusaders t21. **T3-023|T3-051, upvote bargains (4; CC-007):** partyparrot t16, titanfall t05, warframe t06, warriors t04. **T3-031|T3-048 (3) and T3-023|T3-031 (1):** GuildWars2 t02, GuildWars2 t05, rocketleague t15; stardustcrusaders t10. **Single items:** rit t01, wallstreetbets t03, redhotchilipeppers t04, 4chan t12.
 
 ### Packet 2
 
-Seven pairs split five or more of packet 2's items on their primaries and were ruled before its first item. The item counts are the packet 2 items that carry the pair in `boundary_ruling`, which include items whose readers split on an added theme.
+**T3-002|T3-033, a call or a new mark (20 items).** A concept naming a new mark for the room counts toward T3-033, even when it also asks for help. A call to a mark already named counts toward T3-002. A tie goes to T3-002 when the mark was already chosen, and to T3-033 when it was not. Items: androidgaming t01, anime t01, chicago t01, clashroyale t02, criticalrole t03, drumcorps t05, nascar t06, onepunchman t01, polyamory t01, rutgers t03, seahawks t01, TheAdventuresofTintin t01, twentyonepilots t02, chess t07, nlsscirclejerk t01, nonbinary t01, opticgaming t03, uiowa t01, gameattack t03, bigbang t01.
 
-**T3-002|T3-033, a call or a new mark (20 items).** The discriminator: "Count the concepts of each: is the larger share an idea of what to make offered to the room (T3-033), or hands called to a mark already chosen (T3-002)?" A concept naming a new mark for the room counts toward T3-033, even when it also asks for help. A call to a mark already named counts toward T3-002. A tie goes to T3-002 when the mark was already chosen, and to T3-033 when it was not. Items: androidgaming t01, anime t01, chicago t01, clashroyale t02, criticalrole t03, drumcorps t05, nascar t06, onepunchman t01, polyamory t01, rutgers t03, seahawks t01, TheAdventuresofTintin t01, twentyonepilots t02, chess t07, nlsscirclejerk t01, nonbinary t01, opticgaming t03, uiowa t01, gameattack t03, bigbang t01.
+**T3-002|T3-038, a call or the work's progress (19 items).** Calls, volunteers and answers count toward T3-002; placing and reports of the work's state toward T3-038. Items: auburn t01, bindingofisaac t02, dallasstars t05, ghibli t01, gorillaz t03, newzealand t07, shrooms t06, streetfighter t04, transformers t02, bangtan t01, battlecats t05, cloud9 t03, FinalFantasy t02, foxstevenson t02, torontoraptors t04, traaaaaaannnnnnnnnns t01, rutgers t05, smashbros t04, xenoblade_chronicles t02.
 
-**T3-002|T3-038, a call or the work's progress (19 items).** A concept counts toward T3-002 when it calls, volunteers or answers a call ("come help", "I'm in", "on it"). It counts toward T3-038 when it places pixels or reports the work's state, and coordinates given as where the work in progress stands count there too. A tie goes to T3-038 when the work was placed. Items: auburn t01, bindingofisaac t02, dallasstars t05, ghibli t01, gorillaz t03, newzealand t07, shrooms t06, streetfighter t04, transformers t02, bangtan t01, battlecats t05, cloud9 t03, FinalFantasy t02, foxstevenson t02, torontoraptors t04, traaaaaaannnnnnnnnns t01, rutgers t05, smashbros t04, xenoblade_chronicles t02.
+**T3-014|T3-153, the room's own chat or a meeting place (18 items).** Another room must be in the chat in the words. Items: armenia t08, bangtan t04, belgium t03, dmt t03, eve t10, FederationPlace t06, giivasunner t12, GreenCorner t02, metalgearsolid t08, ohio t08, paladins t25, placehearts t06, rocketbeans t04, theitalyplace t07, AcePlace t06, aoe2 t07, araragi t03, iceland t05.
 
-**T3-014|T3-153, the room's own chat or a meeting place (18 items).** Another room must be in the chat in the words. A Discord where the room alone plans is T3-014. Five items are scheme-ambiguous on the discriminator, because it does not name another room's server or a shared one. Items: armenia t08, bangtan t04, belgium t03, dmt t03, eve t10, FederationPlace t06, giivasunner t12, GreenCorner t02, metalgearsolid t08, ohio t08, paladins t25, placehearts t06, rocketbeans t04, theitalyplace t07, AcePlace t06, aoe2 t07, araragi t03, iceland t05.
+**T3-002|T3-070, a call or directions (13 items).** Items: bardmains t01, danganronpa t03, dankmemes t15, python t06, witcher t01, clg t01, harrypotter t15, cowchop t01, mysterydungeon t01, paragon t01, shield t01, Moondye7 t02, seventeen t01.
 
-**T3-002|T3-070, a call or directions (13 items).** A call that names where the work is counts as a call. A concept made mostly of coordinates, templates, colours, order of placing or how-to counts as directions. Teaching a newcomer how one pixel is placed is T3-016 (the correction below). Items: bardmains t01, danganronpa t03, dankmemes t15, python t06, witcher t01, clg t01, harrypotter t15, cowchop t01, mysterydungeon t01, paragon t01, shield t01, Moondye7 t02, seventeen t01.
+**T3-002|T3-005, a rally or a defence (12 items in packet 2; 9 more in packet 4).** The attack must be in the words. A call to "protect" a mark with no attacker in view is T3-002. Packet 2 items: btc t02, Clannad t02, crusaderkings t01, FlaggyFlag t02, harrypotter t01, monalisaclan t02, ohio t03, czech t01, malta t02, nin t10, thetreesnetwork t01, prequelmemes t02. Packet 4 items: masseffect t01, sooners t08, redpandas t06, smite t06, cavestory t02, anarcho_capitalism t04, feedthebeast t07, loliconsunite t02, tf2 t11.
 
-**T3-002|T3-005, a rally or a defence (12 items).** The attack must be in the words. A call to "protect" a mark with no attacker in view is T3-002. Items: btc t02, Clannad t02, crusaderkings t01, FlaggyFlag t02, harrypotter t01, monalisaclan t02, ohio t03, czech t01, malta t02, nin t10, thetreesnetwork t01, prequelmemes t02.
-
-**T3-070|T3-091, directions or one plan (7 items; conflict CC-012).** Posting or updating a template counts toward T3-070. Telling members to follow the current plan, declaring a copy stale, correcting placers who stray, and an official design thread count toward T3-091. Items: stlouisblues t01, FloydVsVoid t02, heyyea t01, starryknights t02, ChronoTrigger t02, mylittlepony t04, PlaceNL t01.
-
-**T3-004|T3-070, the design or its directions (6 items).** Arguing which version, colour, letter or size counts toward T3-004, and so do corrections "to make the placed work match the design". Posting the template, grid, coordinates or placing order counts toward T3-070. Items: berserk t06, foxstevenson t03, nyu t01, pitt t02, muse t02, suomi t06.
-
-Two pairs reached four items and were decided by their discriminators as met: T3-002|T3-062 and T3-062|T3-084. "Canvas group" is not defined, and greenbaypackers t12 is scheme-ambiguous on it.
+**T3-070|T3-091, directions or one plan (7 items; CC-012):** stlouisblues t01, FloydVsVoid t02, heyyea t01, starryknights t02, ChronoTrigger t02, mylittlepony t04, PlaceNL t01. **T3-004|T3-070, the design or its directions (6 items):** berserk t06, foxstevenson t03, nyu t01, pitt t02, muse t02, suomi t06.
 
 ### Packet 3
 
-Twelve pairs split five or more of packet 3's items on their primaries (`out/_analysis/b4_packet_pairs.py --packet 3`). Three carry over from packet 2 as written: T3-002|T3-033, T3-002|T3-038 and T3-004|T3-070. Nine were ruled before packet 3's first item. Each paragraph says how one concept counts toward one act or the other; the act with more concepts leads, and the other is added under rule 0 when it has concepts of its own. The item lists are the packet 3 items that carry the pair in `boundary_ruling`.
+**T3-033|T3-041, the first mark or a further piece (25 items; CC-019).** A proposal counts toward T3-041 when the room's mark already stands or is chosen. Items: truestl t02, cmu t01, metalgearsolid t04, muse t01, aoe2 t04, denmark t10, eagles t02, eve t03, gameofthrones t02, indieheads t13, KState t01, math t02, nuclearthrone t01, portal t02, purplecorner t03, rust t09, simonfraser t04, splatoon t03, suomi t02, touhou t08, ufl t01, blackmirror t05, borderlands t04, empiredidnothingwrong t11, winnipegjets t11.
 
-**T3-033|T3-041, the first mark or a further piece (25 items; conflict CC-019).** The discriminator: "Is the room's first mark proposed (T3-033), or a second piece beside an existing one (T3-041)?" A proposal counts toward T3-041 when the words or the item show the room's mark already standing or chosen; with no standing mark in view, it counts toward T3-033. A reader who placed a further piece as T3-033 read T3-033's `must_show`, which does not say "first"; those items are scheme-ambiguous on that field. Items: truestl t02, cmu t01, metalgearsolid t04, muse t01, aoe2 t04, denmark t10, eagles t02, eve t03, gameofthrones t02, indieheads t13, KState t01, math t02, nuclearthrone t01, portal t02, purplecorner t03, rust t09, simonfraser t04, splatoon t03, suomi t02, touhou t08, ufl t01, blackmirror t05, borderlands t04, empiredidnothingwrong t11, winnipegjets t11.
+**T3-038|T3-041, the first build or a further piece's (16 items).** Items: sakuragakuin t01, jerma985 t03, nuclearthrone t05, bobross t01, cavestory t01, dota2 t11, madokamagica t01, msu t02, parahumans t01, touhou t02, AyyMD t01, cubers t21, cubers t25, samuraijack t10, suomi t27, yumenikki t01.
 
-**T3-038|T3-041, the first build or a further piece's (16 items).** Neither theme has a discriminator against the other. Placing the room's first mark and reporting its state count toward T3-038; proposing, placing or reporting a further piece or an enlargement count toward T3-041. Where the item does not show which piece came first, the piece the room began first is the first mark. T3-038's `must_show` does not say "first", so an item whose split turns on a further piece's progress is scheme-ambiguous on that field. Items: sakuragakuin t01, jerma985 t03, nuclearthrone t05, bobross t01, cavestory t01, dota2 t11, madokamagica t01, msu t02, parahumans t01, touhou t02, AyyMD t01, cubers t21, cubers t25, samuraijack t10, suomi t27, yumenikki t01.
+**T3-004|T3-041, the look or an addition (14 items).** Items: ubreddit t03, ElderScrolls t05, funhaus t01, nin t03, radiohead t01, skyrim t02, bindingofisaac t03, DatBoi t04, factorio t09, placetardis t02, ProfessorLayton t02, starlightstage t12, borderlands t02, enterthegungeon t03.
 
-**T3-004|T3-041, the look or an addition (14 items).** The discriminator: "Is the existing mark's look settled (T3-004), or a new piece or enlargement added (T3-041)?" A concept counts toward T3-041 when it adds what the mark did not hold: a further figure, lettering beneath or beside it, an object around it, or a standing mark made bigger. A concept counts toward T3-004 when it changes the look of the mark as planned or placed: colours, letters, outline, shading, a detail inside the figure, the planned size, corrections. Items: ubreddit t03, ElderScrolls t05, funhaus t01, nin t03, radiohead t01, skyrim t02, bindingofisaac t03, DatBoi t04, factorio t09, placetardis t02, ProfessorLayton t02, starlightstage t12, borderlands t02, enterthegungeon t03.
-
-**T3-004|T3-169, the design or the sub's name (8 items; conflict CC-022).** Any concept whose object is the sub's name or its short form counts toward T3-169, its letters, fit and colours included. T3-004 takes the look of the picture the name sits beside. Where the room's whole mark is the sub's name, T3-004's "letters, fonts" also reach it; those items are scheme-ambiguous on the discriminator. Items: bisexual t03, greyblob t02, monstercat t06, unturned t09, drawhelix t05, farmcarrots t08, neopets t14, wine t08.
-
-**T3-004|T3-038, the look or the placing (8 items).** Placing pixels and reporting the work's state count toward T3-038. Arguing the look, and correcting placed pixels to match the design, count toward T3-004. Restoring damage is T3-021. A fix to the template's own error is T3-004. Items: portal t01, timbers t02, AvoArmy t01, calgaryflames t01, uoft t08, bitcoin t02, detroitlions t04, paydaytheheist t02.
-
-**T3-038|T3-070, the work's place or directions (7 items).** Coordinates given as where the work stands count toward T3-038; a starting point, template, grid, colour order or "start at" given for others to place counts toward T3-070. A link that only shows where finished work is goes to T3-026. Items: berkeley t03, gameattack t04, virginiatech t03, planetside t08, bdsm t01, re_zero t06, formula1 t06.
-
-**T3-004|T3-020, the look or the spot (7 items).** A concept that resizes or reshapes the mark to fit a spot counts toward T3-004; one that moves it or picks the spot counts toward T3-020. Items: blackmirror t02, borussiadortmund t03, minecraft t04, kingdomhearts t12, oneshot t01, nightinthewoods t02, utaustin t01.
-
-**T3-004|T3-033, a subject or its look (6 items).** A concept that offers a subject to make counts toward T3-033 until the room has chosen one. Once a subject is chosen, a concept on its version, colours, letters, size or outline counts toward T3-004. T3-004's `must_show` opens with "which picture or version", which also reads as choosing the subject; items whose split turns on those words are scheme-ambiguous on it. Items: frc t01, nlsscirclejerk t02, WPI t01, redhotchilipeppers t03, starlightstage t09, yugioh t04.
-
-**T3-020|T3-033, what or where (1 item carries the pair).** Neither theme has a discriminator against the other. A concept that names what to make counts toward T3-033; one that names where counts toward T3-020. Item: tetris t01.
+**T3-004|T3-169 (8 items; CC-022):** bisexual t03, greyblob t02, monstercat t06, unturned t09, drawhelix t05, farmcarrots t08, neopets t14, wine t08. **T3-004|T3-038 (8):** portal t01, timbers t02, AvoArmy t01, calgaryflames t01, uoft t08, bitcoin t02, detroitlions t04, paydaytheheist t02. **T3-038|T3-070 (7):** berkeley t03, gameattack t04, virginiatech t03, planetside t08, bdsm t01, re_zero t06, formula1 t06. **T3-004|T3-020 (7):** blackmirror t02, borussiadortmund t03, minecraft t04, kingdomhearts t12, oneshot t01, nightinthewoods t02, utaustin t01. **T3-004|T3-033 (6):** frc t01, nlsscirclejerk t02, WPI t01, redhotchilipeppers t03, starlightstage t09, yugioh t04. **T3-020|T3-033 (1):** tetris t01.
 
 **Carried from packet 2 into packet 3.** T3-002|T3-033 (10 items): chicubs t09, DiamondClub t01, foxes t01, hawks t05, kanye t01, schoolidolfestival t04, stardustcrusaders t01, unturned t03, wallstreetbets t01, warframe t01. T3-002|T3-038 (9 items): bostonbruins t02, enterthegungeon t01, ethoslab t01, forsen t01, habs t02, nyjets t04, the_pack t01, winnipegjets t01, wow t17. T3-004|T3-070 (9 items): crusaderkings t02, penguins t03, udub t01, drumcorps t06, kanye t05, Okami t06, pebble t04, placesnek t04, portal t03.
 
-Two pairs reached four items and were decided by their discriminators as met: T3-021|T3-038 (first build or restored; conflict CC-017) and T3-026|T3-082 (a mark the room did not know of, or its own work announced; conflict CC-021). A member asking where a known mark is and being told is T3-026 (haskell t14, baylor t05); a mark shown that the room had not known of is T3-082 (riskofrain t01).
+Readings written during packet 3: the homeland flag's look (T3-065, emblems T3-113); a design cut down to the hands (T3-004; T3-069 only when a piece is dropped for another; T3-042 when growth is set aside); a celebration while placement goes on (T3-009 for "done" celebrated, T3-026 for "up" or "for now").
 
-Three readings were written in `boundaries.md` while the packet was ruled. Each names the item where it was first met. Rulings made earlier that a reading would have decided differently were revised to match: catalonia t07 and sadboys t03.
-- **The homeland flag (from item 16).** Work on the stripes, stars, proportions, colours, size, spot and repair of the flag of the room's land counts toward T3-065. Emblems in or beside it count toward T3-113. Readers' T3-004, T3-020 and T3-041 on that work are scheme-ambiguous on that theme's `must_not_show`. 22 packet 3 rulings place T3-065. catalonia t07 was revised to match.
-- **A design cut down to the hands (from item 12; conflicts CC-013 and CC-020).** A smaller or simpler version of the same mark counts toward T3-004. T3-069 takes it only when one of the room's pieces is dropped for another, and T3-042 only when growth is set aside to keep what stands. Doubt that the room has the hands at all stays T3-136. sadboys t03 in packet 2 was revised from T3-069 to T3-004. day9 t04 shows both halves: the motto dropped for the logo is T3-069, and the TV cut from the logo is T3-004.
-- **A celebration while placement goes on (from item 280).** T3-026's `decide_when_both` decides it: words that call a piece done, complete or finished and celebrate it count toward T3-009, during placement or after it. Words that show the mark up, still there or holding "for now" count toward T3-026. Where both halves are met, the item is scheme-ambiguous on T3-026's `decide_when_both`.
+### Packet 4
+
+Four pairs split five or more of packet 4's items on their primaries and were ruled before its first item. Three more were ruled at item 401, when G11's pairs were met. The item lists are the packet 4 items that carry the pair in `boundary_ruling`.
+
+**T3-005|T3-021, a fight or upkeep (67 items; B2's predicted pair 1; conflict CC-026).** Ruled as written by the discriminator and T3-005's `decide_when_both`. A concept counts toward T3-005 when an attack on the room's work is in the words and the room answers it as a fight: an alarm, a call to defend or fight back, holding the line, an attack reported repelled. A concept counts toward T3-021 when it watches or fixes, "with or without an attacker in view, where no fight is called". The Void, a named room or a bot eating the work is an attacker in the words. Naming who did it goes to T3-087, a watch through the night to T3-141 (CC-032), a script that repairs to T3-028 (CC-028), upkeep argued over growth to T3-042 (CC-027). Where count and placements both tie, the item is scheme-ambiguous on T3-005's `decide_when_both`, which names no tie, and both themes are placed. Items: aggies t03, aoe2 t05, austria t05, bangtan t06, bostonbruins t06, clg t04, cubers t10, earthbound t04, factorio t07, flashtv t09, frankocean t10, furry_irl t12, gorillaz t06, gravityfalls t02, GreenCorner t03, hellointernet t02, HomestarRunner t03, homestuck t04, leafs t02, leagueoflegends t16, nyjets t08, parrots t09, PinkVomitMonster t02, placestart t14, placetardis t03, portal t07, reddevils t15, rocketbeans t05, roosterteeth t04, shield t03, ss13 t06, stardewvalley t03, tf2 t12, TheFarLeftSide t03, TransFlagPlace t03, warriors t08, androidgaming t03, ChronoTrigger t03, clubpenguin t09, FinalFantasy t05, gameofthrones t14, jerma985 t04, metroid t09, MonkeyIsland t03, muse t05, necrodancer t05, oneshot t04, partyparrot t02, placeportalpattern t06, ScottPilgrim t03, simonfraser t09, stlouisblues t08, tagpro t03, tampabaylightning t03, TeamDignitas t04, redhotchilipeppers t08, anaheimducks t09, animalcrossing t04, AyyMD t02, bisexual t06, cloud9 t07, DestinyTheGame t08, dragonquest t02, kingdomhearts t20, sheffield t02, starcraft t07, theexpanse t05.
+
+**T3-005|T3-073, an alarm or a report (9 items).** The two `must_show` lines overlap. A report addressed to the room so that it acts counts toward T3-005. A report of what changed, survived or was lost, with no call to fight, counts toward T3-073. Items whose split turns on a bare alarm with no call are scheme-ambiguous on T3-073's `must_show`. Items: apocalypserising t05, masseffect t06, mindcrack t02, terraria t08, daftpunk t05, 4chan t08, anime t11, neutralmilkhotel t03, texastech t03.
+
+**T3-021|T3-038, first build or restored (3 items; CC-017).** Ruled as written. The same spot rebuilt after a loss is T3-021; a rebuild at a new spot is T3-022. Items: nerf t02, pitt t03, telegram t03.
+
+**T3-005|T3-038 (5 items split; none tagged).** Neither theme has a discriminator against the other. Placing the first build counts toward T3-038; an attack answered as a fight toward T3-005.
+
+**T3-020|T3-022, the first spot or a move after a loss (5 items; CC-033).** A spot found, tested or changed before the mark stands, or a move made while building to avoid a threat not yet met, counts toward T3-020. A move or restart after the work was destroyed, overpowered or crowded out counts toward T3-022. T3-022's "crowded out" reaches a foothold lost before the mark stood; those splits are scheme-ambiguous on T3-022's `must_show`. Items: mordhau t04, rutgers t04, toolband t04, dallasstars t13, detroitredwings t04.
+
+**T3-027|T3-028, arguing scripts or running them (4 items; CC-029).** T3-027's `decide_when_both` puts T3-028 first "when the scripts are run" and does not say how much running. Ruled: each concept counts toward the act it does, and the larger part leads, as T3-006's `decide_when_both` says of its own pairs; a tie goes by placements. A script shared to wreck another room's work is not "for the room's work". Items whose readers split on which act leads are scheme-ambiguous on T3-027's `decide_when_both`. Items: pakistan t08, giantbomb t07, placecanada t12, placeDE t07.
+
+**T3-027|T3-087, a bot claim or a culprit traced (4 items).** Neither theme has a discriminator against the other. Bots or new and empty accounts named as the source of damage to the room's work while placement goes on count toward T3-087. Bots judged to spoil the canvas or called unfair count toward T3-027, as do bot rumours where fairness is in question. A bot claim with no fairness in question and no damage traced while placing is not decided. Items: shitredditsays t05, sooners t10, tampabaylightning t15, foxes t04.
+
+**T3-089|T3-168, a stale script or a neighbour spared (2 items).** Ruled by the discriminator: a call to stop or change the room's scripts so a neighbour's work stands counts toward T3-168, though T3-089's `must_show` also names "a neighbour's agreed space". Items: afip t05, malaysia t05.
+
+**T3-005|T3-006 (CC-031)** and **T3-058|T3-073 (CC-034)** reached four items and were decided by their discriminators as met. One item carries T3-005|T3-006: rocketbeans t07.
+
+Two readings were written while packet 4 was ruled:
+- **The homeland flag kept and defended (from item 15).** Repairing the flag of the room's land, and calls to come and defend or protect it with no attack in the words, count toward T3-065; its expansion does too, unless a neighbour's space is named (T3-061). An attack on it, fought or raised as an alarm, counts toward T3-005. Watching it with no repair counts toward T3-021, and watch through the night toward T3-141. A reader's T3-021 on that repair is scheme-ambiguous on T3-021's `must_not_show`.
+- **A call to fight and a call to defend (from item 16).** A call to fight ("Stay and Fight!", "fight back") counts toward T3-005: a fight has an opponent. A call to defend or protect with no attack in the words counts toward T3-002, or T3-065 for the homeland flag.
 
 ## Corrections made during the packets
 
-Each correction went through `b4_rule_append.py --replace`, which rewrites the ruled line in place, marks it `revised`, and keeps the old ledger under a superseded name.
+Each correction went through `b4_rule_append.py --replace`, which rewrites the ruled line in place, marks it `revised`, and keeps the old ledger under a superseded name. 27 rulings have been corrected in place.
 - **formula1 t05 and elitedangerous t01** (packet 1). T3-063 takes canvas posts only.
-- **The T3-016 correction** (packet 2, at item 146). Teaching a newcomer to place is T3-016 when it explains the event, and T3-070 only when it directs the room's own work. bindingofisaac t02 was revised.
-- **The T3-033 and T3-041 reading** (packet 2, from item 140). clashroyale t02 was revised from T3-033 to T3-041.
-- **The homeland-flag reading** (packet 3). catalonia t07's senyera bars moved from T3-004 to T3-065.
-- **The cut-down reading** (packet 3). sadboys t03 (packet 2) moved from T3-069 to T3-004.
-- **T3-170 for members' own misclicks** (packet 3, from item 430). T3-170's `must_show` names "members' own misclicks or misplaced pixels owned and forgiven". bisexual t04 and kpop t05 were revised to place it.
-- **Concepts of their own** (packet 3). `b4_rule_append.py` refuses a placed theme only when its concept list equals another's. The new read-only check `out/_analysis/b4_own_support_check.py` lists every placed theme whose concepts all sit under the ruling's other themes. It found seven: ManningPlace t05, KState t04, rainbowgrid t01, dofus t01, skyrim t03 and teamcube t04 in packet 3, and nerf t08 in packet 1. All seven were rewritten so each placed theme has a concept of its own, and the check now finds none over the three packets.
-- **Boundary tags** (packet 3). Eleven packet 3 rulings applied packet 2's counting rule but carried no `boundary_ruling`. The tag was added and the rulings are unchanged (`out/_analysis/b4_br_tag_draft.py`): T3-002|T3-038 on nine items and T3-002|T3-033 on hawks t05 and stardustcrusaders t01.
+- **The T3-016 correction** (packet 2). bindingofisaac t02.
+- **The T3-033 and T3-041 reading** (packet 2). clashroyale t02.
+- **The homeland-flag reading** (packet 3). catalonia t07.
+- **The cut-down reading** (packet 3). sadboys t03.
+- **T3-170 for members' own misclicks** (packet 3). bisexual t04 and kpop t05.
+- **Concepts of their own** (packet 3). ManningPlace t05, KState t04, rainbowgrid t01, dofus t01, skyrim t03, teamcube t04 and nerf t08. `out/_analysis/b4_own_support_check.py` has found none since, over the four packets.
+- **Boundary tags** (packet 3). Eleven rulings gained a `boundary_ruling` with the ruling unchanged.
+- **MonkeyIsland t03** (packet 4, at chunk 7). Ruled unresolved in chunk 6 on a full T3-005|T3-021 tie. The T3-005|T3-021 paragraph places both themes on a full tie, so it was revised to T3-005 and T3-021, scheme-ambiguous on T3-005's `decide_when_both`.
 
 ## The conflicts pass
 
-`coder_conflicts.jsonl` holds 25 lines. CC-001 to CC-008 came from packet 1's notes, CC-009 to CC-016 from packet 2's, CC-017 to CC-025 from packet 3's, each read before its packet's first ruling. Packet 3's conflicts and the splits they explain:
-- **CC-017:** making the mark and keeping it are named as one building practice, while the scheme splits first build (T3-038), repair (T3-021) and defence (T3-005).
-- **CC-018:** "what and where to draw" heads themes whose readings fall on T3-033, T3-004 and T3-020.
-- **CC-019:** a further piece is proposed in the words used for the room's first mark (T3-033|T3-041).
-- **CC-020:** a design cut down to the hands, as CC-013 in packet 2 (the cut-down reading).
-- **CC-021:** telling people where the mark is is written as showing it, finding it and giving coordinates (T3-026|T3-082).
-- **CC-022:** the sub's name on the canvas is filed as lettering, an addition, a sign for visitors and a dropped plan (T3-004|T3-169).
-- **CC-023:** political and religious content argued for a national mark is written as design argument in most rooms and as a political inscription in one (T3-004, T3-113, T3-130).
-- **CC-024:** arguing whether to grow the mark or hold it is named by one side (T3-041, T3-042, T3-061).
-- **CC-025:** themes grouped by exclusion, as CC-008 and CC-016. Six of packet 3's seven unresolved items are among them.
+`coder_conflicts.jsonl` holds 36 lines. CC-001 to CC-008 came from packet 1's notes, CC-009 to CC-016 from packet 2's, CC-017 to CC-025 from packet 3's, CC-026 to CC-036 from packet 4's, each read before its packet's first ruling. Packet 4's conflicts and the pairs they may explain:
+- **CC-026:** keeping the mark against damage is named defence or repair in either order (T3-005|T3-021, T3-005|T3-087, T3-021|T3-073).
+- **CC-027:** putting upkeep before growth is folded into the repair practice (T3-021|T3-042).
+- **CC-028:** a script that keeps the mark is filed as repair or as a script practice (T3-021|T3-028).
+- **CC-029:** running scripts and arguing whether they are fair are written as one practice (T3-027|T3-028, T3-028|T3-088, T3-027|T3-087).
+- **CC-030:** sorting attacks from mistakes and friends from attackers (T3-087|T3-170, T3-087|T3-188, T3-170|T3-188).
+- **CC-031:** the fight is named for defence and attack at once (T3-005|T3-006).
+- **CC-032:** shifts and night watches over the mark (T3-021|T3-141).
+- **CC-033:** moving the work, whatever the cause (T3-020|T3-022, T3-022|T3-039).
+- **CC-034:** the end of the event, with loss, blame and memory together (T3-058|T3-073, T3-029|T3-058).
+- **CC-035:** a large neighbouring project that takes art into itself, the taskbar (rocketbeans t07, hatsune t04).
+- **CC-036:** a second-order theme whose note says it holds no shared practice, in 23 subs.
 
 ## Agreement before and after
 
-Before is the two readers against each other. After is each reader against the ruling, over the items not unresolved. Both use stage B2's definition: mean Jaccard on placement sets, with primary match beside it. The next table gives both, by packet and over the three.
+Before is the two readers against each other. After is each reader against the ruling, over the items not unresolved. Both use stage B2's definition: mean Jaccard on placement sets, with primary match beside it. The next table gives both, by packet and over the four.
 
 | | mean Jaccard before | primary match before | mean Jaccard after | primary match after |
 |---|---|---|---|---|
 | packet 1 (491; 439 after) | 0.486 | 0.578 | 0.633 | 0.697 |
 | packet 2 (447; 437 after) | 0.537 | 0.678 | 0.603 | 0.706 |
 | packet 3 (500; 493 after) | 0.475 | 0.598 | 0.473 | 0.535 |
-| all (1,438; 1,369 after) | 0.498 | 0.616 | 0.566 | 0.642 |
+| packet 4 (461; 451 after) | 0.519 | 0.675 | 0.562 | 0.671 |
+| all (1,899; 1,820 after) | 0.503 | 0.630 | 0.565 | 0.649 |
 
-The figure after is not a reliability figure. It is agreement following an adjudication I performed. In packets 1 and 2 it rose, because the ruling usually kept one reader's list. In packet 3 it fell below the readers' agreement with each other, on Jaccard (0.473 against 0.475) and on the primary (0.535 against 0.598). Each theme added that neither reader chose lowers both readers' Jaccard against the ruling, and each primary moved off a theme both readers put first lowers the primary match. The named_neither section gives the counts. The blind sample's adjudicated stratum at B4b is the test of whether a stranger reaches these rulings.
+The figure after is not a reliability figure. It is agreement following an adjudication I performed. In packet 3 it fell below the readers' agreement with each other. In packet 4 the mean Jaccard after rose above before (0.562 against 0.519), and the primary match after stayed level (0.671 against 0.675). Within packet 4, items 1 to 400 rose little (0.536 against 0.512) and items 401 to 461, ruled under J's rule, rose more (0.726 against 0.566); the section on J's ruling above gives the table and why the two parts are not a clean comparison. The blind sample's adjudicated stratum at B4b is the test of whether a stranger reaches these rulings.
 
 ## Whether stage B2's predictions held
 
 `confusions.md` predicted nineteen pairs. A packet can show only the pairs whose themes it holds.
 
-- **Packet 1 (G01, G02).** Four predicted pairs could appear, and all four split readers: pair 3 (T3-001|T3-023, 20 items whose readers split their primaries), pair 15 (T3-001|T3-095, 11), pair 19 (T3-015|T3-063, 7) and pair 7 (T3-015|T3-075, 4). Three pairs B2 did not predict split as often or more: T3-017|T3-031 (17), T3-001|T3-048 (13) and T3-023|T3-095 (11).
-- **Packet 2 (G03 to G06).** Five predicted pairs hold a theme of these families. Two split readers: pair 6 (T3-002|T3-033, 8) and pair 8 (T3-004|T3-070, 6). Pairs 4, 17 and 18 split none. Five pairs B2 did not predict split as often or more: T3-002|T3-038 (10), T3-002|T3-070 (8), T3-002|T3-005 (7), T3-014|T3-153 (5) and T3-070|T3-091 (5).
-- **Packet 3 (G07, G08 in part).** Five predicted pairs hold a G07 or G08 theme. Four split readers: pair 6 (T3-002|T3-033, 10), pair 10 (T3-004|T3-038, 9), pair 8 (T3-004|T3-070, 6) and pair 5 (T3-004|T3-020, 5). Pair 17 (T3-044|T3-082) split none. Seven pairs B2 did not predict split as often or more often than pair 5: T3-004|T3-041 (12), T3-033|T3-041 (11), T3-004|T3-033 (9), T3-002|T3-038 (9), T3-020|T3-033 (7), T3-038|T3-041 (7) and T3-038|T3-070 (7).
+- **Packet 1 (G01, G02).** All four predicted pairs that could appear split readers: pair 3 (T3-001|T3-023, 20), pair 15 (T3-001|T3-095, 11), pair 19 (T3-015|T3-063, 7), pair 7 (T3-015|T3-075, 4). Three unpredicted pairs split as often or more: T3-017|T3-031 (17), T3-001|T3-048 (13), T3-023|T3-095 (11).
+- **Packet 2 (G03 to G06).** Two of five predicted pairs split readers: pair 6 (T3-002|T3-033, 8) and pair 8 (T3-004|T3-070, 6). Five unpredicted pairs split as often or more: T3-002|T3-038 (10), T3-002|T3-070 (8), T3-002|T3-005 (7), T3-014|T3-153 (5), T3-070|T3-091 (5).
+- **Packet 3 (G07, G08 in part).** Four of five predicted pairs split readers: pair 6 (10), pair 10 (T3-004|T3-038, 9), pair 8 (6), pair 5 (T3-004|T3-020, 5). Seven unpredicted pairs split as often or more than pair 5, three of them with T3-041.
+- **Packet 4 (G08's end, G09 to G11).** Pair 1, T3-005|T3-021, held: 37 items whose readers put those two themes as their primaries, the commonest split of any packet so far. Pair 4 (T3-028|T3-070) split 2 and pair 16 (T3-087|T3-188) split 1. Five unpredicted pairs split four items or more: T3-021|T3-038 (6), T3-005|T3-038 (5), T3-005|T3-073 (5), T3-005|T3-006 (4) and T3-058|T3-073 (4). Four of the five hold T3-005 or T3-021. T3-027|T3-028 and T3-027|T3-087 split 3 each.
 
-Twenty-two different pairs are named above as splitting readers, and eight of them were predicted. Three of packet 3's seven unpredicted pairs hold T3-041, and B2's list holds no pair with T3-041. Three of packet 2's five unpredicted pairs hold T3-002, and T3-002|T3-038 split readers again in packet 3. Pairs 4, 17 and 18 hold themes of packets 2 and 3 and split none there. The other eight predicted pairs (1, 2, 9, 11, 12, 13, 14, 16) belong to families in packets 4 to 7.
+B2 predicted G09's main pair and missed its neighbours. T3-005 sits in four of packet 4's six commonest splits. Pairs 2, 9, 11, 12, 13 and 14 belong to families in packets 5 to 7.

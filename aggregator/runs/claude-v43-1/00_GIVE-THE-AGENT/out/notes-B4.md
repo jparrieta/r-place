@@ -46,7 +46,7 @@ The next table lists the packets.
 
 - **A reader's `confidence` and `why`.** Neither is a prior. A "clear" reading against an "arguable" one counts for nothing in the ruling. A reader's `why` points at material, and I check what it points at against the item's concepts. The ruling rests on the concepts read against the scheme's `must_show`, `must_not_show`, `decide_when_both` and discriminators.
 - **My B1 grouping is shown as the third placement.** This is J's three-placement design. It is labelled as mine, and I weigh it like a reading, not as a prior.
-- **A theme neither reader chose.** A ruling may name one, logged loudly: `named_neither` true, and the `why` says what both readers missed that the file does say.
+- **A theme neither reader chose.** A ruling may name one, logged loudly: `named_neither` true, and the `why` says what both readers missed that the file does say. From item 401 of packet 4 this is replaced by J's rulings of 13 October: a ruling chooses among the readers' placements and my B1 grouping and adds no theme beyond them (see "Packet 4" below).
 - **When the scheme does not decide.** The ruling is empty and `unresolved` true. The quote is the sentence of the scheme that failed to decide. The item is carried, not resolved by preference.
 - **Boundaries ruled once.** Where five or more items of a packet split their primaries on one sibling pair, I rule the boundary once. It gets one paragraph in `adjudication_report.md`, quoting the discriminator, logged as one ruling with its item list. It is then applied to each item, and each item carries `boundary_ruling`.
 - **The taxonomy by class.**
@@ -208,6 +208,53 @@ stage B4:
   rulings 1438: {'genuine-joint': 583, 'scheme-ambiguous': 291, 'reader-error': 83, 'author-error': 200, 'author-disagrees': 141, 'item-is-a-bag': 140}
   classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 1438, outstanding 1850
   coder conflicts 25
+
+warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was read as an adjudication leg because neither RETURN-B4.md, a stage-B4 manifest entry nor _packets-B4/ exists
+
+0 errors (0 distinct shapes), 1 warnings
+```
+
+## Packet 4, ruled at B4a-04 (2026-10-13)
+
+Before the first item:
+- **The conflicts pass** read packet 4's notes alone and added CC-026 to CC-036 to `coder_conflicts.jsonl` (36 lines now).
+- **Four boundaries were ruled once** in `boundaries.md` ("Packet 4"): T3-005|T3-021 (B2's predicted pair 1), T3-021|T3-038, T3-005|T3-038 and T3-005|T3-073.
+
+All 461 items are ruled, in 19 blind chunks (`out/_adjudication-B4/packet-04/rulings-NN.jsonl`). `packet-04/summary.md` holds the figures, and `adjudication_report.md` holds them with packets 1 to 3 as the interim report. In brief:
+- **Taxonomy:** genuine-joint 219, scheme-ambiguous 84, author-error 75, item-is-a-bag 53, author-disagrees 17, reader-error 13.
+- **Counts:** unresolved 10 (2.2%); named_neither 222 (48.2%), of which 89 add only themes from my B1 grouping and 133 add a theme no placement held, all 133 in items 1 to 400.
+- **Fields that failed:** must_show 39, must_not_show 32, decide_when_both 11, discriminators 2. 20 of the 32 `must_not_show` failures are the homeland flag's repair on T3-021's `must_not_show`.
+- **Themes that failed most:** T3-021 24, T3-005 10, T3-073 9, T3-027 7.
+- **Agreement:** before, reader against reader, 0.519 mean Jaccard and 0.675 primary match; after, each reader against the ruling, 0.562 and 0.671. Not a reliability figure.
+- **Mapping:** `assign_final.jsonl` was rewritten (class 1 2,566, class 2 1,990, ruled 1,899, pending 1,389).
+
+What changed during the packet, and why:
+- **QB4-001 answered, and the ruling rule changed at item 401.** J (06:43 Berlin): "Ask it to stop. The point is to try to adjudicate." J's rulings (06:47 Berlin), for the rest of packet 4: a ruling chooses among the readers' placements and my B1 grouping and adds no theme beyond them; it takes the union of placements only when it names, for each theme it keeps, the separate concept that carries it; otherwise it chooses. Chunk 17 had been read under the old practice; it was re-decided under the new rule before any line was written. Items 1 to 400 of packet 4, and packets 1 to 3, are re-ruled at the start of B4a-05, not now.
+- **What the new rule did.** `out/_analysis/b4_agreement_range.py` (new, read-only) splits packet 4. Items 1 to 400: before 0.512 and 0.652, after 0.536 and 0.638, three themes placed in 179, a theme no placement held in 133. Items 401 to 461: before 0.566 and 0.820, after 0.726 and 0.883, three themes placed in 22, none beyond the placements. The two parts hold different families (G08 to G10 against G11), so the rise is not the rule's effect alone.
+- **Rule 0 under the new rule.** Concepts count only toward placed themes; a concept whose act no placement holds is named in the why and left out of `support_by_theme`. Order by concept count, ties by how many of the three placements hold the theme. A one- or two-concept theme that a placement holds is kept when its concept passes the theme's gate and it leads its level on placements; where placed themes tie at a level, none is kept. A bag still names its other themes under `also_present`, which places nothing; bakchodi t09 lists T3-006, which no reading named.
+- **Seven boundaries in packet 4's own families.** Beside the four ruled first: T3-020|T3-022 (from item 189; CC-033), and from item 401 T3-027|T3-028, T3-027|T3-087 and T3-089|T3-168. Two readings: the homeland flag kept and defended (from item 15) and a call to fight against a call to defend (from item 16).
+- **One correction.** MonkeyIsland t03, ruled unresolved in chunk 6 on a full T3-005|T3-021 tie, was revised to place both themes, as the T3-005|T3-021 paragraph rules for a full tie (`packet-04/revisions-01.jsonl`).
+- **Slips.** In chunk 5 a draft's write and its dry run went in one turn. They ran in order, and the later chunks kept them apart. After the compaction in chunk 16, the chunk 16 draft was written before the head was re-read and the reconciliation line logged. I then read the head and stage file, logged the line, checked the draft against the chunk file and fixed three whys before its dry run.
+
+Readings applied in packet 4, to carry into the later packets:
+- **The homeland flag** kept and defended: repair, calls for hands and its spot are T3-065; an attack on it, fought or raised as an alarm, T3-005; watching it T3-021; night watch T3-141.
+- **Fights and calls.** A call to fight is T3-005; a call to defend or protect with no attack in the words is T3-002. A report with a call is T3-005; a report without one is T3-073.
+- **Culprits.** Members doubting a damage was the room's own are tracing it (T3-087); a bare denial pointing at another room is T3-087 by T3-188's `must_not_show`; an organised room setting its plan apart from rogue placers is T3-188; friendly work taken for an attack is T3-170. A loss blamed after the close is T3-058.
+- **Scripts.** Scripts made, shared, fixed or run for the room's work are T3-028; scripts to wreck another room's work are not. Arguing their fairness is T3-027; the larger part leads. Glitches used to place more, and extra accounts with concepts of their own, are T3-088. Accounts handed to someone else's bot are T3-120. A script changed to spare a neighbour is T3-168; the room's own versions fighting its plan are T3-089.
+
+National, political, hate and slur content is named in the whys as the words give it. Examples: "pokatoličeni Srbi", a slur for Croats, in serbia t08; "od srba i ostale gamadi", Serbs called vermin, in bih t02; "Too many Pajeets", a slur for Indians, in 4chan t08; "porkies" and "randian" in bakchodi t06 and t11; "Indians , being the cheats they are" and "Saffron terrorists" in pakistan t08; "changed it to fags", a homophobic slur on the Leafs logo, in sabres t09; "Shadilay my brothers. Kek wills it!" in pepe t04; Richard Spencer and /pol/ in completeanarchy t12.
+
+The next packet is packet 5: 409 items, G12 to G14. B4a-05 opens by re-ruling packets 1 to 3 and items 1 to 400 of packet 4 under J's rulings, as J directs.
+
+`validate.py B4`, after packet 4:
+
+```
+stage B4:
+  leg: adjudication
+  settled items 7844 = assignment_items_expected
+  rulings 1899: {'genuine-joint': 802, 'scheme-ambiguous': 375, 'reader-error': 96, 'author-error': 275, 'author-disagrees': 158, 'item-is-a-bag': 193}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 1899, outstanding 1389
+  coder conflicts 36
 
 warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was read as an adjudication leg because neither RETURN-B4.md, a stage-B4 manifest entry nor _packets-B4/ exists
 
