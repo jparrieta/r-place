@@ -25,8 +25,8 @@ Source: each leg's `CONTROL/snapshots/<leg>/transcript.jsonl`. One API call is w
 | B3a build and gold check | 2 | 68 | 136 | 0.3M | 44.5M | 0.1M |
 | B3b assemble and check | 1 | 93 | 186 | 0.3M | 18.8M | 0.1M |
 | B4a adjudication, packets 1 to 7 | 7 | 1,926 | 3,852 | 13.7M | 928.1M | 6.2M |
-| B4b blind-sample build (B4b, B4b-p2) | 2 | 97 | see json | see json | 79.4M | 0.1M |
-| **Total** | 125 | 22,037 | see json | see json | 10,847.6M | 25.5M |
+| B4b blind-sample build (B4b, p2, p3, p4) | 4 | 152 | see json | see json | 106.3M | 0.2M |
+| **Total** | 127 | 22092 | see json | see json | 10874.5M | 25.6M |
 
 B4a per leg (cache read / output): B4a-01 88.5M / 0.5M; B4a-02 99.2M / 0.6M; B4a-03 139.0M / 0.8M; B4a-04 108.7M / 1.0M; B4a-05 177.8M / 1.3M; B4a-06 177.6M / 1.1M (369 calls); B4a-07 137.3M / 0.9M (257 calls).
 
@@ -50,3 +50,14 @@ Source: J's export `Orchestrator/Claude/openrouter_activity_2026-10-13.csv`, 1,5
 | **Total** | 1,573 | 139.6M | 106.7M | 44.6M | 38.2M | 30 | 87 |
 
 Clearly wasted fleet work: 134 calls (round 1's 4 early tries and round 2's discarded first build), 7.6M prompt and 0.1M completion, 5% of the fleet's prompt. Round 1's 47 calls also hold 16 cut at max_tokens and 20 with no finish; only 3 returns were valid (diary 2026-10-11T18:39Z). B3 is 88% of all fleet tokens (prompt plus completion); reasoning is 86% of all completion.
+
+## B4 blind sample readers (13 October 2026)
+
+685 items in 48 packets (U 250, A 250, R 185), two readings per packet in each arm. Arms reported apart.
+
+| Arm | Calls | Input | of which cached | Output | of which reasoning |
+|---|---|---|---|---|---|
+| DeepSeek V4.1 Flash, medium, via fleet.py (OpenRouter) | 106 (96 valid, 10 failed and reissued) | 9.6M | 7.5M | 2.7M | 2.1M |
+| OpenAI gpt-6-astra, medium, via Codex on J's Mac | 98 logged (96 valid, 1 failed fleet.py's code check, 1 interrupted with no reply) | 9.07M | 0.51M | 0.55M | not visible |
+
+Source: `out/_fleet_raw/B4/log.jsonl` and `out/_fleet_raw/B4-openai-astra/DONE` (OpenAI total 9,618,690 known tokens; the interrupted call's usage is unknown).

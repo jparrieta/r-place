@@ -864,3 +864,125 @@ warn   _packets-B4/G01.md mentions a ruling, an adjudication or the gold key; no
 
 0 errors (0 distinct shapes), 9 warnings
 ```
+
+## The check (B4c, 2026-10-13)
+
+The PI's message of 17:08Z says the readers left their files.
+- **Arm 1.** DeepSeek V4.1 Flash at medium effort through `fleet.py`: `out/_fleet_raw/B4/`, 96 valid returns, reader ids r1 and r2. The DeepSeek readers had no instructions beyond the message.
+- **Arm 2.** OpenAI gpt-6-astra at medium effort, two replications per packet, run by the Codex orchestrator on J's computer from byte-identical copies of the same messages: `out/_fleet_raw/B4-openai-astra/`, 96 valid returns as oa1 and oa2. The one exception is `S05-27` replicate 1, which is oa3: oa1 failed `fleet.py`'s code check (a concept of another item) and stays on file as `oa1.raw.txt`, and an earlier oa3 process died with no reply and is kept under `interrupted-oa3-20261013T1650Z`. The OpenAI readers ran under Codex's built-in instructions, recorded by hash in `_control/isolation-PASS.json`, with no tools. The handler wrote the arm's `.jsonl` files with `fleet.py`'s own validator.
+- **J's rulings.** The arms are reported apart and never pooled. Strata U, A and R are reported apart. R holds all 185 unresolved items, so its 18 items that are also in U or A are read twice.
+
+### Declared before any figure
+
+- **The settled line.** `assign_final.jsonl` at sha256 d3506a88…, as at B4a-07. At this leg's start it, `disagreements.jsonl` (ec740989…), `sample-B4.jsonl` (2fe441cd…) and `sample-B4-R.jsonl` (acfb4169…) are unchanged. A settled set is the line's `third_order`; an unresolved line's set is empty.
+  - No fresh reading changes a ruling. "The placements final" is this file as it stands.
+  - Where a paragraph below finds that the settled line moved something it should not have, that goes to the handback as a finding for stage C1. It is not re-ruled here, because a ruling changed after seeing the test's readings would be fitted to the test.
+- **What is read.**
+  - Arm 1: each packet's `r1.jsonl` and `r2.jsonl`, with their meta (`valid` true).
+  - Arm 2: each packet's `oa1.jsonl` and `oa2.jsonl`; for `S05-27` replicate 1, `oa3.jsonl`. No `raw.txt` is scored, and nothing under `interrupted-oa3-…` is read.
+  - Each `.jsonl` is checked against its `raw.txt`: the item lines of the raw reply must equal the `.jsonl`'s lines. For arm 2, each `raw.txt` must match `SHA256SUMS`.
+  - Replicates: r1 and oa1 (oa3 for `S05-27`) are replicate 1; r2 and oa2 are replicate 2.
+- **The assembly, keyed on packet and cell.** `out/_analysis/b4c_assemble.py` writes every pass-1 reading of both arms and all strata, in room ids, to `out/_analysis/b4c_readings.jsonl`, and the second pass to `out/_analysis/b4c_pass2.jsonl`.
+  - A pass-1 item line is keyed on its packet and position. The item at that cell is the one the order records (`b4b_order.json`, `b4b_order_R.json`, `b4b_order_R_all.json`, `b4b_order_R_ua.json`) give.
+  - The typed `T2-` id is a label. It must translate back through `fleet_ids.jsonl` to the cell's item, and the typed room must be that item's room.
+  - Concept ids translate back and must be the item's own (`codes_by_item`).
+  - A line that does not resolve is refused by name, and its reading counts as missing.
+  - Lines carrying `revises` are the second pass: kept apart, never scored. The prediction lines are kept apart.
+- **Three files, never pooled.**
+  - `reassign.jsonl`: arm 1's 1,000 readings of U and A, the comparison §12 names. It uses the validator's words: stratum "uniform" (U) or "adjudicated" (A); outcome agrees, disagrees-contested, disagrees-unanimous or disagrees-unresolved.
+  - `reassign-openai-astra.jsonl`: arm 2's 1,000 readings of U and A, with the same fields.
+  - `readings-R-B4.jsonl`: both arms' readings of R's 185 items, 740 lines, each with its arm. R has no settled line, so there is no outcome.
+- **The outcome of one reading.**
+  - agrees: the fresh set equals the settled set (Jaccard 1).
+  - disagrees-contested: it does not, and the item is in `disagreements.jsonl`. These are classes 3, 4 and 5: the fleet split; or the fleet agreed outside my B1 grouping; or I had no B1 grouping.
+  - disagrees-unanimous: it does not, and the item is not in `disagreements.jsonl`. These are classes 1 and 2: the two B3 readers agreed and their list stood.
+  - disagrees-unresolved: the settled line is unresolved. These readings leave the denominator and are counted.
+  - Each line also carries its Jaccard against the settled set, whether the primaries match, the two B3 readers' placements and my B1 grouping.
+- **The figures, per arm and per stratum.**
+  - Fresh against settled: mean Jaccard over the readings whose settled line is resolved. The exact rate (the agrees share) and the primary match rate stand beside it.
+  - The readers' agreement with each other: mean Jaccard over items, primary match beside it, and Krippendorff's alpha, by stage B2's definition (`b2_score.py`'s `jac` and `alpha`), over all the stratum's items.
+  - Beside them: the B3 readers' agreement on the same items (`b3_classes.jsonl`); B3's corpus agreement, 0.786, and alpha, 0.782; the stability floor, 0.807 (`stability-B2.md`); B2's gold fidelity, 0.624; B3's gold fidelity, 0.645.
+  - The two rates §12 asks to compare: the share of readings that disagree, on contested items and on unanimous items. For each disagrees-contested reading, whether it equals one of the B3 readers' sets or my B1 grouping, that is, the same split again.
+- **Class 2 on a row of its own.** A class 2 item's settled line is my whole B1 grouping. The two B3 readers agreed on a proper subset of it. The rest are my B1 themes, placed under the B1 scheme and never placed by a reader or adjudicated.
+  - U is reported whole (250 items) and split three ways: class 1, class 2, and U's adjudicated items (classes 3 to 5).
+  - For class 2, the figure is also given against the themes the settled line places with concepts (`support_by_theme`), which are the B3 readers' list.
+- **Per family.**
+  - Fresh against settled counts an item in the family of the settled line's first theme.
+  - The readers' agreement with each other uses B3's rule: an item counts in the family of each reader's primary.
+  - Families with fewer than 10 items in a stratum are shown but not ranked. The worst families are ranked on fresh against settled, per arm and stratum, among families with 10 items or more.
+- **The unanimous items a fresh reader placed elsewhere.** Every item with a disagrees-unanimous reading in either arm is named in `transmission-after-revision-B4.md` with a paragraph. The paragraph gives what the fleet placed, the settled line, and what each arm's readers placed. It then says which of §12's two readings holds, judged from the item's concepts against the scheme's fields: either the fleet shared an assumption the scheme does not license, or the settled line moved something it should not have. Each is logged in the diary.
+- **Stratum R**, as declared at B4b-p2 and B4b-p4. Per arm, over 185 items:
+  - the readers' agreement with each other (Jaccard, primary match) and alpha;
+  - whether the two primaries meet;
+  - whether each fresh set falls among the item's earlier placements (reading A, reading B, my B1): all its themes among them, some, or none.
+  - On the 18 with `also_in`, R's readings beside the same arm's U or A readings: the readers' agreement in each packet context, and the mean Jaccard of each R reading against each U or A reading of the same item.
+- **The second pass** is not scored. The share of second-pass lines marked changed is reported per arm.
+- **The licence.** Wherever a figure appears, it says that the readers share an architecture with me (arm 1 is the fleet's model; arm 2 is another model family, run under Codex's built-in instruction), so the figure bounds whether the written instrument decides, not whether it is right. "Reliability" appears only in the sentence that denies it.
+- **Safe stops** come after each section of the check: the assembly, the comparison files, the figures, the paragraphs, R. `.pause` is checked at each.
+
+### The assembly
+
+`out/_analysis/b4c_assemble.py --write`.
+- **Files.** `out/_analysis/b4c_readings.jsonl` holds 2,739 pass-1 readings in room ids: arm 1 U 499, A 500, R 370; arm 2 U 500, A 500, R 370. `b4c_pass2.jsonl` holds 2,740 second-pass lines and `b4c_predictions.jsonl` 192 prediction lines. The record is `out/_analysis/b4c_assemble.json`.
+- **Integrity.** All 192 accepted returns' `.jsonl` lines equal the JSON lines of their `raw.txt`. All 96 of arm 2's `raw.txt` files match `SHA256SUMS`. Every cell's item matches `MANIFEST.json` and the four order records.
+- **Arm 1's reissues.** `fleet.py` refused 10 returns and reissued them to new reader ids. Five cited a concept not among the item's codes, four listed an `also_present` theme with fewer than three concepts, and one held a line that was not JSON. Every packet has exactly two accepted returns. Where reissues replaced readers, readings 1 and 2 are the accepted pair by reader number. This amends the declaration's "r1 and oa1 are replicate 1"; no figure depends on the labels, because every figure treats an item's two readings alike.
+- **Arm 2's reissue.** `S05-27` replicate 1 is oa3, as the PI said. The handler's `REISSUE-VALIDATION.json` shows that oa1 cited C0436497 for T2-85354, a concept of another item.
+- **One line refused, under the declared rule.** In `S05-23`, reader r8 typed position 3's room as "r/traaaaaaannnnnnnns"; the item is traaaaaaannnnnnnnnns t02. Its T2- id and its cell both named that item, so the reading was identifiable, but the declaration requires the typed room to match. So arm 1 has 999 readings, and that item has one reading. These are the two validator warnings on `reassign.jsonl`: 999 readings, and one item without two.
+
+### The comparison and the figures
+
+`out/_analysis/b4c_compare.py --write` wrote `reassign.jsonl` (arm 1, 999 readings), `reassign-openai-astra.jsonl` (arm 2, 1,000) and `readings-R-B4.jsonl` (740), with every figure in `out/_analysis/b4c_figures.json`. `out/_analysis/b4c_extra.py` gives the two figures beside them: U without class 2, and U with class 2 scored against the placed themes. `out/transmission-after-revision-B4.md` holds the figures, the per-family tables and the paragraphs. In brief:
+- **Fresh against settled** (mean Jaccard, exact rate in brackets): arm 1 U 0.657 (0.452), A 0.544 (0.287); arm 2 U 0.622 (0.431), A 0.554 (0.321).
+- **The readers' agreement with each other** (Jaccard, alpha): arm 1 U 0.781, 0.776; A 0.664, 0.658. Arm 2 U 0.872, 0.869; A 0.804, 0.801. The B3 readers on the same items: U 0.781, 0.775; A 0.514, 0.505.
+- **U split** (arm 1, arm 2): class 1 0.930, 0.802; class 2 against the settled line 0.491, 0.502, and against the placed themes 0.786, 0.610; U's adjudicated items 0.517, 0.535; U without class 2 0.703, 0.655.
+- **Gold.** Stage B2's gold fidelity, 0.624, on the same model at the same effort, is lower than arm 1's U figure by 0.033.
+- **The worst families** on fresh against settled: G14 is among the three worst for both arms in both strata.
+- **Stratum R** (Jaccard, alpha): arm 1 0.623, 0.606; arm 2 0.862, 0.851; B3 readers 0.543. Primaries meet in 116 and 159 of 185. Readings wholly outside the earlier placements: 104 and 134 of 370.
+- **The 18 read twice.** Arm 1 agrees within a packet (0.741, 0.796) about as well as across packets (0.787). Arm 2 agrees within a packet (0.889, 0.861) far better than across packets (0.653).
+
+### The unanimous items a fresh reader placed elsewhere
+
+- **The items.** 79 items have a disagrees-unanimous reading in either arm: 62 in arm 1, 74 in arm 2; 28 of class 1 and 51 of class 2.
+- **The reading.** `out/_analysis/b4c_unanimous_packets.py` rendered each item's concepts, the fleet's and my B1's placements, the settled line, the four fresh sets and the scheme's fields for every theme named (`out/_analysis/b4c_unanimous/chunk-01.md` to `-08.md`). I read each and wrote one paragraph (`paragraphs-01.md` to `-08.md`). `b4c_transmission_append.py` appended the paragraphs to the figures file. Each chunk's verdicts are in the diary.
+- **The verdict test,** fixed after chunk 1 and applied to all 79. "The fleet's shared assumption" requires a field of the scheme that contradicts the fleet's placement. A theme added on concepts the settled line leaves uncarried is "rule 0 applied differently". crystalclear t01's verdict was changed to fit, and logged.
+- **The tally** (`out/_analysis/b4c_unanimous_tally.py`): the fleet's shared assumption 25, the settled line keeps my B1 themes 22, rule 0 applied differently 24, the scheme does not decide 6, the fresh reading misses a field 2.
+- **A limit of the reading.** The read packets carried the fresh readers' sets but not their `why` texts, because `reassign.jsonl` does not keep them. The verdicts rest on the concepts read against the fields.
+
+### The placements final
+
+`assign_final.jsonl` stands as B4a-07 left it: sha256 d3506a88…, 7,844 lines, nothing pending. The check revised no ruling, as declared. The findings that bear on the settled line go to stage C1 through `handback-B4.md`:
+- the class 2 items that keep B1 themes no reader placed;
+- the unanimous items where a field contradicts the fleet's placement.
+
+### What I doubt
+
+- **The 79 verdicts are mine.** I made them after seeing where the fresh readers landed. I wrote the scheme and I settled the line. The verdict test is fixed in writing, but each reading of a field is still my own.
+- **Arm 2's agreement is an upper bound.** Its two replications read byte-identical messages under one built-in instruction, and on the 18 items read twice they agree within a packet far more than across packets. Its alpha should not be read as two independent readers.
+- **Class 2 carries my B1 themes into the settled line.** In U, 22 of the 53 class 2 items keep themes that no reader of the fleet or of either arm placed. The 1,990 class 2 items of the corpus were kept by the same rule. I do not extrapolate from 53 to 1,990, but stage C1 should know the settled line holds such themes.
+- **Stratum A was selected on the fleet's split,** so the rise from the fleet's 0.514 to the fresh readers' 0.664 and 0.804 is partly regression toward the corpus mean.
+- **B4's task differs from B3's** by the sibling block, the bag flags and one rule 0 wording, as noted at B4b. A difference between the arms' figures and B3's is not the scheme's alone.
+
+### Slips
+
+- The diary line after the assembly said "no .pause" before the check had answered. The check agreed.
+- crystalclear t01's verdict was written under a loose test and corrected when the test was fixed (logged).
+- A Read call went to a path I had made up, outside the run folder. The permission setting refused it, and nothing was read.
+- Two sentences of the figures file were wrong in draft and corrected before the paragraphs were appended (logged). One said all 18 class 2 "fleet" items placed a B1 theme or its sibling; 13 did. The other listed T3-039 among G14's themes; it is G13's.
+
+`validate.py B4`, at B4c's close. The two warnings on `reassign.jsonl` are the refused line explained under "The assembly". The validator's "unanimous-but-disagreed 112" counts arm 1's disagrees-unanimous readings, not items; they fall on 62 items.
+
+```
+stage B4:
+  leg: check
+  settled items 7844 = assignment_items_expected
+  rulings 3288: {'genuine-joint': 1651, 'scheme-ambiguous': 451, 'reader-error': 152, 'author-error': 571, 'author-disagrees': 208, 'item-is-a-bag': 255}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 3288, outstanding 0
+  coder conflicts 72
+  blind readings 999 ({'adjudicated': 500, 'uniform': 499}), rule-2 items in the uniform stratum 53, unanimous-but-disagreed 112
+
+warn   _packets-B4/G01.md mentions a ruling, an adjudication or the gold key; no hint that these items were decided before reaches a blind reader (section 10). Read the packet.  [9 lines with this shape; first: G01.md]
+warn   reassign.jsonl has 999 readings; five hundred items by two readers is one thousand (J, 2026-10-12), unless notes-B4.md says why not
+warn   reassign.jsonl: 1 items do not have exactly two readings (['traaaaaaannnnnnnnnns/t02'] ...); two fresh readers per item
+
+0 errors (0 distinct shapes), 11 warnings
+```

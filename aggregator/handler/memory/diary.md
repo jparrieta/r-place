@@ -448,3 +448,28 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 
 ## 2026-10-13 15:30Z R to 185 packeted items
 - B4b-p3 closed ~15:28Z: 46 packets, 667 items (handler reading: 18 U/A unresolved counted in R from same readings). J 17:21 Berlin: "We should have 685 in total". DECISIONS row. Said msg-B4b-p4-open.txt to B4.B4b-p3 (first say attempt timed out while the leg closed; resent after close). Ran B4b-p4, job 453826261b08.
+
+## 2026-10-13 15:47Z B4b-p4 closed; ready for dispatch
+- B4b-p4 closed, checkpoint d7a8d4f93b8721fa, 0 errors, 9 warnings (scheme and participants' words: ruling, gold, adjudicating; read). MANIFEST 48 packets, 685 items, max 49,994 bytes. sample-B4-R.jsonl 185 unique, all unresolved, covers all 185.
+- Tokens: B4b-p3 25 calls 23.4M cache read; B4b-p4 30 calls 3.5M. B4b total 152 calls 106.3M.
+- Orchestrator/B4b-arm renamed B4b-arm.superseded-20261013T1511Z (returns empty); rebuilt B4b-arm: 96 messages, 32.0 MB, S05-48 bytes match fleet.py dry run + READER and TAIL; SHA256SUMS 9cef838a...; ready-v2 message sent 15:45Z, hold lifted.
+- DeepSeek dispatch handed to J: runs/claude-v43-1/CONTROL/harness/dispatch.sh B4 (--dry-run first).
+
+## 2026-10-13 16:12Z OpenAI arm running
+- OpenAI message 16:06Z: hash and 99 files verified; isolation PASS (returns/_control/isolation-PASS.json: zero tools, one user prompt, no memory/skills/project context; Codex built-in instructions kept, hash recorded; four tool capability fields disabled in the local catalogue). First pair S05-01: oa1 250.6 s, 92,282 in / 7,700 out; oa2 223.2 s, 92,282 in / 7,179 out; both pass 15 lines. Now 8 concurrent; estimate 45 to 55 min for the rest. At 16:11Z 9 packets started, 9 log lines, 0 failed.
+- DeepSeek dispatch not started (no _fleet_raw/B4).
+
+## 2026-10-13 16:24Z both arms running
+- DeepSeek dispatch started by J (bash dispatch.sh B4; the script lacks +x). At 16:24Z: 105 calls, 47 of 48 packets with two valid returns, 1 with one; 10 failed returns kept (5 concept not in item, 4 also_present under three concepts, 1 not JSON), reissued. No DONE yet.
+- OpenAI arm: 37 of 96 readings, 0 failed.
+
+## 2026-10-13 16:32Z DeepSeek arm DONE
+- DONE 16:24Z: 48 packets, 96 valid returns, 0 exhausted, 106 calls, 10 failed returns kept. OpenAI arm 53 of 96 at 16:31Z, 0 failed.
+
+## 2026-10-13 16:50Z OpenAI arm DONE; one reissue asked
+- OpenAI DONE 16:41Z: 96 of 96 valid by README rules, 0 reissues; 8.97M input (0.51M cached), 0.55M output; window 40 min, 8 concurrent, median 187 s.
+- Copied returns to out/_fleet_raw/B4-openai-astra (cp -a). fleet.py validate: 95 pass, S05-27 oa1 fails (line 5 cites C0436497, foreign code); wrote oa*.jsonl for the 95. README omitted the foreign-code and also_present checks (handler error). Asked OpenAI for one reissue oa3 (2026-10-13T16-46Z_from-claude_to-openai_b4-arm-one-reissue.md).
+
+## 2026-10-13 17:12Z B4c started
+- OpenAI reissue: first oa3 process died 16:56Z with no reply (kept in S05-27/interrupted-oa3-20261013T1650Z); retry oa3 valid (96,043 in incl 3,968 cached, 6,901 out). Copied into run (log.jsonl, DONE, SHA256SUMS kept as *.pre-reissue); fleet.py validate oa3 valid; 48 packets x 2 valid .jsonl in arm 2.
+- token-usage.md: B4 reader section added. Said msg-B4c-open.txt to B4.B4b-p4; ran B4c, job 06dd859e5468.

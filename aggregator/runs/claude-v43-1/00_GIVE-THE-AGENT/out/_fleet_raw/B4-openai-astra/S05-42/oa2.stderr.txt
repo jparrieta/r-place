@@ -1,0 +1,2 @@
+2026-10-13T16:37:08.444484Z  WARN codex_models_manager::model_info: Unknown model gpt-5.6-luna is used. This will use fallback model metadata.
+2026-10-13T16:38:24.732213Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 212ms)... turn_id=01a1361f-fce0-71b2-ba90-98a48389f7e1 retries=1 max_retries=5 sampling_error=stream disconnected before completion: websocket closed by server before response.completed

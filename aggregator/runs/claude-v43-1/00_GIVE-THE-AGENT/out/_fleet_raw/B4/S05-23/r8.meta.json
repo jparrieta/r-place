@@ -1,0 +1,34 @@
+{
+ "packet": "S05-23",
+ "group": "S05-23",
+ "reader": "r8",
+ "reissue": 1,
+ "generation": "msg_SIE4o8LkmbF9PCZoAs92",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 90328,
+  "output_tokens": 28947,
+  "output_tokens_details": {
+   "thinking_tokens": 21230
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.024399502,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.024399502,
+   "upstream_inference_prompt_cost": 0.004426072,
+   "upstream_inference_completions_cost": 0.01997343
+  }
+ },
+ "elapsed_s": 433.6,
+ "packet_sha256": "99da6f781293a02b2760efdd2d44315322f1695bda765c36982618b4bf26190f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

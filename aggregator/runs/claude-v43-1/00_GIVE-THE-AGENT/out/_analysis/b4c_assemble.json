@@ -1,0 +1,44 @@
+{
+ "readings": {
+  "deepseek-v4.1-flash A": 500,
+  "deepseek-v4.1-flash R": 370,
+  "deepseek-v4.1-flash U": 499,
+  "openai-gpt-6-astra A": 500,
+  "openai-gpt-6-astra R": 370,
+  "openai-gpt-6-astra U": 500
+ },
+ "due_per_arm": {
+  "A": 500,
+  "U": 500,
+  "R": 370
+ },
+ "pass2": 2740,
+ "predictions": 192,
+ "checks": {
+  "deepseek-v4.1-flash: .jsonl equals raw.txt's JSON lines": 96,
+  "arm2 raw.txt matches SHA256SUMS": 96,
+  "openai-gpt-6-astra: .jsonl equals raw.txt's JSON lines": 96
+ },
+ "refused": [
+  {
+   "arm": "deepseek-v4.1-flash",
+   "packet": "S05-23",
+   "reader": "r8",
+   "line": 4,
+   "position": 3,
+   "why": "typed room r/traaaaaaannnnnnnns is not traaaaaaannnnnnnnnns"
+  },
+  {
+   "arm": "deepseek-v4.1-flash",
+   "packet": "S05-23",
+   "reader": "r8",
+   "why": "positions without a pass-1 line: [3]"
+  }
+ ],
+ "inputs": {
+  "assign_final": "d3506a8871eeb106d934824e342acb374931501c2b4dd377cc277094624bcd6b",
+  "sample_B4": "2fe441cd7262425b11595d7a9ae93fcfade547bfe8a541ed9e5ac140e291124a",
+  "sample_B4_R": "acfb41692c79b4653150cea392ba600bb7d436bacbac953adb5989f8a271210a",
+  "manifest": "0cb6680218a3f147b0938f6bf98363d09dbd54433941f74a09d40758502270e7"
+ }
+}

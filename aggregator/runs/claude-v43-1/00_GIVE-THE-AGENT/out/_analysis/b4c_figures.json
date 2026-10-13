@@ -1,0 +1,3024 @@
+{
+ "arms": {
+  "deepseek-v4.1-flash": {
+   "U": {
+    "readings": 499,
+    "items": 250,
+    "resolved_readings": 493,
+    "unresolved_excluded": 6,
+    "fresh_vs_settled": {
+     "jaccard": 0.657,
+     "exact": 0.452,
+     "primary": 0.811
+    },
+    "outcomes": {
+     "agrees": 223,
+     "disagrees-unanimous": 112,
+     "disagrees-contested": 158,
+     "disagrees-unresolved": 6
+    },
+    "readers_agreement": {
+     "items": 249,
+     "jaccard": 0.781,
+     "exact": 0.675,
+     "primary": 0.823,
+     "alpha": 0.776
+    },
+    "b3_readers_same_items": {
+     "items": 250,
+     "jaccard": 0.781,
+     "exact": 0.688,
+     "primary": 0.836,
+     "alpha": 0.775
+    },
+    "disagree_rate": {
+     "contested": 0.742,
+     "contested_n": 213,
+     "unanimous": 0.4,
+     "unanimous_n": 280
+    },
+    "same_split_again": {
+     "n": 158,
+     "share": 0.462
+    },
+    "class2_against_placed": {
+     "readings": 106,
+     "jaccard": 0.786,
+     "exact": 0.642
+    }
+   },
+   "A": {
+    "readings": 500,
+    "items": 250,
+    "resolved_readings": 470,
+    "unresolved_excluded": 30,
+    "fresh_vs_settled": {
+     "jaccard": 0.544,
+     "exact": 0.287,
+     "primary": 0.664
+    },
+    "outcomes": {
+     "disagrees-contested": 335,
+     "agrees": 135,
+     "disagrees-unresolved": 30
+    },
+    "readers_agreement": {
+     "items": 250,
+     "jaccard": 0.664,
+     "exact": 0.52,
+     "primary": 0.732,
+     "alpha": 0.658
+    },
+    "b3_readers_same_items": {
+     "items": 250,
+     "jaccard": 0.514,
+     "exact": 0.296,
+     "primary": 0.652,
+     "alpha": 0.505
+    },
+    "disagree_rate": {
+     "contested": 0.713,
+     "contested_n": 470,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 335,
+     "share": 0.579
+    }
+   },
+   "U class 1": {
+    "readings": 174,
+    "items": 87,
+    "resolved_readings": 174,
+    "unresolved_excluded": 0,
+    "fresh_vs_settled": {
+     "jaccard": 0.93,
+     "exact": 0.902,
+     "primary": 0.948
+    },
+    "outcomes": {
+     "agrees": 157,
+     "disagrees-unanimous": 17
+    },
+    "readers_agreement": {
+     "items": 87,
+     "jaccard": 0.923,
+     "exact": 0.897,
+     "primary": 0.943,
+     "alpha": 0.92
+    },
+    "b3_readers_same_items": {
+     "items": 87,
+     "jaccard": 1.0,
+     "exact": 1.0,
+     "primary": 1.0,
+     "alpha": 1.0
+    },
+    "disagree_rate": {
+     "contested": null,
+     "contested_n": 0,
+     "unanimous": 0.098,
+     "unanimous_n": 174
+    },
+    "same_split_again": {
+     "n": 0,
+     "share": null
+    }
+   },
+   "U class 2 (b1_grouping_kept)": {
+    "readings": 106,
+    "items": 53,
+    "resolved_readings": 106,
+    "unresolved_excluded": 0,
+    "fresh_vs_settled": {
+     "jaccard": 0.491,
+     "exact": 0.104,
+     "primary": 0.896
+    },
+    "outcomes": {
+     "agrees": 11,
+     "disagrees-unanimous": 95
+    },
+    "readers_agreement": {
+     "items": 53,
+     "jaccard": 0.811,
+     "exact": 0.679,
+     "primary": 0.868,
+     "alpha": 0.804
+    },
+    "b3_readers_same_items": {
+     "items": 53,
+     "jaccard": 1.0,
+     "exact": 1.0,
+     "primary": 1.0,
+     "alpha": 1.0
+    },
+    "disagree_rate": {
+     "contested": null,
+     "contested_n": 0,
+     "unanimous": 0.896,
+     "unanimous_n": 106
+    },
+    "same_split_again": {
+     "n": 0,
+     "share": null
+    },
+    "class2_against_placed": {
+     "readings": 106,
+     "jaccard": 0.786,
+     "exact": 0.642
+    }
+   },
+   "U adjudicated (classes 3-5)": {
+    "readings": 219,
+    "items": 110,
+    "resolved_readings": 213,
+    "unresolved_excluded": 6,
+    "fresh_vs_settled": {
+     "jaccard": 0.517,
+     "exact": 0.258,
+     "primary": 0.657
+    },
+    "outcomes": {
+     "disagrees-contested": 158,
+     "agrees": 55,
+     "disagrees-unresolved": 6
+    },
+    "readers_agreement": {
+     "items": 109,
+     "jaccard": 0.654,
+     "exact": 0.495,
+     "primary": 0.706,
+     "alpha": 0.647
+    },
+    "b3_readers_same_items": {
+     "items": 110,
+     "jaccard": 0.502,
+     "exact": 0.291,
+     "primary": 0.627,
+     "alpha": 0.492
+    },
+    "disagree_rate": {
+     "contested": 0.742,
+     "contested_n": 213,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 158,
+     "share": 0.462
+    }
+   },
+   "A class 3": {
+    "readings": 360,
+    "items": 180,
+    "resolved_readings": 356,
+    "unresolved_excluded": 4,
+    "fresh_vs_settled": {
+     "jaccard": 0.502,
+     "exact": 0.197,
+     "primary": 0.64
+    },
+    "outcomes": {
+     "disagrees-contested": 286,
+     "agrees": 70,
+     "disagrees-unresolved": 4
+    },
+    "readers_agreement": {
+     "items": 180,
+     "jaccard": 0.627,
+     "exact": 0.461,
+     "primary": 0.706,
+     "alpha": 0.618
+    },
+    "b3_readers_same_items": {
+     "items": 180,
+     "jaccard": 0.331,
+     "exact": 0.028,
+     "primary": 0.522,
+     "alpha": 0.317
+    },
+    "disagree_rate": {
+     "contested": 0.803,
+     "contested_n": 356,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 286,
+     "share": 0.626
+    }
+   },
+   "A class 4": {
+    "readings": 126,
+    "items": 63,
+    "resolved_readings": 110,
+    "unresolved_excluded": 16,
+    "fresh_vs_settled": {
+     "jaccard": 0.666,
+     "exact": 0.555,
+     "primary": 0.727
+    },
+    "outcomes": {
+     "agrees": 61,
+     "disagrees-unresolved": 16,
+     "disagrees-contested": 49
+    },
+    "readers_agreement": {
+     "items": 63,
+     "jaccard": 0.733,
+     "exact": 0.635,
+     "primary": 0.778,
+     "alpha": 0.727
+    },
+    "b3_readers_same_items": {
+     "items": 63,
+     "jaccard": 1.0,
+     "exact": 1.0,
+     "primary": 1.0,
+     "alpha": 1.0
+    },
+    "disagree_rate": {
+     "contested": 0.445,
+     "contested_n": 110,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 49,
+     "share": 0.306
+    }
+   },
+   "A class 5": {
+    "readings": 14,
+    "items": 7,
+    "resolved_readings": 4,
+    "unresolved_excluded": 10,
+    "fresh_vs_settled": {
+     "jaccard": 1.0,
+     "exact": 1.0,
+     "primary": 1.0
+    },
+    "outcomes": {
+     "disagrees-unresolved": 10,
+     "agrees": 4
+    },
+    "readers_agreement": {
+     "items": 7,
+     "jaccard": 1.0,
+     "exact": 1.0,
+     "primary": 1.0,
+     "alpha": 1.0
+    },
+    "b3_readers_same_items": {
+     "items": 7,
+     "jaccard": 0.857,
+     "exact": 0.857,
+     "primary": 0.857,
+     "alpha": 0.8
+    },
+    "disagree_rate": {
+     "contested": 0.0,
+     "contested_n": 4,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 0,
+     "share": null
+    }
+   },
+   "families": {
+    "U": {
+     "table": {
+      "G01": {
+       "items_settled": 32,
+       "readings": 64,
+       "fresh_vs_settled": 0.75,
+       "exact": 0.625,
+       "readers_items": 36,
+       "readers_jaccard": 0.769,
+       "b3_corpus_jaccard": 0.798
+      },
+      "G02": {
+       "items_settled": 16,
+       "readings": 32,
+       "fresh_vs_settled": 0.641,
+       "exact": 0.5,
+       "readers_items": 16,
+       "readers_jaccard": 0.583,
+       "b3_corpus_jaccard": 0.773
+      },
+      "G03": {
+       "items_settled": 9,
+       "readings": 18,
+       "fresh_vs_settled": 0.694,
+       "exact": 0.444,
+       "readers_items": 10,
+       "readers_jaccard": 0.733,
+       "b3_corpus_jaccard": 0.806
+      },
+      "G04": {
+       "items_settled": 20,
+       "readings": 40,
+       "fresh_vs_settled": 0.656,
+       "exact": 0.4,
+       "readers_items": 23,
+       "readers_jaccard": 0.609,
+       "b3_corpus_jaccard": 0.74
+      },
+      "G05": {
+       "items_settled": 2,
+       "readings": 4,
+       "fresh_vs_settled": 0.625,
+       "exact": 0.25,
+       "readers_items": 4,
+       "readers_jaccard": 0.75,
+       "b3_corpus_jaccard": 0.65
+      },
+      "G06": {
+       "items_settled": 3,
+       "readings": 6,
+       "fresh_vs_settled": 0.764,
+       "exact": 0.667,
+       "readers_items": 5,
+       "readers_jaccard": 0.4,
+       "b3_corpus_jaccard": 0.628
+      },
+      "G07": {
+       "items_settled": 12,
+       "readings": 24,
+       "fresh_vs_settled": 0.569,
+       "exact": 0.375,
+       "readers_items": 16,
+       "readers_jaccard": 0.703,
+       "b3_corpus_jaccard": 0.668
+      },
+      "G08": {
+       "items_settled": 18,
+       "readings": 36,
+       "fresh_vs_settled": 0.593,
+       "exact": 0.306,
+       "readers_items": 20,
+       "readers_jaccard": 0.708,
+       "b3_corpus_jaccard": 0.626
+      },
+      "G09": {
+       "items_settled": 20,
+       "readings": 39,
+       "fresh_vs_settled": 0.69,
+       "exact": 0.436,
+       "readers_items": 21,
+       "readers_jaccard": 0.873,
+       "b3_corpus_jaccard": 0.742
+      },
+      "G10": {
+       "items_settled": 0,
+       "readings": 0,
+       "fresh_vs_settled": null,
+       "exact": null,
+       "readers_items": 1,
+       "readers_jaccard": 0.333,
+       "b3_corpus_jaccard": 0.629
+      },
+      "G11": {
+       "items_settled": 7,
+       "readings": 14,
+       "fresh_vs_settled": 0.738,
+       "exact": 0.429,
+       "readers_items": 8,
+       "readers_jaccard": 0.625,
+       "b3_corpus_jaccard": 0.832
+      },
+      "G12": {
+       "items_settled": 6,
+       "readings": 12,
+       "fresh_vs_settled": 0.403,
+       "exact": 0.25,
+       "readers_items": 6,
+       "readers_jaccard": 0.833,
+       "b3_corpus_jaccard": 0.684
+      },
+      "G13": {
+       "items_settled": 4,
+       "readings": 8,
+       "fresh_vs_settled": 0.333,
+       "exact": 0.125,
+       "readers_items": 3,
+       "readers_jaccard": 0.333,
+       "b3_corpus_jaccard": 0.627
+      },
+      "G14": {
+       "items_settled": 18,
+       "readings": 36,
+       "fresh_vs_settled": 0.507,
+       "exact": 0.25,
+       "readers_items": 19,
+       "readers_jaccard": 0.658,
+       "b3_corpus_jaccard": 0.697
+      },
+      "G15": {
+       "items_settled": 9,
+       "readings": 18,
+       "fresh_vs_settled": 0.713,
+       "exact": 0.556,
+       "readers_items": 12,
+       "readers_jaccard": 0.708,
+       "b3_corpus_jaccard": 0.582
+      },
+      "G16": {
+       "items_settled": 0,
+       "readings": 0,
+       "fresh_vs_settled": null,
+       "exact": null,
+       "readers_items": 1,
+       "readers_jaccard": 0.0,
+       "b3_corpus_jaccard": 0.624
+      },
+      "G17": {
+       "items_settled": 7,
+       "readings": 14,
+       "fresh_vs_settled": 0.506,
+       "exact": 0.143,
+       "readers_items": 9,
+       "readers_jaccard": 0.5,
+       "b3_corpus_jaccard": 0.644
+      },
+      "G18": {
+       "items_settled": 2,
+       "readings": 4,
+       "fresh_vs_settled": 0.479,
+       "exact": 0.0,
+       "readers_items": 3,
+       "readers_jaccard": 0.778,
+       "b3_corpus_jaccard": 0.552
+      },
+      "G19": {
+       "items_settled": 6,
+       "readings": 12,
+       "fresh_vs_settled": 0.667,
+       "exact": 0.417,
+       "readers_items": 8,
+       "readers_jaccard": 0.75,
+       "b3_corpus_jaccard": 0.61
+      },
+      "G20": {
+       "items_settled": 26,
+       "readings": 52,
+       "fresh_vs_settled": 0.881,
+       "exact": 0.827,
+       "readers_items": 32,
+       "readers_jaccard": 0.76,
+       "b3_corpus_jaccard": 0.743
+      },
+      "G21": {
+       "items_settled": 30,
+       "readings": 60,
+       "fresh_vs_settled": 0.6,
+       "exact": 0.367,
+       "readers_items": 28,
+       "readers_jaccard": 0.881,
+       "b3_corpus_jaccard": 0.776
+      }
+     },
+     "worst": [
+      "G14",
+      "G07",
+      "G08"
+     ],
+     "ranked": [
+      [
+       "G14",
+       0.507
+      ],
+      [
+       "G07",
+       0.569
+      ],
+      [
+       "G08",
+       0.593
+      ],
+      [
+       "G21",
+       0.6
+      ],
+      [
+       "G02",
+       0.641
+      ],
+      [
+       "G04",
+       0.656
+      ],
+      [
+       "G09",
+       0.69
+      ],
+      [
+       "G01",
+       0.75
+      ],
+      [
+       "G20",
+       0.881
+      ]
+     ]
+    },
+    "A": {
+     "table": {
+      "G01": {
+       "items_settled": 24,
+       "readings": 48,
+       "fresh_vs_settled": 0.618,
+       "exact": 0.417,
+       "readers_items": 29,
+       "readers_jaccard": 0.701,
+       "b3_corpus_jaccard": 0.798
+      },
+      "G02": {
+       "items_settled": 12,
+       "readings": 24,
+       "fresh_vs_settled": 0.479,
+       "exact": 0.333,
+       "readers_items": 12,
+       "readers_jaccard": 0.542,
+       "b3_corpus_jaccard": 0.773
+      },
+      "G03": {
+       "items_settled": 6,
+       "readings": 12,
+       "fresh_vs_settled": 0.82,
+       "exact": 0.583,
+       "readers_items": 9,
+       "readers_jaccard": 0.759,
+       "b3_corpus_jaccard": 0.806
+      },
+      "G04": {
+       "items_settled": 11,
+       "readings": 22,
+       "fresh_vs_settled": 0.614,
+       "exact": 0.364,
+       "readers_items": 18,
+       "readers_jaccard": 0.556,
+       "b3_corpus_jaccard": 0.74
+      },
+      "G05": {
+       "items_settled": 8,
+       "readings": 16,
+       "fresh_vs_settled": 0.62,
+       "exact": 0.312,
+       "readers_items": 9,
+       "readers_jaccard": 0.565,
+       "b3_corpus_jaccard": 0.65
+      },
+      "G06": {
+       "items_settled": 0,
+       "readings": 0,
+       "fresh_vs_settled": null,
+       "exact": null,
+       "readers_items": 1,
+       "readers_jaccard": 0.0,
+       "b3_corpus_jaccard": 0.628
+      },
+      "G07": {
+       "items_settled": 16,
+       "readings": 32,
+       "fresh_vs_settled": 0.505,
+       "exact": 0.219,
+       "readers_items": 29,
+       "readers_jaccard": 0.339,
+       "b3_corpus_jaccard": 0.668
+      },
+      "G08": {
+       "items_settled": 21,
+       "readings": 42,
+       "fresh_vs_settled": 0.486,
+       "exact": 0.238,
+       "readers_items": 20,
+       "readers_jaccard": 0.45,
+       "b3_corpus_jaccard": 0.626
+      },
+      "G09": {
+       "items_settled": 19,
+       "readings": 38,
+       "fresh_vs_settled": 0.658,
+       "exact": 0.395,
+       "readers_items": 20,
+       "readers_jaccard": 0.808,
+       "b3_corpus_jaccard": 0.742
+      },
+      "G10": {
+       "items_settled": 10,
+       "readings": 20,
+       "fresh_vs_settled": 0.417,
+       "exact": 0.05,
+       "readers_items": 11,
+       "readers_jaccard": 0.545,
+       "b3_corpus_jaccard": 0.629
+      },
+      "G11": {
+       "items_settled": 11,
+       "readings": 22,
+       "fresh_vs_settled": 0.629,
+       "exact": 0.273,
+       "readers_items": 11,
+       "readers_jaccard": 0.727,
+       "b3_corpus_jaccard": 0.832
+      },
+      "G12": {
+       "items_settled": 9,
+       "readings": 18,
+       "fresh_vs_settled": 0.62,
+       "exact": 0.389,
+       "readers_items": 11,
+       "readers_jaccard": 0.561,
+       "b3_corpus_jaccard": 0.684
+      },
+      "G13": {
+       "items_settled": 5,
+       "readings": 10,
+       "fresh_vs_settled": 0.267,
+       "exact": 0.0,
+       "readers_items": 7,
+       "readers_jaccard": 0.714,
+       "b3_corpus_jaccard": 0.627
+      },
+      "G14": {
+       "items_settled": 20,
+       "readings": 40,
+       "fresh_vs_settled": 0.423,
+       "exact": 0.1,
+       "readers_items": 23,
+       "readers_jaccard": 0.486,
+       "b3_corpus_jaccard": 0.697
+      },
+      "G15": {
+       "items_settled": 12,
+       "readings": 24,
+       "fresh_vs_settled": 0.625,
+       "exact": 0.458,
+       "readers_items": 15,
+       "readers_jaccard": 0.6,
+       "b3_corpus_jaccard": 0.582
+      },
+      "G16": {
+       "items_settled": 4,
+       "readings": 8,
+       "fresh_vs_settled": 0.385,
+       "exact": 0.0,
+       "readers_items": 5,
+       "readers_jaccard": 0.3,
+       "b3_corpus_jaccard": 0.624
+      },
+      "G17": {
+       "items_settled": 4,
+       "readings": 8,
+       "fresh_vs_settled": 0.198,
+       "exact": 0.0,
+       "readers_items": 3,
+       "readers_jaccard": 0.889,
+       "b3_corpus_jaccard": 0.644
+      },
+      "G18": {
+       "items_settled": 2,
+       "readings": 4,
+       "fresh_vs_settled": 0.5,
+       "exact": 0.5,
+       "readers_items": 4,
+       "readers_jaccard": 0.375,
+       "b3_corpus_jaccard": 0.552
+      },
+      "G19": {
+       "items_settled": 3,
+       "readings": 6,
+       "fresh_vs_settled": 0.458,
+       "exact": 0.167,
+       "readers_items": 4,
+       "readers_jaccard": 0.292,
+       "b3_corpus_jaccard": 0.61
+      },
+      "G20": {
+       "items_settled": 11,
+       "readings": 22,
+       "fresh_vs_settled": 0.5,
+       "exact": 0.318,
+       "readers_items": 20,
+       "readers_jaccard": 0.65,
+       "b3_corpus_jaccard": 0.743
+      },
+      "G21": {
+       "items_settled": 27,
+       "readings": 54,
+       "fresh_vs_settled": 0.585,
+       "exact": 0.296,
+       "readers_items": 32,
+       "readers_jaccard": 0.745,
+       "b3_corpus_jaccard": 0.776
+      }
+     },
+     "worst": [
+      "G10",
+      "G14",
+      "G02"
+     ],
+     "ranked": [
+      [
+       "G10",
+       0.417
+      ],
+      [
+       "G14",
+       0.423
+      ],
+      [
+       "G02",
+       0.479
+      ],
+      [
+       "G08",
+       0.486
+      ],
+      [
+       "G20",
+       0.5
+      ],
+      [
+       "G07",
+       0.505
+      ],
+      [
+       "G21",
+       0.585
+      ],
+      [
+       "G04",
+       0.614
+      ],
+      [
+       "G01",
+       0.618
+      ],
+      [
+       "G15",
+       0.625
+      ],
+      [
+       "G11",
+       0.629
+      ],
+      [
+       "G09",
+       0.658
+      ]
+     ]
+    }
+   },
+   "unanimous_disagreed_items": {
+    "AmericanFlaginPlace/t03": [
+     [
+      "T3-038",
+      "T3-065"
+     ],
+     [
+      "T3-065",
+      "T3-038"
+     ]
+    ],
+    "AprilKnights/t01": [
+     [
+      "T3-002",
+      "T3-016"
+     ]
+    ],
+    "AprilKnights/t08": [
+     [
+      "T3-038"
+     ],
+     [
+      "T3-038"
+     ]
+    ],
+    "ChronoTrigger/t04": [
+     [
+      "T3-010"
+     ],
+     [
+      "T3-010",
+      "T3-024"
+     ]
+    ],
+    "FaroeIslands/t01": [
+     [
+      "T3-022"
+     ],
+     [
+      "T3-065"
+     ]
+    ],
+    "Fez/t02": [
+     [
+      "T3-014"
+     ]
+    ],
+    "GabrielDropout/t01": [
+     [
+      "T3-002"
+     ],
+     [
+      "T3-002"
+     ]
+    ],
+    "TheFarLeftSide/t13": [
+     [
+      "T3-005"
+     ],
+     [
+      "T3-005"
+     ]
+    ],
+    "TheHulk/t09": [
+     [
+      "T3-142"
+     ],
+     [
+      "T3-142"
+     ]
+    ],
+    "WPI/t05": [
+     [
+      "T3-005"
+     ],
+     [
+      "T3-005"
+     ]
+    ],
+    "asexuality/t06": [
+     [
+      "T3-164",
+      "T3-009"
+     ],
+     [
+      "T3-164",
+      "T3-009"
+     ]
+    ],
+    "bangtan/t11": [
+     [
+      "T3-011"
+     ],
+     [
+      "T3-011"
+     ]
+    ],
+    "belgium/t08": [
+     [
+      "T3-005",
+      "T3-062"
+     ],
+     [
+      "T3-005"
+     ]
+    ],
+    "calgaryflames/t03": [
+     [
+      "T3-002",
+      "T3-005"
+     ],
+     [
+      "T3-002"
+     ]
+    ],
+    "canucks/t12": [
+     [
+      "T3-017"
+     ]
+    ],
+    "catalunya/t07": [
+     [
+      "T3-009"
+     ],
+     [
+      "T3-009"
+     ]
+    ],
+    "chicubs/t04": [
+     [
+      "T3-021",
+      "T3-005"
+     ],
+     [
+      "T3-021",
+      "T3-042",
+      "T3-005"
+     ]
+    ],
+    "clashroyale/t08": [
+     [
+      "T3-038",
+      "T3-005"
+     ],
+     [
+      "T3-038",
+      "T3-005"
+     ]
+    ],
+    "crystalclear/t01": [
+     [
+      "T3-033",
+      "T3-020"
+     ],
+     [
+      "T3-033",
+      "T3-020"
+     ]
+    ],
+    "daftpunk/t03": [
+     [
+      "T3-010"
+     ],
+     [
+      "T3-020"
+     ]
+    ],
+    "dallasstars/t09": [
+     [
+      "T3-002"
+     ],
+     [
+      "T3-002"
+     ]
+    ],
+    "danganronpa/t01": [
+     [
+      "T3-031"
+     ]
+    ],
+    "de/t01": [
+     [
+      "T3-070",
+      "T3-002"
+     ]
+    ],
+    "edmontonoilers/t03": [
+     [
+      "T3-002",
+      "T3-005"
+     ]
+    ],
+    "floridagators/t09": [
+     [
+      "T3-014"
+     ],
+     [
+      "T3-014",
+      "T3-152"
+     ]
+    ],
+    "floridagators/t10": [
+     [
+      "T3-043",
+      "T3-009"
+     ],
+     [
+      "T3-043"
+     ]
+    ],
+    "furry_irl/t23": [
+     [
+      "T3-054"
+     ],
+     [
+      "T3-054"
+     ]
+    ],
+    "homelab/t08": [
+     [
+      "T3-068"
+     ],
+     [
+      "T3-068"
+     ]
+    ],
+    "indonesia/t03": [
+     [
+      "T3-005",
+      "T3-141"
+     ],
+     [
+      "T3-005",
+      "T3-141"
+     ]
+    ],
+    "japan/t11": [
+     [
+      "T3-047",
+      "T3-011"
+     ],
+     [
+      "T3-170",
+      "T3-011"
+     ]
+    ],
+    "kingdomhearts/t17": [
+     [
+      "T3-038"
+     ]
+    ],
+    "kuwait/t01": [
+     [
+      "T3-065"
+     ],
+     [
+      "T3-065"
+     ]
+    ],
+    "leafs/t08": [
+     [
+      "T3-001",
+      "T3-032"
+     ],
+     [
+      "T3-001",
+      "T3-032"
+     ]
+    ],
+    "lego/t13": [
+     [
+      "T3-021"
+     ],
+     [
+      "T3-021"
+     ]
+    ],
+    "loltyler1/t03": [
+     [
+      "T3-006"
+     ],
+     [
+      "T3-006"
+     ]
+    ],
+    "marvel/t04": [
+     [
+      "T3-020"
+     ],
+     [
+      "T3-020"
+     ]
+    ],
+    "mcgill/t02": [
+     [
+      "T3-014"
+     ],
+     [
+      "T3-014"
+     ]
+    ],
+    "miraculousladybug/t02": [
+     [
+      "T3-045"
+     ],
+     [
+      "T3-045"
+     ]
+    ],
+    "monstercat/t02": [
+     [
+      "T3-001"
+     ]
+    ],
+    "monsterhunter/t10": [
+     [
+      "T3-015"
+     ],
+     [
+      "T3-015"
+     ]
+    ],
+    "nVade/t07": [
+     [
+      "T3-117"
+     ],
+     [
+      "T3-117"
+     ]
+    ],
+    "ockytop/t02": [
+     [
+      "T3-006"
+     ],
+     [
+      "T3-006"
+     ]
+    ],
+    "onepunchman/t02": [
+     [
+      "T3-037",
+      "T3-075"
+     ],
+     [
+      "T3-136"
+     ]
+    ],
+    "placesnek/t02": [
+     [
+      "T3-024"
+     ],
+     [
+      "T3-024"
+     ]
+    ],
+    "placestart/t01": [
+     [
+      "T3-038",
+      "T3-004"
+     ],
+     [
+      "T3-038",
+      "T3-004"
+     ]
+    ],
+    "puzzleanddragons/t04": [
+     [
+      "T3-150"
+     ]
+    ],
+    "reddevils/t18": [
+     [
+      "T3-050"
+     ],
+     [
+      "T3-050"
+     ]
+    ],
+    "rush/t08": [
+     [
+      "T3-001"
+     ],
+     [
+      "T3-001"
+     ]
+    ],
+    "samuraijack/t13": [
+     [
+      "T3-048"
+     ]
+    ],
+    "scotland/t07": [
+     [
+      "T3-015",
+      "T3-014"
+     ],
+     [
+      "T3-015",
+      "T3-014"
+     ]
+    ],
+    "slovenia/t02": [
+     [
+      "T3-065",
+      "T3-113"
+     ],
+     [
+      "T3-065"
+     ]
+    ],
+    "southafrica/t13": [
+     [
+      "T3-105"
+     ],
+     [
+      "T3-105",
+      "T3-009"
+     ]
+    ],
+    "starcitizen/t06": [
+     [
+      "T3-031"
+     ]
+    ],
+    "tampabaylightning/t13": [
+     [
+      "T3-041"
+     ],
+     [
+      "T3-041"
+     ]
+    ],
+    "twitchplayspokemon/t03": [
+     [
+      "T3-070",
+      "T3-038",
+      "T3-009"
+     ]
+    ],
+    "uofmn/t09": [
+     [
+      "T3-028"
+     ],
+     [
+      "T3-028",
+      "T3-014"
+     ]
+    ],
+    "wales/t02": [
+     [
+      "T3-002"
+     ],
+     [
+      "T3-002",
+      "T3-065"
+     ]
+    ],
+    "wallstreetbets/t08": [
+     [
+      "T3-023"
+     ],
+     [
+      "T3-023"
+     ]
+    ],
+    "warframe/t11": [
+     [
+      "T3-010",
+      "T3-151"
+     ],
+     [
+      "T3-010",
+      "T3-151"
+     ]
+    ],
+    "witcher/t05": [
+     [
+      "T3-010"
+     ],
+     [
+      "T3-010"
+     ]
+    ],
+    "witcher/t08": [
+     [
+      "T3-009"
+     ],
+     [
+      "T3-009"
+     ]
+    ],
+    "xcom/t12": [
+     [
+      "T3-075"
+     ],
+     [
+      "T3-075"
+     ]
+    ]
+   }
+  },
+  "openai-gpt-6-astra": {
+   "U": {
+    "readings": 500,
+    "items": 250,
+    "resolved_readings": 494,
+    "unresolved_excluded": 6,
+    "fresh_vs_settled": {
+     "jaccard": 0.622,
+     "exact": 0.431,
+     "primary": 0.757
+    },
+    "outcomes": {
+     "disagrees-unanimous": 137,
+     "agrees": 213,
+     "disagrees-contested": 144,
+     "disagrees-unresolved": 6
+    },
+    "readers_agreement": {
+     "items": 250,
+     "jaccard": 0.872,
+     "exact": 0.792,
+     "primary": 0.904,
+     "alpha": 0.869
+    },
+    "b3_readers_same_items": {
+     "items": 250,
+     "jaccard": 0.781,
+     "exact": 0.688,
+     "primary": 0.836,
+     "alpha": 0.775
+    },
+    "disagree_rate": {
+     "contested": 0.673,
+     "contested_n": 214,
+     "unanimous": 0.489,
+     "unanimous_n": 280
+    },
+    "same_split_again": {
+     "n": 144,
+     "share": 0.382
+    },
+    "class2_against_placed": {
+     "readings": 106,
+     "jaccard": 0.61,
+     "exact": 0.443
+    }
+   },
+   "A": {
+    "readings": 500,
+    "items": 250,
+    "resolved_readings": 470,
+    "unresolved_excluded": 30,
+    "fresh_vs_settled": {
+     "jaccard": 0.554,
+     "exact": 0.321,
+     "primary": 0.706
+    },
+    "outcomes": {
+     "agrees": 151,
+     "disagrees-contested": 319,
+     "disagrees-unresolved": 30
+    },
+    "readers_agreement": {
+     "items": 250,
+     "jaccard": 0.804,
+     "exact": 0.716,
+     "primary": 0.864,
+     "alpha": 0.801
+    },
+    "b3_readers_same_items": {
+     "items": 250,
+     "jaccard": 0.514,
+     "exact": 0.296,
+     "primary": 0.652,
+     "alpha": 0.505
+    },
+    "disagree_rate": {
+     "contested": 0.679,
+     "contested_n": 470,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 319,
+     "share": 0.401
+    }
+   },
+   "U class 1": {
+    "readings": 174,
+    "items": 87,
+    "resolved_readings": 174,
+    "unresolved_excluded": 0,
+    "fresh_vs_settled": {
+     "jaccard": 0.802,
+     "exact": 0.736,
+     "primary": 0.874
+    },
+    "outcomes": {
+     "disagrees-unanimous": 46,
+     "agrees": 128
+    },
+    "readers_agreement": {
+     "items": 87,
+     "jaccard": 0.931,
+     "exact": 0.874,
+     "primary": 0.954,
+     "alpha": 0.928
+    },
+    "b3_readers_same_items": {
+     "items": 87,
+     "jaccard": 1.0,
+     "exact": 1.0,
+     "primary": 1.0,
+     "alpha": 1.0
+    },
+    "disagree_rate": {
+     "contested": null,
+     "contested_n": 0,
+     "unanimous": 0.264,
+     "unanimous_n": 174
+    },
+    "same_split_again": {
+     "n": 0,
+     "share": null
+    }
+   },
+   "U class 2 (b1_grouping_kept)": {
+    "readings": 106,
+    "items": 53,
+    "resolved_readings": 106,
+    "unresolved_excluded": 0,
+    "fresh_vs_settled": {
+     "jaccard": 0.502,
+     "exact": 0.142,
+     "primary": 0.717
+    },
+    "outcomes": {
+     "agrees": 15,
+     "disagrees-unanimous": 91
+    },
+    "readers_agreement": {
+     "items": 53,
+     "jaccard": 0.843,
+     "exact": 0.698,
+     "primary": 0.943,
+     "alpha": 0.838
+    },
+    "b3_readers_same_items": {
+     "items": 53,
+     "jaccard": 1.0,
+     "exact": 1.0,
+     "primary": 1.0,
+     "alpha": 1.0
+    },
+    "disagree_rate": {
+     "contested": null,
+     "contested_n": 0,
+     "unanimous": 0.858,
+     "unanimous_n": 106
+    },
+    "same_split_again": {
+     "n": 0,
+     "share": null
+    },
+    "class2_against_placed": {
+     "readings": 106,
+     "jaccard": 0.61,
+     "exact": 0.443
+    }
+   },
+   "U adjudicated (classes 3-5)": {
+    "readings": 220,
+    "items": 110,
+    "resolved_readings": 214,
+    "unresolved_excluded": 6,
+    "fresh_vs_settled": {
+     "jaccard": 0.535,
+     "exact": 0.327,
+     "primary": 0.682
+    },
+    "outcomes": {
+     "disagrees-contested": 144,
+     "agrees": 70,
+     "disagrees-unresolved": 6
+    },
+    "readers_agreement": {
+     "items": 110,
+     "jaccard": 0.839,
+     "exact": 0.773,
+     "primary": 0.845,
+     "alpha": 0.836
+    },
+    "b3_readers_same_items": {
+     "items": 110,
+     "jaccard": 0.502,
+     "exact": 0.291,
+     "primary": 0.627,
+     "alpha": 0.492
+    },
+    "disagree_rate": {
+     "contested": 0.673,
+     "contested_n": 214,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 144,
+     "share": 0.382
+    }
+   },
+   "A class 3": {
+    "readings": 360,
+    "items": 180,
+    "resolved_readings": 356,
+    "unresolved_excluded": 4,
+    "fresh_vs_settled": {
+     "jaccard": 0.539,
+     "exact": 0.289,
+     "primary": 0.708
+    },
+    "outcomes": {
+     "agrees": 103,
+     "disagrees-contested": 253,
+     "disagrees-unresolved": 4
+    },
+    "readers_agreement": {
+     "items": 180,
+     "jaccard": 0.805,
+     "exact": 0.711,
+     "primary": 0.878,
+     "alpha": 0.801
+    },
+    "b3_readers_same_items": {
+     "items": 180,
+     "jaccard": 0.331,
+     "exact": 0.028,
+     "primary": 0.522,
+     "alpha": 0.317
+    },
+    "disagree_rate": {
+     "contested": 0.711,
+     "contested_n": 356,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 253,
+     "share": 0.411
+    }
+   },
+   "A class 4": {
+    "readings": 126,
+    "items": 63,
+    "resolved_readings": 110,
+    "unresolved_excluded": 16,
+    "fresh_vs_settled": {
+     "jaccard": 0.583,
+     "exact": 0.4,
+     "primary": 0.691
+    },
+    "outcomes": {
+     "agrees": 44,
+     "disagrees-unresolved": 16,
+     "disagrees-contested": 66
+    },
+    "readers_agreement": {
+     "items": 63,
+     "jaccard": 0.796,
+     "exact": 0.714,
+     "primary": 0.857,
+     "alpha": 0.792
+    },
+    "b3_readers_same_items": {
+     "items": 63,
+     "jaccard": 1.0,
+     "exact": 1.0,
+     "primary": 1.0,
+     "alpha": 1.0
+    },
+    "disagree_rate": {
+     "contested": 0.6,
+     "contested_n": 110,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 66,
+     "share": 0.364
+    }
+   },
+   "A class 5": {
+    "readings": 14,
+    "items": 7,
+    "resolved_readings": 4,
+    "unresolved_excluded": 10,
+    "fresh_vs_settled": {
+     "jaccard": 1.0,
+     "exact": 1.0,
+     "primary": 1.0
+    },
+    "outcomes": {
+     "disagrees-unresolved": 10,
+     "agrees": 4
+    },
+    "readers_agreement": {
+     "items": 7,
+     "jaccard": 0.857,
+     "exact": 0.857,
+     "primary": 0.571,
+     "alpha": 0.812
+    },
+    "b3_readers_same_items": {
+     "items": 7,
+     "jaccard": 0.857,
+     "exact": 0.857,
+     "primary": 0.857,
+     "alpha": 0.8
+    },
+    "disagree_rate": {
+     "contested": 0.0,
+     "contested_n": 4,
+     "unanimous": null,
+     "unanimous_n": 0
+    },
+    "same_split_again": {
+     "n": 0,
+     "share": null
+    }
+   },
+   "families": {
+    "U": {
+     "table": {
+      "G01": {
+       "items_settled": 32,
+       "readings": 64,
+       "fresh_vs_settled": 0.721,
+       "exact": 0.594,
+       "readers_items": 29,
+       "readers_jaccard": 0.92,
+       "b3_corpus_jaccard": 0.798
+      },
+      "G02": {
+       "items_settled": 16,
+       "readings": 32,
+       "fresh_vs_settled": 0.906,
+       "exact": 0.812,
+       "readers_items": 25,
+       "readers_jaccard": 0.947,
+       "b3_corpus_jaccard": 0.773
+      },
+      "G03": {
+       "items_settled": 9,
+       "readings": 18,
+       "fresh_vs_settled": 0.659,
+       "exact": 0.389,
+       "readers_items": 9,
+       "readers_jaccard": 0.889,
+       "b3_corpus_jaccard": 0.806
+      },
+      "G04": {
+       "items_settled": 20,
+       "readings": 40,
+       "fresh_vs_settled": 0.561,
+       "exact": 0.35,
+       "readers_items": 16,
+       "readers_jaccard": 0.771,
+       "b3_corpus_jaccard": 0.74
+      },
+      "G05": {
+       "items_settled": 2,
+       "readings": 4,
+       "fresh_vs_settled": 0.646,
+       "exact": 0.5,
+       "readers_items": 3,
+       "readers_jaccard": 0.889,
+       "b3_corpus_jaccard": 0.65
+      },
+      "G06": {
+       "items_settled": 3,
+       "readings": 6,
+       "fresh_vs_settled": 0.778,
+       "exact": 0.667,
+       "readers_items": 3,
+       "readers_jaccard": 1.0,
+       "b3_corpus_jaccard": 0.628
+      },
+      "G07": {
+       "items_settled": 12,
+       "readings": 24,
+       "fresh_vs_settled": 0.425,
+       "exact": 0.292,
+       "readers_items": 14,
+       "readers_jaccard": 0.643,
+       "b3_corpus_jaccard": 0.668
+      },
+      "G08": {
+       "items_settled": 18,
+       "readings": 36,
+       "fresh_vs_settled": 0.491,
+       "exact": 0.278,
+       "readers_items": 21,
+       "readers_jaccard": 0.73,
+       "b3_corpus_jaccard": 0.626
+      },
+      "G09": {
+       "items_settled": 20,
+       "readings": 40,
+       "fresh_vs_settled": 0.7,
+       "exact": 0.45,
+       "readers_items": 20,
+       "readers_jaccard": 0.883,
+       "b3_corpus_jaccard": 0.742
+      },
+      "G11": {
+       "items_settled": 7,
+       "readings": 14,
+       "fresh_vs_settled": 0.547,
+       "exact": 0.214,
+       "readers_items": 7,
+       "readers_jaccard": 0.905,
+       "b3_corpus_jaccard": 0.832
+      },
+      "G12": {
+       "items_settled": 6,
+       "readings": 12,
+       "fresh_vs_settled": 0.364,
+       "exact": 0.083,
+       "readers_items": 6,
+       "readers_jaccard": 0.694,
+       "b3_corpus_jaccard": 0.684
+      },
+      "G13": {
+       "items_settled": 4,
+       "readings": 8,
+       "fresh_vs_settled": 0.5,
+       "exact": 0.25,
+       "readers_items": 2,
+       "readers_jaccard": 1.0,
+       "b3_corpus_jaccard": 0.627
+      },
+      "G14": {
+       "items_settled": 18,
+       "readings": 36,
+       "fresh_vs_settled": 0.31,
+       "exact": 0.056,
+       "readers_items": 18,
+       "readers_jaccard": 0.833,
+       "b3_corpus_jaccard": 0.697
+      },
+      "G15": {
+       "items_settled": 9,
+       "readings": 18,
+       "fresh_vs_settled": 0.458,
+       "exact": 0.278,
+       "readers_items": 12,
+       "readers_jaccard": 0.764,
+       "b3_corpus_jaccard": 0.582
+      },
+      "G17": {
+       "items_settled": 7,
+       "readings": 14,
+       "fresh_vs_settled": 0.44,
+       "exact": 0.143,
+       "readers_items": 12,
+       "readers_jaccard": 0.681,
+       "b3_corpus_jaccard": 0.644
+      },
+      "G18": {
+       "items_settled": 2,
+       "readings": 4,
+       "fresh_vs_settled": 0.416,
+       "exact": 0.0,
+       "readers_items": 2,
+       "readers_jaccard": 1.0,
+       "b3_corpus_jaccard": 0.552
+      },
+      "G19": {
+       "items_settled": 6,
+       "readings": 12,
+       "fresh_vs_settled": 0.639,
+       "exact": 0.333,
+       "readers_items": 8,
+       "readers_jaccard": 0.812,
+       "b3_corpus_jaccard": 0.61
+      },
+      "G20": {
+       "items_settled": 26,
+       "readings": 52,
+       "fresh_vs_settled": 0.814,
+       "exact": 0.75,
+       "readers_items": 24,
+       "readers_jaccard": 0.896,
+       "b3_corpus_jaccard": 0.743
+      },
+      "G21": {
+       "items_settled": 30,
+       "readings": 60,
+       "fresh_vs_settled": 0.69,
+       "exact": 0.483,
+       "readers_items": 31,
+       "readers_jaccard": 0.882,
+       "b3_corpus_jaccard": 0.776
+      }
+     },
+     "worst": [
+      "G14",
+      "G07",
+      "G08"
+     ],
+     "ranked": [
+      [
+       "G14",
+       0.31
+      ],
+      [
+       "G07",
+       0.425
+      ],
+      [
+       "G08",
+       0.491
+      ],
+      [
+       "G04",
+       0.561
+      ],
+      [
+       "G21",
+       0.69
+      ],
+      [
+       "G09",
+       0.7
+      ],
+      [
+       "G01",
+       0.721
+      ],
+      [
+       "G20",
+       0.814
+      ],
+      [
+       "G02",
+       0.906
+      ]
+     ]
+    },
+    "A": {
+     "table": {
+      "G01": {
+       "items_settled": 24,
+       "readings": 48,
+       "fresh_vs_settled": 0.724,
+       "exact": 0.521,
+       "readers_items": 24,
+       "readers_jaccard": 0.931,
+       "b3_corpus_jaccard": 0.798
+      },
+      "G02": {
+       "items_settled": 12,
+       "readings": 24,
+       "fresh_vs_settled": 0.875,
+       "exact": 0.792,
+       "readers_items": 21,
+       "readers_jaccard": 0.79,
+       "b3_corpus_jaccard": 0.773
+      },
+      "G03": {
+       "items_settled": 6,
+       "readings": 12,
+       "fresh_vs_settled": 0.722,
+       "exact": 0.417,
+       "readers_items": 7,
+       "readers_jaccard": 0.857,
+       "b3_corpus_jaccard": 0.806
+      },
+      "G04": {
+       "items_settled": 11,
+       "readings": 22,
+       "fresh_vs_settled": 0.443,
+       "exact": 0.318,
+       "readers_items": 11,
+       "readers_jaccard": 0.576,
+       "b3_corpus_jaccard": 0.74
+      },
+      "G05": {
+       "items_settled": 8,
+       "readings": 16,
+       "fresh_vs_settled": 0.521,
+       "exact": 0.25,
+       "readers_items": 10,
+       "readers_jaccard": 0.667,
+       "b3_corpus_jaccard": 0.65
+      },
+      "G07": {
+       "items_settled": 16,
+       "readings": 32,
+       "fresh_vs_settled": 0.32,
+       "exact": 0.094,
+       "readers_items": 15,
+       "readers_jaccard": 0.789,
+       "b3_corpus_jaccard": 0.668
+      },
+      "G08": {
+       "items_settled": 21,
+       "readings": 42,
+       "fresh_vs_settled": 0.579,
+       "exact": 0.405,
+       "readers_items": 23,
+       "readers_jaccard": 0.743,
+       "b3_corpus_jaccard": 0.626
+      },
+      "G09": {
+       "items_settled": 19,
+       "readings": 38,
+       "fresh_vs_settled": 0.548,
+       "exact": 0.184,
+       "readers_items": 21,
+       "readers_jaccard": 0.857,
+       "b3_corpus_jaccard": 0.742
+      },
+      "G10": {
+       "items_settled": 10,
+       "readings": 20,
+       "fresh_vs_settled": 0.458,
+       "exact": 0.15,
+       "readers_items": 11,
+       "readers_jaccard": 0.758,
+       "b3_corpus_jaccard": 0.629
+      },
+      "G11": {
+       "items_settled": 11,
+       "readings": 22,
+       "fresh_vs_settled": 0.758,
+       "exact": 0.591,
+       "readers_items": 14,
+       "readers_jaccard": 0.75,
+       "b3_corpus_jaccard": 0.832
+      },
+      "G12": {
+       "items_settled": 9,
+       "readings": 18,
+       "fresh_vs_settled": 0.315,
+       "exact": 0.056,
+       "readers_items": 9,
+       "readers_jaccard": 0.667,
+       "b3_corpus_jaccard": 0.684
+      },
+      "G13": {
+       "items_settled": 5,
+       "readings": 10,
+       "fresh_vs_settled": 0.416,
+       "exact": 0.0,
+       "readers_items": 11,
+       "readers_jaccard": 0.689,
+       "b3_corpus_jaccard": 0.627
+      },
+      "G14": {
+       "items_settled": 20,
+       "readings": 40,
+       "fresh_vs_settled": 0.385,
+       "exact": 0.1,
+       "readers_items": 15,
+       "readers_jaccard": 0.656,
+       "b3_corpus_jaccard": 0.697
+      },
+      "G15": {
+       "items_settled": 12,
+       "readings": 24,
+       "fresh_vs_settled": 0.663,
+       "exact": 0.5,
+       "readers_items": 17,
+       "readers_jaccard": 0.765,
+       "b3_corpus_jaccard": 0.582
+      },
+      "G16": {
+       "items_settled": 4,
+       "readings": 8,
+       "fresh_vs_settled": 0.354,
+       "exact": 0.0,
+       "readers_items": 5,
+       "readers_jaccard": 0.733,
+       "b3_corpus_jaccard": 0.624
+      },
+      "G17": {
+       "items_settled": 4,
+       "readings": 8,
+       "fresh_vs_settled": 0.521,
+       "exact": 0.125,
+       "readers_items": 7,
+       "readers_jaccard": 0.524,
+       "b3_corpus_jaccard": 0.644
+      },
+      "G18": {
+       "items_settled": 2,
+       "readings": 4,
+       "fresh_vs_settled": 0.75,
+       "exact": 0.5,
+       "readers_items": 3,
+       "readers_jaccard": 0.778,
+       "b3_corpus_jaccard": 0.552
+      },
+      "G19": {
+       "items_settled": 3,
+       "readings": 6,
+       "fresh_vs_settled": 0.278,
+       "exact": 0.0,
+       "readers_items": 1,
+       "readers_jaccard": 0.0,
+       "b3_corpus_jaccard": 0.61
+      },
+      "G20": {
+       "items_settled": 11,
+       "readings": 22,
+       "fresh_vs_settled": 0.602,
+       "exact": 0.455,
+       "readers_items": 16,
+       "readers_jaccard": 0.708,
+       "b3_corpus_jaccard": 0.743
+      },
+      "G21": {
+       "items_settled": 27,
+       "readings": 54,
+       "fresh_vs_settled": 0.563,
+       "exact": 0.333,
+       "readers_items": 30,
+       "readers_jaccard": 0.761,
+       "b3_corpus_jaccard": 0.776
+      }
+     },
+     "worst": [
+      "G07",
+      "G14",
+      "G04"
+     ],
+     "ranked": [
+      [
+       "G07",
+       0.32
+      ],
+      [
+       "G14",
+       0.385
+      ],
+      [
+       "G04",
+       0.443
+      ],
+      [
+       "G10",
+       0.458
+      ],
+      [
+       "G09",
+       0.548
+      ],
+      [
+       "G21",
+       0.563
+      ],
+      [
+       "G08",
+       0.579
+      ],
+      [
+       "G20",
+       0.602
+      ],
+      [
+       "G15",
+       0.663
+      ],
+      [
+       "G01",
+       0.724
+      ],
+      [
+       "G11",
+       0.758
+      ],
+      [
+       "G02",
+       0.875
+      ]
+     ]
+    }
+   },
+   "unanimous_disagreed_items": {
+    "49ers/t06": [
+     [
+      "T3-021",
+      "T3-005",
+      "T3-059"
+     ]
+    ],
+    "AmericanFlaginPlace/t03": [
+     [
+      "T3-065"
+     ],
+     [
+      "T3-065",
+      "T3-103"
+     ]
+    ],
+    "AprilKnights/t01": [
+     [
+      "T3-002",
+      "T3-016",
+      "T3-171"
+     ],
+     [
+      "T3-002",
+      "T3-016"
+     ]
+    ],
+    "AprilKnights/t08": [
+     [
+      "T3-038",
+      "T3-069"
+     ],
+     [
+      "T3-038"
+     ]
+    ],
+    "ChronoTrigger/t04": [
+     [
+      "T3-010"
+     ],
+     [
+      "T3-010"
+     ]
+    ],
+    "FaroeIslands/t01": [
+     [
+      "T3-065",
+      "T3-022"
+     ],
+     [
+      "T3-065",
+      "T3-022"
+     ]
+    ],
+    "Fez/t02": [
+     [
+      "T3-014",
+      "T3-153",
+      "T3-152"
+     ],
+     [
+      "T3-014",
+      "T3-153",
+      "T3-152"
+     ]
+    ],
+    "GabrielDropout/t01": [
+     [
+      "T3-002",
+      "T3-151",
+      "T3-014"
+     ],
+     [
+      "T3-002",
+      "T3-151",
+      "T3-014"
+     ]
+    ],
+    "TheFarLeftSide/t13": [
+     [
+      "T3-005"
+     ],
+     [
+      "T3-005"
+     ]
+    ],
+    "TheHulk/t09": [
+     [
+      "T3-142"
+     ],
+     [
+      "T3-142"
+     ]
+    ],
+    "UPenn/t01": [
+     [
+      "T3-038",
+      "T3-002"
+     ]
+    ],
+    "Villanova/t05": [
+     [
+      "T3-009",
+      "T3-105"
+     ]
+    ],
+    "WPI/t05": [
+     [
+      "T3-005"
+     ],
+     [
+      "T3-005"
+     ]
+    ],
+    "asexuality/t06": [
+     [
+      "T3-164"
+     ]
+    ],
+    "bangtan/t11": [
+     [
+      "T3-011"
+     ],
+     [
+      "T3-011"
+     ]
+    ],
+    "belgium/t08": [
+     [
+      "T3-005",
+      "T3-021",
+      "T3-062"
+     ],
+     [
+      "T3-005",
+      "T3-062",
+      "T3-076"
+     ]
+    ],
+    "calgaryflames/t03": [
+     [
+      "T3-005"
+     ],
+     [
+      "T3-005"
+     ]
+    ],
+    "calgaryflames/t15": [
+     [
+      "T3-028"
+     ],
+     [
+      "T3-028"
+     ]
+    ],
+    "canucks/t12": [
+     [
+      "T3-017"
+     ],
+     [
+      "T3-017"
+     ]
+    ],
+    "canucks/t16": [
+     [
+      "T3-150",
+      "T3-006",
+      "T3-084"
+     ],
+     [
+      "T3-150",
+      "T3-006",
+      "T3-084"
+     ]
+    ],
+    "catalunya/t07": [
+     [
+      "T3-009"
+     ],
+     [
+      "T3-009"
+     ]
+    ],
+    "cfb/t01": [
+     [
+      "T3-033"
+     ],
+     [
+      "T3-033"
+     ]
+    ],
+    "chicubs/t04": [
+     [
+      "T3-021"
+     ],
+     [
+      "T3-021"
+     ]
+    ],
+    "clashroyale/t08": [
+     [
+      "T3-038"
+     ],
+     [
+      "T3-038"
+     ]
+    ],
+    "crystalclear/t01": [
+     [
+      "T3-004",
+      "T3-020",
+      "T3-033"
+     ],
+     [
+      "T3-020",
+      "T3-004"
+     ]
+    ],
+    "daftpunk/t03": [
+     [
+      "T3-010"
+     ],
+     [
+      "T3-010"
+     ]
+    ],
+    "dallasstars/t09": [
+     [
+      "T3-002"
+     ],
+     [
+      "T3-002"
+     ]
+    ],
+    "danganronpa/t01": [
+     [
+      "T3-031"
+     ],
+     [
+      "T3-017"
+     ]
+    ],
+    "de/t05": [
+     [
+      "T3-149"
+     ],
+     [
+      "T3-149"
+     ]
+    ],
+    "drugs/t08": [
+     [
+      "T3-017"
+     ],
+     [
+      "T3-017"
+     ]
+    ],
+    "edmontonoilers/t03": [
+     [
+      "T3-002",
+      "T3-005",
+      "T3-016"
+     ]
+    ],
+    "falcons/t01": [
+     [
+      "T3-006",
+      "T3-068"
+     ],
+     [
+      "T3-006",
+      "T3-068"
+     ]
+    ],
+    "floridagators/t09": [
+     [
+      "T3-014",
+      "T3-152",
+      "T3-056"
+     ],
+     [
+      "T3-014",
+      "T3-152",
+      "T3-056"
+     ]
+    ],
+    "floridagators/t10": [
+     [
+      "T3-009",
+      "T3-043",
+      "T3-156"
+     ],
+     [
+      "T3-043",
+      "T3-009",
+      "T3-156"
+     ]
+    ],
+    "furry_irl/t23": [
+     [
+      "T3-054"
+     ],
+     [
+      "T3-054"
+     ]
+    ],
+    "gorillaz/t10": [
+     [
+      "T3-004",
+      "T3-152",
+      "T3-074"
+     ]
+    ],
+    "homelab/t08": [
+     [
+      "T3-073",
+      "T3-068",
+      "T3-029"
+     ],
+     [
+      "T3-073",
+      "T3-068",
+      "T3-029"
+     ]
+    ],
+    "indonesia/t03": [
+     [
+      "T3-005"
+     ],
+     [
+      "T3-005"
+     ]
+    ],
+    "japan/t11": [
+     [
+      "T3-047",
+      "T3-011"
+     ]
+    ],
+    "kingdomhearts/t17": [
+     [
+      "T3-038"
+     ],
+     [
+      "T3-038"
+     ]
+    ],
+    "kuwait/t01": [
+     [
+      "T3-065"
+     ],
+     [
+      "T3-065"
+     ]
+    ],
+    "landry/t05": [
+     [
+      "T3-017"
+     ],
+     [
+      "T3-017"
+     ]
+    ],
+    "leafs/t08": [
+     [
+      "T3-001",
+      "T3-032"
+     ]
+    ],
+    "lego/t13": [
+     [
+      "T3-021"
+     ]
+    ],
+    "loltyler1/t03": [
+     [
+      "T3-006"
+     ],
+     [
+      "T3-006"
+     ]
+    ],
+    "marvel/t04": [
+     [
+      "T3-020",
+      "T3-002",
+      "T3-136"
+     ],
+     [
+      "T3-020"
+     ]
+    ],
+    "mcgill/t02": [
+     [
+      "T3-153",
+      "T3-067"
+     ],
+     [
+      "T3-153",
+      "T3-067",
+      "T3-070"
+     ]
+    ],
+    "metroid/t16": [
+     [
+      "T3-017"
+     ],
+     [
+      "T3-017"
+     ]
+    ],
+    "mindcrack/t03": [
+     [
+      "T3-002",
+      "T3-152",
+      "T3-062"
+     ]
+    ],
+    "miraculousladybug/t02": [
+     [
+      "T3-045"
+     ],
+     [
+      "T3-045"
+     ]
+    ],
+    "monstercat/t02": [
+     [
+      "T3-001"
+     ],
+     [
+      "T3-001"
+     ]
+    ],
+    "monsterhunter/t10": [
+     [
+      "T3-015",
+      "T3-184"
+     ],
+     [
+      "T3-015",
+      "T3-184"
+     ]
+    ],
+    "nVade/t07": [
+     [
+      "T3-117",
+      "T3-009"
+     ]
+    ],
+    "ockytop/t02": [
+     [
+      "T3-068",
+      "T3-006",
+      "T3-076"
+     ],
+     [
+      "T3-068",
+      "T3-076"
+     ]
+    ],
+    "onepunchman/t02": [
+     [
+      "T3-075"
+     ],
+     [
+      "T3-075"
+     ]
+    ],
+    "placesnek/t02": [
+     [
+      "T3-010",
+      "T3-024",
+      "T3-039"
+     ],
+     [
+      "T3-010",
+      "T3-024",
+      "T3-039"
+     ]
+    ],
+    "placestart/t01": [
+     [
+      "T3-038",
+      "T3-004",
+      "T3-021"
+     ],
+     [
+      "T3-038"
+     ]
+    ],
+    "puzzleanddragons/t04": [
+     [
+      "T3-150",
+      "T3-153"
+     ],
+     [
+      "T3-150",
+      "T3-153"
+     ]
+    ],
+    "qotsa/t04": [
+     [
+      "T3-038",
+      "T3-070",
+      "T3-033"
+     ],
+     [
+      "T3-038",
+      "T3-033",
+      "T3-070"
+     ]
+    ],
+    "reddevils/t18": [
+     [
+      "T3-050"
+     ],
+     [
+      "T3-050"
+     ]
+    ],
+    "rush/t08": [
+     [
+      "T3-001"
+     ],
+     [
+      "T3-001"
+     ]
+    ],
+    "rust/t03": [
+     [
+      "T3-031",
+      "T3-064"
+     ],
+     [
+      "T3-017",
+      "T3-031",
+      "T3-064"
+     ]
+    ],
+    "slovenia/t02": [
+     [
+      "T3-065"
+     ],
+     [
+      "T3-065",
+      "T3-113",
+      "T3-068"
+     ]
+    ],
+    "southafrica/t13": [
+     [
+      "T3-105",
+      "T3-009",
+      "T3-117"
+     ],
+     [
+      "T3-105",
+      "T3-009",
+      "T3-117"
+     ]
+    ],
+    "tampabaylightning/t13": [
+     [
+      "T3-041",
+      "T3-049"
+     ],
+     [
+      "T3-041",
+      "T3-049",
+      "T3-004"
+     ]
+    ],
+    "twitchplayspokemon/t03": [
+     [
+      "T3-070"
+     ],
+     [
+      "T3-070"
+     ]
+    ],
+    "uofmn/t09": [
+     [
+      "T3-028",
+      "T3-014"
+     ],
+     [
+      "T3-028",
+      "T3-014"
+     ]
+    ],
+    "vim/t02": [
+     [
+      "T3-002",
+      "T3-021",
+      "T3-028"
+     ],
+     [
+      "T3-002",
+      "T3-170",
+      "T3-028"
+     ]
+    ],
+    "wales/t02": [
+     [
+      "T3-065"
+     ],
+     [
+      "T3-065",
+      "T3-113",
+      "T3-169"
+     ]
+    ],
+    "warframe/t11": [
+     [
+      "T3-094"
+     ],
+     [
+      "T3-162"
+     ]
+    ],
+    "witcher/t05": [
+     [
+      "T3-010"
+     ],
+     [
+      "T3-010"
+     ]
+    ],
+    "witcher/t08": [
+     [
+      "T3-009"
+     ],
+     [
+      "T3-009"
+     ]
+    ],
+    "xcom/t12": [
+     [
+      "T3-075"
+     ],
+     [
+      "T3-075"
+     ]
+    ],
+    "yuyuyu/t04": [
+     [
+      "T3-151",
+      "T3-194"
+     ],
+     [
+      "T3-151",
+      "T3-194"
+     ]
+    ]
+   }
+  }
+ },
+ "R": {
+  "deepseek-v4.1-flash": {
+   "readings": 370,
+   "items": 185,
+   "readers_agreement": {
+    "items": 185,
+    "jaccard": 0.623,
+    "exact": 0.616,
+    "primary": 0.627,
+    "alpha": 0.606
+   },
+   "primaries_meet": 116,
+   "among_earlier": {
+    "all": 265,
+    "none": 104,
+    "some": 1
+   },
+   "b3_readers_same_items": {
+    "items": 185,
+    "jaccard": 0.543,
+    "exact": 0.541,
+    "primary": 0.546,
+    "alpha": 0.522
+   },
+   "class 3": {
+    "items": 71,
+    "jaccard": 0.617,
+    "exact": 0.606,
+    "primary": 0.62,
+    "alpha": 0.597,
+    "primaries_meet": 44,
+    "among_earlier": {
+     "all": 107,
+     "none": 34,
+     "some": 1
+    }
+   },
+   "class 4": {
+    "items": 78,
+    "jaccard": 0.596,
+    "exact": 0.59,
+    "primary": 0.603,
+    "alpha": 0.576,
+    "primaries_meet": 47,
+    "among_earlier": {
+     "all": 119,
+     "none": 37
+    }
+   },
+   "class 5": {
+    "items": 36,
+    "jaccard": 0.694,
+    "exact": 0.694,
+    "primary": 0.694,
+    "alpha": 0.658,
+    "primaries_meet": 25,
+    "among_earlier": {
+     "all": 39,
+     "none": 33
+    }
+   },
+   "read_twice_18": {
+    "items": 18,
+    "R_context": {
+     "items": 18,
+     "jaccard": 0.796,
+     "exact": 0.778,
+     "primary": 0.778,
+     "alpha": 0.774
+    },
+    "U_or_A_context": {
+     "items": 18,
+     "jaccard": 0.741,
+     "exact": 0.722,
+     "primary": 0.722,
+     "alpha": 0.719
+    },
+    "cross_context_jaccard": 0.787,
+    "cross_pairs": 72
+   }
+  },
+  "openai-gpt-6-astra": {
+   "readings": 370,
+   "items": 185,
+   "readers_agreement": {
+    "items": 185,
+    "jaccard": 0.862,
+    "exact": 0.849,
+    "primary": 0.859,
+    "alpha": 0.851
+   },
+   "primaries_meet": 159,
+   "among_earlier": {
+    "all": 224,
+    "none": 134,
+    "some": 12
+   },
+   "b3_readers_same_items": {
+    "items": 185,
+    "jaccard": 0.543,
+    "exact": 0.541,
+    "primary": 0.546,
+    "alpha": 0.522
+   },
+   "class 3": {
+    "items": 71,
+    "jaccard": 0.866,
+    "exact": 0.859,
+    "primary": 0.845,
+    "alpha": 0.857,
+    "primaries_meet": 60,
+    "among_earlier": {
+     "all": 88,
+     "none": 49,
+     "some": 5
+    }
+   },
+   "class 4": {
+    "items": 78,
+    "jaccard": 0.846,
+    "exact": 0.821,
+    "primary": 0.859,
+    "alpha": 0.831,
+    "primaries_meet": 67,
+    "among_earlier": {
+     "all": 96,
+     "none": 53,
+     "some": 7
+    }
+   },
+   "class 5": {
+    "items": 36,
+    "jaccard": 0.889,
+    "exact": 0.889,
+    "primary": 0.889,
+    "alpha": 0.863,
+    "primaries_meet": 32,
+    "among_earlier": {
+     "all": 40,
+     "none": 32
+    }
+   },
+   "read_twice_18": {
+    "items": 18,
+    "R_context": {
+     "items": 18,
+     "jaccard": 0.861,
+     "exact": 0.833,
+     "primary": 0.833,
+     "alpha": 0.838
+    },
+    "U_or_A_context": {
+     "items": 18,
+     "jaccard": 0.889,
+     "exact": 0.889,
+     "primary": 0.722,
+     "alpha": 0.875
+    },
+    "cross_context_jaccard": 0.653,
+    "cross_pairs": 72
+   }
+  }
+ },
+ "inputs": {
+  "assign_final": "d3506a8871eeb106d934824e342acb374931501c2b4dd377cc277094624bcd6b"
+ },
+ "pass2_changed": {
+  "deepseek-v4.1-flash": {
+   "lines": 1370,
+   "changed": 1
+  },
+  "openai-gpt-6-astra": {
+   "lines": 1370,
+   "changed": 17
+  }
+ },
+ "unanimous_either_arm": [
+  "49ers/t06",
+  "AmericanFlaginPlace/t03",
+  "AprilKnights/t01",
+  "AprilKnights/t08",
+  "ChronoTrigger/t04",
+  "FaroeIslands/t01",
+  "Fez/t02",
+  "GabrielDropout/t01",
+  "TheFarLeftSide/t13",
+  "TheHulk/t09",
+  "UPenn/t01",
+  "Villanova/t05",
+  "WPI/t05",
+  "asexuality/t06",
+  "bangtan/t11",
+  "belgium/t08",
+  "calgaryflames/t03",
+  "calgaryflames/t15",
+  "canucks/t12",
+  "canucks/t16",
+  "catalunya/t07",
+  "cfb/t01",
+  "chicubs/t04",
+  "clashroyale/t08",
+  "crystalclear/t01",
+  "daftpunk/t03",
+  "dallasstars/t09",
+  "danganronpa/t01",
+  "de/t01",
+  "de/t05",
+  "drugs/t08",
+  "edmontonoilers/t03",
+  "falcons/t01",
+  "floridagators/t09",
+  "floridagators/t10",
+  "furry_irl/t23",
+  "gorillaz/t10",
+  "homelab/t08",
+  "indonesia/t03",
+  "japan/t11",
+  "kingdomhearts/t17",
+  "kuwait/t01",
+  "landry/t05",
+  "leafs/t08",
+  "lego/t13",
+  "loltyler1/t03",
+  "marvel/t04",
+  "mcgill/t02",
+  "metroid/t16",
+  "mindcrack/t03",
+  "miraculousladybug/t02",
+  "monstercat/t02",
+  "monsterhunter/t10",
+  "nVade/t07",
+  "ockytop/t02",
+  "onepunchman/t02",
+  "placesnek/t02",
+  "placestart/t01",
+  "puzzleanddragons/t04",
+  "qotsa/t04",
+  "reddevils/t18",
+  "rush/t08",
+  "rust/t03",
+  "samuraijack/t13",
+  "scotland/t07",
+  "slovenia/t02",
+  "southafrica/t13",
+  "starcitizen/t06",
+  "tampabaylightning/t13",
+  "twitchplayspokemon/t03",
+  "uofmn/t09",
+  "vim/t02",
+  "wales/t02",
+  "wallstreetbets/t08",
+  "warframe/t11",
+  "witcher/t05",
+  "witcher/t08",
+  "xcom/t12",
+  "yuyuyu/t04"
+ ]
+}
