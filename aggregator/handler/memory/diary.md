@@ -403,3 +403,7 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 2026-10-13T04:46Z: J ruled option 2: re-rule the items holding themes no placement held, at the start of B4a-05. Opening text saved as analysis/2026-10-13-msg-B4a-05-open.txt.
 2026-10-13T04:48Z: J 06:47: placements = readers + analyst B1; choose among them, add nothing; union only with a named concept per theme. Folded into B4a-05 opening text (v1 kept).
 2026-10-13T04:49Z: J 06:47 'Send': rules (1) and (2) sent to running B4a-04 for the rest of packet 4.
+2026-10-13T05:22Z: B4a-04 closed 05:17Z (0 errors, 1 expected warning; 502 turns, 1,004 in, 5,144,718 cache-write, 226,686,217 cache-read, 3,072,774 out; 461 ruled, 10 unresolved; 1,899 of 3,288 ruled, 1,389 outstanding). After J's rules (items 401 to 461, all G11): 0 pure adds, picks one placement 93%, 47 of 47 multi-theme rulings have disjoint own concepts. Pushed (checkpoint aa209c00). B4a-05 started with the saved opening text (re-rule 378 items, then packet 5, 409 items, G12 to G14). Analyst raised a point for J in its close (bakchodi t09 also_present T3-006); relayed.
+2026-10-13T07:10Z: J 09:09 extended rule (1) to also_present (bakchodi t09 T3-006 was analyst-only). Sent to B4a-05.
+2026-10-13T07:20Z: QB4-002 from B4a-05 (07:13Z): does a reader's own also_present count as named? Meanwhile analyst reads named = placed. Relayed verbatim to J.
+2026-10-13T07:21Z: QB4-002 answered (J: yes, reader also_present counts as named; restore interim removals).

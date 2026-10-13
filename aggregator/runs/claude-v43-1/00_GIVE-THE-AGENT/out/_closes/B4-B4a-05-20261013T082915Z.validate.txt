@@ -1,0 +1,10 @@
+stage B4:
+  leg: adjudication
+  settled items 7844 = assignment_items_expected
+  rulings 2308: {'genuine-joint': 1117, 'scheme-ambiguous': 350, 'reader-error': 114, 'author-error': 334, 'author-disagrees': 208, 'item-is-a-bag': 185}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 2308, outstanding 980
+  coder conflicts 48
+
+warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was read as an adjudication leg because neither RETURN-B4.md, a stage-B4 manifest entry nor _packets-B4/ exists
+
+0 errors (0 distinct shapes), 1 warnings

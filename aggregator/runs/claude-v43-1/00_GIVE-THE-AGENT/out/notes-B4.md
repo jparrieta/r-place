@@ -260,3 +260,93 @@ warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was 
 
 0 errors (0 distinct shapes), 1 warnings
 ```
+
+## The re-ruling of packets 1 to 4, at B4a-05 (2026-10-13)
+
+The PI's message for B4a-05 carried J's rulings (06:45 and 06:47 Berlin): (1) the placements are the readers' and mine (B1), and a ruling chooses among them and adds no theme beyond them; (2) a ruling takes the union only when it names, for each theme it keeps, the separate concept that carries it, otherwise it chooses; (3) re-rule only the items in packets 1 to 4 whose ruling holds a theme no placement held, under (1) and (2), keep the superseded ledger, and do (3) before packet 5. QB4-001's answer was read with `mem.py asks` before the first write.
+
+What was done:
+- **The work list.** `out/_analysis/b4_rerule_list.py` (new, read-only) lists the rulings that hold a theme no placement held, with both readings blinded as A and B, my B1 grouping, the old ruling and each removed theme's concepts. Packet 1 30, packet 2 58, packet 3 157, packet 4 133: 378. Every other ruled line already named a concept of its own per placed theme, so rule (2) reached no other line.
+- **The decisions.** One line per item in `out/_adjudication-B4/rerule-B4a-05/decisions-NN.jsonl`; `out/_analysis/b4_rerule_draft.py` (new) builds a draft from them and refuses a ruling theme no placement holds; `b4_rule_append.py --replace` wrote each draft after its dry run in a turn of its own. Thirteen parts: packet 1 one, packet 2 one, packet 3 four, packet 4 seven. Each kept the old ledger as `disagreements.superseded-<time>.jsonl`. `b4_own_support_check.py` found no theme without a concept of its own after any part. `b4_rerule_list.py` returns nothing for all four packets.
+- **The method** is in the diary entry that opened the leg and in `adjudication_report.md`: a removed theme's concepts count toward a placed theme whose `must_show` takes them; rule 0 then runs inside the placements, so a placed theme the old limit of three cut may enter; unresolved where no placement's test takes the material.
+
+What it changed:
+- **Taxonomy over the four packets:** genuine-joint 825 (was 802), scheme-ambiguous 336 (375), author-error 292 (275), item-is-a-bag 186 (193), author-disagrees 162 (158), reader-error 98 (96). Unresolved 82 (79): weezer t13, nbaspurs t17 and rainbowgrid t06 were added, where no placement's test takes the material.
+- **named_neither** fell from 741 to 484. Every one now keeps a theme from my B1 grouping; none holds a theme no placement held.
+- **Agreement after,** each reader against the ruling: 0.627 mean Jaccard and 0.698 primary match over the four packets (was 0.565 and 0.649). Packet 3 rose from 0.473 to 0.581. Not a reliability figure.
+- **Readings replaced.** The homeland-flag reading and the call-to-defend reading of packet 4, packet 2's T3-002|T3-005 paragraph and packet 3's T3-033|T3-041 paragraph now send a concept to their theme only where a placement holds it. Where none does, calls to defend count toward T3-005, the flag's repair toward T3-021, its look and spot toward the readers' T3-004 or T3-020, and a further piece toward the readers' T3-033, T3-038 or T3-004.
+- **Four earlier corrections undone:** catalonia t07, sadboys t03, bisexual t04 and kpop t05 had been corrected to a theme no placement held.
+- **Bags.** Several bags placed a theme no placement held; they were re-placed among the placements, and some stopped being bags (adventuretime t04, suomi t07, archlinux t04, israel t02, loliconsunite t02, placeDE t03).
+
+What I doubt:
+- **Rule 0 inside the placements keeps more of my B1 than a choice would.** A one- or two-concept B1 theme that leads its level is kept as a third theme. 89 of packet 4's 137 named_neither rulings place three themes. Rule (2) permits that union, since each kept theme has its own concept; it does not require it. I applied the rule declared at item 401 so that all four packets are ruled one way. If J reads "otherwise it chooses" as asking for fewer unions, the rule to change is the one-concept keep.
+- **Two labels do not match the rulings.** 12 author-error rulings from packet 4's items 401 to 461 keep a B1 theme (by §7 author-disagrees), and 2 packet 2 author-disagrees rulings take the readers' list. Rule (3) does not reach them, so they stand and the report gives both counts.
+- **Where both must_show lines take a concept,** I followed the reading that placed it, or the more specific test (a swastika alarm to T3-146, '24-7 supervision' to T3-141 by T3-021's `must_not_show`). These choices decide whether a one-concept theme survives.
+
+Slips: two Edit calls on `adjudication_report.md` ran in one turn; both applied, and the later edits went one at a time.
+
+National, political, hate and slur content named in the re-ruled whys as the words give it, for example: "pokatoličenim Srbima" (Catholicised Serbs, a slur for Croats) and the tricolour that vandals tried to make "Bulgarian or Arab" in serbia t08; "porkies" for Pakistanis and "Randia" for India in bakchodi t06; the swastika on the Pakistani flag and "To Bakchodi fuckers" in pakistan t05; the black Nazi symbol in the menorah in israel t02; "TheDonald users and KotakuInAction" miscolouring the trans flag in traaaaaaannnnnnnnnns t02; "franchutes" for the French in spain t09; the Moors and the Empire in PORTUGALCARALHO t02.
+
+## J's ruling on also_present, and the correction, at B4a-05 (2026-10-13)
+
+The PI's message at 07:09 UTC carried J's ruling of 09:09 Berlin on bakchodi t09: rule (1) extends to `also_present`, which lists only themes that a reader or my B1 named; apply it to the rulings written from now on and to the ledger's existing entries, keeping the superseded ledger. I asked J whether a theme a reader listed under its own `also_present` counts as named (QB4-002). J's answer (09:20 Berlin): yes; `also_present` may list themes a reader placed, a reader listed under its own `also_present`, or my B1 named, nothing else; restore any entries the interim reading removed that this admits.
+
+What was done:
+- **The scan.** `out/_analysis/b4_ap_scan.py` (new, read-only; `--reading placed|named`, `--ledger`) found 128 lines in packets 1 to 4 (5, 32, 46, 45) listing 273 themes outside the named set. Dropped most: T3-002 29, T3-004 17, T3-041 16, T3-170 14, T3-073 14, T3-065 9, T3-070 8. 84 lines keep a theme only a reader's own `also_present` named, which QB4-002 admits.
+- **The correction.** Four `--replace` parts from `out/_adjudication-B4/rerule-ap-B4a-05/draft-apNN-named.jsonl`; old ledgers `disagreements.superseded-20261013T072151Z.jsonl`, `-072154Z`, `-072158Z`, `-072202Z`. `b4_rerule_draft.py` now takes several decision files. `out/_analysis/b4_ap_emptied_show.py` (new, read-only) printed the four bags left with no theme at the floor; each was re-ruled by hand: archlinux t01 (genuine-joint), ireland t04 and starvstheforcesofevil t02 (author-disagrees), de t02 (author-error).
+- **The interim reading** (placed themes only) ran as a dry run and removed nothing from the ledger, so nothing had to be restored.
+- **From packet 5 on,** `also_present` lists only placed themes, and a bag needs four placed themes with three concepts each.
+
+## Packet 5, ruled at B4a-05 (2026-10-13)
+
+Before the first item:
+- **The conflicts pass** read packet 5's notes alone and added CC-037 to CC-048 to `coder_conflicts.jsonl` (48 lines now).
+- **Five boundaries were ruled once** in `boundaries.md` ("Packet 5"): T3-010|T3-024, T3-010|T3-149, T3-006|T3-061, T3-010|T3-011 and T3-010|T3-151, each applied under J's rulings.
+
+All 409 items are ruled, in 17 blind chunks (`out/_adjudication-B4/packet-05/rulings-NN.jsonl`). `packet-05/summary.md` holds the figures, and `adjudication_report.md` holds them with packets 1 to 4 as the interim report. In brief:
+- **Taxonomy:** genuine-joint 291, author-disagrees 44, author-error 41, reader-error 16, scheme-ambiguous 14, item-is-a-bag 3.
+- **Counts:** unresolved 3 (linux t03, survivor t26, PurplePixels t13); named_neither 131 (32.0%), every one from my B1 alone, none beyond the placements.
+- **Fields that failed:** must_show 2, must_not_show 8, decide_when_both 0, discriminators 4. The one sentence that failed more than once is T3-006's discriminator against T3-061 (4).
+- **Agreement:** before 0.467 mean Jaccard and 0.623 primary match; after 0.612 and 0.677. Not a reliability figure.
+- **Class 4:** the readers' list taken in 42, a B1 theme kept in 44.
+- **Boundary tags:** T3-010|T3-149 34, T3-010|T3-151 31, T3-010|T3-024 26, T3-006|T3-061 18, T3-010|T3-011 14. Chunks 6 and 7 and item 409 were tagged after the packet (nine `--replace` lines; old ledger `disagreements.superseded-20261013T081847Z.jsonl`).
+- **Mapping:** `assign_final.jsonl` rewritten (class 1 2,566, class 2 1,990, ruled 2,308, pending 980). The summaries of packets 1 to 4 were rerun after the `also_present` correction.
+
+Readings applied in packet 5, to carry into the later packets:
+- **Fights and deals.** T3-010's "with no fight to end" fails for a concept naming a fight, a threat, peace or a truce, even where no placement holds T3-149. A shift agreed with no request in the words is T3-010; a move because a neighbour asked is T3-039 where placed.
+- **Help.** A request for help is T3-084 by T3-011's `must_not_show`. Help counts toward T3-151 only when the return is named. T3-150's `decide_when_both` keeps help traded inside an alliance when defence or a fight is the frame. A member whose effort moves to another room's build is T3-137.
+- **Space.** A request for space to the room that holds it is T3-035; a host ruling on many requests T3-162; a single grant T3-012; a warning that a faction covers unapproved art T3-094.
+- **Neighbours.** T3-079 needs national flags; T3-149 rooms already in contact; T3-078 kin felt in the words; T3-099 the bigger room's protection and its size in the words; T3-071 adoption into a neighbour's work; T3-170 friendly work taken for vandalism.
+- **Rule 0 at the top.** Where the top of the order ties on concepts and placements, all the tied themes are placed (Clannad t05, Fez t06, Dustforce t08, aceattorney t10, androidgaming t06). Themes of three concepts or more tied on placements at the limit of three are left out together.
+
+What I doubt:
+- **My B1 kept against both readers.** Rule 0 inside the placements keeps a one- or two-concept B1 theme alone at its level. In class 4 that turned the ruling toward my B1 in 44 of 86 items, 7 of 7 in chunk 7 and 8 of 9 in chunk 14. 89 of the 131 named_neither rulings place three themes. If J reads "otherwise it chooses" as asking for fewer unions, the rule to change is the one-concept keep.
+- **Requests for room inside a host's work.** The T3-010|T3-024 paragraph counts "a request for room" toward T3-010. In theitalyplace t11 I left the requests for room inside Italy's flag out as T3-035's act, which no placement held, and counted only requests between neighbouring works toward T3-010. Counted the other way, T3-010 leads that item; the ruling's set is the same.
+- **Where both must_show lines take one concept,** the choice can decide the item: england t05 ('No' with a flood complaint), falcons t15 ('Nope ... or you get nothing'). I counted a reply that answers a request toward T3-115 both times.
+
+Slips:
+- After the first compaction of the leg, `rulings-06.jsonl` was written before the head was re-read and the reconciliation line logged. I then logged the line and re-checked the draft (item 138).
+- Three Edit calls on `b4_ap_scan.py` ran in one turn. All applied; later edits went one at a time.
+- One diary line said I had asked J before `mem.py ask` ran; the ask followed at once.
+- One diary line gave the dropped-theme counts from the placed reading; a later line corrected them from the superseded ledger.
+- The chunk 14 dry run refused c0185 on hawks t06 (a concept of another theme); it was removed before the write.
+- After the last compaction, chunk 16 was read before the head; the reconciliation line was logged before any write.
+
+National, political, hate and slur content named in packet 5's whys as the words give it, for example: 'BURN THE DISGUSTING ANCRAP RAG!', the hammer and sickle and 'Yellow Hordes of Ancapistan' (TheFarLeftSide t05); a white-supremacist parody about purging 'the inferior colored people' (ssbpm t17); 'remove the Russian scourge' and 'generalgovernment' (czech t07); 'utrota dansken vid 16.00' (sweden t03); 'Manifest Destiny' (AmericanFlaginPlace t06); 'Pakistani's who want to vandalize' and 'homosuck' (india t04); 'la escoria de Chavez' (uruguay t04); 'argentinos nojentos' (portugal t11); a joke about Norwegian sailors and rapes (europe t10); 'BASH THE FASH' and the NKVD beside Rosa Luxemburg (fullcommunism t05); 'frog shagging bastards of the north' (malta t03); a red swastika planned on a logo (liquicity t07); r/Eagles' 'Nazi Flag', 'kill this Nazi scum' and 'anti semetic bullshit' (falcons t15); 'Purify the core' (theblackvoid t02).
+
+The next packet is packet 6: 500 items, G15 to G19 and part of G20. Its conflicts pass runs first.
+
+`validate.py B4`, after packet 5:
+
+```
+stage B4:
+  leg: adjudication
+  settled items 7844 = assignment_items_expected
+  rulings 2308: {'genuine-joint': 1117, 'scheme-ambiguous': 350, 'reader-error': 114, 'author-error': 334, 'author-disagrees': 208, 'item-is-a-bag': 185}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 2308, outstanding 980
+  coder conflicts 48
+
+warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was read as an adjudication leg because neither RETURN-B4.md, a stage-B4 manifest entry nor _packets-B4/ exists
+
+0 errors (0 distinct shapes), 1 warnings
+```

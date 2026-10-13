@@ -9,17 +9,17 @@ The next table counts the packet's rulings by taxonomy value, overall and by J's
 | taxonomy | all | class 3 | class 4 | class 5 |
 |---|---|---|---|---|
 | scheme-ambiguous | 62 | 62 | 0 | 0 |
-| item-is-a-bag | 44 | 36 | 8 | 0 |
+| item-is-a-bag | 43 | 35 | 8 | 0 |
 | reader-error | 3 | 3 | 0 | 0 |
-| author-error | 58 | 2 | 53 | 3 |
-| genuine-joint | 215 | 215 | 0 | 0 |
-| author-disagrees | 65 | 0 | 63 | 2 |
+| author-error | 61 | 2 | 56 | 3 |
+| genuine-joint | 216 | 216 | 0 | 0 |
+| author-disagrees | 62 | 0 | 60 | 2 |
 | total | 447 | 318 | 124 | 5 |
 
 - unresolved: 10 (2.2%)
-- named_neither: 155 (34.7%)
-- author-error: 58; author-disagrees: 65
-- rulings corrected in place after writing: 2 (bindingofisaac t02, clashroyale t02)
+- named_neither: 117 (26.2%)
+- author-error: 61; author-disagrees: 62
+- rulings corrected in place after writing: 87 (2007scape t09, AmericanFlaginPlace t02, archlinux t01, bangtan t04, europe t08, heroesofthestorm t03, metalgearsolid t08, pakistan t02, pathofexile t08, physical_removal t03, placehearts t06, stevenuniverse t07, sweden t04, theblackvoid t03, theitalyplace t07, tf2 t06, bulgaria t07, australia t12, osugame t04, dwarffortress t04, theblackvoid t04, auburn t01, bindingofisaac t02, cfb t03, clashroyale t02, criticalrole t03, dankmemes t15, donaldglover t05, fivenightsatfreddys t04, minecraft t03, monalisaclan t02, pcmasterrace t05, philippines t03, pokemon t04, raocow t01, rocketbeans t02, starcraft t06, TheB1G t01, transformers t02, ubc t01, undertale t02, finland t03, twitchplayspokemon t04, prequelmemes t02, hellointernet t01, frankocean t04, survivor t12, gameattack t03, taiwan t02, TeamYellowPlace t01, placehearts t08, linux t09, miamidolphins t03, warriors t05, liquicity t05, scp t04, patriots t02, metalgearsolid t06, trees t08, furry_irl t01, purdue t02, Temple t04, stlouisblues t01, dragonquest t01, faeria t02, france t05, naruto t01, philippines t04, placeportalpattern t02, seventeen t01, stardustcrusaders t04, xenoblade_chronicles t02, DevonUK t02, ChronoTrigger t02, mylittlepony t04, theblackvoid t05, ainbowroad t02, cirkeltrek t05, TheFarLeftSide t01, uofm t03, pakistan t10, Peru t03, sadboys t03, wow t22, greenlattice t13, samuraijack t15, warriors t03)
 
 ## Fields by ambiguity
 
@@ -88,7 +88,7 @@ Before is the two readers against each other over the packet's 447 items. After 
 | | mean Jaccard | primary match |
 |---|---|---|
 | before (reader against reader) | 0.537 | 0.678 |
-| after (each reader against the ruling) | 0.603 | 0.706 |
+| after (each reader against the ruling) | 0.638 | 0.721 |
 
 ## Stage B2's predicted pairs
 
