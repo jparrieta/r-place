@@ -484,3 +484,7 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 
 ## 2026-10-13 18:18Z C1 started
 - J 20:16 "go ahead": DECISIONS row (class 2 readers' list stands, B1 extras flagged; re-reads of 5 + 30; no class 2 fleet now; C1 starts). Said msg-C1a-01-open.txt to B4.B4c; ran C1a-01, job 63da0e09f66d. The interview ran in a fork, so sent a recap of the analyst's own interview answers to the running leg (msg-C1a-01-interview-recap.txt), delivered 18:17:55Z.
+
+## 2026-10-13 18:45Z C1a-01 closed; C1a-02 started
+- C1a-01 closed 18:35Z, checkpoint 5e0000d6edee66d9, 0 errors 0 warnings. Class 2 applied: 1,990 lines to readers' list, 2,814 B1 themes flagged. Re-reads of 30: 10 placed (chicago t01 T3-002, armok t04, dmt t03, smashbros t01, + 6), 15 unresolved, 5 held for a C1 rule (visitor rule: germany t08/t19, monalisaclan t12, suomi t26; canucks t25 for T3-095 gate). Empties 185 -> 175. Stopping criterion declared. Analyst flags the lone-B1 three-concept floor for review (azerbaijan t02, livecounting t06, monstercat t14).
+- Said msg-C1a-02-open.txt; ran C1a-02.
