@@ -473,3 +473,14 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 ## 2026-10-13 17:12Z B4c started
 - OpenAI reissue: first oa3 process died 16:56Z with no reply (kept in S05-27/interrupted-oa3-20261013T1650Z); retry oa3 valid (96,043 in incl 3,968 cached, 6,901 out). Copied into run (log.jsonl, DONE, SHA256SUMS kept as *.pre-reissue); fleet.py validate oa3 valid; 48 packets x 2 valid .jsonl in arm 2.
 - token-usage.md: B4 reader section added. Said msg-B4c-open.txt to B4.B4b-p4; ran B4c, job 06dd859e5468.
+
+## 2026-10-13 17:56Z B4c closed; stage B done
+- B4c closed 17:48Z at an interview point, checkpoint 465aa59161c2c60b, 0 errors, 11 warnings (packet scheme words; arm 1 has 999 readings, one refused at assembly: S05-23 r8 position 3 wrong room name, explained in notes-B4.md).
+- Headline (transmission-after-revision-B4.md): U fresh vs settled arm1 0.657 / arm2 0.622; A 0.544 / 0.554; readers' agreement U 0.781 / 0.872, A 0.664 / 0.804; B3 same items U 0.781, A 0.514; stability floor 0.807. R readers 0.623 / 0.862 (B3 0.543). Class 1 in U 0.930 / 0.802; class 2 exact 0.104 / 0.142. Arm 2 replications not independent (0.86 to 0.89 within packet, 0.65 across). 79 unanimous items placed elsewhere, 25 rest on a placement a field contradicts.
+- Tokens B4c 87 calls 31.4M cache read, 0.19M out. Interview brief out/interview/B4c_*.md. C1 waits for J.
+
+## 2026-10-13 18:15Z B4c interview answered
+- Answers saved in analysis/2026-10-13-interview-B4c-a1.md. Class 2: 32 of 53 keep an unsupported B1 theme (~60%, ~1,200 of 1,990 items); asks J whether C1 lets the readers' list stand with B1 extras flagged. Gap 0.657 to 0.790: class 2 rule +0.064, rulings +0.002, remainder +0.067 (contested items). G14: rewrite T3-010 must_show and three discriminators, add a decide_when_both; no split. R: chicago t01 unresolved in error (T3-002); re-read 5, then 30 class 4 unresolved resting on "the earlier reading".
+
+## 2026-10-13 18:18Z C1 started
+- J 20:16 "go ahead": DECISIONS row (class 2 readers' list stands, B1 extras flagged; re-reads of 5 + 30; no class 2 fleet now; C1 starts). Said msg-C1a-01-open.txt to B4.B4c; ran C1a-01, job 63da0e09f66d. The interview ran in a fork, so sent a recap of the analyst's own interview answers to the running leg (msg-C1a-01-interview-recap.txt), delivered 18:17:55Z.
