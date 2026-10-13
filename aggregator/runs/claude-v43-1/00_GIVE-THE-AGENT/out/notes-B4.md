@@ -714,3 +714,83 @@ warn   _packets-B4/G01.md mentions a ruling, an adjudication or the gold key; no
 
 0 errors (0 distinct shapes), 8 warnings
 ```
+
+## Stratum R, all 185 unresolved items (B4b-p3, 2026-10-13)
+
+J corrected the PI's reading at 17:10 Berlin: "No. There were some 180that were un resolved. They should all be in r". Stratum R holds all 185 unresolved items, not a draw of 18 (the PI's message of 15:11Z). This replaces the B4b-p2 declaration of R's frame and size. The rest of that declaration stands: R is diagnostic, reported apart, never pooled with U or A, and no fresh reading changes a ruling. Nothing has been dispatched; both arms wait for this build.
+
+### Declared before the build
+
+- **R's members: all 185 unresolved rulings of `disagreements.jsonl`.**
+  - **18 already in R:** drawn at B4b-p2 and served in `S05-35` and `S05-36`, orders 501 to 518, as built.
+  - **149 added now:** the unresolved items neither R nor the 500 holds (185 − 18 in R − 18 in U and A).
+  - **18 already in U (3) and A (15):** these count in R from the same readings, as the PI reads it. No arm reads any item twice, and U and A stay as drawn.
+  - The PI's "add the 167" counts the 18 in U and A among them. 167 = 185 − 18 in R; 149 of the 167 are served anew, and 18 are read once, in their U or A packets.
+- **Reading the 18 twice: one reason, kept once until J rules.**
+  - **The reason.** The packet context differs. The 167 items read in R packets meet only unresolved items. The 18 in U and A were read among ordinary items. Reading those 18 again in R packets would give R one context throughout and would let the two contexts be compared on the same items.
+  - **Against it.** It would have one arm read an item twice, with different reader sessions, and the readings could not count in both strata without a rule for which counts.
+  - **What I do.** Following the PI, I keep the 18 once. R's figures are reported whole over 185 and split by where the item was read: R packets, 167; U and A packets, 18.
+- **No draw, one order.** Every unresolved item is taken, so there is no sampling seed. The 149 are served in the order `random.Random("20261013:R-all-order").shuffle` gives over them sorted by room and theme id, orders 519 to 667.
+- **The R record.** `out/sample-B4-R.jsonl` (18 lines, B4b-p2) is kept as `out/sample-B4-R.superseded-B4b-p2.jsonl` and rewritten with all 185 members.
+  - Each line gives the item's stratum ("R"), its order, and where it is read: R packets for the 167, or "U" or "A" for the 18, whose order there is null because their reading sits under their U or A order in `sample-B4.jsonl`.
+  - Each line also gives the class and the taxonomy, and how the item joined: drawn at B4b-p2, added at B4b-p3, or already in U or A.
+- **R's denominator, per arm.** 185 items, 370 readings, 185 reader pairs. The diagnostic is the one declared at B4b-p2:
+  - the readers' agreement with each other (mean Jaccard, primary beside it) and alpha by stage B2's definition;
+  - whether primaries meet;
+  - whether fresh placements fall among reading A's, reading B's and my B1's placements or outside them.
+  It is reported over all 185 and split by the context above. There is no settled-line comparison for R. The 18 in U and A still leave U's and A's fresh-against-settled denominators as declared at B4b. Their readers' agreement with each other is reported in U and A as drawn and in R, each stratum apart.
+- **The packets.** The 149 go into `out/_packets-B4/` beside the 36, under the same §10 rules: fleet ids, B2's renderer, the same brief and end line, at most 15 items, each file under 50 KB, no sibling block, bag flag, stratum or ruling, and the largest packet as small as the caps allow. Names run on from `S05-37`. The exception for an item over the ceiling alone carries over (leagueoflegends t02, if it is among the 149, is served alone under B2's and B3's shape).
+- **The other records.**
+  - `MANIFEST.json` gains the new entries only; the 36 entries stay. The manifest as it stood is kept first as `out/_analysis/packets-B4_MANIFEST_before_R_all.json`.
+  - `out/_analysis/b4b_order_R_all.json` records the new packets' items.
+  - `run_manifest.json` gains an entry that supersedes entry 14 and names R's 185 members, its order stream, and the packet and line counts.
+
+### The record
+
+`out/_analysis/b4b_R_all.py --write`.
+- **Files.** `out/sample-B4-R.jsonl` now holds 185 lines; the B4b-p2 record (18 lines) is kept as `out/sample-B4-R.superseded-B4b-p2.jsonl`. The run's record is `out/_analysis/b4b_sample_R_all.json`. `sample-B4.jsonl` is unchanged.
+- **Where R's items are read.** 167 in R packets: the 18 drawn at B4b-p2 (orders 501 to 518) and the 149 added (orders 519 to 667, in the order of `Random("20261013:R-all-order")`). 3 in U and 15 in A, with order null and counted from the same readings.
+- **R's make-up.** By class: 3 seventy-one, 4 seventy-eight, 5 thirty-six. By taxonomy: scheme-ambiguous 114, author-disagrees 71. By adjudication packet: 1 sixty-six, 2 nineteen, 3 nine, 4 twelve, 5 six, 6 forty-nine, 7 twenty-four.
+- **One gold item** is among R's 185 and stays as a corpus item, as declared at B4b.
+- leagueoflegends t02 is not among the 149, so the declared exception does not arise.
+
+### The build
+
+- **The packets.** `out/_analysis/b4b_packets_R_all.py --write` uses the B4b builder's renderer, brief, end line and checks. It wrote `S05-37` to `S05-46` into `out/_packets-B4/` beside the 36: 10 packets, the fewest the caps allow, of 14 or 15 items and 7,619 to 14,070 bytes. The largest item is 2,937 bytes. Fleet ids only; no room-id-like string stands in participants' words.
+- **Before writing,** the 36 packets matched their MANIFEST sha256 and no `S05-37` existed.
+- **The manifest file.** `MANIFEST.json` was first kept as `out/_analysis/packets-B4_MANIFEST_before_R_all.json`, then given the ten new entries only: 46 entries, 667 lines due. `out/_analysis/b4b_order_R_all.json` records the new packets' items.
+- **The check.** `out/_analysis/b4b_packets_check3.py` found 0 errors:
+  - 667 items served once each, in orders 1 to 667, each translating back to its room;
+  - the 18 R lines read in U and A are U's and A's own items and are not served again;
+  - the 34 entries of B4b and the 36 of B4b-p2 are unchanged.
+- **Two new lines with the word "unresolved",** both in `S05-45`, are coders' notes on what an absent image or video leaves open ("leaves the meaning of space unresolved"). They are the coders' words, served as at B3, and say nothing of my rulings.
+- **The run manifest.** Entry 15 of `run_manifest.json` (`out/_analysis/b4b_manifest4.py`) supersedes entry 14, which stays. It records:
+  - R's 185 members, its order stream, the R record's sha256 and its superseded copy;
+  - 667 items served in 46 packets (8 to 15 items, 5,947 to 49,994 bytes);
+  - `n_agents` 2, with 92 reader sessions an arm;
+  - R's 370 readings an arm (334 from R packets, 36 from U and A packets), scored only for the readers' own agreement and convergence.
+- **The arms** are as declared at B4b. Both read all 46 packets. Nothing has been dispatched.
+
+### What I doubt
+
+- **Packet context is now R's main confound.** The 167 R items read in R packets meet only unresolved items, ten R packets in a row of thin material. The 18 in U and A were read among ordinary items. I report R whole and split by context, but the split compares 167 items with 18, so it cannot settle how much the context matters. Reading the 18 again in R packets would settle it on the same items. I name that reason here and keep them once until J rules.
+- **R has no settled line.** Its readers' agreement with each other can be high on a placement no earlier reading or ruling made, and that would not resolve the item. R says whether strangers converge, not whether they are right.
+
+### Slips
+
+- The B4b-p3 declaration and its diary line were written in one turn, as parallel calls. The edit had answered before I read the log's output, but the rule is to log a write only after the tool answers.
+
+`validate.py B4`, at B4b-p3's close:
+
+```
+stage B4:
+  leg: build
+  settled items 7844 = assignment_items_expected
+  rulings 3288: {'genuine-joint': 1651, 'scheme-ambiguous': 451, 'reader-error': 152, 'author-error': 571, 'author-disagrees': 208, 'item-is-a-bag': 255}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 3288, outstanding 0
+  coder conflicts 72
+
+warn   _packets-B4/G01.md mentions a ruling, an adjudication or the gold key; no hint that these items were decided before reaches a blind reader (section 10). Read the packet.  [9 lines with this shape; first: G01.md]
+
+0 errors (0 distinct shapes), 9 warnings
+```

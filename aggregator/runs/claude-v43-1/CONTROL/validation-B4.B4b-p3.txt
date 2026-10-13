@@ -1,0 +1,10 @@
+stage B4:
+  leg: build
+  settled items 7844 = assignment_items_expected
+  rulings 3288: {'genuine-joint': 1651, 'scheme-ambiguous': 451, 'reader-error': 152, 'author-error': 571, 'author-disagrees': 208, 'item-is-a-bag': 255}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 3288, outstanding 0
+  coder conflicts 72
+
+warn   _packets-B4/G01.md mentions a ruling, an adjudication or the gold key; no hint that these items were decided before reaches a blind reader (section 10). Read the packet.  [9 lines with this shape; first: G01.md]
+
+0 errors (0 distinct shapes), 9 warnings

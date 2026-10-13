@@ -436,3 +436,12 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 ## 2026-10-13 14:55Z B4b closed; B4b-p2 for the extra 18
 - B4b closed 14:48Z (list stopped at packets-out): 34 packets S05-01..34, 500 items (U 250, A 250, seed 20261013), largest packet 49,994 bytes, validate 0 errors, 8 warnings (G*.md scheme pages mention a ruling word; analyst read 22 such lines in notes-B4.md and judged them participants' or coders' words; handler to check).
 - J 16:43 Berlin "draw other 18": logged in DECISIONS; said to B4.B4b (msg-B4b-02-open.txt, plus a correction naming the leg B4b-p2 since legs.py takes B4b once). Ran B4b-p2.
+
+## 2026-10-13 15:20Z B4b-p2 closed; arm folder built
+- B4b-p2 closed 15:04Z, checkpoint 9ed01bca3cd2574e, 0 errors (8 warnings: scheme words in G pages, checked). Stratum R: 18 unresolved items, seed 20261013:R, disjoint from the 500. 36 packets, 518 items, max 49,994 bytes. S05 packet word hits are participants' or coders' words, checked.
+- Tokens: B4b 64 calls 50.4M cache read; B4b-p2 33 calls 29.0M.
+- Built Orchestrator/B4b-arm/ (Orchestrator/OpenAI is a link to an external drive the Cowork shell cannot reach): 72 messages byte-identical to fleet.py bodies (checked S05-35), README, RETURN-B4.md, MANIFEST.json, SHA256SUMS (daa26db8...). Wrote 2026-10-13T15-08Z_from-claude_to-openai_b4-arm-ready.md.
+- DeepSeek dispatch for J: runs/claude-v43-1/CONTROL/harness/dispatch.sh B4 (dry run first).
+
+## 2026-10-13 15:12Z R widened to all 185
+- J 17:10 Berlin: all ~180 unresolved in R. DECISIONS row added. Hold sent to OpenAI (messages/2026-10-13T15-11Z_from-claude_to-openai_b4-arm-hold.md); Orchestrator/B4b-arm/ superseded before use (to be renamed, not deleted, after the rebuild). Said msg-B4b-p3-open.txt to B4.B4b-p2; ran B4b-p3, job 9fd7d3c93a19.
