@@ -1,0 +1,2573 @@
+{
+ "figures": {
+  "final": {
+   "settled": {
+    "n": 200,
+    "sets_differ": 99,
+    "rate": 0.495,
+    "mean_jaccard": 0.731,
+    "primary_agree": 0.845
+   },
+   "current": {
+    "n": 200,
+    "sets_differ": 73,
+    "rate": 0.365,
+    "mean_jaccard": 0.786,
+    "primary_agree": 0.845
+   }
+  },
+  "first_answers": {
+   "settled": {
+    "n": 200,
+    "sets_differ": 104,
+    "rate": 0.52,
+    "mean_jaccard": 0.705,
+    "primary_agree": 0.805
+   },
+   "current": {
+    "n": 200,
+    "sets_differ": 80,
+    "rate": 0.4,
+    "mean_jaccard": 0.749,
+    "primary_agree": 0.805
+   }
+  }
+ },
+ "by_class": {
+  "error": 34,
+  "lean": 29,
+  "floor": 16,
+  "lean+floor": 1
+ },
+ "rows": [
+  {
+   "item": "brasil:t08",
+   "mine": [
+    "T3-027",
+    "T3-075"
+   ],
+   "line": [
+    "T3-075"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-027",
+     "concepts": 6
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [
+    "T3-027"
+   ],
+   "corrected": false,
+   "note": "c0434, c0435, c0515 and c0463 criticise the national stereotypes drawn; no theme takes them."
+  },
+  {
+   "item": "twice:t02",
+   "mine": [
+    "T3-095",
+    "T3-032"
+   ],
+   "line": [
+    "T3-095"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-032",
+     "concepts": 4
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": true,
+   "note": "The prank post is outside the theme ('something the theme did not stage'), so being fooled and checking the date are T3-095, not T3-001; c0008, c0009 and c0011 play along."
+  },
+  {
+   "item": "uwaterloo:t04",
+   "mine": [
+    "T3-023",
+    "T3-031"
+   ],
+   "line": [
+    "T3-023"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-031",
+     "concepts": 4
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "factorio:t09",
+   "mine": [
+    "T3-041",
+    "T3-004",
+    "T3-038"
+   ],
+   "line": [
+    "T3-041",
+    "T3-004"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-038",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "zelda:t13",
+   "mine": [
+    "T3-043",
+    "T3-003",
+    "T3-073"
+   ],
+   "line": [
+    "T3-043"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-003",
+     "concepts": 4
+    },
+    {
+     "theme": "T3-073",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "TeamDignitas:t04",
+   "mine": [
+    "T3-021",
+    "T3-055"
+   ],
+   "line": [
+    "T3-055",
+    "T3-021",
+    "T3-005"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-005",
+     "line_support": 2,
+     "free": [
+      "c0049"
+     ],
+     "placed_elsewhere": 1
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at the top places both. T3-005 (c0048, c0049) two."
+  },
+  {
+   "item": "harrypotter:t11",
+   "mine": [],
+   "line": [
+    "T3-001"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-001",
+     "line_support": 1,
+     "free": [
+      "c0053"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": true,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A bare April Fools greeting image; no act any theme takes."
+  },
+  {
+   "item": "parahumans:t05",
+   "mine": [
+    "T3-090",
+    "T3-015"
+   ],
+   "line": [
+    "T3-090"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-015",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-197 (c0079, c0080, the author's wish) two, below the floor."
+  },
+  {
+   "item": "palestine:t03",
+   "mine": [
+    "T3-041"
+   ],
+   "line": [
+    "T3-041",
+    "T3-015"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-015",
+     "line_support": 1,
+     "free": [
+      "c0034"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "rocketbeans:t07",
+   "mine": [
+    "T3-005"
+   ],
+   "line": [
+    "T3-005",
+    "T3-006"
+   ],
+   "class": "error",
+   "primary_differs": false,
+   "zero": [
+    "T3-006"
+   ],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-006",
+     "line_support": 1,
+     "free": [],
+     "placed_elsewhere": 1
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "The taskbar replacing the room's logo is the attack; the room's answer is to fight it."
+  },
+  {
+   "item": "Jamaica:t10",
+   "mine": [
+    "T3-070",
+    "T3-065"
+   ],
+   "line": [
+    "T3-041",
+    "T3-002"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [
+    "T3-041",
+    "T3-002"
+   ],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-041",
+     "line_support": 3,
+     "free": [],
+     "placed_elsewhere": 3
+    },
+    {
+     "theme": "T3-002",
+     "line_support": 3,
+     "free": [],
+     "placed_elsewhere": 3
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-070",
+     "concepts": 3
+    },
+    {
+     "theme": "T3-065",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at three; T3-070 first on placements."
+  },
+  {
+   "item": "Peru:t02",
+   "mine": [
+    "T3-068",
+    "T3-150"
+   ],
+   "line": [
+    "T3-068"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-150",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "CKCrusaders:t04",
+   "mine": [
+    "T3-076"
+   ],
+   "line": [
+    "T3-150"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-150",
+     "line_support": 4,
+     "free": [
+      "c0006",
+      "c0033",
+      "c0054",
+      "c0069"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-076",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-150, T3-151 and T3-188 two each, below the floor."
+  },
+  {
+   "item": "neu:t07",
+   "mine": [
+    "T3-086"
+   ],
+   "line": [
+    "T3-154"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [
+    "T3-154"
+   ],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-154",
+     "line_support": 2,
+     "free": [],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-086",
+     "concepts": 4
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "The room's BU rivalry carried onto the canvas."
+  },
+  {
+   "item": "TheHulk:t02",
+   "mine": [
+    "T3-070",
+    "T3-022",
+    "T3-010"
+   ],
+   "line": [
+    "T3-070"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-022",
+     "concepts": 5
+    },
+    {
+     "theme": "T3-010",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at five; T3-070 first on placements."
+  },
+  {
+   "item": "opticgaming:t01",
+   "mine": [
+    "T3-001",
+    "T3-048",
+    "T3-095"
+   ],
+   "line": [
+    "T3-001",
+    "T3-048"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-095",
+     "concepts": 8
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "The moderators' fake announcements (T3-001), OpTic's own rebrand (T3-048), members checking what is a joke (T3-095)."
+  },
+  {
+   "item": "anaheimducks:t11",
+   "mine": [
+    "T3-003"
+   ],
+   "line": [
+    "T3-003",
+    "T3-073"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-073",
+     "line_support": 1,
+     "free": [
+      "c0069"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-073 (c0067, c0069) two."
+  },
+  {
+   "item": "bulgaria:t07",
+   "mine": [
+    "T3-169"
+   ],
+   "line": [],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-169",
+     "concepts": 2
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "GuardiansOfDatBoi:t09",
+   "mine": [
+    "T3-009"
+   ],
+   "line": [
+    "T3-009",
+    "T3-043"
+   ],
+   "class": "error",
+   "primary_differs": false,
+   "zero": [
+    "T3-043"
+   ],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-043",
+     "line_support": 1,
+     "free": [],
+     "placed_elsewhere": 1
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "portugal:t13",
+   "mine": [
+    "T3-170",
+    "T3-021"
+   ],
+   "line": [
+    "T3-170",
+    "T3-087",
+    "T3-021"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-087",
+     "line_support": 2,
+     "free": [
+      "c0044",
+      "c0101"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "predators:t08",
+   "mine": [
+    "T3-028"
+   ],
+   "line": [
+    "T3-028",
+    "T3-089"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-089",
+     "line_support": 2,
+     "free": [
+      "c0049"
+     ],
+     "placed_elsewhere": 1
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-089 (c0049) one."
+  },
+  {
+   "item": "signal:t01",
+   "mine": [
+    "T3-009"
+   ],
+   "line": [
+    "T3-038"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-038",
+     "line_support": 3,
+     "free": [
+      "c0002"
+     ],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-009",
+     "concepts": 2
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "portugal:t14",
+   "mine": [
+    "T3-041",
+    "T3-113"
+   ],
+   "line": [
+    "T3-113",
+    "T3-079",
+    "T3-041"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-079",
+     "line_support": 2,
+     "free": [
+      "c0088",
+      "c0106"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at four; T3-041 first on placements. T3-079 (c0088, c0106) two."
+  },
+  {
+   "item": "russia:t12",
+   "mine": [
+    "T3-075"
+   ],
+   "line": [
+    "T3-075",
+    "T3-063"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-063",
+     "line_support": 1,
+     "free": [
+      "c0097"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-063 (c0092, c0097) two."
+  },
+  {
+   "item": "romania:t07",
+   "mine": [
+    "T3-151",
+    "T3-149",
+    "T3-011"
+   ],
+   "line": [
+    "T3-151"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-149",
+     "concepts": 4
+    },
+    {
+     "theme": "T3-011",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at four; T3-151 first on placements."
+  },
+  {
+   "item": "kilian:t10",
+   "mine": [
+    "T3-058"
+   ],
+   "line": [
+    "T3-058",
+    "T3-188"
+   ],
+   "class": "error",
+   "primary_differs": false,
+   "zero": [
+    "T3-188"
+   ],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-188",
+     "line_support": 2,
+     "free": [],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "The blame for Quebec's last acts argued after the close."
+  },
+  {
+   "item": "mysterydungeon:t07",
+   "mine": [
+    "T3-050"
+   ],
+   "line": [
+    "T3-050",
+    "T3-058"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-058",
+     "line_support": 3,
+     "free": [
+      "c0045"
+     ],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Mock war talk at Chicago; the record does not show the blame came after the close (T3-058)."
+  },
+  {
+   "item": "jerma985:t01",
+   "mine": [
+    "T3-002"
+   ],
+   "line": [
+    "T3-002",
+    "T3-062"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-062",
+     "line_support": 2,
+     "free": [
+      "c0007",
+      "c0018"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-062 (c0007, c0018) two."
+  },
+  {
+   "item": "starcraft:t10",
+   "mine": [
+    "T3-010",
+    "T3-087",
+    "T3-024"
+   ],
+   "line": [
+    "T3-024",
+    "T3-010",
+    "T3-087"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at three; T3-087 before T3-024 on placements. T3-076 (c0106, c0166) two."
+  },
+  {
+   "item": "AcePlace:t04",
+   "mine": [
+    "T3-021",
+    "T3-005"
+   ],
+   "line": [
+    "T3-005",
+    "T3-021"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-087 (c0036, c0053) two."
+  },
+  {
+   "item": "texastech:t03",
+   "mine": [
+    "T3-010",
+    "T3-005"
+   ],
+   "line": [
+    "T3-005"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-010",
+     "concepts": 2
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at two places both; T3-010 first on placements."
+  },
+  {
+   "item": "qotsa:t08",
+   "mine": [
+    "T3-016"
+   ],
+   "line": [
+    "T3-016",
+    "T3-018"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-018",
+     "line_support": 1,
+     "free": [
+      "c0043"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "clubpenguin:t05",
+   "mine": [
+    "T3-031",
+    "T3-052"
+   ],
+   "line": [
+    "T3-031"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-052",
+     "concepts": 1
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at one places both; T3-031 first on placements."
+  },
+  {
+   "item": "physical_removal:t01",
+   "mine": [
+    "T3-068",
+    "T3-006"
+   ],
+   "line": [
+    "T3-006"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-068",
+     "concepts": 5
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "GuardiansOfDatBoi:t04",
+   "mine": [
+    "T3-004",
+    "T3-069"
+   ],
+   "line": [
+    "T3-004"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-069",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "phish:t11",
+   "mine": [
+    "T3-030"
+   ],
+   "line": [
+    "T3-087",
+    "T3-030"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-087",
+     "line_support": 3,
+     "free": [
+      "c0076"
+     ],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-005 (c0076, c0091) two."
+  },
+  {
+   "item": "indieheads:t09",
+   "mine": [
+    "T3-011",
+    "T3-151",
+    "T3-010"
+   ],
+   "line": [
+    "T3-151"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-011",
+     "concepts": 5
+    },
+    {
+     "theme": "T3-010",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-150 (c0151, c0152) two."
+  },
+  {
+   "item": "portal:t09",
+   "mine": [
+    "T3-016",
+    "T3-037"
+   ],
+   "line": [
+    "T3-016"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-037",
+     "concepts": 2
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at two places both; T3-016 first on placements."
+  },
+  {
+   "item": "mls:t02",
+   "mine": [
+    "T3-023",
+    "T3-048"
+   ],
+   "line": [
+    "T3-023"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-048",
+     "concepts": 5
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "The clubs' own pranks (a press release, a one-day contract, the Colton prank) are T3-048."
+  },
+  {
+   "item": "ireland:t06",
+   "mine": [
+    "T3-061"
+   ],
+   "line": [
+    "T3-061",
+    "T3-006",
+    "T3-076"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-006",
+     "line_support": 16,
+     "free": [
+      "c0017",
+      "c0033",
+      "c0048",
+      "c0054",
+      "c0076",
+      "c0115",
+      "c0116",
+      "c0120",
+      "c0128",
+      "c0228",
+      "c0229",
+      "c0258",
+      "c0352",
+      "c0482",
+      "c0484"
+     ],
+     "placed_elsewhere": 1
+    },
+    {
+     "theme": "T3-076",
+     "line_support": 5,
+     "free": [
+      "c0117",
+      "c0242",
+      "c0303",
+      "c0491",
+      "c0503"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": true,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Taking flags over is T3-061 ('take over the Hungary flag'); turning them into Ireland's is T3-068 (twelve); calls to destroy the Union Jack T3-006 (six); refusals T3-076 (five): a bag."
+  },
+  {
+   "item": "DestinyTheGame:t06",
+   "mine": [
+    "T3-002",
+    "T3-016",
+    "T3-069"
+   ],
+   "line": [
+    "T3-002"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-016",
+     "concepts": 3
+    },
+    {
+     "theme": "T3-069",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "heroesofthestorm:t11",
+   "mine": [
+    "T3-005"
+   ],
+   "line": [
+    "T3-021"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-021",
+     "line_support": 17,
+     "free": [
+      "c0044",
+      "c0051",
+      "c0108",
+      "c0142",
+      "c0164",
+      "c0165",
+      "c0179",
+      "c0184",
+      "c0187",
+      "c0193",
+      "c0205",
+      "c0231",
+      "c0241",
+      "c0242",
+      "c0338"
+     ],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-005",
+     "concepts": 20
+    }
+   ],
+   "bag": true,
+   "apply": false,
+   "carried": true,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Repair (T3-021, fifteen), templates (T3-070, twelve) and tracing vandals (T3-087, eight) beside defence: a bag."
+  },
+  {
+   "item": "stevenuniverse:t02",
+   "mine": [
+    "T3-038"
+   ],
+   "line": [
+    "T3-009",
+    "T3-038"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-009",
+     "line_support": 17,
+     "free": [
+      "c0019",
+      "c0020",
+      "c0034",
+      "c0075",
+      "c0106",
+      "c0117",
+      "c0181",
+      "c0287",
+      "c0345",
+      "c0413",
+      "c0454",
+      "c0457",
+      "c0460"
+     ],
+     "placed_elsewhere": 4
+    }
+   ],
+   "adds": [],
+   "bag": true,
+   "apply": false,
+   "carried": true,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Celebrating (T3-009, seven), how the work fared (T3-073, six), Steven Universe found elsewhere (T3-082, three): a bag."
+  },
+  {
+   "item": "zelda:t02",
+   "mine": [
+    "T3-082"
+   ],
+   "line": [
+    "T3-009"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-009",
+     "line_support": 5,
+     "free": [
+      "c0174",
+      "c0175",
+      "c0176"
+     ],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-082",
+     "concepts": 4
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-009 (c0174, c0175) two."
+  },
+  {
+   "item": "buffalo:t07",
+   "mine": [
+    "T3-090",
+    "T3-015"
+   ],
+   "line": [
+    "T3-015",
+    "T3-090"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "reddevils:t16",
+   "mine": [
+    "T3-149",
+    "T3-195",
+    "T3-011"
+   ],
+   "line": [
+    "T3-149",
+    "T3-011"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-195",
+     "concepts": 5
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "The truce invoked against members' breaches is T3-195 by T3-149's decide_when_both; a tie at five, T3-149 first on placements."
+  },
+  {
+   "item": "kurdistan:t01",
+   "mine": [
+    "T3-065",
+    "T3-082"
+   ],
+   "line": [
+    "T3-065",
+    "T3-082",
+    "T3-038"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-038",
+     "line_support": 1,
+     "free": [
+      "c0024"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "runescape:t15",
+   "mine": [
+    "T3-143",
+    "T3-157"
+   ],
+   "line": [
+    "T3-143"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-157",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "FloydVsVoid:t10",
+   "mine": [
+    "T3-009"
+   ],
+   "line": [
+    "T3-009",
+    "T3-072",
+    "T3-043"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-072",
+     "line_support": 2,
+     "free": [
+      "c0102",
+      "c0171"
+     ],
+     "placed_elsewhere": 0
+    },
+    {
+     "theme": "T3-043",
+     "line_support": 1,
+     "free": [
+      "c0155"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-043, T3-072 and T3-163 two each."
+  },
+  {
+   "item": "rutgers:t07",
+   "mine": [
+    "T3-005",
+    "T3-021"
+   ],
+   "line": [
+    "T3-021"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-005",
+     "concepts": 10
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A fight is called throughout, so the repair under attack is T3-005 by T3-021's own condition."
+  },
+  {
+   "item": "monsterhunter:t07",
+   "mine": [
+    "T3-021",
+    "T3-005"
+   ],
+   "line": [
+    "T3-021"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-005",
+     "concepts": 4
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-170 (c0114, c0115) two."
+  },
+  {
+   "item": "funhaus:t04",
+   "mine": [
+    "T3-009",
+    "T3-043",
+    "T3-157"
+   ],
+   "line": [
+    "T3-009",
+    "T3-043"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-157",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "h3h3productions:t01",
+   "mine": [
+    "T3-033",
+    "T3-002"
+   ],
+   "line": [
+    "T3-033"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-002",
+     "concepts": 10
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "texans:t01",
+   "mine": [
+    "T3-023"
+   ],
+   "line": [
+    "T3-095"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-095",
+     "line_support": 3,
+     "free": [
+      "c0019"
+     ],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-023",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Asking what the remade sub shows is T3-023 by gates 2 to 4; c0019 ('Maybe some April fools shit?') is T3-095, one."
+  },
+  {
+   "item": "ScottPilgrim:t03",
+   "mine": [
+    "T3-021",
+    "T3-005"
+   ],
+   "line": [
+    "T3-005",
+    "T3-021"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "radiohead:t04",
+   "mine": [
+    "T3-010"
+   ],
+   "line": [
+    "T3-011",
+    "T3-084"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-011",
+     "line_support": 11,
+     "free": [
+      "c0067",
+      "c0116",
+      "c0154",
+      "c0166",
+      "c0170",
+      "c0173",
+      "c0186",
+      "c0188",
+      "c0194",
+      "c0276",
+      "c0283"
+     ],
+     "placed_elsewhere": 0
+    },
+    {
+     "theme": "T3-084",
+     "line_support": 4,
+     "free": [
+      "c0057",
+      "c0066",
+      "c0148",
+      "c0275"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-010",
+     "concepts": 14
+    }
+   ],
+   "bag": true,
+   "apply": false,
+   "carried": true,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Help sent (T3-011, eleven), allies thanked (T3-072, eight), peace with TagPro (T3-149, five), requests (T3-084, five): a bag."
+  },
+  {
+   "item": "witcher:t07",
+   "mine": [
+    "T3-016"
+   ],
+   "line": [
+    "T3-016",
+    "T3-052",
+    "T3-018"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-052",
+     "line_support": 3,
+     "free": [
+      "c0035",
+      "c0052",
+      "c0061"
+     ],
+     "placed_elsewhere": 0
+    },
+    {
+     "theme": "T3-018",
+     "line_support": 1,
+     "free": [
+      "c0022"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-082 (c0052, c0061) two."
+  },
+  {
+   "item": "indieheads:t13",
+   "mine": [
+    "T3-041",
+    "T3-004"
+   ],
+   "line": [
+    "T3-041"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-004",
+     "concepts": 5
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "The room's next album pieces (T3-041) and whether a cover survives pixelation (T3-004); the poll (T3-066) one."
+  },
+  {
+   "item": "theitalyplace:t12",
+   "mine": [
+    "T3-154",
+    "T3-009"
+   ],
+   "line": [
+    "T3-009",
+    "T3-154"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "bostonceltics:t08",
+   "mine": [
+    "T3-006",
+    "T3-076",
+    "T3-149"
+   ],
+   "line": [
+    "T3-006"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-076",
+     "concepts": 5
+    },
+    {
+     "theme": "T3-149",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at five; T3-006 first on placements."
+  },
+  {
+   "item": "sadboys:t08",
+   "mine": [
+    "T3-041",
+    "T3-042"
+   ],
+   "line": [
+    "T3-041"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-042",
+     "concepts": 2
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at two places both; T3-041 first on placements."
+  },
+  {
+   "item": "uofmn:t02",
+   "mine": [
+    "T3-038",
+    "T3-041"
+   ],
+   "line": [
+    "T3-038"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-041",
+     "concepts": 5
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "yogscast:t08",
+   "mine": [
+    "T3-009"
+   ],
+   "line": [
+    "T3-009",
+    "T3-043"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-043",
+     "line_support": 1,
+     "free": [
+      "c0033"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "puzzleanddragons:t01",
+   "mine": [
+    "T3-002",
+    "T3-070"
+   ],
+   "line": [
+    "T3-070",
+    "T3-002",
+    "T3-003"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-003",
+     "line_support": 2,
+     "free": [
+      "c0008",
+      "c0016"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at three; T3-002 first on placements."
+  },
+  {
+   "item": "formula1:t16",
+   "mine": [
+    "T3-015",
+    "T3-037"
+   ],
+   "line": [
+    "T3-015",
+    "T3-075"
+   ],
+   "class": "lean+floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-075",
+     "line_support": 3,
+     "free": [
+      "c0356",
+      "c0362"
+     ],
+     "placed_elsewhere": 1
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-037",
+     "concepts": 4
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at four; T3-015 first on placements. T3-090 (c0356, c0362) two."
+  },
+  {
+   "item": "ghibli:t01",
+   "mine": [
+    "T3-002",
+    "T3-003",
+    "T3-038"
+   ],
+   "line": [
+    "T3-002",
+    "T3-038"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-003",
+     "concepts": 5
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "tagpro:t01",
+   "mine": [
+    "T3-002",
+    "T3-141"
+   ],
+   "line": [
+    "T3-021",
+    "T3-141",
+    "T3-002"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-021",
+     "line_support": 4,
+     "free": [
+      "c0003",
+      "c0089"
+     ],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": true,
+   "note": "Calls to come and maintain are T3-002's rallies to repair a work; T3-021 (c0003) one."
+  },
+  {
+   "item": "puzzleanddragons:t05",
+   "mine": [
+    "T3-001",
+    "T3-048"
+   ],
+   "line": [
+    "T3-001"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-048",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-048 on Gung Ho's prank looked for and wished for. The girlfriend prank (c0050, c0051) is told, not staged in the sub; T3-095 (c0052, c0053) two."
+  },
+  {
+   "item": "cgpgrey:t03",
+   "mine": [
+    "T3-151"
+   ],
+   "line": [
+    "T3-061",
+    "T3-011"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [
+    "T3-011"
+   ],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-061",
+     "line_support": 2,
+     "free": [
+      "c0033",
+      "c0038"
+     ],
+     "placed_elsewhere": 0
+    },
+    {
+     "theme": "T3-011",
+     "line_support": 1,
+     "free": [],
+     "placed_elsewhere": 1
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-151",
+     "concepts": 2
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Help to the Jerm trail asked in return for its help. Annexing the cookie monster unchanged is T3-175 by T3-068's must_not_show, so T3-061 (c0038) one; T3-087 (c0028) one."
+  },
+  {
+   "item": "utaustin:t03",
+   "mine": [
+    "T3-006",
+    "T3-061",
+    "T3-068"
+   ],
+   "line": [
+    "T3-068",
+    "T3-006",
+    "T3-061"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "'Take over UT(ennessee)'s logo' is T3-061's named example; the rewritten scores and recoloured logo are T3-068. A tie at four; T3-061 first on placements."
+  },
+  {
+   "item": "twentyonepilots:t05",
+   "mine": [
+    "T3-124"
+   ],
+   "line": [
+    "T3-124",
+    "T3-022",
+    "T3-005"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-022",
+     "line_support": 2,
+     "free": [
+      "c0020",
+      "c0087"
+     ],
+     "placed_elsewhere": 0
+    },
+    {
+     "theme": "T3-005",
+     "line_support": 1,
+     "free": [
+      "c0089"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-022 (c0020, c0087) two; T3-005 (c0069, c0089) two."
+  },
+  {
+   "item": "furry:t02",
+   "mine": [
+    "T3-003",
+    "T3-004",
+    "T3-041"
+   ],
+   "line": [
+    "T3-003",
+    "T3-004"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-041",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A tie at three for second; T3-004 first on placements."
+  },
+  {
+   "item": "donaldglover:t04",
+   "mine": [
+    "T3-001",
+    "T3-095"
+   ],
+   "line": [
+    "T3-001"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-095",
+     "concepts": 4
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "The image credited to @NothingButBino is outside the theme, so settling it is T3-095. T3-032 (c0015) one."
+  },
+  {
+   "item": "theexpanse:t05",
+   "mine": [
+    "T3-021",
+    "T3-005"
+   ],
+   "line": [
+    "T3-021",
+    "T3-005",
+    "T3-141"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-141",
+     "line_support": 1,
+     "free": [
+      "c0039"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Watching and fixing lead (T3-005's decide_when_both). T3-141 (c0039, a night watch kept) one; re-read after the comparison, placement unchanged."
+  },
+  {
+   "item": "tampabaylightning:t08",
+   "mine": [],
+   "line": [
+    "T3-023"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-023",
+     "line_support": 1,
+     "free": [
+      "c0078"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": true,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A header change noticed; nothing shows it is an April Fools change, so T3-023's must_show is not met."
+  },
+  {
+   "item": "yogscast:t13",
+   "mine": [
+    "T3-105",
+    "T3-009"
+   ],
+   "line": [
+    "T3-105"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-009",
+     "concepts": 4
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Cleaned final images kept as records lead. T3-003 (c0103, c0133) two."
+  },
+  {
+   "item": "de:t15",
+   "mine": [
+    "T3-015",
+    "T3-090",
+    "T3-075"
+   ],
+   "line": [
+    "T3-015"
+   ],
+   "class": "lean",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [
+    {
+     "theme": "T3-090",
+     "concepts": 4
+    },
+    {
+     "theme": "T3-075",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "Removals pointing to the megathread are T3-015's; those pointing only to r/placeDE are T3-090's."
+  },
+  {
+   "item": "pokemon:t09",
+   "mine": [
+    "T3-031"
+   ],
+   "line": [
+    "T3-117"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-117",
+     "line_support": 3,
+     "free": [
+      "c0540"
+     ],
+     "placed_elsewhere": 2
+    }
+   ],
+   "adds": [
+    {
+     "theme": "T3-031",
+     "concepts": 3
+    }
+   ],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "A Slowpoke called for after the canvas closed, taken as a joke. T3-002 (c0535, c0539) two; T3-117 (c0540) one."
+  },
+  {
+   "item": "mizzou:t04",
+   "mine": [
+    "T3-005",
+    "T3-087"
+   ],
+   "line": [
+    "T3-087",
+    "T3-005"
+   ],
+   "class": "error",
+   "primary_differs": true,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [],
+   "adds": [],
+   "bag": false,
+   "apply": true,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": null
+  },
+  {
+   "item": "spacexmasterrace:t05",
+   "mine": [
+    "T3-028"
+   ],
+   "line": [
+    "T3-028",
+    "T3-021"
+   ],
+   "class": "floor",
+   "primary_differs": false,
+   "zero": [],
+   "unknown_support": [],
+   "lacks": [
+    {
+     "theme": "T3-021",
+     "line_support": 2,
+     "free": [
+      "c0041",
+      "c0044"
+     ],
+     "placed_elsewhere": 0
+    }
+   ],
+   "adds": [],
+   "bag": false,
+   "apply": false,
+   "carried": false,
+   "also_present_overlap": [],
+   "corrected": false,
+   "note": "T3-021 (c0041, c0044) two."
+  }
+ ]
+}

@@ -496,3 +496,12 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 ## 2026-10-13 20:50Z C1a-03 closed; C1a-04 started
 - C1a-03 closed 20:41Z, checkpoint 29b57769728ce727, 0 errors. Gates 8 to 26: T3-002|T3-084 by who calls; five pairing sentences, then floor written in (QC1-002: 7 kept, 8 reverted, mit t01 split); T3-010|T3-149 rewritten to named words (gates 15 to 21). Guard: 32 moves, 6 lines keep a theme neither readers nor B1 placed, each on 3+ concepts. 20 lines listed for review.
 - Ran C1a-04.
+
+## 2026-10-13 21:2xZ, C1a-04 closed, C1a-05 started
+- C1a-04 closed 21:14Z, checkpoint 553a487c1df19205, validate C1 0 errors 0 warnings. Revised lines 2,053 of 7,844; empties 169.
+- Pass 4: 22 held lines settled (9 moved); J's floor removed T3-084 from 16 pass 2 lines; gate:27 widens T3-011 to help sent between rooms (30 rechecks, 0 moved); lone-B1 floor narrowed by the analyst, six items placed on B1 themes; T3-140 moved to the rare tier; guard 34 moves, 8 to a theme neither readers nor B1 placed.
+- Tokens (dedup): 85 calls, 46.9M cache read, 0.12M output. token-usage.md C1a row and Total updated.
+- J away from 23:20 Berlin with "continue with the handling". C1a-05 run, job d390e6b2e482, opening Handler text in analysis/2026-10-13-msg-C1a-05-open.txt.
+
+## 2026-10-14 00:02 Berlin, QC1-003 answered
+- C1a-05 asked QC1-003 at 21:59Z: revision rate 34 errors of 200, 29 moved, 5 not appliable in C1 (harrypotter t11, tampabaylightning t08 to empty; radiohead t04, heroesofthestorm t11, stevenuniverse t02 bag swaps). Answered under J's 23:26 delegation: stay as found, file c1_unapplied.jsonl, no new verb.

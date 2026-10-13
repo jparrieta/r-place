@@ -402,3 +402,106 @@ stage C1:
 
 0 errors (0 distinct shapes), 0 warnings
 ```
+
+## Pass 5 (C1a-05)
+
+### Opening
+
+- The views after pass 4's close (`c1_views_diff.py`): 10,587 placements against 13,365 on the settled line, 194 themes placed. T3-084 has 76 placements (82 settled), after the floor took off 16 thin additions. T3-140, T3-144 and T3-161 are placed nowhere. Nine rare themes sit in one room each.
+- The revision rate's method was declared in the diary before the draw. The draw: 200 keys of `assign_final.jsonl`, sorted, sampled by Python `random.Random(20261013).sample`. Each item was re-decided from all its concepts under scheme_v2, the reading rules and J's floor. The candidate themes were shown with their fields and without saying who placed them. Each difference from the current line falls in one of three classes. An error is a different primary, or a line theme my reading gives no concept; it is moved. The lean is a second act of three concepts or more that the line lacks; it is measured, not moved. The floor class is a line theme below the floor; it is measured, not moved.
+
+### The revision rate (section 3)
+
+The files are in `out/_analysis/c1_revision/`. The draw is `sample.json` (written by `c1_revision_pack.py --draw`). Eight packets are `pack-*.md`, my decisions `dec-*.json`, and the corrections made after a comparison `corrections.json`. `c1_revision_compare.py` writes `result.json`; `c1_revision_classify.py` writes `classes.json` and `moves.json`.
+
+The next table gives the rate before any move, against each line, for my final decisions and for my first answers. The first answers put back the ten readings I corrected after comparing.
+
+| decisions | line | placed differently | mean Jaccard | primary agreement |
+|---|---|---|---|---|
+| final | settled (`assign_final.jsonl`) | 99 of 200 (49.5%) | 0.731 | 0.845 |
+| final | current (`assignments_final.jsonl`) | 73 of 200 (36.5%) | 0.786 | 0.845 |
+| first answers | settled | 104 of 200 (52.0%) | 0.705 | 0.805 |
+| first answers | current | 80 of 200 (40.0%) | 0.749 | 0.805 |
+
+- **What the figure is.** It is my agreement with the line at the end of the assignment arc, a figure about the tier as it stands. It is not saturation, it is not stage B4's transmission after revision, and it is not FLEET.md's stability. The current line already holds my C1 re-placements, so the current-line figure is in part my agreement with myself.
+- **The classes, against the current line.** The 80 items that differ split into four classes:
+  - 34 errors: a different primary in 31, and in 3 a line theme my reading gives no concept;
+  - 29 lean;
+  - 16 floor;
+  - 1 both lean and floor (formula1 t16).
+- **The lean J ruled on.** In 29 of the 200 items (14.5%) my decision places a second or third theme of three concepts or more that the line lacks. 17 items are in the floor class (16 floor, 1 both): the line holds a theme that my reading leaves at one or two concepts, and nothing else makes an error.
+- **Where.** 11 of the 34 errors change the primary within one family. G09 holds 7 of the errors: the T3-005 | T3-021 boundary, which moved at B2 and split the readers again. The other errors spread over 16 families, none with more than 4, and 2 decisions are empty.
+- **Moved: 29** with `mem.py reassign` from `moves.json`, each with its concepts. A moved item takes my decision whole, so any second theme of three concepts and any floor drop come with it. I made that choice after the comparisons and logged it before the write. After the moves, against the current line: 51 of 200 differ (25.5%), mean Jaccard 0.861, primary agreement 0.975.
+- **Carried: 5.** No C1 verb empties a line (`unplace` is B1's), and `reassign` leaves `also_present` as it is. I asked QC1-003. The handler ruled under J's delegation: the five stay as found, no verb is opened in C1, and all 34 errors count in the rate. The five are written to `out/_analysis/c1_unapplied.jsonl` (by `c1_unapplied.py`). Each line holds the item, its placement as it is, the change the C1 tools could not make, and the concepts that decide it. If J opens a verb, that file is what it applies. The file lists:
+  - harrypotter t11, now T3-001: empty the line;
+  - tampabaylightning t08, now T3-023: empty the line;
+  - heroesofthestorm t11, now T3-021: place T3-005, and list T3-021, T3-070 and T3-087 under `also_present`;
+  - stevenuniverse t02, now T3-009 and T3-038: place T3-038, and list T3-009, T3-073 and T3-082 under `also_present`;
+  - radiohead t04, now T3-011 and T3-084: place T3-010, and list T3-011, T3-072, T3-149 and T3-084 under `also_present`.
+- **Corrections after comparing: 10**, each with my first answer and its reason: twice t02, kingdomhearts t23, homestuck t18, shitredditsays t02, anime_irl t18, teslamotors t01, konosuba t02, AMD t20, tagpro t01, phish t09. In every one, a field I had not applied decided it. One more item, theexpanse t05, had a concept re-read (c0039, a night watch, T3-141's) with no change to its placement, which changed its class from error to floor.
+- **Bags marked in the sample: 12.** They are rickandmorty t02, tampabaylightning t01, leagueoflegends t10, sabres t03, ireland t06, heroesofthestorm t11, stevenuniverse t02, tf2 t13, starvstheforcesofevil t03, radiohead t04, philippines t08 and fullcommunism t03.
+- **Saturation.** When each kind of unplaceable material first appeared is recorded at the empties pass, which groups the kinds.
+
+### The source lines: the B4 defect list and the watch items
+
+`out/_analysis/c1_source_lines_pass5.json` gives each of 28 source lines one decision with its reason.
+- **Revise, as gates with rechecks in pass 6 (five lines, seven gates).** Each fixes two sentences that contradict each other:
+  - T3-017's discriminator against T3-031 ("or the day");
+  - T3-001's discriminator against T3-031 ("on any day");
+  - T3-043 against T3-003 (the time of a claim against the person who claims; two gates on T3-043);
+  - T3-149 | T3-025 ("a fight ended", against T3-149's pacts with no fight; both discriminators);
+  - T3-050's discriminator against T3-086 ("internal", against "a rivalry from the community's own life").
+- **Done: 4.**
+  - G14's request siblings (gates 5 to 9).
+  - Class 2 (pass 1).
+  - survivor t28 against python t04: survivor t28 moved from T3-023 to T3-017, because its two concepts give sincere answers and do not play along.
+  - dmt t03 against shield t06, by the visitor rule: shield t06 moved from empty to T3-082, because the HYDRA logo was organised in another room's chat. dmt t03 stays T3-014.
+- **Leave: 13**, each with its reason. Among them are T3-033's missing "first", T3-023's other subs, T3-005's tie, T3-027's pairing sentence, T3-006 against T3-061, and the fleet's 25 unanimous items resting on a field they contradict (J's class 2 ruling; no sweep).
+- **Carry: 6.**
+  - To `scheme_v2.md`'s gate block: the visitor-rule pairs, and "the work" read as the room's own.
+  - To the pair test: the homeland flag (T3-065 against its siblings) and T3-005 | T3-073.
+  - To the empties pass: T3-052's four unresolved items and the unresolved single failures.
+
+### J's guard, counted (`out/_analysis/c1_guard_C1a-05.json`)
+
+- This pass made 31 moves. 16 add a theme, and 6 of those add one neither reader nor my B1 placed:
+  - Jamaica t10, T3-065 (three concepts);
+  - brasil t08, T3-027 (six);
+  - indieheads t09, T3-011 (five);
+  - rutgers t07, T3-005 (ten);
+  - texans t01, T3-023 (three);
+  - texastech t03, T3-010 (two, a tie at the top broken by placements, 443 against 424).
+
+### What I doubt (pass 5)
+
+- **The candidates were shown.** The packets listed every theme anyone had placed, unattributed. That narrows a re-decision toward placements already made. The rate is a lower bound on how far a fresh reading would move.
+- **Ten corrections came from comparing.** The comparison showed me fields I had not applied. The first-answer figures are my unaided reading. The final figures are the scheme read with care.
+- **Close calls among the 29 moves.** theitalyplace t12 counts the koi and the flower removed as victory over rivals. mizzou t04's c0006 is an alarm that also names kU. pokemon t09 reads a late Slowpoke call as the fandom's joke. tagpro t01 reads calls to come and maintain as T3-002's rallies to repair.
+- **Move reasons.** Each move's reason is my decision's note. In some items (brasil t08) the note describes the concepts left out, not the field that places the theme. The concepts are named in every move.
+- **Moved items took my whole decision.** That adds lean themes and drops sub-floor themes in 29 lines that were moving anyway. The lean outside those lines is measured, not moved.
+
+### Slips (pass 5)
+
+- I logged the empties as 168 after shield t06. They were 167, because bulgaria t07 had left them with the revision-rate moves. The next line corrected it.
+- The context was compacted during packet 7. The head and the stage file were read again and reconciled before the next write.
+- My first answer for AMD t20 placed T3-003 on an apology for arriving late, which tells no placing.
+
+### Next pass
+
+1. The five revise lines, as seven gates with their rechecks, and `mem.py gates` on each theme amended.
+2. The pair test, with the homeland flag, T3-005 | T3-073 and the call, offer and build cluster.
+3. The empties and the arguables, with the carried unresolved items, harrypotter t11 and tampabaylightning t08, and saturation by kind.
+4. The form pass, the fourth-order themes, and `scheme_v2.md`. Its gate block holds the visitor rule, J's floor, the named words, help between rooms and "the work" as the room's own. Then the handback and the interview.
+
+### validate.py C1 at pass 5's close (before `done.sh`)
+
+```
+stage C1:
+  scheme_v2: 197 themes (15 rare), frozen 197, retired 0, new 0
+  assignments_final 7844 lines = assignment_items_expected
+  revised lines 2077 of 7844 (moved placements 2055)
+  empties 167 of 7844
+  a pass closed; the full set (scheme v2, assignments, the fourth-order themes, the form pass) is owed at the last pass, with the handback
+
+0 errors (0 distinct shapes), 0 warnings
+```
