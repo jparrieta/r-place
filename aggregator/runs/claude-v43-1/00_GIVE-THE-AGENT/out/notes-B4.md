@@ -162,3 +162,54 @@ warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was 
 
 0 errors (0 distinct shapes), 1 warnings
 ```
+
+## Packet 3, ruled at B4a-03 (2026-10-13)
+
+Before the first item:
+- **The conflicts pass** read packet 3's notes alone and added CC-017 to CC-025 to `coder_conflicts.jsonl` (25 lines now).
+- **Nine boundaries were ruled once** in `boundaries.md` ("Packet 3"): every new pair on which five or more items split their primaries. Three pairs from packet 2 carry over as written: T3-002|T3-033, T3-002|T3-038 and T3-004|T3-070.
+
+All 500 items are ruled, in 20 blind chunks of 25 (`out/_adjudication-B4/packet-03/rulings-NN.jsonl`). `packet-03/summary.md` holds the figures, and `adjudication_report.md` holds them with packets 1 and 2 as the interim report. In brief:
+- **Taxonomy:** genuine-joint 231, scheme-ambiguous 106, item-is-a-bag 76, author-error 45, author-disagrees 39, reader-error 3.
+- **Counts:** unresolved 7 (1.4%); named_neither 280 (56.0%), of which 123 add only themes from my B1 grouping and 157 add a theme no placement held (`out/_analysis/b4_named_neither_split.py`).
+- **Fields that failed:** must_show 54, must_not_show 26, discriminators 23, decide_when_both 3. 24 of the 26 `must_not_show` failures are the homeland flag or its emblems.
+- **Themes that failed most:** T3-004 25, T3-033 25, T3-038 11.
+- **Agreement:** before, reader against reader, 0.475 mean Jaccard and 0.598 primary match; after, each reader against the ruling, 0.473 and 0.535. The figure after fell below the figure before, the first packet where it did. It is not a reliability figure.
+- **Mapping:** `assign_final.jsonl` was rewritten (class 1 2,566, class 2 1,990, ruled 1,438, pending 1,850).
+
+What changed during the packet, and why:
+- **Three readings,** each written in `boundaries.md` where it was first met: the homeland flag's look (from item 16), a design cut down to the hands (from item 12) and a celebration while placement goes on (from item 280). catalonia t07 and packet 2's sadboys t03 were revised to match. The chunk 12 draft first read T3-009 against T3-026 by their `must_not_show` timing; T3-026's `decide_when_both` already decides the pair, so six draft lines were changed before the write.
+- **T3-170 for members' own misclicks (from item 430).** Its `must_show` names "members' own misclicks or misplaced pixels owned and forgiven". bisexual t04 and kpop t05 were revised to place it (`revisions-02.jsonl`).
+- **The append tool's support convention.** `b4_rule_append.py` (lines 131 to 145) lets the primary give up the concepts it shares with added themes where it keeps others. It does not resolve overlaps among added themes, and it refuses a placed theme only when its list equals another's. The new read-only check `out/_analysis/b4_own_support_check.py [--leg B4a-03]` lists placed themes whose concepts all sit under the ruling's other themes. It found seven (ManningPlace t05, KState t04, rainbowgrid t01, dofus t01, skyrim t03 and teamcube t04, and packet 1's nerf t08). All were rewritten by `--replace` (`packet-03/revisions-03.jsonl`, `packet-01/revisions-01.jsonl`). The check finds none over the three packets, and I ran it after every later chunk.
+- **Boundary tags.** Eleven packet 3 rulings applied packet 2's counting rule but carried no `boundary_ruling`. The tags were added with the rulings unchanged (`revisions-04.jsonl`, built by the new `out/_analysis/b4_br_tag_draft.py`); a row comparison against the superseded ledger shows only the tag, the `revised` stamp and the why changed.
+- **A log correction.** The chunk 13 line said the readers' list was taken in "11 of 17" class 4 items. The chunk holds 16 class 4 and 3 class 5 items, and a correction line says 11 of 19.
+- **QB4-001 asked.** Two sources lowered agreement. In 76 items both readers put T3-038 first, and my rulings kept it first in 27. 201 of 500 rulings place three themes, often with a one- or two-concept theme no placement held. I asked J whether packets 4 to 7 should keep adding such themes. Meanwhile packets 4 to 7 are ruled as packets 1 to 3 were.
+
+Readings applied in packet 3, to carry into the later packets:
+- **The homeland flag.** The flag of the room's land, its build, size, expansion, proportions, spot, repair and calls for hands, is T3-065. Emblems in or beside it are T3-113. A reader's T3-004, T3-020 or T3-041 on that work is scheme-ambiguous on that theme's `must_not_show`.
+- **Borders and help.** A border with no protection stated is T3-004, scheme-ambiguous on T3-055's `must_show`. "Defend" with no attacker named is T3-002. Refresh advice is T3-070. Requests received are T3-084. Permission asked of a host is T3-035, and the host's grant T3-012. Relying on a bigger room's protection is T3-099.
+- **Smaller readings:**
+  - T3-170 for members' own misclicks owned and forgiven; T3-171 for a colour or pattern faction spreading (EraseThePlace, the ss13 greytide);
+  - T3-068 for converting another's mark; T3-061 for taking a neighbour's space; T3-081 for "Campaña al desierto"; T3-130 for national politics (Brexit, imam hatip, Hayır, "Zuma Must Fall");
+  - a known mark located for a member is T3-026; a mark the room did not know of is T3-082 (CC-021);
+  - "I added a little something for my bias", T3-092's own example, goes to T3-060 by T3-092's discriminator (bangtan t10, scheme-ambiguous).
+- **Rule 0 as applied.** At most three placements. Order by concept count; ties go by how many of the three placements (reader A, reader B, my B1) hold the theme. A one- or two-concept theme is added when it passes its gate; where several tie with no placement ahead, none is added. Each placed theme has a concept of its own.
+
+National, political, hate, sexual and drug content is named in the whys as the words give it. Examples: "LULA PRESO AMANHÃ" in brasil t02 and "LULA PRESO AMANHA" in brasil t04; "some fake nigga kept replacing my work" in drugs t01; Hitler moustaches kept off Kekkonen in suomi t07; a Menorah "less prone to being plastered by swastikas" in israel t01; "Thin Blue Line" in AmericanFlaginPlace t10; "based Pinochet snek" in physical_removal t02; "dirty limies" in detroitredwings t03; "yiff me daddy /r/furry" in furry t01.
+
+The next packet is packet 4: 461 items, the last 6 of G08 and G09 to G11. Its conflicts pass runs over its notes before its first ruling.
+
+`validate.py B4`, after packet 3:
+
+```
+stage B4:
+  leg: adjudication
+  settled items 7844 = assignment_items_expected
+  rulings 1438: {'genuine-joint': 583, 'scheme-ambiguous': 291, 'reader-error': 83, 'author-error': 200, 'author-disagrees': 141, 'item-is-a-bag': 140}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 1438, outstanding 1850
+  coder conflicts 25
+
+warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was read as an adjudication leg because neither RETURN-B4.md, a stage-B4 manifest entry nor _packets-B4/ exists
+
+0 errors (0 distinct shapes), 1 warnings
+```
