@@ -505,3 +505,10 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 
 ## 2026-10-14 00:02 Berlin, QC1-003 answered
 - C1a-05 asked QC1-003 at 21:59Z: revision rate 34 errors of 200, 29 moved, 5 not appliable in C1 (harrypotter t11, tampabaylightning t08 to empty; radiohead t04, heroesofthestorm t11, stevenuniverse t02 bag swaps). Answered under J's 23:26 delegation: stay as found, file c1_unapplied.jsonl, no new verb.
+
+## 2026-10-14 00:15 Berlin, C1a-05 closed, C1a-06 started
+- C1a-05 closed 22:05Z, checkpoint a8b633e4cd2236bd, validate 0 errors 0 warnings. Revised 2,077 of 7,844; empties 167.
+- Revision rate (200 by seed 20261013, re-decided under scheme_v2): 80 of 200 differ from the current line (34 errors, 29 lean, 17 floor). 29 errors moved; 5 carried per QC1-003 in c1_unapplied.jsonl. After moves 51 of 200 differ, primary agreement 0.975. Analyst notes candidates were shown, so the rate is a lower bound.
+- Source lines: 28 decided (5 revise as 7 gates for pass 6, 4 done, 13 leave, 6 carry). Guard: 31 moves, 6 to a theme neither readers nor B1 placed (texastech t03 on two concepts, tie broken by placement counts).
+- Tokens (dedup): 123 calls, 51.6M cache read, 0.23M output.
+- C1a-06 run.

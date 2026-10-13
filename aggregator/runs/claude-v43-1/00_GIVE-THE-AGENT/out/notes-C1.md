@@ -505,3 +505,93 @@ stage C1:
 
 0 errors (0 distinct shapes), 0 warnings
 ```
+
+## Pass 6 (C1a-06)
+
+### Opening
+
+- QC1-003 was read again. Its answer had been applied before pass 5's close.
+- The views after pass 5's close show 10,586 placements against 13,365 on the settled line, and 194 themes placed. T3-140, T3-144 and T3-161 are placed nowhere.
+
+### The five revise lines, as eight gates (gates 28 to 35)
+
+The T3-043 line took three gates, not the two planned, because its gloss also gave a member's own part to T3-043. The next table lists each gate, what it now says, and its rechecks.
+
+| gate | theme, field | the amended sentence says | rechecks | moved |
+|---|---|---|---|---|
+| gate:28 | T3-017, question against T3-031 | the joke is T3-031's when played around the canvas work | 30 | 0 |
+| gate:29 | T3-001, question against T3-031 | the same, from T3-001's side ("on any day" removed) | 30 | 1 |
+| gate:30 | T3-043, gloss | thanks or credit to others, or a dispute over who made it | 183 (all) | 23 |
+| gate:31 | T3-043, must_show | "Credit given for the work to others" | 30 | 1 |
+| gate:32 | T3-043, question against T3-003 | a member's own part, during the work or after, is T3-003 | 30 | 0 |
+| gate:33 | T3-149, question against T3-025 | a pact named (T3-149), or rival marks side by side with no pact named (T3-025) | 30 | 0 |
+| gate:34 | T3-025, question against T3-149 | the same | 30 | 0 |
+| gate:35 | T3-050, question against T3-086 | taunts at a rival lead (T3-050), or the marks of a quarrel or rivalry from the community's own life (T3-086) | 30 | 0 |
+
+- **gate:29's move.** warframe t09 goes from T3-031 to T3-017. A Warframe picture day has no canvas in its words.
+- **gate:30's escalation.** Its sample moved 4 of 30, so it owed all 183 T3-043 placements. 23 moved in all:
+  - 14 lost a second T3-043 left with one or two concepts once the own parts went to T3-003;
+  - 8 gained T3-003, on three concepts or more or by a tie at the top, beside T3-043 or in its place;
+  - turkey t13 was reordered by a three-way tie, with T3-009 first.
+- **The rule I read the T3-043 rechecks by:**
+  - Only own-part concepts move.
+  - A concept the line counts for another theme stays there.
+  - An uncounted concept counts where it plainly thanks others or tells an own part.
+  - A mixed concept goes by the act its label leads with.
+  - A plural claim of who made it ("we did it on Discord") stays T3-043.
+  - A bag keeps its placed theme while T3-043 still leads. In prequelmemes t10, T3-003 cannot be listed under `also_present`, because no reader and not my B1 named it.
+- **The 38 gate pairs** were read side by side (`c1_rechecks/pairs-pass6.md`) and confirmed.
+- **Files.** The review packets are `c1_rechecks/gates-28-29-review.md`, `gates-30-32-review.md`, `gate-30-escalated-review.md`, `gates-33-34-review.md` and `gate-35-review.md`, written by the new `c1_owed_review.py`. `c1_decisions_common.py` now takes `--name` for an escalation's second decisions file.
+- **The stopping criterion.** gate:30's rechecks moved more than one in ten of its sample, so recutting goes on.
+
+### The pair test (section 5)
+
+The method was declared in the diary before computing (`c1_pair_test.py`, `c1_pair_test.json`).
+- **The pairs.** 78 pairs of third-order themes are carried by ten or more second-order themes in `assignments_final.jsonl`.
+- **The rates.**
+  - The corpus arguable rate is 0.613 (4,709 of 7,677 placed lines).
+  - Lines placing two themes or more are arguable at 0.961.
+  - 76 of the 78 pairs are ten points or more above the corpus rate, and 53 sit at 1.000.
+  - Only T3-006 | T3-068 (0.708) and T3-006 | T3-076 (0.647) are not.
+- **What the rate measures here.** The confidence value reflects the item's history. Contested items (classes 3 to 5, ruled at B4) are arguable almost throughout. Class 1 and class 2 lines, where the readers agreed, are mostly clear. Most multi-theme lines come from contested items, so a pair's rate records that its items were contested. It does not separate a joint from a lump.
+- **Owed.** The comparison stands as declared, so all 76 pairs are owed a joint, lump or unresolved call. How pass 7 reads them was declared before any reading: every item when twelve or fewer carry the pair, else twelve drawn by `random.Random(20261014).sample`.
+
+### J's guard, counted (`out/_analysis/c1_guard_C1a-06.json`)
+
+- This pass made 24 moves; 8 add a theme. 4 add a theme neither reader nor my B1 placed:
+  - harrypotter t20, T3-003 on one concept, by a tie at the top;
+  - ireland t15, T3-003 on five;
+  - smashbros t05, T3-003 on four;
+  - warframe t09, T3-017 on three.
+
+### What I doubt (pass 6)
+
+- **The direction of the T3-043 line.** I drew it by the person who speaks. T3-003's four fields already did. Drawing it by time would have moved items the other way. The B4 readers had followed T3-043's sentence where a placement held T3-043.
+- **Mixed concepts.** "I am proud that I have placed pixels... Thanks to everyone" counts once. I gave it to the act its label leads with. That choice decided DestinyTheGame t10.
+- **Concepts the line counts elsewhere stay there.** In wildhockey t08, "thanking everyone who helped make the final product" sits under T3-009 on the line. By the fields it is a thanks, and with it T3-043 would have kept three concepts.
+- **The new T3-050 question names marks only.** T3-086's must_show also takes a quarrel argued in words. falcons t16 kept T3-086 because T3-050's must_show was not met, not because of the question.
+- **The pair test's figure.** I kept a comparison that cannot separate pairs, because I declared it before computing. Reading 76 pairs on a sample of twelve each is the cost.
+
+### Slips (pass 6)
+
+- `c1_owed_review.py` printed the item list a second time when it was run again on an existing packet. It wrote nothing.
+- I classed sakuragakuin t08 as a move on the line's support alone. On its full concept list it stays. The candidates' full lists were read before any decision was written.
+
+### Next pass
+
+1. The 76 pairs, read as declared and called joint, lump or unresolved, with T3-005 | T3-021 (121), T3-009 | T3-043 (78), the homeland flag, T3-005 | T3-073 and the call cluster among them; any merge or split under rule 10's arithmetic.
+2. The empties and the arguables, with saturation by kind.
+3. The form pass, the fourth-order themes, `scheme_v2.md`, the handback and the interview.
+
+### validate.py C1 at pass 6's close (before `done.sh`)
+
+```
+stage C1:
+  scheme_v2: 197 themes (15 rare), frozen 197, retired 0, new 0
+  assignments_final 7844 lines = assignment_items_expected
+  revised lines 2101 of 7844 (moved placements 2078)
+  empties 167 of 7844
+  a pass closed; the full set (scheme v2, assignments, the fourth-order themes, the form pass) is owed at the last pass, with the handback
+
+0 errors (0 distinct shapes), 0 warnings
+```

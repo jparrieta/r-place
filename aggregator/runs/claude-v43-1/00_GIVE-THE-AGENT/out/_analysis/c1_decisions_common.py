@@ -17,6 +17,7 @@ import vlib
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--change", required=True); ap.add_argument("--reason", required=True); ap.add_argument("--special")
+    ap.add_argument("--name", help="file name under c1_rechecks/ when <ref>-decisions.json already exists (an escalation)")
     a = ap.parse_args()
     o = next((x for x in vlib.owed_rechecks(OUT, "C1") if x["ref"] == a.change), None)
     if o is None:
@@ -32,7 +33,7 @@ def main():
                 sys.exit("%s is not owed by %s" % (d["item"], a.change))
             spec[d["item"]] = d
     dec = [spec.get(i) or {"item": i, "reason": a.reason} for i in todo]
-    p = os.path.join(OUT, "_analysis", "c1_rechecks", a.change.replace(":", "-") + "-decisions.json")
+    p = os.path.join(OUT, "_analysis", "c1_rechecks", a.name or (a.change.replace(":", "-") + "-decisions.json"))
     if os.path.exists(p):
         sys.exit("%s exists" % p)
     json.dump(dec, open(p, "w", encoding="utf-8"), indent=1, ensure_ascii=False)

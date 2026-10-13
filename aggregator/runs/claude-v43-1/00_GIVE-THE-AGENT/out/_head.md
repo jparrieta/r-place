@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at C1a-05, 2026-10-13 (UTC). Stage B is closed and frozen. Stage C1 (structuring) has closed five passes. Pass 5 measured the revision rate, moved the 29 errors it found, and gave the B4 defect list and the watch items each a recorded decision.
+Under 3,000 words, rewritten whole at every close. Last written at C1a-06, 2026-10-13 (UTC). Stage B is closed and frozen. Stage C1 (structuring) has closed six passes. Pass 6 amended eight gates for the five revise lines of the B4 defect list and the watch items, and computed the pair test.
 
 ## The method question, in one sentence
 
@@ -10,11 +10,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The settled line is mostly right on the primary act and drops second acts. In the revision rate's 200 items, my re-decision under scheme_v2 agreed with the current line's primary in 0.845. In 29 items (14.5%) I would add a second act of three concepts or more that the line lacks: the lean J ruled to keep. The errors gather at one boundary: 7 of 34 sit in G09, T3-005 against T3-021, which moved at B2 and split readers again. C1's gates move few placements by recheck (45 of 904). The room that best supports the account is naruto t04: one theme for help that arrives from other rooms. The room that most threatens it is greenlattice t03: more than ten concepts ask for peace or a pact, and the line places T3-010 alone with T3-149 under `also_present`, a bag J ruled must not be cut.
+The settled line is mostly right on the primary act and drops second acts. In the revision rate's 200 items, my re-decision agreed with the current line's primary in 0.845; in 29 (14.5%) I would add a second act of three concepts or more, the lean J ruled to keep. Pass 6's T3-043 gates moved 23 of 183 placements: members telling their own part had been counted as credit. The room that best supports the account is naruto t04: one theme for help that arrives from other rooms. The room that most threatens it is greenlattice t03: more than ten concepts ask for peace or a pact, and the line places T3-010 alone with T3-149 under `also_present`, a bag J ruled must not be cut.
 
 ## Where the run stands
 
-Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed five passes. `scheme_v2.jsonl` is rebuilt by `out/_analysis/c1_scheme_v2_sync.py` from `scheme_final.jsonl`, the 27 lines of `gate_history.jsonl` and `out/_analysis/c1_tier_ops.jsonl`. It differs from the frozen scheme in 14 themes: T3-002, T3-004, T3-010, T3-011, T3-015, T3-023, T3-062, T3-063, T3-075, T3-076, T3-084, T3-095, T3-140 (rare; 15 rare in all) and T3-149.
+Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed six passes. `scheme_v2.jsonl` is rebuilt by `out/_analysis/c1_scheme_v2_sync.py` from `scheme_final.jsonl`, the 35 lines of `gate_history.jsonl` and `out/_analysis/c1_tier_ops.jsonl`. It differs from the frozen scheme in 19 themes: T3-001, T3-002, T3-004, T3-010, T3-011, T3-015, T3-017, T3-023, T3-025, T3-043, T3-050, T3-062, T3-063, T3-075, T3-076, T3-084, T3-095, T3-140 (rare; 15 rare in all) and T3-149.
 
 ## Stage C1
 
@@ -27,39 +27,31 @@ Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed five passes. `scheme_
 
 **QC1-002 (J, carry it).** Lean to one placement. A second theme needs three concepts or more of its own, the same floor as `also_present` and the lone-B1 rule. No corpus-wide sweep; the revision rate measures the lean.
 
-**QC1-003 (the handler's ruling under J's delegation, C1a-05; carry it).** Five revision-rate errors no C1 verb can apply stay as found; no verb is opened in C1, since a new verb changes the instrument and that is J's call. They are in `out/_analysis/c1_unapplied.jsonl`: harrypotter t11 and tampabaylightning t08 to be emptied; radiohead t04, heroesofthestorm t11 and stevenuniverse t02, bags whose placed theme and `also_present` should swap. List them in `notes-C1.md` and `handback-C1.md` from that file; all 34 errors count in the rate. If J opens a verb, the file is what it applies.
+**QC1-003 (the handler's ruling under J's delegation; carry it).** Five revision-rate errors no C1 verb can apply stay as found; no verb is opened in C1, since a new verb changes the instrument and that is J's call. They are in `out/_analysis/c1_unapplied.jsonl`: harrypotter t11 and tampabaylightning t08 to be emptied; radiohead t04, heroesofthestorm t11 and stevenuniverse t02, bags whose placed theme and `also_present` should swap. List them in `notes-C1.md` and `handback-C1.md` from that file; all 34 errors count in the rate. If J opens a verb, the file is what it applies.
 
-**The stopping criterion** (`notes-C1.md`). I stop recutting when every source line has a recorded decision (revise, leave, or carry with its reason) and the last pass amended no gate whose rechecks moved more than one in ten. A later cut is preferred only if it decides a recorded source without making two gates contradict each other, or moves a boundary that split readers at B2 and again at B3 or B4 toward a merge or the rare tier rather than a third sentence.
+**The stopping criterion** (`notes-C1.md`). I stop recutting when every source line has a recorded decision (revise, leave, or carry with its reason) and the last pass amended no gate whose rechecks moved more than one in ten. A later cut is preferred only if it decides a recorded source without making two gates contradict each other, or moves a boundary that split readers at B2 and again at B3 or B4 toward a merge or the rare tier rather than a third sentence. **At pass 6:** every source line has a decision, but gate:30 moved more than one in ten of its sample, so recutting goes on.
 
 **Reading rules (`notes-C1.md`), all for `scheme_v2.md`'s gate block.**
 - **The visitor rule.** A theme names an act in the record of the room whose threads hold the words. Another room's act spoken there is placed by what it is for this room.
 - **"The work"** in a field is the room's own work unless the field names another's.
 - **A bare mention of the event** holds no act; it stays unplaced.
-- **How a recheck is read.** The item moves when the old and amended sentences give different answers and the line follows the old one; a line that differs from both is listed for review.
+- **How a recheck is read.** The item moves when the old and amended sentences give different answers, J's floor applied to both, and the line follows the old one; a line that differs from both is listed for review.
 - **J's floor in every pairing sentence.** "When it has concepts of its own" is read as three concepts or more.
-- **The named words of T3-010 | T3-149.** Attack, war, fight, battle, invasion, raid and conquest name an attack. Verbs acting on a work without them are a work asked to be spared (T3-010). A pledge to leave each other alone that names no lines or space is a non-aggression pact (T3-149). A greeting "in peace", or an adverb or adjective on border talk, names no pact; the room's own members told not to attack is T3-076 or T3-024.
+- **The named words of T3-010 | T3-149** (and since gates 33 and 34, of T3-149 | T3-025). Attack, war, fight, battle, invasion, raid and conquest name an attack. Verbs acting on a work without them are a work asked to be spared (T3-010). A pledge to leave each other alone that names no lines or space is a non-aggression pact (T3-149). A greeting "in peace", or an adverb or adjective on border talk, names no pact.
 - **Help between rooms is read from either room's record** (gate:5 for T3-084, gate:27 for T3-011).
+- **Credit and own part (gates 30 to 32).** A member's own part, during the work or after, is T3-003; T3-043 is credit to others and disputes over who made it. A plural claim of who made it stays T3-043. A mixed concept goes by the act its label leads with.
 
-**Passes 1 to 4, in short.**
-- Pass 1: class 2 applied (1,990 lines on the readers' list, 2,814 B1 themes flagged); 30 re-reads.
-- Pass 2: gates 1 to 4 (April Fools, T3-095 | T3-023), gates 5 to 7 (the visitor rule in T3-084, T3-011, T3-062).
-- Pass 3: gates 8 to 14 (who calls; "both are placed"), QC1-002 and J's floor (gates 22 to 26), gates 15 to 21 (the named words).
-- Pass 4: the 22 held lines (10 bags left whole, 9 moved); 16 thin T3-084 additions dropped; gate:27 (help between rooms); the lone-B1 floor applies only where the readers' theme takes concepts; T3-140 to the rare tier.
+**Passes 1 to 5, in short.**
+- Pass 1: class 2 applied; 30 re-reads. Pass 2: gates 1 to 7 (April Fools; the visitor rule). Pass 3: gates 8 to 26 (who calls; J's floor; the named words). Pass 4: the held lines, gate:27, the lone-B1 floor revised, T3-140 to rare.
+- Pass 5: the revision rate (`out/_analysis/c1_revision/`, seed 20261013): against the current line 73 of 200 placed differently (36.5%), mean Jaccard 0.786, primary agreement 0.845; with my first answers, 80 (40.0%), 0.749, 0.805; against the settled line 99 (49.5%). 34 errors (29 moved, 5 in `c1_unapplied.jsonl`), 29 lean, 16 floor, 1 both. The B4 defect list and watch items: 28 source lines decided (`c1_source_lines_pass5.json`). survivor t28 to T3-017; shield t06 to T3-082.
 
-**Pass 5 (C1a-05).**
-- **The revision rate** (`out/_analysis/c1_revision/`, seed 20261013, 200 items). The method was declared before the draw. Against the current line: 73 of 200 placed differently (36.5%), mean Jaccard 0.786, primary agreement 0.845. Against the settled line: 99 (49.5%), 0.731, 0.845. With my first answers in place of ten corrections made after comparing: 80 (40.0%), 0.749, 0.805 against the current line.
-- **Classes:** 34 errors, 29 lean, 16 floor, 1 both. 29 errors moved with `mem.py reassign`, each taking my decision whole; 5 carried (QC1-003). After the moves the sample's primary agreement is 0.975.
-- **Source lines:** 28 lines in `out/_analysis/c1_source_lines_pass5.json`. Revise 5 (seven gates, pass 6), done 4, leave 13, carry 6.
-- **C1a-01's doubts decided.** survivor t28 moved from T3-023 to T3-017, as python t04 sits. shield t06 moved from empty to T3-082 by the visitor rule; dmt t03 stays T3-014. Empties 169 to 167.
-- **The guard.** 31 moves; 6 add a theme neither reader nor my B1 placed, five on three concepts or more, texastech t03's T3-010 on two by a tie at the top.
+**Pass 6 (C1a-06).**
+- **Gates 28 to 35**, the five revise lines (T3-043's took three gates). gate:28 and gate:29 (T3-017 and T3-001 against T3-031): 0 and 1 of 30 moved. Gates 30 to 32 (T3-043): gate:30 moved 4 of 30, escalated to all 183 T3-043 placements, 23 moved; gate:31 1; gate:32 0. Gates 33 and 34 (T3-149 | T3-025) and gate:35 (T3-050 against T3-086): 0. 38 gate pairs confirmed.
+- **The pair test** (`c1_pair_test.py`, declared first): 78 pairs carried by ten or more second-order themes; corpus arguable rate 0.613; lines placing two themes 0.961; 76 pairs materially above (0.713 or more). The confidence value marks a contested item's history, not the pair, so the rate cannot separate a joint from a lump. All 76 are owed a call; pass 7 reads them as declared.
+- **The guard.** 24 moves; 4 add a theme neither reader nor my B1 placed (T3-003 in harrypotter t20, ireland t15 and smashbros t05; T3-017 in warframe t09).
 
 **Found, owed.**
-- **Revise in pass 6:**
-  - T3-017's and T3-001's discriminators against T3-031 (both contradict T3-031's canvas condition);
-  - T3-043 against T3-003 (two gates on T3-043: the person who claims, not the time);
-  - T3-149 | T3-025, both discriminators to the named words;
-  - T3-050's discriminator against T3-086 (drop "internal").
-- **Carried to the pair test:** the homeland flag (T3-065 against T3-004, T3-020, T3-002, T3-038, T3-026); T3-005 | T3-073; the call, offer and build cluster.
+- **The 76 pairs**, read as declared in the diary: every item when twelve or fewer carry the pair, else twelve drawn by `random.Random(20261014).sample` from the sorted items. T3-005 | T3-021 (121) and T3-009 | T3-043 (78) lead; the homeland flag, T3-005 | T3-073 and the call cluster came from pass 5.
 - **Carried to the empties pass:** T3-052's four unresolved items; the unresolved single failures of B4's packet 7; harrypotter t11 and tampabaylightning t08; saturation by kind.
 
 ## J's rulings on how a ruling is made (13 October; carry them)
@@ -113,12 +105,12 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 - **From B1.** The ruling on testing G13, G14 and G15 as one index page. Seven pairs of lines telling one event; the cfb and finland records; the 76 themes holding both T3-005 and T3-021 acts. The second-order theme the scheme handles worst: argentina t06.
 - **The bag count.** J counts 841 B1 bags; an older head said 846. Not reconciled.
-- **My doubts.** Where words carry no speaker's sub I read them as the room's own. T3-084 and T3-011 hold both sides of a request or of help, so C2 cannot read direction from them alone. The named-words test splits a truce told only in pixels into T3-010. I reversed hearthstone t08's unanimous line under my own gate:1. The revision rate's packets showed every candidate theme, which narrows a re-decision toward placements already made; ten of my readings changed after comparing.
+- **My doubts.** Where words carry no speaker's sub I read them as the room's own. T3-084 and T3-011 hold both sides of a request or of help, so C2 cannot read direction from them alone. The named-words test splits a truce told only in pixels into T3-010. I reversed hearthstone t08's unanimous line under my own gate:1. The revision rate's packets showed every candidate theme. I drew the T3-043 line by person; B4's readers had often drawn it by time. The pair test's comparison cannot separate pairs, and I kept it because I declared it first.
 
 ## Ledgers at this close
 
 - B1 to B4, unchanged since B4's close: `confusions.md` (19 pairs), `scheme_final.jsonl` (197), `multiplacement_log.jsonl` (3,171), `b3_classes.jsonl` (7,844), `coder_conflicts.jsonl` (72), `disagreements.jsonl` (3,288), `assign_final.jsonl` (7,844), `reassign.jsonl` (999), `reassign-openai-astra.jsonl` (1,000), with the stage notes, transmission files and `handback-B4.md`.
-- C1: `notes-C1.md`; `assignments_final.jsonl` (7,844, 2,077 revised, 167 empty), `assign_revisions_only.jsonl` (2,076), `assignments_final.count.txt`; `scheme_v2.jsonl` (197, 15 rare); `gate_history.jsonl` (27); `rechecks-C1.jsonl` (904); `tier_history.jsonl` (393) with `c1_tier_ops.jsonl`; `gate_checks.jsonl`; `out/_analysis/c1_*.py` with `c1_rechecks/`, `c1_revision/`, `c1_guard*.json`, `c1_source_lines_pass5.json`, `c1_unapplied.jsonl` (5). `validate.py C1`: 0 errors, 0 warnings.
+- C1: `notes-C1.md`; `assignments_final.jsonl` (7,844, 2,101 revised, 167 empty), `assign_revisions_only.jsonl` (2,101), `assignments_final.count.txt`; `scheme_v2.jsonl` (197, 15 rare); `gate_history.jsonl` (35); `rechecks-C1.jsonl` (1,297); `tier_history.jsonl` (393) with `c1_tier_ops.jsonl`; `gate_checks.jsonl` (737); `out/_analysis/c1_*.py` with `c1_rechecks/`, `c1_revision/`, `c1_guard*.json`, `c1_source_lines_pass5.json`, `c1_unapplied.jsonl` (5), `c1_pair_test.json`. `validate.py C1`: 0 errors, 0 warnings.
 - Asks QB2-001 to QB2-014, QB3-001 to QB3-005, QB4-001 to QB4-003 and QC1-001 to QC1-003 are answered.
 
 ## Rules kept
@@ -131,12 +123,10 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 - The permission check refuses: shell variables set and expanded in a command; shell loops and words beginning "for_"; shell functions, brace groups and heredocs (an empty one included); awk with system() or `$` fields; env-var prefixes; cat or jq on `out/diary/`; `cut -c` after `mem.py` or a helper; `head -n -N`. Write a script file in `out/_analysis/` instead. `.git` is read-denied, and so are reads outside the run folder.
 - `mem.py` pages long output (`--offset`). A Bash output over about 30 KB cannot be read; page it. Set `timeout` up to 600000 for long writes.
 - After a compaction the guard requires the head and stage file read again and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other step.
-- In C1: rechecks through `c1_decisions_common.py` (with `c1_special_by_change.py`) and `c1_recheck_apply.py --check`, then `--write`; their moves through `c1_reassign_from_rechecks.py`; reviewed lists through `c1_reassign_list.py` (`mem.py reassign` prints "moved"; it cannot empty a line or write `also_present`, and `unplace` is B1's). After any `mem.py gate` or `c1_tier_op.py`: `c1_scheme_v2_sync.py --write`, then `c1_pairs_dump.py`, read, `c1_confirm_pairs.py`. Every move of a theme is logged `--kind move` and snapped.
+- In C1: amend one discriminator with `c1_gate_disc.py`; other fields with `mem.py gate`. Then `c1_scheme_v2_sync.py --write`; review owed rechecks with `c1_owed_review.py` (a packet, then a focus file of the counted concepts, then each candidate's full concept list); decisions through `c1_decisions_common.py` (with `c1_special_by_change.py`; `--name` for an escalation) and `c1_recheck_apply.py`, dry run first; moves through `c1_reassign_from_rechecks.py`; then `c1_pairs_dump.py`, read, `c1_confirm_pairs.py`. Reviewed lists through `c1_reassign_list.py` (`mem.py reassign` prints "moved"; it cannot empty a line or write `also_present`, and `unplace` is B1's). Every move of a theme is logged `--kind move` and snapped.
 
 ## The next comparison
 
-Pass 6 (C1a-06) first reads the views after pass 5's close. Then:
-1. The five revise lines of `c1_source_lines_pass5.json`, as seven gates with their rechecks, `mem.py gates` on each theme, and the pairs confirmed.
-2. The pair test: every pair carried by ten or more second-order themes, its arguable rate against the corpus rate, joint or lump, with the homeland flag, T3-005 | T3-073 and the call cluster among them.
+Pass 7 (C1a-07) first reads the views after pass 6's close. Then the 76 pairs of the pair test, read as declared and called joint, lump or unresolved, each with its evidence and a contrary reading; any merge or split under rule 10's arithmetic, declared with its gate and rechecks.
 
 Then the empties and arguables (with saturation by kind), the form pass, the fourth-order themes, `scheme_v2.md` (its gate block holding the reading rules above), the handback and the interview.
