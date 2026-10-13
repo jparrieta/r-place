@@ -43,7 +43,7 @@ def main():
         L.append("**Now placed:** %s" % "; ".join("%s (%d)=%s" % (x, len(sup.get(x) or []), ",".join(sup.get(x) or []))
                                                   for x in (r.get("third_order") or [])))
         L.append("")
-        mine = set(sup.get(a.theme) or [])
+        mine = set().union(*[set(sup.get(x) or []) for x in a.theme.split(",")])
         for cid in th.get("code_ids") or []:
             cd = store.codes.get((s, cid))
             if cd and cid in mine:

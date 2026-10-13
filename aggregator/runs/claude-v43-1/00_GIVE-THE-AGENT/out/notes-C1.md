@@ -232,3 +232,82 @@ stage C1:
 
 0 errors (0 distinct shapes), 0 warnings
 ```
+
+## Pass 3 (C1a-03)
+
+### QC1-001 revisited, and the views after pass 2
+
+- J's answer to QC1-001 stands: C1 rechecks place by the amended gates over the whole scheme. 34 of pass 2's 38 move reasons quote the amended clause. The other 4 (fullcommunism t05, puzzleanddragons t04, spacexmasterrace t07, yogscast t09) rest on gate:6's "called to it by the room's own members", which their concepts fail.
+- The views after pass 2's close: 10,588 placements against 13,365 on the settled line. T3-084 went from 82 to 90 placements and from 78 to 88 rooms. T3-140, T3-144 and T3-161 are placed nowhere. Eleven themes sit in one room.
+
+### Transmission's rows 2 and 4, and the pairing sentences (gates 8 to 14)
+
+- **gates 8 and 9, the T3-002 | T3-084 entry (source: mariokart t04, row 2).** Both entries now ask who calls: a member of this room calling its own members (T3-002), or help asked between rooms, another room's call reaching this room's members included (T3-084). mariokart t04's line already places T3-084 on three concepts.
+- **gates 10 to 14, the five "under rule 0" sentences of row 4.** T3-015, T3-063, T3-075, T3-004 and T3-076 said the other theme went "under rule 0", a phrase that did not transmit: in alberta t04, finland t06, korea t15 and mit t01 both readers dropped a second act with concepts of its own. The new sentences said "both are placed". 210 rechecks, 0 moved: the new sentences said what rule 0 already said. 14 lines were listed, where both readings placed a second theme the line lacked.
+- "Under rule 0" stays in the `decide_when_both` of 20 other themes with no source line. Reported, not revised.
+- **16 lines re-placed** under gates 8 to 14: the four row-4 items and 12 of the 14 listed lines. canada t09 (its removals point to r/placecanada, T3-090 by T3-015's `must_not_show`) and tf2 t05 (four themes of five or more concepts each, a bag) were held.
+- 62 gate pairs read and confirmed.
+
+### QC1-002, asked and answered
+
+- **Asked.** 11 of the 16 re-placements added a theme no reader and not my B1 placed, 8 of them on class 1 lines. The contract's rule 0 makes one placement the default. Should C1 keep placing both themes, or lean to one with a threshold?
+- **J's answer (22:12 Berlin):** lean to one placement. A pairing sentence adds the second theme only when the second act has three concepts or more of its own, the floor of `also_present` and the lone-B1 rule. Keep the re-placed lines that meet it, revert the others, and write the floor into the five sentences.
+- **Applied** (`out/_analysis/c1_revert_floor.py`). 7 lines keep their added theme: alberta t04, placestart t04, lsu t01, nyjets t12, uoft t12, unitedkingdom t10 and muse t06. 8 return to their placement before the move: finland t06, korea t15, DatBoi t01, unturned t08, wallstreetbets t02, slovenia t03, notredame t05 and czech t04. mit t01 keeps T3-020 (three concepts) and drops T3-033 (one).
+- **gates 22 to 26** write the floor into the five sentences, and into T3-004's T3-066 clause. 150 rechecks, 5 moved, at most 2 of 30 per gate: quebec t13, stlouisblues t13, thailand t10, mexico t12 and sonicthehedgehog t09 each lose a second theme on one or two concepts. argentina t13 and cubers t24 keep both themes: uncounted concepts lift the smaller act to five or six under either sentence. pakistan t18 and starbound t08 keep both: they tie at two, and rule 0 places all tied themes.
+- **The floor as a reading rule.** Twelve more pairing sentences add a theme "when it has concepts of its own" (T3-066's against T3-004, and eleven naming T3-010). J asked for the floor in five sentences, and his answer states it for every pairing sentence. I read the others under it rather than amend them. It goes into `scheme_v2.md`'s gate block beside the visitor rule. The lines it would move outside the samples are not swept (J); the revision rate measures them.
+
+### The G14 proposals, and the T3-010 | T3-149 line (gates 15 to 21)
+
+- **Taken.** The T3-010 | T3-149 boundary did not move at B2 (its B2 edits copied one-way discriminators), so section 1's warning against a third sentence does not bar it. The old question turned on whether a deal "forestalls a fight", which no reader can see. Fresh readers of both arms swapped the pair (sweden t03, dbz t05, colombia t03). gates 15 and 16 rewrote the question: "Do the words name peace, a truce, a ceasefire or a stop to attacks between the rooms (T3-149), or only lines, pixels, overlap and space, with no attack named (T3-010)?"
+- Five fields of the pair still carried the old test and then contradicted the new question: T3-010's `must_show` ("no fight to end"), `must_not_show` and `decide_when_both`, and T3-149's `must_not_show` and `decide_when_both`. My stopping criterion forbids two gates that contradict each other. gates 17 to 21 replace those words with the same named words. T3-010's `must_show` now lists "a work asked to be spared".
+- **Left, with no wording defect I can quote:** narrowing T3-010's `must_show` further, a T3-010 | T3-011 discriminator, a family `decide_when_both`. The T3-084 | T3-062 proposal was met by gates 5, 7 and 9.
+- **How the rechecks read the words.** Attack, war, fight, battle, invasion, raid and conquest name an attack. Verbs acting on a work (destroy, overwrite, touch, mess with), with none of those words, are a work asked to be spared (T3-010). A pledge to leave each other alone that names no lines or space is a non-aggression pact (T3-149). I read the old sentence's "forestall" as forestalling named in the words. Under that reading the old and new sentences differ only where a fight had begun and the deal's words name only space.
+- **210 rechecks over 182 lines** (triage in `out/_analysis/c1_rechecks/gates-15-21-words.md`). 2 moved, 1 of 30 at most per gate:
+  - cubers t07: c0051, a deal over side colours, leaves T3-149 for T3-010. Three themes tie at six, and T3-010 comes first on placements.
+  - Goodboye t02: c0006, c0007 and c0020 ask for borders and a work spared and go to T3-010. T3-149 keeps one concept and comes off under J's floor.
+- **20 lines listed for review.** In each, both sentences place T3-149 with three concepts or more, or another theme leads, and the line lacks it: TheFarLeftSide t06, australia t10, belgium t11, bostonbruins t05, buffalo t04, canada t05, cubers t09, de t05, evex t04, funhaus t03, greenlattice t03, minnesotavikings t12, poland t03, rickandmorty t03, ripcity t04, stevenuniverse t05, tagpro t06, trees t10, turkey t06 and undertale t07. In most of them the readers counted the truce words for no theme. This is the same lean QC1-002 named, now on the T3-010 | T3-149 pair.
+- **67 gate pairs** of the seven themes amended in gates 15 to 26 read and confirmed. Watch items: T3-149 | T3-151 and T3-149 | T3-025 still ask whether a fight is ended or forestalled; T3-140's "under rule 0" is read under the floor.
+
+### J's guard, counted (`out/_analysis/c1_guard_C1a-03.json`)
+
+- 32 moves this pass. 16 added a theme, 11 of them a theme neither reader nor my B1 placed.
+- After the floor, 6 lines still carry such a theme, each on three concepts or more: alberta t04 T3-076, lsu t01 T3-004, nyjets t12 T3-006 and uoft t12 T3-076 (class 1), muse t06 T3-076 (class 3), unitedkingdom t10 T3-076 (class 4).
+- placestart t04 (T3-084, nine concepts) and mit t01 (T3-020, three) carry a theme only my B1 had placed.
+- The other 16 moves take a theme off or reorder: 9 under the floor, 2 under gates 20 and 21, 5 under gates 22 to 26.
+
+### What I doubt (pass 3)
+
+- **The named-words test splits episodes by wording.** A truce that ends a fight but whose words name only pixels now goes to T3-010. That is the price of a line readers can see. Ties broken by placements then decide primaries, as in cubers t07.
+- **"Destroy" read as a work spared.** "Please stop destroying our borders" (Goodboye t02) asks for a stop to destruction under way. I read it by its words, a work asked to be spared, because "destroy" is not an attack word in the list. A reader could fairly call it a stop to attacks.
+- **The floor in rechecks.** J wrote the floor for a pairing sentence adding a theme. In Goodboye t02 I also used it to take off a theme the readers had placed, once the amended words left it one concept.
+- **mexico t12.** The floor kept T3-075 only by counting the uncounted c0230, a request to condense that T3-075's `must_show` takes. A reader who reads it as T3-015 would leave both themes below three.
+- **Catchphrases.** "Peace among worlds" (rickandmorty t03, undertale t07) is a show's sign-off. The named-words test counts it, and the listing says so.
+
+### Slips (pass 3)
+
+- `cut -c` after a helper was refused; `head -n -2` failed on this system; a command with an empty heredoc was refused. Each was rerun without the refused form.
+- `c1_decisions_common.py` first refused a change-keyed special file. It now takes one.
+- `c1_revert_floor.py` wrote finland t06, then stopped: it looked for "reassigned" where the tool prints "moved". The check was fixed and the rest written once.
+- The first triage regex counted "treaty" and "pact" as truce words, which hid three T3-149 concepts naming only a treaty (eagles t15, gravityfalls t05, thailand t08). They were read before any decision; none moves its line.
+
+### Next pass
+
+1. The 20 lines listed at gates 15 to 21, and canada t09 and tf2 t05, reviewed under J's floor.
+2. The visitor sweep (23 items in `c1_guard.json`, and gate:5's reach as in placestart t04) and the "help received" question.
+3. The lone-B1 floor's review in the six items where it keeps a fitting theme out.
+4. The themes placed nowhere (T3-140, T3-144, T3-161) and the eleven in one room.
+5. The promotions of flagged class 2 records, europe t14 and kingdomhearts t03 (T3-095) among them; pass 2's six listed lines.
+6. The revision rate (200 placements by seed), then the pair test, the empties and arguables, the form pass, the fourth-order themes and `scheme_v2.md` with the visitor rule and the floor in its gate block.
+
+### validate.py C1 at pass 3's close (before `done.sh`)
+
+```
+stage C1:
+  scheme_v2: 197 themes (14 rare), frozen 197, retired 0, new 0
+  assignments_final 7844 lines = assignment_items_expected
+  revised lines 2039 of 7844 (moved placements 2030)
+  empties 175 of 7844
+  a pass closed; the full set (scheme v2, assignments, the fourth-order themes, the form pass) is owed at the last pass, with the handback
+
+0 errors (0 distinct shapes), 0 warnings
+```
