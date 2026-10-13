@@ -25,3 +25,4 @@
 {"t": "2026-10-13T06:31:03Z", "tool": "Bash", "why": "room reads are read whole (J, 2026-10-11): no cut -c, cut -b or colrm after mem.py, cite.py or a helper. To narrow a page, pass --width N to mem.py: it clips and the read log records it."}
 {"t": "2026-10-13T10:30:46Z", "tool": "Bash", "why": "room reads are read whole (J, 2026-10-11): no cut -c, cut -b or colrm after mem.py, cite.py or a helper. To narrow a page, pass --width N to mem.py: it clips and the read log records it."}
 {"t": "2026-10-13T12:09:54Z", "tool": "Bash", "why": "Your context was compacted. Before any other step: Read out/_head.md in full. (The summary of the compacted context is not the record; the head and the diary are.)"}
+{"t": "2026-10-13T15:28:30Z", "tool": "Bash", "why": "Your context was compacted. Before any other step: Read out/_head.md in full; then run python3 tools/mem.py diary --last 5. (The summary of the compacted context is not the record; the head and the diary are.)"}

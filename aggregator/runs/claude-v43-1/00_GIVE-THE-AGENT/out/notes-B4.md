@@ -794,3 +794,73 @@ warn   _packets-B4/G01.md mentions a ruling, an adjudication or the gold key; no
 
 0 errors (0 distinct shapes), 9 warnings
 ```
+
+## Stratum R, the 18 from U and A read again in R packets (B4b-p4, 2026-10-13)
+
+J at 17:21 Berlin, on the B4b-p3 build: "We should have 685 in total" (the PI's message of 15:26Z). That is 250 in U, 250 in A and all 185 unresolved items in R. The PI's reading at 17:10, that the 18 unresolved items in U and A count in R from their U and A readings, was wrong. This replaces what the B4b-p3 declaration said of those 18. The rest of it stands: R is all 185 unresolved rulings, diagnostic, reported apart and never pooled with U or A, and no fresh reading changes a ruling. Nothing has been dispatched.
+
+### Declared before the build
+
+- **The 18 join R as R's own items.** The 3 unresolved items in U and the 15 in A are R's items, served again in R's own packets. U and A stay as drawn: their 500 items, their 34 packets and their orders 1 to 500 do not change.
+- **Each arm reads these 18 items twice,** once in their U or A packet and once in an R packet, in different reader sessions.
+  - Each reading counts only in the stratum of the packet it came from. The U or A reading is scored against the settled line as declared at B4b, where an unresolved settled item leaves that denominator and is counted. The R reading is scored as R's.
+  - No reading counts in two strata, and the two readings of one item are never pooled.
+- **685 lines due per reader set:** 500 in U and A, 185 in R. They hold 667 distinct items; the 18 are the only items served twice.
+- **No draw, one order.** The 18 are sorted by room and theme id, then served in the order `random.Random("20261013:R-ua-order").shuffle` gives, orders 668 to 685.
+- **The R record.** `out/sample-B4-R.jsonl` (185 lines, B4b-p3) is kept as `out/sample-B4-R.superseded-B4b-p3.jsonl` and rewritten.
+  - All 185 lines are read in R packets, orders 501 to 685.
+  - A new field `also_in` gives "U" or "A" for the 18 and null for the other 167. The 18 lines get their order, read_in "R" and a new `joined` text; the 167 lines change in nothing else.
+- **R's denominator, per arm.** 185 items, 370 readings, all from R packets, so R is read in one context throughout.
+  - The diagnostic is the one declared at B4b-p2: the readers' agreement with each other by stage B2's definition, primary beside it; whether primaries meet; whether fresh placements fall among reading A's, reading B's and my B1's placements.
+  - The B4b-p3 split of R by reading context is withdrawn.
+  - On the 18 only, R's readings are set beside the same arm's U or A readings of the same items: whether the readers' agreement with each other and their placements differ between the two packet contexts. This is a side note on 18 items, reported apart.
+- **The packets.** The 18 go into `out/_packets-B4/` beside the 46, under the same §10 rules: fleet ids, B2's renderer, the same brief and end line, at most 15 items, each file under 50 KB, no sibling block, bag flag, stratum or ruling, and the largest packet as small as the caps allow. Names run on from `S05-47`. No packet says that an item is served elsewhere. The exception for an item over the ceiling alone carries over if it arises.
+- **The other records.**
+  - `MANIFEST.json` gains the new entries only; the 46 entries stay. The manifest as it stands is kept first as `out/_analysis/packets-B4_MANIFEST_before_R_ua.json`.
+  - `out/_analysis/b4b_order_R_ua.json` records the new packets' items.
+  - A new read-only check, `out/_analysis/b4b_packets_check4.py`, allows exactly the 18 repeats: each served once in orders 1 to 500 and once in orders 668 to 685, and no other item served twice.
+  - `run_manifest.json` gains an entry that supersedes entry 15 and names the 685 lines, the order stream, and the packet counts.
+
+### The record
+
+`out/_analysis/b4b_R_ua.py --write`.
+- **Files.** `out/sample-B4-R.jsonl` holds 185 lines, all read in R packets, orders 501 to 685. The B4b-p3 record (185 lines) is kept as `out/sample-B4-R.superseded-B4b-p3.jsonl`. The run's record is `out/_analysis/b4b_sample_R_ua.json`. `sample-B4.jsonl` is unchanged.
+- **The 18 from U and A** take orders 668 to 685 in the order of `Random("20261013:R-ua-order")`, with `also_in` "U" for 3 and "A" for 15. By class: 3 three, 4 nine, 5 six. By taxonomy: scheme-ambiguous 7, author-disagrees 11. None is a gold or pilot item.
+- **The other 167 lines** gain `also_in` null and change in nothing else; the script compares each with its B4b-p3 line before writing.
+
+### The build
+
+- **The packets.** `out/_analysis/b4b_packets_R_ua.py --write` uses the B4b builder's renderer, brief, end line and checks. It wrote `S05-47` (8 items, 4,576 bytes) and `S05-48` (10 items, 4,318 bytes) beside the 46: the fewest packets the caps allow. The largest item is 1,474 bytes. Fleet ids only; no room-id-like string stands in participants' words.
+- **Before writing,** the 46 packets matched their MANIFEST sha256, no `S05-47` existed, each of the 18 was among the 500 in the stratum its `also_in` names, and none was served in `S05-35` to `S05-46`.
+- **The manifest file.** `MANIFEST.json` was first kept as `out/_analysis/packets-B4_MANIFEST_before_R_ua.json`, then given the two new entries only: 48 entries, 685 lines due. `out/_analysis/b4b_order_R_ua.json` records the new packets' items.
+- **The check.** `out/_analysis/b4b_packets_check4.py` found 0 errors:
+  - 685 items served in orders 1 to 685, 667 of them distinct, each translating back to its room;
+  - exactly the 18 are served twice, each once in orders 1 to 500 and once in orders 668 to 685;
+  - the earlier entries of B4b (34), B4b-p2 (36) and B4b-p3 (46) are unchanged.
+- **Hint words.** The check lists 24 lines with a word that could hint at a decision, the same 24 as at B4b-p3. `S05-47` and `S05-48` add none.
+- **The run manifest.** Entry 16 of `run_manifest.json` (`out/_analysis/b4b_manifest5.py`) supersedes entry 15, which stays. It records:
+  - R's 185 members, all read in R packets, the order stream "20261013:R-ua-order", the R record's sha256 and both superseded copies;
+  - 685 lines due in 48 packets (8 to 15 items, 4,318 to 49,994 bytes), 667 distinct items;
+  - `n_agents` 2, with 96 reader sessions an arm;
+  - R's 370 readings an arm, all from R packets, and the side note on the 18 beside their U or A readings.
+- **The arms** are as declared at B4b. Both read all 48 packets. Nothing has been dispatched.
+
+### What I doubt
+
+- **R is now read in one context, and it is a thin one.** All 185 R items sit in fourteen packets, `S05-35` to `S05-48`, that hold only unresolved items. That removes the B4b-p3 split, but R's figures still describe unresolved items read among unresolved items. They cannot be set beside U's or A's figures as a measure of the items alone.
+- **The side note on the 18 mixes two causes.** Each arm reads each of the 18 in two packets, in different reader sessions. A difference between the two readings is the packet context's and the reader's together. With 18 items and two readers in each packet, it is a side note, not a measure of context.
+
+`validate.py B4`, at B4b-p4's close:
+
+```
+stage B4:
+  leg: build
+  settled items 7844 = assignment_items_expected
+  rulings 3288: {'genuine-joint': 1651, 'scheme-ambiguous': 451, 'reader-error': 152, 'author-error': 571, 'author-disagrees': 208, 'item-is-a-bag': 255}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 3288, outstanding 0
+  coder conflicts 72
+
+warn   _packets-B4/G01.md mentions a ruling, an adjudication or the gold key; no hint that these items were decided before reaches a blind reader (section 10). Read the packet.  [9 lines with this shape; first: G01.md]
+
+0 errors (0 distinct shapes), 9 warnings
+```

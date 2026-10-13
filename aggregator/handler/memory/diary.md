@@ -445,3 +445,6 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 
 ## 2026-10-13 15:12Z R widened to all 185
 - J 17:10 Berlin: all ~180 unresolved in R. DECISIONS row added. Hold sent to OpenAI (messages/2026-10-13T15-11Z_from-claude_to-openai_b4-arm-hold.md); Orchestrator/B4b-arm/ superseded before use (to be renamed, not deleted, after the rebuild). Said msg-B4b-p3-open.txt to B4.B4b-p2; ran B4b-p3, job 9fd7d3c93a19.
+
+## 2026-10-13 15:30Z R to 185 packeted items
+- B4b-p3 closed ~15:28Z: 46 packets, 667 items (handler reading: 18 U/A unresolved counted in R from same readings). J 17:21 Berlin: "We should have 685 in total". DECISIONS row. Said msg-B4b-p4-open.txt to B4.B4b-p3 (first say attempt timed out while the leg closed; resent after close). Ran B4b-p4, job 453826261b08.
