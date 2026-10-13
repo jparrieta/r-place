@@ -790,5 +790,96 @@
   "supersedes": "the first B4b entry (written 2026-10-13T14:31:03Z), which carried the reader count only inside each arm",
   "n_agents": 2,
   "n_agents_note": "two fresh readers per item in each arm (section 10); 68 reader sessions an arm, 34 packets x 2"
+ },
+ {
+  "stage": "B4",
+  "leg": "B4b-p2",
+  "step": "the blind sample's build (stage B4 section 10)",
+  "written_utc": "2026-10-13T14:53:31Z",
+  "measures": "transmission after revision (FLEET.md): fresh readers against the settled line; not reliability",
+  "model": "two arms on the same packets, reported apart and never pooled; no Claude reader",
+  "arms": {
+   "1": {
+    "model": "DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash), the routine readers of B2 and B3, for comparability",
+    "route": "the reader route arm.json sets for B4 (PLATFORM-claude.md: @preset/cheap x2 via gateway); the served model, route and provider as the dispatch records them in out/_fleet_raw/B4/arm.json",
+    "readers_per_item": 2,
+    "replications": 2,
+    "dispatch": "one dispatch by the operator's fleet.py; each packet to two fresh readers, never the same reader for both readings of an item",
+    "reasoning_effort": "as arm.json sets for B4 (B3's arm: medium, max_tokens 128000)",
+    "n_agents": 72
+   },
+   "2": {
+    "model": "OpenAI gpt-6-astra",
+    "reasoning_effort": "medium",
+    "replications": 2,
+    "readers_per_item": 2,
+    "run_by": "the Codex orchestrator on J's computer, from a copy of out/_packets-B4/, under the same RETURN-B4.md",
+    "n_agents": 72
+   }
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by each arm's dispatch (fleet.py for arm 1, the Codex orchestrator for arm 2)"
+  },
+  "seeds": {
+   "sample": 20261013,
+   "streams": {
+    "U": "20261013:U",
+    "A": "20261013:A",
+    "order": "20261013:order"
+   },
+   "frame_order": "sorted by (room, theme id)",
+   "packets": "cut consecutively from the serving order, the largest packet as small as the caps allow (deterministic)",
+   "streams_R": {
+    "R": "20261013:R",
+    "order": "20261013:R-order"
+   }
+  },
+  "sample": {
+   "items": 518,
+   "strata": {
+    "U": "250 uniform without replacement from the analysed set (7,844)",
+    "A": "250 uniform without replacement from the 3,288 ruled items U did not take",
+    "R": "18 uniform without replacement from the 167 unresolved rulings not in sample-B4.jsonl (J, 16:43 Berlin: 'draw other 18'); diagnostic, reported apart, never pooled with U or A"
+   },
+   "strata_reported": "apart, never pooled",
+   "ruling": "J, 12 October (replaces section 10's fifty and fifty)",
+   "unresolved_in_A": 15,
+   "unresolved_in_U": 3,
+   "file": "out/sample-B4.jsonl, sha256 2fe441cd7262425b11595d7a9ae93fcfade547bfe8a541ed9e5ac140e291124a (never served)",
+   "file_R": "out/sample-B4-R.jsonl, sha256 1d0c75a645867c71c3f80f14e80086a6bdc851f6ccd86b8d0229a665fb87f778 (never served)",
+   "unresolved_already_drawn": {
+    "U": 3,
+    "A": 15
+   }
+  },
+  "settled_line": "out/assign_final.jsonl, sha256 d3506a8871eeb106d934824e342acb374931501c2b4dd377cc277094624bcd6b (never served)",
+  "R": 2,
+  "packets": 36,
+  "lines_due_per_reader_set": 518,
+  "comparisons_per_arm": 1000,
+  "caps": "at most 15 items a packet (J's cap at B2 and B3) and every packet file under 50 KB (section 10); no parts",
+  "packet_bytes": {
+   "min": 5947,
+   "max": 49994
+  },
+  "items_per_packet": {
+   "min": 8,
+   "max": 15
+  },
+  "exemplars": "none served",
+  "bag_flags": "none served",
+  "sibling_blocks": "none served",
+  "shared_pages": "index.md and G01.md to G21.md, byte for byte the pages served at B3",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B4.md, sha256 0c1fb067a1a4e4529b0b9f635b963166a13354edcf7bd4ab1d0dc855c4c87e98",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "agreement": "stage B2's definition, unchanged (notes-B2.md): Jaccard on sets, alpha with distance 1 - Jaccard and chance over pooled sets, primary beside; pass 1 only",
+  "build": "out/_analysis/b4b_sample.py, b4b_packets.py, b4b_packets_check.py; out/_packets-B4/; B4b-p2: b4b_sample_R.py, b4b_packets_R.py, b4b_packets_check2.py; S05-35 and S05-36",
+  "supersedes": "the B4b entry written 2026-10-13T14:34:27Z (34 packets, strata U and A); this one adds stratum R and its two packets",
+  "n_agents": 2,
+  "n_agents_note": "two fresh readers per item in each arm (section 10); 72 reader sessions an arm, 36 packets x 2",
+  "comparisons_note": "1,000 readings of U and A against the settled line (their unresolved items excluded and counted at the check); R's 36 readings an arm have no settled line: the readers' agreement with each other, whether primaries meet, and whether placements fall among the item's earlier placements"
  }
 ]

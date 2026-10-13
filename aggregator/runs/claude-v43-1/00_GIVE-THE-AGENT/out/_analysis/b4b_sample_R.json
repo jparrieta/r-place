@@ -1,0 +1,35 @@
+{
+ "seed": 20261013,
+ "streams": {
+  "R": "20261013:R",
+  "order": "20261013:R-order"
+ },
+ "n": 18,
+ "frame": "the 185 unresolved rulings of disagreements.jsonl not in sample-B4.jsonl, sorted by (room, theme id)",
+ "frame_size": 167,
+ "already_drawn": [
+  "Dustforce/t02",
+  "FlipnoteStudio3D/t02",
+  "albania/t01",
+  "anarcho_capitalism/t17",
+  "azerbaijan/t02",
+  "bostonceltics/t03",
+  "catalonia/t04",
+  "chicago/t01",
+  "flashtv/t12",
+  "germany/t08",
+  "kindafunny/t03",
+  "metalcore/t14",
+  "oneplus/t05",
+  "raocow/t08",
+  "satania/t09",
+  "schoolidolfestival/t11",
+  "suomi/t26",
+  "wholesomememes/t23"
+ ],
+ "sample_B4_sha256": "2fe441cd7262425b11595d7a9ae93fcfade547bfe8a541ed9e5ac140e291124a",
+ "disagreements_sha256": "ec740989dd78235db579b3d958bb1d486fcd607968684e8b5aa6c1e76eb382ec",
+ "assign_final_sha256": "d3506a8871eeb106d934824e342acb374931501c2b4dd377cc277094624bcd6b",
+ "sample_R_sha256": "1d0c75a645867c71c3f80f14e80086a6bdc851f6ccd86b8d0229a665fb87f778",
+ "script": "out/_analysis/b4b_sample_R.py"
+}

@@ -432,3 +432,7 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Tokens (dedup by message id): 257 calls, 137.3M cache read, 1.9M cache write, 0.9M output. B4a total 7 legs: 928.1M cache read, 6.2M output.
 - Ledger 3,288 of 3,288, one line per item. Pure adds 0 in all seven packets. Packet 7: unresolved 24, named_neither 108. Totals: genuine-joint 1,651, author-error 571, scheme-ambiguous 451, item-is-a-bag 255, author-disagrees 208, reader-error 152; coder conflicts 72.
 - Said B4b build job to B4.B4a-07 (handler/memory/analysis/2026-10-13-msg-B4b-build-open.txt); ran B4b, job b97b18f37ab7, running at 14:27Z.
+
+## 2026-10-13 14:55Z B4b closed; B4b-p2 for the extra 18
+- B4b closed 14:48Z (list stopped at packets-out): 34 packets S05-01..34, 500 items (U 250, A 250, seed 20261013), largest packet 49,994 bytes, validate 0 errors, 8 warnings (G*.md scheme pages mention a ruling word; analyst read 22 such lines in notes-B4.md and judged them participants' or coders' words; handler to check).
+- J 16:43 Berlin "draw other 18": logged in DECISIONS; said to B4.B4b (msg-B4b-02-open.txt, plus a correction naming the leg B4b-p2 since legs.py takes B4b once). Ran B4b-p2.
