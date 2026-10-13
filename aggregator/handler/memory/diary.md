@@ -426,3 +426,9 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 
 ## 2026-10-13 12:45Z
 - OpenAI orchestrator preflight reply (12:37Z): gpt-6-astra medium, Codex CLI 0.160.0, fresh codex exec per reading, no tools, isolation to be verified before any packet. Acked with the reader-ID substitution rule (2026-10-13T12-43Z_from-claude_to-openai_b4-third-arm-preflight-ack.md).
+
+## 2026-10-13 14:25Z B4a-07 closed; adjudication complete
+- B4a-07 closed by the list at 14:20:19Z, checkpoint f39b281ea0ade70a, validate 0 errors (warn: RETURN-B4.md owed by the build leg). No push failure reported.
+- Tokens (dedup by message id): 257 calls, 137.3M cache read, 1.9M cache write, 0.9M output. B4a total 7 legs: 928.1M cache read, 6.2M output.
+- Ledger 3,288 of 3,288, one line per item. Pure adds 0 in all seven packets. Packet 7: unresolved 24, named_neither 108. Totals: genuine-joint 1,651, author-error 571, scheme-ambiguous 451, item-is-a-bag 255, author-disagrees 208, reader-error 152; coder conflicts 72.
+- Said B4b build job to B4.B4a-07 (handler/memory/analysis/2026-10-13-msg-B4b-build-open.txt); ran B4b, job b97b18f37ab7, running at 14:27Z.

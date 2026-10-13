@@ -521,3 +521,107 @@ warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was 
 
 0 errors (0 distinct shapes), 1 warnings
 ```
+
+## The blind sample, built at B4b (2026-10-13)
+
+The PI's message for this leg (14:22Z) carries J's rulings for it:
+- The sample is 500 items, 250 drawn uniformly from the analysed set and 250 from the adjudicated items, by a recorded seed, the two strata reported apart and never pooled (J, 12 October). This replaces §10's fifty and fifty.
+- Two fresh DeepSeek V4.1 Flash readers per item, on the reader route `arm.json` sets for B4, for comparability with B2 and B3.
+- A second arm on the same packets: OpenAI gpt-6-astra at medium effort, two replications, run on J's computer by the Codex orchestrator from a copy of my packets, reported apart and never pooled. No Claude reader.
+- The packets are built once, for both arms. Both arms are declared here and in the manifest entry. Nothing else in §10 changes: no ruling, ledger, note or hint in any packet.
+
+### Declared before the draw
+
+- **What it measures.** Transmission after revision (FLEET.md): whether fresh readers holding only the frozen scheme reach the settled line. It is not reliability and is never called that. The settled line is each item's standing placement in `assign_final.jsonl` as at the B4a-07 close. No packet carries it.
+- **Stratum U, uniform.** 250 items drawn uniformly at random, without replacement, from the analysed set: the 7,844 second-order themes of `assign_final.jsonl`. It says whether the scheme decides the ordinary item. About 42% of the analysed set was adjudicated, so U will hold adjudicated items; they stay in U and are reported in U.
+- **Stratum A, adjudicated.** 250 items drawn uniformly at random, without replacement, from the 3,288 ruled items of `disagreements.jsonl` that U did not take. It says whether my rulings can be reached by a stranger. Drawing A from what U left keeps the strata disjoint, so each item is served once and counts in one stratum only.
+- **What stays in the frame.** Items with an unresolved ruling stay; the check leg excludes their readings from the fresh-against-settled denominator and says how many (§12). Gold and pilot items stay as corpus items; nothing marks them.
+- **No redraw.** No drawn item is swapped out for any reason.
+- **The seed: 20261013.** U is `random.Random("20261013:U").sample` over the analysed set sorted by room and theme id. A is `random.Random("20261013:A").sample` over the ruled items U did not take, in the same order. The serving order is `random.Random("20261013:order").shuffle` of the 500, with the strata mixed, so no packet shows a stratum. The script is `out/_analysis/b4b_sample.py`. It writes `out/sample-B4.jsonl`, which holds each item's stratum, sits outside the packets folder and is never served.
+- **Arm 1, the fleet's readers.** DeepSeek V4.1 Flash, two fresh readers per item, one dispatch, each packet to two readers, never the same reader for both readings of an item. The route is the one `arm.json` sets for B4; my platform file lists "@preset/cheap x2 via gateway". `CONTROL/arm.json` is outside what I may read, so the served model, route, effort and decoding are taken from the dispatch's `_fleet_raw/B4/arm.json` at the check.
+- **Arm 2, J's second arm.** OpenAI gpt-6-astra at medium effort, two replications, run by the Codex orchestrator on J's computer from a copy of `out/_packets-B4/`, under the same `RETURN-B4.md`. Reported apart; never pooled with arm 1.
+- **The comparisons.** For each arm, each reading is compared with the settled line on its own: 500 items × 2 readings = 1,000 comparisons, a rate over readings, reported per stratum (500 each). The two readers' agreement with each other is reported beside it, per stratum. Strata, arms and the two kinds of figure are never pooled.
+- **The agreement definition: stage B2's, unchanged** (`notes-B2.md`, "which stages B3 and B4 reuse unchanged"). Two placement sets agree by their Jaccard index; `["T3-004"]` against `["T3-004","T3-011"]` scores 0.5, partial agreement. Alpha is Krippendorff's alpha with distance 1 − Jaccard, over items run at more than one reader; chance correction is over sets, the expected disagreement computed from all the placement sets of the comparison, pooled. Exact agreement on the primary is reported beside, never in place. Scoring reads pass 1 only, as at B3.
+- **Exemplars: none.** Stage B3 served none (its manifest entry: "none served").
+- **No bag flags.** B3's packets marked some items as flagged bags from my B1 grouping. Here a flag would show the reader something of my reading, so no item is marked. A reader may still return a bag under the return specification.
+- **The packets** (`out/_analysis/b4b_packets.py`, into `out/_packets-B4/`):
+  - The shared pages come from `scheme_final.jsonl` through `tools/packets.py`'s `scheme_pages`: `index.md` and `G01.md` to `G21.md`, no exemplars, each under 50 KB.
+  - Item packets carry fleet ids only (J), rendered by stage B2's renderer (`b2_packets_fleet.py`): the heading with the room and the fleet theme id, the label, the note, and each concept under its fleet id with the participants' words. `tools/packets.py B4` writes room ids, the fault behind QB3-003, so the builder is a script on B2's renderer, as at B2 and B3.
+  - No sibling block (as `packets.py B4` and stage B2), no bag flag, no stratum, no ruling, no reader's line and no hint that the items were decided. Packets are named `S05-NN`, as `packets.py B4` names them. Each holds a title, the brief with its own item count, the items and the end line.
+  - Caps: at most 15 items a packet (J's cap at B2 and B3) and every packet file under 50 KB (§10 and FLEET.md), cut consecutively from the serving order so that the largest packet is as small as the caps allow.
+  - One item of the analysed set exceeds the ceiling on its own: leagueoflegends t02, 89,162 bytes rendered (`out/_analysis/b4b_item_sizes.py`; the next largest is 48,324). If the draw takes it, it is served alone in a packet of its own under B2's and B3's shape (at most 180,000 bytes of item text, J). That is the one exception, declared here before the draw.
+  - `MANIFEST.json` gives per packet the items, bytes, item bytes, sha256, count key and excludes, and `codes_by_item` for `fleet.py`'s citation check. It names no stratum.
+  - The build stops on a room id in an id position, a canvas field, or a broken cap other than the declared exception.
+- **`RETURN-B4.md` as at B3.** It holds rule 0 in the contract's words, the prediction line, the return line, the multiplacement record, the second pass, the end marker and the confirm line, with B3's fields. It changes only where the packets differ: no sibling block and no flagged bag; the batch is the packet name; the replicate is as given with the reader id. Keeping B3's task lets the figures stand beside B3's.
+- **The manifest entry** on stage A1's schema (both arms, the seed, decoding, reader counts) is appended to `run_manifest.json` before the first packet leaves.
+
+### The draw
+
+`out/_analysis/b4b_sample.py --write`, seed 20261013, as declared. `out/sample-B4.jsonl` holds 500 lines (sha256 2fe441cd…); the record is `out/_analysis/b4b_sample.json`. The next table gives the two strata.
+
+| stratum | items | rooms | class 1 | class 2 | class 3 | class 4 | class 5 | ruled | unresolved | gold | pilot |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| U, uniform | 250 | 204 | 87 | 53 | 81 | 28 | 1 | 110 | 3 | 2 | 2 |
+| A, adjudicated | 250 | 202 | 0 | 0 | 180 | 63 | 7 | 250 | 15 | 2 | 2 |
+
+- Stratum A was drawn from the 3,178 ruled items U did not take; the strata are disjoint.
+- leagueoflegends t02, the one item over the ceiling alone, was not drawn, so the declared exception does not arise.
+- The settled line is `assign_final.jsonl` at sha256 d3506a88… (`disagreements.jsonl` ec740989…). The check leg reads these files, not anything in the packets.
+- No item was redrawn.
+
+### The build
+
+- **`RETURN-B4.md`** is RETURN-B3.md's specification with the changes declared above. Its rule 0 is the contract's current wording. RETURN-B3.md had carried the wording from before J's amendment of 11 October (the `also_present` record and the concepts behind a placement), while B3's index page, built by `scheme_pages` from the contract, already carried the amended rule. So B3's readers saw two wordings, and B4's readers see one. The builder refused to build until RETURN-B4.md matched the contract (`out/_analysis/b4b_rule0_diff.py`). The fields a reader returns are unchanged from B3.
+- **The packets** (`out/_analysis/b4b_packets.py --write`, in `out/_packets-B4/`):
+  - `index.md` and `G01.md` to `G21.md`, byte for byte the pages served at B3, the largest 33,636 bytes.
+  - 34 packets, `S05-01` to `S05-34`, cut consecutively from the serving order. They hold 10 to 15 items and run 21,280 to 49,994 bytes; 34 is the fewest the caps allow. The largest item is 25,636 bytes.
+  - `MANIFEST.json`: 500 lines due, with `codes_by_item` for each packet.
+  - `out/_analysis/b4b_order.json` records which items each packet holds. It sits outside the packets folder.
+- **Fleet ids only.** nyjets t11 is in the sample; its coder note names c0104, which is served under its fleet id with the words unchanged, as at B3. No room-id-like string stands in participants' words in these packets.
+- **The check** (`out/_analysis/b4b_packets_check.py`): 0 errors.
+  - The folder holds only the 22 pages, the 34 packets and `MANIFEST.json`.
+  - Each packet is under 51,200 bytes, ends with the end line, and agrees with its MANIFEST entry and its brief's count.
+  - The 500 items are served once each, in the serving order, and each heading's fleet id translates back to its room.
+  - Each item's concept lines are exactly its `codes_by_item`.
+  - No packet holds a third-order id, a room id in an id position or a canvas field.
+  - 22 lines carry a word that could hint at a decision ("ruling", "settled", "disagree", "unresolved"). I read all 22: each is a coder's label or note or the participants' words ("once we settled down", "I disagree", "ruling that logos are art", a note's "unresolved search for responsibility"). None speaks of my rulings.
+- **The manifest.** Entry 12 of `run_manifest.json` (stage B4, leg B4b; `out/_analysis/b4b_manifest.py`) declares:
+  - arm 1, DeepSeek V4.1 Flash, two readers per item on the route `arm.json` sets for B4, 68 agents;
+  - arm 2, OpenAI gpt-6-astra at medium effort, two replications by the Codex orchestrator on J's computer, 68 agents;
+  - decoding as each arm's dispatch sets it; the seed and its three streams; 500 items, 34 packets and 1,000 comparisons an arm;
+  - the caps; no exemplars, bag flags or sibling blocks;
+  - the sha256 of the scheme, `RETURN-B4.md` (0c1fb067…), the sample and the settled line.
+- **The manifest, corrected.** `validate.py B4` found that entry 12 carried the reader count only inside each arm, with no `n_agents` at the top. I did not edit it. Entry 13 (`out/_analysis/b4b_manifest2.py`) is a copy with `n_agents` 2 (two fresh readers per item in each arm; 68 reader sessions an arm) and a `supersedes` field naming entry 12, which stays in the file.
+- **The validator's warnings.** Eight files mention "ruling" or "unresolved". I read all 13 lines:
+  - `G01.md` (T3-093's `must_show`, "jokes about ruling") and `G14.md` (six lines on T3-162, "a host ruling on requests") are the frozen scheme's words, served byte for byte at B3.
+  - S05-02, S05-10, S05-13, S05-17, S05-19 and S05-33 hold coders' labels and notes and participants' words.
+  - None speaks of my rulings. The scheme is frozen and the coders' words are served as written, so the warnings stand as read.
+- **What the dispatch needs.** Arm 1: `out/_packets-B4/` and `out/RETURN-B4.md`, each packet to two fresh readers. Arm 2: a copy of the same folder and the same `RETURN-B4.md`. The check leg will read the returns from `_fleet_raw/B4/`, translate them back through `fleet_ids.jsonl`, and score each arm and each stratum apart.
+
+### What I doubt
+
+- **The disjoint strata are my reading of J's ruling.** "250 drawn uniformly from the analysed set and 250 from the adjudicated items" could also mean two independent draws that may share items. I drew A from what U left so that no item is read twice and counted in both strata. U still holds 110 ruled items, about the 42% the analysed set holds, and they are reported in U.
+- **The task differs from B3's in three ways the stage requires:** no sibling block, no bag flags, and rule 0 in one wording. A difference between the B4 and B3 figures may come partly from these, not only from the scheme.
+- **Two arms on one packet set.** Arm 2's readers are a different model family, run outside the fleet's dispatch. Their figures say whether the written instrument decides for another architecture. They are never pooled with arm 1's.
+
+### Slips
+
+- My first manifest entry put the reader count only inside each arm; the validator caught it, and entry 13 supersedes it.
+- A diary line named G01's warning theme with a placeholder in place of its id; the next line corrected it to T3-093.
+
+The build leg closes with `done.sh B4 --cut packets-out`. The dispatch is not mine. The next launch of stage B4 is the check leg.
+
+`validate.py B4`, at the build's close:
+
+```
+stage B4:
+  leg: build
+  settled items 7844 = assignment_items_expected
+  rulings 3288: {'genuine-joint': 1651, 'scheme-ambiguous': 451, 'reader-error': 152, 'author-error': 571, 'author-disagrees': 208, 'item-is-a-bag': 255}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 3288, outstanding 0
+  coder conflicts 72
+
+warn   _packets-B4/G01.md mentions a ruling, an adjudication or the gold key; no hint that these items were decided before reaches a blind reader (section 10). Read the packet.  [8 lines with this shape; first: G01.md]
+
+0 errors (0 distinct shapes), 8 warnings
+```

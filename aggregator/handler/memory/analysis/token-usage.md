@@ -24,10 +24,10 @@ Source: each leg's `CONTROL/snapshots/<leg>/transcript.jsonl`. One API call is w
 | B2d scoring | 1 | 46 | 92 | 0.2M | 32.4M | 0.1M |
 | B3a build and gold check | 2 | 68 | 136 | 0.3M | 44.5M | 0.1M |
 | B3b assemble and check | 1 | 93 | 186 | 0.3M | 18.8M | 0.1M |
-| B4a adjudication, packets 1 to 6 | 6 | 1,669 | 3,338 | 11.8M | 790.9M | 5.3M |
-| **Total** | 122 | 21,683 | 43,338 | 73.2M | 10,630.9M | 24.5M |
+| B4a adjudication, packets 1 to 7 | 7 | 1,926 | 3,852 | 13.7M | 928.1M | 6.2M |
+| **Total** | 123 | 21,940 | 43,852 | 75.1M | 10,768.2M | 25.5M |
 
-B4a per leg (cache read / output): B4a-01 88.5M / 0.5M; B4a-02 99.2M / 0.6M; B4a-03 139.0M / 0.8M; B4a-04 108.7M / 1.0M; B4a-05 177.8M / 1.3M; B4a-06 177.6M / 1.1M (369 calls).
+B4a per leg (cache read / output): B4a-01 88.5M / 0.5M; B4a-02 99.2M / 0.6M; B4a-03 139.0M / 0.8M; B4a-04 108.7M / 1.0M; B4a-05 177.8M / 1.3M; B4a-06 177.6M / 1.1M (369 calls); B4a-07 137.3M / 0.9M (257 calls).
 
 ## DeepSeek fleet on OpenRouter
 
