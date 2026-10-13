@@ -407,3 +407,8 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 2026-10-13T07:10Z: J 09:09 extended rule (1) to also_present (bakchodi t09 T3-006 was analyst-only). Sent to B4a-05.
 2026-10-13T07:20Z: QB4-002 from B4a-05 (07:13Z): does a reader's own also_present count as named? Meanwhile analyst reads named = placed. Relayed verbatim to J.
 2026-10-13T07:21Z: QB4-002 answered (J: yes, reader also_present counts as named; restore interim removals).
+2026-10-13T08:44Z: B4a-05 closed ~08:38Z (0 errors, 1 expected warning; 766 turns, 1,532 in, 5,882,154 cache-write, 327,481,018 cache-read, 3,258,361 out; re-ruled 378 items in packets 1 to 4, corrected also_present on 128 lines, ruled packet 5 (409, 3 unresolved); 2,308 of 3,288 ruled, 980 outstanding). Ledger: 0 pure adds in all five packets. Pushed (checkpoint b8b4a5e7). B4a-06 started (packet 6, 500 items). Analyst doubt on lone B1 themes relayed to J.
+2026-10-13T08:58Z: Token log written, handler/memory/analysis/token-usage.md (Claude legs deduplicated by message id; DeepSeek CSV by dispatch). Found: harness cost.json sums every transcript row, so it double or triple counts; all earlier handler token reports from cost.json are about 2x too high. Not fixed in the harness; J to decide.
+2026-10-13T08:54Z: QB4-003 from B4a-06 (08:44Z, bag test and reader also_present); relayed to J.
+2026-10-13T09:30Z: QB4-003 answered (J: count them; apply to packet 6 and the 43 listed rulings).
+2026-10-13T10:29Z: J 12:28 left the lone-B1 choice to the analyst (may adapt code definitions). Sent to B4a-06 verbatim with the three options.

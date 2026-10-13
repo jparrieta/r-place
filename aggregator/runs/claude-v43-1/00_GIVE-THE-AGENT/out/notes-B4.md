@@ -350,3 +350,88 @@ warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was 
 
 0 errors (0 distinct shapes), 1 warnings
 ```
+
+## Packet 6, ruled at B4a-06 (2026-10-13)
+
+Before the first item:
+- **The conflicts pass** read packet 6's notes alone and added CC-049 to CC-062 to `coder_conflicts.jsonl` (62 lines now). The two that explain most splits: CC-049 (the room's joking written as one practice whether about the canvas, the sub's April Fools change, its ordinary talk or a rival) and CC-052 (G15's truces, alliances, help and borders as one practice, as CC-037 in packet 5).
+- **Eight boundaries were ruled once** in `boundaries.md` ("Packet 6"): T3-010|T3-149, T3-017|T3-031, T3-001|T3-031, T3-023|T3-031, T3-150|T3-151, T3-031|T3-050, T3-018|T3-031 and T3-018|T3-052, with T3-010|T3-151 carried from packet 5 and the pairs below five applied as met.
+- **QB4-003 asked** during chunk 5: whether a theme a reader listed under its own `also_present`, and no placement holds, counts in the bag test. Meanwhile a bag needed four placed themes.
+
+### QB4-003, answered, and the revisit
+
+J's answer (11:29 Berlin): "count them. Themes a reader listed under its own also_present count in the bag test. Apply it to packet 6 and to the 43 rulings in packets 1 to 5 that out/_analysis/b4_bag_named_check.py lists, keeping the superseded ledger." The test as applied from item 126 is written in `boundaries.md` ("The bag test after QB4-003"): the themes counted are the placed themes and the readers' own `also_present` themes; a named theme's concepts of its own are those its `must_show` takes that no placed theme in the ruling already holds; four themes with three concepts of their own make a bag; the bag places the largest act a placement holds; a placed theme with three concepts is never cut by the limit of three.
+
+The revisit read 64 lines (43 in packets 1 to 5 and 21 in packet 6's items 1 to 125): 45 became bags and 19 were kept, where the readers' listed concepts did not hold three under the named theme's test. Four slips outside the list, where four placed themes with three concepts each had been cut at the limit, became bags: utaustin t05 and japan t05 (packet 6), loliconsunite t02 (packet 4) and lebanon t02 (packet 5). pcmasterrace t10 (packet 5), on the list, had also cut two placed themes at the limit. New tools: `b4_bag_view.py` (read-only; one item's readings, ledger line and named-only concepts) and `b4_bag_draft.py` (a bag re-rule draft from a short spec). Drafts and specs: `out/_adjudication-B4/rerule-bag-B4a-06/`. After packet 6, the check flagged seven packet 6 bags that could list one more named theme. Six hold two concepts or fewer under the test (de t11's T3-009, fivenightsatfreddys t08's T3-084, philippines t08's T3-072, turkey t06's T3-151, cfb t02's T3-150, frankocean t05's T3-084 and T3-011, EraseThePlace t06's T3-149). chibears t10 was a slip: reader A's T3-050 holds three, and it was re-ruled with T3-050 under `also_present` (`spec-06-084.json`; old ledger `disagreements.superseded-20261013T111959Z.jsonl`).
+
+Carried open: 26 older bags in packets 1 to 5 could list more named themes; J named only the 43. The packet 4 item 197 `also_present` note carries unchanged.
+
+### J's answer on lone B1 themes, and the rule I chose
+
+The PI relayed J's answer at 10:28Z (12:28 Berlin): "Whatever the agent feels more comfortable with. They can also adapt the code definition if needed". The options J saw: (1) leave it, my B1 a full placement; (2) a theme only my B1 placed beats two agreeing readers only with three or more concepts of its own; (3) when both readers agree their list stands and my B1 is a note.
+
+I chose option (2) with a condition. In class 4, a theme only my B1 placed stands against the two agreeing readers only with three concepts or more of its own; with fewer it is left out and named in the why. The readers' list then stands where its test takes concepts; where my reading finds it takes none, the item is unresolved, and no one-concept theme of mine is put in its place. Class 3 is unchanged.
+
+Why. Two independent readers agreeing is the case where my B1 carries the author's pull most. Three concepts is the scheme's own floor for a theme of its own. Option (3) would make the adjudication measure obedience and would force a readers' theme whose test takes nothing.
+
+Earlier packets: `b4_lone_b1_check.py` (new, read-only) found 250 class 4 rulings in packets 1 to 6 keeping a lone B1 theme, 130 under three concepts. `b4_lone_b1_draft.py` (new) built the drafts in `out/_adjudication-B4/rerule-loneb1-B4a-06/`; six `--replace` parts, old ledgers `disagreements.superseded-20261013T103259Z` to `-103319Z`. 130 lines changed: packet 1 11, packet 2 29, packet 3 31, packet 4 20, packet 5 23, packet 6 16; author-error 83, author-disagrees 40, scheme-ambiguous 7; unresolved 30. After packet 6 the check finds 144 class 4 rulings keeping a lone B1 theme, every one with three concepts or more.
+
+### The figures
+
+All 500 items are ruled, in 20 blind chunks (`out/_adjudication-B4/packet-06/rulings-NN.jsonl`). `packet-06/summary.md` holds the figures, and `adjudication_report.md` holds them with packets 1 to 5 as the interim report. In brief:
+- **Taxonomy:** genuine-joint 256, author-error 83, scheme-ambiguous 71, author-disagrees 51, item-is-a-bag 20, reader-error 19.
+- **Counts:** unresolved 49 (9.8%); named_neither 145 (29.0%), every one from my B1 alone, none beyond the placements.
+- **Fields that failed:** must_show 31, must_not_show 8, decide_when_both 0, discriminators 32. The sentences that failed most: T3-017's discriminator against T3-031 (24) and T3-001's (8), both the canvas condition; T3-018's `must_show` (5); T3-052's `must_show` (4); T3-004's `must_not_show` (4, the homeland flag).
+- **Agreement:** before 0.454 mean Jaccard and 0.510 primary match; after 0.600 and 0.595. Not a reliability figure. Items 1 to 316 (G15 to G19) 0.446 before, 0.593 after; items 317 to 500 (G20) 0.468 and 0.616.
+- **Class 4 (134):** the readers' list taken in 87, a B1 theme kept in 32 (each with three concepts or more), unresolved 15.
+- **Boundary tags:** T3-010|T3-149 28, T3-017|T3-031 24, T3-001|T3-031 9, T3-010|T3-151 6, T3-150|T3-151 5, T3-023|T3-031 5, T3-018|T3-052 5, T3-031|T3-050 4, T3-018|T3-031 1.
+- **Mapping:** `assign_final.jsonl` rewritten (class 1 2,566, class 2 1,990, ruled 2,808, pending 480).
+- **Packets 1 to 6:** 2,808 rulings; genuine-joint 1,348, author-error 482, scheme-ambiguous 421, item-is-a-bag 238, author-disagrees 186, reader-error 133; unresolved 161; named_neither 649; agreement before 0.489, after 0.642.
+
+### Readings applied in packet 6, to carry into packet 7
+
+- **G15 to G17.** Deals as in packet 5. The homeland flag's calls, build, spot, size and repair count toward T3-065 where a placement holds it, and toward the placed T3-002, T3-004, T3-020, T3-021 or T3-038 where none does; national pictures beside it are T3-113; national feeling through the flag T3-145.
+- **G18.** T3-086 is the community's own quarrel carried onto the canvas (Hello Internet's flag quarrel, halo t14's FixMCC, Bitcoin's scaling split, the Texans' FTC mark). T3-130 is national politics; T3-080 a political symbol argued over, partisan marks included; T3-081 a canvas fight told in a nation's real history of war or occupation, not war talk between fandoms (T3-135); T3-179 ideology argued from the canvas.
+- **G19.** T3-050 is taunts at a rival community, even in the joke register; T3-142 jokes about a people; T3-143 a joke's limits argued; T3-182 bigotry in the room's own talk answered; T3-146 and T3-177 covering and calling for swastikas. T3-154 takes victory claimed or rivals called defeated; T3-050 mockery with no victory claimed; T3-155 a salute after the fight. T3-099 needs the bigger room's size in the words; T3-078 kinship in the words. Visitors' help counts toward T3-011; requests received toward T3-084.
+- **G20.** The canvas condition: a joke with the canvas in the words is T3-031; with none, T3-017, and April Fools play with nothing posted as true goes to a placed T3-017 or is left out. T3-016 takes the event, its rules, the heat map and why subs make pictures. A glitch used to place more is T3-088, coped with T3-074, explained T3-016. A figure worked out with a reason or a correction is T3-018; a bare name for a neighbour's figure T3-052; a mock reading kept up as a joke T3-031. T3-105 keeps records; T3-057 remakes them as wallpapers, memes or copypasta. A bare title naming r/place shows no act.
+- **The level rule as applied.** A theme alone at its level is kept, even after a theme with more concepts was dropped at a higher level for not leading it on placements (cmu t05 keeps T3-018 at one concept after T3-009 at two; russia t13 keeps T3-050 after a top tie).
+
+### What I doubt
+
+- **The three-concept floor is my choice.** J let me choose. A theme of mine with exactly three concepts still overrides two agreeing readers (trees t07's stoner talk, T3-017; portugal t38's copypasta, T3-057). Class 3 still keeps my one-concept themes when they lead their level, which is most of packet 6's 145 named_neither.
+- **The level rule past a dropped theme.** Keeping a one-concept theme alone at a lower level after a two-concept theme was dropped above it follows the rule's words, but it can keep a smaller act and drop a larger one.
+- **The words or the thread.** I read the canvas condition from the concept's words. In bakchodi t19 I counted a correction of a bot's joke in a post about the canvas as canvas talk; in oneshot t11 and wholesomememes t23 I did not count side talk under a canvas post. The line is mine.
+- **What I knew and the words did not say.** In serbia t04 I wrote "the 1999 war on the town's refinery" from 'Pančevo, proleće 1999' and 'gori rafinerija nafte'; the words give the date and the burning, not the war. In leagueoflegends t05 and kerbalspaceprogram t02 I read a sub change from the concepts' own words ('R/THE_MERRILL', 'the memeification', the banner). In 4chan t22 I did not take reader B's word that the board merger was the site's April Fools joke.
+- **T3-052 when the room has no mark.** shitredditsays t03 placed T3-052 on a survey of the whole canvas; the test names pictures "around the room's mark".
+- **Unresolved rose to 49.** Most are G20's bare titles and room jokes with no canvas in the words, as in packet 1. I did not push them to a placement.
+
+### Slips
+
+- After a compaction, I read the chunk 13 file and fetched tests before re-reading the head and logging the reconciliation line; the line was logged before any write.
+- A chunk 6 diary line conflated two items ('BASH ... filthy blue tiles' and purplecorner t02); a later line corrected it.
+- The QB4-003 revisit was first logged as 63 lines read, 45 re-ruled and 18 kept; the chunk 7 log corrected it to 64, 45 and 19, with four slips outside the list.
+- Five rulings had cut a fourth placed theme with three concepts at the limit of three, against the bag test; each was re-ruled as a bag (utaustin t05, japan t05, loliconsunite t02, lebanon t02, pcmasterrace t10). After packet 6, chibears t10 had left reader A's named T3-050 unweighed; re-ruled.
+- The chunk 17 dry run refused item 423 for T3-130 with no concept; the draft was fixed before the append.
+- The guard refused `cut -c` after a helper script once; the command was re-run without it. A word the guard refuses appeared once in a Bash command.
+- Rewriting `adjudication_report.md`, I shortened the packet 1 to 5 boundary paragraphs and `validate.py` found 10 pairs with no paragraph; they were restored from the B4a-05 text. The last Edit to the report and the validator run that checked it went in one turn.
+
+### Content named
+
+National, political, hate and slur content is named in packet 6's whys as the words give it, for example: 'Turkish scum DEUS VULT' and 'Mission remove kebab' (lithuania t09); 'REMOVE KEBAB' and 'CRUSADE against the infidel' (CKCrusaders t06); 'momo nigger chinky' and 'Designated Shitting Streets' (bakchodi t03); 'Porkistanis' and 'the paki flag is completely bhagwa now' (bakchodi t04); 'Islamic loving fucks' and 'burned by bhagwa' (bakchodi t18); 'dhotiwalas' and 'Katus' (pakistan t16); 'Hitler did nothing wrong' (texas t15) and 'Hitler hat nichts falsch gemacht' (kerbalspaceprogram t02); 'make the reich happen' (germany t05); 'Germany needs more lebensraum' (unitedkingdom t08); 'extra-jurisdictional excursions into Mexican living space' (ukplace t04); the 4chan flag 'basiert auf der Reichskriegsflagge', 'Operation Annexion' and 'Nacht und Nebel Aktion' (de t11); 'can we make France fascist?' (de t13); a Nazi flag and 'a huge racist flag' (eagles t15); the swastika petitions and calls (achievement_hunter t02, roosterteeth t11); 'heil harley' at a swastika (homestuck t12); 'white is right' and r/WhiteRights (EraseThePlace t08); 'jontron is a white supremacist' (h3h3productions t47); the call to put MH17 back on the Russian flag (thenetherlands t02); 'Hayır' above the Turkish flag (turkey t11); 'the fascist scourges' and the YPG and Rojava flags (kurdistan t04); 'teach WORST KOREA a lesson' (stlouisblues t03); 'greedy french people' (egypt t02); 'vastaškim moderatorima' (croatia t07); 'raça mestre feup' (portugal t38); 'solo nosotros italianos somos los ladrones' and Trump's wall (mexico t17); 'your going to elect a fascist' (france t11); the canvas called fit for Finns with autism (suomi t25); 'Faggot', 'Bullfags', 'Gay Unicorn' and the homophobic slur in costa_rica t10.
+
+The next packet is packet 7: 480 items, the rest of G20 and G21. Its conflicts pass runs first.
+
+`validate.py B4`, after packet 6:
+
+```
+stage B4:
+  leg: adjudication
+  settled items 7844 = assignment_items_expected
+  rulings 2808: {'genuine-joint': 1348, 'scheme-ambiguous': 421, 'reader-error': 133, 'author-error': 482, 'author-disagrees': 186, 'item-is-a-bag': 238}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 2808, outstanding 480
+  coder conflicts 62
+
+warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was read as an adjudication leg because neither RETURN-B4.md, a stage-B4 manifest entry nor _packets-B4/ exists
+
+0 errors (0 distinct shapes), 1 warnings
+```
