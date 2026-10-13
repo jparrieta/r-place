@@ -412,3 +412,17 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 2026-10-13T08:54Z: QB4-003 from B4a-06 (08:44Z, bag test and reader also_present); relayed to J.
 2026-10-13T09:30Z: QB4-003 answered (J: count them; apply to packet 6 and the 43 listed rulings).
 2026-10-13T10:29Z: J 12:28 left the lone-B1 choice to the analyst (may adapt code definitions). Sent to B4a-06 verbatim with the three options.
+
+## 2026-10-13 12:00Z B4a-06 closed, B4a-07 started
+- B4a-06 closed by the list at 11:53:41Z, checkpoint b60803af2b2dd887, validate 0 errors (1 warning: RETURN-B4.md owed by the build leg). No push failure reported by legs.py.
+- Tokens, deduplicated by message id: 369 calls, 177.6M cache read, 2.3M cache write, 1.1M output. token-usage.md and the per-leg json updated.
+- Ledger 2,808 rulings, 480 outstanding. Pure adds 0 in all six packets. Packet 6: 500 ruled, unresolved 49 (packets 2 to 5: 19, 9, 12, 6), named_neither 145.
+- Lone-B1 choice: analyst chose option (2) with a condition (class 4: a B1-only theme stands against two agreeing readers only with >= 3 concepts; otherwise readers' list, or unresolved if its test takes nothing; class 3 unchanged). Re-ruled 130 class 4 lines in packets 1 to 6. No code definition change found in notes-B4.md, _head.md or adjudication_report.md.
+- QB4-003 applied: 45 of 64 revisited lines became bags, plus 4 slips.
+- Said B4a-07 job to B4.B4a-06 (handler/memory/analysis/2026-10-13-msg-B4a-07-open.txt); ran B4a-07, job 4ef28e4e15fb.
+
+## 2026-10-13 12:35Z B4b OpenAI arm
+- J 14:33 Berlin: OpenAI arm on his computer via the Codex orchestrator, two replications per packet. Wrote Orchestrator/messages/2026-10-13T12-34Z_from-claude_to-openai_b4-blind-sample-third-arm.md (procedure, blindness, fresh session per reading, verbatim saves, mechanical validation, questions). Folder B4b-arm/ to be built after the B4b build leg closes.
+
+## 2026-10-13 12:45Z
+- OpenAI orchestrator preflight reply (12:37Z): gpt-6-astra medium, Codex CLI 0.160.0, fresh codex exec per reading, no tools, isolation to be verified before any packet. Acked with the reader-ID substitution rule (2026-10-13T12-43Z_from-claude_to-openai_b4-third-arm-preflight-ack.md).

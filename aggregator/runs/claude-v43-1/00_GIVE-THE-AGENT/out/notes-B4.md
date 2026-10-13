@@ -435,3 +435,89 @@ warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was 
 
 0 errors (0 distinct shapes), 1 warnings
 ```
+
+## Packet 7, ruled at B4a-07 (2026-10-13)
+
+The PI's message for this leg: rule packet 7 (480 items, the rest of G20 and G21), the last packet, conflicts pass first, under J's rulings (1) and (2), the `also_present` ruling of 09:09 Berlin, the answers to QB4-002 and QB4-003, and the lone-B1 rule I chose under J's answer of 12:28 Berlin. I read QB4-003's answer with `mem.py asks` before the first write. Every packet 7 item was ruled under all of these from its first ruling; nothing in the packet waited on an answer.
+
+Before the first item:
+- **The conflicts pass** read packet 7's notes alone and added CC-063 to CC-072 (72 lines now). The one that explains most splits is CC-063: the room's account of its finished work written as one practice (celebrating, crediting, thanking, saving, mourning, telling).
+- **Three boundaries were ruled once** in `boundaries.md` ("Packet 7"): T3-009|T3-073 (B2's pair 9), T3-009|T3-043 (B2's pair 14) and T3-029|T3-073, with the pairs below five applied as met.
+
+### The figures
+
+All 480 items are ruled, in 20 blind chunks (`out/_adjudication-B4/packet-07/rulings-NN.jsonl`), with two corrections (`corrections-01.jsonl`). `packet-07/summary.md` holds the figures, and `adjudication_report.md` is now the full report over the seven packets. In brief:
+- **Taxonomy:** genuine-joint 303, author-error 89, scheme-ambiguous 30, author-disagrees 22, reader-error 19, item-is-a-bag 17.
+- **Counts:** unresolved 24 (5.0%); named_neither 108 (22.5%), every one from my B1 alone, none beyond the placements; 77 of the 108 place three themes.
+- **Fields that failed:** must_show 25, discriminators 4, must_not_show 1, decide_when_both 0. Most failed sentences do not say whose work, whose picture or which room's feeling they mean: T3-052's `must_show` 4, T3-009's 3, T3-164's 3, T3-037's, T3-111's and T3-117's 2 each.
+- **Agreement:** before 0.500 mean Jaccard and 0.650 primary match; after 0.669 and 0.731. Not a reliability figure. Items 1 to 53 (the rest of G20) 0.544 before, 0.663 after; items 54 to 480 (G21) 0.495 and 0.670.
+- **Class 4 (118):** the readers' list taken in 91 (3 bags), a B1 theme kept in 18 (1 bag), each with three concepts or more, unresolved 9.
+- **Boundary tags:** T3-009|T3-043 62, T3-009|T3-073 29, T3-029|T3-073 18, T3-009|T3-117 10, T3-073|T3-105 8, T3-009|T3-038 5, T3-054|T3-111 5, T3-057|T3-105 3, T3-018|T3-031 3, T3-009|T3-104 3, T3-105|T3-156 3, T3-031|T3-135 2, T3-009|T3-026 2, T3-038|T3-065 2.
+- **Checks:** `b4_own_support_check.py` 0; `b4_lone_b1_check.py --packets 7`: 18 kept lone B1 themes, all with three concepts or more; `b4_bag_named_check.py --packets 7` flagged 8 lines, each already weighed in its why, none changed; `b4_both_readers_dropped.py` (new): 5 lines, each a theme with no concept of its own, none dropped by the level rule.
+- **Mapping:** `assign_final.jsonl` rewritten: 7,844 lines (class 1 2,566, class 2 1,990, ruled 3,288, pending 0).
+- **All seven packets:** 3,288 rulings; genuine-joint 1,651, author-error 571, scheme-ambiguous 451, item-is-a-bag 255, author-disagrees 208, reader-error 152; unresolved 185 (5.6%); named_neither 757 (23.0%); agreement before 0.491, after 0.646.
+
+### Readings first applied in packet 7
+
+Each is named in its rulings' whys and in `boundaries.md`:
+- **Themes both readers placed.** A theme both readers placed, with a concept of its own, is not dropped by the level rule on a placement count only my B1 tips (kanye t28, msu t11). Two earlier rulings were corrected under it or for a miscount (ChronoTrigger t06, mindcrack t11).
+- **The clone canvas.** The rebuild, the calls to it and its progress count toward T3-054; acts it does not name (the timer, a chat) toward their own themes (catholicism t09; twice t18 scheme-ambiguous).
+- **The room's own work.** "The work" in T3-073 and T3-058 is the room's own (uvic t04, destiny t08, pathofexile t17, hungary t07).
+- **A report that names the attacker.** The report leads (T3-073); T3-087 takes who is behind the damage or why (nbaspurs t13, overwatch t14).
+- **T3-082** takes only a mark the room did not know of (mysterydungeon t08, MiamiHurricanes t06).
+- **T3-111** does not reach a standing community's new project (forsen t11, paladins t21).
+- **Cleaned copies** of the final canvas after the lock are records, T3-105.
+- **T3-156** takes only a mark from the canvas; theme or header art the words do not tie to the canvas is T3-017 (fivenightsatfreddys t14, trees t12); flairs with no canvas mark are T3-185 (THE_R t04).
+
+### Defects for stage C1, from packet 7
+
+Logged here and in `adjudication_report.md`; the scheme is untouched:
+- T3-003's discriminator against T3-043 speaks only of crediting others; T3-043's discriminator against T3-003 sends parts claimed after the work to T3-043. They should say the same thing.
+- T3-073's and T3-058's `must_show` do not say "the room's own work".
+- T3-054's `must_show` against T3-038's and T3-002's: no field says which takes calls and progress on a later canvas.
+- T3-111's "the canvas sub's or chat's future" and a standing community's new project.
+- T3-087's discriminator against T3-058 and one person traced after the close (T3-058 takes only a room or group).
+- T3-117's "regret at the end" and a late reader's regret or question.
+- T3-021's "cleaning stray ones" and a cleaned copy after the lock.
+- T3-164's `must_show` and attachment to a flag, a creed read into a mark, or solidarity of unknown origin.
+- T3-009's "the work said to have lasted to the end" against T3-073's "what survived".
+- T3-052's "Pictures around the room's mark" and a picture whose owner or place the words do not give.
+- Single sentences: T3-154's "implied rivals", T3-044's newcomers, T3-156's discriminator against T3-031, T3-038's discriminator against T3-009, T3-131's, T3-127's, T3-011's and T3-082's `must_show`, T3-029's discriminator against T3-183, T3-017's `must_not_show`, and T3-063's `must_show` for a post that is not a canvas post (CC-004).
+
+### What I doubt
+
+- **My B1 against two agreeing readers.** Under the lone-B1 rule a theme of mine with three concepts stood against both readers in 18 class 4 items. Several rest on a reading of mine about the words: that Kekistan is another room's work (destiny t08), that theme and header art is not from the canvas (fivenightsatfreddys t14, trees t12), that alarms call the room to the fight (overwatch t14). A stranger may not read them so.
+- **The clone-canvas reading is mine.** T3-054's `must_show` names the rebuild; T3-038's and T3-002's also take progress and calls. I chose T3-054 and logged the defect.
+- **"The act its words lead with."** I used it to place a concept that does two acts, beyond the T3-009|T3-043 pair where it was written (DCFU t03, Goodboye t11, portugal t29, Rainbow6 t16, nbaspurs t13). It decides some rulings on word order.
+- **Fragment quotes and coders' labels.** Where a concept's quote is a fragment ('Two wars', 'Ended 3am on a weekday'), I read the coder's label with it (dwarffortress t11, straya t10, cirkeltrek t10, twice t17); where the quote is whole and says less than the label, I read the words (SquareSpiral t14's request offer was left out). The line is mine.
+- **Three themes in class 3.** 77 of the 108 named_neither rulings place three themes: my B1 adds a third act beside the two the readers split on, often one concept alone at its level (TransFlagPlace t13's T3-132). The level rule allows it; it is still my pull.
+- **Sad faces.** Whether ':(' after an account voices grief decided several T3-029|T3-073 rulings. I followed T3-029's `decide_when_both` and let the account lead where the sad face trails (geometrydash t07, rangers t13).
+
+### Slips
+
+- Two packet 7 rulings were wrong when first written and were corrected through `--replace`: mindcrack t11 (T3-029's placements miscounted) and ChronoTrigger t06 (T3-157, placed by both readers, dropped on a count only my B1 tipped).
+- After the first compaction I drafted rulings-02 from memory and checked every id and quote against chunk-02 before the dry run.
+- After the second compaction I fetched four tests and read the rest of chunk 14 before re-reading the head and the stage file; the reconciliation line was logged before any write.
+- Two items carried the boundary T3-031|T3-135 with no paragraph until the packet summary showed it; the paragraph was added to `boundaries.md` before the summary was written.
+- The first draft of the full report listed europe t21's T3-073 among packet 7's author-disagrees themes; europe t21 is a bag. Corrected before the validator ran.
+
+### Content named
+
+National, political, hate and slur content is named in packet 7's whys as the words give it, for example: 'Fuck the Falcons!', 'shit tier AFC peeps' and Mexico's flag offered for destruction (falcons t05); /pol/'s 'hate-fueled' attack, 't-slurs, mentally ill jokes' and 'transphobic or bigoted' (TransFlagPlace t13); 'the german menace' and 'German tyranny' (stlouisblues t05); 'Deus vult!' and 'Second Blue World Order' (thebluecorner t10); 'Ni🅱️🅱️a' and the Kekistani flag (dankmemes t16); 'ZULUL' and 'must have been too racist to remove him' (forsen t07); 'Scroll up faggot.', 'Pinochet Snek' and 'fight the commies' (anarcho_capitalism t13); the swastika drawn on Doc (ethoslab t06); 'Fuck /r/Denmark' and 'FUCK THE DANES!!' (frankocean t12); 'Turkish clay' and 'Defending against Armenia felt like a war' (turkey t14); Brexit and 'cunts and leave' (italy t14); the penis over Argentina's sun, SABAFU for BRICS, 'devolve o ouro', the German '7 a 1' and 'Senna's death might be our 9/11' (brasil t09); 'The fucking swedes man!' and '40 people with 100 accounts and scripts running' (overwatch t14); 'sromotną porażkę butnych germanów' (polska t08); 'Fuckin Seppos' and 'G'Day Cunts' (straya t10); 'los bots de Chávez' (argentina t15); 'comunisti', Aldo Moro and the Piave (theitalyplace t15); 'what a shitty country it's become lately', 'China dipped their finger' and 'It's China trying to invade us' (philippines t10); 'peniss', 'poniggs' and 'communist propaganda' (mylittlepony t15); 'pinches admins mecos' and 'nuestros heroes caidos en guerra' (mexico t16); 'VOOR VORST EN VADERLAND' and 'annexatie' (cirkeltrek t10); 'consuming smaller communities' and 'United Kinodom' (europe t21); the upside-down Philippine flag as a war flag (philippines t12); 'fucking heathens' and 'black void from 4chan' (Rainbow6 t16); 'that ghey ass pink OSU' (wallstreetbets t14); 'the sabotage of the trans-flag or the pride-rainbow' (chess t13).
+
+All seven packets are ruled. The next step of stage B4 is B4b, the blind sample's build.
+
+`validate.py B4`, after packet 7:
+
+```
+stage B4:
+  leg: adjudication
+  settled items 7844 = assignment_items_expected
+  rulings 3288: {'genuine-joint': 1651, 'scheme-ambiguous': 451, 'reader-error': 152, 'author-error': 571, 'author-disagrees': 208, 'item-is-a-bag': 255}
+  classes 1: 2566, 2: 1990, 3: 2393, 4: 837, 5: 58; contested (3, 4, 5) 3288, ruled 3288, outstanding 0
+  coder conflicts 72
+
+warn   RETURN-B4.md is not yet written; the build leg owes it, and this leg was read as an adjudication leg because neither RETURN-B4.md, a stage-B4 manifest entry nor _packets-B4/ exists
+
+0 errors (0 distinct shapes), 1 warnings
+```
