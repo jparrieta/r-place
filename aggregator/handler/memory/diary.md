@@ -492,3 +492,7 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 ## 2026-10-13 19:42Z C1a-02 closed; C1a-03 started
 - C1a-02 closed 19:33Z, checkpoint dbb0de0c6085fd10, 0 errors. 7 gate amendments (T3-095 April Fools condition; T3-095|T3-023 line; visitor rule in T3-084, T3-011, T3-062). 38 placements moved by recheck, 33 to a theme neither readers nor B1 placed (32 to T3-084). Visitor rule and bare-event rule declared. Held re-reads stay unresolved. Lone-B1 floor review owed. 23 items show help a room receives, no theme for it.
 - Ran C1a-03.
+
+## 2026-10-13 20:50Z C1a-03 closed; C1a-04 started
+- C1a-03 closed 20:41Z, checkpoint 29b57769728ce727, 0 errors. Gates 8 to 26: T3-002|T3-084 by who calls; five pairing sentences, then floor written in (QC1-002: 7 kept, 8 reverted, mit t01 split); T3-010|T3-149 rewritten to named words (gates 15 to 21). Guard: 32 moves, 6 lines keep a theme neither readers nor B1 placed, each on 3+ concepts. 20 lines listed for review.
+- Ran C1a-04.

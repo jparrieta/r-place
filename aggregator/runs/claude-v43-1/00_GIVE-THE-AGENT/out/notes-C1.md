@@ -311,3 +311,94 @@ stage C1:
 
 0 errors (0 distinct shapes), 0 warnings
 ```
+
+## Pass 4 (C1a-04)
+
+### Opening
+
+- QC1-002 read again. Its answer was applied at C1a-03 before that close: 9 of the 16 re-placed lines came off or were trimmed, the floor went into the five pairing sentences (gates 22 to 26), and every recheck of gates 15 to 26 used it.
+- The views after pass 3's close: 10,589 placements against 13,365 on the settled line; T3-084 91 placements in 89 rooms; T3-140, T3-144 and T3-161 placed nowhere; 11 themes in one room.
+
+### The 22 lines held at pass 3
+
+- **Bags, left whole** under J's bag ruling (one theme placed, the rest under `also_present`): tf2 t05; canada t09, whose T3-090 sits in its `also_present` on 13 concepts; and canada t05, de t05, greenlattice t03, rickandmorty t03, tagpro t06, trees t10, turkey t06, undertale t07 and bostonbruins t05. Seven of them already hold T3-149 under `also_present`.
+- **The 11 single-theme lines** were placed by scheme_v2 and J's floor. I counted every concept for T3-010 and T3-149 and kept the line's other themes as they were (`review-pass4-t3-149.md`, `review-pass4-words.md`, `review-pass4-moves.json`).
+- **Three readings sharpen the named words.** A greeting "in peace" names no pact. An adverb or adjective on border talk ("work it out peacefully", "a peaceful border") names no pact either. The room's own members told not to attack is T3-076 or T3-024, not a pact between rooms.
+- **Moved 9.** buffalo t04 goes to T3-010. cubers t09 is reordered T3-151, T3-149. evex t04 ties T3-010 and T3-149 at four. T3-149 enters second or third, on three to seven concepts, in australia t10, minnesotavikings t12, poland t03, stevenuniverse t05, funhaus t03 and TheFarLeftSide t06. belgium t11 and ripcity t04 stand: T3-149 keeps two there.
+
+### J's floor on my pass 2 re-placements
+
+Gates 6 and 7 had added T3-084 as a second or third theme on one or two concepts in 20 lines, under rule 0's old "a theme alone at its level is kept". The floor replaced that rule (`c1_floor_scan.py`, `c1_floor_drop.py`).
+- 16 lose T3-084: FinalFantasy t04, PlaceNL t14, Russiaclan t05, aggies t07, bostonbruins t12, detroitlions t09, flyers t06, greenlattice t09, osu t05, parahumans t09, poland t02, rit t09, sixers t06, spacexmasterrace t07, teslamotors t11 and yogscast t09.
+- The arriving requests stay out of T3-011 and T3-062. No theme those moves had pushed off comes back: each had fewer than three concepts left.
+- bangtan t11, germany t06 and ucf t07 keep T3-084, tied with the primary. minnesotavikings t12 went with the listed lines.
+
+### The visitor sweep, and help received (gate:27)
+
+- The 23 sweep lines of `c1_guard.json` were read (`review-pass4-visitor.md`). In 22 of them, T3-011 holds other rooms' members arriving to help this room's work. One example is naruto t04: "From /r/OnePiece will be glad to help!"
+- The corpus carries help received in rooms unlike each other, so it is a kind, not an empty. Existing themes hold only its edges: T3-099 holds relying on a bigger neighbour, T3-072 and T3-122 hold thanks.
+- **gate:27** widens T3-011 to help sent between rooms in either room's record, as gate:5 did for T3-084's requests. A new theme would have kept direction, but it needed matching discriminators in five neighbouring themes, each a gate with rechecks.
+- 30 rechecks, 0 moved: every candidate already holds T3-011, and the sweep lines now follow the new answer.
+- FederationPlace t07 stays T3-062: a Star Trek moderator's sticky carries the room's call into r/startrek.
+- 12 pairs of T3-011 confirmed. T3-005 | T3-011 agrees only under the visitor rule, a watch item like T3-084 | T3-062.
+
+### The lone-B1 floor, revised
+
+- In all six items the floor kept out, the readers' theme takes no concept: azerbaijan t02, livecounting t06, monstercat t14, monalisaclan t12, suomi t26 and germany t08. The B4 ruling found this in the first three; gates 5 to 7 and the visitor rule did it in the last three.
+- The floor was meant to weigh my B1 against a reading the two readers share. With that reading failing its gate, the floor only left the line empty. **Revised:** the floor applies only where the readers' theme takes concepts.
+- The six are placed on my B1 theme, a placement J's 13 October rulings let a re-read choose: monalisaclan t12 and suomi t26 T3-084, germany t08 T3-046, azerbaijan t02 T3-043, livecounting t06 T3-017 and monstercat t14 T3-125. Fresh readers placed the last three too. The empties fall from 175 to 169.
+
+### Themes placed nowhere or in one room, flagged records, pass 2's listed lines
+
+- The one-room themes are rare themes that sat in one room on the settled line too. That is the tier's use, and they stay.
+- **Flagged records below J's floor, not promoted:**
+  - T3-140 in MMA t03 (one concept) and japan t09 (two);
+  - T3-144 in loliconsunite t05 (two);
+  - T3-161 in skyrim t14 (one);
+  - T3-128 in PurplePixels t03 (one); in destiny t03 the streamer's call is the room's own attack;
+  - T3-197 in parahumans t05 (two).
+- **T3-140 moved to the rare tier** (move: relating or contrasting; `tier_history.jsonl` line 393; `out/_analysis/c1_tier_ops.jsonl`; snap `C1-move-relating-1`). It is placed in no room, under stage B1's floor, and it keeps every field. Folding it into T3-015 was set aside: disowning the work is not gathering the talk. T3-144 and T3-161 are already rare and stay.
+- **Moved 3:**
+  - europe t14 gains my flagged T3-095 on five concepts that ask whether a change is real or a joke.
+  - hearthstone t08 goes from T3-095 to T3-023. Seventeen concepts ask why the sub is all SpongeBob and are told it is the April Fools theme, which gate:1 and gates 2 to 4 send to T3-023. T3-095 keeps two. Both readers and my B1 had placed T3-095 before gate:1.
+  - furry t07 gains my flagged T3-191 on three concepts that drop the r/furry label for a reason.
+- **Stand:** brasil t01 and kingdomhearts t03 (T3-095 two each), formula1 t02 (two at most) and taiwan t01 (its questions ask what the change shows).
+
+### J's guard, counted (`out/_analysis/c1_guard_C1a-04.json`)
+
+- 34 moves this pass. 17 added a theme, 8 of them a theme neither reader nor my B1 placed.
+- T3-149 entered under the named words in TheFarLeftSide t06, evex t04, funhaus t03 and stevenuniverse t05 (class 1), australia t10 (class 2), and minnesotavikings t12 and poland t03 (class 3).
+- T3-023 replaced T3-095 in hearthstone t08 (class 1).
+- 9 more moves add a theme only my B1 had placed.
+
+### What I doubt (pass 4)
+
+- **T3-149 added to class 1 lines.** In four lines both readers and my B1 agreed on one theme, and the named words now add T3-149 as a second theme on four to seven concepts. J's floor allows it, and the lean J ruled for favours one theme. These lines are the ones the rechecks happened to list, not a sample of the corpus.
+- **"Invading" read as an attack.** "we don't want the checkers invading our flag" (poland t03) uses "invading" for encroachment on space. The list reads it as an attack, and it is the third T3-149 concept there.
+- **hearthstone t08.** I reversed a line all three placements agreed on. The reason is gate:1's April Fools condition, which I wrote.
+- **T3-011, like T3-084, no longer shows direction.** The concepts still do.
+- **The lone-B1 floor was my own rule, and I narrowed it.** Six items move out of the empties on one or two concepts each.
+
+### Slips (pass 4)
+
+- `cut -c` was refused again, after a helper. The rule is in my head; I wrote it anyway.
+- The first version of `c1_floor_drop.py` would have restored T3-011 in detroitlions t09 with the very concepts gate:6 had moved out of it. The dry run showed it before any write, and the script now drops concepts that left with the move.
+
+### Next pass
+
+1. The revision rate: 200 placements drawn by seed from `assign_final.jsonl`, re-decided under scheme_v2 and J's floor.
+2. The B4 defect list (`adjudication_report.md`) and the remaining watch items, each with a recorded decision, for the stopping criterion.
+3. The pair test, the empties and arguables, the form pass, the fourth-order themes, and `scheme_v2.md` with the visitor rule, J's floor and the named words in its gate block. Then the handback and the interview.
+
+### validate.py C1 at pass 4's close (before `done.sh`)
+
+```
+stage C1:
+  scheme_v2: 197 themes (15 rare), frozen 197, retired 0, new 0
+  assignments_final 7844 lines = assignment_items_expected
+  revised lines 2053 of 7844 (moved placements 2037)
+  empties 169 of 7844
+  a pass closed; the full set (scheme v2, assignments, the fourth-order themes, the form pass) is owed at the last pass, with the handback
+
+0 errors (0 distinct shapes), 0 warnings
+```

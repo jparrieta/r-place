@@ -1,0 +1,459 @@
+# Review packet: europe:t14,kingdomhearts:t03,brasil:t01,hearthstone:t08,formula1:t02
+
+## europe/t14
+
+**playing along with r/europe's no-English April Fools joke** | note: These passages enact r/europe's separate April Fools remake by switching languages, policing English, changing flairs and maps, and extending the joke into food, parrots, and ordinary posts. They are not canvas conduct.
+
+**Now placed:** T3-023 (4)=c0070,c0069,c0084,c0081
+class 2; reader 1 ['T3-023']; reader 2 ['T3-023']; my B1 ['T3-023', 'T3-095']; also_present []
+
+- **c0069** [T3-023] extending Brexit to the subreddit and changing its map | Nach Auffassung des Moderationsteams gilt dies nicht nur für die EU an sich, sondern auch mit sofortiger Wirkung für dieses Subreddit. Ans Resultat haben wir die in der Seitenleiste angezeigte Karte Europas entsprechend angepasst.
+- **c0070** [T3-023] declaring English no longer European and welcoming every European language | Da Englisch nicht länger als europäische Sprache anzusehen ist, haben wir das Subreddit dementsprechend auf zivilisierte, europäische Sprachen umgestellt. Weiter folgt hieraus, dass Kommentare und Posts in Englisch ab sofort nicht mehr toleriert werden. Alle europäischen Sprachen sind weiterhin gerne gesehen.
+- c0071 [-] hinting that readers should look at the date
+- c0072 [-] wondering whether the Irish agree
+- c0073 [-] answering that the Irish have Gaeilge
+- c0074 [-] proposing that everyone speak Latin
+- c0075 [-] falling back on Google Translate
+- c0076 [-] calling on the largest country subreddit to turn every r/Europe thread Dutch
+- c0077 [-] correcting the moderators' French
+- c0078 [-] saying all languages are better than only one
+- **c0079** [-] saying Ireland is getting harmed by Brexit | ... Ireland really is getting fucked over by Brexit.
+- c0080 [-] posting English while the moderators sleep
+- **c0081** [T3-023] revealing the rule change as an April Fools joke | As you all noticed, this was a mere joke for the 1st of April. In reality the UK would never leave the EU, as it wouldn't be in anybody's interest.
+- c0082 [-] calling out someone for speaking English
+- c0083 [-] asking for German instead
+- **c0084** [T3-023] laughing at the mods changing UK flag flairs to EU ones | Just noticed that all the UK flag flairs have been changed to EU ones so I changed it to England. All credit to the mods - it gave me a good laugh.
+- c0085 [-] calling the changed subreddit an EU fan club
+- c0086 [-] joining the parrot party
+- **c0087** [-] demanding a European parrot | Why is there an American parrot, but not a European one? Ruined! Sad!
+- c0088 [-] showing others how to use PartyParrot
+- c0089 [-] thanking the mods for the flair change
+- c0090 [-] joking in German about how English sounds to Europeans
+- c0091 [-] ordering a foreigner to speak a European language
+- c0093 [-] asking whether the UK was always missing from the subreddit map
+- c0096 [-] offering a guide on how to learn the newly banned English
+- c0097 [-] making not learning English step one
+- c0098 [-] calling English a sad invented myth
+- c0099 [-] sending anyone wanting a useful language to r/German
+- c0100 [-] blaming Europeans for forcing their English on him
+- c0101 [-] answering that Europeans arrived on his land from 1492 onward
+- c0102 [-] asking whether long residence means they can invade Europe
+- **c0103** [-] asking how to read the English article under the English ban | Is this supposed to be a satire? The entire article is in English, how am I supposed to read it?
+- c0104 [-] answering that Vikings did not permanently settle there
+- c0105 [-] making a French face at everyone speaking German
+- c0106 [-] apologising in French because those are the rules
+- c0107 [-] answering the German-speaking face with another face
+- c0108 [-] answering German speech with liberated Paris
+- **c0109** [-] posting London trade news in French during the language joke | Londres discute libre échange avec le Canada malgré des mises en garde de l'UE
+- c0110 [-] answering the French Brexit news with an impossible non
+- c0111 [-] asking whether r/Europe's multilingual meltdown is all right
+- c0112 [-] answering that everything is normal with jester parrots
+- c0114 [-] reassuring the questioner in Bulgarian that everything is normal
+- c0115 [-] mixing French, English, and German to deny understanding
+- c0116 [-] asking bilingually for favourite performances of the European anthem
+- c0117 [-] offering the German reunification performance with Freude changed to Freiheit
+- c0118 [-] offering Croatia's joining as the most emotional performance
+- c0119 [-] answering the Croatian performance with magnifique
+- c0120 [-] learning that Ode to Joy may have begun as Ode to Freedom
+- c0121 [-] requesting Northern Ireland and Scotland be added to the altered map
+- **c0122** [-] asking why the joke map keeps Turkey but not England | Why is Turkey in it, but not England even though it's a joke?
+- c0123 [-] admiring how sexy they look all united
+- **c0124** [-] posting about the joke's flair flag after the body was removed | muh flair flag
+- c0125 [-] seeking Dutch help to regenerate Britain after it went into the North Sea
+- c0126 [-] reposting the Dutch regeneration project for sunken Britain
+- **c0127** [-] asking why their flair was removed | Removing our flair?
+- c0128 [-] saying in Afrikaans that they cannot understand
+- c0129 [-] insisting in French that everyone is European
+- c0130 [-] asking in Polish for a normal language
+- c0132 [-] asking for no English
+- **c0133** [-] asking why the Englishman does not speak English | De Engelsman spreekt niet Engels?
+- c0134 [-] hinting to check the calendar
+- c0135 [-] accepting the calendar hint
+- c0136 [-] reporting that their flair remains
+- c0137 [-] complimenting another participant’s flag
+- c0138 [-] pretending not to understand a non-European language
+- **c0140** [-] pointing out that today is the first of April | heute tag ist die ersten tag aus april
+- **c0141** [-] suggesting the first of April is to blame | varbūt pie vainas 1. aprīlis?
+- c0142 [-] calling to recognise three glorious alphabets
+- c0146 [-] removing the English-titled photo with “Nein!”
+- c0147 [-] asking in German how Europeans spend Saturday
+- c0148 [-] answering the German weekend question in dialect
+- c0149 [-] likening the multilingual room to an ARTE production and welcoming Franco-German overlords
+- **c0150** [-] marking the joke German down for bad grammar | Oberherren is a noun, deutsch-französisch is an adjective. 0/10
+- **c0151** [-] wishing ARTE would add English despite the language joke | Arte is great. I wish they would extend their language to English, many more people in Europe could watch them!
+- **c0152** [-] saying ARTE helps keep the GEZ mob from forming | Arte, Phoenix and 3sat the reasons why we haven't formed an angry mob and burned down the GEZ, yet.
+- c0162 [-] wishing Scotland and Northern Ireland had remained on the map
+- c0163 [-] asking how someone logs in with that username
+- c0164 [-] joking that the username is the password
+- c0165 [-] calling would-be password guessers idiots
+- **c0166** [-] proposing /ns to mark comments as not sarcasm | It was not sarcasm! Really! I think /ns (not sarcasm) will have to become a thing.
+- c0167 [-] apologising for being pithy after a misunderstanding
+- **c0168** [-] accepting the apology and praising the anti-joke with /ns | No offence taken, I love anti-jokes, thanks for your contribution of refined humour. /ns
+- c0200 [-] opening an authentic Nederdraad with bitterballen for everyone
+- c0201 [-] enforcing the English ban with a consoling bitterbal
+- c0202 [-] asking where the cheese cubes and sausage slices are
+- c0203 [-] serving the requested Dutch snacks
+- c0204 [-] claiming Flemings are always Dutch
+- c0205 [-] declaring everyone Dutch on this blessed day
+- c0206 [-] ringing out the Nederdraad and free bitterballen
+- **c0207** [-] translating bitterballen into a Swedish joke while praising them | Bitterballen in Swedish means "the bitter dick". They are damn delicious though.
+- c0208 [-] ordering an Anglo-Saxon barbarian to speak the mother tongue
+- c0217 [-] making a Czech-German music-thread compound for Karel Gott
+- c0218 [-] worrying that English rules break the English ban
+- c0219 [-] colouring YUROP blue and the Anglosphere red
+- c0220 [-] making a Czech-German music-thread compound for Karel Gott
+- c0221 [-] turning Karel Gott's name into a freedom boast
+- c0237 [-] titling the post in French and German
+- c0243 [-] labelling the image europa_iel
+- c0244 [-] objecting that the image confuses the EU with Europe
+- c0245 [-] saying the sub has long looked mostly like r/EU
+- c0246 [-] posting the population-per-capita map under a Czech title
+- c0247 [-] wondering in Polish how the situation looks in the world
+- c0248 [-] joking that Portugal is inefficient despite equal population per capita
+- **c0249** [-] asking why use English when one can speak Czech | Why english when you can speak prijebanou češtinou :D
+- c0250 [-] saying they briefly thought Reddit translated titles into Czech
+- c0251 [-] asking if someone knows what day it is
+- c0252 [-] claiming in Czech that the subreddit is now theirs and Babiš bought it
+- **c0253** [-] saying they do not get the map joke | I don't get it.
+- c0254 [-] explaining population per capita as a funny statistic
+- c0259 [-] asking moderators to correct something in a string of European languages
+- c0318 [-] explaining that English was banned for a day
+- **c0319** [-] listing a linguistic arsenal for the English-ban joke | But that's my linguistic arsenal.
+- **c0353** [-] enjoying reading French during the April Fools language change | I am actually enjoying this April's fool thing. I can't write in French, but I can read it much better than I hoped after not using it for so long after middle school.
+- **c0362** [-] explaining the English article as April Fools | ... yeah... April fools? Yeah I'm going with that answer
+- c0363 [-] announcing that Sealand applied for EU membership
+- **c0375** [-] calling the missing UK map an April 1st joke | But, yeah...I guess it's an April 1st, we're all funny nao, joke.
+- c0388 [-] pushing Czech culture while moderators sleep
+- **c0389** [-] feeling more connected through the multilingual joke | I am loving it. Feel more connected to my fellow Europeans somehow.
+- **c0436** [-] telling everyone not to take the Great Slavs April Fools map seriously | Hello everyone! Don't take this map seriously, as it's just an April Fools joke of what Europe would be without the Great Slavs!
+- **c0442** [-] explaining the missing UK as their April Fools joke | It's their april fools joke. Note that Russia and Turkey are chilling there too.
+
+## kingdomhearts/t03
+
+**turning the sub into Final Fantasy for April Fools** | note: These codes hold together as members notice, explain, praise, inhabit and point outward from the subreddit-wide Final Fantasy presentation; what varies is confusion, play-along posting, moderator rationale and attention to details.
+
+**Now placed:** T3-023 (2)=c0051,c0017
+class 2; reader 1 ['T3-023']; reader 2 ['T3-023']; my B1 ['T3-023', 'T3-095']; also_present []
+
+- **c0017** [T3-023] asking whether the new banner is April Fools and loving the mods | [Other] April Fools Already, or New Official Banner? Love These Mods
+- **c0018** [-] using UTC time to maximize April Fools exposure | I went by UTC time to maximize the exposure for everyone (hi everyone in Europe, if you're there). It's midnight there now. April Fool's for everyone!
+- c0019 [-] praising the Promptography sidebar detail
+- **c0020** [-] sending members to see the apparently collaborative joke at r/finalfantasy | Just so everyone appreciates the full extent of the mods' (apparently collaborative?) efforts, go check out r/finalfantasy...
+- c0021 [-] playing along that the sub has proper Final Fantasy content
+- c0022 [-] thinking they clicked the wrong subreddit before seeing the clock tower
+- c0026 [-] insisting this always was a Final Fantasy sub
+- c0027 [-] posting Final Fantasy Brave Exvius pulls into the restyled sub
+- **c0028** [-] explaining that the page became Final Fantasy on PC for April Fools | The actual page is a "final fantasy". Cell phones didn't change but on my pc for April fools it was ff. So that's probably why
+- c0029 [-] calling the room a Final Fantasy subreddit
+- c0030 [-] calling Kingdom Hearts 'Kingdom Pence'
+- c0031 [-] asking whether yellow eyes connect Persona 5 to Kingdom Hearts
+- c0032 [-] making Sam Winchester a Nobody
+- **c0033** [-] calling the room a Disney Infinity subreddit | I mean, it's obviously supposed to be a Disney Infinity subreddit, so I don't see why everyone's going so off-topic.
+- **c0034** [-] complaining that Japan gets stupid jokes first | Damn it Japan even gets stupid jokes before everyone else
+- c0038 [-] asking for a copy of the banner
+- c0039 [-] recommending Final Fantasy in a Kingdom Hearts play-order thread
+- **c0040** [-] asking why Final Fantasy | Why Final Fantasy?
+- c0041 [-] insisting this is a Final Fantasy sub
+- c0042 [-] explaining that it was different yesterday
+- **c0043** [-] challenging a Kingdom Hearts question in the 'Final Fantasy subreddit' | Why are you bringing a Naruto/Kingdom Hearts question to a Final Fantasy subreddit?
+- **c0044** [-] framing a Final Fantasy debate in the spirit of April Fools | In the spirit of April Fools, this is a dilema. XD
+- c0048 [-] asking for upvotes to make the subreddit Kingdom Hearts themed
+- c0049 [-] saying Reddit rules still apply after turning off AutoModerator
+- c0050 [-] removing the upvote request from the subreddit front page
+- **c0051** [T3-023] explaining the style swap with the sister subreddit | The premise behind this post is that we switched subreddit styles with a sister subreddit, /r/FinalFantasy, and they switched with us. The idea behind this post was to make it Kingdom Hearts again, which it will when April 1st ends on the East Coast USA.
+- c0052 [-] saying switching sides was only for today
+- **c0058** [-] asking why Final Fantasy content is in the Kingdom Hearts subreddit | Isn't this the Kingdom Hearts subreddit? Is there no Final Fantasy sub?
+- **c0059** [-] explaining that FF content is here and KH content is on the FF sub for april fools | People are posting FF content here and KH content on the FF sub for april fools
+- **c0060** [-] insisting the Final Fantasy scene is not itself an April Fools joke | This isn't an April Fool's Joke because this scene is actually extremely well done
+- c0063 [-] offering a palate cleanser
+- c0064 [-] offering another palate cleanser
+- c0075 [-] inferring that the FF theme broke automatic removal of unflairered posts
+- c0076 [-] turning AutoModerator off for the theme, then restoring it after manually flairing and checking posts
+
+## brasil/t01
+
+**performing the Argentina-themed April Fools takeover** | note: These codes enact the room's separate April Fools practice: copying Argentina's look, writing in mock Spanish, translating ordinary formats and arguing about the CSS. The format varies from headlines and recipes to front-page pushes and moderator reconciliation; it is not canvas work.
+
+**Now placed:** T3-023 (5)=c0075,c0086,c0102,c0240,c0370
+class 2; reader 1 ['T3-023']; reader 2 ['T3-023']; my B1 ['T3-023', 'T3-142']; also_present []
+
+- **c0007** [-] sharing a fake newspaper handed to a brother | Temer renuncia: Eleições convocadas (Jornal fake que deram pro meu irmão na entrada do metrô de SP)
+- **c0008** [-] pointing to 1 April after a brother believed the paper | Apesar da foto ruim, reparem a data do jornal (1 de abril). Ele disse q acreditou por 30 segundos.
+- **c0068** [-] translating the Lula preso amanhã joke as squid stuck tomorrow | squid stuck tomorrow
+- **c0069** [-] announcing that April Fools has started in mock Spanish | Che, maestro! Arrancó el Primer de Abril! No se hagan pelotudos!
+- c0070 [-] asking for an Argentine alfajor recipe in mock Spanish
+- **c0071** [-] carrying the Spanish restyling into a library joke | Donde esta la biblioteca? Pero que si, pero que no. Maradona és mejor que vampeta
+- c0072 [-] mistaking the merged Brazil and Argentina templates for a bug
+- c0073 [-] asking what this is in mock Spanish
+- c0074 [-] turning LULA PRESO AMANHÃ into MENEM EN EL CÁRCEL MAÑANA
+- **c0075** [T3-023] calling for the moderators' impeachment over the changed CSS | O que aconteceu com o CSS do sub ta de sacanagem né? Se forem os Mods recomendo o Impeachment imediato dos traidores da pátria.
+- **c0076** [-] asking to keep the April Fools CSS | Porra, mas ficou lindo demais, deveria deixar assim até mesmo depois do 1 de Abril. O atual é horroroso.
+- c0077 [-] teaching mock Spanish by changing O to UE
+- c0078 [-] posing as a Venezuelan asking Argentina for travel advice
+- c0079 [-] posting the Spanish Trivago copypasta
+- c0080 [-] admitting the Argentinians were right
+- c0082 [-] joking that it must be difficult to be Portuguese
+- c0083 [-] asking where to forget a relative in Brazil
+- **c0084** [-] asking why r/brasil questions are appearing in r/argentina | pk hacen perguntas de /r/brasil aqui en /r/argentina?
+- c0085 [-] saying the castelhanos have invaded the sub
+- **c0086** [T3-023] asking why the sub has r/argentina's layout | Por que o nosso sub está com o layout do /r/argentina?
+- c0087 [-] posting a daily reminder that Maradona is better than Pelé
+- c0088 [-] putting the Argentina flag on the frontpage
+- c0089 [-] posting the divinity of the boludos
+- c0090 [-] showing all of r/argentina right now
+- c0091 [-] announcing something as muy importante
+- c0092 [-] telling the confused poster to turn on the CSS
+- **c0093** [-] asking whether the joke means posting a pudín | Yo no entendi nada, es para publicar un pudín?
+- c0094 [-] asking what happened to make the sub full of mierda
+- c0095 [-] offering the true pudim from the most classic times
+- c0097 [-] declaring Argentine pizza the continent's best
+- c0098 [-] announcing Cristina arrestada mañana
+- c0099 [-] asking whether Kirschner will be hanged tomorrow
+- c0100 [-] posting lo mejor de Argentina
+- c0101 [-] calling Salsa Tequila the best music in Spanish
+- **c0102** [T3-023] asking why Spanish and Argentine CSS have taken over | Isso aqui tá com algumas coisas em espanhol e com o CSS de como se aqui fosse um sub da Argentina?
+- c0103 [-] conceding the Argentinians are not entirely bad
+- c0104 [-] recasting Brazilian meat news in Spanish
+- c0105 [-] moving to replace the banner with Buenos Aires
+- c0106 [-] asking for upvotes to show alfajor on r/all
+- c0107 [-] repeating the alfajor push to r/all
+- c0108 [-] repeating the alfajor push to r/all
+- c0109 [-] repeating the alfajor push to r/all
+- c0110 [-] supporting the alfajor cause
+- c0111 [-] publishing the Copa 1998 scandal in Spanish
+- c0112 [-] asking whether El Squid will be detained tomorrow
+- c0113 [-] inviting people to visit the Brasil sub
+- c0114 [-] taking Maramito to the frontpage
+- c0115 [-] asking whether an Argentinian took the sub
+- c0118 [-] saying the sub resembles Bariloche in high season
+- c0119 [-] saying they become Argentine once a year
+- c0120 [-] showing los brasileños hoy
+- **c0122** [-] answering the Argentina-side Squid joke with Lula lá | Lula lá!
+- c0123 [-] posting imahens de duer y sofrimiento
+- c0125 [-] learning in Spanish that Brazil's best tennis player was born in Argentina
+- c0126 [-] recommending a politics podcast with no más
+- c0127 [-] framing Paraguay news as mi querida America Latina
+- c0129 [-] explaining the Spanish posts as primeiro de abril
+- c0130 [-] posting La Argentinidad al Palo
+- c0131 [-] posting Delirios Argentinos XVI
+- c0132 [-] posting Paraguay news in Spanish
+- **c0133** [-] turning the Spanish interface into a ménage joke | "Compartir un enlace" só me remete a Ménage
+- c0134 [-] posting Spanish-language music news
+- c0135 [-] asking for upvotes if Calle 13 is the world's best band
+- c0136 [-] putting r/Brasil on the front page
+- c0137 [-] declaring Pelé better than Maradona in Spanish
+- **c0141** [-] calling out a false story as first of April | Notícia falsa de 2016. Ô 1o de Abril.
+- c0142 [-] presenting the best singer in mock Spanish
+- c0143 [-] putting the day's patron Macri on the front page
+- c0145 [-] answering a Facebook story in Spanish
+- c0146 [-] opening with mock Spanish confrontation
+- **c0147** [-] telling an Argentina joke in portuñol | ¿Por qué las vacas argentinas olham para o céu?
+- c0148 [-] mocking a Brazilian champion in Spanish
+- c0149 [-] recasting a Brazilian fact-check headline in Spanish
+- c0150 [-] asking how to say a movement in Spanish
+- c0151 [-] turning a news story into mock Spanish wordplay
+- c0153 [-] rendering Brazilian political news in Catalan
+- c0155 [-] translating Ciro Gomes into mock Spanish
+- c0156 [-] answering Ciro Gomes with Spanish football wordplay
+- **c0157** [-] thanking first of April for an Argentinized r/brasil | Obrigado 1 de abril e /r/dataisbeautiful
+- c0158 [-] asking whether Argentina is a brother country
+- **c0159** [-] turning the book club Argentine for first of April | ¡Hola! Vamos a sugerir aquí libros para leer en el mes de abril. Vamos a tratar de resaltar los grandes escritores nacionales como Borges, Cortázar, Sabato, Puig, etc?
+- c0160 [-] posting Argentine Spanish-language news during the takeover
+- c0161 [-] posting Argentine political news in Spanish
+- c0162 [-] mock-translating a Brazilian headline into Spanish
+- **c0163** [-] turning Venezuelan court news into an April Fools gag | A melhor pegadinha de 1° de abril que você respeita: amanhã o Judiciário fala que foi só pra entrar no clima das brincadeiras e ele vai fechar o Legislativo sim
+- c0164 [-] posting an Argentina study guide during the takeover
+- c0165 [-] mocking all r/brasil moderators in one image
+- c0170 [-] celebrating the forum painted in Argentina's colours
+- c0173 [-] presenting the world's best alfajor in Spanish
+- c0176 [-] setting brigadeiro against alfajor
+- c0178 [-] sending the best player to the front page in Spanish
+- **c0211** [-] calling a recurring repost the April edition | Estou postando a versão do mês de Abril.
+- **c0212** [-] enjoying r/place, the r/argentina prank, and flag commotion together | A brincadeira do r/place + a brincadeira do r/argentina + a comoção pela bandeira brasileira...
+- c0219 [-] asking what the flags and the sub turning Argentinian mean
+- **c0220** [-] posting a Spanish insult during the Argentina-themed prank | Brasileños hijos de puta
+- **c0223** [-] offering respite to people tired of April Fools pranks | Para quem está cansado das "brincadeiras" do 1º de abril
+- **c0231** [-] questioning why the sub looks like Argentina's | Porque nosso sub ta com a cara do sub da argentina ?
+- **c0240** [T3-023] separating the Argentina CSS prank from the pixel flags | O espanhol e CSS da Argentina é por causa do 1° de Abril, o negocio das bandeiras é em relação ao jogo com pixels no /r/place
+- c0252 [-] lamenting Spanish posts and a crudely pixelated flag instead of Dadinho
+- c0253 [-] admitting the moderators only copied and pasted the Argentina CSS
+- c0254 [-] reconciling by calling the complaint a shitpost
+- **c0370** [T3-023] explaining the Spanish-posting joke after swapping in r/argentina's template | trocaram o nosso template pelo do r/argentina. Daí o pessoal começou a postar coisas em espanhol, só de zoas.
+
+## hearthstone/t08
+
+**working out why the subreddit had become PirateStone** | note: People ask why SpongeBob and pirates are everywhere and answer with April Fools, the date, rebranding, or an improvised go-with-the-flow account; explanations range from direct answers to remembering what day it is.
+
+**Now placed:** T3-095 (3)=c0031,c0078,c0136
+class 1; reader 1 ['T3-095']; reader 2 ['T3-095']; my B1 ['T3-095']; also_present []
+
+- c0021 [-] mistaking the restyled room for a meme subreddit
+- c0022 [-] pointing out pirates everywhere in the subreddit style
+- c0023 [-] explaining Patchy the Pirate to someone left out
+- **c0030** [-] asking why the subreddit is all SpongeBob | I just came here for my favorite circlejerk and it's all Spongebob. The heck happened?
+- **c0031** [T3-095] answering that it is April Fools | April Fools
+- **c0053** [-] wishing r/hearthstone happy April Fools | Happy april fools r/hearthstone
+- c0065 [-] calling the subreddit style scary
+- c0067 [-] asking whether Patches invaded the subreddit
+- **c0069** [-] explaining this year's sponge bob/pirate stone theme | April 1st. Last year this sub was yugioh themed, while this year it's sponge bob/pirate stone themed
+- **c0078** [T3-095] asking if PirateStone is an April Fools thing | Also is this piratestone thing suppose to be a April Fools thing?
+- c0084 [-] calling the subreddit Piratestone
+- **c0087** [-] asking what Spongememe Dankpants means for Piratestone | Whats with the Spongememe Dankpants? Is this to signify the end of the pirate era? Did someone finally find One Piece?
+- **c0090** [-] asking why the hot page is Spongebob shitposts | the entire hot page is spongebob shitposts
+- c0104 [-] saying Piratestone is not Jadestone
+- c0105 [-] answering that jade is a gem
+- c0106 [-] correcting jade to gemstone while mocking the reply
+- c0107 [-] denying being stupid
+- **c0112** [-] requesting the meaning of Spongememe Dankpants | Whats with the Spongememe Dankpants? Is this to signify the end of the pirate era? Did someone finally find One Piece?
+- c0113 [-] explaining that scary pirates required rebranding
+- c0114 [-] requesting an explanation for the Spongebob hot page
+- **c0115** [-] answering that the Spongebob posts are April Fools | april fools
+- **c0116** [-] accepting the April Fools explanation | Oooooh, makes sense
+- **c0129** [-] saying it is hard to tell whether a card question is a meme today | Is this a meme it's hard to tell today ha.
+- **c0135** [-] asking why SpongeBob is everywhere in the Hearthstone subreddit | Hello, recently I started visiting reddit so I decided to look one for Hearthstone, but upon stumbling here I'm confused - why is there spongebob everywhere? Is this mislabeled reddit for the cartoon? I like the game and I dislike that cartoon, so why should two completely unrelated things be mixed up like that or am I missing something?
+- **c0136** [T3-095] explaining the SpongeBob change as April Fools | April fools
+- **c0137** [-] deciding to come back after the April Fools change | Oh, so just a wrong day to visit it.. Thanks for clarification, I'll come back tomorrow :)
+- c0138 [-] pointing out that other subreddits also changed
+- **c0167** [-] asking whether the sub will do something for April Fools while insulting its usual look | I mean, it still looks like the same old trash.
+- **c0168** [-] answering the April Fools question with aye aye captain | aye aye captain!
+- **c0171** [-] asking what the sponge bob/pirate posts mean | What is the meaning behind the sponge bob/pirate posts?
+- **c0172** [-] answering that it is April 1st | April 1st
+- c0173 [-] asking where everybody got the memo about what to post
+- c0174 [-] saying there is no memo and to go with the flow
+- **c0175** [-] joking that Nickelodeon paid everyone to meme about Spongebob for 24 hours | Nickelodeon paid us to meme about Spongebob for 24 hours on April fools and everyone is on it except you.
+- **c0194** [-] explaining the sudden SpongeBobs as April Fools silliness | April fools day. Reddit becomes a much sillier place.
+- **c0202** [-] explaining the SpongeBob stuff as April Fools day | It's April 1st. April fools day.
+- **c0206** [-] describing April Fool's as the day the sub explodes in memes | It's April Fool's Day. The day every year where this sub explodes in memes? I mean, just look at the banner.
+- **c0210** [-] asking what the SpongeBob theme is reacting to | Wtf is this spongebob theme? Am i understanding correctly that pirates didnt get nerfed and this is a reaction to it?
+- c0211 [-] answering the SpongeBob-theme question by pointing to the date
+- c0233 [-] asking whether SpongeBob was implemented
+- **c0245** [-] reassuring a newcomer about the Spongebobs | Yes. It's April 1^st so don't worry about the Spongebobs.
+- c0258 [-] wondering whether a Sponge-fan mod had gone rogue after the subreddit suddenly changed
+- c0259 [-] loving random Brazilian memes on international websites
+- c0260 [-] thinking a mod had leaked his account again
+
+## formula1/t02
+
+**turning the subreddit into Kimi and Quokka day** | note: Members make ordinary Formula 1 posts conform to a one-day Kimi/Quokka performance through Bwoah captions, mock reverence, fabricated news, renamed controls, and repeated Kimi framing.
+
+**Now placed:** T3-023 (4)=c0028,c0034,c0042,c0137; T3-001 (3)=c0106,c0141,c0151
+class 3; reader 1 ['T3-023', 'T3-001']; reader 2 ['T3-023']; my B1 ['T3-023']; also_present []
+
+- **c0005** [-] realising the quokka usernames are for 1 April | Why does every user name in this thread end in "quokka"? Edit: Just realised. It's 01-APR...
+- c0012 [-] saying the poll should not have been posted on Kimiday
+- c0013 [-] saying the poll preceded the unexpected Kimi madness
+- **c0026** [-] sighing at the first April Fool joke | First April Fool joke on the sub. Sigh. See you guys on Sunday.
+- **c0027** [-] spotting April fools striking early | April fools striking early it seems...
+- **c0028** [T3-023] asking about Formula 1 Quokka | So, uhh, Formula 1 Quokka?
+- c0029 [-] declaring everyone Kimi number one fan for the day
+- c0030 [-] asking whether Kimi posts will reach their daily quokka
+- **c0031** [-] thanking kimiquokka for the April Fools joke | appreciate the April Fool's joke. Nicely done and much thanks to /u/kimiquokka
+- c0032 [-] giving an upcream in Kimi name
+- **c0034** [T3-023] celebrating the new sub redesign as fire | MRW the new sub redesign is fire and I just can't contain myself
+- c0035 [-] joking about Kimi developing the car
+- **c0038** [-] extending the Kimi developer joke to a Christmas message | So nice of Kimi to take time out of developing the SF70H to boost team morale with a christmas message
+- **c0042** [T3-023] expanding MRF1GA as Make r/Formula1 Great Again | Make r/Formula1 Great Again
+- c0044 [-] proposing this sub's new official song
+- c0045 [-] reposting this sub's new official song
+- c0046 [-] posting Bwoah
+- c0049 [-] putting McLaren-Honda on pole in an alternate universe
+- c0050 [-] marking a post Not Safe For Kimi
+- c0052 [-] asking how many people came to see Kimi in Melbourne
+- c0053 [-] posting that Giovinazzi replaces Wehrlein for the remaining races
+- c0057 [-] calling the upvote animation the best part of today
+- c0058 [-] insisting no one forces Kimi because Kimi forces you
+- c0060 [-] asking whether people would like this subreddit as a car
+- c0061 [-] saying the Kimi lord giveth and taketh away
+- c0062 [-] running Kimi for president
+- c0064 [-] posting Kimi's great Monaco pole during the Kimi flood
+- c0065 [-] wanting three Kimis in the favourite-driver poll
+- c0066 [-] campaigning KIMI FOR PRESIDENT
+- c0074 [-] turning Kimi's military clip into Ferrari factory footage
+- c0076 [-] posting Kimster answering a fan during the Kimi flood
+- c0077 [-] casting Kimi as blessing a child
+- c0079 [-] posting a Kimi truth reminder during the Kimi flood
+- c0080 [-] posting that McLaren Honda switched colours again
+- c0081 [-] posting BWOAH
+- c0084 [-] posting the lord and Savior rolling around the sub
+- c0085 [-] asking for Upquoks in exchange for Bwoah blessings
+- c0086 [-] framing what posting today is like
+- c0087 [-] splitting the price of Kimis old car across the subs
+- c0091 [-] calling the Kimi post a top-quality shitpost
+- c0093 [-] calling 400 Kimi pictures only a starting collection
+- **c0094** [-] wanting the April Fools hatchback | I want one.
+- c0095 [-] presenting Kimi as the Master
+- c0096 [-] welcoming a new r/Formula1 anthem
+- **c0097** [-] ranking the violin joke against the sink one | Haha this is awesome! I think it's almost as good as the sink one!
+- c0098 [-] explaining that teams make Kimi cut his hair to save weight
+- c0099 [-] developing an ultimate driver from bits of other drivers
+- **c0100** [-] posting an Esteban Gutierrez retrospective joke | In honour of his first ePrix this weekend, an Esteban Gutierrez retrospective
+- c0102 [-] offering a retrospective of Gutierrezs F1 career
+- c0106 [T3-001] announcing an Ecclestone-Dennis team hoax
+- **c0108** [-] posting Renaults April fools through a mobile link | Renaults April fools
+- c0110 [-] adding Baku to well done because everyone is circlejerking today
+- **c0137** [T3-023] turning the sub into track and field before revealing Kimi | This is now a track and field athletics themed sub
+- c0138 [-] turning a steering-wheel quote into Kimi-day innuendo
+- c0139 [-] posting Kimi's Q3 wing-cam lap into the themed day
+- **c0140** [-] winkingly denying the fantasy site's resemblance | Any resemblance to real or fictional characters is purely co-incidental
+- **c0141** [T3-001] announcing Hamilton's retirement as an April Fools fake | Lewis Hamilton retires from Formula 1
+- c0144 [-] asking for a Bwoah emoji to please their lord and saviour
+- c0145 [-] mock-removing a design for having no obvious Kimi
+- c0150 [-] casting Kimi as a lord who nearly died for their sins
+- c0151 [T3-001] staging a removed Bernie Ecclestone AMA
+- c0152 [-] demoting Vettel to Kimi's unknown second driver
+- c0154 [-] expecting even the selfie to double Kimi
+- **c0155** [-] answering what is going on in the sub with a reaction image | MRW someone asks me what's going on in this sub
+- c0156 [-] saying the moderator sacrificed a quokka for everyone
+- c0158 [-] folding an absurd engine proposal into Kimi's design genius
+- c0159 [-] presenting the day's one true leader
+- c0160 [-] joking that browsing the taken-over sub caused a riding mishap
+- c0161 [-] recasting a meal as Kimi's car-development conference
+- c0162 [-] posting the Kimi development-conference meal again
+- **c0163** [-] loving Kimi more after the body-pillow joke | I love him more everyday
+- c0164 [-] inflating Kimi and his family into reigning and future champions
+- c0165 [-] posting Kimi on women drivers into the themed feed
+- c0166 [-] posting a removed Kimi's Car entry
+- c0168 [-] celebrating the Kimi takeover as a second-best day
+- c0171 [-] retelling Kimi's Monaco retirement as a yacht escape
+- c0172 [-] calling Kimi the man, myth, and legend
+- c0173 [-] turning brain freeze into Bwoain freeze
+- c0174 [-] promoting a highlight through the great Kimi
+- c0176 [-] renaming Kimi as Kimmy Ray Konnen
+- c0177 [-] making Kimi the legend and Häkkinen his underling
+- c0179 [-] adding an obligatory Kimi pwoah-rade
+- c0180 [-] calling Kimi a meme god who birthed F1 memes
+- c0181 [-] voicing Kimi with another Bwoah caption
+- c0182 [-] voicing Kimi quitting F1 in a Bwoah caption
+- c0183 [-] imagining a drinking invitation to Kimi
+- c0184 [-] answering Mercedes' developers with a Kimi reaction image
+- c0185 [-] casting Kimi as a humanitarian inviting Finns aboard
+- c0186 [-] adding Kimi is Love, Kimi is Life to a Futurology link
+- c0191 [-] posting a Kimi-wins reaction image
+- c0192 [-] asking for upvotes to put Bwoah into Google Images
+- c0193 [-] upvoting everything to enjoy the themed animation
+- **c0195** [-] answering what is wrong with the sub through a reaction image | MFW people ask what's wrong with the sub today
+- c0196 [-] hailing Kimi as the Finnish F1 God-King
+- c0197 [-] posting places Kimi would rather be
+- c0198 [-] calling Kimi the master of social interaction
+- c0201 [-] announcing DJ Kimi’s hottest beat
+- c0202 [-] confirming Breaking Bad is a Kimi fan
+- c0205 [-] renaming upvotes as Upcreams
+- c0206 [-] posting bwoaahhhhh i dunno
+- c0209 [-] telling readers to embrace the FUPA within
+- c0210 [-] making a Kimi car-development poster
+- c0212 [-] posting a Team Radio image
+- c0213 [-] posting Well Done
+- c0215 [-] asking where Kimi passed out for pilgrimage purposes
+- c0216 [-] posting Hello team radio versus Kimi
+- c0218 [-] announcing a limited run of F1 cars for personal use
+- c0221 [-] having the Safety Car ask for updated flair
+- c0224 [-] posting the Hymn of our Lord
+- c0252 [-] googling Bwoah in the spirit of the day
+- c0255 [-] calling Kimi their Chinese-speaking lord and savior
+- c0258 [-] turning the r/place logo into Kimi Räikkönen
+- c0299 [-] proposing a Räikkönen ice cream brand
+- c0300 [-] suggesting Kimi endorse New Day Pops
+- c0302 [-] recalling an instant Kimi-era flashback
+- c0308 [-] adding a Kimi toilet-paper brand
+- c0309 [-] crediting Kimi with the car design and saying Quokka was right
+
