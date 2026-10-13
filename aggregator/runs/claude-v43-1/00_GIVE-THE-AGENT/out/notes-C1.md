@@ -673,3 +673,136 @@ stage C1:
 
 0 errors (0 distinct shapes), 0 warnings
 ```
+
+## Pass 8 (C1a-08)
+
+### Opening
+
+- The views after pass 7's close are unchanged since pass 6, because pass 7 moved nothing: 10,577 placements against 13,365 on the settled line, and 194 themes placed.
+- T3-140, T3-144 and T3-161 are placed nowhere. Nine themes are placed in one room each.
+- All twelve themes in one room or none are in the rare tier, so no main theme fell below B1's floor of two rooms unlike each other.
+
+### The empties (section 6)
+
+The reading rule was declared in the diary before any decision. Every empty line was read whole, in B1's reading order, as a re-read of its B4 ruling under `scheme_v2`'s gates and reading rules. J's rulings of 13 October bound the re-read: a placement chooses among the readers' themes and my B1's. The lone-B1 floor applies only where the readers' theme takes concepts (pass 4).
+
+- **Count.** 167 lines were empty before the pass, 2.1% of 7,844. That is below one in five, so no finding goes to the top of these notes. All 167 were B4 rulings carried unresolved, in classes 3 to 5, and both B3 readers had placed a theme in every one.
+- **Placed: 16.** All are class 4. In each, the agreeing readers' theme takes no concept and my B1 theme's `must_show` takes the concepts. The floor alone had kept them out. Six also rest on an amended gate: gate:1 (canucks t25), gate:28 (four side-talk items) and gate:29 (twentyonepilots t07).
+- **Empty now: 151 of 7,844 (1.9%).**
+- **Files.** `c1_empties.py` writes the packets into `c1_empties_packs/`. The decisions are in `c1_empties_decisions.json`, checked by `c1_empties_kinds.py` (167 decisions, 0 problems; summary in `c1_empties_kinds.json`). The placements went through `c1_empties_moves.json` and `c1_reassign_list.py`, dry run first.
+
+The next table lists the 18 kinds of empty material. For each kind it gives the items, the rooms, the items placed this pass, the first position in B1's reading order, and whether the scheme is too narrow or the material too varied.
+
+| kind | what it is | items | rooms | placed | first in B1 order | verdict |
+|---|---|---|---|---|---|---|
+| K01 | a bare trace: only a title, link, test line or the event's name survives | 37 | 34 | 0 | 20 | material too thin; the bare-mention rule gives it its outcome |
+| K02 | a short reply whose object is lost | 17 | 16 | 0 | 77 | material too thin |
+| K03 | a picture remarked on, its owner or place unsaid | 17 | 17 | 0 | 8 | mostly a fact the words omit; too narrow where the picture is another room's away from the mark |
+| K04 | an April Fools joke whose maker is unsaid | 8 | 8 | 0 | 44 | a fact the words omit |
+| K05 | another sub's April Fools change seen from this room | 8 | 8 | 0 | 178 | scheme too narrow |
+| K06 | April Fools play or talk that stages no fake | 17 | 15 | 0 | 147 | scheme too narrow |
+| K07 | the day marked or awaited, with no joke | 4 | 4 | 0 | 37 | scheme too narrow, and thin |
+| K08 | a dispute over the room's own jokes | 4 | 4 | 2 | 318 | scheme too narrow |
+| K09 | side talk and jokes with no canvas | 9 | 9 | 4 | 27 | not the scheme since gate:28; empty only where no placement held T3-017 |
+| K10 | the sub's own moderation outside the canvas | 8 | 7 | 0 | 166 | scheme too narrow by design (T3-063 takes canvas posts only) |
+| K11 | talk about the canvas as a whole | 3 | 3 | 0 | 227 | scheme too narrow at the edge |
+| K12 | meaning or attachment given to the room's own mark | 2 | 2 | 0 | 494 | material too varied |
+| K13 | the room's work shown in other subs, with no joke and no call | 2 | 2 | 0 | 239 | scheme too narrow at the edge |
+| K14 | two tests met, and no field decides | 4 | 4 | 0 | 131 | bundled material; no tiebreak sentence |
+| K15 | another deciding fact absent | 6 | 5 | 0 | 292 | a fact the words omit |
+| K16 | a singular act no theme names | 8 | 6 | 0 | 196 | material too varied: each below B1's floor |
+| K17 | material a theme fits, kept out by the lone-B1 floor alone | 10 | 10 | 10 | 37 | neither; placed under pass 4's revision |
+| K18 | lateness: arriving after the work, or told it is done | 3 | 3 | 0 | 125 | scheme too narrow at the edge |
+
+- **Saturation by kind.** 17 of the 18 kinds appear by room 352 of 705 in B1's reading order. After room 318 only one new kind appears: K12, two items, first at room 494. 89 of the 167 empties come after room 352. New kinds stopped appearing in the second half of the order. One limit: I drew the kinds after reading all the items, so first appearance is read back from the order, not watched as items arrived.
+- **What the scheme lacks.** Four kinds that the corpus carries in rooms unlike each other have no theme:
+  - April Fools play or talk that stages no fake (K06, 17 items in 15 rooms);
+  - another sub's April Fools change seen from this room (K05, 8 in 8);
+  - the sub's own moderation outside the canvas (K10, 8 in 7);
+  - disputes over the room's own jokes (K08, 4 in 4).
+
+  None is added in this pass. A new theme would change the instrument after the readers ran, and J's re-read rule would still leave these items empty, since no reader and not my B1 placed it. They go to the handback.
+
+### The arguables (section 6)
+
+- **Count.** 4,876 lines are arguable: 4,725 placed and 151 empty. The arguable rate among placed lines is 0.614. By class: 895, 864, 2,363, 696 and 58.
+- **Reading.** Every arguable line was read at the level of its label, its placements, the two B3 readers and my B1 (`c1_arguables_list.md`, grouped by the readers' split pair, then by first theme). Their concepts were not opened.
+- **The measure** (`c1_arguables.py`). The readers' confusion takes two forms. In a crossing, each reader placed a theme the other did not; this happens in 1,002 lines. In an added theme, both readers placed one theme and one of them added another.
+
+The next table lists B1's 19 predicted pairs, with their crossing lines, their added-theme lines, and their rank among 922 confused pairs with both forms counted.
+
+| # | predicted pair | crossings | added theme | rank, both forms |
+|---|---|---|---|---|
+| 1 | T3-005 / T3-021 | 18 | 98 | 1 |
+| 2 | T3-010 / T3-149 | 19 | 32 | 3 |
+| 3 | T3-001 / T3-023 | 18 | 9 | 9 |
+| 4 | T3-028 / T3-070 | 0 | 9 | 65 |
+| 5 | T3-004 / T3-020 | 2 | 16 | 23 |
+| 6 | T3-002 / T3-033 | 12 | 26 | 4 |
+| 7 | T3-015 / T3-075 | 2 | 10 | 45 |
+| 8 | T3-004 / T3-070 | 12 | 13 | 13 |
+| 9 | T3-009 / T3-073 | 19 | 18 | 5 |
+| 10 | T3-004 / T3-038 | 7 | 15 | 14 |
+| 11 | T3-010 / T3-151 | 10 | 26 | 6 |
+| 12 | T3-010 / T3-150 | 4 | 16 | 19 |
+| 13 | T3-010 / T3-024 | 12 | 15 | 10 |
+| 14 | T3-009 / T3-043 | 5 | 54 | 2 |
+| 15 | T3-001 / T3-095 | 10 | 11 | 16 |
+| 16 | T3-087 / T3-188 | 1 | 3 | 158 |
+| 17 | T3-044 / T3-082 | 0 | 0 | none |
+| 18 | T3-014 / T3-152 | 0 | 25 | 12 |
+| 19 | T3-015 / T3-063 | 5 | 6 | 49 |
+
+- **The prediction held at the top.** The pair B1 named hardest, T3-005 / T3-021, is the most confused. 8 of the 19 predicted pairs are in the top 10, 13 in the top 20 and 14 in the top 30. B1 predicted #14 and #18 as a disagreement over the added theme, and that is the form they took.
+- **Five predictions missed:** #4, #7, #16, #17 and #19.
+- **Confused, not predicted.** T3-002 / T3-038 (33 lines, the call and build cluster); T3-017 / T3-031 (29 crossings, the most of any pair; gate:28 amended its sentence at pass 6); T3-023 / T3-095 (25; gates 1 to 4 at pass 2); T3-004 / T3-041 (21); T3-001 / T3-048 (20). T3-033 / T3-041 has 12 crossings and is the top pair where the two readers agree against my B1, at 16 lines.
+- **Rule 0 departures** (`c1_line_order_check.py`). Of 2,179 multi-theme lines, 104 put a theme with fewer concepts first, 82 of them B4 rulings. Most follow a `decide_when_both` that names the primary, such as staging over objecting or the takeover over its styling. 1,069 lines hold a later theme below three concepts: J's lean, measured at pass 5 and not swept. Neither is corrected.
+
+### The placements the pair test carried
+
+The 20 placements of `c1_pair_carried.json` were each read whole (`c1_carried_pack.md`). None was moved (`c1_pair_carried_decisions.json`). Correcting only the lines the pair samples happened to find would treat them unlike the unsampled lines the same reading covers.
+- 12 sit on boundaries already read and barred from a third sentence. In 7 rooms, T3-002 / T3-005 calls to defend are counted toward T3-002; B4 read this boundary in packets 2 and 4. In 5 rooms, T3-033 / T3-041 further marks are counted toward T3-033; pass 5 barred a third sentence here, because the call, offer and build cluster moved at B2 and split the readers again. Both themes are placed in every one of the 12, so only order and counts differ.
+- 2 are items of gate:27 outside its recheck sample: indonesia t11 and rit t09.
+- 5 are defensible readings of unamended fields, or a class 1 line all three readings share. osugame t04 shows a wording overlap for `scheme_v2.md`'s watch list. Its removals that point to r/osuplace meet both T3-063's `decide_when_both` (gate:23, "removing under any other rule") and T3-090's `must_show` ("canvas posts redirected to it").
+- 1 (de t08) is a reading error that leaves the line's themes and order unchanged.
+
+### The stopping criterion at pass 8
+
+Pass 8 amended no gate, so the criterion holds, as at pass 7. The 16 placements applied amended gates and pass 4's floor revision. They changed no sentence.
+
+### J's guard, counted (`out/_analysis/c1_guard_C1a-08.json`)
+
+- 16 moves, each to my B1's theme in a class 4 empty line. None goes to a theme neither reader nor my B1 placed.
+
+### What I doubt (pass 8)
+
+- **Thin placements.** I placed 16 lines on one or two concepts each. Pass 4's floor revision allows it, but a thin placement can misstate an item's practice. denverbroncos t02 is mostly a dispute over /s, and T3-095 holds one of its five concepts.
+- **The empties' kinds are mine.** I drew them after reading 167 items, with no second reader. K02 and K15 border on each other: a short reply whose object is lost is also a deciding fact absent.
+- **The arguables were read at the label level.** The prediction check rests on placements, not on the words.
+- **I kept 20 known slips.** The reason is consistency with the unsampled lines. The cost is 20 lines I know to be off, 12 of them on two boundaries.
+- **T3-052's reach.** I required the picture to sit beside the room's mark, as T3-052's `must_show` says and as B4a-07 read it. B4a-06 had read T3-052 more widely. Under the wider reading, germany t19 and futurama t15 would be placed.
+- **Two empties stay empty against B4's earlier reasoning.** In samuraijack t14, "Fuck Tammy" is another fandom's meme, not the room's humour. In anarcho_capitalism t17, a bare link shows no act.
+
+### Slips (pass 8)
+
+- The permission check refused `cut -c` after a grep. I reran the search without it.
+- `c1_empties_kinds.py` first failed on a sort of dictionaries. I fixed it before any output was used.
+
+### Next pass
+
+1. The form pass (section 7): three sweeps, written to `form_pass-C1.md`.
+2. The fourth-order themes (section 8).
+3. `scheme_v2.md` with the gate block, the reading rules and the watch items (osugame t04's overlap among them). Then `handback-C1.md`, listing `c1_unapplied.jsonl`, `c1_pair_carried_decisions.json` and the four kinds the scheme lacks. Then the interview.
+
+### validate.py C1 at pass 8's close (before `done.sh`)
+
+```
+stage C1:
+  scheme_v2: 197 themes (15 rare), frozen 197, retired 0, new 0
+  assignments_final 7844 lines = assignment_items_expected
+  revised lines 2117 of 7844 (moved placements 2094)
+  empties 151 of 7844
+  a pass closed; the full set (scheme v2, assignments, the fourth-order themes, the form pass) is owed at the last pass, with the handback
+
+0 errors (0 distinct shapes), 0 warnings
+```

@@ -520,3 +520,10 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Guard: 24 moves, 4 to a theme neither readers nor B1 placed (harrypotter t20 on one concept by a tie at the top).
 - Tokens (dedup): 84 calls, 37.1M cache read, 0.12M output.
 - C1a-07 run.
+
+## 2026-10-14 01:15 Berlin, C1a-07 closed, C1a-08 started
+- C1a-07 closed ~23:12Z, checkpoint 423441b6d6762116, validate 0 errors 0 warnings. No moves this pass.
+- Pair test read: 883 item readings over 76 pairs; 75 joints, 1 unresolved (T3-010 | T3-149), 0 lumps; no merge or split. Analyst's doubts: the test rarely finds a lump, it alone called all 76, calls on labels not cite.py. 20 placements against a written field carried to the arguables pass.
+- Stopping criterion holds (trivially, no gate tested); recutting stops unless the empties pass amends a gate.
+- Tokens (dedup): 76 calls, 33.6M cache read, 0.13M output.
+- C1a-08 run: empties and arguables, then the form pass, fourth-order themes, scheme_v2.md, handback and interview (may be one or two legs).
