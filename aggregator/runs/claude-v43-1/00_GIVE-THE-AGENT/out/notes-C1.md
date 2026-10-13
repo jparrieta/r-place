@@ -595,3 +595,81 @@ stage C1:
 
 0 errors (0 distinct shapes), 0 warnings
 ```
+
+## Pass 7 (C1a-07)
+
+### Opening
+
+- The views after pass 6's close (`c1_views_diff.py`) show 10,577 placements against 13,365 on the settled line, and 194 themes placed.
+- After gates 30 to 32, T3-043 has 167 placements and T3-003 has 61.
+- T3-140, T3-144 and T3-161 are placed nowhere. Nine rare themes are placed in one room each.
+
+### The pair test, read (section 5)
+
+The reading followed the rule declared at C1a-06. Every item was read when twelve or fewer lines carry the pair. Otherwise twelve items were drawn by `random.Random(20261014).sample` from the sorted items.
+
+- **The test, fixed at pair 1 before any call.**
+  - Joint: each theme has concepts of its own kind in the sample. An act doing both may be among them.
+  - Lump: no sampled concept is purely one function.
+  - Unresolved: pure forms exist on both sides, but a large middle is cut by vocabulary alone.
+  - A joint or an unresolved pair is retained. A lump is merged under rule 10.
+- **The reading.** 883 item readings over 76 pairs. 26 pairs were read whole and 50 were sampled at twelve.
+- **The calls.** They are in `c1_pair_calls-01-08.json` to `c1_pair_calls-61-76.json`, each with its evidence, a contrary reading and an action. `c1_pair_calls_check.py` confirms 76 calls in declared order. Their pairs, item counts and read counts match `c1_pair_test.json`, with 0 problems.
+- **The result.** 75 joints, 1 unresolved, 0 lumps.
+  - T3-010 | T3-149 is the unresolved pair. Its middle is requests to spare a work or to coexist, and the named-words line cuts that middle by vocabulary.
+  - No theme was merged or split. No `tier_history` line, move or snap was owed.
+- **The pairs pass 6 named.** T3-005 | T3-021 and T3-009 | T3-043 are joints. The call cluster gave T3-002 | T3-033, T3-002 | T3-038 and T3-033 | T3-038, all joints. No pair holding T3-065 (the homeland flag) is carried by ten lines or more, and neither is T3-005 | T3-073, so the pair test does not reach them.
+- **Files.** `c1_pair_pack.py` writes the packets into `c1_pair_packs/`. `c1_theme_fields.py` prints a theme's gate fields from `scheme_v2.jsonl`. Both only read.
+
+**What the reading found.** Every pair has pure concepts on both sides in its sample. The arguable rate could not show this. Reading the items did. The edges between paired themes are of three kinds. The next table lists each kind of edge with an example pair.
+
+| kind of edge | example pair | what sits on the edge |
+|---|---|---|
+| one act does both functions | T3-006 \| T3-061 | an invasion of a named flag erases the flag and takes its space |
+| one exchange is cut in two | T3-010 \| T3-035 | the request for space sits in T3-035, the host's answer in T3-010 |
+| the placements follow the label's words, while the written line names a fact | T3-002 \| T3-005; T3-033 \| T3-041 | calls to defend placed by whether they name the attack; further marks placed by whether the label says "next" or "another" |
+
+- **T3-041 | T3-113 is a different case.** T3-113 is cut by what is drawn. T3-041 is cut by the act of adding. So every national emblem added beside a flag is also an extension. I kept the pair because J named national content as study material for B1, not because the act differs.
+- **Carried.** 20 placements stand against a written field (`c1_pair_carried.json`). None was moved: no gate was amended, so no recheck was owed. The arguables pass reads each one.
+
+### The stopping criterion at pass 7
+
+Every source line has had a decision since pass 5. Pass 7 amended no gate, so the second clause holds. It holds trivially, because pass 7 tested no gate. Recutting stops here. If the empties and arguables pass needs a gate amended, that gate owes its rechecks and the criterion is read again.
+
+### J's guard, counted (`out/_analysis/c1_guard_C1a-07.json`)
+
+- 0 moves. None adds a theme.
+
+### What I doubt (pass 7)
+
+- **This test rarely finds a lump.** One pure concept on each side of a sample makes a joint. A lump needs no pure concept at all. So "0 lumps" says each theme has pure forms. It does not say the cuts are where another reader would draw them.
+- **I alone called all 76 pairs.** The test was fixed at pair 1, but no one checked the calls.
+- **The calls rest on concept labels.** A label is the coder's paraphrase, not a quote. I grounded no call through `cite.py`.
+- **Two joints could be read as unresolved.** In T3-002 | T3-005 and T3-033 | T3-041 the written line names a fact: an attack under way, or the room's first mark. The placements follow the words. I called both joints because the fact is in the material. Read from the placements alone, both pairs are unresolved.
+- **The samples are uneven.** A pair carried by ten lines was read whole. T3-005 | T3-021, carried by 121, was read on twelve.
+
+### Slips (pass 7)
+
+- The permission check refused `cut -c` after `mem.py diary`. I used `--width` instead. Nothing was written.
+
+### Next pass
+
+1. The empties and the arguables (section 6), with saturation by kind. These carry over:
+   - T3-052's four unresolved items;
+   - the unresolved single failures of B4's packet 7;
+   - harrypotter t11 and tampabaylightning t08;
+   - the 20 placements in `c1_pair_carried.json`.
+2. The form pass, the fourth-order themes, `scheme_v2.md`, the handback and the interview.
+
+### validate.py C1 at pass 7's close (before `done.sh`)
+
+```
+stage C1:
+  scheme_v2: 197 themes (15 rare), frozen 197, retired 0, new 0
+  assignments_final 7844 lines = assignment_items_expected
+  revised lines 2101 of 7844 (moved placements 2078)
+  empties 167 of 7844
+  a pass closed; the full set (scheme v2, assignments, the fourth-order themes, the form pass) is owed at the last pass, with the handback
+
+0 errors (0 distinct shapes), 0 warnings
+```

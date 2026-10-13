@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at C1a-06, 2026-10-13 (UTC). Stage B is closed and frozen. Stage C1 (structuring) has closed six passes. Pass 6 amended eight gates for the five revise lines of the B4 defect list and the watch items, and computed the pair test.
+Under 3,000 words, rewritten whole at every close. Last written at C1a-07, 2026-10-13 (UTC). Stage B is closed and frozen. Stage C1 (structuring) has closed seven passes. Pass 7 called the pair test's 76 pairs; it amended no gate and moved no placement.
 
 ## The method question, in one sentence
 
@@ -10,11 +10,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The settled line is mostly right on the primary act and drops second acts. In the revision rate's 200 items, my re-decision agreed with the current line's primary in 0.845; in 29 (14.5%) I would add a second act of three concepts or more, the lean J ruled to keep. Pass 6's T3-043 gates moved 23 of 183 placements: members telling their own part had been counted as credit. The room that best supports the account is naruto t04: one theme for help that arrives from other rooms. The room that most threatens it is greenlattice t03: more than ten concepts ask for peace or a pact, and the line places T3-010 alone with T3-149 under `also_present`, a bag J ruled must not be cut.
+The settled line is mostly right on the primary act and drops second acts. In the revision rate's 200 items, my re-decision agreed with the current line's primary in 0.845; in 29 (14.5%) I would add a second act of three concepts or more, the lean J ruled to keep. Pass 6's T3-043 gates moved 23 of 183 placements: members telling their own part had been counted as credit. Pass 7 found a seam in all 76 frequent pairs (75 joints, 1 unresolved, no lump); where two themes sit closest, placements follow a label's words, not the written line's fact. The room that best supports the account is naruto t04: one theme for help that arrives from other rooms. The room that most threatens it is greenlattice t03: more than ten concepts ask for peace or a pact, and the line places T3-010 alone with T3-149 under `also_present`, a bag J ruled must not be cut.
 
 ## Where the run stands
 
-Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed six passes. `scheme_v2.jsonl` is rebuilt by `out/_analysis/c1_scheme_v2_sync.py` from `scheme_final.jsonl`, the 35 lines of `gate_history.jsonl` and `out/_analysis/c1_tier_ops.jsonl`. It differs from the frozen scheme in 19 themes: T3-001, T3-002, T3-004, T3-010, T3-011, T3-015, T3-017, T3-023, T3-025, T3-043, T3-050, T3-062, T3-063, T3-075, T3-076, T3-084, T3-095, T3-140 (rare; 15 rare in all) and T3-149.
+Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed seven passes. `scheme_v2.jsonl` is rebuilt by `out/_analysis/c1_scheme_v2_sync.py` from `scheme_final.jsonl`, the 35 lines of `gate_history.jsonl` and `out/_analysis/c1_tier_ops.jsonl`. It differs from the frozen scheme in 19 themes: T3-001, T3-002, T3-004, T3-010, T3-011, T3-015, T3-017, T3-023, T3-025, T3-043, T3-050, T3-062, T3-063, T3-075, T3-076, T3-084, T3-095, T3-140 (rare; 15 rare in all) and T3-149.
 
 ## Stage C1
 
@@ -29,7 +29,7 @@ Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed six passes. `scheme_v
 
 **QC1-003 (the handler's ruling under J's delegation; carry it).** Five revision-rate errors no C1 verb can apply stay as found; no verb is opened in C1, since a new verb changes the instrument and that is J's call. They are in `out/_analysis/c1_unapplied.jsonl`: harrypotter t11 and tampabaylightning t08 to be emptied; radiohead t04, heroesofthestorm t11 and stevenuniverse t02, bags whose placed theme and `also_present` should swap. List them in `notes-C1.md` and `handback-C1.md` from that file; all 34 errors count in the rate. If J opens a verb, the file is what it applies.
 
-**The stopping criterion** (`notes-C1.md`). I stop recutting when every source line has a recorded decision (revise, leave, or carry with its reason) and the last pass amended no gate whose rechecks moved more than one in ten. A later cut is preferred only if it decides a recorded source without making two gates contradict each other, or moves a boundary that split readers at B2 and again at B3 or B4 toward a merge or the rare tier rather than a third sentence. **At pass 6:** every source line has a decision, but gate:30 moved more than one in ten of its sample, so recutting goes on.
+**The stopping criterion** (`notes-C1.md`). I stop recutting when every source line has a recorded decision (revise, leave, or carry with its reason) and the last pass amended no gate whose rechecks moved more than one in ten. A later cut is preferred only if it decides a recorded source without making two gates contradict each other, or moves a boundary that split readers at B2 and again at B3 or B4 toward a merge or the rare tier rather than a third sentence. **At pass 7:** it holds, trivially, since pass 7 amended no gate. Recutting stops; a gate the empties and arguables pass needs owes its rechecks and reopens the criterion.
 
 **Reading rules (`notes-C1.md`), all for `scheme_v2.md`'s gate block.**
 - **The visitor rule.** A theme names an act in the record of the room whose threads hold the words. Another room's act spoken there is placed by what it is for this room.
@@ -41,18 +41,12 @@ Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed six passes. `scheme_v
 - **Help between rooms is read from either room's record** (gate:5 for T3-084, gate:27 for T3-011).
 - **Credit and own part (gates 30 to 32).** A member's own part, during the work or after, is T3-003; T3-043 is credit to others and disputes over who made it. A plural claim of who made it stays T3-043. A mixed concept goes by the act its label leads with.
 
-**Passes 1 to 5, in short.**
+**Passes 1 to 6, in short.**
 - Pass 1: class 2 applied; 30 re-reads. Pass 2: gates 1 to 7 (April Fools; the visitor rule). Pass 3: gates 8 to 26 (who calls; J's floor; the named words). Pass 4: the held lines, gate:27, the lone-B1 floor revised, T3-140 to rare.
-- Pass 5: the revision rate (`out/_analysis/c1_revision/`, seed 20261013): against the current line 73 of 200 placed differently (36.5%), mean Jaccard 0.786, primary agreement 0.845; with my first answers, 80 (40.0%), 0.749, 0.805; against the settled line 99 (49.5%). 34 errors (29 moved, 5 in `c1_unapplied.jsonl`), 29 lean, 16 floor, 1 both. The B4 defect list and watch items: 28 source lines decided (`c1_source_lines_pass5.json`). survivor t28 to T3-017; shield t06 to T3-082.
+- Pass 5: the revision rate (`out/_analysis/c1_revision/`, seed 20261013): against the current line 73 of 200 placed differently (36.5%), mean Jaccard 0.786, primary agreement 0.845; against the settled line 99 (49.5%). 34 errors (29 moved, 5 in `c1_unapplied.jsonl`). 28 source lines decided (`c1_source_lines_pass5.json`).
+- Pass 6: gates 28 to 35 for the five revise lines; gate:30 (T3-043's gloss) moved 4 of 30, escalated to all 183 T3-043 placements, 23 moved; the others moved 0 or 1 of 30. The pair test computed (`c1_pair_test.py`): 78 pairs on ten lines or more; corpus arguable rate 0.613, multi-theme lines 0.961, 76 pairs at 0.713 or more; the rate marks a contested item's history, not the pair. Guard: 24 moves, 4 adding a theme neither reader nor my B1 placed.
 
-**Pass 6 (C1a-06).**
-- **Gates 28 to 35**, the five revise lines (T3-043's took three gates). gate:28 and gate:29 (T3-017 and T3-001 against T3-031): 0 and 1 of 30 moved. Gates 30 to 32 (T3-043): gate:30 moved 4 of 30, escalated to all 183 T3-043 placements, 23 moved; gate:31 1; gate:32 0. Gates 33 and 34 (T3-149 | T3-025) and gate:35 (T3-050 against T3-086): 0. 38 gate pairs confirmed.
-- **The pair test** (`c1_pair_test.py`, declared first): 78 pairs carried by ten or more second-order themes; corpus arguable rate 0.613; lines placing two themes 0.961; 76 pairs materially above (0.713 or more). The confidence value marks a contested item's history, not the pair, so the rate cannot separate a joint from a lump. All 76 are owed a call; pass 7 reads them as declared.
-- **The guard.** 24 moves; 4 add a theme neither reader nor my B1 placed (T3-003 in harrypotter t20, ireland t15 and smashbros t05; T3-017 in warframe t09).
-
-**Found, owed.**
-- **The 76 pairs**, read as declared in the diary: every item when twelve or fewer carry the pair, else twelve drawn by `random.Random(20261014).sample` from the sorted items. T3-005 | T3-021 (121) and T3-009 | T3-043 (78) lead; the homeland flag, T3-005 | T3-073 and the call cluster came from pass 5.
-- **Carried to the empties pass:** T3-052's four unresolved items; the unresolved single failures of B4's packet 7; harrypotter t11 and tampabaylightning t08; saturation by kind.
+**Pass 7 (C1a-07).** The 76 pairs read as declared at C1a-06 (883 item readings), by a test fixed at pair 1 (worded in `notes-C1.md`). 75 joints; 1 unresolved (T3-010 | T3-149); 0 lumps; no merge, split or move (`c1_pair_calls-*.json`, checked by `c1_pair_calls_check.py`). 20 placements stand against a written field (`c1_pair_carried.json`: calls to defend under T3-002 in seven rooms, further marks under T3-033 in five, eight single slips); none moved, since no gate was amended. Guard: 0 moves.
 
 ## J's rulings on how a ruling is made (13 October; carry them)
 
@@ -105,12 +99,13 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 - **From B1.** The ruling on testing G13, G14 and G15 as one index page. Seven pairs of lines telling one event; the cfb and finland records; the 76 themes holding both T3-005 and T3-021 acts. The second-order theme the scheme handles worst: argentina t06.
 - **The bag count.** J counts 841 B1 bags; an older head said 846. Not reconciled.
-- **My doubts.** Where words carry no speaker's sub I read them as the room's own. T3-084 and T3-011 hold both sides of a request or of help, so C2 cannot read direction from them alone. The named-words test splits a truce told only in pixels into T3-010. I reversed hearthstone t08's unanimous line under my own gate:1. The revision rate's packets showed every candidate theme. I drew the T3-043 line by person; B4's readers had often drawn it by time. The pair test's comparison cannot separate pairs, and I kept it because I declared it first.
+- **My doubts.** Where words carry no speaker's sub I read them as the room's own. T3-084 and T3-011 hold both sides of a request or of help, so C2 cannot read direction from them alone. The named-words test splits a truce told only in pixels into T3-010. I reversed hearthstone t08's unanimous line under my own gate:1. I drew the T3-043 line by person; B4's readers had often drawn it by time. The pair test's rate cannot separate pairs, and my test finds a lump only where a sample has no pure concept, so 0 lumps is weak evidence; I called the 76 alone, on concept labels.
 
 ## Ledgers at this close
 
 - B1 to B4, unchanged since B4's close: `confusions.md` (19 pairs), `scheme_final.jsonl` (197), `multiplacement_log.jsonl` (3,171), `b3_classes.jsonl` (7,844), `coder_conflicts.jsonl` (72), `disagreements.jsonl` (3,288), `assign_final.jsonl` (7,844), `reassign.jsonl` (999), `reassign-openai-astra.jsonl` (1,000), with the stage notes, transmission files and `handback-B4.md`.
-- C1: `notes-C1.md`; `assignments_final.jsonl` (7,844, 2,101 revised, 167 empty), `assign_revisions_only.jsonl` (2,101), `assignments_final.count.txt`; `scheme_v2.jsonl` (197, 15 rare); `gate_history.jsonl` (35); `rechecks-C1.jsonl` (1,297); `tier_history.jsonl` (393) with `c1_tier_ops.jsonl`; `gate_checks.jsonl` (737); `out/_analysis/c1_*.py` with `c1_rechecks/`, `c1_revision/`, `c1_guard*.json`, `c1_source_lines_pass5.json`, `c1_unapplied.jsonl` (5), `c1_pair_test.json`. `validate.py C1`: 0 errors, 0 warnings.
+- C1, unchanged since pass 6's close: `assignments_final.jsonl` (7,844, 2,101 revised, 167 empty), `assign_revisions_only.jsonl` (2,101), `assignments_final.count.txt`; `scheme_v2.jsonl` (197, 15 rare); `gate_history.jsonl` (35); `rechecks-C1.jsonl` (1,297); `tier_history.jsonl` (393) with `c1_tier_ops.jsonl`; `gate_checks.jsonl` (737).
+- C1, added at pass 7: `c1_pair_calls-*.json` (76 calls), `c1_pair_packs/`, `c1_pair_carried.json` (20), `c1_guard_C1a-07.json`, with their scripts. Also `notes-C1.md`, the other `out/_analysis/c1_*` files, `c1_unapplied.jsonl` (5) and `c1_pair_test.json`. `validate.py C1`: 0 errors, 0 warnings.
 - Asks QB2-001 to QB2-014, QB3-001 to QB3-005, QB4-001 to QB4-003 and QC1-001 to QC1-003 are answered.
 
 ## Rules kept
@@ -120,13 +115,13 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 - A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`. Read an answer with `mem.py asks <id>`.
 - Never put a placeholder or a no-op in a command or a log line. Never put an Edit or Write and the read, dry run or validator run that checks it in one turn. Count the head's words before the closing line.
 - Never write an id-like token the run does not define in the head, such as a D or a P followed by digits: `done.sh` reads it as an unresolved link.
-- The permission check refuses: shell variables set and expanded in a command; shell loops and words beginning "for_"; shell functions, brace groups and heredocs (an empty one included); awk with system() or `$` fields; env-var prefixes; cat or jq on `out/diary/`; `cut -c` after `mem.py` or a helper; `head -n -N`. Write a script file in `out/_analysis/` instead. `.git` is read-denied, and so are reads outside the run folder.
+- The permission check refuses: shell variables set and expanded in a command; shell loops and words beginning "for_"; shell functions, brace groups and heredocs (an empty one included); awk with system() or `$` fields; env-var prefixes; cat or jq on `out/diary/`; `cut -c` after `mem.py` or a helper (use `--width`); `head -n -N`. Write a script file in `out/_analysis/` instead. `.git` is read-denied, and so are reads outside the run folder.
 - `mem.py` pages long output (`--offset`). A Bash output over about 30 KB cannot be read; page it. Set `timeout` up to 600000 for long writes.
 - After a compaction the guard requires the head and stage file read again and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other step.
-- In C1: amend one discriminator with `c1_gate_disc.py`; other fields with `mem.py gate`. Then `c1_scheme_v2_sync.py --write`; review owed rechecks with `c1_owed_review.py` (a packet, then a focus file of the counted concepts, then each candidate's full concept list); decisions through `c1_decisions_common.py` (with `c1_special_by_change.py`; `--name` for an escalation) and `c1_recheck_apply.py`, dry run first; moves through `c1_reassign_from_rechecks.py`; then `c1_pairs_dump.py`, read, `c1_confirm_pairs.py`. Reviewed lists through `c1_reassign_list.py` (`mem.py reassign` prints "moved"; it cannot empty a line or write `also_present`, and `unplace` is B1's). Every move of a theme is logged `--kind move` and snapped.
+- In C1: amend one discriminator with `c1_gate_disc.py`; other fields with `mem.py gate`. Then `c1_scheme_v2_sync.py --write`; review owed rechecks with `c1_owed_review.py` (a packet, then a focus file of the counted concepts, then each candidate's full concept list); decisions through `c1_decisions_common.py` (with `c1_special_by_change.py`; `--name` for an escalation) and `c1_recheck_apply.py`, dry run first; moves through `c1_reassign_from_rechecks.py`; then `c1_pairs_dump.py`, read, `c1_confirm_pairs.py`. Reviewed lists through `c1_reassign_list.py` (`mem.py reassign` prints "moved"; it cannot empty a line or write `also_present`, and `unplace` is B1's). Every move of a theme is logged `--kind move` and snapped. A theme's gate fields: `c1_theme_fields.py T3-NNN --vs T3-MMM`.
 
 ## The next comparison
 
-Pass 7 (C1a-07) first reads the views after pass 6's close. Then the 76 pairs of the pair test, read as declared and called joint, lump or unresolved, each with its evidence and a contrary reading; any merge or split under rule 10's arithmetic, declared with its gate and rechecks.
+Pass 8 (C1a-08) first reads the views after pass 7's close. Then the empties and the arguables (section 6): the 167 `third_order: []` lines grouped into kinds, with when each kind first appeared (saturation by kind); the arguable lines checked against B1's prediction in `confusions.md`; the 20 placements of `c1_pair_carried.json` read by their written fields; T3-052's four unresolved items, B4 packet 7's unresolved single failures, harrypotter t11 and tampabaylightning t08. A gate amended there declares its rechecks.
 
-Then the empties and arguables (with saturation by kind), the form pass, the fourth-order themes, `scheme_v2.md` (its gate block holding the reading rules above), the handback and the interview.
+Then the form pass, the fourth-order themes, `scheme_v2.md` (its gate block holding the reading rules above), the handback and the interview.

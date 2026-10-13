@@ -512,3 +512,11 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Source lines: 28 decided (5 revise as 7 gates for pass 6, 4 done, 13 leave, 6 carry). Guard: 31 moves, 6 to a theme neither readers nor B1 placed (texastech t03 on two concepts, tie broken by placement counts).
 - Tokens (dedup): 123 calls, 51.6M cache read, 0.23M output.
 - C1a-06 run.
+
+## 2026-10-14 00:48 Berlin, C1a-06 closed, C1a-07 started
+- C1a-06 closed 22:44Z, checkpoint 7e81c7e8806eaaa5, validate 0 errors 0 warnings. Revised 2,101 of 7,844; empties 167.
+- Gates 28 to 35 (eight, T3-043 took three). gate:30 escalated to all 183 T3-043 placements, 23 moved; stopping criterion not met, recutting goes on.
+- Pair test: 76 of 78 pairs above the corpus arguable rate; analyst notes the rate tracks item history, not joint against lump; all 76 owed a call in pass 7, read on a seeded sample of 12 each.
+- Guard: 24 moves, 4 to a theme neither readers nor B1 placed (harrypotter t20 on one concept by a tie at the top).
+- Tokens (dedup): 84 calls, 37.1M cache read, 0.12M output.
+- C1a-07 run.
