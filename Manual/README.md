@@ -30,7 +30,7 @@ The run below is generated from its records at every close (`CONTROL/harness/gen
 | [B3](stages/B3.md) | Coding: fleet | finished |
 | [B4](stages/B4.md) | Coding: adjudication and freeze | finished |
 | [C1](stages/C1.md) | Model: structuring | finished |
-| [C2](stages/C2.md) | Model: the loop | 6 legs closed |
+| [C2](stages/C2.md) | Model: the loop | finished |
 | [C3](stages/C3.md) | Model: literature | not started |
 | [C4](stages/C4.md) | Model: the field | not started |
 | [C5](stages/C5.md) | Model: account | not started |

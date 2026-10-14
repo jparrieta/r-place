@@ -1,0 +1,464 @@
+{
+ "about": "C02's three checks, read by me (c2d2_claim_c02.py); every candidate in c2d2_claim_candidates.txt not listed fails check (a)",
+ "rows": [
+  {
+   "sub": "unitedkingdom",
+   "code": "c0146",
+   "hour": 24.94,
+   "second_order": "t10",
+   "quote": "For two world wars the French and british have stood together against the germans, and now they need our help again in r/place. Let's combine our forces and spread the world, covering the flag of Germany with that of France and Great Britain!",
+   "result": "C02",
+   "note": "covering Germany's flag; the two world wars named"
+  },
+  {
+   "sub": "unitedkingdom",
+   "code": "c0186",
+   "hour": 28.84,
+   "second_order": "t10",
+   "quote": "We took the Falklands so why wont we take Argentina altogether",
+   "result": "C02",
+   "note": "taking Argentina; the Falklands named"
+  },
+  {
+   "sub": "unitedkingdom",
+   "code": "c0154",
+   "hour": 25.4,
+   "second_order": "t10",
+   "quote": "Why aren't we busy turning the Scottish flag British on r/place",
+   "result": "c",
+   "note": "turning the Scottish flag British: the union is the room's own nation, not a tie that names a rival outside it"
+  },
+  {
+   "sub": "unitedkingdom",
+   "code": "c0187",
+   "hour": 28.9,
+   "second_order": "t10",
+   "quote": "We should take away the EU flag and change it to the Union Jack.",
+   "result": "c",
+   "note": "the EU flag to be replaced; no tie named in the words"
+  },
+  {
+   "sub": "unitedkingdom",
+   "code": "c0250",
+   "hour": 60.95,
+   "second_order": "t10",
+   "quote": "Psssst we're turning the Scottish flag into the St George flag over on r/place. Join the battle at (734,799)!",
+   "result": "c",
+   "note": "the Scottish flag into St George's; no tie named in the words"
+  },
+  {
+   "sub": "unitedkingdom",
+   "code": "c0279",
+   "hour": 67.27,
+   "second_order": "t10",
+   "quote": "We tried to draw the Belgrano in the middle, using their centre design as an explosion. Unfortunately they had more repair scripts running than us.",
+   "result": "b",
+   "note": "the Belgrano drawn over 'their centre design'; the rival is a pronoun in the turn"
+  },
+  {
+   "sub": "sweden",
+   "code": "c0122",
+   "hour": 18.67,
+   "second_order": "t07",
+   "quote": "VI BORDE FÖRSÖKA EXPANDERA SÅHÄR! STORMAKTSTIDEN ÄR ÅTER HÄR!",
+   "result": "b",
+   "note": "expansion called with the Great Power era named; no rival named"
+  },
+  {
+   "sub": "sweden",
+   "code": "c0144",
+   "hour": 19.8,
+   "second_order": "t07",
+   "quote": "OPERATION LILLA BÄLT - VI SLÅR TILL KLOCKAN 16",
+   "result": "b",
+   "note": "Operation Little Belt names a Danish strait; the rival only by allusion"
+  },
+  {
+   "sub": "sweden",
+   "code": "c0195",
+   "hour": 21.97,
+   "second_order": "t02",
+   "quote": "FULL RULLE! AKTIVERA OPERATION LILLA BÄLT! FRAMÅT KAROLINER",
+   "result": "b",
+   "note": "Operation Little Belt and the Caroleans; the rival only by allusion"
+  },
+  {
+   "sub": "anarcho_capitalism",
+   "code": "c0009",
+   "hour": 5.0,
+   "second_order": "t02",
+   "quote": "To the battlefield! Turn Commie Red to Capitalist Gold!",
+   "result": "C02",
+   "note": "Commie Red to Capitalist Gold: the rival and the ideology named"
+  },
+  {
+   "sub": "completeanarchy",
+   "code": "c0192",
+   "hour": 52.42,
+   "second_order": "t03",
+   "quote": "We're taking over \"no step on snek\" ancap flag",
+   "result": "C02",
+   "note": "taking over the ancap flag: the rival named by its ideology"
+  },
+  {
+   "sub": "completeanarchy",
+   "code": "c0193",
+   "hour": 69.59,
+   "second_order": "t03",
+   "quote": "I just made it \"do step on snek\"",
+   "result": "c",
+   "note": "'do step on snek': the rival's flag altered; no tie named"
+  },
+  {
+   "sub": "completeanarchy",
+   "code": "c0244",
+   "hour": 62.88,
+   "second_order": "t03",
+   "quote": "[Rare] Snake gets ABSOLUTELY stepped on",
+   "result": "c",
+   "note": "the snake stepped on; no tie named"
+  },
+  {
+   "sub": "CKCrusaders",
+   "code": "c0063",
+   "hour": 44.69,
+   "second_order": "t05",
+   "quote": "Instead of DAY9, the byzantine flag should replace the turkish flag below us.",
+   "result": "C02",
+   "note": "the Byzantine flag to replace the Turkish flag"
+  },
+  {
+   "sub": "CKCrusaders",
+   "code": "c0085",
+   "hour": 39.48,
+   "second_order": "t06",
+   "quote": "Proposal: CRUSADE against the infidel. Recapture Constantinople. God wills it, the Pope called it: will you take arms!!! The flag of Turkey is bottom left from us, let's conquer it.",
+   "result": "C02",
+   "note": "a crusade to recapture Constantinople; the flag of Turkey to conquer"
+  },
+  {
+   "sub": "CKCrusaders",
+   "code": "c0071",
+   "hour": 55.04,
+   "second_order": "t06",
+   "quote": "Our next target! REMOVE KEBAB. For the glory of Constantinople.",
+   "result": "b",
+   "note": "the next target named only by a slur for Turks; no flag or people named"
+  },
+  {
+   "sub": "lakers",
+   "code": "c0075",
+   "hour": 32.23,
+   "second_order": "t08",
+   "quote": "Celtics are attempting to ruin /r/place with their TERRIBLE logo. Let's light it up with some PURPLE and GOLD!",
+   "result": "C02",
+   "note": "the Celtics' logo lit up in purple and gold, the Lakers' colours"
+  },
+  {
+   "sub": "lakers",
+   "code": "c0050",
+   "hour": 31.89,
+   "second_order": "t08",
+   "quote": "(720,667) on /r/place celtics are trying to make a symbol! You know what to do",
+   "result": "c",
+   "note": "the Celtics named and the attack called; no tie in the words"
+  },
+  {
+   "sub": "lakers",
+   "code": "c0051",
+   "hour": 32.02,
+   "second_order": "t08",
+   "quote": "let's replace it with the purple and gold!! Who's with me!!!",
+   "result": "b",
+   "note": "'replace it with the purple and gold'; the rival a pronoun"
+  },
+  {
+   "sub": "lakers",
+   "code": "c0058",
+   "hour": 33.44,
+   "second_order": "t08",
+   "quote": "Current strategy - Hit the green with our glorious PURPLE & GOLD",
+   "result": "b",
+   "note": "'hit the green'; the rival by colour only"
+  },
+  {
+   "sub": "lakers",
+   "code": "c0082",
+   "hour": 37.36,
+   "second_order": "t08",
+   "quote": "I made a guide for the Lakers logo so that we can add in /r/place and replace the Celtics logo with.",
+   "result": "c",
+   "note": "a guide to replace the Celtics logo; the team named only as the work's own logo"
+  },
+  {
+   "sub": "lakers",
+   "code": "c0085",
+   "hour": 38.52,
+   "second_order": "t08",
+   "quote": "We gonna cover up all your championships with our own championships",
+   "result": "b",
+   "note": "'cover up all your championships'; the rival a pronoun"
+  },
+  {
+   "sub": "lakers",
+   "code": "c0231",
+   "hour": 83.25,
+   "second_order": "t08",
+   "quote": "I wasn't able to see the final stages of the logo on sunday but I was a little active on saturday night. I was helping vandalize the celtic territory.",
+   "result": "c",
+   "note": "vandalising the Celtic territory, told after the close; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0033",
+   "hour": 50.82,
+   "second_order": "t05",
+   "quote": "I could use help turning the Cubs logo completely red",
+   "result": "C02",
+   "note": "the Cubs logo to be turned red, the Cardinals' colour"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0029",
+   "hour": 45.23,
+   "second_order": "t05",
+   "quote": "I'm working on turning the Cubs logo in to Cubsuck. Help there would be nice!",
+   "result": "c",
+   "note": "the Cubs logo into Cubsuck; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0034",
+   "hour": 56.99,
+   "second_order": "t05",
+   "quote": "How about some help to get rid of the cubs logo? Just threw a post up on here about it.",
+   "result": "c",
+   "note": "help to get rid of the Cubs logo; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0043",
+   "hour": 38.17,
+   "second_order": "t05",
+   "quote": "I added a dot in the \"U\" to make it an \"O\". The Chicago Cobs!",
+   "result": "c",
+   "note": "the Cubs U made an O; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0063",
+   "hour": 56.98,
+   "second_order": "t05",
+   "quote": "Destroy the Cubs logo on r/place!!!",
+   "result": "c",
+   "note": "destroy the Cubs logo; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0089",
+   "hour": 50.3,
+   "second_order": "t05",
+   "quote": "The Cubs have a logo on r/place. It'd be fun to destroy it. It's in the bottom right corner (known as the blue corner) by the Miami Dolphins logo.",
+   "result": "c",
+   "note": "it would be fun to destroy the Cubs logo; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0090",
+   "hour": 50.34,
+   "second_order": "t05",
+   "quote": "I just made it say \"Cucs\"",
+   "result": "c",
+   "note": "the Cubs logo made to say Cucs; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0094",
+   "hour": 52.86,
+   "second_order": "t05",
+   "quote": "Got the Cubs logo on r/place to say \"Cucs\". Pretty much my only accomplishment in life. EDIT: Already got fixed just gonna kill myself now.",
+   "result": "c",
+   "note": "the same; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0097",
+   "hour": 58.26,
+   "second_order": "t05",
+   "quote": "We have achieved COBS",
+   "result": "c",
+   "note": "Cobs achieved; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0102",
+   "hour": 58.6,
+   "second_order": "t05",
+   "quote": "You guys, I'm not kidding, my r/place glitched and gave me like 30 pixels in a row before it locked me out and I got it to say cocks. HOW DO I LINK AN IMAGE",
+   "result": "c",
+   "note": "the logo made to say cocks; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0100",
+   "hour": 58.37,
+   "second_order": "t05",
+   "quote": "Guys go to (897, 953) of /r/place and help us change the Cubs logo to say Cocks.",
+   "result": "c",
+   "note": "help change the Cubs logo to say Cocks; no tie named"
+  },
+  {
+   "sub": "cardinals",
+   "code": "c0101",
+   "hour": 58.57,
+   "second_order": "t05",
+   "quote": "HAH, it says Cobs now #TAKE THAT YOU DIRTY CUBS FANS",
+   "result": "c",
+   "note": "'TAKE THAT YOU DIRTY CUBS FANS'; the rival's fans named, no tie named"
+  },
+  {
+   "sub": "rpi",
+   "code": "c0023",
+   "hour": 55.15,
+   "second_order": "t03",
+   "quote": "Yes, WPI.",
+   "result": "c",
+   "note": "'Yes, WPI.' confirms the target; no tie named"
+  },
+  {
+   "sub": "rpi",
+   "code": "c0022",
+   "hour": 55.05,
+   "second_order": "t03",
+   "quote": "You mean WPI? I'm down for a lil interpolytechnic griefing.",
+   "result": "C02",
+   "note": "'a lil interpolytechnic griefing' of WPI: the schools' tie named"
+  },
+  {
+   "sub": "rpi",
+   "code": "c0093",
+   "hour": 68.04,
+   "second_order": "t03",
+   "quote": "Why not make our own then erase WPI? Thinking they can take our name and stuff. Fook 'em.",
+   "result": "C02",
+   "note": "erase WPI, 'thinking they can take our name': the schools' rivalry over the name"
+  },
+  {
+   "sub": "rpi",
+   "code": "c0021",
+   "hour": 54.98,
+   "second_order": "t03",
+   "quote": "Let's hijack the RPI r/place location!",
+   "result": "b",
+   "note": "the call names RPI's own spot by mistake"
+  },
+  {
+   "sub": "rpi",
+   "code": "c0024",
+   "hour": 55.46,
+   "second_order": "t03",
+   "quote": "Help us hijack the WPI r/place!",
+   "result": "c",
+   "note": "hijack WPI; no tie named"
+  },
+  {
+   "sub": "rpi",
+   "code": "c0029",
+   "hour": 55.71,
+   "second_order": "t03",
+   "quote": "Hey guys, let's remove the left spoke of the W and make the R with the right two spokes",
+   "result": "c",
+   "note": "the W made an R; no tie named"
+  },
+  {
+   "sub": "purplecorner",
+   "code": "c0008",
+   "hour": 6.94,
+   "second_order": "t02",
+   "quote": "Team Purp! Only replace filthy blue tiles!",
+   "result": "colour",
+   "note": "'Team Purp! Only replace filthy blue tiles!'"
+  },
+  {
+   "sub": "purplecorner",
+   "code": "c0023",
+   "hour": 11.37,
+   "second_order": "t02",
+   "quote": "Bring down the Blue.",
+   "result": "c",
+   "note": "'Bring down the Blue'; the faith not named in the turn"
+  },
+  {
+   "sub": "orderofthebluecorner",
+   "code": "c0014",
+   "hour": 3.93,
+   "second_order": "t01",
+   "quote": "You are the ocean's fury, for this canvas belongs to your tide. Manifest your destiny, my brothers, for when the red and green come, know that they are sickly beings. All they know is sin. You must cure this sin that plagues them and purge their heresy from this sacred canvas.",
+   "result": "colour",
+   "note": "the red and green to be purged as heresy from the blue's canvas"
+  },
+  {
+   "sub": "thebluecorner",
+   "code": "c0009",
+   "hour": 6.84,
+   "second_order": "t03",
+   "quote": "you will bring about the **destruction** of the Red war machine, the eliminations of Red tyranny over oppressed pixels of the Place, and the security for ourselves in a blue dominate place.",
+   "result": "colour",
+   "note": "the destruction of the Red war machine for a blue place"
+  },
+  {
+   "sub": "thebluecorner",
+   "code": "c0230",
+   "hour": 16.23,
+   "second_order": "t02",
+   "quote": "We need to attack back. Blue the Purple Corner!",
+   "result": "colour",
+   "note": "'Blue the Purple Corner!'"
+  },
+  {
+   "sub": "thebluecorner",
+   "code": "c0943",
+   "hour": 56.83,
+   "second_order": "t02",
+   "quote": "I SAY WE MOVE TO GREEN LATTICE AND MAKE IT BLUE",
+   "result": "colour",
+   "note": "move to the Green Lattice and make it blue"
+  },
+  {
+   "sub": "thebluecorner",
+   "code": "c0088",
+   "hour": 13.14,
+   "second_order": "t03",
+   "quote": "The Attack On The Green Corner Has BEGUN!!",
+   "result": "c",
+   "note": "the attack on the Green Corner announced; the faith not named"
+  },
+  {
+   "sub": "thebluecorner",
+   "code": "c0106",
+   "hour": 14.16,
+   "second_order": "t02",
+   "quote": "destroy that ugly purple triangle",
+   "result": "c",
+   "note": "destroy the purple triangle; the faith not named"
+  },
+  {
+   "sub": "thebluecorner",
+   "code": "c0461",
+   "hour": 26.61,
+   "second_order": "t02",
+   "quote": "TIME TO TAKE DOWN THE VOID",
+   "result": "c",
+   "note": "take down the Void; the faith not named"
+  },
+  {
+   "sub": "thebluecorner",
+   "code": "c0047",
+   "hour": 10.08,
+   "second_order": "t02",
+   "quote": "join me in finishing the nearly dead red corner",
+   "result": "c",
+   "note": "finish the red corner; the faith not named"
+  }
+ ]
+}

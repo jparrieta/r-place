@@ -43,3 +43,11 @@ In the model it is element P15 and arrow A12 (a call answered by an enrolment, s
 - **How many communities:** 337 of 705 (590 lines) under the form pass's declared gate; never counted in the model, and a floor.
 - **The candidate I came closest to choosing instead:** organizing without decided order.
 - **The literature a reader would say already covers it:** writing on low-cost online participation and on conditional pledges in collective action (both recalled); the enrolment differs from both in being unconditional, followed by labour, and read by others as a count. This is provisional: stage C3 may show the literature has the word.
+
+## Part B's return, pass 5 (C2d-02), the last pass
+
+Passes 2 to 4 left the concept unchanged. At the last pass the answer is the one-line enrolment, chosen. It stays marked as recalled against the literature until stage C3.
+- **The concept in one sentence:** as at pass 1.
+- **How many communities:** as at pass 1, 337 of 705 under the form pass's gate, never counted in the model. At pass 4 the call's boundary with it was read: at most 228 of the 1,980 concepts cited under the call's themes are joining lines, and stripping them out changes no arrow from the call.
+- **One more candidate, rejected:** a tie the members had before the canvas naming the rival in the attack call (the claim C02, pass 5). It is rivalry with a known competitor and frame bridging, both named in the recalled literature (Kilduff, Elfenbein and Staw; Snow and colleagues). It is a claim in the model, not a concept the literature lacks.
+- **The candidate I came closest to choosing instead:** still organizing without decided order.
