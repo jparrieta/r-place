@@ -806,3 +806,88 @@ stage C1:
 
 0 errors (0 distinct shapes), 0 warnings
 ```
+
+## Pass 9 (C1a-09)
+
+### Opening
+
+- The views after pass 8's close (`c1_views_diff.py`) show 10,593 placements against 13,365 on the settled line. That is 16 more than after pass 7: the 16 empty lines placed at pass 8, one theme each. 194 themes are placed.
+- T3-140, T3-144 and T3-161 are placed nowhere. Nine themes are placed in one room each, all rare.
+
+### The form pass (section 7)
+
+The pass is written in `form_pass-C1.md`, with its searches, limits, pattern tables and findings. The helper is `out/_analysis/c1_form_pass.py`, and the patterns are in `out/_analysis/c1_form_patterns.json`. Every count went through `mem.py codes --grep`, one logged read per pattern, and was then kept to the participants' quoted words. Quotes were grounded with `cite.py --grep`.
+
+- **Sweep 1, form.** 9.7% of the 115,388 concepts are three words or fewer, in 659 rooms. The cheapest act is the one-line reply that joins, assents, reports a part done or thanks: 590 concepts in 337 rooms, median two words. 90.3% sit under a coded parent item, against 73.7% of all comments. Concepts that short draw a coded reply in 20.9% of cases, against 35.0% for concepts of 11 words or more. Two turn forms that no theme owns: the edited post and the talk of sleep and time zones.
+- **Sweep 2, register.** The vocabulary of state and war covers 4,759 concepts in 571 rooms under 145 line themes; no theme holds more than 14.9%. "We" leads "I" in submissions, and "I" leads in replies. Diplomacy, pride and trade are owned by themes. The craft words, profanity and internet slang are wide, but they are the medium's words or the site's.
+- **Sweep 3, what is not said.** The canvas-wide collectives are named in 453 rooms; 128 concepts put the void in a question, and none asks what it is. A question posted as a submission draws a coded reply in 37.7% of cases. "Who is in charge" is asked in 14 rooms.
+
+The next table lists the eight form-pass findings by id, with the communities and lines each covers. `form_pass-C1.md` holds the statement and exemplars of each.
+
+| id | finding | communities | lines |
+|---|---|---|---|
+| FP-01 | the one-line reply is the cheapest act | 337 | 590 |
+| FP-02 | the edited post carries a running record | 418 | 1,124 |
+| FP-03 | rooms time the work by who is awake | 219 | 362 |
+| FP-04 | the vocabulary of state and war is the common speech of canvas work | 571 | 4,759 |
+| FP-05 | the post speaks as "we", the reply as "I" | 694 and 684 | 33,472 and 30,890 |
+| FP-06 | the canvas's large collectives are named as known actors | 453 | 3,605 |
+| FP-07 | a room's question to itself, posted as a submission, is answered least | 559 (submission questions) | 5,072 |
+| FP-08 | who leads is neither asked nor named | 14 asked, 61 named | 15 asked, 86 named |
+
+These findings were never counted and never clustered. None has a line in `assignments_final.jsonl` or a share in any later arithmetic, and no gate was written for them. Stage C2 takes them from `form_pass-C1.md`, the only place they exist.
+
+### What the form pass could not reach
+
+This list is the same as in `form_pass-C1.md`, kept here for stage E1 and the write-up's account of what the study cannot say.
+
+1. **Stance.** A register or a stance is a property of a whole utterance. String matching finds the words, and it cannot tell play from earnest. "Canadian reinforcements, reporting in sir!" [ripcity/c0192] may be a joke or a pledge. FP-04 counts the vocabulary of war, not the stance of war.
+2. **Acts named by topic.** No route through second-order themes reaches an act whose themes name what it was about rather than what it was. The one-line reply sits on the theme of the call it answers. FP-01's 88 line themes are topics, not the act of joining. The same holds for the edited post and the talk of sleep.
+3. **Dropped items.** The coders dropped items with no code and no coded descendant. Short replies and many answers are among them. FP-01 is a floor, and FP-07's unanswered share is an upper bound.
+4. **Timing.** The hour is the item's posting time, in hours since the canvas opened. The pass did not measure reply latency, the time of an edit, or each room's local time.
+5. **Case.** `mem.py`'s grep ignores case, so shouting in capitals, itself a register, was not counted.
+6. **Language.** The patterns are English. Rooms that wrote in Portuguese, German, French, Czech and other languages are undercounted in every sweep.
+7. **Links and images.** A turn that is a template link or a screenshot has a URL for its words, and its register is invisible.
+8. **Who answers whom.** The pass read the line theme of a coded parent item. It did not follow authors across turns, so it cannot say whether the caller answers the joiner.
+9. **The week before.** The pass did not compare any register with the rooms' pre-event week, so it cannot say whether the event changed the register.
+
+### The stopping criterion at pass 9
+
+Pass 9 amended no gate and moved no placement. The criterion holds, as at passes 7 and 8.
+
+### J's guard, counted (`out/_analysis/c1_guard_C1a-09.json`)
+
+- 0 moves in this leg.
+
+### What I doubt (pass 9)
+
+- **The patterns are mine.** I chose every word list. Two first counts were polluted and recounted: "gg" matched discord.gg links, and "ranks" and "squads" are game words. Other lists may hold pollution I did not see. The faith row holds exclamations such as "holy shit", and I did not recount it.
+- **"Answered" rests on the coded record.** An answer the coders dropped is not seen.
+- **FP-05 has a length confound.** Submissions are shorter, which lowers any pronoun's share. Length does not explain why the "we" share stays flat.
+- **FP-08's reading is mine.** The count shows only that the question is absent. That the rooms take for granted that whoever posts may call is my reading.
+- **FP-04 and the named words.** The named words of T3-010 | T3-149 read war words as naming an attack. FP-04 finds those words used across the corpus, even for builders. I did not amend the gate. The doubt goes to `scheme_v2.md`'s watch items and to the handback.
+
+### Slips (pass 9)
+
+- After the compaction, the guard refused the first "compacted; head reconciled" line. It wanted the head and the stage file read after the compaction notice. I read both again and logged the line in a call of its own.
+- One first pattern for a gloss on the void matched statements such as "The void is approaching". The leaders pattern held game titles ("Chief" in halo, "cmdr"). Both were recounted before any figure was used.
+
+### Next pass
+
+1. The fourth-order themes (section 8). Each cut is a `tier_history` line, a move line in the diary and a snap.
+2. `scheme_v2.md`, with the gate block, the reading rules and the watch items: osugame t04's overlap, and FP-04's caution on the named words.
+3. `handback-C1.md`, listing `c1_unapplied.jsonl`, `c1_pair_carried_decisions.json`, the four kinds the scheme lacks and FP-04's caution. Then the interview.
+
+### validate.py C1 at pass 9's close (before `done.sh`)
+
+```
+stage C1:
+  scheme_v2: 197 themes (15 rare), frozen 197, retired 0, new 0
+  assignments_final 7844 lines = assignment_items_expected
+  revised lines 2117 of 7844 (moved placements 2094)
+  empties 151 of 7844
+  a pass closed; the full set (scheme v2, assignments, the fourth-order themes, the form pass) is owed at the last pass, with the handback
+
+
+0 errors (0 distinct shapes), 0 warnings
+```

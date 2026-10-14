@@ -527,3 +527,12 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Stopping criterion holds (trivially, no gate tested); recutting stops unless the empties pass amends a gate.
 - Tokens (dedup): 76 calls, 33.6M cache read, 0.13M output.
 - C1a-08 run: empties and arguables, then the form pass, fourth-order themes, scheme_v2.md, handback and interview (may be one or two legs).
+
+## 2026-10-14 01:50 Berlin, C1a-08 closed, C1a-09 started
+- C1a-08 closed 23:44Z, checkpoint 683f90576daae0bf, validate 0 errors 0 warnings. Revised 2,117 of 7,844; empties 151 (1.9%).
+- Empties: 167 read whole; 16 class 4 placed on B1 themes (pass 4 floor revision); 18 kinds drawn; 17 of 18 kinds appear by room 352 of 705 in B1 order. Four kinds the scheme lacks (K06 April Fools play with no fake, K05 another sub's April Fools change, K10 sub moderation outside the canvas, K08 disputes over the room's jokes) go to the handback; no new theme.
+- Arguables: 4,876; B1's predicted confused pairs held at the top (T3-005/T3-021 first; 8 of 19 in the top 10).
+- 20 pair-test carried placements read, none moved (consistency with unsampled lines).
+- Guard: 16 moves, 0 to a theme neither readers nor B1 placed.
+- Tokens (dedup): 93 calls, 49.5M cache read, 0.16M output.
+- C1a-09 run: form pass, fourth-order themes, scheme_v2.md, handback, interview cut expected.
