@@ -1,0 +1,233 @@
+== A01 P01 -> P03, order, strong
+  counts: holds 137 of 190 (0.721), null mean 0.467, p95 0.521; order fails in 53
+  sides: early 35 of 47, late 3 of 5
+  clause: no TO after the first FROM in 8 of 190
+  without joining: 132 of 189 (0.698), p95 0.492, beaten True
+  sampled fails: xenoblade_chronicles
+  bound: Where a member has begun the mark before any call, the call follows the first build report and recruits to a mark already started.
+  transition metroid c0001 -> c0002 (1 min): pass
+  transition latin c0010 -> c0011 (2 min): fails: i FAIL (first P01 h49.48, first P03 h49.48); fails (iv): the first line, 'Consider me conscripted!', joins; it does not call
+  quote metroid/c0001: Help us draw Metroid over at /r/place!
+  quote metroid/c0002: Here's [the link](https://www.reddit.com/r/place/#x=722&y=887) to the location (722,887). Zoom in without moving around to see the top of Samus's head.
+  quote latin/c0011: Great, the bottom left of the border was started at (382, 158)
+== A02 R01 -> P01, order, fair
+  counts: holds 64 of 89 (0.719), null mean 0.473, p95 0.539; order fails in 25
+  sides: early 21 of 34, late 2 of 2
+  clause: no TO after the first FROM in 9 of 89
+  without joining: 63 of 88 (0.716), p95 0.568, beaten True
+  sampled fails: worldoftanks
+  bound: Where the room calls for hands before anyone proposes what to make, the proposal answers the call instead.
+  transition opticgaming c0191 -> c0192 (1 min): pass
+  transition kerbalspaceprogram c0026 -> c0028 (37 min): pass
+  quote opticgaming/c0191: On /r/place , the bottom left corner is green and labeled GREENCORNER . I say we make an OG logo and change it to GREENWALL. Anyone down?
+  quote opticgaming/c0192: We're all gonna have to come together to get it done.
+  quote kerbalspaceprogram/c0026: Draw Jeb on /r/place! Memes ahead! Let's make our mark and go to spaace! Get [this] (http://imgur.com/a/cj7f9) made on /r/place!
+  quote kerbalspaceprogram/c0028: *BOYS WE GOTTA FUQING MAKE THIS HAPPEN NOW*
+  instance note: C2c, reviewer error 2: the earlier instances (sips c0026 to c0027, habs c0047 to c0048) answer a start with a one-line enrolment cited under T3-002, not a call; replaced by two starts answered by a call, in rooms where the order holds. Most in-thread answers to a start are enrolments; at room level the first P01 concept reads as an enrolment in at most 10 of the 64 holding rooms (c2c_t3002_enrolments.txt), so the count stands.
+== A03 P03 -> P05, order, strong
+  counts: holds 182 of 291 (0.625), null mean 0.392, p95 0.436; order fails in 109
+  sides: early 43 of 69, late 6 of 8
+  clause: no TO after the first FROM in 8 of 291
+  sampled fails: 
+  bound: Where the room's mark was found already placed by others, or a rival attacked before the room reported building, upkeep comes first.
+  transition monsterhunter c0082 -> c0083 (1 min): pass
+  transition reddevils c0124 -> c0125 (2 min): pass
+  quote monsterhunter/c0082: It's done!
+  quote monsterhunter/c0083: time for upkeep now
+== A04 P05 -> P08, order, fair
+  counts: holds 235 of 401 (0.586), null mean 0.501, p95 0.539; order fails in 166
+  sides: early 56 of 93, late 6 of 15
+  clause: no TO after the first FROM in 18 of 401
+  sampled fails: 
+  bound: On the late side, rooms that came to a full canvas talk with neighbours first, asking for space before they have a mark to keep (6 of 15 hold). At pass 2 the story rooms add three more paths where border talk comes first: a work found already placed (unitedkingdom), a room entering the canvas through another room's offer (yuyuyu), and neighbours present from the room's first post (sweden, worldoftanks).
+  transition unturned c0059 -> c0060 (53 min): pass
+  transition adventuretime c0064 -> c0065 (14 min): pass
+  quote unturned/c0059: We have to stop this takeover!
+  quote unturned/c0060: Maybe we can arrange something with r/rarepuppers to get them to build somewhere else?
+  quote adventuretime/c0064: bmo has been run over by the weird grey bar obsession group! only remnants of him remain, please help me rebuild him!
+  quote adventuretime/c0065: They are too strong to be beaten through force. Diplomacy is our only option now
+  instance note: C2c, reviewer error 3: switzerland c0044 -> c0045 answers an upkeep call by invoking a treaty made earlier, so it does not show upkeep bringing the room to talk (switzerland's room-level order still holds: first upkeep h5.38, first treaty talk h18.62); DestinyTheGame's room fails the order (first border talk h18.74, first upkeep h27.89). Replaced by upkeep calls answered by a first approach to the neighbour, in rooms where the order holds.
+== A05 P08 -> P07, order, thin
+  counts: holds 106 of 158 (0.671), null mean 0.600, p95 0.658; order fails in 52
+  sides: early 25 of 40, late 4 of 4
+  clause: no TO after the first FROM in 13 of 158
+  sampled fails: totallynotrobots, edmontonoilers
+  bound: Sparing often comes first and tacit, before any talk; the arrow holds where restraint rests on a border already settled.
+  transition asktransgender c0003 -> c0004 (2 min): pass
+  quote asktransgender/c0003: Cool, but can you keep the [tiny rick]
+  quote asktransgender/c0004: We have a policy to not harm any artwork, but there are sabateurs using the flag for evil.
+  quote roosterteeth/c0097: We already established with a guy from /r/halo that the border that collides with them will go under and won't overlap. Same with the pony and linux ones
+  instance note: C2c, reviewer error 4: the printed instance, ubc c0084, is one turn cited under no third-order theme and shows no order; the support now rests on the asktransgender transition (a request over the border answered by a policy of not harming artwork, c0003 -> c0004), with roosterteeth c0097 as a quote; ubc c0084 and the roosterteeth transition to the remark c0098 (praise for the border, not a sparing) are dropped.
+== A06 P05 -> P14, order, strong
+  counts: holds 160 of 203 (0.788), null mean 0.603, p95 0.655; order fails in 43
+  sides: early 41 of 50, late 1 of 3
+  clause: no TO after the first FROM in 12 of 203
+  sampled fails: canucks
+  bound: Where a room scripted the building itself from the start, machine hands come before any upkeep. Spare accounts can also serve an attack before any upkeep (canucks).
+  transition foxes c0061 -> c0062 (1 min): fails: i FAIL (first P05 h70.63, first P14 h69.26)
+  transition TheFarLeftSide c0384 -> c0385 (3 min): pass
+  transition ubc c0089 -> c0090 (2 min): pass
+  quote foxes/c0061: DEFEND THE FOX WITH EVERYTHING YOU HAVE.
+  quote TheFarLeftSide/c0385: I have *fully automated* my reddit account for constant maintenance of the h&s. I would advise other comrades to do the same
+  quote ubc/c0090: I got three accounts going right now, and an overdue essay I'm prioritizing over. We. Cannot. Give. In.
+== A07 P03 -> P11, order, strong
+  counts: holds 182 of 282 (0.645), null mean 0.433, p95 0.475; order fails in 100
+  sides: early 38 of 65, late 5 of 9
+  clause: no TO after the first FROM in 4 of 282
+  sampled fails: 
+  bound: Where the room's first mark was found already made by others, the room celebrates the find before it builds anything itself. Where hour 73 cut the work unfinished, the room marks the attempt instead: 'We almost did it!' (ultrahardcore), a watermark mourned (totallynotrobots).
+  transition touhou c0090 -> c0129 (2 min): fails: fails (v): the second line, 'The bomb is already done tho. lol', corrects the first; it does not celebrate
+  transition suomi c0097 -> c0098 (17 min): pass
+  quote touhou/c0090: We did it! Now onto the bomb!
+  quote suomi/c0098: Tässä kohtaa haluaisin kiittää kaikkia yhteistyöstä. Me teimme sen!
+== A08 P11 -> P12, order, strong
+  counts: holds 225 of 289 (0.779), null mean 0.565, p95 0.609; order fails in 64
+  sides: early 61 of 77, late 8 of 15
+  clause: no TO after the first FROM in 11 of 289
+  sampled fails: 
+  bound: On the late side the record often comes first, a screenshot of a work found rather than built (8 of 15 hold).
+  transition lakers c0226 -> c0227 (1 min): pass
+  transition titanfall c0211 -> c0212 (1 min): fails: fails (iv): the first line posts the final image, a record, not a celebration
+  quote lakers/c0226: Place 2017, we did it guys. Good work.
+  quote lakers/c0227: Spurs ruined the black border though in the end. But it still looks great
+  quote titanfall/c0211: Final Image: https://i.imgur.com/IJf9XLP.png
+== A09 P12 -> P13, order, fair
+  counts: holds 113 of 145 (0.779), null mean 0.563, p95 0.628; order fails in 32
+  sides: early 38 of 47, late 1 of 3
+  clause: no TO after the first FROM in 8 of 145
+  sampled fails: texans
+  bound: Where a room planned its next canvas or its emblem while still building, carrying on comes before any record.
+  transition uiuc c0154 -> c0155 (46 min): pass
+  transition mexico c0369 -> c0370 (10 min): pass
+  quote uiuc/c0154: I cleaned up the final UIUC /r/place section. Thanks to everyone who helped out!
+  quote uiuc/c0155: Petition to add that image to the subreddit theme.
+== A10 K02 -> P10, order, thin
+  counts: holds 11 of 21 (0.524), null mean 0.298, p95 0.429; order fails in 10
+  sides: early 2 of 4, late 1 of 1
+  clause: no TO after the first FROM in 3 of 21
+  sampled fails: anarcho_capitalism
+  bound: Only 21 rooms carry both; where a room moves early by choice rather than after a loss, the move comes before any doubt. At pass 2 the story rooms add two more: in a late room the judgment of too few hands can be written after the move (guatemala, h79.1), and a room inside a coalition can move by the coalition's plan with no doubt of its own (MiamiHurricanes).
+  transition paranatural c0020 -> c0021 (1 min): fails: i FAIL (first K02 h54.27, first P10 h38.15)
+  quote paranatural/c0020: Seems like we lost the spot, unfortunately :( Guess we're a little too small to make this work, couldn't build fast enough.
+  quote paranatural/c0021: Did you see the edits? We're in a new spot now. Join the Discord server to stay updated
+  quote day9/c0023: I wanted to keep fighting for the spot we've had, but it looks like this is a losing battle. I'll help move it if we can decide on where. That spot looks decent
+  quote fivenightsatfreddys/c0623: Everyone has given up... Osu is taking over.
+  quote fivenightsatfreddys/c0341: Eh. I mean, we could try to rebuild, but we would have to notify everyone to abandon the effort of keeping the one we have now alive and instead focus on moving it.
+  instance note: Pass 4 instance audit: the one transition (paranatural c0020 -> c0021) fails check (i): paranatural moved at h38.15, before its doubt at h54.27. The support now leads with a holding room's words, fivenightsatfreddys: 'Everyone has given up... Osu is taking over.' (c0623, h33.55) and, 14 minutes later in the same thread but not as a reply, the proposal to abandon the defence and focus on moving (c0341, h33.79). No transition in a holding room passes all six checks.
+== A11 P02 -> P04, transition, thin
+  counts: holds 100 of 166 (0.602), null mean 0.583, p95 0.639; order fails in 66
+  sides: early 25 of 39, late 4 of 6
+  sampled fails: texas, empiredidnothingwrong
+  bound: Inside reply threads only; across rooms the first template often comes before any design talk (texas: template at h5.9, design talk at h23.5), so it is not an order between rooms.
+  transition udub c0008 -> c0009 (4 min): pass
+  transition wallstreetbets c0161 -> c0162 (6 min): pass
+  quote udub/c0008: Maybe make it 20x20? Or just a purple W?
+  quote udub/c0009: 20x20 is possibly a better idea... Will update template image and upload here.
+  quote wallstreetbets/c0162: ok here's the new template guys: http://imgur.com/a/ZazCS
+== A12 P01 -> P15, transition, thin
+  sampled fails: teamcube
+  bound: Never counted: a form-pass finding travels on exemplars only.
+  transition lebanon c0026 -> c0027 (37 min): fails: iii FAIL (c0026 cited under ['T3-065']; c0027 under ['T3-002'])
+  transition DestinyTheGame c0002 -> c0008 (53 min): pass
+  transition pcmasterrace c0904 -> c0905 (20 min): fails: iii FAIL (c0904 cited under ['T3-021']; c0905 under ['T3-021'])
+  quote lebanon/c0026: Help us build the lebanese flag! In the middle of the orange patch (10, 840)
+  quote lebanon/c0027: On it
+  quote pcmasterrace/c0905: On it
+== A13 P05 -> P16, order, fair
+  counts: holds 171 of 240 (0.713), null mean 0.596, p95 0.642; order fails in 69
+  sides: early 44 of 51, late 6 of 8
+  clause: no TO after the first FROM in 14 of 240
+  sampled fails: 
+  bound: Where a room helps a neighbour before it has a work of its own to keep, or comes to the canvas as another room's helper, exchange comes first.
+  transition aceattorney c0049 -> c0050 (1 min): pass
+  transition naruto c0144 -> c0145 (3 min): fails: i FAIL (first P05 h39.06, first P16 h27.81)
+  transition dragonquest c0036 -> c0037 (6 min): pass
+  quote naruto/c0145: Member of /r/OnePiece here! I'm helping all I can to save our neighbor!
+  quote dragonquest/c0037: I got people from r/tagpro helping out with it.
+  quote aceattorney/c0050: Maybe we should ask the Danganropa subreddit for support.
+== A14 P08 -> P16, order, thin
+  counts: holds 138 of 214 (0.645), null mean 0.591, p95 0.636; order fails in 76
+  sides: early 32 of 45, late 7 of 10
+  clause: no TO after the first FROM in 15 of 214
+  sampled fails: 
+  bound: Thin: 0.645 against a null 95th percentile of 0.636, one of twelve order tests at pass 2. Where a room's first relation to a neighbour is help, help comes first.
+  transition littlewitchacademia c0049 -> c0051 (2 min): pass
+  transition sooners c0033 -> c0034 (2 min): pass
+  transition ElSalvador c0006 -> c0007 (2 min): fails: i FAIL (first P08 h61.41, first P16 h61.2)
+  quote littlewitchacademia/c0051: Thank you very much! I'll stick around as often as I can to help maintain your logo :P
+  quote sooners/c0034: Thanks. Let us know if we can help you build something in another place. Sorry about the less mature members of our sub but hey, good for a laugh at least.
+== A15 P01 -> P09, order, strong
+  counts: holds 93 of 129 (0.721), null mean 0.487, p95 0.550; order fails in 36
+  sides: early 32 of 42, late 2 of 2
+  clause: no TO after the first FROM in 7 of 129
+  without joining: 91 of 129 (0.705), p95 0.535, beaten True
+  sampled fails: 
+  bound: Where a room's first canvas act is an attack (edmontonoilers, canucks, anarcho_capitalism among the pass 1 story rooms), the attack call is the first call.
+  transition Temple c0005 -> c0007 (4 min): pass
+  transition completeanarchy c0001 -> c0005 (5 min): pass
+  transition stlouis c0073 -> c0074 (18 min): pass
+  quote Temple/c0007: Conversely we could aim for right over the Penn State logo
+  quote stlouis/c0074: MST is also sabotaging. IE my friends and I.
+== A16 P09 -> P07, order, strong
+  counts: holds 82 of 104 (0.788), null mean 0.529, p95 0.606; order fails in 22
+  sides: early 19 of 28, late 1 of 2
+  clause: no TO after the first FROM in 5 of 104
+  sampled fails: touhou, calgaryflames
+  bound: Partly constitutive: reining in the room's own attackers needs an attack to rein in. Where sparing is tacit and comes first (touhou at h3.6, calgaryflames at h9.9), restraint precedes any attack call.
+  transition nyjets c0086 -> c0087 (1 min): pass
+  transition leafs c0239 -> c0240 (2 min): pass
+  transition Temple c0053 -> c0054 (2 min): pass
+  quote nyjets/c0087: Nah, keep /r/place neutral.
+  quote leafs/c0240: How about we just work on our own and not be assholes
+  quote Temple/c0054: No, stop messing with other schools
+== A17 P09 -> P08, order, fair
+  counts: holds 95 of 172 (0.552), null mean 0.423, p95 0.477; order fails in 77
+  sides: early 21 of 43, late 0 of 4
+  clause: no TO after the first FROM in 17 of 172
+  sampled fails: strangerthings
+  bound: Early side only: on the late side border talk comes first (0 of 4 hold), since late rooms meet neighbours before any attack.
+  transition czech c0151 -> c0153 (4 min): pass
+  transition PlaceNL c0042 -> c0043 (5 min): fails: i FAIL (first P09 h53.1, first P08 h42.67)
+  transition thailand c0162 -> c0165 (5 min): fails: i FAIL (first P09 h59.47, first P08 h43.77)
+  quote czech/c0153: We [already agreed to a truce here]
+  quote PlaceNL/c0043: Absoluut niet, er is de gehele dag al gewerkt aan samenwerking
+== A18 P09 -> P18, order, fair
+  counts: holds 56 of 68 (0.824), null mean 0.591, p95 0.676; order fails in 12
+  sides: early 10 of 13, late 0 of 0
+  clause: no TO after the first FROM in 2 of 68
+  sampled fails: 
+  bound: Early side only: no late-side room carries both.
+  transition rpi c0024 -> c0026 (6 min): pass
+  transition anarcho_capitalism c0088 -> c0089 (7 min): pass
+  transition clg c0040 -> c0041 (8 min): fails: i FAIL (first P09 h37.54, first P18 h12.62)
+  quote rpi/c0026: Come at us bro
+  quote anarcho_capitalism/c0089: We'll physically remove you and put you in the gulag, boy
+  quote clg/c0041: TSM fans may far outnumber us, but the simple fanaticism of us CLG fans ensured a loss on your part this day.
+== A19 P05 -> P17, order, thin
+  counts: holds 87 of 121 (0.719), null mean 0.614, p95 0.678; order fails in 34
+  sides: early 20 of 28, late 0 of 4
+  clause: no TO after the first FROM in 7 of 121
+  sampled fails: lakers, bretagne
+  bound: Late side: no late room of 4 holds; late rooms enter the canvas through other rooms (bretagne, MiamiHurricanes, yuyuyu). Thin: 0.719 against a p95 of 0.678 on the coalition element without hosting (pass 4). Its pass 2 lead instance (naruto) sits in a room that joined a coalition before any upkeep, and its yugioh transition ends on a hosting ruling; criticalrole's transition passes.
+  transition naruto c0167 -> c0168 (1 min): fails: i FAIL (first P05 h39.06, first P17 h32.15)
+  transition criticalrole c0057 -> c0058 (4 min): pass
+  transition yugioh c0107 -> c0110 (14 min): fails: iii FAIL (c0107 cited under ['T3-021']; c0110 under ['T3-162'])
+  quote naruto/c0168: /r/Funhaus and /r/Naruto should stick together.
+  quote criticalrole/c0058: hopefully those friendly folks at RWBY and the Bold and Brash people help on occasion
+== A20 P01 -> P20, order, strong
+  counts: holds 132 of 155 (0.852), null mean 0.538, p95 0.594; order fails in 23
+  sides: early 48 of 57, late 2 of 2
+  clause: no TO after the first FROM in 5 of 155
+  without joining: 129 of 154 (0.838), p95 0.584, beaten True
+  before h73 rulings: 102 of 118 (0.864), null mean 0.577, p95 0.644
+  before h73 objections: 57 of 64 (0.891), null mean 0.599, p95 0.688
+  before h73 whole: 122 of 144 (0.847), null mean 0.558, p95 0.618
+  before h73 decision: both actors beat the null while the canvas runs, so by the rule written first A20 stands on the whole host's line, with both counts printed
+  sampled fails: 
+  bound: Partly constitutive: a removal by rule needs a post to remove, and an objection to the flood needs canvas posts. 23 of 155 rooms draw the line first: the sub's automatic rules remove the first call as it is posted (9 rooms, three in the same hour), a canvas sub or a megathread is set up before the host sub carries any call (7), or members dismiss the canvas or object to other rooms' canvas posts before the room calls (7). A member's judgment of the canvas's worth after the close answers no flood (transformers, h80.40): the mechanism does not reach it.
+  transition nintendo c0120 -> c0121 (17 min): pass
+  transition rocketleague c0721 -> c0722 (23 min): pass
+  transition france c0443 -> c0444 (13 min): pass
+  quote nintendo/c0121: Maybe want to go to the /r/place Megathread where we're trying to build a Mario... slowly...
+  quote rocketleague/c0722: Can we just stop posting about r/place please? It's becoming just spam at this point
+  quote france/c0444: N'y a t il pas de super poteau pour cette requête?

@@ -1,0 +1,72 @@
+{
+ "t": "2026-10-14T11:33:09+00:00",
+ "stage": "C2",
+ "leg": "C2d-01",
+ "answers": {},
+ "expected": {
+  "open": [
+   "contention-dimension",
+   "relocation-renewed-calls"
+  ],
+  "rooms": [
+   "Northwestern",
+   "dragonquest",
+   "cardinals"
+  ],
+  "changed": [
+   "A01",
+   "A02",
+   "A03",
+   "A04",
+   "A05",
+   "A06",
+   "A07",
+   "A08",
+   "A09",
+   "A10",
+   "A11",
+   "A12",
+   "A13",
+   "A14",
+   "A15",
+   "A16",
+   "A17",
+   "A18",
+   "A19",
+   "A20",
+   "K04",
+   "P02",
+   "P17",
+   "T3-035",
+   "T3-065",
+   "T3-094",
+   "T3-099",
+   "T3-113",
+   "T3-162",
+   "T4-006",
+   "T4-014",
+   "T4-018",
+   "T4-022"
+  ],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "missing",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "n/a"
+ },
+ "scored": 4,
+ "unscored": [
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "open",
+  "rooms",
+  "changed"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

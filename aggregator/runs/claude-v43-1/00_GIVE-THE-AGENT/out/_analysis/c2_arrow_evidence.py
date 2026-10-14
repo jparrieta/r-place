@@ -39,7 +39,14 @@ ap.add_argument("--sample", type=int, default=4)
 ap.add_argument("--perm", type=int, default=500)
 ap.add_argument("--mode", default="first", choices=["first", "after"])
 ap.add_argument("--elements", default="c2_elements_p1.json", help="element file in out/_analysis (pass 2: c2_elements_p2.json)")
+ap.add_argument("--before", type=float, default=None,
+                help="pass 4: count only concepts placed before this hour (both ends), e.g. 73 for while the canvas runs")
+ap.add_argument("--drop", default="",
+                help="pass 4: a file in out/_analysis listing sub:code concepts to leave out of every element (one a line)")
 a = ap.parse_args()
+DROP = set()
+if a.drop:
+    DROP = set(l.strip() for l in open(os.path.join(OUT, "_analysis", a.drop), encoding="utf-8") if l.strip())
 
 
 def stat(hf, ht):
@@ -65,7 +72,12 @@ def cited(el):
     for r in rows:
         for t, ids in (r.get("support_by_theme") or {}).items():
             if t in el["themes"]:
-                out[r["sub"]].update(ids)
+                keep = [i for i in ids if "%s:%s" % (r["sub"], i) not in DROP]
+                if a.before is not None:
+                    keep = [i for i in keep if (r["sub"], i) in codes and codes[(r["sub"], i)].get("hour") is not None
+                            and codes[(r["sub"], i)]["hour"] < a.before]
+                if keep:
+                    out[r["sub"]].update(keep)
     return out
 
 

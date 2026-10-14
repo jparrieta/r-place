@@ -548,3 +548,156 @@ The answers, divergence by divergence:
 ### The close-check, C2c
 
 `python3 tools/validate.py C2`, run after the head was rewritten, and `done.sh C2 --cut interview` at the close. Both reports are in the leg's closing diary line.
+
+## Pass 4 (C2d-01)
+
+### Before the pass
+
+- **Read at the start:** the head, the stage file, the diary, `validate.py --open C2` (0 errors), the reviewer section above, `model/story-p3.md` and the `saturation.jsonl` tail (pass 3: told 16, told-with-residue 16, not-told 0).
+- **The PI's message:** C2c closed clean; this leg is C2d-01, the first closing pass. J is back and approved the interview the handler drafted on a fork ("go ahead", 12:26 Berlin). J's rulings stand, QC2-001 included. The fork's points are working hypotheses, not findings.
+- **A re-read before the recut** found that A19's lead instance (naruto c0167 to c0168) sits in a room that fails A19's order: naruto's first coalition concept is at h32.15 and its first upkeep at h39.06. F-008 cites naruto c0168. A19's yugioh transition ends on a vetting ruling, which leaves the coalition element with the recut below.
+
+### Declarations, written before any pass 4 count
+
+1. **The hosting recut** (rule 11, fourth-order tier). The four hosting themes move from Meta-organization (T4-018) to Territoriality (T4-014): asking a host for space (T3-035), disputing who approves a spot (T3-094), relying on a bigger neighbour (T3-099) and vetting others' requests to build (T3-162). The reason is pass 3's F-012 and the reviewer's partition. Hosting follows no coalition, it comes before one in 12 of 17 rooms, and hosts that give a ground rule on space or design. Neither name changes. Territoriality's question widens to who may hold which pixels, including whose works live on a room's mark. Meta-organization keeps the coalition themes (T3-013, T3-019, T3-056, T3-150, T3-153). Both themes are in D04, so no dimension changes. The coalition element (P17) loses its hosting clause as a logged element change. P19 stays a candidate. F-008 and F-012 are re-examined in the same act.
+2. **The flag and emblem rule** (rule 11, written before the second recut). A third-order theme whose acts draw or settle what the room's own mark shows belongs with Collective representation (T4-006). A theme whose acts claim, argue or narrate the nation beyond the mark belongs with Flagging the nation (T4-022). Each member of Flagging the nation is read against its gate in `scheme_v2.jsonl`. The fork's reading is that two members draw the mark: building the homeland's flag (T3-065) and drawing national emblems (T3-113). If the gates confirm it, those two move to Collective representation and Flagging the nation keeps the rest. That move crosses from D05 to D02, so the call to settle the mark (P02) gains concepts and membership carried in (K04) loses them. A11 is recounted on the new P02. Membership then attack is re-run on the new K04, and F-011 re-examined.
+3. **The instance audit.** Every support transition of every arrow is checked in this order:
+   - (i) the room holds the arrow's order;
+   - (ii) the two turns are in one thread, the second replies at some depth to the first, by another author, later;
+   - (iii) both lines are cited under the two elements' themes;
+   - (iv) the first line's words, read whole, do the FROM act;
+   - (v) the second line does the TO act as a new act answering the first;
+   - (vi) the printed quote is the store's text, with its hour and the interval.
+   Checks (i), (ii), (iii) and (vi) are run by script; (iv) and (v) are read. An instance that fails is reported as failing, in the arrow's instance note and in `model-p4.md`, and not quietly swapped. A replacement is added beside it only after it passes all six.
+4. **Retests after the recuts**, under pass 1's statement and null (500 permutations within each room, seed 20261014). The number of tests run this pass is reported beside every result.
+   - (a) Upkeep then coalition on the narrowed P17: A19's count. Pass 3's run on coalitions without hosting gave 0.719 against a p95 of 0.686.
+   - (b) Border talk then coalition, and (c) exchange then coalition: the two pass 2 tests that failed, re-run on the narrowed P17. Mechanisms as at pass 2.
+   - (d) Border talk then hosting (P08 to P19). Mechanism: a border settled or disputed is where a room asks to slip into another's lot, or rules on such a request. Fails if hosting comes only before any border talk, or a border settled is never followed by a request or a ruling.
+   - (e) A11 on the new P02.
+   - (f) Membership then attack on the new K04.
+5. **The host's line by actor.** The rulings (P20r) are routing canvas posts into megathreads (T3-015), removing canvas posts by rule (T3-063), opening a canvas sub (T3-090), moderators disowning the canvas work (T3-140), pausing the sub's usual events (T3-184) and changing the sub's posting rules (T3-185). The objections (P20o) are objecting to the canvas flood (T3-075) and arguing the canvas's worth (T3-037). Calls then rulings and calls then objections are both counted on concepts before hour 73, with the calls likewise. A20 whole is also recounted before hour 73, for comparison. The decision follows the counts:
+   - If both beat the null, A20 stands on P20 whole, with both counts printed.
+   - If only the rulings beat it, A20 is restated as the host sub's rulings, and the objections become a bound.
+   - If only the objections beat it, A20 is restated as members' objections.
+   - If neither beats it, the rooms where the first line removes the room's own first call are counted as the constitutive part, and A20 is demoted to thin or withdrawn by that count.
+6. **The call and one-line joining.** The arrows that use P01 (A01, A02, A15, A20) are recounted with P01 stripped of the concepts that `c2c_t3002_enrolments.py`'s pattern reads as joining. The pattern over-reads, so the stripped P01 is stricter than the true one. If an arrow's beaten status changes, it is bounded on that. If none changes, P01's statement says it holds some joining lines the coders placed with calls, and the boundary is reported as read, not recut. In the story rooms the call and the joining line are read room by room.
+7. **Failure clauses counted.** For every counted order arrow, the evidence script's second statement is run: "in a room carrying both, some concept of TO comes after the first concept of FROM". Its failures are the rooms where TO comes only before any FROM, the first half of each failure clause. `model-p4.md` prints them beside the order-statement failures, and the label "Present" becomes "order fails in" (the reviewer's error 9).
+8. **The idiom rule, declared before any room is opened.** Membership carried in that only gives the idiom in which the story's steps are told counts as told. Membership that picks the rival, the guest or the work is a residue. The topic's own picture (a nation's flag or emblems, a show's characters, a team's logo) is the story's opening, not a work membership picks.
+9. **The pass 4 story rooms,** drawn by `c2_story_draw_p4.py` with seed 20261018 before any room is opened:
+   - the three within-case rooms;
+   - every pass 3 told-with-residue room (16);
+   - every room marked as failing, on the order or the mechanism, in a `sampled_against` entry changed since pass 3 (transformers among them);
+   - one room whose most-placed fourth-order theme lies outside the model;
+   - two rooms with no posts in the pre-event week;
+   - two late-side rooms;
+   - one room per quartile of `items_in_window`;
+   - two rooms by seed from the rest.
+   Apart from the within-case and residue rooms, no room read at passes 1 to 3 is drawn again.
+10. **The story's fixes** from the reviewer:
+    - bound sentences name the bound ("A06's bound"), never the arrow alone (errors 6 and 8);
+    - "rooms with no posts in the week before the canvas" replaces "rooms the canvas founded" (error 7);
+    - the new instances and transformers' failure are told where the story uses those arrows.
+11. **The criterion,** as written before pass 1. Pass 4 is kept over pass 3 only if it meets the criterion better; a tie goes to the earlier pass. A rise in told-with-residue over pass 3's 16 is a stopping failure. The count and the share are both reported.
+
+### Part A, pass 4: the two recuts
+
+- **Hosting recut (declaration 1).** The four hosting themes moved from Meta-organization (T4-018) to Territoriality (T4-014): T3-035, T3-094, T3-099 and T3-162. Meta-organization keeps the five coalition themes. Both are in D04, so no dimension changed.
+- **Flag and emblem recut (declaration 2).** Read against their gates, building the homeland's flag (T3-065) and drawing national emblems (T3-113) draw what the room's own mark shows. They moved from Flagging the nation (T4-022, D05) to Collective representation (T4-006, D02). Flagging the nation keeps the ten themes that claim, argue or narrate the nation beyond the mark.
+- **12 `tier_history` events:** ten lines for the two recuts, and two field corrections. The recut script rewrote the members, gloss and prose of Meta-organization and Flagging the nation but left their construct fields stale. The corrections carry the old line as `was`.
+- **The element changes in the same act:** the coalition element (P17) lost its hosting clause; the call to settle the mark (P02) gained the land's flag and emblems; the candidate membership carried in (K04) lost them. F-008, F-011 and F-012 were re-examined. Snaps C2-move-splitting-43 to C2-move-relating-46.
+- **`structure-p4.md`** is written. Every third-order theme placed in the assignments is defined (194 placed, 197 defined). Each sits in a fourth-order theme's members or in the unpicked list (T3-017, T3-133). Every fourth-order theme sits in a dimension. The three counts sum to 705. 72 of 72 coder conflicts reach the file.
+- **Part A's return** is pass 2's, with the two recuts. The tier stays 28 fourth-order themes in 8 dimensions. The fourth-order theme I am least sure of is still Stigmergy. Of the dimensions, I am least sure of Contention and Maintenance. The recuts moved mass between Coordination without command and Collective identity (`c2_dim_mass-p4.txt`). The hosting recut stayed inside Order without law.
+
+### Part B, pass 4
+
+Unchanged. The one-line enrolment stays the provisional concept. The call holds some joining lines the coders placed with calls. A pattern that over-reads finds at most 228 of the 1,980 concepts cited under the call's themes. With all of them stripped out, no arrow from the call changes its beaten status. The boundary is reported as read, not recut.
+
+### Part C, pass 4: the tests, the audit, the model
+
+- **Eight declared tests** under pass 1's statement and null; at 0.05 each, about 0.4 false passes by chance. Three beat the null: upkeep then coalition on coalitions alone (A19, 87 of 121, 0.719 against a 95th percentile of 0.678), and the calls before the host sub's rulings (102 of 118) and before members' objections (57 of 64) while the canvas runs. Five did not: border talk then coalition (0.679, at the 95th percentile), exchange then coalition, border talk then hosting, A11 on the widened P02 (0.602 against 0.639), and membership then attack on the narrowed K04 (52 of 126, 0.413, below the null mean of 0.532).
+- **A20 by actor.** Both the rulings and the objections follow the calls, so by the rule written first A20 stands on the whole line: 122 of 144 rooms before hour 73.
+- **The instance audit.** 48 support transitions were checked six ways. 34 pass and 14 fail: 9 on the room's order, 3 on citation, 3 on reading (latin fails two checks). Each failure is printed under its arrow and kept in its `audit` field; none was swapped. Every arrow but A10 keeps a passing transition. A10 rests on quotes. Most failing transitions are pass 3's instances, so pass 3's claim that every arrow rests on a showable transition was too strong.
+- **The failure clause counted** for 18 order arrows: the rooms where the order fails, and the fewer where TO comes only before any FROM, are printed apart.
+- **The model:** 27 elements (20 processes, 4 conditions, 1 claim, 2 roles); 24 stand, and K03, K04 and P19 are candidates. 20 arrows: 18 order, 2 transition; 8 strong, 6 fair, 6 thin; 18 beat the null. No arrow added, demoted or withdrawn. One arrow bounded: A19, on coalitions alone, with its late-side bound. No element added; three restated. 55 of 197 third-order themes unused (53 at pass 3): the hosting themes are now unused while P19 is a candidate, and the flag and emblem themes are now used through P02. No loop is grounded.
+- **The reviewer's accepted errors** are carried into `model-p4.md` and `model/story-p4.md`, as listed at the head of `model-p4.md`.
+
+### The story, pass 4, and the rooms read against it
+
+`model/story-p4.md` names all 20 arrows. The 32 rooms were drawn before any was opened (`c2_story_draw_p4.py`, seed 20261018), by declaration 9:
+- the three within-case rooms;
+- the 16 pass 3 residue rooms;
+- the sampled fails changed since pass 3: lakers (A19's order) and transformers (A20's mechanism);
+- thebluecorner (most-placed fourth-order theme outside the model, Neo-tribes);
+- THE_R and epublica (no posts in the pre-event week);
+- udub and Cornwall (late side);
+- miraculousladybug, rpi, thesimpsons and cardinals (one per size quartile);
+- dragonquest and Northwestern (by seed).
+
+Each was read whole, room page then forest. The largest were read in pages: thebluecorner 1,258 room lines in six pages and 4,350 forest lines in thirteen, sweden 2,243 forest lines in eight, smashbros 866 in three.
+
+The saturation line: told 11, told-with-residue 21, not-told 0 (pass 3: 16, 16, 0). Told-with-residue rose from 16 to 21, a stopping failure. The next table splits each pass's verdicts by why the room was drawn.
+
+| pass | within-case rooms | rooms carried from the last pass's residue | fresh rooms |
+|---|---|---|---|
+| 2 | 3 told | 5 told, 12 residue | 6 told, 6 residue |
+| 3 | 3 told | 6 told, 12 residue | 7 told, 4 residue |
+| 4 | 3 told | 0 told, 16 residue | 8 told, 5 residue |
+
+The rise has one source. Pass 3 told 6 of the 18 rooms it carried; pass 4 told none of its 16. Fresh rooms carried a residue at the same rate as pass 3 (5 of 13 against 4 of 11).
+
+What pass 4's changes told: transformers is told, because a judgment after the close is now A20's bound. They narrowed four carried rooms without telling them: placeDE, catalunya and unitedkingdom, where the land's flag is now the room's picture, and bih, where an argument over the canvas's worth after the close is now A20's bound.
+
+The 21 residues cluster as follows:
+- **Membership carried in that names the rival or picks the work** (12 rooms). A nation's history names the rival in sweden and unitedkingdom. An ideology names it in anarcho_capitalism, completeanarchy and epublica, and lore names it in CKCrusaders. A league, game or school rivalry names it in texans, starcitizen, lakers, rpi and cardinals. A sub's joke picks the work in totallynotrobots.
+- **Colour factions the canvas gathered** (4 rooms): greenlattice, purplecorner, orderofthebluecorner and thebluecorner. Their faith names the rival, rules on guests and splits over doctrine.
+- **Hosts with readers before the canvas ruling on guests** (3 rooms besides sweden): catalunya, placeDE and smashbros.
+- **One room each:** learning from others how to organize (bih) and fear of the newcomers the mark draws (scp).
+
+### What the structure showed that my notes did not predict
+
+In three of the five fresh rooms with a residue, the rival is named by a league or school rivalry: lakers (the Celtics), rpi (WPI) and cardinals (the Cubs). None of the three carries a concept under any of K04's themes. The coders placed the rivalry only inside the attack and taunt themes (Repertoire of contention, T4-020, and Rivalry, T4-021). epublica carries neither. The rival is named in the same turn that calls the attack: "(720,667) on /r/place celtics are trying to make a symbol! You know what to do" [lakers/c0050, h31.89]; "Help us hijack the WPI r/place!" [rpi/c0024, h55.46]. A test of membership before attack cannot count these rooms, because the two acts are one turn. F-011's failure says that membership carried in does not come first. It does not say that membership does not pick the rival.
+
+### The criterion, applied to pass 4
+
+- **The story rooms:** told-with-residue rose from 16 of 32 (0.50) to 21 of 32 (0.66). Fresh rooms: 5 of 13 (0.38) against 4 of 11 (0.36). No element was loosened to fit a room.
+- **Instances:** better checked. 19 of 20 arrows keep a transition that passes six checks, and A10 rests on quotes. Pass 3 claimed 20 of 20 without the audit.
+- **Tiers:** two recuts, each by a rule written first. No fourth-order theme renames its members, and every dimension still answers a question its members do not.
+- **The four things:** unchanged, each with an element.
+
+Pass 3 stays preferred to pass 4. The first test got worse, so this is not a tie. Pass 4 is a stopping failure, and its residues are pass 5's material.
+
+The pass 3 versions are the ones the model rests on. These pass 4 changes are discarded:
+- `model-p4.md` and `model/story-p4.md`, kept as files but not rested on;
+- the two recuts and the three element restatements (P02, P17, K04);
+- A19's recount and bound.
+
+These are kept:
+- the reviewer's accepted fixes, which correct errors in pass 3's text and were fixed in the arrow ledger at C2c;
+- the audit's results, which describe instances pass 3 also printed.
+
+The files edited in place hold pass 4's state, each change with its old state in a history line. QC2-002 asks J whether pass 5 works from pass 4's state or restores pass 3's first. Meanwhile pass 5 works from pass 4's state. If pass 5 does not beat pass 3, C2d-02 restores pass 3's tier and element state from the history lines, keeps the accepted fixes, and reports what was discarded.
+
+**The stopping rule** cannot stop: 12 `tier_history` events, 1 arrow bounded and changed story sentences. I do not declare a stop. Pass 4 is a stopping failure, and the last closing pass is C2d-02.
+
+### Slips, pass 4
+
+- **Two reads exceeded the output limit** and were saved where they cannot be read: a starcitizen forest page of 320 lines (29.4 KB), and the totallynotrobots room page and forest in one call (31.9 KB). Both were read again in smaller pages.
+- **Stale construct fields after the recut.** The recut script left Meta-organization's and Flagging the nation's construct fields from before the recut. They were corrected with two `tier_history` lines carrying the old line as `was`.
+- **Compaction step order, twice.** After the first compaction a recompute ran before the head and the stage file were read again; the reads and the line were done after it. After the second, the totallynotrobots forest's second page was read before the line "compacted; head reconciled". The verdict was written after the line. The items it cites were checked again after the line by a filtered read, not a whole one.
+- **Two edits to these notes** were sent as parallel calls, against J's rule on writes to one file. Each replaced a different sentence. Both applied, and the new text was checked present and the old text gone before the next write.
+- **Two statements in the first draft of this section were wrong** and were corrected before the close. The draft said 3 third-order themes were unplaced or unpicked, where the file defines 197 themes and lists 2 as unpicked. It also gave T4-020 a name from memory, where its name is Repertoire of contention.
+
+### The close-check, pass 4
+
+`python3 tools/validate.py C2`, run after the saturation line and before the head was rewritten:
+
+```
+stage C2:
+  elements 27, arrows 20 (20 in the model), fourth-order themes 28, dimensions 8, passes 4, findings 12
+
+warn   saturation.jsonl: told-with-residue rose from 16 to 21 at pass 4; a rise is a stopping failure and the residues are the next pass's material
+
+0 errors (0 distinct shapes), 1 warnings
+```
+
+`done.sh C2` runs the same check at the close. Its report is in the leg's closing diary line.
