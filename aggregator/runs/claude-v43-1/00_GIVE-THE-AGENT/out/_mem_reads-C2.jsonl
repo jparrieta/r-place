@@ -377,3 +377,925 @@
 {"t": "2026-10-14T07:50:27", "stage": "C2", "verb": "log", "args": ["Saturation line for pass 2 appended (out/saturation.jsonl, 2 lines): 32 rooms against story-p2; told 14, told-with-residue 18, not-told 0 (pass 1: 0, 20, 0 of 20). Told-with-residue fell in count and share (20 of 20 to 18 of 32); of the twenty pass 1 rooms, 8 are now told. Stopping rule: 7 tier_history events, 10 arrow changes (7 added, 3 bounded), story sentences changed. Residues for pass 3: membership carried in (9 rooms), hosting other rooms' works (5), the host's policing of canvas talk (4), story sentences that do not carry A06's and A09's bounds (3), rooms founded by the canvas (2), the move's order or plan (2), the play setting what is made, newcomers the mark draws, learning to organize (1 each)."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
 {"t": "2026-10-14T07:52:21", "stage": "C2", "verb": "log", "args": ["notes-C2.md: the pass 2 body written (test results with the twelve order tests in one table, the relocation window and play-frame results, the contention split, the onset contrast for D08, Parts A, B and C, the 32 story rooms and their residues, the criterion applied, the slips). Pass 2 preferred to pass 1; no stop at pass 2."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
 {"t": "2026-10-14T07:55:07", "stage": "C2", "verb": "log", "args": ["Close of C2a-02 (pass 2). Head rewritten (2,987 words). Pass 2: twelve order tests (seven grounded), the relocation window (neither reading cleanly; the relocation finding bounded), the play frame (not grounded), Contention split as an eighth dimension by the rule declared first; 24 elements (one candidate), 19 arrows, 9 findings, no loop; story-p2 read against 32 rooms drawn by rule: told 14, told-with-residue 18, not-told 0 (pass 1: 0, 20, 0). Pass 2 preferred; no stop. validate.py C2: 0 errors, 0 warnings. Next: pass 3 (C2a-03) on the residues: membership carried in, hosting, the host's policing, two story clauses, rooms the canvas founds."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:07:41", "stage": "C2", "verb": "diary", "args": [], "opts": {"last": 5}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-14T08:07:45", "stage": "C2", "verb": "log", "args": ["compacted; head reconciled"], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:11:12", "stage": "C2", "verb": "facts", "args": [], "opts": {"json": true}, "offset": 0, "limit": 2, "lines": 2, "total": 48, "refused": null}
+{"t": "2026-10-14T08:11:17", "stage": "C2", "verb": "facts", "args": [], "opts": {}, "offset": 0, "limit": 60, "lines": 48, "total": 48, "refused": null}
+{"t": "2026-10-14T08:11:27", "stage": "C2", "verb": "brief", "args": ["rainbowgrid"], "opts": {}, "offset": 0, "limit": 30, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:11:27", "stage": "C2", "verb": "facts", "args": [], "opts": {"field": "onset_first_code_hour", "where": ["onset_first_code_hour>40"]}, "offset": 0, "limit": 100, "lines": 74, "total": 74, "refused": null}
+{"t": "2026-10-14T08:14:00", "stage": "C2", "verb": "log", "args": ["Pass 3 declarations written in notes-C2.md before any pass 3 count: candidates K04 membership carried in (22 third-order themes of T4-022, T4-023, T4-004; not the quarrel theme alone), P19 hosting (T3-035, T3-094, T3-099, T3-162), P17 narrowed to coalitions, P20 the host's line around canvas talk (T4-002); seven order tests under the pass 1 statement and null (K04 to P09, K04 to P19, P16 to P19, narrowed P17 to P19, P05 to P19, P05 to narrowed P17, P01 to P20), each with mechanism and failure clause; a reading of the vetting concepts for the ground of admission; the empty-brief count and decision rule for rooms the canvas founded; the A06 and A09 story clauses; A10's bound from guatemala and MiamiHurricanes; the pass 3 story-room rule (seed 20261017)."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:14:33", "stage": "C2", "verb": "diary", "args": [], "opts": {"grep": "c2_arrow_evidence-p2a"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:14:42", "stage": "C2", "verb": "codes", "args": [], "opts": {"json": true, "grep": "."}, "offset": 0, "limit": 10000000, "lines": 115388, "total": 115388, "refused": null}
+{"t": "2026-10-14T08:15:11", "stage": "C2", "verb": "log", "args": ["Pass 3 order tests run (out/_analysis/c2_arrow_evidence-p3a.txt, pass 1 statement and null, seven tests). Beaten: P01 to P20 calls then the host's line (155 rooms, 0.852, p95 0.594; early 48 of 57, late 2 of 2); K04 to P19 membership then hosting (28 rooms, 0.750, p95 0.714; thin); P05 to narrowed P17 upkeep then coalition (121 rooms, 0.719, p95 0.686; late 0 of 4). Not beaten: K04 to P09 membership then attack (145 rooms, 0.593, p95 0.634); P16 to P19 exchange then hosting (29, 0.379, p95 0.552); narrowed P17 to P19 coalition then hosting (17, 0.294, below the null mean 0.451); P05 to P19 upkeep then hosting (52, 0.635, p95 0.654). Hosting follows neither exchange, coalition nor upkeep; it more often comes before a coalition (12 of 17), a reverse not declared and not counted."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:15:18", "stage": "C2", "verb": "codes", "args": [], "opts": {"json": true, "sub": "malta"}, "offset": 0, "limit": 1, "lines": 1, "total": 52, "refused": null}
+{"t": "2026-10-14T08:15:37", "stage": "C2", "verb": "codes", "args": [], "opts": {"json": true, "grep": "."}, "offset": 0, "limit": 10000000, "lines": 115388, "total": 115388, "refused": null}
+{"t": "2026-10-14T08:16:45", "stage": "C2", "verb": "codes", "args": [], "opts": {"json": true, "grep": "."}, "offset": 0, "limit": 10000000, "lines": 115388, "total": 115388, "refused": null}
+{"t": "2026-10-14T08:17:47", "stage": "C2", "verb": "codes", "args": [], "opts": {"json": true, "grep": "."}, "offset": 0, "limit": 10000000, "lines": 115388, "total": 115388, "refused": null}
+{"t": "2026-10-14T08:17:49", "stage": "C2", "verb": "codes", "args": [], "opts": {"json": true, "grep": "."}, "offset": 0, "limit": 10000000, "lines": 115388, "total": 115388, "refused": null}
+{"t": "2026-10-14T08:18:24", "stage": "C2", "verb": "facts", "args": [], "opts": {"json": true, "field": "items_in_window"}, "offset": 0, "limit": 3, "lines": 3, "total": 705, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "facts", "args": [], "opts": {"json": true, "field": "items_in_window"}, "offset": 0, "limit": 10000, "lines": 705, "total": 705, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "brief", "args": ["2007scape"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "brief", "args": ["49ers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 191, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "brief", "args": ["4chan"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "brief", "args": ["AMD"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "brief", "args": ["AceOfAngels8"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "brief", "args": ["AcePlace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "brief", "args": ["AmericanFlaginPlace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "brief", "args": ["AprilKnights"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:18:28", "stage": "C2", "verb": "brief", "args": ["AvoArmy"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["AyyMD"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["Bravenewbies"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 105, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["Braveryjerk"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["CKCrusaders"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["COSI"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["CSUFoCo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 93, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["CelticFc"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["ChronoTrigger"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["Clannad"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["Cornwall"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["CryptoFR"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["DCFU"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 85, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["DatBoi"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 83, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["DestinyTheGame"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:29", "stage": "C2", "verb": "brief", "args": ["DevonUK"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 55, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["DiamondClub"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["Dominican"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 115, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["Dorset"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 75, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["Dustforce"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["ElSalvador"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 97, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["ElderScrolls"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["EraseThePlace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["FaroeIslands"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["FederationPlace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["Fez"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 97, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["FinalFantasy"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["FlaggyFlag"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["FlipnoteStudio3D"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["FloydVsVoid"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:30", "stage": "C2", "verb": "brief", "args": ["GabrielDropout"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 93, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["Goodboye"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["GranColombia"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["GreenCorner"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["GreenEmpire"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["GrowTheTree"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["GuardiansOfDatBoi"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["GuildWars2"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["HomestarRunner"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 95, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["Homura"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 95, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["Honduras"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 49, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["Jamaica"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["KState"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["Lugarix"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["MMA"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:31", "stage": "C2", "verb": "brief", "args": ["Madeon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["ManningPlace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["Mario"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["MiamiHurricanes"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["MonkeyIsland"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 83, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["Moondye7"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 105, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["NewMexico"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["NieR"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["Northwestern"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["NovaScotia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["OKState"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["Okami"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 79, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["OnePiece"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 183, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["OneTrueEmilia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["OrderOfTheKoi"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:32", "stage": "C2", "verb": "brief", "args": ["PORTUGALCARALHO"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["PUBATTLEGROUNDS"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["Peru"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["Pigifs"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["PinkUnion"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["PinkVomitMonster"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["PlaceNL"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["PokemonSage"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 42, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["Produce101"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["ProfessorLayton"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 75, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["PurplePixels"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["Rainbow6"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["ReBoot"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["Redox"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 77, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["RelientK"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:33", "stage": "C2", "verb": "brief", "args": ["Russiaclan"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["ScottPilgrim"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["Slovakia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["SquareSpiral"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["Summit1G"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["SwissNeutralityZone"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["SydneyFC"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["THE_R"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["TeamDignitas"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["TeamYellowPlace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["Temple"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["TheAdventuresofTintin"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 103, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["TheB1G"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 97, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["TheFarLeftSide"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["TheGreatGreenBox"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:34", "stage": "C2", "verb": "brief", "args": ["TheHulk"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["TheID"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["Thegreatblackhole"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["TransFlagPlace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["TreePlace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["TsundereSharks"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 75, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["UMiami"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 99, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["UNLincoln"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 75, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["UPenn"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 107, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["VelvetUnderground"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 53, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["Villanova"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 65, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["WPI"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 89, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["WisconsinBadgers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["aceattorney"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["acecombat"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["achievement_hunter"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:35", "stage": "C2", "verb": "brief", "args": ["adventuretime"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["aeon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 95, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["aeskwadraat"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["afip"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["aggies"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["ainbowroad"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["albania"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 105, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["alberta"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["anaheimducks"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 179, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["anarchism"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["anarcho_capitalism"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["anarchocapitalism"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["androidgaming"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["animalcrossing"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 171, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["anime"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 183, "refused": null}
+{"t": "2026-10-14T08:18:36", "stage": "C2", "verb": "brief", "args": ["anime_irl"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 175, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["aoe2"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["apocalypserising"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["araragi"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["archlinux"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 193, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["argentina"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["armenia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["armok"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["aromantic"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["asexual"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["asexuality"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["asktransgender"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["auburn"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["australia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["austria"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:18:37", "stage": "C2", "verb": "brief", "args": ["austriahungary"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["azerbaijan"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["azores"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["babymetal"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["bahrain"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["bakchodi"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 123, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["bangladesh"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 91, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["bangtan"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["bannedfromanime_irl"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 63, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["bardmains"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["batman"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 181, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["battlecats"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["baylor"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["bdsm"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["bees"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["belgium"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:38", "stage": "C2", "verb": "brief", "args": ["berkeley"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["berserk"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 193, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["bigbang"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 71, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["bih"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["bindingofisaac"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 185, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["bisexual"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["bitcoin"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["blackmirror"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["bobross"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 85, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["borderlands"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["borussiadortmund"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 209, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["bostonbruins"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["bostonceltics"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["brasil"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["bretagne"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 73, "refused": null}
+{"t": "2026-10-14T08:18:39", "stage": "C2", "verb": "brief", "args": ["btc"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["buffalo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 107, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["buffalobills"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["buffalowizards"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["bulgaria"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["calgaryflames"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["calvinandhobbes"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["canada"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["canucks"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 179, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["cardinals"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["carletonu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 105, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["catalonia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 73, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["catalunya"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["catholicism"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["cavestory"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 97, "refused": null}
+{"t": "2026-10-14T08:18:40", "stage": "C2", "verb": "brief", "args": ["cfb"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["cgpgrey"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["chelseafc"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["chess"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["chibears"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["chicago"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["chicubs"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["chile"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 201, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["churchofhelix"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["cirkeltrek"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 205, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["clashroyale"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["clg"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["cloud9"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["clubpenguin"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 217, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["cmu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["coldplay"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:18:41", "stage": "C2", "verb": "brief", "args": ["colombia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["colorado"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["columbia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["completeanarchy"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["compsoc"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["corridor"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["costa_rica"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["counting"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 187, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["cowchop"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 209, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["criticalrole"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["croatia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 201, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["crusaderkings"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["crystalclear"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 105, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["cubers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["cuboulder"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:42", "stage": "C2", "verb": "brief", "args": ["czech"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["daftpunk"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 107, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["dallasstars"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 197, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["danganronpa"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 177, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["dankmemes"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["darksouls"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 193, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["davidbowie"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["day9"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["dbz"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["de"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["denmark"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["denverbroncos"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 175, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["destiny"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["detroitlions"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 225, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["detroitredwings"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:43", "stage": "C2", "verb": "brief", "args": ["diablo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["dmt"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["dofus"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 91, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["donaldglover"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["dota2"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["dragonquest"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["drawhelix"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["drugs"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["drumcorps"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["duckgame"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["ducks"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["dwarffortress"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["eagles"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["earthbound"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["edboxes"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["eder"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 71, "refused": null}
+{"t": "2026-10-14T08:18:44", "stage": "C2", "verb": "brief", "args": ["edmontonoilers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["eesti"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 199, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["egypt"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 91, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["elitedangerous"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["empiredidnothingwrong"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["england"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["enterthegungeon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["epublica"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["esperanto"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 177, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["ethereum"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["ethoslab"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["europe"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["eve"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["evedreddit"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 95, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["evex"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["factorio"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:45", "stage": "C2", "verb": "brief", "args": ["faeria"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 187, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["falcons"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 171, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["farmcarrots"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["feedthebeast"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["finland"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 115, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["fireemblem"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["fivenightsatfreddys"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["flashtv"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["floridagators"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 199, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["flyers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 173, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["formula1"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["forsen"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["foxes"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["foxstevenson"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["france"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:46", "stage": "C2", "verb": "brief", "args": ["frankocean"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["frc"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["freedomplanet"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["ftlgame"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["fullcommunism"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["funhaus"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["furry"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["furry_irl"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 197, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["futanari"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["futurama"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["fxKorea"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 77, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["gameattack"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["gameboy"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["gameofthrones"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["gamindustri"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 203, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["gatech"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:47", "stage": "C2", "verb": "brief", "args": ["genderfluid"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["geometrydash"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["germany"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["ghibli"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["giantbomb"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 179, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["giivasunner"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 187, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["glasgow"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["globaloffensive"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["gorillaz"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["gratefuldead"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 199, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["gravityfalls"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["greece"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["greenbaypackers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["greenland"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["greenlattice"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["greyblob"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:48", "stage": "C2", "verb": "brief", "args": ["guatemala"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 95, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["h3h3productions"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["habs"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 173, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["halo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["harrypotter"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["haskell"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["hatsune"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["hawks"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 201, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["hearthstone"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["hellointernet"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["hentai"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 191, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["heroesofthestorm"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["heyyea"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["homelab"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["homestuck"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:49", "stage": "C2", "verb": "brief", "args": ["hongkong"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["hoodr"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["hsv"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 103, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["httyd"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["hungary"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["hunterxhunter"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["hyperlightdrifter"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["iastate"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["ibo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 197, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["ice_poseidon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["iceland"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 99, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["ik_ihe"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["india"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["indieheads"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["indonesia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["ireland"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:18:50", "stage": "C2", "verb": "brief", "args": ["israel"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["italy"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["japan"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["jerma985"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["k_on"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["kamenrider"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["kanye"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["katawashoujo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["kcroyals"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["kerbalspaceprogram"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["kilian"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["kindafunny"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 187, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["kingdomhearts"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["kirby"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["konosuba"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:51", "stage": "C2", "verb": "brief", "args": ["korea"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["kpop"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["kurdistan"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["kuwait"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["lakers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["landry"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["latin"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["latvia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["leafs"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 183, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["leagueoflegends"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["lebanon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["lego"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["lexington"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["lifeisstrange"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 187, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["linux"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["liquicity"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 45, "refused": null}
+{"t": "2026-10-14T08:18:52", "stage": "C2", "verb": "brief", "args": ["lithuania"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 103, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["littlebusters"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["littlewitchacademia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["livecounting"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 175, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["liverpoolfc"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["lofihiphop"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 107, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["loliconsunite"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["loltyler1"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 199, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["lost"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 103, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["lovelive"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["lsu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["luciomains"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["luxembourg"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["madokamagica"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 197, "refused": null}
+{"t": "2026-10-14T08:18:53", "stage": "C2", "verb": "brief", "args": ["magictcg"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["malaysia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["malta"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["mamamoo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 95, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["mariokart"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["marvel"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["maryland"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["masseffect"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["math"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["mcgill"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["mcgillrobotics"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["mechanicalkeyboards"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["megaman"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["metalcore"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["metalgearsolid"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:54", "stage": "C2", "verb": "brief", "args": ["metroid"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["mexico"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 181, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["miamidolphins"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["mindcrack"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 203, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["minecraft"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["minnesotavikings"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 183, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["miraculousladybug"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["mit"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 103, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["mizzou"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 99, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["mls"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["monalisaclan"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["monero"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 179, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["monstercat"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["monsterhunter"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:55", "stage": "C2", "verb": "brief", "args": ["montenegro"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 91, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["mordhau"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["morrowind"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["msu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["muse"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["mylittlepony"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["mysterydungeon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["n64"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["nVade"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["naruto"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 171, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["nascar"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["natsume"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["nbaspurs"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 175, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["necrodancer"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["neopets"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:18:56", "stage": "C2", "verb": "brief", "args": ["nerf"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 171, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["neu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["neutralmilkhotel"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["newzealand"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["nightinthewoods"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["nin"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["nintendo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["nlsscirclejerk"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 191, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["nonbinary"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["norge"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["norway"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 103, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["notredame"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["npr"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["nuclearthrone"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["nyjets"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:18:57", "stage": "C2", "verb": "brief", "args": ["nyu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["ockytop"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["ohio"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["oltp"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["oman"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 89, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["oneplus"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 205, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["onepunchman"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 181, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["oneshot"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["ontario"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["opticgaming"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["orderofthebluecorner"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["osu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 201, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["osugame"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["overwatch"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 193, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["pakistan"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:58", "stage": "C2", "verb": "brief", "args": ["paladins"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["palestine"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["pansexual"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 95, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["parabola"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["paragon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["parahumans"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["paranatural"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["parrots"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 171, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["partyparrot"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["pathofexile"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["patriots"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["paydaytheheist"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["pcmasterrace"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 171, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["pebble"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["penguins"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 203, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["pepe"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:18:59", "stage": "C2", "verb": "brief", "args": ["peterdraws"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 103, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["pgang"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["philippines"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 166, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["phish"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 201, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["physical_removal"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["picturegame"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 183, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["pitt"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 123, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["placeDE"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["placecanada"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["placehearts"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["placehfarts"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["placeportalpattern"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["placesnek"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["placestart"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["placetardis"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:00", "stage": "C2", "verb": "brief", "args": ["planetside"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["pokemon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["poland"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["polandball"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["polska"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["polyamory"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["popheads"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["portal"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["porterrobinson"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["portugal"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 157, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["predators"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 195, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["prequelmemes"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["purdue"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["purplecorner"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["pusheen"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:19:01", "stage": "C2", "verb": "brief", "args": ["puzzleanddragons"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["python"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["qotsa"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["quebec"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 185, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["quq"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 59, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["radiohead"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["rainbowgrid"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["rangers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["raocow"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 83, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["ravens"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["re_zero"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 195, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["reddevils"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["redhotchilipeppers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 175, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["redpandas"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["redvsblue"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:19:02", "stage": "C2", "verb": "brief", "args": ["rhythmheaven"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 115, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rickandmorty"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["ripcity"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 191, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["riskofrain"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 117, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rit"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rocketbeans"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 215, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rocketleague"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rojava"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 99, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["romania"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["roosterteeth"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rotmg"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rpi"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["runescape"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rush"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["russia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 195, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rust"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:19:03", "stage": "C2", "verb": "brief", "args": ["rutgers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["rwby"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 181, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["sabres"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 229, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["sadboys"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["sakartvelo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["sakuragakuin"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["samuraijack"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["satania"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["sbu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["schoolidolfestival"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["scotland"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["scp"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 185, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["seahawks"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 193, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["seolhyun"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 107, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["serbia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:19:04", "stage": "C2", "verb": "brief", "args": ["seventeen"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 73, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["sheffield"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["shield"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["shishamo"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["shitredditsays"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["shrooms"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["signal"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 99, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["simonfraser"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 123, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["singapore"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["sips"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["sixers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["skyrim"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["slovenia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 107, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["smashbros"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["smite"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["snsd"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:19:05", "stage": "C2", "verb": "brief", "args": ["sonicthehedgehog"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["sooners"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["southafrica"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["southpark"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["soylent"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["spacex"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 103, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["spacexmasterrace"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 173, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["spain"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["spelunky"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["splatoon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 173, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["spongebob"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["ss13"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["ssbpm"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 197, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["starbound"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 193, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["starcitizen"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:19:06", "stage": "C2", "verb": "brief", "args": ["starcraft"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["stardewvalley"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 183, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["stardustcrusaders"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["stargate"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["starlightstage"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["starryknights"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["startrek"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 125, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["starvstheforcesofevil"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["stevenuniverse"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["stlouis"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["stlouisblues"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["strangerthings"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["straya"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["streetfighter"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 173, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["suomi"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["superman"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:19:07", "stage": "C2", "verb": "brief", "args": ["survivor"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["sweden"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["switzerland"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 155, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["swordartonline"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 183, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["tagpro"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 193, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["taiwan"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 79, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["tampabaylightning"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["teamcube"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["telegram"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["tenma"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 83, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["terraria"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 181, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["teslamotors"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 191, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["tetris"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["texans"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 185, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["texas"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 167, "refused": null}
+{"t": "2026-10-14T08:19:08", "stage": "C2", "verb": "brief", "args": ["texastech"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 131, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["tf2"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["thailand"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["the_pack"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["theblackvoid"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["thebluecorner"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["theexpanse"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["theitalyplace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["thenetherlands"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["thepointing"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["thesilphroad"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["thesimpsons"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["thetreesnetwork"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["timbers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["tinytardis"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:09", "stage": "C2", "verb": "brief", "args": ["titanfall"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["tokyo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["toolband"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 189, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["torontoraptors"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["totallynotrobots"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 127, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["touhou"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 173, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["traaaaaaannnnnnnnnns"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["transformers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 181, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["transgender"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["trees"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["truestl"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["turkey"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 175, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["twentyonepilots"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 173, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["twice"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["twitch"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["twitchplayspokemon"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 195, "refused": null}
+{"t": "2026-10-14T08:19:10", "stage": "C2", "verb": "brief", "args": ["ubc"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["ubreddit"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 113, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["ucf"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 109, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["udub"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["ufl"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["uiowa"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 97, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["uiuc"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 169, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["ukplace"], "opts": {}, "offset": 0, "limit": 40, "lines": 10, "total": 10, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["ukraine"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["ultrahardcore"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 189, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["undertale"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["unitedkingdom"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 133, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["unturned"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 181, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["uofm"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 187, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["uofmn"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:19:11", "stage": "C2", "verb": "brief", "args": ["uoft"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["uruguay"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 123, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["utahjazz"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 185, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["utaustin"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["uva"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 149, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["uvic"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 129, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["uwaterloo"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 151, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["vegan"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["vermont"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 135, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["vietnam"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["vim"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 143, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["vinesauce"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 137, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["virginiatech"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 111, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["vocaloid"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 161, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["wales"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 119, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["wallstreetbets"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 165, "refused": null}
+{"t": "2026-10-14T08:19:12", "stage": "C2", "verb": "brief", "args": ["warframe"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["wario"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 57, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["warriors"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 159, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["warthunder"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 163, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["watchmen"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 67, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["weezer"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 177, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["wholesomememes"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["wildhockey"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 199, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["wine"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["winnipegjets"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 243, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["witcher"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 145, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["worldoftanks"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["worldpowers"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["wow"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 139, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["wsu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 101, "refused": null}
+{"t": "2026-10-14T08:19:13", "stage": "C2", "verb": "brief", "args": ["xcom"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 153, "refused": null}
+{"t": "2026-10-14T08:19:14", "stage": "C2", "verb": "brief", "args": ["xenoblade_chronicles"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 121, "refused": null}
+{"t": "2026-10-14T08:19:14", "stage": "C2", "verb": "brief", "args": ["yerbamate"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 93, "refused": null}
+{"t": "2026-10-14T08:19:14", "stage": "C2", "verb": "brief", "args": ["yogscast"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 183, "refused": null}
+{"t": "2026-10-14T08:19:14", "stage": "C2", "verb": "brief", "args": ["yugioh"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 141, "refused": null}
+{"t": "2026-10-14T08:19:14", "stage": "C2", "verb": "brief", "args": ["yumenikki"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 85, "refused": null}
+{"t": "2026-10-14T08:19:14", "stage": "C2", "verb": "brief", "args": ["yuyuyu"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 123, "refused": null}
+{"t": "2026-10-14T08:19:14", "stage": "C2", "verb": "brief", "args": ["zelda"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 147, "refused": null}
+{"t": "2026-10-14T08:19:14", "stage": "C2", "verb": "brief", "args": ["zootopia"], "opts": {}, "offset": 0, "limit": 40, "lines": 40, "total": 177, "refused": null}
+{"t": "2026-10-14T08:20:18", "stage": "C2", "verb": "codes", "args": [], "opts": {"json": true, "grep": "."}, "offset": 0, "limit": 10000000, "lines": 115388, "total": 115388, "refused": null}
+{"t": "2026-10-14T08:23:00", "stage": "C2", "verb": "log", "args": ["Reading of the hosts' rulings done as declared (c2_vetting_concepts-p3.txt, coding in c2_vetting_grounds-p3.json, tally c2_vetting_tally-p3.txt): 61 concepts cited under vetting others' requests in 7 rooms; grounds: fit with the body 6 concepts in 3 rooms, space or design 12 in 3, ties 5 in 4, procedure alone 24, none readable 14. The statement 'a host admits guests by fit with the body it carried in' fails: space and design is the commonest ground by concepts, ties by rooms. One extension to the declared ties ground: a host owing redress to groups it wronged (PlaceNL c0081); without it the statement still fails. The six rooms whose own rulings are cited all have an empty pre-event brief (78 of 705 rooms have one, c2_empty_brief-p3.json)."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:23:02", "stage": "C2", "verb": "codes", "args": [], "opts": {"json": true, "grep": "."}, "offset": 0, "limit": 10000000, "lines": 115388, "total": 115388, "refused": null}
+{"t": "2026-10-14T08:23:10", "stage": "C2", "verb": "codes", "args": [], "opts": {"json": true, "grep": "."}, "offset": 0, "limit": 10000000, "lines": 115388, "total": 115388, "refused": null}
+{"t": "2026-10-14T08:23:11", "stage": "C2", "verb": "log", "args": ["Model, pass 3 (section 4): elements entered model/elements.jsonl (move: developing or dropping working hypotheses), from the pass 2 story residues: P20 the host's line around canvas talk (standing; Boundary work; finding F-010), K04 membership carried in (candidate; Flagging the nation, Neo-tribes, Frame bridging; F-011: not before the attack), P19 hosting (candidate; four members of Meta-organization; F-012: it follows neither exchange, coalition nor upkeep). P17 unchanged: the declared split stands only if P19 earns an arrow. Findings first: F-010, F-011, F-012."], "opts": {"kind": "move"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:23:17", "stage": "C2", "verb": "log", "args": ["Arrow added (section 4, pass 3), move sequencing: A20 P01 -> P20, order, strength strong. Connection: in a room carrying both, the first call to the canvas comes before the first line the host sub draws around canvas talk (a megathread, a removal by rule, a changed rule, a canvas sub, an objection to the flood, a dismissal of the canvas). Holds in 132 of 155 rooms (0.852) against a null mean of 0.538 (p95 0.594); early 48 of 57, late 2 of 2. Mechanism: Calls to the canvas flood the host sub, and its moderators or members answer by drawing a line around canvas talk: one thread, removals, a canvas sub. Fails if: In a room, the line comes before any call, or the line's words name no canvas flood. Sampled against: transformers holds (the first line (h80.40) is a member's judgment of the canvas's worth after the close; it names no flood, so the mechanism is not shown here); darksouls holds (the first line removes separate canvas posts into a megathread (h53.56)); crusaderkings holds (the first line opens a canvas sub to leave the messy comment section (h9.41)); rotmg holds (the first line asks to gather the scattered canvas posts into one megathread (h72.02)). Bound: Partly constitutive: a removal by rule needs a post to remove, and an objection to the flood needs canvas posts. 23 of 155 rooms draw the line first: the sub's automatic rules remove the first call as it is posted (9 rooms, three in the same hour), a canvas sub or a megathread is set up before the host sub carries any call (7), or members dismiss the canvas or object to other rooms' canvas posts before the room calls (7)."], "opts": {"kind": "move"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:23:18", "stage": "C2", "verb": "log", "args": ["Arrow bounded (section 4, pass 3), move relating or contrasting: A10. At pass 2 the story rooms add two more: in a late room the judgment of too few hands can be written after the move (guatemala, h79.1), and a room inside a coalition can move by the coalition's plan with no doubt of its own (MiamiHurricanes). Counterexample response: Pass 3: guatemala and MiamiHurricanes, read at pass 2, are one late room and one room moved by a coalition. Alternatives considered: withdrawing the arrow, or a second element for a planned move. Response: two scope conditions; A10 stays thin. The old line is kept as was in model/history.jsonl."], "opts": {"kind": "move"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:23:19", "stage": "C2", "verb": "log", "args": ["Hypotheses dropped at pass 3 (move developing or dropping working hypotheses), each tested under the declared statement and null: membership then attack (K04 to P09, 0.593 against p95 0.634; finding F-011); membership then hosting (K04 to P19, 0.750 against p95 0.714, thin) not admitted, because its declared mechanism shows in 5 of 21 holding rooms and the reading of the hosts' rulings finds fit with the body in 6 of 23 grounded concepts (F-012); exchange then hosting (P16 to P19, 0.379 against 0.552); coalition then hosting (P17 narrowed to P19, 0.294, below the null mean); upkeep then hosting (P05 to P19, 0.635 against 0.654). The split of P17 into coalitions and hosting is not taken (P19 earned no arrow); P19 and K04 enter as candidates. Upkeep then coalition on the narrowed element held (0.719 against p95 0.686), consistent with A19; A19 is unchanged."], "opts": {"kind": "move"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:23:45", "stage": "C2", "verb": "log", "args": ["Fourth-order themes' in_model set from the standing elements (pass 3), move relating or contrasting: T4-002 now in the model (a standing element now ties to it (pass 3: P20)); 21 of 28 in the model; tier_history lines carry the old lines as was."], "opts": {"kind": "move"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:25:09", "stage": "C2", "verb": "log", "args": ["Story pass 3 written (out/model/story-p3.md, 1,260 words, names all 20 arrows). Story changes against story-p2: a new sentence for A20 (calls fill the host sub and it draws a line around canvas talk) with its bound; A06's sentence gains the clause from its bound (spare accounts building a first shape or serving an attack before anything is kept); A09 gains a sentence from its bound (carrying on planned while the work is kept); A10 gains a sentence from its new bound (a move by a coalition's plan, a late room's reason given after the move); the opening gains rooms with no readers before the canvas (78 of 705 with an empty pre-event brief), told as running the same steps from their founding, a reading from greenlattice and rainbowgrid at pass 2 that the pass 3 rooms test; the closing section now gives the membership and hosting results (F-011, F-012)."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:25:42", "stage": "C2", "verb": "facts", "args": [], "opts": {"json": true, "field": "items_in_window"}, "offset": 0, "limit": 10000, "lines": 705, "total": 705, "refused": null}
+{"t": "2026-10-14T08:25:50", "stage": "C2", "verb": "log", "args": ["Pass 3 story rooms drawn before any was opened (out/story_rooms-p3.jsonl, c2_story_draw_p3.py, seed 20261017), by the rule declared in notes-C2.md: the three within-case rooms (ubc, ultrahardcore, day9); the eighteen pass 2 residue rooms; outside the model's forms completeanarchy (most-placed Frame bridging); empty pre-event brief CKCrusaders, placecanada; late side OKState, pgang; no pass 3 sampled fails; quartiles MonkeyIsland, purplecorner, swordartonline, smashbros; by seed shield, stevenuniverse. 32 rooms, 11 fresh."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:26:19", "stage": "C2", "verb": "room", "args": ["ubc"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:26:20", "stage": "C2", "verb": "room", "args": ["ultrahardcore"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:26:21", "stage": "C2", "verb": "room", "args": ["day9"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:26:25", "stage": "C2", "verb": "room", "args": ["ubc"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 87, "total": 87, "refused": null}
+{"t": "2026-10-14T08:26:30", "stage": "C2", "verb": "forest", "args": ["ubc"], "opts": {}, "offset": 0, "limit": 600, "lines": 325, "total": 325, "refused": null}
+{"t": "2026-10-14T08:26:49", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: ubc, told. The spine (a proposal at h3.77, map, calls, the Cairn done at h32.96, the crest), keeping it against UofT and Polandball, border talk and an agreement with Thailand, help to SFU and UVic, defender bots and spare accounts under attack, the close and a poster of the final canvas are all told; the April Fools swap with SFU runs beside the work; A20 does not fire (no line drawn by the host sub)."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:26:54", "stage": "C2", "verb": "room", "args": ["ultrahardcore"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 195, "total": 195, "refused": null}
+{"t": "2026-10-14T08:26:59", "stage": "C2", "verb": "forest", "args": ["ultrahardcore"], "opts": {}, "offset": 0, "limit": 330, "lines": 330, "total": 633, "refused": null}
+{"t": "2026-10-14T08:27:04", "stage": "C2", "verb": "forest", "args": ["ultrahardcore"], "opts": {}, "offset": 330, "limit": 310, "lines": 303, "total": 633, "refused": null}
+{"t": "2026-10-14T08:27:17", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: ultrahardcore, told. The play frame fills the room and runs beside the work; a late starter at h57.58, a template and a spot within one thread, the original heart spared and the build moved to an outer heart, the unfinished close marked ('We almost did it!'), and the hearts recorded as a consolation are all told in the story's terms."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:27:22", "stage": "C2", "verb": "room", "args": ["day9"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 37, "total": 37, "refused": null}
+{"t": "2026-10-14T08:27:22", "stage": "C2", "verb": "forest", "args": ["day9"], "opts": {}, "offset": 0, "limit": 400, "lines": 131, "total": 131, "refused": null}
+{"t": "2026-10-14T08:27:32", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: day9, told. Calls and repair, border deals and a treaty, the broken agreement and the lost border, too few hands then the move, a script under strain, a fresh call and the new work finished at h53.09, an agreement kept with Turkey, an envoy, and the recounted close are all told in the story's terms."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:30:53", "stage": "C2", "verb": "log", "args": ["model-p3.md written (9,236 words; a copy of model-p2.md edited section by section; model-p2.md and model.md kept unchanged): 27 elements (24 standing, candidates K03, K04, P19), 20 arrows with A20 in the table and its own entry, A10's new bound, the pass 3 tests under looked-for-and-not-found and ungrounded relationships (membership then hosting; hosting then coalition), 53 of 197 third-order themes unused, Host framing now carrying one arrow in, A20 the strongest arrow by gap (0.314) with its artefact argument, the odd-room test on ultrahardcore read again at pass 3. validate.py C2 now reads model-p2.md because saturation.jsonl has two passes; it reports A20 and P20 missing there and will read model-p3.md after the pass 3 saturation line."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:30:59", "stage": "C2", "verb": "room", "args": ["MiamiHurricanes"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 19, "total": 19, "refused": null}
+{"t": "2026-10-14T08:30:59", "stage": "C2", "verb": "forest", "args": ["MiamiHurricanes"], "opts": {}, "offset": 0, "limit": 400, "lines": 54, "total": 54, "refused": null}
+{"t": "2026-10-14T08:31:09", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: MiamiHurricanes, told. Its pass 2 residue, a move made by the parent coalition's plan and not after a loss, is now told by the story's sentence from A10's pass 3 bound; keeping the U, the border with r/fireemblem, doubt withdrawn, help from the Utah U, a rival's takeover repelled and the saved image are told."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:31:15", "stage": "C2", "verb": "room", "args": ["anarcho_capitalism"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:31:15", "stage": "C2", "verb": "room", "args": ["anarcho_capitalism"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 75, "total": 75, "refused": null}
+{"t": "2026-10-14T08:31:21", "stage": "C2", "verb": "forest", "args": ["anarcho_capitalism"], "opts": {}, "offset": 0, "limit": 280, "lines": 282, "total": 395, "refused": null}
+{"t": "2026-10-14T08:31:27", "stage": "C2", "verb": "forest", "args": ["anarcho_capitalism"], "opts": {}, "offset": 282, "limit": 120, "lines": 113, "total": 395, "refused": null}
+{"t": "2026-10-14T08:31:43", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: anarcho_capitalism, told-with-residue. The attack as the first canvas act, restraint inside the room, alliances and reciprocal guarding, the Void's truce, a move by choice, bots under siege, taunts, the timelapse and the move to canvas clones are told. Still untold: the ideology carried in named the rival from h5.0 and framed the work and the loss; across rooms membership carried in does not precede attack (F-011), so this room is one where it does."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:31:48", "stage": "C2", "verb": "room", "args": ["bih"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 21, "total": 21, "refused": null}
+{"t": "2026-10-14T08:31:48", "stage": "C2", "verb": "forest", "args": ["bih"], "opts": {}, "offset": 0, "limit": 400, "lines": 56, "total": 56, "refused": null}
+{"t": "2026-10-14T08:32:03", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: bih, told-with-residue. Keeping a small flag through night and work, the French erasure traced and apologized for, and the restoration are told. Still untold, as declared: learning from others how large works are organized (Sensemaking, outside the model). Also noted: P20 here is only members arguing after the close that the canvas is useless, a judgment that answers no flood (as transformers in A20's sample)."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:32:09", "stage": "C2", "verb": "room", "args": ["canucks"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:32:09", "stage": "C2", "verb": "room", "args": ["canucks"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 68, "total": 68, "refused": null}
+{"t": "2026-10-14T08:32:14", "stage": "C2", "verb": "forest", "args": ["canucks"], "opts": {}, "offset": 0, "limit": 230, "lines": 296, "total": 320, "refused": null}
+{"t": "2026-10-14T08:32:19", "stage": "C2", "verb": "forest", "args": ["canucks"], "opts": {}, "offset": 296, "limit": 40, "lines": 24, "total": 320, "refused": null}
+{"t": "2026-10-14T08:32:41", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: canucks, told. Its pass 2 residue, spare accounts serving the attack on the Flames logo before the room had any work, is now in A06's sentence. The attack as the first canvas act, members turning the room to build its own logo, the GreenLattice border sought and contested (told as border talk), taunts and victory claims, and an apology after the close are told; the April Fools frame runs beside."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:32:47", "stage": "C2", "verb": "room", "args": ["catalunya"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 53, "total": 53, "refused": null}
+{"t": "2026-10-14T08:32:48", "stage": "C2", "verb": "room", "args": ["catalunya"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:32:53", "stage": "C2", "verb": "forest", "args": ["catalunya"], "opts": {}, "offset": 0, "limit": 400, "lines": 192, "total": 192, "refused": null}
+{"t": "2026-10-14T08:33:13", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: catalunya, told-with-residue. Calls, upkeep, truce and barter with neighbours, relocation help, restraint toward Factorio, a script to build at night, the celebration and the flag for posterity are told. Still untold: how the room came to host and whom it admitted (no drawings on the flag except r/Factorio, by agreement). The room also contradicts the story's sentence that the hosts on record are rooms the canvas founded: catalunya had readers before the canvas, and its ruling sits under border and barter themes, outside the vetting reading."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:33:19", "stage": "C2", "verb": "room", "args": ["empiredidnothingwrong"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:33:19", "stage": "C2", "verb": "room", "args": ["empiredidnothingwrong"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 82, "total": 82, "refused": null}
+{"t": "2026-10-14T08:33:24", "stage": "C2", "verb": "forest", "args": ["empiredidnothingwrong"], "opts": {}, "offset": 0, "limit": 250, "lines": 282, "total": 350, "refused": null}
+{"t": "2026-10-14T08:33:30", "stage": "C2", "verb": "forest", "args": ["empiredidnothingwrong"], "opts": {}, "offset": 282, "limit": 80, "lines": 68, "total": 350, "refused": null}
+{"t": "2026-10-14T08:33:53", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: empiredidnothingwrong, told. Its pass 2 residue, spare accounts building the centre before any upkeep, is now in A06's sentence. The template with the first call, a clash settled by apology, allies against Italy repaid, Italy's apology and route-around, a work spared for maintenance, a role-play division of the work, and the close carried to the new canvas are told. Rule used here and kept for the pass: where membership carried in only gives the idiom in which the story's steps are told (here Star Wars lore), the room is told; where it picks the rival, the guest or the work, it is a residue."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:34:01", "stage": "C2", "verb": "room", "args": ["greenlattice"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:34:01", "stage": "C2", "verb": "room", "args": ["greenlattice"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 240, "total": 1203, "refused": null}
+{"t": "2026-10-14T08:34:07", "stage": "C2", "verb": "room", "args": ["greenlattice"], "opts": {"no_canvas": true}, "offset": 240, "limit": 240, "lines": 240, "total": 1203, "refused": null}
+{"t": "2026-10-14T08:34:13", "stage": "C2", "verb": "room", "args": ["greenlattice"], "opts": {"no_canvas": true}, "offset": 480, "limit": 240, "lines": 240, "total": 1203, "refused": null}
+{"t": "2026-10-14T08:34:19", "stage": "C2", "verb": "room", "args": ["greenlattice"], "opts": {"no_canvas": true}, "offset": 720, "limit": 240, "lines": 240, "total": 1203, "refused": null}
+{"t": "2026-10-14T08:34:24", "stage": "C2", "verb": "room", "args": ["greenlattice"], "opts": {"no_canvas": true}, "offset": 960, "limit": 245, "lines": 243, "total": 1203, "refused": null}
+{"t": "2026-10-14T08:34:32", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 0, "limit": 350, "lines": 351, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:34:38", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 351, "limit": 350, "lines": 351, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:34:44", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 702, "limit": 350, "lines": 351, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:34:50", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 1053, "limit": 350, "lines": 351, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:34:55", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 1404, "limit": 350, "lines": 351, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:35:00", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 1755, "limit": 350, "lines": 351, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:35:05", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 2106, "limit": 350, "lines": 351, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:35:10", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 2457, "limit": 350, "lines": 351, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:35:15", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 2808, "limit": 350, "lines": 351, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:35:21", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 3159, "limit": 350, "lines": 353, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:35:27", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 3512, "limit": 300, "lines": 304, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:35:32", "stage": "C2", "verb": "forest", "args": ["greenlattice"], "opts": {}, "offset": 3816, "limit": 290, "lines": 280, "total": 4096, "refused": null}
+{"t": "2026-10-14T08:35:55", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: greenlattice, told-with-residue. Its pass 2 opening residue is now told by the story's sentence on bodies the canvas gathers: founded at h3.79 with no readers before the canvas, it runs calls, building, keeping, treaties, help traded for space, alliances, restraint, a fall back, and the close carried to new canvases. Still untold: hosting, the territory run as a host that ruled on applications and consumed unapproved art, with members split over doctrine whether to host at all."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:36:01", "stage": "C2", "verb": "room", "args": ["guatemala"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 16, "total": 16, "refused": null}
+{"t": "2026-10-14T08:36:02", "stage": "C2", "verb": "forest", "args": ["guatemala"], "opts": {}, "offset": 0, "limit": 300, "lines": 36, "total": 36, "refused": null}
+{"t": "2026-10-14T08:36:11", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: guatemala, told. Its pass 2 residue, the reason for the move written after it, is now told by the sentence from A10's pass 3 bound. The planned flag, the start time, the first pixel and call, the lost spot, a heart taken and the request to move, and the one surviving heart recorded are told."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:36:17", "stage": "C2", "verb": "room", "args": ["orderofthebluecorner"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 57, "total": 57, "refused": null}
+{"t": "2026-10-14T08:36:17", "stage": "C2", "verb": "forest", "args": ["orderofthebluecorner"], "opts": {}, "offset": 0, "limit": 300, "lines": 149, "total": 149, "refused": null}
+{"t": "2026-10-14T08:36:32", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: orderofthebluecorner, told-with-residue. Founded by the canvas as a colour faction, now told by the story's opening; calls, the sign, attack calls reined in, the rainbow truce, defence and the retained corner are told. Still untold: hosting by colour (guests admitted only if completely blue) and the colour faith naming the rivals (purging heresy)."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:36:37", "stage": "C2", "verb": "room", "args": ["placeDE"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:36:38", "stage": "C2", "verb": "room", "args": ["placeDE"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 240, "total": 362, "refused": null}
+{"t": "2026-10-14T08:36:45", "stage": "C2", "verb": "room", "args": ["placeDE"], "opts": {"no_canvas": true}, "offset": 240, "limit": 130, "lines": 122, "total": 362, "refused": null}
+{"t": "2026-10-14T08:36:51", "stage": "C2", "verb": "forest", "args": ["placeDE"], "opts": {}, "offset": 0, "limit": 300, "lines": 302, "total": 1394, "refused": null}
+{"t": "2026-10-14T08:36:56", "stage": "C2", "verb": "forest", "args": ["placeDE"], "opts": {}, "offset": 302, "limit": 300, "lines": 303, "total": 1394, "refused": null}
+{"t": "2026-10-14T08:37:01", "stage": "C2", "verb": "forest", "args": ["placeDE"], "opts": {}, "offset": 605, "limit": 300, "lines": 301, "total": 1394, "refused": null}
+{"t": "2026-10-14T08:37:07", "stage": "C2", "verb": "forest", "args": ["placeDE"], "opts": {}, "offset": 906, "limit": 250, "lines": 256, "total": 1394, "refused": null}
+{"t": "2026-10-14T08:37:14", "stage": "C2", "verb": "forest", "args": ["placeDE"], "opts": {}, "offset": 1162, "limit": 240, "lines": 232, "total": 1394, "refused": null}
+{"t": "2026-10-14T08:37:33", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: placeDE, told-with-residue. As a side sub opened for the canvas it is now told by the story's opening; Discord planning, night watch and cleaning, agreements kept, help to Spain, Ireland, Italy and Belgium, attacks and provocations refused, and the close carried to Place 2.0 are told. Still untold: hosting by fit with the nation (logos not tied to Germany refused) and the national membership setting what the flag shows."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:37:40", "stage": "C2", "verb": "room", "args": ["rainbowgrid"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 26, "total": 26, "refused": null}
+{"t": "2026-10-14T08:37:40", "stage": "C2", "verb": "forest", "args": ["rainbowgrid"], "opts": {}, "offset": 0, "limit": 300, "lines": 59, "total": 59, "refused": null}
+{"t": "2026-10-14T08:37:53", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: rainbowgrid, told. Its pass 2 residue, a room formed after the work to speak for it, is now told by the story's opening sentence on makers who form a room. Calls to resurrect the alien, a heart added, a peace offer to Erase the Place rejected, the argument over erasure, the call to save the grid and the attackers' taunts are told."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:37:59", "stage": "C2", "verb": "room", "args": ["scp"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:38:01", "stage": "C2", "verb": "room", "args": ["scp"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 37, "total": 37, "refused": null}
+{"t": "2026-10-14T08:38:07", "stage": "C2", "verb": "forest", "args": ["scp"], "opts": {}, "offset": 0, "limit": 400, "lines": 198, "total": 198, "refused": null}
+{"t": "2026-10-14T08:38:20", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: scp, told-with-residue. Proposal, blueprint and calls, doubt, a move after the loss, a second design in Discord, the lettering defaced by one person with alts, and the mourned close are told; the April Fools tale runs beside. Still untold, as declared: the fear that the mark would bring rule-breaking newcomers to the wiki."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:38:26", "stage": "C2", "verb": "room", "args": ["starcitizen"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:38:26", "stage": "C2", "verb": "room", "args": ["starcitizen"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 81, "total": 81, "refused": null}
+{"t": "2026-10-14T08:38:32", "stage": "C2", "verb": "forest", "args": ["starcitizen"], "opts": {}, "offset": 0, "limit": 230, "lines": 233, "total": 630, "refused": null}
+{"t": "2026-10-14T08:38:37", "stage": "C2", "verb": "forest", "args": ["starcitizen"], "opts": {}, "offset": 233, "limit": 200, "lines": 253, "total": 630, "refused": null}
+{"t": "2026-10-14T08:38:43", "stage": "C2", "verb": "forest", "args": ["starcitizen"], "opts": {}, "offset": 486, "limit": 150, "lines": 144, "total": 630, "refused": null}
+{"t": "2026-10-14T08:39:15", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: starcitizen, told-with-residue. Its pass 2 policing residue is now told by A20 (members object to the flood, the moderators make one official thread with terms and later limit canvas posts). Calls with no start, Elite's offer of space, help repaid and the space alliance, scripts argued, the Hornet approved by Rainbow Road and left half done, and the close are told. Still untold: the rivalry with Elite carried in from before the canvas, which made some members call the alliance surrender."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:39:21", "stage": "C2", "verb": "room", "args": ["sweden"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 240, "total": 552, "refused": null}
+{"t": "2026-10-14T08:39:27", "stage": "C2", "verb": "room", "args": ["sweden"], "opts": {"no_canvas": true}, "offset": 240, "limit": 240, "lines": 240, "total": 552, "refused": null}
+{"t": "2026-10-14T08:39:33", "stage": "C2", "verb": "room", "args": ["sweden"], "opts": {"no_canvas": true}, "offset": 480, "limit": 80, "lines": 72, "total": 552, "refused": null}
+{"t": "2026-10-14T08:39:40", "stage": "C2", "verb": "forest", "args": ["sweden"], "opts": {}, "offset": 0, "limit": 300, "lines": 302, "total": 2243, "refused": null}
+{"t": "2026-10-14T08:39:45", "stage": "C2", "verb": "forest", "args": ["sweden"], "opts": {}, "offset": 302, "limit": 300, "lines": 300, "total": 2243, "refused": null}
+{"t": "2026-10-14T08:39:51", "stage": "C2", "verb": "forest", "args": ["sweden"], "opts": {}, "offset": 602, "limit": 300, "lines": 302, "total": 2243, "refused": null}
+{"t": "2026-10-14T08:39:57", "stage": "C2", "verb": "forest", "args": ["sweden"], "opts": {}, "offset": 904, "limit": 300, "lines": 302, "total": 2243, "refused": null}
+{"t": "2026-10-14T08:40:02", "stage": "C2", "verb": "forest", "args": ["sweden"], "opts": {}, "offset": 1206, "limit": 300, "lines": 311, "total": 2243, "refused": null}
+{"t": "2026-10-14T08:40:08", "stage": "C2", "verb": "forest", "args": ["sweden"], "opts": {}, "offset": 1517, "limit": 300, "lines": 300, "total": 2243, "refused": null}
+{"t": "2026-10-14T08:40:14", "stage": "C2", "verb": "forest", "args": ["sweden"], "opts": {}, "offset": 1817, "limit": 430, "lines": 426, "total": 2243, "refused": null}
+{"t": "2026-10-14T08:40:20", "stage": "C2", "verb": "forest", "args": ["sweden"], "opts": {}, "offset": 1817, "limit": 210, "lines": 210, "total": 2243, "refused": null}
+{"t": "2026-10-14T08:40:25", "stage": "C2", "verb": "forest", "args": ["sweden"], "opts": {}, "offset": 2027, "limit": 220, "lines": 216, "total": 2243, "refused": null}
+{"t": "2026-10-14T08:40:42", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: sweden, told-with-residue. Its pass 2 policing residue is now told by A20 (the sticky, r/SwedenOnPlace and AutoModerator referrals). Calls, the night watch, truces and alliances, help traded, attack calls and refusals, scripts, taunts and the close are told. Still untold: hosting (dozens of guests admitted by request, Discord vote and ties) and the national history carried in that picked Denmark as the rival. One forest page exceeded the output limit and was saved where it cannot be read; it was read again in two smaller pages."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:40:48", "stage": "C2", "verb": "room", "args": ["texans"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:40:48", "stage": "C2", "verb": "room", "args": ["texans"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 67, "total": 67, "refused": null}
+{"t": "2026-10-14T08:40:53", "stage": "C2", "verb": "forest", "args": ["texans"], "opts": {}, "offset": 0, "limit": 400, "lines": 306, "total": 306, "refused": null}
+{"t": "2026-10-14T08:41:08", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: texans, told-with-residue. Its pass 2 carrying-on residue (flair asked for while the logo was kept) is now told by A09's sentence. Calls, a stickied blueprint, moves away from stronger neighbours, defence, a treaty with r/placehearts repaid with a heart, restraint, a late script and the close are told; the anime takeover runs beside. Still untold: the league rivalry carried in made a second mark, FTC, a taunt built in pixels."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:41:14", "stage": "C2", "verb": "room", "args": ["texas"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 136, "total": 136, "refused": null}
+{"t": "2026-10-14T08:41:20", "stage": "C2", "verb": "forest", "args": ["texas"], "opts": {}, "offset": 0, "limit": 340, "lines": 345, "total": 669, "refused": null}
+{"t": "2026-10-14T08:41:26", "stage": "C2", "verb": "forest", "args": ["texas"], "opts": {}, "offset": 345, "limit": 330, "lines": 324, "total": 669, "refused": null}
+{"t": "2026-10-14T08:42:57", "stage": "C2", "verb": "diary", "args": [], "opts": {"last": 5}, "offset": 0, "limit": 80, "lines": 5, "total": 5, "refused": null}
+{"t": "2026-10-14T08:43:02", "stage": "C2", "verb": "log", "args": ["compacted; head reconciled"], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:43:11", "stage": "C2", "verb": "forest", "args": ["texas"], "opts": {}, "offset": 345, "limit": 330, "lines": 324, "total": 669, "refused": null}
+{"t": "2026-10-14T08:43:44", "stage": "C2", "verb": "forest", "args": ["texas"], "opts": {}, "offset": 0, "limit": 345, "lines": 345, "total": 669, "refused": null}
+{"t": "2026-10-14T08:44:19", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: texas, told. Its pass 2 policing residue is now told by A20 (r/placeTexas opened so canvas posts stop flooding r/texas, and a moderator removes later ones). Its national history residue is told under the idiom rule: the Alamo, San Jacinto and come and take it give the idiom of the fight, but the rival is a neighbour whose flag grew into Texas's spot. Calls, help, the Kolache and Crusader Kings deals, refused attack calls, scripts, the move and the taunts after the close are told. The second forest page was read once before the compaction reconciliation line and again after it."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:44:19", "stage": "C2", "verb": "room", "args": ["totallynotrobots"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:44:25", "stage": "C2", "verb": "room", "args": ["totallynotrobots"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 76, "total": 76, "refused": null}
+{"t": "2026-10-14T08:44:29", "stage": "C2", "verb": "forest", "args": ["totallynotrobots"], "opts": {}, "offset": 0, "limit": 250, "lines": 257, "total": 410, "refused": null}
+{"t": "2026-10-14T08:44:33", "stage": "C2", "verb": "forest", "args": ["totallynotrobots"], "opts": {}, "offset": 257, "limit": 160, "lines": 153, "total": 410, "refused": null}
+{"t": "2026-10-14T08:44:56", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: totallynotrobots, told-with-residue. Calls, a template and coordinates, a scoreboard spared by agreement, scripts argued, a late move beside the fox with an apology to r/foxes, the unfinished close and PlaceTwo are told. Still untold: the sub's own joke picked the one work, a CAPTCHA to prove the members human, and set members against scripts. Under the idiom rule that is membership carried in that picks the work."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:44:57", "stage": "C2", "verb": "room", "args": ["unitedkingdom"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:45:02", "stage": "C2", "verb": "room", "args": ["unitedkingdom"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 80, "total": 117, "refused": null}
+{"t": "2026-10-14T08:45:07", "stage": "C2", "verb": "room", "args": ["unitedkingdom"], "opts": {"no_canvas": true}, "offset": 80, "limit": 60, "lines": 37, "total": 117, "refused": null}
+{"t": "2026-10-14T08:45:11", "stage": "C2", "verb": "forest", "args": ["unitedkingdom"], "opts": {}, "offset": 0, "limit": 250, "lines": 253, "total": 598, "refused": null}
+{"t": "2026-10-14T08:45:16", "stage": "C2", "verb": "forest", "args": ["unitedkingdom"], "opts": {}, "offset": 253, "limit": 175, "lines": 179, "total": 598, "refused": null}
+{"t": "2026-10-14T08:45:20", "stage": "C2", "verb": "forest", "args": ["unitedkingdom"], "opts": {}, "offset": 432, "limit": 170, "lines": 166, "total": 598, "refused": null}
+{"t": "2026-10-14T08:45:59", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: unitedkingdom, told-with-residue. Its pass 2 policing residue is now told by A20 (the sticky, requests to ban canvas posts, removals, r/placeuk and a coordinating sub). Calls, design argument, defence, truces with the Red Wings and Italy, help to and from France, Wales and Mexico, the FlagAlliance, refused raids, scripts, banter and the close are told. Still untold: national history and the union's politics picked the rivals (Argentina by the Falklands, Germany by the world wars, the EU flag by Brexit, the Scottish flag) and set which symbols belong on the work."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:45:59", "stage": "C2", "verb": "room", "args": ["completeanarchy"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:46:04", "stage": "C2", "verb": "room", "args": ["completeanarchy"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 80, "total": 85, "refused": null}
+{"t": "2026-10-14T08:46:08", "stage": "C2", "verb": "room", "args": ["completeanarchy"], "opts": {"no_canvas": true}, "offset": 80, "limit": 20, "lines": 5, "total": 85, "refused": null}
+{"t": "2026-10-14T08:46:08", "stage": "C2", "verb": "forest", "args": ["completeanarchy"], "opts": {}, "offset": 0, "limit": 240, "lines": 242, "total": 466, "refused": null}
+{"t": "2026-10-14T08:46:13", "stage": "C2", "verb": "forest", "args": ["completeanarchy"], "opts": {}, "offset": 242, "limit": 230, "lines": 224, "total": 466, "refused": null}
+{"t": "2026-10-14T08:48:11", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: completeanarchy, told-with-residue. Calls, defence, the left coalition through r/TheFarLeftSide, bots, a move and a rebuild, taunts, the celebrated Free Territory and the copy of the game are told. Still untold: the ideology carried in picked the rivals (ancaps, fascists, 4chan, tankies) and the works (BASH THE FASH, the left flags), and the raids on rival flags were carried out and celebrated. Its most-placed fourth-order theme, Frame bridging, is outside the model."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:48:12", "stage": "C2", "verb": "room", "args": ["CKCrusaders"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 80, "total": 100, "refused": null}
+{"t": "2026-10-14T08:48:17", "stage": "C2", "verb": "room", "args": ["CKCrusaders"], "opts": {"no_canvas": true}, "offset": 80, "limit": 30, "lines": 20, "total": 100, "refused": null}
+{"t": "2026-10-14T08:48:18", "stage": "C2", "verb": "forest", "args": ["CKCrusaders"], "opts": {}, "offset": 0, "limit": 300, "lines": 301, "total": 319, "refused": null}
+{"t": "2026-10-14T08:48:22", "stage": "C2", "verb": "forest", "args": ["CKCrusaders"], "opts": {}, "offset": 301, "limit": 30, "lines": 18, "total": 319, "refused": null}
+{"t": "2026-10-14T08:48:53", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: CKCrusaders, told-with-residue. Its opening is told by the sentence on side subs a readership opens for its canvas work (no posts in the week before; members sent back to r/CrusaderKings). Calls, design settled in Discord, defence, borders with allies, pacts with Sweden and r/eu4, help with Texas, calls answered inside the room, the close and friendships kept are told. Still untold: the crusade lore carried in picked which neighbour to attack, the Turkish flag to recapture Constantinople, after the day9 plan was called off."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:48:54", "stage": "C2", "verb": "room", "args": ["placecanada"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:48:59", "stage": "C2", "verb": "room", "args": ["placecanada"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 80, "total": 173, "refused": null}
+{"t": "2026-10-14T08:49:03", "stage": "C2", "verb": "room", "args": ["placecanada"], "opts": {"no_canvas": true}, "offset": 80, "limit": 100, "lines": 93, "total": 173, "refused": null}
+{"t": "2026-10-14T08:49:08", "stage": "C2", "verb": "forest", "args": ["placecanada"], "opts": {}, "offset": 0, "limit": 250, "lines": 251, "total": 694, "refused": null}
+{"t": "2026-10-14T08:49:12", "stage": "C2", "verb": "forest", "args": ["placecanada"], "opts": {}, "offset": 251, "limit": 230, "lines": 233, "total": 694, "refused": null}
+{"t": "2026-10-14T08:49:17", "stage": "C2", "verb": "forest", "args": ["placecanada"], "opts": {}, "offset": 484, "limit": 215, "lines": 210, "total": 694, "refused": null}
+{"t": "2026-10-14T08:50:00", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: placecanada, told. A side sub Canadian readers opened for the canvas, told by the story's opening sentence. Official strategy and a template, off-template placers messaged, defence, scripts argued, the Quebec border argued, the 1G pact, help given to other rooms, alliances, refused attacks, the fight with Quebec argued as history after the close, and the record are told. Quebec was picked by the canvas, not by history: its flag sat where the Canadian flag grew, and the separatist jokes give only the idiom. The national emblems are the topic's own picture."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:50:00", "stage": "C2", "verb": "room", "args": ["OKState"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 15, "total": 15, "refused": null}
+{"t": "2026-10-14T08:50:04", "stage": "C2", "verb": "forest", "args": ["OKState"], "opts": {}, "offset": 0, "limit": 80, "lines": 36, "total": 36, "refused": null}
+{"t": "2026-10-14T08:50:16", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: OKState, told. A late room with one thread: a call with a pattern, one-line answers, a small design argument, a bot to match the Spock bot, a move from a spot r/startrek scripted, and the script going up as placement ended, with their small place claimed. Every step is in the story."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:50:17", "stage": "C2", "verb": "room", "args": ["pgang"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 19, "total": 19, "refused": null}
+{"t": "2026-10-14T08:50:17", "stage": "C2", "verb": "forest", "args": ["pgang"], "opts": {}, "offset": 0, "limit": 80, "lines": 29, "total": 29, "refused": null}
+{"t": "2026-10-14T08:50:33", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: pgang, told. A room with no posts before the canvas, opened in the last half hour around a template and a territory, told by the story's opening sentence. The template comes with the first post, placement ends at hour 73 with a petition against the moderators, and the sub is offered a next job. One member's tile offered for an upvote is play beside the work."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:50:34", "stage": "C2", "verb": "room", "args": ["MonkeyIsland"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 22, "total": 22, "refused": null}
+{"t": "2026-10-14T08:50:34", "stage": "C2", "verb": "forest", "args": ["MonkeyIsland"], "opts": {}, "offset": 0, "limit": 80, "lines": 54, "total": 54, "refused": null}
+{"t": "2026-10-14T08:50:45", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: MonkeyIsland, told. A small room's call for an easy Guybrush, one-line answers, help asked because only three were working, the work extended by LeChuck and a three-headed monkey, repairs, a move to where figures did not conflict, LeChuck given up when overrun, and Guybrush celebrated while the rest was mourned. Every step is in the story."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:50:45", "stage": "C2", "verb": "room", "args": ["purplecorner"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 80, "total": 105, "refused": null}
+{"t": "2026-10-14T08:50:50", "stage": "C2", "verb": "room", "args": ["purplecorner"], "opts": {"no_canvas": true}, "offset": 80, "limit": 30, "lines": 25, "total": 105, "refused": null}
+{"t": "2026-10-14T08:50:51", "stage": "C2", "verb": "forest", "args": ["purplecorner"], "opts": {}, "offset": 0, "limit": 260, "lines": 260, "total": 315, "refused": null}
+{"t": "2026-10-14T08:50:55", "stage": "C2", "verb": "forest", "args": ["purplecorner"], "opts": {}, "offset": 260, "limit": 60, "lines": 55, "total": 315, "refused": null}
+{"t": "2026-10-14T08:51:24", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: purplecorner, told-with-residue. A colour faction the canvas gathered, told by the story's opening sentence. Calls, upkeep, pacts and a tile traded for peace, help asked of it, coalitions against the void, calls to attack answered inside the faction, and the move to pxls.space are told. Still untold: the colour picked the rival (former blues enlisted to replace only blue tiles), the faction split over doctrine into r/purplepixels, and other rooms asked its leave to build in its corner."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:51:25", "stage": "C2", "verb": "room", "args": ["swordartonline"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 35, "total": 35, "refused": null}
+{"t": "2026-10-14T08:51:30", "stage": "C2", "verb": "forest", "args": ["swordartonline"], "opts": {}, "offset": 0, "limit": 80, "lines": 82, "total": 111, "refused": null}
+{"t": "2026-10-14T08:51:34", "stage": "C2", "verb": "forest", "args": ["swordartonline"], "opts": {}, "offset": 82, "limit": 40, "lines": 29, "total": 111, "refused": null}
+{"t": "2026-10-14T08:51:45", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: swordartonline, told. A member's start and call, a move for room, a moderator's call, the early celebration, defence, an expansion call refused, a neighbour's warning, and an info post with the template, alliances and borders left to talks with osu are told. The April Fools pranks run beside the work."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:51:46", "stage": "C2", "verb": "room", "args": ["smashbros"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:51:50", "stage": "C2", "verb": "room", "args": ["smashbros"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 80, "total": 157, "refused": null}
+{"t": "2026-10-14T08:51:55", "stage": "C2", "verb": "room", "args": ["smashbros"], "opts": {"no_canvas": true}, "offset": 80, "limit": 80, "lines": 77, "total": 157, "refused": null}
+{"t": "2026-10-14T08:52:02", "stage": "C2", "verb": "forest", "args": ["smashbros"], "opts": {}, "offset": 0, "limit": 250, "lines": 256, "total": 866, "refused": null}
+{"t": "2026-10-14T08:52:06", "stage": "C2", "verb": "forest", "args": ["smashbros"], "opts": {}, "offset": 256, "limit": 210, "lines": 210, "total": 866, "refused": null}
+{"t": "2026-10-14T08:52:10", "stage": "C2", "verb": "forest", "args": ["smashbros"], "opts": {}, "offset": 466, "limit": 210, "lines": 232, "total": 866, "refused": null}
+{"t": "2026-10-14T08:52:15", "stage": "C2", "verb": "forest", "args": ["smashbros"], "opts": {}, "offset": 698, "limit": 175, "lines": 168, "total": 866, "refused": null}
+{"t": "2026-10-14T08:52:50", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: smashbros, told-with-residue. Calls, a shine mapped and finished, a template, repairs, border deals with neighbours, refused raids, help to Starry Night, the host's line on canvas posts (A20), the celebrated ending and the April Fools takeover beside the work are told. Still untold: the room's area hosted an allied guest's work, goon, kept because its makers helped build Fox, and the Discord ruled that no one adds art without asking it."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:52:50", "stage": "C2", "verb": "room", "args": ["shield"], "opts": {"no_canvas": true}, "offset": 0, "limit": 80, "lines": 40, "total": 40, "refused": null}
+{"t": "2026-10-14T08:52:54", "stage": "C2", "verb": "forest", "args": ["shield"], "opts": {}, "offset": 0, "limit": 80, "lines": 85, "total": 152, "refused": null}
+{"t": "2026-10-14T08:53:00", "stage": "C2", "verb": "forest", "args": ["shield"], "opts": {}, "offset": 85, "limit": 70, "lines": 67, "total": 152, "refused": null}
+{"t": "2026-10-14T08:53:19", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: shield, told. A call and a plan, doubt that it would last, a first mark organized by the r/Marvelstudios Discord that members joined, an argument over its colour, defence against trolls, borders with Kamen Rider, a threat answered by yielding, a move north, the logo abandoned when help ran short and taken up again by another member, and thanks for the logo that never was. Every step is in the story."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:53:19", "stage": "C2", "verb": "room", "args": ["stevenuniverse"], "opts": {"size": true}, "offset": 0, "limit": 80, "lines": 2, "total": 2, "refused": null}
+{"t": "2026-10-14T08:53:24", "stage": "C2", "verb": "room", "args": ["stevenuniverse"], "opts": {"no_canvas": true}, "offset": 0, "limit": 240, "lines": 240, "total": 298, "refused": null}
+{"t": "2026-10-14T08:53:30", "stage": "C2", "verb": "room", "args": ["stevenuniverse"], "opts": {"no_canvas": true}, "offset": 240, "limit": 60, "lines": 58, "total": 298, "refused": null}
+{"t": "2026-10-14T08:53:36", "stage": "C2", "verb": "forest", "args": ["stevenuniverse"], "opts": {}, "offset": 0, "limit": 250, "lines": 251, "total": 1343, "refused": null}
+{"t": "2026-10-14T08:53:42", "stage": "C2", "verb": "forest", "args": ["stevenuniverse"], "opts": {}, "offset": 251, "limit": 250, "lines": 251, "total": 1343, "refused": null}
+{"t": "2026-10-14T08:53:47", "stage": "C2", "verb": "forest", "args": ["stevenuniverse"], "opts": {}, "offset": 502, "limit": 220, "lines": 222, "total": 1343, "refused": null}
+{"t": "2026-10-14T08:53:52", "stage": "C2", "verb": "forest", "args": ["stevenuniverse"], "opts": {}, "offset": 724, "limit": 220, "lines": 224, "total": 1343, "refused": null}
+{"t": "2026-10-14T08:53:59", "stage": "C2", "verb": "forest", "args": ["stevenuniverse"], "opts": {}, "offset": 948, "limit": 210, "lines": 213, "total": 1343, "refused": null}
+{"t": "2026-10-14T08:54:04", "stage": "C2", "verb": "forest", "args": ["stevenuniverse"], "opts": {}, "offset": 1161, "limit": 190, "lines": 182, "total": 1343, "refused": null}
+{"t": "2026-10-14T08:54:41", "stage": "C2", "verb": "log", "args": ["Story room read whole against story-p3: stevenuniverse, told. Calls, the Diamond Authority symbol bordered, a Discord plan brought back to the sub, repairs, the Polandball border kept and cut into the design, truces with ShawnHate and Slovakia, 4chan's logo restored, alliances, refused attack calls, talks with Norway while its members overran the work, the background given up to keep two figures, the megathread, and the record and carrying-on are told. The Lapis takeover runs beside the work. All 32 pass 3 rooms are now read: told 16, told-with-residue 16, not-told 0 (pass 2: 14, 18, 0), counted from story_rooms-p3.jsonl."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:55:19", "stage": "C2", "verb": "log", "args": ["Saturation line for pass 3 appended to saturation.jsonl (now 3 lines, counted): story-p3, 32 rooms, told 16, told-with-residue 16 (0.50), not-told 0; pass 2 was 14, 18 (0.56), 0, so told-with-residue fell by two on a draw of the same size. Stopping rule: 1 tier event (T4-002 into the model), 2 arrow changes (A20 added, A10 bounded), story sentences naming arrows changed. The rule cannot stop."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T08:56:39", "stage": "C2", "verb": "diary", "args": [], "opts": {"last": 120, "width": 700}, "offset": 0, "limit": 80, "lines": 80, "total": 120, "refused": null, "width": 700, "clipped": 22}
+{"t": "2026-10-14T08:56:44", "stage": "C2", "verb": "diary", "args": [], "opts": {"last": 75, "width": 900}, "offset": 0, "limit": 80, "lines": 75, "total": 75, "refused": null, "width": 900, "clipped": 3}
+{"t": "2026-10-14T08:56:56", "stage": "C2", "verb": "diary", "args": [], "opts": {"last": 75, "width": 1400}, "offset": 0, "limit": 80, "lines": 75, "total": 75, "refused": null, "width": 1400, "clipped": 1}
+{"t": "2026-10-14T08:57:50", "stage": "C2", "verb": "log", "args": ["Two corrections made after the pass 3 rooms were read, both in sections that name no arrow or element. story-p3.md's closing sentence 'The hosts whose rulings are on record are rooms the canvas founded' overstated the vetting reading: catalunya, sweden and smashbros had readers before the canvas and rule on guests in talk coded under other themes. It now reads 'The six hosts whose rulings are coded as vetting are rooms the canvas founded. Hosts that had readers before the canvas rule on guests too, in talk coded under other themes.' model-p3.md's two 'where the model should break' bullets on hosts and founded rooms were brought into line with the pass 3 rooms. No verdict changes: catalunya's verdict line already names the contradiction."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T09:00:32", "stage": "C2", "verb": "log", "args": ["notes-C2.md pass 3 body written: the seven test results with a table (three beaten, one admitted as A20; membership then hosting beaten and not admitted, its mechanism in 5 of 21 rooms), the vetting reading with a table (fit with the body 6 of 23 grounded concepts; the statement fails; F-012), rooms the canvas founded (78 of 705; the opening stands as a bound, and the founded bodies' hosting and colour faith are a form the model does not reach), the idiom rule and its effect on the count (16 under it, 17 or 18 by pass 2's practice, no rise either way), the onset contrast, Parts A, B and C, the story rooms and residues, what the structure showed that the notes did not predict, the criterion applied (pass 3 preferred; no stop declared; pass 3 goes to C2b), slips, and the close-check block."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}
+{"t": "2026-10-14T09:05:12", "stage": "C2", "verb": "log", "args": ["Close of C2a-03 (pass 3). Head rewritten (2,999 words, counted; no element ids). Pass 3: seven order tests under the pass 1 statement and null, three beaten and one admitted (calls then the host's line, 132 of 155 rooms, strong); membership then hosting beaten and refused for want of its mechanism; hosting follows neither exchange, coalition nor upkeep; the hosts' rulings mostly give no ground, and where they give one it is space or design; rooms the canvas founded run the story's steps, so the opening stands as a bound. 27 elements (three candidates), 20 arrows, 12 findings, no loop, no tier recut. story-p3 read against 32 rooms drawn by rule: told 16, told-with-residue 16, not-told 0 (pass 2: 14, 18, 0); the count rests in part on the idiom rule set mid-pass, and by pass 2's practice it would be 17 or 18, so it did not rise by either reading. Pass 3 preferred; no stop declared; pass 3 goes to C2b by the rule written before the pass. validate.py C2: 0 errors, 0 warnings. Next: C2b, the reviewer's build leg, ending at --cut packets-out."], "opts": {"kind": "note"}, "offset": 0, "limit": 80, "lines": 1, "total": 1, "refused": null}

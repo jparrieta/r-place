@@ -564,3 +564,10 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Story p1 against 20 rooms drawn by seed: told 0, told-with-residue 20, not-told 0. Biggest residue: exchange between rooms (9 of 20); attack as a room's own work (6).
 - Tokens (dedup): 237 calls, 128.2M cache read, 0.30M output. Disk 59 GB free.
 - C2a-02 run.
+
+## 2026-10-14 10:10 Berlin, C2a-02 closed, C2a-03 started
+- C2a-02 closed ~08:03Z, checkpoint 08b170bc0adb1a77, validate 0/0: elements 24, arrows 19, dimensions 8 (D08 Contention split out by a rule declared before the count), findings 9, no loop.
+- 12 order tests declared before counting; 7 beat the null (A13 to A19). Attack is mostly answered inside the room (A16, 0.788). Dropped: exchange then sparing, border talk then coalition, exchange then coalition, quarrel carried in then attack, attack then building, play frame delaying the work.
+- Story p2 on 32 rooms: told 14, residue 18, not-told 0 (fresh twelve: 6 told). Pass 3: membership carried in, hosting, host policing, A06/A09 bounds.
+- Tokens: see json. Disk 54 GB free.
+- C2a-03 run.
