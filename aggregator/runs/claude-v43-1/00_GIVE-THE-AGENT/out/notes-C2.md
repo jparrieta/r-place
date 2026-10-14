@@ -492,3 +492,59 @@ stage C2:
 ```
 
 `done.sh C2 --cut packets-out` runs the same check at the close. Its report is in the leg's closing diary line.
+
+## The reviewer's check (C2c): every item answered
+
+### The return
+
+The PI's message: "the reviewer's dispatch is done; the reader left its file in _fleet_raw/C2/. This leg is C2c, the reviewer's check and the mid-stage interview, as the stage file says. J's rulings, including the answer to QC2-001, stand."
+
+One reader, r1, returned one valid line on the first issue: claude-opus-5-5 through the CLI, packet sha256 `08c64c7a…` as built. Its `served` digest equals `model-p3.md` as it stands. It reports nine errors (order 3, quote 1, contradiction 4, count 1). It also gives a partition of 196 third-order themes into 28 groups, with T3-017 unplaced. The line is copied verbatim into `review-C2.md`. As QC2-001 asks, every error was read against the whole of `model-p3.md`, the nine unserved sections included, and against the record through `c2c_concept_check.py`.
+
+### The errors, one by one (rule 13)
+
+1. **A01, order: refused.** `metroid/c0002` is cited under building and reporting the mark (P03), not under coordinates. Its words report a placed piece: "Zoom in without moving around to see the top of Samus's head." The call comes at h4.27 and the report at h4.29. The coordinate reading is printed beside the claim in `model-p4.md`.
+2. **A02, quote: accepted.** Both instances answer the start with a joining line cited under calling members in to place: "I'm in." (sips) and "I'm on my way!" (habs). They do not show calls gathering. *Fixed in `arrows.jsonl`*: opticgaming c0191 to c0192 ("We're all gonna have to come together to get it done.") and kerbalspaceprogram c0026 to c0028, both in rooms where the order holds. The count stands: in at most 10 of the 64 holding rooms is the first P01 concept a joining line (`c2c_t3002_enrolments.txt`, an upper bound, since its pattern also catches short calls). The wider point is pass 4's material. Calling members in to place holds joining lines (at most 218 of its 1,774 cited concepts), so P01 partly overlaps the one-line enrolment (P15). The unserved dimension table repeats the sips instance; `model-p4.md` replaces it.
+3. **A04, order: accepted in part.** The switzerland pair answers an upkeep call by invoking a treaty made earlier, so it does not show upkeep bringing the room to talk. The second instance comes from DestinyTheGame, where the order fails (first border talk h18.74, first upkeep h27.89). *Fixed*: unturned c0059 to c0060 ("Maybe we can arrange something with r/rarepuppers to get them to build somewhere else?", 53 minutes) and adventuretime c0064 to c0065 (14 minutes), both in rooms where the order holds. Refused: switzerland does not show the reverse order. Its first upkeep is at h5.38 and its first treaty talk at h18.62.
+4. **A05, order: accepted.** The printed instance, `ubc/c0084`, is one turn and is cited under no third-order theme. The ledger held two transitions that the model text never printed, so "each arrow rests on at least one transition" was true of the ledger and not of the served text. *Fixed*: A05 rests on asktransgender c0003 to c0004, a request over the border answered two minutes later by "We have a policy to not harm any artwork". The roosterteeth transition is dropped, because its second turn praises the border and does not spare anything. A05 stays thin.
+5. **A20, contradiction: accepted.** In the record, "holds" is defined on the order statement, which holds in transformers. The failure clause also covers a line that names no flood, and transformers' first line, at h80.40 after the close, names none. *Fixed*: transformers is recorded as a mechanism failure, the post-close judgment of the canvas's worth enters the bound and the counterexample response, F-010 is superseded by a bounded line, and transformers joins the next story draw. The unserved artefact section already conceded that P20 holds acts that need no call; the reviewer turned that into the failure clause. A20 stays strong on 132 of 155 rooms.
+6. **A10, contradiction: accepted in part.** Refused: the bound does not absorb the failures into the arrow's range. The bound and the counterexample response record guatemala and MiamiHurricanes as rooms where A10 does not hold, as rule 16's scope conditions. The failure clause is unchanged, and A10 stays thin on 11 of 21 rooms. Accepted: `story-p3.md` tags the sentence that tells those rooms with [A10], which presents a bound as a use (fixed with error 8).
+7. **The founded hosts, contradiction: accepted.** An empty pre-event brief does not show that the canvas founded a room; side subs and quiet subs have one too. `story-p4.md` and `model-p4.md` will say "have no posts in the week before the canvas". The unserved "where the model should break" bullet makes the same overreach, and so do these notes' pass 3 headings; F-012 is worded correctly.
+8. **Bounds tagged as uses, contradiction: accepted.** The sentences telling A06's, A09's and A10's bounds carry the arrow's id as if they were uses of the arrow. In `story-p4.md` a bound sentence names the bound ("A06's bound"), never the arrow alone. These are changes to sentences that name arrows, so the stopping rule counts them.
+9. **"Present", count: accepted.** "Present: in 53 of 190 rooms" counts the rooms where the order statement fails. The unserved artefact section says the same: "53 rooms report building before any call". The label sits after the failure clause, which is stricter (build reports only before any call, or no build report after a call), so the count does not measure the clause. In `model-p4.md` the line will say "the order fails in N of M rooms". The clause itself will be counted with the evidence script's second statement (some TO after the first FROM), whose failures are exactly the clause.
+
+**Where the fixes land.** The ledger fixes are made now: A02, A04, A05 and A20 in `arrows.jsonl`, with four history lines (move relating or contrasting, snap C2-move-relating-42), and the superseding F-010 line. The prose fixes go into `model-p4.md` and `story-p4.md`, written at C2d-01. `model-p3.md` must keep its served digest, and `story-p3.md` is the text the reviewer and pass 3's rooms were read against. A fix reopens the loop, and the stopping rule counts from these changes.
+
+### The rival partition, read
+
+The script `c2c_partition_compare.py` (output in `c2c_partition_compare.txt`) compares the two partitions. Of the third-order theme pairs, 441 are grouped together in both, 221 in mine only and 208 in the reviewer's only (Rand 0.978, adjusted Rand 0.661). The reviewer keeps six of my fourth-order themes exactly: Standardization of output, Workarounds, Backstage decision-making, Negotiated order, Completion ritual and Transition. Ten more have a Jaccard of 0.7 or more. 38 of 197 third-order themes leave their fourth-order theme's majority group.
+
+**What it shows about how determined the tier is.** The tier is determined where the model has its arrows: the spine, the contest and the close. It is under-determined where pass 3's residues lie: membership carried in (Flagging the nation, Neo-tribes, Frame bridging), hosting, and the host sub. The reviewer's partition disagrees with mine in the same places the stories could not tell.
+
+The answers, divergence by divergence:
+- **Hosting with space (its group "Allocating space between rooms"): accepted as a recut.** It is declared here and will be made as the first move of C2d-01 under rule 11. T3-035, T3-094, T3-099 and T3-162 leave Meta-organization for Territoriality. Meta-organization keeps the coalitions, and P17 narrows to coalitions; A19 on the narrowed element held at pass 3 (0.719 against 0.686). P19, hosting, stays a candidate. Pass 3's evidence favours the reviewer here. Hosting follows no coalition and comes before one in 12 of 17 rooms. Hosts that give a ground rule on space or design.
+- **Relocation with collective efficacy ("Scaling to capacity"): refused.** Doubt about hands (K02) and the move (P10) are a condition and a process joined by an arrow, A10. One group would make the arrow internal to a theme and hide the order the model claims.
+- **Identity split by activity ("What the mark shows", "Contest told as the body's story", "Policing symbols", "Saying who we are"): the disagreement stands beside the claim.** I group by the body a room carries in (a nation, a colour, a frame), so that membership stays a construct the return can test. The reviewer dissolves it into design, rivalry talk, symbol policing and identity talk. In one place the reviewer's reading matches pass 3's idiom rule: the homeland's flag and national emblems (T3-065, T3-113) are the mark's content. That move will be examined at C2d-01 under a rule written first. Flagging the nation stays whole meanwhile; J: "national elements are very important here".
+- **The host sub split by actor ("Ruling the sub" for moderators, "Defending the sub's ordinary life" for members): taken as a test, not a recut.** At C2d-01 A20 runs on the moderators' acts alone and on the members' objections alone, which answers error 5's question about the mechanism directly.
+- **Reconciliation apart from restraint ("Turning rivals into friends"): refused.** Making up and holding back both answer how a room keeps from harming another room's work, which is A16's target. The reviewer's group spans three of my dimensions.
+- **Recruiting outsiders with mobilization (T3-044, T3-196 in "Summoning hands"): noted.** Visibility returns is outside the model. It is considered at C2d-01 only if P01 is reworked at its boundary with P15.
+
+### What the final passes will change
+
+- The hosting recut, declared above.
+- `model-p4.md` and `story-p4.md` carrying errors 1 to 9 as answered.
+- The failure clauses counted, not only the order statements.
+- A20 tested by actor.
+- The boundary between P01 and P15, and whether the flag and emblem themes belong with the mark's content.
+- transformers in the pass 4 story draw as a sampled failure.
+
+### Slips, C2c
+
+- **The permission check refused two commands**: a `find` with `-exec` braces, and an inline Python line beginning with "for". Nothing ran; both were redone as scripts.
+- **The enrolment pattern** in `c2c_t3002_enrolments.py` also catches short calls ("Help create Ohioan flag!"). Its counts are upper bounds and are reported so.
+- **Two edits to the head** were sent as parallel calls, against J's rule on writes to one file. Both applied and were checked before the next write.
+- **The first head draft** named arrow and finding ids, which the head's own rule forbids; they were replaced by descriptive names before the word count and the id check.
+
+### The close-check, C2c
+
+`python3 tools/validate.py C2`, run after the head was rewritten, and `done.sh C2 --cut interview` at the close. Both reports are in the leg's closing diary line.

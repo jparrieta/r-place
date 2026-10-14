@@ -1,0 +1,5 @@
+- **goal:** Can independently reconstructed case histories be composed into a shared dynamic account that explains at successive levels, from population-wide patterns through forms and subforms to particular organizational histories, while keeping access to the evidence behind each explanation?
+- **open:** None. The two question files, contention-dimension and relocation-renewed-calls, were both closed at pass 2.
+- **rooms:** I read no room whole in this leg. The last three rooms whose concepts I read from the store were adventuretime, asktransgender and roosterteeth, when the fix script took the new arrow instances.
+- **changed:** I changed four arrows because the reviewer showed their printed instances were wrong: new instances for A02, A04 and A05, and transformers recorded as a failure of A20's mechanism, with finding F-010 bounded to match.
+- **next:** The first move of C2d-01 is to recut the four hosting themes from Meta-organization into Territoriality. Pass 4 then counts the failure clauses and tests the host's-line arrow separately on moderators and members.

@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at C2b, 2026-10-14 (UTC). Stages A1 to C1 are done; stage B is frozen. Stage C2 (the model: the loop) closed its third pass at C2a-03, and this leg built the one reviewer's packet from pass 3 and closes at the packets-out cut. `validate.py C2` before the close: 0 errors, 0 warnings. The dispatch runs next without me; then the check leg, C2c.
+Under 3,000 words, rewritten whole at every close. Last written at C2c, 2026-10-14 (UTC). Stages A1 to C1 are done; stage B is frozen. Stage C2 (the model: the loop) has run three passes; this leg answered the reviewer's return on pass 3 and wrote the mid-stage interview, closing at the interview cut. `validate.py C2` before the close: 0 errors, 0 warnings. Next: the closing passes, C2d-01 and C2d-02.
 
 ## The method question, in one sentence
 
@@ -16,37 +16,26 @@ The room that best supports the account is stevenuniverse, drawn by seed at pass
 
 ## Where the run stands
 
-C2 outputs in `out/`: `dimensions.jsonl` (eight); `fourth/fourth.jsonl` (28, 21 in the model); `structure.md` and `structure-p2.md`; `concept.md`; `within_case.md`; `model/elements.jsonl` (27, three candidates), `model/arrows.jsonl` (20), `model/loops.jsonl` (empty), `model/history.jsonl` (54); `model.md`, `model-p2.md` and `model-p3.md`; `model/story-p1.md` to `model/story-p3.md`; `story_rooms-p1.jsonl` (20 verdicts), `story_rooms-p2.jsonl` (32) and `story_rooms-p3.jsonl` (32); `saturation.jsonl` (three lines); `findings.jsonl` (14 lines, 12 findings); `_questions/` (two, both closed); `tier_history.jsonl` (464); `notes-C2.md`. Snaps run to C2-move-relating-41. The reviewer's files: `RETURN-C2.md`, `_packets-C2/C2-reviewer.md`, `review-C2.md` and the stage's entry in `run_manifest.json`.
+C2 outputs in `out/`: `dimensions.jsonl` (eight); `fourth/fourth.jsonl` (28, 21 in the model); `structure.md` and `structure-p2.md`; `concept.md`; `within_case.md`; `model/elements.jsonl` (27, three candidates), `model/arrows.jsonl` (20), `model/loops.jsonl` (empty), `model/history.jsonl` (58); `model.md`, `model-p2.md` and `model-p3.md`; `model/story-p1.md` to `model/story-p3.md`; `story_rooms-p1.jsonl` (20 verdicts), `story_rooms-p2.jsonl` (32) and `story_rooms-p3.jsonl` (32); `saturation.jsonl` (three lines); `findings.jsonl` (15 lines, 12 findings); `_questions/` (two, both closed); `tier_history.jsonl` (464); `notes-C2.md`. Snaps run to C2-move-relating-42. The reviewer's files: `RETURN-C2.md`, `_packets-C2/C2-reviewer.md`, `review-C2.md` (with the return), the stage's entry in `run_manifest.json`, and `interview/C2c.md`.
 
-## The reviewer's build (C2b), in short
+## The reviewer (C2b and C2c), in short
 
-**The opening message.** "C2a-03 is closed and pushed. This leg is C2b, the reviewer's build, as the stage file says and your pass 3 notes plan: pass 3 is preferred to pass 2 and told-with-residue did not rise, so pass 3 goes to the reviewer. Build the packet and close with the packets-out cut as section 6 says. J's rulings stand."
+**The build (C2b).** The files section 6 lists cannot fit the 50 KB ceiling, so one packet of 51,116 bytes served the pass 3 model file's prose, elements and arrows verbatim, the story whole, the criterion, the tiers with every third-order theme by name, and the read verbs. Ten parts of the model file were not served. QC2-001 (the handler, under J's delegation): serving sections is acceptable; every reported error is read against the whole model file. The pass 3 model file must keep its sha256 (`aa75ee6c…`), which the return names.
 
-**The packet.** The files section 6 lists cannot fit the 50 KB ceiling: the pass 3 model file alone is 51,723 bytes, and the structure files about 1 MB each. One packet of 51,116 bytes serves: the instruction verbatim; the model file's prose, elements table and arrows section verbatim; the story whole; the criterion paragraph; the tiers with every third-order theme by name and the stage's criterion for a fourth-order theme; the read verbs. The model file's opening and nine other sections are not served, nor the dimension questions or the ledgers as files. The return's `served` names the pass 3 model file's sha256 (`aa75ee6c…`), so that file must not change before C2c reads the return.
+**The check (C2c).** The opening message: "the reviewer's dispatch is done; the reader left its file in _fleet_raw/C2/. This leg is C2c, the reviewer's check and the mid-stage interview, as the stage file says. J's rulings, including the answer to QC2-001, stand." One valid return on Opus: nine errors and a 28-group partition.
 
-**The return specification** asks for one JSON line (served, errors by kind, a partition with what holds each group) and the end marker.
+**The errors, under rule 13:** six accepted in full, two in part, one refused.
+- **Accepted, fixed in the arrow ledger now:** the start-then-call arrow's instances were joining lines, not calls; the upkeep-then-border-talk arrow's showed an older treaty and a room where the order fails; the border-then-sparing arrow printed one uncited turn; and transformers is a failure of the host's-line arrow's mechanism. That fix also bounds the host's-line finding and puts transformers in the next story draw.
+- **Accepted, fixed in the next model and story:** the story calling the vetting hosts founded by the canvas on an empty brief alone; bound sentences tagged as uses of the machine-hands, carrying-on and move arrows; and "Present" counts that measure rooms where the order fails, not the stricter clause.
+- **Refused:** the call-then-build error (its answer is coded and worded as a build report); switzerland's reverse order (first upkeep h5.38, first treaty h18.62); and the move arrow's bound as absorption (it records scope conditions).
 
-**QC2-001 (the handler, under J's delegation):** serving sections is acceptable and the one packet stands; two parts would change the instrument, which is J's call. `review-C2.md` lists the ten unserved parts by heading above the instruction.
+**The partition:** adjusted Rand 0.661 against the tier, six fourth-order themes kept exactly, ten more at Jaccard 0.7 or above, 38 of 197 third-order themes moved. The tier is firm where the model has arrows and loose where the residues are: membership carried in, hosting and the host sub. Hosting with space is accepted as a recut for C2d-01's first move. Relocation with efficacy and reconciliation apart from restraint are refused. The identity split stays beside my claim. The host sub split by actor becomes a test.
 
-**Slips:** two parallel edits to one script; a refused `||` command; a first build 5 bytes over the ceiling, refused before writing.
+**Slips** (in `notes-C2.md`): parallel edits to one file, twice; four refused commands; a first build 5 bytes over the ceiling.
 
 ## Stage C2, pass 3, in short
 
-**Tests** (declared first, pass 1's statement and null): seven, three beaten, one admitted. Calls then the host's line holds in 132 of 155 rooms (0.852, null p95 0.594); it is the new arrow. Membership then hosting beat the null (0.750 against 0.714) and was refused: its mechanism shows in 5 of 21 holding rooms. Not beaten: membership then attack (0.593 against 0.634), and exchange, coalition or upkeep then hosting.
-
-**Hosts' rulings.** 61 vetting concepts in 7 rooms: fit with the body 6, space or design 12, ties 5, procedure alone 24, none 14. "A host admits guests by fit with the body" fails.
-
-**Rooms the canvas founded** (78 of 705) run the story's steps from their founding, so the opening sentence stands as a bound; what three do as hosts and colour faiths the model does not reach.
-
-**The model.** 27 elements (24 standing, three candidates), 20 arrows (8 strong, 6 fair, 6 thin), 18 beating the null, 12 findings, 53 of 197 third-order themes unused, no loop, no tier recut.
-
-**The story and its rooms.** 32 rooms drawn by rule (seed 20261017), 11 fresh: told 16, told-with-residue 16, not-told 0 (pass 2: 14, 18, 0). The idiom rule, set at the ninth room and not declared before the pass, counts membership that only gives the idiom of the steps as told and membership that picks the rival, guest or work as a residue. By pass 2's practice the count would be 17 or 18; by neither reading did it rise.
-
-**Residues:** membership that picks the rival or the work (10 rooms); hosting and its rulings (7); a founded faction splitting over doctrine (2); learning how others organize, and fear of newcomers (1 each).
-
-**What the structure showed that the notes did not predict.** Hosts mostly rule without a ground, and where they give one it is space or design. Hosting comes before a coalition more often than after one.
-
-**The criterion applied.** Pass 3 is preferred and no stop is declared; it went to C2b.
+Seven declared tests, one new arrow: calls then the host's line (132 of 155 rooms, 0.852 against p95 0.594). Membership then hosting beat the null and was refused (its mechanism shows in 5 of 21 rooms); membership then attack, and exchange, coalition or upkeep then hosting, did not. Hosts' rulings mostly give no ground; where they give one it is space or design (12 of 23), not fit with the body (6). 27 elements (three candidates), 20 arrows, 53 of 197 third-order themes unused, no loop. 32 story rooms (seed 20261017): told 16, told-with-residue 16 (pass 2: 14, 18). The idiom rule, set at the ninth room, counts membership that only gives the idiom as told; by pass 2's practice the count would be 17 or 18, so it did not rise either way. Residues: membership that picks the rival or the work (10 rooms), hosting (7), a founded faction's doctrinal split (2), two single rooms. Pass 3 was preferred and went to the reviewer.
 
 ## Stage C2, passes 1 and 2, in short
 
@@ -99,7 +88,7 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 ## Open, carried
 
 - **From C2.** The pass 3 residues above. The idiom rule's caveat on the told-with-residue count. Two thin pass 2 arrows at risk from many tests. The relationship I most expected and could not ground at pass 1: attribution as the hinge between restraint and attack.
-- **The reviewer.** Packet built at C2b from pass 3; the return comes at C2c. Errors in the unserved sections are out of the review's reach.
+- **The reviewer.** Every item answered in `notes-C2.md` (C2c). The prose fixes, the hosting recut and the tests the reviewer prompted are C2d-01's material. My own reading of the ten unserved parts found two overreaches, both in the fixes.
 - **From C1.** 13 third-order themes whose fourth-order home the partition forced; thin constructs (Decided order, Neo-tribes, Symbolic boundaries; Stigmergy on two large themes); recalled sources for stage C3; `c1_unapplied.jsonl` (5); four kinds the scheme lacks; the form-pass findings, taken by id and never counted.
 - **From B1.** J counts 841 B1 bags; an older head said 846. Not reconciled.
 - **My doubts.** Where words carry no speaker's sub I read them as the room's own. The verdicts and the vetting coding are mine alone until the reviewer reads them.
@@ -118,8 +107,8 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-C2c, the check leg (stage file section 6). The harness says the reader left its file in `_fleet_raw/C2/`. Then:
-- Copy the validated return into `review-C2.md` below the instruction; check its `served` digest against the pass 3 model file.
-- Read every reported error against the whole pass 3 model file, unserved sections included, before accepting or refusing it; where the unserved text already answers it, point to that text (QC2-001).
-- Answer every item in `notes-C2.md` under rule 13: an error is fixed and logged (a fix reopens the loop, and the stopping rule counts from after it); the rival partition is read for what it shows about how determined the tier is, and answered with why mine and not it, or with a recut under rule 11.
-- Write `out/interview/C2c.md` (under 800 words: what the reader found, what I accept, what I refuse and why, what the final passes will change) and close with `done.sh C2 --cut interview`.
+C2d-01, the first closing pass (pass 4). The stopping rule counts from the C2c fixes. From pass 4 on, keep the pass that best satisfies the criterion, not the last, and report what is discarded. Read `notes-C2.md`'s reviewer section first. Then:
+- First move: the hosting recut declared there (four hosting themes from Meta-organization to Territoriality, under rule 11), with `tier_history` lines, the coalition element narrowed, and findings touching it re-examined.
+- Declare before any count: the failure clauses counted (the evidence script's second statement); the host's-line arrow tested on moderators' rulings and members' objections apart; the call and one-line enrolment boundary; whether the flag and emblem themes belong with the mark's content (rule written first).
+- Write `model-p4.md` and `model/story-p4.md` carrying every accepted error: new instances, transformers' failure, "no posts in the week before the canvas", bounds named as bounds, the order-fails counts relabelled.
+- Draw the pass 4 story rooms by rule, transformers and every pass 3 residue room among them. A rise in told-with-residue is a stopping failure.

@@ -1,0 +1,43 @@
+{
+ "t": "2026-10-14T10:21:42+00:00",
+ "stage": "C2",
+ "leg": "C2c",
+ "answers": {},
+ "expected": {
+  "open": [
+   "contention-dimension",
+   "relocation-renewed-calls"
+  ],
+  "rooms": [
+   "stevenuniverse",
+   "shield",
+   "smashbros"
+  ],
+  "changed": [
+   "A02",
+   "A04",
+   "A05",
+   "A20"
+  ],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "missing",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "n/a"
+ },
+ "scored": 4,
+ "unscored": [
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "open",
+  "rooms",
+  "changed"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
