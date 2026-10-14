@@ -1,0 +1,4 @@
+{"t": "2026-10-14T16:12:11", "leg": "C4a", "cmd": "python3 tools/mem.py diary --last 5 2>&1 | grep -v \"Deprecation\\|utcnow\" ; python3 tools/validate.py --open C4 2>&1 | grep -v \"Deprecation\\|utcnow\""}
+{"t": "2026-10-14T16:13:04", "leg": "C4a", "cmd": "ls -d field out/field 2>&1; python3 tools/mem.py asks QC4-001 2>&1 | grep -v \"Deprecation\\|utcnow\"; date -u +%H:%M:%SZ"}
+{"t": "2026-10-14T16:14:12", "leg": "C4a", "cmd": "python3 tools/validate.py C4 2>&1 | grep -v \"Deprecation\\|utcnow\"; python3 tools/mem.py asks QC4-001 2>&1 | grep -v \"Deprecation\\|utcnow\" | head -3; ls -d field out/field 2>&1"}
+{"t": "2026-10-14T16:15:29", "leg": "C4a", "cmd": "wc -w out/_head.md && python3 tools/links.py --root . --out out 2>&1 | grep -v \"Deprecation\\|utcnow\" | tail -2 && ls -d field out/field 2>&1; python3 tools/mem.py asks QC4-001 2>&1 | grep -v \"Deprecation\\|utcnow\" | head -1"}

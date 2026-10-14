@@ -35,7 +35,8 @@ Source: each leg's `CONTROL/snapshots/<leg>/transcript.jsonl`. One API call is w
 | C2d-02 closing pass 2 | 1 | 307 | see json | see json | 142.6M | 0.20M |
 | C3a contradicting shelf | 1 | 116 | see json | see json | 61.1M | 0.09M |
 | C3b resembling shelf | 1 | 64 | see json | see json | 54.9M | 0.11M |
-| **Total** | 148 | 24,847 | see json | see json | 12,230.3 M | 29.0M |
+| C3c the four problems | 1 | 113 | see json | see json | 16.8M | 0.11M |
+| **Total** | 149 | 24,960 | see json | see json | 12,247.1 M | 29.1M |
 
 B4a per leg (cache read / output): B4a-01 88.5M / 0.5M; B4a-02 99.2M / 0.6M; B4a-03 139.0M / 0.8M; B4a-04 108.7M / 1.0M; B4a-05 177.8M / 1.3M; B4a-06 177.6M / 1.1M (369 calls); B4a-07 137.3M / 0.9M (257 calls).
 
