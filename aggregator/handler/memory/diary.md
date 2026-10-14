@@ -613,3 +613,14 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - One logged abductive read (from O'Mahony and Ferraro): decided order gathers in colour-faction and guest-vetting rooms, held to size (7 against null 2.7, p 0.014), mostly in smaller rooms. F-006 bounded (findings line 21); C01 history line. No arrow, element, theme or dimension changed. One doubt carried: PurplePixels c0165 ties a faction to a prior event.
 - prior.md set against the model: "becoming able to act by a find" went the other way (the call is the spine).
 - Tokens: 116 calls, 61.1M cache read, 0.09M output. Total 147 legs, 24,783 calls, 12,175.4M, 28.9M. C3b run.
+
+## 2026-10-14 16:52 Berlin, C3b closed
+- C3b closed ~14:49Z, snapshot COMMITTED, validate 0/0. Two logged abductive reads: conversation analysis (refusals of attack calls carry a reason in 23 of 38 pairs, acceptances 2 of 14, p 0.003; F-014) and threshold models (none of 11 number judgments rests on who answered; F-015 weak). A12 and A16 rewritten with a CA mechanism, C2 sentences kept beside. Four distant matches declined with reasons (dear enemy, superordinate goals, focal points, war of attrition). Concept relabelled: one-line enrolment = CA preferred acceptance, borrowed, head-count claim dropped. Successors model-C3.md, structure-C3.md, concept-C3.md. Distant works all recalled.
+- Unexpected: the theme a reply sits under does not track its stance (by theme 0.38 vs 0.55; by reading 0.14 vs 0.61).
+- Slip owned: diary counts from memory (4,2,1,4 vs file 3,2,1,5), corrected. Visibility returns not addressed at C3b.
+- Tokens: 64 calls, 54.9M cache read, 0.11M output. Total 148 legs, 24,847 calls, 12,230.3M, 29.0M. C3c run.
+
+## 2026-10-14 17:20 Berlin, C3c at interview point (closing)
+- C3c done 15:12Z, cut interview. mapping-C3.jsonl 28 lines: 9 themes map to a universal problem (information 4, reward 2, allocation 2, division 1), 19 do not (8 make the room's boundary and goal, 7 order between rooms, 4 other). Allocation by self-selection (345 rooms), assignment 46; division by template (237), of people 5; reward as credit after the work, offered before in 9. F-016, F-017. Nothing in structure or model changed. A1's three sentences read: right on who sets the goal and loss of ground; wrong on argument (design argued in 281 rooms), host sub as place of contest unforeseen.
+- Gap: the constructs' recalled sources from C1 still stand recalled; no shelf copy served (handback line 125). Visibility returns mapped to reward; March 1991 p. 86 named for it; not made an element.
+- Handler drafted six interview questions (analysis/2026-10-14-interview-C3c-q1.txt) for J's approval.

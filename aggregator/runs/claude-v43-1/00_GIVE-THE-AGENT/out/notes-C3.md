@@ -166,3 +166,74 @@ stage C3:
 ```
 
 `done.sh C3` runs the same check at the close. Its report is in the leg's closing diary line.
+
+## Leg 3 (C3c): the four universal problems, the goal, and stage A1's three sentences
+
+### Order kept
+
+Opened with `AGENT.md`, the head, the stage file, the last five diary lines and `validate.py --open C3` (0 errors, 0 warnings). The context was compacted once during the leg. After it I read the head and the stage file again, ran `diary --last 5`, and logged "compacted; head reconciled", but only after one write (the slips below). The page citations of Puranam, Alexy and Reitzig (2014) were checked against the shelf copy (`mem.py shelf ... --grep`, `--page`) before each was used. `notes-A1.md` was opened only for section 7, after the four-problems section and the goal were written.
+
+### What the leg did
+
+- **The mapping.** `mapping-C3.jsonl` has 28 lines, one per fourth-order theme. Nine map to one of the four universal problems and 19 do not: information 4 themes, reward 2, allocation 2, division 1. Two themes answer by construction: Mobilization (allocation) and Completion ritual (reward). Each mapped line says what this material's version cannot do. Each unmapped line names its test. Checked by `c3c_mapping_check.py`.
+- **The counts.** Rooms per problem, rule 5's gates, and the goal's modes, each printed by a script (`c3c_rooms_per_theme.py`, `c3c_rule5_members.py`, `c3c_goal_counts.py`, `c3c_hours.py`). Thirteen quotes served through `cite.py`, chosen from a seeded sample (`c3c_quote_sample.py`).
+- **Two findings.** F-016 (the mapping) and F-017 (the goal), written by `c3c_findings.py`; `findings.jsonl` now holds 25 lines and 17 findings.
+- **The seven parts** in `literature-C3.md`, with `prior.md` quoted for part 1, each absence claim marked weak, and a side taken on reward and on allocation.
+- **Nothing in the structure or the model changed.** No recut, no declaration amended, no arrow rewritten. The section 5 rule forbids revising either to fit the claim, and nothing else this leg called for it. No successor file was rewritten and the manifest stands.
+
+### Stage A1's three sentences (section 7)
+
+Read from `notes-A1.md`, for the first time since stage A1:
+
+> Most rooms will show one burst of calls, coordinates and reports in the first day or two, then a long tail of defence and of looking back, and the coordinating turns will stop near hour 73 with little after. The fights the rooms name will be with their canvas neighbours more than with distant rivals, and the deals will be about borders and space, struck in the open thread or sent off to Discord. The goal will be settled in the first hours by one person's call, a flag, a logo or a character, and changed afterwards only under pressure from a neighbour or a loss of ground, rarely by argument inside the room.
+
+**What I would have reached anyway.**
+- *The goal is settled early by one person's start or by the room's own sign.* The third sentence says so. F-017 counts it: a proposal in 166 rooms with a median first hour of 12.7, an inherited sign in 152.
+- *The goal changes under a loss of ground.* Also the third sentence. Relocating after losing the spot is in 116 rooms.
+- *The remainder lies between rooms.* The second sentence put neighbours, borders and deals at the centre. A frame about one organization was always going to leave them over.
+- *Bechky, and O'Mahony and Ferraro, differ from the model in setting.* I would have argued the setting from what I knew of the canvas.
+
+**What the material forced.**
+- *F-006's condition.* `prior.md` expected canvas-born rooms that govern. The count decided the condition: decided order gathers in those rooms (7 of 39, p 0.014 at held size), the gap lies in the smaller rooms, and it vanishes in the larger ones.
+- *Refusals carry reasons and acceptances come bare (F-014).* Nothing I wrote before the shelf touched it.
+- *The rooms judge their numbers by their readership, not by the replies (F-015).* This went against my own concept, and the concept lost its head-count claim.
+- *The goal is argued.* The design is argued in 281 rooms, against the third sentence's "rarely by argument inside the room". The argument is over the pixels, not over which goal. A1 was right about who chooses and wrong about how much the room argues.
+- *The goal is contested in the host sub,* in 152 rooms, over whether the canvas belongs there at all. No sentence foresaw the host as the place of contest.
+- *Reward.* My C1 declaration called credit pay. The frame's definition and the 9 rooms that offered a reward before the work sent me back to `prior.md`: thanks and credit are talk about the work.
+- *The goal has no home in the structure.* It is scattered across five themes. That came from doing the mapping, not from any expectation.
+
+The first sentence, about the shape of the clock, was not tested at this stage.
+
+### What the leg showed that I did not expect
+
+- **The frame would cut through my widest reward theme.** Completion ritual joins credit, which maps something to members, with celebration, which maps nothing to anyone. The rooms do both in the same turns. The frame would take the credit and leave the celebration with no problem to belong to.
+- **Division and allocation come apart.** A template divides the picture into pixels anyone can take (237 rooms). Division among members or teams appears in 5 rooms. The rooms divided the work, not the people.
+
+### What I am sure of, and what I am not
+
+- **Sure:** the mapping's counts, read by script; the reward definition's own condition, "if its constituent agents need to be motivated to contribute" (p. 165); that the structure, as it stands, carries 19 themes the claim has no place for.
+- **Not sure:** the mapping is mine alone, with no second reader. Three mappings are more mine than the material's (Decided order, Visibility returns, Attribution). The goal's modes are my placement of third-order themes by their names, and the theme a record sits under does not track its stance. The sides I took on reward and on allocation are absence claims about small rooms writing in public, and weak. The claim that the four are not sufficient to tell the forms apart waits for stage D4.
+
+### Slips, C3c
+
+- **A write before the reconciliation.** After the compaction, I wrote `mapping-C3.jsonl` before reading the head and the stage file again and logging "compacted; head reconciled". The guard then held the log until the head read registered. The file came from the plan drafted before the compaction, and it was checked afterwards against the shelf and the tier.
+- **An unchecked claim attributed to the paper.** Decided order's mapping line first called allocation by decision "the frame's classic, authority-based solution". I had not checked that the paper says so. The clause was replaced with a plain reading of the theme.
+- **A tool's output format assumed.** The mapping check first parsed `mem.py rooms --with` as JSON. Its output is plain text, paged at 80 lines. The script was fixed before any count was used.
+- **A regex took names from the wrong lines.** The goal-count script first read third-order names from anywhere in `structure-C3.md`, and printed wrong names. The counts were unaffected. It now reads names from the member lists only.
+- **One `cite.py` call failed.** `--theme` needs `--room`. Nothing was served.
+- **A placement changed between runs.** The first goal count put the proposal by one member under negotiation. I moved it apart before writing, because a proposal others join is a start. Both runs are in the read log; the findings carry the second.
+- **The interview brief first ran to 820 words** by `wc -w`, over the 800 limit. It was cut to 768.
+
+### The close-check, C3c
+
+`python3 tools/validate.py C3`, run after the notes body, the handback and the interview brief, and before the head was rewritten:
+
+```
+stage C3:
+  arrows 20 (2 with a mechanism from the literature), fourth-order themes 28, mapping lines 28, successors: model-C3.md, structure-C3.md, concept-C3.md
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh C3 --cut interview` runs the same check at the close. Its report is in the leg's closing diary line.

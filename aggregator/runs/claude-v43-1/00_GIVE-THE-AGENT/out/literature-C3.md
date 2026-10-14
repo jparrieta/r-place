@@ -160,3 +160,137 @@ Reads declined, each with its reason above: the dear enemy effect (A05), superor
 - **What differs in the output.** The concept is borrowed, not coined. Its head-count function is gone. Two arrows carry a mechanism from the literature.
 - **Why the state after the switch serves the claim better.** The concept now carries a test that could have failed. Half of it held; the half that failed is dropped, not carried.
 - **The findings line.** No earlier finding is superseded, since stage C2 wrote the concept in `concept.md` and in no finding. F-014 and F-015 are new lines with literature ids.
+
+## Leg 3 (C3c): the four universal problems, put to the structure
+
+**The claim.** Puranam, Alexy and Reitzig (2014, verified) hold that any organization must solve task division, task allocation, reward provision and information provision. Solutions to the four are "individually necessary and collectively sufficient" (p. 166), and a form of organizing is defined by its set of solutions to them (p. 166). Their definition of an organization assumes a multiagent system with "identifiable boundaries" and goals at the level of the system (pp. 163, 166).
+
+**How it was put.** The claim was put to the structure and the model as they stood at the C3b close. Nothing was revised to fit it. The one written operation is `mapping-C3.jsonl`: one line per fourth-order theme, mapped to one problem or to none, with a clause of why. Each mapped line says what this material's version of the problem cannot do. Each unmapped line names the test it meets. `c3c_mapping_check.py` checks the file against the tier and counts the rooms per problem.
+
+**The result in one line.** Nine of 28 fourth-order themes map to one of the four, and 19 do not (F-016).
+- Information provision: 4 themes, 555 of 705 rooms.
+- Reward provision: 2 themes, 543 rooms.
+- Task allocation: 2 themes, 394 rooms.
+- Task division: 1 theme, 237 rooms.
+- Any mapped theme: 675 rooms.
+
+Every count here is of rooms whose coded talk sits under a theme. It is not a count of rooms that solved a problem.
+
+**The reads of this leg.** All room reads of this leg were counts through `mem.py rooms` and `mem.py codes`, and quotes served through `cite.py`. None added or changed a theme, an arrow or an element. The goal counts answer the stage's own question (section 5) and wrote F-017 with Felin and Zenger as its literature. I did not log them as abductive, because they are the stage's design and changed nothing in the structure or the model. A reader who counts every read a paper prompted as abductive should read F-017 as one.
+
+### Two themes answer by construction
+
+Two fourth-order themes already carry one of the four's names under their declarations.
+
+- **Mobilization (T4-005), allocation.** Its declaration's `changed` clause says "no one can hold a member's minutes or allocate them". A call offers a task, and whoever answers takes it. That is allocation by self-selection (p. 171).
+  - *What this material's version cannot do.* It cannot assign a member to a task or hold one to it. The call only offers, and a room with no answers has no one to allocate.
+  - *Would the frame have cut it where I did?* Nearly. The frame takes allocation as one problem with several solutions, self-selection among them (p. 171). It would put Mobilization's calls and Decided order's assignments under one problem. My cut keeps them apart because the rooms keep them apart: calls in 345 rooms, a vote in 18, one member put in charge in 6. One member would leave: cheering the builders on (23 rooms) is an inducement, so the frame would move it to reward.
+- **Completion ritual (T4-026), reward.** Its question is "How a room pays members no one could pay". The frame defines reward provision as "mapping a set of rewards (both monetary and nonmonetary) to the agents in the organization in order to motivate the agents to cooperate" (p. 165).
+  - *What this material's version cannot do.* No one can pay, promote or withhold. Credit is given in words by peers, after the work, to anyone who claims a part, so it can induce only by expectation.
+  - *Would the frame have cut it where I did?* No. The frame would cut through it. Crediting who made the work (156 rooms), reporting one's own placing labour (60) and prizes (7) map something to agents. Celebrating the finished work (442) and announcing the mark is up (54) map nothing to anyone; they mark the work. My theme joins the two because the rooms do them in the same turns, at the same moment. The frame would take reward out and leave the celebration with no problem to belong to.
+
+### 1. What I expected
+
+`prior.md` does not name the four problems. The substitution held (`notes-C3.md`). Its kinds and its refusals still speak to each problem.
+
+- **Division.** It expected "Instructions for placing. Coordinates, templates, grids, pixel maps, overlays, outline-before-fill orders, colour guides." Found: Standardization of output, in 237 rooms; sharing coordinates, templates and how-to, in 207.
+- **Allocation.** It expected "Who does the work. One or two members carrying it; a self-appointed leader; a vote; a chief elected; members unable to bind the crowd; a representative or diplomat for the room." Found, but thin: a vote in 18 rooms, one member in charge in 6, elections in 2. The members unable to bind the crowd are the model's claim C01. The representative is the envoy, R02. Its "Calling and gathering" kind is allocation by self-selection, and that was found richly: calling members in to place, 345 rooms.
+- **Information.** It expected "Moving the talk off the thread. Discord, IRC, Telegram, Skype, a second sub, a private sub, a stream chat; plans brought back to the thread; members outside the venue missing the plan or refusing the venue." Found: moving planning into a chat in 263 rooms, announcing what the chat decided in 33, disputing the chat's authority in 9.
+- **Reward.** It refused this kind: "Reward and motive. The rooms rarely say why a member placed a pixel, beyond pride, fun, a joke or loyalty to a team or nation. A kind for what the work paid its members will be thin; thanks and credit are talk about the work, not reward." Found: a reward offered before the work is thin, as expected (9 rooms). Credit after the work is rich (156 rooms), and my C1 declaration called it pay. `prior.md` and my structure disagree. Part 4 takes a side.
+- **The goal.** It expected "Settling what to act on will often be settled by the canvas before the room spoke (the linked work placed from the first hours), by a host's terms, or by one member's start. Votes and polls will be rare and late." Found:
+  - one member's start more often than the other two: a member proposes the room's mark in 166 rooms, median first hour 12.7;
+  - the canvas before the room spoke less often: the room's mark found already placed in 43 rooms, median first hour 32.0;
+  - a host's terms: asking a host for space in 52 rooms;
+  - votes rare (18 rooms) and only partly late (median first vote at hour 42.4; 7 of 18 before hour 24).
+
+**What turned up only where the material was thin.** Division among teams (5 rooms), elections (2), prizes (7) and timing a mass placement together (2). Each is a textbook solution to one of the four, and each is a rare-tier theme.
+
+**What `prior.md` holds that the structure has no room for.** Its first refusal: "Deliberation off the record ... the material will give only 'a decision returned from a venue'." The structure holds the venue and the decision returned. It has no theme for how a venue divided or allocated the work.
+
+### 2. What in the structure speaks to the claim
+
+The next table lists the nine mapped fourth-order themes. For each it gives the problem, the rooms carrying any member, the largest member, rule 5's gate for its members, and who put it there. Every member's gate is `all` (every room had the opportunity), except Attribution's, whose gate is `work` (the room had a work of its own). The gates and counts are read from `structure-C3.md` by `c3c_rule5_members.py`.
+
+| Fourth-order theme | Problem | Rooms of 705 | Largest member (rooms) | Gate | Put there by |
+|---|---|---|---|---|---|
+| Standardization of output (T4-008) | division | 237 | sharing coordinates, templates and how-to (207) | all | the material: a template is the frame's own kind of division artifact (p. 165) |
+| Mobilization (T4-005) | allocation | 370 | calling members in to place (345) | all | its declaration, by construction |
+| Decided order (T4-011) | allocation | 46 | putting decisions to a vote (18) | all | me: the theme holds the rooms' rare decided elements, and allocation is one of them beside oaths and excluding vandals |
+| Completion ritual (T4-026) | reward | 522 | celebrating the finished work (442) | all | its declaration, by construction, against `prior.md` |
+| Visibility returns (T4-025) | reward | 117 | recruiting canvas visitors (76) | all | me: the return goes to the room, not to a member |
+| Sensemaking (T4-003) | information | 283 | explaining what the canvas is (232) | all | the material |
+| Stigmergy (T4-007) | information | 348 | building and reporting the mark (237) | all | the material; the frame names the product as "its own representation" (p. 172) |
+| Backstage decision-making (T4-010) | information | 276 | moving planning into a chat (263) | all | the material |
+| Attribution (T4-019) | information | 155 | tracing who changed the work (119) | work | me: it tells the room about a change, after the work exists |
+
+Three of the nine mappings are mine more than the material's: Decided order, Visibility returns and Attribution. Two rest on declarations I wrote at C1: Mobilization and Completion ritual.
+
+### 3. What the structure carries that the claim has no place for
+
+The remainder is 19 fourth-order themes. Each was tested as a different mechanism, a renamed instance, a change of level or an evidence gap. The test is in each line of `mapping-C3.jsonl`.
+
+- **A change of level: between rooms (7 themes).** Territoriality, Live and let live, Negotiated order, Reciprocity, Meta-organization, Repertoire of contention, Rivalry. The frame's organization has boundaries; these are relations across them. Negotiated order alone is in 467 rooms. Reciprocity is also a renamed instance one level up: rooms ask rooms for help and thank allies, with rooms in the place of members.
+  - "Sure thing, but please take it like one pixel away from the army bomb so that the whole space looks better ;-;" [bangtan/c0085, h71.72]
+  - "We are trying to create a heart with both flags in it" [AmericanFlaginPlace/c0396, h62.03]
+- **The frame's premises, made on the clock (8 themes).** The frame assumes the boundary and the goal. Six themes make the boundary and the membership: Keying, Boundary work, Frame bridging, Flagging the nation, Neo-tribes, Symbolic boundaries. A host sub decides during the event whether the canvas work is its own: "Aaa fue todo en el mismo post? Yo pense q iban a ser varios post, igual con el cancer de los píxeles ni abri el sub jaja" [argentina/c0525, h81.31]. My translation: "Oh, it was all in the same post? I thought there'd be several posts; anyway, with the pixel cancer I didn't even open the sub, haha." Two themes make, size or drop the goal: Collective representation and Collective efficacy (part 5).
+  - "Okay, I'll send out the message! Good effort anyway." [raocow/c0027, h58.42]
+  - "Let it happen" [rutgers/c0194, h55.02]
+- **A different mechanism (1 theme).** Workarounds multiplies hands under the rate limit: "Modified script to fix Buzz in /r/place" [gatech/c0110, h61.56]. This was the closest call. A script is a machine given a task, which is allocation. But what holds the theme together is a change in the technology of production, which the frame holds fixed. I kept it unmapped.
+- **The work itself (1 theme).** Repair work is in 526 rooms, the widest theme in the tier. It is the task done again, not a solution to organizing it. One member, covering the night shift (24 rooms), allocates by who is awake. Repair and information meet in it: "Saw someone place a green dot on one of the spiders legs, didn't know it was supposed to be going there so I immediately covered it up again." [australia/c0327, h67.83]
+- **After the clock (2 themes).** Collective memory and Transition. They hold what the organization leaves and what outlives it, a change of level in time.
+- **An evidence gap.** None of the 19 is unmapped for want of evidence. The gap is elsewhere: how a chat divided and allocated the work is off the record. "consensus on discord is we needed one spot and to have a mod sticky if it was going to work" [indieheads/c0144, h32.11]
+
+**Why it extends the framework.** There are two extensions, each specific enough to be wrong.
+- The first: an organization with no given goal and no given boundary must make both while it works. Eight of the 19 themes do that. The frame starts after they are made.
+- The second: an organization on a shared, finite surface must handle its neighbours. Seven of the 19 themes do that. The frame describes one organization at a time.
+
+`prior.md`'s forms already differed "in where the work was coordinated and on whose terms the room held its space". The first half is the four problems. The second half lies between rooms.
+
+### 4. Which of the four the structure reaches richly, thinly, or not at all
+
+- **Information provision: richly.** Four themes, 555 rooms. The half-built picture tells the next placer what is missing, and chats enrich the channel. The thin part is what was said in the chats. That limit is in the material.
+- **Reward provision: richly as credit after the work, thinly as an inducement before it.** Credit is in 156 rooms and celebration in 442. A reward offered before the work is in 9: "As an insentive, for every person who joins in and comments below I will post 5 pig gifs! No limit!" [Pigifs/c0036, h48.94]. I take a side: these rooms did not provide rewards in the frame's sense. To induce, an offered reward must be announced where the call is, and calls are public. So an offered reward is the one solution the instrument should see if it was there. Credit after the work maps words to members, but nothing in the record shows that it moved anyone to place. On this point `prior.md` was right and my C1 declaration overreached. The absence claim is weak: it is about small rooms writing in public.
+- **Task allocation: richly as self-selection, thinly as assignment.** Calls are in 345 rooms. Decided order is in 46: a vote in 18, one member in charge in 6, division among teams in 5. The night shift is in 24. The limit is partly in the material: an assignment made in a chat to the chat's members never reaches the thread, and chats posted their decisions back in only 33 rooms. I take a side all the same: most rooms did not assign. No one could hold a member to a task, and the cheapest answer to a call was one line and a pixel. Rooms with large chats are the likeliest exceptions. This absence claim is weak.
+- **Task division: moderately, and only as an artifact.** A template or coordinates appear in 237 rooms. Division among members or teams appears in 5. The rooms divided the picture into pixels anyone could take. They did not divide the people. So division by artifact and allocation by self-selection come apart. That is the open-source pairing the frame describes (pp. 173-174), without the founder or core who lays the architecture out.
+- **Not at all: none.** All four appear in public talk.
+
+**Where each limit lies.** For allocation and information, in the material: chats are off the record. For reward, in the rooms, as I read it above. In the coders' selection, any assignment or offer made in a thread would have been coded, since both move the work. In my own pruning: prize-giving sits in Completion ritual, one member of eight, and two rare-tier themes have no rooms in the store (recruiting quietly to avoid attackers; moderators disowning the canvas work).
+
+Stage E1 inherits this paragraph. These rooms were seen to solve information and to allocate by self-selection. They were seen rarely to assign, and rarely to offer a reward before the work. What a chat decided, they were not seen at all.
+
+### 5. The goal
+
+**Where the making of a goal sits.**
+- In the structure, it sits in Collective representation (T4-006, 483 rooms), outside the four problems. Its contest sits in Boundary work. Its sizing and abandonment sit in Collective efficacy. Its change after a loss sits in Territoriality (relocating). A goal set after the clock sits in Transition.
+- In the model, it sits in the starter (R01) and the room settling its mark (P02). A start gathers calls (A02), an argued design is settled by a template (A11, theorised), and a room that judges it has too few hands moves (A10).
+
+No theme or dimension gathers the goal as such. That is a finding about the structure: the goal is scattered across five themes, because it was never a code's object.
+
+**Whether the rooms inherited, negotiated, contested or changed it** (F-017; modes placed by me from the third-order themes' names, counted by `c3c_goal_counts.py`):
+- **Inherited, 152 rooms.** The homeland's flag in 96, national emblems in 39, the room's mark found already placed in 43, a sign others began adopted in 6. "I saw one in the top right that said /r/anime. It was rather small, but it was there." [anime/c0177, h69.66]
+- **Proposed by one member, 166 rooms.** I kept this apart from negotiation: a proposal others join is a start. 65 of these rooms also argue the design.
+- **Negotiated, 289 rooms.** The design argued in 281, a vote in 18. "Stop adding periods, the template is wrong. I used a screenshot post-summoning release to make it." [2007scape/c0230, h17.72]
+- **Contested, 152 rooms.** Mostly over whether the canvas belongs in the host sub at all: arguing the canvas's worth in 76, objecting to the canvas flood in 72.
+- **Changed, 190 rooms.** Relocating after losing the spot in 116, upkeep chosen over expansion in 43, effort concentrated on fewer pieces in 29, quitting under strain in 20. "I have dishonored my family by joining the purples" [GreenCorner/c0107, h25.70]
+
+The modes overlap: 49 rooms both inherit and negotiate, and 93 both negotiate and change. 515 rooms carry at least one of the four modes.
+
+**Against Felin and Zenger.** Their chosen problem rests on an actor's contrarian theory (2017, p. 258). Here the problem was mostly inherited, and the solution negotiated. The room already had its sign. A member proposed which picture of it to make, and the room argued over the pixels. This bounds no claim of theirs (C3a: about different things). It says what the chosen problem looks like where no one can choose for others.
+
+**What the setting did to the four problems.** The goal is a picture, and a picture can be stated exactly. So one artifact can state the goal and divide it: the template (A11, theorised). The frame says division knowledge "is more likely to exist for well-understood goals" (p. 165), and a picture is as well understood as a goal can be. The half-built picture informs, and members join a sign they already share. I tested the first claim at room level and it is weak. An argued design goes with shared coordinates in 94 of 281 rooms, against 113 of the other 424 (not held to size). So I do not claim that settling the goal divides the work in most rooms.
+
+### 6. Whether the material supports the claim, contradicts it, or is silent
+
+- **It supports a weak form.** Each of the four appears as public talk, and 675 of 705 rooms carry at least one mapped theme.
+- **It is silent on necessity.** The claim holds "whether or not anyone says so". The 30 rooms with no mapped theme say nothing either way, and neither does any room's silence on a problem. Every such absence claim is weak.
+- **On reward, the frame cannot lose here.** It asks for inducements "extrinsic or intrinsic", and only "if its constituent agents need to be motivated to contribute" (p. 165). Pride and fun count as intrinsic, and a pixel costs a click. The claim holds trivially, so the material cannot test it. Taken as rewards mapped to agents before the work, the material leans against it in all but 9 rooms (weak).
+- **On sufficiency, the material leans against it, as I read it.** The 19 remainder themes cover talk in 694 rooms. Telling the canvas's forms apart needs the order between rooms and the making of boundaries and goals, as well as the four. Stage D4 can test this when forms are built from adaptation keys: do the forms differ on the four, or on the remainder? Until then it is my reading.
+
+### 7. Whether the claim is answerable with this material
+
+In part.
+- **Answerable:** which solutions to each problem appear in public, how often, in what order, and alongside what.
+- **Not answerable:** necessity. The evidence is talk, there is no denominator of groups (contract section 5), and a group that solved a problem in silence is invisible.
+- **Answerable later, not here:** sufficiency for telling forms apart, at stage D4.
+
+For the claim as stated, a claim about necessity, the structure does not speak to it.
