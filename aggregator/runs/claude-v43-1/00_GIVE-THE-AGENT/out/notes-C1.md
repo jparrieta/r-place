@@ -891,3 +891,130 @@ stage C1:
 
 0 errors (0 distinct shapes), 0 warnings
 ```
+
+## Pass 10 (C1a-10)
+
+### Opening
+
+- The views after pass 9's close are unchanged, because pass 9 moved nothing: 10,593 placements against 13,365 on the settled line, and 194 themes placed. `out/fourth/` was empty.
+
+### The fourth-order themes (section 8)
+
+I read the third-order tier whole, by family, with each theme's placements, rooms and the themes most often placed beside it (`c1_t4_table.py`, written to `out/_analysis/c1_t4_table-C1a-10.txt`). I then wrote a story for each bundle before cutting it. The specs are in `out/_analysis/c1_t4_specs.json`. `c1_t4_cut.py` cut each one in turn. It appended the line to `fourth/fourth.jsonl` and the event to `tier_history.jsonl`, logged the move through `mem.py log --kind move`, and took the snap: C1-move-relating-2 to C1-move-merging-29. `fourth/fourth.md` was written from the ledger by `c1_fourth_md.py`.
+
+- **Count.** 28 fourth-order themes over 195 of the 197 third-order themes. No number was set. The material carries that many mechanisms, and the diary entry before the first cut names them.
+- **Declared.** 13 borrowed, 14 adapted, 1 coined. Every borrowed or adapted source is recalled, since only the method shelf is held at C1. Stage C3 verifies or withdraws each.
+- **Moves.** 22 merging (the members are kinds of one practice) and 6 relating (the members are held together by a relationship among them, such as a cycle of restraint and defection).
+- **Glosses.** Each gloss is a participant's phrase found again with `cite.py --grep`, with its concept.
+- **Check.** `c1_check_fourth_now.py` runs the close-check's last-pass functions on the fourth-order themes and the form pass now: 0 errors, 0 warnings.
+
+The next table lists the fourth-order themes with their declaration and the number of third-order themes each holds. `fourth/fourth.md` holds the prose, the sources and the members.
+
+| id | name | declared | third-order themes |
+|---|---|---|---|
+| T4-001 | Keying | adapted | 10 |
+| T4-002 | Boundary work | adapted | 8 |
+| T4-003 | Sensemaking | borrowed | 3 |
+| T4-004 | Frame bridging | adapted | 4 |
+| T4-005 | Mobilization | adapted | 5 |
+| T4-006 | Collective representation | adapted | 10 |
+| T4-007 | Stigmergy | borrowed | 3 |
+| T4-008 | Standardization of output | borrowed | 5 |
+| T4-009 | Workarounds | adapted | 8 |
+| T4-010 | Backstage decision-making | adapted | 7 |
+| T4-011 | Decided order | borrowed | 8 |
+| T4-012 | Collective efficacy | borrowed | 5 |
+| T4-013 | Repair work | adapted | 6 |
+| T4-014 | Territoriality | borrowed | 7 |
+| T4-015 | Live and let live | borrowed | 11 |
+| T4-016 | Negotiated order | borrowed | 11 |
+| T4-017 | Reciprocity | borrowed | 7 |
+| T4-018 | Meta-organization | borrowed | 9 |
+| T4-019 | Attribution | adapted | 4 |
+| T4-020 | Repertoire of contention | adapted | 7 |
+| T4-021 | Rivalry | borrowed | 5 |
+| T4-022 | Flagging the nation | adapted | 12 |
+| T4-023 | Neo-tribes | borrowed | 6 |
+| T4-024 | Symbolic boundaries | adapted | 5 |
+| T4-025 | Visibility returns | coined | 9 |
+| T4-026 | Completion ritual | adapted | 8 |
+| T4-027 | Collective memory | borrowed | 6 |
+| T4-028 | Transition | adapted | 6 |
+
+**Partitions tried and set aside.**
+1. The 21 families as fourth-order themes. They are topic headings in the material's words, and several hold distinct mechanisms: G14 mixes territorial claims, help and host relations; G21 mixes ritual, memory and transition.
+2. Puranam, Alexy and Reitzig's four universal problems as the cut. About 40 themes speak to them. Inter-room order, identity and play would be left unpicked.
+3. One construct for all order between rooms. Tacit restraint, explicit agreement and the exchange of help are different mechanisms, and the pair test called T3-010's pairs with T3-149 and T3-151 joints.
+4. Stigmergy absorbing the emblem themes. Choosing what a mark says is a decision about meaning; stigmergy is coordination through the trace.
+
+**Third-order themes no fourth-order theme picks up.** They are listed, not gathered.
+- T3-017 carrying on ordinary sub talk: the sub's ordinary business during the canvas week. It is the ground that boundary work protects, not an act of organizing the work.
+- T3-133 recovering a hacked sub (rare): one room, one event, unrelated to the canvas work.
+
+### Placements the partition forced
+
+A partition puts each third-order theme in one fourth-order theme. These themes could sit in two, and the next list says where each went. They are stage C2's first candidates for recutting.
+- T3-076 reining in the room's attackers: Live and let live, not Negotiated order or Decided order.
+- T3-061 pushing into a neighbour's space: Repertoire of contention, not Territoriality.
+- T3-169 signing the sub's name: Collective representation, not Territoriality, where Brown, Lawrence and Robinson would call it identity marking.
+- T3-188 disowning placers outside the plan: Attribution, not Negotiated order.
+- T3-058 blaming attackers after the close: Rivalry, not Attribution.
+- T3-159 rewarding helpers with prizes: Completion ritual, not Mobilization.
+- T3-090 opening a canvas sub: Boundary work, not Backstage decision-making.
+- T3-153 meeting other rooms in chat: Meta-organization, not Backstage decision-making.
+- T3-172 and T3-173, oaths and elections in canvas-born factions: Decided order, not Neo-tribes.
+- T3-081 casting fights as national history and T3-130 reading national politics in pixels: Flagging the nation, not Frame bridging.
+- T3-141 covering the night shift: Repair work. FP-03 finds the same talk of sleep and time zones under 64 themes.
+
+### The stopping criterion at pass 10
+
+Pass 10 amended no gate and moved no placement. The criterion holds, as at passes 7 to 9.
+
+### J's guard, counted (`out/_analysis/c1_guard_C1a-10.json`)
+
+- 0 moves in this leg.
+
+### What I doubt (pass 10)
+
+- **Recalled sources.** I gave authors, years and titles from memory. Some details may be wrong, and stage C3 verifies or withdraws each.
+- **Thin constructs.** Decided order reaches 48 lines in 46 rooms, Neo-tribes 56 in 35, and Symbolic boundaries 54 in 49. A construct is a kind, not a share, but stage C2 should test whether each holds or merges.
+- **Stigmergy rests on two large themes.** Building and extending could be read as plain production. The construct claims coordination through the trace, and its disconfirmer says how that could fail.
+- **The forced placements above.** Each was a judgment between two defensible homes.
+- **Prose that runs through the acts.** The stage asks for what holds the members together without listing them. Each prose names the binding first, but some still run through the acts after it.
+- **No second reader.** The bundles are mine alone.
+
+### Slips (pass 10)
+
+- `c1_t4_table.py` first read `families.jsonl` by a key the file does not have, so the family names came out blank. I fixed it before use.
+- A table written to the system's temporary folder could not be read from outside the run folder. I wrote it into `out/_analysis/` instead.
+- `c1_t4_cut.py` printed both long JSON lines on the first cut. I made it print them on dry runs only.
+
+### Next pass
+
+1. `scheme_v2.md`: the whole scheme with every field, the gate block with the reading rules, every change declared with what changed, why and which placements it moved, and the watch items (osugame t04; FP-04's caution on the named words).
+2. `handback-C1.md`: `c1_unapplied.jsonl`, `c1_pair_carried_decisions.json`, the four kinds the scheme lacks, FP-04's caution, the recalled sources for stage C3 and the forced placements above.
+3. The interview brief, and `done.sh C1 --cut interview`.
+
+### validate.py C1 at pass 10's close (before `done.sh`)
+
+```
+stage C1:
+  scheme_v2: 197 themes (15 rare), frozen 197, retired 0, new 0
+  assignments_final 7844 lines = assignment_items_expected
+  revised lines 2117 of 7844 (moved placements 2094)
+  empties 151 of 7844
+  a pass closed; the full set (scheme v2, assignments, the fourth-order themes, the form pass) is owed at the last pass, with the handback
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+The last-pass checks on the fourth-order themes and the form pass, run now with `c1_check_fourth_now.py`:
+
+```
+  scheme_v2: 197 themes (15 rare), frozen 197, retired 0, new 0
+  fourth-order themes 28 over 195 third-order themes, 2 unpicked
+  form pass: 8 FP ids
+errors 0
+warnings 0
+```

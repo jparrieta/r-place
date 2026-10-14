@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at C1a-09, 2026-10-14 (UTC). Stage B is closed and frozen. Stage C1 (structuring) has closed nine passes. Pass 9 read the views and made the form pass. It amended no gate and moved no placement.
+Under 3,000 words, rewritten whole at every close. Last written at C1a-10, 2026-10-14 (UTC). Stage B is closed and frozen. Stage C1 (structuring) has closed ten passes. Pass 10 cut 28 fourth-order themes. It amended no gate and moved no placement.
 
 ## The method question, in one sentence
 
@@ -10,11 +10,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The settled line is mostly right on the primary act and drops second acts. In the revision rate's 200 items, my re-decision agreed with the current line's primary in 0.845; in 29 (14.5%) I would add a second act of three concepts or more, the lean J ruled to keep. Pass 7 found a seam in all 76 frequent pairs (75 joints, 1 unresolved, no lump). Pass 8 left 151 lines (1.9%) empty and found four kinds of material the scheme lacks. Pass 9's form pass found turn forms the scheme names only by topic: a one-line reply sits on the theme of the call it answers, and the vocabulary of state and war runs under 145 themes in 571 rooms. The room that best supports the account is naruto t04: one theme for help that arrives from other rooms. The room that most threatens it is greenlattice t03: more than ten concepts ask for peace or a pact, and the line places T3-010 alone with T3-149 under `also_present`, a bag J ruled must not be cut.
+The settled line is mostly right on the primary act and drops second acts. In the revision rate's 200 items, my re-decision agreed with the current line's primary in 0.845; in 29 (14.5%) I would add a second act of three concepts or more, the lean J ruled to keep. Pass 7 found a seam in all 76 frequent pairs (75 joints, 1 unresolved, no lump). Pass 8 left 151 lines (1.9%) empty and found four kinds of material the scheme lacks. Pass 9's form pass found turn forms the scheme names only by topic. Pass 10 cut 28 fourth-order themes: decided order is rare (46 rooms), and repair and the completion ritual reach the most rooms (526 and 522). The room that best supports the account is naruto t04: one theme for help that arrives from other rooms. The room that most threatens it is greenlattice t03: more than ten concepts ask for peace or a pact, and the line places T3-010 alone with T3-149 under `also_present`, a bag J ruled must not be cut.
 
 ## Where the run stands
 
-Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed nine passes. `scheme_v2.jsonl` is rebuilt by `out/_analysis/c1_scheme_v2_sync.py` from `scheme_final.jsonl`, the 35 lines of `gate_history.jsonl` and `out/_analysis/c1_tier_ops.jsonl`. It differs from the frozen scheme in 19 themes, listed by `out/_analysis/c1_scheme_diff_fields.py`; T3-140 moved to rare (15 rare in all).
+Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed ten passes. `scheme_v2.jsonl` is rebuilt by `out/_analysis/c1_scheme_v2_sync.py` from `scheme_final.jsonl`, the 35 lines of `gate_history.jsonl` and `out/_analysis/c1_tier_ops.jsonl`. It differs from the frozen scheme in 19 themes, listed by `out/_analysis/c1_scheme_diff_fields.py`; T3-140 moved to rare (15 rare in all).
 
 ## Stage C1
 
@@ -29,7 +29,7 @@ Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed nine passes. `scheme_
 
 **QC1-003 (the handler's ruling under J's delegation; carry it).** Five revision-rate errors no C1 verb can apply stay as found; no verb is opened in C1, since a new verb changes the instrument and that is J's call. They are in `out/_analysis/c1_unapplied.jsonl`: harrypotter t11 and tampabaylightning t08 to be emptied; radiohead t04, heroesofthestorm t11 and stevenuniverse t02, bags whose placed theme and `also_present` should swap. List them in `notes-C1.md` and `handback-C1.md` from that file; all 34 errors count in the rate. If J opens a verb, the file is what it applies.
 
-**The stopping criterion** (`notes-C1.md`). I stop recutting when every source line has a recorded decision (revise, leave, or carry with its reason) and the last pass amended no gate whose rechecks moved more than one in ten. A later cut is preferred only if it decides a recorded source without making two gates contradict each other, or moves a boundary that split readers at B2 and again at B3 or B4 toward a merge or the rare tier rather than a third sentence. **At pass 9:** it holds; passes 7 to 9 amended no gate. Recutting has stopped.
+**The stopping criterion** (`notes-C1.md`). I stop recutting when every source line has a recorded decision (revise, leave, or carry with its reason) and the last pass amended no gate whose rechecks moved more than one in ten. A later cut is preferred only if it decides a recorded source without making two gates contradict each other, or moves a boundary that split readers at B2 and again at B3 or B4 toward a merge or the rare tier rather than a third sentence. **At pass 10:** it holds; passes 7 to 10 amended no gate. Recutting has stopped.
 
 **Reading rules (`notes-C1.md`), all for `scheme_v2.md`'s gate block.**
 - **The visitor rule.** A theme names an act in the record of the room whose threads hold the words. Another room's act spoken there is placed by what it is for this room.
@@ -41,16 +41,17 @@ Stages A1, B1, B2, B3 and B4 are done. Stage C1 has closed nine passes. `scheme_
 - **Help between rooms is read from either room's record** (gate:5 for T3-084, gate:27 for T3-011).
 - **Credit and own part (gates 30 to 32).** A member's own part, during the work or after, is T3-003; T3-043 is credit to others and disputes over who made it. A plural claim of who made it stays T3-043. A mixed concept goes by the act its label leads with.
 
-**Passes 1 to 8, in short.**
+**Passes 1 to 9, in short.**
 - Pass 1: class 2 applied; 30 re-reads. Pass 2: gates 1 to 7 (April Fools; the visitor rule). Pass 3: gates 8 to 26 (who calls; J's floor; the named words). Pass 4: the held lines, gate:27, the lone-B1 floor revised (it applies only where the readers' theme takes concepts), T3-140 to rare.
 - Pass 5: the revision rate (`c1_revision/`): 73 of 200 placed differently from the current line (36.5%), primary agreement 0.845; 34 errors (29 moved, 5 in `c1_unapplied.jsonl`). 28 source lines decided (`c1_source_lines_pass5.json`).
 - Pass 6: gates 28 to 35; gate:30 (T3-043's gloss) escalated to all 183 T3-043 placements, 23 moved. The pair test computed.
 - Pass 7: the 76 pairs called (`c1_pair_calls-*.json`): 75 joints, 1 unresolved (T3-010 | T3-149), 0 lumps. 20 placements against a written field carried.
 - Pass 8: 167 empties re-read, 16 placed, 151 empty in 18 kinds. B1's prediction of confused pairs held at the top (13 of 19 in the top 20). The 20 carried placements kept as found.
+- Pass 9: the form pass (`form_pass-C1.md`): three sweeps on quoted words, eight findings, never counted and never clustered.
 
-**Pass 9 (C1a-09).**
-- **The views:** 10,593 placements against 13,365 on the settled line; 194 themes placed.
-- **The form pass** (`form_pass-C1.md`; `c1_form_pass.py`; `c1_form_patterns.json`): three sweeps over 115,388 concepts, counted with `mem.py codes --grep` on the quoted words. Eight findings under the form-pass ids, never counted and never clustered. The cheapest act is the one-line reply (590 concepts in 337 rooms). The vocabulary of state and war covers 571 rooms. The void is named in 302 rooms, and nobody asks what it is. What the pass could not reach is in both files.
+**Pass 10 (C1a-10).**
+- **The views:** unchanged since pass 8 (10,593 placements; 194 themes placed).
+- **The fourth-order themes** (`fourth/fourth.jsonl`, `fourth/fourth.md`; each cut by `c1_t4_cut.py` from `c1_t4_specs.json`, logged and snapped): 28 over 195 of 197 third-order themes; 13 borrowed, 14 adapted, 1 coined, every source recalled for stage C3; 22 merging, 6 relating. Unpicked: T3-017 (ordinary sub talk) and T3-133 (one hacked sub). Four other partitions were set aside; 13 forced placements are listed for stage C2 (`notes-C1.md`). The last-pass checks run now (`c1_check_fourth_now.py`): 0 errors, 0 warnings.
 - **The guard:** 0 moves.
 
 ## J's rulings on how a ruling is made (13 October; carry them)
@@ -104,14 +105,14 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 - **From B1.** The ruling on testing G13, G14 and G15 as one index page. Seven pairs of lines telling one event; the cfb and finland records; the 76 themes holding both T3-005 and T3-021 acts. The second-order theme the scheme handles worst: argentina t06.
 - **The bag count.** J counts 841 B1 bags; an older head said 846. Not reconciled.
-- **For the handback and `scheme_v2.md`'s watch items.** `c1_unapplied.jsonl` (5); `c1_pair_carried_decisions.json` (20 kept as found); the four kinds the scheme lacks; osugame t04 (removals pointing to a canvas sub meet T3-063's gate:23 and T3-090's must_show); the form pass's caution on the named words of T3-010 | T3-149: war words are the corpus's common speech, even for builders.
-- **My doubts.** Where words carry no speaker's sub I read them as the room's own. T3-084 and T3-011 hold both sides of a request or of help. I reversed hearthstone t08's unanimous line under my own gate:1. The pair test finds a lump only where a sample has no pure concept. The 16 empties placed rest on one or two concepts each; the empties' kinds are mine alone. The form pass's word lists are mine, and "answered" rests on the coded record.
+- **For the handback and `scheme_v2.md`'s watch items.** `c1_unapplied.jsonl` (5); `c1_pair_carried_decisions.json` (20 kept as found); the four kinds the scheme lacks; osugame t04 (removals pointing to a canvas sub meet T3-063's gate:23 and T3-090's must_show); the form pass's caution on the named words of T3-010 | T3-149 (war words are common speech, even for builders); the 27 recalled sources for stage C3; the 13 forced placements.
+- **My doubts.** Where words carry no speaker's sub I read them as the room's own. T3-084 and T3-011 hold both sides of a request or of help. I reversed hearthstone t08's unanimous line under my own gate:1. The pair test finds a lump only where a sample has no pure concept. The empties' kinds, the form pass's word lists and the fourth-order bundles are mine alone; Decided order, Neo-tribes and Symbolic boundaries are thin, and Stigmergy rests on two large themes.
 
 ## Ledgers at this close
 
 - B1 to B4, unchanged since B4's close: `confusions.md` (19 pairs), `scheme_final.jsonl` (197), `multiplacement_log.jsonl` (3,171), `b3_classes.jsonl` (7,844), `coder_conflicts.jsonl` (72), `disagreements.jsonl` (3,288), `assign_final.jsonl` (7,844), `reassign.jsonl` (999), `reassign-openai-astra.jsonl` (1,000), with the stage notes, transmission files and `handback-B4.md`.
-- C1: `assignments_final.jsonl` (7,844, 2,117 revised, 151 empty), `assign_revisions_only.jsonl` (2,117), `assignments_final.count.txt`; `scheme_v2.jsonl` (197, 15 rare); `gate_history.jsonl` (35); `rechecks-C1.jsonl` (1,297); `tier_history.jsonl` (393) with `c1_tier_ops.jsonl`; `gate_checks.jsonl` (737).
-- C1, other files: `form_pass-C1.md` with its helper and patterns (pass 9); the pass 8 files (`c1_empties_*`, `c1_arguables_list.md`, `c1_pair_carried_decisions.json`); the guard files; `notes-C1.md` and the other `out/_analysis/c1_*` files. `validate.py C1`: 0 errors, 0 warnings.
+- C1: `assignments_final.jsonl` (7,844, 2,117 revised, 151 empty), `assign_revisions_only.jsonl` (2,117), `assignments_final.count.txt`; `scheme_v2.jsonl` (197, 15 rare); `gate_history.jsonl` (35); `rechecks-C1.jsonl` (1,297); `tier_history.jsonl` (421: 393 before, 28 fourth-order cuts) with `c1_tier_ops.jsonl`; `gate_checks.jsonl` (737); `fourth/fourth.jsonl` (28) and `fourth/fourth.md`; `form_pass-C1.md`.
+- C1, other files: `notes-C1.md` and the `out/_analysis/c1_*` files. `validate.py C1`: 0 errors, 0 warnings.
 - Asks QB2-001 to QB2-014, QB3-001 to QB3-005, QB4-001 to QB4-003 and QC1-001 to QC1-003 are answered.
 
 ## Rules kept
@@ -121,13 +122,11 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 - A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`. Read an answer with `mem.py asks <id>`.
 - Never put a placeholder or a no-op in a command or a log line. Never put an Edit or Write and the read, dry run or validator run that checks it in one turn. Count the head's words before the closing line.
 - Never write an id-like token the run does not define in the head, such as a D or a P followed by digits, or a form-pass id: `done.sh` reads it as an unresolved link.
-- The permission check refuses: shell variables set and expanded in a command; shell loops and words beginning "for_"; shell functions, brace groups and heredocs (an empty one included); awk with system() or `$` fields; env-var prefixes; cat or jq on `out/diary/`; `cut -c` anywhere in a command that also runs `mem.py`, `cite.py` or a helper (use `--width`, or `grep -o` with bounded context); `head -n -N`. Write a script file in `out/_analysis/` instead. `.git` is read-denied, and so are reads outside the run folder.
+- The permission check refuses: shell variables set and expanded in a command; shell loops and words beginning "for_" (an inline Python line starting with "for" included); shell functions, brace groups and heredocs (an empty one included); awk with system() or `$` fields; env-var prefixes; cat or jq on `out/diary/`; `cut -c` anywhere in a command that also runs `mem.py`, `cite.py` or a helper (use `--width`, or `grep -o` with bounded context); `head -n -N`. Write a script file in `out/_analysis/` instead. `.git` is read-denied, and so are reads outside the run folder, the system's temporary folder included.
 - `mem.py` pages long output (`--offset`). A Read above about 25,000 tokens is refused; page by about 330 lines. Set `timeout` up to 600000 for long writes.
 - After a compaction the guard requires the head and stage file read again, after the compaction notice, and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other step.
-- In C1: amend a discriminator with `c1_gate_disc.py`, other fields with `mem.py gate`; then `c1_scheme_v2_sync.py --write`, `c1_owed_review.py`, `c1_decisions_common.py` and `c1_recheck_apply.py` (dry run first), `c1_reassign_from_rechecks.py`, `c1_pairs_dump.py` and `c1_confirm_pairs.py`. Reviewed lists go through `c1_reassign_list.py` (`mem.py reassign` cannot empty a line or write `also_present`). Every move of a theme is logged `--kind move` and snapped. Fields: `c1_theme_fields.py`; gates: `c1_gate_list.py`.
+- In C1: amend a discriminator with `c1_gate_disc.py`, other fields with `mem.py gate`; then `c1_scheme_v2_sync.py --write`, `c1_owed_review.py`, `c1_decisions_common.py` and `c1_recheck_apply.py` (dry run first), `c1_reassign_from_rechecks.py`, `c1_pairs_dump.py` and `c1_confirm_pairs.py`. Reviewed lists go through `c1_reassign_list.py`. Every move of a theme is logged `--kind move` and snapped. Fields: `c1_theme_fields.py`; gates: `c1_gate_list.py`. A fourth-order theme is changed only through a new spec and `c1_t4_cut.py`, never by editing `fourth/fourth.jsonl`.
 
 ## The next comparison
 
-Pass 10 (C1a-10) first reads the views after pass 9's close. Then it cuts the fourth-order themes (section 8): a story for each bundle, declared borrowed, adapted or coined, with a source, a disconfirmer, a gloss and prose; each cut a `tier_history` line, a move line and a snap; `fourth/fourth.jsonl` and `fourth.md`; unpicked third-order themes listed. The fourth-order themes partition the third-order tier; the form-pass findings are a tier of their own.
-
-Then `scheme_v2.md` (the whole scheme, the gate block with the reading rules and the watch items), `handback-C1.md` and the interview (`--cut interview`).
+Pass 11 (C1a-11) is C1's last pass. It reads the views after pass 10's close, then writes `scheme_v2.md` (every theme with every field, the gate block with the reading rules, each change with what, why and which placements it moved, the watch items), `handback-C1.md` and the interview brief `out/interview/C1a-11.md` (under 800 words), and closes with `done.sh C1 --cut interview` and the stage's final message.

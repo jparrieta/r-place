@@ -536,3 +536,9 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Guard: 16 moves, 0 to a theme neither readers nor B1 placed.
 - Tokens (dedup): 93 calls, 49.5M cache read, 0.16M output.
 - C1a-09 run: form pass, fourth-order themes, scheme_v2.md, handback, interview cut expected.
+
+## 2026-10-14 02:20 Berlin, C1a-09 closed, C1a-10 started
+- C1a-09 closed ~00:13Z, checkpoint 30ec129b3049a255, validate 0 errors 0 warnings. No moves.
+- Form pass written to form_pass-C1.md: eight findings FP-01 to FP-08 (one-line reply cheapest act; edited post as running record; timing by who is awake; state-and-war vocabulary as common speech, 4,759 concepts in 571 rooms; post "we", reply "I"; canvas collectives named as known actors; submission questions answered least; who leads neither asked nor named). Nine limits listed. FP-04 casts doubt on the T3-010/T3-149 named-words gate; carried to scheme_v2.md watch items and handback.
+- Tokens (dedup): 65 calls, 10.6M cache read, 0.11M output.
+- C1a-10 run: fourth-order themes, scheme_v2.md, handback-C1.md, then the interview cut.

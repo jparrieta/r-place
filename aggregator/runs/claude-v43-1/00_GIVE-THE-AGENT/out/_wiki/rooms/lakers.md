@@ -5,31 +5,31 @@
 - t01 calling out a jersey bet and arguing whether it was fair -> T3-017 carrying on ordinary sub talk ->  -> 
 - t02 laughing at the replies and at spending life making them -> T3-017 carrying on ordinary sub talk ->  -> 
 - t03 questioning betting against the Lakers for a Lakers jersey -> T3-017 carrying on ordinary sub talk ->  -> 
-- t04 impersonating the bettor for April Fools -> T3-001 staging April Fools fake news ->  -> 
-- t06 asking to make a Lakers logo and gathering enough helpers -> T3-033 proposing the room's mark ->  -> 
-- t05 turning April Fools into anti-Celtics and anti-Clippers rivalry jokes -> T3-001 staging April Fools fake news ->  -> 
+- t04 impersonating the bettor for April Fools -> T3-001 staging April Fools fake news -> Keying -> 
+- t06 asking to make a Lakers logo and gathering enough helpers -> T3-033 proposing the room's mark -> Collective representation -> 
+- t05 turning April Fools into anti-Celtics and anti-Clippers rivalry jokes -> T3-001 staging April Fools fake news -> Keying -> 
 - t07 being briefly fooled by an undescribed image -> unplaced  ->  -> 
-- t08 covering Celtics green with purple and gold -> T3-068 converting a neighbour's art ->  -> 
-- t09 turning scattered pixels into a recognizable Lakers logo -> T3-070 sharing coordinates, templates and how-to ->  -> 
-- t10 recruiting LA and OC sports subs against the Celtics -> T3-062 recruiting kindred subs to help ->  -> 
-- t11 proposing Discord for the pixel work -> T3-014 moving planning into a chat ->  -> 
-- t12 negotiating a truce so both logos can exist -> T3-149 agreeing truces with rival rooms ->  -> 
-- t13 moving after Vikings claim the purple-and-yellow spot -> T3-022 relocating after losing the spot ->  -> 
-- t14 keeping Discord invitations working for logo coordination -> T3-014 moving planning into a chat ->  -> 
-- t15 hiding the plan in PM because Celtics fans infiltrated -> T3-116 hiding the plan from rivals ->  -> 
-- t16 asking the Lakers effort to stay off r/lotr's drawing -> T3-035 asking a host for space ->  -> 
-- t17 thanking everyone for making and defending the logo -> T3-009 celebrating the finished work ->  -> 
-- t18 teaching a newcomer how the shared pixel canvas works -> T3-016 explaining what the canvas is ->  -> 
-- t19 creating r/nbaplace to coordinate team subs -> T3-013 gathering kindred rooms together ->  -> 
-- t20 arguing and bargaining over the neighboring hearts -> T3-005 defending the work against attackers ->  -> 
-- t21 negotiating mutual maintenance with the Spurs neighbours -> T3-010 settling borders with neighbours ->  -> 
-- t22 defending and rebuilding the logo until placing ends -> T3-005 defending the work against attackers ->  -> 
-- t23 disowning a supposed Scotland threat -> T3-126 disputing who speaks for rooms ->  -> 
-- t24 recognizing and admiring a Duck on r/place -> T3-052 remarking on neighbouring pictures ->  -> 
-- t25 answering Scotland's martian warning with titlegore and hostility -> T3-050 trading taunts with rivals ->  -> 
-- t26 asking when r/place ends and mourning when it does -> T3-117 marking the canvas's end ->  -> 
-- t27 inspecting damage and mistakes in the finished canvas -> T3-073 reporting how the work fared ->  -> 
+- t08 covering Celtics green with purple and gold -> T3-068 converting a neighbour's art -> Repertoire of contention -> 
+- t09 turning scattered pixels into a recognizable Lakers logo -> T3-070 sharing coordinates, templates and how-to -> Standardization of output -> 
+- t10 recruiting LA and OC sports subs against the Celtics -> T3-062 recruiting kindred subs to help -> Mobilization -> 
+- t11 proposing Discord for the pixel work -> T3-014 moving planning into a chat -> Backstage decision-making -> 
+- t12 negotiating a truce so both logos can exist -> T3-149 agreeing truces with rival rooms -> Negotiated order -> 
+- t13 moving after Vikings claim the purple-and-yellow spot -> T3-022 relocating after losing the spot -> Territoriality -> 
+- t14 keeping Discord invitations working for logo coordination -> T3-014 moving planning into a chat -> Backstage decision-making -> 
+- t15 hiding the plan in PM because Celtics fans infiltrated -> T3-116 hiding the plan from rivals -> Backstage decision-making -> 
+- t16 asking the Lakers effort to stay off r/lotr's drawing -> T3-035 asking a host for space -> Meta-organization -> 
+- t17 thanking everyone for making and defending the logo -> T3-009 celebrating the finished work -> Completion ritual -> 
+- t18 teaching a newcomer how the shared pixel canvas works -> T3-016 explaining what the canvas is -> Sensemaking -> 
+- t19 creating r/nbaplace to coordinate team subs -> T3-013 gathering kindred rooms together -> Meta-organization -> 
+- t20 arguing and bargaining over the neighboring hearts -> T3-005 defending the work against attackers -> Repair work -> 
+- t21 negotiating mutual maintenance with the Spurs neighbours -> T3-010 settling borders with neighbours -> Negotiated order -> 
+- t22 defending and rebuilding the logo until placing ends -> T3-005 defending the work against attackers -> Repair work -> 
+- t23 disowning a supposed Scotland threat -> T3-126 disputing who speaks for rooms -> Negotiated order -> 
+- t24 recognizing and admiring a Duck on r/place -> T3-052 remarking on neighbouring pictures -> Sensemaking -> 
+- t25 answering Scotland's martian warning with titlegore and hostility -> T3-050 trading taunts with rivals -> Rivalry -> 
+- t26 asking when r/place ends and mourning when it does -> T3-117 marking the canvas's end -> Collective memory -> 
+- t27 inspecting damage and mistakes in the finished canvas -> T3-073 reporting how the work fared -> Collective memory -> 
 
 ## local account
 unreturned; version: no-return; return: none
-# generated by gen_views.py; sources: adaptations.jsonl absent; adaptations-recheck.jsonl absent; adjudications.jsonl absent; adaptation-returns.jsonl absent; elements.jsonl absent; arrows.jsonl absent; assignments_final.jsonl 8b97f5ade6ee34ca; fourth.jsonl absent; dimensions.jsonl absent; recheck-scope.json absent; model-D3.sha256 absent
+# generated by gen_views.py; sources: adaptations.jsonl absent; adaptations-recheck.jsonl absent; adjudications.jsonl absent; adaptation-returns.jsonl absent; elements.jsonl absent; arrows.jsonl absent; assignments_final.jsonl 8b97f5ade6ee34ca; fourth.jsonl bd23401858de12ab; dimensions.jsonl absent; recheck-scope.json absent; model-D3.sha256 absent
