@@ -599,3 +599,11 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Pass 3 stays preferred; analyst lists what is discarded and kept. No stop declared. C2d-02 is the last closing pass. Held until J answers QC2-002.
 - Tokens (dedup): 343 calls, 156.6M cache read, 0.27M output. Total 145 legs, 24,360 calls, 11,971.7M, 28.6M. Disk 43 GB.
 - 14:56 Berlin: J ruled on QC2-002 (handler draft, revised, approved): criterion a guide not the judge; pass 5 from pass 4 state; keep what the analyst believes, with reasons; never loosen an element to fit a room; rival naming as a claim untested for order; last closing pass. Answered; C2d-02 run.
+
+## 2026-10-14 15:58 Berlin, C2d-02 closed, stage C2 done
+- C2d-02 closed 13:43Z (close cut), snapshot COMMITTED 35bc63e797ed962f, validate 0 errors 1 warning (the pass 4 rise, now a guide under QC2-002). Elements 28 (C02 claim new), arrows 20, themes 28, dimensions 8, passes 5, findings 13 (F-013 new).
+- Story pass 5: told 16, residue 19, not-told 0 of 35. The claim told 7 of 21 carried rooms (anarcho_capitalism, cardinals, CKCrusaders, completeanarchy, lakers, rpi, unitedkingdom). All 5 fresh residues are Visibility returns (plus scp): an untested fourth-order theme, flagged for C3.
+- Model rests on pass 5; pass 4 discard reversed change by change with reasons. Stop declared (last closing pass by J's ruling); analyst lists rooms that argue against stopping.
+- Sure: spine in every room read (67 rooms, 151 readings, none not-told); two boundaries (colour factions, hosts ruling on guests); F-011 and F-013 both true. Not sure: claim's reach, borderline sweden/placeDE calls, Visibility returns noticed mid-pass, claim untested for order, constitutive arrows, no second reader.
+- handback-C2.md written. Tokens (dedup): 307 calls, 142.6M cache read, 0.20M output. Total 146 legs, 24,667 calls, 12,114.3M, 28.8M. Disk 36 GB. C3 waits for J.
+- 15:59 Berlin: J said yes to C3. Handler text said to C2.C2d-02; C3a (contradicting shelf) run.

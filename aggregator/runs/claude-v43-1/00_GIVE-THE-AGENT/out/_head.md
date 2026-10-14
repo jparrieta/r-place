@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at C2d-02, 2026-10-14 (UTC). Stages A1 to C2 are done; stage B is frozen. Stage C2 (the model: the loop) ran five passes and closes here, at the last closing pass. The model rests on pass 5. `validate.py C2` before the close: 0 errors, 1 warning (the rise in told-with-residue at pass 4). Next: stage C3, as the next launch says.
+Under 3,000 words, rewritten whole at every close. Last written at C3a, 2026-10-14 (UTC). Stages A1 to C2 are done; stage B is frozen. Stage C3 (the model against the literature) is open: leg C3a, the contradicting shelf, closes here. `validate.py C3` before the close: 0 errors, 0 warnings. Next: C3b, the resembling shelf, with the concept.
 
 ## The method question, in one sentence
 
@@ -10,39 +10,38 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The model rests on pass 5 (`model-p5.md`, `model/story-p5.md`). A member starts a mark, calls gather hands, the hands build, and keeping the mark becomes the work. The calls fill the host sub, and the sub draws a line around them: one thread, removals, a canvas sub, members objecting to the flood. Keeping the mark brings the room up against neighbours: it talks with them, settles borders, trades help, and joins coalitions under attack. A call can also turn hands against a rival's work; most such calls are answered inside the room by refusal, restraint or a truce. A room that judges it cannot hold its spot moves, and keeps calling. The close runs in order: celebrated, recorded, carried on. Placement ends at hour 73. In some rooms a tie the members had before the canvas (a league or school rivalry, a nation's history, an ideology, lore) names the rival in the same turn as the attack: a claim in the rooms' words, untested for order. Two forms are boundaries at the return: colour factions the canvas gathered, and hosts ruling on guests.
+The model rests on stage C2's pass 5 (`model-p5.md`, `model/story-p5.md`), with one bound added at C3a. A member starts a mark, calls gather hands, the hands build, and keeping the mark becomes the work. The calls fill the host sub, and the sub draws a line around them: one thread, removals, a canvas sub, members objecting to the flood. Keeping the mark brings the room up against neighbours: it talks with them, settles borders, trades help, and joins coalitions under attack. A call can also turn hands against a rival's work; most such calls are answered inside the room by refusal, restraint or a truce. A room that judges it cannot hold its spot moves, and keeps calling. The close runs in order: celebrated, recorded, carried on. Placement ends at hour 73. In some rooms a tie the members had before the canvas names the rival in the same turn as the attack: a claim in the rooms' words, untested for order. Rooms align their placers mostly without decided order; since C3a, decided order is known to gather in the small canvas-born colour factions that govern a territory. Two forms are boundaries at the return: colour factions the canvas gathered, and hosts ruling on guests.
 
-The room that best supports the account is day9, a within-case room, told at passes 2 to 5: it builds, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53. The room that most threatens it is thebluecorner, a colour faction whose faith names its rivals, rules on guests by vote and by fit with blue, and splits over art on a blue backdrop against a pure blue corner; greenlattice, purplecorner and orderofthebluecorner show the same. The condition between them is what decides whom a room fights and whom it admits. Where the work decides, the model tells the room. Where a tie from before the canvas names the rival in the attack turn, the claim tells it. Where a body's faith or a host's rule picks rivals and guests, the model does not reach it.
+The room that best supports the account is day9, a within-case room, told at passes 2 to 5: it builds, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53. The room that most threatens it is thebluecorner, a colour faction whose faith names its rivals, rules on guests by vote and by fit with blue, and splits over art on a blue backdrop against a pure blue corner. The condition between them is what decides whom a room fights and whom it admits. Where the work decides, the model tells the room. Where a body's faith or a host's rule picks rivals and guests, the model does not reach it.
 
 ## Where the run stands
 
-C2 outputs in `out/`: `dimensions.jsonl` (eight); `fourth/fourth.jsonl` (28, 21 in the model); `structure.md`, `structure-p2.md`, `structure-p4.md`; `concept.md` (pass 5 section added); `within_case.md`; `model/elements.jsonl` (28, three candidates), `model/arrows.jsonl` (20), `model/loops.jsonl` (empty), `model/history.jsonl` (82); `model.md`, `model-p2.md` to `model-p5.md`; `model/story-p1.md` to `model/story-p5.md`; `story_rooms-p1.jsonl` to `story_rooms-p5.jsonl`; `saturation.jsonl` (five lines); `findings.jsonl` (20 lines, 13 findings); `tier_history.jsonl` (476); `notes-C2.md`; `handback-C2.md`. The reviewer's files: `RETURN-C2.md`, `review-C2.md`, its packet and manifest entry. Snaps run to C2-move-developing-47. No question is open.
+C2 outputs in `out/`: the tier (`fourth/fourth.jsonl`, 28; `dimensions.jsonl`, eight; `structure-p4.md`); the model (`model/`, 28 elements and 20 arrows, no loop; `model-p5.md`; `model/story-p5.md`); every earlier version; `notes-C2.md`; `handback-C2.md`.
 
-## Stage C2, pass 5 (C2d-02), in short
+C3 outputs so far: `notes-C3.md` (the design statement, `prior.md` restated, the method re-read, the log point, Leg 1, slips, the close-check); `literature-C3.md` (Leg 1); `manifest-C3.txt` (no stage C3 successor yet); `findings.jsonl` (21 lines, 13 findings; the decided-order finding superseded by a bounded line); `model/history.jsonl` (83). Snaps run to C3-move-relating-48. No question is open.
+
+## Stage C3, leg C3a, in short
+
+- **The PI's message:** stage C2 is closed and validated; J has read the handback. J: "what matters is that you build something you believe in, and you did." J's rulings stand, QC2-001 and QC2-002 included.
+- **Order kept.** `prior.md` first; then `METHOD.md`'s first section and the six method works re-read whole; then the log point (`_cite_reads-C3.jsonl` absent, `_mem_reads-C3.jsonl` 63 lines); then the shelf.
+- **The substitution held in names:** no tier is named for one of the four universal problems. Whether it held in the cuts is C3c's test.
+- **The explanation shelf, read whole, each verified:** Puranam, Alexy and Reitzig (2014); Felin and Zenger (2016, 2017); O'Mahony and Ferraro (2007); Bechky (2006); March (1991).
+- **O'Mahony and Ferraro:** "Before an organization can develop a form of governance, it must establish a shared basis of authority" (p. 1081). One abductive read, logged first: decided order sits in 7 of the 39 rooms placed on a colour-faction theme or on vetting guests' requests, against 39 of 666 others; held to size, p 0.014; only in the smaller rooms. A disagreement about the setting that bounds both claims; the bound is in the decided-order finding.
+- **Bechky:** temporary organizations run on a role structure carried in by careers. The setting differs, as she says herself (p. 17); it bounds her claim. The rooms coin their roles, and her polite admonishing appears without roles ("Nah, keep /r/place neutral.").
+- **Felin and Zenger:** organizing starts from a contrarian theory. About different things: a room's start is mostly the picture its members already share; the nearest case reframes an existing mark (GREENCORNER to GREENWALL). Whether rooms inherited or chose what they made goes to C3c, under the goal.
+- **Olson (recalled):** collective action without selective incentives. Open; the record cannot see members who never placed.
+- **Puranam and March:** not contradictions; Puranam is the standing claim for C3c.
+- **No switch record.** No arrow, element statement, tier or concept changed.
+- **A doubt carried:** "a fellow comrade during the button" [PurplePixels/c0165] names a tie from an event before the canvas; the model states colour factions as bodies the canvas gathered.
+- **Slips** are in `notes-C3.md`; twice a write and its check went in one turn.
+
+## Stage C2, in short
 
 - **J's ruling on QC2-002, verbatim:** "from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Work pass 5 from pass 4's state. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the rooms show membership naming the rival in the same turn as the attack, carry it as a claim in their words, marked as untested for order. This is the last closing pass. Close by saying what you are sure of, what you are not, and why."
-- **Pass 4's changes kept, each for a reason.** Hosting is a claim on space, so its themes stay in Territoriality. The land's flag and emblems are the mark's content. The coalition arrow beats its null on coalitions alone (87 of 121 rooms, 0.719 against a 95th percentile of 0.678). Pass 4 had discarded these under the criterion as judge; pass 5 reverses that discard. Nothing was dropped.
-- **The claim.** Turns from the residue clauses of 16 rooms were checked three ways: an attack called or carried out, the rival named, the tie named or rested on in the words. 10 turns in 7 rooms pass: unitedkingdom, anarcho_capitalism, completeanarchy, CKCrusaders, lakers, cardinals, rpi. "You mean WPI? I'm down for a lil interpolytechnic griefing." Colour-faction turns go under the boundary.
-- **The story.** 35 rooms drawn by seed 20261019 before any was opened. Told 16, told-with-residue 19, not-told 0. The claim told 7 of the 21 rooms carried from pass 4's residue. 0 tier events and 0 arrow changes; the story changed by the claim sentence and the closing section.
-- **What the structure showed.** All five fresh rooms with a residue (parahumans, TheAdventuresofTintin, shishamo, hunterxhunter, luciomains) show Visibility returns: the mark brings readers to the sub or back to the topic, and the room talks about the newcomers. With scp, six rooms; the pass 5 story still calls it one room's. In sweden and placeDE attack calls name a national rival without the members' tie in words.
-- **The criterion as a guide:** told-with-residue 19 of 35 (0.54), against 16 of 32 at pass 3 and 21 of 32 at pass 4. As a judge it would still prefer pass 3. Under J's ruling it does not decide.
-- **The stop** is declared: J ruled this the last closing pass. Another pass could still test Visibility returns as an element.
-- **Sure:** the spine holds in every room read (67 rooms, 151 readings, none not-told); the two boundaries were residues at passes 3 to 5; membership does not come before the attack more than chance, and in 10 turns it names the rival inside the attack turn.
-- **Not sure:** the claim's reach (only 16 rooms' residues were searched); my calls on borderline turns in sweden and placeDE; Visibility returns, noticed partway through the reading; the claim's order, and the untested reverse (attack first) printed at pass 4; the verdicts have no second reader.
-- **Left as found:** the in-model flag of the two themes the claim names stays false; 55 of 197 third-order themes are unused, 41 counting the claim.
-- **Slips** are listed in `notes-C2.md`; the compaction step order slipped twice again.
-
-## Stage C2, passes 1 to 4, in short
-
-**Pass 1 (C2a-01).** J, away, ruled at 23:24 Berlin: "If I am not back please simply review and make the interview you find appropriate. Then start C2", and "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The handler answers questions under J's delegation of 23:26 Berlin. The connection statement: "the first concept of FROM comes before the first concept of TO", with a null of 500 shuffles within each room (seed 20261014). 20 elements, 12 arrows. All twenty story rooms told with residue.
-
-**Pass 2.** Exchange between rooms, the contest carried on in talk, coalitions; Contention split as an eighth dimension. Told 14, told-with-residue 18.
-
-**Pass 3.** The host's line added; the idiom rule set during the reading. Told 16, told-with-residue 16. Pass 3 went to the reviewer.
-
-**The reviewer (C2b, C2c).** QC2-001 (the handler, under J's delegation): serving sections of the pass 3 model file is acceptable; errors are read against the whole file (sha256 `aa75ee6c…`). One return on Opus: nine errors, six accepted in full, two in part, one refused; a partition at adjusted Rand 0.661, firm where the model has arrows and loose where the residues are.
-
-**Pass 4 (C2d-01).** Two recuts by rules written first (hosting to Territoriality; the flag and emblems to Collective representation). Eight declared tests, three beat the null. Membership then attack, narrowed, fell below the null mean (52 of 126). The instance audit: 48 transitions, 34 pass, 14 fail, none swapped. Told 11, told-with-residue 21.
+- **Pass 1 (C2a-01).** J, away, ruled at 23:24 Berlin: "If I am not back please simply review and make the interview you find appropriate. Then start C2", and "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The handler answers questions under J's delegation of 23:26 Berlin. The connection statement: "the first concept of FROM comes before the first concept of TO", with a null of 500 shuffles within each room (seed 20261014).
+- **Passes 2 to 5** added exchange, the contest in talk and coalitions; the host's line; two recuts (hosting to Territoriality, the land's flag to Collective representation); the claim and two boundaries. Story counts, told / with residue / not told: 0/20/0, 14/18/0, 16/16/0, 11/21/0, 16/19/0.
+- **The reviewer (C2b, C2c).** QC2-001 (the handler, under J's delegation): serving sections of the pass 3 model file is acceptable; errors are read against the whole file (sha256 `aa75ee6c…`). Nine errors, six accepted in full, two in part, one refused; a partition at adjusted Rand 0.661, firm where the model has arrows and loose where the residues are.
+- **Sure at the close:** the spine in every room read (67 rooms, 151 readings, none not-told); the two boundaries; membership not first, but inside the attack turn. **Not sure:** the claim's reach; borderline turns in sweden and placeDE; what a mark brings back into its room (six pass 5 rooms, untested); the claim's order.
 
 ## Stage C1, in short (carry the rulings)
 
@@ -88,27 +87,29 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## Open, carried
 
-- **From C2** (`handback-C2.md`). Visibility returns in six pass 5 rooms, never tested as an element. The two boundaries for the return. Membership outside the claim (starcitizen, texans, totallynotrobots, sweden). The claim untested for order, and the reverse order untested. The relationship I most expected and could not ground: attribution as the hinge between restraint and attack.
+- **From C3a.** The doubt about colour factions' ties before the canvas. Olson's contradiction, open. The goal question handed to C3c.
+- **From C2** (`handback-C2.md`). What a mark brings back into its room, in six pass 5 rooms, never tested as an element. The two boundaries for the return. Membership outside the claim (starcitizen, texans, totallynotrobots, sweden). The claim untested for order, and the reverse order untested. The relationship I most expected and could not ground: attribution as the hinge between restraint and attack.
 - **From C1.** 13 third-order themes whose fourth-order home the partition forced; thin constructs (Decided order, Neo-tribes, Symbolic boundaries; Stigmergy on two large themes); recalled sources for stage C3; `c1_unapplied.jsonl` (5); four kinds the scheme lacks; the form-pass findings, taken by id and never counted.
 - **From B1.** J counts 841 B1 bags; an older head said 846. Not reconciled.
 - **My doubts.** Where words carry no speaker's sub I read them as the room's own. The verdicts and the vetting coding are mine alone.
 
 ## Rules kept
 
-- Never type an id, an order or a name from memory; check with a script. Never log a write before the tool answers. Count a ledger's lines after appending. A claim about a ledger is checked against the ledger before it is logged. A finding cited by an element must exist in `findings.jsonl` before the element is logged. A finding's status is standing, bounded or withdrawn; the close-check reads every line.
-- There is no `--kind close` and no `--kind episode`; log those as notes.
-- A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`. Read an answer with `mem.py asks <id>`. An open distinction is a file in `out/_questions/`, read with `mem.py question <slug>`.
+- Never type an id, an order or a name from memory; check with a script. Never log a write before the tool answers. Count a ledger's lines after appending. A claim about a ledger is checked against the ledger before it is logged. A finding's status is standing, bounded or withdrawn; the close-check reads every line.
+- There is no `--kind close` and no `--kind episode`; log those as notes. An abductive read is logged with `--kind abductive` before it runs; a change it makes carries `abductive` and `prompted_by`.
+- A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`. Read an answer with `mem.py asks <id>`.
 - Never put a placeholder or a no-op in a command or a log line. Never put an Edit or Write and the read, dry run or validator run that checks it in one turn. Count the head's words before the closing line.
 - Never write an id-like token the run does not define in the head, such as a dimension or element id or a form-pass id: `done.sh` reads it as an unresolved link.
+- In `literature-C3.md`, the stage check reads the phrase for the third leg's subject, "leg 3", or a heading numbered 5 as that leg's section and then demands the mapping file; use them only at C3c. `manifest-C3.txt` must not name a successor file that does not exist.
 - The permission check refuses: shell variables set and expanded in a command; shell loops and words beginning "for_" (an inline Python line starting with "for" included); shell functions, brace groups and heredocs; `find -exec` with braces; awk with system() or `$` fields; env-var prefixes; cat or jq on `out/diary/`; `cut -c`; `head -n -N`. Write a script file in `out/_analysis/` instead. `.git` is read-denied, and so are reads outside the run folder.
-- `mem.py` pages long output (`--offset`, `--limit`). A Bash output above about 30 KB is cut and saved where it cannot be read; measure with `wc -c` first, and page a forest by about 200 to 340 lines and a room page by about 230. Never pipe a room read through `head` or `tail`. A Read above about 25,000 tokens is refused.
+- `mem.py` pages long output (`--offset`, `--limit`). A Bash output above about 30 KB is cut and saved where it cannot be read; measure first. Shelf works with wide lines need small pages: `c3a_shelf_pages.py <name>` plans them. Never pipe a room read through `head` or `tail`. A Read above about 25,000 tokens is refused.
 - After a compaction the guard requires the head and the stage file read again in full, without offset or limit, and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other step, a read or a write included.
 - Never delete a file; supersede it with a new name. A generated document that must keep its name is corrected in place with Edit, and the script that wrote it is fixed too.
 
 ## The next comparison
 
-Stage C3 opens the explanation literature. Read its stage file first. What I would compare first, where it allows:
-- **The concept.** Is the one-line enrolment already named? Slacktivism and conditional pledges are the recalled near words; the enrolment is unconditional, followed by labour, and read by others as a count.
-- **The recalled sources** for the 27 borrowed or adapted fourth-order themes and the dimensions: verify or withdraw each.
-- **Visibility returns** against the literature on attention and recruitment, read beside the six pass 5 rooms.
-- **The claim** against the literature on rivalry with known competitors and frame bridging, and whether either names a tie that picks the rival inside the attack call.
+C3b, the resembling shelf, with the concept (stage file section 4).
+- **Distant fields for the mechanisms,** first for the arrows whose mechanism was hardest to write: the template settling a design, the one-line answer to a call, the move after doubt about numbers, help along a border, coalitions under attack, the settled border. Where a distant work's mechanism fits, rewrite the arrow's mechanism with the stage C2 sentence kept beside it, the work named, and a history line; re-read each failure clause.
+- **Resemblances already seen:** visible work as its own representation and the right to accept or reject contributions (Puranam and colleagues); polite admonishing and thanking (Bechky); newcomers and the code (March), beside the six rooms where a mark brings readers back.
+- **The concept,** the one-line enrolment, tested against the shelf: survives, a relabelling, or a relabelling that adds nothing. Its recalled near words are slacktivism and conditional pledges.
+- **Construct declarations** amended where the shelf shows a name borrowed or adapted.
