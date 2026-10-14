@@ -571,3 +571,12 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Story p2 on 32 rooms: told 14, residue 18, not-told 0 (fresh twelve: 6 told). Pass 3: membership carried in, hosting, host policing, A06/A09 bounds.
 - Tokens: see json. Disk 54 GB free.
 - C2a-03 run.
+
+## 2026-10-14 11:20 Berlin, C2a-03 closed, C2b started
+- C2a-03 closed 09:10Z, checkpoint 9e451dd03b32a84a, validate 0/0: elements 27, arrows 20, dimensions 8, findings 12, no loop.
+- Seven order tests declared; 3 beat the null, 1 admitted (A20 calls then the host's line, the largest gap over the null of any arrow). Membership then hosting beat the null but was not admitted (mechanism shown in 5 of 21). Hosts mostly rule without a ground; where given, space or design, not the body carried in.
+- Story p3 on 32 rooms: told 16, residue 16, not-told 0 (fresh eleven: 7 told). The analyst set an "idiom rule" mid-pass (not declared before); by pass 2 practice residue would be 17 or 18, still not a rise.
+- Per the analyst's rule written before the pass, pass 3 goes to the reviewer build (C2b). No stop declared.
+- Tokens (dedup): 281 calls, 104.7M cache read, 0.26M output. C2a total 728 calls, 360.0M. Disk 52 GB.
+- C2b run.
+- 11:30 Berlin: QC2-001 (packet ceiling; model-p3.md served in sections) answered under J's 23:26 delegation: one packet stands, unserved headings listed, check leg reads errors against the whole model.

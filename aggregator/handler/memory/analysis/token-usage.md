@@ -28,8 +28,8 @@ Source: each leg's `CONTROL/snapshots/<leg>/transcript.jsonl`. One API call is w
 | B4b blind-sample build (B4b, p2, p3, p4) | 4 | 152 | see json | see json | 106.3M | 0.2M |
 | B4c blind-sample check | 1 | 87 | see json | see json | 31.4M | 0.2M |
 | C1a structuring, passes 1 to 11 | 11 | 977 | see json | see json | 455.6M | 1.7M |
-| C2a model loop, passes 1 to 2 | 2 | 447 | see json | see json | 255.3M | 0.5M |
-| **Total** | 141 | 23,603 | see json | see json | 11,616.9 M | 27.9M |
+| C2a model loop, passes 1 to 3 | 3 | 728 | see json | see json | 360.0M | 0.8M |
+| **Total** | 142 | 23,884 | see json | see json | 11,721.6 M | 28.2M |
 
 B4a per leg (cache read / output): B4a-01 88.5M / 0.5M; B4a-02 99.2M / 0.6M; B4a-03 139.0M / 0.8M; B4a-04 108.7M / 1.0M; B4a-05 177.8M / 1.3M; B4a-06 177.6M / 1.1M (369 calls); B4a-07 137.3M / 0.9M (257 calls).
 

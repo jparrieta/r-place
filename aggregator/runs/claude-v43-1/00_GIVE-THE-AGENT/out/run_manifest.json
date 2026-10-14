@@ -1072,5 +1072,69 @@
   "n_agents": 2,
   "n_agents_note": "two fresh readers per item in each arm (section 10); 96 reader sessions an arm, 48 packets x 2",
   "comparisons_note": "1,000 readings of U and A against the settled line (their unresolved items excluded and counted at the check); R's 370 readings an arm, all from R packets, have no settled line: the readers' agreement with each other, whether primaries meet, and whether placements fall among the item's earlier placements; on the 18 also in U and A, R's readings beside the same arm's U or A readings, a side note reported apart"
+ },
+ {
+  "stage": "C2",
+  "leg": "C2b",
+  "step": "the reviewer's build (stage C2 section 6): one hostile reader, once, before the final passes",
+  "written_utc": "2026-10-14T09:26:48Z",
+  "model": "claude-opus-5-5 x1 via cli, the reviewer route PLATFORM-claude.md sets for C2 (Opus through the Claude CLI, a session of its own, sent by the operator's fleet.py); the model that served is recorded by the dispatch in arm.json",
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py) and the CLI, which this session cannot read; the dispatch records what served"
+  },
+  "seeds": {
+   "draw": null,
+   "note": "no draw: one packet, one reader; the packet's contents are fixed by out/_analysis/c2b_reviewer_sources.py with the options in `build`"
+  },
+  "n_agents": 1,
+  "pass_served": 3,
+  "packet": {
+   "name": "C2-reviewer",
+   "path": "out/_packets-C2/C2-reviewer.md",
+   "bytes": 51116,
+   "sha256": "08c64c7ae25ac29ccd164b57a01c36848fa190412219b4d74598e7351fc6bfbd",
+   "ceiling": 51200
+  },
+  "return_spec": {
+   "path": "out/RETURN-C2.md",
+   "sha256": "73c508c57b3d854230e8716ab66fd6729d8549f336b10ec620a6185b679f7a7e"
+  },
+  "model_served": {
+   "file": "out/model-p3.md",
+   "sha256": "aa75ee6c6230348f916b1e2fa6f2eacf0864d5f1750d657d5d5a21a005011b3e",
+   "sections_served_verbatim": [
+    "the title line",
+    "What the model says, in prose",
+    "The elements",
+    "The arrows"
+   ],
+   "not_served": [
+    "the opening above the first section",
+    "Theorised arrows, and the model with and without them",
+    "The model on the dimensions",
+    "Dynamics",
+    "Ungrounded relationships",
+    "Looked for and not found",
+    "The tiers the arrows run between, and what the model does not use",
+    "Where the model should break, in its own terms",
+    "The three strongest arrows, read as artefacts",
+    "Two tests"
+   ],
+   "why": "model-p3.md alone is 51,723 bytes, over the 50 KB packet ceiling (FLEET.md); the return's served names this file's sha256 as the model the sections were drawn from"
+  },
+  "pages": [
+   "0-instruction.md (the instruction verbatim, what is served, the served sha256)",
+   "model-p3-sections.md (the sections above, verbatim)",
+   "story-p3.md (out/model/story-p3.md, whole, sha256 4a0db3f167b96ec7cfc4e8f77d1deb39cb1d0b25eb6072a11ca74bd7184e4eb7)",
+   "criterion.md (notes-C2.md's criterion paragraph, verbatim)",
+   "tiers.md (fourth.jsonl, dimensions.jsonl and scheme_v2.jsonl rendered: every third-order theme by name; dimension questions not served)",
+   "verbs.md (cite.py and mem.py read verbs, room --no-canvas)"
+  ],
+  "not_served_at_all": "structure.md and structure-p2.md (about 1 MB each), the model ledgers as files (the elements and arrows reach the reader through model-p3.md's tables and arrow entries; history.jsonl and the arrows' full sampled_against fields do not), room notes, findings, the prior, the notes body (stage C2 section 6)",
+  "build": "python3 out/_analysis/c2b_reviewer_sources.py --no-opening --no-questions --omit \"Theorised arrows;The model on the dimensions;Dynamics;Ungrounded relationships;Looked for and not found;The tiers the arrows run between;Where the model should break;The three strongest arrows;Two tests\" --write; then python3 tools/packets.py files --stage C2 --name C2-reviewer out/_analysis/c2b/0-instruction.md out/_analysis/c2b/model-p3-sections.md out/model/story-p3.md out/_analysis/c2b/criterion.md out/_analysis/c2b/tiers.md out/_analysis/c2b/verbs.md",
+  "ids": "room names and concept ids as the model cites them; no second-order theme ids; no canvas field",
+  "notes": "The return lands in out/_fleet_raw/C2/; the check leg (C2c) copies it into review-C2.md under the instruction and answers every item in notes-C2.md under rule 13."
  }
 ]

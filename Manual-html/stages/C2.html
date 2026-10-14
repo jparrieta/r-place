@@ -102,7 +102,7 @@ told until it holds in <code>model/story-pN.md</code>; every move logged
 and snapped. <strong>Model:</strong> <code>arm.json</code>; one hostile
 reader on the reviewer model. (From the contract's stage table, section
 4.)</p>
-<p>Status: <strong>3 legs closed</strong>. <a
+<p>Status: <strong>4 legs closed</strong>. <a
 href="../../aggregator/runs/claude-v43-1/STAGE%20CARDS/Stage%20C2.%20Model%20-%20the%20loop.md">the
 card</a> · <a
 href="../../aggregator/runs/claude-v43-1/DROPS/C2/stages/STAGE-C2-model-the-loop.md">the
@@ -149,5 +149,18 @@ fork; your account's usage; the transcript in the repository is not
 changed; <a href="../9-resuming.html">what this command does</a>):</p>
 <div class="sourceCode" id="cb3"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="st">&quot;</span><span class="va">$(</span><span class="fu">git</span> rev-parse <span class="at">--show-toplevel</span><span class="va">)</span><span class="st">/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT&quot;</span> <span class="kw">&amp;&amp;</span> <span class="ex">claude</span> <span class="at">--resume</span> <span class="st">&quot;</span><span class="va">$PWD</span><span class="st">/out/_transcripts/leg-C2.C2a-03-76efb6d3-8eaf-4aae-9f77-51a910bbacfa.jsonl&quot;</span> <span class="at">--fork-session</span> <span class="at">--permission-mode</span> plan <span class="at">--model</span> claude-opus-5-5 <span class="at">--effort</span> xhigh <span class="at">--strict-mcp-config</span> <span class="at">--disallowedTools</span> Bash Write Edit MultiEdit NotebookEdit</span></code></pre></div>
+<h2 id="c2b--reviewer-build">C2b · reviewer build</h2>
+<p>Closed 2026-10-14T09:36:34Z; closed at packets-out; 14375 out files;
+tokens in 94072391, out 150769 (summed over every turn of the leg).</p>
+<p><a
+href="../../aggregator/runs/claude-v43-1/CONTROL/snapshots/C2.C2b">the
+checkpoint</a> · <a
+href="../../aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/_transcripts/leg-C2.C2b-1fd16189-0532-4995-8922-9551cd2f4d14.jsonl">the
+transcript</a></p>
+<p>Talk with the analyst as it was at the end of this leg (a read-only
+fork; your account's usage; the transcript in the repository is not
+changed; <a href="../9-resuming.html">what this command does</a>):</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="st">&quot;</span><span class="va">$(</span><span class="fu">git</span> rev-parse <span class="at">--show-toplevel</span><span class="va">)</span><span class="st">/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT&quot;</span> <span class="kw">&amp;&amp;</span> <span class="ex">claude</span> <span class="at">--resume</span> <span class="st">&quot;</span><span class="va">$PWD</span><span class="st">/out/_transcripts/leg-C2.C2b-1fd16189-0532-4995-8922-9551cd2f4d14.jsonl&quot;</span> <span class="at">--fork-session</span> <span class="at">--permission-mode</span> plan <span class="at">--model</span> claude-opus-5-5 <span class="at">--effort</span> xhigh <span class="at">--strict-mcp-config</span> <span class="at">--disallowedTools</span> Bash Write Edit MultiEdit NotebookEdit</span></code></pre></div>
 </body>
 </html>
