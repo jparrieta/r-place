@@ -607,3 +607,9 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Sure: spine in every room read (67 rooms, 151 readings, none not-told); two boundaries (colour factions, hosts ruling on guests); F-011 and F-013 both true. Not sure: claim's reach, borderline sweden/placeDE calls, Visibility returns noticed mid-pass, claim untested for order, constitutive arrows, no second reader.
 - handback-C2.md written. Tokens (dedup): 307 calls, 142.6M cache read, 0.20M output. Total 146 legs, 24,667 calls, 12,114.3M, 28.8M. Disk 36 GB. C3 waits for J.
 - 15:59 Berlin: J said yes to C3. Handler text said to C2.C2d-02; C3a (contradicting shelf) run.
+
+## 2026-10-14 16:26 Berlin, C3a closed
+- C3a closed ~14:23Z, snapshot COMMITTED, validate 0/0. Six works of the explanation shelf read whole, each verified: O'Mahony and Ferraro 2007, Bechky 2006, Felin and Zenger 2016/2017, Olson 1965 (recalled), Puranam, Alexy and Reitzig 2014, March 1991. Method shelf re-read first (Eisenhardt, GCH 2013, Suddaby, Langley, Van de Ven and Poole, Grodal et al.), quotes with pages.
+- One logged abductive read (from O'Mahony and Ferraro): decided order gathers in colour-faction and guest-vetting rooms, held to size (7 against null 2.7, p 0.014), mostly in smaller rooms. F-006 bounded (findings line 21); C01 history line. No arrow, element, theme or dimension changed. One doubt carried: PurplePixels c0165 ties a faction to a prior event.
+- prior.md set against the model: "becoming able to act by a find" went the other way (the call is the spine).
+- Tokens: 116 calls, 61.1M cache read, 0.09M output. Total 147 legs, 24,783 calls, 12,175.4M, 28.9M. C3b run.

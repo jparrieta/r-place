@@ -60,3 +60,103 @@ The read also surfaced one turn I did not act on: "/u/Arsenalisbest was a fellow
 ### Switch records
 
 None. F-006 rested on a count across rooms and still does; the bound is another count across rooms. No name moved from the participants' words to the literature's, and no claim moved between the rooms' words and a pattern across rooms.
+
+## Leg 2 (C3b): work that resembles the model
+
+### Distant fields, and the mechanisms (section 4a)
+
+The arrows whose mechanisms were hardest to write are the ones resting least on a count. Two are theorised: the template settling a design (A11) and the one-line answer to a call (A12). Four are thin: the settled border (A05), the move after doubt (A10), help along a border (A14) and coalitions (A19). One is partly constitutive: the refusal of an attack call (A16). For each, I asked what literature outside organization studies describes the same move. All six distant works below are `recalled`: none is on the shelf.
+
+**Conversation analysis: the one distant field that supplied a mechanism.** I believe Schegloff and Sacks (1973) set out the adjacency pair: a first part, such as an invitation or a request, makes a fitting second part the next thing due. I believe Pomerantz (1984) and Levinson (1983) set out preference organization: acceptance is the preferred second and comes bare, refusal the dispreferred one and comes marked, often with an account.
+- **Fit.** It describes the move of two arrows. The one-line answer (A12) is the preferred second to a call. The refusal of an attack call (A16) is the dispreferred second, and its account is where the room's norm gets said.
+- **The prediction tested** (abductive read 2, below; F-014). Refusals of a call carry a reason, and acceptances do not. Of 80 seeded pairs, 57 had a first part that calls for or proposes an attack. Refusals gave a reason in 23 of 38 and acceptances in 2 of 14 (one-sided Fisher p 0.003). The other half of the prediction failed: refusals were not longer (median 9.5 words against 11.5).
+- **What changed.** Both mechanisms are rewritten in `model/arrows.jsonl` and `model-C3.md`, with the stage C2 sentences kept as `mechanism_C2` and the work named. Each failure clause gains the mechanism's own observation: joins as reasoned as refusals, or refusals as bare as joins. A12 stays theorised. Its order is never counted, and calls to place were not tested; one bare refusal of a call to build is on record ("No." [formula1/c0015]).
+- **What it explains that the model did not:** why a call is cheap to answer (acceptance needs no reason), and why restraint arrives carrying the room's norms ("our task is to create, not destroy" [placestart/c0117]; "Why? That'll just cause them to want to attack us" [uoft/c0115]).
+- **What the model has that it does not:** that the acceptance is followed by labour on a shared surface, by strangers who never meet.
+
+**Threshold models of collective behaviour.** I believe Granovetter (1978) holds that each person acts once enough others have, so that a crowd's outcome turns on the spread of thresholds and on people seeing how many have acted. `structure.md` already names this as what Critical mass may be mistaken for.
+- **Fit.** It would supply the mechanism of the concept's claimed function: the replies under a call as the room's head count.
+- **The prediction tested** (abductive read 3; F-015, weak). It failed. Of 40 sampled first turns on the doubt-about-numbers theme, 11 judge the room's own hands. None of them rests on who answered: 3 rest on the readership's size, 2 on the canvas, 1 on both, 5 on nothing.
+- **What changed.** No arrow. The concept's head-count claim is dropped (`concept-C3.md`).
+
+**Behavioural ecology: the "dear enemy" effect.** I believe Fisher (1954) named it and Temeles (1994) reviewed it: a territory holder that has settled a boundary is less aggressive toward its established neighbour than toward strangers, because the neighbour no longer threatens the territory and contesting again costs more than it gains.
+- **Fit, in part, with the settled border (A05).** It says why a settled border keeps the peace.
+- **Its distinctive prediction,** that aggression is kept for strangers, was not tested. The read was declined: no query tells whether an attack's target is a settled neighbour or a stranger, and settling it means reading every attack call's target against the room's border partners.
+- **Not rewritten.** The part that fits restates the stage C2 mechanism; the part that would add something is untested.
+
+**Social psychology: superordinate goals.** I believe Sherif (1958), and Sherif and colleagues' Robbers Cave study (1961), hold that a goal neither of two rival groups can reach alone turns them to cooperation and lowers their hostility. Walt's (1987) balance of threat in international relations says much the same of alliances.
+- **Fit with coalitions under attack (A19):** it names what the arrow's mechanism already says, that rooms whose works face the same threat join.
+- **Its distinctive prediction,** that partners stop attacking each other, was not tested. The read was declined: coalition pairs cannot be recovered by query.
+- **Not rewritten.** It would add a name, not a test.
+
+**Game theory: focal points.** I believe Schelling (1960) holds that in tacit coordination people converge on the option they expect others to expect. I also believe, but cannot verify here, that he held a suggestion can make an option focal.
+- **Fit with the template settling a design (A11).** A posted template settles a design because each placer expects the others to follow it, not because anyone can enforce it. That would also say why the template works whether it comes before the argument or after (A11's bound).
+- **Not rewritten.** The fit rests on the part I cannot verify. The arrow's order is at chance, and its distinctive prediction, disputes where two templates are in use, would need every template thread read. Declined.
+
+**Animal contests: the war of attrition.** I believe Maynard Smith (1974) holds that a contestant gives up when its costs pass what the resource is worth to it.
+- **Fit with the move after doubt (A10):** A10's mechanism is already a judgment of the room's own hands. The war of attrition adds the worth of the spot, which the record does not measure.
+- **Not tested and not rewritten.**
+
+### The resembling works on the shelf (verified)
+
+- **Puranam, Alexy and Reitzig (2014).**
+  - *What it names that I named differently.* Self-selection into tasks (p. 171) is the model's join (P15) and the start it answers (R01). The final product as "its own representation" and transparent task division (pp. 172-173) are my Stigmergy and Standardization of output; Stigmergy's declaration is amended below. Authority as the right to accept or reject contributions and membership (p. 173) is the hosts ruling on guests, a boundary the model does not reach.
+  - *What it explains that the model does not:* why self-selection, transparent task division, intrinsic reward and visible collaboration come together as complements (pp. 173-174).
+  - *The reverse:* the model shows coordination through the visible work where no founder or core laid the architecture out.
+- **Bechky (2006).**
+  - *What it names:* enthusiastic thanking and polite admonishing (pp. 11-12). These are my completion ritual's credit to others and the room's restraint.
+  - *What it explains that the model does not:* how practices carry from one project to the next through careers.
+  - *The reverse:* the practices without roles, and (F-014) the admonishing's reason states the room's norm.
+- **O'Mahony and Ferraro (2007).**
+  - *What it names:* a shared basis of authority, and leaders valued as organization builders (pp. 1081, 1091). That is my Decided order; its declaration is amended below.
+  - *What it explains that the model does not:* how a community comes to govern itself over years.
+  - *The reverse:* organizing without governance in hours, with the small canvas-born factions as the canvas's nearest case (C3a).
+- **March (1991).**
+  - *What it names:* an organizational code that newcomers learn and that learns from them, and "the development of knowledge may depend on maintaining an influx of the naive and ignorant" (p. 86). These are the host sub's line around canvas talk (P20) and the residue of six pass 5 rooms, where a mark brings readers to the room and the room fears them (Visibility returns, unused).
+  - *What it explains that the model does not:* why a code may need the newcomers a room fears.
+  - *The reverse:* the rooms court and fear the newcomers their mark draws. Not tested here; what a mark brings back is not an element.
+- **Felin and Zenger (2016; 2017).**
+  - *What it names:* self-selection to a theory (2017, p. 266). That is my calls gathering around a start (A02).
+  - *What it explains that the model does not:* why a contrarian proposal draws those who share it.
+  - *The reverse:* starts that are mostly the emblem a room already shares.
+
+### The concept (section 4b)
+
+The one-line enrolment is a relabelling. Its form is conversation analysis's preferred acceptance (recalled), and the account asymmetry held where tested (F-014). Its claimed function, the replies as the room's head count, failed its test (F-015, weak). It is renamed as borrowed, "the preferred acceptance". What the material adds is a setting: written, public, given by a stranger to a stranger's call to labour.
+
+The nearest three short of that name:
+- self-selection into tasks (Puranam and colleagues 2014, verified), which names the choice, not the public reply;
+- slacktivism (recalled), which stands in for action, where the acceptance comes before it;
+- the conditional pledge (recalled), which is conditional, where the acceptance is not.
+
+The verdict sits close to the third outcome, a relabelling that adds nothing. Stage C5's propositions should not lean on a named concept. `concept-C3.md` is written whole, and `concept.md` stands.
+
+### Declarations amended (section 6)
+
+- **Stigmergy (T4-007).** Its `mistaken_for` now names the transparent task architecture of open source and Wikipedia (Puranam, Alexy and Reitzig 2014, verified, pp. 172-173). There a founder or a core lays out the architecture; here no one does.
+- **Decided order (T4-011).** Its `mistaken_for` now names a shared basis of authority (O'Mahony and Ferraro 2007, verified, p. 1081). A decided element here binds one work for hours; a basis of authority is a lasting consensus on who may decide.
+
+Each is a `tier_history.jsonl` line with the old line as `was`, move relating or contrasting, snapped as C3-move-relating-49. No fourth-order theme or dimension was renamed, and the third-order themes keep their descriptive names. `structure-C3.md` carries both amendments.
+
+### The abductive reads of this leg
+
+Each was logged before it ran (`mem.py log --kind abductive`, C3b).
+2. **Prompted by conversation analysis** (Schegloff and Sacks 1973; Pomerantz 1984; Levinson 1983; recalled).
+   - *What it looked at:* reply pairs to attack moves, drawn by theme through `mem.py codes --fourth T4-020` and `T4-015`, a seeded sample of 40 rooms each, read whole under rules written first (`c3b_ca_pairs.py`, `c3b_ca_codes.json`, `c3b_ca_tally.txt`).
+   - *What it changed:* F-014 written; the mechanisms of A12 and A16 rewritten (C3-move-relating-50).
+   - *What it showed beyond its question:* the theme a reply sits under does not track its stance.
+3. **Prompted by threshold models** (Granovetter 1978; recalled).
+   - *What it looked at:* the first turn on the doubt-about-numbers theme in 40 seeded rooms, read whole under rules written first (`c3b_threshold_sample.py`, `c3b_threshold_codes.json`).
+   - *What it changed:* F-015 written; the concept's head-count claim dropped.
+   - *What it showed beyond its question:* a ground the rules did not foresee, the readership's size, coded apart.
+
+Reads declined, each with its reason above: the dear enemy effect (A05), superordinate goals (A19), focal points (A11), the war of attrition (A10).
+
+### Switch record: the concept
+
+- **The work and the cue.** Conversation analysis (recalled). The cue: the bare "I'm in" under a call read as a preferred second pair part.
+- **What moved.** The concept's name moved from my coinage, "the one-line enrolment", to the literature's, "the preferred acceptance". Its form claim moved from exemplars, the form pass's lines that are never counted, to a pattern across rooms (F-014). Its function claim was put to a pattern across rooms and failed (F-015).
+- **What is redone or rechecked, and where.** The mechanisms of A12 and A16 (this leg) and the concept (`concept-C3.md`, this leg). Stage C5 reads `concept-C3.md`, not `concept.md`, through the manifest.
+- **What differs in the output.** The concept is borrowed, not coined. Its head-count function is gone. Two arrows carry a mechanism from the literature.
+- **Why the state after the switch serves the claim better.** The concept now carries a test that could have failed. Half of it held; the half that failed is dropped, not carried.
+- **The findings line.** No earlier finding is superseded, since stage C2 wrote the concept in `concept.md` and in no finding. F-014 and F-015 are new lines with literature ids.

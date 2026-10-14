@@ -117,3 +117,52 @@ stage C3:
 ```
 
 `done.sh C3` runs the same check at the close. Its report is in the leg's closing diary line.
+
+## Leg 2 (C3b): the resembling shelf, with the concept
+
+### Order kept
+
+Opened with `AGENT.md`, the head, the stage file, the last five diary lines and `validate.py --open C3` (0 errors, 0 warnings). The shelf's read tier was served whole at C3a; this leg cites it from those reads, and each citation is `verified` with its page. The distant works are not on the shelf, and each is `recalled`. Stage C3 reads `assignments_final.jsonl` nowhere, so the C2 evidence script, which reads it directly, was not used. Pairs and samples were drawn through `mem.py codes --fourth ... --json`.
+
+### What the leg did
+
+- **Two abductive reads,** each logged before it ran, with its rules written first.
+  - *Conversation analysis:* refusals of a call carry a reason in 23 of 38 read pairs, acceptances in 2 of 14 (p 0.003), and refusals are not longer (F-014).
+  - *Threshold models:* none of 11 judgments of the room's own numbers rests on who answered (F-015, weak).
+- **One distant field supplied a mechanism:** conversation analysis, for the one-line answer to a call (A12) and the refusal of an attack call (A16). Both are rewritten with the stage C2 sentences kept beside them (C3-move-relating-50). A12 stays theorised.
+- **Four distant matches not rewritten,** each read declined with its reason in `literature-C3.md`: the dear enemy effect for the settled border, superordinate goals for coalitions, focal points for the template, the war of attrition for the move.
+- **The concept is a relabelling.** The one-line enrolment is conversation analysis's preferred acceptance. It is renamed as borrowed, its head-count claim is dropped, and what it adds is a setting. `concept-C3.md` is written whole, and `concept.md` stands. A switch record is in `literature-C3.md`.
+- **Two declarations amended** (`mistaken_for` only): Stigmergy against Puranam and colleagues' transparent task architecture, and Decided order against O'Mahony and Ferraro's shared basis of authority (C3-move-relating-49).
+- **Successor files written whole:** `model-C3.md` (from `model-p5.md`), `structure-C3.md` (from `structure-p4.md`) and `concept-C3.md`. `manifest-C3.txt` names them.
+
+### What the leg showed that I did not expect
+
+- **The theme a reply sits under does not track its stance.** Replies coded under contention refuse attack calls ("Why? That'll just cause them to want to attack us" sits under "calling for attacks and answering the calls"), and replies coded under restraint include reports and remarks. A test that took the theme as the stance would have found a weak difference (0.38 against 0.55, by theme) where reading found a strong one (0.14 against 0.61).
+- **The rooms judge their numbers by their readership.** "The game itself doesn't have enough population to pull this off." The rules for the threshold read did not foresee that ground.
+
+### What I am sure of, and what I am not
+
+- **Sure:** the account asymmetry on attack calls, as read; the failure of the head-count claim in the sample read; the decisions not to rewrite four arrows, each for a stated reason.
+- **Not sure:** every code is mine alone, with no second reader. The CA asymmetry is untested on calls to place. The threshold read is one sample of one theme and an absence claim. Every distant work is recalled, not verified. The focal-point fit rests on a part of Schelling I cannot check.
+
+### Slips, C3b
+
+- **A claim about a ledger logged before it was checked.** The diary note on the threshold result gave the grounds as 4, 2, 1 and 4, counted from memory. The codes file gives 3, 2, 1 and 5. A correction line followed. The findings were written by script from the file and carry the right counts. My status message to the user carried the same wrong counts.
+- **A field name assumed.** The threshold sample script first read a `label` field that the store's records do not have (they carry `first_order`). It ran once with empty labels; the script was fixed and run again. The sample is the same, drawn by seed.
+- **One command used `cut -c`** after a script that read nothing from the rooms. The guard refused it, and it ran again without the cut.
+- **The conversation-analysis pair script's output was first sent to `wc -c`.** The pairs were served and not seen. I read them from the sample file it wrote, not by serving them again.
+
+### The close-check, C3b
+
+`python3 tools/validate.py C3`, run after the notes body and before the head was rewritten:
+
+```
+stage C3:
+  mapping-C3.jsonl not yet written (leg 3's output)
+  arrows 20 (2 with a mechanism from the literature), fourth-order themes 28, mapping lines 0, successors: model-C3.md, structure-C3.md, concept-C3.md
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+`done.sh C3` runs the same check at the close. Its report is in the leg's closing diary line.

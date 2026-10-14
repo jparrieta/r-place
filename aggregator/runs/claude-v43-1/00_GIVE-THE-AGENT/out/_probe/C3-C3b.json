@@ -1,0 +1,39 @@
+{
+ "t": "2026-10-14T14:45:48+00:00",
+ "stage": "C3",
+ "leg": "C3b",
+ "answers": {},
+ "expected": {
+  "open": [
+   "contention-dimension",
+   "relocation-renewed-calls"
+  ],
+  "rooms": [],
+  "changed": [
+   "A12",
+   "A16",
+   "T4-007",
+   "T4-011"
+  ],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "missing",
+  "rooms": "n/a",
+  "changed": "missing",
+  "next": "n/a"
+ },
+ "scored": 3,
+ "unscored": [
+  "rooms",
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "open",
+  "changed"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

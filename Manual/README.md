@@ -31,7 +31,7 @@ The run below is generated from its records at every close (`CONTROL/harness/gen
 | [B4](stages/B4.md) | Coding: adjudication and freeze | finished |
 | [C1](stages/C1.md) | Model: structuring | finished |
 | [C2](stages/C2.md) | Model: the loop | finished |
-| [C3](stages/C3.md) | Model: literature | 1 leg closed |
+| [C3](stages/C3.md) | Model: literature | 2 legs closed |
 | [C4](stages/C4.md) | Model: the field | not started |
 | [C5](stages/C5.md) | Model: account | not started |
 | [D1](stages/D1.md) | Adaptation: return build | not started |
