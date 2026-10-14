@@ -18,7 +18,8 @@ def jl(p):
 t4 = jl(os.path.join("fourth", "fourth.jsonl"))
 owner = dict((m, r["id"]) for r in t4 for m in r["members"])
 name4 = dict((r["id"], r["name"]) for r in t4)
-els = jl(os.path.join("model", "elements.jsonl"))
+# elements in the model only: a candidate or withdrawn element uses no theme (pass 2; pass 1 had none)
+els = [e for e in jl(os.path.join("model", "elements.jsonl")) if e.get("status") not in ("candidate", "withdrawn")]
 used = set()
 for e in els:
     used.update(e["tier"] if isinstance(e["tier"], list) else [e["tier"]])

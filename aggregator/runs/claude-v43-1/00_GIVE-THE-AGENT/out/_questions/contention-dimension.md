@@ -21,3 +21,9 @@ Attribution, Repertoire of contention and Rivalry form a contention dimension. I
 Reading 2 is preferred if pass 2 grounds an arrow into or out of attack as a room's own work, with a mechanism that does not run through border talk. One candidate is rivalry carried in from outside the canvas, leading to the room's first attack. Reading 1 stays if attack is told best as one move in the order between rooms: an attack answered by talk, or talk broken and answered by attack, within one pair of rooms.
 
 Status: open.
+
+## What pass 2 found
+
+Two arrows run into and out of attack without border talk. Call then attack (A15) holds in 93 of 129 rooms (0.721, null mean 0.487). Attack then rivalry talk (A18) holds in 56 of 68 (0.824, null mean 0.591). Two more run from the contest into the order between rooms: attack then restraint (A16, 82 of 104, 0.788) and attack then a truce or deal (A17, 95 of 172, 0.552). The quarrel carried in was tested on 9 rooms and failed. No arrow joins attribution to attack.
+
+**Verdict (C2a-02):** Reading 2, without attribution. By the rule above, D08 Contention is split from Order without law with two members, Repertoire of contention and Rivalry (move splitting, snap C2-move-splitting-35). Attribution stays in Maintenance. The contest and its settlement are now two dimensions, joined by A16 and A17. Status: closed.

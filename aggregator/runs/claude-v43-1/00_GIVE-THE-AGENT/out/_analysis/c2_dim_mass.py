@@ -79,7 +79,9 @@ for d in dims:
         len(rooms["int"][i]), mass["in_nd"][i], len(rooms["in_nd"][i]), mass["out_nd"][i], len(rooms["out_nd"][i]),
         mass["int_nd"][i], len(rooms["int_nd"][i])))
 print("largest cross-dimension masses: " + "; ".join("%s->%s %d" % (x, y, k) for (x, y), k in pairmass.most_common(40) if x != y))
-els = jl(os.path.join("model", "elements.jsonl"))
+print("every cross-dimension mass: " + "; ".join("%s->%s %d" % (x, y, k) for (x, y), k in sorted(pairmass.items()) if x != y))
+# elements in the model only: a candidate or withdrawn element uses no theme (pass 2; pass 1 had none)
+els = [e for e in jl(os.path.join("model", "elements.jsonl")) if e.get("status") not in ("candidate", "withdrawn")]
 used_t = set()
 for e in els:
     for t in (e["tier"] if isinstance(e["tier"], list) else [e["tier"]]):

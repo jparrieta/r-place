@@ -38,6 +38,7 @@ ap.add_argument("--show", type=int, default=5)
 ap.add_argument("--sample", type=int, default=4)
 ap.add_argument("--perm", type=int, default=500)
 ap.add_argument("--mode", default="first", choices=["first", "after"])
+ap.add_argument("--elements", default="c2_elements_p1.json", help="element file in out/_analysis (pass 2: c2_elements_p2.json)")
 a = ap.parse_args()
 
 
@@ -47,7 +48,7 @@ def stat(hf, ht):
         return max(ht) > min(hf)
     return min(hf) < min(ht)
 
-els = dict((e["id"], e) for e in json.load(open(os.path.join(OUT, "_analysis", "c2_elements_p1.json"), encoding="utf-8"))["elements"])
+els = dict((e["id"], e) for e in json.load(open(os.path.join(OUT, "_analysis", a.elements), encoding="utf-8"))["elements"])
 p = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "mem.py"), "codes", "--grep", ".", "--json", "--limit",
                     "10000000"], cwd=ROOT, capture_output=True, text=True)
 codes = dict(((c["sub"], c["code_id"]), c) for c in (json.loads(l) for l in p.stdout.splitlines() if l.startswith("{")))

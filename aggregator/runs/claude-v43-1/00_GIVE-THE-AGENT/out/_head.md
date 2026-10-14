@@ -1,6 +1,6 @@
 # Head, claude-v43-1
 
-Under 3,000 words, rewritten whole at every close. Last written at C2a-01, 2026-10-14 (UTC). Stages A1 to C1 are done; stage B is frozen. Stage C2 (the model: the loop) closed its first pass at this leg: the structure, the concept, the typed model, the first story and twenty rooms read whole against it. `validate.py C2` before the close: 0 errors, 0 warnings.
+Under 3,000 words, rewritten whole at every close. Last written at C2a-02, 2026-10-14 (UTC). Stages A1 to C1 are done; stage B is frozen. Stage C2 (the model: the loop) closed its second pass at this leg: tests of pass 1's residues, a new dimension, three new elements, seven new arrows, the second story and 32 rooms read whole against it. `validate.py C2` before the close: 0 errors, 0 warnings.
 
 ## The method question, in one sentence
 
@@ -10,27 +10,47 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-Pass 1's model is a spine, a fork between rooms, and a close. A member starts a mark; calls gather around the start and bring the hands that build. Once the mark stands, keeping it becomes the work. Upkeep brings the room up against its neighbours, and it talks with them; a settled border is a line members keep. Under strain members turn to scripts and spare accounts. A room that judges it has too few hands moves. The close runs in order: a finished mark is celebrated, the celebration recorded, the record carried on. Decided order (a leader, a vote, an oath) is placed in 46 of 705 rooms, against 526 for repair and 522 for the completion ritual. The room that best supports it is ripcity: every arrow of the spine and the close shows in its threads in order. The room that most threatens it is anarcho_capitalism: from its first hour its work was converting a rival faction's flag inside an ideological contest, which the story tells only as something done to a room. The condition between them is whether a room's work is a mark it builds and keeps or a contest it wages with another room. All twenty story rooms were told with residue; the residues are pass 2's material.
+Pass 2's model has a spine, two branches toward other rooms, and a close. A member starts a mark, calls gather hands, the hands build, and keeping the mark becomes the work. Keeping it brings the room up against neighbours: it talks with them, a room short of hands turns to other rooms for help, and rooms under a common threat join coalitions. A call can also turn hands against a rival's work; most such calls are answered inside the room (members refuse, rein in, apologise, or point to a truce), and where the attack goes on it is carried on in taunts and salutes. A room that judges it cannot hold its spot moves, and keeps calling. The close runs in order: celebrated, recorded, carried on. The room that best supports the account is calgaryflames, drawn because an arrow failed there, and told whole in the story's terms. The room that most threatens it is greenlattice: the canvas itself gathered it as a colour faction, it recruited by conversion, and its territory became a host that vetted other rooms' applications to build. The condition between them is whether a room is a readership that brings a work to the canvas, or a body the canvas founds that lives as a host for other rooms' works.
 
 ## Where the run stands
 
-C2 pass 1 outputs, all in `out/`: `dimensions.jsonl` (seven dimensions, five adapted and two coined); `fourth/fourth.jsonl` (28, edited in place with their stage C2 fields, 17 in the model); `structure.md` (Part A's return, consistency, every tier's block, the pairs, the onset contrast); `concept.md` (the one-line enrolment, provisional); `within_case.md` (ubc, ultrahardcore, day9); `model/elements.jsonl` (20), `model/arrows.jsonl` (12), `model/loops.jsonl` (empty), `model/history.jsonl` (33); `model.md`; `model/story-p1.md`; `story_rooms-p1.jsonl` (the draw rule and 20 verdicts); `saturation.jsonl` (one line); `findings.jsonl` (seven lines, the B1 claim and five pass 1 findings); `_questions/` (two open); `tier_history.jsonl` (456); `notes-C2.md`. Snaps run to C2-move-relating-22.
+C2 outputs in `out/`: `dimensions.jsonl` (eight); `fourth/fourth.jsonl` (28, 20 in the model); `structure.md` and `structure-p2.md`; `concept.md`; `within_case.md`; `model/elements.jsonl` (24, one a candidate), `model/arrows.jsonl` (19), `model/loops.jsonl` (empty), `model/history.jsonl` (49); `model.md` and `model-p2.md`; `model/story-p1.md` and `model/story-p2.md`; `story_rooms-p1.jsonl` (20 verdicts) and `story_rooms-p2.jsonl` (32); `saturation.jsonl` (two lines); `findings.jsonl` (11 lines, 9 findings); `_questions/` (two, both closed); `tier_history.jsonl` (463); `notes-C2.md`. Snaps run to C2-move-relating-36.
+
+## Stage C2, pass 2, in short
+
+**The message that opened the leg.** "C2a-01 is closed and pushed. This leg is C2a-02, the next pass of stage C2, as the stage file says and your pass 1 notes plan (the residues of the twenty rooms are pass 2's material). J's rulings stand."
+
+**Declarations first.** Candidate elements, each arrow's mechanism, the relocation window rule and the play-frame rule were written in `notes-C2.md` before any count. The play-frame rule was corrected after its first run and before the result was used; both runs are kept.
+
+**Twelve order tests, seven grounded** (pass 1's statement and null). Grounded: upkeep then exchange between rooms; border talk then exchange (thin); a call then an attack on a rival; attack then restraint inside the room (0.788); attack then border talk; attack then rivalry talk; upkeep then coalition (thin). Not grounded: exchange then sparing; border talk then coalition; exchange then coalition; a quarrel carried in, then attack (2 of 9 rooms); attack then building.
+
+**Relocation and the play frame.** After a first move, a call follows within six hours in 0.392 of 74 rooms, against 0.500 before it and 0.290 in other calling rooms: neither reading holds cleanly. The relocation finding is bounded, and the story now says the room keeps calling. Frame-filled rooms start their canvas work at a median h21.80 against h20.25 (p 0.43): the play does not hold the work back. What the play makes is untested.
+
+**Part A.** Contention split from Order without law by the rule written before the pass: an arrow runs into and out of attack without border talk. Eight dimensions; Order without law now gathers five fourth-order themes, Contention two. Least sure: Contention and Maintenance. No fourth-order recut. 72 of 72 coder conflicts reached `structure-p2.md`.
+
+**The onset contrast.** Contention 0.56 early against 0.42 late at held size (late thin); calls to deface rivals' work stay apart (0.41 against 0.08). Exchange and alliances are early-side acts, not the late rooms' way in.
+
+**Part B.** Unchanged: the one-line enrolment, provisional, never counted.
+
+**Part C.** 24 elements (18 processes, 3 conditions, 1 claim, 2 roles), one condition a candidate outside the model. New: exchange between rooms, coalitions and hosting, rivalry talk. 19 arrows (17 order, 2 transition; 7 strong, 6 fair, 6 thin), all on quotes and a transition, 17 beating the null. Three pass 1 arrows bounded from the story rooms. New findings: most attack calls are answered inside the room; a room short of hands turns to other rooms; the play frame does not delay the work. 61 of 197 third-order themes unused. No loop.
+
+**The story and its rooms.** 32 rooms drawn before any was opened (seed 20261016): the twenty pass 1 rooms, one outside the model's forms, two late, four sampled fails, one per size quartile, one by seed. Each read whole, the largest forests in pages. Told 14, told-with-residue 18, not-told 0 (pass 1: 0, 20, 0); of the fresh twelve, 6 told. Residues, pass 3's material:
+- membership carried in: a nation, an ideology, a league rivalry or a colour (9 rooms);
+- hosting other rooms' works on the room's mark, with requests vetted (5);
+- the host's policing of canvas talk (4);
+- bounds the story's sentences do not yet carry: spare accounts for an attack or a first build, carrying on during the work (3);
+- rooms the canvas founded (2); the move's reason written after it, or a move by a coalition's plan (2);
+- the play setting what a room makes, fear of newcomers, learning how others organize (1 each).
+
+**What the structure showed that the notes did not predict.** The contest is mostly a room arguing with itself: attack calls are refused or reined in inside the room more often than carried out. The largest rooms are hosts with rules for guests.
+
+**The criterion applied.** Pass 2 is preferred: fewer residues on a fresh draw, no element loosened, every arrow on an instance, one dimension cut by a rule written first. The stopping rule cannot stop: 7 tier events, 10 arrow changes, story sentences changed.
+
+**Slips** (in `notes-C2.md`): the play-frame first run; two scripts wrong on first run, outputs superseded; two sentences fixed in `model-p2.md`; room reads cut by `head` twice and read on or again; one forest page read before the reconciliation line after the compaction.
 
 ## Stage C2, pass 1, in short
 
-**The message that opened the stage.** C1a-11 closed and stage C1 is done. J, away, ruled at 23:24 Berlin: "If I am not back please simply review and make the interview you find appropriate. Then start C2", and "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The handler answers questions under J's delegation of 23:26 Berlin. J's rulings stand, QC1-001 to QC1-003 included. The interview ran on a fork; its points are working hypotheses, not findings.
-
-**Part A.** No fourth-order recut at pass 1: the forced placements are tested against rooms first. Seven dimensions, each with its pairwise separation: critical mass, coordination without command, maintenance, order without law, collective identity, host framing, imprinting. Least sure: maintenance and host framing. The rival partition, a separate contention dimension, is open as `_questions/contention-dimension.md`. 72 of 72 coder conflicts reached `structure.md`.
-
-**The onset contrast at held size** (41 early, 12 late rooms; the late side is thin). Late rooms choose a spot more often; asking a host is rare on both sides; relocation runs the other way (early rooms move, no held late room does). Calls to deface rivals' work stay at 0.41 against 0.08: stage A1 expected that difference to vanish, and it did not.
-
-**Part B.** The one-line enrolment ("I'm in.", "On it.") is chosen provisionally: a public reply that joins a stranger's call, asks nothing back, and lets a room with no members see its numbers. Under the form pass's gate it appears in 337 of 705 communities, as a floor, never counted in the model. Closest rival: organizing without decided order.
-
-**Part C.** 20 elements (15 processes, 2 conditions, 1 claim, 2 roles), 17 named for what they do. 12 arrows (10 order, 2 transition; 5 strong, 3 fair, 4 thin), every one on quotes and a transition in one thread; 10 beat a permutation null of 500 shuffles within each room (seed 20261014); the connection statement is "the first concept of FROM comes before the first concept of TO". Not grounded: attribution as the hinge between restraint and attack (the relationship I most expected), attack before repair or a move, doubt before calls, machine hands before upkeep (reversed). No loop.
-
-**The story and its rooms.** Twenty rooms drawn before any was opened (the three within-case rooms, one room outside the model's forms, two late rooms, nine rooms that failed a sampled test, one per size quartile, one by seed), each read whole. Told 0, told-with-residue 20, not-told 0. The residues: help and exchange between rooms (9 rooms); attack as a room's own work (6); calls renewed after a loss (4, against the story's relocation sentence; open as `_questions/relocation-renewed-calls.md`); border talk before any upkeep (4); a template with the first call (3); a close that marks an unfinished work (2); membership carried in and the host's policing (3); decided elements by vote or role (4).
-
-**Slips.** An empty heredoc no-op ran before the compaction. After the compaction `model.md` was drafted before the reconciliation line; its numbers were then checked and one was fixed. The pass 1 findings were planned before the compaction and not written until late in the leg; the decided-order claim's citation of the B1 claim was corrected with a history line. All are in `notes-C2.md`.
+The message that opened the stage: C1a-11 closed and stage C1 is done. J, away, ruled at 23:24 Berlin: "If I am not back please simply review and make the interview you find appropriate. Then start C2", and "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The handler answers questions under J's delegation of 23:26 Berlin. J's rulings stand, QC1-001 to QC1-003 included. The interview ran on a fork; its points are working hypotheses, not findings. Pass 1 built seven dimensions, chose the one-line enrolment provisionally, and built 20 elements and 12 arrows on the connection statement "the first concept of FROM comes before the first concept of TO" with a permutation null of 500 shuffles within each room (seed 20261014). Twenty story rooms, all told with residue.
 
 ## Stage C1, in short (carry the rulings)
 
@@ -76,10 +96,11 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## Open, carried
 
-- **From C2 pass 1.** The two open questions; an element of exchange between rooms to test; attack as a room's own work to test; the play frame's effect on when and what a room makes, untested; the relocation window test.
+- **From C2.** The pass 2 residues above. The two thin arrows at risk from twelve tests run. The relationship I most expected and could not ground at pass 1: attribution as the hinge between restraint and attack.
+- **The reviewer.** One hostile reader comes in the build leg (C2b), before the closing passes, ending at `--cut packets-out`. Not yet.
 - **From C1.** 13 third-order themes whose fourth-order home the partition forced; thin constructs (Decided order, Neo-tribes, Symbolic boundaries; Stigmergy on two large themes); recalled sources for stage C3; `c1_unapplied.jsonl` (5); four kinds the scheme lacks; the form-pass findings, taken by id and never counted.
 - **From B1.** J counts 841 B1 bags; an older head said 846. Not reconciled.
-- **My doubts.** Where words carry no speaker's sub I read them as the room's own. The pair test finds a lump only where a sample has no pure concept. The dimensions, the elements and the story-room verdicts are mine alone until the reviewer reads them.
+- **My doubts.** Where words carry no speaker's sub I read them as the room's own. The verdicts are mine alone until the reviewer reads them. The twenty pass 1 rooms were the material pass 2 was built from; the fresh twelve are the fairer test.
 
 ## Rules kept
 
@@ -89,17 +110,16 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 - Never put a placeholder or a no-op in a command or a log line. Never put an Edit or Write and the read, dry run or validator run that checks it in one turn. Count the head's words before the closing line.
 - Never write an id-like token the run does not define in the head, such as a dimension or element id or a form-pass id: `done.sh` reads it as an unresolved link.
 - The permission check refuses: shell variables set and expanded in a command; shell loops and words beginning "for_" (an inline Python line starting with "for" included); shell functions, brace groups and heredocs; awk with system() or `$` fields; env-var prefixes; cat or jq on `out/diary/`; `cut -c` anywhere in a command that also runs `mem.py`, `cite.py` or a helper (use `--width`); `head -n -N`. Write a script file in `out/_analysis/` instead. `.git` is read-denied, and so are reads outside the run folder, the system's temporary folder included.
-- `mem.py` pages long output (`--offset`, `--limit`). A Bash output above about 30 KB is cut; page a forest by about 250 lines. A Read above about 25,000 tokens is refused.
-- After a compaction the guard requires the head and the stage file read again in full, without offset or limit, after the compaction notice, and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other step, a Write included.
+- `mem.py` pages long output (`--offset`, `--limit`). A Bash output above about 30 KB is cut and saved where it cannot be read; page a forest by about 250 lines and a room page by about 240. Never pipe a room read through `head`. A Read above about 25,000 tokens is refused.
+- After a compaction the guard requires the head and the stage file read again in full, without offset or limit, after the compaction notice, and the exact line "compacted; head reconciled" through `mem.py log --kind note`, in a call of its own, before any other step, a read included.
 - Never delete a file; supersede it with a new name. A generated document that must keep its name is corrected in place with Edit, and the script that wrote it is fixed too.
 
 ## The next comparison
 
-Pass 2 (C2a-02). Read `model/story-p1.md` and the `saturation.jsonl` tail first. Then:
-- Test an element of exchange between rooms (help given and received, space traded for repairs), drawn from Reciprocity and Meta-organization.
-- Test attack as a room's own work: an arrow into or out of it that does not run through border talk.
-- Run the relocation window test (calls in a fixed window after the first move against the same window before it).
-- Test the play frame's effect on when, and what, a room makes.
-- Recut or bound only where a test grounds it, each move logged and snapped.
-- Write `model-p2.md` and `model/story-p2.md`.
-- Read against the new story every room told with residue at pass 1 (all twenty, the three within-case rooms among them), one room per size quartile and rooms by seed. A pass in which told-with-residue rises is a stopping failure.
+Pass 3 (C2a-03). Read `model/story-p2.md`, the `saturation.jsonl` tail and `story_rooms-p2.jsonl` first. Then:
+- Declare, before any count, a test for membership carried in that does not rest on the quarrel theme alone.
+- Test hosting: how a host admits guests, and whether hosting follows coalition or exchange. Test the host's policing of canvas talk.
+- Add the clauses for the machine-hands and carrying-on bounds to the story, logged as story changes.
+- Decide from the rooms whether a room the canvas founds bounds the story's opening or is a form the model does not reach.
+- Write `model-p3.md` and `model/story-p3.md` (and `structure-p3.md` if a tier changes); draw the pass 3 rooms by rule, every pass 2 residue room among them. A pass in which told-with-residue rises is a stopping failure.
+- Then decide whether pass 3 is the pass to keep for the reviewer's build leg (C2b).

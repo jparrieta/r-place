@@ -25,6 +25,9 @@ def jl(p):
 ap = argparse.ArgumentParser()
 ap.add_argument("--out", default="structure.md")
 ap.add_argument("--pass", dest="pass_", type=int, default=1)
+ap.add_argument("--notes", default="c2_structure_notes_p1.json", help="authored notes in out/_analysis (pass 2: c2_structure_notes_p2.json)")
+ap.add_argument("--fields", default="c2_t4_fields_p1.json", help="fourth-order fields in out/_analysis")
+ap.add_argument("--leg", default="C2a-01")
 a = ap.parse_args()
 dest = os.path.join(OUT, a.out)
 if os.path.exists(dest):
@@ -40,8 +43,9 @@ dim_of = dict((m, d) for d in dims for m in d["members"])
 rows = jl("assignments_final.jsonl")
 gh = jl("gate_history.jsonl")
 cc = jl("coder_conflicts.jsonl")
-notes = json.load(open(os.path.join(OUT, "_analysis", "c2_structure_notes_p1.json"), encoding="utf-8"))
-f4 = json.load(open(os.path.join(OUT, "_analysis", "c2_t4_fields_p1.json"), encoding="utf-8"))["themes"]
+notes = json.load(open(os.path.join(OUT, "_analysis", a.notes), encoding="utf-8"))
+f4 = json.load(open(os.path.join(OUT, "_analysis", a.fields), encoding="utf-8"))["themes"]
+RET = notes.get("return") or {}
 
 
 def facts(field):
@@ -107,13 +111,13 @@ def third_of(q):
 
 L = []
 P = L.append
-P("# The data structure, stage C2, pass %d (C2a-01)" % a.pass_)
+P("# The data structure, stage C2, pass %d (%s)" % (a.pass_, a.leg))
 P("")
 P("Written from the ledgers by `out/_analysis/c2_structure_md.py`: `scheme_v2.jsonl`, `fourth/fourth.jsonl`, `dimensions.jsonl`, "
   "`assignments_final.jsonl`, `gate_history.jsonl`, `coder_conflicts.jsonl`, the room facts through `mem.py facts`, and quotes "
   "through `cite.py`. The authored notes (questions, near cases, least-sure members, opportunity gates, the pairwise "
-  "separations) are in `out/_analysis/c2_t4_fields_p1.json` and `c2_structure_notes_p1.json`. The data-structure view is "
-  "generated (`_views/data-structure`); this file is the account of it.")
+  "separations) are in `out/_analysis/%s` and `%s`. The data-structure view is "
+  "generated (`_views/data-structure`); this file is the account of it." % (a.fields, a.notes))
 P("")
 # Part A's return
 P("## Part A's return, pass %d" % a.pass_)
@@ -132,16 +136,20 @@ P("- **Construct status.** Fourth-order themes: %d borrowed, %d adapted, %d coin
       sum(1 for r in t4 if r["declared"] == "borrowed"), sum(1 for r in t4 if r["declared"] == "adapted"),
       sum(1 for r in t4 if r["declared"] == "coined"), sum(1 for d in dims if d["construct"]["status"] == "borrowed"),
       sum(1 for d in dims if d["construct"]["status"] == "adapted"), sum(1 for d in dims if d["construct"]["status"] == "coined")))
-P("- **The two dimensions I am least sure of: D03 Maintenance and D06 Host framing**, two members each. Their separation, from "
-  "both sides: %s %s" % (notes["pairs"]["D03|D06"], notes["pairs"]["D03|D04"]))
-P("- **The alternative grouping rejected.** A separate contention dimension of Attribution, Repertoire of contention and Rivalry. "
+LS = RET.get("least_sure_dims", {"text": "D03 Maintenance and D06 Host framing**, two members each",
+                                  "pairs": ["D03|D06", "D03|D04"]})
+P("- **The two dimensions I am least sure of: %s. Their separation, from both sides: %s" % (
+    LS["text"], " ".join(notes["pairs"][k] for k in LS["pairs"])))
+P("- **The alternative grouping rejected.** %s" % RET.get("alternative",
+  "A separate contention dimension of Attribution, Repertoire of contention and Rivalry. "
   "Restraint and attack are moves in one order between rooms, the pair test called T3-010's pairs with T3-149 and T3-151 joints, "
   "and pass 1 found no arrow from attribution to either restraint or attack (A-tests in `notes-C2.md`); the rival stays open for "
-  "pass 2. At the fourth-order tier no recut was made at pass 1: the forced placements are tested against rooms first.")
+  "pass 2. At the fourth-order tier no recut was made at pass 1: the forced placements are tested against rooms first."))
 nconf = sum(1 for c in cc if any(line_of.get(tuple(i.split("/"))) for i in c.get("items") or []))
 P("- **Coder conflicts that reached this file:** %d of %d, under *read another way* in the third-order blocks." % (nconf, len(cc)))
-P("- **The fourth-order theme I am least sure of: T4-007 Stigmergy.** It rests on two large themes, building and extending, which "
-  "could be read as plain production; the construct claims coordination through the trace, and A01 and A03 rest on it.")
+P("- **The fourth-order theme I am least sure of: %s" % RET.get("least_sure_t4",
+  "T4-007 Stigmergy.** It rests on two large themes, building and extending, which "
+  "could be read as plain production; the construct claims coordination through the trace, and A01 and A03 rest on it."))
 P("- **Whether the contrast showed anything:** see the onset contrast at the foot of this file.")
 P("")
 P("All pairwise separations between dimensions, each written from both sides:")
@@ -360,14 +368,15 @@ def share(rs, group):
 for d in dims:
     rs = set().union(*[carries[m] for r in t4 if r["id"] in d["members"] for m in r["members"]])
     P("| %s %s | %s | %s | %s | %s |" % (d["id"], d["label"], share(rs, early), share(rs, late), share(rs, he), share(rs, hl)))
-for t in ("T3-035", "T3-020", "T3-022", "T3-039", "T3-041", "T3-005", "T3-006", "T3-050", "T3-010", "T3-150"):
+for t in ("T3-035", "T3-020", "T3-022", "T3-039", "T3-041", "T3-005", "T3-006", "T3-050", "T3-010", "T3-150") + (
+        ("T3-011", "T3-151") if a.pass_ >= 2 else ()):
     rs = carries[t]
     P("| %s %s | %s | %s | %s | %s |" % (t, S[t]["name"], share(rs, early), share(rs, late), share(rs, he), share(rs, hl)))
 P("")
 P("Stage A1 expected late rooms to organize around finding room on a full canvas (asking for space, moving, fitting, treaties to be "
   "let in), early rooms around claiming, enlarging and holding; early rooms to name rivals and keep fights going; and at held size "
-  "the first difference to stay and most of the third to go. Read against the table: see `notes-C2.md`, pass 1, where the "
-  "verdict is written with the twelve held-size late rooms labelled thin.")
+  "the first difference to stay and most of the third to go. Read against the table: see `notes-C2.md`, pass %d, where the "
+  "verdict is written with the twelve held-size late rooms labelled thin." % a.pass_)
 P("")
 open(dest, "w", encoding="utf-8").write("\n".join(L) + "\n")
 print("wrote %s: %d words; %d third-order, %d fourth-order, %d dimension blocks; bad sums %s" % (

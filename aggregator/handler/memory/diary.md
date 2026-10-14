@@ -557,3 +557,10 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Tokens C1a-11 (dedup): 65 calls, 35.6M cache read, 0.07M output. token-usage.md C1a row passes 1 to 11 and Total updated.
 - Handler NOT RUNNING at 08:00 Berlin; C2a-01 waits for legs.py serve.
 - 08:05 Berlin: handler up (pid 3430). Said the C2a-01 opening to C1.C1a-11; ran C2a-01, job 45ac9e8327cd; status running at C2.C2a-01. Note: run legs.py from the mount ~/mnt/arrieta--Jail/r-place/aggregator (the heartbeat lives in ~/Jail/.rplace-claude-legs); the bare r-place mount reports NOT RUNNING. Never run from the T7--Jail mount.
+
+## 2026-10-14 09:15 Berlin, C2a-01 closed, C2a-02 started
+- C2a-01 closed 07:09Z, checkpoint 484b273646496040, validate 0/0: elements 20, arrows 12, T4 28, dimensions 7 (D01 Critical mass, D02 Coordination without command, D03 Maintenance, D04 Order without law, D05 Collective identity, D06 Host framing, D07 Imprinting), findings 6, no loop grounded.
+- Concept (provisional): the one-line enrolment (FP-01), P15 and A12, never counted. 10 of 12 arrows beat a permutation null; attribution as the hinge not grounded.
+- Story p1 against 20 rooms drawn by seed: told 0, told-with-residue 20, not-told 0. Biggest residue: exchange between rooms (9 of 20); attack as a room's own work (6).
+- Tokens (dedup): 237 calls, 128.2M cache read, 0.30M output. Disk 59 GB free.
+- C2a-02 run.
