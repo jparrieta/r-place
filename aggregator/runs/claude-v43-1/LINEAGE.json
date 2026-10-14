@@ -1,26 +1,9 @@
 {
-  "kind": "analysis-setup",
+  "kind": "verified-leg",
   "run": "claude-v43-1--C4-field",
   "backend": "claude",
-  "source_run": "claude-v43-1",
-  "after_leg": "C3.C3c",
-  "target_leg": "C4a",
-  "checkpoint": "C3.C3c",
-  "checkpoint_id": "09a4e26bac80ed0c",
-  "checkpoint_sha256": "caeba8e14bc007b88a114f2eee7ab001140246f0eecffaa3e6a27c05b9f3ebb1",
-  "parent_commit": "794022347c3405e04f28de3a2c6c0c63638577b2",
-  "changes": {},
-  "harness_changed": {
-    "CONTROL/harness/publish.sh": {
-      "before_sha256": "0ba1496a6abdfe8cd16ededfb22d0341687b2c0dfa8bff591758e0a900c62f1f",
-      "sha256": "d2e2e4e94ba61354c77b82df02a1b1696316ef4e0ed837cc18a55b015e0f57e1",
-      "why": "the branch is committed to analysis/<run>, never to main"
-    },
-    "CONTROL/harness/step.sh": {
-      "before_sha256": "78967792b72bf70855e55848ccd313bd9709d7844abd174fa0b401f5aa6e6b2c",
-      "sha256": "6f9e8e2e779c6ce88e9c61fb21d41d6d6268eede7aa7ccd746722f892256e28d",
-      "why": "a guard before the parent's step.sh, now step-parent.sh: setup published, publication not blocked, the first leg through legs.py"
-    }
-  },
-  "validation": "Inherited trusted validators; prior results certify original inputs only"
+  "leg": "C4.C4a",
+  "checkpoint_id": "3dd1e7305cec1caf",
+  "parent_commit": "28c8ca5ead9675a4f9ad6584d401d19da0d482b7",
+  "native_history": "Private checkpoint, not stored in Git"
 }

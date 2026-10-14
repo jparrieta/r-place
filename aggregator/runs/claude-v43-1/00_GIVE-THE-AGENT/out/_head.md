@@ -1,6 +1,6 @@
-# Head, claude-v43-1
+# Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C3c, 2026-10-14 (UTC). Stages A1 to C3 are done; stage B is frozen. Stage C3 (the model against the literature) closes at C3c with `done.sh C3 --cut interview`. `validate.py C3` before this close: 0 errors, 0 warnings. Next: the stage after C3, as its stage file says.
+Under 3,000 words, rewritten whole at every close. Last written at C4a, 2026-10-14 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C4 (the model against the field) closes at C4a with `done.sh C4 --cut interview`. `validate.py C4` before this close: 0 errors, 0 warnings. Next: the stage after C4, as its stage file says.
 
 ## The method question, in one sentence
 
@@ -10,35 +10,77 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The model is `model-C3.md`: stage C2's pass 5 with stage C3's changes written in. A member starts a mark, calls gather hands, the hands build, and keeping the mark becomes the work. A call is the first part of a pair: joining is the answer it prefers and comes bare ("I'm in"); refusing is dispreferred and comes with a reason. The calls fill the host sub, and the sub draws a line around them. Keeping the mark brings the room up against neighbours: it talks with them, settles borders, trades help, and joins coalitions under attack. A call can also turn hands against a rival's work; most such calls are refused inside the room, and the refusal's reason states the room's norm or the attack's cost ("Nah, keep /r/place neutral."). A room that judges it cannot hold its spot moves, and keeps calling. The close runs in order: celebrated, recorded, carried on. Placement ends at hour 73. In some rooms a tie from before the canvas names the rival in the attack turn: a claim, untested for order. Decided order is rare, and gathers in the small canvas-born factions that govern a territory. Two forms are boundaries at the return: colour factions the canvas gathered, and hosts ruling on guests.
+The model is `model-C4.md`: stage C3's model with stage C4's changes written in.
+- **The spine.** A member starts a mark, members call others to place, the members who come build, and once the mark stands they keep it.
+- **The call.** A call is the first part of a pair. Joining is the answer it prefers and comes bare ("I'm in"). Refusing comes with a reason.
+- **The host sub.** The calls fill the host sub, and the sub draws a line around canvas talk.
+- **Neighbours.** Keeping the mark brings the room to its neighbours: it talks with them, settles borders, trades help, and joins coalitions under attack. Members make these agreements without the power to make every placer keep them. Both my rooms and the field show this.
+- **Attacks.** A call can turn members against a rival's work. Most such calls are refused inside the room, and the refusal's reason states the room's norm or the attack's cost.
+- **A move.** A room that judges it cannot hold its spot moves, and keeps calling.
+- **The close.** It runs in order: celebrated, recorded, carried on. Placement ends at hour 73. Organizing around the canvas's records and copies goes on after it.
+- **Decided order** is rare, and gathers in the small factions born on the canvas that govern a territory.
+- **A claim, untested for order.** In some rooms a tie from before the canvas names the rival in the attack turn.
+- **Two boundaries at the return:** colour factions the canvas gathered, and hosts ruling on guests.
+- **The four universal problems (C3c).** The rooms allocate work by members choosing their own tasks, divide the picture by a template, inform through the half-built picture and chats, and reward by credit after the work. 19 of 28 fourth-order themes lie outside the four.
+- **Three tentative entries from the field (C4), for stage D:**
+  - P21: members dispute who may commit the room to an agreement;
+  - A21: an arrow from deals to that dispute;
+  - P22: after placement ends, members contest which version of the canvas and the event is kept.
 
-Against the four universal problems (C3c): the rooms allocate by self-selection to calls, divide the picture by a template rather than divide the people, inform through the half-built picture and the chats, and reward by credit after the work. The goal is made on the clock, mostly from a sign the room already had, proposed by one member and argued over in its pixels; votes are rare; loss changes it. 19 of 28 fourth-order themes lie outside the four: the making of boundaries and goals, and order between rooms.
+**The room that best supports the account: day9.** It builds, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
 
-The room that best supports the account is day9, a within-case room told at passes 2 to 5: it builds, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53. The room that most threatens it is thebluecorner, a colour faction whose faith names its rivals, rules on guests by vote and by fit with blue, and splits over doctrine; its setting is the nearest the canvas comes to O'Mahony and Ferraro's. The condition between them is what decides whom a room fights and whom it admits. Where the work decides, the model tells the room. Where a body's faith or a host's rule picks rivals and guests, the model does not reach it.
+**The room that most threatens it: thebluecorner.** It is a colour faction whose faith names its rivals, rules on guests by vote and by fit with blue, and splits over doctrine.
+
+**The condition between them** is what decides whom a room fights and whom it admits. Where the work decides, the model tells the room. Where a body's faith or a host's rule picks rivals and guests, it does not.
 
 ## Where the run stands
 
-C3 outputs in `out/`: `literature-C3.md` (Legs 1 to 3); `notes-C3.md`; `handback-C3.md`; `interview/C3c.md`; `mapping-C3.jsonl` (28 lines); `manifest-C3.txt` (three successors: `model-C3.md`, `structure-C3.md`, `concept-C3.md`, each whole); `findings.jsonl` (25 lines, 17 findings); `model/history.jsonl` (85); `tier_history.jsonl` (478). Snaps run to C3-move-relating-50. No question is open. The tier is unchanged: 28 fourth-order themes in eight dimensions, 197 third-order themes; 28 elements, 20 arrows, no loop.
+C4 outputs in `out/`:
+- `field-C4.md`, `notes-C4.md`, `handback-C4.md`, `interview/C4a.md`;
+- `manifest-C4.txt`, naming two successors written whole: `model-C4.md` and `structure-C4.md`. `concept-C3.md` stands.
+- `out/field/` holds byte-identical copies of the field's two files.
+- Ledgers: `model/elements.jsonl` (30), `model/arrows.jsonl` (21), `model/history.jsonl` (88), `tier_history.jsonl` (480), `findings.jsonl` (25 lines, 17 findings, unchanged).
+
+Snaps run to C4-move-developing-52. QC4-002 is open. The tier is unchanged: 28 fourth-order themes in eight dimensions and 197 third-order themes.
+
+## Stage C4, in short
+
+- **The field.** A separate analyst modelled the event from r/place, sealed from my files, and marked each claim firm (a public exchange) or provisional (an explanation or a limit): two phases and nine processes.
+- **The three claims restated before reading** (dealing with other rooms after keeping the work; decided order rare; each room's order its own): none overturned.
+- **List 1, five shared mechanisms:** agreements members cannot make every placer keep; a specified design and the local template; a request for space answered with terms; recording the work; placement ends at hour 73.
+- **List 2:** P21 with A21, and P22, entered tentative. Neither changes which of the four problems its theme reaches. The event's phases and a smaller venue after a failed template were not entered.
+- **List 3, six items:**
+  - what ended at hour 73 (subject; sentence bounded);
+  - what a template can do (substantive; the sharpest; prose amended);
+  - every room before the canvas (substantive, my own error; prose amended);
+  - where authority is questioned (setting; F-006 stands);
+  - one early buffer against A04's order (not a count disagreement);
+  - dating by the hour of a post (a limit).
+- **One change by move:** the prose of Standardization of output and Boundary work amended (C4-move-relating-51). The entries are snapped as C4-move-developing-52. No finding changed.
+- **The handler's placement error (QC4-001).** The field arrived at `field/` in the run root, and the validator reads `out/field`. I linked it. The handler then asked for a real copy, made and checked by sha256. The guard refused to delete the link, so it was renamed `out/_field-link-superseded-C4a` and waits on QC4-002.
+- **The C3c fork's answers,** set aside for a later stage: the C3a Felin and Zenger ruling (setting, not subject); the arrow from the move back to the goal; Visibility returns; Stigmergy's recalled source.
+
+## J on language (C4, 18:20 Berlin; carry into every head)
+
+"It is important to me that the language is descriptive." "They should use academic writing. As in White and Strunk. Short cohesive sentences."
+- Ask Orwell's six questions of every sentence.
+- Follow ASD-STE100 about 80% of the time: one idea per sentence, active voice, common words with one meaning, and name the actor and the act.
+- Describe what members did, in what order, in how many rooms, and do not write figures of speech. Keep construct names as names, and gloss each in plain words where it first appears.
+
+This changes how I write, not what I claim.
 
 ## Stage C3, in short
 
-- **The PI's message at C3a:** J: "what matters is that you build something you believe in, and you did." J's rulings stand, QC2-001 and QC2-002 included.
-- **The log point (C3a):** `prior.md` read first and restated; `METHOD.md`'s first section and the six method works re-read whole; then `_cite_reads-C3.jsonl` absent, `_mem_reads-C3.jsonl` 63 lines; then the shelf. The substitution held in names.
-- **C3a, contradictions.** O'Mahony and Ferraro: a difference of setting; decided order in 7 of 39 rooms on a colour-faction theme or vetting guests, against 39 of 666 (p 0.014 at held size); F-006 bounded. Bechky: setting, bounding hers. Felin and Zenger: about different things. Olson: open.
-- **C3b, one distant field supplied a mechanism:** conversation analysis (recalled). Refusals of an attack call gave a reason in 23 of 38 read pairs, acceptances in 2 of 14 (p 0.003; F-014). The one-line answer arrow and the refusal arrow are rewritten beside their stage C2 sentences; the one-line answer stays theorised. Four matches not rewritten, each read declined with its reason (dear enemy, superordinate goals, focal points, war of attrition).
-- **C3b, the concept is a relabelling:** the one-line enrolment is the preferred acceptance, renamed as borrowed. Its head-count claim failed (F-015, weak: the rooms judge their numbers by their readership). It adds a setting only. Switch record written.
-- **C3b, two declarations amended** (`mistaken_for` only): Stigmergy (transparent task architecture), Decided order (a shared basis of authority).
-- **C3c, the four universal problems** put to the structure as it stood, nothing revised (F-016). Information: 4 themes, 555 rooms, rich. Reward: 2 themes (Completion ritual by construction; Visibility returns), 543 rooms, rich as credit after the work, thin as an inducement before it (9 rooms). Allocation: 2 themes (Mobilization by construction; Decided order), 394 rooms, rich as self-selection (calls 345), thin as assignment (46). Division: 1 theme, 237 rooms, only by artifact (among teams: 5). The frame would cut through Completion ritual. Remainder 19: 7 between rooms, 8 making the boundary and the goal, machine hands, repair, 2 after the clock. Verdict: a weak form supported; silent on necessity; the frame cannot lose on reward; it leans against sufficiency for telling forms apart.
-- **C3c, the goal (F-017):** proposed by one member in 166 rooms (median first hour 12.7); design argued in 281; a vote in 18 (median hour 42.4); inherited in 152; contested in 152, mostly over the canvas in the host sub; changed in 190, relocating 116. No theme gathers the goal; it is scattered across five.
-- **Sides taken (weak):** the rooms did not offer rewards in the frame's sense; most did not assign.
-- **Slips** are in `notes-C3.md`; at C3c, a write before the post-compaction reconciliation, and a clause attributed to a paper before it was checked.
+- **C3a.** O'Mahony and Ferraro: setting; F-006 bounded (7 of 39 rooms against 39 of 666, p 0.014 at held size). Olson: open.
+- **C3b.** Conversation analysis (recalled) supplied A12's and A16's mechanisms (F-014). The concept is the preferred acceptance, borrowed; its head-count claim failed (F-015, weak).
+- **C3c.** The four universal problems put to the structure (F-016); the goal (F-017).
 
 ## Stage C2, in short
 
 - **J's ruling on QC2-002, verbatim:** "from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Work pass 5 from pass 4's state. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the rooms show membership naming the rival in the same turn as the attack, carry it as a claim in their words, marked as untested for order. This is the last closing pass. Close by saying what you are sure of, what you are not, and why."
 - **Pass 1 (C2a-01).** J ruled at 23:24 Berlin: "If I am not back please simply review and make the interview you find appropriate. Then start C2", and "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The connection statement: "the first concept of FROM comes before the first concept of TO", null of 500 shuffles within each room (seed 20261014).
-- **Passes 2 to 5** added exchange, the contest in talk and coalitions; the host's line; two recuts; the claim and two boundaries. Story counts, told / with residue / not told: 0/20/0, 14/18/0, 16/16/0, 11/21/0, 16/19/0.
-- **The reviewer (C2b, C2c).** QC2-001 (the handler, under J's delegation): serving sections of the pass 3 model file is acceptable. Nine errors, six accepted in full, two in part, one refused; a partition at adjusted Rand 0.661.
+- **Passes 2 to 5.** Story counts, told / with residue / not told: 0/20/0, 14/18/0, 16/16/0, 11/21/0, 16/19/0.
+- **The reviewer (C2b, C2c).** QC2-001 (the handler, under J's delegation): serving sections of the pass 3 model file is acceptable. Nine errors, six accepted in full, two in part, one refused.
 
 ## Stage C1, in short (carry the rulings)
 
@@ -83,25 +125,60 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## Open, carried
 
-- **From C3.** Whether the forms differ on the four universal problems or on the remainder (neighbours, boundaries, goals): for the stage that builds forms. The colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]). Olson, open. The four declined reads. One coder for every C3 code and the mapping. The constructs' C1 sources still recalled.
-- **From C2** (`handback-C2.md`). What a mark brings back into its room, never tested as an element. The two boundaries for the return. Membership outside the claim. The claim untested for order. Attribution as the hinge between restraint and attack, ungrounded.
-- **From C1.** 13 third-order themes whose fourth-order home the partition forced; thin constructs (Decided order, Neo-tribes, Symbolic boundaries); `c1_unapplied.jsonl` (5); four kinds the scheme lacks; the form-pass findings, never counted.
+- **From C4.**
+  - QC4-002, the renamed link.
+  - The tentative P21, A21 and P22, for stage D.
+  - A request for space answered with terms, which is in both sources and not in my model.
+  - Follow-on work after hour 73, which no theme names.
+  - The story still carries the dropped head-count claim.
+  - Declaration prose written at C1 and never tested.
+- **From C3.**
+  - Whether the forms differ on the four universal problems or on the remainder.
+  - The colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]).
+  - Olson, open.
+  - The four declined reads.
+  - One coder for every C3 code and the mapping.
+  - The constructs' C1 sources still recalled.
+- **From C2.** What a mark brings back into its room. The two boundaries for the return. The claim untested for order.
+- **From C1.** Thin constructs (Decided order, Neo-tribes, Symbolic boundaries); `c1_unapplied.jsonl` (5); the form-pass findings, never counted.
 - **From B1.** J counts 841 B1 bags; an older head said 846. Not reconciled.
 - **My doubts.** Where words carry no speaker's sub I read them as the room's own. The verdicts, the vetting coding and the mapping are mine alone.
 
 ## Rules kept
 
-- Never type an id, an order or a name from memory; check with a script. Never log a write before the tool answers. Count a ledger's lines after appending. A claim about a ledger is checked against the ledger before it is logged. A claim about a paper is checked against the shelf before it is written. A finding's status is standing, bounded or withdrawn.
-- There is no `--kind close` and no `--kind episode`; log those as notes. An abductive read is logged with `--kind abductive` before it runs, with its rules written first; a change it makes carries `abductive` and `prompted_by`.
-- A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`. Read an answer with `mem.py asks <id>`.
-- Never put a placeholder or a no-op in a command or a log line. Never put an Edit or Write and the read, dry run or validator run that checks it in one turn. Count the head's words before the closing line.
-- Never write an id-like token the run does not define in the head: `done.sh` reads it as an unresolved link.
-- Do not read `assignments_final.jsonl` where a stage forbids it; draw from the store with `mem.py codes --fourth/--third ... --json` (the label field is `first_order`). `mem.py rooms --with <id>` prints plain text, paged at 80 lines; pass `--limit`. `cite.py` serves by `--room` and `--code`. The theme a reply sits under does not track its stance: code stance by reading.
-- The permission check refuses: shell variables set and expanded in a command; shell loops and words beginning "for_" (an inline Python line starting with "for" included); shell functions, brace groups and heredocs; `find -exec` with braces; awk with system() or `$` fields; env-var prefixes; cat or jq on `out/diary/`; `cut -c` after a read; `head -n -N`. Write a script file in `out/_analysis/` instead. `.git` is read-denied, and so are reads outside the run folder.
-- `mem.py` pages long output (`--offset`, `--limit`). A Bash output above about 30 KB is cut and saved where it cannot be read; measure first. Shelf works with wide lines need small pages (`c3a_shelf_pages.py <name>`; `mem.py shelf <name> --grep`). Never pipe a room read through `head` or `tail`. A Read above about 25,000 tokens is refused.
-- After a compaction, before any other step, a write included: read the head and the stage file again in full, without offset or limit, run `diary --last 5`, and log exactly "compacted; head reconciled" with `--kind note` in a call of its own.
-- Never delete a file; supersede it with a new name. A generated document that must keep its name is corrected in place with Edit, and the script that wrote it is fixed too.
+- **Checking.**
+  - Never type an id, an order or a name from memory; check with a script.
+  - Never log a write before the tool answers. Count a ledger's lines after appending.
+  - Check a claim about a ledger against the ledger, and a claim about a paper against the shelf, before writing it.
+  - Keep the field's firm or provisional mark wherever a field claim is used.
+- **Logging.**
+  - There is no `--kind close` and no `--kind episode`; log those as notes.
+  - Log an abductive read with `--kind abductive` before it runs, with its rules written first.
+  - Log a move with `--kind move` and snap it.
+- **Questions.** A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`. Read an answer with `mem.py asks <id>`.
+- **Writing and checks.**
+  - Never put a placeholder or a no-op in a command or a log line.
+  - Never put an Edit or Write and the check that verifies it in one turn.
+  - Count the head's words before the closing line. Never write an id-like token the run does not define in the head.
+- **Reading the store.**
+  - Draw from the store with `mem.py codes --fourth/--third ... --json` (label field `first_order`); `mem.py codes --grep <re> --json` searches words.
+  - `mem.py rooms --with <id>` prints plain text, paged at 80 lines; pass `--limit`.
+  - `cite.py` serves by `--room` and `--code`.
+  - The theme a reply sits under does not track its stance.
+- **The permission check refuses:**
+  - deleting a file (`rm`), even a link;
+  - shell variables set and expanded; shell loops and words beginning "for_"; shell functions, brace groups and heredocs;
+  - `find -exec` with braces; awk with system() or `$` fields; env-var prefixes;
+  - cat or jq on `out/diary/`; `cut -c` after a read; `head -n -N`.
+
+  Write a script in `out/_analysis/` instead.
+- **Output limits.** A Bash output above about 30 KB is cut; measure first. A Read above about 25,000 tokens is refused.
+- **After a compaction,** before any other step: read the head and the stage file in full, run `diary --last 5`, and log exactly "compacted; head reconciled" with `--kind note` in a call of its own.
+- **Files.** Never delete a file; supersede it with a new name. A generated document that must keep its name is corrected in place with Edit, and its script is fixed too. The field is read from `out/field`.
 
 ## The next comparison
 
-The stage after C3, as its stage file says. Stage C3's file says `field/` arrives at stage C4. Carry into it: the model as `model-C3.md`, the structure as `structure-C3.md`, the concept as borrowed and not leaned on, and the four universal problems' remainder as the candidate extension (order between rooms; the making of boundaries and goals), to be tested against forms when forms are built.
+The stage after C4, as its stage file says. Carry into it:
+- the model as `model-C4.md`, the structure as `structure-C4.md`, and the concept as `concept-C3.md`, borrowed and not leaned on;
+- the tentative field entries, which stage D sends to every room;
+- J's ruling on language for every sentence written.
