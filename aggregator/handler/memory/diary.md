@@ -542,3 +542,10 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Form pass written to form_pass-C1.md: eight findings FP-01 to FP-08 (one-line reply cheapest act; edited post as running record; timing by who is awake; state-and-war vocabulary as common speech, 4,759 concepts in 571 rooms; post "we", reply "I"; canvas collectives named as known actors; submission questions answered least; who leads neither asked nor named). Nine limits listed. FP-04 casts doubt on the T3-010/T3-149 named-words gate; carried to scheme_v2.md watch items and handback.
 - Tokens (dedup): 65 calls, 10.6M cache read, 0.11M output.
 - C1a-10 run: fourth-order themes, scheme_v2.md, handback-C1.md, then the interview cut.
+
+## 2026-10-14 02:48 Berlin, C1a-10 closed, C1a-11 started
+- C1a-10 closed ~00:40Z, checkpoint 3c62436786a0b155, validate 0 errors 0 warnings; last-pass checks run early: 28 T4 over 195 T3, 2 unpicked (T3-017, T3-133), 8 FP ids.
+- Fourth-order themes: 28 (13 borrowed, 14 adapted, 1 coined: T4-025 Visibility returns); 22 merging, 6 relating moves; sources recalled from memory, for C3 to verify. 13 forced placements listed as C2's first recut candidates. Four partitions set aside (families; Puranam et al. four problems; one inter-room construct; stigmergy absorbing emblems).
+- Handler note for the interview: 27 of 28 constructs carry a literature name before C3; Gioia's prize is the nascent concept. Ask, gently, which constructs it would name in the rooms' own words.
+- Tokens (dedup) to be read from json.
+- C1a-11 run: scheme_v2.md, handback-C1.md, interview brief, cut.

@@ -27,8 +27,8 @@ Source: each leg's `CONTROL/snapshots/<leg>/transcript.jsonl`. One API call is w
 | B4a adjudication, packets 1 to 7 | 7 | 1,926 | 3,852 | 13.7M | 928.1M | 6.2M |
 | B4b blind-sample build (B4b, p2, p3, p4) | 4 | 152 | see json | see json | 106.3M | 0.2M |
 | B4c blind-sample check | 1 | 87 | see json | see json | 31.4M | 0.2M |
-| C1a structuring, passes 1 to 9 | 9 | 845 | see json | see json | 394.7M | 1.5M |
-| **Total** | 137 | 23,024 | see json | see json | 11,300.7 M | 27.2M |
+| C1a structuring, passes 1 to 10 | 10 | 912 | see json | see json | 420.0M | 1.6M |
+| **Total** | 138 | 23,091 | see json | see json | 11,326.0 M | 27.3M |
 
 B4a per leg (cache read / output): B4a-01 88.5M / 0.5M; B4a-02 99.2M / 0.6M; B4a-03 139.0M / 0.8M; B4a-04 108.7M / 1.0M; B4a-05 177.8M / 1.3M; B4a-06 177.6M / 1.1M (369 calls); B4a-07 137.3M / 0.9M (257 calls).
 

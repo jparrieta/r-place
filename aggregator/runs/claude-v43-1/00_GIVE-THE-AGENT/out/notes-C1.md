@@ -1018,3 +1018,97 @@ The last-pass checks on the fourth-order themes and the form pass, run now with 
 errors 0
 warnings 0
 ```
+
+## Pass 11 (C1a-11), the last pass
+
+### Opening
+
+- The views after pass 10's close show the placements unchanged, as pass 10 moved none: 10,593 against 13,365 on the settled line, and 194 themes placed. The data-structure view now carries each concept's fourth-order theme.
+
+### `scheme_v2.md` (section 9)
+
+`out/_analysis/c1_scheme_v2_md.py` wrote it from `scheme_v2.jsonl` and the C1 ledgers. It is the whole scheme, not a diff.
+- **Contents.** How to read a theme; the reading rules; the gate block, with all 35 amendments in a table and each with its old and new sentence (for discriminators, only the questions that changed), its reason, the placements it could move, the rechecks done and changed, and the moves that name it; the tier change; the placements moved by cause; the watch items; the index; and every theme with every field, its placements at C1's close, its fourth-order theme and its C1 note.
+- **The theme notes.** 178 themes unchanged, 18 amended by a gate, 1 moved to rare.
+- **The moves by cause.** 2,175 move entries on 2,117 lines: the class 2 ruling 1,990; rechecks after an amended gate 92; the revision rate's errors 29; J's floor 25; the empties pass 16; pass 1 re-reads 10; review of listed lines 6; the lone-B1 floor 4; a pass 1 doubt 2; a flagged record promoted 1.
+
+### The recurring pairs (section 1), and the modifier candidates
+
+`c1_recurring_pairs.py` (output in `out/_analysis/c1_recurring_pairs-C1a-11.txt`) gives what each row of stage B3's pair table became. The table has 20 rows and 19 distinct pairs, since T3-005 | T3-021 appears both ways.
+- **Joints.** 17 pairs were called joints at pass 7 and retained.
+- **Unresolved.** T3-010 | T3-149 is the one unresolved pair. Gates 15, 16, 18 to 21 and 33 rewrote its sentences.
+- **No call owed.** T3-006 | T3-068 has an arguable rate of 0.708, under the 0.713 bar.
+- **The modifier candidates are left, not folded.** T3-089 was first on 3 lines and later on 29 on the settled line; now 3 and 21. T3-152 was 6 and 50; now 6 and 27. The pair test called T3-028 | T3-089 and T3-014 | T3-152 joints, each theme having pure concepts of its own. Each is a second act that travels with its partner, not a qualifier of it, and J's floor already took off its later placements under three concepts.
+
+### Stage B4's figure, and which figure the write-up should use (section 2)
+
+Stage B4 measured transmission after revision. Fresh readers held only the frozen scheme, and each reading was scored by its mean Jaccard against the settled set, over readings with a resolved settled line, in two arms never pooled. Arm 1 (DeepSeek) scored 0.657 on the uniform stratum and 0.544 on the adjudicated one; arm 2 (OpenAI) scored 0.622 and 0.554. Each figure bounds whether the written instrument decides, not whether it is right, and none is reliability.
+
+The revision changed the scheme and the line enough that this figure no longer describes them. It was measured with `scheme_final.jsonl` against `assign_final.jsonl`. C1 amended 35 sentences in 18 themes, which no blind reader has seen, and replaced the line in 2,117 of 7,844 lines. 1,990 of those came by the class 2 ruling, which removed the B1 themes that stage B4 found depressing the uniform figure.
+
+**The write-up should report stage B4's figure as the transmission of the frozen scheme against stage B's line, measured at stage B4, and should say that scheme v2 and `assignments_final.jsonl` have no transmission figure until fresh readers test the revised scheme, which J ruled for after C1.** I did not recompute stage B4's figure against the new line. The revision rate is my agreement with the line, not transmission.
+
+### `handback-C1.md`
+
+It holds:
+- the claim, with naruto t04 and greenlattice t03 and the condition between them;
+- the counts, with where each is recorded;
+- the recurring pairs;
+- stage B4's figure as above;
+- the form pass and the fourth-order themes;
+- what stage C2 and later inherit: the 13 forced placements, the thin constructs, the 27 recalled sources for stage C3, the watch items, the five unapplied errors, the 20 kept placements, the four kinds the scheme lacks, the rule 0 departures, and B1's open items;
+- the licences exercised.
+
+### J's guard, over the whole stage
+
+The guard (`c1_guard_moves.py`) counts each pass's moves to a theme neither reader nor my B1 placed. The next table gives the moves and that count by pass.
+
+| pass | moves | adding a theme | to a theme neither reader nor my B1 placed |
+|---|---|---|---|
+| 1 | 2,000 | 10 | 0 |
+| 2 | 38 | 35 | 33 |
+| 3 | 32 | 16 | 11 |
+| 4 | 34 | 17 | 8 |
+| 5 | 31 | 16 | 6 |
+| 6 | 24 | 8 | 4 |
+| 7 | 0 | 0 | 0 |
+| 8 | 16 | 16 | 0 |
+| 9 | 0 | 0 | 0 |
+| 10 | 0 | 0 | 0 |
+| 11 | 0 | 0 | 0 |
+
+The 62 such moves came from rechecks under amended gates, which QC1-001 places over the whole scheme. At pass 2, 32 of the 33 went onto T3-084. Under gate:6 and the visitor rule, another room's request for help arriving in this room's threads is a request, not this room's help, and no reader had placed T3-084 there. Pass 2's listing is in `out/_analysis/c1_guard_C1a-02-listing.txt`.
+
+### The stopping criterion at pass 11
+
+Pass 11 amended no gate and moved no placement. The criterion holds, as at passes 7 to 10. Recutting stopped at pass 6.
+
+### What I doubt (pass 11)
+
+- **The claim's condition rests on two rooms.** I did not count how many lines are bags whose `also_present` holds more of the room's concepts than the placed theme.
+- **The cause table is my classification of free-text reasons.** A move whose reason names both a gate and J's floor is counted under the gate.
+- **The handback's guard line was wrong in my first draft.** It said 0 at every pass. A head written from memory would have carried the error.
+
+### Slips (pass 11)
+
+- **The first cause table in `scheme_v2.md`.** It tested J's floor before the gate. I fixed the script and corrected the table in place from its `--causes` output.
+- **"1 moves".** It read "1 moves name this gate" where one move named a gate. I fixed the file and the script.
+- **The handback's guard line.** I first wrote 0 at every pass, and then that pass 2's moves went onto T3-011. The guard listing shows T3-084. I corrected both before the close.
+- **A refused command.** It used `cut -c` beside a helper. I read the file with line ranges instead.
+
+### validate.py C1 at the last pass (the full set, with the handback; before `done.sh C1 --cut interview`)
+
+```
+stage C1:
+  scheme_v2: 197 themes (15 rare), frozen 197, retired 0, new 0
+  assignments_final 7844 lines = assignment_items_expected
+  revised lines 2117 of 7844 (moved placements 2094)
+  empties 151 of 7844
+  fourth-order themes 28 over 195 third-order themes, 2 unpicked
+  form pass: 8 FP ids
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+J's guard at pass 11 (`out/_analysis/c1_guard_C1a-11.json`): 0 moves.
