@@ -3,32 +3,32 @@
 
 ## second-order themes and their placements
 - t01 fighting over whether the leaf stays -> unplaced  ->  -> 
-- t02 checking who placed the tile -> T3-087 tracing who changed the work -> Attribution -> 
+- t02 checking who placed the tile -> T3-087 tracing who changed the work -> Attribution -> Maintenance
 - t03 writing a bot for r/erasetheplace -> unplaced  ->  -> 
-- t04 posting and seeing through April Fools jokes -> T3-095 testing others' April Fools claims -> Keying -> 
-- t05 keeping jokes and r/place posts within subreddit rules -> T3-063 removing canvas posts by rule -> Boundary work -> 
-- t06 calling people to build the Linux pictures -> T3-002 calling members in to place -> Mobilization -> 
-- t07 working out what Tux and GNU/Linux should look like -> T3-004 settling the mark's design -> Collective representation -> 
-- t08 making tools to place and repair pixels -> T3-028 running scripts for the work -> Workarounds -> 
-- t09 sending coordination to r/linuxmasterrace and Discord -> T3-014 moving planning into a chat -> Backstage decision-making -> 
-- t10 showing and congratulating the finished work -> T3-009 celebrating the finished work -> Completion ritual -> 
-- t11 defending and repairing Tux and GNU/Linux -> T3-021 watching and repairing the work -> Repair work -> 
-- t12 making room with canvas neighbors -> T3-010 settling borders with neighbours -> Negotiated order -> 
+- t04 posting and seeing through April Fools jokes -> T3-095 testing others' April Fools claims -> Keying -> Host framing
+- t05 keeping jokes and r/place posts within subreddit rules -> T3-063 removing canvas posts by rule -> Boundary work -> Host framing
+- t06 calling people to build the Linux pictures -> T3-002 calling members in to place -> Mobilization -> Critical mass
+- t07 working out what Tux and GNU/Linux should look like -> T3-004 settling the mark's design -> Collective representation -> Coordination without command
+- t08 making tools to place and repair pixels -> T3-028 running scripts for the work -> Workarounds -> Coordination without command
+- t09 sending coordination to r/linuxmasterrace and Discord -> T3-014 moving planning into a chat -> Backstage decision-making -> Coordination without command
+- t10 showing and congratulating the finished work -> T3-009 celebrating the finished work -> Completion ritual -> Imprinting
+- t11 defending and repairing Tux and GNU/Linux -> T3-021 watching and repairing the work -> Repair work -> Maintenance
+- t12 making room with canvas neighbors -> T3-010 settling borders with neighbours -> Negotiated order -> Order without law
 - t13 watching factions go to war -> unplaced  ->  -> 
-- t14 turning the Windows logo into Winblows -> T3-068 converting a neighbour's art -> Repertoire of contention -> 
-- t15 getting the same team behind a new goal -> T3-049 complaining the calls are scattered -> Standardization of output -> 
-- t16 placing it one pixel at a time -> T3-003 reporting one's own placing labour -> Completion ritual -> 
-- t17 showing newcomers how r/place and pixel placement work -> T3-016 explaining what the canvas is -> Sensemaking -> 
-- t19 lamenting the red dot after place ended -> T3-029 mourning the lost work -> Collective memory -> 
-- t18 noticing what sits around the Linux drawing -> T3-052 remarking on neighbouring pictures -> Sensemaking -> 
-- t20 watching a perfect picture fail to last -> T3-073 reporting how the work fared -> Collective memory -> 
-- t21 offering the Rust maintenance botnet -> T3-108 sharing one bot target -> Workarounds -> 
-- t22 joking that the watchers are a botnet -> T3-031 playing the room's in-jokes -> Frame bridging -> 
-- t23 answering the red-dot complaint with imagined Java griefing -> T3-192 griefing the work for fun -> Repertoire of contention -> 
-- t24 trying and failing to remove GNU -> T3-004 settling the mark's design -> Collective representation -> 
-- t25 arguing whether bots made the work worthwhile -> T3-027 arguing whether scripts are fair -> Workarounds -> 
-- t26 answering Save Tux with No -> T3-037 arguing the canvas's worth -> Boundary work -> 
+- t14 turning the Windows logo into Winblows -> T3-068 converting a neighbour's art -> Repertoire of contention -> Order without law
+- t15 getting the same team behind a new goal -> T3-049 complaining the calls are scattered -> Standardization of output -> Coordination without command
+- t16 placing it one pixel at a time -> T3-003 reporting one's own placing labour -> Completion ritual -> Imprinting
+- t17 showing newcomers how r/place and pixel placement work -> T3-016 explaining what the canvas is -> Sensemaking -> Critical mass
+- t19 lamenting the red dot after place ended -> T3-029 mourning the lost work -> Collective memory -> Imprinting
+- t18 noticing what sits around the Linux drawing -> T3-052 remarking on neighbouring pictures -> Sensemaking -> Critical mass
+- t20 watching a perfect picture fail to last -> T3-073 reporting how the work fared -> Collective memory -> Imprinting
+- t21 offering the Rust maintenance botnet -> T3-108 sharing one bot target -> Workarounds -> Coordination without command
+- t22 joking that the watchers are a botnet -> T3-031 playing the room's in-jokes -> Frame bridging -> Collective identity
+- t23 answering the red-dot complaint with imagined Java griefing -> T3-192 griefing the work for fun -> Repertoire of contention -> Order without law
+- t24 trying and failing to remove GNU -> T3-004 settling the mark's design -> Collective representation -> Coordination without command
+- t25 arguing whether bots made the work worthwhile -> T3-027 arguing whether scripts are fair -> Workarounds -> Coordination without command
+- t26 answering Save Tux with No -> T3-037 arguing the canvas's worth -> Boundary work -> Host framing
 
 ## local account
 unreturned; version: no-return; return: none
-# generated by gen_views.py; sources: adaptations.jsonl absent; adaptations-recheck.jsonl absent; adjudications.jsonl absent; adaptation-returns.jsonl absent; elements.jsonl absent; arrows.jsonl absent; assignments_final.jsonl 8b97f5ade6ee34ca; fourth.jsonl bd23401858de12ab; dimensions.jsonl absent; recheck-scope.json absent; model-D3.sha256 absent
+# generated by gen_views.py; sources: adaptations.jsonl absent; adaptations-recheck.jsonl absent; adjudications.jsonl absent; adaptation-returns.jsonl absent; elements.jsonl 239dd7b897032ddf; arrows.jsonl be5b50e65a083767; assignments_final.jsonl 8b97f5ade6ee34ca; fourth.jsonl 675f27cadcd07354; dimensions.jsonl d2345723e3b7a342; recheck-scope.json absent; model-D3.sha256 absent

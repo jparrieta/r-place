@@ -549,3 +549,11 @@ One line per action: `- YYYY-MM-DD HH:MM what was done, to which files, with wha
 - Handler note for the interview: 27 of 28 constructs carry a literature name before C3; Gioia's prize is the nascent concept. Ask, gently, which constructs it would name in the rooms' own words.
 - Tokens (dedup) to be read from json.
 - C1a-11 run: scheme_v2.md, handback-C1.md, interview brief, cut.
+
+## 2026-10-14 08:00 Berlin, C1 closed, interview held, C2 pending handler restart
+- C1a-11 closed 00:56Z at the interview point, checkpoint 9283d5f007aefb4b, validate 0/0 (28 T4 over 195 T3, 8 FP ids). handback-C1.md and interview brief read.
+- Shell outage ~01:00Z to ~07:59Z (disk full on the Mac; handler died). J freed space (snapshots before 14:30Z 13 Oct deleted with delete-old-snapshots.sh; T7 backup verified 0 missing by rsync). 68 GB free at 08:00 Berlin.
+- J restarted the handler 06:19 and ran the interview (session 0b4fe87a, interviews.tsv 04:20Z). Answer saved: analysis/2026-10-14-interview-C1-a1.md. Recap for C2a-01: analysis/2026-10-14-msg-C2a-01-open.txt.
+- Tokens C1a-11 (dedup): 65 calls, 35.6M cache read, 0.07M output. token-usage.md C1a row passes 1 to 11 and Total updated.
+- Handler NOT RUNNING at 08:00 Berlin; C2a-01 waits for legs.py serve.
+- 08:05 Berlin: handler up (pid 3430). Said the C2a-01 opening to C1.C1a-11; ran C2a-01, job 45ac9e8327cd; status running at C2.C2a-01. Note: run legs.py from the mount ~/mnt/arrieta--Jail/r-place/aggregator (the heartbeat lives in ~/Jail/.rplace-claude-legs); the bare r-place mount reports NOT RUNNING. Never run from the T7--Jail mount.

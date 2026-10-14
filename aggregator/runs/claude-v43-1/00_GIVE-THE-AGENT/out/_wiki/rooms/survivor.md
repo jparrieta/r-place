@@ -3,34 +3,34 @@
 
 ## second-order themes and their placements
 - t01 posting r/place images without saying what they show -> unplaced  ->  -> 
-- t02 reviving old tribes and keeping loyalties alive -> T3-023 running an April Fools takeover -> Keying -> 
-- t03 talking like Facebook family -> T3-023 running an April Fools takeover -> Keying -> 
+- t02 reviving old tribes and keeping loyalties alive -> T3-023 running an April Fools takeover -> Keying -> Host framing
+- t03 talking like Facebook family -> T3-023 running an April Fools takeover -> Keying -> Host framing
 - t04 teasing Reddit about who it is -> unplaced  ->  -> 
-- t05 running April Fools games and contests -> T3-023 running an April Fools takeover -> Keying -> 
-- t06 remaking the room as Survivor Facebook -> T3-023 running an April Fools takeover -> Keying -> 
-- t07 checking whether the takeover and posts are real -> T3-095 testing others' April Fools claims -> Keying -> 
-- t08 carrying the prank into other subreddits -> T3-064 spreading the room's joke elsewhere -> Keying -> 
-- t09 performing Facebook-fan talk -> T3-023 running an April Fools takeover -> Keying -> 
-- t10 praising, tiring of, and fixing the prank -> T3-023 running an April Fools takeover -> Keying -> 
+- t05 running April Fools games and contests -> T3-023 running an April Fools takeover -> Keying -> Host framing
+- t06 remaking the room as Survivor Facebook -> T3-023 running an April Fools takeover -> Keying -> Host framing
+- t07 checking whether the takeover and posts are real -> T3-095 testing others' April Fools claims -> Keying -> Host framing
+- t08 carrying the prank into other subreddits -> T3-064 spreading the room's joke elsewhere -> Keying -> Host framing
+- t09 performing Facebook-fan talk -> T3-023 running an April Fools takeover -> Keying -> Host framing
+- t10 praising, tiring of, and fixing the prank -> T3-023 running an April Fools takeover -> Keying -> Host framing
 - t11 making and collecting prank flairs -> unplaced  ->  -> 
-- t12 planning and building a Survivor mark -> T3-038 building and reporting the mark -> Stigmergy -> 
-- t14 defending the Survivor mark pixel by pixel -> T3-005 defending the work against attackers -> Repair work -> 
-- t13 negotiating and moving around neighbouring marks -> T3-010 settling borders with neighbours -> Negotiated order -> 
-- t15 sending plans through spreadsheets, maps, and Discord -> T3-070 sharing coordinates, templates and how-to -> Standardization of output -> 
-- t16 asking for a browser script to place pixels -> T3-028 running scripts for the work -> Workarounds -> 
-- t17 suspecting rotating bot accounts -> T3-027 arguing whether scripts are fair -> Workarounds -> 
-- t19 continuing the joke with a fake Sucks merger -> T3-001 staging April Fools fake news -> Keying -> 
+- t12 planning and building a Survivor mark -> T3-038 building and reporting the mark -> Stigmergy -> Coordination without command
+- t14 defending the Survivor mark pixel by pixel -> T3-005 defending the work against attackers -> Repair work -> Maintenance
+- t13 negotiating and moving around neighbouring marks -> T3-010 settling borders with neighbours -> Negotiated order -> Order without law
+- t15 sending plans through spreadsheets, maps, and Discord -> T3-070 sharing coordinates, templates and how-to -> Standardization of output -> Coordination without command
+- t16 asking for a browser script to place pixels -> T3-028 running scripts for the work -> Workarounds -> Coordination without command
+- t17 suspecting rotating bot accounts -> T3-027 arguing whether scripts are fair -> Workarounds -> Coordination without command
+- t19 continuing the joke with a fake Sucks merger -> T3-001 staging April Fools fake news -> Keying -> Host framing
 - t18 preserving and explaining the prank after it ends -> unplaced  ->  -> 
-- t20 turning a repeated wiki link into part of the joke -> T3-023 running an April Fools takeover -> Keying -> 
-- t21 turning border fights into Survivor catchphrases -> T3-006 calling to deface rivals' work -> Repertoire of contention -> 
-- t22 discovering Frank Ocean through r/place -> T3-052 remarking on neighbouring pictures -> Sensemaking -> 
-- t23 reacting and joking after the mark is erased -> T3-058 blaming attackers after the close -> Rivalry -> 
-- t24 arguing whether the canvas effort is worth caring about -> T3-037 arguing the canvas's worth -> Boundary work -> 
-- t25 denying Denmark used bots -> T3-027 arguing whether scripts are fair -> Workarounds -> 
+- t20 turning a repeated wiki link into part of the joke -> T3-023 running an April Fools takeover -> Keying -> Host framing
+- t21 turning border fights into Survivor catchphrases -> T3-006 calling to deface rivals' work -> Repertoire of contention -> Order without law
+- t22 discovering Frank Ocean through r/place -> T3-052 remarking on neighbouring pictures -> Sensemaking -> Critical mass
+- t23 reacting and joking after the mark is erased -> T3-058 blaming attackers after the close -> Rivalry -> Order without law
+- t24 arguing whether the canvas effort is worth caring about -> T3-037 arguing the canvas's worth -> Boundary work -> Host framing
+- t25 denying Denmark used bots -> T3-027 arguing whether scripts are fair -> Workarounds -> Coordination without command
 - t26 retaliating against a Danish coworker after r/place -> unplaced  ->  -> 
-- t27 using the prank to show Reddit resembles casuals -> T3-023 running an April Fools takeover -> Keying -> 
+- t27 using the prank to show Reddit resembles casuals -> T3-023 running an April Fools takeover -> Keying -> Host framing
 - t28 switching between Facebook parody and sincere opinions -> T3-017 carrying on ordinary sub talk ->  -> 
 
 ## local account
 unreturned; version: no-return; return: none
-# generated by gen_views.py; sources: adaptations.jsonl absent; adaptations-recheck.jsonl absent; adjudications.jsonl absent; adaptation-returns.jsonl absent; elements.jsonl absent; arrows.jsonl absent; assignments_final.jsonl 8b97f5ade6ee34ca; fourth.jsonl bd23401858de12ab; dimensions.jsonl absent; recheck-scope.json absent; model-D3.sha256 absent
+# generated by gen_views.py; sources: adaptations.jsonl absent; adaptations-recheck.jsonl absent; adjudications.jsonl absent; adaptation-returns.jsonl absent; elements.jsonl 239dd7b897032ddf; arrows.jsonl be5b50e65a083767; assignments_final.jsonl 8b97f5ade6ee34ca; fourth.jsonl 675f27cadcd07354; dimensions.jsonl d2345723e3b7a342; recheck-scope.json absent; model-D3.sha256 absent
