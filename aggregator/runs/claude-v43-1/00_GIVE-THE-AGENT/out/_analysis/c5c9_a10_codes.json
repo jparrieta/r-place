@@ -1,0 +1,27 @@
+{
+ "rules": "Diary, C5c-09, abductive (written before the read). J: a judgment of too few hands or too little space comes before the move, and the move follows a loss or erosion of the spot; M: the move comes first and any judgment after it; C: the move is by choice or a coalition's plan, not after a loss; N: the P10 concepts are not a move by the room. voice: room (the judgment speaks for the room, in the plural or of the sub) or member (one member apart). Read from c5c9_a10_read.txt (first three concepts of K02 and of P10 in each of the 21 rooms carrying both), coded by the analyst alone at C5c-09.",
+ "codes": {
+  "FloydVsVoid": {"code": "J", "voice": "member", "note": "'void is too strong' (h30.22, one member leaving for Skeletor) before the smaller triangle and the rebuild (h30.67 to h33.31)"},
+  "GreenCorner": {"code": "M", "voice": "room", "note": "the merge call (h6.98) and 'We may have lost our native corner but the top right corner can be ours!' (h14.63) before 'We give in.' (h44.94)"},
+  "MiamiHurricanes": {"code": "J", "voice": "room", "note": "'i don't think this sub is big enough to sustain it' (h57.63) before 'the U is moving up' (h58.43), with placestart taking the U"},
+  "aceattorney": {"code": "M", "voice": "room", "note": "the first K02 concept (h28.26) is conditional hope, not a judgment of too few; the move after the finger was destroyed (h31.86) comes before 'I don't think we have the manpower' (h38.79)"},
+  "anarcho_capitalism": {"code": "J", "voice": "room", "note": "'We just don't have the people.' (h32.91) before the room's retreat and 'building ancap flag somewhere else' (h36.22, h37.02); the first P10 concept (h9.03) is one member leaving for r/bluecorner"},
+  "fivenightsatfreddys": {"code": "J", "voice": "room", "note": "'Everyone has given up... Osu is taking over.' (h33.55) before the call to stop repairing and move (h33.79 to h34.09)"},
+  "ftlgame": {"code": "M", "voice": "room", "note": "the change of plan after the area was built over (h29.95) comes first; the judgment 'we're outta space' (h41.30) is said inside a move turn; the first K02 concept (h41.95) is not a judgment of hands"},
+  "ghibli": {"code": "M", "voice": "room", "note": "'we were taken over by virginia tech... another good spot' (h50.61) before 'no looking like we're gonna hold onto this' (h57.42)"},
+  "greenlattice": {"code": "J", "voice": "room", "note": "'The lattice is dying', 'We are going to die out', trouble finding active members (h29.26 to h31.45) before 'Consolidate, close borders' and 'retreat and relocate' (h31.59 to h31.89)"},
+  "h3h3productions": {"code": "M", "voice": "room", "note": "restarting after the work 'kept getting erased' (h39.58, h46.09); the only K02 concept (h75.89) is not a judgment of hands"},
+  "halo": {"code": "J", "voice": "member", "note": "'I got outnumbered by the void and the rainbow. Im shutting it down.' (h22.65) before the Red Spartan begun 'to honor blue spartan's sacrifice' (h32.20 to h35.81)"},
+  "masseffect": {"code": "J", "voice": "room", "note": "'we aren't quick enough to compete' and 'we don't stand much of a chance' (h38.74, h39.54) before the relocation with r/2007scape's help (h39.27 offer; h40.16 'wiped out'; h45.66 'We have rebuilt!'); the offer at h39.27 falls between the two judgments"},
+  "metroid": {"code": "M", "voice": "room", "note": "'we are forced to move' as r/india expands (h11.84) comes first, with 'unless a group of people wants to work together to relocate... give up' in the same turn; the first K02 concept is h49.95"},
+  "paranatural": {"code": "M", "voice": "room", "note": "'Void took it over so we're finding a new spot' (h38.15) before 'we're a little too small to make this work' (h54.27)"},
+  "rush": {"code": "J", "voice": "room", "note": "'This sub isn't really big enough.' (h23.25) before relocating near r/TheBlueCorner by its leave (h28.19, h28.28), after an attack (h26.70)"},
+  "russia": {"code": "J", "voice": "room", "note": "'we are too small and protecting our flag spartan-like' (h31.44) before 'weve lost, lets all just try to take a heart flag' (h37.58)"},
+  "shield": {"code": "J", "voice": "member", "note": "'not enough help has come and the project will have to be abandoned... only I've been trying' (h52.97) before 'Retreat to hold Chelsea and PCMasterRace!' (h54.84)"},
+  "texas": {"code": "N", "voice": "room", "note": "the P10 concepts are repair and fighting back ('Gotta repair our own flag first', 'We fight back', 'Fix the border and let's rebuild'), not a move"},
+  "turkey": {"code": "M", "voice": "room", "note": "the proposal to move after sabotage (h19.11) comes first; 'war against r/redcorner is suicide' (h19.22) and 'let's start again from here' (h19.61) follow within minutes; the first K02 concept is h22.96"},
+  "undertale": {"code": "M", "voice": "room", "note": "Flowey restarted after it was destroyed (h23.40, h25.03) before 'it seems pointless, people are destroying it too fast' (h42.53)"},
+  "vinesauce": {"code": "M", "voice": "room", "note": "'consider moving the shroom' as the Void grows (h31.25) and 'start a new shroom' (h31.87) before 'This sub is too weak.' (h49.17)"}
+ },
+ "judgment_inside_move_turn": ["metroid", "ftlgame", "turkey", "fivenightsatfreddys", "anarcho_capitalism"]
+}

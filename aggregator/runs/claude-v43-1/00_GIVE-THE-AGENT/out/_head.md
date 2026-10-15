@@ -16,7 +16,7 @@ The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `
 - **The bare answer.** Members answer a call in one line that gives no reason, the preferred acceptance of conversation analysis, borrowed. Replies to attack calls: refusals gave a reason in 23 of 38, acceptances in 2 of 14 (F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
 - **Alignment without decision** (theorised, thin). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
-- **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]. Where border talk came first, it mostly offered terms before any damage (34 of 38 read). Members also trade help [A13, A14] and join coalitions [A19]. Members make agreements without the power to make every placer keep them.
+- **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]. Where border talk came first, it mostly offered terms before any damage (19 of 26 to 36 of 38, two coders). Members also trade help [A13, A14] and join coalitions [A19]. Members make agreements without the power to make every placer keep them.
 - **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17]; refusals usually give a reason (F-014).
 - **Loss** (thin). A room that judges it has too few hands moves [A10]. No loop is grounded.
 - **The close.** Members celebrate, record and carry the work on [A07, A08, A09]. Placement stops at hour 73 for every room. After it, members curate the record (P12; P22 tentative), apart from carrying on (P13).
@@ -38,9 +38,9 @@ The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `
   3. Stigmergy is recut only if it joins what Heylighen 2016 and Grassé 1959 keep apart.
   4. The C5 readers are the second reader of the declarations; QC5-001 adds the field analyst.
   5. J's language ruling stands.
-- **Passes 1 to 4 (C5a).** The declarations were amended under the prose rule. A04 was bounded. P06 and R02 were cut; K01 was cut and restored (move 92). Nine propositions were written. The criterion (`notes-C5.md`, written before pass 1) preferred each pass and said "no change" of pass 4.
+- **Passes 1 to 4 (C5a).** Declarations amended under the prose rule; A04 bounded; P06 and R02 cut; K01 cut and restored (move 92); nine propositions. The criterion preferred each pass, then "no change" of pass 4.
 - **C5b.** The readers' rooms: cardinals, luciomains, mysterydungeon.
-- **J, 15 October.** 07:59 Amsterdam: I decide what comes into the model and what goes out, by my own criterion. 08:35 and 09:09 (QC5-001): the field analyst reads all 36 declarations whole against the members' quotes.
+- **J, 15 October, 07:59 to 09:09 Amsterdam.** I decide what enters and leaves the model, by my own criterion; the field analyst reads all 36 declarations against the members' quotes (QC5-001).
 - **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part. Ten errors were fixed and 34 sentences rewritten.
 - **J, 11:02 Amsterdam.** The field analyst's marks are advice, not evidence the model fails; the Stigmergy decision is mine.
 - **C5c-02 (pass 6).** Stigmergy recut by three codings (moves 93 to 95); four arrows recounted (A01 now fair); F-018 written. 94 pieces of advice accepted, 30 kept, 35 declarations amended (moves 96 to 130).
@@ -50,19 +50,20 @@ The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `
 - **C5c-06 (pass 10).** The three restorations read as intended; no change, so the passes stop.
 - **J, 13:45 and 14:14 Amsterdam (C5c-07, QC5-002).** The freeze is lifted for serial work. Texts are on file; Stigmergy is argued from organization design. The border package is `field-packages-C5b/`; findings go to `serial-C5/`; the head at C5d's close is `serial-C5/head-before-serial.md`. Order: the unit, thin evidence, Stigmergy and "aligned", the reason test.
 - **C5c-08 (pass 11).** The room or a group of rooms is again the actor in 5 declarations, 5 elements and 4 arrows (moves 150 to 163): `serial-C5/finding-1-unit.md`.
+- **C5c-09 (pass 12).** Thin evidence: the border second coding scored (kappa 0.19); A10, A05 and A14 read in every room; A05's line theorised; F-019, F-020 (moves 164 to 167): `serial-C5/finding-3-thin-evidence.md`.
 
 ## Where the run stands
 
 - **C5 outputs:** `account.md` (last changed at pass 8) and its earlier passes, `propositions.jsonl` (9; earlier passes kept), `prose-test-C5.md`, `sketches.md` (five arrangements), `account_passes.jsonl` (11 lines), `notes-C5.md`.
 - **C5b to C5d outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`; C5d's `data_structure-C5.md`, `figure-C5.md`, `implications-C5.md`, `handback-C5.md` and `interview/C5d.md`, to be redone.
-- **Ledgers:** `tier_history.jsonl` 559, `model/history.jsonl` 128, `findings.jsonl` 28 lines (18 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
-- **Snaps** run to C5-move-developing-163. Scripts: `out/_analysis/c5*`.
+- **Ledgers:** `tier_history.jsonl` 559, `model/history.jsonl` 132, `findings.jsonl` 30 lines (20 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
+- **Snaps** run to C5-move-developing-167. Scripts: `out/_analysis/c5*`.
 - **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
 - **The questions.** QC5-001 is answered; its field reading is out. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
 ## Stage C4, in short
 
-The field's analyst modelled the event from r/place, sealed from my files. Five mechanisms are shared, and P21, A21 and P22 entered as tentative. The sharpest disagreement is what a template can do, where I trust the field and my rooms over my declaration. No finding changed.
+The field analyst modelled r/place, sealed from my files: five mechanisms shared; P21, A21 and P22 tentative; the sharpest disagreement is what a template can do. No finding changed.
 
 ## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
@@ -168,4 +169,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The next leg works the second problem in the revised order (`notes-C5.md`, C5c-08), on `model/` as pass 11 left it.
+The next leg works the third problem in the revised order (`notes-C5.md`, C5c-08), on `model/` as pass 12 left it.

@@ -1,0 +1,28 @@
+{
+ "elements": {},
+ "arrows": {
+  "A04": {"replace": [{"field": "bound",
+    "old": "At C5a-02, the first border talk in a seeded sample of 40 of the 166 rooms where border talk comes first was read: in 34 of the 38 that bear on it, members propose or ask a border, space, a truce or a deal and name no damage to their own work (28 of 38 if every doubtful code is turned); 4 answer damage. Where border talk comes first, it mostly offers terms before any damage.",
+    "new": "At C5a-02, the first border talk in a seeded sample of 40 of the 166 rooms where border talk comes first was read, and at C5c-09 the field analyst coded the same 40 records blind. By the rule written before the second coding came back, a record both coded alike takes that code and a split record is counted both ways: the first border talk proposes or asks a border, space, a truce or a deal and names no damage to the room's own work in 19 of 26 to 36 of 38 of the records that bear on it (the field analyst's codes alone: 21 of 26). The coders agree on 23 of 40 (Cohen's kappa 0.19): 12 of the 17 splits are records the field analyst read as reports of talk rather than offers of terms, and 5 split between terms and damage. At both ends of the range, where border talk comes first it mostly offers terms before any damage."}],
+   "say": "takes the two-coder range for its first-turn reading",
+   "why": "Problem 3, thin evidence (C5c-09): the field analyst's blind second coding (sources-from-J/RETURN-border-C5b.jsonl) scored by the rule logged at C5c-07 (c5c9_border_score.py); the count becomes a range with its agreement, and the claim holds at both ends"},
+  "A05": {"replace": [{"field": "bound",
+    "old": "Sparing often comes first and tacit, before any talk; the arrow holds where restraint rests on a border already settled.",
+    "new": "Sparing often comes first and tacit, before any talk; the arrow holds where restraint rests on a border already settled. Read whole at C5c-09 (all 158 rooms; codes written first): the first sparing names a border, truce, deal, policy or agreement in 17 of the 124 rooms where it is the room sparing a neighbour (11 of 81 where border talk comes first, 6 of 43 where it does not); the rest state a norm of the room ('Don't ruin other people work' [czech/c0062]), refuse a raid or apologise. By the rule written first (under a third), the mechanism is theorised, and the arrow stands as an order near its null (F-020)."},
+    {"field": "grounding_note",
+    "old": "Disconfirming: sparing only before any talk.",
+    "new": "Disconfirming: sparing only before any talk. At C5c-09 the mechanism is marked theorised: the line is named in 17 of 124 rooms' first sparing (F-020)."}],
+   "say": "keeps its order count and marks its mechanism theorised",
+   "why": "Problem 3, thin evidence (C5c-09): every room carrying both elements read whole under codes logged first (c5c9_a05_codes.json, c5c9_order_tally.py); the line shows in 11 of 81 rooms where the order holds, under the third the rule set"},
+  "A10": {"replace": [{"field": "bound",
+    "old": "and a room inside a coalition can move by the coalition's plan with no doubt of its own (MiamiHurricanes).",
+    "new": "and a room inside a coalition can move by the coalition's plan (MiamiHurricanes, which voiced its own doubt an hour before). Read whole at C5c-09 (all 21 rooms; codes written first): in 10 the judgment of too few hands or space came before the move, after a loss or erosion (7 voiced for the room, 3 by one member apart); in 10 the loss itself prompted the move, and the judgment came after it or inside the move turns; 1 did not move. Read as a coalition's move, MiamiHurricanes makes it 9 of 20. Of the 36 rooms that voiced such doubt and whose record says the work was lost, 10 moved; of the 26 with no move, 11 gave the work up, 7 voiced the doubt before any loss and 8 otherwise. After doubt and a loss, a room moves or gives the work up; the arrow holds for those that move (F-019)."}],
+   "say": "takes the whole-room read and names giving up as the other outcome",
+   "why": "Problem 3, thin evidence (C5c-09): all 21 rooms read whole under codes logged first (c5c9_a10_codes.json), and the rule 6 check read the 26 rooms with doubt, a lost work and no move (c5c9_a10_reverse_codes.json); MiamiHurricanes' pass 2 reading corrected"},
+  "A14": {"replace": [{"field": "bound",
+    "old": "Where a room's first relation to a neighbour is help, help comes first.",
+    "new": "Where a room's first relation to a neighbour is help, help comes first. Read whole at C5c-09 (all 214 rooms; codes written first): the first help names a deal, border, truce, alliance, an exchange or the neighbour relation as its ground in 86 of the 194 rooms where it is help between rooms: 63 of 127 (0.496) where border talk comes first, against 23 of 67 (0.34) where help comes first ('As per the terms, we will help with the triangle' [TeamYellowPlace/c0047]). The rule written first set a half for shown in words and a third for theorised; 0.496 falls between, and I judge the mechanism shown in words on the contrast between the two groups of rooms (F-020)."}],
+   "say": "takes the whole-room read; its mechanism shown in words by judgment, the rule not deciding",
+   "why": "Problem 3, thin evidence (C5c-09): every room carrying both elements read whole under codes logged first (c5c9_a14_codes.json, c5c9_order_tally.py); 63 of 127 lies between the rule's two lines"}
+ }
+}

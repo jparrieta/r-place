@@ -864,6 +864,41 @@ The finding is `serial-C5/finding-1-unit.md`. In short:
 
 **Slips, C5c-08.** I ran an Edit and a `sed` on `c5c8_unit_sweep.py` as parallel calls. Both landed, since the rerun used the new code.
 
+## C5c-09: problem 3, thin evidence (pass 12)
+
+The finding is `serial-C5/finding-3-thin-evidence.md`. In short:
+- **The stance.** I wrote it first and then checked it against Gioia et al. 2013 (pp. 16, 18, 20) and Grodal et al. 2021 (pp. 597, 598, 599, 604).
+  - A rare-thin claim stands on my reading, with its count beside it.
+  - A weak-thin order stands on its count.
+- **The border second coding,** scored by the rule logged at C5c-07: terms before damage in 19 of 26 to 36 of 38, with kappa 0.19. The claim holds at both ends.
+- **A10, the move after doubt.** The judgment came before the move in 10 of 20 rooms, or 9 if one mixed room is read the other way. Of the 26 rooms that voiced doubt, lost their work and did not move, 11 gave the work up (F-019).
+- **A05, border talk to sparing.** The first sparing names a line in 17 of 124 rooms, so the mechanism is theorised. Sparing rests mostly on the room's own norm (F-020).
+- **A14, border talk to help.** The first help names a deal or the neighbour relation in 63 of 127 rooms where border talk comes first, against 23 of 67 where help comes first. The rule written first does not decide 0.496, and I judge the mechanism shown in words (F-020).
+- **The writes.** Four arrows were amended (C5-move-developing-164 to 167). No count, strength or element changed.
+
+**What the criterion says about pass 12: prefer.**
+- *Item 1:* one mechanism that claimed more than its words show is now marked theorised.
+- *Items 2 and 3:* unchanged.
+- *Item 4:* Live and let live, Reciprocity and Collective efficacy now have read evidence for their mechanisms.
+
+**Slips, C5c-09.**
+- **A command refused whole.** A Bash command that chained a log line, an inline script and a file read was refused as a whole. I reran the parts separately, and nothing in it had run.
+- **Finding ids as tier events.** The pass 12 line first named F-019 and F-020 as tier events. The check takes tier events only from the tier and model histories, so the line was rewritten without them (`c5c9_fix_pass12.py`).
+- **A share rounded up.** The tally script prints 63 of 127 as 0.50; it is 0.496.
+
+## The close-check, C5c-09
+
+`python3 tools/validate.py C5`, run after the reads, the writes, the finding and the head:
+
+```
+stage C5:
+  data_structure-C5.md: 195 rows, 192 quotes checked
+  leg: check; passes 12, propositions 9, elements 30, arrows 21, history lines 132
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-08
 
 `python3 tools/validate.py C5`, run after the restorations, the finding and the head were written:
