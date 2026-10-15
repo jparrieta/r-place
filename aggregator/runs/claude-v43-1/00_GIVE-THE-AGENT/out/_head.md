@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5c-12, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch (C5c-07). The four problems (C5c-08 to C5c-11) and the fold-in (C5c-12, pass 15) are done. C5d is redone next and closes C5 with `done.sh C5 --cut interview`. `validate.py C5`: 0 errors, 0 warnings.
+Under 3,000 words, rewritten whole at every close. Last written at C5c-13, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch (C5c-07). The four problems (C5c-08 to C5c-11), the fold-in (C5c-12, pass 15) and C5d's work, redone in C5c-13 by J's ruling (16:29 Amsterdam), are done. Stage C5 is finished; the interview follows; stage D waits for J. `validate.py C5`: 0 errors, 0 warnings.
 
 ## The method question, in one sentence
 
@@ -49,11 +49,11 @@ The account is `account.md`, pass 15 (3,318 words; passes 1, 3, 4, 5 and 8 kept)
 ## Where the run stands
 
 - **C5 outputs:** `account.md` (pass 15) and earlier passes, `propositions.jsonl` (9; earlier passes kept), `prose-test-C5.md` (pass 14 kept), `sketches.md`, `account_passes.jsonl` (15 lines), `notes-C5.md`, and `serial-C5/` (the four findings and the head before the serial work).
-- **C5b to C5d outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`, `field-packages-C5b/`; C5d's `data_structure-C5.md`, `figure-C5.md`, `implications-C5.md`, `handback-C5.md` and `interview/C5d.md`, to be redone.
+- **C5b to C5d outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`, `field-packages-C5b/`; and, redone at C5c-13, `data_structure-C5.md` (195 rows), `figure-C5.md` (21 boxes, 20 arrows), `implications-C5.md` (13 expectations), `handback-C5.md` and `interview/C5c-13.md`; C5d's versions kept as `-p14`.
 - **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 134, `findings.jsonl` 36 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Snaps** run to C5-move-developing-171. Scripts: `out/_analysis/c5*`.
-- **Still open in C5:** the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
-- **The questions.** QC5-001 and QC5-002 are answered. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
+- **Still open in C5:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
+- **The questions.** QC5-001 and QC5-002 are answered. QC5-003 asks how the freeze is re-recorded (C5d's hash 24d18e0e…; pass 15's e15f9647…). QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
 ## Stage C4, in short
 
@@ -163,4 +163,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The next leg redoes C5d from `model/` as pass 15 left it. The four finding files in `serial-C5/` list what its outputs must take.
+Stage C5 is finished with the model as pass 15 left it. The next comparison is the one the next stage file sets, against the thirteen expectations in `implications-C5.md`.

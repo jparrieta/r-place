@@ -972,6 +972,52 @@ The finding is `serial-C5/finding-2-reason-test.md`. In short, under J's framing
 - **A proposition id in the head.** The rewritten head named a proposition id. It was reworded before the link check passed.
 - **A quote corrected silently.** At C5c-09 I had corrected the spelling of a member's quote in F-019 and in finding 3. Both now carry the record's spelling.
 
+## C5c-13: C5d's work redone after the serial work
+
+**J's ruling (16:29 Amsterdam, through the PI).** The handler cannot reopen C5d, a closed leg. This leg redoes C5d's work from the model as pass 15 left it, under a C5c label. The earlier outputs are kept as `data_structure-C5-p14.md`, `figure-C5-p14.md`, `implications-C5-p14.md` and `handback-C5-p14.md`.
+
+**The rule that chose the table's rows** is the one logged at C5d before that table was built, applied unchanged (`c5c13_data_structure.py`, a copy of C5d's script that changes only its title and log name):
+- one row per third-order theme that a fourth-order theme gathers;
+- rooms taken from the four size quarters in turn, with seed 20261015;
+- the residue below the table.
+
+The result matches C5d's: 195 rows, quartiles 45, 55, 56 and 36, and residue T3-017 and T3-133. Only T4-007's name differs. All 192 quotes resolve.
+
+**What was redone:**
+- **`figure-C5.md`** (`c5c13_figure.py`):
+  - 21 boxes and 20 arrows: 19 shown by a transition, 1 by a quote;
+  - A11 and A12 theorised, and A05's mechanism theorised;
+  - P03's box named for posting the work's state;
+  - giving the work up named among what the figure leaves out.
+- **`implications-C5.md`:**
+  - the theory question with the two routes (F-022), "aligned" (F-021), settling what to act on (F-023, F-014), help through deals and sparing on the room's own norm (F-020), and a loss followed by a move or by giving up (F-019);
+  - the day9 counterfactual, which borrows A14's channel and not A05's theorised line;
+  - thirteen expectations;
+  - which forms keep the work alive.
+- **`handback-C5.md`:** it states that C5d's work was redone here and why, gives the stage's final-message content as the model now stands, and reports both model hashes.
+- **`interview/C5c-13.md`:** 650 words. Step C5c has no interview point in `tools/steps.tsv`, so this leg closes with plain `done.sh C5`, and the brief stays at its leg name for the interview that follows.
+
+**The model freeze (QC5-003).** `done.sh` records the model's hash only when a C5d leg closes.
+- `_closes/model-C5.sha256` holds C5d's hash: 24d18e0e…216d7.
+- The model as pass 15 left it hashes to e15f9647…b3fecd.
+- I asked how the freeze is to be re-recorded, and I left `_closes/` untouched.
+
+**Slips, C5c-13.**
+- **Edits and their checks in one turn.** The table script's title Edit and its grep ran in one turn, and so did the brief's Write and its word count. Both checks were read-only and saw the change.
+
+## The close-check, C5c-13
+
+`python3 tools/validate.py C5`, run after the table, the figure, the implications, the handback, the brief and the head:
+
+```
+stage C5:
+  data_structure-C5.md: 195 rows, 192 quotes checked
+  leg: check; passes 15, propositions 9, elements 30, arrows 21, history lines 134
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-12
 
 `python3 tools/validate.py C5`, run after the account, the propositions, the prose test, the model change and the head:
