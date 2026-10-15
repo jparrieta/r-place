@@ -1,0 +1,18 @@
+{
+ "elements": {
+  "P12": {"replace": [
+    {"field": "statement", "old": "The room records what happened to its work:", "new": "The room records what happened to its work and to the canvas around it:"}],
+   "why": "T4-027's accepted advice (C5c-02-p2): the records also list other rooms' work and the canvas around the room's own [pokemon/c0506]"},
+  "P13": {"replace": [
+    {"field": "statement", "old": "At the close the room decides what of its temporary effort to keep:", "new": "Near the close and after it, members propose, and some carry out, what of the room's temporary effort to keep:"}],
+   "why": "T4-028's accepted advice: the count is gated on rooms writing after hour 73 and some acts came before it [minecraft/c0188 at h46.25]; members propose what to carry on, and some do it"},
+  "K02": {"replace": [
+    {"field": "statement", "old": "The room judges that it has too few hands", "new": "Members judge that the room has too few hands"}],
+   "why": "T4-012's declaration: single members voice the judgment in a thread; it is not shown to be the room's shared belief"}
+ },
+ "arrows": {
+  "A10": {"replace": [
+    {"field": "mechanism", "old": "A room that judges it has too few hands to hold its spot stops fighting for it and moves.", "new": "Members who judge that the room has too few hands to hold its spot stop fighting for it and move."}],
+   "why": "the same as K02: single members voice the judgment (T4-012); the account and the proposition already say members"}
+ }
+}

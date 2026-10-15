@@ -557,6 +557,47 @@ Pass 6 changed two elements' statements (P02, P03), the fourth-order tier (Stigm
 
 **Slip, C5c-03.** The head first named three proposition ids, which the link check does not resolve. It was reworded before the close.
 
+## C5c-04: the fourth check pass (pass 8)
+
+**What the pass read.** It read pass 7's twelve changes as they stand. All twelve say what their declarations and findings now say. It then swept every standing element, arrow mechanism and proposition against the advice accepted at pass 6. That sweep found five claims pass 7 missed:
+- P13: "At the close the room decides what to keep". T4-028's accepted advice: the count is gated on rooms writing after hour 73, some acts came before it [minecraft/c0188, h46.25], and members propose what to carry on;
+- P12: "records what happened to its work". T4-027's: the records also cover the canvas around the room's work [pokemon/c0506];
+- K02 and A10: "the room judges". T4-012's: single members voice the judgment, which is not shown to be the room's shared belief;
+- N05's boundary, which read the 78 rooms with no posts in the prior week as subs opened for the canvas. T4-002's: a quiet week does not show when a room began;
+- the account's "lasting groups". T4-028's and D07's: an announced group is shown, a lasting one is not.
+
+**What it did.** Each claim takes the wording already accepted, and nothing new is claimed.
+- Four moves (C5-move-developing-143 to 146), each with a `model/history.jsonl` line keeping the old line.
+- N05's boundary was edited, and `propositions.jsonl` was regenerated. Pass 7's copies are kept as `c5_propositions-p7.json` and `propositions-p7.jsonl`. Only N05's boundary and N08's carried mechanism changed.
+- One phrase in the account was changed, and its title now records pass 8.
+
+**What was kept, and why.** P05's "keep the placed work against erosion" stays. The list after the colon names acts (watch, repair, defend, cover the night), not an outcome.
+
+**What the criterion says about pass 8: prefer.**
+1. **Over-reaching sentences: five fewer.**
+2. **Rooms told:** unchanged, with 23 elements.
+3. **Tested arrows:** every one kept; no count changed.
+4. **The prose test:** unchanged.
+5. **The readers:** they do not run again.
+
+**What is due next.** Pass 8 changed three element statements, so by section 7 a further pass is due. The sweep covered every standing element, arrow mechanism and proposition, so that pass reads these four changes and the N05 boundary.
+
+**Slips, C5c-04.**
+- **Parallel edits.** Two Edits to the head ran as parallel calls. Both landed, and a later turn counted the words and ran the link check.
+- **A proposition id in the head, again.** The head named one proposition id, as at C5c-03. It was reworded before the close.
+
+## The close-check, C5c-04
+
+`python3 tools/validate.py C5`, run after the pass 8 line and before the head was rewritten:
+
+```
+stage C5:
+  leg: check; passes 8, propositions 9, elements 30, arrows 21, history lines 116
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-03
 
 `python3 tools/validate.py C5`, run after the pass 7 line and before the head was rewritten:

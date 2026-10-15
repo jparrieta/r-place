@@ -13,9 +13,11 @@ import copy, datetime, json, os, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, "out")
 LEG = open(os.path.join(ROOT, ".leg")).read().strip()
-spec = json.load(open(os.path.join(OUT, "_analysis", "c5c3_model_spec.json"), encoding="utf-8"))
+SPEC = sys.argv[sys.argv.index("--spec") + 1] if "--spec" in sys.argv else "c5c3_model_spec.json"
+spec = json.load(open(os.path.join(OUT, "_analysis", SPEC), encoding="utf-8"))
 WRITE = "--write" in sys.argv
-n = 131
+n = int(sys.argv[sys.argv.index("--first") + 1]) if "--first" in sys.argv else 131
+PASS = sys.argv[sys.argv.index("--pass") + 1] if "--pass" in sys.argv else "7"
 
 
 def run(args):
@@ -44,13 +46,14 @@ for kind, fname in (("elements", "elements.jsonl"), ("arrows", "arrows.jsonl")):
             continue
         open(path, "w", encoding="utf-8").write("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows))
         line = {"t": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "stage": "C5",
-                "leg": LEG, "id": xid, "event": "%s amended (pass 7)" % ", ".join(sorted({r["field"] for r in s["replace"]})),
+                "leg": LEG, "id": xid, "event": "%s amended (pass %s)" % (", ".join(sorted({r["field"] for r in s["replace"]})), PASS),
                 "move": "developing or dropping working hypotheses", "why": s["why"], "was": was}
         with open(os.path.join(OUT, "model", "history.jsonl"), "a", encoding="utf-8") as f:
             f.write(json.dumps(line, ensure_ascii=False) + "\n")
         run([os.path.join("tools", "mem.py"), "log",
-             "%s Move (developing or dropping working hypotheses), pass 7: %s brought into line with what it repeats. %s. "
-             "Findings touched: none changed." % (xid, line["event"].split(" amended")[0], s["why"]), "--kind", "move"])
+             "%s Move (developing or dropping working hypotheses), pass %s: %s brought into line with what it repeats. "
+             "%s. Findings touched: none changed." % (xid, PASS, line["event"].split(" amended")[0], s["why"]),
+             "--kind", "move"])
         print("   " + run([os.path.join("tools", "snap.py"), "C5", "move-developing-%d" % n]))
         n += 1
 print("done" if WRITE else "all replacements check; nothing written")

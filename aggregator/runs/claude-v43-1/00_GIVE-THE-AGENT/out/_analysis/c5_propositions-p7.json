@@ -1,0 +1,148 @@
+{
+ "N01": {
+  "statement": "When a member starts a mark (R01), members call others to place (P01); after a call, members build the mark and report it (P03); once the mark stands, members keep it (P05).",
+  "rests_on": [
+   "A02",
+   "A01",
+   "A03"
+  ],
+  "theorised": false,
+  "carried_by": "pattern",
+  "thin": false,
+  "level": "element: a chain of three arrows, each with its own mechanism",
+  "rival": "The order is how threads are made: a call is a thread's title and the build reports are comments under it, so the order follows the coders' choice of turns.",
+  "decides": "The null holds each room's coded turns and hours fixed. With the joining lines stripped out, the call still comes before the build in 78 of 126 rooms (A01), and in 50 rooms a build report replies to a call in the same thread (121 transitions).",
+  "falsify_elsewhere": "On another shared surface with a per-account rate limit, groups would build before anyone calls as often as after, or keep a finished work no more often than an unfinished one.",
+  "boundary": "Where a member places alone before any call, the call follows the first build (A01's bound); where the mark was found already placed or a rival attacked first, upkeep comes first (A03's bound)."
+ },
+ "N02": {
+  "statement": "When members keep a mark (P05), they turn to other rooms: they talk borders with neighbours (P08), ask other rooms for help (P16) and join coalitions under attack (P17). Where border talk comes before upkeep, it mostly offers terms before any damage.",
+  "rests_on": [
+   "A04",
+   "A13",
+   "A19"
+  ],
+  "theorised": false,
+  "finding": "F-008",
+  "carried_by": "pattern",
+  "thin": false,
+  "level": "dimension: Maintenance to Order without law; the three arrows share the mechanism that keeping a work brings a room into relations with other rooms; A19 is thin",
+  "rival": "Neighbours were there from the room's first post, so the talk comes with the spot and not from keeping it.",
+  "decides": "On the late side only 6 of 15 rooms hold A04's order. In the 166 rooms where border talk comes first, the first border talk offers terms before any damage in 34 of 38 read at C5a-02 (A04's bound).",
+  "falsify_elsewhere": "On another shared surface, groups that keep their work would meet their neighbours no more often after upkeep than before it.",
+  "boundary": "Late rooms that arrive at a full surface or enter through another room's offer (A04's, A19's bounds); hosts ruling on guests (P19, a candidate)."
+ },
+ "N03": {
+  "statement": "A call to place can turn members against a rival's work (P01 to P09). Members of the same room answer the call to attack: they refuse it, usually with a reason (F-014), rein in the attackers or apologise (P07), or point to a truce (P08). Where the attack goes on, members carry the contest on in talk (P18).",
+  "rests_on": [
+   "A15",
+   "A16",
+   "A17",
+   "A18"
+  ],
+  "theorised": false,
+  "finding": "F-014",
+  "carried_by": "both",
+  "primary": "pattern",
+  "thin": false,
+  "level": "element: a chain; A16 and A17 share the mechanism that a contest is answered by the order between rooms (Contention to Order without law); A15 and A18 have their own",
+  "rival": "Restraint is coded only when there is an attack call to refuse, so the order is built into the coding (A16 is partly constitutive).",
+  "decides": "Sparing comes first, with no call, in 22 of 104 rooms. In 52 rooms a refusal by another member replies to a specific attack call within minutes (127 transitions). Refusals give a reason in 23 of 38 read pairs and acceptances in 2 of 14 (F-014), which the coding of themes does not produce.",
+  "falsify_elsewhere": "In another population, attack calls would draw no refusal inside the calling group, or refusals would come as bare as acceptances.",
+  "boundary": "Colour factions whose faith names the rival (thebluecorner): the model tells their attack calls, not why their faith picks the rival."
+ },
+ "N04": {
+  "statement": "After members report a mark done (P03), they celebrate it (P11), record what they celebrated (P12) and carry the record on (P13). Placement stops at hour 73 for every room; after it, members can celebrate, record, curate the record and carry it on, and they can no longer place.",
+  "rests_on": [
+   "A07",
+   "A08",
+   "A09"
+  ],
+  "theorised": false,
+  "finding": "F-004",
+  "carried_by": "pattern",
+  "thin": false,
+  "level": "dimension: Coordination without command to Imprinting (A07), then inside Imprinting (A08, A09)",
+  "rival": "Celebrations and records cluster at the end of the event in every room, so the order is the clock's and not the room's.",
+  "decides": "The null shuffles labels within each room's own hours, so a shared clock cannot produce the order. A07 holds on the early side in 38 of 65 rooms; A08 holds on the late side in only 8 of 15.",
+  "falsify_elsewhere": "In another episode with an imposed end, groups would record before they celebrate as often as after.",
+  "boundary": "Where the clock cut the work unfinished, members mark the attempt (A07's bound); late rooms often record first (A08's bound)."
+ },
+ "N05": {
+  "statement": "When members call for hands in a standing sub (P01), the sub's moderators and members draw a line around canvas talk (P20): a megathread, removals by rule, a canvas sub, objections to the flood.",
+  "rests_on": [
+   "A20"
+  ],
+  "theorised": false,
+  "finding": "F-010",
+  "carried_by": "pattern",
+  "thin": false,
+  "level": "dimension: Critical mass to Host framing",
+  "rival": "A removal needs a post to remove, so the line follows a call by definition (A20 is partly constitutive).",
+  "decides": "23 rooms draw the line first. Counted by actor while the canvas runs, the calls come before the host sub's rulings in 102 of 118 rooms and before members' objections in 57 of 64.",
+  "falsify_elsewhere": "In another passing event inside standing communities, the communities would contain it as often before any member posts about it as after.",
+  "boundary": "Subs opened for the canvas, which have no prior business to protect (78 of 705 rooms have no posts in the week before)."
+ },
+ "N06": {
+  "statement": "When upkeep needs more placements than members can make (P05), members turn to scripts and spare accounts (P14).",
+  "rests_on": [
+   "A06"
+  ],
+  "theorised": false,
+  "finding": "F-005",
+  "carried_by": "pattern",
+  "thin": false,
+  "level": "dimension: Maintenance to Coordination without command",
+  "rival": "The members who run scripts are the members who keep the work, so the order follows who is active, not strain.",
+  "decides": "The reverse order, scripts before upkeep, holds in 41 of 203 rooms, below its null mean (F-005); in 117 transitions in 53 rooms a script or spare account answers upkeep within minutes.",
+  "falsify_elsewhere": "Under a per-account rate limit elsewhere, groups would turn to automation before any upkeep as often as after.",
+  "boundary": "Rooms that scripted the building from the start, and spare accounts used for an attack before any upkeep (A06's bound)."
+ },
+ "N07": {
+  "statement": "Members try to align their placing without deciding how they are organized: they answer a call in one bare line (P15), a design argued in a thread is settled by a posted template (P04), and a decided element of order appears in 46 of 705 rooms (C01).",
+  "rests_on": [
+   "A11",
+   "A12"
+  ],
+  "theorised": true,
+  "finding": "F-006",
+  "carried_by": "both",
+  "primary": "words",
+  "thin": true,
+  "level": "element: two theorised arrows and a claim on a finding",
+  "rival": "Members decided their organization in chats that the record does not hold, so the absence of decided order is the instrument's.",
+  "decides": "Nothing in the record decides it. Chats reached the thread with a decision in 33 rooms. The claim that decided order is absent elsewhere is about rooms writing in public, and it is weak (contract section 5).",
+  "falsify_elsewhere": "In another population whose chats are on the record, decisions about who does what would appear wherever the work was large.",
+  "boundary": "Rooms that govern a territory for a colour or vet others' requests to build, where decided order is coded more often, the gap lying in the smaller rooms (F-006's bound)."
+ },
+ "N08": {
+  "statement": "When members judge that the room has too few hands to hold its spot (K02), the room stops fighting for it and moves (P10), and members keep calling for the new spot.",
+  "rests_on": [
+   "A10"
+  ],
+  "theorised": false,
+  "finding": "F-002",
+  "carried_by": "pattern",
+  "thin": true,
+  "level": "dimension: Critical mass to Order without law; one thin arrow",
+  "rival": "Rooms move by a coalition's plan or by choice, and the judgment of too few hands is written after the move.",
+  "decides": "The order holds in 11 of 21 rooms, and the arrow's one transition fails the audit. A late room wrote its judgment after the move (guatemala, h79.1). To firm it up: read every move with the turns before it, in more than 21 rooms.",
+  "falsify_elsewhere": "Elsewhere, groups that lose ground would move as often with no voiced doubt as with it.",
+  "boundary": "Rooms inside a coalition that move by the coalition's plan (A10's bound)."
+ },
+ "N09": {
+  "statement": "A settled border (P08) gives members a line by which they spare the neighbour's work (P07) and a channel through which the two rooms trade help (P16).",
+  "rests_on": [
+   "A05",
+   "A14"
+  ],
+  "theorised": false,
+  "carried_by": "pattern",
+  "thin": true,
+  "level": "inside Order without law; two thin arrows",
+  "rival": "Sparing is tacit and comes first, and help comes with the neighbour, not with the border.",
+  "decides": "Sparing comes first in 52 of 158 rooms (A05's failures). Both arrows beat their nulls' 95th percentile by a little: A05 by 0.013, A14 by 0.009. To firm it up: read the border talk and the first sparing or help in each room for a reply between them.",
+  "falsify_elsewhere": "Elsewhere, neighbours who settle a border would spare and help each other no more often than neighbours who never talked.",
+  "boundary": "Neighbours who spare each other with no talk at all (Live and let live)."
+ }
+}
