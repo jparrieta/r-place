@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5c-08, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch: four problems, one leg each, then a fold-in leg and C5d again (the plan: `notes-C5.md`, C5c-07 and C5c-08). `validate.py C5`: 0 errors, 0 warnings.
+Under 3,000 words, rewritten whole at every close. Last written at C5c-12, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch (C5c-07). The four problems (C5c-08 to C5c-11) and the fold-in (C5c-12, pass 15) are done. C5d is redone next and closes C5 with `done.sh C5 --cut interview`. `validate.py C5`: 0 errors, 0 warnings.
 
 ## The method question, in one sentence
 
@@ -10,19 +10,19 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `account-p1.md` to `account-p5.md`), with the readers' disagreements beside it in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`.
-- **Direct information sharing (T4-007, Stigmergy until C5c-10; F-018).** By three codings, T3-041 and T3-060 moved to Collective representation. The theme keeps building and reporting the mark alone (10 of 14 bearing records report the work's state), one member against C2's criterion.
-- **The spine.** A member starts a mark [R01]. Calls follow the start in 64 of 89 rooms [A02], building follows calls in 81 of 126 [A01], and keeping follows building in 148 of 190 [A03].
-- **The bare answer.** In written replies, acceptances come bare (25 of 31 to calls to place, F-023) and refusals give a reason (3 of 3; attack calls 23 of 38, F-014); most calls get no written reply. The head-count claim failed (F-015).
+The account is `account.md`, pass 15 (3,318 words; passes 1, 3, 4, 5 and 8 kept), with the readers' disagreements in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`. A room, or a group of rooms, is the actor where its members spoke or acted for it.
+- **The spine.** A member starts a mark [R01]. The room's calls follow the start in 64 of 89 rooms [A02], building follows calls in 81 of 126 [A01], and keeping follows building in 148 of 190 [A03].
+- **The bare answer.** Most calls get no written reply. In written replies, acceptances come bare (25 of 31 to calls to place, F-023) and refusals give a reason (3 of 3; attack calls 23 of 38, F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
-- **Alignment without decision** (theorised, thin). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
-- **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]. Where border talk came first, it mostly offered terms before any damage (19 of 26 to 36 of 38, two coders). Members also trade help [A13, A14] and join coalitions [A19]. Members make agreements without the power to make every placer keep them.
-- **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17]; refusals usually give a reason (F-014).
-- **Loss** (thin). A room that judges it has too few hands moves [A10]. No loop is grounded.
-- **The close.** Members celebrate, record and carry the work on [A07, A08, A09]. Placement stops at hour 73 for every room. After it, members curate the record (P12; P22 tentative), apart from carrying on (P13).
+- **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call, so there the room aligned many hands; the others tried (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
+- **Direct information sharing (T4-007, Stigmergy until C5c-10).** Members post the mark's state (10 of 14 bearing records; F-018); one member, against C2's criterion. Posting the state and sharing templates are carried largely apart (89 rooms both, 80 by chance; F-022).
+- **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]; border talk that came first mostly offered terms (19 of 26 to 36 of 38, two coders). Help names a deal in 63 of 127 rooms where border talk came first, against 23 of 67 [A14; F-020]. Sparing rests mostly on the room's own norm, so A05's mechanism is theorised (F-020). Rooms join coalitions [A19] and cannot make every placer keep an agreement.
+- **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17].
+- **Loss** (thin). A room that judges it has too few hands moves [A10]; read whole, the judgment came first in 10 of 20 rooms that moved. After doubt and a loss, 10 rooms moved and 11 gave the work up (F-019). No loop is grounded.
+- **The close.** The room celebrates, records and carries the work on [A07, A08, A09]. Placement stops at hour 73; after it, rooms curate the record (P12; P22 tentative), apart from carrying on (P13).
 - **Machine hands.** Scripts follow upkeep under strain [A06].
-- **C02** (untested for order): a tie from before the canvas names the rival in the attack turn.
-- **Cut to candidate:** P06 (attribution) and R02 (the envoy). K01 was restored and carries no arrow (F-009). 23 elements stand.
+- **C02** (untested for order): a tie the room had before the canvas names the rival in the attack turn.
+- **Cut to candidate:** P06 and R02. K01 restored, with no arrow (F-009). 23 elements stand.
 
 **The room that best supports the account: day9.** It offers a neighbour terms before any damage, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
 
@@ -38,29 +38,22 @@ The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `
   3. Stigmergy is recut only if it joins what Heylighen 2016 and Grassé 1959 keep apart.
   4. The C5 readers are the second reader of the declarations; QC5-001 adds the field analyst.
   5. J's language ruling stands.
-- **Passes 1 to 4 (C5a).** Declarations amended under the prose rule; A04 bounded; P06 and R02 cut; K01 cut and restored (move 92); nine propositions. The criterion preferred each pass, then "no change" of pass 4.
-- **J, 15 October, 07:59 to 09:09 Amsterdam.** I decide what enters and leaves the model, by my own criterion; the field analyst reads all 36 declarations against the members' quotes (QC5-001).
-- **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part. Ten errors were fixed and 34 sentences rewritten.
-- **J, 11:02 Amsterdam.** The field analyst's marks are advice, not evidence the model fails.
-- **C5c-02 (pass 6).** Stigmergy recut by three codings (moves 93 to 95); four arrows recounted (A01 now fair); F-018 written. 94 pieces of advice accepted, 30 kept, 35 declarations amended (moves 96 to 130).
-- **Passes 7 and 8.** The model took pass 6's wording (moves 131 to 146).
-- **J, 12:01 Amsterdam (advice).** The room is the unit; demote a room claim only where members act apart from it.
-- **C5c-05 (pass 9).** K02, A10 and P13 restored to the room (moves 147 to 149).
-- **C5c-06 (pass 10).** No change; the passes stopped.
-- **J, 13:45 and 14:14 Amsterdam (C5c-07, QC5-002).** The freeze is lifted for serial work. The border package is `field-packages-C5b/`; findings go to `serial-C5/`; the head at C5d's close is `serial-C5/head-before-serial.md`. Order: the unit, thin evidence, Stigmergy and "aligned", the reason test.
-- **C5c-08 (pass 11).** The room or a group of rooms is again the actor in 5 declarations, 5 elements and 4 arrows (moves 150 to 163): `serial-C5/finding-1-unit.md`.
-- **C5c-09 (pass 12).** Thin evidence: the border second coding scored (kappa 0.19); A10, A05 and A14 read in every room; A05's line theorised; F-019, F-020 (moves 164 to 167): `serial-C5/finding-3-thin-evidence.md`.
-- **C5c-10 (pass 13).** Stigmergy renamed Direct information sharing (Okhuysen and Bechky 2009); D02 "aligned" in 233 of 370 rooms with calls; F-021, F-022 (moves 168, 169): `serial-C5/finding-4-stigmergy-aligned.md`.
-- **C5c-11 (pass 14).** The reason test: survival counted first; calls to place read; F-023, F-014 superseded, A12 amended (move 170): `serial-C5/finding-2-reason-test.md`.
+- **Passes 1 to 4 (C5a).** Declarations amended under the prose rule; A04 bounded; P06 and R02 cut; K01 cut and restored (move 92); nine propositions.
+- **J, 07:59 to 09:09 Amsterdam.** I decide what enters and leaves the model; the field analyst reads all 36 declarations against the members' quotes (QC5-001).
+- **Passes 5 to 8 (C5c-01 to C5c-04).** The readers' errors fixed; Stigmergy recut by three codings (F-018); 94 pieces of field advice accepted, 30 kept (moves 93 to 146).
+- **J, 11:02 and 12:01 Amsterdam.** The field analyst's marks are advice; the room is the unit. Passes 9 and 10 restored K02, A10 and P13 to the room, then changed nothing.
+- **J, 13:45 and 14:14 Amsterdam (C5c-07, QC5-002).** The freeze is lifted for serial work; argue from organization design; say how each problem serves the two questions. The border package for a second coder is `field-packages-C5b/`.
+- **The serial work, passes 11 to 14,** each with its finding in `serial-C5/`: the unit (C5c-08, moves 150 to 163); thin evidence (C5c-09, F-019, F-020, moves 164 to 167); Stigmergy renamed and "aligned" (C5c-10, F-021, F-022, moves 168 and 169); the reason test (C5c-11, F-023, F-014 superseded, move 170).
+- **C5c-12 (pass 15), the fold-in.** The findings folded once into the account, the propositions (the border proposition narrowed), the prose test and the model (A16, move 171); F-019's quote restored to the record's spelling.
 
 ## Where the run stands
 
-- **C5 outputs:** `account.md` (last changed at pass 8) and its earlier passes, `propositions.jsonl` (9; earlier passes kept), `prose-test-C5.md`, `sketches.md` (five arrangements), `account_passes.jsonl` (11 lines), `notes-C5.md`.
-- **C5b to C5d outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`; C5d's `data_structure-C5.md`, `figure-C5.md`, `implications-C5.md`, `handback-C5.md` and `interview/C5d.md`, to be redone.
-- **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 133, `findings.jsonl` 35 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
-- **Snaps** run to C5-move-developing-170. Scripts: `out/_analysis/c5*`.
-- **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
-- **The questions.** QC5-001 is answered; its field reading is out. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
+- **C5 outputs:** `account.md` (pass 15) and earlier passes, `propositions.jsonl` (9; earlier passes kept), `prose-test-C5.md` (pass 14 kept), `sketches.md`, `account_passes.jsonl` (15 lines), `notes-C5.md`, and `serial-C5/` (the four findings and the head before the serial work).
+- **C5b to C5d outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`, `field-packages-C5b/`; C5d's `data_structure-C5.md`, `figure-C5.md`, `implications-C5.md`, `handback-C5.md` and `interview/C5d.md`, to be redone.
+- **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 134, `findings.jsonl` 36 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
+- **Snaps** run to C5-move-developing-171. Scripts: `out/_analysis/c5*`.
+- **Still open in C5:** the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
+- **The questions.** QC5-001 and QC5-002 are answered. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
 ## Stage C4, in short
 
@@ -170,4 +163,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The four problems are done. The next leg is the fold-in the plan names (`notes-C5.md`, C5c-07), on `model/` as pass 14 left it.
+The next leg redoes C5d from `model/` as pass 15 left it. The four finding files in `serial-C5/` list what its outputs must take.

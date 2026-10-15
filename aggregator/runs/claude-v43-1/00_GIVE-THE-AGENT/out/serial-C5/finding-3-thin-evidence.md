@@ -80,7 +80,7 @@ The stance was logged with `--kind abductive` before I read either source or any
 - **Codes:** J 10, M 10, N 1 (texas: repair and fighting back).
 - **J is 10 of 20,** exactly at the rule's line.
 - **Who voices the judgment:** the room in 7 rooms, and one member apart in 3 (FloydVsVoid, halo, shield).
-- **An example of J:** "We just don't have the people." [anarcho_capitalism/c0031], then "Building ancap flag somewhere else would be a good idea" [anarcho_capitalism/c0077]. Another: "We are going to die out" [greenlattice/c0318], then "should we retreat and relocate" [greenlattice/c0349].
+- **An example of J:** "We just don't have the people." [anarcho_capitalism/c0031], then "Buildling ancap flag somewhere else would be a good idea" [anarcho_capitalism/c0077] (the record's spelling, restored at C5c-12). Another: "We are going to die out" [greenlattice/c0318], then "should we retreat and relocate" [greenlattice/c0349].
 - **In the M rooms, the loss itself prompts the move:** "We will have to start over from someplace else" [aceattorney/c0036]. In five rooms the judgment is said inside the move turns, so the coders placed it under the move.
 - **One mixed room.** MiamiHurricanes voiced its own doubt ("i don't think this sub is big enough to sustain it") an hour before a move that came by a coalition's plan. Read as a coalition's move, J is 9 of 20, and the rule does not decide. The pass 2 bound had said it had "no doubt of its own"; that reading is corrected.
 
