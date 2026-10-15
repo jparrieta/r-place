@@ -249,6 +249,75 @@ Pass 3 changed one element's status, so by section 7 another pass is due before 
 - **Parallel edits.** Two Edits to the head ran as parallel calls while I cut it below 3,000 words. Both landed, and a later turn counted the words and ran the link check.
 - **The head's length.** The head first came to 3,118 words. I cut repeated lines until it was 2,995 words.
 
+## C5b: the readers' build
+
+**The manifest entry.** Stage C5's entry is in `run_manifest.json`.
+- **The readers:** claude-opus-5-5, one per packet, through the Claude CLI, sent by the operator's `fleet.py`. There are three readers, and they run once.
+- **Seeds and decoding:** the seed is 20261015 throughout, and the dispatch sets the decoding.
+- **Pinned:** `account.md` (sha256 77b5e35d…), `figure-C5.md`, `propositions.jsonl`, `author_claims.jsonl` and `RETURN-C5.md`. The packets' hashes are added once they are built.
+
+**author_claims.jsonl.** Nine claims, c1 to c9, each tied to its paragraph:
+- c1: the order from a start to keeping the work;
+- c2: the bare answer;
+- c3: the mark tells members what is missing;
+- c4: neighbours, and agreements no one can enforce;
+- c5: the contest and how members answer it;
+- c6: a template settles a design, and decided order is rare;
+- c7: hour 73, and curation after it;
+- c8: where the account does not reach;
+- c9: the rule that decides whether an element stays.
+
+**The three rooms (section 8), drawn by query.**
+- **The side visited least.** `account.md` cites or names 7 early-side rooms and 2 late-side rooms (`c5b_room_sizes.py`). So the third room comes from the late side.
+- **The rule, logged before the draw.** There are three pools, and one room is drawn from each with `random.Random(20261015)`:
+  1. a pass 5 story room told with no residue, not cited or named in the account, with at least 8 coded passages (10 rooms);
+  2. a pass 5 story room told with a residue (19 rooms; none was untold);
+  3. a late-side room not cited or named in the account, not a story room, with at least 8 coded passages (43 rooms).
+- **The rooms drawn:**
+  - cardinals, from pool 1, with 102 coded passages;
+  - luciomains, from pool 2, with 103 coded passages, on the early side;
+  - mysterydungeon, from pool 3, with 54 coded passages; its first coded turn is at h52.62.
+- **How the rooms are served, and why it changed twice.**
+  - The first rule served each room whole: its facts, its forest and every quote, up to 4,500 bytes. No room in pools 1 or 2 fitted.
+  - The second rule served each room's facts and 10 passages by `cite.py`'s seeded draw. The packets then measured 54,154 to 54,815 bytes.
+  - The third rule, which is served, gives 7 passages per room. The forest's summary line is left out of the facts, since the forest is not served.
+  - Each revision was logged before the pages were opened for content. Seven passages are a random sample of each room's record. A reader's paragraph on a room judges that sample, not the whole room. The size rule is a limit of the packet, not of the model.
+
+**J's ruling 4 and the Stigmergy codes: the second reading.**
+- **What fits.** Each packet holds `account.md` (10,839 bytes), `figure-C5.md` (5,032) and `propositions.jsonl` (19,202), with the instruction and the rooms, under 51,200 bytes. The 36 amended declarations come to about 40 KB before their quotes. They do not fit beside the rest, even split across three readers.
+- **The declarations served.** They are read from the ledger (`fourth/fourth.jsonl`, `dimensions.jsonl`), not from `structure-C4.md`.
+  - The rule is served: its reading parts, and the scope paragraph of the C5a-02 extension.
+  - The 40 sentences of the 36 declarations that hold a word from the rule's lists are served (`c5b_in_question.py`). Quotes and citations are not searched for the words. These are the sentences the rule puts in question, and the reader says whether each stands.
+  - Each declaration goes whole to one reader, split by bytes: reader 1 has 8 declarations (12 sentences), reader 2 has 9 (13) and reader 3 has 9 (15).
+  - Ten declarations have no sentence in question and are not served: Keying, Sensemaking, Collective efficacy, Reciprocity, Neo-tribes, Completion ritual, Collective memory, Transition, Critical mass and Contention.
+- **The Stigmergy codes.**
+  - The 72 records drawn at C5a-01 are served, 24 per reader by member theme: reader 1 has T3-038, reader 2 T3-041 and reader 3 T3-060.
+  - Each record goes through `cite.py` with its words, citation and hour. My codes and the coders' labels are not shown, so each reader codes blind.
+  - The code definitions are served as written before the read; the decision rule is not.
+  - The account states the result (31 of 52), so a reader may be anchored by it.
+- **What is not served.** The whole declarations are not served, nor their sentences outside the rule's word lists, with the members' quotes those carry. The rooms' forests are not served either. J asked for the amended declarations with their members' quotes. The ceiling allows the sentences the rule puts in question, with the quotes inside them. I record this as a departure from the letter of the ruling and asked the handler (QC5-001). Meanwhile the packets go out as built.
+- **The return.** `RETURN-C5.md` carries the stage's return line and two keys for the second reading: `declarations`, one verdict per sentence served, and `codes`, one code per record.
+
+**Slips, C5b.**
+- **Order.** The stage sets this order: the manifest entry, the claims, the rooms named in these notes, then `RETURN-C5.md` and the packets. I drew the rooms and wrote `RETURN-C5.md` before the manifest entry, and drew the rooms before the claims. The claims were written from `account.md` alone.
+- **A no-op command.** I ran a command with an empty heredoc. It changed nothing.
+- **Parallel edits.** Two Edits to `c5b_figure.py` ran as parallel calls. Both landed, and the script's output was checked after.
+- **The figure named A21.** The paragraph on what the figure leaves out named A21 by id. The check reads every arrow id in the figure as drawn, so it reported two errors. The paragraph now names the arrow by its ends (P08 to P21). `figure-C5.md` was written again, the three packets were rebuilt, and the manifest entry's digests were read again.
+
+**The packets as sent.** C5-reader-1 is 50,998 bytes, C5-reader-2 is 51,023 and C5-reader-3 is 51,040, under the 51,200 ceiling. Each carries the instruction verbatim and the end line, and none names these notes.
+
+## The close-check, C5b
+
+`python3 tools/validate.py C5`, run after the packets were rebuilt and before the head was rewritten:
+
+```
+stage C5:
+  leg: build, packets out; passes 4, propositions 9, elements 30, arrows 21, history lines 94
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5a-04
 
 `python3 tools/validate.py C5`, run after the pass 4 line and before the head was rewritten:

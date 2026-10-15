@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5a-04, 2026-10-15 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open: pass 4 (C5a-04) closes with `done.sh C5`. `validate.py C5` before this close: 0 errors, 0 warnings. Pass 4 changed no element and no cut, so by section 7 the passes stop, and I chose (under the handler's delegation) to move to C5b next.
+Under 3,000 words, rewritten whole at every close. Last written at C5b, 2026-10-15 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open. The passes stopped at pass 4, and C5b, the readers' build, closes with `done.sh C5 --cut packets-out`. `validate.py C5` before this close: 0 errors, 0 warnings. J runs the dispatch; the next launch of C5 is the check leg.
 
 ## The method question, in one sentence
 
@@ -21,7 +21,7 @@ The account is `account.md`, pass 4 (1,869 words; passes 1 and 3 kept as `accoun
 - **The close.** Members celebrate, record and carry the work on [A07, A08, A09]. Placement stops at hour 73 for every room. After it, members curate the record (P12; P22 tentative), apart from carrying on (P13).
 - **Machine hands.** Scripts follow upkeep under strain [A06].
 - **C02** (untested for order): a tie from before the canvas names the rival in the attack turn.
-- **Cut at C5a-02 to candidate:** P06 (attribution) and R02 (the envoy). K01 (the April Fools frame) was cut at C5a-02 and restored at C5a-03: ten of the 16 told story rooms tell the frame beside the work through it. K01 carries no arrow (F-009). 23 elements stand.
+- **Cut at C5a-02 to candidate:** P06 (attribution) and R02 (the envoy). K01 (the April Fools frame) was restored at C5a-03 and carries no arrow (F-009). 23 elements stand.
 - **Which rule keeps an element** (C5a-04, in the account's last section): the criterion. The arrow rule names candidates and limits what is said of an element with no arrow.
 
 **The room that best supports the account: day9.** It offers a neighbour terms before any damage, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
@@ -38,19 +38,19 @@ The account is `account.md`, pass 4 (1,869 words; passes 1 and 3 kept as `accoun
   3. Stigmergy is amended only after Heylighen 2016 and Grassé 1959 are read whole (`out/sources-from-J/`), and recut only if it joins what they keep apart.
   4. The second reader is C5's three readers: the C5b packets carry the rule and the amended declarations with their quotes.
   5. J's language ruling stands.
-- **C5a-01 (pass 1).** All 28 fourth-order declarations were amended under the prose rule (a universal, comparative, causal or cyclic sentence stands only on a count or test). Stigmergy kept its cut (31 of 52 records report the work's state or act on it). Three mapping lines were corrected, F-016 superseded in wording, and my claim that no one could see who placed a pixel withdrawn.
-- **C5a-02 (pass 2).** Seven dimensions amended under the extended rule (moves 81 to 87); A04 bounded by the P08 test (move 88); P06, K01 and R02 cut for want of an arrow (moves 89 to 91); nine propositions written; the four mistaken-for differences stated.
-- **C5a-03 (pass 3).** The cuts were read against the 35 pass 5 story rooms. K01's cut was reversed (move 92), because without it ten told rooms would carry the April Fools frame as residue. P06 and R02 stay cut, since no telling rested on them.
-- **C5a-04 (pass 4).** The handler asked which rule governs, since K01 stands with no arrow. The criterion governs: section 4 sets the count by what keeps explanatory power alive, and the model broke the arrow rule from C2's first pass (five standing elements with no arrow). Pass 2 erred in using the arrow rule as the decider. No element, arrow, tier or cut changed.
+- **C5a-01 and C5a-02 (passes 1 and 2).** All 28 fourth-order declarations and seven dimensions were amended under the prose rule. Stigmergy kept its cut (31 of 52 records report the work's state or act on it). A04 was bounded by the P08 test. P06, K01 and R02 were cut for want of an arrow. Nine propositions were written.
+- **C5a-03 and C5a-04 (passes 3 and 4).** K01's cut was reversed (move 92), since ten told story rooms rest on it. The criterion, not the arrow rule, decides whether an element stays; the model broke the arrow rule from C2's first pass. Pass 4 changed nothing, so the passes stopped.
 - **The criterion** (written before pass 1, `notes-C5.md`) preferred pass 3 over pass 2 (the same 16 story rooms told with no residue, at the cost of one element) and says "no change" of pass 4.
+- **C5b (the readers' build).** Three rooms were drawn by rule: cardinals (told), luciomains (told with a residue) and mysterydungeon (the late side, visited least). Under the 50 KB ceiling, each room is served as its facts and 7 seeded passages. For J's ruling 4, the packets serve the rule and the 40 sentences it puts in question, not the whole declarations, and the 72 Stigmergy records to code blind (QC5-001 asks if that suffices).
 
 ## Where the run stands
 
 - **C5 outputs:** `account.md` (pass 4, 1,869 words), `account-p1.md`, `account-p3.md`, `propositions.jsonl` (9), `prose-test-C5.md` (36 pass, 4 flagged: Critical mass, Live and let live, Reciprocity, Collective efficacy), `sketches.md` (five arrangements), `account_passes.jsonl` (4 lines), `notes-C5.md`.
+- **C5b outputs:** `figure-C5.md` (a draft; drawn again at C5d), `author_claims.jsonl` (9), `RETURN-C5.md` (plus `declarations` and `codes`), `_packets-C5/` (3, under 51,200 bytes), the C5 entry in `run_manifest.json`; scripts `out/_analysis/c5b_*`.
 - **Ledgers:** `tier_history.jsonl` 515, `model/history.jsonl` 94, `findings.jsonl` 26 lines (17 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Snaps** run to C5-move-developing-92. The scripts are `out/_analysis/c5_*`.
-- **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose, so the packets build declarations from the ledger; the Stigmergy and P08 codes, mine alone; the four flagged names.
-- **The questions.** QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
+- **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
+- **The questions.** QC5-001 is open. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
 ## Stage C4, in short
 
@@ -162,4 +162,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The passes have stopped. The next comparison is criterion item 5: what the three readers recover of my claims, against `author_claims.jsonl`. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.
+The packets are out. In the check leg, the next comparison is criterion item 5: what the three readers recover of my claims, against `author_claims.jsonl`, both ways. Beside it come the readers' verdicts on the 40 sentences in question and their codes on the 72 Stigmergy records, set against mine. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.
