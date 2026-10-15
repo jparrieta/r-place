@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5c-04, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 is open. Pass 8 (C5c-04) closes with `done.sh C5`; `validate.py C5`: 0 errors, 0 warnings. Pass 8 changed three element statements, so by section 7 another pass is due.
+Under 3,000 words, rewritten whole at every close. Last written at C5c-05, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 is open. Pass 9 (C5c-05) closes with `done.sh C5`; `validate.py C5`: 0 errors, 0 warnings. Pass 9 restored two element statements, so by section 7 one more pass reads those restorations; then C5d.
 
 ## The method question, in one sentence
 
@@ -41,18 +41,20 @@ The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `
 - **Passes 1 to 4 (C5a).** The declarations were amended under the prose rule. A04 was bounded. P06 and R02 were cut; K01 was cut and restored (move 92). Nine propositions were written. The criterion (`notes-C5.md`, written before pass 1) preferred each pass and said "no change" of pass 4.
 - **C5b.** Rooms: cardinals, luciomains, mysterydungeon (7 seeded passages each); 40 sentences and 72 Stigmergy records went to the fleet.
 - **J, 15 October.** 07:59 Amsterdam: I decide what comes into the model and what goes out, by my own criterion. 08:35 and 09:09 (QC5-001): the field analyst reads all 36 declarations whole against the members' quotes.
-- **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part; none recovered c3 or c8. Their cardinals verdict came from 7 passages, a packet error. Ten errors were fixed and 34 sentences rewritten.
-- **J, 11:02 Amsterdam.** The field analyst's 117 "not standing" marks are advice to improve, not evidence that the model fails to apply. The handler: change a sentence where the advice convinces me, keep it otherwise with a line, and report both; the Stigmergy decision is mine.
-- **C5c-02 (pass 6).** Stigmergy was recut by three codings (moves 93 to 95), with A01, A03, A07 and A11 recounted (A01 strong to fair; all still beat their nulls), F-016 superseded and F-018 written. On the declarations I accepted 94 pieces of advice and kept 30 (23 lists of member themes), amending 35 declarations (moves 96 to 130). The fleet and the field agree on 21 of their 40 shared sentences.
+- **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part. Ten errors were fixed and 34 sentences rewritten.
+- **J, 11:02 Amsterdam.** The field analyst's marks are advice, not evidence the model fails; the Stigmergy decision is mine.
+- **C5c-02 (pass 6).** Stigmergy recut by three codings (moves 93 to 95); four arrows recounted (A01 now fair); F-018 written. 94 pieces of advice accepted, 30 kept, 35 declarations amended (moves 96 to 130).
 - **C5c-03 and C5c-04 (passes 7 and 8).** Eleven element statements, five arrow mechanisms and four propositions took the wording pass 6 accepted (moves 131 to 146).
+- **J, 12:01 Amsterdam (advice).** The field's standard tests description, not theory; the room is the unit; demote a room claim only where members act apart from the room. Pass 9 reads pass 8 and stops.
+- **C5c-05 (pass 9).** K02, A10 and P13 restored to the room (moves 147 to 149); P12, the quiet-week boundary and "groups announced" kept. `notes-C5.md` holds my answer for C5d on confidence and on what the strict reading cost.
 
 ## Where the run stands
 
 - **C5 outputs:** `account.md` (pass 6) and its earlier passes, `propositions.jsonl` (9; pass 5 as `propositions-p5.jsonl`), `prose-test-C5.md` (36 pass, 4 flagged), `sketches.md` (five arrangements), `account_passes.jsonl` (6 lines), `notes-C5.md`.
 - **C5b outputs:** `figure-C5.md` (a draft; drawn again at C5d), `author_claims.jsonl` (9), `RETURN-C5.md` (plus `declarations` and `codes`), `_packets-C5/` (3, under 51,200 bytes), the C5 entry in `run_manifest.json`; scripts `out/_analysis/c5b_*`.
 - **C5c-01 outputs:** `readers-C5/` (the three returns), `account-readers-C5.md`, `field-packages-C5/` (13 files, 268 sentences, 72 records); scripts `out/_analysis/c5c_*`.
-- **Ledgers:** `tier_history.jsonl` 554, `model/history.jsonl` 116, `findings.jsonl` 28 lines (18 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
-- **Snaps** run to C5-move-developing-146. The scripts are `out/_analysis/c5_*`, `c5b_*`, `c5c_*` and `c5c2_*`.
+- **Ledgers:** `tier_history.jsonl` 554, `model/history.jsonl` 119, `findings.jsonl` 28 lines (18 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
+- **Snaps** run to C5-move-developing-149. The scripts are `out/_analysis/c5_*`, `c5b_*`, `c5c_*` and `c5c2_*`.
 - **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
 - **The questions.** QC5-001 is answered; its field reading is out. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
@@ -164,4 +166,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The next pass reads pass 8's five changes as they stand, under the criterion; pass 8 swept every element, arrow and proposition. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.
+The next pass reads pass 9's three restorations only, with no new sweep; if it changes nothing, C5d follows. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.

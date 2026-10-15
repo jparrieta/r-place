@@ -586,6 +586,61 @@ Pass 6 changed two elements' statements (P02, P03), the fourth-order tier (Stigm
 - **Parallel edits.** Two Edits to the head ran as parallel calls. Both landed, and a later turn counted the words and ran the link check.
 - **A proposition id in the head, again.** The head named one proposition id, as at C5c-03. It was reworded before the close.
 
+## C5c-05: the fifth check pass (pass 9)
+
+**The advice, from J through the PI (12:01 Amsterdam).**
+- Passes 6 to 8 changed wording only. The field analyst's standard was a test of description, not the bar for theory. My rule asks that a broad claim carry a count, a finding or a setting fact, not that every claim be restated at the lowest level a quote can show.
+- The unit of this study is the room. Where members spoke or acted for the room, in its threads, its calls or its adopted plans, a claim about the room is my theoretical work.
+- Pass 9 reads pass 8's five changes and stops there.
+
+**Pass 8's five changes, read on the room as the unit.** These are the members' words under each theme, from the field packages' seeded draws.
+- **Restored, K02 and A10: "the room judges".** Members voice the judgment for the room, in its threads and in the first person plural: "We have to shrink. We're being eaten alive by that green monster thing. We can't grow and maintain." [floridagators/c0045]; "we're not doing this anymore don't do it" [raocow/c0066]; "Close the borders before the capital is destroyed" [greenlattice/c0344]. One member speaks apart from the room ("I can't help no more." [fivenightsatfreddys/c0485]). One quote is not enough to demote the element. The declaration keeps its difference from Bandura's measured shared belief.
+- **Restored, P13: "the room decides what of its temporary effort to keep".** Members propose and request for the room, in its threads and to its moderators: "Request to the mods: could we have this preserved in our CSS somewhere?" [fireemblem/c0412]; "LONG LIVE THE LATTICE!! In the form of the official Steam group" [greenlattice/c1156]. Pass 8's correction of the time stays ("near the close and after it"), since some of these acts came before hour 73.
+- **Kept, P12: "and to the canvas around it".** It widens what the room records; the actor is still the room.
+- **Kept, N05's boundary.** It concerns what a count of quiet weeks can show, not the unit.
+- **Kept, the account's "groups announced to carry on".** Whether a group lasted is an outcome after the record ends, not a question of the unit.
+- **The writes.** Three moves (C5-move-developing-147 to 149), each with a `model/history.jsonl` line keeping the old line. `propositions.jsonl` was regenerated, with pass 8's copy kept as `propositions-p8.jsonl`; only N08's carried mechanism changed.
+
+**What the criterion says about pass 9: prefer.** Item 4: Collective efficacy names a judgment held at the level of the room, and with K02 restored the name does its work in the prose test sentence ("because the room judged its strength too low, it could stop fighting and move"). Items 1 to 3 are unchanged: no claim gains a cause, every room is told as before, and every arrow and count is kept.
+
+**What is due next.** Pass 9 changed two element statements (K02, P13) and one arrow mechanism. So by section 7 a further pass is due, which reads only these three restorations. No new sweep is made.
+
+**For C5d: how confident I am, and what the strict reading cost.** Noted as I go, as asked.
+- **Sure.** The spine and the contest are orders of first concepts in coded talk that beat a null of 500 shuffles within each room:
+  - the start before calls, 64 of 89;
+  - calls before build reports, 81 of 126 (fair since the recut);
+  - build reports before upkeep, 148 of 190, and before celebration, 139 of 182;
+  - calls before the host's line, 132 of 155;
+  - the attack call before sparing, refusal or apology, 82 of 104.
+
+  These are orders in what members wrote, not observed causes.
+- **Less sure.**
+  - The thin arrows: A05, A10, A14 and A19.
+  - The theorised A11 and A12.
+  - Stigmergy's membership: three coders agree moderately, and T3-060 sits exactly at the line.
+  - The bare answer: its reason test was run on attack calls only.
+- **What the strict reading cost, as I see it:**
+  1. The room as actor in K02 and P13, now restored.
+  2. "The completion ritual is not reward provision" became "is not shown to be". I still believe credit worked as recognition after the work, not as an inducement to place, on the timing evidence (F-016). The record cannot test inducement, so the weaker words are the honest ones.
+  3. D02's "ways a room aligned many hands" became "ways members tried to align". I believe these routes did align hands, since marks were built and kept, but the canvas is not evidence here (rule 7), so "tried" stands.
+  4. Stigmergy narrowed to one member. I still think many proposals to extend a mark read its state, which is what the MP code caught. The three codings decided otherwise for two themes, and I follow the rule I wrote.
+  5. "Lasting groups" became "groups announced". I believe some groups born on the canvas lasted, but the record ends, so the account does not claim it.
+- **On balance.** The strict reading removed overstatement more than insight. The insight it cost was mostly the room as the actor, which this pass restores.
+
+**Slip, C5c-05.** The head again first named a proposition id. It was reworded before the link check.
+
+## The close-check, C5c-05
+
+`python3 tools/validate.py C5`, run after the pass 9 line and before the head was rewritten:
+
+```
+stage C5:
+  leg: check; passes 9, propositions 9, elements 30, arrows 21, history lines 119
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-04
 
 `python3 tools/validate.py C5`, run after the pass 8 line and before the head was rewritten:

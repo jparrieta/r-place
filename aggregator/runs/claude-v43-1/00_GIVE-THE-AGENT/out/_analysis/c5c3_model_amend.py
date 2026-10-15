@@ -50,10 +50,10 @@ for kind, fname in (("elements", "elements.jsonl"), ("arrows", "arrows.jsonl")):
                 "move": "developing or dropping working hypotheses", "why": s["why"], "was": was}
         with open(os.path.join(OUT, "model", "history.jsonl"), "a", encoding="utf-8") as f:
             f.write(json.dumps(line, ensure_ascii=False) + "\n")
+        say = s.get("say") or "brought into line with what it repeats"
         run([os.path.join("tools", "mem.py"), "log",
-             "%s Move (developing or dropping working hypotheses), pass %s: %s brought into line with what it repeats. "
-             "%s. Findings touched: none changed." % (xid, PASS, line["event"].split(" amended")[0], s["why"]),
-             "--kind", "move"])
+             "%s Move (developing or dropping working hypotheses), pass %s: %s %s. %s. Findings touched: none changed." % (
+                 xid, PASS, line["event"].split(" amended")[0], say, s["why"]), "--kind", "move"])
         print("   " + run([os.path.join("tools", "snap.py"), "C5", "move-developing-%d" % n]))
         n += 1
 print("done" if WRITE else "all replacements check; nothing written")
