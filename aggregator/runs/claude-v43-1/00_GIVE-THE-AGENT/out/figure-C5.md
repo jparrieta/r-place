@@ -15,17 +15,17 @@ Target length: about 900 words. The figure the readers see at C5b. It is drawn a
 
 Each line gives the arrow, its proposition, its strength, its count (rooms where the order holds, of the rooms carrying both elements, against a null of 500 shuffles within each room) and one instance from its support: the first transition the audit passed, by room, codes and hours.
 
-- **A01** P01 to P03, N01; strong; 137 of 190 rooms, beats its null. Instance: metroid/c0001 to c0002 (h4.27 to h4.29).
+- **A01** P01 to P03, N01; fair; 81 of 126 rooms, beats its null. Instance: metroid/c0001 to c0002 (h4.27 to h4.29).
 - **A02** R01 to P01, N01; fair; 64 of 89 rooms, beats its null. Instance: opticgaming/c0191 to c0192 (h6.43 to h6.45).
-- **A03** P03 to P05, N01; strong; 182 of 291 rooms, beats its null. Instance: monsterhunter/c0082 to c0083 (h35.63 to h35.64).
+- **A03** P03 to P05, N01; strong; 148 of 190 rooms, beats its null. Instance: monsterhunter/c0082 to c0083 (h35.63 to h35.64).
 - **A04** P05 to P08, N02; fair; 235 of 401 rooms, beats its null. Instance: unturned/c0059 to c0060 (h40.70 to h41.58).
 - **A05** P08 to P07, N09; thin; 106 of 158 rooms, beats its null. Instance: asktransgender/c0003 to c0004 (h23.94 to h23.98).
 - **A06** P05 to P14, N06; strong; 160 of 203 rooms, beats its null. Instance: TheFarLeftSide/c0384 to c0385 (h54.56 to h54.61).
-- **A07** P03 to P11, N04; strong; 182 of 282 rooms, beats its null. Instance: suomi/c0097 to c0098 (h22.94 to h23.23).
+- **A07** P03 to P11, N04; strong; 139 of 182 rooms, beats its null. Instance: suomi/c0097 to c0098 (h22.94 to h23.23).
 - **A08** P11 to P12, N04; strong; 225 of 289 rooms, beats its null. Instance: lakers/c0226 to c0227 (h81.10 to h81.12).
 - **A09** P12 to P13, N04; fair; 113 of 145 rooms, beats its null. Instance: uiuc/c0154 to c0155 (h75.63 to h76.39).
 - **A10** K02 to P10, N08; thin; 11 of 21 rooms, beats its null. Instance: paranatural/c0020.
-- **A11** P02 to P04, N07; thin; 100 of 166 rooms, does not beat its null. Instance: udub/c0008 to c0009 (h55.02 to h55.09). Theorised.
+- **A11** P02 to P04, N07; thin; 111 of 185 rooms, does not beat its null. Instance: udub/c0008 to c0009 (h55.02 to h55.09). Theorised.
 - **A12** P01 to P15, N07; thin; a transition in 3 rooms; no order count. Instance: DestinyTheGame/c0002 to c0008 (h3.03 to h3.91). Theorised.
 - **A13** P05 to P16, N02; fair; 171 of 240 rooms, beats its null. Instance: aceattorney/c0049 to c0050 (h38.35 to h38.37).
 - **A14** P08 to P16, N09; thin; 138 of 214 rooms, beats its null. Instance: littlewitchacademia/c0049 to c0051 (h62.87 to h62.90).

@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5c-02, paused at the PI's request, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 is open. The field reading is back (`sources-from-J/RETURN-field-C5.jsonl`). Three codings decide Stigmergy: T3-041 and T3-060 meet the rule and move to Collective representation, leaving Stigmergy one member. Nothing is written to a ledger yet; the pause log says where to pick up.
+Under 3,000 words, rewritten whole at every close. Last written at C5c-02-p2, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 is open. Pass 6 (C5c-02, paused once, resumed as C5c-02-p2) closes with `done.sh C5`; `validate.py C5`: 0 errors, 0 warnings. Pass 6 changed elements and the fourth-order tier, so by section 7 another pass is due.
 
 ## The method question, in one sentence
 
@@ -10,10 +10,10 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The account is `account.md`, pass 5 (2,307 words; passes 1, 3 and 4 kept as `account-p1.md`, `account-p3.md` and `account-p4.md`), with the readers' disagreements beside it in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`.
-- **Stigmergy's cut is open.** A blind second coding agreed with mine on 56 of 72 records. By its codes, two of the three member themes meet the rule written before the read: T3-041 has P in 8 of 14 records that are not O, and T3-060 has 10 of 20. The field analyst codes the 72 as a third reader.
-- **The spine.** A member starts a mark [R01]. Calls follow the start in 64 of 89 rooms [A02], building follows calls in 137 of 190 [A01], and keeping follows building in 182 of 291 [A03].
-- **The bare answer.** Members answer a call in one line that gives no reason. This is conversation analysis's preferred acceptance, the run's concept, borrowed (F-014). Its head-count claim failed (F-015).
+The account is `account.md`, pass 6 (2,437 words; passes 1, 3, 4 and 5 kept as `account-p1.md` to `account-p5.md`), with the readers' disagreements beside it in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`.
+- **Stigmergy, recut (F-018).** By three codings, T3-041 and T3-060 moved to Collective representation. Stigmergy keeps building and reporting the mark alone: 10 of 14 bearing records report the work's state. A one-member theme breaks C2's criterion; the declaration says so.
+- **The spine.** A member starts a mark [R01]. Calls follow the start in 64 of 89 rooms [A02], building follows calls in 81 of 126 [A01], and keeping follows building in 148 of 190 [A03].
+- **The bare answer.** Members answer a call in one line that gives no reason, the preferred acceptance of conversation analysis, borrowed. Replies to attack calls: refusals gave a reason in 23 of 38, acceptances in 2 of 14 (F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
 - **Alignment without decision** (theorised, thin). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
 - **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]. Where border talk came first, it mostly offered terms before any damage (34 of 38 read). Members also trade help [A13, A14] and join coalitions [A19]. Members make agreements without the power to make every placer keep them.
@@ -39,17 +39,19 @@ The account is `account.md`, pass 5 (2,307 words; passes 1, 3 and 4 kept as `acc
   4. The C5 readers are the second reader of the declarations; QC5-001 adds the field analyst.
   5. J's language ruling stands.
 - **Passes 1 to 4 (C5a).** The declarations were amended under the prose rule. A04 was bounded. P06 and R02 were cut; K01 was cut and restored (move 92). Nine propositions were written. The criterion (`notes-C5.md`, written before pass 1) preferred each pass and said "no change" of pass 4.
-- **C5b (the readers' build).** The rooms were cardinals, luciomains and mysterydungeon, each served as its facts and 7 seeded passages. The packets carried the rule, 40 sentences in question and the 72 Stigmergy records to code blind.
-- **J, 15 October.** 07:59 Amsterdam: I decide what comes into the model and what goes out, by my own criterion; no fixed rule decides. 08:35 and 09:09 (QC5-001): the fleet packets stand. The field analyst gets all 36 declarations whole, the rule and the members' quotes, in as many packages as needed, and judges against the quotes, not against its own model.
-- **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part; none recovered c3 or c8. Their cardinals verdict came from 7 passages, a packet error. 7 of 40 sentences did not stand for them. Ten errors were fixed and 34 sentences rewritten. No element or cut changed.
+- **C5b.** Rooms: cardinals, luciomains, mysterydungeon (facts and 7 seeded passages each); 40 sentences and 72 Stigmergy records went to the fleet.
+- **J, 15 October.** 07:59 Amsterdam: I decide what comes into the model and what goes out, by my own criterion. 08:35 and 09:09 (QC5-001): the field analyst reads all 36 declarations whole against the members' quotes.
+- **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part; none recovered c3 or c8. Their cardinals verdict came from 7 passages, a packet error. Ten errors were fixed and 34 sentences rewritten.
+- **J, 11:02 Amsterdam.** The field analyst's 117 "not standing" marks are advice to improve, not evidence that the model fails to apply. The handler: change a sentence where the advice convinces me, keep it otherwise with a line, and report both; the Stigmergy decision is mine.
+- **C5c-02 (pass 6).** Stigmergy was recut by three codings (moves 93 to 95), with A01, A03, A07 and A11 recounted (A01 strong to fair; all still beat their nulls), F-016 superseded and F-018 written. On the declarations I accepted 94 pieces of advice and kept 30 (23 lists of member themes), amending 35 declarations (moves 96 to 130). The fleet and the field agree on 21 of their 40 shared sentences.
 
 ## Where the run stands
 
-- **C5 outputs:** `account.md` (pass 4, 1,869 words), `account-p1.md`, `account-p3.md`, `propositions.jsonl` (9), `prose-test-C5.md` (36 pass, 4 flagged: Critical mass, Live and let live, Reciprocity, Collective efficacy), `sketches.md` (five arrangements), `account_passes.jsonl` (4 lines), `notes-C5.md`.
+- **C5 outputs:** `account.md` (pass 6) and its earlier passes, `propositions.jsonl` (9; pass 5 as `propositions-p5.jsonl`), `prose-test-C5.md` (36 pass, 4 flagged), `sketches.md` (five arrangements), `account_passes.jsonl` (6 lines), `notes-C5.md`.
 - **C5b outputs:** `figure-C5.md` (a draft; drawn again at C5d), `author_claims.jsonl` (9), `RETURN-C5.md` (plus `declarations` and `codes`), `_packets-C5/` (3, under 51,200 bytes), the C5 entry in `run_manifest.json`; scripts `out/_analysis/c5b_*`.
 - **C5c-01 outputs:** `readers-C5/` (the three returns), `account-readers-C5.md`, `field-packages-C5/` (13 files, 268 sentences, 72 records), `account_passes.jsonl` (5 lines); scripts `out/_analysis/c5c_*`. The dispatch's ~54,000 bytes is the packet plus `RETURN-C5.md` beside it.
-- **Ledgers:** `tier_history.jsonl` 515, `model/history.jsonl` 94, `findings.jsonl` 26 lines (17 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
-- **Snaps** run to C5-move-developing-92. The scripts are `out/_analysis/c5_*`.
+- **Ledgers:** `tier_history.jsonl` 554, `model/history.jsonl` 100, `findings.jsonl` 28 lines (18 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
+- **Snaps** run to C5-move-developing-130. The scripts are `out/_analysis/c5_*`, `c5b_*`, `c5c_*` and `c5c2_*`.
 - **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
 - **The questions.** QC5-001 is answered; its field reading is out. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
@@ -161,8 +163,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The field reading, when it returns, is set against the fleet and against me:
-- its verdicts on the 268 sentences, 40 of which the fleet also judged, compared by text;
-- its codes on the 72 Stigmergy records, beside mine and the fleet's.
-
-Then the declarations are amended once, and Stigmergy's cut is decided with three codings in hand. Both are moves, logged and snapped. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.
+The next pass sets the account, the declarations and the model as they stand after pass 6 against pass 6, under the criterion written before pass 1. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.

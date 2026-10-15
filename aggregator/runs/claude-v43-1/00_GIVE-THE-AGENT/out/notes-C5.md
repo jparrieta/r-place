@@ -423,6 +423,107 @@ My answer: these seven, with all 36 declarations whole, go to the field analyst 
 - **A late-room sentence.** I first wrote that late rooms "joined the canvas by helping another room's work". A19's and A04's bounds say they entered through another room: its coalition, its offer of space, or a request for space. The sentence was corrected before the check.
 - **Parallel edits.** Two Edits to the head ran as parallel calls. Both landed, and a later turn counted the words and ran the link check.
 
+## C5c-02: the second check pass (pass 6), paused once and resumed as C5c-02-p2
+
+**What came back.** The field analyst's second reading is in `sources-from-J/RETURN-field-C5.jsonl`. It holds 268 sentence verdicts, of which 117 are marked as not standing, codes for the 72 Stigmergy records, and 36 notes on declarations. The reader saw none of my codes and none of the fleet's verdicts.
+- **J's word (11:02 Amsterdam).** The 117 are advice to improve the model, not evidence that it does not apply, unless a verdict says so.
+- **The handler.** The count of 117 measures nothing. I change a sentence where the advice, read against the members' quotes, convinces me, and keep my wording otherwise, with a line saying why.
+
+**Stigmergy, with three codings.** The rule was logged before the tally (`c5c2_stigmergy_three.py`). Each record takes the code that at least two of the three coders gave: me, the fleet reader of its member theme, and the field analyst. MP counts as M. A member theme leaves if P is at least half of its records that are not O. The destinations were written before the read; T3-060's was written before this tally.
+
+| member theme | P of not O, by the code two coders gave | meets the rule |
+|---|---|---|
+| T3-038 building and reporting the mark | 4 of 14 | no |
+| T3-041 extending the room's work | 8 to 10 of 15 (two three-way splits) | yes, either way |
+| T3-060 adding a personal piece | 10 of 20 | yes, at exactly half |
+
+- **Agreement.** Mine and the fleet's agree on 57 of 72 (kappa 0.69), mine and the field's on 47 (0.47), and the fleet's and the field's on 48 (0.50). The field analyst's codes alone would move T3-041 only (T3-060: 9 of 19).
+- **The decision, as the rule written first sets it.** T3-041 and T3-060 move to Collective representation (C5-move-merging-93).
+- **One member left.** Stigmergy keeps T3-038 alone (C5-move-splitting-94). A fourth-order line must keep members, and withdrawing Stigmergy would leave T3-038 in no fourth-order theme, and P03, on the spine, outside its dimension. The three coders read 10 of T3-038's 14 bearing records as reports of the work's state, which is the trace the construct names. The cost is said in the declaration: a one-member theme breaks C2's criterion for a group, since it answers no question its member does not answer alone.
+- **The field analyst's advice on this.** Its note advised keeping the members and reconciling first. The codes were reconciled, by the rule logged before the tally, and that rule moved two themes. The field's narrower points on Stigmergy's wording were accepted (below).
+- **What the recut touched.** All of these were logged and validated:
+  - `fourth.jsonl` (T4-006 now has 14 members and 535 rooms; T4-007 has 1 member and 237 rooms; Stigmergy's gloss replaced, since starbound/c0082 sits under celebration);
+  - P02 and P03 restated;
+  - A01, A03, A07 and A11 recounted on the recut elements (C5-move-relating-95):
+
+    | arrow | was | now | null p95 |
+    |---|---|---|---|
+    | A01 P01 to P03 | 137 of 190 | 81 of 126 (0.643), strong to fair | 0.571 |
+    | A03 P03 to P05 | 182 of 291 | 148 of 190 (0.779) | 0.389 |
+    | A07 P03 to P11 | 182 of 282 | 139 of 182 (0.764) | 0.434 |
+    | A11 P02 to P04 | 100 of 166 | 111 of 185 (0.600), still not beaten | 0.670 |
+
+    Every tested arrow still beats its null. A01 without joining lines: 78 of 126 (p95 0.540). A07's touhou transition, which had failed its audit, now starts outside P03 and is noted, not removed;
+  - F-016 superseded (534 rooms for information provision, not 555); F-018 written for the three codings; `mapping-C3.jsonl` T4-007 amended, its old reason kept;
+  - `propositions.jsonl` regenerated: only N01, N04 and N07's mechanisms changed. Pass 5 is kept as `propositions-p5.jsonl`;
+  - the prose test's Stigmergy entry, the figure, and the account.
+
+**The field reading of the declarations.** The rule for accepting or keeping was logged before any amendment.
+- **Accept** where the advice shows a sentence claiming more than supports it:
+  - (a) a universal or categorical claim with no count, finding or setting fact;
+  - (b) a count stated without its finding's limits;
+  - (c) an outcome where the quotes show a call or report;
+  - (d) a motive or time the quotes do not state;
+  - (e) a quote misdescribed.
+- **Keep** where the only objection is that the package showed no quote for each act in a list of member themes (each has exemplars in `scheme_v2.jsonl` that the package did not serve), or where a sentence about the literature or the study was read as being about the rooms.
+- **The outcome.** 35 declarations were amended, one move each (C5-move-developing-96 to 130), and T4-017 is unchanged. 94 pieces of advice were accepted:
+  - (a) 35, such as "only", "no one", "never" or "nothing is owned" outside the setting facts;
+  - (c) 25, such as "keep everyone on one template", "they keep the work" or "rooms settle deals", now calls, proposals and reports;
+  - (d) 10, such as "for fun", "within hours" or "already held";
+  - (e) 10, such as a quote offering a program read as one running, or "I am in." with no citation;
+  - (b) 9: F-009, F-014, F-015 and F-006 with their own numbers;
+  - 5 other: the recut's counts in T4-005, T4-013 and T4-026, and Stigmergy's old sentences.
+- **What was kept.** 30 pieces of advice:
+  - 23 are lists of member themes;
+  - the rest are the Stigmergy reconciliation (above), D06's scope, the fleet's verdict on T4-019's "why" (the members' question, not my causal claim), and three sentences the field itself found shown.
+- **Where to read it.** Each declaration's `tier_history.jsonl` line lists the sentences accepted and kept, each with its line.
+
+**The two readers compared** (`c5c2_two_readers.py`). The fleet and the field analyst both judged 40 sentences. They agree on 21: both let 16 stand, and both find 5 do not. Of the 19 they split on, the field is stricter on 17 and the fleet on 2:
+- D05's emblem sentence: accepted from the fleet, now resting on a member's words;
+- T4-019's "why": kept.
+
+The field's sentence units are sometimes longer than the fleet's, so part of the split is in how the sentences were cut.
+
+**The account, pass 6** (2,437 words; pass 5 kept as `account-p5.md`).
+- **From the recut:** the four counts; the Stigmergy paragraph on the three codings (F-018); the two moved acts under what members settle the mark will show.
+- **From the advice I accepted:**
+  - F-009 told as a held-size test that found no delay;
+  - many placements, not many members;
+  - F-014 told as counted on replies to attack calls, not calls to place;
+  - decided order's duration untested;
+  - A16 told as an order of first concepts;
+  - credit nearly all after the work, so the completion ritual is not shown to be reward provision;
+  - curation's arguing part tentative;
+  - templates by count, not "any member";
+  - Live and let live holding some treaty records.
+
+**What the criterion says about pass 6: prefer.**
+1. **Unmarked causal and universal sentences: fewer.** 94 sentences now claim what their support carries, in the declarations and the account.
+2. **Rooms told:** the same story rooms, with the same 23 elements.
+3. **Tested arrows:** all kept; A01 weakens from strong to fair.
+4. **The prose test:** every name still does work. Stigmergy now reads one third-order theme.
+5. **The readers:** they do not run again.
+
+Pass 6 changed two elements' statements (P02, P03), the fourth-order tier (Stigmergy's recut) and four arrows' counts. So by section 7 another pass is due, which reads the account and the model as they now stand.
+
+**Slips, C5c-02 and C5c-02-p2.**
+- **A count I typed.** I first counted 33 declarations in the spec. The script found 34, all amended, and D06 later made 35.
+- **A whitespace error.** T4-011's sentence was given with a trailing space it does not have. The dry run caught it.
+- **A word count logged wrong.** The diary line on the account's second part gives 2,425 words; the file has 2,437.
+- **The pause.** The PI's pause came mid-pass. Nothing was written to a ledger before the pause log.
+
+## The close-check, C5c-02-p2
+
+`python3 tools/validate.py C5`, run after the pass 6 line and before the head was rewritten:
+
+```
+stage C5:
+  leg: check; passes 6, propositions 9, elements 30, arrows 21, history lines 100
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-01
 
 `python3 tools/validate.py C5`, run after the pass 5 line and before the head was rewritten:

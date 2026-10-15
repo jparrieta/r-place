@@ -1,0 +1,82 @@
+{
+ "t": "2026-10-15T09:28:32+00:00",
+ "stage": "C5",
+ "leg": "C5c-02-p2",
+ "answers": {},
+ "expected": {
+  "open": [
+   "contention-dimension",
+   "relocation-renewed-calls"
+  ],
+  "rooms": [
+   "mysterydungeon",
+   "luciomains",
+   "cardinals"
+  ],
+  "changed": [
+   "A01",
+   "A03",
+   "A07",
+   "A11",
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "P02",
+   "P03",
+   "T3-041",
+   "T3-060",
+   "T4-001",
+   "T4-002",
+   "T4-003",
+   "T4-004",
+   "T4-005",
+   "T4-006",
+   "T4-007",
+   "T4-008",
+   "T4-009",
+   "T4-010",
+   "T4-011",
+   "T4-012",
+   "T4-013",
+   "T4-014",
+   "T4-015",
+   "T4-016",
+   "T4-018",
+   "T4-019",
+   "T4-020",
+   "T4-021",
+   "T4-022",
+   "T4-023",
+   "T4-024",
+   "T4-025",
+   "T4-026",
+   "T4-027",
+   "T4-028"
+  ],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "missing",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "n/a"
+ },
+ "scored": 4,
+ "unscored": [
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "open",
+  "rooms",
+  "changed"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
