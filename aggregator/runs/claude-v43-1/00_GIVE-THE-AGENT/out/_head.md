@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5a-01, 2026-10-14 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open: pass 1 (C5a-01) closes with `done.sh C5`. `validate.py C5` before this close: 0 errors, 0 warnings. Next: the stage file's next step for C5.
+Under 3,000 words, rewritten whole at every close. Last written at C5a-02, 2026-10-15 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open: pass 2 (C5a-02) closes with `done.sh C5`. `validate.py C5` before this close: 0 errors, 0 warnings. Pass 2 changed three elements' status, so by section 7 another pass is due before the packets. The handler (under J's delegation) left the choice of passes and the move to C5b to me.
 
 ## The method question, in one sentence
 
@@ -10,57 +10,54 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The account is `account.md`, pass 1. It tells `model-C4.md` with the declarations as amended at C5a-01.
-- **The spine.** A member starts a mark [R01]. Calls for hands follow the start in 64 of 89 rooms [A02]. Members report building after a call in 137 of 190 [A01], and turn to keeping the mark in 182 of 291 [A03].
-- **The bare answer.** Members answer a call in one line that commits them and gives no reason. This is conversation analysis's preferred acceptance, the run's concept, borrowed (F-014). Its head-count claim failed (F-015, weak).
-- **The host sub's line** follows the calls in 132 of 155 rooms [A20].
-- **Neighbours.** Keeping the mark brings members into talk with neighbours in 235 of 401 rooms [A04]. Members trade help [A13, A14] and join coalitions [A19]. They make agreements they cannot make every placer keep. The field's analyst found the same.
-- **The contest.** A call can turn members against a rival's work [A15]. Members answer an attack call inside the room [A16, A17]; refusals give a reason, and acceptances come bare.
-- **Loss.** A room that judges it has too few hands moves [A10, thin]. No loop is grounded.
-- **Hour 73.** Placement stops for every room. Before it, members celebrate, record and carry on [A07, A08, A09]. After it they curate the record: they clean, copy, record and argue over which version is kept (P12; P22 tentative). Curation is apart from carrying on (P13), per J's ruling.
-- **Decided order** is rare (46 of 705 rooms) and gathers in the small factions born on the canvas that govern a territory (F-006).
-- **C02**, untested for order: a tie from before the canvas names the rival in the attack turn (10 turns in 7 story rooms).
-- **Tentative, from the field:** P21, A21, P22.
+The account is `account.md`, pass 2 (1,631 words; pass 1 kept as `account-p1.md`). The nine propositions are in `propositions.jsonl`.
+- **The spine.** A member starts a mark [R01]. Calls follow the start in 64 of 89 rooms [A02], building follows calls in 137 of 190 [A01], and keeping follows building in 182 of 291 [A03].
+- **The bare answer.** Members answer a call in one line that gives no reason. This is conversation analysis's preferred acceptance, the run's concept, borrowed (F-014). Its head-count claim failed (F-015).
+- **The host's line.** It follows the calls in 132 of 155 rooms [A20].
+- **Alignment without decision** (theorised, thin). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
+- **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]. Where border talk came first, it mostly offered terms before any damage (34 of 38 read). Members also trade help [A13, A14] and join coalitions [A19]. Members make agreements without the power to make every placer keep them.
+- **The contest.** A call can turn members against a rival [A15]. The same room answers the attack call by refusal with a reason or by truce [A16, A17; F-014].
+- **Loss** (thin). A room that judges it has too few hands moves [A10]. No loop is grounded.
+- **The close.** Members celebrate, record and carry the work on [A07, A08, A09]. Placement stops at hour 73 for every room. After it, members curate the record (P12; P22 tentative), apart from carrying on (P13).
+- **Machine hands.** Scripts follow upkeep under strain [A06].
+- **C02** (untested for order): a tie from before the canvas names the rival in the attack turn.
+- **Cut at C5a-02 to candidate:** P06 (attribution), K01 (the April Fools frame), R02 (the envoy). 22 elements stand. Every standing process and condition carries an arrow.
 
-**The room that best supports the account: day9.** It builds, offers a neighbour terms, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
+**The room that best supports the account: day9.** It offers a neighbour terms before any damage, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
 
-**The room that most threatens it: thebluecorner.** It is a colour faction whose faith names its rivals ("We need to attack back. Blue the Purple Corner!"), rules on guests and splits over doctrine.
+**The room that most threatens it: thebluecorner.** It is a colour faction whose faith names its rivals and rules on guests.
 
 **The condition between them** is what decides whom a room fights and whom it admits. Where the work decides, the model tells the room. Where a faith or a host's rule decides, it does not.
 
-## The reasons for the last revisions (C5a-01)
+## The reasons for the last revisions
 
-- **J's rulings of 15 October, 01:29 Berlin** (relayed by the handler; J is not waiting at each step, and the handler answers questions under J's delegation):
-  1. Work after hour 73 is curation of the record (P12, P22 tentative), told apart from carrying on (P13), and not as a fourth part of making the work.
-  2. The declaration prose pass comes before the account, with its rule written first. Each amendment is a move. A cut moves only where the members' quotes force it.
-  3. Stigmergy's sources are read whole before Stigmergy is amended: Heylighen 2016 and Grassé 1959, in `out/sources-from-J/`, marked verified with pages. Recut only if, as cut, it joins what its sources keep apart.
-  4. The second reader is stage C5's three readers. The C5b packets carry the rule and the amended declarations with their quotes, and the readers' disagreements are recorded.
+- **J's rulings of 15 October, 01:29 Berlin** (relayed by the handler; J has delegated C5 questions to the handler):
+  1. Work after hour 73 is curation of the record (P12, P22 tentative), told apart from carrying on (P13).
+  2. The declaration prose pass comes before the account, rule first, each amendment a move; a cut moves only where quotes force it.
+  3. Stigmergy is amended only after Heylighen 2016 and Grassé 1959 are read whole (`out/sources-from-J/`), and recut only if it joins what they keep apart.
+  4. The second reader is C5's three readers: the C5b packets carry the rule and the amended declarations with their quotes.
   5. J's language ruling stands.
-- **The prose rule** (`notes-C5.md`): in `prose`, `changed` and `mistaken_for`, a universal, comparative, causal or cyclic sentence stands only on a counted order that beats its null, a finding, a count in the structure, or a setting fact the contract states. Otherwise it says what members did, in how many rooms.
-- **All 28 fourth-order declarations amended** (moves C5-move-relating-53 and C5-move-developing-54 to 80). No name, member or cut changed. Two declarations claimed what the run's own tests contradicted: Attribution as the hinge between restraint and attack, and doubt shaping whether hands come.
-- **Stigmergy against its sources** (an abductive read, rules written first). No member met the rule (T3-041 was closest: 8 of 17). Across its three members, 31 of 52 records report the work's state or act on the canvas, and 21 propose or ask. The cut stands.
-- **Rule 14.** Three mapping lines were corrected in mapping-C3.jsonl (Attribution, Visibility returns, Completion ritual). F-016 was superseded: Completion ritual is now mapped to reward by reading, not by construction. A21 got its `negative_check`.
-- **A withdrawn claim of mine:** that no one could see who placed a pixel. The contract does not state it.
-- **The criterion** (written before pass 1, `notes-C5.md`) says prefer pass 1 over the pass 5 story.
+- **C5a-01 (pass 1).**
+  - All 28 fourth-order declarations were amended under the prose rule: a universal, comparative, causal or cyclic sentence stands only on a count or test in the run.
+  - Stigmergy kept its cut: 31 of 52 records report the work's state or act on the canvas, and 21 propose or ask.
+  - Rule 14: three mapping lines were corrected, and F-016 was superseded in wording. A claim of mine was withdrawn: that no one could see who placed a pixel.
+- **C5a-02 (pass 2).**
+  - The rule was extended to the dimensions, and seven were amended (moves 81 to 87).
+  - The P08 test bounded A04 (move 88).
+  - P06, K01 and R02 were cut for want of an arrow (moves 89 to 91).
+  - The nine propositions were written, and the account was cut to two pages with the four mistaken-for differences stated.
+- **The criterion** (written before pass 1, `notes-C5.md`) prefers pass 2 over pass 1: fewer unmarked causal sentences, the same rooms told with fewer elements, every tested arrow kept.
 
 ## Where the run stands
 
-- **C5 outputs so far:** `account.md` (1,919 words), `prose-test-C5.md` (36 names pass, 4 flagged: Critical mass, Live and let live, Reciprocity, Collective efficacy), `sketches.md` (clock, tier, trajectory), `account_passes.jsonl` (1 line), `notes-C5.md`.
-- **Ledgers:**
-  - `tier_history.jsonl` (508 lines);
-  - `model/history.jsonl` (89);
-  - `findings.jsonl` (26 lines, 17 findings);
-  - `model/elements.jsonl` (30) and `model/arrows.jsonl` (21).
-- **Snaps** run to C5-move-developing-80.
-- **Scripts of this leg** are `out/_analysis/c5_*`.
-- **Deferred to the next pass, with reasons in `notes-C5.md`:**
-  - the eight dimension declarations under the prose rule;
-  - the candidate split of P08 (terms offered before damage, or talk after it);
-  - the candidate cuts P06, K01 and R02 (no arrow);
-  - the account cut toward two pages;
-  - the four mistaken-for differences the prose test asks the account to state;
-  - the story rooms read against the account.
-- **The questions:** QC4-001 and QC4-002 are answered. The field is read only from `out/field`, and `out/_field-link-superseded-C4a` stays as it is.
+- **C5 outputs:** `account.md`, `account-p1.md`, `propositions.jsonl` (9), `prose-test-C5.md` (36 pass, 4 flagged: Critical mass, Live and let live, Reciprocity, Collective efficacy), `sketches.md` (four arrangements), `account_passes.jsonl` (2 lines), `notes-C5.md`.
+- **Ledgers:** `tier_history.jsonl` 515, `model/history.jsonl` 93, `findings.jsonl` 26 lines (17 findings), `model/elements.jsonl` 30 (22 standing), `model/arrows.jsonl` 21.
+- **Snaps** run to C5-move-dropping-91. The scripts are `out/_analysis/c5_*`.
+- **Still to do in C5,** with reasons in `notes-C5.md`:
+  - the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines);
+  - `structure-C4.md`'s prose, stale beside the ledger, so the C5b packets build declarations from the ledger;
+  - every Stigmergy and P08 code is mine alone, for the readers to check.
+- **The questions.** QC4-001 and QC4-002 are answered. The field is read only from `out/field`, and `out/_field-link-superseded-C4a` stays as it is.
 
 ## Stage C4, in short
 
@@ -77,7 +74,7 @@ The field's analyst modelled the event from r/place, sealed from my files. Five 
 
 - **C3a.** O'Mahony and Ferraro: a difference of setting; F-006 bounded (7 of 39 against 39 of 666, p 0.014 at held size). Olson: open.
 - **C3b.** Conversation analysis supplied A12's and A16's mechanisms (F-014). The concept is the preferred acceptance, borrowed (F-015).
-- **C3c.** The four universal problems put to the structure (F-016, superseded at C5a-01 in wording). The goal (F-017).
+- **C3c.** The four universal problems put to the structure (F-016). The goal (F-017).
 
 ## Stage C2, in short
 
@@ -128,12 +125,8 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## Open, carried
 
-- **From C5a-01:**
-  - the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines);
-  - `structure-C4.md`'s prose, now stale beside the ledger;
-  - the dimension declarations;
-  - every code of the Stigmergy read is mine alone.
-- **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, which is in both sources and not in the model; the story's dropped head-count claim.
+- **From C5:** the fields outside the prose rule; `structure-C4.md`'s stale prose; codes of the Stigmergy and P08 reads, mine alone; the four flagged names.
+- **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, in both sources and not in the model.
 - **From C3:** whether the forms differ on the four universal problems or on the remainder; the colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]); Olson, open; the four declined reads.
 - **From C2:** what a mark brings back into its room; the two boundaries for the return; the claim untested for order.
 - **From C1 and B1:** `c1_unapplied.jsonl` (5); the form-pass findings, never counted; the B1 bag counts, not reconciled.
@@ -143,28 +136,28 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 - **Checking.**
   - Never type an id, an order or a name from memory; check with a script.
   - Never log a write before the tool answers. Count a ledger's lines after appending.
-  - Check a claim about a ledger against the ledger, and a claim about a paper or the setting against its source, before writing it. Keep the field's firm or provisional mark.
+  - Check a claim about a ledger, a paper or the setting against its source before writing it. Read a check's format before writing a ledger it reads.
 - **Logging.**
-  - There is no `--kind close` and no `--kind episode`; log those as notes.
+  - There is no `--kind close`; log closes as notes.
   - Log an abductive read with `--kind abductive` before it runs, with its rules written first.
   - Log every move with `--kind move`, naming its Grodal, Anteby and Holm move, and snap it.
 - **Writing and checks.**
-  - Never put a placeholder or a no-op in a command or a log line.
-  - Never put an Edit or Write and its check (a read, a count, a validator run) in one turn.
-  - Never run two writes to the same file as parallel calls.
-  - Count the head's words before the closing line. Never write an id-like token the run does not define in the head.
+  - Never put a placeholder or a no-op in a command.
+  - Never put an Edit or Write and its check in one turn.
+  - Never run two writes, Edits included, to the same file as parallel calls.
+  - Count the head's words before the closing line.
 - **Ledger formats.**
-  - In `account_passes.jsonl`, tier events are ledger ids.
+  - Tier events in `account_passes.jsonl` are ledger ids.
   - A superseding finding's `supersedes` is the bare id.
   - Every arrow needs `negative_check`.
+  - Proposition ids are the letter N with two digits. The link check does not resolve them, so the head never names one.
+  - An element cut at C5 becomes a candidate with a history line.
 - **The store.**
-  - `mem.py codes --third/--fourth ... --json` (label field `first_order`); `mem.py codes --grep <re> --json`.
-  - `mem.py rooms --with <id> --limit 2000`.
-  - `cite.py --room --code`.
+  - `mem.py codes --third/--fourth ... --json` (label field `first_order`); `mem.py rooms --with <id> --limit 2000`; `cite.py --room --code`.
   - The theme a reply sits under does not track its stance.
 - **The permission check refuses:**
   - deleting a file, even a link;
-  - shell variables; shell loops and words beginning "for_"; shell functions, brace groups and heredocs;
+  - shell variables, loops, functions, brace groups, heredocs and words beginning "for_";
   - `find -exec` with braces; awk with system() or `$` fields; env-var prefixes;
   - cat or jq on `out/diary/`; `cut -c` after a read; `head -n -N`.
 
@@ -172,9 +165,9 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 - **Output limits.** A Bash output above about 30 KB is cut; measure first. A Read above about 25,000 tokens is refused.
 - **After a compaction,** before any other step: read the head and the stage file in full, run `diary --last 5`, and log exactly "compacted; head reconciled" with `--kind note` in a call of its own.
 - **Files and stages.**
-  - Never delete a file; supersede it. Read the field only from `out/field`.
+  - Never delete a file; supersede it with a new name. Read the field only from `out/field`.
   - Do not begin the next leg, and do not summarise it (AGENT.md).
 
 ## The next comparison
 
-The next pass of the account against pass 1, under the criterion written in `notes-C5.md` before pass 1, with the model as `model-C4.md`, the declarations as amended at C5a-01, and the concept as `concept-C3.md`.
+The next pass of the account against pass 2, under the criterion written in `notes-C5.md` before pass 1. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.

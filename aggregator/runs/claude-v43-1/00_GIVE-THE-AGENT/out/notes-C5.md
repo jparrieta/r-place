@@ -127,6 +127,81 @@ Each cut would lower the count of elements and might add residue at the return, 
 - **A hedge in the account.** The account said "in some rooms" for C02. It now gives F-013's count.
 - **Parallel edits to one file, at the close.** The head's last four Edits ran as parallel calls. Each changed a different passage, and each reported success. The head was checked afterwards in a turn of its own.
 
+## Pass 2 (C5a-02): the rule extended to the dimensions, written before reading them
+
+Written at C5a-02, before I read any dimension declaration under the rule.
+
+**The scope.** The declaration prose rule above now also reads the eight dimension declarations in `dimensions.jsonl`. It reads every sentence of the `construct` block's `changed` and `mistaken_for` fields that says something about these rooms or their members. The `question` and `predicate` fields define what the dimension gathers. They are read only for a claim about the rooms stated as fact.
+
+**What stays the same.** The word classes, the four supports, the rewrite and the record are as in the rule above. A dimension amendment is a `tier_history.jsonl` line with `tier: dimension`, the old line as `was`, a logged move and a snap. Names and members do not change unless the members' declarations show that the dimension joins what its source keeps apart.
+
+## Pass 2: the P08 question, rules written before the read
+
+**The question.** Does border talk (P08) hold two things: terms offered before any damage, and talk after damage? The sketches put P08 in two places. In day9, members offered terms at h33.9, before any loss. A04 holds border talk as what follows upkeep.
+
+**What a result can change.** Stage C5 forbids a new element, so P08 cannot become two elements. Both kinds of talk settle order between two rooms by talk, which is what Negotiated order (T4-016) declares. They differ in when they come, not in what members do. So a recut of the tier by kind is not in question. A result can change only A04's bound, by giving it a count.
+
+**The read.**
+- **The rooms:** those carrying both P05 and P08 in which A04's order fails, so that the first concept of P08 comes before the first concept of P05 (`c2_first_concepts.py --pair P05:P08 --rooms BOTH --fails --n 1`, on `c2_elements_p4.json`).
+- **The sample:** 40 rooms drawn with seed 20261015, and the first P08 concept of each, read whole.
+
+**The codes.**
+- **T, terms before damage:** a member proposes or asks for a border, space, a truce or a deal with a neighbour, and the concept names no damage to the room's own work.
+- **D, talk after damage:** the concept names damage to the room's work (overrun, covered, attacked, encroached), or answers it.
+- **O, other:** news of other rooms' deals, disputes about who speaks for a room, and anything else.
+
+**The rule.** If T is at least half of T plus D, A04's bound says that where border talk comes first it mostly offers terms before any damage, with the count. If D is more than half, the bound says that in those rooms damage came before any upkeep was coded.
+
+## Pass 2 (C5a-02): what the pass did
+
+- **The dimensions.** Under the extended rule, seven of the eight dimension declarations were amended (moves C5-move-developing-81 to 87). Host framing (D06) needed nothing. The dropped sentences:
+  - Maintenance said attribution "decides between quiet repair, forgiveness and retaliation", which the run's test contradicts.
+  - Critical mass said the room "reads it off the canvas and the thread", and F-015 found that members did not read their numbers from the replies.
+  - Contention said "the repertoire is learned in hours" and "often played for sport", with no count behind either.
+  - Collective identity said membership was "mostly carried in", which was uncounted and now carries its rooms.
+- **The P08 test.** Rules were written first, and the first border talk was read in 40 of the 166 rooms where A04's order fails.
+  - T 34, D 4, O 2. With every doubtful code turned against the reading, T is 28 of 38.
+  - Where border talk comes first, it mostly offers terms before any damage.
+  - A04's bound now carries the count (C5-move-relating-88). P08 stays one element: a new element is forbidden, and the two kinds of talk differ in time, not in kind.
+- **Three cuts (section 4).** P06, K01 and R02 changed from standing to candidate (C5-move-dropping-89 to 91). Each carried no arrow, against the model's own rule that a process or condition enters only with one. What each cut cost:
+  - **P06 (attribution):** the model no longer says that working out who changed the work is part of organizing. The step was tested twice as the step between restraint and attack, and was not found.
+  - **K01 (the April Fools frame):** the model no longer names the frame the odd room ran inside. F-009 keeps the finding that the frame did not delay the work.
+  - **R02 (the envoy):** the model no longer names the role. P08 still holds deals made through envoys.
+  - **Local adequacy.** Under the A1 rule, April Fools talk and blaming or wondering hold no coordinating turn. The envoys' theme sits in Negotiated order, which P08 reaches. So no coordinating turn is left unreached.
+  - **The count.** 22 elements stand, against 25 before. Every standing process and condition now carries an arrow.
+- **Elements kept over an alternative (section 4).**
+  - P08 is kept whole rather than split into terms and talk after damage. A split would be a new element, and the test showed a difference of time.
+  - P05 is kept whole: the sketches put it in two places, but the spine passes through it (A03 in, A04, A06, A13 and A19 out).
+  - K02 is kept although its one arrow is thin. Without it the model has no conditions side, and the move (P10) has no counted cause.
+- **The propositions (section 6).** Nine are in `propositions.jsonl`. Three are thin (N07, N08, N09). One rests wholly on theorised arrows (N07). Two carry a mechanism from the literature (N03, through A16; N07, through A12). Each carries its rival and what decides it, what would falsify it elsewhere, and its boundary. No proposition carries A21.
+- **The account, pass 2.** It is 1,631 words, with pass 1 kept as `account-p1.md`. It states the four differences the prose test asked for, ties each part to its proposition, and names the three cut elements as out of the model.
+- **A sketch, the fourth arrangement.** The tier drawing after the cuts has a wide middle column and one condition. The figure must say so.
+
+**What the criterion says: prefer pass 2 over pass 1.**
+- **Unmarked causal sentences: fewer.** The dimension declarations lost their untested causal sentences. The account marks every thin and theorised arrow. Each proposition names its rival.
+- **Rooms told: unchanged, with fewer elements.** The account names the same 19 rooms with a residue, now with 22 standing elements against 25.
+- **Tested arrows: all kept.** No counted arrow was dropped, since the three cut elements carried none.
+- **The prose test:** all 36 names still pass, and the four differences are now stated.
+
+Pass 2 changed three elements' status, so by section 7 another pass is due before the packets.
+
+**Slips, C5a-02.**
+- **Proposition ids.** They were first written as N1 to N9, and the check requires N01. The keys were renamed by script and the file rewritten. I had not read the id pattern first.
+- **Parallel edits.** Two Edits to `account.md` ran as parallel calls. Both landed, and a later turn checked them.
+- **Proposition ids in the head.** The head first named N01 to N09, which the link check does not resolve. They were replaced by the propositions' names before the close.
+
+## The close-check, C5a-02
+
+`python3 tools/validate.py C5`, run after the pass 2 line and before the head was rewritten:
+
+```
+stage C5:
+  leg: build; passes 2, propositions 9, elements 30, arrows 21, history lines 93
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5a-01
 
 `python3 tools/validate.py C5`, run after the notes body and before the head was rewritten:

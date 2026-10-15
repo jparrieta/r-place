@@ -63,6 +63,26 @@ ultrahardcore  K01 h7.7-40 -> R01 h57.6 -> P02/P04 h57.9-58.1 -> P09/P07 h57.9-5
 - **P08 in day9** comes before any loss, as an offer of terms ("We only require 35x35 pixels"). A04 holds it as talk that follows erosion. The same element serves both. A04's bound already names neighbours present from a room's first post, and the field holds an early buffer offered in r/place. P08 is a candidate for a split between terms offered before any damage and talk after it. I test that in pass 2, by reading P08's first concepts in the rooms where A04's order fails.
 - **P10 in day9** is both the end of a fight and the start of new work. In the tier drawing it is a mediator that leads nowhere. No arrow runs from the move to building again, so the drawing shows a path the model cannot count.
 
+## 4. Pass 2 (C5a-02): by tier, after the three cuts, with the propositions on the arrows
+
+```
+CONDITIONS          K02 doubt about hands --A10 (N08, thin)--> P10 move
+MEDIATORS           R01 -A02-> P01 -A01-> P03 -A03-> P05                          (N01)
+                    P01 -A12-> P15   P02 -A11-> P04                               (N07, theorised)
+                    P01 -A20-> P20                                                (N05)
+                    P05 -A06-> P14                                                (N06)
+                    P05 -A04-> P08   P05 -A13-> P16   P05 -A19-> P17              (N02)
+                    P08 -A05-> P07   P08 -A14-> P16                               (N09, thin)
+                    P01 -A15-> P09 -A16-> P07 / -A17-> P08 / -A18-> P18           (N03)
+WHAT FOLLOWS        P03 -A07-> P11 -A08-> P12 -A09-> P13                          (N04)
+CLAIMS (no arrow)   C01 decided order rare (F-006)   C02 a tie names the rival (untested)
+NOT DRAWN           A21 (tentative, from the field; no proposition)
+```
+
+**What it showed.** After the cuts, every standing process and every arrow in the drawing carries a proposition. The conditions side holds one element, K02, with one thin arrow. The model is a set of mediators and what follows them, and it has almost no conditions. A reader should be told that: the figure will have a middle column and a near-empty left column.
+
+**What it hid.** It hid the counts on each arrow and the order on the clock. It also hid that N03 chains four arrows with different mechanisms. Only A16 and A17 share one, the contest answered by the order between rooms.
+
 ## What the three drawings agree on
 
 All three keep the spine from the start through calls, building and keeping, then the neighbours, the contest, the close at hour 73 and what follows it. The account rests on the second arrangement, by tier, with the clock of the first written into its last section. The third arrangement supplies the rooms told upward.

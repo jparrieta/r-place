@@ -2,7 +2,7 @@
 
 Target length: about 1,400 words. For each construct, one sentence in which the name does theoretical work, of the form "because the room had X, Y could happen". A reader would say this sentence about a room using the name and nothing else. Below each sentence is a verdict, and where it applies, what the sentence assumes that the run has not tested. A name that only labels the subject of its sentence fails, and stage C5 section 2 then recuts it under rule 11.
 
-**Result of pass 1.** No name fails: each of the 36 does work in its sentence. Four names imply a mechanism that the run has not tested, and they are flagged: Critical mass, Live and let live, Reciprocity and Collective efficacy. Four names need their difference from a construct they may be mistaken for stated in the account: Stigmergy, Decided order, Completion ritual and Live and let live. The account of pass 1 states none of the four differences; pass 2 adds them.
+**Result of pass 1.** No name fails: each of the 36 does work in its sentence. Four names imply a mechanism that the run has not tested, and they are flagged: Critical mass, Live and let live, Reciprocity and Collective efficacy. Four names need their difference from a construct they may be mistaken for stated in the account: Stigmergy, Decided order, Completion ritual and Live and let live. The account of pass 1 states none of the four differences; the account of pass 2 (C5a-02) states all four.
 
 ## Fourth-order themes
 
@@ -39,7 +39,7 @@ Target length: about 1,400 words. For each construct, one sentence in which the 
 
 1. **Critical mass (D01).** Because a room gathered a critical mass of hands, it could build a mark large enough to hold before the canvas filled. Passes, flagged. The name implies a threshold. The run has not tested one, and the related claim that replies show a room its numbers failed (F-015, weak).
 2. **Coordination without command (D02).** Because the room coordinated without command, a template or the trace could align a picture while no one could give an order. Passes.
-3. **Maintenance (D03).** Because members maintained the work, it could stand on a surface anyone could change. Passes. Its declaration says attribution "decides between quiet repair, forgiveness and retaliation", which the run's test contradicts; pass 2 reads the dimension declarations under the prose rule.
+3. **Maintenance (D03).** Because members maintained the work, it could stand on a surface anyone could change. Passes. At C5a-01 its declaration said attribution "decides between quiet repair, forgiveness and retaliation", which the run's test contradicts. At C5a-02 the dimension declarations were read under the prose rule, and that sentence is gone.
 4. **Order without law (D04).** Because order between rooms ran without law, an agreement could hold only as long as the rooms' members kept it. Passes.
 5. **Collective identity (D05).** Because the room carried a collective identity, a tie from before the canvas could name the rival in an attack turn. Passes. C02 is untested for order.
 6. **Host framing (D06).** Because the host sub framed the event in its own space, canvas talk could be keyed as play or confined to one thread. Passes.
