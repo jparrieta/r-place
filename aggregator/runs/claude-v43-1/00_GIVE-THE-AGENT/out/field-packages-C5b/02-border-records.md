@@ -1,0 +1,126 @@
+# The records to code
+
+40 records, in a random order. Each is one room's first concept of border talk. Give each record one code from `01-the-codes.md`, reading it whole. No one's codes are given.
+
+Each record shows its citation (room/concept id), the hour since the canvas opened, the author as the record carries it, the first-order coder's one-line label for the concept, and the member's words. The label is the coder's summary, not a code of this read; where the label and the words differ, the words decide.
+
+- [Temple/c0009] h35.90, DaSchultz
+  - label: asking Temple to move rather than keep fighting over Wisco's spot
+  - words: "Wisco here. We are taking that spot. We ask if you could please move to the right of ILLINI where there is free space, since yours will fit there. Otherwise we will continue to fight.. let's all get along :)"
+- [finland/c0001] h8.09, fokye
+  - label: countering a declaration of war with an offering of peace
+  - words: "Dont listen to him! He is a double agent! The palta runs deeply within him, I come to you [with an offering of peace.](https://i.ytimg.com/vi/KTyBe7ErIQM/maxresdefault.jpg)"
+- [transformers/c0020] h48.97, arielscars
+  - label: saying Rainbow Road simply continues around builds
+  - words: "Plenty of people have done it successfully. RR simply contiues around it"
+- [RelientK/c0004] h37.20, relientkfan
+  - label: tracking nearby builders and trying to make a truce with the box guys
+  - words: "Haha the Porter Robinson people are working on a Madeon logo now and almost built near us but realized the square people were there so they're moving somewhere else... I'm gonna try to make a truce with the box guys."
+- [cubers/c0021] h5.70, bluuit
+  - label: celebrating completion and converting colors for the peace treaty
+  - words: "We did it guys! Now as part of our peace treaty with /r/bulgaria that made it possible, lets convert the color scheme to white, green and red."
+- [truestl/c0024] h40.61, matttheman97
+  - label: asking them to move for the Bunnings snag tribute
+  - words: "I'd suggest moving it from underneath STRAYA, we're working on a bunnings snag tribute that will cover a huge space beneath STRAYA!"
+- [mysterydungeon/c0016] h55.44, thatwasnotkawaii
+  - label: objecting that the design crosses Chicago's border
+  - words: "Oi, you're crossing Chicago's border!"
+- [MiamiHurricanes/c0002] h51.55, one98d
+  - label: marking the U's border and respecting r/fireemblem's wishes
+  - words: "y 860 is top black border of the U. /r/fireemblem said not to encroach too much on the bottom right corner of their piece. Respect their wishes."
+- [worldoftanks/c0102] h20.31, Marmalade_Kat
+  - label: asking to sort out shared space with /r/StardustCrusaders
+  - words: "/r/StardustCrusaders are also in this spot maybe we can sort something out?"
+- [Dorset/c0007] h66.43, AGeary
+  - label: proposing the most sustainable design
+  - words: "I think [this](http://i.imgur.com/m2d4ssX.png) is the most sustainable design."
+- [drumcorps/c0107] h57.00, GoldenBoy9999
+  - label: thanking builders for not invading a neighboring sign
+  - words: "Thanks for not invading the sign above!"
+- [eve/c0057] h13.51, DetourDunnDee
+  - label: working out a border with neighbours who expanded past it
+  - words: "Based on that we should be leaving them a border 4 thick on the left of the red, right? They've since expanded past that and it doesn't seem like they're keen on sharing that border."
+- [hatsune/c0010] h45.35, jomarcenter
+  - label: warning that the taskbar is in her path and proposing a treaty to protect her
+  - words: "We have a problem. the task bar plan at r/placestart wants to place the windows 95 taskbar in her path. We must protect her at all cost. I have send and proposed a treaty with them to find a way to not destroy her."
+- [Fez/c0014] h23.71, Virgil_Starkwell_
+  - label: warning that a menorah is using the same spot
+  - words: "you're not the only one around that spot"
+- [bisexual/c0066] h37.50, live_wire_
+  - label: reporting talks with r/TransFlagPlace
+  - words: "After talking to /r/TransFlagPlace,"
+- [turkey/c0051] h20.61, Sniper430
+  - label: r/mcgill saying the flag is being drawn on its red chicken
+  - words: "Hello from /r/mcgill YOU APPEAR TO BE DRAWING ON OUR RED CHIKEN"
+- [ManningPlace/c0001] h59.70, Csarks
+  - label: cross-posting to r/osuplace for a peaceful solution
+  - words: "Edit: I cross-posted over to r/osuplace so we can (hopefully) reach a peaceful solution."
+- [redvsblue/c0026] h41.15, tobimarsh
+  - label: arguing the shield and Spartan helm can share a border
+  - words: "We don't need to fight? Your shield is aligning perfectly with the spartan helm along the black border it seems to me no?"
+- [titanfall/c0105] h48.79, PJRobinson
+  - label: asking Titanfall to move so both logos fit
+  - words: "They've given you space that wasn't there's to give away. I'm sorry but you'll completely block Zelda's [triforce] (http://wallpapercave.com/wp/iKPUoe8.png) if you build here.  Can you move it a bit up and to the left? If you do that and drop the /r/ there should be enough space for both our logos :)"
+- [edboxes/c0025] h36.49, Sodra
+  - label: offering a truce that trades leaving Kilian art for leaving edboxes
+  - words: "As long as you don't destroy our kilian art we wont get rid of your edboxes. Truce?"
+- [PlaceNL/c0012] h42.67, [deleted]
+  - label: being diplomatic with r/Goodboye
+  - words: "Diplomatiek met /r/Goodboye"
+- [stardewvalley/c0010] h22.14, ScarletLight5
+  - label: contacting r/Overwatch about the Lucio above the Junimo
+  - words: "I am in contact with the redditors over on /r/Overwatch, regarding their Lucio pixel art right above our Junimo."
+- [paladins/c0088] h26.82, imisajt
+  - label: moving to new coordinates after talking with r/GreenLattice
+  - words: "after talking with /r/GreenLattice the new coordinates are https://www.reddit.com/r/place/#x=905&y=435"
+- [placestart/c0014] h39.88, Yippie_Tai_Yai_Yay
+  - label: asking whether to allow the F border to encroach
+  - words: "It encroaches on our top most gray. do we allow it?"
+- [tf2/c0049] h14.22, Impunitus
+  - label: EVE asking not to fight over the same space
+  - words: "Hey guys we at /r/Eve seem to be competing with you for the same area of space. We already have most of our E formed and are trying not to fight over the same space with another community"
+- [raocow/c0012] h55.31, Seriyu
+  - label: offering to inform SwedenOnPlace about the build
+  - words: "On it! We can inform /r/SwedenOnPlace about our building if we start to have issues with em (they've been pretty nice, another sub I'm a part of built on there fine, though they got there first so it was a bit easier for them)."
+- [pakistan/c0019] h22.91, LykatheaAflamed
+  - label: moving south after negotiations with r/GreenLattice fail
+  - words: "Negotiations with r/GreenLattice have [failed](https://www.reddit.com/r/GreenLattice/comments/62tz0l/i_come_from_rpakistan_and_hereby_would_like_to/dfp4vkd/?context=3). We need to build further south."
+- [minnesotavikings/c0108] h46.37, shicken684
+  - label: asking Vikings not to take more Browns orange
+  - words: "Yall are impeding on a future Browns helmet.  We'll try to fill the bottom half in and try to make it blend.  Just don't take over any more orange please."
+- [floridagators/c0056] h29.67, MrChexmix
+  - label: receiving r/nba's request to move two spots
+  - words: "Can y'all move over just 2 spots? /r/nba is making a logo too in the bottom left corner, right at the corner."
+- [theexpanse/c0004] h7.55, Disti15
+  - label: asking the Diogo writers to use another place
+  - words: "we are the ones writing "Diego", and we are trying to write "Diego el negro", so we'd prefer if you wrote Diogo in another place"
+- [ukraine/c0002] h23.81, IamLoafMan
+  - label: promising not to overrun the flag
+  - words: "Dearest Ukraine, we socialists promise to not overrun your flag"
+- [schoolidolfestival/c0039] h37.60, HonkySora
+  - label: saying placehearts and ainbowroad are fine with being overrun
+  - words: "/r/placehearts and /r/ainbowroad are fine with us overrunning them."
+- [unitedkingdom/c0033] h5.40, Massi131
+  - label: announcing a peace deal with Italy
+  - words: "PEACE DEAL WITH ITALY ON r/place"
+- [AmericanFlaginPlace/c0076] h33.82, boy_wonder69
+  - label: proposing peace with neighboring projects
+  - words: "We Can Create PEACE!!"
+- [AprilKnights/c0017] h6.82, TheLordMolagBal
+  - label: demanding a temporary truce against Blue
+  - words: "WE CANT TAKE THE BLUES ALONE IT'S IMPOSSIBLE, WE MUST HAVE A TEMPORARY TRUCE!!!!"
+- [4chan/c0011] h5.66, river710
+  - label: asking people not to mess with the neighboring Steven Universe or dues vult work
+  - words: "Please don't mess with the steven universe shit or dues vult shit next to us"
+- [sweden/c0008] h2.40, T7Y9
+  - label: proposing peace among the Scandinavian countries
+  - words: "Jag skulle vela komma med ett förslag att vi (om någon vet nåt sätt) borde försöka sluta fred med de andra skandinaviska länderna; för ett enat och starkt skandinavien!"
+- [singapore/c0027] h22.29, Jagd_Zelpajid2
+  - label: calling for a talk with the Turks
+  - words: "Boy we should really have a talk with the Turks"
+- [denmark/c0042] h17.66, gaardsund
+  - label: helping the rainbow stay clear around Dannebrog to remain good friends
+  - words: "Jeg tror også det er meget bedre at holde os gode venner med rainbowroad.  Jeg hjælper i hvert fald til, at regnbuen bliver tydelig rundt om Dannebrog!"
+- [denverbroncos/c0035] h52.11, Giddyfuzzball
+  - label: offering the carrot group a move in return for help
+  - words: "I've offered r/farmingcarrots to move if they help us."

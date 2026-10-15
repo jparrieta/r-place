@@ -655,6 +655,182 @@ Pass 6 changed two elements' statements (P02, P03), the fourth-order tier (Stigm
 - **`implications-C5.md`:** the theory question in the model's terms; two counterfactuals at a leaf; transferability, with six conditions and the frame; ten expectations for the return; and which forms keep the work alive, from the record (`c5d_kept.py`). No form sorts kept from lost by much, and the clearest difference is less silence.
 - **`handback-C5.md` and `interview/C5d.md`.**
 
+## C5c-07: the serial work, planned
+
+**J's ruling (13:45 Amsterdam, 15 October, through the PI).** The freeze at C5d is lifted for serial work in this branch.
+- This leg builds the package for the second coding of border talk and writes this plan.
+- Each later leg works one problem only. It reads this plan, the head and the finding files written so far, does the work, writes its finding to its own file, and closes.
+- After the last problem, one leg folds the findings into the head and the setup I had before the serial work. Then C5d is redone.
+
+**The package for the second coding of border talk** is in `out/field-packages-C5b/` (`c5c7_border_package.py`).
+- **What it holds:**
+  - the 40 records of my C5a-02 read, each a room's first border-talk concept through `cite.py`, in a seeded order;
+  - the T, D and O codes, copied from the rules I wrote before that read;
+  - a read-me and a return format.
+
+  None of my codes or doubts is served.
+- **The rule for the return, written before it comes back.** Each record takes the code that at least two coders gave.
+  - With two codings, mine and the field analyst's, a record we code alike takes that code.
+  - A record we split is counted both ways, so the result is a range, as for Stigmergy's three-way splits. Cohen's kappa is reported.
+  - If a third coding comes, each record takes the code the majority gave.
+  - A04's bound then states T of T plus D at the low and the high end of the range.
+- **Where it is scored.** The leg for problem 3 scores it if the return is in `out/sources-from-J/` by then. Otherwise the fold-in leg scores it.
+
+**The setup before the serial work.**
+- The head as it stood at C5d's close is copied to `out/serial-C5/head-before-serial.md`.
+- The model and its tiers at that close are hashed in `_closes/model-C5.sha256` and snapped as `C5-cut-interview-C5d-20261015T103817Z`.
+
+**What every serial leg does.**
+- It reads this plan, the head and the finding files in `out/serial-C5/`.
+- It writes the rules for any read before the read, logged with `--kind abductive`.
+- In every sentence it writes, the actor is the room, or a group of rooms, wherever members spoke or acted for it (problem 1's rule, below).
+- It makes each change to the model as a logged and snapped move, with its ledger line (`tier_history.jsonl`, `model/history.jsonl`, and `findings.jsonl` under rule 14). It also writes one line in `account_passes.jsonl`, with what the criterion says.
+- It does not rewrite `account.md` or `propositions.jsonl`. Its finding file lists the sentences and fields its change touches, and the fold-in leg rewrites them once.
+- It writes its finding file with seven parts:
+  - the question;
+  - the rule, written first;
+  - what was read, with counts and denominators;
+  - what changed, by ledger id;
+  - what did not change, and why;
+  - what the fold-in must carry;
+  - how sure I am.
+- It adds one line to the head's revisions, pointing to its finding file, and otherwise leaves the head as it stands.
+- It closes with `done.sh C5`.
+
+**The order, and why.** I keep J's order.
+1. The unit comes first, because every later leg writes under its rule.
+2. The reason test stands alone.
+3. Thin evidence comes third. This gives the second coding of border talk time to return, and the leg sets when a count should weigh more than my reading of the material.
+4. Stigmergy and "aligned" come last. That choice draws on the unit and on the stance on counts, and a recut of the tier changes what the redone C5d regenerates in any case.
+
+### Problem 1: the unit (`out/serial-C5/finding-1-unit.md`)
+
+- **The question.** At pass 6, I accepted 94 pieces of field advice. Which of them moved the actor from the room, or a group of rooms, to members, where members spoke or acted for the room?
+- **The rule, from J's advice (12:01 and 13:45).**
+  - **The room is the actor** where members spoke or acted for it: in its threads, in the first person plural, in its calls, or in plans it adopted.
+  - **A group of rooms is the actor** where a coalition or an agreement acted.
+  - **Members are the actor** only where the quotes show them acting apart from the room or against it, such as a refusal of the room's call or a member placing alone.
+  - **The rule holds in the global model too.** The account, the propositions, the element statements and the arrows speak of rooms or groups of rooms.
+- **The read.**
+  - A script lists the 94 accepted pieces from the C5c-02-p2 lines of `tier_history.jsonl`, with the old sentence (`was`) beside the new one. It flags each piece where the actor changed.
+  - Passes 7 and 8 carried that wording into the elements, the arrows and the propositions (`model/history.jsonl`, moves 131 to 146), so those are swept too.
+  - For each flagged item, I read the quotes it rests on through `cite.py`, with the quotes drawn for the field packages.
+- **What changes.** Only the actor.
+  - The rest of the accepted advice stays: no universals without support, counts with their limits, motives the quotes do not state, quotes read right.
+  - Each restoration is a declaration amendment or a model history line, logged as a "developing" move and snapped.
+  - Each item that keeps members as the actor says why, in a line.
+- **For the fold-in.** The leg lists every sentence of the account and every proposition field whose actor changes.
+
+### Problem 2: the reason test (`out/serial-C5/finding-2-reason-test.md`)
+
+- **The question.** In replies to attack calls, refusals gave a reason in 23 of 38, and acceptances in 2 of 14 (F-014). How much of that is what members did, and how much is what the written record kept? And do replies to calls to place show the same pattern?
+- **What the draw already sets.** F-014 drew acceptances and refusals apart, each by its theme, up to 40 rooms per kind (`c3b_ca_pairs.py`). So 38 against 14 is not a ratio from the rooms. Only the share giving a reason, within each kind, is a result.
+- **Survivor bias, as J frames it: omission against commission.**
+  - A member can accept a call by placing pixels and never write a reply. A member who declines leaves no mark on the canvas, so the record shows the refusal only if it was written.
+  - A refusal may need a reason to be said at all, while an acceptance is shown by doing. So among written replies, the acceptances that survive may be the barest ones.
+  - Removed and deleted replies drop out of the record. I check what the store records of removed and deleted items, under each kind of call, and say what the record cannot show.
+- **The test on calls to place, with rules written first.**
+  - **The pairs:** a first part under the calls element's theme (P01) that asks members to place, and the first direct reply by another author, later in the same thread.
+  - **The draw:** 80 pairs with seed 20261015, drawn from replies of any theme, since the theme a reply sits under does not track its stance.
+  - **The codes:** as in `c3b_ca_codes.json`: stance (accept, refuse, mixed, other) and account (a reason given or not).
+  - **The test:** Fisher's test, as before.
+  - **Coding:** by me alone, and the finding says so. If the result changes a claim, a package for a second coder is built in the form of `field-packages-C5b/`.
+- **What a result can change.**
+  - F-014's bound, through a new finding or a superseding line.
+  - A12's mechanism, the bare answer, which is theorised, if calls to place show it.
+  - The bare answer's wording in the account.
+  - How the account reads the asymmetry: as a fact about written replies.
+
+### Problem 3: thin evidence (`out/serial-C5/finding-3-thin-evidence.md`)
+
+- **The question.** Thin is not weak, and crucial things happen rarely. When should a count weigh more than my reading of the material, and when should it not? The leg applies the answer to the move after doubt (A10) and to border talk and what follows it.
+- **The stance, written first and then checked against the method's sources.**
+  - **A count decides** a claim about a distribution or an order across rooms, when its denominator is large enough for a null.
+  - **My reading decides, with the count stated beside it,** when three things hold:
+    - the event is rare by its nature (a loss, a move, a broken deal), so few rooms can carry it;
+    - the step shows in members' words in the rooms that carry it;
+    - no room that carries both elements shows the reverse.
+  - **Then the claim stands as a mechanism shown in N rooms.** It is labelled thin (rule 8), not stated as a tendency (rule 16).
+  - **The sources.** I check what Gioia, Corley and Hamilton 2013 and Grodal, Anteby and Holm 2021 say on this before I cite them. QC5-002 asks J for the passages he means.
+- **The move after doubt (A10, from K02 to P10, 11 of 21 rooms).**
+  - Read the first K02 concept and the first P10 concept of all 21 rooms whole, with their hours.
+  - Code each room under codes written first:
+    - the move follows a judgment of too few hands or too little space;
+    - the move came first;
+    - the move was by choice or by a coalition's plan;
+    - there was no move.
+  - Then count the rooms that could have carried a loss (rule 6).
+- **Border talk and what follows it ("the border replies").** I read J's phrase as covering three things:
+  - A05, the thin arrow from border talk to sparing, refusal or apology;
+  - A14, the thin arrow from border talk to help;
+  - the first-turn reading behind A04's bound (34 of 38).
+
+  For A05 and A14, the leg reads every room that carries both elements, whole, under codes written first, as for A10. The second coding of the 40 border records is scored by the rule above when it returns.
+- **What a result can change.**
+  - The arrows' strength and mechanism.
+  - A04's bound.
+  - How the account and the propositions word a thin claim.
+  - K02's and P10's ranges.
+
+### Problem 4: Stigmergy and "aligned" (`out/serial-C5/finding-4-stigmergy-aligned.md`)
+
+- **The question.** Is Stigmergy, with one member, the right fourth-order theme? Is "aligned" or "tried to align" the right word for what rooms did with many hands? J defers to me and asks for a choice with literature behind it.
+- **Stigmergy: the options.**
+  - **(a)** Keep it with one member (T3-038), as now.
+  - **(b)** Withdraw it, and place T3-038 in the fourth-order theme of its dimension that takes it.
+  - **(c)** Return T3-041 and T3-060 where their records propose additions grounded in the work's state (the MP code). Heylighen 2016 counts such a trace as "an opportunity for advancement" (p. 8). This would set aside the outcome of the three-coder rule for a reading, so it needs a reason stronger than my belief.
+- **"Aligned".**
+  - D02 and the alignment proposition now say that members tried to align.
+  - The rooms' own reports of built and kept work are in the record, apart from the canvas: building and reporting the mark, and `work_remained` kept in 347 of 705 rooms.
+  - If those reports carry the result, "rooms aligned" can rest on them. If they do not, "tried" stays.
+- **The literature.**
+  - **On file:** Heylighen 2016 and Grassé 1959 (`sources-from-J/`), and Puranam, Alexy and Reitzig 2014 (checked at C3).
+  - **Asked of J (QC5-002):** Bolici, Howison and Crowston 2016, on stigmergic coordination in free and open-source teams; Okhuysen and Bechky 2009, on coordination.
+  - Anything not on file is marked as not checked against the text.
+- **Sparring.** If my tools allow it, one adversarial reader is asked for the strongest reasons on both sides.
+  - It is given the declaration, the members' quotes, the three codings and the sources, and never my notes.
+  - It decides nothing.
+- **The rule for the choice, written before the read.** Choose the option that:
+  - the members' records under each member theme support;
+  - the source's definition admits;
+  - keeps the dimension whole.
+
+  On a tie, choose the option with fewer claims that lack support (the criterion's first item).
+- **What a result can change.**
+  - The fourth-order tier: `fourth.jsonl` and `tier_history.jsonl`, and `scheme_v2.jsonl` if a third-order theme moves.
+  - F-018, superseded or bounded.
+  - D02, P02 and P03.
+  - The counts of A01, A03, A07 and A11, if the elements change.
+  - The alignment proposition.
+
+### The fold-in, and C5d again
+
+- **The fold-in leg:**
+  - starts from `out/serial-C5/head-before-serial.md` and the four finding files;
+  - scores the border return, if problem 3 could not;
+  - rewrites `account.md` and `propositions.jsonl` once, as one pass;
+  - writes the head, and closes with `done.sh C5`.
+- **C5d again:** it regenerates the data structure, the figure, the implications with their expectations, the handback and the interview from the model the findings leave.
+
+**Slips, C5c-07.**
+- **A cut after a read.** I chained `cut -c` after a `mem.py diary` read, and the guard refused it. I reran the search without it.
+- **A drafted addition to the codes.** I drafted two lines under the border codes that restated my doubtful calls. They came from my read, not from the rules written before it, so I removed them before the package was written.
+
+## The close-check, C5c-07
+
+`python3 tools/validate.py C5`, run after the package, the plan and the head were written:
+
+```
+stage C5:
+  data_structure-C5.md: 195 rows, 192 quotes checked
+  leg: check; passes 10, propositions 9, elements 30, arrows 21, history lines 119
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
+No model file changed in this leg, so it writes no `account_passes.jsonl` line.
+
 ## The close-check, C5d
 
 `python3 tools/validate.py C5`, run after the C5d files were written and before the head was rewritten:

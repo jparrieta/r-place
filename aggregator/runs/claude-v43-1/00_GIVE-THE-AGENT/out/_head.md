@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5d, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 closes at C5d with `done.sh C5 --cut interview`, and the model and its tiers are fixed (`_closes/model-C5.sha256`). `validate.py C5`: 0 errors, 0 warnings.
+Under 3,000 words, rewritten whole at every close. Last written at C5c-07, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch: four problems, one leg each, then a fold-in leg and C5d again (the plan: `notes-C5.md`, C5c-07). `validate.py C5`: 0 errors, 0 warnings.
 
 ## The method question, in one sentence
 
@@ -48,6 +48,7 @@ The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `
 - **J, 12:01 Amsterdam (advice).** The room is the unit; demote a room claim only where members act apart from it.
 - **C5c-05 (pass 9).** K02, A10 and P13 restored to the room (moves 147 to 149); P12, the quiet-week boundary and "groups announced" kept. `notes-C5.md` holds my answer for C5d on confidence and on what the strict reading cost.
 - **C5c-06 (pass 10).** The three restorations read as intended; no change, so the passes stop.
+- **J, 13:45 Amsterdam (C5c-07).** The freeze is lifted for serial work. The border package for a second coder is `field-packages-C5b/`. Findings go to `serial-C5/`; the head at C5d's close is `serial-C5/head-before-serial.md`. QC5-002 asks J for texts.
 
 ## Where the run stands
 
@@ -167,4 +168,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-Stage C5 is closed and the model fixed. The next comparison is the one the next stage file sets, against the expectations in `implications-C5.md`. The fixed model is `model/` as pass 10 left it: `model-C4.md` with the C5 cuts and restorations, the declarations as amended in passes 1, 2 and 6, and the concept as `concept-C3.md`.
+The next leg works problem 1 of the plan in `notes-C5.md` (C5c-07), on `model/` as pass 10 left it.
