@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5c-01, 2026-10-15 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open. C5c-01, the first check pass over the three readers' returns (pass 5), closes with `done.sh C5`. `validate.py C5` before this close: 0 errors, 0 warnings. The field analyst's second reading (QC5-001) is with J; the next check pass waits for it.
+Under 3,000 words, rewritten whole at every close. Last written at C5c-02, paused at the PI's request, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 is open. The field reading is back (`sources-from-J/RETURN-field-C5.jsonl`). Three codings decide Stigmergy: T3-041 and T3-060 meet the rule and move to Collective representation, leaving Stigmergy one member. Nothing is written to a ledger yet; the pause log says where to pick up.
 
 ## The method question, in one sentence
 
