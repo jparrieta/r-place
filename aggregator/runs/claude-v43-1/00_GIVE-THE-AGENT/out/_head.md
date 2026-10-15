@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5b, 2026-10-15 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open. The passes stopped at pass 4, and C5b, the readers' build, closes with `done.sh C5 --cut packets-out`. `validate.py C5` before this close: 0 errors, 0 warnings. J runs the dispatch; the next launch of C5 is the check leg.
+Under 3,000 words, rewritten whole at every close. Last written at C5c-01, 2026-10-15 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open. C5c-01, the first check pass over the three readers' returns (pass 5), closes with `done.sh C5`. `validate.py C5` before this close: 0 errors, 0 warnings. The field analyst's second reading (QC5-001) is with J; the next check pass waits for it.
 
 ## The method question, in one sentence
 
@@ -10,7 +10,8 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The account is `account.md`, pass 4 (1,869 words; passes 1 and 3 kept as `account-p1.md` and `account-p3.md`). The nine propositions are in `propositions.jsonl`.
+The account is `account.md`, pass 5 (2,307 words; passes 1, 3 and 4 kept as `account-p1.md`, `account-p3.md` and `account-p4.md`), with the readers' disagreements beside it in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`.
+- **Stigmergy's cut is open.** A blind second coding agreed with mine on 56 of 72 records. By its codes, two of the three member themes meet the rule written before the read: T3-041 has P in 8 of 14 records that are not O, and T3-060 has 10 of 20. The field analyst codes the 72 as a third reader.
 - **The spine.** A member starts a mark [R01]. Calls follow the start in 64 of 89 rooms [A02], building follows calls in 137 of 190 [A01], and keeping follows building in 182 of 291 [A03].
 - **The bare answer.** Members answer a call in one line that gives no reason. This is conversation analysis's preferred acceptance, the run's concept, borrowed (F-014). Its head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
@@ -21,8 +22,7 @@ The account is `account.md`, pass 4 (1,869 words; passes 1 and 3 kept as `accoun
 - **The close.** Members celebrate, record and carry the work on [A07, A08, A09]. Placement stops at hour 73 for every room. After it, members curate the record (P12; P22 tentative), apart from carrying on (P13).
 - **Machine hands.** Scripts follow upkeep under strain [A06].
 - **C02** (untested for order): a tie from before the canvas names the rival in the attack turn.
-- **Cut at C5a-02 to candidate:** P06 (attribution) and R02 (the envoy). K01 (the April Fools frame) was restored at C5a-03 and carries no arrow (F-009). 23 elements stand.
-- **Which rule keeps an element** (C5a-04, in the account's last section): the criterion. The arrow rule names candidates and limits what is said of an element with no arrow.
+- **Cut to candidate:** P06 (attribution) and R02 (the envoy). K01 was restored and carries no arrow (F-009). 23 elements stand.
 
 **The room that best supports the account: day9.** It offers a neighbour terms before any damage, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
 
@@ -32,25 +32,26 @@ The account is `account.md`, pass 4 (1,869 words; passes 1 and 3 kept as `accoun
 
 ## The reasons for the last revisions
 
-- **J's rulings of 15 October, 01:29 Berlin** (relayed by the handler; J has delegated C5 questions to the handler):
-  1. Work after hour 73 is curation of the record (P12, P22 tentative), told apart from carrying on (P13).
-  2. The declaration prose pass comes before the account, rule first, each amendment a move; a cut moves only where quotes force it.
-  3. Stigmergy is amended only after Heylighen 2016 and Grassé 1959 are read whole (`out/sources-from-J/`), and recut only if it joins what they keep apart.
-  4. The second reader is C5's three readers: the C5b packets carry the rule and the amended declarations with their quotes.
+- **J's rulings of 15 October, 01:29 Berlin** (J has delegated C5 questions to the handler):
+  1. Work after hour 73 is curation of the record (P12; P22 tentative), apart from carrying on (P13).
+  2. The prose pass on the declarations comes first, with the rule written first and each amendment a move.
+  3. Stigmergy is recut only if it joins what Heylighen 2016 and Grassé 1959 keep apart.
+  4. The C5 readers are the second reader of the declarations; QC5-001 adds the field analyst.
   5. J's language ruling stands.
-- **C5a-01 and C5a-02 (passes 1 and 2).** All 28 fourth-order declarations and seven dimensions were amended under the prose rule. Stigmergy kept its cut (31 of 52 records report the work's state or act on it). A04 was bounded by the P08 test. P06, K01 and R02 were cut for want of an arrow. Nine propositions were written.
-- **C5a-03 and C5a-04 (passes 3 and 4).** K01's cut was reversed (move 92), since ten told story rooms rest on it. The criterion, not the arrow rule, decides whether an element stays; the model broke the arrow rule from C2's first pass. Pass 4 changed nothing, so the passes stopped.
-- **The criterion** (written before pass 1, `notes-C5.md`) preferred pass 3 over pass 2 (the same 16 story rooms told with no residue, at the cost of one element) and says "no change" of pass 4.
-- **C5b (the readers' build).** Three rooms were drawn by rule: cardinals (told), luciomains (told with a residue) and mysterydungeon (the late side, visited least). Under the 50 KB ceiling, each room is served as its facts and 7 seeded passages. For J's ruling 4, the packets serve the rule and the 40 sentences it puts in question, not the whole declarations, and the 72 Stigmergy records to code blind (QC5-001 asks if that suffices).
+- **Passes 1 to 4 (C5a).** The declarations were amended under the prose rule. A04 was bounded. P06 and R02 were cut; K01 was cut and restored (move 92). Nine propositions were written. The criterion (`notes-C5.md`, written before pass 1) preferred each pass and said "no change" of pass 4.
+- **C5b (the readers' build).** The rooms were cardinals, luciomains and mysterydungeon, each served as its facts and 7 seeded passages. The packets carried the rule, 40 sentences in question and the 72 Stigmergy records to code blind.
+- **J, 15 October.** 07:59 Amsterdam: I decide what comes into the model and what goes out, by my own criterion; no fixed rule decides. 08:35 and 09:09 (QC5-001): the fleet packets stand. The field analyst gets all 36 declarations whole, the rule and the members' quotes, in as many packages as needed, and judges against the quotes, not against its own model.
+- **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part; none recovered c3 or c8. Their cardinals verdict came from 7 passages, a packet error. 7 of 40 sentences did not stand for them. Ten errors were fixed and 34 sentences rewritten. No element or cut changed.
 
 ## Where the run stands
 
 - **C5 outputs:** `account.md` (pass 4, 1,869 words), `account-p1.md`, `account-p3.md`, `propositions.jsonl` (9), `prose-test-C5.md` (36 pass, 4 flagged: Critical mass, Live and let live, Reciprocity, Collective efficacy), `sketches.md` (five arrangements), `account_passes.jsonl` (4 lines), `notes-C5.md`.
 - **C5b outputs:** `figure-C5.md` (a draft; drawn again at C5d), `author_claims.jsonl` (9), `RETURN-C5.md` (plus `declarations` and `codes`), `_packets-C5/` (3, under 51,200 bytes), the C5 entry in `run_manifest.json`; scripts `out/_analysis/c5b_*`.
+- **C5c-01 outputs:** `readers-C5/` (the three returns), `account-readers-C5.md`, `field-packages-C5/` (13 files, 268 sentences, 72 records), `account_passes.jsonl` (5 lines); scripts `out/_analysis/c5c_*`. The dispatch's ~54,000 bytes is the packet plus `RETURN-C5.md` beside it.
 - **Ledgers:** `tier_history.jsonl` 515, `model/history.jsonl` 94, `findings.jsonl` 26 lines (17 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Snaps** run to C5-move-developing-92. The scripts are `out/_analysis/c5_*`.
 - **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
-- **The questions.** QC5-001 is open. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
+- **The questions.** QC5-001 is answered; its field reading is out. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
 ## Stage C4, in short
 
@@ -65,14 +66,12 @@ The field's analyst modelled the event from r/place, sealed from my files. Five 
 
 ## Stage C3, in short
 
-- **C3a.** O'Mahony and Ferraro: a difference of setting; F-006 bounded (7 of 39 against 39 of 666, p 0.014 at held size). Olson: open.
-- **C3b.** Conversation analysis supplied A12's and A16's mechanisms (F-014). The concept is the preferred acceptance, borrowed (F-015).
-- **C3c.** The four universal problems put to the structure (F-016). The goal (F-017).
+C3a bounded F-006 (O'Mahony and Ferraro; Olson open). C3b took A12's and A16's mechanisms from conversation analysis (F-014, F-015). C3c put the four universal problems to the structure (F-016) and the goal (F-017).
 
 ## Stage C2, in short
 
 - **J's ruling on QC2-002, verbatim:** "from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Work pass 5 from pass 4's state. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the rooms show membership naming the rival in the same turn as the attack, carry it as a claim in their words, marked as untested for order. This is the last closing pass. Close by saying what you are sure of, what you are not, and why."
-- **Pass 1 (C2a-01).** J at 23:24 Berlin: "If I am not back please simply review and make the interview you find appropriate. Then start C2", and "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The connection statement: "the first concept of FROM comes before the first concept of TO", null of 500 shuffles within each room (seed 20261014).
+- **Pass 1 (C2a-01).** J at 23:24 Berlin: "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The connection statement: "the first concept of FROM comes before the first concept of TO", null of 500 shuffles within each room (seed 20261014).
 - **The reviewer (C2b, C2c).** QC2-001 (the handler, under J's delegation): serving sections of the pass 3 model file is acceptable.
 
 ## Stage C1, in short (carry the rulings)
@@ -162,4 +161,8 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The packets are out. In the check leg, the next comparison is criterion item 5: what the three readers recover of my claims, against `author_claims.jsonl`, both ways. Beside it come the readers' verdicts on the 40 sentences in question and their codes on the 72 Stigmergy records, set against mine. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.
+The field reading, when it returns, is set against the fleet and against me:
+- its verdicts on the 268 sentences, 40 of which the fleet also judged, compared by text;
+- its codes on the 72 Stigmergy records, beside mine and the fleet's.
+
+Then the declarations are amended once, and Stigmergy's cut is decided with three codings in hand. Both are moves, logged and snapped. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.

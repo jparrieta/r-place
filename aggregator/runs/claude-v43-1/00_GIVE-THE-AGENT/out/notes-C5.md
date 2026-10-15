@@ -306,6 +306,135 @@ Pass 3 changed one element's status, so by section 7 another pass is due before 
 
 **The packets as sent.** C5-reader-1 is 50,998 bytes, C5-reader-2 is 51,023 and C5-reader-3 is 51,040, under the 51,200 ceiling. Each carries the instruction verbatim and the end line, and none names these notes.
 
+## C5c-01: the readers' check (pass 5)
+
+**What came back.**
+- **The returns.** J ran the dispatch at 07:06Z. There are three valid returns, one reader per packet, on claude-opus-5-5 through the CLI at its default effort, each about 10,000 output tokens. They are copied unchanged into `readers-C5/`. Each names reader `r1`, since the dispatch ran one reader per packet; the packet name keeps them apart.
+- **What was served.** All three name `account.md` 77b5e35d…, the digest the manifest records. The dispatch's packet hashes and its return-spec hash match mine.
+- **The size the dispatch printed.** About 54,000 bytes per packet is the packet with `RETURN-C5.md` served beside it: 50,998 + 2,970 = 53,968 for reader 1. The packet alone is under the 51,200 ceiling.
+
+**Fidelity, both ways.** The three readers run on the same model as I do, so they share an architecture with me. Their recovery bounds whether the written account carries what I meant, not whether it is right.
+
+| my claim | reader 1 | reader 2 | reader 3 |
+|---|---|---|---|
+| c1 the order from a start to keeping | yes | yes | yes |
+| c2 the bare answer | yes | yes | yes |
+| c3 the mark tells what is missing | no | no | no |
+| c4 neighbours, and agreements no one can enforce | in part | in part | in part |
+| c5 the contest and its answers | yes | yes | yes |
+| c6 a template settles a design; decided order is rare | yes | yes | yes |
+| c7 hour 73, and curation after it | in part | in part | in part |
+| c8 where the account does not reach | no | no | no |
+| c9 the rule that decides whether an element stays | in part | in part | in part |
+
+- **Recovered.** All three recovered c1, c2, c5 and c6 whole.
+- **Recovered in part.** All three recovered part of c4, c7 and c9:
+  - c4: the talk with neighbours, but not that no one can make every placer keep an agreement;
+  - c7: the curation after hour 73, but not that it is apart from carrying on and from making the work;
+  - c9: the April Fools play beside the work with no effect claimed, but not the rule that decides whether an element stays.
+- **Not recovered.** No reader recovered c3 or c8.
+- **Claims they recovered that I did not write.** Three propositions that the account states and `author_claims.jsonl` left out:
+  - the host's line (readers 2 and 3);
+  - scripts under strain (readers 2 and 3);
+  - the move after a loss (readers 1 and 2).
+
+  Reader 3 read the host's line as an answer to a flood of calls. That is N05's stated mechanism, so the reading is intended. No claim that all three found is one I did not intend.
+- **Relations.** Each reader listed all 20 arrows in the model with their direction. Readers 1 and 3 added K01 with no arrow. Reader 2 added C01 and C02 with no arrow, and no loop.
+- **The defects behind the misses (author-error).**
+  - c3: the paragraph led with the sample and the name, not the claim. All three listed Stigmergy among the terms they could not follow.
+  - c8: the residue list said the account "cannot reach" rooms that the last story told in part, and luciomains, on that list, fitted the account for all three.
+  - c9: the rule's paragraph used "story rooms" and "residue" without saying what they are.
+
+  Pass 5 rewrote all three paragraphs. Whether they now carry the claims is untested, since the readers run once.
+
+**The readers' items, by kind, and the answers (rule 13).**
+- **Errors in the account (author-error), each fixed in pass 5:**
+  1. "Each order beats a null … unless called thin or theorised" (all three readers). The arrows called thin, A05, A14 and A19, beat their nulls by 0.009 to 0.041. A10 rests on 21 rooms. Only A11 fails its null, and A12 has no count. The note now says what thin and theorised mean.
+  2. Findings cited but not served, and counts with no source (all three): 368 and 88, 281 and 96, F-002, F-006's factions, F-009. The numbers of F-009, F-002 and F-006 are now in the account, and the counts are marked as the rooms carrying each theme.
+  3. "The field's analyst found the same in r/place" names no source (all three). The account now says who the second analyst was and what they did not see.
+  4. "A template does not make placers follow it" has no count or quote (reader 2). It now rests on the setting fact.
+  5. The 31 of 52 has no null and no arrow (readers 2 and 3). It is now called a reading of a sample, not an order test, and the second coding is added.
+  6. A12 rests on 3 rooms and was never counted (reader 1). It is now marked theorised in its own paragraph, with its base.
+  7. ultrahardcore had "no neighbour", against its own quote on taking other works' hearts (readers 2 and 3). The account now says "no border talk and no upkeep".
+  8. ubc's refusal answers no attack call shown (reader 3). The call is now quoted [ubc/c0064, h53.63].
+  9. "A pass 4 account cites a pass 5 story" (reader 3). The story is now called "the model's last story".
+  10. luciomains sat on the list of rooms the account "cannot reach" (all three). The list names rooms the last story told only in part. The heading now says so, and luciomains' residue is named: jokes that turned the work into the room's own game.
+  11. The sentences the readers could not follow: 34 items over three readers, most named by two or three. Each was rewritten in plain words: the preferred acceptance, F-015's test, "a decided element of order", "a decision for one work within hours", the thin note, the field's analyst, the ranking rule, the K01 restoration, the residue list's heading, the late rooms and uncoded replies, the tie that names a rival, the curation sentence, open source's task architecture, reward provision, O'Mahony and Ferraro. Stigmergy, story rooms and residue are now glossed where they first appear.
+- **Rooms the readers say the account does not describe.**
+  - **cardinals** (all three: fits false). The seven passages served, of 102, show no build. The full record, read whole for the model's last story, shows the chain:
+    - the call: "[Season 3] Let's make the Cardinals logo in /r/place!" [cardinals/c0024, h36.28];
+    - a build report: "Nice start just below the blue note. Could use some fixing up" [cardinals/c0035, h57.09];
+    - the finished work: "...and it's done." [cardinals/c0039, h73.15];
+    - help to the Blues logo (A13), the Cubs attacks and the restraint (A15, A16), and the host's line (A20).
+
+    The call at h36.28 comes before the rival talk at h41.05 that reader 3 placed first. Verdict: author-error in the packet. Seven passages are too few for a reader to see a room's chain, and no bound is written for the room. Two things the readers saw stand:
+    - the room was slow: the call at h36.28 produced no reported build until h57.09;
+    - one answer commits on a condition [cardinals/c0062]. The account now says such answers exist and are not counted. This is named for the return.
+  - **mysterydungeon** (all three: fits true). Reader 2 notes celebration before upkeep in this room. The account claims no order between celebration and upkeep: P05 after P03 and P11 after P03 both hold here. All three readers note that the sample shows no doubt about hands before the Time Gear move. A10 is thin and its one instance failed its audit, so nothing changes. Printed beside the account.
+  - **luciomains** (all three: fits true). See item 10.
+- **Disagreements about how to tell it,** printed beside the account in `account-readers-C5.md`: cardinals as the readers saw it; celebration before upkeep in mysterydungeon.
+
+**The second reading of the declarations: the readers' verdicts.** The readers judged 40 sentences: 33 stand and 7 do not.
+- T4-002 (prose): "Most rooms were standing communities before the canvas opened…": it has no count.
+- T4-010 (prose): "What a chat decided reaches the record only when a member brings it back to the thread.": it has no count and is not a setting fact.
+- T4-011 (prose): "The form pass, which counted nothing, found the question who leads almost never asked.": "almost never" rests on nothing counted.
+- T4-005 (prose): "Here no one could hold a member's time or assign it.": the setting fact covers placing, not time.
+- T4-019 (prose): "Members work out who changed their work and why.": the causal "why" has no support.
+- D04 (mistaken_for): "There is no common pool to manage here, only adjacent works.": no support, and the canvas reads more like a common pool.
+- D05 (mistaken_for): "…identity is the membership the work…": a claim about the rooms with no support.
+
+My answer: these seven, with all 36 declarations whole, go to the field analyst (QC5-001). I amend the declarations once, after both readings are in. The two readers then judge the same text, and their verdicts on the 40 sentences can be compared.
+
+**The Stigmergy codes.** Each reader coded one member theme's 24 records blind (`c5c_codes_score.py`).
+
+| member theme | agree | kappa (4 codes) | P of not O, mine | P of not O, reader | meets the rule, mine / reader |
+|---|---|---|---|---|---|
+| T3-038 (reader 1) | 21 of 24 | 0.81 | 5 of 15 | 4 of 14 | no / no |
+| T3-041 (reader 2) | 15 of 24 | 0.48 | 8 of 17 | 8 of 14 | no / yes |
+| T3-060 (reader 3) | 20 of 24 | 0.75 | 8 of 20 | 10 of 20 | no / yes |
+
+- **Across the three member themes,** trace or marker is in 31 of 52 records by my codes and in 26 of 48 by the readers'. The decision that kept Stigmergy's cut rests on codes two coders do not agree on. For two of the three member themes, the second coding reverses it.
+- **What I do.** I do not settle my own disagreements with a reader alone. The 72 records go blind to the field analyst as a third coder, in the QC5-001 packages. The cut is decided in a later check pass with three codings in hand. The account now says the cut is open.
+
+**What the criterion says about pass 5: prefer.**
+1. **Unmarked causal sentences: fewer.** The thin note, the template sentence and the curation sentence now rest on what supports them.
+2. **Rooms told:** the same story rooms, with the same 23 elements.
+3. **Tested arrows:** every arrow is kept.
+4. **The prose test:** unchanged.
+5. **The readers:** they recovered 4 of my 9 claims whole and 3 in part. Pass 5 rewrote the paragraphs behind the misses. The readers run once, so no figure tests the rewrite.
+
+**What is still due.** Pass 5 changed no element and no cut. Two things are open: the Stigmergy cut, which waits for the third coding, and the amendments to the declarations, which wait for the field reading. So another check pass is due when the field reading returns.
+
+**The field analyst's packages (QC5-001).** They are in `out/field-packages-C5/`, built by `c5c_field_packages.py`; no fleet ceiling binds them. J takes them to the field analyst: a fork of the analyst who wrote the field model and the C4 check, or a fresh session on the same model with that field model as context.
+- **What the folder holds:**
+  - `00-READ-FIRST.md`: who reads; the one rule for the reader, to judge each sentence against the members' quotes and the rule, not against its own model; the study in brief; what to read and what to judge;
+  - `01-the-rule.md`: the rule whole, with its dimension extension and the four setting facts;
+  - eight packages by dimension, `02-D01` to `09-D08`. They hold all 36 declarations as they stand, the ten the fleet packets left out included, with 268 sentences numbered. Each declaration comes with its members by name, the quotes it cites or rested on, and 3 quotes per member theme drawn by `cite.py` under seed 20261015;
+  - `10-findings.md`: the 11 findings the declarations cite;
+  - `11-stigmergy-records.md`: the 72 records in a seeded order, with no one's codes, for a third coding;
+  - `RETURN-field-C5.md` and `MANIFEST.json`.
+- **What is kept from the field reader.** Nothing of the fleet readers' returns is served.
+- **What waits for it.** I would rather the field reading come back before I amend the declarations or settle the Stigmergy cut, so both wait for it.
+
+**Slips, C5c-01.**
+- **Two dead lines in scripts.** A no-op line in `c5c_codes_score.py` and a dead conditional in `c5c_field_packages.py` were written and removed before either script ran.
+- **A quote cut mid-sentence.** One reader quote in `account-readers-C5.md` was cut mid-sentence and was not an exact substring of the return. A check found it, and the quote now ends at the reader's full sentence.
+- **Split member quotes.** The first build of the field packages split members' quotes at their question marks. The splitter now keeps a quote with its citation whole, and the packages were rebuilt before delivery.
+- **A late-room sentence.** I first wrote that late rooms "joined the canvas by helping another room's work". A19's and A04's bounds say they entered through another room: its coalition, its offer of space, or a request for space. The sentence was corrected before the check.
+- **Parallel edits.** Two Edits to the head ran as parallel calls. Both landed, and a later turn counted the words and ran the link check.
+
+## The close-check, C5c-01
+
+`python3 tools/validate.py C5`, run after the pass 5 line and before the head was rewritten:
+
+```
+stage C5:
+  leg: check; passes 5, propositions 9, elements 30, arrows 21, history lines 94
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5b
 
 `python3 tools/validate.py C5`, run after the packets were rebuilt and before the head was rewritten:

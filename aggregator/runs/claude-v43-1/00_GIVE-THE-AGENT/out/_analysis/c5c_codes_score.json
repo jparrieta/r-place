@@ -1,0 +1,188 @@
+{
+ "T3-038": {
+  "reader": "C5-reader-1",
+  "n": 24,
+  "missing": [],
+  "exact": 21,
+  "kappa4": 0.812,
+  "exact_MP_as_M": 21,
+  "kappa3": 0.803,
+  "mine_rule": [
+   5,
+   15,
+   false
+  ],
+  "reader_rule": [
+   4,
+   14,
+   false
+  ],
+  "differ": [
+   {
+    "record": "gameattack/c0031",
+    "mine": "M",
+    "reader": "O"
+   },
+   {
+    "record": "bangtan/c0008",
+    "mine": "P",
+    "reader": "O"
+   },
+   {
+    "record": "2007scape/c0720",
+    "mine": "O",
+    "reader": "M"
+   }
+  ],
+  "table": {
+   "M>M": 8,
+   "M>O": 1,
+   "MP>MP": 1,
+   "O>M": 1,
+   "O>O": 8,
+   "P>O": 1,
+   "P>P": 4
+  }
+ },
+ "T3-041": {
+  "reader": "C5-reader-2",
+  "n": 24,
+  "missing": [],
+  "exact": 15,
+  "kappa4": 0.477,
+  "exact_MP_as_M": 16,
+  "kappa3": 0.505,
+  "mine_rule": [
+   8,
+   17,
+   false
+  ],
+  "reader_rule": [
+   8,
+   14,
+   true
+  ],
+  "differ": [
+   {
+    "record": "southafrica/c0142",
+    "mine": "M",
+    "reader": "P"
+   },
+   {
+    "record": "placestart/c0177",
+    "mine": "P",
+    "reader": "O"
+   },
+   {
+    "record": "placestart/c0099",
+    "mine": "P",
+    "reader": "M"
+   },
+   {
+    "record": "tinytardis/c0003",
+    "mine": "M",
+    "reader": "O"
+   },
+   {
+    "record": "opticgaming/c0120",
+    "mine": "MP",
+    "reader": "P"
+   },
+   {
+    "record": "denmark/c0189",
+    "mine": "O",
+    "reader": "P"
+   },
+   {
+    "record": "factorio/c0059",
+    "mine": "P",
+    "reader": "O"
+   },
+   {
+    "record": "warriors/c0119",
+    "mine": "MP",
+    "reader": "O"
+   },
+   {
+    "record": "ainbowroad/c0807",
+    "mine": "MP",
+    "reader": "M"
+   }
+  ],
+  "table": {
+   "M>M": 3,
+   "M>O": 1,
+   "M>P": 1,
+   "MP>M": 1,
+   "MP>MP": 1,
+   "MP>O": 1,
+   "MP>P": 1,
+   "O>O": 6,
+   "O>P": 1,
+   "P>M": 1,
+   "P>O": 2,
+   "P>P": 5
+  }
+ },
+ "T3-060": {
+  "reader": "C5-reader-3",
+  "n": 24,
+  "missing": [],
+  "exact": 20,
+  "kappa4": 0.747,
+  "exact_MP_as_M": 20,
+  "kappa3": 0.733,
+  "mine_rule": [
+   8,
+   20,
+   false
+  ],
+  "reader_rule": [
+   10,
+   20,
+   true
+  ],
+  "differ": [
+   {
+    "record": "TransFlagPlace/c0136",
+    "mine": "MP",
+    "reader": "P"
+   },
+   {
+    "record": "TransFlagPlace/c0264",
+    "mine": "M",
+    "reader": "P"
+   },
+   {
+    "record": "AvoArmy/c0121",
+    "mine": "P",
+    "reader": "MP"
+   },
+   {
+    "record": "rainbowgrid/c0009",
+    "mine": "M",
+    "reader": "P"
+   }
+  ],
+  "table": {
+   "M>M": 9,
+   "M>P": 2,
+   "MP>P": 1,
+   "O>O": 4,
+   "P>MP": 1,
+   "P>P": 7
+  }
+ },
+ "_across": {
+  "mine": [
+   31,
+   52
+  ],
+  "readers": [
+   26,
+   48
+  ],
+  "exact": 56,
+  "n": 72
+ }
+}
