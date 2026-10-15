@@ -886,6 +886,38 @@ The finding is `serial-C5/finding-3-thin-evidence.md`. In short:
 - **Finding ids as tier events.** The pass 12 line first named F-019 and F-020 as tier events. The check takes tier events only from the tier and model histories, so the line was rewritten without them (`c5c9_fix_pass12.py`).
 - **A share rounded up.** The tally script prints 63 of 127 as 0.50; it is 0.496.
 
+## C5c-10: problem 4, Stigmergy and "aligned" (pass 13)
+
+The finding is `serial-C5/finding-4-stigmergy-aligned.md`. In short:
+- **The rules.** They were written first, and options (d) and (e) were each named before they were weighed.
+- **The sources,** cited from the page: Moffett et al. 2021 (pp. 58, 63–64, 71), Okhuysen and Bechky 2009 (pp. 469, 474, 482–483) and Grassé 1959 (p. 75, checked).
+- **The adversarial reader** was given a brief and no notes, and ran read-only. Its reasons are quoted in the finding.
+- **The choice: (e).**
+  - Stigmergy keeps its one member, its place in D02 and its mapping to information provision. It is renamed Direct information sharing (C5-move-developing-168).
+  - The records are members' posts of the work's state, which Okhuysen and Bechky name. The old name claimed the placing that would answer the posts, which the record does not hold.
+  - Merging with Standardization of output would join two routes the rooms carry apart (89 rooms carry both, against 80 expected by independence; F-022) and two universal problems.
+  - The cost, one member against C2's criterion, is stated in the declaration.
+- **"Aligned."** D02 says the room aligned many hands, with the count: in 233 of 370 rooms that called for hands, the record reports a work up after the first call (F-021; C5-move-developing-169). The others tried.
+- **The ledgers.** F-018 was superseded by a bounded line. No element, arrow or count changed.
+
+**What the criterion says about pass 13: prefer.**
+- *Item 1:* one construct name that claimed more than its records show is replaced.
+- *Items 2 and 3:* unchanged.
+- *Item 4:* the renamed theme passes the prose test on what its records show.
+
+## The close-check, C5c-10
+
+`python3 tools/validate.py C5`, run after the writes, the finding and the head:
+
+```
+stage C5:
+  data_structure-C5.md: 195 rows, 192 quotes checked
+  leg: check; passes 13, propositions 9, elements 30, arrows 21, history lines 132
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-09
 
 `python3 tools/validate.py C5`, run after the reads, the writes, the finding and the head:
