@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5c-06, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 is open. Pass 10 (C5c-06) closes with `done.sh C5`; `validate.py C5`: 0 errors, 0 warnings. Pass 10 changed no element and no cut, so by section 7 the passes stop, and I chose to move to C5d.
+Under 3,000 words, rewritten whole at every close. Last written at C5d, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 closes at C5d with `done.sh C5 --cut interview`, and the model and its tiers are fixed (`_closes/model-C5.sha256`). `validate.py C5`: 0 errors, 0 warnings.
 
 ## The method question, in one sentence
 
@@ -52,8 +52,8 @@ The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `
 ## Where the run stands
 
 - **C5 outputs:** `account.md` (last changed at pass 8) and its earlier passes, `propositions.jsonl` (9; earlier passes kept), `prose-test-C5.md`, `sketches.md` (five arrangements), `account_passes.jsonl` (10 lines), `notes-C5.md`.
-- **C5b outputs:** `figure-C5.md` (a draft; drawn again at C5d), `author_claims.jsonl` (9), `RETURN-C5.md` (plus `declarations` and `codes`), `_packets-C5/` (3, under 51,200 bytes), the C5 entry in `run_manifest.json`; scripts `out/_analysis/c5b_*`.
-- **C5c-01 outputs:** `readers-C5/` (the three returns), `account-readers-C5.md`, `field-packages-C5/` (13 files, 268 sentences, 72 records); scripts `out/_analysis/c5c_*`.
+- **C5b and C5c outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`.
+- **C5d outputs:** `data_structure-C5.md` (195 rows), `figure-C5.md` (final: 21 boxes, 20 arrows), `implications-C5.md` (ten expectations for the return), `handback-C5.md`, `interview/C5d.md`.
 - **Ledgers:** `tier_history.jsonl` 554, `model/history.jsonl` 119, `findings.jsonl` 28 lines (18 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Snaps** run to C5-move-developing-149. The scripts are `out/_analysis/c5_*`, `c5b_*`, `c5c_*` and `c5c2_*`.
 - **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
@@ -167,4 +167,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The passes have stopped at pass 10. The model the readers and the field analyst checked, as amended through pass 10, is the one C5d draws. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.
+Stage C5 is closed and the model fixed. The next comparison is the one the next stage file sets, against the expectations in `implications-C5.md`. The fixed model is `model/` as pass 10 left it: `model-C4.md` with the C5 cuts and restorations, the declarations as amended in passes 1, 2 and 6, and the concept as `concept-C3.md`.

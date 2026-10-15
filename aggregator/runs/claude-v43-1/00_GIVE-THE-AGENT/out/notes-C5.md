@@ -641,6 +641,33 @@ Pass 6 changed two elements' statements (P02, P03), the fourth-order tier (Stigm
 
 **The passes stop.** By section 7, pass 10 changed no element and no cut. The passes stop here, and I choose to move to C5d next.
 
+## C5d: the table, the figure, the implications and the handback
+
+**The rule that chose the data structure's rows** (section 9). It was logged before the table was built.
+- **One row per third-order theme** that a fourth-order theme gathers: 195 rows, ordered by dimension, fourth-order theme and member.
+- **The range, not the centre.** Within each fourth-order theme, the k-th member takes a room from the k-th quartile of rooms by `items_in_window` (k taken mod 4, quartiles over the 705 rooms). Within that quartile, the concepts cited under the theme are shuffled with `random.Random(20261015)`. The first of 5 to 40 words, with no table-breaking character and from a room not yet used in that fourth-order theme, is taken; failing that, the next quartile.
+- **Each quote enters through `cite.py`,** with its community, author, hour and concept id.
+- **The result.** The rows draw 45, 55, 56 and 36 quotes from the four quartiles. One theme (T3-144, recruiting quietly) has no cited concept, and its row says so. The residue below the table is T3-017 and T3-133, each with its account and a quote. The paper's figure, when it is drawn, is a sample of these rows by the same rule.
+
+**What was written.**
+- **`data_structure-C5.md`:** all 192 quotes resolve, and every third-order theme, fourth-order theme and dimension appears.
+- **`figure-C5.md`, final:** 21 boxes in three columns with the hour 73 terminus. It has 20 arrows, 19 shown by an audited transition and 1 by a quote, and two drawings, with and without A11 and A12, as text and as Mermaid. No loop is drawn. The paragraph on what it leaves out names the field's tentative arrow, the tentative and candidate elements, the seven fourth-order themes no element uses, the residue, and the register the coders' topic-based tier scattered (CC-057).
+- **`implications-C5.md`:** the theory question in the model's terms; two counterfactuals at a leaf; transferability, with six conditions and the frame; ten expectations for the return; and which forms keep the work alive, from the record (`c5d_kept.py`). No form sorts kept from lost by much, and the clearest difference is less silence.
+- **`handback-C5.md` and `interview/C5d.md`.**
+
+## The close-check, C5d
+
+`python3 tools/validate.py C5`, run after the C5d files were written and before the head was rewritten:
+
+```
+stage C5:
+  data_structure-C5.md: 195 rows, 192 quotes checked
+  leg: check; passes 10, propositions 9, elements 30, arrows 21, history lines 119
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-06
 
 `python3 tools/validate.py C5`, run after the pass 10 line and before the head was rewritten:
