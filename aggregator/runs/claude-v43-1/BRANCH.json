@@ -180,10 +180,22 @@
       "before_sha256": "78967792b72bf70855e55848ccd313bd9709d7844abd174fa0b401f5aa6e6b2c",
       "sha256": "6f9e8e2e779c6ce88e9c61fb21d41d6d6268eede7aa7ccd746722f892256e28d",
       "why": "a guard before the parent's step.sh, now step-parent.sh: setup published, publication not blocked, the first leg through legs.py"
+    },
+    "CONTROL/arm.json": {
+      "before_sha256": "a773a57e107085498ac8d1bfac475815dd4397026667f7e00bbaac9f242eee6f",
+      "sha256": "367a52d3b3431e64a61f23f9bf5de2c9c85ed55284e101da24b5754f05c29530",
+      "why": "J, 2026-10-15 17:40 Amsterdam: xhigh effort on every stage from here on, the easiest way; D1, D2 and E1 raised from medium. Model and readers unchanged.",
+      "utc": "2026-10-15T15:41:45.253623+00:00"
+    },
+    "CONTROL/harness/validation_tools/checks/stage_D1.py": {
+      "before_sha256": "4b2f00ff3867a54c424671556d2bcdecd3d798e5339ac1bb39b98e0ebb7434d6",
+      "sha256": "f7f742b5ef4476ac34502ad3c08e8eb87626b57281d7452cb0755d39db02ed67",
+      "why": "QD1-001, J 2026-10-15 21:19 Berlin: an element may sit in two or more dimensions; the vocabulary check reads dimension as one id or a list of ids, as stage C2 does",
+      "utc": "2026-10-15T19:20:09.517843+00:00"
     }
   },
   "deliveries": "ec476e326ad3e100f9a572ae030d69615d4f9ff21ef9d1b49c2212be2290bc20",
-  "trusted": "9d7827989bd0f8866b8baaa0915fd84bc271b9f0a5fe47f39cd2389459b31a68",
+  "trusted": "e584b5f8d76bbc52da6baebb5130cabf97ffb08ec7d71a0e0bb363ef9c51d581",
   "baseline": "f11fa9c5cefcc4afaf59edd990db5987a5d06c181e19b78d432c7b647d05d991",
   "inputs_version": 2,
   "sealed_utc": "2026-10-14T22:35:40.486324+00:00"

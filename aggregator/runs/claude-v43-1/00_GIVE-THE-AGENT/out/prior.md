@@ -123,8 +123,20 @@ Held size, early (41): totallynotrobots, ElderScrolls, oneplus, tagpro, splatoon
 
 ## 7. The distance weights and grades for stage D4 (SCHEMA §7), written at D1
 
-(Written at stage D1, before any adaptation is seen.)
+Written at stage D1a, 2026-10-15, before any adaptation is seen, with the model fixed at e15f9647…b3fecd (frozen at C5d-p2).
+
+w = 4, 2, 1, 0.5
+
+Why these weights. Two rooms whose lines on one element lift to the same third-order theme made the same change through the same act near the material, so a meeting there counts most (4). A fourth-order theme joins several acts under one construct, so a meeting there counts half (2). A dimension joins several constructs, so a meeting there counts a quarter (1). Two rooms that change the same element through acts no tier joins share only the target, an eighth (0.5).
+
+g = 1, 0.5, 0, -1
+
+Why these grades. The same operation on the same target is full agreement (1). Two operations of one kind (both specification, both elaboration or both correction) agree in direction but not in form, so half (0.5). Operations of different kinds say different things about the element, so nothing (0). `instantiate` against an evidenced `absent`, or `add-condition` against `contradict`, say opposite things, so minus one (-1).
 
 ## 8. Evidence sufficiency review prompts (FLEET §3), written at D1
 
-(Written at stage D1, before any adaptation is seen.)
+Written at stage D1a, 2026-10-15, before any adaptation or verdict is seen. These are review prompts, not rules. A figure past a prompt asks the reader to weigh whether the record can decide the claim; it decides nothing alone, and a room past it may still compose or fail to compose on what its record shows.
+
+- **The concept floor: 10 first-order concepts.** Below it (42 of 705 rooms), consider `cannot-tell` under `coded-share`, unless the concepts there decide the claim. Why 10: the model's spine has four steps (a start, calls, building, keeping), and a record needs about a concept for each step and a few for their context before it can show the room's organizing; with fewer, it shows a step or two.
+- **The off-platform threshold: 20 off-platform pointers, or at least 3 pointers and one or more for every four concepts.** Past it (68 of 705 rooms), consider `cannot-tell` under `off-platform` when the room's decisive organizing is named as happening in a chat or on a site the record does not hold, and nothing in the thread decides it. Why these figures: 20 is about the top tenth of rooms (the 90th percentile is 19), and the ratio catches small rooms whose planning moved off the record even when their count is low.
+- **Both,** where a room is past both prompts.

@@ -1,5 +1,5 @@
 {
- "_note": "One entry per stage, read by step.sh (the analyst's model and effort, passed as --model and --effort), close.sh (the model audit) and dispatch.sh (the readers). A leg may override: \"legs\": {\"<leg>\": {...}}. J, 2026-09-25: every stage on Opus 5.5 (Fable 5.1 draws usage credits this account does not hold); effort medium for the standard stages (A1, B2, B3, D1, D2, E1), xhigh for the intensive ones (B1, B4 to C5, C4 the field included, D3 to D6, E2).",
+ "_note": "One entry per stage, read by step.sh (the analyst's model and effort, passed as --model and --effort), close.sh (the model audit) and dispatch.sh (the readers). A leg may override: \"legs\": {\"<leg>\": {...}}. J, 2026-09-25: every stage on Opus 5.5 (Fable 5.1 draws usage credits this account does not hold); effort medium for the standard stages (A1, B2, B3, D1, D2, E1), xhigh for the intensive ones (B1, B4 to C5, C4 the field included, D3 to D6, E2). J, 2026-10-15 08:38 Amsterdam (branch C4-field): xhigh on every stage from here on; D1, D2 and E1 raised from medium. Readers unchanged.",
  "A1": {
   "analyst": "claude-opus-5-5",
   "effort": "medium"
@@ -87,11 +87,11 @@
  },
  "D1": {
   "analyst": "claude-opus-5-5",
-  "effort": "medium"
+  "effort": "xhigh"
  },
  "D2": {
   "analyst": "claude-opus-5-5",
-  "effort": "medium",
+  "effort": "xhigh",
   "readers": {
    "route": "gateway",
    "model": "@preset/cheap",
@@ -114,7 +114,7 @@
  },
  "E1": {
   "analyst": "claude-opus-5-5",
-  "effort": "medium",
+  "effort": "xhigh",
   "readers": {
    "route": "gateway",
    "model": "@preset/cheap",

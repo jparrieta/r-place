@@ -1,0 +1,69 @@
+## Chronology
+
+The record opens in ordinary r/smite life. In the retained moderator tier-list thread `628edd`, members dispute placements—“people are sleeping on Hel big time”—then ask about play style and revise a Hel build. This matters as the room’s baseline: its event practices developed inside continuing game talk, and long stretches later returned to that talk.
+
+The first collective episode was the subreddit’s own April Fools performance, separate from the canvas. Between `62qh8s` and `62xvju`, members noticed that the moderators had changed the room into “SmiteLokiMains,” found themselves given Loki flair, converted or refused to convert, posted bait and fake changes, and then reported lingering flair problems. At d0 04-01 05:32, moderator `dfoltax` said the makeover had taken “about two hours” to assemble. Participation varied sharply: `62qljt` sought the “brethren’s embrace,” while `62qocx` refused to give up the “goobis flair”; later `62x7j3` called the result an annoying “loki circlejerk.” The record therefore supports coexistence of play, irritation, missed jokes, and cleanup—not a collective change from approval to disapproval.
+
+Canvas work first appears as a proposal in `62othy`, calling for a “SMITE logo” at `(350,900)`. A fuller building episode runs from `62szv3` through `62uyvt`. Members wanted to “leave something on the big canvas,” corrected coordinates, filled and outlined the mark, and adjusted letters that could read `r/shite`. The first thread contains both “logo done” and doubt that anybody would join; the later thread explicitly says the earlier effort “quickly lost momentum” and renews the call to “get this thing done.” This is a supported development from an initial attempt to a renewed build, not evidence that the April Fools makeover caused the canvas effort.
+
+After two slice-level lulls in batches 13 and 14, members confirmed and cautiously extended the inherited mark. In `6303ba`, a reply located it left of r/furry; in `63076r`, participants proposed Thor art but warned that surrounding factions occupied the available space. The solitary title `630rey` then shared “Our lowly image on /r/place,” although its removed body leaves the image unseen.
+
+The main maintenance episode begins in `6313dc` at d2 04-02 17:55 and runs through the canvas close in that thread. Its opening calls the logo finished while asking people to keep repairing it. The ensuing comments repeatedly fix the M, argue over borders and colours, recruit defenders, and distinguish planned movement from damage. Exact instructions move into Discord and return to Reddit. Neighbour relations also become practical: a visitor from r/furry donates pixels, while a Cloud9 visitor in `dfr723c` denies that Cloud9 is pushing blue into the logo and says they are fixing the border.
+
+Maintenance continues from `631let` through the moderator megathread `6379zn`. Members click to preserve the emblem, reject a proposal in `63279d` to turn R/Furry into R/Fenrir—“Let’s not let ourselves become the vandals”—and stabilize a border, letter widths, and centering. Apparent damage does not have one established source: `631yng` includes deliberate-joke explanations, admitted misclicks, and accusations against r/smite’s own members; `636mh7` distinguishes “random dots” from a planned move. By d2 04-03 14:56, the edited megathread `6379zn` gathered assignments, Discord recruitment, mutual help, repair instructions, and a finished-canvas link.
+
+Closure produces mixed assessment rather than a single verdict. At d3 04-03 17:01–17:02 in `6313dc`, one member regrets making the logo worse and another says they at least “got the logo in” before placement ended. In `638m45`, opened at d3 04-03 18:20, replies express relief, accidental-damage regret, and disappointment with the final “shitty M.” Later slices overwhelmingly return to ordinary Smite talk. The uncertain removed-title item `63citw` names a “Gay Unicorn” Netherlands flag without explicitly naming r/place. The last event episode, `63ejre` through `dfth0mq`, shares a 72-hour timelapse at d3 04-04 14:49 and at 15:21 calls the M “a complete clusterfuck throughout”; it recounts the finished work and does not restart coordination.
+
+## Relations — what set off what
+
+The renewed build is directly tied to the earlier attempt: `62uyvt` recalls that the first effort “quickly lost momentum” before saying, “I say we get this thing done!” [crosses 08|10] That participant explanation supports renewal in response to lost momentum; the intervening April Fools threads merely follow in corpus order and do not establish a link.
+
+Within `62uyvt`, contested space prompts a design change. `dfpgzv6` says the logo will go downward “to avoid conflict with contested tiles,” and `dfphr6a` then divides blue fill, outline, and patching. A later border warning says expansion would “declare war on the furries as well as fishy.” These passages support responsive planning, while the order of other nearby design comments alone does not.
+
+Damage explicitly prompts maintenance in `6313dc`: the opening says, “I’m the only person who’s still sticking around to fix parts that people are damaging.” Confusion during redesign then prompts a handoff to Discord: `dfrpxe5` relays “the plan” for people not there, and `dfrq02x` sends a confused helper to the channel for the exact plan. The corpus shows what returned to Reddit, not the deliberation that produced it.
+
+Perceived neighbour incursions also prompt negotiation. In `dfr723c`, the Cloud9 visitor says the blue pixels are “NOT US,” attributes them to bots and alts trying to provoke an attack, and reports fixing the border; `dfrf1qt` later asks for reciprocal watching after that help. In another exchange, `dfrlfe4` thanks r/smite “for putting an end to the border war,” and `dfrlum0` answers by welcoming “great neighbors.” These are participants’ own explanations of a denial and settlement, not independent confirmation of who placed the disputed pixels.
+
+The post `637amc` says, “We are getting attacked!” and links an r/Tribes proposal; its own comment layer includes `dfru22j`, which says the M changes look like “individuals, not a mass attack.” The evidence supports an organized proposal and a contemporaneous dispute over whether a mass attack was visible. It does not support treating every repair as its effect.
+
+Some tempting relations remain only sequences. `633iiz`, an attempted helper’s misclick, is followed 19 minutes later by the separate apparent-vandalism thread `633m4o`, but neither names the other. In `634386`, a report that moderators refused a megathread is followed by celebration that one was obtained, but no passage says what changed the decision. The late timelapse `63ejre` follows the completed megathread, yet neither item says the megathread caused the retrospective.
+
+## Posts against comments
+
+The April Fools post layer often supplies a fake premise, while comments sort it out unevenly. In `62xchc`, the edited post says it was “a joke posted on April 1st”; comments include recognition, “Whoosh,” and sincere balance corrections. The post says parody; part of the comment layer treats it as a real complaint. [batch 12]
+
+The defense opening `6313dc` says a completed logo is being damaged. Its comments support the need for repair but complicate both “complete” and “damage”: they contain redesigns, accidental vandalism, a display delay, alleged bots, and defenders undoing one another. The post says outside-looking damage; the comment layer says some changes came from the work itself. [batch 17]
+
+The opening `631yng` treats repeated `r/shite` changes as deliberate. Comments add admitted misclicks, possible insiders, habitual complainers, and joking LoL rivalry. The post says attack; the comment layer disputes a single culprit. [batch 18] In `63279d`, the post proposes altering a neighbour, while the first substantive comment refuses to “become the vandals.” [batch 18]
+
+The deleted opening of `633wkh` is recoverable only through comments that refuse to ruin a neighbour’s work and ask r/furry not to retaliate. The initiating proposal is unavailable; the comment layer alone establishes restraint and negotiation. [batch 20]
+
+The r/Tribes post `637amc` frames a coordinated attack and asks for defense; comments report no recent mass attack, distinguish individual changes, and uncover at least one mistaken repair. The post says attack; the comment layer questions its visible scale. [batch 23]
+
+After closure, `638m45` says the community was “bamboozled.” Its comments do not form a shared judgment: one welcomes the end, one regrets an accidental pixel, and one criticizes the M. The post supplies disappointment; the comments supply relief, regret, and a narrower design complaint. [batch 25]
+
+## Counter-reading
+
+One-sentence reading: r/smite’s canvas project became sustained but improvised maintenance in which planned redesign, accidental pixels, jokes, and some hostile changes repeatedly looked alike, while the room’s Loki April Fools makeover remained a separate practice.
+
+If that reading were wrong, the corpus would instead contain repeated first-hand descriptions of a coordinated attack, a consistent named attacker, or explicit links from such an attack to the repair campaigns. The strongest contrary item already in the account is `637amc`: it directly links an r/Tribes proposal to turn r/smite into r/shiite and asks for defenders.
+
+The targeted search for r/Tribes and attack language returned `637amc` and no second item naming that organized proposal. A broader complete search for raid, coordination, and attack language returned several relevant claims: `dfqhjr9` says the logo “got raided”; `634fpt` says the titan is “under attack”; and `dfrdypi` blames “fanboys of league of legends.” Reading those returned items also recovered contrary qualifications: `dfr723c` denies a Cloud9 attack, and `dfru22j` says the observed changes look like individuals, “not a mass attack.” Thus the search changes the account by preserving one explicit organized r/Tribes attempt and several participant attack claims. The main reading survives because the named sources vary, and the same event record directly documents misclicks, planned moves, display delay, internal joking, and contested attribution. No searched thread required a new code or disposition.
+
+## Saturation
+
+The operational pattern is well repeated, but the record is not whole. The first code for arguing over builds and tiers and for doing/undoing April Fools appears in batch 01; calling for a canvas mark begins in batch 05; finding/showing the logo and reshaping letters begin in batch 08; defending/repairing and moving coordination into shared venues begin in batch 10; sorting attacks from mistakes, neighbour aid, and retrospective appraisal begin in batch 17. Most later event codes repeat those practices through batch 23. The only later new theme is the uncertain “Gay Unicorn flag” title in batch 29; batch 31 extends retrospective appraisal with a timelapse rather than reopening work. Later slices therefore add a thin uncertain trace and recollection, not a new active canvas practice.
+
+Discord is conduct and an evidentiary edge. Reddit preserves invitations, replacements, referrals, returned plans, and an overlay explanation, but not the Discord deliberations. External images and the timelapse are likewise named but not visible. Removed openings matter in `630rey`, `633wkh`, `634fpt`, and `63citw`; surviving titles or replies support narrower claims, not reconstruction. Every slice was disposed, but long, clearly out-of-scope threads were triaged as prescribed, so absence in the quiet slices is bounded to their served windows rather than proof that no buried mention existed.
+
+## Selection
+
+Threads were retained when their served material showed r/smite members doing something around r/place—calling, placing, locating, redesigning, defending, negotiating, coordinating, refusing vandalism, or recounting the result—or showed the subreddit’s own April Fools conduct and aftermath. Ordinary Smite play, builds, skins, esports, support, and company-made April Fools content were excluded unless participants recruited them into the room’s own practice. All 31 whole-thread slices were read in order by fleet coders, pooled without duplicate dispositions, and reviewed through their cases alongside the pooled codes.
+
+## Other communities named
+
+r/furry is the most sustained neighbour: it is a landmark, a feared retaliation risk, a donor of pixels, a border-negotiation partner, and a claimed mutual-defense ally. r/cloud9 appears through a visitor’s denial of an apparent incursion and a request for reciprocal defense. r/Tribes is linked in `637amc` to an organized hostile proposal, although comments dispute whether a mass attack is visible. Paladins, Hearthstone, Overwatch, and League of Legends occur mainly in participant attributions that remain unverified. Rainbow Road, HelloInternet, RocketLeague, Babymetal, the Blue Corner, and “fishy” mark space, priorities, or neighbours. Discord is the venue to which exact coordination partly moved; Reddit still receives invitations, plans, and progress reports.
+
+## Absence
+
+Deleted and removed material is scattered rather than concentrated enough to erase the central build-and-maintenance sequence. It most sharply limits initiators: `630rey` has only its title, `633wkh` is known through refusals to its missing proposal, `634fpt` retains an attack title but not its body, and `63citw` cannot establish what its flag label referred to. The linked reference images, finished-canvas images, overlay, and timelapse are not textual evidence of their pixels. Surviving replies still show calls, corrections, admissions, refusals, negotiations, and retrospection, but they do not license reconstructing missing visuals or deleted speakers’ intentions.

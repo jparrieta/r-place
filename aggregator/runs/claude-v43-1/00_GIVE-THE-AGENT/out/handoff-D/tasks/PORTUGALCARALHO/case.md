@@ -1,0 +1,53 @@
+## Chronology
+
+The room's event record opens with taking and holding territory. At d0 04-01 00:04, 8h 04m 53s after the canvas opened, the link-post title says, “Á conquista de novos territórios! Tomamos o place para Portugal caralho!” (`62p91j`). Ten minutes 36 seconds later a commenter says the Mouros are trying to take “a nossa bandeira” and tells people to continue gridding (`dfo9pp4`); the poster answers “Com força e sempre em frente!” 35 seconds later (`dfo9qm6`). This first episode runs from `62p91j` to `62ysv5`: it moves through claiming Squirtle, proposing a flag and hearts, fortifying and repeatedly repairing the mosaic, and ends with the bare in-body location “lá no /r/place” beneath a warning title (`62ysv5`).
+
+The second episode, from `62zarl` to `637oyc`, makes the work more explicit and contested. “Agora sim” approves a linked state of the canvas (`62zarl`). Comments ask for the plan (`dfqranz`), return a “Plano actual” (`dfqsw7m`), try to expand beside Android (`dfqj4yj`), ask others to maintain an area (`dfqnzbl`), and seek help correcting the Portuguese heart at “(515,770)” (`634sbb`). This is not a smooth consensus. A post proposes extending the sea into the ponies (`636pg9`), while a reply 20m 06s later says, “Deixem la estar os poneis sossegados” (`dfrpnsd`). At d3 04-03 16:00, 59m 01s before placement ended, a surviving title boasts that Portuguese territory is more imposing than the “JAMONES” (`637oyc`). This sequence shows simultaneous expansion, maintenance, and disagreement; it does not show the community changing from one settled position to another.
+
+The post-event episode runs from `6389y2` to `dftjemy`. At d3 04-03 17:30, 30m 38s after placement ended, a post congratulates “TODOS OS ENVOLVIDOS” (`6389y2`); 1m 47s later another begins a longer retrospective thread with “r/place acabou” and thanks everyone who participated (`638aer`). The comments share the whole canvas (`dfs1ak2`), voice pride (`dfs1g9e`), explain how the flag and Squirtle were joined (`dfs616a`), recount an IST–FEUP battle in which “no fim perdemos os dois” (`dfse1tv`), and compare Portugal's national symbols with Germany's (`dft14w4`). The last coded in-window turn, at d4 04-04 16:04, asks whether anyone contacted `r/Pokemongo` or `r/thesilphroad` (`dftjemy`). After this, the room's remaining served threads return to First World War material and were excluded.
+
+Across these episodes the principal pattern is territorial work in an exuberant national register: taking, fortifying, repairing and extending “our” space, followed by praise and retrospective storytelling. A descriptive difference is that early and middle threads mostly issue proposals and calls, whereas the post-event thread mostly thanks, asks, explains and recounts. The record supports this as a difference between passages, not as evidence that the community collectively changed its mind.
+
+## Relations — what set off what
+
+The clearest early link is stated inside the call itself: because “OS MOUROS ESTÃO A TENTAR TOMAR A NOSSA BANDEIRA,” the commenter says “É PARA CONTINUAR!” (`dfo9pp4`). The poster's “Com força e sempre em frente!” (`dfo9qm6`) follows that call by 35 seconds and answers it in words. This supports a call-and-answer relation, not a claim that one comment caused later canvas changes.
+
+A later exchange explicitly asks, “Qual é o plano agora?” (`dfqranz`), and receives “[Plano actual]” (`dfqsw7m`) 33m 22s later. The textual question and answer establish the relation. The linked image is unavailable here, so the content of that plan cannot be reconstructed.
+
+The pony proposal asks people to extend the sea and “partilhem ideias semelhantes” (`636pg9`). The reply “Deixem la estar os poneis sossegados” (`dfrpnsd`) arrives 20m 06s later and directly rejects it. This is a supported disagreement between two speakers, not proof of a community-wide reversal.
+
+After the finish, a commenter asks why Squirtle was chosen (`dfs47mp`). A reply 34m 26s later says it began beside the flag and, “Quando vimos que estávamos a começar a ir para cima deles, decidimos juntar os dois” (`dfs616a`). This is the participant's own causal explanation: perceived overlap prompted a decision to join the pictures. A second account says the rectangle “acabámos por conquistar o squirtle” (`dft132k`). The difference between “juntar” and “conquistar” is preserved; the record does not adjudicate which framing is more accurate.
+
+Other sequences do not establish causes. Calls to keep the area (`dfqnzbl`) precede reports of invasion (`dfqxs4x`), and the final congratulatory posts (`6389y2`; `638aer`) follow the canvas closing, but no passage says those calls produced a particular visual result or that closure caused a particular speaker's pride. They are reported as sequences only.
+
+## Posts against comments
+
+Posts supply most of the public imperatives and display claims: “Tomamos o place” (`62p91j`), “Tempo de fortificar o Império” (`62u6qb`), a mini Portuguese flag inside France (`62uhtu`), help at coordinate 515,770 (`634sbb`), and congratulations after the finish (`6389y2`; `638aer`). The comment layer supplies the operational texture: continuing the gridding (`dfo9pp4`), repeated mosaic repair (`dfpzkw0`), asking and answering the current plan (`dfqranz`; `dfqsw7m`), joining with “Tou lá” (`dfqb31x`) and “Tou lá também” (`dfqftu3`), and explaining how Squirtle was incorporated (`dfs616a`).
+
+One direct contradiction is visible: the post says to prolong the sea into the ponies so it becomes “nosso” (`636pg9`); the comment says to leave the ponies alone (`dfrpnsd`). A descriptive contrast, not a contradiction, appears after the event: the posts foreground collective pride and thanks (`6389y2`; `638aer`), while comments also retain local defeat—IST and FEUP “no fim perdemos os dois” (`dfse1tv`)—and uncertainty about whether Pokémon communities were ever contacted (`dftjemy`). The post layer alone carries the coordinate-based repair request (`634sbb`); the comment layer alone carries the participant explanation that overlap led people to join flag and Squirtle (`dfs616a`).
+
+## Counter-reading
+
+My reading is that this room chiefly treated r/place as a Portuguese territorial project: people took, held, repaired and extended space, then thanked participants and folded Squirtle into the national story.
+
+Before searching, the competing account was that the room was mainly spectators sharing and praising images rather than organising territorial work. If that were stronger, the corpus should contain image appreciation, pride and finished-canvas sharing without calls, plans, joining replies, repair or defence.
+
+I searched for the case's own praise and viewing terms—`lindo`, `orgulho`, `parabéns`, `obra de arte`, and `quadro todo`—and read all ten returned items. The strongest contrary item is the stand-alone “Orgulho” (`dfs1g9e`), which is pure appreciation. “É LINDO CARALHO” (`dfoxdw7`) and “[Aqui está o quadro todo]” (`dfs1ak2`) also establish spectatorship and viewing as genuine practices. But several other hits join praise to organising: the pride passage asks people to help maintain a heart taken by Germans (`dfqaveu`); the “lindo mar” appears in an invasion proposal (`636pg9`); and “Parabéns pela organização” follows a claim about national symbols (`dfsit09`). One hit, “lindo de morrer” (`dg2ksg2`), is after the window and belongs to an excluded Cristiano video thread, so it cannot weaken the in-window account. The counter-reading therefore changes the emphasis—appreciation is a real secondary mode—but the organising account survives.
+
+## Saturation
+
+Structurally, the in-window record was read whole: every thread was served in full, parent links present in this corpus resolve, and the retained threads span the first territorial call through the next day's retrospective. Six items are marked deleted or removed, including three posts whose titles survive. Their missing bodies limit what can be known about particular images or elaborations, but surviving titles and replies still show the room's main practices.
+
+Analytically, the later record did not merely repeat settled practices. The post-event thread introduced thanking participants, reconstructing the Squirtle decision, recounting local battles and asking about contact with Pokémon communities. It therefore broadens the account through the end of the window rather than demonstrating that no new practice remained. Off-platform evidence is partial: Imgur images, a YouTube time-lapse and link-post images are pointed to but not visible, so claims concern what participants said the links were doing, not their contents.
+
+## Selection
+
+As required for a branch-A lead, I read the briefing and the complete `openings.md` table before triage. I then read all twenty threads in corpus order and in full. Sixteen were retained because their titles, bodies or replies visibly concerned r/place conduct; four were excluded because they concerned a pre-window history link, a Cristiano video, or First World War material. No excluded thread had ten or more in-window items, so none triggered an exclusion citation. Automatic replies by `SmallSubBot` and `youtubefactsbot` were treated as setting, not community conduct.
+
+## Other communities named
+
+`r/place` is named as the event venue and as an answer to “what is this?” (`dfpcrr9`; `dfri7ii`). `r/placehearts` is a place where the commenter asks people to maintain a heart with the Portuguese flag after Germans took another (`dfqaveu`). After the event, a commenter asks whether anyone spoke with `r/Pokemongo` or `r/thesilphroad` (`dftjemy`); this is a question, not evidence that contact happened. France appears as the location proposed for a mini flag (`62uhtu`), Australia as a partner in claimed originality (`dfqaveu`), and Germany as both taker of a heart (`dfqaveu`) and comparator with many monuments (`dft14w4`). These are participants' one-sided descriptions; the record contains no response from those places.
+
+## Absence
+
+Deleted content is not reconstructed. The deleted body under the Portuguese-heart proposal leaves only its surviving title (`62w81l`); the pre-finish territorial boast likewise survives only as a title (`637oyc`); and the “Salvador da Pátria” post has a surviving title but deleted body (`6396dr`). Other deletion markers carry no citable conduct. The visual objects at many links are also absent from the textual record. Accordingly, the account can establish proposals, calls, evaluations and participants' descriptions, but not independently verify what each linked image showed or what off-platform viewers did.

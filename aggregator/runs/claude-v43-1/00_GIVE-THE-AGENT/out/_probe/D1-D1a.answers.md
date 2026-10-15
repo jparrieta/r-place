@@ -1,0 +1,5 @@
+- **goal:** Can independently reconstructed case histories be composed into a shared dynamic account that supports explanations at successive levels of specificity, from population-wide patterns, through forms and subforms, to particular organizational histories, while keeping access to the evidence from which those explanations were developed?
+- **open:** I can't name any slugs from memory, because I read no question file in this leg. The open items I carry are C02 being unpredicted, expectation 13 missing the host rooms, and the four rooms over a session, but those are not slugs.
+- **rooms:** In the part of the leg I remember, I opened no room with `mem.py room`. The only room-specific files I touched were UMiami's task folder (listed) and its verdict packet (grepped); I checked the other rooms only through scripts.
+- **changed:** None: the model is frozen at pass 15, and this leg changed no element, arrow or theme.
+- **next:** Compare the returned adaptations and verdicts with the sealed expectations, starting with the 19 story-miss rooms, once the check leg is launched.

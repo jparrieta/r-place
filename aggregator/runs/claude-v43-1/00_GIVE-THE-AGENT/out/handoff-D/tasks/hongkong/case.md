@@ -1,0 +1,61 @@
+## Chronology
+
+The room first registered r/place at d0 04-01 00:54. The whole visible episode at that point is the removed-body post `62pj3a`, whose surviving title calls, “We should all try and get the Hong Kong flag on /r/place.” It received no visible reply. A renewed mobilisation followed 25 hours 54 minutes 11 seconds later, from `62xcws` at d1 04-02 02:48 through `dfq6x8a` at d1 04-02 13:43. Its post asks why Hong Kong has no spot and tells people to “help draw our flag”; comments propose coordinates, a dragon, a heart, a vertical flag and shared images. The first direct answer, `dfptjz2`, arrives 51 minutes 21 seconds after the post, asks where to start, later reports filling a red background, and says a Discord and cooperation with “the green lattice” are concentrating manpower. This episode changes from asking whether the room can gather enough people to working out what and where to draw, but the record does not establish that the first call caused the later revival.
+
+A design-and-diplomacy episode runs from `62yxh2` at d1 04-02 10:11 to `dfqggfn` at d2 04-02 17:39. DarkHoleAngel supplies a 29-by-29 template, scouts viable spots, and says another option is to “seek diplomacy” for space or building help (`dfq2kg8`). After `dfq5023` announces permission from r/greenlattice to claim (826,235), the group lowers the template by three rows to avoid overwriting FREEUAB (`dfq5byo`), routes people into Discord, and treats green lattice territory as safer (`dfq5uzb`). Participants report “Done my part” (`dfqfybc`) and answer “Thx!” (`dfqggfn`). At `dfqeo85`, they first worry that the flag may be hard to defend while Hong Kong sleeps and then edit the same comment to “We did it!!” This is an observed sequence inside a changing comment, not evidence that the worry caused completion.
+
+The establishment-and-defence episode begins with `6311kt` at d2 04-02 17:47 and continues through `dft20dd` at d3 04-04 07:09. The post announces, “We did it, HK! Our flag is established on /r/place!” Two minutes later, `dfqgwzj` credits people working in Discord and helpers outside it and asks everyone to “defend and protect it well.” Comments celebrate, check that it stays intact, and defend it against “mismatched dots.” A proposed expansion then collides with PPCG's planned move: `dfqmdak` recruits people for a logo but edits to “ABORT ABORT!” because of PPCG conflict and insufficient people. The subsequent exchange seeks an agreement and redirects the expansion rather than claiming the neighbouring space.
+
+A partially overlapping lettering episode runs from `635emt` at d2 04-03 08:02 to `637loq` at d2 04-03 15:47. One thread proposes tagging people covering the HK letters (`dfrh1ea`); another surviving title asks who will join writing 香港 at the bottom left (`635naw`). Other speakers object: “who the fuck put the ugly ass letter on our flag” (`6376s5`) and “Can we remove the letter H K” (`637loq`). These are contrasting positions among different speakers, not evidence that the community changed its mind. Sixteen minutes 14 seconds after placement closed, `dfs0aa5` reports, “the place is ended and our flag is still perfect.” The next morning `dft20dd` says blue-corner repairs had kept that commenter from joining; it adds an individual account, not a new community practice.
+
+## Relations — what set off what
+
+The clearest call-and-answer is between `62xcws` and `dfptjz2`: “help draw our flag” receives “Yeah sure! Could you share the coordinate of where to start?” after 51 minutes 21 seconds. The wording and direct reply support a response relation; the later design proposals follow this exchange, but no passage says this reply caused the wider mobilisation.
+
+`dfq5lnq` asks whether someone reached r/greenlattice, whether it offers protection, and whether there is an alliance. Its direct reply `dfq5t3u`, 8 minutes 12 seconds later, says, “Yup, I went into their discord and we got permission.” This supports the narrower relation that the question prompts confirmation of permission. It does not establish what r/greenlattice promised beyond permission, and the later claim of greater security at `dfq5uzb` is the participant's expectation, not a demonstrated protective effect.
+
+`dfqfybc` reports “Done my part”; its direct reply `dfqggfn` says “Thx!” 10 minutes 50 seconds later. That is a contribution-and-thanks exchange. It supports participation, but not the number or importance of pixels contributed.
+
+The expansion conflict is also textually linked. PPCG's `dfqmi8h` says its logo move is part of an agreement with r/PathofExile; 2 minutes 13 seconds later, direct reply `dfqmlr0` says r/hongkong had planned to expand. `dfqndab` then asks for an agreement, and direct reply `dfqori4` confirms the move remains in place 31 minutes 24 seconds later while suggesting the expansion move right. Those turns support negotiation and redirection. The near-simultaneous top-level posts `dfqmdak` and `dfqmi8h` merely follow one another; their adjacency alone does not show one caused the other.
+
+In the lettering threads, the surviving post title `635emt` is followed 1 minute 27 seconds later by direct reply `dfrh1ea`, “We should tag those who are covering up the letters,” and agreement follows in `dfrh2wf`. Separately, `6376s5` calls the letter ugly and direct reply `dfrukap` says “i hate that too” after 40 minutes 33 seconds. These passages support local reply relations. They do not support a causal claim that pro-letter posts produced the later anti-letter threads; those threads simply follow during the same late period.
+
+## Posts against comments
+
+The posts supply the public project markers: an initial call (`62pj3a`), a renewed demand for a spot (`62xcws`), templates and placement (`62yxh2`, `62zgot`), establishment (`6311kt`), and competing lettering proposals (`635emt`, `635naw`, `6376s5`, `637loq`). The comment layer supplies most of the practical work visible here: coordinates, template revisions, Discord links, permission checks, reported pixel placement, thanks, watching, and negotiation with PPCG.
+
+The posts say a Hong Kong flag should exist and later that “We did it”; the comments say the process was uncertain and distributed. `dfpwdvd` doubts there is enough manpower, `dfqgwzj` credits Discord and people outside it, and `dfrhic8` thanks Onepiece and greenlattice. This is a descriptive contrast between the concise public claim and the messier comment-layer process, not proof that outsiders caused the success.
+
+The establishment post `6311kt` presents a completed success; the comment `dfqmdak` records a failed expansion, stopped because of PPCG conflict and too few people. The failure qualifies only the proposed larger logo, not the already established flag.
+
+The lettering posts contradict one another at the level of expressed preference: `635naw` seeks help adding 香港, while `6376s5` calls a letter ugly and `637loq` asks to remove H K. The comment `dfrukap` reinforces the objection. Because different speakers make these claims and no passage says a collective decision was reversed, the evidence supports disagreement, not a community-wide change of mind.
+
+## Counter-reading
+
+My reading is that r/hongkong participants turned a late call for representation into a finished flag by revising its design and location, moving some coordination to Discord, obtaining room beside other groups, reporting their own contributions, and watching the result through the close.
+
+Before searching, I set down this competing account: the visible room may be taking credit for a flag principally made or directed elsewhere. If my reading were wrong, the corpus should contain participants saying that outsiders, another subreddit, or unseen Discord decisions supplied the decisive work while r/hongkong lacked enough people or merely celebrated afterward.
+
+I searched the case vocabulary around “other subreddits,” “helped us out,” “not enough manpower/people,” and Discord work or decisions, then opened every returned item. The strongest contrary item is `dfrhic8`: “huge thanks to the guys from the other subreddits who helped us out as well (Onepiece, greenlattice...).” `dfqgwzj` also gives a “Huge shout out” to people working in Discord and helpers outside that chat. `dfpwdvd` initially doubts the room's manpower; `dfqmdak` later says there are not enough people for expansion.
+
+The contrary evidence changes a self-contained-room reading: the achievement was distributed across visible subreddit talk, unseen Discord activity and neighbouring helpers. The narrower reading survives because visible participants here make templates, revise coordinates, seek permission, report doing their part, relay decisions and watch the result. The record cannot show who supplied most pixels or whether outside help was decisive, so it supports neither a quantitative attribution nor a causal claim that r/hongkong alone made the flag. The “not enough people” passage limits the attempted expansion specifically; it does not undo the already reported establishment.
+
+## Saturation
+
+Practice did not settle early. The large design and establishment threads introduce most practices, but later threads add a genuinely new dispute over H K and 香港. After placement closes, `dfs0aa5` repeats successful preservation and `dft20dd` gives one participant's reason for missing the work; neither introduces a new shared practice. The themes therefore become repetitive only at the event's end, not well before it.
+
+The evidence record is incomplete in a different sense. Eighty-one in-window items have deleted or removed text, including several in-scope posts whose titles survive but bodies do not (`62pj3a`, `62zgot`, `635emt`, `635naw`, `6376s5`, `637loq`). Discord carried coordination, coordinates and designs back to Reddit, but its conversation and decisions are not visible. The corpus nevertheless preserves whole visible r/place threads, their surviving reply exchanges, and a post-close statement; it is sufficient for the practices claimed here but not for apportioning labour, reconstructing removed proposals, or deciding what happened inside Discord.
+
+## Selection
+
+I read the briefing and all 104 opening blocks before triage, as the case-lead instrument requires. I then followed the 104 threads in corpus order. A window that touched r/place was opened in full; uncertainty would also have triggered a full read. Ten threads were retained as coded. Seven unrelated long threads were excluded from their triage windows with exact citations, and the remaining unrelated threads were read whole when their served window already contained the full thread. The selected material consists of explicit r/place calls, designs, coordination, negotiation, celebration, defence and lettering disputes; ordinary Hong Kong discussion remained context rather than case evidence.
+
+## Other communities named
+
+r/greenlattice is presented as a neighbour whose Discord gives permission for territory (`dfq5023`, `dfq5t3u`), whose area is expected to provide security (`dfq5uzb`), and which is later accused of reclaiming the flag (`dfqbroj`). The record supports negotiation and a participant's security expectation, not proof that protection caused survival.
+
+r/onepiece is a spatial neighbour and later a credited helper: the flag is placed above its icon (`dfq5023`), and `dfrhic8` thanks Onepiece alongside greenlattice. PPCG appears as the crowd whose planned logo move conflicts with expansion; its agreement with r/PathofExile is stated at `dfqmi8h`, and r/hongkong asks PPCG for an agreement at `dfqndab`. r/place itself is the event venue. Discord is the off-platform venue: links and plans return to Reddit, but the discussion that produced them does not.
+
+## Absence
+
+No visible moderator or sticky directs the r/place effort. No passage establishes a subreddit-wide vote on the flag, its letters, or the abandoned expansion. No visible item allocates pixel totals or establishes which venue or group did most work. Removed bodies are not reconstructed: where a surviving title carries a code, the account relies only on that title. The remaining replies still show concrete coordination, permission-seeking, reported contributions, thanks, defence and disagreement.

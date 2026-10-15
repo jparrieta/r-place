@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5d-p2, 2026-10-15 (UTC), which records the freeze. Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch (C5c-07). The four problems (C5c-08 to C5c-11), the fold-in (C5c-12, pass 15) and C5d's work, redone in C5c-13 by J's ruling (16:29 Amsterdam), are done. Stage C5 is finished; the interview follows; stage D waits for J. `validate.py C5`: 0 errors, 0 warnings.
+Under 3,000 words, rewritten whole at every close. Last written at D1a, 2026-10-15 (UTC). Stages A1 to C5 are done; stage B is frozen. The model is frozen at pass 15 (e15f9647…b3fecd). Leg D1a built the return once: 705 tasks, 705 verdict packets and the sealed expectations.
 
 ## The method question, in one sentence
 
@@ -8,21 +8,37 @@ Can independently reconstructed case histories be composed into a shared dynamic
 
 The theory question is unchanged: when strangers organize on a clock they did not set, with no way to compel anyone and no goal given to them, what forms does organizing take, how do they differ in their functioning, and which of them keep the work alive?
 
+## J's rulings for stage D (17:40 Amsterdam, through the PI; carry them)
+
+- Stage C5 is closed. Stage D serves the model frozen at pass 15.
+- "No second coder on your solo reads: Codex did not read all rooms, so its evidence is thin; your reads stand, with their limits stated as you stated them."
+- Stage D runs at xhigh effort, as every stage from here on.
+- "Keep the room, or groups of rooms, as the unit, and keep the contract's two questions in view."
+- **QD1-001 (J, 21:19 Berlin):** an element may sit in two or more dimensions; the check was wrong.
+
+## The build (D1a)
+
+- **`prior.md` §7 and §8, written first.** §7: `w = 4, 2, 1, 0.5`; `g = 1, 0.5, 0, -1`. §8, review prompts: the concept floor, 10 concepts (42 rooms below); the off-platform threshold, 20 pointers, or at least 3 and one for every four concepts (68 rooms past).
+- **The model as prose:** 3,591 words under a 6,000-word ceiling; no room named.
+- **The expectations:** 705 lines by rules R1 to R6, sealed: 9,329 instantiations, 311 absences (C01 286, P20 25); 362 rooms not testable on some element.
+- **The folder:** hash 61b03bbf…508a5c; VERSION equals the model hash. Four rooms exceed the declared 1 MB session figure (counting's is 11.4 MB); none is cut.
+- **The 19 story-miss rooms** are listed in the stage notes and carried. The defects and limits are in the stage handback.
+
 ## The current account, and the contrary rooms
 
-The account is `account.md`, pass 15 (3,318 words; passes 1, 3, 4, 5 and 8 kept), with the readers' disagreements in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`. A room, or a group of rooms, is the actor where its members spoke or acted for it.
+The account is `account.md`, pass 15 (3,318 words), with the readers' disagreements in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`. A room, or a group of rooms, is the actor where its members spoke or acted for it.
 - **The spine.** A member starts a mark [R01]. The room's calls follow the start in 64 of 89 rooms [A02], building follows calls in 81 of 126 [A01], and keeping follows building in 148 of 190 [A03].
 - **The bare answer.** Most calls get no written reply. In written replies, acceptances come bare (25 of 31 to calls to place, F-023) and refusals give a reason (3 of 3; attack calls 23 of 38, F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
 - **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call, so there the room aligned many hands; the others tried (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
-- **Direct information sharing (T4-007, Stigmergy until C5c-10).** Members post the mark's state (10 of 14 bearing records; F-018); one member, against C2's criterion. Posting the state and sharing templates are carried largely apart (89 rooms both, 80 by chance; F-022).
-- **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]; border talk that came first mostly offered terms (19 of 26 to 36 of 38, two coders). Help names a deal in 63 of 127 rooms where border talk came first, against 23 of 67 [A14; F-020]. Sparing rests mostly on the room's own norm, so A05's mechanism is theorised (F-020). Rooms join coalitions [A19] and cannot make every placer keep an agreement.
+- **Direct information sharing (T4-007).** Members post the mark's state (10 of 14 bearing records; F-018). Posting the state and sharing templates are carried largely apart (89 rooms both, 80 by chance; F-022).
+- **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]; border talk that came first mostly offered terms. Help names a deal in 63 of 127 rooms where border talk came first, against 23 of 67 [A14; F-020]. Sparing rests mostly on the room's own norm, so A05's mechanism is theorised (F-020). Rooms join coalitions [A19] and cannot make every placer keep an agreement.
 - **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17].
 - **Loss** (thin). A room that judges it has too few hands moves [A10]; read whole, the judgment came first in 10 of 20 rooms that moved. After doubt and a loss, 10 rooms moved and 11 gave the work up (F-019). No loop is grounded.
 - **The close.** The room celebrates, records and carries the work on [A07, A08, A09]. Placement stops at hour 73; after it, rooms curate the record (P12; P22 tentative), apart from carrying on (P13).
 - **Machine hands.** Scripts follow upkeep under strain [A06].
 - **C02** (untested for order): a tie the room had before the canvas names the rival in the attack turn.
-- **Cut to candidate:** P06 and R02. K01 restored, with no arrow (F-009). 23 elements stand.
+- **Candidates:** P06, R02, K03, K04 and P19. 23 elements stand.
 
 **The room that best supports the account: day9.** It offers a neighbour terms before any damage, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
 
@@ -38,22 +54,17 @@ The account is `account.md`, pass 15 (3,318 words; passes 1, 3, 4, 5 and 8 kept)
   3. Stigmergy is recut only if it joins what Heylighen 2016 and Grassé 1959 keep apart.
   4. The C5 readers are the second reader of the declarations; QC5-001 adds the field analyst.
   5. J's language ruling stands.
-- **Passes 1 to 4 (C5a).** Declarations amended under the prose rule; A04 bounded; P06 and R02 cut; K01 cut and restored (move 92); nine propositions.
-- **J, 07:59 to 09:09 Amsterdam.** I decide what enters and leaves the model; the field analyst reads all 36 declarations against the members' quotes (QC5-001).
-- **Passes 5 to 8 (C5c-01 to C5c-04).** The readers' errors fixed; Stigmergy recut by three codings (F-018); 94 pieces of field advice accepted, 30 kept (moves 93 to 146).
-- **J, 11:02 and 12:01 Amsterdam.** The field analyst's marks are advice; the room is the unit. Passes 9 and 10 restored K02, A10 and P13 to the room, then changed nothing.
-- **J, 13:45 and 14:14 Amsterdam (C5c-07, QC5-002).** The freeze is lifted for serial work; argue from organization design; say how each problem serves the two questions. The border package for a second coder is `field-packages-C5b/`.
-- **The serial work, passes 11 to 14,** each with its finding in `serial-C5/`: the unit (C5c-08, moves 150 to 163); thin evidence (C5c-09, F-019, F-020, moves 164 to 167); Stigmergy renamed and "aligned" (C5c-10, F-021, F-022, moves 168 and 169); the reason test (C5c-11, F-023, F-014 superseded, move 170).
-- **C5c-12 (pass 15), the fold-in.** The findings folded once into the account, the propositions (the border proposition narrowed), the prose test and the model (A16, move 171); F-019's quote restored to the record's spelling.
+- **The passes of C5.** Passes 1 to 10 amended the declarations (P06 and R02 cut; K01 cut and restored), fixed the readers' errors and took the field analyst's advice (QC5-001). J, 11:02 and 12:01 Amsterdam: the field analyst's marks are advice; the room is the unit.
+- **The serial work, passes 11 to 14** (J's leave at C5c-07, QC5-002): findings F-019 to F-023 in `serial-C5/` (F-014 superseded), folded in once at pass 15.
+- **The freeze.** C5d-p2 recorded it at pass 15; `out/_closes` is the harness's (QC5-003).
 
 ## Where the run stands
 
-- **C5 outputs:** `account.md` (pass 15) and earlier passes, `propositions.jsonl` (9; earlier passes kept), `prose-test-C5.md` (pass 14 kept), `sketches.md`, `account_passes.jsonl` (15 lines), `notes-C5.md`, and `serial-C5/` (the four findings and the head before the serial work).
-- **C5b to C5d outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`, `field-packages-C5b/`; and, redone at C5c-13, `data_structure-C5.md` (195 rows), `figure-C5.md` (21 boxes, 20 arrows), `implications-C5.md` (13 expectations), `handback-C5.md` and `interview/C5c-13.md`; C5d's versions kept as `-p14`.
+- **D1a outputs:** `prior.md` §7 and §8; the stage's notes, model prose, expectations and handback; `handoff-D/`, `verdict-D/`, `sealed/`. Scripts: `out/_analysis/d1*`.
+- **C5 outputs:** `account.md` (pass 15), `propositions.jsonl`, `implications-C5.md` (13 expectations), and `handback-C5.md` with the files it names.
 - **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 134, `findings.jsonl` 36 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
-- **Snaps** run to C5-move-developing-171. Scripts: `out/_analysis/c5*`.
-- **Still open in C5:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
-- **The questions.** QC5-001 to QC5-003 are answered; the freeze moves from C5d's 24d18e0e… to pass 15's e15f9647…. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
+- **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
+- **The questions.** QD1-001, QC5-001 to QC5-003, QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
 ## Stage C4, in short
 
@@ -119,6 +130,7 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## Open, carried
 
+- **From D1a:** C02 unpredicted; expectation 13 misses the host rooms; four rooms exceed a session.
 - **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, in both sources and not in the model.
 - **From C3:** whether the forms differ on the four universal problems or on the remainder; the colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]); Olson, open; the four declined reads.
 - **From C2:** what a mark brings back into its room; the two boundaries for the return; the claim untested for order.
@@ -156,11 +168,11 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
   Write a script in `out/_analysis/` instead.
 - **Output limits.** A Bash output above about 30 KB is cut; measure first. A Read above about 25,000 tokens is refused.
-- **After a compaction,** before any other step: read the head and the stage file in full, run `diary --last 5`, and log exactly "compacted; head reconciled" with `--kind note` in a call of its own.
+- **After a compaction,** before any other step: read the head, then the stage file, each in full and in that order; run `diary --last 5`; and log exactly "compacted; head reconciled" with `--kind note` in a call of its own.
 - **Files and stages.**
   - Never delete a file; supersede it with a new name. Read the field only from `out/field`.
   - Do not begin the next leg, and do not summarise it (AGENT.md).
 
 ## The next comparison
 
-Stage C5 is finished with the model as pass 15 left it. The next comparison is the one the next stage file sets, against the thirteen expectations in `implications-C5.md`.
+The return is read against the sealed expectations, the 19 story-miss rooms first. Nothing of it runs on this model until the check leg is launched.

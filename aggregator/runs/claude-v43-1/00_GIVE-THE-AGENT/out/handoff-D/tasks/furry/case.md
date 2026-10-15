@@ -1,0 +1,75 @@
+## Chronology
+
+When the canvas opened, r/furry was mostly doing its ordinary work: requesting and making art, discussing characters, media, fursuits, and community life. At d0 03-31 16:02, for example, `62m2lu` offered “Taking Art Requests!!!” and set rules for nine free drawings. The event first becomes explicit at d0 03-31 19:07 in `62nbkz`, amid that ordinary stream.
+
+The first episode, from `62nbkz` through `dfp2rrj`, is scattered and contested lettering. Contributors claim small parts of “FURRY” and “yiff,” try to keep words visible, call other furries toward nearby work, and repeatedly alter or repair it. `dfo2e0y` describes people turning “FURRY” into “FURBYS,” erasing an S, changing it to a 6, and turning an R into an A, while admitting “I think I contributed a pixel or two.” `dfol2eg` says “yiff” is kept because “it’s just a word that stands out” and gets other furries’ attention; `dfon9bc` claims making letters taller and adding or fixing “grief.” By d1 04-01 16:18, `dfp2rrj` makes the redirection explicit: “Forget the yiff banner, help build snoo.”
+
+The second episode, from `62qxhz` at d0 04-01 05:41 through `dfq5niz` at d1 04-02 12:56, concentrates work on a recognizable Snoo. `62qxhz` asks whether people will place the r/furry Snoo and provides a PNG; `62tzts` later announces “Snoo is taking shape.” Coordinates, templates, calls for reinforcements, color negotiations, and repair reports make the figure a defended meeting point. Completion stays provisional: “Great! What now?” in `dfpa2nf` is answered “Defend him!” in `dfpa5ri`, while `dfq5niz` successively reports “/r/Fubry,” a fix, another failure, and “r/Furay.”
+
+The third episode, from `62xbqw` at d1 04-02 02:41 through `dfrymqz` at d3 04-03 16:43, organizes defence through an official megathread, a Discord, and neighbour negotiation. `62xbqw` recruits a “Mobile Infurtry,” declares itself the official megathread, makes fixing Snoo the first priority, relays Blue Corner’s color request, and says “Be a good neighbor” by leaving BONK, 100K, and r/SMITE alone. Participants nevertheless debate Discord authority and background colors, launch side projects, report renewed damage, and negotiate complaints. The rule is enforced at the episode’s end when `dfrymqz` removes a separate post with “please post all r/place threads in the megathread.”
+
+The fourth episode, from `6386hk` at d3 04-03 17:16 through `63ege9` at d3 04-04 14:33, turns survival, damage, and rebuilding into an outcome story. `6386hk` congratulates the distorted “P.:Fur^D ï” for surviving; `dfs26ls` is sad about corruption but says “furries have made their mark.” The visibility also becomes a route inward: `63aima` says “Saw you guys on r/place! Can I post art here?”, and `dfskqxb` welcomes the poster because the “hard battle” brought them there. Visual records then let participants revisit the fight: `63bb1k` offers a “3d view of people messing with the furry logo,” `dfsx5g9` recalls a rebuild that “was tough but it worked out well,” and `63ege9` names its timelapse a “constant fight with surroundings.”
+
+By the close, event retrospectives coexist with ordinary community life rather than replacing it. At d3 04-04 14:26, `63eeum` asks how to enter the furry scene; at d3 04-04 14:49, `63ejuv` posts “Furries Are People.” These stretches are assembled from the seven slice cases, the timeline, and the forest; the lead did not reread the raw week outside the permitted counter-reading items.
+
+## Relations — what set off what
+
+Objection to the early slogan directly prompts an alternative target. `dfosigu` says “Knock it off with the ‘yiff me dady’ ... and we’ll talk”; `dfot5qn` answers “as an alternative” and points to the r/furry icon-head proposal. The later turn names itself as the alternative, so this is more than temporal order.
+
+Completion directly prompts defence. `dfpa2nf` asks “Great! What now?” and `dfpa5ri` answers “Defend him!” The relation is a direct call and answer, not a claim that everyone adopted the answer.
+
+Discord dissent prompts a Reddit-readable plan. After asking for a “quick TL;DR” because they do not want to set up Discord, `dfpwmh1` is answered by `dfpwooj` with the current consensus: keep the work intact, move “R/,” turn pink blue, and make the text white. The reply also says the chat can be watched without an account. This supports returning a plan from Discord to Reddit; it does not reveal the Discord deliberation.
+
+The BONK episode contains an explicit cross-slice link. `dfrkr4b` cites the proposal in `630ygb` and says, “This was the thing we saw which lead us to think it was you guys.” `dfrkum6` answers by acknowledging that some people keep changing others’ work and proposing to tag a moderator; `dfrkwt1` then promises reciprocal border and repair help. The surviving passage supports complaint, acknowledgment, and offered repair, while limiting responsibility to a minority. [crosses 04|05]
+
+The official rule in `62xbqw` says later r/place posts will be removed; `dfrymqz` applies it verbatim by removing a separate r/foxes post and redirecting it to the megathread. This is a stated rule followed by its enforcement, not merely adjacent moderation. [crosses 04|05] [crosses 05|06]
+
+Canvas visibility directly prompts a newcomer exchange. `63aima` opens “Saw you guys on r/place!” and asks to post art; `dfskqxb` says the hard battle “could bring you here,” while `dfsmoii` calls the arrival “a positive outcome.” That supports this arrival and welcome. A separate traffic increase remains a participant’s own explanation, not a measured community-wide effect.
+
+The later Night in the Woods recruitment call follows earlier design and location work, but no passage names the earlier work as its cause. Likewise, competing speakers call r/touhou helper, attacker, neighbour, and traitor without establishing that the community collectively changed its mind. These are sequences and contrasts, not supported causal relations.
+
+## Posts against comments
+
+[batch 01] The posts say “We did it” and “We are doing it”; the comment layer says the lettering is being changed toward “FURBYS,” repeatedly repaired, and held against an “onslaught.” The achievement framing and instability coexist.
+
+[batch 02] The posts say threatened work needs a united defence; the comment layer says some targets should be abandoned, criticizes the “yiff” wording, and disputes whether r/touhou are helpers or traitors. The privacy parody lives in a post, while comments make its “Praise the mods” joke legible; the removed r/touhou proposal remains a post-layer claim.
+
+[batch 03] The posts say “We did it,” demand reinforcements, and instruct participants to change pink to blue; the comment layer argues over pink versus blue, label versus anonymity, defence versus counterattack, and Snoo versus side projects. In the clearest contradiction, posts present removing pink as cooperation with Blue Corner, while comments in `62wtxa` say the pink box is strengthening and worry that people never received the negotiated message. Newcomer arrivals and recruitment into Discord appear only in comments.
+
+[batch 04] The posts say the image is finished, cleanup is complete, and the official megathread has set priorities; the comment layer says repairs require five-minute alarms and reinforcements, questions Discord authority, restores incompatible colors, reports fresh damage, and carries BONK complaints. The official post says accept blue and leave neighbours alone; comments show continued pink placement and disputed border conduct. Offers of outsider help and reciprocal repair also live chiefly in comments. The CCTV discussion in `62yoef` concerns the subreddit-page April Fools change, not canvas conduct.
+
+[batch 05] The posts say the Snoo is perfect or urgently needs defence; the comment layer says pixels remain missing, the label keeps mutating, assessments move from “doing pretty well” to worse, a neighbour objects, and moderators contain duplicate posts. Removed opening bodies make those surviving comments especially important.
+
+[batch 06] The posts say r/place has ended and present survival or victory; the comment layer says the text is wonky, the work was repeatedly ravaged, and repairs remained incomplete, although both layers agree that Snoo survived. Calls to help r/foxes or accept r/smite aid are terse posts; comments supply why effort moved, how a war was avoided, and how the newcomer was welcomed.
+
+[batch 07] The posts present a 3D view, contested-point image, cleanup images, and timelapse; the comment layer supplies rebuilding, replacing attacked pixels, comparing targets, and one admission in `dfsxhvs` of defecting to the taskbar. There is no direct contradiction in this slice: the strongest “constant fight” claim is a post title, while most accounts of what people did live in comments.
+
+## Counter-reading
+
+My one-sentence reading is: r/furry moved from playful, scattered lettering into a Snoo-centred defence coordinated through Reddit, Discord, and neighbour negotiation, then turned imperfect survival into representation, memory, and recruitment.
+
+If that reading were wrong, this corpus should instead contain explicit rejection of Snoo defence or coordination, preference for abandoning repair in favor of unrelated targets, admissions that damaging neighbours was a shared goal, or statements that the megathread and Discord could not organize participants.
+
+The strongest contrary item is `dfrmk6e`. A BONK neighbour says accounts linked to r/furry are changing BONK to “e621” and asks, “could you perhaps not vandalise ours?”, though the speaker also says “I’m not accusing everybody” and attributes it to “SOME people.” This changes the account by requiring fractured and harmful conduct inside the wider effort. It does not erase the coordination reading: `dfrkr4b` ties the suspicion to a specific proposal, and `dfrkum6` and `dfrkwt1` answer with acknowledgment, a moderation request, and reciprocal repair.
+
+The search also returned `dfpwcbo` questioning why Discord is “an authority,” `dfpwgyi` saying “we’re not all on the same page” and asking for less background defence, `dfphsmp` calling “#smashthe100k,” `dfpti35` considering abandoning the pink box and label so Snoo could be defended, and `dfsxhvs` admitting a later defection from rebuilding to the taskbar. These items qualify consensus and neighbourliness, but the target-choice items still privilege Snoo rather than rejecting it. No returned item explicitly rejected Snoo defence wholesale or declared the megathread useless. That null is scoped to the searchable textual record and the case’s vocabulary; removals, images, sliced reading, and off-platform talk limit what the absence can establish. Five newly relevant passages were late-coded at step 5 and attached to the existing target-choice, neighbour-boundary, and Discord themes.
+
+## Saturation
+
+The core practices recur across slices: lettering and calls for help begin in batch 01; Snoo-building, progress celebration, switching targets, neighbour boundary work, moderator jokes, and template sharing first appear in batch 02; April Fools play, side projects, Discord recruitment, newcomer response, and a placement-glitch experiment first appear in batch 03; official megathread centralization first appears in batch 04; checking damage first appears in batch 05. Later slices still add genuinely new practices: batch 06 first turns survival and damage into a proud outcome story, and batch 07 first uses visualizations to relive the fight. Thus building, defence, and neighbour negotiation settle into repetition across the middle slices, but post-event meaning-making remains generative through the final slice.
+
+The record is not whole. Removed and deleted bodies interrupt exchanges; linked images cannot be independently described; some discussions continue beyond slice windows; and Discord, FurAffinity, Minecraft, YouTube, and private invitations are visible only through what participants bring back to Reddit. Moving coordination to Discord is itself recorded conduct, but its internal deliberation is absent. Seven coders read separate slices, so arbitrary boundaries and inherited context constrain cross-slice inference; no agreement measure was taken. The forest covers the coded thread structure, not unseen image contents or off-platform interaction.
+
+## Selection
+
+The opening-index gate selected branch B because the instrument recorded 3156 in-window items against a threshold of 500, with 515653 characters by people. It divided the whole-thread record into seven corpus-order slices. Coders triaged every assigned thread and read event threads in full; ordinary art, commissions, introductions, identity talk, media, and unrelated community discussion were excluded, with exact exclusion citations where required. The lead used openings only for orientation before the gate, then consolidated the pooled codes and slice cases; openings were not treated as evidence.
+
+## Other communities named
+
+r/touhou is made alternately into pressure, relocation helper, neighbour, “traitors,” and a friendly community: `dfow5lt` relays an offer to help relocate, while `dfp2rrj` redirects that offer toward Snoo and other comments report lost space. Those contrasting positions do not prove a collective reversal. r/furry_irl is credited with early canvas work and later treated as a possible ally or comparison target; `dfo22zr` provides the early attribution, while `dft4d80` says its slogan stayed largely unharmed. r/zootopia receives credit for Nick and Judy in `dfpdtgg`.
+
+Blue Corner is a negotiating neighbour in `62xbqw`, which relays its request for blue. BONK moves from a proposed alteration in `630ygb` to complaint and reciprocal repair in `dfrkr4b`, `dfrkum6`, and `dfrkwt1`. r/smite is both offered as border help in `dfr6gum` and later named, or possibly impersonated, as pressure on the border in `dfriu6b`; the record does not reconcile those claims. r/foxes asks for placement help in `6360lv` before the separate post is redirected by `dfrymqz`. NightInTheWoods is a side-project venue in `dfpg4m0` and later recruitment calls. FurAffinity appears as a proposed QR-code destination in `62wrm5`; Discord carries partial defence organisation. These pointers establish how participants invoked or moved toward other venues, not full reciprocal accounts from those communities.
+
+## Absence
+
+Removed openings and deleted replies are visible gaps, not reconstructed speech. They are most consequential where titles call for repair, announce projects, or promise cleanup but the body or image is unavailable. Surviving replies still support repair, defence, neighbour negotiation, newcomer welcome, and retrospective joking, but they cannot establish the missing speaker’s exact proposal or the visual state of a pixel work. The corpus also cannot show Discord deliberations, private coordination, external image changes, or what happened after the 97-hour window. Automated mirror and preview text was treated as platform setting rather than participant conduct.

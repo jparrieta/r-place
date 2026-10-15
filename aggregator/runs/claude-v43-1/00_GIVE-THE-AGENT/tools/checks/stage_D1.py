@@ -214,11 +214,13 @@ def check_vocabulary(outdir, vocab, els, ars):
                                             or vlib.FORM_PASS.match(str(t))):
                 err("%s: %s tier %r is not a third- or fourth-order theme, a dimension or an FP- finding"
                     % (rel, i, t), shape="vocab:tier", where=i)
-        if r.get("dimension") not in (None, "") and not vlib.DIM.match(str(r["dimension"])):
-            err("%s: %s dimension %r is not a dimension id" % (rel, i, r["dimension"]), shape="vocab:dim", where=i)
-        elif r.get("dimension") and r["dimension"] not in vocab["dimensions"]:
-            err("%s: %s names dimension %s, which the vocabulary's dimensions list does not hold"
-                % (rel, i, r["dimension"]), shape="vocab:dimres", where=i)
+        d = r.get("dimension")   # one id or a list of ids: an element may sit in several dimensions (J, 2026-10-15, QD1-001; as stage C2 allows)
+        for dd in (d if isinstance(d, list) else ([d] if d not in (None, "") else [])):
+            if not vlib.DIM.match(str(dd)):
+                err("%s: %s dimension %r is not a dimension id" % (rel, i, dd), shape="vocab:dim", where=i)
+            elif dd not in vocab["dimensions"]:
+                err("%s: %s names dimension %s, which the vocabulary's dimensions list does not hold"
+                    % (rel, i, dd), shape="vocab:dimres", where=i)
         if r.get("status") == "withdrawn":
             err("%s: %s is withdrawn and still in the vocabulary; a labeler must not adapt it" % (rel, i),
                 shape="vocab:withdrawn", where=i)
