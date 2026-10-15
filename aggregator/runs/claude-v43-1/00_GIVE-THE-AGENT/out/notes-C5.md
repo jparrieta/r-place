@@ -1005,6 +1005,29 @@ The result matches C5d's: 195 rows, quartiles 45, 55, 56 and 36, and residue T3-
 **Slips, C5c-13.**
 - **Edits and their checks in one turn.** The table script's title Edit and its grep ran in one turn, and so did the brief's Write and its word count. Both checks were read-only and saw the change.
 
+## C5d-p2: the freeze recorded
+
+**QC5-003, answered** (J agreeing at 16:47 Amsterdam). `out/_closes` belongs to the harness, and a leg named C5d records the freeze. This leg is C5d-p2. It changed no model file.
+
+**What it did:**
+- It confirmed that `vlib.model_hash` gives e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd, the model as pass 15 left it.
+- It added one line to `handback-C5.md` naming both hashes and why the freeze moved: the serial work, with J's leave.
+- It pointed the interview brief at this leg (`interview/C5d-p2.md`, written from `interview/C5c-13.md`, which is kept).
+- It closes with the interview cut, so `done.sh` records the freeze and the interview follows. Stage D does not start without J.
+
+## The close-check, C5d-p2
+
+`python3 tools/validate.py C5`, run after the handback line, the brief and the head:
+
+```
+stage C5:
+  data_structure-C5.md: 195 rows, 192 quotes checked
+  leg: check; passes 15, propositions 9, elements 30, arrows 21, history lines 134
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-13
 
 `python3 tools/validate.py C5`, run after the table, the figure, the implications, the handback, the brief and the head:

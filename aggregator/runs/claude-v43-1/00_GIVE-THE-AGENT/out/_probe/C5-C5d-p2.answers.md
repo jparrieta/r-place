@@ -1,0 +1,5 @@
+- **goal:** Can independently reconstructed case histories be composed into a shared dynamic account that supports explanations at successive levels of specificity, from population-wide patterns, through forms and subforms, to particular organizational histories, while keeping access to the evidence from which those explanations were developed?
+- **open:** contention-dimension and relocation-renewed-calls are the two slugs I recall in `out/_questions/`; I don't recall whether either is still marked open.
+- **rooms:** None; this leg opened no room. It only checked the model hash and wrote the handback line, the brief, the head lines and the notes.
+- **changed:** No element or theme changed in this leg; it only recorded the freeze, since the model hash stayed e15f9647… throughout.
+- **next:** The comparison the next stage file sets, against the thirteen expectations in `implications-C5.md`; stage D does not start without J.

@@ -19,6 +19,7 @@ Each problem wrote its finding to `serial-C5/`. C5c-12 folded the findings into 
 - The model as pass 15 left it hashes to e15f9647…b3fecd (`vlib.model_hash`).
 - I asked how the freeze is to be re-recorded (QC5-003), and I left `_closes/` untouched.
 - After the freeze, nothing below the model moves except as a validated amendment at D3.
+- **The freeze moves at C5d-p2** from 24d18e0e22955c541ae37bb0a1557ebd0ffc5cf34e488a16dc423347f84216d7, recorded at C5d before the serial work, to e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd, the model as pass 15 left it. It moves because the serial work changed the model with J's leave (13:45 Amsterdam). C5d-p2 changes no model file and closes with the interview cut, so `done.sh` records the new hash (QC5-003, J agreeing at 16:47 Amsterdam).
 
 **What stage D reads:**
 - **The model:** `account.md` (pass 15), `propositions.jsonl` (9), `figure-C5.md`, `data_structure-C5.md`, and `implications-C5.md`, from which stage D1 writes `EXPECTATIONS.jsonl`;

@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5c-13, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch (C5c-07). The four problems (C5c-08 to C5c-11), the fold-in (C5c-12, pass 15) and C5d's work, redone in C5c-13 by J's ruling (16:29 Amsterdam), are done. Stage C5 is finished; the interview follows; stage D waits for J. `validate.py C5`: 0 errors, 0 warnings.
+Under 3,000 words, rewritten whole at every close. Last written at C5d-p2, 2026-10-15 (UTC), which records the freeze. Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch (C5c-07). The four problems (C5c-08 to C5c-11), the fold-in (C5c-12, pass 15) and C5d's work, redone in C5c-13 by J's ruling (16:29 Amsterdam), are done. Stage C5 is finished; the interview follows; stage D waits for J. `validate.py C5`: 0 errors, 0 warnings.
 
 ## The method question, in one sentence
 
@@ -53,7 +53,7 @@ The account is `account.md`, pass 15 (3,318 words; passes 1, 3, 4, 5 and 8 kept)
 - **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 134, `findings.jsonl` 36 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Snaps** run to C5-move-developing-171. Scripts: `out/_analysis/c5*`.
 - **Still open in C5:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
-- **The questions.** QC5-001 and QC5-002 are answered. QC5-003 asks how the freeze is re-recorded (C5d's hash 24d18e0e…; pass 15's e15f9647…). QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
+- **The questions.** QC5-001 to QC5-003 are answered; the freeze moves from C5d's 24d18e0e… to pass 15's e15f9647…. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
 ## Stage C4, in short
 

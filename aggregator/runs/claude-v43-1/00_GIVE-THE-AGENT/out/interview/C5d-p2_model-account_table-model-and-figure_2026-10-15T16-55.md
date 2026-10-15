@@ -1,0 +1,43 @@
+# Interview brief, C5d-p2: the model finished again, after the serial work
+
+Written at C5c-13, which redid C5d's work; pointed at C5d-p2, the leg that records the model freeze and carries the interview point.
+
+Target length: under 800 words.
+
+## What I did
+
+After C5d, J lifted the freeze, and I worked four problems, one leg each. Each leg wrote its rules before it read anything, and its finding to `serial-C5/`.
+- **The unit.** I restored the room, or a group of rooms, as the actor wherever its members spoke or acted for it.
+- **Thin evidence.** I read the three thin arrows in every room that carries them, and scored the field analyst's blind second coding of border talk.
+- **Stigmergy and "aligned".** I weighed five options against organization design, with an adversarial reader.
+- **The reason test.** I counted what the record kept of the replies to calls before reading the asymmetry of reasons.
+
+One leg then folded the four findings into the account, the propositions and the prose test. This leg redid C5d's table, figure, implications and handback from that model.
+
+## What I found
+
+The structure stands: a start, the room's calls, building, keeping. It is now clearer how rooms differ.
+- **Two routes for many hands.** Rooms coordinate by posting the work's state in the thread or by sharing a template. 237 rooms do each, but only 89 do both, about what chance would give.
+- **Aligned, with a count.** In 233 of 370 rooms that called for hands, the room's record reports a work up after the call, so "aligned" can be said there with its count.
+- **Most calls go unanswered in writing.** In written replies, acceptances come bare and refusals give a reason. A refusal contests what the room acts on.
+- **After doubt and a loss,** rooms give the work up about as often as they move (11 against 10). The move sends the organizing back to a start; giving up ends it, though not the room.
+
+## What surprised me
+
+- **Sparing.** I believed a settled border was what a room spared its neighbour by. Read in all 158 rooms, the first act of sparing named a border or a deal in only 17 of 124. The rest state the room's own norm: "Don't ruin other people work."
+- **Stigmergy, again.** The organization-design sources I was asked to use cut against my construct. Warglien and Sartoris put explicit signals on the far side of stigmergy, and the records are posts. The honest name was Okhuysen and Bechky's: direct information sharing.
+- **How little is written.** Fewer than half of the calls to place have any written reply by another member.
+
+## What I doubt
+
+- **The border reading.** The two coders agree only slightly (kappa 0.19). The claim holds at both ends of the range, but "mostly terms" is a soft claim.
+- **The refusal side of the reason test** on calls to place rests on three replies.
+- **"Aligned" rests on the room's own report** that the work was up, not on the canvas. A reader may hear more than that.
+- **Direct information sharing still has one member.** I chose that over a merge that would have hidden a real difference between rooms. It breaks the rule that a fourth-order theme groups.
+- **The model freeze.** The hash recorded at C5d was the pre-serial model's. C5d-p2 records the model as pass 15 left it (QC5-003). What stage D reads is that version, and I have changed nothing since.
+
+## Three questions I would most like to be asked
+
+1. Does a one-member fourth-order theme that names a real route (posted state, apart from templates) serve the method question better than a merged theme that groups but hides the difference?
+2. Should the return treat moving and giving up after a loss as a branch of forms, the contract's two kinds of ending made visible?
+3. With most answers to calls done by placing and never written, what kind of claim can talk in public carry about how a room settled what to act on?
