@@ -1,6 +1,6 @@
-# The account, pass 2 (C5a-02)
+# The account, pass 4 (C5a-04)
 
-Target length: about 1,700 words, two pages. Pass 3 (C5a-03) restored K01. This is the model of `model-C4.md` told as prose, with its declarations as amended at C5a-01 and C5a-02. Pass 1 is kept as `account-p1.md`.
+Target length: about 1,800 words, two pages. Pass 3 (C5a-03) restored K01. Pass 4 states the rule that decides whether an element stays. This is the model of `model-C4.md` told as prose, with its declarations as amended at C5a-01 and C5a-02. Pass 1 is kept as `account-p1.md`, and pass 3 as `account-p3.md`.
 
 An id in brackets names an element or arrow; N01 to N09 are the propositions in `propositions.jsonl`. "137 of 190" counts the rooms where an order holds, out of those carrying both elements; each order beats a null of 500 shuffles within each room unless called thin or theorised. Hours run from the canvas's opening; placement ended at hour 73. The 705 subreddits are called rooms.
 
@@ -40,7 +40,9 @@ The three rooms share the order from a start through calls to building. They dif
 
 ## Where the model breaks, and the rooms it cannot reach
 
-The model breaks where a body's faith or a host's rule, and not the work, picks rivals and guests: "We need to attack back. Blue the Purple Corner!" [thebluecorner/c0230, h16.23]; "We DO NOT accept any drawings on our flag in r/place" [catalunya/c0056, h69.26]. It also breaks in late rooms that enter the canvas through another room, and in rooms whose replies the coders did not code. Two elements left the model at C5a-02 because no grounded arrow carried them: attribution (P06) and the envoy (R02). The April Fools frame (K01) also carries no arrow. It was cut at C5a-02 and restored at C5a-03, because ten of the story rooms told with no residue tell the frame beside the work.
+The model breaks where a body's faith or a host's rule, and not the work, picks rivals and guests: "We need to attack back. Blue the Purple Corner!" [thebluecorner/c0230, h16.23]; "We DO NOT accept any drawings on our flag in r/place" [catalunya/c0056, h69.26]. It also breaks in late rooms that enter the canvas through another room, and in rooms whose replies the coders did not code.
+
+**The cuts, and the rule that decides whether an element stays.** Three elements carried no arrow: attribution (P06), the April Fools frame (K01) and the envoy (R02). The second pass of this account cut all three. The third pass read the cuts against the 35 story rooms. No telling rested on P06 or R02, and they stay cut. Ten of the 16 rooms told with no residue tell the frame beside the work, so K01 was restored. When the model was built, it stated that a process or condition enters only with a grounded arrow. It did not keep that rule: K01, P06 and R02 stood with no arrow until this account. In this account, a criterion written before the first pass decides whether an element stays. It ranks story rooms told with no residue above a smaller count of elements. The arrow rule decides only what the account may say an element brings about. K01 carries no arrow, so the account says what members did in the frame and claims no effect of it. Its one claim beyond presence is F-009, a test that could have found a delay. The claims C01 and C02 also stand on findings and carry no arrow.
 
 The pass 5 story told 19 of its 35 rooms with a residue, and the account cannot reach these communities:
 - greenlattice, orderofthebluecorner, purplecorner and thebluecorner: a faith in a colour names the rivals and rules on guests;

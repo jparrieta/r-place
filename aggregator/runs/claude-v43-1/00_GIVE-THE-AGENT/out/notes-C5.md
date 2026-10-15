@@ -215,6 +215,52 @@ Pass 3 changed one element's status, so by section 7 another pass is due before 
 - **A miscount.** The pass 3 notes first said the frame is told in 17 story rooms. The scan printed duplicate lines, and a script then counted 16.
 - **Parallel edits.** Two Edits to the head ran as parallel calls. Both landed, and a later turn checked them.
 
+## Pass 4 (C5a-04): the rule that decides whether an element stays
+
+**The handler's point, not a ruling.** In pass 2 I cut P06, K01 and R02 under the model's rule that a process or condition enters only with an arrow. K01 now stands with no arrow. Say which rule governs, and why, so that the C5b readers see it.
+
+**The answer.** The criterion written before pass 1 decides whether an element stays. The arrow rule decides only what the account may say an element brings about.
+- **Why the criterion.** Section 4 sets the count of elements "by what keeps composition and explanatory power alive", with why in this file. Section 5 asks for the criterion before the first pass, and a criterion written after the passes is not one. The criterion ranks story rooms told with no residue (item 2) above a smaller count of elements. The arrow rule is not one of its items.
+- **Why not the arrow rule.** The model stated it ("Each process and condition enters only with a grounded arrow", `model-C4.md`) and did not keep it. K01 stood with no arrow from C2's first pass (`model.md`: "a condition with nothing tested from it"). `model-C4.md` lists five standing elements with no arrow: P06, K01, C01, C02 and R02. A rule the model broke from its first pass cannot decide a cut alone.
+- **What the arrow rule still does.**
+  - It names the candidates. An element with no arrow is the first read for a cut, as P06, K01 and R02 were at pass 1.
+  - It limits what the account says. An element with no arrow is told by what members did, and no effect of it is claimed. The account tells K01 that way: the play ran in 368 rooms, and F-009 found no delay of the work (59 frame-filled rooms against 275, permutation p 0.43).
+- **How the three cases fall under it.**
+  - P06 and R02 carry no arrow, and no story telling rested on them. Cutting them costs no room told, so the criterion prefers the smaller model.
+  - K01 carries no arrow, and ten of the 16 rooms told with no residue tell the frame through it. Cutting it costs ten rooms told, so the criterion keeps it.
+- **Where pass 2 went wrong.** Pass 2 used the arrow rule as if it decided the cut, and read the story rooms after. That slip is recorded under pass 3. The pass 2 line "Every standing process and condition now carries an arrow" stopped holding at pass 3.
+- **Where the readers see it.** `account.md`, in its last section, has the paragraph "The cuts, and the rule that decides whether an element stays". The sentence in `model-C4.md` stays as written, since that is a C4 file. `account.md` is the final version of the model's explanation, and it states the rule as it now stands.
+
+**What else pass 4 read.**
+- **Cuts I suspect (section 5).** None beyond those read. P06 and R02 were read against the story rooms at pass 3. K03, K04 and P19 are candidates from C2, and nothing in passes 1 to 4 bears on them.
+- **The four flagged names.** Only Live and let live is named in the account, and its difference from an explicit truce is stated. Critical mass, Reciprocity and Collective efficacy are not named in the account. Each passes the prose test, so none is recut.
+- **Changes.** No element, arrow, tier or finding changed. No sketch was tried: the fifth arrangement still holds. The pass 3 account is kept as `account-p3.md`, and `account.md` is 1,869 words.
+
+**What the criterion says about pass 4: no change.**
+1. **Unmarked causal sentences.** None added. The new paragraph says what decides a cut, and it claims no effect of K01.
+2. **Rooms told.** The same 16 story rooms are told with no residue, with the same 23 elements.
+3. **Tested arrows.** Every arrow is kept.
+4. **The prose test.** Unchanged: 36 names pass, and 4 are flagged.
+5. **The readers.** They have not read the account yet.
+
+**The passes stop.** Pass 4 changed no element and no cut, so by section 7 the passes stop. I choose to move to C5b next.
+
+**Slips, C5a-04.**
+- **Parallel edits.** Two Edits to the head ran as parallel calls while I cut it below 3,000 words. Both landed, and a later turn counted the words and ran the link check.
+- **The head's length.** The head first came to 3,118 words. I cut repeated lines until it was 2,995 words.
+
+## The close-check, C5a-04
+
+`python3 tools/validate.py C5`, run after the pass 4 line and before the head was rewritten:
+
+```
+stage C5:
+  leg: build; passes 4, propositions 9, elements 30, arrows 21, history lines 94
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5a-03
 
 `python3 tools/validate.py C5`, run after the pass 3 line and before the head was rewritten:
