@@ -1,0 +1,17 @@
+{
+ "elements": {},
+ "arrows": {
+  "A12": {"replace": [
+    {"field": "bound",
+     "old": "Never counted: a form-pass finding travels on exemplars only.",
+     "new": "Never counted as an order. At C5c-11 the first coded replies to calls to place were read in 80 seeded rooms (F-023): acceptances gave no reason in 25 of 31 and refusals gave one in 3 of 3. More than half of all calls carry no written reply, and a fifth of the replies written carry no coded text, so the form is read on the written, coded replies only."},
+    {"field": "mechanism",
+     "old": "it makes an answer from each reader the next thing due.",
+     "new": "it makes an answer from each reader the next thing due, given in the thread or by placing."},
+    {"field": "mechanism",
+     "old": "A bare one-line join is the ordinary way a call is accepted.",
+     "new": "In the written record a bare join is the ordinary way a call is accepted (25 of 31 read acceptances, F-023); a member can also accept by placing and write nothing, which the record cannot show."}],
+   "say": "takes the read count for the bare answer and the answer given by placing",
+   "why": "Problem 2, the reason test (C5c-11): survival counted first (c5c11_survival.py), then 80 seeded pairs on calls to place read under codes logged first (c5c11_place_codes.json, c5c11_place_tally.py); J's framing, omission against commission"}
+ }
+}

@@ -13,7 +13,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `account-p1.md` to `account-p5.md`), with the readers' disagreements beside it in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`.
 - **Direct information sharing (T4-007, Stigmergy until C5c-10; F-018).** By three codings, T3-041 and T3-060 moved to Collective representation. The theme keeps building and reporting the mark alone (10 of 14 bearing records report the work's state), one member against C2's criterion.
 - **The spine.** A member starts a mark [R01]. Calls follow the start in 64 of 89 rooms [A02], building follows calls in 81 of 126 [A01], and keeping follows building in 148 of 190 [A03].
-- **The bare answer.** Members answer a call in one line that gives no reason, the preferred acceptance of conversation analysis, borrowed. Replies to attack calls: refusals gave a reason in 23 of 38, acceptances in 2 of 14 (F-014). The head-count claim failed (F-015).
+- **The bare answer.** In written replies, acceptances come bare (25 of 31 to calls to place, F-023) and refusals give a reason (3 of 3; attack calls 23 of 38, F-014); most calls get no written reply. The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
 - **Alignment without decision** (theorised, thin). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
 - **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]. Where border talk came first, it mostly offered terms before any damage (19 of 26 to 36 of 38, two coders). Members also trade help [A13, A14] and join coalitions [A19]. Members make agreements without the power to make every placer keep them.
@@ -39,26 +39,26 @@ The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `
   4. The C5 readers are the second reader of the declarations; QC5-001 adds the field analyst.
   5. J's language ruling stands.
 - **Passes 1 to 4 (C5a).** Declarations amended under the prose rule; A04 bounded; P06 and R02 cut; K01 cut and restored (move 92); nine propositions. The criterion preferred each pass, then "no change" of pass 4.
-- **C5b.** The readers' rooms: cardinals, luciomains, mysterydungeon.
 - **J, 15 October, 07:59 to 09:09 Amsterdam.** I decide what enters and leaves the model, by my own criterion; the field analyst reads all 36 declarations against the members' quotes (QC5-001).
 - **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part. Ten errors were fixed and 34 sentences rewritten.
 - **J, 11:02 Amsterdam.** The field analyst's marks are advice, not evidence the model fails.
 - **C5c-02 (pass 6).** Stigmergy recut by three codings (moves 93 to 95); four arrows recounted (A01 now fair); F-018 written. 94 pieces of advice accepted, 30 kept, 35 declarations amended (moves 96 to 130).
-- **Passes 7 and 8.** Element statements, arrow mechanisms and propositions took the wording pass 6 accepted (moves 131 to 146).
+- **Passes 7 and 8.** The model took pass 6's wording (moves 131 to 146).
 - **J, 12:01 Amsterdam (advice).** The room is the unit; demote a room claim only where members act apart from it.
 - **C5c-05 (pass 9).** K02, A10 and P13 restored to the room (moves 147 to 149).
 - **C5c-06 (pass 10).** No change; the passes stopped.
-- **J, 13:45 and 14:14 Amsterdam (C5c-07, QC5-002).** The freeze is lifted for serial work. Texts are on file; Stigmergy is argued from organization design. The border package is `field-packages-C5b/`; findings go to `serial-C5/`; the head at C5d's close is `serial-C5/head-before-serial.md`. Order: the unit, thin evidence, Stigmergy and "aligned", the reason test.
+- **J, 13:45 and 14:14 Amsterdam (C5c-07, QC5-002).** The freeze is lifted for serial work. The border package is `field-packages-C5b/`; findings go to `serial-C5/`; the head at C5d's close is `serial-C5/head-before-serial.md`. Order: the unit, thin evidence, Stigmergy and "aligned", the reason test.
 - **C5c-08 (pass 11).** The room or a group of rooms is again the actor in 5 declarations, 5 elements and 4 arrows (moves 150 to 163): `serial-C5/finding-1-unit.md`.
 - **C5c-09 (pass 12).** Thin evidence: the border second coding scored (kappa 0.19); A10, A05 and A14 read in every room; A05's line theorised; F-019, F-020 (moves 164 to 167): `serial-C5/finding-3-thin-evidence.md`.
 - **C5c-10 (pass 13).** Stigmergy renamed Direct information sharing (Okhuysen and Bechky 2009); D02 "aligned" in 233 of 370 rooms with calls; F-021, F-022 (moves 168, 169): `serial-C5/finding-4-stigmergy-aligned.md`.
+- **C5c-11 (pass 14).** The reason test: survival counted first; calls to place read; F-023, F-014 superseded, A12 amended (move 170): `serial-C5/finding-2-reason-test.md`.
 
 ## Where the run stands
 
 - **C5 outputs:** `account.md` (last changed at pass 8) and its earlier passes, `propositions.jsonl` (9; earlier passes kept), `prose-test-C5.md`, `sketches.md` (five arrangements), `account_passes.jsonl` (11 lines), `notes-C5.md`.
 - **C5b to C5d outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`; C5d's `data_structure-C5.md`, `figure-C5.md`, `implications-C5.md`, `handback-C5.md` and `interview/C5d.md`, to be redone.
-- **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 132, `findings.jsonl` 33 lines (22 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
-- **Snaps** run to C5-move-developing-169. Scripts: `out/_analysis/c5*`.
+- **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 133, `findings.jsonl` 35 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
+- **Snaps** run to C5-move-developing-170. Scripts: `out/_analysis/c5*`.
 - **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
 - **The questions.** QC5-001 is answered; its field reading is out. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
@@ -170,4 +170,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The next leg works the fourth problem in the revised order (`notes-C5.md`, C5c-08), on `model/` as pass 13 left it.
+The four problems are done. The next leg is the fold-in the plan names (`notes-C5.md`, C5c-07), on `model/` as pass 14 left it.

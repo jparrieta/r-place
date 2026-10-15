@@ -905,6 +905,45 @@ The finding is `serial-C5/finding-4-stigmergy-aligned.md`. In short:
 - *Items 2 and 3:* unchanged.
 - *Item 4:* the renamed theme passes the prose test on what its records show.
 
+## C5c-11: problem 2, the reason test (pass 14)
+
+The finding is `serial-C5/finding-2-reason-test.md`. In short, under J's framing (omission against commission):
+- **Survival, counted before any reply was read.**
+  - Of 1,949 calls to place, 920 (0.47) have a written direct reply by another member. Of 1,565 attack calls, 682 (0.44) do.
+  - Of the replies written, 0.21 and 0.26 carry no coded text. About 1 in 100 has a deleted author.
+  - So most answers are not in the writing, and later removal is small.
+- **The read.** 80 seeded first coded replies to calls to place, coded under rules logged first, gave 63 pairs.
+  - 31 accept, 3 refuse, 2 are mixed, 27 are other.
+  - Refusals gave a reason in 3 of 3, and acceptances in 6 of 31 (one-sided Fisher p 0.014). 25 acceptances are bare.
+- **The writes.**
+  - F-023 is written.
+  - F-014 is superseded. It is scoped to written, coded replies, and its 38 against 14 is named as set by the draw.
+  - A12's bound and mechanism take the read count, and the answer given by placing (C5-move-developing-170).
+  - No element, order count or strength changed.
+
+**What the criterion says about pass 14: prefer.**
+- *Item 1:* a universal reading of the asymmetry is scoped to what the record holds.
+- *Items 2 and 3:* unchanged.
+- *Item 4:* the bare answer now has a count.
+
+**Slips, C5c-11.**
+- **A same-file Edit and `sed`.** I put an Edit and a `sed` on `c5c11_place_pairs.py` in one turn, and the `sed` was refused. I made the change with Edit.
+- **An unchecked field.** The pair script first stopped on items with no hour. Nothing had been written, and the draw ran after the fix.
+- **An Edit and its check in one turn.** The last head Edit and its word count ran in one turn. The count, 2,999, came after the edit.
+
+## The close-check, C5c-11
+
+`python3 tools/validate.py C5`, run after the writes, the finding and the head:
+
+```
+stage C5:
+  data_structure-C5.md: 195 rows, 192 quotes checked
+  leg: check; passes 14, propositions 9, elements 30, arrows 21, history lines 133
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-10
 
 `python3 tools/validate.py C5`, run after the writes, the finding and the head:
