@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C4a, 2026-10-14 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C4 (the model against the field) closes at C4a with `done.sh C4 --cut interview`. `validate.py C4` before this close: 0 errors, 0 warnings. Next: the stage after C4, as its stage file says.
+Under 3,000 words, rewritten whole at every close. Last written at C5a-01, 2026-10-14 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open: pass 1 (C5a-01) closes with `done.sh C5`. `validate.py C5` before this close: 0 errors, 0 warnings. Next: the stage file's next step for C5.
 
 ## The method question, in one sentence
 
@@ -10,77 +10,80 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The model is `model-C4.md`: stage C3's model with stage C4's changes written in.
-- **The spine.** A member starts a mark, members call others to place, the members who come build, and once the mark stands they keep it.
-- **The call.** A call is the first part of a pair. Joining is the answer it prefers and comes bare ("I'm in"). Refusing comes with a reason.
-- **The host sub.** The calls fill the host sub, and the sub draws a line around canvas talk.
-- **Neighbours.** Keeping the mark brings the room to its neighbours: it talks with them, settles borders, trades help, and joins coalitions under attack. Members make these agreements without the power to make every placer keep them. Both my rooms and the field show this.
-- **Attacks.** A call can turn members against a rival's work. Most such calls are refused inside the room, and the refusal's reason states the room's norm or the attack's cost.
-- **A move.** A room that judges it cannot hold its spot moves, and keeps calling.
-- **The close.** It runs in order: celebrated, recorded, carried on. Placement ends at hour 73. Organizing around the canvas's records and copies goes on after it.
-- **Decided order** is rare, and gathers in the small factions born on the canvas that govern a territory.
-- **A claim, untested for order.** In some rooms a tie from before the canvas names the rival in the attack turn.
-- **Two boundaries at the return:** colour factions the canvas gathered, and hosts ruling on guests.
-- **The four universal problems (C3c).** The rooms allocate work by members choosing their own tasks, divide the picture by a template, inform through the half-built picture and chats, and reward by credit after the work. 19 of 28 fourth-order themes lie outside the four.
-- **Three tentative entries from the field (C4), for stage D:**
-  - P21: members dispute who may commit the room to an agreement;
-  - A21: an arrow from deals to that dispute;
-  - P22: after placement ends, members contest which version of the canvas and the event is kept.
+The account is `account.md`, pass 1. It tells `model-C4.md` with the declarations as amended at C5a-01.
+- **The spine.** A member starts a mark [R01]. Calls for hands follow the start in 64 of 89 rooms [A02]. Members report building after a call in 137 of 190 [A01], and turn to keeping the mark in 182 of 291 [A03].
+- **The bare answer.** Members answer a call in one line that commits them and gives no reason. This is conversation analysis's preferred acceptance, the run's concept, borrowed (F-014). Its head-count claim failed (F-015, weak).
+- **The host sub's line** follows the calls in 132 of 155 rooms [A20].
+- **Neighbours.** Keeping the mark brings members into talk with neighbours in 235 of 401 rooms [A04]. Members trade help [A13, A14] and join coalitions [A19]. They make agreements they cannot make every placer keep. The field's analyst found the same.
+- **The contest.** A call can turn members against a rival's work [A15]. Members answer an attack call inside the room [A16, A17]; refusals give a reason, and acceptances come bare.
+- **Loss.** A room that judges it has too few hands moves [A10, thin]. No loop is grounded.
+- **Hour 73.** Placement stops for every room. Before it, members celebrate, record and carry on [A07, A08, A09]. After it they curate the record: they clean, copy, record and argue over which version is kept (P12; P22 tentative). Curation is apart from carrying on (P13), per J's ruling.
+- **Decided order** is rare (46 of 705 rooms) and gathers in the small factions born on the canvas that govern a territory (F-006).
+- **C02**, untested for order: a tie from before the canvas names the rival in the attack turn (10 turns in 7 story rooms).
+- **Tentative, from the field:** P21, A21, P22.
 
-**The room that best supports the account: day9.** It builds, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
+**The room that best supports the account: day9.** It builds, offers a neighbour terms, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
 
-**The room that most threatens it: thebluecorner.** It is a colour faction whose faith names its rivals, rules on guests by vote and by fit with blue, and splits over doctrine.
+**The room that most threatens it: thebluecorner.** It is a colour faction whose faith names its rivals ("We need to attack back. Blue the Purple Corner!"), rules on guests and splits over doctrine.
 
-**The condition between them** is what decides whom a room fights and whom it admits. Where the work decides, the model tells the room. Where a body's faith or a host's rule picks rivals and guests, it does not.
+**The condition between them** is what decides whom a room fights and whom it admits. Where the work decides, the model tells the room. Where a faith or a host's rule decides, it does not.
+
+## The reasons for the last revisions (C5a-01)
+
+- **J's rulings of 15 October, 01:29 Berlin** (relayed by the handler; J is not waiting at each step, and the handler answers questions under J's delegation):
+  1. Work after hour 73 is curation of the record (P12, P22 tentative), told apart from carrying on (P13), and not as a fourth part of making the work.
+  2. The declaration prose pass comes before the account, with its rule written first. Each amendment is a move. A cut moves only where the members' quotes force it.
+  3. Stigmergy's sources are read whole before Stigmergy is amended: Heylighen 2016 and Grassé 1959, in `out/sources-from-J/`, marked verified with pages. Recut only if, as cut, it joins what its sources keep apart.
+  4. The second reader is stage C5's three readers. The C5b packets carry the rule and the amended declarations with their quotes, and the readers' disagreements are recorded.
+  5. J's language ruling stands.
+- **The prose rule** (`notes-C5.md`): in `prose`, `changed` and `mistaken_for`, a universal, comparative, causal or cyclic sentence stands only on a counted order that beats its null, a finding, a count in the structure, or a setting fact the contract states. Otherwise it says what members did, in how many rooms.
+- **All 28 fourth-order declarations amended** (moves C5-move-relating-53 and C5-move-developing-54 to 80). No name, member or cut changed. Two declarations claimed what the run's own tests contradicted: Attribution as the hinge between restraint and attack, and doubt shaping whether hands come.
+- **Stigmergy against its sources** (an abductive read, rules written first). No member met the rule (T3-041 was closest: 8 of 17). Across its three members, 31 of 52 records report the work's state or act on the canvas, and 21 propose or ask. The cut stands.
+- **Rule 14.** Three mapping lines were corrected in mapping-C3.jsonl (Attribution, Visibility returns, Completion ritual). F-016 was superseded: Completion ritual is now mapped to reward by reading, not by construction. A21 got its `negative_check`.
+- **A withdrawn claim of mine:** that no one could see who placed a pixel. The contract does not state it.
+- **The criterion** (written before pass 1, `notes-C5.md`) says prefer pass 1 over the pass 5 story.
 
 ## Where the run stands
 
-C4 outputs in `out/`:
-- `field-C4.md`, `notes-C4.md`, `handback-C4.md`, `interview/C4a.md`;
-- `manifest-C4.txt`, naming two successors written whole: `model-C4.md` and `structure-C4.md`. `concept-C3.md` stands.
-- `out/field/` holds byte-identical copies of the field's two files.
-- Ledgers: `model/elements.jsonl` (30), `model/arrows.jsonl` (21), `model/history.jsonl` (88), `tier_history.jsonl` (480), `findings.jsonl` (25 lines, 17 findings, unchanged).
-
-Snaps run to C4-move-developing-52. QC4-002 is open. The tier is unchanged: 28 fourth-order themes in eight dimensions and 197 third-order themes.
+- **C5 outputs so far:** `account.md` (1,919 words), `prose-test-C5.md` (36 names pass, 4 flagged: Critical mass, Live and let live, Reciprocity, Collective efficacy), `sketches.md` (clock, tier, trajectory), `account_passes.jsonl` (1 line), `notes-C5.md`.
+- **Ledgers:**
+  - `tier_history.jsonl` (508 lines);
+  - `model/history.jsonl` (89);
+  - `findings.jsonl` (26 lines, 17 findings);
+  - `model/elements.jsonl` (30) and `model/arrows.jsonl` (21).
+- **Snaps** run to C5-move-developing-80.
+- **Scripts of this leg** are `out/_analysis/c5_*`.
+- **Deferred to the next pass, with reasons in `notes-C5.md`:**
+  - the eight dimension declarations under the prose rule;
+  - the candidate split of P08 (terms offered before damage, or talk after it);
+  - the candidate cuts P06, K01 and R02 (no arrow);
+  - the account cut toward two pages;
+  - the four mistaken-for differences the prose test asks the account to state;
+  - the story rooms read against the account.
+- **The questions:** QC4-001 and QC4-002 are answered. The field is read only from `out/field`, and `out/_field-link-superseded-C4a` stays as it is.
 
 ## Stage C4, in short
 
-- **The field.** A separate analyst modelled the event from r/place, sealed from my files, and marked each claim firm (a public exchange) or provisional (an explanation or a limit): two phases and nine processes.
-- **The three claims restated before reading** (dealing with other rooms after keeping the work; decided order rare; each room's order its own): none overturned.
-- **List 1, five shared mechanisms:** agreements members cannot make every placer keep; a specified design and the local template; a request for space answered with terms; recording the work; placement ends at hour 73.
-- **List 2:** P21 with A21, and P22, entered tentative. Neither changes which of the four problems its theme reaches. The event's phases and a smaller venue after a failed template were not entered.
-- **List 3, six items:**
-  - what ended at hour 73 (subject; sentence bounded);
-  - what a template can do (substantive; the sharpest; prose amended);
-  - every room before the canvas (substantive, my own error; prose amended);
-  - where authority is questioned (setting; F-006 stands);
-  - one early buffer against A04's order (not a count disagreement);
-  - dating by the hour of a post (a limit).
-- **One change by move:** the prose of Standardization of output and Boundary work amended (C4-move-relating-51). The entries are snapped as C4-move-developing-52. No finding changed.
-- **The handler's placement error (QC4-001).** The field arrived at `field/` in the run root, and the validator reads `out/field`. I linked it. The handler then asked for a real copy, made and checked by sha256. The guard refused to delete the link, so it was renamed `out/_field-link-superseded-C4a` and waits on QC4-002.
-- **The C3c fork's answers,** set aside for a later stage: the C3a Felin and Zenger ruling (setting, not subject); the arrow from the move back to the goal; Visibility returns; Stigmergy's recalled source.
+The field's analyst modelled the event from r/place, sealed from my files. Five mechanisms are shared, and P21, A21 and P22 entered as tentative. The sharpest disagreement is what a template can do, where I trust the field and my rooms over my declaration. No finding changed.
 
-## J on language (C4, 18:20 Berlin; carry into every head)
+## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
 "It is important to me that the language is descriptive." "They should use academic writing. As in White and Strunk. Short cohesive sentences."
-- Ask Orwell's six questions of every sentence.
-- Follow ASD-STE100 about 80% of the time: one idea per sentence, active voice, common words with one meaning, and name the actor and the act.
-- Describe what members did, in what order, in how many rooms, and do not write figures of speech. Keep construct names as names, and gloss each in plain words where it first appears.
-
-This changes how I write, not what I claim.
+- Ask Orwell's six questions.
+- Follow ASD-STE100 about 80% of the time: one idea per sentence, active voice, common words, the actor and the act named.
+- Describe what members did, in what order, in how many rooms, and write no figures of speech. Gloss each construct name in plain words where it first appears.
 
 ## Stage C3, in short
 
-- **C3a.** O'Mahony and Ferraro: setting; F-006 bounded (7 of 39 rooms against 39 of 666, p 0.014 at held size). Olson: open.
-- **C3b.** Conversation analysis (recalled) supplied A12's and A16's mechanisms (F-014). The concept is the preferred acceptance, borrowed; its head-count claim failed (F-015, weak).
-- **C3c.** The four universal problems put to the structure (F-016); the goal (F-017).
+- **C3a.** O'Mahony and Ferraro: a difference of setting; F-006 bounded (7 of 39 against 39 of 666, p 0.014 at held size). Olson: open.
+- **C3b.** Conversation analysis supplied A12's and A16's mechanisms (F-014). The concept is the preferred acceptance, borrowed (F-015).
+- **C3c.** The four universal problems put to the structure (F-016, superseded at C5a-01 in wording). The goal (F-017).
 
 ## Stage C2, in short
 
 - **J's ruling on QC2-002, verbatim:** "from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Work pass 5 from pass 4's state. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the rooms show membership naming the rival in the same turn as the attack, carry it as a claim in their words, marked as untested for order. This is the last closing pass. Close by saying what you are sure of, what you are not, and why."
-- **Pass 1 (C2a-01).** J ruled at 23:24 Berlin: "If I am not back please simply review and make the interview you find appropriate. Then start C2", and "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The connection statement: "the first concept of FROM comes before the first concept of TO", null of 500 shuffles within each room (seed 20261014).
-- **Passes 2 to 5.** Story counts, told / with residue / not told: 0/20/0, 14/18/0, 16/16/0, 11/21/0, 16/19/0.
-- **The reviewer (C2b, C2c).** QC2-001 (the handler, under J's delegation): serving sections of the pass 3 model file is acceptable. Nine errors, six accepted in full, two in part, one refused.
+- **Pass 1 (C2a-01).** J at 23:24 Berlin: "If I am not back please simply review and make the interview you find appropriate. Then start C2", and "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The connection statement: "the first concept of FROM comes before the first concept of TO", null of 500 shuffles within each room (seed 20261014).
+- **The reviewer (C2b, C2c).** QC2-001 (the handler, under J's delegation): serving sections of the pass 3 model file is acceptable.
 
 ## Stage C1, in short (carry the rulings)
 
@@ -125,60 +128,53 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## Open, carried
 
-- **From C4.**
-  - QC4-002, the renamed link.
-  - The tentative P21, A21 and P22, for stage D.
-  - A request for space answered with terms, which is in both sources and not in my model.
-  - Follow-on work after hour 73, which no theme names.
-  - The story still carries the dropped head-count claim.
-  - Declaration prose written at C1 and never tested.
-- **From C3.**
-  - Whether the forms differ on the four universal problems or on the remainder.
-  - The colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]).
-  - Olson, open.
-  - The four declined reads.
-  - One coder for every C3 code and the mapping.
-  - The constructs' C1 sources still recalled.
-- **From C2.** What a mark brings back into its room. The two boundaries for the return. The claim untested for order.
-- **From C1.** Thin constructs (Decided order, Neo-tribes, Symbolic boundaries); `c1_unapplied.jsonl` (5); the form-pass findings, never counted.
-- **From B1.** J counts 841 B1 bags; an older head said 846. Not reconciled.
-- **My doubts.** Where words carry no speaker's sub I read them as the room's own. The verdicts, the vetting coding and the mapping are mine alone.
+- **From C5a-01:**
+  - the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines);
+  - `structure-C4.md`'s prose, now stale beside the ledger;
+  - the dimension declarations;
+  - every code of the Stigmergy read is mine alone.
+- **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, which is in both sources and not in the model; the story's dropped head-count claim.
+- **From C3:** whether the forms differ on the four universal problems or on the remainder; the colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]); Olson, open; the four declined reads.
+- **From C2:** what a mark brings back into its room; the two boundaries for the return; the claim untested for order.
+- **From C1 and B1:** `c1_unapplied.jsonl` (5); the form-pass findings, never counted; the B1 bag counts, not reconciled.
 
 ## Rules kept
 
 - **Checking.**
   - Never type an id, an order or a name from memory; check with a script.
   - Never log a write before the tool answers. Count a ledger's lines after appending.
-  - Check a claim about a ledger against the ledger, and a claim about a paper against the shelf, before writing it.
-  - Keep the field's firm or provisional mark wherever a field claim is used.
+  - Check a claim about a ledger against the ledger, and a claim about a paper or the setting against its source, before writing it. Keep the field's firm or provisional mark.
 - **Logging.**
   - There is no `--kind close` and no `--kind episode`; log those as notes.
   - Log an abductive read with `--kind abductive` before it runs, with its rules written first.
-  - Log a move with `--kind move` and snap it.
-- **Questions.** A question to J is `mem.py ask "<question>" --assume "<meanwhile>"`. Read an answer with `mem.py asks <id>`.
+  - Log every move with `--kind move`, naming its Grodal, Anteby and Holm move, and snap it.
 - **Writing and checks.**
   - Never put a placeholder or a no-op in a command or a log line.
-  - Never put an Edit or Write and the check that verifies it in one turn.
+  - Never put an Edit or Write and its check (a read, a count, a validator run) in one turn.
+  - Never run two writes to the same file as parallel calls.
   - Count the head's words before the closing line. Never write an id-like token the run does not define in the head.
-- **Reading the store.**
-  - Draw from the store with `mem.py codes --fourth/--third ... --json` (label field `first_order`); `mem.py codes --grep <re> --json` searches words.
-  - `mem.py rooms --with <id>` prints plain text, paged at 80 lines; pass `--limit`.
-  - `cite.py` serves by `--room` and `--code`.
+- **Ledger formats.**
+  - In `account_passes.jsonl`, tier events are ledger ids.
+  - A superseding finding's `supersedes` is the bare id.
+  - Every arrow needs `negative_check`.
+- **The store.**
+  - `mem.py codes --third/--fourth ... --json` (label field `first_order`); `mem.py codes --grep <re> --json`.
+  - `mem.py rooms --with <id> --limit 2000`.
+  - `cite.py --room --code`.
   - The theme a reply sits under does not track its stance.
 - **The permission check refuses:**
-  - deleting a file (`rm`), even a link;
-  - shell variables set and expanded; shell loops and words beginning "for_"; shell functions, brace groups and heredocs;
+  - deleting a file, even a link;
+  - shell variables; shell loops and words beginning "for_"; shell functions, brace groups and heredocs;
   - `find -exec` with braces; awk with system() or `$` fields; env-var prefixes;
   - cat or jq on `out/diary/`; `cut -c` after a read; `head -n -N`.
 
   Write a script in `out/_analysis/` instead.
 - **Output limits.** A Bash output above about 30 KB is cut; measure first. A Read above about 25,000 tokens is refused.
 - **After a compaction,** before any other step: read the head and the stage file in full, run `diary --last 5`, and log exactly "compacted; head reconciled" with `--kind note` in a call of its own.
-- **Files.** Never delete a file; supersede it with a new name. A generated document that must keep its name is corrected in place with Edit, and its script is fixed too. The field is read from `out/field`.
+- **Files and stages.**
+  - Never delete a file; supersede it. Read the field only from `out/field`.
+  - Do not begin the next leg, and do not summarise it (AGENT.md).
 
 ## The next comparison
 
-The stage after C4, as its stage file says. Carry into it:
-- the model as `model-C4.md`, the structure as `structure-C4.md`, and the concept as `concept-C3.md`, borrowed and not leaned on;
-- the tentative field entries, which stage D sends to every room;
-- J's ruling on language for every sentence written.
+The next pass of the account against pass 1, under the criterion written in `notes-C5.md` before pass 1, with the model as `model-C4.md`, the declarations as amended at C5a-01, and the concept as `concept-C3.md`.
