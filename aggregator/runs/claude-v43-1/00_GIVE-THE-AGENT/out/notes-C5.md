@@ -629,6 +629,30 @@ Pass 6 changed two elements' statements (P02, P03), the fourth-order tier (Stigm
 
 **Slip, C5c-05.** The head again first named a proposition id. It was reworded before the link check.
 
+## C5c-06: the sixth check pass (pass 10)
+
+**What the pass read.** It read only pass 9's three restorations, as they stand, with no new sweep.
+- **K02:** "The room judges that it has too few hands or too little room for the work it wants…". Its range, "from one member saying there are not enough people to defenders told to give up", runs from one member's voice to the room's.
+- **A10:** "A room that judges it has too few hands to hold its spot stops fighting for it and moves."
+- **P13:** "Near the close and after it, the room decides what of its temporary effort to keep…". The time correction is kept, and the range ends in "a canvas-born collective announcing a group to carry on".
+- **Against the rest of the model.** The account ("Members who judge that the room has too few hands stop fighting for the spot and move, in 11 of 21 rooms [A10, K02, P10]") and N08 say that members voice the judgment and the room moves. That agrees with K02 and A10, since members speak for the room. The account's "groups announced to carry on in 113 of 145 [A09, P13]" agrees with P13's range.
+
+**What the criterion says about pass 10: no change.** No element, arrow, count, finding or cut changed, and no sentence of the account changed.
+
+**The passes stop.** By section 7, pass 10 changed no element and no cut. The passes stop here, and I choose to move to C5d next.
+
+## The close-check, C5c-06
+
+`python3 tools/validate.py C5`, run after the pass 10 line and before the head was rewritten:
+
+```
+stage C5:
+  leg: check; passes 10, propositions 9, elements 30, arrows 21, history lines 119
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-05
 
 `python3 tools/validate.py C5`, run after the pass 9 line and before the head was rewritten:
