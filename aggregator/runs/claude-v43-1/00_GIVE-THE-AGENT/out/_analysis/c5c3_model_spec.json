@@ -1,0 +1,44 @@
+{
+ "elements": {
+  "P04": {"replace": [
+    {"field": "statement", "old": "Members circulate a template or coordinates that fix the output pixel by pixel, ask for them, and hold strays to them.", "new": "Members circulate a template that lays out the mark pixel by pixel, or coordinates that locate it, ask for them, and ask strays to keep to them."},
+    {"field": "range", "old": "to an official template enforced against versions", "new": "to an official template members ask everyone to follow against other versions"}],
+   "why": "T4-008's accepted advice (C5c-02-p2): a template proposes and coordinates locate, neither fixes the output; the quotes show calls to follow, not compliance"},
+  "P07": {"replace": [
+    {"field": "statement", "old": "Rooms spare their neighbours' work without a written agreement, rein in their own attackers,", "new": "Rooms spare their neighbours' work, rein in their own attackers,"}],
+   "why": "T4-015's accepted advice: some records of sparing invoke a treaty or a long peace [xcom/c0113, japan/c0083], so 'without a written agreement' does not hold of the element"},
+  "P08": {"replace": [
+    {"field": "statement", "old": "Rooms settle borders, truces and deals with neighbours by talk, through envoys, hold each other to them and dispute them.", "new": "Rooms propose, settle and contest borders, truces and deals with neighbours by talk, through envoys, and hold each other to them."}],
+   "why": "T4-016's accepted advice: the quotes show proposals, invocations and disputes, not only deals settled"},
+  "P09": {"replace": [
+    {"field": "statement", "old": "griefing for fun.", "new": "altering a work as a joke."}],
+   "why": "T4-020's and D08's accepted advice: 'for fun' is a motive; the quote shows a joke alteration [cardinals/c0065]"},
+  "P13": {"replace": [
+    {"field": "range", "old": "to a canvas-born collective carried into a lasting group", "new": "to a canvas-born collective announcing a group to carry on"}],
+   "why": "T4-028's and T4-023's accepted advice: an announced group is shown, a lasting one is not"},
+  "P14": {"replace": [
+    {"field": "statement", "old": "Members multiply their hands beyond the rate limit with scripts, bots and extra accounts, and the room governs these machine hands.", "new": "Members add placements with scripts, bots and spare accounts, and the room argues over these machine hands and adjusts them."}],
+   "why": "D01's and T4-009's accepted advice: a script places within its account's limit and does not multiply accounts; spare accounts add placements; the room argues over scripts and switches or edits them"},
+  "C01": {"replace": [
+    {"field": "statement", "old": "Rooms aligned their placers mostly without deciding how they were organized: a decided element of order (a leader, a vote, an oath, a sanction, a division of the work) appears in few rooms, and the question who is in charge is almost never asked.", "new": "Most rooms worked on their marks without deciding how they were organized: a decided element of order (a leader, a vote, an oath, a sanction, a division of the work) is coded in 46 of 705 rooms (F-006)."},
+    {"field": "range", "old": "to canvas-born factions holding elections", "new": "to colour factions holding elections"}],
+   "why": "T4-011's accepted advice, from both readers: 'almost never asked' rested on nothing counted; D02's: the quotes show attempts to align, not alignment; T4-023's: when the factions began is not shown"},
+  "K01": {"replace": [
+    {"field": "statement", "old": "fakes, takeovers and the one-day licence fill the room, and every claim in it, a call to the canvas included, may be a joke.", "new": "members post fakes and takeovers under the one-day licence, and a claim in it, a call to the canvas included, may be a joke."}],
+   "why": "T4-001's accepted advice: 'a whole sub keyed for a day' claims more than the styling and posts show, and members ask whether a post is meant"}
+ },
+ "arrows": {
+  "A01": {"replace": [
+    {"field": "mechanism", "old": "who then start or extend the mark and say how far it has come.", "new": "who then build the mark and say how far it has come."}],
+   "why": "Stigmergy's recut (C5c-02-p2): extending the work moved to P02, so P03 is building and reporting"},
+  "A11": {"replace": [
+    {"field": "mechanism", "old": "a template that fixes the agreed design pixel by pixel.", "new": "a template that lays out the agreed design pixel by pixel."}],
+   "why": "T4-008's accepted advice: a template proposes a pixel arrangement; it does not fix the output"},
+  "A12": {"replace": [
+    {"field": "mechanism", "old": "declining is the dispreferred answer and comes with a reason.", "new": "declining is the dispreferred answer and, in conversation analysis, comes with a reason."}],
+   "why": "the mechanism is the literature's (from-literature); F-014 counted it on replies to attack calls, not calls to place"},
+  "A16": {"replace": [
+    {"field": "mechanism", "old": "refusing is the dispreferred answer, so it comes with a reason,", "new": "refusing is the dispreferred answer, so it usually comes with a reason (23 of 38 read pairs, F-014),"}],
+   "why": "F-014's own numbers: refusals gave a reason in 23 of 38 read pairs, not always"}
+ }
+}

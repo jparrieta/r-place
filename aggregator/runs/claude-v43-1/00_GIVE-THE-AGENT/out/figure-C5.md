@@ -9,7 +9,7 @@ Target length: about 900 words. The figure the readers see at C5b. It is drawn a
 - **What follows (right):** P11 celebration; P12 records (after hour 73, curation of the record); P13 carrying the work on.
 - **The terminus:** a vertical bar at hour 73 crosses the right column. Placement stopped there for every room. P11 and P12 sit on both sides of it; P13 and the curation of the record sit after it.
 - **Beside the figure, not boxes:** the claims C01 (a decided element of order, in 46 of 705 rooms; F-006) and C02 (a tie from before the canvas names the rival; untested for order). They carry no arrow.
-- **K01 is drawn as a box with no arrow.** The model claims no effect of the April Fools play; F-009 found that it did not delay the work.
+- **K01 is drawn as a box with no arrow.** The model claims no effect of the April Fools play; F-009's held-size test found no delay of the work.
 
 ## The arrows
 

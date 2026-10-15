@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5c-02-p2, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 is open. Pass 6 (C5c-02, paused once, resumed as C5c-02-p2) closes with `done.sh C5`; `validate.py C5`: 0 errors, 0 warnings. Pass 6 changed elements and the fourth-order tier, so by section 7 another pass is due.
+Under 3,000 words, rewritten whole at every close. Last written at C5c-03, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. Stage C5 is open. Pass 7 (C5c-03) closes with `done.sh C5`; `validate.py C5`: 0 errors, 0 warnings. Pass 7 changed eight element statements, so by section 7 another pass is due.
 
 ## The method question, in one sentence
 
@@ -17,7 +17,7 @@ The account is `account.md`, pass 6 (2,437 words; passes 1, 3, 4 and 5 kept as `
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
 - **Alignment without decision** (theorised, thin). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
 - **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]. Where border talk came first, it mostly offered terms before any damage (34 of 38 read). Members also trade help [A13, A14] and join coalitions [A19]. Members make agreements without the power to make every placer keep them.
-- **The contest.** A call can turn members against a rival [A15]. The same room answers the attack call by refusal with a reason or by truce [A16, A17; F-014].
+- **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17]; refusals usually give a reason (F-014).
 - **Loss** (thin). A room that judges it has too few hands moves [A10]. No loop is grounded.
 - **The close.** Members celebrate, record and carry the work on [A07, A08, A09]. Placement stops at hour 73 for every room. After it, members curate the record (P12; P22 tentative), apart from carrying on (P13).
 - **Machine hands.** Scripts follow upkeep under strain [A06].
@@ -44,14 +44,15 @@ The account is `account.md`, pass 6 (2,437 words; passes 1, 3, 4 and 5 kept as `
 - **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part; none recovered c3 or c8. Their cardinals verdict came from 7 passages, a packet error. Ten errors were fixed and 34 sentences rewritten.
 - **J, 11:02 Amsterdam.** The field analyst's 117 "not standing" marks are advice to improve, not evidence that the model fails to apply. The handler: change a sentence where the advice convinces me, keep it otherwise with a line, and report both; the Stigmergy decision is mine.
 - **C5c-02 (pass 6).** Stigmergy was recut by three codings (moves 93 to 95), with A01, A03, A07 and A11 recounted (A01 strong to fair; all still beat their nulls), F-016 superseded and F-018 written. On the declarations I accepted 94 pieces of advice and kept 30 (23 lists of member themes), amending 35 declarations (moves 96 to 130). The fleet and the field agree on 21 of their 40 shared sentences.
+- **C5c-03 (pass 7).** Eight element statements, four arrow mechanisms and three propositions took the wording pass 6 accepted (moves 131 to 142).
 
 ## Where the run stands
 
 - **C5 outputs:** `account.md` (pass 6) and its earlier passes, `propositions.jsonl` (9; pass 5 as `propositions-p5.jsonl`), `prose-test-C5.md` (36 pass, 4 flagged), `sketches.md` (five arrangements), `account_passes.jsonl` (6 lines), `notes-C5.md`.
 - **C5b outputs:** `figure-C5.md` (a draft; drawn again at C5d), `author_claims.jsonl` (9), `RETURN-C5.md` (plus `declarations` and `codes`), `_packets-C5/` (3, under 51,200 bytes), the C5 entry in `run_manifest.json`; scripts `out/_analysis/c5b_*`.
-- **C5c-01 outputs:** `readers-C5/` (the three returns), `account-readers-C5.md`, `field-packages-C5/` (13 files, 268 sentences, 72 records), `account_passes.jsonl` (5 lines); scripts `out/_analysis/c5c_*`. The dispatch's ~54,000 bytes is the packet plus `RETURN-C5.md` beside it.
-- **Ledgers:** `tier_history.jsonl` 554, `model/history.jsonl` 100, `findings.jsonl` 28 lines (18 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
-- **Snaps** run to C5-move-developing-130. The scripts are `out/_analysis/c5_*`, `c5b_*`, `c5c_*` and `c5c2_*`.
+- **C5c-01 outputs:** `readers-C5/` (the three returns), `account-readers-C5.md`, `field-packages-C5/` (13 files, 268 sentences, 72 records); scripts `out/_analysis/c5c_*`.
+- **Ledgers:** `tier_history.jsonl` 554, `model/history.jsonl` 112, `findings.jsonl` 28 lines (18 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
+- **Snaps** run to C5-move-developing-142. The scripts are `out/_analysis/c5_*`, `c5b_*`, `c5c_*` and `c5c2_*`.
 - **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
 - **The questions.** QC5-001 is answered; its field reading is out. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
@@ -163,4 +164,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The next pass sets the account, the declarations and the model as they stand after pass 6 against pass 6, under the criterion written before pass 1. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.
+The next pass reads pass 7's twelve changes as they stand, against pass 7, under the criterion written before pass 1. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.

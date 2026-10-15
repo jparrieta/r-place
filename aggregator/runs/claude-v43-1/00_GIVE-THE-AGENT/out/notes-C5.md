@@ -512,6 +512,63 @@ Pass 6 changed two elements' statements (P02, P03), the fourth-order tier (Stigm
 - **A word count logged wrong.** The diary line on the account's second part gives 2,425 words; the file has 2,437.
 - **The pause.** The PI's pause came mid-pass. Nothing was written to a ledger before the pause log.
 
+## C5c-03: the third check pass (pass 7)
+
+**What the pass read.** It read the model as pass 6 left it, together with every file that carries it, for anything pass 6 changed in one place and not in another: the elements, the arrows' mechanisms, the propositions, the figure, the mapping, the prose test and the account.
+
+**What it found.** Pass 6 corrected over-reaching wording in the declarations and the account, but the model's own statements still carried the same claims.
+- **Eight element statements:**
+  - P04: a template that "fixes" the output, and members who "hold strays";
+  - P07: sparing "without a written agreement";
+  - P08: rooms that "settle" deals;
+  - P09: "griefing for fun";
+  - P13's range: "a lasting group";
+  - P14: "multiply their hands beyond the rate limit";
+  - C01: "almost never asked", which both readers rejected;
+  - K01: the play that "fills the room".
+- **Four arrow mechanisms:**
+  - A01: "start or extend", though extending moved to P02;
+  - A11: a template that "fixes" the design;
+  - A12 and A16: a reason that always comes with a refusal, against F-014's 23 of 38.
+- **Three proposition fields:**
+  - N01's count without joining lines: 132 of 189, now 78 of 126, with 50 rooms of replies, not 70;
+  - N03: "refuse it with a reason";
+  - N07: "align", and its F-006 boundary.
+- **The figure's K01 line,** which said F-009 found that the play "did not delay the work".
+
+**What it did, by the rule logged first.** Each item takes the wording already accepted in the declaration or finding it repeats, and nothing new is claimed.
+- Twelve moves, one per element or arrow (C5-move-developing-131 to 142), each with a `model/history.jsonl` line keeping the old line.
+- The three proposition fields were edited in `c5_propositions.json`, and `propositions.jsonl` was regenerated. Pass 6's copies are kept as `c5_propositions-p6.json` and `propositions-p6.jsonl`. Only N01, N03 and N07 changed, with the mechanisms carried from the four arrows.
+- The figure was written again.
+- **Kept as historical records:**
+  - K01's `cut_cost` (C5a-02);
+  - the mapping line's `was_why`;
+  - the prose test's C5a-01 entry;
+  - `author_claims.jsonl` as served to the readers, whose c2 says refusing "comes with" a reason.
+
+**What the criterion says about pass 7: prefer.**
+1. **Unmarked over-reaching sentences: fewer.** Fifteen statements in the model now claim what their support carries.
+2. **Rooms told:** unchanged, with the same 23 elements.
+3. **Tested arrows:** every one kept; no count changed.
+4. **The prose test:** unchanged.
+5. **The readers:** they do not run again.
+
+**What is due next.** Pass 7 changed eight element statements, so by section 7 a further pass is due. It reads pass 7's changes as they stand.
+
+**Slip, C5c-03.** The head first named three proposition ids, which the link check does not resolve. It was reworded before the close.
+
+## The close-check, C5c-03
+
+`python3 tools/validate.py C5`, run after the pass 7 line and before the head was rewritten:
+
+```
+stage C5:
+  leg: check; passes 7, propositions 9, elements 30, arrows 21, history lines 112
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5c-02-p2
 
 `python3 tools/validate.py C5`, run after the pass 6 line and before the head was rewritten:
