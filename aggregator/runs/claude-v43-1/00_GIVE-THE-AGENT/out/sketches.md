@@ -83,6 +83,18 @@ NOT DRAWN           A21 (tentative, from the field; no proposition)
 
 **What it hid.** It hid the counts on each arrow and the order on the clock. It also hid that N03 chains four arrows with different mechanisms. Only A16 and A17 share one, the contest answered by the order between rooms.
 
+## 5. Pass 3 (C5a-03): the tier drawing with K01 restored
+
+```
+CONDITIONS          K01 April Fools play, beside the work (no arrow; F-009)
+                    K02 doubt about hands --A10 (N08, thin)--> P10 move
+MEDIATORS and WHAT FOLLOWS: as in arrangement 4
+```
+
+**What it showed.** The conditions side holds two elements. K01 carries no arrow: the model says the April Fools play ran beside the work and did not delay it (F-009), not that it brought anything about. Restoring K01 keeps ten told story rooms told.
+
+**What it hid.** A condition with no arrow cannot be drawn by the rule that every drawn arrow carries a proposition. The figure at C5d must show K01 as a box with no arrow and say why, or leave it out and say so.
+
 ## What the three drawings agree on
 
 All three keep the spine from the start through calls, building and keeping, then the neighbours, the contest, the close at hour 73 and what follows it. The account rests on the second arrangement, by tier, with the clock of the first written into its last section. The third arrangement supplies the rooms told upward.

@@ -190,6 +190,43 @@ Pass 2 changed three elements' status, so by section 7 another pass is due befor
 - **Parallel edits.** Two Edits to `account.md` ran as parallel calls. Both landed, and a later turn checked them.
 - **Proposition ids in the head.** The head first named N01 to N09, which the link check does not resolve. They were replaced by the propositions' names before the close.
 
+## Pass 3 (C5a-03): the cuts read against the story rooms
+
+**What the pass did.**
+- **The scan.** I scanned the 35 pass 5 story rooms (`story_rooms-p5.jsonl`) for tellings that used a cut element, by id and by the words that stood for each: attribution, tracing and blame for P06; April Fools and prank for K01; envoy, diplomat and ambassador for R02.
+- **What it found.**
+  - **K01:** the April Fools frame is told through K01, beside the work, in 16 story rooms. Ten of them are among the 16 told with no residue: ubc, ultrahardcore, CKCrusaders, cardinals, completeanarchy, lakers, rpi, unitedkingdom, NieR and bannedfromanime_irl. For example: "The April Fools swap with SFU runs beside the work" (ubc).
+  - **P06:** no telling rested on it.
+  - **R02:** no telling rested on it. One residue room, starcitizen, names an ambassador, and it carries a residue for another reason.
+- **What would follow from the K01 cut.** With K01 out of the model, the frame in those ten rooms would be residue, as Visibility returns was carried as residue at C2. The account would then tell 6 rooms with no residue, not 16.
+- **The decision.** The criterion, written before pass 1, ranks rooms told without a residue above fewer elements. So the K01 cut is reversed (C5-move-developing-92), and K01 stands again with no arrow. P06 and R02 stay cut. 23 elements stand.
+- **The pass 2 line.** It now records K01 under `cut_then_reversed`, with the pass that reversed it.
+- **The account and the sketch.** The account tells the frame beside the work (368 rooms, 88 testing whether a post was meant; F-009) and names K01 in ultrahardcore. The fifth arrangement in `sketches.md` shows the conditions side with K01 and K02.
+
+**What the criterion says: prefer pass 3 over pass 2.** The tie goes to its second item. Pass 3 tells the same 16 story rooms with no residue as the pass 5 story. Pass 2's cut would have turned ten of them into rooms told with a residue. The cost is one more element.
+
+**Section 4, kept over an alternative.** K01 is kept over cutting it, for the reason above. A condition with no arrow is still a statement the model makes: the play ran beside the work in 368 rooms, and it did not delay it (F-009).
+
+Pass 3 changed one element's status, so by section 7 another pass is due before the packets.
+
+**Slip, C5a-02, found at C5a-03.** I cut K01 at pass 2 without first reading the story rooms against the cut. The criterion, written before pass 1, names the story rooms as its second test. I applied it after the cut, not before.
+
+**Slips, C5a-03.**
+- **A miscount.** The pass 3 notes first said the frame is told in 17 story rooms. The scan printed duplicate lines, and a script then counted 16.
+- **Parallel edits.** Two Edits to the head ran as parallel calls. Both landed, and a later turn checked them.
+
+## The close-check, C5a-03
+
+`python3 tools/validate.py C5`, run after the pass 3 line and before the head was rewritten:
+
+```
+stage C5:
+  leg: build; passes 3, propositions 9, elements 30, arrows 21, history lines 94
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
+
 ## The close-check, C5a-02
 
 `python3 tools/validate.py C5`, run after the pass 2 line and before the head was rewritten:

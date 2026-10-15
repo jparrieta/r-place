@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5a-02, 2026-10-15 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open: pass 2 (C5a-02) closes with `done.sh C5`. `validate.py C5` before this close: 0 errors, 0 warnings. Pass 2 changed three elements' status, so by section 7 another pass is due before the packets. The handler (under J's delegation) left the choice of passes and the move to C5b to me.
+Under 3,000 words, rewritten whole at every close. Last written at C5a-03, 2026-10-15 (UTC). This branch was made from claude-v43-1 after C3c, with no file overrides. Stages A1 to C4 are done; stage B is frozen. Stage C5 (the account) is open: pass 3 (C5a-03) closes with `done.sh C5`. `validate.py C5` before this close: 0 errors, 0 warnings. Pass 3 restored one element (K01), so by section 7 another pass is due before the packets. The handler (under J's delegation) left the choice of passes and the move to C5b to me.
 
 ## The method question, in one sentence
 
@@ -10,7 +10,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The current account, and the contrary rooms
 
-The account is `account.md`, pass 2 (1,631 words; pass 1 kept as `account-p1.md`). The nine propositions are in `propositions.jsonl`.
+The account is `account.md`, pass 3 (1,698 words; pass 1 kept as `account-p1.md`). The nine propositions are in `propositions.jsonl`.
 - **The spine.** A member starts a mark [R01]. Calls follow the start in 64 of 89 rooms [A02], building follows calls in 137 of 190 [A01], and keeping follows building in 182 of 291 [A03].
 - **The bare answer.** Members answer a call in one line that gives no reason. This is conversation analysis's preferred acceptance, the run's concept, borrowed (F-014). Its head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
@@ -21,7 +21,7 @@ The account is `account.md`, pass 2 (1,631 words; pass 1 kept as `account-p1.md`
 - **The close.** Members celebrate, record and carry the work on [A07, A08, A09]. Placement stops at hour 73 for every room. After it, members curate the record (P12; P22 tentative), apart from carrying on (P13).
 - **Machine hands.** Scripts follow upkeep under strain [A06].
 - **C02** (untested for order): a tie from before the canvas names the rival in the attack turn.
-- **Cut at C5a-02 to candidate:** P06 (attribution), K01 (the April Fools frame), R02 (the envoy). 22 elements stand. Every standing process and condition carries an arrow.
+- **Cut at C5a-02 to candidate:** P06 (attribution) and R02 (the envoy). K01 (the April Fools frame) was cut at C5a-02 and restored at C5a-03: ten of the 16 told story rooms tell the frame beside the work through it. K01 carries no arrow (F-009). 23 elements stand.
 
 **The room that best supports the account: day9.** It offers a neighbour terms before any damage, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
 
@@ -46,13 +46,14 @@ The account is `account.md`, pass 2 (1,631 words; pass 1 kept as `account-p1.md`
   - The P08 test bounded A04 (move 88).
   - P06, K01 and R02 were cut for want of an arrow (moves 89 to 91).
   - The nine propositions were written, and the account was cut to two pages with the four mistaken-for differences stated.
-- **The criterion** (written before pass 1, `notes-C5.md`) prefers pass 2 over pass 1: fewer unmarked causal sentences, the same rooms told with fewer elements, every tested arrow kept.
+- **C5a-03 (pass 3).** The cuts were read against the 35 pass 5 story rooms. K01's cut was reversed (move 92), because without it ten told rooms would carry the April Fools frame as residue. P06 and R02 stay cut, since no telling rested on them. The pass 2 line records K01 under `cut_then_reversed`.
+- **The criterion** (written before pass 1, `notes-C5.md`) prefers pass 3 over pass 2: the same 16 story rooms told with no residue, at the cost of one element.
 
 ## Where the run stands
 
-- **C5 outputs:** `account.md`, `account-p1.md`, `propositions.jsonl` (9), `prose-test-C5.md` (36 pass, 4 flagged: Critical mass, Live and let live, Reciprocity, Collective efficacy), `sketches.md` (four arrangements), `account_passes.jsonl` (2 lines), `notes-C5.md`.
-- **Ledgers:** `tier_history.jsonl` 515, `model/history.jsonl` 93, `findings.jsonl` 26 lines (17 findings), `model/elements.jsonl` 30 (22 standing), `model/arrows.jsonl` 21.
-- **Snaps** run to C5-move-dropping-91. The scripts are `out/_analysis/c5_*`.
+- **C5 outputs:** `account.md` (pass 3, 1,698 words), `account-p1.md`, `propositions.jsonl` (9), `prose-test-C5.md` (36 pass, 4 flagged: Critical mass, Live and let live, Reciprocity, Collective efficacy), `sketches.md` (five arrangements), `account_passes.jsonl` (3 lines), `notes-C5.md`.
+- **Ledgers:** `tier_history.jsonl` 515, `model/history.jsonl` 94, `findings.jsonl` 26 lines (17 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
+- **Snaps** run to C5-move-developing-92. The scripts are `out/_analysis/c5_*`.
 - **Still to do in C5,** with reasons in `notes-C5.md`:
   - the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines);
   - `structure-C4.md`'s prose, stale beside the ledger, so the C5b packets build declarations from the ledger;
@@ -170,4 +171,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The next pass of the account against pass 2, under the criterion written in `notes-C5.md` before pass 1. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.
+The next pass of the account against pass 3, under the criterion written in `notes-C5.md` before pass 1. The model is `model-C4.md` with the C5 cuts, the declarations as amended at C5a-01 and C5a-02, and the concept as `concept-C3.md`.

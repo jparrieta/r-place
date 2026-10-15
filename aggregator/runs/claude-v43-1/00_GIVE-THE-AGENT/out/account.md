@@ -1,12 +1,14 @@
 # The account, pass 2 (C5a-02)
 
-Target length: about 1,650 words, two pages. This is the model of `model-C4.md` told as prose, with its declarations as amended at C5a-01 and C5a-02. Pass 1 is kept as `account-p1.md`.
+Target length: about 1,700 words, two pages. Pass 3 (C5a-03) restored K01. This is the model of `model-C4.md` told as prose, with its declarations as amended at C5a-01 and C5a-02. Pass 1 is kept as `account-p1.md`.
 
 An id in brackets names an element or arrow; N01 to N09 are the propositions in `propositions.jsonl`. "137 of 190" counts the rooms where an order holds, out of those carrying both elements; each order beats a null of 500 shuffles within each room unless called thin or theorised. Hours run from the canvas's opening; placement ended at hour 73. The 705 subreddits are called rooms.
 
 ## From the population down
 
 **A start and calls (N01).** A member proposes a mark, maps it, or places it alone first [R01]. Calls for hands follow the start in 64 of 89 rooms [A02]. Each account could place one pixel per interval, and no one could order another to place, so a picture needed many members placing [P01]. After a call, members report what they built in 137 of 190 rooms [A01]. "Help us draw Metroid over at /r/place!" [metroid/c0001, h4.27] was answered two minutes later with the location [metroid/c0002, h4.29].
+
+**April Fools beside the work.** The canvas opened on April Fools' Day. In 368 rooms, members played April Fools in their own sub, and in 88 rooms they asked whether a post was meant [K01]. Across rooms, the play did not delay the canvas work (F-009).
 
 **The bare answer.** Members answer a call in one line that commits them and gives no reason: "LETS CREATE THE DESTINY LOGO IN THE CENTER OF r/Place" [DestinyTheGame/c0002, h3.03], then "I'm in" [DestinyTheGame/c0008, h3.91] [P15, A12]. This is the run's concept, borrowed from conversation analysis as the preferred acceptance (recalled: Schegloff and Sacks 1973; Pomerantz 1984). A call makes an answer due; joining needs no reason, and refusing comes with one (F-014). Its earlier claim, that the replies show a room its numbers, failed its test (F-015, weak).
 
@@ -32,13 +34,13 @@ An id in brackets names an element or arrow; N01 to N09 are the propositions in 
 
 **ubc, an ordinary room.** Members called for hands [ubc/c0013, h17.35] [P01], refused to attack a neighbour: "No, they didn't mess with us and we won't mess with them." [ubc/c0065, h55.82] [A16], kept a border by agreement [ubc/c0076, h59.20] and ran spare accounts under strain [ubc/c0090, h65.71] [A06].
 
-**ultrahardcore, the odd room.** April Fools play filled the room until hour 40 (Keying, now outside the model as the candidate K01). Across rooms, that play did not delay the canvas work (F-009). At h57.58 a member asked for a design [ultrahardcore/c0202] [R01]. Within half an hour the thread had a proposal, a template and an order: "Make it completely red first." [ultrahardcore/c0209, h58.05] [A11]. A member proposed taking over other works' hearts, and another spared one [ultrahardcore/c0203, c0206] [A15, A16]. At the close: "We almost did it! (/r/place)" [ultrahardcore/c0212, h73.07]. The room ran the same steps in one thread, late, with no neighbour and no upkeep.
+**ultrahardcore, the odd room.** April Fools play filled the room until hour 40 [K01]. Across rooms, that play did not delay the canvas work (F-009). At h57.58 a member asked for a design [ultrahardcore/c0202] [R01]. Within half an hour the thread had a proposal, a template and an order: "Make it completely red first." [ultrahardcore/c0209, h58.05] [A11]. A member proposed taking over other works' hearts, and another spared one [ultrahardcore/c0203, c0206] [A15, A16]. At the close: "We almost did it! (/r/place)" [ultrahardcore/c0212, h73.07]. The room ran the same steps in one thread, late, with no neighbour and no upkeep.
 
 The three rooms share the order from a start through calls to building. They differ in what came after: a loss and a move, an agreement kept, or nothing at all. The counts above give how many rooms took each step.
 
 ## Where the model breaks, and the rooms it cannot reach
 
-The model breaks where a body's faith or a host's rule, and not the work, picks rivals and guests: "We need to attack back. Blue the Purple Corner!" [thebluecorner/c0230, h16.23]; "We DO NOT accept any drawings on our flag in r/place" [catalunya/c0056, h69.26]. It also breaks in late rooms that enter the canvas through another room, and in rooms whose replies the coders did not code. Three elements left the model at C5a-02 because no grounded arrow carried them: attribution (P06), the April Fools frame (K01) and the envoy (R02).
+The model breaks where a body's faith or a host's rule, and not the work, picks rivals and guests: "We need to attack back. Blue the Purple Corner!" [thebluecorner/c0230, h16.23]; "We DO NOT accept any drawings on our flag in r/place" [catalunya/c0056, h69.26]. It also breaks in late rooms that enter the canvas through another room, and in rooms whose replies the coders did not code. Two elements left the model at C5a-02 because no grounded arrow carried them: attribution (P06) and the envoy (R02). The April Fools frame (K01) also carries no arrow. It was cut at C5a-02 and restored at C5a-03, because ten of the story rooms told with no residue tell the frame beside the work.
 
 The pass 5 story told 19 of its 35 rooms with a residue, and the account cannot reach these communities:
 - greenlattice, orderofthebluecorner, purplecorner and thebluecorner: a faith in a colour names the rivals and rules on guests;
