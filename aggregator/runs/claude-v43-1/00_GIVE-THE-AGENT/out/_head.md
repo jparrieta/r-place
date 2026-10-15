@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at C5c-07, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch: four problems, one leg each, then a fold-in leg and C5d again (the plan: `notes-C5.md`, C5c-07). `validate.py C5`: 0 errors, 0 warnings.
+Under 3,000 words, rewritten whole at every close. Last written at C5c-08, 2026-10-15 (UTC). Stages A1 to C4 are done; stage B is frozen. J lifted the C5d freeze for serial work in this branch: four problems, one leg each, then a fold-in leg and C5d again (the plan: `notes-C5.md`, C5c-07 and C5c-08). `validate.py C5`: 0 errors, 0 warnings.
 
 ## The method question, in one sentence
 
@@ -39,24 +39,24 @@ The account is `account.md`, pass 8 (2,463 words; passes 1, 3, 4 and 5 kept as `
   4. The C5 readers are the second reader of the declarations; QC5-001 adds the field analyst.
   5. J's language ruling stands.
 - **Passes 1 to 4 (C5a).** The declarations were amended under the prose rule. A04 was bounded. P06 and R02 were cut; K01 was cut and restored (move 92). Nine propositions were written. The criterion (`notes-C5.md`, written before pass 1) preferred each pass and said "no change" of pass 4.
-- **C5b.** Rooms: cardinals, luciomains, mysterydungeon (7 seeded passages each); 40 sentences and 72 Stigmergy records went to the fleet.
+- **C5b.** The readers' rooms: cardinals, luciomains, mysterydungeon.
 - **J, 15 October.** 07:59 Amsterdam: I decide what comes into the model and what goes out, by my own criterion. 08:35 and 09:09 (QC5-001): the field analyst reads all 36 declarations whole against the members' quotes.
 - **C5c-01 (pass 5).** The readers recovered 4 of my 9 claims whole and 3 in part. Ten errors were fixed and 34 sentences rewritten.
 - **J, 11:02 Amsterdam.** The field analyst's marks are advice, not evidence the model fails; the Stigmergy decision is mine.
 - **C5c-02 (pass 6).** Stigmergy recut by three codings (moves 93 to 95); four arrows recounted (A01 now fair); F-018 written. 94 pieces of advice accepted, 30 kept, 35 declarations amended (moves 96 to 130).
 - **Passes 7 and 8.** Element statements, arrow mechanisms and propositions took the wording pass 6 accepted (moves 131 to 146).
 - **J, 12:01 Amsterdam (advice).** The room is the unit; demote a room claim only where members act apart from it.
-- **C5c-05 (pass 9).** K02, A10 and P13 restored to the room (moves 147 to 149); P12, the quiet-week boundary and "groups announced" kept. `notes-C5.md` holds my answer for C5d on confidence and on what the strict reading cost.
+- **C5c-05 (pass 9).** K02, A10 and P13 restored to the room (moves 147 to 149); P12, the quiet-week boundary and "groups announced" kept. My C5d answer on confidence is in `notes-C5.md`.
 - **C5c-06 (pass 10).** The three restorations read as intended; no change, so the passes stop.
-- **J, 13:45 Amsterdam (C5c-07).** The freeze is lifted for serial work. The border package for a second coder is `field-packages-C5b/`. Findings go to `serial-C5/`; the head at C5d's close is `serial-C5/head-before-serial.md`. QC5-002 asks J for texts.
+- **J, 13:45 and 14:14 Amsterdam (C5c-07, QC5-002).** The freeze is lifted for serial work. Texts are on file; Stigmergy is argued from organization design. The border package is `field-packages-C5b/`; findings go to `serial-C5/`; the head at C5d's close is `serial-C5/head-before-serial.md`. Order: the unit, thin evidence, Stigmergy and "aligned", the reason test.
+- **C5c-08 (pass 11).** The room or a group of rooms is again the actor in 5 declarations, 5 elements and 4 arrows (moves 150 to 163): `serial-C5/finding-1-unit.md`.
 
 ## Where the run stands
 
-- **C5 outputs:** `account.md` (last changed at pass 8) and its earlier passes, `propositions.jsonl` (9; earlier passes kept), `prose-test-C5.md`, `sketches.md` (five arrangements), `account_passes.jsonl` (10 lines), `notes-C5.md`.
-- **C5b and C5c outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`.
-- **C5d outputs:** `data_structure-C5.md` (195 rows), `figure-C5.md` (final: 21 boxes, 20 arrows), `implications-C5.md` (ten expectations for the return), `handback-C5.md`, `interview/C5d.md`.
-- **Ledgers:** `tier_history.jsonl` 554, `model/history.jsonl` 119, `findings.jsonl` 28 lines (18 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
-- **Snaps** run to C5-move-developing-149. The scripts are `out/_analysis/c5_*`, `c5b_*`, `c5c_*` and `c5c2_*`.
+- **C5 outputs:** `account.md` (last changed at pass 8) and its earlier passes, `propositions.jsonl` (9; earlier passes kept), `prose-test-C5.md`, `sketches.md` (five arrangements), `account_passes.jsonl` (11 lines), `notes-C5.md`.
+- **C5b to C5d outputs:** `author_claims.jsonl`, `RETURN-C5.md`, `_packets-C5/`, `readers-C5/`, `account-readers-C5.md`, `field-packages-C5/`; C5d's `data_structure-C5.md`, `figure-C5.md`, `implications-C5.md`, `handback-C5.md` and `interview/C5d.md`, to be redone.
+- **Ledgers:** `tier_history.jsonl` 559, `model/history.jsonl` 128, `findings.jsonl` 28 lines (18 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
+- **Snaps** run to C5-move-developing-163. Scripts: `out/_analysis/c5*`.
 - **Still open in C5** (reasons in `notes-C5.md`): the fields the prose rule did not read (`adaptation`, `disconfirm`, the question lines); `structure-C4.md`'s stale prose (the packets took the declarations from the ledger); the P08 codes, mine alone; the four flagged names.
 - **The questions.** QC5-001 is answered; its field reading is out. QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
@@ -168,4 +168,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The next leg works problem 1 of the plan in `notes-C5.md` (C5c-07), on `model/` as pass 10 left it.
+The next leg works the second problem in the revised order (`notes-C5.md`, C5c-08), on `model/` as pass 11 left it.

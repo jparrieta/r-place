@@ -812,9 +812,70 @@ Pass 6 changed two elements' statements (P02, P03), the fourth-order tier (Stigm
   - writes the head, and closes with `done.sh C5`.
 - **C5d again:** it regenerates the data structure, the figure, the implications with their expectations, the handback and the interview from the model the findings leave.
 
+### How each problem serves the two questions (QC5-002, written at C5c-08 before problem 1)
+
+J's answer to QC5-002 (14:14 Amsterdam) asks me to reread the contract's section 1 and say how each problem serves the theory question and the method question. I reread it. Three of its lines bear on this work:
+- "A subreddit is an observation venue, not automatically an organization."
+- "Record rooms that did not organize and organizing that crossed room boundaries."
+- The model has to say four things: how a scattered readership becomes something that can act; how it settles what to act on; what sends a group back to that beginning; and what they leave behind.
+
+How each problem serves the questions:
+- **The unit, problem 1.**
+  - *Method question.* The return composes the global model from room-level case histories (D1 to D3), and stage D4 forms are sets of rooms. A global model that speaks of members cannot compose with them.
+  - *Theory question.* Forms are forms of organizing, and the room, or a group of rooms, is what organizes.
+  - *The contract's limit.* The rule restores the room only where members spoke or acted for it, so no subreddit is assumed to be an organization. Groups of rooms are named where organizing crossed room boundaries.
+- **Thin evidence, problem 3.**
+  - *Theory question.* The move after doubt (A10) is the model's answer to what sends a group back to its beginning. Border talk and what follows it is organizing that crossed room boundaries. These are two of the paths by which rooms differ in what they meet after building.
+  - *Method question.* A thin arrow at the population level may be a strong one inside a form. Where the arrow belongs, at the population or in a branch, is a question of composition.
+- **Stigmergy and "aligned", problem 4.**
+  - *Theory question.* It answers how a scattered readership becomes something that can act: how the room coordinates through the work, and whether many hands were aligned or only asked to align. Stigmergy is mapped to information provision (`mapping-C3.jsonl`), one of the four universal problems of organization design.
+  - *Method question.* A fourth-order theme with one member groups nothing, so construction upward fails at that tier.
+- **The reason test, problem 2.**
+  - *Theory question.* In organization terms, it is how a room settles what to act on: a refusal with a reason contests the room's goal, and an acceptance is often done rather than said. This is J's point on omission against commission.
+  - *Method question.* It serves the method question as a check on evidence of the record's kind: talk records contest more than consent.
+
+**The new order.** None of the four is dropped, since each serves both questions.
+1. The unit stays first.
+2. Thin evidence moves to second. It sets the stance on when a count outweighs my reading of the material, which the Stigmergy choice needs, since T3-060 sits exactly at its rule's line.
+3. Stigmergy and "aligned" move to third.
+4. The reason test moves to last. It serves one of the four things through one mechanism borrowed from outside organization theory, and it is the narrowest.
+
+The finding files keep their numbers by problem, not by order.
+
+**The literature, revised on J's answer.**
+- **Bolici, Howison and Crowston 2016 is dropped.**
+- **Stigmergy is argued from organization design and coordination:** Moffett et al. 2021 (`moffett-et-al-2021-ant-colonies-jod.md`) and Okhuysen and Bechky 2009 (`okhuysen-bechky-2009.md`). Heylighen 2016 and Grassé 1959 stay only as the construct's sources.
+- **For thin evidence, I find the passages myself and cite them from the page:** Gioia, Corley and Hamilton 2013 (`gioia-corley-hamilton-2013.md`) and Grodal, Anteby and Holm 2021 (`grodal-anteby-holm-2021.md`).
+
 **Slips, C5c-07.**
 - **A cut after a read.** I chained `cut -c` after a `mem.py diary` read, and the guard refused it. I reran the search without it.
 - **A drafted addition to the codes.** I drafted two lines under the border codes that restated my doubtful calls. They came from my read, not from the rules written before it, so I removed them before the package was written.
+
+## C5c-08: problem 1, the unit (pass 11)
+
+The finding is `serial-C5/finding-1-unit.md`. In short:
+- **The rule.** It was logged before the read (diary, C5c-08, abductive). The room, or a group of rooms, is the actor where members spoke or acted for it. Members stay where they act apart from the room or the act is a person's.
+- **The restorations.** Five declarations (D02, D07, T4-014, T4-018, T4-028), five elements (P01, P03, P04's range, P05, C02) and four arrow mechanisms (A01, A05, A08, A17) take the room or a group of rooms again (C5-move-developing-150 to 163).
+- **For the fold-in.** 11 proposition sentences and 16 account sentences are listed.
+- **Unchanged.** No count, grounding or status changed.
+- **A check.** In the restored themes, members speak in the first person plural about two to three times as often as in the singular alone. Carrying on is even, and its declaration names both rooms and members on their own.
+
+**What the criterion says about pass 11: prefer.** Items 1 to 3 are unchanged. On item 4, Territoriality and Meta-organization again name what rooms do.
+
+**Slips, C5c-08.** I ran an Edit and a `sed` on `c5c8_unit_sweep.py` as parallel calls. Both landed, since the rerun used the new code.
+
+## The close-check, C5c-08
+
+`python3 tools/validate.py C5`, run after the restorations, the finding and the head were written:
+
+```
+stage C5:
+  data_structure-C5.md: 195 rows, 192 quotes checked
+  leg: check; passes 11, propositions 9, elements 30, arrows 21, history lines 128
+
+
+0 errors (0 distinct shapes), 0 warnings
+```
 
 ## The close-check, C5c-07
 

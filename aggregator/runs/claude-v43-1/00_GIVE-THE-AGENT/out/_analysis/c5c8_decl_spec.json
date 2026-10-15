@@ -1,0 +1,22 @@
+{
+ "D02": {"replace": [{"field": "construct.changed",
+   "old": "It names the ways members tried to align many hands on one picture",
+   "new": "It names the ways a room tried to align many hands on one picture"}],
+  "why": "Pass 6 (D02.changed.2, advice c) moved the actor from 'a room' to 'members' along with 'aligned' to 'tried to align'. The actor is restored; 'tried' stays for problem 4. The room's calls and templates speak for it: 'Ok guys, let's do this. ... HEROES, ASSEMBLE.' [overwatch/c0795]; 'I just made a new template and edited the original post. Just make sure to follow that' [criticalrole/c0051]."},
+ "D07": {"replace": [{"field": "construct.mistaken_for",
+   "old": "what members propose to carry on into later groups.",
+   "new": "what rooms propose to carry on into later groups."}],
+  "why": "Pass 6 (D07.mistaken_for.2, advice c) put members as the actor where the old sentence spoke of what the room passes on. The proposals speak for the room: 'Request to the mods: could we have this preserved in our CSS somewhere?' [fireemblem/c0412]; 'LONG LIVE THE LATTICE!! In the form of the official Steam group' [greenlattice/c1156]. P13 already has the room as its actor (pass 9)."},
+ "T4-014": {"replace": [{"field": "prose",
+   "old": "Members need a place for each mark.",
+   "new": "A room needs a place for each mark."}],
+  "why": "Pass 6 (T4-014.prose.1, advice a) replaced 'The canvas is finite, and a mark needs a place' with members as the actor; the declaration's own later sentences have the room claim space. The claims speak for the room: 'Well, we were here first.' [utahjazz/c0030]; 'We don't take so much space. We just want our small bit and a highway to Czech Republic.' [norway/c0085]; 'You guys took our original spot and we agreed to move out of your way.' [winnipegjets/c0051]."},
+ "T4-018": {"replace": [{"field": "prose",
+   "old": "Members announced alliances and hubs whose members were rooms.",
+   "new": "Rooms announced alliances and hubs whose members were rooms."}],
+  "why": "Pass 6 (T4-018.prose.1, advice c) replaced 'Some bodies on the canvas had rooms as their members' with members as the actor. 'Announced' stays (advice c: no formal bodies shown); the actor is the room or the group of rooms: '/r/nbaplace has been created to coordinate different team subs' [lakers/c0155]; 'From r/ecuador r/colombia and r/vzla please build upwards avoiding us and germany' [belgium/c0134]; 'Now let us defend each other to the end!' [elitedangerous/c0275]."},
+ "T4-028": {"replace": [{"field": "mistaken_for",
+   "old": "the theme holds what members propose to carry on,",
+   "new": "the theme holds what rooms, and some members on their own, propose to carry on,"}],
+  "why": "Pass 6 (T4-028.mistaken_for.1, advice c) put members as the actor where the old sentence spoke of what moves on from the room. Most proposals speak for the room ('Request to the mods: could we have this preserved in our CSS somewhere?' [fireemblem/c0412]; 'Whew lads, we're going to have to ask /r/Sweden for more space.' [maryland/c0269]); one member acts apart from it ('I recreated the entire /r/place in Minecraft' [minecraft/c0188]), so both are named."}
+}
