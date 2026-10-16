@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at D2a, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The model is frozen at pass 15 (e15f9647…b3fecd). Leg D1a built the return; leg D2a checked it. Nothing in the return is yet ruled on.
+Under 3,000 words, rewritten whole at every close. Last written at D3a-01, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). D1a built it, D2a checked it, and D3a-01 ruled R01's 709 lines and revised R01 (move 172), so the model's hash has moved; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -16,14 +16,14 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - "Keep the room, or groups of rooms, as the unit, and keep the contract's two questions in view."
 - **QD1-001 (J, 21:19 Berlin):** an element may sit in two or more dimensions; the check was wrong.
 - **QD2-001 (J, 16 October):** a dimension may stand as the element of restrict, add-condition and add-step; the eight such lines are ruled on as they stand.
+- **J, 16 October, 12:59 Berlin:** absent lines are counted by observation; only observed-absent and not-needed are evidenced, the rest are limits counted apart. Compare repaired and unrepaired rooms where repairs bear on a ruling.
+- **QD3-001 (J):** packets are read whole through a helper; rulings may be batched from a file giving every id its own decision and reason.
+- **QD3-002 (J, 16 October; carry it):** "the analyst is doing induction." I place codes where the population's evidence leads, say why, and ask for the changes I need: "Not the rules bound their understanding."
 
-## The return (D1a, D2a)
+## The return (D1a to D3a-01)
 
-- **D1a, the build.** `prior.md` §7 (`w = 4, 2, 1, 0.5`; `g = 1, 0.5, 0, -1`) and §8 (the concept floor, 10 concepts; the off-platform threshold, 20 pointers, or at least 3 and one for every four concepts) were written first. The model as prose holds 3,591 words. 705 expectations are sealed. Folder hash 61b03bbf…508a5c.
-- **D2a, the check.** 705 rooms returned, none unreturned; 42,243 ledger lines. Of 14,675 absent lines, 67 are evidenced; the rest mark limits of the evidence. 763 lines are non-portable.
-- **The readers.** They split in 163 rooms (23.1%), almost all on composes against with-residue. All 49 cannot-tell lines are supported by the room's numbers. Picturegame is the one room both judged does-not-compose.
-- **The labelers.** They grade every room composes-with-residue. They answer the candidates often: P06 in 564 rooms, K04 in 530, R02 in 500.
-- **Each stage's notes and handback** hold the counts, the split rooms and the defects.
+- **D1a and D2a.** `prior.md` §7 and §8 came first. 705 rooms returned 42,243 lines; of 14,675 absent lines, 67 are evidenced. The readers split in 163 rooms (23.1%). The labelers grade every room composes-with-residue and answer the candidates often (P06 in 564 rooms).
+- **D3a-01, R01.** All 709 lines ruled: accept 668 (87 of them evidence limits), reject 30, particular 10, modify 1. Eleven rooms' corrections met twice on R01's joining clause; move 172 split the clause from the role and left it to P15, A02 and A01. F-017 re-examined, unchanged. Repairs made no difference to the rulings.
 
 ## The current account, and the contrary rooms
 
@@ -49,13 +49,14 @@ The account is `account.md`, pass 15 (3,318 words), with the readers' disagreeme
 
 ## The reasons for the last revisions
 
-- **J's rulings of 15 October, 01:29 Berlin:** work after hour 73 is curation of the record (P12; P22 tentative), apart from carrying on (P13); J's language ruling stands; the others governed C5's passes.
-- **C5.** Passes 1 to 10 amended the declarations (P06 and R02 cut; K01 cut and restored) and took the field analyst's advice (QC5-001; J: the marks are advice, the room is the unit). The serial work (QC5-002) gave F-019 to F-023, folded in at pass 15. C5d-p2 recorded the freeze (QC5-003).
+- **D3a-01, move 172:** R01's statement no longer claims that others join the starter (see the return above).
+- **J, 15 October, 01:29 Berlin:** work after hour 73 is curation of the record (P12; P22 tentative), apart from carrying on (P13).
+- **C5:** passes 1 to 15 (P06 and R02 cut; K01 restored; F-019 to F-023 folded in at pass 15); C5d-p2 recorded the freeze (QC5-003).
 
 ## Where the run stands
 
-- **D1a outputs:** `prior.md` §7 and §8; the stage's notes, model prose, expectations and handback; `handoff-D/`, `verdict-D/`, `sealed/`. Scripts: `out/_analysis/d1*`.
-- **D2a outputs:** the stage's notes and handback; `ingest-D.md`, `adaptations.jsonl`, `verdicts-D.jsonl` and `rooms/<sub>/` (from ingest); the manifest's entry. Scripts: `out/_analysis/d2*`.
+- **D1a and D2a outputs:** each stage's notes and handback; `handoff-D/`, `verdict-D/`, `sealed/`, `ingest-D.md`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`. Scripts: `out/_analysis/d1*` and `d2*`.
+- **D3a-01 outputs:** `adjudications.jsonl`, the stage's notes, `model/history.jsonl` (move 172), `findings.jsonl` 37 lines. Scripts and rulings files: `out/_analysis/d3*`.
 - **C5 outputs:** `account.md` (pass 15), `propositions.jsonl`, `implications-C5.md` (13 expectations), and `handback-C5.md` with the files it names.
 - **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 134, `findings.jsonl` 36 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
@@ -75,8 +76,7 @@ C3 bounded F-006 (Olson open), took A12's and A16's mechanisms from conversation
 ## Stage C2, in short
 
 - **J's ruling on QC2-002, verbatim:** "from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Work pass 5 from pass 4's state. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the rooms show membership naming the rival in the same turn as the attack, carry it as a claim in their words, marked as untested for order. This is the last closing pass. Close by saying what you are sure of, what you are not, and why."
-- **Pass 1 (C2a-01).** J at 23:24 Berlin: "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The connection statement: "the first concept of FROM comes before the first concept of TO", null of 500 shuffles within each room (seed 20261014).
-- **The reviewer (C2b, C2c).** QC2-001 (the handler, under J's delegation): serving sections of the pass 3 model file is acceptable.
+- **Pass 1 (C2a-01).** J at 23:24 Berlin: "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The arrows' order test and its null are in `model/arrows.jsonl`.
 
 ## Stage C1, in short (carry the rulings)
 
@@ -121,8 +121,7 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## Open, carried
 
-- **From D2a:** the labelers' grade never varies; ingest stamps every absent line as specification; the 378 same-session repairs are in no file the run keeps.
-- **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
+- **From D3a-01:** R01 is rewritten, so the rooms relying on it go to the re-check; two paired elaborations (a start shared by a few members; a start handed on) wait for the clustering.- **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
 - **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, in both sources and not in the model.
 - **From C3:** whether the forms differ on the four universal problems or on the remainder; the colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]); Olson, open; the four declined reads.
 - **From C2:** what a mark brings back into its room; the two boundaries for the return; the claim untested for order.
@@ -167,4 +166,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The adaptations and verdicts have arrived, and nothing in them is ruled on. The next comparison is the one the next stage file sets, with the split rooms and the 19 story-miss rooms first (14 with-residue, 4 composes, 1 split).
+The next comparison is the next element group's lines against its element, by the rules in the stage notes; the split rooms and the 19 story-miss rooms (14 with-residue, 4 composes, 1 split) wait for the verdicts leg.

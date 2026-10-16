@@ -154,8 +154,10 @@ def check_model(outdir):
             if not conds:
                 err("model/elements.jsonl %s is bounded and carries no condition ids (bounded_by); a restrict met twice "
                     "bounds the element with the condition ids (§2)" % i, shape="model:bounded", where=i)
-        if e.get("status") == "candidate" and not str(e.get("since") or "").startswith("D3"):
-            err("model/elements.jsonl %s is a candidate without since D3; a candidate is a proposal accepted here (§3)" % i,
+        # a candidate is a proposal accepted here, or (J, 2026-10-16, QD3-002) an element cut from the model to
+        # candidate at an earlier stage, its since naming that stage; the analyst rules on it as its knowledge warrants
+        if e.get("status") == "candidate" and not str(e.get("since") or "").startswith(("D3", "C", "B")):
+            err("model/elements.jsonl %s is a candidate whose since names neither D3 nor the earlier stage that cut it (§3)" % i,
                 shape="model:candidate", where=i)
     hist = jsonl(os.path.join(md, "history.jsonl"))
     ids = set()

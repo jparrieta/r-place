@@ -198,10 +198,16 @@
       "sha256": "5d766b56449e71478e46e15ccb0e616c8cc7e0c36f2acc04cc1c553a7c2039a5",
       "why": "QD2-001, J 2026-10-16 11:25 Berlin, option 1: a dimension may stand as the element of restrict, add-condition and add-step as well as link; D3 rules on those lines as they stand",
       "utc": "2026-10-16T09:26:24.832097+00:00"
+    },
+    "CONTROL/harness/validation_tools/checks/stage_D3.py": {
+      "before_sha256": "1f7fecc75c3de8dd23a7f36189537507679e563cc4eae9e8f3def32f4f99ca4b",
+      "sha256": "0518c29efbd3c70ca76b994da4879e109fa7070ccfb442353d142dde8b54da98",
+      "why": "QD3-002, J 2026-10-16 13:56 Berlin: the analyst does induction and places codes where it sees fit; the check admits a candidate cut from the model at an earlier stage (since naming that stage), not only one accepted at D3",
+      "utc": "2026-10-16T11:57:11.105310+00:00"
     }
   },
   "deliveries": "ec476e326ad3e100f9a572ae030d69615d4f9ff21ef9d1b49c2212be2290bc20",
-  "trusted": "a59fe35923ca8f7d18cf385bda9955170b5c52f51cb236a75f9427f52097d141",
+  "trusted": "4bebe15ef00f6deff5fae1c9fbb9659ab0e56a9e54ca74f3a9dc86ff4498ef74",
   "baseline": "f11fa9c5cefcc4afaf59edd990db5987a5d06c181e19b78d432c7b647d05d991",
   "inputs_version": 2,
   "sealed_utc": "2026-10-14T22:35:40.486324+00:00"
