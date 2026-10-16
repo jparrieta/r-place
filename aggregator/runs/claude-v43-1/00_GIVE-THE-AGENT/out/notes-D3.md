@@ -67,6 +67,22 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **The version kept, and damage as history.** P22 is shown where members set one version against another as the one that stands, where they propose keeping the damaged version in the room's records or keepsakes (sidebar, logo, stickers, poster), or where they argue that the damage is the work's history. A fond or joking reading of a flaw that keeps nothing marks the end (P12).
 
   It applies backwards to every P22 line ruled in the leg. One line changed: starcraft-051, from specification to evidence limit, re-ruled as an appended line.
+- **G14 (logged at D3a-07, before K01's lines were ruled).** K01 is shown when a concept shows the host room's own posting keyed as April Fools play. That covers:
+  - a fake post;
+  - a joke takeover of the room (its name, banner, style, rules or front page);
+  - parody run for the day;
+  - members naming the April Fools licence for what they post;
+  - members doubting that a post, claim or call in the room is meant.
+
+  It is not shown by a concept that only explains r/place as Reddit's April Fools event. Nor is it shown by jokes about the canvas or a neighbour's art with no play in the room's own posting, or by a call to the canvas taken at face value. Under G2, an absent line is rejected when its concepts show K01. K01 is a condition, not a universal claim, so its absent lines are never corrections. Four readings were stated while ruling, logged, and checked backwards. None is an amendment; each says how a clause already written applies.
+  - **The room's own venues.** The room's own chat or bot taken over counts (transformers-018, overwatch-062, rwby-042).
+  - **Pranks run outside the room** (by another room, a creator, a company or a news site). These count only where members in the room engage the prank in an exchange: they play along, test or doubt it, or contest it. A bare share, a single like, praise or grade, or a report of another room's prank is an evidence limit. The contest clause was added at instantiate line 300; no earlier ruling changed.
+  - **Unrun and running jokes.** These are evidence limits unless the record ties them to the day or the takeover ran:
+    - a prank proposed, wished or planned and not shown run;
+    - a family prank recounted;
+    - a bare greeting;
+    - a running joke of the room or the site, such as 'the moderators are asleep', urging rewrites, or 'if this gets N upvotes this becomes a themed subreddit'.
+  - **G1b's draws.** A drawn line is unsupported when its quotes change the ruling that its how and labels would get.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -617,3 +633,93 @@ No entry stays tentative past the freeze.
 ### Close-check, D3a-06
 
 `validate.py D3` reports 6,685 of 42,243 ledger lines ruled: R01's 709, P01's 1,021, P02's 1,070, P05's 1,092, P04's 1,034, P12's 977 and P22's 782. It reports 0 errors and 2 warnings. Both warnings are history lines 137 and 138, which name move 174 'stabilizing'. They stay as written, and line 139 records the correct name. All 81 pairs in P12's files and all 15 in P22's name a line of the same element (`_analysis/d3_pair_check.py`). The ledger holds 6,702 lines, 17 of them appended re-rulings across the legs. History holds 139 lines, elements 30 and arrows 21.
+
+## D3a-07: K01, Keying (April Fools)
+
+K01 stands alone in T4-001. Its statement reads: 'The host sub is keyed as play for April Fools: members post fakes and takeovers under the one-day licence, and a claim in it, a call to the canvas included, may be a joke.' Its range runs from one fake post in an ordinary sub to a sub given over to parody for a day and a half. It was cut at C5a-02 and restored at C5a-03, and no finding touches it. All 1,234 lines are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py` and from phrase counts over my own reasons.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 595 | 532 | 0 | 0 | 0 | 15 | 48 |
+| absent (297 `unobserved`, 24 `not-testable`) | 321 | 0 | 0 | 0 | 320 | 1 | 0 |
+| add-step | 196 | 35 | 146 | 0 | 11 | 4 | 0 |
+| restrict | 67 | 49 | 0 | 0 | 18 | 0 | 0 |
+| add-condition | 50 | 2 | 44 | 0 | 4 | 0 | 0 |
+| link | 5 | 2 | 2 | 0 | 1 | 0 | 0 |
+| all | 1,234 | 620 | 192 | 0 | 354 | 20 | 48 |
+
+K01 is shown in 352 of 705 rooms (an accepted specification or elaboration). In 339 of them an instantiate line is accepted.
+
+**What the accepted instantiate lines show.** By phrase count over the 532 reasons (a line may carry more than one form):
+- **Fakes posted or run in the room: 268.** These include fake news, fake releases, bait, hoaxes and rickrolls.
+- **A takeover or restyle of the room: 202.** The room's name, banner, style, rules, front page, bot or chat was taken over.
+- **A claim doubted or tested as a joke: 110.**
+- **The licence named for what a member posts: 17.**
+
+98 lines sit at K01's lower range: one fake, a named licence, or one doubt. The upper range holds whole rooms given over to another game, club or university for the day. Examples are uoft and uwaterloo swapping rooms, greenbaypackers' one-name front page, and totallynotrobots' day-long pretence. In 16 accepted lines, a canvas call or canvas work sits beside the play and is kept apart from it.
+
+**Restrict and add-condition: no correction.** The 67 restrict and 50 add-condition lines mostly say that the April Fools frame stayed local and that canvas calls were meant. K01 says only that a claim 'may be' a joke, so under G9 these lines correct nothing. They are specifications where they show the play, evidence limits where they do not, and paired elaborations where a second room shows the same condition.
+
+**The 192 elaborations, by family** (all paired; the counts are lines, then rooms):
+
+| family | lines | rooms | examples |
+|---|---|---|---|
+| a claim tested as a joke, or a literal reading repaired by the date | 33 | 29 | AMD-040, kpop-021, mariokart-010 |
+| the licence bounded, policed or contested; the jokes judged | 28 | 26 | bostonceltics-026, stargate-055, rush-044 |
+| the play's end marked, or the play outlasting its day | 22 | 21 | MMA-047, dankmemes-059, rwby-047 |
+| the takeover resisted, resented or switched off; its cost | 15 | 13 | chelseafc-049, nbaspurs-027, worldoftanks-048 |
+| the frame kept to its posts; canvas calls and work kept apart | 12 | 12 | 2007scape-045, HomestarRunner-041 |
+| a fake as the premise of sincere talk; play and sincere talk interleaved | 12 | 12 | dallasstars-041, heroesofthestorm-056 |
+| doubt about the day costs a real claim or call its uptake | 9 | 9 | chicago-046, cardinals-040, reddevils-030 |
+| the takeover's rules enforced or lived inside | 9 | 8 | zelda-031, kerbalspaceprogram-042 |
+| the joke made, or wished, real | 9 | 9 | kanye-039, warframe-059, spacex-011 |
+| interface access: the joke reaches only members whose device shows it | 9 | 9 | cfb-029, rwby-046, picturegame-002 |
+| the frame carrying a sincere act or real activity | 7 | 7 | lego-034, criticalrole-054, gameofthrones-057 |
+| the play reaching outside: votes, searches, other rooms | 6 | 6 | MMA-046, kerbalspaceprogram-044 |
+| a joke taken for real misleads or harms; jokes marked | 5 | 5 | AMD-042, ethereum-032 |
+| the play as a tradition, or kept on record | 5 | 4 | GuildWars2-055, survivor-056 |
+| a prank's offence repaired | 4 | 4 | geometrydash-045, stargate-056 |
+| the play sending members to try what it featured | 4 | 4 | texans-030, zelda-034 |
+| the play entering the canvas talk | 3 | 3 | undertale-046, polandball-007 |
+
+Three pairs name a restrict line ruled specification: magictcg-034 with scotland-035, GuildWars2-055 with scp-046, and lego-034 with bisexual-050. The partner's evidence meets the same elaboration, but its own reading was K01 as stated.
+
+**What the 48 rejects show.** All of them are instantiate lines. By phrase count:
+- **19 show another room's or another source's prank, shared or reported.** Examples are argentina-034, liverpoolfc-043, megaman-047 and berkeley-022.
+- **19 show joking that the record does not tie to the day.** Examples are Slovakia-024, portugal-053, Pigifs-013 and titanfall-046.
+- **7 show a prank proposed, wished or planned, and not run.** Examples are Moondye7-029, gameofthrones-052, startrek-045 and philippines-029.
+- **2 read the canvas as Reddit's event or make a joke call after it closed** (porterrobinson-048, pokemon-030).
+- **1 recounts a family prank** (rangers-026).
+
+**Absent lines.** None was rejected, and none records an evidenced absence. A guard listed 35 evidence-limit lines whose labels share words with K01, and each was read again. Most name the canvas as Reddit's April Fools event (DevonUK-038, msu-044). Others carry jokes, styling or 'fake news' that are not keyed to the room's own play: pgang-021's 'no bamboozles' is at hour 72.6, and soylent-032's 'anyone posting April Fools', at hour 77, means r/place posts.
+
+**Particulars, 20.**
+- **Failing portability (19):**
+  - add-step: giivasunner-059, wine-043, zelda-032;
+  - absent: eder-014;
+  - instantiate: Pigifs-014, brasil-048, chess-023, counting-032, hearthstone-047, kirby-027, linux-049, marvel-029, minecraft-057, nin-039, rit-042, rotmg-030, slovenia-019, vim-029, worldpowers-044.
+- **One room only:** worldpowers-045, where the April Fools frame is invoked to excuse overwriting another group's work, and members dispute it. A search of K01's lines found no second room.
+
+**Re-ruled in this leg.** rotmg-032 moved from specification to reject by an appended line. Its offer, 'if this post gets 500 upvotes', is the site-wide meme that titanfall-046 and truestl-025 were rejected for, and nothing ties it to the room's takeover.
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or contradict line was accepted as a correction. K01 stands as served, and no move was made.
+
+**Repairs (G7).** Repairs made no difference. Repaired rooms were 0.940 accepted (679 lines), and unrepaired rooms 0.951 (555 lines).
+
+**Carried to later groups.**
+- **K01's clause 'a call to the canvas included'.** Doubt reaches a canvas call in three rooms: geometrydash-046 doubts a call for help, cardinals-040 avoids the canvas as a prank, and chicago-046 ignores an invitation. In 28 lines (16 instantiate lines and 12 elaborations), the play is kept apart from canvas calls and work. This is a question for D4, not a correction: the statement says 'may be'. Whether keying lowers the uptake of calls (P01, A02) needs an order test.
+- **The takeover's cost and its switching-off (15 lines) and interface access (9 lines).** These belong beside T4-002, the host's moderation, because most takeovers are the moderators' acts.
+- **The play passing to other rooms and venues (6 lines), and swaps between named rooms.** These are relations between rooms, for the neighbour arrows (A04).
+- **Doubt costing a real claim its uptake (9 rooms).** This is a mechanism K01's statement implies and no arrow carries.
+
+**Disclosed limits and slips.**
+- **Draws.** There were six seeded draws over the instantiate lines, at verb offsets 568 to 1068. Draw three (offset 768) found liverpoolfc-043 unsupported: its how names an April Fools takeover, and its quotes put the swap in r/soccer. That packet (instantiate lines 200 to 299) was read whole with every line's quotes. Lines 200 to 224, already ruled on their labels, did not change. The others found no unsupported line.
+- **The shared-prank reading** was decided while I read instantiate lines 45 to 89. It was logged after their rulings were written, and a second diary line corrects the first one's wording.
+- **The group close** tabulates rejects under the line's own kind ('specification'). The rulings store them with no kind.
+- **A first phrase count** included the absent lines' reasons, which quote G14's clauses, and I discarded it. The counts above are over instantiate and elaboration reasons only.
+- **Images.** Many lines rest on images not in the record. A fake whose words alone do not show it is a fake (diablo-016) is an evidence limit.
+- **Compaction.** The context was compacted mid-leg. The head, the stage file and the diary were read again before any write.
+
+### Close-check, D3a-07
+
+`validate.py D3` reports 7,919 of 42,243 ledger lines ruled. That is the 6,685 ruled through D3a-06 and K01's 1,234. It reports 0 errors and 2 warnings, the same two as before: history lines 137 and 138, which name move 174 'stabilizing' (line 139 records the correct name). All 192 pairs in K01's files name a K01 line (`_analysis/d3_pair_check.py`). The ledger holds 7,937 lines, 18 of them appended re-rulings across the legs. History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561. None of those ledgers changed in this leg.
