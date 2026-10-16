@@ -1,0 +1,34 @@
+{
+ "packet": "megaman",
+ "group": "megaman",
+ "reader": "r19",
+ "reissue": 2,
+ "generation": "msg_kBYVPg0d1EnoKqO5Sr2G",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8548,
+  "output_tokens": 14920,
+  "output_tokens_details": {
+   "thinking_tokens": 14651
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.012141152,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.012141152,
+   "upstream_inference_prompt_cost": 0.000205152,
+   "upstream_inference_completions_cost": 0.011936
+  }
+ },
+ "elapsed_s": 80.2,
+ "packet_sha256": "4e278ebcd51b2f40dc3318c6e71e0c6c881d1913fc9cd272a3b5a8a2e430f6c5",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

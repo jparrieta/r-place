@@ -1,0 +1,34 @@
+{
+ "packet": "rangers",
+ "group": "rangers",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_6ic5uAJT9gcJAZzYosV0",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8026,
+  "output_tokens": 21052,
+  "output_tokens_details": {
+   "thinking_tokens": 20842
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0276702,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0276702,
+   "upstream_inference_prompt_cost": 0.0024078,
+   "upstream_inference_completions_cost": 0.0252624
+  }
+ },
+ "elapsed_s": 46.2,
+ "packet_sha256": "93698e80ea35a6dd77857f59d99b082936b16b51e8a29ec75f8c21ef583d3a06",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "uvic",
+ "group": "uvic",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_1gR8Je14khFeEbfDKnOc",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7878,
+  "output_tokens": 5473,
+  "output_tokens_details": {
+   "thinking_tokens": 5062
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00473915,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00473915,
+   "upstream_inference_prompt_cost": 0.0011817,
+   "upstream_inference_completions_cost": 0.00355745
+  }
+ },
+ "elapsed_s": 25.6,
+ "packet_sha256": "fdca530e1f509bb43b7345c41a25a1456bc18448155111b266b0143bb02a2948",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

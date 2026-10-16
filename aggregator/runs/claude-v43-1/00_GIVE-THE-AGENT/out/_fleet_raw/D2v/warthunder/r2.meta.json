@@ -1,0 +1,34 @@
+{
+ "packet": "warthunder",
+ "group": "warthunder",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_PqpEaT8A0VKr7ollkcgF",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8251,
+  "output_tokens": 7519,
+  "output_tokens_details": {
+   "thinking_tokens": 7291
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00574905,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00574905,
+   "upstream_inference_prompt_cost": 0.00123765,
+   "upstream_inference_completions_cost": 0.0045114
+  }
+ },
+ "elapsed_s": 40.2,
+ "packet_sha256": "cb9ce011f95842436511d0b724cbbb64e89123cdada3d36c462eb928fa7fcc80",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

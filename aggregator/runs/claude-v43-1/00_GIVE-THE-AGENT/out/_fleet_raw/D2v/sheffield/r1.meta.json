@@ -1,0 +1,34 @@
+{
+ "packet": "sheffield",
+ "group": "sheffield",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_jY7Eh6Hfy7q4MkPZBDli",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7941,
+  "output_tokens": 5748,
+  "output_tokens_details": {
+   "thinking_tokens": 5566
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00463995,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00463995,
+   "upstream_inference_prompt_cost": 0.00119115,
+   "upstream_inference_completions_cost": 0.0034488
+  }
+ },
+ "elapsed_s": 34.7,
+ "packet_sha256": "6770207df0689b690f1e79e387a3be7a148591a726a4b274b4b1e7d575983293",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "taiwan",
+ "group": "taiwan",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_Hk4q30aqs6s9O2KdPVt5",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8142,
+  "output_tokens": 11036,
+  "output_tokens_details": {
+   "thinking_tokens": 10789
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.007686042,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.007686042,
+   "upstream_inference_prompt_cost": 0.001196874,
+   "upstream_inference_completions_cost": 0.006489168
+  }
+ },
+ "elapsed_s": 85.5,
+ "packet_sha256": "477ad6b77c28ba0bed704e88305a0a6bf0d7fac3042fc201c480647f56731d68",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

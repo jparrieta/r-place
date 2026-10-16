@@ -1,0 +1,34 @@
+{
+ "packet": "drawhelix",
+ "group": "drawhelix",
+ "reader": "r13",
+ "reissue": 1,
+ "generation": "msg_jcy5gbKF7DSkhhBvsU8T",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7702,
+  "output_tokens": 6863,
+  "output_tokens_details": {
+   "thinking_tokens": 6684
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00561625,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00561625,
+   "upstream_inference_prompt_cost": 0.0011553,
+   "upstream_inference_completions_cost": 0.00446095
+  }
+ },
+ "elapsed_s": 34.3,
+ "packet_sha256": "60e200944796779837ad29b3ef7d69a76f1ab110d76562564a36f578fce9ff28",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

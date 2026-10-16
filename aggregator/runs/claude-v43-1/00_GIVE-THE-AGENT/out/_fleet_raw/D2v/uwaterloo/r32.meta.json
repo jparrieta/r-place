@@ -1,0 +1,34 @@
+{
+ "packet": "uwaterloo",
+ "group": "uwaterloo",
+ "reader": "r32",
+ "reissue": 1,
+ "generation": "msg_x8fmaiiXahmps9jMiO0K",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 436,
+  "output_tokens": 17582,
+  "output_tokens_details": {
+   "thinking_tokens": 17325
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 7680,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0107298,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0107298,
+   "upstream_inference_prompt_cost": 0.0001806,
+   "upstream_inference_completions_cost": 0.0105492
+  }
+ },
+ "elapsed_s": 1094.8,
+ "packet_sha256": "dd3186ebe5a266568b25a7b0a2a3eedcbadaa99260472b716bb5faa1b4b614a6",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

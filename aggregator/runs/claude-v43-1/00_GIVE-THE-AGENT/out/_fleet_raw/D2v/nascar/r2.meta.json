@@ -1,0 +1,34 @@
+{
+ "packet": "nascar",
+ "group": "nascar",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_qH7v9omjP4LGuI6tb8WX",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8174,
+  "output_tokens": 10970,
+  "output_tokens_details": {
+   "thinking_tokens": 10759
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0091546,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0091546,
+   "upstream_inference_prompt_cost": 0.0008174,
+   "upstream_inference_completions_cost": 0.0083372
+  }
+ },
+ "elapsed_s": 115.4,
+ "packet_sha256": "0d0322cb253526f80215b829a8bfbd33cedddd947b71a823a0006889fb97e2ba",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

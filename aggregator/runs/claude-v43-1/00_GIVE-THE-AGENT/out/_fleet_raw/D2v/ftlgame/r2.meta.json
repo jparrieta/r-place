@@ -1,0 +1,34 @@
+{
+ "packet": "ftlgame",
+ "group": "ftlgame",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_CewRBixVdpjh0p1A3k8K",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8074,
+  "output_tokens": 7801,
+  "output_tokens_details": {
+   "thinking_tokens": 7608
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00628175,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00628175,
+   "upstream_inference_prompt_cost": 0.0012111,
+   "upstream_inference_completions_cost": 0.00507065
+  }
+ },
+ "elapsed_s": 36.0,
+ "packet_sha256": "56988cbc6e076e47499f74ceb4fb83b53dd4949727cf3fbf00b5ebb5b2a655ba",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

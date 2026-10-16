@@ -1,0 +1,34 @@
+{
+ "packet": "chile",
+ "group": "chile",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_eZoUTEOwB0Bup6wGTXJJ",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8116,
+  "output_tokens": 11183,
+  "output_tokens_details": {
+   "thinking_tokens": 10950
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0079272,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0079272,
+   "upstream_inference_prompt_cost": 0.0012174,
+   "upstream_inference_completions_cost": 0.0067098
+  }
+ },
+ "elapsed_s": 62.1,
+ "packet_sha256": "52af98a0f3abb74f5d8291a2f57e5b6d64efce01dec40c284712692cc3ac353e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

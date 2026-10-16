@@ -1,0 +1,34 @@
+{
+ "packet": "notredame",
+ "group": "notredame",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_7bmawBTSQ0gi9t80s3sN",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7886,
+  "output_tokens": 5039,
+  "output_tokens_details": {
+   "thinking_tokens": 4855
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00222144,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00222144,
+   "upstream_inference_prompt_cost": 0.00070974,
+   "upstream_inference_completions_cost": 0.0015117
+  }
+ },
+ "elapsed_s": 48.9,
+ "packet_sha256": "a5cca063f2e3bec3139b94e9a39009d8c018f19de37f348641262765a517b186",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "vegan",
+ "group": "vegan",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_H3TbmUbeZfag6XyLx1Zx",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8204,
+  "output_tokens": 13449,
+  "output_tokens_details": {
+   "thinking_tokens": 13205
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00997245,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00997245,
+   "upstream_inference_prompt_cost": 0.0012306,
+   "upstream_inference_completions_cost": 0.00874185
+  }
+ },
+ "elapsed_s": 68.3,
+ "packet_sha256": "e0ab64965ec4b0fbfc75b029d73b626c728639e7b2c238db62224636e35ebf0f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

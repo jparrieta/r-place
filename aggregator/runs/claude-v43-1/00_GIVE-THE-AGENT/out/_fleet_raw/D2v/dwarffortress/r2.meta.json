@@ -1,0 +1,34 @@
+{
+ "packet": "dwarffortress",
+ "group": "dwarffortress",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_l8tp0uEgkZV7ZowRNaoR",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7793,
+  "output_tokens": 11073,
+  "output_tokens_details": {
+   "thinking_tokens": 10882
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0077971245,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0077971245,
+   "upstream_inference_prompt_cost": 0.0011666121,
+   "upstream_inference_completions_cost": 0.0066305124
+  }
+ },
+ "elapsed_s": 60.0,
+ "packet_sha256": "ba7fad3d281411bfdb9c7dd9af6bb6e4288f45201d92383cf1a68460e6761018",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

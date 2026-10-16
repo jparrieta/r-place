@@ -1,0 +1,34 @@
+{
+ "packet": "edboxes",
+ "group": "edboxes",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_P71uxH84r66czK5HURsh",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7743,
+  "output_tokens": 9337,
+  "output_tokens_details": {
+   "thinking_tokens": 8932
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0075656132,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0075656132,
+   "upstream_inference_prompt_cost": 9.60132e-05,
+   "upstream_inference_completions_cost": 0.0074696
+  }
+ },
+ "elapsed_s": 42.9,
+ "packet_sha256": "c512fe80fba92bdd4b27ece06751ca611cf8fdafcbd7d4cd7788a31c67bdd0f6",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

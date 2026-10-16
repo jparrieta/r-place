@@ -1,0 +1,34 @@
+{
+ "packet": "crystalclear",
+ "group": "crystalclear",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_5iKEuCBwBDG7FwQxOIrC",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6485,
+  "output_tokens": 4453,
+  "output_tokens_details": {
+   "thinking_tokens": 4243
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00403278,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00403278,
+   "upstream_inference_prompt_cost": 0.0006485,
+   "upstream_inference_completions_cost": 0.00338428
+  }
+ },
+ "elapsed_s": 45.0,
+ "packet_sha256": "b9b33fbf4d6cbadb9e5d73ee42151e73077a557e4cf162c2b5b43c176a0dbe99",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

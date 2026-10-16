@@ -1,0 +1,34 @@
+{
+ "packet": "theitalyplace",
+ "group": "theitalyplace",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_rdh8ohntpVCXRCuLtbBu",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 162,
+  "output_tokens": 16946,
+  "output_tokens_details": {
+   "thinking_tokens": 16685
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 8192,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0187253,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0187253,
+   "upstream_inference_prompt_cost": 8.47e-05,
+   "upstream_inference_completions_cost": 0.0186406
+  }
+ },
+ "elapsed_s": 1037.1,
+ "packet_sha256": "514d1ee38a447ec7e480401d256bb517d46e911d78d2cce730e35681b5aae1bc",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

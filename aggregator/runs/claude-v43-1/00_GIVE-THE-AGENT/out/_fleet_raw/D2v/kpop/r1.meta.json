@@ -1,0 +1,34 @@
+{
+ "packet": "kpop",
+ "group": "kpop",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_osq6lXJred66ujPXC6Yn",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8060,
+  "output_tokens": 19987,
+  "output_tokens_details": {
+   "thinking_tokens": 19760
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0198018,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0198018,
+   "upstream_inference_prompt_cost": 0.0018135,
+   "upstream_inference_completions_cost": 0.0179883
+  }
+ },
+ "elapsed_s": 70.7,
+ "packet_sha256": "5b2f5675aa1406d67121583e93fe55cf6ea024f5127651ab0c8c0d0b586aaa23",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

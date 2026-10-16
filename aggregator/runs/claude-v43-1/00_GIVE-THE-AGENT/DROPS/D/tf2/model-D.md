@@ -1,0 +1,83 @@
+# r/tf2: adapted room model
+
+## D01 — Critical mass
+
+Members called for a TF2 logo beside “our fellow Dota,” for help finishing Engineer, and later for reinforcements against the void; mobilization repeatedly concerned a particular work rather than a single enduring campaign [P01] [c0041] [c0169] [c0375]. A self-started pink pixel and a request to band together made a proposed Jerma face actionable, without establishing a standing leader [R01] [A02] [c0194] [c0195]. The first logo call received coordinates, construction reports and “the logo is done,” supporting call-to-building within that thread [A01] [P03] [c0041] [c0044] [c0054].
+
+Judgments of insufficiency included poor turnout, “0 room for a larger logo,” and being outdone by other games' designs [K02] [c0045] [c0274] [c0283]. These did not have one consequence: being outdone prompted a fancier design, whereas occupation of the initial black square was the stated reason for moving left [K02] [P10] [A10] [c0283] [c0042]. The movement relation is therefore restricted to the reported loss of usable space, not inferred from aesthetic comparison or low turnout [A10] [c0042] [c0045] [c0283].
+
+Bare assent and reports of contribution occur, including “Agreed” and “I contributed” [P15] [c0359] [c0123]. But “I WILL CONTRIBUTE, GIVE THE COORDINATES” asks for a next turn, and the Texas aid request receives the unaccounted refusal “No”; these limit any local claim that joining must be bare or refusal must carry reasons [A12] [P01] [c0129] [c0321] [c0322]. They do not estimate the aggregate acceptance/refusal distribution [A12] [c0129] [c0322].
+
+## D02 — Coordination without command
+
+The proposed mark developed through lettering, Nopegineer, competing locations, an extended neck and successive logo designs [P02] [c0096] [c0130] [c0131] [c0208] [c0283] [c0351]. Contributors supplied pixel colours, priorities and borders, not just pictures to admire: one instruction put Nopegineer before NOPE and its border after completion [P04] [P03] [c0132] [c0133] [c0134]. A call for one “clear direction” and a retrospective account of hurried redrawing show deliberate practical ordering, but cannot test the model's comparative claim about how most rooms organized [C01] [absent C01] [c0354] [c0414].
+
+Templates did not settle design once and for all [A11] [c0330] [c0331] [c0333]. An outline was declared to be in the wrong place, a pattern was superseded by a “Final final” version, and someone admitted wasting pixels fixing the old star [P04] [A11] [c0329] [c0330] [c0331]. Here standardization required communicating which version was current and stopping obsolete work, rather than assuming an agreed picture became operative upon publication [P04] [A11] [c0297] [c0327] [c0334].
+
+Coordination moved into Discord and returned as a centered, reportedly noninterfering design with a specified starting direction and coordinates [P04] [P02] [c0288] [c0351] [c0352]. These are reports of backstage work, not access to its deliberations [P02] [c0352]. Automation was proposed and reported, but contested: “we already have a script” answered “No scripts. No bots. Just our bare hands,” followed by an insistence that NOPE had been repaired without scripts [P14] [c0357] [c0363] [c0364] [c0365]. The exchange establishes contrasting positions, not a collective automation policy [P14] [c0363] [c0364] [c0365].
+
+## D03 — Maintenance
+
+Completion made continuing protection relevant: beneath a celebration, a member called for keeping the sign looking good, while later posts requested cleanup of stray marks [P05] [A03] [c0148] [c0268]. A finished-logo post explicitly recruited userscript runners because people were trying to ruin it, supporting preservation as a stated reason for automation; it does not demonstrate timer exhaustion or actual execution by recruits [P05] [P14] [A06] [c0370]. Moral resistance to automation further limits a uniform escalation from manual upkeep to scripts [A06] [c0363] [c0365].
+
+Repair could itself obstruct construction [P06] [P05] [c0286] [c0312]. One person described replacing six apparent vandal pixels before checking the subreddit; another answered that they had made the same mistake and now supported the change, an explicit reversal in `631f8e:3.2>3.2.1` [P06] [c0286] [c0289]. A separate alarm was edited to “I WAS WRONG DO NOT FIX,” and its author thanked the correction for revealing they had worked against their own subreddit [P06] [c0310] [c0311]. Diagnosing the placer’s intention was therefore a practical step before deciding whether to preserve or undo a changed pixel [P06] [P05] [c0286] [c0289] [c0312]. It was not only missing information: another participant knowingly rejected the improvement because it would encroach on CS:GO and Dota [P02] [P07] [c0306].
+
+The void episode contains alarms, loss reports, requests to repair damage explicitly attributed to the void, and “almost fully restored” [P05] [c0373] [c0377] [c0390] [c0394]. The same poster moved from calling NOPE lost at H68.17 to celebrating near restoration at H70.22; these are successive reports, not evidence of the community collectively changing its mind [P05] [P03] [c0377] [c0394]. Post-closure recollection credits repairing NOPE in time, without revealing the attackers' initiating decision or measuring whose pixels produced the recovery [P05] [c0408].
+
+## D04 — Order without law
+
+Border talk did not simply follow maintenance: EVE disputed the first logo's site while it was still taking shape, and TF2 resisted moving because it had already made progress [P08] [R02] [A04] [c0049] [c0051] [c0052]. Expansion also generated negotiations: overlap drew warnings and revisions, and the later designer explicitly rejected a design occupying neighbors' spaces to avoid war [P08] [P07] [A04] [c0291] [c0292] [c0353]. Thus initial building and redesign provide additional routes into border work, not an exclusively upkeep-first sequence [A04] [c0051] [c0052] [c0353].
+
+An agreement with Mexico to leave its flag alone conditioned nearby lettering, supplying a locally stated border-to-restraint relation [P08] [P07] [A05] [c0198]. Restraint also arose without a treaty: one contributor cut two columns from an N rather than overrun a flag [P07] [c0140]. After concern about damaging RotMG, a reply proposed restoring its white bag and the next accepted apologizing and organizing restoration elsewhere; this is an explicit remedy, not merely adjacent peace vocabulary [P07] [P16] [c0186] [c0187] [c0188].
+
+Help included mutual protect-and-repair proposals, neighbor requests during the redesign, and a designer's report that Mexico and EVE would help if borders were respected [P16] [P17] [A13] [A14] [c0083] [c0318] [c0353]. A proposed shared Valve rectangle was explained as making it more likely to hold the spot against botting, supporting a stated threat-to-coalition rationale but not proving that rectangle was built [P17] [A19] [c0360] [c0361] [c0362]. Later thanks credit Mexico with saving NOPE, and a reply says “We were glad to help”; this is reported reciprocal assistance, not independently observed Mexican coordination [P16] [c0431] [c0432].
+
+The “beautiful treaty” exchange does not establish the tentative authority dispute [absent P21] [absent A21] [c0218] [c0220] [c0224] [c0225]. Its author says they made both edits; replies challenge whether anyone fought for space and whether the image depicts actuality rather than an ideal [P08] [c0220] [c0224] [c0225]. Verifying that an agreement or shared arrangement exists must precede treating its depiction as a diplomatic event [P08] [c0224] [c0225]. Disowning a “tiny extremist group” likewise attributes misconduct without saying that an individual's agreement cannot bind placers [P06] [absent P21] [c0142]. P21 and its proposed antecedent remain unobserved here, not disproved [absent P21] [absent A21] [c0142] [c0225].
+
+Questions about allowing Half-Life's adjacent lambda and replies requesting its relocation do not establish a settled host's rule over guest territory; that stronger hosting relation remains unobserved [absent P19] [c0236] [c0239] [c0240]. The early leftward relocation, however, is explicit, rather than inferred from the later rebuilding of NOPE on its existing site [P10] [c0042] [c0393].
+
+## D05 — Collective identity
+
+TF2's jokes and game vocabulary supplied representational choices and rallying language: Nopegineer and Seduce Me were proposed as marks, and an anti-void call demanded “ACTIVATE THE UBERCHARGE” [K04] [P02] [c0122] [c0113] [c0374]. Valve kinship was invoked to welcome and assist Half-Life and Portal, while one commenter urged removing Half-Life for “stealing updates” [K04] [K03] [C02] [c0230] [c0231] [c0241]. That last turn connects prior game-update grievance to a disruptive proposal, but does not establish an earlier organized feud or a shared hostile position [K03] [C02] [c0230] [c0232]. Correcting “TF2 area” to “Valve Area” also contests the scale of belonging rather than simply naming an ally [K04] [c0254] [c0255].
+
+## D06 — Host framing
+
+April Fools licensed fake updates, mistaken-date jokes and Sentry-themed moderator play; the banner joke was later explicitly concluded [K01] [c0034] [c0040] [c0103] [c0104] [c0416]. This framing does not explain all of the room's parallel production [K01] [new: Making playable joke maps together] [c0022] [c0015]. In the extended-map exchange, a creator identifies an April Fools origin, members request more variants and servers, and encouragement is explicitly credited with stopping study and opening Hammer [new: Making playable joke maps together] [c0022] [c0010] [c0012] [c0015]. This is off-canvas collaborative making and anticipated play, not evidence that map jokes caused pixel organizing [new: Making playable joke maps together] [P01] [c0015] [c0118] [c0041].
+
+Canvas participation competed with the host's ordinary attention [P20] [c0336] [c0337] [c0404]. Members requested a megathread or a hideable flair, created a separate subreddit to avoid flooding TF2, and deferred a weekly map discussion because of the current focus [P20] [A20] [c0336] [c0338] [c0402] [c0404]. These support a boundary response to the perceived flood, not proof that moderators implemented the requested filters [P20] [c0338] [c0402].
+
+A stronger contrary account calls participation “pointless” because of scriptbots and calls the posts “literally just spam” [P20] [P14] [c0381] [c0409]. These objections rule out a consensus that participation was worthwhile, but do not negate participants' explicit accounts of correcting their own mistakes, rebuilding NOPE or delivering a requested spray [P06] [P05] [P13] [c0311] [c0408] [c0467]. The supported account concerns visible shared practices, not universal enthusiasm or an exclusively manual achievement [P05] [P14] [c0364] [c0365] [c0408].
+
+Correction chains also continued beside event work: a cosmetic suggestion turned into grammar banter, a tribute attracted an insulting correction and a “Rude” reply, and a proposed logo's German approval prompted another language joke [new: Turning corrections into side banter] [c0258] [c0259] [c0440] [c0441] [c0470] [c0471] [c0472]. Such side interaction is retained as a local practice, not recast as recruitment, diplomacy or an established causal stage of organizing [new: Turning corrections into side banter] [c0258] [c0441] [c0472].
+
+## D07 — Imprinting
+
+Members marked completion repeatedly rather than once: the first logo was reported done, later contributions were claimed with pride, and the restored NOPE drew congratulations [P11] [A07] [c0054] [c0123] [c0124] [c0394]. Timelapses, closure announcements, mourning and thanks made a record of the event [P12] [c0324] [c0407] [c0419] [c0427] [c0431]. Their coexistence with celebration supports the sequence but does not show that celebration itself prompted the recordings, so the full motivational arrow remains untested [absent A08] [c0124] [c0324] [c0427].
+
+The tentative memory dispute does operate: a request to see errant pixels fixed receives “Nooo!” and an argument that uncontrolled pixels are what make the canvas great, in `63a7sy:3>3.1` [P22] [c0433] [c0436]. A separate restoration cropped away non-TF2 areas, moved NOPE and replaced stray tiles to make a memento, showing that preservation involved selecting and editing rather than merely retaining an untouched final image [P12] [P22] [c0443] [c0444].
+
+That restored record directly invited requests for separated Steam pictures and icons, with separated images supplied in the reply chain [P13] [A09] [c0445] [c0447] [c0448]. A spray request explicitly received “just made it for you,” while flair and subreddit-logo proposals sought other uses [P13] [c0465] [c0467] [c0451] [c0468]. These establish requests and some delivered artifacts, not adoption of the proposed community branding [P13] [c0447] [c0467] [c0468]. Whether flair would preserve participation was itself disputed through predictions of forgetting and replies invoking durable Reddit memories [P13] [P12] [c0453] [c0454] [c0459] [c0460].
+
+## D08 — Contention
+
+Encroachment and vandalism were not simply outsiders' acts: a poster admitted being with vandals, another claimed logo vandalism was a friends' joke, and a contributor preferred making the CS:GO figure fat to fixing TF2 [P09] [c0153] [c0176] [c0347]. Their presence does not establish that an earlier general recruitment call caused members to become attackers [absent A15] [c0041] [c0153] [c0347]. A direct reply refusing to ruin Lucio instead gives the reason that its art harms nobody and game similarity is no justification, supporting reasoned restraint in that encounter [P07] [A16] [c0398]. The supplied concepts do not show an attack call answered by negotiating a truce, so that distinct route remains unobserved [absent A17] [c0236] [c0239] [c0398].
+
+The void was named in alarms, insults and later “war” remembrance, connecting reported attack with contest talk without explaining the attackers' organization [P18] [A18] [c0373] [c0387] [c0397] [c0453]. Competitive comparison could also prompt building one's own Scout rather than destroying Lucio, so rivalry vocabulary alone is not evidence of an attack [P02] [P09] [c0121] [c0398].
+
+## Local exceptions
+
+- [A04] is restricted: border negotiation already accompanies initial construction and later redesign; maintenance is one route, not a necessary starting point [c0051] [c0052] [c0353].
+- [A10] is restricted: losing an occupied site explains moving left, whereas aesthetic inferiority explains enlargement; the response depends on the kind of insufficiency [c0042] [c0283].
+- [A11] is restricted and [P04] extended with updating operative versions: templates can be obsolete, disputed or followed in the wrong place rather than settling agreement [c0297] [c0330] [c0331].
+- [P05] gains intention-checking through [P06]: repair can obstruct the room's own redesign, but some opposition is a conscious border objection rather than a misunderstanding [c0286] [c0289] [c0306] [c0312].
+- [A06] is restricted to a stated preservation rationale; exhaustion of the timer and recruits' execution remain unverified, and opposition to scripts remains live [c0370] [c0363] [c0365].
+- [A12] is restricted to the observed forms of answering: a contribution offer can request coordinates and refusal can be bare; the aggregate preference distribution is not tested here [c0129] [c0322].
+- [P08] gains verification of a purported agreement; the treaty-image exchange is not evidence of [P21] or [A21], both unobserved, because it disputes actuality rather than authority to bind [c0220] [c0224] [c0225].
+- [P22] is instantiated, not left as generic memory: a cleanup wish receives an explicit defense of errant pixels as history [c0433] [c0436].
+- [new: Making playable joke maps together] and [new: Turning corrections into side banter] retain the two locally supported practices with no forced canvas-organizing role [c0015] [c0118] [c0258] [c0441] [c0472].
+- Unresolved scope: [C01] requires other rooms; [P19], [A08], [A15], [A17] and [P21]/[A21] lack the required relation in these concepts; backstage deliberation, script execution and proposed branding adoption cannot be recovered from their reported or proposed forms [c0352] [c0370] [c0468] [c0225].
+
+grade: composes-with-residue
+The adapted account explains the supported construction, correction, neighbor work, parallel play and reuse, but leaves specified authority, uptake and causal claims undecided rather than asserting exact fit [P06] [P08] [P13] [absent P21] [c0312] [c0225] [c0468].
+local_status: unresolved
+<!-- end -->

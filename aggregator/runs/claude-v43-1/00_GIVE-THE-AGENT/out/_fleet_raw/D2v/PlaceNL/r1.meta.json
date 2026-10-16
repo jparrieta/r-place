@@ -1,0 +1,34 @@
+{
+ "packet": "PlaceNL",
+ "group": "PlaceNL",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_jXkybvIUpc4veVLvlARH",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8341,
+  "output_tokens": 12173,
+  "output_tokens_details": {
+   "thinking_tokens": 11871
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0171099,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0171099,
+   "upstream_inference_prompt_cost": 0.0025023,
+   "upstream_inference_completions_cost": 0.0146076
+  }
+ },
+ "elapsed_s": 45.3,
+ "packet_sha256": "c2fdd67daa375cb9414999bdf9e9293f39ed74268a354b875de48846e8954a71",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

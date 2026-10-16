@@ -1,0 +1,34 @@
+{
+ "packet": "uruguay",
+ "group": "uruguay",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_BeizOjJQ6vNljUSIikXy",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7743,
+  "output_tokens": 9492,
+  "output_tokens_details": {
+   "thinking_tokens": 9304
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00798822,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00798822,
+   "upstream_inference_prompt_cost": 0.0007743,
+   "upstream_inference_completions_cost": 0.00721392
+  }
+ },
+ "elapsed_s": 89.1,
+ "packet_sha256": "1a86fadecc07248e730a4b43468a404cf766500be774f36698496eb642fe388b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

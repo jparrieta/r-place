@@ -270,7 +270,10 @@ def check_ledger(root, outdir, ctx, vocab, version, analysed):
         # rule 2: the element
         el = r.get("element")
         if el:
-            ok = vocab is not None and (el in vocab["elements"] or (op == "link" and el in vocab["dimensions"]))
+            # a dimension may stand as the element of link, and (J, 2026-10-16, QD2-001, option 1) of restrict,
+            # add-condition and add-step; D3 rules on those lines as they stand
+            ok = vocab is not None and (el in vocab["elements"] or (op in ("link", "restrict", "add-condition", "add-step")
+                                                                   and el in vocab["dimensions"]))
             if vocab is not None and not ok:
                 err("%s %s: element %r does not resolve in VOCABULARY.json (rule 2)" % (N, w, el), shape="ledger:element", where=w)
             src_row = els.get(el) or ars.get(el)

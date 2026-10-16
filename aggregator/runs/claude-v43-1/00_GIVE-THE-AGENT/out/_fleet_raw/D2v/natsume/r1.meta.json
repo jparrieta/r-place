@@ -1,0 +1,34 @@
+{
+ "packet": "natsume",
+ "group": "natsume",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_3FfQ98NZTg3qJ7jmKAc3",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7117,
+  "output_tokens": 4495,
+  "output_tokens_details": {
+   "thinking_tokens": 4238
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005646825,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005646825,
+   "upstream_inference_prompt_cost": 0.001601325,
+   "upstream_inference_completions_cost": 0.0040455
+  }
+ },
+ "elapsed_s": 15.1,
+ "packet_sha256": "2888351cf0e4b57f3979a9384426f69bbd8c8ae9e2a3555df13396826bdbcd43",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

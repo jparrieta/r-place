@@ -1,0 +1,83 @@
+# r/anarcho_capitalism: adapted room model
+
+## D01 Critical mass
+
+[R01] [P01] A member supplies a starting proposal and a call in the same words: “Make an ancap flag here, please” [c0001]; later calls recruit hands for a new Ancapistan, Bitcoin, Snek and the flag [c0018] [c0011] [c0117]. [A02] The opening proposal does not provide two separately observed stages from starter to mobilization, although it identifies the starter's minimal asking role [c0001]. [A01] Reports of placing blocks while working answer the new-Ancapistan thread, supporting a call-to-work sequence without showing that the call alone caused participation [c0018] [c0021].
+
+[K02] Capacity becomes an explicit judgement: “We just don't have the people” [c0031], and a proposed redesign would compete with the “full time job” of restoring yellow tiles [c0141]. [A10] [P10] The strongest local dependence is the direct answer to a takeover call: “there's too many of them, so we're starting a new flag” [c0028] [c0029]. [K02] This condition does not explain every concept placed in the capacity theme: “Game is over” marks an externally ended opportunity, not a judgement that hands are too few [c0145].
+
+## D02 Coordination without command
+
+[P02] [P04] Representation and practical location overlap: members propose an AnCap flag beside Bitcoin and identify a Snek-neck location for another flag [c0071] [c0070]. [P03] Direct information sharing includes placing black along a lower edge, reporting progress and claiming completion [c0061] [c0035] [c0053]. [A11] Coordinates are visible, but these concepts do not establish that design disagreement was settled by an agreed pixel template [c0011] [c0070] [c0140].
+
+[P15] “I did my part” gives the model's minimal contribution report [c0183]. [A12] It does not establish that bare joining was the ordinary response to calls: a willingness to help can instead require instructions, and a renewed offer can explain prior ignorance [c0054] [c0026]. [C01] Neither “spontaneous order” nor “You don't need a discord server” establishes the absence of decided organization; the latter contests a venue's necessity, while alliance discussion explicitly leaves the thread [c0036] [c0040] [c0092] [c0131]. The room cannot test the model's cross-room prevalence claim or reveal decisions inside those chats [C01] [c0092] [c0131].
+
+[P14] The automation evidence warrants recommending and discussing machine hands: bots “can” maintain tiles, participants say they “need to deploy” more bots, and a reply recommends a tampermonkey script [c0116] [c0121] [c0142]. [A06] Upkeep burden explicitly receives a script recommendation in the reply tree, but deployment and successful extra placements remain unobserved [c0141] [c0142]. Calling the whole theme “running scripts” would overstate what these passages establish [P14] [c0116] [c0121] [c0142].
+
+[new: checking the coordination venue and disputing credit] A warning about snitching, a security objection, a claim that no Discord is necessary, and “taking credit, much?” qualify how coordination is presented [c0056] [c0058] [c0040] [c0041]. [T4-010] These belong beside backstage coordination; they do not show that a member rejected a treaty's authority to bind placers [P21] [c0040] [c0041].
+
+## D03 Maintenance
+
+[P05] Keeping the work is recurring labor: a defender reports red pixels returning despite near success, while another asks the room to hold Snek and the flag [c0093] [c0072]. [A03] A claimed captured flag becomes a loss report and a call to coordinate a takeback, rather than a stable finished object [c0012] [c0013]. [P05] Upkeep takes priority over growth when spare time is made conditional on Snek and flag already being defended [c0086].
+
+[P06] Candidate attribution is locally useful: rebuilding an ancap flag accidentally damages Snek, and the answer explains that the builders did not know the other plan [c0025] [c0026]. [P06] A claimed single-handed conversion is also corrected through refreshing the page and conceding a possible glitch [c0081] [c0082] [c0083]. These are reported corrections, not direct observations of pixel histories [P06] [c0025] [c0083].
+
+[P06] The placement of the entire defeat theme under blaming moderators requires restriction: collective advantage and a capitalist-advertising joke are different explanations from moderator intervention [c0156] [c0157] [c0160]. [P06] Speculation that admins added final touches and an accusation of a rigged game remain attributed allegations [c0165] [c0178]. [new: contesting what counts as defeat] One account admits that collectivists beat haphazard individuals while others point to surviving Snek; the room does not supply a single accepted outcome [c0156] [c0158] [c0162].
+
+## D04 Order without law
+
+[P07] Restraint has a stated norm independent of a visible deal: the blue corner “homesteaded it and maintained it,” so it should be respected [c0004]. [P08] Prior occupation is nevertheless contested when an opponent says ancaps took over an originally ancom flag [c0017]. [A16] Attack can also receive restraint for an experiential reason: one participant says attacks on “our” work made building and defending more enjoyable [c0064]; the same speaker who proposes converting a rival flag asks whether repairing their own should come first [c0133] [c0134]. [A05] A treaty-first account is therefore insufficient for all restraint, although a later truce is offered as the explanation for the Void respecting borders [c0004] [c0182] [c0184].
+
+[P08] Negotiation is concrete when a Snek visitor asks to move the AnCap logo while retaining it and is directed to an alliance chat [c0129] [c0131]. [R02] This supports the candidate envoy role [c0129] [c0132]. [P19] It also supports a bounded candidate host–guest relation: the host proposes moving an incorporated logo and promises continued inclusion because AnCap joined early, rather than negotiating only between independent neighboring marks [c0129] [c0132]. [P08] A purported truce from FullCommunism is immediately withdrawn as a joke, whereas the Void's non-aggression message receives an explicit welcome [c0126] [c0127] [c0136] [c0137]. Offers, mock offers and implemented agreements must remain distinct [P08] [c0127] [c0184].
+
+[P16] Outside help is requested, described as contracted and proposed as reciprocal guarding [c0022] [c0043] [c0085]. [P17] The record also names a four-team coalition and remembers cooperation with Polish and technology enthusiasts [c0092] [c0115] [c0169]. [A13] [A19] Defense and outside cooperation occur together, but those passages do not independently establish that running short of hands caused each arrangement [c0076] [c0092]. [A04] [A14] [A17] The logo negotiation, protection requests and attack calls cannot establish the model's particular causal routes among defense, treaty-making and reciprocal help where discussion leaves the record [c0085] [c0129] [c0131].
+
+[absent P21] Observation: unobserved; questioning Discord's necessity or credit does not show a dispute over who may bind the room to an agreement [c0040] [c0041] [c0131]. [absent A21] Observation: not-testable; invitations to conduct the negotiation in Discord leave any subsequent dispute over binding authority unseen [c0131] [c0132].
+
+## D05 Collective identity
+
+[K04] The candidate identity condition is needed locally: “Commie Red” and “Capitalist Gold” identify both colors and political parties to a contest [c0009], while homesteading and the NAP supply language for restraint and agreement [c0004] [c0136]. [C02] The ideological tie names the rival in the attack call itself [c0009] [c0023]. [K03] These concepts do not establish a pre-event quarrel between particular pairs of rooms, so that candidate remains unobserved rather than inferred from ideological labels [c0009] [c0043].
+
+[T3-179] Arguing ideology from the canvas extends beyond celebrating a shared identity: a post calls it an unregulated marketplace, another calls flags nationalism, and a reply says flags are simply square designs [c0107] [c0032] [c0033]. [new: testing and limiting political lessons from the canvas] An assertion of self-organization receives an objection that a moderated art project cannot establish stateless behavior; the ensuing argument narrows the conclusion to the incentives of this particular game and disputes the original inference [c0185] [c0187] [c0188] [c0190] [c0193]. The adapted account retains this explicit disagreement about valid inference rather than treating these positions as one shared political lesson [new: testing and limiting political lessons from the canvas] [c0190] [c0193].
+
+[new: using canvas defense to warrant political exclusion] A later speaker makes Snek a “private Ancapistan,” argues that unwanted communists would wear it down, and connects this analogy to enclaves, privatization and removal of people who would restore central government [c0200] [c0201] [c0202]. [K04] Existing political vocabulary helps make that transfer intelligible, but no standing process explains the transfer from a pixel-defense experience to a prescription for exclusion outside the canvas [c0199] [c0202]. [new: referring readers into an ideological venue] The bare Physical_Removal referral marks another destination for the argument without demonstrating canvas recruitment or a move of organizing [c0198].
+
+## D06 Host framing
+
+[P20] Members do question whether canvas participation is worth their time: it is called petty, answered as a curious anarchic simulation, and defended as exposure or fun [c0096] [c0097] [c0099] [c0100]. [A20] This supports the worth-dispute end of the process, while the mechanism of a posting flood causing moderators to contain canvas talk remains unobserved in these concepts [c0096] [c0100]. [absent K01] Observation: unobserved; mocking the desire to control an April Fools forum and withdrawing a truce as a joke do not establish that the host subreddit itself was rekeyed as an April Fools takeover [c0148] [c0127].
+
+## D07 Imprinting
+
+[P11] Announcing a completed flag and thanking named helpers can be the same turn; claims of a finished object are also provisional when refreshing the canvas reverses a boast [c0053] [c0081] [c0082] [c0083]. [A07] Completion and credit can coincide rather than requiring separate reported-building and celebration stages [c0053]. [P12] After the close, the room shares a defense timelapse and asks contributors what they did, receiving accounts of yellow Snek and northward borders [c0179] [c0180] [c0181]. [P11] Recollection includes enjoyment of the alliance and claims of peaceful coexistence [c0169] [c0175]. [A08] Celebration and documentation are both present, but the concepts do not establish that marking the work caused the timelapse to be sought or made [c0053] [c0179].
+
+[P13] A participant points to a continuing clone and considers another ancap flag; a further reply says the game continues on that site [c0174] [c0177]. [A09] These show a proposed continuation, not that documenting the old work caused the move or that a new flag was built [c0174] [c0179]. [P13] The separate redacted comment promoting anti-censorship subreddits must not be treated as carrying canvas work to a clone merely because it shares the same local theme [c0173].
+
+[absent P22] Observation: unobserved; timelapse discussion, claims of admin alterations and conflicting ideological lessons do not show participants choosing or cleaning a preserved canvas version or correcting a retained historical account [c0179] [c0165] [c0190]. The earlier accusation about AnCaps wanting corporate rule concerns their beliefs rather than a demonstrated post-close dispute over which event record to retain [P22] [c0147] [c0150].
+
+## D08 Contention
+
+[P09] Conversion and conquest are substantial: calls turn red to yellow, plan to conquer territory and propose colonizing an ancom flag [c0003] [c0020] [c0075]. [A15] Mobilization can already be an attack call, and a lost spot can also send participants toward someone else's flag rather than directly toward peaceful relocation [c0009] [c0003]. [P09] A visitor describes attacking an ancom flag expressly to protect the Cute Yellow Snek, making attack a claimed means of defense [c0133]. [A10] The response of moving or starting smaller is one path under strain, not the only path [c0029] [c0003] [c0073].
+
+[P18] A physical-removal call receives a mirrored gulag threat in the same thread, supporting an attack-to-verbal-contest sequence [A18] [c0088] [c0089]. [P18] Victory claims also remain contested by rival ownership accounts and reports of surviving Snek [c0012] [c0017] [c0158]. [new: escalating political violence talk beyond pixel rivalry] The late thread answers an objection to violent opposition with helicopter language and then specifies a lethal height and repetition in batches [c0195] [c0196] [c0203] [c0204]. [P18] Those turns cannot be explained as only a rivalry between canvas rooms or reduced to playful pixel conversion [c0195] [c0203].
+
+## Local exceptions
+
+[P14] [A06] [P14] Separate available tools, proposals and recommendations from observed deployment: the record validates a burden-to-recommendation link, while actual additional machine placements remain unresolved [c0116] [c0121] [c0141] [c0142].
+
+[P06] [P06] Restrict the attribution placement to explicit attribution claims; collective advantage, time spent working and an advertising joke require their own outcome explanations, and admin involvement remains alleged [c0155] [c0156] [c0157] [c0160] [c0165] [c0178].
+
+[P07] [A05] Add homesteading norms and reported personal experience as independent routes to restraint; treaty-first ordering is not necessary for these members' stated reasons [c0004] [c0064]. [P10] [A10] Retain alternatives under pressure—switching to attack, taking a backup or abandoning a project—and distinguish the imposed end of the game from insufficient capacity [c0003] [c0006] [c0073] [c0145].
+
+[P19] Keep the candidate host–guest relation as a local addition with early participation supporting continued inclusion; the final design and binding authority are unresolved because negotiation moves to chat [c0129] [c0131] [c0132]. [P21] [A21] Disputing a coordination venue or credit is not evidence of disputing who can commit a room to a treaty [c0040] [c0041].
+
+[new: checking the coordination venue and disputing credit] Retain security, necessity and authorship challenges as distinct conduct rather than fitting all of them to attribution of damage [c0040] [c0041] [c0056] [c0058]. [P13] Restrict clone continuation to the actual clone references and retain the separate anti-censorship referral on its own terms [c0173] [c0174] [c0177].
+
+[new: testing and limiting political lessons from the canvas] The model's identity vocabulary requires a finer account of argumentative testing and explicit limits on generalization [c0187] [c0190] [c0193]. [new: using canvas defense to warrant political exclusion] Preserve the late political transfer and its enclave prescription as a locally supported extension [c0200] [c0201] [c0202]. [new: escalating political violence talk beyond pixel rivalry] Preserve the literal content of the lethal-height elaboration as political rhetoric, without inferring enactment or a shared room position [c0195] [c0203] [c0204]. [new: referring readers into an ideological venue] Retain the bare referral as such rather than an organizing move [c0198].
+
+[A02] [A07] A proposal may itself call for hands and a completion announcement may itself credit contributors, so simultaneous acts qualify a strictly staged reading [c0001] [c0053]. [A01] [A03] [A08] [A09] [A11] [A12] [A20] Co-occurrence, reported responses and visible sequences do not settle every causal mechanism, particularly template settlement, normal acceptance format, posting-flood containment, or documentation causing continuation [c0021] [c0013] [c0054] [c0096] [c0140] [c0174] [c0179]. [A04] [A13] [A14] [A17] [A19] Off-thread negotiation leaves several routes among defense, alliances, truces and help unresolved even where the elements themselves are visible [c0076] [c0085] [c0092] [c0131]. [C01] [P22] Neither decided-order prevalence nor post-close curation can be inferred from their silence in the coded record [c0040] [c0131] [c0179].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The adapted account explains the observed practices while retaining local political extensions and unresolved deployment, agreement and causal claims supported only in part by the concepts [P14] [P08] [new: using canvas defense to warrant political exclusion] [c0142] [c0131] [c0202].
+<!-- end -->

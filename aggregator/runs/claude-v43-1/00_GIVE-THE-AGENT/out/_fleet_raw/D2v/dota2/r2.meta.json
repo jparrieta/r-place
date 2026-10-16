@@ -1,0 +1,34 @@
+{
+ "packet": "dota2",
+ "group": "dota2",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_Kri7xbWOyu6QlXLoV0Fd",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8416,
+  "output_tokens": 12019,
+  "output_tokens_details": {
+   "thinking_tokens": 11674
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0097195584,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0097195584,
+   "upstream_inference_prompt_cost": 0.0001043584,
+   "upstream_inference_completions_cost": 0.0096152
+  }
+ },
+ "elapsed_s": 67.3,
+ "packet_sha256": "9ff2fa8d7f3b801adc0f27ce5b802efe28206973865d8626296f3a088f593baa",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,85 @@
+# r/tampabaylightning — adapted room model
+
+## D01 Critical mass
+
+[P01] The build began as an invitation to make a Lightning logo, followed by a location proposal and “Let's recruit some users!” [c0001] [c0003]. [K02] Participation was an expressed constraint: a prospective builder offered a blue base but said “we're gonna need real numbers,” and another warned that it would take time without more people [c0011] [c0022]. [P01] Recruitment also borrowed the room's existing game audience: one participant made the original post more direct and reported increasing forces as people arrived before the game [c0053] [c0054].
+
+[A01] The call was answered in the build thread by a bare “I'm in,” followed by reports of adding blue and continuing work [c0008] [c0012] [c0025] [c0026]. [P15] [A12] This supports the model's bare acceptance at a small scale, without showing how every reader answered or establishing that a written answer was socially obligatory [c0012]. [A10] Shortage did not by itself determine departure: “YOU AND ME BUDDY- WE GOT THIS” answered the need for more people, and the pair continued [c0022] [c0024] [c0026].
+
+## D02 Coordination without command
+
+[R01] Several members supplied starting acts rather than one enduring office: one invited the room to build, another selected the spot, and another offered the base coat [c0001] [c0010] [c0011]. [A02] The record shows a proposal gathering recruitment around it; it does not establish a single starter's command over the resulting work [c0001] [c0003] [c0008]. [P02] [P03] Builders planned blue background, white ring, then bolt, made a small mock-up suited to the available hands, and used existing features to guide construction [c0039] [c0044] [c0056].
+
+[P04] Guidance included coordinates for the moved location and very elementary instruction: click the blue palette square and then a nearby non-blue pixel [c0023] [c0043]. [P04] A finer step was teaching someone who explicitly did not know how to help; simply supplying a design or anchor was not all the work needed to enlist that person [c0042] [c0043]. [C01] This case belongs to the model's minority with an explicit division of work: “Someone assign me a job” received a blue-field assignment, “Got it,” and subsequent directions to redistribute workers from the logo to its protective background [c0057] [c0058] [c0060] [c0061]. This qualifies a local application of the claim; one room cannot refute its aggregate frequency [C01] [c0057] [c0058].
+
+[P02] “Finished” was a revisable status: a completed-logo announcement was followed by adding “Tampa Bay,” proposing “Bolts,” and a complaint that three hours maintaining the old lettering were being undone without coordination [c0101] [c0103] [c0104] [c0105]. [A11] A posted guide therefore cannot be treated as a settlement mechanism without further evidence; the earlier mock-up guided work, while a later participant still asked for a bolt guide and later redesign remained contested [c0044] [c0065] [c0105]. [P04] Shared access to the current target mattered: one worker said they would stop if they did not know what to work toward, and separately reported being unable to use Discord [c0120] [c0131].
+
+[absent P14] Local scripts, bots, and spare accounts are unobserved in the coded account of this room's own placing: accusations concerned attackers' alts, and a visitor attributed another logo's destruction to bots [c0066] [c0166]. These reports do not establish whether Lightning workers automated their own work [P14] [c0066] [c0166].
+
+## D03 Maintenance
+
+[P05] Repair began while construction was still under way: workers worried that neighbouring carrots would swallow the mark, surrounded the logo with protective blue, and later directed finishing and perimeter maintenance together [c0050] [c0058] [c0072]. [A03] The clearest supported transition is the explicit completion report, “Now we just gotta stay on top of the cleaning,” repeated by a comment under the finished-logo post about preventing griefing [c0077] [c0101] [c0102]. The process overlapped building rather than waiting for a single final completion [P05] [c0058] [c0072].
+
+[P06] The candidate attribution process fits accusations and suspicion, not verified identification: members blamed alts and entertained Habs retaliation [c0066] [c0067]. [A06] The proposed transition from upkeep to machine hands is not testable here: defense and repair are explicit, but the machine reports concern supposed attackers or the Oilers visitor's experience [c0102] [c0156] [c0066] [c0166]. [P05] Maintenance also carried costs: a participant who first called “All hands on deck!” later described repeated territorial overwriting as nobody winning [c0115] [c0116].
+
+## D04 Order without law
+
+[P08] Neighbour negotiations entered during site selection, before a settled Lightning work had simply to be kept: Quote's defenders told builders to find another spot, and a builder answered with respect and an alliance offer [c0017] [c0019] [c0020]. [new: moving when resisted before a mark is established] The initial move was explicitly justified by the other figure's defense, then reported at new coordinates; the supported trigger is blocked construction rather than prior erasure of a completed Lightning mark [c0016] [c0018] [c0023]. [P10] A later relocation offer remained conditional: “help us move it, yes” coexisted with a refusal of takeover, and crowding eventually made moving impossible [c0081] [c0100]. [A10] Capacity and space therefore required separate treatment; few hands did not guarantee departure, and crowded space could prevent a willing move [c0024] [c0100].
+
+[A04] Maintenance could also lead to bargaining: after repeated threats from neighbouring carrots, a participant reported talking to them and obtaining a promise to leave the logo alone [c0050] [c0068]. [P08] The later Cave Story dispute included refusal, offers of help, a stand-down, and permission to adjust a shared border [c0081] [c0083] [c0096] [c0136] [c0139]. [P07] [A05] Restraint rested on an explicitly remembered reciprocal act: “We shouldn't be covering r/cavestory's art, they backed off of ours” [c0119]. This supports the mechanism locally without making every refusal or apology the result of a formally drawn border [P07] [c0082] [c0094] [c0119].
+
+[P16] [A14] Neighbour talk opened offers of exchanged labour: the alliance proposal asked for blue pixels in return for sparing Quote, and the stand-down received an offer to finish and preserve Cave Story's remaining work [c0020] [c0096] [c0097]. [P17] The alliance was accepted as “better to be friends than enemies,” which fits the model's smallest coalition form; it does not warrant a larger shared command or hub [c0021]. [A19] That alliance addressed the groups' collision rather than an explicitly shared third-party threat, so the model's common-threat mechanism remains unestablished [c0017] [c0020] [c0021].
+
+[R02] An envoy role is visible when a visitor thanks the room and says they will take the answer back to their people [c0139] [c0140]. [P16] [A13] A Blues fan offered defense, but the subsequent thanks came from the visiting requester; the thread does not establish that strain caused the Lightning room to solicit that help or that the offer became an adopted coalition [c0142] [c0148] [c0149]. [absent P19] A message asserting that two logo rows crossed PlaceStart's territory is evidence of a claim and relocation offer, not evidence that Lightning accepted a host's rule [c0106]; actual guest governance remains unobserved [P19] [c0106].
+
+[absent P21] The tentative authority dispute is unobserved: the coded refusal of a neighbour's demand contests reciprocal encroachment, and the complaint about redesign contests coordination, neither explicitly denies that an envoy can bind placers [c0095] [c0105]. [absent A21] Consequently, the proposed transition from agreement to a dispute over who speaks for the room is also unobserved, despite visible bargaining and restraint [c0020] [c0119].
+
+## D05 Collective identity
+
+[K03] [K04] The candidate identity conditions fit the room's use of hockey rivalry and familiar language: a rival Detroit mark became an attack proposal, and “THE BOLTS DON'T GIVE UP, NEITHER SHOULD WE” carried supporter language into building [c0089] [c0040]. [C02] The attack title itself names the Red Wings and proposes converting their logo into a Bolts logo; this supports rivalry naming a target without proving that every Lightning member supported an attack [c0089] [c0091]. [K04] The separate Gameday Challenge wordplay also uses an existing hockey format, making “Brayden Points” an April Fools answer and sacrificing a challenge point for a joke [c0036] [c0037].
+
+[P11] Shared representation was a participant claim rather than universal consent: workers said the image represented the community and glorified the team [c0131] [c0133]. [P20] Others explicitly put the playoff race and hockey discussion ahead of pixel posts [c0121] [c0127] [c0168]. The coexistence of these positions limits any inference that a successful mark united the whole room [P11] [P20] [c0155] [c0168].
+
+## D06 Host framing
+
+[K01] Stamkos-return pranks were explicitly labelled “april fools,” eliciting complaint, affection, and instructions not to play with readers' emotions [c0027] [c0029] [c0033] [c0034]. [K01] Gameday Challenge wordplay supplies another local April Fools practice, without making the canvas calls fictitious [c0035] [c0036] [c0025]. [K01] The placement of the header fragment under takeover styling cannot be confirmed: “Vasy's face in the header” alone establishes neither an April Fools takeover nor its relation to the canvas [c0078]. [new: unresolved third-jersey and space reference] The third-jersey title and “bigger space” reply likewise leave their relation to the canvas undecided [c0079] [c0080].
+
+[P20] [A20] Repeated canvas activity generated explicit objections to feed clutter and proposals for one megathread or Discord-linked post [c0088] [c0121] [c0122] [c0132]. [P20] One critic distinguished clutter from opposition to r/place, while the creator said Discord should eliminate clutter while preserving fun for willing participants [c0128] [c0130]. [P20] The proposal received “Absolutely,” followed in the same branch by the announcement of a new server and directions to route new posts and comments there [c0122] [c0123] [c0126].
+
+[P20] The move can be instantiated as member routing, but its success as coordination cannot be inferred: a worker could not get Discord to work, and the later complaint still demanded containment during the playoff race [c0131] [c0168]. [P20] Moderator enforcement and message delivery remain unresolved because a moderator said no complaint message was seen and the reply offered an external image rather than readable proof [c0162] [c0163].
+
+## D07 Imprinting
+
+[P11] [A07] Builders declared completion, called the mark “our little slice,” and later congratulated contributions as small as four pixels [c0077] [c0041] [c0151]. [P11] Participants celebrated getting closer to the subreddit and imagined future viewers seeing the Bolts logo “thanks to us”; these are expressed meanings and expectations, not measurements of subsequent visibility or recruitment [c0155] [c0157].
+
+[P12] The closing post records that the mark survived, and comments recount compromise, night defense, repeated repairs, and an overwritten taunt [c0150] [c0156] [c0158] [c0159] [c0160]. [A08] A future-looking celebration received a detailed reply describing compromise and surviving attacks; this supports a local transition from marking achievement to recounting its history [c0157] [c0158]. [P12] The Oilers visitor's bot account records a reported neighbouring fate, while the video URL establishes only sharing a resource whose contents are unavailable [c0166] [c0167]. Neither warrants Lightning automation or a verified video account [P14] [P12] [c0166] [c0167].
+
+[P22] The tentative account-contestation process fits only a narrow part of the aftermath: members dispute responsibility for post clutter and whether a complaint reached moderators, with a screenshot offered as an answer [c0164] [c0162] [c0163]. This does not establish editing a preserved canvas or choosing between image versions [P22] [c0162] [c0163]. [absent P13] Concrete decisions about successor canvases, repurposing the server, or retaining a new emblem are unobserved; the imagined enduring logo is a hope rather than such a decision [c0157]. [absent A09] Recording is visible, but its supposed transition into a retained organizational project is unobserved within this account [c0158] [c0157].
+
+## D08 Contention
+
+[P09] The broad attack element covers actual wordplay on another sign, a proposed takeover, and calls to convert a rival logo [c0009] [c0014] [c0015] [c0089]. [A15] The claim that recruitment first creates attackers needs qualification: the first reply to the logo proposal reports an already ongoing “Go Eagles” to “Go Bagels” alteration [c0008] [c0009]. [P18] The Leafs lettering joke and mock-mourning of Detroit are talk about rivals, while “We had no part in it” prevents attributing Detroit's destruction to this room [c0007] [c0109] [c0110]. [A18] An attack proposal followed by later taunting therefore supplies a sequence, not proof that the room carried out the attack that caused the taunt [c0089] [c0109] [c0110].
+
+[A16] An attack call received a direct reasoned refusal: “We need to defend ours first,” followed by “let's not start a war” [c0089] [c0090] [c0091]. [A17] A later outside attack request received a proposal for non-aggression among NHL clubs; the later explanation said griefing could be fun but unwise against a much larger group [c0142] [c0146] [c0147]. [P09] [P07] Both rivalry and restraint were active options, rather than successive room-wide positions [c0089] [c0091] [c0147].
+
+## Local exceptions
+
+1. [C01] Explicit assignment is locally present, including a requested job, an answer, acceptance, and redistribution of workers; preserve this case as the decided-division branch without disputing the model's cross-room frequency [c0057] [c0058] [c0060] [c0061]. [P04] Add elementary placement teaching as a step beyond circulating an anchor or template [c0042] [c0043].
+
+2. [new: moving when resisted before a mark is established] Extend the loss-and-move account to include an initially blocked build; the early move answers defended existing art rather than documented erasure of an established mark [c0016] [c0018] [c0023]. [A10] Keep willingness, crowding, and defence separate: thin numbers can coexist with perseverance, and crowded space can prevent moving [c0024] [c0100].
+
+3. [A11] Template provision supports guidance without guaranteeing settlement; ongoing repair requests and contested revisions survive the guide [c0044] [c0065] [c0105]. [P04] [P20] Add the condition that workers can access the current target: the worker reporting failed Discord also describes lacking a shared goal and threatens withdrawal [c0120] [c0131]. Off-platform deliberation and the eventual resolution are not testable here [P20] [c0118] [c0120].
+
+4. [A06] [P14] Keep the upkeep-to-automation mechanism unresolved rather than inferring local automation from accusations against attackers or a visitor's report about another group [c0066] [c0166]. [A13] [A19] Distinguish offered help and an accepted bilateral alliance from evidence of strain causing solicited help or a coalition against a common threat [c0020] [c0021] [c0148] [c0149].
+
+5. [A15] Recruitment need not precede a participant's vandalism, and [A18] taunting a destroyed rival does not establish authorship of its destruction [c0009] [c0110]. Preserve these as restrictions on local causal attribution [A15] [A18] [c0009] [c0109] [c0110].
+
+6. [P21] [A21] Inter-room binding authority remains unobserved; disagreement about a demand or internal design is not enough [c0095] [c0105]. [P22] Restrict the supported aftermath contest to accounts of clutter and moderator contact; no preserved-image cleanup is established [c0164] [c0162] [c0163]. [P13] [A09] The record supports an imagined enduring audience, leaving concrete continuation decisions unobserved [c0157].
+
+7. [K01] The header placement remains unresolved, and [new: unresolved third-jersey and space reference] no canvas explanation can be supplied for the jersey fragment without inventing its missing context [c0078] [c0079] [c0080]. [P12] The bot-loss report and video-sharing fragment can be retained as reports and pointing without validating their external contents [c0166] [c0167].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The adapted account explains the documented work and conflict through the model's processes, while preserving the early-move extension and leaving machine use, Discord outcomes, contested moderator contact, and ambiguous fragments unresolved [P10] [P14] [P20] [K01] [c0018] [c0066] [c0120] [c0162] [c0163] [c0078] [c0080].
+<!-- end -->

@@ -1,0 +1,34 @@
+{
+ "packet": "truestl",
+ "group": "truestl",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_gzJ3KiNaK1smNnl0ir3o",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7677,
+  "output_tokens": 19255,
+  "output_tokens_details": {
+   "thinking_tokens": 18966
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0136673,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0136673,
+   "upstream_inference_prompt_cost": 0.00115155,
+   "upstream_inference_completions_cost": 0.01251575
+  }
+ },
+ "elapsed_s": 82.2,
+ "packet_sha256": "4360245d5541e1c048e68de65acf269f9298c99b5b95199a7e70774a4f85de67",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

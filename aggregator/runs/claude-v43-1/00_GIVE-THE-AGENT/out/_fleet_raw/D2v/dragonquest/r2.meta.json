@@ -1,0 +1,34 @@
+{
+ "packet": "dragonquest",
+ "group": "dragonquest",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_Nh9CiBj8ryk9TrScCu7T",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8010,
+  "output_tokens": 15710,
+  "output_tokens_details": {
+   "thinking_tokens": 15486
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01594125,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01594125,
+   "upstream_inference_prompt_cost": 0.00180225,
+   "upstream_inference_completions_cost": 0.014139
+  }
+ },
+ "elapsed_s": 64.5,
+ "packet_sha256": "0ab0cdf13763dd3e954424df69cc6b24e5094e8ae1e5b797a145e7942f02b930",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

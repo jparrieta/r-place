@@ -1,0 +1,34 @@
+{
+ "packet": "ElSalvador",
+ "group": "ElSalvador",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ITbgD5wo8inR2KWyqNdW",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6865,
+  "output_tokens": 2162,
+  "output_tokens_details": {
+   "thinking_tokens": 1941
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00232962,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00232962,
+   "upstream_inference_prompt_cost": 0.0006865,
+   "upstream_inference_completions_cost": 0.00164312
+  }
+ },
+ "elapsed_s": 13.1,
+ "packet_sha256": "c612896f6d315f9c7d6b6dc699a4e3dfb45bba437741397ad9e3c73418fed9fe",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "GreenCorner",
+ "group": "GreenCorner",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_kzikQEFnpphnM6u9ru1k",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7665,
+  "output_tokens": 13899,
+  "output_tokens_details": {
+   "thinking_tokens": 13699
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.014233725,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.014233725,
+   "upstream_inference_prompt_cost": 0.001724625,
+   "upstream_inference_completions_cost": 0.0125091
+  }
+ },
+ "elapsed_s": 45.9,
+ "packet_sha256": "1be18d0874ce762bb8c8d0ed578a4c81c94645ab82889d049ac247f2743994e4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

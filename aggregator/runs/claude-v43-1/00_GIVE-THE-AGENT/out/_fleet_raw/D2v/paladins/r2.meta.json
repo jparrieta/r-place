@@ -1,0 +1,34 @@
+{
+ "packet": "paladins",
+ "group": "paladins",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_iq4Fij6ZhAdn3gLc9UdL",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8929,
+  "output_tokens": 9559,
+  "output_tokens_details": {
+   "thinking_tokens": 9407
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0075527,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0075527,
+   "upstream_inference_prompt_cost": 0.00133935,
+   "upstream_inference_completions_cost": 0.00621335
+  }
+ },
+ "elapsed_s": 43.1,
+ "packet_sha256": "dba13e1d124058338dd7b3bb5c346adda64170f4f79391b458dd01e6c93fc9ba",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

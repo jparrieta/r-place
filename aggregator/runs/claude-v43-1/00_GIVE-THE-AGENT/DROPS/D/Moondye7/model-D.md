@@ -1,0 +1,70 @@
+# r/Moondye7 — adapted room model
+
+Model version: e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd
+
+## D01 Critical mass
+
+[P01] Members made participation concrete through “Jeder kann alle 5 Minuten einen Pixel machen!” and “Helft mit!”, then called for greater effort on the new logo [c0005] [c0006] [c0042]. [K02] Relative weakness appears in the judgement that cooperation is the only solution given placestart’s strength; the record supports this comparison, rather than an exact shortage of placers [c0020]. [P01] A proposed “Großaktion” during Daniel’s stream recruited an existing audience as a possible way through resistance, but the proposal does not establish that the mass action occurred [c0039].
+
+[A01] Calls and subsequent reports of a finished logo give a compatible sequence, but do not identify which placers answered which call [c0006] [c0012]. [A02] A member’s plan to reserve black space gives later callers something concrete to recruit for; it does not establish that the starter personally caused those calls [c0004] [c0005] [c0006].
+
+## D02 Coordination without command
+
+[R01] Der_Muggemann supplies an initial plan: reserve space in black, then put the sign on it; a later participant invites everyone to place [c0004] [c0005]. [P02] The plan includes a grey frame one pixel away from both MD7 and Halifax, showing a concrete decision about the combined appearance [c0023]. [P04] Coordinates and templates make collective placement actionable, including a new upper-left coordinate and a request to post template updates as new comments [c0011] [c0047]. [P04] The local addition is that a template must reach people’s attention: the demand for a new comment makes update visibility part of coordination, rather than treating publication alone as sufficient [c0047]. [P03] “Da es jetzt fertig ist” reports completion, while the move is later reported as successful [c0012] [c0049].
+
+[P15] “Pixel-Soldat Kliewe bereit zum ausrücken” supplies a brief declaration of readiness after the orders post; the forest places it under a short salute rather than as a direct answer to the opening call [c0042] [c0043]. [A12] This supports a bare acceptance, but not the full mechanism that every reader owes an answer or that refusals generally require reasons [c0043]. [K01] The separate prank supplies a reasonless “No :P”; because it answers a chat prank, it cannot establish a counterexample about acceptance of canvas calls [c0001] [c0002].
+
+[P14] Automation relieves a named watcher so they can sleep, and another participant later says a bot handled pixeling [c0009] [c0069]. [C01] These arrangements, the “Pixel-Soldat” language, and the retrospective division into planning, design and diplomacy show differentiated work, but do not prove an appointed leader, binding command or formally assigned teams [c0009] [c0043] [c0062]. [C01] Formal decided order remains not-testable from those passages, especially when a participant directs people into Twitch chat whose decisions the coded passage does not expose [c0048]. [A11] The frame proposal and template-update request do not document a design debate being settled by one agreed template, so that mechanism remains not-testable [c0023] [c0047].
+
+## D03 Maintenance
+
+[P05] Keeping the logo involves asking for watch relief, logging hostile pixels, handing the watch to a bot, and instructing people to defend the completed mark [c0007] [c0008] [c0009] [c0012]. [A03] The instruction explicitly links finishing to defending: “Da es jetzt fertig ist, einfach verteidigen” [c0012]. [A06] The bot handoff directly supports relief from human watching; the passage does not establish the stronger claim that one-pixel-per-interval capacity had become quantitatively insufficient [c0009].
+
+[P06] The candidate attribution process operates when a participant identifies placestart scripts as working against the move while their operators sleep [c0037]. [P14] This produces an important local condition: machine hands can preserve an obsolete target while human negotiators try to coordinate a new one [c0037] [c0040]. [P08] Asking for better contact and telling a diplomat to spread the new template are responses to that mismatch, although their occurrence does not prove that every script was updated [c0038] [c0040].
+
+## D04 Order without law
+
+[P08] Participants negotiate for protection and a viable location, ask whether to remain with bluecorner or follow placestart, and check whether everyone agrees to integration [c0024] [c0027] [c0030]. [A04] “so viele Verhandlungen geführt um 50 Pixel zu verteidigen” explicitly ties negotiation to defence [c0026]. [R02] The candidate envoy role is visible in reports of notifying placestart, contacting the Bohnen, and writing to their diplomat [c0031] [c0032] [c0040].
+
+[P16] The proposed bluecorner bargain exchanges background-clearing and spreading blue for being spared and protected; another member restates the bargain as filling the background in return for remaining [c0024] [c0025]. [A13] This supports seeking help under defensive strain, but the quoted offer alone does not verify that promised protection was delivered [c0020] [c0024]. [A14] Reciprocity is explicit when old space is offered to Undertale “in return for defending us before”; the forest places this reply in the visitor’s repair exchange [c0034] [c0036]. [P07] The Undertale visitor apologizes for damage and tries to recruit repair, an incoming act of restraint rather than evidence that MD7 itself had attacked [c0034]. [A05] The apology does not establish that a previously settled border caused restraint [c0034].
+
+[P17] “Wir gehen eine Allianz ein” announces a placestart alliance [c0041]. [P19] The candidate host-and-guest arrangement adds detail missing from a generic coalition: MD7 is included in another group’s template and builds through its permission [c0030] [c0041]. [P08] An agreement can coexist with resistance: a visitor claims the space, a member says the placement was agreed, and another visitor says to ignore the objection and offers help [c0044] [c0045] [c0046]. [P08] Implementation also depends on reaching people who can circulate the updated plan, since scripts continue working against the move [c0037] [c0038] [c0040].
+
+[absent P21] The tentative mandate-dispute process is unobserved: “Es wurde sogar mit euch abgesprochen!” and “Achtet nicht auf den” contest an objection, but nobody in these concepts says an envoy’s agreement cannot bind them or demands an authorized leader [c0045] [c0046]. [absent A21] The corresponding arrow is not-testable: the local disagreement is visible, but cannot be converted into a demonstrated dispute over who may represent a whole room [c0044] [c0045] [c0046]. [A19] Defence and alliance coexist, but the concepts do not establish that both partners faced the same threat or that reciprocal protection was performed [c0026] [c0041].
+
+[P10] Relocation includes an early coordinate shift, a contingency plan to seek an easier place, and a later report of successfully moving [c0010] [c0029] [c0049]. [P10] The adapted sequence permits movement while some work remains defensible; the code calls for defending an already finished logo, rather than establishing total erasure as a necessary trigger [c0012] [c0010]. [A10] Relative weakness is one stated reason to seek cooperation, but it does not establish that a measured shortage of hands caused either move [c0020] [c0029]. [P10] The local model therefore adds a return to building and renewed mobilization during relocation, supported by the call to enlarge effort and the successful-move report [c0042] [c0049].
+
+## D05 Collective identity
+
+[K04] The candidate condition operates at the scale of the existing streamer community: “Für die Stirn!” and the “Pixel-Soldat” formulation make collective work speak in a shared register [c0050] [c0043]. [K04] The evidence establishes use of those expressions, not their origin or an elaborate pre-canvas doctrine [c0050]. [absent K03] A prior quarrel is unobserved: cheering “Weg mit dem BVB Logo” names a target without stating any pre-existing dispute [c0021]. [absent C02] The same passage does not identify an inherited tie as the reason for an attack, so the claim is unobserved here [c0021].
+
+## D06 Host framing
+
+[K01] A separate April Fool proposal asks people to spam “no sound” in the streamer’s chat; refusal and a joke about moderator emote-only mode show how the prank is answered [c0001] [c0002] [c0003]. [K01] This supports a parallel licence for play, without making the canvas calls themselves jokes [c0001] [c0005]. [absent P20] Canvas-post containment is unobserved; the only cited moderator conduct concerns the separate chat prank, not a canvas megathread or rule [c0003]. [absent A20] The canvas calls do not establish a subsequent host boundary response, and that silence cannot establish that one was unnecessary [c0005] [c0006].
+
+## D07 Imprinting
+
+[P11] Completion is repeatedly marked through “we did it,” pride, an improved logo and a successful move [c0013] [c0014] [c0015] [c0049]. [P12] Members circulate timelapses during the event and a full timelapse after its end [c0016] [c0017] [c0061]. [A07] Reports of success and celebration coexist, but the edited move report is not a precise timestamp for every sentence appended to it [c0049]. [A08] Celebration precedes the timelapse posts in the supplied record; no cited concept says celebration caused recording, so the local account preserves the sequence without treating its mechanism as settled [c0013] [c0017].
+
+[P13] “Taskleistendye7 in Minecraft” remakes the mark elsewhere before placement ends [c0052]. [A09] The remake fits continuation near the close, but no passage establishes that a screenshot or timelapse prompted it [c0017] [c0052]. [P11] A former viewer thanks the visible logo for bringing back good memories; this is a demonstrated return of recognition to the room, without evidence of renewed subscription or regular participation [c0051].
+
+[P12] The end closes a pending space question—“since it's over things are settled anyways”—rather than documenting a negotiated settlement [c0054]. [P11] Closure then credits planning, building, negotiating and repairing, and expresses affection for pixeling together [c0058] [c0056] [c0059] [c0060]. [P16] Thanks to Halifax explicitly coexist with failure to protect its H; thanking an ally is not proof that all reciprocal defence succeeded [c0063].
+
+[P11] The credit roll distinguishes pixeling, planning, design and contact work, while members correct omissions and tease whether a participant was active enough [c0062] [c0064] [c0065] [c0066] [c0070] [c0071]. [P22] The tentative correction-of-the-event-account process operates narrowly on who is remembered as a helper, not on cleaning or selecting a canvas image [c0070] [c0071]. [P11] A further local step converts the list into a request for “Scheinmod” recognition, so closure includes distributing symbolic status as well as recording contributions [c0067] [c0071]. [P11] The final reminder leaves that distribution unfinished within the record [c0071].
+
+## D08 Contention
+
+[P18] The cheering removal of the BVB logo supplies a minimal competitive utterance, without documenting a sustained inter-room contest [c0021]. [absent P09] MD7’s organized attacking is unobserved: celebrating another logo’s removal does not establish who erased it or whether this room called for the attack [c0021]. [absent A15] The documented calls recruit construction and preservation; their co-occurrence with a competitive remark does not establish a turn from recruitment into attack [c0005] [c0006] [c0021]. [absent A16] An Undertale visitor’s apology does not demonstrate an MD7 attack call answered by MD7 restraint [c0034]. [absent A17] Cooperation is argued for against placestart’s strength, but the initiating attack call required by this arrow is unobserved [c0020]. [absent A18] The BVB remark lacks the attack-call sequence needed to test the proposed progression into spoken contest [c0021].
+
+## Local exceptions
+
+[P04] Add update visibility inside template coordination: a fresh comment is requested when the template changes [c0047]. [P08] Add implementation work after agreement: contact with a diplomat and operators remains necessary when sleeping users’ scripts overwrite the new plan [c0037] [c0038] [c0040]. [P19] Retain the candidate host-and-guest arrangement because another group’s template supplies permission and location, rather than flattening this into undifferentiated alliance [c0030] [c0041] [c0044] [c0045].
+
+[P10] Permit a preventive or partial-loss move and add rebuilding and mobilization during it; total erasure and abandonment are not established prerequisites for this room’s move [c0010] [c0012] [c0042] [c0049]. [A06] Restrict the demonstrated automation mechanism to relieving human watch, since insufficient placement capacity is not measured [c0009]. [P11] Add contested distribution of symbolic rewards to credit-making, and retain the tentative [P22] reading only for correcting the contributor account [c0067] [c0070] [c0071].
+
+[P21] Whether anyone disputed an envoy’s mandate remains unresolved; the available exchange establishes conflicting claims and a correction, not the stronger representative-authority claim [c0044] [c0045] [c0046]. [C01] Formal allocation of command remains unresolved because role names, retrospective contributions and a chat referral do not expose appointment decisions [c0043] [c0048] [c0062]. [A08] The causal move from celebration to recording, and [A09] from recording to the Minecraft remake, remains not-testable from their ordered appearances alone [c0013] [c0017] [c0052].
+
+grade: composes-with-residue
+The adapted elements explain the supported work, bargains, moves and disputed recognition, while formal authority and several proposed causal mechanisms remain unresolved [C01] [P21] [A08] [A09] [c0048] [c0045] [c0067] [c0052].
+local_status: unresolved
+<!-- end -->

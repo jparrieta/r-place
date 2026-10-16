@@ -1,0 +1,34 @@
+{
+ "packet": "kilian",
+ "group": "kilian",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_wVFeSFuiw5ZJdxbTNgfl",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7847,
+  "output_tokens": 8146,
+  "output_tokens_details": {
+   "thinking_tokens": 7781
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00727758,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00727758,
+   "upstream_inference_prompt_cost": 0.00141246,
+   "upstream_inference_completions_cost": 0.00586512
+  }
+ },
+ "elapsed_s": 76.8,
+ "packet_sha256": "37d2a47223972a897c94b070875190d626be9bef644c4eb9f16ba265835b6787",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

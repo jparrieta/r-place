@@ -2251,6 +2251,19 @@
     "output_tokens": 286698
    },
    "session": "f3877393-a4d0-4f93-abf0-51f736efcf0d"
+  },
+  {
+   "stage": "D2",
+   "leg": "D2a",
+   "closed_utc": "20261016T093716Z",
+   "cut": "adaptations-in",
+   "tokens": {
+    "input_tokens": 426,
+    "cache_creation_input_tokens": 819437,
+    "cache_read_input_tokens": 55514646,
+    "output_tokens": 222792
+   },
+   "session": "f531d251-7eae-4ca7-95a9-abc472fc5656"
   }
  ],
  "handoff_D": {
@@ -2260,5 +2273,11 @@
    "tasks": 705,
    "unbuilt": 0
   }
+ },
+ "D2": {
+  "accepted": 705,
+  "reissued": 0,
+  "unreturned": 0,
+  "compiled_utc": "2026-10-16T08:58:55"
  }
 }

@@ -1,0 +1,34 @@
+{
+ "packet": "AMD",
+ "group": "AMD",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_2Hn03Lwh3N7mkbehpi9A",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8317,
+  "output_tokens": 9250,
+  "output_tokens_details": {
+   "thinking_tokens": 8819
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00679755,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00679755,
+   "upstream_inference_prompt_cost": 0.00124755,
+   "upstream_inference_completions_cost": 0.00555
+  }
+ },
+ "elapsed_s": 48.1,
+ "packet_sha256": "367447f94b5c9ce4fdfa464c4861dd6237e8fc53dd2271fd114e15ce8d56640b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

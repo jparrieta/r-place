@@ -1,0 +1,34 @@
+{
+ "packet": "farmcarrots",
+ "group": "farmcarrots",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_8FTLYrjssQ6m3GpHuALy",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7880,
+  "output_tokens": 14074,
+  "output_tokens_details": {
+   "thinking_tokens": 13811
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0103301,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0103301,
+   "upstream_inference_prompt_cost": 0.001182,
+   "upstream_inference_completions_cost": 0.0091481
+  }
+ },
+ "elapsed_s": 70.0,
+ "packet_sha256": "0b1a2466983a28ceabd2925eba7890a306040714dcfeb1870790cacd78711395",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

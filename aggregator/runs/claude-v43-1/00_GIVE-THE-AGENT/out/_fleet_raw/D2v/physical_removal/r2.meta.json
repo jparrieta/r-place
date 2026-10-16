@@ -1,0 +1,34 @@
+{
+ "packet": "physical_removal",
+ "group": "physical_removal",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_2sYJiSx1DcPWq8a8B6et",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8068,
+  "output_tokens": 9574,
+  "output_tokens_details": {
+   "thinking_tokens": 9282
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0074333,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0074333,
+   "upstream_inference_prompt_cost": 0.0012102,
+   "upstream_inference_completions_cost": 0.0062231
+  }
+ },
+ "elapsed_s": 45.6,
+ "packet_sha256": "66e6ef2140d98c67349f378ef8dcb593e27b8604d477a87b1fa974fc8afe5e41",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

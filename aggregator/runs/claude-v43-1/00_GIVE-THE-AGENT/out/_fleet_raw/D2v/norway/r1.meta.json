@@ -1,0 +1,34 @@
+{
+ "packet": "norway",
+ "group": "norway",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_6h3SEafnazice5eQcUiN",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7906,
+  "output_tokens": 15715,
+  "output_tokens_details": {
+   "thinking_tokens": 15494
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.012734,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.012734,
+   "upstream_inference_prompt_cost": 0.0007906,
+   "upstream_inference_completions_cost": 0.0119434
+  }
+ },
+ "elapsed_s": 161.3,
+ "packet_sha256": "5a9e1fa60d59eb93db9d76e4cb72ebda8420fb02421c905f5170ff42d7226cc8",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

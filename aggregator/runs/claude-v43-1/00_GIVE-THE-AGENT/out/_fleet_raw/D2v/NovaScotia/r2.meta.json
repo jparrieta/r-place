@@ -1,0 +1,34 @@
+{
+ "packet": "NovaScotia",
+ "group": "NovaScotia",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_cwUBde6qeAGEHH4yPY9k",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6336,
+  "output_tokens": 3888,
+  "output_tokens_details": {
+   "thinking_tokens": 3844
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0031889664,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0031889664,
+   "upstream_inference_prompt_cost": 7.85664e-05,
+   "upstream_inference_completions_cost": 0.0031104
+  }
+ },
+ "elapsed_s": 30.3,
+ "packet_sha256": "66985ebfe82f971468a148f3c1ac8f25e87aa34d077120e9a3c67d2f01bf3866",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

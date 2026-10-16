@@ -1228,5 +1228,50 @@
     "ceiling": 51200
    }
   ]
+ },
+ {
+  "stage": "D2",
+  "leg": "D2a",
+  "step": "the check leg of the return: the labelers' returns (DROPS/D/) and the verdict fleet (_fleet_raw/D2v/)",
+  "written_utc": "2026-10-16T09:08:23Z",
+  "labelers_model": {
+   "gpt-6.1-sol": 705
+  },
+  "labelers_resumed_with": {
+   "gpt-5.6-sol": 705
+  },
+  "labelers_attempts": {
+   "1": 705
+  },
+  "labelers_note": "one Codex fork per room of the original case lead's verified checkpoint, resumed on gpt-5.6 at medium effort and switched in the same fork to gpt-6.1 at medium effort before the return task (J's ruling; the handler's recap of 2026-10-16); model and resumed_with from the 705 run.json copies; 378 rooms had one to four same-session repairs of attempt 1 (the recap); no second labeler set (D2L) was run",
+  "readers_model": "deepseek/deepseek-v4.1-flash",
+  "readers_route": "gateway",
+  "readers_effort": "medium",
+  "readers_served_verified": true,
+  "readers_per_room": 2,
+  "readers_reissue_limit": 2,
+  "readers_max_tokens": 128000,
+  "readers_return_spec_sha256": "d04cd42979ac055901e6e83d575323f62692781fcd50ea5575d96a91433119b5",
+  "readers_valid_returns": 1410,
+  "readers_exhausted": 0,
+  "readers_cost_usd": 13.027953,
+  "readers_utc": [
+   "2026-10-15T20:03:32Z",
+   "2026-10-15T21:33:06Z"
+  ],
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch and the Codex harness, which this session cannot read"
+  },
+  "seeds": {
+   "sample_draw": 20261016,
+   "note": "ten model-D.md files by random.Random(20261016), stratified on the room verdict (_analysis/d2_sample.py)"
+  },
+  "n_agents": {
+   "labelers": 705,
+   "readers": 1410
+  },
+  "model_version": "e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd"
  }
 ]

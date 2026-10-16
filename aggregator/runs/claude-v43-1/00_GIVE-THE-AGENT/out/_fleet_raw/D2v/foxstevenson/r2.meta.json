@@ -1,0 +1,34 @@
+{
+ "packet": "foxstevenson",
+ "group": "foxstevenson",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_zznyCA1G5oHmY5FSR9V9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7616,
+  "output_tokens": 5368,
+  "output_tokens_details": {
+   "thinking_tokens": 5164
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0087264,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0087264,
+   "upstream_inference_prompt_cost": 0.0022848,
+   "upstream_inference_completions_cost": 0.0064416
+  }
+ },
+ "elapsed_s": 18.2,
+ "packet_sha256": "1dbe77e34f0fe8de3bba9e0df0026129e6204f2f33c2c51c97ebb886a600943b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

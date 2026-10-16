@@ -1,0 +1,34 @@
+{
+ "packet": "peterdraws",
+ "group": "peterdraws",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_BRUdyJXpO7qJULSBBNi7",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6570,
+  "output_tokens": 10808,
+  "output_tokens_details": {
+   "thinking_tokens": 10595
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01120545,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01120545,
+   "upstream_inference_prompt_cost": 0.00147825,
+   "upstream_inference_completions_cost": 0.0097272
+  }
+ },
+ "elapsed_s": 38.2,
+ "packet_sha256": "0f1406fbae36ab746cbb4f241c506b35c65c114ea3e5685ddd77e0d9831ff358",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

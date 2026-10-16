@@ -1,0 +1,72 @@
+# r/southpark — adapted room model
+
+## D01 Critical mass
+
+[P01] Recruitment begins at a small scale: a builder asks for help because a buddy has gone to bed and working alone is difficult [c0001]. [K02] The same shortage appears during defense, when a participant says, “I'm trying my best but it's not enough” [c0032]. [P01] Participation also requires an explanatory step: “What's r/place” receives the account that every user can change one pixel every five minutes, and a later question about whether it is still happening receives directions to the subreddit [c0028] [c0029] [c0030] [c0031]. [P04] A direct canvas link then makes the drawing easier to find [c0033].
+
+[A01] The recruitment-to-building sequence has a visible local form: the Mr. Hankey plea receives “post the plan and the coordinates we will help out,” followed by coordinates and an outline reported nearly finished [c0001] [c0002] [c0003]. [A01] This supports a call eliciting a coordination exchange, but does not show that the call initiated construction; the starter was already working, just as the Cartman proposer had already started the right eye [c0001] [c0007]. [A02] Starting and calling can therefore occupy the same turn rather than distinct stages [c0007] [c0015].
+
+[A10] Shortage and later rebuilding both appear, but their causal connection is not established: the defense plea reports insufficient effort, while a different participant later reports making a smaller version without naming that plea or a decision to stop fighting [c0032] [c0052]. [absent A10] The shortage-to-move mechanism is not-testable here rather than contradicted [c0032] [c0051] [c0052].
+
+## D02 Coordination without command
+
+[R01] Starters propose a character and begin it, and another participant subsequently reports working on it [c0007] [c0015]. [P02] The room's proposals concern particular South Park characters, while the working design gets expressed through a head-and-hat plan and an eyes-before-skin sequence [c0001] [c0004] [c0007] [c0014]. [P04] Coordinates, linked guides, and replies identifying a pupil supply usable instructions rather than an observed room-wide authority [c0006] [c0008] [c0009].
+
+[P02] Two Cartman starts remain separate: one builder invites help at different coordinates, another warns that the spot is crowded and asks that group to join the other spot, and the reply explicitly continues the existing start because several people already have good progress [c0010] [c0011] [c0012] [c0013]. [A11] A posted guide therefore cannot be treated as settlement of a single agreed design; shared coordinates settle action within a willing group, while another group may retain its own start [c0006] [c0007] [c0012] [c0013]. [C01] This is compatible with voluntary coordination, but it cannot establish either the absence of decided order anywhere in the room or the model's cross-room frequency claim [c0012] [c0013] [c0014].
+
+[P03] Public reporting continues through “Cartman so far in r/place,” “Another update,” and “This is what remains of Cartman” [c0027] [c0036] [c0050]. [P03] These posts let the room see a reported state; the cited titles alone do not verify the linked images' contents [c0027] [c0036] [c0050]. [absent P14] Placement scripts, spare accounts, and their effects are unobserved: the coded repair report describes repeated effort but supplies no placement method [c0038].
+
+[P15] Although dimensionless in the model, bare joining and thanks operate within this coordination: “Well I'm with you dude” receives “Thanks man” [c0039] [c0040]. [A12] The forest places these turns after a defense call and an intervening report of existing defense; the acceptance is visible, but the model's claim about what every reader owes the call is not observable [c0037] [c0038] [c0039] [c0040]. [A12] A reasoned refusal also occurs, but it refuses merging groups rather than all participation in the canvas [c0012] [c0013].
+
+## D03 Maintenance
+
+[P05] Defense is concrete and repeated: participants ask for help, report replacing random colours and altered eyes, seek the familiar South Park eye shape, and join another defender [c0032] [c0035] [c0037] [c0038] [c0039]. [A03] An update receives a defense plea after 23.8 minutes, and a report of defending for hours follows one minute later; reporting and upkeep coexist, while the stated hours of prior effort prevent treating the update as the origin of defense [c0036] [c0037] [c0038].
+
+[P06] The candidate attribution process appears as a general explanation rather than identification of placers: a question about why people damage Cartman receives the answer that continual change attracts interference [c0041] [c0042]. [new: treating continual alteration as the purpose of the canvas] “It's not to keep your little drawing forever” also disputes the defenders' premise; it is neither a repair commitment nor a promise to spare neighbouring art [c0042]. [P05] The defensible account is consequently contested upkeep by particular participants, rather than preservation as a shared room norm [c0038] [c0042]. [absent A06] The proposed passage from strain to machine placement is unobserved even though strain is explicit [c0032] [c0038].
+
+## D04 Order without law
+
+[P16] Outside help appears in a specific form: a participant says the work at r/TsundereSharks is finished and offers to preserve Cartman [c0044]. [A13] In the forest that offer answers the local defense plea; its stated reason is having finished the other drawing, with no recorded reciprocal bargain or outbound request to that community [c0037] [c0044]. [P16] The later greeting and repeated “got your back” statements supply another offer of support [c0045] [c0046] [c0049].
+
+[P17] The football-subreddit alliance is an attempted coalition, expressed as “could form a pretty sick alliance,” alongside a possible nearby Jurgen Klopp design [c0047] [c0048]. [P17] The adapted account keeps proposal separate from membership: acceptance and mutual defense remain not-testable because the initiating body and subsequent reply are deleted in the supplied account [c0045] [c0048] [c0049]. [absent A19] Defense precedes this proposal, but the proposal does not name the earlier defense as its cause, and joint action remains not-testable [c0037] [c0048]. [absent P08] A greeting and alliance suggestion do not establish a negotiated border or truce; such an agreement is not-testable from the surviving exchange [c0045] [c0048]. [absent R02] Whether the visitor acted as an authorized envoy is likewise not-testable from a title and a supportive reply [c0045] [c0046].
+
+[P07] The placement of the “whole point” theme under restraint requires correction: its speaker accepts interference as the event's purpose instead of sparing others' work or calling attackers off [c0042]. [T3-046] The ladder's fairness dispute fits this contrast, but its broader P07 summary must allow a position against preserving a drawing [c0041] [c0042]. [new: treating continual alteration as the purpose of the canvas] This competing justification remains in the local explanation even though it supplies no observed attack by its speaker [c0042].
+
+[P10] The loss-and-move process applies at the level of a participant's reported smaller replacement: the original is said to be under GTA, while “The new smaller one was made by myself” [c0051] [c0052]. [P10] The face-only design fits between named neighbouring drawings, but no passage records weighing a renewed fight against moving, a room decision, or convergence of the early starts [c0013] [c0051] [c0052] [c0053]. [absent P19] Fitting among neighbours and adding blue for “assimilation” do not establish a host's permission or rule; that relation is not-testable here [c0003] [c0053].
+
+[absent P21] The tentative process of disputing who can commit the room is unobserved: the alliance speaker proposes cooperation but no surviving concept disputes a representative's authority [c0048] [c0049]. [absent A21] With no recoverable settled agreement or authority dispute, the tentative agreement-to-representation mechanism is not-testable [c0045] [c0048]. [absent A04] [absent A05] [absent A14] The mechanisms connecting upkeep, border agreement, restraint, and exchanged help are not-testable because the surviving concepts show an offer and a proposal rather than a negotiated border [c0044] [c0048].
+
+## D05 Collective identity
+
+[K04] The candidate process of carrying fandom language into canvas work operates directly: “AUTHORITAH” demands defense, and the wall line answers the explanation of alteration [c0034] [c0043]. [K04] These phrases give practical calls and disagreement a South Park form without establishing an organized faction, ethnic adversary, or ideological dispute [c0034] [c0042] [c0043]. [absent K03] A prior quarrel carried onto the canvas is unobserved in this material [c0043]. [absent C02] The wall line does not identify a real rival or call an attack, so the claim that prior ties name a target in an attack turn is not-testable here [c0043].
+
+## D06 Host framing
+
+[K01] April Fools play has its own public proposal: “1000 upderps” would make the subreddit Rob Schneider themed, followed by a claimed milestone and a demand for moderator action [c0016] [c0017]. [K01] Mock trailers turn Schneider into a carrot, Kenny, a stapler, and a subreddit; another participant suggests Amy Schumer, receives rejection, and another calls the whole joke least funny and creative [c0018] [c0019] [c0020] [c0021] [c0022] [c0025] [c0026]. [K01] The vote threshold governs the subreddit joke and cannot establish a canvas vote, moderator implementation, or insincerity in the separate drawing calls [c0016] [c0017] [c0001] [c0007].
+
+[absent P20] Rules restricting canvas posts, a megathread, and moderator management of a canvas flood are unobserved; calling on mods to enact the Rob Schneider joke does not supply them [c0017]. [absent A20] The causal flood-to-boundary mechanism is unobserved rather than refuted by the coexistence of canvas recruitment and a separate host joke [c0001] [c0016] [c0017].
+
+## D07 Imprinting
+
+[P11] Credit need not wait for completion: the Mr. Hankey starter thanks a helper while further parts remain planned, and the smaller Cartman maker claims personal authorship in a loss report [c0004] [c0005] [c0052]. [A07] These concepts warrant credit during work and after loss, rather than assuming a completed common mark triggered a completion ritual [c0005] [c0051] [c0052]. [P12] Fate is recorded before closure through “what remains,” the location of the overwritten original, and the explanation of the smaller face among neighbouring drawings [c0050] [c0051] [c0053]. [absent A08] Credit and recording coexist, but no passage links them as the claimed marking-to-recording mechanism [c0005] [c0050] [c0052].
+
+[absent P13] A successor canvas, emblem adoption, or continuing collective is unobserved; the smaller Cartman is described on the same still-active canvas [c0052] [c0053]. [absent A09] A fate report cannot establish that the room then chose a future use of its effort, so the recording-to-continuation mechanism remains unobserved [c0050] [c0051]. [absent P22] The tentative post-close contest over cleaned images or retained history is unobserved; the late coded question and answer concern Katie using Reddit [c0054] [c0055].
+
+## D08 Contention
+
+[absent P09] The room's own attack activity is unobserved: a defender reports damage and another speaker justifies continual interference, but neither concept shows this room directing an attack [c0038] [c0042]. [absent P18] Talk carried against a named rival is unobserved; the wall joke does not establish a real rival exchange [c0043]. [absent A15] Recruitment-to-attack is unobserved in the surviving calls for building and defense [c0001] [c0037]. [absent A16] [absent A17] [absent A18] Without an observed attack call by this room, the attack-to-restraint, attack-to-truce, and attack-to-rival-talk mechanisms are not-testable [c0037] [c0042] [c0043].
+
+## Local exceptions
+
+[A01] [A03] [A11] The model's ordered story needs existing work and parallel starts retained: calls recruit into already begun projects, updates do not start all defense, and coordinates do not settle a common design across a group that explicitly declines merging [c0007] [c0012] [c0013] [c0038]. [C01] Unobserved institutions cannot be converted into a positive finding that no organizing decisions existed [c0013] [c0014].
+
+[P07] [new: treating continual alteration as the purpose of the canvas] The strongest discrepancy is a fairness dispute whose contrary position endorses changing drawings, while the standing process describes restraint; the adaptation preserves that position separately and retains P06 only for its explanatory component [c0041] [c0042].
+
+[P17] [A19] Proposal must remain distinct from formed coalition and causal recruitment into it; acceptance is unresolved in the incomplete alliance exchange [c0045] [c0048] [c0049]. [P10] [A10] The smaller remake is individually claimed, while collective deliberation, the move's reason, and continuity with either early start remain unresolved [c0013] [c0051] [c0052] [c0053]. [A13] The unsolicited volunteer's stated availability after finishing another drawing supplies an alternative to a required outbound bargain [c0044]. [A07] Credit during unfinished work and in the report of an individual remake requires no completed shared-work ritual [c0004] [c0005] [c0052].
+
+[new: carrying on ordinary conversation inside an event thread] Theme t09 remains local residue: “katie why are you using reddit” receives “Why not,” without evidence that the canvas recruited or caused that exchange or that a standing model process explains it [c0054] [c0055]. [P21] [P22] [A21] All tentative elements remain unobserved or not-testable for the specific reasons above; neither the alliance proposal nor the social aside establishes them [c0048] [c0054] [c0055].
+
+local_status: unresolved
+grade: composes-with-residue
+The adapted model explains recruitment, coordinates, contested upkeep, offers of help, and an individual remake, while the acceptance of continual alteration needs explicit local treatment and alliance acceptance and relocation reasoning remain unresolved [P01] [P04] [P05] [P10] [P17] [new: treating continual alteration as the purpose of the canvas] [c0001] [c0009] [c0038] [c0042] [c0044] [c0048] [c0052].
+<!-- end -->

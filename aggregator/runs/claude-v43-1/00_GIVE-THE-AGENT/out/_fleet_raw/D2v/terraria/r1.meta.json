@@ -1,0 +1,34 @@
+{
+ "packet": "terraria",
+ "group": "terraria",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_n2ztPQvll6TG1U0MbaFj",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8268,
+  "output_tokens": 9243,
+  "output_tokens_details": {
+   "thinking_tokens": 8939
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.006786,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.006786,
+   "upstream_inference_prompt_cost": 0.0012402,
+   "upstream_inference_completions_cost": 0.0055458
+  }
+ },
+ "elapsed_s": 49.0,
+ "packet_sha256": "cca8ed11c7d85cd6e92b51f3fc6950164e1514d76f6012bf3a2779a46db9a74a",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

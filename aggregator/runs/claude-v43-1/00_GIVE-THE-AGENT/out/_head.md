@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at D1a, 2026-10-15 (UTC). Stages A1 to C5 are done; stage B is frozen. The model is frozen at pass 15 (e15f9647…b3fecd). Leg D1a built the return once: 705 tasks, 705 verdict packets and the sealed expectations.
+Under 3,000 words, rewritten whole at every close. Last written at D2a, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The model is frozen at pass 15 (e15f9647…b3fecd). Leg D1a built the return; leg D2a checked it. Nothing in the return is yet ruled on.
 
 ## The method question, in one sentence
 
@@ -15,14 +15,15 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - Stage D runs at xhigh effort, as every stage from here on.
 - "Keep the room, or groups of rooms, as the unit, and keep the contract's two questions in view."
 - **QD1-001 (J, 21:19 Berlin):** an element may sit in two or more dimensions; the check was wrong.
+- **QD2-001 (J, 16 October):** a dimension may stand as the element of restrict, add-condition and add-step; the eight such lines are ruled on as they stand.
 
-## The build (D1a)
+## The return (D1a, D2a)
 
-- **`prior.md` §7 and §8, written first.** §7: `w = 4, 2, 1, 0.5`; `g = 1, 0.5, 0, -1`. §8, review prompts: the concept floor, 10 concepts (42 rooms below); the off-platform threshold, 20 pointers, or at least 3 and one for every four concepts (68 rooms past).
-- **The model as prose:** 3,591 words under a 6,000-word ceiling; no room named.
-- **The expectations:** 705 lines by rules R1 to R6, sealed: 9,329 instantiations, 311 absences (C01 286, P20 25); 362 rooms not testable on some element.
-- **The folder:** hash 61b03bbf…508a5c; VERSION equals the model hash. Four rooms exceed the declared 1 MB session figure (counting's is 11.4 MB); none is cut.
-- **The 19 story-miss rooms** are listed in the stage notes and carried. The defects and limits are in the stage handback.
+- **D1a, the build.** `prior.md` §7 (`w = 4, 2, 1, 0.5`; `g = 1, 0.5, 0, -1`) and §8 (the concept floor, 10 concepts; the off-platform threshold, 20 pointers, or at least 3 and one for every four concepts) were written first. The model as prose holds 3,591 words. 705 expectations are sealed. Folder hash 61b03bbf…508a5c.
+- **D2a, the check.** 705 rooms returned, none unreturned; 42,243 ledger lines. Of 14,675 absent lines, 67 are evidenced; the rest mark limits of the evidence. 763 lines are non-portable.
+- **The readers.** They split in 163 rooms (23.1%), almost all on composes against with-residue. All 49 cannot-tell lines are supported by the room's numbers. Picturegame is the one room both judged does-not-compose.
+- **The labelers.** They grade every room composes-with-residue. They answer the candidates often: P06 in 564 rooms, K04 in 530, R02 in 500.
+- **Each stage's notes and handback** hold the counts, the split rooms and the defects.
 
 ## The current account, and the contrary rooms
 
@@ -48,27 +49,17 @@ The account is `account.md`, pass 15 (3,318 words), with the readers' disagreeme
 
 ## The reasons for the last revisions
 
-- **J's rulings of 15 October, 01:29 Berlin** (J has delegated C5 questions to the handler):
-  1. Work after hour 73 is curation of the record (P12; P22 tentative), apart from carrying on (P13).
-  2. The prose pass on the declarations comes first, with the rule written first and each amendment a move.
-  3. Stigmergy is recut only if it joins what Heylighen 2016 and Grassé 1959 keep apart.
-  4. The C5 readers are the second reader of the declarations; QC5-001 adds the field analyst.
-  5. J's language ruling stands.
-- **The passes of C5.** Passes 1 to 10 amended the declarations (P06 and R02 cut; K01 cut and restored), fixed the readers' errors and took the field analyst's advice (QC5-001). J, 11:02 and 12:01 Amsterdam: the field analyst's marks are advice; the room is the unit.
-- **The serial work, passes 11 to 14** (J's leave at C5c-07, QC5-002): findings F-019 to F-023 in `serial-C5/` (F-014 superseded), folded in once at pass 15.
-- **The freeze.** C5d-p2 recorded it at pass 15; `out/_closes` is the harness's (QC5-003).
+- **J's rulings of 15 October, 01:29 Berlin:** work after hour 73 is curation of the record (P12; P22 tentative), apart from carrying on (P13); J's language ruling stands; the others governed C5's passes.
+- **C5.** Passes 1 to 10 amended the declarations (P06 and R02 cut; K01 cut and restored) and took the field analyst's advice (QC5-001; J: the marks are advice, the room is the unit). The serial work (QC5-002) gave F-019 to F-023, folded in at pass 15. C5d-p2 recorded the freeze (QC5-003).
 
 ## Where the run stands
 
 - **D1a outputs:** `prior.md` §7 and §8; the stage's notes, model prose, expectations and handback; `handoff-D/`, `verdict-D/`, `sealed/`. Scripts: `out/_analysis/d1*`.
+- **D2a outputs:** the stage's notes and handback; `ingest-D.md`, `adaptations.jsonl`, `verdicts-D.jsonl` and `rooms/<sub>/` (from ingest); the manifest's entry. Scripts: `out/_analysis/d2*`.
 - **C5 outputs:** `account.md` (pass 15), `propositions.jsonl`, `implications-C5.md` (13 expectations), and `handback-C5.md` with the files it names.
 - **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 134, `findings.jsonl` 36 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
-- **The questions.** QD1-001, QC5-001 to QC5-003, QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
-
-## Stage C4, in short
-
-The field analyst modelled r/place, sealed from my files: five mechanisms shared; P21, A21 and P22 tentative; the sharpest disagreement is what a template can do. No finding changed.
+- **The questions.** QD2-001, QD1-001, QC5-001 to QC5-003, QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
 
 ## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
@@ -77,9 +68,9 @@ The field analyst modelled r/place, sealed from my files: five mechanisms shared
 - Follow ASD-STE100 about 80% of the time: one idea per sentence, active voice, common words, the actor and the act named.
 - Describe what members did, in what order, in how many rooms, and write no figures of speech. Gloss each construct name in plain words where it first appears.
 
-## Stage C3, in short
+## Stages C3 and C4, in short
 
-C3a bounded F-006 (O'Mahony and Ferraro; Olson open). C3b took A12's and A16's mechanisms from conversation analysis (F-014, F-015). C3c put the four universal problems to the structure (F-016) and the goal (F-017).
+C3 bounded F-006 (Olson open), took A12's and A16's mechanisms from conversation analysis (F-014, F-015), and put the four universal problems to the structure (F-016) and the goal (F-017). At C4 the field analyst, sealed from my files, entered P21, A21 and P22 as tentative.
 
 ## Stage C2, in short
 
@@ -130,7 +121,8 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## Open, carried
 
-- **From D1a:** C02 unpredicted; expectation 13 misses the host rooms; four rooms exceed a session.
+- **From D2a:** the labelers' grade never varies; ingest stamps every absent line as specification; the 378 same-session repairs are in no file the run keeps.
+- **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
 - **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, in both sources and not in the model.
 - **From C3:** whether the forms differ on the four universal problems or on the remainder; the colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]); Olson, open; the four declined reads.
 - **From C2:** what a mark brings back into its room; the two boundaries for the return; the claim untested for order.
@@ -175,4 +167,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The return is read against the sealed expectations, the 19 story-miss rooms first. Nothing of it runs on this model until the check leg is launched.
+The adaptations and verdicts have arrived, and nothing in them is ruled on. The next comparison is the one the next stage file sets, with the split rooms and the 19 story-miss rooms first (14 with-residue, 4 composes, 1 split).

@@ -1,0 +1,34 @@
+{
+ "packet": "mylittlepony",
+ "group": "mylittlepony",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_LZo1b83N7wFVD5Vk7TLX",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8499,
+  "output_tokens": 13109,
+  "output_tokens_details": {
+   "thinking_tokens": 13275
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.010691176,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.010691176,
+   "upstream_inference_prompt_cost": 0.000203976,
+   "upstream_inference_completions_cost": 0.0104872
+  }
+ },
+ "elapsed_s": 57.5,
+ "packet_sha256": "3e3319bf4c110fce276aafe76f8669b96586d79792bab16a0917e14ede173583",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

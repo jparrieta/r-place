@@ -1,0 +1,34 @@
+{
+ "packet": "androidgaming",
+ "group": "androidgaming",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_NbHW1O2Gwl924gZ8dwhh",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8107,
+  "output_tokens": 7297,
+  "output_tokens_details": {
+   "thinking_tokens": 7050
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008391375,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008391375,
+   "upstream_inference_prompt_cost": 0.001824075,
+   "upstream_inference_completions_cost": 0.0065673
+  }
+ },
+ "elapsed_s": 26.0,
+ "packet_sha256": "474a82458aad7cbd698e51a7b39b5095d9eae55bbee0f583ccf4a587e88c5a6f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "warthunder",
+ "group": "warthunder",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_0tz3tmaTvw0tuV59Orw0",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8251,
+  "output_tokens": 1652,
+  "output_tokens_details": {
+   "thinking_tokens": 1401
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00123873,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00123873,
+   "upstream_inference_prompt_cost": 0.00024753,
+   "upstream_inference_completions_cost": 0.0009912
+  }
+ },
+ "elapsed_s": 21.4,
+ "packet_sha256": "cb9ce011f95842436511d0b724cbbb64e89123cdada3d36c462eb928fa7fcc80",
+ "valid": false,
+ "why": "no end marker 'END-OF-VERDICT' on the last line",
+ "served_matches_probe": true
+}

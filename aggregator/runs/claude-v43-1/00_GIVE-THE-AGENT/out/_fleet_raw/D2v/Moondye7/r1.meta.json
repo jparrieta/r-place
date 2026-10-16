@@ -1,0 +1,34 @@
+{
+ "packet": "Moondye7",
+ "group": "Moondye7",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_LDBHVwXok0bRvfgqTTuV",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7934,
+  "output_tokens": 13608,
+  "output_tokens_details": {
+   "thinking_tokens": 13428
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.009167802,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.009167802,
+   "upstream_inference_prompt_cost": 0.001166298,
+   "upstream_inference_completions_cost": 0.008001504
+  }
+ },
+ "elapsed_s": 103.4,
+ "packet_sha256": "66f23928c2212654170a5da5255dad91e879d0b8e233ad4e946471765f5a1847",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

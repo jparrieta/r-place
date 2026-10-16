@@ -1,0 +1,34 @@
+{
+ "packet": "gravityfalls",
+ "group": "gravityfalls",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_IydnxBBlRSDkhjSddJ5F",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8013,
+  "output_tokens": 11490,
+  "output_tokens_details": {
+   "thinking_tokens": 11281
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00809595,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00809595,
+   "upstream_inference_prompt_cost": 0.00120195,
+   "upstream_inference_completions_cost": 0.006894
+  }
+ },
+ "elapsed_s": 63.3,
+ "packet_sha256": "3ee66b3fd739539621f1af871ba3ef5d0188694efcdb770639720607c9cd7841",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

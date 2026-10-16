@@ -1,0 +1,34 @@
+{
+ "packet": "winnipegjets",
+ "group": "winnipegjets",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_fRHhhxzR4rMIjnwIoRKE",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8590,
+  "output_tokens": 13986,
+  "output_tokens_details": {
+   "thinking_tokens": 13738
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01452015,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01452015,
+   "upstream_inference_prompt_cost": 0.00193275,
+   "upstream_inference_completions_cost": 0.0125874
+  }
+ },
+ "elapsed_s": 50.5,
+ "packet_sha256": "f9daafb600af17431fb80dd8a62a406607197b8379717313fedb5039b0b9aaf4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

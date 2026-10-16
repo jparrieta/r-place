@@ -1,0 +1,34 @@
+{
+ "packet": "azerbaijan",
+ "group": "azerbaijan",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_scdFEt821OSgsYttcqAb",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6519,
+  "output_tokens": 8076,
+  "output_tokens_details": {
+   "thinking_tokens": 7844
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00622725,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00622725,
+   "upstream_inference_prompt_cost": 0.00097785,
+   "upstream_inference_completions_cost": 0.0052494
+  }
+ },
+ "elapsed_s": 41.6,
+ "packet_sha256": "0d668dcde65f02be59565b02c78b160441e5b68aa8ac2b7387fde23afbee6bbb",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "pakistan",
+ "group": "pakistan",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_qRn4KANo0s5dhbiUNYvZ",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8623,
+  "output_tokens": 15542,
+  "output_tokens_details": {
+   "thinking_tokens": 15447
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01139575,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01139575,
+   "upstream_inference_prompt_cost": 0.00129345,
+   "upstream_inference_completions_cost": 0.0101023
+  }
+ },
+ "elapsed_s": 91.0,
+ "packet_sha256": "a35c9bd7587fb8603a93bf8e7d386a683f65d1e14143826f4014ec4685e4f113",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

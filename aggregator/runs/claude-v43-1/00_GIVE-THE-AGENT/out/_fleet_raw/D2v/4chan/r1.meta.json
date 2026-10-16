@@ -1,0 +1,34 @@
+{
+ "packet": "4chan",
+ "group": "4chan",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_yQyjkL3Kly7mtHr2BgVj",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8693,
+  "output_tokens": 7486,
+  "output_tokens_details": {
+   "thinking_tokens": 6964
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0115911,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0115911,
+   "upstream_inference_prompt_cost": 0.0026079,
+   "upstream_inference_completions_cost": 0.0089832
+  }
+ },
+ "elapsed_s": 30.2,
+ "packet_sha256": "dba485ddd775c9c22b1d5a1350da75b93a949a302a811fd89ce76917cd8fd43c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

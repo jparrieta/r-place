@@ -1,0 +1,34 @@
+{
+ "packet": "ockytop",
+ "group": "ockytop",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_HMA6HMyqy0QUGVY1h6Vw",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8365,
+  "output_tokens": 9054,
+  "output_tokens_details": {
+   "thinking_tokens": 8406
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0133743,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0133743,
+   "upstream_inference_prompt_cost": 0.0025095,
+   "upstream_inference_completions_cost": 0.0108648
+  }
+ },
+ "elapsed_s": 36.4,
+ "packet_sha256": "6974839e28e6c226552905059d306efd6c174d47bfb0558a394ad603f1485ea4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

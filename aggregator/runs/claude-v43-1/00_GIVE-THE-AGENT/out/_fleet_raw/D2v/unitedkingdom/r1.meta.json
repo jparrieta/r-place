@@ -1,0 +1,34 @@
+{
+ "packet": "unitedkingdom",
+ "group": "unitedkingdom",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_Q3v78v72R6OJvAbZ0qSy",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8036,
+  "output_tokens": 16974,
+  "output_tokens_details": {
+   "thinking_tokens": 17431
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0136788464,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0136788464,
+   "upstream_inference_prompt_cost": 9.96464e-05,
+   "upstream_inference_completions_cost": 0.0135792
+  }
+ },
+ "elapsed_s": 106.6,
+ "packet_sha256": "894629b1182e7463182f341fec7257805455a2d2644a2ad5f5b2940678035209",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

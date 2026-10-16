@@ -1,0 +1,34 @@
+{
+ "packet": "costa_rica",
+ "group": "costa_rica",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_7mqyqGAYpyOqNzHslftx",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8293,
+  "output_tokens": 10171,
+  "output_tokens_details": {
+   "thinking_tokens": 9876
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.009403584,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.009403584,
+   "upstream_inference_prompt_cost": 0.001592256,
+   "upstream_inference_completions_cost": 0.007811328
+  }
+ },
+ "elapsed_s": 79.1,
+ "packet_sha256": "d63ed725bdfc0b4662335db13c36df03405b53cbcfca7b331d83c6ca1b424fbc",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

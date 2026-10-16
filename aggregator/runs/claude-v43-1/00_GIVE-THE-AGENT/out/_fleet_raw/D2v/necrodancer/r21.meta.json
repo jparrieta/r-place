@@ -1,0 +1,34 @@
+{
+ "packet": "necrodancer",
+ "group": "necrodancer",
+ "reader": "r21",
+ "reissue": 1,
+ "generation": "msg_QuTHvXgnPe6MEK0wiY5H",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7897,
+  "output_tokens": 18876,
+  "output_tokens_details": {
+   "thinking_tokens": 18676
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.02289579,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.02289579,
+   "upstream_inference_prompt_cost": 0.00213219,
+   "upstream_inference_completions_cost": 0.0207636
+  }
+ },
+ "elapsed_s": 126.7,
+ "packet_sha256": "22bc51ae7f4e0d80c746d3d40f151ba6a4034593ccf2f7220af794ce6e4d9486",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

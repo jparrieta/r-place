@@ -1,0 +1,34 @@
+{
+ "packet": "catalonia",
+ "group": "catalonia",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_BCSlYPz22BCqgY2E0TO9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8543,
+  "output_tokens": 7874,
+  "output_tokens_details": {
+   "thinking_tokens": 7618
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00600585,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00600585,
+   "upstream_inference_prompt_cost": 0.00128145,
+   "upstream_inference_completions_cost": 0.0047244
+  }
+ },
+ "elapsed_s": 41.7,
+ "packet_sha256": "8e06d587f415805d5cf6de1919a1a59ed61886cd8366fa57eaf8cd103a70e383",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

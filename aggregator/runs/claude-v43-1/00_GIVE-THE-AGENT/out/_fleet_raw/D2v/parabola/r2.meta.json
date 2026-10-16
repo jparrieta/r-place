@@ -1,0 +1,34 @@
+{
+ "packet": "parabola",
+ "group": "parabola",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_VvQPcWWUa0qwf3kdlYSX",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7206,
+  "output_tokens": 7008,
+  "output_tokens_details": {
+   "thinking_tokens": 6818
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0052857,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0052857,
+   "upstream_inference_prompt_cost": 0.0010809,
+   "upstream_inference_completions_cost": 0.0042048
+  }
+ },
+ "elapsed_s": 41.5,
+ "packet_sha256": "6aa4b1883089c669a870f6fc984934be8eaecf5a726e397dba5dfc91327fca26",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

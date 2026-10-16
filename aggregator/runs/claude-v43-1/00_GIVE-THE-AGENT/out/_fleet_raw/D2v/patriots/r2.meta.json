@@ -1,0 +1,34 @@
+{
+ "packet": "patriots",
+ "group": "patriots",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_TzFs2sCLfA5VEtqIHTgQ",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8459,
+  "output_tokens": 14629,
+  "output_tokens_details": {
+   "thinking_tokens": 14356
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.015069375,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.015069375,
+   "upstream_inference_prompt_cost": 0.001903275,
+   "upstream_inference_completions_cost": 0.0131661
+  }
+ },
+ "elapsed_s": 52.0,
+ "packet_sha256": "000bf64243db9e244516182bd4fa0207bd55e68534337aec892c342f0baa3dc6",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

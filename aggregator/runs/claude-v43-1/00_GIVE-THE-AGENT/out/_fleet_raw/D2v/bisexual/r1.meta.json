@@ -1,0 +1,34 @@
+{
+ "packet": "bisexual",
+ "group": "bisexual",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_OVAWR8KJ0247Uoky2Yr1",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8703,
+  "output_tokens": 10281,
+  "output_tokens_details": {
+   "thinking_tokens": 10088
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0149481,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0149481,
+   "upstream_inference_prompt_cost": 0.0026109,
+   "upstream_inference_completions_cost": 0.0123372
+  }
+ },
+ "elapsed_s": 23.2,
+ "packet_sha256": "e30bd877c9973d788e5bd8a922ee2ec490442761ece23b6e009d889b85fcc33f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "watchmen",
+ "group": "watchmen",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_YTzcBeS3Eu6AXBPDLwRq",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6175,
+  "output_tokens": 2707,
+  "output_tokens_details": {
+   "thinking_tokens": 2549
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00255045,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00255045,
+   "upstream_inference_prompt_cost": 0.00092625,
+   "upstream_inference_completions_cost": 0.0016242
+  }
+ },
+ "elapsed_s": 15.1,
+ "packet_sha256": "eb1f9a8b4bf0f4c5796f8a8824dcab6cc053d87eb7cfff120b02d76f564e53cf",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

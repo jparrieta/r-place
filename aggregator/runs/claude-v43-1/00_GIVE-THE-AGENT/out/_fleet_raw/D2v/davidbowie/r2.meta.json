@@ -1,0 +1,34 @@
+{
+ "packet": "davidbowie",
+ "group": "davidbowie",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_OEHpcqQCEul8QNw5XD0S",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7952,
+  "output_tokens": 8017,
+  "output_tokens_details": {
+   "thinking_tokens": 7896
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0065122048,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0065122048,
+   "upstream_inference_prompt_cost": 9.86048e-05,
+   "upstream_inference_completions_cost": 0.0064136
+  }
+ },
+ "elapsed_s": 29.7,
+ "packet_sha256": "3a20755cf4d631987547b7bb86f80e797d7b6848439d024d41eae964207e59ac",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

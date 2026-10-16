@@ -1,0 +1,34 @@
+{
+ "packet": "eagles",
+ "group": "eagles",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_DId6woM7CShFIkpB5tai",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8497,
+  "output_tokens": 10848,
+  "output_tokens_details": {
+   "thinking_tokens": 10496
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00676371,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00676371,
+   "upstream_inference_prompt_cost": 0.00025491,
+   "upstream_inference_completions_cost": 0.0065088
+  }
+ },
+ "elapsed_s": 57.8,
+ "packet_sha256": "06f2f9319d566b6484aaf10c36223c656ddbb9fce6d1c53e6c36a2233abebf0b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "wildhockey",
+ "group": "wildhockey",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_55qONLN3cTfHSwQtQrt5",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 369,
+  "output_tokens": 14616,
+  "output_tokens_details": {
+   "thinking_tokens": 14457
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 7936,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.011781016,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.011781016,
+   "upstream_inference_prompt_cost": 8.8216e-05,
+   "upstream_inference_completions_cost": 0.0116928
+  }
+ },
+ "elapsed_s": 1038.8,
+ "packet_sha256": "f6b240670d5762049c6bcb31e23be312a09de3e5cd534b3861913a2751d86962",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

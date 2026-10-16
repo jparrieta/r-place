@@ -1,0 +1,34 @@
+{
+ "packet": "DestinyTheGame",
+ "group": "DestinyTheGame",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_RVFB2lG3KqlUAzHPWhc9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8220,
+  "output_tokens": 7261,
+  "output_tokens_details": {
+   "thinking_tokens": 7043
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.011097,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.011097,
+   "upstream_inference_prompt_cost": 0.0023838,
+   "upstream_inference_completions_cost": 0.0087132
+  }
+ },
+ "elapsed_s": 74.2,
+ "packet_sha256": "7ebe67947fd3bfe51a282c5d92ef9edd0a7f30226f933298843234430f1c217d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

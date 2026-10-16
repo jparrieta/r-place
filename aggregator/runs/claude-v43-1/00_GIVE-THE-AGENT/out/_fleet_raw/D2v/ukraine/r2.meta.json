@@ -1,0 +1,34 @@
+{
+ "packet": "ukraine",
+ "group": "ukraine",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_PoA1iV9wVzfJGb6kNAhu",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7798,
+  "output_tokens": 10661,
+  "output_tokens_details": {
+   "thinking_tokens": 10447
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00888216,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00888216,
+   "upstream_inference_prompt_cost": 0.0007798,
+   "upstream_inference_completions_cost": 0.00810236
+  }
+ },
+ "elapsed_s": 99.7,
+ "packet_sha256": "956c077f119003811d0156ffa0347e2e4cf0039c066a74e13d469a40d91af32e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

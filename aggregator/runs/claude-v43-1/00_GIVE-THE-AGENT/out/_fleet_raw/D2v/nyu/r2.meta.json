@@ -1,0 +1,34 @@
+{
+ "packet": "nyu",
+ "group": "nyu",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_R6geTbAOK5uLBVFdTnPG",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7673,
+  "output_tokens": 1581,
+  "output_tokens_details": {
+   "thinking_tokens": 1250
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0041991,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0041991,
+   "upstream_inference_prompt_cost": 0.0023019,
+   "upstream_inference_completions_cost": 0.0018972
+  }
+ },
+ "elapsed_s": 8.4,
+ "packet_sha256": "28d4c0305dc9b6e81baa1df6b68b8dec21ac69e19d062eaa5959ec66ff078e75",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

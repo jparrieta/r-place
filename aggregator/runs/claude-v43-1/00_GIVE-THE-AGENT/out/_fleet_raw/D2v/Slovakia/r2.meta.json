@@ -1,0 +1,34 @@
+{
+ "packet": "Slovakia",
+ "group": "Slovakia",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ifeH3zkL8jrjg87FqSsP",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8567,
+  "output_tokens": 11531,
+  "output_tokens_details": {
+   "thinking_tokens": 11286
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00820365,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00820365,
+   "upstream_inference_prompt_cost": 0.00128505,
+   "upstream_inference_completions_cost": 0.0069186
+  }
+ },
+ "elapsed_s": 60.4,
+ "packet_sha256": "e202cac729298102898b06dda1c7a4ecd15ee7a54be2f811a8079e10f57ea498",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

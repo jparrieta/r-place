@@ -1,0 +1,34 @@
+{
+ "packet": "twitch",
+ "group": "twitch",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_h2JxtcVGyDIjdoJc08Rc",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7752,
+  "output_tokens": 15380,
+  "output_tokens_details": {
+   "thinking_tokens": 15163
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0111598,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0111598,
+   "upstream_inference_prompt_cost": 0.0011628,
+   "upstream_inference_completions_cost": 0.009997
+  }
+ },
+ "elapsed_s": 73.6,
+ "packet_sha256": "074f3b1c47f51c4f7e77d5420e64b5205d5f608514ea2ac5903e05fa8ca33ea9",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

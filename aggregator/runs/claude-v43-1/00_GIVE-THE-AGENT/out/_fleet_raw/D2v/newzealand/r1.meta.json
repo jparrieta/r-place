@@ -1,0 +1,34 @@
+{
+ "packet": "newzealand",
+ "group": "newzealand",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_D6V3HuSFOPhW1QxByCeC",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8229,
+  "output_tokens": 10936,
+  "output_tokens_details": {
+   "thinking_tokens": 10670
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008946296,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008946296,
+   "upstream_inference_prompt_cost": 0.000197496,
+   "upstream_inference_completions_cost": 0.0087488
+  }
+ },
+ "elapsed_s": 54.9,
+ "packet_sha256": "a4df33493a48c27009cb6f41a0f423d04ff58ac9702e3510b0ec70db103624ee",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

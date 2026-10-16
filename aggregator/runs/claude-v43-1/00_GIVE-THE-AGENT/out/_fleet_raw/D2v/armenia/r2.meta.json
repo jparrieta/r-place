@@ -1,0 +1,34 @@
+{
+ "packet": "armenia",
+ "group": "armenia",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_s858Ygr4qYU3wwab20q7",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8264,
+  "output_tokens": 9369,
+  "output_tokens_details": {
+   "thinking_tokens": 9154
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0102915,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0102915,
+   "upstream_inference_prompt_cost": 0.0018594,
+   "upstream_inference_completions_cost": 0.0084321
+  }
+ },
+ "elapsed_s": 32.5,
+ "packet_sha256": "b9531918872a8c3840f6fed1325d59e38fbab67d2854479ebcc8a0108aa6c7db",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

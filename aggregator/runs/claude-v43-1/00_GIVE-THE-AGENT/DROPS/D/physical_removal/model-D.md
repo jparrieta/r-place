@@ -1,0 +1,79 @@
+# r/physical_removal: adapted room model
+
+## D01 Critical mass
+
+[R01] [P01] The starter is visible as a member proposing “Meme this into reality,” mapping its squares, and calling for help with “based Pinochet snek”; the room then repeatedly asks for hands to finish or protect specific parts [c0008] [c0009] [c0007] [c0038]. [A02] Proposal and recruitment can occupy the same turn, so the starter need not complete a separate preliminary stage before calling [c0008]. [A01] The initiating thread contains subsequent reports of finishing the hat and reaching half completion, supporting the call-to-build sequence without proving which placers the call recruited [c0008] [c0012] [c0013].
+
+[P01] Add newcomer orientation as a finer step in recruiting participation: a newcomer asks to be caught up and receives the five-minute rule and an account of mutual defence; the forest shows the explanation answering the request after 20.5 minutes [c0069] [c0070]. [K02] “We're outnumbered” states a shortage of defenders, yet the response seeks continued protection rather than surrender [c0053] [c0055]. [A10] Restrict the shortage-to-move account: being outnumbered can accompany persistence, and the later call still says to stand ground [c0055] [c0086]. [absent P10] Relocation after loss is unobserved; the later helicopter replacement names a design change but gives no loss-and-move explanation [c0073].
+
+[P15] Bare acceptance occurs in the promise “I'll run it for the next 12 hours” under the removal-script proposal [c0082] [c0084]. [A12] This is a directly readable proposal-and-commitment pair, while “can confirm” answers a progress report rather than a recruiting call; neither establishes the model's general preference for unqualified joining or what silent placers did [c0082] [c0084] [c0013] [c0015].
+
+## D02 Coordination without command
+
+[P02] The room proposes a Pinochet Snek, expands its work, asks how a helicopter would fit, and later announces replacing the flag with a helicopter [c0007] [c0044] [c0040] [c0073]. [P03] Reporting the hat finished, the Snek half done, and later progress makes construction legible to other readers [c0012] [c0013] [c0030]. [P04] Coordinates and the injunction “follow the fucking blueprint” provide a shared placement reference [c0008] [c0009]. [A11] A blueprint appears just after the initiating proposal, but the record does not show an argument being settled by it; distinguish prescribing a design from demonstrating agreement [c0008] [c0009].
+
+[P03] The building process needs a finer step alongside reports and templates: members request a coordination channel, create it in answer, send others there for orders, and relay replacement instructions to people outside it [c0010] [c0011] [c0031] [c0073] [c0074]. [P03] Add channel creation and return of decisions to the building account rather than treating every coordinating message as a state report: “Good idea, set one up” answers the Discord request after 6.1 minutes [c0010] [c0011]. [P02] Add circulation of changed plans beyond the chat, because the helicopter decision explicitly asks readers to tell people who are not on Discord [c0073] [c0074].
+
+[C01] “Preying to the gods of spontaneous order” coexists with a prescribed blueprint and an instruction to “receive orders”; the dimension's name cannot establish the absence of direction [c0009] [c0031]. [absent C01] The cross-room frequency claim is not-testable here, and the local presence or absence of appointed leaders, sanctions, or a formal division of work remains unresolved because the cited instructions do not disclose who authorized them [c0009] [c0031] [c0073].
+
+[P14] [P09] A shared placement bot, a removal script, a twelve-hour running commitment, and a report that it works instantiate machine-assisted placing and offensive erasure as reported conduct [c0076] [c0082] [c0084] [c0085]. [absent A06] The maintenance-to-automation mechanism is not-testable: the explicit script goal is erasing the rival's “red stain,” and no cited passage establishes that insufficient upkeep caused its adoption [c0082] [c0084]. [P14] Script use is visible, but argument about fairness and adjustments to the machinery are unobserved; the successful operation is a participant's report [c0076] [c0085].
+
+## D03 Maintenance
+
+[P05] Protecting “NO STEP ON SNEK,” repairing damage to its message, asking an outside subreddit to guard it, and calling people to stand ground recur across the campaign [c0003] [c0014] [c0045] [c0086]. [A03] Building and repair overlap: “Some people messing up our message” supplies an explicit local reason for damage control while progress reports continue, instantiating the model's recognition that placed parts already need keeping [c0012] [c0014] [c0030].
+
+[P06] The candidate attribution process is locally needed: construction by “ancaps” unknowingly overwrites Snek, and an accusation against Poland is withdrawn alongside an explanation of the alliance and border [c0012] [c0067] [c0068]. [P06] These passages distinguish friendly interference or mistaken blame from a deliberate hostile attack; they do not show that the entire community adopted a new explanation [c0012] [c0067] [c0068].
+
+## D04 Order without law
+
+[P08] A black border is proposed so the American flag can go around the work, and a later explanation locates the agreed Polish boundary [c0021] [c0068]. [P07] Restraint also operates on its own stated grounds: the rainbow is spared for “non-aggression” and because it protected the yellow buildup [c0035] [c0036]. [absent A05] The treaty-to-restraint mechanism is not-testable in that exchange because it cites no preceding negotiated rainbow agreement; a norm and protective benefit are the explanations actually supplied [c0036].
+
+[P16] The room asks r/anarcho_capitalism for guards, reports possible Polish reinforcements, and thanks Poland for substantial help [c0045] [c0046] [c0054]. [A13] Help is requested in the same passage that reports attack; the shortage of protectors is also stated directly, supporting a local connection between pressure and seeking hands [c0045] [c0055]. [P17] An invitation names the Snek–Poland–AMD–FRC–Crusader alliance, and another comment describes alliances with most neighbours [c0075] [c0057]. [A04] [A14] [A19] Defence, borders, help, and coalition membership are jointly present, but their co-presence does not establish each arrow's proposed origin or mechanism; Wintjoin's credit to T_D for distracting attackers remains the participant's explanation [c0045] [c0068] [c0075] [c0092]. [R02] A member's report of asking another subreddit for protection supports an envoy-like act, without establishing an appointed representative [c0045]. [absent P19] Building under a host's approval is unobserved: coexistence at the Polish border does not itself establish a host–guest rule [c0068].
+
+[P07] [P09] “Avoid conflict” is followed by asking where to place the room's name and proposing “on top of the commies”; the same room can spare neighbours while selecting an enemy's work for overwriting [c0048] [c0049] [c0050]. [A16] The proposed covering of the rainbow receives a reasoned refusal, fitting target-specific restraint while attack against other targets continues [c0035] [c0036] [c0050]. [A17] The border explanation answers an accusation that Poland violated the NAP, but the edit's timing cannot establish that the reply caused the withdrawal [c0067] [c0068].
+
+[absent P21] The tentative representation dispute is unobserved: the coded Polish exchange challenges an accusation and describes an alliance, without denying anyone's right to commit the room [c0067] [c0068]. [absent A21] The tentative treaty-to-representation-dispute mechanism is correspondingly not-testable from that exchange; a corrected claim about an ally cannot stand in for a challenge to who speaks for members [c0067] [c0068].
+
+## D08 Contention
+
+[P09] Calls to “Homestead this Commie Flag,” replace CCCP with “FEELS GOOD,” cover the communist area with ANTICOM yellow, and erase the “red stain” make rival-directed overwriting a constitutive practice [c0002] [c0004] [c0063] [c0082]. [A15] The earliest homesteading call is already an attack proposal, fitting the model's allowance for attack before building the room's own mark [c0001] [c0002] [c0008]. [P18] The claim that communist symbols have been obliterated and the final comparison with the “red stain” carry the contest into talk, without demonstrating reciprocal exchanges inside a rival's venue [c0017] [c0087]. [A18] Talk of the contest accompanies the campaign, but no cited reply establishes that an earlier attack call caused the later assessment [c0002] [c0017] [c0087].
+
+[C02] The rival is named through the room's ideology in the call itself: “Help t_d cover the Communist scum with ANTICOM yellow!” [c0063]. [P09] [P07] That ideological targeting coexists with non-aggression toward the rainbow; the warranted account is selective contention, not indiscriminate warfare or general pacifism [c0063] [c0036].
+
+## D07 Imprinting
+
+[P11] The final helicopter is praised as unvandalized and others are congratulated [c0087] [c0089]. [P12] The same final-result comment reports how the work fared; celebration and recording are fused in one passage rather than necessarily separate stages [c0087]. [A07] The build-to-celebration sequence is visible across the reports, but the written evidence does not isolate a causal effect of reporting on pride [c0013] [c0087]. [A08] Restrict a strict celebration-then-recording sequence because the final assessment simultaneously records survival and celebrates it [c0087].
+
+[P13] Participants diverge over what comes next: one advises having fun briefly and moving on, while a later poster invites people to make Based Stickman on a replica and receives thanks for revealing it [c0088] [c0090] [c0091]. [A09] Final-result talk precedes the replica invitation, but the invitation does not say that preserving a record prompted continuation; keep the sequence and leave the causal arrow unresolved [c0087] [c0090]. [P13] The supported transition is an invitation and acknowledgement, not proof that the room collectively moved or completed the next drawing [c0090] [c0091]. [absent P22] Contest over a cleaned copy or the correct history is unobserved; praising the intact helicopter does not itself dispute which version should be kept [c0087].
+
+[new: celebrating ordinary room growth] Pride in fourfold subreddit growth belongs to ordinary room talk: it says growth occurred over less than a month without attributing arrivals to the canvas [c0062]. [new: distinguishing growth pride from canvas recruitment] Any visibility-return explanation of that growth remains unresolved until a passage actually links newcomers to seeing the mark [c0062].
+
+## D06 Host framing
+
+[K01] A local April Fools performance openly reveals its punchline and mocks claims that physical removal was only a one-day joke [c0022] [c0027] [c0028]. [K01] This key applies to those performances; the reply calling for action on r/place and the practical blueprint prevent treating all canvas recruitment as mere joking [c0025] [c0009].
+
+[P20] The room also contains a post-close argument about the canvas's worth—“Have some fun ... then move on”—which fits the element's member-level range [c0088]. [P20] Restrict the dedicated-sub placement: references to r/PlaceSnek establish defence routing and imported plans, but do not show that this room opened that subreddit or imposed a host posting boundary [c0072] [c0079] [c0080]. [A20] Calls, referrals, and a moderator's Discord invitation do not establish that a flood of canvas posts caused a boundary rule; the record supports routing and endorsement while leaving that mechanism unobserved [c0038] [c0059] [c0080].
+
+## D05 Collective identity
+
+[K04] The candidate element explains how Pinochet Snek, physical removal, and the helicopter give an existing political register material form on the canvas [c0007] [c0025] [c0073]. [K03] The candidate prior-quarrel condition is supported at the level of ideological enemies named as “commies,” without requiring proof of a previously established dispute with one particular rival subreddit [c0025] [c0063]. [C02] The ordinary-language tie and attack target appear together in the ANTICOM call, so identity is doing local targeting work rather than merely decorating a completed mark [c0063].
+
+[new: reporting political venue invasion] The invasion report about r/A_C remains ordinary political venue talk unless stronger event evidence is supplied [c0064]. [new: seeking a more exclusionary political venue] The wish for a Hoppean alternative to A_C and GAB likewise remains ordinary political venue talk [c0065]. [K04] They can express ideological boundaries, but neither concept establishes that those venues organized this room's pixels [c0064] [c0065].
+
+## Local exceptions
+
+[P01] Add newcomer orientation to recruiting participation [c0069] [c0070]. [P03] [P02] Add channel creation and redistribution of decisions as explicit coordinating steps: the request produces a Discord invitation, and later replacement instructions target people outside Discord; orders and their authority inside the chat remain unseen [c0010] [c0011] [c0031] [c0073] [c0074].
+
+[P14] [P09] The removal-script title and running commitment directly support offensive automation within the model's existing range; [A06] remains an unresolved causal claim because those passages do not identify maintenance pressure as the cause [c0076] [c0082] [c0084]. [A10] Restrict shortage as sufficient explanation for moving: the record pairs being outnumbered with continued protection and standing ground, and supplies no loss-caused relocation [c0053] [c0055] [c0086].
+
+[P07] [A16] Restraint rests on non-aggression and protective benefit and can coexist with attacks against a selected enemy; this fits target-specific restraint, while [A05] remains untested because no preceding rainbow treaty is shown [c0036] [c0048] [c0050]. [A08] Allow celebration and recording to co-occur in one final-result account rather than requiring separate ordered stages [c0087].
+
+[P20] [A20] Distinguish adopting a dedicated defence venue from creating it or governing the host's post traffic; referrals and a worth argument are visible, while flood-driven moderation is unresolved [c0072] [c0079] [c0080] [c0088]. [P21] [A21] The Polish correction provides no representation dispute, leaving the tentative element and arrow unobserved or not-testable rather than falsified [c0067] [c0068]. [P22] No concept establishes post-close disputes over a cleaned record [c0087].
+
+[C01] The aggregate frequency claim and formal authority behind Discord orders cannot be validated locally [c0009] [c0031]. [new: celebrating ordinary room growth] The growth celebration remains part of the local account [c0062]. [new: distinguishing growth pride from canvas recruitment] Ordinary growth cannot be attributed to canvas exposure from that passage [c0062]. [P13] Replica recruitment survives in the adapted explanation, but completion and any collective move remain unresolved [c0090] [c0091]. [new: reporting political venue invasion] The r/A_C report retains an explicitly weak event connection [c0064]. [new: seeking a more exclusionary political venue] The GAB and A_C alternative-venue discussion also remains outside demonstrated canvas coordination [c0065].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The adapted account connects the visible calls, construction, defence, selective attacks, alliances, automation, and continuation, but leaves authority, several causal arrows, and the replica outcome unresolved [P01] [P03] [P05] [P09] [P17] [P14] [P13] [c0008] [c0012] [c0045] [c0063] [c0075] [c0082] [c0031] [c0090].
+<!-- end -->

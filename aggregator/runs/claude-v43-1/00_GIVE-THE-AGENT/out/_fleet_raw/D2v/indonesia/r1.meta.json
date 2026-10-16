@@ -1,0 +1,34 @@
+{
+ "packet": "indonesia",
+ "group": "indonesia",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_aRdYFAJcluY0lugbVFYm",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8325,
+  "output_tokens": 8466,
+  "output_tokens_details": {
+   "thinking_tokens": 8057
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00227313,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00227313,
+   "upstream_inference_prompt_cost": 0.00074925,
+   "upstream_inference_completions_cost": 0.00152388
+  }
+ },
+ "elapsed_s": 126.7,
+ "packet_sha256": "fac956224929e13d2dd147d8de2457727ac485090e478ff231fad7aefbcf858b",
+ "valid": false,
+ "why": "line 1: verdict is 'compares-with-residue', not one of ['composes', 'composes-with-residue', 'does-not-compose', 'cannot-tell']",
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "streetfighter",
+ "group": "streetfighter",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_vy3WBjhCV2O6ygoiIvJ3",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7731,
+  "output_tokens": 7898,
+  "output_tokens_details": {
+   "thinking_tokens": 7678
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008847675,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008847675,
+   "upstream_inference_prompt_cost": 0.001739475,
+   "upstream_inference_completions_cost": 0.0071082
+  }
+ },
+ "elapsed_s": 28.5,
+ "packet_sha256": "4c86802cc2b8a40b42aade4af496b86718b41d2ead826f4c57a3bee56a9433ff",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

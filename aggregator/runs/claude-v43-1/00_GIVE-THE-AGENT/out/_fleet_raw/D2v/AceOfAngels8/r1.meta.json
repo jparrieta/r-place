@@ -1,0 +1,34 @@
+{
+ "packet": "AceOfAngels8",
+ "group": "AceOfAngels8",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_V1piwMcXvdtQPr5wjEZC",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7600,
+  "output_tokens": 4600,
+  "output_tokens_details": {
+   "thinking_tokens": 4411
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0078,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0078,
+   "upstream_inference_prompt_cost": 0.00228,
+   "upstream_inference_completions_cost": 0.00552
+  }
+ },
+ "elapsed_s": 20.7,
+ "packet_sha256": "ddef41ef15d15322cde3292bc524a30af4b081a0f27d843250d1e1a3254fdb2f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

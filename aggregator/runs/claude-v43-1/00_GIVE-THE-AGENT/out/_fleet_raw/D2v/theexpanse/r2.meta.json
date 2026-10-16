@@ -1,0 +1,34 @@
+{
+ "packet": "theexpanse",
+ "group": "theexpanse",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_oVlL2rbqPxlFtbnAAEQF",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 277,
+  "output_tokens": 13578,
+  "output_tokens_details": {
+   "thinking_tokens": 13683
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 7680,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0109426348,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0109426348,
+   "upstream_inference_prompt_cost": 8.02348e-05,
+   "upstream_inference_completions_cost": 0.0108624
+  }
+ },
+ "elapsed_s": 961.8,
+ "packet_sha256": "137f67ef55d8367e35aa3de9fe5db79841058d15cc76704b4aa29960ec2e017b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

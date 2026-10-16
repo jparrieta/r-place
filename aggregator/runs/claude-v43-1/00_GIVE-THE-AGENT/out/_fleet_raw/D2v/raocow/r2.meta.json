@@ -1,0 +1,34 @@
+{
+ "packet": "raocow",
+ "group": "raocow",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_O8WC3wKEU8RWH5aNuPhU",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8248,
+  "output_tokens": 15298,
+  "output_tokens_details": {
+   "thinking_tokens": 14975
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0111809,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0111809,
+   "upstream_inference_prompt_cost": 0.0012372,
+   "upstream_inference_completions_cost": 0.0099437
+  }
+ },
+ "elapsed_s": 70.4,
+ "packet_sha256": "1c1d0cfdb8c4a2a6f2d9136d7b25c45e6007c7cf96ee6bd0a0a5fd2da02e2a94",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

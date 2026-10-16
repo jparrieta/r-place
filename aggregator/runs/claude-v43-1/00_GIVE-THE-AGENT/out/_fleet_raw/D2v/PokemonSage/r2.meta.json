@@ -1,0 +1,34 @@
+{
+ "packet": "PokemonSage",
+ "group": "PokemonSage",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_NkcCpJqnDQpZC3uMarYf",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6209,
+  "output_tokens": 6125,
+  "output_tokens_details": {
+   "thinking_tokens": 6124
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0049769916,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0049769916,
+   "upstream_inference_prompt_cost": 7.69916e-05,
+   "upstream_inference_completions_cost": 0.0049
+  }
+ },
+ "elapsed_s": 54.4,
+ "packet_sha256": "a72d393cf89a96c8cd3d5108a726b317612ad1fb72101883f6b8d25e0679e4cd",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

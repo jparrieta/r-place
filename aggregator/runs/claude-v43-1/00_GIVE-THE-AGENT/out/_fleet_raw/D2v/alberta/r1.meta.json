@@ -1,0 +1,34 @@
+{
+ "packet": "alberta",
+ "group": "alberta",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_QjlaLe92Xf7vkAA0QZkf",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8131,
+  "output_tokens": 9767,
+  "output_tokens_details": {
+   "thinking_tokens": 9551
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00849582,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00849582,
+   "upstream_inference_prompt_cost": 0.00146358,
+   "upstream_inference_completions_cost": 0.00703224
+  }
+ },
+ "elapsed_s": 62.3,
+ "packet_sha256": "df34484db201cada0a83af16e608ce7bbe31d708cf1850904a123843076cf62e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

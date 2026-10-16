@@ -1,0 +1,34 @@
+{
+ "packet": "pansexual",
+ "group": "pansexual",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_z4zcj8FrAzzYBYekQFNB",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7416,
+  "output_tokens": 3343,
+  "output_tokens_details": {
+   "thinking_tokens": 3132
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0062364,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0062364,
+   "upstream_inference_prompt_cost": 0.0022248,
+   "upstream_inference_completions_cost": 0.0040116
+  }
+ },
+ "elapsed_s": 13.1,
+ "packet_sha256": "a392ff6cfdf65cbde986b1e971519bf1b883cfd5734271a094ff627aa4d418b5",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

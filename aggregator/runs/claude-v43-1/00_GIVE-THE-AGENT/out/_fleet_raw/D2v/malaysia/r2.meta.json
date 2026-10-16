@@ -1,0 +1,34 @@
+{
+ "packet": "malaysia",
+ "group": "malaysia",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_g2BkCQtOs2x6XMW5rZkD",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8190,
+  "output_tokens": 11247,
+  "output_tokens_details": {
+   "thinking_tokens": 11016
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00936672,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00936672,
+   "upstream_inference_prompt_cost": 0.000819,
+   "upstream_inference_completions_cost": 0.00854772
+  }
+ },
+ "elapsed_s": 113.0,
+ "packet_sha256": "fcb3708ba9e47d32f058d87e58d0e556e66159a87e1a1c4325d3f98874061443",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

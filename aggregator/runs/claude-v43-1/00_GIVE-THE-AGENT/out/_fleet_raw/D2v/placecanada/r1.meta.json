@@ -1,0 +1,34 @@
+{
+ "packet": "placecanada",
+ "group": "placecanada",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_6yeemNhv8EBesYKEUA4T",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8101,
+  "output_tokens": 8491,
+  "output_tokens_details": {
+   "thinking_tokens": 8310
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.00470036,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00470036,
+   "upstream_inference_prompt_cost": 0.00113414,
+   "upstream_inference_completions_cost": 0.00356622
+  }
+ },
+ "elapsed_s": 90.6,
+ "packet_sha256": "1a5d91016e6f6936b26bb3800d38f3ce9927b65d1d3f55d7900aee75ffd24f54",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

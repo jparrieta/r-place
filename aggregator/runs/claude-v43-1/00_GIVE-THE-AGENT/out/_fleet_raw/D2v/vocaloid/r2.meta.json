@@ -1,0 +1,34 @@
+{
+ "packet": "vocaloid",
+ "group": "vocaloid",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_HxX33VcS2GLAaCnvcxzd",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7967,
+  "output_tokens": 12061,
+  "output_tokens_details": {
+   "thinking_tokens": 11789
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.012647475,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.012647475,
+   "upstream_inference_prompt_cost": 0.001792575,
+   "upstream_inference_completions_cost": 0.0108549
+  }
+ },
+ "elapsed_s": 42.8,
+ "packet_sha256": "108a3e80d2f5a9bd29fc701673b208da9d8579ec1190bf5a01ab32bce7b7c69d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

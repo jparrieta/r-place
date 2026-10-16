@@ -1,0 +1,34 @@
+{
+ "packet": "bostonbruins",
+ "group": "bostonbruins",
+ "reader": "r8",
+ "reissue": 1,
+ "generation": "msg_RTcOM3xRLZZrzCdrCTnJ",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8093,
+  "output_tokens": 10545,
+  "output_tokens_details": {
+   "thinking_tokens": 10354
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0080682,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0080682,
+   "upstream_inference_prompt_cost": 0.00121395,
+   "upstream_inference_completions_cost": 0.00685425
+  }
+ },
+ "elapsed_s": 63.0,
+ "packet_sha256": "928af55977f838db7fa0f8140bf79a82d21dd8025f678d6527ca3aa9bad75b9b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

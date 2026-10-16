@@ -1,0 +1,34 @@
+{
+ "packet": "mcgillrobotics",
+ "group": "mcgillrobotics",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ktV3JNkisvzgs1t5SqjK",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6323,
+  "output_tokens": 6375,
+  "output_tokens_details": {
+   "thinking_tokens": 6182
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00477345,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00477345,
+   "upstream_inference_prompt_cost": 0.00094845,
+   "upstream_inference_completions_cost": 0.003825
+  }
+ },
+ "elapsed_s": 31.7,
+ "packet_sha256": "3f8b72ab0d851c31c7b7a023c625a6486c299b0096618bc06062f7d7ef35ed91",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

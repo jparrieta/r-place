@@ -1,0 +1,34 @@
+{
+ "packet": "oman",
+ "group": "oman",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_YhG6pV3LNb9DiodYWiPw",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7226,
+  "output_tokens": 5647,
+  "output_tokens_details": {
+   "thinking_tokens": 5396
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00360498,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00360498,
+   "upstream_inference_prompt_cost": 0.00021678,
+   "upstream_inference_completions_cost": 0.0033882
+  }
+ },
+ "elapsed_s": 45.0,
+ "packet_sha256": "43c345b218af2ce9602737f39b227b067311f6562c3bdb907f42018fc5c2c10c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

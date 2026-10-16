@@ -1,0 +1,34 @@
+{
+ "packet": "pcmasterrace",
+ "group": "pcmasterrace",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_6oAagR9Hs2T3xIUd3mnb",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8081,
+  "output_tokens": 9760,
+  "output_tokens_details": {
+   "thinking_tokens": 9541
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00755615,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00755615,
+   "upstream_inference_prompt_cost": 0.00121215,
+   "upstream_inference_completions_cost": 0.006344
+  }
+ },
+ "elapsed_s": 49.8,
+ "packet_sha256": "9b21b9bb9c79f291e7ac4b035939d893920a65148df79a05d7b85d79c7771cb5",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

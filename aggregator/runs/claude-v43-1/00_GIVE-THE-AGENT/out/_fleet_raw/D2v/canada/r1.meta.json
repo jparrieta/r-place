@@ -1,0 +1,34 @@
+{
+ "packet": "canada",
+ "group": "canada",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_PhyiZKN7BqQuSnNFBAJP",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8052,
+  "output_tokens": 11783,
+  "output_tokens_details": {
+   "thinking_tokens": 11697
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0095262448,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0095262448,
+   "upstream_inference_prompt_cost": 9.98448e-05,
+   "upstream_inference_completions_cost": 0.0094264
+  }
+ },
+ "elapsed_s": 39.0,
+ "packet_sha256": "45e1c3558ce98e13ba8175065dc9a86bfb261c06f1a04195c26ff7eeb44aeb32",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

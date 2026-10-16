@@ -1,0 +1,34 @@
+{
+ "packet": "placehearts",
+ "group": "placehearts",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_QFufRzCqlKLICaF4ijxU",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8226,
+  "output_tokens": 14027,
+  "output_tokens_details": {
+   "thinking_tokens": 13830
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01447515,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01447515,
+   "upstream_inference_prompt_cost": 0.00185085,
+   "upstream_inference_completions_cost": 0.0126243
+  }
+ },
+ "elapsed_s": 52.9,
+ "packet_sha256": "b1739b37322373c5e754abed25096ad7732d7bbaa47b32b726152acc143fec52",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

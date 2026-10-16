@@ -1,0 +1,34 @@
+{
+ "packet": "flyers",
+ "group": "flyers",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_lUbf7UqHHO4DpNM5cEAy",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8331,
+  "output_tokens": 3710,
+  "output_tokens_details": {
+   "thinking_tokens": 3466
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0069513,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0069513,
+   "upstream_inference_prompt_cost": 0.0024993,
+   "upstream_inference_completions_cost": 0.004452
+  }
+ },
+ "elapsed_s": 12.1,
+ "packet_sha256": "666b50ea1ee39029ae4fe522899d2abee72929eddfa4c43448a74a0231bfc6c4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

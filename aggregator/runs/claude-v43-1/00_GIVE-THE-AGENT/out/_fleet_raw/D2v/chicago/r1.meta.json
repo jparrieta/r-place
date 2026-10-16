@@ -1,0 +1,34 @@
+{
+ "packet": "chicago",
+ "group": "chicago",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_wqv5vCIhzKgYBg6vau0B",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8126,
+  "output_tokens": 18009,
+  "output_tokens_details": {
+   "thinking_tokens": 17780
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01449944,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01449944,
+   "upstream_inference_prompt_cost": 0.0008126,
+   "upstream_inference_completions_cost": 0.01368684
+  }
+ },
+ "elapsed_s": 180.2,
+ "packet_sha256": "d6de7b0bec6710bfe29c6a0a6eef337c44f949f0bef39d1ef7fbe494cee24e7c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

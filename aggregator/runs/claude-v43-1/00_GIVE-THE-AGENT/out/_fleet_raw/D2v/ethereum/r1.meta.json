@@ -1,0 +1,34 @@
+{
+ "packet": "ethereum",
+ "group": "ethereum",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_qQyOqhqTjb6PQdLEFbox",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8660,
+  "output_tokens": 10273,
+  "output_tokens_details": {
+   "thinking_tokens": 10088
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0111942,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0111942,
+   "upstream_inference_prompt_cost": 0.0019485,
+   "upstream_inference_completions_cost": 0.0092457
+  }
+ },
+ "elapsed_s": 35.0,
+ "packet_sha256": "8604dd1af9ef75a65f8bf277f261c819b62b950a0967d9e499d8d6e25ba69a1f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

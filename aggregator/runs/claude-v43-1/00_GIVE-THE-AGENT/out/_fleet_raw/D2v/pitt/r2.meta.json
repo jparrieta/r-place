@@ -1,0 +1,34 @@
+{
+ "packet": "pitt",
+ "group": "pitt",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_Sc7ITMxOQPcBNZGzjra9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7683,
+  "output_tokens": 14603,
+  "output_tokens_details": {
+   "thinking_tokens": 14396
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.00720888,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00720888,
+   "upstream_inference_prompt_cost": 0.00107562,
+   "upstream_inference_completions_cost": 0.00613326
+  }
+ },
+ "elapsed_s": 200.6,
+ "packet_sha256": "cca4111c2953a550a70bad65d32ae6e3690e103cd89a12973a3589d0ef3ec5e7",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

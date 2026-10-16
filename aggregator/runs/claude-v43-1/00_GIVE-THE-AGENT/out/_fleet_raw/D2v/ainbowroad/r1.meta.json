@@ -1,0 +1,34 @@
+{
+ "packet": "ainbowroad",
+ "group": "ainbowroad",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_jJ3IFC7AQjxCXnHz2Qrd",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8069,
+  "output_tokens": 10285,
+  "output_tokens_details": {
+   "thinking_tokens": 10002
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0078956,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0078956,
+   "upstream_inference_prompt_cost": 0.00121035,
+   "upstream_inference_completions_cost": 0.00668525
+  }
+ },
+ "elapsed_s": 45.5,
+ "packet_sha256": "fc7e553700bd7566b375dd23b67f33f69a3cc61d435b7638f857530da14f97d1",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

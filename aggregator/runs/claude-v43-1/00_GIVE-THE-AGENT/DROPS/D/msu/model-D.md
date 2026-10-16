@@ -1,0 +1,76 @@
+# r/msu: adapted local model
+
+Model version: e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd
+
+## D01 Critical mass
+
+[P01] The room called for a visible school mark: “Writing MSU On Place. Let's begin,” followed by a call to make a block S because other Big Ten schools were “showing us up” [c0005] [c0008]. [K02] Strength was assessed relative to an opponent: someone trying to erase Go Blue said “they have too many people watching” and asked for a coordinated effort [c0001]. [new: explaining the canvas before joining] A reply explained r/place as “Reddit's April fool deal”; this fits the ladder's T3-016 but has no corresponding process in the standing model, and establishes orientation rather than any demonstrated increase in participation [c0006].
+
+[A01] Calls and later reports of building occur, but the coded passages do not identify which call recruited the people who subsequently reported making Go Green or working on its R; the local evidence supports sequence without establishing recruitment as its cause [c0005] [c0010] [c0012]. [A10] An attack judged difficult was answered by “creating our own elsewhere,” but this concerns abandoning an attack on an opponent rather than judging the room unable to hold its own spot; the arrow's own-mark mechanism remains untested [c0001] [c0004].
+
+## D02 Coordination without command
+
+[R01] A member initiated the Spartan head at explicit coordinates after the block S was paved over, and another subsequently reported helping create the helmet; this supports a starter and later participation without proving that the latter answered that particular starter [c0015] [c0019]. [A02] The initiating passage combines proposing a new work with starting it, but the coded evidence does not establish a distinct starter-to-recruitment sequence [c0015]. [P02] Design was repeatedly made and remade through block S, MSU lettering, Go Green, and a Spartan head, with the R being built using a proposed font [c0005] [c0008] [c0012] [c0015]. [P03] Members reported making Go Green next to the S and contributing to the helmet before starting the next addition [c0010] [c0019].
+
+[P04] Coordinates, an original lettering plan, and a one-pixel shift gave placers shared instructions [c0015] [c0029] [c0033]. [A11] A posted design did not necessarily settle the design: participants pleaded for original lettering, checked whether relocation was really the plan, and admitted “We're not super unified” while proposing another layout [c0029] [c0058] [c0057]. [new: checking that a shared plan is current] The finer step is confirmation that an instruction is the current plan before spending scarce pixels; the local adaptation conditions design settlement on shared uptake rather than treating publication as settlement [c0058] [c0057].
+
+[C01] Members deliberately selected a common communication thread and a base-first sequence to stop their own hands competing, but these decisions alone do not establish a leader, vote, oath, sanction, or formal division of labour [c0028] [c0017]. [absent C01] The global claim about what most rooms did is not testable from this room; the local passages show attempts at order whose reach remains uncertain [c0028] [c0057].
+
+[absent P14] Machine-assisted placing is unobserved, not proved absent: the coded timer title says “malfunctioned” and “the changes didn't stick,” which cannot substantiate scripts, bots, spare accounts, or durable additional placements [c0022]. [new: reporting a failed timer advantage] Retain that report as its own local phenomenon rather than infer successful automation from its placement under T4-009 [c0022].
+
+[P15] A member answered Penn State's request with the bare commitment “You'll have my pixel” [c0051] [c0044]. [A12] The forest shows that commitment directly answering the request at `636t4d:0>1`, supporting the tentative arrow's call-and-bare-answer pattern without proving actual placement or a general preference rule [c0051] [c0044].
+
+## D03 Maintenance
+
+[P05] Keeping the work meant fending off K-State and people thought to be well-meaning template fixers, as well as warning that r/argentina was trying to take the space [c0021] [c0052]. [P06] The candidate attribution process applies to the distinction between an outside challenger and apparent friendly correction; “what I think” keeps the motive attribution explicitly provisional [c0021]. [A03] Building and defence are both visible, but these concepts do not directly show a report of completion causing the defence response [c0010] [c0021].
+
+[P16] Maintenance could be delegated through outside help: a member thanked RuneScape helpers and anticipated less worry about maintenance “after the struggle of making it by hand” [c0024] [c0048]. [absent A06] The move from upkeep to scripts is not testable here because neither a timer malfunction nor thanks for help identifies the helpers' machinery [c0022] [c0024]. [A13] External help addressed upkeep, but the explicit record is an offered service and thanks, not proof that a shortage of hands caused the host to recruit it [c0048] [c0024].
+
+## D04 Order without law
+
+[P08] Neighbouring designs became subjects of bargaining: participants asked Rose Hulman whether the two designs could intertwine, offered a position where MSU and the GameCube would avoid stepping on toes, and allowed clipping if it worked for both sides [c0030] [c0059] [c0034]. [P16] Help was also conditional: “Only if you guys help us add a block S,” and “I'm fine with letting you guys finish if you help us relocate” [c0007] [c0031]. [A14] The GameCube exchange joins room and help in one conditional bargain rather than establishing two separated stages in which an already settled border later produces assistance [c0031] [c0035]. [A05] The same speaker's conditional permission and subsequent announcement of moving so the GameCube could finish support negotiated restraint in this exchange, without establishing compliance by every placer [c0031] [c0036].
+
+[P10] A lost block S explicitly prompted starting a Spartan head elsewhere, while other passages announced concentrating effort on another mark or simply “Rebuilding” [c0015] [c0011] [c0013]. [new: moving a standing mark to let a neighbour finish] A separate relocation was cooperative: MSU moved “so smash bros can finish their GameCube,” with help offered for the move [c0036] [c0035]. [P08] This belongs inside negotiated coexistence; it must not inherit P10's loss-or-overrun precondition merely because both practices involve moving [c0031] [c0036]. [new: restarting construction after a move] The loss-to-move passage also starts building a different design, supplying a local return to construction that the standing model explicitly leaves without a loop [c0015].
+
+[P17] A member endorsed the smashbros alliance as the beginning of a faction and encouraged relations with its other allies; r/unturned separately requested an alliance against griefers [c0026] [c0045]. [A19] The latter request names joint defence as its purpose, but a proposal is not evidence that the alliance was accepted and operated [c0045]. [new: borrowing an ally's organising venue] The helping smashbros community offered an existing Discord as somewhere MSU could organise; this is a finer infrastructure step within coalition participation, with the decisions made there still unseen [c0042]. [R02] A visitor explicitly came from r/unturned to seek that alliance, substantiating the candidate envoy role without proving a mandate from everyone in the visiting room [c0055] [c0045].
+
+[absent P19] Negotiating adjacent designs does not establish residence under a host's territorial rule; that candidate is unobserved in the cited bargaining [c0030] [c0034]. [absent P21] The tentative authority dispute is unresolved: “We're not super unified” identifies divided coordination but does not say that an agreement is nonbinding or deny anyone's right to speak [c0057]. [absent A21] The record therefore cannot test whether a neighbour agreement produced a dispute over authority to commit the room, even though the forest places the unity admission within the GameCube negotiation [c0031] [c0057]. [A04] Defence and border talk coexist, but the cited negotiation concerns fitting simultaneous designs, not a demonstrated chain from erosion to a border dispute [c0021] [c0030].
+
+## D05 Collective identity
+
+[C02] An inherited school rivalry explicitly names the attack target: after declaring the logo and Go Green complete, a post calls to “start attacking Michigan” [c0060]. [K03] This instantiates the candidate carried-in rivalry; it does not require inferring a new enemy created by the canvas [c0060] [c0038]. [K04] Existing league membership also becomes a reason for collective conduct: one reply invokes an all-Big Ten plan to stop griefing schools, while Penn State asks for help for “full big ten representation” [c0040] [c0051]. [P16] The identity connection takes a visible practical form when the latter request receives a promise of a pixel [c0044].
+
+## D06 Host framing
+
+[P20] Members chose one thread for communication and the moderator later announced removal of r/place requests from other subreddits [c0025] [c0028] [c0032]. [A20] Consolidation follows a participant's explicit diagnosis that people were working on different things, but the coded moderator span establishes the promised removal rather than independently establishing how recruitment volume caused it [c0009] [c0032]. [P20] The adaptation separates choosing a venue, announcing a removal policy, and proving that policy's execution; the last is not shown by an announcement alone [c0032].
+
+[absent K01] The room's own April Fools parody is unobserved: explaining the site event as an April fool deal does not establish a host-sub takeover or license to treat its calls as jokes [c0006]. [new: limiting what survival of the record can establish] Selective removal of outsiders' requests is relevant to what later readers can see, while the extent of actual removal cannot be reconstructed from the announcement [c0032].
+
+## D07 Imprinting
+
+[P11] After placement stopped, a participant thanked everyone who contributed [c0046]. [P12] Its direct reply recounted trying at least three locations before getting a nice image up [c0047]. [A08] The forest at `6383pa:1>1.1` supports a transition from collective thanks into recounting the work's fate; it does not establish screenshot or atlas preservation [c0046] [c0047]. [A07] The record includes building and eventual congratulations, but the coded passages do not directly establish which completion report caused this post-end celebration [c0010] [c0046].
+
+[absent P13] Continuing the effort through a new canvas, emblem, or lasting relationship is unobserved; recounting a completed image is not itself a decision to carry the organising forward [c0047]. [absent A09] Accordingly the recording-to-continuation arrow is unobserved in the coded closing exchange [c0046] [c0047]. [absent P22] The tentative dispute over a cleaned or authoritative version is also unobserved: the closing account praises the final image without contesting which version should be kept [c0047].
+
+## D08 Contention
+
+[P09] Participants attempted to erase the M, called for a coordinated attack on Go Blue, and later proposed an outside-in black-pixel strategy [c0002] [c0001] [c0038]. [A15] Attack and building were interleaved, with a renewed attack explicitly proposed after completing the school's image; a uniform progression from recruitment to attack does not explain their whole order [c0002] [c0005] [c0060]. [P07] Other voices challenged destruction, urged creating elsewhere, told people to leave Big Ten logos alone, and opposed attacking Michigan [c0003] [c0004] [c0037] [c0041]. [A16] The direct reply to the later attack call says “Stop” and invokes the all-Big Ten plan, supporting reasoned refusal at `634d1x:0>1` without establishing collective agreement or compliance [c0060] [c0040]. [A17] That answer invokes broader cooperation, but does not itself negotiate a border or truce; extending the arrow to include invoking a coalition plan explains this answer without inventing a treaty [c0040].
+
+[P09] Calls to smash through or overlap the mushroom coexist with a stop-destroying instruction and a warning about damage to neighbouring images [c0020] [c0023] [c0062] [c0061]. [P07] This contrast shows restraint being argued rather than a room changing its mind as one actor [c0062] [c0023]. [absent P18] Attack planning alone does not establish a reciprocal taunt, victory claim, salute, or post-close blame; sustained contest-in-talk remains unobserved in these coded spans [c0038] [c0050]. [absent A18] The proposed coordination with r/osu is evidence of an attack proposal, not proof that attacking produced an extended discursive contest with Michigan [c0050].
+
+## Local exceptions
+
+[new: separating a failed timer advantage from automation] The t07 placement under workarounds cannot establish P14: the only coded evidence is a malfunction whose changes did not stick, so preserve this local report while leaving automation and A06 untested [c0022].
+
+[A11] Publication and settlement must be separated: the original-lettering plea, current-plan question, and unity admission require checking shared uptake as a finer step, not assuming a shared template resolved design [c0029] [c0058] [c0057]. [P04] This local adaptation retains the instructions while qualifying their reach [c0033] [c0058].
+
+[P08] Cooperative relocation is a distinct finer step inside neighbour negotiation; it operates before any demonstrated loss and therefore cannot be explained solely by P10 [c0031] [c0036]. [new: restarting construction after a move] The explicit switch from a paved-over S to building a head supplies a local return to P03 after P10 [c0015].
+
+[new: explaining the canvas before joining] T3-016 covers a supported local practice omitted by the standing process inventory; no recruitment effect is inferred from the explanation [c0006]. [P17] Borrowing an ally's existing Discord adds a finer step while preserving the unresolved question of how decisions were reached there [c0042]. [A17] Invoking a league-wide plan to stop an attack is weaker and different from negotiating a treaty, requiring the stated local extension [c0040].
+
+[P21] Whether anyone disputed who could bind placers remains unresolved; a coordination admission is insufficient evidence of an authority dispute [c0057]. [C01] Deliberate communication choices do not settle the presence or absence of formal command, and this one room cannot test a population frequency [c0028] [c0017]. [P20] Promised removals also leave uncertainty about the surviving approaches from outsiders; no number of coded concepts resolves whether missing conversations would alter the account [c0032].
+
+grade: composes-with-residue
+The adapted account explains the supported practices and preserves the failed timer report and cooperative relocation, while authority, off-platform decisions, and the effect of announced removals remain unresolved [P14] [P08] [P21] [P17] [P20] [c0022] [c0036] [c0057] [c0042] [c0032].
+local_status: unresolved
+<!-- end -->

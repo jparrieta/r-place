@@ -1,0 +1,34 @@
+{
+ "packet": "TransFlagPlace",
+ "group": "TransFlagPlace",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_N8n3jlBAIbphLsez1xnj",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8034,
+  "output_tokens": 9802,
+  "output_tokens_details": {
+   "thinking_tokens": 9655
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0070721274,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0070721274,
+   "upstream_inference_prompt_cost": 0.0012026898,
+   "upstream_inference_completions_cost": 0.0058694376
+  }
+ },
+ "elapsed_s": 56.4,
+ "packet_sha256": "7cb6f465e29b2278a5e454c2903d531c3a5c93ad858aac51ce8decb3e3dbaf23",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

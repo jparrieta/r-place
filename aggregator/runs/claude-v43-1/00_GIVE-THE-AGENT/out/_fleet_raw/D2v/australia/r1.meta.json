@@ -1,0 +1,34 @@
+{
+ "packet": "australia",
+ "group": "australia",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_oxKrkXhKCPdFBjd1OZBj",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8449,
+  "output_tokens": 11276,
+  "output_tokens_details": {
+   "thinking_tokens": 10853
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0091255676,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0091255676,
+   "upstream_inference_prompt_cost": 0.0001047676,
+   "upstream_inference_completions_cost": 0.0090208
+  }
+ },
+ "elapsed_s": 79.7,
+ "packet_sha256": "1e366979dcb6f0e8b03dbd430eddbee55beb3135ccec03ad0405c1062da4a001",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "FinalFantasy",
+ "group": "FinalFantasy",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_RdQ26eOGLDt34LTfwvwp",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7961,
+  "output_tokens": 9708,
+  "output_tokens_details": {
+   "thinking_tokens": 9402
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0078651164,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0078651164,
+   "upstream_inference_prompt_cost": 9.87164e-05,
+   "upstream_inference_completions_cost": 0.0077664
+  }
+ },
+ "elapsed_s": 74.5,
+ "packet_sha256": "951668153ae66c2feb13daa25a70b43815e71257d9b82c6fb741773592041feb",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

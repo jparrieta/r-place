@@ -1,0 +1,34 @@
+{
+ "packet": "Russiaclan",
+ "group": "Russiaclan",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_W0IBfBrzE09TCjt3StzX",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8033,
+  "output_tokens": 7568,
+  "output_tokens_details": {
+   "thinking_tokens": 7361
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008618625,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008618625,
+   "upstream_inference_prompt_cost": 0.001807425,
+   "upstream_inference_completions_cost": 0.0068112
+  }
+ },
+ "elapsed_s": 29.8,
+ "packet_sha256": "bb7de442fe68a31fb54492f8be8781ee733859c2ce5c2506d72035b86a0f3957",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

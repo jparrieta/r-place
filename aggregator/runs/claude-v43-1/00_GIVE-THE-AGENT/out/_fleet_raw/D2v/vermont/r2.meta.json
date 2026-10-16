@@ -1,0 +1,34 @@
+{
+ "packet": "vermont",
+ "group": "vermont",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_mXv1Jkr1RNaZieCFob6A",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7996,
+  "output_tokens": 9363,
+  "output_tokens_details": {
+   "thinking_tokens": 9153
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0102258,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0102258,
+   "upstream_inference_prompt_cost": 0.0017991,
+   "upstream_inference_completions_cost": 0.0084267
+  }
+ },
+ "elapsed_s": 33.8,
+ "packet_sha256": "1369ae0b6dbd184aec33668bf372a745aaf9cb370c4bbad3fc28f5f57ac049b8",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

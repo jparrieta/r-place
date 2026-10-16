@@ -1,0 +1,34 @@
+{
+ "packet": "loltyler1",
+ "group": "loltyler1",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_5Ky6XC2rEU6HaGCBe9ii",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7904,
+  "output_tokens": 7201,
+  "output_tokens_details": {
+   "thinking_tokens": 7012
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00586625,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00586625,
+   "upstream_inference_prompt_cost": 0.0011856,
+   "upstream_inference_completions_cost": 0.00468065
+  }
+ },
+ "elapsed_s": 33.0,
+ "packet_sha256": "06cdae7a5fec6d99773cacfd0dbf7a3629ccbef58e46b527c6a15e14873f413a",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

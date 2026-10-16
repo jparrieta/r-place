@@ -1,0 +1,34 @@
+{
+ "packet": "Honduras",
+ "group": "Honduras",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_9A5LeptIjwS9pDkAkwKH",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6994,
+  "output_tokens": 9927,
+  "output_tokens_details": {
+   "thinking_tokens": 10104
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0140106,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0140106,
+   "upstream_inference_prompt_cost": 0.0020982,
+   "upstream_inference_completions_cost": 0.0119124
+  }
+ },
+ "elapsed_s": 45.9,
+ "packet_sha256": "4c564c6b9be4de2cdd252dc976c750fde30e0d2fce0d1674025eae9290126e27",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

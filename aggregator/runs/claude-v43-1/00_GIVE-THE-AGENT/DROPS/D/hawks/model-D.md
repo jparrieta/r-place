@@ -1,0 +1,81 @@
+# r/hawks: adapted room model
+
+## D01 Critical mass
+
+[R01] The active starter proposes a location, begins the chin, and invites others to join: “Starting in the black area at 949, 554” and “We have started on the chin” [c0114] [c0115]. [P01] Mobilisation also includes conditional offers to click if somebody supplies plans, redirecting a competing start toward the active coordinates, and proposing recruitment through the existing game thread [c0035] [c0119] [c0097]. [A02] Starting and calling are combined in the organiser's edited post rather than demonstrated as separate stages; its edits cannot be timed individually from the concept's post timestamp [c0114] [c0115] [c0116]. [A01] The explanation that members made the picture “Through cooperation with other members of this subreddit” supports collective building, while identifying a particular call as the cause of that outcome remains unresolved [c0172] [c0140].
+
+[P15] Bare acceptances occur: “I got you” answers the request to finish and defend the O, and “Will do!” answers the defence call [c0127] [c0128] [c0148] [c0149]. [A12] Those paired replies support the proposed call-and-answer mechanism locally, including the forest's 68-second and 34-second responses; they do not reveal silent readers' placements [c0127] [c0128] [c0148] [c0149]. [K02] Members question whether a mark exists and whether complicated designs are feasible, but “It doesn't exist at the moment” and “Both of our beautiful logos are just way complicated” establish planning difficulty rather than a measured shortage of hands [c0091] [c0037]. [absent P10] Relocating the Hawks after losing their spot is unobserved: a report of a lost logo and a new logo in the Formula 1 exchange cannot establish that the Hawks relocated [c0072] [c0075]. [absent A10] The proposed shortage-to-move mechanism is not testable from those uncertain referents and the later Hawks planning passages [c0072] [c0075] [c0091].
+
+## D02 Coordination without command
+
+[P02] Design work exceeds the mobilisation placement assigned to theme t05: members compare four feathers, the shoulder patch, and an intricate design before the active head build [c0037] [c0093] [c0094] [c0103] [c0115]. [P03] The organiser reports the chin started, a helper is directed to its surrounding colour, and a returning member reports a finished logo [c0115] [c0122] [c0146]. [P04] Templates and reference coordinates make the complex image actionable: “It's too big and complex to wing it” prompts “Thanks I'll get going on that!!” [c0123] [c0124]. [A11] The older design chain explicitly requires a template and later returns an attempted one, but the concepts do not establish that this shoulder-patch proposal settled the head design actually built [c0094] [c0095] [c0099] [c0115]. [P04] The local adaptation therefore retains revisable instructions during construction rather than treating every template as a final design settlement [c0123] [c0124] [c0195].
+
+[C01] This room supplies the claim's minority case of decided order: “some of us should focus on defending” is explicitly adopted as “Good plan!” with others assigned to feathers [c0133] [c0134]. [C01] The division is temporary and practical, and a moderator directs one feather at a time while taking defence himself; these concepts do not establish a vote, elected command, or enforcement over placers [c0134] [c0135].
+
+[P14] “Scripts take all the fun out of it” and respect for “raw manpower” coexist with considering an overnight defending script and asking whether script use is a “no no” [c0141] [c0142] [c0159] [c0160] [c0161]. [P14] The fit is restricted to evaluation and proposed use: “I have no idea how these scripts work” supplies no evidence of deployment by this room [c0159]. [A06] Maintenance strain makes automation worth proposing, but the transition to actual machine placements remains unresolved, including whether anybody had the knowledge or accepted the practice [c0159] [c0160] [c0161]. [P14] A member's account of an osu attack is evidence about what that member recounted elsewhere, not evidence that the Hawks used scripts or joined that attack [c0209].
+
+## D03 Maintenance
+
+[P05] The record repeatedly shows maintenance: requests to defend a letter, splitting construction from defence, repairing an eye, holding the work overnight, and struggling to keep up with changing pixels [c0127] [c0133] [c0165] [c0164] [c0182]. [A03] A participant explicitly explains the transition: cooperation made the image and “Now all we have to do is to defend it,” while the post-end assessment says fixing took longer than the original build [c0172] [c0198]. [P05] Construction, celebration, and defence overlap rather than forming exclusive stages: feathers are still being built while others defend [c0134] [c0135] [c0168].
+
+[P06] The candidate attribution process is needed locally: helpers ask defenders not to erase legitimate feather detail, another member traces rival affiliations through placed blocks, and a conciliatory reply attributes most damage to random griefers [c0174] [c0211] [c0176]. [P06] These are competing participant attributions, not verified identities or a room-level consensus about who attacked [c0208] [c0176] [c0212]. [P05] Mistaking improvements for damage makes identifying intended work part of maintenance, rather than assuming every overwrite needs reversal [c0174].
+
+## D04 Order without law
+
+[P08] Members propose a Blues treaty, reassure Rainbow Road over Discord, announce an EarthInPlace exchange, and describe a Niners truce [c0129] [c0130] [c0132] [c0163]. [R02] The candidate envoy role appears in first-person reports of reaching out and asking another subreddit for collaboration; the other side of those conversations is not supplied [c0130] [c0131]. [A04] Keeping the work and negotiating coexist locally, but only some passages supply a motive: the Niners should be helped because the approaching Void could reach the Hawks [c0147] [c0163].
+
+[P07] Restraint includes letting every team have its logo, not ruining surrounding art, and moving fights back onto the ice [c0126] [c0139] [c0113]. [A05] A truce can specify tolerated neighbouring space, yet restraint is also justified directly by hockey and artistic norms without a preceding treaty [c0163] [c0126] [c0139]. [A17] An explicit recollection connects earlier Blues interference to proposing a treaty; that is a participant's explanation and proposal, not proof of a concluded agreement [c0129]. [P07] Preserving a work's shape while changing its team colours is a local counterexample to reading the entire restraint theme as sparing neighbours: “turn the blue into red” still proposes conversion [c0110].
+
+[P16] Reciprocity includes announced exchange, direct acceptance of a Wild request, helping rivals as “central Bros,” and declining a new proposal because the existing logo took too much time [c0132] [c0157] [c0158] [c0153] [c0184]. [A13] The timing is conditional on available effort: “in between defending our guy” and helping once attacks slow show outward help enabled by a pause in local work, alongside requests made under strain [c0158] [c0210] [c0218]. [A14] A reported deal can promise an exchange without establishing delivery: the organiser subsequently says “I'm not sure if they followed up” [c0132] [c0217]. [P17] Alliance acceptance and the answer “On the way!!!” to a multi-room anti-Void call support participation in shared defence; they do not establish a durable governing body [c0151] [c0152] [c0154] [c0155]. [A19] The common-threat mechanism is stated by the coalition caller as a Void threatening “us all,” and a Hawks participant answers that call [c0154] [c0155].
+
+[absent P19] A guest work governed by a host room is unobserved: avoiding surrounding art and describing tolerated space beside logos do not establish a granted tenancy [c0139] [c0163]. [absent P21] Disputing who can bind the room is unobserved despite announced agreements and uncertainty about follow-through; neither is itself a challenge to representative authority [c0132] [c0163] [c0217]. [absent A21] The tentative treaty-to-authority-dispute mechanism is not testable from those reports, because no concept supplies the predicted dispute [c0132] [c0163] [c0217].
+
+## D05 Collective identity
+
+[K03] Existing sports rivalry enters the canvas in a call to cover the Blues, but the same broader hockey affiliation also warrants protecting traditional rivals [c0001] [c0138]. [C02] Naming the Blues in the initial attack call supports the model's narrower claim that an existing tie identifies the target in the attack turn [c0001]. [K04] The candidate account of carrying existing lore into canvas conduct is needed: “Lord Hossa Commands it” recruits familiar room language for defence, and a human answers “Will do!” [c0148] [c0149]. [P16] “I hate the redwings ... but hockey is a family” makes broader membership a reason for help even while rivalry remains [c0136] [c0137] [c0138].
+
+[new: discovering shared fandom while talking about the canvas] The Formula 1 exchange has a supported local place even without a standing process element: “Holy shit there's F1 fans here?” receives an affirmative Ferrari cheer, then celebrates finding more fans [c0081] [c0082] [c0083]. [T3-017] The ladder already names ordinary sub talk, but assigning that tier alone does not explain this newly voiced recognition between participants; retaining t09's side exchange requires no claim that the canvas recruited new subscribers [c0081] [c0082] [c0083].
+
+## D06 Host framing
+
+[K01] The Breadman makeover, bread contributions, and fake hockey scares instantiate April Fools play alongside the canvas [c0009] [c0017] [c0029] [c0030]. [K01] Its ending, requests to keep it, later revival proposal, and newcomer explanation remain local joke practices; no concept makes Breadman the product of canvas organising or proves a canvas call was understood as fake [c0085] [c0014] [c0201] [c0206] [c0207].
+
+[P20] A request to corral canvas posts is answered by removal, an objection defends their value, and the moderator narrows the policy to one thread [c0185] [c0186] [c0187] [c0188]. [A20] The supplied turns support negotiation over the worth and place of event talk rather than a measured flood of recruitment calls: the objector says the sub has few daily posts [c0187]. [P20] Containment also coexists with participating: the original requester's later account says she enjoyed defending the logo [c0189]. [new: ordinary room business continuing beside the event] Jersey advice and questions about hockey publications continue in the same catch-all; their adjacency does not show that the moderation decision caused ordinary talk to resume [c0191] [c0192] [c0193].
+
+## D07 Imprinting
+
+[P11] “WE DID IT,” a returning helper's praise, and credit to the template designer mark a shared achievement before and after closure [c0170] [c0219] [c0199]. [A07] A participant explicitly compares the chin's beginning with the resulting work and credits teamwork, supporting the connection between a recognisable build and celebration [c0140] [c0146]. [P12] The end is announced and the Chief is reported in the final portrait, while lost neighbouring works are mourned [c0197] [c0200] [c0177] [c0213]. [A08] Thanking helpers and recording survival coexist in the final-portrait turn; that compound act is supported without proving a separate celebration-to-archiving mechanism [c0200].
+
+[absent P13] Carrying the canvas effort into a later project, permanent emblem, or continuing alliance is unobserved in the concepts; the final portrait records survival, while the Breadman revival proposal concerns the separate joke [c0200] [c0201]. [absent A09] The record-to-continuation mechanism is not testable beyond that immediate retrospective [c0200]. [absent P22] The tentative process of contesting a cleaned or corrected post-event record is unobserved: feather corrections concern live work, and the final portrait is reported without a dispute over which version should be kept [c0174] [c0200].
+
+## D08 Contention
+
+[P09] Early action combines a call to drop red on the Blues with a hope to build a Hawks mark, while a member reports interfering with Calgary and Toronto logos [c0001] [c0004]. [A15] Mobilising and attacking can occupy the same initial call, so the model's arrow must allow simultaneous purposes rather than requiring a completed recruitment stage before attack [c0001]. [A16] A later “no cup” attack proposal receives a reasoned redirect toward making the room's own logo [c0088] [c0089]. [P07] That refusal becomes productive planning: questions about location expose that no logo yet exists, followed by design and template work [c0090] [c0091] [c0092] [c0095].
+
+[P09] Recolouring a rival remains interference even when its proposer says it “won't destroy the art”; the reply directs those scarce pixels toward the active Hawks build [c0110] [c0111]. [P18] Rivalry persists in taunts, accusations of Blues members calling in the Void, and a salute to both completed logos [c0105] [c0213] [c0176]. [A18] These show continuing rivalry talk, but tracing a particular initial attack as the cause of each later accusation remains unresolved [c0004] [c0213]. [P09] The reported failure of the early effort is answered by appreciating the whole canvas; later calls and building do not prove that all participants abandoned attacks or changed their minds [c0005] [c0006] [c0114] [c0110].
+
+## Local exceptions
+
+[P14] [A06] Restrict the local explanation to proposed automation and a fairness debate; actual script use remains unresolved because the proposer explicitly lacks knowledge and no concept records deployment [c0159] [c0160] [c0161].
+
+[C01] Preserve the explicit division between defence and feathers as a decided element of order; this room falls within the global claim's stated minority, so its division neither disappears under the majority claim nor refutes that aggregate frequency [c0133] [c0134] [c0135].
+
+[P07] [P09] The restraint placement of t04 is only partial: converting blue to red changes another team's mark despite the speaker's preservation rationale; retain that passage as proposed interference in this adapted explanation [c0110] [c0111].
+
+[A13] [A14] Helping under threat needs spare capacity and follow-through distinctions: accepted help can be deferred between repair turns, promised reciprocity can remain uncertain, and an abandoned neighbouring effort can release a helper from the obligation [c0158] [c0210] [c0217] [c0215].
+
+[A16] [new: redirecting attack effort into an unfinished design] Refusal can open design work before there is a local mark to defend, rather than merely cancelling the attack; the reply chain supplies this finer transition [c0088] [c0089] [c0091] [c0092] [c0095].
+
+[A20] Host containment depends here on a contested judgment about appropriate talk, not demonstrated recruitment volume, and its requester can also have participated [c0185] [c0187] [c0188] [c0189].
+
+[P06] [K04] [R02] Candidate elements are locally warranted for contested damage attribution, carrying lore into defence, and reported outreach; they remain local additions without an inference that other rooms share them [c0174] [c0176] [c0211] [c0148] [c0130].
+
+[new: discovering shared fandom while talking about the canvas] Preserve t09's recognition exchange even though its ladder placement stops at ordinary talk, and preserve ordinary hockey questions beside the moderation dispute without claiming a causal return to normality [c0081] [c0082] [c0083] [c0192] [c0193].
+
+[absent P21] [absent P22] Treaty authority and post-event cleanup disputes remain unobserved, while relocation, completed reciprocity, automation, and future continuation remain unresolved where the concepts cannot decide them [c0163] [c0200] [c0075] [c0217] [c0159].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The adapted explanation accounts for building, maintenance, neighbour help, rivalry, and host play while retaining the supported side exchange and unresolved deployment, follow-through, and continuation claims [P03] [P05] [P16] [P18] [K01] [c0115] [c0198] [c0217] [c0081] [c0159] [c0200].
+<!-- end -->

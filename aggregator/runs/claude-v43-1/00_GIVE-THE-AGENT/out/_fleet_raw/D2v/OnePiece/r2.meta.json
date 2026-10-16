@@ -1,0 +1,34 @@
+{
+ "packet": "OnePiece",
+ "group": "OnePiece",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_YRTmMzdlo9J1Jk0Klbvh",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7920,
+  "output_tokens": 7069,
+  "output_tokens_details": {
+   "thinking_tokens": 6849
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0081441,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0081441,
+   "upstream_inference_prompt_cost": 0.001782,
+   "upstream_inference_completions_cost": 0.0063621
+  }
+ },
+ "elapsed_s": 27.6,
+ "packet_sha256": "345f4ce5d66cf21a68c2db6696f50a57c6cf3e6f89f8b001037ce03fa945b8b8",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

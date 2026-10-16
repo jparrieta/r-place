@@ -1,0 +1,34 @@
+{
+ "packet": "riskofrain",
+ "group": "riskofrain",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_YDDgIb4s2mA3lSkTJMrI",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7275,
+  "output_tokens": 7426,
+  "output_tokens_details": {
+   "thinking_tokens": 7194
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00591815,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00591815,
+   "upstream_inference_prompt_cost": 0.00109125,
+   "upstream_inference_completions_cost": 0.0048269
+  }
+ },
+ "elapsed_s": 36.8,
+ "packet_sha256": "0d3c5389e8dd86e8dc902d6ad7b4c1bd6535e5edd742495aa827006a3765e69f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

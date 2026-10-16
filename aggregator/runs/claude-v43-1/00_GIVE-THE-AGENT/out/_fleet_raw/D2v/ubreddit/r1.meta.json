@@ -1,0 +1,34 @@
+{
+ "packet": "ubreddit",
+ "group": "ubreddit",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_EYKy5wkKog11R4fhXYjW",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8176,
+  "output_tokens": 12571,
+  "output_tokens_details": {
+   "thinking_tokens": 12199
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01037156,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01037156,
+   "upstream_inference_prompt_cost": 0.0008176,
+   "upstream_inference_completions_cost": 0.00955396
+  }
+ },
+ "elapsed_s": 110.0,
+ "packet_sha256": "9dfc9e3e5834337596768cd2f8358ce371ac744a16ea9d78cf2d8540bbff4c88",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

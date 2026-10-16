@@ -1,0 +1,34 @@
+{
+ "packet": "mls",
+ "group": "mls",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_eO1nUVBSz0XhpnsgP42A",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8209,
+  "output_tokens": 10324,
+  "output_tokens_details": {
+   "thinking_tokens": 9983
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.011138625,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.011138625,
+   "upstream_inference_prompt_cost": 0.001847025,
+   "upstream_inference_completions_cost": 0.0092916
+  }
+ },
+ "elapsed_s": 32.8,
+ "packet_sha256": "813e69a34bc8eb22b22e45571599ceb49ab161404cb456f2fd1d98cfb33cb4e4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "anarcho_capitalism",
+ "group": "anarcho_capitalism",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_HaRNRg9TvqLchEnmveWk",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8408,
+  "output_tokens": 16844,
+  "output_tokens_details": {
+   "thinking_tokens": 16607
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0122098,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0122098,
+   "upstream_inference_prompt_cost": 0.0012612,
+   "upstream_inference_completions_cost": 0.0109486
+  }
+ },
+ "elapsed_s": 96.6,
+ "packet_sha256": "c16a850c380eae91da35a8ef4373bffe659bfe0e960fbb38484a1897ba071adc",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

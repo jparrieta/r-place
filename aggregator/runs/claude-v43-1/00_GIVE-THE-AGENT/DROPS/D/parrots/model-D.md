@@ -1,0 +1,75 @@
+# r/parrots — adapted room model
+
+## D01 Critical mass
+
+[P01] Public calls invite members to “mobilize,” make a Party Parrot, paint at specified coordinates, and join a parrot already “slowly happening”; the proposals identify several starts rather than one settled room plan [c0001] [c0009] [c0016] [c0017]. [K02] One starter judges another group's Party Parrot “much farther along than mine” and proposes contributing there instead; this is comparative progress, without a stated shortage of people [c0013]. [A13] Help directed toward another effort can precede the sustained defense episode, so help must not be explained exclusively as a consequence of upkeep exhausting the room's hands [c0013] [c0032].
+
+[new: enabling willing helpers to use the ordinary pixel controls] A willing participant cannot place tiles, receives app and map advice, and discovers that Reddit needed updating; willingness and coordinates do not themselves provide working access [c0024] [c0026] [c0028] [c0029] [c0030]. [P04] Locating help also includes explaining how to zoom to a start [c0011] [c0012].
+
+## D02 Coordination without command
+
+[R01] The member who calls for a parrot supplies its location and reports three red pixels, then an eye and forehead; this identifies a starter without establishing an appointed leader [c0001] [c0004] [c0005] [c0006]. [A02] Starting and calling are intertwined here: the proposal is itself a call, followed by placing reports, rather than an independently documented start causing a later call [c0001] [c0005]. [P03] Construction becomes readable through reports of parts formed, space being cleared, and a recreated head beginning at a new location [c0018] [c0023] [c0036]. [A01] These reports follow invitations, but they do not establish which additional placers were recruited by which post [c0017] [c0018] [c0023].
+
+[P04] Reference requests, a supplied picture link, landmarks, direct links, and anchor coordinates help people find the work; the concepts do not document a pixel-by-pixel template [c0002] [c0003] [c0004] [c0019] [c0045]. [P02] Design is settled through a grey-outline question, a two-pixel black-border alternative, and explicit assent [c0038] [c0039] [c0040]. [A11] This exchange reaches a stated design agreement through prose, so a posted pixel template cannot be treated as the necessary way design talk is settled locally [c0038] [c0039] [c0040].
+
+[P02] Signing is a revisable sub-plan: members ask to write r/parrots, then abandon lettering that would disturb neighbours and say the bird needs no title [c0027] [c0051] [c0052] [c0053]. [P15] “Yeah. OK. Let's go for a two pixel black border” is a bare assent to a proposal [c0040]. [A12] Call responses have wider forms than bare acceptance: one helper explains wondering where the bird went, an outsider gives cuteness as a reason to help, and a defense acknowledgement immediately asks about the pictured pet [c0037] [c0047] [c0063].
+
+[absent P14] Machine placement is unobserved: updating the ordinary app is the documented fix, and the mobile difficulty does not establish scripts, spare accounts, or timer circumvention [c0030] [c0041]. [C01] Informal proposals and assent are visible, but these concepts cannot establish the absence of an organizing decision elsewhere; the model's cross-room frequency claim is not testable from this room [c0039] [c0040] [c0044]. [P03] Update titles keep the effort visible, while two title-only updates cannot disclose their missing detail [c0043] [c0059] [c0060].
+
+## D03 Maintenance
+
+[P05] The drawing is “partially stepped on,” repaired, lost, recreated, and defended against recurring genital additions [c0032] [c0033] [c0035] [c0049] [c0050]. [A03] The completed drawing becomes something vulnerable: a completion announcement is followed by a question about disappearance and a reply explicitly explaining ongoing repair [c0025] [c0031] [c0032]. [P05] “We got it, but they're trying to recreate again” answers the attack alert and renews the defense call; this supports a response relation through the words as well as the reply tree [c0049] [c0050].
+
+[absent A06] The record does not show a transition from defense to machine hands; repeated repair and a later first-person removal account leave automation unobserved rather than prove it unnecessary [c0050] [c0075]. [P06] The candidate attribution process has a minimal form: a defacer claims “twas I,” and the reply addresses that person as destructive; this documents claimed responsibility, without independently verifying pixel authorship [c0057] [c0058].
+
+## D04 Order without law
+
+[P10] “Gone now,” “The Birb must stay,” “I am down to re-create,” and “We found a new spot” form an explicit loss-and-restart sequence [c0033] [c0034] [c0035] [c0036]. [A10] The move is supported, but the concepts do not state that too few hands caused it or document a deliberation between fighting and moving [c0033] [c0035] [c0036]. [new: returning from relocation to construction] The new spot immediately has two red pixels and is followed by an offer to add to it and a completion report, requiring a local return from relocation to building even though the standing model draws no such loop [c0036] [c0037] [c0038].
+
+[P07] Members spare neighbouring work before any documented treaty requires them to: black fill is proposed to avoid battling nearby keepers, and the lettering plan is dropped because it would disturb others [c0022] [c0052]. [P08] A member reports speaking with the PurplePixels moderator and being added to allied subs in return for help; the arrangement is reported from this room's side [c0044]. [R02] This same passage supports the candidate envoy role in its modest form of a member carrying back an agreement, without establishing formal appointment [c0044]. [P16] Redirecting effort to the farther-along Party Parrot, promising reciprocal help, and requesting help for the communist party parrot are distinct help moves [c0013] [c0044] [c0056]. [P17] The allied-subs list is an alliance; the record does not document a shared command, joint chat, or actual fulfillment of every promised exchange [c0044].
+
+[A04] Border accommodation and the alliance are documented, but their occurrence does not by itself show that erosion caused contact [c0022] [c0044]. [A05] Restraint does not locally require a settled negotiated border: avoiding battles and preserving neighbour space are stated reasons in their own right [c0022] [c0052]. [A14] The reciprocal request belongs to the same reported agreement, supporting a negotiated exchange without establishing a separate border-talk-then-help causal sequence [c0044]. [A19] Alliance entry is supported, while a shared threat or shortage driving that entry remains unobserved [c0044] [c0049]. [absent P19] A purple border and an allied list cannot establish that a host ruled on permission to build the parrot; that candidate relation is unobserved [c0044] [c0048].
+
+[absent P21] The tentative dispute over who can bind placers is unobserved; the agreement report contains no such dispute [c0044]. [absent A21] Its proposed agreement-to-authority-dispute mechanism is likewise unobserved, not refuted by silence [c0044].
+
+## D05 Collective identity
+
+[new: making situated bird jokes during canvas work] “Communist Party Leader Parrot,” the claim that birds make communism work, laughter over two parrots, and mockery of attackers' avian anatomy make the event playful in bird language [c0014] [c0015] [c0021] [c0055]. [absent K04] Those concepts cannot establish that these jokes or an ideological commitment predated the canvas; the candidate's inherited-identity claim is not testable here [c0014] [c0015] [c0055]. [absent K03] An inherited quarrel is unobserved; the direct defacer exchange does not name a prior rivalry [c0057] [c0058]. [absent C02] A pre-existing tie naming a rival in an attack call is unobserved; the joke about communism does not supply such a tie [c0014] [c0057].
+
+## D06 Host framing
+
+[new: keeping coordination links deliverable] A moderator asks people to avoid shorteners because the spam filter grabs them, and receives thanks plus a pointer to another effort post [c0007] [c0008]. [absent P20] Canvas containment is unobserved: this moderation exchange supports link delivery, not removal of canvas discussion, changed canvas rules, a megathread, or a judgment that canvas talk flooded the host [c0007] [c0008]. [absent A20] A call and a moderator reply occur, but the reply's stated reason is spam filtering, so the model's flood-to-containment mechanism is not established [c0001] [c0007]. [absent K01] Canvas jokes do not establish an April Fools takeover or license to treat the construction call as fake; host keying is unobserved [c0001] [c0014].
+
+[new: interleaving ordinary pet care with canvas mobilization] The backup post also presents Baby; its first reply thanks defenders and asks about his feet, followed by an explanation of partial paralysis and comparisons with other birds [c0062] [c0064] [c0065] [c0066] [c0067]. [new: interleaving ordinary pet care with canvas mobilization] This is a supported return to ordinary room practice within an event thread, without evidence that it displaces or weakens defense [c0063] [c0064].
+
+## D07 Imprinting
+
+[P11] Completion, successful repair, and final survival are celebrated repeatedly rather than in one terminal ritual: “We did it,” “prospered again,” and “The birb will live on forever” mark different moments [c0025] [c0054] [c0071] [c0073]. [A07] The reconstructed head is followed by an offered contribution and a report of completion, supporting a local build-to-celebration sequence [c0036] [c0037] [c0038]. [P12] The final account thanks defenders, says the floofer survived anatomically correct, recalls erasing genital additions, and describes the purple background; these are participants' reports rather than independent inspection of the image [c0072] [c0074] [c0075]. [A08] Celebration and recording can be combined in the same turn, rather than one causing a later archival request [c0072].
+
+[new: making fresh pet pixel art inspired by the event] The post-event artist explicitly cites r/place as inspiration and tries a pixel version of their own two birds, asks whether it may be posted, and receives approval [c0068] [c0069] [c0070]. [P13] To explain this activity, the element needs an additional route from event inspiration to new ordinary-room art; the concepts do not say this is a replica of the canvas parrot or a decision to preserve its collective project [c0068] [c0069]. [absent A09] No concept links recording the canvas to this artist's new birds; that proposed causal bridge is unobserved [c0069] [c0072].
+
+[new: leaving shared success intelligible only to some readers] “I still have no idea what happened here” answers the final success account, so visible celebration does not imply universal understanding [c0072] [c0076]. [absent P22] A contest over cleanup, historical scars, or the correct retained version is unobserved; confusion is not such a contest [c0076]. [P12] The two update titles with missing bodies and the limited surviving final reports constrain what can be settled about the record and final canvas appearance [c0043] [c0059] [c0072] [c0074].
+
+## D08 Contention
+
+[new: contesting an individual defacer inside the defense thread] An attack alert receives both a repair answer and a person's admission; the admission receives “destructive instead of creative, but you'll never win” [c0049] [c0050] [c0057] [c0058]. [P18] This needs an extension from rival rooms to an individual opponent whose room affiliation is unspecified; it does not establish a room-to-room war [c0057] [c0058]. [absent P09] A call by r/parrots to attack another room's work is unobserved; the attack claim appears inside a defense exchange and cannot be assigned to the host community as a collective act [c0049] [c0057]. [absent A15] A public construction call and an individual defacer's later admission do not establish that mobilization turned the room's hands against a rival [c0001] [c0057]. [absent A16] The direct rebuke answers an attack on this room's bird, not a documented host-room call to attack another work [c0057] [c0058]. [absent A17] No concept connects a host attack call to subsequent border diplomacy [c0044] [c0057]. [A18] The defensible local sequence is an individual attack claim answered by a rebuke, with neither a named rival room nor a host offensive call [c0057] [c0058].
+
+## Local exceptions
+
+[new: enabling willing helpers to use the ordinary pixel controls] Retain t04 as access troubleshooting and add it as a finer enabling step around P04; its placement under timer workarounds must not instantiate machine placement or bypassing the pixel limit [c0024] [c0029] [c0030]. [P14] Actual machine use remains unobserved [c0041] [c0050].
+
+[new: keeping coordination links deliverable] Retain t11 as delivery moderation rather than infer canvas suppression from its placement under post removal; add the missing practice and leave the broader P20/A20 claims unresolved [c0007] [c0008].
+
+[P10] Restrict the local move claim to loss and an explicit restart, and add the return to P03; shortage-caused movement and an explicit fight-or-move comparison remain unresolved [c0033] [c0035] [c0036] [c0037] [c0038]. [A11] Allow prose design agreement without requiring a posted template [c0038] [c0039] [c0040].
+
+[new: making situated bird jokes during canvas work] Retain t06 without claiming inherited ideology or pre-existing in-jokes [c0014] [c0015] [c0021] [c0055]. [new: interleaving ordinary pet care with canvas mobilization] Retain the otherwise undimensioned t13 through the explicit transition from thanks for defense to questions and answers about a pet [c0063] [c0064] [c0065].
+
+[P13] Extend post-event transition to newly inspired personal art, preserving the distinction from remaking the canvas mark [c0068] [c0069]. [new: leaving shared success intelligible only to some readers] Retain the otherwise unplaced t15 as a limit on the reach of the completion account [c0076]. [P18] Extend contest talk locally to an individual defacer, preserving the uncertainty about affiliation [c0057] [c0058].
+
+[A13] Early redirection is explained by another effort's greater progress, whereas alliance entry has reported reciprocal terms without a stated manpower explanation [c0013] [c0044]. [A19] Shared threat as the cause of alliance entry, [A06] automation as a response to defense, and tentative [P21] [A21] authority disputes remain unresolved in these concepts [c0044] [c0050]. [P12] Deleted update bodies and reported rather than inspected images limit conclusions; the presence of many coded concepts does not remove those gaps [c0043] [c0059] [c0074].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The adapted account explains the supported local practices through existing processes and explicit additions, while leaving missing mechanisms and record gaps unresolved [P03] [P05] [P12] [c0036] [c0050] [c0043].
+<!-- end -->

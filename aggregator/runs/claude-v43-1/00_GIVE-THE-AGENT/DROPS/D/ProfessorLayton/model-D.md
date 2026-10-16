@@ -1,0 +1,67 @@
+## D01 Critical mass
+
+[P01] The visible effort centres on a small set of participants calling for hands: “come to 482, 453 to help out” starts the thread, and later calls ask people to complete Luke or help against people colouring over the work [c0001] [c0015] [c0018]. [K02] “Luke is coming along slowly” makes downward expansion conditional on attracting more people; this supports a local shortage for expansion, not a judgement that the existing spot cannot be held [c0016]. [absent A10] A shortage-induced move is unobserved: the stated prospect is expansion, while another participant reports continuing to work on Luke [c0016] [c0019].
+
+[new: explaining a shared picture to an uninitiated reader] The question “What is this ?” receives “/r/place stuff”; this is a minimal orientation exchange, rather than a call, design decision, or celebration [c0023] [c0025]. [T4-003] The ladder recognises sensemaking, but the standing processes omit this small explanatory practice [c0023] [c0025]. [P01] Consequently, “the room” here denotes the visible builders speaking and answering, without implying that all readers recognised or joined their effort [c0019] [c0023] [c0025].
+
+## D02 Coordination without command
+
+[R01] The organiser retrospectively describes having made part of Layton before calling backup: “i had some of his body made before murica came through” [c0008]. [A02] That same speaker explicitly links earlier work and its disruption to recruiting, so the start-to-call connection rests on a participant's account rather than timestamp order alone [c0008]. [A01] The coordinate call is answered by “I've found the coordinate,” a recognition of the head, and a placement instruction, supporting a visible call-to-building exchange without independently verifying pixels placed [c0001] [c0002] [c0003].
+
+[P02] Design is settled in small additions: one member asks “should we do Luke?”, another answers “let's do it to the left in unused space,” and later suggestions propose a question mark and picarat between the figures [c0010] [c0011] [c0017] [c0029]. [P04] Locating and instructing helpers uses coordinates, a “brown square” in the hat, and “the image we're going for”; the picture's text identifies a target, but does not establish that the linked image is a pixel-by-pixel template [c0001] [c0003] [c0005]. [P03] Reports of seeing the head and then Luke make the emerging work available to other builders [c0003] [c0013].
+
+[P03] A finer step is following a recognisable emerging figure: “I'll start contributing when I can see parts of Luke” is followed in the edited item by “I see him!” [c0012] [c0013]. [A11] Restrict the design-to-template mechanism to decisions actually shown to be settled by a template; this Luke exchange instead shows a location agreement and an explicit visibility condition, without documenting a settling template for that decision [c0010] [c0011] [c0012] [c0013]. [P04] The earlier target-image post still fits reference sharing, so this exception does not erase the pictured guidance [c0005].
+
+[P15] Bare acceptance occurs as “I'm working on Luke right now” and “Yes please” [c0019] [c0030]. [P15] The latter endorsement is at H+76.50, after placement stopped at H+73, so it establishes assent without establishing that the proposed addition was placed [c0030]. [A12] The help request and immediate-work answer form a documented pair in the reply tree, supporting the arrow's narrow call-and-answer component [c0018] [c0019]. [A12] This pair cannot establish that every reader owes an answer or that refusals normally require reasons; the visible conditional acceptance also warrants keeping visibility as a condition on joining, rather than treating all acceptance as unconditional [c0012] [c0019].
+
+[absent C01] Decided organisational order is unobserved: “I'll start laying some pixels” and the conditional contribution promise show voluntary commitments, but do not settle whether anyone appointed a leader, divided work formally, or decided to avoid doing so [c0011] [c0012]. [C01] The room therefore cannot verify the model's numerical cross-room claim or turn missing discussion of formal order into an evidenced absence [c0011] [c0012]. [absent P14] Own-room automation is unobserved; the bot claim concerns blue corner, not these builders [c0028].
+
+## D03 Maintenance
+
+[P05] The theme placed wholly under mobilisation also contains maintenance: “people are trying to color over it” prompts a call for help, answered by someone already working on Luke, and a later comment says “now we just need to maintain” the work [c0018] [c0019] [c0022]. [A03] The completion post and its maintenance reply support the transition from a work announced as up to a work still needing upkeep [c0020] [c0022]. [P01] Recruitment also returns after damage: the organiser says disruption made it “time to call some backup,” so calls do not belong only at the beginning of the local account [c0008].
+
+[P06] The candidate attribution process appears in a limited form: “murica came through” names an actor in the organiser's account of damage, without tracing individual placers or corroborating that attribution [c0008]. [absent A06] The move from upkeep to the builders' own automation is unobserved, despite an explicit maintenance instruction and speculation about a neighbour's bots [c0022] [c0028]. [absent A04] [absent A13] [absent A19] Negotiation, traded help, and coalition formation following upkeep are likewise unobserved; the visible answer to strain is a local call and a local commitment [c0018] [c0019].
+
+## D04 Order without law
+
+[new: cautioning builders against provoking neighbours] “Try not to stir up the Americans though...” accompanies the target image [c0005] [c0006]. [P07] This warrants an instruction to avoid provocation, but cannot establish that builders spared particular pixels, restrained an actual attack, or upheld a norm of respecting all neighbouring art [c0006]. [new: cautioning builders against provoking neighbours] Preserve it as preventive caution with an unstated motive, rather than discard it because no treaty or attack call appears in its passage [c0006].
+
+[absent P08] [absent P16] [absent P17] Borders, help traded with other rooms, and coalitions are unobserved in the relevant passages: local backup and a warning about “the Americans” identify pressure and caution without documenting an inter-room agreement [c0006] [c0008]. [absent P19] [absent R02] Host-governed guest space and an envoy are unobserved; “unused space” is the builder's description, not a grant by a host [c0011]. [absent P10] Relocation after loss is unobserved: the explicit addition is Luke beside Layton [c0010] [c0011].
+
+[absent P21] The tentative authority-dispute process is unobserved; the visible agreement concerns where to draw Luke, not who can bind placers to a treaty [c0010] [c0011]. [absent A21] The tentative treaty-to-authority-dispute arrow is not testable without a documented inter-room agreement in this exchange [c0010] [c0011]. [absent A05] [absent A14] Border-induced restraint or help trading is similarly not testable from a warning that reports no border agreement [c0006].
+
+## D05 Collective identity
+
+[new: joking about visual resemblance without established prior lore] A viewer says the work looks like “Trumps wall” and explicitly qualifies it “Intended or not”; another title jokes “A Gentlemen doesn't stare Luke...” [c0014] [c0026]. [T3-031] Placing both under the room's in-jokes overstates what these concepts establish: the first presents an incidental resemblance and the second does not establish the phrase's history [c0014] [c0026]. [absent K04] The candidate claim that these jokes carry an established pre-canvas body, lore, or ideology is not testable from the two passages; the narrower visual-humour practice remains supported [c0014] [c0026]. [absent K03] A quarrel inherited from before the canvas is unobserved in the remark about “murica,” which explains backup through the canvas incident itself [c0008].
+
+## D06 Host framing
+
+[absent K01] A host-sub April Fools takeover or licence to post fakes is unobserved; a canvas joke alone does not establish that framing [c0026]. [absent P20] Regulation of canvas talk is unobserved: calls to finish Luke provide evidence of organising, not of moderation or a decision that moderation was unnecessary [c0015]. [absent A20] A call-induced flood and boundary response cannot be tested from that call alone [c0015].
+
+## D07 Imprinting
+
+[P11] Praise also occurs during progress—“this Layton is coming out really good”—so marking the work need not wait for a finished figure [c0007]. [P11] Members mark completion with “we did it,” “Great job team,” and the later recollection that helping to paint was “super fun” [c0009] [c0020] [c0021] [c0024]. [A07] Completion reporting and celebration coincide in “we did it”; the case supports their connection but cannot isolate a separate causal effect of reporting on celebration [c0009] [c0020]. [P11] Celebration also precedes another drawing proposal in the same item—“should we do Luke?”—so a locally finished figure can open further building before the canvas closes [c0009] [c0010] [c0011].
+
+[P12] Recording includes a completion-picture link and a later account of surrounding canvas changes [c0009] [c0028]. [P12] The latter is explicitly uncertain: “I think” introduces the yellow-pixel explanation and “who knows” limits the account of the face, so it records a participant's reconstruction rather than verified bot behaviour [c0028]. [absent A08] The completion-image link is simultaneous with celebration, and the later reconstruction answers a question about nearby building; neither establishes that celebration caused a turn to preservation [c0009] [c0027] [c0028]. [absent P13] Carrying the effort into a later venue, emblem, or purpose is unobserved in retrospective enjoyment [c0024]. [absent A09] A recording-to-continuation mechanism is not testable from the linked completion picture and retrospective remark [c0009] [c0024].
+
+[absent P22] The tentative process of contesting a cleaned or retained version is unobserved; the post-close reflection praises the result, and the later explanation speculates about how a nearby face appeared [c0024] [c0028].
+
+## D08 Contention
+
+[absent P09] [absent P18] An own-room attack and a contest carried into taunts are unobserved: the wall comparison admires “your guys work,” while the reconstruction describes what “they” did below it [c0014] [c0028]. [absent C02] A prior tie naming a rival in the room's attack is not testable here; “murica came through” is a builder's explanation of seeking backup, and “Trumps wall” is explicitly a possibly unintended resemblance [c0008] [c0014]. [absent A15] Turning a recruitment call into an attack is unobserved in the local call-and-help exchange [c0018] [c0019]. [absent A16] [absent A17] [absent A18] The attack-to-restraint, attack-to-negotiation, and attack-to-contest mechanisms are not testable from the caution passage because it contains no attack call [c0006].
+
+## Local exceptions
+
+[P01] [P05] The mobilisation placement of t01 obscures upkeep; the adaptation retains its recruitment function and also instantiates maintenance from the overwrite call and “need to maintain” instruction [c0018] [c0022]. [P01] A local return from damage to recruitment is supported by the organiser's own explanation, rather than inferred from the order of posts [c0008].
+
+[P03] [A11] The adaptation adds visible emergence as a step enabling contribution and limits the template mechanism to template-supported decisions; the Luke agreement and conditional commitment remain intact even though a separate settling template is not documented [c0010] [c0011] [c0012] [c0013]. [A12] The bare reply pair is validated locally, while the proposed obligation on every reader and the explanation of refusal remain unresolved [c0018] [c0019].
+
+[new: explaining a shared picture to an uninitiated reader] The adaptation preserves t07 as an explanatory exchange omitted from the standing processes, already legible at the ladder's sensemaking level [c0023] [c0025]. [new: joking about visual resemblance without established prior lore] The adaptation preserves t06 without requiring evidence that both jokes existed before the canvas; their history remains unresolved [c0014] [c0026]. [new: cautioning builders against provoking neighbours] The adaptation preserves the precaution in t05 without assuming a treaty, actual restraint, or an explicit motive [c0006].
+
+[C01] Formal organisational choices remain unresolved despite observable self-assignment [c0011] [c0012]. [P04] The linked target and progress pictures establish reference use, while their unseen contents leave pixel-level standardisation unresolved [c0005] [c0015]. [P12] The account of neighbouring bots remains a participant's qualified explanation [c0028]. [A06] These uncertainties and the incomplete underlying record prevent turning unobserved automation into an established absence [c0022] [c0028].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The adapted account explains the documented calls, building, upkeep and marking of the work [P01] [P03] [P05] [P11] [c0001] [c0013] [c0022] [c0024], while retaining local explanatory, humorous and precautionary practices and leaving unsupported organisational and causal claims unresolved.
+<!-- end -->

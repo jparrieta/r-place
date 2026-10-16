@@ -1,0 +1,34 @@
+{
+ "packet": "TeamDignitas",
+ "group": "TeamDignitas",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_H65hRvHwnC2KBEg3eGBt",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7777,
+  "output_tokens": 11649,
+  "output_tokens_details": {
+   "thinking_tokens": 11153
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0112618,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0112618,
+   "upstream_inference_prompt_cost": 0.0007777,
+   "upstream_inference_completions_cost": 0.0104841
+  }
+ },
+ "elapsed_s": 53.0,
+ "packet_sha256": "30e5ea5812fa06afdca52fc3fb38a03e3d55dd651ff31cfe8e129139e27fcf2c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

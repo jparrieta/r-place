@@ -1,0 +1,34 @@
+{
+ "packet": "UMiami",
+ "group": "UMiami",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_cB1Mnecx9KUYpGE7yve9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6195,
+  "output_tokens": 9631,
+  "output_tokens_details": {
+   "thinking_tokens": 9451
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0071894,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0071894,
+   "upstream_inference_prompt_cost": 0.00092925,
+   "upstream_inference_completions_cost": 0.00626015
+  }
+ },
+ "elapsed_s": 59.4,
+ "packet_sha256": "123b3cb61ad4c48527770643d4180190994ca45d7d13b419027bb136e2bdbe10",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

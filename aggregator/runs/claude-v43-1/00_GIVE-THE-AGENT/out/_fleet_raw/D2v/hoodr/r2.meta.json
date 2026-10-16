@@ -1,0 +1,34 @@
+{
+ "packet": "hoodr",
+ "group": "hoodr",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ze8yoaLZFduvtshRwDau",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7852,
+  "output_tokens": 3389,
+  "output_tokens_details": {
+   "thinking_tokens": 3086
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0064224,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0064224,
+   "upstream_inference_prompt_cost": 0.0023556,
+   "upstream_inference_completions_cost": 0.0040668
+  }
+ },
+ "elapsed_s": 11.5,
+ "packet_sha256": "9a28af3c758b5bce00583ac5bce07c015fd83a981c6bbd52ae92de150c49cd2b",
+ "valid": false,
+ "why": "line 1 lacks 'served'",
+ "served_matches_probe": true
+}

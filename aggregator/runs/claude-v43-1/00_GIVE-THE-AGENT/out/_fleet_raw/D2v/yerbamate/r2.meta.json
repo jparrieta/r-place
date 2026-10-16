@@ -1,0 +1,34 @@
+{
+ "packet": "yerbamate",
+ "group": "yerbamate",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_CWHu43UE0ZTijtfXVc6y",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6139,
+  "output_tokens": 2328,
+  "output_tokens_details": {
+   "thinking_tokens": 2151
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00243405,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00243405,
+   "upstream_inference_prompt_cost": 0.00092085,
+   "upstream_inference_completions_cost": 0.0015132
+  }
+ },
+ "elapsed_s": 12.4,
+ "packet_sha256": "a11d7089aa8787e564ed1eed54022bacc648b794ca3d7a57af77663793b744ed",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

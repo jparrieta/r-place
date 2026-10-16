@@ -1,0 +1,34 @@
+{
+ "packet": "ohio",
+ "group": "ohio",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_1tIgqePItz7F1Y06ADQp",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7987,
+  "output_tokens": 10270,
+  "output_tokens_details": {
+   "thinking_tokens": 10047
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00736005,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00736005,
+   "upstream_inference_prompt_cost": 0.00119805,
+   "upstream_inference_completions_cost": 0.006162
+  }
+ },
+ "elapsed_s": 54.3,
+ "packet_sha256": "b4193cecbcce0664b742086d812205a5c5debd83befcec10a45f60e60eaf9bea",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

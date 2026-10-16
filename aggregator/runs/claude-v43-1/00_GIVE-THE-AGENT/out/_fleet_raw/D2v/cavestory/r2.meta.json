@@ -1,0 +1,34 @@
+{
+ "packet": "cavestory",
+ "group": "cavestory",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ncTSmtv7OBRDXMJ0bSax",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7810,
+  "output_tokens": 15409,
+  "output_tokens_details": {
+   "thinking_tokens": 15376
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00347652,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00347652,
+   "upstream_inference_prompt_cost": 0.0007029,
+   "upstream_inference_completions_cost": 0.00277362
+  }
+ },
+ "elapsed_s": 207.5,
+ "packet_sha256": "6731024b9cff1bd4fe47c91efa56ff8a5204564b6c0479fe4de171e09afbab47",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

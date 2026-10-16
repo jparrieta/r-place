@@ -1,0 +1,34 @@
+{
+ "packet": "berkeley",
+ "group": "berkeley",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_VZEuKibGVd2m1gVLKXzF",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7864,
+  "output_tokens": 12709,
+  "output_tokens_details": {
+   "thinking_tokens": 12461
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0114465,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0114465,
+   "upstream_inference_prompt_cost": 0.00153348,
+   "upstream_inference_completions_cost": 0.00991302
+  }
+ },
+ "elapsed_s": 76.6,
+ "packet_sha256": "8d60ff98c50c00fd0092530e7b408aee71da3b8f49653613947d3c619091131a",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

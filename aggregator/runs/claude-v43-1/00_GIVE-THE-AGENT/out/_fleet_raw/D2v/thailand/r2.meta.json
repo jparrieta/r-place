@@ -1,0 +1,34 @@
+{
+ "packet": "thailand",
+ "group": "thailand",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_3UxdDlCggAWEuEuCG4vi",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8063,
+  "output_tokens": 17471,
+  "output_tokens_details": {
+   "thinking_tokens": 17207
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.017538075,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.017538075,
+   "upstream_inference_prompt_cost": 0.001814175,
+   "upstream_inference_completions_cost": 0.0157239
+  }
+ },
+ "elapsed_s": 998.5,
+ "packet_sha256": "cad74cee66bad663e596a69cbc03817b628ffe99c10fa7656a4ce7bef02e0dba",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

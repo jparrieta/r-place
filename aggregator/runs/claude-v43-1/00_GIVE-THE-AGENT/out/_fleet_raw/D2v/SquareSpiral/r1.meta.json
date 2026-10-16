@@ -1,0 +1,34 @@
+{
+ "packet": "SquareSpiral",
+ "group": "SquareSpiral",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_XWqcyS79iTgwl3f8r2us",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8150,
+  "output_tokens": 14544,
+  "output_tokens_details": {
+   "thinking_tokens": 14300
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01492335,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01492335,
+   "upstream_inference_prompt_cost": 0.00183375,
+   "upstream_inference_completions_cost": 0.0130896
+  }
+ },
+ "elapsed_s": 43.1,
+ "packet_sha256": "0a2b8e71dfb3b53acf693937a76670aaf4fe152863f9abf9a168a64495cf3a10",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

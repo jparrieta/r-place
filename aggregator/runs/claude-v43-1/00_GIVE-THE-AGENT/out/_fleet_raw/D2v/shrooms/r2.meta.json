@@ -1,0 +1,34 @@
+{
+ "packet": "shrooms",
+ "group": "shrooms",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_WVSnhtN91wpYCcqf7kKu",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7432,
+  "output_tokens": 6681,
+  "output_tokens_details": {
+   "thinking_tokens": 6422
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.006557952,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.006557952,
+   "upstream_inference_prompt_cost": 0.001426944,
+   "upstream_inference_completions_cost": 0.005131008
+  }
+ },
+ "elapsed_s": 51.8,
+ "packet_sha256": "fa5aecc1b3fadc0287a0e167ba804dcb87d038d1c0f01d57d7ca73d26441dc1c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

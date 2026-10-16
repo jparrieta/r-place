@@ -1,0 +1,34 @@
+{
+ "packet": "osugame",
+ "group": "osugame",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_VS9qkfZ3wb53N8qZ3mgm",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8144,
+  "output_tokens": 14855,
+  "output_tokens_details": {
+   "thinking_tokens": 14607
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01087735,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01087735,
+   "upstream_inference_prompt_cost": 0.0012216,
+   "upstream_inference_completions_cost": 0.00965575
+  }
+ },
+ "elapsed_s": 74.6,
+ "packet_sha256": "e473f7fad7585bd4efcd2c55281d858216844fffe1d264ada36846c0dfa4f107",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

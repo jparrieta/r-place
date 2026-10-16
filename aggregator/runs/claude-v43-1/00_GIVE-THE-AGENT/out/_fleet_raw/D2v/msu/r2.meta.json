@@ -1,0 +1,34 @@
+{
+ "packet": "msu",
+ "group": "msu",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_8VlV54NwK4rMeA3nTmbQ",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8103,
+  "output_tokens": 7674,
+  "output_tokens_details": {
+   "thinking_tokens": 7268
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0058082103,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0058082103,
+   "upstream_inference_prompt_cost": 0.0012130191,
+   "upstream_inference_completions_cost": 0.0045951912
+  }
+ },
+ "elapsed_s": 38.5,
+ "packet_sha256": "0555dce78a1a8385704f1e6dbb9899b4e53b8d48b93a96a35c75d0b8aa8280fb",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

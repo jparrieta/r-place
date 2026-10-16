@@ -1,0 +1,34 @@
+{
+ "packet": "leagueoflegends",
+ "group": "leagueoflegends",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_mU3etGL5y2gXNTRgugtR",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8216,
+  "output_tokens": 10891,
+  "output_tokens_details": {
+   "thinking_tokens": 10613
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01545184,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01545184,
+   "upstream_inference_prompt_cost": 0.00238264,
+   "upstream_inference_completions_cost": 0.0130692
+  }
+ },
+ "elapsed_s": 140.5,
+ "packet_sha256": "8982f08b50128c07583864dd45f962716e2b0e761fed55b2888a6953a3e2be7e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

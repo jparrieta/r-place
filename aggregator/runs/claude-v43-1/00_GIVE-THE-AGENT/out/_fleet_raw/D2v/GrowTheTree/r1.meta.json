@@ -1,0 +1,34 @@
+{
+ "packet": "GrowTheTree",
+ "group": "GrowTheTree",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_HYj86K45Pp1ZKkZdGQcp",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7540,
+  "output_tokens": 7514,
+  "output_tokens_details": {
+   "thinking_tokens": 7336
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0084591,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0084591,
+   "upstream_inference_prompt_cost": 0.0016965,
+   "upstream_inference_completions_cost": 0.0067626
+  }
+ },
+ "elapsed_s": 24.1,
+ "packet_sha256": "d261ec1cefbe9b16fa194fe9be6238fed12bf8c46021b82088a46a700cf25839",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

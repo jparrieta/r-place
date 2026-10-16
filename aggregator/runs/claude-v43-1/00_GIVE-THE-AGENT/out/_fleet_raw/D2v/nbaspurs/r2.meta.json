@@ -1,0 +1,34 @@
+{
+ "packet": "nbaspurs",
+ "group": "nbaspurs",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_DGaHLGsDE6xLIuaydNsm",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8900,
+  "output_tokens": 3780,
+  "output_tokens_details": {
+   "thinking_tokens": 3362
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.007206,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.007206,
+   "upstream_inference_prompt_cost": 0.00267,
+   "upstream_inference_completions_cost": 0.004536
+  }
+ },
+ "elapsed_s": 14.5,
+ "packet_sha256": "1f8939fd063de0abfb4a9703dbb4f666f81af274d55cd8d0058ba4b218956a51",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "redpandas",
+ "group": "redpandas",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_2R5izSV85vXfB0SSPMkQ",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7763,
+  "output_tokens": 14518,
+  "output_tokens_details": {
+   "thinking_tokens": 14268
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0117486999,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0117486999,
+   "upstream_inference_prompt_cost": 0.0001342999,
+   "upstream_inference_completions_cost": 0.0116144
+  }
+ },
+ "elapsed_s": 73.4,
+ "packet_sha256": "256cd7b4c5a7c6185c3ed8e91c3e44f06f42f866ebbca5e1080dc9a12b469be2",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "overwatch",
+ "group": "overwatch",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_FbtoZpoU0xsSX78qaYDt",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8915,
+  "output_tokens": 9595,
+  "output_tokens_details": {
+   "thinking_tokens": 9355
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0141885,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0141885,
+   "upstream_inference_prompt_cost": 0.0026745,
+   "upstream_inference_completions_cost": 0.011514
+  }
+ },
+ "elapsed_s": 42.3,
+ "packet_sha256": "b74b8069833163a942a240b5b519d25532c091998007d8d5c21c31af16f0ed2d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "nerf",
+ "group": "nerf",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_as6e0mGnepSrmj7hjluP",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8167,
+  "output_tokens": 9945,
+  "output_tokens_details": {
+   "thinking_tokens": 9694
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0076893,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0076893,
+   "upstream_inference_prompt_cost": 0.00122505,
+   "upstream_inference_completions_cost": 0.00646425
+  }
+ },
+ "elapsed_s": 41.3,
+ "packet_sha256": "5a88f18abc8d2ecaec7e07d538245814a62d2be12d494b1f502c68d01f309458",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

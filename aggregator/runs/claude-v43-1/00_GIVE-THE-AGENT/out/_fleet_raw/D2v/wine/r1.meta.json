@@ -1,0 +1,34 @@
+{
+ "packet": "wine",
+ "group": "wine",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_QtfWV1q5eBCBLTGYFLfN",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8163,
+  "output_tokens": 14836,
+  "output_tokens_details": {
+   "thinking_tokens": 14460
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0202521,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0202521,
+   "upstream_inference_prompt_cost": 0.0024489,
+   "upstream_inference_completions_cost": 0.0178032
+  }
+ },
+ "elapsed_s": 29.8,
+ "packet_sha256": "2c6c1241d8b9c40acdcf4299e42500070fb25662683e0f6604de22d6678cc4e9",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

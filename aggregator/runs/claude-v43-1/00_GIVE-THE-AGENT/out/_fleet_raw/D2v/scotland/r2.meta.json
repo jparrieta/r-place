@@ -1,0 +1,34 @@
+{
+ "packet": "scotland",
+ "group": "scotland",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_Y7aCYkv7g8YV0j3Zl7qs",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8055,
+  "output_tokens": 6777,
+  "output_tokens_details": {
+   "thinking_tokens": 6716
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0055609515,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0055609515,
+   "upstream_inference_prompt_cost": 0.0001393515,
+   "upstream_inference_completions_cost": 0.0054216
+  }
+ },
+ "elapsed_s": 30.2,
+ "packet_sha256": "2327e54350d24a8dd71bfa0399c9c8595accbc195a0b5f45ee0bf1f79ebf3d7f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

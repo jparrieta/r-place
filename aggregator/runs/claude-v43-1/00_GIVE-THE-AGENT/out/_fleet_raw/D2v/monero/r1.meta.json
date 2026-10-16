@@ -1,0 +1,34 @@
+{
+ "packet": "monero",
+ "group": "monero",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_h5e0scBRVu9uOiexJtjb",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7913,
+  "output_tokens": 11624,
+  "output_tokens_details": {
+   "thinking_tokens": 11382
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00874255,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00874255,
+   "upstream_inference_prompt_cost": 0.00118695,
+   "upstream_inference_completions_cost": 0.0075556
+  }
+ },
+ "elapsed_s": 61.6,
+ "packet_sha256": "ed184d5c6aca01880fb456d06ece55f7dad55d3ea24ba64c3657bad31a94bdf3",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

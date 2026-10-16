@@ -1,0 +1,34 @@
+{
+ "packet": "floridagators",
+ "group": "floridagators",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_2xeTHwFlYFLs6zAG1Wfr",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8084,
+  "output_tokens": 11357,
+  "output_tokens_details": {
+   "thinking_tokens": 11145
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0080268,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0080268,
+   "upstream_inference_prompt_cost": 0.0012126,
+   "upstream_inference_completions_cost": 0.0068142
+  }
+ },
+ "elapsed_s": 65.8,
+ "packet_sha256": "51f3c3bdd98e97d4606f7ae56e58912624c800d99400a23164f9f7ea6bf29760",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

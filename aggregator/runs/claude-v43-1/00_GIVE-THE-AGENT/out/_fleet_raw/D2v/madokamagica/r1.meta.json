@@ -1,0 +1,34 @@
+{
+ "packet": "madokamagica",
+ "group": "madokamagica",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_qJHI05c9AbvFr51VCHia",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8132,
+  "output_tokens": 11724,
+  "output_tokens_details": {
+   "thinking_tokens": 11496
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0088404,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0088404,
+   "upstream_inference_prompt_cost": 0.0012198,
+   "upstream_inference_completions_cost": 0.0076206
+  }
+ },
+ "elapsed_s": 68.1,
+ "packet_sha256": "a807d0123c0afec0a283265db478f167cf901d042adbcd70c5b6ba2da60f2715",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

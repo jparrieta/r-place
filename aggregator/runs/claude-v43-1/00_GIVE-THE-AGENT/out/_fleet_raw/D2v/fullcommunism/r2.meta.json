@@ -1,0 +1,34 @@
+{
+ "packet": "fullcommunism",
+ "group": "fullcommunism",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_9MNCzb0FTnNK8mlhFL3q",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8305,
+  "output_tokens": 9493,
+  "output_tokens_details": {
+   "thinking_tokens": 9232
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01380005,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01380005,
+   "upstream_inference_prompt_cost": 0.00240845,
+   "upstream_inference_completions_cost": 0.0113916
+  }
+ },
+ "elapsed_s": 66.0,
+ "packet_sha256": "b02481adcdfa93346a4508e1613f1cbabe25a38a31daa811eb44eee49820e6ef",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

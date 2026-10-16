@@ -1,0 +1,34 @@
+{
+ "packet": "wsu",
+ "group": "wsu",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_lN0hboA38HGL5FjEmdGH",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 44,
+  "output_tokens": 6513,
+  "output_tokens_details": {
+   "thinking_tokens": 6305
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 6784,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005912304,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005912304,
+   "upstream_inference_prompt_cost": 5.0604e-05,
+   "upstream_inference_completions_cost": 0.0058617
+  }
+ },
+ "elapsed_s": 957.5,
+ "packet_sha256": "8a4e26ca2f960b156349ac79bc0daf2c1a4e20e14da59302be1c5ef06e016164",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

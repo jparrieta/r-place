@@ -1,0 +1,34 @@
+{
+ "packet": "DatBoi",
+ "group": "DatBoi",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_07vBek26MVhPUBpb8e1q",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7984,
+  "output_tokens": 6069,
+  "output_tokens_details": {
+   "thinking_tokens": 5879
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00541084,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00541084,
+   "upstream_inference_prompt_cost": 0.0007984,
+   "upstream_inference_completions_cost": 0.00461244
+  }
+ },
+ "elapsed_s": 29.3,
+ "packet_sha256": "41fd802dd0920f65201b2d5f3e41eaae1d33661937bbafd448be53ddcb458945",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

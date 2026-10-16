@@ -1,0 +1,34 @@
+{
+ "packet": "nightinthewoods",
+ "group": "nightinthewoods",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_f2T6W83BD8Zim4cUrnrr",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7797,
+  "output_tokens": 2681,
+  "output_tokens_details": {
+   "thinking_tokens": 2425
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0055563,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0055563,
+   "upstream_inference_prompt_cost": 0.0023391,
+   "upstream_inference_completions_cost": 0.0032172
+  }
+ },
+ "elapsed_s": 9.7,
+ "packet_sha256": "f9456db3cf44a38b6462db6c1b020eba2253361e3842d6468a1516e68fa7120b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "catholicism",
+ "group": "catholicism",
+ "reader": "r11",
+ "reissue": 1,
+ "generation": "msg_dXPZR17dCQzlYEmr8Bpn",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8090,
+  "output_tokens": 9082,
+  "output_tokens_details": {
+   "thinking_tokens": 8890
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0133254,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0133254,
+   "upstream_inference_prompt_cost": 0.002427,
+   "upstream_inference_completions_cost": 0.0108984
+  }
+ },
+ "elapsed_s": 44.0,
+ "packet_sha256": "94e20112266837c46596d8414edae9c0b21755fd10d233c632d9d8db2d71264d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

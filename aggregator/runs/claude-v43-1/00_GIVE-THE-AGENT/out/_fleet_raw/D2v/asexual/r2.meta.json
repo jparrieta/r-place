@@ -1,0 +1,34 @@
+{
+ "packet": "asexual",
+ "group": "asexual",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_L71JNB8VyxCjfUKquZ1l",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8026,
+  "output_tokens": 11162,
+  "output_tokens_details": {
+   "thinking_tokens": 10937
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0158022,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0158022,
+   "upstream_inference_prompt_cost": 0.0024078,
+   "upstream_inference_completions_cost": 0.0133944
+  }
+ },
+ "elapsed_s": 85.3,
+ "packet_sha256": "70053cd7caaa8f0582be77ee125ed7f2ecb2946e851c97295c1e7782e9f0a287",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "morrowind",
+ "group": "morrowind",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_dY05vxDcBIUg439FquIL",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8198,
+  "output_tokens": 12723,
+  "output_tokens_details": {
+   "thinking_tokens": 12420
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01329525,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01329525,
+   "upstream_inference_prompt_cost": 0.00184455,
+   "upstream_inference_completions_cost": 0.0114507
+  }
+ },
+ "elapsed_s": 38.8,
+ "packet_sha256": "e6c3727ed35f97f6cb36f9c607f1972a87417ae1a0b9bc545a9de62ae502079b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

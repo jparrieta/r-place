@@ -1,0 +1,76 @@
+# r/poland: adapted room model
+
+## D01 Critical mass
+
+[R01] [P01] The flag starts in the public record as a call, “Come help!”, and an instruction to start at coordinates 40.157; a later miniature-flag starter similarly recruits a helper [c0001] [c0002] [c0105] [c0106]. [P15] [A12] The miniature proposal receives “okay im in” after 4.7 minutes, providing a direct call-and-acceptance pair without showing that every reader answered or placed [c0105] [c0106]. [A02] Starting and recruiting can occupy the same turn here, rather than two distinct chronological stages [c0002].
+
+[A01] The miniature build connects a proposal, acceptance and stripe instructions, but these turns do not verify that the call caused completed pixel placement [c0105] [c0106] [c0107].
+
+[new: riffing together on a canvas detail] The placement of t08 under sensemaking loses what the exchange does: “Has science gone too far?” receives “quantum computing” after 3.2 minutes, turning an absurd FPS count into a shared joke rather than establishing its actual cause [c0113] [c0114]. [K02] A concern that a separate shield would “spread us thin” supports anticipated limits on effort, but it does not explain the earlier loss and proposed move [c0044] [c0020].
+
+## D02 Coordination without command
+
+[P02] The national mark is repeatedly proposed and argued over: a PW anchor is rejected because “We're not fighting anyone,” an eagle is challenged on resolution and flag type, and pierogi are proposed as “More Polish things on Polish things!” [c0006] [c0007] [c0054] [c0055] [c0057]. [P15] The anchor proposer accepts the objection with “Fair enough”; this is assent in a design exchange rather than an answer to a recruitment call [c0008]. [P02] The correction “A common misconception” and the acknowledgement “I learned something” support a flag-rule disagreement and learning, but the concept's short quoted span cannot independently establish the statute's content [c0059] [c0060].
+
+[P04] Coordinates and five-pixel stripes make building actionable, while “Stop doing it on your own” directs builders toward a plan kept in Discord [c0002] [c0107] [c0058]. [new: making the organising venue the place to learn the plan] T04 belongs in D02 through backstage decision-making, but no standing process explicitly names its routing work: “/r/polska is ‘hq’” and the “official PL Flag discord” locate decisions beyond this room, which retains invitations and relayed outcomes [c0069] [c0081] [c0039]. [P04] Add a finer step for obtaining instructions in another venue before standardising output; the public record does not show the complete plan or everyone receiving it [c0058] [c0081].
+
+[C01] This room cannot test the global claim about what most rooms did; locally, it combines an official organising venue with a reported “pretty unanimous” AMD decision, so an account that simply assigns it to undecided organisation would be inadequate [c0081] [c0117]. [C01] The reported consensus establishes neither a formal vote nor elected command, and “it will take some time for everyone to get the news” separates agreement from its dissemination [c0117] [c0039].
+
+[P03] Members report maintaining the original border and report that the flag was saved, while a smaller build receives concrete stripe instructions [c0023] [c0025] [c0107]. [P14] The machine-placement evidence stops at “PlaceBot ready for eagle,” a bot offer, and hope that it solves problems; successful execution, extra accounts and placement volume remain unobserved [c0073] [c0083] [c0084]. [A06] Defence precedes the offer in the case, but no cited concept says that upkeep exceeded the timer or caused adoption of the bot [c0023] [c0073] [c0084]. [A11] Design discussion and publication of “Our plan” coexist without establishing that an agreed template settled the design, since the plan concept contains only its title [c0054] [c0072].
+
+## D03 Maintenance
+
+[P05] Defence ranges from “WE MUST PROTECT THE MOTHERFLAG” to maintaining its black border, recounting a night fighting snek, and requesting removal of a swastika near the banner [c0024] [c0023] [c0050] [c0093]. [P05] The later call against the void and report “I helped defend snek” show mutual defence talk and reported labour, but the latter recounts help rather than proving a response caused by that particular call [c0099] [c0100]. [A03] In the border-maintenance report, maintaining already placed work is itself the stated task; separate building and maintenance phases cannot always be recovered [c0023].
+
+[P06] The candidate attribution process is necessary locally: a complaint says Poles themselves obstruct the flag, and an answer to AMD distinguishes “not coordinated, vandals or randoms” from the speaker's own repairs [c0076] [c0078] [c0079]. [P06] These are competing participant attributions, not verified identities of pixel placers [c0076] [c0079]. [A04] A claim that AMD exceeds an agreed border brings both a call to repel it and a reply saying “Leave their logo alone”; maintenance and negotiation interweave through the disputed agreement rather than a proven one-way causal chain [c0046] [c0047].
+
+## D04 Order without law
+
+[P08] The room records an AMD settlement, a three-pixel border, and reminders of a treaty that sends the flag beneath the logo [c0117] [c0035] [c0041] [c0042]. [P07] [A05] Reminding a “Reclaim the motherland” poster of that agreement is observable treaty-based restraint, but its effect on actual pixels remains unknown [c0040] [c0041]. [P08] The same agreement can warrant renewed conflict: “Parts of the border are currently at four. Repel them!” is a claimed breach of the settlement, not proof that its maker rejected peace [c0046]. [P07] A later appeal to spare AMD as others' art meets the contrary description “free advertisement,” so agreement never establishes a shared moral evaluation among every speaker [c0090] [c0091] [c0092].
+
+[P08] [R02] Formula1 approaches with “What can we do to work together?”, receives permission for the logo but not invading checkers, and replies “We'll see what we can work out” after 2.3 minutes [c0066] [c0067] [c0068]. [P16] [A14] Mutual protection is offered conditionally—“we'll protect you if you protect us”—and a Formula1 participant explicitly repairs white areas hoping that stray checkers will be forgiven; these support bargaining and reported help, not universal delivery of promised help [c0038] [c0071]. [P17] The FRC alliance is explicitly invoked, whereas South Africa's proposed anti-Swedish alliance remains a request in the cited record [c0062] [c0004]. [A13] [A19] Appeals against the void support a possible shared-defence pathway, but they do not show that manpower shortage produced help or that a new coalition was formed as a result [c0098] [c0099] [c0100].
+
+[P19] The candidate host-and-guest process adds a necessary distinction within t03: FRC asks to keep team numbers “on your flag” and receives “no,” while Atlanta asks for a spot beside Soylent without a coded answer [c0095] [c0096] [c0094]. [P07] In the miniature build, a claim that the spot is reserved for a friendship heart elicits an apology after 2.0 minutes and an explanation that it had looked empty; the evidence establishes apology and corrected understanding, not an observed withdrawal of pixels [c0108] [c0109].
+
+[absent P21] [absent A21] Observation: unobserved. Delay in transmitting a deal and disowning “randoms” show problems of reach and attribution, but neither concept records a dispute over someone's right to bind the room [c0039] [c0079]. [P21] The tentative authority-dispute process therefore cannot be inferred from renewed attacks alone [c0080] [c0079]. [new: carrying agreement news to people outside the negotiating venue] A finer step within P08 must distinguish reaching agreement from making it known to placers, because peace is explicitly reported as negotiated elsewhere while news is still travelling [c0039].
+
+## D05 Collective identity
+
+[K04] The candidate identity condition operates beyond displaying a flag: Polandball's drawball origin becomes an “original dream” to defend, and partition becomes a rallying description of canvas loss [c0012] [c0077]. [P02] Symbolic limits also constrain the picture: the PW anchor's meaning is offered as a reason not to use it when “We're not fighting anyone” [c0007]. [P05] Removing a swastika is a specific defence of the banner's visible content; it does not identify its author or establish a room-wide ideological position [c0093].
+
+[K04] [new: refusing a proposed coalition through national history] The Pan-Slavic invitation asks for participation in covering America, but its answer rejects Pan-Slavism as Russian domination and destruction of Polish language and culture [c0102] [c0103]. [P17] This is historical reasoning against a proposed collective, not evidence that the room joined it [c0103] [c0104]. [C02] The evidence does not demonstrate the standing claim's specific mechanism of an inherited tie naming a rival in the same attack turn: the partition rally names no rival, and the Pan-Slavic historical explanation is a refusal rather than an attack call [c0077] [c0102] [c0103].
+
+[P02] [P16] The Hungarian participant proposes a mark explicitly representing friendship and asks for help; its realised image and the identity of the friends in the separate “friends forever” post cannot be recovered from the cited words [c0082] [c0085] [c0086].
+
+## D06 Host framing
+
+[absent K01] [absent P20] [absent A20] Observation: unobserved. Calling r/place “The reddit April fools event” does not establish a local prank takeover or host rules restricting canvas talk; sending builders to Discord supplies positive evidence of routing but no stated moderation policy or flood response [c0002] [c0058] [c0081]. [P20] The return therefore leaves host containment unresolved rather than treating movement of planning as proof that the host controlled the conversation [c0058].
+
+## D07 Imprinting
+
+[P11] Marking a success occurs before closure: “We did it reddit, flag was saved!” celebrates survival without proving completion of every intended design [c0025]. [P12] Accounts of fate and labour include “our flag is lost” and a whole night fighting snek; these are situated reports during the event rather than a final, settled history [c0020] [c0050]. [A07] [A08] The coded success announcement combines reporting and celebration; it does not independently establish that celebration caused a subsequent act of recording [c0025].
+
+[absent P13] [absent A09] Observation: unobserved. The friendship proposal is during placement and the later “Poland, Bahrain, Goatse” reply interprets an image; neither establishes a decision to retain the collective, reuse the work or continue on another canvas [c0082] [c0116]. [absent P22] Observation: unobserved. The post-closure image labels do not show a dispute about cleaning a preserved canvas or correcting the event's historical record, so the tentative process remains unestablished here [c0116]. [P12] The linked image's unseen content prevents a stronger conclusion about what was being clarified [c0115] [c0116].
+
+## D08 Contention
+
+[P09] Calls to convert Texas and Chile, remove AMD, and replace Indonesia's writing with “Poland” instantiate attacks and encroachment at the level of proposed or self-reported acts; they do not demonstrate that every attack was collectively authorised [c0019] [c0064] [c0080] [c0087]. [A15] The first coordinate call itself does not identify an opponent, so its ladder placement under encroachment cannot turn ordinary construction into an evidenced attack [c0002]; the later explicit takeover calls provide that evidence [c0019] [c0061].
+
+[P07] [P08] [A16] [A17] The FRC takeover call receives “We have alliance with the FRC. Stop destroying their logo” after 36.5 minutes, directly supporting both restraint and invocation of an existing agreement [c0061] [c0062]. [A16] Refusal need not prevail: “you already have your own flag” receives “git gud” after 3.1 minutes, and sparing AMD as art is met with an intention to remove its advertising [c0088] [c0089] [c0090] [c0091]. [P18] Dismissive contest talk is visible in those replies, while the coded Chile concept only identifies the reply's origin and cannot bear the stronger claim that its quoted words contain threats [c0089] [c0091] [c0065].
+
+[A18] The proposal to replace Indonesia's writing becomes an exchange of objection and dismissive contest talk: “you already have your own flag” is answered with “git gud” [c0087] [c0088] [c0089].
+
+[P10] Loss prompts “Let's take 403, 55” and a call to focus on Polandball, but the original flag's border is subsequently maintained and its rescue celebrated; proposed relocation and continued defence coexist rather than documenting one completed room-wide move [c0020] [c0022] [c0023] [c0025]. [A10] The cited loss-and-move proposal never attributes loss to too few hands, so the shortage mechanism remains untested rather than supplied from a later concern about spreading effort thin [c0020] [c0044]. [absent K03] Observation: unobserved. The explicit takeovers identify neighbours, but the cited concepts do not establish a pre-canvas quarrel with them [c0061] [c0064] [c0080].
+
+## Local exceptions
+
+[P04] [new: making the organising venue the place to learn the plan] Retain the t04 placement in backstage decision-making, add a venue-routing step, and leave the contents and effective reach of unseen decisions unresolved [c0058] [c0069] [c0081]. [P08] [A05] Add transmission of agreement news and condition claims about practical restraint on reception and compliance; local consensus and a border rule are supported, universal obedience is not [c0039] [c0035] [c0117] [c0046]. [P21] [A21] Keep tentative disputes about representation unobserved because these same passages do not deny an envoy's authority [c0039] [c0079].
+
+[P06] [P19] Instantiate candidate attribution and host authority locally: disowning attackers while repairing differs from negotiating borders, and refusing numbers inside the flag differs from settling its perimeter [c0079] [c0095] [c0096]. [P14] Restrict the automation claim to offered and welcomed capacity here, with actual operation and the shortage-to-bot mechanism unresolved [c0073] [c0083] [c0084]. [P10] Restrict movement to proposed relocation because continued defence is also explicit [c0020] [c0023].
+
+[K04] [P17] Add the refusal pathway whereby inherited history makes a proposed coalition unacceptable; do not force this into C02's attack mechanism [c0102] [c0103]. [new: riffing together on a canvas detail] Preserve t08's shared joke as an additional local practice because neighbouring-picture sensemaking does not explain its punchline exchange [c0113] [c0114]. [P12] [P22] Leave interpretation of unseen images and any post-closure curation unresolved; the labels alone establish neither cleanup nor a settled meaning [c0115] [c0116].
+
+local_status: unresolved
+grade: composes-with-residue
+The adapted account connects building, defence, negotiation and contention while preserving the added venue, refusal and joking practices, but bot use, agreement compliance and unseen post-event images remain unresolved [P14] [P08] [P22] [c0084] [c0039] [c0116].
+<!-- end -->

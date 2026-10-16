@@ -1,0 +1,34 @@
+{
+ "packet": "Thegreatblackhole",
+ "group": "Thegreatblackhole",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_SEpTUFh8uSqke6oII5Nv",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8152,
+  "output_tokens": 7298,
+  "output_tokens_details": {
+   "thinking_tokens": 7032
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0056016,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0056016,
+   "upstream_inference_prompt_cost": 0.0012228,
+   "upstream_inference_completions_cost": 0.0043788
+  }
+ },
+ "elapsed_s": 39.6,
+ "packet_sha256": "3b22976242d7b9043ffc355da6b6d510e7d5fe9d4c4e86a4102fc3e673a2d496",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

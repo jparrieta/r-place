@@ -1,0 +1,34 @@
+{
+ "packet": "phish",
+ "group": "phish",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_XbyDa1dpEOixak05ClTJ",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7970,
+  "output_tokens": 12116,
+  "output_tokens_details": {
+   "thinking_tokens": 11875
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.00620452,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00620452,
+   "upstream_inference_prompt_cost": 0.0011158,
+   "upstream_inference_completions_cost": 0.00508872
+  }
+ },
+ "elapsed_s": 127.2,
+ "packet_sha256": "4104d30342a4ae29bdf74f5c4cb032358823b3e887430e1fd1c097b8adc4b198",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

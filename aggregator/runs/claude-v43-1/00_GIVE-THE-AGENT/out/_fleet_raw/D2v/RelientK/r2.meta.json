@@ -1,0 +1,34 @@
+{
+ "packet": "RelientK",
+ "group": "RelientK",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_EWHeoz1wcr6kketG5AFt",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7928,
+  "output_tokens": 5984,
+  "output_tokens_details": {
+   "thinking_tokens": 5795
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.006117888,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.006117888,
+   "upstream_inference_prompt_cost": 0.001522176,
+   "upstream_inference_completions_cost": 0.004595712
+  }
+ },
+ "elapsed_s": 47.1,
+ "packet_sha256": "bcbcd112027fe9a9857cf2973068289d0f9eb8746735b762a0373e8f8b99a777",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

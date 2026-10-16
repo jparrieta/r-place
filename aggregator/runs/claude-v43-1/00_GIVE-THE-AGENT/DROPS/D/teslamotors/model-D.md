@@ -1,0 +1,77 @@
+# r/teslamotors: adapted room model
+
+## D01 Critical mass
+
+[R01] A member proposed the Tesla logo, supplied a template and reported working alone; another subsequently offered half an hour of pixels [c0046] [c0047] [c0048] [c0055]. [P01] Recruitment continued through named regulars, requests to spread the word and a request for a moderator to sticky the build thread [c0056] [c0057] [c0127] [c0128]. [A02] The first proposal preceded recruitment in its thread, but cannot establish what caused the later, separate working thread [c0046] [c0056] [c0127].
+
+[K02] An expanding Blue Corner and a longer timer prompted the explicit assessment that two people needed more coordination; later, too few maintainers was a reason against enlarging the logo [c0053] [c0192]. [P15] “I'm on it” directly answered a call for troops after 18.9 minutes in `62z07w:1>1.2` [c0190] [c0193]. [A12] This supports a call followed by bare acceptance, without showing what every reader owed or whether silent readers placed pixels [c0190] [c0193].
+
+## D02 Coordination without command
+
+[P02] Participants worked out lettering, a five-pixel scale, symmetry corrections, borders and a small T symbol [c0125] [c0130] [c0131] [c0139] [c0181]. [P03] They reported three red pixels toward the T, then TESLA five pixels from completion, with white space and maintenance still needed [c0126] [c0143]. [A01] Recruitment actually follows an initial construction report in `62uulb:1.1.1>1.1.1.1`; this supports interleaving, not a demonstrated one-way call-causes-building mechanism [c0126] [c0127].
+
+[P04] A template, coordinates and spreadsheet made intended placements available [c0047] [c0054] [c0129]. [A11] The first template was already in use near the proposal; the record does not show a later template settling the design argument [c0046] [c0047] [c0130] [c0131]. [P04] Sharing a plan also required sharing an accurate view: a participant thought twenty tiles had been placed and received a refresh correction 2.2 minutes later in `62uulb:6>6.1`; repeated warnings explained that the apparent live canvas was stale [c0133] [c0134] [c0137] [c0199].
+
+[new: moving current coordination between chat and the thread] Discord was offered for “better real-time coordination and strategy”; helpers were routed there because people kept restoring an unwanted border, and later directions pointed to pinned messages and current information [c0141] [c0182] [c0197] [c0222]. [new: moving current coordination between chat and the thread] This is the ladder's T3-014 within T4-010, but no standing process names it; routing is observed while the decisions inside the chat remain unresolved [c0141] [c0222].
+
+[P14] Three accounts helped relocate GUS, while later code found and repaired incorrect logo pixels [c0157] [c0186]. [P14] “Winners don't use scripts” and “Let people decide what they want on place” opposed automated holding, while a moderator defended it as preventing swastikas [c0212] [c0214] [c0216]. [A06] The moderator explicitly explained acquiring protective help after people began changing the S into a swastika; this supports that motive without measuring whether manual placing was overwhelmed [c0227].
+
+[P14] Protection constrained friendly change too: a moderator said running scripts made a temporary Tessa gift impossible, a redesign proposer asked runners to disable or replace scripts, and another wanted wing coordinates reconciled so the script would not “go to war” [c0224] [c0225] [c0230] [c0205]. [P14] A reported JSON target left room for Skyrim, but the offending placers remained unidentified and unreachable [c0241]. [C01] Chat invitations and information links cannot decide whether a leader, vote or binding division of canvas labor was established elsewhere; the apparent moderator vote belongs to a disclosed prank [c0141] [c0222] [c0073] [c0166].
+
+## D03 Maintenance
+
+[P05] Nearly completed lettering already needed maintenance, and a “finally finished” announcement received a defense call after 6.8 minutes, then an attack report three minutes later [c0143] [c0177] [c0178] [c0179]. [A03] The record supports keeping recognizable work while construction and cleanup continue, rather than requiring a completed building phase first [c0143] [c0178]. [P05] Participants reported swastika alterations and prioritized defending existing space over enlargement [c0196] [c0253].
+
+[P06] The candidate attribution process is locally useful: someone could not distinguish vandalism from mistaken help on the E, another attributed hostile recruiting to an individual, and a treaty defender blamed the oversized border on Tesla's side [c0154] [c0244] [c0220]. [P06] These remain participants' uncertainty and attribution, not independently established identities or motives of placers [c0154] [c0241] [c0244].
+
+## D04 Order without law
+
+[P08] Negotiation was more than adjacency: invoking the Green Lattice truce received an agreement to call off the larger logo 2.1 minutes later in `62uulb:21>21.1` [c0153] [c0155]. [P07] Another participant promised to help restore the lattice after cleaning Tesla, while builders were explicitly told not to invade GUS [c0150] [c0162]. [A05] Agreements supplied reasons for restraint, conditional on informing the people doing repairs [c0153] [c0155] [c0209] [c0210].
+
+[P08] Skyrim's wing could enter the logo without its brown background, and repeated instructions told defenders not to delete it [c0198] [c0201] [c0185]. [P07] A request to message uninformed placers received an apology and promise to protect the alliance 23.5 minutes later in `62zis4:4.1>4.1.1`; another participant redirected mistaken fighting toward vandalism repairs [c0209] [c0210] [c0211]. [A04] Negotiation addressed overlapping construction as well as erosion: the first Green Lattice approach precedes the first coded maintenance pledge, and the dragon prompted a boundary request and upward move [c0140] [c0142] [c0144] [c0145] [c0146].
+
+[absent P21] A principled denial that anyone may bind placers is unobserved: the closest objection says a small number agreed and most are unaware, so people will keep fighting themselves, alongside an aesthetic objection [c0245]. [A21] That supports a compliance-and-information objection, not an established challenge to representatives' legitimacy [c0245]. [P08] A report that unwanted placers could not be identified or contacted further distinguishes enforcement capacity from authority [c0241].
+
+[P16] Two GUS makers asked for relocation help and received a first teal tile after 12.1 minutes in `62uulb:20>20.1`; participants later called for rebuilding GUS while defending TESLA [c0152] [c0156] [c0163]. [P16] SpaceX maintenance was reciprocated, while Green Day offered maintenance for building help without a coded acceptance [c0221] [c0217]. [A13] Reported outside repairs do not establish that a shortage first caused Tesla to request them [c0165] [c0221]. [A14] The lattice nonattack assurance accompanies a promise of repairs after cleanup, not evidence that border talk caused a completed exchange [c0150]. [P16] Help was selective: a Costa Rican flag appeal was refused as unrelated to Tesla [c0247] [c0248].
+
+[R02] The candidate envoy role appears in reported contact with r/2007scape and in carrying a wing compromise to Skyrim; neither passage establishes a mandate or acceptance [c0237] [c0263]. [P17] Shared IRC invitations and a reported protection alliance support a minimal connection between groups, without establishing a central council [c0151] [c0201]. [absent A19] Whether attack pressure caused alliance formation is not testable from the reported treaty and ongoing help [c0201] [c0221].
+
+[new: moving before loss to avoid overwriting or overlap] The first attempt moved because unestablished work would be overwritten by Blue Corner, and the later mark moved around Skyrim [c0054] [c0144] [c0145]. [absent P10] Neither passage establishes erasure followed by abandoning a lost spot, so the standing post-loss process remains not-testable [c0054] [c0145]. [A10] Limited hands also prompted recruitment and opposition to enlargement, so relocation was not the sole observed response [c0053] [c0192]. [absent P19] A negotiated overlap alone cannot establish that Tesla's work lived under another room's territorial rule; host sovereignty is unobserved [c0201] [c0263].
+
+## D05 Collective identity
+
+[K04] Existing Tesla references supplied an idiom for explaining the canvas, including the car's paint Easter egg, while fabricated claims used familiar products and software expectations [c0050] [c0105] [c0118]. [absent K03] An old intercommunity quarrel carried onto the canvas is unobserved; targeting reports and advertising accusations do not date the dispute's origins [c0200] [c0228]. [absent C02] A prior tie naming a rival in an attack call is likewise unobserved; reported hostility does not establish that conjunction [c0200] [c0244].
+
+## D06 Host framing
+
+[K01] Moderators announced a voted-out colleague and prospective replacement, then disclosed that the fake fighting was planned [c0073] [c0074] [c0166]. [K01] They used AutoMod to suppress disclosures, then reset it and promised reapprovals; members noticed the date, admitted being fooled or said the apparent conflict nearly drove them away [c0167] [c0168] [c0169] [c0075] [c0098] [c0171]. [K01] A Model J and an implausibly early FSD update extended the day's fabricated Tesla claims [c0105] [c0107] [c0118] [c0120].
+
+[P20] Selective relevance judgments belong within host boundaries: a flag appeal was called unrelated to Tesla, and the Tessa request was removed while receiving an explanation [c0248] [c0225]. [absent A20] These exchanges leave the proposed flood-causes-containment mechanism unobserved; the sticky request does not establish a megathread policy or a flood [c0128] [c0248] [c0225].
+
+[new: carrying on ordinary sub talk beside the event] The stock-manipulation warning and real software troubleshooting remain context outside the standing organizing processes: an owner corrected a cellular-download report after Wi-Fi reconnected, and a respondent planned a workaround [c0001] [c0036] [c0038] [c0039]. [new: carrying on ordinary sub talk beside the event] These belong to the ladder's T3-017, without supplying evidence that the prank or canvas organizing caused the ordinary conduct [c0001] [c0038] [c0040].
+
+## D07 Imprinting
+
+[P11] Participants twice announced the work finished and praised teamwork, while replies continued defense and revision [c0177] [c0189] [c0158] [c0178] [c0181]. [A07] Progress precedes completion claims, but the coded passages do not identify which report elicited either separate post [c0143] [c0177] [c0189]. [P12] End marking, explanation of the overlap, regret over vandalism and the “Rim” joke record the work's fate [c0223] [c0265] [c0267] [c0268]. [A08] Marking and recounting occur in sequence; the record does not show that celebration caused the later request for explanation [c0177] [c0264] [c0265]. [absent P13] Continuing on a new canvas or keeping a lasting form is unobserved, and [absent A09] the corresponding mechanism is not testable from end marking and regret [c0223] [c0267].
+
+[P22] The tentative memory-contest element has a narrow instance: a post-close explanation credits “Tesla,” and its reply corrects that to r/teslamotors [c0265] [c0269]. [P22] This establishes correction of authorship, without evidence of image-cleanup disputes [c0269]. [new: negotiating whether a visible brand mark represents the room or company advertising] Before closure, perceived company advertising prompted a proposal to spell out r/teslamotors, followed by debate over manpower, unwanted publicity, neighbors and script changes [c0228] [c0229] [c0231] [c0243] [c0234] [c0230]. [new: negotiating whether a visible brand mark represents the room or company advertising] Script criticism remains a consequential contrary account alongside explicit neighbor restraint; the coded record does not establish that the extension was completed [c0214] [c0162] [c0229].
+
+## D08 Contention
+
+[P09] Complaints about overwriting Skyrim's wing and the oversized Tesla border support reported encroachment, but not an authorized room raid or settled attribution of all damage [c0240] [c0241] [c0220]. [absent A15] Recruitment causing attacks is not testable here; information failures explain some apparent fighting instead [c0127] [c0210] [c0211]. [absent A16] Corrections following reported interference do not establish an attack-call-and-refusal pair [c0209] [c0210]. [A17] The takeover alarm receives a treaty reminder 3.3 hours later in `637b1d:4>4.1`, supporting alarm correction rather than an attack call causing negotiation [c0256] [c0260]. [absent P18] Sustained reciprocal rival-room taunting is unobserved; a warning against overwriting r/2007scape does not establish it, and [absent A18] an attack-call-to-taunting mechanism is not testable [c0242] [c0244].
+
+## Local exceptions
+
+[new: moving current coordination between chat and the thread] Add the omitted T3-014/T4-010 process to D02, retaining uncertainty about the backstage decisions [c0141] [c0182] [c0222]. [P04] Add refreshing the shared view as a finer coordination step [c0133] [c0134] [c0199]. [P14] Add compatibility with friendly changes as a condition of scripted protection [c0225] [c0230] [c0205]. [A06] Retain the reported anti-swastika motive without inferring measured manual incapacity [c0227].
+
+[P08] Add dissemination and contact as enforcement steps; restrict A05 to placers reached by the agreement [c0209] [c0210] [c0241] [c0245]. [absent P21] Restrict A21's local interpretation to the evidenced information-and-compliance objection; principled rejection of representation remains unobserved [c0245]. [A04] Allow negotiation during overlapping construction before an established maintenance phase [c0140] [c0142] [c0144]. [new: moving before loss to avoid overwriting or overlap] Retain anticipatory relocation without inventing the loss required by P10, and [A10] retain recruitment and limiting expansion as other responses to limited hands [c0054] [c0145] [c0053] [c0192].
+
+[P20] Add selective topic relevance and leave A20's flood mechanism unresolved [c0248] [c0225]. [new: carrying on ordinary sub talk beside the event] Retain ordinary sanctions and troubleshooting as contextual residue [c0001] [c0038] [c0039]. [new: negotiating whether a visible brand mark represents the room or company advertising] Add the pre-close legitimacy problem and its design and publicity consequences; P22 covers the later credit correction [c0228] [c0229] [c0243] [c0269].
+
+[A01] [A02] [A07] [A08] [A11] [A13] [A14] Preserve sequences and participant explanations without asserting all causal mechanisms; completed reciprocal offers and the proposed extension remain unresolved [c0127] [c0150] [c0177] [c0221] [c0229] [c0265]. [C01] Formal canvas order and [A19] the cause of alliance formation remain not-testable because reported chat routing and alliances do not expose their decisions [c0141] [c0201] [c0222].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The adapted account explains recruitment, repair, negotiated coexistence, scripts and host play, while omitted coordination and brand-authorship practices and unresolved backstage decisions prevent exact fit [P01] [P05] [P08] [P14] [K01] [c0141] [c0228] [c0241].
+<!-- end -->

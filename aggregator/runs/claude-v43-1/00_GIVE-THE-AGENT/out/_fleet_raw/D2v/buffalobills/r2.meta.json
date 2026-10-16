@@ -1,0 +1,34 @@
+{
+ "packet": "buffalobills",
+ "group": "buffalobills",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_Zp9bMV1lA8i1YS4sDSMX",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7984,
+  "output_tokens": 5904,
+  "output_tokens_details": {
+   "thinking_tokens": 5697
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.004636,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.004636,
+   "upstream_inference_prompt_cost": 0.0007984,
+   "upstream_inference_completions_cost": 0.0038376
+  }
+ },
+ "elapsed_s": 46.3,
+ "packet_sha256": "5730db1938bd47989745f654e5c6a424d7e94fc16b6263800c01a1578c0faee2",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

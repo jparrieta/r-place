@@ -94,9 +94,13 @@
   "effort": "xhigh",
   "readers": {
    "route": "gateway",
-   "model": "@preset/cheap",
+   "model": "deepseek/deepseek-v4.1-flash",
    "n": 2,
-   "shared": ""
+   "shared": "",
+   "declared_served": "deepseek/deepseek-v4.1-flash",
+   "max_tokens": 128000,
+   "reasoning_effort": "medium",
+   "note": "J 2026-10-15 21:53 Berlin: DeepSeek V4.1 Flash direct, as B3 (the preset 400s, J 2026-10-12); medium reasoning as B3; n=2 readers per room"
   },
   "labelers": "GPT in OpenAI Codex, one fresh session per room, run by the adaptation handler from out/handoff-D/HANDLER.md"
  },

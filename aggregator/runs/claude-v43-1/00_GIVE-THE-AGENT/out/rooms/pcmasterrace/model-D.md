@@ -1,0 +1,95 @@
+# r/pcmasterrace — adapted room model
+
+## D01 Critical mass
+
+[P01] Recruitment repeatedly calls members to coordinates to build, repair, or defend, rather than delivering everyone into a single campaign once: “ALL HANDS ON DECK” and “URGENT help needed” coexist with later repair calls [c0311] [c0465] [c0904]. [R01] A starter can propose and begin a particular mark, as the lambda builder reports starting at (152,112), but this does not identify a leader of all PCMR work [c0476] [c0477]. [A02] Starting and calling can be parts of one initiative; a 3DFX starter says “i'm gonna start” and “who's with me?” in the same turn, so a separate starter-then-call sequence is not required locally [c0775].
+
+[P15] Bare uptake is real: “I'm helping!”, “on board,” and “On it” answer mobilisation or repair [c0471] [c0472] [c0904] [c0905]. [A12] The repair-call reply in the forest is a direct bare acceptance, but other uptake needs an intervening explanation: “what?” receives an account of the threatened banner before “I understand” and an offer to help [c0466] [c0467] [c0468]. [new: teaching participation before uptake] A would-be participant asks how to place from an iPhone, receives browser and app instructions, then says “figured it out” and joins defence; this is a distinct step inside recruitment, not evidence that planning moved to chat [c0792] [c0793] [c0795] [c0796]. [A01] These exchanges support public calls followed by reported work, while neither their brief answers nor the forest verifies the pixels placed [c0465] [c0469] [c0472].
+
+[K02] Size of membership does not guarantee available hands: one defender finds effort “pointless” without help, while another contrasts thousands browsing with the hundred supposedly needed [c0454] [c0573]. [P01] The later demand for more exposure despite a “massive active community” makes recruitment an ongoing problem of reaching participants, rather than proof that critical mass has been obtained [c0745].
+
+## D02 Coordination without command
+
+[P02] Members propose and enlarge several PC-related objects, including an FPS counter and hardware logos, while disagreeing about which existing or new mark merits effort [c0680] [c0694] [c0864] [c0865] [c0868]. [P03] They report text completion, colour problems, and a Windows result; such reports show what speakers claim is built, not an independently inspected canvas [c0534] [c0728] [c0737]. [P04] Coordinates and a light-grey grid provide common instructions, yet darker-grey placement continues after the grid is posted [c0726] [c0732]. [A11] A template therefore need not settle the design or align placers by itself [c0726] [c0728] [c0732].
+
+[P02] Parallel sites complicate a single start-build-keep order: members ask which of two logos to work on, a moderator points to one, and later replies still choose between “Defend existing one” and “Build the new one” [c0565] [c0566] [c0865] [c0868]. [C01] There is visible local direction and agreement, including “10-4, boss man” and a moderator's focus instruction, but these do not establish an appointed commander, election, or binding division of all work [c0562] [c0563] [c0565] [c0569]. [absent C01] Whether a formal order was decided in the unseen planning venues is not-testable here; the model's cross-room frequency claim cannot be validated from this room alone [c0593] [c0887].
+
+[P04] The t14 placement under moving planning into chat must be applied selectively: actual Discord creation and routing occur, but iPhone instructions and a “Thanks” in that theme concern participation in the public thread [c0593] [c0729] [c0793] [c0794] [c0795]. [new: maintaining access to a planning venue] Invites expire, are replaced, and expire again, making access repair a finer organising step whose outcome remains visible even when chat contents are not [c0735] [c0736] [c0740]. [P04] This step supplements the model's circulation of instructions without establishing what was decided inside Discord [c0729] [c0736].
+
+[P14] A Python placement script is circulated and revised to new coordinates, with a question about allowed server-ping intervals [c0809] [c0813] [c0814]. [A06] This supports tool provision and adjustment for a particular project, but the main PCMR discussion also asks why “we don't have a script yet”; general claims that bots now maintain the canvas do not prove which PCMR marks they held or their contribution [c0911] [c0958] [c0961]. [P14] Overlay guidance must remain distinct from automatic placement: a StarryKnights visitor explicitly says an overlay showed people where to place “but no bots” [c0975].
+
+## D03 Maintenance
+
+[P05] Repeated damage makes holding letters and figures a recurrent task, with prolonged individual effort, replacement pixels, and appeals to keep the text alive [c0492] [c0500] [c0828] [c0890]. [A03] “WE DID IT BOYS. NOW WE MUST DEFEND” directly couples a completion claim with defence, while a report that correctly completed work was griefed gives the relation its local meaning [c0313] [c0452]. [new: calling again from repair] Loss or instability prompts renewed mobilisation rather than an irreversible move beyond the calling phase [c0291] [c0295] [c0903].
+
+[P05] Maintenance includes disagreement among people apparently fixing the work: “too many people fixing it” can frustrate making the correct logo, and background corrections continue despite a shared grid [c0893] [c0726] [c0732]. [P06] The candidate attribution process is needed locally: speakers blame their own people, one admits deliberately corrupting the name, and another reports tracing pixel placers to console-related posting histories [c1012] [c1019] [c1020]. [P06] The admission and the reported inspection support different evidential claims; they do not settle a single community-wide cause of damage [c1019] [c1020].
+
+[P05] Restraint and design choice can be ways of allocating scarce effort: repair is preferred to a Ryzen extension, and maintaining the existing text is preferred to further embellishment [c0655] [c0828]. [P02] Hardening the lettering is proposed, but a reply explains that fighting, neighbours, and their allies constrain such a remake; the proposal alone cannot be counted as an implemented redesign [c0875] [c0876].
+
+## D04 Order without law
+
+[P08] Neighbour dealings range from a request to respect the Gunners' M to reported Blue Corner protection and a concrete proposal for Snek to wrap around the mascot's neck [c0474] [c0493] [c0555] [c0924]. [R02] The candidate envoy role operates when a speaker represents Snek or messages for Polska and Snek; the claim to represent them is visible, while appointment and the other rooms' internal authorisation are not [c0922] [c0981].
+
+[P16] Help can arrive as an unsolicited participant report from soylent, or as an explicit conditional exchange with Snek [c0497] [c0928] [c0929]. [A14] The Snek proposal is answered with “all for co-op,” then a mutual-defence offer receives “Trying our best”; this supports local bargaining and promised help without verifying canvas compliance [c0924] [c0927] [c0928] [c0929]. [P17] Coalition evidence includes an announced Blue Corner alliance and an invitation naming AMD, FRC, Poland, and Snek, but an invitation cannot alone establish that PCMR joined its shared chat or accepted every term [c0555] [c0848] [c0837].
+
+[A04] Under repeated damage, a speaker explicitly proposes moving nearer cooperative neighbours and making a pact; the neighbour may supply protection rather than be the source of erosion [c0543] [c0521] [c0556]. [A13] A helper reports coming from soylent to repair the sign, but this does not reveal an earlier request that caused the help [c0497]. [A19] Protection and alliance are connected in the announced move, while the scale and durability of joint defence remain unresolved [c0555] [c0556].
+
+[P07] Norms of sparing others are expressed directly, including “leave other groups alone,” respecting JB17, and avoiding damage to Snek [c0892] [c0894] [c0959]. [A05] Border talk and restraint both occur, but the coded passages do not show that a settled boundary produced general compliance; requests to stop harming Snek and accusations of lost space persist [c0924] [c0953] [c0955] [c1003].
+
+[P21] The tentative element is instantiated narrowly by an envoy asking for PCMR's “leader or ambassador” to negotiate, and by a cooperative reply suggesting asking moderators [c0567] [c0926]. [P21] Neither passage establishes members repudiating an agreement or asserting that it binds nobody [c0567] [c0926]. [absent A21] The full proposed progression from an agreement to a dispute over its binding force is not-testable from these requests and the reported alliance [c0555] [c0567] [c0926].
+
+[P10] Relocation is reported as a move under a Blue Corner truce, followed by requests for the new coordinates and fresh publicity [c0714] [c0715] [c0716] [c0717] [c0718] [c0719]. [P19] The candidate protected-host relation is supported at the level of claimed protection and an agreement to move into blue space; explicit host rules and their enforcement remain unobserved [c0556] [c0754]. [absent A10] A mover's explicit judgment that insufficient hands caused that particular move is unobserved, so an earlier isolated complaint about too little help cannot supply the missing causal link [c0454] [c0715] [c0754].
+
+## D05 Collective identity
+
+[K04] PC identity and its jokes give the work recognisable content: RGB, hardware brands, a mascot, and a frame counter become shared objects [c0835] [c0694] [c0680]. [K04] Performance talk can itself drive conduct: a member changes 60 to 69 FPS for a joke, and another refuses to reduce the number because it is “not high enough yet” [c0889] [c0992] [c0993]. [P07] That comic expansion is contested when it overlaps existing art [c0955] [c0966].
+
+[C02] The t12 in-joke placement does not by itself support an inherited tie selecting an attack target: FPS humour and console-related defensive blame differ from calling an attack because of a prior rivalry [c0889] [c0945] [c1020]. [absent C02] That stronger target-selection mechanism is unobserved in these concepts [c0945] [c0998] [c1020]. [absent K03] A carried-in quarrel causing the observed canvas choices is likewise unobserved; statements blaming console users or expressing anger at another group cannot alone establish that history [c0571] [c0860] [c1020].
+
+## D06 Host framing
+
+[K01] The Comic Sans, Inferior-PC, and fake-sponsor makeover is an active parallel April Fools practice: members perform the cover story, object to sponsors or timing, and disable styles [c1108] [c0014] [c0015] [c0016]. [K01] Its one-day licence is itself negotiated through time-zone explanations and demands to revert, while a fake stuck pixel and false announcements extend the play beyond the canvas [c0117] [c0027] [c0282] [c0421]. [K01] The t02 placement under switching off prank styling cannot make every objection a technical workaround: eye-pain complaints are objection, whereas style disabling and font removal are actual circumvention [c0248] [c0016] [c1036].
+
+[P20] Moderators prune repeated r/place posts, enforce title and vote rules, and sometimes invite corrected resubmission [c0327] [c0532] [c0686]. [A20] Direct call-to-removal sequences support an institutional response to particular posts, but the content of the notice matters: all-caps enforcement does not prove rejection of the canvas project [c0550] [c0532] [c0708] [c0709]. [P20] Explicit permission for another canvas proposal and later acceptance of a low-quality-post removal show selective gatekeeping [c0590] [c0977] [c0978].
+
+[new: host moderation feeding back into recruitment] A participant says deleted posts leave few maintainers, giving a locally necessary account of how visibility and repair capacity are connected, while leaving the claimed causal effect unverified [c0495] [c0456] [c0863]. [new: ordinary room activity continuing alongside event practices] Game recommendations and build advice continue within threads where the makeover also interrupts conversation; this warrants coexistence, not an inferred shutdown and subsequent restoration of ordinary life [c0152] [c0203] [c0214] [c0250].
+
+## D07 Imprinting
+
+[P11] Arrival, pride, and collective achievement are repeatedly announced while the work remains editable: “We did it” is followed by “keep fighting till it ends” [c0482] [c0484]. [A07] Completion marking therefore need not follow a final, stable object; a victory post immediately receives pixel-width corrections [c0381] [c0382]. [P12] After placement ends, participants mourn damaged lettering, record the final number, and distribute timelapses and a 4K copy [c0971] [c1009] [c1015] [c1063] [c1101].
+
+[A08] Celebration and recording coexist across the room, but the reply evidence does not require shared pride to cause preservation: a final-image thread contains mourning, a timelapse, and a fixed copy [c1009] [c1015] [c1014]. [P22] The tentative curation process is supported by making a fixed copy explicitly conditional on not caring about authenticity and by recognising a later cleaned version [c1014] [c1081]. [P22] This is evidence of differentiated copies and their use, not yet a resolved argument that damage must or must not be preserved as history [c1014] [c1070] [c1081].
+
+[P12] Imagined art includes the absent Gaben and an unfinished Corsair design, whose author explicitly says it missed the event [c0930] [c1045] [c1047]. [P13] Posters and a cut-vinyl case are proposed, with a PNG request answered by an author saying the link was edited in “due to community request”; these support intended reuse and file circulation, not confirmed fabrication [c1065] [c1069] [c1082] [c1083]. [A09] [P13] The record supplies material for reuse, but timelapse sharing remains P12 rather than evidence of remaking the work elsewhere solely because t16 was also placed under remaking canvas art elsewhere [c1101] [c1065] [c1083].
+
+[new: reusing a live canvas alongside placement] A desktop-background suggestion occurs at H+39.71, well before the model's hour-73 close; the local reuse process must allow this early, parallel form [c0774]. [P13] A successor canvas is announced with new PCMR drawing, then meets objections about bots and popularity; continuing the collective is attempted rather than established [c1025] [c1026] [c1027] [c1028].
+
+## D08 Contention
+
+[P09] The record includes attack calls and individual harmful acts: “KILL THE VOID,” a proposed Valve reminder over osu, and admissions of swastika conversion and name corruption [c0708] [c0998] [c0643] [c1019]. [P09] The actors must remain distinct: an admission by one commenter does not make that act a settled room policy [c0643] [c1019]. [A15] Recruitment and aggression can be coupled in an expansion call that promises to crush opposition, but this does not prove earlier recruitment caused a coordinated raid [c0908].
+
+[A16] That expansion call receives warnings about neighbours and an explicit refusal to overwrite others' work; the rejection supplies both a norm and a rival allocation of effort [c0908] [c0910] [c0914] [c0915]. [absent A17] For the isolated Void call, the visible response is title-rule enforcement rather than a truce proposal; a later negotiation elsewhere cannot be treated as its answer [c0708] [c0709] [c0924].
+
+[P18] Blame persists after closure: one speaker points to console-user histories and another attributes a raid to 4Chan, while others blame their own people or describe how easy the lettering was to corrupt [c1020] [c1074] [c1012] [c1013]. [absent A18] These retrospective attributions do not show a particular outgoing attack giving rise to an ongoing reciprocal contest in talk; that causal sequence is unobserved [c0998] [c1020] [c1074].
+
+## Local exceptions
+
+- [A12] Add the participation-teaching step between a call and uptake where a willing reader lacks procedural knowledge; bare acceptance remains supported in other exchanges [c0466] [c0467] [c0468] [c0792] [c0795] [c0796] [c0905].
+- [P02] [P04] [A11] Treat designs as parallel and revisable, and distinguish circulating a grid from achieving alignment, since people continue placing the wrong shade and contesting which logo to build [c0566] [c0726] [c0732] [c0865] [c0868].
+- [P04] Restrict the whole-theme chat-routing placement and retain the finer repair of expired planning links; app instructions are not chat migration and accessible invitations are not guaranteed [c0795] [c0729] [c0735] [c0736] [c0740].
+- [P14] [A06] Keep script distribution, claimed use, third-party bot attribution, and demonstrated automatic maintenance distinct; successful PCMR-wide automation and its share of the outcome remain unresolved [c0809] [c0813] [c0911] [c0958] [c0975].
+- [P05] [P06] Add correction among competing fixers and retain candidate attribution, including friendly interference and admitted deliberate harm; a single external attacker account cannot explain all damage [c0893] [c1012] [c1019] [c1020].
+- [P10] [P19] Access to promised protection conditions a reported move, while the host's actual rulings and the mover's claimed manpower calculation remain unresolved [c0556] [c0715] [c0754].
+- [P21] [A21] Asking for a representative is supported, but repudiation of binding authority is not established; retain the tentative element's narrow request form and leave its stronger arrow unresolved [c0555] [c0567] [c0926].
+- [K04] [C02] Identity supplies designs and jokes without necessarily selecting rivals to attack; the latter inference remains unobserved [c0889] [c0945] [c0998] [c1020].
+- [P20] Add selective permission, corrected resubmission, and the participant-reported feedback from removals to too few maintainers; the feedback is an attributed explanation rather than a measured effect [c0590] [c0532] [c0495].
+- [new: ordinary room activity continuing alongside event practices] Retain concurrent advice and game discussion as a local particular outside the event-process elements [c0152] [c0203] [c0214] [c0250].
+- [P11] [A07] Announcing completion can precede further corrections and defence; preserve provisional celebration rather than forcing a terminal completion stage [c0381] [c0382] [c0482] [c0484].
+- [P12] [P13] Separate recording from remaking within t16, and retain reuse before closure as a local timing exception to the model's near-close transition [c1101] [c1065] [c1083] [c0774].
+- [P22] Retain explicit cleanup and authenticity distinctions without inventing a collective dispute or settled authoritative image [c1014] [c1081].
+- [A13] [A05] [A10] [A17] [A18] Leave unshown causal links unresolved rather than filling them from nearby help, restraint, moves, moderation, or retrospective blame [c0497] [c0955] [c0715] [c0709] [c1074].
+
+local_status: unresolved
+grade: composes-with-residue
+The adapted explanation covers the supported practices and local exceptions, while automation, unseen decisions, treaty authority, and several causal links remain unresolved in the coded record [P14] [P21] [A21] [c0911] [c0961] [c0567].
+<!-- end -->

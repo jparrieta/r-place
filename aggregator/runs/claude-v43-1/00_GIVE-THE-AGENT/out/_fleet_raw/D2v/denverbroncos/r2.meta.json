@@ -1,0 +1,34 @@
+{
+ "packet": "denverbroncos",
+ "group": "denverbroncos",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_tlI8vzqNQYKovzK2bmgj",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8083,
+  "output_tokens": 11431,
+  "output_tokens_details": {
+   "thinking_tokens": 11188
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00807105,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00807105,
+   "upstream_inference_prompt_cost": 0.00121245,
+   "upstream_inference_completions_cost": 0.0068586
+  }
+ },
+ "elapsed_s": 63.9,
+ "packet_sha256": "b2695bff6af2f3e20e880020801cbc53080b2de25f0f717bb4cf1b6294778d70",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "oltp",
+ "group": "oltp",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_JHiLcJhsDfyARxYVqEdC",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6159,
+  "output_tokens": 6611,
+  "output_tokens_details": {
+   "thinking_tokens": 6455
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00564026,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00564026,
+   "upstream_inference_prompt_cost": 0.0006159,
+   "upstream_inference_completions_cost": 0.00502436
+  }
+ },
+ "elapsed_s": 63.3,
+ "packet_sha256": "af16181a4883ccf1ac46268a56f14603ccc73a13b652e62a91f6139348f6a341",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

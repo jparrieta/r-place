@@ -1,0 +1,79 @@
+# r/gamindustri: adapted room model
+
+## D01 Critical mass
+
+[P01] Calls gather participants around representation and defense: the starter wants the subreddit immortalized, a later post recruits builders for Lastation beside Planeptune, and an urgent appeal asks people to save their place [c0013] [c0057] [c0063]. [K02] The proposed scale is constrained before any defeat: a member warns that the timer makes a large image impractical without substantial numbers, and the group proposes the smaller signature N [c0016] [c0018]. [P15] Joining also appears as brief assent or a report of labor, including “I'll follow suit” and claiming the last pixel that restored the Nep [c0047] [c0078].
+
+[A01] A call is followed by reports of outlining and completion, but the thread does not identify each placer or establish that every reported contribution resulted from the opening call [c0013] [c0027] [c0035]. [A12] Bare responses occur, including “I will join the Fray,” but the proposed obligation on every reader and any silent acceptance cannot be tested here [c0100]. [P10] The search for room for Purple Heart precedes any demonstrated loss of an established Purple Heart image; it is prospective site selection rather than the model's post-loss relocation [c0041] [c0046] [c0048]. [absent A10] The inference from too few hands to relocation is unobserved: limited capacity supports scaling down, while the later successor-canvas loss ends in sleep rather than a reported move [c0016] [c0018] [c0172].
+
+## D02 Coordination without command
+
+[R01] Starting is distributed across a broad proposal, a concrete emblem choice, and hands-on instruction rather than concentrated in a demonstrated office: Ayakashiro proposes representation and InhalingIcicles proposes the N and outlines [c0013] [c0018] [c0019]. [A02] The pattern can begin with a proposal that is itself an invitation, rather than a separate founding act followed by a separate recruitment stage [c0015] [c0057]. [P02] Representation develops from a name or an 8-bit character toward the N, its ring, and Lastation, while additional CPU pictures remain proposals [c0014] [c0018] [c0036] [c0057] [c0139].
+
+[P03] Construction and progress reports make the shared task legible: members report progress, announce completion, notice Lastation starting, and specify outline, interior, and lettering [c0029] [c0035] [c0083] [c0086]. [P04] Templates and direct reporting operate together within the same exchange: a request for a sprite receives a chosen version, while a question about blue receives a shade answer [c0020] [c0021] [c0033] [c0034]. [A11] The sprite resolves a concrete request, not a recorded design dispute, so this room supports template-assisted coordination more narrowly than the proposed dispute-settlement mechanism [c0020] [c0021].
+
+[C01] There are locally proposed priorities and work sequences, including “Maintain outline and fill color as priority” and outlining before lettering; these do not establish an elected leader, binding office, or formally allocated teams [c0064] [c0086]. [absent C01] Whether most rooms avoided deciding their organization is not-testable from this room, and the absence of a reported office cannot exclude decisions in the recommended Discord [c0080] [c0089]. [P03] Catching latecomers up is a finer coordination step: “the people here did it” corrects a fresh proposal, and an explanation introduces the pixel cooldown and “pixel war and politics” [c0053] [c0054] [c0094].
+
+## D03 Maintenance
+
+[P05] The shift from making to keeping is explicit within a single edited account: “We've done it! Now, let's keep it clean,” alongside preparing to stand guard [c0030] [c0031]. [A03] This supports the local dependence of upkeep on having a mark to preserve, although the edited item's creation time cannot date each later edit [c0029] [c0030] [c0031]. [P05] Defense takes precedence over growth: participants choose maintenance, abandon Lastation temporarily, and hand protection across time zones [c0073] [c0074] [c0107].
+
+[P06] Candidate attribution work is visible in naming the reported attacker and later suspecting one person behind several accounts; the latter remains the participant's suspicion [c0058] [c0059] [c0111]. [P05] The forest shows a concrete request and answer: a newcomer asks what can be done, and the reply instructs them to place purple over the invading white [c0070] [c0071]. [absent P14] Scripts, placement bots, and spare-account use by this room are unobserved; suspicion about someone else's accounts cannot establish the room's own machine placements [c0111]. [absent A06] Escalation from maintenance to machine hands is consequently unobserved despite sustained defense, rather than disproved by silence [c0074] [c0107] [c0122].
+
+## D04 Order without law
+
+[P08] Agreement-seeking involves applications, a spreadsheet, Discord advice, and returned approval reports [c0089] [c0090] [c0117] [c0121]. [P19] The candidate guest-host element is necessary locally: members call themselves “at the mercy of GreenLattice,” warn that Lastation occupies a do-not-build area, and prepare to remove it if refused [c0082] [c0118]. [P19] This explains a constraint missing from a purely peer-border account: a completed logo can remain provisional until a more powerful host accepts it [c0120] [c0092]. [R02] Envoy work occurs as asking another subreddit not to overwrite the N and reporting that an application has been sent; the external negotiations themselves remain outside the evidence [c0024] [c0117] [c0089].
+
+[A04] Upkeep and negotiation meet when a participant says GreenLattice stepped on Lastation and insists someone negotiate in Discord rather than push their luck [c0116]. [P07] Restraint also has an independent norm: “I really don't to purge other people's efforts” rejects covering neighbours before any recorded settlement over that proposed location [c0048]. [A05] A settled boundary is one route to restraint, illustrated by keeping the black line beside Zoro, but permission dependence supplies another reason: damaging Zoro threatens the room's own logo [c0081] [c0079].
+
+[P16] Reciprocal help is explicitly urged after neighbours came to the room's aid, and a participant later reports defending several neighbours' work [c0075] [c0135]. [A13] The aid is reported, but its solicitation and dispatch are not visible, so shortage of hands cannot be asserted as the demonstrated cause of that exchange [c0059] [c0075]. [A14] Help-for-space is proposed prospectively, including cleaning an area to earn goodwill; it is not evidence that an agreed bargain was performed [c0087] [c0088]. [P09] That proposed help includes removing a third party's disapproved logo, so reciprocity can also be destructive toward someone outside the exchange [c0087].
+
+[absent P17] Formal coalition formation remains unobserved: references to neighbours' help, protection, and “alliances” do not reveal a bilateral mutual-defense agreement or shared governing organization [c0075] [c0158]. [absent A19] The route from strain to joining such a coalition is likewise unobserved [c0059] [c0158]. [absent P21] The tentative authority-dispute element is unobserved: checking whether Lastation was submitted and accepting a host's approval rule do not amount to disputing who can bind the room [c0181] [c0118]. [absent A21] Permission discussion therefore does not demonstrate the tentative arrow to a representation dispute; missing external deliberation leaves that route unresolved [c0089] [c0181].
+
+## D05 Collective identity
+
+[K04] The candidate lore element explains something maintenance alone loses: members mobilize by protecting a character's smile, doing their “duty as a Planeptunian,” and threatening a “Conquest Ending” [c0099] [c0109] [c0108]. [K04] The same register makes the event memorable as an epic battle and imagined Renaissance scene with Zoro, a whale, and Noire [c0151] [c0153]. [new: linking lore-based defense to ordinary pixel instruction] The adapted local explanation connects those performances to practical defense rather than treating them as proof that lore selected the adversary: the author explains the speech by recalling the logo debacle, while another reply gives exact restoration instructions [c0102] [c0103] [c0071].
+
+[absent K03] An older quarrel with r/49ers is unobserved; their identification in the record is tied to an attempted overwrite [c0058] [c0059]. [absent C02] A pre-existing tie naming and motivating this attack is also unobserved: “football fans” becomes a retrospective contrast, and one speaker's annoyance with football explains their satisfaction afterward [c0069] [c0175]. [C02] The scope distinction matters: pre-existing fandom lore supplies the defenders' language, while the supplied evidence names the rival through the canvas encounter [c0108] [c0109] [c0069].
+
+## D06 Host framing
+
+[K01] Local April Fools play is established by an explicit announcement, deliberately contrary upvoting, and character mashups [c0001] [c0003] [c0007]. [K01] It remains alongside the canvas effort: those jokes do not establish that the later completed logo was merely a prank, given concrete construction and restoration reports [c0001] [c0031] [c0066].
+
+[P20] The theme placed outside the dimensions as ordinary talk contains direct boundary work: one member is glad r/place is not a big deal here and contrasts another subreddit's flood; another asks people not to start a sports argument [c0055] [c0056] [c0062]. [A20] Here the boundary is a member's appraisal and an explicit sports-topic limit, not evidence that a flood of local calls caused moderator centralization or removal [c0055] [c0056] [c0062]. [P20] A finer local step contains the rival's sporting dispute within the canvas discussion: the “lousy football team” remark receives “Lets not start anything sports related here” [c0061] [c0062].
+
+## D07 Imprinting
+
+[P11] Completion is repeatedly marked with praise, credit, a drink, and pudding toasts, beginning before the original event ends [c0032] [c0051] [c0127] [c0141]. [A07] The same account reports completion, keeping it clean, and “Good job, guys,” directly linking a finished result to celebration without requiring a separate end-of-event ritual [c0031] [c0032]. [P12] Recording includes inviting people to witness the Grand Battle, recounting its sequence, imagining commemorative art, and declaring the Great War ended [c0147] [c0148] [c0153] [c0156].
+
+[P12] Finished-work access is a distinct step inside recording: mobile users request directions, receive landmarks and a screenshot, then thank the helper [c0166] [c0167] [c0168] [c0170]. [P04] That viewing assistance should not be collapsed into builder instructions merely because both use coordinates [c0145] [c0166] [c0168]. [A08] Celebration and recording coexist and sometimes share an item, but their succession does not establish that celebration caused requests for a durable record [c0150] [c0163].
+
+[P13] Continuation on placeTwo is explicit: a member adds Planeptune because GreenLattice is recreating its spot, and a reply starts Lastation [c0169] [c0171]. [A09] The supported motive here is another group's rebuilding; no concept states that a saved record caused the move [c0169]. [P13] A finer local continuation returns to building and vulnerability: the Lastation reply contains both a start and an edited loss to the lattice, followed in the branch by renewed proposals and a reported Purple Heart [c0171] [c0172] [c0173] [c0176]. [P10] This is not evidence that the original logos were erased before migration; the original is celebrated as safe while the new attempt is lost elsewhere [c0157] [c0172].
+
+[absent P22] The tentative dispute over a cleaned copy or a corrected historical account is unobserved: a desire for a clearer YouTube record supports documentation, while the screenshot exchange supports locating the logos [c0163] [c0166] [c0168]. [P12] Neither passage demonstrates disagreement about which version should be kept [c0163] [c0168].
+
+## D08 Contention
+
+[P09] The record includes an invasion instruction, a proposed double team, and proposed removal of a host-disapproved third-party mark; they warrant coding aggressive possibilities even though a sustained executed raid cannot be inferred [c0076] [c0115] [c0087]. [P07] The same record warns against overextension and turns a Lowee proposal down to preserve GreenLattice's goodwill [c0077] [c0130] [c0131]. [A16] The Lowee call receives a reasoned refusal in a direct exchange; the separate invasion instruction has no visible direct refusal, so the response pattern is supported for expansion pressure more clearly than for every attack call [c0130] [c0131] [c0076]. [A17] In another direct exchange, a tentative double team receives an insistence on negotiation instead of fighting for another logo [c0115] [c0116].
+
+[A15] Calls for building and defense precede some attack suggestions, but the evidence does not show that recruitment itself turned members into attackers [c0063] [c0076] [c0087]. [P18] Victory claims, ridicule of r/49ers, condemnation of bullying, and anime-versus-football comparisons sustain the contest afterward [c0159] [c0160] [c0162] [c0175]. [A18] The locally demonstrated rival identification answers a warning that another subreddit is overwriting the N, so defensive encounter also leads into a named contest without a demonstrated room-originating attack [c0058] [c0059] [c0069] [c0180].
+
+## Local exceptions
+
+[P19] Host-conditioned permission is a supported local extension of the standing peer-negotiation account: keep the candidate guest-host process, including provisional completion, application, and returned approval; the host's actual review remains unresolved [c0082] [c0117] [c0120] [c0121].
+
+[P07] Neighbour restraint has both an independent aversion to destroying others' labor and an explicit fear of losing protection; retain both routes and the third-party-removal proposal rather than declaring the room uniformly peaceful [c0048] [c0079] [c0082] [c0087]. [A13] Reported aid supports reciprocity but leaves the shortage-to-request-to-dispatch mechanism unresolved [c0059] [c0075].
+
+[P20] The ordinary-talk placement of t07 misses visible boundary work; place its appreciation of a limited canvas footprint and its sports-topic intervention under host framing [c0055] [c0056] [c0062]. [K04] Keep lore-based defense as a supported candidate contribution while leaving the proposed inherited-rival explanation unobserved [c0108] [c0109] [c0069].
+
+[P03] Add explicit steps for catching latecomers up and resolving a template request; direct reporting and shared templates are intertwined here [c0053] [c0054] [c0020] [c0021]. [P12] Add access assistance for viewers of finished work, distinct from calling them to place [c0166] [c0168] [c0170].
+
+[P13] Add the successor-canvas return to building, defense, and possible loss, and restrict the local reading of A09 to the stated motive of following a neighbour's recreation [c0169] [c0171] [c0172]. [P10] Keep prospective space constraints distinct from post-loss relocation [c0016] [c0046] [c0172].
+
+[absent P14] Machine placement remains unobserved, not disproven by human-work reports [c0111] [c0122]. [absent P21] Who may bind the room remains unobserved despite explicit approval checks [c0181]. [absent P22] Contest over a cleaned or corrected record remains unobserved despite a request for a clear video [c0163]. [absent C01] The global prevalence claim and complete off-platform organizational arrangements remain not-testable from this local account [c0089].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The adapted explanation preserves the supported local processes and exceptions, while external approval decisions and several proposed causal mechanisms remain unresolved [P19] [A13] [A09] [c0089] [c0121] [c0169].
+<!-- end -->

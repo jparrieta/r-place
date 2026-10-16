@@ -1,0 +1,34 @@
+{
+ "packet": "Villanova",
+ "group": "Villanova",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_W489BoqPaYHfJkm0HHBU",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7178,
+  "output_tokens": 9388,
+  "output_tokens_details": {
+   "thinking_tokens": 9130
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0071789,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0071789,
+   "upstream_inference_prompt_cost": 0.0010767,
+   "upstream_inference_completions_cost": 0.0061022
+  }
+ },
+ "elapsed_s": 42.4,
+ "packet_sha256": "c1104f1f23979cc34e06c6f85078d686c86a4883a89629c20a86ff6108c99c90",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

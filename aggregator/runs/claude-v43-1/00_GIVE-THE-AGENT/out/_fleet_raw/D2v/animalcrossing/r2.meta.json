@@ -1,0 +1,34 @@
+{
+ "packet": "animalcrossing",
+ "group": "animalcrossing",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_yMxKNY6uRLbdOqaiR5N9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7984,
+  "output_tokens": 7375,
+  "output_tokens_details": {
+   "thinking_tokens": 7131
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0112452,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0112452,
+   "upstream_inference_prompt_cost": 0.0023952,
+   "upstream_inference_completions_cost": 0.00885
+  }
+ },
+ "elapsed_s": 29.5,
+ "packet_sha256": "6acc9754a1b24408dc30c327a9e313c80c54f0a8798226a9c21cf07c14947c66",
+ "valid": false,
+ "why": "line 1 lacks 'served'",
+ "served_matches_probe": true
+}

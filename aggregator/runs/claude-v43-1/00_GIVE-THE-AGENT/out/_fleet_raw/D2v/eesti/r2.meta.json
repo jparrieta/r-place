@@ -1,0 +1,34 @@
+{
+ "packet": "eesti",
+ "group": "eesti",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_y3UuP6eL7hlY4jBf52Ds",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8078,
+  "output_tokens": 13128,
+  "output_tokens_details": {
+   "thinking_tokens": 12925
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0097449,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0097449,
+   "upstream_inference_prompt_cost": 0.0012117,
+   "upstream_inference_completions_cost": 0.0085332
+  }
+ },
+ "elapsed_s": 64.6,
+ "packet_sha256": "e422b43e435c30765b9dddd1d446d16105a4c23a8667ea1eba85c9b58bf74ae9",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "rojava",
+ "group": "rojava",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_qsFqelO0OshdRMOIsTt9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6789,
+  "output_tokens": 10694,
+  "output_tokens_details": {
+   "thinking_tokens": 10480
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.011152125,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.011152125,
+   "upstream_inference_prompt_cost": 0.001527525,
+   "upstream_inference_completions_cost": 0.0096246
+  }
+ },
+ "elapsed_s": 39.6,
+ "packet_sha256": "c80655a40c85ac858394388c030ff4e393349046490f6bc2eb2825f36bcce2d0",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

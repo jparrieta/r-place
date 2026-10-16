@@ -1,0 +1,34 @@
+{
+ "packet": "metroid",
+ "group": "metroid",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_OsHB7PPvgLpu5Vkn0ac6",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8233,
+  "output_tokens": 10640,
+  "output_tokens_details": {
+   "thinking_tokens": 10416
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0152379,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0152379,
+   "upstream_inference_prompt_cost": 0.0024699,
+   "upstream_inference_completions_cost": 0.012768
+  }
+ },
+ "elapsed_s": 54.1,
+ "packet_sha256": "9a2eff057dd7b39550ce852e972c2f5a74114a613c2407190e9b8711f6a96256",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

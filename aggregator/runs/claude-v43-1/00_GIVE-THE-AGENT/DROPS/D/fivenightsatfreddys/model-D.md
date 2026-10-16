@@ -1,0 +1,99 @@
+# r/fivenightsatfreddys: adapted room model
+
+## D01 — Critical mass
+
+The invitation to make a “subreddit-wide contribution” supplies mobilization [P01] [c0012], while the Fredbear proposer supplies a starter around whom helpers gather [R01] [A02] [c0066] [c0067]. The remembered progression from a small invitation to three figures explicitly credits friends and members, supporting call-to-building as a participant's retrospective explanation, not a count of placements [A01] [c0574]. A call also receives the bare “i'll help!” and a subsequent “Thanks fam!”, instantiating the response form without establishing that every reader owes an answer [P15] [A12] [c0067] [c0068].
+
+Mobilization includes learning what participation permits: an accidental placer learns from “You get another one in five minutes” what the timer means [T4-003] [c0028] [c0029] [c0030]. This sensemaking is already on the ladder but needs an explicit step alongside recruitment, rather than an assumption that recruited people already understand the canvas [P01] [T3-016] [c0017] [c0431] [c0432]. Explanations report different cooldowns, so they establish participants' practical instruction rather than an independently measured platform rule [T4-003] [c0017] [c0066].
+
+Members judge the pink circle too powerful and say only about fifteen people are helping, instantiating perceived collective limits, not a census [K02] [c0338] [c0458]. The move arrow must remain conditional: “too stressful for me” can mean personal withdrawal, and the edited Animdude cancellation cites too few people, poor cooperation, reference trouble and lack of space while directing helpers to maintain other figures [A10] [c0624] [c0461]. A project can end without ending the room's organizing; “the people ... on the discord chat have given up” accompanies thanks to a new helper [A10] [c0625].
+
+## D02 — Coordination without command
+
+Members choose lettering and characters, update plans, report completed parts and share references and coordinates [P02] [P03] [P04] [c0063] [c0064] [c0074] [c0075] [c0400]. A layout request receives agreement to make one, supporting a local design-to-instructions step [A11] [c0137] [c0138]. It does not establish the stronger mechanism that a template settles agreement: a renewed reference accompanies complaints about Discord cooperation, and later a redesign plan meets “nobody's listening AT ALL” [A11] [c0464] [c0552]. Standards require continuing recognition and uptake, not merely publication [P04] [A11] [c0527] [c0528] [c0533].
+
+The two information routes are not exhaustive here: optional Discord recruitment promises “better coordination,” while “our discord decided” returns a backstage decision to Reddit [T4-010] [P03] [c0401] [c0543]. This adds a venue-switching step, already recognized by the ladder, rather than a new universal construct [T3-014] [P03] [c0390] [c0464]. Off-platform deliberation itself remains unobserved; Reddit participants contest its result and one says “I'm not in any Discord at all” [T4-010] [c0536] [c0537].
+
+“Coordination without command” cannot mean this case lacks decided order: a moderator threatens an “unironically” week-long ban for black pixels on Fredbear's hat [C01] [T4-011] [c0538]. This is an evidenced local sanction threat, not evidence against the model's cross-room prevalence statistic, nor proof that anyone was banned or technically prevented from placing [C01] [c0538]. The finer local mechanism is invoking subreddit punishment to enforce a disputed canvas design across venue factions, alongside a proposal to decide the design on Reddit [C01] [T3-114] [c0535] [c0537] [c0538] [c0544].
+
+Machine hands range from requests for scripts and a claimed unlimited-block glitch to one participant's report of using two accounts for a personal name [P14] [c0342] [c0350] [c0336] [c0593]. Defensive strain prompts script-seeking, but “I don't ... know how” limits conversion of that request into operation; the spare-account report concerns personal work, not a demonstrated room-wide defensive bot [A06] [P14] [c0342] [c0343] [c0593].
+
+## D03 — Maintenance
+
+Once there is a Fredbear to lose, members report vandalism and answer “paint that back over,” supporting the transition from building to keeping a mutable work [A03] [P05] [c0074] [c0078] [c0079]. Holding the fort includes overnight cover, repair reports and undoing a swastika alteration, not simply new construction [P05] [c0306] [c0309] [c0365] [c0513] [c0515].
+
+Attribution changes what counts as damage: a blocked red hat is explained both as inaccurate character design and as possibly mistaken for another Icelandic attack, while an urgent alarm is withdrawn because the display was stale [P06] [c0426] [c0428] [c0425]. “We're now griefing ourselves!?” locates conflict inside the fandom rather than proving an outside raid [P06] [c0547]. Concealing a post during vandalism, and asking that coordinates be deleted, adds a finer defensive step in tension with public recruitment [P05] [c0082] [c0083] [c0327].
+
+## D04 — Order without law
+
+The room proposes compromise with an encroaching group and calls for treaties while builders are worn out, supporting defensive pressure leading to diplomatic attempts rather than guaranteed agreements [P08] [A04] [c0340] [c0416] [c0417]. A participant explains alliances as help “to make it stay”; help-seeking under strain and an outside defender's warning instantiate mutual aid without proving that aid caused final survival [P16] [A13] [c0451] [c0452] [c0458] [c0517]. The reported conversation with r/Philippines explicitly links talk to promised rebuilding help, a participant-reported instance of the deal-to-help channel [A14] [c0385].
+
+Alliances and protective cooperation instantiate coalition-building; the stated purpose is preventing interference with the remaining squid [P17] [A19] [c0578]. That purpose and “we made alliances” are accounts by participants, not independent evidence of an alliance's causal effectiveness [A19] [c0588]. Help is conditional on not encroaching on the helper's art, and nominal allies are later accused of removing a member's personal text [P16] [P17] [c0456] [c0457] [c0592]. Coalition protection therefore has an object-specific scope; it cannot be generalized from shared characters to every nearby personal claim [P17] [c0559] [c0592].
+
+Restraint includes avoiding other artworks to prevent war and apologizing after learning that an expansion crossed a national flag [P07] [c0463] [c0520] [c0521]. The flag-crossing author explicitly credits a private message for recognition and offers repair; acceptance or completed restoration is not shown [P06] [P07] [c0521]. The retrospective squid refusal invokes an alliance, a promise not to raid and the rudeness of destroying its last squid: a reported agreement-to-restraint mechanism, not proof that a coordinate boundary alone caused restraint [A05] [c0566] [c0567].
+
+A member carries a proposal to another subreddit and reports posting there, instantiating an envoy without showing the other room's response [R02] [c0509] [c0510] [c0512]. Requests and limits on building in bigger groups' territory support only a restricted guest-space process, not a demonstrated durable regime of host approval [P19] [c0413] [c0454] [c0459] [c0519].
+
+Tentative representation dispute is unobserved [absent P21] [c0468]. “Do I have permission to say yes?” shows seeking authorization for outside help, but no surviving coded passage says that one person's agreement cannot bind placers or denies an external treaty's mandate [P21] [c0468]. Internal Discord-versus-Reddit design authority is a different practice and cannot substitute for this missing external-agreement dispute [P21] [T3-114] [c0537] [c0543]. Consequently the tentative treaty-to-representation-dispute arrow remains unobserved too, not disproved by silence [absent A21] [c0385] [c0468].
+
+Relocation is recurrent and selective: “stop trying to fix our area and move to the left” preserves Fredbear while rebuilding the other figures [P10] [c0344]. A rebuilding announcement and a later “WE BUILT IT BACK” support an observed return to construction, a loop absent from the model's drawn arrows; the edited cancellation of another project shows that restarting is not inevitable [P10] [P03] [c0325] [c0328] [c0461]. The weakest-resource interpretation is therefore narrowed to particular projects and moments, with stress and coordination also consequential in participants' explanations [A10] [c0480] [c0624] [c0625].
+
+## D05 — Collective identity
+
+Inherited fandom supplies the recognizable material: “Fredbear is pretty iconic to us,” a proposal to represent all of Scott's games, and arguments about the right hat or character name show identity enacted through design [K04] [P02] [c0066] [c0414] [c0428] [c0500]. Neither that common repertoire nor the later comment that people keep hating FNaF establishes a pre-canvas quarrel carried into a particular attack [absent K03] [c0587]. The same-turn inherited-tie-to-rival claim is also unobserved: retaliation against Iceland follows a report of canvas attacks, not a stated older rivalry [absent C02] [c0427] [c0429]. These are evidential limits, not claims that no prior hostilities existed [K03] [C02] [c0587].
+
+## D06 — Host framing
+
+The April Fools frame covers made-up releases, collaborative joke fiction, altered styling and the testing of supposed announcements; brightening a teaser reveals “APRIL FOOLS” [K01] [c0228] [c0224] [c0288]. It is not merely background to canvas organizing: the room makes, evaluates and repairs its own host-side event [K01] [c0264] [c0271] [c0300]. A later canvas recruitment post combines actual monument instructions with a rickroll, so play and mobilization can share a post without making all mobilization insincere [K01] [P01] [c0602].
+
+The prank frame also obscures genuine trouble: moderators insist the AutoMod failure is not the planned joke, while a commenter identifies this date as making real faults hard to distinguish [K01] [c0036] [c0039] [c0044]. Host-side repair and rule changes must therefore be retained as a finer distinction within the keying account, not converted into evidence that every apparent malfunction was staged [K01] [c0264] [c0300]. Requests to stop repetitive departure jokes and to keep a mobile-friendly prank feature show limits and possible retention of play without demonstrating either rule enactment or actual retention [K01] [c0165] [c0167] [c0301].
+
+Complaints that r/place posts are annoying, requests for a megathread, and a dedicated subreddit instantiate boundary work [P20] [c0436] [c0531] [c0539] [c0541]. The call-to-containment arrow is supported as a response to the volume of canvas posts, not as evidence that a particular invitation caused moderation or that the requested megathread was established [A20] [c0531] [c0541] [c0555].
+
+Lobbying for peeking Fredbear and SpringBonnie art is ordinary host-theme production, not demonstrated preservation of canvas art: the artist offers work, is directed to private-message theme makers, and waits for adoption [T3-017] [new: seeking adoption of member art in the host theme] [c0487] [c0493] [c0498] [c0504]. Keep this local practice rather than forcing it into the canvas-to-banner branch of transition [P13] [c0487] [c0504]. Posting failures also provoke competing platform diagnoses; “because of /r/place i guess” receives only “That could be it,” while another explanation is challenged with other subreddits working [T3-017] [new: comparing symptoms and disputing platform-fault attribution] [c0596] [c0597] [c0598] [c0599] [c0600]. The diagnostic exchange is supported, but its technical cause remains unresolved [new: comparing symptoms and disputing platform-fault attribution] [c0601].
+
+## D07 — Imprinting
+
+Announcing achievement, claiming two pixels and celebrating a rebuilt section instantiate marking the work, locally tying pride to an attained or restored object [P11] [A07] [c0328] [c0556] [c0557]. Fate reports, a takeover timelapse and the dramatic retrospective instantiate memory-making alongside celebration [P12] [c0486] [c0574] [c0579] [c0580]. They do not demonstrate that celebration generated preservation: a takeover timelapse already circulated before the close, and the retrospective both records and celebrates in the same post [A08] [c0486] [c0574] [c0579].
+
+Tentative curation does operate in the historical-account branch: “we invaded them” is answered by an appeal to the timelapse claiming the FNaF art preceded the Inkling [P22] [c0569] [c0570] [c0573]. This instantiates disagreement over the preserved account, not a verified invasion chronology; editing a cleaned shared canvas copy remains unobserved [P22] [c0570] [c0573]. Claims of predictable fandom hatred and of survival with alliances are contrasting speakers' evaluations, not evidence of a collective change of mind [P12] [c0587] [c0588].
+
+After closure, an invitation explicitly says “Since the /r/place has ended,” then asks for something better on another canvas; subsequent posts report starts and work on multiple successor sites [P13] [c0562] [c0564] [c0602] [c0610] [c0611]. This supports closure prompting continuation, not the record-of-the-work mechanism asserted by the memory-to-transition arrow; no cited invitation says that a preserved image or account generated its successor plan [A09] [c0562] [c0602]. Successor monument completion remains unobserved; the visible claims are starts and partial work reports [P13] [c0606] [c0610] [c0611].
+
+The inherited memory theme also contains a backup of April Fools posts and a recap for a returning user; the latter includes movie news and renewed Walton jokes rather than a canvas history [T4-027] [K01] [c0477] [c0612] [c0615] [c0617] [c0620]. This needs a host-event memory extension, not automatic application of the canvas-fate element to every concept sharing the theme [P12] [K01] [c0477] [c0617]. Similarly, the “bamboozled” response to a false canvas expansion is joke reception, not evidence of achieved construction despite its inherited achievement-theme membership [K01] [P11] [c0474] [c0475]. Source-code speculation within the inherited recruitment theme likewise tests whether an anticipated teaser is a joke, rather than recruiting canvas builders; the adapted account keeps that distinction without changing the original coding [K01] [P01] [c0435] [c0437] [c0438].
+
+## D08 — Contention
+
+Calls to attack Iceland or the “M,” proposals to erase a squid and an acknowledged flag crossing instantiate the range of incursion and threatened attack without proving that every call became a raid [P09] [c0429] [c0465] [c0506] [c0520]. Recruitment and these threats coexist in the campaign, but no cited passage establishes that recruitment caused builders to become attackers; retain this as sequence rather than an established recruiting-to-attack mechanism [A15] [c0012] [c0429] [c0465].
+
+Attack proposals receive reasoned restraint: the squid is helping keep the art alive, and the response to “FUCK M UP!” says “I don't want to battle them” and offers contact with moderators [A16] [P07] [c0506] [c0507] [c0465] [c0466]. The narrowed squid-border proposal then receives “talk whit them,” followed by a reported cross-room post, a local attack-proposal-to-talk transition rather than a room-wide conversion to peace [A17] [c0508] [c0509] [c0510].
+
+Taunts and blame instantiate contest talk: “Mess with da squid, Your art gets hid” meets a denial that the squid was touched [P18] [c0525] [c0526]. The causal arrow from this room's attack to ensuing rivalry is unobserved; these turns answer an alarm about damage, and their taunt is not independent proof of the attack it alleges [absent A18] [c0522] [c0525] [c0526].
+
+grade: composes-with-residue
+The model explains recruitment, mutable-work upkeep and neighbor negotiation, but project-level withdrawal, internal sanctions, host-side work and unresolved mechanisms require the local qualifications above [A10] [C01] [K01] [new: comparing symptoms and disputing platform-fault attribution] [c0461] [c0538] [c0036] [c0597].
+local_status: unresolved
+
+## Local exceptions
+
+- [P01] Add a learning step already recognized by [T4-003]: recruitment does not presuppose knowledge of the timer or overwrite rules [c0017] [c0029] [c0030].
+- [A11] Restrict settlement to actual uptake; publishing or repeating a reference does not resolve conflicting design commitments [c0464] [c0552].
+- [P03] Add venue switching under [T4-010]; invitations and returned decisions are visible, but the backstage deliberation is unresolved [c0401] [c0536] [c0543].
+- [C01] Restrict the no-decided-order reading locally and add cross-venue sanction threats under [T4-011]; enacted bans and control over pixels remain unobserved [c0537] [c0538] [c0544].
+- [A06] Condition automated defense on practical access and skill; requests and a claimed glitch do not demonstrate a shared working bot, while the reported two accounts served personal text [c0336] [c0342] [c0343] [c0593].
+- [P05] Add concealment of publicity during vandalism, distinguishing it from indiscriminate recruitment [c0082] [c0083] [c0327].
+- [A05] Add recognition and reciprocal obligation rather than treating a settled coordinate line as sufficient for restraint [c0521] [c0567].
+- [P17] Condition coalition protection on the particular work protected; a member reports removal of personal text by groups credited as allies [c0559] [c0592].
+- [P19] Restrict the guest regime to reported permissions, proposals and obstacles; durable host-governed occupancy remains unestablished [c0413] [c0459] [c0519].
+- [A10] Restrict the room-sized move-or-quit reading to projects and participants, and add stress, reference and cooperation conditions; [P10] also links back to [P03] when rebuilding succeeds [c0344] [c0325] [c0328] [c0461] [c0624] [c0625].
+- [P21] and [A21] remain unobserved: seeking permission for help does not itself instantiate a dispute over whom an external agreement binds [c0468].
+- [K01] Add distinguishing genuine host faults and repairs from staged trouble, and preserving or recapping host jokes; do not flatten this into canvas conduct [c0036] [c0044] [c0264] [c0477] [c0617].
+- [new: seeking adoption of member art in the host theme] Preserve the supported lobbying process; restrict [P13] against inferring canvas provenance or successful adoption [c0487] [c0493] [c0498] [c0504].
+- [new: comparing symptoms and disputing platform-fault attribution] Preserve diagnosis as a local practice; the cause of failed and duplicate posts is unresolved [c0596] [c0597] [c0599] [c0600] [c0601].
+- [A08] and [A09] retain observed recording and continuation but not unsupported generative links; add closure-driven continuation to [P13], with successor completion unobserved [c0486] [c0579] [c0562] [c0606] [c0611].
+- [P22] Instantiates contested remembered history only; image cleanup and the true invasion chronology remain unobserved or unresolved [c0569] [c0570] [c0573].
+- [P12], [P11] and [P01] require concept-level placement rather than blanket theme inheritance: the backup/returnee recap is host memory, “bamboozled” receives a fake expansion, and source-code speculation tests a possible joke rather than recruiting builders [K01] [c0435] [c0437] [c0475] [c0477] [c0617].
+- [A12] and [A16] instantiate local reply forms, not universal conversational obligations or verified silent behavior; [A15] and [A18] lack the claimed causal link here, while [A19] supports a stated protective purpose rather than measured effectiveness [c0067] [c0466] [c0465] [c0525] [c0578].
+- [K03] and [C02] remain unobserved: post-event fandom-hate attribution and canvas retaliation do not establish an inherited quarrel naming the rival in an attack turn [c0587] [c0427] [c0429].
+
+<!-- end -->

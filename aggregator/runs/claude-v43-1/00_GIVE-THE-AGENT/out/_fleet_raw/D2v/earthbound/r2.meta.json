@@ -1,0 +1,34 @@
+{
+ "packet": "earthbound",
+ "group": "earthbound",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_1au9GDhkkWUEwXXKO7dm",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8171,
+  "output_tokens": 14413,
+  "output_tokens_details": {
+   "thinking_tokens": 14186
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.0071974,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0071974,
+   "upstream_inference_prompt_cost": 0.00114394,
+   "upstream_inference_completions_cost": 0.00605346
+  }
+ },
+ "elapsed_s": 173.2,
+ "packet_sha256": "2cf99a8441df046b500a3b81aac9c3c31f004792db928a8a9b913fd23e70d045",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

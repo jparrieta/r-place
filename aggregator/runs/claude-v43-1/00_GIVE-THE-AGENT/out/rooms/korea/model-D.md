@@ -1,0 +1,78 @@
+# r/korea — adapted room model
+
+## D01 Critical mass
+
+[P01] The opening call asked people to “work together to make a Korean flag” because other countries already had flags; recruitment therefore sought a visible Korean presence, rather than presupposing an established placing group [c0010][c0011]. [R01] The starter proposed the flag and issued its call in the same opening, so [A02] is locally simultaneous proposing-and-calling, not a separately demonstrated succession of roles [c0009][c0010]. [A01] A later participant explicitly joined the build, while another reported the completed circle; those reports support recruitment followed by building, without establishing how many silent readers placed [c0026][c0041].
+
+[P01] Help was sought beyond the room, and outside requests also arrived: a member recounted earlier outreach, another proposed circulating the design through K-pop subreddits, and visitors from Turkey asked for help [c0068][c0142][c0092][c0093]. [K02] Capacity was assessed against a particular task: “I'm not sure we have the numbers” limited an expansion, and completing 대한민국 was later cited as reason they could not undertake more without a template [c0144][c0150]. [new: explaining how the shared canvas works] Explanations of timed pixels and collective making or destruction supplied practical understanding, rather than proving that an adequate mass of helpers had been recruited [c0032][c0033][c0126].
+
+## D02 Coordination without command
+
+[P02] National representation was made through a flag, a separate heart, and Hangul additions, with proposals repeatedly adjusted to the available pixels [c0039][c0060][c0129][c0146]. [P03] Builders reported parts placed and tasks remaining: “I have completed the circle” immediately continued with filling and cleanup [c0041]. [P04] Coordinates and templates provided common references, but their existence did not guarantee alignment: work split across three sites and one participant reported others repeatedly “fixing” a symmetric Taegeuk back to an asymmetric one [c0025][c0043][c0087][c0110]. [A11] The local account therefore requires a condition of compatible uptake, rather than treating a posted template as sufficient to settle design disagreement [c0087][c0152].
+
+[P15] Bare assent appears as “Sounds good to me!” after a proposed site, and “Making it” after a proposed character [c0019][c0020][c0130][c0131]. [A12] These reply pairs instantiate acceptance of proposals, while the initial flag call also receives a reasoned objection that spending time on it is “inane”; the evidence does not establish that every reader owes or supplies a written answer [c0010][c0012]. [C01] Construction proceeds through volunteered tasks and adjustments in the visible exchanges; this supports a local reading of coordination without a demonstrated elected command, but cannot test the model's cross-room prevalence claim or establish that no backstage decisions occurred [c0131][c0133][c0134][c0136]. [absent P14] Automation is unobserved: a lone maintainer's difficulty and a complaint about three scattered sites establish strain, not that nobody used scripts or spare accounts [c0084][c0043].
+
+[P02] Signing the work was also a dispute over entitlement: a claim that the flag “originally belongs to /r/korea” received the answer that subreddits asked to help should be allowed to place things [c0088][c0090]. [P02] A finer step is needed inside design and signing: contributors convert past labor and invitations to help into competing rights to determine the shared mark, including the emphatic claim “WE HAVE OUR RIGHTFUL PLACE” [c0111][c0116]. [P16][P02] Inviting help can thus create a later representational claim, rather than ending with the receipt of pixels; the direct reply makes that connection explicit [c0088][c0090].
+
+## D03 Maintenance
+
+[P05] Keeping the work included defending trigrams, correcting changed bars, and asking others to fix rapid vandalism [c0080][c0084][c0085]. [A03] Building and upkeep overlap rather than forming clean phases: completing the circle already generated cleanup work, and celebration was followed by further maintenance reports [c0041][c0077][c0084]. [P06] Attribution remained contested: a report of Japan invading a heart was answered with “We're not invading” and blame directed at griefers on both sides; elsewhere a purported vandal was reportedly “fixing” a different design [c0065][c0071][c0087].
+
+[P05] Capacity limits could stop growth instead of visibly producing machines: the moderator dropped an expansion because of the effort already required and the lack of a template [c0150]. [absent A06] The proposed maintenance-to-automation mechanism is unobserved here, not refuted by accounts of manual difficulty [c0084][c0150]. [P04] A blacked-out character also prompted “I'll PM them,” a reported move toward contacting an individual placer; its recipient's response and any resulting agreement remain outside the cited concept [c0137].
+
+## D04 Order without law
+
+[P10][A10] Loss and inability to hold a spot explicitly occasioned moving: “we're losing” prompted a restart proposal, while a builder who judged the Crusader Kings spot unholdable proposed Japan's flag instead [c0017][c0018][c0042]. [P10] Relocation was a practical reset, with new coordinates, an announced common spot, and renewed calls to rebuild [c0024][c0025][c0062][c0058]. [P10][P03] The model needs a return link from relocation to renewed construction: after reporting an invasion, the same builder accepted replacement coordinates, and another participant explicitly joined there [c0021][c0024][c0025][c0026].
+
+[P08] Neighbours negotiated coexistence, including the direct Surskit request to stop drawing over each other and the reply “Let's coexist!” [c0072][c0073]. [P07] Restraint also appeared without a completed border bargain: a participant refused to write r/Korea over another subreddit's work [c0111][c0112]. [A04] A later suggestion to recruit or negotiate responds within a branch about vandalism and Germany's border; it demonstrates a proposed route from maintenance trouble to negotiation, not a documented completed settlement [c0085][c0086]. [absent A05] The cited coexistence agreement does not show subsequent compliance caused by a settled border, leaving that mechanism not-testable from this exchange [c0072][c0073].
+
+[P08] In the Twice exchange, an overwrite proposal received the explanation that force would fail against an organized group, followed by a reported refusal, a territory-swap suggestion, and an offer to relocate and rebuild Twice [c0153][c0154][c0155][c0156]. [P08] Negotiation here was conditioned by the neighbour's capacity to hold its work, alongside normative reluctance to overwrite; the two reasons should remain distinguishable [c0154][c0112]. [R02] The moderator carried a request with a screenshot to the Seolhyun room and relayed its suggestion to write around the heart [c0138][c0147]. [absent P19] This tests permission-seeking around a neighbour's work, but does not establish a completed guest work governed by a host; that stronger relation remains not-testable [c0135][c0147].
+
+[P16][A14] An attack proposal opened an exchange in which Japan requested separate claims, offered help, and received agreement to work together; the help and separate-claim proposals are visible, while completed reciprocal placement is not established by the assent alone [c0053][c0054][c0055][c0056]. [absent A13] Strain, recruitment suggestions, and later thanks coexist, but do not identify a specific completed chain in which the strain caused another room to send hands [c0084][c0086][c0124]. [absent P17][absent A19] Helpers are thanked as friends and a “united kpop lot” is credited; this does not by itself demonstrate that r/korea joined a coalition because of an attack [c0124][c0151].
+
+[absent P21][absent A21] Treaty authority is unobserved: the argument over whose label represents the flag concerns ownership and credit, while the actual negotiation reports a no-go; neither cited exchange denies an envoy's power to bind all placers [c0088][c0090][c0154][c0155].
+
+## D05 Collective identity
+
+[K04] The design dispute became an argument over national belonging: a proposal to replace “Koreaboo” work with hanboks, King Sejong, or 대한민국 was answered by reminders that those helpers had maintained the flag and by an assertion of Korean ethnicity [c0140][c0148][c0149]. [K04] A finer process inside collective identity is reciprocal testing of who counts: “I am Korean American. I am Korean” was met with a challenge to K-pop as heritage, a counterexample involving Korea-born fans, and competing definitions of “koreaboo” [c0159][c0160][c0161][c0163][c0162]. [K04] These are contrasting positions with no demonstrated shared settlement, not evidence that the whole room adopted one membership rule [c0163][c0162].
+
+[absent K03] A pre-existing quarrel is unobserved as the demonstrated cause of the canvas conflict: a takeover was likened to being taken over and another speaker mocked the colonisation analogy, but those passages do not establish an earlier organized rivalry [c0035][c0036]. [absent C02] The attack call names Japan, while the historical analogy occurs in a different turn; the model's particular same-turn explanation by a prior tie is unobserved in these concepts [c0014][c0035][c0036].
+
+## D06 Host framing
+
+[K01] April Fools play existed beside the build: a presidential-pardon headline disclosed “April Fools!” and received an admission of belief, including a reader who accepted it for two days [c0001][c0002][c0004][c0007]. [K01] A separate wrong-Korea story prompted challenges and explicit identification as an April Fools joke; this supports host play without showing that participants treated the flag call itself as a hoax [c0099][c0100][c0101][c0010].
+
+[P20][A20] The host drew a line around a flood of canvas talk: complaints about repeated posts preceded a moderator's explicit explanation that excitement should now be contained in one thread [c0051][c0096][c0122]. [P20] Setting comments to “new” was a finer coordination step inside containment, keeping fresh plans findable while reducing separate submissions [c0123]. [P20] The low-karma removal is a different mechanism: an existing general account rule intercepted an almost-ready flag update; it is not evidence of a new anti-canvas policy [c0075][c0076]. [P20] Objections that the canvas wasted time remained answerable by appeals to collective representation and by pointing out the irony of a Reddit user complaining about wasted time [c0012][c0013][c0139][c0141][c0145].
+
+## D07 Imprinting
+
+[P11][A07] Announcements and pride followed reported construction: “We did it” and “Hope it lasts” marked provisional success, rather than cessation of the work [c0041][c0047][c0077][c0084]. [P12] At and after the close, people reported the flag untouched and the result “beautiful and intact”; the edited planning opener also credited helpers for creating and maintaining the images [c0157][c0158][c0124]. [absent A08] Celebration and the record of survival share an edited opening whose creation timestamp cannot date its later edit, so the proposed celebration-causes-recording mechanism is not-testable from that item [c0124].
+
+[absent P13][absent A09] A lasting organization, a successor canvas, or adoption of the mark as a room emblem is unobserved in the cited closing reports; reporting survival does not establish that no continuation occurred elsewhere [c0157][c0158]. [absent P22] Post-close contest over a cleaned or authoritative canvas copy is unobserved: the later identity argument contests heritage, while the survival reports do not dispute a preserved version [c0158][c0159][c0160].
+
+## D08 Contention
+
+[P09][A15] The cooperative flag call did accommodate attack recruitment: a reply asked for help converting Japan's flag, and the starter answered by asking which flag to target [c0010][c0014][c0015]. [A16] Another later takeover post received the direct refusal “no need to create conflict,” preserving a local refusal rather than a room-wide prohibition [c0108][c0109]. [A17] The attack proposal also received Japan's separate-claims request, showing negotiation as a direct response to the proposed takeover [c0053][c0054]. [P18][A18] Hostility was carried into talk through the “How do you like it now?” analogy and the reply mocking the equation with colonisation; this is a bounded argumentative exchange, not proof of a sustained inter-room war [c0035][c0036].
+
+[P09] Calls to remove or overlap Twice persisted alongside negotiation and final thanks; the adapted account cannot turn coexistence into a unanimous conversion away from exclusion [c0115][c0116][c0154][c0124]. [P09][P02] Nor does a call itself prove that the proposed erasure happened: the refusal and rebuilding offer leave the outcome of the proposed overwrite unresolved [c0153][c0155][c0156].
+
+## Local exceptions
+
+[new: explaining how the shared canvas works] Adaptation: retain newcomer explanation as a local process that the ladder recognizes but the standing elements do not separately name, preserving its distinction from recruitment and design instructions [c0032][c0033][c0126].
+
+[P02][P16] Adaptation: split out the conversion of invited labor into representational entitlement, using the direct reply that helpers deserve space and the competing claim of original ownership; this remains a supported local step whether or not shared elsewhere [c0088][c0090][c0116].
+
+[K04] Adaptation: preserve reciprocal challenges over ethnicity, residence, heritage, and the “koreaboo” label as a process within identity, with its outcome unresolved rather than compressed into a settled national identity [c0149][c0159][c0160][c0161][c0163][c0162].
+
+[P10][P03] Adaptation: add the return from a lost site through replacement coordinates to explicit joining of renewed construction, so relocation does not terminate the explanation [c0021][c0024][c0025][c0026].
+
+[P04][A11] Adaptation: require compatible uptake for templates to settle work; corrected pixels can themselves be contested, and a reference is not proof of agreement [c0087][c0152]. [P08] Adaptation: retain both normative restraint and the practical inability to displace an organized neighbour as distinct grounds for negotiation [c0112][c0154].
+
+[P20] Adaptation: distinguish a general low-karma rule from event-specific containment, and retain sorting by new as a concrete step that makes containment usable for live work [c0076][c0122][c0123]. [R01][A02] Adaptation: allow initiating and calling to be simultaneous in one post [c0009][c0010]. [P11][A07] Adaptation: allow celebration before upkeep has ended [c0047][c0077][c0084].
+
+[absent P14][absent A06] Unresolved: maintenance strain cannot decide whether automation occurred outside the observed exchanges [c0084][c0150]. [absent P19][absent P21][absent A21] Unresolved: asking neighbours for space and arguing over credit do not demonstrate host government or disputed treaty authority [c0135][c0147][c0090][c0155]. [absent P17][absent A19][absent P13][absent P22] Unresolved: thanks, survival reports, and a later heritage dispute do not establish coalition membership, an enduring institution, or contest over a preserved copy [c0124][c0151][c0158][c0160].
+
+local_status: unresolved
+grade: composes-with-residue
+The adapted account explains the visible practices through these elements and finer steps, while the specified authority, automation, and continuation claims remain unresolved on their cited evidence [P14][P21][P13][c0084][c0155][c0158].
+<!-- end -->

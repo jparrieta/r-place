@@ -1,0 +1,34 @@
+{
+ "packet": "stargate",
+ "group": "stargate",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_88sTATgARCwRBbESJXG0",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8651,
+  "output_tokens": 10833,
+  "output_tokens_details": {
+   "thinking_tokens": 10243
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0088160623,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0088160623,
+   "upstream_inference_prompt_cost": 0.0001496623,
+   "upstream_inference_completions_cost": 0.0086664
+  }
+ },
+ "elapsed_s": 54.7,
+ "packet_sha256": "289852308096319ee5d1b5ac154cd53594ce13cb52f26d40b56f610f39dd4957",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

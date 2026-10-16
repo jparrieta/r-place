@@ -1,0 +1,34 @@
+{
+ "packet": "ufl",
+ "group": "ufl",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_A2IPGkKsI4M7d7k0aS2f",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7539,
+  "output_tokens": 6112,
+  "output_tokens_details": {
+   "thinking_tokens": 5912
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.007197075,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.007197075,
+   "upstream_inference_prompt_cost": 0.001696275,
+   "upstream_inference_completions_cost": 0.0055008
+  }
+ },
+ "elapsed_s": 20.2,
+ "packet_sha256": "acb8919a9775b6b9c6fc849c6117e891eeb173b1d3c35b9591dc735b30362281",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

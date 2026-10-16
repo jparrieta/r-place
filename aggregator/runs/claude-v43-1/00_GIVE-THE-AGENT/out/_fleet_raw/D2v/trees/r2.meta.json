@@ -1,0 +1,34 @@
+{
+ "packet": "trees",
+ "group": "trees",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_xYrxsAdNdgW9KXRLFefr",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8107,
+  "output_tokens": 7857,
+  "output_tokens_details": {
+   "thinking_tokens": 7685
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00593025,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00593025,
+   "upstream_inference_prompt_cost": 0.00121605,
+   "upstream_inference_completions_cost": 0.0047142
+  }
+ },
+ "elapsed_s": 43.8,
+ "packet_sha256": "a2f15b52cfe6e29ae3035180faea2fcac71ae6cff6fcdc4b9bc42feb28d8be65",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

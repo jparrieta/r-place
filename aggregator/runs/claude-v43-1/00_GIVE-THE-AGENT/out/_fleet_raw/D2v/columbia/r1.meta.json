@@ -1,0 +1,34 @@
+{
+ "packet": "columbia",
+ "group": "columbia",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_c9PITpRenlydaeUu9ia5",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8102,
+  "output_tokens": 16968,
+  "output_tokens_details": {
+   "thinking_tokens": 16759
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0136748648,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0136748648,
+   "upstream_inference_prompt_cost": 0.0001004648,
+   "upstream_inference_completions_cost": 0.0135744
+  }
+ },
+ "elapsed_s": 125.4,
+ "packet_sha256": "1b032adc8d21362f35b61bbfab54cb786cba58431cfe31df658d99f29ef2f926",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

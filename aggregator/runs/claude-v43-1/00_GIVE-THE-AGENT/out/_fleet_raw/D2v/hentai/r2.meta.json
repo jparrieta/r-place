@@ -1,0 +1,34 @@
+{
+ "packet": "hentai",
+ "group": "hentai",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_PJeP6sKEaFjLZV4JW5fk",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7839,
+  "output_tokens": 12123,
+  "output_tokens_details": {
+   "thinking_tokens": 11891
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.012674475,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.012674475,
+   "upstream_inference_prompt_cost": 0.001763775,
+   "upstream_inference_completions_cost": 0.0109107
+  }
+ },
+ "elapsed_s": 43.5,
+ "packet_sha256": "1ad0154e2e5872ff91d9cc6d05a666335f310fb36246837573fa0f03ecf0b36f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

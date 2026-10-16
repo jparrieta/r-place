@@ -1,0 +1,34 @@
+{
+ "packet": "bulgaria",
+ "group": "bulgaria",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_e5XnDbgbN6b60dwzNeiH",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8507,
+  "output_tokens": 10817,
+  "output_tokens_details": {
+   "thinking_tokens": 10594
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0155325,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0155325,
+   "upstream_inference_prompt_cost": 0.0025521,
+   "upstream_inference_completions_cost": 0.0129804
+  }
+ },
+ "elapsed_s": 45.2,
+ "packet_sha256": "6deaeff72262e0760d8d1d46691a74d7f07eb89bb95b53780f9a4e5ecb55efa8",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "austriahungary",
+ "group": "austriahungary",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_RE0B7ZYaqRzryQZ0fmCV",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 6227,
+  "output_tokens": 11970,
+  "output_tokens_details": {
+   "thinking_tokens": 11782
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0162321,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0162321,
+   "upstream_inference_prompt_cost": 0.0018681,
+   "upstream_inference_completions_cost": 0.014364
+  }
+ },
+ "elapsed_s": 45.8,
+ "packet_sha256": "1a5147c0c3730490f9ce2478fdfb9a954803f3453da6114aa09f4a3f1995c43e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

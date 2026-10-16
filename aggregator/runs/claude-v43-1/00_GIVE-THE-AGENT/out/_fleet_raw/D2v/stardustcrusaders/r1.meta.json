@@ -1,0 +1,34 @@
+{
+ "packet": "stardustcrusaders",
+ "group": "stardustcrusaders",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_Cott8Vmc7ScoW8NgsV7B",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8400,
+  "output_tokens": 14353,
+  "output_tokens_details": {
+   "thinking_tokens": 14138
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01016945,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01016945,
+   "upstream_inference_prompt_cost": 0.00084,
+   "upstream_inference_completions_cost": 0.00932945
+  }
+ },
+ "elapsed_s": 119.5,
+ "packet_sha256": "8297aadbbd54aa5aec42019a6559599e5ed6b297779f4b30c2992f89a4c2c6ef",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}
