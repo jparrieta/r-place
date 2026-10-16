@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at D3a-09, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Under 3,000 words, rewritten whole at every close. Last written at D3a-10, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -20,13 +20,13 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-002 (J, 16 October; carry it):** "the analyst is doing induction." I place codes where the population's evidence leads, say why, and ask for the changes I need: "Not the rules bound their understanding."
 - **J, 16 October, 19:08 Berlin, on drift (carry it):**
   - Re-orient at every leg start and after every compaction: read `handback-C5.md` and the model as it stood before this stage, then the current elements, arrows and history.
-  - Make a blind re-rule check at D3a-10 and before the D3c freeze: about 50 lines from closed groups, with the pairs left for the handler's kappa.
+  - Make a blind re-rule check at D3a-10 (done) and before the D3c freeze: about 50 lines from closed groups, with the pairs left for the handler's kappa.
   - A ruling rule changes only by a dated amendment that says whether it applies backwards.
 
-## The return (D1a to D3a-09)
+## The return (D1a to D3a-10)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 (709 lines) and P05 (1,092) met corrections twice and were revised (moves 172 and 173). P01 (1,021), P02 (1,070), P04 (1,034) and P12 (977) stand. P22, the field's entry (782 lines), was ruled standing and its range rewritten (move 174). K01 (1,234 lines), P03 (948) and P11 (951) stand without correction, shown in 352, 650 and 646 rooms. Repairs changed no group's rulings.
+- **D3a, by element.** R01 (709 lines) and P05 (1,092) met corrections twice and were revised (moves 172 and 173). P22, the field's entry (782 lines), was ruled standing and its range rewritten (move 174). P01 (1,021), P02 (1,070), P04 (1,034), P12 (977), K01 (1,234), P03 (948), P11 (951) and P16 (985) stand without correction. Repairs changed no group's rulings. G4a fixes forward the add-condition boundary the blind check found.
 
 ## The current account, and the contrary rooms
 
@@ -63,8 +63,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 - **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
 - **D3a outputs:**
-  - `adjudications.jsonl`: 9,818 lines ruled, 9,837 with re-rulings;
-  - the stage's notes: G1 to G16, G13a and the field's entries;
+  - `adjudications.jsonl`: 10,803 lines ruled, 10,822 with re-rulings;
+  - the stage's notes: G1 to G17, G13a, G4a and the field's entries;
   - `model/history.jsonl`: moves 172 to 174.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md` (13 expectations), `handback-C5.md`.
 - **Ledgers:**
@@ -74,7 +74,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
   - elements 30 (24 standing, 5 candidates, P21 tentative);
   - arrows 21 (A21 tentative).
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
-- **Questions:** none open.
+- **Questions:** QD3-003 (does G4a apply backwards?) is open.
 
 ## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
@@ -131,24 +131,23 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 **Two rules from J at B1b-29 (through the handler, 20:10Z; carry them into every head).** Write rule 0 lines and bags with `b1_multiplace_write4.py` and `b1_bags_from_file2.py`, not the old, slow scripts. Never end a turn while a job runs in the background; run every write and check in the foreground.
 
-## The pilot's declarations, and stage B in one line
+## The pilot's declarations and stage B
 
 Agreement is Jaccard on placement sets, exact agreement beside it. B2 stability 0.807 is the floor; `assign_final.jsonl` is stage B's settled line.
 
 ## Open, carried
 
-- **From D3a-02 to D3a-09**, to weigh after order tests:
+- **From D3a-02 to D3a-10**, to weigh after order tests:
   - P11's marked attempts (A07's bound) and record-first marking (A08's bound);
   - the layout telling keepers (P04 into P05);
   - calls recurring after a loss (P01, P10, A10), and rebuilding after a loss or move (P03, 87 rooms; no arrow);
   - parallel and outside builders (P03);
   - recording entered from a loss, beside A08;
   - a finished work reopening calls;
-  - neighbours and allies (A04, A14, A19);
-  - scripts working against keeping (A06);
+  - neighbours and allies (A04, A13's giver, A14, A19), an apology opening help (no arrow), and guests and hosts (P19);
+  - scripts working against keeping or refused as help (A06);
   - upkeep against growth;
-  - P12's records as proof in P22's contests;
-  - P22's two forms, for the clustering;
+  - P12's records as proof in P22's contests, and P22's two forms;
   - the host's moderation of records and takeovers (T4-002);
   - bare refusals (math-011, wow-050) against F-014;
   - chats (T4-010), which split the sharing in 19 rooms;
@@ -173,21 +172,19 @@ Agreement is Jaccard on placement sets, exact agreement beside it. B2 stability 
 - **Writing and checks.**
   - Never put a placeholder or a no-op in a command.
   - Never put an Edit or Write and its check in one turn.
-  - Never run two writes, Edits included, to the same file as parallel calls.
+  - Never run two writes or Edits to one file in parallel.
   - Count the head's words before the closing line.
 - **Ledger formats.**
   - A superseding finding's `supersedes` is the bare id.
   - Every arrow needs `negative_check`.
-  - Proposition ids are the letter N with two digits. The link check does not resolve them, so the head never names one.
+  - The head never names a proposition id; the link check does not resolve them.
   - A re-ruling, or a history correction, is an appended line; the earlier line stays.
-- **The store.**
-  - `mem.py codes --third/--fourth ... --json` (label field `first_order`); `mem.py rooms --with <id> --limit 2000`; `cite.py --room --code` (one code per call).
-  - The theme a reply sits under does not track its stance.
+- **The store.** `cite.py --room --code` takes one code per call. The theme a reply sits under does not track its stance.
 - **The permission check refuses:**
   - deleting a file, even a link;
   - shell variables, loops, functions, brace groups, heredocs and words beginning "for_";
   - `find -exec` with braces; awk with system() or `$` fields; env-var prefixes;
-  - cat or jq on `out/diary/`; `cut -c` after a read, `cite.py` or a helper; `head -n -N`.
+  - cat or jq on `out/diary/`; `cut -c` after any read, `cite.py` or a helper; `head -n -N`.
 
   Write a script in `out/_analysis/` instead.
 - **Output limits.** A Bash output above about 30 KB is cut; measure first. A Read above about 25,000 tokens is refused.
@@ -198,4 +195,4 @@ Agreement is Jaccard on placement sets, exact agreement beside it. B2 stability 
 
 ## The next comparison
 
-The next element group's lines, by rules G1 to G16 with G13a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group's lines, by rules G1 to G17 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
