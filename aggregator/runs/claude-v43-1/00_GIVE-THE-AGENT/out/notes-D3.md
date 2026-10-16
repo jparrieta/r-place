@@ -39,6 +39,16 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - adding to the mark, enlarging it, or adding a personal piece.
 
   A concept that only announces, shows, locates, defends or admires a placed mark shows the result, not the settling. For P02 it is an evidence limit. A call that names no picture does not show P02.
+- **G11 (logged at D3a-04, before P05's lines were ruled).** P05 is shown when a concept shows members keeping the room's placed work. That covers:
+  - watching it, including a warning that it is being changed (P05's lower range);
+  - repairing changed pixels;
+  - calling or rallying to defend it under attack (a call to defend shows P01's hold form and P05 at once);
+  - covering hours when others sleep, and handing the watch on;
+  - hardening or shrinking its shape to hold it;
+  - running scripts set to keep it;
+  - putting upkeep before growth.
+
+  A concept that only reports a loss, celebrates, locates, proposes or redesigns a mark does not show P05 (it may show P02, P12 or A10). Under G2 an absent line is rejected when its concepts show P05. As applied: keeping an ally's work beside the room's own is a paired elaboration, and a line where the room keeps nothing of its own is rejected (corridor-013, aeon-009); upkeep on a canvas opened after hour 73 is an elaboration, and edits to a copy after the close are evidence limits.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -275,3 +285,91 @@ P02's lines number 1,070, across 704 rooms. All are ruled, and none is pending. 
 ### Close-check, D3a-03
 
 `validate.py D3` reports 2,800 of 42,243 ledger lines ruled (R01's 709, P01's 1,021 and P02's 1,070), with 0 errors and 0 warnings. `validate.py --open D3` reports `EXPECTATIONS.jsonl` missing from the folder. The stage forbids reading it (E1 scores it), so it is the harness's to place, not mine.
+
+## D3a-04: P05, the room keeps its placed work
+
+P05's lines number 1,092, across 704 rooms. All are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py` and `_analysis/d3_pattern_counts.py`.
+
+| op | lines | specification | elaboration (paired) | correction (paired) | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 655 | 630 | 5 | 0 | 0 | 17 | 3 |
+| add-step | 127 | 19 | 103 | 0 | 2 | 3 | 0 |
+| link | 93 | 2 | 88 | 0 | 0 | 3 | 0 |
+| add-condition | 91 | 3 | 84 | 0 | 2 | 2 | 0 |
+| absent (79 `unobserved`, 9 `not-testable`) | 88 | 0 | 0 | 0 | 83 | 1 | 4 |
+| restrict | 38 | 13 | 7 | 4 | 13 | 1 | 0 |
+| all | 1,092 | 667 | 287 | 4 | 100 | 27 | 7 |
+
+**What the instantiate lines show.** Every line accepted as specification cites members keeping the room's placed work (G11). They watch it, repair changed pixels, call and rally to defend it, cover the night and hand the watch on, harden or shrink its shape, run scripts, and put upkeep before growth. The range runs from one member replacing a single pixel (totallynotrobots-015, oneplus-016) to shifts across time zones and scripts over days (chicubs-017, bostonbruins-015, KState-015). Three lines were rejected:
+- a member fixing an image that is not the room's (corridor-013);
+- an allied room's member offering a script that keeps that room's own figure (aeon-009, re-ruled from accept);
+- a build that cannot gain ground and a proposal to move, which A10 holds (warthunder-017).
+
+Seventeen instantiate lines fail portability. Five are elaborations: three keep work on a successor canvas or a host's land (nightinthewoods-015, sadboys-017, yuyuyu-005), and two meet a one-room line (hoodr-009, utahjazz-020).
+
+**Absent lines.** None is evidenced. 83 are evidence limits. Four were rejected under G2 and G11 because their concepts show keeping (hunterxhunter-013, peterdraws-021, rpi-015, seventeen-017). One fails portability.
+
+**Restrict lines.** Thirteen are evidence limits under G9: warnings with no defence shown, edits to a copy after the close, other rooms' work, attacks and growth. Thirteen are specification. Seven are paired elaborations: upkeep weighed against growth, members disputing whether to keep defending, and a room keeping some works while letting one go. Four are corrections. One fails portability.
+
+**The correction, met twice, and move 173.**
+- **The lines:** OnePiece-012 and leagueoflegends-053 are accepted corrections at T4-013. Both target the same clause of P05, "members watch it and repair changed pixels". monsterhunter-016 (T4-007) and portugal-029 (T4-019) meet them in substance.
+- **What the concepts show:** members repaired an intended feature, a valid fix, an agreed change or a settled addition back to the form they knew. "people thought the fixing of it was attempted vandalism. I fell into that trap myself" [OnePiece/c0232]; "If someone would stop patching up the white glare" [leagueoflegends/c1854]; "whoever fixes the potion keeps undoing my work" [monsterhunter/c0165].
+- **The alignment holds beyond the four.** Accepted P05 lines in 68 rooms carry the same mechanism, most as paired elaborations. Keepers who do not know a planned change take it for damage. Keepers check the intended form, or are told it, before they repair. Builders give a change up when keepers undo it (cubers-025, utahjazz-013, weezer-014). P02's lines showed the same mechanism from the design side in 14 rooms. (The history line says 67 rooms: its phrase search did not yet match portugal-029's wording.)
+- **The order test** (`_analysis/d3_order_keepers.py`, its rules logged before it ran) holds in 7 of 11 rooms. There keepers erase the change first and, once told, switch within the hour: ripcity in two minutes, mcgill in twenty. In three rooms (leagueoflegends, monsterhunter, cubers) the room told its keepers in the thread, and they kept erasing for hours, or the builders gave the change up. The eleventh, tf2, fails on the order of the reports, not of the acts. One member reported their own earlier erasure after two others had switched.
+- **The revision** (Grodal, Anteby and Holm's *relating*) relates the repair clause to P02. The statement now adds: *Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.*
+- **No loosening:** the range is unchanged, so no room enters or leaves P05. "Puts upkeep before growth" stands.
+- **The record:** a `history.jsonl` line, a diary move and the snap `D3-move-relating-173`. No finding touches P05. This closes the hypothesis carried from D3a-03, the keepers pattern into P02. It now sits in P05's statement, not in a new arrow.
+
+**The shared patterns (287 elaborations, all paired).** Rooms are counted from the wording of my rulings, and a room may carry more than one pattern.
+- **Keepers and the intended form (68 rooms):** the revision above.
+- **Scripts in upkeep (21 rooms, specifications included).** Scripts keep the work, and the room's own scripts can work against it (uiowa-054, wildhockey-014, AmericanFlaginPlace-014).
+- **Celebration or completion turning into upkeep (18 rooms).**
+- **Upkeep weighed against growth (17 rooms).** Members weigh repair against growth, press growth beside upkeep, keep the placed part while building the rest, or use growth as defence (theblackvoid-020, placestart-016, traaaaaaannnnnnnnnns-017).
+- **The shape and size chosen to hold the work (17 rooms).** The work is enlarged or moved to be easier to hold, its size argued both ways, its design simplified for upkeep, or kept legible so it is not taken for noise.
+- **The room's own members as the damage (16 rooms).** These lines show internal fighting, members' mistakes, outward attacks that cost home upkeep, and members' own choices pulling pixels from a call to concentrate.
+- **The visible work drawing its own keepers (13 rooms),** with newcomers recruited into upkeep.
+- **Upkeep coordinated in chats (12 rooms).**
+- **Further pairs:**
+  - keeping begins again on successor canvases (6 rooms);
+  - allies keep each other's work (6);
+  - keeping costs members' time and rest (5);
+  - sanctions and contact with placers (5);
+  - would-be keepers need the work located (3);
+  - dealings with neighbours (3);
+  - watching the attackers' channels (2);
+  - giving part up to keep the rest (2);
+  - upkeep as a sign to neighbours that the room still holds the work (math-016 with hoodr-009);
+  - taking down the posts that draw attackers (fivenightsatfreddys-022 with utahjazz-020).
+
+**Particulars (27).**
+- **Portability:** 23 fail it (rule 5), among them toolband-020, whose hit is "lost sleep".
+- **Supported in one room only (4):**
+  - a defence that steers an attack onto a third room's work (GuardiansOfDatBoi-015);
+  - keeping a work through copies of it (TreePlace-012);
+  - a member redirecting effort after the work changed form (futurama-058);
+  - a consumer outcome of upkeep (soylent-041).
+
+**Re-ruled in this leg.** Each re-ruling is an appended line, and the ledger keeps both lines.
+- aeon-009: accept to reject, on corridor-013's ground.
+- math-016 and hoodr-009: particular and specification to a paired elaboration, after a draw found hoodr-009.
+- fivenightsatfreddys-022: particular to a paired elaboration with utahjazz-020.
+
+**Repairs (G7).** Repaired rooms have 604 lines, 97.5% accepted. Unrepaired rooms have 488 lines, 96.1% accepted. Repairs made no difference.
+
+**The re-check.** P05 is rewritten, so the rooms whose adapted accounts rely on it join R01's in the re-check (§5). The scope is set when the re-check is built.
+
+**Carried to later groups.**
+- Upkeep weighed against growth, and growth used as defence, go to D4 beside "puts upkeep before growth".
+- Scripts working against the room's own keeping go to A06's group.
+- Allies keeping each other's work, and dealings with neighbours, go to the group for A04, A14 and A19.
+- Celebration turning into upkeep goes to the close group (A07 to A09).
+
+**Disclosed limits and slips.**
+- **Draws.** Seven seeded draws covered P05's instantiate lines (verb offsets 307 to 907, 70 lines) and found no unsupported line.
+- **The order test** codes one episode per room. I chose rooms where my rulings named an erasing concept, so the test checks the mechanism's order; it is not a sample.
+- **Pairs across ops.** Some link and add-step elaborations pair with add-condition lines (G4 pairs by substance, whatever the node).
+- **Slips.** The guard refused one `cut -c` after `cite.py`. One add-step line (toolband-020) was first drafted as accepted. The batch check refused it as non-portable, and it was ruled a particular before anything was written.
+
+### Close-check, D3a-04
+
+`validate.py D3` reports 3,892 of 42,243 ledger lines ruled (R01's 709, P01's 1,021, P02's 1,070 and P05's 1,092), with 0 errors and 0 warnings. Every accepted elaboration and correction in P05's group has a pair.

@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at D3a-03, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). D3a-01 revised R01 (move 172), so the model's hash has moved; it is frozen again at D3c.
+Under 3,000 words, rewritten whole at every close. Last written at D3a-04, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01) and 173 (P05) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -19,15 +19,16 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-001 (J):** packets are read whole through a helper; rulings may be batched from a file giving every id its own decision and reason.
 - **QD3-002 (J, 16 October; carry it):** "the analyst is doing induction." I place codes where the population's evidence leads, say why, and ask for the changes I need: "Not the rules bound their understanding."
 
-## The return (D1a to D3a-03)
+## The return (D1a to D3a-04)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines; of 14,675 absent lines, 67 are evidenced. The readers split in 163 rooms (23.1%). The labelers grade every room composes-with-residue and answer the candidates often (P06 in 564 rooms).
-- **D3a, by element.** R01, 709 lines: accept 668, reject 30; eleven rooms' corrections met twice on its joining clause, and move 172 split it off to P15, A02 and A01. P01, 1,021 lines: accept 962, no reject; P01 stands. P02, 1,070 lines: accept 1,020, particular 45, reject 5; two paired corrections at different nodes, so P02 stands. Repairs changed no group's rulings.
+- **D3a, by element.** R01 (709 lines; accept 668, reject 30): corrections met twice in eleven rooms; move 172 split off its joining clause. P01 (1,021 lines; accept 962) and P02 (1,070; accept 1,020, particular 45, reject 5) stand. P05 (1,092; accept 1,058, particular 27, reject 7): corrections met twice; move 173. Repairs changed no group's rulings.
 
 ## The current account, and the contrary rooms
 
 The account is `account.md`, pass 15, with the readers' disagreements in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`. A room, or a group of rooms, is the actor where its members spoke or acted for it.
 - **The spine.** A member starts a mark [R01]. The room's calls follow the start in 64 of 89 rooms [A02], building follows calls in 81 of 126 [A01], and keeping follows building in 148 of 190 [A03].
+- **Keeping holds the known form** [P05]. Repair restores the form the keepers know, so a change the room planned [P02] is repaired away until they are told.
 - **The bare answer.** Most calls get no written reply. In written replies, acceptances come bare (25 of 31 to calls to place, F-023) and refusals give a reason (3 of 3; attack calls 23 of 38, F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
 - **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call, so there the room aligned many hands; the others tried (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
@@ -48,18 +49,19 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The reasons for the last revisions
 
+- **Move 173 (D3a-04, relating):** corrections met twice at T4-013 (OnePiece-012, leagueoflegends-053), the same mechanism in 68 rooms' P05 lines, and an order test holding in 7 of 11 rooms.
 - **Move 172 (D3a-01):** R01 no longer claims that others join the starter.
 - **J, 15 October, 01:29 Berlin:** work after hour 73 is curation of the record (P12; P22 tentative), apart from carrying on (P13).
-- **C5:** passes 1 to 15 (P06 and R02 cut; K01 restored; F-019 to F-023 folded in at pass 15); C5d-p2 recorded the freeze (QC5-003).
+- **C5:** passes 1 to 15; C5d-p2 recorded the freeze (QC5-003).
 
 ## Where the run stands
 
-- **D1a and D2a outputs:** each stage's notes and handback; `handoff-D/`, `verdict-D/`, `sealed/`, `ingest-D.md`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
-- **D3a outputs:** `adjudications.jsonl` (2,800 ledger lines ruled), the stage's notes (rules G1 to G10), `model/history.jsonl` (move 172). Scripts and rulings files: `out/_analysis/d1*` to `d3*`.
+- **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `ingest-D.md`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
+- **D3a outputs:** `adjudications.jsonl` (3,892 ledger lines ruled), the stage's notes (rules G1 to G11), `model/history.jsonl` (moves 172 and 173). Scripts and rulings files: `out/_analysis/d1*` to `d3*`.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md` (13 expectations), `handback-C5.md`.
-- **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 135, `findings.jsonl` 37 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
+- **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 136, `findings.jsonl` 37 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
-- **The questions.** QD3-001, QD3-002, QD2-001, QD1-001, QC5-001 to QC5-003, QC4-001 and QC4-002 are answered; `out/_field-link-superseded-C4a` stays as it is.
+- **The questions.** None is open (`mem.py asks --open`); `out/_field-link-superseded-C4a` stays as it is.
 
 ## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
@@ -70,19 +72,19 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Stages C3 and C4, in short
 
-C3 bounded F-006 (Olson open), took A12's and A16's mechanisms from conversation analysis (F-014, F-015), and put the four universal problems to the structure (F-016) and the goal (F-017). At C4 the field analyst, sealed from my files, entered P21, A21 and P22 as tentative.
+C3 bounded F-006 (Olson open), grounded A12 and A16 in conversation analysis (F-014, F-015), and put the four universal problems to the structure and the goal (F-016, F-017). At C4 the sealed field analyst entered P21, A21 and P22 as tentative.
 
 ## Stage C2, in short
 
 - **J's ruling on QC2-002, verbatim:** "from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Work pass 5 from pass 4's state. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the rooms show membership naming the rival in the same turn as the attack, carry it as a claim in their words, marked as untested for order. This is the last closing pass. Close by saying what you are sure of, what you are not, and why."
-- **Pass 1 (C2a-01).** J at 23:24 Berlin: "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model." The arrows' order test and its null are in `model/arrows.jsonl`.
+- **Pass 1 (C2a-01).** J at 23:24 Berlin: "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model."
 
 ## Stage C1, in short (carry the rulings)
 
 - **QC1-001 (J).** C1 rechecks place each item by the amended gates over the whole scheme.
 - **QC1-002 (J).** Lean to one placement. A second theme needs three concepts or more of its own.
 - **QC1-003 (the handler, under J's delegation).** Five revision-rate errors no verb can apply stay in `out/_analysis/c1_unapplied.jsonl`; all 34 count in the rate.
-- **Reading rules (`scheme_v2.md`).** The visitor rule: a theme names an act in the record of the room whose threads hold the words. "The work" is the room's own unless a field names another's. A bare mention of the event holds no act. J's floor: three concepts or more. The named words of T3-010 | T3-149 (attack, war, fight, battle, invasion, raid, conquest). Help between rooms is read from either room's record. A member's own part is T3-003; credit to others is T3-043.
+- **Reading rules (`scheme_v2.md`).** The visitor rule: a theme names an act in the record of the room whose threads hold the words. "The work" is the room's own unless a field names another's. A bare mention of the event holds no act. J's floor: three concepts or more. Help between rooms is read from either room's record. A member's own part is T3-003; credit to others is T3-043.
 
 ## J's rulings on how a ruling is made (13 October; carry them)
 
@@ -91,7 +93,7 @@ C3 bounded F-006 (Olson open), took A12's and A16's mechanisms from conversation
 - **also_present (J, 09:09; QB4-002, 09:20; QB4-003, 11:29):** lists only themes a reader placed, a reader listed, or my B1 named; themes a reader listed count in the bag test.
 - **Lone B1 themes (J, 12:28):** "Whatever the agent feels more comfortable with." A theme only my B1 placed stands only with three concepts of its own.
 
-**Rule 0 inside the placements.** A concept counts toward a placed theme when that theme's `must_show` takes it and no field sends it to another placed theme. Order by concept count, ties by placements; at most three. **The bag test:** four themes with three concepts each make a bag.
+**Rule 0 inside the placements.** A concept counts toward a placed theme when that theme's `must_show` takes it and no field sends it elsewhere; order by concept count, ties by placements, at most three. **The bag test:** four themes with three concepts each.
 
 ## J's rulings that bind (carry them)
 
@@ -116,12 +118,12 @@ C3 bounded F-006 (Olson open), took A12's and A16's mechanisms from conversation
 
 ## The pilot's declarations, and stage B in one line
 
-Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact agreement beside, never in place. Gold: 40 items, never shown to a reader. Stage B: B2 stability 0.807 is the floor every later figure is read against; B4 ruled 3,288 contested items; `assign_final.jsonl` is stage B's settled line, unchanged.
+Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement beside it, never in place. B2 stability 0.807 is the floor for every later figure; B4 ruled 3,288 contested items; `assign_final.jsonl` is stage B's settled line, unchanged.
 
 ## Open, carried
 
-- **From D3a-02 and D3a-03,** arrows to weigh after order tests: calls recurring after a loss or a move, into P01 (16 rooms; with P10, A10); keeping that erases unannounced changes, into P02 (14; with P05); a finished work reopening calls and design (with A07 to A09); neighbours shaping design (32; with A04, A14, A19). Bare refusals (math-011, wow-050) against F-014, with P15 and A12.
-- **From D3a-01:** R01 is rewritten, so the rooms relying on it go to the re-check; two paired elaborations (a start shared by a few members; a start handed on) wait for the clustering.
+- **From D3a-02 to D3a-04,** to weigh after order tests: calls recurring after a loss or a move, into P01 (16 rooms; with P10, A10); a finished work reopening calls and design, and celebration turning into upkeep (with A07 to A09); neighbours shaping design (32) and allies keeping each other's work (with A04, A14, A19); scripts working against the room's own keeping (with A06); upkeep weighed against growth (17 rooms; for the next stage). Bare refusals (math-011, wow-050) against F-014, with P15 and A12.
+- **The re-check:** R01 and P05 are rewritten, so the rooms relying on them go to it. Two paired elaborations of R01 (a start shared by a few members; a start handed on) wait for the clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
 - **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, in both sources and not in the model.
 - **From C3:** whether the forms differ on the four universal problems or on the remainder; the colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]); Olson, open; the four declined reads.
@@ -144,27 +146,27 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
   - Never run two writes, Edits included, to the same file as parallel calls.
   - Count the head's words before the closing line.
 - **Ledger formats.**
-  - Tier events in `account_passes.jsonl` are ledger ids.
   - A superseding finding's `supersedes` is the bare id.
   - Every arrow needs `negative_check`.
   - Proposition ids are the letter N with two digits. The link check does not resolve them, so the head never names one.
   - An element cut at C5 becomes a candidate with a history line.
+  - A re-ruling is an appended `adjudications.jsonl` line; the earlier line stays.
 - **The store.**
-  - `mem.py codes --third/--fourth ... --json` (label field `first_order`); `mem.py rooms --with <id> --limit 2000`; `cite.py --room --code`.
+  - `mem.py codes --third/--fourth ... --json` (label field `first_order`); `mem.py rooms --with <id> --limit 2000`; `cite.py --room --code` (one code per call).
   - The theme a reply sits under does not track its stance.
 - **The permission check refuses:**
   - deleting a file, even a link;
   - shell variables, loops, functions, brace groups, heredocs and words beginning "for_";
   - `find -exec` with braces; awk with system() or `$` fields; env-var prefixes;
-  - cat or jq on `out/diary/`; `cut -c` after a read; `head -n -N`.
+  - cat or jq on `out/diary/`; `cut -c` after a read or `cite.py`; `head -n -N`.
 
   Write a script in `out/_analysis/` instead.
 - **Output limits.** A Bash output above about 30 KB is cut; measure first. A Read above about 25,000 tokens is refused.
-- **After a compaction,** before any other step: read the head, then the stage file, each in full and in that order; run `diary --last 5`; and log exactly "compacted; head reconciled" with `--kind note` in a call of its own.
+- **After a compaction,** do the hook's four steps before any other, logging exactly "compacted; head reconciled".
 - **Files and stages.**
   - Never delete a file; supersede it with a new name. Read the field only from `out/field`.
   - Do not begin the next leg, and do not summarise it (AGENT.md).
 
 ## The next comparison
 
-The next comparison is the next element group's lines against its element, by the stage notes' rules G1 to G10; the split rooms and the 19 story-miss rooms (14 with-residue, 4 composes, 1 split) wait for the verdicts leg.
+The next comparison is the next element group's lines against its element, by the stage notes' rules G1 to G11; the split rooms and the 19 story-miss rooms (14 with-residue, 4 composes, 1 split) wait for the verdicts leg.
