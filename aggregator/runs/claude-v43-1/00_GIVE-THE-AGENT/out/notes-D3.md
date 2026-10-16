@@ -56,6 +56,17 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - asking placers to keep to the layout.
 
   A script shows P04 only where the concept names the layout or coordinates it places from; otherwise it is A06's machine hands. A design proposed or argued with no layout shows P02, not P04. A call with no place or layout, a report that the mark is done, or a repair with no layout named does not show P04. As applied: locating the work by landmark or direction rather than coordinates is a paired elaboration, and so is a layout passed between rooms or used on a successor canvas.
+- **G13 (logged at D3a-06, before P12's and P22's lines were ruled).** P12 is shown when a concept shows members recording what happened to their work or to the canvas around it. That covers:
+  - saving or asking for screenshots, timelapses or images of the work;
+  - reporting its fate (gone, survived, stood at the end, where it ended);
+  - mourning a loss, imagining what the work would have been, atlas entries, and marking the end.
+
+  A progress report during building, a call, or a celebration that only cheers does not show P12. P22 is shown only by a concept after placement ended (hour 73) in which members contest which version of the canvas or of the event is kept. That covers asking a cleanup of a shared copy to fix their work, taking part in it, arguing that damage should stay as history, and correcting accounts that describe their group wrongly. Recording alone after the close is P12. Editing a copy is P22 only where the version kept is at stake. Under G2, an absent line is rejected when its concepts show the element. As applied: a report that the work is gone is P12, while a report that it is being changed now is P05's watching (G11).
+- **G13a (amendment, 16 October, D3a-06).** It was written after P22's lines other than absent were ruled and its absent lines were read, and before those were ruled. It makes two of G13's clauses exact.
+  - **Correcting an account.** P22 is shown where, after hour 73, a member corrects or disputes another member's or a visitor's account of the room's work, its conduct or the event. That includes the account a question presupposes ('why did the room do nothing?'). A question that asserts nothing, once answered, is not a correction, and neither is a member's own report.
+  - **The version kept, and damage as history.** P22 is shown where members set one version against another as the one that stands, where they propose keeping the damaged version in the room's records or keepsakes (sidebar, logo, stickers, poster), or where they argue that the damage is the work's history. A fond or joking reading of a flaw that keeps nothing marks the end (P12).
+
+  It applies backwards to every P22 line ruled in the leg. One line changed: starcraft-051, from specification to evidence limit, re-ruled as an appended line.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -469,3 +480,140 @@ The range runs from one coordinate in a call (AprilKnights-009, '(543,228)') to 
 ### Close-check, D3a-05
 
 `validate.py D3` reports 4,926 of 42,243 ledger lines ruled (R01's 709, P01's 1,021, P02's 1,070, P05's 1,092 and P04's 1,034), with 0 errors and 0 warnings. All 295 pairs in P04's rulings files name a P04 line (`_analysis/d3_pair_check.py`).
+
+## D3a-06: T4-027, the record after the close (P12 and P22)
+
+The group holds two elements. P12 is the room's record of what happened to its work and to the canvas. P22 is the field's tentative entry from C4, in which members contest which version of the canvas and of the event is kept. All 1,759 lines are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `_analysis/d3_pattern_counts.py` and `_analysis/d3_field_entry_counts.py`.
+
+**P22** (782 lines, 705 rooms):
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| absent (455 `unobserved`, 65 `not-testable`, 1 `observed-absent`) | 521 | 1 | 0 | 0 | 495 | 6 | 19 |
+| instantiate | 158 | 140 | 0 | 0 | 0 | 4 | 14 |
+| restrict | 76 | 51 | 0 | 0 | 25 | 0 | 0 |
+| add-condition | 12 | 3 | 8 | 0 | 1 | 0 | 0 |
+| add-step | 12 | 6 | 5 | 0 | 1 | 0 | 0 |
+| link | 3 | 1 | 2 | 0 | 0 | 0 | 0 |
+| all | 782 | 202 | 15 | 0 | 522 | 10 | 33 |
+
+**P12** (977 lines, 705 rooms):
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 766 | 689 | 0 | 0 | 0 | 59 | 18 |
+| add-step | 104 | 36 | 64 | 0 | 2 | 2 | 0 |
+| absent (44 `unobserved`, 7 `not-testable`) | 51 | 0 | 0 | 0 | 50 | 0 | 1 |
+| link | 24 | 9 | 15 | 0 | 0 | 0 | 0 |
+| restrict | 18 | 9 | 0 | 0 | 8 | 1 | 0 |
+| add-condition | 14 | 10 | 2 | 0 | 2 | 0 | 0 |
+| all | 977 | 753 | 81 | 0 | 62 | 62 | 19 |
+
+**Time.** I printed every concept's hour for P22's restrict, add-condition, add-step, link and instantiate lines (`_analysis/d3_line_hours.py`). Each line's concepts fall after hour 73, with one exception: india-061, a restrict line whose concept is at hour 61.3, was ruled an evidence limit. The labelers read P22 as the statement dates it.
+
+**What P22's accepted lines show.** By a phrase search over my reasons, the 177 rooms where P22 is shown are these:
+- **113 rooms correct or dispute an account of the room's work or conduct.** Examples are 'It did participate' (minecraft-055), who attacked whom (fivenightsatfreddys-058), and whether the work was made by hand or by script (porterrobinson-062).
+- **33 rooms contest which image or copy stands.** Examples are TheB1G-023, yogscast-049 and philippines-036.
+- **31 rooms ask for or take part in a shared cleanup.** Examples are 2007scape-052, partyparrot-041, formula1-035 and straya-032.
+- **15 rooms argue that the damage is the work's history.** Examples are SquareSpiral-041, thesilphroad-030 and donaldglover-035.
+
+The last three clauses together cover 71 rooms.
+
+**What P22's rejects show.**
+- **14 instantiate lines.** Their concepts show one of the following:
+  - a member's cleaned copy with no version contested, which G13 places in P12 (radiohead-049, uofm-047, placestart-045);
+  - another room's account (bangtan-040, malaysia-026);
+  - a posting dispute (re_zero-034);
+  - reports of fate (overwatch-079).
+- **19 absent lines.** Their concepts show P22 itself, for example:
+  - 'Remember it for what it was, not for what it became!' (predators-052);
+  - 'Change the HI logo to match' the locked red dot (cgpgrey-046);
+  - 'I think the timelapses encapsulate r/place much better' (babymetal-060).
+- **One observed absence holds.** In ElSalvador-028 the members share a disputed flag with a neighbour rather than contest it.
+
+**What P12's accepted lines show.**
+- The 689 instantiate specifications cite what G13 lists:
+  - screenshots and timelapses;
+  - reports of fate;
+  - mourning;
+  - imagined art;
+  - atlas and wiki entries;
+  - the end marked.
+- The range runs from one request ('Anybody have a screenshot?', Okami-023) to rooms that archive, write histories and rebuild timelapses from raw dumps (portugal-061, brasil-053).
+- **The 18 rejected instantiate lines** show other acts. Six are progress posts or images during building (Jamaica-053, udub-032, vim-033, vim-034, neutralmilkhotel-020, thailand-036). The rest are:
+  - live warnings that the work is being changed, which G11 assigns to P05 (PurplePixels-032, RelientK-052, TheGreatGreenBox-034);
+  - calls or a member's own upkeep (glasgow-017, anarchocapitalism-016, germany-020, hoodr-018);
+  - a layout (GabrielDropout-045);
+  - a bare question (ducks-041);
+  - an approval or admiration (redvsblue-044, qotsa-035, linux-056).
+- **The one rejected absent line** (mamamoo-021) asks what happened to r/place, which is P12's lower range, as cgpgrey-050 shows.
+
+**No correction, so no §2 re-examination.** Neither element has an accepted correction. P22's 76 restrict lines name conditions the statement already holds, or they record evidence limits. P12 stands as served.
+
+**The shared patterns.** P12's 81 elaborations and P22's 15 are all paired. Rooms are counted from the wording of my rulings.
+- **P12, recording entered from a loss with no celebration before it (14 rooms):** for example ghibli-028, pebble-035, starcitizen-071 and planetside-052. This bears on A08, which runs from celebration to recording.
+- **P12, the outcome's account qualified or contested (11 rooms):** cardinals-048, gameboy-020 and scp-063, among others. This is the ground P22 holds.
+- **P12, a fixed flaw turned into a joke or given a meaning (11 rooms):** a scar, a charm, an exhaust port (rwby-053, turkey-042, empiredidnothingwrong-057).
+- **P12, members explain the event to those who missed it (9 rooms),** and the record is read and decoded (8 rooms).
+- **P12, archive and data work, catalogues and other media (8 rooms).** Examples are a pixel feed logged to a file, prints, a game-world reconstruction and a survey.
+- **P12, further pairs:**
+  - relief and regret at the end (4 rooms);
+  - cleaned or finished versions after the close (4 rooms);
+  - saving the record against an expected loss (3 rooms);
+  - failed attempts closed with thanks (2 rooms);
+  - the host's moderation keeping records in view (unturned and nintendo);
+  - records used as proof in a dispute (DCFU and worldpowers).
+- **P22's elaborations:**
+  - account correction apart from any cleanup (anime-062, magictcg-045, morrowind-048);
+  - the meaning of the event contested (europe-037, texas-028, TransFlagPlace-032);
+  - whether the work was kept by hand or by script (mylittlepony-054, pathofexile-057, rocketleague-041);
+  - a preferred version kept beside the accurate one (stlouisblues-058, buffalobills-054);
+  - the account tested against the record (uwaterloo-053, fivenightsatfreddys-059);
+  - a loss the room could not repair before the close, sent to the cleaned copy (AyyMD-061, bih-058);
+  - plans supplied to a cleaner (AyyMD-056).
+
+**Particulars.**
+- **P12, 62.** All of them fail portability.
+- **P22, 10,** which also all fail portability:
+  - DevonUK-049, Honduras-031, animalcrossing-039, bindingofisaac-032, neopets-035, simonfraser-037 (absent);
+  - frankocean-054, india-028, ockytop-024, spain-023 (instantiate).
+
+**Re-ruled in this leg.** Each re-ruling is an appended line.
+- **starcraft-051 (P22).** It moved from specification to evidence limit under G13a, which applies backwards: a fond reading of a stray pixel as the figure 'winking' keeps nothing.
+- **DCFU-056 (P12).** It moved from particular to an elaboration paired with worldpowers-050, once a second room used the record as proof.
+
+**Move 174 (developing working hypotheses), P22.**
+- P22 was ruled standing, and its range was rewritten. Two history lines record this (status; range).
+- The statement stands as the field wrote it. The range named only the cleanup and the scars. It now also names, at its lower end, one member correcting a claim about the room's work. That form is the commonest, and the statement already holds it, so no room enters that the statement did not admit.
+- The move was first logged as 'stabilizing', which is not one of the eight. History line 139 corrects the name, and my revise tool no longer admits it. The snap `D3-move-stabilizing-174` keeps its first name, and `D3-move-developing-174-renamed` follows it.
+
+**Repairs (G7).** Repairs made no difference.
+- P22: repaired rooms 0.943 accepted (420 lines), unrepaired 0.948 (362 lines).
+- P12: repaired rooms 0.916 (537 lines), unrepaired 0.918 (440 lines).
+
+**Carried to later groups.**
+- **An arrow from a loss to recording, beside A08 (14 rooms).** It should be weighed with an order test against A10 and P10.
+- **P12's records feeding P22's contests.** Records are used as proof or to test an account in DCFU, worldpowers, uwaterloo and fivenightsatfreddys.
+- **P22's two forms for the clustering at D4:** accounts of the room's work and conduct (113 rooms), and the version of the canvas kept (71 rooms).
+- **The host's moderation of records** goes with T4-002.
+- **The re-check.** P22's status and range changed, so the rooms whose verdicts or local accounts rest on P22 go to the re-check (§5), with R01's and P05's.
+
+**Disclosed limits and slips.**
+- **Draws.** There were 10 seeded draws: two for P22 (verb offsets 546 and 646) and eight for P12 (170 to 870). None found an unsupported line.
+- **The absent lines' reasons.** These were written by `_analysis/d3_absent_rulings.py` after every line was read whole. That script refuses any line needing a judgment (an evidenced absence, a non-portable line) that the map does not name. Each evidence-limit reason quotes the line's own concepts. A guard listed 80 lines whose labels share words with P22, and each was read again. One was moved to reject on its quote (foxes-034).
+- **Counts by phrase** are over my own reasons, not over the members' words. A room may carry more than one pattern.
+- **Images.** Many P12 lines rest on images not in the record. A picture of the finished work counts as a screenshot. A bare title during building counts as an evidence limit.
+- **Slips.** My revise tool admitted a ninth move name (corrected above). The absent generator's first reason text named only G13, and I regenerated it to name G13a before writing.
+
+## The field's entries
+
+`out/sealed/FIELD.jsonl` names three tentative entries from C4. One line per id:
+- **P22.** Instantiated in 153 rooms as returned (136 after ruling). Restricted in 75 rooms, none by an accepted correction (51 rooms' lines accepted as specification, 25 lines as evidence limits). Contradicted in none. Left absent in 521 rooms (495 evidence limits, 1 observed absence, 19 rejected because their concepts show it). Shown in 177 rooms in all. **Ruling: standing (rule 11), range rewritten; move 174, history lines 137 to 139.**
+- **P21.** It belongs to a later group, and it stays tentative until that group rules it.
+- **A21.** It belongs to a later group, and it stays tentative until that group rules it.
+
+No entry stays tentative past the freeze.
+
+### Close-check, D3a-06
+
+`validate.py D3` reports 6,685 of 42,243 ledger lines ruled: R01's 709, P01's 1,021, P02's 1,070, P05's 1,092, P04's 1,034, P12's 977 and P22's 782. It reports 0 errors and 2 warnings. Both warnings are history lines 137 and 138, which name move 174 'stabilizing'. They stay as written, and line 139 records the correct name. All 81 pairs in P12's files and all 15 in P22's name a line of the same element (`_analysis/d3_pair_check.py`). The ledger holds 6,702 lines, 17 of them appended re-rulings across the legs. History holds 139 lines, elements 30 and arrows 21.

@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at D3a-05, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01) and 173 (P05) have moved the model's hash; it is frozen again at D3c.
+Under 3,000 words, rewritten whole at every close. Last written at D3a-06, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -18,28 +18,32 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **J, 16 October, 12:59 Berlin:** absent lines are counted by observation; only observed-absent and not-needed are evidenced, the rest are limits counted apart. Compare repaired and unrepaired rooms where repairs bear on a ruling.
 - **QD3-001 (J):** packets are read whole through a helper; rulings may be batched from a file giving every id its own decision and reason.
 - **QD3-002 (J, 16 October; carry it):** "the analyst is doing induction." I place codes where the population's evidence leads, say why, and ask for the changes I need: "Not the rules bound their understanding."
+- **J, 16 October, 19:08 Berlin, on drift (carry it):**
+  - Re-orient at every leg start and after every compaction.
+  - Make a blind re-rule check at D3a-10 and before the D3c freeze: about 50 lines from closed groups, with the pairs left for the handler's kappa.
+  - A ruling rule changes only by a dated amendment that says whether it applies backwards.
 
-## The return (D1a to D3a-05)
+## The return (D1a to D3a-06)
 
-- **D1a and D2a.** 705 rooms returned 42,243 lines; of 14,675 absent lines, 67 are evidenced. The readers split in 163 rooms (23.1%). The labelers grade every room composes-with-residue and answer the candidates often (P06 in 564 rooms).
-- **D3a, by element.** R01 (709 lines) and P05 (1,092) met corrections twice and were revised (moves 172 and 173). P01 (1,021 lines), P02 (1,070) and P04 (1,034; accept 1,015, particular 12, reject 7) stand. Repairs changed no group's rulings.
+- **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms. The labelers answer the candidates often (P06 in 564 rooms).
+- **D3a, by element.** R01 (709 lines) and P05 (1,092) met corrections twice and were revised (moves 172 and 173). P01 (1,021), P02 (1,070), P04 (1,034) and P12 (977) stand. P22, the field's entry (782 lines), was ruled standing and its range rewritten (move 174). Repairs changed no group's rulings.
 
 ## The current account, and the contrary rooms
 
 The account is `account.md`, pass 15, with the readers' disagreements in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`. A room, or a group of rooms, is the actor where its members spoke or acted for it.
 - **The spine.** A member starts a mark [R01]. The room's calls follow the start in 64 of 89 rooms [A02], building follows calls in 81 of 126 [A01], and keeping follows building in 148 of 190 [A03].
 - **Keeping holds the known form** [P05]. Repair restores the form the keepers know, so a change the room planned [P02] is repaired away until they are told.
-- **The bare answer.** Most calls get no written reply. In written replies, acceptances come bare (25 of 31 to calls to place, F-023) and refusals give a reason (3 of 3; attack calls 23 of 38, F-014). The head-count claim failed (F-015).
+- **The bare answer.** Most calls get no written reply. Written acceptances come bare (25 of 31, F-023), and refusals give a reason (attack calls 23 of 38, F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
-- **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call, so there the room aligned many hands; the others tried (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 of 705 rooms [C01, F-006].
-- **Direct information sharing (T4-007).** Members post the mark's state (10 of 14 bearing records; F-018). Posting the state and sharing templates are carried largely apart (89 rooms both, 80 by chance; F-022).
-- **Other rooms.** Keeping brings talk with neighbours in 235 of 401 rooms [A04]; border talk that came first mostly offered terms. Help names a deal in 63 of 127 rooms where border talk came first, against 23 of 67 [A14; F-020]. Sparing rests mostly on the room's own norm, so A05's mechanism is theorised (F-020). Rooms join coalitions [A19] and cannot make every placer keep an agreement.
+- **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 rooms [C01, F-006].
+- **Direct information sharing (T4-007).** Members post the mark's state (F-018), largely apart from sharing templates (F-022).
+- **Other rooms.** Keeping brings neighbour talk in 235 of 401 rooms [A04], mostly offering terms first. Help names a deal in 63 of 127 such rooms, against 23 of 67 [A14; F-020]. Sparing rests on the room's own norm (A05 theorised). Coalitions [A19] cannot bind every placer.
 - **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17].
-- **Loss** (thin). A room that judges it has too few hands moves [A10]; read whole, the judgment came first in 10 of 20 rooms that moved. After doubt and a loss, 10 rooms moved and 11 gave the work up (F-019). No loop is grounded.
-- **The close.** The room celebrates, records and carries the work on [A07, A08, A09]. Placement stops at hour 73; after it, rooms curate the record (P12; P22 tentative), apart from carrying on (P13).
+- **Loss** (thin). A room that judges its hands too few moves [A10]; the judgment came first in 10 of 20 that moved. After doubt and a loss, 10 moved and 11 gave up (F-019). No loop is grounded.
+- **The close.** The room celebrates, records and carries the work on [A07, A08, A09]. Placement stops at hour 73. After it, rooms record the work [P12] and contest which version of the canvas and of the event is kept [P22]. Accounts of the room are corrected in 113 rooms, and the image, cleanup or scars are disputed in 71. Carrying on stays apart [P13].
 - **Machine hands.** Scripts follow upkeep under strain [A06].
 - **C02** (untested for order): a tie the room had before the canvas names the rival in the attack turn.
-- **Candidates:** P06, R02, K03, K04 and P19. 23 elements stand.
+- **Candidates:** P06, R02, K03, K04 and P19. 24 elements stand.
 
 **The room that best supports the account: day9.** It offers a neighbour terms before any damage, loses its border at hour 48, moves within two hours, and finishes the new work at hour 53.
 
@@ -49,19 +53,28 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The reasons for the last revisions
 
-- **Move 173 (D3a-04, relating):** corrections met twice at T4-013 (OnePiece-012, leagueoflegends-053), the same mechanism in 68 rooms' P05 lines, and an order test holding in 7 of 11 rooms.
-- **Move 172 (D3a-01):** R01 no longer claims that others join the starter.
-- **J, 15 October, 01:29 Berlin:** work after hour 73 is curation of the record (P12; P22 tentative), apart from carrying on (P13).
-- **C5:** passes 1 to 15; C5d-p2 recorded the freeze (QC5-003).
+- **Move 174 (D3a-06, developing working hypotheses).** P22 is shown in 177 of 705 rooms, all after hour 73. It stands, and its range names its commonest form: one member correcting a claim about the room's work. It was first logged as "stabilizing"; history line 139 corrects the name.
+- **Move 173 (D3a-04, relating).** Corrections met twice at T4-013, and an order test held in 7 of 11 rooms.
+- **Move 172 (D3a-01).** R01 no longer claims that others join the starter.
+- **J, 15 October, 01:29 Berlin:** work after hour 73 curates the record (P12, P22), apart from carrying on (P13).
 
 ## Where the run stands
 
-- **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `ingest-D.md`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
-- **D3a outputs:** `adjudications.jsonl` (4,926 ledger lines ruled), the stage's notes (rules G1 to G12), `model/history.jsonl` (moves 172 and 173). Scripts and rulings files: `out/_analysis/d1*` to `d3*`.
+- **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
+- **D3a outputs:**
+  - `adjudications.jsonl`: 6,685 lines ruled, 6,702 with re-rulings;
+  - the stage's notes: G1 to G13, G13a and the field's entries;
+  - `model/history.jsonl`: moves 172 to 174;
+  - scripts in `out/_analysis/`.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md` (13 expectations), `handback-C5.md`.
-- **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 136, `findings.jsonl` 37 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
-- **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
-- **The questions.** None is open (`mem.py asks --open`); `out/_field-link-superseded-C4a` stays as it is.
+- **Ledgers:**
+  - tier history 561 lines;
+  - model history 139;
+  - findings 37 lines (23 findings);
+  - elements 30 (24 standing, 5 candidates, P21 tentative);
+  - arrows 21 (A21 tentative).
+- **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
+- **Questions:** none open.
 
 ## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
@@ -69,10 +82,6 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 - Ask Orwell's six questions.
 - Follow ASD-STE100 about 80% of the time: one idea per sentence, active voice, common words, the actor and the act named.
 - Describe what members did, in what order, in how many rooms, and write no figures of speech. Gloss each construct name in plain words where it first appears.
-
-## Stages C3 and C4, in short
-
-C3 bounded F-006 (Olson open), grounded A12 and A16 in conversation analysis (F-014, F-015), and put the four universal problems to the structure and the goal (F-016, F-017). At C4 the sealed field analyst entered P21, A21 and P22 as tentative.
 
 ## Stage C2, in short
 
@@ -83,8 +92,14 @@ C3 bounded F-006 (Olson open), grounded A12 and A16 in conversation analysis (F-
 
 - **QC1-001 (J).** C1 rechecks place each item by the amended gates over the whole scheme.
 - **QC1-002 (J).** Lean to one placement. A second theme needs three concepts or more of its own.
-- **QC1-003 (the handler, under J's delegation).** Five revision-rate errors no verb can apply stay in `out/_analysis/c1_unapplied.jsonl`; all 34 count in the rate.
-- **Reading rules (`scheme_v2.md`).** The visitor rule: a theme names an act in the record of the room whose threads hold the words. "The work" is the room's own unless a field names another's. A bare mention of the event holds no act. J's floor: three concepts or more. Help between rooms is read from either room's record. A member's own part is T3-003; credit to others is T3-043.
+- **QC1-003 (the handler, under J's delegation).** Five revision-rate errors stay in `out/_analysis/c1_unapplied.jsonl`; all 34 count.
+- **Reading rules (`scheme_v2.md`).**
+  - A theme names an act in the record of the room whose threads hold the words (the visitor rule).
+  - "The work" is the room's own unless a field names another's.
+  - A bare mention of the event holds no act.
+  - J's floor is three concepts.
+  - Help between rooms is read from either room's record.
+  - A member's own part is T3-003; credit to others is T3-043.
 
 ## J's rulings on how a ruling is made (13 October; carry them)
 
@@ -118,28 +133,44 @@ C3 bounded F-006 (Olson open), grounded A12 and A16 in conversation analysis (F-
 
 ## The pilot's declarations, and stage B in one line
 
-Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement beside it, never in place. B2 stability 0.807 is the floor for every later figure; B4 ruled 3,288 contested items; `assign_final.jsonl` is stage B's settled line, unchanged.
+Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement beside it. B2 stability 0.807 is the floor for later figures; B4 ruled 3,288 contested items; `assign_final.jsonl` is stage B's settled line.
 
 ## Open, carried
 
-- **From D3a-02 to D3a-05,** to weigh after order tests: the layout as how keepers are told (P04 into P05; 56 rooms); calls recurring after a loss or a move, into P01 (16 rooms; with P10, A10); a finished work reopening calls and design, and celebration turning into upkeep (with A07 to A09); neighbours shaping design (32) and allies keeping each other's work (with A04, A14, A19); scripts working against the room's own keeping (with A06); upkeep weighed against growth (17 rooms; for the next stage). Bare refusals (math-011, wow-050) against F-014, with P15 and A12. Chats, where plans are kept and relayed, hold no element (T4-010).
-- **The re-check:** R01 and P05 are rewritten, so the rooms relying on them go to it. Two paired elaborations of R01 (a start shared by a few members; a start handed on) wait for the clustering.
+- **From D3a-02 to D3a-06**, to weigh after order tests:
+  - the layout telling keepers (P04 into P05);
+  - calls recurring after a loss (P01, P10, A10);
+  - recording entered from a loss, beside A08;
+  - a finished work reopening calls;
+  - neighbours and allies (A04, A14, A19);
+  - scripts working against keeping (A06);
+  - upkeep against growth;
+  - P12's records as proof in P22's contests;
+  - P22's two forms, for the clustering;
+  - the host's moderation of records (T4-002);
+  - bare refusals (math-011, wow-050) against F-014;
+  - chats (T4-010).
+- **The re-check:** R01, P05 and P22 are rewritten; the rooms relying on them go to it. Two R01 elaborations wait for the clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
-- **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, in both sources and not in the model.
-- **From C3:** whether the forms differ on the four universal problems or on the remainder; the colour-faction doubt ("a fellow comrade during the button" [PurplePixels/c0165]); Olson, open; the four declined reads.
-- **From C2:** what a mark brings back into its room; the two boundaries for the return; the claim untested for order.
-- **From C1 and B1:** `c1_unapplied.jsonl` (5); the form-pass findings, never counted; the B1 bag counts, not reconciled.
+- **From C4:** P21 and A21 for their groups; a request for space answered with terms, not in the model.
+- **From C3:** the forms on the four universal problems or the remainder; the colour-faction doubt [PurplePixels/c0165]; Olson; the four declined reads.
+- **From C2:** what a mark brings back; the return's two boundaries; the claim untested for order.
+- **From C1 and B1:** `c1_unapplied.jsonl` (5); the form-pass findings; the B1 bag counts.
 
 ## Rules kept
 
+- **Re-orienting (J, 19:08 Berlin).** At every leg start and after every compaction:
+  1. read the model as it stood before this stage (`handback-C5.md`, and `mem.py diary --grep <id>` before D3a-01);
+  2. read the current elements, arrows and history;
+  3. continue.
 - **Checking.**
   - Never type an id, an order or a name from memory; check with a script.
   - Never log a write before the tool answers. Count a ledger's lines after appending.
-  - Check a claim about a ledger, a paper or the setting against its source before writing it. Read a check's format before writing a ledger it reads.
+  - Check a claim against its source before writing it, and read a check's format before writing a ledger it reads.
 - **Logging.**
   - There is no `--kind close`; log closes as notes.
   - Log an abductive read with `--kind abductive` before it runs, with its rules written first.
-  - Log every move with `--kind move`, naming its Grodal, Anteby and Holm move, and snap it.
+  - Log every move with `--kind move`, naming one of Grodal, Anteby and Holm's eight ("stabilizing" is not one), and snap it.
 - **Writing and checks.**
   - Never put a placeholder or a no-op in a command.
   - Never put an Edit or Write and its check in one turn.
@@ -150,7 +181,7 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement
   - Every arrow needs `negative_check`.
   - Proposition ids are the letter N with two digits. The link check does not resolve them, so the head never names one.
   - An element cut at C5 becomes a candidate with a history line.
-  - A re-ruling is an appended `adjudications.jsonl` line; the earlier line stays.
+  - A re-ruling, or a history correction, is an appended line; the earlier line stays.
 - **The store.**
   - `mem.py codes --third/--fourth ... --json` (label field `first_order`); `mem.py rooms --with <id> --limit 2000`; `cite.py --room --code` (one code per call).
   - The theme a reply sits under does not track its stance.
@@ -158,15 +189,15 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement
   - deleting a file, even a link;
   - shell variables, loops, functions, brace groups, heredocs and words beginning "for_";
   - `find -exec` with braces; awk with system() or `$` fields; env-var prefixes;
-  - cat or jq on `out/diary/`; `cut -c` after a read or `cite.py`; `head -n -N`.
+  - cat or jq on `out/diary/`; `cut -c` after a read, `cite.py` or a helper; `head -n -N`.
 
   Write a script in `out/_analysis/` instead.
 - **Output limits.** A Bash output above about 30 KB is cut; measure first. A Read above about 25,000 tokens is refused.
-- **After a compaction,** do the hook's four steps before any other, logging exactly "compacted; head reconciled".
+- **After a compaction,** do the hook's four steps first, logging exactly "compacted; head reconciled", then re-orient.
 - **Files and stages.**
   - Never delete a file; supersede it with a new name. Read the field only from `out/field`.
   - Do not begin the next leg, and do not summarise it (AGENT.md).
 
 ## The next comparison
 
-The next comparison is the next element group's lines against its element, by the stage notes' rules G1 to G12; the split rooms and the 19 story-miss rooms (14 with-residue, 4 composes, 1 split) wait for the verdicts leg.
+The next element group's lines, by rules G1 to G13 with G13a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.

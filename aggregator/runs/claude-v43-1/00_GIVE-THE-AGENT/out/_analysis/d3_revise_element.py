@@ -18,7 +18,7 @@ import sys
 ELEMENTS = "out/model/elements.jsonl"
 HISTORY = "out/model/history.jsonl"
 MOVES = {"asking questions", "focusing on puzzles", "dropping", "merging", "splitting",
-         "relating", "developing working hypotheses", "dropping working hypotheses", "stabilizing"}
+         "relating", "developing working hypotheses", "dropping working hypotheses"}
 
 
 def main():
