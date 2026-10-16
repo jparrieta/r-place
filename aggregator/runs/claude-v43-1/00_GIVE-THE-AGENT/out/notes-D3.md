@@ -95,6 +95,24 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **'Done' and the cheer** (stated at instantiate line 152). A celebration whose words state the work made, finished, done, complete or accomplished carries P03's 'done', and the celebration itself is P11. A bare 'we did it!' or a cheer does not. One line changed: bahrain-006 ('so happy that we made it!'), from reject to specification, by an appended line.
   - **Successor canvases** (stated at instantiate line 500, after G11's precedent). An instantiate line whose reports come from a successor canvas after hour 73 is a paired elaboration, not a specification (sadboys-012). A search of the earlier accepted reasons found no such line.
   - **G1b's draws.** One draw of ten lines per 100-line instantiate packet. A drawn line is unsupported when its quotes change the ruling that its how and labels would get.
+- **G16 (logged at D3a-09, before P11's lines were ruled).** P11 is shown when a concept shows members marking a work of the room's as up or achieved, at any hour. That covers:
+  - announcing that the room's work is on the canvas ('we made it onto r/place', a post or link showing the mark as the room's), which shows P03's lower range at once (G15);
+  - celebrating it ('we did it', pride, congratulations, a final image posted as done, the work said to have lasted to the end);
+  - crediting makers and helpers (thanks, makers named, disputes over who made it, prizes or points given for the canvas work);
+  - a member claiming their own part ('I helped', 'I did my part', the pixels or hours given);
+  - saying what working together meant, or what the work meant to the group (being seen, not being alone);
+  - an invitation to celebrate the work offline.
+
+  The room's own word is enough. P11 does not require that the work be verified, finished, agreed or still standing. It is not shown by a progress or state report with no marking (P03), or by a member's placing told as a step in a build still under way. Nor is it shown by a call or a prize offered to recruit (P01), by saving images or reporting the work's fate (P12), by contesting the version kept (P22), by carrying the work on (P13), or by praise of another room's work or of the canvas at large. A bare mention of the event, a joke reception, or a prize for something other than the canvas work does not show it either. Under G9, a restrict line corrects P11 only if its condition is one P11 does not state and the room's concepts show P11 failing without it. Three forms are paired elaborations, not corrections, because P11 does not say a room marks only what is up: marking where no work is up (the form A07's bound names), a find made by others that the room marks as its own, and marking disputed inside the room. P11 is not stated as universal (logged at the group's opening), so its absent lines are never corrections. G2 and G3 rule them. A concept may show P03 and P11 at once. Readings stated while ruling, logged and checked backwards, none an amendment:
+  - **Credit disputes** (who made the work: members, another room, or scripts) are P11's crediting, so specifications (wine-022, flyers-055, utaustin-047).
+  - **A damaged final work claimed with pride** is P11 as stated. The fond reading of the flaw is P12 and keeping the damaged version is P22 (G13a). The same flaw made the room's cheer, in a link, is an elaboration (chicubs-051).
+  - **A celebration followed by renewed upkeep** is P11 as stated. The upkeep is P05's.
+  - **'Done' against announcement** (stated at instantiate line 300). A report that the work is done shows P11 when it marks the work to the room: a post, a collective 'we', an exclamation of pleasure, or 'on r/place'. A bare reply stating the state shows P03 only (anime_irl-042 and VelvetUnderground-043, rejected). Checked backwards: no change.
+  - **A work announced with no maker named** is the room's own, by C1's reading rule (Madeon-012, bdsm-011). The clause on finds made by others therefore applies only where a field names the other room, and then the line is P11's crediting. No line was ruled under it.
+  - **Successor canvases.** Marking a work made on a canvas opened after hour 73 is a paired elaboration, after G11's and G15's precedent (catholicism-056, hungary-030).
+  - **Thanks to a helper.** Thanks to the helper of a work that stands is P11's lower range even mid-build (catalonia-028). Credit named in a plan or call before the work is up is an elaboration (planetside-036, vocaloid-056).
+  - **Dissent beside marking.** An instantiate line that shows P11 as stated beside one member's dissent stays a specification (4chan-060, portugal-060). The dispute is an elaboration only where it is the line's point.
+  - **The contest.** Praise for spoiling a rival's mark is A15, not P11 (sabres-030, rejected).
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -825,3 +843,104 @@ P03 stands alone in T4-007 (direct information sharing: members tell each other 
 ### Close-check, D3a-08
 
 `validate.py D3` reports 8,867 of 42,243 ledger lines ruled. That is the 7,919 ruled through D3a-07 and P03's 948. It reports 0 errors and 2 warnings, the same two as before: history lines 137 and 138, which name move 174 'stabilizing' (line 139 records the correct name). All 192 pairs in P03's files name a P03 line (`_analysis/d3_pair_check.py`). The ledger holds 8,886 lines, 19 of them appended re-rulings across the legs (bahrain-006 is this leg's). History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561. None of those ledgers changed in this leg.
+
+## D3a-09: P11, the room marks a work that is up
+
+P11 stands alone in T4-026 (marking a finished work: announcing, celebrating and crediting it). Its statement reads: 'When a work is up, the room marks it: announces it, celebrates it, credits makers and helpers, reports members' own parts and says what working with strangers meant.' Its range runs from one 'We did it!' post to threads of credit and reflection at the close. It has stood since C2's first pass. F-021 touches it, and arrows A07 (P03 to P11) and A08 (P11 to P12) run into and out of it. All 951 lines are ruled under G16, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_group_rulings.py`, `d3_field_entry_counts.py`, `d3_family_counts.py` and phrase counts over my own reasons.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 716 | 675 | 18 | 0 | 0 | 17 | 6 |
+| absent (48 `unobserved`, 5 `not-testable`, 1 `observed-absent`, 1 `not-needed`) | 55 | 1 | 0 | 0 | 42 | 0 | 12 |
+| add-step | 70 | 46 | 20 | 0 | 4 | 0 | 0 |
+| restrict | 45 | 23 | 7 | 0 | 14 | 1 | 0 |
+| add-condition | 42 | 33 | 7 | 0 | 0 | 2 | 0 |
+| link | 23 | 4 | 16 | 0 | 1 | 2 | 0 |
+| all | 951 | 782 | 68 | 0 | 61 | 22 | 18 |
+
+704 rooms have a P11 line. P11 is shown in 646 of the 705 rooms, and in 627 of them an instantiate line is accepted. 58 rooms have P11 lines and none shows it. One of them, pebble, records an evidenced absence.
+
+**What the accepted instantiate lines show.** By phrase count over the 675 specification reasons (a line may carry more than one form):
+- **Celebration ('we did it', pride, congratulations, cheers): 431.**
+- **Thanks and credit to makers and helpers: 371.**
+- **Members' own parts (pixels, hours, a piece claimed): 181.**
+- **The work announced or shown on the canvas: 142.**
+- **What working together meant (community, unity, support, alliance): 103.**
+- **The work said to have lasted to the end: 101.**
+- **Prizes (medals, game codes, points): 5.**
+- **An invitation to celebrate offline: 1.**
+
+575 reasons read P11 as stated, and 97 sit at its lower range: one 'we did it', one announcement, one cheer or one thank-you. Three rest on credit disputes.
+
+**Restrict and add-condition: no correction.** Most of these lines say that a celebration does not prove a verified, finished, agreed or lasting work, or that upkeep goes on after it. P11 claims none of these, because it rests on the room's own word (G16). The lines are specifications where their concepts show the marking. They are evidence limits where the concepts do not: the 14 restrict limits are bare titles, jokes, a prize for an in-game feat, finds shared and attempts still under way. They are paired elaborations where they show a form P11 does not state.
+
+**The 68 elaborations, by family** (all paired; the counts are lines, then rooms; no line falls in two families):
+
+| family | lines | rooms | ops | examples |
+|---|---|---|---|---|
+| marking where no work is up: an attempt, a remnant or a lost work thanked or praised (A07's bound) | 24 | 14 | instantiate 10, add-step 5, link 4, restrict 3, add-condition 2 | warthunder-058, battlecats-049, ultrahardcore-031 |
+| marking disputed inside the room: some celebrate, others call it a failure, deny it stood, or object to honouring it | 14 | 13 | add-condition 5, add-step 5, restrict 4 | singapore-046, kcroyals-046, h3h3productions-035 |
+| a record of the work occasions its marking (A08's late-side order) | 9 | 9 | link 9 | belgium-056, dota2-057, titanfall-053 |
+| progress celebrated before the work is up | 8 | 8 | add-step 4, instantiate 4 | FinalFantasy-046, ProfessorLayton-063 |
+| credit named in a plan or call before the work is up | 4 | 4 | add-step 2, instantiate 2 | planetside-036, vocaloid-056 |
+| a flaw at the close, read fondly, made the room's cheer | 3 | 3 | link 3 | chicubs-051, uofm-056 |
+| a marked work reopens building | 2 | 2 | add-step 2 | monero-030, taiwan-033 |
+| recognition sought from the creators the work depicts | 2 | 2 | add-step 2 | funhaus-055, gameattack-053 |
+| marking a work made on a successor canvas after hour 73 | 2 | 2 | instantiate 2 | catholicism-056, hungary-030 |
+
+**What the 18 rejects show.**
+- **Instantiate, 6.**
+  - Three are bare reports of the state, which is P03: anime_irl-042 ('It's complete.'), VelvetUnderground-043 ('mostly done') and nightinthewoods-043 ('Got the G done y'all, now for the rest').
+  - One is a locating exchange (furry_irl-047), and one a find inside another room's work (TheAdventuresofTintin-007).
+  - One is praise for spoiling a rival's logo (sabres-030).
+- **Absent, 12.** Each line's concepts show P11, so the claim of absence fails:
+  - announcements (TheID-026, bretagne-017, warthunder-062) and a cheer (THE_R-023);
+  - thanks to helpers (carletonu-031, ghibli-047);
+  - the part made, marked at the close (DiamondClub-043, foxstevenson-043);
+  - an attempt marked (aeskwadraat-016, wsu-037);
+  - praise of the room's icon (qotsa-031), and progress and plan credit (planetside-037).
+
+  wsu-037 was marked `observed-absent`. Its 'Take my upvote for the good effort though' marks the lost attempt, so the absence is not observed.
+
+**Absent lines.** One evidenced absence stands: pebble-032 (`not-needed`). The room tallies and mourns an icon left unfinished in two places and marks nothing, so P11's condition, a work up, is not met. A guard listed 9 evidence-limit lines whose labels share words with P11, and each was read again:
+- faction pride under threat (GreenCorner-050);
+- progress, 'almost done' or a part finished (GuildWars2-043, Produce101-015, ik_ihe-034);
+- appeals (NovaScotia-026);
+- an ally's thanks for help with its own work (TeamYellowPlace-028);
+- a game cheer (ducks-044) and a prank (ontario-031);
+- thanks to another room for its own figure (streetfighter-049).
+
+**Particulars, 22.**
+- **Failing portability (21):**
+  - instantiate: CryptoFR-003, KState-030, calgaryflames-034, indonesia-027, ethereum-036, finland-030, lego-042, linux-052, popheads-057, python-043, ravens-048, rit-046, seventeen-038, tetris-014, texas-025, transgender-010, wine-049;
+  - add-condition: littlewitchacademia-048, neopets-067;
+  - restrict: counting-045;
+  - link: futanari-056.
+- **One room only:** nuclearthrone-041, where a host moderator removes a thank-you to another room's helpers as unrelated to the game. A search of P11's lines found no second room.
+
+**Re-ruled in this leg.** None.
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or contradict line was accepted as a correction. P11 stands as served, and no move was made.
+
+**Repairs (G7).** Repairs made no difference. Repaired rooms were 0.960 accepted (500 lines), and unrepaired rooms 0.956 (451 lines).
+
+**Carried to later groups.**
+- **Marking where no work is up (24 lines, 14 rooms).** A07's bound already names it. A07's group should weigh whether it belongs in that bound or in P11's statement.
+- **A record before the marking (9 links).** Rooms post the final image or timelapse, and the celebration follows. This is the late-side order A08's bound notes, for A08's group.
+- **Marking disputed (14 lines, 13 rooms).** Some of these disputes run during the event (greece-053 at hour 18, singapore-046, truestl-028). They sit beside P22's contests after the close, for P22 and the clustering.
+- **Credit disputes over scripts and other rooms** (flyers-055, utaustin-047, pakistan-015, overwatch-074, wine-022). These go beside A06 (scripts) and the neighbour arrows.
+- **Recognition from the depicted creators** (funhaus-055, gameattack-053, NieR-054, theexpanse-050). This is a channel outside the rooms that no element names.
+- **The host's moderation of marking** (nuclearthrone-041) goes to T4-002.
+- **A marked work reopening building** (monero-030, taiwan-033). This sits beside P03's finished work reopening building and the open item of a finished work reopening calls.
+
+**Disclosed limits and slips.**
+- **Draws.** There were eight seeded draws over the instantiate lines, at verb offsets 168 to 868, ten lines each (the last over 16 lines). None found an unsupported line.
+- **The 'done' against announcement reading** was stated at instantiate line 300. Its log line says it was checked backwards with no change. That check was run after the log line was written. It found five accepted lines that rest only on a finish, and each marks the work to the room, so the claim holds. The order was a slip.
+- **The pair check** was first run without one rulings file (67 of 68 pairs). It was rerun over every file.
+- **The group close** tabulates rejects under the line's own kind ('specification'). The rulings store them with no kind.
+- **Images.** Many marks rest on images not in the record. P11 rests on the words, so a deleted image does not undo a congratulation (gravityfalls-044).
+- **Head edits.** Four edits to the head ran as one parallel batch, which the rules forbid. All four landed, and the head was checked after them: its words, its links and the edited lines.
+
+### Close-check, D3a-09
+
+`validate.py D3` reports 9,818 of 42,243 ledger lines ruled. That is the 8,867 ruled through D3a-08 and P11's 951. It reports 0 errors and 2 warnings, the same two as before: history lines 137 and 138, which name move 174 'stabilizing' (line 139 records the correct name). All 68 pairs in P11's files name a P11 line (`_analysis/d3_pair_check.py`). The ledger holds 9,837 lines, 19 of them appended re-rulings across the legs, none from this leg. History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561. None of those ledgers changed in this leg.
