@@ -49,6 +49,13 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - putting upkeep before growth.
 
   A concept that only reports a loss, celebrates, locates, proposes or redesigns a mark does not show P05 (it may show P02, P12 or A10). Under G2 an absent line is rejected when its concepts show P05. As applied: keeping an ally's work beside the room's own is a paired elaboration, and a line where the room keeps nothing of its own is rejected (corridor-013, aeon-009); upkeep on a canvas opened after hour 73 is an elaboration, and edits to a copy after the close are evidence limits.
+- **G12 (logged at D3a-05, before P04's lines were ruled).** P04 is shown when a concept shows a member doing one of these:
+  - circulating a layout (a template, pixel plan, overlay or reference image that lays out the mark);
+  - circulating coordinates that locate the mark (one coordinate is P04's lower range);
+  - asking for a layout or for coordinates;
+  - asking placers to keep to the layout.
+
+  A script shows P04 only where the concept names the layout or coordinates it places from; otherwise it is A06's machine hands. A design proposed or argued with no layout shows P02, not P04. A call with no place or layout, a report that the mark is done, or a repair with no layout named does not show P04. As applied: locating the work by landmark or direction rather than coordinates is a paired elaboration, and so is a layout passed between rooms or used on a successor canvas.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -373,3 +380,92 @@ Seventeen instantiate lines fail portability. Five are elaborations: three keep 
 ### Close-check, D3a-04
 
 `validate.py D3` reports 3,892 of 42,243 ledger lines ruled (R01's 709, P01's 1,021, P02's 1,070 and P05's 1,092), with 0 errors and 0 warnings. Every accepted elaboration and correction in P05's group has a pair.
+
+## D3a-05: P04, the room's layout and its coordinates
+
+P04's lines number 1,034, across 703 rooms. All are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py` and `_analysis/d3_pattern_counts.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 683 | 656 | 19 | 0 | 0 | 8 | 0 |
+| add-step | 198 | 4 | 192 | 0 | 0 | 2 | 0 |
+| absent (43 `unobserved`, 11 `not-testable`) | 54 | 0 | 0 | 0 | 47 | 0 | 7 |
+| add-condition | 47 | 2 | 44 | 0 | 0 | 1 | 0 |
+| link | 39 | 0 | 38 | 0 | 0 | 1 | 0 |
+| restrict | 13 | 6 | 0 | 0 | 7 | 0 | 0 |
+| all | 1,034 | 668 | 293 | 0 | 54 | 12 | 7 |
+
+**What the instantiate lines show.** Every line accepted as specification cites a member doing one of these (G12):
+- circulating a template, pixel map, grid, overlay, spreadsheet or reference image;
+- giving or asking for coordinates;
+- telling placers to follow the layout.
+
+The range runs from one coordinate in a call (AprilKnights-009, '(543,228)') to official layouts with every pixel located and strays rebuked (archlinux-008, monalisaclan-011, starcraft-009). No instantiate line was rejected. Nineteen are paired elaborations:
+- the work located by landmark or direction rather than coordinates (8 lines, among them GreenEmpire-002, 'Bottom Left!');
+- a placed part used as the reference others build from (Fez-010, wine-009);
+- work carried to a successor canvas (Honduras-008, gravityfalls-010, purplecorner-008, sadboys-013);
+- a layout passed between rooms (germany-006, simonfraser-007, yuyuyu-004);
+- the target image kept for those who place by hand beside the scripts (theitalyplace-009 with cmu-011);
+- a revised layout reaching a member who had missed it (redpandas-013).
+
+**Absent lines.** None is evidenced. 47 are evidence limits: announcements, chat invitations, relative places and titles whose images are not in the record. Seven were rejected under G2 and G12 because their concepts circulate or ask for a layout:
+- COSI-006, a target repository;
+- PinkVomitMonster-005, a reference image;
+- aeskwadraat-006, a 38×16 design;
+- buffalo-009, 'Do we have a plan somewhere yet?';
+- lithuania-008, the flag plan;
+- placehfarts-016, 'Our goal.';
+- telegram-013, step images.
+
+**Restrict lines.** None corrects P04. Six are specification: an agreed image shared, a picture to follow exactly, a final design to aim for, a reference with landmarks, a location, and a gridded picture the builders used. Seven are evidence limits.
+
+**No correction, so no revision.** No P04 line was accepted as a correction, so §2 is not triggered and P04 stands as served.
+
+**The shared patterns (293 elaborations, all paired).** Rooms are counted from the wording of my rulings, and a room may carry more than one pattern.
+- **A layout guides only the placers it reaches (56 rooms).** This is move 173's mechanism seen from the layout's side. A revision must be announced where placers look, pinned, sent to placers one by one by private message, or the old template retired. Otherwise keepers restore the superseded version (CKCrusaders-053, ripcity-014, uofm-009, tf2-052). Some rooms build the recognisable part first so that others read the work as work (placeDE-053, witcher-016).
+- **Chats.** The rulings of 71 rooms mention a chat, specifications included. The paired lines show plans made in a chat and relayed back to the thread, and invites kept open for those outside (argentina-068, placecanada-016, darksouls-054, pcmasterrace-017).
+- **The layout itself checked and corrected (35 rooms).** Rooms check the layout against the canvas, fix missing rows and wrong pixels, settle colours and anchors, and make competing versions give way to one (cavestory-007, xenoblade_chronicles-011, predators-009).
+- **Scripts, tools, overlays and spreadsheets (57 rooms, specifications included).** These include layouts fed to scripts, scripts kept on the current layout (monstercat-051, uofm-013) and tools that turn a picture into a grid.
+- **Moves and restarts publish new coordinates (17 rooms).**
+- **The work located by landmark or direction (15 rooms).**
+- **A current view of the canvas, by refreshing before placing (13 rooms).**
+- **A layout in a form placers can use (13 rooms):** coordinates on mobile, direct links, image hosts and working invites.
+- **Newcomers taught what the canvas is and how to place (12 rooms).**
+- **One plan made official or kept current in the organising post (12 rooms).**
+- **Further pairs:**
+  - a layout passed between rooms (8 rooms);
+  - work carried to successor canvases (5 rooms);
+  - the layout fitted to the room's hands and space (5 rooms);
+  - keepers asking for the layout to repair by (4 rooms);
+  - a placed part used as the reference (4 rooms);
+  - coordinates given after the close so readers can find the work (corridor-007, baylor-008, titanfall-007).
+
+**Particulars (12).**
+- **Portability:** 9 fail it (rule 5).
+- **Supported in one room only (3):**
+  - a template kept to hold a truce with neighbours (dbz-067 and dbz-068, one room);
+  - a public wall of shame for members who keep making wrong corrections (cirkeltrek-020).
+
+  A search of P04's lines found no second room for either.
+
+**Re-ruled in this leg.** Each re-ruling is an appended line.
+- **corridor-007:** its pair changed from oneplus-008 to baylor-008. oneplus-008's coordinates come before the close (h+43.8, h+69.4), so they do not show readers finding a finished work.
+- **witcher-015:** re-ruled from elaboration to specification after a draw read it whole. Its c0042 posts a lettering template.
+
+**Repairs (G7).** Repaired rooms have 585 lines, 98.3% accepted. Unrepaired rooms have 449 lines, 98.0% accepted. Repairs made no difference.
+
+**Carried to later groups.**
+- **Whether the layout is how P05's keepers are told.** This would be an arrow from P04 into P05, weighed with an order test. The P04 lines show the telling (announcements, pins, messages, retired templates), and move 173 shows what happens without it.
+- **Chats as the place where plans are kept and relayed.** No element lists T4-010, which these lines lift into. This goes to the unattached-lines leg.
+- **A layout passed between rooms** goes to the group for A14 and A19.
+- **Moves and restarts publishing new coordinates** go with A10 and P10.
+- **Coordinates given after the close** go with P12.
+
+**Disclosed limits and slips.**
+- **Draws.** Seven seeded draws covered P04's instantiate lines (verb offsets 300 to 900, 70 lines), and none found an unsupported line. One draw corrected a kind (witcher-015).
+- **Images.** Many P04 lines rest on images whose contents are not in the record. Where a concept names a plan, goal or design posted as an image, I read it as a layout circulated. Where a title alone was given, I counted it as an evidence limit (OrderOfTheKoi-023, gameboy-015).
+- **A diary count.** The note logging add-step said 193 elaborations and 3 specifications. The batch outputs give 192 and 4, and a correction note follows it.
+
+### Close-check, D3a-05
+
+`validate.py D3` reports 4,926 of 42,243 ledger lines ruled (R01's 709, P01's 1,021, P02's 1,070, P05's 1,092 and P04's 1,034), with 0 errors and 0 warnings. All 295 pairs in P04's rulings files name a P04 line (`_analysis/d3_pair_check.py`).

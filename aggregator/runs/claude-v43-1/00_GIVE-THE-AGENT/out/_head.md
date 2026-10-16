@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at D3a-04, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01) and 173 (P05) have moved the model's hash; it is frozen again at D3c.
+Under 3,000 words, rewritten whole at every close. Last written at D3a-05, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01) and 173 (P05) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -19,10 +19,10 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-001 (J):** packets are read whole through a helper; rulings may be batched from a file giving every id its own decision and reason.
 - **QD3-002 (J, 16 October; carry it):** "the analyst is doing induction." I place codes where the population's evidence leads, say why, and ask for the changes I need: "Not the rules bound their understanding."
 
-## The return (D1a to D3a-04)
+## The return (D1a to D3a-05)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines; of 14,675 absent lines, 67 are evidenced. The readers split in 163 rooms (23.1%). The labelers grade every room composes-with-residue and answer the candidates often (P06 in 564 rooms).
-- **D3a, by element.** R01 (709 lines; accept 668, reject 30): corrections met twice in eleven rooms; move 172 split off its joining clause. P01 (1,021 lines; accept 962) and P02 (1,070; accept 1,020, particular 45, reject 5) stand. P05 (1,092; accept 1,058, particular 27, reject 7): corrections met twice; move 173. Repairs changed no group's rulings.
+- **D3a, by element.** R01 (709 lines) and P05 (1,092) met corrections twice and were revised (moves 172 and 173). P01 (1,021 lines), P02 (1,070) and P04 (1,034; accept 1,015, particular 12, reject 7) stand. Repairs changed no group's rulings.
 
 ## The current account, and the contrary rooms
 
@@ -57,7 +57,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 ## Where the run stands
 
 - **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `ingest-D.md`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
-- **D3a outputs:** `adjudications.jsonl` (3,892 ledger lines ruled), the stage's notes (rules G1 to G11), `model/history.jsonl` (moves 172 and 173). Scripts and rulings files: `out/_analysis/d1*` to `d3*`.
+- **D3a outputs:** `adjudications.jsonl` (4,926 ledger lines ruled), the stage's notes (rules G1 to G12), `model/history.jsonl` (moves 172 and 173). Scripts and rulings files: `out/_analysis/d1*` to `d3*`.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md` (13 expectations), `handback-C5.md`.
 - **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 136, `findings.jsonl` 37 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
@@ -122,7 +122,7 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement
 
 ## Open, carried
 
-- **From D3a-02 to D3a-04,** to weigh after order tests: calls recurring after a loss or a move, into P01 (16 rooms; with P10, A10); a finished work reopening calls and design, and celebration turning into upkeep (with A07 to A09); neighbours shaping design (32) and allies keeping each other's work (with A04, A14, A19); scripts working against the room's own keeping (with A06); upkeep weighed against growth (17 rooms; for the next stage). Bare refusals (math-011, wow-050) against F-014, with P15 and A12.
+- **From D3a-02 to D3a-05,** to weigh after order tests: the layout as how keepers are told (P04 into P05; 56 rooms); calls recurring after a loss or a move, into P01 (16 rooms; with P10, A10); a finished work reopening calls and design, and celebration turning into upkeep (with A07 to A09); neighbours shaping design (32) and allies keeping each other's work (with A04, A14, A19); scripts working against the room's own keeping (with A06); upkeep weighed against growth (17 rooms; for the next stage). Bare refusals (math-011, wow-050) against F-014, with P15 and A12. Chats, where plans are kept and relayed, hold no element (T4-010).
 - **The re-check:** R01 and P05 are rewritten, so the rooms relying on them go to it. Two paired elaborations of R01 (a start shared by a few members; a start handed on) wait for the clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
 - **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, in both sources and not in the model.
@@ -169,4 +169,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement
 
 ## The next comparison
 
-The next comparison is the next element group's lines against its element, by the stage notes' rules G1 to G11; the split rooms and the 19 story-miss rooms (14 with-residue, 4 composes, 1 split) wait for the verdicts leg.
+The next comparison is the next element group's lines against its element, by the stage notes' rules G1 to G12; the split rooms and the 19 story-miss rooms (14 with-residue, 4 composes, 1 split) wait for the verdicts leg.
