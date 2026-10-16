@@ -30,6 +30,15 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - A correction line whose content is that the cited concepts do not show the element (praise, a find, a bare title) records an evidence limit. It is accepted with kind `none`.
   - A line whose condition the statement already holds is reclassified by its concepts: specification where they show the element as stated.
   - Neither counts toward corrections met twice.
+- **G10 (logged at D3a-03, before P02's lines were ruled).** P02 is shown when a concept shows a member or the room choosing, proposing or changing what the mark shows. That covers:
+  - naming the picture to make, even in an unanswered proposal (a call that names the picture shows P01 and P02's lower range at once);
+  - arguing or voting on the design;
+  - taking the land's flag, emblems or the room's own logo as the mark by a stated choice;
+  - deciding to sign the mark or not;
+  - claiming or adopting a mark others made;
+  - adding to the mark, enlarging it, or adding a personal piece.
+
+  A concept that only announces, shows, locates, defends or admires a placed mark shows the result, not the settling. For P02 it is an evidence limit. A call that names no picture does not show P02.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -197,3 +206,72 @@ The line nearest to a reject was alberta-003, a reader's "Good luck with the pro
 ### Close-check, D3a-02
 
 `validate.py D3` reports 1,730 of 42,243 ledger lines ruled (R01's 709 and P01's 1,021), with 0 errors and 0 warnings.
+
+## D3a-03: P02, the room settles what its mark shows
+
+P02's lines number 1,070, across 704 rooms. All are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`.
+
+| op | lines | specification | elaboration (paired) | correction (paired) | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 762 | 724 | 0 | 0 | 0 | 35 | 3 |
+| add-step | 115 | 7 | 102 | 0 | 3 | 3 | 0 |
+| link | 84 | 1 | 81 | 0 | 2 | 0 | 0 |
+| add-condition | 55 | 2 | 49 | 0 | 0 | 4 | 0 |
+| absent (27 `unobserved`, 4 `not-testable`) | 31 | 0 | 0 | 0 | 28 | 1 | 2 |
+| restrict | 23 | 9 | 0 | 2 | 10 | 2 | 0 |
+| all | 1,070 | 743 | 232 | 2 | 43 | 45 | 5 |
+
+**What the instantiate lines show.** Every line accepted as specification cites members proposing a picture, arguing its design, taking a flag or emblem as the mark, signing it, adopting another's mark, or adding to it (G10). The range runs from one unanswered proposal (glasgow-006, winnipegjets-009) to designs argued over days (uvic-005, megaman-005). Three lines were rejected because their concepts show something other than settling:
+- a sighting (Madeon-003);
+- a defence call (OneTrueEmilia-009);
+- marks found and their makers guessed (wallstreetbets-068).
+
+**Absent lines.** None is evidenced. 28 are evidence limits: announcements, locations, defence and admiration with no settling. Two were rejected under G2 and G10 because their concepts name the picture to make (Bravenewbies-012, "coop... with EVE logo"; liquicity-009, "Trying to get the Liquicity logo on").
+
+**Restrict lines.** Ten are evidence limits under G9. Seven of them come through a third-order theme of finding marks on the canvas (T3-082), which lifts into T4-006: finding is not claiming. Nine are specification, because P02 already holds what they restrict, for example an unanswered proposal or a signing decision. Two are particulars: anarchism-011 refuses to own a flag at all, and transgender-056 fails portability.
+
+**The paired correction, not met twice.** PlaceNL-012 and portugal-013 correct P02 in substance. A change settled by some members was erased by the room's own keepers: in PlaceNL its defence script ("De huisjes worden allemaal weggepoetst"), in portugal its placers ("a hivemind apaga tudo"). They lift to different nodes (T3-028 under T4-009; T3-188 under T4-019), so they do not trigger the re-examination of §2.
+
+**The shared patterns (232 elaborations, all paired).** Rooms are counted from the wording of my rulings.
+- **A change held only where its keepers knew it (14 rooms).** In 13 rooms, members repairing to the old design or scripts set to its last form erased or blocked a settled change unless they were told. Examples: weezer "stop fixing the redesign"; aggies a quick vote "so a design change is not mistaken for an attack"; cubers alerting the chat; PlaceNL waiting for the member with script permission. In uruguay an ally's bots held the design.
+- **Neighbours shaping the design (32 rooms).** Agreements, leave, requests, help received and promises to allies set where the mark goes, its size and its colours.
+- **The design sized to the room (26 rooms).** Size and detail were fitted to the hands, space and upkeep the room expected (Jamaica, sadboys, strangerthings).
+- **A finished work reopening the design (19 rooms).**
+- **Designs settled in chats and brought back to the thread (18 rooms).**
+- **Votes, polls, official rulings or asked agreement (14 rooms).**
+- **Further pairs:**
+  - the palette bounding the design;
+  - additions waiting on the main mark;
+  - started designs kept because changing them costs work;
+  - signatures kept off shared marks or added so others know whose mark it is;
+  - content refused because it does not belong;
+  - the mark's meaning settled again after the close.
+
+**Particulars (45).**
+- **Portability:** 39 fail it (rule 5).
+- **Supported in one room only (6):**
+  - location as part of the mark's meaning (2007scape-038);
+  - peace claims made with hearts and a dove (europe-062);
+  - design judged by a member who does not place (indieheads-007);
+  - language as cover for design talk (eesti-042);
+  - a faction naming a feature of its field (orderofthebluecorner-005);
+  - refusing to own a mark (anarchism-011).
+
+**No revision of P02.** No correction is met twice, and P02's statement and range stand as served. The keepers pattern is a relation between settling and keeping, and its other end, P05 with A06's scripts, is not yet read. I weigh an arrow from keeping back into settling, or a condition on P02's "adds to it", when P05's group is read, with an order test written first. In the quotes the change is proposed before it is erased.
+
+**Repairs (G7).** Repaired rooms have 585 lines, 95.7% accepted. Unrepaired rooms have 485 lines, 94.8% accepted. Repairs made no difference.
+
+**Carried to later groups.**
+- The keepers pattern goes to P05's group.
+- A finished work reopening the design goes to the close group (A07 to A09), beside P01's calls after a completion.
+- Neighbours shaping the design goes to the group for A04, A14 and A19.
+- F-017 is not re-examined, because P02 is not revised. Its weak absence claim, that goals were rarely chosen between rivals, should be read against the P02 lines where rooms choose between designs when F-017 is next touched.
+
+**Disclosed limits and corrections.**
+- **Draw labels.** In the diary, the P01 draw ranges of D3a-02 are labelled 21 lines too high. Verb offset 326 covered instantiate 99 to 198, not 120 to 219, and P01's instantiate lines 699 to 722 fell in no draw. Every P01 line was read whole, so no ruling changes.
+- **P02 draws.** Eight seeded draws covered P02's instantiate lines (verb offsets 202 to 902, 80 lines) and found no unsupported line. One draw was first run with its quotes filtered out; it was rerun whole and read.
+- **Guard refusal.** One command used `cut -c` after `mem.py`, and the guard refused it.
+
+### Close-check, D3a-03
+
+`validate.py D3` reports 2,800 of 42,243 ledger lines ruled (R01's 709, P01's 1,021 and P02's 1,070), with 0 errors and 0 warnings. `validate.py --open D3` reports `EXPECTATIONS.jsonl` missing from the folder. The stage forbids reading it (E1 scores it), so it is the harness's to place, not mine.

@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at D3a-02, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). D3a-01 revised R01 (move 172), so the model's hash has moved; it is frozen again at D3c.
+Under 3,000 words, rewritten whole at every close. Last written at D3a-03, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). D3a-01 revised R01 (move 172), so the model's hash has moved; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -11,23 +11,22 @@ The theory question is unchanged: when strangers organize on a clock they did no
 ## J's rulings for stage D (17:40 Amsterdam, through the PI; carry them)
 
 - "No second coder on your solo reads: Codex did not read all rooms, so its evidence is thin; your reads stand, with their limits stated as you stated them."
-- Stage D runs at xhigh effort, as every stage from here on.
+- Stage D and every later stage run at xhigh effort.
 - "Keep the room, or groups of rooms, as the unit, and keep the contract's two questions in view."
-- **QD1-001 (J, 21:19 Berlin):** an element may sit in two or more dimensions; the check was wrong.
-- **QD2-001 (J, 16 October):** a dimension may stand as the element of restrict, add-condition and add-step; the eight such lines are ruled on as they stand.
+- **QD1-001 (J, 21:19 Berlin):** an element may sit in more than one dimension.
+- **QD2-001 (J, 16 October):** a dimension may stand as the element of restrict, add-condition and add-step; the eight such lines stand as written.
 - **J, 16 October, 12:59 Berlin:** absent lines are counted by observation; only observed-absent and not-needed are evidenced, the rest are limits counted apart. Compare repaired and unrepaired rooms where repairs bear on a ruling.
 - **QD3-001 (J):** packets are read whole through a helper; rulings may be batched from a file giving every id its own decision and reason.
 - **QD3-002 (J, 16 October; carry it):** "the analyst is doing induction." I place codes where the population's evidence leads, say why, and ask for the changes I need: "Not the rules bound their understanding."
 
-## The return (D1a to D3a-02)
+## The return (D1a to D3a-03)
 
-- **D1a and D2a.** `prior.md` §7 and §8 came first. 705 rooms returned 42,243 lines; of 14,675 absent lines, 67 are evidenced. The readers split in 163 rooms (23.1%). The labelers grade every room composes-with-residue and answer the candidates often (P06 in 564 rooms).
-- **D3a-01, R01.** 709 lines: accept 668 (87 evidence limits), reject 30, particular 10, modify 1. Eleven rooms' corrections met twice on the joining clause; move 172 split it off to P15, A02 and A01. F-017 stands.
-- **D3a-02, P01.** 1,021 lines: accept 962 (696 specification, 232 paired elaborations, 34 evidence limits), particular 59, no reject. No correction was accepted, so P01 stands. Repairs changed neither group's rulings.
+- **D1a and D2a.** 705 rooms returned 42,243 lines; of 14,675 absent lines, 67 are evidenced. The readers split in 163 rooms (23.1%). The labelers grade every room composes-with-residue and answer the candidates often (P06 in 564 rooms).
+- **D3a, by element.** R01, 709 lines: accept 668, reject 30; eleven rooms' corrections met twice on its joining clause, and move 172 split it off to P15, A02 and A01. P01, 1,021 lines: accept 962, no reject; P01 stands. P02, 1,070 lines: accept 1,020, particular 45, reject 5; two paired corrections at different nodes, so P02 stands. Repairs changed no group's rulings.
 
 ## The current account, and the contrary rooms
 
-The account is `account.md`, pass 15 (3,318 words), with the readers' disagreements in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`. A room, or a group of rooms, is the actor where its members spoke or acted for it.
+The account is `account.md`, pass 15, with the readers' disagreements in `account-readers-C5.md`. The nine propositions are in `propositions.jsonl`. A room, or a group of rooms, is the actor where its members spoke or acted for it.
 - **The spine.** A member starts a mark [R01]. The room's calls follow the start in 64 of 89 rooms [A02], building follows calls in 81 of 126 [A01], and keeping follows building in 148 of 190 [A03].
 - **The bare answer.** Most calls get no written reply. In written replies, acceptances come bare (25 of 31 to calls to place, F-023) and refusals give a reason (3 of 3; attack calls 23 of 38, F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
@@ -55,8 +54,8 @@ The account is `account.md`, pass 15 (3,318 words), with the readers' disagreeme
 
 ## Where the run stands
 
-- **D1a and D2a outputs:** each stage's notes and handback; `handoff-D/`, `verdict-D/`, `sealed/`, `ingest-D.md`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`. Scripts: `out/_analysis/d1*` and `d2*`.
-- **D3a outputs:** `adjudications.jsonl` (1,730 ledger lines ruled), the stage's notes, `model/history.jsonl` (move 172). Scripts and rulings files: `out/_analysis/d3*`.
+- **D1a and D2a outputs:** each stage's notes and handback; `handoff-D/`, `verdict-D/`, `sealed/`, `ingest-D.md`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
+- **D3a outputs:** `adjudications.jsonl` (2,800 ledger lines ruled), the stage's notes (rules G1 to G10), `model/history.jsonl` (move 172). Scripts and rulings files: `out/_analysis/d1*` to `d3*`.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md` (13 expectations), `handback-C5.md`.
 - **Ledgers:** `tier_history.jsonl` 561, `model/history.jsonl` 135, `findings.jsonl` 37 lines (23 findings), `model/elements.jsonl` 30 (23 standing), `model/arrows.jsonl` 21.
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass still flagged; the border coders' slight agreement (kappa 0.19).
@@ -121,7 +120,7 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## Open, carried
 
-- **From D3a-02:** a return arrow into P01 (calls recur after a loss or a move in 16 rooms), weighed with P10 and A10 after an order test; bare refusals of calls (math-011, wow-050) against F-014, weighed with P15 and A12.
+- **From D3a-02 and D3a-03,** arrows to weigh after order tests: calls recurring after a loss or a move, into P01 (16 rooms; with P10, A10); keeping that erases unannounced changes, into P02 (14; with P05); a finished work reopening calls and design (with A07 to A09); neighbours shaping design (32; with A04, A14, A19). Bare refusals (math-011, wow-050) against F-014, with P15 and A12.
 - **From D3a-01:** R01 is rewritten, so the rooms relying on it go to the re-check; two paired elaborations (a start shared by a few members; a start handed on) wait for the clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
 - **From C4:** P21, A21 and P22 for stage D; a request for space answered with terms, in both sources and not in the model.
@@ -168,4 +167,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard); primary exact a
 
 ## The next comparison
 
-The next comparison is the next element group's lines against its element, by the stage notes' rules G1 to G9; the split rooms and the 19 story-miss rooms (14 with-residue, 4 composes, 1 split) wait for the verdicts leg.
+The next comparison is the next element group's lines against its element, by the stage notes' rules G1 to G10; the split rooms and the 19 story-miss rooms (14 with-residue, 4 composes, 1 split) wait for the verdicts leg.
