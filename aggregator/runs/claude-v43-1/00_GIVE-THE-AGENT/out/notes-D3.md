@@ -83,6 +83,18 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
     - a bare greeting;
     - a running joke of the room or the site, such as 'the moderators are asleep', urging rewrites, or 'if this gets N upvotes this becomes a themed subreddit'.
   - **G1b's draws.** A drawn line is unsupported when its quotes change the ruling that its how and labels would get.
+- **G15 (logged at D3a-08, before P03's lines were ruled).** P03 is shown when a concept shows a member reporting to the thread the state of the room's mark during the event (before hour 73): what is placed, done or missing, and where. That covers:
+  - a progress report (begun, outline in, half done, nearly done);
+  - a report that the work is done (P03's 'done'; the celebration around it is P11);
+  - a report of what is missing or still needed (a part, a colour, a row);
+  - a report that a part is damaged or gone while the work stands (P05's watching at once, G11);
+  - a screenshot or image posted as the work's current state;
+  - a correction of another member's report.
+
+  It is not shown by a call for hands that reports no state (P01), or by a layout or coordinates given only to lay out or locate the mark (P04, G12). A coordinate reported with the state of the work there shows both. Nor is it shown by a cheer or 'we did it' that reports nothing of the work's state (P11), by a report of the work's fate after hour 73 (P12, G13), or by a question about the state that no one answers. A report on another room's work does not show it, unless the room builds or keeps that work with them; then the line is a paired elaboration. Under G2, an absent line is rejected when its concepts show P03. P03 is not a universal claim, so its absent lines are never corrections. Two readings were stated while ruling and logged. Neither is an amendment; each says how a clause already written applies, and each was checked backwards.
+  - **'Done' and the cheer** (stated at instantiate line 152). A celebration whose words state the work made, finished, done, complete or accomplished carries P03's 'done', and the celebration itself is P11. A bare 'we did it!' or a cheer does not. One line changed: bahrain-006 ('so happy that we made it!'), from reject to specification, by an appended line.
+  - **Successor canvases** (stated at instantiate line 500, after G11's precedent). An instantiate line whose reports come from a successor canvas after hour 73 is a paired elaboration, not a specification (sadboys-012). A search of the earlier accepted reasons found no such line.
+  - **G1b's draws.** One draw of ten lines per 100-line instantiate packet. A drawn line is unsupported when its quotes change the ruling that its how and labels would get.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -723,3 +735,93 @@ Three pairs name a restrict line ruled specification: magictcg-034 with scotland
 ### Close-check, D3a-07
 
 `validate.py D3` reports 7,919 of 42,243 ledger lines ruled. That is the 6,685 ruled through D3a-06 and K01's 1,234. It reports 0 errors and 2 warnings, the same two as before: history lines 137 and 138, which name move 174 'stabilizing' (line 139 records the correct name). All 192 pairs in K01's files name a K01 line (`_analysis/d3_pair_check.py`). The ledger holds 7,937 lines, 18 of them appended re-rulings across the legs. History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561. None of those ledgers changed in this leg.
+
+## D3a-08: P03, Direct information sharing
+
+P03 stands alone in T4-007 (direct information sharing: members tell each other the state of the work). Its statement reads: 'The room builds its mark, and members report its state to the thread: what is placed, done or missing, and where.' Its range runs from one report that the logo is half done to reports on each part of a mark over two days. It has stood since C2's first pass, and no finding touches it. All 948 lines are ruled under G15, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_group_rulings.py`, `d3_field_entry_counts.py`, `d3_family_counts.py` and phrase counts over my own reasons.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 664 | 640 | 1 | 0 | 0 | 15 | 8 |
+| absent (38 `unobserved`, 8 `not-testable`) | 46 | 0 | 0 | 0 | 29 | 0 | 17 |
+| link | 138 | 3 | 129 | 0 | 2 | 4 | 0 |
+| add-step | 69 | 9 | 45 | 0 | 13 | 2 | 0 |
+| add-condition | 16 | 1 | 11 | 0 | 2 | 2 | 0 |
+| restrict | 15 | 2 | 6 | 0 | 6 | 1 | 0 |
+| all | 948 | 655 | 192 | 0 | 52 | 24 | 25 |
+
+702 rooms have a P03 line. P03 is shown in 650 of the 705 rooms: an accepted specification or elaboration in any op, or an absent line rejected because its concepts show it. In 625 of them an instantiate line is accepted. 52 rooms have P03 lines and none shows it.
+
+**What the accepted instantiate lines show.** By phrase count over the 640 specification reasons (a line may carry more than one form):
+- **The work done, finished, complete or made: 272.**
+- **Progress, a start, or work under way: 271.**
+- **Where the work stands (coordinates or a location): 187.**
+- **Damage, loss or a fix while the work stands: 85.**
+- **What is missing or still needed: 35.**
+- **An image posted as the current state: 29.**
+- **A correction (of a report, a coordinate or a row): 10.**
+
+497 reasons read P03 as stated. 120 sit at its lower range: one report, such as one pixel placed, one 'X is on r/place' post or one location. 17 carry P03's 'done' alone, 2 its upper range, and 4 the overlap G11 names, where damage reported while the work stands is P03 and P05's watching at once.
+
+**Restrict, add-condition and add-step: no correction.** Under G9, the 15 restrict and 16 add-condition lines correct nothing. What they add sits inside the statement, or is a condition that a second room shows: the work built by a few members or by another room's hands, the reports carried through a chat, or a work that already exists. They are specifications where they show P03, evidence limits where they do not, and paired elaborations where a second room shows the same condition. Of add-step's 13 evidence limits, 8 show only a move to a chat (T4-010's ground): Fez-013, calvinandhobbes-009, indieheads-010, physical_removal-008, stardustcrusaders-040, telegram-010, wales-033 and wildhockey-008.
+
+**The 192 elaborations, by family** (all paired; the counts are lines, then rooms; no line falls in two families):
+
+| family | lines | rooms | ops | examples |
+|---|---|---|---|---|
+| after a loss or a move, the room builds again and reports the new work | 88 | 87 | link 88 | Cornwall-032, PUBATTLEGROUNDS-029, SquareSpiral-031 |
+| the room's sharing split between the thread and a chat, with reports or decisions brought back | 20 | 19 | add-step 17, three others 1 each | AprilKnights-013, Fez-014, masseffect-032 |
+| building and reports continue on a successor canvas after hour 73 | 17 | 14 | link 13, add-condition 3, instantiate 1 | magictcg-049, rotmg-045, sadboys-012 |
+| a neighbour's terms or a host's permission opens the space | 14 | 13 | link 13, add-condition 1 | MMA-033, notredame-056, stargate-052 |
+| a member's screen checked against the refreshed or persisted canvas | 10 | 10 | add-step 7, add-condition 2, restrict 1 | enterthegungeon-010, rotmg-011, auburn-053 |
+| parallel or duplicate builds, with reports deciding where hands go | 9 | 8 | add-step 7, two others 1 each | FinalFantasy-013, bretagne-053, gameboy-010 |
+| building and keeping alternate or overlap in the same reports | 7 | 7 | add-step 4, link 3 | the_pack-019, sixers-015, oneshot-039 |
+| a report that the work exists answers a call to make it again | 5 | 5 | add-step 4, restrict 1 | Madeon-006, batman-019, uva-053 |
+| members report the part they take on, and so divide the work | 4 | 4 | add-step 4 | factorio-011, lego-009 |
+| a work built by a group outside the room, its reports carried in the room's thread | 4 | 4 | restrict 2, two others 1 each | araragi-008, nlsscirclejerk-054 |
+| one place kept for the work's current state | 3 | 3 | add-step 2, add-condition 1 | splatoon-026, yugioh-073 |
+| contest with a rival interleaved with building | 3 | 3 | link 3 | lakers-083, sabres-027 |
+| a work built and reported by a few members, not the room as a body | 2 | 2 | restrict 1, add-condition 1 | metroid-008, peterdraws-002 |
+| a script takes on part of the placing | 2 | 2 | link 2 | ScottPilgrim-024, globaloffensive-015 |
+| a report must reach the builders and keepers, or they work on the wrong thing | 2 | 2 | link 2 | berserk-030, placeDE-061 |
+| a finished work reopens building | 2 | 2 | link 2 | fireemblem-056, splatoon-057 |
+
+**What the 25 rejects show.**
+- **Instantiate, 8.** Two cheer or credit and report no state (Goodboye-004, paragon-012). Four are records after hour 73 (Mario-008, aeon-008, azerbaijan-003, yuyuyu-003). One is a visitor reporting another room's heart (AceOfAngels8-004), and one an unclear 'operation was a success' (germany-004).
+- **Absent, 17.** Each line's concepts show P03 during the event, so the claim of absence fails. Eleven post the work on the canvas or say where it is, at P03's lower range: for example Lugarix-007 ('LAX officially in /r/place!'), TheID-006, parabola-021 and pgang-006. In natsume-012 the makers are unknown, and the room keeps the figure with a template, as in the outside-builders family. Two report work under way and where (carletonu-013, ontario-014). Four report a pixel placed, a part added or a fix (azores-008, cgpgrey-010, heyyea-011, OneTrueEmilia-011).
+
+**Absent lines.** None records an evidenced absence. A guard listed 11 evidence-limit lines whose labels share words with P03, and each was read again. They hold calls (Braveryjerk-013, UMiami-009, polyamory-014, wario-007), a plan (Homura-014), records after hour 73 (livecounting-012, tetris-018) and thanks (thetreesnetwork-017). UNLincoln-012 reports damage to a logo that a second member corrects as another school's. In sakartvelo-008, a member points to Georgian flags others had placed. In falcons-013, c0104 taunts a call to erase another's work for its lack of progress, and c0161 is a visitor's question at hour 74.7.
+
+**Particulars, 24.**
+- **Failing portability (22):**
+  - instantiate: AprilKnights-010, AyyMD-004, CKCrusaders-005, CryptoFR-002, DCFU-004, counting-005, dallasstars-009, greyblob-005, kirby-005, kurdistan-003, linux-012, python-010, skyrim-003, ss13-008, vim-006;
+  - link: donaldglover-015, gravityfalls-051, miraculousladybug-053;
+  - add-step: AprilKnights-022, geometrydash-010;
+  - add-condition: shield-061;
+  - restrict: counting-012.
+- **One room only (2):** rocketleague-010, where members hurry the main shape into place so that defenders can tell the work from damage; and palestine-059, where a finished work is carried into the room's own banner. A search of P03's lines found no second room for either.
+
+**Re-ruled in this leg.** bahrain-006 moved from reject to specification by an appended line, under G15's 'done' reading.
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or contradict line was accepted as a correction. P03 stands as served, and no move was made.
+
+**Repairs (G7).** Repairs made no difference that bears on a ruling. Repaired rooms were 0.962 accepted (505 lines), and unrepaired rooms 0.932 (443 lines).
+
+**Carried to later groups.**
+- **The return to building.** 88 link lines in 87 rooms show a loss or a move followed by building again and new reports. No standing arrow draws this return. It sits beside A10 (moving when hands are too few) and the calls that recur after a loss, carried from D3a-02. It is a candidate for D4, after an order test.
+- **Chats (T4-010).** The thread and a chat split the sharing in 19 rooms, and 8 add-step lines show only the move to a chat. Members outside the chat depend on what comes back to the thread.
+- **Parallel builds (9 lines) and outside builders (4).** These bear on the unit: who builds and reports the room's mark.
+- **Successor canvases (17 lines).** Building goes on after hour 73 on other canvases, beside P13 (carrying the work on).
+- **Neighbours' terms and hosts' permissions (14 lines)** go to the neighbour arrows (A04, A14).
+
+**Disclosed limits and slips.**
+- **Draws.** There were seven seeded draws over the instantiate lines, at verb offsets 132 to 732, ten lines each. None found an unsupported line.
+- **The 'done' reading** was stated at instantiate line 152. It re-ruled bahrain-006, which had been rejected as a bare cheer.
+- **A phrase count** first matched 'end' inside 'sends'. It was rerun with word bounds.
+- **The group close** tabulates rejects under the line's own kind ('specification'). The rulings store them with no kind.
+- **Images.** Many reports rest on images not in the record. A report the words do not carry is an evidence limit (UPenn-007).
+- **Compaction.** The context was compacted once in the leg, while the absent lines were being ruled. The head, the stage file and the diary were read again before any write.
+
+### Close-check, D3a-08
+
+`validate.py D3` reports 8,867 of 42,243 ledger lines ruled. That is the 7,919 ruled through D3a-07 and P03's 948. It reports 0 errors and 2 warnings, the same two as before: history lines 137 and 138, which name move 174 'stabilizing' (line 139 records the correct name). All 192 pairs in P03's files name a P03 line (`_analysis/d3_pair_check.py`). The ledger holds 8,886 lines, 19 of them appended re-rulings across the legs (bahrain-006 is this leg's). History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561. None of those ledgers changed in this leg.

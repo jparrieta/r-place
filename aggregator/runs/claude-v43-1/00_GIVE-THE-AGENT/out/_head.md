@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at D3a-07, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Under 3,000 words, rewritten whole at every close. Last written at D3a-08, 2026-10-16 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -19,14 +19,14 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-001 (J):** packets are read whole through a helper; rulings may be batched from a file giving every id its own decision and reason.
 - **QD3-002 (J, 16 October; carry it):** "the analyst is doing induction." I place codes where the population's evidence leads, say why, and ask for the changes I need: "Not the rules bound their understanding."
 - **J, 16 October, 19:08 Berlin, on drift (carry it):**
-  - Re-orient at every leg start and after every compaction.
+  - Re-orient at every leg start and after every compaction: read `handback-C5.md` and the model as it stood before this stage, then the current elements, arrows and history.
   - Make a blind re-rule check at D3a-10 and before the D3c freeze: about 50 lines from closed groups, with the pairs left for the handler's kappa.
   - A ruling rule changes only by a dated amendment that says whether it applies backwards.
 
-## The return (D1a to D3a-07)
+## The return (D1a to D3a-08)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 (709 lines) and P05 (1,092) met corrections twice and were revised (moves 172 and 173). P01 (1,021), P02 (1,070), P04 (1,034) and P12 (977) stand. P22, the field's entry (782 lines), was ruled standing and its range rewritten (move 174). K01 (1,234 lines) stands without correction; it is shown in 352 rooms. Repairs changed no group's rulings.
+- **D3a, by element.** R01 (709 lines) and P05 (1,092) met corrections twice and were revised (moves 172 and 173). P01 (1,021), P02 (1,070), P04 (1,034) and P12 (977) stand. P22, the field's entry (782 lines), was ruled standing and its range rewritten (move 174). K01 (1,234 lines) and P03 (948) stand without correction; they are shown in 352 and 650 rooms. Repairs changed no group's rulings.
 
 ## The current account, and the contrary rooms
 
@@ -36,7 +36,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 - **The bare answer.** Most calls get no written reply. Written acceptances come bare (25 of 31, F-023), and refusals give a reason (attack calls 23 of 38, F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
 - **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 rooms [C01, F-006].
-- **Direct information sharing (T4-007).** Members post the mark's state (F-018), largely apart from sharing templates (F-022).
+- **Direct information sharing (T4-007).** Members post the mark's state [P03; F-018], largely apart from sharing templates (F-022).
 - **Other rooms.** Keeping brings neighbour talk in 235 of 401 rooms [A04], mostly offering terms first. Help names a deal in 63 of 127 such rooms, against 23 of 67 [A14; F-020]. Sparing rests on the room's own norm (A05 theorised). Coalitions [A19] cannot bind every placer.
 - **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17].
 - **Loss** (thin). A room that judges its hands too few moves [A10]; the judgment came first in 10 of 20 that moved. After doubt and a loss, 10 moved and 11 gave up (F-019). No loop is grounded.
@@ -63,8 +63,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 - **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
 - **D3a outputs:**
-  - `adjudications.jsonl`: 7,919 lines ruled, 7,937 with re-rulings;
-  - the stage's notes: G1 to G14, G13a and the field's entries;
+  - `adjudications.jsonl`: 8,867 lines ruled, 8,886 with re-rulings;
+  - the stage's notes: G1 to G15, G13a and the field's entries;
   - `model/history.jsonl`: moves 172 to 174;
   - scripts in `out/_analysis/`.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md` (13 expectations), `handback-C5.md`.
@@ -134,13 +134,14 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The pilot's declarations, and stage B in one line
 
-Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement beside it. B2 stability 0.807 is the floor for later figures; `assign_final.jsonl` is stage B's settled line.
+Agreement is Jaccard on placement sets, exact agreement beside it. B2 stability 0.807 is the floor for later figures; `assign_final.jsonl` is stage B's settled line.
 
 ## Open, carried
 
-- **From D3a-02 to D3a-07**, to weigh after order tests:
+- **From D3a-02 to D3a-08**, to weigh after order tests:
   - the layout telling keepers (P04 into P05);
-  - calls recurring after a loss (P01, P10, A10);
+  - calls recurring after a loss (P01, P10, A10), and rebuilding after a loss or move (P03, 87 rooms; no arrow);
+  - parallel and outside builders (P03);
   - recording entered from a loss, beside A08;
   - a finished work reopening calls;
   - neighbours and allies (A04, A14, A19);
@@ -150,21 +151,17 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement
   - P22's two forms, for the clustering;
   - the host's moderation of records and takeovers (T4-002);
   - bare refusals (math-011, wow-050) against F-014;
-  - chats (T4-010);
+  - chats (T4-010), which split the sharing in 19 rooms;
   - K01's canvas-call clause (doubted in 3 rooms) and doubt costing uptake (9 rooms).
 - **The re-check:** R01, P05 and P22 are rewritten; the rooms relying on them go to it. Two R01 elaborations wait for the clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
 - **From C4:** P21 and A21 for their groups; a request for space answered with terms, not in the model.
 - **From C3:** the forms on the four universal problems or the remainder; the colour-faction doubt [PurplePixels/c0165]; Olson; the four declined reads.
 - **From C2:** what a mark brings back; the return's two boundaries; the claim untested for order.
-- **From C1 and B1:** `c1_unapplied.jsonl` (5); the form-pass findings; the B1 bag counts.
+- **From C1 and B1:** the form-pass findings; the B1 bag counts.
 
 ## Rules kept
 
-- **Re-orienting (J, 19:08 Berlin).** At every leg start and after every compaction:
-  1. read the model as it stood before this stage (`handback-C5.md`, and `mem.py diary --grep <id>` before D3a-01);
-  2. read the current elements, arrows and history;
-  3. continue.
 - **Checking.**
   - Never type an id, an order or a name from memory; check with a script.
   - Never log a write before the tool answers. Count a ledger's lines after appending.
@@ -201,4 +198,4 @@ Agreement is Jaccard on placement sets (alpha on 1 − Jaccard), exact agreement
 
 ## The next comparison
 
-The next element group's lines, by rules G1 to G14 with G13a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group's lines, by rules G1 to G15 with G13a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
