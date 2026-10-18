@@ -124,6 +124,7 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **What 'states it' means.** The relation the line adds must be stated: in the element's statement or range, in another element's statement or range, or in an arrow's connection, bound or mechanism. Another element naming the act alone does not state a link that no statement or arrow draws. This is how G4a was applied to P16, and the backward pass applies it the same way. A script handed to another room to run itself stays an elaboration, though P14 names scripts. Another room's bot set to keep the room's work is P14's range ('a shared bot holding several rooms' works'), so that line is a specification (RelientK-040 and spacexmasterrace-025, corrected at D3a-11).
   - **Link lines.** G4a as written covers add-condition and add-step lines only. At D3a-10 I cited it on P16's 33 link lines without an amendment, which was a slip. I asked J whether G4a should cover link lines (QD3-004).
   - **Link lines (amendment, 18 October, D3a-11).** J answered QD3-004: 'Amend G4a to cover link lines and apply it backwards to them as well.' A link line is a specification, naming the id, where the element's statement or range, another element's statement or range, or an arrow's connection, bound or mechanism already states the link it adds. A link that no part of the model states stays a paired elaboration with a second room, or a particular with one. The amendment applies backwards to the link lines of the closed groups, by appended re-rulings. P16's links were ruled this way at D3a-10 and stand.
+  - **Instantiate and restrict lines (amendment, 18 October, D3a-12).** J, on the QD3-005 count: 'Extend G4a to the 16 instantiate and restrict lines and apply it backwards. Before ruling on A07's bound, set out your wider reading and the lines that rest on it; keep those as ruled until I decide.' G4a now covers instantiate and restrict lines. Where the element's statement or range, another element's statement or range, or an arrow's connection, bound or mechanism already states the form the line shows, the line is a specification of its element, and the reason names the id. Backwards, the amendment reaches the 16 lines the count found (`_analysis/d3_qd3005_count.jsonl`). The lines among them that rest on my wider reading of A07's bound keep their rulings until J decides (section D3a-12). I read the extension as applying forward too, to the groups still to rule, and I have asked J to confirm it (QD3-006). Corrections, particulars by construction, evidence limits and rejects stay outside the amendment, for the reasons given with the count.
 - **G17 (logged at D3a-10, before P16's lines were ruled).** P16 is shown when a concept shows help passing between the room and another room, read from either room's record. That covers:
   - pixels given to another room's work, repair or defence of it, and help arriving from another room;
   - requests for help, made or arriving (a call to kindred rooms is also P01's);
@@ -1241,3 +1242,100 @@ The first run counted 9 one-room particulars. The reasons of four P22 lines say 
 ### Close-check, D3a-11 (after the count)
 
 No ledger changed after the first close. The ledger still holds 11,458 lines, 10,803 of them ruled. History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561. The new files are `_analysis/d3_qd3005_population.py`, `d3_qd3005_check.py`, `d3_latest_grep.py`, `d3_line_fields.py` and the count file. QD3-005 stays open: the 68 lines stand as ruled until J decides.
+
+## D3a-12: G4a extended to instantiate and restrict lines; A07's bound read wider
+
+J's message on the QD3-005 count (18 October, 23:22 Berlin): 'Extend G4a to the 16 instantiate and restrict lines and apply it backwards. Before ruling on A07's bound, set out your wider reading and the lines that rest on it; keep those as ruled until I decide.' The amendment is written under G4a above. Below, I set out the wider reading first. I wrote this part before I ruled any line that names A07.
+
+### My wider reading of A07's bound, and the lines that rest on it
+
+**The bound's words.** A07 runs from P03 (building and reports) to P11 (marking the work). Its bound reads: 'Where the room's first mark was found already made by others, the room celebrates the find before it builds anything itself. Where hour 73 cut the work unfinished, the room marks the attempt instead: "We almost did it!" (ultrahardcore), a watermark mourned (totallynotrobots).' The second sentence names one case: the close came while the work was still unfinished, and the room marks the attempt.
+
+**My reading.** At D3a-09 I wrote into G16 that P11 does not say a room marks only what is up. I named 'marking where no work is up' as 'the form A07's bound names'. In ruling, I took the bound to cover any marking where no finished work stands when the room marks it:
+- an attempt the close cut short, which is the bound's own case;
+- a part or remnant left standing when the goal had already failed;
+- a work lost to attack, erased or given up before the close;
+- a plan that the close stopped before any work was placed.
+
+The bound's words cover only the first. The reading widened the bound from the close cutting a work to any absence of a finished work at the time of marking. It is a reading, stated in G16, not an amendment. At D3a-09 I carried it to A07's group, to weigh whether the form belongs in A07's bound or in P11's statement.
+
+**What the reading decided.**
+- **At D3a-09:** it made a family of 24 paired elaborations in 14 rooms, and it decided two absent lines as rejects, because their concepts mark an attempt.
+- **At D3a-11:** G4a, applied backwards, moved the family's 11 add and link lines, and 2 P12 add lines, to specifications naming A07.
+- **For this leg:** it makes 13 of the 16 counted instantiate and restrict lines specifications naming A07.
+
+**The 28 lines that cite the reading,** by what their concepts show. I took the hours from `cite.py` or from my reasons.
+
+| what the concepts show | lines | instantiate and restrict (elaborations now) | add, link and P12 (specifications naming A07 now) | absent (rejects now) |
+|---|---|---|---|---|
+| the close cut an unfinished work, marked at or after the close (the bound's words) | 9 | albania-032, chess-011, homelab-034, homelab-035, ultrahardcore-031 | aeon-013, aeon-016, chess-056, chess-059 | |
+| mixed: the goal failed before the close and a part still standing is marked at the close, or the close stopped a plan with no work placed | 3 | kamenrider-021 | kamenrider-022 | aeskwadraat-016 |
+| a work lost, given up or left unfinished before the close | 16 | Thegreatblackhole-038, battlecats-048, columbia-049, raocow-022, warthunder-057, warthunder-058, mizzou-011 | battlecats-049, columbia-050, columbia-052, faeria-048, indonesia-056, indonesia-059, raocow-057, portal-048 | wsu-037 |
+
+The evidence, in short:
+- **The bound's words.**
+  - albania c0048, at hour 73.17: 'we managed to build half of the eagle before the game closed; we are proud of half our flag'.
+  - chess: the knight was unfinished at the close. c0063 'Rip r/place' comes at hour 74.11, and c0072 says 'Means a lot even if it never got finished!'.
+  - homelab c0053, at hour 79.28: 'I can see the logo started but we ran out of time'.
+  - ultrahardcore c0213: the close came 'before we were done'.
+  - aeon c0004 and c0005: the close came when the drawing was nearly finished.
+- **Mixed.**
+  - kamenrider c0022, at hour 59.9: 'we didn't achieve our goals, but at least we got a part of Mighty on the canvas!'. Then c0041, at hour 73.17: 'it's Game Over. At least you can see the eye'.
+  - aeskwadraat: c0003, at hour 69.96, is still shrinking the design for want of people. Then c0005, at hour 73.27: 'place is gestopt ... Leuk geprobeerd' ('place has stopped ... a nice try').
+- **Before the close.**
+  - Thegreatblackhole c0056: bots killed the work by hour 72.2.
+  - battlecats c0185, at hour 65.6: 'It has been destroyed now, but we did it!'.
+  - columbia: the work was 'paved over by a blue blob'.
+  - faeria: a half-built work was given up.
+  - indonesia c0118, at hour 73.48: 'WE HAVE NO FLAG', in a thread mourning a lost flag.
+  - raocow c0052, at hour 73.27: 'we had it up for a couple hours'.
+  - warthunder c0081, at hour 58.9: the plane is 'half way through' and 'kinda ... a WWII wreck'.
+  - mizzou: the spot was lost, and the room had no final spot.
+  - portal c0040, at hour 27.0: 'This isn't going anywhere'.
+  - wsu: the work was drawn over by hour 53.1.
+
+**The lines that rest on the wider reading: 19** (the mixed 3 and the 16 before the close). They keep their present rulings until J decides:
+- 8 instantiate and restrict lines stay paired elaborations: Thegreatblackhole-038, battlecats-048, columbia-049, kamenrider-021, raocow-022, warthunder-057, warthunder-058 and mizzou-011.
+- 9 add, link and P12 lines stay specifications naming A07: battlecats-049, columbia-050, columbia-052, faeria-048, indonesia-056, indonesia-059, kamenrider-022, raocow-057 and portal-048. portal-048 also names A10's bound for the work given up.
+- 2 absent lines stay rejects: aeskwadraat-016 and wsu-037.
+
+**What a narrower reading would change.** Suppose the bound covers only a work cut by the close. Then:
+- the 8 instantiate and restrict lines stay paired elaborations, among themselves;
+- the 9 specifications return to paired elaborations, unless another statement holds them (portal-048 could stand on A10's bound alone);
+- the 2 absent rejects need a fresh reading, to see whether their concepts show P11 as stated;
+- G16's sentence that names the family as the form of A07's bound needs an amendment.
+
+The other choice that I carried at D3a-09 is to state the form in P11's own statement, which would change the element.
+
+**Lines that cite the reading but do not rest on it.**
+- 42 P11 absent lines are evidence limits whose reasons test 'nor an attempt marked'. They are limits under either reading.
+- pebble-032 (`not-needed`) mourns an unfinished icon and marks nothing.
+- ReBoot-053 names A07 as the arrow's order, not its bound.
+
+**A slip found while setting this out.** My D3a-11 reason for raocow-057 says 'a work cut unfinished by hour 73'. But c0052 says the work was up 'for a couple hours' and the canvas 'ended unsuccessfully'. The work was lost before the close, as raocow-022's reason says. The ruling rests on the wider reading and stays as J asks. The reason's wording is wrong.
+
+**Asked.** QD3-007 asks J whether the bound should be read this widely. QD3-006 asks whether the extension applies forward, and whether it reaches the three lines the count found outside the 16.
+
+### The ruling
+
+I ruled 8 of the 16 lines, from `_analysis/d3_rulings/G4aIR-D3a12.jsonl`. The file was checked, run dry and written once. All 8 moved from paired elaboration to specification (`_analysis/d3_rerule_transitions.py --leg D3a-12`):
+- **Madeon-006** (P03, restrict) is a report of a work already done, answering a call to make it. That is P03's own report and A01's bound (the call recruits to a mark already started), as spacexmasterrace-010 is ruled.
+- **redpandas-013** (P04, instantiate) is a revised layout undone until it reaches the room's placers. That is P05's clause on the form the keepers know, as twice-012 is ruled.
+- **yuyuyu-005** (P05, instantiate): members defend the host's land where the room is to write its mark. That is P16's help between rooms, as starcitizen-013 is ruled.
+- **albania-032, chess-011, homelab-034 and ultrahardcore-031** (instantiate) **and homelab-035** (restrict) mark a work the close cut unfinished. That is A07's bound in its own words.
+
+**Kept as ruled.**
+- The 8 instantiate and restrict lines on the wider reading stay paired elaborations (QD3-007).
+- thailand-008, AcePlace-029 and TransFlagPlace-003 stay as ruled (QD3-006).
+
+**Pairs** (`_analysis/d3_pair_kind_check.py`). 11 of 1,010 accepted elaborations now pair with a line of another kind:
+- the 7 older ones listed at D3a-11;
+- 4 P11 lines on the wider reading, whose partners are specifications on the same reading: Thegreatblackhole-038 and battlecats-048 with indonesia-056, and columbia-049 and kamenrider-021 with faeria-048. Both sides wait on QD3-007.
+
+The other four lines on the wider reading pair among themselves: raocow-022, warthunder-057 and warthunder-058 with mizzou-011, and mizzou-011 with warthunder-058. No line I ruled here left an elaboration without its pair.
+
+**No move.** No element, range or arrow changed. The leg changed the kinds of 8 lines and no correction was accepted.
+
+### Close-check, D3a-12
+
+`validate.py D3` reports 10,803 of 42,243 ledger lines ruled, unchanged, and 0 errors. Its 2 warnings are the old ones on history lines 137 and 138. The ledger holds 11,466 lines: 11,458 at the leg's start and 8 re-rulings from this leg, so 663 re-rulings are appended in all. History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. QD3-006 and QD3-007 are open.
