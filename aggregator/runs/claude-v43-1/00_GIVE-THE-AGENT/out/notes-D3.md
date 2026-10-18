@@ -113,6 +113,12 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Thanks to a helper.** Thanks to the helper of a work that stands is P11's lower range even mid-build (catalonia-028). Credit named in a plan or call before the work is up is an elaboration (planetside-036, vocaloid-056).
   - **Dissent beside marking.** An instantiate line that shows P11 as stated beside one member's dissent stays a specification (4chan-060, portugal-060). The dispute is an elaboration only where it is the line's point.
   - **The contest.** Praise for spoiling a rival's mark is A15, not P11 (sabres-030, rejected).
+  - **Marking where no work is up (amendment, 18 October, D3a-13; J, QD3-007; applies backwards).** A07's bound is read in its own words: the close cut the work unfinished, and the room marks the attempt. Such a line names A07. Marking an attempt in any other case is a paired elaboration of P11 that no statement holds: a work lost, erased or given up before the close, a part left after the goal failed, or a plan stopped with no work placed. The sentence above that calls the family 'the form A07's bound names' is superseded. J leaned to stating the wider form in P11's own statement. I judged it better to keep the element and the bound as they are, for three reasons:
+    - T4-026 is declared a completion ritual over 522 rooms, so the revision would need that construct amended too.
+    - No line shows P11 failing; the family adds a form beside the statement.
+    - A family of about 16 rooms is the subform level that D4's clustering weighs.
+
+    The lines that rested on the wider reading are re-ruled by appended lines (section D3a-13).
 - **G4a (amendment, 17 October, D3a-10; forward only).** It sets how an add-condition or add-step line is ruled when its condition or step already sits in the model. The D3a-10 blind check found rulings on such lines moving between specification, elaboration and particular.
   - **The element states it.** If the element's own statement holds the condition or step, the line is a specification, as G9 rules restrict lines.
   - **Another element states it.** If another element or arrow already states it, the line is a specification of its own element, and the reason names the other id. An example is P05's 'upkeep before growth' named in a P02 line. Such a line is not an elaboration, because it brings nothing new into the model.
@@ -143,6 +149,21 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Proposals to ask.** A member's 'we could ask' with no request made is not a request (gameattack-031, winnipegjets-025, zelda-020, rejected; vietnam-013, an evidence limit). A request reported made is one ('Done.', redpandas-025, lexington-019).
   - **Own damage undone.** Undoing the room's own damage on a neighbour's work is P07's restoration. An offer to repair the neighbour's work against any vandal is P16's (seahawks-028).
   - **Smaller forms.** A plan supplied by another room is help passed as a tool (eder-011). A warning to a neighbour under attack is help (swordartonline-012). A request made after hour 73 is still a request between rooms, though no help could follow on this canvas (sadboys-024).
+- **G18 (logged at D3a-13, before P08's lines were ruled).** P08 is shown when a concept shows the room and another room talking terms about where their works meet or how each will treat the other's work. The talk may be by members, by an envoy, or in a chat, and it may be read from either room's record. That covers:
+  - proposing or asking a border, a space, a truce, a ceasefire, a deal or a treaty (one offer or request with no reply is P08's lower range);
+  - settling one: terms agreed, a line drawn, space granted or conceded by talk;
+  - contesting one: disputing a border, refusing terms, or accusing the other room of breaking a deal;
+  - holding each other to one: invoking or reminding of an agreed border or deal, complaining of a breach, or ending the agreement;
+  - a member reporting to the room that such terms exist ('we have a treaty with them'), or asking members to keep to them.
+
+  It is not shown by sparing a neighbour with no terms named (P07), by help or barter whose terms concern help only (P16; G17 counts terms that trade help for space as both), by an attack (P09), by taunts with no terms (P18), or by forming an alliance to defend each other (P17). Nor is it shown by locating the work by its neighbours (P04's landmark family), or by a member's report that neighbours exist. Candidates and tentative entries do not count as statements that hold a line under G4a. A host ruling guests by a standing regime (applications, votes, rules for guests) is P19's form, a candidate, so such a line is a paired elaboration. A dispute over who may commit the room to an agreement is P21's form, a tentative field entry, so such a line is a paired elaboration, carried to P21's group to be read again once P21 is ruled. A single request for space beside or inside another room's work, and its answer, are P08's terms as stated. Arrows that may hold an add or link line under G4a: A04 (keeping before border talk; its bound has late rooms asking for space first), A05 (a settled border before sparing), A14 (border talk before help), A17 (an attack call met by a truce or a deal) and A21 (tentative). P08 is not stated as universal, so its absent lines are never corrections; G2 and G3 rule them. Restrict and contradict lines fall under G9. Under G4a, as amended at D3a-12 and applied forward (QD3-006), instantiate and restrict lines whose form another statement holds are specifications naming it. Draws follow G1b: one draw of ten lines per 100-line instantiate packet. Readings stated while ruling, each logged when stated and checked backwards, none an amendment:
+  - **Appeals with no terms** (stated at instantiate line 12; made exact at line 413). P09 names encroaching as an attack. So an appeal to another room to stop damaging or encroaching on the work is P07's 'appeal to attackers to stop' where it names no limit, place, condition or exchange and no settlement follows (CelticFc-012, iastate-020, portal-022). Where the talk names a limit or a place, or the other side agrees, moves or sets a limit, it is P08 (Clannad-011, colorado-016, haskell-017).
+  - **Choices inside the room** that leave a neighbour room, with no talk to it, are P02 and P07 (Dorset-008, PinkUnion-018, ethoslab-012).
+  - **Proposals to ask** (stated at instantiate line 111, as G17 reads them). A member's proposal inside the room to ask for space, permission or a treaty, with no request made, is not P08's terms. Ten lines were rejected under it, among them battlecats-029, catholicism-027 and fullcommunism-009. A request reported made is P08 ('Just posted in there').
+  - **A host's answer** (stated at instantiate line 87; made exact at line 233). One request and its answer are P08's terms, whether the answer comes from a member, a moderator, a vote or an application to a host (albania-021, gamindustri-014, canucks-024). P19's form is the host's standing regime as the host's own record shows it.
+  - **A lone placer** who speaks for no room is P05 and P07, not P08 (anaheimducks-029). Where peace is settled with the maker of a neighbouring work, and the record does not show whether that maker spoke for a room, the line is an evidence limit (uruguay-024).
+  - **Joint marks** are P17's. They are P08 where the talk sets a border, a space or terms beside them (afip-017 rejected; FinalFantasy-022, cfb-016 and germany-013 accepted).
+  - **Help traded for help** is P16's (falcons-033, nin-023, rangers-009, ufl-009, vegan-008, parrots-028). Help given on condition of non-interference is P08 (shishamo-008).
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -1339,3 +1360,157 @@ The other four lines on the wider reading pair among themselves: raocow-022, war
 ### Close-check, D3a-12
 
 `validate.py D3` reports 10,803 of 42,243 ledger lines ruled, unchanged, and 0 errors. Its 2 warnings are the old ones on history lines 137 and 138. The ledger holds 11,466 lines: 11,458 at the leg's start and 8 re-rulings from this leg, so 663 re-rulings are appended in all. History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. QD3-006 and QD3-007 are open.
+
+## D3a-13: J's answers to QD3-006 and QD3-007
+
+Both answers came during the leg, after P08's group was opened and before any P08 line was ruled. I acted on them first.
+
+**QD3-006.** J's leaning: 'apply the extension forward; thailand-008 stays as ruled; pair AcePlace-029 and TransFlagPlace-003 as one paired elaboration. But you know these rooms: do what you judge best, and record why.' I judged the same.
+- **Forward.** This was my meanwhile, so nothing rested on a wrong assumption.
+- **thailand-008 stays a particular.** The line is about whom the coder took as the starter, which is clause 3's ground. Its concept, an apology for a third flag meant to enlarge the work, shows no start.
+- **AcePlace-029 and TransFlagPlace-003 are now a paired elaboration of R01.** Each shows a start on a board opened after the close. No statement holds that, and two rooms show it, so clause 4 pairs them. Successor canvases are paired the same way elsewhere.
+
+**QD3-007.** J's leaning: 'state the wider form in P11's own statement, as a revision of the element, rather than stretch A07's bound. If you would rather not revise an element in D3, keep the bound to the close cutting the work. You are the one who has read the population: judge which is best, and record why.' I kept the bound to its words and did not revise P11. The amendment and its three reasons are written under G16. In short:
+- P11's fourth-order theme is a completion ritual over 522 rooms.
+- No line shows P11 failing.
+- The family of about 16 rooms is the subform level that D4's clustering weighs.
+
+**Re-rulings** (`_analysis/d3_rulings/G16A-D3a13.jsonl`, 15 lines; checked, run dry, written once; the ledger now holds 11,481 lines):
+- **Back to paired elaborations, within the family: 9 lines** that named A07 on the wider reading. They are battlecats-049 (pair Thegreatblackhole-038), columbia-050 (mizzou-011), columbia-052 (indonesia-059), faeria-048 (kamenrider-021), indonesia-056 (raocow-022), indonesia-059 (columbia-052) and kamenrider-022 (faeria-048) for P11, and raocow-057 and portal-048 for P12, each the other's pair. raocow-057's new reason corrects the D3a-11 wording.
+- **Read again: 2 absent lines** that were rejects. aeskwadraat-016 (a plan stopped by the close, then 'a nice try') and wsu-037 (a lost work's 'good effort') show the family's form. They show neither P11 as stated nor a clean absence of it, so both are now evidence limits.
+- **Reasons corrected, kind and pair kept: 2 lines.** mizzou-011 and warthunder-058 no longer say that A07's bound names their form.
+- **Paired: 2 lines,** AcePlace-029 and TransFlagPlace-003 (QD3-006).
+
+The 9 lines on the bound's own words keep their rulings as specifications naming A07. They are albania-032, chess-011, homelab-034, homelab-035 and ultrahardcore-031, ruled at D3a-12, and aeon-013, aeon-016, chess-056 and chess-059.
+
+**Pairs.** The pair check now finds 7 elaborations whose pair is another kind: the 7 older ones. The family's elaborations all pair within the family.
+
+**No move.** No element, range or arrow changed. The family 'marking an attempt that ended without a finished work' (P11, about 16 rooms) is carried to D4's clustering as a candidate subform of the completion ritual.
+
+## D3a-13: P08, borders, truces and deals
+
+P08 is the standing element of T4-016 (Negotiated order). The field's tentative entry P21 sits under the same fourth-order theme and takes its own group. P08's statement reads: 'Rooms propose, settle and contest borders, truces and deals with neighbours by talk, through envoys, and hold each other to them.' Its range runs from a one-line border agreed in a thread to treaties across languages kept and broken over a day. It has stood since C2's first pass. A04 (P05 to P08) runs into it; A05 (to P07), A14 (to P16) and the tentative A21 (to P21) run out of it; A17 runs from P09 to it. No finding touches P08. All 969 lines are ruled under G18 and G4a, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_family_counts.py` and `d3_g4ab_tally.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 589 | 544 | 0 | 0 | 3 | 15 | 27 |
+| absent (129 `unobserved`, 4 `not-testable`) | 133 | 0 | 0 | 0 | 124 | 1 | 8 |
+| add-step | 127 | 93 | 25 | 0 | 5 | 4 | 0 |
+| add-condition | 68 | 35 | 31 | 0 | 1 | 1 | 0 |
+| link | 36 | 24 | 11 | 0 | 1 | 0 | 0 |
+| restrict | 16 | 10 | 1 | 0 | 5 | 0 | 0 |
+| all | 969 | 706 | 68 | 0 | 139 | 21 | 35 |
+
+703 rooms have a P08 line. P08 is shown in 546 of the 705 rooms, and in 530 of them an instantiate line is accepted. 157 rooms have P08 lines and none shows it. No line records an evidenced absence.
+
+**What the rulings show**, by rooms whose reasons name a form (`d3_field_entry_counts.py`; a room can show several):
+- truces, treaties, peace or pacts: 222 rooms;
+- borders or boundaries: 186;
+- moves or relocations settled by talk: 146;
+- terms that trade something (in return, in exchange, for help, for space): 82;
+- permission or approval: 79;
+- talk carried in a chat (Discord, IRC, Telegram): 75;
+- envoys, diplomats, ambassadors or representatives: 32;
+- agreements broken or contested as broken: 24.
+
+42 rooms' reasons place the line at P08's lower range: one offer, one request, one claim or one report.
+
+**Restrict: no correction.** Most restrict lines say that the record shows a proposal and not a settlement, or a member's commitment and not every placer's. P08 claims neither: its statement holds proposing, and its range holds agreements kept and broken. So no restrict line shows P08 failing. 10 are specifications by their concepts. 5 are evidence limits, where the concepts show no terms at all (CelticFc-013, cuboulder-017, k_on-014, penguins-024, uiowa-052). norway-016 is a paired elaboration of P21's form.
+
+**Add and link lines under G4a**, by what the specifications name (`d3_g4ab_tally.py --prefix P08-addcond`, `P08-addstep`, `P08-link`):
+- **P05's clause on the form the keepers know: 28 add lines (11 add-condition, 17 add-step).** The room's own keepers or scripts undo an agreed change until they are told, so the agreement has to be carried to them: harrypotter-028, giantbomb-034, skyrim-053, rotmg-017. megaman-035 names P05's 'upkeep before growth' instead.
+- **A04: 21 lines (3 add-condition, 7 add-step, 11 link).** Border talk comes during building, at a new site, or before the room has a mark to keep, which is A04's bound. darksouls-058 names A04's connection and mechanism instead.
+- **K02: 6.** Terms are accepted because the room judges it would lose the fight (korea-022, israel-025, farmcarrots-023).
+- **P16: 5.** Space is traded for help.
+- **A14: 3.** Help comes before or after border terms, A14's connection and bound.
+- **A05: 3.** Sparing comes before talk, or talk is missing before attacks.
+- **P02: 3.** Terms are refused, or made, by what the mark shows.
+- **A17: 2.** A call to fight is met by a truce.
+- **P14: 2.** One script or bot holds both rooms' works.
+- **P20: 2.** An automoderator removes a peace request, or members object to a flood of petitions.
+- **K01: 1** (a truce offered as a joke) and **C01: 1** (war or retreat left to the moderators).
+- **P08's own statement or range: 75.**
+
+**The 68 elaborations, by family** (all paired; lines, then rooms; `d3_family_counts.py`):
+
+| family | lines | rooms | ops | examples |
+|---|---|---|---|---|
+| P21's form, a tentative entry: an agreement that cannot bind every placer, a member disclaiming that their word commits the room, or a counterpart needed who can act for the group | 30 | 29 | add-condition 19, add-step 10, restrict 1 | bisexual-030, sixers-042, splatoon-015, liquicity-024 |
+| P19's form, a candidate: a host's approval rights or standing rules over guests | 9 | 9 | add-condition 7, add-step 2 | gamindustri-016, maryland-016, warframe-052 |
+| a room's expansion into a neighbour prompting terms (no arrow runs from P02's enlarging to P08) | 5 | 5 | link 5 | czech-028, factorio-024, placecanada-028 |
+| terms that sacrifice a third room's work | 3 | 3 | add-step 3 | Dustforce-021, germany-014, uofmn-054 |
+| working out who placed the damage before taking responsibility under terms (P06's form, a candidate) | 3 | 3 | add-step 3 | faeria-022, megaman-034, ucf-016 |
+| border talk on a successor canvas | 3 | 3 | link 3 | ainbowroad-041, frankocean-058, sadboys-038 |
+| terms pressed by a stronger neighbour | 3 | 3 | add-condition 3 | borussiadortmund-027, earthbound-020, eesti-045 |
+| terms across a rivalry from before the canvas | 2 | 2 | add-step 2 | AyyMD-057, edmontonoilers-063 |
+| a work read as abandoned before terms | 2 | 2 | add-step 2 | NewMexico-024, hoodr-019 |
+| records used as proof of who was first | 2 | 2 | add-step 2 | costa_rica-052, worldpowers-023 |
+| few hands drawing a neighbour into terms (K02 states the judgment, not its link to P08) | 2 | 2 | link 2 | redhotchilipeppers-006, rwby-024 |
+| damage destroying trust in terms | 2 | 2 | add-condition 2 | GreenCorner-030, eesti-044 |
+| a truce that ends with the canvas | 2 | 2 | add-step 1, link 1 | liverpoolfc-031, reddevils-043 |
+
+**What the 35 rejects show.**
+- **Instantiate, 27:**
+  - 10 proposals inside the room to ask, with no request made (reading at line 111);
+  - 6 cases of help traded for help (P16);
+  - 5 choices or tacit yielding inside the room (Dorset-008, PinkUnion-018, ethoslab-012, freedomplanet-017, mordhau-016);
+  - 3 appeals to stop damage with no terms (P07);
+  - 1 joint mark with no terms (afip-017);
+  - 1 request to a lone placer (anaheimducks-029);
+  - 1 report of other factions' agreements in general (minecraft-023).
+- **Absent, 8.** Each line's concepts show P08, so the claim of absence fails:
+  - talks reported (CSUFoCo-023);
+  - a sign's terms settled between two DC rooms (DCFU-009);
+  - claims to space traded (TreePlace-018);
+  - requests for space made (WisconsinBadgers-014, guatemala-019, tetris-024);
+  - a placement offered and accepted (carletonu-018);
+  - a peace invoked (buffalowizards-014).
+
+  buffalowizards-014 and carletonu-018 were marked `not-testable`.
+
+**Absent lines.** No line is marked `observed-absent` or `not-needed`, so P08 has no evidenced absence. The 124 evidence limits show calls, defence, locations, help (P16), alliances (P17), appeals (P07) and choices inside the room, with no terms talked between rooms. For the three lines whose placements carry P08, I read the concepts first.
+
+**Particulars, 21.**
+- **Failing portability (17):**
+  - instantiate: FaroeIslands-013, RelientK-019, RelientK-020, ainbowroad-017, chicago-021, czech-025, dragonquest-021, drawhelix-027, elitedangerous-020, frankocean-025, furry_irl-023, gameofthrones-029, lakers-029, spain-010, startrek-020;
+  - absent: bahrain-010;
+  - add-step: monsterhunter-026.
+- **One room only (4).** A search of P08's lines found no second room for any of them.
+  - starvstheforcesofevil-027: a neighbour agrees to move because its scripts can carry the move.
+  - floridagators-055: a room mediating between two other rooms.
+  - onepunchman-023: priority in a claim to space by a community's age.
+  - utahjazz-031: outreach to a neighbour, blamed for drawing resistance, withdrawn.
+
+**Re-ruled in this leg.**
+- liverpoolfc-031 changed from particular to a paired elaboration. When the links were read, reddevils-043 showed the other side of the same truce ending with the canvas.
+- Four reasons were reworded with they/them, with the same rulings (`P08-pronouns.jsonl`).
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or contradict line was accepted as a correction. P08 stands as served, and no move was made.
+
+**Repairs (G7).** Repairs made no difference. Repaired rooms were 0.939 accepted (522 lines), and unrepaired rooms 0.946 (447 lines).
+
+**Carried to later groups.**
+- **P21's form** (30 lines, 29 rooms) goes to P21's group. Once P21's status is ruled, these lines are read again under G4a.
+- **P19's form** (9 lines) goes to P19's group.
+- **Border talk before the room has a mark to keep** (21 add and link lines name A04's bound or connection) goes to A04's group. It is the commonest route the add and link lines show into P08.
+- **Agreed changes carried to the keepers** (28 add lines name P05's clause). Agreements with neighbours are among the changes the clause covers, for P05's re-check rooms.
+- **Terms against a third room and terms across a rivalry from before the canvas** go beside A15, A19, C02 and K03, as P16's families do.
+- **Expansion into a neighbour prompting terms** (5 links; no arrow) and **few hands drawing terms** (2 links) go to the clustering.
+- **Attribution before responsibility** (3) goes beside the candidate P06.
+- **Records as proof in a contest over space** (2) go beside P12's records in P22's contests (uwaterloo-053).
+- **Border talk on successor canvases** (3) joins the successor-canvas families of P05, P04, P11 and R01.
+
+**Disclosed limits and slips.**
+- **Draws.** There were six seeded draws over the instantiate lines, at verb offsets 328 to 828, ten lines each. The first covered 99 of its packet's lines in the verb's order. None found an unsupported line.
+- **Counts logged before the tally.** The first notes on the add-condition and add-step lines gave counts by named statement from my own count, and some were wrong (P05, K02, A04). Later notes correct them from `d3_g4ab_tally.py`.
+- **Pronouns.** Four reasons gave members a pronoun the record does not state. They were re-ruled with the same decisions (see above). Pronouns for the fictional characters in the artworks stay.
+- **liverpoolfc-031** was first ruled a particular, before the link lines that held its pair were read.
+- **Two Edits in one turn.** While updating the head, I sent two Edits to `_head.md` in one turn, against the rule on parallel writes. Both applied to different passages, and the head was then checked whole (3,000 words; links resolve).
+
+### Close-check, D3a-13
+
+`validate.py D3` reports 11,772 of 42,243 ledger lines ruled: the 10,803 before this leg and P08's 969. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 12,455 lines: 969 first rulings and 20 re-rulings from this leg (15 under G16's amendment and QD3-006, 4 pronoun corrections, 1 pair found). That makes 683 appended re-rulings in all.
+- **Pairs.** All 69 pairs in P08's files name a P08 line (`d3_pair_check.py`). Across the ledger, 7 elaborations, the 7 older ones, pair with a line of another kind.
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged.
+- **Questions.** QD3-006 and QD3-007 are answered, and no question is open.
