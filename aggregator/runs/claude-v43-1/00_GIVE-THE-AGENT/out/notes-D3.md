@@ -120,6 +120,10 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Nothing in the model states it.** If no part of the model states it and the room's concepts show it, the line is a paired elaboration where a second room shows it, and a particular where only one room does (G4, G6). The search for a second room is part of the ruling.
 
   It applies from D3a-10 forward and does not apply backwards. Earlier legs ruled some such lines as paired elaborations or particulars, and those rulings stand. I have asked J whether to apply it backwards (QD3-003).
+  - **Backward (amendment, 18 October, D3a-11).** J answered QD3-003: 'Backward I would say.' The sentence above no longer holds. G4a applies backwards to every add-condition and add-step line of the closed groups (R01, P01, P02, P05, P04, P12 and P22, K01, P03 and P11). Each changed ruling is an appended re-ruling, and the earlier line stays in the ledger.
+  - **What 'states it' means.** The relation the line adds must be stated: in the element's statement or range, in another element's statement or range, or in an arrow's connection, bound or mechanism. Another element naming the act alone does not state a link that no statement or arrow draws. This is how G4a was applied to P16, and the backward pass applies it the same way. A script handed to another room to run itself stays an elaboration, though P14 names scripts. Another room's bot set to keep the room's work is P14's range ('a shared bot holding several rooms' works'), so that line is a specification (RelientK-040 and spacexmasterrace-025, corrected at D3a-11).
+  - **Link lines.** G4a as written covers add-condition and add-step lines only. At D3a-10 I cited it on P16's 33 link lines without an amendment, which was a slip. I asked J whether G4a should cover link lines (QD3-004).
+  - **Link lines (amendment, 18 October, D3a-11).** J answered QD3-004: 'Amend G4a to cover link lines and apply it backwards to them as well.' A link line is a specification, naming the id, where the element's statement or range, another element's statement or range, or an arrow's connection, bound or mechanism already states the link it adds. A link that no part of the model states stays a paired elaboration with a second room, or a particular with one. The amendment applies backwards to the link lines of the closed groups, by appended re-rulings. P16's links were ruled this way at D3a-10 and stand.
 - **G17 (logged at D3a-10, before P16's lines were ruled).** P16 is shown when a concept shows help passing between the room and another room, read from either room's record. That covers:
   - pixels given to another room's work, repair or defence of it, and help arriving from another room;
   - requests for help, made or arriving (a call to kindred rooms is also P01's);
@@ -1088,3 +1092,152 @@ P16 stands alone in T4-017 (help between rooms). Its statement reads: 'Rooms hel
 ### Close-check, D3a-10
 
 `validate.py D3` reports 10,803 of 42,243 ledger lines ruled. That is the 9,818 ruled through D3a-09 and P16's 985. It reports 0 errors and 2 warnings, the same two as before: history lines 137 and 138, which name move 174 'stabilizing' (line 139 records the correct name). All 37 pairs in P16's files name a P16 line (`_analysis/d3_pair_check.py`). The ledger holds 10,822 lines, 19 of them appended re-rulings across the legs, none from this leg. History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561. None of those ledgers changed in this leg. The blind check's files are in `_analysis/d3_blind/`. QD3-003 is open.
+
+## D3a-11: G4a applied backwards (QD3-003, QD3-004)
+
+J answered QD3-003: 'Backward I would say.' During the leg J answered QD3-004: 'Amend G4a to cover link lines and apply it backwards to them as well.' Both amendments are written under G4a in the ruling rules, dated 18 October. I logged the rules for the pass before I re-ruled any line.
+
+**Scope.** The pass read again every add-condition, add-step and link line of the closed groups that stood as a paired elaboration or a particular: R01, P01, P02, P05, P04, P12 and P22, K01, P03 and P11. It also checked P16's add lines, which G4a ruled at D3a-10. It did not re-rule instantiate, restrict, contradict or absent lines, and it changed no correction, so moves 172 to 174 stand.
+
+**How.** For each line I asked one question. Is the relation the line adds already stated in its element's statement or range, in another element's statement or range, or in an arrow's connection, bound or mechanism? `_analysis/d3_arrows_brief.py` prints the arrows' parts for this. Where one statement held a whole family, `_analysis/d3_g4ab_family_rows.py` wrote the family's rows from a phrase over my earlier reasons. It keeps each line's own evidence and adds the statement the line now names. I read the ids it chose before the batch writer ran, and I ruled the other lines one by one. Each change is an appended re-ruling, and the earlier line stays in the ledger. The 636 re-rulings came from 19 files in `_analysis/d3_rulings/`: `G4aB-*` for add lines and `G4aL-*` for links. Each file was checked and run dry before it was written.
+
+**What changed** (`_analysis/d3_rerule_transitions.py --leg D3a-11`):
+- 614 paired elaborations became specifications.
+- 11 particulars became specifications.
+- 11 elaborations kept their kind and took a new pair, because their first pair had become a specification.
+- 2 of the 625 changes to specification are P16 lines ruled at D3a-10 (below). The other 623 are in the closed groups.
+
+The add and link lines of each group, before the leg and after it (`_analysis/d3_g4a_before_after.py`; a cell with one figure did not change; the 'after' figures match `d3_opkind.py`):
+
+| group | op | lines | specification | elaboration | correction | evidence limit | particular | reject |
+|---|---|---|---|---|---|---|---|---|
+| R01 | add-condition | 3 | 0 | 1 | 0 | 1 | 1 | 0 |
+| R01 | add-step | 3 | 0 → 1 | 2 | 0 | 0 | 1 → 0 | 0 |
+| P01 | add-condition | 53 | 0 → 9 | 39 → 32 | 0 | 6 | 8 → 6 | 0 |
+| P01 | add-step | 155 | 2 → 3 | 141 | 0 | 0 | 12 → 11 | 0 |
+| P01 | link | 60 | 1 → 11 | 52 → 44 | 0 | 0 | 7 → 5 | 0 |
+| P02 | add-condition | 55 | 2 → 31 | 49 → 20 | 0 | 0 | 4 | 0 |
+| P02 | add-step | 115 | 7 → 46 | 102 → 63 | 0 | 3 | 3 | 0 |
+| P02 | link | 84 | 1 → 43 | 81 → 39 | 0 | 2 | 0 | 0 |
+| P05 | add-condition | 91 | 3 → 65 | 84 → 22 | 0 | 2 | 2 | 0 |
+| P05 | add-step | 127 | 19 → 69 | 103 → 53 | 0 | 2 | 3 | 0 |
+| P05 | link | 93 | 2 → 34 | 88 → 56 | 0 | 0 | 3 | 0 |
+| P04 | add-condition | 47 | 2 → 35 | 44 → 12 | 0 | 0 | 1 → 0 | 0 |
+| P04 | add-step | 198 | 4 → 93 | 192 → 104 | 0 | 0 | 2 → 1 | 0 |
+| P04 | link | 39 | 0 → 27 | 38 → 12 | 0 | 0 | 1 → 0 | 0 |
+| P12 | add-condition | 14 | 10 | 2 | 0 | 2 | 0 | 0 |
+| P12 | add-step | 104 | 36 → 45 | 64 → 55 | 0 | 2 | 2 | 0 |
+| P12 | link | 24 | 9 → 10 | 15 → 14 | 0 | 0 | 0 | 0 |
+| P22 | add-condition | 12 | 3 → 11 | 8 → 0 | 0 | 1 | 0 | 0 |
+| P22 | add-step | 12 | 6 → 10 | 5 → 1 | 0 | 1 | 0 | 0 |
+| P22 | link | 3 | 1 → 3 | 2 → 0 | 0 | 0 | 0 | 0 |
+| K01 | add-condition | 50 | 2 → 6 | 44 → 40 | 0 | 4 | 0 | 0 |
+| K01 | add-step | 196 | 35 → 76 | 146 → 105 | 0 | 11 | 4 | 0 |
+| K01 | link | 5 | 2 → 3 | 2 → 1 | 0 | 1 | 0 | 0 |
+| P03 | add-condition | 16 | 1 | 11 | 0 | 2 | 2 | 0 |
+| P03 | add-step | 69 | 9 → 13 | 45 → 41 | 0 | 13 | 2 | 0 |
+| P03 | link | 138 | 3 → 107 | 129 → 26 | 0 | 2 | 4 → 3 | 0 |
+| P11 | add-condition | 42 | 33 → 35 | 7 → 5 | 0 | 0 | 2 | 0 |
+| P11 | add-step | 70 | 46 → 51 | 20 → 15 | 0 | 4 | 0 | 0 |
+| P11 | link | 23 | 4 → 18 | 16 → 3 | 0 | 1 | 2 → 1 | 0 |
+| P16 | add-condition | 96 | 81 | 13 | 0 | 0 | 2 | 0 |
+| P16 | add-step | 48 | 32 → 34 | 15 → 13 | 0 | 1 | 0 | 0 |
+| P16 | link | 33 | 23 | 9 | 0 | 0 | 1 | 0 |
+| all | | 2078 | 379 → 1004 | 1569 → 955 | 0 | 61 | 69 → 58 | 0 |
+
+No other op changed, so each group's other rows stand as its leg's table gives them. The group totals change by these rows: for example, P05 now has 811 specifications and 143 elaborations of 1,092 lines, and P04 has 817 and 147 of 1,034. P16's row in this table is its add-step row after the correction below; the D3a-10 table stands as written then.
+
+**What the re-ruled lines name** (`_analysis/d3_g4ab_tally.py --prefix G4aB-,G4aL- --total`; a line that names two ids counts under each, and 11 lines name two):
+- **The line's own element: 255.** Of these, 105 are P05's lines (upkeep before growth, covering the night, hardening the shape) and 72 are P04's. K01's own clause ('a claim … may be a joke') and its takeovers hold most of K01's.
+- **P10: 104.** These are the 88 links of P03's rebuild family, 10 of P04's links and 6 of P02's lines: 'a new spot, a smaller version, a fresh start'.
+- **P05: 88.** By a phrase count over the reasons, 68 name its clause on the form the keepers know (a planned change repaired away until the keepers are told), 15 'upkeep before growth', 4 its rallying to defend and 1 the night or the shape.
+- **K02: 28** (too few hands or too little room, for designs sized to the hands). **P16: 23** (help and barter). **P22: 22** ('After placement ends': the close, corrected accounts, the cleanup). **P08: 22** (borders and deals held). **P07: 19** (sparing neighbours). **C01: 13** (a vote, a sanction, a division of the work). **A07: 13** (A07's bound, marking an attempt the close cut short). **A08: 9** (A08's bound, 'On the late side the record often comes first').
+- **Fewer than 8 each:** P17 7 (joint marks); K01, P20 and A06 4 each; A10, A19, P01 and A04 3 each; P12 and P14 2 each (P14's range, 'a shared bot holding several rooms' works'); A16, A03, A20, P13 ('the mark in its banner') and A13 1 each.
+
+**One form can differ in kind by op.** The add-step line h3h3productions-009 declares the logo done and moves the work to an addition above it. Adding to a mark is P02's own statement, so the line is a specification. The link line uiuc-052 adds that a finished work reopens the design. No statement or arrow draws that relation, so it stays a paired elaboration (with giivasunner-062). The step is stated; the relation is not.
+
+**Families that stay paired elaborations**, because no statement or arrow states the relation they add:
+- chats that take the call's organizing off the record (GreenCorner-011);
+- teaching members how the canvas works (MMA-012);
+- calls renewed after a loss, a move or a completion;
+- visibility, landmarks and directions given in a form each device can use (nyjets-011);
+- successor canvases (catholicism-056, hungary-030);
+- a visible mark drawing helpers or keepers, and layouts passed between rooms;
+- scripts that hold a work against a change members want (dota2-071);
+- a host's approval deciding where the room builds, which is P19's side, a candidate (pakistan-022, re-paired);
+- members bounding K01's licence by their own norms (catholicism-044), play outlasting the day, and jokes made real;
+- P12's records gathered as data or archives (placeDE-058) and its meanings of flaws;
+- P11's disputes over the marking, progress celebrated before the work is up, and recognition sought from the creators a work depicts (funhaus-055).
+
+**P03's rebuild family.** I carried 88 P03 links in 87 rooms at D3a-08 as 'rebuilding after a loss or move … no arrow'. They now name P10's statement, which holds the fresh start after a loss. No arrow runs from P10 to P03, but the statement holds the relation, so the family is no longer carried as unstated.
+
+**P11's links.** Nine links now name A08's bound: the record of the work comes before its marking (belgium-056, dota2-057). Four name A07's bound: the attempt is marked when the close cut the work short (aeon-016, columbia-052). One particular, nuclearthrone-041, names P20's 'remove canvas posts by rule'.
+
+**P22, and move 174's list.** Move 174's history line lists elaborations 'left to D4'. It names 16 lines. 14 of them are now specifications on P22's own statement: 12 add lines (anime-062, europe-037, AyyMD-056) and 2 links (AyyMD-061 and bih-058, a cleanup of a shared copy asked to fix the work). fivenightsatfreddys-059, a restrict line, was already a specification. uwaterloo-053 stays a paired elaboration: an account tested against the record ties P12's records to P22's contests, and nothing in the model states that tie. The history line stays as written. This note records where its list now stands.
+
+**P16, corrected.** At D3a-10 I ruled RelientK-040 and spacexmasterrace-025 as help passed as a tool. Each is another room's bot or script set to keep the room's work, which P14's range states ('a shared bot holding several rooms' works'). I missed the range then. Both are now specifications of P16 naming P14. The other three lines of that family (aeon-011, sips-020, phish-026) hand a script to another room to run itself. No statement holds that, and they stay elaborations.
+
+**The pair check** (`_analysis/d3_pair_kind_check.py`, over every accepted elaboration). After the pass, 23 accepted elaborations had a pair whose latest ruling is no longer an accepted elaboration. Six were add lines inside G4a, and `G4aB-pairfix.jsonl` fixed them. batman-020 now names P17. wholesomememes-043 and wine-013 rest on P02's own statement. cloud9-054, drawhelix-019 and feedthebeast-024 took new pairs in their own families. The check now finds 17 of 1,018:
+- **7 pair an add line with a partner ruled before this leg** as a specification or a correction, at D3a-01 to D3a-07: GuildWars2-055, lego-034, magictcg-034, coldplay-013, DCFU-056, uwaterloo-053 and yugioh-009. They stand under G4. G4 pairs a line with a second room's line that makes the same point in substance, whatever the partner's node.
+- **10 are instantiate or restrict lines, which G4a does not cover.** Seven are P11 instantiate lines that mark an attempt where no work is up: Thegreatblackhole-038, albania-032, battlecats-048, chess-011, columbia-049, kamenrider-021 and ultrahardcore-031. The other three are redpandas-013 (P04), yuyuyu-005 (P05) and Madeon-006 (P03, restrict). They stand under G1, G9 and G16 with their pairs kept. QD3-005 asks J whether G4a's second clause should reach them.
+
+**Carried items that changed.**
+- **Rebuilding after a loss or move (P03)** is now named by P10's statement. It leaves the carried list.
+- **P11's marked attempts and record-first marking.** The add and link lines now name A07's and A08's bounds. The instantiate lines wait on QD3-005.
+- **The layout telling keepers (P04 into P05), and upkeep against growth.** The add and link lines now name P05's clause on the form the keepers know and its 'upkeep before growth'. redpandas-013 waits on QD3-005.
+- **P22's elaborations left to D4.** Only uwaterloo-053 remains (above).
+- The other carried items are unchanged. They include calls recurring after a loss, a finished work reopening the design, an apology opening help, scripts refused as help, and P19's guests and hosts.
+
+**No move.** No element's statement, range or arrow changed. The pass changed the kinds of lines, not the model. It accepted no correction, so no §2 re-examination is due.
+
+**Slips.**
+- **Counts from memory.** A diary line gave K01's split and P04's figures from memory, and some were wrong. A later line corrects them from `d3_g4ab_tally.py`.
+- **The QD3-005 count.** The question says the pass 'has moved 628 such lines from paired elaboration to specification'. At that moment 628 re-rulings were written. 620 of them moved to specification (609 from paired elaboration and 11 from particular), and 8 kept their kind with a new pair. The pair fixes then added 5 changes and 3 re-pairings. The question does not depend on the count.
+- **G4a on P16's links (D3a-10).** I cited G4a on link lines before any amendment covered them. J's answer to QD3-004 now covers them.
+- **P14's range (D3a-10)**, missed for two P16 lines and corrected above.
+- **Two Edits in one turn.** I sent two Edits to one helper, `d3_g4ab_tally.py`, in one turn, against the rule on parallel writes. Both applied, and the helper's total agrees with the ledger (636 re-rulings by both counts).
+
+### Close-check, D3a-11
+
+`validate.py D3` reports 10,803 of 42,243 ledger lines ruled, unchanged, since this leg wrote re-rulings only. It reports 0 errors and the same 2 warnings (history lines 137 and 138, move 174's 'stabilizing'; line 139 records the correct name). The ledger holds 11,458 lines: 10,822 at the leg's start and 636 re-rulings from this leg. That makes 655 appended re-rulings in all. The pair check finds 17 elaborations whose pair is no longer an elaboration, each accounted for above. History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561. None of those ledgers changed in this leg. QD3-003 and QD3-004 are answered, and QD3-005 is open.
+
+### QD3-005: the count J asked for (after the first close)
+
+J answered QD3-005: 'First count how many instantiate and restrict lines would move; keep them as ruled until I decide.' My meanwhile was the same: those rulings stand as written. So no ruling rested on a wrong assumption, and no ruling changed. I logged the rules for the count before I read any line. The result is a working file, `_analysis/d3_qd3005_count.jsonl`, with one row per line read. Nothing was written to `adjudications.jsonl`.
+
+**The population** (`_analysis/d3_qd3005_population.py`). The eleven closed groups hold 7,320 instantiate and restrict lines. I read the 68 that G4a's second clause could reach: 63 paired elaborations and 5 particulars ruled on one room's evidence. The others stay outside the count, each for a reason:
+- 6,771 specifications already have the kind the clause would give.
+- 233 particulars by construction (portability false, or the room named in the line) stay particulars under rule 5, whatever the model states.
+- 119 evidence limits and 110 rejects rest on what the concepts show, not on where a form sits in the model.
+- 18 corrections were accepted because the element as it stood failed in the room, and moves 172 and 173 rest on them. Another element's statement does not undo that failure.
+- 1 line is a modify (R01).
+
+The first run counted 9 one-room particulars. The reasons of four P22 lines say 'NONPORTABLE', which the helper's pattern missed. They are particulars by construction, and the helper now reads that word.
+
+**The test.** I applied G4a's four clauses as amended at D3a-11, with the same reading of 'states it' as the add-line pass. Where the pass had already ruled a family, I followed it.
+
+**The count** (`_analysis/d3_qd3005_check.py`: all 68 lines appear once, none is missing and none is extra):
+
+| outcome | lines | where |
+|---|---|---|
+| would move to specification | 16 | P11 13 (instantiate 10, restrict 3), P03 restrict 1, P04 instantiate 1, P05 instantiate 1 |
+| uncertain | 1 | R01 restrict 1 (a particular) |
+| would change kind, not to specification | 2 | R01 instantiate 2 (particular to paired elaboration) |
+| stays as ruled | 49 | P04 18, P11 12, P05 11, P03 6, P01 1, P02 1 |
+
+- **The 16 that would move.** All 16 are paired elaborations now.
+  - 13 P11 lines would name A07's bound, the family 'marking where no work is up' (D3a-09). They are Thegreatblackhole-038, albania-032, battlecats-048, chess-011, columbia-049, homelab-034, kamenrider-021, raocow-022, ultrahardcore-031 and warthunder-057 (instantiate), and homelab-035, mizzou-011 and warthunder-058 (restrict).
+  - Madeon-006 (P03, restrict) is a report that the work already exists, answering a call to make it again. It would name P03's own statement and A01's bound, as its pair spacexmasterrace-010 does.
+  - redpandas-013 (P04) is a revised layout that a placer missed until challenged. It would name P05's clause on the form the keepers know, as its pair twice-012 does.
+  - yuyuyu-005 (P05) defends the host's land where the room is to write its mark. It would name P16 (defence of another room's work, help traded for space), as its pair starcitizen-013 does.
+- **Uncertain: thailand-008** (R01, restrict, a one-room particular). It separates the member who starts an enlargement from the unobserved first start. P02's 'adds to it or enlarges it' states the enlargement, so clause 2 would make the line a specification of R01 naming P02. But the line is about whom the coder took as the starter, so clause 3 (a coding rule, ruled by its concepts) may govern it instead.
+- **A change of kind, not a move: AcePlace-029 and TransFlagPlace-003** (R01, particulars). Each is a start on a board opened after the close. Successor canvases stayed elaborations in the add-line pass, so nothing in the model states the form. But the two rooms show the same form, so clause 4 would pair them instead of holding each as a particular.
+- **The 49 that stay**, by family: landmarks (8), successor canvases (9 across P03, P04, P05 and P11), layouts passed between rooms (3), a placed part as the reference (2), outside builders (2), progress celebrated before the work is up (4), credit named before the work is up (2), marking disputed or denied inside the room (4), upkeep and growth weighed, disputed or reversed (4), whether to keep defending (2), and single lines (chats, a screen checked against the refreshed canvas, a few members building, a layout for hand placers beside scripts, the work's state as a signal of the hold, posts taken down, one work let go, calls run in parallel, a refusal to own a mark). Each family stayed an elaboration in the add-line pass, or no statement holds it.
+
+**Pairs.** Each of the 16 is paired with a line that the pass already made a specification, or with another of the 16. No staying elaboration has its pair among the 16, so no pair would break. If the 16 moved, the 10 open-boundary lines listed above would all be resolved. The elaborations whose pair is another kind would fall from 17 to the 7 older ones.
+
+**A reading to weigh with the count.** A07's bound reads: 'Where hour 73 cut the work unfinished, the room marks the attempt instead.' Five of the 13 P11 lines match those words: albania-032, chess-011, homelab-034, homelab-035 and ultrahardcore-031. The other eight mark a work lost, or left unfinished, before the close. For kamenrider-021 the reason does not fix the hour. They rest on the D3a-09 reading of the family 'marking where no work is up' as A07's bound (24 lines in 14 rooms). I carried that reading to A07's group, to weigh whether the form belongs in the bound or in P11's statement. The add and link lines of the family were re-ruled on the same reading this leg (battlecats-049, columbia-050, columbia-052, indonesia-056). If A07's group keeps the bound to the close, those lines and these eight need a fresh look. The reading is not an amendment, and the count follows it as stated.
+
+### Close-check, D3a-11 (after the count)
+
+No ledger changed after the first close. The ledger still holds 11,458 lines, 10,803 of them ruled. History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561. The new files are `_analysis/d3_qd3005_population.py`, `d3_qd3005_check.py`, `d3_latest_grep.py`, `d3_line_fields.py` and the count file. QD3-005 stays open: the 68 lines stand as ruled until J decides.
