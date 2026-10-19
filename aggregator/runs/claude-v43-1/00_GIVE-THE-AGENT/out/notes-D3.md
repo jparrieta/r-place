@@ -306,6 +306,37 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **A fresh start in place, or repair.** Rebuilding a work in its place after it was gone or taken is P10's fresh start (pepe-045, finland-020, lofihiphop-023, DCFU-011). Restoring a work that still stands, or retaking the spot by fighting, is P05 (starryknights-017, CSUFoCo-025, newzealand-023).
   - **A loss and a call not linked.** A loss and a later call may come from different members, hours apart, in different threads. The line is then an evidence limit (kirby-022, patriots-024, mechanicalkeyboards-017, shrooms-019, popheads-008). In one thread they are read together (wsu-020).
   - **What a weighing is.** Weighing a smaller version or a fresh design against defence is P10's weighing (ChronoTrigger-010, columbia-010, eesti-021). Giving the work up rather than rebuilding on others' space is not (paragon-009).
+- **G23 (logged at D3a-18, before K02's lines were read or ruled).** K02 is shown when a concept shows a member of the room judging that the room has too few hands, or too little room, for a work it wants. The forms are the ones K02 names: doubt about the room's numbers, a canvas judged too full, and a work judged absent or outclassed. One member saying there are not enough people is K02's lower range. Defenders told to give up, because the work cannot be held, is its upper end. That covers:
+  - a statement that the room lacks people, hands or numbers to start, build, finish, hold or grow a work;
+  - a judgment that the canvas, or the space the room wants, is too full for the work;
+  - a judgment that a larger group, a script or bots outclass the room, so the work cannot be made or held;
+  - a judgment that the room's work is not on the canvas, or failed, because the room could not make or keep it;
+  - a call to stop defending or to give up, given because the room cannot hold the work.
+
+  The judgment must be stated. So K02 is not shown by:
+  - a call for hands that states no lack (P01's call; 'we need more people' is K02 only where it says the room has too few for the work);
+  - a report of damage or loss with no judgment of the room's hands or room (P05, P12);
+  - a design or site sized small, or a time limit, with no judgment of hands or room stated (P02, P04);
+  - doubt about something else: a design, a neighbour's intent, whether to attack (P02, P08, P07);
+  - a visitor's judgment of the room's numbers, unless members take it up; or a judgment about another group's hands, not the room's own.
+
+  K02 is not stated as universal, so its absent lines are never corrections. G2 and G3 rule them: a `not-needed` or `observed-absent` line is a specification where the concepts show that the room had the hands and room it needed, or met strain without judging itself too few. G9 rules restrict lines. A correction of K02 must state a condition K02 lacks and show K02 failing without it. Corrections met twice at one node trigger §2, and F-019, which touches K02 through A10, would then be re-examined. Under G4a, the statements that may hold an add, link, instantiate or restrict line are:
+  - A10 (doubt before the move after a loss, its bound's early moves by choice, and its mechanism) and P10 (the move that may follow);
+  - A06's mechanism (upkeep outruns one pixel per interval, and members turn to scripts) and P14 (machine hands);
+  - P05 (defence under attack), P01 (calls for hands), P02 (a design sized to the room), P16 and P17 (help asked of others, alliances for hands);
+  - P12 (mourning a failed work), P13 (trying again next time), and P22 for acts cut off by the close.
+
+  Candidates and tentative entries hold no line: P06, P19, P21, R02, K03 and K04. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset.
+- **G23, amendment 1 (D3a-18, 19 October 2026, before any K02 line was ruled; it applies to every K02 line, and no line was ruled before it).** G23's fourth clause said 'a judgment that the room's work is not on the canvas, or failed, because the room could not make or keep it'. K02's statement names 'a work judged absent' as a form of the judgment itself, with no cause added. The clause now reads: a member stating or lamenting that the room's work is not on the canvas (K02's 'a work judged absent'), or that a work failed because the room could not make or keep it. A question that only asks where the work is, with no lament or judgment, does not show K02. The amendment was prompted by GuildWars2 c0166, 'Why don't we have a quaggan in Place?', read while ruling the first packet.
+- **G23's readings, stated while ruling (D3a-18).** They apply G23 and change no rule. The first five were logged when stated. The last three are written here at the close, from the rulings that applied them.
+  - **The close.** A judgment made on a successor canvas after hour 73 is an evidence limit (AcePlace-024), as G20's reading ruled acts after the close. On an add line, a judgment voiced after hour 73 about the event's canvas is a specification naming P22 (nuclearthrone-032), as P10's Dominican-035 was.
+  - **Absent or lost.** A lament that the room never got a work up is K02's 'work judged absent'. A lament for a work that stood and was lost is P12's mourning, unless a lack of hands or room is stated (afip-002 and pusheen-029 against counting-002).
+  - **Calls** (refined at instantiate line 300 and checked backwards). A call that states the size of the shortfall, a consequence of it or a doubt says the room has too few for the work, so it shows K02 (luciomains-021, placestart-034, mordhau-003). A bare exhortation is P01's call (VelvetUnderground-002, neu-032, sakuragakuin-008). babymetal-003 was re-ruled from reject to specification by an appended line.
+  - **A count is not a judgment.** A count of helpers, a joke about the sub's size or a quip on the timer is not K02 (hentai-002, buffalo-002, cgpgrey-006).
+  - **Time under the timer.** Time left, weighed against the placements a work needs, is a judgment of the room's hands (satania-010, naruto-003, redpandas-005).
+  - **Strain in holding.** A member stating that even the present work is hard to keep is K02's lower range (oneplus-005, metalcore-002, mcgill-033). Fear of a neighbour with no judgment of the room's strength is not (anime_irl-039).
+  - **Giving up.** A call to give up, or one member giving up, shows K02 where it states why the work cannot be held: a rival judged stronger, bigger works crowding it out, or the fight declared over (twitch-006, wales-027, wine-006, apocalypserising-052). A bare 'give up', or giving up with only the loss as the reason, does not (rutgers-007, alberta-013, math-025, twitch-003).
+  - **Statements under G4a.** The list above names the statements expected to hold K02's lines. G4a's clause 2 lets any standing statement hold one, as P10's lines named P04 and P16, which G22's list did not name. K02's add lines named P04 (ghibli-014, starlightstage-002) and P07 (asktransgender-005). G23's own exclusions already give those statements a site choice and sparing.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -2038,5 +2069,89 @@ The first family adds a step before the loss, which P10 does not have: a backup 
 `validate.py D3` reports 15,209 of 42,243 ledger lines ruled: the 14,369 before this leg and P10's 840. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 15,901 lines: 840 first rulings and 2 re-rulings from this leg. That makes 692 appended re-rulings in all.
 - **Pairs.** All 9 pairs in P10's files name a ruled P10 line that is an accepted elaboration (`d3_pair_check.py`). Across the ledger, 1,171 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-18: K02, the room judges its hands or room too few
+
+K02 is a standing condition of T4-012. Its statement reads: 'The room judges that it has too few hands or too little room for the work it wants: doubt, a canvas judged too full, a work judged absent or outclassed.' Its range runs from one member saying there are not enough people to defenders told to give up. A10 (K02 to P10) runs from it, and F-019 touches it through A10. G23 was written before any K02 line was read. It was amended once before any line was ruled, and its readings are written under it (above). All 747 lines, in 700 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_family_counts.py`, `d3_g4ab_tally.py`, `d3_group_rulings.py` and `d3_reject_kinds.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 556 | 511 | 0 | 0 | 1 | 9 | 35 |
+| absent (136 `unobserved`, 9 `not-testable`) | 145 | 0 | 0 | 0 | 134 | 0 | 11 |
+| restrict | 22 | 5 | 0 | 0 | 17 | 0 | 0 |
+| add-step | 14 | 11 | 0 | 0 | 1 | 2 | 0 |
+| add-condition | 9 | 5 | 0 | 0 | 4 | 0 | 0 |
+| link | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+| all | 747 | 533 | 0 | 0 | 157 | 11 | 46 |
+
+K02 is shown in 520 of the 705 rooms, and in 506 of them an instantiate line is accepted. 180 rooms have K02 lines and none shows it. No absent line is `not-needed` or `observed-absent`, so no line records an evidenced absence. K02 is not stated as universal, so no absent line is a correction.
+
+**What the specifications show.** These are rough counts. Each pattern is matched only against the reason's closing clause, and the patterns overlap (38 lines name both hands and room).
+- too few hands, numbers or manpower: 328 lines in 323 rooms;
+- the room outclassed or outnumbered, or the work judged unable to be made or held: 101 lines in 100 rooms;
+- too little room, or a canvas judged too full: 93 lines in 92 rooms;
+- a work judged absent: 17 lines in 16 rooms;
+- defenders or members told to give up: 8 lines in 7 rooms;
+- none of these patterns: 47 lines, mostly the lower range (doubt voiced, a call that states the shortfall, time weighed against the timer).
+
+**Restrict and add-condition lines: no correction.** Most restrict lines ask that K02 count only a judgment that is stated, made by the room's own members and voiced while placement runs. G23 already states each condition, so K02 does not fail without it. Each line is a specification where its concepts show K02 (5) and an evidence limit where they do not (17). minnesotavikings-063 is an evidence limit: c0322's author is the Browns-side builder of c0108, judging the visitors' own hands. Four add-condition lines are held by K02's statement, since K02 is the room's judgment, and its range ends at defenders told to give up (apocalypserising-052, overwatch-011, paladins-007, redpandas-005). nuclearthrone-032 names P22. Four are evidence limits.
+
+**Add-step and link lines under G4a.** 10 specifications name another statement:
+- P05 (3): growth capped, or the shape hardened, so the room's hands keep what stands (TheFarLeftSide-003, gameofthrones-022, metalgearsolid-038);
+- P02 (3): the design sized to the hands judged available (rust-003; asktransgender-005 with P07; starlightstage-002 with P04);
+- P04 (1): a site chosen away from a scripted group (ghibli-014);
+- P16 (1): an extension called off and its hands sent to a neighbour's work (hongkong-015);
+- P12 (1): a destroyed work mourned and not rebuilt for lack of hands (popheads-006);
+- P22 (1): a judgment voiced after the close (nuclearthrone-032).
+
+Three more are K02 as stated: a squeezed-out work given up (twitch-006), the judgment recurring through recruitment and later plans (vinesauce-007), and a canvas judged too full (bigbang-007). No add or link line names A10's move. In K02's add and link lines, the judgment is followed by a smaller design, capped growth, a new site, help sent elsewhere, giving up or mourning.
+
+**No elaborations.** One step is drawn by no statement and shows in no second room, so it is a particular: in falcons-018, members dispute whether a warning that bots make manual work futile informs helpers or costs the room its helpers.
+
+**What the 46 rejects show.**
+- **Instantiate, 35.** Sorted by reason:
+  - a site or design fitted with no judgment (P04, P02), 8 (TheAdventuresofTintin-006, lovelive-017, mysterydungeon-004, oneshot-004, porterrobinson-005, quebec-005, rhythmheaven-004, timbers-025);
+  - a visitor's judgment, or one about another group's hands, 7 (WisconsinBadgers-003, lithuania-005, shishamo-024, ssbpm-002, tokyo-003, ukplace-003, yumenikki-004);
+  - doubt about something else, or futility with no reason given, 6 (corridor-012, sakartvelo-002, twitch-003, theblackvoid-002, pansexual-002, parrots-002);
+  - a call that states no lack (P01), 4 (VelvetUnderground-002, bostonbruins-011, neu-032, placesnek-002);
+  - a count, a joke or a quip on size or the timer, 4 (buffalo-002, cgpgrey-006, hentai-002, liverpoolfc-003);
+  - a loss or the work's state reported with no judgment (P12, P05), 3 (afip-002, homestuck-018, sheffield-028);
+  - a judgment that the room can manage, 3 (achievement_hunter-019, gameofthrones-004, norge-004).
+- **Absent, 11.** Each line's concepts show K02, so the claim of absence fails:
+  - too few hands stated (crystalclear-018, megaman-012, mordhau-003, neopets-027, placestart-034, starryknights-016);
+  - the room outnumbered or outclassed (notredame-024, wales-027, wine-006);
+  - strain in keeping even a modest work (mcgill-033);
+  - a work not kept against constant attack, by amendment 1 (counting-002).
+
+**Absent lines.** 134 are evidence limits: calls that state no lack, damage reports, moves after a loss, celebrations, visitors' doubts and acts after the close. None is a specification, since no line is `not-needed` or `observed-absent`.
+
+**Particulars, 11.** Ten fail portability (G6): 9 instantiate lines and 1 add-step line (ElderScrolls-002). One is a one-room particular (falcons-018).
+
+**No correction, so no §2 re-examination.** No restrict or add-condition line was accepted as a correction. K02 stands as served, no move was made, and F-019 is not re-examined.
+
+**Repairs (G7).** Lines in repaired rooms were 0.916 accepted (406 lines), and in unrepaired rooms 0.933 (341 lines). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **Doubt that sizes the work before any loss.** In rust-003, starlightstage-002 and asktransgender-005, and in instantiate lines such as rpi-004, nyu-005, pitt-025 and paragon-007, the judgment is followed by a smaller design, and the cited concepts name no loss before it. A10 names only the move after a loss. These rooms go to the order tests beside A10, with P10's aeskwadraat-004 and sadboys-063.
+- **Upkeep before growth after the judgment** (TheFarLeftSide-003, gameofthrones-022, metalgearsolid-038) goes beside P05 and A06. No arrow from K02 to P05 is drawn.
+- **Giving up after the judgment** (twitch-006, popheads-006, apocalypserising-052, wales-027) goes beside F-019's other outcome.
+- **Doubt answered inside the room** (falcons-018, and the instantiate lines planetside-007, serbia-004 and singapore-004) goes beside 'doubt costing uptake'.
+- **The line between K02 and P12.** A lament for a lost work, and a lament that the room could not keep it, go to the clustering (afip-002 and pusheen-029 against counting-002).
+
+**Disclosed limits and slips.**
+- **Draws.** Six seeded draws covered the instantiate lines, at verb offsets 169, 269, 369, 469, 569 and 669 (the last over 56 lines), ten lines each. Two drawn lines were not supported by their quotes: hentai-002 (a count of helpers) and yumenikki-004 (the Swedish neighbour's judgment). So packets [200, 300) and [500, 556) were read whole with quotes before they were ruled.
+- **One re-ruling, appended.** babymetal-003 changed from reject to specification when the reading on calls was refined.
+- **Portability flags.** The quote windows do not print NONPORTABLE tokens. 'lost' was first written for homelab-022 and indonesia-021 without a check, and `d3_packet.py` then confirmed it. It showed 'germany' for konosuba-002, which was corrected before the file was checked.
+- **A count expected before the tally.** For K02-inst-350 I expected 44 accepts and 5 rejects; the tool gave 43 and 6, and the tool's figure was logged.
+- **A stray command.** One command carried a no-op shell assignment ('for_x=1;'), against the permission rules. It wrote nothing, and it was logged.
+- **A compaction** came mid-leg, after the instantiate lines were ruled. The hook's four steps were done first.
+
+### Close-check, D3a-18
+
+`validate.py D3` reports 15,956 of 42,243 ledger lines ruled: the 15,209 before this leg and K02's 747. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 16,649 lines: 747 first rulings and 1 re-ruling from this leg. That makes 693 appended re-rulings in all.
+- **Pairs.** K02's files hold no pair (`d3_pair_check.py`). Across the ledger, 1,171 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.

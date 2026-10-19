@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Rewritten at every close. Last written at D3a-17, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Rewritten at every close. Last written at D3a-18, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -25,11 +25,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-17)
+## The return (D1a to D3a-18)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09, P18 and P10 stand without correction.
-- **D3a-15 to D3a-17.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404 and moves after a loss [P10] in 300. Paired elaborations put loss before attacks, an attack suffered before taunts, and copies of the work before a loss.
+- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09, P18, P10 and K02 stand without correction.
+- **D3a-15 to D3a-18.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, and a judgment of too few hands or room [K02] in 520.
 
 ## The current account, and the contrary rooms
 
@@ -57,7 +57,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The reasons for the last revisions
 
-- **Move 174 (D3a-06, developing working hypotheses).** P22 is shown in 177 of 705 rooms, all after hour 73. It stands; its range now names one member correcting a claim about the room's work.
+- **Move 174 (D3a-06, developing working hypotheses).** P22, shown in 177 of 705 rooms after hour 73, stands; its range now names one member correcting a claim about the room's work.
 - **Move 173 (D3a-04, relating).** Corrections met twice at T4-013, and an order test held in 7 of 11 rooms.
 - **Move 172 (D3a-01).** R01 no longer claims that others join the starter.
 - **J, 15 October, 01:29 Berlin:** work after hour 73 curates the record (P12, P22), apart from carrying on (P13).
@@ -66,8 +66,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 - **D1a and D2a outputs:** `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
 - **D3a outputs:**
-  - `adjudications.jsonl`: 15,209 lines ruled, 15,901 with re-rulings;
-  - the stage's notes: G1 to G22 (G20 and G21 amended once each), G13a, G4a (three amendments) and the field's entries;
+  - `adjudications.jsonl`: 15,956 lines ruled, 16,649 with re-rulings;
+  - the stage's notes: G1 to G23 (G20, G21 and G23 amended once each), G13a, G4a (three amendments) and the field's entries;
   - `model/history.jsonl`: moves 172 to 174.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
 - **Ledgers (lines):** tier history 561; model history 139; findings 37 (23 findings); elements 30 (24 standing, 5 candidates, P21 tentative); arrows 21 (A21 tentative).
@@ -128,9 +128,9 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-17**, to weigh after order tests:
+- **From D3a-02 to D3a-18**, to weigh after order tests:
   - P09's families: what comes before the attack (13 lines) and what chooses its target (9, beside C02); P18's: what opens the contest in talk (6, beside A18);
-  - P10's: copies of the work made before a loss, and doubt before a move with no loss, both beside A10;
+  - P10's and K02's, beside A10 and F-019: copies made before a loss; doubt before a move, or a smaller design, with no loss; giving up after doubt;
   - P19's form (9 lines); A04's bound (21); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4);
   - calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording entered from a loss, beside A08;
   - a finished work reopening calls or the design;
@@ -184,4 +184,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The next element group, by G1 to G22 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group, by G1 to G23 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
