@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Rewritten at every close. Last written at D3a-18, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Last written at D3a-19, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -25,11 +25,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-18)
+## The return (D1a to D3a-19)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09, P18, P10 and K02 stand without correction.
-- **D3a-15 to D3a-18.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, and a judgment of too few hands or room [K02] in 520.
+- **D3a, by element.** R01 and P05 were revised after corrections met twice (moves 172 and 173); P22, the field's entry, stands with its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09, P18, P10, K02 and P14 stand without correction.
+- **D3a-15 to D3a-19.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, too few hands or room [K02] in 520, and machine hands [P14] in 320.
 
 ## The current account, and the contrary rooms
 
@@ -43,7 +43,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 - **Other rooms.** Keeping brings neighbour talk in 235 of 401 rooms [A04], mostly offering terms first. Help names a deal in 63 of 127 such rooms, against 23 of 67 [A14; F-020]. Sparing rests on the room's own norm (A05 theorised). Coalitions [A19] cannot bind every placer.
 - **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17].
 - **Loss** (thin). A room that judges its hands too few moves [A10]; the judgment came first in 10 of 20 that moved. After doubt and a loss, 10 moved and 11 gave up (F-019). No loop is grounded.
-- **The close.** The room celebrates, records and carries the work on [A07, A08, A09]. Placement stops at hour 73. After it, rooms record the work [P12] and contest which version of the canvas and of the event is kept [P22]. Accounts of the room are corrected in 113 rooms, and the image, cleanup or scars are disputed in 71. Carrying on stays apart [P13].
+- **The close.** The room celebrates, records and carries the work on [A07, A08, A09]. Placement stops at hour 73. After it, rooms record the work [P12] and contest which version of the canvas and of the event is kept [P22]. Accounts are corrected in 113 rooms; the image, cleanup or scars are disputed in 71. Carrying on stays apart [P13].
 - **The frame** [K01]. The room is keyed as April Fools play beside the work, mostly apart from canvas calls.
 - **Machine hands.** Scripts follow upkeep under strain [A06].
 - **C02** (untested for order): a tie the room had before the canvas names the rival in the attack turn.
@@ -66,9 +66,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 - **D1a and D2a outputs:** `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
 - **D3a outputs:**
-  - `adjudications.jsonl`: 15,956 lines ruled, 16,649 with re-rulings;
-  - the stage's notes: G1 to G23 (G20, G21 and G23 amended once each), G13a, G4a (three amendments) and the field's entries;
-  - `model/history.jsonl`: moves 172 to 174.
+  - `adjudications.jsonl`: 16,918 lines ruled, 17,612 with re-rulings;
+  - the stage's notes: G1 to G24 (G20, G21 and G23 amended once each), G13a, G4a (three amendments) and the field's entries.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
 - **Ledgers (lines):** tier history 561; model history 139; findings 37 (23 findings); elements 30 (24 standing, 5 candidates, P21 tentative); arrows 21 (A21 tentative).
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
@@ -128,18 +127,18 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-18**, to weigh after order tests:
+- **From D3a-02 to D3a-19**, to weigh after order tests:
   - P09's families: what comes before the attack (13 lines) and what chooses its target (9, beside C02); P18's: what opens the contest in talk (6, beside A18);
   - P10's and K02's, beside A10 and F-019: copies made before a loss; doubt before a move, or a smaller design, with no loss; giving up after doubt;
   - P19's form (9 lines); A04's bound (21); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4);
   - calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording entered from a loss, beside A08;
   - a finished work reopening calls or the design;
   - neighbours and allies (A04, A13's giver, A14, A19), an apology opening help (no arrow), and guests and hosts (P19);
-  - scripts working against keeping or refused as help (A06);
+  - machine hands (A06, P14): scripts against keeping or refused as help; scripts as P05's keepers; use apart from refusal;
   - P12's records as proof in P22's contests (uwaterloo-053), and P22's two forms;
   - the host's moderation of records and takeovers (T4-002);
   - bare refusals (math-011, wow-050) against F-014;
-  - chats (T4-010), which split the sharing in 19 rooms;
+  - chats (T4-010), which split the sharing in 19 rooms and hold scripts in 6;
   - K01's canvas-call clause (doubted in 3 rooms) and doubt costing uptake (9 rooms).
 - **The re-check:** rooms relying on rewritten R01, P05 and P22 go to it; two R01 elaborations wait for clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
@@ -184,4 +183,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The next element group, by G1 to G23 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group, by G1 to G24 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.

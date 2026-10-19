@@ -337,6 +337,35 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Strain in holding.** A member stating that even the present work is hard to keep is K02's lower range (oneplus-005, metalcore-002, mcgill-033). Fear of a neighbour with no judgment of the room's strength is not (anime_irl-039).
   - **Giving up.** A call to give up, or one member giving up, shows K02 where it states why the work cannot be held: a rival judged stronger, bigger works crowding it out, or the fight declared over (twitch-006, wales-027, wine-006, apocalypserising-052). A bare 'give up', or giving up with only the loss as the reason, does not (rutgers-007, alberta-013, math-025, twitch-003).
   - **Statements under G4a.** The list above names the statements expected to hold K02's lines. G4a's clause 2 lets any standing statement hold one, as P10's lines named P04 and P16, which G22's list did not name. K02's add lines named P04 (ghibli-014, starlightstage-002) and P07 (asktransgender-005). G23's own exclusions already give those statements a site choice and sparing.
+- **G24 (logged at D3a-19, before P14's lines were read or ruled).** P14 is shown when a concept shows a member of the room adding placements by machine, or the room arguing over such placements or adjusting them. P14's statement names scripts, bots and spare accounts. T4-009, the theme it rests on, also names glitches used to place more (T3-088). One member running spare accounts is P14's lower range. A shared bot that keeps several rooms' works is its upper end. That covers:
+  - a member writing, sharing or running a script or bot for a work, or asking members to run it, whether the work is the room's or another's (a script planted in an attack is P14 and P09 at once);
+  - a member placing with spare, alternate or throwaway accounts or a glitch, or lending accounts or machines to a bot;
+  - rooms pooling one bot target;
+  - members arguing whether scripts, bots or spare accounts are fair, taking a side on them or refusing them, whether the machine hands are the room's or others' on the canvas;
+  - members switching off or updating the room's scripts, changing the target or template a bot follows, or editing a script to spare a neighbour.
+
+  The act or the stance must be stated. So P14 is not shown by:
+  - another group's script or bot reported as damage or as a strength, with no stance on machine hands and no act by the room (P09, P05, P12; a judgment that scripts outclass the room is K02's);
+  - placing by hand: shifts, staying up, a set time, coordination in a chat (P05, P01, P03), even where it works around the timer, since P14's statement names machine hands;
+  - a template, an overlay or coordinates with no machine hands (P04);
+  - a bare mention that bots exist on the canvas, with no stance;
+  - a visitor's script, accounts or stance, unless the room's members take it up (the visitor rule);
+  - a plan to run machine hands on a canvas opened after hour 73. That is P13's later canvas, and the line is an evidence limit, as G23's reading ruled judgments made there.
+
+  Members arguing over the event's bots after hour 73 show P14's argument, since its statement sets no time on the argument. P14 is not stated as universal (T4-009's prose counts 236 of 705 rooms), so its absent lines are never corrections. G2 and G3 rule them: a `not-needed` or `observed-absent` line is a specification where the concepts show that the room built and kept its work with no machine hands and no argument over them. A stated refusal of scripts is an argument, so it shows P14, and the claim of absence fails. G9 rules restrict lines. A correction of P14 must state a condition P14 lacks and show P14 failing without it. Corrections met twice at one node trigger §2, and F-005, named in P14's evidence and A06's ground, would then be re-examined. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are:
+  - A06 (upkeep under attack before the first script, its mechanism, and its bound: rooms that scripted the building or an attack from the start) and P05 (whose range names scripts among the forms of keeping);
+  - P04 (the template a bot follows), P01 (calls to place) and P03 (posting the work's state);
+  - P07 (sparing a neighbour), P08 (terms that set what a bot keeps), P09 (a script planted in an attack), P16 (a bot or accounts lent to another room's work) and P17 (coalitions);
+  - K02 (a work judged outclassed by scripts), P20 (the host's line around canvas talk), C01 (a decided rule or sanction), P12 and P22 (records and contests after the close) and P13 (a later canvas).
+
+  As G23's reading says, G4a's clause 2 lets any standing statement hold a line. Candidates and tentative entries hold no line: P06, P19, P21, R02, K03 and K04. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset (569).
+- **G24's readings, stated while ruling (D3a-19).** They apply G24's rule that the act or the stance must be stated, and change no rule. The first four were logged when stated. The last two are written here at the close, from the rulings that applied them.
+  - **Proposals.** A proposal or request for machine hands that the room does not yet hold is not P14's act, so the line is an evidence limit ('Someone should mod that bot', 'If someone rewrites one of those scripts for us I will gladly run it'). A member who shares, writes or adapts a script, or puts their own spare accounts to the work, shows P14 whether or not its placements are verified ('Time to bring out the alts', 'I have a script that people can just run').
+  - **Workarounds that do not place.** A glitch or timer trick that the room finds does not place (local display only, not registered, gone on refresh) adds no placement, so it is an evidence limit (argentina-013, kanye-016, nyjets-015). A tracker script that places nothing is not machine hands (python-015). A glitch that did place is P14's (Temple-060, furry_irl-011).
+  - **Stances against reports.** Calling others' scripts cheating, unfair or no fun is a stance on machine hands, so it is P14's argument (falcons-017, stlouisblues-017). A report that another group's bots or accounts damaged the work, or a suspicion that bots are at work, is not (croatia-021, Honduras-011).
+  - **A neighbour's machine hands.** A neighbour's script that keeps the room's work is P14's upper range when the room takes it up through a truce, an agreement or a credit (kingdomhearts-015 and -016, winnipegjets-014). A neighbour's offer that no member takes up is not (thailand-011, wow-009, linux-020, russia-006).
+  - **Machine hands that place nothing.** Moderation bots, comment bots, template overlays and reference updaters are not P14 (futanari-016, shishamo-014, starryknights-008, touhou-016).
+  - **Denials and pride.** A bare denial, or one member's report of not scripting, takes no side (halo-008, TeamYellowPlace-008). Pride in hand-made work, set against rooms that use bots, is a stance. So the two `observed-absent` lines fail (greyblob-012, theexpanse-017).
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -2153,5 +2182,86 @@ Three more are K02 as stated: a squeezed-out work given up (twitch-006), the jud
 `validate.py D3` reports 15,956 of 42,243 ledger lines ruled: the 15,209 before this leg and K02's 747. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 16,649 lines: 747 first rulings and 1 re-ruling from this leg. That makes 693 appended re-rulings in all.
 - **Pairs.** K02's files hold no pair (`d3_pair_check.py`). Across the ledger, 1,171 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-19: P14, machine hands
+
+P14 is a standing process of T4-009 (Workarounds). Its statement reads: 'Members add placements with scripts, bots and spare accounts, and the room argues over these machine hands and adjusts them.' Its range runs from one member running spare accounts to a shared bot holding several rooms' works. A06 (P05 to P14) runs into it, and F-005 is named in its evidence. G24 was written before any P14 line was read, and its readings are written under it (above). All 962 lines, in 701 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_family_counts.py`, `d3_g4ab_tally.py` and `d3_group_rulings.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 271 | 265 | 0 | 0 | 0 | 2 | 4 |
+| absent (356 `unobserved`, 39 `not-testable`, 2 `observed-absent`) | 397 | 0 | 0 | 0 | 358 | 3 | 36 |
+| restrict | 101 | 63 | 0 | 0 | 37 | 1 | 0 |
+| add-step | 121 | 99 | 4 | 0 | 18 | 0 | 0 |
+| add-condition | 50 | 44 | 1 | 0 | 5 | 0 | 0 |
+| link | 22 | 20 | 1 | 0 | 1 | 0 | 0 |
+| all | 962 | 491 | 6 | 0 | 419 | 6 | 40 |
+
+P14 is shown in 320 of the 705 rooms, and in 248 of them an instantiate line is accepted. 381 rooms have P14 lines and none shows it. T4-009's prose counts 236 rooms, so many rooms that used or argued over machine hands had that talk placed under other themes. No line records an evidenced absence: the two `observed-absent` lines were rejected, because their members set their hand-made work against bots. P14 is not stated as universal, so no absent line is a correction.
+
+**What the specifications show.** These are rough counts. Each pattern is matched against the whole reason, and the patterns overlap.
+- scripts or bots: 407 lines;
+- spare, alternate or throwaway accounts: 173 lines;
+- arguments, stances and refusals: 89 lines;
+- glitches used to place more: 10 lines.
+
+Matched against the closing clause, 42 lines in 40 rooms stand at P14's lower range (one member's spare accounts), and 8 lines in 6 rooms at its upper range (a bot keeping several rooms' works).
+
+**Restrict lines: no correction.** Most restrict lines ask that P14 count only verified deployment by the room's own members. P14's statement holds the room arguing over machine hands, and G24 counts scripts shared or written and members' own spare accounts. So the condition would narrow P14 below its statement, and each line is a specification where its concepts show P14 (63). The 37 evidence limits are proposals for machine hands the room did not hold (12), workarounds that did not place (5) and one tracker, reports of others' bots (3), visitors' offers (2), and hand placing, overlays and constraints.
+
+**Add-condition, add-step and link lines under G4a.** 83 specifications name another statement:
+- P05 (39): scripts keep the form the room knew, so a planned or agreed change is undone until their runners update them. This is P05's own clause, 'repaired away as damage until its keepers are told', and P05's range names scripts;
+- P08 (12): scripts edited to keep terms with neighbours;
+- P10 (10): scripts retargeted after a move;
+- A06 (8): machine hands used for building from the start (its bound), or brought in for upkeep after a hand-made build;
+- P04 (7): one template or plan the scripts follow;
+- P09 (3), C01 (3: a vote or a rule for who may change the bot's target), P16 (2), P07 (2) and P20 (1).
+
+Four lines name two statements. The rest are P14 as stated: safety and trust arguments, teaching members to run scripts, adjusting accounts and versions.
+
+**The 6 elaborations, one family.** All are paired, and none is stated in the model:
+
+| family | lines | rooms | ops | ids |
+|---|---|---|---|---|
+| the room's script is released, changed, troubleshot and kept in a chat, so access to the chat governs what the machine hands keep | 6 | 6 | link 1, add-condition 1, add-step 4 | WPI-056, ukplace-010, calgaryflames-012, reddevils-011, theitalyplace-013, wallstreetbets-018 |
+
+WPI-056 was first ruled a particular. It was re-ruled to a paired elaboration by an appended line when ukplace-010 showed the same step in a second room.
+
+**What the 40 rejects show.**
+- **Instantiate, 4.** Each cites only a visitor's machine hands: a neighbour's own scripts (RelientK-011), a visiting script author's edit (newzealand-008), a neighbour's throwaway accounts (placeportalpattern-017), and a script offered to the room from outside (russia-006).
+- **Absent, 36.** Each line's concepts show P14, so the claim of absence fails:
+  - a stance on machine hands, 18 (2007scape-020, Russiaclan-014, babymetal-017, bardmains-016, berkeley-008, egypt-016, falcons-016, feedthebeast-019, floridagators-007, greyblob-012, littlewitchacademia-016, naruto-014, paladins-020, shitredditsays-012, stardewvalley-013, stlouisblues-017, theexpanse-017, yogscast-019);
+  - scripts or bots shared, written, adapted or run, or members called to their spare accounts, 12 (armok-012, chess-014, formula1-008, foxstevenson-013, freedomplanet-009, ice_poseidon-013, japan-009, leafs-017, pepe-014, serbia-010, transformers-026, vim-009);
+  - a glitch used to place, 6 (PurplePixels-010, anime_irl-011, battlecats-016, cardinals-015, denverbroncos-017, furry_irl-011).
+
+**Absent lines.** 358 are evidence limits: hand placing and repair, calls, templates and overlays, reports of others' bots, moderation and comment bots, proposals, and workarounds that did not place.
+
+**Particulars, 6.** All fail portability (G6): esperanto-007 ('telegram'), linux-068 ('linux'), totallynotrobots-012 ('python'), ohio-011 and osu-014 ('ohio', both about the 'Script Ohio' lettering, not machine hands), and zelda-010 ('lost'). No line is a one-room particular.
+
+**No correction, so no §2 re-examination.** No restrict or add-condition line was accepted as a correction. P14 stands as served, no move was made, and F-005 is not re-examined.
+
+**Repairs (G7).** Lines in repaired rooms were 0.952 accepted (519 lines), and in unrepaired rooms 0.953 (443 lines). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **P14's two forms.** P14's statement joins using machine hands with arguing over them. So a room that refused scripts shows P14 (mindcrack-013, greyblob-012, theexpanse-017). The clustering should separate the rooms that used machine hands from those that only argued over them or refused them.
+- **Scripts as P05's keepers** (39 lines). The largest named family puts scripts inside P05's clause on planned changes. It goes beside P05's revision (move 173) and A06.
+- **Machine hands at building** (8 lines naming A06's bound) go to the order tests beside A06 and F-005.
+- **The chat family** (6 lines) goes beside 'chats (T4-010)'.
+- **Neighbours' machine hands, offered or taken up** (kingdomhearts-015, winnipegjets-014, aggies-062; thailand-011, wow-009, linux-020, russia-006) go beside P16 and P08.
+
+**Disclosed limits and slips.**
+- **Draws.** Three seeded draws covered the instantiate lines, at verb offsets 569, 669 and 769 (the last over 71 lines), ten lines each. One drawn line was doubtful: russia-006, a script offered 'for you' from outside. So packet [200, 271) was read whole with quotes before it was ruled.
+- **One re-ruling, appended.** WPI-056 changed from particular to paired elaboration.
+- **A count typed before the tally.** The restrict note gave '7' workarounds that did not place. The script gave 5 and one tracker, and a later note corrected it.
+- **A ledger count logged one note late.** The note for absent [0, 50) gave the ledger count in the next note.
+- **An Edit and its check in one turn.** While rewriting the head, one word count ran beside an Edit, which the rules forbid. The count was run again in a later turn: 3,000 words.
+
+### Close-check, D3a-19
+
+`validate.py D3` reports 16,918 of 42,243 ledger lines ruled: the 15,956 before this leg and P14's 962. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 17,612 lines: 962 first rulings and 1 re-ruling from this leg. That makes 694 appended re-rulings in all.
+- **Pairs.** All 6 pairs in P14's files name a ruled P14 line (`d3_pair_check.py`). Across the ledger, 1,177 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.
