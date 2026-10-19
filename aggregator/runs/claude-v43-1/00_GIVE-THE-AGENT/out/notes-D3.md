@@ -436,6 +436,35 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Chats.** Moving canvas talk to a chat shows P20 only where a line is stated: to spare the sub, or 'you are free to talk about it in there' (cavestory-027, nbaspurs-031). Otherwise it is T4-010's ground (bardmains-013, kanye-015).
   - **Worth.** One member's dismissal is P20's lower range, 'bots are ruining the fun' included, with P14 beside it (shitredditsays-034, udub-030). Praise or appraisal alone is not, except as a reply in an argument (monstercat-030, splatoon-025; against 49ers-032, israel-018). Views on how to play or design the canvas are P02's or nothing (hunterxhunter-053, rainbowgrid-039). Refusing hand placing because of scripts is P14's (egypt-041).
   - **Other subs and moderators.** Another sub's line, discussed or reported here, is not this room's (btc-020). A host moderator acting in the room's own thread counts for the room (FederationPlace-031). Moderators ruling that canvas posts stay, unstickying a canvas thread, or reversing a canvas removal show P20 (acecombat-029, androidgaming-038, mylittlepony-048). Policing conduct inside a canvas thread, a banned member's posts, or rivalry insults is moderation as such (belgium-027, Okami-027, canucks-057).
+- **G27 (logged at D3a-22, before P17's lines were read or ruled).** P17 is shown when a concept shows the room joining other rooms as partners: rooms that stand together beyond one deal or one act of help. The forms are the ones P17's statement and T4-018's five themes name. Two rooms agreeing to defend each other is P17's lower range. A council of kindred rooms holding a stretch of the canvas together is its upper end. That covers:
+  - forming an alliance between rooms, proposing one, or acting on one, such as calling on allies by the alliance or defending an ally under it (T3-150);
+  - meeting other rooms in a chat or channel shared by several rooms (T3-153);
+  - gathering kindred rooms in a hub: a sub, thread or chat for several rooms of one kind (T3-013);
+  - tallying kindred rooms' works: lists or maps of a group of rooms' works (T3-019);
+  - making a joint mark: one work that two or more rooms design, build or claim together (T3-056). The same line may show P16's joint work (G17's reading).
+
+  The act or the proposal must be stated. So P17 is not shown by:
+  - one room's deal with a neighbour: a border, a truce, a non-aggression pact, space traded for help (P08);
+  - help passing between rooms with no partnership named: pixels given, help asked, thanks to allies, greetings (P16);
+  - sparing a neighbour (P07), or one room's rule over guests on its mark (P19, a candidate);
+  - calls to kindred subs to place for the room's own work (P01);
+  - the room's own chat (T4-010's ground), or a member visiting another room's chat to place for that room;
+  - a visitor's alliance offer that no member takes up (the visitor rule).
+
+  An attack made together by allies is P09 and P17 at once. A coalition formed on a canvas opened after hour 73 is a paired elaboration, after the successor-canvas precedent. A tie carried past the close is P13's. P17 is not stated as universal (T4-018's prose counts 146 of 705 rooms), so its absent lines are never corrections. G2 and G3 rule them: a `not-needed` or `observed-absent` line is a specification where the concepts show the room building and keeping its work with no coalition. An alliance, shared chat, hub, tally or joint mark shows P17, and the claim of absence fails. G9 rules restrict and contradict lines. Corrections met twice at one node trigger §2, and F-008, which holds A19's coalition order, would then be re-examined. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are:
+  - A19 (the first upkeep before the first coalition; its bound: late rooms enter the canvas through other rooms; its mechanism: rooms facing the same threat defend each other's works);
+  - P08 (terms), P16 (help), P07 (sparing), P09 and P18 (attacks and taunts made together), P01 (calls to kindred subs), P04 (templates shared across rooms) and P03 (posting the work's state);
+  - C01 (a decided rule, a council's vote), P20 (a host's line) and P13 (ties carried past the close).
+
+  G4a's clause 2 lets any standing statement hold a line. Candidates and tentative entries hold no line: P06, P19, P21, R02, K03 and K04. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset (378).
+- **G27's readings, stated while ruling (D3a-22).** They apply G27 and change no rule. Each was logged when it was first used.
+  - **Alliances.** An 'alliance' whose only stated term is not to harm each other's work is P08's truce (GabrielDropout-024, indieheads-025, starvstheforcesofevil-030, traaaaaaannnnnnnnnns-021). An alliance with no stated terms, or with mutual defence or joint action, is P17's (dragonquest-034, nuclearthrone-022). An 'alliance' whose stated terms are help for restraint is P08's and P16's (tampabaylightning-017, as cowchop-014). Defence or upkeep given both ways between two rooms is P17's lower range (OneTrueEmilia-023, malta-018, teamcube-017). Protection given one way, by a host or a listing room, is P16's (evex-013; gatech-016's recognized-artwork status).
+  - **Hosts and guests.** A tie in which one room's work lives on another room's mark or territory is P19's form, a candidate. With no alliance or partnership named by either side, it shows no P17 (hatsune-016, clubpenguin-018, rush-032, toolband-029). An alliance named and acted on with a host or a colour faction is P17's lower range, with P19's form beside it (farmcarrots-019, furry-033, rocketbeans-021, swordartonline-013, metalcore-027). A reading logged at instantiate line 150, that every r/placestart tie is P19's, contradicted the alliance reading. I withdrew it in the same leg and re-ruled metalcore-027 to match.
+  - **Whose coalition.** P17's statement names the room as the one that joins. An alliance reported by visitors, or by makers of the room's work who came from another room, is that other room's (hearthstone-034, araragi-009; araragi-010 was re-ruled to match). A visitor's offer counts only once a member takes it up (flashtv-016 and lakers-036 against ufl-036).
+  - **Proposals.** A proposal stated by the room's members counts, even inside the room, when it names a partner room or coalition (nintendo-021, redvsblue-030, gravityfalls-032). A call to cooperate that names no partner, or a claim of 'alliances' with none named, does not (purplecorner-023, toolband-029, gamindustri-023, seolhyun-019).
+  - **Hubs.** Sending the room's work or talk to a hub of kindred rooms shows P17 (sooners-031, NovaScotia-017, sabres-021). The room's own chat or canvas sub does not (FederationPlace-013, satania-021).
+  - **Tallies.** P17's lead clause and G27's governing sentence read each listed form as a way the room joins others. A comparison or count of kindred works after the canvas joins no one. So restrict lines that say so are specifications, not corrections (mcgill-019, nyu-025, sixers-023).
+  - **After the close.** A pact proposed after hour 73 for later events is a tie carried past the close, P13's ground (ukplace-028; chibears-053 names P13).
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -2499,5 +2528,91 @@ P20 is shown in 310 of the 705 rooms, and in 289 of them an instantiate line is 
 `validate.py D3` reports 18,797 of 42,243 ledger lines ruled: the 17,877 before this leg and P20's 920. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 19,509 lines: 920 first rulings and 1 re-ruling from this leg. That makes 712 appended re-rulings in all.
 - **Pairs.** All 21 pairs in P20's files name a ruled P20 line (`d3_pair_check.py`). Across the ledger, 1,254 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-22: P17, coalitions
+
+P17 is a standing process of T4-018 (Meta-organization), and it is the theme's only element. Its statement reads: 'Rooms join other rooms in coalitions: they meet in shared chats, form alliances, gather kindred rooms in a hub, tally kindred rooms' works and make joint marks.' Its range runs from two rooms agreeing to defend each other to a council of kindred rooms holding a stretch of the canvas together. A19 (P05 to P17, thin) runs into it, and F-008 holds A19's coalition order. G27 was written before any line was read, and its readings are written under it (above). All 808 lines, in 702 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_family_counts.py`, `d3_pair_check.py` and `d3_reason_phrases.py` (new at this leg).
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 351 | 320 | 0 | 0 | 0 | 8 | 23 |
+| absent (275 `unobserved`, 50 `not-testable`) | 325 | 0 | 0 | 0 | 269 | 4 | 52 |
+| restrict | 70 | 25 | 4 | 0 | 39 | 1 | 1 |
+| add-condition | 27 | 13 | 7 | 0 | 7 | 0 | 0 |
+| add-step | 25 | 16 | 0 | 0 | 8 | 1 | 0 |
+| link | 10 | 7 | 3 | 0 | 0 | 0 | 0 |
+| all | 808 | 381 | 14 | 0 | 323 | 14 | 76 |
+
+P17 is shown in 383 of the 705 rooms, and in 315 of them an instantiate line is accepted. 319 rooms have P17 lines and none shows it. T4-018's prose counts 146 rooms. No absent line was `observed-absent` or `not-needed`. P17 is not stated as universal, so no absent line is a correction.
+
+**What the specifications show.** These are rough counts, by phrase in the reason:
+- P17 as stated (alliances acted on, councils and alliance chats, hubs, joint marks): 180 lines;
+- P17's lower range (two rooms defending or keeping each other's works, an alliance with no stated terms, a proposal): 145 lines;
+- other statements named, 28: A19 8 (rooms enter the canvas through another room's build; a coalition offered before upkeep, the exception its bound names; allies defend each other's works), P08 8, P05 3 (an agreed joint design repaired away until the keepers are told), A16 2, P04 2, P09 2, C02 1, P13 1 and P16 1.
+
+**Restrict lines: no correction.** Most restrict lines say that a proposal, an invitation or a chat link is not a formed coalition. G27 counts the stated proposal, and the restriction notes what the record lacks, so 39 are evidence limits. 25 are specifications. P17's range starts at two rooms agreeing. Its statement names shared chats and names the room as the one that joins. A comparison of kindred works joins no one. One restriction was rejected: armok-026's 'fusion of your axe and our God' is a joint mark.
+
+**The 14 elaborations, three families.** All are paired, and no standing statement or arrow holds them:
+
+| family | lines | rooms | ops | ids |
+|---|---|---|---|---|
+| members not held by a tie made in the room's name: they deny it, refuse it or deface an ally's work (P21's form, a tentative entry; carried to P21's group) | 6 | 6 | restrict 4, add-condition 2 | EraseThePlace-022, habs-034, osu-034, turkey-032, halo-042, snsd-031 |
+| a tie from before the canvas bars an alliance: division and conference rivals, a nation's history (C02 holds the rival named in an attack turn, not a refused alliance) | 5 | 5 | add-condition 4, link 1 | TheB1G-052, uofmn-055, eagles-023, palestine-056, poland-055 |
+| a colour faith born on the canvas decides allies and ends alliances | 3 | 2 | link 2, add-condition 1 | PurplePixels-064, PurplePixels-019, TheGreatGreenBox-028 |
+
+**What the 76 rejects show.**
+- **Instantiate, 23.** The concepts show a deal, help, a guest's tie or another room's coalition, and no partnership of the room's own:
+  - non-aggression 'alliances' and truces (P08), 6: GabrielDropout-024, cloud9-018, indieheads-025, starvstheforcesofevil-030, traaaaaaannnnnnnnnns-021, taiwan-021;
+  - space for help, or help for restraint (P08 and P16), 4: cowchop-014, rush-032, tampabaylightning-017, toolband-029;
+  - a guest on a host's mark, with no alliance named (P19's form), 3: chess-017, clubpenguin-018, hatsune-016;
+  - one-way help or protection, or a call that names no partner (P16), 4: evex-013, placetardis-024, stevenuniverse-034, purplecorner-023;
+  - visitors' offers that no member takes up, 3: flashtv-016, greenbaypackers-034, lakers-036;
+  - another room's coalition, which the room's members helped, 2: hearthstone-034 and araragi-010 (re-ruled);
+  - a pact proposed after the close for later events (P13's ground), 1: ukplace-028.
+- **Restrict, 1:** armok-026.
+- **Absent, 52.** The concepts show P17, so the claim of absence fails:
+  - members' proposals of an alliance, a pact or joint defence with a named room, 35, among them ManningPlace-033, NieR-036, Peru-031, formula1-021, indonesia-014, kcroyals-035, seahawks-031, starbound-029, trees-034 and gravityfalls-032;
+  - hubs and chats of kindred rooms used, 7: NovaScotia-017, alberta-033, asktransgender-020, ik_ihe-027, rojava-026, sabres-021, ubreddit-025;
+  - joint work or joint upkeep with another room, 5: anarchism-028, furry_irl-029, globaloffensive-033, portal-030, rwby-032;
+  - defence or watching given both ways, 3: lifeisstrange-030, sakuragakuin-031, vegan-017;
+  - an alliance named and acted on, 1: k_on-025;
+  - a visitor's offer taken up by a member, 1: ufl-036.
+
+**Absent lines.** 269 are evidence limits: calls and requests for help, visitors' offers and reports, truces and border deals, one-way help, the room's own chat, and 'allies' with no partner named. I read the quotes of every reject and of about 30 other candidates before ruling. A guard pattern listed 21 limits that mention alliances for a second look, and one of them moved to reject (gravityfalls-032).
+
+**Particulars, 14.**
+- By G6, 13: instantiate 8 (Moondye7-018 'placestart', chibears-030 'chicago', cirkeltrek-029 'czech', dwarffortress-023 'minecraft', flyers-013 'pakistan', minecraft-024 'minecraft', quebec-030 'canada', snsd-030 'placehearts'), restrict 1 (dankmemes-025 'pinkunion') and absent 4 (Villanova-031 'osu', colorado-029 'placehearts', magictcg-025 'italy', spacex-024 'spacex').
+- One room, with no statement holding the form and no second room's elaboration, 1: yumenikki-020, a member learning a chat tool to reach another room's channel.
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or link line was accepted as a correction. P17 stands as served, no move was made, and F-008 is not re-examined.
+
+**Repairs (G7).** Lines in repaired rooms were 0.907 accepted (431 lines), and in unrepaired rooms 0.867 (377 lines). The unrepaired rooms hold more rejects (43 against 33). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **Members not held by the room's tie** (6 lines) go to P21's group, beside A21 (tentative).
+- **Ties from before the canvas that bar alliances** (5 lines) go beside C02, which names the rival only in attack turns. The clustering may read C02 more widely: such a tie decides both whom a room fights and whom it will not join.
+- **Colour faiths** (3 lines in 2 rooms) go beside the contrary room, thebluecorner. A faith born on the canvas decides allies as well as rivals.
+- **A19's order.** Four add-step lines and one link line show rooms entering through another room's build, or offering a coalition while building, before upkeep. A19's bound already names both. They support reading A19 as one route into P17, not the only one.
+- **P17's count.** P17 is shown in 383 rooms, against the 146 that T4-018's prose counts. 35 of the 52 absent rejects are members' proposals, which G27 counts. A narrower reading, formed coalitions only, would move those lines and part of the 145 lower-range lines to evidence limits.
+- **Host and guest ties with an alliance named** (farmcarrots-019, furry-033, rocketbeans-021, swordartonline-013, metalcore-027) go to P19's group.
+- **The one-room particular** stays in its local model.
+
+**Disclosed limits and slips.**
+- **Draws.** Four seeded draws covered the instantiate lines, at verb offsets 378, 478, 578 and 678 (the last over 51 lines), ten lines each. The first run at 478 took `--limit 10`, so it held the packet's first ten lines, not a draw. I kept that file and drew again over 100 lines (`d3_draw_P17_478-100.txt`). Every drawn line's labels agreed with its quotes, so each packet was ruled from its labels, read whole.
+- **Three re-rulings, appended.**
+  - metalcore-027, reject to accept: the reading I logged at instantiate line 150, that every r/placestart tie is P19's, contradicted the alliance reading, and I withdrew it.
+  - araragi-010, accept to reject: araragi-009's quotes show that the makers and their team-up came from r/anime_irl, as at hearthstone-034.
+  - PurplePixels-019, particular to elaboration: its quotes show that the refusal follows from the convention's ban on Purple's war on blue, not from the venue its code label named.
+- **A superseded file.** `P17-absent.jsonl` was built before gravityfalls-032 moved to reject. It was never written to the ledger; `P17-absent-v2.jsonl` was.
+- **The family counter** reads PurplePixels-019's first reason, so it misses that line. I counted the colour-faith family by hand.
+- **A shell variable.** One counting command set a shell variable, which the head's rules forbid. It ran, and its output was a count only. I used full paths after it.
+
+### Close-check, D3a-22
+
+`validate.py D3` reports 19,605 of 42,243 ledger lines ruled: the 18,797 before this leg and P17's 808. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 20,320 lines: 808 first rulings and 3 re-rulings from this leg. That makes 715 appended re-rulings in all.
+- **Pairs.** All 14 pairs in P17's files name a ruled P17 line (`d3_pair_check.py`). Across the ledger, 1,268 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.

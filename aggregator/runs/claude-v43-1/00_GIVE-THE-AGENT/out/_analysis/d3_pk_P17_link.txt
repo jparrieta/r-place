@@ -1,0 +1,70 @@
+P17: 10 lines in all (op link); packet [0, 10): 10 lines; carried through T3-013,T3-019,T3-056,T3-150,T3-153
+ops in the packet: {'link': 10}
+
+== PurplePixels-064  link  [pending]  repairs 2  carried
+   source t11 (splitting over solid purple and Purple Lattice); lift PurplePixels:t11 > T3-190 > T4-023 > D05
+   link_kind: dependence
+   how: Coalition membership depends on disputed colour doctrine when support for lattice explicitly terminates an alliance.
+   codes: c0197 ending the PurpleCorner alliance over the lattice
+
+== TheGreatGreenBox-028  link  [pending]  repairs 1  carried
+   source t01 (making green into a shared cause); lift TheGreatGreenBox:t01 > T3-174 > T4-023 > D05
+   link_kind: condition
+   how: Colour allegiance supplies a criterion for judging whether a neighbouring grid counts as an ally or heresy.
+   codes: c0005 spreading the teachings of the Great Green Box; c0017 asking whether the grid are allies or heretics
+
+== bangtan-024  link  [pending]  repairs 0  not carried
+   source t04 (relaying logo work through Discord); lift bangtan:t04 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: Reported joint defense operates through the shared chat that also receives requests for additional designs.
+   codes: c0095 asking the group Discord for SVT room and getting its design drafted and built; c0101 defending the whole area together through the group Discord
+
+== elitedangerous-019  link  [pending]  repairs 1  carried
+   source t09 (Sounding alarms and checking threats to the territory); lift elitedangerous:t09 > T3-005 > T4-013 > D03
+   relation: Gorillaz
+   link_kind: sequence
+   how: An intelligence correction receives a promise to relay it to an ally and a suggestion to delete the stale warning, without a demonstrated defensive outcome.
+   codes: c0300 correcting the warning with hidden-channel planning knowledge; c0301 reporting the correction to Gorillaz and proposing to delete old intel
+   transitions: 63653i:2>2.1
+
+== foxstevenson-030  link  [pending]  repairs 0  carried
+   source t06 (teaming up with Liquicity and sending helpers to Discord); lift foxstevenson:t06 > T3-153 > T4-018 > D04
+   link_kind: sequence
+   how: Cooperation is proposed while logos are being built, adding an entry route whose documented rationale does not require an established maintenance attack.
+   codes: c0023 building the logo and putting pixel art in the comments; c0026 offering to team up on both logos and inviting helpers to Discord; c0028 directing helpers to the Liquicity Discord in the sidebar
+   transitions: 637r2x:0>2, 637r2x:2>2.1
+
+== msu-056  link  [pending]  repairs 0  carried
+   source t01 (deciding whether to attack rival schools); lift msu:t01 > T3-006 > T4-020 > D08
+   link_kind: dependence
+   how: Invoking a wider league plan supplies a reason to refuse an attack without itself negotiating a border or treaty.
+   codes: c0040 stopping school griefing in favour of an all-Big Ten plan; c0060 calling to attack Michigan after finishing the logo and Go Green
+   transitions: 634d1x:0>1
+
+== ohio-018  link  [pending]  repairs 1  carried
+   source t08 (moving Ohio coordination into chats and Discord); lift ohio:t08 > T3-014 > T4-010 > D02
+   link_kind: sequence
+   how: A request for interroom communication receives channel creation while subsequent joint defense remains unseen.
+   codes: c0097 requesting a shared Texas-Ohio Discord; c0098 creating a Discord for Texas-Ohio communications
+   transitions: 631cfn:18.1.1>18.1.1.1
+
+== pakistan-049  link  [pending]  repairs 1  not carried
+   source t21 (arguing over taking the Rangers space); lift pakistan:t21 > T3-006 > T4-020 > D08
+   relation: Rangers
+   link_kind: dependence
+   how: Calling a joint national flag a friendship gesture does not resolve the costs imposed on a third party whose work it replaces
+   codes: c0148 explaining the Rangers conflict as a flag beside India; c0154 rejecting the flag's claimed nice gesture; c0163 saying the script ruined hours of Rangers work
+
+== poland-055  link  [pending]  repairs 1  not carried
+   source t07 (using national stories to rally or refuse); lift poland:t07 > T3-081 > T4-022 > D05
+   link_kind: dependence
+   how: National history can make a proposed coalition unacceptable, so an invitation framed as kinship can receive historically reasoned refusal.
+   codes: c0102 recruiting Poland to cover America with a Pan-Slavic flag; c0103 rejecting the Pan-Slavic flag as Russian domination; c0104 explaining Poland's rejection of Pan-Slavism through its problem with Russia
+   transitions: 636mfv:0>1, 636mfv:1>1.1
+
+== uiowa-055  link  [pending]  repairs 1  not carried
+   source t02 (working out where images can fit); lift uiowa:t02 > T3-020 > T4-014 > D04
+   link_kind: sequence
+   how: The invitation to join a shared collage receives an explicit commitment to try the offered location.
+   codes: c0005 inviting Iowa into the Big Ten collage; c0007 going for a spot above Minnesota and asking for help
+   transitions: 62x2b4:3>3.2
