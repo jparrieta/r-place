@@ -406,6 +406,36 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Selling and rights.** Arguments over selling the work remade, or over others' marks in the shared art, are P13 as stated through T3-131 (donaldglover-034, kanye-050, globaloffensive-058).
   - **Routes into P13 (links).** The close as the occasion, and a chat or sub made for the event and given a new purpose, are P13's own statement. A record before carrying on is A09's connection. Any other route in is drawn by no arrow and is a paired elaboration, as P12's 'recording entered from a loss' was ruled: canvas help or deals as the reason for a tie kept, marking with no record between, and a damaged end redone elsewhere.
   - **Steps after a later canvas.** On a later canvas the room calls, designs, builds, defends and loses work again. No arrow runs from P13 back into the spine, so these steps are paired elaborations (the spine restarted). R01's successor-canvas pair (AcePlace-029, TransFlagPlace-003) is the same form at the start.
+- **G26 (logged at D3a-21, before P20's lines were read or ruled).** P20 is shown when a concept shows the host sub's moderators or members drawing a line between the sub's own business and the canvas. The forms are the ones P20's statement and T4-002's eight themes name. One member asking for a megathread is P20's lower range. Moderators moving all canvas talk to a new sub and removing the rest is its upper end. That covers:
+  - routing canvas talk into a megathread, or asking for one (T3-015);
+  - removing, filtering or flairing canvas posts under the sub's rules, and members asking about or contesting the removals (T3-063);
+  - changing the sub's posting rules around the canvas, and members arguing the change (T3-185);
+  - pausing one of the sub's usual events for the canvas (T3-184);
+  - moderators saying the canvas work is not the sub's, so members may go on but not in its name (T3-140);
+  - opening a canvas sub, or asking for one, and sending canvas talk there (T3-090);
+  - members objecting that canvas posts crowd out the sub's usual talk (T3-075);
+  - members arguing whether the canvas, its fights or the time spent on it are worth anything (T3-037). A dismissal is one side of that argument. Praise counts only as a reply in such an argument; praise alone is marking (P11).
+
+  The act or the stance must be stated. So P20 is not shown by:
+  - moderation as such, with no line between the sub's business and the canvas: spam removal, ordinary rule enforcement, bans for other reasons (T4-002's 'mistaken for');
+  - a rule change made only for the sub's own April Fools joke, with no word of the canvas (K01's frame);
+  - calls, templates, plans or progress reports posted in a megathread or a canvas sub (P01, P04, P03). The megathread or the canvas sub is P20's; the building talk inside it is not;
+  - a visitor's objection or dismissal, unless the room's members take it up (the visitor rule);
+  - another sub's removal of the room's posts, reported in the room. That is the other sub's line, not this room's.
+
+  P20's statement sets no time. So a dismissal of the canvas after hour 73 shows P20, although A20's mechanism does not reach it (F-010's bound, the transformers case). P20 is not stated as universal (T4-002's prose counts 274 of 705 rooms), so its absent lines are never corrections. G2 and G3 rule them: a `not-needed` or `observed-absent` line is a specification where the concepts show canvas talk carried in the sub with no line drawn around it. A stated objection, ruling or dismissal shows P20, and the claim of absence fails. G9 rules restrict and contradict lines. A correction of P20 must state a condition P20 lacks and show P20 failing without it. Corrections met twice at one node trigger §2, and F-010, named in P20's evidence and A20's ground, would then be re-examined. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are:
+  - A20 (the first call before the host's first line; its bound: rules that remove the first call as it is posted, a canvas sub or megathread set up first, dismissals before the room calls; the arrow is partly constitutive);
+  - P01 (calls), P03 (posting the work's state), P04 (templates and plans) and C01 (a decided rule or sanction);
+  - K01 (the April Fools frame), P12, P22 and P13 (records, contests and a new purpose for the canvas sub after the close), and P16, P17 and P08 (other rooms).
+
+  G4a's clause 2 lets any standing statement hold a line. Candidates and tentative entries hold no line: P06, P19, P21, R02, K03 and K04. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset (453).
+- **G26's readings, stated while ruling (D3a-21).** They apply G26 and change no rule. Each was logged when it was first used.
+  - **Removals.** A removal shows P20 when the rule excludes a canvas post for its topic (off-topic, one game only, only teasers and album images). A removal for format alone, or under a general rule (title tags, flair, length, link form, account age, reposts, vote manipulation, low effort, an unnamed rule), is moderation as such (battlecats-046, dankmemes-028, paladins-056). A bare duplicate notice is a general rule. An explicit redirect of a canvas post into the canvas thread is routing (clashroyale-023 and lovelive-025, against overwatch-067; halo-004 was re-ruled to match).
+  - **Canvas subs.** A sub made for the canvas has no business apart from it. So its founding post, its venues and its coordination draw no line (THE_R-004, AvoArmy-035, placestart-040). A canvas sub that names its host and the host's line around canvas talk shows P20 (theitalyplace-033). Its administrators disowning a members' separate project is T3-140 (epublica-032).
+  - **Stickies.** A stickied canvas thread in a host sub, asked for, promised or made, is P20's megathread whatever its motive (bangladesh-021, lakers-045). A sticky inside a canvas sub is coordination (ManningPlace-041). A megathread's contents are not the act of routing (hatsune-032).
+  - **Chats.** Moving canvas talk to a chat shows P20 only where a line is stated: to spare the sub, or 'you are free to talk about it in there' (cavestory-027, nbaspurs-031). Otherwise it is T4-010's ground (bardmains-013, kanye-015).
+  - **Worth.** One member's dismissal is P20's lower range, 'bots are ruining the fun' included, with P14 beside it (shitredditsays-034, udub-030). Praise or appraisal alone is not, except as a reply in an argument (monstercat-030, splatoon-025; against 49ers-032, israel-018). Views on how to play or design the canvas are P02's or nothing (hunterxhunter-053, rainbowgrid-039). Refusing hand placing because of scripts is P14's (egypt-041).
+  - **Other subs and moderators.** Another sub's line, discussed or reported here, is not this room's (btc-020). A host moderator acting in the room's own thread counts for the room (FederationPlace-031). Moderators ruling that canvas posts stay, unstickying a canvas thread, or reversing a canvas removal show P20 (acecombat-029, androidgaming-038, mylittlepony-048). Policing conduct inside a canvas thread, a banned member's posts, or rivalry insults is moderation as such (belgium-027, Okami-027, canucks-057).
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -2389,5 +2419,85 @@ The pattern helper missed three lines of the first family by their wording (gori
 `validate.py D3` reports 17,877 of 42,243 ledger lines ruled: the 16,918 before this leg and P13's 959. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 18,588 lines: 959 first rulings and 17 re-rulings from this leg. That makes 711 appended re-rulings in all.
 - **Pairs.** All 56 pairs in P13's files name a ruled P13 line (`d3_pair_check.py`). Across the ledger, 1,233 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-21: P20, the host's line
+
+P20 is a standing process of T4-002 (Boundary work), and it is the theme's only element. Its statement reads: 'The host sub draws a line around canvas talk: moderators gather it into a megathread, remove canvas posts by rule, change posting rules, pause the sub's usual events or disown the work; members open a canvas sub, object to the flood or argue the canvas's worth.' Its range runs from one member asking for a megathread to moderators moving all canvas talk to a new sub and removing the rest. A20 (P01 to P20) runs into it, and F-010 (bounded) is its finding. G26 was written before any line was read, and its readings are written under it (above). All 920 lines, in 704 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_family_counts.py` and `d3_pair_check.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 392 | 320 | 0 | 0 | 0 | 6 | 66 |
+| absent (327 `unobserved`, 14 `not-testable`, 1 `not-needed`) | 342 | 0 | 0 | 0 | 324 | 3 | 15 |
+| add-step | 80 | 45 | 11 | 0 | 21 | 3 | 0 |
+| restrict | 69 | 26 | 0 | 0 | 43 | 0 | 0 |
+| add-condition | 30 | 15 | 7 | 0 | 7 | 1 | 0 |
+| link | 7 | 2 | 3 | 0 | 1 | 1 | 0 |
+| all | 920 | 408 | 21 | 0 | 396 | 14 | 81 |
+
+P20 is shown in 310 of the 705 rooms, and in 289 of them an instantiate line is accepted. 394 rooms have P20 lines and none shows it. T4-002's prose counts 274 rooms. The one evidenced absence, TheB1G-056 (`not-needed`), was rejected: its member argued against a canvas sub that another member had just opened. P20 is not stated as universal, so no absent line is a correction.
+
+**What the specifications show.** These are rough counts, by phrase in the reason:
+- megathreads and stickies, asked for, promised or made: 113 lines;
+- arguments over the canvas's worth, dismissals among them: 60 lines;
+- canvas subs opened or used by a host's members: 44 lines;
+- P20's lower range (one member's request, objection or dismissal): 74 lines;
+- other statements named: A20 2 (its mechanism and its bound), P17 2, P02 1, P04 1, P14 1.
+
+**Restrict lines: no correction.** Most restrict lines ask that a removal concern canvas talk, that a rule be new or enforced, or that a line be shown to work. G26's reading on removals already holds the first. P20's range, which starts at one member's request, holds the second. P20 does not claim that the line works. So 26 are specifications. The 43 evidence limits are general rules and repost habits, canvas subs' own business, April Fools changes, another sub's line discussed, curiosity, doubt and refused requests.
+
+**The 21 elaborations, five families.** All are paired, and no statement or arrow holds them:
+
+| family | lines | rooms | ops | ids |
+|---|---|---|---|---|
+| members cross or miss the line drawn: they post outside the megathread, miss the sticky on mobile, seek exposure, or carry on in the host after the talk was routed out | 8 | 8 | add-condition 5, add-step 3 | europe-032, portugal-057, stardustcrusaders-036, suomi-053, turkey-036, nintendo-066, pokemon-026, sabres-037 |
+| the event's short life shapes the line: no canvas sub for three days, and requests and complaints withdrawn once the end or the length is known | 4 | 4 | add-condition 2, add-step 2 | borussiadortmund-040, polska-038, 49ers-033, xcom-029 |
+| the host's removals drive members to a canvas sub or a chat | 3 | 3 | add-step 3 | anime-052, armenia-038, canada-044 |
+| the line or a worth argument entered from celebration, a record or an attack, not from calls | 3 | 3 | link 3 | AMD-055, cardinals-044, paladins-080 |
+| the line's automation catches ordinary uses of the word 'place' | 3 | 2 | add-step 3 | norge-051, stardustcrusaders-037, stardustcrusaders-041 |
+
+**What the 81 rejects show.**
+- **Instantiate, 66.**
+  - General or format rules applied to canvas posts, 28: battlecats-046, criticalrole-022, dankmemes-028, drugs-043, futanari-008, futurama-028, halo-004 (re-ruled), hearthstone-053, india-024, kerbalspaceprogram-049, kingdomhearts-048, leagueoflegends-017, lego-039, metalcore-035, opticgaming-045, overwatch-067, paladins-056, pcmasterrace-054, stardustcrusaders-009, startrek-039, tagpro-042, twitch-036, utaustin-043, uwaterloo-044, vinesauce-042, wholesomememes-049, wholesomememes-050, wildhockey-034.
+  - Canvas subs' own founding, venues or coordination, 20: AcePlace-020, AmericanFlaginPlace-050, AvoArmy-035, EraseThePlace-030, Goodboye-030, ManningPlace-041, THE_R-004, TheFarLeftSide-020, TreePlace-031, afip-028, edboxes-027, epublica-042, farmcarrots-030, nVade-044, placeDE-023, placesnek-021, placestart-040, theblackvoid-044, thebluecorner-045, tinytardis-039.
+  - Praise or appraisal alone, 4: 49ers-032, israel-018, neopets-022, sabres-038.
+  - Other, 14: design talk, P02's (austria-047, hunterxhunter-053, rainbowgrid-039); moderation as such (Okami-027, canucks-057); P14's and P16's grounds (egypt-041, teslamotors-047); the sub's April Fools megathread (anime-049); an opening post on what the flag means (palestine-008); advice on playing (physical_removal-034); a megathread's contents (hatsune-032); where a plan sits in a thread (giantbomb-050); a post judged late (furry_irl-040); and an observation that no flood came (gamindustri-031).
+- **Absent, 15.** Each line's concepts show P20, so the claim of absence fails: canvas stickies asked, promised or made in hosts (gatech-026, littlewitchacademia-056, metalgearsolid-051, ohio-049, pusheen-025); routing into one thread or out of the host (frc-033, geometrydash-047, giivasunner-021, purdue-033, ufl-053); objections and dismissals (HomestarRunner-042, glasgow-038, theexpanse-046, udub-030); and TheB1G-056, the `not-needed` line.
+
+**Absent lines.** 324 are evidence limits: calls, celebrations and records, chats, April Fools changes, conduct moderation and canvas subs' own business. I read the quotes of 23 candidates before ruling.
+
+**Particulars, 14.**
+- By G6, 9: counting-033 ('counting'), feedthebeast-050 ('minecraft'), loltyler1-028 ('osu'), math-032 ('math'), sooners-038 ('twice'), unitedkingdom-024 ('lost'), ice_poseidon-045 ('twitch'), sheffield-024 ('sheffield') and telegram-033 ('telegram').
+- One room, with no statement holding the form and no second room's elaboration, 5:
+  - a line drawn inside a chat by shutting event members out (AvoArmy-036);
+  - a line drawn to shield the series' author from the canvas's attention (parahumans-044);
+  - the host's rules changing how a member calls, P20 back to P01 (drugs-046);
+  - spam irritation turned into joining the void (dwarffortress-032);
+  - a private canvas sub that shuts helpers out (ockytop-054).
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or link line was accepted as a correction. P20 stands as served, no move was made, and F-010 is not re-examined.
+
+**Repairs (G7).** Lines in repaired rooms were 0.883 accepted (503 lines), and in unrepaired rooms 0.914 (417 lines). The repaired rooms hold more rejects (54 against 27). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **The line crossed** (8 lines). P20 says the line is drawn, not that it holds. The clustering may separate hosts whose line held from hosts whose members crossed it.
+- **The clock and the line** (4 lines) go beside A20's bound and F-010: the event's short life shaped how much line a host drew.
+- **Removals to other venues** (3 lines) are a possible order inside P20, a removal before a canvas sub or a chat. They go beside A20's bound, which names a canvas sub or megathread set up before any call.
+- **Routes into P20** (3 lines) from celebration, records and attacks go beside A20 and A08.
+- **Canvas-born rooms.** The 20 rejects and many limits for canvas subs bound P20 to rooms with business apart from the canvas. D4 should read canvas-born rooms as having no host's line, except where they name one.
+- **The one-room particulars** stay in their local models.
+
+**Disclosed limits and slips.**
+- **Draws.** Four seeded draws covered the instantiate lines, at verb offsets 453, 553, 653 and 753 (the last over 92 lines), ten lines each. Every drawn line's labels agreed with its quotes, so each packet was ruled from its labels, read whole.
+- **One re-ruling, appended.** halo-004 was accepted on a bare 'Existing Thread or Topic' notice. When overwatch-067 made the reading on duplicate notices explicit, I re-ruled halo-004 to reject (`P20-rerule-01.jsonl`).
+- **A broad reading.** Stickies in hosts count as megathreads whatever their motive. That reading was set at bangladesh-021. A pattern count finds at least 28 lines whose reasons name a canvas sticky in a host, across instantiate, restrict, add-step and absent. In most of them the sticky is the only ground. A narrower reading, stickies only where they contain canvas talk, would move most of those lines to evidence limits.
+- **A count corrected before logging.** I first wrote that this reading decided 'about a dozen' lines. The pattern count gave at least 28, and I corrected the sentence before the close.
+
+### Close-check, D3a-21
+
+`validate.py D3` reports 18,797 of 42,243 ledger lines ruled: the 17,877 before this leg and P20's 920. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 19,509 lines: 920 first rulings and 1 re-ruling from this leg. That makes 712 appended re-rulings in all.
+- **Pairs.** All 21 pairs in P20's files name a ruled P20 line (`d3_pair_check.py`). Across the ledger, 1,254 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.
