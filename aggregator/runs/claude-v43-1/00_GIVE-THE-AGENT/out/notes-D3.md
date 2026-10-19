@@ -277,6 +277,35 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Refusals.** A refusal that mocks the rival counts (ManningPlace-054). A plain refusal to move is P08's (Cornwall-049).
   - **Rivals.** Taunts traded during the event with one individual do not count (PUBATTLEGROUNDS-056, parabola-015, parrots-059). Fans of rival teams or faculties in a shared sub speak for rival groups (alberta-048, portugal-069). A mock war between two subs that never names the canvas is outside the event (Pigifs-016).
   - **Venues.** Brigading a rival's posts or raiding its chat is P18's flooding (chelseafc-068, osugame-056, argentina-045).
+- **G22 (logged at D3a-17, before P10's lines were read or ruled).** P10 is shown when a concept shows the room, after its work or its spot is erased, overrun or taken, weighing fighting for the spot against moving, or moving. The moves are the ones P10 names: a new spot, a smaller version, a fresh start. One member asking where to rebuild after a loss is P10's lower range. That covers:
+  - a call, proposal or question to rebuild elsewhere, smaller or anew after the work is lost or overrun;
+  - a weighing of staying to fight against moving, voiced after a loss, whatever the room then does;
+  - a report that the room moved, shrank the work or started again after a loss;
+  - a move by a coalition's or an ally's plan after the loss, as A10's bound reads MiamiHurricanes.
+
+  The loss comes first, as P10's statement says ('After the work is erased or overrun'). So P10 is not shown by:
+  - a site chosen or changed before any loss, for design or space (P02's choice, or P04's location), or a move by terms agreed before any loss (P08);
+  - relocating to spare another group's work with no loss before it (P07's sparing, as G19 read foxstevenson-019);
+  - repair or defence of the work in its place with no move weighed (P05);
+  - giving the work up with no move weighed. F-019 reads that as the other outcome after doubt and a loss, not a move. It is K02's 'defenders told to give up' or P12's mourning;
+  - a plan to rebuild on a later canvas after the close (P13's carrying on), since no placement is possible after hour 73.
+
+  A visitor's suggestion that the room move is the visitor's request (P08); it shows P10 only where the room's members take it up after a loss. A move whose new spot is taken from another's work is P10 and P09 at once (P09's paired family, 'the place the room needs'). P10 is not stated as universal (T3-022 holds 116 of 705 rooms and T3-124 17), so its absent lines are never corrections. G2 and G3 rule them: a `not-needed` or `observed-absent` line is a specification where the concepts show that no loss called for a move, or that the room met a loss and did not move. G9 rules restrict and contradict lines. A correction of P10 must state a condition P10 lacks and show P10 failing without it. Corrections met twice at one node trigger §2, and F-019, which touches P10 through A10, would then be re-examined. Under G4a, the statements that may hold an add, link, instantiate or restrict line are:
+  - A10 (doubt about hands or room before the move, its bound and mechanism) and K02 (the judgment itself);
+  - P05 (defence and repair, the alternative a room weighs), P07, P08 and P09 (moves to spare, by terms, or onto another's work);
+  - P01 and P03 (calls to rebuild and building the new work), P02 (design), P12 (the record of the loss), P13 (carrying on) and P17 (a coalition's plan), and P22 for acts cut off by the close.
+
+  Candidates and tentative entries hold no line: P06, P19, P21, R02, K03 and K04. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset.
+- **G22's readings, stated while ruling (D3a-17).** They apply G22 and change no rule. Each was logged when stated, and the first was checked backwards.
+  - **A push given up** (stated at instantiate line 100, checked backwards). A room may give up its own push to take another group's spot because it cannot win, and build elsewhere. That does not show P10. The spot was never the room's, A10's mechanism speaks of a spot the room holds, and G19 reads such restraint as P07's. One accepted line changed: anarcho_capitalism-028, by an appended re-ruling. Later lines: gratefuldead-031, sooners-026, leafs-025, starcitizen-026, titanfall-037, greenbaypackers-027 and rpi-018.
+  - **Hands moved to another work** (stated at instantiate line 150). A room may move its hands from a lost or overrun work to another of its works, to build or keep it. That is P10's move (GabrielDropout-031, israel-028, mylittlepony-022, FinalFantasy-036, ScottPilgrim-008; the absent lines australia-023, aromantic-022 and gorillaz-039 are rejected). Joining another group's work after a loss is help (P16), not P10 (kpop-030). Giving the work up with no other work or spot named stays F-019's other outcome.
+  - **The close.** A plan to rebuild on the canvas made after hour 73 is an evidence limit on instantiate, absent and restrict lines (duckgame-020, duckgame-021, totallynotrobots-022), as G20's reading ruled calls after the close. On add lines it is a specification naming P22 (Dominican-035, enterthegungeon-033, paydaytheheist-012). A restart on a successor canvas is P13's, by G22's later-canvas clause (AcePlace-010).
+  - **Overrun under way.** P10's 'overrun' covers a work being encroached, or an advancing work about to cover it (lego-015, furry_irl-021, berserk-027, metroid-026, necrodancer-027, vocaloid-053). It does not cover a guess about a future overwrite with nothing advancing (kanye-011), or a site judged too close to a roaming threat (haskell-015).
+  - **Planned sites.** A site the room has not yet built on, taken or avoided, is a change of site (P04), not 'its spot ... taken' (singapore-037, palestine-018, chelseafc-041, UPenn-013, chibears-036).
+  - **Moves before a loss in restrict and add lines.** A condition that would widen P10 to the moves G22 gives to P07, P08 or P04, or to giving the work up, does not add to P10. The line is then ruled by its concepts, as P09's dota2-070 was. No such line showed P10 failing, so none is a correction.
+  - **A fresh start in place, or repair.** Rebuilding a work in its place after it was gone or taken is P10's fresh start (pepe-045, finland-020, lofihiphop-023, DCFU-011). Restoring a work that still stands, or retaking the spot by fighting, is P05 (starryknights-017, CSUFoCo-025, newzealand-023).
+  - **A loss and a call not linked.** A loss and a later call may come from different members, hours apart, in different threads. The line is then an evidence limit (kirby-022, patriots-024, mechanicalkeyboards-017, shrooms-019, popheads-008). In one thread they are read together (wsu-020).
+  - **What a weighing is.** Weighing a smaller version or a fresh design against defence is P10's weighing (ChronoTrigger-010, columbia-010, eesti-021). Giving the work up rather than rebuilding on others' space is not (paragon-009).
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -1916,5 +1945,98 @@ Both families put something other than the room's own attack before the contest 
 `validate.py D3` reports 14,369 of 42,243 ledger lines ruled: the 13,591 before this leg and P18's 778. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 15,059 lines: 778 first rulings and 2 re-rulings from this leg. That makes 690 appended re-rulings in all.
 - **Pairs.** All 6 pairs in P18's files name a ruled P18 line that is an accepted elaboration (`d3_pair_check.py`). Across the ledger, 1,162 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-17: P10, the room moves after a loss
+
+P10 is a standing element of T4-014. Its statement reads: 'After the work is erased or overrun, the room weighs fighting for the spot against moving, and moves: a new spot, a smaller version, a fresh start.' Its range runs from a lone member asking where to rebuild to a room relocating together within two hours. A10 (K02 to P10) runs into it, and F-019 touches it through A10. G22 was written before any P10 line was read, and its readings are written under it (above). All 840 lines, in 697 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_family_counts.py`, `d3_g4ab_tally.py` and `d3_reject_kinds.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 276 | 225 | 0 | 0 | 1 | 19 | 31 |
+| absent (253 `unobserved`, 63 `not-testable`, 19 `not-needed`, 1 `observed-absent`) | 336 | 19 | 0 | 0 | 258 | 28 | 31 |
+| restrict | 89 | 47 | 0 | 0 | 39 | 3 | 0 |
+| add-step | 77 | 43 | 8 | 0 | 24 | 2 | 0 |
+| add-condition | 43 | 21 | 0 | 0 | 21 | 1 | 0 |
+| link | 16 | 7 | 1 | 0 | 7 | 1 | 0 |
+| contradict | 3 | 2 | 0 | 0 | 1 | 0 | 0 |
+| all | 840 | 364 | 9 | 0 | 351 | 54 | 62 |
+
+P10 is shown in 300 of the 705 rooms, and in 223 of them an instantiate line is accepted. 397 rooms have P10 lines and none shows it. T3-022 holds 116 rooms and T3-124 holds 17, so most rooms that move after a loss had their talk placed under other themes. P10 is not stated as universal, so no absent line is a correction.
+
+**What the specifications show.** These are rough counts. Each pattern is matched only against the reason's closing clause, and the patterns overlap.
+- a weighing of fighting for the spot against moving: 59 lines in 54 rooms;
+- a smaller version: 44 lines in 40 rooms;
+- a fresh start: 72 lines in 67 rooms;
+- hands moved from a lost work to another of the room's works: at least 6 lines in 5 rooms;
+- a new spot or a move: 255 lines in 225 rooms (this pattern also takes the G3 absent lines).
+
+**Restrict and contradict: no correction.** Most restrict lines ask that P10 count only a completed or collective move. P10's range starts at one member asking where to rebuild, and G22 counts a weighing whatever the room then does, so their condition is already stated. Other restrict lines ask that P10 admit moves made before any loss: to spare a neighbour, on a request or terms, to avoid competition, or ahead of harm not yet come. G22 gives those moves to P07, P08 and P04, so P10 does not fail without the condition. Each line is a specification where its concepts show P10 (47), and an evidence limit where they do not (39). The three contradict lines say P10 fails because a room moved before its work was erased. MiamiHurricanes-016 is a coalition's move that A10's bound reads by name. necrodancer-027 moves ahead of the advancing taskbar, which 'overrun' covers. rpi-018 is a push given up. None shows P10 failing.
+
+**Add, link and contradict lines under G4a.** 27 specifications name another statement:
+- P05 (4): keepers told to stop repairing a work being moved (berserk-029, ftlgame-023, necrodancer-028, seahawks-040);
+- P04 (4): coordinates or one plan circulated for the new site (TheHulk-057, day9-018, day9-019, indieheads-020);
+- A10 (4): a move on a judgment of too few hands to hold the spot (reddevils-017, dota2-024, snsd-038, MiamiHurricanes-016);
+- P08 (4) and P16 (2): a move made on terms, or with help offered or not given;
+- P22 (3): acts cut off by or made after the close;
+- P09 (3): a new spot taken from another's work, which G22 reads as P10 and P09 at once (anarcho_capitalism-029, russia-016, streetfighter-028);
+- K02, P17 and P02 (1 each): a destination judged by room and hands, alliances weighed, the smaller work's design argued.
+
+Evidence limits on add lines follow P09's dota2-070: a condition that would widen P10 to moves G22 excludes does not add to P10, and the line is ruled by its concepts.
+
+**The 9 elaborations, by family.** All are paired, and none is stated in the model:
+
+| family | lines | rooms | ops | ids |
+|---|---|---|---|---|
+| copies of the work made while it stands, so one loss does not end it | 3 | 3 | add-step 3 | ethoslab-055, twitchplayspokemon-038, rotmg-024 |
+| the rebuilt work reuses pixels already on the canvas | 2 | 2 | add-step 2 | PUBATTLEGROUNDS-030, flashtv-067 |
+| the rebuilt design takes the damage into itself | 2 | 2 | add-step 2 | battlecats-036, animalcrossing-017 |
+| regret for the lost work opens the fresh start | 2 | 2 | add-step 1, link 1 | pusheen-014, OrderOfTheKoi-018 |
+
+The first family adds a step before the loss, which P10 does not have: a backup or copy. It also shows in concepts of other lines (SwissNeutralityZone c0041, russia c0094, texas c0184, toolband c0090, placeportalpattern c0080, simonfraser c0056). The other three add what the rebuilt work takes from the canvas, from the attack, or from the room's regret.
+
+**What the 62 rejects show.**
+- **Instantiate, 31.** Sorted by reason, with the helper's first-match groups corrected by hand:
+  - no loss shown before the move, 8 (Moondye7-022, PurplePixels-024, Rainbow6-033, ethoslab-013, furry-036, vegan-010, ice_poseidon-020, purplecorner-024);
+  - a move on terms or a request, P08's, 8 (detroitlions-020, dragonquest-028, earthbound-023, factorio-034, foxes-019, paladins-040, peterdraws-009, tinytardis-022);
+  - a planned site taken or avoided, 4 (egypt-004, palestine-018, singapore-037, stardustcrusaders-020);
+  - sparing or restraint, P07's, 4 (OKState-011, Okami-018, frc-025, nVade-006);
+  - a push for another's spot given up, 4 (anarcho_capitalism-028, gratefuldead-031, leafs-025, sooners-026);
+  - another group's loss or move, 2 (croatia-015, overwatch-049);
+  - a restart on a successor canvas, P13's, 1 (AcePlace-010).
+- **Absent, 31.** Each line's concepts show P10, so the claim of absence fails:
+  - a move or a new spot after a loss (Cornwall-030, Peru-063, TransFlagPlace-022, chess-010, cuboulder-022, denmark-005, kuwait-067, littlewitchacademia-039, partyparrot-049, romania-008, shishamo-010, thetreesnetwork-022, twitch-027, wsu-020);
+  - a fresh start (DCFU-011, DatBoi-033, FlaggyFlag-027, apocalypserising-010, finland-020, lofihiphop-023, rojava-023, unitedkingdom-019);
+  - a weighing (ChronoTrigger-010, columbia-010, eesti-021, spacexmasterrace-019);
+  - hands moved to another work (aromantic-022, australia-023, gorillaz-039);
+  - a smaller version (asexual-010, guatemala-020).
+
+**Absent lines.** 258 are evidence limits: calls, defence, repair, records, celebration, terms, site choices, attack calls and visitors' moves, with no move after a loss. 19 are specifications by G3. Their concepts show that no loss called for a move (17), or that the room met a loss and stayed (nin-033, starryknights-017).
+
+**Particulars, 54.** All fail portability (G6): 19 instantiate, 28 absent, 3 restrict, 2 add-step, 1 add-condition and 1 link line. No line is a one-room particular.
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or contradict line was accepted as a correction. P10 stands as served, no move was made, and F-019 is not re-examined.
+
+**Repairs (G7).** Lines in repaired rooms were 0.850 accepted (448 lines), and in unrepaired rooms 0.875 (392 lines). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **The four families** (9 lines) go to the clustering. The copies family goes beside A10's bound and F-019, since it is a step a room takes before any loss.
+- **Doubt and a move with no loss** (nightinthewoods-025, hearthstone-025, and doubt sizing a first design in aeskwadraat-004 and sadboys-063). A10's bound names early moves by choice, made before any doubt. These rooms voice doubt first and move with no loss. They go to the order tests beside A10.
+- **Moves before a loss** (most restrict and add evidence limits) are P04's, P07's and P08's. They bear on A10's bound, not on P10.
+- **Calls after a move** (giantbomb-041, ethereum-016, TheGreatGreenBox-020) go beside 'calls recurring after a loss (P01, P10, A10)'.
+- **The line between P05 and P10.** G22's reading puts a rebuild in place after the work was gone with P10, and the repair of a standing work with P05. Both go to the clustering.
+
+**Disclosed limits and slips.**
+- **Draws.** Three seeded draws covered the instantiate lines, at verb offsets 460, 560 and 660 (the last over 76 lines), ten lines each. Every drawn line's quotes gave the ruling its how and labels give, so no packet was read whole with quotes.
+- **Two re-rulings, appended.** anarcho_capitalism-028 changed from a specification to a reject when the reading on pushes was applied backwards. xenoblade_chronicles-036 changed from a reject to a specification. Its rejection read the move as made before any loss, but the room's c0038 and c0069 (ruled at xenoblade_chronicles-037) report the void destroying the original first.
+- **Counts logged before the tally,** three times, and corrected in later notes: the concepts cited for instantiate lines 0 to 49 (32, not 29); a count of restrict lines on moves before a loss, typed from memory (by grep, 4 and 5 lines name G22's exclusion); and the link kinds (7 and 7, not 6 and 8).
+- **A compaction** came mid-leg, after G22 was written and before it was logged. The hook's four steps were done first, and the opening note and G22 were logged after them.
+
+### Close-check, D3a-17
+
+`validate.py D3` reports 15,209 of 42,243 ledger lines ruled: the 14,369 before this leg and P10's 840. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 15,901 lines: 840 first rulings and 2 re-rulings from this leg. That makes 692 appended re-rulings in all.
+- **Pairs.** All 9 pairs in P10's files name a ruled P10 line that is an accepted elaboration (`d3_pair_check.py`). Across the ledger, 1,171 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.

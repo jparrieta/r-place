@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Rewritten whole at every close. Last written at D3a-16, 2026-10-19 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Rewritten at every close. Last written at D3a-17, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -25,11 +25,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-16)
+## The return (D1a to D3a-17)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09 and P18 stand without correction.
-- **D3a-15 and D3a-16.** Attacks [P09] show in 510 of 705 rooms (T4-020: 231), and taunts [P18] in 404 (T4-021: 116). Paired elaborations put retaliation, protection, loss and too few hands before attacks, and border talk or an attack suffered before taunts; no arrow says so.
+- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09, P18 and P10 stand without correction.
+- **D3a-15 to D3a-17.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404 and moves after a loss [P10] in 300. Paired elaborations put loss before attacks, an attack suffered before taunts, and copies of the work before a loss.
 
 ## The current account, and the contrary rooms
 
@@ -64,10 +64,10 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Where the run stands
 
-- **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
+- **D1a and D2a outputs:** `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
 - **D3a outputs:**
-  - `adjudications.jsonl`: 14,369 lines ruled, 15,059 with re-rulings;
-  - the stage's notes: G1 to G21 (G20 and G21 amended once each), G13a, G4a (three amendments) and the field's entries;
+  - `adjudications.jsonl`: 15,209 lines ruled, 15,901 with re-rulings;
+  - the stage's notes: G1 to G22 (G20 and G21 amended once each), G13a, G4a (three amendments) and the field's entries;
   - `model/history.jsonl`: moves 172 to 174.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
 - **Ledgers (lines):** tier history 561; model history 139; findings 37 (23 findings); elements 30 (24 standing, 5 candidates, P21 tentative); arrows 21 (A21 tentative).
@@ -128,8 +128,9 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-16**, to weigh after order tests:
+- **From D3a-02 to D3a-17**, to weigh after order tests:
   - P09's families: what comes before the attack (13 lines) and what chooses its target (9, beside C02); P18's: what opens the contest in talk (6, beside A18);
+  - P10's: copies of the work made before a loss, and doubt before a move with no loss, both beside A10;
   - P19's form (9 lines); A04's bound (21); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4);
   - calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording entered from a loss, beside A08;
   - a finished work reopening calls or the design;
@@ -140,9 +141,9 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
   - bare refusals (math-011, wow-050) against F-014;
   - chats (T4-010), which split the sharing in 19 rooms;
   - K01's canvas-call clause (doubted in 3 rooms) and doubt costing uptake (9 rooms).
-- **The re-check:** rooms relying on the rewritten R01, P05 and P22 go to it; two R01 elaborations wait for the clustering.
+- **The re-check:** rooms relying on rewritten R01, P05 and P22 go to it; two R01 elaborations wait for clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
-- **From C4:** P21 and A21 for their groups (35 P08 and P07 lines show P21's form); a request for space answered with terms.
+- **From C4:** P21 and A21 for their groups; a request for space answered with terms.
 - **From C3:** the forms on the four universal problems or the remainder; the colour-faction doubt [PurplePixels/c0165]; Olson; the four declined reads.
 - **From C2:** what a mark brings back; the return's two boundaries; the claim untested for order.
 - **From C1 and B1:** the form-pass findings; the B1 bag counts.
@@ -167,7 +168,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
   - Every arrow needs `negative_check`.
   - The head never names a proposition id.
   - A re-ruling, or a history correction, is an appended line; the earlier line stays.
-- **The store.** `cite.py --room --code` takes one code per call. The theme a reply sits under does not track its stance.
+- **The store.** `cite.py` takes one code per call; a reply's theme does not track its stance.
 - **The permission check refuses:**
   - deleting a file, even a link;
   - shell variables, loops, functions, brace groups, heredocs and words beginning "for_";
@@ -183,4 +184,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The next element group, by G1 to G21 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group, by G1 to G22 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
