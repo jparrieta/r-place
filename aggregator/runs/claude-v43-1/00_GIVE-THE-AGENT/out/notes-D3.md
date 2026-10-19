@@ -199,6 +199,47 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **A refusal whatever its reason.** A refusal of an attack call counts whatever its reason. Where the reason is the flood of canvas posts, it shows P20 at once (england-018).
   - **Restoring elsewhere.** Restoring a work the room damaged includes rebuilding it elsewhere or giving its makers another space (uva-007, ss13-039, nVade-038).
   - **G4a on P07's add and link lines.** An act cut off by the close names P22, as earlier groups did (osugame-033, foxes-023). Restraint undone until it reaches the keepers, placers or scripts names P05's clause, as P08's agreements did.
+- **G20 (logged at D3a-15, before P09's lines were ruled).** P09 is shown when a concept shows the room attacking a work that is not its own, or members calling for, planning, claiming or reporting such an attack. The moves are the ones P09 names: erasing or covering, encroaching on a neighbour's space by expansion, converting a sign or work into the room's own, raiding on a streamer's call, planting a script, and altering a work as a joke. One member's call is P09's lower range, and a call need not be carried out. Encroaching counts whether or not the room meant harm, since P09 names encroaching as an attack (as G18 read it). That covers:
+  - a call, plan or proposal to attack, convert or take over another's work, with or without a target named;
+  - members' reports or admissions of the room's own attacks, retaliation included;
+  - expansion into a neighbour's work that members admit or are told of;
+  - a joke alteration of another's work by members of the room;
+  - scripts or bots set against others' works.
+
+  P09 is the room's own repertoire. A15, A16, A17 and A18 each order 'the room's first call or act against another room's work', and T4-020's prose counts members attacking others' work. Help, terms and apologies are exchanges in which both rooms act, so G17 to G19 read them from either room's record. An attack is one room's act on another's work, so P09 is not read that way:
+  - an attack the room suffers, reported by its members, is P05's watching or defence, or P12's report of the work's fate, not the room's P09;
+  - a visitor's call, threat or claim of an attack on the room's work is P09 of the visitor's room; in this room's record it shows P09 only where the room's members join it;
+  - a member griefing the room's own work is not P09, since P09's object is others' work.
+
+  It is not shown by:
+  - a call to the canvas or for hands with no attack (P01), or defence of the room's own work (P05);
+  - a taunt, a claim of victory, or a contest in talk, including flooding or raiding another room's threads and brigading people off the canvas (P18; the reading G19 set for restraint);
+  - lettering aimed at a rival that covers no one's work (P18's taunt);
+  - restraint, refusal or apology (P07), or terms (P08);
+  - a move away after the work is overrun (P10), or a design choice that covers no one (P02).
+
+  An attack call made after hour 73, when no placement is possible, is talk about the canvas and an evidence limit for P09. One that aims at a canvas opened after hour 73 is a paired elaboration, after G11's and G15's precedent. P09 is not stated as universal (T4-020 counts 231 of 705 rooms), so its absent lines are never corrections. G2 and G3 rule them. Restrict and contradict lines fall under G9. Under G4a, as amended and applied forward, the statements that may hold an add, link, instantiate or restrict line are:
+  - A15 (the call to the canvas before the attack call; its bound, an attack as the room's first canvas act);
+  - A16, A17 and A18 (the attack before restraint, border talk and taunts, with their bounds and mechanisms);
+  - C02 (a tie from before the canvas named in the turn that calls for or carries out the attack);
+  - K01 (a call to the canvas that may be a joke);
+  - P14 (machine hands), P08 (contesting or breaking terms), P05 (defence, and repair that restores the form the keepers know), P10, K02, P20 and C01.
+
+  Candidates and tentative entries hold no line: K03's quarrel, K04's colour faith, P06, P19 and P21. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from verb offset 226 (after 169 absent, 35 add-condition and 22 add-step lines).
+- **G20, amendment 1 (D3a-15, 19 October 2026; applies backwards to every P09 line).** Two changes.
+  - **'Told of'.** It covers a neighbour's account of the room covering, encroaching on or attacking the neighbour's work, not expansion only. Members of the room need not answer. Where members deny the act and name other actors, the concepts leave the act open, and the line is an evidence limit (lovelive-009, paragon-055). A question that members deny shows nothing (bahrain-014).
+  - **The statements G4a may name for P09** also include P22, for a call that meets or follows the close (the precedent of osugame-033 and foxes-023), and P04, for coordinates asked for and given for a raid's target.
+  - **Applied backwards.** uiowa-009 (rejected) was re-ruled to a specification, and DevonUK-052 (rejected) to an evidence limit. The other 11 instantiate rejects that name a visitor or a claim were checked. Each concerns an attack on the room's own work, or an attack offer that no member took up, so none changes. The four non-absent lines that mention a denial rest on members' own calls or admissions, or on a denial of collective blame only (argentina-046, ainbowroad-045, landry-011, utaustin-058). No line ruled before this leg named P04 or P22 for P09.
+- **G20's readings, stated while ruling (D3a-15).**
+  - **Defence is P05.** Acting against what covers the room's own work is P05, the Void included (bindingofisaac-015, metalgearsolid-060, shishamo-009, texans-040, xcom-039, yugioh-066). A call to retake a spot the speaker wrongly thought was the room's is also P05's, and here it was withdrawn (titanfall-058).
+  - **The Void.** A general call to attack the Void's black is P09 (pcmasterrace-073). A member who joins the Void shows P09 at its lower range (bindingofisaac-014, Jamaica-058, necrodancer-056).
+  - **Visitors.** A visitor's attack offer or call that no member takes up is not the room's P09 (archlinux-040, colombia-028, hearthstone-065, kamenrider-024, pakistan-047, thepointing-020, ravens-055, rotmg-048, freedomplanet-038).
+  - **The room's own work.** A work the room adopted is its own (portugal-068, the Squirtle). Members or placers altering it do not show P09 (chelseafc-063, day9-027, gatech-059, kirby-038, linux-064, polska-027). Neither do fandom play against the room's own proposal (transformers-023) or factions of the room contesting its own portrait (dota2-070).
+  - **What covers no one.** A design aimed at a rival that covers no one's work is P18's taunt or P02's design (bostonbruins-038, DatBoi-052).
+  - **The content's motive.** Erasing content the room objects to is P09's erasing (catholicism-023).
+  - **K02.** A line that cites only K02's judgment does not show P09 (rotmg-047).
+  - **The close.** A call made after hour 73 is an evidence limit on instantiate and absent lines (warthunder-068, samuraijack-035, wallstreetbets-059, mysterydungeon-040). On add lines it is a specification naming P22. An attack made during placement and recounted after the close is P09 (utaustin-057, zootopia-059). A picture of the canvas edited after the close is P22's contest over the version kept (torontoraptors-059).
+  - **The means.** P09 names no means. A glitch's burst of pixels (cardinals-059) and a rival's own script turned on it (rit-057, named under P14) are means of moves it names.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -1656,5 +1697,102 @@ The helper misses PurplePixels-015, whose reason holds '; ' inside a parenthesis
 `validate.py D3` reports 12,705 of 42,243 ledger lines ruled: the 11,772 before this leg and P07's 933. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 13,388 lines: 933 first rulings from this leg and no re-rulings. That leaves 683 appended re-rulings in all.
 - **Pairs.** All 41 pairs in P07's files name a ruled P07 line (`d3_pair_check.py`). Across the ledger, 7 elaborations, the 7 older ones, pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-15: P09, attacks on others' work
+
+P09 is the standing element of T4-020 (dimension D08). Its statement reads: 'Rooms attack others' work by the recurring moves the canvas affords: erasing, encroaching, converting a sign, raiding on a streamer's call, planting a script, altering a work as a joke.' Its range runs from one member's call to deface a rival to a coordinated raid. It has stood since C2's first pass. A15 (P01 to P09) runs into it, and A16, A17 and A18 run out of it. No finding touches P09. G20 was written before any line was ruled, and amended once in this leg (above). All 886 lines, in 703 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_family_counts.py`, `d3_g4ab_tally.py` and a new helper, `d3_latest_ids.py`, which lists ids by their latest ruling.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 558 | 494 | 1 | 0 | 6 | 29 | 28 |
+| absent | 169 | 1 | 0 | 0 | 145 | 1 | 22 |
+| restrict | 77 | 41 | 0 | 0 | 33 | 3 | 0 |
+| add-condition | 35 | 24 | 4 | 0 | 7 | 0 | 0 |
+| link | 25 | 7 | 13 | 0 | 2 | 3 | 0 |
+| add-step | 22 | 10 | 8 | 0 | 2 | 2 | 0 |
+| all | 886 | 577 | 26 | 0 | 195 | 38 | 50 |
+
+P09 is shown in 510 of the 705 rooms, and in 467 of them an instantiate line is accepted. 193 rooms have P09 lines and none shows it. G20 took T4-020's count, 231 rooms, as the reason P09 is not universal. The return shows P09 in more than twice as many rooms. Many accepted lines lift through other fourth-order themes, such as T4-016's border work and T4-006, T4-013 and T4-014. P09 is still not universal, since 193 rooms show no attack, so no absent line is a correction. The gap between 231 and 510 is a fact about T4-020's placements. I report it and change no ruling for it.
+
+**Restrict: no correction.** The 77 restrict lines mostly ask for an enacted attack, a room-level campaign, a named target or a stated motive. P09 needs none of these: its range starts at one member's call, and a call need not be carried out. Other restrict lines restate G20: an attack the room suffers, a visitor's call, the room's own work altered, or a call after the close. Each line is a specification where its concepts show P09 (41). It is an evidence limit where they do not (33). Three fail portability. No restrict line shows P09 failing.
+
+**Add and link lines under G4a.** The specifications name these statements (`d3_g4ab_tally.py --prefix P09`):
+- **P22: 8.** A call that meets or follows the close at hour 73 (anaheimducks-067, croatia-014, quebec-065), and a picture of the canvas edited after it (torontoraptors-059).
+- **A16: 5.** An attack call answered by a refusal that states the room's norm (roosterteeth-053, samuraijack-074). Restraint that comes before the call (canada-056, criticalrole-059). Acceptance as the preferred answer (teamcube-056).
+- **P05: 4.** An attack that uses the keepers' repair of the form they know (austria-062, theblackvoid-015). Defence on the room's own work (donaldglover-038). Growth after upkeep (wallstreetbets-065).
+- **P14: 3.** Scripts adjusted against another's work (rit-057, loltyler1-041, unitedkingdom-053).
+- **A17: 2, A18: 2, K01: 1, P04: 1.** An attack call met by the room's alliances, and border talk before it (canucks-076, DatBoi-057). The contest carried on in talk after the attack (completeanarchy-056, shitredditsays-043). A joke claim under the day's licence (OnePiece-072). Coordinates asked for a raid's target (dankmemes-063).
+- **P09's own statement, or the line ruled by its concepts as a reading rule.** The rest of the accepted add and link lines.
+
+**The 26 elaborations, by family.** All are paired, and the counts give lines, then rooms (`d3_family_counts.py`):
+
+| family | lines | rooms | ops | ids |
+|---|---|---|---|---|
+| the place the room needs for its work is taken from another's work (a new spot after a loss, or a place the room insists on) | 4 | 4 | link 4 | russia-064, liquicity-036, paladins-077, 2007scape-039 |
+| retaliation: an attack the room suffers prompts its attack on the attacker's work | 4 | 4 | add-step 1, link 3 | AMD-057, leafs-056, Clannad-019, k_on-016 |
+| the target chosen by its weak defence, with no tie to its makers | 3 | 2 | add-condition 1, add-step 2 | zelda-048, zelda-047, theblackvoid-057 |
+| the attack shrunk to the hands and effort the room has | 3 | 3 | add-step 2, link 1 | destiny-009, fullcommunism-065, sabres-005 |
+| covering others' work is itself the building of the room's mark | 2 | 2 | add-condition 1, instantiate 1 | Thegreatblackhole-046, theblackvoid-056 |
+| an attack on another's work made to protect the room's own | 2 | 2 | add-condition 1, link 1 | anarcho_capitalism-047, lakers-082 |
+| judging hands or space too small for the room's own work turns it to attack | 2 | 2 | add-condition 1, link 1 | kurdistan-054, canucks-040 |
+| a loss turns members from rebuilding to attacking another's work | 2 | 2 | link 2 | dbz-072, loltyler1-046 |
+| a target chosen because it shares the room's colours, so few pixels change | 2 | 2 | add-step 2 | latvia-023, luxembourg-054 |
+| a simple pattern draws passers-by who extend it over others' work | 2 | 2 | add-step 1, link 1 | shitredditsays-042, opticgaming-040 |
+
+Five families concern why and when a room attacks (13 lines): retaliation, protection, a loss, too few hands, and the attack shrunk to the hands. They put P05, P10 and K02 before P09, and no arrow in the model does that. Three families concern where and what a room attacks (9 lines): the place it needs, weak defence and shared colours. One family is the Void's form, in which the attack is the work. The tenth is a simple pattern that passers-by extend over others' work, beyond the room's control.
+
+**What the 50 rejects show.**
+- **Instantiate, 28:**
+  - an attack the room suffers, by visitors or another room (Goodboye-042, TheHulk-029, WPI-030, duckgame-028, foxes-036, parabola-014, winnipegjets-053);
+  - defence of the room's own work, or a defence call withdrawn (bindingofisaac-015, metalgearsolid-060, shishamo-009, texans-040, xcom-039, yugioh-066, titanfall-058);
+  - the room's own work altered by members or placers (chelseafc-063, day9-027, gatech-059, kirby-038, linux-064, polska-027);
+  - a visitor's attack offer that no member took up (archlinux-040, colombia-028, hearthstone-065, kamenrider-024, pakistan-047, thepointing-020);
+  - fandom play against the room's own proposal (transformers-023), and K02's judgment alone (rotmg-047).
+- **Absent, 22.** Each line's concepts show P09, so the claim of absence fails:
+  - an attack or cover the room is told of (COSI-027, Cornwall-048, DCFU-010, colorado-033, evedreddit-033, livecounting-033, miraculousladybug-058);
+  - a member's call or plan to take or cover another's work (Dorset-009, Honduras-036, bangtan-042, carletonu-035, nin-054, riskofrain-047, twitch-046);
+  - covering or encroaching admitted (Produce101-013, ScottPilgrim-033, hatsune-041, seventeen-045);
+  - a member who joined the Void (Jamaica-058, necrodancer-056);
+  - an attack reported by a member (lego-049, ubreddit-051).
+
+**Absent lines.** 146 are marked `unobserved`, 22 `not-testable` and one `observed-absent`. 145 are evidence limits: calls, defence, loss reports, help, terms, taunts and celebrations, with no attack on another's work. mit-029 is an evidenced absence: the room notes that a larger work would mean fighting a banner, and it defends its small logo instead.
+
+**Particulars, 38.**
+- **Failing portability (32):** 28 instantiate lines, 3 restrict lines (borderlands-016, empiredidnothingwrong-062, patriots-046) and 1 absent line (mariokart-022).
+- **One room only (6).** A search of all 886 P09 lines through `d3_line_search.py` found no second room for these:
+  - cubers-074: attack calls on a canvas opened after hour 73;
+  - bees-009: converting a work to punish its makers for encroaching on a third room's work;
+  - falcons-058 and falcons-059: erasing a rival so the saved final picture does not hold it;
+  - dwarffortress-033: helping the Void because canvas posts feel like spam. philippines-041 gives the same motive, but against the room's own flag, which is not P09.
+  - witcher-056: a neighbour's complaint turning a member to attack the complainant's work.
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or contradict line was accepted as a correction. P09 stands as served, and no move was made.
+
+**Repairs (G7).** Repairs made little difference. Lines in repaired rooms were 0.910 accepted (479 lines), and in unrepaired rooms 0.889 (407 lines).
+
+**Carried to later groups.**
+- **The five 'why and when' families** (13 lines) go to the clustering and the order tests: P05, P10 and K02 before P09. Retaliation and protection bear on the account's condition between its best and its most threatening room, what decides whom a room fights. The loss and hands families go beside A10 and P10.
+- **The three 'where and what' families** (9 lines) go beside C02. C02 names a prior tie in some rooms, and these rooms choose by the place they need and by cost.
+- **The Void's form** (2 lines) goes beside K04's colour faith, a candidate.
+- **P21's form** appears beside P09 specifications and elaborations (smashbros-059, ScottPilgrim-033, opticgaming-040), and goes to P21's group.
+- **Attacks after the close** (8 add lines name P22; cubers-074's successor canvas) go beside P22.
+
+**Disclosed limits and slips.**
+- **Draws.** Six seeded draws covered the instantiate lines, at verb offsets 226 to 726, ten lines each. Draw 6 found winnipegjets-053 unsupported: c0066 vows to change the room's own lettering. Lines 499 to 557 were read whole with every line's quotes, and timbers-010 kept its ruling.
+- **Five re-rulings, appended.**
+  - uiowa-009: a reject that misread G20 (it led to amendment 1).
+  - theblackvoid-056: a specification that became Thegreatblackhole-046's pair once that line was read.
+  - kurdistan-054: a particular written before canucks-040 was read.
+  - DevonUK-052: a reject that read two concepts without the member's answer naming Cornwall.
+  - liquicity-034: an evidence limit that read c0064 without its thread, found when the link line liquicity-036 read the same turn differently.
+- **Two reasons edited before the check.** A claim in uoft-055's reason, and one in wario-004's, were not supported by the record. Both were rewritten from the record before the file was checked.
+
+### Close-check, D3a-15
+
+`validate.py D3` reports 13,591 of 42,243 ledger lines ruled: the 12,705 before this leg and P09's 886. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 14,279 lines: 886 first rulings and 5 re-rulings from this leg. That makes 688 appended re-rulings in all.
+- **Pairs.** All 26 pairs in P09's files name a ruled P09 line that is an accepted elaboration (`d3_pair_check.py`, `d3_pair_kind_check.py --elements P09`). Across the ledger, 1,156 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind.
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.

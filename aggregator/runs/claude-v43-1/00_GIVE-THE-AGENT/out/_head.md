@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Rewritten whole at every close. Last written at D3a-14, 2026-10-18 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Rewritten whole at every close. Last written at D3a-15, 2026-10-19 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -25,11 +25,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-14)
+## The return (D1a to D3a-15)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08 and P07 stand without correction.
-- **D3a-11 and D3a-12.** G4a, applied backwards, made 633 lines specifications. No element or arrow changed.
+- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07 and P09 stand without correction.
+- **D3a-15, P09.** Attacks show in 510 of 705 rooms, against T4-020's 231. Paired elaborations put retaliation, protection, a loss and too few hands before the attack; no arrow says so.
 
 ## The current account, and the contrary rooms
 
@@ -66,8 +66,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 - **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
 - **D3a outputs:**
-  - `adjudications.jsonl`: 12,705 lines ruled, 13,388 with re-rulings;
-  - the stage's notes: G1 to G19, G13a, G4a (three amendments) and the field's entries;
+  - `adjudications.jsonl`: 13,591 lines ruled, 14,279 with re-rulings;
+  - the stage's notes: G1 to G20 (G20 amended once), G13a, G4a (three amendments) and the field's entries;
   - `model/history.jsonl`: moves 172 to 174.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
 - **Ledgers:**
@@ -110,8 +110,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 - **J's rulings (06:45 and 06:47 Berlin):** a ruling chooses among the placements and adds no theme beyond them; it takes the union only when it names, for each theme it keeps, the separate concept that carries it.
 - **also_present (J, 09:09; QB4-002, 09:20; QB4-003, 11:29):** lists only themes a reader placed, a reader listed, or my B1 named; themes a reader listed count in the bag test.
 - **Lone B1 themes (J, 12:28):** "Whatever the agent feels more comfortable with." A theme only my B1 placed stands only with three concepts of its own.
-
-**Rule 0 inside the placements.** A concept counts toward a placed theme when that theme's `must_show` takes it and no field sends it elsewhere; order by concept count, ties by placements, at most three. **The bag test:** four themes with three concepts each.
+- **Rule 0 and the bag test** are in stage B's notes; stage B is frozen.
 
 ## J's rulings that bind (carry them)
 
@@ -119,6 +118,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 - **The bound (J, 13:47).** `also_present` names "twenty themes at most".
 - **The not-flagged bag (J, QB2-013).** With no other theme at the floor, `item_is_a_bag` is false and `also_present` `{}`.
 - **Fleet ids (J, 09:14 and 12:15).** Packets carry only fleet ids; my files keep room ids.
+- **Stage B.** `assign_final.jsonl` is its settled line; agreement is Jaccard on placement sets.
 
 ## Standing words from J and the PI (carry into every head)
 
@@ -134,17 +134,12 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 **Two rules from J at B1b-29 (through the handler, 20:10Z; carry them into every head).** Write rule 0 lines and bags with `b1_multiplace_write4.py` and `b1_bags_from_file2.py`, not the old, slow scripts. Never end a turn while a job runs in the background; run every write and check in the foreground.
 
-## The pilot's declarations and stage B
-
-`assign_final.jsonl` is stage B's settled line; agreement is Jaccard on placement sets.
-
 ## Open, carried
 
-- **From D3a-02 to D3a-14**, to weigh after order tests:
-  - P19's form (9 P08 lines); A04's bound (21 P08 lines); P06's form (14 lines); whom a room spares (P07: ties to the makers, 10 lines; help returned, 4);
-  - calls recurring after a loss (P01, P10, A10);
-  - parallel and outside builders (P03);
-  - recording entered from a loss, beside A08;
+- **From D3a-02 to D3a-15**, to weigh after order tests:
+  - P09's families: what comes before the attack (13 lines) and what chooses its target (9, beside C02);
+  - P19's form (9 lines); A04's bound (21); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4);
+  - calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording entered from a loss, beside A08;
   - a finished work reopening calls or the design;
   - neighbours and allies (A04, A13's giver, A14, A19), an apology opening help (no arrow), and guests and hosts (P19);
   - scripts working against keeping or refused as help (A06);
@@ -196,4 +191,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The next element group's lines, by rules G1 to G19 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group's lines, by rules G1 to G20 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
