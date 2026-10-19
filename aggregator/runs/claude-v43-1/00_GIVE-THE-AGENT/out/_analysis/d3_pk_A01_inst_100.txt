@@ -1,0 +1,583 @@
+A01: 276 lines in all (op instantiate); packet [100, 200): 100 lines; carried through no third-order tier
+ops in the packet: {'instantiate': 100}
+
+== fireemblem-033  instantiate  [pending]  repairs 0  not carried
+   source t02 (building Fire Emblem pictures pixel by pixel); lift fireemblem:t02 > T3-038 > T4-007 > D02
+   how: Calls receive contribution and construction reports, although those statements do not independently measure placement.
+   codes: c0008 calling for help drawing Kamui's face; c0010 celebrating contributing a pixel; c0044 explaining the thread as ongoing r/place work
+   transitions: 62po4q:0>1
+
+== fivenightsatfreddys-005  instantiate  [pending]  repairs 0  not carried
+   source t13 (retelling the canvas and April Fools stories); lift fivenightsatfreddys:t13 > T3-073 > T4-027 > D07
+   how: The retrospective explicitly credits recruited members and friends with making the first three figures.
+   codes: c0574 recounting friends and Freddit turning a small proposal into three figures within an hour
+
+== floridagators-032  instantiate  [pending]  repairs 0  not carried
+   source t03 (turning the Gator mark into coordinates and a workable drawing); lift floridagators:t03 > T3-070 > T4-008 > D02
+   how: Drawing instructions and state reports develop under logo proposals, showing the proposed order without isolating the call as their cause.
+   codes: c0017 calling for this logo to be made on r/place; c0018 demanding a location and exact size before helping; c0021 littering blue dots to make a mold of the design; c0024 starting the F edge so others can recognize and add to it
+
+== flyers-032  instantiate  [pending]  repairs 1  not carried
+   source t02 (calling more people and getting everyone on the same page); lift flyers:t02 > T3-002 > T4-005 > D01
+   how: A coordinate invitation received an explicit report that a newcomer had joined
+   codes: c0002 calling others to join at 599,739; c0003 joining despite never having seen this before
+   transitions: 62ni21:1>1.1
+
+== formula1-038  instantiate  [pending]  repairs 0  not carried
+   source t06 (building and rebuilding the F1 logo); lift formula1:t06 > T3-070 > T4-008 > D02
+   how: The mission receives building contributions in the form of an anchor and grid.
+   codes: c0068 giving the mission to create the iconic italic F1 logo; c0069 making an anchor with friends for the lower-left corner; c0070 making a logo with gridlines to help
+   transitions: 62r03m:0>1, 62r03m:0>2
+
+== foxes-041  instantiate  [pending]  repairs 1  not carried
+   source t05 (bringing in helpers and linking their causes); lift foxes:t05 > T3-014 > T4-010 > D02
+   how: A participant explicitly attributes entering the canvas effort to seeing the proposed fox in the room.
+   codes: c0092 joining r/place after seeing the proposed fox
+
+== foxstevenson-005  instantiate  [pending]  repairs 0  not carried
+   source t02 (rallying help to build and defend the Fox Stevenson logo); lift foxstevenson:t02 > T3-002 > T4-005 > D01
+   how: The construction call receives a report of helping, supporting recruitment into participation without assigning every later builder to that call.
+   codes: c0012 starting the logo, calling for help and multiple accounts; c0016 helping; c0017 thanking the helper and calling for all hands on deck; c0023 building the logo and putting pixel art in the comments
+   transitions: 634lfx:3>3.1, 634lfx:3.1>3.1.1
+
+== france-031  instantiate  [pending]  repairs 0  not carried
+   source t03 (building, cleaning, and rebuilding the French area); lift france:t03 > T3-065 > T4-006 > D02
+   how: An opening call about what to draw is followed by a reported start in its reply tree without measuring the call's recruitment effect.
+   codes: c0004 asking what r/france should draw on r/place; c0006 starting the first corner of a little flag
+
+== ftlgame-041  instantiate  [pending]  repairs 0  not carried
+   source t01 (calling people to draw FTL pictures together); lift ftlgame:t01 > T3-002 > T4-005 > D01
+   how: A drawing call receives an instruction request followed by a report of beginning at named coordinates.
+   codes: c0001 proposing an engi or Lanius to leave our mark; c0003 asking for coordinates and an image, then starting at the engi's visor
+   transitions: 62s1as:0>1
+
+== fullcommunism-032  instantiate  [pending]  repairs 1  not carried
+   source t01 (choosing coordinates and building communist marks); lift fullcommunism:t01 > T3-033 > T4-006 > D02
+   how: The opening call received reports of ongoing work and an explicit decision to join another participant's more developed spot.
+   codes: c0001 calling for a coordinated hammer and sickle; c0003 saying work has already begun at another spot; c0004 abandoning one's spot to work on the more developed one
+   transitions: 62mp9p:0>2, 62mp9p:2>2.1
+
+== funhaus-031  instantiate  [pending]  repairs 1  not carried
+   source t01 (building and reshaping the Funhaus mark); lift funhaus:t01 > T3-004 > T4-006 > D02
+   how: The logo proposal receives an answer reporting work on the requested orange border.
+   codes: c0004 explaining the canvas, choosing coordinates, and asking people to add the Funhaus logo; c0005 nailing the orange border
+   transitions: 62nn6p:0>1
+
+== furry_irl-060  instantiate  [pending]  repairs 0  not carried
+   source t01 (coordinating a place and plan for shared drawings); lift furry_irl:t01 > T3-020 > T4-014 > D04
+   how: A request to move one letter reports completion in an edit, connecting the specific call to reported work without identifying who placed the pixels.
+   codes: c0032 petitioning to scoot the i one pixel right; c0033 reporting the kerning fix done within twenty minutes
+
+== futurama-032  instantiate  [pending]  repairs 0  not carried
+   source t04 (making other Futurama characters on the canvas); lift futurama:t04 > T3-041 > T4-006 > D02
+   how: The reply to a tile-art call explicitly reports starting that work.
+   codes: c0074 calling for Benders to unite on r/place; c0075 starting the proposed Bender tile art
+   transitions: 6325mh:0>1
+
+== gameattack-009  instantiate  [pending]  repairs 2  not carried
+   source t07 (plugging away and finishing the logo together); lift gameattack:t07 > T3-038 > T4-007 > D02
+   how: The location-specific start receives a matching report of work at the same coordinates, supporting local uptake without establishing the initial proposal's responsibility for the entire build.
+   codes: c0021 starting the Game Attack logo at 911,411; c0027 plugging away on the 911,411 logo
+   transitions: 62xyjd:0>3
+
+== gameofthrones-005  instantiate  [pending]  repairs 1  not carried
+   source t11 (reporting the pictures taking shape and finishing); lift gameofthrones:t11 > T3-038 > T4-007 > D02
+   how: The request for pixel-by-pixel help receives a reply reporting assistance and several pieces placed.
+   codes: c0063 asking for pixel-by-pixel help against others taking the space; c0067 reporting several pieces placed on the Stark sigil
+   transitions: 62vux3:0>2
+
+== gatech-032  instantiate  [pending]  repairs 1  not carried
+   source t01 (making and revising a shared GT/Buzz design); lift gatech:t01 > T3-004 > T4-006 > D02
+   how: The located invitation receives instructions and a corrective image in its thread, although the number of recruited placers remains unknown.
+   codes: c0001 calling for help making a GT logo at a fixed corner; c0002 telling people how to create the GT logo; c0003 making a pixel-perfect version to correct where they are off
+   transitions: 62nwsi:0>1, 62nwsi:0>2
+
+== ghibli-007  instantiate  [pending]  repairs 0  not carried
+   source t01 (calling people in and showing that help is happening); lift ghibli:t01 > T3-002 > T4-005 > D01
+   how: Explains further participation in a project already started rather than attributing every initial placement to the call.
+   codes: c0001 starting a project for us at coordinates; c0002 showing the progress and linking the location; c0003 saying I'm helping; c0004 thanking visible and silent helpers
+   transitions: 62pycx:0>1, 62pycx:0>2, 62pycx:2>2.1
+
+== giivasunner-031  instantiate  [pending]  repairs 1  not carried
+   source t05 (working out where and how the build should fit); lift giivasunner:t05 > T3-070 > T4-008 > D02
+   how: A coordinate instruction is answered by a direct report of placement, supporting recruitment into a specific task rather than estimating silent participation.
+   codes: c0081 resetting the top yellow tile to 223, 369; c0082 placing the requested tile
+   transitions: 62xfdh:1>1.1
+
+== gorillaz-005  instantiate  [pending]  repairs 1  not carried
+   source t03 (building the band one figure at a time); lift gorillaz:t03 > T3-002 > T4-005 > D01
+   how: A building plan receives a placement report and a later help request receives a report that the missing figure is being made.
+   codes: c0005 trying to get Gorillaz pixel art on r/place; c0007 getting two pixels down; c0046 asking for more help making 2-D and Noodle; c0047 answering that Noodle is being made
+   transitions: 62qkm4:0>1, 62x49h:0>1
+
+== gratefuldead-004  instantiate  [pending]  repairs 1  not carried
+   source t04 (joining in and tending the pixels); lift gratefuldead:t04 > T3-003 > T4-026 > D07
+   how: The initial call received an acceptance and a report of work on the bolt.
+   codes: c0002 asking people to make a Stealie from a template and coordinate; c0003 calling it pointless and joining in anyway; c0004 working on the red left of the bolt
+   transitions: 62nml8:0>2
+
+== gravityfalls-005  instantiate  [pending]  repairs 1  not carried
+   source t01 (making Bill and other Gravity Falls marks); lift gravityfalls:t01 > T3-033 > T4-006 > D02
+   how: A grey-box call receives a contribution report without proving the call first brought that participant to the canvas.
+   codes: c0027 asking for help making a grey box around Bill; c0028 contributing one pixel to the box
+   transitions: 62s0zg:0>1
+
+== h3h3productions-043  instantiate  [pending]  repairs 4  not carried
+   source t25 (pooling accounts and help for canvas work); lift h3h3productions:t25 > T3-002 > T4-005 > D01
+   how: An announcement of construction receives explicit offers to join and help, but reported participation is not independently observed placement.
+   codes: c0097 announcing construction and recruiting through Discord; c0102 joining in while noticing another group building there; c0103 offering to help
+   transitions: 630igh:0>2
+
+== habs-005  instantiate  [pending]  repairs 0  not carried
+   source t02 (trying to get the first Habs C onto the canvas); lift habs:t02 > T3-038 > T4-007 > D02
+   how: The coordination call receives a helper's explicit commitment followed by reports of an incomplete mark.
+   codes: c0047 calling for coordination of a Habs logo on r/place; c0048 leaving dick butt to help the Habs logo but not seeing the start; c0050 placing a blue outline and red bits for the top-right corner of the C
+   transitions: 62npe9:0>1, 62npe9:1.1>1.1.1
+
+== harrypotter-015  instantiate  [pending]  repairs 1  not carried
+   source t15 (organising painters around images and extra accounts); lift harrypotter:t15 > T3-002 > T4-005 > D01
+   how: A tagged build invitation received a participant reporting arrival and immediate work.
+   codes: c0219 giving the design and starting pixel and telling everyone to tag people; c0224 tagging people into the build; c0226 arriving and getting on the build
+
+== hellointernet-003  instantiate  [pending]  repairs 0  not carried
+   source t02 (moving, fixing, and defending what they made); lift hellointernet:t02 > T3-005 > T4-013 > D03
+   how: The reply to the drawing call reports partial completion, supporting a call-to-building sequence without identifying every participant's motive.
+   codes: c0001 calling for help drawing HI on r/place; c0002 saying they kinda did it and now need to defend it
+   transitions: 62nb6m:0>1
+
+== heroesofthestorm-033  instantiate  [pending]  repairs 1  not carried
+   source t02 (Putting Heroes on the map one pixel at a time); lift heroesofthestorm:t02 > T3-038 > T4-007 > D02
+   how: The call was answered by reported construction and later completion in the same thread.
+   codes: c0039 asking everyone to work together on a Heroes logo; c0041 starting the O's left arrow at the posted coordinates; c0050 celebrating that the full HEROES is done
+   transitions: 62rhva:0>1
+
+== hongkong-037  instantiate  [pending]  repairs 1  not carried
+   source t06 (building the flag and thanking the people who did it); lift hongkong:t06 > T3-009 > T4-026 > D07
+   how: A direct answer to the drawing call requests coordinates and reports starting the background
+   codes: c0003 calling on people to help draw our flag; c0004 asking for the coordinate to start; c0005 starting the red background and inviting others to join
+   transitions: 62xcws:0>1
+
+== hsv-006  instantiate  [pending]  repairs 0  not carried
+   source t01 (giving the small sub's logo another go); lift hsv:t01 > T3-002 > T4-005 > D01
+   how: The renewed build instructions receive an explicit commitment to start working.
+   codes: c0048 starting round two with a new spot and template; c0049 starting work on round two
+   transitions: 630pma:0>1
+
+== hunterxhunter-058  instantiate  [pending]  repairs 2  not carried
+   source t07 (relocating and building the Hunter Logo together); lift hunterxhunter:t07 > T3-038 > T4-007 > D02
+   how: The renewed collaborative proposal receives a subsequent report of construction progress and another request for helpers.
+   codes: c0112 choosing uncontrolled space to take over together; c0114 reporting unobstructed progress and calling for help
+   transitions: 632yyf:0>1
+
+== hyperlightdrifter-035  instantiate  [pending]  repairs 0  not carried
+   source t01 (starting and joining Drifter builds); lift hyperlightdrifter:t01 > T3-038 > T4-007 > D02
+   how: Reports of starting the figure and completing its face answer the initial build call.
+   codes: c0001 placing the first pixel and asking others to leave our mark; c0007 starting another Drifter at supplied coordinates; c0008 starting one and finishing the face and eyes
+   transitions: 62trzb:0>6, 62trzb:0>7
+
+== ik_ihe-038  instantiate  [pending]  repairs 0  not carried
+   source t01 (making Pipo together and changing how to do it); lift ik_ihe:t01 > T3-038 > T4-007 > D02
+   how: The explicit helping answer connects the recruiting post to reported work on named parts.
+   codes: c0001 calling everyone to create Pipo pixel art and make a placed pink pixel the nose; c0004 saying it sounds good and joining in to help; c0005 starting on the mouth; c0006 finishing the mouth and starting on the hair
+   transitions: 62s00d:0>1
+
+== india-031  instantiate  [pending]  repairs 0  not carried
+   source t02 (building, finishing, and growing the Indian flag); lift india:t02 > T3-065 > T4-006 > D02
+   how: A flag call reports a saffron start and receives a later report of an added saffron pixel.
+   codes: c0062 making the flag one block at a time despite a tough Ashoka Chakra; c0069 adding a saffron pixel
+   transitions: 62qxpe:0>2
+
+== indonesia-032  instantiate  [pending]  repairs 0  not carried
+   source t01 (calling Indonesians to put a flag on the canvas); lift indonesia:t01 > T3-065 > T4-006 > D02
+   how: A call for lettering is followed by a report of a completed letter within its thread.
+   codes: c0030 calling to write INDONESIA below the flag; c0032 announcing completion of the first I
+   transitions: 62xk9i:0>2
+
+== ireland-029  instantiate  [pending]  repairs 0  not carried
+   source t15 (marking the stop and thanking the pixel workers); lift ireland:t15 > T3-043 > T4-026 > D07
+   how: A lurker explicitly attributes coming forward to defend the flag to the event's mobilization
+   codes: c0412 being dragged out of lurking to defend the flag
+
+== israel-003  instantiate  [pending]  repairs 0  not carried
+   source t01 (working out where and how to build flags and menorahs); lift israel:t01 > T3-065 > T4-006 > D02
+   how: The flag proposal receives a reply reporting a placed white dot, supporting recruitment into reported building within that exchange.
+   codes: c0001 proposing an Israeli flag on /r/place; c0004 putting a white dot in the blue corner and counting on everyone to do their parts
+   transitions: 62nitv:0>2
+
+== japan-052  instantiate  [pending]  repairs 0  not carried
+   source t01 (calling people in and answering the call to work on Japan); lift japan:t01 > T3-065 > T4-006 > D02
+   how: The starter's call receives reports of helping, and later replies describe a legible flag.
+   codes: c0001 calling for help making a Japan flag; c0010 reporting helping with the flag; c0012 weighing limited room against an already legible flag
+
+== kcroyals-006  instantiate  [pending]  repairs 0  not carried
+   source t03 (finding the spot and building the crown together); lift kcroyals:t03 > T3-038 > T4-007 > D02
+   how: A joining member answers the organizing call, struggles to locate the spot and then reports being ready to start.
+   codes: c0023 putting collective dongs together to make the community known; c0037 joining while struggling to find the linked spot; c0038 finding the spot and starting
+
+== kerbalspaceprogram-004  instantiate  [pending]  repairs 0  not carried
+   source t08 (getting Jeb onto r/place pixel by pixel); lift kerbalspaceprogram:t08 > T3-038 > T4-007 > D02
+   how: Replies to the main call commit to named pixels and continued participation, grounding a local call-to-building link.
+   codes: c0168 sending Jeb to r/place; c0174 working on Jeb’s eye and then the green; c0175 buying in-flight wifi to keep helping
+   transitions: 62w9do:0>2, 62w9do:0>3
+
+== kilian-042  instantiate  [pending]  repairs 1  not carried
+   source t02 (watching pixels and borders get changed back); lift kilian:t02 > T3-005 > T4-013 > D03
+   how: The call to arms receives a direct answer reporting active work and an eroding border.
+   codes: c0075 calling the subreddit to arms; c0077 working while reporting the border eroding
+   transitions: 637ief:0>2
+
+== kindafunny-019  instantiate  [pending]  repairs 1  not carried
+   source t01 (calling people in to make the Kinda Funny logo); lift kindafunny:t01 > T3-002 > T4-005 > D01
+   how: The starter follows the collaboration call with a progress report at the same coordinates and another request for help.
+   codes: c0001 asking people to collaborate on a Kinda Funny logo beside related communities; c0002 trying the logo at (686, 359); c0003 showing a tiny light blue logo at (686, 359) and asking for help
+   transitions: 62xv5j:0>1
+
+== kirby-041  instantiate  [pending]  repairs 0  not carried
+   source t01 (cleaning, defending, and keeping Kirby SFW); lift kirby:t01 > T3-021 > T4-013 > D03
+   how: A call to add a companion figure receives a direct report of work undertaken but still barely visible, supporting partial uptake rather than successful completion.
+   codes: c0036 rallying a Waddle Dee beside Kirby; c0038 reporting Waddle Dee is barely there
+   transitions: 62vvtv:0>2
+
+== korea-046  instantiate  [pending]  repairs 1  not carried
+   source t02 (calling Korea into the flag effort); lift korea:t02 > T3-065 > T4-006 > D02
+   how: Connects the flag call to explicit joining and later reporting of a completed component without inferring silent readers' placement.
+   codes: c0010 calling on the room to work together on a Korean flag; c0026 joining the build and warning against the rainbow; c0041 completing the circle and setting the next cleanup tasks
+
+== kuwait-046  instantiate  [pending]  repairs 1  not carried
+   source t02 (working out a visible spot and drawing the red line); lift kuwait:t02 > T3-065 > T4-006 > D02
+   how: A specific request to work on the red line receives a report that the respondent found it and started.
+   codes: c0011 giving the coordinates and directing work on the flag's red line; c0012 finding the plot and starting to work on it
+   transitions: 62s2lh:2.1.3.1.1.1>2.1.3.1.1.1.1
+
+== lakers-061  instantiate  [pending]  repairs 1  not carried
+   source t20 (arguing and bargaining over the neighboring hearts); lift lakers:t20 > T3-005 > T4-013 > D03
+   how: The watch call received a join, a specific recovery target, and a report of active border restoration.
+   codes: c0214 volunteering to watch all day and asking who is in; c0215 joining the watch against Celtics and heart people; c0216 agreeing to take back the bottom-left corner; c0217 working to return the border to the original design
+   transitions: 636cek:2>2.1, 636cek:2.1>2.1.1, 636cek:2.1.1>2.1.1.1
+
+== latin-010  instantiate  [pending]  repairs 0  not carried
+   source t01 (calling cives to join the SPQR work); lift latin:t01 > T3-002 > T4-005 > D01
+   how: Explicit enlistment and contribution reports connect recruitment to the subsequent construction exchange.
+   codes: c0001 rallying r/latin around a relocated SPQR design; c0010 volunteering as conscripted; c0011 reporting where the border was started; c0012 joining the pixel work
+
+== leagueoflegends-032  instantiate  [pending]  repairs 1  not carried
+   source t04 (Building and repairing the League mark); lift leagueoflegends:t04 > T3-038 > T4-007 > D02
+   how: A call to place Teemo receives a reply reporting a started right-ear border and its coordinates.
+   codes: c0047 asking someone to find a great tile space and saying 'Lets do this'; c0048 starting the right ear border at (423, 16) despite missing colors
+   transitions: 62neyb:0>1
+
+== lebanon-031  instantiate  [pending]  repairs 1  not carried
+   source t01 (building, repairing and mourning Lebanese flags, cedars and hearts); lift lebanon:t01 > T3-065 > T4-006 > D02
+   how: A direct response to the third heart call reports completion although the record cannot attribute every placed pixel to recruited members
+   codes: c0090 going in for a third heart and asking for help to complete it; c0100 answering the call for a third heart; c0106 finishing the third heart and going for a fourth
+   transitions: 62zdjv:1>1.2, 62zdjv:1>1.3
+
+== lego-050  instantiate  [pending]  repairs 1  not carried
+   source t05 (putting a LEGO logo on the canvas); lift lego:t05 > T3-038 > T4-007 > D02
+   how: A template-starting post receives a direct report of helping, supporting the local call-to-work connection.
+   codes: c0135 starting the template at 901,241; c0136 starting to help the template builder
+   transitions: 62z79y:6>6.1
+
+== lifeisstrange-011  instantiate  [pending]  repairs 0  not carried
+   source t03 (building the butterfly and LiS); lift lifeisstrange:t03 > T3-038 > T4-007 > D02
+   how: The coordinate invitation receives an explicit offer to help and is followed by a report thanking a helper as the picture takes shape.
+   codes: c0019 starting at coordinates and asking people to join the painting; c0020 going to find the butterfly and help; c0022 thanking a helper as the butterfly takes shape
+   transitions: 631d9q:1>1.1
+
+== littlewitchacademia-006  instantiate  [pending]  repairs 1  not carried
+   source t04 (joining and encouraging the build); lift littlewitchacademia:t04 > T3-104 > T4-005 > D01
+   how: The call received an explicit offer to help and subsequent reports of building and maintenance.
+   codes: c0010 calling the room to help on r/place; c0014 joining the build; c0043 building for four hours while fearing the void
+   transitions: 63495k:0>2
+
+== liverpoolfc-011  instantiate  [pending]  repairs 1  not carried
+   source t07 (building and moving an r/LiverpoolFC sign); lift liverpoolfc:t07 > T3-038 > T4-007 > D02
+   how: Connects the builder's request for help to subsequent construction reports without identifying how many silent readers joined.
+   codes: c0074 trying to spell out Liverpool FC and asking for help; c0077 reporting the R is almost done; c0080 calling for black tiles to finish the slash
+
+== loliconsunite-011  instantiate  [pending]  repairs 0  not carried
+   source t02 (maintaining, defending, and rebuilding the signs); lift loliconsunite:t02 > T3-005 > T4-013 > D03
+   how: A proposal to build a small message receives an explicit report of work on its pink background.
+   codes: c0033 building a small version of the core message; c0034 reporting work on the pink background
+   transitions: 6301eh:2.1>2.1.1
+
+== lost-034  instantiate  [pending]  repairs 0  not carried
+   source t02 (placing the numbers together and settling how they look); lift lost:t02 > T3-004 > T4-006 > D02
+   how: The located call receives a bare join and a report of completed work in its own exchange.
+   codes: c0005 rallying the room to help our cause under the Linux penguin; c0009 joining in to do it; c0010 reporting the angle bracket done
+   transitions: 62x1s7:0>2, 62x1s7:2>2.1
+
+== lsu-039  instantiate  [pending]  repairs 1  not carried
+   source t01 (Finding somewhere an LSU logo can stick); lift lsu:t01 > T3-020 > T4-014 > D04
+   how: A prospective builder explicitly resolves confusing coordinates and commits to start working after the invitation.
+   codes: c0003 asking for help so a small LSU project is not erased; c0013 sorting mixed coordinates before starting work
+
+== luciomains-038  instantiate  [pending]  repairs 0  not carried
+   source t03 (repairing Lucio and the lettering pixel by pixel); lift luciomains:t03 > T3-004 > T4-006 > D02
+   how: A call to finish and protect the image receives a reply reporting work on a named part, supporting a local response rather than measured recruitment.
+   codes: c0015 asking more people to help finish Lucio's head; c0020 working on the rainbow on Lucio's head
+   transitions: 62xz0r:0>2
+
+== luxembourg-013  instantiate  [pending]  repairs 0  not carried
+   source t02 (putting tiles down and keeping the picture the way it is); lift luxembourg:t02 > T3-021 > T4-013 > D03
+   how: The request for help receives a direct report of placing a tile, supporting reported participation after the call.
+   codes: c0001 asking for help converting the Argentinian flag into the Luxembourg flag; c0003 reporting putting a tile
+   transitions: 62sw2q:0>2
+
+== malaysia-031  instantiate  [pending]  repairs 0  not carried
+   source t03 (building, finishing, and celebrating Malaysian marks); lift malaysia:t03 > T3-009 > T4-026 > D07
+   how: A completion account explicitly recalls the drawing call and links it to the finished flag.
+   codes: c0032 rallying Malaysia to draw at 900,300; c0050 recounting that Scalprex asked and they finished after three to four hours
+
+== math-044  instantiate  [pending]  repairs 1  not carried
+   source t03 (keeping equations and digits going); lift math:t03 > T3-021 > T4-013 > D03
+   how: A repair call receives an explicit report of a third supporting pixel after eighteen minutes.
+   codes: c0011 calling on everyone to fix Euler's identity; c0012 placing a third pixel in support
+   transitions: 62sa0k:0>1
+
+== metalgearsolid-006  instantiate  [pending]  repairs 1  not carried
+   source t06 (keeping Snake recognizable and true to the template); lift metalgearsolid:t06 > T3-004 > T4-006 > D02
+   how: Recruitment was followed by a commitment and a report of clearing the area, supporting the visible part of the building sequence.
+   codes: c0011 recruiting help for a Ghost Babel sprite at 8,227; c0012 switching work to the Ghost Babel sprite; c0017 clearing out the area
+
+== metroid-044  instantiate  [pending]  repairs 1  not carried
+   source t01 (pitching in and calling others to the pixels); lift metroid:t01 > T3-002 > T4-005 > D01
+   how: A starter's call receives a joining response that explicitly describes work already completed and how the build is proceeding.
+   codes: c0006 asking others to turn a solo Samus start into a finished drawing; c0014 joining and reading the build as head to toe; c0025 reporting the head done and shoulders going well
+   transitions: 62qf3v:0>2
+
+== mexico-031  instantiate  [pending]  repairs 0  not carried
+   source t04 (placing, patching, and guarding pixels); lift mexico:t04 > T3-021 > T4-013 > D03
+   how: The starter's call receives a report of joining from another post and a report of a contributed pixel.
+   codes: c0037 starting Mexico's flag at coordinate 270, 360; c0081 switching from the other post to support this flag effort; c0045 reporting contributing a pixel
+   transitions: 62nyy6:0>2, 62nyy6:0>9
+
+== miamidolphins-039  instantiate  [pending]  repairs 0  not carried
+   source t02 (getting a Dolphins logo onto r/place); lift miamidolphins:t02 > T3-002 > T4-005 > D01
+   how: The dedicated build call was followed within its thread by progress reports and explicit commitments of time.
+   codes: c0035 calling for help putting the Dolphins symbol on r/place; c0045 reporting that the logo is doing well; c0047 devoting the day to contributing to the logo
+   transitions: 62tdvh:0>5, 62tdvh:0>7
+
+== mindcrack-004  instantiate  [pending]  repairs 1  not carried
+   source t02 (keeping the pictures standing by repairing, defending, or moving); lift mindcrack:t02 > T3-005 > T4-013 > D03
+   how: An explicit rebuilding proposal receives a report that work has begun.
+   codes: c0012 mourning the eaten logo and proposing a bigger rebuild; c0013 beginning the proposed rebuild with three black pixels
+   transitions: 62o1bl:6>6.1
+
+== minnesotavikings-041  instantiate  [pending]  repairs 0  not carried
+   source t06 (making SKOL together); lift minnesotavikings:t06 > T3-002 > T4-005 > D01
+   how: A specific SKOL call receives a report of dots placed and continued help, supporting the local connection between recruitment and reported building.
+   codes: c0099 calling as many people as possible to make SKOL; c0106 reporting two dots down and promising to keep helping
+   transitions: 62y466:0>2
+
+== mls-043  instantiate  [pending]  repairs 1  not carried
+   source t05 (Learning the canvas one pixel at a time); lift mls:t05 > T3-016 > T4-003 > D01
+   how: An opening call receives a stated attempt to help and a later report of erasure, demonstrating attempted building rather than durable completion.
+   codes: c0027 calling for an MLS logo at 450, 215; c0028 giving the logo a try despite a 20 minute wait; c0033 reporting that serious prequalmemes users keep erasing the work
+   transitions: 62qb27:0>1
+
+== monstercat-040  instantiate  [pending]  repairs 1  not carried
+   source t01 (trying to get the Monstercat drawing built); lift monstercat:t01 > T3-002 > T4-005 > D01
+   how: An exhortation to paint receives a direct report of helping and encouragement not to give up.
+   codes: c0149 telling everyone to get off their asses and paint the r/place design; c0245 answering the stalled effort by helping and saying don't give up
+   transitions: 62wokz:0>1
+
+== mordhau-034  instantiate  [pending]  repairs 0  not carried
+   source t02 (keeping the mark clean and on-pattern); lift mordhau:t02 > T3-021 > T4-013 > D03
+   how: The explicit cleaning call receives a direct report that the work is done, supporting reported uptake without observing pixel placement.
+   codes: c0007 calling the small group to keep its messy stamp neat; c0008 reporting the mark cleaned up for now
+   transitions: 62u94d:0>1
+
+== muse-037  instantiate  [pending]  repairs 0  not carried
+   source t04 (putting in pixels, accounts, time, and manpower); lift muse:t04 > T3-003 > T4-026 > D07
+   how: A reply to the logo call reports a pixel placed and the same thread later reports completion, supporting the observable call-to-building sequence.
+   codes: c0001 asking for a Muse logo at 145, 476; c0006 putting a pixel in; c0012 reporting the logo and little Origin cover done
+   transitions: 62pghb:0>4, 62pghb:0>8
+
+== mylittlepony-006  instantiate  [pending]  repairs 1  not carried
+   source t01 (calling everyone into one pony build); lift mylittlepony:t01 > T3-002 > T4-005 > D01
+   how: The public call received a progress report about work already begun, showing recruitment entering construction already in progress.
+   codes: c0018 calling the community to work together and choose what to make; c0019 showing what they had started making and where
+   transitions: 62ozd4:0>1
+
+== nbaspurs-046  instantiate  [pending]  repairs 1  not carried
+   source t07 (calling Spurs fans to put a logo on r/place); lift nbaspurs:t07 > T3-002 > T4-005 > D01
+   how: The opening logo call receives an offer to help and is followed by a direct report of starting gray pixels.
+   codes: c0039 calling for a Spurs logo on r/place; c0043 joining because the fucking blazers could do it; c0046 starting the gray bottom of the spur at 861,148
+   transitions: 62wpga:0>4, 62wpga:0>5
+
+== neopets-036  instantiate  [pending]  repairs 1  not carried
+   source t01 (working out what and where to draw); lift neopets:t01 > T3-033 > T4-006 > D02
+   how: The build call is answered by a concrete sequence and later completion, supporting the local call-to-building path.
+   codes: c0018 calling the sub to make a Jubjub; c0019 sequencing the build from eyebrows to eyes and outward; c0026 declaring the Jubjub done
+
+== nightinthewoods-010  instantiate  [pending]  repairs 0  not carried
+   source t07 (keeping the build going on PlaceTwo); lift nightinthewoods:t07 > T3-054 > T4-028 > D07
+   how: A successor-canvas invitation receives replies reporting completed body parts and a corrected block.
+   codes: c0085 moving the build to PlaceTwo and inviting help at landmarks; c0087 finishing most body parts before the void consumes the build; c0088 finishing the legs while captcha requests pile up; c0089 replacing a wrong blue block with black and asking if that counts as helping
+   transitions: 6369xf:4>4.2, 6369xf:4>4.3, 6369xf:4>4.4
+
+== nlsscirclejerk-031  instantiate  [pending]  repairs 0  not carried
+   source t02 (working out how and where to make Dan); lift nlsscirclejerk:t02 > T3-033 > T4-006 > D02
+   how: The author's Dan call receives an explicit update reporting a rough outline, while the badge call directly receives a report of joining.
+   codes: c0011 calling all readers to help make Dan Gheesling; c0047 updating readers where Dan Gheesling is being built; c0048 reporting a rough outline already being made; c0056 calling for help making the sub badge around 70,880; c0058 joining and working from the top right downward
+   transitions: 630fym:0>2
+
+== nuclearthrone-004  instantiate  [pending]  repairs 1  not carried
+   source t02 (keeping Fish and Y.V. alive); lift nuclearthrone:t02 > T3-005 > T4-013 > D03
+   how: The proposer reports an attempted construction after inviting participation, supporting uptake without identifying every participant or attributing every placement to the call.
+   codes: c0001 asking to put Fish here on r/place; c0004 reporting Fish mostly complete and then gone
+   transitions: 62pwzz:0>2
+
+== nyjets-006  instantiate  [pending]  repairs 1  not carried
+   source t04 (starting the Jets logo with coordinates and a green strip); lift nyjets:t04 > T3-038 > T4-007 > D02
+   how: A participant answers the contribution call by reporting placement before later row-progress reports.
+   codes: c0042 directing contributions to the Jets project at 125,123; c0043 placing green as directed; c0045 reporting a nearly finished row and asking for help
+   transitions: 62uxu3:0>1
+
+== nyu-007  instantiate  [pending]  repairs 0  not carried
+   source t02 (putting pixels on the torch with whoever can help); lift nyu:t02 > T3-002 > T4-005 > D01
+   how: Joining follows the call and revised location in the thread, without establishing the volume of pixel labor produced by the invitation.
+   codes: c0001 calling for an NYU torch and giving its starting coordinates; c0004 moving the torch to 285,512; c0006 joining in at the new coordinates
+   transitions: 62w029:2.1>2.1.2
+
+== ockytop-031  instantiate  [pending]  repairs 0  not carried
+   source t01 (building and remaking the Power T); lift ockytop:t01 > T3-038 > T4-007 > D02
+   how: The opening proposal receives reports of starting and joining the Power T.
+   codes: c0001 creating a Power T for Place; c0002 starting the Power T and giving its coordinates; c0003 joining beside the first pixel
+   transitions: 62mork:0>1, 62mork:1>1.1
+
+== oneplus-010  instantiate  [pending]  repairs 0  not carried
+   source t08 (making r/oneplus bigger and fixing its pixels); lift oneplus:t08 > T3-041 > T4-006 > D02
+   how: The enlargement call receives an explicit report of helping, supporting local uptake without attributing all later building to it.
+   codes: c0050 calling to make r/oneplus bigger; c0051 answering the enlargement call by helping
+   transitions: 62vh3y:2>2.1
+
+== onepunchman-004  instantiate  [pending]  repairs 0  not carried
+   source t07 (placing pixels through timers, teams, Discord, and tools); lift onepunchman:t07 > T3-014 > T4-010 > D02
+   how: A drawing call develops through a posted design into a first-pixel report, supporting a local call-to-reported-labour relation.
+   codes: c0047 calling to get Saitama on r/place; c0049 posting a Saitama design image link; c0050 starting with the bottom-left pixel of Saitama's foot beside Goku's foot
+   transitions: 62znnq:0>2, 62znnq:2>2.1
+
+== opticgaming-006  instantiate  [pending]  repairs 0  not carried
+   source t06 (building, correcting, and maintaining the OG logo); lift opticgaming:t06 > T3-004 > T4-006 > D02
+   how: Explains uptake of the early proposal through replies offering defence and reporting active logo construction.
+   codes: c0191 proposing an OG logo and GREENWALL in the green corner; c0193 offering an evening of one-block-at-a-time defence; c0194 making the logo while others keep ruining it
+   transitions: 62kj2o:1>1.2, 62kj2o:1.2>1.2.1
+
+== overwatch-004  instantiate  [pending]  repairs 0  not carried
+   source t07 (building Overwatch art together); lift overwatch:t07 > T3-038 > T4-007 > D02
+   how: The Pharah starter explicitly thanks participants for advancing the work after asking for help
+   codes: c0731 finding pixel Pharah too hard to do solo and calling for all the characters; c0732 thanking everyone for pulling through on pixel Pharah
+
+== pakistan-051  instantiate  [pending]  repairs 1  not carried
+   source t01 (calling people to make the Pakistani flag); lift pakistan:t01 > T3-065 > T4-006 > D02
+   how: A confused potential contributor receives instructions for joining the flag effort and then reports placing a pixel
+   codes: c0027 saying confusion is stopping them from joining; c0028 explaining the canvas and how to join the flag effort; c0029 reporting that they added their pixel
+   transitions: 62t630:3>3.1, 62t630:3.1>3.1.1
+
+== partyparrot-050  instantiate  [pending]  repairs 0  not carried
+   source t01 (working out and following the parrot design); lift partyparrot:t01 > T3-004 > T4-006 > D02
+   how: The opening call receives an outline report as its direct answer, supporting a local call-to-building response without inferring silent placing.
+   codes: c0001 asking people to build a party parrot beside the hammer and sickle; c0002 getting the outline and pointing out the nose
+   transitions: 62r2yj:0>1
+
+== pathofexile-005  instantiate  [pending]  repairs 1  not carried
+   source t01 (calling people to help put PoE on the canvas); lift pathofexile:t01 > T3-002 > T4-005 > D01
+   how: A reply commits to helping after instructions expose the current sticky and revised logo.
+   codes: c0157 insisting the current design get done before expanding; c0160 joining in after finding the sticky and updated logo
+   transitions: 62waxg:6.1>6.1.1
+
+== patriots-049  instantiate  [pending]  repairs 1  not carried
+   source t01 (rallying able-bodied clickers to make a Patriots mark); lift patriots:t01 > T3-002 > T4-005 > D01
+   how: The invitation receives a volunteer's answer followed by the starter's outline plan, showing stated building activity following recruitment.
+   codes: c0001 inviting people to make a Pats logo at 908,506; c0002 volunteering to help; c0003 thanking a helper and starting with the outline
+   transitions: 62mscb:0>1, 62mscb:1>1.1
+
+== paydaytheheist-032  instantiate  [pending]  repairs 0  not carried
+   source t02 (building and correcting the Payday mark); lift paydaytheheist:t02 > T3-038 > T4-007 > D02
+   how: Progress and correction reports answer the concrete building project.
+   codes: c0005 calling heisters to make a PAYDAY 2 symbol at (676,955); c0006 urging the thieving nerds to keep making progress; c0008 trying to fix a six-pixel line that keeps being undone
+
+== pcmasterrace-008  instantiate  [pending]  repairs 1  not carried
+   source t05 (recruiting and teaching people to place pixels); lift pcmasterrace:t05 > T3-002 > T4-005 > D01
+   how: An urgent coordinate call receives reported letter repair and joining, without directly observing placement.
+   codes: c0465 calling urgently for help at the banner coordinates; c0469 reporting the S fixed; c0472 joining the work
+   transitions: 62qvq6:0>2, 62qvq6:0>5
+
+== penguins-044  instantiate  [pending]  repairs 0  not carried
+   source t06 (laying pixels and reporting the drawing taking shape); lift penguins:t06 > T3-038 > T4-007 > D02
+   how: A direct reply to the call to lay gold reports starting gold above a nearby logo
+   codes: c0069 calling for people to start laying down gold; c0074 starting gold above the Pitt logo to build from
+   transitions: 633hz3:4.1.1>4.1.1.1
+
+== philippines-042  instantiate  [pending]  repairs 0  not carried
+   source t03 (bringing people into the pixel work); lift philippines:t03 > T3-002 > T4-005 > D01
+   how: Recruitment receives reports of joining and helping a work already being built.
+   codes: c0066 asking the room to help someone make the Philippines flag; c0068 joining in and wanting to make the flag big; c0073 helping out right now; c0076 reporting help and wishing the effort luck
+
+== phish-005  instantiate  [pending]  repairs 1  not carried
+   source t02 (calling people in and taking a turn); lift phish:t02 > T3-002 > T4-005 > D01
+   how: A maintenance call receives an explicit report of rebuilding in the shifted location.
+   codes: c0040 calling for help against an overwrite; c0041 rebuilding fluffhead in the shifted location
+   transitions: 62y4e9:3>3.2
+
+== physical_removal-044  instantiate  [pending]  repairs 1  not carried
+   source t02 (building and expanding Snek and Ancapistan); lift physical_removal:t02 > T3-002 > T4-005 > D01
+   how: The initiating thread proceeds from a build call to progress reports without establishing which individual placers the call recruited.
+   codes: c0008 calling to meme this into reality at r/place coordinates; c0012 finishing the hat and moving to the outline and glasses while ancaps build over the snek; c0013 reporting the snek half done
+   transitions: 62s96t:0>2
+
+== pitt-031  instantiate  [pending]  repairs 1  not carried
+   source t01 (getting a Pitt mark started); lift pitt:t01 > T3-002 > T4-005 > D01
+   how: A build proposal received explicit commitments and reports of work.
+   codes: c0047 asking whether they can make a design on r/place; c0048 joining the proposed build; c0049 moderator joining the build; c0050 helping with the build
+   transitions: 630gke:0>1, 630gke:0>2
+
+== planetside-044  instantiate  [pending]  repairs 1  not carried
+   source t08 (choosing and starting a PlanetSide drawing); lift planetside:t08 > T3-020 > T4-014 > D04
+   how: A call to put the room's name on the board is followed within its proposal exchange by coordinates and an explicit report of starting the outline.
+   codes: c0048 calling salty redditors to put r/planetside text on the board; c0051 asking whether to put up a Planetside 2 logo or salt shaker; c0052 agreeing to try the logo or salt shaker; c0055 proposing an empty place around 600 450; c0056 starting to outline the logo at 617 441
+   transitions: 62xeuo:2>2.1, 62xeuo:2.1>2.1.1, 62xeuo:2.1.1>2.1.1.1
+
+== portal-009  instantiate  [pending]  repairs 0  not carried
+   source t04 (rallying helpers and dividing up the work); lift portal:t04 > T3-002 > T4-005 > D01
+   how: A lettering call is followed by an explicit report of work on the blue O, supporting reported participation rather than independently verified placement.
+   codes: c0051 asking for help writing r/PORTAL above the cube; c0053 starting with the blue O
+   transitions: 62ysf9:0>2
+
+== portugal-072  instantiate  [pending]  repairs 1  not carried
+   source t01 (recruiting people and locating the Portuguese flag); lift portugal:t01 > T3-002 > T4-005 > D01
+   how: A location supplied in response to a recruitment question is followed by a participant reporting an added pixel.
+   codes: c0015 asking where to join the work; c0016 placing the flag between two canvas landmarks; c0005 adding another red pixel to the existing group
+   transitions: 62n909:1>1.1, 62n909:1.1>1.1.1
+
+== prequelmemes-007  instantiate  [pending]  repairs 1  not carried
+   source t01 (building the Tragedy pixel by pixel); lift prequelmemes:t01 > T3-038 > T4-007 > D02
+   how: A coordinate-bearing build call receives a direct report that construction is starting.
+   codes: c0234 urging the room to build at the red dot coordinates; c0235 getting the pixel art started
+   transitions: 62uzwj:0>1
+
+== purdue-040  instantiate  [pending]  repairs 1  not carried
+   source t03 (calling people in and keeping the work together); lift purdue:t03 > T3-002 > T4-005 > D01
+   how: The build invitation is answered by a reported contribution and later completion reports, supporting a local call-to-building sequence.
+   codes: c0024 calling Purdue to join Michigan, Ohio, and Minnesota on r/place; c0028 marking 29,833 as the top-left black square; c0029 starting to contribute with Boiler Up and IU Sucks; c0064 celebrating completion of PURDUE lettering; c0077 declaring the build pretty much done
+   transitions: 62uqcg:2>2.1
+
+== puzzleanddragons-004  instantiate  [pending]  repairs 0  not carried
+   source t01 (assembling Tama from a shared pixel map); lift puzzleanddragons:t01 > T3-002 > T4-005 > D01
+   how: The call receives an explicit report of placement eighteen minutes later, supporting recruitment into reported building.
+   codes: c0001 calling everyone to get Tama onto r/Place; c0003 asking for all the help people can give; c0008 placing a pixel and waiting out the timer
+   transitions: 62q1xx:0>1
+
+== radiohead-008  instantiate  [pending]  repairs 1  not carried
+   source t02 (calling people onto a shared build); lift radiohead:t02 > T3-002 > T4-005 > D01
+   how: A recruitment reply receives a report that the builder is outlining and filling the symbol.
+   codes: c0132 recruiting r/aphextwin to help out; c0133 outlining and filling in the symbol
+   transitions: 62x47e:2>2.1
+
+== rangers-034  instantiate  [pending]  repairs 1  not carried
+   source t03 (calling people into the logo work); lift rangers:t03 > T3-002 > T4-005 > D01
+   how: An appeal for building help receives a direct report of work, supporting a call answered by participation.
+   codes: c0074 asking for more help after doing what they could; c0075 continuing work on the logo
+   transitions: 62wtsc:9>9.1

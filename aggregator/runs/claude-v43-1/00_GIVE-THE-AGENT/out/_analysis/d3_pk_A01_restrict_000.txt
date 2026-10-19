@@ -1,0 +1,543 @@
+A01: 115 lines in all (op restrict); packet [0, 100): 100 lines; carried through no third-order tier
+ops in the packet: {'restrict': 100}
+
+== AyyMD-031  restrict  [pending]  repairs 1  not carried
+   source t01 (building and extending AMD-family logos); lift AyyMD:t01 > T3-041 > T4-006 > D02
+   how: Recruitment and subsequent building reports support sequence without establishing that a particular call caused participation.
+   codes: c0011 recruiting help to build the AMD logo at (80,156); c0052 slowly trying to put ayymd underneath the logo
+
+== Cornwall-003  restrict  [pending]  repairs 3  not carried
+   source t02 (working out where Cornwall and the Flaming C can fit); lift Cornwall:t02 > T3-010 > T4-016 > D04
+   how: Recruitment may follow earlier placement, so the later completion report does not establish that this call initiated building.
+   codes: c0001 inviting Cornwall to join Devon and Dorset on r/place; c0006 recounting putting Cornwall where Dorset was and having to shuffle behind the C; c0009 sneaking one onto the right before r/place shut down
+
+== DatBoi-008  restrict  [pending]  repairs 1  not carried
+   source t01 (calling and answering calls to save Dat Boi); lift DatBoi:t01 > T3-002 > T4-005 > D01
+   how: Building follows the visible call, but independently helping friends prevent attributing the work's origin or completion solely to that call.
+   codes: c0001 calling for help with Dat Boi on r/place; c0004 bringing friends to help and asking for more help; c0006 finishing Dat Boi and maintaining it by dedicking
+
+== FloydVsVoid-010  restrict  [pending]  repairs 4  not carried
+   source t01 (rallying builders to keep working on the prism); lift FloydVsVoid:t01 > T3-002 > T4-005 > D01
+   how: Recruitment and reported building are visible but the coded evidence does not show that these calls brought the reporting builders
+   codes: c0001 calling people to take on the Void; c0069 starting the bottom base at a new location
+
+== Jamaica-004  restrict  [pending]  repairs 0  not carried
+   source t07 (watching the flag change and answering in the moment); lift Jamaica:t07 > T3-021 > T4-013 > D03
+   how: Calls precede progress reports, but the written sequence does not establish which placements the calls caused.
+   codes: c0019 calling people to join r/Jamaica placing a flag; c0030 showing that they are getting close; c0031 finishing the black outline to fit with the other flags
+
+== NewMexico-006  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying NM helpers and keeping them plugging away); lift NewMexico:t01 > T3-002 > T4-005 > D01
+   how: The call precedes reported filling, but the record establishes neither independently observed placements nor the call causing participation.
+   codes: c0001 calling for NM recognition by starting a zia at 824,913; c0007 filling the middle and naming another helper
+
+== OKState-039  restrict  [pending]  repairs 1  not carried
+   source t02 (working out what to draw and what to replace); lift OKState:t02 > T3-004 > T4-006 > D02
+   how: Limits the local claim to an invitation followed by related work talk because no passage independently attributes particular placements to the call.
+   codes: c0001 inviting people to put OKST at a shared location; c0011 explaining they were replacing an untouched Spock head; c0015 clearing brown and trying to shape Oklahoma
+
+== PlaceNL-004  restrict  [pending]  repairs 1  not carried
+   source t04 (designing Dutch words, pictures, and borders); lift PlaceNL:t04 > T3-113 > T4-006 > D02
+   how: Design assent and reported construction are visible, but recruitment causing those placements is not established by their order.
+   codes: c0078 recruiting help to colonise the west; c0190 agreeing to add the subreddit label; c0191 showing a start on the subreddit label
+
+== SydneyFC-007  restrict  [pending]  repairs 0  not carried
+   source t04 (writing a small SYD FC and watching whether it lasts); lift SydneyFC:t04 > T3-092 > T4-006 > D02
+   how: The initial building precedes the protection call, and the later survival report cannot establish call-induced building or recruitment.
+   codes: c0010 writing SYD FC and sizing the small sub's hopes against bigger clubs; c0019 asking others to protect the small SYD FC; c0012 reporting it going strong after 20 minutes
+   transitions: 6378e4:0>1
+
+== Temple-031  restrict  [pending]  repairs 1  not carried
+   source t01 (getting friends and roommates onto the T); lift Temple:t01 > T3-002 > T4-005 > D01
+   how: Recruitment can accompany building already underway, as an invitation from an active builder receives a promise to enlist roommates.
+   codes: c0005 starting the T with a roommate and inviting help; c0006 getting roommates onto the T
+   transitions: 62x8yr:1.1.1.1>1.1.1.1.1
+
+== TheHulk-032  restrict  [pending]  repairs 0  not carried
+   source t01 (calling Hulksters and neighbours to keep Hulk alive); lift TheHulk:t01 > T3-002 > T4-005 > D01
+   how: The visible call-and-work sequence concerns maintaining an existing figure, so it cannot establish the initial construction route.
+   codes: c0081 calling for help because one person cannot save Hulk alone; c0082 doing what they can to defend Hulk
+   transitions: 637r1e:0>1
+
+== acecombat-040  restrict  [pending]  repairs 1  not carried
+   source t03 (calling the room to put Ace Combat marks on r/place); lift acecombat:t03 > T3-002 > T4-005 > D01
+   how: A recruitment post reporting construction already halfway done cannot establish that its own call caused that progress.
+   codes: c0036 calling for help to finish the half-done ACES logo
+
+== adventuretime-031  restrict  [pending]  repairs 1  not carried
+   source t01 (pitching characters and rallying builders); lift adventuretime:t01 > T3-033 > T4-006 > D02
+   how: A proposal receives a commitment to help, but the written acceptance does not independently verify subsequent placement.
+   codes: c0017 trying to start BMO to their right; c0018 offering to help make BMO
+   transitions: 62u0dm:2>2.1
+
+== alberta-008  restrict  [pending]  repairs 2  not carried
+   source t02 (rallying people to make and defend flags); lift alberta:t02 > T3-065 > T4-006 > D02
+   how: The call precedes reported completion, but the record does not establish how much labour the call caused.
+   codes: c0006 asking people to make an Alberta flag on r/place; c0014 reporting the Alberta-flag task done at new coordinates
+   transitions: 62un7j:0>4
+
+== anarchism-006  restrict  [pending]  repairs 0  not carried
+   source t03 (redrawing the work and holding the line); lift anarchism:t03 > T3-021 > T4-013 > D03
+   how: The repair reply establishes shared activity and public affiliation but does not show that recruitment brought the respondent to the canvas
+   codes: c0014 calling to re-draw the work; c0015 joining the re-drawing and welcoming company
+   transitions: 62ozq2:1.1>1.1.1
+
+== androidgaming-005  restrict  [pending]  repairs 0  not carried
+   source t01 (calling for and offering help on r/place); lift androidgaming:t01 > T3-002 > T4-005 > D01
+   how: An initial call precedes the logo announcement without an explicit passage linking that call to the later build.
+   codes: c0001 asking Android gamers to collaborate on pixel art for r/Place; c0002 saying they need to choose specific pixel art to aim for; c0003 announcing their logo beside Rainbow Road
+
+== anime-004  restrict  [pending]  repairs 0  not carried
+   source t01 (Asking people to build anime marks); lift anime:t01 > T3-033 > T4-006 > D02
+   how: Use project-specific evidence of uptake rather than extending the Emilia build to unanswered character proposals.
+   codes: c0201 calling to build Emilia Best Girl at coordinates after laying a blue canvas; c0202 reporting Emilia progress and sharing coordinates and a plan; c0142 suggesting Mob from MP100 for r/place
+
+== archlinux-041  restrict  [pending]  repairs 2  not carried
+   source t04 (calling people to defend and repair the logo); lift archlinux:t04 > T3-021 > T4-013 > D03
+   how: An answer reporting hours of existing defense demonstrates reassurance after a call but cannot establish that the call initiated the reported work.
+   codes: c0134 asking for help while losing ground to r/factorio; c0136 answering that the defender is not alone after hours of popping black
+   transitions: 6312i0:0>2
+
+== austria-006  restrict  [pending]  repairs 1  not carried
+   source t07 (choosing what Austria should draw); lift austria:t07 > T3-113 > T4-006 > D02
+   how: Calls and later completion reports establish local sequence without establishing that recruitment caused increased placing.
+   codes: c0018 calling on the room to complete Austria together; c0033 declaring the flag finished and proposing a label underneath
+
+== battlecats-009  restrict  [pending]  repairs 1  not carried
+   source t05 (building and celebrating a smaller Basic Cat); lift battlecats:t05 > T3-038 > T4-007 > D02
+   how: The explicit organising backlink connects recruitment with progress without showing that particular readers became placers because of the call.
+   codes: c0163 asking for help making a cat in r/place; c0182 showing the basic cat starting to take shape; c0183 pointing people back to the basic-cat organising thread
+
+== baylor-036  restrict  [pending]  repairs 1  not carried
+   source t03 (putting a tiny BU on r/place and keeping it there); lift baylor:t03 > T3-038 > T4-007 > D02
+   how: A call can precede initial construction only for an unbuilt mark; here completion precedes the invitation to maintain or replace it.
+   codes: c0008 spending a couple hours making a barely legible 7x7 BU and expecting it to be drawn over; c0009 asking people to maintain the BU or make a new one on r/place
+
+== bobross-032  restrict  [pending]  repairs 0  not carried
+   source t01 (building and defending little Bob together); lift bobross:t01 > T3-038 > T4-007 > D02
+   how: A call can explain only subsequent construction, since the figure is already reported made and no later concept reports completing the requested additions.
+   codes: c0001 making a Bob Ross chibi at (545,710); c0004 asking for help building the easel; c0006 coming from the Ethereum community to suggest a color palate for Bob; c0008 asking whether there is a group effort because they want to help
+
+== buffalobills-009  restrict  [pending]  repairs 0  not carried
+   source t01 (drawing Bills marks one pixel at a time); lift buffalobills:t01 > T3-038 > T4-007 > D02
+   how: Calls precede building reports here, but the record does not isolate the call as their cause.
+   codes: c0011 starting the build at 62,247 and asking for help; c0012 starting with the lowest left-most pixel; c0021 declaring it done while calling for continued outlining and protection
+   transitions: 62ue91:0>1
+
+== canada-002  restrict  [pending]  repairs 0  not carried
+   source t01 (Mobilizing Canadians to build and expand canvas symbols); lift canada:t01 > T3-065 > T4-006 > D02
+   how: Recruitment can discover work already underway and recur after completion reports, so a call does not establish the beginning of construction.
+   codes: c0005 reporting the flag 80% done at 300, 252 and directing people to start there; c0006 declaring the first flag done and telling people to grow it; c0007 editing the post after learning the flag effort already exists
+
+== catalunya-038  restrict  [pending]  repairs 1  not carried
+   source t01 (making the senyera together); lift catalunya:t01 > T3-065 > T4-006 > D02
+   how: Calls precede reports of work but the coded passages do not establish that recruitment caused the reported building.
+   codes: c0003 calling for help building the Senyera; c0008 keeping at it while asking whether the war continues
+
+== cgpgrey-014  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying Tims to defend and fix HI); lift cgpgrey:t01 > T3-002 > T4-005 > D01
+   how: A late call to defend an existing mark need not lead through a visible building stage before maintenance.
+   codes: c0001 calling Tims to defend Hello Internet on r/place; c0014 taking satisfaction in fixing a one-pixel blemish
+
+== chess-031  restrict  [pending]  repairs 1  not carried
+   source t11 (finding the canvas too settled to hold the piece); lift chess:t11 > T3-036 > T4-012 > D01
+   how: A call can lead to further construction only while placement remains possible, as the final call receives a closure report and acknowledgement of unfinished pixels.
+   codes: c0077 calling people to start placing pixels; c0078 answering the pixel call by reporting r/place closed; c0079 mourning the unfinished knight as ugly pixels
+   transitions: 637tih:0>1, 637tih:1>1.1
+
+== chicago-011  restrict  [pending]  repairs 1  not carried
+   source t07 (building, repairing and showing the Chicago flag); lift chicago:t07 > T3-065 > T4-006 > D02
+   how: A call and explicit cleanup participation support local uptake without proving that the call recruited every builder.
+   codes: c0049 calling Chicagoans to start placing a Chicago flag; c0050 directing the stripes first and recruiting extra accounts; c0056 taking clean-up duty while others build the flag core
+   transitions: 6307cp:0>3
+
+== chile-041  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying helpers for the flag and paltas); lift chile:t01 > T3-002 > T4-005 > D01
+   how: An invitation precedes reported accomplishment, but the record does not identify which readers placed because of it.
+   codes: c0005 rallying people to a little Chilean flag beside the avocado; c0007 declaring the little flag mission accomplished
+
+== cowchop-039  restrict  [pending]  repairs 0  not carried
+   source t01 (getting Cow Chop and related pictures onto r/place); lift cowchop:t01 > T3-070 > T4-008 > D02
+   how: Calls can reinforce an already active build, so the observed order does not establish that each call initiates construction.
+   codes: c0006 announcing where the logo is being built; c0003 asking everyone to join the cause; c0022 calling for help with the CowChop logo
+
+== criticalrole-033  restrict  [pending]  repairs 1  not carried
+   source t03 (calling Critters to put a mark on r/place); lift criticalrole:t03 > T3-033 > T4-006 > D02
+   how: A reply reports an all-day attempt already underway, so a call followed by a work report does not establish recruitment causing the placing.
+   codes: c0020 proposing putting Critical Role pixel art up there; c0021 attempting all day to write out Critical Role
+   transitions: 62tpr7:0>1
+
+== dbz-044  restrict  [pending]  repairs 1  not carried
+   source t02 (rallying people to put Dragon Ball on the canvas); lift dbz:t02 > T3-002 > T4-005 > D01
+   how: Keep recruitment outcomes specific to the target because an early coordinate appeal lacks a recorded answer while the foot builder's request receives one.
+   codes: c0002 asking for help making this on /r/place in the upper left corner; c0003 giving start coordinates and inviting others to join in; c0037 starting the left foot and asking for help at 929, 999; c0038 seeing the build and joining the work
+
+== de-044  restrict  [pending]  repairs 1  not carried
+   source t01 (coordinating live pixel work); lift de:t01 > T3-070 > T4-008 > D02
+   how: Calls and subsequent progress reports establish an operation's sequence without measuring the call's effect on recruiting placers.
+   codes: c0228 rallying Operation Merkel with ‘Wir schaffen das’; c0230 reporting progress on the trousers and Raute; c0244 estimating two hours as more people join
+
+== diablo-031  restrict  [pending]  repairs 1  not carried
+   source t05 (calling for more people to build and guard); lift diablo:t05 > T3-002 > T4-005 > D01
+   how: Calls and reported help support a local recruitment response without independently establishing the cause of all reported placing.
+   codes: c0031 thanking coordination and recruiting fans to build and guard; c0043 helping while complaining that the green sucks; c0044 helping while calling for more people
+   transitions: 637aus:0>1, 637aus:0>2
+
+== edboxes-036  restrict  [pending]  repairs 1  not carried
+   source t01 (starting a small gang of boxes and a sub to run it); lift edboxes:t01 > T3-090 > T4-002 > D06
+   how: Recruitment accompanies pride in work already done, so a call cannot explain every preceding placement or demonstrate which later placing answered it
+   codes: c0008 asking for help while taking pride in what they made; c0024 promising two people and two accounts will maintain as much as possible
+
+== england-042  restrict  [pending]  repairs 0  not carried
+   source t03 (using scripts, images and coordinates to build a flag); lift england:t03 > T3-028 > T4-009 > D02
+   how: Later script instructions support an attempted response to a flag call but do not establish successful construction or reported completed portions.
+   codes: c0002 starting an English flag above Ireland; c0005 sharing a Python script to create a flag in the blue corner; c0008 saying more script-runners improve the flag’s chance
+
+== falcons-014  restrict  [pending]  repairs 1  not carried
+   source t04 (arguing whether five-minute placements can beat bots); lift falcons:t04 > T3-027 > T4-009 > D02
+   how: Calls lead to reports of attempted offensive placement and reversal, which do not establish building a separate owned mark.
+   codes: c0090 telling the room to fix the canvas every five minutes; c0113 crediting collaborators while saying the Pats change it back quickly; c0176 recounting blocks instantly replaced and moving elsewhere for fun; c0183 defending six hours of five-minute placements before quitting
+
+== flashtv-045  restrict  [pending]  repairs 0  not carried
+   source t02 (reporting the emblem lost, overwritten, or occupied); lift flashtv:t02 > T3-073 > T4-027 > D07
+   how: A call supports collective building only where uptake is evidenced because some makers explicitly report working and losing alone
+   codes: c0067 asking for help drawing the Flash from a template; c0084 finishing half alone before going to bed; c0122 losing the battle while drawing alone in the middle of the board
+
+== frankocean-004  restrict  [pending]  repairs 1  not carried
+   source t04 (working out one shared build); lift frankocean:t04 > T3-002 > T4-005 > D01
+   how: Calls require uptake before building can be inferred because an inscription call receives upvotes without actual help.
+   codes: c0036 starting r/frank ocean at a coordinate and asking for help; c0037 contrasting upvotes with nobody helping; c0038 proposing a date and time for everyone to place; c0062 working with friends for hours on the design
+
+== furry-006  restrict  [pending]  repairs 1  not carried
+   source t04 (calling furries to nearby work); lift furry:t04 > T3-002 > T4-005 > D01
+   how: Reports of building follow the proposal, while the record does not establish the call as every contributor's reason for joining.
+   codes: c0033 asking who wants to place the r/furry snoo; c0034 working on the snoo at shared coordinates; c0035 placing a first block and promising to keep helping
+   transitions: 62qxhz:0>1
+
+== futanari-031  restrict  [pending]  repairs 1  not carried
+   source t01 (showing and saving our place); lift futanari:t01 > T3-105 > T4-027 > D07
+   how: Calls can invite additions to work already made, so the reported making cannot be attributed to the subsequent invitation.
+   codes: c0001 showing the place thing I did over a couple hours; c0002 giving the coordinates and inviting everyone to add or check it out
+   transitions: 62xptp:0>1
+
+== gameofthrones-006  restrict  [pending]  repairs 1  not carried
+   source t04 (finding something else at the intended place); lift gameofthrones:t04 > T3-052 > T4-003 > D01
+   how: A coordinate call can receive a report of a different mark, so calling alone cannot establish construction of the proposed image.
+   codes: c0001 starting Jon Snow's right foot at 533,881 and calling for help; c0004 finding dat boi at the proposed coordinates
+   transitions: 62nzbp:0>3
+
+== gamindustri-043  restrict  [pending]  repairs 0  not carried
+   source t02 (getting the Planeptune N onto the canvas); lift gamindustri:t02 > T3-038 > T4-007 > D02
+   how: Call, contribution reports, and completion form a visible sequence, but the record cannot identify every placer's motive for joining.
+   codes: c0013 wanting the sub immortalized in the canvas; c0027 outlining it with purple borders; c0035 announcing the logo is done
+
+== giantbomb-011  restrict  [pending]  repairs 1  not carried
+   source t01 (planning and placing Giant Bomb marks); lift giantbomb:t01 > T3-038 > T4-007 > D02
+   how: A call receives a report of an existing start, but that answer does not establish that the call caused the initial placement.
+   codes: c0001 asking the room to coordinate a "Police State" homage; c0002 answering with a starting line and asking where
+   transitions: 62njl7:0>1
+
+== glasgow-020  restrict  [pending]  repairs 1  not carried
+   source t05 (getting in on and keeping up Scotland's contribution); lift glasgow:t05 > T3-021 > T4-013 > D03
+   how: An invitation followed by reports of prior work cannot establish that recruitment caused that work.
+   codes: c0013 inviting people to get in on Scotland's contribution through Discord and coords; c0014 handing off a watch after keeping off flecks and making a truce; c0015 recounting five straight hours on it
+   transitions: 634gor:1>1.1, 634gor:1.1>1.1.1
+
+== globaloffensive-004  restrict  [pending]  repairs 0  not carried
+   source t03 (building out the logo and nearby CS:GO pictures); lift globaloffensive:t03 > T3-038 > T4-007 > D02
+   how: Recruitment can accompany work already underway, and a starter's own progress report does not demonstrate that the call brought additional builders.
+   codes: c0014 proposing that the room coordinate CS:GO pixel art; c0017 rejecting the coordination proposal with 'how bout NO'; c0019 reporting a start around 40,700; c0511 calling to coordinate and contribute to r/place; c0513 reporting uninterrupted drawing from pixel art; c0514 asking anyone to help
+
+== gorillaz-006  restrict  [pending]  repairs 1  not carried
+   source t03 (building the band one figure at a time); lift gorillaz:t03 > T3-002 > T4-005 > D01
+   how: A response reporting work underway establishes uptake in talk, not that the call caused the respondent to begin placing.
+   codes: c0046 asking for more help making 2-D and Noodle; c0047 answering that Noodle is being made
+   transitions: 62x49h:0>1
+
+== greece-004  restrict  [pending]  repairs 0  not carried
+   source t01 (building and straightening the Greek flag); lift greece:t01 > T3-065 > T4-006 > D02
+   how: The opening call receives construction instructions, supporting a reply sequence without independently demonstrating which placements recruitment caused.
+   codes: c0001 asking people to create our glorious flag; c0002 working out 4x4 boxes so the stripes will not be long; c0003 telling people to use 4x4 boxes and two-wide stripes
+   transitions: 62ombo:0>2, 62ombo:0>3
+
+== greenbaypackers-010  restrict  [pending]  repairs 0  not carried
+   source t10 (placing the G line by line and pixel by pixel); lift greenbaypackers:t10 > T3-038 > T4-007 > D02
+   how: A progress report answers a concerted call, but recruitment of its author by that call is not independently established.
+   codes: c0146 calling for a concerted effort to make and maintain the Pack on r/place; c0149 finishing the logo's top yellow line
+   transitions: 630wqr:0>5
+
+== greenlattice-004  restrict  [pending]  repairs 1  not carried
+   source t02 (joining and preaching the lattice); lift greenlattice:t02 > T3-174 > T4-023 > D05
+   how: Recruitment is not a necessary first step because one participant reports repairing pixels before declaring membership.
+   codes: c0001 inviting others to join; c0674 joining after fixing random lattice pixels
+
+== halo-046  restrict  [pending]  repairs 1  not carried
+   source t04 (getting the Chief onto the canvas and signing it r/halo); lift halo:t04 > T3-002 > T4-005 > D01
+   how: Recruitment can run from seeing an emerging mark back to its thread for guidance rather than only from a posted call outward to the canvas
+   codes: c0040 coming for guidance and joining team Chief
+
+== hatsune-043  restrict  [pending]  repairs 1  not carried
+   source t01 (building, boxing in, and defending Miku); lift hatsune:t01 > T3-005 > T4-013 > D03
+   how: The call precedes further building reports but already describes a standing mark, so it cannot explain the mark's original creation.
+   codes: c0001 asking everyone to help keep little Miku there; c0006 saying they somehow boxed Miku in
+   transitions: 62xk3w:4>4.1
+
+== hearthstone-003  restrict  [pending]  repairs 1  not carried
+   source t04 (proposing what Hearthstone should put on r/place); lift hearthstone:t04 > T3-033 > T4-006 > D02
+   how: Inferring coordinated building from a call requires an actionable target or plan, since a vague appeal elicits clarification and the caller admits having none.
+   codes: c0289 calling vaguely to make r/place be the face; c0290 asking what the r/place call wants from the subreddit; c0291 admitting no plan and hoping someone else supplies pixel art
+   transitions: 62vuuq:0>1, 62vuuq:1>1.1
+
+== hentai-035  restrict  [pending]  repairs 0  not carried
+   source t02 (building HENTAI through colors, borders, and letters); lift hentai:t02 > T3-055 > T4-013 > D03
+   how: A recruitment post receives a progress report, but the reply's ongoing work does not establish that this call first mobilized the workers.
+   codes: c0101 calling on the room to do better at the r/place coordinates; c0102 making progress with only so many people
+   transitions: 6311p7:0>1
+
+== homelab-042  restrict  [pending]  repairs 1  not carried
+   source t08 (reporting the Homestuck banner changing hands); lift homelab:t08 > T3-073 > T4-027 > D07
+   how: A completion report follows recruitment, but the record cannot identify whose placements produced the reported state or establish the recruitment mechanism.
+   codes: c0029 announcing an r/homelab takeover on r/place; c0031 calling on people to get rid of Homestuck and replace it with HOMELAB; c0036 reporting that the canvas now says homelab
+
+== ice_poseidon-006  restrict  [pending]  repairs 0  not carried
+   source t01 (Rallying and instructing people to make Cx and TriHard); lift ice_poseidon:t01 > T3-002 > T4-005 > D01
+   how: Calls and construction reports establish an observed sequence but not which call recruited the reporting placer
+   codes: c0004 sending everyone to help paint a gigantic TriHard Cx; c0010 starting below the message with a brown line
+
+== indieheads-046  restrict  [pending]  repairs 1  not carried
+   source t02 (getting the ITAOTS drawing started with recruits, guides, and Discord); lift indieheads:t02 > T3-014 > T4-010 > D02
+   how: The call precedes a progress report, but the coded report does not identify who was recruited or independently establish recruitment as its cause.
+   codes: c0016 asking indieheads to draw ITAOTS on r/place; c0024 posting progress on the ITAOTS drawing
+
+== jerma985-010  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying people to help the cause); lift jerma985:t01 > T3-002 > T4-005 > D01
+   how: Calls, acceptance and progress reports support an observed sequence without establishing which invitation caused unrecorded placements.
+   codes: c0012 calling fellow fans to make Jerma's face known; c0015 joining the face build; c0032 celebrating visible progress on the face
+
+== kerbalspaceprogram-005  restrict  [pending]  repairs 0  not carried
+   source t08 (getting Jeb onto r/place pixel by pixel); lift kerbalspaceprogram:t08 > T3-038 > T4-007 > D02
+   how: The initial proposal receives a coordinates request and an invasion suggestion, so the later successful effort cannot retrospectively prove that this call produced building.
+   codes: c0026 calling for making Jeb on r/place; c0027 asking for coordinates; c0029 proposing invading blue corner; c0030 laughing that it is all blue; c0148 starting Jeb at canvas coordinates 614,209
+   transitions: 62qpub:0>1, 62qpub:1>1.1
+
+== kingdomhearts-005  restrict  [pending]  repairs 1  not carried
+   source t20 (patching and maintaining completed pieces); lift kingdomhearts:t20 > T3-021 > T4-013 > D03
+   how: The record establishes a repair call followed by reported commitment, while actual building attributable to that call remains outside textual observation.
+   codes: c0176 calling on the bois to fix the Kingdom Key; c0177 answering the fix call by starting to defend it
+   transitions: 634j8h:0>1
+
+== latvia-031  restrict  [pending]  repairs 0  not carried
+   source t01 (building the flag to the right proportions); lift latvia:t01 > T3-065 > T4-006 > D02
+   how: An initial call accompanied by its starter's building report cannot establish that subsequent recruitment caused that already reported work.
+   codes: c0001 planting our flag next to Lithuania's; c0002 starting the flag and specifying its size, frame, and white line; c0006 calling for more people; c0020 joining in and urging people to spam the flag
+
+== madokamagica-031  restrict  [pending]  repairs 1  not carried
+   source t01 (building and revising the shared pixel plan); lift madokamagica:t01 > T3-038 > T4-007 > D02
+   how: Calls precede matching task reports, but those reports do not identify which participants arrived because of the call.
+   codes: c0009 asking the room to help build meguca; c0011 checking off the build and shifting to protection
+
+== maryland-041  restrict  [pending]  repairs 0  not carried
+   source t01 (building and repairing the Maryland flag); lift maryland:t01 > T3-065 > T4-006 > D02
+   how: Calls, reported placing, and completion are visible, but the record does not trace each builder's participation to reading a particular call.
+   codes: c0020 calling everyone out to build the flag; c0036 adding a white pixel despite calling the pastime weird; c0007 announcing the flag is finished
+
+== masseffect-036  restrict  [pending]  repairs 0  not carried
+   source t02 (placing, repairing, and keeping pixels clean); lift masseffect:t02 > T3-038 > T4-007 > D02
+   how: Calls and work reports support participation locally without proving that each call caused later pixel placement.
+   codes: c0019 calling for help making an N7 insignia on r/place; c0022 offering help and proposing an Andromeda logo next; c0154 saying N7 was established in the blue corner and asking for defenders; c0160 reporting Garrus's eyes and forehead done and asking help to hold them
+
+== mechanicalkeyboards-032  restrict  [pending]  repairs 0  not carried
+   source t03 (Maintaining, recolouring, and negotiating around the canvas mark); lift mechanicalkeyboards:t03 > T3-010 > T4-016 > D04
+   how: The call-result link supports recruitment, but prior Discord organisation limits treating the visible call as the project's sole initiating cause.
+   codes: c0132 contrasting a barely updooted call to arms with a result made by a few handfuls; c0137 recounting that organising began on Discord before the Reddit post
+   transitions: 62xbpd:2>2.1
+
+== megaman-010  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying people to build more Mega Man characters); lift megaman:t01 > T3-002 > T4-005 > D01
+   how: Calls and work reports establish participation opportunities and sequence without identifying which call caused particular placements.
+   codes: c0002 rallying support for a Mega Man on r/place; c0007 asking for help building a metool to his right; c0035 claiming the original Mega Man and asking help adding Rush
+
+== metalcore-046  restrict  [pending]  repairs 1  not carried
+   source t01 (keeping BLEGH RIP TOM standing); lift metalcore:t01 > T3-021 > T4-013 > D03
+   how: The visible call addresses an existing tribute, so later state reports establish maintenance reporting rather than an observed initial build caused by that call.
+   codes: c0001 recruiting others to protect Tom while EU shitposters sleep; c0034 fixing up the Blegh and reporting one brown pixel left
+
+== minecraft-014  restrict  [pending]  repairs 1  not carried
+   source t07 (Reporting that a Minecraft build is taking shape); lift minecraft:t07 > T3-038 > T4-007 > D02
+   how: Reports explicitly continue the called project but do not reveal whether the call caused new people to place pixels
+   codes: c0150 calling pixel artists to make more tools over at r/place; c0153 saying they are doing pretty good; c0154 saying it is getting there
+   transitions: 62w803:0>3, 62w803:3>3.1
+
+== nerf-040  restrict  [pending]  repairs 1  not carried
+   source t02 (building, defending, and fixing the Nerf dart together); lift nerf:t02 > T3-021 > T4-013 > D03
+   how: Following calls, members report their own construction without demonstrating that every contributor was recruited by the call.
+   codes: c0001 asking who is interested in representing r/nerf on the canvas; c0004 bringing a script and looking for a good image; c0009 sharing a design while the script builds its blue part at 57, 251
+
+== nin-055  restrict  [pending]  repairs 1  not carried
+   source t01 (turning a giant-logo idea into pixel work); lift nin:t01 > T3-038 > T4-007 > D02
+   how: The proposal-to-progress sequence is documented, but which placers were brought to the canvas by that call remains unobserved.
+   codes: c0001 proposing a giant NIN logo in r/place; c0008 reporting that the logo is making progress; c0051 clearing the right side because the left is messed up
+   transitions: 62pdhe:0>3
+
+== nintendo-043  restrict  [pending]  repairs 0  not carried
+   source t05 (calling people to make Nintendo marks on the canvas); lift nintendo:t05 > T3-002 > T4-005 > D01
+   how: Calls preceding state reports establish sequence without showing that a particular call recruited the reporting builder.
+   codes: c0010 gathering the subreddit to make its mark on the canvas; c0043 making Mario and nearly finishing the head outline
+
+== ohio-012  restrict  [pending]  repairs 1  not carried
+   source t05 (defending, repairing, and relocating Ohio's marks); lift ohio:t05 > T3-005 > T4-013 > D03
+   how: A call precedes a contribution report, but the written sequence does not independently demonstrate that the call caused placement.
+   codes: c0009 calling for help creating an Ohioan flag; c0011 contributing until the flag is safe, then turning to OSU-Michigan
+   transitions: 62twjk:0>2
+
+== overwatch-005  restrict  [pending]  repairs 0  not carried
+   source t10 (calling people to put Overwatch on r/place); lift overwatch:t10 > T3-002 > T4-005 > D01
+   how: A call establishes attempted mobilisation rather than guaranteed building when the proposer reports little traction
+   codes: c0786 asking this subreddit for help after getting little traction in r/place
+
+== paladins-005  restrict  [pending]  repairs 1  not carried
+   source t09 (gathering people to make and defend the logo); lift paladins:t09 > T3-002 > T4-005 > D01
+   how: Calls can renew existing defensive labor rather than initiate placing, as an answer reports working all day.
+   codes: c0126 calling for help defending the r/place logo; c0128 saying they have been on it all day
+   transitions: 62ye3r:0>2
+
+== paranatural-009  restrict  [pending]  repairs 0  not carried
+   source t01 (asking for help and showing how to make Eightfold); lift paranatural:t01 > T3-070 > T4-008 > D02
+   how: The call recruits into existing construction, so this record cannot establish that the Reddit call initiated building.
+   codes: c0001 asking a small community to help make an Eightfold; c0019 helping and helping
+
+== parrots-006  restrict  [pending]  repairs 0  not carried
+   source t03 (marking pixels and reporting the parrot taking shape); lift parrots:t03 > T3-038 > T4-007 > D02
+   how: Reports follow calls, but the concepts do not identify which additional placers were recruited by which invitation.
+   codes: c0017 calling people to join the slowly forming parrot; c0018 reporting the head, eye, and beak started; c0023 clearing surrounding space
+
+== pepe-008  restrict  [pending]  repairs 1  not carried
+   source t04 (setting up bots, targets and Discord to keep Pepe up); lift pepe:t04 > T3-028 > T4-009 > D02
+   how: Calls can gather around work already begun, so a later building report establishes recruitment effects only when it identifies uptake of that particular call.
+   codes: c0023 proposing to make this above the American flag; c0024 offering a bot file after starting work; c0035 starting a Pepe with friends and looking for support
+   transitions: 633rfw:0>1
+
+== poland-032  restrict  [pending]  repairs 1  not carried
+   source t01 (starting and extending Polish pictures); lift poland:t01 > T3-065 > T4-006 > D02
+   how: The small build links a proposal, acceptance and instructions, but those turns alone do not verify that the call caused completed pixel placement.
+   codes: c0105 starting a miniature Polish flag; c0106 joining the miniature flag build; c0107 setting five-pixel stripes and starting with red
+   transitions: 636qhd:0>1, 636qhd:1>1.1
+
+== popheads-017  restrict  [pending]  repairs 1  not carried
+   source t13 (building and reporting progress on the RAWM saxophone); lift popheads:t13 > T3-070 > T4-008 > D02
+   how: Joining and progress reports support local uptake but do not establish that recruitment caused completed construction.
+   codes: c0280 joining in; c0283 saying they lack the manpower to claim more area; c0286 praising the sax after helping other drawings grow and finish
+
+== porterrobinson-011  restrict  [pending]  repairs 0  not carried
+   source t01 (building and redrawing Worlds pictures together); lift porterrobinson:t01 > T3-004 > T4-006 > D02
+   how: Calls precede construction reports, but textual reports alone do not measure the calls' causal effect on placement.
+   codes: c0007 calling the kaomoji work an operation; c0011 finishing the mouth and moving to the second eye
+
+== quebec-011  restrict  [pending]  repairs 0  not carried
+   source t01 (building and revising the fleurdelisé and Patriote designs); lift quebec:t01 > T3-065 > T4-006 > D02
+   how: The invitation precedes participation reports, but the record does not identify which placers joined because of that call.
+   codes: c0001 proposant de créer le drapeau du Québec sur /r/place; c0006 racontant avoir terminé le drapeau dans un bug qui n’a rien enregistré; c0013 remerciant la communauté dédiée à créer et protéger le drapeau
+
+== reddevils-044  restrict  [pending]  repairs 1  not carried
+   source t12 (recruiting badge help inside football talk); lift reddevils:t12 > T3-002 > T4-005 > D01
+   how: Recruitment, assent and progress reports support the local sequence but cannot identify how many placements the call caused.
+   codes: c0077 asking people to help r/place while watching the game; c0082 answering the recruitment with 'will try my best'; c0084 reporting that the badge is making good progress
+   transitions: 62zz7w:2>2.4, 62zz7w:2>2.5
+
+== rit-003  restrict  [pending]  repairs 0  not carried
+   source t05 (calling people to plan and build RIT work); lift rit:t05 > T3-002 > T4-005 > D01
+   how: The early progress report comes from the caller, so recruitment of additional builders cannot be inferred from that sequence.
+   codes: c0061 calling people to come help do the thing; c0048 starting a tigers below the orange text
+
+== romania-012  restrict  [pending]  repairs 1  not carried
+   source t17 (claiming and celebrating what Roddit made); lift romania:t17 > T3-009 > T4-026 > D07
+   how: Calls and contribution reports establish participation but do not identify which appeal caused a particular contributor to arrive.
+   codes: c0001 calling on Roddit to make Romania's flag on r/place; c0111 claiming help with the ROMANIA lettering and praising everyone
+
+== rotmg-051  restrict  [pending]  repairs 1  not carried
+   source t02 (calling people into the build); lift rotmg:t02 > T3-002 > T4-005 > D01
+   how: A recruitment post can receive recognition rather than a placement report, so sightings cannot establish that the call caused building.
+   codes: c0024 asking people to throw on pixels and be part of r/rotmg history; c0025 recognizing Oryx while looking around the canvas
+   transitions: 62ogvc:0>1
+
+== rush-010  restrict  [pending]  repairs 1  not carried
+   source t03 (trying again to fit 2112 or the Starman onto the canvas); lift rush:t03 > T3-033 > T4-006 > D02
+   how: A progress report after a call does not establish that recruitment initiated the starter's building, although directions visibly answer a volunteer's request
+   codes: c0024 asking to draw the 2112 Starman on r/place; c0027 offering pixels if given a location; c0028 giving coordinates and reporting the 2112 build; c0029 finding the build after getting directions
+   transitions: 62t179:2>2.1, 62t179:2.1>2.1.1
+
+== sbu-014  restrict  [pending]  repairs 0  not carried
+   source t02 (building and helping people run the logo script); lift sbu:t02 > T3-028 > T4-009 > D02
+   how: Technical engagement follows the call, but the record cannot establish the call's effect on actual placing or reconcile proposed turnout with retrospective contributor estimates.
+   codes: c0008 saying the script needs at least 100 people; c0013 getting the script working and asking how to check; c0033 celebrating about 20 people carving their initials into the canvas
+
+== seahawks-012  restrict  [pending]  repairs 0  not carried
+   source t01 (getting a Seahawks 12 underway); lift seahawks:t01 > T3-002 > T4-005 > D01
+   how: Recruitment and later building reports establish sequence, but the preserved passages do not identify which call caused members to place.
+   codes: c0051 arguing 48k subscribers should be enough to get a 12; c0054 starting to fill the buffaloes with green at 80,200; c0060 turning a 15 into a green 12
+
+== serbia-042  restrict  [pending]  repairs 0  not carried
+   source t03 (arguing over attacking other people's canvas work); lift serbia:t03 > T3-006 > T4-020 > D08
+   how: Recruitment can immediately elicit reported placement on an attack target, so uptake must retain the object of the call.
+   codes: c0014 calling to draw yellow SSSS on the Croatian flag for fun; c0021 reporting placing a block
+   transitions: 62ogh3:11>11.2
+
+== shitredditsays-009  restrict  [pending]  repairs 1  not carried
+   source t01 (putting BRD and BASH THE FASH on the canvas); lift shitredditsays:t01 > T3-033 > T4-006 > D02
+   how: An answer reporting repair already under way cannot establish that the preceding proposal recruited the builders.
+   codes: c0009 suggesting somebody draw BRD; c0010 repairing BRD after a swastika and giving its location
+   transitions: 62scik:1.2>1.2.1
+
+== sips-037  restrict  [pending]  repairs 0  not carried
+   source t06 (rallying the bois and more helpers); lift sips:t06 > T3-002 > T4-005 > D01
+   how: Calls precede reported building and one recruit identifies a donation appeal, but neither proves a general causal effect of the room's calls on placement.
+   codes: c0062 calling the bois to stop fucking around and do this; c0065 accepting the coordinates and starting; c0066 reporting that they did it and congratulating the group; c0050 joining after being enlisted through a stream donation
+
+== snsd-005  restrict  [pending]  repairs 1  not carried
+   source t01 (making and remaking SNSD marks together); lift snsd:t01 > T3-038 > T4-007 > D02
+   how: Call-caused building requires evidence of work begun in response because some placing already preceded the call.
+   codes: c0014 asking for help building for the girls around 517, 805; c0015 starting the SD with a few friends and finding it hard; c0020 making a third attempt from the GEE remains and asking for reinforcements
+
+== southpark-009  restrict  [pending]  repairs 1  not carried
+   source t01 (getting character drawings started together); lift southpark:t01 > T3-002 > T4-005 > D01
+   how: Calls may recruit into already begun work, so later progress reports do not establish that recruitment initiated building.
+   codes: c0001 asking for help making Mr. Hankey; c0002 asking for the plan and coordinates before helping; c0003 giving Mr. Hankey’s coordinates and adding a blue border for assimilation; c0007 proposing Cartman at 786, 895 and starting with the right eye
+   transitions: 62r7qi:0>1, 62r7qi:1>1.1
+
+== splatoon-035  restrict  [pending]  repairs 1  not carried
+   source t03 (choosing and laying out what to put where); lift splatoon:t03 > T3-041 > T4-006 > D02
+   how: Calls may first elicit design revision or instruction requests, and a willing response does not ensure completed work.
+   codes: c0009 recruiting help to write Stay Fresh on r/place; c0010 proposing a squid instead; c0096 asking to build a colour-matched design near the Switch logo; c0097 offering all night and asking for a starting point; c0098 identifying a starter pixel while admitting the attempt got nowhere; c0101 reporting that the design was not made
+   transitions: 62ofes:0>1, 6374vd:0>1, 6374vd:1>1.1
+
+== ss13-012  restrict  [pending]  repairs 0  not carried
+   source t03 (spreading GREYTIDE pixels and the r/ss13 name); lift ss13:t03 > T3-169 > T4-006 > D02
+   how: Calls and work reports occur, but these concepts do not identify each contribution as caused by a particular call.
+   codes: c0013 calling for reinforcements; c0035 claiming to have helped the greytide drawing; c0009 adding R/SS13 and then finding it gone
+
+== starcraft-010  restrict  [pending]  repairs 0  not carried
+   source t06 (rallying helpers around one plan and its coordinates); lift starcraft:t06 > T3-002 > T4-005 > D01
+   how: Calls and subsequent construction reports coexist with coordination failures, so the record supports mobilization followed by building without establishing that any particular call caused placement.
+   codes: c0081 announcing the plan and welcoming all help; c0099 blaming different or missing coordinates for the confusion; c0101 calling for an actual plan everyone would stick to; c0102 reporting that the logo is shaping up nicely
+
+== stevenuniverse-007  restrict  [pending]  repairs 1  not carried
+   source t02 (Reporting, celebrating, and tracking what is on the canvas); lift stevenuniverse:t02 > T3-009 > T4-026 > D07
+   how: Written uptake and completion reports cannot establish how much construction the call caused or how silent placers joined.
+   codes: c0016 joining in to help; c0017 coming straight here to confirm and contribute through the cooldown; c0019 declaring the symbol complete
+
+== teslamotors-011  restrict  [pending]  repairs 0  not carried
+   source t06 (calling people into the Tesla logo work); lift teslamotors:t06 > T3-002 > T4-005 > D01
+   how: Initial construction elicited a recruitment reply, so calls and building interleaved rather than establishing a single causal direction.
+   codes: c0126 trying to make the T from three red pixels; c0127 recruiting helpers and asking them to spread the word
+   transitions: 62uulb:1.1.1>1.1.1.1
+
+== tetris-002  restrict  [pending]  repairs 1  not carried
+   source t02 (finding out the canvas ended and calling it a bummer); lift tetris:t02 > T3-117 > T4-027 > D07
+   how: A call can lead to live building only while placement remains open, as the late proposer learns directly from the closure correction.
+   codes: c0004 calling to add Tetris at 980,600; c0005 breaking the news that they ended it minutes ago; c0009 calling the canvas ending a bummer
+   transitions: 6389df:0>1, 6389df:1>1.1
+
+== theexpanse-010  restrict  [pending]  repairs 1  not carried
+   source t02 (joining in and keeping builders going); lift theexpanse:t02 > T3-104 > T4-005 > D01
+   how: Calls and work reports establish a local building sequence but do not trace each recruited person's placements.
+   codes: c0008 posting the mockup and calling people to build it; c0016 offering to help keep the logo; c0032 starting work on the new plan

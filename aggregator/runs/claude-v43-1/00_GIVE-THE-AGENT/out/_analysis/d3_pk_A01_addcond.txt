@@ -1,0 +1,68 @@
+A01: 12 lines in all (op add-condition); packet [0, 12): 12 lines; carried through no third-order tier
+ops in the packet: {'add-condition': 12}
+
+== MMA-008  add-condition  [pending]  repairs 1  not carried
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift MMA:t07 > T3-038 > T4-007 > D02
+   how: The locally supported call-to-build path includes usable space and a block plan rather than treating every proposed mark as an executed project.
+   codes: c0409 offering r/MMA a Canadian flag spot left free; c0414 going ahead with a UFC-logo template while inviting alternatives; c0425 making a layout for the exact blocks to fill; c0453 finishing the A before helping with the second M
+
+== Madeon-009  add-condition  [pending]  repairs 2  not carried
+   source t08 (calling for album art and finding it already done); lift Madeon:t08 > T3-082 > T4-006 > D02
+   how: A completion reply supports call-induced building only if the work still needed doing when called for, rather than already existing.
+   codes: c0039 proposing collectively putting album art onto r/place; c0041 reporting that the album art is already done
+   transitions: 637971:0>2
+
+== enterthegungeon-003  add-condition  [pending]  repairs 1  not carried
+   source t01 (building the Bullet Kin together); lift enterthegungeon:t01 > T3-002 > T4-005 > D01
+   how: Calls precede completion without guaranteeing immediate sufficient participation or identifying which readers supplied placements.
+   codes: c0023 recruiting help at the Bullet Kin's bottom-right location; c0113 saying nobody is helping and they are the only one doing it; c0024 announcing that the Bullet is complete
+   transitions: 62xbpz:0>1, 62xbpz:0>2
+
+== newzealand-037  add-condition  [pending]  repairs 1  not carried
+   source t07 (recruiting people and building from shared plans); lift newzealand:t07 > T3-002 > T4-005 > D01
+   how: Calls and build reports support local sequence while causal mobilisation remains stronger where a participant explicitly reports joining.
+   codes: c0011 calling for a uniquely kiwi piece and suggestions; c0014 drawing the outline first and filling it later; c0078 downloading the app to give a hand; c0221 working on the small kiwifruit project
+
+== oman-012  add-condition  [pending]  repairs 1  not carried
+   source t02 (working out what a small subreddit can get made); lift oman:t02 > T3-136 > T4-012 > D01
+   how: Collective building requires evidenced uptake for that attempt because an unanswered appeal can precede construction by one persistent builder.
+   codes: c0003 saying one guy cannot beat 80K; c0011 joining the heart build; c0012 reporting that the build is getting there; c0021 recounting building alone, being destroyed, and coming under attack again
+
+== pebble-044  add-condition  [pending]  repairs 1  not carried
+   source t04 (planning a small Pebble watch icon pixel by pixel); lift pebble:t04 > T3-020 > T4-014 > D04
+   how: Reports support recruitment alongside building but do not demonstrate that the call caused individual placements.
+   codes: c0051 asking for more activity while making the screen mark double as a P; c0042 working on a separate design rather than vandalizing Kebble; c0044 stopping work on the old spot to help the shifted design
+
+== penguins-045  add-condition  [pending]  repairs 0  not carried
+   source t02 (rallying people to put the Pens on the canvas); lift penguins:t02 > T3-002 > T4-005 > D01
+   how: Some willing respondents wait for an anchor or visible start before translating an invitation into participation
+   codes: c0060 offering to chip in once someone sets the anchor; c0063 wanting to help while waiting for someone to get the ball rolling; c0064 offering help once the drawing takes shape
+
+== pepe-009  add-condition  [pending]  repairs 1  not carried
+   source t02 (calling people to make, save, finish, restore and grow Pepe); lift pepe:t02 > T3-002 > T4-005 > D01
+   how: The call-to-building explanation requires an identifiable shared target when respondents question who the group is and where it is working.
+   codes: c0018 inviting people to join making Pepe; c0019 asking for coordinates; c0020 asking who 'us' is while placing one from the raid template
+   transitions: 62zv9u:0>1, 62zv9u:0>2
+
+== redpandas-016  add-condition  [pending]  repairs 1  not carried
+   source t06 (finishing and defending pandas and neighbours); lift redpandas:t06 > T3-005 > T4-013 > D03
+   how: Calls can recur during building when a work is already almost complete, so mobilization is not confined to an initial stage.
+   codes: c0031 placing the final red bits as the panda takes shape; c0032 finishing the red bits; c0050 calling everyone to finish and protect the red panda; c0051 saying it is almost complete while others vandalize it
+   transitions: 62wikm:0>1
+
+== rocketbeans-046  add-condition  [pending]  repairs 1  not carried
+   source t02 (getting people painting the Bohne together); lift rocketbeans:t02 > T3-002 > T4-005 > D01
+   how: Reported participation and gratitude support recruitment locally without measuring the call's effect on all placers.
+   codes: c0008 proposing a scaled-down RBTV logo where there is least competition; c0026 thanking the idea and celebrating helping together; c0027 celebrating how many people the subreddit mobilised; c0031 declaring the pixel-perfect logo finished
+
+== sips-062  add-condition  [pending]  repairs 0  not carried
+   source t10 (starting, finishing and defending the sign); lift sips:t10 > T3-005 > T4-013 > D03
+   how: Starting reports must be attributed to particular participants and attempts because one builder reported blue pixels while an organiser later said the effort had not really started.
+   codes: c0038 starting beside the Rolling Stones lips with blue pixels; c0044 explaining that permission is holding up the start; c0045 asking an early builder to wait for permission
+   transitions: 62zgrf:4>4.1
+
+== worldoftanks-011  add-condition  [pending]  repairs 0  not carried
+   source t10 (putting Karl forward too late); lift worldoftanks:t10 > T3-033 > T4-006 > D02
+   how: A call needs actionable instructions and remaining placement time to become a build.
+   codes: c0177 calling on the room to create Karl in r/place; c0178 asking for direction, a template and a location before organizing; c0179 saying the event has ended; c0180 putting Karl off until maybe next year
+   transitions: 637t68:0>1, 637t68:0>2, 637t68:2>2.1
