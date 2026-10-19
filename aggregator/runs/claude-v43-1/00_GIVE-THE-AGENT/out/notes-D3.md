@@ -240,6 +240,43 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **K02.** A line that cites only K02's judgment does not show P09 (rotmg-047).
   - **The close.** A call made after hour 73 is an evidence limit on instantiate and absent lines (warthunder-068, samuraijack-035, wallstreetbets-059, mysterydungeon-040). On add lines it is a specification naming P22. An attack made during placement and recounted after the close is P09 (utaustin-057, zootopia-059). A picture of the canvas edited after the close is P22's contest over the version kept (torontoraptors-059).
   - **The means.** P09 names no means. A glitch's burst of pixels (cardinals-059) and a rival's own script turned on it (rit-057, named under P14) are means of moves it names.
+- **G21 (logged at D3a-16, before P18's lines were ruled).** P18 is shown when a concept shows the room's members carrying a contest in talk with a rival group. The moves are the ones P18 names: a taunt or chant, flooding the rival's threads, a claim of victory, a salute after the fight, and blame of attackers after the close. One member's taunt is P18's lower range. A taunt need not be meant in earnest: a joking taunt or a mock war against a rival counts, and K01 holds that a claim may be a joke. That covers:
+  - a taunt, insult, threat or chant aimed at a rival group, in the room's threads or the rival's;
+  - flooding, raiding or brigading another group's threads, and calls to do so;
+  - a claim of victory over a rival, and gloating at a rival's loss;
+  - a salute, a 'GG' or respect paid to a rival after a fight;
+  - blame of a rival for the room's damage after the close, as P18's statement names;
+  - lettering or an image aimed at a rival that covers no one's work (G20's reading);
+  - an apology, or a call to stop, for a taunt or a row in words, where the room took part in that contest. G19 sent talk-only restraint here, and it ends the contest as the salute does.
+
+  The rival is another group on the canvas or around it: a sub, a nation's room, a school's or a team's room, a colour faction, the Void, or a streamer's audience. The contest must be part of the event: in a canvas thread, about the canvas, or aimed at the rival's work or presence there. A bare mention of the event holds no act (the C1 reading rule).
+
+  P18 is the room's own part in a contest. A taunt is one group's act toward another, as an attack is, so P18 is read as G20 reads P09, and not as G17 to G19 read exchanges:
+  - a visitor's taunt, flood or claim of victory in the room's threads is the visitor's P18; it shows the room's P18 only where members join the contest, by answering in kind or carrying it on;
+  - an argument among the room's own members, with no rival group as a party, is not P18.
+
+  It is not shown by:
+  - an attack on another's work (P09), defence of the room's work (P05), a call for hands (P01), or terms (P08);
+  - the old quarrel named with no tie to the canvas (K03's form, a candidate that holds no line);
+  - celebration of the room's own work with no rival named (P11), or a record of the work's fate or mourning with no rival blamed (P12);
+  - members objecting to canvas posts flooding the host sub (P20), unless a rival group floods it;
+  - a correction of an account of the room after the close (P22), unless it also blames or taunts a rival.
+
+  After the close, threats, war chants and victory claims against a rival are P18, since its statement reaches past the fight (mysterydungeon-040 was so read under G20). P18 is not stated as universal (T4-021 holds 116 of 705 rooms), so its absent lines are never corrections. G2 and G3 rule them, and G9 rules restrict and contradict lines. Under G4a, the statements that may hold an add, link, instantiate or restrict line are:
+  - A18 (the attack before the taunt, and its mechanism: an attack makes the rival a named party);
+  - C02 (a tie from before the canvas names the rival) and K01 (a claim may be a joke);
+  - P09, P05, P07, P08, P11, P12, P17, P20 and P22, and the arrows A16 and A17.
+
+  Candidates and tentative entries hold no line: K03's quarrel, K04's colour faith, P06, P19 and P21. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset.
+- **G21, amendment 1 (D3a-16, 19 October 2026; applies backwards to every P18 line).** G21 said 'blame of a rival for the room's damage after the close'. P18's statement says 'blame attackers after the close', so the blame counts whoever the attackers are, one placer with many accounts included. Applied backwards: lines that blame one placer after the close and were ruled before the amendment was written were already accepted on that reading (ethereum-044, Rainbow6-058). Among the rejects and evidence limits that name one placer, one changes. berserk-065, an absent line, rebukes the placer of a Half-Life logo after the close ('You're really being *that guy*'), and is re-ruled from an evidence limit to a reject. The others stand: rojava-039 and gameattack-061 are a report and mourning without reproach, cavestory-040 is during the event, and egypt-052 does not concern an attacker.
+- **G21's readings, stated while ruling (D3a-16).** They apply G21 as amended and change no rule.
+  - **Blame during the event** counts when it insults, condemns, threatens or disparages the rival's conduct ('cucks', 'losers', 'greedy', 'hogging', 'get out!': 4chan-074, Dustforce-045, kuwait-040, GuildWars2-035). A plain report, a complaint about the room's own experience, or a defence call that names the attacker, even in war words, is P05's or P08's (Peru-055, clubpenguin-019, mechanicalkeyboards-015, nintendo-028).
+  - **After the close,** P18's statement names blame of attackers, so explicit blame of a rival or of one placer counts ('I blame Poland', 'some jerk': soylent-043, nerf-036, KState-035). Mourning or a record that names the cause without reproach is P12's (TsundereSharks-035, counting-051).
+  - **Victory claims.** A claim of holding off a named rival or the attackers is a victory claim (Slovakia-033, esperanto-021, NieR-062, PinkVomitMonster-024). A concession or an assessment with no jab is not (dbz-042, wine-059).
+  - **Answering a visitor.** A sarcastic retort, a dismissive 'lol' or 'Nice try', or a mock-war refusal carries the contest on (WPI-029, donaldglover-039, hearthstone-068, futurama-017). A flat denial, a question or a polite justification does not (fivenightsatfreddys-072, landry-012, phish-059). A member who returns a visitor's salute takes part (harrypotter-060, de-042, paranatural-058).
+  - **Refusals.** A refusal that mocks the rival counts (ManningPlace-054). A plain refusal to move is P08's (Cornwall-049).
+  - **Rivals.** Taunts traded during the event with one individual do not count (PUBATTLEGROUNDS-056, parabola-015, parrots-059). Fans of rival teams or faculties in a shared sub speak for rival groups (alberta-048, portugal-069). A mock war between two subs that never names the canvas is outside the event (Pigifs-016).
+  - **Venues.** Brigading a rival's posts or raiding its chat is P18's flooding (chelseafc-068, osugame-056, argentina-045).
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -1794,5 +1831,90 @@ Five families concern why and when a room attacks (13 lines): retaliation, prote
 `validate.py D3` reports 13,591 of 42,243 ledger lines ruled: the 12,705 before this leg and P09's 886. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 14,279 lines: 886 first rulings and 5 re-rulings from this leg. That makes 688 appended re-rulings in all.
 - **Pairs.** All 26 pairs in P09's files name a ruled P09 line that is an accepted elaboration (`d3_pair_check.py`, `d3_pair_kind_check.py --elements P09`). Across the ledger, 1,156 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind.
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-16: P18, the contest in talk
+
+P18 is the standing element of T4-021 (Rivalry, dimension D08). Its statement reads: 'Rooms carry a contest with a rival room in talk: they trade taunts, flood the rival's threads, claim victory, salute the rival after the fight and blame attackers after the close.' Its range runs from one taunt in a thread to days of chants, victory claims and an after-the-fight salute. A18 (P09 to P18) runs into it, and no arrow runs out of it. No finding touches P18. G21 was written before any P18 line was read, and amended once in this leg (above). All 778 lines, in 698 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_family_counts.py`, `d3_g4ab_tally.py`, `d3_latest_ids.py` and a new helper, `d3_reject_kinds.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 457 | 373 | 0 | 0 | 0 | 16 | 68 |
+| absent (226 `unobserved`, 4 `not-testable`) | 230 | 0 | 0 | 0 | 205 | 3 | 22 |
+| restrict | 45 | 25 | 0 | 0 | 20 | 0 | 0 |
+| add-step | 24 | 18 | 0 | 0 | 5 | 1 | 0 |
+| add-condition | 14 | 7 | 0 | 0 | 7 | 0 | 0 |
+| link | 8 | 2 | 6 | 0 | 0 | 0 | 0 |
+| all | 778 | 425 | 6 | 0 | 237 | 20 | 90 |
+
+P18 is shown in 404 of the 705 rooms, and in 361 of them an instantiate line is accepted. 294 rooms have P18 lines and none shows it. T4-021 holds 116 rooms, so P18, like P09, is shown in many rooms whose talk was placed under other fourth-order themes. P18 is not stated as universal, so no absent line is a correction.
+
+**What the specifications show.** These are rough counts of lines whose reasons match a pattern. The first matching pattern takes each line, and 116 lines match none: retorts, threats, chants and rows in words.
+- victory claims, including holding off a named rival: 79 lines in 77 rooms;
+- blame of attackers after the close: 23 lines in 22 rooms;
+- salutes, 'good game' and the contest's end: 20 lines in 19 rooms;
+- mock wars and war declarations: 20 lines in 19 rooms;
+- flooding, raiding or brigading a rival's threads or chat: 9 lines in 8 rooms;
+- insults, curses, taunts, jabs and gloating: 221 lines in 208 rooms.
+
+**Restrict: no correction.** Most of the 45 restrict lines ask for a reciprocal campaign, two coherent rooms or a verified attacker. P18 needs none of these, since one taunt is its lower range. The other lines restate G21: the contest must be part of the event, a rival is a group, internal play does not count, and a visitor's taunt is the visitor's. Each line is a specification where its concepts show P18 (25), and an evidence limit where they do not (20).
+
+**Add and link lines under G4a.** Two specifications name another statement. placehfarts-012 names A18: an attack proposal comes before a victory claim. the_pack-043 names P20: members debate whether a rival may advertise in the room. The other specifications rest on P18's own statement, or are reading rules ruled by their concepts.
+
+**The 6 elaborations, by family.** All are paired; the counts give lines, then rooms (`d3_family_counts.py`):
+
+| family | lines | rooms | ops | ids |
+|---|---|---|---|---|
+| contest talk opened from a neighbour's request about space, with no attack before it | 3 | 3 | link 3 | evedreddit-032, qotsa-043, aceattorney-057 |
+| an attack the room suffers, not one it makes, brings the rival into its contest talk during the event | 3 | 3 | link 3 | rangers-065, starryknights-060, uvic-056 |
+
+Both families put something other than the room's own attack before the contest in talk. A18 orders the room's first attack before its first taunt, and P18 names being attacked only for blame after the close. Both families go to the order tests beside A18.
+
+**What the 90 rejects show.**
+- **Instantiate, 68.** They are sorted roughly by the first matching pattern over the reasons (`d3_reject_kinds.py`):
+  - about 40 rest on a visitor's taunt, chant, salute, claim or accusation that no member answers in kind;
+  - about 12 are records of the work's fate or of defence, P12's or P05's;
+  - about 9 are defence calls, terms, refusals or restraint, P05's, P08's or P07's;
+  - 7 others: a neighbour's own record (denverbroncos-070), a joke to the room's own members (evex-022), a flat denial (fivenightsatfreddys-072), listening in a rival's chat (monalisaclan-064), sympathy for a third room (palestine-016), corrections of accounts (placecanada-059, P22's) and a concession (wine-059).
+- **Absent, 22.** Each line's concepts show P18, so the claim of absence fails. They hold:
+  - slogans, threats or vows against a rival faction (GreenEmpire-037, dankmemes-026, darksouls-030, faeria-059, morrowind-054);
+  - curses or pejorative labels (RelientK-059, monstercat-039, mordhau-033, re_zero-038);
+  - jabs at a rival's conduct (GuildWars2-035, kuwait-041);
+  - claims of holding off attackers or a named rival (PinkVomitMonster-024, paragon-056);
+  - retorts or a victory boast (SwissNeutralityZone-033, TreePlace-041, hearthstone-068, hyperlightdrifter-034, nlsscirclejerk-021, uiowa-018);
+  - a returned salute (paranatural-058), a victory claim with mockery (halo-019), and blame after the close (berserk-065).
+
+**Absent lines.** 226 are marked `unobserved` and 4 `not-testable`. 205 are evidence limits: calls, defence, records, celebration, terms, attack calls (P09's), visitors' talk and members' talk among themselves, with no contest carried by the room.
+
+**Particulars, 20.**
+- **Failing portability (19):** 16 instantiate lines and 3 absent lines (nyu-058, redpandas-059, vim-039).
+- **One room only (1):** sooners-049. An insult in talk turns members toward a takeover, the reverse of A18's order. A search of P18's lines found no second room; sooners-048 is the same room.
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or contradict line was accepted as a correction. P18 stands as served, and no move was made.
+
+**Repairs (G7).** Repairs made no difference. Lines in repaired rooms were 0.856 accepted (424 lines), and in unrepaired rooms 0.862 (354 lines).
+
+**Carried to later groups.**
+- **The two families** (6 lines) go to the order tests beside A18. Contest talk can open from border talk or from an attack the room suffers, not only from the room's own attack.
+- **sooners-049**, talk turning to attack, goes beside A18 and P09's 'why and when' families.
+- **The visitor-led contests** (about 40 instantiate rejects) are the other room's P18 seen from its target. They bear on reading P18 room by room, and go to the clustering.
+- **Old quarrels and ties.** Many taunts invoke school, league or national rivalries. They go with C02, K03 and K04's group.
+- **Talk-only restraint** (apologies and calls to stop inside a contest) stays beside P07, as G19 placed it.
+
+**Disclosed limits and slips.**
+- **Draws.** Five seeded draws covered the instantiate lines, at verb offsets 269 to 669, ten lines each. Draw 2 (offset 369) found earthbound-044 unsupported: its how read defence talk, and its quote opens 'Screw the task bar'. Lines 100 to 199 were then read whole with every line's quotes, through `d3_window_quotes.py`. The whole read also changed gratefuldead-063 to a reject.
+- **Two re-rulings, appended.** NieR-062 was a reject read as a record of defence. It was re-ruled to a specification, to agree with Slovakia-033's claim of holding off rivals. berserk-065 was an evidence limit, re-ruled to a reject when G21 amendment 1 was applied backwards.
+- **G21 amended.** It first said 'a rival' for blame after the close, against P18's 'attackers'.
+- **Counts logged before the tally,** twice, and corrected in notes: the lines with quotes read in the first packet (30, not 39), and the add-step kinds (18 and 5, not 17 and 6).
+- **The verb's count.** The verb's footer says 779 lines, but it lists 778 distinct ids (`d3_verb_ids2.py`). The extra unit is its header line. A first version of that helper did not stop at the verb's last page, ran past 120 seconds into the background, and was stopped before any other step.
+- **A Write and its check in one turn.** P18-absent-180.jsonl was checked in the turn that wrote it, against the rule. The check passed before the ledger write, which ran alone.
+- **A refused command.** The permission check refused a hash command that piped `cut -c` beside a helper. It was run again without `cut`.
+
+### Close-check, D3a-16
+
+`validate.py D3` reports 14,369 of 42,243 ledger lines ruled: the 13,591 before this leg and P18's 778. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 15,059 lines: 778 first rulings and 2 re-rulings from this leg. That makes 690 appended re-rulings in all.
+- **Pairs.** All 6 pairs in P18's files name a ruled P18 line that is an accepted elaboration (`d3_pair_check.py`). Across the ledger, 1,162 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.

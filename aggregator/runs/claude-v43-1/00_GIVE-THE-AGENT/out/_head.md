@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Rewritten whole at every close. Last written at D3a-15, 2026-10-19 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Rewritten whole at every close. Last written at D3a-16, 2026-10-19 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -25,11 +25,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-15)
+## The return (D1a to D3a-16)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07 and P09 stand without correction.
-- **D3a-15, P09.** Attacks show in 510 of 705 rooms, against T4-020's 231. Paired elaborations put retaliation, protection, a loss and too few hands before the attack; no arrow says so.
+- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09 and P18 stand without correction.
+- **D3a-15 and D3a-16.** Attacks [P09] show in 510 of 705 rooms (T4-020: 231), and taunts [P18] in 404 (T4-021: 116). Paired elaborations put retaliation, protection, loss and too few hands before attacks, and border talk or an attack suffered before taunts; no arrow says so.
 
 ## The current account, and the contrary rooms
 
@@ -66,16 +66,11 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 - **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
 - **D3a outputs:**
-  - `adjudications.jsonl`: 13,591 lines ruled, 14,279 with re-rulings;
-  - the stage's notes: G1 to G20 (G20 amended once), G13a, G4a (three amendments) and the field's entries;
+  - `adjudications.jsonl`: 14,369 lines ruled, 15,059 with re-rulings;
+  - the stage's notes: G1 to G21 (G20 and G21 amended once each), G13a, G4a (three amendments) and the field's entries;
   - `model/history.jsonl`: moves 172 to 174.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
-- **Ledgers:**
-  - tier history 561 lines;
-  - model history 139;
-  - findings 37 lines (23 findings);
-  - elements 30 (24 standing, 5 candidates, P21 tentative);
-  - arrows 21 (A21 tentative).
+- **Ledgers (lines):** tier history 561; model history 139; findings 37 (23 findings); elements 30 (24 standing, 5 candidates, P21 tentative); arrows 21 (A21 tentative).
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
 - **Questions:** none open.
 
@@ -94,23 +89,20 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 ## Stage C1, in short (carry the rulings)
 
 - **QC1-001 (J).** C1 rechecks place each item by the amended gates over the whole scheme.
-- **QC1-002 (J).** Lean to one placement. A second theme needs three concepts or more of its own.
+- **QC1-002 (J).** Lean to one placement. A second theme needs three concepts or more of its own; J's floor is three concepts.
 - **QC1-003 (the handler, under J's delegation).** Five revision-rate errors stay in `out/_analysis/c1_unapplied.jsonl`; all 34 count.
 - **Reading rules (`scheme_v2.md`).**
   - A theme names an act in the record of the room whose threads hold the words (the visitor rule).
   - "The work" is the room's own unless a field names another's.
   - A bare mention of the event holds no act.
-  - J's floor is three concepts.
   - Help between rooms is read from either room's record.
-  - A member's own part is T3-003; credit to others is T3-043.
 
 ## J's rulings on how a ruling is made (13 October; carry them)
 
 - **QB4-001 (J, 06:43 Berlin):** "Ask it to stop. The point is to try to adjudicate. I imagine that the additions are really just the analyst trying to be nice. And not go back on what others said".
 - **J's rulings (06:45 and 06:47 Berlin):** a ruling chooses among the placements and adds no theme beyond them; it takes the union only when it names, for each theme it keeps, the separate concept that carries it.
 - **also_present (J, 09:09; QB4-002, 09:20; QB4-003, 11:29):** lists only themes a reader placed, a reader listed, or my B1 named; themes a reader listed count in the bag test.
-- **Lone B1 themes (J, 12:28):** "Whatever the agent feels more comfortable with." A theme only my B1 placed stands only with three concepts of its own.
-- **Rule 0 and the bag test** are in stage B's notes; stage B is frozen.
+- **Lone B1 themes (J, 12:28):** "Whatever the agent feels more comfortable with." A theme only my B1 placed stands only with three concepts of its own. Rule 0 and the bag test are in stage B's notes.
 
 ## J's rulings that bind (carry them)
 
@@ -136,8 +128,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-15**, to weigh after order tests:
-  - P09's families: what comes before the attack (13 lines) and what chooses its target (9, beside C02);
+- **From D3a-02 to D3a-16**, to weigh after order tests:
+  - P09's families: what comes before the attack (13 lines) and what chooses its target (9, beside C02); P18's: what opens the contest in talk (6, beside A18);
   - P19's form (9 lines); A04's bound (21); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4);
   - calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording entered from a loss, beside A08;
   - a finished work reopening calls or the design;
@@ -191,4 +183,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The next element group's lines, by rules G1 to G20 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group, by G1 to G21 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
