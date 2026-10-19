@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Last written at D3a-27, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 to 176 (R01, P05, P22, P21, A21) moved the hash; D3c refreezes it.
+Last written at D3a-28, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 to 176 (R01, P05, P22, P21, A21) moved the hash; D3c refreezes it.
 
 ## The method question, in one sentence
 
@@ -25,11 +25,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-27)
+## The return (D1a to D3a-28)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** All 25 standing elements are ruled whole. R01 and P05 were revised (moves 172, 173); P22 and P21, the field's entries, stand reworded (moves 174, 175). The other 21 stand uncorrected. A21 stands bounded (move 176): the agreement comes first in 114 of 162 rooms.
-- **D3a-15 to D3a-26.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, too few hands or room [K02] in 520, machine hands [P14] in 320, carrying on [P13] in 292, the host's line [P20] in 310, coalitions [P17] in 383, bare answers [P15] in 579, decided order [C01] in 136, an old tie naming the rival [C02] in 112, and who may commit the room [P21] in 162.
+- **D3a, by element.** All 25 standing elements are ruled whole. R01 and P05 were revised (moves 172, 173); P22 and P21, the field's entries, stand reworded (moves 174, 175). The other 21 stand uncorrected. A21 stands bounded (move 176): the agreement comes first in 114 of 162 rooms. A02 stands uncorrected; 222 rooms start and call in one post.
+- **D3a-15 to D3a-26.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, too few hands or room [K02] in 520, machine hands [P14] in 320, carrying on [P13] in 292, the host's line [P20] in 310, coalitions [P17] in 383, bare answers [P15] in 579, decided order [C01] in 136, an old tie naming the rival [C02] in 112, and who may commit the room [P21] in 163.
 
 ## The current account, and the contrary rooms
 
@@ -38,7 +38,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 - **Keeping holds the known form** [P05]. Repair restores the form the keepers know, so a change the room planned [P02] is repaired away until they are told.
 - **The bare answer.** Most calls get no written reply. Written acceptances come bare (25 of 31, F-023), and refusals give a reason (attack calls 23 of 38, F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
-- **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 rooms [C01, F-006]; the return shows it in about 119.
+- **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 rooms [C01, F-006].
 - **Direct information sharing (T4-007).** Members post the mark's state [P03; F-018], largely apart from sharing templates (F-022).
 - **Other rooms.** Keeping brings neighbour talk in 235 of 401 rooms [A04], mostly offering terms first. Help names a deal in 63 of 127 such rooms, against 23 of 67 [A14; F-020]. Sparing rests on the room's own norm (A05 theorised). Coalitions [A19] cannot bind every placer, and members say so [P21], mostly after an agreement [A21].
 - **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17].
@@ -58,15 +58,14 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 ## The reasons for the last revisions
 
 - **Move 176 (D3a-27, developing working hypotheses).** A21 stands, bounded to the stated limit and the refusal; requests for a leader precede agreements.
-- **Move 175 (D3a-26, developing working hypotheses).** P21 stands; its frame reads 'dispute, or state the limits of'.
-- **Move 174 (D3a-06, developing working hypotheses).** P22 stands; its range names one member correcting a claim.
+- **Moves 174 and 175 (D3a-06, D3a-26, developing working hypotheses).** P22's range names one member correcting a claim; P21's frame reads 'dispute, or state the limits of'.
 - **J, 15 October, 01:29 Berlin:** work after hour 73 curates the record (P12, P22), apart from carrying on (P13).
 
 ## Where the run stands
 
 - **D3a outputs:**
-  - `adjudications.jsonl`: 23,334 lines ruled, 24,091 with re-rulings;
-  - the stage's notes: G1 to G32 (G20, G21, G23, G25 amended once each), G13a, G4a (three amendments) and the field's entries.
+  - `adjudications.jsonl`: 23,980 lines ruled, 24,737 with re-rulings;
+  - the stage's notes: G1 to G33 (G20, G21, G23, G25, G33 amended once each), G13a, G4a (three amendments) and the field's entries.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
 - **Ledgers (lines):** tier history 561; model history 150; findings 37 (23 findings); elements 30 (25 standing, 5 candidates); arrows 21.
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
@@ -87,8 +86,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 ## Stage C1, in short (carry the rulings)
 
 - **QC1-001 (J).** C1 rechecks place each item by the amended gates over the whole scheme.
-- **QC1-002 (J).** Lean to one placement. A second theme needs three concepts or more of its own; J's floor is three concepts.
-- **QC1-003 (the handler, under J's delegation).** Five revision-rate errors stay in `out/_analysis/c1_unapplied.jsonl`; all 34 count.
+- **QC1-002 (J).** Lean to one placement; a second theme needs three concepts of its own (J's floor).
+- **QC1-003 (the handler, for J).** Five revision-rate errors stay in `out/_analysis/c1_unapplied.jsonl`; all 34 count.
 - **Reading rules (`scheme_v2.md`).**
   - A theme names an act in the record of the room whose threads hold the words (the visitor rule).
   - "The work" is the room's own unless a field names another's.
@@ -126,12 +125,13 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-27**, to weigh after order tests:
+- **From D3a-02 to D3a-28**, to weigh after order tests:
   - C01's: decided order's reach (3, beside A19); contests over where the room decides (5);
   - P13's: keeping begun while building; routes in from help, marking or loss; a possible loop;
   - P20's: the line crossed; the clock shaping it; removals sending talk elsewhere; canvas-born rooms;
   - P17's: prior ties and colour faiths choosing allies (C02); P21's four forms;
-  - P15's: its edge with P11 and P03; joins waiting on a visible start (A02);
+  - P15's: its edge with P11 and P03; joins waiting on a visible start (criticalrole);
+  - A02's joint openings, failed by C2's test (D3c);
   - P09's: what precedes the attack (13) and what picks its target (9, C02); P18's: what opens the contest (6, A18);
   - P10's and K02's (A10, F-019): copies before a loss; doubt before a move or a smaller design; giving up after doubt;
   - P19's form (9; 5 allied host ties); A04's bound (21); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4; kin ties, 3);
@@ -183,4 +183,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The unruled groups (the other arrows, the candidates, the dimension lines), by G1 to G32 with G13a and G4a; then the `propose` lines. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The unruled groups (the other arrows, the candidates, the dimension lines), by G1 to G33 with G13a and G4a; then the `propose` lines. The split rooms and the 19 story-miss rooms wait for the verdicts leg.

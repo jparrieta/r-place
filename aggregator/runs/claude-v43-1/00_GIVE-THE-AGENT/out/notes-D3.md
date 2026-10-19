@@ -600,6 +600,34 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Whose agreement.** The agreement must bind the room or the room it deals with. A third room's truce invoked in a request (pepe: AFIP's truce) leaves the limit answering a request, not an agreement.
   - **Visitors.** As G31: a visitor's own limit after an agreement is the visitor's room's (aggies, aoe2, malta, cowchop), unless the room's members answer with it (littlewitchacademia, tagpro).
   - **Draws.** The draw at verb offset 607 held all 37 instantiate lines, as G32 expected.
+- **G33 (logged at D3a-28, before any of A02's lines was read or ruled).** A02 is a standing arrow from C2, R01 → P01, of kind order. Its connection reads: 'in a room carrying both, the first proposal or start of a mark comes before the first call for hands'. Its mechanism: 'A member who proposes or begins a mark gives the room something to answer, and calls for hands gather around it.' It fails if 'calls in a room come only before any proposal or start, or a proposal draws no call'. Its bound: 'Where the room calls for hands before anyone proposes what to make, the proposal answers the call instead.' C2 counted it in 64 of 89 rooms carrying both (0.719; null mean 0.473, p95 0.539). R01 is read as move 172 left it: the starter proposes, maps or begins the mark, and others joining is not part of the role (G1a's claims of having started count). P01 is read as at D3a-02: the room calls its own members, or kindred subs, to place for a work, to start, build, finish or hold it (a call to defend is P01's hold form, G11).
+
+  A02 is not stated as universal; it claims an order counted inside each room. So its absent lines are never corrections. G2 and G3 rule them:
+  - an `observed-absent` or `not-needed` line is a specification where the concepts show a start with no call, a call with no start, neither, the bound's reverse order, or a joint opening (below);
+  - a concept that shows a start and, after it, a call for hands for that mark makes the claim of absence fail (reject);
+  - `unobserved` and `not-testable` lines are evidence limits.
+
+  An instantiate line shows A02 when its concepts show a member proposing, mapping or beginning the mark and, after it, the room calling for hands for that mark. The order is read from the concepts' hours (`cite.py`), the transitions, or a call that names a proposal or a start already made. It is rejected when:
+  - the first call comes before any proposal or start (the bound's pattern, counted in the census as the bound);
+  - the start and the call are one post, a joint opening, with no later call gathering around the mark: the order cannot be shown, and the census counts the joint opening apart;
+  - only one end is shown;
+  - the start or the call is a visitor's room's own and the room's members do not take it up (the visitor rule).
+
+  A restrict or contradict line is ruled by G9, read for an arrow, as under G32. A restriction whose condition the connection, the mechanism or the bound already holds is a specification. That covers a call before any proposal (the bound), and a start and call in one post (the connection already requires 'before'). A correction states a condition that A02 and its bound lack and shows the order failing without it. Two accepted corrections with one target and one lifted node at the third or fourth level trigger §2.
+
+  **G33's amendment (D3a-28, 19 October, logged after the instantiate lines were ruled and the restrict lines read, before any restrict line was ruled; applies to A02's restrict lines and forward, not backwards, since no line was ruled under the sentence it reads).** G33 says that a restriction held by the connection, the mechanism or the bound 'is a specification'. G33 rules restrictions by G9, and G9 reclassifies such a line by its concepts. So: a restriction whose condition the connection, mechanism or bound holds is not a correction. It is a specification where its concepts show the order, a joint opening with a later call around the mark, or the bound's pattern. It is an evidence limit (kind `none`) where they show only a joint opening. The reason is G33's own instantiate rule: a lone joint opening does not show the order. Nor does it meet A02's `mechanism_fails_if` ('calls come only before any proposal or start, or a proposal draws no call'). A joint opening therefore neither holds nor fails the order, and the census counts it apart. A restriction whose concepts show a start drawing helpers with no call meets that falsifier, and G9 rules it as a correction.
+
+  The order test is written and logged before it runs: the census of the rulings by room (the order, the bound, joint openings, one end only), beside C2's count. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are R01, P01, P15 (joining as the answer to a call), P02 (settling what the mark shows), P04 (layouts), A01 (calls before building), A12 (pledges answering calls) and F-021 (a work up after the first call). Candidates hold no line (R02, P06, P19, K03, K04). Draws follow G1b: one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset, which the first draw's header confirms.
+
+  **G33's readings, stated while ruling (D3a-28).** They read G33 and its amendment and change no ruling rule.
+  - **Starts in words.** A start told in the present tense is a start under way ("I'm making a she slime", dragonquest). A start announced for later is a joint opening ("Let's start an English flag", england; "i'm gonna start building", pcmasterrace; 'I will start with the top left pixel', coldplay). So is an instruction given with the call ('Jag börjar med en blå plupp och sen följer ni efter', sweden).
+  - **Questions.** A proposal put to the room as a question is a joint opening ("Let's do a Cubs logo on r/place Who's in?", chicubs), as G10 read a call that names its picture.
+  - **Defence calls.** A call to defend or repair a mark is P01's hold form. It shows the order when a member's start comes before it, or when the record credits a starter of that mark (bulgaria, apocalypserising, Peru, SwissNeutralityZone).
+  - **Existing marks.** A call for a mark already on the canvas shows the order only where the record shows a member's start or credits a starter. Otherwise it stays a limit (DatBoi, DevonUK, AMD, buffalo, glasgow, hatsune, genderfluid, kilian, zelda).
+  - **Different marks.** A start and a call for different marks do not show the order (ChronoTrigger, cirkeltrek, edmontonoilers, harrypotter, placehearts).
+  - **Late or disputed claims.** A start claimed only after a call that names no existing mark does not show the order ('I started all this! No joke!' at h+26.14, after a call at h+2.66, EraseThePlace). Nor does a start that members dispute (afip).
+  - **A successor canvas** is not this canvas (TransFlagPlace, kirby).
+  - **Draws.** The draws at verb offsets 298, 398 and 498 held all 215 instantiate lines (100, 100 and 15). In the 30 lines drawn, every labeler's account agrees with its quotes.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -3077,4 +3105,57 @@ A21 is the field's tentative arrow from C4a, P08 → P21, of kind order. Its con
 - **The ledger** holds 24,091 lines: 708 first rulings and 1 re-ruling from this leg. Appended re-rulings rise from 756 to 757.
 - **Pairs.** All 36 pairs in A21's files name a ruled A21 line (`d3_pair_check.py`). Across the ledger, 1,235 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 150 lines (nine from move 176), elements 30, arrows 21, findings 37 and tier history 561. The arrows hash is ff0b3963…; the elements hash is unchanged (47ff7a11…).
+- **Questions.** None is open.
+
+## D3a-28: A02, the start before the call
+
+A02 is a standing arrow from C2, R01 → P01, of kind order. Its connection reads: 'in a room carrying both, the first proposal or start of a mark comes before the first call for hands'. It is the first link of the account's spine. C2 counted it in 64 of 89 rooms carrying both (0.719; null mean 0.473, p95 0.539), with 25 rooms in the bound's order. G33 was written before any line was read. Its amendment was written before any restrict line was ruled, and its readings are written under it (above). All 646 lines, in 645 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_a02_census.py` and `d3_pair_check.py`.
+
+| op | lines | specification | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|
+| instantiate | 215 | 140 | 0 | 0 | 0 | 75 |
+| absent (252 `not-testable`, 23 `unobserved`) | 275 | 0 | 0 | 211 | 0 | 64 |
+| restrict | 134 | 55 | 0 | 77 | 2 | 0 |
+| add-condition | 17 | 17 | 0 | 0 | 0 | 0 |
+| add-step | 5 | 5 | 0 | 0 | 0 | 0 |
+| all | 646 | 217 | 0 | 288 | 2 | 139 |
+
+**What the rooms show (the census, `d3_a02_census.py`).** Its rules were logged before it ran. Each line keeps the class it was ruled under, and the helper checks every class against the decision written.
+- **The order, 191 rooms.** A member starts or proposes the mark, and a call for that mark comes after it ('I've started the upper rays at 824,913', NewMexico; 'a pineapple construction has begun at (842, 230) ... Come out and help', trees; 'Trying to get a small UVA logo going' at h+47.81, then 'Unfinished, but help is welcome' at h+55.25, uva).
+- **A joint opening with a later call, 65 rooms.** The first post proposes the mark and calls for hands, and a later call gathers around the mark (monstercat, timbers, chelseafc). G33 accepts this as the mechanism shown.
+- **The bound, 12 rooms.** A bare call that names no mark comes before the proposal ('Hey, do you guys wanna coordinate to create something on r/place?' at h+39.92, then 'I'm getting started right now. Join me' at h+47.31, 49ers). The others are 4chan, androidgaming, chicago, gorillaz, kuwait, nerf, newzealand, stevenuniverse, titanfall, unitedkingdom and yugioh.
+- **The falsifier, 1 room.** criticalrole: 'I started that on my own, apparently people understood what I was going for fairly quickly and we managed to get it done' (h+74.42). A start drew helpers by sight, with no call.
+- No room shows both the hold and the bound. So 269 rooms show an episode. The hold (the order or a joint opening with a later call) is shown in 256 of them (0.952). The order alone is shown in 191 of the 204 rooms with the order, the bound or the falsifier (0.936). The helper also prints 191 of 269 (0.710), a figure that counts the 65 joint-opening rooms against the order; it is not used.
+
+**The joint opening.** The commonest form the labelers name is the joint opening: one post proposes the mark and calls for hands ('let's draw a monokuma on r/place', danganronpa). 157 rooms show only a lone joint opening. With the 65 rooms where a later call follows, 222 rooms show the start and the call in one post. All 22 add lines name it. A lone joint opening neither holds A02's order nor meets its `mechanism_fails_if`, so the census counts it apart (G33's amendment). The add lines are specifications naming R01 and P01, whose statements one post shows at once.
+
+**Beside C2's count.** C2 compared each room's first coded concepts, and found the bound's order in 25 of 89 rooms. The read lines show the bound in 12 rooms. The two counts differ in kind. The first-concept test counts the order only when the first start concept comes strictly before the first call concept (`c2_arrow_evidence.py`, line 56: `min(hf) < min(ht)`). In a joint opening, both concepts can come from one post at one hour, and the test then counts the room as failing. So C2's 25 rooms can hold joint openings as well as the bound. The census reads what the lines show, and sets the joint opening apart. No ruling rests on the difference.
+
+**No correction (§2).** No restrict line is an accepted correction, so §2 is not triggered. A02 stands as served, with no move. Of the 134 restrict lines, 55 are specifications: the order (31), a joint opening with a later call (20) and the bound (4). 77 are evidence limits, because their concepts show only a joint opening ('Let's start an English flag', england). One restriction meets the falsifier (criticalrole-034). No second room's line meets it, so it is this room's particular (G4 and G5). It sits beside P15's carried family of joins that wait on a visible start. marvel-039 is NONPORTABLE ('shield'), a particular (G6).
+
+**What the instantiate rejects show (75).** A lone joint opening, 60. The bound, 8 (49ers, 4chan, gorillaz, kuwait, newzealand, titanfall, unitedkingdom, yugioh). One end only, 4. Other, 3: a successor canvas (kirby), credits after the close (ireland) and a call to help another room's hearts (wholesomememes).
+
+**Absent lines.** No line is evidenced, and none is NONPORTABLE. 64 claims of absence fail because the concepts show the order, or a joint opening followed by a later call (23, 19 and 22 by packet). Many labelers marked these not-testable because no causal link is stated; G33 asks for the order, which the concepts show. The other 211 are evidence limits. A guard listed four limits whose labels name a start, for a second look. Three stayed limits (EraseThePlace, afip, mylittlepony). One moved: SwissNeutralityZone-041 ('We need more pixels !!!' at h+21.09, a call to defend and repair the zone; 'I put the first pixels' at h+74.48, a credited starter), read as bulgaria-043 was.
+
+**Repairs (G7).** Lines in repaired rooms were 0.783 accepted (355 lines), and in unrepaired rooms 0.780 (291 lines). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **The spine line.** The account says 'The room's calls follow the start in 64 of 89 rooms'. D3c's re-read weighs it beside the census and the joint opening, and D4 takes the joint opening as a form.
+- **Joins by sight.** criticalrole's start drew helpers with no call. It goes with P15's carried family of joins that wait on a visible start.
+- **The bound's 12 rooms** stay under A02's bound, which already names them. D3c's re-read asks how many of C2's 25 failing rooms are joint openings.
+- **The re-check (§5).** A02 is not rewritten, so it adds no room to the re-check.
+
+**Disclosed limits and slips.**
+- **A superseded instantiate build.** A quote check showed that sweden-036's label hid an instruction given with the call. I moved it from the order to a joint opening and rebuilt the rulings as `A02-inst-v2.jsonl`. `A02-inst.jsonl` stays, unused. The same check moved two restrict lines read from labels only (uoft-005, portal-008) to joint openings before they were written.
+- **A superseded absent build.** SwissNeutralityZone-041 was kept as a limit in the first absent packet and moved by the guard. The rulings were rebuilt as `A02-absent-v2.jsonl`. `A02-absent.jsonl` stays, unused; the helper ran into it twice with the same arguments, and the second run rewrote the same content.
+- **Order of writing.** The absent map was written before the diary note for the last absent packet. The note names every reject.
+- **Compaction.** The context was compacted while the absent lines were ruled. The head was read and reconciled with the diary before the next write.
+- **Quotes read.** Instantiate about 70 beyond the draws; restrict 29; absent 40 (17, 10 and 6 by packet, and 7 for the guard).
+
+### Close-check, D3a-28
+
+`validate.py D3` reports 23,980 of 42,243 ledger lines ruled: the 23,334 before this leg and A02's 646. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 24,737 lines: 646 first rulings from this leg and no re-ruling. Appended re-rulings stay at 757.
+- **Pairs.** A02's files hold no pair (`d3_pair_check.py`). Across the ledger, 1,235 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 150 lines, elements 30, arrows 21, findings 37 and tier history 561. Both hashes are unchanged (elements 47ff7a11…, arrows ff0b3963…).
 - **Questions.** None is open.

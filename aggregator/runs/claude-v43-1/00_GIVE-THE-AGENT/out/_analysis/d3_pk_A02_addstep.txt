@@ -1,0 +1,27 @@
+A02: 5 lines in all (op add-step); packet [0, 5): 5 lines; carried through no third-order tier
+ops in the packet: {'add-step': 5}
+
+== foxes-040  add-step  [pending]  repairs 1  not carried
+   source t01 (getting a fox started together); lift foxes:t01 > T3-002 > T4-005 > D01
+   how: Proposing the mark and calling for helpers can occur in the same opening turn rather than separate stages.
+   codes: c0001 asking who wants to draw a pixel fox; c0002 saying the fox takes more than one person and offering a simple design
+
+== nascar-039  add-step  [pending]  repairs 1  not carried
+   source t08 (writing and defending NASCAR letter by letter); lift nascar:t08 > T3-005 > T4-013 > D03
+   how: Starting the mark and asking others to join are combined within one turn rather than observed as separate successive decisions.
+   codes: c0111 asking others to help write NASCAR around (660,945)
+
+== qotsa-045  add-step  [pending]  repairs 0  not carried
+   source t02 (trying to give QOTSA a place on the canvas); lift qotsa:t02 > T3-033 > T4-006 > D02
+   how: Starting and calling occur in the same collective proposal rather than requiring a separately observed starter phase before recruitment.
+   codes: c0007 asking to do a Queens logo like every other music sub
+
+== ravens-003  add-step  [pending]  repairs 1  not carried
+   source t01 (calling people over to make or defend a Ravens mark); lift ravens:t01 > T3-002 > T4-005 > D01
+   how: Starting and calling for helpers can occur together in one turn rather than as separate phases.
+   codes: c0029 starting a design on the Sweden flag and inviting others; c0037 giving coordinates and asking for help with a ravens logo
+
+== xenoblade_chronicles-007  add-step  [pending]  repairs 1  not carried
+   source t02 (laying out what to build and where each pixel goes); lift xenoblade_chronicles:t02 > T3-038 > T4-007 > D02
+   how: Starting and calling can be combined in one organising post rather than appearing as separately timed actions.
+   codes: c0012 announcing that they are making a Monado; c0013 setting the hilt coordinates and building right

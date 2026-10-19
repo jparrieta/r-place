@@ -1,0 +1,175 @@
+A02: 134 lines in all (op restrict); packet [100, 134): 34 lines; carried through no third-order tier
+ops in the packet: {'restrict': 34}
+
+== romania-006  restrict  [pending]  repairs 1  not carried
+   source t01 (calling Roddit to make the Romanian flag); lift romania:t01 > T3-065 > T4-006 > D02
+   how: The initiating proposal already calls for hands, so starting and recruitment need not be separate observable stages.
+   codes: c0001 calling on Roddit to make Romania's flag on r/place
+
+== roosterteeth-012  restrict  [pending]  repairs 0  not carried
+   source t01 (calling people over to build RT-family art); lift roosterteeth:t01 > T3-002 > T4-005 > D01
+   how: Starting and recruiting overlap within proposals here rather than demonstrating a distinct starter-to-call causal stage.
+   codes: c0001 proposing RT and AH corners; c0016 calling everyone to put RT, AH, FH, and GA up there; c0017 inviting others to help with an already-started design
+
+== rush-009  restrict  [pending]  repairs 1  not carried
+   source t03 (trying again to fit 2112 or the Starman onto the canvas); lift rush:t03 > T3-033 > T4-006 > D02
+   how: The opening question simultaneously proposes the mark and calls for hands rather than demonstrating two successive stages
+   codes: c0024 asking to draw the 2112 Starman on r/place
+
+== rutgers-005  restrict  [pending]  repairs 0  not carried
+   source t03 (calling Rutgers onto the canvas); lift rutgers:t03 > T3-002 > T4-005 > D01
+   how: The starter and recruiting call are present in the same proposal, so a separate starter-then-call sequence is not established here.
+   codes: c0020 asking whether the room is down to put an R on the place map; c0022 crediting the R design, fixing coordinates, and telling everyone to get painting
+
+== sabres-044  restrict  [pending]  repairs 0  not carried
+   source t02 (joining in and getting Buffalo marks built); lift sabres:t02 > T3-002 > T4-005 > D01
+   how: A proposal and recruitment can be the same act, so the starter role need not temporally precede the call as a separate cause.
+   codes: c0002 asking people to make a small Sabres logo on place
+
+== scp-013  restrict  [pending]  repairs 1  not carried
+   source t01 (working out what to put where on r/place); lift scp:t01 > T3-020 > T4-014 > D04
+   how: A starter's proposal can itself be the call for hands, so the two need not occur as separate stages.
+   codes: c0001 proposing an SCP logo and asking how and where to make it
+
+== singapore-006  restrict  [pending]  repairs 0  not carried
+   source t02 (calling people to put up a Singapore flag); lift singapore:t02 > T3-065 > T4-006 > D02
+   how: Starting and recruiting can occur in the same proposal, so a separate starter-then-call sequence must not be inferred from these concepts.
+   codes: c0009 calling everyone to make an sg flag on r/place; c0051 calling for an SG flag in r/place
+
+== sips-038  restrict  [pending]  repairs 0  not carried
+   source t02 (putting Sips pictures and words on the canvas); lift sips:t02 > T3-033 > T4-006 > D02
+   how: Starting and calling occur together in proposals, leaving a separate starter-causes-recruitment sequence unestablished.
+   codes: c0026 calling for a Spacemen Sips drawing in r/place; c0062 calling the bois to stop fucking around and do this
+
+== spain-031  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying to build and defend a Spanish place); lift spain:t01 > T3-065 > T4-006 > D02
+   how: Starting and calling are combined in the opening proposal rather than observed as two distinct successive acts.
+   codes: c0001 starting a Spanish flag with no shield; c0002 volunteering to help
+   transitions: 62se13:0>1
+
+== starcitizen-046  restrict  [pending]  repairs 1  not carried
+   source t07 (Proposing Star Citizen marks while commenters hedge or divert); lift starcitizen:t07 > T3-033 > T4-006 > D02
+   how: A starter gives others a project to answer but a conditional promise does not establish that helpers actually arrived.
+   codes: c0180 announcing a r/starcitizen banner at 571-457; c0181 promising to follow if someone makes the first letter on blank space; c0195 wanting one person to finish the first letter and create something as a community
+   transitions: 62ydw9:0>1
+
+== starcraft-006  restrict  [pending]  repairs 0  not carried
+   source t06 (rallying helpers around one plan and its coordinates); lift starcraft:t06 > T3-002 > T4-005 > D01
+   how: A proposal and its call for helpers can occupy the same post rather than forming two separately observable sequential stages.
+   codes: c0048 proposing Jim Raynor for r/place; c0049 rallying people to make it
+
+== stardewvalley-049  restrict  [pending]  repairs 1  not carried
+   source t01 (choosing small Stardew things to put on the canvas); lift stardewvalley:t01 > T3-033 > T4-006 > D02
+   how: The starter's proposal and recruitment call can occupy one turn rather than form an observed temporal succession.
+   codes: c0055 asking for help making the sleeping chicken at coordinates
+
+== stevenuniverse-005  restrict  [pending]  repairs 1  not carried
+   source t01 (Making and reshaping Steven Universe art on the canvas); lift stevenuniverse:t01 > T3-033 > T4-006 > D02
+   how: Starting and recruitment can occupy the same proposal rather than forming separate chronological stages.
+   codes: c0001 calling for SU work in Place; c0093 recruiting help to construct a Peridot
+
+== stlouisblues-005  restrict  [pending]  repairs 0  not carried
+   source t01 (building and relocating the Blue Note from one shared plan); lift stlouisblues:t01 > T3-091 > T4-008 > D02
+   how: Starting and calling coincide in the initial proposal rather than appearing as separately timed stages.
+   codes: c0001 calling to create a Blue Note on r/place; c0002 hopping on early to make their mark with a Blue Note
+
+== switzerland-036  restrict  [pending]  repairs 0  not carried
+   source t01 (claiming and rebuilding Swiss places on the canvas); lift switzerland:t01 > T3-065 > T4-006 > D02
+   how: Allow proposing the initial place and calling for hands to occur in the same utterance rather than requiring a later recruitment stage.
+   codes: c0001 claiming space for a Swiss flag at 510, 70; c0002 starting with a 5x5 flag and extending it to 6x6
+
+== swordartonline-032  restrict  [pending]  repairs 1  not carried
+   source t04 (starting an Elucidator and asking others to help); lift swordartonline:t04 > T3-038 > T4-007 > D02
+   how: Starting and recruiting occur within one turn, so the local record supports their combination rather than an independently observed temporal arrow.
+   codes: c0008 starting the tip of Elucidator at 885, 975 and asking for help
+
+== teslamotors-006  restrict  [pending]  repairs 0  not carried
+   source t06 (calling people into the Tesla logo work); lift teslamotors:t06 > T3-002 > T4-005 > D01
+   how: The first proposal precedes recruitment within its thread, but does not establish that this starter caused the separate later working thread.
+   codes: c0046 calling for a Tesla logo to happen; c0056 calling named regulars into the Friday-night pixel work; c0127 recruiting helpers and asking them to spread the word
+
+== the_pack-010  restrict  [pending]  repairs 0  not carried
+   source t01 (putting the Pack onto the canvas together); lift the_pack:t01 > T3-002 > T4-005 > D01
+   how: Starting an addition and recruiting helpers can occur within one passage, so separate ordered phases and subsequent uptake cannot be inferred here.
+   codes: c0006 starting a flaming skull beside THE_PACK and asking brothers to finish it
+
+== traaaaaaannnnnnnnnns-043  restrict  [pending]  repairs 0  not carried
+   source t01 (building, extending, and joining the trans flag); lift traaaaaaannnnnnnnnns:t01 > T3-002 > T4-005 > D01
+   how: Starting and asking for hands occur in one contribution-level turn, so the local sequence need not separate starter activity from recruitment.
+   codes: c0004 starting to write 'Trans lives matter' and asking for help
+
+== transformers-037  restrict  [pending]  repairs 0  not carried
+   source t02 (calling people in and pitching into symbol work); lift transformers:t02 > T3-002 > T4-005 > D01
+   how: Starting and calling for help share one passage here, so their co-occurrence supports no separate temporal step between them.
+   codes: c0007 starting an Autobot insignia in the red blob and asking for help
+
+== turkey-047  restrict  [pending]  repairs 0  not carried
+   source t03 (building red first and working out the crescent, star, and pixel order); lift turkey:t03 > T3-065 > T4-006 > D02
+   how: A single starter cannot explain all mobilisation because a replying member says they were already placing red before the preceding coordinate announcement.
+   codes: c0005 working outward from a red corner at 656,93; c0006 saying they were already placing red there
+   transitions: 62njwn:3>3.1
+
+== twentyonepilots-008  restrict  [pending]  repairs 1  not carried
+   source t02 (calling the clique to put TØP on r/place); lift twentyonepilots:t02 > T3-002 > T4-005 > D01
+   how: Starting and asking for contributors occur in the same turn rather than necessarily forming separate ordered stages.
+   codes: c0027 calling people to contribute to black lines for the bottom-left logo
+
+== twitchplayspokemon-008  restrict  [pending]  repairs 0  not carried
+   source t08 (trying to rebuild Dome before place locked); lift twitchplayspokemon:t08 > T3-022 > T4-014 > D04
+   how: Explains calls embedded in the initial proposal and renewed by progress reports rather than requiring a distinct starter stage before recruitment.
+   codes: c0234 scouting weak space and local buffers for a new Dome; c0235 calling for TPP's own stamp on r/place; c0236 starting the build at 987, 807 while offering to switch; c0240 showing progress and inviting others to join
+
+== undertale-004  restrict  [pending]  repairs 0  not carried
+   source t04 (placing, fixing, and maintaining the figures); lift undertale:t04 > T3-021 > T4-013 > D03
+   how: Starting and recruiting can occur in one utterance, so the record need not expose a separate starter stage before calls.
+   codes: c0059 starting Flowey from the bottom of the stem; c0009 asking for help while someone messes with Papyrus
+
+== uoft-005  restrict  [pending]  repairs 0  not carried
+   source t04 (trying to get U of T onto r/place); lift uoft:t04 > T3-002 > T4-005 > D01
+   how: Starting and calling may occur in one proposal rather than forming separately observed stages or establishing a leader whom everyone follows.
+   codes: c0074 starting r/uoft at 294,150 and inviting help
+
+== utahjazz-005  restrict  [pending]  repairs 0  not carried
+   source t02 (rallying enough people to build); lift utahjazz:t02 > T3-002 > T4-005 > D01
+   how: The starter's proposal already calls for hands, so separate temporal stages are not established.
+   codes: c0001 banding together to place a Jazz logo near the Blazers logo
+
+== utaustin-010  restrict  [pending]  repairs 0  not carried
+   source t01 (finding and reshaping places for a Longhorn); lift utaustin:t01 > T3-020 > T4-014 > D04
+   how: The starter's proposal and recruiting call can be the same turn rather than a demonstrated causal sequence between separate stages.
+   codes: c0001 calling to build a Longhorn on r/place; c0002 giving ideal coordinates and saying to start from the middle
+
+== uwaterloo-004  restrict  [pending]  repairs 1  not carried
+   source t01 (starting and shaping Waterloo's marks); lift uwaterloo:t01 > T3-004 > T4-006 > D02
+   how: The starter reports progress and recruits in the same turn, so a separate start followed by a later call is not established.
+   codes: c0002 calling warriors to make a glorious goose at (896,146)
+
+== vegan-034  restrict  [pending]  repairs 2  not carried
+   source t01 (imagining a vegan mark for the canvas); lift vegan:t01 > T3-033 > T4-006 > D02
+   how: Proposing the mark and calling others are combined in one opening turn rather than independently ordered stages
+   codes: c0012 calling people over to r/place to leave a sprouting-v mark; c0013 locating the mark beside the Star Wars text and below the CS:GO logo
+
+== wallstreetbets-003  restrict  [pending]  repairs 1  not carried
+   source t01 (calling to put WSB and its tickers on the map); lift wallstreetbets:t01 > T3-033 > T4-006 > D02
+   how: The initial proposal and call coincide, while later overnight recruitment provides a distinct renewal rather than evidence of two separate initial stages.
+   codes: c0072 calling to get fuckboy onto r/place; c0079 asking people to run the script overnight to chip in
+
+== warframe-032  restrict  [pending]  repairs 1  not carried
+   source t07 (building, relocating, and defending Warframe marks together); lift warframe:t07 > T3-038 > T4-007 > D02
+   how: Starting and recruiting occur in the same proposal, so the record does not establish a separate preceding leadership stage.
+   codes: c0077 calling Tenno to leave a Warframe mark on r/place; c0122 calling for help building the Warframe symbol at r/place; c0123 prioritizing blue pixels so observers can see a design
+
+== worldoftanks-005  restrict  [pending]  repairs 0  not carried
+   source t06 (calling people to start and shape a TOG); lift worldoftanks:t06 > T3-038 > T4-007 > D02
+   how: Starting and calling can be one proposal rather than a demonstrated sequence in which a separate call follows a starter.
+   codes: c0090 claiming a spot on /r/place and organizing in comments; c0092 starting the tank at (126, 99)
+
+== yogscast-006  restrict  [pending]  repairs 1  not carried
+   source t01 (building more Honeydew faces and subreddit marks); lift yogscast:t01 > T3-041 > T4-006 > D02
+   how: Starting and calling coincide in the opening proposal, so this case does not establish a separate starter stage preceding recruitment.
+   codes: c0001 calling on combined forces to draw something in r/place
+
+== zootopia-003  restrict  [pending]  repairs 0  not carried
+   source t02 (getting Predditors onto one pixel-art job); lift zootopia:t02 > T3-015 > T4-002 > D06
+   how: The invitation combines proposing and recruiting rather than demonstrating two separate sequential acts.
+   codes: c0005 telling Predditors to place a coloured tile every 10 minutes; c0006 getting everyone to focus on the same place
