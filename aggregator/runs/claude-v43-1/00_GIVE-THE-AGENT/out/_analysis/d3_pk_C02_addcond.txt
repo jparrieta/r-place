@@ -1,0 +1,23 @@
+C02: 4 lines in all (op add-condition); packet [0, 4): 4 lines; carried through T3-006,T3-031,T3-050,T3-058,T3-061,T3-068,T3-078,T3-079,T3-081,T3-085,T3-086,T3-128,T3-130,T3-134,T3-135,T3-142,T3-145,T3-154,T3-155,T3-165,T3-166,T3-176,T3-178,T3-179,T3-180,T3-192
+ops in the packet: {'add-condition': 4}
+
+== bostonbruins-031  add-condition  [pending]  repairs 0  carried
+   source t11 (holding back attacks because hockey is family); lift bostonbruins:t11 > T3-076 > T4-015 > D04
+   how: Which affiliation is invoked matters because wider hockey belonging can support repairing rivals and refusing attacks.
+   codes: c0121 refusing to attack because hockey is family; c0129 repairing rival pixels because r/place is hockey versus all else; c0167 removing griefers for the good of hockey
+
+== clg-042  add-condition  [pending]  repairs 1  carried
+   source t06 (making, wrecking and arguing over FREESM and TSM marks); lift clg:t06 > T3-006 > T4-020 > D08
+   how: Naming a rival does not identify every attacker because one admitted saboteur identifies with another team and reports recruitment by a rival fan.
+   codes: c0040 admitting trying to mess up CLG all day; c0041 crediting CLG fanaticism for beating larger numbers; c0042 saying a TSM fan recruited a non-TSM saboteur
+   transitions: 62sufy:8.4>8.4.1, 62sufy:8.4.1>8.4.1.1
+
+== overwatch-055  add-condition  [pending]  repairs 0  carried
+   source t25 (proposing to overwrite another community’s canvas work); lift overwatch:t25 > T3-061 > T4-020 > D08
+   how: A game-specific grievance can justify one takeover proposal without establishing a previously shared feud of the entire room
+   codes: c1073 telling everyone to put the Overwatch logo over Counter-Strike
+
+== spain-061  add-condition  [pending]  repairs 1  carried
+   source t14 (crowning the croissant through Spanish-history jokes); lift spain:t14 > T3-031 > T4-004 > D05
+   how: Historical analogy in retrospective joking does not by itself establish that inherited rivalry selected the original target.
+   codes: c0110 accusing loulan of breaking his word about leaving the wine and its place; c0116 turning the collaboration image into an 1807 joke

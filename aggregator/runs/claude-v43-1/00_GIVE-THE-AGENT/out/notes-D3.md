@@ -518,6 +518,35 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Sanctions and entry rules.** A sanction shows C01 when it is decided against the room's own members over its canvas work or its order: vandalism, attack suggestions, speaking for the room, or a chat's security rule. An entry rule for the room's organizing venue (screening, entry by invitation) shows it too. The host's moderation of talk under its standing rules does not, and P20's removals and megathreads do not. Jokes of bans and ranks in play (K01) do not, and another room's sanctions do not. A sanction whose ground the record does not give is an evidence limit.
   - **The lower end.** It speaks of how the room is organized. Members say that it has no leader, no structure, no organization or no coordination, that it 'goes by itself', or that it should have organized and did not. Drawing without a template ('winging it from a gold pixel') speaks of the design, and does not show it. Permission to place anywhere does not, and talk of leaderless collective art in general does not. A call for a leader, alone, is a call.
   - **Restrictions.** Some restrictions state a condition that C01 never claimed: obedience, binding every placer, an appointment, or effective control. C01's statement holds them. A restriction saying that the record cannot show the order inside unseen chats is an evidence limit. A restriction that counts as decided order what G29 does not, or that denies what G29 counts, conflicts with G29 and is rejected.
+- **G30 (logged at D3a-25, before C02's lines were read or ruled).** C02 is a claim about some rooms, and it is untested for order. Its statement reads: 'In some rooms, a tie the room had before the canvas (a league or school rivalry, a nation's history, an ideology, lore) names the rival in the same turn that calls for or carries out the attack.' A line instantiates C02 when a concept shows one turn that holds two things, as F-013's checks did. A turn is one post with its title, or one comment.
+  - **An attack.** Members of the room call for, plan, claim or report an attack on another's work, by the moves P09 names (G20).
+  - **A rival named by a tie from before the canvas.** The turn names the tie: a league, conference or school rivalry, a war or event from the nation's history, an ideology, or a fandom's lore. Or the turn names as the target a group that the room's community was set against before the canvas, so that the act rests on the tie ('turning the Cubs logo completely red'; 'taking over "no step on snek" ancap flag'). For a nation or an ideology, the words must carry the tie: the history, the enmity or the creed. A neighbouring flag named only as a target is the canvas's rival.
+
+  The tie is the room's, as C02's statement reads since pass 11: members speak for their own community. Any hour of the event counts. An attack call made after hour 73 is talk about the canvas and an evidence limit, as G20 reads it.
+
+  C02 is not shown by:
+  - a rival made by the canvas (a neighbour, an attacker, the Void, a colour faction) named with no tie from before the canvas, which is F-013's `refuted_by` reading; such a line shows P09 or P18 alone;
+  - a tie and an attack in different turns, since the claim is one turn;
+  - a colour faction's faith naming its rivals (F-013's bound; K04's form, a candidate that holds no line);
+  - an old quarrel named with no attack in the turn (K03's form, a candidate), including a taunt at an old rival that covers no one's work, which is P18 alone;
+  - a visitor's attack call that names the visitor's own tie, which is the visitor's room's (G20's reading of visitors), unless members of the room join it;
+  - an attack that the room suffers from an old rival (P05's defence or P12's report), unless members call for or carry out an attack back in that turn.
+
+  C02 is not stated as universal: it speaks of some rooms. So its absent lines are never corrections. G2 and G3 rule them. An `observed-absent` or `not-needed` line is a specification where the concepts show the room's attacks or contests with no tie from before the canvas, or no attack at all, since C02 claims only some rooms. A concept that shows C02 makes the claim of absence fail. G9 rules restrict and contradict lines. A correction must state a condition that C02 lacks and show C02 failing without it. C02 claims no order and no share of rooms. So C02's untested status holds a restriction saying that the tie did not choose the rival, or that the rival was also the neighbour, where the rival is still one known before the canvas. Where the rival is only the canvas's, F-013's `refuted_by` holds the restriction, and the line shows no C02. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are:
+  - P09 and P18 (the attack, and the contest in talk); A15, A16, A17 and A18 (the call to the canvas before the attack call, and the attack before sparing, border talk and taunts);
+  - K01 (a call that may be a joke), P08 (terms), P17 (allies chosen by prior ties), P05, P20, P22 and C01.
+
+  Candidates and tentative entries hold no line: K03, K04, P06, P19, P21 and R02. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset (544, after 540 absent and 4 add-condition lines), which the first draw's header confirms.
+
+  **G30's readings, stated while ruling (D3a-25).** They read G30 and change no ruling rule.
+  - **The tie names the rival** when the target stands in the tie from before the canvas. The target may be a league, division, conference or school rival ('Lets destroy the celtics'; 'change usc to nd'; 'WIPE OUT ARIZONA ON r/place! B1G Only!'). It may be a nation that the room's history names: a war, a lost land, an occupation or a match (the Falklands, MH17, Transylvania, 'No Era Penal'). It may be an enemy of the room's creed (communists for ancaps, the_donald for anarchists), or a rival game, brand or fandom (League for Dota players, Monero for Bitcoin, Star Wars for Trekkies, Skyrim for Morrowind's fans). Naming such a target is enough. A reason given beside it, such as convenience or a canvas grievance, is held by C02's untested status.
+  - **Lore or history that only casts a canvas neighbour** leaves the rival the canvas's, as F-013's `refuted_by` reads. Examples: the Finns as less Viking, the Greeks as Factorio's biters, Tesla as Talos, a furry logo as Fenrir, Poland as the invader in AMD's borrowed joke, and Norway as the foe at a new San Jacinto.
+  - **The room's own tie.** The creed or politics must be the room's community's (r/anarchism, r/anarcho_capitalism, r/vegan, r/physical_removal). One member's own politics do not count (mylittlepony, furry). Borrowed labels do not count (dankmemes' Balkan memes, hentai's 7-1), and neither do the members' politics in a room made on the canvas (placesnek). A national room's crusade meme against Turkey is no tie of its own nation's (lithuania).
+  - **Nations.** The words must carry the tie. A national target named alone does not show C02, even an obvious old enemy ('to show them who is boss'; norway's call to destroy the Swedes; Korea's calls on Japan's flag, with the history only in other turns).
+  - **The attack.** Lettering aimed at a rival covers no one's work unless the rival's fans repair it (patriots). A joke wish, a contest named, a pun with no target, help to another room, defence of the room's work, and changes to the room's own work are not attacks.
+  - **Visitors** who call for attacks in the room's threads carry their own tie (chicubs' Cardinals fan, greece's Lithuanian visitor, osugame's Ohio State poster).
+  - **Kin ties.** A wider old tie can hold back an attack ('Hockey is family'; the kinship of Blizzard's games). C02's statement does not reach this, and the one add-condition line that names it is a particular.
+  - **Draws.** G30 named verb offset 544 for the first instantiate line. The first draw's header showed 99 instantiate lines there, so the lines start at 545, and the draws were taken at 545 and 645.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -2812,5 +2841,62 @@ The 8 pairs name ruled C01 lines, and none is left without its partner.
 `validate.py D3` reports 21,171 of 42,243 ledger lines ruled: the 20,394 before this leg and C01's 777. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 21,886 lines: 777 first rulings from this leg and no re-ruling. Appended re-rulings stay at 715.
 - **Pairs.** C01's files hold 8 pairs, none left without its partner (`d3_pair_check.py`). Across the ledger, 1,276 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-25: C02, the tie that names the rival
+
+C02 is a standing claim, untested for order. It is placed in T4-020, T4-021, T4-022 and T4-004, in dimensions D08 and D05. Its statement reads: 'In some rooms, a tie the room had before the canvas (a league or school rivalry, a nation's history, an ideology, lore) names the rival in the same turn that calls for or carries out the attack.' Its range runs from a team's colours turned on a league rival's logo to a war from the nation's history named as the reason to cover a neighbour's flag. F-013 holds it: 10 turns in 7 rooms, with colour factions as a boundary. No arrow touches it. G30 was written before any line was read, and its readings are written under it (above). All 715 lines, in 705 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_shown_rooms.py`, `d3_field_entry_counts.py`, `d3_pair_check.py` and `d3_reason_phrases.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 124 | 87 | 0 | 0 | 0 | 11 | 26 |
+| absent (341 `unobserved`, 196 `not-testable`, 2 `observed-absent`, 1 `not-needed`) | 540 | 3 | 0 | 0 | 494 | 18 | 25 |
+| restrict | 47 | 46 | 0 | 0 | 1 | 0 | 0 |
+| add-condition | 4 | 3 | 0 | 0 | 0 | 1 | 0 |
+| all | 715 | 139 | 0 | 0 | 495 | 30 | 51 |
+
+**Where C02 is shown.** Accepted instantiate lines show it in 87 rooms. In 25 more rooms, absent lines were rejected because the concepts show it. No room holds both, so C02 is shown in 112 rooms (`d3_shown_rooms.py`). The helper counts 152 rooms, but it also takes restrict and add specifications, which mostly state limits that C02 never claimed. F-013 read 10 turns in 7 rooms. C02 still speaks of some rooms, and it claims no share and no order. The count is a floor: 29 lines marked NONPORTABLE became particulars by G6, and their markers often name the rival or the target ('lakers', 'france', 'osu', 'quebec').
+
+**What the ties are.** These are rough counts by phrase in the specifications' reasons, and one reason can hold several: a league, division or conference 21, a nation's history 20, a school 11, a creed or ideology 9, and a game 7.
+
+**Restrict lines: no correction.** 46 of the 47 restrict lines are specifications. Each states a limit that C02 never claimed (the tie choosing the target, a cause, execution, a whole room's mandate, every clash), or a case that G30 already leaves out (lore laid on an opponent met on the canvas, defence and blame, taunts and lettering, a tie in another turn, borrowed labels, the room's own work). C02's untested status is named 7 times in these reasons, and F-013's `refuted_by` 7 times. One line is an evidence limit: the_pack-041, whose meme grievance with me_irl the record does not date.
+
+**No elaboration.** One add-condition line is a particular: bostonbruins-031 ('Nah, don't do it. Hockey is family'). A wider old tie holds back an attack and brings repair. No standing statement holds it, and no second C02 line meets it. It goes beside P07's family 'ties to the makers', with overwatch-054's Blizzard kinship and gatech-024's call to Georgia subs to set rivalries aside.
+
+**What the 51 rejects show.**
+- **Instantiate, 26.**
+  - Lore or history laid on a canvas neighbour or attacker (F-013's `refuted_by`), 9: AMD-036, AmericanFlaginPlace-047, FaroeIslands-024, factorio-038, italy-022, pokemon-021, satania-028, skyrim-028, smite-042.
+  - No tie of the room's own, 6: one member's politics (furry-043, mylittlepony-043), a visitor's tie (chicubs-041, greece-043, osugame-038), and a game taste claimed for a national room (sweden-024).
+  - A national target with no tie in the words, 1: india-022.
+  - No attack, 10: a joke wish (detroitredwings-021), a contest named (australia-027), a joke with no target (polska-040), taunts in lettering (predators-037, minnesotavikings-027, uoft-043), help to another room (neu-043), defence (onepunchman-042), and changes to the room's own work (spain-029, starvstheforcesofevil-039).
+- **Absent, 25.** The concepts show C02, so the claim of absence fails. The ties are rival schools or conferences (TheB1G-029, notredame-028, texastech-038, ubc-024, uwaterloo-037), rival games, brands, channels or fandoms (OnePiece-027, achievement_hunter-038, bitcoin-043, cloud9-023, elitedangerous-033, eve-026, leagueoflegends-025, linux-047, morrowind-038, muse-024, nintendo-029, startrek-036), history or faith (catholicism-042, crusaderkings-036, mexico-028, sakartvelo-031, theitalyplace-032, turkey-045, ukraine-028), and an old enmity of the board's (4chan-047).
+
+**Absent lines.** The 494 evidence limits are `unobserved` or `not-testable` lines. Their concepts show attacks on targets the canvas made, defence against old rivals, taunts and lettering, lore laid on neighbours, colour factions' creeds, and national calls whose words carry no tie. I read 60 quotes for candidates. A guard pattern listed 114 limits for a second look, and none moved. The three evidenced lines are specifications (columbia-044 and lost-023, `observed-absent`; paladins-050, `not-needed`).
+
+**Particulars, 30.** 29 are by G6 (NONPORTABLE), 11 of them instantiate lines. One is by G4a (bostonbruins-031).
+
+**No correction, so no §2 re-examination.** C02 stands as served, untested for order. No move was made, and F-013 is not re-examined.
+
+**Repairs (G7).** Lines in repaired rooms were 0.904 accepted (386 lines), and in unrepaired rooms 0.866 (329 lines). No ruling rests on the difference.
+
+**Every standing element is now ruled whole.** `d3_ruled_by_element.py` lists all 24 standing elements as ruled. The candidates (K04, P06, P19, K03, R02), the tentative P21, the arrows, the dimension lines and the `propose` lines remain unruled.
+
+**Carried to later groups.**
+- **The count.** C02 is shown in 112 rooms, against F-013's 7. The 11 instantiate particulars would add rooms. The count goes to the verdicts leg and D3c's re-read.
+- **Kin ties.** Ties that hold back attacks (bostonbruins, overwatch, gatech) go beside P07's 'ties to the makers'.
+- **C02's edges.** Colour factions (F-013's bound; K04, a candidate) and visitors' ties stay outside it. The order test it lacks stays open.
+
+**Disclosed limits and slips.**
+- **Draws.** G30 named verb offset 544. The first draw there held 99 instantiate lines, which showed that the lines start at 545. I kept `d3_draw_C02_544.txt` and `d3_draw_C02_644.txt` unread and drew again at 545 (100 lines) and 645 (24 lines). Every drawn how agreed with its quotes, so each packet was ruled from its labels, read whole, with quotes read for lines whose tie or attack the labels left open.
+- **A refused command.** At the opening, a `cut -c` after the quote helper was refused by the permission check. I ran the command again without it.
+- **Quotes read.** C02's own evidence 7, before G30; instantiate 45; restrict and add-condition 5; absent 60.
+- **The helper's room count.** `d3_field_entry_counts.py` counts specifications of every op as showing the element, so I report 112 rooms from `d3_shown_rooms.py`.
+
+### Close-check, D3a-25
+
+`validate.py D3` reports 21,886 of 42,243 ledger lines ruled: the 21,171 before this leg and C02's 715. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 22,601 lines: 715 first rulings from this leg and no re-ruling. Appended re-rulings stay at 715.
+- **Pairs.** C02's files hold no pairs (`d3_pair_check.py`). Across the ledger, 1,276 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.
