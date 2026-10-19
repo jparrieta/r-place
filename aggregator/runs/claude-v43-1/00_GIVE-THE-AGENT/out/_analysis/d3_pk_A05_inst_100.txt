@@ -1,0 +1,553 @@
+A05: 198 lines in all (op instantiate); packet [100, 198): 98 lines; carried through no third-order tier
+ops in the packet: {'instantiate': 98}
+
+== minecraft-032  instantiate  [pending]  repairs 1  not carried
+   source t09 (Negotiating room and alliances for Minecraft marks); lift minecraft:t09 > T3-035 > T4-014 > D04
+   how: A restraint appeal explicitly invokes agreements not to disturb established artwork as its warrant
+   codes: c0058 warning that interrupting other people's art is bad form and will be resisted; c0059 invoking agreements not to disturb established artwork
+
+== minnesotavikings-045  instantiate  [pending]  repairs 0  not carried
+   source t11 (making and breaking Packers truces around the number 4); lift minnesotavikings:t11 > T3-149 > T4-016 > D04
+   relation: r/GreenBayPackers
+   how: An explicit truce reminder receives an admission of newly learning it, a promise to stop attacking, and a thanking reply.
+   codes: c0196 enforcing mutual restraint under the truce; c0199 apologizing and stopping after learning of the truce; c0200 thanking the person who stopped attacking
+   transitions: 633611:2>2.1, 633611:2.1>2.1.1
+
+== mls-047  instantiate  [pending]  repairs 1  not carried
+   source t10 (Negotiating space and returning help to neighbors); lift mls:t10 > T3-010 > T4-016 > D04
+   how: Participants explicitly invoke prior border promises to explain why a desired white outline must be withheld.
+   codes: c0320 honouring the no-white-border agreement with VT brothers; c0358 honouring a promise not to put white there
+
+== monsterhunter-030  instantiate  [pending]  repairs 1  not carried
+   source t04 (working around neighbours and repairing art Rathalos displaced); lift monsterhunter:t04 > T3-010 > T4-016 > D04
+   how: A refusal explicitly invokes settled diplomacy as its reason not to clear the art.
+   codes: c0167 refusing to undo the settled diplomacy; c0168 incorporating Liquicity after running over its logo
+
+== morrowind-027  instantiate  [pending]  repairs 0  not carried
+   source t05 (making room with neighbouring drawings); lift morrowind:t05 > T3-010 > T4-016 > D04
+   how: The protective border request receives a conditional promise of restraint rather than evidence of room-wide compliance.
+   codes: c0105 requesting a black border to protect both drawings; c0107 promising not to mess with the neighbor's logo if Vivec's head is left alone
+   transitions: 6377g1:2>2.2
+
+== msu-026  instantiate  [pending]  repairs 0  not carried
+   source t08 (negotiating room with neighbouring designs); lift msu:t08 > T3-010 > T4-016 > D04
+   how: Conditional permission and the same speaker's relocation announcement support negotiated restraint without establishing universal compliance.
+   codes: c0031 trading GameCube room for help relocating MSU; c0036 relocating MSU so smashbros can finish its GameCube
+
+== muse-041  instantiate  [pending]  repairs 0  not carried
+   source t07 (making room with canvas neighbours); lift muse:t07 > T3-010 > T4-016 > D04
+   how: A neighbour's explicit refusal is directly answered as fair, supporting restraint through acknowledging the boundary in that exchange.
+   codes: c0124 refusing space in order to defend borders; c0125 accepting the neighbour's refusal
+   transitions: 634nhy:1.1.1.1.1.1.1.1>1.1.1.1.1.1.1.1.1
+
+== mylittlepony-035  instantiate  [pending]  repairs 1  not carried
+   source t07 (making peace and trading watch with canvas neighbors); lift mylittlepony:t07 > T3-151 > T4-017 > D04
+   how: A neighbor's promise to respect the border received a promise to watch that neighbor's border in return.
+   codes: c0066 promising to respect the border and keep the pony rectangle in place; c0067 returning the promise to watch the neighbor's border
+   transitions: 62qfpd:10>10.1
+
+== necrodancer-023  instantiate  [pending]  repairs 0  not carried
+   source t04 (working out room and help with canvas neighbours); lift necrodancer:t04 > T3-010 > T4-016 > D04
+   how: An apology explicitly recalled the agreement to leave the neighbour's lettering alone, showing a local agreement invoked to support restraint.
+   codes: c0062 apologizing that someone missed the agreement to leave JEB alone
+
+== neopets-040  instantiate  [pending]  repairs 1  not carried
+   source t04 (making agreements with canvas neighbours); lift neopets:t04 > T3-010 > T4-016 > D04
+   how: The later treaty exchange ends with an explicit promise not to harm the Jubjub.
+   codes: c0029 r/thefarleftside seeking a treaty; c0030 offering red pixels in return for keeping the Jubjub; c0031 promising not to harm the Jubjub
+   transitions: 62xxox:10>10.1, 62xxox:10.1>10.1.1
+
+== neu-022  instantiate  [pending]  repairs 1  not carried
+   source t06 (trading help and respecting borders with neighbors); lift neu:t06 > T3-151 > T4-017 > D04
+   relation: r/thicc
+   how: A member explicitly invokes an existing alliance to resist expansion that could produce a script war.
+   codes: c0076 rejecting expansion that could start a script war with r/thicc; c0082 reasserting the friendly agreement not to bother r/thicc
+
+== neutralmilkhotel-026  instantiate  [pending]  repairs 0  not carried
+   source t04 (working out borders and help with nearby album art); lift neutralmilkhotel:t04 > T3-010 > T4-016 > D04
+   how: The explicit border request is answered with agreement and continued repair duty, supporting stated restraint without proving wider compliance.
+   codes: c0014 negotiating a one-pixel border around the bisexual flag and a second album cover; c0017 accepting the border request and staying on repair duty
+   transitions: 62xm0z:4.1>4.1.2
+
+== newzealand-040  instantiate  [pending]  repairs 1  not carried
+   source t05 (negotiating borders, routes, and peace with neighbours); lift newzealand:t05 > T3-010 > T4-016 > D04
+   how: An explicit treaty reminder directs members to spare the neighbour beyond agreed borders.
+   codes: c0088 reminding builders to honour the Green Lattice treaty; c0023 agreeing on clear borders and respecting Green Lattice outside them
+
+== norge-024  instantiate  [pending]  repairs 1  not carried
+   source t04 (making peace and deals with neighbours); lift norge:t04 > T3-010 > T4-016 > D04
+   relation: CrusaderKings
+   how: An explicit agreement supplies the stated reason to leave the ally's mark alone without demonstrating compliance by every placer.
+   codes: c0146 telling people to leave VULT alone because of an agreement; c0238 calling to attack r/crusaderkings and turn its middle flag Norwegian
+
+== notredame-035  instantiate  [pending]  repairs 0  not carried
+   source t04 (making neighboring canvas work coexist); lift notredame:t04 > T3-010 > T4-016 > D04
+   how: A reminder of agreed territory receives an explicit acceptance and an offer to work elsewhere.
+   codes: c0017 honoring agreed territory and asking for a coordination channel; c0018 accepting the boundary and helping fill the sides
+   transitions: 62nhxa:3.1.1.1.1.1.1>3.1.1.1.1.1.1.1
+
+== nyjets-025  instantiate  [pending]  repairs 1  not carried
+   source t11 (working out space and exchanging help with neighbors); lift nyjets:t11 > T3-011 > T4-017 > D04
+   how: A speaker explicitly invokes the border when requesting restraint, while later damage and a declared dead truce prevent assuming durable compliance.
+   codes: c0083 telling members not to mess with r/korea at the border; c0084 reporting erased J borders; c0088 declaring the truce dead and calling everyone to restore the J
+
+== ockytop-035  instantiate  [pending]  repairs 0  not carried
+   source t05 (making room and peace with neighbors); lift ockytop:t05 > T3-010 > T4-016 > D04
+   how: A request to preserve one orange pixel receives a neighbor's agreement to leave it.
+   codes: c0014 asking to keep the stadium-number spot orange; c0015 agreeing to leave the orange spot
+   transitions: 62ujnn:0>1
+
+== onepunchman-030  instantiate  [pending]  repairs 0  not carried
+   source t06 (negotiating space and promises with canvas neighbours); lift onepunchman:t06 > T3-010 > T4-016 > D04
+   relation: aceattorney
+   how: Phoenix's earlier accommodation and an explicit agreement are invoked as reasons to spare the character and limit cape expansion.
+   codes: c0082 preserving Phoenix Wright after its community moved him; c0108 invoking the agreement that keeps Phoenix on the cape
+
+== oneshot-041  instantiate  [pending]  repairs 0  not carried
+   source t03 (working things out and making room with neighbours); lift oneshot:t03 > T3-010 > T4-016 > D04
+   how: An announced alliance is followed by a reminder to preserve the allied sign and help its maintainers.
+   codes: c0024 announcing an alliance with the Switch logo; c0027 asking people to help allies after finishing Niko
+
+== orderofthebluecorner-024  instantiate  [pending]  repairs 1  not carried
+   source t05 (negotiating a rainbow passage through blue); lift orderofthebluecorner:t05 > T3-149 > T4-016 > D04
+   how: The explicit single-strip agreement supplies a participant's reason for sparing the rainbow rather than merely following border talk.
+   codes: c0044 upholding the rainbow truce and redirecting help against purple
+
+== osu-027  instantiate  [pending]  repairs 0  not carried
+   source t06 (stopping attacks and working out coexistence); lift osu:t06 > T3-076 > T4-015 > D04
+   how: An existing conference agreement is invoked as the reason to stop attacking a neighbour's work.
+   codes: c0144 calling to destroy Temple and put the script there; c0145 stopping the Temple attack because the Big Ten agreed
+   transitions: 6343jy:1>1.1
+
+== pakistan-055  instantiate  [pending]  repairs 1  not carried
+   source t06 (negotiating borders and mutual help with neighbors); lift pakistan:t06 > T3-010 > T4-016 > D04
+   how: A participant invokes an existing truce to reject proposed expansion without establishing that all placers comply
+   codes: c0192 calling to remove dots and expand the Pakistani flag; c0194 opposing expansion after getting a truce with neighbours
+   transitions: 63468a:0>2
+
+== paladins-037  instantiate  [pending]  repairs 1  not carried
+   source t10 (working out room with GreenLattice and neighbors); lift paladins:t10 > T3-010 > T4-016 > D04
+   relation: r/GreenLattice
+   how: The stated bargain directly supplies the reason for refusing an enlargement request.
+   codes: c0174 calling to protect it and asking to enlarge it; c0180 refusing expansion under the help agreement
+   transitions: 62z454:6>6.1
+
+== parahumans-026  instantiate  [pending]  repairs 1  not carried
+   source t01 (building and defending Read Worm together); lift parahumans:t01 > T3-005 > T4-013 > D03
+   how: The participant explicitly explains the border as both a shared repair target and a boundary understood by both parties.
+   codes: c0062 using a border as a shared repair target and boundary
+
+== pathofexile-030  instantiate  [pending]  repairs 1  not carried
+   source t11 (making and refusing deals with canvas neighbours); lift pathofexile:t11 > T3-010 > T4-016 > D04
+   how: An established treaty is explicitly invoked when refusing a different neighbor's request.
+   codes: c0236 requesting a treaty to deflect the Kiwi Beam northwards; c0239 refusing r/Bardmains because the New Zealand treaty is very strong
+   transitions: 632gk5:0>3
+
+== paydaytheheist-036  instantiate  [pending]  repairs 0  not carried
+   source t05 (working out borders and moves with neighbouring groups); lift paydaytheheist:t05 > T3-010 > T4-016 > D04
+   how: Conditional permission receives a direct promise to avoid obstructing the neighbour.
+   codes: c0016 letting r/Payday finish its name if it avoids a mess; c0017 promising the r/Payday label will not obstruct the neighbour's drawing
+   transitions: 62sq1y:5>5.1
+
+== pebble-047  instantiate  [pending]  repairs 1  not carried
+   source t03 (moving Pebble away from guarded neighbours); lift pebble:t03 > T3-039 > T4-014 > D04
+   how: A relayed border condition is answered by a promise to stop touching the neighbour and help the shifted design.
+   codes: c0043 shifting left to avoid Halo and proposing mutual help after either drawing finishes; c0044 stopping work on the old spot to help the shifted design
+   transitions: 634zu0:5.1>5.1.1
+
+== philippines-046  instantiate  [pending]  repairs 0  not carried
+   source t08 (making deals and repairs with canvas neighbours); lift philippines:t08 > T3-010 > T4-016 > D04
+   how: A treaty-protected neighbour's presence prompts a warning that attacking it could endanger the flag.
+   codes: c0355 explaining that the smiley stays by treaty; c0356 asking whether to tear the neighbour down; c0357 warning that tearing it down could cost their own flag
+   transitions: 633rxy:4.1.1>4.1.1.1, 633rxy:4.1.1.1>4.1.1.1.1
+
+== pitt-035  instantiate  [pending]  repairs 1  not carried
+   source t06 (making room with canvas neighbors); lift pitt:t06 > T3-010 > T4-016 > D04
+   how: Participants explicitly invoked an existing agreement as grounds for leaving the rival alone.
+   codes: c0091 invoking an agreement to leave each other alone; c0092 recalling agreement to stop and focus on their own work
+
+== placeDE-035  instantiate  [pending]  repairs 1  not carried
+   source t05 (arguing over taking, keeping, or giving space); lift placeDE:t05 > T3-061 > T4-020 > D08
+   how: A neighbour agreement supplies the stated reason to refuse expansion.
+   codes: c0096 rejecting expansion because of a neighbour agreement
+
+== placecanada-030  instantiate  [pending]  repairs 1  not carried
+   source t05 (making deals and spending pixels for neighbours); lift placecanada:t05 > T3-010 > T4-016 > D04
+   relation: 1G
+   how: An explicit alliance reminder receives an apologetic retreat, supporting agreement-based restraint in one exchange.
+   codes: c0093 invoking the 1G alliance to stop an incursion; c0094 backing off after learning about the alliance
+   transitions: 631404:1>1.1
+
+== poland-039  instantiate  [pending]  repairs 1  not carried
+   source t03 (working out who may draw where); lift poland:t03 > T3-010 > T4-016 > D04
+   how: A reclaiming call is answered by invoking the agreement to go under the neighbour, directly showing treaty-based restraint talk.
+   codes: c0040 calling to reclaim the motherland; c0041 reminding expansionists of the agreement to go under AMD
+   transitions: 62w59j:0>1
+
+== polska-047  instantiate  [pending]  repairs 1  not carried
+   source t02 (working out how to share the canvas with neighbours); lift polska:t02 > T3-010 > T4-016 > D04
+   how: An announced ceasefire is explicitly offered as a reason to respect the neighbour's work.
+   codes: c0036 asking people to respect AMD's ceasefire
+
+== portugal-076  instantiate  [pending]  repairs 1  not carried
+   source t04 (negotiating rainbowroad under the flag); lift portugal:t04 > T3-010 > T4-016 > D04
+   how: Alliance ties are explicitly given as the reason not to touch neighbouring work.
+   codes: c0156 warning people not to touch allied neighbours
+
+== predators-022  instantiate  [pending]  repairs 0  not carried
+   source t09 (making peace and drawing boundaries with neighbours); lift predators:t09 > T3-149 > T4-016 > D04
+   how: An agreed boundary is made practical through a bot that leaves the specified area clear and an explicit accepting reply.
+   codes: c0046 r/RPI changing its bot to leave a boundary clear; c0047 accepting the 529 boundary to settle things
+
+== prequelmemes-028  instantiate  [pending]  repairs 1  not carried
+   source t08 (working out borders, truces, and neighbours); lift prequelmemes:t08 > T3-010 > T4-016 > D04
+   how: A truce is explicitly invoked as the reason to leave the adjoining border white.
+   codes: c0428 telling placers to honor the r/archlinux border truce
+
+== qotsa-047  instantiate  [pending]  repairs 0  not carried
+   source t05 (moving the logo after being asked off the bi flag); lift qotsa:t05 > T3-039 > T4-014 > D04
+   how: A request to stop overwriting receives acceptance of relocation help, showing local accommodation without proving compliance by every placer.
+   codes: c0032 asking them to stop overwriting and offering a better place; c0033 accepting help finding coordinates
+   transitions: 63729c:1.1>1.1.1
+
+== quebec-032  instantiate  [pending]  repairs 0  not carried
+   source t04 (making room, trading help, and respecting neighbours); lift quebec:t04 > T3-010 > T4-016 > D04
+   how: Alliance obligations are invoked to stop attacks on an allied icon and refuse expansion.
+   codes: c0177 forming two alliances to trade icon protection for flag protection; c0178 telling people to stop attacking the crab; c0179 refusing expansion because they respect their alliances
+   transitions: 634rpz:1>1.1
+
+== radiohead-024  instantiate  [pending]  repairs 1  not carried
+   source t04 (making peace and trading help with neighbours); lift radiohead:t04 > T3-011 > T4-017 > D04
+   relation: TagPro
+   how: A defender accepts a redirect to the agreement forbidding the black row.
+   codes: c0246 asking whether to give up defending a black row; c0247 redirecting the black-row defender to the agreement; c0248 accepting the instruction to stop the black line
+   transitions: 633hfq:0>1, 633hfq:1>1.1
+
+== reddevils-048  instantiate  [pending]  repairs 1  not carried
+   source t16 (making truces and helping canvas neighbours); lift reddevils:t16 > T3-149 > T4-016 > D04
+   how: Members explicitly invoked a truce and reciprocal help as reasons not to interfere with their neighbour's work.
+   codes: c0137 asking people not to intrude because r/CFB is helping fight griefers; c0143 warning not to mess with cfb because the truce helps keep ours; c0155 checking that an apparent attack does not break the cfb agreement
+
+== redhotchilipeppers-035  instantiate  [pending]  repairs 1  not carried
+   source t07 (negotiating room with canvas neighbours); lift redhotchilipeppers:t07 > T3-010 > T4-016 > D04
+   how: An accepted overlap is followed by a request to preserve the neighbour's border, evidencing an appeal rather than universal compliance.
+   codes: c0076 accepting that both designs look best overlapping; c0077 asking allies to preserve the neighbor's purple border
+
+== rickandmorty-036  instantiate  [pending]  repairs 0  not carried
+   source t03 (making room and terms with neighbouring pictures); lift rickandmorty:t03 > T3-010 > T4-016 > D04
+   how: A neighbour explicitly ties revised permission to avoiding conflict, while acceptance by all placers remains unobserved.
+   codes: c0017 revising the Trans flag plan while continuing to avoid conflict; c0019 yielding a checkerboard border to protect the picture
+
+== romania-032  instantiate  [pending]  repairs 1  not carried
+   source t06 (holding back attacks and overextension); lift romania:t06 > T3-076 > T4-015 > D04
+   how: A conquest call is checked by an explicit reminder linking the existing agreement.
+   codes: c0168 calling on the room to conquer Hungary; c0169 answering the conquest call with the hour-old agreement thread
+
+== runescape-027  instantiate  [pending]  repairs 0  not carried
+   source t12 (Negotiating room, borders, and help); lift runescape:t12 > T3-010 > T4-016 > D04
+   how: Neighbor relations explicitly motivate switching scripts and stopping encroachment for the sake of getting along.
+   codes: c0354 returning to the original script to avoid a war with SquareSpiral; c0356 halting the encroachment for the sake of getting along; c0358 stopping the new script without RS at the bottom
+
+== rwby-026  instantiate  [pending]  repairs 1  not carried
+   source t07 (Negotiating space and repaying canvas neighbours); lift rwby:t07 > T3-010 > T4-016 > D04
+   how: A stated refusal of overlap elicits the neighbour's explicit agreement to cut its logo off behind the established mark.
+   codes: c0266 rejecting overlap so others will not build in the logo; c0267 cutting off the neighboring logo as a negotiated compromise
+   transitions: 630pq3:8.1.1>8.1.1.1
+
+== sadboys-023  instantiate  [pending]  repairs 4  not carried
+   source t09 (arguing and negotiating over overlap); lift sadboys:t09 > T3-010 > T4-016 > D04
+   how: Restating the agreement is answered by an apology for overreaching and a proposal to prevent recurrence.
+   codes: c0044 restating the overlap agreement: yellow black sichel but no red; c0045 promising respect in return for respecting the agreement; c0049 apologising for overreaching and proposing Discord ambassadors
+   transitions: 63cu5z:3.1>3.1.1
+
+== satania-046  instantiate  [pending]  repairs 0  not carried
+   source t04 (asking neighbours before covering their work); lift satania:t04 > T3-010 > T4-016 > D04
+   how: An edited attack proposal explicitly reverses itself because the participants have an alliance.
+   codes: c0035 changing from killing the bear to honoring an alliance
+
+== scotland-026  instantiate  [pending]  repairs 0  not carried
+   source t08 (making room and deals with neighbours); lift scotland:t08 > T3-010 > T4-016 > D04
+   how: A visitor's request receives explicit assent and a later report that the redesign leaves more space.
+   codes: c0069 asking r/scotland not to expand over the menorah; c0070 agreeing to let the menorah stay; c0071 shortening the redesign to give the menorah more room
+   transitions: 62vwng:0>1
+
+== seahawks-026  instantiate  [pending]  repairs 0  not carried
+   source t09 (negotiating and fighting over shared space); lift seahawks:t09 > T3-010 > T4-016 > D04
+   how: A member replied to the truce warning with reported repairs and a promise to restrain fellow fans, without proving collective compliance.
+   codes: c0103 accepting a truce with a one-pixel warning; c0109 repairing SF pixels and promising to get Seahawks fans to play nice
+   transitions: 633925:1.1.1.1>1.1.1.1.1
+
+== sheffield-042  instantiate  [pending]  repairs 0  not carried
+   source t07 (moving the rose to respect Apollo); lift sheffield:t07 > T3-039 > T4-014 > D04
+   how: The reminder of a flower agreement prompts a specific accommodation that the neighbour later confirms.
+   codes: c0038 reminding Sheffield of the flower agreement and asking them to stop removing Apollo's sleeve; c0044 proposing moving the rose one pixel and asking for coordinated help; c0051 thanking Sheffield for moving the flower and celebrating subreddits coming together
+   transitions: 632zky:9>9.1
+
+== shield-035  instantiate  [pending]  repairs 0  not carried
+   source t09 (negotiating room for S.H.I.E.L.D. and moving it north); lift shield:t09 > T3-010 > T4-016 > D04
+   relation: kamenrider
+   how: The negotiated compromise is carried into instructions to spare the sprite and build north, although reaching every placer remains uncertain.
+   codes: c0043 rejecting a combined sprite because the styles differ; c0045 spreading word to build north while doubting everyone got the message; c0066 explaining the logo moved above HYDRA after a compromise with another sub
+   transitions: 62ziso:5.1.1>5.1.1.1
+
+== simonfraser-044  instantiate  [pending]  repairs 0  not carried
+   source t06 (trading protection for peace with Turkey); lift simonfraser:t06 > T3-149 > T4-016 > D04
+   how: The accepted agreement explicitly makes backing off conditional on flag protection, demonstrating promised restraint rather than universal observed compliance.
+   codes: c0033 offering to leave SFU alone in exchange for cleanup help; c0034 agreeing to the cleanup truce; c0038 explaining that fighting ended with a protection deal
+   transitions: 62uyn2:4.1.1.1>4.1.1.1.1
+
+== sixers-048  instantiate  [pending]  repairs 0  not carried
+   source t04 (fighting damage, redirecting attacks and repairing the work); lift sixers:t04 > T3-005 > T4-013 > D03
+   how: An appeal recalls previous peaceful coexistence and urges restraint while compliance by every placer remains unproven.
+   codes: c0054 calling for repair instead of retaliation; c0148 denying a takeover while blaming a few people who keep doing it
+
+== skyrim-035  instantiate  [pending]  repairs 0  not carried
+   source t04 (working out borders and compromises with neighbors); lift skyrim:t04 > T3-010 > T4-016 > D04
+   how: A settled treaty supplies an explicit reason to limit expansion and preserve cooperation.
+   codes: c0086 restating the one-left-wing agreement; c0110 invoking the Green Lattice treaty against expansion; c0111 defending the treaty as the reason Green Lattice helps instead of destroys
+
+== smashbros-026  instantiate  [pending]  repairs 0  not carried
+   source t08 (working out space, help, and obligations with neighbors); lift smashbros:t08 > T3-150 > T4-018 > D04
+   how: The treaty is explicitly offered as the reason to shorten the kick and stop its further extension
+   codes: c0343 changing the infinite kick into a field goal under a treaty to avoid wars; c0344 sharing the field-goal plan and asking people not to extend Puff's leg
+
+== spacexmasterrace-046  instantiate  [pending]  repairs 1  not carried
+   source t06 (dealing with neighbours through help, boundaries, or a fight); lift spacexmasterrace:t06 > T3-010 > T4-016 > D04
+   how: A truce request receives an explicit promise of redesign for coexistence, supporting proposed restraint without proving its implementation.
+   codes: c0100 calling for a truce and mutual respect with Star Trek; c0101 redesigning the F9 to stop unwanted griefing and coexist
+   transitions: 632ool:0>1
+
+== ssbpm-023  instantiate  [pending]  repairs 1  not carried
+   source t17 (keeping negotiated colours and borders with neighbours); lift ssbpm:t17 > T3-010 > T4-016 > D04
+   how: A readability proposal is answered with the agreed colour requirement and the anticipated cost of violating it.
+   codes: c0111 suggesting white letters for readability; c0112 insisting on rainbow letters to avoid being paved over
+   transitions: 6339jx:10>10.1
+
+== starcitizen-050  instantiate  [pending]  repairs 1  not carried
+   source t11 (Negotiating and defending shared space with neighboring communities); lift starcitizen:t11 > T3-150 > T4-018 > D04
+   how: Named alliance membership supplied an explicit reason to spare a neighboring letter.
+   codes: c0270 leaving KSP alone and treating its P as an ambassador; c0273 naming a KSP, Star Citizen, and Elite space alliance
+
+== starcraft-025  instantiate  [pending]  repairs 0  not carried
+   source t08 (trading border help and making alliances); lift starcraft:t08 > T3-150 > T4-018 > D04
+   how: A negotiated integration boundary supplies a grey stopping line that an organizer tries to enforce among placers.
+   codes: c0120 asking to integrate the Uofu and SC2 logos; c0121 reeling people in at the agreed border
+   transitions: 633kbz:7>7.1
+
+== stargate-035  instantiate  [pending]  repairs 0  not carried
+   source t07 (completing and caring for a very small Stargate); lift stargate:t07 > T3-038 > T4-007 > D02
+   how: The host location explicitly grounds instructions to spare its surrounding lattice and neighboring designs.
+   codes: c0047 finding a tiny officially sanctioned space in Green Lattice; c0052 asking defenders to preserve Green Lattice and neighboring designs
+
+== starvstheforcesofevil-025  instantiate  [pending]  repairs 0  not carried
+   source t03 (working out room with canvas neighbours); lift starvstheforcesofevil:t03 > T3-010 > T4-016 > D04
+   how: An existing alliance supplies a stated reason to stop overlap and reverse unauthorized leg-building.
+   codes: c0055 insisting the Rocket League alliance still means not going over its work; c0183 reversing a Discord member's damage and restoring the agreed logo overlap
+
+== stevenuniverse-026  instantiate  [pending]  repairs 1  not carried
+   source t05 (Working out borders, truces, and shared space); lift stevenuniverse:t05 > T3-010 > T4-016 > D04
+   how: A settled border was explicitly invoked to prevent expansion and repair a neighbor's text.
+   codes: c0353 insisting Pink Diamond will not extend into r/polandball territory; c0365 reinstating polandball letters against people un-shattering Pink Diamond
+   transitions: 630muq:8>8.1
+
+== stlouis-027  instantiate  [pending]  repairs 1  not carried
+   source t05 (keeping the Blue Note and its neighbours alive together); lift stlouis:t05 > T3-076 > T4-015 > D04
+   how: Invoking an agreement supplies a reason to leave the neighbouring wizard in place.
+   codes: c0020 rallying people to go after the hat; c0021 relaying a message to leave the earlier wizard in place; c0022 regretting the hat attack by feeling like a Cubs fan; c0061 asking builders to protect big pixel art because of the witch alliance
+   transitions: 62xl9k:5>5.1, 62xl9k:5.1>5.1.1
+
+== stlouisblues-042  instantiate  [pending]  repairs 0  not carried
+   source t07 (repairing damage and stopping mistaken allies); lift stlouisblues:t07 > T3-008 > T4-008 > D02
+   how: Invoking the alliance and its reciprocal protection elicits an apology for missing the sticky.
+   codes: c0115 stopping an ally's erasure and calling for reciprocal maintenance; c0116 apologizing after missing the alliance sticky
+   transitions: 636vdo:1.1.1>1.1.1.1
+
+== strangerthings-046  instantiate  [pending]  repairs 0  not carried
+   source t05 (working around neighbors instead of overwriting them); lift strangerthings:t05 > T3-010 > T4-016 > D04
+   how: An accepted shared edge was explicitly invoked to challenge an attempted overwrite, although the missing parent limits the full exchange.
+   codes: c0069 challenging an overwrite after a neighbor accepted the shared edge
+
+== straya-040  instantiate  [pending]  repairs 1  not carried
+   source t04 (making bargains and leaving neighbours' work alone); lift straya:t04 > T3-010 > T4-016 > D04
+   how: Members explicitly invoke a mutual agreement as the reason to stop encroaching and keep the neighbour's work intact.
+   codes: c0029 telling participants to stop encroaching under the mutual agreement; c0047 calling breaking the Parahumans truce Un-Australian; c0315 keeping the spider because of a deal with Parahumans
+
+== suomi-035  instantiate  [pending]  repairs 1  not carried
+   source t10 (making peace and mutual-defence deals); lift suomi:t10 > T3-010 > T4-016 > D04
+   how: A peaceful-border request receives retreat explicitly explained by newly learned knowledge of an alliance.
+   codes: c0159 asking for a peaceful border; c0160 retreating after learning about the alliance
+   transitions: 62y490:2.3>2.3.1
+
+== sweden-039  instantiate  [pending]  repairs 0  not carried
+   source t03 (Making peace, bargains, and room for neighbours); lift sweden:t03 > T3-010 > T4-016 > D04
+   how: A participant invokes the existing Dutch alliance as a reason to spare neighbours and reject northward expansion.
+   codes: c0573 rejecting upward expansion to preserve the Dutch alliance and flag proportions
+
+== swordartonline-035  instantiate  [pending]  repairs 1  not carried
+   source t10 (laying out allied boundaries, artwork, and Discord work); lift swordartonline:t10 > T3-070 > T4-008 > D02
+   how: The organizer explicitly grounds the non-invasion instruction in preserving alliances made through personal effort.
+   codes: c0053 protecting hard-won alliances by forbidding griefing or invasion
+
+== tampabaylightning-039  instantiate  [pending]  repairs 0  not carried
+   source t04 (bargaining over shared borders and room); lift tampabaylightning:t04 > T3-010 > T4-016 > D04
+   how: A participant explicitly makes sparing the neighbour's art depend on that neighbour having backed off the logo.
+   codes: c0096 standing down and leaving the Lightning logo be; c0119 refusing to cover Cave Story art because they backed off
+
+== texastech-025  instantiate  [pending]  repairs 0  not carried
+   source t06 (making peace with NEU and sharing a border); lift texastech:t06 > T3-010 > T4-016 > D04
+   relation: r/NEU
+   how: The editor explicitly attributes the script's border shift to the neighbor's request, and another member confirms the border is restored.
+   codes: c0035 asking Texas Tech to move off NEU's border; c0027 editing the script to shift over and share a border with NEU; c0038 reporting that the code restored NEU's border
+
+== tf2-035  instantiate  [pending]  repairs 1  not carried
+   source t07 (Negotiating borders and trading help with neighbours); lift tf2:t07 > T3-010 > T4-016 > D04
+   how: The reported agreement to leave a neighboring flag alone explicitly conditions placing nearby lettering.
+   codes: c0198 using /r/Mexico's agreement to keep the flag alone
+
+== thebluecorner-033  instantiate  [pending]  repairs 1  not carried
+   source t04 (deciding which art stays in blue space); lift thebluecorner:t04 > T3-162 > T4-014 > D04
+   how: An agreed protection commitment is explicitly given as the reason not to remove allied art.
+   codes: c1091 invoking the agreement to protect Bullet Kin; c1034 reminding blues not to touch allied bullet and gun art
+
+== tinytardis-025  instantiate  [pending]  repairs 0  not carried
+   source t06 (negotiating how neighboring pictures share space); lift tinytardis:t06 > T3-010 > T4-016 > D04
+   how: Negotiation and a refusal to move receive explicit promises to keep the drawing separate and leave it unchanged.
+   codes: c0050 asking for a peaceful solution instead of hostility; c0052 refusing to move the TARDIS; c0053 agreeing to help keep it separate rather than mingle it; c0058 agreeing not to change anything
+
+== titanfall-027  instantiate  [pending]  repairs 1  not carried
+   source t07 (Making room and peace with canvas neighbours); lift titanfall:t07 > T3-010 > T4-016 > D04
+   how: A truce proposal receives an explicit promise to stop, establishing a local negotiation-to-restraint response.
+   codes: c0109 proposing a truce because neither side can take the other's pixels; c0110 stopping until they find somewhere else
+   transitions: 630566:3>3.1
+
+== torontoraptors-027  instantiate  [pending]  repairs 0  not carried
+   source t08 (negotiating coexistence with neighboring logos); lift torontoraptors:t08 > T3-010 > T4-016 > D04
+   how: The treaty announcement explicitly names the agreement as a reason not to damage the neighboring logo.
+   codes: c0086 announcing a treaty with the Vikings and ordering people not to damage them
+
+== touhou-026  instantiate  [pending]  repairs 1  not carried
+   source t06 (working out borders and help with neighbours); lift touhou:t06 > T3-010 > T4-016 > D04
+   how: A reported peaceful agreement supplies an explicit reason to rein in a new takeover request.
+   codes: c0238 asking Touhou to overtake r/furry with hostile language; c0028 defending the peaceful agreement after helping the displaced group relocate
+   transitions: 62nfb0:20>20.1
+
+== trees-029  instantiate  [pending]  repairs 0  not carried
+   source t10 (working out space with canvas neighbours); lift trees:t10 > T3-010 > T4-016 > D04
+   relation: MonaLisaClan
+   how: A neighbour's repeated border complaint receives acknowledgements that the ribbon is intrusive and that expansion should stop while maintenance continues.
+   codes: c0356 repeating the request to stop expanding inside mona lisa borders; c0357 calling the left ribbon too intrusive and wanting expansion stopped; c0358 stopping the push to share space while maintaining the drawing
+   transitions: 62ya4v:4>4.1, 62ya4v:4.1>4.1.1
+
+== truestl-041  instantiate  [pending]  repairs 0  not carried
+   source t03 (moving over and making room with neighbours); lift truestl:t03 > T3-010 > T4-016 > D04
+   how: A neighbour's request is explicitly accepted through relocation or redirected lettering, supporting agreement and restraint within the exchange.
+   codes: c0024 asking them to move for the Bunnings snag tribute; c0025 moving to a new location and apologising; c0043 asking them not to use r/drumcorps space; c0044 moving Muatra down the side instead
+   transitions: 62ygzv:1>1.1, 62zsse:1.1.1.1>1.1.1.1.1
+
+== turkey-050  instantiate  [pending]  repairs 0  not carried
+   source t06 (bargaining over space, truces, and help with neighboring groups); lift turkey:t06 > T3-010 > T4-016 > D04
+   how: Invoking peace elicits explicit withdrawal of attack instructions and a promise to watch the pixels.
+   codes: c0106 asking that attack instructions be removed if the groups are at peace; c0107 removing the attack instruction and keeping watch on the pixels
+   transitions: 62ut0v:1.1>1.1.1
+
+== ubc-040  instantiate  [pending]  repairs 0  not carried
+   source t06 (working out borders and deciding whose pixels to leave alone); lift ubc:t06 > T3-010 > T4-016 > D04
+   how: Participants invoke an agreed border as a reason for restraint while subsequent apologies demonstrate the model's acknowledged limits on enforcing compliance.
+   codes: c0076 answering that the minimized border was defined by agreement; c0084 invoking an agreement not to mess with each other; c0091 apologizing for UBC pixels crossing the border and promising to undo them
+
+== ubreddit-020  instantiate  [pending]  repairs 0  not carried
+   source t04 (keeping lines and truces with canvas neighbors); lift ubreddit:t04 > T3-010 > T4-016 > D04
+   relation: r/CFB
+   how: A member explicitly gives the existing truce as the reason not to expand toward the neighbor.
+   codes: c0021 enforcing the truce by telling people not to expand toward r/CFB
+
+== ucf-044  instantiate  [pending]  repairs 1  not carried
+   source t07 (helping neighbours and respecting their space); lift ucf:t07 > T3-011 > T4-017 > D04
+   how: Explains an alliance being invoked as a reason to refuse a proposed overwrite without treating the refusal as proof of universal compliance.
+   codes: c0086 proposing a Pegasus over the green face; c0088 objecting because of an alliance with the green face; c0076 pointing to instructions to leave Unturned alone; c0077 saying others still call for taking over Unturned
+   transitions: 637sa9:0>2
+
+== uiuc-026  instantiate  [pending]  repairs 1  not carried
+   source t11 (negotiating borders truces and mutual protection); lift uiuc:t11 > T3-010 > T4-016 > D04
+   how: A reported agreement is explicitly invoked to stop thickening the border over the neighbor's logo.
+   codes: c0091 honoring Purdue's agreement by limiting the UIUC border; c0092 rebuilding the black line because Purdue has been cool
+   transitions: 62y07n:0>1
+
+== ukraine-041  instantiate  [pending]  repairs 1  not carried
+   source t04 (making and enforcing peace with neighbours); lift ukraine:t04 > T3-149 > T4-016 > D04
+   relation: r/Palestine
+   how: A participant explicitly invokes an existing treaty to refuse renewed attack, showing one restraint response without establishing every placer's compliance.
+   codes: c0045 invoking the peace treaty to reject renewed attack
+
+== unitedkingdom-039  instantiate  [pending]  repairs 1  not carried
+   source t02 (Making truces and helping canvas neighbours); lift unitedkingdom:t02 > T3-149 > T4-016 > D04
+   how: A member explicitly limits border thickening to existing space to avoid upsetting a neighbour again, without demonstrating compliance by every placer.
+   codes: c0055 asking the Union Jack not to go farther west; c0061 proposing a two-pixel border to make it stronger; c0062 keeping the thicker border inside so as not to upset the Italians again
+   transitions: 62p6d8:4.1>4.1.1
+
+== uoft-030  instantiate  [pending]  repairs 0  not carried
+   source t05 (trading help and protection with other subreddits); lift uoft:t05 > T3-151 > T4-017 > D04
+   how: A participant explicitly preserves part of the neighbour's flag in return for being allowed to place the truck there.
+   codes: c0125 keeping part of Thailand's flag in return for room for the food truck
+
+== uwaterloo-031  instantiate  [pending]  repairs 1  not carried
+   source t07 (bargaining over borders and mutual help); lift uwaterloo:t07 > T3-010 > T4-016 > D04
+   how: A participant explicitly names completed negotiations as the reason a proposed replacement is dropped and neighbouring figures remain untouched.
+   codes: c0098 upholding a truce with the man beside Mr Goose; c0099 dropping a plan after border negotiations
+
+== vinesauce-027  instantiate  [pending]  repairs 1  not carried
+   source t06 (working things out with neighboring communities); lift vinesauce:t06 > T3-010 > T4-016 > D04
+   relation: homestuck
+   how: A reported agreement to work behind the mushroom explicitly supported a request to avoid covering the neighbor's art in return.
+   codes: c0024 agreeing with Homestuck neighbors to work behind each other's art
+
+== warframe-035  instantiate  [pending]  repairs 1  not carried
+   source t11 (negotiating canvas space and reciprocity with GreenLattice and neighbours); lift warframe:t11 > T3-010 > T4-016 > D04
+   relation: GreenLattice
+   how: The host's bounded approval is invoked as the reason not to expand beyond the symbol.
+   codes: c0223 respecting Green Lattice's no-build zone for any expansion; c0229 telling builders to stick to just the approved Lotus
+
+== warriors-046  instantiate  [pending]  repairs 0  not carried
+   source t10 (negotiating borders and pulling back from vandalism); lift warriors:t10 > T3-010 > T4-016 > D04
+   how: An existing noninterference agreement is explicitly invoked to check a proposed addition above the logo.
+   codes: c0159 proposing a toaster in the gray above; c0160 honoring a deal with the Ohio people not to damage each other
+   transitions: 634zll:2>2.1
+
+== wholesomememes-028  instantiate  [pending]  repairs 1  not carried
+   source t05 (defending, negotiating, and moving LOVE); lift wholesomememes:t05 > T3-005 > T4-013 > D03
+   how: The announced truce explicitly couples protection from destruction with limiting expansion.
+   codes: c0016 announcing a truce that preserves Love and limits expansion
+
+== wildhockey-049  instantiate  [pending]  repairs 0  not carried
+   source t03 (finding room and moving around other people's work); lift wildhockey:t03 > T3-020 > T4-014 > D04
+   how: A collision request receives an explicit concession and relocation proposal, supporting negotiated restraint without proving durable compliance.
+   codes: c0028 asking the Wild builders to relocate after a collision; c0029 agreeing to move the nose out of another build's way
+   transitions: 62rf7b:8.1.1.2.1>8.1.1.2.1.1
+
+== wine-033  instantiate  [pending]  repairs 0  not carried
+   source t08 (fitting and keeping the r/wine name tag inside its space); lift wine:t08 > T3-169 > T4-006 > D02
+   how: The border instruction explicitly cites neighboring groups allowing the space as its reason for restraint.
+   codes: c0055 choosing to stick to the border; c0056 limiting the border to the space neighboring groups allowed
+   transitions: 633hgw:1.1.1>1.1.1.1
+
+== winnipegjets-022  instantiate  [pending]  repairs 0  not carried
+   source t04 (working out who gets which canvas space); lift winnipegjets:t04 > T3-010 > T4-016 > D04
+   how: An announced settlement receives explicit acceptance, while other passages promise respect for turf or reject crossing a border.
+   codes: c0020 negotiating space for the pink S; c0021 accepting the negotiated space; c0031 agreeing to respect their turf; c0046 abandoning the phrase because it crosses placecanada borders
+   transitions: 62vstp:5>5.1
+
+== xcom-045  instantiate  [pending]  repairs 1  not carried
+   source t03 (making room for neighbours and keeping the treaty); lift xcom:t03 > T3-010 > T4-016 > D04
+   how: The public treaty instruction receives an explicit promise to build around the protected figure.
+   codes: c0044 telling builders not to cover the white guy because of a treaty; c0046 promising to build around the protected figure
+   transitions: 632qoh:0>3
+
+== yogscast-025  instantiate  [pending]  repairs 1  not carried
+   source t03 (bargaining for room and trading help with neighbours); lift yogscast:t03 > T3-151 > T4-017 > D04
+   how: Working with the neighbouring room is explicitly given as the reason for withdrawing an attack.
+   codes: c0011 scratching the attack after working with Texas; c0006 coordinating a four-space Texas flag shift and offering help for room
+
+== yugioh-033  instantiate  [pending]  repairs 0  not carried
+   source t14 (negotiating room and conflict around the Kuriboh); lift yugioh:t14 > T3-162 > T4-014 > D04
+   how: The accepted bargain produces restraint by its negotiator, whose own pixels help rather than erase the neighboring logo.
+   codes: c0109 offering cooperation until a bordered logo screenshot is taken; c0110 agreeing after checking the subreddit and post history; c0111 placing red pixels to speed up the other group's logo
