@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Last written at D3a-30, 2026-10-19 UTC. Stages A1 to C5 are done. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 to 176 (R01, P05, P22, P21, A21) moved the hash; D3c refreezes it.
+Last written at D3a-31, 2026-10-19 UTC. Stages A1 to C5 are done. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 to 176 (R01, P05, P22, P21, A21) moved the hash; D3c refreezes it.
 
 ## The method question, in one sentence
 
@@ -25,10 +25,10 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-30)
+## The return (D1a to D3a-31)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** All 25 standing elements are ruled whole. R01 and P05 were revised (moves 172, 173); P22 and P21, the field's entries, stand reworded (moves 174, 175). The other 21 stand uncorrected. A21 stands bounded (move 176): the agreement comes first in 114 of 162 rooms. A02, A01 and A03 stand uncorrected; 222 rooms start and call in one post; keeping follows a report in 308 of 331.
+- **D3a, by element.** All 25 standing elements are ruled whole. R01 and P05 were revised (moves 172, 173); P22 and P21, the field's entries, stand reworded (moves 174, 175). The other 21 stand uncorrected. A21 stands bounded (move 176): the agreement comes first in 114 of 162 rooms. A01 to A04 stand uncorrected; 222 rooms start and call in one post; keeping follows a report in 308 of 331, talk follows keeping in 141 of 265.
 - **D3a-15 to D3a-26.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, too few hands or room [K02] in 520, machine hands [P14] in 320, carrying on [P13] in 292, the host's line [P20] in 310, coalitions [P17] in 383, bare answers [P15] in 579, decided order [C01] in 136, an old tie naming the rival [C02] in 112, and who may commit the room [P21] in 163.
 
 ## The current account, and the contrary rooms
@@ -64,8 +64,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 ## Where the run stands
 
 - **D3a outputs:**
-  - `adjudications.jsonl`: 25,344 lines ruled, 26,101 with re-rulings;
-  - the stage's notes: G1 to G35 (five of them amended once), G13a, G4a (three amendments) and the field's entries.
+  - `adjudications.jsonl`: 26,012 lines ruled, 26,769 with re-rulings;
+  - the stage's notes: G1 to G36 (five of them amended once), G13a, G4a (three amendments) and the field's entries.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
 - **Ledgers (lines):** tier history 561; model history 150; findings 37 (23 findings); elements 30 (25 standing, 5 candidates); arrows 21.
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
@@ -78,12 +78,12 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 - Follow ASD-STE100 about 80% of the time: one idea per sentence, active voice, common words, the actor and the act named.
 - Describe what members did, in what order, in how many rooms, and write no figures of speech. Gloss each construct name in plain words where it first appears.
 
-## Stage C2, in short
+## Stage C2
 
 - **J's ruling on QC2-002, verbatim:** "from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Work pass 5 from pass 4's state. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the rooms show membership naming the rival in the same turn as the attack, carry it as a claim in their words, marked as untested for order. This is the last closing pass. Close by saying what you are sure of, what you are not, and why."
 - **Pass 1 (C2a-01).** J at 23:24 Berlin: "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model."
 
-## Stage C1, in short (carry the rulings)
+## Stage C1 (carry the rulings)
 
 - **QC1-001 (J).** C1 rechecks place each item by the amended gates over the whole scheme.
 - **QC1-002 (J).** Lean to one placement; a second theme needs three concepts of its own (J's floor).
@@ -125,16 +125,16 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-30**, to weigh after order tests:
+- **From D3a-02 to D3a-31**, to weigh after order tests:
   - C01's: decided order's reach (3, beside A19); contests over where the room decides (5);
   - P13's: keeping begun while building; routes in from help, marking or loss; a possible loop;
   - P20's: the line crossed; the clock shaping it; removals sending talk elsewhere; canvas-born rooms;
   - P17's: prior ties and colour faiths choosing allies (C02); P21's four forms;
   - P15's: its edge with P11 and P03; joins waiting on a visible start (criticalrole);
-  - the spine's three links (A02, A01, A03), at D3c;
+  - the spine's three links and A04's split, at D3c;
   - P09's: what precedes the attack (13) and what picks its target (9, C02); P18's: what opens the contest (6, A18);
   - P10's and K02's (A10, F-019): copies before a loss; doubt before a move or a smaller design; giving up after doubt;
-  - P19's form (9; 5 allied host ties); A04's bound (21); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4; kin ties, 3);
+  - P19's form (9; 5 allied host ties); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4; kin ties, 3);
   - calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording after a loss (A08);
   - a finished work reopening calls or design;
   - neighbours (A04, A13's giver, A14, A19) and an apology opening help (no arrow);
@@ -183,4 +183,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The unruled groups (the other arrows, the candidates, the dimension lines), by G1 to G35 with G13a and G4a; then the `propose` lines. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The unruled groups (the other arrows, the candidates, the dimension lines), by G1 to G36 with G13a and G4a; then the `propose` lines. The split rooms and the 19 story-miss rooms wait for the verdicts leg.

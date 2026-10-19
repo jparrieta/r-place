@@ -677,6 +677,35 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Upkeep before the only report** is counted with the bound (Peru, bakchodi, bisexual). A line that drops upkeep as too costly shows no act of upkeep (TheFarLeftSide).
   - **What counts as upkeep.** A pledge or plan to keep the work counts as P05's talk ('I'll protect it now', redpandas). A placer's own correction of a misplaced pixel is not upkeep against change (predators, stlouis). Keeping a border black to avoid angering a neighbour is P07's sparing, not keeping (kindafunny).
   - **Draws.** The draws at verb offsets 227, 327, 427 and 527 held all 380 instantiate lines (100, 100, 100 and 80). In the 40 lines drawn, 17 hows claim more than their quotes show, and two drawn lines are NONPORTABLE, so every packet was read whole.
+- **G36 (logged at D3a-31, before any of A04's lines was read or ruled).** A04 is a standing arrow from C2, P05 → P08, of kind order. Its connection reads: 'in a room carrying both, the first act of upkeep or defence comes before the first border talk, truce or deal'. Its mechanism: 'Keeping a mark against erosion brings the room up against the neighbours whose pixels erode it, and the room turns to talk with them.' It fails if 'border talk comes only before any upkeep or defence, or upkeep against a neighbour never turns to talk with it'. Its bound names the rooms where border talk comes first: late rooms asking for space before they have a mark to keep, a work found already placed, a room entering through another room's offer, neighbours present from the first post, and, by two coders at C5, first border talk that mostly offers terms before any damage. C2 counted it in 235 of 401 rooms carrying both (0.586; null mean 0.501, p95 0.539). P05 is read by G11, as move 173 left it. P08 is read by G18 and its readings: talk of terms with another room about where works meet or how each treats the other's work; an appeal with no terms is P07's, help for help is P16's, an alliance is P17's.
+
+  A04 is not stated as universal; it claims an order counted inside each room. So its absent lines are never corrections. G2 and G3 rule them:
+  - an `observed-absent` or `not-needed` line is a specification where the concepts show upkeep with no border talk, border talk with no upkeep, neither, or the bound's pattern;
+  - a concept that shows upkeep or defence of the room's mark and, after it, border talk, a truce or a deal with another room makes the claim of absence fail (reject);
+  - `unobserved` and `not-testable` lines are evidence limits.
+
+  An instantiate line shows A04 when its concepts show upkeep or defence of the room's mark (G11) and, after it, P08's terms with another room (G18). The order is read from the concepts' hours (`cite.py`), the transitions, or one post whose words name the damage or the defence first and then propose or ask terms ('We have to stop this takeover!', then 'Maybe we can arrange something with r/rarepuppers'). The talk need not be with the room that caused the damage. It is rejected when:
+  - the first border talk comes before any upkeep: space asked before the room has a mark to keep, terms offered before any damage, a work found placed, or entry through another room's offer (the bound's pattern, counted in the census as the bound);
+  - only one end is shown;
+  - what follows the upkeep is not P08's terms: an appeal with no terms (P07), help traded for help (P16), an alliance (P17), an attack (P09) or taunts (P18);
+  - the upkeep or the talk is another room's own and the room's members do not take it up (the visitor rule), or it comes after hour 73.
+
+  A restrict or contradict line is ruled by G9, read for an arrow, as under G34 and G35. A restriction whose condition the connection, the mechanism or the bound already holds is a specification where its concepts show the order or the bound's pattern, and an evidence limit (kind `none`) where they show neither. A condition held by another statement is a specification naming it (G4a, as extended to restrict lines). A correction states a condition that A04 and its bound lack and shows the order failing without it. A restriction whose concepts show upkeep against a neighbour that never turns to talk meets A04's `mechanism_fails_if`; G9 rules it a correction where no statement holds its condition (fighting on is P09's and P18's; moving away is P10's; sparing with no terms is P07's). Two accepted corrections with one target and one lifted node at the third or fourth level trigger §2.
+
+  The order test is written and logged before it runs: the census of the rulings by room (the order, the bound with terms first, one end, other), beside C2's count and the C5 range. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are P05, P08, P07, P09, P10 and A10, P16, P17, P18, P21, A05, A14, A17, A19, A21, K02 and P20. Candidates hold no line (R02, P06, P19, K03, K04). Draws follow G1b: one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset (318, after 280 absent, 35 add-condition, 1 add-step and 1 contradict lines), which the first draw's header confirms.
+
+  **G36's readings, stated while ruling (D3a-31).** They read G36 and change no ruling rule. Each was logged before any line it touched was written.
+  - **Proposals to ask.** G36 reads P08 by G18 and its readings. So a member's proposal inside the room to ask another room, with no request shown made, is not P08's terms ('We need to talk to them.', DestinyTheGame; 'Diplomacy is our only option now', adventuretime). Such a line is rejected and counted apart. A request reported made, or under way by its speaker, counts ('I have tried to contact them.', WPI; 'I'm going into their discord to talk to them', gameofthrones). G36's own example pair (unturned, 'We have to stop this takeover!', then 'Maybe we can arrange something with r/rarepuppers') shows the order of words. Its second post is such a proposal, as is adventuretime's, so both of A04's support transitions show upkeep followed by a proposal to talk.
+  - **Damage inside the talk (J).** Where the talk names the damage only as its reason or condition ('We will let your half-zia remain as long as you tell your brethren to stop invading the spoked B.', bostonbruins), or the talk is itself the means of defence ('Selten so viele Verhandlungen geführt um 50 Pixel zu verteidigen.', Moondye7), and no act of upkeep comes before it, the order cannot be read. The census counts these apart, as G35 counted J.
+  - **A complaint to the other side is talk.** A complaint or appeal addressed to the other room that names the damage ('Why are you harassing our work????', harrypotter; 'please stop destroying our last line.', uva) is talk, not keeping. G11's watching warns the room's own members. Applied backwards before any line was written, it moved harrypotter-022 from the order to J.
+  - **A loss or a move in place of upkeep.** The room moves away instead of talking terms, or seeks a new place by talk after its spot is lost (archlinux, Dominican, furry_irl, malta). P10 and A10 hold these, and K02 where the room says it lacks hands (iastate).
+  - **What counts as upkeep.** A call to defend or protect counts before any damage, as P01's hold form ('We must protect her at all cost.', hatsune). A warning that a neighbour approaches does not ('Looks like Finland is gonna eat us up later.', chibears; 'all day its been coming closer', masseffect), since G11's watching warns that the work is changed.
+  - **The neighbour's terms.** A neighbour's terms after the room's upkeep show the order, since G18 reads P08 from either room's record (cavestory, giantbomb, uwaterloo). A visitor's post that names both sides' fighting and then offers terms counts ('we are both wasting time/energy/effort fighting over it', livecounting; TheHulk, where the room takes up the terms).
+  - **One post.** A post whose words name the upkeep first and then report or propose terms shows the order (glasgow, lost, zelda among the absent lines; brasil, terraria and vocaloid among the instantiate lines).
+  - **The first act of each.** A line whose concepts show both patterns is classed by the first act of each, as the connection counts them. The first talk before the first upkeep is the bound (RelientK-027, patriots-052, warframe-034).
+  - **The room's own encroachment.** Talk that answers the room's own covering of a neighbour is A17's order (the room's act against another work before its border talk; encroaching counts as an attack, G20). A restrict or add line with no upkeep before such talk is a specification naming A17. Where an act of upkeep comes first, the line shows A04's order, with A17 named (austria, ravens, sheffield, vermont).
+  - **Upkeep that turns elsewhere.** Upkeep that turns to a move or to sparing with no terms is held by P10 or P07, as G36 says (nyjets, funhaus).
+  - **Draws.** The draws at verb offsets 318 and 418 held all 181 instantiate lines (100 and 81). In the 20 lines drawn, 6 show the order, and 3 hows claim more than their quotes show (clg-030, uiuc-025, monsterhunter-029). Every packet was read whole, with every cited concept quoted.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -3301,5 +3330,56 @@ A03 is a standing arrow from C2, P03 → P05, of kind order. Its connection read
 `validate.py D3` reports 25,344 of 42,243 ledger lines ruled: the 24,656 before this leg and A03's 688. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 26,101 lines: 688 first rulings from this leg and no re-ruling. Appended re-rulings stay at 757.
 - **Pairs.** A03's files hold no pair (`d3_pair_check.py`). Across the ledger, 1,235 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 150 lines, elements 30, arrows 21, findings 37 and tier history 561. Both hashes are unchanged (elements 47ff7a11…, arrows ff0b3963…).
+- **Questions.** None is open.
+
+## D3a-31: A04, upkeep before border talk
+
+A04 is a standing arrow from C2, P05 → P08, of kind order. Its connection reads: 'in a room carrying both, the first act of upkeep or defence comes before the first border talk, truce or deal'. Its bound names the rooms where border talk comes first, and C5's two coders found that such talk mostly offers terms before any damage. C2 counted the order in 235 of 401 rooms (0.586; null mean 0.501, p95 0.539). G36 was written before any line was read, and its readings are written under it (above). All 668 lines, in 662 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_a04_census.py` and `d3_pair_check.py`.
+
+| op | lines | specification | elaboration | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 181 | 58 | 0 | 0 | 0 | 5 | 118 |
+| absent (216 `not-testable`, 64 `unobserved`) | 280 | 0 | 0 | 0 | 225 | 3 | 52 |
+| restrict | 170 | 151 | 0 | 0 | 19 | 0 | 0 |
+| add-condition | 35 | 34 | 1 | 0 | 0 | 0 | 0 |
+| add-step | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+| contradict | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+| all | 668 | 245 | 1 | 0 | 244 | 8 | 170 |
+
+**What the rooms show (the census, `d3_a04_census.py`).** Its rules were logged before it ran. Each line keeps the class it was ruled under, and the helper checks every class against the decision written.
+- **The order, 141 rooms.** Upkeep or defence of the room's mark comes first, and terms with another room follow ('I will put my pixels to work fighting the grey invaders to the north east', then 'Had a calm talk with them and they agreed to move.', japan; 'To defend it, click here', then a neighbour's 'Maybe we lower the head a bit and you leave some space to the right?', cavestory).
+- **The bound, 124 rooms.** The room's first talk comes before any upkeep or damage: space asked while building, terms before damage, or entry through another room's offer ('We'd like to avoid unnecessary fights and wasted pixel placements, so we'd like to propose cooperation.', paydaytheheist; 'WE GOT PERMISSION FROM R/GREENLATTICE', then 'Now let's defend and protect it well.', hongkong).
+- Two rooms show both. So 265 rooms show an episode, and the order holds in 141 (0.532). 56 rooms show only J or a proposal to ask; with them, the order holds in 141 of 321 (0.439). C2's share was 0.586 over 401 rooms.
+- **The turn that stops at a proposal.** In 33 rooms, upkeep is followed by a member's proposal to talk with no request made ('Could we get a mod to request r/ainbowroad to coexist with our small place?', PUBATTLEGROUNDS; 'Propongo di passare alla diplomazia con l'Inghilterra', italy). G18 does not count these as terms. Both of A04's support transitions are of this kind.
+
+**No correction (§2).** No restrict line is an accepted correction. Of the 170, 151 are specifications and 19 are evidence limits. Most say that border talk can begin while the mark is being built, before any damage, or on entry through another room's offer; A04's bound holds that (90 lines). 31 show the order. 30 are held by other statements under G4a: 22 by A17, since the talk answers the room's own encroachment on a neighbour (croatia, czech, habs, mechanicalkeyboards); 2 by P07 with A05's bound (Summit1G, satania); and one each by P07 with P05's upkeep before growth (funhaus), P05 and P02 (AyyMD, a change the room's own members made), P17 and P21 (TheB1G), P10 (nyjets), A19 and P07 (parrots) and P16 (uiowa). The 36 add lines are 35 specifications, held by A04's bound (19), A17 (9), A04's connection as G36 reads it (4), P16 and A14 (de), P05 and P02 (taiwan) and a counting rule read by its concepts (suomi), and one paired elaboration. That elaboration is AmericanFlaginPlace-026: working out who placed the pixels before treating erosion as a neighbour's conduct is P06's form, a candidate, paired with ucf-016 from P08's group as G18 paired such lines. The contradict line (lithuania-041) states the bound's pattern, a neighbour's terms before any upkeep, so it is a specification. A04 stands as bounded, with no move.
+
+**What the instantiate rejects show (118).** Proposals to ask, 33. Damage inside the talk (J), 23. Not P08's terms, 21: choices inside the room, appeals with no terms, lone placers, help and alliances. The bound, 15. The neighbour's own upkeep or after hour 73, 10. A loss or a move, 8. One end, 8. Five more lines are NONPORTABLE ('quebec', 'halo', 'mexico', 'france', 'sweden') and are particulars by G6.
+
+**Absent lines.** No line is evidenced: 216 are `not-testable` and 64 `unobserved`. 52 claims of absence fail because a concept shows upkeep or defence and, after it, terms with another room. Many labelers marked these not-testable because no member says the upkeep caused the talk; G36 asks for the order, which the concepts show. Three lines are NONPORTABLE particulars (AprilKnights-035, Clannad-024, belgium-038). The other 225 are evidence limits. A guard listed 66 limits whose labels name talk; each was looked at again, and one moved (lost-037, one post naming upkeep and then two treaties).
+
+**Repairs (G7).** Lines in repaired rooms were 0.722 accepted (370 lines), and in unrepaired rooms 0.748 (298 lines). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **The near-even split.** The read lines show the order in 141 rooms and talk first in 124. Talk first is mostly space asked while building or terms offered before damage, the pattern A04's bound and C5's coders name. D3c's re-read and D4 weigh it with the spine's three links.
+- **The turn that stops at a proposal** (33 rooms) and A04's support transitions, which are proposals. D3c weighs whether the mechanism's 'turns to talk' is shown by proposals or only by terms.
+- **The room's own encroachment.** Talk that answers the room's covering of a neighbour (22 restrict lines and 9 adds) belongs with A17 and the contest family.
+- **Attribution** (AmericanFlaginPlace-026, paragon-027, SquareSpiral-053) is P06's form, carried to the clustering.
+- **The re-check (§5).** A04 is not rewritten, so it adds no room to the re-check.
+
+**Disclosed limits and slips.**
+- **Quotes read.** Instantiate 403 concepts and restrict 529, every cited concept of every line; absent 189, in five batches and one check. Eight threads were read whole for doubtful lines.
+- **Counts typed before counting.** Two diary notes gave sub-counts typed before a script counted them (21 for 22 restrict lines held by A17; 20 for 19 add lines held by the bound). Later notes corrected both from scripts. The ledger count in the absent note was computed by adding 280 to the previous count before `wc -l` printed it; the printed count matched.
+- **Two Edits in one turn.** Two Edits to `d3_a04_adds.py` ran in one turn, on different lines; both were checked by `grep` before the script ran.
+- **A refused check.** A one-line coverage check was refused by the permission check. It was replaced by `d3_spec_cover.py`.
+- **Reclassification inside the leg.** harrypotter-022 moved from the order to J by the reading on complaints, before any line was written.
+- **A superseded absent build.** lost-037 moved by the guard; the rulings were rebuilt as `A04-absent-v2.jsonl`. `A04-absent.jsonl` stays, unused.
+
+### Close-check, D3a-31
+
+`validate.py D3` reports 26,012 of 42,243 ledger lines ruled: the 25,344 before this leg and A04's 668. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 26,769 lines: 668 first rulings from this leg and no re-ruling. Appended re-rulings stay at 757.
+- **Pairs.** A04's files hold one pair, AmericanFlaginPlace-026 with ucf-016 (`d3_pair_check.py`). Across the ledger, 1,236 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 150 lines, elements 30, arrows 21, findings 37 and tier history 561. Both hashes are unchanged (elements 47ff7a11…, arrows ff0b3963…).
 - **Questions.** None is open.
