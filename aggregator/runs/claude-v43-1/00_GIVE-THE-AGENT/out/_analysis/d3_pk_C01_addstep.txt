@@ -1,0 +1,126 @@
+C01: 23 lines in all (op add-step); packet [0, 23): 23 lines; carried through T3-066,T3-101,T3-103,T3-121,T3-125,T3-172,T3-173,T3-187
+ops in the packet: {'add-step': 23}
+
+== GabrielDropout-009  add-step  [pending]  repairs 1  not carried
+   source t04 (working out one design and what to call it); lift GabrielDropout:t04 > T3-004 > T4-006 > D02
+   how: An explicit two-person assent threshold licenses starting, preserving a small procedural decision without treating it as formal voting or refuting the model's cross-room prevalence claim.
+   codes: c0015 treating two agreements as enough to start; c0016 starting to place the agreed design
+   transitions: 62v7xa:1.1.1.1.1.2.1.1.1.1>1.1.1.1.1.2.1.1.1.1.1
+
+== GreenCorner-013  add-step  [pending]  repairs 1  carried
+   source t08 (electing leaders and letting polls decide); lift GreenCorner:t08 > T3-173 > T4-011 > D02
+   how: Members defend voting as an obligation during attack, making the decision procedure itself a disputed commitment rather than merely selecting an efficient plan.
+   codes: c0105 objecting to elections during the attack; c0106 defending democracy even during attack; c0079 letting a poll decide whether to fight, expand, or move; c0081 announcing the poll's decision to keep fighting
+   transitions: 62sarp:1>1.1
+
+== argentina-016  add-step  [pending]  repairs 1  carried
+   source t12 (policing who belongs, who helped and who gets blamed); lift argentina:t12 > T3-121 > T4-011 > D02
+   how: Separate requested sanctions from enforced exclusions and from corrected accusations before treating policing as decided order.
+   codes: c0237 calling for a permaban on people ruining the sub's flag; c0282 calling to identify traitors in a Hall of Shame; c0283 warning that pixel attribution lags before accusing anyone; c0286 answering that one wrong pixel was ineptitude, not treason
+
+== europe-009  add-step  [pending]  repairs 0  not carried
+   source t02 (organising pixels with plans, roles, and tools); lift europe:t02 > T3-070 > T4-008 > D02
+   how: This room is a documented decided-order case because participants explicitly divided work into equal taskforces and circulated a vote on the flag dispute.
+   codes: c0002 dividing participants into three equal groups; c0385 calling for a strawpoll vote on the flag dispute
+
+== fivenightsatfreddys-015  add-step  [pending]  repairs 0  not carried
+   source t09 (moving coordination between Reddit and other venues); lift fivenightsatfreddys:t09 > T3-014 > T4-010 > D02
+   how: Internal design factions invoke chat decisions and subreddit punishment across venue boundaries, without demonstrated control over canvas placement.
+   codes: c0536 saying the author is not in any Discord; c0537 declaring Freddit Discord greater than Freddit in their war; c0538 threatening a week ban for black pixels on Fredbear’s hat; c0543 saying their Discord decided to change the character; c0544 casting the character fight as Fredditcord against Freddit and the Philippine group
+
+== germany-042  add-step  [pending]  repairs 0  not carried
+   source t16 (centralising canvas work and arguing where decisions belong); lift germany:t16 > T3-090 > T4-002 > D06
+   how: Separate reported voting arrangements from participants' acceptance of their venue and authority.
+   codes: c0099 refusing orders from a group deciding behind closed doors; c0100 inviting the critic to democratic votes on Discord; c0101 insisting a Reddit action should stay on Reddit
+   transitions: 62yu1w:7.1.1.1.1>7.1.1.1.1.1, 62yu1w:7.1.1.1.1.1>7.1.1.1.1.1.1
+
+== hsv-013  add-step  [pending]  repairs 0  not carried
+   source t02 (placing from coordinates and fixing stray pixels); lift hsv:t02 > T3-070 > T4-008 > D02
+   how: The local account includes temporary divisions of placement and posting work without requiring an appointed commander.
+   codes: c0083 splitting work between the new coordinates and the current build; c0085 asking Casper to make the new post while busy
+
+== kpop-007  add-step  [pending]  repairs 2  not carried
+   source t04 (working out what r/kpop should make and who will join); lift kpop:t04 > T3-033 > T4-006 > D02
+   how: A proposed vote makes formal decision procedure a live possibility while leaving its enactment and authority unresolved.
+   codes: c0024 proposing a vote on what to make
+
+== leagueoflegends-070  add-step  [pending]  repairs 1  not carried
+   source t17 (Moving pixel work into Discord, scripts, and border deals); lift leagueoflegends:t17 > T3-014 > T4-010 > D02
+   how: A participant proposes separate cleanup and building teams, establishing attempted decided order while leaving implementation unobserved.
+   codes: c1682 splitting into cleanup and building teams and asking for Discord
+
+== pathofexile-016  add-step  [pending]  repairs 1  not carried
+   source t08 (moving current plans through stickies and Discord); lift pathofexile:t08 > T3-014 > T4-010 > D02
+   how: Project leaders obtain their own chat administration and announcement channel to coordinate while ordinary moderators are unavailable.
+   codes: c0235 asking why the project did not use the official Discord; c0230 explaining why project leaders need their own Discord control
+   transitions: 63095t:4.1>4.1.1
+
+== placetardis-035  add-step  [pending]  repairs 0  not carried
+   source t07 (bringing helpers together and returning help); lift placetardis:t07 > T3-062 > T4-005 > D01
+   how: The room explicitly decided an open speaking procedure despite having no fixed leader, without testing the model's population frequency.
+   codes: c0043 answering that a mod is not a specific leader; c0050 letting any fan who steps up speak for the group
+
+== predators-012  add-step  [pending]  repairs 0  not carried
+   source t05 (keeping updates, choices, and duplicate efforts together); lift predators:t05 > T3-015 > T4-002 > D06
+   how: Polling is observable as an organizing procedure even though its result and authority remain unresolved.
+   codes: c0031 sending the choice to a Strawpoll
+
+== romania-017  add-step  [pending]  repairs 1  not carried
+   source t03 (organizing flag work in one thread and Discord); lift romania:t03 > T3-015 > T4-002 > D06
+   how: Choosing the organising venue itself becomes a dispute answered by explaining how uncoordinated makers erase one another.
+   codes: c0145 telling people not to change the flag without joining Discord; c0146 rejecting the plan to draw users onto Discord; c0147 coordinating so makers stop undoing one another's work
+   transitions: 62z7uk:0>1, 62z7uk:1>1.1
+
+== rust-019  add-step  [pending]  repairs 0  not carried
+   source t11 (making bot power coexist with neighboring art); lift rust:t11 > T3-168 > T4-009 > D02
+   how: Negotiated cession passes through finding target decision-makers and reporting support for a removal pull request.
+   codes: c0165 finding the right people to cede part of the dinosaur; c0167 using a supported PR to remove the dinosaur and free space
+
+== satania-012  add-step  [pending]  repairs 0  not carried
+   source t02 (building and finishing the signs together); lift satania:t02 > T3-038 > T4-007 > D02
+   how: Assigning the next required border is a local division of work without evidence of appointing a commander.
+   codes: c0006 promising to help build the sign; c0007 thanking a helper and assigning a pink border
+   transitions: 62ud6z:1>1.1
+
+== sheffield-032  add-step  [pending]  repairs 0  not carried
+   source t06 (making Sheffield blue, white and flowery); lift sheffield:t06 > T3-004 > T4-006 > D02
+   how: Informal polling, a claimed colour winner and deference provide limited decided order without establishing leadership or a formal election.
+   codes: c0032 polling whether to choose a blue or leave it; c0033 calling medium blue the winner while someone stops it around Sheffield; c0034 leaving the colours as-is unless told otherwise; c0036 leaving the joined design to what people want
+
+== starcraft-013  add-step  [pending]  repairs 0  carried
+   source t09 (routing decisions through volunteer organisers); lift starcraft:t09 > T3-101 > T4-011 > D02
+   how: Recognized volunteer leads authorize a proposed design change before another organizer incorporates it into the public plan.
+   codes: c0173 proposing white accent lines to improve the logo; c0174 waiting for a go-ahead before changing the megathread; c0175 approving the logo change as the next goal; c0176 updating the megathread after approval
+   transitions: 636yd7:4>4.1, 636yd7:4.1>4.1.1, 636yd7:4.1.1>4.1.1.1
+
+== starryknights-054  add-step  [pending]  repairs 1  carried
+   source t05 (moving coordination and membership through Discord); lift starryknights:t05 > T3-014 > T4-010 > D02
+   how: Decided order includes appeals that restore access, so a reversed exclusion cannot establish that the appellant was a vandal.
+   codes: c0046 challenging a Discord ban; c0088 reversing a challenged Discord ban; c0089 thanking the moderator for reversing the ban
+   transitions: 63376w:0>1, 63376w:1>1.1
+
+== suomi-056  add-step  [pending]  repairs 1  not carried
+   source t09 (building and defending Finnish flags); lift suomi:t09 > T3-065 > T4-006 > D02
+   how: A requested morning-shift handoff supplies local ordering evidence without proving formal leadership or an adopted command structure.
+   codes: c0133 handing responsibility to the morning shift after fighting ‘traitors’ through the night; c0136 asking a moderator to make one official project so work moves faster
+
+== swordartonline-053  add-step  [pending]  repairs 1  not carried
+   source t04 (starting an Elucidator and asking others to help); lift swordartonline:t04 > T3-038 > T4-007 > D02
+   how: Recognize explicit handover of initiative as limited decided order without requiring formal appointment or inferring enforceable command.
+   codes: c0011 heading over to work on the Elucidator; c0012 giving others initiative to move the drawing
+   transitions: 62suq6:2>2.1
+
+== turkey-012  add-step  [pending]  repairs 0  not carried
+   source t04 (stretching scarce manpower with forums, accounts, bots, scripts, and Discord); lift turkey:t04 > T3-062 > T4-005 > D01
+   how: Voting is protected from suspected rival interference by moving it from a public poll to private messages and screening voters.
+   codes: c0100 moving the target vote to private messages because SFU might raid the strawpoll
+
+== uoft-017  add-step  [pending]  repairs 0  carried
+   source t11 (policing and correcting vandalism by UofT members); lift uoft:t11 > T3-121 > T4-011 > D02
+   how: The announced sanction regulates membership in the host venue for canvas damage without demonstrating authority over every placer's pixels.
+   codes: c0109 announcing temporary bans for UofT members caught vandalizing the community's r/place work; c0112 celebrating moderator action as justice; c0130 expecting a ban after being caught attacking the truck
+
+== vermont-013  add-step  [pending]  repairs 0  not carried
+   source t05 (keeping vandalism away from VT); lift vermont:t05 > T3-021 > T4-013 > D03
+   how: Members decide a voluntary division between maintaining the existing image and expanding it without demonstrating formal appointment or a vote.
+   codes: c0039 working together as a semi-constant vandalism shield; c0038 thanking a defender and sharing the updated UVM template

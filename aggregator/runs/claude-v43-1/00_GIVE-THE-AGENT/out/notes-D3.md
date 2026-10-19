@@ -492,6 +492,32 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Assent.** Assent to terms, a deal or an offer is P15's, with P08's terms beside it, since the reply line asks for nothing (destiny-020's restriction was rejected). Assent to a cheer, a declaration or an announcement is not assent to a proposal (SydneyFC-037, thetreesnetwork-009). A proposer committing to its own proposal answers no one (buffalowizards-003).
   - **Who answers.** A visitor or a neighbour answering the room's call or proposal in the room's thread counts (Dorset-015, hearthstone-030, rhythmheaven-013). An organizer's welcome or thanks that closes the exchange does not (h3h3productions-065, carletonu-009).
   - **Later canvases.** An answer given in the thread to a proposal about a later canvas stays P15, with P13 beside it. P15 sets no hour, and the act is in the thread (aeskwadraat-018).
+- **G29 (logged at D3a-24, before C01's lines were read or ruled).** C01 is a claim with two sides. Most rooms worked without deciding how they were organized, and a decided element of order appears in few rooms. A line instantiates C01 when a concept shows either side in the room. The forms are the ones C01's statement and T4-011's prose name. Members saying the room has no plan, no leader or no rules ('We just wing it') are C01's lower end. A colour faction holding elections is its upper end. That covers:
+  - a decided element of order: a vote taken or a poll held on the room's work; a member put in charge, named or elected as leader, coordinator or officer; an office or role given; an oath taken or renewed; a sanction decided against the room's own members (a ban, an exclusion, a named list of the room's vandals); the work divided among named teams or members by assignment or agreement; the work handed over to named members;
+  - members saying the room works with no plan, leader or rules, or declining to decide.
+
+  The element must be decided or put to the room as a rule. A poll opened counts; a bare suggestion to vote that no one takes up does not. A member assigning a part to themself alone is not a division of the work. Decided elements count at any hour. After hour 73, P13's carrying on stands beside them where they set up a lasting group.
+
+  C01 is not shown by:
+  - a call for hands (P01), a design argued with no decision rule (P02), a template, coordinates or a plan (P04; A11, alignment without decision), or a state report (P03);
+  - a member starting or leading the work by acting, with no one naming or choosing them (R01's starter, P04's planner);
+  - the host's moderators drawing a line around canvas talk (P20), or a host's rule over guests alone (P19's form, a candidate). A vote or ban decided inside a colour faction or host shows C01, with P19's form beside it;
+  - an agreement with another room (P08, P17), unless it decides the room's own order.
+
+  C01 is not stated as universal: its own statement says most rooms did not decide. So its absent lines are never corrections. G2 and G3 rule them. An `observed-absent` or `not-needed` line is a specification where the concepts show the room working with calls, plans and reports and no decided element, which is C01's majority clause. A decided element of order shows C01, and the claim of absence fails. G9 rules restrict and contradict lines. A correction must state a condition C01 lacks and show C01 failing without it. F-006's bound already holds that votes and divisions of the work appear in rooms not placed on the theme, and that decided order gathers in colour factions and hosts that vet requests. Corrections met twice at one node trigger §2, and F-006 would then be re-examined. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are:
+  - P01, P02, P04 and A11 (calls, design and templates; alignment without decision), R01 (the starter), P03 (reports), P20 (the host's line), P05 (keeping), P13 (carrying on), K01 (the April Fools frame) and P08 and P17 (other rooms).
+
+  G4a's clause 2 lets any standing statement hold a line. Candidates and tentative entries hold no line: P06, P19, P21, R02, K03 and K04. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset, which the first draw's header confirms.
+
+  **G29's readings, stated while ruling (D3a-24).** They read G29 and change no ruling rule.
+  - **A division of the work.** It shows C01 when one member assigns another named member or team a part ('You connect the bottom of the E, I'll work on the top'). It also shows C01 when members agree to a proposed split, when squads, teams or shifts are set, or when the room's members are split by what they do, with a task for each ('The artist among you, need to do proper outlines'). It does not show C01 when a member takes a part and leaves the rest to others as they were ('letting random's work on keeping the interior fixed'). Parts taken unprompted, one order of work given to every reader ('focus on the bottom first, then the middle'), and a split offered as a question with no answer shown do not show it either.
+  - **Officers.** A room's or host's moderators or officers show C01 when they decide for the room by their office. That covers an executive decision, an approval or refusal of the room's work, a ban, a rule, and a priority, strategy or plan they declare ('This will be the new plan for now'). Members saying that a decision belongs to the officers also show it ('mod team to decide whether we go to war or back down'). A request to the moderators with no decision shown does not. A moderator's sticky of a plan that someone else made does not, and an official plan whose deciders are not shown does not.
+  - **Named leaders and roles.** Members naming someone by title (leader, commanders, diplomats, representatives, president, a coordinator team) show the decided side. Thanks for organizing, spearheading or 'leading the charge', and praise as a figure ('like a real leader'), credit a member who led by acting (R01, P04). A role that a member names for themself, with no one shown giving it, is not a decided element. Offices opened and not shown filled are not one either.
+  - **Handovers.** The keeper of the work may pass the work, or control of it, to named members, to a named shift, or to the room as a whole ('I'm passing on this open source maintainership of these pixels to you the community', T3-187's own case). That shows C01. A member leaving for the night who asks 'somebody' to keep the work does not, and a designer leaving a draft for anyone does not.
+  - **Votes and agreement.** A vote taken or opened counts whatever its subject, alliances included; the tie itself stays P17's. A post or comment that puts a choice to the room with its options opens a vote ('Let's take a vote. White or red?'). One member's 'I vote for' in talk does not, a suggestion to vote that no one takes up does not, and a vote planned for later does not. A decision that the room or its chat is said to have reached by agreement, consensus or majority names its procedure and shows C01 ('We at the discord have agreed to keep the white border'). A decision reported only as 'decided in the Discord' is T4-010's backstage decision and does not. Members coming round to one colour after an argument is A11's alignment, not a decision taken. A vote on a host's own ritual or jokes is not a vote on the room's work.
+  - **Sanctions and entry rules.** A sanction shows C01 when it is decided against the room's own members over its canvas work or its order: vandalism, attack suggestions, speaking for the room, or a chat's security rule. An entry rule for the room's organizing venue (screening, entry by invitation) shows it too. The host's moderation of talk under its standing rules does not, and P20's removals and megathreads do not. Jokes of bans and ranks in play (K01) do not, and another room's sanctions do not. A sanction whose ground the record does not give is an evidence limit.
+  - **The lower end.** It speaks of how the room is organized. Members say that it has no leader, no structure, no organization or no coordination, that it 'goes by itself', or that it should have organized and did not. Drawing without a template ('winging it from a gold pixel') speaks of the design, and does not show it. Permission to place anywhere does not, and talk of leaderless collective art in general does not. A call for a leader, alone, is a call.
+  - **Restrictions.** Some restrictions state a condition that C01 never claimed: obedience, binding every placer, an appointment, or effective control. C01's statement holds them. A restriction saying that the record cannot show the order inside unseen chats is an evidence limit. A restriction that counts as decided order what G29 does not, or that denies what G29 counts, conflicts with G29 and is rejected.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -2706,5 +2732,85 @@ P15 is shown by an accepted instantiate line in 579 of the 705 rooms. The helper
 `validate.py D3` reports 20,394 of 42,243 ledger lines ruled: the 19,605 before this leg and P15's 789. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 21,109 lines: 789 first rulings from this leg and no re-ruling. Appended re-rulings stay at 715.
 - **Pairs.** P15's files hold no pairs (`d3_pair_check.py`). Across the ledger, 1,268 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-24: C01, decided order
+
+C01 is a standing claim, placed in T4-011 ('Decided order') and the form-pass tier FP-08, in dimension D02. Its statement reads: 'Most rooms worked on their marks without deciding how they were organized: a decided element of order (a leader, a vote, an oath, a sanction, a division of the work) is coded in 46 of 705 rooms (F-006).' Its range runs from rooms that say they wing it to colour factions holding elections. No arrow touches it. G29 was written before any line was read, and its readings are written under it (above). All 777 lines, in 705 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_c01_sides.py`, `d3_pair_check.py` and `d3_reason_phrases.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 108 | 80 | 0 | 0 | 0 | 0 | 28 |
+| absent (465 `not-testable`, 19 `unobserved`) | 484 | 0 | 0 | 0 | 421 | 1 | 62 |
+| restrict | 122 | 94 | 0 | 0 | 14 | 1 | 13 |
+| add-condition | 39 | 32 | 3 | 0 | 2 | 0 | 2 |
+| add-step | 23 | 15 | 5 | 0 | 0 | 1 | 2 |
+| link | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+| all | 777 | 222 | 8 | 0 | 437 | 3 | 107 |
+
+**Where C01 is shown.** Accepted instantiate lines show it in 76 rooms. In 62 more lines, all absent, the concepts show it, so the claim of absence was rejected; two rooms hold both. C01 is shown in 136 rooms in all (`d3_c01_sides.py`). By the reasons' wording, 119 of these rooms hold a decided element, and 21 hold a line naming the lower end (17 hold only the lower end). The helper counts 249 rooms, but it also takes restrict and add specifications, which mostly state conditions C01 never claimed. No absent line is `observed-absent` or `not-needed`, so no absent line is a specification of the majority clause. The 421 limits are rooms whose record, as read, shows neither side.
+
+**The count against F-006.** The return shows a decided element in about 119 rooms, against the 46 coded at C3. The majority clause still holds: the other 586 rooms show no decided element in the return. F-006's count stands as a count of coded rooms. Its bound already says that votes and divisions of the work appear in rooms not placed on the theme. The difference is a fact to carry to the verdicts leg and to D3c's re-read. No ruling is revisited because of it.
+
+**What the specifications show.** These are rough counts, by phrase in the reason:
+- C01's minority clause is named 29 times, the lower end 15 and the majority clause 5;
+- other statements named: P20 13 (the host's line, apart from order over the canvas work), K01 5 (mock ranks, bans and votes in play), P17 5 (a tie decided by vote stays P17's), A11 4 and P04 4 (templates and plans), F-006's bound 4, R01 3, P08 3, P02, P12 and P13 twice each, and P14, P15, A01 and P05 once each.
+
+**Restrict lines: no correction.** 94 restrict lines are specifications. Most place the room in C01's minority with a decided element, or state a limit that C01 never claimed (obedience, binding every placer, an appointment, effective command). 14 are evidence limits: the record cannot show what unseen chats decided. 13 were rejected:
+- they count as decided order what G29 does not: GranColombia-010 (a venue demanded), bindingofisaac-041 (a member's own part and an open call), catalunya-012 (one member's consensus norm), dbz-008 (a vote suggested), portugal-022 (a chat decision with no procedure);
+- they deny what G29 counts: littlewitchacademia-014 (commanders and diplomats named), monstercat-011 (T3-125's own exemplar, 'Nope, just refresh and click'), russia-009 ('there is zero coordination at this stage', narrowed to one proposal);
+- they rest on own parts, restraint or an allocation no concept shows: terraria-008, timbers-028, wildhockey-009, wine-012;
+- it does not bear on C01: funhaus-052 (whether there is a Discord).
+
+**Elaborations, 8, in two paired families** (counted by hand, since the family counter reads first reasons):
+- **Decided order reaching only the members inside its venue or faction** (add-condition, 3 rooms): ainbowroad-010 (decisions do not reach the thread's repairers), rocketleague-012 ('less than 20 people ... organized ... rest of that were randoms') and thebluecorner-010 (the faction's order, not everyone placing blue). No standing statement holds where decided order reaches inside a room.
+- **Where or how the room decides, contested or questioned** (add-step, 5 rooms): GreenCorner-013 (elections during an attack), germany-042 (a closed chat against the thread), romania-017 (a rule tying changes to Discord), fivenightsatfreddys-015 (the sub against its own Discord) and pathofexile-016 (the project leaders' own chat).
+
+The 8 pairs name ruled C01 lines, and none is left without its partner.
+
+**What the 107 rejects show.**
+- **Instantiate, 28.** The concepts show neither side by G29:
+  - self-assignment and members' own parts, 6: drawhelix-014, hentai-007, redpandas-011, smite-011, yogscast-012, fxKorea-011;
+  - orders of work and plans, 5: calgaryflames-013, floridagators-008, portal-014, redvsblue-009, transformers-007;
+  - proposals not taken up, or offered as questions, 4: onepunchman-015, homestuck-019, scotland-008, GrowTheTree-009;
+  - calls and self-started work, 6: 4chan-014, CKCrusaders-007, DiamondClub-008, Dominican-014, egypt-015, TreePlace-006;
+  - talk of the design, 3: Thegreatblackhole-011, swordartonline-008, morrowind-008;
+  - other, 4: an official plan with no deciders (denmark-011), the scripts' keeper leading by acting (wallstreetbets-019), a split agreed with a neighbour (hoodr-008), and a designer's draft left for anyone (survivor-022).
+- **Restrict, 13** (above). **Add-condition, 2:** dwarffortress-014 (chat decisions with no procedure) and ethereum-009 (a proposed plan). **Add-step, 2:** swordartonline-053 (a choice left to anyone) and vermont-013 (self-assignment).
+- **Absent, 62.** The concepts show C01, so the claim of absence fails:
+  - polls or votes opened or taken, 13: AMD-013, GuardiansOfDatBoi-010, chile-029, clubpenguin-027, czech-020, drugs-014, fireemblem-008, halo-032, harrypotter-013, patriots-013, radiohead-013, sheffield-033, taiwan-013;
+  - a decision reached by agreement or consensus, 10: Homura-012, animalcrossing-011, armenia-040, enterthegungeon-014, germany-041, giantbomb-017, kilian-011, neopets-031, starbound-013, theexpanse-016;
+  - named teams, shifts or splits of members, 8: AmericanFlaginPlace-018, buffalobills-017, eagles-012, forsen-013, heroesofthestorm-026, italy-011, orderofthebluecorner-008, rickandmorty-024;
+  - offices given or named by title, 6: falcons-015, fullcommunism-029, lovelive-018, paragon-018, placestart-014, rocketbeans-010;
+  - officers deciding by office, 4: PinkUnion-010, berkeley-023, strangerthings-010, twitchplayspokemon-014;
+  - rules, approvals, entry rules and sanctions, 7: asktransgender-011, greenbaypackers-014, ockytop-027, placecanada-021, placeportalpattern-036, roosterteeth-015, stlouis-014;
+  - handovers and assignments, 3: satania-011, suomi-027, texas-009;
+  - the lower end, 11: PinkVomitMonster-033, ScottPilgrim-012, calvinandhobbes-010, cowchop-031, liquicity-007, rwby-013, slovenia-009, ss13-018, stardustcrusaders-010, thenetherlands-010, unitedkingdom-009.
+
+**Absent lines.** The 421 limits are `not-testable` or `unobserved` lines whose concepts show calls, plans, templates, chats, reports, self-started work, credit for organizing, or decisions reported from unseen chats. A guard pattern listed 178 limits for a second look, and none moved after four more quotes.
+
+**Particulars, 3.** hearthstone-015 (G6, 'spongebob'), maryland-009 (G6, 'maryland'), and turkey-012 (G4a: a vote moved to private messages to shield it from a rival's raid, met in no second room).
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or add-step line was accepted as a correction. C01 stands as served, no move was made, and F-006 is not re-examined.
+
+**Repairs (G7).** Lines in repaired rooms were 0.853 accepted (422 lines), and in unrepaired rooms 0.865 (355 lines). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **The count.** A decided element is shown in about 119 rooms, against the 46 coded (F-006). It goes to the verdicts leg and D3c's re-read.
+- **The two families.** Decided order's reach goes beside A19's bound (coalitions cannot bind every placer). Contests over where the room decides go beside the chats item (T4-010).
+- **C01's edges.** P20 (the host's line), K01 (play) and P17 (ties decided by vote) are named 23 times in the specifications.
+
+**Disclosed limits and slips.**
+- **Draws.** Two seeded draws covered the instantiate lines, at verb offsets 547 (100 lines) and 647 (8 lines, all drawn). The first draw, at 546, held 99 instantiate lines, which showed that the lines start at 547. I kept that file unread and drew again at 547. Every drawn how agreed with its quotes, so each packet was ruled from its labels, read whole, with quotes read beside them for lines whose side the labels left open.
+- **Quotes read.** Instantiate 61, restrict 66, add and link 17, absent 129. Two diary lines carry slips in these counts: the first restrict packet's line says 51 (it was 50), and the absent line says 117 (it was 129).
+- **The helper's room count.** `d3_field_entry_counts.py` counts specifications of every op as showing the element, so I report 136 rooms from `d3_c01_sides.py`.
+- **Ruling by wording.** The split of the 136 rooms by side reads the reasons' wording ('lower end'), so it is approximate.
+
+### Close-check, D3a-24
+
+`validate.py D3` reports 21,171 of 42,243 ledger lines ruled: the 20,394 before this leg and C01's 777. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 21,886 lines: 777 first rulings from this leg and no re-ruling. Appended re-rulings stay at 715.
+- **Pairs.** C01's files hold 8 pairs, none left without its partner (`d3_pair_check.py`). Across the ledger, 1,276 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.

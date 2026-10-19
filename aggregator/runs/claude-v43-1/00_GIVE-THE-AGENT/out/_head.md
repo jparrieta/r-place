@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Last written at D3a-23, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Last written at D3a-24, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -25,12 +25,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-23)
+## The return (D1a to D3a-24)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 were revised (moves 172 and 173); P22, the field's entry, stands with its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09, P18, P10, K02, P14, P13, P20, P17 and P15 stand without correction.
-- **D3a-15 to D3a-23.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, too few hands or room [K02] in 520, machine hands [P14] in 320, carrying on [P13] in 292, the host's line [P20] in 310, coalitions [P17] in 383 (prose: 146), and bare answers [P15] in 579.
-- **G25 amended (D3a-20):** A09's bound keeps its words; 'near the close' starts at hour 61.
+- **D3a, by element.** R01 and P05 were revised (moves 172, 173); P22, the field's entry, stands with its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09, P18, P10, K02, P14, P13, P20, P17, P15 and C01 stand without correction.
+- **D3a-15 to D3a-24.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, too few hands or room [K02] in 520, machine hands [P14] in 320, carrying on [P13] in 292, the host's line [P20] in 310, coalitions [P17] in 383 (prose: 146), bare answers [P15] in 579, and decided order [C01] in 136.
 
 ## The current account, and the contrary rooms
 
@@ -39,7 +38,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 - **Keeping holds the known form** [P05]. Repair restores the form the keepers know, so a change the room planned [P02] is repaired away until they are told.
 - **The bare answer.** Most calls get no written reply. Written acceptances come bare (25 of 31, F-023), and refusals give a reason (attack calls 23 of 38, F-014). The head-count claim failed (F-015).
 - **The host's line.** It follows the calls in 132 of 155 rooms [A20].
-- **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 rooms [C01, F-006].
+- **Alignment without decision** (theorised, thin). 233 of 370 rooms with calls report a work up after the first call (F-021). A template settles a design inside a thread [A11]. Decided order is coded in 46 rooms [C01, F-006]; the return shows it in about 119.
 - **Direct information sharing (T4-007).** Members post the mark's state [P03; F-018], largely apart from sharing templates (F-022).
 - **Other rooms.** Keeping brings neighbour talk in 235 of 401 rooms [A04], mostly offering terms first. Help names a deal in 63 of 127 such rooms, against 23 of 67 [A14; F-020]. Sparing rests on the room's own norm (A05 theorised). Coalitions [A19] cannot bind every placer.
 - **The contest.** A call can turn members against a rival [A15]. The same room meets the attack call with sparing, refusal or apology [A16] and border talk [A17].
@@ -60,14 +59,14 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 - **Move 174 (D3a-06, developing working hypotheses).** P22 stands (177 of 705 rooms after hour 73); its range names one member correcting a claim about the room's work.
 - **Move 173 (D3a-04, relating).** Corrections met twice at T4-013, and an order test held in 7 of 11 rooms.
-- **Move 172 (D3a-01).** R01 no longer claims that others join the starter.
+- **Move 172 (D3a-01).** R01 no longer claims others join the starter.
 - **J, 15 October, 01:29 Berlin:** work after hour 73 curates the record (P12, P22), apart from carrying on (P13).
 
 ## Where the run stands
 
 - **D3a outputs:**
-  - `adjudications.jsonl`: 20,394 lines ruled, 21,109 with re-rulings;
-  - the stage's notes: G1 to G28 (G20, G21, G23 and G25 amended once each), G13a, G4a (three amendments) and the field's entries.
+  - `adjudications.jsonl`: 21,171 lines ruled, 21,886 with re-rulings;
+  - the stage's notes: G1 to G29 (G20, G21, G23, G25 amended once each), G13a, G4a (three amendments) and the field's entries.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
 - **Ledgers (lines):** tier history 561; model history 139; findings 37 (23 findings); elements 30 (24 standing, 5 candidates, P21 tentative); arrows 21 (A21 tentative).
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
@@ -127,7 +126,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-23**, to weigh after order tests:
+- **From D3a-02 to D3a-24**, to weigh after order tests:
+  - C01's: decided order's reach (3, beside A19); contests over where the room decides (5);
   - P13's: keeping begun while building; routes in from help, marking or loss; a possible loop;
   - P20's: the line crossed; the clock shaping it; removals sending talk elsewhere; canvas-born rooms;
   - P17's: members not held by the room's tie (P21); prior ties and colour faiths choosing allies (C02);
@@ -171,7 +171,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
   - Every arrow needs `negative_check`.
   - The head never names a proposition id.
   - A re-ruling, or a history correction, is an appended line; the earlier line stays.
-- **The store.** `cite.py` takes one code per call; a reply's theme does not track its stance.
+- **The store.** `cite.py` takes one code per call.
 - **The permission check refuses:**
   - deleting a file, even a link;
   - shell variables, loops, functions, brace groups, heredocs and words beginning "for_";
@@ -184,4 +184,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The next element group, by G1 to G28 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group, by G1 to G29 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
