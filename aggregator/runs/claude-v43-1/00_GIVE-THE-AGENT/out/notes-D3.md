@@ -164,6 +164,41 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **A lone placer** who speaks for no room is P05 and P07, not P08 (anaheimducks-029). Where peace is settled with the maker of a neighbouring work, and the record does not show whether that maker spoke for a room, the line is an evidence limit (uruguay-024).
   - **Joint marks** are P17's. They are P08 where the talk sets a border, a space or terms beside them (afip-017 rejected; FinalFantasy-022, cfb-016 and germany-013 accepted).
   - **Help traded for help** is P16's (falcons-033, nin-023, rangers-009, ufl-009, vegan-008, parrots-028). Help given on condition of non-interference is P08 (shishamo-008).
+- **G19 (logged at D3a-14, before P07's lines were ruled).** P07 is shown when a concept shows restraint toward a work on the canvas that is not the room's own: the room or its members hold back from damaging it, or ask for that restraint. The work may be a neighbour room's, or a work whose room is not named. P07's statement names neighbours, but A16's connection and T4-015's prose ('refuse to cover others' work') count refusals of attacks on any room's work, so distance does not matter. The act may be read from either room's record, as G17 and G18 read help and terms. That covers:
+  - sparing another's work: building around it, leaving its space, refusing to cover it, or choosing a site, size or design that leaves it (also P02 where the mark changes, as G18 reads choices inside the room);
+  - declaring that the room means a neighbour no harm, or stating the room's norm against covering others' work;
+  - asking the room's own members to spare a work, or arguing inside the room that covering it is wrong (one member's refusal is P07's lower range);
+  - refusing an attack call, whether it comes from inside the room or from outside it (a streamer or another room);
+  - reining in the room's own attackers: telling members to stop or not to retaliate, condemning their attack to the room, or a moderator's rule or removal against raids (also P20 where it removes posts by rule);
+  - apologising for damage the room or its members did to another's work, at any hour, including damage done by mistake;
+  - restoring a work the room damaged (P07's upper range; G17 reads undoing the room's own damage the same way);
+  - appealing to placers or to a room to stop damaging or encroaching on a work, or not to cover it; one plea is the lower range, and a plea written on the canvas counts. Where the appeal also names a limit, a place, a condition or an exchange, or a settlement follows, it shows P08 at once. G18's reading on appeals sets when an appeal also shows P08; it does not take the appeal out of P07. (Corrected before any line was ruled: the first wording, 'with no terms named', would have excluded such appeals from P07.)
+
+  It is not shown by:
+  - terms talked between rooms with no restraint asked or shown (P08): a request for space for the room's own work, a deal, or a report that a treaty exists. A room sparing a work by a settled border, or a member reminding others of the border, shows P07 and P08 at once (A05's mechanism);
+  - help given to another's work: pixels, repair against vandals, or defence (P16; seahawks-028);
+  - the room keeping its own work: watching, repair or defence (P05). A plea to the attackers beside it is P07;
+  - an attack, a call to attack, or an argument for covering (P09);
+  - a taunt, a salute after the fight, or a claim of victory (P18);
+  - an alliance as such (P17);
+  - working out who damaged a work, or saying that a placer does not act for the room, with no apology, call to stop or condemnation (P06's form, a candidate);
+  - restraint inside the room's own work, praise of a neighbour's work, or a member's report that neighbours exist.
+
+  P07 is not stated as universal (logged at the group's opening), so its absent lines are never corrections. G2 and G3 rule them. Restrict and contradict lines fall under G9. Under G4a, as amended and applied forward (QD3-006), an add, link, instantiate or restrict line whose form another statement already holds is a specification, and the reason names that statement. The statements that may hold such lines are:
+  - A05: sparing that rests on a settled border (its connection and mechanism), and sparing that comes first and tacit, rests on a norm of the room, refuses a raid or apologises (its bound);
+  - A16: the attack call before the refusal, reining in or apology (its connection); reining in that needs an attack, and tacit sparing before any call (its bound); a refusal with a reason that states the room's norm or the attack's cost (its mechanism);
+  - A17: an attack call met by a truce or a deal;
+  - P08 (holding each other to terms), P09 (encroaching, raids on a streamer's call, and scripts as attacks), P14 (the room adjusting its machine hands), P02 (a design changed), P10 (a move after a loss), K02 (the judgment of too few hands), P20 (the host's rules), C01 (a sanction as decided order) and P05 (upkeep, and the form the keepers know).
+
+  Candidates and tentative entries hold no line (G18). So a member saying that the room cannot stop every placer shows P21's form, attribution shows P06's form, and an add line of either form is a paired elaboration. Sparing or an apology on a canvas opened after hour 73 is a paired elaboration, after G11's and G15's precedent. Draws follow G1b: one draw of ten lines per 100-line instantiate packet, at verb offsets from 254 (after 125 absent, 75 add-condition and 54 add-step lines). Readings stated while ruling, each logged when stated and checked backwards, none an amendment:
+  - **Restraint toward talk is not toward a work** (stated at instantiate line 105). Restraint or an apology that concerns only a contest in talk is P18's domain, not P07's. Examples are trolling or raiding another room's threads, and a row in words. Lines rejected: babymetal-029 and worldpowers-025. Evidence limits: canucks-043, homestuck-061 and unitedkingdom-056. Checked backwards: WPI-014 (line 77) also carries an apology for a taunter, but it stands on c0050's apology and redirect.
+  - **Calls not to provoke** (stated at instantiate line 157). A general call to the room not to provoke or antagonise other rooms is P07's lower range (colorado-017, dbz-013, uofm-020). The absent line ProfessorLayton-029 was rejected under it.
+  - **Smaller forms of the apology.** An apology from a placer who altered the room's work is P07's lower range, as G18 reads a lone placer (day9-028). An apology for a mistaken accusation is P06's form, not an apology for damage (japan-021, which stands on its border kept).
+  - **Smaller forms of sparing.** Another room that withdraws its push to change the room's work shows restraint (katawashoujo-007). Relocating to leave another group's work, with no loss before it, is sparing, not P10 (foxstevenson-019; the absent lines OKState-021 and superman-022 were rejected). Restraint whose stated reason is that the room cannot win is sparing, with the attack's cost as the reason (mizzou-008, halo-012, hearthstone-027, MMA-025).
+  - **What is not restraint.** An instruction inside the room to message attackers, with no appeal shown made, is not an appeal, as G17 and G18 read proposals to ask (pusheen-008). A call for help, or help offered with no damage by the room shown, is P16's (sabres-020, denverbroncos-025, heroesofthestorm-061). An attack put off for tactics is P09's planning (nintendo-017).
+  - **A refusal whatever its reason.** A refusal of an attack call counts whatever its reason. Where the reason is the flood of canvas posts, it shows P20 at once (england-018).
+  - **Restoring elsewhere.** Restoring a work the room damaged includes rebuilding it elsewhere or giving its makers another space (uva-007, ss13-039, nVade-038).
+  - **G4a on P07's add and link lines.** An act cut off by the close names P22, as earlier groups did (osugame-033, foxes-023). Restraint undone until it reaches the keepers, placers or scripts names P05's clause, as P08's agreements did.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -1514,3 +1549,112 @@ P08 is the standing element of T4-016 (Negotiated order). The field's tentative 
 - **Pairs.** All 69 pairs in P08's files name a P08 line (`d3_pair_check.py`). Across the ledger, 7 elaborations, the 7 older ones, pair with a line of another kind.
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged.
 - **Questions.** QD3-006 and QD3-007 are answered, and no question is open.
+
+## D3a-14: J's answers to QD3-006 and QD3-007, read again
+
+I read both answers at the start of the leg (`mem.py asks`). Both were acted on at D3a-13 (section above), so no work rested on an assumption. QD3-006's meanwhile was that G4a's extension applies forward. It matches J's leaning, and this leg applies it to P07's instantiate and restrict lines. The 15 re-rulings under G16's amendment stand.
+
+## D3a-14: P07, sparing, reining in, apology and appeal
+
+P07 is the standing element of T4-015 (Live and let live). Its statement reads: 'Rooms spare their neighbours' work, rein in their own attackers, apologise for damage and appeal to attackers to stop.' Its range runs from one member refusing to cover a neighbour to a room restoring a work it had damaged. It has stood since C2's first pass, and pass 7 removed 'without a written agreement' from its statement. A05 (P08 to P07, thin) and A16 (P09 to P07, strong) run into it, and no arrow runs out of it. No finding touches P07. All 933 lines, in 699 rooms, are ruled under G19 and G4a, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_family_counts.py` and `d3_g4ab_tally.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 615 | 593 | 0 | 0 | 0 | 16 | 6 |
+| absent (124 `unobserved`, 1 `observed-absent`) | 125 | 1 | 0 | 0 | 107 | 2 | 15 |
+| add-condition | 75 | 56 | 16 | 0 | 2 | 1 | 0 |
+| add-step | 54 | 38 | 10 | 0 | 4 | 2 | 0 |
+| link | 35 | 21 | 13 | 0 | 1 | 0 | 0 |
+| restrict | 29 | 17 | 2 | 0 | 9 | 1 | 0 |
+| all | 933 | 726 | 41 | 0 | 123 | 22 | 21 |
+
+P07 is shown in 575 of the 705 rooms, and in 554 of them an instantiate line is accepted. 124 rooms have P07 lines and none shows it. One line records an evidenced absence (montenegro-021).
+
+**What the rulings show.** These are counts of rooms whose reasons name a form. Each count is a pattern over the reasons, a room can show several forms, and the counts are rough.
+- apologies: 165 rooms;
+- appeals to stop or to spare: 148;
+- refusals of attack calls or of proposed covering: 145;
+- reining in the room's own members: 138;
+- restoring or rebuilding a damaged work: 109;
+- sparing by site, size or design: 83;
+- sparing by an agreement, truce or deal: 74;
+- a stated norm: 42.
+
+**Restrict: no correction.** The 29 restrict lines say one of four things: restraint is selective; one member's word does not bind every placer; a refusal or an apology does not show compliance; or the cited concepts show no restraint. P07 claims neither universal compliance nor restraint toward every work, so no restrict line shows P07 failing. 17 are specifications by their concepts. 9 are evidence limits, where the concepts show no restraint (for example ik_ihe-012, kanye-029 and ukplace-044). Two are a pair of P21's form (FloydVsVoid-031, flyers-052), and one fails portability.
+
+**Add and link lines under G4a**, by what the specifications name (`d3_g4ab_tally.py --prefix P07-addcond,P07-addstep,P07-link`; NieR-032 names two):
+- **A05: 20.** Its bound holds sparing that comes first and tacit, before any talk, or that rests on the room's own norm. Its mechanism holds sparing by a settled border or space, kept and reminded. Examples: MonkeyIsland-017, chelseafc-034, kilian-019, vegan-059.
+- **A16: 18.** Its mechanism holds restraint whose reason is the attack's cost (retaliation, a fight the room cannot win, its reputation, its allies) or the room's norm. Its connection holds the room's act against another's work coming before its apology or reining in. Examples: kindafunny-013, uva-059, bisexual-064, nascar-048.
+- **P05: 17.** Restraint that holds only once it reaches the room's keepers, placers or scripts: a forgotten script that undoes a peace, defenders who repair a neighbour's intended pixels, plans sent to placers who have not seen them (python-026, flashtv-069, seolhyun-053, minnesotavikings-013).
+- **P08: 5.** Deals that hold sparing, and help on condition of non-interference (germany-012, newzealand-058).
+- **P22: 2.** A restoration and an apology cut off by the close (osugame-033, foxes-023).
+- **C01: 1.** A host moderator's ban warning against recruiting defacement (greenbaypackers-013).
+- **P07's own statement, or the line ruled by its concepts as a counting rule: 53.** About thirty add lines are rules for reading the record ('does not prove every placer complied', 'attribute restraint to particular speakers'), and each is ruled by its concepts.
+
+**The 41 elaborations, by family** (all paired; lines, then rooms; `d3_family_counts.py`):
+
+| family | lines | rooms | ops | examples |
+|---|---|---|---|---|
+| P06's form, a candidate: damage worked out as the room's own mistake, or as another's doing, before an apology, yielding or peace | 11 | 11 | add-condition 1, add-step 3, link 7 | nerf-016, japan-031, theitalyplace-017, Russiaclan-055 |
+| restraint drawn by the room's ties to the target's makers (allies, kin, a conference, a fandom, a shared history) while others are attacked | 10 | 10 | add-condition 7, link 3 | k_on-013, wildhockey-018, WisconsinBadgers-055, PurplePixels-015 |
+| P21's form, a tentative entry: the room cannot stop every placer acting in its name | 5 | 5 | add-condition 3, restrict 2 | costa_rica-053, twice-028, flyers-052 |
+| a neighbour's help as the reason to spare its work | 4 | 4 | add-condition 2, link 2 | uruguay-028, southafrica-040, Okami-013 |
+| the attack, or amends to one room, sent onto a third room's work | 4 | 4 | add-condition 3, add-step 1 | hsv-024, CKCrusaders-055, chibears-033 |
+| the room's own loss as the reason to spare others | 3 | 3 | add-step 3 | armenia-039, mindcrack-028, anarcho_capitalism-017 |
+| competing duties of restraint: sparing one work costs another | 2 | 2 | add-step 2 | neopets-065, purplecorner-020 |
+| a layout obtained to restore a neighbour's work | 2 | 2 | add-step 1, link 1 | opticgaming-024, PlaceNL-066 |
+
+The helper misses PurplePixels-015, whose reason holds '; ' inside a parenthesis; read by hand, it belongs to the second family.
+
+**What the 21 rejects show.**
+- **Instantiate, 6:**
+  - restraint toward talk only (babymetal-029, worldpowers-025);
+  - help and a condolence (denverbroncos-025, the unsupported draw);
+  - a call for help (sabres-020);
+  - an instruction to message attackers, with no appeal made (pusheen-008);
+  - an attack put off for tactics (nintendo-017).
+- **Absent, 15.** Each line's concepts show P07, so the claim of absence fails:
+  - an assurance of no harm (Homura-020, lego-025);
+  - sparing by site or yielding (OKState-021, TheAdventuresofTintin-017, Villanova-025, marvel-020, superman-022, wsu-022);
+  - calls not to provoke (ProfessorLayton-029, nightinthewoods-027);
+  - an objection to a war call, and an attack withdrawn (Pigifs-028, acecombat-020);
+  - appeals (VelvetUnderground-027, scp-029, starryknights-011).
+
+**Absent lines.** 124 lines are marked `unobserved` and one `observed-absent`. The room's placements carry P07 in none of them. 107 are evidence limits: calls, defence, loss reports, help (P16), terms (P08), host rules and celebrations, with no restraint toward another's work. montenegro-021 is an evidenced absence: a visitor asks for a deal so both designs stay, and the room answers that it cannot. P07 is not stated as universal, so that line is not a correction.
+
+**Particulars, 22.**
+- **Failing portability (21):**
+  - instantiate: Dominican-026, GranColombia-025, Moondye7-017, Northwestern-018, Russiaclan-007, battlecats-022, day9-015, ethereum-015, germany-010, guatemala-017, lakers-026, linux-066, onepunchman-028, thepointing-012, torontoraptors-025, virginiatech-007;
+  - absent: borderlands-032, nyu-028;
+  - add-condition asktransgender-016, add-step armok-024, restrict onepunchman-029.
+- **One room only (1).** vocaloid-054: repair reached by a member's change of view in the thread. A search of P07's lines found no second room.
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or contradict line was accepted as a correction. P07 stands as served, and no move was made.
+
+**Repairs (G7).** Repairs made no difference. Repaired rooms were 0.961 accepted (509 lines), and unrepaired rooms 0.946 (424 lines).
+
+**Carried to later groups.**
+- **P06's form** (11 lines) goes beside the candidate P06, with P08's 3 lines of the same form. Working out who did the damage, or finding one's own mistake, comes before an apology or peace.
+- **P21's form** (5 lines) goes to P21's group with P08's 30.
+- **Restraint by ties to the target's makers** (10 lines) and **help as the reason to spare** (4) go to the clustering. Both bear on the account's condition between its best and its most threatening room: what decides whom a room fights and whom it spares.
+- **The attack sent onto a third room's work** (4) joins P08's family of terms that sacrifice a third room's work, beside A15, A19, C02 and K03.
+- **The room's own loss as the reason** (3) goes beside A10 and P10.
+- **Restraint carried to the keepers** (17 add and link lines name P05's clause) goes with P08's 28 such lines to P05's re-check rooms.
+- **Restraint and apologies that concern only talk** (the reading at line 105) go beside P18.
+
+**Disclosed limits and slips.**
+- **Draws.** Seven seeded draws covered the instantiate lines, at verb offsets 254 to 854, ten lines each (the last over 16 lines). Two found an unsupported line.
+  - Draw 2 (offset 354) found denverbroncos-025. Instantiate lines 99 to 198 were then read whole with every line's quotes, through a new helper, `_analysis/d3_window_quotes.py`. One other ruling changed: babymetal-029 was rejected.
+  - Draw 7 (offset 854) found worldpowers-025. Lines 599 to 614 were read whole with quotes, and nothing else changed.
+- **G19 corrected before any line was ruled.** Its appeal clause first said 'with no terms named', which would have taken appeals that also name a limit or place out of P07.
+- **Counts logged before the tally.** The restrict note first gave 18 specifications and 8 evidence limits. The family counts were typed before `d3_family_counts.py` ran. Correction notes followed from the tallies, and the families matched.
+- **An unchecked claim.** One note said packet 1 held no case of a later reading. It was corrected in the same leg: packet 1 holds close cases, all accepted, and no reject.
+- **A refused command.** The permission check refused a grep piped to `cut -c`, and I used the latest-ruling helper instead.
+
+### Close-check, D3a-14
+
+`validate.py D3` reports 12,705 of 42,243 ledger lines ruled: the 11,772 before this leg and P07's 933. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 13,388 lines: 933 first rulings from this leg and no re-rulings. That leaves 683 appended re-rulings in all.
+- **Pairs.** All 41 pairs in P07's files name a ruled P07 line (`d3_pair_check.py`). Across the ledger, 7 elaborations, the 7 older ones, pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.

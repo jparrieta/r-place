@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Under 3,000 words, rewritten whole at every close. Last written at D3a-13, 2026-10-19 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Rewritten whole at every close. Last written at D3a-14, 2026-10-18 (UTC). Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -25,11 +25,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-11)
+## The return (D1a to D3a-14)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16 and P08 stand without correction.
-- **D3a-11 and D3a-12.** G4a, applied backwards, made 633 lines specifications; 11 took new pairs. No element or arrow changed.
+- **D3a, by element.** R01 and P05 met corrections twice and were revised (moves 172 and 173). P22, the field's entry, was ruled standing and its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08 and P07 stand without correction.
+- **D3a-11 and D3a-12.** G4a, applied backwards, made 633 lines specifications. No element or arrow changed.
 
 ## The current account, and the contrary rooms
 
@@ -66,8 +66,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 - **D1a and D2a outputs:** notes, handbacks, `handoff-D/`, `verdict-D/`, `sealed/`, `adaptations.jsonl`, `verdicts-D.jsonl`, `rooms/<sub>/`.
 - **D3a outputs:**
-  - `adjudications.jsonl`: 11,772 lines ruled, 12,455 with re-rulings;
-  - the stage's notes: G1 to G18, G13a, G4a (three amendments) and the field's entries;
+  - `adjudications.jsonl`: 12,705 lines ruled, 13,388 with re-rulings;
+  - the stage's notes: G1 to G19, G13a, G4a (three amendments) and the field's entries;
   - `model/history.jsonl`: moves 172 to 174.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
 - **Ledgers:**
@@ -136,12 +136,12 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The pilot's declarations and stage B
 
-Agreement is Jaccard on placement sets, exact agreement beside it. B2 stability 0.807 is the floor; `assign_final.jsonl` is stage B's settled line.
+`assign_final.jsonl` is stage B's settled line; agreement is Jaccard on placement sets.
 
 ## Open, carried
 
-- **From D3a-02 to D3a-13**, to weigh after order tests:
-  - P19's form (9 P08 lines); A04's bound (21 P08 lines);
+- **From D3a-02 to D3a-14**, to weigh after order tests:
+  - P19's form (9 P08 lines); A04's bound (21 P08 lines); P06's form (14 lines); whom a room spares (P07: ties to the makers, 10 lines; help returned, 4);
   - calls recurring after a loss (P01, P10, A10);
   - parallel and outside builders (P03);
   - recording entered from a loss, beside A08;
@@ -155,7 +155,7 @@ Agreement is Jaccard on placement sets, exact agreement beside it. B2 stability 
   - K01's canvas-call clause (doubted in 3 rooms) and doubt costing uptake (9 rooms).
 - **The re-check:** rooms relying on the rewritten R01, P05 and P22 go to it; two R01 elaborations wait for the clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
-- **From C4:** P21 and A21 for their groups (30 P08 lines show P21's form); a request for space answered with terms.
+- **From C4:** P21 and A21 for their groups (35 P08 and P07 lines show P21's form); a request for space answered with terms.
 - **From C3:** the forms on the four universal problems or the remainder; the colour-faction doubt [PurplePixels/c0165]; Olson; the four declined reads.
 - **From C2:** what a mark brings back; the return's two boundaries; the claim untested for order.
 - **From C1 and B1:** the form-pass findings; the B1 bag counts.
@@ -163,7 +163,7 @@ Agreement is Jaccard on placement sets, exact agreement beside it. B2 stability 
 ## Rules kept
 
 - **Checking.**
-  - Never type an id, an order or a name from memory; check with a script.
+  - Never type an id, an order, a name or a count from memory; check with a script.
   - Never log a write before the tool answers. Count a ledger's lines after appending.
   - Check a claim against its source before writing it, and read a check's format before writing a ledger it reads.
 - **Logging.**
@@ -178,7 +178,7 @@ Agreement is Jaccard on placement sets, exact agreement beside it. B2 stability 
 - **Ledger formats.**
   - A superseding finding's `supersedes` is the bare id.
   - Every arrow needs `negative_check`.
-  - The head never names a proposition id; the link check does not resolve them.
+  - The head never names a proposition id.
   - A re-ruling, or a history correction, is an appended line; the earlier line stays.
 - **The store.** `cite.py --room --code` takes one code per call. The theme a reply sits under does not track its stance.
 - **The permission check refuses:**
@@ -196,4 +196,4 @@ Agreement is Jaccard on placement sets, exact agreement beside it. B2 stability 
 
 ## The next comparison
 
-The next element group's lines, by rules G1 to G18 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group's lines, by rules G1 to G19 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
