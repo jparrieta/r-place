@@ -1,0 +1,34 @@
+P21: 6 lines in all (op add-step); packet [0, 6): 6 lines; carried through T3-126
+ops in the packet: {'add-step': 6}
+
+== buffalobills-036  add-step  [pending]  repairs 0  not carried
+   source t03 (working out space and help with canvas neighbors); lift buffalobills:t03 > T3-010 > T4-016 > D04
+   how: Self-limiting representation while answering a space proposal can precede agreement rather than emerge only as a challenge afterward.
+   codes: c0066 offering a shared food image in exchange for space; c0067 refusing to promise for the group as a simple pixel pusher
+   transitions: 635zv3:1.1.1.1.1.1>1.1.1.1.1.1.1
+
+== catalunya-020  add-step  [pending]  repairs 1  not carried
+   source t05 (bargaining over who gets the space); lift catalunya:t05 > T3-010 > T4-016 > D04
+   how: A claimed agreement first requires checking whether the person consulted can stand for the other room.
+   codes: c0039 disputing the claim that a deal with r/Factorio existed
+
+== loliconsunite-031  add-step  [pending]  repairs 0  not carried
+   source t05 (calling in helpers and moving coordination to Discord); lift loliconsunite:t05 > T3-014 > T4-010 > D02
+   how: A member withholds outreach for lack of a representative mandate before any agreement is made or disputed.
+   codes: c0067 holding back outreach for lack of a mandate
+
+== philippines-025  add-step  [pending]  repairs 0  not carried
+   source t04 (making scattered pixel work follow one plan); lift philippines:t04 > T3-070 > T4-008 > D02
+   how: Authority disputes also concern design rollout and majority approval across chat and subreddit, not only commitments to other rooms.
+   codes: c0331 losing the will to help after being accused of sabotage; c0332 questioning unupdated specs and changes without majority approval; c0334 asking planners to coordinate with subreddit helpers before rollout
+
+== placetardis-029  add-step  [pending]  repairs 0  not carried
+   source t07 (bringing helpers together and returning help); lift placetardis:t07 > T3-062 > T4-005 > D01
+   how: Representation was resolved by explicitly allowing any willing fan to speak for the group rather than appointing a permanent leader.
+   codes: c0050 letting any fan who steps up speak for the group; c0043 answering that a mod is not a specific leader
+
+== thebluecorner-038  add-step  [pending]  repairs 1  carried
+   source t06 (arguing over what Blue should be and who speaks for it); lift thebluecorner:t06 > T3-190 > T4-023 > D05
+   how: Authority is also disputed over domestic maintenance priorities and curation rather than only over agreements with other rooms.
+   codes: c0788 ordering the room to stop focusing on the corner; c0808 insisting the 100x100 blue corner is their art; c0810 telling members to place pixels where they deem right amid leadership disarray
+   transitions: 6304nz:0>1
