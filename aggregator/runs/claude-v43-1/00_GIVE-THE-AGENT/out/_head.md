@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Last written at D3a-22, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
+Last written at D3a-23, 2026-10-19 UTC. Stages A1 to C5 are done; stage B is frozen. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 (R01), 173 (P05) and 174 (P22) have moved the model's hash; it is frozen again at D3c.
 
 ## The method question, in one sentence
 
@@ -25,11 +25,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 
-## The return (D1a to D3a-22)
+## The return (D1a to D3a-23)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 were revised (moves 172 and 173); P22, the field's entry, stands with its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09, P18, P10, K02, P14, P13, P20 and P17 stand without correction.
-- **D3a-15 to D3a-22.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, too few hands or room [K02] in 520, machine hands [P14] in 320, carrying on [P13] in 292, the host's line [P20] in 310, and coalitions [P17] in 383 (prose: 146).
+- **D3a, by element.** R01 and P05 were revised (moves 172 and 173); P22, the field's entry, stands with its range rewritten (move 174). P01, P02, P04, P12, K01, P03, P11, P16, P08, P07, P09, P18, P10, K02, P14, P13, P20, P17 and P15 stand without correction.
+- **D3a-15 to D3a-23.** Attacks [P09] show in 510 of 705 rooms, taunts [P18] in 404, moves after a loss [P10] in 300, too few hands or room [K02] in 520, machine hands [P14] in 320, carrying on [P13] in 292, the host's line [P20] in 310, coalitions [P17] in 383 (prose: 146), and bare answers [P15] in 579.
 - **G25 amended (D3a-20):** A09's bound keeps its words; 'near the close' starts at hour 61.
 
 ## The current account, and the contrary rooms
@@ -66,8 +66,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 ## Where the run stands
 
 - **D3a outputs:**
-  - `adjudications.jsonl`: 19,605 lines ruled, 20,320 with re-rulings;
-  - the stage's notes: G1 to G27 (G20, G21, G23 and G25 amended once each), G13a, G4a (three amendments) and the field's entries.
+  - `adjudications.jsonl`: 20,394 lines ruled, 21,109 with re-rulings;
+  - the stage's notes: G1 to G28 (G20, G21, G23 and G25 amended once each), G13a, G4a (three amendments) and the field's entries.
 - **C5 outputs:** `account.md`, `propositions.jsonl`, `implications-C5.md`, `handback-C5.md`.
 - **Ledgers (lines):** tier history 561; model history 139; findings 37 (23 findings); elements 30 (24 standing, 5 candidates, P21 tentative); arrows 21 (A21 tentative).
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
@@ -127,25 +127,26 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-22**, to weigh after order tests:
-  - P13's: keeping begun while building; routes in from help, marking or a damaged end; a possible loop;
-  - P20's: the line crossed; the clock shaping it; removals sending talk elsewhere; canvas-born rooms draw none;
-  - P17's: members not held by the room's tie (P21's group); prior ties and colour faiths choosing allies (C02);
-  - P09's: what comes before the attack (13) and what picks its target (9, C02); P18's: what opens the contest (6, A18);
-  - P10's and K02's, beside A10 and F-019: copies before a loss; doubt before a move or a smaller design; giving up after doubt;
-  - P19's form (9 lines; 5 allied host ties); A04's bound (21); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4);
-  - calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording entered from a loss (A08);
-  - a finished work reopening calls or the design;
+- **From D3a-02 to D3a-23**, to weigh after order tests:
+  - P13's: keeping begun while building; routes in from help, marking or loss; a possible loop;
+  - P20's: the line crossed; the clock shaping it; removals sending talk elsewhere; canvas-born rooms;
+  - P17's: members not held by the room's tie (P21); prior ties and colour faiths choosing allies (C02);
+  - P15's: its edge with P11 and P03; joins waiting on a visible start (A02);
+  - P09's: what precedes the attack (13) and what picks its target (9, C02); P18's: what opens the contest (6, A18);
+  - P10's and K02's (A10, F-019): copies before a loss; doubt before a move or a smaller design; giving up after doubt;
+  - P19's form (9; 5 allied host ties); A04's bound (21); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4);
+  - calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording after a loss (A08);
+  - a finished work reopening calls or design;
   - neighbours (A04, A13's giver, A14, A19) and an apology opening help (no arrow);
   - machine hands (A06, P14): scripts against keeping, refused as help or as P05's keepers; use apart from refusal;
   - P12's records as proof in P22's contests (uwaterloo-053); P22's two forms;
   - the host's moderation of records and takeovers (T4-002);
   - bare refusals (math-011, wow-050) against F-014;
-  - chats (T4-010), which split the sharing in 19 rooms and hold scripts in 6;
+  - chats (T4-010): sharing split in 19 rooms, scripts held in 6;
   - K01's canvas-call clause (doubted in 3 rooms); doubt costing uptake (9 rooms).
 - **The re-check:** rooms relying on rewritten R01, P05 and P22 go to it; two R01 elaborations wait for clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
-- **From C4:** P21 and A21 for their groups; a request for space answered with terms.
+- **From C4:** P21 and A21 for their groups.
 - **From C3:** the forms on the four universal problems or the remainder; the colour-faction doubt [PurplePixels/c0165]; Olson; the four declined reads.
 - **From C2:** what a mark brings back; the return's two boundaries; the claim untested for order.
 - **From C1 and B1:** the form-pass findings; the B1 bag counts.
@@ -183,4 +184,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The next element group, by G1 to G27 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The next element group, by G1 to G28 with G13a and G4a. The split rooms and the 19 story-miss rooms wait for the verdicts leg.

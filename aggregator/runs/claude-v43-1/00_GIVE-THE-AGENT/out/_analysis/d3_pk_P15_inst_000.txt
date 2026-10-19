@@ -1,0 +1,568 @@
+P15: 646 lines in all (op instantiate); packet [0, 100): 100 lines; carried through no third-order tier
+ops in the packet: {'instantiate': 100}
+
+== 2007scape-003  instantiate  [pending]  repairs 0  not carried
+   source t04 (Building from coordinates, grids, and progress calls); lift 2007scape:t04 > T3-038 > T4-007 > D02
+   how: Some calls receive bare commitments or reports of completed work.
+   codes: c0055 joining the Gnome Child build; c0216 joining the zero-zero placement call; c1006 insisting they already put their pixel down; c1286 answering the save call by focusing pixels there
+
+== 49ers-004  instantiate  [pending]  repairs 0  not carried
+   source t08 (trading help with nearby groups); lift 49ers:t08 > T3-151 > T4-017 > D04
+   how: A visitor's request receives a bare commitment without a demand for return help.
+   codes: c0059 asking the 49ers for help against the Seahawks; c0060 answering the Gift of Games help call
+   transitions: 634y62:0>1
+
+== 4chan-002  instantiate  [pending]  repairs 1  not carried
+   source t01 (rallying people to build, defend, and maintain shared marks); lift 4chan:t01 > T3-002 > T4-005 > D01
+   how: A direct instruction receives a bare acceptance while a separate artwork request receives a reported tile placement.
+   codes: c0004 telling a spectator to make it happen; c0005 accepting the mod's order with 'Got it boss'; c0199 asking for help with r/place artwork; c0200 placing the bottom-left green tile and calling r/4chan to join
+   transitions: 62nhas:1.1>1.1.1, 62y9yh:0>1
+
+== AMD-004  instantiate  [pending]  repairs 0  not carried
+   source t03 (finding and sharing where to help); lift AMD:t03 > T3-016 > T4-003 > D01
+   how: A short done-and-thanks answer acknowledges help after instructions.
+   codes: c0167 reporting a pixel placed after receiving directions
+
+== AceOfAngels8-012  instantiate  [pending]  repairs 0  not carried
+   source t05 (celebrating and crediting making the heart); lift AceOfAngels8:t05 > T3-009 > T4-026 > D07
+   how: Short appreciative replies acknowledge the appeal-and-success post without asking anything back.
+   codes: c0025 praising the heart-builders for doing the Lord's work; c0027 saying nice to the completed heart effort
+   transitions: 62z7rf:0>1, 62z7rf:0>2
+
+== AcePlace-015  instantiate  [pending]  repairs 2  not carried
+   source t03 (negotiating borders, room, and help with neighboring pictures); lift AcePlace:t03 > T3-010 > T4-016 > D04
+   how: A neighboring representative answers an offer with a one-line commitment to help maintain the flag and pride text.
+   codes: c0085 proposing protection for the Puffle without taking its background; c0086 promising help maintaining the flag and pride text
+   transitions: 63524d:1>1.1
+
+== AmericanFlaginPlace-016  instantiate  [pending]  repairs 1  not carried
+   source t01 (getting everyone onto one plan and place); lift AmericanFlaginPlace:t01 > T3-091 > T4-008 > D02
+   how: Explains a concise acceptance that reports taking a repair assignment without requesting anything in return.
+   codes: c0196 taking the white stripe under the stars
+
+== AprilKnights-002  instantiate  [pending]  repairs 1  not carried
+   source t01 (Getting Knights into place); lift AprilKnights:t01 > T3-002 > T4-005 > D01
+   how: A direct roll-call answer reports that the respondent is already working on Red Corner.
+   codes: c0009 calling listening Knights together to coordinate a drawing; c0010 checking in from work on the red corner
+
+== AvoArmy-002  instantiate  [pending]  repairs 0  not carried
+   source t08 (repairing avocados one pixel and feature at a time); lift AvoArmy:t08 > T3-021 > T4-013 > D03
+   how: A repair request receives a bare commitment of one pixel every five minutes.
+   codes: c0159 asking a lone defender to join work on the bottom two avos; c0160 pledging a pixel every five minutes
+   transitions: 6358xj:1.1.1.1.1>1.1.1.1.1.1
+
+== AyyMD-016  instantiate  [pending]  repairs 1  not carried
+   source t03 (choosing the logo's colours and trying to settle the fight); lift AyyMD:t03 > T3-004 > T4-006 > D02
+   how: A poll instruction receives bare assent and a commitment to help keep the chosen colour.
+   codes: c0109 closing the poll and insisting the logo stays green; c0110 accepting the poll and helping keep the logo green
+   transitions: 632ew8:1>1.1
+
+== CKCrusaders-026  instantiate  [pending]  repairs 1  not carried
+   source t04 (making and repairing deals with neighbors); lift CKCrusaders:t04 > T3-076 > T4-015 > D04
+   how: A bare agreement accepts an appeal to stop fighting, demonstrating assent without demonstrating an answer to a placement call.
+   codes: c0060 calling off the plan to replace a neighbor; c0086 asking both communities not to fight
+   transitions: 62yzn6:1>1.1
+
+== CSUFoCo-007  instantiate  [pending]  repairs 2  not carried
+   source t01 (making a CSU mark together); lift CSUFoCo:t01 > T3-004 > T4-006 > D02
+   how: The offer of pixels is a bare acceptance clause embedded in a longer reply that also requests clarification.
+   codes: c0005 offering pixels to the proposed logo; c0006 asking what the broken schematic should look like and whether it needs a border
+   transitions: 633p6s:2>2.1
+
+== CelticFc-003  instantiate  [pending]  repairs 1  not carried
+   source t01 (rallying people and choosing a foothold); lift CelticFc:t01 > T3-002 > T4-005 > D01
+   how: Members accept the proposal through short offers, with one acceptance also reporting an outline.
+   codes: c0004 joining in and reporting an outline at (813, 910); c0010 offering help at work and at home
+
+== ChronoTrigger-015  instantiate  [pending]  repairs 1  not carried
+   source t01 (building out the CT cast one sprite at a time); lift ChronoTrigger:t01 > T3-041 > T4-006 > D02
+   how: A participant answers the Magus proposal with a brief report of actively working on it that requests nothing back.
+   codes: c0018 proposing Magus to the left of Frog; c0020 actively working on Magus
+   transitions: 62uob8:0>2
+
+== Clannad-002  instantiate  [pending]  repairs 0  not carried
+   source t04 (answering the celtics eating our border); lift Clannad:t04 > T3-005 > T4-013 > D03
+   how: A brief answer acknowledges the border warning and reports a response without asking for anything back.
+   codes: c0009 warning that the celtics are eating our border and must be stopped; c0010 answering that we have killed their borders
+   transitions: 633ybb:5>5.1
+
+== Cornwall-011  instantiate  [pending]  repairs 3  not carried
+   source t03 (celebrating sneaking one on the right before shutdown); lift Cornwall:t03 > T3-003 > T4-026 > D07
+   how: The completion report and appreciative replies supply brief contributions that request nothing further.
+   codes: c0009 sneaking one onto the right before r/place shut down; c0010 calling the last-minute placer an absolute legend; c0011 thanking the placer for making them genuinely happy
+
+== DCFU-016  instantiate  [pending]  repairs 2  not carried
+   source t05 (making logo allies and offering pixel help across DC groups); lift DCFU:t05 > T3-011 > T4-017 > D04
+   how: A closing thanks and cheer acknowledges the reference-art exchange without requesting anything in return.
+   codes: c0024 thanking the helper and sharing the reference art; c0025 cheering 'DC unite' and wishing for an OSU-sized image
+   transitions: 634ps2:2.1.2.1.1.1>2.1.2.1.1.1.1
+
+== DatBoi-002  instantiate  [pending]  repairs 1  not carried
+   source t01 (calling and answering calls to save Dat Boi); lift DatBoi:t01 > T3-002 > T4-005 > D01
+   how: Bare replies accept a call or volunteer without requesting anything back.
+   codes: c0003 answering that they have got the call for help; c0031 volunteering to participate
+   transitions: 62ph90:0>2, 632irp:0>3
+
+== DestinyTheGame-006  instantiate  [pending]  repairs 1  not carried
+   source t06 (calling Guardians in and showing newcomers how to help); lift DestinyTheGame:t06 > T3-002 > T4-005 > D01
+   how: A member accepts the logo call with the bare answer that they are in.
+   codes: c0002 calling to create the Destiny logo in the center of r/Place; c0008 joining the logo effort
+   transitions: 62na0n:0>3
+
+== DevonUK-002  instantiate  [pending]  repairs 0  not carried
+   source t01 (making and growing the Devon flag); lift DevonUK:t01 > T3-065 > T4-006 > D02
+   how: A member answers the expansion request with a bare report that two friends are helping.
+   codes: c0016 asking for help expanding the Devon flag; c0017 saying two friends are doing their best to help
+   transitions: 633u6k:0>1
+
+== DiamondClub-007  instantiate  [pending]  repairs 0  not carried
+   source t01 (getting a <> onto r/place together); lift DiamondClub:t01 > T3-002 > T4-005 > D01
+   how: Brief assent, welcome for an existing idea, and a figurative pixel pledge join the effort without requesting a return.
+   codes: c0004 saying let's do this; c0005 coming to mention it and welcoming that someone already had; c0007 pledging a pixel to protect the effort
+
+== Dominican-003  instantiate  [pending]  repairs 0  not carried
+   source t04 (standing with and answering the boricuas); lift Dominican:t04 > T3-078 > T4-022 > D05
+   relation: PuertoRico
+   how: A request for help receives a bare promise to come and then a short expression of thanks.
+   codes: c0053 asking for help while Holland attacks; c0054 saying help is on the way; c0055 thanking the arriving helper
+   transitions: 632oii:2>2.1, 632oii:2.1>2.1.1
+
+== Dorset-015  instantiate  [pending]  repairs 0  not carried
+   source t02 (working out how neighbours can fit and help); lift Dorset:t02 > T3-010 > T4-016 > D04
+   how: A self-identified neighbour offers help in a joining line, and a later reply explicitly endorses the proposed design.
+   codes: c0004 coming from Devon to help; c0008 backing a design that gives the Calgary Flames guys space too
+
+== Dustforce-003  instantiate  [pending]  repairs 0  not carried
+   source t01 (building Dustman and adding the Dustforce text); lift Dustforce:t01 > T3-169 > T4-006 > D02
+   how: Explains a bare acceptance of the proposed build without a reciprocal request.
+   codes: c0005 joining the Dustman effort
+   transitions: 62wrk4:0>2
+
+== ElSalvador-003  instantiate  [pending]  repairs 1  not carried
+   source t01 (bringing people into building and defending the flag); lift ElSalvador:t01 > T3-065 > T4-006 > D02
+   how: A participant reports completion and promises to return after the timer without asking for anything back.
+   codes: c0002 placing a pixel and promising to return after five minutes
+
+== ElSalvador-004  instantiate  [pending]  repairs 1  not carried
+   source t03 (thanking people who helped the flag); lift ElSalvador:t03 > T3-043 > T4-026 > D07
+   how: The starter answers a contribution report with brief unconditional thanks.
+   codes: c0002 placing a pixel and promising to return after five minutes; c0003 thanking someone for joining the flag
+   transitions: 634iss:1>1.1
+
+== ElderScrolls-039  instantiate  [pending]  repairs 1  not carried
+   source t04 (celebrating the Vivec and sorting out who did it); lift ElderScrolls:t04 > T3-009 > T4-026 > D07
+   how: A bare collective accomplishment claim fits the minimal report form without proving that a particular earlier call elicited it.
+   codes: c0016 claiming WE DID IT
+
+== EraseThePlace-002  instantiate  [pending]  repairs 1  not carried
+   source t11 (thanking, celebrating, and saying farewell); lift EraseThePlace:t11 > T3-009 > T4-026 > D07
+   how: Short thanks occur without asking for anything back, although these acknowledgments do not establish acceptance of a placement call.
+   codes: c0326 thanking a coordinator for creating subreddits
+
+== FaroeIslands-008  instantiate  [pending]  repairs 1  not carried
+   source t03 (making hearts and agreements with neighbouring flags); lift FaroeIslands:t03 > T3-079 > T4-022 > D05
+   how: A shared-heart proposal receives a bare acceptance that promises help without requesting anything back.
+   codes: c0034 asking for help with a Philippines-Faroe-Iceland unity heart; c0035 agreeing to help make the unity heart
+   transitions: 635vg7:1.1>1.1.1
+
+== FederationPlace-004  instantiate  [pending]  repairs 2  not carried
+   source t04 (making room and truces with neighboring pictures); lift FederationPlace:t04 > T3-010 > T4-016 > D04
+   how: Members give short assent to an alliance proposal and thanks after a border concession
+   codes: c0016 proposing a defensive alliance between neighboring pieces; c0017 favoring the Harvard alliance; c0055 agreeing to remove the white corner over snek; c0056 thanking the Trekkers in snek talk
+   transitions: 62wbyl:0>1, 6367il:2.1.1>2.1.1.1
+
+== Fez-003  instantiate  [pending]  repairs 1  not carried
+   source t01 (building and adjusting Gomez together); lift Fez:t01 > T3-004 > T4-006 > D02
+   how: Members accept calls with bare commitments and answer help with thanks.
+   codes: c0004 answering that they'll help; c0005 thanking the person who offered help; c0019 joining the Gomez build
+
+== FinalFantasy-004  instantiate  [pending]  repairs 1  not carried
+   source t07 (building and keeping separate Moogle efforts); lift FinalFantasy:t07 > T3-038 > T4-007 > D02
+   how: A bare acceptance joins the Moogle effort and receives a celebratory reply.
+   codes: c0041 joining the MOG build; c0042 celebrating another helper with Haste +1
+   transitions: 62vxay:2>2.1
+
+== FlaggyFlag-002  instantiate  [pending]  repairs 0  not carried
+   source t02 (Calling and joining in to place pixels); lift FlaggyFlag:t02 > T3-002 > T4-005 > D01
+   how: A tagged member answers the summons with a bare acceptance.
+   codes: c0006 calling named users into the border effort; c0007 answering the call with sir, yes sir
+   transitions: 62xj54:1>1.1
+
+== FloydVsVoid-017  instantiate  [pending]  repairs 4  not carried
+   source t07 (making arrangements with neighbouring artworks); lift FloydVsVoid:t07 > T3-010 > T4-016 > D04
+   how: A bare acceptance answers a request for repair pixels without asking anything back
+   codes: c0108 asking allies to spare pixels for the Swiss cheese; c0111 taking up the request for cheese repairs
+   transitions: 632mk4:0>3
+
+== GabrielDropout-010  instantiate  [pending]  repairs 1  not carried
+   source t04 (working out one design and what to call it); lift GabrielDropout:t04 > T3-004 > T4-006 > D02
+   how: The one-line report of already placing accepts the immediately preceding proposal to begin.
+   codes: c0015 treating two agreements as enough to start; c0016 starting to place the agreed design
+   transitions: 62v7xa:1.1.1.1.1.2.1.1.1.1>1.1.1.1.1.2.1.1.1.1.1
+
+== Goodboye-020  instantiate  [pending]  repairs 1  not carried
+   source t07 (negotiating the butthole raid); lift Goodboye:t07 > T3-149 > T4-016 > D04
+   how: A bare agreement accepts a conditional proposal without requesting anything further.
+   codes: c0064 accepting the butthole if the rest is protected; c0065 agreeing to protect everything else
+   transitions: 634x2p:1.1.1.1.1.1.1.1>1.1.1.1.1.1.1.1.1
+
+== GranColombia-013  instantiate  [pending]  repairs 1  not carried
+   source t05 (taking, holding, and reclaiming canvas space); lift GranColombia:t05 > T3-005 > T4-013 > D03
+   how: A rallying assent and a reply accepting the priority of moving right ask for nothing back.
+   codes: c0031 rallying the comrades to do it; c0029 joining Discord and making red and moving right the priority
+
+== GreenCorner-003  instantiate  [pending]  repairs 1  not carried
+   source t03 (defending, repairing, and retaking the corner); lift GreenCorner:t03 > T3-005 > T4-013 > D03
+   how: The original proposer accepts the reasoned redirection with a bare assent.
+   codes: c0094 refusing to divert scarce forces from the corner; c0095 accepting the call not to divert forces
+   transitions: 62phh0:1>1.1
+
+== GrowTheTree-015  instantiate  [pending]  repairs 1  not carried
+   source t04 (bringing growers together and making the subreddit reachable); lift GrowTheTree:t04 > T3-044 > T4-025 > D07
+   how: A bare declaration of joining fits the minimal acceptance form without identifying the call being answered.
+   codes: c0035 joining the tree after the flag project was hijacked
+
+== GuardiansOfDatBoi-003  instantiate  [pending]  repairs 1  not carried
+   source t05 (Turning the beam toward OSU); lift GuardiansOfDatBoi:t05 > T3-006 > T4-020 > D08
+   how: A short affirmative reply promises participation while making it conditional on seeing the proposed tactic started.
+   codes: c0042 proposing portal-gunning the beam; c0043 promising to contribute once portal-gunning starts
+   transitions: 634tqv:0>1
+
+== HomestarRunner-004  instantiate  [pending]  repairs 1  not carried
+   source t01 (working out what and where to draw); lift HomestarRunner:t01 > T3-004 > T4-006 > D02
+   how: A proposed division of arm work receives a brief assent asking for nothing back.
+   codes: c0028 dividing arm work into outlining and filling; c0029 agreeing to the outline-and-fill plan
+   transitions: 62q516:2.2.1.1.1>2.2.1.1.1.1
+
+== Homura-002  instantiate  [pending]  repairs 0  not carried
+   source t05 (starting Madoka with Homura through the server); lift Homura:t05 > T3-014 > T4-010 > D02
+   how: A server invitation receives a bare commitment to join, while a reported design decision receives an equally brief assent.
+   codes: c0012 saying the discord agreed to keep the white border; c0013 accepting that the white-border decision settles it; c0015 inviting people to the r/MadokaMagica server to get in on what's going on; c0016 agreeing to join
+   transitions: 62ykd5:1>1.1, 62ykd5:1.1.1>1.1.1.1
+
+== Honduras-002  instantiate  [pending]  repairs 1  not carried
+   source t01 (making, saving, and remaking the Honduran flag); lift Honduras:t01 > T3-065 > T4-006 > D02
+   how: The direct answer accepts the support call with a bare commitment that asks for nothing back.
+   codes: c0006 asking for support; c0007 answering the support call with I got u
+   transitions: 62tb3o:0>1
+
+== Jamaica-010  instantiate  [pending]  repairs 0  not carried
+   source t07 (watching the flag change and answering in the moment); lift Jamaica:t07 > T3-021 > T4-013 > D03
+   how: A participant answers encouragement with a bare assent and elsewhere reports completion in one word.
+   codes: c0021 answering that they are on it; c0015 announcing DONE
+
+== KState-011  instantiate  [pending]  repairs 1  not carried
+   source t06 (thanking and celebrating everyone who helped); lift KState:t06 > T3-043 > T4-026 > D07
+   how: Brief reports and praise acknowledge participation and achievement without asking for anything back.
+   codes: c0019 saying they made the small KSU in about twenty minutes; c0044 praising Pittcrew's work
+
+== MMA-013  instantiate  [pending]  repairs 1  not carried
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift MMA:t07 > T3-038 > T4-007 > D02
+   how: A design proposal receives a bare written commitment without a reciprocal request.
+   codes: c0418 voting to put constipated Dana with r/mma underneath; c0420 joining the proposed constipated-Dana build
+   transitions: 630nww:2>2.2
+
+== Madeon-007  instantiate  [pending]  repairs 2  not carried
+   source t08 (calling for album art and finding it already done); lift Madeon:t08 > T3-082 > T4-006 > D02
+   how: The completion reply answers the proposal in one line and asks for nothing back.
+   codes: c0039 proposing collectively putting album art onto r/place; c0041 reporting that the album art is already done
+   transitions: 637971:0>2
+
+== ManningPlace-024  instantiate  [pending]  repairs 0  not carried
+   source t03 (working out overlaps with neighbouring art); lift ManningPlace:t03 > T3-010 > T4-016 > D04
+   how: A neighbour's relocation request receives a bare apology and commitment to start work without asking anything back.
+   codes: c0043 asking for help relocating r/ssbpm instead of fighting; c0044 apologizing and starting work on r/ssbpm's relocation
+   transitions: 636616:0>1
+
+== MiamiHurricanes-010  instantiate  [pending]  repairs 3  not carried
+   source t02 (Keeping the U up around everyday life); lift MiamiHurricanes:t02 > T3-021 > T4-013 > D03
+   how: The bare commitment On the job fits the one-line joining element without requiring a demonstrated causal response to a particular call.
+   codes: c0015 getting on the job
+
+== MiamiHurricanes-011  instantiate  [pending]  repairs 3  not carried
+   source t04 (Making room with r/place neighbors); lift MiamiHurricanes:t04 > T3-010 > T4-016 > D04
+   how: Brief acceptances answer explicit neighboring requests, so this process also operates inside border negotiation.
+   codes: c0027 asking Miami to stop short of Hector's foot; c0028 agreeing to stop short of Hector's foot; c0026 asking Miami to stop its move a little lower; c0029 accepting r/FireEmblem's lower border request
+   transitions: 631p1i:7.1.1>7.1.1.1, 631p1i:11>11.1
+
+== MonkeyIsland-003  instantiate  [pending]  repairs 1  not carried
+   source t01 (asking more people to help and answering the call); lift MonkeyIsland:t01 > T3-002 > T4-005 > D01
+   how: Two bare replies accept requests for help.
+   codes: c0005 answering the help call with 'Sir, yes sir!'; c0024 accepting the request to help Guybrush
+
+== Moondye7-009  instantiate  [pending]  repairs 0  not carried
+   source t02 (giving current orders for building and moving the MD7 logo); lift Moondye7:t02 > T3-070 > T4-008 > D02
+   how: A participant declares readiness as a Pixel-Soldat in the orders thread.
+   codes: c0043 reporting for duty as a ‘Pixel-Soldat’
+
+== NewMexico-013  instantiate  [pending]  repairs 1  not carried
+   source t02 (drawing a workable zia and dividing up the pixels); lift NewMexico:t02 > T3-004 > T4-006 > D02
+   how: Bare replies approve a design and acknowledge an assigned part without requesting anything back.
+   codes: c0015 approving the plan and starting it; c0019 acknowledging the division of work
+   transitions: 62xzba:3>3.1, 62xzba:4>4.1
+
+== NieR-012  instantiate  [pending]  repairs 1  not carried
+   source t09 (guarding and repairing Emil against takeovers); lift NieR:t09 > T3-005 > T4-013 > D03
+   how: A volunteer directly answers the defense call with a bare commitment to help guard.
+   codes: c0072 calling for spare-time help to defend the community's pixels; c0074 joining the guard
+   transitions: 6344jh:0>2
+
+== NieR-013  instantiate  [pending]  repairs 1  not carried
+   source t07 (building and declaring Emil finished); lift NieR:t07 > T3-009 > T4-026 > D07
+   how: The one-word report of completion directly answers a request to change the sign.
+   codes: c0089 proposing an /r/ on the sign so people see that many are building and attack less; c0090 adding the /r/ to the sign
+   transitions: 634jxa:3>3.1
+
+== OKState-002  instantiate  [pending]  repairs 1  not carried
+   source t01 (joining in and keeping the OKST effort going); lift OKState:t01 > T3-002 > T4-005 > D01
+   how: Explains bare commitments to join and thanks that ask for nothing back.
+   codes: c0007 answering the call with got you, fam; c0008 joining in; c0014 checking back and thanking the person setting it up
+
+== Okami-019  instantiate  [pending]  repairs 1  not carried
+   source t05 (keeping Ammy there against damage); lift Okami:t05 > T3-021 > T4-013 > D03
+   how: A brief promise to redirect attention answers an explicit maintenance need.
+   codes: c0029 dropping expansion to focus on maintenance as Ammy is destroyed; c0030 redirecting attention from He-Man to Ammy
+   transitions: 633o3k:2.1.1.1>2.1.1.1.1
+
+== OnePiece-003  instantiate  [pending]  repairs 0  not carried
+   source t03 (making peace, defending allies, and respecting neighbors); lift OnePiece:t03 > T3-011 > T4-017 > D04
+   relation: GreenLattice
+   how: A request for repair pixels received a bare commitment to help.
+   codes: c0016 asking for a few pixels to repair Green Lattice; c0017 going to help repair Green Lattice
+   transitions: 62nlsn:9>9.1
+
+== OneTrueEmilia-002  instantiate  [pending]  repairs 2  not carried
+   source t03 (calling Emilia's knights to defend the sign); lift OneTrueEmilia:t03 > T3-005 > T4-013 > D03
+   how: Explains the short commitment to defend overnight in direct answer to the renewed defense call.
+   codes: c0017 calling Emilia's knights to defend against REm iS Best Girl; c0018 staying up all night defending it to the death
+   transitions: 633l9o:4>4.1
+
+== OneTrueEmilia-003  instantiate  [pending]  repairs 2  not carried
+   source t04 (fixing, saving, and recounting Emilia Best Girl); lift OneTrueEmilia:t04 > T3-021 > T4-013 > D03
+   how: Explains the brief report of having done a part by fixing vandalism after seeing a post elsewhere.
+   codes: c0013 doing their part by fixing vandalism
+
+== PORTUGALCARALHO-002  instantiate  [pending]  repairs 0  not carried
+   source t02 (keeping and repairing what is ours); lift PORTUGALCARALHO:t02 > T3-005 > T4-013 > D03
+   how: Bare joining replies answer a defence call without requesting anything in return.
+   codes: c0033 calling patriots to help at 710,420 against the Mouros; c0035 joining the defence; c0036 joining the defence too
+   transitions: 62ztuq:0>2, 62ztuq:0>3
+
+== PUBATTLEGROUNDS-003  instantiate  [pending]  repairs 0  not carried
+   source t05 (Getting people into the PUBG logo build); lift PUBATTLEGROUNDS:t05 > T3-002 > T4-005 > D01
+   how: A bare offer to help directly accepts the logo invitation without asking anything back.
+   codes: c0049 calling for a small PUBG logo and giving the first coordinates; c0050 volunteering to help
+   transitions: 62zk0s:0>1
+
+== Peru-012  instantiate  [pending]  repairs 1  not carried
+   source t03 (making a few builders count); lift Peru:t03 > T3-136 > T4-012 > D01
+   how: Short replies offer assent and support without asking for anything in return.
+   codes: c0026 joining the recognized flag effort; c0049 backing the negotiated flag effort
+
+== Pigifs-007  instantiate  [pending]  repairs 1  not carried
+   source t07 (trading pig gifs for pink pixels); lift Pigifs:t07 > T3-159 > T4-026 > D07
+   how: The helper reports a pink pixel in one line and the organizer answers with thanks and a reference to the promised reward.
+   codes: c0037 reporting doing a pink pixel thing; c0038 thanking a helper with pig gifs
+   transitions: 630qe1:1>1.1
+
+== PinkUnion-003  instantiate  [pending]  repairs 1  not carried
+   source t02 (choosing where to regroup after being wiped out); lift PinkUnion:t02 > T3-124 > T4-014 > D04
+   how: A conditional fallback proposal receives a bare endorsement asking for nothing in return.
+   codes: c0035 holding ground or aligning with hearts after defeat; c0036 endorsing the fallback to hearts
+   transitions: 62rwfq:1.1>1.1.1
+
+== PinkVomitMonster-021  instantiate  [pending]  repairs 1  not carried
+   source t05 (trading help and protecting allies); lift PinkVomitMonster:t05 > T3-150 > T4-018 > D04
+   how: An allied help request receives assent and a promise to watch its flag without requesting anything back.
+   codes: c0073 returning help by watching an ally's flag
+
+== PlaceNL-017  instantiate  [pending]  repairs 1  not carried
+   source t07 (making borders, pacts, and deals with neighbors); lift PlaceNL:t07 > T3-010 > T4-016 > D04
+   how: A border instruction receives a brief acceptance that announces starting the masonry.
+   codes: c0013 putting a border around Goodboye and otherwise leaving it alone; c0014 starting to build the agreed border
+   transitions: 62z2ck:0>1
+
+== ProfessorLayton-013  instantiate  [pending]  repairs 0  not carried
+   source t01 (calling backup and keeping the figures in place); lift ProfessorLayton:t01 > T3-002 > T4-005 > D01
+   how: A member answers the urgent help request with a bare report of already working on Luke.
+   codes: c0018 calling for immediate help as people color over it; c0019 answering that they are working on Luke
+   transitions: 62y6m6:8>8.1
+
+== ProfessorLayton-014  instantiate  [pending]  repairs 0  not carried
+   source t02 (working out what to put in the space); lift ProfessorLayton:t02 > T3-041 > T4-006 > D02
+   how: A brief assent endorses the design proposal without asking for anything back.
+   codes: c0029 proposing picarat and question-mark designs between Luke and Layton; c0030 endorsing the proposed design
+   transitions: 636yyv:0>1
+
+== PurplePixels-008  instantiate  [pending]  repairs 2  not carried
+   source t08 (appointing overseers and laying down Purple rules); lift PurplePixels:t08 > T3-101 > T4-011 > D02
+   how: A recipient accepts an offered office in one affirmative line and promises to perform its duties.
+   codes: c0138 accepting the Recruitment Overseer role and promising to perform its duties
+
+== Rainbow6-002  instantiate  [pending]  repairs 1  not carried
+   source t02 (Calling people to put Siege on the canvas); lift Rainbow6:t02 > T3-002 > T4-005 > D01
+   how: Short answers assent to a proposal or report joining without asking anything back.
+   codes: c0099 answering the pixel-art call with let's make it happen; c0480 saying they are on it; c0481 working on it too
+
+== ReBoot-015  instantiate  [pending]  repairs 0  not carried
+   source t02 (claiming and celebrating the collab’s success); lift ReBoot:t02 > T3-009 > T4-026 > D07
+   how: The short success assessment fits the one-line reporting end of the element without establishing a pledge to place or personal placing labour.
+   codes: c0003 reporting the ReBoot logo a success
+
+== RelientK-009  instantiate  [pending]  repairs 0  not carried
+   source t03 (moving the logo when neighbours need the space); lift RelientK:t03 > T3-039 > T4-014 > D04
+   how: A brief thanks accepts the reported relocation discussion and asks for nothing back.
+   codes: c0015 discussing the logo's relocation in a Discord room; c0017 welcoming the Discord relocation discussion
+   transitions: 62xnq8:6.1.2.1.2>6.1.2.1.2.1
+
+== Russiaclan-015  instantiate  [pending]  repairs 0  not carried
+   source t05 (answering calls to help other flags); lift Russiaclan:t05 > T3-011 > T4-017 > D04
+   how: A member answers an outside request with a bare commitment to help.
+   codes: c0041 asking for help taking the Turkish flag for a Greek alliance; c0042 answering Greece's request by joining in
+   transitions: 63355k:0>1
+
+== ScottPilgrim-005  instantiate  [pending]  repairs 0  not carried
+   source t01 (calling people in and putting pixels to work); lift ScottPilgrim:t01 > T3-002 > T4-005 > D01
+   how: A specific invitation to help receives a bare acceptance asking for nothing back.
+   codes: c0023 inviting help on the white bit in the hair; c0024 agreeing to help with the white bit
+   transitions: 62per0:1.1.1.1>1.1.1.1.1
+
+== SquareSpiral-003  instantiate  [pending]  repairs 1  not carried
+   source t01 (recruiting and gathering Square Spiralers); lift SquareSpiral:t01 > T3-002 > T4-005 > D01
+   how: A standalone promise to assist supplies a bare commitment without establishing a paired response to a particular call.
+   codes: c0035 joining to patch and expand the spiral
+
+== Summit1G-003  instantiate  [pending]  repairs 1  not carried
+   source t01 (calling people to make, save, and fix the 1G); lift Summit1G:t01 > T3-002 > T4-005 > D01
+   how: A brief team declaration and completed-part report provide visible forms of joining the project without revealing individual placing.
+   codes: c0007 joining TeamOrange; c0004 celebrating the G being complete
+
+== SwissNeutralityZone-003  instantiate  [pending]  repairs 1  not carried
+   source t09 (putting citizens and helpers on a physical memorial list); lift SwissNeutralityZone:t09 > T3-043 > T4-026 > D07
+   how: A bare report of having done one's part answers the memorial request after placement ends.
+   codes: c0086 asking citizens to give names for a physical memorial; c0089 saying I did my part
+   transitions: 639g1s:0>4
+
+== SydneyFC-037  instantiate  [pending]  repairs 0  not carried
+   source t05 (calling the little SydFC cemented, immortalised, and paid off); lift SydneyFC:t05 > T3-009 > T4-026 > D07
+   how: The maker's bare assent answers a declaration about the finished mark and asks for nothing back.
+   codes: c0013 declaring SYD FC cemented in history; c0014 agreeing it is cemented in history
+   transitions: 6378e4:2>2.1
+
+== THE_R-005  instantiate  [pending]  repairs 1  not carried
+   source t04 (adding flairs to the great sub); lift THE_R:t04 > T3-185 > T4-002 > D06
+   how: A bare acceptance takes up a request for subreddit flairs and establishes work in progress rather than completed implementation.
+   codes: c0006 asking for flairs on this great sub; c0007 taking up the work of adding flairs
+   transitions: 62xnd2:0>1
+
+== TeamDignitas-003  instantiate  [pending]  repairs 0  not carried
+   source t01 (finding Yellow man and pitching in); lift TeamDignitas:t01 > T3-002 > T4-005 > D01
+   how: Members offer help, report their part done, and thank helpers through bare lines that request nothing back.
+   codes: c0004 answering the explanation by heading over; c0009 offering to help out; c0015 thanking someone for helping; c0017 reporting having done their part
+
+== Temple-016  instantiate  [pending]  repairs 1  not carried
+   source t03 (sharing room and help with neighboring schools); lift Temple:t03 > T3-010 > T4-016 > D04
+   how: A mutual-defense proposal receives a bare assent without a further request.
+   codes: c0034 proposing mutual defense of the W and T; c0035 agreeing to mutual defense
+   transitions: 62x8yr:7.1>7.1.1
+
+== TheAdventuresofTintin-002  instantiate  [pending]  repairs 1  not carried
+   source t01 (rallying and joining in to put Tintin and Snowy on r/place); lift TheAdventuresofTintin:t01 > T3-002 > T4-005 > D01
+   how: A member accepts the invitation with a bare commitment that requests nothing in return.
+   codes: c0002 joining in
+
+== TheB1G-016  instantiate  [pending]  repairs 1  not carried
+   source t03 (calling people in to defend logos under attack); lift TheB1G:t03 > T3-005 > T4-013 > D03
+   how: A member reports that attackers have left and thanks helpers without asking anything back.
+   codes: c0037 thanking helpers after making the attackers leave
+
+== TheFarLeftSide-017  instantiate  [pending]  repairs 1  not carried
+   source t04 (spreading red and taking over rival marks); lift TheFarLeftSide:t04 > T3-006 > T4-020 > D08
+   how: A bare completion report answers a takeover proposal without asking for anything back.
+   codes: c0229 declaring the propertarian takeover done
+
+== TheGreatGreenBox-008  instantiate  [pending]  repairs 1  not carried
+   source t03 (choosing where and how to grow); lift TheGreatGreenBox:t03 > T3-171 > T4-023 > D05
+   how: A reply assents to putting expansion before conquest without asking for anything back.
+   codes: c0011 agreeing on expansion first and conquest later
+
+== TheHulk-003  instantiate  [pending]  repairs 0  not carried
+   source t02 (showing the picture and placement to build from); lift TheHulk:t02 > T3-070 > T4-008 > D02
+   how: A corrected placement receives a bare acknowledgement without asking for anything back.
+   codes: c0048 correcting the new Hulk placement to down and right; c0050 confirming the corrected placement
+   transitions: 631voy:1.1>1.1.1
+
+== TransFlagPlace-008  instantiate  [pending]  repairs 1  not carried
+   source t07 (celebrating, thanking, and saying the flag persisted); lift TransFlagPlace:t07 > T3-009 > T4-026 > D07
+   how: A concise report that the heart is mostly done thanks helpers without asking for a further response.
+   codes: c0180 declaring the heart done and thanking helpers
+
+== TreePlace-008  instantiate  [pending]  repairs 1  not carried
+   source t05 (honoring the tree and its makers); lift TreePlace:t05 > T3-043 > T4-026 > D07
+   how: A bare thank-you answers honorary recognition without asking for anything back.
+   codes: c0016 making the banner maker an official paintleaf; c0017 thanking the person who named them paintleaf
+   transitions: 62tjte:1>1.1
+
+== TsundereSharks-011  instantiate  [pending]  repairs 1  not carried
+   source t06 (defending the masterpiece with scripts and recruits); lift TsundereSharks:t06 > T3-005 > T4-013 > D03
+   how: A script recipient reports an instance running in one line without asking anything back.
+   codes: c0074 getting a defence-script instance running
+   transitions: 633cv5:5>5.2
+
+== UPenn-003  instantiate  [pending]  repairs 0  not carried
+   source t05 (bordering the logo so it is not overwritten); lift UPenn:t05 > T3-055 > T4-013 > D03
+   how: A proposal for protective bordering receives a bare commitment that asks nothing back.
+   codes: c0009 proposing a white square border so the logo is less likely to be overwritten; c0010 agreeing to secure the border
+   transitions: 631uyb:4>4.1
+
+== VelvetUnderground-003  instantiate  [pending]  repairs 1  not carried
+   source t01 (recruiting people and taking turns fixing the banana); lift VelvetUnderground:t01 > T3-002 > T4-005 > D01
+   how: A repairer answers the urgent call by reporting repeated effort, while a separate assent endorses the proposed defense priority.
+   codes: c0010 calling for help right now against people messing with it; c0014 trying to help every five minutes; c0004 putting stopping /r/the_donald ahead of shifting the banana into place; c0006 agreeing with the stated priority
+   transitions: 6342cs:3>3.1, 6342cs:2>2.1
+
+== Villanova-007  instantiate  [pending]  repairs 0  not carried
+   source t01 (making a Villanova logo together); lift Villanova:t01 > T3-038 > T4-007 > D02
+   how: A helper commits to joining without requesting anything back, while explaining why the independent attempt was ineffective.
+   codes: c0010 switching to help after two hours of changes failed to register
+
+== WPI-031  instantiate  [pending]  repairs 0  not carried
+   source t05 (stopping others from taking the logo); lift WPI:t05 > T3-005 > T4-013 > D03
+   how: A defense call receives a bare commitment to join, and relocation help receives short thanks that ask for nothing back.
+   codes: c0048 joining the defense and refusing to let them take the logo; c0029 thanking the person who suggested a new spot; c0034 thanking the visitor who offered help
+   transitions: 6339ql:0>1, 62xeo5:2.1.1>2.1.1.1
+
+== WisconsinBadgers-002  instantiate  [pending]  repairs 2  not carried
+   source t01 (rallying Badgers to pitch in and cheering the work); lift WisconsinBadgers:t01 > T3-002 > T4-005 > D01
+   how: A member answers the current-strategy help request with a bare promise to do what they can.
+   codes: c0010 redirecting helpers to the current strategy; c0012 promising to do what they can
+   transitions: 62tz7x:6.1>6.1.1
+
+== aceattorney-007  instantiate  [pending]  repairs 1  not carried
+   source t08 (holding down the fort across shifts); lift aceattorney:t08 > T3-021 > T4-013 > D03
+   how: A repairer answers the attack announcement with a brief commitment to fixing the figure.
+   codes: c0120 announcing Apollo is under attack; c0091 fixing Apollo under attack
+   transitions: 636u50:0>1
+
+== acecombat-010  instantiate  [pending]  repairs 1  not carried
+   source t04 (abandoning blocked designs and switching the mission); lift acecombat:t04 > T3-069 > T4-013 > D03
+   how: A member answers a stop order with the bare assent Copy, RTB, showing acceptance of standing down rather than joining construction.
+   codes: c0028 copying the order to return to base
+
+== achievement_hunter-003  instantiate  [pending]  repairs 0  not carried
+   source t03 (building, maintaining, and remaking AH marks); lift achievement_hunter:t03 > T3-041 > T4-006 > D02
+   how: A direct contribution invitation receives a bare acceptance asking for nothing back.
+   codes: c0021 claiming to have started it and inviting contributions; c0022 joining the work
+   transitions: 62x619:1>1.1
+
+== adventuretime-015  instantiate  [pending]  repairs 1  not carried
+   source t01 (pitching characters and rallying builders); lift adventuretime:t01 > T3-033 > T4-006 > D02
+   how: A short offer of help directly accepts a proposal without requesting anything in return.
+   codes: c0017 trying to start BMO to their right; c0018 offering to help make BMO
+   transitions: 62u0dm:2>2.1
+
+== aeon-004  instantiate  [pending]  repairs 3  not carried
+   source t01 (joining a scripted attempt to draw AEON); lift aeon:t01 > T3-028 > T4-009 > D02
+   how: A bare offer to help answers the script invitation without asking for anything back.
+   codes: c0002 telling people to paste the drawing script and hit ENTER; c0003 saying I'll help
+   transitions: 637b40:0>1

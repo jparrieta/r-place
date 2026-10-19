@@ -1,0 +1,35 @@
+P15: 6 lines in all (op add-condition); packet [0, 6): 6 lines; carried through no third-order tier
+ops in the packet: {'add-condition': 6}
+
+== ProfessorLayton-017  add-condition  [pending]  repairs 0  not carried
+   source t02 (working out what to put in the space); lift ProfessorLayton:t02 > T3-041 > T4-006 > D02
+   how: A stated commitment to contribute can depend on seeing recognisable parts rather than being unconditional assent.
+   codes: c0012 promising to contribute when Luke becomes visible; c0013 announcing that Luke is visible
+
+== ProfessorLayton-062  add-condition  [pending]  repairs 0  not carried
+   source t02 (working out what to put in the space); lift ProfessorLayton:t02 > T3-041 > T4-006 > D02
+   how: Assent posted after placement closes establishes endorsement but cannot establish execution of the proposed addition.
+   codes: c0029 proposing picarat and question-mark designs between Luke and Layton; c0030 endorsing the proposed design
+   transitions: 636yyv:0>1
+
+== SwissNeutralityZone-004  add-condition  [pending]  repairs 1  not carried
+   source t09 (putting citizens and helpers on a physical memorial list); lift SwissNeutralityZone:t09 > T3-043 > T4-026 > D07
+   how: A bare contribution report can answer a request for memorial inclusion rather than commit its speaker to new placement work.
+   codes: c0086 asking citizens to give names for a physical memorial; c0089 saying I did my part; c0106 asking to be counted for fighting the void for flag and mountains
+
+== indieheads-004  add-condition  [pending]  repairs 1  not carried
+   source t13 (testing which album or logo to draw next); lift indieheads:t13 > T3-041 > T4-006 > D02
+   how: Acceptance may depend on an available template or include an alternative design rather than remain an unconditional bare commitment.
+   codes: c0225 joining the Aphex Twin proposal and suggesting an RDJ face; c0238 being down to help if there was a template
+
+== thesimpsons-013  add-condition  [pending]  repairs 0  not carried
+   source t07 (calling for keeping Homer alive); lift thesimpsons:t07 > T3-005 > T4-013 > D03
+   how: A humorous written commitment counts as an answer while actual placing remains unverified.
+   codes: c0035 reporting great progress while asking for touching up; c0036 putting a best man on fixing Homer
+   transitions: 62xchl:3>3.1
+
+== thetreesnetwork-010  add-condition  [pending]  repairs 1  not carried
+   source t02 (announcing BEESNETWORK and saying Nice); lift thetreesnetwork:t02 > T3-023 > T4-001 > D06
+   how: Identify the proposal being approved before treating bare assent to a host prank as acceptance of a canvas call.
+   codes: c0002 announcing our new venture; c0004 saying Nice to the new venture
+   transitions: 62v401:0>2

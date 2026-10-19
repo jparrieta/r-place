@@ -465,6 +465,33 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Hubs.** Sending the room's work or talk to a hub of kindred rooms shows P17 (sooners-031, NovaScotia-017, sabres-021). The room's own chat or canvas sub does not (FederationPlace-013, satania-021).
   - **Tallies.** P17's lead clause and G27's governing sentence read each listed form as a way the room joins others. A comparison or count of kindred works after the canvas joins no one. So restrict lines that say so are specifications, not corrections (mcgill-019, nyu-025, sixers-023).
   - **After the close.** A pact proposed after hour 73 for later events is a tie carried past the close, P13's ground (ukplace-028; chibears-053 names P13).
+- **G28 (logged at D3a-23, before P15's lines were read or ruled).** P15 is shown when a concept shows a member answering a call or a proposal with a short reply that joins, assents, reports their own part done or thanks, and that asks for nothing back. The forms are the ones P15's statement names. 'On it.' is its lower end and 'Did my part.' its upper end. A12 holds the order, a call before its answer, and the bare join as the usual form ('I'm in'). That covers:
+  - joining a call for hands or for defence, an attack call among them ('I'm in', 'on it', 'count me in', 'I'll help');
+  - assent to a proposal put to the room or to its members: a design, a plan, a move, a deal or terms ('sounds good', 'agreed', 'yes'). The proposal may come from another room, read from either room's record;
+  - a member's report of their own part done, given in answer to a call ('done', 'placed mine', 'did my part');
+  - thanks given in answer to a call, a proposal or an offer: to the caller, the maker of a template or plan, or the one who offered.
+
+  The reply may come from a visitor who answers the room's call in the room's thread (the visitor rule). A reply that gives a reason beside its assent still shows P15: the statement sets no bar on reasons, and A12 calls the bare join the usual form, not the only one. The answer must be written. Placing with no written reply leaves no line (F-023's bound).
+
+  P15 is not shown by:
+  - the call, the proposal or the plan itself (P01, P02, P04, P08);
+  - a reply that asks something back: a question (where, which colour, how), a request for help or space, or a condition ('as long as ...', P08's terms);
+  - a refusal, a doubt or a counter-proposal, the dispreferred answer (A12, A16), or a reply that argues;
+  - a report of the work's state given in answer to no call (P03 alone), a cheer or a claim of one's part answering no call or proposal (P11 alone), or thanks to another room for help with no call or offer answered (P16 alone);
+  - a long post that does more than the four acts named.
+
+  A concept may show P15 with P03, P11, P16, P08 or P09 at once. P15 is not stated as universal, so its absent lines are never corrections. G2 and G3 rule them. An `observed-absent` or `not-needed` line is a specification where the concepts show calls or proposals in the room with no written answer, or only answers that ask something back or refuse. A written reply that joins, assents, reports a part done or thanks shows P15, and the claim of absence fails. G9 rules restrict and contradict lines. Corrections met twice at one node trigger §2, and F-023, which grounds A12, would then be re-examined. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are:
+  - A12 (the call before its answer; the bare join as the preferred answer; its bound: never counted as an order, and most calls get no written reply);
+  - P01 (calls), P02 (proposals of design), P03 (state reports), P04 (templates and plans), P08 (terms), P11 (credit and a member's own part), P16 (help and thanks between rooms), P09 (attack calls) and A16 (an attack call refused with a reason).
+
+  G4a's clause 2 lets any standing statement hold a line. Candidates and tentative entries hold no line: P06, P19, P21, R02, K03 and K04. Draws follow G1b, one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset, which the first draw's header confirms.
+- **G28's readings, stated while ruling (D3a-23).** They apply G28 and change no rule. Each was logged when it was first used.
+  - **Thanks.** Thanks shows P15 when it answers a turn that gives the thanker something for the work: a call, a proposal, an offer, a template, a source, directions or a correction (anime-005, catalonia-030, cmu-012, masseffect-003). Thanks from the caller to those who answered, thanks for help already given, and praise or thanks for a finished work are P11's crediting (TheB1G-016, ElSalvador-004, colorado-003). Thanks to another room for help, with no offer answered, is P16's (apocalypserising-015, thailand-003). Thanks for an explanation of the event, a meme or routine business answers no call about the work (cowchop-024, linux-006, livecounting-052).
+  - **A part done.** A member's own part reported in the room's build thread answers the thread's call (albania-012, aromantic-008, danganronpa-005). 'Done' or 'It's done!' in answer to a call or proposal is a part done (TheFarLeftSide-017, homelab-007, monsterhunter-004). 'Already done!' about a work made before the proposal, 'They did it' about others, and a collective 'we did it' are P03's report or P11's cheer (Madeon-007, startrek-003, eder-006, feedthebeast-003). A part claimed after the close, in a recounting or celebration thread, is P11's (anarcho_capitalism-007, hunterxhunter-008).
+  - **Asking back and doubting.** A join in the same reply as a question, or beside a doubt about the room's space or hands, is not bare (CSUFoCo-007, parabola-011, bigbang-004). A condition that is only timing ('if i see it started') asks nothing of the proposer and does not bar P15 (GuardiansOfDatBoi-003). A note or remark beside the join that asks nothing does not bar it either (genderfluid-009, rojava-010; witcher-004's restriction was rejected).
+  - **Assent.** Assent to terms, a deal or an offer is P15's, with P08's terms beside it, since the reply line asks for nothing (destiny-020's restriction was rejected). Assent to a cheer, a declaration or an announcement is not assent to a proposal (SydneyFC-037, thetreesnetwork-009). A proposer committing to its own proposal answers no one (buffalowizards-003).
+  - **Who answers.** A visitor or a neighbour answering the room's call or proposal in the room's thread counts (Dorset-015, hearthstone-030, rhythmheaven-013). An organizer's welcome or thanks that closes the exchange does not (h3h3productions-065, carletonu-009).
+  - **Later canvases.** An answer given in the thread to a proposal about a later canvas stays P15, with P13 beside it. P15 sets no hour, and the act is in the thread (aeskwadraat-018).
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -2614,5 +2641,70 @@ P17 is shown in 383 of the 705 rooms, and in 315 of them an instantiate line is 
 `validate.py D3` reports 19,605 of 42,243 ledger lines ruled: the 18,797 before this leg and P17's 808. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 20,320 lines: 808 first rulings and 3 re-rulings from this leg. That makes 715 appended re-rulings in all.
 - **Pairs.** All 14 pairs in P17's files name a ruled P17 line (`d3_pair_check.py`). Across the ledger, 1,268 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-23: P15, the bare answer
+
+P15 is a standing process placed in the form-pass tier FP-01, with no dimension, so its lines are carried through no third-order tier. Its statement reads: 'A member answers a call or proposal in one line that joins, assents, reports a part done or thanks, and the line asks for nothing back.' Its range runs from 'On it.' to 'Did my part.' A12 (P01 to P15, never counted as an order) runs into it, grounded on F-023. G28 was written before any line was read, and its readings are written under it (above). All 789 lines, in 705 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_field_entry_counts.py`, `d3_pair_check.py` and `d3_reason_phrases.py`.
+
+| op | lines | specification | elaboration (paired) | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|---|
+| instantiate | 646 | 594 | 0 | 0 | 0 | 3 | 49 |
+| absent (64 `unobserved`, 6 `not-testable`, 9 `observed-absent`) | 79 | 9 | 0 | 0 | 67 | 1 | 2 |
+| restrict | 38 | 34 | 0 | 0 | 1 | 1 | 2 |
+| add-condition | 6 | 5 | 0 | 0 | 1 | 0 | 0 |
+| add-step | 9 | 9 | 0 | 0 | 0 | 0 | 0 |
+| link | 11 | 11 | 0 | 0 | 0 | 0 | 0 |
+| all | 789 | 662 | 0 | 0 | 69 | 5 | 53 |
+
+P15 is shown by an accepted instantiate line in 579 of the 705 rooms. The helper counts 598 rooms as showing it, but that count also takes restrict specifications, which here mostly state where P15 stops. Every room has a P15 line. The nine `observed-absent` lines are specifications. Eight show calls or proposals met only by confusion, correction, refusal, jokes or praise, and one shows no call at all, so no answer was needed. P15 is not stated as universal, so no absent line is a correction.
+
+**What the specifications show.** These are rough counts, by phrase in the reason:
+- P15 as stated (a join, assent, own part or thanks in answer to a call or proposal): 530 lines;
+- P15's lower range or lower end (a bare 'on it', a join to the thread's call, thanks for something given): 60 lines; its upper end ('did my part'): 7 lines;
+- restrict and add-condition lines whose condition P15's statement holds: 35;
+- other statements named, 14: A02 6 (a visible start brings the join), A12 4, and C01, K02, P03 and P11 once each;
+- lines with another element beside P15 (P08's terms, P09's attack, P16's help, P14's scripts, P13's carrying on): 79.
+
+**Restrict lines: no correction.** 34 restrict lines say that praise, cheers, thanks or answers to non-calls are not P15, or that a reply asking something back is not bare. P15's statement says both, so these are specifications. One is an evidence limit (swordartonline-007, an uncoded remainder). Two were rejected because they bar what G28 counts: assent to a deal (destiny-020) and a note beside a join (witcher-004).
+
+**No elaborations.** Six lines looked like a family of joins that wait on a visible start, an outline or a template: ProfessorLayton-017, indieheads-004, torontoraptors-008, armok-067, dofus-052 and guatemala-006. A02's mechanism holds them: 'A member who proposes or begins a mark gives the room something to answer.' They are specifications naming A02.
+
+**What the 53 rejects show.**
+- **Instantiate, 49.**
+  - Praise, credit, cheers, a claim of one's part, or thanks for a finished work or for help already given, answering no call (P11), 25: AceOfAngels8-012, Cornwall-011, ElderScrolls-039, EraseThePlace-002, KState-011, ReBoot-015, SydneyFC-037, anarcho_capitalism-007, bobross-016, bulgaria-013, catalunya-005, colorado-003, counting-041, eder-006, esperanto-008, feedthebeast-003, freedomplanet-004, hunterxhunter-008, natsume-002, placeportalpattern-004, sakuragakuin-049, scp-018, ssbpm-003, transgender-007, yuyuyu-023.
+  - Closing thanks or welcome from the caller, the offerer or an organizer, 6: ElSalvador-004, TheB1G-016, TransFlagPlace-008, carletonu-009, h3h3productions-065, terraria-036.
+  - State reports that are not the member's own part (P03), 6: Madeon-007, daftpunk-010, oman-009, shitredditsays-007, startrek-003, zelda-003.
+  - Thanks to another room for help or a greeting (P16), 3: apocalypserising-015, iastate-005, thailand-003.
+  - Replies that ask something back or join beside a doubt, 3: CSUFoCo-007, parabola-011, bigbang-004.
+  - Other, 6: thanks for an explanation or a routine update (cowchop-024, linux-006, livecounting-052), approval of an announcement (thetreesnetwork-009), a proposer committing to its own proposal (buffalowizards-003), and a war cry answering a report (orderofthebluecorner-055, P18).
+- **Restrict, 2:** destiny-020 and witcher-004.
+- **Absent, 2.** Each line's concepts show P15, so the claim of absence fails: a member thanking a visitor's offer (landry-015), and 'Checking in' with the member's part (megaman-013).
+
+**Absent lines.** 67 are evidence limits: calls with no recorded answer, praise and greetings, questions, conditional or qualified acceptances, joins beside a doubt (wales-018, worldpowers-004), and unsolicited offers. I read the quotes of 11 candidates. A guard pattern listed 32 limits for a second look, and none moved.
+
+**Particulars, 5.** All by G6: chess-015 ('chess'), malta-003 ('france'), osugame-003 ('ohio'), counting-042 ('counting') and vim-041 ('linux').
+
+**No correction, so no §2 re-examination.** No restrict, add-condition or link line was accepted as a correction. P15 stands as served, no move was made, and F-023 is not re-examined.
+
+**Repairs (G7).** Lines in repaired rooms were 0.918 accepted (414 lines), and in unrepaired rooms 0.936 (375 lines). The repaired rooms hold more rejects (31 against 22). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **Where P15 stops.** The rejects mark P15's edge with P11 (credit and cheers for a made work), P03 (state reports) and P16 (thanks for help). The clustering may read the call and its answer as running from P01 through P15 to P11's thanks at the close.
+- **Joins that wait on a start.** Six lines show members joining once a start, an outline or a template is visible, as A02's mechanism states. They go beside A02 and A12 for the order tests.
+- **The count.** P15 is shown in 579 rooms, far beyond F-023's sample of 80. A12's bound still holds: the form is read on written, coded replies only, and acceptance by placing leaves no line.
+
+**Disclosed limits and slips.**
+- **Draws.** Seven seeded draws covered the instantiate lines, at verb offsets 95, 195, 295, 395, 495, 595 and 695 (the last over 46 lines). The first draw, at 94, held 99 instantiate lines, which showed that the lines start at 95. I kept that file, used its ten lines as read, and drew again at 95. Every drawn line's labels agreed with its quotes, so each packet was ruled from its labels, read whole.
+- **A slow helper.** `d3_verb_ids.py` ran past the time limit and went to the background. I stopped it before going on and took the op totals from the packet helper.
+- **A refused command.** At the opening, a `cut -c` after a model read was refused by the permission check. I used scripts after it.
+- **The helper's room count.** `d3_field_entry_counts.py` counts restrict specifications as showing the element. For P15 they mostly state where P15 stops, so I report 579 rooms from instantiate lines. The same count gave P17's 383 rooms at D3a-22, which included 29 rooms by restrict lines.
+
+### Close-check, D3a-23
+
+`validate.py D3` reports 20,394 of 42,243 ledger lines ruled: the 19,605 before this leg and P15's 789. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 21,109 lines: 789 first rulings from this leg and no re-ruling. Appended re-rulings stay at 715.
+- **Pairs.** P15's files hold no pairs (`d3_pair_check.py`). Across the ledger, 1,268 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 139 lines, elements 30, arrows 21, findings 37 and tier history 561, all unchanged. The model's hashes are unchanged (elements 4b4e277f…, arrows e0ba1b0b…).
 - **Questions.** None is open.

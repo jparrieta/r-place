@@ -1,0 +1,79 @@
+P15: 11 lines in all (op link); packet [0, 11): 11 lines; carried through no third-order tier
+ops in the packet: {'link': 11}
+
+== AyyMD-060  link  [pending]  repairs 1  not carried
+   source t03 (choosing the logo's colours and trying to settle the fight); lift AyyMD:t03 > T3-004 > T4-006 > D02
+   link_kind: sequence
+   how: A design decision framed as a closed poll receives the bare commitment that the recruitment-centred arrow does not locate here.
+   codes: c0109 closing the poll and insisting the logo stays green; c0110 accepting the poll and helping keep the logo green
+   transitions: 632ew8:1>1.1
+
+== Pigifs-012  link  [pending]  repairs 1  not carried
+   source t07 (trading pig gifs for pink pixels); lift Pigifs:t07 > T3-159 > T4-026 > D07
+   link_kind: sequence
+   how: A reward offer precedes the helper report and the organizer's acknowledgment, linking the incentive to an observed exchange without proving its motivational effect.
+   codes: c0036 offering five pig gifs for helping put the sign on r/Place; c0037 reporting doing a pink pixel thing; c0038 thanking a helper with pig gifs
+   transitions: 630qe1:0>1, 630qe1:1>1.1
+
+== armok-067  link  [pending]  repairs 0  not carried
+   source t09 (scootching the dwarves closer without fighting themselves); lift armok:t09 > T3-055 > T4-013 > D03
+   link_kind: dependence
+   how: Reported visible progress leads the same objector to reverse position and join the proposed consolidation.
+   codes: c0049 warning that scootching would look like vandalism and make them fight their own people; c0050 reversing course after seeing progress and chipping in
+   transitions: 63403p:1>1.1
+
+== carletonu-010  link  [pending]  repairs 0  not carried
+   source t02 (agreeing to put it next to him and help build); lift carletonu:t02 > T3-010 > T4-016 > D04
+   link_kind: sequence
+   how: Bare assent answers the bundled placement-and-help offer, independently of any explicit call for hands.
+   codes: c0004 offering to help build it next to him; c0006 accepting with 'fair enough'; c0007 accepting with 'Okay'
+   transitions: 6375y5:3>3.1, 6375y5:3>3.2
+
+== denverbroncos-005  link  [pending]  repairs 1  not carried
+   source t06 (showing newcomers how r/place works); lift denverbroncos:t06 > T3-016 > T4-003 > D01
+   link_kind: dependence
+   how: A willing newcomer's reported placement follows instruction in the same exchange.
+   codes: c0045 wanting to help because the Broncos need it; c0046 explaining how to place one pixel every five minutes; c0047 thanking the explainer and placing a pixel
+   transitions: 633zeu:1>1.1, 633zeu:1.1>1.1.1
+
+== dofus-052  link  [pending]  repairs 2  not carried
+   source t01 (making the Dofus Emerald together); lift dofus:t01 > T3-033 > T4-006 > D02
+   link_kind: response
+   how: A report of working alone receives a direct offer of help, adding a progress-report route into bare joining.
+   codes: c0015 saying the Emerald was being done alone despite visible progress; c0016 answering the solo-work update with 'I'll help you'
+   transitions: 62v8as:2>2.1
+
+== guatemala-006  link  [pending]  repairs 0  not carried
+   source t02 (getting more people in and telling the room they started); lift guatemala:t02 > T3-065 > T4-006 > D02
+   link_kind: sequence
+   how: Reporting a first placement receives a bare join, providing a local route to commitment through an already visible start.
+   codes: c0005 posting the leftmost pixel and its location; c0006 joining in after the first pixel
+   transitions: 630w4w:2>2.1
+
+== k_on-048  link  [pending]  repairs 1  not carried
+   source t03 (working around allies and encroaching neighbours); lift k_on:t03 > T3-061 > T4-020 > D08
+   link_kind: response
+   how: The retaliatory border proposal also receives bare assent, supplying an attack-to-acceptance branch alongside constructive call-and-answer.
+   codes: c0011 suggesting making the neighbour's border crooked; c0012 acting on the crooked-border suggestion
+   transitions: 631h4w:7.1>7.1.1
+
+== lofihiphop-009  link  [pending]  repairs 1  not carried
+   source t02 (working out and defending the black-only LFHH plan); lift lofihiphop:t02 > T3-091 > T4-008 > D02
+   link_kind: sequence
+   how: A competing proposal receives corrective recall of the prior plan and then bare endorsement of the correcting member.
+   codes: c0009 proposing taking the upper right corner for r/lofihiphop; c0010 redirecting to a realistic plan and rebuilding after Rocket League fucked them up; c0012 affirming that the planner knows what is up
+   transitions: 637ee0:0>1, 637ee0:1>1.2
+
+== marvel-057  link  [pending]  repairs 0  not carried
+   source t04 (working out where Baby Groot can go); lift marvel:t04 > T3-020 > T4-014 > D04
+   link_kind: response
+   how: A familiar character phrase directly receives assent, supplying an observed path from fandom lore to acceptance within placement deliberation.
+   codes: c0039 answering the placement question with 'We Are Groot'; c0040 being won over at 'Groot'
+   transitions: 630pz5:1.1.1>1.1.1.1
+
+== uva-057  link  [pending]  repairs 0  not carried
+   source t02 (making room and borders with neighbors); lift uva:t02 > T3-010 > T4-016 > D04
+   link_kind: sequence
+   how: A clarification of personal border intentions receives bare assent and thanks, locating the short-answer form within negotiation rather than only recruitment.
+   codes: c0021 promising not to continue the sabers below the border; c0022 accepting the border agreement; c0023 thanking the neighbor for agreeing
+   transitions: 632zof:2.1.2.1.1.1>2.1.2.1.1.1.1, 632zof:2.1.2.1.1.1.1>2.1.2.1.1.1.1.1
