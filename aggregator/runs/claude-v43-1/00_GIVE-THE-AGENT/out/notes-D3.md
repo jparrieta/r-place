@@ -653,6 +653,30 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Restrictions.** Most restrict lines say that the record cannot show which placings the call caused. A01's connection claims an order counted inside each room, so that condition does not make it fail. Where the concepts show the order, the line is a specification.
   - **The close and the plan.** A call met by the close ('The event is over unfortunately, r/place has closed.', chess) is held by P12's 'the end marked', with P03 read only before hour 73. A call answered by requests for a plan or coordinates is held by P04's statement (hearthstone, splatoon). A lone builder after a call is held by K02's statement (flashtv, frankocean).
   - **Draws.** The draws at verb offsets 286, 386 and 486 held all 276 instantiate lines (100, 100 and 76). In the 30 lines drawn, 15 hows claim more than their quotes show, so every packet was read whole.
+- **G35 (logged at D3a-30, before any of A03's lines was read or ruled).** A03 is a standing arrow from C2, P03 → P05, of kind order. Its connection reads: 'in a room carrying both, the first build report comes before the first act of upkeep or defence'. Its mechanism: 'Once a mark stands on a surface anyone can change, keeping it becomes the work: a finished part is something to lose.' It fails if 'in a room, upkeep and defence come only before any build report, or a reported build is never watched or repaired'. Its bound: 'Where the room's mark was found already placed by others, or a rival attacked before the room reported building, upkeep comes first.' After Stigmergy's recut, C2 counted it in 148 of 190 rooms carrying both (0.779; null mean 0.340, p95 0.389). Its counterexample response still names 109 of 291 rooms, a count from before the recut; that field is carried with the fields the prose rule did not read. P03 is read by G15. P05 is read as move 173 left it, by G11: watching, warning that the work is changed, repairing, calling to defend (P01's hold form), covering the night, hardening or shrinking the shape, scripts set to keep, and upkeep put before growth.
+
+  A03 is not stated as universal; it claims an order counted inside each room. So its absent lines are never corrections. G2 and G3 rule them:
+  - an `observed-absent` or `not-needed` line is a specification where the concepts show a build report with no upkeep, upkeep with no build report, neither, or the bound's pattern;
+  - a concept that shows a report of the room's mark and, after it, upkeep or defence of that mark makes the claim of absence fail (reject);
+  - `unobserved` and `not-testable` lines are evidence limits.
+
+  An instantiate line shows A03 when its concepts show a report of the state of the room's mark (G15) and, after it, an act of upkeep or defence of that mark (G11). The order is read from the concepts' hours (`cite.py`), the transitions, or an upkeep act that names a build already reported ('It's done!', then 'time for upkeep now'). It is rejected when:
+  - the first upkeep or defence comes before any report of building: the mark was found placed by others, or attacked before the room reported building (the bound's pattern, counted in the census as the bound);
+  - the report and the upkeep are one concept or one post, as G15 reads a report that the work is damaged (P03 and P05's watching at once), and no earlier report of building is shown: the order cannot be read, and the census counts it apart;
+  - only one end is shown, or what follows the report keeps nothing (a cheer, a call to build more);
+  - the report or the upkeep concerns another room's work, comes after hour 73 (P12), or is a visitor's room's own and the room's members do not take it up (G15, the visitor rule).
+
+  A restrict or contradict line is ruled by G9, read for an arrow, as under G34. A restriction whose condition the connection, the mechanism or the bound already holds is a specification where its concepts show the order or the bound's pattern, and an evidence limit (kind `none`) where they show neither. A condition held by another statement is a specification naming it (G4a, as extended to restrict lines). A correction states a condition that A03 and its bound lack and shows the order failing without it. A restriction whose concepts show a reported build that the room never watched or repaired meets A03's `mechanism_fails_if`; G9 rules it a correction where its condition is not already stated. Two accepted corrections with one target and one lifted node at the third or fourth level trigger §2.
+
+  The order test is written and logged before it runs: the census of the rulings by room (the order, the bound, one concept holding both, one end only, other), beside C2's count. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are P03, P05, P01 (the hold form), P11 (marking the work up), P02 (planned changes, which P05's statement names), A01 (calls before building), P09 (attacks), P10 and A10 (moves after a loss), K02 (too few hands), A06 and P14 (scripts), P16 (help), A04 (neighbour talk after keeping), P12 (the record after hour 73) and P13 (carrying on). Candidates hold no line (R02, P06, P19, K03, K04). Draws follow G1b: one draw of ten lines per 100-line instantiate packet, from the instantiate lines' first verb offset (227, after 183 absent, 42 add-condition and 1 add-step lines), which the first draw's header confirms.
+
+  **G35's readings, stated while ruling (D3a-30).** They read G35 and change no ruling rule.
+  - **One post, report then upkeep.** G35's own example ('It's done!', then 'time for upkeep now', monsterhunter) is two posts by two members. A single post whose words report the work made, finished, complete or placed and then turn to keeping it shows the order too ('We have built the American flag. Now we must maintain it.', AmericanFlaginPlace; 'Done... Maintain', Russiaclan).
+  - **The report end stays strict (G15).** A bare 'We did it!', 'Great job', 'Success!' or 'now we have to maintain it' reports no state of the work, so such a line shows one end. 'We made it' counts as made, as G15 read bahrain. A cheer with an image of the work counts as the image. 'Looks great' and 'looks pretty good now' describe the work's state and count.
+  - **Damage first.** A first report that is itself damage or repair ('OK our flag is being destroyed Gotta fix that.', australia) is P03 and P05 at once, the class G35 counts apart (J). A concept that reports building or progress while damage happens ('Eagles being spelled while someone tries to mess it up'), followed by a later act of upkeep, shows the order; four lines were moved from J to the order by this reading before any line was written (belgium-037, eagles-039, ethoslab-036, europe-042).
+  - **Upkeep before the only report** is counted with the bound (Peru, bakchodi, bisexual). A line that drops upkeep as too costly shows no act of upkeep (TheFarLeftSide).
+  - **What counts as upkeep.** A pledge or plan to keep the work counts as P05's talk ('I'll protect it now', redpandas). A placer's own correction of a misplaced pixel is not upkeep against change (predators, stlouis). Keeping a border black to avoid angering a neighbour is P07's sparing, not keeping (kindafunny).
+  - **Draws.** The draws at verb offsets 227, 327, 427 and 527 held all 380 instantiate lines (100, 100, 100 and 80). In the 40 lines drawn, 17 hows claim more than their quotes show, and two drawn lines are NONPORTABLE, so every packet was read whole.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -3230,5 +3254,52 @@ A01 is a standing arrow from C2, P01 → P03, of kind order. Its connection read
 `validate.py D3` reports 24,656 of 42,243 ledger lines ruled: the 23,980 before this leg and A01's 676. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
 - **The ledger** holds 25,413 lines: 676 first rulings from this leg and no re-ruling. Appended re-rulings stay at 757.
 - **Pairs.** A01's files hold no pair (`d3_pair_check.py`). Across the ledger, 1,235 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 150 lines, elements 30, arrows 21, findings 37 and tier history 561. Both hashes are unchanged (elements 47ff7a11…, arrows ff0b3963…).
+- **Questions.** None is open.
+
+## D3a-30: A03, the build report before upkeep
+
+A03 is a standing arrow from C2, P03 → P05, of kind order. Its connection reads: 'in a room carrying both, the first build report comes before the first act of upkeep or defence'. It is the last link of the account's spine. After Stigmergy's recut, C2 counted it in 148 of 190 rooms (0.779; null mean 0.340, p95 0.389). G35 was written before any line was read, and its readings are written under it (above). All 688 lines, in 672 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_a03_census.py` and `d3_pair_check.py`.
+
+| op | lines | specification | correction | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|
+| instantiate | 380 | 236 | 0 | 0 | 5 | 139 |
+| absent (167 `not-testable`, 16 `unobserved`) | 183 | 0 | 0 | 148 | 2 | 33 |
+| restrict | 82 | 55 | 0 | 27 | 0 | 0 |
+| add-condition | 42 | 42 | 0 | 0 | 0 | 0 |
+| add-step | 1 | 1 | 0 | 0 | 0 | 0 |
+| all | 688 | 334 | 0 | 175 | 7 | 172 |
+
+**What the rooms show (the census, `d3_a03_census.py`).** Its rules were logged before it ran. Each line keeps the class it was ruled under, and the helper checks every class against the decision written.
+- **The order, 308 rooms.** A report of the mark's state comes first, and upkeep or defence of that mark follows ('Completed just a few minutes ago. What it needs now is for us to actively defend it.', bostonceltics; 'EDIT: Done!' at h+39.63, then 'SOME N'WAHS ARE FUCKIN WITH OUR VIVEC. FIX THIS SHIT!' at h+52.31, truestl).
+- **The bound, 23 rooms.** Upkeep comes before the line's only report: the mark was already placed, inherited or attacked first ('I've been trying to fight off kU to keep our MU going.' before 'The M is currently in good shape, but the U is F'd', mizzou; r/Megumin's chart kept overnight, konosuba).
+- No room shows both. So 331 rooms show an episode, and the order holds in 308 (0.931). 32 rooms show only a first report that is itself damage (J), counted apart; with them, the order holds in 308 of 363 (0.848). C2's share was 0.779 over 190 rooms.
+- **The cheer, then upkeep.** 95 lines show one end. Most are a bare cheer followed by upkeep: 'We did it! Now we must defend it' (49ers, MMA, armenia, parahumans, warframe). G15 does not count a bare cheer as a report of the work, so these lines show P11's marking and P05's upkeep, not P03 before P05. In the members' own words, the turn from a cheer to upkeep is the commonest form of the spine's last link.
+
+**No correction (§2).** No restrict line is an accepted correction. Most restrict lines say that upkeep overlaps unfinished building. A03's connection asks for a build report before upkeep, not a completion (G15 counts 'begun' and 'half done'), and its mechanism speaks of 'a finished part', so the condition is held. Of the 82 lines, 55 are specifications: the order 37, the bound 15, and 3 held by other statements under G4a (penguins-047, a move after being overrun, P10 and A10; popheads-026 and wsu-015, no hands to keep the work, K02). 27 are evidence limits. The 43 add lines are specifications: 35 name A03's own connection and mechanism, 4 name P05 (upkeep before growth, defence under attack), 1 names P05 and P02 (monsterhunter-018: a piece dropped from the agreed plan is no longer kept, as move 173 states), 2 name P12 (the close) and 1 names K02. A03 stands as served, with no move.
+
+**What the instantiate rejects show (139).** One end, 95. J, 32. The bound, 8. Another canvas or a report after the close, 4. Five more lines are NONPORTABLE ('lost', 'overwatch') and are particulars by G6.
+
+**Absent lines.** No line is evidenced. 33 claims of absence fail because the concepts show the order (15 and 17 by packet, and one moved by the guard). Many labelers marked these not-testable because no member says the report caused the upkeep; G35 asks for the order, which the concepts show. Two lines are NONPORTABLE particulars (CSUFoCo-041, superman-041). The other 148 are evidence limits. A guard listed 22 limits whose labels name progress or completion. One moved: epublica-058 ('ahora que somos mas quizas podriamos hacerla mas ancha', then 'Deberíamos enfocarnos en proteger lo que tenemos hecho').
+
+**Repairs (G7).** Lines in repaired rooms were 0.760 accepted (379 lines), and in unrepaired rooms 0.715 (309 lines). No ruling rests on the difference.
+
+**Carried to later groups.**
+- **The spine.** The cheer followed by upkeep is the commonest form of A03 in the members' words; it joins P11 and P05. D3c's re-read weighs the spine's three links together (A02's joint opening, A01's bound, A03's cheer).
+- **Keeping given up.** A room overrun may move rather than keep (P10, A10), and a room without hands may not keep a finished work (K02). Both go with the loss family already carried.
+- **A03's counterexample response** still names 109 of 291 rooms from before the recut. It is carried with the fields the prose rule did not read.
+- **The re-check (§5).** A03 is not rewritten, so it adds no room to the re-check.
+
+**Disclosed limits and slips.**
+- **Quote counts.** One diary note gave a wrong quote count (92 for 68 in the first instantiate packet), and one gave the add counts split wrongly; later notes corrected both from scripts. Quotes read: instantiate 224 beyond the draws, restrict none (every restrict line is accepted either way, so the labels were read without quotes), absent 73.
+- **Reclassifications inside the leg.** Four instantiate lines moved from J to the order by the reading on building reported with damage, before any line was written (`d3a30_spec_fix.py`).
+- **A superseded absent build.** epublica-058 moved by the guard; the rulings were rebuilt as `A03-absent-v2.jsonl`. `A03-absent.jsonl` stays, unused.
+- **Builder change.** `d3_arrow_inst_rulings_v2.py` now also takes 'particular' as a clause decision, for NONPORTABLE instantiate lines. A01's build used only accept and reject, so its output is unchanged.
+
+### Close-check, D3a-30
+
+`validate.py D3` reports 25,344 of 42,243 ledger lines ruled: the 24,656 before this leg and A03's 688. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 26,101 lines: 688 first rulings from this leg and no re-ruling. Appended re-rulings stay at 757.
+- **Pairs.** A03's files hold no pair (`d3_pair_check.py`). Across the ledger, 1,235 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 150 lines, elements 30, arrows 21, findings 37 and tier history 561. Both hashes are unchanged (elements 47ff7a11…, arrows ff0b3963…).
 - **Questions.** None is open.

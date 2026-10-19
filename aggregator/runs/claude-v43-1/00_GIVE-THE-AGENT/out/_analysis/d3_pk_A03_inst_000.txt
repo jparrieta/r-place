@@ -1,0 +1,536 @@
+A03: 380 lines in all (op instantiate); packet [0, 100): 100 lines; carried through no third-order tier
+ops in the packet: {'instantiate': 100}
+
+== 49ers-044  instantiate  [pending]  repairs 0  not carried
+   source t06 (keeping the 49ers logo up); lift 49ers:t06 > T3-005 > T4-013 > D03
+   how: A completion announcement receives an explicit call to maintain the finished work against adversaries.
+   codes: c0053 celebrating that everyone did it; c0054 praising the build and calling for maintenance
+   transitions: 63464l:0>1
+
+== AMD-017  instantiate  [pending]  repairs 0  not carried
+   source t02 (calling people to defend and repair AMD marks); lift AMD:t02 > T3-005 > T4-013 > D03
+   how: The report of a spot receives a direct answer that it now needs protection.
+   codes: c0020 announcing AMD has its own spot in r/place; c0021 turning from making it to protecting it
+   transitions: 62qahz:0>1
+
+== AceOfAngels8-021  instantiate  [pending]  repairs 0  not carried
+   source t06 (defending the heart against people taking the spot); lift AceOfAngels8:t06 > T3-005 > T4-013 > D03
+   how: The speaker moves explicitly from reported completion to defending the result, although the edited post supplies no distinct stage times.
+   codes: c0023 announcing that they did it; c0024 waking to the finished heart and calling for defense to the end
+
+== AcePlace-033  instantiate  [pending]  repairs 2  not carried
+   source t01 (growing and finishing the ace flag); lift AcePlace:t01 > T3-038 > T4-007 > D02
+   how: Growth reports explicitly turn into maintenance and defense while expansion can still continue.
+   codes: c0013 switching to maintenance and expanding left; c0017 celebrating reaching the left side; c0019 turning from completion to defending and helping Trans siblings
+
+== AmericanFlaginPlace-021  instantiate  [pending]  repairs 1  not carried
+   source t04 (repairing and defending Old Glory); lift AmericanFlaginPlace:t04 > T3-005 > T4-013 > D03
+   how: Explains the explicit change from having built the flag to needing to maintain it within the same statement.
+   codes: c0128 turning from building the American flag to maintaining it; c0131 repeating the call to maintain the built flag
+
+== AyyMD-033  instantiate  [pending]  repairs 1  not carried
+   source t02 (keeping, repairing and preserving the logos); lift AyyMD:t02 > T3-021 > T4-013 > D03
+   how: While building continues, the placed mark becomes something to defend through a protective border and avoidance of inviting empty space.
+   codes: c0011 recruiting help to build the AMD logo at (80,156); c0012 finalizing a border meant to prevent people overrunning the logo; c0015 strengthening the border because white space invites overwriting
+
+== ChronoTrigger-033  instantiate  [pending]  repairs 1  not carried
+   source t03 (fixing what vandals change and putting repairs first); lift ChronoTrigger:t03 > T3-005 > T4-013 > D03
+   how: Placed portions become objects of defense while other sprites remain under construction, making upkeep recurrent within building rather than subsequent to total completion.
+   codes: c0005 being proud and guarding the art from vandals; c0019 putting fixing Marle before adding Magus; c0037 putting fixing Marle before adding Lucca; c0052 building Robo while maintaining the existing art
+
+== DatBoi-017  instantiate  [pending]  repairs 1  not carried
+   source t02 (rebuilding and maintaining Dat Boi); lift DatBoi:t02 > T3-021 > T4-013 > D03
+   how: The same speaker explicitly connects finishing the figure to maintaining it and reports removing unwanted additions.
+   codes: c0006 finishing Dat Boi and maintaining it by dedicking
+
+== Dominican-016  instantiate  [pending]  repairs 0  not carried
+   source t02 (repairing stolen and misplaced pixels); lift Dominican:t02 > T3-021 > T4-013 > D03
+   how: The heart flag claimed as made by siblings is later reported damaged and explicitly maintained by another participant.
+   codes: c0012 claiming the heart flag made with siblings; c0031 warning that the heart flag is being damaged; c0043 keeping the small heart flag intact by hand
+   transitions: 62u8tw:2.1.1.1.1.1.2>2.1.1.1.1.1.2.1, 62u8tw:2.1.1.1.1.1.2.1>2.1.1.1.1.1.2.1.1
+
+== Fez-021  instantiate  [pending]  repairs 1  not carried
+   source t05 (defending Gomez from trolls and flag builders); lift Fez:t05 > T3-005 > T4-013 > D03
+   how: The same turn thanks collaborators and immediately calls for protection of their work.
+   codes: c0044 thanking everyone for coming together; c0045 calling on everyone to protect Gomez
+
+== FinalFantasy-019  instantiate  [pending]  repairs 1  not carried
+   source t05 (keeping the Black Mage alive); lift FinalFantasy:t05 > T3-021 > T4-013 > D03
+   how: Reported loss is answered by insistence on restoration and instructions for repairing the remaining outline.
+   codes: c0072 tracking loss, maintenance, restoration, and loss of Black Mages; c0075 insisting the Black Mage can still be restored; c0077 coordinating restoration around the black outline first
+   transitions: 633hue:1>1.1, 633hue:1>1.2
+
+== GabrielDropout-020  instantiate  [pending]  repairs 1  not carried
+   source t06 (fixing the names and holding the ground); lift GabrielDropout:t06 > T3-021 > T4-013 > D03
+   how: A completion announcement is followed by an explicit instruction to maintain the work, making completion a continuing upkeep obligation.
+   codes: c0042 celebrating that they did it; c0051 turning completion into maintaining and holding ground
+
+== HomestarRunner-019  instantiate  [pending]  repairs 1  not carried
+   source t03 (spotting trouble and repairing the Burninator); lift HomestarRunner:t03 > T3-005 > T4-013 > D03
+   how: A report of tampering with already placed feet receives a repair promise while the broader figure remains under construction.
+   codes: c0017 showing the beginnings of Trogdor's feet; c0023 reporting someone messing with the feet; c0024 promising to fix Trogdor's feet
+   transitions: 62q516:1.1.1>1.1.1.1
+
+== Honduras-040  instantiate  [pending]  repairs 1  not carried
+   source t01 (making, saving, and remaking the Honduran flag); lift Honduras:t01 > T3-065 > T4-006 > D02
+   how: The reply naming our flag calls for saving the same mark that the parent locates and credits.
+   codes: c0002 locating the flag and thanking quienes aportaron; c0003 calling to save nuestra bandera
+   transitions: 62sblj:1>1.1
+
+== Jamaica-021  instantiate  [pending]  repairs 0  not carried
+   source t09 (handing over and defending the flag); lift Jamaica:t09 > T3-005 > T4-013 > D03
+   how: A late participant explicitly substitutes future defence for construction they missed.
+   codes: c0034 apologising for missing the build and promising to defend it
+
+== KState-040  instantiate  [pending]  repairs 1  not carried
+   source t04 (keeping the existing KSU running); lift KState:t04 > T3-042 > T4-013 > D03
+   how: The same instructions connect construction to keeping the script running afterward so that the mark is maintained.
+   codes: c0014 asking script runners to switch to a smaller design because there are not enough accounts; c0015 keeping scripts running to maintain the KSU
+
+== MMA-021  instantiate  [pending]  repairs 1  not carried
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift MMA:t07 > T3-038 > T4-007 > D02
+   how: An announcement that the drawing is done leads through a question about the next task to a call to hold it.
+   codes: c0465 declaring the drawing done; c0472 calling for the group to hold its finished mark
+
+== ManningPlace-015  instantiate  [pending]  repairs 0  not carried
+   source t05 (directing the face pixel by pixel); lift ManningPlace:t05 > T3-038 > T4-007 > D02
+   how: Maintaining an existing corner accompanies further feature building, and later hair erosion supplies a concrete upkeep problem.
+   codes: c0022 setting objectives for maintaining the corner and building features; c0040 calling attention to pink taking over the hair
+
+== Mario-016  instantiate  [pending]  repairs 1  not carried
+   source t05 (recounting building and keeping the toadstool alive); lift Mario:t05 > T3-073 > T4-027 > D07
+   how: The builder explicitly recalls using a grid for construction and then others helping keep the figure there, supporting sequence without proving state reports caused upkeep.
+   codes: c0017 using a gridded picture and appreciating others keeping the toadstool there
+
+== Moondye7-041  instantiate  [pending]  repairs 0  not carried
+   source t03 (keeping watch, defending the logo and adapting when it is threatened); lift Moondye7:t03 > T3-005 > T4-013 > D03
+   how: The instruction explicitly makes completion the reason to switch to defending the logo.
+   codes: c0012 switching from building to defending the finished logo
+
+== NieR-022  instantiate  [pending]  repairs 1  not carried
+   source t09 (guarding and repairing Emil against takeovers); lift NieR:t09 > T3-005 > T4-013 > D03
+   how: A completion report receives a direct reply calling for support because the finished picture is vulnerable to covering.
+   codes: c0054 celebrating a completed mural and everybody's work; c0055 calling for continued support because other communities can cover it
+   transitions: 62yg3e:2.1.1>2.1.1.1
+
+== Northwestern-043  instantiate  [pending]  repairs 0  not carried
+   source t08 (finishing, celebrating, and maintaining the N); lift Northwestern:t08 > T3-009 > T4-026 > D07
+   how: The completed-N announcement explicitly makes maintenance the next task.
+   codes: c0031 announcing the finished N and asking people to maintain it
+
+== Okami-042  instantiate  [pending]  repairs 1  not carried
+   source t05 (keeping Ammy there against damage); lift Okami:t05 > T3-021 > T4-013 > D03
+   how: Announcing that the image is present immediately makes maintaining it the next explicit task.
+   codes: c0012 celebrating getting Ammy there and calling for maintenance
+
+== OnePiece-044  instantiate  [pending]  repairs 0  not carried
+   source t02 (repairing and guarding the art one pixel at a time); lift OnePiece:t02 > T3-021 > T4-013 > D03
+   how: A participant explicitly joins declaring the flag complete to the continuing need to protect it.
+   codes: c0018 declaring it complete while keeping up protection
+
+== PUBATTLEGROUNDS-016  instantiate  [pending]  repairs 0  not carried
+   source t09 (Repairing and defending the logo under overwriting); lift PUBATTLEGROUNDS:t09 > T3-005 > T4-013 > D03
+   how: Completion is explicitly recast as an obligation to watch for damage and keep the mark.
+   codes: c0073 celebrating completion and calling for a vandalism watch; c0157 celebrating that they made it; c0158 calling keeping it the real challenge
+   transitions: 6370vl:0>1
+
+== Peru-020  instantiate  [pending]  repairs 1  not carried
+   source t07 (repairing and defending the flag and heart); lift Peru:t07 > T3-005 > T4-013 > D03
+   how: Repair reports treat an existing flag as something to keep while construction still continues.
+   codes: c0043 reinforcing the existing flag after flagging a vandal; c0044 adding one red dot every five minutes to improve the borders
+
+== PinkVomitMonster-042  instantiate  [pending]  repairs 1  not carried
+   source t03 (growing a gross, ever-changing Beast); lift PinkVomitMonster:t03 > T3-061 > T4-020 > D08
+   how: A report that the figure grew breasts immediately makes those new features objects to keep and maintain.
+   codes: c0015 keeping and maintaining the Beast's new titties
+
+== ProfessorLayton-021  instantiate  [pending]  repairs 0  not carried
+   source t01 (calling backup and keeping the figures in place); lift ProfessorLayton:t01 > T3-002 > T4-005 > D01
+   how: A reply to the completion announcement explicitly makes maintenance the next task.
+   codes: c0020 celebrating that they did it; c0022 saying they now need to maintain it
+   transitions: 633e3o:0>2
+
+== Rainbow6-018  instantiate  [pending]  repairs 1  not carried
+   source t10 (Keeping the Lord’s mark intact); lift Rainbow6:t10 > T3-021 > T4-013 > D03
+   how: A completion report receives an explicit answer making maintenance the next task.
+   codes: c0195 declaring the work done; c0196 switching from finishing to maintaining it
+   transitions: 62uv3h:12>12.1
+
+== RelientK-016  instantiate  [pending]  repairs 0  not carried
+   source t06 (reporting the logo overrun while others defend it); lift RelientK:t06 > T3-005 > T4-013 > D03
+   how: Reported completion precedes contested defence, supporting the sequence without identifying every cause of damage.
+   codes: c0008 claiming the finished logo and an alliance watching out for it; c0019 reporting that the logo is being overrun; c0032 defending the logo against old scripts and waiting for their users to wake
+
+== Russiaclan-035  instantiate  [pending]  repairs 0  not carried
+   source t01 (building, maintaining and rebuilding the Russian flag); lift Russiaclan:t01 > T3-065 > T4-006 > D02
+   how: The same passage marks the flag done and immediately asks participants to maintain it.
+   codes: c0009 marking the flag done and asking people to maintain it
+
+== ScottPilgrim-019  instantiate  [pending]  repairs 0  not carried
+   source t03 (keeping Scott alive by fixing and defending); lift ScottPilgrim:t03 > T3-021 > T4-013 > D03
+   how: Construction creates a picture requiring defence while growth and upkeep continue together.
+   codes: c0012 putting the head first because time and manpower are short; c0022 trying to keep the face alive while white pixels outpace repairs; c0036 outlining fists for others to fill while keeping the head intact
+
+== Slovakia-037  instantiate  [pending]  repairs 1  not carried
+   source t03 (holding, repairing, and maintaining the flag); lift Slovakia:t03 > T3-005 > T4-013 > D03
+   how: The explicit maintenance instruction answers a completion post by treating the finished mark as work that must now be kept.
+   codes: c0009 switching from completion to maintenance
+
+== Summit1G-019  instantiate  [pending]  repairs 1  not carried
+   source t01 (calling people to make, save, and fix the 1G); lift Summit1G:t01 > T3-002 > T4-005 > D01
+   how: A completed-part report precedes protection, and a destruction report receives an explicit recovery answer, supporting upkeep after building.
+   codes: c0004 celebrating the G being complete; c0016 calling for protection because people keep ruining the 1G; c0024 reporting the 1G being destroyed; c0025 announcing recovery
+   transitions: 62nt7t:12>12.1
+
+== TeamDignitas-039  instantiate  [pending]  repairs 0  not carried
+   source t04 (keeping their small spot safe); lift TeamDignitas:t04 > T3-021 > T4-013 > D03
+   how: Calling to maintain this now after completion directly presents keeping the finished mark as the next task.
+   codes: c0018 celebrating completion and proposing trashing the TSM logo; c0024 calling for maintenance of their small piece of history; c0029 celebrating that they did it; c0030 urging a blue surround to avoid destruction by blue corner
+   transitions: 62q1o4:0>1
+
+== Temple-033  instantiate  [pending]  repairs 1  not carried
+   source t06 (watching, cleaning, and defending the T); lift Temple:t06 > T3-005 > T4-013 > D03
+   how: A participant explicitly proposes finishing then defending, and later defenders prioritize keeping an established mark.
+   codes: c0028 finishing the T and then playing defense; c0045 defending the established T instead of rebuilding again
+
+== TheB1G-033  instantiate  [pending]  repairs 1  not carried
+   source t03 (calling people in to defend logos under attack); lift TheB1G:t03 > T3-005 > T4-013 > D03
+   how: A single passage reports completion and immediately names vandalism as the reason to defend the moved work.
+   codes: c0008 celebrating the move and immediately calling for defense
+
+== TheFarLeftSide-024  instantiate  [pending]  repairs 1  not carried
+   source t14 (dropping fragile work to save pixels); lift TheFarLeftSide:t14 > T3-069 > T4-013 > D03
+   how: After larger lettering is built and corrected, participants explicitly judge its vandalism-driven maintenance too costly to continue.
+   codes: c0034 proposing a larger CCCP that is harder to vandalize; c0044 correcting the larger CCCP's dimensions; c0077 abandoning CCCP as a waste to defend; c0078 redirecting CCCP maintenance toward red and other text
+
+== TheHulk-034  instantiate  [pending]  repairs 0  not carried
+   source t05 (repairing damage and making amends); lift TheHulk:t05 > T3-021 > T4-013 > D03
+   how: A placed and relocated figure remains vulnerable, prompting explicit repair calls and responses.
+   codes: c0064 announcing successful relocation and thanking Hulksters; c0076 calling for repair of Hulk’s removed hair; c0077 admitting removing the hair and fixing it
+   transitions: 632ock:0>1
+
+== TransFlagPlace-038  instantiate  [pending]  repairs 1  not carried
+   source t03 (defending and rebuilding the flag); lift TransFlagPlace:t03 > T3-005 > T4-013 > D03
+   how: The heart's completion is followed by a raid report answered with an explicit account of repeated patching, establishing renewed upkeep without explaining the attack's cause.
+   codes: c0180 declaring the heart done and thanking helpers; c0174 alerting the room that the heart at the cross is being raided; c0194 repeatedly patching the raided heart
+   transitions: 631hcb:0>1
+
+== TsundereSharks-039  instantiate  [pending]  repairs 1  not carried
+   source t06 (defending the masterpiece with scripts and recruits); lift TsundereSharks:t06 > T3-005 > T4-013 > D03
+   how: An announcement that the shark was made is explicitly reframed as defending the masterpiece, although the edit's exact timing is unavailable.
+   codes: c0051 turning from making the shark to getting noticed; c0052 turning the thread into defending the masterpiece
+
+== aceattorney-034  instantiate  [pending]  repairs 1  not carried
+   source t08 (holding down the fort across shifts); lift aceattorney:t08 > T3-021 > T4-013 > D03
+   how: The standing edit explicitly makes holding the fort the next task after reported completion, although its edit time is unavailable.
+   codes: c0042 declaring the wordmark complete and holding down the fort
+
+== acecombat-041  instantiate  [pending]  repairs 1  not carried
+   source t07 (guarding the logo until r/place closed); lift acecombat:t07 > T3-005 > T4-013 > D03
+   how: A defense pledge explicitly refers to the logo just announced complete, connecting completion to keeping the work.
+   codes: c0040 announcing the Project ACES logo done; c0042 protecting its six o'clock at all cost
+   transitions: 633qli:0>2
+
+== adventuretime-033  instantiate  [pending]  repairs 1  not carried
+   source t04 (building, rebuilding, and keeping the figures alive); lift adventuretime:t04 > T3-021 > T4-013 > D03
+   how: Already placed portions become vulnerable before the entire figure is complete, intertwining building with repair.
+   codes: c0019 having ten minutes of coloring Jake undone; c0064 asking for help rebuilding BMO from remnants
+
+== aggies-041  instantiate  [pending]  repairs 0  not carried
+   source t03 (calling and turning out to defend the logo); lift aggies:t03 > T3-005 > T4-013 > D03
+   how: The same passage declares completion and immediately directs participants to protect the drawing.
+   codes: c0024 moving from completing the logo to protecting it; c0025 calling for checks against an LSU griefer
+
+== anaheimducks-021  instantiate  [pending]  repairs 0  not carried
+   source t09 (planning to keep the finished logo standing); lift anaheimducks:t09 > T3-021 > T4-013 > D03
+   how: The organizer couples the completion announcement with a promise to maintain the work.
+   codes: c0013 thanking everyone and declaring the logo done; c0014 promising to maintain the finished logo
+
+== anarcho_capitalism-053  instantiate  [pending]  repairs 1  not carried
+   source t03 (defending the flag and Bitcoin); lift anarcho_capitalism:t03 > T3-005 > T4-013 > D03
+   how: A claimed captured flag receives a report that building was overrun and must be coordinated for a takeback.
+   codes: c0012 celebrating a midnight capture of the ancap flag; c0013 calling for coordination after the flag was taken over
+   transitions: 62r8ya:0>2
+
+== androidgaming-017  instantiate  [pending]  repairs 0  not carried
+   source t03 (defending and repairing the Android logo); lift androidgaming:t03 > T3-021 > T4-013 > D03
+   how: The report that lettering is fixed immediately turns to cleaning the eyes, showing the transition from a completed part into further upkeep.
+   codes: c0012 reporting that the damaged lettering is back; c0013 celebrating the fix and moving on to clean up the eyes
+   transitions: 62yvoe:3.1>3.1.1
+
+== animalcrossing-045  instantiate  [pending]  repairs 1  not carried
+   source t04 (keeping watch and putting the pixels back); lift animalcrossing:t04 > T3-021 > T4-013 > D03
+   how: A participant's completion report explicitly commits to watching for renewed attacks.
+   codes: c0109 finding the second build even more satisfying; c0111 keeping watch for attacks after rebuilding
+   transitions: 632fdd:10.1>10.1.1
+
+== anime_irl-019  instantiate  [pending]  repairs 1  not carried
+   source t02 (defending the weeb rectangle); lift anime_irl:t02 > T3-005 > T4-013 > D03
+   how: Completion precedes defence, and an appeal explicitly identifies fading of the existing mark as the reason to direct pixels toward it.
+   codes: c0001 declaring the work complete; c0003 calling brothers and sisters to defend the weeb rectangle; c0008 directing pixels to keep their mark from fading away
+
+== aoe2-049  instantiate  [pending]  repairs 2  not carried  NONPORTABLE ['lost']
+   source t05 (repairing and holding the helmet); lift aoe2:t05 > T3-005 > T4-013 > D03
+   how: Partial construction and defense overlap because already placed portions can be lost before the whole image is finished.
+   codes: c0039 calling blue pixels an attack and asking people to overwrite them; c0064 asking for help finishing the text and black surround; c0227 stamping out red pixels at the bottom; c0228 reporting uneven progress between the top and bottom
+
+== apocalypserising-033  instantiate  [pending]  repairs 1  not carried
+   source t05 (reporting, blaming, and repairing attacks on the AR logo); lift apocalypserising:t05 > T3-073 > T4-027 > D07
+   how: The admitted defacer directly describes repeated restoration, showing how a standing logo becomes work to keep
+   codes: c0008 marvelling that the room got the AR logo onto r/place; c0028 trying to deface the logo while others keep restoring it
+
+== archlinux-043  instantiate  [pending]  repairs 2  not carried
+   source t04 (calling people to defend and repair the logo); lift archlinux:t04 > T3-021 > T4-013 > D03
+   how: Already placed parts invite defense even while other parts remain unfinished, so upkeep and construction overlap within the same call.
+   codes: c0038 trying to keep a smaller Arch logo alive beside Tux; c0047 recruiting more people to defend and finish the subreddit sign
+
+== armenia-022  instantiate  [pending]  repairs 0  not carried
+   source t02 (expanding, defending, and maintaining Armenian pixels); lift armenia:t02 > T3-005 > T4-013 > D03
+   how: A completion cheer receives an immediate reminder that maintaining the finished heart is now the task.
+   codes: c0035 celebrating completion of an Armenian heart; c0036 turning completion into maintenance
+   transitions: 62ve2r:11.1.1.1.1.1.1.1>11.1.1.1.1.1.1.1.1
+
+== asexual-033  instantiate  [pending]  repairs 0  not carried
+   source t03 (keeping the flag and its words up); lift asexual:t03 > T3-021 > T4-013 > D03
+   how: An existing letter's erasure becomes an occasion for a helper to commit repair pixels.
+   codes: c0009 asking why the A is being erased; c0010 devoting pixels to fixing it despite not being ace
+   transitions: 62osht:6>6.1
+
+== asexuality-018  instantiate  [pending]  repairs 0  not carried
+   source t03 (keeping the flag and pride letters readable); lift asexuality:t03 > T3-021 > T4-013 > D03
+   how: Reported lettering becomes repeated repair work, and maintainers explicitly put intact letters ahead of expanding the flag.
+   codes: c0008 writing ASEXUAL underneath the flag; c0019 noticing that the pride letters take a lot of upkeep; c0020 fixing the A constantly with a partner; c0021 putting intact lettering before expansion
+   transitions: 62pg7z:2>2.1, 62pg7z:2.1>2.1.1
+
+== asktransgender-042  instantiate  [pending]  repairs 0  not carried
+   source t08 (debating what the canvas fight means); lift asktransgender:t08 > T3-037 > T4-002 > D06
+   how: A participant explicitly explains that completed flag work remains vulnerable to changed pixels and therefore requires protection.
+   codes: c0097 explaining how groups make, attack, and protect artwork together; c0098 keeping the flag visible to show the community works together
+
+== auburn-034  instantiate  [pending]  repairs 1  not carried
+   source t05 (defending and bringing back the AU); lift auburn:t05 > T3-005 > T4-013 > D03
+   how: Reported building is followed by an explicit defense call, establishing sequence but not the proposed causal mechanism.
+   codes: c0030 finishing the AU and making a run at RURURU; c0033 switching from building to defending
+
+== australia-055  instantiate  [pending]  repairs 1  not carried
+   source t09 (Keeping the patch intact); lift australia:t09 > T3-005 > T4-013 > D03
+   how: A participant explicitly joins praise for the achieved work to the need for maintenance without declaring every component finished.
+   codes: c0215 praising the job while saying it needs maintaining; c0161 celebrating that they did it; c0162 calling to fix a flag being destroyed
+   transitions: 62s5ib:0>2
+
+== austria-022  instantiate  [pending]  repairs 1  not carried
+   source t05 (defending, repairing, and maintaining what was made); lift austria:t05 > T3-005 > T4-013 > D03
+   how: One speaker explicitly reports enlargement completed and a return to maintaining the work.
+   codes: c0087 finishing expansion and going back to maintaining
+
+== bakchodi-018  instantiate  [pending]  repairs 1  not carried
+   source t04 (asking people to build, fix, and defend the Indian flag); lift bakchodi:t04 > T3-065 > T4-006 > D02
+   how: A defence call receives a construction report, showing upkeep of placed work interleaving with further building rather than requiring a separate completion stage.
+   codes: c0036 calling to stop POO being written on their flag; c0037 reporting making the saffron band
+   transitions: 62ts4i:0>1.1.1
+
+== bangladesh-033  instantiate  [pending]  repairs 1  not carried
+   source t01 (making and defending our flag together); lift bangladesh:t01 > T3-065 > T4-006 > D02
+   how: The maker explicitly links having made the heart flag to the need for collective maintenance, later reported as active defence.
+   codes: c0005 making a flag in a heart and warning it needs collective maintenance; c0008 having fun defending it
+   transitions: 62wzlx:1>1.1
+
+== bangtan-046  instantiate  [pending]  repairs 0  not carried
+   source t06 (defending and rebuilding after damage); lift bangtan:t06 > T3-021 > T4-013 > D03
+   how: A completion announcement receives a direct report of redoing a letter, showing upkeep continuing once the mark stands.
+   codes: c0060 celebrating the completed BTS logo; c0061 re-doing the S
+   transitions: 631tfi:0>1
+
+== bardmains-047  instantiate  [pending]  repairs 1  not carried
+   source t03 (placing pixels and keeping Bard tidy); lift bardmains:t03 > T3-021 > T4-013 > D03
+   how: Reporting the centre finished immediately identifies purple overwrites as something to repair, making construction and upkeep overlap.
+   codes: c0017 placing the last center block and reporting purple blocks as ruining it; c0018 going back to fix the rest because it must be done
+
+== batman-023  instantiate  [pending]  repairs 0  not carried
+   source t03 (repairing and protecting the Batman logo without becoming the void); lift batman:t03 > T3-021 > T4-013 > D03
+   how: The same poster immediately follows displaying the placed logo with a call to protect it.
+   codes: c0029 pointing out the Dark Knight logo; c0030 calling to keep the logo protected
+   transitions: 62zp0d:0>1
+
+== baylor-038  instantiate  [pending]  repairs 1  not carried
+   source t03 (putting a tiny BU on r/place and keeping it there); lift baylor:t03 > T3-038 > T4-007 > D02
+   how: The maker's report connects a finished mark vulnerable to overwriting with an invitation to maintain it and later thanks for its survival.
+   codes: c0008 spending a couple hours making a barely legible 7x7 BU and expecting it to be drawn over; c0009 asking people to maintain the BU or make a new one on r/place; c0011 thanking the couple who helped keep the BU mainly intact to the end
+
+== belgium-037  instantiate  [pending]  repairs 0  not carried
+   source t08 (rallying to defend and restore the artwork); lift belgium:t08 > T3-005 > T4-013 > D03
+   how: A contributor reports defacement of the flag already worked on, showing upkeep emerging within construction rather than after a distinct completion stage.
+   codes: c0003 contributing to the flag while people keep defacing it; c0050 cleaning edges before interiors to resist the void
+
+== berkeley-039  instantiate  [pending]  repairs 0  not carried
+   source t07 (defending and repairing the Cal logo); lift berkeley:t07 > T3-005 > T4-013 > D03
+   how: The explicit instruction that the logo now needs defending and maintaining supports a local shift from construction to upkeep.
+   codes: c0056 shifting from construction to defense and maintenance; c0050 withdrawing the band addition and offering maintenance
+
+== berserk-023  instantiate  [pending]  repairs 1  not carried
+   source t12 (defending and repairing threatened drawings); lift berserk:t12 > T3-005 > T4-013 > D03
+   how: An already placed Brand becomes a defense task while other builders make the next picture.
+   codes: c0049 thanking everyone who helped make the Brand; c0052 asking people not making the behelit to defend the Brand
+
+== bisexual-018  instantiate  [pending]  repairs 0  not carried
+   source t06 (figuring out damage and keeping the flag in place); lift bisexual:t06 > T3-021 > T4-013 > D03
+   how: A participant explicitly described preserving existing work before declaring it secured and turning to expansion.
+   codes: c0073 preserving the existing flag; c0074 declaring the flag secured and turning to expansion
+
+== bitcoin-021  instantiate  [pending]  repairs 1  not carried
+   source t03 (Rallying defenders and holding canvas ground); lift bitcoin:t03 > T3-005 > T4-013 > D03
+   how: A declared success became something to protect in the same utterance and in the immediate defense reply.
+   codes: c0021 celebrating completion and calling to protect the symbol; c0108 celebrating that reddit did it; c0109 saying they must defend it now
+   transitions: 62sapp:0>1
+
+== blackmirror-038  instantiate  [pending]  repairs 0  not carried
+   source t07 (remembering the White Bear work as damaged, remade, and fun); lift blackmirror:t07 > T3-073 > T4-027 > D07
+   how: A participant explicitly says purple changes to the existing logos prompted attempts to fix them.
+   codes: c0058 recounting fixing purple damage, being overtaken, and hoping r/place returns
+
+== bobross-034  instantiate  [pending]  repairs 0  not carried
+   source t01 (building and defending little Bob together); lift bobross:t01 > T3-038 > T4-007 > D02
+   how: The same speaker reports a made figure and links reported griefing to a request to protect it.
+   codes: c0001 making a Bob Ross chibi at (545,710); c0002 asking people to protect Bob from griefing and a sword through his head
+
+== borderlands-028  instantiate  [pending]  repairs 0  not carried
+   source t01 (making and fixing a Vault symbol); lift borderlands:t01 > T3-021 > T4-013 > D03
+   how: The same edit explicitly connects claimed completion, alteration into an A, and a repair appeal without verifying that repair occurred.
+   codes: c0003 celebrating the finished symbol and calling to fix its A
+
+== borussiadortmund-061  instantiate  [pending]  repairs 1  not carried
+   source t06 (fixing and protecting BVB 09); lift borussiadortmund:t06 > T3-021 > T4-013 > D03
+   how: Construction reports precede explicit attempts to keep a changed numeral from passing into the finished crest.
+   codes: c0029 filling in the logo's borders; c0030 announcing the logo is finished; c0032 blocking a black square that turns 09 into 08
+
+== bostonceltics-039  instantiate  [pending]  repairs 1  not carried
+   source t11 (finishing and judging the Celtics mark); lift bostonceltics:t11 > T3-009 > T4-026 > D07
+   how: A member declares the logo completed and immediately identifies active defense as the next task.
+   codes: c0121 declaring the logo complete and calling for active defense
+
+== brasil-021  instantiate  [pending]  repairs 1  not carried
+   source t04 (building, repairing, and maintaining the shared work); lift brasil:t04 > T3-038 > T4-007 > D02
+   how: The avocado completion announcement immediately turns to keeping vandals away.
+   codes: c0402 celebrating the avocado then keeping vandals away
+
+== buffalo-017  instantiate  [pending]  repairs 0  not carried
+   source t03 (defending the Buffalo corner and rallying against encroachment); lift buffalo:t03 > T3-005 > T4-013 > D03
+   how: Building reports precede upkeep around standing marks while further construction continues, supporting temporal overlap without independently demonstrating the arrow's causal mechanism.
+   codes: c0005 showing a Bills logo in r/place; c0007 making a Sabres logo next to the Bills logo; c0009 batting vandals away on every visit
+
+== buffalobills-019  instantiate  [pending]  repairs 0  not carried
+   source t04 (defending and repairing the Bills work); lift buffalobills:t04 > T3-005 > T4-013 > D03
+   how: The same passage announces completion and names the protection still needed, directly connecting finished work to upkeep.
+   codes: c0021 declaring it done while calling for continued outlining and protection
+
+== buffalowizards-035  instantiate  [pending]  repairs 1  not carried
+   source t03 (coordinating how to maintain the picture); lift buffalowizards:t03 > T3-021 > T4-013 > D03
+   how: The same speaker shows the picture appearing and then commits to maintaining it, supporting a build-to-upkeep transition without identifying individual pixel actions.
+   codes: c0004 calling for hcjWows around it and showing them appear; c0005 coordinating to maintain the Spicy
+   transitions: 62pyo7:3>3.1
+
+== calgaryflames-047  instantiate  [pending]  repairs 0  not carried
+   source t04 (checking, colouring, and repairing the logo); lift calgaryflames:t04 > T3-021 > T4-013 > D03
+   how: An attack report explicitly redirects people already building the logo toward repairs.
+   codes: c0038 leaving the outline to others and filling red boxes; c0043 redirecting people from the back of the attacked logo to repairs; c0045 placing 20-30 pixels but spending longer replacing incorrect ones
+
+== calvinandhobbes-015  instantiate  [pending]  repairs 1  not carried
+   source t04 (keeping Calvin and Hobbes clean and recognisable); lift calvinandhobbes:t04 > T3-021 > T4-013 > D03
+   how: After completion, a reply explicitly reopens participation through maintenance because sabotage continues.
+   codes: c0031 claiming the last whisker and celebrating being done; c0091 arriving too late to help but praising the result; c0034 saying maintenance stays tricky because sabotage continues
+   transitions: 62xbqf:14>14.1
+
+== canada-018  instantiate  [pending]  repairs 0  not carried
+   source t03 (Keeping shared images up through repair and defence); lift canada:t03 > T3-005 > T4-013 > D03
+   how: A participant explicitly turns an achieved position into a reason to maintain ground.
+   codes: c0139 saying the ground must now be maintained
+
+== canucks-021  instantiate  [pending]  repairs 0  not carried
+   source t21 (taking and recalling the night shift); lift canucks:t21 > T3-141 > T4-013 > D03
+   how: A completion report precedes the offered night shift that would keep the placed mark.
+   codes: c0094 celebrating that they finished it; c0097 starting the night shift for the Canadians
+
+== catalunya-040  instantiate  [pending]  repairs 1  not carried
+   source t03 (fighting for and holding the flag); lift catalunya:t03 > T3-005 > T4-013 > D03
+   how: Celebrating erasure of the U explicitly makes keeping the recovered ground the next task.
+   codes: c0022 celebrating erasing the U and shifting to holding recovered ground
+
+== catholicism-019  instantiate  [pending]  repairs 1  not carried
+   source t05 (Placing, repairing, and defending Catholic marks); lift catholicism:t05 > T3-038 > T4-007 > D02
+   how: The report of a placed heart under repeated vandalism directly joins the presence of work to a call for upkeep.
+   codes: c0066 calling for help defending the vandalised cross heart
+
+== cavestory-041  instantiate  [pending]  repairs 0  not carried
+   source t02 (defending what is already there); lift cavestory:t02 > T3-005 > T4-013 > D03
+   how: A participant treated defense as the remaining task after congratulations, while other passages show upkeep overlapping construction.
+   codes: c0016 praising everyone's work; c0017 turning from completion to defense; c0003 assigning someone to place white around Quote
+   transitions: 62vrzi:0>1
+
+== cfb-040  instantiate  [pending]  repairs 1  not carried
+   source t01 (Building and keeping the shared r/CFB football); lift cfb:t01 > T3-038 > T4-007 > D02
+   how: Building a recognisable football left letters and buffers that participants subsequently described maintaining.
+   codes: c0239 bordering the football in green and signing /r/CFB; c0247 keeping the area green so the logo stays distinct; c0248 playing defense from random people messing with the logo; c0250 making maintenance the priority over everything else
+
+== chelseafc-023  instantiate  [pending]  repairs 1  not carried
+   source t10 (placing pixels, tracking progress, and keeping the build going); lift chelseafc:t10 > T3-038 > T4-007 > D02
+   how: A completed letter immediately creates maintenance work even while the rest of the design remains unfinished.
+   codes: c0124 reporting the L done and starting the S from the mockup; c0125 maintaining completed pixels while asking more people to work faster
+   transitions: 63062e:3.1.1.1.1.1>3.1.1.1.1.1.1
+
+== chibears-020  instantiate  [pending]  repairs 0  not carried
+   source t09 (defending the C from nearby marks and the void); lift chibears:t09 > T3-005 > T4-013 > D03
+   how: Placed work becomes something to defend even while participants still describe the logo as nearly done.
+   codes: c0049 agreeing to the name and calling for defense of the logo and Finnish borders; c0065 prioritising defense as the spiral collapses and Finland closes in; c0068 saying they are almost done while blaming the Finns for delay
+
+== chicubs-018  instantiate  [pending]  repairs 1  not carried
+   source t04 (keeping the Cubs mark clean and alive); lift chicubs:t04 > T3-021 > T4-013 > D03
+   how: Participants explicitly explain maintenance as necessary to prevent losing placed artwork.
+   codes: c0148 saying communities have to actively maintain artwork or lose the space; c0213 giving up making it bigger because constant defense was necessary
+
+== chile-044  instantiate  [pending]  repairs 1  not carried
+   source t03 (repairing and defending the flag and paltas); lift chile:t03 > T3-005 > T4-013 > D03
+   how: An early reported accomplishment is followed by vandalism and a direct call to resist.
+   codes: c0007 declaring the little flag mission accomplished; c0012 reporting vandalism of the little Chilean flag; c0013 urging the flag defenders to resist
+   transitions: 62ovqe:2>2.1
+
+== clg-023  instantiate  [pending]  repairs 1  not carried
+   source t04 (defending and rebuilding the CLG logo); lift clg:t04 > T3-005 > T4-013 > D03
+   how: The edited account explicitly carries letter completion through further attacks to defending the finished logo.
+   codes: c0030 updating a dying logo through rebuilding, shifting, and defending
+
+== cloud9-035  instantiate  [pending]  repairs 0  not carried
+   source t07 (keeping the C9 logo alive); lift cloud9:t07 > T3-021 > T4-013 > D03
+   how: Explains upkeep as protecting a logo already reported built, with direct commitments to keeping it alive.
+   codes: c0039 celebrating that they did it; c0040 spending all night building with alt accounts; c0048 helping keep the logo alive; c0057 doing janitor duty on the logo since morning
+
+== coldplay-041  instantiate  [pending]  repairs 0  not carried
+   source t05 (maintaining and helping defend the pictures); lift coldplay:t05 > T3-011 > T4-017 > D04
+   how: A completion announcement is followed by an explicit instruction that maintaining the picture is now the work.
+   codes: c0029 celebrating making bare minimum; c0030 switching from building to maintenance
+   transitions: 62yaz4:0>1
+
+== colombia-011  instantiate  [pending]  repairs 0  not carried
+   source t01 (building and repairing Colombia's flag); lift colombia:t01 > T3-065 > T4-006 > D02
+   how: The completed-design thread contains a later commitment to continue fighting without establishing the exact protected pixels.
+   codes: c0061 announcing the design completed; c0062 staying up to fight while studying
+
+== columbia-023  instantiate  [pending]  repairs 1  not carried
+   source t04 (watching the banner get altered or threatened); lift columbia:t04 > T3-073 > T4-027 > D07
+   how: Connects reported lettering with monitoring its vulnerability to overwrites at the level of participants' accounts.
+   codes: c0003 starting to write COLUMBIA while factions fight for space; c0016 warning that someone is turning COLUMBIA into Columbine; c0030 noticing COLUMBIA becoming Colombia
+
+== completeanarchy-017  instantiate  [pending]  repairs 1  not carried
+   source t01 (rallying comrades to build and maintain canvas work); lift completeanarchy:t01 > T3-002 > T4-005 > D01
+   how: A warning that lettering needs protection receives a reply explaining the planned two-ply defence against tampering.
+   codes: c0080 warning the lettering will need protection; c0081 planning two-ply lines that are harder to alter
+   transitions: 62rzeo:1.1>1.1.1
+
+== costa_rica-033  instantiate  [pending]  repairs 1  not carried
+   source t06 (drawing boundaries and correcting pixels to protect what they can hold); lift costa_rica:t06 > T3-021 > T4-013 > D03
+   how: A contributor explicitly moves from nearing completion to a proposed border and protection of existing work.
+   codes: c0011 setting boundaries and protecting what few people can hold
+
+== cowchop-040  instantiate  [pending]  repairs 0  not carried
+   source t03 (repairing the bull while sorting mistakes from grief); lift cowchop:t03 > T3-021 > T4-013 > D03
+   how: Completion reports coexist with continued maintenance of pixels that remain vulnerable to alteration.
+   codes: c0034 announcing the inside of the logo is complete; c0038 running maintenance against troll pixels; c0055 trying to fix the always-griefed border and blade

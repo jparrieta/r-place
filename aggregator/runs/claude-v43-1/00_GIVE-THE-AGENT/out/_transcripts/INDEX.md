@@ -204,3 +204,4 @@
 | D3.D3a-27 | 80e1bcf1-b4c9-492e-97c2-c3593133adf5 | leg-D3.D3a-27-80e1bcf1-b4c9-492e-97c2-c3593133adf5.jsonl | 1906 | 2026-10-19T17:41:56Z |
 | D3.D3a-28 | c1fc690f-e5c4-427c-9f66-e2ac021d4871 | leg-D3.D3a-28-c1fc690f-e5c4-427c-9f66-e2ac021d4871.jsonl | 2603 | 2026-10-19T18:20:57Z |
 | D3.D3a-29 | fafd19cd-6c2e-4dc9-ad47-955ee3a1f1c8 | leg-D3.D3a-29-fafd19cd-6c2e-4dc9-ad47-955ee3a1f1c8.jsonl | 1463 | 2026-10-19T19:14:58Z |
+| D3.D3a-30 | 91afa0bd-eaeb-42a8-a202-ecb26618052d | leg-D3.D3a-30-91afa0bd-eaeb-42a8-a202-ecb26618052d.jsonl | 1866 | 2026-10-19T20:06:51Z |

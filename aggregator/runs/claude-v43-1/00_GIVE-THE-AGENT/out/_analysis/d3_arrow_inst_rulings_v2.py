@@ -37,7 +37,7 @@ def main():
     a = ap.parse_args()
     clauses = json.load(open(a.clauses))
     for c, (dec, _) in clauses.items():
-        if dec not in ("accept", "reject"):
+        if dec not in ("accept", "reject", "particular"):
             sys.exit(f"clause {c}: decision {dec!r}")
     ids = packet_ids(a.element, a.total)
     if len(ids) != a.total:

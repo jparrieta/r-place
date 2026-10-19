@@ -1,0 +1,219 @@
+A03: 42 lines in all (op add-condition); packet [0, 42): 42 lines; carried through no third-order tier
+ops in the packet: {'add-condition': 42}
+
+== EraseThePlace-036  add-condition  [pending]  repairs 1  not carried
+   source t03 (building, moving, and defending a white base); lift EraseThePlace:t03 > T3-038 > T4-007 > D02
+   how: Maintenance and growth interleave as fortification precedes proposed expansion and a nearly finished triangle already prompts further expansion.
+   codes: c0228 building a forward base before expansion; c0249 reporting that the triangle is nearly finished; c0176 prioritising defending and cleaning territory
+
+== Rainbow6-019  add-condition  [pending]  repairs 1  not carried
+   source t10 (Keeping the Lord’s mark intact); lift Rainbow6:t10 > T3-021 > T4-013 > D03
+   how: Completion can occasion upkeep without being its prerequisite because calls also combine finishing with maintenance.
+   codes: c0195 declaring the work done; c0196 switching from finishing to maintaining it; c0511 asking for help finishing and maintaining the Lord Chanka and Buffblitz sign
+
+== SwissNeutralityZone-042  add-condition  [pending]  repairs 1  not carried
+   source t01 (working out what and where to build); lift SwissNeutralityZone:t01 > T3-065 > T4-006 > D02
+   how: Building and keeping can overlap because a stable cross still requires filling around it while existing pieces need defense.
+   codes: c0003 calling for red around the stable cross; c0063 keeping the flag, cheese, and mountains defended
+
+== anime-019  add-condition  [pending]  repairs 0  not carried
+   source t10 (Working out coordinates, scale, and designs); lift anime:t10 > T3-070 > T4-008 > D02
+   how: Maintenance can accompany incomplete construction once a partial mark gives builders something to protect.
+   codes: c0202 reporting Emilia progress and sharing coordinates and a plan; c0203 directing Emilia builders to add a light-pink backdrop after the sentence; c0204 calling to protect Emilia when others try to ruin it
+
+== azerbaijan-012  add-condition  [pending]  repairs 0  not carried
+   source t04 (saying r/place is over); lift azerbaijan:t04 > T3-117 > T4-027 > D07
+   how: Upkeep can follow a result report only while placement remains open, whereas this report is already retrospective and the later notice confirms closure.
+   codes: c0004 showing the best flag one Azeri could do with occasional Turkish help; c0008 telling the questioner that r/place is over
+
+== babymetal-020  add-condition  [pending]  repairs 1  not carried
+   source t03 (building, correcting, and keeping the BABYMETAL mark); lift babymetal:t03 > T3-021 > T4-013 > D03
+   how: Maintenance overlaps unfinished building and continues after completion announcements, rather than beginning only after the whole mark stands.
+   codes: c0017 cleaning up instead of advancing the drawing; c0043 announcing the BABYMETAL art is finished; c0063 continuing to fix odd vandalism after completion
+
+== bobross-054  add-condition  [pending]  repairs 0  not carried
+   source t01 (building and defending little Bob together); lift bobross:t01 > T3-038 > T4-007 > D02
+   how: Defence can accompany proposed additions once a figure exists, without requiring the whole design to be finished.
+   codes: c0001 making a Bob Ross chibi at (545,710); c0002 asking people to protect Bob from griefing and a sword through his head; c0003 trying to add an easel for Bob; c0004 asking for help building the easel
+
+== bostonbruins-044  add-condition  [pending]  repairs 0  not carried
+   source t06 (guarding and maintaining the spoked B); lift bostonbruins:t06 > T3-005 > T4-013 > D03
+   how: Upkeep can begin while the mark remains unfinished, because already placed portions are threatened before construction ends.
+   codes: c0054 trying to keep the B intact against repeated attacks; c0058 telling builders to ignore passing griefers and complete the B
+
+== catholicism-020  add-condition  [pending]  repairs 1  not carried
+   source t05 (Placing, repairing, and defending Catholic marks); lift catholicism:t05 > T3-038 > T4-007 > D02
+   how: Upkeep begins as soon as a vulnerable portion is placed and need not await completion of the whole design.
+   codes: c0066 calling for help defending the vandalised cross heart; c0123 securing the spot simply before adding to it
+
+== cirkeltrek-018  add-condition  [pending]  repairs 1  not carried
+   source t05 (correcting pixels and holding builders to the plan); lift cirkeltrek:t05 > T3-021 > T4-013 > D03
+   how: Construction and upkeep can overlap across parts of the mark when participants explicitly continue the anthem while repairing a missing space.
+   codes: c0029 petitioning to continue the anthem while fixing the missing space
+
+== danganronpa-020  add-condition  [pending]  repairs 0  not carried
+   source t06 (calling the drawing done and celebrating it); lift danganronpa:t06 > T3-009 > T4-026 > D07
+   how: Completion, rebuilding and last-pixel claims overlap, so keeping work need not wait for a stable finished state.
+   codes: c0075 celebrating a mostly finished sprite while noting repairs; c0076 slowly rebuilding through active griefing while waiting for blue safety; c0077 claiming the last pixel and congratulating everyone
+   transitions: 62sgtr:2>2.1
+
+== drumcorps-014  add-condition  [pending]  repairs 1  not carried
+   source t09 (placing, cleaning, and defending the pixels); lift drumcorps:t09 > T3-021 > T4-013 > D03
+   how: Maintenance can begin while another part of the mark remains blocked and unfinished.
+   codes: c0109 reporting a red-brown blob blocking the logo’s right side; c0111 redirecting overnight work to borders and stray squares
+
+== dwarffortress-046  add-condition  [pending]  repairs 1  not carried
+   source t02 (drawing and revising dwarves, signs, and neighbors); lift dwarffortress:t02 > T3-004 > T4-006 > D02
+   how: Upkeep can overlap initial construction rather than wait until the whole mark is completed.
+   codes: c0004 building a dwarf head and asking for help maintaining it; c0005 spending all efforts keeping the dwarf clean from green
+
+== ethereum-047  add-condition  [pending]  repairs 0  not carried
+   source t03 (trying to put an Ethereum logo on r/place); lift ethereum:t03 > T3-038 > T4-007 > D02
+   how: Building before defense is explicitly proposed, while later repair and maintenance complaints leave the realized transition and its timing unresolved.
+   codes: c0074 moving beneath GREEN LATTICE, dividing the work, then enlarging and defending; c0105 rejecting a logo without the subreddit name or proper maintenance; c0134 telling newcomers to check and fix pixels out of place
+
+== finland-038  add-condition  [pending]  repairs 1  not carried
+   source t05 (making and explaining pictures inside the flags); lift finland:t05 > T3-113 > T4-006 > D02
+   how: Upkeep can begin while a design is unfinished because its first placed pixels already face removal
+   codes: c0063 starting the coat-of-arms border; c0064 noticing the coat-of-arms pixels being removed; c0065 calling for more people as every pixel is removed
+   transitions: 6346vq:2.1>2.1.1
+
+== fullcommunism-034  add-condition  [pending]  repairs 1  not carried
+   source t02 (defending, cleaning and rebuilding the motherland); lift fullcommunism:t02 > T3-005 > T4-013 > D03
+   how: Construction and upkeep overlap when further lettering is conditional on cleaning and defending the mark already placed.
+   codes: c0014 reporting a hammer and sickle and adding an interlocking anarchy symbol; c0015 telling people to clean, defend, then spell FALGSC
+
+== furry-022  add-condition  [pending]  repairs 1  not carried
+   source t06 (celebrating the work taking shape); lift furry:t06 > T3-009 > T4-026 > D07
+   how: Completion and upkeep overlap, since celebration can coexist with fighting trolls or a correction about missing pixels.
+   codes: c0027 celebrating getting it done while fighting off trolls; c0219 showing a perfect completed r/Furry Snoo; c0220 protecting the Snoo because the war is not over; c0224 spotting one missing nose pixel while calling this the most complete Snoo
+
+== futurama-036  add-condition  [pending]  repairs 0  not carried
+   source t01 (calling people in to build and keep Bender going); lift futurama:t01 > T3-002 > T4-005 > D01
+   how: Construction and upkeep may operate together and recur through redesign rather than following as completed phases.
+   codes: c0021 asking for help building and maintaining Bender; c0086 calling for pixels to restore Bender to his original form; c0114 recounting putting every pixel into Bender, border work, and fighting the blue corner
+
+== gorillaz-023  add-condition  [pending]  repairs 1  not carried
+   source t03 (building the band one figure at a time); lift gorillaz:t03 > T3-002 > T4-005 > D01
+   how: Construction and upkeep overlap because requests to build missing figures also ask for maintenance of existing ones.
+   codes: c0046 asking for more help making 2-D and Noodle
+
+== gravityfalls-017  add-condition  [pending]  repairs 1  not carried
+   source t01 (making Bill and other Gravity Falls marks); lift gravityfalls:t01 > T3-033 > T4-006 > D02
+   how: A participant reports building and maintaining together, allowing upkeep to interleave with construction before a completed mark is announced.
+   codes: c0037 building and maintaining Bill all day
+
+== kpop-045  add-condition  [pending]  repairs 2  not carried
+   source t05 (building, correcting, and defending the Gee words); lift kpop:t05 > T3-038 > T4-007 > D02
+   how: Building precedes border and defense work within the same design but temporal order alone does not establish the proposed causal mechanism.
+   codes: c0025 inviting help to type Gee Gee Baby Baby in pink; c0027 apologising for placing the wrong colour; c0030 calling for a border around the finished words; c0031 trying to hold off persistent overwriting
+
+== latin-019  add-condition  [pending]  repairs 0  not carried
+   source t06 (keeping SPQR through cleanup and vandals); lift latin:t06 > T3-021 > T4-013 > D03
+   how: Defence can overlap unfinished construction, as fighting vandals displaces progress before completion is appended.
+   codes: c0029 fighting vandals and then declaring it perfect; c0003 celebrating completion and calling for upkeep
+
+== lsu-041  add-condition  [pending]  repairs 1  not carried
+   source t01 (Finding somewhere an LSU logo can stick); lift lsu:t01 > T3-020 > T4-014 > D04
+   how: Building and maintenance remain reversible because a defender can leave an existing logo to help construct another.
+   codes: c0051 fixing red pixels and calling for defense against r/reddevils; c0052 switching from defending one spot to building by the pipe
+
+== metalgearsolid-021  add-condition  [pending]  repairs 1  not carried
+   source t06 (keeping Snake recognizable and true to the template); lift metalgearsolid:t06 > T3-004 > T4-006 > D02
+   how: Maintenance began while other parts were still being built, so completion of the whole mark was unnecessary for upkeep to start.
+   codes: c0051 redirecting work from the border to defending Snake's head; c0061 building a small box without covering Batman and asking others to finish it
+
+== monalisaclan-022  add-condition  [pending]  repairs 1  not carried
+   source t01 (circulating the official design and pixel-by-pixel guides); lift monalisaclan:t01 > T3-070 > T4-008 > D02
+   how: Building and maintenance can overlap before a whole picture is finished, as members debate filling first while already correcting individual parts.
+   codes: c0091 prioritizing filling the canvas before fixing little mistakes; c0257 recounting building, defending, and perfecting her pixel by pixel
+
+== monsterhunter-018  add-condition  [pending]  repairs 1  not carried
+   source t03 (building, guarding, and finally letting go of the potion); lift monsterhunter:t03 > T3-038 > T4-007 > D02
+   how: The obligation to keep a finished piece persists only while it remains part of the agreed plan.
+   codes: c0158 asking for help protecting the potion; c0159 redirecting potion defenders to the agreed plan; c0172 calling to defend the potion; c0173 telling potion defenders it is no longer in the plan
+   transitions: 632o8u:0>1, 635q41:0>1
+
+== necrodancer-017  add-condition  [pending]  repairs 0  not carried
+   source t05 (fighting overwrites and repairing the picture); lift necrodancer:t05 > T3-021 > T4-013 > D03
+   how: Upkeep begins when an unfinished part can already be overwritten, so construction and defence may overlap before a completion announcement.
+   codes: c0015 warning that exclamation points are taking the foot; c0016 letting the exclamations go while finishing the face; c0019 announcing that they did it
+   transitions: 62ro1d:3>3.1
+
+== nlsscirclejerk-034  add-condition  [pending]  repairs 0  not carried
+   source t05 (making Austin's sub badge from a template); lift nlsscirclejerk:t05 > T3-038 > T4-007 > D02
+   how: Repair of existing work overlaps further building, so upkeep need not wait for the whole project to be declared complete.
+   codes: c0061 asking for help repairing so others can build; c0071 declaring the build done and proposing fill colors; c0029 warning of griefing while expanding it
+
+== polska-045  add-condition  [pending]  repairs 1  not carried
+   source t01 (building and guarding Polish pictures together); lift polska:t01 > T3-065 > T4-006 > D02
+   how: Upkeep overlaps achievement because reporting a flag as made does not remove the continuing need to repair overwrites.
+   codes: c0011 celebrating that r/Polska did it; c0012 repairing a pixel while someone keeps trying to remake the flag
+   transitions: 62p4tu:0>1
+
+== purplecorner-045  add-condition  [pending]  repairs 1  not carried
+   source t03 (making signs, patterns, and icons for purple); lift purplecorner:t03 > T3-041 > T4-006 > D02
+   how: Building and maintenance can overlap in one reported practice rather than requiring a completed mark before upkeep begins.
+   codes: c0109 reporting five hours of maintaining and expanding the lattice; c0022 pushing to complete the Purple Corner text
+
+== qotsa-012  add-condition  [pending]  repairs 0  not carried
+   source t09 (mourning missing the cut by a few hours); lift qotsa:t09 > T3-029 > T4-027 > D07
+   how: Progress can end at shutdown before completion, so building reports alone do not warrant a subsequent upkeep phase.
+   codes: c0022 chipping in as the logo starts taking shape; c0046 saying QOTSA did not make the cut before Place ended; c0048 calling the icon a few hours too late
+
+== ravens-021  add-condition  [pending]  repairs 1  not carried
+   source t07 (holding and rebuilding pictures against attack); lift ravens:t07 > T3-005 > T4-013 > D03
+   how: Repair and defense can begin while the intended logo remains unfinished.
+   codes: c0048 giving the logo coordinates and asking for cleanup; c0053 warning that r/steelers is trying to destroy the logo; c0063 marking place over, thanking helpers, and lamenting the unfinished logo
+
+== sakuragakuin-013  add-condition  [pending]  repairs 0  not carried
+   source t01 (working out and building the SG banner and logo); lift sakuragakuin:t01 > T3-004 > T4-006 > D02
+   how: The transition applies to completed parts while further logo construction and design revision can continue alongside upkeep.
+   codes: c0002 moving from a completed banner and logo to cleanup and defence; c0044 starting a proper logo underneath the banner; c0032 accepting a tweak if people do not undo each others work
+
+== sixers-046  add-condition  [pending]  repairs 0  not carried
+   source t02 (calling people in and putting pixels down); lift sixers:t02 > T3-003 > T4-026 > D07
+   how: Maintenance can begin during construction rather than only after a general completion announcement.
+   codes: c0015 trying to write TRUST THE PROCESS in blue and asking people to help keep it clean; c0025 announcing that TTP has been completed; c0027 reporting Kanye's albums trying to erase their T; c0085 doing upkeep here and there
+
+== splatoon-037  add-condition  [pending]  repairs 1  not carried
+   source t04 (keeping the squids from being covered); lift splatoon:t04 > T3-005 > T4-013 > D03
+   how: Protection can become necessary during an unfinished build when another placer repeatedly overwrites its emerging shape.
+   codes: c0053 calling for help to build a green squiddy; c0055 trying to build while someone keeps making a box
+   transitions: 62wcgj:0>2
+
+== stlouisblues-021  add-condition  [pending]  repairs 0  not carried
+   source t08 (keeping the Note repaired and defended); lift stlouisblues:t08 > T3-005 > T4-013 > D03
+   how: Upkeep can already be anticipated before completion and can interrupt additions rather than replacing building in one clean stage.
+   codes: c0045 planning to keep the work there after completion; c0075 shifting the skyline after its starting point was covered, then cleaning up the Note
+
+== streetfighter-017  add-condition  [pending]  repairs 1  not carried
+   source t06 (working out why Ryu will not stay up and asking the neighbours); lift streetfighter:t06 > T3-035 > T4-014 > D04
+   how: Progressing from building to upkeep requires a retainable placement, whereas an initial dot can be immediately displaced before organized repair is evidenced.
+   codes: c0019 joining in by placing a white dot; c0027 reporting a white dot was immediately replaced
+
+== the_pack-020  add-condition  [pending]  repairs 0  not carried
+   source t01 (putting the Pack onto the canvas together); lift the_pack:t01 > T3-002 > T4-005 > D01
+   how: Maintenance can begin once part of the mark exists while construction continues, rather than requiring the room to finish the whole work first.
+   codes: c0049 putting correct text before a nice blue border; c0052 taking a job repairing the sign and building MFER; c0077 suggesting a repair that will make vandalism take more work
+
+== timbers-033  add-condition  [pending]  repairs 1  not carried
+   source t02 (choosing, building, and correcting the crest in limited space); lift timbers:t02 > T3-004 > T4-006 > D02
+   how: Upkeep overlaps unresolved design work and completion announcements rather than beginning only after the design is settled.
+   codes: c0041 announcing the Portland corner officially finished; c0042 working from different ideas for the star; c0043 voting one star correct and defending it; c0048 ending with three wrong pixels after actively defending the crest
+
+== touhou-019  add-condition  [pending]  repairs 1  not carried
+   source t08 (asking what to build or do next); lift touhou:t08 > T3-041 > T4-006 > D02
+   how: Completion is a renewable milestone from which participants resume defense or propose the next object.
+   codes: c0147 sending the team back to defense after finishing; c0090 moving from the finished point item onto the bomb; c0102 celebrating Marisa and setting Reimu as the next goal
+
+== uofm-016  add-condition  [pending]  repairs 0  not carried
+   source t02 (keeping watch and defending the Michigan picture); lift uofm:t02 > T3-005 > T4-013 > D03
+   how: Maintenance overlaps construction and can interrupt celebration rather than waiting for a single definitive completion.
+   codes: c0004 growing the M while protecting borders and recoloring invaders; c0243 saying the finished picture is being ruined by Ohio State and Michigan State fans; c0114 congratulating the group on a successful defended logo; c0116 rejecting premature celebration and asking for protectors
+   transitions: 631amr:0>1
+
+== yugioh-020  add-condition  [pending]  repairs 0  not carried
+   source t16 (placing, repairing, and protecting the Kuriboh); lift yugioh:t16 > T3-038 > T4-007 > D02
+   how: Allows repair to overlap unfinished construction while retaining the explicit completion-to-protection transition.
+   codes: c0103 placing the yellow outline and asking how to color it; c0107 reporting four Kuriboh pieces overwritten; c0119 announcing the Kuriboh finished and shifting to protection and cleaning; c0129 fixing pieces that were quickly taken over with the power of the community
