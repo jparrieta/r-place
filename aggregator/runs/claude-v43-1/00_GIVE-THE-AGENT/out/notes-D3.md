@@ -577,6 +577,29 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   - **Hedged standing.** 'I think I speak for the community' and the like show the disclaimer form (factorio, megaman, undertale).
   - **Whose space or art.** Sending a request to the owner of a space or an art is not P21 (rpi, runescape, truestl). Saying which room speaks for a flag's placers is (norway, asexual).
   - **Play.** A disclaimer made in play still shows the form (mysterydungeon: 'I had no authority to make that decision, but fuck it').
+- **G32 (logged at D3a-27, before A21's lines were ruled; three instantiate lines, AMD-032, Goodboye-066 and Peru-029, were seen while I checked the packet's shape).** A21 is the field's tentative arrow from C4a, P08 → P21, of kind order. Its connection reads: 'in a room carrying both, the first agreement with another room (a border, a truce or a deal) comes before the first dispute over who may commit the room'. Its mechanism: an agreement made in the room's name puts the members' compliance in question; members who did not make it say that it does not bind them, or that no one can bind every placer, and the other side asks who can speak for the group. It fails if, in a room carrying both, the dispute comes only before any agreement, or answers no agreement. P21 is read as it stands after move 175, so a stated limit counts as its dispute. The agreement is P08's: a border, truce, deal or permission with another room, or an alliance made between rooms. A coalition's call alone is P17's.
+
+  A21 is not stated as universal. Like the other arrows, it claims an order that is counted inside each room and reported as a count of rooms. So its absent lines are never corrections, and G2 and G3 rule them:
+  - an `observed-absent` or `not-needed` line is a specification where the concepts show an agreement with no P21 form, a P21 form with no agreement, neither, or a P21 form that comes before any agreement (the reverse order, which the order test counts);
+  - a concept that shows an agreement and, after it, a P21 form that answers it makes the claim of absence fail (reject);
+  - `unobserved` and `not-testable` lines are evidence limits.
+
+  An instantiate line shows A21 when its concepts show an agreement with another room and, after it, a P21 form that answers that agreement. The order is read from the concepts' hours (`cite.py`), from the transitions, or from a quote that names the earlier agreement ('we did have an agreement. Some of the people there just don't want to honor it'). It is rejected when:
+  - the P21 form comes before any agreement, or answers none;
+  - no P21 form is shown (P08 alone);
+  - the agreement or the form is a visitor's own room's and the room's members do not answer (G31's visitor clause).
+
+  A restrict or contradict line is ruled by G9's test, read for an arrow. A correction states a condition that A21 lacks and shows the order failing without it in the room's concepts. One such condition would be a P21 form that arises while terms are still being proposed, before any agreement. A restriction whose condition the connection or the mechanism already holds (that the agreement binds placers who did not make it, or that the dispute answers it) is a specification. Two accepted corrections with the same target and the same lifted node at the third or fourth level trigger §2's re-examination in this leg.
+
+  The order test is written and logged before it runs. Under G4a, the statements expected to hold an add, link, instantiate or restrict line are P08, P21, P17, A19, A04, A14, C01 and P07. Candidates and other tentative entries hold no line (R02, P06, P19, K03, K04). Draws follow G1b: one draw of ten lines for the 37 instantiate lines, from the instantiate lines' first verb offset, which the draw's header confirms.
+
+  **G32's readings, stated while ruling (D3a-27).** They read G32 and change no ruling rule.
+  - **At the making.** A qualification that the maker adds while proposing or accepting terms is at the making, not after an agreement ('We have a deal! I can't speak for every member', polska; 'I approve that, but people are uncontrollable', finland; 'I speak of my own opinion' four minutes after 'Agreed!', Goodboye). So are a request for a leader and a disclaimer made while a proposal is open (destiny, jerma985, TsundereSharks).
+  - **A claimed or announced agreement** that a member then disputes shows the order: the claim comes first ('Yes, official' answered 'We can't say that', harrypotter; 'Permission from who?', winnipegjets; a claimed deal with r/Factorio, catalunya).
+  - **Refusals.** As in G31, refusing an agreement already made shows the order (osu, TheB1G, counting); refusing a proposal on its merits is P08's deliberation (eagles, starbound).
+  - **Whose agreement.** The agreement must bind the room or the room it deals with. A third room's truce invoked in a request (pepe: AFIP's truce) leaves the limit answering a request, not an agreement.
+  - **Visitors.** As G31: a visitor's own limit after an agreement is the visitor's room's (aggies, aoe2, malta, cowchop), unless the room's members answer with it (littlewitchacademia, tagpro).
+  - **Draws.** The draw at verb offset 607 held all 37 instantiate lines, as G32 expected.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -1119,8 +1142,8 @@ The last three clauses together cover 71 rooms.
 
 `out/sealed/FIELD.jsonl` names three tentative entries from C4. One line per id:
 - **P22.** Instantiated in 153 rooms as returned (136 after ruling). Restricted in 75 rooms, none by an accepted correction (51 rooms' lines accepted as specification, 25 lines as evidence limits). Contradicted in none. Left absent in 521 rooms (495 evidence limits, 1 observed absence, 19 rejected because their concepts show it). Shown in 177 rooms in all. **Ruling: standing (rule 11), range rewritten; move 174, history lines 137 to 139.**
-- **P21** (ruled at D3a-26). Instantiated in 80 rooms as returned (65 after ruling). Restricted in 65 rooms, none by an accepted correction (65 lines in 64 rooms accepted as specifications, 1 particular). Contradicted in none. Left absent in 582 rooms (484 evidence limits, 1 observed absence, 97 rejected because their concepts show it). Shown in 162 rooms by instantiate and absent lines, and in 211 with the restrict and add lines its statement holds. **Ruling: standing (rule 11), statement's frame rewritten to 'dispute, or state the limits of'; move 175, history lines 140 and 141.**
-- **A21.** It belongs to a later group, and it stays tentative until that group rules it.
+- **P21** (ruled at D3a-26). Instantiated in 80 rooms as returned (65 after ruling). Restricted in 65 rooms, none by an accepted correction (65 lines in 64 rooms accepted as specifications, 1 particular). Contradicted in none. Left absent in 582 rooms (483 evidence limits, 1 observed absence, 98 rejected because their concepts show it, PinkUnion-029 among them since D3a-27's re-ruling). Shown in 163 rooms by instantiate and absent lines, and in 212 with the restrict and add lines its statement holds (162 and 211 at D3a-26). **Ruling: standing (rule 11), statement's frame rewritten to 'dispute, or state the limits of'; move 175, history lines 140 and 141.**
+- **A21** (ruled at D3a-27). Instantiated in 37 rooms as returned (22 after ruling). Restricted in 65 rooms: 36 by accepted corrections, paired in two families; 25 lines accepted as specifications; 4 evidence limits. Contradicted in none. Left absent in 605 rooms (536 evidence limits, 2 evidenced absences, 67 rejected because their concepts show it). Shown in 114 rooms; the P21 form comes first in 49 (36 at the making of terms, 13 with no agreement), 1 room both. **Ruling: standing with a bound (rule 11), after §2's re-examination; connection aligned with P21, the mechanism's request clause dropped; move 176, history lines 142 to 150.**
 
 No entry stays tentative past the freeze.
 
@@ -2996,4 +3019,62 @@ opticgaming-040 stays an elaboration paired with shitredditsays-042. Its content
 - **The ledger** holds 23,382 lines: 740 first rulings and 41 re-rulings from this leg. Appended re-rulings rise from 715 to 756.
 - **Pairs.** P21's files hold no pairs (`d3_pair_check.py`). Across the ledger, 1,235 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 141 lines (two from move 175), elements 30, arrows 21, findings 37 and tier history 561. The elements hash is 47ff7a11…; the arrows hash is unchanged (e0ba1b0b…).
+- **Questions.** None is open.
+
+## D3a-27: A21, the agreement before the dispute over who commits the room
+
+A21 is the field's tentative arrow from C4a, P08 → P21, of kind order. Its connection read: 'in a room carrying both, the first agreement with another room (a border, a truce or a deal) comes before the first dispute over who may commit the room'. Its mechanism ended: 'and the other side asks who can speak for the group'. No proposition carried it, and the C5 figure did not draw it. G32 was written before any line was ruled, and its readings are written under it (above). All 708 lines, in 705 rooms, are ruled, and none is pending. Counts are from `_analysis/d3_group_close.py`, `d3_opkind.py`, `d3_a21_census_v2.py`, `c2_arrow_evidence.py` and `d3_pair_check.py`.
+
+| op | lines | specification | correction (paired) | evidence limit (kind none) | particular | reject |
+|---|---|---|---|---|---|---|
+| instantiate | 37 | 22 | 0 | 0 | 0 | 15 |
+| absent (259 `unobserved`, 344 `not-testable`, 1 `observed-absent`, 1 `not-needed`) | 605 | 2 | 0 | 536 | 0 | 67 |
+| restrict | 65 | 25 | 36 | 4 | 0 | 0 |
+| add-step | 1 | 1 | 0 | 0 | 0 | 0 |
+| all | 708 | 50 | 36 | 540 | 0 | 82 |
+
+**What the rooms show (the census, `d3_a21_census_v2.py`).**
+- **The order, 114 rooms.** An agreement comes first, and a P21 form answers it. Members state that the agreement does not bind every placer ('we did have an agreement. Some of the people there just don't want to honor it', TheHulk; 'someone didn't get the memo', necrodancer), or refuse it ('/r/osu has officially teamed up ...' answered 'No'; '#StopTheAnnexation' four hours after an alliance, counting).
+- **At the making, 36 rooms (family F1).** The disclaimer or the request comes while another room's terms are proposed or accepted: 'You do not speak for Purple!' at h+28.06, before 'Deal' at h+29.66 (destiny); 'im just some random guy not the official mediator' two hours before the deal (jerma985); 'We have a deal! I can't speak for every member' (polska).
+- **No agreement, 13 rooms (family F2).** A stated limit answers another room's appeal, complaint or accusation, with no agreement in force ('nobody is in charge of the free people drawing', turkey; contributors 'not under direct control', FloydVsVoid).
+- One room, detroitredwings, shows both. So 162 rooms show an episode, and the order holds in 114 (0.704).
+
+**The order test.** Its rules were logged before it ran. The model's first-concept test (`c2_arrow_evidence.py`, P08 without T3-126 against T3-126) finds only 11 rooms carrying both. The order holds in 10 (0.909). The null's mean is 0.738 and its 95th percentile 0.909, so the base rate is not beaten. T3-126 holds P21 in only 15 rooms, and P08's concepts come early in most rooms, so this test cannot decide A21. The census of the read lines carries the count, with no null; both are reported.
+
+**Corrections met twice, and the re-examination (§2).** 36 restrict lines are accepted corrections, each paired within its family: F1 in a ring of 26, F2 in a ring of 10. They lift to T3-010 in 20 rooms. The written warrant is the alignment, not the count. The disclaimers of standing and the requests for someone who can speak for a group belong to the making of terms. The stated limit and the refusal answer an agreement already made, or, in 13 rooms, an appeal. The 25 restrict lines whose labelers said 'a compliance limit, not a mandate dispute' are specifications: P21's statement after move 175, and A21's own mechanism ('or that no one can bind every placer'), hold that condition.
+
+**Move 176 (developing working hypotheses), A21.**
+- A21 stands with a bound (rule 11, §4). Nine history lines record this (142 to 150), and the snap is `D3-move-developing-176`.
+- The connection now reads 'the first dispute over, or stated limit of, who may commit the room', in line with P21. A permission is named beside the border, the truce and the deal.
+- The mechanism drops 'and the other side asks who can speak for the group' and adds 'or refuse it'.
+- The bound names the forms A21 orders (the stated limit and the refusal) and where it fails (36 rooms at the making, 13 with no agreement). The counts, the grounding, `negative_check` (counterexample), the counterexample response and `in_model` (true) are recorded.
+- No finding touches A21. The arrows' hash moved from e0ba1b0b… to ff0b3963…; the elements are unchanged (47ff7a11…).
+
+**What the instantiate rejects show (15).** The maker's own qualification at the making, 10 (AMD-032, Goodboye-066, Peru-029, canada-028, dbz-066, finland-056, polska-064, splatoon-055, theitalyplace-064, ukraine-045). An answer to an appeal or an offer with no agreement, 3 (detroitredwings-043, norge-030, texas-052). No P21 form, 1 (monsterhunter-032). A visitor's room's own forms, 1 (Summit1G-032).
+
+**Absent lines.** 67 claims of absence fail because the concepts show the order (15, 11, 10, 9, 14 and 8 by packet). The two evidenced lines are specifications: ElSalvador-022 (a deal revised with no P21 form) and montenegro-052 (no deal reached). The other 536 are evidence limits. A guard listed 58 of them (refusals of proposals, visitors' forms, qualifications at the making). I had decided each while reading, and none moved.
+
+**One P21 ruling re-ruled.** PinkUnion-029 (a P21 absent line) had been kept as a limit in D3a-26's first packet, before G31's refusal reading was stated. Its codes are those of PinkUnion-030 (an A21 reject here) and of PinkUnion-053, which was re-ruled as a P21 specification. An appended line makes it a reject: 'Mods, end our alliance with r/osugame'; 'it's servitude'. P21 is now shown in 163 rooms. Move 175's history line, which says 162, stays as written.
+
+**Repairs (G7).** Lines in repaired rooms were 0.847 accepted (379 lines), and in unrepaired rooms 0.927 (329 lines). The rejects number 58 in repaired rooms and 24 in unrepaired ones, and 67 of the 82 are claims of absence that the concepts overturn. No ruling rests on the difference.
+
+**Carried to later groups.**
+- **The re-check (§5).** A21 was rewritten, so the rooms whose accounts rest on A21 go to the re-check, with those resting on R01, P05, P22 and P21.
+- **The making of terms.** P08 holds the proposing and accepting, and P21 holds the disclaimer and the request; no arrow draws the two together in one step. The 36 rooms go to D4's clustering of P21's forms, and to the order tests beside A04 and A14.
+- **Limits that answer appeals** (13 rooms) sit beside P07's restraint asked of the room's attackers.
+- **The field's entries** are both ruled; none stays tentative.
+
+**Disclosed limits and slips.**
+- **Lines seen before G32.** While checking the packet's shape, I printed three instantiate lines (AMD-032, Goodboye-066, Peru-029) before G32 was written. None was ruled then.
+- **A stray no-op in a command.** One command carried 'for_none=0;', a shell variable and a word beginning 'for_', against the rules on placeholders and shell variables. The permission check did not refuse it. Both writes in that command were checked (the diary line and the packet's header).
+- **A superseded census.** The first census helper (`d3_a21_census.py`) sorted the corrections into families by phrase. It missed dbz-066 and moved two lines between the families. The first revision spec (`d3_revision_A21.json`), written from it, was never run. `d3_a21_census_v2.py` names the families by id, and `d3_revision_A21_v2.json` is the spec written.
+- **The themes file** for the order test was first written without the statements the helper prints. `d3_a21_elements_v2.json` supersedes it.
+- **Quotes read.** Restrict 22, with 4 more for one speaker's context; instantiate 11 beyond the draw's; absent 24 (9, 5, 5 and 5 in four packets). Many absent lines rest on quotes read for P21 at D3a-26.
+
+### Close-check, D3a-27
+
+`validate.py D3` reports 23,334 of 42,243 ledger lines ruled: the 22,626 before this leg and A21's 708. It reports 0 errors and the same 2 old warnings on history lines 137 and 138.
+- **The ledger** holds 24,091 lines: 708 first rulings and 1 re-ruling from this leg. Appended re-rulings rise from 756 to 757.
+- **Pairs.** All 36 pairs in A21's files name a ruled A21 line (`d3_pair_check.py`). Across the ledger, 1,235 accepted elaborations are checked, and the same 7 older ones pair with a line of another kind (`d3_pair_kind_check.py`).
+- **The other ledgers.** History holds 150 lines (nine from move 176), elements 30, arrows 21, findings 37 and tier history 561. The arrows hash is ff0b3963…; the elements hash is unchanged (47ff7a11…).
 - **Questions.** None is open.

@@ -1,0 +1,63 @@
+{
+  "id": "A21",
+  "move": "developing working hypotheses",
+  "adaptations": ["ScottPilgrim-031", "destiny-022", "jerma985-036", "argentina-067", "weezer-063", "TsundereSharks-058", "polska-064", "finland-056", "Goodboye-066", "FloydVsVoid-033", "singapore-035", "turkey-029", "uiuc-031", "denmark-067", "flyers-047", "TheHulk-054", "osu-036", "harrypotter-025", "thailand-062", "counting-028", "australia-073", "PurplePixels-057"],
+  "changes": [
+    {
+      "field": "status",
+      "now": "standing",
+      "event": "field entry ruled standing with a bound (stage D3 section 4, rule 11): tentative since C4a, now counted in the rooms' own lines",
+      "why": "Stage D3 section 4 rules the field's tentative entries by the rooms' lines. A21 drew 708 lines in 705 rooms, every one ruled at D3a-27 by G32 (written before any line was ruled), with G2, G3, G9, G4a and G31. In 114 rooms the lines show an agreement with another room and, after it, a P21 form that answers it: a member states that the agreement does not bind every placer ('we did have an agreement. Some of the people there just don't want to honor it', TheHulk-054), or refuses it ('/r/osu has officially teamed up ...' answered 'No', osu-036). In 48 rooms the P21 form comes first: in 35 at the making of terms, and in 13 in answer to an appeal or complaint with no agreement in force (the bound, a later line); 1 room shows both. 36 restrict lines are accepted corrections in two families that lift mostly to T3-010 under T4-016, so section 2 was triggered and A21 was re-examined in this leg. The alignment is substantive: the disclaimers and requests belong to the making of terms. A21's order holds for the limit and the refusal, so it stands with that bound rather than being withdrawn. The first-concept test on T3-126 (both 11, holds 10, null p95 0.909) is too thin to decide; the census of the rulings carries the count. No finding touches A21."
+    },
+    {
+      "field": "connection",
+      "now": "in a room carrying both, the first agreement with another room (a border, a truce, a deal or a permission) comes before the first dispute over, or stated limit of, who may commit the room",
+      "event": "connection aligned with P21's statement after move 175",
+      "why": "P21 now reads 'Members dispute, or state the limits of, who may commit the room'. G32 read A21's 'dispute' that way, and the census counts stated limits as the dispute. A permission is named beside the border, truce and deal because the rooms' agreements include permissions granted by hosts and neighbours (greenlattice-030, skyrim-051, corridor-066). No room enters that G32 did not read as an agreement."
+    },
+    {
+      "field": "mechanism",
+      "now": "An agreement made with another room in the room's name puts its members' compliance in question. Members who did not make it say that it does not bind them, or refuse it, or say that no one can bind every placer.",
+      "event": "mechanism's last clause dropped: the request for someone who can speak for a group comes before agreements, not after",
+      "why": "The served mechanism ended 'and the other side asks who can speak for the group'. In the rooms, that request comes while terms are proposed, before any agreement ('You do not speak for Purple!' at h+28.06 before the deal at h+29.66, destiny-022; a visitor asking for a leader before an offer, TsundereSharks-058; 'Do you Marylanders have a representative?' while terms with Sweden were open, maryland-019). The clause is moved to the bound. The refusal ('or refuse it') is added because 10 or more rooms show members refusing an agreement already made, the second form G31 reads."
+    },
+    {
+      "field": "bound",
+      "new": true,
+      "now": "A21 orders P21's limit and refusal after an agreement. P21's disclaimers of a member's own standing, and requests for someone who can speak for a group, come while another room's terms are proposed or accepted, at the making of terms and not after an agreement ('We have a deal! I can't speak for every member', polska-064; 'I approve that, but people are uncontrollable', finland-056): 35 rooms. In 13 more rooms members state the limit of who may commit the room in answer to another room's appeal, complaint or accusation, with no agreement in force (FloydVsVoid-033, turkey-029, uiuc-031).",
+      "event": "scope condition added: the forms A21 orders, and the forms that come at the making of terms or without an agreement",
+      "why": "Section 2's re-examination of the corrections met twice. The 26 restrict corrections of family F1, with 9 instantiate lines rejected because the form is the maker's qualification at the making, give 35 rooms; the 10 corrections of family F2, with 3 instantiate rejects answering an appeal or offer, give 13 rooms (d3_a21_census.py). The bound keeps A21's claim for the forms that answer an agreement and names where it fails, so A21 does not claim more than the rooms show (rule 12)."
+    },
+    {
+      "field": "counts",
+      "now": {"both": 161, "holds": 114, "share": 0.708, "fails_at_making": 35, "fails_no_agreement": 13, "both_kinds": 1, "basis": "return census of the rulings (D3a-27, d3_a21_census.py): rooms whose ruled lines show an episode; holds = an agreement, then a P21 form answering it", "first_concept_test": {"both": 11, "holds": 10, "share": 0.909, "null_mean": 0.738, "null_p95": 0.909, "base_rate_beaten": false, "note": "c2_arrow_evidence.py with P08 without T3-126 against T3-126; T3-126 holds P21 in only 15 rooms"}},
+      "event": "counted in the return",
+      "why": "The census counts rooms, not lines: 114 rooms show A21's order and 48 show the P21 form first, 1 room both, so 161 rooms show an episode and the order holds in 114 (0.708). The census is my classification of read lines, with no null; the first-concept test that has a null is too thin here, and both are reported."
+    },
+    {
+      "field": "grounding",
+      "now": "return census: the return's 708 lines ruled whole at D3a-27 under G32, rooms counted by d3_a21_census.py; the first-concept test on T3-126 is too thin to decide (11 rooms)",
+      "event": "grounding recorded",
+      "why": "The served grounding read 'tentative: not counted; stage D asks every room'. Stage D asked every room, and the rulings are the count."
+    },
+    {
+      "field": "negative_check",
+      "now": "counterexample",
+      "event": "negative check recorded",
+      "why": "48 rooms show the P21 form before or without an agreement; the response is the bound and the dropped clause, as A04's bound answers its counterexamples."
+    },
+    {
+      "field": "counterexample_response",
+      "new": true,
+      "now": "48 of the 161 rooms show a P21 form before any agreement or answering none. Response: a scope condition (the bound), and the request clause dropped from the mechanism. Carried to D4 for the clustering of P21's forms and to the re-check.",
+      "event": "counterexample response recorded",
+      "why": "Every arrow that met counterexamples records its response (A04)."
+    },
+    {
+      "field": "in_model",
+      "now": true,
+      "event": "arrow enters the model",
+      "why": "A standing arrow belongs to the model. No proposition carries A21, and the account, the figure and the data structure are re-read against this amendment at D3c (rule 11)."
+    }
+  ]
+}
