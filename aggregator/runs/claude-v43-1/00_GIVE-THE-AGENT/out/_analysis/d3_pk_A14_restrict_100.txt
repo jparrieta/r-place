@@ -1,0 +1,55 @@
+A14: 109 lines in all (op restrict); packet [100, 109): 9 lines; carried through no third-order tier
+ops in the packet: {'restrict': 9}
+
+== ucf-053  restrict  [pending]  repairs 1  not carried
+   source t07 (helping neighbours and respecting their space); lift ucf:t07 > T3-011 > T4-017 > D04
+   relation: r/neu
+   how: Allows a help request and acceptance to precede an explicit border-and-defence promise rather than requiring border settlement to open the help channel.
+   codes: c0052 asking UCF to help a threatened neighbour; c0054 joining the neighbour's defence; c0056 promising to respect borders and defend together
+   transitions: 632rci:11>11.1, 632rci:11.1>11.1.1
+
+== ufl-012  restrict  [pending]  repairs 0  not carried
+   source t04 (working out an alliance and where logo work belongs); lift ufl:t04 > T3-151 > T4-017 > D04
+   how: Distinguish help initiating an agreement from help following one, since the border repair is already reported when the alliance is proposed.
+   codes: c0016 offering an alliance to upkeep neighboring college logos; c0017 fixing a border pixel as a peace offering; c0019 accepting personally while sending the alliance to r/FloridaGators
+
+== undertale-041  restrict  [pending]  repairs 0  not carried
+   source t07 (negotiating space, borders, and mutual help); lift undertale:t07 > T3-010 > T4-016 > D04
+   how: A proposed exchange does not establish an agreed reciprocal outcome when its proponent later reports taking the land anyway.
+   codes: c0189 offering an alliance that trades Flowey land for rebuilding help; c0190 reporting that Homestuck took over Flowey anyway
+
+== uofmn-041  restrict  [pending]  repairs 0  not carried
+   source t05 (making truces and trading room to coexist); lift uofmn:t05 > T3-010 > T4-016 > D04
+   how: Movement and an offered trade must remain distinguishable from accepted aid because a neighbour's withdrawal can coexist with a refusal to help.
+   codes: c0054 asking for help against LSU in return for moving away; c0035 telling Minnesota Wisconsin abandoned Go Badgers territory; c0036 refusing Wisconsin’s request for help
+   transitions: 62w5wm:3>3.1
+
+== vinesauce-031  restrict  [pending]  repairs 1  not carried
+   source t06 (working things out with neighboring communities); lift vinesauce:t06 > T3-010 > T4-016 > D04
+   relation: nyjets
+   how: Mutual protection can be offered and accepted directly without an evidenced prior border bargain opening the channel.
+   codes: c0078 offering mutual protection with r/nyjets; c0079 promising to keep the Jets logo safe
+   transitions: 632vw4:0>1
+
+== warframe-044  restrict  [pending]  repairs 1  not carried
+   source t11 (negotiating canvas space and reciprocity with GreenLattice and neighbours); lift warframe:t11 > T3-010 > T4-016 > D04
+   relation: GreenLattice
+   how: Permission and reciprocal maintenance operate together, while the unseen negotiation leaves the precise originating causal sequence unresolved.
+   codes: c0209 getting permission through GreenLattice's Discord; c0225 offering Green Lattice help for help with the Lotus; c0226 promising lattice maintenance once the logo is recognizable; c0232 calling for help to Green Lattice in return
+
+== warriors-048  restrict  [pending]  repairs 0  not carried
+   source t10 (negotiating borders and pulling back from vandalism); lift warriors:t10 > T3-010 > T4-016 > D04
+   how: Border confusion opens an offer to repair the neighbour's damage, but delivery of reciprocal repair is not recorded.
+   codes: c0040 asking permission to extend r/osu's area above the logo; c0042 asking for border help and offering to restore damage to the logo
+
+== weezer-056  restrict  [pending]  repairs 1  not carried
+   source t06 (making, breaching, and repairing border deals); lift weezer:t06 > T3-195 > T4-016 > D04
+   how: Repair and reciprocal promises follow border trouble without documenting a barter of specified space for upkeep.
+   codes: c0049 apologizing for an uninformed takeover and restoring the green border; c0050 promising that most of the room is looking out for its neighbor; c0051 promising to look out for r/weezer in return
+   transitions: 62xewd:1.1.1>1.1.1.1
+
+== worldoftanks-031  restrict  [pending]  repairs 0  not carried
+   source t07 (negotiating shared canvas space and recruiting neighbors); lift worldoftanks:t07 > T3-010 > T4-016 > D04
+   how: Border contact permits asking for help and suggesting space without demonstrating a reciprocal exchange of upkeep.
+   codes: c0112 asking the tank to move about 20 pixels to avoid a logo clash; c0114 asking the bigger group to help move the tank as it is wiped out; c0115 suggesting a less occupied space; c0122 hijacking a Heroes thread to recruit help for the tank
+   transitions: 62ru17:5>5.2, 62ru17:5.2>5.2.1

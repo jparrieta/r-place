@@ -1,0 +1,45 @@
+A14 page offset 339: 3 add-step lines; printing 0 to 3 in the verb's order
+
+[0] GreenCorner-028 add-step      t05            T3-150 > T4-018 > D04  pending    A deal can specify reciprocal help at its proposal rather than require a previously settl…  [c0057,c0077]
+   how: A deal can specify reciprocal help at its proposal rather than require a previously settled border to open a later exchange channel.
+   "If you help protect us from the block M near us we will help expand the GreenCorner."  [GreenCorner/c0057]  item 62q6wa  thread 62q6wa  h+11.06  IBlameMcNabb  t05 making alliances and trading help against Blue
+   "we will be helping them purificate their territory from the blues, and in exchange, they'll later help us purify ours"  [GreenCorner/c0077]  item 62ud56  thread 62ud56  h+26.08  TheCrimulo  t05 making alliances and trading help against Blue
+
+  -- reply context
+  c0057 h+11.06 thread 62q6wa path 0 (IBlameMcNabb)
+      parent: none
+  c0077 h+26.08 thread 62ud56 path 0 (TheCrimulo)
+      parent: none
+
+[1] foxes-052      add-step      t03            T3-010 > T4-016 > D04  pending    The offer of help and the request to vacate space can form one bargain rather than succes…  [c0025,c0026,c0099]
+   how: The offer of help and the request to vacate space can form one bargain rather than successive independent stages.
+   "Hey, /r/placeqr is building in that spot. Any chance you can move a bit further down or right? Some of us are willing to help you too."  [foxes/c0025]  item dfrkpef  thread 6357q3  h+67.09  cg5  t03 moving and negotiating for space
+   "I am from QR, we agree to help you to the side if you leave our space"  [foxes/c0026]  item dfrkpnz  thread 6357q3  h+67.10  yesnomaybe-idontknow  t03 moving and negotiating for space
+   "The discord chat has agreed to help with your fox if you stop trying to build it on our rickroll"  [foxes/c0099]  item dfrkv66  thread 6357q3  h+67.20  Genji_sama  t03 moving and negotiating for space
+
+  -- reply context
+  c0025 h+67.09 thread 6357q3 path 1.2 (cg5)
+      parent: 1 (Purlox) c0013 asking whether the fox is already gone
+      submission: 0 (Luxuria555) na
+  c0026 h+67.10 thread 6357q3 path 5 (yesnomaybe-idontknow)
+      parent: 0 (Luxuria555) na
+  c0099 h+67.20 thread 6357q3 path 1.1.1 (Genji_sama)
+      parent: 1.1 (Luxuria555) c0014 saying one dude can only do so much
+
+[2] texastech-057  add-step      t06            T3-010 > T4-016 > D04  pending    Border adjustment and reciprocal defense are proposed together, so help can be offered be…  [c0035,c0036,c0039,c0043]
+   how: Border adjustment and reciprocal defense are proposed together, so help can be offered before a separate settlement stage is complete.
+   "Dropping in from /r/NEU to form a peace agreement. I believe it is /r/TexasTech that has their double T logo to the right of us. We would love to maintain our single black border pixel and the top left most part of your logo interferes at (16, 931) and the one below."  [texastech/c0035]  item 637oev  thread 637oev  h+71.99  InspecterNull  t06 making peace with NEU and sharing a border
+   "We kindly ask you to move to the right by 1 pixel. If you post in /r/NEU asking for help I will surely back it up and I'm sure folks there will offer to help you guys move over, and continue after help defend and maintain our lands together. Let us know"  [texastech/c0036]  item 637oev  thread 637oev  h+71.99  InspecterNull  t06 making peace with NEU and sharing a border
+   "I am fine with that. If you can let your sub know I can have my group help maintain your area."  [texastech/c0039]  item dfrym97  thread 637oev  h+72.72  Stigs55  t06 making peace with NEU and sharing a border
+   "Will do. Posted a comment here: https://www.reddit.com/r/NEU/comments/633u4a/comment/dfrzhj9?st=J12D5KI8&sh=01390d22"  [texastech/c0043]  item dfrz5cl  thread 637oev  h+72.90  InspecterNull  t06 making peace with NEU and sharing a border
+  -- reply context
+  c0035 h+71.99 thread 637oev path 0 (InspecterNull)  [one item with c0036, same author as c0043]
+      parent: none
+  c0036 h+71.99 thread 637oev path 0 (InspecterNull)  [one item with c0035, same author as c0043]
+      parent: none
+  c0039 h+72.72 thread 637oev path 3 (Stigs55)  [replies under c0035, replies under c0036]
+      parent: 0 (InspecterNull) c0035 asking Texas Tech to move off NEU's border; c0036 offering help and joint defense for a one-pixel move
+      submission: 0 (InspecterNull) c0035 asking Texas Tech to move off NEU's border; c0036 offering help and joint defense for a one-pixel move
+  c0043 h+72.90 thread 637oev path 3.1 (InspecterNull)  [same author as c0035 (under), same author as c0036 (under), replies under c0039]
+      parent: 3 (Stigs55) c0039 offering a group to help maintain NEU's area
+

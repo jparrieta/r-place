@@ -1,0 +1,18 @@
+A14: 3 lines in all (op add-step); packet [0, 3): 3 lines; carried through no third-order tier
+ops in the packet: {'add-step': 3}
+
+== GreenCorner-028  add-step  [pending]  repairs 1  not carried
+   source t05 (making alliances and trading help against Blue); lift GreenCorner:t05 > T3-150 > T4-018 > D04
+   how: A deal can specify reciprocal help at its proposal rather than require a previously settled border to open a later exchange channel.
+   codes: c0057 trading protection of OSU for Green expansion; c0077 trading help clearing Red territory for later help clearing Green
+
+== foxes-052  add-step  [pending]  repairs 1  not carried
+   source t03 (moving and negotiating for space); lift foxes:t03 > T3-010 > T4-016 > D04
+   how: The offer of help and the request to vacate space can form one bargain rather than successive independent stages.
+   codes: c0025 asking the fox to move and offering help; c0026 offering QR help in exchange for leaving its space; c0099 trading Discord help for leaving the QR build
+
+== texastech-057  add-step  [pending]  repairs 0  not carried
+   source t06 (making peace with NEU and sharing a border); lift texastech:t06 > T3-010 > T4-016 > D04
+   relation: r/NEU
+   how: Border adjustment and reciprocal defense are proposed together, so help can be offered before a separate settlement stage is complete.
+   codes: c0035 asking Texas Tech to move off NEU's border; c0036 offering help and joint defense for a one-pixel move; c0039 offering a group to help maintain NEU's area; c0043 reporting the agreement back to r/NEU
