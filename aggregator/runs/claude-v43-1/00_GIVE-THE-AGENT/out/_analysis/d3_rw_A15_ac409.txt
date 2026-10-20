@@ -1,0 +1,185 @@
+A15 page offset 409: 17 add-condition lines; printing 0 to 17 in the verb's order
+
+[0] Thegreatblackhole-004 add-condition t01            T3-171 > T4-023 > D05  pending    Mobilization and attacking can coincide in the same instruction when painting the collect…  [c0003,c0008,c0036]
+   "WE TOO SHALL CONSUME ALL. PAINT IT BLACK."  [Thegreatblackhole/c0003]  item 62ogtp  thread 62ogtp  h+6.01  qazwsxedcrfvtgby  t01 chanting ‘paint it black’ and ‘consume’
+   "THE BLACK WILL CONSUME ALL. PAINT IT BLACK."  [Thegreatblackhole/c0008]  item 62oo3e  thread 62oo3e  h+6.56  qazwsxedcrfvtgby  t01 chanting ‘paint it black’ and ‘consume’
+   "Place dat fuckin black square down wherever the hell you want."  [Thegreatblackhole/c0036]  item 62rrqs  thread 62rrqs  h+17.64  little_foxes  t01 chanting ‘paint it black’ and ‘consume’
+
+  -- reply context
+  c0003 h+6.01 thread 62ogtp path 0 (qazwsxedcrfvtgby)
+      parent: none
+  c0008 h+6.56 thread 62oo3e path 0 (qazwsxedcrfvtgby)
+      parent: none
+  c0036 h+17.64 thread 62rrqs path 0 (little_foxes)
+      parent: none
+
+[1] anime-069      add-condition t13            T3-010 > T4-016 > D04  pending    Recruitment can occasion a side-taking attack intention, while the actual placing and eff…  [c0118,c0122,c0127]
+   "People of /r/anime, lend me your energy!"  [anime/c0118]  item 62yh4u  thread 62yh4u  h+39.65  Time_Lord_John  t01 Asking people to build anime marks
+   "Just wanted everyone to know the whole situation before they get involved, if anyone does."  [anime/c0122]  item dfq0kuj  thread 62yh4u  h+40.27  moistchunk  t13 Negotiating crowded space and rival claims
+   "I'm gonna fuck with goku. Long live Club Penguin!"  [anime/c0127]  item dfq16ql  thread 62yh4u  h+40.84  bigfatround0  t13 Negotiating crowded space and rival claims
+
+  -- reply context
+  c0118 h+39.65 thread 62yh4u path 0 (Time_Lord_John)
+      parent: none
+  c0122 h+40.27 thread 62yh4u path 1 (moistchunk)  [replies under c0118]
+      parent: 0 (Time_Lord_John) c0118 calling on r/anime to lend its energy
+      submission: 0 (Time_Lord_John) c0118 calling on r/anime to lend its energy
+  c0127 h+40.84 thread 62yh4u path 2 (bigfatround0)  [replies under c0118]
+      parent: 0 (Time_Lord_John) c0118 calling on r/anime to lend its energy
+
+[2] canucks-075    add-condition t14            T3-006 > T4-020 > D08  pending    Perceived design complexity makes attacking a rival preferable to building for one partic…  [c0076]
+   "Ours is pretty complicated which doesn't help. Stick in the rink would have probably been the better plan in hindsight, but I'm content just pissing off flames fans by ruining their fun."  [canucks/c0076]  item dfpkb83  thread 62v52x  h+31.59  the_dev0iD  t14 arguing whether to build or attack
+
+  -- reply context
+  c0076 h+31.59 thread 62v52x path 10.1 (the_dev0iD)
+      parent: 10 ([deleted]) na
+      submission: 0 (flyingboat) c0057 calling everyone to terrorize the Flames logo; c0058 giving 159,380 and proposing a blue dot; c0059 framing the blue dot as a fun Fuck you to the Flames; c0060 sending newcomers to outoftheloop and everyone else to place
+
+[3] denmark-061    add-condition t04            T3-006 > T4-020 > D08  pending    Recruitment may advertise overwriting rivals from the outset, rather than first collectin…  [c0020,c0028]
+   "Vi skal bruge jeres hjælp! Tegn så mange Danske flag så muligt, og tegn de Svenske over!"  [denmark/c0020]  item 62nchc  thread 62nchc  h+3.19  bastianxx04  t01 calling people in and pointing them to the work
+   "jeg er i fuld gang med at overtage svenskens, kom og hjælp mig"  [denmark/c0028]  item dfnzdmu  thread 62nl4l  h+4.50  Hovsar  t04 overwriting rivals and expanding Danish work
+
+  -- reply context
+  c0020 h+3.19 thread 62nchc path 0 (bastianxx04)
+      parent: none
+  c0028 h+4.50 thread 62nl4l path 1 (Hovsar)
+      parent: 0 (XDRosenheim) c0027 calling for help making Dannebrog
+      submission: 0 (XDRosenheim) c0027 calling for help making Dannebrog
+
+[4] faeria-056     add-condition t03            T3-005 > T4-013 > D03  pending    The vengeance call names destruction of the work as its trigger, requiring reported loss …  [c0044,c0045]
+   "r/drugs murdered it without mercy."  [faeria/c0044]  item 630iu8  thread 630iu8  h+48.35  Angrybear52  t03 fighting, mourning, and joking through lost Yaks
+   "WE WILL AVENGE THE YAK!"  [faeria/c0045]  item 630iu8  thread 630iu8  h+48.35  Angrybear52  t03 fighting, mourning, and joking through lost Yaks
+
+  -- reply context
+  c0044 h+48.35 thread 630iu8 path 0 (Angrybear52)  [one item with c0045]
+      parent: none
+  c0045 h+48.35 thread 630iu8 path 0 (Angrybear52)  [one item with c0044]
+      parent: none
+
+[5] finland-050    add-condition t03            T3-005 > T4-013 > D03  pending    Mobilisation and expansion recruitment can be simultaneous clauses of one call rather tha…  [c0025]
+   "Help defend and expand our Finnish flags at 608, 306!!!"  [finland/c0025]  item 62wtel  thread 62wtel  h+32.96  JohnTheGenius43  t03 calling people to defend, repair, or attack flags
+
+  -- reply context
+  c0025 h+32.96 thread 62wtel path 0 (JohnTheGenius43)
+      parent: none
+
+[6] neopets-053    add-condition t01            T3-033 > T4-006 > D02  pending    Recruitment and an attack proposal can be the same initiating act rather than separate mo…  [c0001,c0003]
+   "Fellow Neopians! We must convert this image in /r/Place into an Ummagine!"  [neopets/c0001]  item 62xltj  thread 62xltj  h+35.72  Fruit_Loopita  t01 working out what and where to draw
+   "we all go at like 09:10:00pm NST to ambush"  [neopets/c0003]  item dfpue6e  thread 62xltj  h+36.10  Fruit_Loopita  t01 working out what and where to draw
+
+  -- reply context
+  c0001 h+35.72 thread 62xltj path 0 (Fruit_Loopita)  [same author as c0003]
+      parent: none
+  c0003 h+36.10 thread 62xltj path 1.1 (Fruit_Loopita)  [same author as c0001 (under)]
+      parent: 1 (tyco5) c0002 asking for a game plan and offering a final image
+      submission: 0 (Fruit_Loopita) c0001 calling fellow Neopians to convert an r/place image into an Ummagine
+
+[7] newzealand-050 add-condition t04            T3-006 > T4-020 > D08  pending    An ANZAC mobilisation call explicitly proposes attacking Germany without demonstrating th… NONPORTABLE  [c0173,c0174]
+   "Time to get serious with Aussies and bring ANZAC back"  [newzealand/c0173]  item 62sfop  thread 62sfop  h+20.55  CollisionNZ  t11 making and defending shared ANZAC work
+   "No point putting ANZAC near our flags, we have to take the fight to Germany. We should backdoor Germany while they're busy with France and put ANZAC there."  [newzealand/c0174]  item dfovfxp  thread 62sfop  h+21.03  CollisionNZ  t04 calling for attacks, takeovers, and retaliation
+
+  -- reply context
+  c0173 h+20.55 thread 62sfop path 0 (CollisionNZ)  [same author as c0174]
+      parent: none
+  c0174 h+21.03 thread 62sfop path 1.1 (CollisionNZ)  [same author as c0173 (under)]
+      parent: 1 (SpecialFriendFavour) na
+      submission: 0 (CollisionNZ) c0173 calling on Aussies to bring ANZAC back
+
+[8] pebble-039     add-condition t02            T3-068 > T4-020 > D08  pending    Recruitment and attack can be the same proposal rather than sequential acts.  [c0016,c0033]
+   "I've been trying to make the digital display at around (46, 311) read "pebble" on /r/place. Anyone wanna lend a hand?"  [pebble/c0016]  item 62vhrt  thread 62vhrt  h+29.10  [deleted]  t02 fighting over changing Kebble into Pebble
+   "The Continuity Pebble Reddit army continue our acts of terror by randomly changing pixels. Our demands are to join with us to create a coherent pebble. We only ask for a p, you may keep the ebble. This is the one sign solution."  [pebble/c0033]  item dfpl7ff  thread 62w84n  h+31.96  Chris_knyfe  t02 fighting over changing Kebble into Pebble
+
+  -- reply context
+  c0016 h+29.10 thread 62vhrt path 0 ([deleted])
+      parent: none
+  c0033 h+31.96 thread 62w84n path 1.1.1.1.1 (Chris_knyfe)
+      parent: 1.1.1.1 (Kebble) c0032 asking what would stop the pixel attacks
+      submission: 0 ([deleted]) na
+
+[9] rangers-049    add-condition t03            T3-002 > T4-005 > D01  pending    The offensive appeal explicitly seeks recovery of a lost logo, so initial recruitment alo… NONPORTABLE  [c0110,c0158]
+   "here help us erase Pakistan so we can rebuild"  [rangers/c0110]  item dfqwb5y  thread 62z62f  h+55.38  hdaersrtyor  t03 calling people into the logo work
+   "Well there goes the logo"  [rangers/c0158]  item 632j1r  thread 632j1r  h+53.90  ncolaros  t13 saving and sizing up the work after loss
+
+  -- reply context
+  c0110 h+55.38 thread 62z62f path 8 (hdaersrtyor)
+      parent: 0 (Starce3) c0084 asking for help fixing the bottom-left Rangers logo
+      submission: 0 (Starce3) c0084 asking for help fixing the bottom-left Rangers logo
+  c0158 h+53.90 thread 632j1r path 0 (ncolaros)
+      parent: none
+
+[10] rocketbeans-056 add-condition t07            T3-005 > T4-013 > D03  pending    Here the call to attack is explicitly organised around threatened replacement rather than…  [c0035,c0048]
+   "Wir sollten dagegen kämpfen. Ich war mal so frei: /r/placestoptaskbar/"  [rocketbeans/c0035]  item dfq2ov3  thread 62tviw  h+42.39  Dornauge  t07 resisting the taskbar takeover
+   "Your logo on /r/place will be replaced by the task bar. Please join the resistance at /r/KillTheTaskBar/"  [rocketbeans/c0048]  item 62z1dz  thread 62z1dz  h+42.81  xalelexx  t07 resisting the taskbar takeover
+
+  -- reply context
+  c0035 h+42.39 thread 62tviw path 14 (Dornauge)
+      parent: 0 (Mevarit) c0008 proposing a scaled-down RBTV logo where there is least competition; c0009 organising the logo on good luck without an overlay; c0010 telling helpers to paint over trolling pixels; c0011 asking whether to add the subreddit beneath the logo; c0012 saying the logo needs more people; c0013 seeking quick feedback with a strawpoll in good old Hauke fashion; c0014 agreeing with a placestart organiser to place the icon after Van Gogh; c0015 asking helpers to advance placestart so the RBTV tab comes sooner; c0016 creating a Discord server for quick updates and talk; c0017 thanking everyone when the event ends
+      submission: 0 (Mevarit) c0008 proposing a scaled-down RBTV logo where there is least competition; c0009 organising the logo on good luck without an overlay; c0010 telling helpers to paint over trolling pixels; c0011 asking whether to add the subreddit beneath the logo; c0012 saying the logo needs more people; c0013 seeking quick feedback with a strawpoll in good old Hauke fashion; c0014 agreeing with a placestart organiser to place the icon after Van Gogh; c0015 asking helpers to advance placestart so the RBTV tab comes sooner; c0016 creating a Discord server for quick updates and talk; c0017 thanking everyone when the event ends
+  c0048 h+42.81 thread 62z1dz path 0 (xalelexx)
+      parent: none
+
+[11] samuraijack-051 add-condition t17            T3-076 > T4-015 > D04  pending    A retaliatory call can name a broadcast grievance as its reason, so recruitment alone doe…  [c0228]
+   "Last night, Adult Swim replaced Jack with Rick. We should replace Rick with Jack in /r/place."  [samuraijack/c0228]  item 631h3b  thread 631h3b  h+50.96  chinmuchomon  t17 turning down a subreddit war
+
+  -- reply context
+  c0228 h+50.96 thread 631h3b path 0 (chinmuchomon)
+      parent: none
+
+[12] streetfighter-056 add-condition t05            T3-004 > T4-006 > D02  pending    The replacement proposal follows recruitment as a design simplification, so a hostile mob…  [c0017,c0020,c0033]
+   "Were starting a Ryu on r/place. Rainbow road at (535,431) if anyone wants to help"  [streetfighter/c0017]  item 632mmu  thread 632mmu  h+54.17  onthedippy  t04 joining calls to draw Street Fighter characters
+   "This would be easier, HELP REPLACE THE MEGA MAN!!! (412, 875)"  [streetfighter/c0020]  item dfr3az0  thread 632mmu  h+57.77  SgtSack  t05 simplifying Ryu around limited colors and a hadou…
+   "I saw another Ryu post, seemed to difficult. This is easier and there is already a hadouken to steal @ (412,875)"  [streetfighter/c0033]  item 633u5m  thread 633u5m  h+57.89  SgtSack  t05 simplifying Ryu around limited colors and a hadou…
+
+  -- reply context
+  c0017 h+54.17 thread 632mmu path 0 (onthedippy)
+      parent: none
+  c0020 h+57.77 thread 632mmu path 3 (SgtSack)  [replies under c0017]
+      parent: 0 (onthedippy) c0017 calling for help to start a Ryu on rainbow road at (535,431)
+      submission: 0 (onthedippy) c0017 calling for help to start a Ryu on rainbow road at (535,431)
+  c0033 h+57.89 thread 633u5m path 0 (SgtSack)
+      parent: none
+
+[13] unturned-058   add-condition t05            T3-010 > T4-016 > D04  pending    The local attack call explicitly attributes its target to a perceived brigade, making ret…  [c0111,c0112]
+   "We need immediate backup at r/Place, bottom left corner."  [unturned/c0111]  item 633ffa  thread 633ffa  h+56.62  nuho24  t04 calling people to defend and repair the zombie
+   "Current target is /r/Thicc as they're spearheading the brigade against us. Go fuck their art up."  [unturned/c0112]  item dfr06rw  thread 633ffa  h+56.75  101gamer101  t05 making room with neighbours and trading help
+
+  -- reply context
+  c0111 h+56.62 thread 633ffa path 0 (nuho24)
+      parent: none
+  c0112 h+56.75 thread 633ffa path 1 (101gamer101)  [replies under c0111]
+      parent: 0 (nuho24) c0156 mourning a fallen r/Fallout comrade who moved elsewhere; c0111 calling for immediate backup at the bottom-left corner
+      submission: 0 (nuho24) c0156 mourning a fallen r/Fallout comrade who moved elsewhere; c0111 calling for immediate backup at the bottom-left corner
+
+[14] uofmn-043      add-condition t04            T3-005 > T4-013 > D03  pending    Recruitment can explicitly seek erasure in the initial call rather than require a later s…  [c0033,c0016]
+   "Post to all the class Facebook groups, we need more people and erase them from /r/place"  [uofmn/c0033]  item dfpj0wr  thread 62w5wm  h+31.05  Minnesotaperson  t04 standing ground, repairing marks, and guarding wh…
+   "We are trying to change the "Go Badgers" into "69 Badgers" if anybody would like to join."  [uofmn/c0016]  item dfpj57l  thread 62qms1  h+31.10  TheProbablyGopher  t07 wiping out rivals and celebrating joint wins
+
+  -- reply context
+  c0033 h+31.05 thread 62w5wm path 1.1 (Minnesotaperson)
+      parent: 1 (-Metacelsus-) na
+      submission: 0 (whatthesamm) c0032 calling people to defend against the Badgers
+  c0016 h+31.10 thread 62qms1 path 4 (TheProbablyGopher)
+      parent: 0 (VIDCAs17) c0006 asking whether to make a Block M on r/place; c0007 checking whether expansion would cover other schools; c0008 thanking people for widening the M through confusion; c0009 telling people not to attack B1G logos as cooperation starts; c0010 celebrating completing the M
+      submission: 0 (VIDCAs17) c0006 asking whether to make a Block M on r/place; c0007 checking whether expansion would cover other schools; c0008 thanking people for widening the M through confusion; c0009 telling people not to attack B1G logos as cooperation starts; c0010 celebrating completing the M
+
+[15] utahjazz-067   add-condition t05            T3-068 > T4-020 > D08  pending    The explicit conversion plan turns builders toward attack after completing their own desi…  [c0031]
+   "with just a few pixels, we can fix CUBERS to say GOBERT! After the note is finished, that should be our next goal."  [utahjazz/c0031]  item dfpyt4n  thread 62vtug  h+38.82  PTA_Member  t05 turning CUBERS into GOBERT and laughing about it
+
+  -- reply context
+  c0031 h+38.82 thread 62vtug path 11 (PTA_Member)
+      parent: 0 (RGiss) na
+      submission: 0 (RGiss) na
+
+[16] xenoblade_chronicles-057 add-condition t04            T3-010 > T4-016 > D04  pending    A mobilisation call and later overlapping build establish sequence without demonstrating …  [c0024,c0025,c0026]
+   "Help us make "I'm Really Feeling It" On Place, just below the Monado."  [xenoblade_chronicles/c0024]  item dfq0a1n  thread 62tyjp  h+40.00  tybat11  t02 laying out what to build and where each pixel goes
+   "We had to negotiate with the checkers people below us and move upwards so it'd be really nice if you guys could not write over us :("  [xenoblade_chronicles/c0025]  item dfq1hip  thread 62tyjp  h+41.14  crisscrosses  t04 working out how neighbouring pictures can stay to…
+   "Sorry mate, I started this before you were there, just keep defending it. If you guys come out on top in the end, good on ya, but I'm gonna keep doing what I'm doing."  [xenoblade_chronicles/c0026]  item dfq1mpb  thread 62tyjp  h+41.29  tybat11  t04 working out how neighbouring pictures can stay to…
+  -- reply context
+  c0024 h+40.00 thread 62tyjp path 5 (tybat11)  [same author as c0026]
+      parent: 0 (Lawaleeth010101) c0012 announcing that they are making a Monado; c0013 setting the hilt coordinates and building right; c0014 editing the call to say they did it
+      submission: 0 (Lawaleeth010101) c0012 announcing that they are making a Monado; c0013 setting the hilt coordinates and building right; c0014 editing the call to say they did it
+  c0025 h+41.14 thread 62tyjp path 5.1 (crisscrosses)  [replies under c0024]
+      parent: 5 (tybat11) c0024 calling for writing I'm Really Feeling It below the Monado
+  c0026 h+41.29 thread 62tyjp path 5.1.1 (tybat11)  [same author as c0024 (under), replies under c0025]
+      parent: 5.1 (crisscrosses) c0025 asking the catchphrase builders not to write over the BTS logo
+
