@@ -1,0 +1,43 @@
+A17: 7 lines in all (op add-condition); packet [0, 7): 7 lines; carried through no third-order tier
+ops in the packet: {'add-condition': 7}
+
+== danganronpa-029  add-condition  [pending]  repairs 0  not carried
+   source t20 (working around neighbours and no-touch promises); lift danganronpa:t20 > T3-024 > T4-015 > D04
+   relation: Taiwan
+   how: A neighbour can solicit a truce over encroaching construction without any demonstrated local call to attack that neighbour.
+   codes: c0133 asking for a truce because the pixelart is destroying Taiwan's flag; c0135 agreeing to keep off the flag if the image stays uncovered
+   transitions: 634fxl:3>3.2
+
+== dwarffortress-062  add-condition  [pending]  repairs 1  not carried
+   source t05 (bargaining over borders and helping neighbors); lift dwarffortress:t05 > T3-010 > T4-016 > D04
+   how: A local truce proposal answers an appeal for coexistence, while separate attack posts cannot be assigned as its cause.
+   codes: c0067 offering a truce around the precious diamond; c0092 calling everyone to strike the red and yellow flag together; c0094 trying to get a move-and-rebuild agreement going
+
+== esperanto-047  add-condition  [pending]  repairs 1  not carried
+   source t04 (building, rebuilding and holding the star, flag and heart); lift esperanto:t04 > T3-005 > T4-013 > D03
+   how: An attack direction can receive explicit assent and attacking rather than an intervening proposal for agreement.
+   codes: c0090 ignoring Wall Street Bets for now and attacking Counting; c0091 attacking Counting from the right
+   transitions: 62zj8x:14.1.1.1>14.1.1.1.1
+
+== farmcarrots-055  add-condition  [pending]  repairs 1  not carried
+   source t05 (negotiating room with neighbors); lift farmcarrots:t05 > T3-010 > T4-016 > D04
+   how: Negotiation following an attack call is mediated by the neighbor's objection and a revised shared design rather than automatic retreat from attack.
+   codes: c0143 calling farmers to attack the S; c0191 apologizing for renegade farmers afraid of a neighbor's expansion; c0133 proposing a carrotized S design; c0134 accepting the carrotized S design
+   transitions: 62v5on:2.2>2.2.1
+
+== radiohead-058  add-condition  [pending]  repairs 1  not carried
+   source t04 (making peace and trading help with neighbours); lift radiohead:t04 > T3-011 > T4-017 > D04
+   how: The local attack-to-deal sequence is supported as a participant's recollection, not as contemporaneously observed successive negotiation turns.
+   codes: c0141 thanking the Love folks for shifting their art; c0142 recounting that they started eating the Love art before helping it move
+   transitions: 62xvqg:2>2.1
+
+== smashbros-062  add-condition  [pending]  repairs 0  not carried
+   source t08 (working out space, help, and obligations with neighbors); lift smashbros:t08 > T3-150 > T4-018 > D04
+   how: Existing alliance obligations can redirect a proposed addition without requiring the attack to produce new border negotiations
+   codes: c0346 asking for help placing Marth next to FD; c0352 bringing the discord warning not to attack allied goon; c0354 telling the proposer to back out of allied goon territory; c0357 dropping the Marth plan and switching to maintenance
+   transitions: 637mno:0>5, 637mno:0>7
+
+== torontoraptors-066  add-condition  [pending]  repairs 0  not carried
+   source t16 (working out where WTN can fit without breaking treaties); lift torontoraptors:t16 > T3-041 > T4-006 > D02
+   how: A treaty answer posted after placement closes supports discursive restraint without showing that it stopped an executable attack.
+   codes: c0133 saying taking over Vermont would require everyone acting together at once; c0134 reminding others of the treaty with r/vermont

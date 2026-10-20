@@ -1,0 +1,106 @@
+A17 page offset 423: 7 add-condition lines; printing 0 to 7 in the verb's order
+
+[0] danganronpa-029 add-condition t20            T3-024 > T4-015 > D04  pending    A neighbour can solicit a truce over encroaching construction without any demonstrated lo…  [c0133,c0135]
+   how: A neighbour can solicit a truce over encroaching construction without any demonstrated local call to attack that neighbour.
+   transitions: 634fxl:3>3.2
+   "Hi, I'm from the /r/Taiwan subreddit, your pixelart is destroying our flag. Is there any way that we could arrange some sort of truce?"  [danganronpa/c0133]  item dfrnuk9  thread 634fxl  h+68.88  justin97530  t20 working around neighbours and no-touch promises
+   "Yeah. I'll keep of the flag. Just make sure nobody tries to cover up my image."  [danganronpa/c0135]  item dfrozgd  thread 634fxl  h+69.38  sirhatsley  t20 working around neighbours and no-touch promises
+
+  -- reply context
+  c0133 h+68.88 thread 634fxl path 3 (justin97530)
+      parent: 0 (sirhatsley) c0128 asking for help getting Kirigiri next to her love
+      submission: 0 (sirhatsley) c0128 asking for help getting Kirigiri next to her love
+  c0135 h+69.38 thread 634fxl path 3.2 (sirhatsley)  [replies under c0133]
+      parent: 3 (justin97530) c0133 asking for a truce because the pixelart is destroying Taiwan's flag
+
+[1] dwarffortress-062 add-condition t05            T3-010 > T4-016 > D04  pending    A local truce proposal answers an appeal for coexistence, while separate attack posts can…  [c0067,c0092,c0094]
+   how: A local truce proposal answers an appeal for coexistence, while separate attack posts cannot be assigned as its cause.
+   "Perhaps a truce is in order. We will cease construction of the Urist just north of your precious diamond, but in return, you will allow us to expand the 2nd row to the east unfettered."  [dwarffortress/c0067]  item dfpgr5d  thread 62vs58  h+30.08  MGStan  t05 bargaining over borders and helping neighbors
+   "The time to mark our territory over the red and yellow flag is now! If we all strike together they will be overwhelmed!"  [dwarffortress/c0092]  item 62z3po  thread 62z3po  h+43.14  Doge-Meister  t07 calling attacks, war, and strikes
+   "I understand; I liked your original proposal. CAn we please get the ball moving so we can move to the proposed new position? I have 5 people on our side on board to stop and rebuild."  [dwarffortress/c0094]  item dfq47ce  thread 62z537  h+43.85  julesfru  t05 bargaining over borders and helping neighbors
+
+  -- reply context
+  c0067 h+30.08 thread 62vs58 path 1 (MGStan)
+      parent: 0 (argues_with_quotes) na
+      submission: 0 (argues_with_quotes) na
+  c0092 h+43.14 thread 62z3po path 0 (Doge-Meister)
+      parent: none
+  c0094 h+43.85 thread 62z537 path 1.1.1.1 (julesfru)
+      parent: 1.1.1 (Pesinario) na
+      submission: 0 (julesfru) na
+
+[2] esperanto-047  add-condition t04            T3-005 > T4-013 > D03  pending    An attack direction can receive explicit assent and attacking rather than an intervening …  [c0090,c0091]
+   how: An attack direction can receive explicit assent and attacking rather than an intervening proposal for agreement.
+   transitions: 62zj8x:14.1.1.1>14.1.1.1.1
+   "Ĝis nun ili ne agis, do ni ignoru ilin kaj atakos counting"  [esperanto/c0090]  item dfrqxeo  thread 62zj8x  h+70.14  TeoKajLibroj  t04 building, rebuilding and holding the star, flag a…
+   "bona ideo. Mi atakas ilin de la dekstra"  [esperanto/c0091]  item dfrqzbd  thread 62zj8x  h+70.16  canadianguy1234  t04 building, rebuilding and holding the star, flag a…
+
+  -- reply context
+  c0090 h+70.14 thread 62zj8x path 14.1.1.1 (TeoKajLibroj)
+      parent: 14.1.1 (canadianguy1234) na
+      submission: 0 (TeoKajLibroj) c0046 making a mega thread for planning the design
+  c0091 h+70.16 thread 62zj8x path 14.1.1.1.1 (canadianguy1234)  [replies under c0090]
+      parent: 14.1.1.1 (TeoKajLibroj) c0090 ignoring Wall Street Bets for now and attacking Counting
+
+[3] farmcarrots-055 add-condition t05            T3-010 > T4-016 > D04  pending    Negotiation following an attack call is mediated by the neighbor's objection and a revise…  [c0143,c0191,c0133,c0134]
+   how: Negotiation following an attack call is mediated by the neighbor's objection and a revised shared design rather than automatic retreat from attack.
+   transitions: 62v5on:2.2>2.2.1
+   "Attack the S!"  [farmcarrots/c0143]  item dfpjne2  thread 62v5on  h+31.31  LordDookucraft  t11 arguing over whether farmers should attack
+   "I apologize on behalf of this subreddit. I believe there are some renegade farmers that were afraid of your expansion, but hopefully this will quiet their fears. I hope you can forgive us simple farmers."  [farmcarrots/c0191]  item dfpojje  thread 62v5on  h+33.37  carolsnooze  t05 negotiating room with neighbors
+   "What do you guys think about"  [farmcarrots/c0133]  item dfpop4f  thread 62v5on  h+33.43  agentfooly  t05 negotiating room with neighbors
+   "That's fine with me"  [farmcarrots/c0134]  item dfpowii  thread 62v5on  h+33.52  Boerontosaurus  t05 negotiating room with neighbors
+
+  -- reply context
+  c0143 h+31.31 thread 62v5on path 1 (LordDookucraft)
+      parent: 0 (carolsnooze) c0024 asking farmers to leave the S alone
+      submission: 0 (carolsnooze) c0024 asking farmers to leave the S alone
+  c0191 h+33.37 thread 62v5on path 2.1 (carolsnooze)
+      parent: 2 (Boerontosaurus) na
+  c0133 h+33.43 thread 62v5on path 2.2 (agentfooly)
+      parent: 2 (Boerontosaurus) na
+  c0134 h+33.52 thread 62v5on path 2.2.1 (Boerontosaurus)  [replies under c0133]
+      parent: 2.2 (agentfooly) c0133 proposing a carrotized S design
+
+[4] radiohead-058  add-condition t04            T3-011 > T4-017 > D04  pending    The local attack-to-deal sequence is supported as a participant's recollection, not as co…  [c0141,c0142]
+   how: The local attack-to-deal sequence is supported as a participant's recollection, not as contemporaneously observed successive negotiation turns.
+   transitions: 62xvqg:2>2.1
+   "Shout-out to the "Love" folks who graciously shifted their art up to make room for us :)"  [radiohead/c0141]  item dfpvycb  thread 62xvqg  h+36.94  Mister_Magpie  t04 making peace and trading help with neighbours
+   "More like we started eating them and they said "WOAH WOAH WOAH help us move and we won't fight back!" And we graciously said "good idea""  [radiohead/c0142]  item dfpx8d7  thread 62xvqg  h+37.72  kidamnesiac24  t04 making peace and trading help with neighbours
+
+  -- reply context
+  c0141 h+36.94 thread 62xvqg path 2 (Mister_Magpie)
+      parent: 0 (Mister_Magpie) na
+      submission: 0 (Mister_Magpie) na
+  c0142 h+37.72 thread 62xvqg path 2.1 (kidamnesiac24)  [replies under c0141]
+      parent: 2 (Mister_Magpie) c0141 thanking the Love folks for shifting their art
+
+[5] smashbros-062  add-condition t08            T3-150 > T4-018 > D04  pending    Existing alliance obligations can redirect a proposed addition without requiring the atta…  [c0346,c0352,c0354,c0357]
+   how: Existing alliance obligations can redirect a proposed addition without requiring the attack to produce new border negotiations
+   transitions: 637mno:0>5, 637mno:0>7
+   "Marth next to FD on Place? Anyone wanna help?"  [smashbros/c0346]  item 637mno  thread 637mno  h+71.86  VinnytotheK  t02 choosing what Smash mark to add next
+   "Here from the smash place discord. Dont attack goon we are allied."  [smashbros/c0352]  item dfrx30r  thread 637mno  h+72.19  Dolphinkin3  t08 working out space, help, and obligations with nei…
+   "We are allied with Goon!! Back out of that area they are helping us!"  [smashbros/c0354]  item dfrx42e  thread 637mno  h+72.20  PhilipeJones  t08 working out space, help, and obligations with nei…
+   "Never mind guys, sorry about that. Didn't realize it would mess things up. I'll just help maintain stuff."  [smashbros/c0357]  item dfry0j8  thread 637mno  h+72.52  VinnytotheK  t06 repairing, defending, and maintaining the Smash a…
+
+  -- reply context
+  c0346 h+71.86 thread 637mno path 0 (VinnytotheK)  [same author as c0357]
+      parent: none
+  c0352 h+72.19 thread 637mno path 5 (Dolphinkin3)  [replies under c0346]
+      parent: 0 (VinnytotheK) c0346 asking for help placing Marth next to FD
+      submission: 0 (VinnytotheK) c0346 asking for help placing Marth next to FD
+  c0354 h+72.20 thread 637mno path 7 (PhilipeJones)  [replies under c0346]
+      parent: 0 (VinnytotheK) c0346 asking for help placing Marth next to FD
+  c0357 h+72.52 thread 637mno path 10 (VinnytotheK)  [same author as c0346 (under)]
+      parent: 0 (VinnytotheK) c0346 asking for help placing Marth next to FD
+
+[6] torontoraptors-066 add-condition t16            T3-041 > T4-006 > D02  pending    A treaty answer posted after placement closes supports discursive restraint without showi…  [c0133,c0134]
+   how: A treaty answer posted after placement closes supports discursive restraint without showing that it stopped an executable attack.
+   "That r/vermont. if we do it, we would all have to do it together at once to take it over.... but if we do we might feel the Bern."  [torontoraptors/c0133]  item dfs12yi  thread 637h7i  h+73.52  Son_of_Biyombo  t16 working out where WTN can fit without breaking tr…
+   "we have a treaty with /r/vermont"  [torontoraptors/c0134]  item dfsb9fj  thread 637h7i  h+76.79  redsnake1377  t16 working out where WTN can fit without breaking tr…
+  -- reply context
+  c0133 h+73.52 thread 637h7i path 3.1 (Son_of_Biyombo)
+      parent: 3 (raptorsbucketnator) c0132 proposing putting WTN over VT 802
+      submission: 0 (masterbeef41) c0129 proposing We the North text above the logo
+  c0134 h+76.79 thread 637h7i path 3.2 (redsnake1377)
+      parent: 3 (raptorsbucketnator) c0132 proposing putting WTN over VT 802
+

@@ -1,0 +1,13 @@
+A17: 2 lines in all (op add-step); packet [0, 2): 2 lines; carried through no third-order tier
+ops in the packet: {'add-step': 2}
+
+== GreenCorner-061  add-step  [pending]  repairs 1  not carried
+   source t05 (making alliances and trading help against Blue); lift GreenCorner:t05 > T3-150 > T4-018 > D04
+   how: An attack thread can host tactical alliance talk against its target rather than necessarily generating a truce or deal with that target.
+   codes: c0004 calling for death to blue; c0087 warning Green against a false flag and absolving Red; c0089 allying with Red against Blue before taking Red
+   transitions: 62o04d:0>1, 62o04d:1>1.2
+
+== msu-057  add-step  [pending]  repairs 0  not carried
+   source t01 (deciding whether to attack rival schools); lift msu:t01 > T3-006 > T4-020 > D08
+   how: Include invoking a wider coalition plan as an answer to attack calls without treating that invocation as a demonstrated negotiated treaty.
+   codes: c0040 stopping school griefing in favour of an all-Big Ten plan

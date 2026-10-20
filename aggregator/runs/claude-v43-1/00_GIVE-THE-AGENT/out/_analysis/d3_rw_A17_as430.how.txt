@@ -1,0 +1,26 @@
+A17 page offset 430: 2 add-step lines; printing 0 to 2 in the verb's order
+
+[0] GreenCorner-061 add-step      t05            T3-150 > T4-018 > D04  pending    An attack thread can host tactical alliance talk against its target rather than necessari…  [c0004,c0087,c0089]
+   how: An attack thread can host tactical alliance talk against its target rather than necessarily generating a truce or deal with that target.
+   transitions: 62o04d:0>1, 62o04d:1>1.2
+   "Death to blue."  [GreenCorner/c0004]  item 62o04d  thread 62o04d  h+4.78  alphacranberry  t10 raiding, taunting, and answering enemy colors
+   "Beware of a false flag attack. Red mean Green no Harm. Blue must go."  [GreenCorner/c0087]  item dfo0fem  thread 62o04d  h+4.85  geekywarrior  t05 making alliances and trading help against Blue
+   "unify with the red corner to combat blue... and then take over red"  [GreenCorner/c0089]  item dfobg3b  thread 62o04d  h+8.93  radiatetheworld  t05 making alliances and trading help against Blue
+
+  -- reply context
+  c0004 h+4.78 thread 62o04d path 0 (alphacranberry)
+      parent: none
+  c0087 h+4.85 thread 62o04d path 1 (geekywarrior)  [replies under c0004]
+      parent: 0 (alphacranberry) c0004 calling for death to blue
+      submission: 0 (alphacranberry) c0004 calling for death to blue
+  c0089 h+8.93 thread 62o04d path 1.2 (radiatetheworld)  [replies under c0004, replies under c0087]
+      parent: 1 (geekywarrior) c0087 warning Green against a false flag and absolving Red
+
+[1] msu-057        add-step      t01            T3-006 > T4-020 > D08  pending    Include invoking a wider coalition plan as an answer to attack calls without treating tha…  [c0040]
+   how: Include invoking a wider coalition plan as an answer to attack calls without treating that invocation as a demonstrated negotiated treaty.
+   "Stop. No more griefing other schools, /r/theB1G is working on an all-Big Ten plan"  [msu/c0040]  item dfrchcj  thread 634d1x  h+61.15  Temper03  t01 deciding whether to attack rival schools
+  -- reply context
+  c0040 h+61.15 thread 634d1x path 1 (Temper03)
+      parent: 0 (PM_ME_DANKITYMEMES) c0060 calling to attack Michigan after finishing the logo and Go Green
+      submission: 0 (PM_ME_DANKITYMEMES) c0060 calling to attack Michigan after finishing the logo and Go Green
+
