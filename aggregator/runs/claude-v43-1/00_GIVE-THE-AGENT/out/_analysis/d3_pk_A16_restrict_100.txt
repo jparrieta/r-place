@@ -1,0 +1,27 @@
+A16: 104 lines in all (op restrict); packet [100, 104): 4 lines; carried through no third-order tier
+ops in the packet: {'restrict': 4}
+
+== vermont-026  restrict  [pending]  repairs 0  not carried
+   source t06 (working out borders without interfering); lift vermont:t06 > T3-010 > T4-016 > D04
+   how: The visible sympathetic reply answers a neighbour's damage complaint rather than a demonstrated call to attack.
+   codes: c0029 complaining that Vermonters are ruining a white border; c0030 answering the border complaint with mutual loss and prior talks
+   transitions: 630rwh:13>13.1
+
+== vinesauce-058  restrict  [pending]  repairs 1  not carried
+   source t06 (working things out with neighboring communities); lift vinesauce:t06 > T3-010 > T4-016 > D04
+   relation: nyjets
+   how: Restraint follows a neighbor's complaint about unintended encroachment without evidence that a collective attack call first mobilized the painter.
+   codes: c0106 asking a Vinesauce painter to stop covering the Jets logo; c0055 apologizing for painting over the Jets logo; c0056 accepting the apology and settling the neighbor dispute
+   transitions: 630sck:4.1>4.1.1, 630sck:4.1.1>4.1.1.1
+
+== wallstreetbets-063  restrict  [pending]  repairs 1  not carried
+   source t06 (attacking, hijacking, and defending nearby canvas space); lift wallstreetbets:t06 > T3-006 > T4-020 > D08
+   how: An attack-thread objection establishes the attacking room's self-restraint only when speaker affiliation and purpose are known, whereas this reply threatens attackers and defends the target.
+   codes: c0031 proposing to attack their flag; c0042 threatening the proposed flag attackers; c0043 defending CCCP as an anime fansubbing monument against COCK, CUCK, and BASH THE FASH changes
+   transitions: 62qgzf:3.1.1>3.1.1.3
+
+== winnipegjets-056  restrict  [pending]  repairs 0  not carried
+   source t04 (working out who gets which canvas space); lift winnipegjets:t04 > T3-010 > T4-016 > D04
+   how: The reasoned refusal answering the conversion proposal comes from the threatened neighbour rather than the recruiting room.
+   codes: c0049 proposing changing the stone above the Jets logo to LAINE; c0050 asking the Jets group to leave their hard-won spot alone; c0051 saying the Jets group took their first spot and is trying again
+   transitions: 6316x2:0>1

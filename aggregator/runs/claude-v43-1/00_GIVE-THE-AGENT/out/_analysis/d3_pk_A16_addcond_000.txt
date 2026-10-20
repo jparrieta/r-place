@@ -1,0 +1,100 @@
+A16: 17 lines in all (op add-condition); packet [0, 17): 17 lines; carried through no third-order tier
+ops in the packet: {'add-condition': 17}
+
+== HomestarRunner-056  add-condition  [pending]  repairs 1  not carried
+   source t04 (arguing over whom Trogdor should burninate); lift HomestarRunner:t04 > T3-006 > T4-020 > D08
+   how: Refusal may be bare or reasoned, so the presence of a reason cannot be required for identifying restraint.
+   codes: c0037 asking for help burninating the green thing; c0039 asking the burninators to stop; c0121 arguing against angering Achievement Hunter during an attack; c0122 rejecting expansion into Achievement Hunter
+   transitions: 62q516:5>5.1, 636w88:0>4
+
+== anaheimducks-045  add-condition  [pending]  repairs 0  not carried
+   source t14 (refusing a call to attack the Flames logo); lift anaheimducks:t14 > T3-076 > T4-015 > D04
+   how: Attack-refusal exchanges can continue after the original canvas closes and need not concern an executable attack on that original canvas.
+   codes: c0069 announcing r/Place ended with the logo defended until the end; c0092 calling for an attack on the Flames logo at coordinates; c0093 refusing the attack because they should not be those guys; c0094 rejecting the proposed logo attack
+
+== babymetal-068  add-condition  [pending]  repairs 1  not carried
+   source t05 (making room with touching artwork); lift babymetal:t05 > T3-010 > T4-016 > D04
+   how: Reported damage can prompt restorative restraint even where no original attack call survives.
+   codes: c0086 challenging the group for cutting into the rainbow; c0087 proposing to restore the rainbow
+   transitions: 62smit:9>9.1
+
+== danganronpa-035  add-condition  [pending]  repairs 0  not carried
+   source t20 (working around neighbours and no-touch promises); lift danganronpa:t20 > T3-024 > T4-015 > D04
+   how: A rebuilding call can receive a reasoned refusal grounded in treaty and prior possession because purported repair would itself encroach.
+   codes: c0160 calling everyone to rebuild Monomi; c0161 refusing to take back space because a peace treaty and prior claim stand; c0163 explaining the Gabriel Dropout agreement not to destroy each other's art
+   transitions: 637aet:0>1
+
+== dota2-066  add-condition  [pending]  repairs 1  not carried
+   source t09 (Attacking and mocking rival canvas art); lift dota2:t09 > T3-006 > T4-020 > D08
+   how: Attack refusals can also be bare, so their reasons cannot always be reconstructed.
+   codes: c0726 calling to vandalize the Heroes of the Storm logo; c0727 answering the vandalism call with no
+   transitions: 62xolm:0>1
+
+== esperanto-046  add-condition  [pending]  repairs 1  not carried
+   source t06 (working out borders, peace and mutual help with neighbours); lift esperanto:t06 > T3-010 > T4-016 > D04
+   how: Refusal is specific to a target and its perceived strength, since declining one opponent can precede directing an attack at another.
+   codes: c0067 refusing a pre-emptive attack because they are too big to beat; c0090 ignoring Wall Street Bets for now and attacking Counting; c0091 attacking Counting from the right
+
+== europe-056  add-condition  [pending]  repairs 0  not carried
+   source t07 (refusing raids, overwriting, and unwanted place posts); lift europe:t07 > T3-024 > T4-015 > D04
+   how: Refusals can also be bare, so a reason is a recurrent form rather than a requirement of an attack call's rejection.
+   codes: c0232 wanting to draw a swastika in the German flag; c0233 rejecting the proposed swastika; c0657 calling to troll Germany with a crescent; c0658 answering the trolling call with ‘Yeah, nah’
+   transitions: 62sfun:1.1>1.1.1, 632u9u:0>1
+
+== hentai-051  add-condition  [pending]  repairs 0  not carried
+   source t05 (arguing over putting 7-1 on Brazil); lift hentai:t05 > T3-006 > T4-020 > D08
+   how: An answer seeking restraint does not imply compliance when the attacker directly rejects the challenge.
+   codes: c0054 challenging the 7-1 retaliation as beneath them; c0055 rejecting the call to be better
+   transitions: 62xneu:3.1.1.1>3.1.1.1.1
+
+== loliconsunite-060  add-condition  [pending]  repairs 0  not carried
+   source t06 (answering people who attack the signs and condemn their meaning); lift loliconsunite:t06 > T3-139 > T4-015 > D04
+   how: Restraint can answer incoming attack rather than a focal room's own attack call, so the direction of the attack must be retained.
+   codes: c0021 calling out alternate accounts used to grief them; c0022 saying little can be done about the alternate accounts; c0023 refusing to stoop to the attackers' level
+   transitions: 62w6b6:1>1.1
+
+== minecraft-042  add-condition  [pending]  repairs 1  not carried
+   source t11 (Objecting to overwriting art and repeated canvas calls); lift minecraft:t11 > T3-075 > T4-002 > D06
+   how: Restraint appeals can enter from threatened builders rather than originate as the attacking room's internal refusal
+   codes: c0041 asking the sword builders to stop attacking Bob Ross; c0042 asking the sword to go around hours of work on Bob Ross
+
+== minnesotavikings-057  add-condition  [pending]  repairs 0  not carried
+   source t11 (making and breaking Packers truces around the number 4); lift minnesotavikings:t11 > T3-149 > T4-016 > D04
+   relation: r/GreenBayPackers
+   how: Restraint also arises within construction recruitment when a participant abandons attacking for building, so it need not follow a preserved attack call.
+   codes: c0143 calling for help building Norseman below SKOL; c0148 redirecting from tearing down Packers to Norseman; c0149 telling people not to mess with Packers because it slows both sides
+   transitions: 631leg:0>2
+
+== newzealand-052  add-condition  [pending]  repairs 1  not carried
+   source t08 (arguing over changes and asking people not to overwrite others); lift newzealand:t08 > T3-076 > T4-015 > D04
+   how: Reasoned refusal is one local form while other attack proposals receive bare refusals without supplied reasons.
+   codes: c0421 proposing to turn the Australian flag into another Kiwi one; c0422 rejecting another Kiwi flag with a bare no; c0425 rejecting the flag proposal with nyet
+   transitions: 6358jb:0>1, 6358jb:0>4
+
+== pokemon-058  add-condition  [pending]  repairs 2  not carried
+   source t07 (Defending and negotiating over canvas pictures); lift pokemon:t07 > T3-005 > T4-013 > D03
+   how: The evidenced apology follows a complaint about damage rather than a preserved refusal of an invitation to attack.
+   codes: c0473 challenging an attack on the Ukraina flag; c0474 apologizing and promising not to touch the flag again
+   transitions: 632572:3.1>3.1.1
+
+== scotland-050  add-condition  [pending]  repairs 0  not carried
+   source t03 (making politics out of the picture); lift scotland:t03 > T3-130 > T4-022 > D05
+   how: National independence can furnish the stated reason to maintain one's own work instead of altering a rival's lettering.
+   codes: c0107 proposing changing INGD to INDY on the UK flag; c0108 choosing their own flag, thistle and Nessie over messing with the Union Jack
+   transitions: 62xz4w:4>4.1
+
+== smashbros-061  add-condition  [pending]  repairs 0  not carried
+   source t08 (working out space, help, and obligations with neighbors); lift smashbros:t08 > T3-150 > T4-018 > D04
+   how: Restraint can answer an addition that would unintentionally cover allied work rather than only an explicit attack on a known rival
+   codes: c0346 asking for help placing Marth next to FD; c0350 calling to defend and maintain while protecting the goon allies; c0354 telling the proposer to back out of allied goon territory; c0357 dropping the Marth plan and switching to maintenance
+   transitions: 637mno:0>4, 637mno:0>7, 637mno:0>10
+
+== titanfall-060  add-condition  [pending]  repairs 1  not carried
+   source t07 (Making room and peace with canvas neighbours); lift titanfall:t07 > T3-010 > T4-016 > D04
+   how: A refusal or apology can follow corrected knowledge of prior possession rather than a general norm against attacking.
+   codes: c0114 withdrawing a call to fight after realizing UB was there first; c0115 apologizing to UB and backing off after mistaking a concept picture
+
+== utahjazz-070  add-condition  [pending]  repairs 0  not carried
+   source t08 (asking neighbors for peace and trading help); lift utahjazz:t08 > T3-149 > T4-016 > D04
+   how: Refusal may be bare or reasoned, so a stated reason cannot be required for restraint.
+   codes: c0094 asking people not to destroy others' art; c0100 defending cubers' existing space by asking how Jazz fans would feel

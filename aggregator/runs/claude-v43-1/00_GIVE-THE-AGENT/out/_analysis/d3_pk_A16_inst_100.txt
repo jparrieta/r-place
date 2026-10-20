@@ -1,0 +1,600 @@
+A16: 237 lines in all (op instantiate); packet [100, 200): 100 lines; carried through no third-order tier
+ops in the packet: {'instantiate': 100}
+
+== india-046  instantiate  [pending]  repairs 0  not carried
+   source t08 (fighting over and helping Pakistan's flag); lift india:t08 > T3-006 > T4-020 > D08
+   how: A reported conversion of a rival's flag receives an explicit request not to fight here.
+   codes: c0207 turning Pakistan into Kekistan and Fakistan; c0208 asking people not to fight each other here
+   transitions: 62wgan:2.1.1>2.1.1.1
+
+== indonesia-044  instantiate  [pending]  repairs 0  not carried
+   source t14 (stopping attacks and leaving neighbours alone); lift indonesia:t14 > T3-076 > T4-015 > D04
+   how: A capture proposal is answered with restraint and a reason grounded in the flag's existing relocation plan.
+   codes: c0184 proposing capture of Singapore's flag instead; c0186 directing people to the Dutch area and rejecting another flag capture
+   transitions: 637n0f:0>2
+
+== ireland-038  instantiate  [pending]  repairs 0  not carried  NONPORTABLE ['italy']
+   source t06 (calling raids and taking more canvas); lift ireland:t06 > T3-061 > T4-020 > D08
+   how: An Italy hijack proposal receives a neutrality refusal and an American attack call receives friendship-based rejection
+   codes: c0502 asking whether to hijack Italy; c0303 answering an Italy hijack proposal with neutrality; c0355 calling to push back against an American invasion; c0358 rejecting the attack because Americans are friends
+
+== israel-058  instantiate  [pending]  repairs 0  not carried
+   source t04 (negotiating whether to take or share canvas space); lift israel:t04 > T3-010 > T4-016 > D04
+   how: Attack calls receive reasoned refusals that cite avoiding enemies and reciprocal noninterference.
+   codes: c0128 demanding destruction of a terror flag; c0129 refusing to attack unless provoked to avoid more enemies; c0134 calling for taking an unknown country's flag; c0135 refusing an unnecessary attack under leave-us-leave-them restraint
+   transitions: 62yni8:0>1, 62z4j2:0>1
+
+== italy-044  instantiate  [pending]  repairs 0  not carried
+   source t08 (arguing over whether to overwrite others’ work); lift italy:t08 > T3-046 > T4-015 > D04
+   how: An overwrite proposal receives a reasoned refusal invoking the artist's request and reciprocal respect, followed by explicit assent.
+   codes: c0170 asking whether to pass over the fish; c0171 arguing that respecting the fish will bring reciprocal respect; c0172 accepting the decision and redirecting effort to removing SH-
+   transitions: 62yymk:0>1, 62yymk:1>1.1
+
+== kingdomhearts-061  instantiate  [pending]  repairs 1  not carried
+   source t22 (arguing for peace instead of stomping over others); lift kingdomhearts:t22 > T3-046 > T4-015 > D04
+   how: A takeover proposal receives a reasoned reply redirecting effort toward creating the community's existing mark.
+   codes: c0162 proposing a Darkness alliance with r/supernatural; c0167 redirecting destruction toward helping make the community Keyblade
+   transitions: 633x96:0>2
+
+== konosuba-050  instantiate  [pending]  repairs 1  not carried
+   source t06 (keeping peace by sorting allies from griefers); lift konosuba:t06 > T3-076 > T4-015 > D04
+   how: The attack-or-defend question received explicit refusals grounded in friendship and alliance.
+   codes: c0062 asking whether to attack the Blues or defend; c0063 refusing war on Blues friends; c0064 telling the room not to attack an ally
+   transitions: 6367fs:0>1, 6367fs:0>2
+
+== korea-061  instantiate  [pending]  repairs 1  not carried
+   source t04 (arguing over taking Japan's flag or leaving it alone); lift korea:t04 > T3-068 > T4-020 > D08
+   how: Answers a takeover call with a direct refusal grounded in avoiding conflict.
+   codes: c0108 calling to take over Japan on r/place; c0109 rejecting the call to create conflict
+   transitions: 633cwx:0>1
+
+== kpop-058  instantiate  [pending]  repairs 2  not carried
+   source t10 (refusing to replace Japan's flag); lift kpop:t10 > T3-024 > T4-015 > D04
+   how: The attack proposal directly receives reasoned refusal on grounds of respect rather than nationalistic tension.
+   codes: c0065 soliciting help to replace the Japanese flag with the Korean one; c0068 urging respect instead of fueling nationalistic tensions
+   transitions: 62x8tu:0>3
+
+== kurdistan-046  instantiate  [pending]  repairs 0  not carried
+   source t02 (taking over and sabotaging other flags); lift kurdistan:t02 > T3-061 > T4-020 > D08
+   how: An attack proposal elicits ownership checking and expressed regret, without establishing a collective refusal.
+   codes: c0003 proposing to take over what could be Hungary's flag; c0004 confirming it is Hungary's and feeling bad about taking it over; c0005 shrugging that taking flags is just life
+   transitions: 62su4u:1.1>1.1.1
+
+== lakers-076  instantiate  [pending]  repairs 1  not carried
+   source t12 (negotiating a truce so both logos can exist); lift lakers:t12 > T3-149 > T4-016 > D04
+   how: Renewed attention to the rival's mark received a reasoned request to let it stand after an earlier attack.
+   codes: c0201 calling attention to Celtics taking over Pi; c0202 saying to let the Celtics have it after one attack
+   transitions: 634lv4:0>1
+
+== leafs-058  instantiate  [pending]  repairs 1  not carried
+   source t06 (deciding whether to attack rival pictures); lift leafs:t06 > T3-006 > T4-020 > D08
+   how: An attack call received refusals that preferred maintaining the home picture to destructive behaviour.
+   codes: c0239 asking who wants to mess up Detroit's logo; c0240 saying to work on their own logo and not be assholes; c0241 saying to make their own logo pretty and not be a prick
+   transitions: 6304bm:0>1, 6304bm:0>2
+
+== leagueoflegends-047  instantiate  [pending]  repairs 1  not carried
+   source t08 (Refusing attacks and redirecting effort to the League mark); lift leagueoflegends:t08 > T3-076 > T4-015 > D04
+   how: Direct replies refuse an attack by invoking unfavorable numbers or redirecting spare pixels toward maintaining the room's own logo.
+   codes: c0080 proposing an attack instead of building the logo; c0081 rejecting an attack because they are outnumbered and redirecting attention to the logo; c1814 calling everyone to take down the DOTA 2 logo together; c1815 rejecting the DOTA attack and redirecting spare pixels to maintaining our own logo
+   transitions: 62oplk:3>3.1, 633cr9:0>1
+
+== lebanon-045  instantiate  [pending]  repairs 1  not carried
+   source t03 (protecting the hearts when the room lacks the numbers); lift lebanon:t03 > T3-005 > T4-013 > D03
+   how: A takeover proposal receives a reasoned refusal based on numbers and fairness without establishing that the proposer or all placers comply
+   codes: c0053 calling to take over Austria's heart; c0054 choosing to protect their own heart instead of stealing Austria's; c0056 claiming to have taken over Austria's and Israel's
+   transitions: 62yvha:2>2.1, 62yvha:2.1>2.1.1
+
+== lost-051  instantiate  [pending]  repairs 0  not carried
+   source t05 (staying peaceful and helping neighbouring art); lift lost:t05 > T3-011 > T4-017 > D04
+   how: A proposed takeover receives a direct refusal whose stated reason is avoiding new enemies.
+   codes: c0043 proposing taking over parabola to write execute; c0044 rejecting a takeover to stay peaceful
+   transitions: 62x1s7:12>12.1
+
+== madokamagica-046  instantiate  [pending]  repairs 1  not carried
+   source t04 (making room, borders, and peace with neighbours); lift madokamagica:t04 > T3-010 > T4-016 > D04
+   how: A proposal to replace a neighbour receives a refusal grounded in an existing armistice.
+   codes: c0068 refusing expansion because they have an armistice with birb
+
+== magictcg-052  instantiate  [pending]  repairs 0  not carried
+   source t07 (Negotiating space and defending art against neighbors); lift magictcg:t07 > T3-010 > T4-016 > D04
+   how: A proposed raid receives a refusal explicitly justified by its expected fatal cost to the builders.
+   codes: c0268 weighing a raid against using rainbow road; c0269 rejecting a fatal raid and asking for a Discord
+   transitions: 6316zk:4.1.1.1>4.1.1.1.1
+
+== malaysia-046  instantiate  [pending]  repairs 0  not carried
+   source t07 (making hearts and trading help with neighbours); lift malaysia:t07 > T3-010 > T4-016 > D04
+   how: An overwrite proposal directly receives a refusal that offers helping neighbours as the alternative.
+   codes: c0124 asking to overlap anime art so Malaysia does not look overpowered; c0128 asking to help the neighbours below the flag instead of attacking
+   transitions: 635cn5:0>3
+
+== maryland-054  instantiate  [pending]  repairs 0  not carried
+   source t02 (guarding the flag and reporting for shifts); lift maryland:t02 > T3-005 > T4-013 > D03
+   how: The retaliation call is directly answered by both bare refusal and a proposal to reserve clicks for defense.
+   codes: c0017 calling for retaliation against Sweden; c0018 rejecting retaliation and maintaining the flag; c0019 using clicks for defense instead of attack
+   transitions: 62ndg1:10>10.1, 62ndg1:10>10.2
+
+== masseffect-051  instantiate  [pending]  repairs 0  not carried
+   source t05 (negotiating room and returning help to neighbours); lift masseffect:t05 > T3-010 > T4-016 > D04
+   how: A call to disregard the neighbour receives a direct refusal justified by that neighbour's polite request.
+   codes: c0047 questioning whether to be that paragon instead of covering TWD; c0048 refusing to mess up TWD after their polite message
+   transitions: 62ujco:4.1.1.1.2>4.1.1.1.2.1
+
+== megaman-061  instantiate  [pending]  repairs 1  not carried
+   source t10 (making and testing alliances and ceasefires); lift megaman:t10 > T3-149 > T4-016 > D04
+   how: The attack appeal receives an explicit objection explaining that the target is an ally.
+   codes: c0058 promising Mega Man will become a hero by attacking OSU; c0059 objecting that OSU are allies
+   transitions: 63503u:0>1
+
+== metroid-059  instantiate  [pending]  repairs 1  not carried
+   source t06 (moving and starting again when space closes); lift metroid:t06 > T3-022 > T4-014 > D04
+   how: An encroachment proposal receives flag-identification objections, followed by explicit withdrawal from that flag.
+   codes: c0183 targeting apparent stripes as having nothing to save; c0189 identifying Catalonia's flag and asking Metroid to move; c0196 withdrawing from Catalunya and considering Sweden
+   transitions: 6368gr:2>2.4
+
+== mexico-046  instantiate  [pending]  repairs 0  not carried
+   source t02 (proposing raids and talking each other out of them); lift mexico:t02 > T3-006 > T4-020 > D08
+   how: An invasion call receives refusal justified by respect for others and concern about losing future assistance.
+   codes: c0207 proposing invading Italy with shields; c0208 rejecting invasion so other subs might help against the_cheto
+   transitions: 630xwz:0>1
+
+== miamidolphins-050  instantiate  [pending]  repairs 0  not carried
+   source t08 (arguing whether to attack rivals or keep building); lift miamidolphins:t08 > T3-006 > T4-020 > D08
+   how: The attack call directly elicited a refusal justified by the need to defend the home logo.
+   codes: c0124 proposing an all-out attack on the Jets logo; c0125 putting defense of the Phins logo before attacking
+   transitions: 634oaa:0>1
+
+== minecraft-041  instantiate  [pending]  repairs 1  not carried
+   source t11 (Objecting to overwriting art and repeated canvas calls); lift minecraft:t11 > T3-075 > T4-002 > D06
+   how: The sword attack call directly receives an objection explaining that disturbing established art is bad form
+   codes: c0057 recruiting people to a sword of death aimed first at Bob Ross; c0058 warning that interrupting other people's art is bad form and will be resisted
+   transitions: 62rnug:0>1
+
+== minnesotavikings-056  instantiate  [pending]  repairs 0  not carried
+   source t11 (making and breaking Packers truces around the number 4); lift minnesotavikings:t11 > T3-149 > T4-016 > D04
+   relation: r/GreenBayPackers
+   how: An attack call receives a specific warning that retaliation would disfigure the room's own mark, supplying a reason to refrain.
+   codes: c0264 calling to kill the smaller foothold; c0314 warning that an attack will leave the Norseman disfigured
+   transitions: 6377r1:7>7.3
+
+== mizzou-020  instantiate  [pending]  repairs 1  not carried
+   source t03 (working out a border the group can maintain); lift mizzou:t03 > T3-004 > T4-006 > D02
+   how: A proposed encroachment receives a direct counterproposal that gives competition and insufficient maintenance labour as reasons to pull back.
+   codes: c0028 planning to secretly trim Pakistan's flag by one row; c0029 scaling the border plan to the people available
+   transitions: 62xzp4:7.1.2>7.1.2.1
+
+== monalisaclan-061  instantiate  [pending]  repairs 1  not carried
+   source t03 (making room for neighbors and arguing over treaties); lift monalisaclan:t03 > T3-010 > T4-016 > D04
+   how: An invader attack call receives a reasoned correction naming the neighbors as part of the official design.
+   codes: c0199 calling Switzerland and trees invaders and demanding defense; c0200 answering that Switzerland and trees were discussed into the official design
+   transitions: 635eh8:0>1
+
+== monsterhunter-056  instantiate  [pending]  repairs 1  not carried
+   source t04 (working around neighbours and repairing art Rathalos displaced); lift monsterhunter:t04 > T3-010 > T4-016 > D04
+   how: The clearing call receives both refusal and a reasoned objection grounded in settled diplomacy.
+   codes: c0166 refusing the call to clear the art; c0167 refusing to undo the settled diplomacy
+
+== mordhau-049  instantiate  [pending]  repairs 0  not carried
+   source t03 (working around neighbouring marks); lift mordhau:t03 > T3-010 > T4-016 > D04
+   how: The clearance request receives a direct refusal with the stated reason that the neighbouring makers are nice.
+   codes: c0030 proposing an alliance, clearing land, and donating it as tribute; c0031 refusing to clear nice r/placestart while guarding the north east
+   transitions: 633ywg:0>1
+
+== msu-055  instantiate  [pending]  repairs 0  not carried
+   source t01 (deciding whether to attack rival schools); lift msu:t01 > T3-006 > T4-020 > D08
+   how: A direct reply stops an attack proposal by invoking an all-league plan without proving the room reached consensus or every placer complied.
+   codes: c0060 calling to attack Michigan after finishing the logo and Go Green; c0040 stopping school griefing in favour of an all-Big Ten plan
+   transitions: 634d1x:0>1
+
+== muse-053  instantiate  [pending]  repairs 0  not carried
+   source t06 (turning band rivalry into attacks, retreats, and jokes); lift muse:t06 > T3-006 > T4-020 > D08
+   relation: radiohead
+   how: The attack call receives condemnation and appeals to get along, while the initiating speaker separately explains withdrawal through lack of interest.
+   codes: c0013 proposing to piss off r/radiohead by building on them; c0022 condemning the Radiohead attack as heinous; c0026 asking the two bands to get along; c0017 quitting the Muse plan and offering to help Radiohead
+   transitions: 62rr10:0>7, 62rr10:0>9
+
+== mylittlepony-062  instantiate  [pending]  repairs 1  not carried
+   source t07 (making peace and trading watch with canvas neighbors); lift mylittlepony:t07 > T3-151 > T4-017 > D04
+   how: An admitted vandalism choice directly received a reasoned suggestion to help neighbors instead, explicitly leaving compliance voluntary.
+   codes: c0156 using a quiet spell to vandalize communist propaganda; c0157 steering spare pixels toward neighbors and allies instead of vandalism
+   transitions: 62z65j:5>5.1
+
+== neopets-054  instantiate  [pending]  repairs 1  not carried
+   source t02 (backing off the mango and making peace); lift neopets:t02 > T3-047 > T4-015 > D04
+   how: The conversion call elicits a reasoned ethical objection, explicit agreement, and efforts to retreat and restore the targeted work.
+   codes: c0001 calling fellow Neopians to convert an r/place image into an Ummagine; c0005 saying teaming up to deface someone's art feels less than nice; c0006 agreeing that taking someone else's art may not have been the best thing to do; c0009 admitting fault and offering to rebuild the mango; c0012 organizing a retreat from and restoration of the mango
+   transitions: 62xltj:4>4.1
+
+== neu-029  instantiate  [pending]  repairs 1  not carried
+   source t03 (holding the line and reclaiming what's ours); lift neu:t03 > T3-005 > T4-013 > D03
+   relation: r/BostonU
+   how: The call to act against a rival receives a reasoned counterposition prioritizing defense of the room's own logo.
+   codes: c0029 calling people to stop BU changing Rutgers from RU to BU; c0030 putting the N's defense ahead of messing with BU
+   transitions: 631e88:0>1
+
+== newzealand-051  instantiate  [pending]  repairs 1  not carried
+   source t08 (arguing over changes and asking people not to overwrite others); lift newzealand:t08 > T3-076 > T4-015 > D04
+   how: A flag-hijack call receives a refusal explicitly naming retaliation against the room's own image as its cost.
+   codes: c0131 calling to hijack the Aussie flag; c0132 refusing the hijack to protect the little kiwi
+   transitions: 62r1zo:0>1
+
+== nintendo-059  instantiate  [pending]  repairs 0  not carried
+   source t07 (working out the target, location, name, and plan); lift nintendo:t07 > T3-004 > T4-006 > D02
+   how: The attack proposal directly receives a reasoned tactical postponement rather than a moral refusal.
+   codes: c0018 proposing to greif PCMasterRace into NintendoMasterRace; c0019 answering that they should start small before bigger fish
+   transitions: 62npm2:1.2.1.1.1>1.2.1.1.1.1
+
+== nlsscirclejerk-048  instantiate  [pending]  repairs 0  not carried
+   source t02 (working out how and where to make Dan); lift nlsscirclejerk:t02 > T3-033 > T4-006 > D02
+   how: The proposal to build over a flag receives a direct refusal grounded in not wanting to ruin that flag.
+   codes: c0014 proposing the Swedish flag as the site; c0016 not wanting to ruin the other flag
+   transitions: 62tjau:3>3.1
+
+== norge-050  instantiate  [pending]  repairs 1  not carried
+   source t08 (arguing over expansion and ruined art); lift norge:t08 > T3-046 > T4-015 > D04
+   relation: denmark
+   how: Attack calls receive explicit refusals grounded in avoiding war and preferring creation to destruction without proving that the attacks stop.
+   codes: c0220 calling to take over Denmark; c0221 refusing a takeover because it only makes war; c0057 inviting people to join Sweden's timed attack on the Danish flag; c0058 urging people to build things they like instead of destroying others
+   transitions: 635g4t:0>1, 62sbpj:1>1.1
+
+== notredame-046  instantiate  [pending]  repairs 0  not carried
+   source t05 (deciding whether to attack other school images); lift notredame:t05 > T3-006 > T4-020 > D08
+   how: The conquest proposal receives refusal with a stated retaliation cost, followed by another speaker's rejection.
+   codes: c0057 calling to conquer the U of M logo; c0058 warning that attacking Michigan could get the ND logo destroyed; c0059 rejecting the proposed attack
+   transitions: 62ybik:0>1, 62ybik:1>1.1
+
+== nyjets-037  instantiate  [pending]  repairs 1  not carried
+   source t12 (holding expansion and attacks back to keep r/place neutral); lift nyjets:t12 > T3-076 > T4-015 > D04
+   how: Attack calls receive direct refusals grounded in neutrality and expected problems, demonstrating articulated restraint rather than guaranteed compliance.
+   codes: c0086 calling to wipe out the building Dolphins logo; c0087 rejecting the attack to keep r/place neutral; c0141 calling to hit the Bills logo; c0142 rejecting griefing to keep r/place neutral
+   transitions: 62y4dh:3>3.1, 631dv2:22>22.1
+
+== ockytop-047  instantiate  [pending]  repairs 0  not carried
+   source t02 (checkerboarding and raiding rivals); lift ockytop:t02 > T3-006 > T4-020 > D08
+   how: The later turn explicitly calls off the Florida attack because counterattacks threaten the home area.
+   codes: c0058 calling an 8pm checkerboarding raid on Florida's UF; c0061 stopping the Florida attack to fix and defend their own area
+
+== ohio-062  instantiate  [pending]  repairs 1  not carried
+   source t06 (weighing attacks and taunts against maintaining Ohio); lift ohio:t06 > T3-006 > T4-020 > D08
+   how: An attack proposal receives a reasoned preference for maintenance based on relative numbers, followed by the proposer's acknowledgment.
+   codes: c0105 proposing an OSU logo or writing sucks under Michigan; c0106 preferring maintenance over attacking a larger Michigan group; c0108 dropping the attack after hearing about Ohio's existing work
+   transitions: 633625:1>1.1, 633625:1.1>1.1.1
+
+== osu-063  instantiate  [pending]  repairs 0  not carried
+   source t06 (stopping attacks and working out coexistence); lift osu:t06 > T3-076 > T4-015 > D04
+   how: An attack proposal receives a reasoned refusal invoking agreement and the predicted cost of destruction.
+   codes: c0144 calling to destroy Temple and put the script there; c0145 stopping the Temple attack because the Big Ten agreed
+   transitions: 6343jy:1>1.1
+
+== overwatch-036  instantiate  [pending]  repairs 0  not carried
+   source t27 (refusing to overwrite another community’s canvas work); lift overwatch:t27 > T3-024 > T4-015 > D04
+   how: An attack proposal receives both a bare norm-based refusal and an explicit warning about creating enemies
+   codes: c0556 proposing changing the TF2 logo into Overwatch; c0557 refusing to mess with other people's work; c0558 rejecting the attack to avoid creating enemies
+   transitions: 62wozb:0>1, 62wozb:0>2
+
+== pakistan-066  instantiate  [pending]  repairs 1  not carried
+   source t12 (retaliating and taunting after attacks); lift pakistan:t12 > T3-006 > T4-020 > D08
+   how: A proposed ceasefire and attack receives a reasoned request to spare every flag as well as a bare refusal
+   codes: c0203 proposing a ceasefire with bakichod and an attack on Britain; c0204 rejecting flag wars and asking that every flag exist; c0239 rejecting the proposed ceasefire and attack with a terse no
+   transitions: 634qaj:0>1, 634qaj:0>3
+
+== paladins-074  instantiate  [pending]  repairs 1  not carried
+   source t24 (deciding whether Pikachu can be painted over); lift paladins:t24 > T3-046 > T4-015 > D04
+   how: The displacement plan receives a moral objection answered by a justification for sacrificing one Pokémon image.
+   codes: c0218 moving the logo onto Pikachu with r/Peru's help; c0220 protesting that Pikachu lives matter; c0223 saying one less piece of Pokémon art is no huge problem
+   transitions: 633ya5:0>2, 633ya5:2>2.2
+
+== palestine-044  instantiate  [pending]  repairs 0  not carried
+   source t04 (defending, repairing and holding the flag); lift palestine:t04 > T3-005 > T4-013 > D03
+   how: A cover proposal receives direct refusals explaining reciprocal restraint, the symbol's character, scarce manpower, and repair priorities.
+   codes: c0090 calling to cover the Hebrew/Israel drawing to show who is boss; c0096 rejecting attack and focusing scarce effort on defending the flag; c0038 choosing repair and a they-don't-touch-us truce
+   transitions: 62xh1m:1>1.1, 62xh1m:1>1.2
+
+== parahumans-063  instantiate  [pending]  repairs 1  not carried
+   source t15 (calling for taking more canvas space); lift parahumans:t15 > T3-061 > T4-020 > D08
+   how: A call to take over pony art receives a direct refusal to attack existing artwork.
+   codes: c0195 proposing taking over the pony to extend the area; c0127 refusing to attack existing art
+   transitions: 630ml3:1>1.1
+
+== pathofexile-066  instantiate  [pending]  repairs 1  not carried
+   source t11 (making and refusing deals with canvas neighbours); lift pathofexile:t11 > T3-010 > T4-016 > D04
+   how: A threatened overlap receives a reasoned refusal grounded in loyalty to the affected neighboring group.
+   codes: c0211 planning to erase Smash Mouth lyrics while noticing r/frankocean there too; c0214 refusing to betray r/FrankOcean; c0215 reassuring that the orb need not cross r/FrankOcean
+   transitions: 62z6hp:0>2, 62z6hp:2>2.1
+
+== patriots-064  instantiate  [pending]  repairs 1  not carried
+   source t11 (telling would-be attackers to leave the Fins logo); lift patriots:t11 > T3-076 > T4-015 > D04
+   how: A call to ruin a rival logo receives a reasoned refusal prioritising neutral maintenance over griefing.
+   codes: c0147 recruiting help to ruin the Bills logo; c0149 asking the room to keep r/place neutral and maintain instead of griefing
+   transitions: 6339vu:4>4.1
+
+== paydaytheheist-047  instantiate  [pending]  repairs 0  not carried
+   source t05 (working out borders and moves with neighbouring groups); lift paydaytheheist:t05 > T3-010 > T4-016 > D04
+   how: An invasion call receives a direct refusal that expresses a norm against the proposed conduct.
+   codes: c0107 calling to invade r/NASCAR; c0108 rejecting the call to invade
+   transitions: 636pk8:2>2.1
+
+== pcmasterrace-076  instantiate  [pending]  repairs 1  not carried
+   source t10 (negotiating with canvas neighbours); lift pcmasterrace:t10 > T3-010 > T4-016 > D04
+   how: An expansion call receives explicit warnings about covered neighbours and a reasoned refusal to damage others' work.
+   codes: c0908 calling everyone to expand PCMR territory and crush opposition while sparing goodwill artwork; c0910 warning that expansion would go over Snek, AMD, or pixel art and piss people off; c0914 telling PCMR to leave other people's work alone; c0915 urging defense of hardware and games instead of expansion
+   transitions: 634oxe:0>1, 634oxe:0>2
+
+== pebble-040  instantiate  [pending]  repairs 1  not carried
+   source t02 (fighting over changing Kebble into Pebble); lift pebble:t02 > T3-068 > T4-020 > D08
+   how: An attack declaration receives an internal objection that disrespect makes the room look bad.
+   codes: c0018 declaring war after being asked not to alter the sign; c0019 warning that disrespectful pixel changes make the community look bad
+   transitions: 62vhrt:2.1>2.1.2
+
+== philippines-057  instantiate  [pending]  repairs 0  not carried
+   source t08 (making deals and repairs with canvas neighbours); lift philippines:t08 > T3-010 > T4-016 > D04
+   how: An attack invitation receives a reasoned refusal grounded in a rebuilding agreement.
+   codes: c0210 asking the Philippines to help destroy OSU; c0211 refusing to interfere because OSU agreed to help rebuild the flag
+   transitions: 62xuio:0>1
+
+== physical_removal-055  instantiate  [pending]  repairs 1  not carried
+   source t05 (working with neighbors and outside help); lift physical_removal:t05 > T3-072 > T4-017 > D04
+   how: A question proposing to cover the rainbow receives a reasoned refusal, while another branch redirects expansion against an ideological enemy.
+   codes: c0035 asking whether to go over the rainbow; c0036 keeping the rainbow for non-aggression because it protected the yellow buildup; c0048 telling expansion planners to avoid conflict; c0050 proposing putting r/Physical_Removal on top of the commies
+   transitions: 62v1hy:2>2.1, 62wvdw:4>4.1, 62wvdw:4.1>4.1.1
+
+== placeDE-046  instantiate  [pending]  repairs 1  not carried
+   source t04 (making deals and helping neighbours); lift placeDE:t04 > T3-010 > T4-016 > D04
+   how: Attack proposals receive refusals that give constructive work or avoiding provocation as reasons.
+   codes: c0031 rejecting preventive war for beer and Belgian friendship; c0279 preferring flag art over fighting 4chan
+
+== placecanada-057  instantiate  [pending]  repairs 1  not carried
+   source t05 (making deals and spending pixels for neighbours); lift placecanada:t05 > T3-010 > T4-016 > D04
+   relation: 1G
+   how: A proposal to pounce receives an explicit refusal because the neighbouring work is already under attack from another streamer.
+   codes: c0106 proposing to pounce on newly opened space; c0107 refusing to attack Summit 1G while it is under attack
+   transitions: 6327j0:0>1
+
+== placestart-051  instantiate  [pending]  repairs 1  not carried
+   source t11 (mocking, condemning, and resisting the taskbar); lift placestart:t11 > T3-046 > T4-015 > D04
+   how: A destruction call directly receives a refusal justified by the shared task of creating rather than destroying.
+   codes: c0082 calling for destruction of the Destiny 2 logo; c0117 answering a destruction call with a rule to create
+   transitions: 62zj42:0>1
+
+== planetside-061  instantiate  [pending]  repairs 1  not carried
+   source t08 (choosing and starting a PlanetSide drawing); lift planetside:t08 > T3-020 > T4-014 > D04
+   how: The report of converting a neighbor's text receives a refusal that explicitly defends the neighbor's right to remain.
+   codes: c0049 modifying r/Polandball text because it is close to r/planetside; c0053 asking them not to overwrite Polandball and proposing a Blue Corner logo
+   transitions: 62xeuo:1>1.2
+
+== poland-044  instantiate  [pending]  repairs 1  not carried
+   source t03 (working out who may draw where); lift poland:t03 > T3-010 > T4-016 > D04
+   how: An expansion call over a neighbour receives a reasoned instruction to stop because an alliance already exists.
+   codes: c0061 calling to expand south over FRC; c0062 enforcing the FRC alliance
+   transitions: 630id8:0>1
+
+== polska-059  instantiate  [pending]  repairs 1  not carried
+   source t02 (working out how to share the canvas with neighbours); lift polska:t02 > T3-010 > T4-016 > D04
+   how: Attack proposals receive both a bare refusal with a chat invite and a reasoned appeal to joint defence.
+   codes: c0066 proposing shortening the snake and eating r/soglent; c0067 refusing the attack and giving a Discord invite; c0109 proposing an attack because it will be funnier; c0110 arguing for staying together to repel the void
+   transitions: 62zff8:0>1, 635d5w:1>1.1
+
+== portugal-087  instantiate  [pending]  repairs 1  not carried
+   source t17 (deciding whether to attack neighbouring flags); lift portugal:t17 > T3-006 > T4-020 > D08
+   how: An attack call is directly refused with a reason about maintenance costs and leaving a noninterfering neighbour alone.
+   codes: c0076 calling to stop the Spanish flag; c0077 answering that the Spanish neighbours should be left alone
+   transitions: 62ttad:0>1
+
+== predators-056  instantiate  [pending]  repairs 0  not carried
+   source t09 (making peace and drawing boundaries with neighbours); lift predators:t09 > T3-149 > T4-016 > D04
+   how: A takedown proposal receives replies that refuse it by invoking wasted pixels and opposition to vandalism.
+   codes: c0067 recruiting other hockey subs for a takedown and signed logos; c0068 warning that attacking would waste both sides' pixels; c0070 refocusing on keeping their own logo without angering another sub
+   transitions: 633eah:0>1, 633eah:0>2
+
+== prequelmemes-067  instantiate  [pending]  repairs 1  not carried
+   source t08 (working out borders, truces, and neighbours); lift prequelmemes:t08 > T3-010 > T4-016 > D04
+   how: An aggressive instruction receives a brigading objection and its author explicitly acknowledges making a correction.
+   codes: c0566 ordering PrequelMemes to catch r/place attackers off balance and show no mercy; c0567 asking whether attacking the other subreddit is brigading; c0568 saying meme posting twisted his mind and claiming he fixed it
+   transitions: 636gsq:1>1.1, 636gsq:1.1>1.1.1
+
+== prequelmemes-068  instantiate  [pending]  repairs 1  not carried
+   source t08 (working out borders, truces, and neighbours); lift prequelmemes:t08 > T3-010 > T4-016 > D04
+   how: An insulting-slogan proposal receives a refusal justified by its potential harm to the room's reputation.
+   codes: c0274 proposing writing sequel memes succ under the Tragedy; c0275 arguing that taunting sequel memes would reflect badly on the community
+   transitions: 62wwt3:1.1>1.1.1
+
+== purdue-056  instantiate  [pending]  repairs 1  not carried
+   source t09 (saying not to attack neighbors who helped); lift purdue:t09 > T3-076 > T4-015 > D04
+   how: An attack call receives both bare refusals and refusals explicitly grounded in prior cooperation and expected retaliation.
+   codes: c0140 turning basketball rivalry into a call to take Illinois on r/place; c0141 flatly rejecting the Illinois attack; c0142 calling the Illinois attack a terrible idea; c0143 arguing mutual noninterference protects Purdue; c0144 rejecting an attack because Illinois worked with Purdue
+   transitions: 62wk2c:0>1, 62wk2c:0>3, 62wk2c:0>4
+
+== purplecorner-058  instantiate  [pending]  repairs 1  not carried
+   source t05 (working out which art to spare); lift purplecorner:t05 > T3-024 > T4-015 > D04
+   how: A call to consume all art receives a direct policy correction, then an explicit practical rationale for leaving existing art alone.
+   codes: c0027 arguing that purple should consume all pixel art; c0086 saying the corner is leaving pixel art alone; c0087 questioning why anyone would join without separate ideals; c0088 deferring policy while using the tree as covered ground
+   transitions: 62qwbt:0>1, 62qwbt:1>1.1, 62qwbt:1.1>1.1.1
+
+== quebec-063  instantiate  [pending]  repairs 0  not carried
+   source t04 (making room, trading help, and respecting neighbours); lift quebec:t04 > T3-010 > T4-016 > D04
+   how: A warning that damaging others diverts effort from defence receives an agreement to concentrate on repair.
+   codes: c0027 prévenant que nuire à leur drapeau détourne de la défense du leur; c0028 répondant de réparer aussi vite qu’ils attaquent pour les décourager
+   transitions: 62pfeu:1.1.1.1.2.1>1.1.1.1.2.1.1
+
+== re_zero-044  instantiate  [pending]  repairs 1  not carried
+   source t05 (working out how to live beside neighbouring pictures); lift re_zero:t05 > T3-010 > T4-016 > D04
+   how: The same member withdraws a proposed alteration upon recognising the neighbouring work's makers.
+   codes: c0027 proposing changing Flat is #1 into Felt is #1; c0028 dropping the Felt change after identifying its makers
+
+== reddevils-061  instantiate  [pending]  repairs 1  not carried
+   source t17 (arguing whether attacking other logos is fair play); lift reddevils:t17 > T3-046 > T4-015 > D04
+   how: An admission of griefing received an explicit objection to sabotaging anyone's work, providing a reasoned refusal.
+   codes: c0140 trying to grief the Chelsea logo; c0148 questioning why anyone would sabotage someone else's work
+   transitions: 632npe:2>2.1
+
+== redvsblue-050  instantiate  [pending]  repairs 1  not carried
+   source t02 (making room without messing with other people's art); lift redvsblue:t02 > T3-010 > T4-016 > D04
+   how: Replies to the conversion proposal invoke a compromise and a norm against damaging others' art.
+   codes: c0034 calling to turn the image blue below the Funhaus logo; c0035 relaying r/halo's half-blue compromise and defending the Chief; c0037 refusing to mess with other people's art
+   transitions: 63267c:0>1, 63267c:0>2
+
+== rickandmorty-048  instantiate  [pending]  repairs 0  not carried
+   source t07 (accepting, rejecting, and redirecting canvas proposals); lift rickandmorty:t07 > T3-004 > T4-006 > D02
+   how: A call to overwrite another group's words receives a reasoned refusal and a suggestion to use different space.
+   codes: c0357 calling to change asexual pride into szechuan sauce; c0358 calling the proposed overwrite a dick move; c0359 suggesting putting the sauce somewhere else
+   transitions: 633g03:0>1, 633g03:0>2
+
+== ripcity-059  instantiate  [pending]  repairs 1  not carried
+   source t05 (arguing over raids and rival fans); lift ripcity:t05 > T3-006 > T4-020 > D08
+   how: An attack proposal receives direct refusals explaining the danger to the home logo and the opportunity cost of diverting defensive turns.
+   codes: c0150 asking for a coordinated red attack on the Lakers logo; c0151 refusing a war that could mess up their logo; c0152 spending every turn defending instead of sabotaging
+   transitions: 633mij:4>4.1, 633mij:4>4.2
+
+== rocketleague-059  instantiate  [pending]  repairs 0  not carried
+   source t05 (making deals and swapping help with canvas neighbours); lift rocketleague:t05 > T3-195 > T4-016 > D04
+   how: An explicit call to remove the rainbow receives a reminder to leave it under the agreement.
+   codes: c0591 calling everyone to get rid of the rainbow; c0592 invoking the rainbowroad agreement to stop its removal
+   transitions: 6307ec:0>1
+
+== roosterteeth-055  instantiate  [pending]  repairs 0  not carried
+   source t08 (condemning Nazi symbols and refusing to vandalise related art); lift roosterteeth:t08 > T3-146 > T4-024 > D05
+   how: A swastika proposal directly receives reasoned refusals invoking bad taste and shared vulnerability to vandalism.
+   codes: c0218 proposing to turn the FH logo into a swastika; c0220 calling the repeated vandalism request bad taste and saying no; c0221 arguing not to vandalise art from the same RT umbrella
+   transitions: 637hyx:0>2, 637hyx:0>3
+
+== rotmg-065  instantiate  [pending]  repairs 1  not carried
+   source t04 (starting again after the work is lost); lift rotmg:t04 > T3-022 > T4-014 > D04
+   how: A proposal to cover a rival's art receives a reasoned feasibility refusal from a member of the room.
+   codes: c0171 saying they cannot compete with Rocket League
+
+== rpi-054  instantiate  [pending]  repairs 0  not carried
+   source t03 (turning WPI's W into RPI's R and arguing over it); lift rpi:t03 > T3-050 > T4-021 > D08
+   relation: WPI
+   how: A renewed call to erase the former target receives a direct redirect toward the current build and another reply defending the target's cooperation.
+   codes: c0093 calling again to erase WPI after making RPI's mark; c0094 redirecting renewed attack talk to running the current bot; c0096 defending WPI as cooperative and blaming Purdue
+   transitions: 6343xn:10>10.1, 6343xn:10>10.2
+
+== russia-057  instantiate  [pending]  repairs 0  not carried
+   source t06 (saying they are too few and have zero coordination); lift russia:t06 > T3-136 > T4-012 > D01
+   how: A proposed flag conversion receives an answer citing insufficient hands to troll anyone.
+   codes: c0042 proposing turning the transgender flag into a Russian flag; c0043 saying there are too few Russians on Reddit to troll because they can barely make a flag
+   transitions: 62v49g:0>1
+
+== samuraijack-052  instantiate  [pending]  repairs 0  not carried
+   source t17 (turning down a subreddit war); lift samuraijack:t17 > T3-076 > T4-015 > D04
+   how: A replacement call receives a reasoned refusal distinguishing unrelated workers from the source of the grievance.
+   codes: c0228 proposing to replace Rick with Jack in r/place; c0229 asking for civility instead of a subreddit war
+   transitions: 631h3b:0>1
+
+== satania-051  instantiate  [pending]  repairs 0  not carried
+   source t04 (asking neighbours before covering their work); lift satania:t04 > T3-010 > T4-016 > D04
+   how: A call to finish over the bear receives an explicit refusal justified by feared pixel revenge.
+   codes: c0065 arguing the bear can be covered as an in-game joke; c0066 warning more covering will lead to pixel revenge
+   transitions: 62xhqm:4>4.1
+
+== scotland-049  instantiate  [pending]  repairs 0  not carried
+   source t02 (arguing over turning the Union Jack into a Saltire); lift scotland:t02 > T3-068 > T4-020 > D08
+   how: A takeover call receives an explicit preference for repairing their own white diagonals first.
+   codes: c0080 calling to take over the Brits in r/place; c0081 preferring to sort their own white diagonals first
+   transitions: 62wijt:0>1
+
+== skyrim-046  instantiate  [pending]  repairs 0  not carried
+   source t04 (working out borders and compromises with neighbors); lift skyrim:t04 > T3-010 > T4-016 > D04
+   how: An attack proposal receives reasons for restraint and the proposer explicitly withdraws the attack.
+   codes: c0105 proposing an attack on Tesla after beating out the lattice; c0106 answering that Tesla was there first; c0107 contacting Tesla organizers about rogue widening; c0108 dropping the Tesla attack and sticking to maintenance
+   transitions: 633pca:9>9.1, 633pca:9.1>9.1.1, 633pca:9.1.1>9.1.1.1
+
+== slovenia-046  instantiate  [pending]  repairs 1  not carried
+   source t04 (arguing where their pixels should stop); lift slovenia:t04 > T3-024 > T4-015 > D04
+   relation: slovakia
+   how: Conversion proposals receive direct refusals citing cannibalism or the cost of further angering neighbours.
+   codes: c0005 asking for coordinates while weighing changing the Slovak flag; c0006 opposing changing the Slovak flag because people there are already angry; c0014 calling to convert the Slovak flag into the Slovenian flag; c0015 rejecting conversion as cannibalism
+   transitions: 62rhlf:1.1>1.1.1, 62wxks:0>1
+
+== smite-037  instantiate  [pending]  repairs 1  not carried
+   source t08 (making peace and trading help with canvas neighbours); lift smite:t08 > T3-151 > T4-017 > D04
+   how: The conversion proposal receives a direct refusal justified by the wish not to become vandals.
+   codes: c0306 proposing changing R/Furry into R/Fenrir; c0307 refusing to become vandals while laughing at furby changes
+   transitions: 63279d:0>1
+
+== sonicthehedgehog-046  instantiate  [pending]  repairs 1  not carried
+   source t09 (arguing whether to attack or rebuild); lift sonicthehedgehog:t09 > T3-006 > T4-020 > D08
+   how: The attack proposal receives a reasoned refusal that calls the banner attack futile and substitutes rebuilding.
+   codes: c0031 calling Columbia to attack the Blue Corner banner together; c0032 rejecting an attack and insisting on rebuilding
+   transitions: 6367iw:2>2.1
+
+== sooners-020  instantiate  [pending]  repairs 0  not carried
+   source t04 (arguing over taking someone else's logo); lift sooners:t04 > T3-046 > T4-015 > D04
+   how: A defense of takeover as competition receives an explicit refusal and the evaluation that it is not cool.
+   codes: c0030 calling the takeover competition; c0031 asking fellow OU students not to do this
+   transitions: 633xqy:2.1.1.1>2.1.1.1.1
+
+== southafrica-056  instantiate  [pending]  repairs 1  not carried
+   source t04 (bargaining for space and trading help with neighbouring flags); lift southafrica:t04 > T3-010 > T4-016 > D04
+   relation: brasil
+   how: A direct reply rejects an attack proposal because attacking earlier helpers would be wrong.
+   codes: c0133 rejecting an attack on Brazil because Brazil helped build theirs
+
+== spain-044  instantiate  [pending]  repairs 1  not carried  NONPORTABLE ['portugal']
+   source t02 (launching takeovers and looking for enough force); lift spain:t02 > T3-061 > T4-020 > D08
+   how: The call to write a taunt on Portugal's flag receives a refusal that disputes the taunt's premise.
+   codes: c0063 proposing Espana es tu papa on Portugals flag; c0064 rejecting the Portugal taunt
+   transitions: 635vnl:0>1
+
+== starcitizen-062  instantiate  [pending]  repairs 1  not carried
+   source t11 (Negotiating and defending shared space with neighboring communities); lift starcitizen:t11 > T3-150 > T4-018 > D04
+   how: A reply refused proposed replacement of another logo with a reason about becoming a target of hate.
+   codes: c0235 refusing to replace osu to avoid becoming the focus of hate
+
+== starcraft-056  instantiate  [pending]  repairs 0  not carried
+   source t12 (arguing over spreading creep across other work); lift starcraft:t12 > T3-046 > T4-015 > D04
+   how: The creep proposal receives objections about overwriting other projects, retaliation risk, and the difference between the proposer's fun and harm to neighbors.
+   codes: c0181 calling for a baddie faction to build a Creep colony and spread creep; c0184 rejecting spreading paint over everyone else's work; c0186 warning that karma goes both ways; c0187 calling the proposed overwriting all in good fun; c0188 refusing to compromise the SC2 logo by pissing off the community; c0189 calling painting over communities a major dick move
+   transitions: 637k9a:0>3, 637k9a:4>4.1, 637k9a:4.1>4.1.1
+
+== startrek-056  instantiate  [pending]  repairs 0  not carried
+   source t14 (working around neighbours who occupy the pixels); lift startrek:t14 > T3-024 > T4-015 > D04
+   how: The attack proposal receives a cost-based refusal that explicitly names an unwinnable war.
+   codes: c0093 proposing to void the big red Star Wars text and replace it with an Enterprise; c0094 warning against a war with r/prequelmemes and r/starwars that they cannot win
+   transitions: 631ud7:0>1
+
+== starvstheforcesofevil-060  instantiate  [pending]  repairs 0  not carried
+   source t03 (working out room with canvas neighbours); lift starvstheforcesofevil:t03 > T3-010 > T4-016 > D04
+   how: An erasure proposal is directly refused because retaliation could destroy the host's picture, with restoration offered instead.
+   codes: c0095 proposing destroying Charmander while its builders sleep; c0096 rejecting attack for fear of retaliation and choosing to clean up Charmander
+   transitions: 62xt69:1.1>1.1.1
+
+== stevenuniverse-060  instantiate  [pending]  repairs 1  not carried
+   source t05 (Working out borders, truces, and shared space); lift stevenuniverse:t05 > T3-010 > T4-016 > D04
+   how: A proposal to convert another group's mark received a reasoned refusal to destroy others' work.
+   codes: c0327 proposing turning the damaged OSU logo into Steven's shield; c0330 rejecting destruction because they already have a corner
+   transitions: 631doy:0>2
+
+== stlouis-056  instantiate  [pending]  repairs 1  not carried
+   source t05 (keeping the Blue Note and its neighbours alive together); lift stlouis:t05 > T3-076 > T4-015 > D04
+   how: Attack calls receive reasons for restraint, including reported prior claims and a preference for positive pixel work.
+   codes: c0020 rallying people to go after the hat; c0021 relaying a message to leave the earlier wizard in place; c0022 regretting the hat attack by feeling like a Cubs fan; c0044 pressing ahead with the skyline despite the ceasefire; c0045 preferring positive pixel work to constantly canceling someone else out; c0046 accepting the case for leaving the shared design alone; c0054 calling for removing the Cubs logo for good; c0055 arguing that r/place sprites should bond
+   transitions: 62xl9k:5>5.1, 631gvs:5.1.1>5.1.1.1, 631gvs:5.1.1.1>5.1.1.1.1, 633vmt:3>3.1
+
+== stlouisblues-064  instantiate  [pending]  repairs 0  not carried
+   source t04 (attacking rival pictures and arguing over restraint); lift stlouisblues:t04 > T3-006 > T4-020 > D08
+   how: A direct reply refuses a rival attack and explains that maintaining the home mark matters more.
+   codes: c0090 proposing writing Fuck the hawks over the Hawks logo; c0091 refusing the Hawks attack to maintain the Note instead
+   transitions: 633j98:0>1
+
+== strangerthings-047  instantiate  [pending]  repairs 0  not carried
+   source t08 (pushing back on the canvas work and competing pictures); lift strangerthings:t08 > T3-052 > T4-003 > D01
+   how: A proposed alteration received a bare refusal, showing restraint without a reason in one local exchange rather than testing the model's usual reply pattern.
+   codes: c0086 proposing an Eleven haircut for the neighboring figure; c0093 rejecting the proposed Eleven haircut
+   transitions: 6324qg:5>5.1
+
+== straya-052  instantiate  [pending]  repairs 1  not carried
+   source t09 (owning mistakes and trying to put them right); lift straya:t09 > T3-040 > T4-015 > D04
+   how: A call to squash the bug receives a refusal that cites the room's breach and redirects effort toward rebuilding and its own logo.
+   codes: c0048 admitting breaching the agreement and telling people to let the beetle rebuild
+
+== suomi-046  instantiate  [pending]  repairs 1  not carried
+   source t10 (making peace and mutual-defence deals); lift suomi:t10 > T3-010 > T4-016 > D04
+   how: A participant explicitly withdraws from the Bears attack after viewing its subreddit and endorses diplomacy.
+   codes: c0174 withdrawing from the Bears attack in favor of diplomacy
+
+== survivor-044  instantiate  [pending]  repairs 1  not carried
+   source t13 (negotiating and moving around neighbouring marks); lift survivor:t13 > T3-010 > T4-016 > D04
+   relation: frankocean
+   how: A hostile proposal receives a refusal grounded in protecting the existing space and avoiding further neighbour conflict.
+   codes: c0253 proposing to give Frank Ocean the tribe-has-spoken treatment; c0255 defending the green stripe while arguing against defiling a neighbour; c0266 abandoning the torch to maintain what they have
+   transitions: 635hik:0>2, 635hik:2>2.2
