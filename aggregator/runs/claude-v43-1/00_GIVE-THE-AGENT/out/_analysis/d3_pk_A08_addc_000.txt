@@ -1,0 +1,65 @@
+A08: 12 lines in all (op add-condition); packet [0, 12): 12 lines; carried through no third-order tier
+ops in the packet: {'add-condition': 12}
+
+== GrowTheTree-044  add-condition  [pending]  repairs 1  not carried
+   source t05 (celebrating, thanking, remembering, and mourning the tree); lift GrowTheTree:t05 > T3-009 > T4-026 > D07
+   how: Completion-led remembrance is only one route, since mourning an endangered work already occurs before the later survival celebration.
+   codes: c0019 mourning what looks like the end of the tree; c0053 celebrating that the tree survives; c0057 remembering the apples
+
+== danganronpa-051  add-condition  [pending]  repairs 0  not carried
+   source t04 (reporting a Discord-made Monokuma back to Reddit); lift danganronpa:t04 > T3-152 > T4-010 > D02
+   how: Anticipated erasure can motivate screenshots early in building, so preservation need not be a terminal stage caused by celebration.
+   codes: c0013 recounting a Discord group deciding to make Monokuma on r/place; c0016 keeping screenshots in case the blue corner or griefers take Monokuma over
+
+== dwarffortress-051  add-condition  [pending]  repairs 1  not carried
+   source t11 (thanking, celebrating, and recounting what they made); lift dwarffortress:t11 > T3-073 > T4-027 > D07
+   how: Treat recording as concurrent with construction when a timelapse is shared before later pieces are complete.
+   codes: c0100 sharing a timelapse where both DF projects appear; c0155 announcing completion of the ally-pattern dwarf
+
+== kindafunny-023  add-condition  [pending]  repairs 1  not carried
+   source t06 (shouting out and cheering what the mark became); lift kindafunny:t06 > T3-009 > T4-026 > D07
+   how: Celebration and fate reporting can occupy the same turn, without demonstrating that marking causes a distinct subsequent preservation activity.
+   codes: c0024 marking the ended place as permanent and celebrating an almost-intact mark
+
+== naruto-041  add-condition  [pending]  repairs 1  not carried
+   source t06 (celebrating the build and making sense of Hakuto); lift naruto:t06 > T3-009 > T4-026 > D07
+   how: A successful-defense announcement gives way to mourning when abrupt closure makes the later damage permanent, supplying a mechanism beyond celebration alone.
+   codes: c0181 announcing a successful defense; c0183 mourning Hakuto; c0184 recounting being forever stuck with Hakuto after looking away; c0198 explaining the unfixed Hakuto ending and a morning rebuilding the leaf
+   transitions: 637kr9:0>2, 637kr9:2>2.1
+
+== newzealand-043  add-condition  [pending]  repairs 1  not carried
+   source t02 (celebrating, showing, and remembering the work); lift newzealand:t02 > T3-009 > T4-026 > D07
+   how: Celebration and image preservation coexist but these excerpts do not establish celebration as the cause of recording.
+   codes: c0202 celebrating that we did it; c0177 sharing a timelapse of the flag battle; c0435 sharing the final version of r/place
+
+== pokemon-063  add-condition  [pending]  repairs 2  not carried
+   source t05 (Spotting and remembering what the canvas held); lift pokemon:t05 > T3-112 > T4-027 > D07
+   how: Recording and collective credit can be combined in one catalogue rather than appearing as distinct ordered stages.
+   codes: c0506 making a list of Pokémon sprites on the final canvas; c0507 inviting additions while looking back at art the community made; c0512 claiming a hand in the listed Treecko
+   transitions: 63a7ot:0>4
+
+== rhythmheaven-050  add-condition  [pending]  repairs 1  not carried
+   source t08 (celebrating that Play-Yan is finished); lift rhythmheaven:t08 > T3-009 > T4-026 > D07
+   how: Anticipated destruction can motivate screenshots alongside celebration without establishing celebration as the only preservation motive.
+   codes: c0043 thanking people after joining a first active project; c0044 taking screenshots before inevitable destruction
+
+== samuraijack-044  add-condition  [pending]  repairs 0  not carried
+   source t20 (showing how Aku changed); lift samuraijack:t20 > T3-105 > T4-027 > D07
+   how: Documentation and credit can occur in the same contribution without showing that celebration caused recording.
+   codes: c0226 taking progress shots as Aku changed; c0227 thanking everybody who took part
+
+== stardewvalley-055  add-condition  [pending]  repairs 1  not carried
+   source t10 (mourning pictures that disappeared); lift stardewvalley:t10 > T3-029 > T4-027 > D07
+   how: Recording loss can occur without a preceding celebration of a surviving finished work.
+   codes: c0053 recounting Estonia taking over the ancient fruit; c0054 mourning the lost starfruit
+   transitions: 62yyql:1.1>1.1.1
+
+== uofm-046  add-condition  [pending]  repairs 0  not carried
+   source t01 (making and remaking the Block M and GO BLUE); lift uofm:t01 > T3-004 > T4-006 > D02
+   how: Recording can be anticipated during construction rather than beginning only after completion and celebration.
+   codes: c0003 adding to the M and asking for a finished snapshot; c0005 going bigger by adding GO BLUE from a template
+
+== wildhockey-054  add-condition  [pending]  repairs 0  not carried
+   source t08 (calling survival a win and thanking the people who helped); lift wildhockey:t08 > T3-009 > T4-026 > D07
+   how: Celebrating and recording can be simultaneous within a single victory passage rather than necessarily distinct successive stages.
+   codes: c0165 declaring victory when r/place ended and sharing the record
