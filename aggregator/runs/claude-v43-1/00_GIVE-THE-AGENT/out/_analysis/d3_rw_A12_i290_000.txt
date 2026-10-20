@@ -1,0 +1,599 @@
+A12 page offset 290: 100 instantiate lines; printing 0 to 50 in the verb's order
+
+[0] coldplay-050   instantiate   t01            T3-002 > T4-005 > D01  pending    A bare promise of help answers the project proposal and receives a direct acknowledgement…  [c0001,c0002,c0004,c0005]
+   "I will start with the top left pixel at (0,563)."  [coldplay/c0001]  item 62ts1s  thread 62ts1s  h+24.56  TurboSquid719  t01 calling people in to help build the albums
+   "Come on guys I feel like I'm the only one working on this!"  [coldplay/c0002]  item 62ts1s  thread 62ts1s  h+24.56  TurboSquid719  t01 calling people in to help build the albums
+   "I'll do my best to help!"  [coldplay/c0004]  item dfp54r5  thread 62ts1s  h+25.26  gamedemon24  t01 calling people in to help build the albums
+   "Thanks!"  [coldplay/c0005]  item dfp55r7  thread 62ts1s  h+25.27  TurboSquid719  t01 calling people in to help build the albums
+
+  -- reply context
+  c0001 h+24.56 thread 62ts1s path 0 (TurboSquid719)  [one item with c0002, same author as c0005]
+      parent: none
+  c0002 h+24.56 thread 62ts1s path 0 (TurboSquid719)  [one item with c0001, same author as c0005]
+      parent: none
+  c0004 h+25.26 thread 62ts1s path 1 (gamedemon24)  [replies under c0001, replies under c0002]
+      parent: 0 (TurboSquid719) c0001 starting X&Y from its top-left pixel; c0002 calling for help when working alone; c0003 moving the X&Y build to a new location
+      submission: 0 (TurboSquid719) c0001 starting X&Y from its top-left pixel; c0002 calling for help when working alone; c0003 moving the X&Y build to a new location
+  c0005 h+25.27 thread 62ts1s path 1.1 (TurboSquid719)  [same author as c0001 (under), same author as c0002 (under), replies under c0004]
+      parent: 1 (gamedemon24) c0004 promising to help with X&Y
+
+[1] colombia-004   instantiate   t02            T3-056 > T4-018 > D04  pending    A short participation report directly answers a push-right call without establishing obli…  [c0017,c0018]
+   "Push Right / Empuje al la derecha"  [colombia/c0017]  item 62x4wq  thread 62x4wq  h+34.02  SancochoJohnson  t01 building and repairing Colombia's flag
+   "Acá un venezolano ayudando con el push right :)"  [colombia/c0018]  item dfpu163  thread 62x4wq  h+35.91  Doubtless6  t02 joining Colombia, Venezuela and Ecuador in one lo…
+
+  -- reply context
+  c0017 h+34.02 thread 62x4wq path 0 (SancochoJohnson)
+      parent: none
+  c0018 h+35.91 thread 62x4wq path 1 (Doubtless6)  [replies under c0017]
+      parent: 0 (SancochoJohnson) c0017 telling people to push right
+      submission: 0 (SancochoJohnson) c0017 telling people to push right
+
+[2] colorado-022   instantiate   t01            T3-065 > T4-006 > D02  pending    A recruitment call receives an offer of pixels accompanied by reasons for another flag, s…  [c0009,c0010]
+   "Come help out a CO flag on /r/place!"  [colorado/c0009]  item 62y71z  thread 62y71z  h+38.21  WhyDoIRedditSoMuch  t01 calling for pixels to build and expand Colorado f…
+   "There's already two perfect CO flags, one at the top left of center, and one right-center, next to the avocado farm. We also have the flag in a heart in the placehearts group. Do we need a fourth Colorado flag? Yes. Yes we do. You shall have my pixels."  [colorado/c0010]  item dfq00g9  thread 62y71z  h+39.78  TheBiggestZander  t01 calling for pixels to build and expand Colorado f…
+
+  -- reply context
+  c0009 h+38.21 thread 62y71z path 0 (WhyDoIRedditSoMuch)
+      parent: none
+  c0010 h+39.78 thread 62y71z path 1 (TheBiggestZander)  [replies under c0009]
+      parent: 0 (WhyDoIRedditSoMuch) c0009 calling people to help a CO flag
+      submission: 0 (WhyDoIRedditSoMuch) c0009 calling people to help a CO flag
+
+[3] corridor-057   instantiate   t05            T3-004 > T4-006 > D02  pending    The simplified plan receives a bare assent, supporting a proposal-acceptance pair without…  [c0022,c0023]
+   "I suggest we do just a black C and D so we don't need to think about the background. It still works with our colour scheme."  [corridor/c0022]  item dfrm3kq  thread 631mjv  h+67.97  Gingermushrooms  t05 shrinking the design and building it together
+   "sounds good!"  [corridor/c0023]  item dfrmd5u  thread 631mjv  h+68.12  WanderingStag  t05 shrinking the design and building it together
+
+  -- reply context
+  c0022 h+67.97 thread 631mjv path 3.1 (Gingermushrooms)
+      parent: 3 (WanderingStag) c0020 proposing an orange spot without knowing who owns it
+      submission: 0 (Gingermushrooms) c0001 calling to make a Corridor logo on r/place
+  c0023 h+68.12 thread 631mjv path 3.1.1 (WanderingStag)  [replies under c0022]
+      parent: 3.1 (Gingermushrooms) c0021 giving the orange spot a go despite fearing the void will return; c0022 simplifying the logo to a black C and D on the existing background
+
+[4] costa_rica-042 instantiate   t01            T3-065 > T4-006 > D02  pending    The lettering proposal receives a bare joining reply, supporting visible acceptance witho…  [c0055,c0059]
+   "Let's add it our motto, "Pura Vida", 6 pixels high each letter. I'm beginning with the first pixel of the "P""  [costa_rica/c0055]  item 634sh9  thread 634sh9  h+61.25  kennethac89  t01 building flags, hearts, words and a coffee bean p…
+   "Me uno! jajaja"  [costa_rica/c0059]  item dfrdbc6  thread 634sh9  h+61.58  99tulio  t01 building flags, hearts, words and a coffee bean p…
+
+  -- reply context
+  c0055 h+61.25 thread 634sh9 path 0 (kennethac89)
+      parent: none
+  c0059 h+61.58 thread 634sh9 path 3 (99tulio)  [replies under c0055]
+      parent: 0 (kennethac89) c0055 starting six-pixel-high PURA VIDA lettering over the flag; c0056 writing the call in English so gringo ticolovers will help
+      submission: 0 (kennethac89) c0055 starting six-pixel-high PURA VIDA lettering over the flag; c0056 writing the call in English so gringo ticolovers will help
+
+[5] criticalrole-044 instantiate   t08            T3-010 > T4-016 > D04  pending    A request to seek outside help receives direct bare assent, supporting this acceptance pa…  [c0054,c0055]
+   "Should I go ask fir help from r/DnD"  [criticalrole/c0054]  item dfr1h4p  thread 6326x7  h+57.17  JesterEric  t08 negotiating room and trading help with neighbors
+   "Sure, I was thinking about that"  [criticalrole/c0055]  item dfr1jwj  thread 6326x7  h+57.20  StealthCop  t08 negotiating room and trading help with neighbors
+
+  -- reply context
+  c0054 h+57.17 thread 6326x7 path 7 (JesterEric)
+      parent: 0 (StealthCop) c0069 calling the completed build a journey
+      submission: 0 (StealthCop) c0069 calling the completed build a journey
+  c0055 h+57.20 thread 6326x7 path 7.1 (StealthCop)  [replies under c0054]
+      parent: 7 (JesterEric) c0054 offering to ask r/DnD for help
+
+[6] croatia-050    instantiate   t08            T3-010 > T4-016 > D04  pending    A rebuilding appeal receives a short acceptance without a request for return assistance.  [c0152,c0153]
+   "Please help rebuild him because we had to move due to your sign."  [croatia/c0152]  item 632389  thread 632389  h+52.64  freeyourthoughts  t08 Making truces and room for neighbouring pictures
+   "Sure, we will help."  [croatia/c0153]  item dfqot90  thread 632389  h+52.69  ContediSpalato  t08 Making truces and room for neighbouring pictures
+
+  -- reply context
+  c0152 h+52.64 thread 632389 path 0 (freeyourthoughts)
+      parent: none
+  c0153 h+52.69 thread 632389 path 1 (ContediSpalato)  [replies under c0152]
+      parent: 0 (freeyourthoughts) c0151 announcing Hulk's move down and right; c0152 asking Croatia to help rebuild Hulk after displacement by the sign
+      submission: 0 (freeyourthoughts) c0151 announcing Hulk's move down and right; c0152 asking Croatia to help rebuild Hulk after displacement by the sign
+
+[7] crusaderkings-040 instantiate   t01            T3-002 > T4-005 > D01  pending    A recruitment post receives a bare joining slogan after nine and a half minutes, supporti…  [c0002,c0003]
+   "Raise the levies, it's time to show our might! Let us march over to r/place and create this image! Over Area (437,111 exact location in comments)"  [crusaderkings/c0002]  item 62nbyl  thread 62nbyl  h+3.15  Technetium-43  t01 rallying pixel crusades and opening new fronts
+   "DEUS VULT!"  [crusaderkings/c0003]  item dfnvld0  thread 62nbyl  h+3.31  Camorune  t01 rallying pixel crusades and opening new fronts
+
+  -- reply context
+  c0002 h+3.15 thread 62nbyl path 0 (Technetium-43)
+      parent: none
+  c0003 h+3.31 thread 62nbyl path 1 (Camorune)  [replies under c0002]
+      parent: 0 (Technetium-43) c0002 raising the levies to march over and make the image
+      submission: 0 (Technetium-43) c0002 raising the levies to march over and make the image
+
+[8] cubers-003     instantiate   t03            T3-038 > T4-007 > D02  pending    Explains a bare join answering the starter's locating and building update.  [c0019,c0022]
+   "I've started it at 835, 500. The thing that currently looks like a black 17."  [cubers/c0019]  item dfo2vpg  thread 62ob4x  h+5.70  bluuit  t03 proposing, locating, and building the cube
+   "I'm in."  [cubers/c0022]  item dfo6iw5  thread 62ob4x  h+7.04  EquationTAKEN  t03 proposing, locating, and building the cube
+
+  -- reply context
+  c0019 h+5.70 thread 62ob4x path 1 (bluuit)
+      parent: 0 (bluuit) c0018 proposing a design to get r/cubers into r/place
+      submission: 0 (bluuit) c0018 proposing a design to get r/cubers into r/place
+  c0022 h+7.04 thread 62ob4x path 1.1 (EquationTAKEN)  [replies under c0019]
+      parent: 1 (bluuit) c0019 starting the design at 835, 500; c0020 directing people to the work in progress; c0021 celebrating completion and converting colors for the peace treaty
+
+[9] czech-005      instantiate   t01            T3-002 > T4-005 > D01  pending    The direct reply accepts a defense call with Roger that, without showing what silent read…  [c0050,c0051]
+   "Help me secure the northern border, some light blue folks are invading it, thanks."  [czech/c0050]  item dfq2usw  thread 62yo19  h+42.57  martinsuchan  t01 rallying people to build, repair and defend the f…
+   "Roger that."  [czech/c0051]  item dfq30p4  thread 62yo19  h+42.73  Goheeca  t01 rallying people to build, repair and defend the f…
+
+  -- reply context
+  c0050 h+42.57 thread 62yo19 path 9 (martinsuchan)
+      parent: 0 (Goheeca) c0037 proposing a flag plan
+      submission: 0 (Goheeca) c0037 proposing a flag plan
+  c0051 h+42.73 thread 62yo19 path 9.1 (Goheeca)  [replies under c0050]
+      parent: 9 (martinsuchan) c0050 asking for help securing the northern border
+
+[10] dankmemes-046  instantiate   t15            T3-002 > T4-005 > D01  pending    The coordinate-bearing call receives bare assent, supporting the proposed call-and-answer…  [c0530,c0531,c0633,c0636]
+   "bottom left: 500, 401, top right: 564, 467, 64 by 66 , get to work"  [dankmemes/c0530]  item 62zj4h  thread 62zj4h  h+45.12  Cleficate  t15 Building named drawings from coordinates and help…
+   "HOLY SHIT LETS DO IT"  [dankmemes/c0531]  item dfq8esf  thread 62zj4h  h+46.50  BraveReddit  t15 Building named drawings from coordinates and help…
+   "Help us build gnome child from the bottom left at (214, 97) on /r/place"  [dankmemes/c0633]  item 6356d9  thread 6356d9  h+62.94  larperdoodle  t15 Building named drawings from coordinates and help…
+   "Let's do it"  [dankmemes/c0636]  item dfrg6cb  thread 6356d9  h+63.40  Walt_D  t15 Building named drawings from coordinates and help…
+
+  -- reply context
+  c0530 h+45.12 thread 62zj4h path 0 (Cleficate)
+      parent: none
+  c0531 h+46.50 thread 62zj4h path 1 (BraveReddit)  [replies under c0530]
+      parent: 0 (Cleficate) c0530 giving corners, dimensions, and telling people to get to work
+      submission: 0 (Cleficate) c0530 giving corners, dimensions, and telling people to get to work
+  c0633 h+62.94 thread 6356d9 path 0 (larperdoodle)
+      parent: none
+  c0636 h+63.40 thread 6356d9 path 2 (Walt_D)  [replies under c0633]
+      parent: 0 (larperdoodle) c0633 asking people to build Gnome Child from the bottom left; c0634 coordinating the effort on the dankmemes Discord
+      submission: 0 (larperdoodle) c0633 asking people to build Gnome Child from the bottom left; c0634 coordinating the effort on the dankmemes Discord
+
+[11] darksouls-033  instantiate   t03            T3-014 > T4-010 > D02  pending    The invitation receives bare assent, supporting this written acceptance pair without test…  [c0011,c0012]
+   "I have solaire started (helm and 1 arm) at (280,18) if you could help!"  [darksouls/c0011]  item dfo5zng  thread 62op48  h+6.84  ydoowoody  t03 funneling helpers into a workable shared plan
+   "Would love to brother! Jolly cooperation!"  [darksouls/c0012]  item dfo61ng  thread 62op48  h+6.86  SgtSaucepan  t03 funneling helpers into a workable shared plan
+
+  -- reply context
+  c0011 h+6.84 thread 62op48 path 1 (ydoowoody)
+      parent: 0 (SgtSaucepan) c0010 calling to link the fire by making a bonfire at r/place
+      submission: 0 (SgtSaucepan) c0010 calling to link the fire by making a bonfire at r/place
+  c0012 h+6.86 thread 62op48 path 1.1 (SgtSaucepan)  [replies under c0011]
+      parent: 1 (ydoowoody) c0011 redirecting help to the started Solaire at (280,18)
+
+[12] dbz-056        instantiate   t04            T3-038 > T4-007 > D02  pending    A radar-building update receives a short first-pixel report, supporting a bare acceptance…  [c0111,c0112]
+   "we are in the process of building a dragon radar just above the green lattice"  [dbz/c0111]  item dfrl986  thread 6348mb  h+67.46  orodruinx  t04 building and policing the shared pixel design
+   "Cool! I just added my first pixel."  [dbz/c0112]  item dfrldn5  thread 6348mb  h+67.54  Funeralord  t04 building and policing the shared pixel design
+
+  -- reply context
+  c0111 h+67.46 thread 6348mb path 7.1.1.1.1.1.1.1 (orodruinx)
+      parent: 7.1.1.1.1.1.1 (Funeralord) na
+      submission: 0 (Nickolaus) c0093 replacing an overcrowded r/place thread with a new general thread; c0094 inviting tags for visible updates while joining work on Bender and Goku
+  c0112 h+67.54 thread 6348mb path 7.1.1.1.1.1.1.1.2 (Funeralord)  [replies under c0111]
+      parent: 7.1.1.1.1.1.1.1 (orodruinx) c0111 building a dragon radar above the green lattice
+
+[13] de-045         instantiate   t01            T3-070 > T4-008 > D02  pending    An appeal receives a bare acceptance, while the written exchange cannot test silent accep…  [c0123,c0125]
+   "Helft r/austria auf r/place aus der Poland Flagge in der linken oberen Ecke eine Österreich Flagge zu Machen!"  [de/c0123]  item 62rt0z  thread 62rt0z  h+17.82  TheDjogo  t05 bargaining over borders with neighbours
+   "Bin dabei."  [de/c0125]  item dforzo7  thread 62rt0z  h+18.41  BlitzBasic  t01 coordinating live pixel work
+
+  -- reply context
+  c0123 h+17.82 thread 62rt0z path 0 (TheDjogo)
+      parent: none
+  c0125 h+18.41 thread 62rt0z path 2 (BlitzBasic)  [replies under c0123]
+      parent: 0 (TheDjogo) c0123 calling on r/de to help r/austria turn the Poland flag into Austria
+      submission: 0 (TheDjogo) c0123 calling on r/de to help r/austria turn the Poland flag into Austria
+
+[14] denmark-058    instantiate   t01            T3-002 > T4-005 > D01  pending    An immediate bare acceptance directly answers practical guidance within the recruitment e…  [c0086,c0087,c0088]
+   "Hvordan deltager man, og hvad gør man?"  [denmark/c0086]  item dfp2z5j  thread 62szu3  h+24.40  TheHappyMoose  t01 calling people in and pointing them to the work
+   "her er linket til vores placering, du kan placere en pixel hvert 10 min"  [denmark/c0087]  item dfp3cao  thread 62szu3  h+24.54  QWaste  t01 calling people in and pointing them to the work
+   "Tak, jeg går i gang med det samme!"  [denmark/c0088]  item dfp3iot  thread 62szu3  h+24.62  TheHappyMoose  t01 calling people in and pointing them to the work
+
+  -- reply context
+  c0086 h+24.40 thread 62szu3 path 4 (TheHappyMoose)  [same author as c0088]
+      parent: 0 (QWaste) c0082 proposing taking Dannebrog back at six after Swedish vandalism
+      submission: 0 (QWaste) c0082 proposing taking Dannebrog back at six after Swedish vandalism
+  c0087 h+24.54 thread 62szu3 path 4.1 (QWaste)  [replies under c0086]
+      parent: 4 (TheHappyMoose) c0086 asking how to participate and what to do
+  c0088 h+24.62 thread 62szu3 path 4.1.1 (TheHappyMoose)  [same author as c0086 (under), replies under c0087]
+      parent: 4.1 (QWaste) c0087 giving the location and the ten-minute pixel rule
+
+[15] detroitlions-050 instantiate   t04            T3-038 > T4-007 > D02  pending    The direct help request receives a bare participation report, supporting the observable a…  [c0078,c0079]
+   "We're working on a helmet. Focus one at a time dawg. We need your help though"  [detroitlions/c0078]  item dfp33mg  thread 62s683  h+24.45  thallusphx  t05 finishing one picture before choosing the next
+   "I've been working on the helmet for the past few spots"  [detroitlions/c0079]  item dfp3cml  thread 62s683  h+24.55  Perry87  t04 building and cleaning up the helmet together
+
+  -- reply context
+  c0078 h+24.45 thread 62s683 path 3 (thallusphx)
+      parent: 0 ([deleted]) na
+      submission: 0 ([deleted]) na
+  c0079 h+24.55 thread 62s683 path 3.1 (Perry87)  [replies under c0078]
+      parent: 3 (thallusphx) c0078 asking for help while insisting on one r/place target at a time
+
+[16] detroitredwings-032 instantiate   t04            T3-028 > T4-009 > D02  pending    A recruitment exchange contains an explicit bare acceptance by running the shared script.  [c0078,c0080]
+   "Check out this script that we are using to make a LGRW on r/place."  [detroitredwings/c0078]  item dfppzdk  thread 62x3f1  h+33.98  EconMan  t04 regrouping with scripts when the first wheel fails
+   "alrighty. running the script"  [detroitredwings/c0080]  item dfpte6s  thread 62x3f1  h+35.58  Finnish_Jager  t04 regrouping with scripts when the first wheel fails
+
+  -- reply context
+  c0078 h+33.98 thread 62x3f1 path 1 (EconMan)
+      parent: 0 (OctoMod) na
+      submission: 0 (OctoMod) na
+  c0080 h+35.58 thread 62x3f1 path 1.1.1.1.1.1.1 (Finnish_Jager)  [replies under c0078]
+      parent: 1.1.1.1.1.1 (gracewings11) na
+
+[17] diablo-042     instantiate   t05            T3-002 > T4-005 > D01  pending    A direct call receives an unqualified written commitment, supporting the proposed call-an…  [c0007,c0012]
+   "HOTS is there. Overwatch too with Lucio and Pharah Sprites. Path of Exile too. Anyone willing to make it?"  [diablo/c0007]  item 633yfp  thread 633yfp  h+58.28  vikoy  t03 choosing what Diablo should draw
+   "Im in"  [diablo/c0012]  item dfr71km  thread 633yfp  h+59.01  Kurel  t05 calling for more people to build and guard
+
+  -- reply context
+  c0007 h+58.28 thread 633yfp path 0 (vikoy)
+      parent: none
+  c0012 h+59.01 thread 633yfp path 1 (Kurel)  [replies under c0007]
+      parent: 0 (vikoy) c0007 asking who will make a Diablo presence alongside other games; c0008 showing what the Diablo design could be; c0009 saying they lack a decent spot and the manpower; c0010 starting at coordinates and asking others to help; c0011 redirecting helpers to the official mod-approved thread
+      submission: 0 (vikoy) c0007 asking who will make a Diablo presence alongside other games; c0008 showing what the Diablo design could be; c0009 saying they lack a decent spot and the manpower; c0010 starting at coordinates and asking others to help; c0011 redirecting helpers to the official mod-approved thread
+
+[18] dmt-004        instantiate   t01            T3-002 > T4-005 > D01  pending    A direct instruction receives a bare joining response, supporting this pair without estab…  [c0003,c0004]
+   "we are focusing on making a black bg"  [dmt/c0003]  item dfom9gi  thread 62pquo  h+13.81  Fbulol  t01 rallying people to make and keep the LSD DMT embl…
+   "On it!"  [dmt/c0004]  item dfombf4  thread 62pquo  h+13.85  heathenethan  t01 rallying people to make and keep the LSD DMT embl…
+
+  -- reply context
+  c0003 h+13.81 thread 62pquo path 2 (Fbulol)
+      parent: 0 (Fbulol) c0001 focusing efforts on the LSD DMT r/place emblem
+      submission: 0 (Fbulol) c0001 focusing efforts on the LSD DMT r/place emblem
+  c0004 h+13.85 thread 62pquo path 2.1 (heathenethan)  [replies under c0003]
+      parent: 2 (Fbulol) c0003 focusing on making a black background
+
+[19] dofus-032      instantiate   t01            T3-033 > T4-006 > D02  pending    A proposal receives bare assent, supporting the observable answer pattern without establi…  [c0003,c0004]
+   "Below Ness, below the rainbow there's space with the beginnings of a small round green shape, which I hope we can turn into this: https://i.gyazo.com/b90be406fa1f0b6b669d639267cf0e27.png Let's make Dofus a small part of Reddit history! Thanks!"  [dofus/c0003]  item 62v8as  thread 62v8as  h+28.39  Snarklesparkles  t01 making the Dofus Emerald together
+   "I would love this"  [dofus/c0004]  item dfppeue  thread 62v8as  h+33.75  SirFerrett  t01 making the Dofus Emerald together
+
+  -- reply context
+  c0003 h+28.39 thread 62v8as path 0 (Snarklesparkles)
+      parent: none
+  c0004 h+33.75 thread 62v8as path 1 (SirFerrett)  [replies under c0003]
+      parent: 0 (Snarklesparkles) c0001 asking people not to disturb the girl next to the Dofus; c0002 cluing people in after starting a Dofus Emerald alone; c0003 pointing out the space and asking to make the Emerald part of Reddit history
+      submission: 0 (Snarklesparkles) c0001 asking people not to disturb the girl next to the Dofus; c0002 cluing people in after starting a Dofus Emerald alone; c0003 pointing out the space and asking to make the Emerald part of Reddit history
+
+[20] donaldglover-051 instantiate   t05            T3-033 > T4-006 > D02  pending    The BTI invitation receives a bare affirmative, while silent joining and the proposed pre…  [c0020,c0021]
+   "Anyone up for BTI on r/place?"  [donaldglover/c0020]  item 62u0w7  thread 62u0w7  h+25.19  suchshibeinu  t05 calling people into new canvas builds
+   "Yes!"  [donaldglover/c0021]  item dfp50p6  thread 62u0w7  h+25.21  pharos_atl  t05 calling people into new canvas builds
+
+  -- reply context
+  c0020 h+25.19 thread 62u0w7 path 0 (suchshibeinu)
+      parent: none
+  c0021 h+25.21 thread 62u0w7 path 1 (pharos_atl)  [replies under c0020]
+      parent: 0 (suchshibeinu) c0020 asking who is up for BTI on r/place
+      submission: 0 (suchshibeinu) c0020 asking who is up for BTI on r/place
+
+[21] dota2-007      instantiate   t03            T3-038 > T4-007 > D02  pending    The written invitation receives a bare participation report without establishing what sil…  [c0392,c0393]
+   "the r/place game is getting harder by the hour.. they keep restricting how often we can place pixels. we built the dota 2 logo at (322,322) though, join us"  [dota2/c0392]  item dforzim  thread 62rvwa  h+18.40  900_year_old_vampire  t03 Choosing, drawing, and enlarging Dota canvas art
+   "i did, i put one of the red dots on the dota 2 logo lol"  [dota2/c0393]  item dforzs8  thread 62rvwa  h+18.41  cdominic3  t03 Choosing, drawing, and enlarging Dota canvas art
+
+  -- reply context
+  c0392 h+18.40 thread 62rvwa path 1.1.1.1.1.1.1.1.1 (900_year_old_vampire)
+      parent: 1.1.1.1.1.1.1.1 (cdominic3) na
+      submission: 0 (cdominic3) na
+  c0393 h+18.41 thread 62rvwa path 1.1.1.1.1.1.1.1.1.1 (cdominic3)  [replies under c0392]
+      parent: 1.1.1.1.1.1.1.1.1 (900_year_old_vampire) c0392 inviting someone to join the Dota logo at 322,322
+
+[22] dragonquest-004 instantiate   t02            T3-005 > T4-013 > D03  pending    The watching request receives an explicit commitment, without establishing a general pref…  [c0003,c0004]
+   "I had issues with Waldo's cane vandalizing it, so if anyone can help keep an eye on it then I would greatly appreciate it."  [dragonquest/c0003]  item dfpitvb  thread 62w5q1  h+30.96  Twinkiman  t02 keeping an eye on slimes and repairing damaged pi…
+   "I'll keep an eye out on it for as long as I'm awake tonight."  [dragonquest/c0004]  item dfpjt1i  thread 62w5q1  h+31.38  Arekousu  t02 keeping an eye on slimes and repairing damaged pi…
+
+  -- reply context
+  c0003 h+30.96 thread 62w5q1 path 1 (Twinkiman)
+      parent: 0 (Arekousu) c0001 thanking everyone who contributed to placing it
+      submission: 0 (Arekousu) c0001 thanking everyone who contributed to placing it
+  c0004 h+31.38 thread 62w5q1 path 1.1 (Arekousu)  [replies under c0003]
+      parent: 1 (Twinkiman) c0002 saying several hours of work paid off; c0003 asking others to keep an eye on the slime after Waldo's cane vandalized it
+
+[23] drugs-006      instantiate   t13            T3-017 > - > -         pending    A meth-drawing call receives a reasoned refusal grounded in the respondent's intention to…  [c0096,c0097]
+   "TWEAKERS UNITE!! Time to draw meth on r/place"  [drugs/c0096]  item 62xrui  thread 62xrui  h+36.36  [deleted]  t02 drawing and redrawing molecules and the drug-name…
+   "No thanks, I've appreciated the sweet crystal far too much and after tonight I'm done for good"  [drugs/c0097]  item dfpxec0  thread 62xrui  h+37.83  superzepto  t13 using canvas drug art to talk about drug lives
+
+  -- reply context
+  c0096 h+36.36 thread 62xrui path 0 ([deleted])
+      parent: none
+  c0097 h+37.83 thread 62xrui path 1 (superzepto)  [replies under c0096]
+      parent: 0 ([deleted]) c0096 uniting tweakers to draw meth on r/place
+      submission: 0 ([deleted]) c0096 uniting tweakers to draw meth on r/place
+
+[24] drumcorps-060  instantiate   t07            T3-014 > T4-010 > D02  pending    A bare joining response appears under the build proposal without testing normative prefer…  [c0090,c0092]
+   "Reddit r/place Logo (Take 2)"  [drumcorps/c0090]  item 6329cn  thread 6329cn  h+53.13  Poisonchocolate  t06 reworking the logo until it fits
+   "I'm in"  [drumcorps/c0092]  item dfqqgzp  thread 6329cn  h+53.35  nalyd8991  t07 coordinating builders between Reddit and Discord
+
+  -- reply context
+  c0090 h+53.13 thread 6329cn path 0 (Poisonchocolate)
+      parent: none
+  c0092 h+53.35 thread 6329cn path 2 (nalyd8991)  [replies under c0090]
+      parent: 0 (Poisonchocolate) c0090 restarting the r/place logo as take two
+      submission: 0 (Poisonchocolate) c0090 restarting the r/place logo as take two
+
+[25] duckgame-048   instantiate   t02            T3-005 > T4-013 > D03  pending    The tentative call-to-bare-answer mechanism has a direct local instance when a defence ap…  [c0041,c0042]
+   "Guys help the void is taking over the duck"  [duckgame/c0041]  item 636d51  thread 636d51  h+68.22  TheDuffelbag  t02 sounding the alarm and keeping the duck alive
+   "Saw that,I'm in my way to help"  [duckgame/c0042]  item dfrmt6q  thread 636d51  h+68.36  boolerex  t02 sounding the alarm and keeping the duck alive
+
+  -- reply context
+  c0041 h+68.22 thread 636d51 path 0 (TheDuffelbag)
+      parent: none
+  c0042 h+68.36 thread 636d51 path 1 (boolerex)  [replies under c0041]
+      parent: 0 (TheDuffelbag) c0041 calling for help as the void takes the duck
+      submission: 0 (TheDuffelbag) c0041 calling for help as the void takes the duck
+
+[26] dwarffortress-056 instantiate   t08            T3-135 > T4-004 > D05  pending    A request for dead-goblin help receives a brief acceptance that asks for nothing back.  [c0049,c0050]
+   "once you are I'd really appreciate help with a [dead goblin]"  [dwarffortress/c0049]  item dfpbro6  thread 62to33  h+27.97  SamWhite  t01 calling people in and showing them how to place
+   "Sounds like a plan. Reassigned task!"  [dwarffortress/c0050]  item dfpc0cu  thread 62to33  h+28.07  flitbung  t08 turning canvas events into Dwarf Fortress stories…
+
+  -- reply context
+  c0049 h+27.97 thread 62to33 path 3 (SamWhite)
+      parent: 0 (flitbung) na
+      submission: 0 (flitbung) na
+  c0050 h+28.07 thread 62to33 path 3.1 (flitbung)  [replies under c0049]
+      parent: 3 (SamWhite) c0049 requesting help with a dead goblin after the Urist is done
+
+[27] eagles-048     instantiate   t06            T3-151 > T4-017 > D04  pending    A request for help maintaining a neighbor's logo receives an unqualified one-line commitm…  [c0180,c0181]
+   "Hello boys, visiting from /r/flyers. Here to ask for a little help maintaining our humble flyers logo, just above the Fly Eagles Fly sign."  [eagles/c0180]  item dfrvb78  thread 631jku  h+71.62  aviatori  t06 trading space and reciprocal help with neighbors
+   "Will assist!"  [eagles/c0181]  item dfrvwhs  thread 631jku  h+71.81  dogpupkus  t06 trading space and reciprocal help with neighbors
+
+  -- reply context
+  c0180 h+71.62 thread 631jku path 18 (aviatori)
+      parent: 0 (EaglesMod) c0159 calling the room to maintain Fly Eagles Fly under constant attack; c0160 inviting discussion in the Eagles Slack channel; c0161 honoring r/RBTV's request to stop adding exclamation points; c0162 trying to play it the right way against five-minute botting; c0163 congratulating the room for pulling off and maintaining the logo
+      submission: 0 (EaglesMod) c0159 calling the room to maintain Fly Eagles Fly under constant attack; c0160 inviting discussion in the Eagles Slack channel; c0161 honoring r/RBTV's request to stop adding exclamation points; c0162 trying to play it the right way against five-minute botting; c0163 congratulating the room for pulling off and maintaining the logo
+  c0181 h+71.81 thread 631jku path 18.1 (dogpupkus)  [replies under c0180]
+      parent: 18 (aviatori) c0180 asking Eagles fans to help maintain the Flyers logo
+
+[28] eder-045       instantiate   t03            T3-009 > T4-026 > D07  pending    The proposal receives a bare completion answer, while silent acceptance and the preferenc…  [c0003,c0005]
+   "We need Lord Eder on r/place."  [eder/c0003]  item 62t2gv  thread 62t2gv  h+22.62  ezakuroy  t02 planning and calling for Lord Eder on r/place
+   "O shit we did it"  [eder/c0005]  item dfp36db  thread 62t2gv  h+24.48  isrly_eder  t03 celebrating Lord Eder on the canvas
+
+  -- reply context
+  c0003 h+22.62 thread 62t2gv path 0 (ezakuroy)
+      parent: none
+  c0005 h+24.48 thread 62t2gv path 1 (isrly_eder)  [replies under c0003]
+      parent: 0 (ezakuroy) c0003 saying they need Lord Eder on r/place; c0004 suggesting coordinates under the Portuguese flag
+      submission: 0 (ezakuroy) c0003 saying they need Lord Eder on r/place; c0004 suggesting coordinates under the Portuguese flag
+
+[29] eesti-056      instantiate   t02            T3-065 > T4-006 > D02  pending    A direct bare contribution report answers the starter's proposal without demonstrating th…  [c0002,c0003]
+   "Mina olen tegelt vaikselt juba ise alustanud. 286,630"  [eesti/c0002]  item dfois0q  thread 62pedd  h+12.01  reigntall  t02 building and proposing what goes on the Estonian …
+   "Panustasin ka mõne sinise piksliga."  [eesti/c0003]  item dfon53o  thread 62pedd  h+14.37  Heinsz7  t02 building and proposing what goes on the Estonian …
+
+  -- reply context
+  c0002 h+12.01 thread 62pedd path 1 (reigntall)
+      parent: 0 (Jannukaz) na
+      submission: 0 (Jannukaz) na
+  c0003 h+14.37 thread 62pedd path 1.1 (Heinsz7)  [replies under c0002]
+      parent: 1 (reigntall) c0002 saying he has quietly started at 286,630
+
+[30] egypt-014      instantiate   t01            T3-065 > T4-006 > D02  pending    The flag proposal receives bare assent, while a separate replacement proposal receives a …  [c0002,c0003,c0023,c0024]
+   "Can we draw the Egyptian flag in /r/place?"  [egypt/c0002]  item 62upac  thread 62upac  h+26.98  -Q24-  t01 working out where and how to make an Egyptian flag
+   "Of course!"  [egypt/c0003]  item dfpbero  thread 62upac  h+27.82  zakawer2  t01 working out where and how to make an Egyptian flag
+   "Last Flag plan fell through in /r/place, but I think we can form a new one in the bottom right corner"  [egypt/c0023]  item 6309hg  thread 6309hg  h+47.59  [deleted]  t01 working out where and how to make an Egyptian flag
+   "everyone has been using scripts man aint nobody gonna sit there placin a block every 5 mins at least not me"  [egypt/c0024]  item dfqbg6k  thread 6309hg  h+47.80  pessimismzone  t06 refusing to place a block every five minutes whil…
+
+  -- reply context
+  c0002 h+26.98 thread 62upac path 0 (-Q24-)
+      parent: none
+  c0003 h+27.82 thread 62upac path 1 (zakawer2)  [replies under c0002]
+      parent: 0 (-Q24-) c0002 asking to draw the Egyptian flag in r/place
+      submission: 0 (-Q24-) c0002 asking to draw the Egyptian flag in r/place
+  c0023 h+47.59 thread 6309hg path 0 ([deleted])
+      parent: none
+  c0024 h+47.80 thread 6309hg path 1 (pessimismzone)  [replies under c0023]
+      parent: 0 ([deleted]) c0023 starting a new bottom-right flag plan after the last one fell through
+      submission: 0 ([deleted]) c0023 starting a new bottom-right flag plan after the last one fell through
+
+[31] elitedangerous-005 instantiate   t06            T3-009 > T4-026 > D07  pending    The call receives a short contribution report, while another acceptance includes explanat…  [c0219,c0141,c0142]
+   "ill chip in as well one pixel every five minutes"  [elitedangerous/c0219]  item dfpxjkq  thread 62xyoj  h+37.93  ollobrains  t06 Building and repairing the Elite mark one pixel a…
+   "I'm on board, u/Isaish_b, it looks like the spot I picked is in high contention with other groups."  [elitedangerous/c0141]  item dfpjzil  thread 62umsg  h+31.45  ZakMan24  t03 Finding a drawable Elite mark and somewhere to pu…
+   "Does anyone have an idea for where to start, and also a link to the pixel art sidey?"  [elitedangerous/c0142]  item dfpjzil  thread 62umsg  h+31.45  ZakMan24  t03 Finding a drawable Elite mark and somewhere to pu…
+
+  -- reply context
+  c0219 h+37.93 thread 62xyoj path 1.1 (ollobrains)
+      parent: 1 (TawXic) c0218 choosing 675, 252 and asking for a pixel grid
+      submission: 0 (TawXic) c0217 calling for an Elite spot in r/place
+  c0141 h+31.45 thread 62umsg path 3.1 (ZakMan24)  [one item with c0142]
+      parent: 3 (ALargeRock) c0140 voting for a sidewinder to make coordination easier
+      submission: 0 (Isaiah_b) c0130 wanting to do something for Elite Dangerous on r/place
+  c0142 h+31.45 thread 62umsg path 3.1 (ZakMan24)  [one item with c0141]
+      parent: 3 (ALargeRock) c0140 voting for a sidewinder to make coordination easier
+
+[32] england-043    instantiate   t06            T3-006 > T4-020 > D08  pending    A bare joining answer follows a direct invitation without establishing the mechanism for …  [c0029,c0031]
+   "In retaliation for this insult, I propose we write "LOL 1982" across their flag. Who's with me?"  [england/c0029]  item 631phx  thread 631phx  h+51.58  ForkiusAurelius  t06 retaliating on Argentina’s flag with Falklands an…
+   "I'm in"  [england/c0031]  item dfqm5ej  thread 631phx  h+51.68  Captain_Rasputin  t06 retaliating on Argentina’s flag with Falklands an…
+
+  -- reply context
+  c0029 h+51.58 thread 631phx path 0 (ForkiusAurelius)
+      parent: none
+  c0031 h+51.68 thread 631phx path 1 (Captain_Rasputin)  [replies under c0029]
+      parent: 0 (ForkiusAurelius) c0028 recounting an effort to change UNITED KINGDOM to UNITED? KINGDUMB; c0029 proposing LOL 1982 as retaliation for an insult; c0030 sharing the retaliation plan and Argentina flag coordinates
+      submission: 0 (ForkiusAurelius) c0028 recounting an effort to change UNITED KINGDOM to UNITED? KINGDUMB; c0029 proposing LOL 1982 as retaliation for an insult; c0030 sharing the retaliation plan and Argentina flag coordinates
+
+[33] epublica-011   instantiate   t05            T3-004 > T4-006 > D02  pending    The explicit proposal and immediate commitment support a local acceptance pair without es…  [c0052,c0053]
+   "Propongo que avancemos primero la linea mas inferior de la franja morada, para "reservar espacio"."  [epublica/c0052]  item dfqfvlu  thread 630gwn  h+49.45  j-crusoe  t05 deciding the next pixels together
+   "Me pongo a ello"  [epublica/c0053]  item dfqfxrc  thread 630gwn  h+49.47  metalpotato  t05 deciding the next pixels together
+
+  -- reply context
+  c0052 h+49.45 thread 630gwn path 4 (j-crusoe)
+      parent: 0 (metalpotato) na
+      submission: 0 (metalpotato) na
+  c0053 h+49.47 thread 630gwn path 4.1 (metalpotato)  [replies under c0052]
+      parent: 4 (j-crusoe) c0052 advancing a line first to reservar espacio
+
+[34] ethereum-057   instantiate   t09            T3-010 > T4-016 > D04  pending    The location-holding call receives a bare On it reply, while silent placement and the pro…  [c0125,c0126]
+   "Here is the position we need to hold it down."  [ethereum/c0125]  item dfr7ycn  thread 633ys4  h+59.32  edunuke  t09 holding down the Ethereum drawing beside Bob Ross
+   "On it"  [ethereum/c0126]  item dfr82px  thread 633ys4  h+59.36  ASG3  t09 holding down the Ethereum drawing beside Bob Ross
+
+  -- reply context
+  c0125 h+59.32 thread 633ys4 path 4 (edunuke)
+      parent: 0 (edunuke) c0121 calling Ethereum's humble position beside Bob Ross wholesome
+      submission: 0 (edunuke) c0121 calling Ethereum's humble position beside Bob Ross wholesome
+  c0126 h+59.36 thread 633ys4 path 4.1 (ASG3)  [replies under c0125]
+      parent: 4 (edunuke) c0125 giving the position that needs to be held down
+
+[35] ethoslab-045   instantiate   t01            T3-038 > T4-007 > D02  pending    The opening call receives a bare report of adding a blue pixel without establishing oblig…  [c0001,c0009]
+   "Fee free to help me complete [an image of etho's minecraft skin](http://imgur.com/a/xvC3K)."  [ethoslab/c0001]  item 62r1tx  thread 62r1tx  h+14.18  Prof_Noobland  t01 building Etho's face pixel by pixel
+   "I added a blue pixel, enjoy."  [ethoslab/c0009]  item dfp12if  thread 62r1tx  h+23.65  HarlequinNight  t01 building Etho's face pixel by pixel
+
+  -- reply context
+  c0001 h+14.18 thread 62r1tx path 0 (Prof_Noobland)
+      parent: none
+  c0009 h+23.65 thread 62r1tx path 3 (HarlequinNight)  [replies under c0001]
+      parent: 0 (Prof_Noobland) c0001 asking people to help complete Etho's Minecraft skin; c0002 switching from writing etho to a face after fighting a flag for space; c0003 changing the template from blue to dark gray
+      submission: 0 (Prof_Noobland) c0001 asking people to help complete Etho's Minecraft skin; c0002 switching from writing etho to a face after fighting a flag for space; c0003 changing the template from blue to dark gray
+
+[36] europe-051     instantiate   t01            T3-065 > T4-006 > D02  pending    A request to coordinate a new flag received a bare commitment to join.  [c0186,c0187]
+   "The flag has failed. Do you want to start a new one? If so, let's coordinate or it will be a mess like before."  [europe/c0186]  item dfotdo7  thread 62s50v  h+19.64  Sarilho1  t01 building and rebuilding a European flag
+   "i will join"  [europe/c0187]  item dfotfnl  thread 62s50v  h+19.68  onehandeded  t01 building and rebuilding a European flag
+
+  -- reply context
+  c0186 h+19.64 thread 62s50v path 1 (Sarilho1)
+      parent: 0 (LordZarasophos) c0185 calling that the EU needs r/place participants
+      submission: 0 (LordZarasophos) c0185 calling that the EU needs r/place participants
+  c0187 h+19.68 thread 62s50v path 1.1 (onehandeded)  [replies under c0186]
+      parent: 1 (Sarilho1) c0186 asking to coordinate a new flag after the old one failed
+
+[37] eve-050        instantiate   t09            T3-010 > T4-016 > D04  pending    The call to join a Reddit CTA receives a bare X that commits without explanation or reque…  [c0305,c0306]
+   "Indeed. The guy who negotiated that went offline and they had some dissenting opinions. I will edit the OP to clarify, x up for reddit CTA to help our brethren!"  [eve/c0305]  item dfqjwrv  thread 630prz  h+50.88  MrGothmog  t09 trading pixel help and negotiating borders
+   "X"  [eve/c0306]  item dfqn88b  thread 630prz  h+52.09  kegaroo85  t09 trading pixel help and negotiating borders
+
+  -- reply context
+  c0305 h+50.88 thread 630prz path 3.1 (MrGothmog)
+      parent: 3 (Mu0nNeutrino) c0304 reporting that the flag is still covering Horde's logo
+      submission: 0 (MrGothmog) c0297 negotiating for Quebec's flag to pass under Horde's insignia; c0298 coordinating for the event mostly on the official EVE Discord; c0299 switching from a deal to pushing the flag and regaining Horde's space
+  c0306 h+52.09 thread 630prz path 3.1.1 (kegaroo85)  [replies under c0305]
+      parent: 3.1 (MrGothmog) c0305 blaming dissent after the negotiator left and calling a Reddit CTA
+
+[38] evex-032       instantiate   t01            T3-033 > T4-006 > D02  pending    Bare joining replies support the acceptance sequence but do not reveal silent placing or …  [c0001,c0003,c0007]
+   "[\(400, 300\) in dark purple](https://www.reddit.com/r/place/#x=400&y=300). Lets write out /r/EVEX"  [evex/c0001]  item 62n6iz  thread 62n6iz  h+2.79  Aether_Storm  t01 making a compact EVEX mark they can finish
+   "I'm in"  [evex/c0003]  item dfo542a  thread 62n6iz  h+6.51  wobatt  t01 making a compact EVEX mark they can finish
+   "I'm in too"  [evex/c0007]  item dfok4gg  thread 62n6iz  h+12.66  Pillowish  t01 making a compact EVEX mark they can finish
+
+  -- reply context
+  c0001 h+2.79 thread 62n6iz path 0 (Aether_Storm)
+      parent: none
+  c0003 h+6.51 thread 62n6iz path 2 (wobatt)  [replies under c0001]
+      parent: 0 (Aether_Storm) c0001 calling a raid to write /r/EVEX in dark purple
+      submission: 0 (Aether_Storm) c0001 calling a raid to write /r/EVEX in dark purple
+  c0007 h+12.66 thread 62n6iz path 4 (Pillowish)  [replies under c0001]
+      parent: 0 (Aether_Storm) c0001 calling a raid to write /r/EVEX in dark purple
+
+[39] factorio-006   instantiate   t08            T3-041 > T4-006 > D02  pending    A design proposal receives a bare acceptance, supporting this local response form without…  [c0108,c0109]
+   "a belt is nice, but what about our boy in orange?"  [factorio/c0108]  item 62xe7l  thread 62xe7l  h+34.94  soapy5  t08 turning finished builds into the next canvas proj…
+   "Let's do it"  [factorio/c0109]  item dfptisu  thread 62xe7l  h+35.65  Gabernasher  t08 turning finished builds into the next canvas proj…
+
+  -- reply context
+  c0108 h+34.94 thread 62xe7l path 0 (soapy5)
+      parent: none
+  c0109 h+35.65 thread 62xe7l path 1 (Gabernasher)  [replies under c0108]
+      parent: 0 (soapy5) c0108 asking to build the boy in orange as well as the belt
+      submission: 0 (soapy5) c0108 asking to build the boy in orange as well as the belt
+
+[40] faeria-007     instantiate   t01            T3-002 > T4-005 > D01  pending    The opening receives bare joins while a later rebuilding call receives an explained decli…  [c0002,c0017,c0018,c0054,c0055]
+   "I don't know if we have enough here to pull it off, but let's try and build a Yak there!"  [faeria/c0002]  item 62vie8  thread 62vie8  h+29.15  Atmaz  t01 building, repairing, and rebuilding the Yak toget…
+   "I placed a dot! now to wait 10mins...."  [faeria/c0017]  item dfpf1ix  thread 62vie8  h+29.35  Telthers  t01 building, repairing, and rebuilding the Yak toget…
+   "Ok. I will participate =) At least 3 times a day."  [faeria/c0018]  item dfpihud  thread 62vie8  h+30.83  AquariusRus  t01 building, repairing, and rebuilding the Yak toget…
+   "a lone ranger, 780fan, and myself are building the yak"  [faeria/c0054]  item dfrb8sd  thread 630iu8  h+60.55  Glapthorn  t01 building, repairing, and rebuilding the Yak toget…
+   "I would try to help, but it's getting late for me, and tomorrow is a weekday"  [faeria/c0055]  item dfrbdux  thread 630iu8  h+60.62  Angrybear52  t01 building, repairing, and rebuilding the Yak toget…
+
+  -- reply context
+  c0002 h+29.15 thread 62vie8 path 0 (Atmaz)
+      parent: none
+  c0017 h+29.35 thread 62vie8 path 1 (Telthers)  [replies under c0002]
+      parent: 0 (Atmaz) c0001 explaining that the Yak takes a group working together; c0002 calling on r/faeria to build a Yak; c0003 dividing an 11x11 Yak among enough people; c0004 planning a white border around the completed Yak; c0005 scouting a location below /r/avoarmy's Acovados; c0006 making the Yak and maintaining it against vandalous hordes; c0007 announcing the Yak complete after two hours together; c0008 repairing damage and keeping a white border; c0009 mourning the little Yak while fighting back; c0010 bringing the Yak back; c0011 thanking the community members who fought while others slept; c0012 refusing to give up and seeking a new Yak sanctuary; c0013 securing safe pasture through intense negotiations; c0014 rebuilding Bolivia as a gesture of goodwill; c0015 announcing that r/place is over; c0016 thanking everyone for the Yak breeding program
+      submission: 0 (Atmaz) c0001 explaining that the Yak takes a group working together; c0002 calling on r/faeria to build a Yak; c0003 dividing an 11x11 Yak among enough people; c0004 planning a white border around the completed Yak; c0005 scouting a location below /r/avoarmy's Acovados; c0006 making the Yak and maintaining it against vandalous hordes; c0007 announcing the Yak complete after two hours together; c0008 repairing damage and keeping a white border; c0009 mourning the little Yak while fighting back; c0010 bringing the Yak back; c0011 thanking the community members who fought while others slept; c0012 refusing to give up and seeking a new Yak sanctuary; c0013 securing safe pasture through intense negotiations; c0014 rebuilding Bolivia as a gesture of goodwill; c0015 announcing that r/place is over; c0016 thanking everyone for the Yak breeding program
+  c0018 h+30.83 thread 62vie8 path 2 (AquariusRus)  [replies under c0002]
+      parent: 0 (Atmaz) c0001 explaining that the Yak takes a group working together; c0002 calling on r/faeria to build a Yak; c0003 dividing an 11x11 Yak among enough people; c0004 planning a white border around the completed Yak; c0005 scouting a location below /r/avoarmy's Acovados; c0006 making the Yak and maintaining it against vandalous hordes; c0007 announcing the Yak complete after two hours together; c0008 repairing damage and keeping a white border; c0009 mourning the little Yak while fighting back; c0010 bringing the Yak back; c0011 thanking the community members who fought while others slept; c0012 refusing to give up and seeking a new Yak sanctuary; c0013 securing safe pasture through intense negotiations; c0014 rebuilding Bolivia as a gesture of goodwill; c0015 announcing that r/place is over; c0016 thanking everyone for the Yak breeding program
+  c0054 h+60.55 thread 630iu8 path 6 (Glapthorn)
+      parent: 0 (Angrybear52) c0043 trying to bring back the Yak; c0044 saying r/drugs murdered the Yak without mercy; c0045 calling to avenge the Yak
+      submission: 0 (Angrybear52) c0043 trying to bring back the Yak; c0044 saying r/drugs murdered the Yak without mercy; c0045 calling to avenge the Yak
+  c0055 h+60.62 thread 630iu8 path 6.1 (Angrybear52)  [replies under c0054]
+      parent: 6 (Glapthorn) c0054 reporting three people building the Yak
+
+[41] falcons-005    instantiate   t02            T3-068 > T4-020 > D08  pending    A collective call receives a bare acceptance, and a timer pledge receives another member'…  [c0066,c0071,c0055,c0060]
+   "Let us Giants fans help you, Falcons! We're turning the NE 3 to NE 18-1"  [falcons/c0066]  item 62wvlk  thread 62wvlk  h+33.15  njdeatheater  t05 recruiting, thanking, and bargaining with canvas …
+   "Im in."  [falcons/c0071]  item dfqhcz6  thread 62wvlk  h+49.98  friardon  t02 working out how to change the score together
+   "Got a five minute timer set on my phone. I'll nuke that fucker myself if I have to."  [falcons/c0055]  item dfpkhn9  thread 62w0ko  h+31.66  1869er  t02 working out how to change the score together
+   "Right there with you. The fight continues!"  [falcons/c0060]  item dfq9wj0  thread 62w0ko  h+47.17  tiercel  t01 calling people to erase or rewrite the Pats score
+
+  -- reply context
+  c0066 h+33.15 thread 62wvlk path 0 (njdeatheater)
+      parent: none
+  c0071 h+49.98 thread 62wvlk path 5 (friardon)  [replies under c0066]
+      parent: 0 (njdeatheater) c0066 Giants fans offering to turn NE 3 into NE 18-1
+      submission: 0 (njdeatheater) c0066 Giants fans offering to turn NE 3 into NE 18-1
+  c0055 h+31.66 thread 62w0ko path 3 (1869er)
+      parent: 0 (ThunderFlash10) c0052 crying out at the canvas provocation
+      submission: 0 (ThunderFlash10) c0052 crying out at the canvas provocation
+  c0060 h+47.17 thread 62w0ko path 3.1 (tiercel)  [replies under c0055]
+      parent: 3 (1869er) c0055 setting a five-minute timer to nuke the scoreboard
+
+[42] finland-047    instantiate   t05            T3-113 > T4-006 > D02  pending    A proposal receives a direct bare volunteering answer without establishing the proposed g…  [c0060,c0062]
+   "Can we get a coat of arms at about 115,760 in r/place?"  [finland/c0060]  item 6346vq  thread 6346vq  h+59.06  MaziicM  t05 making and explaining pictures inside the flags
+   "Sure, I'll help as much as I can before I go to sleep"  [finland/c0062]  item dfr9dd1  thread 6346vq  h+59.83  spergele  t05 making and explaining pictures inside the flags
+
+  -- reply context
+  c0060 h+59.06 thread 6346vq path 0 (MaziicM)
+      parent: none
+  c0062 h+59.83 thread 6346vq path 2 (spergele)  [replies under c0060]
+      parent: 0 (MaziicM) c0060 proposing a coat of arms at 115,760
+      submission: 0 (MaziicM) c0060 proposing a coat of arms at 115,760
+
+[43] fireemblem-044 instantiate   t02            T3-038 > T4-007 > D02  pending    A bare participation report is one visible answer to a call, without establishing a gener…  [c0008,c0010]
+   "Currently we are trying to draw"  [fireemblem/c0008]  item 62po4q  thread 62po4q  h+9.35  Prospecs  t02 building Fire Emblem pictures pixel by pixel
+   "I CONTRIBUTED HAHA"  [fireemblem/c0010]  item dfoehdo  thread 62po4q  h+10.14  squidpizza1200  t02 building Fire Emblem pictures pixel by pixel
+
+  -- reply context
+  c0008 h+9.35 thread 62po4q path 0 (Prospecs)
+      parent: none
+  c0010 h+10.14 thread 62po4q path 1 (squidpizza1200)  [replies under c0008]
+      parent: 0 (Prospecs) c0008 calling for help drawing Kamui's face; c0009 sending helpers to Kamui at 352, 675
+      submission: 0 (Prospecs) c0008 calling for help drawing Kamui's face; c0009 sending helpers to Kamui at 352, 675
+
+[44] fivenightsatfreddys-006 instantiate   t04            T3-002 > T4-005 > D01  pending    The invitation receives a one-line acceptance, supporting the visible response form rathe…  [c0065,c0067]
+   "We got this, freddit!"  [fivenightsatfreddys/c0065]  item 62oda9  thread 62oda9  h+5.72  AdventureFreddy  t04 recruiting and placing a shared FNaF picture
+   "i'll help!"  [fivenightsatfreddys/c0067]  item dfo4b75  thread 62oda9  h+6.22  Wispyfaileasrabaid  t04 recruiting and placing a shared FNaF picture
+
+  -- reply context
+  c0065 h+5.72 thread 62oda9 path 0 (AdventureFreddy)
+      parent: none
+  c0067 h+6.22 thread 62oda9 path 2 (Wispyfaileasrabaid)  [replies under c0065]
+      parent: 0 (AdventureFreddy) c0063 switching the r/place target to spelling FNAF; c0064 giving a direct coordinate link to the drawing; c0065 rallying Freddit around the shared drawing
+      submission: 0 (AdventureFreddy) c0063 switching the r/place target to spelling FNAF; c0064 giving a direct coordinate link to the drawing; c0065 rallying Freddit around the shared drawing
+
+[45] flashtv-056    instantiate   t09            T3-021 > T4-013 > D03  pending    A repair call receives an unelaborated work commitment prefaced by a fandom joke  [c0210,c0211]
+   "Our Flash logo has been messed up. There's way too much yellow for the bolt. Let's *run* over and fix it!"  [flashtv/c0210]  item 637aw5  thread 637aw5  h+71.00  DerkDurski  t09 running over to defend and repair the Flash logo
+   "God damn it Barry. Working on it now"  [flashtv/c0211]  item dfrv4cv  thread 637aw5  h+71.56  skrimesxvi  t09 running over to defend and repair the Flash logo
+
+  -- reply context
+  c0210 h+71.00 thread 637aw5 path 0 (DerkDurski)
+      parent: none
+  c0211 h+71.56 thread 637aw5 path 1 (skrimesxvi)  [replies under c0210]
+      parent: 0 (DerkDurski) c0210 calling everyone to run over and fix too much yellow in the Flash logo
+      submission: 0 (DerkDurski) c0210 calling everyone to run over and fix too much yellow in the Flash logo
+
+[46] floridagators-033 instantiate   t07            T3-006 > T4-020 > D08  pending    The attacker's request for more hands receives bare acceptance, while other joining turns…  [c0008,c0009,c0039]
+   "I've been trying to destroy Tennessee's. But I'm only one man. I can only do so much."  [floridagators/c0008]  item dfooq4e  thread 62qhyv  h+15.51  jmk1991  t07 taking the rivalry onto other logos
+   "I'll help"  [floridagators/c0009]  item dfooqnq  thread 62qhyv  h+15.53  Zet_the_Arc_Warden  t07 taking the rivalry onto other logos
+   "Down. Post cords."  [floridagators/c0039]  item dfpbiwk  thread 62uvrd  h+27.87  SuchaN3rd  t03 turning the Gator mark into coordinates and a wor…
+
+  -- reply context
+  c0008 h+15.51 thread 62qhyv path 3 (jmk1991)
+      parent: 0 (Zet_the_Arc_Warden) c0003 asking to cement themselves on r/place for all eternity
+      submission: 0 (Zet_the_Arc_Warden) c0003 asking to cement themselves on r/place for all eternity
+  c0009 h+15.53 thread 62qhyv path 3.1 (Zet_the_Arc_Warden)  [replies under c0008]
+      parent: 3 (jmk1991) c0008 trying alone to destroy Tennessee's mark
+  c0039 h+27.87 thread 62uvrd path 1 (SuchaN3rd)
+      parent: 0 (MCHammersPants) c0038 moving away from the maintained rainbow/trans flag border
+      submission: 0 (MCHammersPants) c0038 moving away from the maintained rainbow/trans flag border
+
+[47] flyers-033     instantiate   t02            T3-002 > T4-005 > D01  pending    A proposal for a collaboration hub received a bare agreement without a reason or reciproc…  [c0155,c0156]
+   "I made the sub /r/PhillyPlace so we could collaborate across Philly sports subs. Let's work together to get a logo on there"  [flyers/c0155]  item dfqye82  thread 6316ik  h+56.12  rubik4  t02 calling more people and getting everyone on the s…
+   "deal"  [flyers/c0156]  item dfqyms0  thread 6316ik  h+56.20  uppercutwizard  t02 calling more people and getting everyone on the s…
+
+  -- reply context
+  c0155 h+56.12 thread 6316ik path 6 (rubik4)
+      parent: 0 (uppercutwizard) c0107 asking who is trying to get on r/Place
+      submission: 0 (uppercutwizard) c0107 asking who is trying to get on r/Place
+  c0156 h+56.20 thread 6316ik path 6.1 (uppercutwizard)  [replies under c0155]
+      parent: 6 (rubik4) c0155 making r/PhillyPlace for cross-Philly collaboration
+
+[48] forsen-015     instantiate   t01            T3-002 > T4-005 > D01  pending    A direct reply to the call to save the figure says IM TRYING while silent acceptance and …  [c0060]
+   "IM TRYING FeelsBadMan"  [forsen/c0060]  item dfrfjd0  thread 634zdg  h+62.95  IWantYourHalf  t01 making, saving, and replacing their pixel figures
+
+  -- reply context
+  c0060 h+62.95 thread 634zdg path 1 (IWantYourHalf)
+      parent: 0 (Equalizoar) na
+      submission: 0 (Equalizoar) na
+
+[49] foxes-042      instantiate   t01            T3-002 > T4-005 > D01  pending    The invitation receives a bare acceptance, without establishing obligations or silent pla…  [c0001,c0003]
+   "Anyone want to draw a pixel fox on /r/place?"  [foxes/c0001]  item 62n5lg  thread 62n5lg  h+2.73  sogorthefox  t01 getting a fox started together
+   "yes!"  [foxes/c0003]  item dfp1zv5  thread 62n5lg  h+24.01  HHhunter  t01 getting a fox started together
+  -- reply context
+  c0001 h+2.73 thread 62n5lg path 0 (sogorthefox)
+      parent: none
+  c0003 h+24.01 thread 62n5lg path 1 (HHhunter)  [replies under c0001]
+      parent: 0 (sogorthefox) c0001 asking who wants to draw a pixel fox; c0002 saying the fox takes more than one person and offering a simple design
+      submission: 0 (sogorthefox) c0001 asking who wants to draw a pixel fox; c0002 saying the fox takes more than one person and offering a simple design
+

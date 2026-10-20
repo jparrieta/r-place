@@ -1,0 +1,576 @@
+A12: 181 lines in all (op restrict); packet [0, 100): 100 lines; carried through no third-order tier
+ops in the packet: {'restrict': 100}
+
+== 2007scape-007  restrict  [pending]  repairs 0  not carried
+   source t14 (Trying to start Connection Lost again on successor canvases); lift 2007scape:t14 > T3-054 > T4-028 > D07
+   how: A restart proposal receives a bare refusal, so reason-giving cannot be required when applying the proposed acceptance preference locally.
+   codes: c1419 asking for a second round of Connection Lost; c1420 answering the second-round proposal with no thanks
+   transitions: 63bmis:0>1
+
+== 49ers-053  restrict  [pending]  repairs 0  not carried
+   source t04 (getting enough people onto the logo); lift 49ers:t04 > T3-002 > T4-005 > D01
+   how: An own-room call may receive conditional assent about needed numbers rather than a bare join, while silent placing remains unknowable.
+   codes: c0016 asking the room to coordinate something on r/place; c0017 saying they need numbers before starting
+
+== AceOfAngels8-024  restrict  [pending]  repairs 0  not carried
+   source t05 (celebrating and crediting making the heart); lift AceOfAngels8:t05 > T3-009 > T4-026 > D07
+   how: The observed answers praise the work, leaving acceptance by placing or a commitment to join unestablished.
+   codes: c0025 praising the heart-builders for doing the Lord's work; c0027 saying nice to the completed heart effort
+   transitions: 62z7rf:0>1, 62z7rf:0>2
+
+== AyyMD-042  restrict  [pending]  repairs 1  not carried
+   source t03 (choosing the logo's colours and trying to settle the fight); lift AyyMD:t03 > T3-004 > T4-006 > D02
+   how: The clearest bare commitment answers a poll instruction, leaving the stronger claim about recruitment and silent placing unverified.
+   codes: c0109 closing the poll and insisting the logo stays green; c0110 accepting the poll and helping keep the logo green
+   transitions: 632ew8:1>1.1
+
+== CSUFoCo-014  restrict  [pending]  repairs 2  not carried
+   source t01 (making a CSU mark together); lift CSUFoCo:t01 > T3-004 > T4-006 > D02
+   how: A joining clause can be bare while its containing reply asks for instructions, so acceptance must be assessed below the whole-turn level.
+   codes: c0003 proposing where they could do the logo; c0005 offering pixels to the proposed logo; c0006 asking what the broken schematic should look like and whether it needs a border
+   transitions: 633p6s:2>2.1
+
+== DevonUK-004  restrict  [pending]  repairs 0  not carried
+   source t01 (making and growing the Devon flag); lift DevonUK:t01 > T3-065 > T4-006 > D02
+   how: The visible pair supports acceptance without establishing a norm obligating every reader to answer or explaining silent placing.
+   codes: c0016 asking for help expanding the Devon flag; c0017 saying two friends are doing their best to help
+   transitions: 633u6k:0>1
+
+== FederationPlace-005  restrict  [pending]  repairs 2  not carried
+   source t04 (making room and truces with neighboring pictures); lift FederationPlace:t04 > T3-010 > T4-016 > D04
+   how: Apply bare acceptance only to relevant call responses because alliance assent and concession thanks do not establish acceptance of calls for placers
+   codes: c0016 proposing a defensive alliance between neighboring pieces; c0017 favoring the Harvard alliance; c0024 agreeing to help and watch each other's pixel blobs; c0056 thanking the Trekkers in snek talk
+
+== FlipnoteStudio3D-005  restrict  [pending]  repairs 0  not carried
+   source t02 (meeting the Frog-making call with confusion); lift FlipnoteStudio3D:t02 > None > None > None
+   how: A call can receive a bare confused reply, so its recorded answer warrants an acceptance reading only when the words express commitment or assent.
+   codes: c0001 asking for help making the Frog at (990,123); c0002 answering the Frog-making call with confusion
+   transitions: 62v17h:0>1
+
+== GreenCorner-004  restrict  [pending]  repairs 1  not carried
+   source t03 (defending, repairing, and retaking the corner); lift GreenCorner:t03 > T3-005 > T4-013 > D03
+   how: Bare assent can accept a revised proposal after refusal of the original call, so the answered proposal must be identified before inferring preferred acceptance.
+   codes: c0036 calling for a second green area at the top; c0094 refusing to divert scarce forces from the corner; c0095 accepting the call not to divert forces
+   transitions: 62phh0:0>1, 62phh0:1>1.1
+
+== GuildWars2-008  restrict  [pending]  repairs 0  not carried
+   source t13 (recruiting and planning a Guild Wars canvas image); lift GuildWars2:t13 > T3-002 > T4-005 > D01
+   how: Acceptances can request tools or give reasons, so these replies establish uptake but not a bare-answer preference over reasoned refusal.
+   codes: c0078 asking whether anyone wants a GW2 or SAB logo on r/place; c0079 agreeing to make the logo; c0080 asking someone to draw up a plan in paint; c0157 asking for help with the /r/place logo; c0158 answering the call with spare time and Onwards men
+   transitions: 62sl4a:0>1, 6310wp:0>1
+
+== HomestarRunner-005  restrict  [pending]  repairs 1  not carried
+   source t02 (pitching in to build Trogdor); lift HomestarRunner:t02 > T3-002 > T4-005 > D01
+   how: Accepting a redirect can include availability limits and a question, so the local call response does not require a bare commitment.
+   codes: c0064 redirecting the new plan to Trogdor underway at 675, 350; c0065 joining the existing Trogdor effort
+   transitions: 62uv06:2>2.1
+
+== KState-038  restrict  [pending]  repairs 1  not carried
+   source t03 (coordinating accounts, scripts, and changing versions); lift KState:t03 > T3-028 > T4-009 > D02
+   how: A brief account-running report answers instructions, but this pair cannot establish a general preference for bare acceptance over reasoned refusal.
+   codes: c0009 showing people how to leave the script doing the work; c0012 running four alt accounts on office computers
+   transitions: 62rho0:5.3>5.3.1
+
+== MMA-014  restrict  [pending]  repairs 1  not carried
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift MMA:t07 > T3-038 > T4-007 > D02
+   how: One bare acceptance supports a local response pattern but cannot establish an obligation on every reader or reveal silent acceptance through placement.
+   codes: c0418 voting to put constipated Dana with r/mma underneath; c0420 joining the proposed constipated-Dana build; c0432 calling for more people while committing a pixel every five minutes
+   transitions: 630nww:2>2.2
+
+== Madeon-010  restrict  [pending]  repairs 2  not carried
+   source t08 (calling for album art and finding it already done); lift Madeon:t08 > T3-082 > T4-006 > D02
+   how: A bare answer supports the joining mechanism only when its content commits or attributes participation, rather than correcting the need for proposed work.
+   codes: c0039 proposing collectively putting album art onto r/place; c0041 reporting that the album art is already done
+   transitions: 637971:0>2
+
+== MonkeyIsland-004  restrict  [pending]  repairs 1  not carried
+   source t01 (asking more people to help and answering the call); lift MonkeyIsland:t01 > T3-002 > T4-005 > D01
+   how: The two observed acceptances support call and answer pairs, but cannot establish an obligation on every reader or participation through unseen placing.
+   codes: c0004 saying only three are working on Guybrush and asking others to come help; c0005 answering the help call with 'Sir, yes sir!'; c0023 redirecting help to our well-started Guybrush; c0024 accepting the request to help Guybrush
+   transitions: 62xlx9:1>1.1, 62zgrn:1>1.1
+
+== Okami-020  restrict  [pending]  repairs 1  not carried
+   source t03 (taking pixel-art help into a Minecraft server); lift Okami:t03 > T3-057 > T4-028 > D07
+   how: A reasoned reply to a help request is visible, but whether it constitutes a definite refusal remains implicit.
+   codes: c0004 asking the designer to help with Okami pixel art on a Minecraft server; c0005 declining because they have not played in forever
+   transitions: 62p8bz:1.1>1.1.1
+
+== OneTrueEmilia-006  restrict  [pending]  repairs 2  not carried
+   source t03 (calling Emilia's knights to defend the sign); lift OneTrueEmilia:t03 > T3-005 > T4-013 > D03
+   how: The observed call and answer establish one acceptance but cannot establish an obligation on every reader or a general preference governing refusals.
+   codes: c0017 calling Emilia's knights to defend against REm iS Best Girl; c0018 staying up all night defending it to the death
+
+== Pigifs-009  restrict  [pending]  repairs 1  not carried
+   source t07 (trading pig gifs for pink pixels); lift Pigifs:t07 > T3-159 > T4-026 > D07
+   how: The incentivized call receives a bare report, but its wording cannot decide whether obligation, the reward, or another reason motivated participation.
+   codes: c0036 offering five pig gifs for helping put the sign on r/Place; c0037 reporting doing a pink pixel thing
+   transitions: 630qe1:0>1
+
+== RelientK-010  restrict  [pending]  repairs 0  not carried
+   source t01 (building an Air For Free logo together); lift RelientK:t01 > T3-002 > T4-005 > D01
+   how: Joining can include a complaint, while bare thanks answers a later relocation proposal rather than demonstrating an obligation created by the placement call.
+   codes: c0003 trying to build while blaming the square people; c0015 discussing the logo's relocation in a Discord room; c0017 welcoming the Discord relocation discussion
+
+== SquareSpiral-048  restrict  [pending]  repairs 1  not carried
+   source t01 (recruiting and gathering Square Spiralers); lift SquareSpiral:t01 > T3-002 > T4-005 > D01
+   how: A bare standalone commitment supports joining but cannot establish the proposed paired call-response mechanism.
+   codes: c0035 joining to patch and expand the spiral; c0111 offering a pixel after learning the spiral's colors
+
+== TheHulk-045  restrict  [pending]  repairs 0  not carried
+   source t01 (calling Hulksters and neighbours to keep Hulk alive); lift TheHulk:t01 > T3-002 > T4-005 > D01
+   how: Reason-giving acceptance also occurs, so answer form alone cannot establish a preferred response or an obligation to answer.
+   codes: c0001 calling on people to preserve the Hulk as their purpose; c0004 joining the Hulk effort because they like him
+   transitions: 62wh5n:0>2
+
+== UPenn-036  restrict  [pending]  repairs 0  not carried
+   source t01 (calling for and joining help on the Penn logo); lift UPenn:t01 > T3-002 > T4-005 > D01
+   how: Visible acceptance does not test claims about preferred responses, reasoned refusals, or acceptance by unrecorded placing.
+   codes: c0001 asking for help making an /r/Place logo at (60,830); c0007 joining the work on the logo
+
+== VelvetUnderground-004  restrict  [pending]  repairs 1  not carried
+   source t01 (recruiting people and taking turns fixing the banana); lift VelvetUnderground:t01 > T3-002 > T4-005 > D01
+   how: Limit the explanation to the visible repair call and answer because preference, silent participation and causation of placing cannot be established.
+   codes: c0010 calling for help right now against people messing with it; c0014 trying to help every five minutes
+   transitions: 6342cs:3>3.1
+
+== Villanova-017  restrict  [pending]  repairs 0  not carried
+   source t01 (making a Villanova logo together); lift Villanova:t01 > T3-038 > T4-007 > D02
+   how: The bare-acceptance mechanism does not explain a join that explicitly gives failed registration as its reason.
+   codes: c0009 redirecting help to the half-built V next to OSU; c0010 switching to help after two hours of changes failed to register
+   transitions: 633fzf:1.1.1.1>1.1.1.1.1
+
+== aceattorney-043  restrict  [pending]  repairs 1  not carried
+   source t06 (building the Ace Attorney wordmark together); lift aceattorney:t06 > T3-038 > T4-007 > D02
+   how: Joining can explain fatigue with another ruined project or request instructions, while a bare repair acceptance remains locally visible.
+   codes: c0048 switching from a ruined flag to help the wordmark; c0051 answering from r/danganronpa with an offer to help; c0091 fixing Apollo under attack
+
+== acecombat-050  restrict  [pending]  repairs 1  not carried
+   source t04 (abandoning blocked designs and switching the mission); lift acecombat:t04 > T3-069 > T4-013 > D03
+   how: Bare assent answers a stand-down directive here, and the coded return-to-base reply is not a direct recruitment acceptance or an answer to the other coded stop-order branch.
+   codes: c0027 abandoning the flag mission to team up; c0028 copying the order to return to base
+
+== alberta-011  restrict  [pending]  repairs 2  not carried
+   source t06 (telling flag defenders to burn it); lift alberta:t06 > T3-059 > T4-012 > D01
+   how: A call can receive a bare refusal without a reason, so absence of an explanation cannot establish assent.
+   codes: c0020 urging people to defend Alberta's and Canada's flags by following the current strategy; c0022 answering the flag-defence appeal with 'Burn it'
+   transitions: 631a24:0>2
+
+== anaheimducks-008  restrict  [pending]  repairs 0  not carried
+   source t02 (gathering a crew to paint and recover the Ducks logo); lift anaheimducks:t02 > T3-002 > T4-005 > D01
+   how: The call-answer mechanism must allow assent followed by a design question in the same reply.
+   codes: c0018 joining the effort; c0019 asking whether to make the current or old school logo
+
+== anarchism-005  restrict  [pending]  repairs 0  not carried
+   source t03 (redrawing the work and holding the line); lift anarchism:t03 > T3-021 > T4-013 > D03
+   how: A bare answer can acknowledge repair already underway, so response order alone cannot establish that the call initiated placing
+   codes: c0014 calling to re-draw the work; c0015 joining the re-drawing and welcoming company
+   transitions: 62ozq2:1.1>1.1.1
+
+== androidgaming-003  restrict  [pending]  repairs 0  not carried
+   source t01 (calling for and offering help on r/place); lift androidgaming:t01 > T3-002 > T4-005 > D01
+   how: The reply tree supports a call followed by bare answers, while obligations on every reader and silent acceptance through placing remain untestable.
+   codes: c0029 posting a peace and help statement in r/place; c0030 answering the peace call with a heart and obrigado; c0031 offering services to the peace and help call
+   transitions: 62zsqt:0>1, 62zsqt:0>2
+
+== anime-006  restrict  [pending]  repairs 0  not carried
+   source t03 (Refusing to be recruited); lift anime:t03 > T3-115 > T4-017 > D04
+   how: Distinguish thanks for information from joining the build, and retain blunt recruitment refusals without supplied reasons.
+   codes: c0139 trying to get Totoro on Place; c0140 refusing to be a personal army; c0163 giving the official Saitama drawing source; c0164 thanking the person who supplied the source
+   transitions: 631dvx:0>1, 634hhw:1>1.1
+
+== archlinux-053  restrict  [pending]  repairs 2  not carried
+   source t04 (calling people to defend and repair the logo); lift archlinux:t04 > T3-021 > T4-013 > D03
+   how: Call answers may request task selection or report prior defense with reassurance, so their written form need not be bare assent.
+   codes: c0018 calling someone back to help finish the logo; c0019 asking which of two Arch logos to work on; c0134 asking for help while losing ground to r/factorio; c0136 answering that the defender is not alone after hours of popping black
+   transitions: 62pvjt:1.1.2.1.1>1.1.2.1.1.1, 6312i0:0>2
+
+== argentina-049  restrict  [pending]  repairs 1  not carried
+   source t07 (putting Argentine names, symbols and jokes on the canvas); lift argentina:t07 > T3-113 > T4-006 > D02
+   how: The local call receives a bare acceptance, but neither silence nor this pair establishes an obligation or preference for every reader.
+   codes: c0110 asking for help drawing a black line below Argentina; c0111 joining the requested line work
+   transitions: 62q9nr:0>1
+
+== babymetal-008  restrict  [pending]  repairs 1  not carried
+   source t05 (making room with touching artwork); lift babymetal:t05 > T3-010 > T4-016 > D04
+   how: The evidence supports one request-and-assent pair but cannot establish that every reader owes an answer or that acceptance throughout the room is normally bare.
+   codes: c0059 asking for help moving SRT letters one pixel; c0060 agreeing to help move the SRT letters; c0076 joining after accidentally giving Moa a blue eye
+   transitions: 62r59n:12>12.1
+
+== bardmains-056  restrict  [pending]  repairs 1  not carried
+   source t01 (getting helpers onto a small Bard mask); lift bardmains:t01 > T3-002 > T4-005 > D01
+   how: Bare commitments occur alongside explained offers and acceptance with design objections, leaving a general preference for unreasoned acceptance untested.
+   codes: c0011 offering experienced pixel-art help; c0013 turning pixel efforts from Darth Plaugeis text to the Bard mask; c0014 doing their part while questioning the lighter yellow; c0042 looking at the icon and giving the letterer a hand
+
+== berserk-008  restrict  [pending]  repairs 1  not carried
+   source t05 (calling people in to build Berserk pictures); lift berserk:t05 > T3-002 > T4-005 > D01
+   how: A bare No followed by shut limits the claim that declining necessarily supplies a reason without negating the observed bare acceptance.
+   codes: c0014 answering yes to the build call; c0015 asking 'Anyone?' for the linked effort; c0016 answering the recruitment ask with 'No'; c0017 telling the rejecting respondent 'shut'
+   transitions: 62sfud:0>1, 62sfud:1>1.1
+
+== bindingofisaac-057  restrict  [pending]  repairs 1  not carried
+   source t02 (recruiting and orienting Isaac builders); lift bindingofisaac:t02 > T3-002 > T4-005 > D01
+   how: Acceptance can request essential coordinates in the same reply, so joining need not be bare.
+   codes: c0018 recruiting people to draw Isaac on r/place; c0019 agreeing to help and asking where to draw
+   transitions: 62olaq:0>1
+
+== borderlands-021  restrict  [pending]  repairs 0  not carried
+   source t06 (answering a Claptrap help call without joining it); lift borderlands:t06 > T3-037 > T4-002 > D06
+   how: A help call can receive a reason-free adverse question or joke, so written response cannot be presumed to mean joining or reasoned refusal.
+   codes: c0017 asking for help as the Dutch swallow a Claptrap; c0019 dismissing the Claptrap effort as garbage; c0020 joking that king Willem will use the swallowed space
+   transitions: 636nqq:0>2, 636nqq:0>3
+
+== borussiadortmund-005  restrict  [pending]  repairs 1  not carried
+   source t05 (calling people in and taking five-minute turns); lift borussiadortmund:t05 > T3-002 > T4-005 > D01
+   how: Acceptance can include criticism of the draft, so the bare-join pattern is a variant rather than a requirement for answering a call.
+   codes: c0025 sharing a rough idea, coordinates, and progress while asking for help; c0026 saying they can make it better and starting to help
+   transitions: 62qjy5:1.1>1.1.1
+
+== btc-042  restrict  [pending]  repairs 0  not carried
+   source t03 (Carrying the block-size split onto the Bitcoin image); lift btc:t03 > T3-086 > T4-004 > D05
+   how: A factional alteration call receives bare refusals as well as a reasoned refusal, limiting any categorical acceptance-versus-refusal contrast.
+   codes: c0213 asking who is up for changing 'bitcoin' to 'unlimited' on r/place; c0215 refusing the proposed change with 'Nope'; c0219 refusing the proposed change with 'No'; c0220 not wanting to add fuel to a divided community
+   transitions: 6370q7:0>1, 6370q7:0>5, 6370q7:0>6
+
+== buffalo-015  restrict  [pending]  repairs 0  not carried
+   source t09 (saying they could not care less about r/place); lift buffalo:t09 > T3-037 > T4-002 > D06
+   how: A host readership includes nonparticipants who dismiss a protection call without developing a reason for refusal.
+   codes: c0016 calling everyone to protect the Buffalo corner; c0050 saying they could not care less about r/place
+   transitions: 630d3b:0>4
+
+== buffalowizards-004  restrict  [pending]  repairs 1  not carried
+   source t03 (coordinating how to maintain the picture); lift buffalowizards:t03 > T3-021 > T4-013 > D03
+   how: The self-authored proposal and commitment cannot establish the mechanism of recruiting another member through a call and acceptance pair.
+   codes: c0004 calling for hcjWows around it and showing them appear; c0005 coordinating to maintain the Spicy
+   transitions: 62pyo7:3>3.1
+
+== catalunya-006  restrict  [pending]  repairs 1  not carried
+   source t01 (making the senyera together); lift catalunya:t01 > T3-065 > T4-006 > D02
+   how: Acceptance can be conditional on receiving coordinates rather than a bare commitment that asks for nothing back.
+   codes: c0001 proposing a senyera on r/place; c0002 asking where to start before joining in
+   transitions: 62rl33:0>1
+
+== chelseafc-007  restrict  [pending]  repairs 1  not carried
+   source t08 (turning away from the crest attempt); lift chelseafc:t08 > T3-059 > T4-012 > D01
+   how: A help call receives a reasonless refusal, so the preference mechanism cannot require declining replies to supply reasons.
+   codes: c0111 asking for help painting the crest; c0112 asking the crest organiser to stop
+   transitions: 62vcif:0>1
+
+== chibears-014  restrict  [pending]  repairs 0  not carried
+   source t02 (joining the build and placing the C one pixel at a time); lift chibears:t02 > T3-038 > T4-007 > D02
+   how: Bare acceptance is observable, but the record does not establish a response obligation for every reader or a general preference structure for refusals.
+   codes: c0010 joining the Bears logo effort; c0038 joining the build; c0177 giving up after one green square and a five-minute wait
+   transitions: 62ool0:0>1, 6308cj:0>1
+
+== chicago-003  restrict  [pending]  repairs 1  not carried
+   source t07 (building, repairing and showing the Chicago flag); lift chicago:t07 > T3-065 > T4-006 > D02
+   how: Joining may revise the proposed design or depend on vandalism subsiding, so acceptance cannot be inferred to be uniformly bare or unconditional.
+   codes: c0001 inviting Chicagoans to create at (70, 355) in r/place; c0002 offering orange while proposing a C instead; c0108 making flag help conditional on vandalism dying down
+   transitions: 62pmvq:0>1
+
+== chicago-065  restrict  [pending]  repairs 1  not carried
+   source t09 (rallying for and fighting over sports designs); lift chicago:t09 > T3-084 > T4-017 > D04
+   how: A request to help another work can receive a scripting objection and a cheer without establishing completed assistance.
+   codes: c0092 asking Chi to help r/kanye fend off the Detroit Red Wings; c0093 calling scripting unwavy; c0094 doing it for Chi-town
+   transitions: 634dqx:0>1, 634dqx:0>2
+
+== chile-042  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying helpers for the flag and paltas); lift chile:t01 > T3-002 > T4-005 > D01
+   how: Bare joining is visible after explanation, but one reply does not establish a response obligation for every reader.
+   codes: c0046 joining the flag effort after receiving an explanation; c0076 joining the suggested drawing
+
+== cirkeltrek-010  restrict  [pending]  repairs 1  not carried
+   source t05 (correcting pixels and holding builders to the plan); lift cirkeltrek:t05 > T3-021 > T4-013 > D03
+   how: A proposal receives bare assent, but that pair cannot establish an obligation on every reader or a general preference structure for acceptance and refusal.
+   codes: c0032 proposing a wall of shame to stop wrong corrections; c0305 agreeing to make a topic for the wall of shame
+   transitions: 62s2zg:1.1.1>1.1.1.1
+
+== clashroyale-046  restrict  [pending]  repairs 0  not carried
+   source t02 (calling people to put Clash Royale marks on the canvas); lift clashroyale:t02 > T3-002 > T4-005 > D01
+   how: A bare completion reply supports the observed response form but cannot establish obligations for every reader, silent placements or the proposed preference organization.
+   codes: c0305 calling loyal players to make the Clash Royale King icon and upvote it on r/place; c0306 reporting the requested pixel work done
+   transitions: 62y37d:0>1
+
+== clg-007  restrict  [pending]  repairs 1  not carried
+   source t01 (getting a CLG logo onto the canvas); lift clg:t01 > T3-070 > T4-008 > D02
+   how: Bare acceptance is observed in replies to a plan, but those replies cannot establish an obligation for every reader or a general preference structure.
+   codes: c0011 resubmitting the teal-tile logo plan with a tag; c0012 joining the logo plan; c0015 joining the logo plan
+   transitions: 62qsdq:0>1, 62qsdq:0>4
+
+== cmu-013  restrict  [pending]  repairs 1  not carried
+   source t01 (choosing what and where CMU would put on the canvas); lift cmu:t01 > T3-020 > T4-014 > D04
+   how: Acceptance need not be bare because an explicit offer to help also asks where the group intends to build.
+   codes: c0009 checking the location and offering to help make the logo happen
+
+== coldplay-051  restrict  [pending]  repairs 0  not carried
+   source t01 (calling people in to help build the albums); lift coldplay:t01 > T3-002 > T4-005 > D01
+   how: The written acceptance supports the pairing without demonstrating an obligation to answer, a preference against refusals, or silent acceptance by placing.
+   codes: c0004 promising to help with X&Y; c0005 thanking a promised helper
+
+== completeanarchy-005  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying comrades to build and maintain canvas work); lift completeanarchy:t01 > T3-002 > T4-005 > D01
+   how: Bare answers occur in specific exchanges, but these pairs cannot establish an answer obligation for every reader or the proposed preference structure of refusals.
+   codes: c0017 calling to defend the flag; c0018 agreeing to defend the flag; c0088 giving pixel-by-pixel instructions to write spooky; c0089 reporting completion of the O and K
+   transitions: 62ndd2:5.3>5.3.1, 62stkv:1>1.1
+
+== croatia-051  restrict  [pending]  repairs 0  not carried
+   source t16 (Proposing another shared flag or canvas); lift croatia:t16 > T3-054 > T4-028 > D07
+   how: Bare refusal also occurs, so reply brevity cannot determine acceptance or establish that a declining member supplies a reason.
+   codes: c0228 calling everyone to a new place canvas; c0229 declining the replacement place canvas
+   transitions: 63a84r:0>1
+
+== cuboulder-006  restrict  [pending]  repairs 1  not carried
+   source t02 (finding the existing logo and making it bigger); lift cuboulder:t02 > T3-041 > T4-006 > D02
+   how: The bare joining reply supports a local acceptance pair but cannot establish silent placing, obligations on readers or the usual form of refusals.
+   codes: c0009 committing to make the logo bigger; c0010 joining the work to make it bigger
+   transitions: 63211f:2.1.1.1>2.1.1.1.1
+
+== daftpunk-011  restrict  [pending]  repairs 0  not carried
+   source t04 (reporting and celebrating what got made); lift daftpunk:t04 > T3-009 > T4-026 > D07
+   how: A completion report can renew recruitment, and the brief assent follows an intervening turn, so neither warrants treating all replies as bare direct acceptance.
+   codes: c0020 finishing Guy and recruiting friends for Thomas; c0037 choosing to build Thomas above Guy to avoid Majora; c0038 settling on the Thomas build above Guy
+
+== dallasstars-005  restrict  [pending]  repairs 0  not carried
+   source t05 (calling people in and getting the logo started); lift dallasstars:t05 > T3-002 > T4-005 > D01
+   how: Acceptance could ask for orientation or attach a practical condition, so a call did not make every written acceptance a bare commitment.
+   codes: c0042 offering help between maintaining the Asexual Pride sign while asking where to add; c0062 offering help while asking which coordinates are current; c0077 joining during intermission and after the game
+
+== danganronpa-006  restrict  [pending]  repairs 0  not carried
+   source t05 (pitching in pixel work); lift danganronpa:t05 > T3-003 > T4-026 > D07
+   how: Bare work reports coexist with conditional and reasoned acceptance, so local examples cannot establish an ordinary answer preference or obligations for silent readers.
+   codes: c0009 offering to help add a Puhuhu after finishing an avatar; c0022 joining the cause while warning that the blue corner may overtake it; c0024 reporting work on the sprite
+
+== davidbowie-012  restrict  [pending]  repairs 1  not carried
+   source t01 (recruiting people to put Bowie on r/place); lift davidbowie:t01 > T3-002 > T4-005 > D01
+   how: Acceptance can include recognition of an existing picture rather than arriving as a bare unexplained commitment.
+   codes: c0003 asking everyone to help add Bowie to r/place; c0004 getting on board after recognising Bowie
+   transitions: 62ykwn:0>1
+
+== denverbroncos-007  restrict  [pending]  repairs 1  not carried
+   source t05 (answering a Bronco drawing call with a dick joke); lift denverbroncos:t05 > T3-031 > T4-004 > D05
+   how: A drawing call can receive humorous redirection without either bare acceptance or an explanatory reason for declining.
+   codes: c0003 calling for making a Bronco somewhere in r/place; c0004 answering the Bronco call by proposing dicks wherever possible
+   transitions: 62puvs:0>1
+
+== ducks-013  restrict  [pending]  repairs 1  not carried
+   source t03 (answering r/ockytop's Puddles-and-truck invitation); lift ducks:t03 > T3-056 > T4-018 > D04
+   how: The call-response account must allow acceptance that asks for instructions rather than treating every join as an answer asking nothing back.
+   codes: c0008 inviting Duckbros over to r/place at 130, 290; c0009 joining in and asking for the game plan
+   transitions: 6346d1:0>1
+
+== edboxes-047  restrict  [pending]  repairs 1  not carried
+   source t01 (starting a small gang of boxes and a sub to run it); lift edboxes:t01 > T3-090 > T4-002 > D06
+   how: The clearest bare joining reply accepts helping run the sub, which does not itself demonstrate answering a placement call or every reader's obligation to answer
+   codes: c0003 asking to talk to r/ainbowroad and help run the sub; c0004 agreeing to help run
+   transitions: 62up17:1.1>1.1.1
+
+== edmontonoilers-042  restrict  [pending]  repairs 1  not carried
+   source t03 (getting people onto the logo work); lift edmontonoilers:t03 > T3-002 > T4-005 > D01
+   how: A bare offer answers the proposal, but other joins request coordinates or depend on agreement and cannot establish an obligation for every reader.
+   codes: c0003 proposing an orange Mcdavid above the Canada flag; c0004 joining by adding squares; c0008 joining and asking where to work; c0018 agreeing to switch if everyone else does
+   transitions: 62q99s:0>1
+
+== empiredidnothingwrong-007  restrict  [pending]  repairs 0  not carried
+   source t04 (settling an accidental canvas clash by helping one another); lift empiredidnothingwrong:t04 > T3-010 > T4-016 > D04
+   how: Bare commitment follows a template instruction, but collision resolution also produces reasoned acceptance, limiting the claim that joining is ordinarily explanationless in every local exchange.
+   codes: c0075 insisting that builders follow the template; c0076 promising to double their efforts; c0011 resolving a canvas clash by helping finish the Imperial design; c0014 forgiving the collision and joining because they like Star Wars
+   transitions: 62wc3f:2.1>2.1.1, 62nf7o:4.1>4.1.1
+
+== enterthegungeon-005  restrict  [pending]  repairs 1  not carried
+   source t01 (building the Bullet Kin together); lift enterthegungeon:t01 > T3-002 > T4-005 > D01
+   how: Bare assent occurs locally, but complaints about missing help prevent inferring acceptance from every reader or testing a general preference over reasoned refusal.
+   codes: c0001 calling for a Bullet Kin sprite on r/place; c0002 placing the sprite to the left of Isaac; c0113 saying nobody is helping and they are the only one doing it
+   transitions: 62pzox:0>1, 62xbpz:0>1
+
+== faeria-008  restrict  [pending]  repairs 1  not carried
+   source t01 (building, repairing, and rebuilding the Yak together); lift faeria:t01 > T3-002 > T4-005 > D01
+   how: Bare joins and explained declines are visible, but these replies cannot establish that every reader owed an answer or that silent placing accepted the call.
+   codes: c0017 placing a dot and waiting ten minutes; c0018 promising to participate at least three times a day; c0055 declining late-night help because tomorrow is a weekday
+
+== falcons-006  restrict  [pending]  repairs 1  not carried
+   source t03 (arguing whether the canvas fight is worth caring about); lift falcons:t03 > T3-037 > T4-002 > D06
+   how: Bare agreement occurs, but bare dismissal also answers the initial call, so the record does not establish reason-giving as necessary for declining.
+   codes: c0002 gathering everyone who hates the Pats to delete their logo; c0003 asking who gives a fuck about the canvas call; c0071 joining the canvas effort
+   transitions: 62nqpy:0>2
+
+== farmcarrots-050  restrict  [pending]  repairs 1  not carried
+   source t05 (negotiating room with neighbors); lift farmcarrots:t05 > T3-010 > T4-016 > D04
+   how: Bare assent occurs in neighbor design negotiation, which does not itself establish acceptance of the host room's own call.
+   codes: c0133 proposing a carrotized S design; c0134 accepting the carrotized S design
+   transitions: 62v5on:2.2>2.2.1
+
+== feedthebeast-004  restrict  [pending]  repairs 0  not carried
+   source t04 (turning clay and a Draconic heart into the room's r/place drawing); lift feedthebeast:t04 > T3-026 > T4-026 > D07
+   how: The proposal receives a bare completion answer, but this pair cannot establish preferred acceptance or silent responses through placing.
+   codes: c0030 planning a Draconic heart underneath the clay; c0032 announcing that they did it
+   transitions: 62sdvj:0>2
+
+== formula1-049  restrict  [pending]  repairs 0  not carried
+   source t03 (floating Bwoah, tracks and other canvas ideas); lift formula1:t03 > T3-033 > T4-006 > D02
+   how: A direct refusal can be bare and unexplained, although other participants supply an alternative proposal.
+   codes: c0014 calling all r/Formula1 Redditors to make Bwoah on r/place; c0015 rejecting the call to make Bwoah; c0017 proposing drawing circuits like Spa instead
+   transitions: 62nbzp:0>1, 62nbzp:0>3
+
+== france-033  restrict  [pending]  repairs 0  not carried
+   source t01 (rallying people around a French target); lift france:t01 > T3-002 > T4-005 > D01
+   how: Bare-assent evidence must be checked against the whole item because an accepting fragment can accompany a request for outside assistance.
+   codes: c0007 joining in to help; c0008 asking whether to seek help on r/place
+   transitions: 62mzgy:1.1.1>1.1.1.1
+
+== frankocean-006  restrict  [pending]  repairs 1  not carried
+   source t04 (working out one shared build); lift frankocean:t04 > T3-002 > T4-005 > D01
+   how: A visible bare acceptance supports one exchange but does not establish universal acceptance or a placing response from silent readers.
+   codes: c0003 joining the Frank Ocean writing attempt; c0037 contrasting upvotes with nobody helping
+
+== ftlgame-042  restrict  [pending]  repairs 0  not carried
+   source t02 (making the build followable pixel by pixel); lift ftlgame:t02 > T3-070 > T4-008 > D02
+   how: Written uptake of a call can request instructions while joining, so bare acceptance cannot exhaust the supported response forms.
+   codes: c0001 proposing an engi or Lanius to leave our mark; c0003 asking for coordinates and an image, then starting at the engi's visor
+   transitions: 62s1as:0>1
+
+== fullcommunism-043  restrict  [pending]  repairs 1  not carried
+   source t02 (defending, cleaning and rebuilding the motherland); lift fullcommunism:t02 > T3-005 > T4-013 > D03
+   how: Acceptance can include an ideological reason, so reason-giving alone cannot distinguish refusal or establish an obligation answered by every reader.
+   codes: c0205 answering affirmatively and refusing to let /pol/ win
+   transitions: 636lj8:0>1
+
+== furry-004  restrict  [pending]  repairs 1  not carried
+   source t07 (switching from scattered targets to the snoo); lift furry:t07 > T3-069 > T4-013 > D03
+   how: Written bare acceptance occurs, but conditional refusal also occurs and neither establishes obligations or silent acceptance by every reader.
+   codes: c0151 answering the QR-code request with help; c0039 withholding help until the yiff wording stops; c0035 placing a first block and promising to keep helping
+
+== gameattack-011  restrict  [pending]  repairs 2  not carried
+   source t07 (plugging away and finishing the logo together); lift gameattack:t07 > T3-038 > T4-007 > D02
+   how: A bare work report supports the proposed acceptance form but does not establish an obligation on each reader or the preference mechanism behind answering.
+   codes: c0021 starting the Game Attack logo at 911,411; c0027 plugging away on the 911,411 logo
+   transitions: 62xyjd:0>3
+
+== gamindustri-054  restrict  [pending]  repairs 0  not carried
+   source t09 (defending the Nep as a war); lift gamindustri:t09 > T3-005 > T4-013 > D03
+   how: Brief joins are visible, but the proposed obligation on every reader and silent acceptance through placing cannot be tested.
+   codes: c0100 joining the fray for r/gamindustri
+
+== giivasunner-042  restrict  [pending]  repairs 1  not carried
+   source t06 (calling people back to build and repair Fred); lift giivasunner:t06 > T3-002 > T4-005 > D01
+   how: A bare completion answer occurs, but other acceptances depend on the project proceeding or spare time between defence, and silent placers remain unobservable.
+   codes: c0082 placing the requested tile; c0158 joining a full Grand Dad move to the rainbow space; c0184 pitching in between Fleentstar defence
+
+== glasgow-021  restrict  [pending]  repairs 1  not carried
+   source t02 (asking what the saltire talk is about); lift glasgow:t02 > T3-037 > T4-002 > D06
+   how: Replies seeking and supplying clarification cannot count as bare joins without evidence of commitment.
+   codes: c0001 asking for help making a saltire already in progress; c0002 asking what the saltire organiser is slevvering about; c0003 explaining that drawing needs cooperation; c0004 showing an example of what r/place looks like
+   transitions: 62ogg7:0>1, 62ogg7:1>1.1, 62ogg7:1.1>1.1.1
+
+== globaloffensive-005  restrict  [pending]  repairs 0  not carried
+   source t03 (building out the logo and nearby CS:GO pictures); lift globaloffensive:t03 > T3-038 > T4-007 > D02
+   how: Bare acceptance is observed, but a bare refusal also occurs, so explanatory reasons cannot be required of every declining response.
+   codes: c0014 proposing that the room coordinate CS:GO pixel art; c0017 rejecting the coordination proposal with 'how bout NO'; c0614 calling the community to show its strength on r/place; c0615 answering the r/place call with let’s do it
+   transitions: 62mvzz:0>1, 62ucja:0>1
+
+== gorillaz-007  restrict  [pending]  repairs 1  not carried
+   source t01 (settling on KATSU for a contribution); lift gorillaz:t01 > T3-033 > T4-006 > D02
+   how: Bare written acceptances are visible, but they cannot establish an obligation answered by every reader or the conduct of silent readers.
+   codes: c0001 asking for a contribution to /r/place; c0002 being down to contribute; c0004 agreeing definitely on KATSU
+   transitions: 62q2mo:0>1, 62q2mo:0>3
+
+== gratefuldead-007  restrict  [pending]  repairs 1  not carried
+   source t02 (explaining how to organize enough pixel help); lift gratefuldead:t02 > T3-016 > T4-003 > D01
+   how: Acceptance need not be bare or self-sufficient when a willing helper also needs instructions before participating.
+   codes: c0019 joining while asking for detailed instructions; c0020 explaining one-pixel ten-minute intervals
+   transitions: 62qb0m:1>1.1
+
+== greenlattice-036  restrict  [pending]  repairs 1  not carried
+   source t09 (building and protecting admitted art); lift greenlattice:t09 > T3-011 > T4-017 > D04
+   how: Bare thanks answer a repair proposal here, while an observed joiner asks how to help rather than giving a bare recruitment acceptance.
+   codes: c1140 invoking Rule #1 to rebuild approved art; c1141 thanking the rebuild call; c0041 joining and asking how to help
+   transitions: 6369ju:1>1.1
+
+== greyblob-015  restrict  [pending]  repairs 0  not carried
+   source t09 (taking the Grey Blob to another canvas); lift greyblob:t09 > T3-054 > T4-028 > D07
+   how: Acceptance can include an availability explanation and defer help, so a reasoned response cannot be treated as a refusal merely because it is not bare.
+   codes: c0107 trying to build Pusheen and asking for help; c0108 promising to help build after getting home
+   transitions: 63bhj5:1.1>1.1.1
+
+== guatemala-005  restrict  [pending]  repairs 0  not carried
+   source t02 (getting more people in and telling the room they started); lift guatemala:t02 > T3-065 > T4-006 > D02
+   how: The observed bare join answers a placement update, so this pair cannot establish an explicit call as its immediate trigger or an obligation felt by every reader.
+   codes: c0005 posting the leftmost pixel and its location; c0006 joining in after the first pixel
+   transitions: 630w4w:2>2.1
+
+== habs-004  restrict  [pending]  repairs 0  not carried
+   source t05 (building and moving the Habs logo one pixel at a time); lift habs:t05 > T3-038 > T4-007 > D02
+   how: A bare participation report supports one acceptance, not an obligation on every reader or an account of silent placement.
+   codes: c0072 calling the missing Habs logo a tragedy; c0075 putting down a pixel and hoping for completion
+   transitions: 62u0zc:0>1
+
+== haskell-004  restrict  [pending]  repairs 0  not carried
+   source t01 (calling and joining attempts to draw a Haskell logo); lift haskell:t01 > T3-002 > T4-005 > D01
+   how: The call receives explicit acceptance, but the answer evaluates the template rather than offering an unexplained commitment.
+   codes: c0005 launching a second attempt with the H center and a new template; c0008 joining in because the template looks good
+   transitions: 62v362:0>1
+
+== hearthstone-031  restrict  [pending]  repairs 1  not carried
+   source t17 (asking Hearthstone to help add circlejerk text above the logo); lift hearthstone:t17 > T3-084 > T4-017 > D04
+   how: A short answer warrants acceptance only when it commits to helping, since a terse response to an alteration request leaves acceptance and refusal unresolved.
+   codes: c0327 asking r/hearthstone to help r/hearthstonecirclejerk on r/place; c0330 asking for help to overcome Rocket League defending their text; c0332 answering the help request with 'Nice try'
+   transitions: 63814n:0>1
+
+== homelab-053  restrict  [pending]  repairs 1  not carried
+   source t08 (reporting the Homestuck banner changing hands); lift homelab:t08 > T3-073 > T4-027 > D07
+   how: A bare completion report answers the proposal, but the concepts do not expose each reader's acceptance or prove that recruitment generated individual participation.
+   codes: c0029 announcing an r/homelab takeover on r/place; c0031 calling on people to get rid of Homestuck and replace it with HOMELAB; c0036 reporting that the canvas now says homelab
+   transitions: 636e4w:0>8
+
+== hongkong-048  restrict  [pending]  repairs 1  not carried
+   source t01 (calling people in to make a Hong Kong mark); lift hongkong:t01 > T3-065 > T4-006 > D02
+   how: Accepting a call can request coordinates or explain manpower conditions rather than supplying a bare answer
+   codes: c0003 calling on people to help draw our flag; c0004 asking for the coordinate to start; c0009 doubting there is enough manpower but offering to join
+   transitions: 62xcws:0>1, 62xcws:0>3
+
+== hsv-005  restrict  [pending]  repairs 0  not carried
+   source t01 (giving the small sub's logo another go); lift hsv:t01 > T3-002 > T4-005 > D01
+   how: Visible acceptances support the local pairing but cannot establish obligations for every reader or acceptance through silent placement.
+   codes: c0006 offering to try and help; c0046 backing another attempt
+
+== ibo-006  restrict  [pending]  repairs 0  not carried
+   source t01 (getting people in to make a mark); lift ibo:t01 > T3-002 > T4-005 > D01
+   how: The observed acceptance does not establish that every reader owes an answer or that refusals would require reasons
+   codes: c0001 asking whether r/ibo can make this happen at r/place; c0002 saying yes and having thought of it too; c0012 joining the effort and asking for a Discord
+
+== indieheads-057  restrict  [pending]  repairs 1  not carried
+   source t13 (testing which album or logo to draw next); lift indieheads:t13 > T3-041 > T4-006 > D02
+   how: Proposal answers include template-conditioned acceptance and both bare and reasoned refusals, so acceptance cannot be assumed or treated as invariably bare.
+   codes: c0233 proposing an Animal Collective place idea; c0234 rejecting the Animal Collective idea with a bare no; c0235 saying the discussed Animal Collective idea seems too difficult; c0237 proposing the Strokes on r/place; c0238 being down to help if there was a template
+   transitions: 637jw6:0>1, 637jw6:0>2, 637nau:0>1
+
+== ireland-046  restrict  [pending]  repairs 0  not carried
+   source t03 (making, growing, and mending the fleg); lift ireland:t03 > T3-065 > T4-006 > D02
+   how: Written bare acceptance is visible in direct replies but neither silent placement nor the response obligations of every reader can be established
+   codes: c0038 telling everyone to expand green and orange before white; c0039 following the lead on tile order; c0101 starting a border around Up the Ra; c0102 offering to help with the border
+
+== japan-056  restrict  [pending]  repairs 0  not carried
+   source t01 (calling people in and answering the call to work on Japan); lift japan:t01 > T3-065 > T4-006 > D02
+   how: A bare response supports one acceptance sequence but cannot establish that every reader owes an answer or that silent placing occurred.
+   codes: c0001 calling for help making a Japan flag; c0010 reporting helping with the flag; c0013 joining the help and finding the coordination post
+   transitions: 62rewl:0>4
+
+== jerma985-005  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying people to help the cause); lift jerma985:t01 > T3-002 > T4-005 > D01
+   how: Bare acceptance is visible, but an obligation on every reader and a preference structure cannot be established from the observed pair.
+   codes: c0003 asking for help finishing a burgha; c0005 promising to contribute to the burgha
+   transitions: 62nz8x:2>2.1
+
+== kamenrider-055  restrict  [pending]  repairs 0  not carried
+   source t01 (getting people placing Mighty together); lift kamenrider:t01 > T3-002 > T4-005 > D01
+   how: The observed bare acceptance supports written commitment but cannot determine silent placement or the form of unobserved refusals.
+   codes: c0001 calling everyone to draw a Mighty; c0005 joining the Mighty drawing; c0006 joining in
+
+== katawashoujo-042  restrict  [pending]  repairs 1  not carried
+   source t01 (calling for KS pictures and working out where to put them); lift katawashoujo:t01 > T3-033 > T4-006 > D02
+   how: A recruitment call can receive a request for missing coordinates instead of a bare commitment, leaving silent acceptance untestable.
+   codes: c0002 calling on people to make it happen; c0003 asking where to put it
+   transitions: 62qy6c:0>1
+
+== lakers-072  restrict  [pending]  repairs 1  not carried
+   source t22 (defending and rebuilding the logo until placing ends); lift lakers:t22 > T3-005 > T4-013 > D03
+   how: A bare written acceptance after the placement cutoff cannot establish that the accepted repair task was carried out.
+   codes: c0180 answering a border-rebuild request after placement ended

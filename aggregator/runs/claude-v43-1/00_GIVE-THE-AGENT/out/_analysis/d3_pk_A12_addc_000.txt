@@ -1,0 +1,121 @@
+A12: 21 lines in all (op add-condition); packet [0, 21): 21 lines; carried through no third-order tier
+ops in the packet: {'add-condition': 21}
+
+== Dorset-054  add-condition  [pending]  repairs 0  not carried
+   source t02 (working out how neighbours can fit and help); lift Dorset:t02 > T3-010 > T4-016 > D04
+   how: A bare joining passage can coexist with a territorial warning in the same turn, so accepting help does not establish unqualified approval of the arrangement.
+   codes: c0004 coming from Devon to help; c0005 warning that taking a Cornish flag might create tensions
+
+== GuardiansOfDatBoi-004  add-condition  [pending]  repairs 1  not carried
+   source t05 (Turning the beam toward OSU); lift GuardiansOfDatBoi:t05 > T3-006 > T4-020 > D08
+   how: A one-line acceptance can depend on visible initiation, so an affirmative answer cannot automatically count as an unconditional commitment to start.
+   codes: c0042 proposing portal-gunning the beam; c0043 promising to contribute once portal-gunning starts
+   transitions: 634tqv:0>1
+
+== Peru-014  add-condition  [pending]  repairs 1  not carried
+   source t02 (turning other flags into Peru's—and debating it); lift Peru:t02 > T3-068 > T4-020 > D08
+   how: A bare assent after placement ends records affiliation with a proposal but cannot demonstrate subsequent placing.
+   codes: c0050 proposing an alliance with r/Quebec to transform Canada's flag; c0057 joining the Quebec proposal
+
+== PurplePixels-048  add-condition  [pending]  repairs 2  not carried
+   source t08 (appointing overseers and laying down Purple rules); lift PurplePixels:t08 > T3-101 > T4-011 > D02
+   how: A bare affirmative answer is locally visible for accepting an organising office, while silence cannot establish placement acceptance.
+   codes: c0137 offering the role of Recruitment Overseer; c0138 accepting the Recruitment Overseer role and promising to perform its duties
+
+== armok-057  add-condition  [pending]  repairs 0  not carried
+   source t09 (scootching the dwarves closer without fighting themselves); lift armok:t09 > T3-055 > T4-013 > D03
+   how: Accepting a proposal may depend on seeing progress, while hesitation and existing tasks can also make acceptance reasoned or delayed.
+   codes: c0049 warning that scootching would look like vandalism and make them fight their own people; c0050 reversing course after seeing progress and chipping in; c0069 finishing the top-line reshuffle before joining the flag dwarf
+   transitions: 63403p:1>1.1, 637lgx:0>4
+
+== detroitlions-051  add-condition  [pending]  repairs 0  not carried
+   source t15 (finding the canvas had ended after proposing more); lift detroitlions:t15 > T3-117 > T4-027 > D07
+   how: Placement acceptance requires an open canvas, because a would-be helper explicitly cites the event ending as the reason they cannot help.
+   codes: c0136 proposing the space below the helmet for another image; c0137 filling the space white and calling for all hands on deck; c0138 saying they would help if the canvas had not ended
+   transitions: 637nxp:0>2
+
+== dota2-008  add-condition  [pending]  repairs 1  not carried
+   source t06 (Adding names, mangoes, and other Dota pictures); lift dota2:t06 > T3-041 > T4-006 > D02
+   how: A refusal can also be bare, so the acceptance pattern cannot make a reason obligatory for declining.
+   codes: c0086 telling people to go start painting on r/place; c0089 answering the logo call with no
+   transitions: 62njy3:0>1
+
+== dwarffortress-057  add-condition  [pending]  repairs 1  not carried
+   source t08 (turning canvas events into Dwarf Fortress stories and jokes); lift dwarffortress:t08 > T3-135 > T4-004 > D05
+   how: The observed acceptance pair supports a written response without testing normative obligation, refusal preferences, or unrecorded placement answers.
+   codes: c0049 requesting help with a dead goblin after the Urist is done; c0050 accepting the dead-goblin plan as a reassigned task
+   transitions: 62to33:3>3.1
+
+== minecraft-016  add-condition  [pending]  repairs 1  not carried
+   source t03 (Calling people to make or finish Minecraft pictures); lift minecraft:t03 > T3-002 > T4-005 > D01
+   how: Refusal may also be bare, so the presence or absence of a reason cannot identify acceptance versus refusal in every exchange
+   codes: c0009 calling on the room to fix something found in r/place together; c0013 refusing the call to fix it
+   transitions: 62ov6n:0>2
+
+== neopets-049  add-condition  [pending]  repairs 1  not carried
+   source t02 (backing off the mango and making peace); lift neopets:t02 > T3-047 > T4-015 > D04
+   how: Joining can be explicitly conditional on sparing another person's territory rather than a bare assent.
+   codes: c0021 joining once the build is off someone else's territory
+
+== oman-011  add-condition  [pending]  repairs 1  not carried
+   source t06 (telling a late helper the sub had already finished); lift oman:t06 > None > None > None
+   how: Bare acceptance supplies usable placing capacity only while placement remains open.
+   codes: c0007 arriving to help after the event; c0008 telling a late helper the sub had already finished
+
+== pcmasterrace-006  add-condition  [pending]  repairs 1  not carried
+   source t05 (recruiting and teaching people to place pixels); lift pcmasterrace:t05 > T3-002 > T4-005 > D01
+   how: Willing readers who lack procedural knowledge require explanation before committing to help.
+   codes: c0466 asking what the urgent call means; c0467 explaining that the banner is not doing well at maintaining its pattern; c0468 understanding the call and offering to help
+   transitions: 62qvq6:1>1.1, 62qvq6:1.1>1.1.1
+
+== pebble-052  add-condition  [pending]  repairs 1  not carried
+   source t03 (moving Pebble away from guarded neighbours); lift pebble:t03 > T3-039 > T4-014 > D04
+   how: Bare assent also answers a continuing-war proposal and a relocation correction, so initial recruitment is not its sole eliciting context.
+   codes: c0030 forming a continuity pebble reddit army to keep fighting kebble; c0031 agreeing to split off while questioning what a Kebble is; c0043 shifting left to avoid Halo and proposing mutual help after either drawing finishes; c0044 stopping work on the old spot to help the shifted design
+   transitions: 62w84n:1.1>1.1.1, 634zu0:5.1>5.1.1
+
+== philippines-053  add-condition  [pending]  repairs 0  not carried
+   source t12 (correcting late arrivals after placement ended); lift philippines:t12 > T3-031 > T4-004 > D05
+   how: Calls require an actionable canvas, and a late acceptance asking for guidance cannot be counted as bare joining.
+   codes: c0552 calling to build a Philippine flag in r/place; c0560 telling the builder the event is finished and they are three days late; c0562 joining the build call and asking what to do
+
+== portal-011  add-condition  [pending]  repairs 0  not carried
+   source t06 (working out where Portal can fit without running over neighbours); lift portal:t06 > T3-020 > T4-014 > D04
+   how: Joining can include a reason and a reservation about harming another group, so acceptance must not be equated with unqualified assent.
+   codes: c0083 joining while objecting to painting over Rocket League; c0069 joining the Aperture Science build
+
+== rickandmorty-044  add-condition  [pending]  repairs 0  not carried
+   source t12 (answering a Pickle Rick canvas call with a tattoo); lift rickandmorty:t12 > T3-031 > T4-004 > D05
+   how: An answer can substitute a personal tattoo story for canvas participation, so reply adjacency alone does not establish acceptance.
+   codes: c0282 calling to draw Pickle Rick on r/place; c0284 answering the Pickle Rick call with a leg; c0285 using Japan daylight to get a Pickle Rick tattoo during the premiere; c0286 promising to post the Pickle Rick tattoo after waking
+   transitions: 62zyh9:0>1
+
+== sadboys-008  add-condition  [pending]  repairs 4  not carried
+   source t05 (answering calls to help); lift sadboys:t05 > T3-002 > T4-005 > D01
+   how: The preference for reasoned refusals is qualified by a bare no posted after placement had ended.
+   codes: c0008 asking who is down to make an image in /r/place; c0014 answering the proposal with no after pixel placement ended
+   transitions: 63301p:0>5
+
+== scotland-051  add-condition  [pending]  repairs 0  not carried
+   source t02 (arguing over turning the Union Jack into a Saltire); lift scotland:t02 > T3-068 > T4-020 > D08
+   how: A call can receive a bare refusal without an explanatory reason, as well as the bare acceptance described by the model.
+   codes: c0147 asking for help building the four flags of the Union Jack; c0148 declining to help build the four Union Jack flags
+   transitions: 6309qy:0>1
+
+== shield-063  add-condition  [pending]  repairs 0  not carried
+   source t10 (figuring out how to see r/place and its plans); lift shield:t10 > T3-016 > T4-003 > D01
+   how: Acceptance may be coupled to an immediate request for a diagram, so an opening commitment does not make the whole response a bare answer.
+   codes: c0068 joining and asking for a diagram; c0069 saying the diagram is in another post but cannot link it
+   transitions: 630rx5:2>2.1
+
+== starbound-030  add-condition  [pending]  repairs 1  not carried
+   source t04 (making room with neighbours and allies); lift starbound:t04 > T3-010 > T4-016 > D04
+   how: The bare refusal of a pact limits extending the reasoned-refusal expectation beyond placement calls or treating it as obligatory
+   codes: c0031 proposing a pact with r/homestuck; c0032 rejecting the Homestuck pact; c0073 posting support for the claim
+   transitions: 62xaz0:4>4.1
+
+== uofm-004  add-condition  [pending]  repairs 0  not carried
+   source t17 (calling it a waste of time but not walking away); lift uofm:t17 > T3-037 > T4-002 > D06
+   how: Acceptance can include negative evaluation and difficulty disengaging rather than unqualified enthusiasm.
+   codes: c0012 calling for help building the Block M; c0244 calling participation a total waste of time while unable to walk away
+   transitions: 62nu19:0>3

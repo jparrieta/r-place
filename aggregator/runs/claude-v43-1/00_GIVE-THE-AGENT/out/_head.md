@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Last written at D3a-38, 2026-10-20 UTC. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 to 176 (R01, P05, P22, P21, A21) moved the hash; D3c refreezes it.
+Last written at D3a-39, 2026-10-20 UTC. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 to 176 (R01, P05, P22, P21, A21) moved the hash; D3c refreezes it.
 
 ## The method question, in one sentence
 
@@ -18,17 +18,15 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **J, 16 October, 12:59 Berlin:** absent lines are counted by observation; only observed-absent and not-needed are evidenced, the rest are limits counted apart. Compare repaired and unrepaired rooms where repairs bear on a ruling.
 - **QD3-001 (J):** packets are read whole through a helper; rulings may be batched from a file giving every id its own decision and reason.
 - **QD3-002 (J, 16 October; carry it):** "the analyst is doing induction." I place codes where the population's evidence leads, say why, and ask for the changes I need: "Not the rules bound their understanding."
-- **J, 16 October, 19:08 Berlin, on drift (carry it):**
-  - Re-orient at every leg start and after every compaction: read `handback-C5.md` and the model as it stood before this stage, then the current elements, arrows and history.
-  - Make a blind re-rule check at D3a-10 (done) and before the D3c freeze: about 50 lines, pairs left for the handler's kappa.
-  - A ruling rule changes only by a dated amendment that says whether it applies backwards.
+- **J, 16 October, 19:08 Berlin, on drift (carry it):** Re-orient at every leg start and after every compaction: read `handback-C5.md` and the model as it stood before this stage, then the current elements, arrows and history. Make a blind re-rule check at D3a-10 (done) and before the D3c freeze: about 50 lines, pairs left for the handler's kappa. A ruling rule changes only by a dated amendment that says whether it applies backwards.
 - **QD3-003 to QD3-006 (J, 18 October):** G4a applies forward and backwards to add, link, instantiate and restrict lines.
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
+- **QD3-008 (J):** option 2: A11's 'settled' goes to D3c; wording questions without a correction are mine, logged.
 
-## The return (D1a to D3a-38)
+## The return (D1a to D3a-39)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 were revised (moves 172, 173); P22 and P21, the field's entries, stand reworded (moves 174, 175). The other 21 stand uncorrected. A21 stands bounded (move 176): the agreement comes first in 114 of 162 rooms. A01 to A11 stand uncorrected; 222 rooms start and call in one post; keeping follows a report, 308 of 331; talk follows keeping, 141 of 265; sparing follows terms, 227 of 295; machine hands follow upkeep, 87 of 144; marking follows a report, 131 of 156; records follow marking, 232 of 240; carrying on follows a record, 163 of 184; moves follow doubt, 112 of 159; a layout answers design talk in-thread, 111 of 228.
+- **D3a, by element.** R01 and P05 were revised (moves 172, 173); P22 and P21, the field's entries, stand reworded (moves 174, 175). The other 21 stand uncorrected. A21 stands bounded (move 176): the agreement comes first in 114 of 162 rooms. A01 to A12 stand uncorrected; 222 rooms start and call in one post; keeping follows a report, 308 of 331; talk follows keeping, 141 of 265; sparing follows terms, 227 of 295; machine hands follow upkeep, 87 of 144; marking follows a report, 131 of 156; records follow marking, 232 of 240; carrying on follows a record, 163 of 184; moves follow doubt, 112 of 159; a layout answers design talk in-thread, 111 of 228; another member answers a call in-thread, 430 of 480; joins come bare, 392 of 411.
 - **D3a-15 to D3a-26.** Rooms of 705: attacks [P09] 510, taunts [P18] 404, moves after a loss [P10] 300, too few hands or room [K02] 520, machine hands [P14] 320, carrying on [P13] 292, the host's line [P20] 310, coalitions [P17] 383, bare answers [P15] 579, decided order [C01] 136, an old tie naming the rival [C02] 112, who may commit the room [P21] 163.
 
 ## The current account, and the contrary rooms
@@ -64,11 +62,11 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 ## Where the run stands
 
 - **D3a outputs:**
-  - `adjudications.jsonl`: 30,822 lines ruled, 31,590 with re-rulings;
-  - the stage's notes: G1 to G43 (six of them amended once), G13a, G4a (three amendments) and the field's entries.
+  - `adjudications.jsonl`: 31,569 lines ruled, 32,338 with re-rulings;
+  - the stage's notes: G1 to G44 (six of them amended once), G13a, G4a (three amendments) and the field's entries.
 - **Ledgers (lines):** tier history 561; model history 150; findings 37 (23 findings); elements 30 (25 standing, 5 candidates); arrows 21.
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
-- **Questions:** QD3-008 open (A11's 'settled').
+- **Questions:** none open.
 
 ## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
@@ -79,7 +77,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Stage C2
 
-- **J's ruling on QC2-002, verbatim:** "from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Work pass 5 from pass 4's state. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the rooms show membership naming the rival in the same turn as the attack, carry it as a claim in their words, marked as untested for order. This is the last closing pass. Close by saying what you are sure of, what you are not, and why."
+- **J's ruling on QC2-002 (two spent sentences cut):** "from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the rooms show membership naming the rival in the same turn as the attack, carry it as a claim in their words, marked as untested for order. Close by saying what you are sure of, what you are not, and why."
 - **Pass 1 (C2a-01).** J at 23:24 Berlin: "Remember Gioia Corley Hamilton and the job the agent has. Remember we need to give it confidence so they can gain intuition and trust on the model."
 
 ## Stage C1 (carry the rulings)
@@ -87,11 +85,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 - **QC1-001 (J).** C1 rechecks place each item by the amended gates over the whole scheme.
 - **QC1-002 (J).** Lean to one placement; a second theme needs three concepts of its own (J's floor).
 - **QC1-003 (the handler, for J).** Five revision-rate errors stay in `out/_analysis/c1_unapplied.jsonl`; all 34 count.
-- **Reading rules (`scheme_v2.md`).**
-  - A theme names an act in the record of the room whose threads hold the words (the visitor rule).
-  - "The work" is the room's own unless a field names another's.
-  - A bare mention of the event holds no act.
-  - Help between rooms is read from either room's record.
+- **Reading rules (`scheme_v2.md`).** A theme names an act in the record of the room whose threads hold the words (the visitor rule). "The work" is the room's own unless a field names another's. A bare mention of the event holds no act. Help between rooms is read from either room's record.
 
 ## J's rulings on how a ruling is made (13 October; carry them)
 
@@ -124,13 +118,13 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-38**, to weigh after order tests:
+- **From D3a-02 to D3a-39**, to weigh after order tests:
   - C01's: decided order's reach (3, beside A19); contests over where the room decides (5);
   - P13's: keeping begun while building; routes in from help, marking or loss; a possible loop;
   - P20's: the line crossed; the clock shaping it; removals sending talk elsewhere; canvas-born rooms;
   - P17's: prior ties and colour faiths choosing allies (C02); P21's four forms;
   - P15's: its edge with P11 and P03; joins waiting on a visible start (criticalrole);
-  - at D3c: the spine's three links, A04's split, A05's mechanism, A06's bound, A07's to A10's one-act, carry-first and move-first rooms, two-way checks; A11's template-first rooms;
+  - at D3c: the spine's three links, A04's split, A05's mechanism, A06's bound, A07's to A10's one-act, carry-first and move-first rooms, two-way checks; A11's template-first rooms; A12's reason test and starts joined;
   - P09's: what precedes the attack (13) and what picks its target (9, C02); P18's: what opens the contest (6, A18);
   - P10's and K02's (A10, F-019): copies before a loss; no move (40) or giving up (12) after doubt;
   - P19's form (9; 5 allied host ties); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4; kin ties, 3);
@@ -151,34 +145,14 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Rules kept
 
-- **Checking.**
-  - Never type an id, an order, a name or a count from memory; check with a script.
-  - Never log a write before the tool answers. Count a ledger's lines after appending.
-  - Check a claim against its source, and a check's format, before writing.
-- **Logging.**
-  - There is no `--kind close`; log closes as notes.
-  - Log an abductive read with `--kind abductive` before it runs, with its rules written first.
-  - Log every move with `--kind move`, naming one of Grodal, Anteby and Holm's eight ("stabilizing" is not one), and snap it.
-- **Writing and checks.**
-  - Never put a placeholder or a no-op in a command.
-  - Never put an Edit or Write and its check in one turn.
-  - Never run two writes or Edits to one file in parallel.
-  - Count the head's words before the closing line.
-- **Ledger formats.**
-  - A superseding finding's `supersedes` is the bare id.
-  - Every arrow needs `negative_check`.
-  - The head never names a proposition id.
-  - A re-ruling, or a history correction, is an appended line; the earlier line stays.
-- **The permission check refuses:**
-  - deleting a file, even a link;
-  - shell variables, loops, functions, brace groups, heredocs and words beginning "for_";
-  - `find -exec` with braces; awk with system() or `$` fields; env-var prefixes;
-  - cat or jq on `out/diary/`; `cut -c` after any read, `cite.py` or a helper; `head -n -N`.
-
-  Write a script in `out/_analysis/` instead.
+- **Checking.** Never type an id, an order, a name or a count from memory; check with a script. Never log a write before the tool answers. Count a ledger's lines after appending. Check a claim against its source, and a check's format, before writing.
+- **Logging.** There is no `--kind close`; log closes as notes. Log an abductive read with `--kind abductive` before it runs, with its rules written first. Log every move with `--kind move`, naming one of Grodal, Anteby and Holm's eight ("stabilizing" is not one), and snap it.
+- **Writing and checks.** Never put a placeholder or a no-op in a command. Never put an Edit or Write and its check in one turn. Never run two writes or Edits to one file in parallel. Count the head's words before the closing line.
+- **Ledger formats.** A superseding finding's `supersedes` is the bare id. Every arrow needs `negative_check`. The head never names a proposition id. A re-ruling, or a history correction, is an appended line; the earlier line stays.
+- **The permission check refuses** deleting any file or link; shell variables, loops, functions, brace groups, heredocs and words beginning "for_"; `find -exec` with braces; awk with system() or `$` fields; env-var prefixes; cat or jq on `out/diary/`; `cut` after a read or a helper; `head -n -N`. Write a script in `out/_analysis/` instead.
 - **Output.** Bash output above 30 KB is cut; measure first.
 - **Files.** Read the field only from `out/field`.
 
 ## The next comparison
 
-The unruled groups (other arrows, candidates, dimension lines), by G1 to G43 with G13a and G4a; then the `propose` lines. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The unruled groups (other arrows, candidates, dimension lines), by G1 to G44 with G13a and G4a; then the `propose` lines. The split rooms and the 19 story-miss rooms wait for the verdicts leg.

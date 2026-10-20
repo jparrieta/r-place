@@ -1,0 +1,38 @@
+A12: 6 lines in all (op add-step); packet [0, 6): 6 lines; carried through no third-order tier
+ops in the packet: {'add-step': 6}
+
+== TeamDignitas-049  add-step  [pending]  repairs 0  not carried
+   source t01 (finding Yellow man and pitching in); lift TeamDignitas:t01 > T3-002 > T4-005 > D01
+   how: A helper first asks what the event is, receives an explanation, and only then gives a bare joining response.
+   codes: c0002 asking what the unfamiliar thing is; c0003 explaining that someone is making the Dig logo underneath the Lattice; c0004 answering the explanation by heading over
+   transitions: 62pfvf:1>1.1, 62pfvf:1.1>1.1.1
+
+== luciomains-050  add-step  [pending]  repairs 0  not carried
+   source t02 (rallying helpers and reinforcements); lift luciomains:t02 > T3-002 > T4-005 > D01
+   how: A playful response to a reinforcement call can be mistaken for rudeness and require clarification of its supportive intent.
+   codes: c0050 asking for reinforcements against renewed red eyes; c0051 answering the reinforcement call with a meme; c0052 defending a renewed warning and asking for less rudeness; c0053 reassuring the caller and saying he is trying to amp it up
+   transitions: 62zueg:11>11.1, 62zueg:11.1>11.1.1, 62zueg:11.1.1>11.1.1.1
+
+== pepe-010  add-step  [pending]  repairs 1  not carried
+   source t02 (calling people to make, save, finish, restore and grow Pepe); lift pepe:t02 > T3-002 > T4-005 > D01
+   how: Recruitment receives information-seeking replies that neither accept nor refuse the proposed work.
+   codes: c0018 inviting people to join making Pepe; c0019 asking for coordinates; c0020 asking who 'us' is while placing one from the raid template
+   transitions: 62zv9u:0>1, 62zv9u:0>2
+
+== reddevils-057  add-step  [pending]  repairs 1  not carried
+   source t07 (bringing helpers into the badge build); lift reddevils:t07 > T3-016 > T4-003 > D01
+   how: A newcomer reported placing a gold pixel after an explanation of the canvas, making instruction a visible step before that acceptance.
+   codes: c0096 explaining how people come together to draw on the huge canvas; c0097 warning that people can fight back when drawn over; c0098 adding one of the gold pixels after the explanation
+   transitions: 630odi:1.1.1>1.1.1.1
+
+== wales-050  add-step  [pending]  repairs 1  not carried
+   source t03 (calling people back to defend and repair the flag); lift wales:t03 > T3-005 > T4-013 > D03
+   how: An acceptance may simultaneously report a problem needing a reply, extending the model's bare-join pattern with a qualified join.
+   codes: c0043 joining while warning vandalism is faster than repairs; c0044 directing a recruit to IRC and claiming coordination is beating vandalism
+   transitions: 62s4hv:3>3.1
+
+== wine-005  add-step  [pending]  repairs 0  not carried
+   source t08 (fitting and keeping the r/wine name tag inside its space); lift wine:t08 > T3-169 > T4-006 > D02
+   how: Acceptance develops through a design question and answer before a member commits to one task.
+   codes: c0052 calling Place users to help keep Wine's yellow name tag; c0053 asking how to shape the N while offering to do the border; c0054 proposing a horseshoe-shaped N; c0055 choosing to stick to the border
+   transitions: 633hgw:0>1, 633hgw:1>1.1, 633hgw:1.1>1.1.1
