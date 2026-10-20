@@ -1,0 +1,270 @@
+A10: 252 lines in all (op restrict); packet [200, 252): 52 lines; carried through no third-order tier
+ops in the packet: {'restrict': 52}
+
+== splatoon-044  restrict  [pending]  repairs 1  not carried
+   source t02 (calling people in to build the squids); lift splatoon:t02 > T3-002 > T4-005 > D01
+   how: Doubt about launching an additional build does not establish capacity shortage causing abandonment of an existing spot or relocation.
+   codes: c0086 doubting they have enough manpower for the initial push; c0098 identifying a starter pixel while admitting the attempt got nowhere; c0101 reporting that the design was not made
+
+== ss13-004  restrict  [pending]  repairs 0  not carried
+   source t05 (turning the pixel effort into a clown); lift ss13:t05 > T3-033 > T4-006 > D02
+   how: Scarce hands can prompt redesign without stopping the project or moving after defeat.
+   codes: c0011 preferring the clown because they lack numbers to police text; c0047 switching from an ambitious clown to a Nanotrasen logo; c0091 taking back migration after the void Discord says it is avoiding the clown
+
+== ssbpm-031  restrict  [pending]  repairs 1  not carried
+   source t04 (moving and resizing the logo as the space changes); lift ssbpm:t04 > T3-022 > T4-014 > D04
+   how: Scarcity supports moving only when consensus, remaining time and rebuilding capacity make another move feasible.
+   codes: c0131 recounting a second move abandoned for lack of consensus and manpower before the end
+
+== starbound-027  restrict  [pending]  repairs 1  not carried
+   source t04 (making room with neighbours and allies); lift starbound:t04 > T3-010 > T4-016 > D04
+   how: Insufficient manpower prompts discussion without establishing a completed move when proposed destinations lack permission
+   codes: c0058 wanting to move into greenlattace but lacking manpower; c0062 suggesting relocation under warframe; c0063 rejecting relocation because Green Lattice does not want newcomers
+
+== stardewvalley-057  restrict  [pending]  repairs 1  not carried
+   source t06 (moving and starting again when somebody else has the space); lift stardewvalley:t06 > T3-022 > T4-014 > D04
+   how: A prior-claim request explains a move here without an explicit judgment that the room has too few hands.
+   codes: c0036 asking Stardew builders to move because Xenoblade was there first; c0037 stopping the chicken and moving to the starfruit
+   transitions: 62wjuu:2>2.1
+
+== starvstheforcesofevil-004  restrict  [pending]  repairs 0  not carried
+   source t03 (working out room with canvas neighbours); lift starvstheforcesofevil:t03 > T3-010 > T4-016 > D04
+   how: Too few defenders can produce refusal to expand while holding an existing work, rather than relocation.
+   codes: c0200 marvelling at the large spot and asking to keep away graffiti; c0203 warning that expansion would create turf wars they could not defend; c0204 accepting the warning about an impending turf war
+   transitions: 632yd5:1.1.1>1.1.1.1
+
+== stevenuniverse-039  restrict  [pending]  repairs 1  not carried
+   source t04 (Guarding, repairing, and restoring the canvas art); lift stevenuniverse:t04 > T3-021 > T4-013 > D03
+   how: Capacity problems permitted giving up, holding survivors or attempting restoration, not necessarily relocation.
+   codes: c0396 giving up after saying the Norse subreddit ruined it; c0445 maintaining what is left before adding Lapis, Jasper, and the turquoise background back; c0447 calling for more people
+
+== stlouisblues-029  restrict  [pending]  repairs 0  not carried
+   source t01 (building and relocating the Blue Note from one shared plan); lift stlouisblues:t01 > T3-091 > T4-008 > D02
+   how: Judged weakness produces a reversible relocation proposal rather than necessarily a completed move when renewed progress is reported.
+   codes: c0031 proposing a move because osu will not give up its spot; c0035 abandoning the move when the original location makes real progress
+
+== straya-046  restrict  [pending]  repairs 1  not carried
+   source t03 (guarding and repairing what we made); lift straya:t03 > T3-005 > T4-013 > D03
+   how: A shortage judgment can prompt holding the existing front rather than moving, so shortage alone is insufficient to predict relocation.
+   codes: c0096 rejecting the Steve Irwin plan as too complicated for their numbers; c0195 focusing low overnight numbers on holding the front
+
+== suomi-040  restrict  [pending]  repairs 1  not carried
+   source t22 (concentrating on fewer shared projects); lift suomi:t22 > T3-069 > T4-013 > D03
+   how: Too few available pixels can lead to concentrating existing work or waiting rather than moving.
+   codes: c0128 declining another new build because all pixels are maintaining Kekkonen and the flag; c0173 waiting for enough people before choosing what to draw
+
+== switzerland-052  restrict  [pending]  repairs 0  not carried
+   source t03 (working out borders, friends, and non-aggression); lift switzerland:t03 > T3-010 > T4-016 > D04
+   how: Distinguish too few hands from insufficient coordination, since the latter is explicitly offered as a reason relocation cannot work.
+   codes: c0004 abandoning the first flag after being overrun by Scandinavians; c0005 moving to a new place at 405, 504; c0048 saying a move cannot work without enough coordination; c0049 offering a copy-first move if Mona Lisa has consensus
+   transitions: 62u5pp:5>5.1, 62u5pp:5>5.2
+
+== tampabaylightning-044  restrict  [pending]  repairs 0  not carried
+   source t04 (bargaining over shared borders and room); lift tampabaylightning:t04 > T3-010 > T4-016 > D04
+   how: Too few hands need not cause departure, while crowded space can block a move even when relocation is acceptable.
+   codes: c0022 saying the build needs more people; c0024 encouraging a two-person effort; c0081 refusing an takeover while accepting help to move; c0100 promising to protect Cave Story art after being unable to move
+
+== teamcube-050  restrict  [pending]  repairs 0  not carried
+   source t04 (multiplying and relocating cubes); lift teamcube:t04 > T3-041 > T4-006 > D02
+   how: Too few hands leads here to searching for another location while keeping existing cubes remains possible, rather than proving a complete stop-and-move sequence.
+   codes: c0021 saying expansion now needs many more people; c0022 using six accounts but looking for a less territorial follow-up location; c0034 asking whether to relocate the cube or maintain existing ones; c0035 calling for continued maintenance while thanking SpaceX for stability
+   transitions: 6342vj:1.1.1.1.1>1.1.1.1.1.1
+
+== terraria-047  restrict  [pending]  repairs 0  not carried
+   source t08 (raising alarms and choosing what to do when art is covered); lift terraria:t08 > T3-073 > T4-027 > D07
+   how: Perceived crowding can coexist with restoration at the current site, so insufficient space does not by itself establish cessation of defence or relocation.
+   codes: c0067 attempting the Guide where space remains despite the blue corner; c0123 weighing restoring the eaten Guide against moving; c0128 answering the lost Guide with 'we should make another'; c0129 running the rebuilding script despite disliking scripts taking over
+
+== teslamotors-039  restrict  [pending]  repairs 0  not carried
+   source t09 (defending and repairing the Tesla logo); lift teslamotors:t09 > T3-005 > T4-013 > D03
+   how: Limited hands can prompt recruitment or limiting expansion rather than abandonment and relocation.
+   codes: c0053 saying the expanding Blue Corner needs more coordination than two people; c0192 saying they lack enough active people to maintain a bigger logo
+
+== texas-041  restrict  [pending]  repairs 0  not carried
+   source t14 (Moving and rebuilding the flag somewhere else); lift texas:t14 > T3-022 > T4-014 > D04
+   how: Perceived weakness yields a durable move only when a viable destination gains acceptance, while defense can resume and a backup can precede abandonment.
+   codes: c0013 saying they may have bitten off more than they can chew; c0014 agreeing it looks too much but telling them not to give up; c0150 abandoning relocation and defending the original spot; c0184 securing a backup flag spot with help from other communities; c0215 letting the invaded flag die after proving they could build it
+
+== tf2-040  restrict  [pending]  repairs 1  not carried
+   source t10 (Arguing over expansion and what belongs in the design); lift tf2:t10 > T3-004 > T4-006 > D02
+   how: Relocation follows reported occupation of a site, whereas being aesthetically outclassed motivates enlargement rather than withdrawal.
+   codes: c0042 moving left after Dota took the black square; c0283 answering other games' logos with a fancier TF2 design
+
+== the_pack-004  restrict  [pending]  repairs 0  not carried
+   source t02 (keeping others from erasing or renaming the sign); lift the_pack:t02 > T3-005 > T4-013 > D03
+   how: Limit shortage-to-relocation to judgments beyond one worker needing help, since lone-defender strain accompanies continuing guard duty and later reported survival.
+   codes: c0069 warning that THE_FACK is gunning for the sign while trying alone; c0078 standing sign-protection duty against THE_FACK; c0080 celebrating intact artwork when r/place ends
+
+== thebluecorner-042  restrict  [pending]  repairs 1  not carried
+   source t02 (expanding, cleaning, and reclaiming blue ground); lift thebluecorner:t02 > T3-171 > T4-023 > D05
+   how: Perceived shortages can prompt repairing a recruiting sign and holding the same ground rather than stopping the fight and moving.
+   codes: c0549 delaying expansion to clean the sign and recruit; c0256 calling for more people because blue is outnumbered; c0623 proposing a fallback to a 100-by-100 solid-blue corner
+
+== theexpanse-005  restrict  [pending]  repairs 1  not carried
+   source t01 (choosing and starting the next build); lift theexpanse:t01 > T3-041 > T4-006 > D02
+   how: A capacity doubt is followed by renewed building rather than a demonstrated move after loss.
+   codes: c0030 questioning expansion while keeping the existing art pristine is hard; c0032 starting work on the new plan
+   transitions: 62qkj4:3.2>3.2.1
+
+== tinytardis-005  restrict  [pending]  repairs 0  not carried
+   source t03 (maintaining, rebuilding and protecting the TARDISes); lift tinytardis:t03 > T3-021 > T4-013 > D03
+   how: An individual abandonment suggestion does not establish collective withdrawal, and the recorded move is explained by a treaty instead of insufficient hands.
+   codes: c0029 calling it a lost cause and redirecting effort; c0030 deciding to rebuild anyway; c0034 moving TT1 up under a treaty with r/ethtrader
+
+== titanfall-038  restrict  [pending]  repairs 1  not carried
+   source t07 (Making room and peace with canvas neighbours); lift titanfall:t07 > T3-010 > T4-016 > D04
+   how: Insufficient hands can prevent moving an existing build, so scarcity requires a feasible alternative before it can explain relocation.
+   codes: c0106 saying they lack people to move and offering to build a new Triforce; c0111 deciding they cannot take over UB and must build elsewhere; c0113 asking for live chat while trying the proposed new location
+
+== toolband-038  restrict  [pending]  repairs 0  not carried
+   source t07 (fitting one plan to the people and space available); lift toolband:t07 > T3-042 > T4-013 > D03
+   how: Limited manpower can produce resizing and continued defense in place rather than abandonment of the spot
+   codes: c0092 counting too few active people for an ambitious logo; c0143 weighing the large eye against manpower and the Bender truce; c0146 making the eye minimal enough to defend both works
+
+== torontoraptors-041  restrict  [pending]  repairs 0  not carried
+   source t06 (relocating and restarting after losing canvas space); lift torontoraptors:t06 > T3-022 > T4-014 > D04
+   how: Too few hands can lead to withdrawal and diversion to another project rather than relocation.
+   codes: c0060 wanting the Celtics logo but lacking people; c0062 asking whether the apparently dead build continues; c0063 giving up and redirecting effort to r/nba chalmersface; c0067 saying the attempt failed and waiting for higher traffic
+   transitions: 62vl7f:7>7.1
+
+== totallynotrobots-023  restrict  [pending]  repairs 1  not carried
+   source t13 (moving the display before time runs out); lift totallynotrobots:t13 > T3-022 > T4-014 > D04
+   how: Pressure on an attempted starting pixel precedes a move directive but neither a manpower judgment causing the move nor successful relocation is established.
+   codes: c0215 struggling to start the light-blue arrow before it is over; c0241 moving the display beside the fox in an emergency; c0243 consoling the organizer that the attempt was too late
+
+== trees-037  restrict  [pending]  repairs 0  not carried
+   source t08 (sorting out mistakes and changing plans); lift trees:t08 > T3-004 > T4-006 > D02
+   how: Too few contributors can prompt reducing the design at the existing symbolic coordinate rather than abandoning defence of that place.
+   codes: c0393 saying there may not be enough entpower but not giving up; c0408 scaling back from the pineapple to a modest 420; c0405 getting the spot back and holding the 420,420 coordinate; c0484 claiming 420,420 as sovereign land they will not relinquish; c0538 making green at 420,420 the number 1 priority
+
+== turkey-024  restrict  [pending]  repairs 0  not carried
+   source t02 (choosing and changing coordinates when flags are lost or crowded); lift turkey:t02 > T3-022 > T4-014 > D04
+   how: Scarcity produces relocation only where movers can coordinate another site, since limited numbers and discipline also prevent migration or encourage holding ground.
+   codes: c0053 saying limited numbers and discipline prevent another migration; c0123 asking where to migrate now; c0124 refusing to migrate and sticking to their guns; c0152 moving aside because the Dutch Discord alone has 400 people
+
+== twentyonepilots-020  restrict  [pending]  repairs 1  not carried
+   source t05 (moving, rebuilding, and stopping when the logo is covered); lift twentyonepilots:t05 > T3-124 > T4-014 > D04
+   how: Pressure does not determine flight because members also propose fighting and expanding, while the explicit final stopping reason is the event's closure.
+   codes: c0073 asking for more help while the Oilers crowd the logo; c0081 saying they can fight back, expand, and improve the TØP logo; c0089 asking for expansion while being taken over; c0088 ending the work because r/place ended
+
+== twitch-005  restrict  [pending]  repairs 0  not carried
+   source t07 (working out where and how to build or fix Kappa without killing other artwork); lift twitch:t07 > T3-020 > T4-014 > D04
+   how: Crowding supports abandonment and consideration of alternatives, but neither suggested space nor discovery elsewhere establishes that the original builders moved.
+   codes: c0021 cutting losses after Kappa was squeezed out; c0023 steering away from the active void toward quiet black; c0024 locating a Kappa at 426,980
+
+== twitchplayspokemon-036  restrict  [pending]  repairs 0  not carried
+   source t08 (trying to rebuild Dome before place locked); lift twitchplayspokemon:t08 > T3-022 > T4-014 > D04
+   how: Explains a small plan shaped by limited numbers while preserving the builder's willingness to switch to a larger fight if others choose it.
+   codes: c0224 sharing a small rebuild plan sized to TPP's numbers; c0236 starting the build at 987, 807 while offering to switch
+
+== ubreddit-029  restrict  [pending]  repairs 0  not carried
+   source t06 (moving, marking, and giving up canvas spots); lift ubreddit:t06 > T3-020 > T4-014 > D04
+   how: The explicit shortage judgment follows an attempted relocation and explains abandoning that site rather than initiating the earlier move.
+   codes: c0027 moving under the KU–TX score and laying out blue; c0036 giving up on the new spot because few people were working for UB
+
+== uiowa-040  restrict  [pending]  repairs 1  not carried
+   source t02 (working out where images can fit); lift uiowa:t02 > T3-020 > T4-014 > D04
+   how: The weakness diagnosis accompanies a proposed replacement spot but does not demonstrate that the diagnosis produced a completed move.
+   codes: c0004 looking for a new spot after Michigan took 72, 826
+
+== uiuc-024  restrict  [pending]  repairs 1  not carried
+   source t06 (settling where and how to build the Illini I); lift uiuc:t06 > T3-020 > T4-014 > D04
+   how: Reported destruction and a poor location prompt relocation proposals, but insufficient hands are a conditional concern rather than an established cause of moving.
+   codes: c0020 weighing relocation against rebuilding after the Fins took over; c0038 calling for a new spot, a rough draft, and high participation
+
+== undertale-038  restrict  [pending]  repairs 0  not carried
+   source t06 (rebuilding or redirecting after a loss); lift undertale:t06 > T3-022 > T4-014 > D04
+   how: A judgement that destruction is too fast can receive encouragement to stay with the same build rather than a move.
+   codes: c0192 giving up because people destroy the build too fast; c0193 urging patience and avoiding smaller projects around the face; c0194 treating the finished black eyes as enough foundation
+   transitions: 62ysj4:1.1>1.1.1
+
+== unturned-035  restrict  [pending]  repairs 0  not carried
+   source t09 (reshaping and extending the drawing); lift unturned:t09 > T3-004 > T4-006 > D02
+   how: Capacity constraints can produce reduced ambitions and continued defense rather than collective withdrawal or a completed move.
+   codes: c0064 saying the sign needs more people; c0093 rejecting a second head because larger space is harder to maintain; c0046 refusing to move while limiting expansion; c0145 planning to shrink against the MSU border
+
+== uoft-040  restrict  [pending]  repairs 0  not carried
+   source t12 (calling for attacks and answering the calls); lift uoft:t12 > T3-006 > T4-020 > D08
+   how: Disorganization can elicit retaliatory placing alongside relocation proposals, so insufficient hands do not establish a collective decision to stop fighting and move.
+   codes: c0142 reporting talks with r/homestuck about moving the sign; c0165 attacking Thailand with random colours for going after the food truck; c0169 proposing a move to the blue corner and an agreement
+
+== utahjazz-024  restrict  [pending]  repairs 0  not carried
+   source t03 (moving and rebuilding when pixels get erased); lift utahjazz:t03 > T3-022 > T4-014 > D04
+   how: Too few hands precede relocation, but the stated move also depends on an existing foothold rather than scarcity alone.
+   codes: c0011 saying there are not enough people and the build is not going well; c0012 changing plans and moving beside the Blazers at 821,532
+
+== utaustin-020  restrict  [pending]  repairs 0  not carried
+   source t01 (finding and reshaping places for a Longhorn); lift utaustin:t01 > T3-020 > T4-014 > D04
+   how: Local moving decisions can follow displacement or spatial mismatch without a demonstrated judgment that too few hands can hold the spot.
+   codes: c0020 saying to move because the dolphins are taking over; c0031 warning the Longhorn overlay is too big for the chosen space; c0135 choosing letters because a Longhorn would be too tall
+
+== uwaterloo-021  restrict  [pending]  repairs 1  not carried
+   source t02 (keeping Mr Goose going under pressure); lift uwaterloo:t02 > T3-005 > T4-013 > D03
+   how: Concern about participation and a relocation proposal leave both completed movement and the specific insufficient-hands mechanism unresolved.
+   codes: c0007 proposing to relocate the goose head because Forsen is not giving in; c0069 calling everyone to keep the goose going
+
+== vegan-042  restrict  [pending]  repairs 2  not carried
+   source t10 (celebrating and recounting what survived); lift vegan:t10 > T3-009 > T4-026 > D07
+   how: Relocation under pressure can coexist with continued defense of the original site rather than ending resistance collectively
+   codes: c0074 wanting to pull off both sites while enjoying the battle with Evil Lisa; c0387 recounting moving in with AvoArmy while others kept defending
+
+== vinesauce-008  restrict  [pending]  repairs 1  not carried
+   source t05 (moving and rebuilding after losses); lift vinesauce:t05 > T3-022 > T4-014 > D04
+   how: A member's weakness judgment does not establish collective withdrawal when others propose simultaneous defense and rebuilding or refuse a further move as infeasible.
+   codes: c0049 saying the subreddit is too weak and should give up; c0050 refusing to give up while seeking a new place; c0030 proposing a new shroom while defending the old one; c0073 refusing Belgium's demand to just relocate again
+
+== virginiatech-042  restrict  [pending]  repairs 1  not carried
+   source t03 (finding room and starting VT again when it gets wiped out); lift virginiatech:t03 > T3-020 > T4-014 > D04
+   how: Loss and restart are reported, but the record does not establish that a judgment about insufficient hands caused the move.
+   codes: c0016 reporting the mark gone and asking to start over; c0017 reporting a small VT next door and hoping it grows; c0029 keeping the design small enough for an uncertain workforce
+
+== vocaloid-040  restrict  [pending]  repairs 1  not carried
+   source t04 (negotiating room with neighbours and the taskbar); lift vocaloid:t04 > T3-010 > T4-016 > D04
+   how: Judged weakness can prompt a negotiated move proposal while resistance continues, so neither completed relocation nor cessation of fighting follows automatically.
+   codes: c0035 making a taskbar-icon deal because they cannot fight expansion; c0036 announcing a move to the taskbar and sharing the end template; c0060 proposing to push the taskbar back by helping the happy cultists
+
+== warriors-054  restrict  [pending]  repairs 0  not carried
+   source t09 (working out whether and how to enlarge or remake nearby art); lift warriors:t09 > T3-041 > T4-006 > D02
+   how: Outnumbered defenders propose rebuilding elsewhere, but continued salvage calls and external closure prevent inferring a collective decision to stop fighting and move.
+   codes: c0191 doubting the logo can be saved while outnumbered; c0192 answering that Place is over and a championship will shut them up; c0203 proposing a move next to the Niners logo; c0205 placing between the Niners and Jazz for support; c0211 calling people to help salvage the destroyed logo
+   transitions: 637s3i:2.1.1>2.1.1.1
+
+== warthunder-022  restrict  [pending]  repairs 0  not carried
+   source t13 (building and repeatedly relocating the Pixel A6M); lift warthunder:t13 > T3-022 > T4-014 > D04
+   how: A capacity judgment supports recommending relocation, but does not identify which later restart implemented that recommendation.
+   codes: c0092 building with alt accounts but losing ground to Void bots and seeking protected borders; c0095 restarting the build at 246,75
+
+== weezer-052  restrict  [pending]  repairs 1  not carried  NONPORTABLE ['lost']
+   source t02 (working out and correcting colours, outlines, coordinates, and extra art); lift weezer:t02 > T3-004 > T4-006 > D02
+   how: Insufficient room for additional art does not imply that the established mark was lost or that the room relocated.
+   codes: c0096 saying there is no place to put it; c0103 making room by getting rid of the r/; c0133 announcing r/place is over and taking pride in the perfect-shape logo
+
+== wildhockey-056  restrict  [pending]  repairs 0  not carried
+   source t03 (finding room and moving around other people's work); lift wildhockey:t03 > T3-020 > T4-014 > D04
+   how: A move can answer lack of permissible room rather than a judgment that the room has too few hands to defend.
+   codes: c0071 moving the logo to the far right after nobody would let it overlap them; c0093 calling a move near the Blackhawks the only plausible solution
+
+== worldoftanks-003  restrict  [pending]  repairs 0  not carried
+   source t08 (reporting erasure, moving, and calling for defense); lift worldoftanks:t08 > T3-073 > T4-027 > D07
+   how: Scarcity can end one member's participation while other members restart, so individual withdrawal must not stand for a collective move.
+   codes: c0150 recounting the TOG being erased and stopping after comparing crowd sizes; c0152 calling for a new spot for the TOG on Place; c0154 placing a rough TOG to mark the space
+
+== wow-053  restrict  [pending]  repairs 0  not carried
+   source t22 (looking back at whether r/wow made a logo and how visible it was); lift wow:t22 > T3-098 > T4-012 > D01
+   how: Retrospective judgments of a tiny finished mark cannot explain earlier relocation unless a contemporaneous shortfall judgment is independently documented.
+   codes: c0288 starting the logo in a new place away from Rust bots; c0357 being sad that ours is tiny beside the HotS logo; c0361 expecting WoW to have the largest Blizzard-game logo but finding Starcraft more visible
+
+== yogscast-018  restrict  [pending]  repairs 1  not carried  NONPORTABLE ['survivor']
+   source t02 (repairing the faces and concentrating limited pixel power); lift yogscast:t02 > T3-021 > T4-013 > D03
+   how: Insufficient capacity can end defence of one drawing while maintaining an existing survivor, rather than producing a move or ending the whole effort.
+   codes: c0056 arguing to maintain two vandalised heads instead of stretching thin; c0086 conceding the blue corner dwarf is lost; c0093 leaving the fallen dwarf and focusing all efforts on the survivor; c0128 giving up the lost face to maintain the OG logo
+
+== yugioh-005  restrict  [pending]  repairs 0  not carried
+   source t15 (recruiting and teaching scarce pixel helpers); lift yugioh:t15 > T3-002 > T4-005 > D01
+   how: Limits shortage-to-relocation inference because reported thin participation is followed here by further recruitment, repair, and completion rather than demonstrated abandonment.
+   codes: c0107 reporting four Kuriboh pieces overwritten; c0108 contrasting 330 online subscribers with fewer than 10 workers; c0115 asking for help as the art nears completion; c0119 announcing the Kuriboh finished and shifting to protection and cleaning
+
+== zelda-060  restrict  [pending]  repairs 1  not carried
+   source t07 (negotiating and probing for usable canvas space); lift zelda:t07 > T3-061 > T4-020 > D08
+   how: Judging one target unavailable supports alternative-site proposals without proving that participants stop defending their previous spot and complete a move.
+   codes: c0186 recounting erased Zelda art and covered Link figures; c0191 calling the white triangle a no-go because a group was keeping it white; c0192 proposing Zelda fans work fast enough to go over a less-protected target; c0193 asking for help recreating Link in r/place

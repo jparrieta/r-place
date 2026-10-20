@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+"""D3a-37: build A10's add-condition and contradict rulings (G4a, G9 and G42) from one table, so each id carries its
+own evidence and the statement that holds its condition. Every id must be in its packet, and every packet id here.
+Evidence paraphrases the cited concepts without quotation marks; the hours come from d3_cites_A10_adds.txt. A spec
+copy (id|op|evidence) is written beside the rulings so that d3_spec_hours.py can check the hours.
+
+  python3 out/_analysis/d3_a10_adds.py
+"""
+import json
+import subprocess
+import sys
+
+OTHER = "G4a (another element) and G42"
+OWN = "G4a (the element states it) and G42"
+# (id, op, decision, kind, rule, evidence, held)
+ROWS = [
+    ("MMA-019", "add-condition", "accept", "specification", OTHER,
+     "c0447 a member saying the room came late and has little room to work with (h+52.87), c0493 the room holding "
+     "its post and keeping its logo to the end (h+74.74), and c0503 (h+77.62) and c0504 (h+77.68) telling afterwards "
+     "of little space for the room's ideas: too little room shaping the design, with no loss and no move",
+     "the condition, that too little room can shape a design with no move, is held by K02's statement (a canvas "
+     "judged too full) and P02's (a design sized to the room), and by A10's bound ('the arrow holds for those that "
+     "move'); A10 orders the first doubt before the first move after a loss and does not claim that every doubt "
+     "brings a move (G42 reading 3)"),
+    ("TheHulk-042", "add-condition", "accept", "specification", OTHER,
+     "c0045 the room announcing its move with the first eye's coordinates (h+51.67), then c0042 a member protesting "
+     "that the move crushes the dozen who fought for their place (h+52.30), and c0043 (h+52.32) and c0044 (h+53.08) "
+     "neighbours promising to protect and defend the moved Hulk: a move on terms with neighbours, with help promised",
+     "the condition, that a move can rest on neighbours' terms and promised protection rather than on a judgment of "
+     "too few hands, is held by P08's statement (terms between neighbours) and P16's (help from others); G42 gives "
+     "moves by terms to P08, and A10's connection orders the first acts only and names no sole cause, so the "
+     "condition is not one A10 lacks"),
+    ("acecombat-048", "add-condition", "accept", "specification", OTHER,
+     "c0033 a member giving up the flag site because the Swedes keep deleting the work (h+53.72), c0064 the member "
+     "willing to redo it in a new place (h+58.46), and c0055 a retelling after the close that r/Habs offered help to "
+     "rebuild elsewhere if the room gave up its spot, which it accepted (h+77.01)",
+     "the condition, that an offer of help to rebuild elsewhere can be the stated reason to yield a spot, is held "
+     "by P08's statement (terms between neighbours) and P16's (help from others), and a move after repeated deletion "
+     "with no stated doubt is held by A10's bound and counterexample response ('the loss itself prompted the move'); "
+     "the condition is not one A10 lacks"),
+    ("bangtan-053", "add-condition", "accept", "specification", OTHER,
+     "c0017 a member judging the area too busy to keep up (h+32.77), then c0024 the room working on a smaller logo "
+     "at new coordinates (h+40.73), and c0102 a member's account after the close that with small numbers it was "
+     "better to combine and hold the whole area with others (h+84.51): doubt, then a smaller version elsewhere, then "
+     "joint holding",
+     "the condition, that a room judged too small may combine with allies rather than move, is held by P17's "
+     "statement (alliances for hands) and by A10's bound ('After doubt and a loss, a room moves or gives the work "
+     "up; the arrow holds for those that move'); the line's own order, the doubt before the smaller logo, is A10's"),
+    ("buffalobills-005", "add-condition", "accept", "specification", OTHER,
+     "c0037 a member recalling that two builders did not think they had the muscle for a logo until they convinced "
+     "a vandal to join, and that the territory held (h+51.43), and c0134 a member crediting the work's right size "
+     "for its defence (h+63.12): doubt answered by recruiting and a design sized to the room, with no loss and no move",
+     "the condition, that recruiting or a smaller footprint can answer a shortage with no move, is held by P01's "
+     "statement (calls for hands), P02's (a design sized to the room) and K02's; A10's mechanism states doubt "
+     "followed by no move as its failure, and its bound holds it ('the arrow holds for those that move', G42 "
+     "reading 2), so the condition is not one A10 lacks"),
+    ("columbia-009", "add-condition", "accept", "specification", OTHER,
+     "c0034 a member doubting there is space or power for a massive logo while the room fights to keep its name "
+     "(h+58.12), c0035 a member open to scaling down with defence first (h+59.54), and c0036 the room turning to "
+     "maintaining its banner (h+60.52): doubt about a larger work, answered by keeping the work, with no loss and no "
+     "move",
+     "the condition, that doubt about enlarging a work is not doubt about holding it, is held by K02's statement, "
+     "P02's (a design sized to the room) and P05's (keeping); A10 orders a doubt before a move after a loss, which "
+     "no larger work's doubt claims (G42 reading 3)"),
+    ("dallasstars-035", "add-condition", "accept", "specification", OWN,
+     "c0091 a member tired and cramping, proposing a move because the work stands against three bot artworks "
+     "(h+62.98), and c0097 the old location given up, the member unable to build by hand again, the image moved and "
+     "a bot tried (h+64.65): a move after the spot fails, with fatigue and bots as the reasons",
+     "the condition, that a move can follow fatigue and competing bots with no judgment of too few helpers, is held "
+     "by A10's bound and counterexample response ('the loss itself prompted the move, and the judgment came after it "
+     "or inside the move turns') and, for the turn to a bot, by A06's mechanism (upkeep outruns one pixel per "
+     "interval, and members turn to scripts) and P14's statement; the condition is not one A10 lacks"),
+    ("ethereum-055", "add-condition", "accept", "specification", OWN,
+     "c0020 a member declaring the project dead after another work ate half the logo and calling to find another "
+     "spot (h+25.29), c0097 a member finding no peaceful spot left (h+48.68), and c0099 the room moving away from Bob "
+     "so that he could live in peace (h+49.01): a move after a loss with no doubt stated, and a move to spare a "
+     "neighbour",
+     "the condition, that a move may answer damage or a refusal to fight a neighbour with no judgment of too few "
+     "hands, is held by A10's bound and counterexample response (moves with no doubt before them, 'the loss itself "
+     "prompted the move') and by P07's statement for the move to spare a neighbour (G22); the condition is not one "
+     "A10 lacks"),
+    ("fivenightsatfreddys-040", "add-condition", "accept", "specification", OWN,
+     "c0461 a project cancelled for too few people, bad cooperation, reference problems and no place for it "
+     "(h+54.31), c0480 a member saying the workers quit because it was too stressful (h+56.07), and c0471 a member "
+     "asking whether another design change is worth the stress (h+67.36): a work given up for several reasons, too "
+     "few hands among them",
+     "the condition, that a work can be given up for stress, poor cooperation and want of space as well as want of "
+     "hands, is held by A10's bound ('After doubt and a loss, a room moves or gives the work up') with F-019, and by "
+     "K02's statement for the judged want of hands and room; A10 names no sole cause, so the condition is not one "
+     "A10 lacks"),
+    ("latin-006", "add-condition", "accept", "specification", OTHER,
+     "c0031 a member calling for a smaller image in a different location to succeed (h+56.68), c0032 a member "
+     "counting the pixels left and judging that the room has done too much work on the current design to turn back "
+     "(h+57.01), and c0033 a member reporting 45 futile minutes as green lattice reclaims the area (h+57.09): a "
+     "smaller version elsewhere proposed after a judgment, then refused for the work already done",
+     "the condition, that prior investment can keep a room on its design after a smaller version elsewhere is "
+     "proposed, is held by P05's statement (repair restores the form the keepers know); the proposal itself, a "
+     "judgment and then a move in one post, is A10's mechanism in words, and a move proposed and refused still "
+     "counts as the first move (G42 readings 1 and 5), so the condition is not one A10 lacks"),
+    ("pebble-051", "add-condition", "accept", "specification", OTHER,
+     "c0052 a member finding that one person would need over two hours, so the room must find somewhere else or "
+     "organize many hands (h+67.52), and c0043 the room shifting left to avoid Halo's logo by Halo's leave, with "
+     "mutual help offered (h+72.19): a site and a call for hands weighed before any loss, then a shift by terms",
+     "the condition, that a call for many hands is an alternative to moving, is held by P01's statement (calls for "
+     "hands) and P04's (a site chosen before any loss), and the shift to avoid Halo by P07's and P08's (G22); A10 "
+     "orders moves after a loss, which this line does not show (G42 reading 3), so the condition is not one A10 lacks"),
+    ("seahawks-041", "add-condition", "accept", "specification", OTHER,
+     "c0124 a member doubting the room can stand up to the 49ers, Xenoblade_Chronicles and the Blackhawks at once, "
+     "and urging a move to the right (h+63.71), and c0125 the member telling defenders to stop maintaining the 12 so "
+     "that it decays and people see that moving is best (h+64.18): a judgment and a move proposed in one post, then a "
+     "call to let the work go",
+     "the condition, that defenders' attachment to the mark must give way before a move, is held by P05's statement "
+     "(repair restores the form the keepers know) and by A10's mechanism, which names the room ceasing to fight for "
+     "the spot before it moves ('stops fighting for it and moves'); the line's own order, the doubt before the move "
+     "proposed, is A10's (G42 reading 1), so the condition is not one A10 lacks"),
+    ("streetfighter-029", "add-condition", "accept", "specification", OTHER,
+     "c0024 a member proposing a smaller Ryu and contact with the active territorial groups (h+59.41), and c0028 a "
+     "member finding that the room must gather very many people or ask rainbow road's maintainers, who replace "
+     "whatever the room puts down (h+65.71): a smaller design, calls and asking neighbours weighed against the "
+     "occupied target",
+     "the condition, that asking a neighbour's maintainers is an alternative to moving, is held by P08's statement "
+     "(terms between neighbours), P01's (calls for hands) and P02's (a smaller design); A10's bound holds the rooms "
+     "that do not move ('the arrow holds for those that move'), so the condition is not one A10 lacks"),
+    ("uofmn-050", "add-condition", "accept", "specification", OTHER,
+     "c0042 a member proposing to wait until the next day because too few people are on (h+37.23), c0043 the answer "
+     "accepting the delay (h+37.24), and c0020 the widening reported done (h+38.76): doubt about enlarging a work, "
+     "with no loss and no move",
+     "the condition, that doubt about an optional enlargement differs from doubt about holding an overrun home, is "
+     "held by K02's statement and P02's (a design sized to the room); A10 orders a doubt before a move after a loss "
+     "and makes no claim about enlargements (G42 reading 3)"),
+    ("xcom-051", "add-condition", "accept", "specification", OTHER,
+     "c0015 a member deleting a post because the revolver is sweet and there must be room somewhere (h+42.02), and "
+     "c0020 thebluecorner's permission to overwrite an obscenity and not interfere with other art (h+46.36): a site "
+     "given up to spare another's work, and a site taken by permission",
+     "the condition, that respect for others' art can motivate a move with no judgment of too few hands, is held by "
+     "P07's statement (sparing) and P08's (terms and permission), to which G22 gives such moves; A10 orders moves "
+     "after a loss, so the condition is not one A10 lacks"),
+    ("bakchodi-058", "contradict", "accept", "specification", "G9 and G42",
+     "c0117 a member saying Belgium is bigger but the room are guerilla fighters who only have to bleed and bore "
+     "them, for a psychological victory (h+71.33): doubt about the room's numbers answered by fighting on, with no "
+     "move and no surrender",
+     "the line says A10 fails because a room that knows it is outnumbered fights on; A10's mechanism already states "
+     "doubt followed by no move and no surrender as its failure, and its bound holds it ('the arrow holds for those "
+     "that move'), with P09 for the attacks on Belgium, so A10 does not fail and this is no correction (G42 reading "
+     "2); a specification, counted in the census as no move"),
+]
+
+
+def packet_ids(op):
+    out = subprocess.run([sys.executable, "out/_analysis/d3_packet.py", "--element", "A10", "--op", op,
+                          "--offset", "0", "--limit", "100"], capture_output=True, text=True).stdout
+    return [blk.split("\n", 1)[0].split()[0] for blk in out.split("\n== ")[1:]]
+
+
+got = packet_ids("add-condition") + packet_ids("contradict")
+mine = [r[0] for r in ROWS]
+assert sorted(got) == sorted(mine) and len(set(mine)) == len(mine), set(got) ^ set(mine)
+with open("out/_analysis/d3_rulings/A10-adds.jsonl", "w") as f, \
+        open("out/_analysis/d3_rulings/A10-adds-spec.txt", "w") as g:
+    for aid, op, dec, kind, rule, ev, held in ROWS:
+        row = {"adaptation": aid, "decision": dec, "kind": kind}
+        tail = held if kind == "none" or "a specification" in held else held + "; a specification"
+        row["reason"] = f"{rule}: {ev}; {tail}"
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+        g.write(f"{aid}|{op}|{ev}\n")
+print("wrote", len(ROWS), "rulings to out/_analysis/d3_rulings/A10-adds.jsonl and its spec copy")
