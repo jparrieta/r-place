@@ -1,0 +1,540 @@
+A13: 208 lines in all (op restrict); packet [100, 200): 100 lines; carried through no third-order tier
+ops in the packet: {'restrict': 100}
+
+== lego-062  restrict  [pending]  repairs 1  not carried
+   source t05 (putting a LEGO logo on the canvas); lift lego:t05 > T3-038 > T4-007 > D02
+   relation: r/denmark
+   how: Outside help is explicitly requested to build the sign, so its evidenced purpose is not limited to shortage caused by local upkeep.
+   codes: c0161 announcing r/denmark has come for help building a LEGO sign; c0162 asking people to help build it at 722, 290
+
+== lifeisstrange-028  restrict  [pending]  repairs 0  not carried
+   source t04 (keeping the butterfly visible); lift lifeisstrange:t04 > T3-005 > T4-013 > D03
+   how: Reciprocal watching answers a defense call at member level without establishing formal recruitment of another room or exhausted manpower.
+   codes: c0043 calling all Pricefielders to hold the fort around the butterfly; c0044 repairing the nearby rainbow while watching the butterfly and text; c0045 promising to watch the rainbow in return
+   transitions: 6362jz:0>1, 6362jz:1>1.1
+
+== linux-035  restrict  [pending]  repairs 1  not carried
+   source t21 (offering the Rust maintenance botnet); lift linux:t21 > T3-108 > T4-009 > D02
+   how: A maintenance offer following reports of repair establishes offered help but not acceptance or delivered assistance.
+   codes: c0116 watching all day and fixing damage in seconds; c0117 offering the Rust community's maintenance botnet
+
+== lithuania-050  restrict  [pending]  repairs 1  not carried
+   source t03 (helping Baltic brothers fit their flags together); lift lithuania:t03 > T3-078 > T4-022 > D05
+   how: Apply the strain-to-help route only to evidenced shortage responses, since judging the own flag sufficient also releases effort for neighbours.
+   codes: c0013 leaving the bright-enough flag to help the brothers; c0020 rejecting the turn and preferring to help the brothers; c0055 asking Lithuania's workforce to repair Latvia's neighbouring flag
+
+== littlewitchacademia-031  restrict  [pending]  repairs 1  not carried
+   source t05 (working out room with neighbours); lift littlewitchacademia:t05 > T3-010 > T4-016 > D04
+   how: Offers of reciprocal upkeep are explicit, but receipt of additional hands caused by those offers is not established.
+   codes: c0021 offering maintenance help in exchange for the tiny witch mission; c0037 maintaining the witches and helping friendly neighbours; c0051 offering to help maintain WIT's logo
+
+== livecounting-023  restrict  [pending]  repairs 0  not carried
+   source t04 (bargaining over flags, corners, and borders); lift livecounting:t04 > T3-010 > T4-016 > D04
+   how: Defence strain appears in the host's answer to an incoming help request, limiting the predicted outward appeal and subsequent assistance to an unresolved possibility here.
+   codes: c0037 asking livecounting for help protecting the Palestine flag; c0039 offering a black border or help shifting the banner; c0040 answering that a prior war used up their banner-defence energy
+   transitions: 62pu7p:22>22.1
+
+== liverpoolfc-033  restrict  [pending]  repairs 1  not carried
+   source t13 (defending and maintaining the YNWA and 96 drawing); lift liverpoolfc:t13 > T3-005 > T4-013 > D03
+   how: Makes receipt of outside maintenance help conditional on competing commitments because the visible appeal is answered by prioritising the home design.
+   codes: c0174 asking Liverpool fans to help maintain r/PrequelMemes; c0175 putting helping the reds before helping r/PrequelMemes
+   transitions: 6339jc:12>12.1
+
+== loliconsunite-028  restrict  [pending]  repairs 0  not carried
+   source t05 (calling in helpers and moving coordination to Discord); lift loliconsunite:t05 > T3-014 > T4-010 > D02
+   how: Defensive strain produces an explicit outside help request, but the record does not establish that requested help arrived.
+   codes: c0040 asking a hentai Discord for help against vandalism; c0071 urgently calling for defenders
+
+== loltyler1-049  restrict  [pending]  repairs 0  not carried
+   source t08 (dealing with other groups through Discord, treaties, and mutual help); lift loltyler1:t08 > T3-149 > T4-016 > D04
+   how: Defensive shortage supports seeking allies and offering reciprocal repairs, but receipt of the promised outside help remains unresolved.
+   codes: c0176 offering reciprocal logo help after stopping the griefing; c0218 proposing non-infringing free space and a bigger alliance because offline numbers cannot defend
+
+== lost-047  restrict  [pending]  repairs 0  not carried
+   source t05 (staying peaceful and helping neighbouring art); lift lost:t05 > T3-011 > T4-017 > D04
+   how: Inter-room assistance cannot be inferred to require a shortage of hands when participants describe spare turns and easier help among nearby overlapping favourites.
+   codes: c0041 introducing themselves as allied neighbours from r/cubers; c0042 welcoming a cuber and offering spare turns to fix their cube; c0082 helping nearby favorite series, game, and country
+   transitions: 62x1s7:11>11.1
+
+== luxembourg-022  restrict  [pending]  repairs 0  not carried
+   source t01 (choosing, locating, and joining flag targets); lift luxembourg:t01 > T3-068 > T4-020 > D08
+   how: A proposal to help another flag can arise from an initially outnumbered attempt before maintaining an achieved picture.
+   codes: c0002 saying they are outnumbered and redirecting help to defending the French flag; c0012 replacing a dark blue tile and proposing to keep an eye on it like graffiti; c0013 watching it for two hours to keep it the way it is
+
+== madokamagica-043  restrict  [pending]  repairs 1  not carried
+   source t02 (defending, repairing, and keeping the design recognizable); lift madokamagica:t02 > T3-021 > T4-013 > D03
+   how: An outsider's repair and an offer to defend are visible without establishing that a shortage of hands caused each contribution.
+   codes: c0045 thanking an outsider for constant repair work; c0076 offering to help defend the art while defending another work
+
+== malaysia-043  restrict  [pending]  repairs 0  not carried
+   source t07 (making hearts and trading help with neighbours); lift malaysia:t07 > T3-010 > T4-016 > D04
+   how: Incoming help is explicitly offered because the helper finished its own work, rather than solely because defenders requested scarce hands.
+   codes: c0040 offering peaceful boundaries and help from r/HelloInternet; c0041 asking the helper for their project boundary
+
+== malta-046  restrict  [pending]  repairs 1  not carried
+   source t04 (arguing over who is erasing whose flag); lift malta:t04 > T3-087 > T4-019 > D03
+   how: Defensive strain leads to requests and reported help, but sustained protection requires helpers able to contain competing placers.
+   codes: c0007 proposing asking other subreddits to protect or build the flag because Malta is small; c0020 updating a failed appeal when French help arrives; c0033 proposing asking r/place to defend a vandalized bigger flag; c0036 reporting a deal for French help defending an 8x12 Maltese flag; c0041 apologizing for failed protection and explaining a French civil war over keeping the flag pure
+   transitions: 62sh4s:14>14.1
+
+== mariokart-007  restrict  [pending]  repairs 1  not carried
+   source t04 (calling for help to keep Pixel Mario Kart in shape); lift mariokart:t04 > T3-084 > T4-017 > D04
+   how: Reported attacks explain seeking cooperation, but the mechanism's claim that another room sends help requires separate evidence of uptake.
+   codes: c0013 coming from r/ainbowroad to ask for help up keeping Mario Kart pixel art; c0014 asking for cooperation to keep Mario in shape against void griefers
+
+== maryland-051  restrict  [pending]  repairs 0  not carried
+   source t04 (returning Sweden's help with pixels and thanks); lift maryland:t04 > T3-151 > T4-017 > D04
+   how: A smaller protected group also supplies help after its own work is safe, rather than only soliciting outside hands under strain.
+   codes: c0085 calling in reciprocal help from Maryland; c0089 thanking Sweden and helping in return; c0090 giving Sweden a pixel after Maryland is safe; c0182 repaying Sweden for not erasing Maryland
+
+== math-055  restrict  [pending]  repairs 1  not carried
+   source t04 (working out borders, help, and coexistence with neighbours); lift math:t04 > T3-149 > T4-016 > D04
+   how: Announcing help for another room and receiving a conditional help offer do not establish outside assistance caused by a shortage of defenders.
+   codes: c0029 leaving temporarily to help r/smashbros build a fox; c0055 offering help with e in exchange for moving it
+
+== mechanicalkeyboards-044  restrict  [pending]  repairs 0  not carried
+   source t07 (Displaying, crediting, and explaining the finished canvas mark); lift mechanicalkeyboards:t07 > T3-009 > T4-026 > D07
+   how: Retrospective alliance credit does not establish that a shortage of maintenance hands produced an appeal for outside help.
+   codes: c0191 spending hours stopping the tiny logo being taken over; c0195 crediting the alliance with r/PinkVomitMonster for helping
+
+== megaman-039  restrict  [pending]  repairs 1  not carried
+   source t10 (making and testing alliances and ceasefires); lift megaman:t10 > T3-149 > T4-016 > D04
+   how: Restoration and protection are exchanged as offers, while their delivery and any common shortage of hands require separate evidence.
+   codes: c0041 offering laser restoration for protection and a ceasefire; c0043 offering to reset the beam while prioritising repairs and nonaggression
+
+== metalcore-058  restrict  [pending]  repairs 1  not carried
+   source t10 (moving RIP TOM into r/placestart's taskbar); lift metalcore:t10 > T3-071 > T4-017 > D04
+   how: Assistance may arrive as an outside offer before the local reply welcomes it because upkeep has been difficult.
+   codes: c0109 offering movement or taskbar assimilation terms; c0111 welcoming help after difficulty keeping the memorial up
+   transitions: 62yla6:0>2
+
+== miamidolphins-046  restrict  [pending]  repairs 0  not carried
+   source t03 (asking other communities to help); lift miamidolphins:t03 > T3-151 > T4-017 > D04
+   how: Repair needs supported reciprocal help, but this record does not require or demonstrate a manpower-shortage diagnosis as its cause.
+   codes: c0102 asking for help and offering it back; c0103 making help with the Cubs reciprocal; c0105 returning the Cubs' help after their logo became safe; c0107 sending help back to Cub fans
+
+== mindcrack-030  restrict  [pending]  repairs 1  not carried
+   source t03 (calling people in and coordinating the work); lift mindcrack:t03 > T3-002 > T4-005 > D01
+   how: Strain supports soliciting help, but a separate report of received assistance does not expose the arrangement connecting that assistance to a particular request.
+   codes: c0035 maintaining Guude against multiple attackers; c0036 soliciting Justin's stream to turn the tide; c0068 getting help from the Hermitcraft Discord
+
+== mit-043  restrict  [pending]  repairs 1  not carried
+   source t05 (working things out with neighboring communities); lift mit:t05 > T3-010 > T4-016 > D04
+   how: Distinguish an incoming offer of maintenance for building help from the host seeking aid because upkeep exhausted its hands.
+   codes: c0017 asking for reciprocal help after the WPI logo was moved twice; c0019 offering help while warning about the maintained banner and suggesting another region
+   transitions: 62qerh:1.1.3>1.1.3.1
+
+== mls-055  restrict  [pending]  repairs 1  not carried
+   source t10 (Negotiating space and returning help to neighbors); lift mls:t10 > T3-010 > T4-016 > D04
+   how: Help can repay the room's displacement of another picture rather than arise from its own shortage of defenders.
+   codes: c0317 promising to rebuild and protect a displaced crest; c0357 whiting out BOOF IT to make the Swansea logo they owe; c0378 asking the Swansea builders to help defaced pokeballs afterward; c0379 promising to chip in on the pokeballs
+
+== monstercat-053  restrict  [pending]  repairs 1  not carried
+   source t09 (making room for and helping neighbouring logos); lift monstercat:t09 > T3-011 > T4-017 > D04
+   how: The explicit occasion is securing one's own spot before an outward help appeal, not requesting and receiving external relief under strain.
+   codes: c0168 asking members to help Liquicity after getting their own r/place spot
+
+== mylittlepony-033  restrict  [pending]  repairs 1  not carried
+   source t07 (making peace and trading watch with canvas neighbors); lift mylittlepony:t07 > T3-151 > T4-017 > D04
+   how: Aid does not follow from strain alone because donors also condition their help on their own work's security and the requester's internal consensus.
+   codes: c0082 helping Halo while Dash stays fairly clean; c0187 telling Halo to resolve its disagreement before asking for help; c0188 refusing to be roped into another fandom controversy
+
+== nbaspurs-059  restrict  [pending]  repairs 1  not carried
+   source t10 (bargaining with neighbors and promising mutual upkeep); lift nbaspurs:t10 > T3-010 > T4-016 > D04
+   how: Requests, repair offers and retrospective credits must remain distinct because seeking outside hands does not establish that every proposed helper supplied them.
+   codes: c0191 proposing asking r/chelsea for help; c0177 offering Lakers help to repair misplaced pixels; c0124 thanking r/Lakers for helping and working together
+
+== neopets-050  restrict  [pending]  repairs 1  not carried
+   source t02 (backing off the mango and making peace); lift neopets:t02 > T3-047 > T4-015 > D04
+   how: Help can follow repaired relations before a later defence crisis, so maintenance strain is not the only route to intergroup assistance.
+   codes: c0022 former opponents lending a hand with the Jubjub; c0023 promising reciprocal help; c0037 calling for help defending the Jubjub as it is erased
+   transitions: 62xxox:5>5.1
+
+== nerf-018  restrict  [pending]  repairs 1  not carried
+   source t11 (thanking r/buffalobills as great neighbors); lift nerf:t11 > T3-122 > T4-017 > D04
+   how: Reciprocal neighbor greetings establish neither a strain-driven request for outside help nor delivered defense.
+   codes: c0070 r/buffalobills calling r/Nerf neighbors and praising the design; c0071 thanking r/buffalobills as great neighbors
+
+== nin-027  restrict  [pending]  repairs 1  not carried
+   source t02 (working with nearby fanbases so both sides survive); lift nin:t02 > T3-151 > T4-017 > D04
+   how: Help exchange can begin during construction through adjacency and overlapping interests, without waiting for maintenance strain after completion.
+   codes: c0041 starting beside Radiohead because the fans overlap; c0042 reusing nearby black pixels to start the logo; c0044 offering to trade spare pixels after each logo is safe; c0054 promising to clean Radiohead after the NIN logo is sound
+
+== nintendo-056  restrict  [pending]  repairs 0  not carried
+   source t08 (dealing with other canvas groups as allies, opponents, or claimants); lift nintendo:t08 > T3-006 > T4-020 > D08
+   how: An explicit shortage motivates requesting outside help, while delivery remains unresolved.
+   codes: c0023 asking Nintendo to help defend Tails from a black line
+
+== nlsscirclejerk-044  restrict  [pending]  repairs 0  not carried
+   source t06 (settling borders and asking neighbours for help); lift nlsscirclejerk:t06 > T3-010 > T4-016 > D04
+   how: Seeking protection and reporting a promise under upkeep strain do not by themselves establish that the other room delivered help.
+   codes: c0079 suggesting an alliance with the nearby smashbros group; c0080 reporting that smashbros would try to protect their stuff; c0081 calling to hold the line
+   transitions: 631vcc:4>4.1
+
+== notredame-043  restrict  [pending]  repairs 0  not carried
+   source t04 (making neighboring canvas work coexist); lift notredame:t04 > T3-010 > T4-016 > D04
+   how: Do not require defender shortage to explain these help trades, whose speakers instead name collision or prior accommodation as their reason.
+   codes: c0034 offering help in exchange for relocating away from the bomb; c0036 promising to clean up the bomb in return for logo help; c0064 reminding builders of moved text and asking them not to erase it; c0066 thanking them and gently asking for reciprocal help
+
+== npr-051  restrict  [pending]  repairs 1  not carried
+   source t03 (working out borders and mutual help with canvas neighbors); lift npr:t03 > T3-010 > T4-016 > D04
+   how: Outside help offered during an attack does not itself establish that the threatened room's lack of hands caused each offer.
+   codes: c0033 pledging indieheads help against the orange-and-black wall; c0032 weighing an attack buffer against keeping the logo maintainable
+
+== nuclearthrone-026  restrict  [pending]  repairs 1  not carried
+   source t04 (making room with Ireland); lift nuclearthrone:t04 > T3-071 > T4-017 > D04
+   relation: ireland
+   how: Help begins with an expanding neighbour's offer, so the mechanism must allow an incoming bargain without a demonstrated prior shortage-driven appeal.
+   codes: c0037 offering to incorporate Y.V. for help expanding Ireland; c0039 offering to fix griefs if Ireland spares Y.V.
+   transitions: 62xsmd:2>2.2
+
+== orderofthebluecorner-031  restrict  [pending]  repairs 1  not carried
+   source t07 (asking blue for help and answering for the void); lift orderofthebluecorner:t07 > T3-084 > T4-017 > D04
+   how: Incoming appeals to a strong host must be distinguished from the host seeking help because it lacks hands.
+   codes: c0048 asking the biggest pixel group to help r/homestuck and r/india fight the void
+
+== paladins-038  restrict  [pending]  repairs 1  not carried
+   source t10 (working out room with GreenLattice and neighbors); lift paladins:t10 > T3-010 > T4-016 > D04
+   how: A defense appeal can request outside help without demonstrating its arrival, even where separate exchanges show help offered.
+   codes: c0210 urgently calling for help as it is destroyed; c0211 trying to defend while calling on GreenLattice; c0230 asking for the logo so Peru can help
+   transitions: 630hwk:4>4.1
+
+== parrots-034  restrict  [pending]  repairs 0  not carried
+   source t05 (sending help between parrot efforts); lift parrots:t05 > T3-011 > T4-017 > D04
+   how: Contributing to another effort can follow its greater progress before sustained defense, rather than arise from upkeep exhausting available hands.
+   codes: c0013 redirecting everyone to r/partyparrot's farther-along parrot; c0032 fixing the parrot after it was partially stepped on
+
+== pathofexile-031  restrict  [pending]  repairs 1  not carried
+   source t11 (making and refusing deals with canvas neighbours); lift pathofexile:t11 > T3-010 > T4-016 > D04
+   how: An obligation to help an ally produces intervention only when contributors judge they have sufficient hands against the opposing force.
+   codes: c0082 making New Zealand the first defense priority; c0095 switching from defending New Zealand to leaving the attack alone; c0096 leaving the Denmark-New Zealand war alone because fifty cannot fight four hundred
+   transitions: 62tzch:2.4>2.4.1
+
+== penguins-057  restrict  [pending]  repairs 0  not carried
+   source t08 (proposing Pirates and Steelers supporters as help); lift penguins:t08 > T3-062 > T4-005 > D01
+   how: Seeking outside support can arise during failed construction before sustained upkeep, while a proposed crossover does not establish that help arrived
+   codes: c0032 reporting the old logo was overran because too few people could build fast enough; c0033 contrasting their numbers with teams maintaining huge logos; c0034 proposing a crossover with Pirates and Steelers supporters; c0096 recounting r/pitt help, being overran, and turning it into a 412
+   transitions: 62wxsm:5.1.1>5.1.1.1
+
+== placecanada-036  restrict  [pending]  repairs 1  not carried
+   source t05 (making deals and spending pixels for neighbours); lift placecanada:t05 > T3-010 > T4-016 > D04
+   how: Help can flow outward from spare pixels or reparative obligation, so these exchanges cannot be explained only by a shortage of defenders requesting incoming assistance.
+   codes: c0115 sending spare pixels to help the American flag; c0150 asking people with free pixels to help the American flag; c0105 proposing repair of 1G after taking over its first logo
+
+== popheads-031  restrict  [pending]  repairs 1  not carried
+   source t13 (building and reporting progress on the RAWM saxophone); lift popheads:t13 > T3-070 > T4-008 > D02
+   how: The reported help predates the current project and does not show that its maintenance shortage generated interroom assistance.
+   codes: c0286 praising the sax after helping other drawings grow and finish; c0291 mourning the raided and destroyed sax and declining to rebuild without manpower
+
+== portugal-084  restrict  [pending]  repairs 1  not carried
+   source t16 (choosing between expanding and defending); lift portugal:t16 > T3-042 > T4-013 > D03
+   how: Defence strain can postpone outgoing aid until home staffing improves rather than directly producing an exchange of help.
+   codes: c0048 promising Brazilian aid once more people can mind the Portuguese flag; c0100 putting their own defence before conditional help for Armenia
+
+== purplecorner-055  restrict  [pending]  repairs 1  not carried
+   source t08 (arguing over who speaks for purple); lift purplecorner:t08 > T3-190 > T4-023 > D05
+   how: Strain can limit assistance to an incoming requester, so defense pressure alone does not establish an outward request followed by delivered help.
+   codes: c0052 asking purple to stop the American flag crossing Rainbow Road; c0094 explaining that lost ground and weak organisation limit help
+   transitions: 62tns9:0>1
+
+== radiohead-027  restrict  [pending]  repairs 1  not carried
+   source t04 (making peace and trading help with neighbours); lift radiohead:t04 > T3-011 > T4-017 > D04
+   how: Shortage motivates an explicit rescue plea, but help also rests on reciprocity or affection without an asserted deficit.
+   codes: c0275 asking for help defending Waldo; c0276 helping Waldo with stripes without knowing the pattern; c0067 agreeing to help tagpro for mutual protection; c0254 feeling warm and fuzzy about the NIN–Radiohead alliance
+   transitions: 636g8m:1.1>1.1.1
+
+== redpandas-030  restrict  [pending]  repairs 1  not carried
+   source t06 (finishing and defending pandas and neighbours); lift redpandas:t06 > T3-005 > T4-013 > D03
+   how: Outward help can be proposed because a neighbour deserves a kind gesture, without an evidenced shortage or expectation of returned help.
+   codes: c0044 helping next-door r/austria defend as a kind gesture; c0045 thanking them and explaining Austria's eagle problem; c0046 inviting planning on Austria's Discord
+   transitions: 62ssqy:12>12.1
+
+== rit-031  restrict  [pending]  repairs 0  not carried
+   source t09 (defending the logo and helping neighbors against the void); lift rit:t09 > T3-005 > T4-013 > D03
+   how: Preventive defense and repayment of earlier accommodation motivate help even when a shortage of hands has not been established.
+   codes: c0058 calling for help against the void before it reaches the new logo; c0077 asking RIT to help Waldo fight the void; c0082 helping neighbors because RIT had asked a lot of them
+
+== romania-041  restrict  [pending]  repairs 1  not carried
+   source t07 (trading help with neighbours); lift romania:t07 > T3-151 > T4-017 > D04
+   how: A request for reciprocal defence identifies needed help but does not establish manpower shortage as its cause.
+   codes: c0014 asking Romania to defend Portugal in return for mutual help; c0015 promising to help Portugal
+
+== roosterteeth-030  restrict  [pending]  repairs 0  not carried
+   source t05 (working around neighbours and asking allies for help); lift roosterteeth:t05 > T3-010 > T4-016 > D04
+   how: An attack announcement elicits a conditional sister-community help request, but the exchange does not establish that those helpers arrived.
+   codes: c0178 warning that attackers will not stop at the AH logo; c0179 asking safe sister subs to help from a fitting template; c0180 resizing the template to fit the current spot
+   transitions: 633uor:0>1
+
+== rotmg-062  restrict  [pending]  repairs 1  not carried
+   source t09 (returning help and joining neighbours' fights); lift rotmg:t09 > T3-151 > T4-017 > D04
+   how: Shared exposure and reciprocal obligations can motivate inter-room help without an explicit judgement that the room lacks enough hands.
+   codes: c0064 asking Oryx's defenders to help push back the Black Blob; c0067 sending help against the approaching blob; c0098 arguing to return the trans flag's favour
+
+== russia-054  restrict  [pending]  repairs 0  not carried
+   source t08 (asking allies for help and offering help back); lift russia:t08 > T3-084 > T4-017 > D04
+   how: Outside help is visible but specific requests must be distinguished from an inferred universal response to defensive strain.
+   codes: c0050 saying the group is too small and protecting its flag spartan-like; c0078 coming from India to help draw the Russian flag; c0079 making a tool after being asked to help draw a flag
+
+== rwby-030  restrict  [pending]  repairs 1  not carried
+   source t07 (Negotiating space and repaying canvas neighbours); lift rwby:t07 > T3-010 > T4-016 > D04
+   relation: GuildWars2
+   how: Help may be requested because another room is vulnerable or the recipient's own mark is finished, without evidence that requested pixels were subsequently delivered.
+   codes: c0278 asking RWBY to help defend GuildWars2 before RWBY is attacked; c0282 asking for help after RWBY requested peace; c0283 asking for the exact pixel spot instead of jumping around threads; c0284 answering with the center coordinates
+
+== seahawks-029  restrict  [pending]  repairs 0  not carried
+   source t09 (negotiating and fighting over shared space); lift seahawks:t09 > T3-010 > T4-016 > D04
+   how: Strain prompted proposed outside alliances, but incoming assistance cannot be inferred from an unanswered proposal.
+   codes: c0126 reporting an overnight defense and saying they are losing; c0127 proposing an alliance with r/sweden and building on its blue; c0099 making the 12 smaller to protect and proposing mutual defense with 49ers
+
+== serbia-053  restrict  [pending]  repairs 0  not carried
+   source t07 (negotiating space and help with canvas neighbours); lift serbia:t07 > T3-010 > T4-016 > D04
+   how: A help call follows a reported threat, but later outside assistance cannot be attributed to that specific appeal from the available concepts.
+   codes: c0149 pointing to an Albanian flag attempt near theirs; c0150 calling Russia for help; c0173 helping Serbia regain ground from the black void
+   transitions: 630hn8:2>2.1
+
+== sheffield-052  restrict  [pending]  repairs 0  not carried
+   source t07 (moving the rose to respect Apollo); lift sheffield:t07 > T3-039 > T4-014 > D04
+   how: Outside help here addresses a negotiated move rather than an evidenced shortage of defenders under attack.
+   codes: c0014 prioritising black space, missing parts and yellow writing; c0044 proposing moving the rose one pixel and asking for coordinated help; c0045 rounding up Pl-ace Attorney people from Discord to help; c0049 launching Operation Move the Rose with outside help
+   transitions: 632zky:9.1>9.1.1
+
+== sips-049  restrict  [pending]  repairs 0  not carried
+   source t08 (asking neighbours for room, permission and protection); lift sips:t08 > T3-035 > T4-014 > D04
+   how: Reported outside protection establishes assistance without establishing that a shortage of defenders caused a request and response.
+   codes: c0094 asking whether someone negotiated permission from r/2007scape; c0097 saying an r/2007scape member helped preserve r/Sips and resumed watching Sips
+
+== skyrim-043  restrict  [pending]  repairs 0  not carried
+   source t06 (helping neighbors and trading protection); lift skyrim:t06 > T3-011 > T4-017 > D04
+   how: Help follows shared exposure to attack as well as appeals for scarce hands, so the shortage mechanism needs independent evidence.
+   codes: c0094 calling all hands to fight back the void for Green Lattice; c0096 helping one of the oldest surviving factions; c0100 distinguishing Lattice randos from helpers while asking for every pixel; c0142 sending r/osugame's spare manpower through Discord and urging r/skyrim to hold on
+
+== smashbros-028  restrict  [pending]  repairs 0  not carried
+   source t08 (working out space, help, and obligations with neighbors); lift smashbros:t08 > T3-150 > T4-018 > D04
+   how: The shortage mechanism does not explain outgoing help explicitly justified by local stability and therefore cannot cover every maintenance-to-help relation
+   codes: c0268 asking spare builders to help rebuild griefed Starry Night; c0269 promising pixels to unstable Starry Night
+   transitions: 63143p:2>2.1
+
+== snsd-028  restrict  [pending]  repairs 1  not carried
+   source t03 (asking neighbours for help and working out the design); lift snsd:t03 > T3-004 > T4-006 > D02
+   how: Help need not follow a maintenance shortfall because a neighbour offers assistance after finishing its own work.
+   codes: c0019 offering r/bangtan help to integrate after finishing theirs; c0022 trying to maintain it while someone ruins it
+
+== southpark-024  restrict  [pending]  repairs 1  not carried
+   source t05 (rallying to defend and fix Cartman); lift southpark:t05 > T3-005 > T4-013 > D03
+   how: Outside help may arrive through a volunteer who has finished another drawing, without the recipient making a recorded inter-room request or bargain.
+   codes: c0037 asking for help as Cartman gets more fucked up by the minute; c0044 coming from a finished r/TsundereSharks drawing to preserve Cartman
+   transitions: 631ezm:1>1.2
+
+== splatoon-047  restrict  [pending]  repairs 1  not carried
+   source t05 (working out borders and help with neighbours); lift splatoon:t05 > T3-010 > T4-016 > D04
+   how: The explicit upkeep-help connection proposes sending spare repair labour outward, without demonstrating shortage causing incoming help.
+   codes: c0020 offering help when repairs are not needed to keep the squid; c0073 promising help to neighbours who nestled in without harm
+
+== ss13-034  restrict  [pending]  repairs 0  not carried
+   source t09 (making deals with neighbouring groups); lift ss13:t09 > T3-010 > T4-016 > D04
+   how: Defensive assistance is explicitly justified by a returned favour rather than a demonstrated shortage of hands.
+   codes: c0096 mobilizing to defend their savior the clown; c0100 asking r/homestuck to return the HONK favour by defending the logo
+
+== starcitizen-059  restrict  [pending]  repairs 1  not carried
+   source t11 (Negotiating and defending shared space with neighboring communities); lift starcitizen:t11 > T3-150 > T4-018 > D04
+   how: Outside help also precedes completion of the receiving room's own mark and need not be triggered by its upkeep shortage.
+   codes: c0250 asking Star Citizen for help making its logo beside Elite; c0255 placing a little black pixel every five minutes despite uncertainty; c0387 crediting the ED guys with offering a place to build
+
+== starcraft-028  restrict  [pending]  repairs 0  not carried
+   source t08 (trading border help and making alliances); lift starcraft:t08 > T3-150 > T4-018 > D04
+   how: Neighbor help is justified by deserved support and possible future reciprocity without an explicit claim that current upkeep has exhausted available hands.
+   codes: c0143 sending spare effort to helpful Chelsea and Utah neighbors; c0164 helping cool neighbors in hope they have StarCraft's back
+
+== stlouisblues-034  restrict  [pending]  repairs 0  not carried
+   source t03 (asking for and trading pixel help); lift stlouisblues:t03 > T3-084 > T4-017 > D04
+   how: The visible request comes from outsiders and meets a manpower reservation, not a demonstrated shortage-driven Blues request followed by incoming help.
+   codes: c0104 asking the Blues to help defend other NHL logos; c0105 offering an alliance while reserving manpower for prime territory
+   transitions: 634ls0:0>1
+
+== tagpro-034  restrict  [pending]  repairs 1  not carried
+   source t06 (making and answering deals with canvas neighbors); lift tagpro:t06 > T3-010 > T4-016 > D04
+   how: The shortage mechanism cannot explain all maintenance-linked reciprocity because the host also commits help outward while its own repair request remains active.
+   codes: c0121 asking everyone to watch and fix the vandalized work; c0122 asking TagPro to help push invaders back from In Rainbows; c0123 answering that they will defend r/radiohead
+   transitions: 630y12:0>1, 630y12:1>1.1
+
+== taiwan-051  restrict  [pending]  repairs 0  not carried
+   source t06 (making room and deals with nearby art); lift taiwan:t06 > T3-010 > T4-016 > D04
+   how: Outgoing neighbor assistance can follow a lull in home maintenance rather than arise from strain or a shortage of hands.
+   codes: c0053 helping the LOLI sign when the flag and heart do not need maintaining
+
+== teslamotors-032  restrict  [pending]  repairs 0  not carried
+   source t11 (helping neighboring drawings); lift teslamotors:t11 > T3-011 > T4-017 > D04
+   how: Reported outside repairs and mutual maintenance do not establish that a shortage first caused a request for outside help.
+   codes: c0165 coming from SpaceX to help repair the Tesla logo; c0221 explaining mutual maintenance with SpaceX while protecting the Tesla logo
+
+== texas-044  restrict  [pending]  repairs 0  not carried
+   source t12 (Calling in reinforcements to bring the flag back); lift texas:t12 > T3-062 > T4-005 > D01
+   how: Pressure supports an appeal for reinforcements, but each appeal needs separate evidence of returned help before the complete request-and-delivery mechanism is established.
+   codes: c0131 asking other subs for help against Norway; c0155 uniting university groups to bring back the Texas flag; c0184 securing a backup flag spot with help from other communities
+
+== thailand-054  restrict  [pending]  repairs 1  not carried
+   source t08 (bargaining for space and trading help with neighbours); lift thailand:t08 > T3-149 > T4-016 > D04
+   how: Help trading can begin with a space-seeking visitor receiving a flag-first condition instead of a strained host initiating a search for hands.
+   codes: c0143 asking Thailand for space for UofT's brown food truck; c0145 making help on the Thai flag a condition for talks; c0148 agreeing to help draw over the frog
+   transitions: 6342ez:0>2, 6342ez:2>2.2
+
+== the_pack-023  restrict  [pending]  repairs 0  not carried
+   source t06 (working with allies and carrying the bond home); lift the_pack:t06 > T3-072 > T4-017 > D04
+   how: Help is explicitly offered for repair, but a prior recipient request caused by shortage is unresolved and must not be inferred from aid arriving.
+   codes: c0069 warning that THE_FACK is gunning for the sign while trying alone; c0075 lending transflagplace pixels to help fix the sign; c0076 directing allies to push Armenia back and defend 316,601
+
+== theexpanse-033  restrict  [pending]  repairs 1  not carried
+   source t04 (making room with neighbors and helping their work); lift theexpanse:t04 > T3-010 > T4-016 > D04
+   how: Allied defence is reported without a demonstrated shortage causing an appeal that brought those helpers.
+   codes: c0064 defending the name with allied subreddits; c0024 asking for help keeping the logo up
+
+== thepointing-045  restrict  [pending]  repairs 2  not carried
+   source t02 (trying to make peace and trade help); lift thepointing:t02 > T3-151 > T4-017 > D04
+   how: Strain can elicit offers of help without reliable delivery, and a participant attributes moving alone to an alliance mostly not being followed through.
+   codes: c0035 proposing reconsideration because the partnership brought no benefit; c0036 offering rebuilding help in exchange for eliminating the pig; c0044 asking what happened to the alliance; c0045 saying the alliance mostly fell through and they moved alone
+   transitions: 62uh0r:2>2.1, 62vzm7:1.1>1.1.1
+
+== timbers-043  restrict  [pending]  repairs 1  not carried
+   source t03 (working out space, truces, and help with canvas neighbors); lift timbers:t03 > T3-010 > T4-016 > D04
+   how: Neighbor help accompanies construction and overlap repair, so an inferred defense-induced shortage cannot explain every exchange.
+   codes: c0010 asking to place the crest below their name and offering repairs; c0011 fixing their work and offering the team help with the Timbers logo; c0020 urging consideration toward r/straya in case their help is needed
+
+== titanfall-031  restrict  [pending]  repairs 1  not carried
+   source t09 (Repaying neighbours with pixel help); lift titanfall:t09 > T3-151 > T4-017 > D04
+   how: Inter-room help need not originate in a shortage of defenders because gratitude, repayment for space, and interest in another picture also motivate it.
+   codes: c0207 calling for help for r/VirginiaTech in thanks for its help; c0216 remembering GreenLattice let them post their art and asking for help preserving its field; c0239 taking a break from their logo to help finish the gameboy; c0240 correcting tiles on the Lego logo too
+
+== toolband-030  restrict  [pending]  repairs 0  not carried
+   source t09 (asking neighbors for space, peace and help); lift toolband:t09 > T3-010 > T4-016 > D04
+   how: Pressure produces a request and relay of outside help but the responding neighbor expressly limits what assistance can be delivered
+   codes: c0178 asking the Pokemon team for help against r/placestart; c0179 sending the help request to the Pokemon Discord while limiting what they can do
+   transitions: 634zf7:3>3.1
+
+== touhou-030  restrict  [pending]  repairs 1  not carried
+   source t06 (working out borders and help with neighbours); lift touhou:t06 > T3-010 > T4-016 > D04
+   how: Defense pressure here explicitly limits outward help rather than demonstrating an inward recruitment-and-delivery chain.
+   codes: c0138 apologizing that keeping vandalism low leaves no help to give; c0140 helping Osu but prioritizing Touhou pixels; c0165 helping Shantae after prioritizing Touhou defense
+
+== traaaaaaannnnnnnnnns-054  restrict  [pending]  repairs 0  not carried
+   source t03 (negotiating crossings and leaving neighboring art alone); lift traaaaaaannnnnnnnnns:t03 > T3-010 > T4-016 > D04
+   how: Shared threat supports asking allies to help, but promised help and actual delivery remain distinct and a shortage-caused exchange is not established.
+   codes: c0028 calling on the room to defend the knight from the black plague; c0053 telling an ally to help rather than just say they will; c0070 asking people to repair the ace flag and spread word
+
+== transformers-048  restrict  [pending]  repairs 0  not carried
+   source t06 (working out room and help with other pictures); lift transformers:t06 > T3-010 > T4-016 > D04
+   how: A warning and enemy-bot attribution prompt outside appeals, but the record does not establish that other rooms sent help.
+   codes: c0081 warning that Kenya plans to wipe out the Decepticon emblem; c0082 saying they are using github bots; c0083 appealing to other subs that would work with us
+   transitions: 633jgo:7.1.1.1.1.1.1>7.1.1.1.1.1.1.1
+
+== trees-032  restrict  [pending]  repairs 0  not carried
+   source t10 (working out space with canvas neighbours); lift trees:t10 > T3-010 > T4-016 > D04
+   relation: Colorado
+   how: Maintenance trouble motivates a request for outside border help, but the request alone does not establish that additional helpers arrive.
+   codes: c0487 a Colorado-flag neighbor cheering on the r/trees work; c0497 asking the Colorado brothers to help maintain the border
+   transitions: 632apy:3>3.2
+
+== turkey-058  restrict  [pending]  repairs 0  not carried
+   source t04 (stretching scarce manpower with forums, accounts, bots, scripts, and Discord); lift turkey:t04 > T3-062 > T4-005 > D01
+   how: Requests under strain do not guarantee incoming help because participants explicitly report no help and abandon their own participation.
+   codes: c0085 saying they need more people; c0087 giving up after getting no help from eksi or Discord; c0094 seeking help from a much bigger Turkish forum like incisozluk; c0095 expecting nobody from incisozluk to help because the topic will not trend
+
+== twentyonepilots-026  restrict  [pending]  repairs 1  not carried
+   source t10 (helping, apologising to, and thanking canvas neighbours); lift twentyonepilots:t10 > T3-011 > T4-017 > D04
+   how: Help can arrive as an unsolicited apology and offer or as post-event record sharing rather than following a request for extra defenders.
+   codes: c0043 apologising for r/edmontonoilers invading and offering rebuilding help; c0097 bringing r/mexico's collective work from before the Void attacked; c0098 thanking r/mexico and celebrating Mexico and TØP together
+
+== twitchplayspokemon-027  restrict  [pending]  repairs 0  not carried
+   source t07 (turning alliances and land claims into Chatot lore); lift twitchplayspokemon:t07 > T3-135 > T4-004 > D05
+   how: Explains that reported help supports its contribution to maintenance without demonstrating that a new shortage of hands caused the relationship.
+   codes: c0138 crediting an alliance with r/ainbowroad for keeping Helix operational; c0211 spending all day talking with and helping neighbours around Chatot
+
+== uiowa-043  restrict  [pending]  repairs 1  not carried
+   source t03 (trading help and room with neighbors); lift uiowa:t03 > T3-012 > T4-014 > D04
+   how: Reciprocal help is already offered before the recorded defense call, so defense shortages cannot be treated as its necessary entry condition.
+   codes: c0008 relaying Maryland's offer to trade help; c0023 calling on people to defend the I
+
+== uiuc-027  restrict  [pending]  repairs 1  not carried
+   source t12 (asking for and promising help around the B1G corner); lift uiuc:t12 > T3-084 > T4-017 > D04
+   how: Help requests include appeals to a secure neighbor, so labor shortage cannot explain every exchange of assistance.
+   codes: c0065 r/uofmn asking the secure Block I for help against Wisconsin; c0081 r/CHICubs asking r/uiuc for logo help; c0083 Wisconsin asking the nice-logo builders for a hand; c0105 offering extra resources to help OSU and Iowa establish room
+
+== undertale-029  restrict  [pending]  repairs 0  not carried
+   source t07 (negotiating space, borders, and mutual help); lift undertale:t07 > T3-010 > T4-016 > D04
+   how: Help can address shared exposure or repay earlier defense, without demonstrating that the requesting room first exhausted its own hands.
+   codes: c0086 stopping attacks and inviting a joint fight against the void; c0090 spending clicks fixing Ireland's flag for safety from the Void; c0246 thanking defenders and offering Moondye7's old space in return
+
+== unturned-030  restrict  [pending]  repairs 0  not carried
+   source t05 (making room with neighbours and trading help); lift unturned:t05 > T3-010 > T4-016 > D04
+   how: Help under simultaneous attack is visible, but the coded offers do not establish that exhausted manpower caused the room to initiate each request.
+   codes: c0089 asking Unturned to drop squares against a planned attack; c0090 offering protection in return for protection; c0091 accepting the deal and sending a pixel; c0092 helping neighboring art while being brigaded
+
+== uofm-026  restrict  [pending]  repairs 0  not carried
+   source t08 (rallying Big Ten neighbours against outside attacks); lift uofm:t08 > T3-150 > T4-018 > D04
+   relation: Minnesota
+   how: The local pair establishes an appeal under attack and its acceptance, not measured hand shortage or delivered pixel help.
+   codes: c0122 Minnesota asking Michigan for help against Venezuela; c0123 answering Minnesota's request with immediate help
+   transitions: 631j23:0>2
+
+== uofmn-040  restrict  [pending]  repairs 0  not carried
+   source t05 (making truces and trading room to coexist); lift uofmn:t05 > T3-010 > T4-016 > D04
+   how: A maintenance-related request yields assistance only when participants accept the exchange, which can depend on a protection guarantee.
+   codes: c0022 asking Minnesota for help and promising help back; c0023 agreeing to help Michigan; c0024 conditioning help against OSU on protection from Wisconsin; c0036 refusing Wisconsin’s request for help
+   transitions: 62uph2:1>1.2
+
+== uoft-028  restrict  [pending]  repairs 0  not carried
+   source t05 (trading help and protection with other subreddits); lift uoft:t05 > T3-151 > T4-017 > D04
+   how: Helping others is also reported before successful local construction, so cross-room assistance cannot all be explained as a response to local maintenance shortages.
+   codes: c0073 repairing the Swiss flag before promising U of T help; c0083 recounting protecting the Poland ball from vandalism; c0105 saying defenders are spread too thin across three builds
+
+== utahjazz-036  restrict  [pending]  repairs 0  not carried
+   source t08 (asking neighbors for peace and trading help); lift utahjazz:t08 > T3-149 > T4-016 > D04
+   how: Shared defense motivates help appeals, but an appeal or offer alone cannot establish that the particular exchange was completed.
+   codes: c0077 asking Jazz builders to help the Knicks stop r/supremeclothing; c0078 offering ripcity help maintaining the Jazz logo
+
+== utaustin-032  restrict  [pending]  repairs 0  not carried
+   source t05 (making peace and building beside rivals); lift utaustin:t05 > T3-010 > T4-016 > D04
+   how: Help can begin through converting mutual attackers into collaborators rather than solely through defenders running short of hands.
+   codes: c0048 offering Aggie help if orange vandalism stops; c0177 offering to build beside UT until vandalism pulls Aggies away; c0180 making Aggie help conditional on Longhorns leaving their logo alone
+
+== uva-044  restrict  [pending]  repairs 0  not carried
+   source t04 (keeping the UVA standing against takeovers); lift uva:t04 > T3-005 > T4-013 > D03
+   relation: smashbros
+   how: Help from a former damaging group must remain a reported relation change unless the record also establishes a shortage-driven request and response.
+   codes: c0006 apologizing for mistaking the UVA logo for random pixels; c0007 saying r/smashbros accidentally stole UVA's spot and found a new one; c0018 recounting smashbros crushing one attempt then helping defend another from VT
+
+== uvic-021  restrict  [pending]  repairs 0  not carried
+   source t02 (Helping west coast schools stick together); lift uvic:t02 > T3-011 > T4-017 > D04
+   how: Inter-room help includes proactive offers and reciprocal requests rather than requiring a prior declaration that the host lacks enough hands.
+   codes: c0003 offering help from SFU; c0005 warning of an attack and asking UVic for support; c0006 fixing SFU's F; c0007 thanking UVic while defending it
+   transitions: 62wkwn:4>4.1, 62wkwn:4.1>4.1.1
+
+== uwaterloo-026  restrict  [pending]  repairs 1  not carried
+   source t07 (bargaining over borders and mutual help); lift uwaterloo:t07 > T3-010 > T4-016 > D04
+   how: Help offers can originate with a neighbour seeking the occupied site, so declared local shortage is not necessary for every exchange.
+   codes: c0056 offering a truce, a new spot, and help completing Thank Mr Goose; c0069 calling everyone to keep the goose going
+
+== vegan-045  restrict  [pending]  repairs 2  not carried
+   source t09 (working with neighbours and trading help); lift vegan:t09 > T3-011 > T4-017 > D04
+   how: Proposed outside recruitment and gratitude for help do not establish the whole shortage to request to delivery sequence
+   codes: c0242 reframing the attack as bigger subs taking smaller ones and proposing r/vegetarian help; c0375 thanking r/avoarmy warriors for making the finish possible
+
+== vinesauce-030  restrict  [pending]  repairs 1  not carried
+   source t06 (working things out with neighboring communities); lift vinesauce:t06 > T3-010 > T4-016 > D04
+   how: Giving help could depend on spare capacity and earlier protection, rather than necessarily result from running short of hands.
+   codes: c0025 repaying French protection by helping build their baguette; c0031 protecting the shroom by protecting France and stopping expansion; c0087 defending shared space because the Jets were cool with them
+
+== virginiatech-045  restrict  [pending]  repairs 1  not carried
+   source t04 (working out room and borders with neighbors); lift virginiatech:t04 > T3-010 > T4-016 > D04
+   relation: titanfall
+   how: The explicit help offer resolves overlapping logos rather than documenting exhausted defenders recruiting outside hands.
+   codes: c0078 offering Titanfall help to move VT and preserve a border; c0082 denying an attack and proposing an agreement to move VT
+
+== warframe-043  restrict  [pending]  repairs 1  not carried
+   source t11 (negotiating canvas space and reciprocity with GreenLattice and neighbours); lift warframe:t11 > T3-010 > T4-016 > D04
+   how: Shortage and reciprocal help coexist without a direct explanation that shortage caused the exchange.
+   codes: c0221 saying Greenlattice pushed back harder than their numbers could meet; c0225 offering Green Lattice help for help with the Lotus; c0226 promising lattice maintenance once the logo is recognizable
+
+== warriors-047  restrict  [pending]  repairs 0  not carried
+   source t05 (making the effort visible and calling in backup); lift warriors:t05 > T3-062 > T4-005 > D01
+   how: Defense strain supports outside appeals, while arriving helpers are not securely attributable to the named external audiences.
+   codes: c0052 defending their own defense and saying they recruited the SFGiants game thread; c0096 counting helpers in WarOwl's stream and calling in the masses; c0104 reporting helpers arriving while CS:GO keeps pushing the bottom-left side; c0150 asking r/nbaplace for help

@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Last written at D3a-39, 2026-10-20 UTC. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 to 176 (R01, P05, P22, P21, A21) moved the hash; D3c refreezes it.
+Last written at D3a-40, 2026-10-20 UTC. The return was served at pass 15 (e15f9647…b3fecd). Moves 172 to 176 (R01, P05, P22, P21, A21) moved the hash; D3c refreezes it.
 
 ## The method question, in one sentence
 
@@ -23,10 +23,10 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **QD3-007:** A07's bound keeps its words; marking an ended attempt is a P11 subform, for the clustering.
 - **QD3-008 (J):** option 2: A11's 'settled' goes to D3c; wording questions without a correction are mine, logged.
 
-## The return (D1a to D3a-39)
+## The return (D1a to D3a-40)
 
 - **D1a and D2a.** 705 rooms returned 42,243 lines (67 of 14,675 absent lines evidenced). The readers split in 163 rooms.
-- **D3a, by element.** R01 and P05 were revised (moves 172, 173); P22 and P21, the field's entries, stand reworded (moves 174, 175). The other 21 stand uncorrected. A21 stands bounded (move 176): the agreement comes first in 114 of 162 rooms. A01 to A12 stand uncorrected; 222 rooms start and call in one post; keeping follows a report, 308 of 331; talk follows keeping, 141 of 265; sparing follows terms, 227 of 295; machine hands follow upkeep, 87 of 144; marking follows a report, 131 of 156; records follow marking, 232 of 240; carrying on follows a record, 163 of 184; moves follow doubt, 112 of 159; a layout answers design talk in-thread, 111 of 228; another member answers a call in-thread, 430 of 480; joins come bare, 392 of 411.
+- **D3a, by element.** R01 and P05 were revised (moves 172, 173); P22 and P21, the field's entries, stand reworded (moves 174, 175). The other 21 stand uncorrected. A21 stands bounded (move 176): the agreement comes first in 114 of 162 rooms. A01 to A13 stand uncorrected; 222 rooms start and call in one post; keeping follows a report, 308 of 331; talk follows keeping, 141 of 265; sparing follows terms, 227 of 295; machine hands follow upkeep, 87 of 144; marking follows a report, 131 of 156; records follow marking, 232 of 240; carrying on follows a record, 163 of 184; moves follow doubt, 112 of 159; a layout answers design talk in-thread, 111 of 228; another member answers a call in-thread, 430 of 480; joins come bare, 392 of 411; help follows upkeep, 155 of 197.
 - **D3a-15 to D3a-26.** Rooms of 705: attacks [P09] 510, taunts [P18] 404, moves after a loss [P10] 300, too few hands or room [K02] 520, machine hands [P14] 320, carrying on [P13] 292, the host's line [P20] 310, coalitions [P17] 383, bare answers [P15] 579, decided order [C01] 136, an old tie naming the rival [C02] 112, who may commit the room [P21] 163.
 
 ## The current account, and the contrary rooms
@@ -61,19 +61,14 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Where the run stands
 
-- **D3a outputs:**
-  - `adjudications.jsonl`: 31,569 lines ruled, 32,338 with re-rulings;
-  - the stage's notes: G1 to G44 (six of them amended once), G13a, G4a (three amendments) and the field's entries.
+- **D3a outputs:** `adjudications.jsonl`: 32,227 lines ruled, 32,998 with re-rulings; the stage's notes: G1 to G45 (six of them amended once), G13a, G4a (three amendments) and the field's entries.
 - **Ledgers (lines):** tier history 561; model history 150; findings 37 (23 findings); elements 30 (25 standing, 5 candidates); arrows 21.
 - **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa of 0.19.
 - **Questions:** none open.
 
 ## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
-"It is important to me that the language is descriptive." "They should use academic writing. As in White and Strunk. Short cohesive sentences."
-- Ask Orwell's six questions.
-- Follow ASD-STE100 about 80% of the time: one idea per sentence, active voice, common words, the actor and the act named.
-- Describe what members did, in what order, in how many rooms, and write no figures of speech. Gloss each construct name in plain words where it first appears.
+"It is important to me that the language is descriptive." "They should use academic writing. As in White and Strunk. Short cohesive sentences." Ask Orwell's six questions. Follow ASD-STE100 about 80% of the time: one idea per sentence, active voice, common words, the actor and the act named. Describe what members did, in what order, in how many rooms, and write no figures of speech. Gloss each construct name in plain words where it first appears.
 
 ## Stage C2
 
@@ -97,10 +92,8 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 ## J's rulings that bind (carry them)
 
 - **Bags.** No one cuts the bags (J, 12:24 Berlin). A bag stays one item: one theme placed, its others under `also_present`, each with three concepts of its own.
-- **The bound (J, 13:47).** `also_present` names "twenty themes at most".
-- **The not-flagged bag (J, QB2-013).** With no other theme at the floor, `item_is_a_bag` is false and `also_present` `{}`.
-- **Fleet ids (J, 09:14 and 12:15).** Packets carry only fleet ids; my files keep room ids.
-- **Stage B.** `assign_final.jsonl` is its settled line; agreement is Jaccard on placement sets.
+- **The bound (J, 13:47).** `also_present` names "twenty themes at most". **The not-flagged bag (J, QB2-013).** With no other theme at the floor, `item_is_a_bag` is false and `also_present` `{}`.
+- **Fleet ids (J, 09:14 and 12:15).** Packets carry only fleet ids; my files keep room ids. **Stage B.** `assign_final.jsonl` is its settled line; agreement is Jaccard on placement sets.
 
 ## Standing words from J and the PI (carry into every head)
 
@@ -118,25 +111,17 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **From D3a-02 to D3a-39**, to weigh after order tests:
-  - C01's: decided order's reach (3, beside A19); contests over where the room decides (5);
-  - P13's: keeping begun while building; routes in from help, marking or loss; a possible loop;
-  - P20's: the line crossed; the clock shaping it; removals sending talk elsewhere; canvas-born rooms;
-  - P17's: prior ties and colour faiths choosing allies (C02); P21's four forms;
+- **From D3a-02 to D3a-40**, to weigh after order tests:
+  - C01's: decided order's reach (3, beside A19); contests over where the room decides (5); P13's: keeping begun while building; routes in from help, marking or loss; a possible loop;
+  - P20's: the line crossed; the clock shaping it; removals sending talk elsewhere; canvas-born rooms; P17's: prior ties and colour faiths choosing allies (C02); P21's four forms;
   - P15's: its edge with P11 and P03; joins waiting on a visible start (criticalrole);
-  - at D3c: the spine's three links, A04's split, A05's mechanism, A06's bound, A07's to A10's one-act, carry-first and move-first rooms, two-way checks; A11's template-first rooms; A12's reason test and starts joined;
-  - P09's: what precedes the attack (13) and what picks its target (9, C02); P18's: what opens the contest (6, A18);
-  - P10's and K02's (A10, F-019): copies before a loss; no move (40) or giving up (12) after doubt;
-  - P19's form (9; 5 allied host ties); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4; kin ties, 3);
-  - calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording after a loss (A08);
-  - a finished work reopening calls or design;
-  - neighbours (A04, A13's giver, A14, A19) and an apology opening help (no arrow);
-  - machine hands (A06, P14): scripts against keeping, refused as help or as keepers;
-  - P12's records as proof in P22's contests (uwaterloo-053); P22's two forms;
-  - the host's moderation of records and takeovers (T4-002);
-  - bare refusals (math-011, wow-050) against F-014;
-  - chats (T4-010): sharing split in 19 rooms, scripts held in 6;
-  - K01's canvas-call clause (doubted in 3); doubt costing uptake (9).
+  - at D3c: the spine's three links, A04's split, A05's mechanism, A06's bound, A07's to A10's one-act, carry-first and move-first rooms, two-way checks; A11's template-first rooms; A12's reason test and starts joined; A13's second path, spare-capacity help and edited record ends;
+  - P09's: what precedes the attack (13) and what picks its target (9, C02); P18's: what opens the contest (6, A18); P10's and K02's (A10, F-019): copies before a loss; no move (40) or giving up (12) after doubt;
+  - P19's form (9; 5 allied host ties); P06's form (14); whom a room spares (ties to the makers, 10; help returned, 4; kin ties, 3); calls recurring after a loss (P01, P10, A10); parallel and outside builders (P03); recording after a loss (A08);
+  - a finished work reopening calls or design; neighbours (A04, A13's giver, A14, A19) and an apology opening help (no arrow);
+  - machine hands (A06, P14): scripts against keeping, refused as help or as keepers; P12's records as proof in P22's contests (uwaterloo-053); P22's two forms;
+  - the host's moderation of records and takeovers (T4-002); bare refusals (math-011, wow-050) against F-014;
+  - chats (T4-010): sharing split in 19 rooms, scripts held in 6; K01's canvas-call clause (doubted in 3); doubt costing uptake (9).
 - **The re-check:** rooms relying on rewritten R01, P05, P22, P21 and A21 go to it; two R01 elaborations wait for clustering.
 - **From D1a:** C02 unpredicted; expectation 13 misses the host rooms.
 - **From C3:** the forms on the four universal problems or the remainder; the colour-faction doubt [PurplePixels/c0165]; Olson; the four declined reads.
@@ -155,4 +140,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The unruled groups (other arrows, candidates, dimension lines), by G1 to G44 with G13a and G4a; then the `propose` lines. The split rooms and the 19 story-miss rooms wait for the verdicts leg.
+The unruled groups (other arrows, candidates, dimension lines), by G1 to G45 with G13a and G4a; then the `propose` lines. The split rooms and the 19 story-miss rooms wait for the verdicts leg.

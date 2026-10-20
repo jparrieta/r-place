@@ -1,0 +1,45 @@
+A13: 208 lines in all (op restrict); packet [200, 208): 8 lines; carried through no third-order tier
+ops in the packet: {'restrict': 8}
+
+== weezer-055  restrict  [pending]  repairs 1  not carried
+   source t07 (approaching neighbors for help and making room for them); lift weezer:t07 > T3-012 > T4-014 > D04
+   how: Pressure prompts an outside plea, but a request and its reported delivery do not establish that outside helpers answered or placed pixels.
+   codes: c0007 trying to stop the green from killing the logo; c0008 considering making a plea at r/greencorner; c0009 making the plea as they speak
+   transitions: 62oswh:4.1.1.1.1>4.1.1.1.1.1
+
+== wildhockey-059  restrict  [pending]  repairs 0  not carried
+   source t04 (getting hockey neighbors to help and have each other's backs); lift wildhockey:t04 > T3-011 > T4-017 > D04
+   how: Outside help can be requested for a struggling startup rather than follow only from upkeep under strain.
+   codes: c0035 offering Hawks help for more hockey logos; c0105 asking the Hawks to help start the struggling Wild logo; c0118 a Stars moderator offering outline help between defending their logo
+
+== winnipegjets-033  restrict  [pending]  repairs 0  not carried
+   source t06 (asking Finland to help maintain or expand); lift winnipegjets:t06 > T3-084 > T4-017 > D04
+   how: A suggested recruitment route and a visitor's rivalry-based defence do not establish assistance dispatched because of a shortage.
+   codes: c0028 suggesting enlisting Finland for maintenance or expansion; c0041 defending Laine as a Habs fan
+
+== worldoftanks-030  restrict  [pending]  repairs 0  not carried
+   source t07 (negotiating shared canvas space and recruiting neighbors); lift worldoftanks:t07 > T3-010 > T4-016 > D04
+   how: Strain explains the request for outside help but does not establish that the requested placements were delivered.
+   codes: c0114 asking the bigger group to help move the tank as it is wiped out; c0122 hijacking a Heroes thread to recruit help for the tank
+
+== yugioh-040  restrict  [pending]  repairs 0  not carried
+   source t15 (recruiting and teaching scarce pixel helpers); lift yugioh:t15 > T3-002 > T4-005 > D01
+   relation: r/duellinks
+   how: Distinguishes seeking kindred help under labor shortage from proving that a suggested crosspost happened or produced workers.
+   codes: c0108 contrasting 330 online subscribers with fewer than 10 workers; c0123 suggesting a crosspost to r/duellinks to recruit help
+
+== yumenikki-050  restrict  [pending]  repairs 1  not carried
+   source t03 (asking Sweden and its diplomacy channel for room); lift yumenikki:t03 > T3-153 > T4-018 > D04
+   how: Receiving requested bot protection requires reachable operators and updated coverage, so contact with an ally cannot by itself establish that the needed help was delivered.
+   codes: c0047 warning that overnight bots will erase the attempt; c0049 marking where people can place without bots overrunning it; c0062 downloading Discord solely to negotiate the knife; c0063 explaining that sleeping bot operators kept undoing the knife
+
+== zelda-063  restrict  [pending]  repairs 1  not carried
+   source t07 (negotiating and probing for usable canvas space); lift zelda:t07 > T3-061 > T4-020 > D08
+   relation: ainbowroad
+   how: Erasure explicitly motivates a proposed neighboring-help request, but the passage does not establish contact or delivered help.
+   codes: c0157 asking r/ainbowroad for help as Link is erased
+
+== zootopia-030  restrict  [pending]  repairs 0  not carried
+   source t05 (working out room and help with neighbours); lift zootopia:t05 > T3-010 > T4-016 > D04
+   how: Repair workload limits spare help, whereas a participant also reports giving outside help after automation releases their effort.
+   codes: c0018 putting repairs first before sparing a pixel; c0193 turning to help r/furry defend its Snoo after the bot started

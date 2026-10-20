@@ -1,0 +1,23 @@
+A13: 4 lines in all (op add-step); packet [0, 4): 4 lines; carried through no third-order tier
+ops in the packet: {'add-step': 4}
+
+== foxes-053  add-step  [pending]  repairs 1  not carried
+   source t05 (bringing in helpers and linking their causes); lift foxes:t05 > T3-014 > T4-010 > D02
+   how: Help under strain can arrive as an unsolicited offer of mutual defence rather than only answering the room's request.
+   codes: c0076 offering mutual defence with r/patriots; c0078 joining mutual defence of scoreboard and fox
+
+== kamenrider-057  add-step  [pending]  repairs 0  not carried
+   source t04 (negotiating room and allies around Mighty); lift kamenrider:t04 > T3-010 > T4-016 > D04
+   how: Negotiating and accepting a rebuilding offer is an intermediate outcome before any help delivery can be established.
+   codes: c0039 weighing alliances and reporting KC's offer to move and rebuild Mighty; c0040 accepting KC's offer
+   transitions: 634flo:10>10.1
+
+== philippines-054  add-step  [pending]  repairs 0  not carried
+   source t08 (making deals and repairs with canvas neighbours); lift philippines:t08 > T3-010 > T4-016 > D04
+   how: Aid mobilization also repairs damage inflicted on neighbours, rather than only supplementing the room's own defensive labour.
+   codes: c0244 asking to help the FNAF guys after bulldozing their work; c0252 rallying help with #HELPFNAF2017; c0253 dedicating a Discord chatroom to helping destroyed artworks
+
+== sooners-025  add-step  [pending]  repairs 0  not carried
+   source t06 (moving the logo when a place fights back); lift sooners:t06 > T3-022 > T4-014 > D04
+   how: Being wiped prompts an intention to seek allies before any outside response or delivered aid is visible.
+   codes: c0046 responding to being wiped by seeking an ally
