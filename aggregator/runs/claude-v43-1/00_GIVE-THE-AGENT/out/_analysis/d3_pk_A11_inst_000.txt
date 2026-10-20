@@ -1,0 +1,109 @@
+A11: 18 lines in all (op instantiate); packet [0, 18): 18 lines; carried through no third-order tier
+ops in the packet: {'instantiate': 18}
+
+== Rainbow6-011  instantiate  [pending]  repairs 1  not carried
+   source t03 (Routing and teaching the pixel work); lift Rainbow6:t03 > T3-070 > T4-008 > D02
+   how: A request for a template receives an offer to make it and the thread later selects a shared template.
+   codes: c0161 saying a template and coordinated group are needed; c0162 working on the template; c0164 settling on the shared template
+   transitions: 62twz9:2>2.1
+
+== ainbowroad-058  instantiate  [pending]  repairs 1  not carried
+   source t01 (Coordinating through Discord, live threads, templates, and tools); lift ainbowroad:t01 > T3-014 > T4-010 > D02
+   how: A proposed weave receives a request for a schematic and then an image response, establishing the finer instruction step without demonstrating completed consensus.
+   codes: c1686 asking to weave with the pride flag; c1778 asking for a schematic before weaving the flags; c1779 answering with a weave schematic
+   transitions: 634jef:0>1, 634jef:1>1.1
+
+== cfb-048  instantiate  [pending]  repairs 1  not carried
+   source t01 (Building and keeping the shared r/CFB football); lift cfb:t01 > T3-038 > T4-007 > D02
+   how: A signature design received a specific lowercase correction and approval, supporting local settlement rather than adoption of every proposal.
+   codes: c0029 offering a signature design; c0030 approving the design but asking for a lowercase r
+   transitions: 62npbu:4.4.1.1>4.4.1.1.1
+
+== cloud9-043  instantiate  [pending]  repairs 0  not carried
+   source t04 (working out how the logo should look); lift cloud9:t04 > T3-004 > T4-006 > D02
+   how: Supports reference-assisted design agreement through an offered sketch and explicit assent without assuming a final official template.
+   codes: c0026 asking what shape to build; c0027 asking for a blueprint after admitting uncertainty; c0028 offering a rough sketch and blueprint; c0029 agreeing to try the proposed sketch
+   transitions: 62rff7:2.1.1.1.1.1>2.1.1.1.1.1.1, 62rff7:2.1.1.1.1.1.1>2.1.1.1.1.1.1.1
+
+== drumcorps-010  instantiate  [pending]  repairs 1  not carried
+   source t06 (reworking the logo until it fits); lift drumcorps:t06 > T3-070 > T4-008 > D02
+   how: A measured width mismatch elicits a smaller-template response rather than settling a dispute about representation.
+   codes: c0094 measuring that the logo will not fit the highlighted space; c0095 answering the size problem with a smaller template
+   transitions: 6329cn:1.1>1.1.1
+
+== fireemblem-043  instantiate  [pending]  repairs 0  not carried
+   source t02 (building Fire Emblem pictures pixel by pixel); lift fireemblem:t02 > T3-038 > T4-007 > D02
+   how: Acceptance of a reported poll favorite is directly answered by the chosen reference and a call to work.
+   codes: c0344 accepting the strawpoll's favored background; c0345 issuing the chosen reference and calling everyone to work
+   transitions: 633i23:1>1.1
+
+== frc-051  instantiate  [pending]  repairs 1  not carried
+   source t01 (planning the FIRST logo and grid); lift frc:t01 > T3-004 > T4-006 > D02
+   how: A request for a logo grid receives a reply supplying and shrinking that grid.
+   codes: c0003 asking someone to make a grid for the FIRST logo; c0006 making and shrinking a pixel grid to 38x22
+   transitions: 62q7jj:1.1>1.1.1
+
+== gameofthrones-018  instantiate  [pending]  repairs 1  not carried
+   source t12 (correcting pixels to match the reference); lift gameofthrones:t12 > T3-004 > T4-006 > D02
+   how: A colour decision leads to a request to update the diagram and a confirmation that the update is done.
+   codes: c0071 correcting the shield top from yellow to white; c0072 asking for the green bottom to be added to the pixel diagram; c0073 confirming the pixel diagram update
+   transitions: 62vux3:4.1.1>4.1.1.1, 62vux3:4.1.1.1>4.1.1.1.1
+
+== latin-013  instantiate  [pending]  repairs 0  not carried
+   source t03 (fitting the design to the space and hands available); lift latin:t03 > T3-004 > T4-006 > D02
+   how: A reported width problem receives an explicit promise to change the graphic.
+   codes: c0026 shrinking the design to fit the available space; c0027 changing the graphic after a fit problem
+   transitions: 630xdg:6>6.1
+
+== maryland-049  instantiate  [pending]  repairs 0  not carried
+   source t05 (trying more Maryland pictures around the flag); lift maryland:t05 > T3-041 > T4-006 > D02
+   how: A proposed crab is made dependent on obtaining a usable template, which another participant later supplies.
+   codes: c0070 starting a thread and asking for a template; c0108 asking for a usable crab template; c0110 making the crab template
+
+== npr-048  instantiate  [pending]  repairs 1  not carried
+   source t01 (building a small, workable NPR logo together); lift npr:t01 > T3-070 > T4-008 > D02
+   how: A request for a common end-goal picture elicits an announcement that coordinates and a homemade template will replace the earlier post.
+   codes: c0014 asking for an end-goal picture so builders do not fight each other; c0016 replacing the post with coordinates and a homemade template
+   transitions: 632u55:1>1.2
+
+== patriots-059  instantiate  [pending]  repairs 1  not carried
+   source t02 (working out the outline, timer, and fill); lift patriots:t02 > T3-070 > T4-008 > D02
+   how: An answer settles a disputed scoreboard time with an exact value and linked template.
+   codes: c0160 working out which time belongs on the scoreboard; c0161 settling the scoreboard time at 2:08 with the template
+   transitions: 6339vu:12>12.1
+
+== qotsa-052  instantiate  [pending]  repairs 0  not carried
+   source t04 (turning a pixel design into a shared build); lift qotsa:t04 > T3-038 > T4-007 > D02
+   how: A vote for the Q receives a volunteered pixel design, supporting the design-to-template exchange without proving lasting consensus.
+   codes: c0013 voting Q; c0014 volunteering a 37-by-37 design needing 1,369 clicks
+   transitions: 632kk8:3.1>3.1.1
+
+== smashbros-012  instantiate  [pending]  repairs 0  not carried
+   source t04 (laying out and building pixel plans together); lift smashbros:t04 > T3-070 > T4-008 > D02
+   how: A proposal for lettering receives a mapped layout in its direct reply
+   codes: c0021 voting to write 20xx inside the shine; c0024 mapping what they would have to do for 20XX
+   transitions: 62nwqv:6>6.1
+
+== ss13-014  instantiate  [pending]  repairs 0  not carried
+   source t05 (turning the pixel effort into a clown); lift ss13:t05 > T3-033 > T4-006 > D02
+   how: A clown proposal receives practical approval and an anchor coordinate, establishing an actionable starting design.
+   codes: c0010 proposing a clown sprite instead; c0011 preferring the clown because they lack numbers to police text; c0012 choosing a red-dot nose and starting with the clown mask
+   transitions: 62nlbm:5>5.1, 62nlbm:5>5.2
+
+== superman-009  instantiate  [pending]  repairs 0  not carried  NONPORTABLE ['shield']
+   source t03 (sharing and fixing what Superman should look like); lift superman:t03 > T3-004 > T4-006 > D02
+   how: A specific shield correction receives an acknowledged revised image and then an explicit acceptance with a labour report.
+   codes: c0012 correcting how the shield pixels should be arranged; c0013 accepting the shield correction and waiting on four pixels; c0014 finishing the left leg and belt while thinking nobody else is helping
+   transitions: 62uuer:4>4.1, 62uuer:4.1>4.1.1
+
+== vermont-010  instantiate  [pending]  repairs 0  not carried
+   source t07 (fitting UVM into the VT picture); lift vermont:t07 > T3-041 > T4-006 > D02
+   how: A suggested location is tried and followed by a promised template, supporting operational coordination without proving universal design agreement.
+   codes: c0034 suggesting a less active spot for UVM; c0035 trying the UVM spot and identifying their yellow pixels; c0036 posting a UVM template to Discord
+   transitions: 630rwh:14.2>14.2.1, 630rwh:14.2.1>14.2.1.1
+
+== warthunder-013  instantiate  [pending]  repairs 0  not carried
+   source t13 (building and repeatedly relocating the Pixel A6M); lift warthunder:t13 > T3-022 > T4-014 > D04
+   how: A proposed outline change is answered with a design reason and an instruction to follow the blueprint.
+   codes: c0089 asking for a white outline because the shape is lost in darkness; c0090 rejecting a white outline and directing builders to follow the blueprint
+   transitions: 633ztg:2.1.1.1.1>2.1.1.1.1.1

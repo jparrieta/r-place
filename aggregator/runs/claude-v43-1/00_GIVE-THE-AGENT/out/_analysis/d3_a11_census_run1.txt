@@ -1,0 +1,24 @@
+lines ruled in A11's files: 678
+lines by class: {'oneend': 3, 'transition': 113, 'templatefirst': 99, 'other': 3, 'layoutonly': 86, 'onepost': 21, 'talkonly': 30, 'across': 19, 'el': 4, 'held': 5, 'limit': 295}
+lines showing the mechanism in words: 65
+rooms with an A11 line: 674
+  rooms showing transition    112
+  rooms showing templatefirst 99
+  rooms showing across        19
+  rooms showing onepost       21
+  rooms showing talkonly      30
+  rooms showing layoutonly    86
+  rooms showing oneend        3
+  rooms showing held          5
+  rooms showing el            4
+  rooms showing other         3
+  rooms showing limit         295
+rooms once, by priority: {'transition': 112, 'templatefirst': 98, 'across': 19, 'onepost': 21, 'talkonly': 30, 'layoutonly': 86, 'oneend': 3, 'held': 3, 'el': 4, 'other': 3, 'limit': 295}
+rooms whose lines show both ends: 229 (transition 112, template first 98, across threads 19)
+  the transition shows in 112 of 229 (0.489)
+  rooms showing both the transition and template first: 1
+rooms with one post holding both ends and no other episode: 21
+  with them in the denominator, the transition shows in 112 of 250 (0.448)
+transition rooms whose lines show the mechanism in words: 64 (0.571 of the transition rooms)
+rooms showing only the failure clause's cases: talk only 30, layout only 86
+C2's grounding: 82 transitions in 36 rooms; room-level order 111 of 185 (0.600; null mean 0.618, p95 0.670)
