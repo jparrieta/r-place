@@ -1,0 +1,42 @@
+R02 page offset 184: 3 add-condition lines; printing 0 to 3 in the verb's order
+
+[0] austria-026    add-condition t04            T3-194 > T4-016 > D04  pending    An envoy role requires enacted inter-room communication rather than a rejected request to…  [c0042,c0043,c0120]
+   how: An envoy role requires enacted inter-room communication rather than a rejected request to become a delegate.
+   transitions: 62rdbt:13>13.1
+   "Kann ich ein Delegierter für /r/Austria sein?"  [austria/c0042]  item dfovylw  thread 62rdbt  h+21.33  MasterCyanist  t04 making and contesting deals with neighbours
+   "Ned wennst ned aufhörst die fahnenstange abzusäbeln du trottl"  [austria/c0043]  item dfow8gr  thread 62rdbt  h+21.47  McLeiwand  t04 making and contesting deals with neighbours
+   "So. Gerade Mit Niederlande geredet. Niemand greift Nyan Cat mehr an. Wir haben eigene Projekte."  [austria/c0120]  item dfrpt74  thread 636avl  h+69.72  Iason24  t04 making and contesting deals with neighbours
+
+  -- reply context
+  c0042 h+21.33 thread 62rdbt path 13 (MasterCyanist)
+      parent: 0 (Legal-Eagle) c0018 calling on the room to complete Austria together
+      submission: 0 (Legal-Eagle) c0018 calling on the room to complete Austria together
+  c0043 h+21.47 thread 62rdbt path 13.1 (McLeiwand)  [replies under c0042]
+      parent: 13 (MasterCyanist) c0042 asking to be a delegate for r/Austria
+  c0120 h+69.72 thread 636avl path 10 (Iason24)
+      parent: 0 (derWuerzige) c0109 proposing an r/place improvement at (235,50)
+      submission: 0 (derWuerzige) c0109 proposing an r/place improvement at (235,50)
+
+[1] flashtv-021    add-condition t07            T3-024 > T4-015 > D04  pending    Carrying a request does not itself demonstrate authority to bind all contributors  [c0074,c0077]
+   how: Carrying a request does not itself demonstrate authority to bind all contributors
+   "I'm working on drawing [this](https://s-media-cache-ak0.pinimg.com/564x/2c/f0/0f/2cf00fd924b26103cb8babce3217b14b.jpg) around (946, 307) right now. Someone else was trying to make a Flash emblem but now there's a bird there. Edit: I put in a [request](https://www.reddit.com/r/GreenLattice/comments/62y1zr/rflashtv_needs_your_help/) on /r/GreenLattice to get the design approved."  [flashtv/c0074]  item dfpt5y5  thread 62vnju  h+35.47  ibwitmypigeons  t07 working around neighbours and asking other commun…
+   "That may work. I also put in a request with /r/GreenLattice to get it approved so we may be able to start there again without interference. (310, 699) sounds good plan though."  [flashtv/c0077]  item dfpx98e  thread 62vnju  h+37.74  ibwitmypigeons  t01 working out where and how to start the Flash embl…
+
+  -- reply context
+  c0074 h+35.47 thread 62vnju path 1 (ibwitmypigeons)  [same author as c0077]
+      parent: 0 (KeiyzoTheKink) c0073 calling on the shitposting community to leave its mark
+      submission: 0 (KeiyzoTheKink) c0073 calling on the shitposting community to leave its mark
+  c0077 h+37.74 thread 62vnju path 1.2.1.1.1 (ibwitmypigeons)  [same author as c0074 (under)]
+      parent: 1.2.1.1 (KriosDaNarwal) c0076 regrouping at 313,696 after losing the spot
+
+[2] lego-022       add-condition t05            T3-038 > T4-007 > D02  pending    Self-presentation establishes a messenger's conduct but does not establish authorization …  [c0143,c0161]
+   how: Self-presentation establishes a messenger's conduct but does not establish authorization to bind either community.
+   "We from r/denmark are building it right now, next to the danish flag."  [lego/c0143]  item dfq9mpj  thread 62z79y  h+47.06  Gat0rade  t05 putting a LEGO logo on the canvas
+   "r/denmark here, we need your help building a lego sign!"  [lego/c0161]  item 630ae4  thread 630ae4  h+47.67  Gat0rade  t05 putting a LEGO logo on the canvas
+  -- reply context
+  c0143 h+47.06 thread 62z79y path 10 (Gat0rade)
+      parent: 0 (theriddler2211) c0127 asking why LEGO is not on r/place
+      submission: 0 (theriddler2211) c0127 asking why LEGO is not on r/place
+  c0161 h+47.67 thread 630ae4 path 0 (Gat0rade)
+      parent: none
+

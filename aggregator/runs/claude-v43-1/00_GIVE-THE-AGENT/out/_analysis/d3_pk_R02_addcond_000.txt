@@ -1,0 +1,19 @@
+R02: 3 lines in all (op add-condition); packet [0, 3): 3 lines; carried through T3-194
+ops in the packet: {'add-condition': 3}
+
+== austria-026  add-condition  [pending]  repairs 1  carried
+   source t04 (making and contesting deals with neighbours); lift austria:t04 > T3-194 > T4-016 > D04
+   how: An envoy role requires enacted inter-room communication rather than a rejected request to become a delegate.
+   codes: c0042 asking to be a delegate for r/Austria; c0043 refusing a delegate who keeps cutting the flagpole; c0120 reporting talks with the Netherlands and stopping attacks on Nyan Cat
+   transitions: 62rdbt:13>13.1
+
+== flashtv-021  add-condition  [pending]  repairs 0  not carried
+   source t07 (working around neighbours and asking other communities for help); lift flashtv:t07 > T3-024 > T4-015 > D04
+   how: Carrying a request does not itself demonstrate authority to bind all contributors
+   codes: c0074 requesting GreenLattice approval for the Flash design; c0077 seeking approval to work without interference
+
+== lego-022  add-condition  [pending]  repairs 1  not carried
+   source t05 (putting a LEGO logo on the canvas); lift lego:t05 > T3-038 > T4-007 > D02
+   relation: r/denmark
+   how: Self-presentation establishes a messenger's conduct but does not establish authorization to bind either community.
+   codes: c0143 announcing r/denmark is building by its flag; c0161 announcing r/denmark has come for help building a LEGO sign
