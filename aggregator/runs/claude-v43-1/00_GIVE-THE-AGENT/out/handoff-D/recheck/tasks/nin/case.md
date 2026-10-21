@@ -1,0 +1,61 @@
+## Chronology
+
+When the canvas opened at d0 03-31 16:00, r/nin was still carrying on its ordinary music talk: one reply argued that touring MIDI controllers “wouldn't last” (`dfnkxjk`), while a new listener said they would hear the albums in order (`dfnlw22`). The first event episode, bounded by `62pdhe` and `dfp7lnz`, began at d0 04-01 00:25 with “Make a giant NIN logo in /r/place” (`62pdhe`). Early replies measured the cooldown against the work, doubted that the subreddit had enough people, and corrected one another about whether pixels replenished. This was proposal and feasibility talk, not yet evidence that a logo existed.
+
+A separate April Fools episode ran alongside the canvas activity, from `62s4an` to `dfqnrh7`. Members remembered the old Strobe Light joke, extended its fake song history, turned the recurring Survivor poll into a deliberately “pointless” prank (`62snt5`), posted a supposed 2019 remaster, and rewarded a removed fake Trent story after admitting “I fell way too hard for that” (`dfp37a4`). These practices were not about the canvas.
+
+The build episode, bounded by `dfp6en5` and `dfpp0ki`, began at d1 04-01 17:46, 17h 20m 40s after the proposal. A participant gave a pixel grid, said “we're making some progress,” and corrected the plan so it would not overwrite Radiohead (`dfp6en5`). A later thread made the adjacency deliberate: the organiser had started near Radiohead because it was easier to find, existing black pixels helped, and “many NIN fans are also RH fans” (`dfpdv2a`). Participants divided work across the logo, offered spare pixels in both directions, and accepted Radiohead's protection offer. At d1 04-01 23:35—23h 9m 44s after the first proposal—the post “WE DID IT REDDIT!” (`62wdk9`) marked completion. Comments then refined the border, shared a creation GIF (`dfpp0ki`), and moved directly into guarding NIN and Radiohead.
+
+The next episode, bounded by `dfpkhkt` and `dfro3wv`, combined defense with a dispute over whether place belonged in r/nin. Some guarded both logos for hours and repeatedly fixed Radiohead's “O” (`dfpwcyl`); others carried requests from Tagpro, Tool and Mexico. In contrast, one participant called the activity “circle jerk pseudo competitive” (`dfq9yu4`), later said repeated posts were “non topical spam” and wanted one sticky (`dfqt4i4`), and explicitly said they were tearing down a NIN logo (`dfquej0`). Other speakers answered that they cared, joined defense, or told the critic to downvote and move on. A sticky request followed, and a later reply acknowledged, “I didn't realize how spammy it had gotten in here” (`dfro3wv`). This is a persistent disagreement within the room, not a community-wide change of mind.
+
+The final-defense and aftermath episode is bounded by `637qa9` and `dft9c9k`. At d3 04-03 16:06 Radiohead asked for continued mutual defense (`637qa9`); nine minutes later the NIN post said “THE VOID IS ENCROACHING” (`637sab`). Participants reported heavy attack, held positions, and exchanged help with Mexico. Fifty-nine minutes and 23 seconds after that assistance post, at d3 04-03 17:15, a reply stated “r/place is over” and described the imperfect logo as resembling distorted With Teeth (`dfs07xw`). The sequence supports an attack followed by the platform's end; it does not establish that the attack caused the end.
+
+After placement stopped, members did interpretive work rather than more pixel work. They called the damage “uniquely appropriate” (`dfs0ug8`), “Somewhat Damaged” (`dfsab01`), and “Into the Void” (`dfsbijw`). In the final-product thread, they described defending from work, returning from lunch to find the event over, and still calling it a “Good run” (`dft7cni`). By d3 04-04 12:33, the final in-window comment compared the damaged shape to the SIN single logo (`dft9c9k`). Ordinary album and tour discussion was again visible around these aftermath posts; the canvas did not replace the room's usual life.
+
+## Relations — what set off what
+
+The initial proposal directly set up the later build inside the same thread: `dfp6en5` referred back to “the original message,” supplied the grid, reported progress and clarified that “above” did not mean overwriting Radiohead. That textual recall, not reply adjacency alone, links `62pdhe` to `dfp6en5`.
+
+A participant's own explanation links location to alliance formation. `dfpdv2a` said they chose to start near Radiohead because the logo would be easier to find, some needed black pixels were already present, and the fanbases overlapped. This supports the participant's reason for the choice; it does not independently prove that overlap caused everyone else to cooperate. A later retrospective similarly said the groups teamed up “since we were right next to each other” to prevent overwriting (`dfs84bx`).
+
+Mutual defense is supported by what participants say they did, not merely by neighbouring replies. The Radiohead thank-you post (`62xpkl`) received a report of guarding NIN and repeatedly fixing Radiohead (`dfpwcyl`), followed by the poster's answer that they had tried to keep NIN “untainted too” (`dfpwfa1`). Elsewhere, Radiohead promised “We will help protect your spot” (`dfpjxzm`) and NIN participants promised to clean Radiohead after their own logo was sound (`dfpjoth`).
+
+The request for a sticky is explained by participants as a response to repeated posts. `dfqt4i4` explicitly joined “5 separate place threads” to the claim that one sticky was needed; `dfro3wv` later described the room as having become “spammy.” These are participants' explanations. The corpus does not establish that moderators removed or consolidated the posts, and the supplied record contains no moderator-distinguished action doing so.
+
+The damaged-logo reframing has a supported conversational link. `dfs07xw` described the finished logo as an imperfect, distorted With Teeth image; the reply `dfs0ug8` said its damage was “uniquely appropriate,” and the next reply said “This makes me feel better” (`dfs28zp`). Here the later speaker explicitly names the change in their response. By contrast, the many later song-title jokes follow the damage and describe it, but the text does not support a stronger causal claim.
+
+## Posts against comments
+
+Posts supply most of the calls: make a logo (`62pdhe`), help Radiohead and Tagpro (`62wcb4`), celebrate completion (`62wdk9`), defend against the void (`637sab`), and inspect the final product (`63b7gc`). The comment layer supplies most of the practical work—cooldown correction, grid instructions, division of sides, reciprocal repair and guarding—and also most of the opposition.
+
+The sharpest contradiction is inside the completion thread: the post says “WE DID IT REDDIT!” (`62wdk9`), while a comment dismisses the activity as “circle jerk pseudo competitive” (`dfq9yu4`). A second contradiction is within the Radiohead update: the post announces an update (`632b6z`); one comment says “NOBODY FUCKING CARES!” (`dfqspdy`), while its reply says “I do” (`dfqsrhz`). These are contrasting speakers, not evidence that the room collectively reversed its position.
+
+Some claims live in only one layer. Mutual pixel repair is chiefly in comments such as `dfpwcyl`; calls for help and celebratory summaries are chiefly in post titles such as `62zny3` and `63b7gc`. Removed post bodies mean that, for several calls, the surviving title and replies are all the record preserves.
+
+## Counter-reading
+
+My one-sentence reading is that r/nin turned a doubtful logo idea into coordinated work with nearby fanbases, contested how much place talk belonged in the subreddit, then made an attacked final logo feel fittingly NIN.
+
+Before searching, I set down this competing account: the activity was mostly non-topical “circle jerk” spam that provoked sabotage rather than shared work. If my reading were wrong, the record should contain repeated refusal, deliberate teardown, failed coordination, or allies saying r/nin harmed rather than helped them.
+
+The strongest contrary item is `dfqss60`: “I'm fucking up anything having to do with this non topical circle jerk crap out of pure spite.” It is not merely criticism; it reports deliberate counter-action. `dfquej0` reinforces that speaker's position by saying the posts were making them “tear down a nin logo,” and `dfro3wv` corroborates the narrower point that posting had become spammy. This changes the account by making sabotage and venue conflict central rather than incidental.
+
+It does not overturn the whole reading. The contrary position is concentrated in one recurrent speaker and is answered by other participants who defend the activity, while several independent exchanges report mutual repairs and protection. A full-record search for failed help or harming Radiohead returned no supporting ally complaint; its only relevant overwrite item was `dfp6en5`, which says the plan did **not** mean to overwrite Radiohead. That null result is limited to the supplied record and the searched vocabulary; it cannot establish that no unseen harm occurred, especially because some bodies are removed and some coordination moved to Discord.
+
+## Saturation
+
+Practice saturation was reached unevenly. The build, neighbour-help, defense and posting dispute recur across several threads. The late record still adds one genuinely different practice—making the damaged final logo feel properly NIN—then repeats it across `637sab`, `638giu` and `63b7gc` through glitch, With Teeth, Somewhat Damaged, Into the Void and SIN references. The single-code theme “folding tile-fighting into the Survivor finale” remains separate because no other code performs that same recruitment of the recurring Survivor format.
+
+Record saturation is limited in specific ways. The corpus header reports that threads are not wholly preserved in every parent chain, and 31 supplied items have deleted or removed text. Several selected calls survive only as titles, including `62v8rt`, `62wcb4`, `62zny3`, `631k7f`, `632b6z` and `632owf`; their replies show uptake but cannot restore the missing bodies. The Radiohead Discord was called something “resembling HQ” (`dfruw8w`), so the record shows that organizing moved there but not the decisions made there. Linked pixel grids and images are likewise visible only through participants' textual descriptions.
+
+## Selection
+
+I read the briefing and all 60 openings before triage, as required for a branch-A lead. I then went through every thread in corpus order. Every thread touching r/place, the community's separate April Fools conduct, or an ordinary r/nin practice visibly recruited into the event was read in full and coded. Long or ambiguous threads were opened in full; non-event music, merchandise and tour discussions were disposed out of scope, with exact exclusion citations for every read out-of-scope thread at or above ten in-window items.
+
+## Other communities named
+
+r/Radiohead is treated as the nearest working partner: its users and r/nin promise protection, trade spare pixels and repair both logos (`dfpdv2a`, `dfpjxzm`, `dfpwcyl`). r/Tagpro is named in help requests and later apologized to for a badly timed snapshot (`62wcb4`, `dfs2v82`). r/Mexico first offers defense of nearby art and later asks NIN to return assistance against the void (`dfq35p8`, `dfrz6fr`). r/rainbowroad appears as protection behind Radiohead's In Rainbows plan (`dfpjxzm`). r/thebluecorner is an early comparison for what an organised faction can accomplish (`dfonqo3`), while r/theitalyplace is only the source of a warning that the void may cross the logo (`dfrt1ym`). r/place is the event venue itself, not an ally.
+
+## Absence
+
+No moderator-distinguished intervention appears in the supplied record, even though participants ask for a sticky and one reply apologizes for missing the spamminess. No preserved text shows the requested sticky being created. Removed bodies prevent recovery of several help requests and updates; I did not reconstruct them from replies. Bot-generated previews and reminders were treated as platform setting, not community conduct. The record also does not establish who caused the final damage: one participant suspects bots (`dfs2gvf`), while others blame “void people” (`dfscoiu`); those are participant explanations, not a supported causal finding.

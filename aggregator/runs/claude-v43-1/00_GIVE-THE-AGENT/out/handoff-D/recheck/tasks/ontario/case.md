@@ -1,0 +1,61 @@
+## Chronology
+
+When the canvas opened, the room was occupied mainly with ordinary provincial business: the opening edge includes “Ontario Sunshine List risks becoming 'data dump'” (`62l547`), “Registering a Parts Car” (`62m3h4`), and police salaries on the Sunshine List (`62nfen`). These titles place the event conduct within the week; they are orientation, not evidence that one discussion caused another.
+
+The first in-scope episode is the room's own April Fools conduct, not r/place. At d0 04-01 05:05, moderator handl3r posted a Sunshine List title with the body “April fools” (`62qrw4`). A reply answered “haha... I guess?” (`dfotglt`), and 59h 53m 33s after the post another member closed the exchange with “The important thing is that you tried” (`dfrzfrh`). This small episode is bounded by `62qrw4` and `dfrzfrh`: it drew doubt and teasing, not sustained participation.
+
+At d0 04-01 12:03, 6h 57m 9s after the small post, moderator Canadianman22 opened a larger room-specific joke (`62sb7a`). “Updated Sub Rules Part I” announced that the previous free-speech approach was “no longer viable,” put Kathleen Wynne “100% off limits,” required party flair, declared “Dissent will not be tolerated,” and requested positive feedback for “moderator happiness.” Its closing words—“Obvious April Fools day post is obvious”—identified the device. Comments then made a shared performance out of those rules: members proposed hydro bans, performed required praise, requested party flair, received mock bans and promotions, mistook the rules for real, checked the calendar, and returned. The episode begins at `62sb7a`; its last in-window turn is the unanswered d3 04-04 12:05 question “Uhh have y'all switched back?” (`dft8ees`), 72h 2m 7s after the post.
+
+The canvas itself first appears later, at d1 04-02 06:59. A speaker whose account is recorded as `[deleted]` asked, “How about Ontario try and get a flag next to Canada's over on r/place?” and explained, “submissions appear restricted” (`dfpz1fn`). The speaker supplied an upper-right target, a Canada-flag canvas link, and a small Ontario-flag design, then placed substantially the same appeal in two more unrelated political threads at d1 04-02 07:01 (`dfpz2bc`; `dfpz2gf`). The compact episode is therefore bounded by `dfpz1fn` and `dfpz2gf`. None of the three top-level comments received an answer, and no later item reports whether anyone joined or whether a flag appeared.
+
+After placement closed at d3 04-03 17:00, the record adds no retrospective canvas account. The small joke receives its final teasing reply just before closure (`dfrzfrh`), while the fake-rules thread persists into the following day through a redirection of political discussion (`dfsljar`) and the unanswered “switched back?” question (`dft8ees`). The room's final openings return to ordinary subjects—“Union Station West” (`63e4ik`), suspended police officers (`63e5dl`), a hockey assault sentence (`63eia9`), and rent control (`63f1kd`).
+
+## Relations — what set off what
+
+The clearest supported relation in the canvas material is the flag speaker's own explanation. In `dfpz1fn`, “Would have suggested it in it's own post but submissions appear restricted” follows the request and directly accounts for putting the appeal into a comment; the same wording recurs in `dfpz2bc` and `dfpz2gf`. This supports a workaround relation, but it does not identify who restricted submissions. Posting the appeal three times within the displayed 06:59–07:01 interval is an observed sequence by the same deleted-identity speaker, not evidence that one copy caused another or that a community campaign formed.
+
+The fake rules support several call-and-answer relations because later turns repeat and act on the earlier words. “Ban everyone who complains about hydro bills!” (`dfp0cxu`) is extended 12m 15s later to “banning everyone with a hydro bill” (`dfp0vf2`); 54m 42s after the initial suggestion the moderator answers, “you just complained about hydro bills. Banned” (`dfp2p5b`). The content, not reply adjacency alone, connects the moves.
+
+Likewise, “Trudeau is the best PM ever, and Wynne is the best premier ever. Am I doing it right?” (`dfp1l4s`) answers the post's demand for positive feedback. The moderator's “Yes” arrives after 25m 7s (`dfp2o6n`), more flattery follows after 5m 4s (`dfp2vw4`), and “Lying. Double ban” answers it after another 5m 48s (`dfp34ji`). This is supported rule-play, not a claim that the fake policy governed the room.
+
+One mistaken departure is repaired explicitly. “This sub has now rendered itself irrelevant due to political correctness. So long” (`dfp7gq5`) is answered after 7m 3s with “Seriously...check a calendar!” (`dfp7r9h`). After 5m 45s the departing speaker says, “I totally fell for it!” (`dfp7zu4`), and 8m 23s later says, “I've now resubscribed” (`dfp8c4p`). Those acknowledgements support the repair relation. Separately, after “Had me fooled” (`dfpeaj5`), the moderator supplies a participant explanation of the prank's payoff: “If I can just get one person, it was worth it” (`dfpgxq5`); the fooled member later answers “Pwned!” (`dfpogal`).
+
+The small Sunshine List joke precedes the fake-rules post by 6h 57m 9s, but no passage says the first prompted the second. It is therefore a sequence, not a causal relation. Nor does the corpus connect the fake-rules play in batch 02 to the flag appeal in batch 01. No relation here crosses the slice boundary.
+
+## Posts against comments
+
+For r/place, the layers differ descriptively rather than contradicting one another. The three submission titles concern police pay, an election poll, and the Sunshine List (`62nfen`; `62kqq3`; `62p45o`); all canvas conduct appears in top-level comments (`dfpz1fn`; `dfpz2bc`; `dfpz2gf`). The comment layer says submissions “appear restricted,” which is the participant's own explanation for that placement. The post layer offers no competing canvas account, and the comments receive no reply.
+
+For the room's own April Fools conduct, the posts openly mark themselves as jokes: “April fools” (`62qrw4`) and “Obvious April Fools day post is obvious” (`62sb7a`). Many comments recognize and extend the play, but at least two initially treat the rules as real: “This is bullshit. Un-subbed” (`dfoxepb`) and “This sub has now rendered itself irrelevant” (`dfp7gq5`). That is a post/comment contrast in uptake, not evidence that the community changed its mind. One participant also says, “You joke, but seriously” before endorsing a ban on hydro complaints (`dfq5f1p`), preserving a sincere position inside the performance. Only the comment layer asks whether the subreddit has “switched back” (`dft8ees`), and it does not say what, if anything, remained changed.
+
+## Counter-reading
+
+My one-sentence reading is: r/ontario's visible r/place conduct is one speaker repeatedly trying to rally an Ontario flag through otherwise unrelated comments, while the room's sustained collective practice in this window is its separate moderator-led April Fools rule-play.
+
+The most consequential competing account is that the flag appeal actually gathered coordination or produced an outcome elsewhere in the record. If my reading were wrong, I would expect other speakers using this case's words—Ontario flag, Canada flag, upper-right corner, r/place, pixels, or canvas—to coordinate placements, defend a target, or report that the flag was made, lost, or completed.
+
+The strongest contrary item is `dfpz1fn`: it revealed a third copy of the full appeal in a thread that batch 01 had triaged out. It changes the initial finding from two copies to three and moves the episode's first visible point to d1 04-02 06:59. It does not overturn the reading: all three copies use the same deleted-identity speaker and wording, none receives a reply, and no returned item reports an outcome.
+
+The search for `r/place`, Ontario flag, Canada flag, and upper-right corner returned four items across all 1,338 scanned records. I opened each returned item. Three are the appeal copies (`dfpz1fn`; `dfpz2bc`; `dfpz2gf`). The fourth is an after-window comment about somebody from another subreddit seeking help on r/place (`dfv4rst`), so it does not establish in-window r/ontario organisation. Searches pairing “flag” with made, finished, complete, done, defend, lost, or destroy returned no items; searches for pixel, canvas, or coordinates also returned none. These null results cover the supplied record, not Reddit beyond it, and cannot establish failure from a partial record.
+
+## Saturation
+
+Later slices brought new practice rather than merely repeating settled themes. “Trying to rally an Ontario flag from restricted comment threads” first appears in batch 01. Every other initial theme—posting and ribbing the one-line attempt, staging fake rules, playing along with them, falling for and repairing the prank, sending political talk elsewhere, and asking whether the subreddit switched back—first appears in batch 02. The counter-reading added five late codes from `dfpz1fn` to the existing flag-recruitment theme; it repeated that practice and opened no new theme. All seven groupings were reviewed after the search and none was regrouped.
+
+The record does not look complete enough to infer a flag outcome or an answer to the switched-back question. One coder read each arbitrary slice, so no single reader held the whole week and there is no agreement measure. Nine threads were triaged rather than read fully; indeed, the counter-search found the third appeal inside one of them (`62nfen`). Two relevant copies retain their bodies while the author's identity is deleted; two bodies in the fake-rules thread are deleted; the proposed flag image is outside the textual record; and none of the appeals has a surviving reply. The fleet's selected exchanges are legible, but the wider collection is partial and claims of absence remain limited to the 46-thread, 646-item window supplied here.
+
+## Selection
+
+The branch-B gate was determined once from 646 in-window items against a threshold of 500, with 153,833 characters by people. I read the full openings file before dispatch for the week's shape but coded and cited nothing from it except quoted titles. Two coders then disposed whole-thread slices in corpus order: batch 01 covered 25 threads and batch 02 covered 21. Each selected thread was read in full; one coder handled each slice, and no coder saw the other's codes or account.
+
+After pooling and theming, the counter-search was allowed to inspect raw items. It changed the analytic treatment of `62nfen`: batch 01 had reasonably excluded its police-salary triage window, but the search exposed the buried event comment `dfpz1fn`. I opened the whole thread before adding late codes. The original append-only disposition remains visible rather than being rewritten.
+
+## Other communities named
+
+The flag appeal points to r/place's Canada flag and proposes placing Ontario “next to Canada's” (`dfpz1fn`; also `dfpz2bc` and `dfpz2gf`). This is spatial reference, not evidence of contact or alliance. Its prnt.sc link is a proposed Ontario design; organising does not visibly move there, and the image contents cannot be checked beyond the speaker's description.
+
+Within the separate fake-rules play, one member asks for “r/nba style” flair (`dfov1ox`). Another says `/r/OntarioPolitics` might be “a good thing to resurrect” (`dfoxqtc`), while a later comment directs hostile political discussion to `/r/ontpolitics` (`dfsljar`). The raw names remain distinct because the record does not establish that they are the same venue. A guess that `torontostar.ca` will be on the fake approved-source list (`dfpcaew`) extends the joke; it does not show discussion moving off Reddit.
+
+## Absence
+
+The three flag appeals survive, but the author is `[deleted]`; no identity was reconstructed. None has a reply, and the external design cannot establish what was drawn. Deleted bodies elsewhere were not inferred. In the fake-rules thread, surviving call-and-answer branches show the main performance despite two deleted bodies, but those missing contributions remain unknowable. The unanswered “Uhh have y'all switched back?” (`dft8ees`) supports only uncertainty about the later subreddit state, not a claim that a visible change persisted.

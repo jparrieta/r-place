@@ -3000,12 +3000,31 @@
     "output_tokens": 234766
    },
    "session": "142b243d-932f-4437-83ea-e769f6dab191"
+  },
+  {
+   "stage": "D3",
+   "leg": "D3a-57",
+   "closed_utc": "20261021T123232Z",
+   "cut": "packets-out",
+   "tokens": {
+    "input_tokens": 160,
+    "cache_creation_input_tokens": 238349,
+    "cache_read_input_tokens": 67011485,
+    "output_tokens": 94586
+   },
+   "session": "bf0ca67a-cdd1-43cf-bd3b-fd36d43c078a"
   }
  ],
  "handoff_D": {
   "first": {
    "version": "e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd",
    "folder_hash": "61b03bbf67bc8f010774eadd364e8bf0f4e577e0b6608185893845229e508a5c",
+   "tasks": 705,
+   "unbuilt": 0
+  },
+  "recheck": {
+   "version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525",
+   "folder_hash": "471b7ef08bce4f3bf0a8907ec4f338890aa6458cb18e31767cd2aa93fbbcfbf3",
    "tasks": 705,
    "unbuilt": 0
   }

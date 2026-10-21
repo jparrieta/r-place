@@ -1,0 +1,36 @@
+{
+ "title": "RETURN-D2v",
+ "type": "object",
+ "required": [
+  "sub",
+  "reader",
+  "verdict",
+  "themes",
+  "concepts",
+  "residue",
+  "cannot_tell_under",
+  "sentence",
+  "served"
+ ],
+ "properties": {
+  "verdict": {
+   "enum": [
+    "composes",
+    "composes-with-residue",
+    "does-not-compose",
+    "cannot-tell"
+   ]
+  },
+  "cannot_tell_under": {
+   "enum": [
+    "coded-share",
+    "off-platform",
+    "both",
+    "missing-decisive-evidence",
+    "conflicting-evidence",
+    "other-evidence-limit",
+    null
+   ]
+  }
+ }
+}

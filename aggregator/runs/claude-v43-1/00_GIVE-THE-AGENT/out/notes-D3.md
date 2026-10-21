@@ -5473,3 +5473,35 @@ The readers split in 163 rooms (notes-D2). G60 was written before any split room
 - **The verdicts** hold 868 lines: the 705 readers' lines and 163 rulings.
 - **The other ledgers.** No move was made. Adjudications hold 43,028 lines, history 170, elements 45 (30 standing, 15 candidates), arrows 21, findings 37 and tier history 561. The elements hash (95570c1f…) and the arrows hash (ff0b3963…) are unchanged.
 - **Questions.** None is open.
+
+## D3a-57: the re-check handoff
+
+Stage D3 rewrote the model. R01 and P05 were revised. P21, P22 and A21 were ruled standing, and A21 was bounded. Five candidates (P06, R02, K03, K04, P19) now stand, and fifteen new candidates (P23 to P34, K05 to K07) entered. Section 5 sends every room whose adapted account relies on a rewritten element back to its return lead against the revised model. This leg built that handoff and wrote no ruling.
+
+**The scope (`recheck-scope.json`).** `_analysis/d3_recheck_scope.py` counts a room as relying on a rewritten element when one of three things holds. Its ledger holds an accepted or modified line, not an absent one, on the element. Or it holds an accepted propose line in a candidate's group. Or a verdict ruling's residue names a candidate.
+- 687 of 705 rooms rely on one. R01 counts in 583 rooms and P05 in 607 (670 rooms on either), the field's entries in 258, the five candidates now standing in 627, the new candidates' accepted propose lines in 419, and verdict residue in 102.
+- 18 rooms rely on none. The scope is uncertain for them, because the fifteen candidates enter every room's vocabulary: whether a room's record shows a chat, a question about the canvas or a newcomer cannot be told before its labeler reads the revised model. The stage says to re-check all rooms where the scope is uncertain. So all 705 are affected, and the 18 are the contrasting cases.
+- The file lists the affected rooms, an empty `unaffected_rooms`, the reason, each relying room's elements, and the contrasting cases by name. The sets partition the analysed corpus (checked by the writer, `d3_recheck_scope_write.py`).
+
+**The revised model (`MODEL-D3.md`).** `_analysis/d3_model_prose.py` wrote it. Every element's statement and range, and every arrow's gloss and mechanism, come from the ledgers as they now stand, so the revised wording is served as the ledgers hold it. The section prose is new, and the re-check reads no prose written before the revision.
+- It names each of the 45 elements and 21 arrows once, in eight sections, and it marks the fifteen candidates. A21's bound is served, since D3 stated it.
+- It does not say where any entry came from.
+- It holds 4,943 words (27,297 bytes), under the 6,000-word ceiling declared at D1.
+- Two stops doubled after quoted ranges and a stale count of claims were corrected before the handoff read the file, and the generator now reproduces the file exactly.
+
+**The handoff.** `_analysis/d3_recheck_handoff.py` read the 705 rooms from the scope file and ran `handoff.py D --recheck` with them.
+- `handoff-D/recheck/` holds 705 tasks, and none is unbuilt. `VERSION` is 46384686…, the model's hash now, and `MODEL.md` equals `MODEL-D3.md`. The folder hash is 471b7ef0…. Task payloads run to a median of 297,646 bytes, a 90th percentile of 424,813 and a largest of 11,424,012.
+- `verdict-D/recheck/` holds 705 verdict packets: median 37,798 bytes, 90th percentile 39,351, largest 42,431. None is over the 50 KB ceiling.
+
+**What is fixed from here.** No model file may change before the D3c freeze unless these notes say what moved and why. The re-check is built on 46384686…, and the stage forbids freezing a newer hash than the one returned to the affected rooms.
+
+**Carried.**
+- **To D3b.** When the labelers and the verdict fleet return, `ingest.py D --recheck` compiles `adaptations-recheck.jsonl` and `verdicts-recheck-D.jsonl`. D3b reads the before-and-after ledgers and says whether the rewrite fixed what the evidence pointed at, especially for the 102 rooms whose residue the candidates now state and for the 18 contrasting rooms. It adjudicates every re-check line.
+- **To the handback.** `handoff.py` still serves the candidates in `VOCABULARY.json` with no status mark: it marks only tentative entries, the defect logged at D1. `MODEL.md` marks each candidate in its text, so a labeler can tell, but the vocabulary cannot.
+
+### Close-check, D3a-57
+
+`validate.py D3` reports 42,243 of 42,243 ledger lines ruled, 0 errors and the same 2 old warnings on the move name 'stabilizing'.
+- **Written:** `recheck-scope.json`, `MODEL-D3.md`, `handoff-D/recheck/` (705 tasks), `verdict-D/recheck/` (705 packets) and `handoff-D-recheck.sha256`. `handoff.py` also recorded the re-check in `RUN.json`.
+- **Unchanged:** adjudications (43,028 lines), verdicts (868), history (170), elements (45), arrows (21), findings (37) and tier history (561). No move was made, and the model hash stays 46384686….
+- **Questions.** None is open.

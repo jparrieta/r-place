@@ -1,0 +1,53 @@
+## Chronology
+
+The event first appears in this record at H+22.57, `d0 04-01 14:34`, when `62t1vw` posts “hoodr plan for /r/place.” The first episode, bounded by `62t1vw` and `dfp846v`, is one of making the logo legible and repeatedly showing its state. A smallest alphabet and an outreach message follow the plan; posts then mark a “ONE HOUR checkin” (`62ta8k`), “TWO HOUR checkin” (`62tnku`), “V1 Done!” (`62tvhj`), and a three-hour check-in that has “started v2” (`62u3cd`). Between those markers, people ask for a new or alternate border in `62tzq0`, `62u2re`, and `62u57o`, show colors and a prototype in `62u17c` and `62u7hq`, and call the schematic in `62u9sc` the “best organisation.” These are separate posts and replies that together show iterative design work; their order does not establish that any one proposal caused the next.
+
+A second, overlapping episode, bounded by `62uozo` and `dfqapuy`, begins at `d1 04-01 18:57` when a participant from the neighboring Spanish republican flag says hoodr has “a pretty nice design” and offers help. It moves from greeting and thanks to trying to organise two flags, PMing pixel placers, and negotiating what happens when the flag plans to “go behind your logo.” Hoodr answers in `dfq9reu`, “We're still fixing it,” and the exchange turns from a Hodor joke into “We can make something cool together” in `dfqaldd`; `dfqapuy` says the idea will be posted to `r/epublica`. The cyan-line exchange from `62wo53` to `dfq80rj` occurs during this stretch: a mock promise to “take over” receives appreciation for the poster's “passion,” not a defensive response.
+
+The third episode, bounded by `6307oi` and `dfrup74`, develops joint designs from `d1 04-02 15:26`. The expansion thread asks for “SPANISH Integration”; r/epublica asks whether to add yellow or avoid hoodr's area, and hoodr participants invite the yellow pixels while prioritising the outline. The joint V4 plan appears in `630do3`; `630t6v` and `630uyc` widen the proposed final product to SpaceX and other neighboring designs. This does not proceed without friction: `dfqionh` says SpaceX “told us to stop,” while `dfqj2vx` later invites discussion in `#spacex` IRC. A later reply, `dfqqfcn` at `d2 04-02 21:19`, recounts an earlier SpaceX approval and says hoodr moved left rather than “destroy the rocket's flames.” The record's last item, `dfrup74` at `d2 04-03 15:25`, thanks hoodr for “respect republica.” No item appears after pixel placement ended at `2017-04-03 17:00 UTC`, so this case contains building and negotiation but no visible post-event reckoning.
+
+## Relations — what set off what
+
+The clearest supported response begins with `dfq4b4c`: the neighboring flag says it will go behind the logo because it sees it “constantly vandalised” and does not know whether hoodr is active. After 3.2 hours, `dfq9reu` directly answers, “We're still fixing it,” and says participants are deciding how to improve V2. This is a supported answer relation because the later passage takes up the earlier uncertainty; the record does not show that the earlier post caused hoodr's underlying repair work.
+
+The Hodor tease in `dfq9uil` receives an explicit answer 18.8 minutes later in `dfqaldd`: “Yeah people think that our name is hodor hahah,” followed by the proposal to make something together. Here the wording supports a reply relation and a conversational turn from teasing to proposing; it does not establish that the joke caused the joint design.
+
+In the integration thread, `dfqb22m` asks whether r/epublica should “do the yellows” or not touch hoodr's area. `dfqb6qx` answers after 3.0 minutes, “Go ahead and add your yellows into ours,” while `dfqbisv` answers after 10.7 minutes by assigning yellow to available helpers and the outline to hoodr. `dfqbjh6` then says “we are on it” 27 seconds after that second answer. The explicit questions and answers support coordination of the work, not merely adjacency.
+
+The record supplies a participant's own explanation for a constraint in `dfqionh`: SpaceX “told us to stop, because they have bots protecting their pixel art.” That is metalpotato's stated explanation, not independently demonstrated causation. `dfqj2vx` invites the planners to SpaceX IRC nine minutes later to “discuss this further.” Because these are sibling comments, the safe claim is sequence: the invitation follows the warning; the corpus does not show that the warning produced it.
+
+Likewise, `dfqaldd` proposes making something together at `d1 04-02 15:27`, but the integration post `6307oi` opened at `d1 04-02 15:26`, one minute earlier, and `dfqapuy` says it will relay the idea at `d1 04-02 15:30`. The overlapping clocks rule out treating the relay as the cause of the already-open planning thread. The record shows converging activity, not a clean trigger.
+
+## Posts against comments
+
+The post layer supplies the public project board: plans, colors, borders, prototypes, versions, check-ins, and increasingly inclusive “final product” proposals. The comment layer supplies most of the work of making those proposals social: asking where to recruit, reporting private messages, clarifying that hoodr remains active, agreeing who does yellow and who does the outline, thanking helpers, and redirecting discussion to IRC. Timed progress claims live almost entirely in posts; negotiated consent and constraint live mainly in comments.
+
+Two explicit contrasts matter. The post `62wo53` says a cyan line “shall take over”; the comment `dfq80rj` responds that the passion is appreciated. In context this is mock rivalry answered with welcome, not evidence of an attack. More consequentially, the post `630uyc` presents a final proposal including SpaceX, while the comment `dfqionh` says SpaceX had told r/epublica to stop. A different comment, `dfqj2vx`, offers SpaceX IRC for further discussion. These speakers express contrasting positions around the proposal; they do not establish that the community, or SpaceX, changed its mind.
+
+## Counter-reading
+
+My one-sentence reading is: hoodr kept revising a small logo while fitting it into neighboring designs through invitations and negotiated plans.
+
+If that reading were wrong, this record would instead contain participants rejecting joint plans, insisting on an isolated hoodr design, or treating neighbors mainly as attackers rather than collaborators.
+
+The strongest contrary item is `dfqionh`, where r/epublica says SpaceX “told us to stop” because “bots” protect its pixel art. It changes the reading by making the collaboration conditional and contested: inclusion in a composite image was proposed before all parties had visibly agreed. It does not overturn the reading because the same item directs contact with SpaceX, `dfqj2vx` then invites further discussion in IRC, and `dfqqfcn` separately recounts approval and a move made to avoid destroying the rocket's flames.
+
+The search also returned `dfq4b4c`, where a neighbor threatens to grow behind a logo seen as vandalised and possibly inactive; the later explicit answer shows this became a negotiation. It returned `62wo53` for “take over,” but the laughter and welcoming reply make that the weakest contrary item. It returned `dfqb22m` for “prefer us not to touch your area,” which is a request for permission rather than a refusal. Across the complete 55-item supplied record, the search found no use of “fight,” “war,” “enemy,” “raid,” or “defend.” That scoped null result offers limited support only: this is a small, image-heavy record and cannot establish that antagonism was absent from unrecorded pixels or outside venues.
+
+## Saturation
+
+Record saturation is limited in specific ways. All 22 supplied threads were read in full, but many posts are image or link posts whose surviving title is the only textual evidence; their images were not inspected. One comment is removed and one post body is deleted. Three automatic-account items were treated as platform setting rather than conduct. TeamSpeak and SpaceX IRC are visible only through invitations and participants' reports, so their discussions and decisions cannot be checked here. Within those limits, the supplied Reddit record is internally whole: every thread was disposed, reply parents present in the corpus are accounted for, and there is no visible thread continuing past the supplied window.
+
+Practice saturation is plausible but not strong. Late posts continue the established practices of revising plans, fitting designs together, and moving negotiation between Reddit and IRC; the final thanks repeats acknowledgment already seen earlier. Yet the corpus is only 55 items, and the late SpaceX stop-and-discuss sequence adds an important constraint to the earlier, smoother integration pattern. The ending therefore repeats the main practices while still sharpening how conditional they were.
+
+## Selection
+
+I read the complete `openings.md` before triage, as the case-lead instrument requires, and then used the corpus header and the time-ordered windows. Every opening touched r/place conduct: drawing or revising hoodr, reporting progress, negotiating neighboring space, recruiting help, moving discussion, or responding to those actions. The one thread longer than its triage window, `6307oi`, was then read whole. All 22 threads were retained as coded; none was excluded as ordinary community life or as a separate April Fools joke.
+
+## Other communities named
+
+`r/epublica` is not merely mentioned: `dfqapuy` carries a joint idea there, `dfqb22m` returns with a preference and a request for permission, and `dfqgugy` later thanks hoodr for help. `r/spacex` is represented through the warning in `dfqionh`, the IRC invitation in `dfqj2vx`, and Godranks's account in `dfqqfcn` of approval and a move away from the rocket's flames. `r/gameofthrones` is a crosspost destination in `631wul`, used to insist “We're typing hoodr! Not Hodor!” The hoodr.eu TeamSpeak invitation in `62t6ud` shows a possible off-platform venue but does not reveal whether event organising occurred there. SpaceX IRC more clearly carries negotiation, but only what returns to Reddit—the claimed approval and invitation—is visible.
+
+## Absence
+
+The record has two unavailable bodies. `dfoyhlx` is a removed comment beneath the first plan and has no surviving words to code. The author-deleted post `62tzq0` retains the title “Plans for new border?”, which is coded, but its deleted body cannot be reconstructed. Surviving replies do not quote either missing body. Automatic replies from `SmallSubBot`, `sneakpeekbot`, and `TotesMessenger` supply links or platform notices and are not treated as community conduct. There are no moderator or sticky interventions in the supplied items.
