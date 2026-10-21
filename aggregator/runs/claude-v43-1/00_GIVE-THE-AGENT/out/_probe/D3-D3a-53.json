@@ -1,0 +1,39 @@
+{
+ "t": "2026-10-21T09:40:54+00:00",
+ "stage": "D3",
+ "leg": "D3a-53",
+ "answers": {},
+ "expected": {
+  "open": [
+   "contention-dimension",
+   "relocation-renewed-calls"
+  ],
+  "rooms": [
+   "TheFarLeftSide",
+   "afip",
+   "AvoArmy"
+  ],
+  "changed": [
+   "P19"
+  ],
+  "next": "decide batch 4, quote the rest, reading 13, the absent spec"
+ },
+ "status": {
+  "goal": "missing",
+  "open": "missing",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "missing"
+ },
+ "scored": 5,
+ "unscored": [],
+ "misses": [
+  "goal",
+  "open",
+  "rooms",
+  "changed",
+  "next"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

@@ -1,0 +1,40 @@
+P19: 6 lines in all (op link); packet [0, 6): 6 lines; carried through T3-035,T3-094,T3-099,T3-162
+ops in the packet: {'link': 6}
+
+== finland-019  link  [pending]  repairs 1  carried
+   source t02 (working out borders, truces, and who gets room); lift finland:t02 > T3-010 > T4-016 > D04
+   link_kind: sequence
+   how: An unsolicited refusal is answered by a prospective guest reporting relocation, without proving the refusal caused its decision
+   codes: c0042 telling the hockey-logo requester to get out; c0043 moving the proposed hockey logo elsewhere after the refusal
+   transitions: 632nn1:1>1.1
+
+== greenlattice-055  link  [pending]  repairs 1  carried
+   source t20 (carrying the lattice beyond Place); lift greenlattice:t20 > T3-054 > T4-028 > D07
+   link_kind: sequence
+   how: Guest applications recur around the new lattice after original-canvas closure rather than disappearing into commemoration.
+   codes: c1132 recounting the instant pixel placement ended; c1200 asking approval for a dopefish by the new lattice; c1201 asking approval for Kraft Punk on a clone canvas; c1214 asking the new lattice for room for sadboys
+
+== orderofthebluecorner-040  link  [pending]  repairs 1  carried
+   source t01 (glorifying blue as a faith, empire, and lasting order); lift orderofthebluecorner:t01 > T3-174 > T4-023 > D05
+   link_kind: dependence
+   how: Professed colour faith enters host rulings through the demand that permitted art be completely blue.
+   codes: c0014 casting expansion against red and green as purging heresy; c0047 allowing the art only if it is completely blue
+
+== thebluecorner-066  link  [pending]  repairs 1  carried
+   source t07 (making Blue Corner belonging with names, jokes, songs, and ritual); lift thebluecorner:t07 > T3-174 > T4-023 > D05
+   link_kind: dependence
+   how: Guest permission can depend on whether the claimed space is reserved as holy or pure blue rather than on a stable border agreement alone.
+   codes: c1039 calling for Columbia to be claimed by the Holy Land; c1274 describing the pure corner as appeasing members who want no art; c0804 reversing permission after a vote made the corner a holy site
+
+== tokyo-013  link  [pending]  repairs 3  carried
+   source t08 (explaining why the plane and permission made sense); lift tokyo:t08 > T3-035 > T4-014 > D04
+   link_kind: dependence
+   how: Connects scarce space to asking another group for agreement through the proposer's explicit explanation rather than through a presumed relocation after loss.
+   codes: c0014 saying scarce canvas space drove asking someone to allow the plane
+
+== tokyo-014  link  [pending]  repairs 3  carried
+   source t06 (ending the request when r/place ended); lift tokyo:t06 > T3-117 > T4-027 > D07
+   link_kind: sequence
+   how: Explains how recognising the canvas ending terminates an outstanding guest request before permission can lead to building.
+   codes: c0007 asking to fit an A6M zero by covering characters or expanding the flag; c0009 asking r/Tokyo for permission to build the plane; c0010 marking r/place ended and apologizing for bothering the room
+   transitions: 638a4x:0>3

@@ -1,0 +1,95 @@
+P19: 17 lines in all (op add-step); packet [0, 17): 17 lines; carried through T3-035,T3-094,T3-099,T3-162
+ops in the packet: {'add-step': 17}
+
+== AvoArmy-029  add-step  [pending]  repairs 0  not carried
+   source t06 (deciding which avocado changes belong); lift AvoArmy:t06 > T3-004 > T4-006 > D02
+   how: Host decisions can protect an original fruit and redirect a guest's design to another coordinate rather than reject theming altogether.
+   codes: c0097 protecting the original avocado from theming; c0098 moving a Colorado-themed avocado after learning it was the original
+   transitions: 631bk2:1.1>1.1.1
+
+== PlaceNL-029  add-step  [pending]  repairs 1  carried
+   source t09 (assigning orange space to displaced groups); lift PlaceNL:t09 > T3-151 > T4-017 > D04
+   how: Separate the invitation, application, conditional acceptance, moderator referral, and implementation instead of treating offered space as completed accommodation.
+   codes: c0080 inviting displaced groups to apply for assigned space; c0081 reviewing art and dividing area among groups previously wronged; c0193 offering GreyBlob orange space in exchange for upkeep and defense; c0194 accepting defense work so the GreyBlob can live; c0195 taking the GreyBlob reply to our moderators; c0196 mourning that the ended canvas leaves GreyBlob forgotten
+
+== ainbowroad-024  add-step  [pending]  repairs 1  carried
+   source t11 (Petitioning the road for room, help, or protection); lift ainbowroad:t11 > T3-035 > T4-014 > D04
+   how: Displaced builders can enter canvas organising by seeking a host's sanctuary before securing a mark of their own.
+   codes: c1341 raising “I come from /r/placekeyblades. Blue has shut us out many times. I seek refuge in your rainbow.” in the r/place room; c2036 asking Rainbow Road for sanctuary to make Plants vs Zombies art; c1479 asking for coordination and road space for a maxim tomato
+
+== battlecats-026  add-step  [pending]  repairs 1  carried
+   source t07 (finding another spot after the void and griefers); lift battlecats:t07 > T3-022 > T4-014 > D04
+   how: Anticipating likely rejection makes permission a constraint before any demonstrated occupation of the proposed site.
+   codes: c0196 proposing a better pictured spot for our cat; c0198 saying they need the spot owner permission
+   transitions: 636sky:0>2
+
+== bulgaria-022  add-step  [pending]  repairs 0  not carried
+   source t04 (making room and deals with neighboring pictures); lift bulgaria:t04 > T3-010 > T4-016 > D04
+   how: A space offer is referred to an already involved neighbor before permission is settled.
+   codes: c0038 offering Boba Fett space provided r/cubers agrees
+
+== chess-052  add-step  [pending]  repairs 1  carried
+   source t10 (looking for borrowed flag space and helpful neighbours); lift chess:t10 > T3-035 > T4-014 > D04
+   how: Diplomatic discussion moves into Discord and returns to Reddit as reported permission to build.
+   codes: c0060 offering a Discord after voting to add chess for Magnus; c0061 asking the diplomatic channel for an image and area; c0076 announcing permission won on Discord to build a knight
+
+== clashroyale-016  add-step  [pending]  repairs 0  not carried
+   source t07 (working around neighbours and claimed canvas space); lift clashroyale:t07 > T3-149 > T4-016 > D04
+   relation: greenlattice
+   how: Reported approval and later abandonment are distinct stages, and their appearance in one edited post does not establish revocation or an elapsed interval.
+   codes: c0353 celebrating r/greenlattice approving the design on its territory; c0354 abandoning the green lattice plan and moving under Steve Irwin
+
+== gameboy-017  add-step  [pending]  repairs 1  carried
+   source t06 (warning that green lattice covers unapproved art); lift gameboy:t06 > T3-094 > T4-014 > D04
+   relation: greenlattice
+   how: A participant can relay a host's approval requirement before any request, negotiation, enforcement, or dispute over representation is visible.
+   codes: c0007 calling for help with the Tiny Game Boy in r/greenlattice; c0010 warning that green lattice covers art not approved by them
+   transitions: 62o4q7:5>5.2
+
+== gamindustri-017  add-step  [pending]  repairs 0  carried
+   source t08 (looking outside the thread for coordination and permission); lift gamindustri:t08 > T3-035 > T4-014 > D04
+   how: Physical completion can precede approval, so application, provisional occupancy, returned proof, and accepted survival are distinct steps.
+   codes: c0117 sending an application for the Lastation logo; c0120 treating the built logo as provisional while awaiting a reply; c0121 sharing a Discord attachment as proof of approval; c0092 announcing that the Lastation logo is approved
+
+== greenlattice-013  add-step  [pending]  repairs 1  carried
+   source t17 (publishing maps, battleplans, and approval channels); lift greenlattice:t17 > T3-070 > T4-008 > D02
+   how: Hosts publish an application form, an approved-project document and a no-build diagram that authorize territory rather than merely standardizing pixels.
+   codes: c0654 diagramming allowed art and the no-build zone; c0760 sending diplomats to the Art Application Form; c0761 publishing a Google Doc of approved projects
+
+== placehearts-054  add-step  [pending]  repairs 0  carried
+   source t10 (setting rules for which hearts stay and who maintains them); lift placehearts:t10 > T3-162 > T4-014 > D04
+   how: Hosting assigns claimants responsibility for maintaining their own heart rather than promising unlimited central protection.
+   codes: c0154 requiring flag makers to maintain their hearts
+
+== placestart-025  add-step  [pending]  repairs 1  not carried
+   source t07 (fitting threatened art into windows, tabs, and icons); lift placestart:t07 > T3-012 > T4-014 > D04
+   how: Hosts ration accommodation by reserving places for displaced groups, making compensatory priority part of admission rather than a simple grant of unused space.
+   codes: c0119 reserving buttons for people whose art the taskbar deleted; c0338 promising to adhere to the RBTV treaty while discussing Club Penguin
+
+== planetside-021  add-step  [pending]  repairs 1  carried
+   source t11 (bargaining and pushing back over Green Lattice space); lift planetside:t11 > T3-035 > T4-014 > D04
+   relation: r/GreenLattice
+   how: Host permission can be requested and denied repeatedly without the applicant ever securing a durable place inside the host's territory.
+   codes: c0100 directing them to Discord admins and saying four rogue logos were dismantled; c0115 asking a moderator to act as diplomat for the logo; c0116 recounting repeated denials and dismantling a sixth rogue logo
+
+== sooners-029  add-step  [pending]  repairs 0  not carried
+   source t05 (making peace and trading help); lift sooners:t05 > T3-010 > T4-016 > D04
+   how: A participant intends to seek host permission, while admission and a completed hosted work remain unobserved.
+   codes: c0045 asking rainbowroad whether they will let OU build
+
+== starcitizen-024  add-step  [pending]  repairs 1  not carried
+   source t14 (Building and revising the late Hornet with neighbors watching); lift starcitizen:t14 > T3-038 > T4-007 > D02
+   how: Host permission had to be communicated to maintainers and did not itself establish compliant placement or updated automation.
+   codes: c0343 saying the Rainbow people are constantly fighting the build; c0346 asking for proof that the Hornet has Rainbow Road approval; c0347 providing Rainbow Road's post and official mod confirmation; c0352 briefly thinking the bots got the memo, then retracting it
+
+== streetfighter-020  add-step  [pending]  repairs 1  carried
+   source t06 (working out why Ryu will not stay up and asking the neighbours); lift streetfighter:t06 > T3-035 > T4-014 > D04
+   relation: ainbowroad
+   how: Internal advice to seek a host's permission precedes any evidenced request, host ruling, or authorized guest artwork.
+   codes: c0024 proposing a smaller Ryu and contacting active territorial groups; c0025 saying drawings only stay after contacting the people underneath; c0026 requiring approval from r/ainbowroad to keep Ryu up; c0028 weighing a large group against asking rainbow road's maintainers
+
+== warthunder-029  add-step  [pending]  repairs 0  not carried
+   source t13 (building and repeatedly relocating the Pixel A6M); lift warthunder:t13 > T3-022 > T4-014 > D04
+   relation: r/greenlattice
+   how: A permission form provides a further access channel whose submitted request and response remain unseen.
+   codes: c0094 providing a form to ask permission to work with the lattice
