@@ -1,0 +1,44 @@
+D01 page offset 1: 3 add-condition lines; printing 0 to 3 in the verb's order
+
+[0] cowchop-030    add-condition t06            T3-018 > T4-003 > D01  pending    Sensemaking also occurs after placing ends, when recognition cannot contribute to the ori…  [c0066,c0082,c0096]
+   "There was an April Fool's day subreddit opened called /r/place where users could put down one pixel of a color every 5-10 minutes on a blank canvas. Lots of subreddits created their logos on there, but as with everything on Reddit some people make it an us vs. them thing so people would mess with other people's artwork. Cowchop's logo got made right next to the Funhaus artwork so there was some overlay but eventually both just chilled out."  [cowchop/c0066]  item dfsboja  thread 636q92  h+76.93  Devon302  t06 explaining r/place and seeing the knife in the cow
+   "I just realized that the bottom of the cow is a knife"  [cowchop/c0082]  item dfsfcja  thread 6383re  h+78.10  koolmanminer  t06 explaining r/place and seeing the knife in the cow
+   "Wow /r/place just keeps on giving for me I never noticed that before"  [cowchop/c0096]  item 63awfo  thread 63awfo  h+80.69  PM_ME_UR_TITSANDTOES  t06 explaining r/place and seeing the knife in the cow
+
+  -- reply context
+  c0066 h+76.93 thread 636q92 path 4.1 (Devon302)
+      parent: 4 (PopeMitchIII) na
+      submission: 0 (NIPPLE_POOP) c0060 spending another day stopping the cow head from being chopped off
+  c0082 h+78.10 thread 6383re path 5 (koolmanminer)
+      parent: 0 (Scytheist) c0077 celebrating the final logo with its holes intact
+      submission: 0 (Scytheist) c0077 celebrating the final logo with its holes intact
+  c0096 h+80.69 thread 63awfo path 0 (PM_ME_UR_TITSANDTOES)
+      parent: none
+
+[1] spain-058      add-condition t13            T3-016 > T4-003 > D01  pending    Canvas explanations can occur after closure to interpret a finished picture rather than m…  [c0095,c0101,c0102]
+   "Imagen final de la bandera en r/place"  [spain/c0095]  item 638ibi  thread 638ibi  h+74.07  GlaDOS_Aperture  t12 showing the final r/place flag
+   "No entiendo lo que es r/place ni esas imagenes pixeladas? Alguien me puede explicar?"  [spain/c0101]  item dfs4j6d  thread 638ibi  h+74.59  jano-man  t13 explaining r/place as drawing by agreement
+   "Es como un muro digital donde cada persona puede poner un pixel cada 5min. La gracia es que para poder dibujar cosas la gente se tiene que poner de acuerdo."  [spain/c0102]  item dfs4ryw  thread 638ibi  h+74.67  YhormOldFriend  t13 explaining r/place as drawing by agreement
+
+  -- reply context
+  c0095 h+74.07 thread 638ibi path 0 (GlaDOS_Aperture)
+      parent: none
+  c0101 h+74.59 thread 638ibi path 3 (jano-man)  [replies under c0095]
+      parent: 0 (GlaDOS_Aperture) c0095 showing the final image of the r/place flag
+      submission: 0 (GlaDOS_Aperture) c0095 showing the final image of the r/place flag
+  c0102 h+74.67 thread 638ibi path 3.1 (YhormOldFriend)  [replies under c0095, replies under c0101]
+      parent: 3 (jano-man) c0101 asking someone to explain r/place and the pixelated images
+
+[2] torontoraptors-009 add-condition t18            T3-016 > T4-003 > D01  pending    Explanation after placement closes supports retrospective understanding rather than addit…  [c0147,c0152,c0155]
+   "What in the fuck is r/place ?!?"  [torontoraptors/c0147]  item dfsaxn4  thread 638k22  h+76.69  Jobbian  t18 explaining and picking over the finished canvas
+   "Me too. What the f is it"  [torontoraptors/c0152]  item dfsekrf  thread 638k22  h+77.85  jathy2800  t18 explaining and picking over the finished canvas
+   "basically pixel turf wars. your ability is a 1x1 pixel color of your choice, and it has a five minute cooldown."  [torontoraptors/c0155]  item dfsjdd7  thread 638k22  h+79.47  queryquest  t18 explaining and picking over the finished canvas
+  -- reply context
+  c0147 h+76.69 thread 638k22 path 8 (Jobbian)
+      parent: 0 (olaithimh) c0135 showing the fixed final Raptors logo on r/place
+      submission: 0 (olaithimh) c0135 showing the fixed final Raptors logo on r/place
+  c0152 h+77.85 thread 638k22 path 8.1 (jathy2800)  [replies under c0147]
+      parent: 8 (Jobbian) c0147 asking what r/place is
+  c0155 h+79.47 thread 638k22 path 8.1.1 (queryquest)  [replies under c0147, replies under c0152]
+      parent: 8.1 (jathy2800) c0152 also asking what r/place is
+

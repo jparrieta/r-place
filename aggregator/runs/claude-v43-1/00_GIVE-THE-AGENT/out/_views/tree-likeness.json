@@ -14,11 +14,11 @@
  "weights_from": "prior.md \u00a77",
  "grades_from": "prior.md \u00a77",
  "rooms": 705,
- "lines_used": 21860,
+ "lines_used": 21973,
  "input_sha256": {
   "adaptations.jsonl": "72348d7a496a0a019489c8ace3e616ff5e3c7f88515b7ecc0346a0d07036e11a",
   "adaptations-recheck.jsonl": null,
-  "adjudications.jsonl": "8c919a405221a08db15cffd4c0f9bba22a5e162b38794809ec092955a3cb07be",
+  "adjudications.jsonl": "f2ede4c7bf3f57919c36992f7c65d75b3f3abac9c03ff3638defdc66b60e3050",
   "adaptation-returns.jsonl": "da7d9cc33e839f8d8181bc2db1b8963213b3329178984708b9c914d016d1d71b",
   "model/elements.jsonl": "1e241360af13913d50929fe6171c285dc47055dd98c0f5a1482407c5dbea6384",
   "model/arrows.jsonl": "ff0b39638fbaa826620b3d71c880dadd4a82f706dabe0dc75429a4200a275082",
@@ -32,13 +32,13 @@
  "seed": 0,
  "quartets_requested": 20000,
  "score_semantics": "Nonmetric best-match dissimilarity; explicit observed absences agree at target; incomplete source paths remain partially comparable.",
- "delta_score": 0.4224933780121674,
+ "delta_score": 0.42327252760891354,
  "quartet_diagnostics": {
   "sampled": 20000,
   "unique": 20000,
   "nondegenerate": 20000,
   "equal_sum": 0,
-  "mc_se": 0.0019692418573414956,
+  "mc_se": 0.0019711482192992374,
   "interpretation": "Monte Carlo error conditional on this fixed dissimilarity matrix, not sampling uncertainty for cases."
  },
  "delta_note": "Nondegenerate quartet delta ranges from 0 to 1; larger means less additive. Equal-sum quartets are excluded. No 0.5 star or network threshold."

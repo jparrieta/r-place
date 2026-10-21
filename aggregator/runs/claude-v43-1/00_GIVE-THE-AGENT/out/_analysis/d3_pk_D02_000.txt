@@ -1,0 +1,245 @@
+D02: 38 lines in all; packet [0, 38): 38 lines; carried through no third-order tier
+ops in the packet: {'add-condition': 1, 'add-step': 1, 'link': 34, 'restrict': 2}
+
+== borussiadortmund-013  add-condition  [pending]  repairs 1  not carried
+   source t10 (keeping r/place work in one thread); lift borussiadortmund:t10 > T3-015 > T4-002 > D06
+   how: Coordination without canvas command coexists with enforceable moderator authority over where participants may discuss that coordination.
+   codes: c0063 making one thread the only r/place hub; c0088 allowing one warning thread but consolidating future operations; c0096 locking a quiet protection thread and directing operations to the hub
+
+== vermont-011  add-step  [pending]  repairs 0  not carried
+   source t04 (moving VT planning onto Discord); lift vermont:t04 > T3-014 > T4-010 > D02
+   how: Crowded work is routed into chat for planning, while revised templates return to the public thread.
+   codes: c0018 moving coordination to Discord when two logos sandwich VT; c0019 creating a Discord to plan; c0027 agreeing to expand and promising a Discord mock-up; c0036 posting a UVM template to Discord; c0038 thanking a defender and sharing the updated UVM template
+
+== DestinyTheGame-015  link  [pending]  repairs 1  not carried
+   source t10 (moving live plans to Discord and bringing directions back); lift DestinyTheGame:t10 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: Real-time planning moves to chat while revisions and progress reports return to the host thread.
+   codes: c0035 moving Gjallarhorn coordination into a chat; c0227 changing plans to build a coat of arms from a Discord mock-up; c0239 moving real-time strategizing and planning to Discord; c0298 reporting from Discord that faction emblems are going up
+
+== MMA-016  link  [pending]  repairs 1  not carried
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift MMA:t07 > T3-038 > T4-007 > D02
+   link_kind: instantiation
+   how: The build moves coordination into Discord and brings instructions and a conflicting commitment back to the public thread.
+   codes: c0440 moving the conversation to Discord to get more than the logo done; c0452 inviting Vaporwave to settle areas on Discord; c0458 calling more people into Discord for the good fight; c0468 asking which fight promise is true after Discord contradicts the thread
+
+== TheFarLeftSide-061  link  [pending]  repairs 1  not carried
+   source t18 (rebuilding the pixel fight on successor canvases); lift TheFarLeftSide:t18 > T3-054 > T4-028 > D07
+   link_kind: sequence
+   how: After the original canvas closes, successor sites restart building and coordination rather than ending the organizing sequence at preservation.
+   codes: c0627 answering that the proposal is too late because place is over; c0662 starting a replacement Soviet flag with a red rectangle; c0668 asking a comrade to finish AFA after disconnecting; c0669 giving coordinates and starting a basic TFLS under KAPITAL
+
+== asexuality-029  link  [pending]  repairs 0  not carried
+   source t05 (bringing in allies and moving planning elsewhere); lift asexuality:t05 > T3-151 > T4-017 > D04
+   link_kind: enables
+   how: A participant credits outside helpers and spare accounts with getting the flag started, making assistance an input to building as well as a possible response to later strain.
+   codes: c0080 starting with alternate accounts and help from CasualConversation's Discord
+
+== austria-015  link  [pending]  repairs 1  not carried
+   source t11 (moving coordination into Discord and keeping it); lift austria:t11 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: A shared discussion venue supplies a coordination route distinct from state reports and circulated output specifications.
+   codes: c0089 asking for a Discord together with the Hungarians; c0092 calling people into Discord for better discussion; c0100 directing server arrivals to derzeitiges_ziel; c0111 calling people into Discord where r/place has been discussed since yesterday
+
+== belgium-010  link  [pending]  repairs 0  not carried
+   source t03 (moving coordination into Discord and allied venues); lift belgium:t03 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: Moving plans into chat supplies a coordination route distinct from public progress reports and templates, even when no coalition activity can be verified.
+   codes: c0109 making a Discord to coordinate the next moves; c0111 giving both the German Discord's Belgian channel and a Belgian Discord; c0178 sending helpers to Discord to represent Belgium positively
+
+== cavestory-012  link  [pending]  repairs 0  not carried
+   source t07 (moving plans to Discord while announcements stay here); lift cavestory:t07 > T3-014 > T4-010 > D02
+   link_kind: sequence
+   how: Reported use of a neighbour's negotiation chat was answered by proposing a separate local planning channel while keeping announcements public.
+   codes: c0082 using Bitcoin Discord to stop building over the art; c0064 keeping announcements here and plans on Discord
+   transitions: 632seq:2>2.1
+
+== chile-008  link  [pending]  repairs 1  not carried
+   source t08 (coordinating through Discord); lift chile:t08 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: Public plans depend partly on reported backstage discussion whose decisions and membership the supplied record cannot independently establish.
+   codes: c0075 working out the R/CHILE design on Discord; c0168 bringing a Discord expansion plan back while leaving the Eye of Sauron above; c0143 thanking allies and locating the main organization in Discord
+
+== counting-013  link  [pending]  repairs 0  not carried  NONPORTABLE ['counting']
+   source t04 (keeping counting chains live through runs, checks, and repairs); lift counting:t04 > T3-017 > None > None
+   link_kind: order
+   how: Routine checking and redirection provide a separate local form of coordination around the usable counting chain.
+   codes: c0076 pointing a newcomer from the wrong chain to the live count; c0115 pointing out a reply to the newer version by accident; c0116 thanking someone for flagging the accidental newer-version reply
+
+== danganronpa-015  link  [pending]  repairs 0  not carried
+   source t04 (reporting a Discord-made Monokuma back to Reddit); lift danganronpa:t04 > T3-152 > T4-010 > D02
+   link_kind: dependence
+   how: Public coordination can use decisions reported from chat even when the report does not reveal how those decisions were reached.
+   codes: c0013 recounting a Discord group deciding to make Monokuma on r/place; c0015 giving directions to Monokuma near Charmander; c0034 discovering the central organisation thread after working independently
+
+== dbz-070  link  [pending]  repairs 1  not carried
+   source t07 (taking stock and carrying the pixel work onward); lift dbz:t07 > T3-073 > T4-027 > D07
+   link_kind: sequence
+   how: A retrospective theme includes reported Discord construction, so this concept belongs in coordination as well as the account of what survived.
+   codes: c0132 recounting Discord users making a Dragon Radar and Dragon Ball at 900,200
+
+== de-011  link  [pending]  repairs 1  not carried
+   source t15 (centralising and redirecting r/place talk); lift de:t15 > T3-015 > T4-002 > D06
+   link_kind: dependence
+   how: Containing host discussion makes detailed coordination harder for some participants, who explicitly redirect work to dedicated venues.
+   codes: c0284 complaining that the megathread cannot coordinate without new threads; c0287 redirecting coordination to PlaceDE; c0495 proposing r/placeDe to keep order and relieve the r/de mods; c0506 explaining redirects as avoiding being drowned in r/place threads; c0507 moving the proposal to r/placeDE despite a slow connection
+   transitions: 62z4kx:1.1.1>1.1.1.1
+
+== fullcommunism-055  link  [pending]  repairs 1  not carried
+   source t07 (arguing how to organise without making things worse); lift fullcommunism:t07 > T3-042 > T4-013 > D03
+   link_kind: dependence
+   how: Keeping public discussion visible conditions off-site coordination when containing it in chat would hide the effort from potential participants.
+   codes: c0039 keeping discussion in FULLCOMMUNISM to make the work visible; c0038 sending attack planning to the FarLeftSide Discord
+
+== furry-014  link  [pending]  repairs 1  not carried
+   source t13 (moving defence recruitment into Discord); lift furry:t13 > T3-014 > T4-010 > D02
+   link_kind: sequence
+   how: A request to participate without joining chat receives a plan in the thread, making venue movement reversible for individual helpers.
+   codes: c0163 joining the white pixeling but asking for a Discord-free TL;DR; c0164 giving the general consensus for moving letters and changing colors
+   transitions: 62xbqw:3.1.1.1.1.1.1.1>3.1.1.1.1.1.1.1.1
+
+== hongkong-020  link  [pending]  repairs 1  not carried
+   source t05 (getting permission, protection and room beside others); lift hongkong:t05 > T3-010 > T4-016 > D04
+   relation: greenlattice
+   link_kind: enables
+   how: Permission and anticipated security direct the proposed build toward host territory before completion
+   codes: c0023 seeking diplomacy for space or building help; c0028 announcing permission from r/greenlattice and calling for help; c0034 reassuring others that permission came through greenlattice's Discord; c0035 focusing effort in green lattice territory for security; c0048 announcing that the flag is established
+
+== ibo-038  link  [pending]  repairs 0  not carried
+   source t03 (turning r/place into IB work and programme talk); lift ibo:t03 > T3-031 > T4-004 > D05
+   link_kind: response
+   how: A request for a CAS supervisor elicits an offer of private contact details, connecting schoolwork recognition to a practical organising exchange
+   codes: c0006 asking the proposer to be a CAS supervisor; c0007 offering contact information by private message
+   transitions: 6341l1:3>3.1
+
+== italy-057  link  [pending]  repairs 0  not carried
+   source t05 (funnelling repeated and misplaced posts into shared threads); lift italy:t05 > T3-090 > T4-002 > D06
+   link_kind: dependence
+   how: An explicit request to pin plans receives moderator confirmation, making coordination accessible through host moderation.
+   codes: c0100 asking moderators to put the plans on top; c0101 sticking the plans and offering later thread changes
+   transitions: 62uy7j:2.1>2.1.1
+
+== japan-014  link  [pending]  repairs 0  not carried
+   source t07 (sharing references, links, bots and places to coordinate); lift japan:t07 > T3-070 > T4-008 > D02
+   link_kind: sequence
+   how: Requests to move planning into chat encounter an explicitly reported lack of a room chat and a participant unable to create it.
+   codes: c0123 asking for Discord to organize and plan; c0125 asking Japan to make a Discord for talks with Norway; c0126 saying they cannot make the requested Discord; c0127 saying r/japan has no Discord yet
+   transitions: 6355k7:5.1.1.1.1>5.1.1.1.1.1, 6355k7:5.1.1.1.1>5.1.1.1.1.2
+
+== lofihiphop-010  link  [pending]  repairs 1  not carried
+   source t04 (sending people to Discord and forums for plan updates); lift lofihiphop:t04 > T3-014 > T4-010 > D02
+   link_kind: sequence
+   how: Participants are directed to external venues for updates on the shared plan.
+   codes: c0011 directing people to Discord and forums for plan updates
+   transitions: 637ee0:1>1.1
+
+== mcgill-009  link  [pending]  repairs 1  not carried
+   source t02 (sending help and strategy through live links and coordinates); lift mcgill:t02 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: Access to planning depends on usable invitations, so an expired chat link prompts a request and a replacement before further strategy is visible.
+   codes: c0008 sending an ally to Discord to strategize; c0009 asking for a fresh Discord link; c0010 supplying a fresh Discord invite
+   transitions: 62p86r:1.1.1>1.1.1.1, 62p86r:1.1.1.1>1.1.1.1.1
+
+== metalcore-013  link  [pending]  repairs 1  not carried
+   source t03 (working things out with canvas neighbours); lift metalcore:t03 > T3-149 > T4-016 > D04
+   link_kind: sequence
+   how: An invasion question receives an invitation to a strategy chat, establishing redirection without revealing whether the attack was adopted.
+   codes: c0009 asking whether to invade the green corner; c0010 sending people to the Plug.dj room; c0011 planning secret strategies in the Plug.dj room
+   transitions: 62otry:5>5.1
+
+== puzzleanddragons-015  link  [pending]  repairs 0  not carried
+   source t04 (answering neighbours' calls for joint defence); lift puzzleanddragons:t04 > T3-084 > T4-017 > D04
+   link_kind: dependence
+   how: Rapid help requests are routed to the chat containing active painters, while Reddit remains an acceptable but slower contact point.
+   codes: c0136 sending a neighbour to active painters in Discord and offering help; c0137 saying the Dutch threat passed and promising to contact Discord if it returns; c0138 saying Reddit was the right place but not the rapid-response place
+   transitions: 632tgz:2>2.1, 632tgz:2.1>2.1.1, 632tgz:2.1.1>2.1.1.1
+
+== scp-015  link  [pending]  repairs 1  not carried
+   source t08 (moving the location decision and later chat into Discord); lift scp:t08 > T3-014 > T4-010 > D02
+   link_kind: decision-routing
+   how: A location question is answered by moving the decision into the coordination chat.
+   codes: c0122 endorsing AWCY and asking for a Discord to coordinate it; c0123 creating and inviting people into the coordination Discord; c0125 asking where the design will be located; c0126 moving the location decision into Discord
+   transitions: 636g37:1>1.1, 636g37:3>3.1
+
+== scp-016  link  [pending]  repairs 1  not carried
+   source t08 (moving the location decision and later chat into Discord); lift scp:t08 > T3-014 > T4-010 > D02
+   link_kind: decision-routing
+   how: Routing a location decision into chat adds a coordination route alongside circulating public coordinates and templates.
+   codes: c0125 asking where the design will be located; c0126 moving the location decision into Discord
+   transitions: 636g37:3>3.1
+
+== serbia-031  link  [pending]  repairs 0  not carried
+   source t01 (staging and reacting to the election-silence joke); lift serbia:t01 > T3-023 > T4-001 > D06
+   link_kind: dependence
+   how: The claimed speech restriction supplies an explicit reason for proposing that canvas organizing move to Discord.
+   codes: c0001 temporarily disabling political discussion for election silence; c0037 proposing everyone gather on Discord after losing the right to speak
+
+== ssbpm-013  link  [pending]  repairs 1  not carried
+   source t03 (moving the uncoordinated build talk into Discord); lift ssbpm:t03 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: Moving updates into chat makes coordination depend on maintaining a working invitation.
+   codes: c0079 calling for Discord because the group is uncoordinated; c0082 claiming placed blocks and opening Discord coordination; c0083 relocating and shortening the logo while sending updates to Discord; c0084 asking for a replacement Discord invite; c0085 supplying a replacement Discord invite
+   transitions: 62yzmk:5.2>5.2.1
+
+== starryknights-061  link  [pending]  repairs 1  not carried
+   source t04 (trading help and working out borders with friends); lift starryknights:t04 > T3-010 > T4-016 > D04
+   link_kind: sequence
+   how: A border proposal receives an invitation to continue negotiating in chat, connecting external accommodation to coordination across venues.
+   codes: c0054 opening a border negotiation with TampaBayLightning; c0093 moving a border negotiation to Discord
+   transitions: 634abd:0>1
+
+== texas-056  link  [pending]  repairs 0  not carried
+   source t04 (Working out one flag and star design); lift texas:t04 > T3-004 > T4-006 > D02
+   link_kind: sequence
+   how: A complaint that intermediate star changes are repeatedly reversed directly receives a request for a shared coordination chat.
+   codes: c0116 saying star changes get undone without a coordinated effort; c0288 asking for a Discord where everyone can coordinate
+   transitions: 630sfx:1>1.1
+
+== thenetherlands-043  link  [pending]  repairs 1  not carried
+   source t03 (joining and directing the shared pixel work); lift thenetherlands:t03 > T3-002 > T4-005 > D01
+   link_kind: order
+   how: Recruitment directs helpers toward shared plans and channel-specific coordination rather than only asking them to place.
+   codes: c0305 calling helpers to make Nederland great again; c0307 moving helpers to the PlaceNL Discord; c0341 recruiting help on r/place through the Discord plans
+   transitions: 62w7hj:0>2
+
+== trees-014  link  [pending]  repairs 0  not carried
+   source t05 (organising through Discord, overlays, and scripts); lift trees:t05 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: Plans and treaty reports return from a coordinating chat, while the actual deliberation and its reach among participants remain unseen.
+   codes: c0407 confirming the treaty was made in Discord; c0468 gathering about thirty people on Discord to make the logo happen; c0469 inviting builders into the Discord chat; c0533 moving defense to Discord and submitting a new design; c0551 explaining that unseen Discord plans make helpers look like trolls
+
+== uwaterloo-015  link  [pending]  repairs 1  not carried
+   source t09 (moving plans through Discord, scripts, and bots); lift uwaterloo:t09 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: The adapted coordination account needs plans relayed from backstage discussion to public instructions, even though the backstage decision process itself remains unseen.
+   codes: c0092 bringing an alternate plan back from Discord; c0100 directing updates and future plans to Discord; c0113 making Discord the HQ while updating the Reddit master post
+
+== vermont-012  link  [pending]  repairs 0  not carried
+   source t04 (moving VT planning onto Discord); lift vermont:t04 > T3-014 > T4-010 > D02
+   link_kind: dependence
+   how: The organiser explicitly makes pressure from neighbouring logos the reason to seek coordination through chat.
+   codes: c0018 moving coordination to Discord when two logos sandwich VT
+
+== virginiatech-058  link  [pending]  repairs 1  not carried
+   source t04 (working out room and borders with neighbors); lift virginiatech:t04 > T3-010 > T4-016 > D04
+   link_kind: sequence
+   how: A member reports unsuccessful negotiations alongside creating chat, supporting sequence without establishing that failed negotiation caused the move.
+   codes: c0055 asking which other spots are being negotiated; c0057 reporting no luck negotiating and inviting people to Discord; c0056 making a Discord to coordinate better and asking everyone to join
+   transitions: 62wph7:11.1.1>11.1.1.1
+
+== wales-034  link  [pending]  repairs 1  not carried
+   source t03 (calling people back to defend and repair the flag); lift wales:t03 > T3-005 > T4-013 > D03
+   link_kind: dependence
+   how: A warning that vandalism outruns repairs receives a coordination invitation claiming progress now outruns vandalism, linking maintenance strain to chat coordination.
+   codes: c0043 joining while warning vandalism is faster than repairs; c0044 directing a recruit to IRC and claiming coordination is beating vandalism
+   transitions: 62s4hv:3>3.1
+
+== 4chan-013  restrict  [pending]  repairs 1  not carried
+   source t01 (rallying people to build, defend, and maintain shared marks); lift 4chan:t01 > T3-002 > T4-005 > D01
+   how: Coordination includes attempted moderator command and selective compliance, while explicit refusal prevents equating moderator standing with binding canvas authority.
+   codes: c0012 setting the next mission: add the name after a black border; c0004 telling a spectator to make it happen; c0005 accepting the mod's order with 'Got it boss'; c0058 refusing to be the poster's personal army
+
+== SquareSpiral-014  restrict  [pending]  repairs 1  not carried
+   source t08 (rallying against the Void and other attacks); lift SquareSpiral:t08 > T3-005 > T4-013 > D03
+   how: Commands and votes are observable, so the dimension must distinguish issuing orders from controlling unaffiliated placers.
+   codes: c0162 ordering red-only patching to beat back the Void; c0061 using a poll to decide the sign's length; c0139 downsizing so organization can beat random placement

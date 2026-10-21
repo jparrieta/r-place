@@ -1,0 +1,21 @@
+D03: 3 lines in all; packet [0, 3): 3 lines; carried through no third-order tier
+ops in the packet: {'link': 3}
+
+== counting-018  link  [pending]  repairs 0  not carried
+   source t06 (waiting out ghost counts and auditing what went wrong); lift counting:t06 > T3-017 > None > None
+   link_kind: order
+   how: Count recovery maintains the community's ordinary activity alongside, rather than as, pixel repair.
+   codes: c0052 messaging each other, finding the last registered count, and finishing from there; c0053 rechecking the wrong chain and admitting it was entirely their mistake
+
+== predators-030  link  [pending]  repairs 0  not carried
+   source t07 (moving the logo when other work takes the spot); lift predators:t07 > T3-022 > T4-014 > D04
+   link_kind: dependence
+   how: Participants explain that moving exposed their held spot to entrants who read it as abandonment.
+   codes: c0063 recounting others taking the spot during the move; c0081 recounting an unsettled effort to move the logo up for the fangs; c0082 blaming churn for the void, guildwars, and green lattice getting footholds
+
+== vim-017  link  [pending]  repairs 0  not carried
+   source t03 (celebrating and crediting getting Vim onto the canvas); lift vim:t03 > T3-009 > T4-026 > D07
+   link_kind: sequence
+   how: The success announcement receives an immediate reply crediting helpers and declaring maintenance the current task.
+   codes: c0006 celebrating that 'we did it'; c0007 crediting r/ArchLinux friends and turning to maintaining three logos; c0008 focusing on maintaining the Arch logo, Vim logo, and Tux
+   transitions: 634y32:0>1

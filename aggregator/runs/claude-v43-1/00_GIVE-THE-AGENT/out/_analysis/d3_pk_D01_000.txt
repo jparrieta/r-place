@@ -1,0 +1,116 @@
+D01: 18 lines in all; packet [0, 18): 18 lines; carried through no third-order tier
+ops in the packet: {'add-condition': 3, 'link': 14, 'restrict': 1}
+
+== cowchop-030  add-condition  [pending]  repairs 0  not carried
+   source t06 (explaining r/place and seeing the knife in the cow); lift cowchop:t06 > T3-018 > T4-003 > D01
+   how: Sensemaking also occurs after placing ends, when recognition cannot contribute to the original placing force.
+   codes: c0066 explaining the pixel rules and saying Cowchop and Funhaus eventually chilled out; c0082 realizing the cow's bottom is a knife; c0096 using r/place to newly notice the knife in the logo
+
+== spain-058  add-condition  [pending]  repairs 1  not carried
+   source t13 (explaining r/place as drawing by agreement); lift spain:t13 > T3-016 > T4-003 > D01
+   how: Canvas explanations can occur after closure to interpret a finished picture rather than mobilize prospective placers.
+   codes: c0095 showing the final image of the r/place flag; c0101 asking someone to explain r/place and the pixelated images; c0102 explaining r/place as a digital wall where drawing requires people to agree
+   transitions: 638ibi:3>3.1
+
+== torontoraptors-009  add-condition  [pending]  repairs 0  not carried
+   source t18 (explaining and picking over the finished canvas); lift torontoraptors:t18 > T3-016 > T4-003 > D01
+   how: Explanation after placement closes supports retrospective understanding rather than additional placement on the same canvas.
+   codes: c0147 asking what r/place is; c0152 also asking what r/place is; c0155 explaining r/place as pixel turf wars with a five-minute cooldown
+
+== afip-006  link  [pending]  repairs 1  not carried
+   source t02 (rallying people around the flag); lift afip:t02 > T3-002 > T4-005 > D01
+   link_kind: dependence
+   how: The visible room label is presented as a means of gathering organizers, connecting a canvas inscription back to recruitment.
+   codes: c0015 using the r/AFIP tag to organize more people; c0057 trying to restore the subreddit title after restoring the flag
+
+== canucks-008  link  [pending]  repairs 0  not carried
+   source t02 (finding and explaining the pixel canvas); lift canucks:t02 > T3-016 > T4-003 > D01
+   link_kind: dependence
+   how: Explaining timed individual placement makes collective drawing intelligible to newcomers without establishing that every explanation recruits a placer.
+   codes: c0008 explaining how people together make designs on the pixel canvas; c0120 explaining the canvas as subreddits placing designs one pixel at a time; c0121 understanding r/place as gangs carving out a graffiti tag
+   transitions: 630jny:3.1>3.1.1
+
+== cardinals-006  link  [pending]  repairs 0  not carried
+   source t08 (asking and explaining what r/place is); lift cardinals:t08 > T3-016 > T4-003 > D01
+   link_kind: sequence
+   how: Explaining pixel turns makes the event intelligible to an ordinary-thread reader without demonstrating recruitment.
+   codes: c0070 asking what the hell r/place is; c0071 explaining one-pixel turns and subreddits making cool stuff
+   transitions: 635meh:1>1.1
+
+== chile-062  link  [pending]  repairs 1  not carried
+   source t09 (admiring another room's intense organisation); lift chile:t09 > T3-052 > T4-003 > D01
+   link_kind: comparison
+   how: Admiring another room's organization supplies a public comparison without establishing adoption of its arrangements.
+   codes: c0015 admiring r/ainbowroad's intense organisation
+
+== harrypotter-002  link  [pending]  repairs 1  not carried
+   source t07 (explaining what r/place is to people asking); lift harrypotter:t07 > T3-016 > T4-003 > D01
+   link_kind: instantiation
+   how: Answers explained the unfamiliar canvas to members who asked what the venue was.
+   codes: c0007 asking what the subreddit is after finding no explanation; c0008 explaining place as reddit's yearly April Fool's day prank
+
+== kerbalspaceprogram-059  link  [pending]  repairs 0  not carried
+   source t13 (bringing r/place onto the Mun); lift kerbalspaceprogram:t13 > T3-057 > T4-028 > D07
+   link_kind: sequence
+   how: Explanation of the canvas appears inside post-event reuse, so sensemaking here follows participation rather than demonstrably generating the earlier critical mass.
+   codes: c0220 bringing r/place to the Mun; c0221 asking for an explanation and name for the new meme; c0223 explaining r/place as users teaming up to create artwork
+   transitions: 63e75l:1>1.1
+
+== malaysia-061  link  [pending]  repairs 0  not carried
+   source t12 (sharing, mourning, and explaining the finished canvas); lift malaysia:t12 > T3-117 > T4-027 > D07
+   link_kind: sequence
+   how: Explanation of basic placement mechanics occurs after the final canvas is shared, extending sensemaking beyond initial mobilisation.
+   codes: c0198 sharing the final canvas version; c0205 asking whether place is byte paint made by everyone's contributions; c0206 explaining r/place as putting a tile and waiting
+   transitions: 63a0o1:1.3.2>1.3.2.1
+
+== mechanicalkeyboards-056  link  [pending]  repairs 0  not carried
+   source t07 (Displaying, crediting, and explaining the finished canvas mark); lift mechanicalkeyboards:t07 > T3-009 > T4-026 > D07
+   link_kind: sequence
+   how: Finished representation prompts identification and event explanation for host-room readers whose understanding follows collective achievement.
+   codes: c0186 showing r/MechanicalKeyboards represented in Reddit place; c0197 asking what the image is; c0198 identifying a Cherry MX Blue cutaway diagram; c0199 asking whether the confused reader has heard of r/place; c0200 explaining the blank canvas, pixel timer, duration, and subreddit participation
+   transitions: 638khq:5>5.1
+
+== planetside-008  link  [pending]  repairs 1  not carried
+   source t07 (working out what r/place means in Planetman words); lift planetside:t07 > T3-016 > T4-003 > D01
+   link_kind: enabling-explanation
+   how: Explaining the timer and cooperative drawing answers newcomers' confusion while the build is already underway.
+   codes: c0068 asking for a patient explanation in simple Planetman words; c0069 explaining that multiplayer drawing requires pixel-by-pixel cooperation; c0097 saying they still have no idea what is going on; c0110 explaining that each Reddit user gets one pixel every five minutes; c0111 thanking another user for explaining the canvas
+   transitions: 6319f2:5>5.1, 632py7:3.1>3.1.1, 632py7:3.1.1>3.1.1.1
+
+== rocketbeans-062  link  [pending]  repairs 1  not carried
+   source t12 (asking and explaining what r/place was); lift rocketbeans:t12 > T3-016 > T4-003 > D01
+   link_kind: sequence
+   how: Explaining the canvas also occurred after placement ended rather than only before recruitment and building.
+   codes: c0142 asking what r/place had been; c0143 explaining r/place as subreddits joining to create something beautiful
+   transitions: 638a0p:3>3.1
+
+== scp-003  link  [pending]  repairs 1  not carried
+   source t07 (explaining what r/place posts and SCP names mean); lift scp:t07 > T3-016 > T4-003 > D01
+   link_kind: participation-explanation
+   how: Questions about the event and confusing numbered references receive an explanation of the proposed canvas drawing.
+   codes: c0030 asking what r/place is and why subscribed subreddits are involved; c0114 asking why people list SCPs and what the post is about; c0115 explaining that the post proposes drawing onto r/place
+   transitions: 62y7ja:3.2>3.2.1
+
+== theblackvoid-023  link  [pending]  repairs 1  not carried
+   source t06 (Defending and purifying a core); lift theblackvoid:t06 > T3-021 > T4-013 > D03
+   link_kind: dependence
+   how: Participants justify maintaining visible pure cores as calling signs for unaffiliated sympathizers without demonstrating the claimed recruitment effect.
+   codes: c0460 saying: Defense will not sustain us, but it is not negligible. An impure void looks weak. Fewer will see its glory and join our cause.; c1584 asking to plough through the canvas without looking back; c1585 defending cores as calling signs to sympathetic outsiders
+   transitions: 6366ma:2>2.1
+
+== thebluecorner-064  link  [pending]  repairs 1  not carried
+   source t03 (defending and repairing the corner and sign); lift thebluecorner:t03 > T3-005 > T4-013 > D03
+   link_kind: dependence
+   how: Maintaining a visible sign is treated as a means of recruiting additional hands rather than only as an outcome of recruitment.
+   codes: c0245 focusing on the banner to recruit in the American morning; c0549 delaying expansion to clean the sign and recruit; c0108 celebrating the new sign bringing subscribers
+
+== yumenikki-003  link  [pending]  repairs 1  not carried
+   source t06 (explaining the big canvas to a newcomer); lift yumenikki:t06 > T3-016 > T4-003 > D01
+   link_kind: sequence
+   how: An explanation of the shared canvas answers a newcomer's question without establishing that the reader subsequently placed pixels.
+   codes: c0009 explaining the big canvas to a newcomer
+
+== ucf-004  restrict  [pending]  repairs 1  not carried
+   source t11 (working out what the start bar is); lift ucf:t11 > T3-018 > T4-003 > D01
+   how: Limits the sensemaking placement to interpreting the finished picture because this exchange does not demonstrate recruiting builders or increasing critical mass.
+   codes: c0106 explaining the start bar along the bottom; c0107 admiring the start bar after being fooled
