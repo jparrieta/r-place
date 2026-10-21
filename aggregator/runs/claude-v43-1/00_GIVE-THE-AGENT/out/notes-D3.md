@@ -4999,3 +4999,29 @@ P06 is a candidate process from pass 1 (C2a-01). C5a-02 cut it to candidate beca
 - **Pairs.** R02's files hold no pair (`d3_pair_check.py`). For R02 and P06, 10 accepted elaborations are checked, and none pairs with a line of another kind (`d3_pair_kind_check.py`).
 - **The other ledgers.** History holds 152 lines (moves 177 and 178 added), elements 30 (27 standing, 3 candidates), arrows 21, findings 37 and tier history 561. The elements hash changed twice (c5932c30… after move 177, df9d809b… after move 178). The arrows hash is unchanged (ff0b3963…).
 - **Questions.** None is open.
+
+## D3a-50: P06's order test against P05
+
+**The question.** Since move 173, P05's statement says that keepers repair a planned change away as damage until they are told of it. D3a-48 asked whether attribution (P06) comes before the keepers stop or turn their repair. The rules were logged in the diary before the pool was read. The test rules no ledger line.
+
+**The pool.** A finding aid ran over the reasons of my accepted P05 rulings ('intended|planned|agreed change|once told|are told|told the|until told'). It matched 31 rooms, and 28 of them show P06 (`_analysis/d3_p06p05_pool.py`). Their reasons name a stop by keepers in 8 rooms. The others name a telling, a request to stop, builders who give a change up, or repairs that went on. That aid caught the telling and missed stops worded without it. So a second aid, aimed at stop words, was logged as a dated addition before any stop hour was read (`d3_p06p05_pool_v2.py`). It added 7 rooms, and 5 of them name a stop. The 13 lines' concepts were quoted through `cite.py` (49 concepts, `d3_p06p05_stop_cites.txt`). Dwarffortress left the pool, since none of its five quotes is a stop. Each room's stop is its earliest stop concept (`d3_p06p05_stops.txt`).
+
+**The order (`d3_p06p05_order.py`).** In 8 of the 12 rooms, the room's first P06 act comes before the stop. In 2 rooms, tf2 and timbers, the stop and the attribution are one post. In timbers, a keeper writes 'Here I was thinking all that extra white was vandalism.' (h+50.36). In 2 rooms, norge and pathofexile, the stop comes first. There it answers a builder's report that no P06 line codes. Each room's first P06 row carries the own-mistake or friendly-fire form (OM or FF), so the count for those forms alone is the same.
+
+**By episode.** A room's first acts can belong to different changes, so the P06 rows were read beside the stops. In mcgill, neopets, ohio and weezer, a coded attribution of the same change comes just before the stop. In neopets, one member writes 'yo that blue part was actually me making the r/neopets tag' (h+54.77), and another answers 'I have ceased removing the blue.' (h+54.80). In tf2, timbers and southafrica, the stop is itself a coded admission. In chelseafc, luciomains and ripcity, the first P06 act concerns another change, and the stop answers a telling that no P06 line codes. So in every pooled room the stop follows a telling, as P05's statement says. The telling is a coded attribution of the room's own mistake or of friendly fire in 7 rooms, and an uncoded telling in 5.
+
+**The ruling.** There is no arrow and no move. The order is P05's stated mechanism, and P06's own-mistake and friendly-fire forms are one form of the telling it names. A phrase search found the 12 rooms, so the test checks the mechanism; it is not a sample. No correction is met twice, and the hashes do not change.
+
+**Carried.** Whether P05's telling clause should name P06 (relating) goes to the clustering at D3c and D4. P06's order (c), a check of the change before repair or blame, goes with it.
+
+**Disclosed limits and slips.**
+- **Hours seen early.** The pool files print each room's first P06 hour beside the P05 reasons. So I saw those hours and the stop hours before the order script ran. The stops were chosen by the rule, the earliest stop concept, and not by the hours.
+- **The second aid.** It was added after the first aid's pool was read and before any stop hour was read. The diary logs it as a dated addition to the test's rules.
+- **The pool's size.** The G4a re-rulings (QD3-003, QD3-004) rewrote many P05 reasons. The two aids matched 31 and 16 rooms, against the 67 that D3a-04's phrase search found, so the pool is smaller than the pattern.
+
+### Close-check, D3a-50
+
+`validate.py D3` reports 38,411 of 42,243 ledger lines ruled, as at D3a-49. It reports 0 errors and the same 2 old warnings on the move name 'stabilizing'.
+- **The ledger** holds 39,190 lines. This leg appended none.
+- **The other ledgers.** History holds 152 lines, elements 30 (27 standing, 3 candidates), arrows 21, findings 37 and tier history 561. Both hashes are unchanged (elements df9d809b…, arrows ff0b3963…).
+- **Questions.** None is open.
