@@ -1475,6 +1475,18 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   4. **Outside the model's scope.** These lines are particulars: the subs' ordinary business beside the canvas (T3-017), the subs' own April Fools pranks, styling and games (T4-001's themes), upvote pushes for joke posts, remarks on other rooms' pictures, and the event received as news (5 to 7, 9, 10, 14).
   5. **Not shown, and one room.** Bare titles, bare links and posts whose bodies are gone show no act, so they are rejected (2, 3, 6, 9, 11, 13, 14). A need shown in one room only is that room's particular. Examples are a pixel offered as payment and a translation offered to helpers (1, 2, 7 to 14).
   6. **No minting (14).** The unplaced themes that name an act point at targets that third-order themes already hold. Questions about what a call means point at T3-016's target, and the subs' April Fools play at the targets of T4-001's themes. The late arrivals are only two rooms' themes. So no theme is minted, no member is reassigned, and no line is re-lifted.
+- **G60 (logged at D3a-56, before any split room was read): the verdict rulings (section 4; rule 13; FLEET section 3).**
+  - **What is ruled.** The 163 rooms whose two readers differ. No `cannot-tell` line is unsupported by the room's numbers (notes-D2), so none is ruled on that ground. Where the readers agree, their verdict stands as the room's.
+  - **The model under test.** The one the readers were served: pass 15, with its standing elements and arrows, its candidates and its tentative entries. The 15 candidates entered at D3a-55 are not part of it; the re-check serves the revised model.
+  - **The test.** The criterion's own words. `composes`: the restatement stands, and no unused concept or theme a reader names carries organizing the served model lacks or contradicts. `composes-with-residue`: the restatement stands, and at least one named item carries organizing the served model lacks; the ruling's residue lists only the items that pass. `does-not-compose`: a named item contradicts a standing element or arrow the room bears on, or the restatement fails. `cannot-tell`: the evidence cannot decide. `prior.md` section 8's prompts are weighed, never applied as rules.
+  - **Organizing the served model lacks.** An act of the room's canvas organizing, shown in the item's concepts, that no element's statement or range and no arrow states. My D3 rulings on the room's own lines guide the reading. The sub's ordinary business, its April Fools play, the event as news and jokes with no tie to the work are not organizing. Where a named item and a D3 ruling point apart, the item's concept words decide.
+  - **The ruling line.** sub, `ruled_by: analyst`, verdict, the themes and concepts it rests on, residue, `cannot_tell_under`, sentence, reason, `changed_from` (both readers' verdicts), the served model's hash, stage, leg and t. The readers' line stays.
+  - **G60a (amendment, 21 October 2026, D3a-56, written after reading the first page and before any verdict row; it applies to every ruling, and there are no earlier rulings for it to reach backwards).** G60 first named a paired elaboration accepted at D3 as an act the served model lacked. That is too wide. An elaboration adds a step or condition inside an element's act, such as a location cue or a reason given in a call. The act stays the element's, so the room's organizing still restates. An item carries organizing the served model lacks only where its act is one that no element, arrow, candidate or tentative entry of the served model states. In D3's rulings, that is an act accepted as a proposal (now one of P23 to P34 or K05 to K07), or a particular that shows canvas organizing in one room.
+- **G60's readings (D3a-56).** They apply G60 and G60a, and they change no rule. Each was logged in the diary, with its rooms and items, before the rows it governs were written: one reading for each of the seven pages of split rooms. They fall under four heads.
+  1. **Below the floor, and off the platform (1).** Below the concept floor, the concepts decide the claim when each can be read as an act, so the room's coded organizing can be told whole; a single call decides that the coded organizing is a call. Where a reader says `cannot-tell` because coordination moved to a chat the record does not hold, the record still decides that the organizing ran through a chat, which the served model lacks. Where the thread shows the rest in the model's terms, the restatement stands with the chat as residue.
+  2. **What passes (1 to 7).** These items pass: the chat, asking and explaining what the canvas, a call or a picture means, people the work brings in, new jokes made of the work, the work turned toward the people it shows, the members' time, the site's limits, a room formed for the canvas, offence refused, a member stepping away over drama, a spot weighed before any loss, and reaching into a rival's venue.
+  3. **What does not pass (1 to 7).** Items the served model holds do not pass. These include tracing placers (P06), hosts and guests (P19), deals (P08), help (P16), chats shared between rooms (P17), colour faiths, lore and politics (K04), old rivalries (K03), the canvas's worth (P20), a planned change repaired away (P05's clause), votes and offices (C01), and credit (P11). Items that are not canvas organizing do not pass either: April Fools play, the sub's ordinary business, and search-result pushes.
+  4. **Items I did not count (2, 4 to 7).** Puns with no tie to the work, a mock war after the close, and lore used as is in canvas talk. Where a joke uses lore to make fun of the canvas work itself, it counts as a new joke.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -5420,4 +5432,44 @@ P19 is a candidate process from pass 3 (C2a-03). F-012 found that hosting follow
 - **The ledger** holds 43,028 lines: 1,362 first rulings from this leg and no re-rulings. Appended re-rulings still number 785.
 - **Pairs.** The propose files hold 729 pairs, one for each accepted line. Each names a propose line of another room in the same candidate.
 - **The other ledgers.** Fifteen moves were made (182 to 196), each logged and snapped. History holds 170 lines, and elements 45: 30 standing and 15 candidates. Arrows hold 21 lines, findings 37 and tier history 561. The elements hash is now 95570c1f…, and the arrows hash (ff0b3963…) is unchanged.
+- **Questions.** None is open.
+
+## D3a-56: the verdicts and the uncomposed rooms
+
+The readers split in 163 rooms (notes-D2). G60 was written before any split room was read. Its amendment G60a was written after the first page was read and before any verdict row, and it applies to every ruling. Its seven readings, each logged in the diary, are set out under it by head (above). Every split room is ruled. Each ruling is a line in `verdicts-D.jsonl` with `ruled_by: analyst` and `changed_from`, and the readers' line stays. Counts are from `_analysis/d3_verdict_census.py`. Every room was read through `d3_verdict_packet.py`: both readers' lines whole, each named item with its label, the room's figures against `prior.md` section 8, and its D3 rulings on propose, add and link lines. Doubtful items were read through `cite.py`. `d3_verdict_rulings.py` checked every row against the reader-line rules before it was appended.
+
+| readers' pair | rooms | ruled composes | ruled composes-with-residue |
+|---|---|---|---|
+| cannot-tell against composes | 10 | 7 | 3 |
+| cannot-tell against composes-with-residue | 11 | 0 | 11 |
+| composes against composes-with-residue | 142 | 54 | 88 |
+| all | 163 | 61 | 102 |
+
+**What the rulings show (the census).** Its rules were logged before it ran.
+- **The residue is the acts the return found.** Each of the 102 with-residue rulings names at least one act that D3a-55 entered as a candidate, and that the served model lacked. The chat (P23) appears in 47 rulings and asking and explaining (P24) in 35. New jokes made of the work (P26) appear in 19, people the work brings in (P25) in 8, and the work turned toward the people it shows (P30) in 5. The spot chosen before a loss (P27), reaching into a rival's venue (P33), the members' time (K05) and the site (K06) appear in 2 each. A room formed for the canvas (P28), offence refused (P29) and a member stepping away (P32) appear in 1 each. P31, P34 and K07 appear in none.
+- **The 61 rulings of `composes`.** In each, every named item is held by the served model or is not canvas organizing. Among the held items are tracing placers (P06), hosts and guests (P19), deals (P08), lore and colour faiths (K04) and old rivalries (K03). Among the items outside canvas organizing are the subs' April Fools play and ordinary business. These are not counted.
+- **The 21 splits with a `cannot-tell` reader.** None is ruled `cannot-tell`. Seven rooms below the floor compose, since each concept can be read and restates: austriahungary, bannedfromanime_irl, littlebusters, NovaScotia, oltp, tenma and TheID. Three below the floor compose with residue, because a named concept shows a chat or a question about the canvas: Bravenewbies, polyamory and Redox. In these three the ruling matches neither reader. The other 11 compose with residue. Eight of them are rooms of 222 to 754 concepts past the off-platform threshold, where the thread decides the rest and the chat is residue.
+- **No ruling is `does-not-compose`.** In every split room the restatement stood, and no named item contradicted a standing element or arrow.
+
+**The uncomposed room.** One room is `does-not-compose`, by both readers: picturegame. I read it whole and wrote it up in `uncomposed-D.md`. Its kind is `out-of-scope`: the room played its own game on the joke day, and its one canvas act takes a figure on the canvas as an emoji (P13). The condition that separates it from the rooms that compose is that its record holds no act of its own on canvas work. One room is too few to form a kind. What it did instead, the sub's own business on the canvas days, recurs beside canvas work in other rooms' propose lines.
+
+**What the verdicts are.** They diagnose the fixed model before local adaptation (FLEET section 3). They do not grade a room's adapted account. They stand beside the readers' lines and the labeler's grade, and the re-check reads the revised model.
+
+**Repairs (G7).** No ruling here turns on whether the room repaired, so the comparison is not made.
+
+**Carried to later groups.**
+- **The re-check (section 5).** The verdict fleet runs again for rooms whose verdicts rested on a rewritten element. The 102 with-residue rulings name the candidates as the acts the served model lacked, so those rooms go to the re-check scope at D3b with the rooms whose accepted lines entered the candidates.
+- **The counts, last.** The four verdicts over the analysed set, `does-not-compose` by kind, `cannot-tell` by threshold, the story-miss rooms and the two composition rates are read at the close, after every ruling, re-check rulings included, is written.
+
+**Disclosed limits and slips.**
+- **G60 at first too wide.** As first written, G60 let a paired elaboration count as an act the served model lacked. G60a narrowed it before any verdict row was written.
+- **The first page.** The first helper page listed every page room's lines under each room. It stays unused beside the pages built again, and no row was written from it.
+- **A typed count.** I first typed the rulings' totals in `uncomposed-D.md` from memory. The tally script gave 61 and 102, and the file was corrected.
+- **Free among four verdicts.** Rule 13 makes the readers not judges, so a ruling may match neither reader. Three do. A ruling's residue lists only items a reader named.
+
+### Close-check, D3a-56
+
+`validate.py D3` reports 42,243 of 42,243 ledger lines ruled. It reports 0 errors and the same 2 old warnings on the move name 'stabilizing'. No split room is left without a ruling.
+- **The verdicts** hold 868 lines: the 705 readers' lines and 163 rulings.
+- **The other ledgers.** No move was made. Adjudications hold 43,028 lines, history 170, elements 45 (30 standing, 15 candidates), arrows 21, findings 37 and tier history 561. The elements hash (95570c1f…) and the arrows hash (ff0b3963…) are unchanged.
 - **Questions.** None is open.

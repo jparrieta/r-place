@@ -1,0 +1,391 @@
+#### 140. starcraft  (composes against composes-with-residue)
+figures: concepts 216, themes 12, off-platform pointers 18, threads coded 27
+  r1: composes
+     sentence: The room's canvas organizing restates in the model's terms—calls and building, design and coordinates, upkeep, neighbour deals and alliances, overlap restraint, and close marking—and none of the unused concepts shows organizing the model lacks or contradicts.
+  r2: composes-with-residue
+     sentence: The room's canvas organizing restates in the model's terms, but themes t01, t02, and t04 and concepts c0003, c0006, c0015, and c0018 carry in-game April Fools mutation and social-community talk the model lacks.
+     residue:
+       - t01 [theme] playing and working out Blizzard's joke mutation (placed T3-048)
+       - t02 [theme] asking Blizzard to keep the joke mutation (placed T3-100)
+       - t04 [theme] welcoming a facts maker back without pressing him (placed T3-017)
+       - c0003 announcing that everybody asked for commander battles to the death (h3.66)
+       - c0006 laying out Karax's probe rush and cannon rush (h4.29)
+       - c0015 claiming an earlier co-op 1v1 suggestion and asking Blizzard to keep it (h15.67)
+       - c0018 wishing the joke used normal units on co-op maps instead (h18.9)
+  D3 propose: starcraft-044 OUT
+  D3 add-step: starcraft-015 on P04 accept/elaboration; starcraft-042 on K01 accept/elaboration; starcraft-043 on K01 accept/elaboration; starcraft-060 on P03 accept/elaboration  [+1 held as specification or limit]
+  D3 link:   [+2 held as specification or limit]
+
+#### 141. strangerthings  (composes against composes-with-residue)
+figures: concepts 147, themes 12, off-platform pointers 11, threads coded 13
+  r1: composes-with-residue
+     sentence: The room's organizing restates in the model's terms—April Fools sub theme, logo design and template, neighbor diplomacy, defense, and close—but t09 and t12 with c0107, c0127, c0128, c0130, and c0143 carry off-topic movie argument and joking reframing of damage the model lacks.
+     residue:
+       - t09 [theme] turning a defense screenshot into a movie argument (placed T3-017)
+       - t12 [theme] making Stranger Things jokes from the damaged final letters (placed T3-031)
+       - c0107 defending the unrelated movie criticism (h70.21)
+       - c0127 joking that the damaged logo says the London Stranger Tings (h79.52)
+       - c0128 joking that the missing pixels were upside down (h79.65)
+       - c0130 reading the damaged lettering as StrangeB (h79.98)
+       - c0143 reframing the damaged final logo as season two promotion (h91.1)
+  r2: composes
+     sentence: The room's organizing restates in the model's terms—start, template and logo choice (R01,P04,P02), building and upkeep with repairs (P03,P05), neighbor workaround, permission, help and apology (P07,P08,P16), contest and defense talk (P18), close marking and recording (P11,P12), and April Fools host-sub play (K01)—and the unused concepts rest on those same elements without contradicting a standing element or arrow.
+     concepts named, not as residue: c0003, c0006, c0029, c0036, c0047, c0054, c0055, c0062, c0063, c0069, c0070, c0072, c0078, c0083, c0087, c0099, c0101, c0114, c0121, c0134, c0138
+  named concepts: c0003 noticing everything but the ads is upside down (h23.05); c0006 showing how to cross back through the portal by turning off the theme (h24.24); c0029 advising them to get rainbowroad permission before crossing it (h37.47); c0036 rallying upvotes for permission to cross rainbowroad peacefully (h38.03); c0047 checking ownership before another project affects the smoke (h39.81); c0054 asking the logo to move up for neighboring flags (h47.54); c0055 refusing to move because another neighbor had also been refused (h47.56); c0062 asking for help while promising to pass under and defend the logo (h49.49); c0063 promising the Spanish work will not disturb the logo (h51.28); c0069 challenging an overwrite after a neighbor accepted the shared edge (h59.74); c0070 thanking a neighbor for not disturbing the work (h59.96); c0072 approving a neighbor's revised plan (h62.65); c0078 bringing a petition from three neighboring subreddits (h47.62); c0083 separating Spain from the damage and offering repair help (h53.01); c0087 returning to defend our thing and calling its attackers mouth breathers (h59.63); c0099 asking how to help defend the logo (h56.81); c0101 confirming the defense instructions now make sense (h56.99); c0114 declining an improvement because the logo is already hard to keep pristine (h70.63); c0121 presenting the final product as our Stranger Place (h73.45); c0134 thanking the organizer, designer, and everyone who fought to keep it up (h81.95); c0138 regretting vandalizing a flag as a distraction (h82.33)
+  D3 propose: strangerthings-059 OUT
+  D3 add-step: strangerthings-007 on P04 accept/elaboration; strangerthings-012 on P03 accept/elaboration  [+1 held as specification or limit]
+  D3 add-condition:   [+3 held as specification or limit]
+  D3 link: strangerthings-058 on D07 accept/elaboration
+
+#### 142. telegram  (composes against composes-with-residue)
+figures: concepts 24, themes 7, off-platform pointers 3, threads coded 4
+  r1: composes
+     sentence: The room restates in the model's terms: calls and joins for the logo, design and building with steps and templates, repair and bot upkeep, congratulations and close, and diplomacy with ScottPilgrim, and none of the unused concepts shows organizing the model lacks or contradicts.
+     concepts named, not as residue: c0001, c0002, c0003, c0004, c0005, c0006, c0007, c0008, c0009, c0010, c0011, c0012, c0013, c0014, c0015, c0016, c0017, c0018, c0019, c0020, c0021, c0022, c0023, c0024
+  r2: composes-with-residue
+     sentence: The room restates in the model's terms through calls, building, repair and diplomacy, but unused concept c0017 carries the model-lacking organizing of a mark bringing newcomers back into the room.
+     residue:
+       - c0017 coming from the canvas to praise the icon (h47.36)
+  named concepts: c0001 joking that communicating with images and text is ‘truly magical’ (h24.58); c0002 answering the joke with ‘wat’ (h24.95); c0003 laughing at the puzzled reply (h25.55); c0004 asking for a Telegram logo and sending people to a Telegram group (h28.82); c0005 planning a small logo on the right side of the map (h31.03); c0006 marking three logo steps complete and asking what to draw next (h31.03); c0007 joining the logo effort (h31.28); c0008 joining the logo effort (h31.47); c0009 asking to make the Telegram group easier to join (h41.52); c0010 adding the group link anyway (h43.66); c0011 asking people to repair the eaten-up logo (h52.72); c0012 asking how to help repair on mobile after the finish (h73.39); c0013 saying the canvas just ended (h73.66); c0014 accepting that the canvas had ended (h73.81); c0015 congratulating the logo makers and oroep (h41.9); c0016 suggesting spelling out Telegram beside the icon (h47.14); c0017 coming from the canvas to praise the icon (h47.36); c0018 asking what happens to the icon after the event (h48.05); c0019 praising everybody's work (h48.2); c0020 coming only to congratulate the logo makers (h69.12); c0021 warning that r/ScottPilgrim's sprite may overlap the logo despite attempted updates (h49.92); c0022 thanking the visitor while protecting the borders (h50.16); c0023 reaching a compromise to keep both images alive with a bot (h51.3); c0024 celebrating that diplomacy won (h52.99)
+  D3 propose: telegram-011 C-CHAT; telegram-042 C-RETURN
+  D3 add-step:   [+2 held as specification or limit]
+  D3 add-condition:   [+2 held as specification or limit]
+
+#### 143. teslamotors  (composes against composes-with-residue)
+figures: concepts 269, themes 15, off-platform pointers 19, threads coded 30
+  r1: composes
+     sentence: The room's April Fools and logo work, calls, design, shared tools, defense, borders, help, scripts, and close restate in the model's terms (K01, P01, P02, P04, P05, P08, P14, P16, P11-P13) and its unused concepts show no organizing the model lacks or contradicts.
+     concepts named, not as residue: c0193, c0202, c0245, c0259
+  r2: composes-with-residue
+     sentence: The room restates in the model's terms—calls, design, defense, borders, help, scripts, and close—but unused concepts c0218 and c0222 carry host-ruling-on-guests and off-platform coordination the model lacks.
+     residue:
+       - c0218 checking whether the Goose may cross the sign before continuing repairs (h59.13)
+       - c0222 directing would-be helpers to the Discord channel for current information (h71.27)
+  named concepts: c0193 answering the call with 'I'm on it' (h44.28); c0202 posting the latest defense script (h45.94); c0245 saying a little-known agreement leaves them fighting themselves (h68.53); c0259 proposing deleting the logo and drawing a Model S (h73.29)
+  D3 propose: teslamotors-013 C-CHAT; teslamotors-038 C-SPOT; teslamotors-050 OUT; teslamotors-051 OUT; teslamotors-060 H-P02
+  D3 add-step: teslamotors-010 on P04 accept/elaboration  [+3 held as specification or limit]
+  D3 add-condition:   [+1 held as specification or limit]
+
+#### 144. texastech  (composes against composes-with-residue)
+figures: concepts 48, themes 8, off-platform pointers 3, threads coded 6
+  r1: composes-with-residue
+     sentence: The room's calls, design, building, scripts, keeping, border peace, and close restate in the model's terms, but unused concept c0022 carries tracing who changed its work, an organizing the model lacks.
+     residue:
+       - c0022 naming who wiped the logo off with bots (h63.21)
+  r2: composes
+     sentence: The room's organizing (calling hands in to make the Double T, settling design and templates, keeping it against wipes with scripts, border peace with NEU, and the close) restates in the model's terms, and its unused concepts (shared-area harmony with GIOJ/JBOIZ, RRS scripts, NEU border) show nothing the model lacks or contradicts.
+     concepts named, not as residue: c0023, c0025, c0026, c0035
+  named concepts: c0023 asking the Double T to stop expanding into a shared area (h63.53); c0025 asking the project to relocate near other university logos (h69.03); c0026 sharing RRS's Double T coordinates and script instructions (h69.93); c0035 asking Texas Tech to move off NEU's border (h71.99)
+  D3 add-step:   [+3 held as specification or limit]
+  D3 add-condition:   [+1 held as specification or limit]
+  D3 link: texastech-056 on P16 accept/elaboration  [+1 held as specification or limit]
+
+#### 145. thailand  (composes against composes-with-residue)
+figures: concepts 195, themes 13, off-platform pointers 4, threads coded 21
+  r1: composes
+     sentence: The room's organizing restates in the model's terms—calls and building the flag, border talk and help with neighbours, reciprocal protection, taunts and April Fools jokes, and marking the work—and none of the unused concepts in the sample shows organizing the model lacks or contradicts.
+     concepts named, not as residue: c0004, c0036, c0042, c0072, c0090, c0139, c0166, c0169, c0170
+  r2: composes-with-residue
+     sentence: The room's April Fools play, calls, flag-building, keeping, border talk, help-trading and contest restate in the model's terms, but t05 with c0057, c0096, c0110 and c0150 shows a host ruling on guests on its mark, which the model lacks.
+     residue:
+       - t05 [theme] deciding the frog's place and drawing acceptable borders (placed T3-010,T3-066,T3-012)
+       - c0057 letting the people decide whether the frog stays (h44.67)
+       - c0096 thanking the room and building a white border around the frog (h45.98)
+       - c0110 proposing a larger flag with Monster Cat's tolerance while warning that the void is coming (h47.74)
+       - c0150 saying active people are overwriting the frog after the majority turned against keeping it (h59.21)
+  named concepts: c0004 answering the fake forecast with a Songkran wet-day joke (h3.24); c0036 wishing the policy were an April fool joke (h27.63); c0042 translating the call to protect and expand the Thai flag (h29.21); c0072 asking for a template to turn the truck into an elephant (h62.6); c0090 asking neighbors to move up for a full flag (h67.99); c0139 asking Thailand to help build a Cambodian flag (h57.99); c0166 protecting UofT's work because they helped remove frogman (h60.61); c0169 explaining the truck as a half-year UofT meme (h60.76); c0170 suggesting a Thai dish to honor the collaboration (h60.82)
+  D3 propose: thailand-033 OUT
+  D3 add-step:   [+2 held as specification or limit]
+  D3 add-condition: thailand-020 on P16 accept/elaboration; thailand-022 on P07 accept/elaboration; thailand-032 on K01 accept/elaboration  [+2 held as specification or limit]
+  D3 link:   [+1 held as specification or limit]
+
+#### 146. thenetherlands  (composes against composes-with-residue)
+figures: concepts 414, themes 12, off-platform pointers 17, threads coded 293
+  r1: composes
+     sentence: The room's organizing can be restated in the model's terms—calls, building, keeping, borders, attacks, close, and host-sub play—and none of the unused concepts shows organizing the model lacks or contradicts.
+  r2: composes-with-residue
+     sentence: The room's themes restate in the model's terms, but the unused concept c0277 shows the room moving its planning to a Dutch Discord, an internal off-platform coordination route the model lacks.
+     residue:
+       - c0277 offering a Dutch Discord for making r/place plans (h26.83)
+  D3 propose: thenetherlands-042 C-CHAT; thenetherlands-044 C-COST; thenetherlands-045 C-EXPLAIN
+  D3 add-step:   [+2 held as specification or limit]
+  D3 add-condition:   [+2 held as specification or limit]
+  D3 link: thenetherlands-029 on P16 particular/particular  [+1 held as specification or limit]
+
+#### 147. thepointing  (composes against composes-with-residue)
+figures: concepts 64, themes 6, off-platform pointers 3, threads coded 18
+  r2: composes
+     sentence: The room's fighting on for the pointer, its peace-making and traded help, its rebuilding from pictures, coordinates and templates, its moves and reshaping around conflicts, its marking of the pointer as lost, found and finished, and its reading of neighbouring pictures all restate in the model's terms (R01, P01, P15, P03, P04, P05, P08, P16, P10, P11, P12), and none of the unused concepts shows organizing the model lacks or contradicts.
+  r30: composes-with-residue
+     sentence: The room's organizing restates in the model's terms, but c0053 carries a host-guest arrangement (asking placestart to incorporate the pointer into its taskbar) that the model lacks, so the residue is listed.
+     residue:
+       - c0053 asking about approaching placestart to put the pointer in the taskbar (h46.76)
+  D3 propose: thepointing-057 C-EXPLAIN
+  D3 add-step: thepointing-031 on P01 accept/elaboration  [+1 held as specification or limit]
+  D3 add-condition:   [+1 held as specification or limit]
+  D3 link:   [+2 held as specification or limit]
+
+#### 148. thesimpsons  (composes against composes-with-residue)
+figures: concepts 73, themes 11, off-platform pointers 8, threads coded 18
+  r1: composes
+     sentence: The room's organizing restates in the model's terms (K01 for April Fools, P01-P05 for Homer, P08-P18 for Smash and allies), and its unplaced-theme concepts show nothing beyond April Fools play and a patch sale, neither of which is organizing the model lacks.
+     concepts named, not as residue: c0009, c0010, c0011, c0012, c0013, c0016, c0020
+  r2: composes-with-residue
+     sentence: The room's organizing restates in the model's terms as calls, building, keeping, contest and allies, but the unused concepts tracing and blaming who changed or covered Homer carry the model-lacking organizing of P06, so the residue is listed.
+     residue:
+       - c0045 calling for Homer repairs while accusing the Smash Bros Discord (h49.36)
+       - c0047 confirming the accused group is not responsible (h49.91)
+       - c0057 asking an ally to stop aligned people covering Homer in red (h53.51)
+       - c0058 naming r/huskers by rumor and fighting back for Homer (h53.54)
+  named concepts: c0009 turning the old-man quotation into SHITPOSTPLAAAAN (h12.61); c0010 calling shitposting a paddlin' (h15.27); c0011 wishing the subreddit a Happy April's Fools' Day (h14.49); c0012 wishing the subreddit a Happy April Fools' Day (h14.55); c0013 mocking the April Fools image for oversized text (h21.66); c0016 calling April Fools Happy Pagan New Year (h20.58); c0020 using the Flying Hellfish plan to sell an embroidered patch (h37.85)
+  D3 propose: thesimpsons-053 OUT
+  D3 add-step: thesimpsons-043 on K01 accept/elaboration
+  D3 add-condition:   [+4 held as specification or limit]
+
+#### 149. thetreesnetwork  (composes against composes-with-residue)
+figures: concepts 12, themes 6, off-platform pointers 0, threads coded 4
+  r1: composes-with-residue
+     sentence: The room's calls, building, keeping, marking and recording restate in the model's terms, but t06 and its unused concepts c0008-c0011 carry intra-room tracing and blaming of who changed the sign, an organizing the model lacks (candidate P06).
+     residue:
+       - t06 [theme] calling out sign damage, then finding another ent (placed T3-170)
+       - c0008 calling out an ent for what they did to the r/place sign (h46.28)
+       - c0009 asking what the accusation means (h47.02)
+       - c0010 saying you fucked up the sign, then admitting I am just fuckin with ya (h58.68)
+       - c0011 clicking a purple dot to find another ent and calling it a plot twist (h58.68)
+  r2: composes
+     sentence: The room's call to save its logo, its proposals for what the mark should show, its upkeep of a shared rainbow against vandalism, its joking accusation over the sign and its marking and thanking of its final place restate in the model's terms (P01, P02, P05, P07, P11, P12, with the BEESNETWORK takeover under K01's April Fools licence), and none of the unused concepts shows organizing the model lacks or contradicts.
+     concepts named, not as residue: c0001, c0002, c0003, c0004, c0005, c0006, c0007, c0008, c0009, c0010, c0011, c0012
+  named concepts: c0001 calling to save our logo (h17.61); c0002 announcing our new venture (h28.05); c0003 renaming ourselves BEESNETWORK (h30.61); c0004 saying Nice to the new venture (h32.24); c0005 asking to turn it into reddit.com and give something back (h37.89); c0006 trying to write my name on the rainbow while it keeps getting vandalized (h39.0); c0007 noticing TTN immortalized on the windows task bar (h79.37); c0008 calling out an ent for what they did to the r/place sign (h46.28); c0009 asking what the accusation means (h47.02); c0010 saying you fucked up the sign, then admitting I am just fuckin with ya (h58.68); c0011 clicking a purple dot to find another ent and calling it a plot twist (h58.68); c0012 thanking everyone who fought for our original spot (h73.76)
+  D3 propose: thetreesnetwork-015 OUT; thetreesnetwork-016 H-P02
+  D3 add-step:   [+1 held as specification or limit]
+  D3 add-condition:   [+1 held as specification or limit]
+
+#### 150. tinytardis  (composes against composes-with-residue)
+figures: concepts 62, themes 11, off-platform pointers 3, threads coded 20
+  r1: composes-with-residue
+     sentence: The room's plan-posts, calls and welcomes, upkeep of the marks, treaty moves and cessions with neighbours, help to other tiny art, celebration and carrying-on restate in the model's terms (P02, P01/P15, P05, P08/P10/P07, P16, P11, P13, P20), but t07's organizing through a Discord the record does not hold and t08's Doctor Who scavenger-hunt lore naming where the scattered marks go carry organizing the model lacks.
+     residue:
+       - t07 [theme] organizing through Discord (placed T3-014,T3-152)
+       - t08 [theme] explaining why the scattered TARDISes matter (placed T3-018)
+     concepts named, not as residue: c0031, c0034, c0037, c0048, c0016, c0041
+  r2: composes
+     sentence: The room's organizing restates in the model's terms (plans and templates as P02/P04, calls and answers as P01/P15, upkeep and rebuilding as P05/P03, neighbour negotiations and help as P08/P07/P16, Discord coordination as shared-chat P17, celebration and beyond-canvas continuation as P11/P13), and the unused concepts such as c0016, c0041 and c0051 show no organizing the model lacks or contradicts.
+     concepts named, not as residue: c0016, c0041, c0051
+  named concepts: c0031 holding a vote and ceding the territory back (h52.32); c0034 moving TT1 up under a treaty with r/ethtrader (h54.88); c0037 moving the Original Tiny TARDIS up six pixels by agreement (h54.86); c0048 celebrating three tiny TARDISes making it to the end (h74.54); c0016 inviting people to the Discord chat (h36.32); c0041 explaining three TARDISes as a scavenger hunt (h72.03); c0051 insisting that blue is the iconic color (h71.47)
+  D3 propose: tinytardis-013 C-CHAT
+  D3 add-step: tinytardis-035 on P02 accept/elaboration  [+1 held as specification or limit]
+  D3 add-condition:   [+2 held as specification or limit]
+  D3 link:   [+1 held as specification or limit]
+
+#### 151. TsundereSharks  (composes against composes-with-residue)
+figures: concepts 108, themes 10, off-platform pointers 2, threads coded 11
+  r1: composes
+     sentence: The room's themes restate in the model's terms as start/calls, design, building and templates, defence and scripts, neighbour deals and help, and close marking and recording, and the sampled unused concepts show no organizing the model lacks or contradicts.
+  r2: composes-with-residue
+     sentence: The room restates in the model's terms for starting, building, keeping, diplomacy and close, but t04's publicity/attention work (c0024, c0050, c0051) and t08's tsundere persona (c0018, c0097) carry organizing the model lacks.
+     residue:
+       - t04 [theme] getting the shark noticed (placed T3-044)
+       - t08 [theme] making Shark-chan speak and peek like a tsundere (placed T3-031)
+       - c0018 agreeing to move in tsundere talk (h49.26)
+       - c0024 crossposting to r/place for visibility (h50.9)
+       - c0050 proposing a live header view so readers can fix vandalism (h56.38)
+       - c0051 turning from making the shark to getting noticed (h56.39)
+       - c0097 joking that the shark kept her head (h77.58)
+  D3 propose: TsundereSharks-029 H-P11
+  D3 add-step:   [+1 held as specification or limit]
+  D3 add-condition: TsundereSharks-003 on P01 accept/elaboration  [+4 held as specification or limit]
+  D3 link: TsundereSharks-032 on P12 accept/elaboration
+
+#### 152. twitch  (composes against composes-with-residue)
+figures: concepts 32, themes 9, off-platform pointers 2, threads coded 9
+  r1: composes
+     sentence: The room restates in the model's terms and its unused concepts show nothing the model lacks.
+     concepts named, not as residue: c0001, c0002, c0009, c0019, c0022, c0026
+  r2: composes-with-residue
+     sentence: The room's calls, sub rules, design work and neighbour appeals restate in the model's terms, but t05 and c0009-c0011 carry a guest-host relation over the Twitch-area monument that the model's P07/P08 do not cover, so the restatement stands with that residue.
+     residue:
+       - t05 [theme] asking Twitch-area builders to let a tree regrow (placed T3-139)
+       - c0009 locating a tree inside the monument to memes (h32.74)
+       - c0010 speaking for r/treeplace and valuing the small tree (h32.74)
+       - c0011 asking people not to destroy the tree and let it regrow (h32.74)
+  named concepts: c0001 asking for help building the Twitch logo at 506, 779 (h6.67); c0002 removing a body-less Twitch-logo request under rule #5 (h6.67); c0009 locating a tree inside the monument to memes (h32.74); c0019 proposing Kappa at 404,580 over the pride road and the void (h39.93); c0022 sharing the Kappa project template (h40.35); c0026 wanting Kappa closer to Glitch but not wanting to kill other artwork (h46.15)
+  D3 propose: twitch-007 C-EXPLAIN; twitch-039 OUT; twitch-040 OUT; twitch-041 OUT
+  D3 add-step: twitch-015 on P05 accept/elaboration  [+1 held as specification or limit]
+  D3 link:   [+1 held as specification or limit]
+
+#### 153. udub  (composes against composes-with-residue)
+figures: concepts 50, themes 7, off-platform pointers 7, threads coded 3
+  r1: composes-with-residue
+     sentence: The room's organizing restates in the model's terms across its build, upkeep, bot use, neighbour objections and rally, but the unused t07 concepts carry a Chanka-lore faith that names UW as a rival and rules the lord's logo, organizing the model lacks.
+     residue:
+       - t07 [theme] hailing Chanka and warning UW off the lord's logo (placed T3-031)
+       - c0039 threatening the UW logo in Lord Chanka's name (h74.22)
+       - c0040 vowing not to let UW taint the lord's logo (h79.76)
+       - c0048 hailing Chanka (h80.61)
+     concepts named, not as residue: c0045
+  r2: composes
+     sentence: The room's organizing restates in the model's terms and none of the unused concepts shows organizing the model lacks or contradicts.
+  named concepts: c0045 belittling the UW mark beside the lord (h76.72)
+  D3 propose: udub-017 H-P07
+  D3 add-step:   [+2 held as specification or limit]
+  D3 link: udub-014 on P05 accept/elaboration; udub-053 on P03 accept/elaboration
+
+#### 154. ukraine  (composes against composes-with-residue)
+figures: concepts 51, themes 7, off-platform pointers 1, threads coded 35
+  r1: composes
+     sentence: The room's themes restate the model's start, calls, building, keeping, neighbour deals, contest and close, and none of the unused concepts shows organizing the model lacks or contradicts.
+  r2: composes-with-residue
+     sentence: The room's themes restate in the model's terms (calls, design, building, scripts, defense, border talk, help, marking, recording, and keeping), but c0028 carries organizing the model lacks: using the flag's text to promote the main subreddit and bring newcomers back into the room.
+     residue:
+       - c0028 proposing R/UKRAINA text to promote the subreddit (h55.53)
+  D3 add-step:   [+3 held as specification or limit]
+  D3 link: ukraine-010 on P05 accept/elaboration
+
+#### 155. uofm  (composes against composes-with-residue)
+figures: concepts 246, themes 17, off-platform pointers 7, threads coded 57
+  r1: composes
+     sentence: The room's organizing restates in the model's terms and none of the unused concepts shows organizing the model lacks or contradicts.
+  r2: composes-with-residue
+     sentence: The room's organizing can be restated in the model's terms, but themes t11, t12, and t16 with concepts c0232 and c0236 carry internal norm-policing, lore-explanation, and joke/keepsake organizing the model lacks.
+     residue:
+       - t11 [theme] calling out threats, bullying, and crude pixels (placed T3-076)
+       - t12 [theme] explaining the canvas and Michigan references (placed T3-016)
+       - t16 [theme] turning GO BLOE into a joke and keepsake (placed T3-031)
+       - c0232 recasting BLOE as old French for BLUE (h74.27)
+       - c0236 turning Go Bloe into affection for the U of M family vibe (h85.84)
+  D3 add-step: uofm-010 on P04 particular/None  [+2 held as specification or limit]
+  D3 add-condition:   [+5 held as specification or limit]
+  D3 link: uofm-056 on P11 accept/elaboration  [+3 held as specification or limit]
+
+#### 156. UPenn  (composes against composes-with-residue)
+figures: concepts 20, themes 8, off-platform pointers 1, threads coded 1
+  r1: composes
+     sentence: The room restates in the model's terms: calls and bare joins (P01/P15/R01), relocation from a taken spot (P10/K02), a request that a neighbour spare the spot (P16/P07), state-sharing and coordinates (P03/P04), bordering against overwrite (P05/P02), enlargement (P02) and marking the close (P11/P12), and its unused concepts (the farmcarrots appeal, the Penn State danger and irony, the enlargement talk) show no organizing the model lacks or contradicts.
+     concepts named, not as residue: c0001, c0002, c0005, c0006, c0009, c0012, c0015, c0019
+  r2: composes-with-residue
+     sentence: The room restates in the model's terms (calls, building, keeping, borders, close), but its unused concepts of Penn State danger and irony carry a pre-canvas school rivalry/lore the model lacks.
+     residue:
+       - t06 [theme] weighing danger and irony under Penn State (placed T3-052,T3-136)
+       - c0012 warning that expanding Penn State is going to destroy the logo (h59.91)
+       - c0013 complaining that building under Penn State invites more confusion (h60.85)
+       - c0014 liking the irony of building under Penn State (h61.26)
+  named concepts: c0001 asking for help making an /r/Place logo at (60,830) (h52.01); c0002 moving to (212, 892) after someone takes the spot (h53.93); c0005 claiming farmcarrots already has the spot (h56.05); c0006 asking large farmcarrots to spare pixels for a university with agriculture research (h56.49); c0009 proposing a white square border so the logo is less likely to be overwritten (h59.48); c0012 warning that expanding Penn State is going to destroy the logo (h59.91); c0015 proposing making the logo bigger by exploiting green and pink pieces below it (h61.56); c0019 celebrating making the final canvas when Place ends (h73.26)
+  D3 add-step:   [+1 held as specification or limit]
+  D3 link:   [+1 held as specification or limit]
+
+#### 157. uwaterloo  (composes against composes-with-residue)
+figures: concepts 140, themes 14, off-platform pointers 6, threads coded 92
+  r1: composes-with-residue
+     sentence: The room's start, calls, building, upkeep, borders, contests, and close restate in the model's terms, but theme t09 and concept c0100 carry planning through Discord, an off-platform route the model lacks.
+     residue:
+       - t09 [theme] moving plans through Discord, scripts, and bots (placed T3-014,T3-028,T3-152)
+       - c0100 directing updates and future plans to Discord (h58.73)
+  r32: composes
+     sentence: The room's starting, keeping, border/help, contest, script/bot, April-Fools, and close themes restate in the model's terms, and its unused concepts map to elements like P08/P16/P14/P09/P12, showing no organizing the model lacks or contradicts.
+     concepts named, not as residue: c0056, c0065, c0080, c0094, c0099, c0105, c0108, c0134
+  named concepts: c0056 offering a truce, a new spot, and help completing Thank Mr Goose (h37.75); c0065 proposing a userscript to maintain the art (h50.07); c0080 calling for a meme war with the Forsen guys (h50.74); c0094 offering mutual defence (h58.07); c0099 dropping a plan after border negotiations (h58.73); c0105 proposing an easy way to attack UofT (h58.35); c0108 posting F for the fallen goose after placement ended (h73.98); c0134 presenting Waterloo's contribution in its final form (h73.89)
+  D3 propose: uwaterloo-014 C-CHAT; uwaterloo-046 OUT; uwaterloo-055 H-P12
+  D3 add-step: uwaterloo-042 on K01 accept/elaboration; uwaterloo-053 on P22 accept/elaboration  [+1 held as specification or limit]
+  D3 link:   [+1 held as specification or limit]
+
+#### 158. vim  (composes against composes-with-residue)
+figures: concepts 15, themes 4, off-platform pointers 1, threads coded 4
+  r1: composes
+     sentence: The room's calling members to build and keep the Vim logo, its celebration and credit, and its working out what the r/place post shows restate the model's call for hands (P01), building (P03), upkeep (P05), marking (P11) and recording (P12), while its unused concepts — recruiting for the Vim logo and r/archlinux's upkeep, crediting r/ArchLinux friends and maintaining three logos, sharing a placebot repo, and the Vim April Fools joke — show neighbourly help (P16), machine hands (P14) or talk beside the work, nothing the model lacks or contradicts.
+     concepts named, not as residue: c0001, c0004, c0007, c0014
+  r2: composes-with-residue
+     sentence: The room's calls to make and keep the Vim logo, its building and maintaining, and its celebration and crediting restate in the model's P01, P03, P05 and P11 terms, but c0013 shows members tracing a coordinated move (P06) and t04/c0011-c0012 show the mark bringing newcomers and explaining r/place, organizing the model lacks.
+     residue:
+       - t04 [theme] working out what the r/place post shows (placed T3-016)
+       - c0011 asking what the celebration shows (h63.86)
+       - c0012 explaining r/place and directing someone to the Vim logo (h64.05)
+       - c0013 correcting 'vandalized' as a coordinated three-pixel move (h64.4)
+  named concepts: c0001 launching a buzzword-filled Vim April Fools joke (h16.38); c0004 recruiting help to create a Vim logo and maintain r/archlinux's logo (h56.65); c0007 crediting r/ArchLinux friends and turning to maintaining three logos (h61.92); c0014 sharing a reddit-placebot repository (h71.66)
+  D3 add-step:   [+3 held as specification or limit]
+  D3 link:   [+1 held as specification or limit]
+
+#### 159. weezer  (composes against composes-with-residue)
+figures: concepts 180, themes 16, off-platform pointers 2, threads coded 36
+  r1: composes
+     sentence: The room's calls, design coordination, defense, border deals, neighbor help, celebrations and close restate in the model's terms, and the unused joke and music-recommendation themes and concepts are beside the work and show no organizing the model lacks.
+  r2: composes-with-residue
+     sentence: The room's organizing restates in the model's terms (a starter and calls t01, design and coordinate talk t02, coordinating scattered hands t03, defence t05, border deals t06, neighbour help t07, celebration t08, the close t10), but the unused concepts of t13 and t16 carry organizing the model lacks: in-sub Rivers-death lore and the room drawing a r/smashbros neighbour in through its mark and spreading the band to them, which the model covers neither as lore nor at its 'newcomers find the room through the mark' stop, so the residue stands listed while the canvas organizing composes.
+     residue:
+       - t13 [theme] carrying a Rivers-death joke through protest and reassurance (placed nowhere)
+       - t16 [theme] recommending Weezer to a cool r/smashbros neighbor (placed nowhere)
+     concepts named, not as residue: c0140, c0147, c0148, c0149, c0151, c0152, c0165, c0166, c0167, c0168, c0169, c0170, c0171, c0172, c0173, c0174, c0175, c0176, c0177, c0178, c0179, c0180
+  named concepts: c0140 pretending Rivers is dead (h75.65); c0147 questioning the Rivers death joke (h76.68); c0148 claiming Rivers died choking on a cannoli (h76.74); c0149 rejecting the death joke and saying they will cry when Rivers passes (h76.94); c0151 reassuring a friend the death joke was painful to write (h77.74); c0152 asking not to have their emotions played with (h78.09); c0165 thanking cool neighbors from r/smashbros and asking for representative songs (h85.42); c0166 recommending the Blue Album to the neighbor (h85.93); c0167 offering the neighbor a safe playlist (h86.31); c0168 offering the neighbor an adventurous playlist (h86.31); c0169 steering the neighbor from liked songs to their albums (h86.31); c0170 recommending El Scorcho (h87.12); c0171 offering newer songs (h88.33); c0172 listing three songs for the neighbor (h88.4); c0173 warning the neighbor not to be discouraged by Weezer's unpredictability (h88.94); c0174 recommending Blue and Pinkerton while playing Smash (h91.66); c0175 calling Blue god tier and sharing a Smash main (h93.16); c0176 guiding the neighbor from songs to contrasting Blue and Pinkerton (h93.92); c0177 returning praise for the neighbor's Smash art (h93.92); c0178 adding their favorite song to the safe playlist (h95.13); c0179 offering two songs (h95.74); c0180 steering the neighbor beyond songs heard on modern rock stations (h96.73)
+  D3 propose: weezer-042 OUT
+  D3 add-step:   [+4 held as specification or limit]
+  D3 add-condition:   [+2 held as specification or limit]
+  D3 link: weezer-034 on P13 accept/elaboration  [+1 held as specification or limit]
+
+#### 160. wholesomememes  (composes against composes-with-residue)
+figures: concepts 246, themes 25, off-platform pointers 7, threads coded 58
+  r1: composes
+     sentence: The room's organizing restates in the model's terms - host-sub line-drawing and removals (P20), calls for wholesome marks (P01-P03), keeping/moving LOVE (P05/P10), truces and coalitions (P08/P17/P18), and post-close recording (P12) - and the unused concepts are April Fools play, dog/family jokes, timer explanations, defense/truce reports, and after-close records, none showing organizing the model lacks or contradicts.
+     concepts named, not as residue: c0053, c0054, c0055, c0058, c0059, c0061, c0063, c0064, c0066, c0067, c0068, c0069, c0070, c0003, c0004, c0010, c0016, c0017, c0018, c0030, c0037, c0046, c0060, c0072, c0075, c0077, c0079, c0080, c0083, c0086, c0090, c0102, c0107, c0111, c0114, c0122, c0142, c0155, c0169, c0172, c0175, c0181, c0203, c0205, c0217, c0221, c0222, c0223, c0255, c0257, c0259, c0268, c0270
+  r2: composes-with-residue
+     sentence: The room's canvas organising restates in the model's terms — its call for LOVE defenders and alt accounts, its truce with a neighbouring clan, its removals of canvas posts under ordinary rules, and its post-close recording — but the unplaced dog-drawing and family-April-Fools themes (t11, t14; c0053–c0070) carry a sub's jest-and-lore life that no element covers.
+     residue:
+       - t11 [theme] playing along with the April Fools dog drawing (placed nowhere)
+       - t14 [theme] telling and drawing out a family April Fools story (placed nowhere)
+       - c0053 calling the pupper art wholesome friendship and love (h20.82)
+       - c0054 wanting a short goofy dog like the drawing (h21.2)
+       - c0055 calling the drawing doge (h21.21)
+       - c0058 being okay with the dog looking like a bear (h27.29)
+       - c0059 calling them good dogs (h27.7)
+       - c0061 imagining the drawn dog as a bulldog cross (h28.89)
+       - c0063 answering doge with bork bork (h29.69)
+       - c0064 calling them great boys (h29.84)
+       - c0066 calling April Fools dad's favorite holiday (h20.65)
+       - c0067 updating that dad also went after the family and cat (h20.71)
+       - c0068 asking for more details about the cat (h21.81)
+       - c0069 answering with the cat's name Frito (h21.86)
+       - c0070 calling the cat answer amazing (h22.04)
+  named concepts: c0053 calling the pupper art wholesome friendship and love (h20.82); c0054 wanting a short goofy dog like the drawing (h21.2); c0055 calling the drawing doge (h21.21); c0058 being okay with the dog looking like a bear (h27.29); c0059 calling them good dogs (h27.7); c0061 imagining the drawn dog as a bulldog cross (h28.89); c0063 answering doge with bork bork (h29.69); c0064 calling them great boys (h29.84); c0066 calling April Fools dad's favorite holiday (h20.65); c0067 updating that dad also went after the family and cat (h20.71); c0068 asking for more details about the cat (h21.81); c0069 answering with the cat's name Frito (h21.86); c0070 calling the cat answer amazing (h22.04); c0003 calling the swearing ban thought policing and hoping it is an April Fools joke (h2.81); c0004 pointing out it is already April in Australia (h3.3); c0010 celebrating redditors creating something amidst chaos (h4.5); c0016 announcing a truce that preserves Love and limits expansion (h27.2); c0017 giving three cheers for working together (h27.3); c0018 announcing that the LOVE build has moved (h27.93); c0030 removing another PEACE-tiles post as a repost (h7.27); c0037 removing the r/place call because it was not a direct image link (h8.23); c0046 celebrating a subreddit joining the wholesome network (h16.15); c0060 recounting Ross Scott's long-awaited April Fools release (h28.34); c0072 announcing April Fools (h22.19); c0075 reversing an insult into April Fools praise (h31.3); c0077 saying me_irl and wholesome memes switched for a day (h32.92); c0079 telling the sub they love it (h34.08); c0080 telling a member the sub loves them back (h34.56); c0083 making a wholesome April Fools (h22.74); c0086 removing the r/place brothership post as a repost (h25.12); c0090 removing the Sweden-Norway r/place post as a repost (h29.56); c0102 sharing a Wholesome Place cross-post (h30.23); c0107 saying together they can achieve greatness (h30.27); c0111 calling wholesome bamboozle the best bamboozle (h37.2); c0114 removing the r/place post for being a specific personal experience (h36.32); c0122 posting an April Fools image (h34.63); c0142 recruiting anyone without a project to defend the attacked patch (h48.86); c0155 spreading the word in hopes LOVE stays intact to the end (h54.61); c0169 volunteering to keep an eye on the defended sign (h62.08); c0172 rallying reinforcements against the void with three alt accounts (h67.11); c0175 declaring LOVE remained intact (h74.59); c0181 cross-posting Make Love Not War from r/place (h58.49); c0203 removing the Greece and Turkey r/place post as a repost (h70.71); c0205 removing the wholesome r/place work as a repost (h70.71); c0217 returning the greeting with a spelling joke (h96.19); c0221 removing the love-and-friendship r/place post as a repost (h75.59); c0222 presenting three flags as wholesome (h80.05); c0223 recounting Brazil and Argentina fighting relentlessly since r/place began (h80.1); c0255 explaining that r/place allows a pixel every five minutes on review (h72.91); c0257 announcing that r/place just ended on review (h73.23); c0259 saying Reddit's April experiments bring subs together or divide them on review (h73.74); c0268 sharing a timelapse of the full 72 hours on review (h85.89); c0270 explaining how people worked together one pixel at a time on review (h83.69)
+  D3 propose: wholesomememes-009 C-EXPLAIN; wholesomememes-010 C-EXPLAIN; wholesomememes-011 C-EXPLAIN; wholesomememes-019 C-EXPLAIN; wholesomememes-047 OUT; wholesomememes-048 OUT; wholesomememes-052 H-P20; wholesomememes-058 OUT; wholesomememes-059 OUT; wholesomememes-060 OUT; wholesomememes-061 OUT; wholesomememes-062 OUT; wholesomememes-084 C-EXPLAIN
+  D3 add-step:   [+6 held as specification or limit]
+  D3 add-condition:   [+3 held as specification or limit]
+
+#### 161. yuyuyu  (composes against composes-with-residue)
+figures: concepts 29, themes 7, off-platform pointers 5, threads coded 5
+  r1: composes-with-residue
+     sentence: The room restates in the model's terms as help-trade, defense, contest talk, and close, but t04 and c0018 show a late room entering the canvas through r/SwissNeutralityZone and taking offered space to write C-Shadow, organizing the model lacks.
+     residue:
+       - t04 [theme] getting C-Shadow written by defending Swiss land (placed T3-151)
+       - t06 [theme] thanking the unusual alliance and its organizer (placed T3-072)
+       - c0018 striking a deal by fighting grieffers for space to write C-Shadow (h61.34)
+       - c0020 directing people to defend the land at the canvas coordinates (h61.34)
+       - c0024 recounting answering the Swissbros before winning against bot hordes (h73.68)
+     concepts named, not as residue: c0016, c0025
+  r2: composes
+     sentence: The room's calls, deal with Switzerland for space, defense, alliance thanks and after-canvas memory restate in the model's terms as P01/P08/P16/P05/P11/P13, and the unused concepts show no organizing the model lacks or contradicts.
+     concepts named, not as residue: c0016, c0018, c0024, c0025, c0028
+  named concepts: c0016 sending an envoy from r/swissneutralityzone (h60.91); c0025 thanking everyone in an unusual alliance worth having (h73.68); c0018 striking a deal by fighting grieffers for space to write C-Shadow (h61.34); c0024 recounting answering the Swissbros before winning against bot hordes (h73.68); c0028 planning actual Yuusha content next time while accepting today's win (h77.07)
+  D3 propose: yuyuyu-013 H-P16
+  D3 add-step: yuyuyu-017 on K01 accept/elaboration  [+1 held as specification or limit]
+  D3 link:   [+2 held as specification or limit]
+
+#### 162. zelda  (composes against composes-with-residue)
+figures: concepts 223, themes 14, off-platform pointers 7, threads coded 113
+  r1: composes-with-residue
+     sentence: The room's canvas work restates in the model's terms (a starter calling hands, a design for the Triforce and Gerudo Link, upkeep of the placed work, and border deals with Rainbow Road and Green Lattice), but the April Fools Horizon swap carries organizing the model lacks: the sub's identity and posting rules were swapped for a day, Zelda posts were removed and redirected to r/horizon under the fake rule, and newcomers arrived through the joke, which K01 names only as a condition beside the work with no element for the takeover's own moderation and boundary.
+     residue:
+       - t03 [theme] making, testing, and revealing April Fools fakes (placed T3-001)
+       - t05 [theme] working out and reacting to the Horizon swap (placed T3-095)
+       - t06 [theme] redirecting and removing Zelda posts under the Horizon-only rule (placed T3-023)
+       - t10 [theme] carrying Zelda fan appreciation through the subreddit swap (placed T3-017)
+       - c0086 joining the Zelda thread because of the April Fools joke (h30.35)
+       - c0102 realizing a Zelda post landed during the one-day switch (h25.76)
+       - c0129 recounting a post disappearing during the April joke (h30.88)
+       - c0137 asking whether local April 2 ends the posting restriction (h31.87)
+       - c0075 removing a Zelda question because the subreddit is Horizon-only (h22.48)
+  r2: composes
+     sentence: The room's themes restate in the model's terms—calls, building, upkeep, diplomacy, April Fools host-sub play, close and record—and its unused concepts show nothing the model lacks or contradicts.
+     concepts named, not as residue: c0065, c0148, c0161, c0210, c0223
+  named concepts: c0065 reporting agreements with Rainbow Road and Green Lattice (h19.38); c0148 explaining pixel turns, group marks, defence and treaties (h54.23); c0161 saying the r/place Zelda must be protected (h47.77); c0210 losing sleep protecting LTTP Link (h86.65); c0223 praising the LTTP Link (h94.74)
+  D3 propose: zelda-004 C-EXPLAIN; zelda-033 OUT; zelda-040 C-RETURN; zelda-044 OUT
+  D3 add-step: zelda-032 on K01 particular/particular; zelda-034 on K01 accept/elaboration; zelda-047 on P09 accept/elaboration  [+1 held as specification or limit]
+  D3 add-condition: zelda-048 on P09 accept/elaboration  [+1 held as specification or limit]
+
