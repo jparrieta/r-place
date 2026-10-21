@@ -21,7 +21,7 @@ if a.tags:
     t = Counter(x for r in tags for x in r[1].split(","))
     print("%s: %d rows; %s" % (a.tags, len(tags), dict(sorted(t.items()))))
     tagged = {r[0] for r in tags}
-    order = [r[0] for r in spec if r[1] in ("O-A", "O-H", "S-O-A", "S-O-H", "REJ")]
+    order = [r[0] for r in spec if r[1] in ("O-A", "O-H", "S-O-A", "S-O-H", "REJ", "SHOW", "S-SHOW")]
     print("order rows: %d; without a tag row: %s" % (len(order), [i for i in order if i not in tagged] or "none"))
     extra = [i for i in tagged if i not in {r[0] for r in spec}]
     print("tag rows for ids not in the spec: %s" % (extra or "none"))

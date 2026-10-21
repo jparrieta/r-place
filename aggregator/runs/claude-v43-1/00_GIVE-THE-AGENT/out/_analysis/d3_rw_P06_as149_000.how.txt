@@ -1,0 +1,402 @@
+P06 page offset 149: 50 add-step lines; printing 0 to 25 in the verb's order
+
+[0] DevonUK-017    add-step      t03            T3-087 > T4-019 > D03  pending    Attribution includes challenging who counts as attacker and qualifying an earlier account…  [c0007,c0010,c0012]
+   how: Attribution includes challenging who counts as attacker and qualifying an earlier account by time without resolving the original initiator.
+   transitions: 632lm2:4>4.1, 632lm2:4.1>4.1.1
+   "it's under attack from the calgary flames people, they've already taken the cornish flag. come help defend it if you can"  [DevonUK/c0007]  item dfrhh7x  thread 632lm2  h+64.42  boom456  t03 arguing over who is attacking whom
+   "That's a funny way to say that the Calgary Flames logo is under attack by the Devon flag people."  [DevonUK/c0010]  item dfrqnre  thread 632lm2  h+70.04  Cheeseblanket  t03 arguing over who is attacking whom
+   "when I wrote tat this morning they were, now they're being attacked by the cornwall flag"  [DevonUK/c0012]  item dfrqusy  thread 632lm2  h+70.11  boom456  t03 arguing over who is attacking whom
+
+  -- reply context
+  c0007 h+64.42 thread 632lm2 path 4 (boom456)  [same author as c0012]
+      parent: 0 (pyro3366) c0001 putting a Devon flag in r/place
+      submission: 0 (pyro3366) c0001 putting a Devon flag in r/place
+  c0010 h+70.04 thread 632lm2 path 4.1 (Cheeseblanket)  [replies under c0007]
+      parent: 4 (boom456) c0007 calling for help defending it from the Calgary Flames people
+  c0012 h+70.11 thread 632lm2 path 4.1.1 (boom456)  [same author as c0007 (under), replies under c0010]
+      parent: 4.1 (Cheeseblanket) c0010 recasting Devon as the people attacking the Flames logo
+
+[1] Dominican-020  add-step      t09            - > - > -              pending    A doubtful screenshot receives an admission of mistaken repair, making indirect correctio…  [c0081,c0028]
+   how: A doubtful screenshot receives an admission of mistaken repair, making indirect correction visible while leaving the inaccessible image's contents unresolved.
+   transitions: 62u8tw:5.1.2.1>5.1.2.1.1
+   "[hmmm](https://gyazo.com/817bb2501f87dcfdb2e4cb42055221f4)"  [Dominican/c0081]  item dfqn8rf  thread 62u8tw  h+52.10  Garci1337  t09 answering a pixel mistake with a doubtful screens…
+   "Mierda mala mia, trato de hacer refresh pero termino cagandola jaja"  [Dominican/c0028]  item dfqngyp  thread 62u8tw  h+52.18  XSC  t02 repairing stolen and misplaced pixels
+
+  -- reply context
+  c0081 h+52.10 thread 62u8tw path 5.1.2.1 (Garci1337)
+      parent: 5.1.2 (XSC) c0026 directing repairs first to the upper-left blue corner
+      submission: 0 (patchzero) c0001 calling to maintain our flag at pixel 360,25
+  c0028 h+52.18 thread 62u8tw path 5.1.2.1.1 (XSC)  [replies under c0081]
+      parent: 5.1.2.1 (Garci1337) c0081 linking a screenshot with a doubtful hmmm
+
+[2] Fez-024        add-step      t08            T3-087 > T4-019 > D03  pending    Attribution includes withdrawing a public accusation after a denial without independently…  [c0072,c0073]
+   how: Attribution includes withdrawing a public accusation after a denial without independently verifying the denial.
+   transitions: 63659n:1>1.1
+   "It's not us."  [Fez/c0072]  item dfrlaua  thread 63659n  h+67.49  Mig_Mikkel  t08 correcting blame for Gomez being swallowed
+   "tried to cancel. Deleting now!"  [Fez/c0073]  item dfrle7i  thread 63659n  h+67.55  rumblebe3  t08 correcting blame for Gomez being swallowed
+
+  -- reply context
+  c0072 h+67.49 thread 63659n path 1 (Mig_Mikkel)
+      parent: 0 ([deleted]) c0071 mourning being swallowed by Denmark
+      submission: 0 ([deleted]) c0071 mourning being swallowed by Denmark
+  c0073 h+67.55 thread 63659n path 1.1 (rumblebe3)  [replies under c0072]
+      parent: 1 (Mig_Mikkel) c0072 denying Denmark is responsible
+
+[3] PUBATTLEGROUNDS-018 add-step      t08            T3-010 > T4-016 > D04  pending    A creator reports contacting operators to stop a bot or exclude offending rows, but hopes…  [c0143,c0144,c0145,c0147]
+   how: A creator reports contacting operators to stop a bot or exclude offending rows, but hopes rather than confirms restoration.
+   "Hey, this is the original creator of the Slime. They asked me to move the Slime up and move the portal to a new location. I did agree on that as long as it didn't overlap any other art. What they didn't tell me, is that they would be using a bot to do this, and moved the Slime suddenly without letting anyone around us know. And they messed up the bot and made their expansion larger then expected, and took over the creation of the Slime as well."  [PUBATTLEGROUNDS/c0143]  item dfri1vy  thread 635h4x  h+64.91  Twinkiman  t08 Bargaining and clashing with canvas neighbours
+   "The top couple pixels are dragging into your logo, I have contacted them to see if they can shut it down, or at the very least remove the bot from the two rows of pixels that are causing this problem."  [PUBATTLEGROUNDS/c0144]  item dfri1vy  thread 635h4x  h+64.91  Twinkiman  t08 Bargaining and clashing with canvas neighbours
+   "I didn't expect them to use a bot when moving and just thought the subreddit itself would help move everything, but this is not the case. Hopefully it should be going back to normal shortly so you guys will have that space back."  [PUBATTLEGROUNDS/c0145]  item dfri1vy  thread 635h4x  h+64.91  Twinkiman  t08 Bargaining and clashing with canvas neighbours
+   "Hopefully I will have control of it and fix the symmetrical issues with it."  [PUBATTLEGROUNDS/c0147]  item dfri8j4  thread 635h4x  h+65.07  Twinkiman  t08 Bargaining and clashing with canvas neighbours
+
+  -- reply context
+  c0143 h+64.91 thread 635h4x path 1 (Twinkiman)  [one item with c0144, one item with c0145, same author as c0147]
+      parent: 0 (QuadroMan1) c0142 warning that r/RIT is overlapping our r/place logo
+      submission: 0 (QuadroMan1) c0142 warning that r/RIT is overlapping our r/place logo
+  c0144 h+64.91 thread 635h4x path 1 (Twinkiman)  [one item with c0143, one item with c0145, same author as c0147]
+      parent: 0 (QuadroMan1) c0142 warning that r/RIT is overlapping our r/place logo
+  c0145 h+64.91 thread 635h4x path 1 (Twinkiman)  [one item with c0143, one item with c0144, same author as c0147]
+      parent: 0 (QuadroMan1) c0142 warning that r/RIT is overlapping our r/place logo
+  c0147 h+65.07 thread 635h4x path 1.1.1 (Twinkiman)  [same author as c0143 (under), same author as c0144 (under), same author as c0145 (under)]
+      parent: 1.1 (QuadroMan1) c0146 thanking the Slime creator for clearing up the persistent overlap
+
+[4] Rainbow6-021   add-step      t10            T3-021 > T4-013 > D03  pending    An apparent repairer recognizes a different intended design and apologizes for obstructin…  [c0460,c0463,c0471]
+   how: An apparent repairer recognizes a different intended design and apologizes for obstructing it.
+   "We are trying but people that aren't caught up just think they "fix" it but wont let us change it. And we are also getting trolled by other people destroying the /r/RAINBOW6, and the Turret Icon. Join us in the official Discord to coordinate us better :)"  [Rainbow6/c0460]  item dfrb36q  thread 634cip  h+60.48  Guillermo-Soto  t03 Routing and teaching the pixel work
+   "SORRY! I was trying to "fix" it, but didn't see my messages lol. Carry on!"  [Rainbow6/c0463]  item dfrfgrh  thread 634cip  h+62.90  ZiPRR  t10 Keeping the Lord’s mark intact
+   "Oh, okay. Apologies, I was trying to save it"  [Rainbow6/c0471]  item dfrfglq  thread 634zuv  h+62.90  sirfiddlesticks  t07 Deciding what the mark should say and look like
+
+  -- reply context
+  c0460 h+60.48 thread 634cip path 3 (Guillermo-Soto)
+      parent: 0 (NobleSC3) c0458 removing Siege so curious viewers can find the subreddit
+      submission: 0 (NobleSC3) c0458 removing Siege so curious viewers can find the subreddit
+  c0463 h+62.90 thread 634cip path 5 (ZiPRR)
+      parent: 0 (NobleSC3) c0458 removing Siege so curious viewers can find the subreddit
+  c0471 h+62.90 thread 634zuv path 2 (sirfiddlesticks)
+      parent: 0 (Flarmy_hi) c0469 asking people to stop making the text Siege because Discord wants STTT
+      submission: 0 (Flarmy_hi) c0469 asking people to stop making the text Siege because Discord wants STTT
+
+[5] TeamDignitas-012 add-step      t06            T3-031 > T4-004 > D05  pending    Participants continue playful blame after a repair explanation, so literal clarification …  [c0042,c0045]
+   how: Participants continue playful blame after a repair explanation, so literal clarification need not end the teasing exchange.
+   transitions: 631ygp:2>2.1
+   "It's just an updating bug, I placed the black tile to cover it up!"  [TeamDignitas/c0042]  item dfqojob  thread 631ygp  h+52.59  TheNewerBakery  t06 turning a repair into Bakery betrayal
+   "You can't bamboozle us! We know what you did!"  [TeamDignitas/c0045]  item dfqxigo  thread 631ygp  h+55.80  DrJackl3  t06 turning a repair into Bakery betrayal
+
+  -- reply context
+  c0042 h+52.59 thread 631ygp path 2 (TheNewerBakery)
+      parent: 0 (AGU_1) c0040 accusing Bakery of monumental betrayal
+      submission: 0 (AGU_1) c0040 accusing Bakery of monumental betrayal
+  c0045 h+55.80 thread 631ygp path 2.1 (DrJackl3)  [replies under c0042]
+      parent: 2 (TheNewerBakery) c0042 explaining the apparent betrayal as an updating bug and a repair
+
+[6] TransFlagPlace-013 add-step      t13            T3-058 > T4-021 > D08  pending    Attribution continues after closure through public documentation and correction, includin…  [c0308,c0309,c0310,c0311,c0316,c0322]
+   how: Attribution continues after closure through public documentation and correction, including an acknowledged revision of one participant's expressed knowledge.
+   transitions: 638ugi:1.1>1.1.1, 638ugi:1.1.1>1.1.1.1
+   "Thank goodness in this sub we've documented /pol/'s hate-fueled attempt use the void against us. I've already seen people denying it."  [TransFlagPlace/c0308]  item dfsjid1  thread 638ugi  h+79.52  lousypencilclip  t13 recounting and defending the story after it ended
+   "The void didn't specifically want to attack you guys, you guys just were in our area like the floyd pyramid thing"  [TransFlagPlace/c0309]  item dfsq2mp  thread 638ugi  h+81.73  Lovebugeater  t13 recounting and defending the story after it ended
+   "At first the void went under us. Then it started eating us. That's all fine. What's not fine is that very soon after your beginning, /pol/ did indeed weaponize you."  [TransFlagPlace/c0310]  item dfsqkse  thread 638ugi  h+81.89  lousypencilclip  t13 recounting and defending the story after it ended
+   "Oh, I didn't know about that."  [TransFlagPlace/c0311]  item dfsqp4h  thread 638ugi  h+81.94  Lovebugeater  t13 recounting and defending the story after it ended
+   "Since the end I've tried telling the story of our battles against /pol/ on Saturday night and Sunday morning, of how they pushed us back but with the help of Kanye, Floyd, and many others we ultimately defeated them. Yet, there are people who would deny it was actually /pol/."  [TransFlagPlace/c0316]  item 63bfui  thread 63bfui  h+82.42  lousypencilclip  t13 recounting and defending the story after it ended
+   "the majority of the void here on reddit aren't transphobic or bigoted at all, and we condemn /pol/ as much as you do."  [TransFlagPlace/c0322]  item dftgnak  thread 63bfui  h+95.24  GingeAndProud  t13 recounting and defending the story after it ended
+
+  -- reply context
+  c0308 h+79.52 thread 638ugi path 1 (lousypencilclip)  [same author as c0310]
+      parent: 0 (21307) na
+      submission: 0 (21307) na
+  c0309 h+81.73 thread 638ugi path 1.1 (Lovebugeater)  [replies under c0308, same author as c0311]
+      parent: 1 (lousypencilclip) c0308 thanking the sub for documenting /pol/'s attempt to use the Void
+  c0310 h+81.89 thread 638ugi path 1.1.1 (lousypencilclip)  [same author as c0308 (under), replies under c0309]
+      parent: 1.1 (Lovebugeater) c0309 denying that the Void specifically targeted the trans flag
+  c0311 h+81.94 thread 638ugi path 1.1.1.1 (Lovebugeater)  [replies under c0308, same author as c0309 (under), replies under c0310]
+      parent: 1.1.1 (lousypencilclip) c0310 answering that /pol/ weaponized the Void
+  c0316 h+82.42 thread 63bfui path 0 (lousypencilclip)
+      parent: none
+  c0322 h+95.24 thread 63bfui path 4 (GingeAndProud)  [replies under c0316]
+      parent: 0 (lousypencilclip) c0316 documenting proof for a disputed story of battles against /pol/; c0317 recounting wading through slurs during espionage
+      submission: 0 (lousypencilclip) c0316 documenting proof for a disputed story of battles against /pol/; c0317 recounting wading through slurs during espionage
+
+[7] WisconsinBadgers-053 add-step      t03            T3-087 > T4-019 > D03  pending    Separate asserted opponent explanations from unanswered identification requests so attrib…  [c0021,c0022,c0026]
+   how: Separate asserted opponent explanations from unanswered identification requests so attribution does not imply a verified culprit.
+   "FYI the tiny country flag is maintained by Argentina and they use bots to do it. You have no chance there."  [WisconsinBadgers/c0021]  item dfpwu0l  thread 62wvkw  h+37.47  ergzay  t03 working out why the spot is being lost or attacked
+   "FYI the tiny country flag is maintained by Argentina and they use bots to do it. You have no chance there."  [WisconsinBadgers/c0022]  item dfpwu4n  thread 62wvkw  h+37.47  ergzay  t03 working out why the spot is being lost or attacked
+   "There's fuckery afoot! Have yet to determine who is responsible for this most recent attack. Please advise."  [WisconsinBadgers/c0026]  item dfr1bwa  thread 62wvkw  h+57.12  SuddenRedScare  t03 working out why the spot is being lost or attacked
+
+  -- reply context
+  c0021 h+37.47 thread 62wvkw path 2.2 (ergzay)  [same author as c0022]
+      parent: 2 (Detroit_Guy) c0015 proposing a big W that fewer people can maintain
+      submission: 0 (haloflyer) c0013 calling for help because Minnesota is taking the spot over
+  c0022 h+37.47 thread 62wvkw path 2.1.2 (ergzay)  [same author as c0021]
+      parent: 2.1 (haloflyer) c0016 agreeing to go with the big-W plan
+  c0026 h+57.12 thread 62wvkw path 5 (SuddenRedScare)
+      parent: 0 (haloflyer) c0013 calling for help because Minnesota is taking the spot over
+
+[8] ainbowroad-015 add-step      t01            T3-014 > T4-010 > D02  pending    Attribution includes correcting friendly fire when builders accused of being bots identif…  [c1480,c1547,c1545]
+   how: Attribution includes correcting friendly fire when builders accused of being bots identify themselves as approved guest artists.
+   transitions: 632loo:0>1
+   "We're being attacked by bots"  [ainbowroad/c1480]  item 632loo  thread 632loo  h+54.11  snowe2010  t03 Warning about and fighting attacks
+   "We're NOT bots, we're /r/beatles"  [ainbowroad/c1547]  item dfqssls  thread 632loo  h+54.16  YukiHase  t11 Petitioning the road for room, help, or protection
+   "Things need to be linked to in the sticky thread. I'm not going to go on the discord to find out what we're currently working on, that's a massive pain in the butt. But I will stop fighting. Good luck"  [ainbowroad/c1545]  item dfqt68y  thread 632loo  h+54.29  snowe2010  t01 Coordinating through Discord, live threads, templ…
+
+  -- reply context
+  c1480 h+54.11 thread 632loo path 0 (snowe2010)  [same author as c1545]
+      parent: none
+  c1547 h+54.16 thread 632loo path 1 (YukiHase)  [replies under c1480]
+      parent: 0 (snowe2010) c1480 calling planned art an attack by bots
+      submission: 0 (snowe2010) c1480 calling planned art an attack by bots
+  c1545 h+54.29 thread 632loo path 1.1.1.1.1.1 (snowe2010)  [same author as c1480 (under), replies under c1547]
+      parent: 1.1.1.1.1 (KerbalrocketryYT) na
+
+[9] anaheimducks-024 add-step      t12            T3-087 > T4-019 > D03  pending    Identifying an artwork, inferring placers' affiliations, and proving coordinated intent r…  [c0079,c0080,c0089,c0090]
+   how: Identifying an artwork, inferring placers' affiliations, and proving coordinated intent require separate judgments.
+   "That basketball is actually the Toronto Raptors! They pushed for the black square around their logo but left the orange alone, it ended up alright."  [anaheimducks/c0079]  item dfs33a1  thread 63863e  h+74.13  Panda_Jerk  t12 arguing over who hit the logo and whether they co…
+   "Every time I clicked a name I'd check their post history and like 9/10 it redirected me to the Clippers sub."  [anaheimducks/c0080]  item dfs36fv  thread 63863e  h+74.16  YouKnow_Pause  t12 arguing over who hit the logo and whether they co…
+   "I dont think anyone tried to mess ours up. We're not really a hated team unless it's by Kings fans or Sharks fans but it seem they didnt care about /r/place."  [anaheimducks/c0089]  item dfstelg  thread 63863e  h+82.85  Curlybrac  t12 arguing over who hit the logo and whether they co…
+   "There wasn't any kind of coordinated effort to ruin it but people would put random colors on it sometimes."  [anaheimducks/c0090]  item dfsybgo  thread 63863e  h+84.87  crash_test  t12 arguing over who hit the logo and whether they co…
+
+  -- reply context
+  c0079 h+74.13 thread 63863e path 3.1.1.2 (Panda_Jerk)
+      parent: 3.1.1 (YouKnow_Pause) c0076 showing what it looked like at the start and recounting fighting Clippers and Flames fans
+      submission: 0 (Panda_Jerk) c0069 announcing r/Place ended with the logo defended until the end
+  c0080 h+74.16 thread 63863e path 3.1.1.2.1 (YouKnow_Pause)  [replies under c0079]
+      parent: 3.1.1.2 (Panda_Jerk) c0079 correcting Clippers to the Toronto Raptors and saying their black square left the orange alone
+  c0089 h+82.85 thread 63863e path 8 (Curlybrac)
+      parent: 0 (Panda_Jerk) c0069 announcing r/Place ended with the logo defended until the end
+  c0090 h+84.87 thread 63863e path 8.1 (crash_test)  [replies under c0089]
+      parent: 8 (Curlybrac) c0089 claiming nobody really tried to mess up the logo and rival fans did not care about r/place
+
+[10] anarcho_capitalism-013 add-step      t09            T3-087 > T4-019 > D03  pending    A claimed conversion is checked by refreshing the canvas and conceding a possible glitch.  [c0081,c0082,c0083]
+   how: A claimed conversion is checked by refreshing the canvas and conceding a possible glitch.
+   transitions: 62y9ph:0>1, 62y9ph:1>1.1
+   "Am I god? I just single-handedly turned the ancom flag into an ancap flag"  [anarcho_capitalism/c0081]  item 62y9ph  thread 62y9ph  h+38.58  [deleted]  t02 turning Commie Red to Capitalist Gold
+   "Refresh page and look again my dude."  [anarcho_capitalism/c0082]  item dfpyjn0  thread 62y9ph  h+38.62  Ovaryunderpass  t09 challenging credit, security, bots, and claimed w…
+   "Aww fuck. Well, in case it was a glitch, I turned it all yellow quickly. Oh well"  [anarcho_capitalism/c0083]  item dfpymwn  thread 62y9ph  h+38.69  RPrevolution  t09 challenging credit, security, bots, and claimed w…
+
+  -- reply context
+  c0081 h+38.58 thread 62y9ph path 0 ([deleted])
+      parent: none
+  c0082 h+38.62 thread 62y9ph path 1 (Ovaryunderpass)  [replies under c0081]
+      parent: 0 ([deleted]) c0081 claiming to have single-handedly turned ancom into ancap
+      submission: 0 ([deleted]) c0081 claiming to have single-handedly turned ancom into ancap
+  c0083 h+38.69 thread 62y9ph path 1.1 (RPrevolution)  [replies under c0081, replies under c0082]
+      parent: 1 (Ovaryunderpass) c0082 telling the claimant to refresh and look again
+
+[11] argentina-021  add-step      t12            T3-121 > T4-011 > D02  pending    An explanation of a mistaken tile can reverse blame through apology and acceptance.  [c0179,c0180,c0181]
+   how: An explanation of a mistaken tile can reverse blame through apology and acceptance.
+   transitions: 62ta17:1>1.1, 62ta17:1.1>1.1.1
+   "Bueno che, no sabia que tenia el tile negro puesto y me equivoque en 1 pixel. [Tambien hago cosas buenas](http://i.imgur.com/I4g02HV.png)"  [argentina/c0179]  item dfp0v42  thread 62ta17  h+23.58  SuperQuiMan  t12 policing who belongs, who helped and who gets bla…
+   "Perdon, pense que eras otro mas tratando de arruinar el arte ajeno."  [argentina/c0180]  item dfp13t5  thread 62ta17  h+23.67  sopsap4  t12 policing who belongs, who helped and who gets bla…
+   "No hay drama, el pixel daba esa impresion"  [argentina/c0181]  item dfp1e3m  thread 62ta17  h+23.78  SuperQuiMan  t12 policing who belongs, who helped and who gets bla…
+
+  -- reply context
+  c0179 h+23.58 thread 62ta17 path 1 (SuperQuiMan)  [same author as c0181]
+      parent: 0 (sopsap4) na
+      submission: 0 (sopsap4) na
+  c0180 h+23.67 thread 62ta17 path 1.1 (sopsap4)  [replies under c0179]
+      parent: 1 (SuperQuiMan) c0179 admitting a wrong tile and showing good work
+  c0181 h+23.78 thread 62ta17 path 1.1.1 (SuperQuiMan)  [same author as c0179 (under), replies under c0180]
+      parent: 1.1 (sopsap4) c0180 apologizing for mistaking a bad pixel for sabotage
+
+[12] asexual-052    add-step      t05            T3-087 > T4-019 > D03  pending    Before assigning responsibility, distinguish the accused room's flag from a similarly col…  [c0013,c0014,c0016]
+   how: Before assigning responsibility, distinguish the accused room's flag from a similarly coloured neighbour's flag and redirect the complaint when ownership is mistaken.
+   transitions: 62zsul:0>1, 62zsul:1.1>1.1.1
+   "Please do not destroy the roosterteeth logo, that's the thing that looks like a mouth that the asexual pride flag is currently eating away at. Thanks guys"  [asexual/c0013]  item 62zsul  thread 62zsul  h+46.12  methatoneguy  t05 sorting out blame for the wrong flag
+   "Hey! That's not the asexual flag, that's the non-binary flag - similar colour scheme, I know."  [asexual/c0014]  item dfq8pd8  thread 62zsul  h+46.64  nemaline  t05 sorting out blame for the wrong flag
+   "Yes, but it's not our sub's flag and I haven't seen any mention of people here creating it, so it probably won't be effective asking here."  [asexual/c0016]  item dfqer9p  thread 62zsul  h+49.05  ohheytherekitty  t05 sorting out blame for the wrong flag
+
+  -- reply context
+  c0013 h+46.12 thread 62zsul path 0 (methatoneguy)
+      parent: none
+  c0014 h+46.64 thread 62zsul path 1 (nemaline)  [replies under c0013]
+      parent: 0 (methatoneguy) c0013 asking people not to destroy the roosterteeth logo
+      submission: 0 (methatoneguy) c0013 asking people not to destroy the roosterteeth logo
+  c0016 h+49.05 thread 62zsul path 1.1.1 (ohheytherekitty)  [replies under c0013, replies under c0014]
+      parent: 1.1 (methatoneguy) c0015 saying the flag still destroyed the art
+
+[13] asktransgender-014 add-step      t06            T3-087 > T4-019 > D03  pending    A threatened mark is reclassified as friendly when its maker reports helping defend the s…  [c0130,c0131,c0132]
+   how: A threatened mark is reclassified as friendly when its maker reports helping defend the sign and another member backs preservation.
+   transitions: 632ur4:9>9.1, 632ur4:9.1>9.1.1
+   "Also, there's an orange arrow above Rick's vomiting head that points to asexual pride. I say we take out the arrow."  [asktransgender/c0130]  item dfrkgf6  thread 632ur4  h+66.91  greatwhitenorthgirl  t06 deciding which marks and groups are hostile
+   "Hi that's my Tiny Upvote for Tiny Rick. Please don't remove it. I've spent a lot of tile placements trying to help keep your sign from being vandalized.<3"  [asktransgender/c0131]  item dfrrwne  thread 632ur4  h+70.49  Wthermans  t06 deciding which marks and groups are hostile
+   "Yeah, I don't see any reason to get rid of tiny upvote."  [asktransgender/c0132]  item dfrsfzu  thread 632ur4  h+70.68  Tsubana  t06 deciding which marks and groups are hostile
+
+  -- reply context
+  c0130 h+66.91 thread 632ur4 path 9 (greatwhitenorthgirl)
+      parent: 0 (amadeoamante) c0115 recruiting help to defend Asexual Pride from being changed to Assxual Bride
+      submission: 0 (amadeoamante) c0115 recruiting help to defend Asexual Pride from being changed to Assxual Bride
+  c0131 h+70.49 thread 632ur4 path 9.1 (Wthermans)  [replies under c0130]
+      parent: 9 (greatwhitenorthgirl) c0130 proposing taking out the orange arrow pointing at asexual pride
+  c0132 h+70.68 thread 632ur4 path 9.1.1 (Tsubana)  [replies under c0130, replies under c0131]
+      parent: 9.1 (Wthermans) c0131 asking defenders to spare a Tiny Upvote after helping protect their sign
+
+[14] babymetal-022  add-step      t12            T3-170 > T4-019 > D03  pending    Checking a neighbor's motives can require explanation and apology even when no mistaken p…  [c0147,c0148,c0149,c0150]
+   how: Checking a neighbor's motives can require explanation and apology even when no mistaken placement is being identified.
+   transitions: 631nba:2.1>2.1.1, 631nba:2.1.1>2.1.1.1
+   "Looks like /u/Kebble is trolling /r/Pebble, and he as his friend account /u/bugman07 are using us to do the dirty work."  [babymetal/c0147]  item dfqmg04  thread 631nba  h+51.80  trexdoor  t12 working out whether neighbors mean harm
+   "It's just a sub that randomly invites people every week to fill a 100 member cap. It's just a place to chat with people. I've been a member for nearly two years and have made some great friends."  [babymetal/c0148]  item dfqo3os  thread 631nba  h+52.42  bugman07  t12 working out whether neighbors mean harm
+   "I'm not 100% convinced, but okay, I'll give you a pass. Sorry for accusing you of wrongdoing, I hope you understand."  [babymetal/c0149]  item dfqoxfe  thread 631nba  h+52.74  trexdoor  t12 working out whether neighbors mean harm
+   "I get that; you don't know. Still, it's nice to see strangers help."  [babymetal/c0150]  item dfqpllm  thread 631nba  h+53.01  bugman07  t12 working out whether neighbors mean harm
+
+  -- reply context
+  c0147 h+51.80 thread 631nba path 3.1 (trexdoor)  [same author as c0149]
+      parent: 3 (Jay-metal) na
+      submission: 0 (bugman07) c0144 thanking the community for sheltering the Kebble sign
+  c0148 h+52.42 thread 631nba path 2.1 (bugman07)  [same author as c0150]
+      parent: 2 (trexdoor) na
+  c0149 h+52.74 thread 631nba path 2.1.1 (trexdoor)  [same author as c0147, replies under c0148]
+      parent: 2.1 (bugman07) c0148 explaining the private neighbor community
+  c0150 h+53.01 thread 631nba path 2.1.1.1 (bugman07)  [same author as c0148 (under), replies under c0149]
+      parent: 2.1.1 (trexdoor) c0149 apologizing for accusing a neighbor of wrongdoing
+
+[15] brasil-023     add-step      t07            T3-087 > T4-019 > D03  pending    Repairers challenge accusations by diagnosing stale display state and revising the appare…  [c0302,c0303,c0304,c0513,c0568]
+   how: Repairers challenge accusations by diagnosing stale display state and revising the apparent meaning of pixel ownership.
+   transitions: 6306xu:4>4.1
+   "/u/coelhudo e /u/monocorno parem com o vandalismo"  [brasil/c0302]  item dfqd83q  thread 6306xu  h+48.48  Jogaforanoliiixo  t07 policing who may change the shared work
+   "Wat. EU to consertando, fixei vários. Não fala besteira"  [brasil/c0303]  item dfqdmb2  thread 6306xu  h+48.63  coelhudo  t07 policing who may change the shared work
+   "Às vezes tá saindo errado mesmo. Dou um refresh na página e a imagem tá diferente (e os pixels também, obviamente)."  [brasil/c0304]  item dfqi363  thread 6306xu  h+50.24  furgrammer  t07 policing who may change the shared work
+   "eu vi gente sendo acusada erroneamente, incluindo eu, de ter zoado a bandeira"  [brasil/c0513]  item dfsop3s  thread 638nz4  h+81.27  AquelecaraDEpoa  t07 policing who may change the shared work
+   "Eu falei ali mais embaixo, vieram me acusar sem ao menos pensar que o software tá errado. Por isso​ parece que tem um monte de BR vandalizando, enquanto que provavelmente estavam tirando o vandalismo. E outra, o cara lá falou que vai tirar os vandalismos no final. Seria mor perda de tempo tentar vandalizar algo que não seja com bots."  [brasil/c0568]  item dfqiyx3  thread 6306xu  h+50.55  coelhudo  t07 policing who may change the shared work
+
+  -- reply context
+  c0302 h+48.48 thread 6306xu path 4 (Jogaforanoliiixo)
+      parent: 0 (Porakia) c0298 asking Brazilian saboteurs to stop trolling and help finish the flag
+      submission: 0 (Porakia) c0298 asking Brazilian saboteurs to stop trolling and help finish the flag
+  c0303 h+48.63 thread 6306xu path 4.1 (coelhudo)  [replies under c0302, same author as c0568]
+      parent: 4 (Jogaforanoliiixo) c0302 naming two users and telling them to stop vandalism
+  c0304 h+50.24 thread 6306xu path 4.2.1 (furgrammer)  [replies under c0302]
+      parent: 4.2 (Monocorno) na
+  c0513 h+81.27 thread 638nz4 path 4.1 (AquelecaraDEpoa)
+      parent: 4 (Groudas) na
+      submission: 0 (brunomocsa) c0506 thanking r/brasil for the fight with a sense of duty fulfilled
+  c0568 h+50.55 thread 6306xu path 4.2.1.1.1 (coelhudo)  [replies under c0302, same author as c0303, replies under c0304]
+      parent: 4.2.1.1 (Monocorno) na
+
+[16] cmu-017        add-step      t05            T3-016 > T4-003 > D01  pending    An attribution is corrected when its speaker identifies different lettering in the appare…  [c0036,c0038]
+   how: An attribution is corrected when its speaker identifies different lettering in the apparent takeover.
+   transitions: 63174f:5.1>5.1.1
+   "That whole section is being taken over by the "Never Trump" folks"  [cmu/c0036]  item dfriroj  thread 63174f  h+65.54  pkowian  t04 calling people to defend and repair the CMU marks
+   "turned out to say "Never Trust Ben""  [cmu/c0038]  item dfrkuju  thread 63174f  h+67.19  pkowian  t05 showing and making sense of the canvas result
+
+  -- reply context
+  c0036 h+65.54 thread 63174f path 5.1 (pkowian)  [same author as c0038]
+      parent: 5 (maxben34) c0035 adding r/CMU to the canvas
+      submission: 0 (maxben34) c0019 showing the canvas result as representing CMU
+  c0038 h+67.19 thread 63174f path 5.1.1 (pkowian)  [same author as c0036 (under)]
+      parent: 5.1 (pkowian) c0036 reporting the whole section being taken over
+
+[17] elitedangerous-018 add-step      t09            T3-005 > T4-013 > D03  pending    Participants assess a threatened attack before damage occurs, challenge its currency and …  [c0298,c0300,c0301,c0304,c0305,c0306]
+   how: Participants assess a threatened attack before damage occurs, challenge its currency and qualify subsequent intelligence instead of merely identifying who changed existing pixels.
+   transitions: 63653i:0>2, 63653i:2>2.1
+   "Void planned attack on our Territory. /r/Gorillaz is ready to ally for our continued protection"  [elitedangerous/c0298]  item 63653i  thread 63653i  h+67.45  [deleted]  t09 Sounding alarms and checking threats to the terri…
+   "Except that it was a suggestion that was ignored. No planning is done in the general only in the hidden planning channel."  [elitedangerous/c0300]  item dfrlpj2  thread 63653i  h+67.74  TheYello  t09 Sounding alarms and checking threats to the terri…
+   "really? well, good to know that, i'll report it over on gorillaz, it seems we're running on old intel. Might as well delete the post now"  [elitedangerous/c0301]  item dfrlrom  thread 63653i  h+67.78  CommissarRaziel  t09 Sounding alarms and checking threats to the terri…
+   "There is no "hit list"."  [elitedangerous/c0304]  item dfrmr0n  thread 63653i  h+68.33  TheYello  t09 Sounding alarms and checking threats to the terri…
+   "have it be said that this is just anectodal evidence, but our quote on quote "infiltrator" has said that there is in fact something similar."  [elitedangerous/c0305]  item dfs32zw  thread 63653i  h+74.13  CommissarRaziel  t09 Sounding alarms and checking threats to the terri…
+   "Literally admin on the server."  [elitedangerous/c0306]  item dfs33uk  thread 63653i  h+74.14  TheYello  t09 Sounding alarms and checking threats to the terri…
+
+  -- reply context
+  c0298 h+67.45 thread 63653i path 0 ([deleted])
+      parent: none
+  c0300 h+67.74 thread 63653i path 2 (TheYello)  [replies under c0298, same author as c0304, same author as c0306]
+      parent: 0 ([deleted]) c0298 warning of a planned Void attack and offering the Gorillaz alliance
+      submission: 0 ([deleted]) c0298 warning of a planned Void attack and offering the Gorillaz alliance
+  c0301 h+67.78 thread 63653i path 2.1 (CommissarRaziel)  [replies under c0298, replies under c0300, same author as c0305]
+      parent: 2 (TheYello) c0300 correcting the warning with hidden-channel planning knowledge
+  c0304 h+68.33 thread 63653i path 2.1.1.1.1 (TheYello)  [replies under c0298, same author as c0300 (under), replies under c0301, same author as c0306]
+      parent: 2.1.1.1 (CommissarRaziel) c0303 warning that nearby Dreddit remains on a hit list
+  c0305 h+74.13 thread 63653i path 2.1.1.1.1.1 (CommissarRaziel)  [replies under c0298, replies under c0300, same author as c0301 (under), replies under c0304]
+      parent: 2.1.1.1.1 (TheYello) c0304 denying that a hit list exists
+  c0306 h+74.14 thread 63653i path 2.1.1.1.1.1.1 (TheYello)  [replies under c0298, same author as c0300 (under), replies under c0301, same author as c0304 (under), replies under c0305]
+      parent: 2.1.1.1.1.1 (CommissarRaziel) c0305 qualifying an infiltrator's report as anecdotal evidence
+
+[18] empiredidnothingwrong-018 add-step      t15            T3-087 > T4-019 > D03  pending    Attribution requires repairing accusations against contributors through protest and a pub…  [c0182,c0183,c0184]
+   how: Attribution requires repairing accusations against contributors through protest and a public confirming response.
+   transitions: 635erp:2.1.1.1.1.1.1.1.1>2.1.1.1.1.1.1.1.1.1
+   "Remove my name from that list. I spent hours defending that symbol"  [empiredidnothingwrong/c0182]  item dfs2zjp  thread 635erp  h+74.10  Wolf97  t15 sorting saboteurs from haphazard helpers
+   "It puts a bad taste in my mouth to be called a traitor after spending so long helping."  [empiredidnothingwrong/c0183]  item dfs32f9  thread 635erp  h+74.13  Wolf97  t15 sorting saboteurs from haphazard helpers
+   "Can confirm this is the guy."  [empiredidnothingwrong/c0184]  item dfs827g  thread 635erp  h+75.77  Trumpopulos_Michael  t15 sorting saboteurs from haphazard helpers
+
+  -- reply context
+  c0182 h+74.10 thread 635erp path 2.1.1.1.2 (Wolf97)  [same author as c0183]
+      parent: 2.1.1.1 ([deleted]) na
+      submission: 0 (Berd89) c0152 telling builders to follow plans and keep them from rebels
+  c0183 h+74.13 thread 635erp path 2.1.1.1.1.1.1.1.1 (Wolf97)  [same author as c0182]
+      parent: 2.1.1.1.1.1.1.1 (Trumpopulos_Michael) c0170 checking that the saboteur list is not a witch hunt
+  c0184 h+75.77 thread 635erp path 2.1.1.1.1.1.1.1.1.1 (Trumpopulos_Michael)  [replies under c0183]
+      parent: 2.1.1.1.1.1.1.1.1 (Wolf97) c0183 resenting being called a traitor after helping
+
+[19] epublica-018   add-step      t08            T3-170 > T4-019 > D03  pending    Establish whether a painter knew the agreement before interpreting mistaken pixels as del…  [c0040,c0049]
+   how: Establish whether a painter knew the agreement before interpreting mistaken pixels as deliberate refusal.
+   "I had removed a yellow pixed into hoodr area because I was unaware of this proposal"  [epublica/c0040]  item dfqb9na  thread 63096q  h+47.73  j-crusoe  t08 fixing mistaken pixels without making an enemy
+   "Sorry! I didn't know it."  [epublica/c0049]  item dfqdv8n  thread 630gwn  h+48.72  qwertybaobab  t08 fixing mistaken pixels without making an enemy
+
+  -- reply context
+  c0040 h+47.73 thread 63096q path 1 (j-crusoe)
+      parent: 0 (metalpotato) c0039 bringing Hoodr's integration ideas back for discussion
+      submission: 0 (metalpotato) c0039 bringing Hoodr's integration ideas back for discussion
+  c0049 h+48.72 thread 630gwn path 1.2 (qwertybaobab)
+      parent: 1 (HeyGNC) na
+      submission: 0 (metalpotato) na
+
+[20] fullcommunism-059 add-step      t13            T3-016 > T4-003 > D01  pending    Forgiving a corrected pixel accusation repairs the participant relationship after attribu…  [c0110,c0111]
+   how: Forgiving a corrected pixel accusation repairs the participant relationship after attribution is corrected.
+   transitions: 62ua5f:1.1.1.1.1.1>1.1.1.1.1.1.1
+   "you say communism but you place a *yellow* pixel in the anarcha-feminist flag it is time, comrade, for *self-criticism* edit: it was misrepresenting the yellow pixel as yours when in fact it was the purple one above it. put me against the wall"  [fullcommunism/c0110]  item dfpr67u  thread 62ua5f  h+34.53  atomicthumbs  t13 correcting mistakes and showing newcomers how to …
+   "No worries comrade, we all make mistakes."  [fullcommunism/c0111]  item dfpra0i  thread 62ua5f  h+34.58  A_a_l_e_w_i_s  t13 correcting mistakes and showing newcomers how to …
+
+  -- reply context
+  c0110 h+34.53 thread 62ua5f path 1.1.1.1.1.1 (atomicthumbs)
+      parent: 1.1.1.1.1 (A_a_l_e_w_i_s) na
+      submission: 0 (echoplex920) c0109 addressing newcomers arriving from r/all
+  c0111 h+34.58 thread 62ua5f path 1.1.1.1.1.1.1 (A_a_l_e_w_i_s)  [replies under c0110]
+      parent: 1.1.1.1.1.1 (atomicthumbs) c0110 demanding self-criticism over a pixel then correcting the accusation
+
+[21] funhaus-057    add-step      t08            T3-170 > T4-019 > D03  pending    An admitted accidental vandal receives forgiveness, adding interpersonal repair to identi…  [c0085,c0086]
+   how: An admitted accidental vandal receives forgiveness, adding interpersonal repair to identifying friendly damage.
+   transitions: 62vjtw:1>1.1
+   "Uh, I may have been vandalizing on accident because I didn't realize I had to refresh."  [funhaus/c0085]  item dfpf9l1  thread 62vjtw  h+29.44  GnomeFondler  t08 owning and forgiving accidental pixel damage
+   "You are forgiven :P"  [funhaus/c0086]  item dfpfdxj  thread 62vjtw  h+29.49  JamoLockerz  t08 owning and forgiving accidental pixel damage
+
+  -- reply context
+  c0085 h+29.44 thread 62vjtw path 1 (GnomeFondler)
+      parent: 0 (JamoLockerz) c0084 reporting the growing Funhaus logo being constantly vandalized
+      submission: 0 (JamoLockerz) c0084 reporting the growing Funhaus logo being constantly vandalized
+  c0086 h+29.49 thread 62vjtw path 1.1 (JamoLockerz)  [replies under c0085]
+      parent: 1 (GnomeFondler) c0085 admitting to vandalizing by accident after not refreshing
+
+[22] giivasunner-052 add-step      t09            T3-170 > T4-019 > D03  pending    Diagnosis first checks whether an apparent contribution occurred on the real shared canva…  [c0012]
+   how: Diagnosis first checks whether an apparent contribution occurred on the real shared canvas rather than a free-draw client.
+   "edit: that was a free draw client, not the real client, ;("  [giivasunner/c0012]  item dfobl9s  thread 62o1pa  h+8.98  Blazerman2001  t09 repairing misunderstandings among builders
+
+  -- reply context
+  c0012 h+8.98 thread 62o1pa path 2 (Blazerman2001)
+      parent: 0 (bonbonsalad) c0009 asking for help spelling Tito Dick Dickman baby
+      submission: 0 (bonbonsalad) c0009 asking for help spelling Tito Dick Dickman baby
+
+[23] giivasunner-053 add-step      t09            T3-170 > T4-019 > D03  pending    Explaining a mistaken restoration is followed by an apology, an offer to help the move, a…  [c0084,c0085]
+   how: Explaining a mistaken restoration is followed by an apology, an offer to help the move, and acceptance of the apology.
+   transitions: 62xfdh:3.1>3.1.1
+   "Oh shit, sorry. I had no idea. I was trying to restore what was there already lol, I'll help you guys"  [giivasunner/c0084]  item dfpvn5n  thread 62xfdh  h+36.76  TheGag96  t09 repairing misunderstandings among builders
+   "it's ok ;)"  [giivasunner/c0085]  item dfpvuhp  thread 62xfdh  h+36.88  PeltheLA  t09 repairing misunderstandings among builders
+
+  -- reply context
+  c0084 h+36.76 thread 62xfdh path 3.1 (TheGag96)
+      parent: 3 (PeltheLA) na
+      submission: 0 (PeltheLA) c0080 moving Fred downward
+  c0085 h+36.88 thread 62xfdh path 3.1.1 (PeltheLA)  [replies under c0084]
+      parent: 3.1 (TheGag96) c0084 apologizing for restoring over the move and joining in
+
+[24] h3h3productions-018 add-step      t50            T3-017 > - > -         pending    A retrospective names an alleged attacking room, but readers' questions leave its identit…  [c0168,c0170,c0171]
+   how: A retrospective names an alleged attacking room, but readers' questions leave its identity and motives unresolved.
+   transitions: 638plu:7>7.1, 638plu:7.1>7.1.1
+   "It was a hard fight! /r/milliondollarextreme/ was trying to take the space, the beanie was already gone. https://www.reddit.com/r/milliondollarextreme/comments/635ahg/mde_never_dies/"  [h3h3productions/c0168]  item dft12c7  thread 638plu  h+86.48  nitfizz  t49 recounting a hard fight over the space
+   "What the fuck is that sub"  [h3h3productions/c0170]  item dftbbe2  thread 638plu  h+93.42  knd775  t50 asking what r/milliondollarextreme is
+   "I still can't figure it out"  [h3h3productions/c0171]  item dftdm04  thread 638plu  h+94.26  MomSaidICanUseReddit  t50 asking what r/milliondollarextreme is
+  -- reply context
+  c0168 h+86.48 thread 638plu path 7 (nitfizz)
+      parent: 0 (ImagineHydras) c0160 thanking everyone who helped immortalize the h3h3 logo on r/place
+      submission: 0 (ImagineHydras) c0160 thanking everyone who helped immortalize the h3h3 logo on r/place
+  c0170 h+93.42 thread 638plu path 7.1 (knd775)  [replies under c0168]
+      parent: 7 (nitfizz) c0168 recounting a hard fight as r/milliondollarextreme tried to take the space after the beanie was gone
+  c0171 h+94.26 thread 638plu path 7.1.1 (MomSaidICanUseReddit)  [replies under c0168, replies under c0170]
+      parent: 7.1 (knd775) c0170 asking what r/milliondollarextreme is
+

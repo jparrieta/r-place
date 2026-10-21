@@ -1,31 +1,27 @@
 #!/usr/bin/env python3
-"""D3: print the current statements of named elements and arrows from out/model/, for G4a rulings.
-Elements: statement and range. Arrows: from, to, connection, and any bound or mechanism fields. Writes nothing.
+"""D3a-48: print the statement and range of elements, or the connection, mechanism and bound of arrows, from
+out/model/elements.jsonl and out/model/arrows.jsonl, whole, for the ids given. Writes nothing.
 
-    python3 out/_analysis/d3_statements.py --ids P09 A15 A16 P22
+  python3 out/_analysis/d3_statements.py --ids P07 P05 A16
 """
-import argparse, json, os
+import argparse
+import json
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.dirname(HERE)
 ap = argparse.ArgumentParser()
 ap.add_argument("--ids", nargs="+", required=True)
 a = ap.parse_args()
-want = set(a.ids)
-seen = set()
-for name in ("elements.jsonl", "arrows.jsonl"):
-    with open(os.path.join(OUT, "model", name)) as f:
-        for line in f:
-            if not line.strip():
-                continue
-            r = json.loads(line)
-            if r.get("id") not in want:
-                continue
-            seen.add(r["id"])
-            print("== %s (%s, %s)" % (r["id"], r.get("kind"), r.get("status", "")))
-            if name == "arrows.jsonl":
-                print("   %s -> %s" % (r.get("from"), r.get("to")))
-            for k in ("statement", "range", "connection", "bound", "mechanism", "scope"):
-                if r.get(k):
-                    print("   %s: %s" % (k, r[k]))
-print("missing: %s" % sorted(want - seen))
+recs = {}
+for p in ("out/model/elements.jsonl", "out/model/arrows.jsonl"):
+    for l in open(p, encoding="utf-8"):
+        if l.strip():
+            r = json.loads(l)
+            recs[r["id"]] = r
+for i in a.ids:
+    r = recs.get(i)
+    if r is None:
+        print("== %s: not found" % i)
+        continue
+    print("== %s (%s)" % (i, r.get("status", r.get("kind", ""))))
+    for k in ("statement", "range", "from", "to", "connection", "mechanism", "bound"):
+        if r.get(k):
+            print("  %s: %s" % (k, r[k]))
