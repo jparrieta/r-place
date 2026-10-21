@@ -1,0 +1,662 @@
+propose lines: 1362 in all; packet [300, 400): 100 lines in 91 rooms
+nodes in the packet: {'T3-016': 100}
+
+#### node T3-016 (explaining what the canvas is): 129 lines in all; fourth-order T4-003; dimension D01
+
+== Honduras-004  propose  [pending]
+   source t03 (asking what is happening); lift Honduras:t03 > T3-016 > T4-003 > D01
+   statement: t03
+   how: Retain requests to explain ongoing canvas activity as a distinct step whose answering outcome is unresolved.
+   codes: c0005 asking someone to explain what is happening; c0008 asking somebody to explain the support call
+
+== MiamiHurricanes-003  propose  [pending]
+   source t05 (Explaining the huge pixel board to someone who does not get it); lift MiamiHurricanes:t05 > T3-016 > T4-003 > D01
+   statement: Explaining participation during ongoing work
+   how: Retain the ladder's T3-016 explanation practice as an explicit process because a newcomer receives the pixel-board rules and acknowledges understanding during ongoing maintenance.
+   codes: c0016 asking what is going on; c0017 explaining the huge pixel board and five-minute intervals; c0018 acknowledging the r/place explanation
+   transitions: 631p1i:9>9.1, 631p1i:9.1>9.1.1
+
+== OnePiece-065  propose  [pending]
+   source t04 (explaining the canvas and moving planning to Discord); lift OnePiece:t04 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Explaining the canvas and its placement interval makes participation intelligible to newcomers.
+   codes: c0151 asking what the recurring canvas is; c0152 telling newcomers to place one pixel every five minutes; c0164 asking what r/place is; c0165 explaining the shared canvas and five-minute interval
+
+== OnePiece-066  propose  [pending]
+   source t04 (explaining the canvas and moving planning to Discord); lift OnePiece:t04 > T3-016 > T4-003 > D01
+   statement: T3-014
+   how: Routing coordination into chat and relaying instructions back is observable even when the deliberation and authority behind resulting plans remain unseen.
+   codes: c0010 setting new-sort and inviting coordination on Discord; c0239 asking for the Discord planning link; c0240 supplying the Discord invite; c0241 correcting a mixed-up planning link; c0244 moving help to Discord after modifying the plan to keep peace
+
+== OnePiece-067  propose  [pending]
+   source t04 (explaining the canvas and moving planning to Discord); lift OnePiece:t04 > T3-016 > T4-003 > D01
+   statement: T3-044
+   how: The visible flag brings a participant into the subreddit, while non-fans also volunteer to preserve artwork they admire.
+   codes: c0079 finding the subreddit through its flag; c0163 helping preserve the nicest logo without watching the show; c0196 helping fill Luffy without knowing the character
+
+== OneTrueEmilia-007  propose  [pending]
+   source t05 (asking and explaining what r/place is); lift OneTrueEmilia:t05 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Explains a request to understand the canvas answered with its pixel rule, a process present in the ladder but missing from the standing elements.
+   codes: c0014 asking someone to explain the subreddit; c0016 explaining r/place as placing a pixel every five minutes
+   transitions: 633l9o:2>2.1
+
+== ProfessorLayton-004  propose  [pending]
+   source t07 (explaining the finished picture as r/place stuff); lift ProfessorLayton:t07 > T3-016 > T4-003 > D01
+   statement: explaining a shared picture to an uninitiated reader
+   how: A question about the picture receives a minimal identification of the event, preserving sensemaking omitted from the standing processes.
+   codes: c0023 asking what the finished picture is; c0025 identifying it as r/place stuff
+   transitions: 633e3o:3>3.1
+
+== Slovakia-058  propose  [pending]
+   source t14 (discovering r/place and r/Slovakia afterward); lift Slovakia:t14 > T3-016 > T4-003 > D01
+   statement: bringing a newcomer back into the room through the canvas event
+   how: The event makes a participant discover the home subreddit, returning a member to the room rather than merely recruiting another canvas worker.
+   codes: c0066 discovering the Slovak subreddit through the event
+
+== TheFarLeftSide-005  propose  [pending]
+   source t10 (learning and teaching how the canvas works); lift TheFarLeftSide:t10 > T3-016 > T4-003 > D01
+   statement: T4-003
+   how: Teaching controls and interpreting cooldown changes constitute practical learning alongside recruitment and building.
+   codes: c0008 teaching comrades to move the map with keyboard arrows; c0009 asking whether repeated pixels shorten the cooldown; c0166 calling comrades to use the five-minute cycle
+
+== aceattorney-058  propose  [pending]
+   source t14 (announcing the canvas getting bigger); lift aceattorney:t14 > T3-016 > T4-003 > D01
+   statement: Announcing a claimed canvas expansion
+   how: A surviving expansion title warrants only an announcement, not an explanation of the canvas or verification that expansion occurred.
+   codes: c0087 announcing the r/place canvas expansion
+
+== alberta-014  propose  [pending]
+   source t07 (explaining r/place to people who just heard of it); lift alberta:t07 > T3-016 > T4-003 > D01
+   statement: Explaining participation to latecomers
+   how: Questions about the event and requested participation receive explanations of pixel mechanics and practical directions to the shared image.
+   codes: c0023 asking what the hell is going on; c0024 saying r/place appeared overnight and asking what people are being asked to do or care about; c0025 explaining five-minute pixels and saying 'We made some flags' while admitting little is known; c0027 directing a confused reader to the shared image to add pixels; c0028 explaining r/place as Reddit's yearly April Fools digital mural; c0036 asking why r/place was only recently heard of if it says five years; c0041 explaining r/place as Reddit's April Fools toy
+   transitions: 631a24:1.1>1.1.1, 631a24:3>3.1, 633lla:4.1>4.1.1
+
+== animalcrossing-004  propose  [pending]
+   source t05 (explaining r/place and the Animal Crossing pictures); lift animalcrossing:t05 > T3-016 > T4-003 > D01
+   statement: explaining the canvas and its pictures
+   how: Questions, explanations, and a cooldown correction make the canvas and the room's pictures intelligible even after placement ends.
+   codes: c0037 asking what the completed image is; c0039 answering that it is r/place; c0150 asking what r/place is and what Animal Crossing did; c0151 explaining the canvas and naming the leaf and Villager; c0152 correcting the cooldown history
+
+== anime_irl-065  propose  [pending]
+   source t07 (explaining r/place to confused participants); lift anime_irl:t07 > T3-016 > T4-003 > D01
+   statement: t07
+   how: Explaining the canvas and its pixel timer answers explicit confusion that mobilisation alone does not resolve.
+   codes: c0018 asking what r/place is after reading its sidebar; c0022 telling a confused participant to look at the canvas; c0024 explaining pixel placement and the timer
+   transitions: 62nxxr:6.1.1>6.1.1.1, 62nxxr:6.1.1>6.1.1.2
+
+== archlinux-005  propose  [pending]
+   source t11 (explaining the random pixels as r/place); lift archlinux:t11 > T3-016 > T4-003 > D01
+   statement: explaining the canvas to late readers
+   how: A late question about random pixels receives an event identification, preserving the sensemaking exchange that the ladder recognizes but standing processes omit.
+   codes: c0112 asking what the random-pixel links are; c0113 answering that the random pixels are r/place
+   transitions: 62yrw6:12>12.1
+
+== australia-051  propose  [pending]
+   source t25 (Mistaking pixel building for beading); lift australia:t25 > T3-016 > T4-003 > D01
+   statement: Separating orientation requests from delivered explanations
+   how: A newcomer asking whether pixel work is beading establishes uncertainty but no supplied explanation or successful sensemaking.
+   codes: c0345 asking whether the pixel-building posts are about beading
+
+== australia-052  propose  [pending]
+   source t25 (Mistaking pixel building for beading); lift australia:t25 > T3-016 > T4-003 > D01
+   statement: Asking what pixel work even is
+   how: Misrecognition can expose an unmet orientation request without the record showing an instructional answer.
+   codes: c0345 asking whether the pixel-building posts are about beading
+
+== azerbaijan-008  propose  [pending]
+   source t03 (working out when another pixel renews); lift azerbaijan:t03 > T3-016 > T4-003 > D01
+   statement: working out placement rules after placement has ended
+   how: A trial user's question receives the ordinary five-minute rule after closure, requiring a learning process that the standing elements omit despite the ladder's sensemaking category.
+   codes: c0003 asking how placing works after trying it once; c0007 explaining that another pixel renews every five minutes; c0008 telling the questioner that r/place is over
+   transitions: 637wtz:1>1.1, 637wtz:1.1>1.1.1
+
+== baylor-009  propose  [pending]
+   source t04 (explaining how r/place got communities working together); lift baylor:t04 > T3-016 > T4-003 > D01
+   statement: explaining what the canvas is after the initial build
+   how: A question about the unfamiliar feature receives a rules explanation and an explicit interpretation of communities working together after the initial build.
+   codes: c0008 spending a couple hours making a barely legible 7x7 BU and expecting it to be drawn over; c0012 asking what r/place is and why it suddenly became popular; c0013 explaining the April Fools grid and five-minute cooldown; c0014 recognizing that the grid got communities working together, then marking it finished
+   transitions: 6357ei:1.1>1.1.1, 6357ei:1.1.1>1.1.1.1
+
+== berserk-003  propose  [pending]
+   source t13 (explaining r/place to someone who asks); lift berserk:t13 > T3-016 > T4-003 > D01
+   statement: t13
+   how: A participant explains the canvas as a digital graffiti wall to someone asking what it is.
+   codes: c0078 asking what r/place is; c0079 explaining r/place as a digital graffiti wall
+   transitions: 62zb6h:4>4.1
+
+== bih-056  propose  [pending]
+   source t03 (working out how pixel-making can be organized); lift bih:t03 > T3-016 > T4-003 > D01
+   statement: t03
+   how: Members explain how other groups coordinate through chats, clear targets and spare accounts without those explanations establishing adoption of those arrangements locally.
+   codes: c0008 wondering how large flags are made after three people took six hours on 15x8; c0009 explaining that a large community needs a design, coordinates and IRC-like chats; c0010 explaining fast growth through many people and easy-to-read targets; c0011 explaining scale through throwaways and Discord servers
+   transitions: 62ywcs:1.1.1.1>1.1.1.1.1, 62ywcs:1.1.1.1>1.1.1.1.2, 62ywcs:1.1.1.1>1.1.1.1.3
+
+== bih-057  propose  [pending]
+   source t07 (asking and explaining what r/place was); lift bih:t07 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: A post-close newcomer question receives an explanation of the event, preserving sensemaking after participation rather than assuming it only prepares mobilization.
+   codes: c0038 asking what r/place is; c0039 pointing to the announcement for an explanation; c0040 explaining how early groups established and maintained territory
+   transitions: 63a7cs:2>2.1
+
+== borderlands-026  propose  [pending]
+   source t07 (explaining r/place as Minecraft-on-Reddit); lift borderlands:t07 > T3-016 > T4-003 > D01
+   statement: explaining the canvas during a help-call exchange
+   how: An analogy explains the canvas inside an adverse-response exchange, a practice recognized by the ladder but unnamed among the standing processes.
+   codes: c0019 dismissing the Claptrap effort as garbage; c0021 explaining r/place as Minecraft-on-Reddit
+   transitions: 636nqq:2>2.1
+
+== buffalowizards-056  propose  [pending]
+   source t06 (trying to understand an event you had to be there for); lift buffalowizards:t06 > T3-016 > T4-003 > D01
+   statement: t06
+   how: Post-event incomprehension makes having been present a limit on understanding the shared achievement, which the standing processes do not explain.
+   codes: c0030 saying you had to be present to understand it
+
+== canucks-007  propose  [pending]
+   source t02 (finding and explaining the pixel canvas); lift canucks:t02 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Participants repeatedly explain how individual timed pixels become collective designs, including after the event.
+   codes: c0008 explaining how people together make designs on the pixel canvas; c0120 explaining the canvas as subreddits placing designs one pixel at a time; c0121 understanding r/place as gangs carving out a graffiti tag; c0152 explaining r/place as Reddit's April Fools thing
+
+== cardinals-005  propose  [pending]
+   source t08 (asking and explaining what r/place is); lift cardinals:t08 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Ordinary-thread readers request and receive an explanation of canvas participation without thereby making or accepting a building call.
+   codes: c0070 asking what the hell r/place is; c0071 explaining one-pixel turns and subreddits making cool stuff
+   transitions: 635meh:1>1.1
+
+== chibears-004  propose  [pending]
+   source t06 (explaining what people can make together on place); lift chibears:t06 > T3-016 > T4-003 > D01
+   statement: t06
+   how: Members ask what the canvas is and explain collective pixel-making without those explanatory turns themselves constituting recruitment or acceptance.
+   codes: c0178 asking what all the r/place stuff is; c0060 explaining how users and subreddits collaborate on the canvas
+   transitions: 6308cj:12>12.1
+
+== cmu-004  propose  [pending]
+   source t05 (showing and making sense of the canvas result); lift cmu:t05 > T3-016 > T4-003 > D01
+   statement: t05
+   how: A question about popularity receives an explanation of the event as a social experiment.
+   codes: c0029 asking why this is popular; c0037 explaining r/place as a social experiment rather than a joke
+   transitions: 63174f:2>2.1
+
+== completeanarchy-057  propose  [pending]
+   source t06 (working out what r/place is and why to join in); lift completeanarchy:t06 > T3-016 > T4-003 > D01
+   statement: Using canvas participation to get the room talking
+   how: A participant explains canvas collaboration as an occasion for organising and conversation beyond jokes, and the questioner accepts that reason without demonstrating a community-wide effect.
+   codes: c0181 asking why the community is doing r/place; c0182 explaining that the canvas is fun and gets the sub organized and talking; c0183 accepting organizing and fun as reason enough
+   transitions: 631g4z:11>11.1, 631g4z:11.1>11.1.1
+
+== corridor-040  propose  [pending]
+   source t10 (explaining r/place after it ended); lift corridor:t10 > T3-016 > T4-003 > D01
+   statement: explaining the canvas after placement ends
+   how: A late request receives an explanation of collective canvas-making and an acknowledgement of prior ignorance.
+   codes: c0051 asking the room to explain what they are celebrating; c0052 explaining that communities made art together on the canvas; c0054 thanking the explanation and admitting being out of the loop
+   transitions: 63856s:9>9.1, 63856s:9.1>9.1.1
+
+== czech-008  propose  [pending]
+   source t11 (explaining r/place to people arriving late); lift czech:t11 > T3-016 > T4-003 > D01
+   statement: t11
+   how: Explaining the picture game to late arrivals is an entry task distinct from asking them to place pixels.
+   codes: c0192 asking what the picture game is; c0193 answering with r/place; c0279 remaining unsure what r/place was about
+
+== de-039  propose  [pending]
+   source t11 (watching, explaining and auditing the canvas); lift de:t11 > T3-016 > T4-003 > D01
+   statement: t11
+   how: The source theme also contains preservation and correction, which cannot all be reduced to explaining what the canvas is.
+   codes: c0175 explaining r/place and how groups formed; c0668 sharing a 72-hour l/Platz timelapse; c0742 spotting a missing Ancap flag; c0756 answering teamwork criticism by blaming r/all and defending the EU compromise
+
+== donaldglover-005  propose  [pending]
+   source t03 (asking what Place is and whether anyone is on board); lift donaldglover:t03 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas to people who do not know it
+   how: Questions about what Place is and explanations of timed pixels make participation intelligible alongside recruitment.
+   codes: c0010 asking what Place is; c0096 explaining how people come together to make a piece; c0127 explaining place as subreddits expressing themselves while calling it nonsense
+
+== drumcorps-042  propose  [pending]
+   source t13 (explaining r/place to someone who missed it); lift drumcorps:t13 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Explaining the canvas after closure helps latecomers understand completed work rather than supplying hands for construction.
+   codes: c0145 admitting confusion about r/place after looking; c0146 explaining how r/place pixel placement worked; c0147 explaining neighbor negotiation as critical
+   transitions: 637b0f:11>11.1
+
+== dwarffortress-006  propose  [pending]
+   source t09 (announcing the five-minute wait); lift dwarffortress:t09 > T3-016 > T4-003 > D01
+   statement: Reporting changed placement intervals
+   how: A five-minute-wait notice informs participants about placement conditions without demonstrating an effect on recruitment or output.
+   codes: c0066 announcing that place time is down to five minutes
+
+== eagles-004  propose  [pending]
+   source t01 (working out how r/place and the five-minute timer work); lift eagles:t01 > T3-016 > T4-003 > D01
+   statement: T4-003
+   how: Explaining unfamiliar canvas rules and testing an unsuccessful timer workaround are necessary sensemaking practices missing from the standing element account.
+   codes: c0003 telling the organizer to explain what r/place is and how it works; c0004 asking for an explanation because even the sub lacks one; c0006 testing a way to place tiles without the lock; c0011 conceding that placements must stick to the five-minute timer
+   transitions: 62mj5q:4.1.1.1.2>4.1.1.1.2.1
+
+== eagles-005  propose  [pending]
+   source t18 (explaining r/place after it ended); lift eagles:t18 > T3-016 > T4-003 > D01
+   statement: T4-003
+   how: A late reader's question elicits an explanation after placement ends, extending sensemaking beyond recruitment and active building.
+   codes: c0243 asking what the event was; c0242 explaining the event as art, territory, alliances and wars
+   transitions: 638o77:8>8.1
+
+== earthbound-064  propose  [pending]
+   source t13 (explaining r/place to people who missed it); lift earthbound:t13 > T3-016 > T4-003 > D01
+   statement: explaining the finished event to people who missed it
+   how: Post-event questions receive explanations of the canvas and the room's contributions rather than instructions for joining ongoing placement.
+   codes: c0089 asking what place is after seeing it everywhere; c0090 explaining the canvas as many subs cooperating to create art; c0101 asking what the thing across all the reddit boards is; c0102 recounting that r/earthbound fought and created its characters and cultists
+
+== edmontonoilers-058  propose  [pending]
+   source t14 (explaining r/place to someone out of the loop); lift edmontonoilers:t14 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas after placement ends
+   how: Post-close teaching explains collaboration to an observer without demonstrating recruitment or an increase in live placing capacity.
+   codes: c0138 explaining r/place collaboration to someone out of the loop
+
+== europe-066  propose  [pending]
+   source t15 (explaining r/place and reading the pictures for newcomers); lift europe:t15 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Explain how members make canvas activity legible to newcomers without assuming that receiving an explanation recruits the reader into placing.
+   codes: c0536 asking where all these pictures come from; c0537 explaining that r/place is this year's April Fool's thing; c0818 asking why people make and post pixelated flags; c0819 explaining five-minute pixels and national subs working together on flags; c0820 thanking the explainer
+
+== eve-004  propose  [pending]
+   source t04 (orienting people to the canvas and its mechanics); lift eve:t04 > T3-016 > T4-003 > D01
+   statement: t04
+   how: Explaining individual pixels and waiting makes calls actionable when repeated alliance pings still leave newcomers unable to understand placement.
+   codes: c0258 asking how pictures get put on place while expecting alliance memes; c0259 telling the questioner to read the five pings; c0260 saying the pings still do not explain how a picture gets on the board; c0261 explaining that each account places a pixel and then waits
+
+== faeria-009  propose  [pending]
+   source t06 (working out how r/place works); lift faeria:t06 > T3-016 > T4-003 > D01
+   statement: T4-003
+   how: A visitor cannot understand participation and a helper revises an appeal after refresh, requiring explicit sensemaking alongside recruiting and coordinating.
+   codes: c0001 explaining that the Yak takes a group working together; c0051 giving up an appeal after refreshing a bugged place; c0058 asking how r/place works after not understanding it
+
+== france-053  propose  [pending]
+   source t04 (teaching people how the canvas works); lift france:t04 > T3-016 > T4-003 > D01
+   statement: Teaching newcomers how to participate
+   how: Explaining the canvas and its pixel rule supplies an entry step distinct from calling for hands or reporting building.
+   codes: c0031 explaining that everyone can place one coloured pixel every ten minutes
+
+== frankocean-007  propose  [pending]
+   source t08 (explaining the pixel posts and the room builds); lift frankocean:t08 > T3-016 > T4-003 > D01
+   statement: explaining canvas activity and its aftermath
+   how: Members explain pixel posts, placement mechanics and the later dispute to confused or returning readers.
+   codes: c0095 asking what all the pixel images are about; c0096 answering the pixel-image question with r/place; c0106 explaining the tile timer and recounting the sub's three builds; c0242 filling in a latecomer on the r/place beef
+
+== futanari-052  propose  [pending]
+   source t03 (asking and explaining what the place thing is); lift futanari:t03 > T3-016 > T4-003 > D01
+   statement: t03
+   how: An explicit question about the event receives an explanation of the five-minute pixel rule.
+   codes: c0006 asking someone to explain the place thing; c0007 explaining that everyone can place a pixel every five minutes
+   transitions: 62xptp:5>5.1
+
+== globaloffensive-006  propose  [pending]
+   source t05 (showing newcomers how Place works); lift globaloffensive:t05 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Orientation continues after placement closes, so explaining the event cannot be confined to gathering an initial critical mass.
+   codes: c0051 explaining Place as Reddit's collaborative pixel art thing; c1138 asking the room what r/place was; c1139 explaining the finished 72-hour pixel event to a latecomer
+   transitions: 63am0u:4>4.1
+
+== gorillaz-010  propose  [pending]
+   source t11 (explaining how r/place and the Void work); lift gorillaz:t11 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Members explain the pixel canvas, the threat and how to enter it to readers who lack practical knowledge.
+   codes: c0082 asking what r/place is; c0083 explaining that everyone can place pixels on a giant canvas; c0084 thanking the explanation and finding it interesting; c0130 asking for an explanation of the Void threat; c0135 explaining the Void as making everything black instead of building; c0151 offering encouragement without knowing how to enter place; c0152 explaining that searching place is enough to enter
+   transitions: 62zhou:0>1, 635r79:14>14.1, 636yxb:2>2.1
+
+== gratefuldead-008  propose  [pending]
+   source t02 (explaining how to organize enough pixel help); lift gratefuldead:t02 > T3-016 > T4-003 > D01
+   statement: explaining participation before helpers can place
+   how: Helpers can require an explanation of the canvas and timer before their expressed willingness becomes informed participation.
+   codes: c0006 explaining why multiple users have to cooperate; c0019 joining while asking for detailed instructions; c0020 explaining one-pixel ten-minute intervals
+   transitions: 62qb0m:1>1.1
+
+== greece-007  propose  [pending]
+   source t06 (learning and explaining how pixel placing works); lift greece:t06 > T3-016 > T4-003 > D01
+   statement: t06
+   how: Learning and explaining the pixel turn makes participation intelligible alongside choosing the shared design, while a later continuous-placement question keeps mechanical sensemaking open.
+   codes: c0028 saying I scrolled, learned, and colored; c0029 explaining the massive canvas and ten-minute pixel turn; c0120 asking whether it is stuck because it keeps allowing placements
+
+== india-052  propose  [pending]
+   source t05 (showing newcomers how the canvas and its controls work); lift india:t05 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Teaching basic pixel rules and controls enables reported participation beyond the standing elements for recruitment and templates.
+   codes: c0353 asking what r/place is and for help understanding it; c0354 explaining pixel waits and coordinated drawing, then inviting a try; c0345 trying a pixel and praising the amazing co-ordination
+   transitions: 63412z:4>4.1, 63412z:4.1>4.1.1
+
+== israel-007  propose  [pending]
+   source t08 (asking and explaining what the canvas shows); lift israel:t08 > T3-016 > T4-003 > D01
+   statement: t08
+   how: Members explain inscriptions and pixel-change maps, a sensemaking practice not covered by bare assent or placement instructions.
+   codes: c0022 asking what the writing under the menorah says; c0023 answering that the menorah says Israel; c0183 asking for an ELI5 of the flag activity; c0206 explaining a heat map of pixel changes; c0207 reading light on the map as changes and vandals; c0208 spotting our Menorah in the activity map
+   transitions: 62ra10:6>6.1, 638p4v:1.2>1.2.1
+
+== k_on-008  propose  [pending]
+   source t06 (explaining r/place to a newcomer); lift k_on:t06 > T3-016 > T4-003 > D01
+   statement: explaining the event during an established build
+   how: A newcomer receives an explanation of the event and thanks the explainer after completion has already been announced.
+   codes: c0014 announcing they did it; c0019 asking what r/place is; c0020 explaining that people work together to make or destroy things; c0021 thanking someone for explaining r/place
+   transitions: 631h4w:11>11.1, 631h4w:11.1>11.1.1
+
+== kanye-004  propose  [pending]
+   source t15 (explaining how r/place works); lift kanye:t15 > T3-016 > T4-003 > D01
+   statement: T4-003
+   how: Questions and explanations orient participants to the shared canvas and placement interval.
+   codes: c0086 asking the room to explain r/place; c0087 explaining the giant canvas and pixel wait; c0090 explaining the art through subreddits planning together
+
+== kcroyals-007  propose  [pending]
+   source t04 (explaining r/place to people catching up); lift kcroyals:t04 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Explaining canvas rules, device access and event closure lets confused readers understand what organizers and retrospective participants mean.
+   codes: c0033 asking what the organizers are on about; c0034 explaining the canvas and why teamwork is needed; c0035 explaining mobile difficulty and learning on a computer; c0036 thanking the explainer but lacking laptop access; c0091 asking whether place is over after expecting it to continue; c0092 answering that it is over with the place-ended link; c0094 asking whether it was an April Fools thing after noticing it Saturday; c0096 confirming it began around Friday afternoon
+   transitions: 633eut:3>3.1, 6384s3:5>5.1
+
+== korea-004  propose  [pending]
+   source t08 (explaining how the shared canvas works); lift korea:t08 > T3-016 > T4-003 > D01
+   statement: explaining how the shared canvas works
+   how: Explains timed pixel changes and collective construction or destruction to participants who do not understand the canvas.
+   codes: c0032 asking what r/place is; c0033 explaining pixel turns as making or destroying images together; c0126 explaining the shared blank canvas and five-minute pixel wait
+   transitions: 62t8nt:7>7.1
+
+== lakers-016  propose  [pending]
+   source t18 (teaching a newcomer how the shared pixel canvas works); lift lakers:t18 > T3-016 > T4-003 > D01
+   statement: Explaining the shared pixel canvas to newcomers
+   how: A newcomer request received an explanation of the shared canvas and pixel changing.
+   codes: c0153 asking for an ELI5 of r/place and how to help; c0154 explaining the blank canvas and shared pixel-making
+
+== leafs-015  propose  [pending]
+   source t07 (explaining r/place and recruiting more placers); lift leafs:t07 > T3-016 > T4-003 > D01
+   statement: T4-010
+   how: Planning moved into chat and returned as public instructions while the deliberation itself remained outside the record.
+   codes: c0191 asking Viking builders to carry the request into Discord; c0192 announcing ceased hostilities and Discord support for the move; c0225 starting a Discord server to make coordination easier; c0233 reporting that both Discords agreed on the border and calling violators rogue; c0252 moving plan discussion to the Discord server
+
+== lego-003  propose  [pending]
+   source t14 (explaining Place to a newcomer); lift lego:t14 > T3-016 > T4-003 > D01
+   statement: explaining the event after placement closes
+   how: A newcomer receives an explanation after placement closes, making sensemaking observable without demonstrating recruitment of another placer.
+   codes: c0195 asking what the logo posts are; c0196 directing a newcomer to search Reddit for Place; c0197 thanking the explainer and calling Place interesting
+   transitions: 636h1k:1.1>1.1.1, 636h1k:1.1.1>1.1.1.1
+
+== linux-008  propose  [pending]
+   source t17 (showing newcomers how r/place and pixel placement work); lift linux:t17 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Prospective contributors need explanations of the event before they can understand how to participate.
+   codes: c0080 asking what r/place is and why it appears in other subreddits; c0081 explaining the five-minute pixel canvas as an April Fools joke; c0082 thanking the explainer after learning what r/place is
+   transitions: 62z8vc:1>1.1, 62z8vc:1.1>1.1.1
+
+== lithuania-004  propose  [pending]
+   source t05 (explaining r/place to people arriving through the flag posts); lift lithuania:t05 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas and pixel rules to readers encountering repeated flag posts.
+   how: Readers still need explanations of the canvas and pixel rules after encountering repeated flag posts.
+   codes: c0041 asking what the repeated flag posts are about; c0043 explaining r/place's one-pixel-every-ten-minutes rules; c0101 asking what the days of flag posts are about; c0102 answering the flag-post question with r/place
+   transitions: 62vjv1:5>5.1, 63130c:6>6.1
+
+== liverpoolfc-059  propose  [pending]
+   source t06 (working out how people make things on r/place); lift liverpoolfc:t06 > T3-016 > T4-003 > D01
+   statement: t06
+   how: Explains how individual timed placements become pictures through a direct question and a reply invoking groups and luck.
+   codes: c0019 asking how people make things with the ten-minute limit; c0020 explaining the red block as groups of people and luck
+   transitions: 62q35l:1>1.1
+
+== lost-057  propose  [pending]
+   source t09 (working out whether endless pixels were a glitch); lift lost:t09 > T3-016 > T4-003 > D01
+   statement: checking whether apparent placements registered
+   how: A post-event question about endless pixels receives an uncertain glitch explanation that distinguishes apparent interface success from effective contribution.
+   codes: c0083 asking why endless pixels appeared possible; c0084 explaining that glitch pixels probably were not placed
+   transitions: 638j19:7>7.1
+
+== math-002  propose  [pending]
+   source t09 (bringing people into what the pixel project is); lift math:t09 > T3-016 > T4-003 > D01
+   statement: explaining the canvas to an out-of-loop member
+   how: An out-of-loop member receives an explanation of the canvas and its placement interval.
+   codes: c0071 saying they are out of the loop on r/place; c0073 explaining the April-fool-gone-too-far pixel project
+   transitions: 632o66:1>1.1
+
+== math-003  propose  [pending]
+   source t01 (recognizing an unnamed ongoing contest); lift math:t01 > T3-016 > T4-003 > D01
+   statement: recognizing an unidentified ongoing contest
+   how: An unnamed contest recognition cannot establish that the participant understands or identifies the canvas.
+   codes: c0001 identifying the image as part of an ongoing contest, not mathematics
+
+== megaman-002  propose  [pending]
+   source t03 (explaining the pixel canvas to people who missed it); lift megaman:t03 > T3-016 > T4-003 > D01
+   statement: explaining the canvas to participants and latecomers
+   how: Members explain both the live pixel canvas and its finalized state to people who missed the event.
+   codes: c0004 explaining r/place as a hive-mind pixel-canvas; c0070 explaining the finished canvas and communities' wars
+
+== metalcore-004  propose  [pending]
+   source t05 (explaining r/place and joining the cause); lift metalcore:t05 > T3-016 > T4-003 > D01
+   statement: t05
+   how: Make explanation of the canvas and its controls an explicit participation practice that can recur after placement has ended.
+   codes: c0013 explaining the canvas and saying their subreddit did that painting; c0015 downloading the Reddit app just to help the cause; c0149 asking what the r/place subreddit is; c0150 explaining the April Fools pixel canvas through their memorial
+   transitions: 638rr7:8>8.1
+
+== metalcore-039  propose  [pending]
+   source t05 (explaining r/place and joining the cause); lift metalcore:t05 > T3-016 > T4-003 > D01
+   statement: t05
+   how: Make the memorial bringing a newcomer into the room and receiving a welcome an explicit visibility return.
+   codes: c0147 joining the subreddit after seeing the memorial and helping; c0153 welcoming the memorial recruit as a new brother
+   transitions: 638rr7:6>6.1
+
+== metroid-005  propose  [pending]
+   source t03 (explaining pixels, cooldowns, and what people are looking at); lift metroid:t03 > T3-016 > T4-003 > D01
+   statement: explaining the canvas to prospective contributors
+   how: Confused readers require an explanation of pixels, cooldowns and collective pictures after construction is already underway.
+   codes: c0127 asking what the image is; c0132 saying the r/place answer did not explain it; c0134 explaining pixels, the five-minute wait and subreddit pictures; c0135 repeating the pixel-and-subreddit explanation
+   transitions: 631g2m:4.1.1>4.1.1.1, 631g2m:4.1.2>4.1.2.1
+
+== mindcrack-007  propose  [pending]
+   source t08 (asking what r/place is and explaining the pixel rules); lift mindcrack:t08 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas and its pixel rules to participants
+   how: Questions about the event receive explanations of the five-minute pixel rule in both early canvas talk and the weekly questions thread.
+   codes: c0003 explaining one pixel every five minutes; c0084 asking the weekly thread what r/place even is; c0085 explaining the five-minute colored-dot canvas
+   transitions: 631vjm:1>1.1
+
+== minecraft-008  propose  [pending]
+   source t02 (Explaining r/place and what its pixels show); lift minecraft:t02 > T3-016 > T4-003 > D01
+   statement: t02
+   how: Members explain placement rules and supply context for readers who cannot identify the event or its pictures
+   codes: c0004 asking for context about the pickaxe post; c0006 answering a request for context with the r/place announcement; c0007 explaining r/place as placing a pixel on a map; c0179 asking what r/place is and who can draw; c0180 explaining the one-pixel and five-minute rules; c0240 asking someone to ELI5 r/place; c0241 explaining that people got together to form art
+
+== mls-031  propose  [pending]
+   source t05 (Learning the canvas one pixel at a time); lift mls:t05 > T3-016 > T4-003 > D01
+   statement: Teaching newcomers the canvas mechanics
+   how: Newcomers learn the one-pixel mechanic, conserve placements through existing ground and later report joining the work.
+   codes: c0031 working out that the MLS logo must be added one pixel at a time; c0032 starting on existing red so clicks are not wasted on red; c0283 asking what r/place is; c0284 joining in after learning how r/place works
+
+== msu-003  propose  [pending]
+   source t04 (explaining what r/place is); lift msu:t04 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Explaining the canvas supplies orientation before participation without demonstrating that the explanation recruited anyone.
+   codes: c0006 explaining r/place as Reddit's April fool deal
+
+== nbaspurs-037  propose  [pending]
+   source t08 (working out what r/place is); lift nbaspurs:t08 > T3-016 > T4-003 > D01
+   statement: Allow recurring orientation questions during building and after closure.
+   how: Participants ask what the canvas is during building and after the event without establishing a single completed orientation phase.
+   codes: c0041 asking what place is; c0047 saying they do not know what this is about; c0059 explaining r/place through the 'NEW style' refrain; c0099 asking after the event whether place was a big digital quilt
+
+== neopets-071  propose  [pending]
+   source t15 (explaining the canvas to people drawn into helping); lift neopets:t15 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas after recruitment
+   how: People can receive protection instructions before understanding the event, so late explanation and location help remain necessary after mobilization.
+   codes: c0073 being told to protect the Jubjub while out of the loop; c0074 explaining one pixel every five minutes; c0081 locating the Jubjub on the left edge near the middle
+   transitions: 6369gh:2>2.1
+
+== nerf-028  propose  [pending]
+   source t10 (explaining how r/place and the finished dart worked); lift nerf:t10 > T3-016 > T4-003 > D01
+   statement: t10
+   how: After completion a question about the post receives an explanation of the canvas rule.
+   codes: c0066 asking what the finished canvas post is about; c0067 explaining r/Place and its one-pixel-every-five-minutes rule
+   transitions: 6385v7:4>4.1
+
+== newzealand-060  propose  [pending]
+   source t10 (explaining what r/place is and what happened); lift newzealand:t10 > T3-016 > T4-003 > D01
+   statement: t10
+   how: Providing and withholding explanations shape access to participation and understanding beyond calls for placing hands.
+   codes: c0291 explaining r/place and saying the laser kiwi was destroyed for lasering too much stuff; c0363 explaining that users colour tiles and subs work together; c0364 finding the tile-colouring explanation interesting; c0376 asking for a rundown of the flag thing; c0377 refusing to give the rundown
+   transitions: 633a3p:4.1>4.1.1, 633gt2:0>1
+
+== nin-003  propose  [pending]
+   source t06 (catching up people who missed what place was); lift nin:t06 > T3-016 > T4-003 > D01
+   statement: explaining the canvas during and after placement
+   how: Explanations answer confusion both during building and after closure, so sensemaking is not limited to recruiting future placers.
+   codes: c0047 feeling left out of the unexplained place activity; c0048 explaining communities making marks while fighting and seeking friends; c0137 asking for an explanation after place ends; c0139 explaining that proximity led NIN and Radiohead to team up; c0147 accepting the imperfect ending as a distorted With Teeth logo
+   transitions: 62v8rt:3>3.1, 637qa9:4.1>4.1.1
+
+== nlsscirclejerk-058  propose  [pending]
+   source t03 (explaining what all the pixels are); lift nlsscirclejerk:t03 > T3-016 > T4-003 > D01
+   statement: explaining the canvas during ongoing work
+   how: Questions and direct explanations make the event intelligible while recruitment and building already proceed, rather than necessarily preceding them.
+   codes: c0019 asking what r/place is about; c0020 explaining the one-pixel timer and factions; c0024 asking what all the pixels are; c0025 answering that the pixels are r/place; c0058 joining and working from the top right downward
+   transitions: 62tjau:5>5.1, 62uxup:3>3.1
+
+== norge-013  propose  [pending]
+   source t07 (showing newcomers how r/place works); lift norge:t07 > T3-016 > T4-003 > D01
+   statement: T4-003
+   how: Explaining mechanics and completed collective work is a distinct process that can answer curiosity without recruiting a builder.
+   codes: c0037 explaining one pixel per ten minutes to newcomers; c0255 asking what the flag business was; c0256 explaining their five-minute pixels, Norwegian flag, and war with r/texas; c0281 explaining the art as hundreds and thousands acting together; c0282 wishing they had been part of it
+   transitions: 63cuvl:1.3>1.3.1
+
+== ohio-003  propose  [pending]
+   source t02 (learning how to find, use, and later explain the canvas); lift ohio:t02 > T3-016 > T4-003 > D01
+   statement: explaining how the canvas works during and after placement
+   how: Members explain pixel placement both to potential contributors and to people asking after closure.
+   codes: c0014 asking what the weird things across Reddit are; c0015 explaining the April 1st canvas and its ten-minute pixels; c0034 asking how to place a pixel; c0035 explaining how to change one pixel; c0113 asking what r/place was for after it ended; c0114 explaining r/place after it ended
+   transitions: 62ulpp:1>1.1, 62wyy6:7>7.1, 63847e:2>2.1
+
+== paladins-008  propose  [pending]
+   source t12 (explaining r/place to a newcomer); lift paladins:t12 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas while work is already underway.
+   how: A newcomer asks what the event is during defense, so understanding can be acquired after mobilization is underway.
+   codes: c0136 asking what r/place is; c0139 explaining r/place as Reddit’s April Fools experiment
+
+== parabola-019  propose  [pending]
+   source t04 (looking for the r/place JS and an API); lift parabola:t04 > T3-016 > T4-003 > D01
+   statement: t04
+   how: Retain inspecting source licensing and an alternative API as technical inquiry distinct from teaching canvas basics or reporting automated placement.
+   codes: c0013 asking for the JS license of the r/place code; c0014 pointing to the place JS files after not finding them on GitHub; c0015 pointing to an API instead of using their JS
+   transitions: 6326lv:4>4.1
+
+== patriots-005  propose  [pending]
+   source t14 (explaining r/place as collaborative pixel making); lift patriots:t14 > T3-016 > T4-003 > D01
+   statement: explaining the canvas to newcomers
+   how: Explanation of the pixel limit and collaboration continues for newcomers after placement has ended.
+   codes: c0175 explaining r/place to a newcomer as collaborative pixel making; c0274 asking what the whole r/place thing was about; c0275 explaining that placing single pixels made people collaborate
+
+== polyamory-005  propose  [pending]
+   source t03 (not knowing what the notification is about); lift polyamory:t03 > T3-016 > T4-003 > D01
+   statement: reporting an unintelligible event notification without joining or refusing
+   how: A respondent reports being unable to understand an event notification without joining or refusing, which the model's bare-answer element and explanation placement do not capture.
+   codes: c0006 saying they cannot tell what the notification is about
+   transitions: 62uaxr:0>1
+
+== portal-016  propose  [pending]
+   source t09 (explaining what r/place is and what it is for); lift portal:t09 > T3-016 > T4-003 > D01
+   statement: T4-003
+   how: Explaining the canvas and questioning its purpose remain a distinct ongoing practice already recognised in the ladder but unnamed among standing processes.
+   codes: c0062 asking whether r/place is a time capsule; c0063 calling r/place a fun social experiment; c0064 saying r/place is there for the memes; c0065 asking whether r/place will end
+
+== portugal-003  propose  [pending]
+   source t09 (explaining how the canvas works); lift portugal:t09 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas and orienting returning members
+   how: Explaining the placement rule helps newcomers understand the canvas.
+   codes: c0028 explaining that everyone can place one chosen-colour pixel every five minutes; c0337 welcoming a newcomer by pointing them to r/place
+
+== portugal-004  propose  [pending]
+   source t33 (catching up after missing r/place); lift portugal:t33 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas and orienting returning members
+   how: Returning members request orientation while continuing to visit the host community.
+   codes: c0181 returning to find Squirtles holding pixel-art flags and asking what happened; c0184 saying they do not even know what a Squirtle is; c0209 continuing to visit r/portugal without knowing what r/place is
+
+== prequelmemes-004  propose  [pending]
+   source t06 (teaching newcomers how r/place worked); lift prequelmemes:t06 > T3-016 > T4-003 > D01
+   statement: T4-003
+   how: Newcomer questions receive explanations of the canvas, location links and individual placing.
+   codes: c0006 calling the link perfect and asking how it was made; c0007 explaining how clicking a pixel makes a location URL; c0069 asking how to use place; c0070 explaining pixel timing and working together to tell the tragedy
+   transitions: 62mu00:1.2.1>1.2.1.1, 62o3ud:2>2.1
+
+== purdue-004  propose  [pending]
+   source t12 (asking what r/place or the picture means); lift purdue:t12 > T3-016 > T4-003 > D01
+   statement: t12
+   how: Explanation requests persist after the work is visible, so membership does not establish shared understanding of the event.
+   codes: c0134 asking what the canvas activity is; c0135 also asking for a simple explanation; c0177 asking what r/place is; c0178 explaining r/place as Reddit April Fools; c0288 asking for an explanation of the timelapse; c0290 asking what this is and whether Purdue is winning
+
+== purplecorner-004  propose  [pending]
+   source t11 (learning how pixel placement works); lift purplecorner:t11 > T3-016 > T4-003 > D01
+   statement: Asking how to become able to place
+   how: A timer question shows practical orientation being sought before participation, without proving an answer, successful learning, or a workaround.
+   codes: c0019 asking how the pixel timer works
+
+== qotsa-037  propose  [pending]
+   source t08 (explaining the icon and the Place thing); lift qotsa:t08 > T3-016 > T4-003 > D01
+   statement: t08
+   how: Participants clarify whether a question concerns the emblem or the event, then explain the event to someone who missed it.
+   codes: c0040 asking what the icon is; c0043 explaining the icon as Songs for the Deaf cover art; c0044 clarifying they meant the Place event; c0045 explaining Place as Reddit's April Fools thing; c0046 saying QOTSA did not make the cut before Place ended
+   transitions: 63787a:3>3.1, 63787a:3.1>3.1.1, 63787a:3.1.1>3.1.1.1
+
+== quebec-004  propose  [pending]
+   source t08 (explaining how to join and checking what is being built); lift quebec:t08 > T3-016 > T4-003 > D01
+   statement: T4-003
+   how: A willing newcomer needs an explanation of the canvas before participating, preserving the ladder's sensemaking step outside the standing processes.
+   codes: c0062 asking how to participate in order to help; c0063 explaining the canvas and how people organise drawings
+   transitions: 62wku5:2>2.1
+
+== rangers-056  propose  [pending]
+   source t07 (explaining how r/place and its tools work); lift rangers:t07 > T3-016 > T4-003 > D01
+   statement: explaining the canvas and coordination tools
+   how: Questions about the canvas and Discord receive practical explanations, restoring the ladder's teaching category to the local account.
+   codes: c0092 asking what r/place is; c0093 explaining that subreddits collaboratively create pixel images; c0143 asking what Discord is; c0144 explaining Discord as chat and voice
+   transitions: 62z62f:4>4.1, 631f5e:1>1.1
+
+== raocow-058  propose  [pending]
+   source t06 (explaining and joking about the canvas); lift raocow:t06 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas and reacting playfully to an automatic reply during coordination
+   how: Orientation and a joke about an automatic reply accompany the work without requiring a host-room April Fools prank.
+   codes: c0011 asking what this is; c0014 explaining it as a big canvas put up on April first; c0032 joking about the summoned robot
+
+== ravens-009  propose  [pending]
+   source t08 (explaining r/place and arguing over how to ask); lift ravens:t08 > T3-016 > T4-003 > D01
+   statement: Explaining the canvas to a local questioner
+   how: A local question receives an explanation of the shared canvas and tile interval.
+   codes: c0041 asking the room to explain r/place; c0044 explaining one tile every ten minutes on a shared canvas
+   transitions: 62uhdj:1>1.2
+
+== ravens-010  propose  [pending]
+   source t08 (explaining r/place and arguing over how to ask); lift ravens:t08 > T3-016 > T4-003 > D01
+   statement: Defending the right to ask locally
+   how: A sarcastic referral prompts the questioner to defend asking locally, requiring an account of access to explanation beyond either sensemaking or host-wide governance.
+   codes: c0041 asking the room to explain r/place; c0042 sarcastically sending the questioner out of the room; c0043 defending asking the local thread and calling the reply rude
+   transitions: 62uhdj:1>1.1, 62uhdj:1.1>1.1.1
+
+== redhotchilipeppers-002  propose  [pending]
+   source t06 (asking and explaining what r/place is); lift redhotchilipeppers:t06 > T3-016 > T4-003 > D01
+   statement: explaining what the canvas is
+   how: Explanations continue during building and after closure rather than forming one preliminary stage.
+   codes: c0050 asking what r/place is; c0051 explaining the canvas and saying the room still has nothing; c0096 asking why r/place is appearing across band subreddits; c0097 explaining how communities banded together to make art on r/place; c0098 thanking the explainer when r/place makes sense
+   transitions: 62yz98:1>1.1, 631gkr:6.1.1>6.1.1.1
+
+== rhythmheaven-003  propose  [pending]
+   source t02 (asking what place is); lift rhythmheaven:t02 > T3-016 > T4-003 > D01
+   statement: asking what the canvas is
+   how: The concept records a question about the event, so its placement cannot establish that an explanation was supplied.
+   codes: c0003 asking what place is
+
+== ripcity-007  propose  [pending]
+   source t09 (explaining Place to someone who still does not get it); lift ripcity:t09 > T3-016 > T4-003 > D01
+   statement: t09
+   how: An explanation of the canvas receives continuing confusion rather than demonstrated understanding.
+   codes: c0084 asking what the recurring subreddit images are; c0086 explaining it as this year's April Fools thing; c0087 remaining confused after the explanation
+   transitions: 62tqz1:2>2.1, 62tqz1:2.1>2.1.1
+
+== runescape-002  propose  [pending]
+   source t02 (Explaining how r/place and its RuneScape work operated); lift runescape:t02 > T3-016 > T4-003 > D01
+   statement: T3-016
+   how: Explaining placement rules and the meaning of existing drawings enables comprehension distinct from calling for hands.
+   codes: c0002 asking what the blue corner is and why people care about it; c0338 asking the subreddit to explain r/place; c0339 explaining that each user places one colored pixel every five minutes; c0488 explaining the mural and banding together to keep Connection Lost up
+   transitions: 62x94v:0>1
+
+== samuraijack-058  propose  [pending]
+   source t23 (explaining why the pixel posts matter here); lift samuraijack:t23 > T3-016 > T4-003 > D01
+   statement: locating and explaining the work without recruiting
+   how: Sensemaking also occurs after placement ends when a member asks what the images mean and accepts an explanation.
+   codes: c0320 asking what the pixel images and posts were for; c0321 explaining that the community fought back to restore Jack and Aku before r/place ended; c0322 thanking the explainer for clarifying r/place
+   transitions: 6384mj:7.2.1>7.2.1.1, 6384mj:7.2.1.1>7.2.1.1.1

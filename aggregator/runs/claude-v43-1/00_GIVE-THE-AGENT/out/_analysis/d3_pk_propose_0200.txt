@@ -1,0 +1,634 @@
+propose lines: 1362 in all; packet [200, 300): 100 lines in 85 rooms
+nodes in the packet: {'T3-014': 91, 'T3-015': 6, 'T3-016': 3}
+
+#### node T3-014 (moving planning into a chat): 175 lines in all; fourth-order T4-010; dimension D02
+
+== lakers-013  propose  [pending]
+   source t14 (keeping Discord invitations working for logo coordination); lift lakers:t14 > T3-014 > T4-010 > D02
+   statement: Moving pixel coordination into a separate chat
+   how: Participants created a Discord, supplied functioning invitations, and returned current canvas coordinates to Reddit.
+   codes: c0114 creating a Discord to coordinate the Laker logo; c0118 confirming the invite works; c0121 posting the area where they are doing the logo
+
+== lakers-014  propose  [pending]
+   source t14 (keeping Discord invitations working for logo coordination); lift lakers:t14 > T3-014 > T4-010 > D02
+   statement: Keeping the organizing venue reachable
+   how: Venue access required repeated invitation repair before participants could reach the coordination channel.
+   codes: c0120 asking to replace an expired invite; c0124 replacing the expired invite
+
+== linux-016  propose  [pending]
+   source t09 (sending coordination to r/linuxmasterrace and Discord); lift linux:t09 > T3-014 > T4-010 > D02
+   statement: T3-014
+   how: Organizing relays targets and requests between the local thread, a kindred subreddit and chat without exposing all external decisions.
+   codes: c0023 redirecting coordination to r/linuxmasterrace; c0057 asking r/linux for reinforcements in Discord; c0075 cross-posting a pixel art PSA from r/linuxmasterrace; c0124 returning to the work after a message from r/linuxmasterrace; c0125 sending people to one exact image on r/linuxmasterrace
+
+== lithuania-009  propose  [pending]
+   source t04 (moving the planning to Discord and bringing decisions back); lift lithuania:t04 > T3-014 > T4-010 > D02
+   statement: Moving planning into shared chat and returning its plans and decisions to the subreddit.
+   how: Participants move planning into shared chat and return its plans and decisions to the subreddit.
+   codes: c0018 moving Lithuania–Latvia communication to a shared Discord; c0036 bringing a Discord-made plan back and inviting everyone in; c0048 relaying Discord's decision to permit the flag pole; c0069 sending people to Discord because all planning happens there
+
+== lithuania-010  propose  [pending]
+   source t04 (moving the planning to Discord and bringing decisions back); lift lithuania:t04 > T3-014 > T4-010 > D02
+   statement: Relaying a chat decision as permission to a neighbouring builder.
+   how: A messenger explicitly reports discussion in Discord before conveying permission concerning the pole.
+   codes: c0048 relaying Discord's decision to permit the flag pole
+
+== lithuania-011  propose  [pending]
+   source t04 (moving the planning to Discord and bringing decisions back); lift lithuania:t04 > T3-014 > T4-010 > D02
+   statement: Repairing access to the planning chat by replacing invalid invitations.
+   how: Restoring an invalid invitation keeps access to the planning venue available after the initial move into chat.
+   codes: c0078 reporting that the Discord invite says invalid; c0079 replacing an invalid Discord invite
+   transitions: 62z1m1:2.1.1>2.1.1.1
+
+== littlewitchacademia-013  propose  [pending]
+   source t06 (carrying some organising into Discord); lift littlewitchacademia:t06 > T3-014 > T4-010 > D02
+   statement: reporting support in an existing chat and proposing a dedicated build channel
+   how: Participants reported cheering in an existing Discord and proposed adding a channel for this build.
+   codes: c0029 cheering the effort on Discord while working on another logo; c0030 making a Discord channel for the build
+   transitions: 63495k:10.1.1>10.1.1.1
+
+== liverpoolfc-012  propose  [pending]
+   source t10 (coordinating a YNWA logo through Discord and Reddit); lift liverpoolfc:t10 > T3-014 > T4-010 > D02
+   statement: t10
+   how: Adds moving planning between chat and the public thread as a coordination process that returns designs and progress while imposing access costs.
+   codes: c0105 moving interested helpers into Discord; c0115 sharing a mockup of the end goal; c0119 giving up on helping after Discord asks for a login; c0122 posting the logo's progress; c0156 moving the coordinated logo push to Discord after yesterday did not work; c0173 moving the letters centrally and directing helpers to Discord; c0183 saying Discord makes organising everyone easier
+
+== liverpoolfc-013  propose  [pending]
+   source t10 (coordinating a YNWA logo through Discord and Reddit); lift liverpoolfc:t10 > T3-014 > T4-010 > D02
+   statement: t10
+   how: Makes participation in chat-led coordination depend on access or a public fallback because some helpers lack chat access or struggle to find the group.
+   codes: c0119 giving up on helping after Discord asks for a login; c0120 saying Discord is not needed; c0124 redirecting the conflicting builder to Discord; c0125 finding the Discord group after struggling to join
+   transitions: 631t0z:3.2.1>3.2.1.1
+
+== lofihiphop-011  propose  [pending]
+   source t04 (sending people to Discord and forums for plan updates); lift lofihiphop:t04 > T3-014 > T4-010 > D02
+   statement: distinguishing external plan updates from unobserved external decisions
+   how: An invitation to external updates establishes venue routing but cannot establish where decisions were made or whether participants attended.
+   codes: c0011 directing people to Discord and forums for plan updates
+
+== lofihiphop-012  propose  [pending]
+   source t04 (sending people to Discord and forums for plan updates); lift lofihiphop:t04 > T3-014 > T4-010 > D02
+   statement: T3-014
+   how: Include routing participants to external plan updates as a process without requiring evidence that planning or decisions actually moved there.
+   codes: c0011 directing people to Discord and forums for plan updates
+   transitions: 637ee0:1>1.1
+
+== loliconsunite-012  propose  [pending]
+   source t05 (calling in helpers and moving coordination to Discord); lift loliconsunite:t05 > T3-014 > T4-010 > D02
+   statement: Distinguishing originating, advertising, and moving coordination
+   how: Invitations, outside help requests, and proposed chat coordination need separate treatment because advertising an effort does not establish that planning moved there.
+   codes: c0005 giving the originating Discord invite; c0040 asking a hentai Discord for help against vandalism; c0053 calling for coordination through Discord; c0065 offering to make a Loliconsunite Discord; c0066 agreeing to join a new Discord; c0070 announcing a Loliconsunite Discord; c0088 saying Discord only carried word that the Reddit effort existed
+   transitions: 634qmv:2.2.1.1.1.1.1.1>2.2.1.1.1.1.1.1.1
+
+== lsu-010  propose  [pending]
+   source t09 (Proposing a schoolwide Discord); lift lsu:t09 > T3-014 > T4-010 > D02
+   statement: proposing a shared chat before organizing moves there
+   how: Proposing a schoolwide chat and offering to create it precede any evidenced migration, whose occurrence remains unresolved.
+   codes: c0036 asking for a schoolwide Discord; c0070 offering to set up a schoolwide Discord by tomorrow
+
+== madokamagica-052  propose  [pending]
+   source t03 (taking planning to Discord and returning decisions); lift madokamagica:t03 > T3-014 > T4-010 > D02
+   statement: Relaying decisions between a planning chat and a public thread.
+   how: Appeals enter a planning chat and return as agreements, authorised changes, and public plan images.
+   codes: c0021 taking the build appeal to the Discord for deliberation; c0022 agreeing to follow once the builder makes a base; c0030 correcting the alert because Discord authorized the eye change; c0060 moving most planning to Discord while updating an image here; c0098 moving coexistence talks into Discord voice chat
+   transitions: 62wjrr:0>1, 62wjrr:1>1.1, 62xa8u:0>1
+
+== maryland-010  propose  [pending]
+   source t09 (moving coordination into Discord, documents, flair, and a sticky); lift maryland:t09 > T3-014 > T4-010 > D02
+   statement: Moving coordination into a chat and returning selected plans to the public thread
+   how: A requested chat is opened and joined, while design discussion returns to Reddit without revealing the chat deliberation.
+   codes: c0079 moving Swedish organising from r/Sweden to Discord; c0150 offering to start a Discord for better communication; c0151 opening a Discord and asking people to join; c0152 joining the new Discord; c0226 reporting that tag redesign is being discussed on Discord
+   transitions: 632gor:3>3.1
+
+== masseffect-033  propose  [pending]
+   source t07 (moving coordination through Discord and back); lift masseffect:t07 > T3-014 > T4-010 > D02
+   statement: Relaying plans between chat participants and placers outside the chat
+   how: Internal chat coordination requires a route back to placers outside it, whose participation exceeds chat membership and prompts a wish for a sticky.
+   codes: c0156 moving easier coordination to Discord; c0194 sending people to Discord for current activity; c0230 sneaking pixels in while at work despite missing the Discord talks; c0231 saying every pixel placer counted beyond the small Discord; c0232 wishing the coordinated effort had been announced in a sticky
+
+== metalcore-012  propose  [pending]
+   source t04 (taking secret strategies to Plug.dj); lift metalcore:t04 > T3-014 > T4-010 > D02
+   statement: t04
+   how: Make routing secret strategy into a separate chat an explicit process while distinguishing visible redirection from inaccessible deliberation.
+   codes: c0010 sending people to the Plug.dj room; c0011 planning secret strategies in the Plug.dj room
+
+== mexico-052  propose  [pending]
+   source t03 (moving pixel plans into live threads and Discord); lift mexico:t03 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Explain moving plans between venues, granting access and relaying changes into collective or machine action without presuming universal command.
+   codes: c0064 moving coordination into a 55-person live chat; c0073 explaining that the chat organises their pixels; c0093 sending the design decision to the live thread; c0188 asking for team effort so moving Yoshi is not mistaken for sabotage; c0189 sending the Yoshi move to the Discord server; c0227 asking for a fresh invite because cooperating requires Discord; c0297 looking in Discord for today's plan; c0298 directing everyone to fill green from the UK border and claim territory; c0300 updating the bot with the flag; c0326 recontando un fin de semana de pixeles pese a ser ignorado y expulsado
+   transitions: 62psev:1>1.1, 62zjsm:1.1>1.1.1, 63782l:5>5.1
+
+== minnesotavikings-010  propose  [pending]
+   source t08 (moving build talk through Discord); lift minnesotavikings:t08 > T3-014 > T4-010 > D02
+   statement: Relaying decisions through chat and a script setter
+   how: Chat decisions return to the thread, and changing executable targets requires contacting the person configuring them rather than only announcing a shared design.
+   codes: c0151 reporting the Discord decision to use brown; c0231 sending the proposal to the person setting their bot scripts
+
+== mls-032  propose  [pending]
+   source t14 (Moving live coordination into chat); lift mls:t14 > T3-014 > T4-010 > D02
+   statement: Routing live coordination into chat
+   how: A live-chat invitation routes coordination beyond the thread without exposing decisions made there.
+   codes: c0323 moving coordination into the Freenode chat
+
+== monalisaclan-014  propose  [pending]
+   source t08 (moving plans through Discord, polls, scripts, and messages); lift monalisaclan:t08 > T3-014 > T4-010 > D02
+   statement: moving plans through chat and returning decisions to the room
+   how: Discord decisions return through reports about borders and reintegration while participants also request access to the chat.
+   codes: c0102 bringing back Discord's refusal to make a border; c0116 bringing back Discord's focus on reintegrating r/trees; c0190 asking for a Discord link
+
+== monalisaclan-015  propose  [pending]
+   source t08 (moving plans through Discord, polls, scripts, and messages); lift monalisaclan:t08 > T3-014 > T4-010 > D02
+   statement: restoring access while participation is still possible
+   how: Access restoration can arrive too late for an excluded participant to contribute through the coordination venue.
+   codes: c0221 appealing a ban from the Protect the Art Discord; c0222 answering the appeal by confirming the unban came too late
+   transitions: 636xt0:0>1
+
+== monero-010  propose  [pending]
+   source t06 (arguing over how much r/place belongs in the subreddit); lift monero:t06 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Divide live strategy into chat and public updates into threads while preserving a route back to earlier readers
+   codes: c0072 moving detailed script discussion to #monero-offtopic; c0084 using Reddit for major announcements while questions move to IRC; c0092 sending ongoing coordination to Freenode IRC #monero-offtopic; c0095 asking that the earlier post keep viewers updated
+
+== monero-033  propose  [pending]
+   source t06 (arguing over how much r/place belongs in the subreddit); lift monero:t06 > T3-014 > T4-010 > D02
+   statement: T4-025
+   how: A visible mark returns attention to ordinary room participation through a visitor's self-reported arrival and contemplated mining
+   codes: c0061 defending the logo as community power and creative PR; c0064 arriving because of the logo and considering mining; c0065 welcoming the work but asking that its conversation be contained
+
+== montenegro-006  propose  [pending]
+   source t02 (taking flag coordination to Discord and keeping the invite alive); lift montenegro:t02 > T3-014 > T4-010 > D02
+   statement: maintaining access to a coordination chat
+   how: Sharing a coordination server and renewing an expired invitation form a local process omitted from the standing process list despite its chat category in the ladder.
+   codes: c0008 sharing the Discord server; c0014 asking for a renewed Discord invite after spending all day there
+
+== mylittlepony-013  propose  [pending]
+   source t03 (moving coordination through Manechat and SaveDashie); lift mylittlepony:t03 > T3-014 > T4-010 > D02
+   statement: t03
+   how: Repairing venue access, coaching newcomers and relaying voted decisions explains how backstage coordination becomes usable in the public thread.
+   codes: c0027 asking for a working Discord link after finding the visible one expired; c0028 supplying Manechat after the Discord link fails; c0038 joining Discord for coaching and contributing one probably misplaced pixel; c0151 bringing back a template agreed after hours of Discord discussion and voting
+
+== nbaspurs-035  propose  [pending]
+   source t18 (moving place work into Discord and back); lift nbaspurs:t18 > T3-014 > T4-010 > D02
+   statement: Represent backstage coordination as routing across replaceable venues with instructions returned to the public thread.
+   how: A proposed chat start point returns to Reddit, the earlier server is replaced, and a later failed invite limits access to coordination.
+   codes: c0196 seeking Discord for more efficient collaboration; c0211 bringing a proposed Discord start point back to Reddit; c0215 sending place talk to the sub's own Discord; c0216 moving coordination to the subreddit Discord and shutting the earlier server; c0227 reporting the Discord invite does not work
+   transitions: 633aov:35>35.1, 633aov:38.1.2.1>38.1.2.1.1
+
+== necrodancer-013  propose  [pending]
+   source t03 (taking the art's coordination to Discord); lift necrodancer:t03 > T3-014 > T4-010 > D02
+   statement: Moving live coordination between the host thread and an art-specific chat
+   how: Complex work prompts a dedicated chat while public threads retain corrections, requests, progress reports, and routes to updated plans.
+   codes: c0005 sending editing and maintenance to Discord; c0030 moving complicated extension work to Discord; c0034 making a Discord specifically for the art; c0032 checking whether the guide and placed pixels match; c0035 asking for the art on a grid; c0014 reporting the work half done; c0078 sending relocation updates to Discord
+
+== norge-014  propose  [pending]
+   source t10 (moving organising into Discord and other rooms); lift norge:t10 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Moving planning into chat and reporting targets back is an organizing process beyond containing posts in a megathread.
+   codes: c0095 calling for organisation on Discord; c0096 answering the call by opening the Discord; c0143 sending the samlet norske initiative to Discord; c0145 announcing a timed invasion of Greece coordinated on Discord; c0171 sending the flag design to the collection thread and Discord
+   transitions: 62ubjk:1>1.1
+
+== notredame-057  propose  [pending]
+   source t07 (moving coordination into Discord and bringing plans back); lift notredame:t07 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Name moving coordination into chat and returning a plan for uptake as a process, since the ladder recognizes it but the standing elements omit it.
+   codes: c0017 honoring agreed territory and asking for a coordination channel; c0075 opening a Discord for r/place coordination and recruiting organizers; c0090 bringing a Discord-made GCND plan back for comment; c0091 dropping GO after hearing the Discord plan
+
+== nyu-018  propose  [pending]
+   source t04 (opening a place to communicate); lift nyu:t04 > T3-014 > T4-010 > D02
+   statement: Opening communication after a mark is already up
+   how: A communication question leads to a chat suggestion, Discord invite, and endorsement after the torch is displayed, giving T3-014 an explicit within-room process.
+   codes: c0013 showing the NYU torch in reddit.com/place; c0017 asking where people are communicating; c0019 suggesting Discord or GroupMe for communication; c0020 opening a Discord for the work; c0021 endorsing the Discord invite
+   transitions: 6340uq:2.1>2.1.2, 6340uq:2.1.2>2.1.2.1, 6340uq:2.1.2.1>2.1.2.1.1
+
+== ohio-017  propose  [pending]
+   source t08 (moving Ohio coordination into chats and Discord); lift ohio:t08 > T3-014 > T4-010 > D02
+   statement: choosing a communication venue for planning
+   how: Flag builders and expansion proposers advertise Discord independently of any established interroom coalition.
+   codes: c0045 moving Ohio flag help into a Discord; c0099 moving an expansion discussion into Discord; c0100 inviting expansion-minded Ohioans into Discord
+
+== oneshot-011  propose  [pending]
+   source t07 (taking canvas coordination to Discord); lift oneshot:t07 > T3-014 > T4-010 > D02
+   statement: coordinating in chat and returning instructions to the thread
+   how: Chat posts trigger awareness, issues are worked out backstage, and permission questions are redirected there while instructions return to the thread.
+   codes: c0018 taking a Discord post as the build starting; c0037 working out canvas issues in Discord's cafe; c0053 redirecting canvas permission to Discord
+
+== orderofthebluecorner-011  propose  [pending]
+   source t09 (taking Blue activity to Discord and a stream); lift orderofthebluecorner:t09 > T3-014 > T4-010 > D02
+   statement: Announcing additional venues without showing their decisions
+   how: Discord and stream announcements identify additional venues but leave their organizing contents unresolved.
+   codes: c0026 announcing a Blue Brothers Discord; c0029 streaming Blue Corner domination
+
+== orderofthebluecorner-012  propose  [pending]
+   source t09 (taking Blue activity to Discord and a stream); lift orderofthebluecorner:t09 > T3-014 > T4-010 > D02
+   statement: Distinguishing announced venues from observed migration of planning
+   how: An announced chat is insufficient evidence that planning actually moved there when its body and decisions are missing.
+   codes: c0026 announcing a Blue Brothers Discord; c0029 streaming Blue Corner domination
+
+== overwatch-018  propose  [pending]
+   source t24 (moving canvas coordination into shared tools); lift overwatch:t24 > T3-014 > T4-010 > D02
+   statement: Routing coordination into chat and returning selected decisions
+   how: Discord invitations and reports of chat choices supply a coordination route beyond public progress reports and picture templates
+   codes: c0733 moving Pharah coordination onto Discord; c1100 moving Pharah repair coordination to Discord; c1081 saying Overwatch chose the Torb compromise design in Discord
+
+== pakistan-010  propose  [pending]
+   source t02 (moving flag coordination into Skype, Telegram, and a new post); lift pakistan:t02 > T3-014 > T4-010 > D02
+   statement: carrying coordination and decisions between chats and the public thread
+   how: Chat invitations, concealed scripts, private messages, and returned location instructions connect public recruitment with partly unseen organising
+   codes: c0007 sharing Telegram's flag coordinates, workers, outline, borders, and colours; c0032 moving the flag script to Discord because it cannot be risked on Reddit; c0122 sending a new location and script by private message; c0160 redirecting the location decision to Discord
+
+== paladins-018  propose  [pending]
+   source t25 (moving negotiations and next plans into Discord); lift paladins:t25 > T3-014 > T4-010 > D02
+   statement: Moving a next design decision into chat and returning usable instructions.
+   how: A wordmark proposal moves into an existing server while target images and invitations remain available in the public thread.
+   codes: c0238 proposing PALADINS after finishing the crystal; c0239 sending the PALADINS proposal to Discord while cleanup continues; c0240 asking for the Discord; c0241 giving the sidebar Discord invite; c0231 supplying Peru with the crystal logo image
+
+== palestine-054  propose  [pending]
+   source t08 (moving coordination to Discord and back); lift palestine:t08 > T3-014 > T4-010 > D02
+   statement: Routing coordination between Discord and the host thread.
+   how: Participants create a coordination chat, return an agreed design, gather projects in a thread, and identify themselves on returning from the chat.
+   codes: c0012 making a Discord to coordinate efforts; c0042 bringing back a heart design agreed on Discord; c0035 centralizing flag projects after leaving Discord; c0064 checking place is over and identifying oneself from Discord
+
+== patriots-012  propose  [pending]
+   source t07 (moving the build talk into Discord); lift patriots:t07 > T3-014 > T4-010 > D02
+   statement: moving planning into a shared chat
+   how: Participants create a planning Discord and share an alliance chat while its internal deliberations remain outside the visible record.
+   codes: c0071 making a Discord and asking for help modding it; c0166 giving the alliance Discord
+
+== placeDE-054  propose  [pending]
+   source t02 (moving decisions between Discord and Reddit); lift placeDE:t02 > T3-014 > T4-010 > D02
+   statement: t02
+   how: Participants withdraw from projects when decision venues or timing exclude them from discussing what gets made.
+   codes: c0363 defending Discord as faster and saying Reddit readers miss its votes; c0364 saying subreddit discussion passes Discord by; c0365 withdrawing to projects where they can discuss what gets made; c0366 refusing Discord-decided work that excludes people at work
+
+== placehearts-062  propose  [pending]
+   source t06 (moving decisions into chats, polls, and representatives); lift placehearts:t06 > T3-014 > T4-010 > D02
+   statement: making and relaying decisions through chats and polls
+   how: Reported votes and chat compromises become public instructions through an official venue whose inaccessible deliberations and broken links limit what outsiders can verify.
+   codes: c0014 opening a PlaceHearts chat room; c0055 reporting a unanimous poll for horizontal rainbow hearts; c0073 reporting a Discord compromise for a blue background; c0353 directing an official Lakers compromise to the Discord; c0227 posting to the heart placers: The discord link is expired; c0229 posting to the heart placers: The discord link is broken
+
+== placestart-011  propose  [pending]
+   source t05 (moving coordination and negotiation to Discord); lift placestart:t05 > T3-014 > T4-010 > D02
+   statement: Routing proposals through an external decision venue
+   how: Participants use an external chat for coordination and send incorporation proposals to its administrators.
+   codes: c0026 moving coordination onto the Discord server; c0108 asking the sub while negotiating in placestart Discord; c0452 sending the Tampa proposal to discord to work out incorporation
+
+== placestart-012  propose  [pending]
+   source t05 (moving coordination and negotiation to Discord); lift placestart:t05 > T3-014 > T4-010 > D02
+   statement: Maintaining access to the coordinating venue
+   how: Expired invitations and requests to join make venue access a practical condition of participation rather than an automatic consequence of referral.
+   codes: c0209 reporting an expired Discord link; c0213 wanting access to the Discord; c0218 reporting that the Discord link is not working
+
+== planetside-033  propose  [pending]
+   source t09 (trying to keep scattered placers coordinated); lift planetside:t09 > T3-014 > T4-010 > D02
+   statement: Seeking a coordination channel without establishing one
+   how: Requests for a coordination server establish a desired channel while only the other group's chat visit is confirmed.
+   codes: c0062 asking someone to set up a Discord because the proposer lacks time and experience; c0073 seeking Discord for claiming territory and placestart for politics; c0121 defending Green Lattice after visiting their Discord
+
+== polska-008  propose  [pending]
+   source t06 (moving plans into Discord, megathreads, scripts and bots); lift polska:t06 > T3-014 > T4-010 > D02
+   statement: Routing current plans and participants into a separate chat.
+   how: Participants route builders and questions about current plans into chat and pinned instructions.
+   codes: c0041 sending Polish flag builders to Discord to organise better; c0059 asking for the plan while people try to remove the rainbow; c0060 answering that everything is on Discord; c0088 directing people to Discord and its pinned plans
+   transitions: 62yt7n:1.2>1.2.1
+
+== porterrobinson-013  propose  [pending]
+   source t03 (moving live pixel plans into Discord); lift porterrobinson:t03 > T3-014 > T4-010 > D02
+   statement: Routing live planning into a named chat
+   how: Named channel referrals move participants toward ongoing plan updates without exposing the decisions made there.
+   codes: c0048 moving live plan updates into a Discord channel; c0057 directing kaomoji coordination to Discord
+
+== portugal-019  propose  [pending]
+   source t20 (moving coordination to IRC or Discord); lift portugal:t20 > T3-014 > T4-010 > D02
+   statement: Coordinating plans across public and private venues
+   how: Organisers use private messages and chats to develop plans and return instructions while access to those deliberations remains uneven.
+   codes: c0022 sending a private message to check the plan; c0091 calling people to IRC because they are under attack; c0172 asking for chat or Discord to coordinate the project; c0342 going to Discord to organise, talk and propose ideas; c0333 saying Discord had already decided to end the faculties
+
+== portugal-020  propose  [pending]
+   source t06 (checking the plan in a private message); lift portugal:t06 > T3-014 > T4-010 > D02
+   statement: Coordinating plans across public and private venues
+   how: A planning check explicitly moves into a private message whose deliberation the public record cannot reveal.
+   codes: c0022 sending a private message to check the plan
+
+== portugal-021  propose  [pending]
+   source t20 (moving coordination to IRC or Discord); lift portugal:t20 > T3-014 > T4-010 > D02
+   statement: Coordinating plans across public and private venues
+   how: Attack alerts route helpers to chat and participants explicitly defend chat as a place to organise and propose ideas.
+   codes: c0091 calling people to IRC because they are under attack; c0095 proposing a Discord like the Rainbowroad people; c0172 asking for chat or Discord to coordinate the project; c0342 going to Discord to organise, talk and propose ideas
+
+== prequelmemes-013  propose  [pending]
+   source t02 (calling people in and routing them to Discord); lift prequelmemes:t02 > T3-014 > T4-010 > D02
+   statement: T3-014
+   how: Make routing helpers into a coordinating chat and returning instructions an explicit process beside the standing template process.
+   codes: c0188 creating a subreddit for organizing the tragedy art; c0189 redirecting a new organizing effort to the existing Discord server; c0193 telling new people where to edit and to check the discord; c0424 coordinating before placing and refreshing before every dot
+   transitions: 62s4ud:1.1>1.1.1
+
+== prequelmemes-014  propose  [pending]
+   source t02 (calling people in and routing them to Discord); lift prequelmemes:t02 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Public invitations, reports of existing coordination and instructions connect the visible thread to a backstage chat without exposing its deliberations.
+   codes: c0189 redirecting a new organizing effort to the existing Discord server; c0308 directing people to the official Senate Discord; c0424 coordinating before placing and refreshing before every dot
+
+== prequelmemes-017  propose  [pending]
+   source t02 (calling people in and routing them to Discord); lift prequelmemes:t02 > T3-014 > T4-010 > D02
+   statement: T4-011
+   how: A no-attack rule is described as already decided rather than subject to a new vote.
+   codes: c0426 making attacks on other groups a no-go rather than a vote
+
+== purplecorner-010  propose  [pending]
+   source t07 (moving coordination to Discord and sister rooms); lift purplecorner:t07 > T3-014 > T4-010 > D02
+   statement: Routing coordination through chat, restricting access, and selectively relaying policy
+   how: Moving basically everything to Discord and restricting important channels makes backstage coordination and selective disclosure necessary to the local account.
+   codes: c0051 moving coordination and basically everything to Discord; c0072 keeping important Discord channels from the rival purple group; c0096 relaying Discord policy that art is protected
+
+== quebec-017  propose  [pending]
+   source t07 (moving live coordination into Discord); lift quebec:t07 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Moving deliberation into live chat addresses poor coordination on Reddit, a backstage decision step named in the ladder but missing from the standing processes.
+   codes: c0045 proposing a Google Drive sheet for strategic commitments; c0046 noting other groups use Discord to organise; c0123 sending better ideas to Discord
+
+== radiohead-011  propose  [pending]
+   source t08 (moving the live plan to Discord); lift radiohead:t08 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Live decisions move into chat and revised instructions return to the public thread, leaving participants unevenly informed about the current plan.
+   codes: c0103 moving coordination into the Discord place channel; c0175 changing the text for readability as agreed on discord; c0177 discovering that the group has a Discord; c0189 using a Discord discussion to justify a wider O; c0192 discussing an Amnesiac-like background in Discord; c0193 bringing the new Discord plan back to reddit; c0219 bringing a Discord discussion of a red background back to r/radiohead
+
+== rangers-057  propose  [pending]
+   source t08 (moving coordination to Discord and other venues); lift rangers:t08 > T3-014 > T4-010 > D02
+   statement: maintaining access to coordination venues and returning instructions
+   how: Creating chat access, replacing an expired invite, and routing script retrieval through chat establish coordination infrastructure with unseen internal decisions.
+   codes: c0142 making a Rangers Discord to coordinate r/place; c0145 reporting that the Discord invite expired; c0146 replacing the expired Discord invite; c0181 giving coordinates and sending people to the Discord for the script
+   transitions: 631f5e:3>3.1
+
+== redhotchilipeppers-016  propose  [pending]
+   source t05 (moving r/place talk and negotiation into Discord); lift redhotchilipeppers:t05 > T3-014 > T4-010 > D02
+   statement: moving planning into a chat
+   how: Members explicitly move continued planning and recruitment into Discord.
+   codes: c0047 proposing that planning move to Discord; c0049 opening Discord for continued r/place discussion; c0082 recruiting help through Discord; c0083 recruiting help to finish the r/place masterpiece and join Discord
+
+== redhotchilipeppers-017  propose  [pending]
+   source t05 (moving r/place talk and negotiation into Discord); lift redhotchilipeppers:t05 > T3-014 > T4-010 > D02
+   statement: making chat coordination usable before treating it as decided
+   how: Moving planning into chat first requires usable access when participants cannot find a channel and the inviter cannot create one.
+   codes: c0052 joining Discord but not finding the channel; c0053 trying to get proper r/place conversation going in main chat
+   transitions: 62yz98:1.1.1>1.1.1.1
+
+== ripcity-015  propose  [pending]
+   source t08 (moving some coordination to Discord and private messages); lift ripcity:t08 > T3-014 > T4-010 > D02
+   statement: t08
+   how: Discord invitations and instructions to message individual overwriters reveal coordination venues while leaving their internal contents unobserved.
+   codes: c0078 inviting helpers into the continuing Discord; c0089 giving a Discord link for coordinated efforts; c0169 private-messaging people who change pixels back
+
+== rotmg-009  propose  [pending]
+   source t10 (gathering scattered work into organising channels); lift rotmg:t10 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: An explicit backstage-planning process is needed to explain routing helpers into chat, recognising an existing group and relaying decisions back into public threads.
+   codes: c0149 joining Discord for better rebuilding communication; c0189 answering a band-together call with an existing Discord; c0196 deciding in Discord against further changes toward Slovenia; c0229 redirecting a builder to the subreddit's r_place Discord channel
+
+== samuraijack-062  propose  [pending]
+   source t16 (asking for a Discord to coordinate Aku); lift samuraijack:t16 > T3-014 > T4-010 > D02
+   statement: choosing where collaborators can see the plan
+   how: Repeated undoing motivates requests for a shared chat and a later dedicated coordination invitation.
+   codes: c0210 spending all day redrawing pixels but not keeping up; c0211 asking for a discord or more people in the thread; c0213 wanting a discord so additions are not mistaken for stray pixels; c0304 opening a Discord chat to discuss and work on Aku
+   transitions: 63127u:2.1>2.1.1
+
+== serbia-012  propose  [pending]
+   source t05 (moving canvas organising to Discord); lift serbia:t05 > T3-014 > T4-010 > D02
+   statement: t05
+   how: Explicitly moving planning into chat supplies an organizing route named by the ladder but omitted from the standing process elements.
+   codes: c0037 proposing everyone gather on Discord after losing the right to speak; c0083 moving organisation to Discord; c0093 giving participants a Discord channel
+
+== skyrim-055  propose  [pending]
+   source t01 (calling people in and sending them to Discord); lift skyrim:t01 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Planning moves into dedicated chat channels and returns as approved public instructions, a venue circuit missing from the standing processes.
+   codes: c0003 doing the outline first and moving the inside decision to Discord; c0006 switching coordination to the #place channel; c0125 saying both discords share the new plan and need to get the word out; c0126 announcing that the compromise is approved and pointing to the sticky; c0136 coordinating on the Skyrim Discord and recruiting help
+
+== smashbros-015  propose  [pending]
+   source t03 (moving canvas coordination into Discord and other channels); lift smashbros:t03 > T3-014 > T4-010 > D02
+   statement: Moving plans between public threads and a planning chat
+   how: Public coordination and credit coexist with later chat planning whose invitations and instructions return to public threads
+   codes: c0009 making a coordination thread; c0398 crediting Reddit with completing 20XX inside the shine; c0226 working on Discord to make Smash Bros art; c0266 sending builders to Discord for the full plan
+
+== snsd-015  propose  [pending]
+   source t05 (taking the discussion to Discord); lift snsd:t05 > T3-014 > T4-010 > D02
+   statement: moving space discussion into a separate chat
+   how: Builders receive a Discord link and hear that the space discussion is taking place there.
+   codes: c0045 sending builders to Discord; c0055 moving the space discussion to Discord
+
+== southafrica-011  propose  [pending]
+   source t05 (moving faster coordination into Discord and chat); lift southafrica:t05 > T3-014 > T4-010 > D02
+   statement: t05
+   how: Add a standing process for routing planning into partially used chat alongside public reports and templates, retaining the backstage practice already represented on the ladder.
+   codes: c0030 asking for a Discord channel to coordinate; c0031 creating a Discord channel for the flag; c0074 sending painters to the Discord for details; c0135 moving faster coordination into chat; c0055 saying the Discord has little activity while people do their own thing
+
+== spacexmasterrace-013  propose  [pending]
+   source t11 (moving coordination into the SpaceX IRC); lift spacexmasterrace:t11 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Parallel thread and chat routes require an explicit coordination process while leaving internal chat authority unresolved.
+   codes: c0027 placing a pixel and reacting to the IRC; c0028 giving the SpaceX IRC channel; c0030 explaining how to enter the IRC through webIRC; c0065 directing a negotiator to the thread and SpaceX IRC; c0102 inviting Star Trek to discuss a respectful Falcon 9 redesign in IRC
+   transitions: 62pl1b:10.1>10.1.1
+
+== spain-054  propose  [pending]
+   source t05 (moving plans into Discord, r/placeES and one megathread); lift spain:t05 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Moving fragmented flag work into a shared planning chat is an explicit local process missing from the standing elements.
+   codes: c0117 saying the few Spaniards are divided among three or four flags without a Discord; c0037 arguing a Discord is needed to organise; c0041 creating a Discord server to organise; c0012 moving organising to Discord after an agreement with France and Germany
+   transitions: 62yyx7:1.1.1.1>1.1.1.1.1
+
+== spain-055  propose  [pending]
+   source t05 (moving plans into Discord, r/placeES and one megathread); lift spain:t05 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Repairing expired invitations and returning access keeps the planning venue usable.
+   codes: c0043 asking for a permanent invite after one expired; c0044 replacing an expired invite; c0058 asking back into the Discord after losing access; c0059 returning the Discord invite
+   transitions: 62zzxm:1>1.1, 633n41:0>1
+
+== ssbpm-014  propose  [pending]
+   source t03 (moving the uncoordinated build talk into Discord); lift ssbpm:t03 > T3-014 > T4-010 > D02
+   statement: t03
+   how: Replacing expired invitations is a concrete access-maintenance step within moving coordination backstage.
+   codes: c0084 asking for a replacement Discord invite; c0085 supplying a replacement Discord invite
+
+== starryknights-057  propose  [pending]
+   source t05 (moving coordination and membership through Discord); lift starryknights:t05 > T3-014 > T4-010 > D02
+   statement: Relaying decisions and maintaining access across chat and subreddit
+   how: Chat decisions become public plots, people rebuild without joining chat, and a raid redirects help to the posted template.
+   codes: c0006 opening their official Discord; c0022 using the Discord members' choice for the bottom left; c0074 falling back to the template while Discord is raided; c0098 rebuilding from the plot without joining Discord
+   transitions: 6308wh:0>1
+
+== startrek-014  propose  [pending]
+   source t15 (trying to get organised through targets, allies, and Discord); lift startrek:t15 > T3-014 > T4-010 > D02
+   statement: T3-014
+   how: Moving art discussion and bot coordination into chat connects public recruitment to a backstage venue without requiring an interroom coalition.
+   codes: c0100 asking whether they have a Discord server; c0101 downloading Discord to get the build going and seeking a useful Blue alliance; c0131 gathering in a Discord server; c0132 coordinating art and maintenance bots on Discord
+   transitions: 631ud7:1.2.1.1.1>1.2.1.1.1.1
+
+== stevenuniverse-014  propose  [pending]
+   source t07 (Moving canvas coordination through Discord and back to Reddit); lift stevenuniverse:t07 > T3-014 > T4-010 > D02
+   statement: Screening planning access and carrying decisions back to public placers
+   how: Private planning required screened entry and public summaries so participants outside the chat could coordinate their pixels.
+   codes: c0280 screening Discord applicants for authenticity; c0298 asking that Discord's current work return to a pinned Reddit post; c0340 bringing the Discord plan back to people outside the server; c0419 sharing the official Discord privately to avoid trolls; c0303 trying to join Discord but finding the invite broken
+
+== stlouisblues-015  propose  [pending]
+   source t11 (taking coordination to Discord and Facebook); lift stlouisblues:t11 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Outside venues carry companionship, intelligence and recruitment as well as diplomacy, so coalition membership alone cannot explain this backstage work.
+   codes: c0041 going undercover in OSU's Discord to confirm they were giving up; c0044 joining the Blues Discord for company and alliance gossip while working; c0079 bringing a pre-existing Facebook Blues group into the build; c0134 serving as diplomat across 12 Discord servers while users placed pixels
+
+== tagpro-010  propose  [pending]
+   source t07 (moving the work into group chats, scripts, and shared plans); lift tagpro:t07 > T3-014 > T4-010 > D02
+   statement: t07
+   how: Existing group chat and Discord carry coordination, design vetting, resource gathering, and reported voting.
+   codes: c0015 moving sign coordination into the ELTP groupme; c0041 coordinating in Discord; c0064 sending all design vetting, buy-in, and coordination through Discord; c0082 listening, voting on dischord, and deciding to remove the bomb
+
+== telegram-011  propose  [pending]
+   source t02 (bringing people into the Telegram logo effort); lift telegram:t02 > T3-014 > T4-010 > D02
+   statement: T3-014
+   how: Recruitment directs people into a separate chat while Reddit retains plans and status reports, requiring an explicit account of coordination across venues.
+   codes: c0004 asking for a Telegram logo and sending people to a Telegram group; c0006 marking three logo steps complete and asking what to draw next; c0009 asking to make the Telegram group easier to join; c0010 adding the group link anyway
+
+== teslamotors-013  propose  [pending]
+   source t08 (moving pixel coordination into shared tools); lift teslamotors:t08 > T3-014 > T4-010 > D02
+   statement: moving current coordination between chat and the thread
+   how: Routing helpers to current chat instructions explains coordination that neither public progress reports nor static templates alone cover.
+   codes: c0141 moving real-time coordination and strategy to Discord; c0182 asking helpers to join the discord to organize effort; c0197 sending defenders to live Discord chat and pinned messages; c0222 directing would-be helpers to the Discord channel for current information
+
+== texas-055  propose  [pending]
+   source t09 (Moving coordination to Discord and other threads); lift texas:t09 > T3-014 > T4-010 > D02
+   statement: Routing plans between public threads and outside coordination venues
+   how: Members create and locate coordination venues, direct arrivals to pinned instructions, and bring plans back into public threads.
+   codes: c0126 opening a Discord channel for coordinating; c0288 asking for a Discord where everyone can coordinate; c0206 sharing a permanent Discord link and directing arrivals to pinned messages; c0129 moving proposal discussion to the day9 thread; c0099 bringing the Discord plan back to slide R/ left
+
+== theblackvoid-011  propose  [pending]
+   source t03 (Moving coordination into Discord and other rooms); lift theblackvoid:t03 > T3-014 > T4-010 > D02
+   statement: Contesting access and authority across coordination venues
+   how: Restricted access and anti-spy closures make participation depend on negotiating venue entry as well as finding a shared plan.
+   codes: c0674 reporting that a Discord problem blocks contribution; c1579 complaining that closing Discord to spies removed organisation; c1896 asking for another Discord invitation after being kicked; c1898 clarifying that they want the original Discord
+   transitions: 63e31i:0>1, 63e31i:1>1.1
+
+== theexpanse-014  propose  [pending]
+   source t03 (organizing the work between Reddit and Discord); lift theexpanse:t03 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: Routing proposals into chat and returning decisions to public threads is a distinct coordination process absent from the standing elements.
+   codes: c0003 moving to an MCRN flag and inviting people to coordinate on Discord; c0067 making a central area for deciding what comes next; c0090 sending proposals to Discord where everything gets organized; c0105 taking an hour or more to agree what to do
+
+== timbers-052  propose  [pending]
+   source t01 (gathering people into one main coordination thread and chat); lift timbers:t01 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: An explicit chat-coordination process would explain repeated invitations and concurrent Reddit reporting while preserving uncertainty about unseen decisions.
+   codes: c0005 offering to set up a chat room for coordination; c0006 making a Discord server; c0075 saying the post came before doing much and asking whether Discord was going; c0076 inviting people to ongoing Discord coordination; c0077 reporting the work going and keeping coordination in Discord
+
+== tinytardis-013  propose  [pending]
+   source t07 (organizing through Discord); lift tinytardis:t07 > T3-014 > T4-010 > D02
+   statement: T4-010
+   how: The standing account needs chat invitations and public reports of chat decisions, while preserving which group's chat made each reported decision.
+   codes: c0016 inviting people to the Discord chat; c0054 agreeing on Discord to leave the TARDIS alone
+
+== traaaaaaannnnnnnnnns-009  propose  [pending]
+   source t04 (moving flag coordination into Discord); lift traaaaaaannnnnnnnnns:t04 > T3-014 > T4-010 > D02
+   statement: Routing coordination through a created chat
+   how: Creating a chat, inviting coordination there, and routing urgent defense calls through it form an explicit process already distinguished in the ladder but missing from the standing elements.
+   codes: c0017 creating a Discord when the room asks for one; c0018 inviting the room to group up and coordinate on Discord; c0041 calling the room to battlestations and Discord after war is declared; c0042 posting the Discord invite for the battlestations call
+
+== twice-010  propose  [pending]
+   source t09 (opening Discord for live discussion); lift twice:t09 > T3-014 > T4-010 > D02
+   statement: moving live coordination into chat and returning plans to the host
+   how: Live discussion and coordination move into Discord while invitations and reported plans continue returning to Reddit
+   codes: c0058 opening a Discord server for live discussion; c0072 organizing together in Discord to replace TT with r/TWICE; c0091 crediting jon on Discord for the blueprint; c0100 directing people to the server for live updates; c0119 directing a helper into the Discord
+
+== undertale-014  propose  [pending]
+   source t13 (moving plans through Discord and private messages); lift undertale:t13 > T3-014 > T4-010 > D02
+   statement: relaying plans and agreements between chat and public threads
+   how: Coordination crosses public threads, chat, and direct messages, with agreements relayed outward and reported design ideas returning as canvas changes.
+   codes: c0003 recruiting people into the Undertale Discord to join the cause; c0017 explaining Discord makes coordination and recruitment easier; c0044 carrying the pixel agreement back to Discord; c0088 privately messaging people placing blocks inside Temmie; c0221 seeing a Discord joke turned into the canvas design
+
+== unturned-014  propose  [pending]
+   source t06 (moving r/place coordination into Discord); lift unturned:t06 > T3-014 > T4-010 > D02
+   statement: t06
+   how: Planning moves into a separate chat while instructions return to the subreddit, requiring an explicit backstage route in the standing process account.
+   codes: c0042 making a Discord server to organise; c0043 offering the r/place Discord link by private message; c0050 asking for fixes to the eyes and forehead; c0051 moving next-step coordination into Discord
+
+== uwaterloo-014  propose  [pending]
+   source t09 (moving plans through Discord, scripts, and bots); lift uwaterloo:t09 > T3-014 > T4-010 > D02
+   statement: Relaying backstage decisions into public coordination
+   how: Discord discussion returns an alternate plan and future instructions, while the Reddit master post promises continued updates from the stated headquarters.
+   codes: c0092 bringing an alternate plan back from Discord; c0100 directing updates and future plans to Discord; c0113 making Discord the HQ while updating the Reddit master post
+
+== virginiatech-032  propose  [pending]
+   source t05 (moving coordination to Discord and bringing updates back); lift virginiatech:t05 > T3-014 > T4-010 > D02
+   statement: moving coordination into chat and bringing instructions back
+   how: Members move detailed coordination into chat while relaying coordinates and designs back for those outside it.
+   codes: c0056 making a Discord to coordinate better and asking everyone to join; c0060 calling for help with the VT logo and moving coordination to Discord; c0063 asking for the build location outside Discord; c0083 bringing the Discord design back to Reddit
+
+== vocaloid-052  propose  [pending]
+   source t06 (moving coordination between Reddit and Discord); lift vocaloid:t06 > T3-014 > T4-010 > D02
+   statement: Contesting access to the planning venue
+   how: Requiring a separate chat account can become a disputed condition for proposing canvas changes, distinct from authority to make inter-room treaties.
+   codes: c0045 moving discussion of building Miku to Discord; c0077 asking builders to use Discord before adding confusing changes; c0078 rejecting an unannounced leek that does not look like one; c0079 refusing a separate Discord account to pitch a Reddit idea
+   transitions: 634f8r:4>4.1
+
+== xcom-011  propose  [pending]
+   source t05 (setting up other places and tools for the work); lift xcom:t05 > T3-014 > T4-010 > D02
+   statement: Distinguishing proposed coordination venues from adopted venues
+   how: Inviting a Discord and suggesting better communication establish a proposed venue rather than demonstrated migration of decisions.
+   codes: c0026 inviting someone else to set up a Discord; c0031 proposing Discord for less disorganized communication
+
+#### node T3-015 (routing canvas posts into megathreads): 6 lines in all; fourth-order T4-002; dimension D06
+
+== Russiaclan-059  propose  [pending]
+   source t03 (finding where the work is being coordinated); lift Russiaclan:t03 > T3-015 > T4-002 > D06
+   statement: locating and reconnecting dispersed coordination
+   how: Participants locate dispersed coordination through an outside discussion link and invite planning back into the room when coordination is unclear.
+   codes: c0006 not knowing where coordination is happening because the sub is dead; c0007 guessing people are joining by seeing the flag and doing it; c0015 pointing people to talks on 2ch; c0024 inviting an art operation to be planned in r/russiaclan
+
+== denmark-014  propose  [pending]
+   source t07 (moving r/place posts into megathreads and collection threads); lift denmark:t07 > T3-015 > T4-002 > D06
+   statement: Controlling the discussion venue and controlling canvas placers are distinct capacities.
+   how: A binding megathread rule coexists with organisers reporting that they cannot identify or stop people placing flags.
+   codes: c0182 sending every r/place post into one megathread; c0235 answering that they have tried to stop the unknown flag placers
+
+== finland-028  propose  [pending]
+   source t06 (moving and managing r/place talk); lift finland:t06 > T3-015 > T4-002 > D06
+   statement: Inviting coordination in an off-platform chat without observed uptake
+   how: A ship-building thread directs readers toward Discord without showing whether organising actually moved there
+   codes: c0022 moving would-be ship builders toward Discord
+
+== hawks-051  propose  [pending]
+   source t12 (corralling r/place posts and returning the weekly thread to hockey talk); lift hawks:t12 > T3-015 > T4-002 > D06
+   statement: ordinary room business continuing beside the event
+   how: Ordinary hockey advice and publication questions continue beside the moderation dispute without evidence that containment caused their return.
+   codes: c0191 sharing a jersey-sale link with a new fan; c0192 asking whether The Athletic is worthwhile for hockey alone; c0193 asking whether others visit Hfboards
+
+== pitt-054  propose  [pending]
+   source t07 (keeping r/place talk in one megathread); lift pitt:t07 > T3-015 > T4-002 > D06
+   statement: C01
+   how: Inherited moderator powers can organize canvas work without participants appointing a new canvas leadership structure.
+   codes: c0065 moderator removing the Penn State attack post; c0075 choosing a white box with a yellow border; c0149 asking participants to keep r/place work in the megathread
+
+== scotland-012  propose  [pending]
+   source t07 (putting the weird pixel shit in one sticky and Discord); lift scotland:t07 > T3-015 > T4-002 > D06
+   statement: T4-010
+   how: Planning moves into faster and replacement chats, and a decision returns to Reddit without exposing the deliberation that produced it.
+   codes: c0037 setting up a quicker Discord for r/place; c0045 making a replacement Discord server for coordination; c0128 linking the Discord after being asked; c0131 reporting the Discord decision to stop pasting over NAT
+
+#### node T3-016 (explaining what the canvas is): 129 lines in all; fourth-order T4-003; dimension D01
+
+== DatBoi-004  propose  [pending]
+   source t06 (naming r/place as where this is happening); lift DatBoi:t06 > T3-016 > T4-003 > D01
+   statement: identifying the canvas as the setting of a loss report
+   how: A venue-name reply identifies the event setting without explaining the canvas or teaching its mechanics.
+   codes: c0014 identifying r/place as the setting
+
+== FinalFantasy-007  propose  [pending]
+   source t06 (working out how r/place works); lift FinalFantasy:t06 > T3-016 > T4-003 > D01
+   statement: explaining canvas participation and closure to members and late readers
+   how: Members explain direct pixel coordination, ask about closure, and identify the event for a late reader.
+   codes: c0014 explaining that you work together from opposite sides; c0087 asking when the canvas will be locked; c0088 guessing the event end from earlier April Fools events; c0120 asking what the recolored image is from; c0122 answering that the image is from r/place
+   transitions: 633hue:8.2.1>8.2.1.1, 6389j6:10>10.1
+
+== HomestarRunner-006  propose  [pending]
+   source t07 (connecting Place to familiar things); lift HomestarRunner:t07 > T3-016 > T4-003 > D01
+   statement: explaining the canvas after a work is visible
+   how: Members answer questions about a completed picture by explaining pixel collaboration, adding a sensemaking practice absent from the standing process elements.
+   codes: c0087 asking what the completed image is; c0091 explaining place as creating art one pixel at a time
+   transitions: 62y2fl:9>9.1

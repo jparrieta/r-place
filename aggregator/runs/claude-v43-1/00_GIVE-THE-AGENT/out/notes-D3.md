@@ -1457,6 +1457,24 @@ The model entered D3 frozen at pass 15 (e15f96470271763d9913e79ed8e332c164a1f176
   3. **New dependences, each in more than one room.** The mark's being seen brings in hands for the work while it is up (D07 and D01). Dealings between rooms bring the other room's members in (D07). The host sub's line or frame sends the room's coordination to another venue, and strain on the work sends it into a chat (D02). Each is a paired elaboration (1, 2).
   4. **Timing.** D07 claims no timing for being brought in, so returns that come while placement runs are specifications, counted by the census (1).
   5. **Not shown, and particulars.** A university admission, a school supervisor and a counting chain are not the canvas work, so these lines are evidence limits. A newcomer driven away by a game's rules, a move that exposes the held spot, and a tree's meaning tied to its spot are each one room's particular. NONPORTABLE lines are particulars (G6) (1, 2).
+- **G59 (logged at D3a-55, before any `propose` line was read or ruled).** 1,362 `propose` lines, in 543 rooms, touch no element (`d3_propose_shape.py`). Each names something the room needed that no element covers, with a statement, a how, cited concepts and a source theme of the room. The source is lifted to a third-order node in 1,301 lines and is unplaced in 61. 19 lines are NONPORTABLE. Section 3 reads them by lifted node, so `_analysis/d3_propose_packet.py` orders them by the source's third-order node and then by room, in packets of at most 100 lines, each line printed whole with its cited concepts. Each line takes one of six rulings.
+  - **Held by the model (reject).** Where an element's statement or range, an arrow's connection, bound or mechanism, or a dimension's question, predicate or third-order themes already state what the line proposes, the line's claim that nothing covers it fails. The reason names the id, as G2 rejects a claim of absence when the concepts show the element.
+  - **Not shown (reject).** Where the cited concepts do not show what the statement says, the line is rejected, and the reason says what they show.
+  - **Shared and new (accept, a candidate).** Where two or more rooms' lines propose the same act or condition in substance, no part of the model states it, and the concepts show it in each room, the proposal is accepted with kind `proposal` and a `pair` naming another room's line. A candidate element then enters the model: an `elements.jsonl` line with status `candidate` and `since: D3`, its tier and dimension from the third-order node that holds its acts, a `history.jsonl` line with the move (developing working hypotheses), a `move` line in the diary and a snap. Its written warrant decides it, not the count.
+  - **One room, or outside the model's scope (particular).** A need shown in one room only stays in that room's local account. So does a need the model is not about: the sub's ordinary business going on apart from the canvas, the event received as news, or play with no tie to any work. The reason says which.
+  - **Portability (particular, G6).** A NONPORTABLE line is a particular.
+  - **Insufficient evidence (pending).** A line whose concepts are too thin to show or refute its statement stays pending and is counted apart.
+
+  - **G59a (amendment, 21 October 2026, D3a-55, written after reading packet 0000 and before any propose line was ruled; it applies to every propose line, and there are no earlier rulings for it to reach backwards).** In the first ruling, 'held by the model' named a dimension's question, predicate or third-order themes beside elements and arrows. That is too wide for these lines. A `propose` line names something the room needed that no element covers (SCHEMA §2), so it asks for an element. A dimension or a third-order theme that names the act places the act in the ladder, but it does not make it an element of the model. So a proposal is held, and rejected, only where an element's statement or range, or an arrow's connection, bound or mechanism, states it. Where only a dimension's predicate or a third-order theme names the act, and several rooms' lines propose it, the act is a candidate, and that node gives the candidate its tier. D3a-54's rulings on dimension links stand. They asked whether a dependence is stated anywhere in the model, and the predicates answer that question.
+
+  Where several rooms' unplaced second-order themes point at the same target, and no third-order theme holds them, a third-order theme is minted (`mem.py mint`), with a `tier_history.jsonl` line (splitting or merging), the members moved (`mem.py reassign`) and the lines re-lifted (`ingest.py D --relift`). Where they do not share a target, these lines are ruled like the others. Before the rows are written, a reading names, for each node, what holds the lines and what is new. After the rulings, a census, written and logged before it runs, counts the lines by node and ruling, and the candidates with their rooms.
+- **G59's readings (D3a-55).** They apply G59, G59a, G6 and G18, and they change no rule. Each was logged in the diary, with its rooms and codes, before the rows it governs were written: one reading for each of the 14 packets. The held lines were decided in the readings named in their rows. The readings fall under six heads.
+  1. **What holds a proposal (G59a).** An element holds a proposal only where its statement or range states the act, and an arrow only where its connection, bound or mechanism states it. P20's statement names members who argue the canvas's worth and moderators who remove canvas posts by rule, so it holds those lines (9, 11). P02 holds a member's proposed picture and a swastika removed from the room's own work (9, 12). K04 holds jokes and lore carried in from before the canvas, and the colour faith (8, 11, 13). P10 holds moves made after a loss (8, 9). A16 holds a refusal of an attack call whose reason names the attack's cost (10). In all, 26 elements and arrows hold 178 lines.
+  2. **Fifteen shared acts that no element states.** Each act is in its own rooms' lines. The chat, members asking and explaining what the canvas means, and the work bringing people into the room come first (1 to 4). The members' own time and means, and a room formed for the canvas, follow (1, 6, 8). Choosing the spot before any loss, and new jokes made of the work, come from reading 8. Arguing whether covering is fair comes from reading 10, the site's limits and the turn on the room's own mark from reading 11, and hiding plans from rivals from reading 12. Turning the work toward the people it shows, members of both rooms, arguing offence and stepping away under strain come from reading 13. Each enters the model as a candidate (moves 182 to 196).
+  3. **Rows moved before any ruling.** Six rows moved from one class to another when a later packet showed the act in another room, before any line was ruled. teslamotors-038 moved from P08 to the spot chosen before a loss (8). eve-037 moved from one room's particular to hiding plans (12). iastate-028 moved to members of both rooms, and corridor-016, funhaus-060 and ockytop-057 moved to stepping away under strain (13).
+  4. **Outside the model's scope.** These lines are particulars: the subs' ordinary business beside the canvas (T3-017), the subs' own April Fools pranks, styling and games (T4-001's themes), upvote pushes for joke posts, remarks on other rooms' pictures, and the event received as news (5 to 7, 9, 10, 14).
+  5. **Not shown, and one room.** Bare titles, bare links and posts whose bodies are gone show no act, so they are rejected (2, 3, 6, 9, 11, 13, 14). A need shown in one room only is that room's particular. Examples are a pixel offered as payment and a translation offered to helpers (1, 2, 7 to 14).
+  6. **No minting (14).** The unplaced themes that name an act point at targets that third-order themes already hold. Questions about what a call means point at T3-016's target, and the subs' April Fools play at the targets of T4-001's themes. The late arrivals are only two rooms' themes. So no theme is minted, no member is reassigned, and no line is re-lifted.
 
 ## Where the mass is (`_views/rooms-x-elements.tsv`, `_analysis/d3_mass.py`)
 
@@ -5337,4 +5355,69 @@ P19 is a candidate process from pass 3 (C2a-03). F-012 found that hosting follow
 - **The ledger** holds 41,666 lines: 122 first rulings from this leg and no re-rulings. Appended re-rulings still number 785.
 - **Pairs.** The dimension files hold 13 pairs (D07 5, D02 5, D01 3). Each names an accepted elaboration in another room (`d3_pair_check.py`, `d3_pair_kind_check.py`).
 - **The other ledgers.** No move was made. History holds 155 lines, elements 30 (all standing), arrows 21, findings 37 and tier history 561. The elements hash (1e241360…) and the arrows hash (ff0b3963…) are unchanged.
+- **Questions.** None is open.
+
+## D3a-55: the propose lines
+
+1,362 `propose` lines, in 543 rooms, touch no element. Each names something the room needed that no element covers. G59 was written before any line was read. Its amendment G59a was written after packet 0000 was read and before any line was ruled, and it applies to every propose line. Its 14 readings, each logged in the diary, are set out under it by head (above). All 1,362 lines are ruled, and none is pending. Counts are from `_analysis/d3_propose_census.py`, `d3_propose_groups.py` and `d3_propose_cover.py`. Every line was read whole in its packet (`d3_propose_packet.py`), with its statement, its full how and its cited concepts, and the concepts of doubtful lines were read through `cite.py`. G1b's draws do not apply, since no line here is an instantiate line.
+
+| ruling | class | lines |
+|---|---|---|
+| accept (kind proposal) | a candidate element | 729 |
+| reject | held by an element or arrow | 178 |
+| reject | not shown | 16 |
+| particular | outside the model's scope | 387 |
+| particular | one room's need | 33 |
+| particular | NONPORTABLE (G6) | 19 |
+| all | | 1,362 |
+
+**The candidates.** Fifteen acts are each in several rooms' lines, and no element or arrow states them. Each entered the model with status `candidate` and `since: D3`, a history line, a move and a snap. Each history line holds the candidate's warrant, its adaptation ids and its rooms. The tier and dimension follow where the candidate's lines lift.
+
+| id | kind | the act, in brief | lines | rooms | tier | dimension | move |
+|---|---|---|---|---|---|---|---|
+| P23 | process | the room's planning moved into a chat, its decisions brought back, the chat disputed | 227 | 199 | T4-010 | D02 | 182 |
+| P24 | process | members ask what the canvas, a call, a name or a picture means, and others explain | 172 | 152 | T4-003 | D01 | 183 |
+| P25 | process | the work brings viewers, allies' members and lapsed members into the room, and members receive them | 169 | 135 | T4-025 | D07 | 184 |
+| P26 | process | new jokes made of the work, its mistakes and its neighbours | 41 | 41 | T4-004 | D05 | 185 |
+| P27 | process | the spot chosen and changed before any loss | 20 | 20 | T4-014 | D04 | 186 |
+| P28 | process | a room formed for the canvas around a mark | 17 | 14 | T4-023, T4-002 | D05, D06 | 187 |
+| P29 | process | offence argued, and slurs and hate symbols refused | 15 | 14 | T4-024 | D05 | 188 |
+| P30 | process | the work turned toward the people it shows or addresses | 11 | 11 | T4-025 | D07 | 189 |
+| P31 | process | whether covering others' work is fair, argued both ways | 7 | 7 | T4-015 | D04 | 190 |
+| P32 | process | a member steps away under strain, or a quarrel between members is repaired | 6 | 6 | T4-012 | D01 | 191 |
+| P33 | process | plans hidden from rivals, and members planted in rivals' chats | 5 | 5 | T4-010, T4-020 | D02, D08 | 192 |
+| P34 | process | members who object to the canvas posts turn on the room's own mark (thin) | 2 | 2 | T4-002 | D06 | 193 |
+| K05 | condition | members place on their own time and devices, and report the cost | 19 | 19 | T4-009, T4-026 | D02, D07 | 194 |
+| K06 | condition | the site's limits and faults, reported and worked around | 14 | 13 | T4-009 | D02 | 195 |
+| K07 | condition | members who belong to both rooms (thin) | 4 | 4 | T4-016 | D04 | 196 |
+
+**What the lines show (the census, `d3_propose_census.py`).** Its rules were logged before it ran. These are counts of lines the labelers wrote, not rates in the population.
+- **Held by the model.** 26 elements and arrows hold 178 lines. P20 holds 20, K04 16, P02 13, P11 12, P14 11, C01 and P08 10 each, P12 9, P06 8 and P16 7. The other 16 hold 62 between them. In each, the act is in the element's statement or range, or in the arrow, so the proposal adds nothing the model lacks.
+- **Where the mass is.** By the source's fourth-order node, T4-010 has 189 lines, of which 183 are accepted. T4-003 has 183 (155 accepted), and T4-025 has 121 (97 accepted). 313 lines have no fourth-order node: T3-017's 251 lines on the subs' ordinary business, one line on a hacked sub, and the 61 unplaced lines. 267 of these 313 are particulars. T4-001 has 48 lines on the subs' own April Fools play, and 47 of them are particulars.
+- **Rooms.** 419 of the 543 rooms have at least one accepted line. In 124 rooms every propose line is a particular or a reject.
+- **The unplaced lines.** Of the 61, 15 are accepted (8 for P24), 10 are rejected (9 not shown) and 36 are particulars (30 outside the scope).
+
+**No correction (§2), and no minting.** A propose line touches no element, so no line is a correction and no element is revised. The fifteen candidates are new entries, not revisions. No third-order theme is minted, for the reasons in G59's reading 14.
+
+**Repairs (G7).** No ruling here turns on whether the room repaired, so the comparison is not made.
+
+**Carried to later groups.**
+- **The candidates.** None has an order test or an arrow. Their order tests, and the clustering, go to D4 and D5. P34 rests on two rooms and K07 on four, and their ranges say so.
+- **What the head carried.** Being seen brings hands, a loop that no arrow states. It now runs through P25 and the keeping that P05 states. The host's line or strain moving coordination into a chat is now an edge between P20 and P23. D07's returns before hour 73 are P25's lines, which claim no timing.
+- **The re-check (§5).** The candidates are new elements. The rooms whose accounts rely on them are the 419 rooms with an accepted propose line, and they go to the re-check scope at D3b with the rewritten elements' rooms.
+- **T3-017.** 251 lines show the subs' ordinary business going on beside the canvas. This marks a bound of the model's scope, not of its claims, and it goes to `uncomposed-D.md`'s reading of the out-of-scope rooms.
+
+**Disclosed limits and slips.**
+- **G59 at first too wide.** As first written, G59 let a dimension's predicate or a third-order theme hold a proposal. G59a narrowed it before any line was ruled.
+- **Rows moved before ruling.** Six spec rows changed class when a later packet showed the act in a second room (head 3 of G59's readings). Eight lines were held across packets and decided in the readings their rows name.
+- **Pairs.** `d3_propose_rulings.py` gave each accepted line a pair: the next line of the same candidate from another room, in spec order. `d3_adjudicate_batch.py` checked that each pair is a ledger line of another room.
+- **Quotes.** The reasons quote no posts. The evidence cites code ids, so no quote check applies.
+- **Slips.** One command set a stray shell variable, a no-op whose name began with for_, against the command rules. It changed nothing, and it is logged. The guard refused a `cut` after a grep and a helper, and the commands ran again without it.
+
+### Close-check, D3a-55
+
+`validate.py D3` reports 42,243 of 42,243 ledger lines ruled. It reports 0 errors and the same 2 old warnings on the move name 'stabilizing'. No line is unruled (`d3_unruled_by_element.py`).
+- **The ledger** holds 43,028 lines: 1,362 first rulings from this leg and no re-rulings. Appended re-rulings still number 785.
+- **Pairs.** The propose files hold 729 pairs, one for each accepted line. Each names a propose line of another room in the same candidate.
+- **The other ledgers.** Fifteen moves were made (182 to 196), each logged and snapped. History holds 170 lines, and elements 45: 30 standing and 15 candidates. Arrows hold 21 lines, findings 37 and tier history 561. The elements hash is now 95570c1f…, and the arrows hash (ff0b3963…) is unchanged.
 - **Questions.** None is open.

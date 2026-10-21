@@ -1,0 +1,54 @@
+{
+ "t": "2026-10-21T11:41:43+00:00",
+ "stage": "D3",
+ "leg": "D3a-55",
+ "answers": {},
+ "expected": {
+  "open": [
+   "contention-dimension",
+   "relocation-renewed-calls"
+  ],
+  "rooms": [
+   "TheFarLeftSide",
+   "afip",
+   "AvoArmy"
+  ],
+  "changed": [
+   "K05",
+   "K06",
+   "K07",
+   "P23",
+   "P24",
+   "P25",
+   "P26",
+   "P27",
+   "P28",
+   "P29",
+   "P30",
+   "P31",
+   "P32",
+   "P33",
+   "P34"
+  ],
+  "next": ""
+ },
+ "status": {
+  "goal": "missing",
+  "open": "missing",
+  "rooms": "missing",
+  "changed": "missing",
+  "next": "n/a"
+ },
+ "scored": 4,
+ "unscored": [
+  "next"
+ ],
+ "misses": [
+  "goal",
+  "open",
+  "rooms",
+  "changed"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
